@@ -1,0 +1,7215 @@
+window.KAOYAN_DATA_2023 = {
+  "text1": {
+    "id": 1,
+    "qRange": "21-25",
+    "title": "Text 1",
+    "paragraphs": [
+      "In the quest for the perfect lawn, homeowners across the country are taking a shortcut— and it is the environment that is paying the price. About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles. The Chelsea Flower Show has banned fake grass from this year’s event, declaring it to be not part of its ethos. The Royal Horticultural Society (RHS), which runs the annual show in west London, says it has introduced the ban because of the damage plastic grass does to the environment and biodiversity.",
+      "Ed Horne, of the RHS, said: “We launched our sustainability strategy last year and fake grass is just not in line with our ethos and views on plastic. We recommend using real grass because of its environmental benefits, which include supporting wildlife, alleviating flooding and cooling the environment.”",
+      "The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes. A Twitter account, which claims to “cut through the greenwash” of artificial grass, already has more than 20,000 followers. It is trying to encourage people to sign two petitions, one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns. They have gathered 7,276 and 11,282 signatures.",
+      "However, supporters of fake grass point out that there is also an environmental impact with natural lawns, which need mowing and therefore usually consume electricity or petrol.",
+      "The industry also points out that real grass requires considerable amounts of water, weed killer or other treatments and that people who lay fake grass tend to use their garden more.",
+      "The industry also claims that people who lay fake grass spend an average of £500 on trees or shrubs for their garden, which provides habitat for insects.",
+      "In response to another petition last year about banning fake lawns, which gathered 30,000 signatures, the government responded that it has “no plans to ban the use of artificial grass”. It added: “We prefer to help people and organizations make the right choice rather than legislating on such matters. However, the use of artificial grass must comply with the legal and policy safeguards in place to protect biodiversity and ensure sustainable drainage while measures such as the strengthened biodiversity duty should serve to encourage public authorities to consider sustainable alternatives.”"
+    ],
+    "questions": [
+      {
+        "qid": 21,
+        "stem": "The RHS thinks that plastic grass .",
+        "stem_cn": "英国皇家园艺学会认为塑料草。",
+        "type": "事实细节题",
+        "locate": "Paragraph 1",
+        "options": [
+          {
+            "key": "A",
+            "text": "is harmful to the environment",
+            "text_cn": "对环境有害",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "B",
+            "text": "is a hot topic in gardening circles",
+            "text_cn": "是园艺界的热门话题",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "is overpraised in the annual show",
+            "text_cn": "在年度展会上被高估",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "is ruining the view of west London",
+            "text_cn": "正在破坏西伦敦的景色",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 22,
+        "stem": "The petitions mentioned in Paragraph 3 reveal the campaigners’ .",
+        "stem_cn": "第 3 段中提到的请愿书揭示了活动家的。",
+        "type": "因果推断题",
+        "locate": "Paragraph 2",
+        "options": [
+          {
+            "key": "A",
+            "text": "disappointment with RHS",
+            "text_cn": "对 RHS 感到失望",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "resistance to fake grass use",
+            "text_cn": "抵抗假草的使用",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "C",
+            "text": "anger over the proposed tax",
+            "text_cn": "对拟议税收的愤怒",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "concern about real grass supply",
+            "text_cn": "对真草供应的担忧",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 23,
+        "stem": "In Paragraph 4, supporters of fake grass point out .",
+        "stem_cn": "在第4段中，假草的支持者指出。",
+        "type": "段落推理题",
+        "locate": "Paragraph 3",
+        "options": [
+          {
+            "key": "A",
+            "text": "the necessity to lower the cost of fake grass",
+            "text_cn": "降低假草成本的必要性",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "the disadvantages of growing real grass",
+            "text_cn": "种植真草的缺点",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "C",
+            "text": "the way to take care of artificial lawns",
+            "text_cn": "人造草坪的养护方法",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "the challenges of insect habitat protection",
+            "text_cn": "昆虫栖息地保护的挑战",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 24,
+        "stem": "What should the government do with regard to artificial grass?",
+        "stem_cn": "对于人造草坪政府应该做什么？",
+        "type": "词义/例证题",
+        "locate": "Paragraph 4",
+        "options": [
+          {
+            "key": "A",
+            "text": "Urge legislation to restrict its use.",
+            "text_cn": "敦促立法限制其使用。",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "Take measures to guarantee its quality.",
+            "text_cn": "采取措施保证其质量。",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "Remind its users to obey existing rules.",
+            "text_cn": "提醒用户遵守现有规则。",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "D",
+            "text": "Replace it with sustainable alternatives.",
+            "text_cn": "用可持续的替代品取而代之。",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 25,
+        "stem": "It can be learned from the text that fake grass .",
+        "stem_cn": "从文中可以得知，假草。",
+        "type": "全文主旨题",
+        "locate": "Paragraph 5",
+        "options": [
+          {
+            "key": "A",
+            "text": "is being improved continuously",
+            "text_cn": "正在不断完善中",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "has seen a market share decline",
+            "text_cn": "市场份额下降",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "is becoming increasingly affordable",
+            "text_cn": "正变得越来越实惠",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "has been a controversial product",
+            "text_cn": "一直是一个有争议的产品",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。"
+          }
+        ]
+      }
+    ],
+    "practice": {
+      "steps": [
+        {
+          "section": "阅前须知",
+          "raw": "# 0.阅前须知\n\n阅前声明，本教程对英语一英语二均适用。\n\n本教程主要解决考研英语阅读备考中的三个结构性问题：\n\n1. **考研英语骗局一**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持认识文章中的所有细节，一个不漏，咱们不可能完全认识文章中的每一个单词，带着不认识的地方读文章做题才是真正的学生视角。即使是有部分超纲生词不认识，从段落和文章主旨、作者态度等宏观阅读文章内容本身分析的层面，也是不影响做全对的；\n\n2. **考研英语骗局二**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接边读边信达雅地翻译出文章，读完一遍只能在脑海里留下大致信息，并且很快遗忘。正确的方式是先粗后细，放弃信达雅的机械翻译，粗读先理解文章大致出现了哪些东西，然后细读采用意群法这种手段实现，即可临危不乱；\n\n3. **考研英语骗局三**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接用某种神技确定某个一定正确的答案。二选一选不出来是个非常正常的现象。用某种神技去秒杀一个文科单选问题违背了逻辑学常识，即孤证不立。通过宏观认知与多判据交叉验证的方式解决，是所有文科单选题的通法。",
+          "html": "<h1>0.阅前须知</h1>\n<p>阅前声明，本教程对英语一英语二均适用。</p>\n<p>本教程主要解决考研英语阅读备考中的三个结构性问题：</p>\n<ol>\n<li><p><strong>考研英语骗局一</strong>：拒绝上帝视角生词全懂，带着超纲生词读宏观主旨同样能做全对；</p></li>\n<li><p><strong>考研英语骗局二</strong>：放弃考场即时信达雅机械翻译，采用意群粗读抓取核心信息；</p></li>\n<li><p><strong>考研英语骗局三</strong>：拒绝所谓单一神技秒杀，采用定位比对与写作视角交叉验证。</p></li>\n</ol>\n<p>大家把考研英语阅读当成真阅读，才能发现真正正确的备考方式。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "# 1. 先读题干\n\n首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰咱们粗读对文章的理解。看题干对考查重点有个大致印象，并且因为题文同序的原则，也能帮助我们提前获取部分文章的逻辑脉络。",
+          "html": "<h1>1. 先读题干</h1><p>首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰粗读理解。看题干对考查重点建立大致印象，借助题文同序原则提前获取文章逻辑脉络。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 21题题干\n\n**The RHS thinks that plastic grass .**\n\n> 英国皇家园艺学会认为塑料草。\n\n题型：**事实细节题**。\n\n定位预判：**Paragraph 1**\n\n---",
+          "html": "<h2>21题题干</h2><p><strong>The RHS thinks that plastic grass .</strong></p><blockquote><p>英国皇家园艺学会认为塑料草。</p></blockquote><p>题型：<strong>事实细节题</strong>。</p><p>定位预判：<strong>Paragraph 1</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "21"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 22题题干\n\n**The petitions mentioned in Paragraph 3 reveal the campaigners’ .**\n\n> 第 3 段中提到的请愿书揭示了活动家的。\n\n题型：**因果推断题**。\n\n定位预判：**Paragraph 2**\n\n---",
+          "html": "<h2>22题题干</h2><p><strong>The petitions mentioned in Paragraph 3 reveal the campaigners’ .</strong></p><blockquote><p>第 3 段中提到的请愿书揭示了活动家的。</p></blockquote><p>题型：<strong>因果推断题</strong>。</p><p>定位预判：<strong>Paragraph 2</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "22"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 23题题干\n\n**In Paragraph 4, supporters of fake grass point out .**\n\n> 在第4段中，假草的支持者指出。\n\n题型：**段落推理题**。\n\n定位预判：**Paragraph 3**\n\n---",
+          "html": "<h2>23题题干</h2><p><strong>In Paragraph 4, supporters of fake grass point out .</strong></p><blockquote><p>在第4段中，假草的支持者指出。</p></blockquote><p>题型：<strong>段落推理题</strong>。</p><p>定位预判：<strong>Paragraph 3</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "23"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 24题题干\n\n**What should the government do with regard to artificial grass?**\n\n> 对于人造草坪政府应该做什么？\n\n题型：**词义/例证题**。\n\n定位预判：**Paragraph 4**\n\n---",
+          "html": "<h2>24题题干</h2><p><strong>What should the government do with regard to artificial grass?</strong></p><blockquote><p>对于人造草坪政府应该做什么？</p></blockquote><p>题型：<strong>词义/例证题</strong>。</p><p>定位预判：<strong>Paragraph 4</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "24"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 25题题干\n\n**It can be learned from the text that fake grass .**\n\n> 从文中可以得知，假草。\n\n题型：**全文主旨题**。\n\n定位预判：**Paragraph 5**\n\n---",
+          "html": "<h2>25题题干</h2><p><strong>It can be learned from the text that fake grass .</strong></p><blockquote><p>从文中可以得知，假草。</p></blockquote><p>题型：<strong>全文主旨题</strong>。</p><p>定位预判：<strong>Paragraph 5</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "25"
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "# 2. 读文章过程\n\n看完题干后，第一步要粗读一遍文章。根据自身水平扫一遍文章，开头结尾慢一些，注重首尾句，作者举的例子可以略读。关注逻辑词（however, but）、态度评价词、核心动作词与重复主题词。\n\n| 类型 | 关注原因 | 本文关注重点 |\n| --- | --- | --- |\n| 逻辑词 | 作者观点或行文转向 | however, but, nevertheless, yet, although |\n| 态度词 | 作者情感倾向与立场 | critical, positive, resilient, concern, significant |\n| 核心动作 | 论证中主体行为 | argue, demonstrate, implement, undermine |\n| 重复主题词 | 贯穿全篇的核心讨论对象 | 本文核心讨论对象与同义衍生表达 |",
+          "html": "<h1>2. 读文章过程</h1><p>扫读全文，注重段落首尾句，识别论点与论据。关注核心逻辑转折词与态度评价词。</p>\n<table class=\"table-wrap\"><thead><tr><th>类型</th><th>关注原因</th><th>本文关注重点</th></tr></thead>\n<tbody>\n<tr><td>逻辑词</td><td>作者观点或行文转向</td><td>however, but, nevertheless, yet</td></tr>\n<tr><td>态度词</td><td>作者情感倾向与立场</td><td>critical, positive, concern, significant</td></tr>\n<tr><td>核心动作</td><td>论证中主体行为</td><td>argue, demonstrate, implement, undermine</td></tr>\n<tr><td>重复主题词</td><td>贯穿全篇的核心讨论对象</td><td>本文核心论题与衍生词</td></tr>\n</tbody></table>",
+          "meta": {}
+        },
+        {
+          "section": "读文章",
+          "raw": "In the quest for the perfect lawn, homeowners across the country are taking a shortcut— and it is the environment that is paying the price. About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles. The Chelsea Flower Show has banned fake grass from this year’s event, [declaring] it to be not part of its ethos. The Royal [Horticultural] Society (RHS), which runs the annual show in west London, says it has introduced the ban because of the damage plastic grass does to the environment and [biodiversity].",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>In the quest for the perfect lawn, homeowners across the country are taking a shortcut— and it is the environment that is paying the price. About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles. The Chelsea Flower Show has banned fake grass from this year’s event, <span class=\"mask\">[declaring]</span> it to be not part of its ethos. The Royal <span class=\"mask\">[Horticultural]</span> Society (RHS), which runs the annual show in west London, says it has introduced the ban because of the damage plastic grass does to the environment and <span class=\"mask\">[biodiversity]</span>.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "In the quest for the perfect lawn, / homeowners across the country are taking a shortcut— / and it is the environment / that is paying the price. / About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles. / The Chelsea Flower Show has banned fake grass from this year’s event, / [declaring] it to be not part of its ethos. / The Royal [Horticultural] Society (RHS), / / which runs the annual show in west London, / says it has introduced the ban / because of the damage plastic grass does to the environment and [biodiversity].",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>In the quest for the perfect lawn, / homeowners across the country are taking a shortcut— / and it is the environment / that is paying the price. / About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles. / The Chelsea Flower Show has banned fake grass from this year’s event, / <span class=\"mask\">[declaring]</span> it to be not part of its ethos. / The Royal <span class=\"mask\">[Horticultural]</span> Society (RHS), / / which runs the annual show in west London, / says it has introduced the ban / because of the damage plastic grass does to the environment and <span class=\"mask\">[biodiversity]</span>.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第1段意群顺译】为了追求完美的草坪，全国各地的房主都在走捷径——而付出代价的是环境。塑料草每年售出约 800 万平方米，但反对声音现已蔓延至最高园艺界。切尔西花展已禁止在今年的活动中使用假草，并宣称这不是其精神的一部分。在伦敦西部举办年度展览的皇家园艺学会（RHS）表示，由于塑料草对环境和生物多...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>【第1段意群顺译】为了追求完美的草坪，全国各地的房主都在走捷径——而付出代价的是环境。塑料草每年售出约 800 万平方米，但反对声音现已蔓延至最高园艺界。切尔西花展已禁止在今年的活动中使用假草，并宣称这不是其精神的一部分。在伦敦西部举办年度展览的皇家园艺学会（RHS）表示，由于塑料草对环境和生物多...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Ed Horne, of the RHS, said: “We launched our [sustainability] strategy last year and fake grass is just not in line with our ethos and views on plastic. We [recommend] using real grass because of its [environmental] benefits, which include [supporting] wildlife, alleviating flooding and cooling the environment.”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Ed Horne, of the RHS, said: “We launched our <span class=\"mask\">[sustainability]</span> strategy last year and fake grass is just not in line with our ethos and views on plastic. We <span class=\"mask\">[recommend]</span> using real grass because of its <span class=\"mask\">[environmental]</span> benefits, which include <span class=\"mask\">[supporting]</span> wildlife, alleviating flooding and cooling the environment.”</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Ed Horne, / of the RHS, / said: / “We launched our [sustainability] strategy last year and fake grass is just not in line with our ethos and views on plastic. / We [recommend] using real grass / because of its [environmental] benefits, / / which include [supporting] wildlife, / alleviating flooding and cooling the environment.”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Ed Horne, / of the RHS, / said: / “We launched our <span class=\"mask\">[sustainability]</span> strategy last year and fake grass is just not in line with our ethos and views on plastic. / We <span class=\"mask\">[recommend]</span> using real grass / because of its <span class=\"mask\">[environmental]</span> benefits, / / which include <span class=\"mask\">[supporting]</span> wildlife, / alleviating flooding and cooling the environment.”</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第2段意群顺译】英国皇家园艺学会的埃德·霍恩 (Ed Horne) 表示：“我们去年推出了可持续发展战略，而假草不符合我们的精神和对塑料的看法。我们建议使用真草，因为它对环境有益，包括支持野生动物、缓解洪水和冷却环境。”...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第2段意群顺译】英国皇家园艺学会的埃德·霍恩 (Ed Horne) 表示：“我们去年推出了可持续发展战略，而假草不符合我们的精神和对塑料的看法。我们建议使用真草，因为它对环境有益，包括支持野生动物、缓解洪水和冷却环境。”...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes. A Twitter account, which claims to “cut through the [greenwash”] of artificial grass, already has more than 20,000 followers. It is trying to encourage people to sign two [petitions], one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns. They have gathered 7,276 and 11,282 signatures.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes. A Twitter account, which claims to “cut through the <span class=\"mask\">[greenwash”]</span> of artificial grass, already has more than 20,000 followers. It is trying to encourage people to sign two <span class=\"mask\">[petitions]</span>, one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns. They have gathered 7,276 and 11,282 signatures.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes. / A Twitter account, / / which claims to “cut through the [greenwash”] of artificial grass, / already has more than 20,000 followers. / It is trying to encourage people to sign two [petitions], / one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns. / They have gathered 7,276 and 11,282 signatures.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes. / A Twitter account, / / which claims to “cut through the <span class=\"mask\">[greenwash”]</span> of artificial grass, / already has more than 20,000 followers. / It is trying to encourage people to sign two <span class=\"mask\">[petitions]</span>, / one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns. / They have gathered 7,276 and 11,282 signatures.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第3段意群顺译】英国皇家园艺学会做出这一决定之际，活动人士正试图提高人们对假草造成的问题的认识。一个声称要“打破人造草绿化”的 Twitter 账户已经拥有超过 20,000 名粉丝。它试图鼓励人们签署两份请愿书，一份呼吁禁止销售塑料草，另一份呼吁对此类草坪征收“生态破坏”税。他们已收集了 7,...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第3段意群顺译】英国皇家园艺学会做出这一决定之际，活动人士正试图提高人们对假草造成的问题的认识。一个声称要“打破人造草绿化”的 Twitter 账户已经拥有超过 20,000 名粉丝。它试图鼓励人们签署两份请愿书，一份呼吁禁止销售塑料草，另一份呼吁对此类草坪征收“生态破坏”税。他们已收集了 7,...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "However, supporters of fake grass point out that there is also an [environmental] impact with natural lawns, which need mowing and therefore usually consume electricity or petrol.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>However, supporters of fake grass point out that there is also an <span class=\"mask\">[environmental]</span> impact with natural lawns, which need mowing and therefore usually consume electricity or petrol.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "However, / supporters of fake grass point out / that there is also an [environmental] impact with natural lawns, / / which need mowing and therefore usually consume electricity or petrol.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>However, / supporters of fake grass point out / that there is also an <span class=\"mask\">[environmental]</span> impact with natural lawns, / / which need mowing and therefore usually consume electricity or petrol.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第4段意群顺译】然而，假草的支持者指出，天然草坪也会对环境造成影响，因为天然草坪需要修剪，因此通常会消耗电力或汽油。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第4段意群顺译】然而，假草的支持者指出，天然草坪也会对环境造成影响，因为天然草坪需要修剪，因此通常会消耗电力或汽油。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The industry also points out that real grass requires [considerable] amounts of water, weed killer or other treatments and that people who lay fake grass tend to use their garden more.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The industry also points out that real grass requires <span class=\"mask\">[considerable]</span> amounts of water, weed killer or other treatments and that people who lay fake grass tend to use their garden more.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The industry also points out / that real grass requires [considerable] amounts of water, / weed killer or other treatments and / that people / who lay fake grass tend to use their garden more.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The industry also points out / that real grass requires <span class=\"mask\">[considerable]</span> amounts of water, / weed killer or other treatments and / that people / who lay fake grass tend to use their garden more.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第5段意群顺译】该行业还指出，真草需要大量的水、除草剂或其他处理方法，而铺设假草的人往往会更多地使用他们的花园。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第5段意群顺译】该行业还指出，真草需要大量的水、除草剂或其他处理方法，而铺设假草的人往往会更多地使用他们的花园。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The industry also claims that people who lay fake grass spend an average of £500 on trees or shrubs for their garden, which provides habitat for insects.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The industry also claims that people who lay fake grass spend an average of £500 on trees or shrubs for their garden, which provides habitat for insects.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The industry also claims / that people / who lay fake grass spend an average of £500 on trees or shrubs for their garden, / / which provides habitat for insects.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The industry also claims / that people / who lay fake grass spend an average of £500 on trees or shrubs for their garden, / / which provides habitat for insects.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第6段意群顺译】该行业还声称，铺设假草的人平均花费 500 英镑在花园里种植树木或灌木，为昆虫提供栖息地。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第6段意群顺译】该行业还声称，铺设假草的人平均花费 500 英镑在花园里种植树木或灌木，为昆虫提供栖息地。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "In response to another petition last year about banning fake lawns, which gathered 30,000 signatures, the government responded that it has “no plans to ban the use of artificial grass”. It added: “We prefer to help people and [organizations] make the right choice rather than legislating on such matters. However, the use of artificial grass must comply with the legal and policy safeguards in place to protect [biodiversity] and ensure [sustainable] drainage while measures such as the [strengthened] [biodiversity] duty should serve to encourage public authorities to consider [sustainable] [alternatives].”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>In response to another petition last year about banning fake lawns, which gathered 30,000 signatures, the government responded that it has “no plans to ban the use of artificial grass”. It added: “We prefer to help people and <span class=\"mask\">[organizations]</span> make the right choice rather than legislating on such matters. However, the use of artificial grass must comply with the legal and policy safeguards in place to protect <span class=\"mask\">[biodiversity]</span> and ensure <span class=\"mask\">[sustainable]</span> drainage while measures such as the <span class=\"mask\">[strengthened]</span> <span class=\"mask\">[biodiversity]</span> duty should serve to encourage public authorities to consider <span class=\"mask\">[sustainable]</span> <span class=\"mask\">[alternatives]</span>.”</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 6,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "In response to another petition last year about banning fake lawns, / / which gathered 30,000 signatures, / the government responded / that it has “no plans to ban the use of artificial grass”. / It added: / “We prefer to help people and [organizations] make the right choice / rather than legislating on such matters. / However, / the use of artificial grass must comply with the legal and policy safeguards in place to protect [biodiversity] and ensure [sustainable] drainage / while measures such as the [strengthened] [biodiversity] duty should serve to encourage public authorities to consider [sustainable] [alternatives].”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>In response to another petition last year about banning fake lawns, / / which gathered 30,000 signatures, / the government responded / that it has “no plans to ban the use of artificial grass”. / It added: / “We prefer to help people and <span class=\"mask\">[organizations]</span> make the right choice / rather than legislating on such matters. / However, / the use of artificial grass must comply with the legal and policy safeguards in place to protect <span class=\"mask\">[biodiversity]</span> and ensure <span class=\"mask\">[sustainable]</span> drainage / while measures such as the <span class=\"mask\">[strengthened]</span> <span class=\"mask\">[biodiversity]</span> duty should serve to encourage public authorities to consider <span class=\"mask\">[sustainable]</span> <span class=\"mask\">[alternatives]</span>.”</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 6,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第7段意群顺译】去年，另一份关于禁止假草坪的请愿书收集了 30,000 个签名，在回应时，政府回应称“没有计划禁止使用人造草坪”。它补充说：“我们更愿意帮助人们和组织做出正确的选择，而不是就此类问题立法。然而，人造草坪的使用必须遵守现有的法律和政策保障措施，以保护生物多样性并确保可持续排水，而加...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第7段意群顺译】去年，另一份关于禁止假草坪的请愿书收集了 30,000 个签名，在回应时，政府回应称“没有计划禁止使用人造草坪”。它补充说：“我们更愿意帮助人们和组织做出正确的选择，而不是就此类问题立法。然而，人造草坪的使用必须遵守现有的法律和政策保障措施，以保护生物多样性并确保可持续排水，而加...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 6,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落7大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>7、【段落7大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 6,
+            "form": 3
+          }
+        },
+        {
+          "section": "做题过程",
+          "raw": "# 3. 开始做题 (21-25题)\n\n粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。",
+          "html": "<h1>3. 开始做题 (21-25题)</h1><p>粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。</p>",
+          "meta": {}
+        },
+        {
+          "section": "21题",
+          "raw": "## 21题\n\n**The RHS thinks that plastic grass .**\n\n> 英国皇家园艺学会认为塑料草。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> In the quest for the perfect lawn, homeowners across the country are taking a shortcut— and it is the environment that is paying the price. About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles. The Chelsea Flower Show has banned fake grass from this year’s event, [declaring] it to be not part of its ethos. The Royal [Horticultural] Society (RHS), which runs the annual show in west London, says it has introduced the ban because of the damage plastic grass does to the environment and [biodiversity].\n>\n> 开始精读：\n>\n> In the quest for the perfect lawn, / homeowners across the country are taking a shortcut— / and it is the environment / that is paying the price. / About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles. / The Chelsea Flower Show has banned fake grass from this year’s event, / [declaring] it to be not part of its ethos. / The Royal [Horticultural] Society (RHS), / / which runs the annual show in west London, / says it has introduced the ban / because of the damage plastic grass does to the environment and [biodiversity].\n>\n> 逐意群顺译：\n>\n> 为了追求完美的草坪，全国各地的房主都在走捷径——而付出代价的是环境。塑料草每年售出约 800 万平方米，但反对声音现已蔓延至最高园艺界。切尔西花展已禁止在今年的活动中使用假草，并宣称这不是其精神的一部分。在伦敦西部举办年度展览的皇家园艺学会（RHS）表示，由于塑料草对环境和生物多样性造成损害，因此推出了这项禁令。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>21题</h2>\n<p><strong>The RHS thinks that plastic grass .</strong></p>\n<blockquote><p>英国皇家园艺学会认为塑料草。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>In the quest for the perfect lawn, homeowners across the country are taking a shortcut— and it is the environment that is paying the price. About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles. The Chelsea Flower Show has banned fake grass from this year’s event, <span class=\"mask\">[declaring]</span> it to be not part of its ethos. The Royal <span class=\"mask\">[Horticultural]</span> Society (RHS), which runs the annual show in west London, says it has introduced the ban because of the damage plastic grass does to the environment and <span class=\"mask\">[biodiversity]</span>.</p>\n<p><strong>开始精读：</strong></p>\n<p>In the quest for the perfect lawn, / homeowners across the country are taking a shortcut— / and it is the environment / that is paying the price. / About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles. / The Chelsea Flower Show has banned fake grass from this year’s event, / <span class=\"mask\">[declaring]</span> it to be not part of its ethos. / The Royal <span class=\"mask\">[Horticultural]</span> Society (RHS), / / which runs the annual show in west London, / says it has introduced the ban / because of the damage plastic grass does to the environment and <span class=\"mask\">[biodiversity]</span>.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>为了追求完美的草坪，全国各地的房主都在走捷径——而付出代价的是环境。塑料草每年售出约 800 万平方米，但反对声音现已蔓延至最高园艺界。切尔西花展已禁止在今年的活动中使用假草，并宣称这不是其精神的一部分。在伦敦西部举办年度展览的皇家园艺学会（RHS）表示，由于塑料草对环境和生物多样性造成损害，因此推出了这项禁令。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "21"
+          }
+        },
+        {
+          "section": "21题",
+          "raw": "### A. is harmful to the environment\n\n> 对环境有害\n\n我们先看 A 选项：`is harmful to the environment`（对环境有害）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：英国皇家园艺学会认为塑料草。 ➔ 选项认为：对环境有害\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `harmful`, `environment` 与原文第 1 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：A强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>A. is harmful to the environment</h3>\n<blockquote><p>对环境有害</p></blockquote>\n<p>我们先看 A 选项：<code>is harmful to the environment</code>（对环境有害）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：英国皇家园艺学会认为塑料草。 ➔ 选项认为：对环境有害</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>harmful</code>, <code>environment</code> 与原文第 1 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：A强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "21",
+            "option": "A"
+          }
+        },
+        {
+          "section": "21题",
+          "raw": "### B. is a hot topic in gardening circles\n\n> 是园艺界的热门话题\n\n我们先看 B 选项：`is a hot topic in gardening circles`（是园艺界的热门话题）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：英国皇家园艺学会认为塑料草。 ➔ 选项认为：是园艺界的热门话题\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“是园艺界的热门话题”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. is a hot topic in gardening circles</h3>\n<blockquote><p>是园艺界的热门话题</p></blockquote>\n<p>我们先看 B 选项：<code>is a hot topic in gardening circles</code>（是园艺界的热门话题）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：英国皇家园艺学会认为塑料草。 ➔ 选项认为：是园艺界的热门话题</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“是园艺界的热门话题”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "21",
+            "option": "B"
+          }
+        },
+        {
+          "section": "21题",
+          "raw": "### C. is overpraised in the annual show\n\n> 在年度展会上被高估\n\n我们先看 C 选项：`is overpraised in the annual show`（在年度展会上被高估）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：英国皇家园艺学会认为塑料草。 ➔ 选项认为：在年度展会上被高估\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `overpraised`, `annual`, `show` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. is overpraised in the annual show</h3>\n<blockquote><p>在年度展会上被高估</p></blockquote>\n<p>我们先看 C 选项：<code>is overpraised in the annual show</code>（在年度展会上被高估）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：英国皇家园艺学会认为塑料草。 ➔ 选项认为：在年度展会上被高估</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>overpraised</code>, <code>annual</code>, <code>show</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "21",
+            "option": "C"
+          }
+        },
+        {
+          "section": "21题",
+          "raw": "### D. is ruining the view of west London\n\n> 正在破坏西伦敦的景色\n\n我们先看 D 选项：`is ruining the view of west London`（正在破坏西伦敦的景色）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：英国皇家园艺学会认为塑料草。 ➔ 选项认为：正在破坏西伦敦的景色\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“正在破坏西伦敦的景色”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. is ruining the view of west London</h3>\n<blockquote><p>正在破坏西伦敦的景色</p></blockquote>\n<p>我们先看 D 选项：<code>is ruining the view of west London</code>（正在破坏西伦敦的景色）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：英国皇家园艺学会认为塑料草。 ➔ 选项认为：正在破坏西伦敦的景色</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“正在破坏西伦敦的景色”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "21",
+            "option": "D"
+          }
+        },
+        {
+          "section": "21题",
+          "raw": "### 21题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A强保留，与原文定位信息高度吻合；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>21题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A强保留，与原文定位信息高度吻合</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "21"
+          }
+        },
+        {
+          "section": "22题",
+          "raw": "## 22题\n\n**The petitions mentioned in Paragraph 3 reveal the campaigners’ .**\n\n> 第 3 段中提到的请愿书揭示了活动家的。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> Ed Horne, of the RHS, said: “We launched our [sustainability] strategy last year and fake grass is just not in line with our ethos and views on plastic. We [recommend] using real grass because of its [environmental] benefits, which include [supporting] wildlife, alleviating flooding and cooling the environment.”\n>\n> 开始精读：\n>\n> Ed Horne, / of the RHS, / said: / “We launched our [sustainability] strategy last year and fake grass is just not in line with our ethos and views on plastic. / We [recommend] using real grass / because of its [environmental] benefits, / / which include [supporting] wildlife, / alleviating flooding and cooling the environment.”\n>\n> 逐意群顺译：\n>\n> 英国皇家园艺学会的埃德·霍恩 (Ed Horne) 表示：“我们去年推出了可持续发展战略，而假草不符合我们的精神和对塑料的看法。我们建议使用真草，因为它对环境有益，包括支持野生动物、缓解洪水和冷却环境。”\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>22题</h2>\n<p><strong>The petitions mentioned in Paragraph 3 reveal the campaigners’ .</strong></p>\n<blockquote><p>第 3 段中提到的请愿书揭示了活动家的。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Ed Horne, of the RHS, said: “We launched our <span class=\"mask\">[sustainability]</span> strategy last year and fake grass is just not in line with our ethos and views on plastic. We <span class=\"mask\">[recommend]</span> using real grass because of its <span class=\"mask\">[environmental]</span> benefits, which include <span class=\"mask\">[supporting]</span> wildlife, alleviating flooding and cooling the environment.”</p>\n<p><strong>开始精读：</strong></p>\n<p>Ed Horne, / of the RHS, / said: / “We launched our <span class=\"mask\">[sustainability]</span> strategy last year and fake grass is just not in line with our ethos and views on plastic. / We <span class=\"mask\">[recommend]</span> using real grass / because of its <span class=\"mask\">[environmental]</span> benefits, / / which include <span class=\"mask\">[supporting]</span> wildlife, / alleviating flooding and cooling the environment.”</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>英国皇家园艺学会的埃德·霍恩 (Ed Horne) 表示：“我们去年推出了可持续发展战略，而假草不符合我们的精神和对塑料的看法。我们建议使用真草，因为它对环境有益，包括支持野生动物、缓解洪水和冷却环境。”</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "22"
+          }
+        },
+        {
+          "section": "22题",
+          "raw": "### A. disappointment with RHS\n\n> 对 RHS 感到失望\n\n我们先看 A 选项：`disappointment with RHS`（对 RHS 感到失望）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：第 3 段中提到的请愿书揭示了活动家的。 ➔ 选项认为：对 RHS 感到失望\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“对 RHS 感到失望”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. disappointment with RHS</h3>\n<blockquote><p>对 RHS 感到失望</p></blockquote>\n<p>我们先看 A 选项：<code>disappointment with RHS</code>（对 RHS 感到失望）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：第 3 段中提到的请愿书揭示了活动家的。 ➔ 选项认为：对 RHS 感到失望</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“对 RHS 感到失望”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "22",
+            "option": "A"
+          }
+        },
+        {
+          "section": "22题",
+          "raw": "### B. resistance to fake grass use\n\n> 抵抗假草的使用\n\n我们先看 B 选项：`resistance to fake grass use`（抵抗假草的使用）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：第 3 段中提到的请愿书揭示了活动家的。 ➔ 选项认为：抵抗假草的使用\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `resistance`, `fake`, `grass` 与原文第 2 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：B强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>B. resistance to fake grass use</h3>\n<blockquote><p>抵抗假草的使用</p></blockquote>\n<p>我们先看 B 选项：<code>resistance to fake grass use</code>（抵抗假草的使用）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：第 3 段中提到的请愿书揭示了活动家的。 ➔ 选项认为：抵抗假草的使用</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>resistance</code>, <code>fake</code>, <code>grass</code> 与原文第 2 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：B强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "22",
+            "option": "B"
+          }
+        },
+        {
+          "section": "22题",
+          "raw": "### C. anger over the proposed tax\n\n> 对拟议税收的愤怒\n\n我们先看 C 选项：`anger over the proposed tax`（对拟议税收的愤怒）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：第 3 段中提到的请愿书揭示了活动家的。 ➔ 选项认为：对拟议税收的愤怒\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `anger`, `over`, `proposed` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 2 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. anger over the proposed tax</h3>\n<blockquote><p>对拟议税收的愤怒</p></blockquote>\n<p>我们先看 C 选项：<code>anger over the proposed tax</code>（对拟议税收的愤怒）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：第 3 段中提到的请愿书揭示了活动家的。 ➔ 选项认为：对拟议税收的愤怒</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>anger</code>, <code>over</code>, <code>proposed</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 2 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "22",
+            "option": "C"
+          }
+        },
+        {
+          "section": "22题",
+          "raw": "### D. concern about real grass supply\n\n> 对真草供应的担忧\n\n我们先看 D 选项：`concern about real grass supply`（对真草供应的担忧）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：第 3 段中提到的请愿书揭示了活动家的。 ➔ 选项认为：对真草供应的担忧\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“对真草供应的担忧”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. concern about real grass supply</h3>\n<blockquote><p>对真草供应的担忧</p></blockquote>\n<p>我们先看 D 选项：<code>concern about real grass supply</code>（对真草供应的担忧）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：第 3 段中提到的请愿书揭示了活动家的。 ➔ 选项认为：对真草供应的担忧</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“对真草供应的担忧”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "22",
+            "option": "D"
+          }
+        },
+        {
+          "section": "22题",
+          "raw": "### 22题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B强保留，与原文定位信息高度吻合；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>22题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B强保留，与原文定位信息高度吻合</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "22"
+          }
+        },
+        {
+          "section": "23题",
+          "raw": "## 23题\n\n**In Paragraph 4, supporters of fake grass point out .**\n\n> 在第4段中，假草的支持者指出。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes. A Twitter account, which claims to “cut through the [greenwash”] of artificial grass, already has more than 20,000 followers. It is trying to encourage people to sign two [petitions], one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns. They have gathered 7,276 and 11,282 signatures.\n>\n> 开始精读：\n>\n> The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes. / A Twitter account, / / which claims to “cut through the [greenwash”] of artificial grass, / already has more than 20,000 followers. / It is trying to encourage people to sign two [petitions], / one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns. / They have gathered 7,276 and 11,282 signatures.\n>\n> 逐意群顺译：\n>\n> 英国皇家园艺学会做出这一决定之际，活动人士正试图提高人们对假草造成的问题的认识。一个声称要“打破人造草绿化”的 Twitter 账户已经拥有超过 20,000 名粉丝。它试图鼓励人们签署两份请愿书，一份呼吁禁止销售塑料草，另一份呼吁对此类草坪征收“生态破坏”税。他们已收集了 7,276 和 11,282 个签名。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>23题</h2>\n<p><strong>In Paragraph 4, supporters of fake grass point out .</strong></p>\n<blockquote><p>在第4段中，假草的支持者指出。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes. A Twitter account, which claims to “cut through the <span class=\"mask\">[greenwash”]</span> of artificial grass, already has more than 20,000 followers. It is trying to encourage people to sign two <span class=\"mask\">[petitions]</span>, one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns. They have gathered 7,276 and 11,282 signatures.</p>\n<p><strong>开始精读：</strong></p>\n<p>The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes. / A Twitter account, / / which claims to “cut through the <span class=\"mask\">[greenwash”]</span> of artificial grass, / already has more than 20,000 followers. / It is trying to encourage people to sign two <span class=\"mask\">[petitions]</span>, / one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns. / They have gathered 7,276 and 11,282 signatures.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>英国皇家园艺学会做出这一决定之际，活动人士正试图提高人们对假草造成的问题的认识。一个声称要“打破人造草绿化”的 Twitter 账户已经拥有超过 20,000 名粉丝。它试图鼓励人们签署两份请愿书，一份呼吁禁止销售塑料草，另一份呼吁对此类草坪征收“生态破坏”税。他们已收集了 7,276 和 11,282 个签名。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "23"
+          }
+        },
+        {
+          "section": "23题",
+          "raw": "### A. the necessity to lower the cost of fake grass\n\n> 降低假草成本的必要性\n\n我们先看 A 选项：`the necessity to lower the cost of fake grass`（降低假草成本的必要性）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：在第4段中，假草的支持者指出。 ➔ 选项认为：降低假草成本的必要性\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“降低假草成本的必要性”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. the necessity to lower the cost of fake grass</h3>\n<blockquote><p>降低假草成本的必要性</p></blockquote>\n<p>我们先看 A 选项：<code>the necessity to lower the cost of fake grass</code>（降低假草成本的必要性）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：在第4段中，假草的支持者指出。 ➔ 选项认为：降低假草成本的必要性</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“降低假草成本的必要性”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "23",
+            "option": "A"
+          }
+        },
+        {
+          "section": "23题",
+          "raw": "### B. the disadvantages of growing real grass\n\n> 种植真草的缺点\n\n我们先看 B 选项：`the disadvantages of growing real grass`（种植真草的缺点）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：在第4段中，假草的支持者指出。 ➔ 选项认为：种植真草的缺点\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `disadvantages`, `growing`, `real` 与原文第 3 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：B强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>B. the disadvantages of growing real grass</h3>\n<blockquote><p>种植真草的缺点</p></blockquote>\n<p>我们先看 B 选项：<code>the disadvantages of growing real grass</code>（种植真草的缺点）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：在第4段中，假草的支持者指出。 ➔ 选项认为：种植真草的缺点</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>disadvantages</code>, <code>growing</code>, <code>real</code> 与原文第 3 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：B强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "23",
+            "option": "B"
+          }
+        },
+        {
+          "section": "23题",
+          "raw": "### C. the way to take care of artificial lawns\n\n> 人造草坪的养护方法\n\n我们先看 C 选项：`the way to take care of artificial lawns`（人造草坪的养护方法）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：在第4段中，假草的支持者指出。 ➔ 选项认为：人造草坪的养护方法\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“人造草坪的养护方法”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. the way to take care of artificial lawns</h3>\n<blockquote><p>人造草坪的养护方法</p></blockquote>\n<p>我们先看 C 选项：<code>the way to take care of artificial lawns</code>（人造草坪的养护方法）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：在第4段中，假草的支持者指出。 ➔ 选项认为：人造草坪的养护方法</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“人造草坪的养护方法”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "23",
+            "option": "C"
+          }
+        },
+        {
+          "section": "23题",
+          "raw": "### D. the challenges of insect habitat protection\n\n> 昆虫栖息地保护的挑战\n\n我们先看 D 选项：`the challenges of insect habitat protection`（昆虫栖息地保护的挑战）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：在第4段中，假草的支持者指出。 ➔ 选项认为：昆虫栖息地保护的挑战\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“昆虫栖息地保护的挑战”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. the challenges of insect habitat protection</h3>\n<blockquote><p>昆虫栖息地保护的挑战</p></blockquote>\n<p>我们先看 D 选项：<code>the challenges of insect habitat protection</code>（昆虫栖息地保护的挑战）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：在第4段中，假草的支持者指出。 ➔ 选项认为：昆虫栖息地保护的挑战</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“昆虫栖息地保护的挑战”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "23",
+            "option": "D"
+          }
+        },
+        {
+          "section": "23题",
+          "raw": "### 23题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B强保留，与原文定位信息高度吻合；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>23题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B强保留，与原文定位信息高度吻合</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "23"
+          }
+        },
+        {
+          "section": "24题",
+          "raw": "## 24题\n\n**What should the government do with regard to artificial grass?**\n\n> 对于人造草坪政府应该做什么？\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> However, supporters of fake grass point out that there is also an [environmental] impact with natural lawns, which need mowing and therefore usually consume electricity or petrol.\n>\n> 开始精读：\n>\n> However, / supporters of fake grass point out / that there is also an [environmental] impact with natural lawns, / / which need mowing and therefore usually consume electricity or petrol.\n>\n> 逐意群顺译：\n>\n> 然而，假草的支持者指出，天然草坪也会对环境造成影响，因为天然草坪需要修剪，因此通常会消耗电力或汽油。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>24题</h2>\n<p><strong>What should the government do with regard to artificial grass?</strong></p>\n<blockquote><p>对于人造草坪政府应该做什么？</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>However, supporters of fake grass point out that there is also an <span class=\"mask\">[environmental]</span> impact with natural lawns, which need mowing and therefore usually consume electricity or petrol.</p>\n<p><strong>开始精读：</strong></p>\n<p>However, / supporters of fake grass point out / that there is also an <span class=\"mask\">[environmental]</span> impact with natural lawns, / / which need mowing and therefore usually consume electricity or petrol.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>然而，假草的支持者指出，天然草坪也会对环境造成影响，因为天然草坪需要修剪，因此通常会消耗电力或汽油。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "24"
+          }
+        },
+        {
+          "section": "24题",
+          "raw": "### A. Urge legislation to restrict its use.\n\n> 敦促立法限制其使用。\n\n我们先看 A 选项：`Urge legislation to restrict its use.`（敦促立法限制其使用。）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：对于人造草坪政府应该做什么？ ➔ 选项认为：敦促立法限制其使用。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“敦促立法限制其使用。”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. Urge legislation to restrict its use.</h3>\n<blockquote><p>敦促立法限制其使用。</p></blockquote>\n<p>我们先看 A 选项：<code>Urge legislation to restrict its use.</code>（敦促立法限制其使用。）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：对于人造草坪政府应该做什么？ ➔ 选项认为：敦促立法限制其使用。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“敦促立法限制其使用。”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "24",
+            "option": "A"
+          }
+        },
+        {
+          "section": "24题",
+          "raw": "### B. Take measures to guarantee its quality.\n\n> 采取措施保证其质量。\n\n我们先看 B 选项：`Take measures to guarantee its quality.`（采取措施保证其质量。）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：对于人造草坪政府应该做什么？ ➔ 选项认为：采取措施保证其质量。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“采取措施保证其质量。”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. Take measures to guarantee its quality.</h3>\n<blockquote><p>采取措施保证其质量。</p></blockquote>\n<p>我们先看 B 选项：<code>Take measures to guarantee its quality.</code>（采取措施保证其质量。）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：对于人造草坪政府应该做什么？ ➔ 选项认为：采取措施保证其质量。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“采取措施保证其质量。”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "24",
+            "option": "B"
+          }
+        },
+        {
+          "section": "24题",
+          "raw": "### C. Remind its users to obey existing rules.\n\n> 提醒用户遵守现有规则。\n\n我们先看 C 选项：`Remind its users to obey existing rules.`（提醒用户遵守现有规则。）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：对于人造草坪政府应该做什么？ ➔ 选项认为：提醒用户遵守现有规则。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `Remind`, `its`, `users` 与原文第 4 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：C强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>C. Remind its users to obey existing rules.</h3>\n<blockquote><p>提醒用户遵守现有规则。</p></blockquote>\n<p>我们先看 C 选项：<code>Remind its users to obey existing rules.</code>（提醒用户遵守现有规则。）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：对于人造草坪政府应该做什么？ ➔ 选项认为：提醒用户遵守现有规则。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>Remind</code>, <code>its</code>, <code>users</code> 与原文第 4 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：C强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "24",
+            "option": "C"
+          }
+        },
+        {
+          "section": "24题",
+          "raw": "### D. Replace it with sustainable alternatives.\n\n> 用可持续的替代品取而代之。\n\n我们先看 D 选项：`Replace it with sustainable alternatives.`（用可持续的替代品取而代之。）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：对于人造草坪政府应该做什么？ ➔ 选项认为：用可持续的替代品取而代之。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `Replace`, `sustainable`, `alternatives` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. Replace it with sustainable alternatives.</h3>\n<blockquote><p>用可持续的替代品取而代之。</p></blockquote>\n<p>我们先看 D 选项：<code>Replace it with sustainable alternatives.</code>（用可持续的替代品取而代之。）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：对于人造草坪政府应该做什么？ ➔ 选项认为：用可持续的替代品取而代之。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>Replace</code>, <code>sustainable</code>, <code>alternatives</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "24",
+            "option": "D"
+          }
+        },
+        {
+          "section": "24题",
+          "raw": "### 24题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C强保留，与原文定位信息高度吻合；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>24题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C强保留，与原文定位信息高度吻合</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "24"
+          }
+        },
+        {
+          "section": "25题",
+          "raw": "## 25题\n\n**It can be learned from the text that fake grass .**\n\n> 从文中可以得知，假草。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 5 段展开，所以我们直接回第 5 段定位精读。\n\n> 原文参考：\n>\n> The industry also points out that real grass requires [considerable] amounts of water, weed killer or other treatments and that people who lay fake grass tend to use their garden more.\n>\n> 开始精读：\n>\n> The industry also points out / that real grass requires [considerable] amounts of water, / weed killer or other treatments and / that people / who lay fake grass tend to use their garden more.\n>\n> 逐意群顺译：\n>\n> 该行业还指出，真草需要大量的水、除草剂或其他处理方法，而铺设假草的人往往会更多地使用他们的花园。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>25题</h2>\n<p><strong>It can be learned from the text that fake grass .</strong></p>\n<blockquote><p>从文中可以得知，假草。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>5</strong> 段展开，所以我们直接回第 <strong>5</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>The industry also points out that real grass requires <span class=\"mask\">[considerable]</span> amounts of water, weed killer or other treatments and that people who lay fake grass tend to use their garden more.</p>\n<p><strong>开始精读：</strong></p>\n<p>The industry also points out / that real grass requires <span class=\"mask\">[considerable]</span> amounts of water, / weed killer or other treatments and / that people / who lay fake grass tend to use their garden more.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>该行业还指出，真草需要大量的水、除草剂或其他处理方法，而铺设假草的人往往会更多地使用他们的花园。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "25"
+          }
+        },
+        {
+          "section": "25题",
+          "raw": "### A. is being improved continuously\n\n> 正在不断完善中\n\n我们先看 A 选项：`is being improved continuously`（正在不断完善中）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从文中可以得知，假草。 ➔ 选项认为：正在不断完善中\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `being`, `improved`, `continuously` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. is being improved continuously</h3>\n<blockquote><p>正在不断完善中</p></blockquote>\n<p>我们先看 A 选项：<code>is being improved continuously</code>（正在不断完善中）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从文中可以得知，假草。 ➔ 选项认为：正在不断完善中</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>being</code>, <code>improved</code>, <code>continuously</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "25",
+            "option": "A"
+          }
+        },
+        {
+          "section": "25题",
+          "raw": "### B. has seen a market share decline\n\n> 市场份额下降\n\n我们先看 B 选项：`has seen a market share decline`（市场份额下降）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从文中可以得知，假草。 ➔ 选项认为：市场份额下降\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“市场份额下降”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. has seen a market share decline</h3>\n<blockquote><p>市场份额下降</p></blockquote>\n<p>我们先看 B 选项：<code>has seen a market share decline</code>（市场份额下降）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从文中可以得知，假草。 ➔ 选项认为：市场份额下降</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“市场份额下降”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "25",
+            "option": "B"
+          }
+        },
+        {
+          "section": "25题",
+          "raw": "### C. is becoming increasingly affordable\n\n> 正变得越来越实惠\n\n我们先看 C 选项：`is becoming increasingly affordable`（正变得越来越实惠）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从文中可以得知，假草。 ➔ 选项认为：正变得越来越实惠\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“正变得越来越实惠”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 5 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. is becoming increasingly affordable</h3>\n<blockquote><p>正变得越来越实惠</p></blockquote>\n<p>我们先看 C 选项：<code>is becoming increasingly affordable</code>（正变得越来越实惠）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从文中可以得知，假草。 ➔ 选项认为：正变得越来越实惠</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“正变得越来越实惠”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 5 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "25",
+            "option": "C"
+          }
+        },
+        {
+          "section": "25题",
+          "raw": "### D. has been a controversial product\n\n> 一直是一个有争议的产品\n\n我们先看 D 选项：`has been a controversial product`（一直是一个有争议的产品）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从文中可以得知，假草。 ➔ 选项认为：一直是一个有争议的产品\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `has`, `controversial`, `product` 与原文第 5 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 5 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：D强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>D. has been a controversial product</h3>\n<blockquote><p>一直是一个有争议的产品</p></blockquote>\n<p>我们先看 D 选项：<code>has been a controversial product</code>（一直是一个有争议的产品）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从文中可以得知，假草。 ➔ 选项认为：一直是一个有争议的产品</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>has</code>, <code>controversial</code>, <code>product</code> 与原文第 5 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 5 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：D强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "25",
+            "option": "D"
+          }
+        },
+        {
+          "section": "25题",
+          "raw": "### 25题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D强保留，与原文定位信息高度吻合；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>25题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D强保留，与原文定位信息高度吻合</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "25"
+          }
+        },
+        {
+          "section": "进阶技巧",
+          "raw": "# 4. 进阶技巧：交叉验证冲全对\n\n当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。",
+          "html": "<h1>4. 进阶技巧：交叉验证冲全对</h1><p>当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。</p>",
+          "meta": {}
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查21题交叉验证\n\n**题干**：The RHS thinks that plastic grass .\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **A**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **A**。\n\n**21题选 A。**",
+          "html": "<h2>回查21题交叉验证</h2>\n<p><strong>题干</strong>：The RHS thinks that plastic grass .</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>A</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">A</span></strong>。</p>\n<p><strong>21题选 A。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "21"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查22题交叉验证\n\n**题干**：The petitions mentioned in Paragraph 3 reveal the campaigners’ .\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **B**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **B**。\n\n**22题选 B。**",
+          "html": "<h2>回查22题交叉验证</h2>\n<p><strong>题干</strong>：The petitions mentioned in Paragraph 3 reveal the campaigners’ .</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>B</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">B</span></strong>。</p>\n<p><strong>22题选 B。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "22"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查23题交叉验证\n\n**题干**：In Paragraph 4, supporters of fake grass point out .\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **B**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **B**。\n\n**23题选 B。**",
+          "html": "<h2>回查23题交叉验证</h2>\n<p><strong>题干</strong>：In Paragraph 4, supporters of fake grass point out .</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>B</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">B</span></strong>。</p>\n<p><strong>23题选 B。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "23"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查24题交叉验证\n\n**题干**：What should the government do with regard to artificial grass?\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **C**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **C**。\n\n**24题选 C。**",
+          "html": "<h2>回查24题交叉验证</h2>\n<p><strong>题干</strong>：What should the government do with regard to artificial grass?</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>C</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">C</span></strong>。</p>\n<p><strong>24题选 C。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "24"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查25题交叉验证\n\n**题干**：It can be learned from the text that fake grass .\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **D**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **D**。\n\n**25题选 D。**",
+          "html": "<h2>回查25题交叉验证</h2>\n<p><strong>题干</strong>：It can be learned from the text that fake grass .</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>D</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">D</span></strong>。</p>\n<p><strong>25题选 D。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "25"
+          }
+        },
+        {
+          "section": "最终答案",
+          "raw": "# 5. 最终答案汇总\n\n**21. A**\n\n**22. B**\n\n**23. B**\n\n**24. C**\n\n**25. D**\n\n恭喜完成本篇阅读的做题推演！建议点击顶栏切换至【复盘模式（一石五鸟）】进行全方位深度吸收。",
+          "html": "<h1>5. 最终答案汇总</h1><div style=\"background:#f0fdf4;border:1px solid #bbf7d0;padding:16px;border-radius:8px;font-size:18px;line-height:2;color:#166534\">**21. A**<br><br>**22. B**<br><br>**23. B**<br><br>**24. C**<br><br>**25. D**</div><p style=\"margin-top:16px\">恭喜完成本篇阅读的做题推演！建议点击顶栏切换至<strong>【复盘模式（一石五鸟）】</strong>进行全方位深度吸收。</p>",
+          "meta": {
+            "kind": "final"
+          }
+        }
+      ]
+    },
+    "review": {
+      "steps": [
+        {
+          "section": 0,
+          "title": "省流：一石五鸟法怎么做",
+          "html": "<p>一石五鸟复盘法将一篇阅读真题价值吃干榨净，同时打通词汇、长难句与翻译、阅读解题思维、新题型逻辑、大作文写作五大核心题型，实现高效备考。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第一鸟-积累文中重点单词带来的词汇量提升",
+          "html": "<p>精选真题高频核心词、熟词生义、派生搭配，在语境中彻底掌握考研核心5500词的核心词族。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第二鸟-精读文章与翻译练习带来的翻译能力提升",
+          "html": "<p>逐句精读拆解句法骨架（主干提取、从句修饰剥离），针对典型长难句进行规范中文翻译输出。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>深度剖析命题人设置正确选项的同义替换规律，归纳排查5大高频干扰陷阱（偷换概念/无中生有/反向干扰/过度推断/答非所问）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>梳理全文语篇结构树（起承转合、因果对比、问题解决），迁移训练考研英语二新题型（7选5/小标题/排序）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第五鸟-顺手积累本文的大作文主题词与表达带来的写作能力提升",
+          "html": "<p>提炼本文涉及社会热点、科技经济、生态教育等母题的高分表达、观点金句与论证句型，直接化为写作武器。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "为什么考研英语备考实际只需要两到三个月的有效备考工作量",
+          "html": "<p>通过一石五鸟法，做1篇真题等于练5项能力，无需题海战术，56篇真题足以为考研英语二夯实75+甚至85+的坚实功底。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第1段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>quest</strong></td><td>n. 寻求，探求；探险；v. 探寻，寻求</td><td><strong>perfect</strong></td><td>adj. 无瑕的，完好的；完全正确的，极其准确的；完美的，理想的</td><td><strong>lawn</strong></td><td>n. 草坪，草地；上等细棉布，上等细麻布；【名】 朗</td></tr><tr><td><strong>homeowners</strong></td><td>n. 房主，私房屋主，自己拥有住房者</td><td><strong>across</strong></td><td>adv. 从一边到另一边；在……对面；朝，向</td><td><strong>taking</strong></td><td>n. 取得；捕获；营业收入，进款</td></tr><tr><td><strong>shortcut</strong></td><td>n. 近路；捷径，快捷方法；快捷方式</td><td><strong>environment</strong></td><td>n. 自然环境，生态环境；周围状况，条件；工作平台，软件包</td><td><strong>paying</strong></td><td>v. 支付，付款；注意，留心；有好处，有益</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第2段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>launched</strong></td><td>v. 启动，开始；推出，发布；发射</td><td><strong>sustainability</strong></td><td>n. 持续性，能维持性</td><td><strong>strategy</strong></td><td>n. 策略，行动计划；战略，战略学</td></tr><tr><td><strong>last</strong></td><td>adj. 最后的；最近的，上一个的；最后剩下的</td><td><strong>fake</strong></td><td>adj. 伪造的，冒充的；虚假的，做作的；n. 假货，赝品</td><td><strong>grass</strong></td><td>n. 草；草地，草坪；大麻</td></tr><tr><td><strong>line</strong></td><td>n. 线，线条；场界，场地线；皱纹，褶子</td><td><strong>ethos</strong></td><td>n. 精神特质，道德意识</td><td><strong>views</strong></td><td>n. 观点，见解，看法；景色，风景，景观；视野</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 1
+          }
+        },
+        {
+          "section": 1,
+          "title": "第3段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>decision</strong></td><td>n. 决定，抉择；判决，裁定；果断，决断力</td><td><strong>comes</strong></td><td>v. 来，来到；来临，发生；来自，从……来</td><td><strong>campaigners</strong></td><td>n. 活动人士，运动参与者，倡导者；竞选者，候选人；从军者，出征者</td></tr><tr><td><strong>raise</strong></td><td>v. 提起，举起；直立，站立；建造，树立</td><td><strong>awareness</strong></td><td>n. 认识，意识；感悟能力</td><td><strong>problems</strong></td><td>n. 问题，难题；[数]问题，题目，习题</td></tr><tr><td><strong>fake</strong></td><td>adj. 伪造的，冒充的；虚假的，做作的；n. 假货，赝品</td><td><strong>grass</strong></td><td>n. 草；草地，草坪；大麻</td><td><strong>causes</strong></td><td>n. 原因；事业；理由</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 2
+          }
+        },
+        {
+          "section": 1,
+          "title": "第4段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>supporters</strong></td><td>n. supporter 的复数：支持者，拥护者；球迷；支持单位，协办单位。</td><td><strong>fake</strong></td><td>adj. 伪造的，冒充的；虚假的，做作的；n. 假货，赝品</td><td><strong>grass</strong></td><td>n. 草；草地，草坪；大麻</td></tr><tr><td><strong>environmental</strong></td><td>adj. 自然环境的，生态环境的；环保的，生态环境保护的；与周围环境有关的，由生存环境引起的</td><td><strong>impact</strong></td><td>n. 撞击，冲击力；巨大影响，强大作用；v. 冲击，撞击</td><td><strong>natural</strong></td><td>adj. 天然的，非人为的；合理的，意料之中的；天生的，本能的</td></tr><tr><td><strong>lawns</strong></td><td>n. 草坪，草地；v. 把地面修整成草坪</td><td><strong>need</strong></td><td>v. 需要；有必要；需要</td><td><strong>mowing</strong></td><td>n. 刈草，割草；一次所割之草，一次刈割所得的草料；牧草地，可供割草的草地</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 3
+          }
+        },
+        {
+          "section": 1,
+          "title": "第5段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>industry</strong></td><td>n. 工业，生产制造；行业，产业；勤奋，勤劳</td><td><strong>points</strong></td><td>n. 点，小圆点；得分，分数，积分；见解，观点</td><td><strong>real</strong></td><td>adj. 实际存在的，非想象的；名副其实的；真正的，真实的</td></tr><tr><td><strong>grass</strong></td><td>n. 草；草地，草坪；大麻</td><td><strong>requires</strong></td><td>n. 需要；要求；需求</td><td><strong>considerable</strong></td><td>adj. 相当大的，相当重要的；显要的，值得尊敬的</td></tr><tr><td><strong>amounts</strong></td><td>n. 数量，总额；大量；v. 总计，合计</td><td><strong>water</strong></td><td>n. 水，雨水；水域，大片的水；领海，海域</td><td><strong>weed</strong></td><td>n. 野草，杂草；香烟，烟草；水草，水生植物</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 4
+          }
+        },
+        {
+          "section": 1,
+          "title": "第6段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>industry</strong></td><td>n. 工业，生产制造；行业，产业；勤奋，勤劳</td><td><strong>claims</strong></td><td>n. 声称，说法；要求，请求权；索赔</td><td><strong>fake</strong></td><td>adj. 伪造的，冒充的；虚假的，做作的；n. 假货，赝品</td></tr><tr><td><strong>grass</strong></td><td>n. 草；草地，草坪；大麻</td><td><strong>spend</strong></td><td>v. 度过，花；花，花费；消耗，用尽</td><td><strong>average</strong></td><td>n. 平均水平，一般标准；平均数，平均值；平均分担</td></tr><tr><td><strong>trees</strong></td><td>n. 树木，乔木；树状结构</td><td><strong>shrubs</strong></td><td>n. 灌木，矮树丛</td><td><strong>garden</strong></td><td>n. 花园，菜园，果园；庭园；公园</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 5
+          }
+        },
+        {
+          "section": 1,
+          "title": "第7段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>in response to</strong></td><td>作为对……的回应/反应</td><td><strong>rather than</strong></td><td>宁可，而不是，与其……不如</td><td><strong>petition</strong></td><td>n. 请愿书；申诉书，申请书；请愿，祈求，祈祷</td></tr><tr><td><strong>last</strong></td><td>adj. 最后的；最近的，上一个的；最后剩下的</td><td><strong>banning</strong></td><td>n. 禁止；禁令；班宁</td><td><strong>fake</strong></td><td>adj. 伪造的，冒充的；虚假的，做作的；n. 假货，赝品</td></tr><tr><td><strong>lawns</strong></td><td>n. 草坪，草地；v. 把地面修整成草坪</td><td><strong>gathered</strong></td><td>v. 聚集；收集，集中，积聚；推断，了解到</td><td><strong>signatures</strong></td><td>n. 签名，签字；鲜明特征，标志性特点；调号</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 6
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>In the quest for the perfect lawn, homeowners across the country are taking a shortcut— and it is the environment that is paying the price. About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles. The Chelsea Flower Show has banned fake grass from this year’s event, declaring it to be not part of its ethos. The Royal Horticultural Society (RHS), which runs the annual show in west London, says it has introduced the ban because of the damage plastic grass does to the environment and biodiversity.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>In the quest for the perfect lawn, homeowners across the country are taking a shortcut— and it is the environment that is paying the price. About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles. The Chelsea Flower Show has banned fake grass from this year’s event, declaring it to be not part of its ethos. The Royal Horticultural Society (RHS), which runs the annual show in west London, says it has introduced the ban because of the damage plastic grass does to the environment and biodiversity.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>In the quest for the perfect lawn, / homeowners across the country are taking a shortcut— / and it is the environment / that is paying the price. / About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles. / The Chelsea Flower Show has banned fake grass from this year’s event, / declaring it to be not part of its ethos. / The Royal Horticultural Society (RHS), / / which runs the annual show in west London, / says it has introduced the ban / because of the damage plastic grass does to the environment and biodiversity.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>In the quest for the perfect lawn, homeowners across the country are taking a shortcut— and it is the environment that is paying the price. About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles. The Chelsea Flower Show has banned fake grass from this year’s event, declaring it to be not part of its ethos. The Royal Horticultural Society (RHS), which runs the annual show in west London, says it has introduced the ban because of the damage plastic grass does to the environment and biodiversity.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>In the quest for the perfect lawn, / homeowners across the country are taking a shortcut— / and it is the environment / that is paying the price. / About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles. / The Chelsea Flower Show has banned fake grass from this year’s event, / declaring it to be not part of its ethos. / The Royal Horticultural Society (RHS), / / which runs the annual show in west London, / says it has introduced the ban / because of the damage plastic grass does to the environment and biodiversity.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">追求完美的草坪 / 全国各地的房主都在走捷径 / 这就是环境 / 那是付出代价的<br>塑料草每年售出约 800 万平方米，但反对声音现已蔓延至最高园艺界<br>切尔西花展禁止在今年的活动中使用假草 / 宣称这不是其精神的一部分<br>英国皇家园艺学会 (RHS) / 在伦敦西部举办年度展会 / 称已出台禁令 / 因为塑料草对环境和生物多样性造成的损害</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>In the quest for the perfect lawn, homeowners across the country are taking a shortcut— and it is the environment that is paying the price. About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles. The Chelsea Flower Show has banned fake grass from this year’s event, declaring it to be not part of its ethos. The Royal Horticultural Society (RHS), which runs the annual show in west London, says it has introduced the ban because of the damage plastic grass does to the environment and biodiversity.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>In the quest for the perfect lawn, / homeowners across the country are taking a shortcut— / and it is the environment / that is paying the price. / About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles. / The Chelsea Flower Show has banned fake grass from this year’s event, / declaring it to be not part of its ethos. / The Royal Horticultural Society (RHS), / / which runs the annual show in west London, / says it has introduced the ban / because of the damage plastic grass does to the environment and biodiversity.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">追求完美的草坪 / 全国各地的房主都在走捷径 / 这就是环境 / 那是付出代价的<br>塑料草每年售出约 800 万平方米，但反对声音现已蔓延至最高园艺界<br>切尔西花展禁止在今年的活动中使用假草 / 宣称这不是其精神的一部分<br>英国皇家园艺学会 (RHS) / 在伦敦西部举办年度展会 / 称已出台禁令 / 因为塑料草对环境和生物多样性造成的损害</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-3\">\n<h3>标准译文 · 第1段</h3>\n<p>为了追求完美的草坪，全国各地的房主都在走捷径——而付出代价的是环境。塑料草每年售出约 800 万平方米，但反对声音现已蔓延至最高园艺界。切尔西花展已禁止在今年的活动中使用假草，并宣称这不是其精神的一部分。在伦敦西部举办年度展览的皇家园艺学会（RHS）表示，由于塑料草对环境和生物多样性造成损害，因此推出了这项禁令。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>In the quest for the perfect lawn, homeowners across the country are taking a shortcut— and it is the environment that is paying the price.</p>\n<p><strong>意群断句：</strong><code>In the quest for the perfect lawn, / homeowners across the country are taking a shortcut— / and it is the environment / that is paying the price.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">追求完美的草坪 / 全国各地的房主都在走捷径 / 这就是环境 / 那是付出代价的</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>environment</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">为了追求完美的草坪，全国各地的房主都在走捷径——而付出代价的是环境。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles.</p>\n<p><strong>意群断句：</strong><code>About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">塑料草每年售出约 800 万平方米，但反对声音现已蔓延至最高园艺界</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">塑料草每年售出约 800 万平方米，但反对声音现已蔓延至最高园艺界。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The Chelsea Flower Show has banned fake grass from this year’s event, declaring it to be not part of its ethos.</p>\n<p><strong>意群断句：</strong><code>The Chelsea Flower Show has banned fake grass from this year’s event, / declaring it to be not part of its ethos.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">切尔西花展禁止在今年的活动中使用假草 / 宣称这不是其精神的一部分</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>分词短语作状语/定语</b>：现在分词短语 <code>declaring it to be not part of its ethos....</code> 作伴随/结果状语或后置修饰，增强语义表现力。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">切尔西花展已禁止在今年的活动中使用假草，并宣称这不是其精神的一部分。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The Royal Horticultural Society (RHS), which runs the annual show in west London, says it has introduced the ban because of the damage plastic grass does to the environment and biodiversity.</p>\n<p><strong>意群断句：</strong><code>The Royal Horticultural Society (RHS), / / which runs the annual show in west London, / says it has introduced the ban / because of the damage plastic grass does to the environment and biodiversity.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">英国皇家园艺学会 (RHS) / 在伦敦西部举办年度展会 / 称已出台禁令 / 因为塑料草对环境和生物多样性造成的损害</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>非限制性定语从句</b>：<code>,which runs the annual show in west London...</code> 引导非限制性定语从句，对前文先行词进行补充说明与信息拓展。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">在伦敦西部举办年度展览的皇家园艺学会（RHS）表示，由于塑料草对环境和生物多样性造成损害，因此推出了这项禁令。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>Ed Horne, of the RHS, said: “We launched our sustainability strategy last year and fake grass is just not in line with our ethos and views on plastic. We recommend using real grass because of its environmental benefits, which include supporting wildlife, alleviating flooding and cooling the environment.”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>Ed Horne, of the RHS, said: “We launched our sustainability strategy last year and fake grass is just not in line with our ethos and views on plastic. We recommend using real grass because of its environmental benefits, which include supporting wildlife, alleviating flooding and cooling the environment.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>Ed Horne, / of the RHS, / said: / “We launched our sustainability strategy last year and fake grass is just not in line with our ethos and views on plastic. / We recommend using real grass / because of its environmental benefits, / / which include supporting wildlife, / alleviating flooding and cooling the environment.”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>Ed Horne, of the RHS, said: “We launched our sustainability strategy last year and fake grass is just not in line with our ethos and views on plastic. We recommend using real grass because of its environmental benefits, which include supporting wildlife, alleviating flooding and cooling the environment.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>Ed Horne, / of the RHS, / said: / “We launched our sustainability strategy last year and fake grass is just not in line with our ethos and views on plastic. / We recommend using real grass / because of its environmental benefits, / / which include supporting wildlife, / alleviating flooding and cooling the environment.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">埃德·霍恩 / 皇家园艺学会的 / 说 / We launched our sustainability strategy last year and fake grass is just not in line with our ethos and views on plastic<br>我们建议使用真草 / 因为它的环境效益 / 其中包括支持野生动物 / 缓解洪水并冷却环境。”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>Ed Horne, of the RHS, said: “We launched our sustainability strategy last year and fake grass is just not in line with our ethos and views on plastic. We recommend using real grass because of its environmental benefits, which include supporting wildlife, alleviating flooding and cooling the environment.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>Ed Horne, / of the RHS, / said: / “We launched our sustainability strategy last year and fake grass is just not in line with our ethos and views on plastic. / We recommend using real grass / because of its environmental benefits, / / which include supporting wildlife, / alleviating flooding and cooling the environment.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">埃德·霍恩 / 皇家园艺学会的 / 说 / We launched our sustainability strategy last year and fake grass is just not in line with our ethos and views on plastic<br>我们建议使用真草 / 因为它的环境效益 / 其中包括支持野生动物 / 缓解洪水并冷却环境。”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-3\">\n<h3>标准译文 · 第2段</h3>\n<p>英国皇家园艺学会的埃德·霍恩 (Ed Horne) 表示：“我们去年推出了可持续发展战略，而假草不符合我们的精神和对塑料的看法。我们建议使用真草，因为它对环境有益，包括支持野生动物、缓解洪水和冷却环境。”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Ed Horne, of the RHS, said: “We launched our sustainability strategy last year and fake grass is just not in line with our ethos and views on plastic.</p>\n<p><strong>意群断句：</strong><code>Ed Horne, / of the RHS, / said: / “We launched our sustainability strategy last year and fake grass is just not in line with our ethos and views on plastic.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">埃德·霍恩 / 皇家园艺学会的 / 说 / We launched our sustainability strategy last year and fake grass is just not in line with our ethos and views on plastic</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with our ethos and views on plastic....</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">英国皇家园艺学会的埃德·霍恩（Ed Horne）表示：“我们去年推出了可持续发展战略，而假草不符合我们对塑料的精神和观点。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>We recommend using real grass because of its environmental benefits, which include supporting wildlife, alleviating flooding and cooling the environment.”</p>\n<p><strong>意群断句：</strong><code>We recommend using real grass / because of its environmental benefits, / / which include supporting wildlife, / alleviating flooding and cooling the environment.”</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">我们建议使用真草 / 因为它的环境效益 / 其中包括支持野生动物 / 缓解洪水并冷却环境。”</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>原因状语从句</b>：由连词 <code>Because</code> 引导从句 <code>Because of its environmental benefits</code>，限定主句论述的时空背景或逻辑前提。</li><li style=\"margin-bottom:5px\"><b>非限制性定语从句</b>：<code>,which include supporting wildlife...</code> 引导非限制性定语从句，对前文先行词进行补充说明与信息拓展。</li><li style=\"margin-bottom:5px\"><b>分词短语作状语/定语</b>：现在分词短语 <code>alleviating flooding and cooling the environm...</code> 作伴随/结果状语或后置修饰，增强语义表现力。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">我们建议使用真草，因为它具有环境效益，包括支持野生动物、缓解洪水和冷却环境。”</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes. A Twitter account, which claims to “cut through the greenwash” of artificial grass, already has more than 20,000 followers. It is trying to encourage people to sign two petitions, one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns. They have gathered 7,276 and 11,282 signatures.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes. A Twitter account, which claims to “cut through the greenwash” of artificial grass, already has more than 20,000 followers. It is trying to encourage people to sign two petitions, one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns. They have gathered 7,276 and 11,282 signatures.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes. / A Twitter account, / / which claims to “cut through the greenwash” of artificial grass, / already has more than 20,000 followers. / It is trying to encourage people to sign two petitions, / one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns. / They have gathered 7,276 and 11,282 signatures.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes. A Twitter account, which claims to “cut through the greenwash” of artificial grass, already has more than 20,000 followers. It is trying to encourage people to sign two petitions, one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns. They have gathered 7,276 and 11,282 signatures.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes. / A Twitter account, / / which claims to “cut through the greenwash” of artificial grass, / already has more than 20,000 followers. / It is trying to encourage people to sign two petitions, / one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns. / They have gathered 7,276 and 11,282 signatures.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">英国皇家园艺学会做出这一决定之际，活动人士正试图提高人们对假草造成的问题的认识<br>一个推特帐户 / 声称可以“打破人造草坪的绿化” / 已经拥有超过20,000名粉丝<br>它试图鼓励人们签署两份请愿书 / 一位呼吁禁止销售塑料草，另一位则呼吁对此类草坪征收“生态破坏”税<br>他们已收集了 7,276 和 11,282 个签名</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes. A Twitter account, which claims to “cut through the greenwash” of artificial grass, already has more than 20,000 followers. It is trying to encourage people to sign two petitions, one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns. They have gathered 7,276 and 11,282 signatures.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes. / A Twitter account, / / which claims to “cut through the greenwash” of artificial grass, / already has more than 20,000 followers. / It is trying to encourage people to sign two petitions, / one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns. / They have gathered 7,276 and 11,282 signatures.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">英国皇家园艺学会做出这一决定之际，活动人士正试图提高人们对假草造成的问题的认识<br>一个推特帐户 / 声称可以“打破人造草坪的绿化” / 已经拥有超过20,000名粉丝<br>它试图鼓励人们签署两份请愿书 / 一位呼吁禁止销售塑料草，另一位则呼吁对此类草坪征收“生态破坏”税<br>他们已收集了 7,276 和 11,282 个签名</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-3\">\n<h3>标准译文 · 第3段</h3>\n<p>英国皇家园艺学会做出这一决定之际，活动人士正试图提高人们对假草造成的问题的认识。一个声称要“打破人造草绿化”的 Twitter 账户已经拥有超过 20,000 名粉丝。它试图鼓励人们签署两份请愿书，一份呼吁禁止销售塑料草，另一份呼吁对此类草坪征收“生态破坏”税。他们已收集了 7,276 和 11,282 个签名。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes.</p>\n<p><strong>意群断句：</strong><code>The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">英国皇家园艺学会做出这一决定之际，活动人士正试图提高人们对假草造成的问题的认识</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">英国皇家园艺学会做出这一决定之际，活动人士正试图提高人们对假草造成的问题的认识。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>A Twitter account, which claims to “cut through the greenwash” of artificial grass, already has more than 20,000 followers.</p>\n<p><strong>意群断句：</strong><code>A Twitter account, / / which claims to “cut through the greenwash” of artificial grass, / already has more than 20,000 followers.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">一个推特帐户 / 声称可以“打破人造草坪的绿化” / 已经拥有超过20,000名粉丝</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>非限制性定语从句</b>：<code>,which claims to “cut through the greenwash” of arti...</code> 引导非限制性定语从句，对前文先行词进行补充说明与信息拓展。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">一个声称要“打破人造草绿化”的 Twitter 账户已经拥有超过 20,000 名粉丝。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>It is trying to encourage people to sign two petitions, one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns.</p>\n<p><strong>意群断句：</strong><code>It is trying to encourage people to sign two petitions, / one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">它试图鼓励人们签署两份请愿书 / 一位呼吁禁止销售塑料草，另一位则呼吁对此类草坪征收“生态破坏”税</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">它试图鼓励人们签署两份请愿书，一份呼吁禁止销售塑料草，另一份呼吁对此类草坪征收“生态破坏”税。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>They have gathered 7,276 and 11,282 signatures.</p>\n<p><strong>意群断句：</strong><code>They have gathered 7,276 and 11,282 signatures.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">他们已收集了 7,276 和 11,282 个签名</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">他们已收集了 7,276 和 11,282 个签名。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>However, supporters of fake grass point out that there is also an environmental impact with natural lawns, which need mowing and therefore usually consume electricity or petrol.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>However, supporters of fake grass point out that there is also an environmental impact with natural lawns, which need mowing and therefore usually consume electricity or petrol.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>However, / supporters of fake grass point out / that there is also an environmental impact with natural lawns, / / which need mowing and therefore usually consume electricity or petrol.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>However, supporters of fake grass point out that there is also an environmental impact with natural lawns, which need mowing and therefore usually consume electricity or petrol.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>However, / supporters of fake grass point out / that there is also an environmental impact with natural lawns, / / which need mowing and therefore usually consume electricity or petrol.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-2\">\n<h3>意群翻译 · 第4段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">然而 / 假草的支持者指出 / 天然草坪也会对环境产生影响 / 需要割草，因此通常消耗电力或汽油</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>However, supporters of fake grass point out that there is also an environmental impact with natural lawns, which need mowing and therefore usually consume electricity or petrol.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>However, / supporters of fake grass point out / that there is also an environmental impact with natural lawns, / / which need mowing and therefore usually consume electricity or petrol.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-2\">\n<h3>意群翻译 · 第4段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">然而 / 假草的支持者指出 / 天然草坪也会对环境产生影响 / 需要割草，因此通常消耗电力或汽油</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-3\">\n<h3>标准译文 · 第4段</h3>\n<p>然而，假草的支持者指出，天然草坪也会对环境造成影响，因为天然草坪需要修剪，因此通常会消耗电力或汽油。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/1)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>However, supporters of fake grass point out that there is also an environmental impact with natural lawns, which need mowing and therefore usually consume electricity or petrol.</p>\n<p><strong>意群断句：</strong><code>However, / supporters of fake grass point out / that there is also an environmental impact with natural lawns, / / which need mowing and therefore usually consume electricity or petrol.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">然而 / 假草的支持者指出 / 天然草坪也会对环境产生影响 / 需要割草，因此通常消耗电力或汽油</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>非限制性定语从句</b>：<code>,which need mowing and therefore usually consume ele...</code> 引导非限制性定语从句，对前文先行词进行补充说明与信息拓展。</li><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with natural lawns...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">然而，假草的支持者指出，天然草坪也会对环境造成影响，因为天然草坪需要修剪，因此通常会消耗电力或汽油。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>The industry also points out that real grass requires considerable amounts of water, weed killer or other treatments and that people who lay fake grass tend to use their garden more.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>The industry also points out that real grass requires considerable amounts of water, weed killer or other treatments and that people who lay fake grass tend to use their garden more.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>The industry also points out / that real grass requires considerable amounts of water, / weed killer or other treatments and / that people / who lay fake grass tend to use their garden more.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>The industry also points out that real grass requires considerable amounts of water, weed killer or other treatments and that people who lay fake grass tend to use their garden more.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>The industry also points out / that real grass requires considerable amounts of water, / weed killer or other treatments and / that people / who lay fake grass tend to use their garden more.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-2\">\n<h3>意群翻译 · 第5段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">业内人士还指出 / 真正的草需要大量的水 / 除草剂或其他治疗方法以及 / 那个人 / 铺设假草的人往往更多地使用他们的花园</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>The industry also points out that real grass requires considerable amounts of water, weed killer or other treatments and that people who lay fake grass tend to use their garden more.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>The industry also points out / that real grass requires considerable amounts of water, / weed killer or other treatments and / that people / who lay fake grass tend to use their garden more.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-2\">\n<h3>意群翻译 · 第5段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">业内人士还指出 / 真正的草需要大量的水 / 除草剂或其他治疗方法以及 / 那个人 / 铺设假草的人往往更多地使用他们的花园</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-3\">\n<h3>标准译文 · 第5段</h3>\n<p>该行业还指出，真草需要大量的水、除草剂或其他处理方法，而铺设假草的人往往会更多地使用他们的花园。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/1)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The industry also points out that real grass requires considerable amounts of water, weed killer or other treatments and that people who lay fake grass tend to use their garden more.</p>\n<p><strong>意群断句：</strong><code>The industry also points out / that real grass requires considerable amounts of water, / weed killer or other treatments and / that people / who lay fake grass tend to use their garden more.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">业内人士还指出 / 真正的草需要大量的水 / 除草剂或其他治疗方法以及 / 那个人 / 铺设假草的人往往更多地使用他们的花园</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>out</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">该行业还指出，真草需要大量的水、除草剂或其他处理方法，而铺设假草的人往往会更多地使用他们的花园。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>The industry also claims that people who lay fake grass spend an average of £500 on trees or shrubs for their garden, which provides habitat for insects.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>The industry also claims that people who lay fake grass spend an average of £500 on trees or shrubs for their garden, which provides habitat for insects.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-1\">\n<h3>意群划分 · 第6段</h3>\n<p>The industry also claims / that people / who lay fake grass spend an average of £500 on trees or shrubs for their garden, / / which provides habitat for insects.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>The industry also claims that people who lay fake grass spend an average of £500 on trees or shrubs for their garden, which provides habitat for insects.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-1\">\n<h3>意群划分 · 第6段</h3>\n<p>The industry also claims / that people / who lay fake grass spend an average of £500 on trees or shrubs for their garden, / / which provides habitat for insects.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-2\">\n<h3>意群翻译 · 第6段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">业内还声称 / 那个人 / 铺设假草的人平均花费 500 英镑为花园种植树木或灌木 / 为昆虫提供栖息地</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>The industry also claims that people who lay fake grass spend an average of £500 on trees or shrubs for their garden, which provides habitat for insects.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-1\">\n<h3>意群划分 · 第6段</h3>\n<p>The industry also claims / that people / who lay fake grass spend an average of £500 on trees or shrubs for their garden, / / which provides habitat for insects.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-2\">\n<h3>意群翻译 · 第6段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">业内还声称 / 那个人 / 铺设假草的人平均花费 500 英镑为花园种植树木或灌木 / 为昆虫提供栖息地</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-3\">\n<h3>标准译文 · 第6段</h3>\n<p>该行业还声称，铺设假草的人平均花费 500 英镑在花园里种植树木或灌木，为昆虫提供栖息地。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/1)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The industry also claims that people who lay fake grass spend an average of £500 on trees or shrubs for their garden, which provides habitat for insects.</p>\n<p><strong>意群断句：</strong><code>The industry also claims / that people / who lay fake grass spend an average of £500 on trees or shrubs for their garden, / / which provides habitat for insects.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">业内还声称 / 那个人 / 铺设假草的人平均花费 500 英镑为花园种植树木或灌木 / 为昆虫提供栖息地</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>非限制性定语从句</b>：<code>,which provides habitat for insects....</code> 引导非限制性定语从句，对前文先行词进行补充说明与信息拓展。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">该行业还声称，铺设假草的人平均花费 500 英镑在花园里种植树木或灌木，为昆虫提供栖息地。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-7-0\">\n<h3>完整原文 · 第7段</h3>\n<p>In response to another petition last year about banning fake lawns, which gathered 30,000 signatures, the government responded that it has “no plans to ban the use of artificial grass”. It added: “We prefer to help people and organizations make the right choice rather than legislating on such matters. However, the use of artificial grass must comply with the legal and policy safeguards in place to protect biodiversity and ensure sustainable drainage while measures such as the strengthened biodiversity duty should serve to encourage public authorities to consider sustainable alternatives.”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-7-0\">\n<h3>完整原文 · 第7段</h3>\n<p>In response to another petition last year about banning fake lawns, which gathered 30,000 signatures, the government responded that it has “no plans to ban the use of artificial grass”. It added: “We prefer to help people and organizations make the right choice rather than legislating on such matters. However, the use of artificial grass must comply with the legal and policy safeguards in place to protect biodiversity and ensure sustainable drainage while measures such as the strengthened biodiversity duty should serve to encourage public authorities to consider sustainable alternatives.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-1\">\n<h3>意群划分 · 第7段</h3>\n<p>In response to another petition last year about banning fake lawns, / / which gathered 30,000 signatures, / the government responded / that it has “no plans to ban the use of artificial grass”. / It added: / “We prefer to help people and organizations make the right choice / rather than legislating on such matters. / However, / the use of artificial grass must comply with the legal and policy safeguards in place to protect biodiversity and ensure sustainable drainage / while measures such as the strengthened biodiversity duty should serve to encourage public authorities to consider sustainable alternatives.”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-7-0\">\n<h3>完整原文 · 第7段</h3>\n<p>In response to another petition last year about banning fake lawns, which gathered 30,000 signatures, the government responded that it has “no plans to ban the use of artificial grass”. It added: “We prefer to help people and organizations make the right choice rather than legislating on such matters. However, the use of artificial grass must comply with the legal and policy safeguards in place to protect biodiversity and ensure sustainable drainage while measures such as the strengthened biodiversity duty should serve to encourage public authorities to consider sustainable alternatives.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-1\">\n<h3>意群划分 · 第7段</h3>\n<p>In response to another petition last year about banning fake lawns, / / which gathered 30,000 signatures, / the government responded / that it has “no plans to ban the use of artificial grass”. / It added: / “We prefer to help people and organizations make the right choice / rather than legislating on such matters. / However, / the use of artificial grass must comply with the legal and policy safeguards in place to protect biodiversity and ensure sustainable drainage / while measures such as the strengthened biodiversity duty should serve to encourage public authorities to consider sustainable alternatives.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-2\">\n<h3>意群翻译 · 第7段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">回应去年另一项关于禁止假草坪的请愿书 / 收集了 30,000 个签名 / 政府回应 / that it has “no plans to ban the use of artificial grass<br>它添加了 / “我们更愿意帮助个人和组织做出正确的选择 / 而不是就此类问题立法<br>然而 / 人造草的使用必须遵守现有的法律和政策保障措施，以保护生物多样性并确保可持续排水 / 而加强生物多样性义务等措施应有助于鼓励公共当局考虑可持续的替代方案。”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-7-0\">\n<h3>完整原文 · 第7段</h3>\n<p>In response to another petition last year about banning fake lawns, which gathered 30,000 signatures, the government responded that it has “no plans to ban the use of artificial grass”. It added: “We prefer to help people and organizations make the right choice rather than legislating on such matters. However, the use of artificial grass must comply with the legal and policy safeguards in place to protect biodiversity and ensure sustainable drainage while measures such as the strengthened biodiversity duty should serve to encourage public authorities to consider sustainable alternatives.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-1\">\n<h3>意群划分 · 第7段</h3>\n<p>In response to another petition last year about banning fake lawns, / / which gathered 30,000 signatures, / the government responded / that it has “no plans to ban the use of artificial grass”. / It added: / “We prefer to help people and organizations make the right choice / rather than legislating on such matters. / However, / the use of artificial grass must comply with the legal and policy safeguards in place to protect biodiversity and ensure sustainable drainage / while measures such as the strengthened biodiversity duty should serve to encourage public authorities to consider sustainable alternatives.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-2\">\n<h3>意群翻译 · 第7段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">回应去年另一项关于禁止假草坪的请愿书 / 收集了 30,000 个签名 / 政府回应 / that it has “no plans to ban the use of artificial grass<br>它添加了 / “我们更愿意帮助个人和组织做出正确的选择 / 而不是就此类问题立法<br>然而 / 人造草的使用必须遵守现有的法律和政策保障措施，以保护生物多样性并确保可持续排水 / 而加强生物多样性义务等措施应有助于鼓励公共当局考虑可持续的替代方案。”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-3\">\n<h3>标准译文 · 第7段</h3>\n<p>去年，另一份关于禁止假草坪的请愿书收集了 30,000 个签名，在回应时，政府回应称“没有计划禁止使用人造草坪”。它补充说：“我们更愿意帮助人们和组织做出正确的选择，而不是就此类问题立法。然而，人造草坪的使用必须遵守现有的法律和政策保障措施，以保护生物多样性并确保可持续排水，而加强生物多样性责任等措施应有助于鼓励公共当局考虑可持续的替代方案。”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>In response to another petition last year about banning fake lawns, which gathered 30,000 signatures, the government responded that it has “no plans to ban the use of artificial grass”.</p>\n<p><strong>意群断句：</strong><code>In response to another petition last year about banning fake lawns, / / which gathered 30,000 signatures, / the government responded / that it has “no plans to ban the use of artificial grass”.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">回应去年另一项关于禁止假草坪的请愿书 / 收集了 30,000 个签名 / 政府回应 / that it has “no plans to ban the use of artificial grass</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>非限制性定语从句</b>：<code>,which gathered 30...</code> 引导非限制性定语从句，对前文先行词进行补充说明与信息拓展。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">去年，另一份关于禁止假草坪的请愿书收集了 30,000 个签名，在回应时，政府回应称“没有计划禁止使用人造草坪”。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>It added: “We prefer to help people and organizations make the right choice rather than legislating on such matters.</p>\n<p><strong>意群断句：</strong><code>It added: / “We prefer to help people and organizations make the right choice / rather than legislating on such matters.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">它添加了 / “我们更愿意帮助个人和组织做出正确的选择 / 而不是就此类问题立法</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">它补充道：“我们更愿意帮助人们和组织做出正确的选择，而不是就此类问题立法。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>However, the use of artificial grass must comply with the legal and policy safeguards in place to protect biodiversity and ensure sustainable drainage while measures such as the strengthened biodiversity duty should serve to encourage public authorities to consider sustainable alternatives.”</p>\n<p><strong>意群断句：</strong><code>However, / the use of artificial grass must comply with the legal and policy safeguards in place to protect biodiversity and ensure sustainable drainage / while measures such as the strengthened biodiversity duty should serve to encourage public authorities to consider sustainable alternatives.”</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">然而 / 人造草的使用必须遵守现有的法律和政策保障措施，以保护生物多样性并确保可持续排水 / 而加强生物多样性义务等措施应有助于鼓励公共当局考虑可持续的替代方案。”</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with the legal and policy safeguards in ...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">然而，人造草的使用必须符合现有的法律和政策保障措施，以保护生物多样性并确保可持续排水，而加强生物多样性义务等措施应有助于鼓励公共当局考虑可持续的替代方案。”</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "3.一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，正确项如何进行同义改写，错误项如何设置陷阱；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
+          "meta": {
+            "section": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "21题 · 题干、题型与核心出处",
+          "html": "<p><strong>21. The RHS thinks that plastic grass .</strong></p>\n<p>（英国皇家园艺学会认为塑料草。）</p>\n<p><strong>题型判定</strong>：事实细节题 ｜ <strong>定位出处</strong>：Paragraph 1</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "21"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. is harmful to the environment",
+          "html": "<p><strong>选项 A</strong>：<code>is harmful to the environment</code></p>\n<p><strong>中文翻译</strong>：对环境有害</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. is a hot topic in gardening circles",
+          "html": "<p><strong>选项 B</strong>：<code>is a hot topic in gardening circles</code></p>\n<p><strong>中文翻译</strong>：是园艺界的热门话题</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. is overpraised in the annual show",
+          "html": "<p><strong>选项 C</strong>：<code>is overpraised in the annual show</code></p>\n<p><strong>中文翻译</strong>：在年度展会上被高估</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. is ruining the view of west London",
+          "html": "<p><strong>选项 D</strong>：<code>is ruining the view of west London</code></p>\n<p><strong>中文翻译</strong>：正在破坏西伦敦的景色</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "22题 · 题干、题型与核心出处",
+          "html": "<p><strong>22. The petitions mentioned in Paragraph 3 reveal the campaigners’ .</strong></p>\n<p>（第 3 段中提到的请愿书揭示了活动家的。）</p>\n<p><strong>题型判定</strong>：因果推断题 ｜ <strong>定位出处</strong>：Paragraph 2</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "22"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. disappointment with RHS",
+          "html": "<p><strong>选项 A</strong>：<code>disappointment with RHS</code></p>\n<p><strong>中文翻译</strong>：对 RHS 感到失望</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. resistance to fake grass use",
+          "html": "<p><strong>选项 B</strong>：<code>resistance to fake grass use</code></p>\n<p><strong>中文翻译</strong>：抵抗假草的使用</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. anger over the proposed tax",
+          "html": "<p><strong>选项 C</strong>：<code>anger over the proposed tax</code></p>\n<p><strong>中文翻译</strong>：对拟议税收的愤怒</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. concern about real grass supply",
+          "html": "<p><strong>选项 D</strong>：<code>concern about real grass supply</code></p>\n<p><strong>中文翻译</strong>：对真草供应的担忧</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "23题 · 题干、题型与核心出处",
+          "html": "<p><strong>23. In Paragraph 4, supporters of fake grass point out .</strong></p>\n<p>（在第4段中，假草的支持者指出。）</p>\n<p><strong>题型判定</strong>：段落推理题 ｜ <strong>定位出处</strong>：Paragraph 3</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "23"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. the necessity to lower the cost of fake grass",
+          "html": "<p><strong>选项 A</strong>：<code>the necessity to lower the cost of fake grass</code></p>\n<p><strong>中文翻译</strong>：降低假草成本的必要性</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. the disadvantages of growing real grass",
+          "html": "<p><strong>选项 B</strong>：<code>the disadvantages of growing real grass</code></p>\n<p><strong>中文翻译</strong>：种植真草的缺点</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. the way to take care of artificial lawns",
+          "html": "<p><strong>选项 C</strong>：<code>the way to take care of artificial lawns</code></p>\n<p><strong>中文翻译</strong>：人造草坪的养护方法</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. the challenges of insect habitat protection",
+          "html": "<p><strong>选项 D</strong>：<code>the challenges of insect habitat protection</code></p>\n<p><strong>中文翻译</strong>：昆虫栖息地保护的挑战</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "24题 · 题干、题型与核心出处",
+          "html": "<p><strong>24. What should the government do with regard to artificial grass?</strong></p>\n<p>（对于人造草坪政府应该做什么？）</p>\n<p><strong>题型判定</strong>：词义/例证题 ｜ <strong>定位出处</strong>：Paragraph 4</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "24"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. Urge legislation to restrict its use.",
+          "html": "<p><strong>选项 A</strong>：<code>Urge legislation to restrict its use.</code></p>\n<p><strong>中文翻译</strong>：敦促立法限制其使用。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. Take measures to guarantee its quality.",
+          "html": "<p><strong>选项 B</strong>：<code>Take measures to guarantee its quality.</code></p>\n<p><strong>中文翻译</strong>：采取措施保证其质量。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. Remind its users to obey existing rules.",
+          "html": "<p><strong>选项 C</strong>：<code>Remind its users to obey existing rules.</code></p>\n<p><strong>中文翻译</strong>：提醒用户遵守现有规则。</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. Replace it with sustainable alternatives.",
+          "html": "<p><strong>选项 D</strong>：<code>Replace it with sustainable alternatives.</code></p>\n<p><strong>中文翻译</strong>：用可持续的替代品取而代之。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "25题 · 题干、题型与核心出处",
+          "html": "<p><strong>25. It can be learned from the text that fake grass .</strong></p>\n<p>（从文中可以得知，假草。）</p>\n<p><strong>题型判定</strong>：全文主旨题 ｜ <strong>定位出处</strong>：Paragraph 5</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "25"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. is being improved continuously",
+          "html": "<p><strong>选项 A</strong>：<code>is being improved continuously</code></p>\n<p><strong>中文翻译</strong>：正在不断完善中</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. has seen a market share decline",
+          "html": "<p><strong>选项 B</strong>：<code>has seen a market share decline</code></p>\n<p><strong>中文翻译</strong>：市场份额下降</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. is becoming increasingly affordable",
+          "html": "<p><strong>选项 C</strong>：<code>is becoming increasingly affordable</code></p>\n<p><strong>中文翻译</strong>：正变得越来越实惠</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. has been a controversial product",
+          "html": "<p><strong>选项 D</strong>：<code>has been a controversial product</code></p>\n<p><strong>中文翻译</strong>：一直是一个有争议的产品</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "D"
+          }
+        },
+        {
+          "section": 4,
+          "title": "4.一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>在新题型中，考查的本质是理解文章上下文的逻辑承接能力。我们将本篇真题结构改编为新题型迁移训练，训练对段落主旨与篇章逻辑的提炼概括能力。</p>\n<p><strong>篇章核心逻辑链条</strong>：</p>\n<p>引出核心论题 → 展开多角度实证与事实分析 → 剖析深层体制/社会矛盾 → 提出战略性长效应对策略。</p>",
+          "meta": {
+            "section": 4
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 1",
+          "html": "<p><strong>【考查段落 1】</strong></p>\n<p><code>In the quest for the perfect lawn, homeowners across the country are taking a shortcut— and it is the environment that i...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 1 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 0
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 2",
+          "html": "<p><strong>【考查段落 2】</strong></p>\n<p><code>Ed Horne, of the RHS, said: “We launched our sustainability strategy last year and fake grass is just not in line with o...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 2 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 1
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 3",
+          "html": "<p><strong>【考查段落 3】</strong></p>\n<p><code>The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes. A Twitter account, whi...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 3 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 2
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 4",
+          "html": "<p><strong>【考查段落 4】</strong></p>\n<p><code>However, supporters of fake grass point out that there is also an environmental impact with natural lawns, which need mo...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 4 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 3
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 5",
+          "html": "<p><strong>【考查段落 5】</strong></p>\n<p><code>The industry also points out that real grass requires considerable amounts of water, weed killer or other treatments and...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 5 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 4
+          }
+        },
+        {
+          "section": 5,
+          "title": "1. 大作文宏观论述与主题词汇积累",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>可积累的主题表达</th><th>中文翻译</th><th>所属类别</th><th>使用层级</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>promoting institutional adaptability</strong></td><td><strong>增强制度适应性与韧性</strong></td><td><strong>社会/经济发展</strong></td><td><strong>宏观论点</strong></td></tr>\n<tr><td>harmonizing commercial viability and public welfare</td><td>协调商业可行性与公众福祉</td><td>综合治理</td><td>论证支撑</td></tr>\n<tr><td>fostering sustainable long-term development</td><td>促进可持续长远发展</td><td>未来展望</td><td>结论升华</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        },
+        {
+          "section": 5,
+          "title": "2. 大作文图表/观点题通用满分句型模板",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>适用题型</th><th>考试时可复用的形式</th><th>中文翻译</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>图表/观点题</strong></td><td><strong>A is doing B in an effort to do C.</strong></td><td><strong>A正在采取行动B，目的是实现目标C。</strong></td></tr>\n<tr><td>原因剖析段</td><td>The underlying reason behind this phenomenon is that...</td><td>该现象背后的深层原因在于……</td></tr>\n<tr><td>建议对策段</td><td>Only through collaborative governance can we ensure enduring progress.</td><td>唯有通过协同治理，方能确保长久的发展与繁荣。</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        }
+      ]
+    }
+  },
+  "text2": {
+    "id": 2,
+    "qRange": "26-30",
+    "title": "Text 2",
+    "paragraphs": [
+      "It’s easy to dismiss as absurd the Trump administration’s ideas for plugging the chronic funding gap of our national parks. Can anyone really think it’s a good idea to allow Amazon deliveries to your tent in Yosemite or food trucks to line up under the redwood trees at Sequoia National Park?",
+      "But the administration is right about one thing: U.S. national parks are in crisis.",
+      "Collectively, they have a maintenance backlog of more than $12 billion. Roads, trails, restrooms, visitor centers and other infrastructure are crumbling.",
+      "But privatizing and commercializing the campgrounds would not be a cure-all.",
+      "Campgrounds are a tiny portion of the overall infrastructure backlog, and concessionaires in the parks hand over, on average, only about 5% of their revenues to the National Park Service. Moreover, increased privatization would certainly undercut one of the major reasons why 300 million visitors come to the parks each year: to enjoy nature and get a break from the commercial drumbeat that overwhelms daily life.",
+      "The real problem is that the parks have been chronically starved of funding. We conducted a comprehensive survey examining how U.S. residents view their national parks, and we found that Americans place a very high value on them—whether or not they actually visit them. The peer-reviewed economic survey of 700 U.S. taxpayers, conducted by mail and internet, also found that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact. Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.",
+      "The national parks provide great value to U.S. residents both as places to escape and as symbols of nature. On top of this, they produce value from their extensive educational programs, their positive impact on the climate through carbon sequestration, their contribution to our cultural and artistic life, and of course through tourism. The parks also help keep America’s past alive, working with thousands of local jurisdictions around the country to protect historical sites—including Ellis Island and Gettysburg—and to bring the stories of these places to life.",
+      "The parks do all this on a shoestring. Congress allocates only $3 billion a year to the national park system—an amount that has been flat since 2001 (in inflation-adjusted dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package. Meanwhile, the number of annual visitors has increased by more than 50% since 1980, and now stands at 330 million visitors per year."
+    ],
+    "questions": [
+      {
+        "qid": 26,
+        "stem": "What problem are U.S. national parks faced with?",
+        "stem_cn": "美国国家公园面临什么问题？",
+        "type": "事实细节题",
+        "locate": "Paragraph 1",
+        "options": [
+          {
+            "key": "A",
+            "text": "Decline of business profits.",
+            "text_cn": "营业利润下降。",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "Inadequate commercialization.",
+            "text_cn": "商业化程度不够。",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "Lack of transportation services.",
+            "text_cn": "缺乏交通服务。",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "Poorly maintained infrastructure.",
+            "text_cn": "基础设施维护不善。",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。"
+          }
+        ]
+      },
+      {
+        "qid": 27,
+        "stem": "Increased privatization of campgrounds may .",
+        "stem_cn": "露营地的私有化可能会增加。",
+        "type": "因果推断题",
+        "locate": "Paragraph 2",
+        "options": [
+          {
+            "key": "A",
+            "text": "spoil visitor experience",
+            "text_cn": "破坏游客体验",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "B",
+            "text": "help preserve nature",
+            "text_cn": "帮助保护自然",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "bring operational pressure",
+            "text_cn": "带来运营压力",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "boost visitors to parks",
+            "text_cn": "增加公园游客数量",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 28,
+        "stem": "According to Paragraph 5, most respondents in the survey would .",
+        "stem_cn": "根据第 5 段，调查中的大多数受访者会 。",
+        "type": "段落推理题",
+        "locate": "Paragraph 3",
+        "options": [
+          {
+            "key": "A",
+            "text": "go to the national parks on a regular basis",
+            "text_cn": "定期去国家公园",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "advocate a bigger budget for the national parks",
+            "text_cn": "提倡为国家公园增加预算",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "agree to pay extra for the national parks",
+            "text_cn": "同意为国家公园支付额外费用",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "D",
+            "text": "support the national parks’ recent reforms",
+            "text_cn": "支持国家公园最近的改革",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 29,
+        "stem": "The national parks are valuable in that they .",
+        "stem_cn": "国家公园的价值在于它们。",
+        "type": "词义/例证题",
+        "locate": "Paragraph 4",
+        "options": [
+          {
+            "key": "A",
+            "text": "lead the way in tourism",
+            "text_cn": "引领旅游业",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "have historical significance",
+            "text_cn": "具有历史意义",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "C",
+            "text": "sponsor research on climate",
+            "text_cn": "赞助气候研究",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "provide an income for the locals",
+            "text_cn": "为当地人提供收入",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 30,
+        "stem": "It can be concluded from the text that the national park system .",
+        "stem_cn": "从文中可以得出国家公园制度。",
+        "type": "全文主旨题",
+        "locate": "Paragraph 5",
+        "options": [
+          {
+            "key": "A",
+            "text": "is able to cope with staff shortages",
+            "text_cn": "能够应对人员短缺的情况",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "is able to meet visitors’ demands",
+            "text_cn": "能够满足游客的需求",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "is in need of a new pricing policy",
+            "text_cn": "需要新的定价政策",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "is in need of a funding increase",
+            "text_cn": "需要增加资金",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。"
+          }
+        ]
+      }
+    ],
+    "practice": {
+      "steps": [
+        {
+          "section": "阅前须知",
+          "raw": "# 0.阅前须知\n\n阅前声明，本教程对英语一英语二均适用。\n\n本教程主要解决考研英语阅读备考中的三个结构性问题：\n\n1. **考研英语骗局一**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持认识文章中的所有细节，一个不漏，咱们不可能完全认识文章中的每一个单词，带着不认识的地方读文章做题才是真正的学生视角。即使是有部分超纲生词不认识，从段落和文章主旨、作者态度等宏观阅读文章内容本身分析的层面，也是不影响做全对的；\n\n2. **考研英语骗局二**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接边读边信达雅地翻译出文章，读完一遍只能在脑海里留下大致信息，并且很快遗忘。正确的方式是先粗后细，放弃信达雅的机械翻译，粗读先理解文章大致出现了哪些东西，然后细读采用意群法这种手段实现，即可临危不乱；\n\n3. **考研英语骗局三**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接用某种神技确定某个一定正确的答案。二选一选不出来是个非常正常的现象。用某种神技去秒杀一个文科单选问题违背了逻辑学常识，即孤证不立。通过宏观认知与多判据交叉验证的方式解决，是所有文科单选题的通法。",
+          "html": "<h1>0.阅前须知</h1>\n<p>阅前声明，本教程对英语一英语二均适用。</p>\n<p>本教程主要解决考研英语阅读备考中的三个结构性问题：</p>\n<ol>\n<li><p><strong>考研英语骗局一</strong>：拒绝上帝视角生词全懂，带着超纲生词读宏观主旨同样能做全对；</p></li>\n<li><p><strong>考研英语骗局二</strong>：放弃考场即时信达雅机械翻译，采用意群粗读抓取核心信息；</p></li>\n<li><p><strong>考研英语骗局三</strong>：拒绝所谓单一神技秒杀，采用定位比对与写作视角交叉验证。</p></li>\n</ol>\n<p>大家把考研英语阅读当成真阅读，才能发现真正正确的备考方式。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "# 1. 先读题干\n\n首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰咱们粗读对文章的理解。看题干对考查重点有个大致印象，并且因为题文同序的原则，也能帮助我们提前获取部分文章的逻辑脉络。",
+          "html": "<h1>1. 先读题干</h1><p>首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰粗读理解。看题干对考查重点建立大致印象，借助题文同序原则提前获取文章逻辑脉络。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 26题题干\n\n**What problem are U.S. national parks faced with?**\n\n> 美国国家公园面临什么问题？\n\n题型：**事实细节题**。\n\n定位预判：**Paragraph 1**\n\n---",
+          "html": "<h2>26题题干</h2><p><strong>What problem are U.S. national parks faced with?</strong></p><blockquote><p>美国国家公园面临什么问题？</p></blockquote><p>题型：<strong>事实细节题</strong>。</p><p>定位预判：<strong>Paragraph 1</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "26"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 27题题干\n\n**Increased privatization of campgrounds may .**\n\n> 露营地的私有化可能会增加。\n\n题型：**因果推断题**。\n\n定位预判：**Paragraph 2**\n\n---",
+          "html": "<h2>27题题干</h2><p><strong>Increased privatization of campgrounds may .</strong></p><blockquote><p>露营地的私有化可能会增加。</p></blockquote><p>题型：<strong>因果推断题</strong>。</p><p>定位预判：<strong>Paragraph 2</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "27"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 28题题干\n\n**According to Paragraph 5, most respondents in the survey would .**\n\n> 根据第 5 段，调查中的大多数受访者会 。\n\n题型：**段落推理题**。\n\n定位预判：**Paragraph 3**\n\n---",
+          "html": "<h2>28题题干</h2><p><strong>According to Paragraph 5, most respondents in the survey would .</strong></p><blockquote><p>根据第 5 段，调查中的大多数受访者会 。</p></blockquote><p>题型：<strong>段落推理题</strong>。</p><p>定位预判：<strong>Paragraph 3</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "28"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 29题题干\n\n**The national parks are valuable in that they .**\n\n> 国家公园的价值在于它们。\n\n题型：**词义/例证题**。\n\n定位预判：**Paragraph 4**\n\n---",
+          "html": "<h2>29题题干</h2><p><strong>The national parks are valuable in that they .</strong></p><blockquote><p>国家公园的价值在于它们。</p></blockquote><p>题型：<strong>词义/例证题</strong>。</p><p>定位预判：<strong>Paragraph 4</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "29"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 30题题干\n\n**It can be concluded from the text that the national park system .**\n\n> 从文中可以得出国家公园制度。\n\n题型：**全文主旨题**。\n\n定位预判：**Paragraph 5**\n\n---",
+          "html": "<h2>30题题干</h2><p><strong>It can be concluded from the text that the national park system .</strong></p><blockquote><p>从文中可以得出国家公园制度。</p></blockquote><p>题型：<strong>全文主旨题</strong>。</p><p>定位预判：<strong>Paragraph 5</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "30"
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "# 2. 读文章过程\n\n看完题干后，第一步要粗读一遍文章。根据自身水平扫一遍文章，开头结尾慢一些，注重首尾句，作者举的例子可以略读。关注逻辑词（however, but）、态度评价词、核心动作词与重复主题词。\n\n| 类型 | 关注原因 | 本文关注重点 |\n| --- | --- | --- |\n| 逻辑词 | 作者观点或行文转向 | however, but, nevertheless, yet, although |\n| 态度词 | 作者情感倾向与立场 | critical, positive, resilient, concern, significant |\n| 核心动作 | 论证中主体行为 | argue, demonstrate, implement, undermine |\n| 重复主题词 | 贯穿全篇的核心讨论对象 | 本文核心讨论对象与同义衍生表达 |",
+          "html": "<h1>2. 读文章过程</h1><p>扫读全文，注重段落首尾句，识别论点与论据。关注核心逻辑转折词与态度评价词。</p>\n<table class=\"table-wrap\"><thead><tr><th>类型</th><th>关注原因</th><th>本文关注重点</th></tr></thead>\n<tbody>\n<tr><td>逻辑词</td><td>作者观点或行文转向</td><td>however, but, nevertheless, yet</td></tr>\n<tr><td>态度词</td><td>作者情感倾向与立场</td><td>critical, positive, concern, significant</td></tr>\n<tr><td>核心动作</td><td>论证中主体行为</td><td>argue, demonstrate, implement, undermine</td></tr>\n<tr><td>重复主题词</td><td>贯穿全篇的核心讨论对象</td><td>本文核心论题与衍生词</td></tr>\n</tbody></table>",
+          "meta": {}
+        },
+        {
+          "section": "读文章",
+          "raw": "It’s easy to dismiss as absurd the Trump [administration’s] ideas for plugging the chronic funding gap of our national parks. Can anyone really think it’s a good idea to allow Amazon deliveries to your tent in Yosemite or food trucks to line up under the redwood trees at Sequoia National Park?",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>It’s easy to dismiss as absurd the Trump <span class=\"mask\">[administration’s]</span> ideas for plugging the chronic funding gap of our national parks. Can anyone really think it’s a good idea to allow Amazon deliveries to your tent in Yosemite or food trucks to line up under the redwood trees at Sequoia National Park?</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "It’s easy to dismiss as absurd the Trump [administration’s] ideas for plugging the chronic funding gap of our national parks. / Can anyone really think it’s a good idea to allow Amazon deliveries to your tent in Yosemite or food trucks to line up under the redwood trees at Sequoia National Park?",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>It’s easy to dismiss as absurd the Trump <span class=\"mask\">[administration’s]</span> ideas for plugging the chronic funding gap of our national parks. / Can anyone really think it’s a good idea to allow Amazon deliveries to your tent in Yosemite or food trucks to line up under the redwood trees at Sequoia National Park?</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第1段意群顺译】特朗普政府填补国家公园长期资金缺口的想法很容易被认为是荒谬的。有人真的认为让亚马逊送货到你在优胜美地的帐篷或让食品卡车在红杉国家公园的红杉树下排队是个好主意吗？...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>【第1段意群顺译】特朗普政府填补国家公园长期资金缺口的想法很容易被认为是荒谬的。有人真的认为让亚马逊送货到你在优胜美地的帐篷或让食品卡车在红杉国家公园的红杉树下排队是个好主意吗？...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "But the [administration] is right about one thing: U.S. national parks are in crisis.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>But the <span class=\"mask\">[administration]</span> is right about one thing: U.S. national parks are in crisis.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "But the [administration] is right about one thing: / U.S. national parks are in crisis.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>But the <span class=\"mask\">[administration]</span> is right about one thing: / U.S. national parks are in crisis.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第2段意群顺译】但政府在一件事上是正确的：美国国家公园正处于危机之中。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第2段意群顺译】但政府在一件事上是正确的：美国国家公园正处于危机之中。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "[Collectively], they have a maintenance backlog of more than $12 billion. Roads, trails, restrooms, visitor centers and other [infrastructure] are crumbling.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p><span class=\"mask\">[Collectively]</span>, they have a maintenance backlog of more than $12 billion. Roads, trails, restrooms, visitor centers and other <span class=\"mask\">[infrastructure]</span> are crumbling.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "[Collectively], / they have a maintenance backlog of more than $12 billion. / Roads, / trails, / restrooms, / visitor centers and other [infrastructure] are crumbling.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p><span class=\"mask\">[Collectively]</span>, / they have a maintenance backlog of more than $12 billion. / Roads, / trails, / restrooms, / visitor centers and other <span class=\"mask\">[infrastructure]</span> are crumbling.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第3段意群顺译】他们总共有超过 120 亿美元的维护积压。道路、小径、卫生间、游客中心和其他基础设施都在崩溃。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第3段意群顺译】他们总共有超过 120 亿美元的维护积压。道路、小径、卫生间、游客中心和其他基础设施都在崩溃。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "But privatizing and [commercializing] the [campgrounds] would not be a cure-all.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>But privatizing and <span class=\"mask\">[commercializing]</span> the <span class=\"mask\">[campgrounds]</span> would not be a cure-all.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "But privatizing and [commercializing] the [campgrounds] would not be a cure-all.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>But privatizing and <span class=\"mask\">[commercializing]</span> the <span class=\"mask\">[campgrounds]</span> would not be a cure-all.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第4段意群顺译】但露营地私有化和商业化并不是万能药。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第4段意群顺译】但露营地私有化和商业化并不是万能药。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "[Campgrounds] are a tiny portion of the overall [infrastructure] backlog, and [concessionaires] in the parks hand over, on average, only about 5% of their revenues to the National Park Service. Moreover, increased [privatization] would [certainly] undercut one of the major reasons why 300 million visitors come to the parks each year: to enjoy nature and get a break from the commercial drumbeat that overwhelms daily life.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p><span class=\"mask\">[Campgrounds]</span> are a tiny portion of the overall <span class=\"mask\">[infrastructure]</span> backlog, and <span class=\"mask\">[concessionaires]</span> in the parks hand over, on average, only about 5% of their revenues to the National Park Service. Moreover, increased <span class=\"mask\">[privatization]</span> would <span class=\"mask\">[certainly]</span> undercut one of the major reasons why 300 million visitors come to the parks each year: to enjoy nature and get a break from the commercial drumbeat that overwhelms daily life.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "[Campgrounds] are a tiny portion of the overall [infrastructure] backlog, / and [concessionaires] in the parks hand over, / on average, / only about 5% of their revenues to the National Park Service. / Moreover, / increased [privatization] would [certainly] undercut one of the major reasons why 300 million visitors come to the parks each year: / to enjoy nature and get a break from the commercial drumbeat / that overwhelms daily life.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p><span class=\"mask\">[Campgrounds]</span> are a tiny portion of the overall <span class=\"mask\">[infrastructure]</span> backlog, / and <span class=\"mask\">[concessionaires]</span> in the parks hand over, / on average, / only about 5% of their revenues to the National Park Service. / Moreover, / increased <span class=\"mask\">[privatization]</span> would <span class=\"mask\">[certainly]</span> undercut one of the major reasons why 300 million visitors come to the parks each year: / to enjoy nature and get a break from the commercial drumbeat / that overwhelms daily life.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第5段意群顺译】露营地只占整体基础设施积压的一小部分，公园特许经营商平均只将其收入的约 5% 上交给国家公园管理局。此外，私有化程度的提高肯定会削弱每年 3 亿游客来到公园的主要原因之一：享受大自然并从压倒日常生活的商业喧嚣中得到休息。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第5段意群顺译】露营地只占整体基础设施积压的一小部分，公园特许经营商平均只将其收入的约 5% 上交给国家公园管理局。此外，私有化程度的提高肯定会削弱每年 3 亿游客来到公园的主要原因之一：享受大自然并从压倒日常生活的商业喧嚣中得到休息。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The real problem is that the parks have been chronically starved of funding. We conducted a [comprehensive] survey examining how U.S. residents view their national parks, and we found that Americans place a very high value on them—whether or not they actually visit them. The [peer-reviewed] economic survey of 700 U.S. taxpayers, conducted by mail and internet, also found that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact. Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The real problem is that the parks have been chronically starved of funding. We conducted a <span class=\"mask\">[comprehensive]</span> survey examining how U.S. residents view their national parks, and we found that Americans place a very high value on them—whether or not they actually visit them. The <span class=\"mask\">[peer-reviewed]</span> economic survey of 700 U.S. taxpayers, conducted by mail and internet, also found that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact. Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The real problem is / that the parks have been chronically starved of funding. / We conducted a [comprehensive] survey examining how U.S. residents view their national parks, / and we found / that Americans place a very high value on them—whether or not they actually visit them. / The [peer-reviewed] economic survey of 700 U.S. taxpayers, / conducted by mail and internet, / also found / that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact. / Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The real problem is / that the parks have been chronically starved of funding. / We conducted a <span class=\"mask\">[comprehensive]</span> survey examining how U.S. residents view their national parks, / and we found / that Americans place a very high value on them—whether or not they actually visit them. / The <span class=\"mask\">[peer-reviewed]</span> economic survey of 700 U.S. taxpayers, / conducted by mail and internet, / also found / that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact. / Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第6段意群顺译】真正的问题是公园长期缺乏资金。我们进行了一项全面的调查，了解美国居民如何看待他们的国家公园，我们发现美国人非常重视它们——无论他们是否真的参观过它们。通过邮件和互联网对 700 名美国纳税人进行的同行评审经济调查还发现，人们愿意支付大量资金来确保公园及其项目完好无损。约 81% ...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第6段意群顺译】真正的问题是公园长期缺乏资金。我们进行了一项全面的调查，了解美国居民如何看待他们的国家公园，我们发现美国人非常重视它们——无论他们是否真的参观过它们。通过邮件和互联网对 700 名美国纳税人进行的同行评审经济调查还发现，人们愿意支付大量资金来确保公园及其项目完好无损。约 81% ...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The national parks provide great value to U.S. residents both as places to escape and as symbols of nature. On top of this, they produce value from their extensive educational programs, their positive impact on the climate through carbon [sequestration], their [contribution] to our cultural and artistic life, and of course through tourism. The parks also help keep America’s past alive, working with thousands of local [jurisdictions] around the country to protect historical sites—[including] Ellis Island and Gettysburg—and to bring the stories of these places to life.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The national parks provide great value to U.S. residents both as places to escape and as symbols of nature. On top of this, they produce value from their extensive educational programs, their positive impact on the climate through carbon <span class=\"mask\">[sequestration]</span>, their <span class=\"mask\">[contribution]</span> to our cultural and artistic life, and of course through tourism. The parks also help keep America’s past alive, working with thousands of local <span class=\"mask\">[jurisdictions]</span> around the country to protect historical sites—<span class=\"mask\">[including]</span> Ellis Island and Gettysburg—and to bring the stories of these places to life.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 6,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The national parks provide great value to U.S. residents both as places to escape and as symbols of nature. / On top of this, / they produce value from their extensive educational programs, / their positive impact on the climate through carbon [sequestration], / their [contribution] to our cultural and artistic life, / and of course through tourism. / The parks also help keep America’s past alive, / working with thousands of local [jurisdictions] around the country to protect historical sites—[including] Ellis Island and Gettysburg—and to bring the stories of these places to life.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The national parks provide great value to U.S. residents both as places to escape and as symbols of nature. / On top of this, / they produce value from their extensive educational programs, / their positive impact on the climate through carbon <span class=\"mask\">[sequestration]</span>, / their <span class=\"mask\">[contribution]</span> to our cultural and artistic life, / and of course through tourism. / The parks also help keep America’s past alive, / working with thousands of local <span class=\"mask\">[jurisdictions]</span> around the country to protect historical sites—<span class=\"mask\">[including]</span> Ellis Island and Gettysburg—and to bring the stories of these places to life.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 6,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第7段意群顺译】国家公园为美国居民提供了巨大的价值，既可以作为避世之地，也可以作为自然的象征。除此之外，他们还通过广泛的教育计划、通过碳固存对气候的积极影响、对我们的文化和艺术生活的贡献，当然还有旅游业的贡献来创造价值。这些公园还与全国数千个地方管辖区合作，保护历史遗迹（包括埃利斯岛和葛底斯堡）...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第7段意群顺译】国家公园为美国居民提供了巨大的价值，既可以作为避世之地，也可以作为自然的象征。除此之外，他们还通过广泛的教育计划、通过碳固存对气候的积极影响、对我们的文化和艺术生活的贡献，当然还有旅游业的贡献来创造价值。这些公园还与全国数千个地方管辖区合作，保护历史遗迹（包括埃利斯岛和葛底斯堡）...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 6,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落7大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>7、【段落7大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 6,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The parks do all this on a shoestring. Congress allocates only $3 billion a year to the national park system—an amount that has been flat since 2001 (in [inflation-adjusted] dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package. [Meanwhile], the number of annual visitors has increased by more than 50% since 1980, and now stands at 330 million visitors per year.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>7、【段落7大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The parks do all this on a shoestring. Congress allocates only $3 billion a year to the national park system—an amount that has been flat since 2001 (in <span class=\"mask\">[inflation-adjusted]</span> dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package. <span class=\"mask\">[Meanwhile]</span>, the number of annual visitors has increased by more than 50% since 1980, and now stands at 330 million visitors per year.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 7,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The parks do all this on a shoestring. / Congress allocates only $3 billion a year to the national park system—an amount / that has been flat / since 2001 (in [inflation-adjusted] dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package. [Meanwhile], / the number of annual visitors has increased by more than 50% / since 1980, / and now stands at 330 million visitors per year.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>7、【段落7大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The parks do all this on a shoestring. / Congress allocates only $3 billion a year to the national park system—an amount / that has been flat / since 2001 (in <span class=\"mask\">[inflation-adjusted]</span> dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package. <span class=\"mask\">[Meanwhile]</span>, / the number of annual visitors has increased by more than 50% / since 1980, / and now stands at 330 million visitors per year.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 7,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第8段意群顺译】公园在小本经营的情况下完成这一切。国会每年只向国家公园系统拨款 30 亿美元，这一数额自 2001 年以来一直持平（按通货膨胀调整后的美元计算），除了 2009 年作为奥巴马经济刺激计划的一部分而一次性增加的资金外。与此同时，自1980年以来，每年游客数量增长了50%以上，目前每...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>7、【段落7大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第8段意群顺译】公园在小本经营的情况下完成这一切。国会每年只向国家公园系统拨款 30 亿美元，这一数额自 2001 年以来一直持平（按通货膨胀调整后的美元计算），除了 2009 年作为奥巴马经济刺激计划的一部分而一次性增加的资金外。与此同时，自1980年以来，每年游客数量增长了50%以上，目前每...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 7,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落8大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>7、【段落7大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>8、【段落8大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 7,
+            "form": 3
+          }
+        },
+        {
+          "section": "做题过程",
+          "raw": "# 3. 开始做题 (26-30题)\n\n粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。",
+          "html": "<h1>3. 开始做题 (26-30题)</h1><p>粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。</p>",
+          "meta": {}
+        },
+        {
+          "section": "26题",
+          "raw": "## 26题\n\n**What problem are U.S. national parks faced with?**\n\n> 美国国家公园面临什么问题？\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> It’s easy to dismiss as absurd the Trump [administration’s] ideas for plugging the chronic funding gap of our national parks. Can anyone really think it’s a good idea to allow Amazon deliveries to your tent in Yosemite or food trucks to line up under the redwood trees at Sequoia National Park?\n>\n> 开始精读：\n>\n> It’s easy to dismiss as absurd the Trump [administration’s] ideas for plugging the chronic funding gap of our national parks. / Can anyone really think it’s a good idea to allow Amazon deliveries to your tent in Yosemite or food trucks to line up under the redwood trees at Sequoia National Park?\n>\n> 逐意群顺译：\n>\n> 特朗普政府填补国家公园长期资金缺口的想法很容易被认为是荒谬的。有人真的认为让亚马逊送货到你在优胜美地的帐篷或让食品卡车在红杉国家公园的红杉树下排队是个好主意吗？\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>26题</h2>\n<p><strong>What problem are U.S. national parks faced with?</strong></p>\n<blockquote><p>美国国家公园面临什么问题？</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>It’s easy to dismiss as absurd the Trump <span class=\"mask\">[administration’s]</span> ideas for plugging the chronic funding gap of our national parks. Can anyone really think it’s a good idea to allow Amazon deliveries to your tent in Yosemite or food trucks to line up under the redwood trees at Sequoia National Park?</p>\n<p><strong>开始精读：</strong></p>\n<p>It’s easy to dismiss as absurd the Trump <span class=\"mask\">[administration’s]</span> ideas for plugging the chronic funding gap of our national parks. / Can anyone really think it’s a good idea to allow Amazon deliveries to your tent in Yosemite or food trucks to line up under the redwood trees at Sequoia National Park?</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>特朗普政府填补国家公园长期资金缺口的想法很容易被认为是荒谬的。有人真的认为让亚马逊送货到你在优胜美地的帐篷或让食品卡车在红杉国家公园的红杉树下排队是个好主意吗？</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "26"
+          }
+        },
+        {
+          "section": "26题",
+          "raw": "### A. Decline of business profits.\n\n> 营业利润下降。\n\n我们先看 A 选项：`Decline of business profits.`（营业利润下降。）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：美国国家公园面临什么问题？ ➔ 选项认为：营业利润下降。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“营业利润下降。”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. Decline of business profits.</h3>\n<blockquote><p>营业利润下降。</p></blockquote>\n<p>我们先看 A 选项：<code>Decline of business profits.</code>（营业利润下降。）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：美国国家公园面临什么问题？ ➔ 选项认为：营业利润下降。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“营业利润下降。”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "26",
+            "option": "A"
+          }
+        },
+        {
+          "section": "26题",
+          "raw": "### B. Inadequate commercialization.\n\n> 商业化程度不够。\n\n我们先看 B 选项：`Inadequate commercialization.`（商业化程度不够。）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：美国国家公园面临什么问题？ ➔ 选项认为：商业化程度不够。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“商业化程度不够。”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. Inadequate commercialization.</h3>\n<blockquote><p>商业化程度不够。</p></blockquote>\n<p>我们先看 B 选项：<code>Inadequate commercialization.</code>（商业化程度不够。）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：美国国家公园面临什么问题？ ➔ 选项认为：商业化程度不够。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“商业化程度不够。”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "26",
+            "option": "B"
+          }
+        },
+        {
+          "section": "26题",
+          "raw": "### C. Lack of transportation services.\n\n> 缺乏交通服务。\n\n我们先看 C 选项：`Lack of transportation services.`（缺乏交通服务。）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：美国国家公园面临什么问题？ ➔ 选项认为：缺乏交通服务。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“缺乏交通服务。”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. Lack of transportation services.</h3>\n<blockquote><p>缺乏交通服务。</p></blockquote>\n<p>我们先看 C 选项：<code>Lack of transportation services.</code>（缺乏交通服务。）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：美国国家公园面临什么问题？ ➔ 选项认为：缺乏交通服务。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“缺乏交通服务。”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "26",
+            "option": "C"
+          }
+        },
+        {
+          "section": "26题",
+          "raw": "### D. Poorly maintained infrastructure.\n\n> 基础设施维护不善。\n\n我们先看 D 选项：`Poorly maintained infrastructure.`（基础设施维护不善。）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：美国国家公园面临什么问题？ ➔ 选项认为：基础设施维护不善。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `Poorly`, `maintained`, `infrastructure` 与原文第 1 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：D强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>D. Poorly maintained infrastructure.</h3>\n<blockquote><p>基础设施维护不善。</p></blockquote>\n<p>我们先看 D 选项：<code>Poorly maintained infrastructure.</code>（基础设施维护不善。）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：美国国家公园面临什么问题？ ➔ 选项认为：基础设施维护不善。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>Poorly</code>, <code>maintained</code>, <code>infrastructure</code> 与原文第 1 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：D强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "26",
+            "option": "D"
+          }
+        },
+        {
+          "section": "26题",
+          "raw": "### 26题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D强保留，与原文定位信息高度吻合；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>26题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D强保留，与原文定位信息高度吻合</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "26"
+          }
+        },
+        {
+          "section": "27题",
+          "raw": "## 27题\n\n**Increased privatization of campgrounds may .**\n\n> 露营地的私有化可能会增加。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> But the [administration] is right about one thing: U.S. national parks are in crisis.\n>\n> 开始精读：\n>\n> But the [administration] is right about one thing: / U.S. national parks are in crisis.\n>\n> 逐意群顺译：\n>\n> 但政府在一件事上是正确的：美国国家公园正处于危机之中。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>27题</h2>\n<p><strong>Increased privatization of campgrounds may .</strong></p>\n<blockquote><p>露营地的私有化可能会增加。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>But the <span class=\"mask\">[administration]</span> is right about one thing: U.S. national parks are in crisis.</p>\n<p><strong>开始精读：</strong></p>\n<p>But the <span class=\"mask\">[administration]</span> is right about one thing: / U.S. national parks are in crisis.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>但政府在一件事上是正确的：美国国家公园正处于危机之中。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "27"
+          }
+        },
+        {
+          "section": "27题",
+          "raw": "### A. spoil visitor experience\n\n> 破坏游客体验\n\n我们先看 A 选项：`spoil visitor experience`（破坏游客体验）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：露营地的私有化可能会增加。 ➔ 选项认为：破坏游客体验\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `spoil`, `visitor`, `experience` 与原文第 2 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：A强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>A. spoil visitor experience</h3>\n<blockquote><p>破坏游客体验</p></blockquote>\n<p>我们先看 A 选项：<code>spoil visitor experience</code>（破坏游客体验）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：露营地的私有化可能会增加。 ➔ 选项认为：破坏游客体验</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>spoil</code>, <code>visitor</code>, <code>experience</code> 与原文第 2 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：A强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "27",
+            "option": "A"
+          }
+        },
+        {
+          "section": "27题",
+          "raw": "### B. help preserve nature\n\n> 帮助保护自然\n\n我们先看 B 选项：`help preserve nature`（帮助保护自然）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：露营地的私有化可能会增加。 ➔ 选项认为：帮助保护自然\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“帮助保护自然”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. help preserve nature</h3>\n<blockquote><p>帮助保护自然</p></blockquote>\n<p>我们先看 B 选项：<code>help preserve nature</code>（帮助保护自然）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：露营地的私有化可能会增加。 ➔ 选项认为：帮助保护自然</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“帮助保护自然”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "27",
+            "option": "B"
+          }
+        },
+        {
+          "section": "27题",
+          "raw": "### C. bring operational pressure\n\n> 带来运营压力\n\n我们先看 C 选项：`bring operational pressure`（带来运营压力）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：露营地的私有化可能会增加。 ➔ 选项认为：带来运营压力\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“带来运营压力”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. bring operational pressure</h3>\n<blockquote><p>带来运营压力</p></blockquote>\n<p>我们先看 C 选项：<code>bring operational pressure</code>（带来运营压力）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：露营地的私有化可能会增加。 ➔ 选项认为：带来运营压力</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“带来运营压力”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "27",
+            "option": "C"
+          }
+        },
+        {
+          "section": "27题",
+          "raw": "### D. boost visitors to parks\n\n> 增加公园游客数量\n\n我们先看 D 选项：`boost visitors to parks`（增加公园游客数量）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：露营地的私有化可能会增加。 ➔ 选项认为：增加公园游客数量\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“增加公园游客数量”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. boost visitors to parks</h3>\n<blockquote><p>增加公园游客数量</p></blockquote>\n<p>我们先看 D 选项：<code>boost visitors to parks</code>（增加公园游客数量）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：露营地的私有化可能会增加。 ➔ 选项认为：增加公园游客数量</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“增加公园游客数量”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "27",
+            "option": "D"
+          }
+        },
+        {
+          "section": "27题",
+          "raw": "### 27题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A强保留，与原文定位信息高度吻合；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>27题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A强保留，与原文定位信息高度吻合</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "27"
+          }
+        },
+        {
+          "section": "28题",
+          "raw": "## 28题\n\n**According to Paragraph 5, most respondents in the survey would .**\n\n> 根据第 5 段，调查中的大多数受访者会 。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> [Collectively], they have a maintenance backlog of more than $12 billion. Roads, trails, restrooms, visitor centers and other [infrastructure] are crumbling.\n>\n> 开始精读：\n>\n> [Collectively], / they have a maintenance backlog of more than $12 billion. / Roads, / trails, / restrooms, / visitor centers and other [infrastructure] are crumbling.\n>\n> 逐意群顺译：\n>\n> 他们总共有超过 120 亿美元的维护积压。道路、小径、卫生间、游客中心和其他基础设施都在崩溃。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>28题</h2>\n<p><strong>According to Paragraph 5, most respondents in the survey would .</strong></p>\n<blockquote><p>根据第 5 段，调查中的大多数受访者会 。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p><span class=\"mask\">[Collectively]</span>, they have a maintenance backlog of more than $12 billion. Roads, trails, restrooms, visitor centers and other <span class=\"mask\">[infrastructure]</span> are crumbling.</p>\n<p><strong>开始精读：</strong></p>\n<p><span class=\"mask\">[Collectively]</span>, / they have a maintenance backlog of more than $12 billion. / Roads, / trails, / restrooms, / visitor centers and other <span class=\"mask\">[infrastructure]</span> are crumbling.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>他们总共有超过 120 亿美元的维护积压。道路、小径、卫生间、游客中心和其他基础设施都在崩溃。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "28"
+          }
+        },
+        {
+          "section": "28题",
+          "raw": "### A. go to the national parks on a regular basis\n\n> 定期去国家公园\n\n我们先看 A 选项：`go to the national parks on a regular basis`（定期去国家公园）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第 5 段，调查中的大多数受访者会 。 ➔ 选项认为：定期去国家公园\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“定期去国家公园”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. go to the national parks on a regular basis</h3>\n<blockquote><p>定期去国家公园</p></blockquote>\n<p>我们先看 A 选项：<code>go to the national parks on a regular basis</code>（定期去国家公园）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第 5 段，调查中的大多数受访者会 。 ➔ 选项认为：定期去国家公园</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“定期去国家公园”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "28",
+            "option": "A"
+          }
+        },
+        {
+          "section": "28题",
+          "raw": "### B. advocate a bigger budget for the national parks\n\n> 提倡为国家公园增加预算\n\n我们先看 B 选项：`advocate a bigger budget for the national parks`（提倡为国家公园增加预算）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第 5 段，调查中的大多数受访者会 。 ➔ 选项认为：提倡为国家公园增加预算\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“提倡为国家公园增加预算”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. advocate a bigger budget for the national parks</h3>\n<blockquote><p>提倡为国家公园增加预算</p></blockquote>\n<p>我们先看 B 选项：<code>advocate a bigger budget for the national parks</code>（提倡为国家公园增加预算）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第 5 段，调查中的大多数受访者会 。 ➔ 选项认为：提倡为国家公园增加预算</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“提倡为国家公园增加预算”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "28",
+            "option": "B"
+          }
+        },
+        {
+          "section": "28题",
+          "raw": "### C. agree to pay extra for the national parks\n\n> 同意为国家公园支付额外费用\n\n我们先看 C 选项：`agree to pay extra for the national parks`（同意为国家公园支付额外费用）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第 5 段，调查中的大多数受访者会 。 ➔ 选项认为：同意为国家公园支付额外费用\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `agree`, `pay`, `extra` 与原文第 3 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：C强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>C. agree to pay extra for the national parks</h3>\n<blockquote><p>同意为国家公园支付额外费用</p></blockquote>\n<p>我们先看 C 选项：<code>agree to pay extra for the national parks</code>（同意为国家公园支付额外费用）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第 5 段，调查中的大多数受访者会 。 ➔ 选项认为：同意为国家公园支付额外费用</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>agree</code>, <code>pay</code>, <code>extra</code> 与原文第 3 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：C强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "28",
+            "option": "C"
+          }
+        },
+        {
+          "section": "28题",
+          "raw": "### D. support the national parks’ recent reforms\n\n> 支持国家公园最近的改革\n\n我们先看 D 选项：`support the national parks’ recent reforms`（支持国家公园最近的改革）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第 5 段，调查中的大多数受访者会 。 ➔ 选项认为：支持国家公园最近的改革\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“支持国家公园最近的改革”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. support the national parks’ recent reforms</h3>\n<blockquote><p>支持国家公园最近的改革</p></blockquote>\n<p>我们先看 D 选项：<code>support the national parks’ recent reforms</code>（支持国家公园最近的改革）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第 5 段，调查中的大多数受访者会 。 ➔ 选项认为：支持国家公园最近的改革</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“支持国家公园最近的改革”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "28",
+            "option": "D"
+          }
+        },
+        {
+          "section": "28题",
+          "raw": "### 28题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C强保留，与原文定位信息高度吻合；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>28题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C强保留，与原文定位信息高度吻合</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "28"
+          }
+        },
+        {
+          "section": "29题",
+          "raw": "## 29题\n\n**The national parks are valuable in that they .**\n\n> 国家公园的价值在于它们。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> But privatizing and [commercializing] the [campgrounds] would not be a cure-all.\n>\n> 开始精读：\n>\n> But privatizing and [commercializing] the [campgrounds] would not be a cure-all.\n>\n> 逐意群顺译：\n>\n> 但露营地私有化和商业化并不是万能药。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>29题</h2>\n<p><strong>The national parks are valuable in that they .</strong></p>\n<blockquote><p>国家公园的价值在于它们。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>But privatizing and <span class=\"mask\">[commercializing]</span> the <span class=\"mask\">[campgrounds]</span> would not be a cure-all.</p>\n<p><strong>开始精读：</strong></p>\n<p>But privatizing and <span class=\"mask\">[commercializing]</span> the <span class=\"mask\">[campgrounds]</span> would not be a cure-all.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>但露营地私有化和商业化并不是万能药。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "29"
+          }
+        },
+        {
+          "section": "29题",
+          "raw": "### A. lead the way in tourism\n\n> 引领旅游业\n\n我们先看 A 选项：`lead the way in tourism`（引领旅游业）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：国家公园的价值在于它们。 ➔ 选项认为：引领旅游业\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“引领旅游业”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. lead the way in tourism</h3>\n<blockquote><p>引领旅游业</p></blockquote>\n<p>我们先看 A 选项：<code>lead the way in tourism</code>（引领旅游业）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：国家公园的价值在于它们。 ➔ 选项认为：引领旅游业</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“引领旅游业”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "29",
+            "option": "A"
+          }
+        },
+        {
+          "section": "29题",
+          "raw": "### B. have historical significance\n\n> 具有历史意义\n\n我们先看 B 选项：`have historical significance`（具有历史意义）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：国家公园的价值在于它们。 ➔ 选项认为：具有历史意义\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `historical`, `significance` 与原文第 4 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：B强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>B. have historical significance</h3>\n<blockquote><p>具有历史意义</p></blockquote>\n<p>我们先看 B 选项：<code>have historical significance</code>（具有历史意义）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：国家公园的价值在于它们。 ➔ 选项认为：具有历史意义</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>historical</code>, <code>significance</code> 与原文第 4 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：B强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "29",
+            "option": "B"
+          }
+        },
+        {
+          "section": "29题",
+          "raw": "### C. sponsor research on climate\n\n> 赞助气候研究\n\n我们先看 C 选项：`sponsor research on climate`（赞助气候研究）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：国家公园的价值在于它们。 ➔ 选项认为：赞助气候研究\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“赞助气候研究”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. sponsor research on climate</h3>\n<blockquote><p>赞助气候研究</p></blockquote>\n<p>我们先看 C 选项：<code>sponsor research on climate</code>（赞助气候研究）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：国家公园的价值在于它们。 ➔ 选项认为：赞助气候研究</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“赞助气候研究”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "29",
+            "option": "C"
+          }
+        },
+        {
+          "section": "29题",
+          "raw": "### D. provide an income for the locals\n\n> 为当地人提供收入\n\n我们先看 D 选项：`provide an income for the locals`（为当地人提供收入）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：国家公园的价值在于它们。 ➔ 选项认为：为当地人提供收入\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“为当地人提供收入”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. provide an income for the locals</h3>\n<blockquote><p>为当地人提供收入</p></blockquote>\n<p>我们先看 D 选项：<code>provide an income for the locals</code>（为当地人提供收入）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：国家公园的价值在于它们。 ➔ 选项认为：为当地人提供收入</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“为当地人提供收入”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "29",
+            "option": "D"
+          }
+        },
+        {
+          "section": "29题",
+          "raw": "### 29题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B强保留，与原文定位信息高度吻合；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>29题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B强保留，与原文定位信息高度吻合</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "29"
+          }
+        },
+        {
+          "section": "30题",
+          "raw": "## 30题\n\n**It can be concluded from the text that the national park system .**\n\n> 从文中可以得出国家公园制度。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 5 段展开，所以我们直接回第 5 段定位精读。\n\n> 原文参考：\n>\n> [Campgrounds] are a tiny portion of the overall [infrastructure] backlog, and [concessionaires] in the parks hand over, on average, only about 5% of their revenues to the National Park Service. Moreover, increased [privatization] would [certainly] undercut one of the major reasons why 300 million visitors come to the parks each year: to enjoy nature and get a break from the commercial drumbeat that overwhelms daily life.\n>\n> 开始精读：\n>\n> [Campgrounds] are a tiny portion of the overall [infrastructure] backlog, / and [concessionaires] in the parks hand over, / on average, / only about 5% of their revenues to the National Park Service. / Moreover, / increased [privatization] would [certainly] undercut one of the major reasons why 300 million visitors come to the parks each year: / to enjoy nature and get a break from the commercial drumbeat / that overwhelms daily life.\n>\n> 逐意群顺译：\n>\n> 露营地只占整体基础设施积压的一小部分，公园特许经营商平均只将其收入的约 5% 上交给国家公园管理局。此外，私有化程度的提高肯定会削弱每年 3 亿游客来到公园的主要原因之一：享受大自然并从压倒日常生活的商业喧嚣中得到休息。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>30题</h2>\n<p><strong>It can be concluded from the text that the national park system .</strong></p>\n<blockquote><p>从文中可以得出国家公园制度。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>5</strong> 段展开，所以我们直接回第 <strong>5</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p><span class=\"mask\">[Campgrounds]</span> are a tiny portion of the overall <span class=\"mask\">[infrastructure]</span> backlog, and <span class=\"mask\">[concessionaires]</span> in the parks hand over, on average, only about 5% of their revenues to the National Park Service. Moreover, increased <span class=\"mask\">[privatization]</span> would <span class=\"mask\">[certainly]</span> undercut one of the major reasons why 300 million visitors come to the parks each year: to enjoy nature and get a break from the commercial drumbeat that overwhelms daily life.</p>\n<p><strong>开始精读：</strong></p>\n<p><span class=\"mask\">[Campgrounds]</span> are a tiny portion of the overall <span class=\"mask\">[infrastructure]</span> backlog, / and <span class=\"mask\">[concessionaires]</span> in the parks hand over, / on average, / only about 5% of their revenues to the National Park Service. / Moreover, / increased <span class=\"mask\">[privatization]</span> would <span class=\"mask\">[certainly]</span> undercut one of the major reasons why 300 million visitors come to the parks each year: / to enjoy nature and get a break from the commercial drumbeat / that overwhelms daily life.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>露营地只占整体基础设施积压的一小部分，公园特许经营商平均只将其收入的约 5% 上交给国家公园管理局。此外，私有化程度的提高肯定会削弱每年 3 亿游客来到公园的主要原因之一：享受大自然并从压倒日常生活的商业喧嚣中得到休息。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "30"
+          }
+        },
+        {
+          "section": "30题",
+          "raw": "### A. is able to cope with staff shortages\n\n> 能够应对人员短缺的情况\n\n我们先看 A 选项：`is able to cope with staff shortages`（能够应对人员短缺的情况）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从文中可以得出国家公园制度。 ➔ 选项认为：能够应对人员短缺的情况\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `able`, `cope`, `staff` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. is able to cope with staff shortages</h3>\n<blockquote><p>能够应对人员短缺的情况</p></blockquote>\n<p>我们先看 A 选项：<code>is able to cope with staff shortages</code>（能够应对人员短缺的情况）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从文中可以得出国家公园制度。 ➔ 选项认为：能够应对人员短缺的情况</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>able</code>, <code>cope</code>, <code>staff</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "30",
+            "option": "A"
+          }
+        },
+        {
+          "section": "30题",
+          "raw": "### B. is able to meet visitors’ demands\n\n> 能够满足游客的需求\n\n我们先看 B 选项：`is able to meet visitors’ demands`（能够满足游客的需求）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从文中可以得出国家公园制度。 ➔ 选项认为：能够满足游客的需求\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“能够满足游客的需求”，但在原文第 5 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. is able to meet visitors’ demands</h3>\n<blockquote><p>能够满足游客的需求</p></blockquote>\n<p>我们先看 B 选项：<code>is able to meet visitors’ demands</code>（能够满足游客的需求）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从文中可以得出国家公园制度。 ➔ 选项认为：能够满足游客的需求</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“能够满足游客的需求”，但在原文第 5 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "30",
+            "option": "B"
+          }
+        },
+        {
+          "section": "30题",
+          "raw": "### C. is in need of a new pricing policy\n\n> 需要新的定价政策\n\n我们先看 C 选项：`is in need of a new pricing policy`（需要新的定价政策）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从文中可以得出国家公园制度。 ➔ 选项认为：需要新的定价政策\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `need`, `new`, `pricing` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. is in need of a new pricing policy</h3>\n<blockquote><p>需要新的定价政策</p></blockquote>\n<p>我们先看 C 选项：<code>is in need of a new pricing policy</code>（需要新的定价政策）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从文中可以得出国家公园制度。 ➔ 选项认为：需要新的定价政策</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>need</code>, <code>new</code>, <code>pricing</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "30",
+            "option": "C"
+          }
+        },
+        {
+          "section": "30题",
+          "raw": "### D. is in need of a funding increase\n\n> 需要增加资金\n\n我们先看 D 选项：`is in need of a funding increase`（需要增加资金）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从文中可以得出国家公园制度。 ➔ 选项认为：需要增加资金\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `need`, `funding`, `increase` 与原文第 5 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 5 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：D强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>D. is in need of a funding increase</h3>\n<blockquote><p>需要增加资金</p></blockquote>\n<p>我们先看 D 选项：<code>is in need of a funding increase</code>（需要增加资金）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从文中可以得出国家公园制度。 ➔ 选项认为：需要增加资金</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>need</code>, <code>funding</code>, <code>increase</code> 与原文第 5 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 5 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：D强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "30",
+            "option": "D"
+          }
+        },
+        {
+          "section": "30题",
+          "raw": "### 30题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D强保留，与原文定位信息高度吻合；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>30题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D强保留，与原文定位信息高度吻合</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "30"
+          }
+        },
+        {
+          "section": "进阶技巧",
+          "raw": "# 4. 进阶技巧：交叉验证冲全对\n\n当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。",
+          "html": "<h1>4. 进阶技巧：交叉验证冲全对</h1><p>当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。</p>",
+          "meta": {}
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查26题交叉验证\n\n**题干**：What problem are U.S. national parks faced with?\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **D**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **D**。\n\n**26题选 D。**",
+          "html": "<h2>回查26题交叉验证</h2>\n<p><strong>题干</strong>：What problem are U.S. national parks faced with?</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>D</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">D</span></strong>。</p>\n<p><strong>26题选 D。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "26"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查27题交叉验证\n\n**题干**：Increased privatization of campgrounds may .\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **A**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **A**。\n\n**27题选 A。**",
+          "html": "<h2>回查27题交叉验证</h2>\n<p><strong>题干</strong>：Increased privatization of campgrounds may .</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>A</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">A</span></strong>。</p>\n<p><strong>27题选 A。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "27"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查28题交叉验证\n\n**题干**：According to Paragraph 5, most respondents in the survey would .\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **C**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **C**。\n\n**28题选 C。**",
+          "html": "<h2>回查28题交叉验证</h2>\n<p><strong>题干</strong>：According to Paragraph 5, most respondents in the survey would .</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>C</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">C</span></strong>。</p>\n<p><strong>28题选 C。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "28"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查29题交叉验证\n\n**题干**：The national parks are valuable in that they .\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **B**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **B**。\n\n**29题选 B。**",
+          "html": "<h2>回查29题交叉验证</h2>\n<p><strong>题干</strong>：The national parks are valuable in that they .</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>B</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">B</span></strong>。</p>\n<p><strong>29题选 B。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "29"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查30题交叉验证\n\n**题干**：It can be concluded from the text that the national park system .\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **D**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **D**。\n\n**30题选 D。**",
+          "html": "<h2>回查30题交叉验证</h2>\n<p><strong>题干</strong>：It can be concluded from the text that the national park system .</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>D</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">D</span></strong>。</p>\n<p><strong>30题选 D。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "30"
+          }
+        },
+        {
+          "section": "最终答案",
+          "raw": "# 5. 最终答案汇总\n\n**26. D**\n\n**27. A**\n\n**28. C**\n\n**29. B**\n\n**30. D**\n\n恭喜完成本篇阅读的做题推演！建议点击顶栏切换至【复盘模式（一石五鸟）】进行全方位深度吸收。",
+          "html": "<h1>5. 最终答案汇总</h1><div style=\"background:#f0fdf4;border:1px solid #bbf7d0;padding:16px;border-radius:8px;font-size:18px;line-height:2;color:#166534\">**26. D**<br><br>**27. A**<br><br>**28. C**<br><br>**29. B**<br><br>**30. D**</div><p style=\"margin-top:16px\">恭喜完成本篇阅读的做题推演！建议点击顶栏切换至<strong>【复盘模式（一石五鸟）】</strong>进行全方位深度吸收。</p>",
+          "meta": {
+            "kind": "final"
+          }
+        }
+      ]
+    },
+    "review": {
+      "steps": [
+        {
+          "section": 0,
+          "title": "省流：一石五鸟法怎么做",
+          "html": "<p>一石五鸟复盘法将一篇阅读真题价值吃干榨净，同时打通词汇、长难句与翻译、阅读解题思维、新题型逻辑、大作文写作五大核心题型，实现高效备考。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第一鸟-积累文中重点单词带来的词汇量提升",
+          "html": "<p>精选真题高频核心词、熟词生义、派生搭配，在语境中彻底掌握考研核心5500词的核心词族。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第二鸟-精读文章与翻译练习带来的翻译能力提升",
+          "html": "<p>逐句精读拆解句法骨架（主干提取、从句修饰剥离），针对典型长难句进行规范中文翻译输出。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>深度剖析命题人设置正确选项的同义替换规律，归纳排查5大高频干扰陷阱（偷换概念/无中生有/反向干扰/过度推断/答非所问）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>梳理全文语篇结构树（起承转合、因果对比、问题解决），迁移训练考研英语二新题型（7选5/小标题/排序）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第五鸟-顺手积累本文的大作文主题词与表达带来的写作能力提升",
+          "html": "<p>提炼本文涉及社会热点、科技经济、生态教育等母题的高分表达、观点金句与论证句型，直接化为写作武器。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "为什么考研英语备考实际只需要两到三个月的有效备考工作量",
+          "html": "<p>通过一石五鸟法，做1篇真题等于练5项能力，无需题海战术，56篇真题足以为考研英语二夯实75+甚至85+的坚实功底。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第1段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>easy</strong></td><td>adj. 容易的，不费力的；舒适的，自如的；随和的</td><td><strong>dismiss</strong></td><td>v. 开除，解雇；不考虑，不理会；驳回，停止受理</td><td><strong>absurd</strong></td><td>adj. 愚蠢的，荒谬的；滑稽可笑的；荒诞派的</td></tr><tr><td><strong>administration</strong></td><td>n. 管理，行政；管理部门，行政部门；政府</td><td><strong>ideas</strong></td><td>abbr. 工业设计优秀奖</td><td><strong>plugging</strong></td><td>n. 堵塞；堵漏，封堵；v. 堵，塞</td></tr><tr><td><strong>chronic</strong></td><td>adj. 慢性的，长期的；一直有的，反复出现的；难以根除的，积习难改的</td><td><strong>funding</strong></td><td>n. 专款，拨款；v. 资助，为……提供资金</td><td><strong>parks</strong></td><td>n. 公园；帕克斯；v. 停车，停放车辆</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第2段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>administration</strong></td><td>n. 管理，行政；管理部门，行政部门；政府</td><td><strong>right</strong></td><td>adj. 符合道德的，正当的；正确的，真实的；合适的，般配的</td><td><strong>parks</strong></td><td>n. 公园；帕克斯；v. 停车，停放车辆</td></tr><tr><td><strong>crisis</strong></td><td>n. 危机，紧要关头；决定性时刻，关键时刻；转折点，危象</td><td></td><td></td><td></td><td></td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 1
+          }
+        },
+        {
+          "section": 1,
+          "title": "第3段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>maintenance</strong></td><td>n. 维护，保养；保持，维持；生活费，抚养费</td><td><strong>backlog</strong></td><td>n. 积压的工作</td><td><strong>billion</strong></td><td>num. 十亿；万亿；n. 十亿</td></tr><tr><td><strong>trails</strong></td><td>n. 山径，游径，步道；踪迹，痕迹，线索；vt. 跟踪，追踪</td><td><strong>restrooms</strong></td><td>n. 公共洗手间，公共厕所</td><td><strong>visitor</strong></td><td>n. 访问者，参观者；浏览者；客队队员</td></tr><tr><td><strong>centers</strong></td><td>n. 中心，中央；活动中心，机构；关注的焦点</td><td><strong>infrastructure</strong></td><td>n. 下面结构；永久性军事设施；基础设施，基础建设</td><td><strong>crumbling</strong></td><td>v. 破碎；崩塌；崩溃</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 2
+          }
+        },
+        {
+          "section": 1,
+          "title": "第4段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>privatizing</strong></td><td>v．私有化：将国有企业或公共服务转为私人所有或控制的过程。</td><td><strong>commercializing</strong></td><td>商业化；商业化的</td><td><strong>campgrounds</strong></td><td>n. 露营地，营地：供露营者搭帐篷或停放房车的场地，通常设有水源、厕所等基本设施。</td></tr><tr><td><strong>cure</strong></td><td>n. 药物，疗法；对策，措施；治愈，治疗</td><td></td><td></td><td></td><td></td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 3
+          }
+        },
+        {
+          "section": 1,
+          "title": "第5段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>tiny</strong></td><td>adj. 极小的，微小的；n. 幼童；【名】 蒂尼</td><td><strong>portion</strong></td><td>n. 一部分；一份，一客；一份，一部分</td><td><strong>overall</strong></td><td>adj. 总的，全面的；所有的，包括一切的；adv. 全部，总共</td></tr><tr><td><strong>infrastructure</strong></td><td>n. 下面结构；永久性军事设施；基础设施，基础建设</td><td><strong>backlog</strong></td><td>n. 积压的工作</td><td><strong>concessionaires</strong></td><td>受让人；特许权获得者</td></tr><tr><td><strong>parks</strong></td><td>n. 公园；帕克斯；v. 停车，停放车辆</td><td><strong>hand</strong></td><td>n. 手；指针；一局牌，一手牌</td><td><strong>average</strong></td><td>n. 平均水平，一般标准；平均数，平均值；平均分担</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 4
+          }
+        },
+        {
+          "section": 1,
+          "title": "第6段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>real</strong></td><td>adj. 实际存在的，非想象的；名副其实的；真正的，真实的</td><td><strong>parks</strong></td><td>n. 公园；帕克斯；v. 停车，停放车辆</td><td><strong>chronically</strong></td><td>adv. 慢性地，经常复发地；长期地，习惯性地；严重地</td></tr><tr><td><strong>starved</strong></td><td>adj. 饥饿的，极度饥饿的，饥肠辘辘的；缺乏……的，急需……的；v. starve 的过去式和过去分词：挨饿</td><td><strong>funding</strong></td><td>n. 专款，拨款；v. 资助，为……提供资金</td><td><strong>conducted</strong></td><td>v. conduct 的过去式和过去分词：实施，进行，管理；引导，带领；指挥</td></tr><tr><td><strong>comprehensive</strong></td><td>adj. 综合性的，全面的；有理解力的；n. 综合中学</td><td><strong>survey</strong></td><td>n. 民意调查，民意测验；考察，调查；全面考察，概述</td><td><strong>examining</strong></td><td>v. ：检查，审查；检查；测验</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 5
+          }
+        },
+        {
+          "section": 1,
+          "title": "第7段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>parks</strong></td><td>n. 公园；帕克斯；v. 停车，停放车辆</td><td><strong>provide</strong></td><td>v. 提供，供给；配备，准备好；规定</td><td><strong>great</strong></td><td>adj. 伟大的，著名的；大型的，巨大的；极大的，很大的</td></tr><tr><td><strong>value</strong></td><td>n. 价值；等值，等价，物有所值；重要性，有用性</td><td><strong>residents</strong></td><td>n. 居民；房客；住院医生，高级专科住院实习医生</td><td><strong>places</strong></td><td>n. 地点，地方，位置；名次；名额</td></tr><tr><td><strong>escape</strong></td><td>v. 逃跑，逃脱；逃避，摆脱；避开，避免</td><td><strong>symbols</strong></td><td>n. 符号；象征；标志</td><td><strong>nature</strong></td><td>n. 大自然，自然界；性格，秉性；本质，特点</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 6
+          }
+        },
+        {
+          "section": 1,
+          "title": "第8段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>parks</strong></td><td>n. 公园；帕克斯；v. 停车，停放车辆</td><td><strong>shoestring</strong></td><td>n. 鞋带；小额资本，零星资金，极少的钱；adj. 小本经营的</td><td><strong>Congress</strong></td><td>n. 国会，议会；代表大会；美国国会</td></tr><tr><td><strong>allocates</strong></td><td>分配；分派</td><td><strong>billion</strong></td><td>num. 十亿；万亿；n. 十亿</td><td><strong>park</strong></td><td>n. 公园；自然保护区；庭园，园林</td></tr><tr><td><strong>amount</strong></td><td>n. 数量，量；金额，钱数；程度</td><td><strong>flat</strong></td><td>adj. 平的，水平的；平坦的；平静的，波澜不兴的</td><td><strong>since</strong></td><td>prep. 自……以后，自……以来；何曾，什么时候；conj. 在……以后，自……以来</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 7
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>It’s easy to dismiss as absurd the Trump administration’s ideas for plugging the chronic funding gap of our national parks. Can anyone really think it’s a good idea to allow Amazon deliveries to your tent in Yosemite or food trucks to line up under the redwood trees at Sequoia National Park?</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>It’s easy to dismiss as absurd the Trump administration’s ideas for plugging the chronic funding gap of our national parks. Can anyone really think it’s a good idea to allow Amazon deliveries to your tent in Yosemite or food trucks to line up under the redwood trees at Sequoia National Park?</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>It’s easy to dismiss as absurd the Trump administration’s ideas for plugging the chronic funding gap of our national parks. / Can anyone really think it’s a good idea to allow Amazon deliveries to your tent in Yosemite or food trucks to line up under the redwood trees at Sequoia National Park?</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>It’s easy to dismiss as absurd the Trump administration’s ideas for plugging the chronic funding gap of our national parks. Can anyone really think it’s a good idea to allow Amazon deliveries to your tent in Yosemite or food trucks to line up under the redwood trees at Sequoia National Park?</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>It’s easy to dismiss as absurd the Trump administration’s ideas for plugging the chronic funding gap of our national parks. / Can anyone really think it’s a good idea to allow Amazon deliveries to your tent in Yosemite or food trucks to line up under the redwood trees at Sequoia National Park?</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">特朗普政府填补国家公园长期资金缺口的想法很容易被认为是荒谬的。<br>有人真的认为让亚马逊送货到你在优胜美地的帐篷或让食品卡车在红杉国家公园的红杉树下排队是个好主意吗？</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>It’s easy to dismiss as absurd the Trump administration’s ideas for plugging the chronic funding gap of our national parks. Can anyone really think it’s a good idea to allow Amazon deliveries to your tent in Yosemite or food trucks to line up under the redwood trees at Sequoia National Park?</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>It’s easy to dismiss as absurd the Trump administration’s ideas for plugging the chronic funding gap of our national parks. / Can anyone really think it’s a good idea to allow Amazon deliveries to your tent in Yosemite or food trucks to line up under the redwood trees at Sequoia National Park?</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">特朗普政府填补国家公园长期资金缺口的想法很容易被认为是荒谬的。<br>有人真的认为让亚马逊送货到你在优胜美地的帐篷或让食品卡车在红杉国家公园的红杉树下排队是个好主意吗？</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-3\">\n<h3>标准译文 · 第1段</h3>\n<p>特朗普政府填补国家公园长期资金缺口的想法很容易被认为是荒谬的。有人真的认为让亚马逊送货到你在优胜美地的帐篷或让食品卡车在红杉国家公园的红杉树下排队是个好主意吗？</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>It’s easy to dismiss as absurd the Trump administration’s ideas for plugging the chronic funding gap of our national parks.</p>\n<p><strong>意群断句：</strong><code>It’s easy to dismiss as absurd the Trump administration’s ideas for plugging the chronic funding gap of our national parks.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">特朗普政府填补国家公园长期资金缺口的想法很容易被认为是荒谬的。</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">特朗普政府填补国家公园长期资金缺口的想法很容易被认为是荒谬的。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Can anyone really think it’s a good idea to allow Amazon deliveries to your tent in Yosemite or food trucks to line up under the redwood trees at Sequoia National Park?</p>\n<p><strong>意群断句：</strong><code>Can anyone really think it’s a good idea to allow Amazon deliveries to your tent in Yosemite or food trucks to line up under the redwood trees at Sequoia National Park?</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">有人真的认为让亚马逊送货到你在优胜美地的帐篷或让食品卡车在红杉国家公园的红杉树下排队是个好主意吗？</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">有人真的认为让亚马逊送货到你在优胜美地的帐篷或让食品卡车在红杉国家公园的红杉树下排队是个好主意吗？</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>But the administration is right about one thing: U.S. national parks are in crisis.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>But the administration is right about one thing: U.S. national parks are in crisis.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>But the administration is right about one thing: / U.S. national parks are in crisis.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>But the administration is right about one thing: U.S. national parks are in crisis.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>But the administration is right about one thing: / U.S. national parks are in crisis.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">但政府在一件事上是对的 / 我们<br>国家公园正处于危机之中</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>But the administration is right about one thing: U.S. national parks are in crisis.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>But the administration is right about one thing: / U.S. national parks are in crisis.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">但政府在一件事上是对的 / 我们<br>国家公园正处于危机之中</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-3\">\n<h3>标准译文 · 第2段</h3>\n<p>但政府在一件事上是正确的：美国国家公园正处于危机之中。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>But the administration is right about one thing: U.S.</p>\n<p><strong>意群断句：</strong><code>But the administration is right about one thing: / U.S.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">但政府在一件事上是对的 / 我们</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">但政府在一件事上是正确的：美国</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>national parks are in crisis.</p>\n<p><strong>意群断句：</strong><code>national parks are in crisis.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">国家公园正处于危机之中</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">国家公园正处于危机之中。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Collectively, they have a maintenance backlog of more than $12 billion. Roads, trails, restrooms, visitor centers and other infrastructure are crumbling.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Collectively, they have a maintenance backlog of more than $12 billion. Roads, trails, restrooms, visitor centers and other infrastructure are crumbling.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>Collectively, / they have a maintenance backlog of more than $12 billion. / Roads, / trails, / restrooms, / visitor centers and other infrastructure are crumbling.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Collectively, they have a maintenance backlog of more than $12 billion. Roads, trails, restrooms, visitor centers and other infrastructure are crumbling.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>Collectively, / they have a maintenance backlog of more than $12 billion. / Roads, / trails, / restrooms, / visitor centers and other infrastructure are crumbling.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">集体 / 他们的维护积压超过 120 亿美元<br>道路 / 踪迹 / 洗手间 / 游客中心和其他基础设施正在崩溃</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Collectively, they have a maintenance backlog of more than $12 billion. Roads, trails, restrooms, visitor centers and other infrastructure are crumbling.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>Collectively, / they have a maintenance backlog of more than $12 billion. / Roads, / trails, / restrooms, / visitor centers and other infrastructure are crumbling.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">集体 / 他们的维护积压超过 120 亿美元<br>道路 / 踪迹 / 洗手间 / 游客中心和其他基础设施正在崩溃</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-3\">\n<h3>标准译文 · 第3段</h3>\n<p>他们总共有超过 120 亿美元的维护积压。道路、小径、卫生间、游客中心和其他基础设施都在崩溃。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Collectively, they have a maintenance backlog of more than $12 billion.</p>\n<p><strong>意群断句：</strong><code>Collectively, / they have a maintenance backlog of more than $12 billion.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">集体 / 他们的维护积压超过 120 亿美元</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">他们总共有超过 120 亿美元的维护积压。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Roads, trails, restrooms, visitor centers and other infrastructure are crumbling.</p>\n<p><strong>意群断句：</strong><code>Roads, / trails, / restrooms, / visitor centers and other infrastructure are crumbling.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">道路 / 踪迹 / 洗手间 / 游客中心和其他基础设施正在崩溃</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">道路、小径、卫生间、游客中心和其他基础设施都在崩溃。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>But privatizing and commercializing the campgrounds would not be a cure-all.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>But privatizing and commercializing the campgrounds would not be a cure-all.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>But privatizing and commercializing the campgrounds would not be a cure-all.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>But privatizing and commercializing the campgrounds would not be a cure-all.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>But privatizing and commercializing the campgrounds would not be a cure-all.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-2\">\n<h3>意群翻译 · 第4段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">但露营地私有化和商业化并不是万能药</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>But privatizing and commercializing the campgrounds would not be a cure-all.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>But privatizing and commercializing the campgrounds would not be a cure-all.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-2\">\n<h3>意群翻译 · 第4段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">但露营地私有化和商业化并不是万能药</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-3\">\n<h3>标准译文 · 第4段</h3>\n<p>但露营地私有化和商业化并不是万能药。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/1)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>But privatizing and commercializing the campgrounds would not be a cure-all.</p>\n<p><strong>意群断句：</strong><code>But privatizing and commercializing the campgrounds would not be a cure-all.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">但露营地私有化和商业化并不是万能药</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">但露营地私有化和商业化并不是万能药。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>Campgrounds are a tiny portion of the overall infrastructure backlog, and concessionaires in the parks hand over, on average, only about 5% of their revenues to the National Park Service. Moreover, increased privatization would certainly undercut one of the major reasons why 300 million visitors come to the parks each year: to enjoy nature and get a break from the commercial drumbeat that overwhelms daily life.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>Campgrounds are a tiny portion of the overall infrastructure backlog, and concessionaires in the parks hand over, on average, only about 5% of their revenues to the National Park Service. Moreover, increased privatization would certainly undercut one of the major reasons why 300 million visitors come to the parks each year: to enjoy nature and get a break from the commercial drumbeat that overwhelms daily life.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>Campgrounds are a tiny portion of the overall infrastructure backlog, / and concessionaires in the parks hand over, / on average, / only about 5% of their revenues to the National Park Service. / Moreover, / increased privatization would certainly undercut one of the major reasons why 300 million visitors come to the parks each year: / to enjoy nature and get a break from the commercial drumbeat / that overwhelms daily life.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>Campgrounds are a tiny portion of the overall infrastructure backlog, and concessionaires in the parks hand over, on average, only about 5% of their revenues to the National Park Service. Moreover, increased privatization would certainly undercut one of the major reasons why 300 million visitors come to the parks each year: to enjoy nature and get a break from the commercial drumbeat that overwhelms daily life.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>Campgrounds are a tiny portion of the overall infrastructure backlog, / and concessionaires in the parks hand over, / on average, / only about 5% of their revenues to the National Park Service. / Moreover, / increased privatization would certainly undercut one of the major reasons why 300 million visitors come to the parks each year: / to enjoy nature and get a break from the commercial drumbeat / that overwhelms daily life.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-2\">\n<h3>意群翻译 · 第5段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">露营地仅占整体基础设施积压的一小部分 / 公园里的特许经营者移交 / 平均而言 / 仅将其收入的约 5% 捐献给国家公园管理局<br>而且 / 私有化程度的提高肯定会削弱每年 3 亿游客来到公园的主要原因之一 / 享受大自然，远离商业喧嚣 / 压倒日常生活</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>Campgrounds are a tiny portion of the overall infrastructure backlog, and concessionaires in the parks hand over, on average, only about 5% of their revenues to the National Park Service. Moreover, increased privatization would certainly undercut one of the major reasons why 300 million visitors come to the parks each year: to enjoy nature and get a break from the commercial drumbeat that overwhelms daily life.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>Campgrounds are a tiny portion of the overall infrastructure backlog, / and concessionaires in the parks hand over, / on average, / only about 5% of their revenues to the National Park Service. / Moreover, / increased privatization would certainly undercut one of the major reasons why 300 million visitors come to the parks each year: / to enjoy nature and get a break from the commercial drumbeat / that overwhelms daily life.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-2\">\n<h3>意群翻译 · 第5段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">露营地仅占整体基础设施积压的一小部分 / 公园里的特许经营者移交 / 平均而言 / 仅将其收入的约 5% 捐献给国家公园管理局<br>而且 / 私有化程度的提高肯定会削弱每年 3 亿游客来到公园的主要原因之一 / 享受大自然，远离商业喧嚣 / 压倒日常生活</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-3\">\n<h3>标准译文 · 第5段</h3>\n<p>露营地只占整体基础设施积压的一小部分，公园特许经营商平均只将其收入的约 5% 上交给国家公园管理局。此外，私有化程度的提高肯定会削弱每年 3 亿游客来到公园的主要原因之一：享受大自然并从压倒日常生活的商业喧嚣中得到休息。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Campgrounds are a tiny portion of the overall infrastructure backlog, and concessionaires in the parks hand over, on average, only about 5% of their revenues to the National Park Service.</p>\n<p><strong>意群断句：</strong><code>Campgrounds are a tiny portion of the overall infrastructure backlog, / and concessionaires in the parks hand over, / on average, / only about 5% of their revenues to the National Park Service.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">露营地仅占整体基础设施积压的一小部分 / 公园里的特许经营者移交 / 平均而言 / 仅将其收入的约 5% 捐献给国家公园管理局</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">露营地只占整体基础设施积压的一小部分，公园特许经营商平均只将其收入的约 5% 上交给国家公园管理局。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Moreover, increased privatization would certainly undercut one of the major reasons why 300 million visitors come to the parks each year: to enjoy nature and get a break from the commercial drumbeat that overwhelms daily life.</p>\n<p><strong>意群断句：</strong><code>Moreover, / increased privatization would certainly undercut one of the major reasons why 300 million visitors come to the parks each year: / to enjoy nature and get a break from the commercial drumbeat / that overwhelms daily life.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">而且 / 私有化程度的提高肯定会削弱每年 3 亿游客来到公园的主要原因之一 / 享受大自然，远离商业喧嚣 / 压倒日常生活</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>drumbeat</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">此外，私有化程度的提高肯定会削弱每年 3 亿游客来到公园的主要原因之一：享受大自然并从压倒日常生活的商业喧嚣中得到休息。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>The real problem is that the parks have been chronically starved of funding. We conducted a comprehensive survey examining how U.S. residents view their national parks, and we found that Americans place a very high value on them—whether or not they actually visit them. The peer-reviewed economic survey of 700 U.S. taxpayers, conducted by mail and internet, also found that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact. Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>The real problem is that the parks have been chronically starved of funding. We conducted a comprehensive survey examining how U.S. residents view their national parks, and we found that Americans place a very high value on them—whether or not they actually visit them. The peer-reviewed economic survey of 700 U.S. taxpayers, conducted by mail and internet, also found that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact. Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-1\">\n<h3>意群划分 · 第6段</h3>\n<p>The real problem is / that the parks have been chronically starved of funding. / We conducted a comprehensive survey examining how U.S. residents view their national parks, / and we found / that Americans place a very high value on them—whether or not they actually visit them. / The peer-reviewed economic survey of 700 U.S. taxpayers, / conducted by mail and internet, / also found / that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact. / Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>The real problem is that the parks have been chronically starved of funding. We conducted a comprehensive survey examining how U.S. residents view their national parks, and we found that Americans place a very high value on them—whether or not they actually visit them. The peer-reviewed economic survey of 700 U.S. taxpayers, conducted by mail and internet, also found that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact. Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-1\">\n<h3>意群划分 · 第6段</h3>\n<p>The real problem is / that the parks have been chronically starved of funding. / We conducted a comprehensive survey examining how U.S. residents view their national parks, / and we found / that Americans place a very high value on them—whether or not they actually visit them. / The peer-reviewed economic survey of 700 U.S. taxpayers, / conducted by mail and internet, / also found / that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact. / Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-2\">\n<h3>意群翻译 · 第6段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">真正的问题是 / 公园长期缺乏资金<br>我们进行了一项全面的调查，研究美国如何<br>居民查看他们的国家公园 / 我们发现 / 美国人对它们非常重视——无论他们是否真的拜访过它们<br>对 700 名美国人进行的同行评审经济调查<br>纳税人 / 通过邮件和互联网进行 / 还发现 / 人们愿意支付大量资金来确保公园及其项目完好无损<br>约 81% 的受访者表示，他们愿意在未来 10 年内缴纳额外税款，以避免对国家公园的任何削减</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>The real problem is that the parks have been chronically starved of funding. We conducted a comprehensive survey examining how U.S. residents view their national parks, and we found that Americans place a very high value on them—whether or not they actually visit them. The peer-reviewed economic survey of 700 U.S. taxpayers, conducted by mail and internet, also found that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact. Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-1\">\n<h3>意群划分 · 第6段</h3>\n<p>The real problem is / that the parks have been chronically starved of funding. / We conducted a comprehensive survey examining how U.S. residents view their national parks, / and we found / that Americans place a very high value on them—whether or not they actually visit them. / The peer-reviewed economic survey of 700 U.S. taxpayers, / conducted by mail and internet, / also found / that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact. / Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-2\">\n<h3>意群翻译 · 第6段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">真正的问题是 / 公园长期缺乏资金<br>我们进行了一项全面的调查，研究美国如何<br>居民查看他们的国家公园 / 我们发现 / 美国人对它们非常重视——无论他们是否真的拜访过它们<br>对 700 名美国人进行的同行评审经济调查<br>纳税人 / 通过邮件和互联网进行 / 还发现 / 人们愿意支付大量资金来确保公园及其项目完好无损<br>约 81% 的受访者表示，他们愿意在未来 10 年内缴纳额外税款，以避免对国家公园的任何削减</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-3\">\n<h3>标准译文 · 第6段</h3>\n<p>真正的问题是公园长期缺乏资金。我们进行了一项全面的调查，了解美国居民如何看待他们的国家公园，我们发现美国人非常重视它们——无论他们是否真的参观过它们。通过邮件和互联网对 700 名美国纳税人进行的同行评审经济调查还发现，人们愿意支付大量资金来确保公园及其项目完好无损。约 81% 的受访者表示，他们愿意在未来 10 年内缴纳额外税款，以避免对国家公园的削减。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The real problem is that the parks have been chronically starved of funding.</p>\n<p><strong>意群断句：</strong><code>The real problem is / that the parks have been chronically starved of funding.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">真正的问题是 / 公园长期缺乏资金</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">真正的问题是公园长期缺乏资金。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>We conducted a comprehensive survey examining how U.S.</p>\n<p><strong>意群断句：</strong><code>We conducted a comprehensive survey examining how U.S.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">我们进行了一项全面的调查，研究美国如何</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">我们进行了一项全面的调查，研究美国如何</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>residents view their national parks, and we found that Americans place a very high value on them—whether or not they actually visit them.</p>\n<p><strong>意群断句：</strong><code>residents view their national parks, / and we found / that Americans place a very high value on them—whether or not they actually visit them.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">居民查看他们的国家公园 / 我们发现 / 美国人对它们非常重视——无论他们是否真的拜访过它们</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>宾语从句</b>：谓语动词 <code>found</code> 后接 <code>that</code> 引导的宾语从句，充当其核心认知或事实陈述内容。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">居民们参观他们的国家公园，我们发现美国人非常重视它们——无论他们是否真的参观过它们。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The peer-reviewed economic survey of 700 U.S.</p>\n<p><strong>意群断句：</strong><code>The peer-reviewed economic survey of 700 U.S.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">对 700 名美国人进行的同行评审经济调查</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">对 700 名美国人进行同行评审的经济调查</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 句5",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (5/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>taxpayers, conducted by mail and internet, also found that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact.</p>\n<p><strong>意群断句：</strong><code>taxpayers, / conducted by mail and internet, / also found / that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">纳税人 / 通过邮件和互联网进行 / 还发现 / 人们愿意支付大量资金来确保公园及其项目完好无损</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>宾语从句</b>：谓语动词 <code>found</code> 后接 <code>that</code> 引导的宾语从句，充当其核心认知或事实陈述内容。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">通过邮件和互联网进行的纳税人调查还发现，人们愿意支付大量资金来确保公园及其项目完好无损。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "sentence": 4
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 句6",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (6/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.</p>\n<p><strong>意群断句：</strong><code>Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">约 81% 的受访者表示，他们愿意在未来 10 年内缴纳额外税款，以避免对国家公园的任何削减</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">约 81% 的受访者表示，他们愿意在未来 10 年内缴纳额外税款，以避免对国家公园的削减。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "sentence": 5
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-7-0\">\n<h3>完整原文 · 第7段</h3>\n<p>The national parks provide great value to U.S. residents both as places to escape and as symbols of nature. On top of this, they produce value from their extensive educational programs, their positive impact on the climate through carbon sequestration, their contribution to our cultural and artistic life, and of course through tourism. The parks also help keep America’s past alive, working with thousands of local jurisdictions around the country to protect historical sites—including Ellis Island and Gettysburg—and to bring the stories of these places to life.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-7-0\">\n<h3>完整原文 · 第7段</h3>\n<p>The national parks provide great value to U.S. residents both as places to escape and as symbols of nature. On top of this, they produce value from their extensive educational programs, their positive impact on the climate through carbon sequestration, their contribution to our cultural and artistic life, and of course through tourism. The parks also help keep America’s past alive, working with thousands of local jurisdictions around the country to protect historical sites—including Ellis Island and Gettysburg—and to bring the stories of these places to life.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-1\">\n<h3>意群划分 · 第7段</h3>\n<p>The national parks provide great value to U.S. residents both as places to escape and as symbols of nature. / On top of this, / they produce value from their extensive educational programs, / their positive impact on the climate through carbon sequestration, / their contribution to our cultural and artistic life, / and of course through tourism. / The parks also help keep America’s past alive, / working with thousands of local jurisdictions around the country to protect historical sites—including Ellis Island and Gettysburg—and to bring the stories of these places to life.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-7-0\">\n<h3>完整原文 · 第7段</h3>\n<p>The national parks provide great value to U.S. residents both as places to escape and as symbols of nature. On top of this, they produce value from their extensive educational programs, their positive impact on the climate through carbon sequestration, their contribution to our cultural and artistic life, and of course through tourism. The parks also help keep America’s past alive, working with thousands of local jurisdictions around the country to protect historical sites—including Ellis Island and Gettysburg—and to bring the stories of these places to life.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-1\">\n<h3>意群划分 · 第7段</h3>\n<p>The national parks provide great value to U.S. residents both as places to escape and as symbols of nature. / On top of this, / they produce value from their extensive educational programs, / their positive impact on the climate through carbon sequestration, / their contribution to our cultural and artistic life, / and of course through tourism. / The parks also help keep America’s past alive, / working with thousands of local jurisdictions around the country to protect historical sites—including Ellis Island and Gettysburg—and to bring the stories of these places to life.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-2\">\n<h3>意群翻译 · 第7段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">国家公园为美国提供了巨大的价值<br>居民既是逃避的场所，也是自然的象征<br>除此之外 / 他们从广泛的教育项目中创造价值 / 通过固碳对气候产生积极影响 / 他们对我们的文化和艺术生活的贡献 / 当然还有通过旅游业<br>这些公园还有助于保留美国的过去 / 与全国数千个地方管辖区合作，保护历史遗迹（包括埃利斯岛和葛底斯堡），并将这些地方的故事带入生活</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-7-0\">\n<h3>完整原文 · 第7段</h3>\n<p>The national parks provide great value to U.S. residents both as places to escape and as symbols of nature. On top of this, they produce value from their extensive educational programs, their positive impact on the climate through carbon sequestration, their contribution to our cultural and artistic life, and of course through tourism. The parks also help keep America’s past alive, working with thousands of local jurisdictions around the country to protect historical sites—including Ellis Island and Gettysburg—and to bring the stories of these places to life.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-1\">\n<h3>意群划分 · 第7段</h3>\n<p>The national parks provide great value to U.S. residents both as places to escape and as symbols of nature. / On top of this, / they produce value from their extensive educational programs, / their positive impact on the climate through carbon sequestration, / their contribution to our cultural and artistic life, / and of course through tourism. / The parks also help keep America’s past alive, / working with thousands of local jurisdictions around the country to protect historical sites—including Ellis Island and Gettysburg—and to bring the stories of these places to life.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-2\">\n<h3>意群翻译 · 第7段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">国家公园为美国提供了巨大的价值<br>居民既是逃避的场所，也是自然的象征<br>除此之外 / 他们从广泛的教育项目中创造价值 / 通过固碳对气候产生积极影响 / 他们对我们的文化和艺术生活的贡献 / 当然还有通过旅游业<br>这些公园还有助于保留美国的过去 / 与全国数千个地方管辖区合作，保护历史遗迹（包括埃利斯岛和葛底斯堡），并将这些地方的故事带入生活</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-3\">\n<h3>标准译文 · 第7段</h3>\n<p>国家公园为美国居民提供了巨大的价值，既可以作为避世之地，也可以作为自然的象征。除此之外，他们还通过广泛的教育计划、通过碳固存对气候的积极影响、对我们的文化和艺术生活的贡献，当然还有旅游业的贡献来创造价值。这些公园还与全国数千个地方管辖区合作，保护历史遗迹（包括埃利斯岛和葛底斯堡），并让这些地方的故事栩栩如生，从而帮助保留美国的过去。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The national parks provide great value to U.S.</p>\n<p><strong>意群断句：</strong><code>The national parks provide great value to U.S.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">国家公园为美国提供了巨大的价值</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">国家公园为美国提供了巨大的价值</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>residents both as places to escape and as symbols of nature.</p>\n<p><strong>意群断句：</strong><code>residents both as places to escape and as symbols of nature.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">居民既是逃避的场所，也是自然的象征</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">居民既是逃避的地方，也是自然的象征。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>On top of this, they produce value from their extensive educational programs, their positive impact on the climate through carbon sequestration, their contribution to our cultural and artistic life, and of course through tourism.</p>\n<p><strong>意群断句：</strong><code>On top of this, / they produce value from their extensive educational programs, / their positive impact on the climate through carbon sequestration, / their contribution to our cultural and artistic life, / and of course through tourism.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">除此之外 / 他们从广泛的教育项目中创造价值 / 通过固碳对气候产生积极影响 / 他们对我们的文化和艺术生活的贡献 / 当然还有通过旅游业</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">除此之外，他们还通过广泛的教育计划、通过碳固存对气候的积极影响、对我们的文化和艺术生活的贡献，当然还有旅游业的贡献来创造价值。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The parks also help keep America’s past alive, working with thousands of local jurisdictions around the country to protect historical sites—including Ellis Island and Gettysburg—and to bring the stories of these places to life.</p>\n<p><strong>意群断句：</strong><code>The parks also help keep America’s past alive, / working with thousands of local jurisdictions around the country to protect historical sites—including Ellis Island and Gettysburg—and to bring the stories of these places to life.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">这些公园还有助于保留美国的过去 / 与全国数千个地方管辖区合作，保护历史遗迹（包括埃利斯岛和葛底斯堡），并将这些地方的故事带入生活</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>分词短语作状语/定语</b>：现在分词短语 <code>working with thousands of local jurisdictions...</code> 作伴随/结果状语或后置修饰，增强语义表现力。</li><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with thousands of local jurisdictions ar...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">这些公园还与全国数千个地方管辖区合作，保护历史遗迹（包括埃利斯岛和葛底斯堡），并让这些地方的故事栩栩如生，从而帮助保留美国的过去。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第8段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-8-0\">\n<h3>完整原文 · 第8段</h3>\n<p>The parks do all this on a shoestring. Congress allocates only $3 billion a year to the national park system—an amount that has been flat since 2001 (in inflation-adjusted dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package. Meanwhile, the number of annual visitors has increased by more than 50% since 1980, and now stands at 330 million visitors per year.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 7,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第8段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-8-0\">\n<h3>完整原文 · 第8段</h3>\n<p>The parks do all this on a shoestring. Congress allocates only $3 billion a year to the national park system—an amount that has been flat since 2001 (in inflation-adjusted dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package. Meanwhile, the number of annual visitors has increased by more than 50% since 1980, and now stands at 330 million visitors per year.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-8-1\">\n<h3>意群划分 · 第8段</h3>\n<p>The parks do all this on a shoestring. / Congress allocates only $3 billion a year to the national park system—an amount / that has been flat / since 2001 (in inflation-adjusted dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package. / Meanwhile, / the number of annual visitors has increased by more than 50% / since 1980, / and now stands at 330 million visitors per year.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 7,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第8段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-8-0\">\n<h3>完整原文 · 第8段</h3>\n<p>The parks do all this on a shoestring. Congress allocates only $3 billion a year to the national park system—an amount that has been flat since 2001 (in inflation-adjusted dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package. Meanwhile, the number of annual visitors has increased by more than 50% since 1980, and now stands at 330 million visitors per year.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-8-1\">\n<h3>意群划分 · 第8段</h3>\n<p>The parks do all this on a shoestring. / Congress allocates only $3 billion a year to the national park system—an amount / that has been flat / since 2001 (in inflation-adjusted dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package. / Meanwhile, / the number of annual visitors has increased by more than 50% / since 1980, / and now stands at 330 million visitors per year.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-8-2\">\n<h3>意群翻译 · 第8段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">公园以小本钱完成这一切<br>国会每年只向国家公园系统拨款 30 亿美元——这个数额 / 已经平坦了 / 自 2001 年以来（按通货膨胀调整后的美元计算），除了 2009 年作为奥巴马刺激计划一部分的一次性提振之外<br>同时 / 每年参观人数增加50%以上 / 自1980年以来 / 现在每年有 3.3 亿游客</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 7,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第8段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-8-0\">\n<h3>完整原文 · 第8段</h3>\n<p>The parks do all this on a shoestring. Congress allocates only $3 billion a year to the national park system—an amount that has been flat since 2001 (in inflation-adjusted dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package. Meanwhile, the number of annual visitors has increased by more than 50% since 1980, and now stands at 330 million visitors per year.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-8-1\">\n<h3>意群划分 · 第8段</h3>\n<p>The parks do all this on a shoestring. / Congress allocates only $3 billion a year to the national park system—an amount / that has been flat / since 2001 (in inflation-adjusted dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package. / Meanwhile, / the number of annual visitors has increased by more than 50% / since 1980, / and now stands at 330 million visitors per year.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-8-2\">\n<h3>意群翻译 · 第8段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">公园以小本钱完成这一切<br>国会每年只向国家公园系统拨款 30 亿美元——这个数额 / 已经平坦了 / 自 2001 年以来（按通货膨胀调整后的美元计算），除了 2009 年作为奥巴马刺激计划一部分的一次性提振之外<br>同时 / 每年参观人数增加50%以上 / 自1980年以来 / 现在每年有 3.3 亿游客</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-8-3\">\n<h3>标准译文 · 第8段</h3>\n<p>公园在小本经营的情况下完成这一切。国会每年只向国家公园系统拨款 30 亿美元，这一数额自 2001 年以来一直持平（按通货膨胀调整后的美元计算），除了 2009 年作为奥巴马经济刺激计划的一部分而一次性增加的资金外。与此同时，自1980年以来，每年游客数量增长了50%以上，目前每年游客数量达到3.3亿人次。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 7,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第8段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The parks do all this on a shoestring.</p>\n<p><strong>意群断句：</strong><code>The parks do all this on a shoestring.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">公园以小本钱完成这一切</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">公园在小本经营的情况下完成这一切。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 7,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第8段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Congress allocates only $3 billion a year to the national park system—an amount that has been flat since 2001 (in inflation-adjusted dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package.</p>\n<p><strong>意群断句：</strong><code>Congress allocates only $3 billion a year to the national park system—an amount / that has been flat / since 2001 (in inflation-adjusted dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">国会每年只向国家公园系统拨款 30 亿美元——这个数额 / 已经平坦了 / 自 2001 年以来（按通货膨胀调整后的美元计算），除了 2009 年作为奥巴马刺激计划一部分的一次性提振之外</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>amount</code>，限定其具体属性与内涵。</li><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with the exception of a onetime boost in...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">国会每年只向国家公园系统拨款 30 亿美元，这一数额自 2001 年以来一直持平（按通货膨胀调整后的美元计算），除了 2009 年作为奥巴马经济刺激计划的一部分而一次性增加的资金外。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 7,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第8段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Meanwhile, the number of annual visitors has increased by more than 50% since 1980, and now stands at 330 million visitors per year.</p>\n<p><strong>意群断句：</strong><code>Meanwhile, / the number of annual visitors has increased by more than 50% / since 1980, / and now stands at 330 million visitors per year.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">同时 / 每年参观人数增加50%以上 / 自1980年以来 / 现在每年有 3.3 亿游客</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间状语从句</b>：由连词 <code>Since</code> 引导从句 <code>Since 1980</code>，限定主句论述的时空背景或逻辑前提。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">与此同时，自1980年以来，每年游客数量增长了50%以上，目前每年游客数量达到3.3亿人次。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 7,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "3.一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，正确项如何进行同义改写，错误项如何设置陷阱；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
+          "meta": {
+            "section": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "26题 · 题干、题型与核心出处",
+          "html": "<p><strong>26. What problem are U.S. national parks faced with?</strong></p>\n<p>（美国国家公园面临什么问题？）</p>\n<p><strong>题型判定</strong>：事实细节题 ｜ <strong>定位出处</strong>：Paragraph 1</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "26"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. Decline of business profits.",
+          "html": "<p><strong>选项 A</strong>：<code>Decline of business profits.</code></p>\n<p><strong>中文翻译</strong>：营业利润下降。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. Inadequate commercialization.",
+          "html": "<p><strong>选项 B</strong>：<code>Inadequate commercialization.</code></p>\n<p><strong>中文翻译</strong>：商业化程度不够。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. Lack of transportation services.",
+          "html": "<p><strong>选项 C</strong>：<code>Lack of transportation services.</code></p>\n<p><strong>中文翻译</strong>：缺乏交通服务。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. Poorly maintained infrastructure.",
+          "html": "<p><strong>选项 D</strong>：<code>Poorly maintained infrastructure.</code></p>\n<p><strong>中文翻译</strong>：基础设施维护不善。</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "27题 · 题干、题型与核心出处",
+          "html": "<p><strong>27. Increased privatization of campgrounds may .</strong></p>\n<p>（露营地的私有化可能会增加。）</p>\n<p><strong>题型判定</strong>：因果推断题 ｜ <strong>定位出处</strong>：Paragraph 2</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "27"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. spoil visitor experience",
+          "html": "<p><strong>选项 A</strong>：<code>spoil visitor experience</code></p>\n<p><strong>中文翻译</strong>：破坏游客体验</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. help preserve nature",
+          "html": "<p><strong>选项 B</strong>：<code>help preserve nature</code></p>\n<p><strong>中文翻译</strong>：帮助保护自然</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. bring operational pressure",
+          "html": "<p><strong>选项 C</strong>：<code>bring operational pressure</code></p>\n<p><strong>中文翻译</strong>：带来运营压力</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. boost visitors to parks",
+          "html": "<p><strong>选项 D</strong>：<code>boost visitors to parks</code></p>\n<p><strong>中文翻译</strong>：增加公园游客数量</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "28题 · 题干、题型与核心出处",
+          "html": "<p><strong>28. According to Paragraph 5, most respondents in the survey would .</strong></p>\n<p>（根据第 5 段，调查中的大多数受访者会 。）</p>\n<p><strong>题型判定</strong>：段落推理题 ｜ <strong>定位出处</strong>：Paragraph 3</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "28"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. go to the national parks on a regular basis",
+          "html": "<p><strong>选项 A</strong>：<code>go to the national parks on a regular basis</code></p>\n<p><strong>中文翻译</strong>：定期去国家公园</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. advocate a bigger budget for the national parks",
+          "html": "<p><strong>选项 B</strong>：<code>advocate a bigger budget for the national parks</code></p>\n<p><strong>中文翻译</strong>：提倡为国家公园增加预算</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. agree to pay extra for the national parks",
+          "html": "<p><strong>选项 C</strong>：<code>agree to pay extra for the national parks</code></p>\n<p><strong>中文翻译</strong>：同意为国家公园支付额外费用</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. support the national parks’ recent reforms",
+          "html": "<p><strong>选项 D</strong>：<code>support the national parks’ recent reforms</code></p>\n<p><strong>中文翻译</strong>：支持国家公园最近的改革</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "29题 · 题干、题型与核心出处",
+          "html": "<p><strong>29. The national parks are valuable in that they .</strong></p>\n<p>（国家公园的价值在于它们。）</p>\n<p><strong>题型判定</strong>：词义/例证题 ｜ <strong>定位出处</strong>：Paragraph 4</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "29"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. lead the way in tourism",
+          "html": "<p><strong>选项 A</strong>：<code>lead the way in tourism</code></p>\n<p><strong>中文翻译</strong>：引领旅游业</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. have historical significance",
+          "html": "<p><strong>选项 B</strong>：<code>have historical significance</code></p>\n<p><strong>中文翻译</strong>：具有历史意义</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. sponsor research on climate",
+          "html": "<p><strong>选项 C</strong>：<code>sponsor research on climate</code></p>\n<p><strong>中文翻译</strong>：赞助气候研究</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. provide an income for the locals",
+          "html": "<p><strong>选项 D</strong>：<code>provide an income for the locals</code></p>\n<p><strong>中文翻译</strong>：为当地人提供收入</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "30题 · 题干、题型与核心出处",
+          "html": "<p><strong>30. It can be concluded from the text that the national park system .</strong></p>\n<p>（从文中可以得出国家公园制度。）</p>\n<p><strong>题型判定</strong>：全文主旨题 ｜ <strong>定位出处</strong>：Paragraph 5</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "30"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. is able to cope with staff shortages",
+          "html": "<p><strong>选项 A</strong>：<code>is able to cope with staff shortages</code></p>\n<p><strong>中文翻译</strong>：能够应对人员短缺的情况</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. is able to meet visitors’ demands",
+          "html": "<p><strong>选项 B</strong>：<code>is able to meet visitors’ demands</code></p>\n<p><strong>中文翻译</strong>：能够满足游客的需求</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. is in need of a new pricing policy",
+          "html": "<p><strong>选项 C</strong>：<code>is in need of a new pricing policy</code></p>\n<p><strong>中文翻译</strong>：需要新的定价政策</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. is in need of a funding increase",
+          "html": "<p><strong>选项 D</strong>：<code>is in need of a funding increase</code></p>\n<p><strong>中文翻译</strong>：需要增加资金</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "D"
+          }
+        },
+        {
+          "section": 4,
+          "title": "4.一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>在新题型中，考查的本质是理解文章上下文的逻辑承接能力。我们将本篇真题结构改编为新题型迁移训练，训练对段落主旨与篇章逻辑的提炼概括能力。</p>\n<p><strong>篇章核心逻辑链条</strong>：</p>\n<p>引出核心论题 → 展开多角度实证与事实分析 → 剖析深层体制/社会矛盾 → 提出战略性长效应对策略。</p>",
+          "meta": {
+            "section": 4
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 1",
+          "html": "<p><strong>【考查段落 1】</strong></p>\n<p><code>It’s easy to dismiss as absurd the Trump administration’s ideas for plugging the chronic funding gap of our national par...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 1 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 0
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 2",
+          "html": "<p><strong>【考查段落 2】</strong></p>\n<p><code>But the administration is right about one thing: U.S. national parks are in crisis....</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 2 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 1
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 3",
+          "html": "<p><strong>【考查段落 3】</strong></p>\n<p><code>Collectively, they have a maintenance backlog of more than $12 billion. Roads, trails, restrooms, visitor centers and ot...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 3 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 2
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 4",
+          "html": "<p><strong>【考查段落 4】</strong></p>\n<p><code>But privatizing and commercializing the campgrounds would not be a cure-all....</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 4 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 3
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 5",
+          "html": "<p><strong>【考查段落 5】</strong></p>\n<p><code>Campgrounds are a tiny portion of the overall infrastructure backlog, and concessionaires in the parks hand over, on ave...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 5 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 4
+          }
+        },
+        {
+          "section": 5,
+          "title": "1. 大作文宏观论述与主题词汇积累",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>可积累的主题表达</th><th>中文翻译</th><th>所属类别</th><th>使用层级</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>promoting institutional adaptability</strong></td><td><strong>增强制度适应性与韧性</strong></td><td><strong>社会/经济发展</strong></td><td><strong>宏观论点</strong></td></tr>\n<tr><td>harmonizing commercial viability and public welfare</td><td>协调商业可行性与公众福祉</td><td>综合治理</td><td>论证支撑</td></tr>\n<tr><td>fostering sustainable long-term development</td><td>促进可持续长远发展</td><td>未来展望</td><td>结论升华</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        },
+        {
+          "section": 5,
+          "title": "2. 大作文图表/观点题通用满分句型模板",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>适用题型</th><th>考试时可复用的形式</th><th>中文翻译</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>图表/观点题</strong></td><td><strong>A is doing B in an effort to do C.</strong></td><td><strong>A正在采取行动B，目的是实现目标C。</strong></td></tr>\n<tr><td>原因剖析段</td><td>The underlying reason behind this phenomenon is that...</td><td>该现象背后的深层原因在于……</td></tr>\n<tr><td>建议对策段</td><td>Only through collaborative governance can we ensure enduring progress.</td><td>唯有通过协同治理，方能确保长久的发展与繁荣。</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        }
+      ]
+    }
+  },
+  "text3": {
+    "id": 3,
+    "qRange": "31-35",
+    "title": "Text 3",
+    "paragraphs": [
+      "The Internet may be changing merely what we remember, not our capacity to do so, suggests Columbia University psychology professor Betsy Sparrow. In 2011, Sparrow led a study in which participants were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain,” for example). Half of the participants were told the information would be erased, while the other half were told it would be saved. Guess what? The latter group made no effort to recall the information when quizzed on it later, because they knew they could find it on their computers. In the same study, a group was asked to remember both the information and the folders it was stored in. They didn’t remember the information, but they remembered how to find the folders. In other words, human memory is not deteriorating but “adapting to new communications technology,” Sparrow says.",
+      "In a very practical way, the Internet is becoming an external hard drive for our memories, a process known as “cognitive offloading.” Traditionally, this role was fulfilled by data banks, libraries, and other humans. Your father may never remember birthdays because your mother does, for instance. Some worry that this is having a destructive effect on society, but Sparrow sees an upside. Perhaps, she suggests, the trend will change our approach to learning from a focus on individual facts and memorization to an emphasis on more conceptual thinking— something that is not available on the Internet. “I personally have never seen all that much intellectual value in memorizing things,” Sparrow says, adding that we haven’t lost our ability to do it.",
+      "Still other experts say it’s too soon to understand how the Internet affects our brains. There is no experimental evidence showing that it interferes with our ability to focus, for instance, wrote psychologists Christopher Chabris and Daniel J. Simons. And surfing the web exercised the brain more than reading did among computer-savvy older adults in a 2008 study involving 24 participants at the Semel Institute for Neuroscience and Human Behavior at the University of California, Los Angeles.",
+      "“There may be costs associated with our increased reliance on the Internet, but I’d have to imagine that overall the benefits are going to outweigh those costs,” observes psychology professor Benjamin Storm. “It seems pretty clear that memory is changing, but is it changing for the better? At this point, we don’t know.”"
+    ],
+    "questions": [
+      {
+        "qid": 31,
+        "stem": "Sparrow’s study shows that with the Internet, the human brain will .",
+        "stem_cn": "斯帕罗的研究表明，有了互联网，人脑就会。",
+        "type": "事实细节题",
+        "locate": "Paragraph 1",
+        "options": [
+          {
+            "key": "A",
+            "text": "analyze information in detail",
+            "text_cn": "详细分析信息",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "collect information efficiently",
+            "text_cn": "高效收集信息",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "switch its focus of memory",
+            "text_cn": "切换记忆焦点",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "D",
+            "text": "extend its memory duration",
+            "text_cn": "延长其记忆时间",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 32,
+        "stem": "The process of “cognitive offloading” .",
+        "stem_cn": "“认知卸载”的过程。",
+        "type": "因果推断题",
+        "locate": "Paragraph 2",
+        "options": [
+          {
+            "key": "A",
+            "text": "helps us identify false information",
+            "text_cn": "帮助我们识别虚假信息",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "keeps our memory from failing",
+            "text_cn": "防止我们的记忆力衰退",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "enables us to classify trivial facts",
+            "text_cn": "使我们能够对琐碎的事实进行分类",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "lessens our memory burdens",
+            "text_cn": "减轻我们的记忆负担",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。"
+          }
+        ]
+      },
+      {
+        "qid": 33,
+        "stem": "Which of the following would Sparrow support about the Internet?",
+        "stem_cn": "Sparrow 支持以下关于互联网的哪项？",
+        "type": "段落推理题",
+        "locate": "Paragraph 3",
+        "options": [
+          {
+            "key": "A",
+            "text": "It may reform our learning approach.",
+            "text_cn": "它可能会改变我们的学习方法。",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "B",
+            "text": "It may impact our society negatively.",
+            "text_cn": "它可能会对我们的社会产生负面影响。",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "It may enhance our adaptability to technology.",
+            "text_cn": "它可以增强我们对技术的适应能力。",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "It may interfere with our conceptual thinking.",
+            "text_cn": "它可能会干扰我们的概念思维。",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 34,
+        "stem": "It is indicated in Paragraph 3 that how the Internet affects our brains .",
+        "stem_cn": "第3段指出了互联网如何影响我们的大脑。",
+        "type": "词义/例证题",
+        "locate": "Paragraph 4",
+        "options": [
+          {
+            "key": "A",
+            "text": "requires further academic research",
+            "text_cn": "需要进一步的学术研究",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "B",
+            "text": "is most studied in older adults",
+            "text_cn": "研究最多的是老年人",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "is reflected in our reading speed",
+            "text_cn": "体现在我们的阅读速度上",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "depends on our web-surfing habits",
+            "text_cn": "取决于我们的上网习惯",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 35,
+        "stem": "Neither Sparrow nor Storm would agree that .",
+        "stem_cn": "麻雀和暴风女都不会同意这一点。",
+        "type": "全文主旨题",
+        "locate": "Paragraph 5",
+        "options": [
+          {
+            "key": "A",
+            "text": "our reliance on the Internet will be costly",
+            "text_cn": "我们对互联网的依赖将会付出高昂的代价",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "the Internet is weakening our memory",
+            "text_cn": "互联网正在削弱我们的记忆",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "C",
+            "text": "memory exercise is a must for our brains",
+            "text_cn": "记忆力锻炼对于我们的大脑来说是必须的",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "our ability to focus declines with age",
+            "text_cn": "我们的注意力随着年龄的增长而下降",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      }
+    ],
+    "practice": {
+      "steps": [
+        {
+          "section": "阅前须知",
+          "raw": "# 0.阅前须知\n\n阅前声明，本教程对英语一英语二均适用。\n\n本教程主要解决考研英语阅读备考中的三个结构性问题：\n\n1. **考研英语骗局一**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持认识文章中的所有细节，一个不漏，咱们不可能完全认识文章中的每一个单词，带着不认识的地方读文章做题才是真正的学生视角。即使是有部分超纲生词不认识，从段落和文章主旨、作者态度等宏观阅读文章内容本身分析的层面，也是不影响做全对的；\n\n2. **考研英语骗局二**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接边读边信达雅地翻译出文章，读完一遍只能在脑海里留下大致信息，并且很快遗忘。正确的方式是先粗后细，放弃信达雅的机械翻译，粗读先理解文章大致出现了哪些东西，然后细读采用意群法这种手段实现，即可临危不乱；\n\n3. **考研英语骗局三**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接用某种神技确定某个一定正确的答案。二选一选不出来是个非常正常的现象。用某种神技去秒杀一个文科单选问题违背了逻辑学常识，即孤证不立。通过宏观认知与多判据交叉验证的方式解决，是所有文科单选题的通法。",
+          "html": "<h1>0.阅前须知</h1>\n<p>阅前声明，本教程对英语一英语二均适用。</p>\n<p>本教程主要解决考研英语阅读备考中的三个结构性问题：</p>\n<ol>\n<li><p><strong>考研英语骗局一</strong>：拒绝上帝视角生词全懂，带着超纲生词读宏观主旨同样能做全对；</p></li>\n<li><p><strong>考研英语骗局二</strong>：放弃考场即时信达雅机械翻译，采用意群粗读抓取核心信息；</p></li>\n<li><p><strong>考研英语骗局三</strong>：拒绝所谓单一神技秒杀，采用定位比对与写作视角交叉验证。</p></li>\n</ol>\n<p>大家把考研英语阅读当成真阅读，才能发现真正正确的备考方式。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "# 1. 先读题干\n\n首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰咱们粗读对文章的理解。看题干对考查重点有个大致印象，并且因为题文同序的原则，也能帮助我们提前获取部分文章的逻辑脉络。",
+          "html": "<h1>1. 先读题干</h1><p>首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰粗读理解。看题干对考查重点建立大致印象，借助题文同序原则提前获取文章逻辑脉络。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 31题题干\n\n**Sparrow’s study shows that with the Internet, the human brain will .**\n\n> 斯帕罗的研究表明，有了互联网，人脑就会。\n\n题型：**事实细节题**。\n\n定位预判：**Paragraph 1**\n\n---",
+          "html": "<h2>31题题干</h2><p><strong>Sparrow’s study shows that with the Internet, the human brain will .</strong></p><blockquote><p>斯帕罗的研究表明，有了互联网，人脑就会。</p></blockquote><p>题型：<strong>事实细节题</strong>。</p><p>定位预判：<strong>Paragraph 1</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "31"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 32题题干\n\n**The process of “cognitive offloading” .**\n\n> “认知卸载”的过程。\n\n题型：**因果推断题**。\n\n定位预判：**Paragraph 2**\n\n---",
+          "html": "<h2>32题题干</h2><p><strong>The process of “cognitive offloading” .</strong></p><blockquote><p>“认知卸载”的过程。</p></blockquote><p>题型：<strong>因果推断题</strong>。</p><p>定位预判：<strong>Paragraph 2</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "32"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 33题题干\n\n**Which of the following would Sparrow support about the Internet?**\n\n> Sparrow 支持以下关于互联网的哪项？\n\n题型：**段落推理题**。\n\n定位预判：**Paragraph 3**\n\n---",
+          "html": "<h2>33题题干</h2><p><strong>Which of the following would Sparrow support about the Internet?</strong></p><blockquote><p>Sparrow 支持以下关于互联网的哪项？</p></blockquote><p>题型：<strong>段落推理题</strong>。</p><p>定位预判：<strong>Paragraph 3</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "33"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 34题题干\n\n**It is indicated in Paragraph 3 that how the Internet affects our brains .**\n\n> 第3段指出了互联网如何影响我们的大脑。\n\n题型：**词义/例证题**。\n\n定位预判：**Paragraph 4**\n\n---",
+          "html": "<h2>34题题干</h2><p><strong>It is indicated in Paragraph 3 that how the Internet affects our brains .</strong></p><blockquote><p>第3段指出了互联网如何影响我们的大脑。</p></blockquote><p>题型：<strong>词义/例证题</strong>。</p><p>定位预判：<strong>Paragraph 4</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "34"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 35题题干\n\n**Neither Sparrow nor Storm would agree that .**\n\n> 麻雀和暴风女都不会同意这一点。\n\n题型：**全文主旨题**。\n\n定位预判：**Paragraph 5**\n\n---",
+          "html": "<h2>35题题干</h2><p><strong>Neither Sparrow nor Storm would agree that .</strong></p><blockquote><p>麻雀和暴风女都不会同意这一点。</p></blockquote><p>题型：<strong>全文主旨题</strong>。</p><p>定位预判：<strong>Paragraph 5</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "35"
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "# 2. 读文章过程\n\n看完题干后，第一步要粗读一遍文章。根据自身水平扫一遍文章，开头结尾慢一些，注重首尾句，作者举的例子可以略读。关注逻辑词（however, but）、态度评价词、核心动作词与重复主题词。\n\n| 类型 | 关注原因 | 本文关注重点 |\n| --- | --- | --- |\n| 逻辑词 | 作者观点或行文转向 | however, but, nevertheless, yet, although |\n| 态度词 | 作者情感倾向与立场 | critical, positive, resilient, concern, significant |\n| 核心动作 | 论证中主体行为 | argue, demonstrate, implement, undermine |\n| 重复主题词 | 贯穿全篇的核心讨论对象 | 本文核心讨论对象与同义衍生表达 |",
+          "html": "<h1>2. 读文章过程</h1><p>扫读全文，注重段落首尾句，识别论点与论据。关注核心逻辑转折词与态度评价词。</p>\n<table class=\"table-wrap\"><thead><tr><th>类型</th><th>关注原因</th><th>本文关注重点</th></tr></thead>\n<tbody>\n<tr><td>逻辑词</td><td>作者观点或行文转向</td><td>however, but, nevertheless, yet</td></tr>\n<tr><td>态度词</td><td>作者情感倾向与立场</td><td>critical, positive, concern, significant</td></tr>\n<tr><td>核心动作</td><td>论证中主体行为</td><td>argue, demonstrate, implement, undermine</td></tr>\n<tr><td>重复主题词</td><td>贯穿全篇的核心讨论对象</td><td>本文核心论题与衍生词</td></tr>\n</tbody></table>",
+          "meta": {}
+        },
+        {
+          "section": "读文章",
+          "raw": "The Internet may be changing merely what we remember, not our capacity to do so, suggests Columbia University [psychology] [professor] Betsy Sparrow. In 2011, Sparrow led a study in which [participants] were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain,” for example). Half of the [participants] were told the [information] would be erased, while the other half were told it would be saved. Guess what? The latter group made no effort to recall the [information] when quizzed on it later, because they knew they could find it on their computers. In the same study, a group was asked to remember both the [information] and the folders it was stored in. They didn’t remember the [information], but they remembered how to find the folders. In other words, human memory is not [deteriorating] but “adapting to new [communications] technology,” Sparrow says.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>The Internet may be changing merely what we remember, not our capacity to do so, suggests Columbia University <span class=\"mask\">[psychology]</span> <span class=\"mask\">[professor]</span> Betsy Sparrow. In 2011, Sparrow led a study in which <span class=\"mask\">[participants]</span> were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain,” for example). Half of the <span class=\"mask\">[participants]</span> were told the <span class=\"mask\">[information]</span> would be erased, while the other half were told it would be saved. Guess what? The latter group made no effort to recall the <span class=\"mask\">[information]</span> when quizzed on it later, because they knew they could find it on their computers. In the same study, a group was asked to remember both the <span class=\"mask\">[information]</span> and the folders it was stored in. They didn’t remember the <span class=\"mask\">[information]</span>, but they remembered how to find the folders. In other words, human memory is not <span class=\"mask\">[deteriorating]</span> but “adapting to new <span class=\"mask\">[communications]</span> technology,” Sparrow says.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The Internet may be changing merely what we remember, / not our capacity to do so, / suggests Columbia University [psychology] [professor] Betsy Sparrow. / In 2011, / Sparrow led a study in / which [participants] were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain,” for example). / Half of the [participants] were told the [information] would be erased, / / while the other half were told it would be saved. / Guess what? The latter group made no effort to recall the [information] / when quizzed on it later, / / because they knew they could find it on their computers. / In the same study, / a group was asked to remember both the [information] and the folders it was stored in. / They didn’t remember the [information], / but they remembered how to find the folders. / In other words, / human memory is not [deteriorating] but “adapting to new [communications] technology,” Sparrow says.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>The Internet may be changing merely what we remember, / not our capacity to do so, / suggests Columbia University <span class=\"mask\">[psychology]</span> <span class=\"mask\">[professor]</span> Betsy Sparrow. / In 2011, / Sparrow led a study in / which <span class=\"mask\">[participants]</span> were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain,” for example). / Half of the <span class=\"mask\">[participants]</span> were told the <span class=\"mask\">[information]</span> would be erased, / / while the other half were told it would be saved. / Guess what? The latter group made no effort to recall the <span class=\"mask\">[information]</span> / when quizzed on it later, / / because they knew they could find it on their computers. / In the same study, / a group was asked to remember both the <span class=\"mask\">[information]</span> and the folders it was stored in. / They didn’t remember the <span class=\"mask\">[information]</span>, / but they remembered how to find the folders. / In other words, / human memory is not <span class=\"mask\">[deteriorating]</span> but “adapting to new <span class=\"mask\">[communications]</span> technology,” Sparrow says.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第1段意群顺译】哥伦比亚大学心理学教授贝特西·斯帕罗表示，互联网可能只是改变了我们的记忆，而不是我们这样做的能力。 2011 年，Sparrow 领导了一项研究，要求参与者在计算机中记录 40 个事实（例如，“鸵鸟的眼睛比大脑大”）。一半的参与者被告知信息将被删除，而另一半则被告知信息将被保存。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>【第1段意群顺译】哥伦比亚大学心理学教授贝特西·斯帕罗表示，互联网可能只是改变了我们的记忆，而不是我们这样做的能力。 2011 年，Sparrow 领导了一项研究，要求参与者在计算机中记录 40 个事实（例如，“鸵鸟的眼睛比大脑大”）。一半的参与者被告知信息将被删除，而另一半则被告知信息将被保存。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "In a very practical way, the Internet is becoming an external hard drive for our memories, a process known as [“cognitive] offloading.” [Traditionally], this role was [fulfilled] by data banks, libraries, and other humans. Your father may never remember birthdays because your mother does, for instance. Some worry that this is having a destructive effect on society, but Sparrow sees an upside. Perhaps, she suggests, the trend will change our approach to learning from a focus on [individual] facts and [memorization] to an emphasis on more [conceptual] thinking— [something] that is not available on the Internet. “I personally have never seen all that much [intellectual] value in memorizing things,” Sparrow says, adding that we haven’t lost our ability to do it.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>In a very practical way, the Internet is becoming an external hard drive for our memories, a process known as <span class=\"mask\">[“cognitive]</span> offloading.” <span class=\"mask\">[Traditionally]</span>, this role was <span class=\"mask\">[fulfilled]</span> by data banks, libraries, and other humans. Your father may never remember birthdays because your mother does, for instance. Some worry that this is having a destructive effect on society, but Sparrow sees an upside. Perhaps, she suggests, the trend will change our approach to learning from a focus on <span class=\"mask\">[individual]</span> facts and <span class=\"mask\">[memorization]</span> to an emphasis on more <span class=\"mask\">[conceptual]</span> thinking— <span class=\"mask\">[something]</span> that is not available on the Internet. “I personally have never seen all that much <span class=\"mask\">[intellectual]</span> value in memorizing things,” Sparrow says, adding that we haven’t lost our ability to do it.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "In a very practical way, / the Internet is becoming an external hard drive for our memories, / a process known as [“cognitive] offloading.” [Traditionally], / this role was [fulfilled] by data banks, / libraries, / and other humans. / Your father may never remember birthdays / because your mother does, / for instance. / Some worry / that this is having a destructive effect on society, / but Sparrow sees an upside. / Perhaps, / she suggests, / the trend will change our approach to learning from a focus on [individual] facts and [memorization] to an emphasis on more [conceptual] thinking— / [something] / that is not available on the Internet. “I personally have never seen all / that much [intellectual] value in memorizing things,” Sparrow says, / adding / that we haven’t lost our ability to do it.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>In a very practical way, / the Internet is becoming an external hard drive for our memories, / a process known as <span class=\"mask\">[“cognitive]</span> offloading.” <span class=\"mask\">[Traditionally]</span>, / this role was <span class=\"mask\">[fulfilled]</span> by data banks, / libraries, / and other humans. / Your father may never remember birthdays / because your mother does, / for instance. / Some worry / that this is having a destructive effect on society, / but Sparrow sees an upside. / Perhaps, / she suggests, / the trend will change our approach to learning from a focus on <span class=\"mask\">[individual]</span> facts and <span class=\"mask\">[memorization]</span> to an emphasis on more <span class=\"mask\">[conceptual]</span> thinking— / <span class=\"mask\">[something]</span> / that is not available on the Internet. “I personally have never seen all / that much <span class=\"mask\">[intellectual]</span> value in memorizing things,” Sparrow says, / adding / that we haven’t lost our ability to do it.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第2段意群顺译】以一种非常实际的方式，互联网正在成为我们记忆的外部硬盘驱动器，这一过程被称为“认知卸载”。传统上，这一角色是由数据库、图书馆和其他人来履行的。例如，你的父亲可能永远不会记得生日，因为你的母亲会记得。有些人担心这会对社会产生破坏性影响，但斯帕罗看到了积极的一面。她认为，也许这一趋势...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第2段意群顺译】以一种非常实际的方式，互联网正在成为我们记忆的外部硬盘驱动器，这一过程被称为“认知卸载”。传统上，这一角色是由数据库、图书馆和其他人来履行的。例如，你的父亲可能永远不会记得生日，因为你的母亲会记得。有些人担心这会对社会产生破坏性影响，但斯帕罗看到了积极的一面。她认为，也许这一趋势...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Still other experts say it’s too soon to understand how the Internet affects our brains. There is no [experimental] evidence showing that it interferes with our ability to focus, for instance, wrote [psychologists] Christopher Chabris and Daniel J. Simons. And surfing the web exercised the brain more than reading did among [computer-savvy] older adults in a 2008 study involving 24 [participants] at the Semel Institute for [Neuroscience] and Human Behavior at the University of California, Los Angeles.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Still other experts say it’s too soon to understand how the Internet affects our brains. There is no <span class=\"mask\">[experimental]</span> evidence showing that it interferes with our ability to focus, for instance, wrote <span class=\"mask\">[psychologists]</span> Christopher Chabris and Daniel J. Simons. And surfing the web exercised the brain more than reading did among <span class=\"mask\">[computer-savvy]</span> older adults in a 2008 study involving 24 <span class=\"mask\">[participants]</span> at the Semel Institute for <span class=\"mask\">[Neuroscience]</span> and Human Behavior at the University of California, Los Angeles.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Still other experts say it’s too soon to understand how the Internet affects our brains. / There is no [experimental] evidence showing / that it interferes with our ability to focus, / for instance, / wrote [psychologists] Christopher Chabris and Daniel J. / Simons. / And surfing the web exercised the brain more than reading did among [computer-savvy] older adults in a 2008 study involving 24 [participants] at the Semel Institute for [Neuroscience] and Human Behavior at the University of California, / Los Angeles.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Still other experts say it’s too soon to understand how the Internet affects our brains. / There is no <span class=\"mask\">[experimental]</span> evidence showing / that it interferes with our ability to focus, / for instance, / wrote <span class=\"mask\">[psychologists]</span> Christopher Chabris and Daniel J. / Simons. / And surfing the web exercised the brain more than reading did among <span class=\"mask\">[computer-savvy]</span> older adults in a 2008 study involving 24 <span class=\"mask\">[participants]</span> at the Semel Institute for <span class=\"mask\">[Neuroscience]</span> and Human Behavior at the University of California, / Los Angeles.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第3段意群顺译】还有一些专家表示，现在了解互联网如何影响我们的大脑还为时过早。例如，心理学家克里斯托弗·查布里斯 (Christopher Chabris) 和丹尼尔·J·西蒙斯 (Daniel J. Simons) 写道，没有实验证据表明它会干扰我们的注意力集中能力。 2008 年，加州大学洛...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第3段意群顺译】还有一些专家表示，现在了解互联网如何影响我们的大脑还为时过早。例如，心理学家克里斯托弗·查布里斯 (Christopher Chabris) 和丹尼尔·J·西蒙斯 (Daniel J. Simons) 写道，没有实验证据表明它会干扰我们的注意力集中能力。 2008 年，加州大学洛...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "“There may be costs [associated] with our increased reliance on the Internet, but I’d have to imagine that overall the benefits are going to outweigh those costs,” observes [psychology] [professor] Benjamin Storm. “It seems pretty clear that memory is changing, but is it changing for the better? At this point, we don’t know.”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>“There may be costs <span class=\"mask\">[associated]</span> with our increased reliance on the Internet, but I’d have to imagine that overall the benefits are going to outweigh those costs,” observes <span class=\"mask\">[psychology]</span> <span class=\"mask\">[professor]</span> Benjamin Storm. “It seems pretty clear that memory is changing, but is it changing for the better? At this point, we don’t know.”</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "“There may be costs [associated] with our increased reliance on the Internet, / but I’d have to imagine / that overall the benefits are going to outweigh those costs,” observes [psychology] [professor] Benjamin Storm. “It seems pretty clear / that memory is changing, / but is it changing for the better? At this point, / we don’t know.”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>“There may be costs <span class=\"mask\">[associated]</span> with our increased reliance on the Internet, / but I’d have to imagine / that overall the benefits are going to outweigh those costs,” observes <span class=\"mask\">[psychology]</span> <span class=\"mask\">[professor]</span> Benjamin Storm. “It seems pretty clear / that memory is changing, / but is it changing for the better? At this point, / we don’t know.”</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第4段意群顺译】心理学教授本杰明·斯托姆 (Benjamin Storm) 表示：“我们对互联网的依赖程度增加可能会带来成本，但我可以想象，总体而言，收益将超过这些成本。” “记忆正在发生变化似乎很明显，但它是否会变得更好？目前我们还不知道。”...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第4段意群顺译】心理学教授本杰明·斯托姆 (Benjamin Storm) 表示：“我们对互联网的依赖程度增加可能会带来成本，但我可以想象，总体而言，收益将超过这些成本。” “记忆正在发生变化似乎很明显，但它是否会变得更好？目前我们还不知道。”...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 3
+          }
+        },
+        {
+          "section": "做题过程",
+          "raw": "# 3. 开始做题 (31-35题)\n\n粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。",
+          "html": "<h1>3. 开始做题 (31-35题)</h1><p>粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。</p>",
+          "meta": {}
+        },
+        {
+          "section": "31题",
+          "raw": "## 31题\n\n**Sparrow’s study shows that with the Internet, the human brain will .**\n\n> 斯帕罗的研究表明，有了互联网，人脑就会。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> The Internet may be changing merely what we remember, not our capacity to do so, suggests Columbia University [psychology] [professor] Betsy Sparrow. In 2011, Sparrow led a study in which [participants] were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain,” for example). Half of the [participants] were told the [information] would be erased, while the other half were told it would be saved. Guess what? The latter group made no effort to recall the [information] when quizzed on it later, because they knew they could find it on their computers. In the same study, a group was asked to remember both the [information] and the folders it was stored in. They didn’t remember the [information], but they remembered how to find the folders. In other words, human memory is not [deteriorating] but “adapting to new [communications] technology,” Sparrow says.\n>\n> 开始精读：\n>\n> The Internet may be changing merely what we remember, / not our capacity to do so, / suggests Columbia University [psychology] [professor] Betsy Sparrow. / In 2011, / Sparrow led a study in / which [participants] were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain,” for example). / Half of the [participants] were told the [information] would be erased, / / while the other half were told it would be saved. / Guess what? The latter group made no effort to recall the [information] / when quizzed on it later, / / because they knew they could find it on their computers. / In the same study, / a group was asked to remember both the [information] and the folders it was stored in. / They didn’t remember the [information], / but they remembered how to find the folders. / In other words, / human memory is not [deteriorating] but “adapting to new [communications] technology,” Sparrow says.\n>\n> 逐意群顺译：\n>\n> 哥伦比亚大学心理学教授贝特西·斯帕罗表示，互联网可能只是改变了我们的记忆，而不是我们这样做的能力。 2011 年，Sparrow 领导了一项研究，要求参与者在计算机中记录 40 个事实（例如，“鸵鸟的眼睛比大脑大”）。一半的参与者被告知信息将被删除，而另一半则被告知信息将被保存。你猜怎么着？后一组人在后来被询问时没有努力回忆这些信息，因为他们知道他们可以在计算机上找到它。在同一项研究中，一组人被要求记住信息和存储信息的文件夹。他们不记得信息，但记得如何找到文件夹。换句话说，人类的记忆力并没有恶化，而是“适应了新的通信技术”，斯帕罗说。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>31题</h2>\n<p><strong>Sparrow’s study shows that with the Internet, the human brain will .</strong></p>\n<blockquote><p>斯帕罗的研究表明，有了互联网，人脑就会。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>The Internet may be changing merely what we remember, not our capacity to do so, suggests Columbia University <span class=\"mask\">[psychology]</span> <span class=\"mask\">[professor]</span> Betsy Sparrow. In 2011, Sparrow led a study in which <span class=\"mask\">[participants]</span> were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain,” for example). Half of the <span class=\"mask\">[participants]</span> were told the <span class=\"mask\">[information]</span> would be erased, while the other half were told it would be saved. Guess what? The latter group made no effort to recall the <span class=\"mask\">[information]</span> when quizzed on it later, because they knew they could find it on their computers. In the same study, a group was asked to remember both the <span class=\"mask\">[information]</span> and the folders it was stored in. They didn’t remember the <span class=\"mask\">[information]</span>, but they remembered how to find the folders. In other words, human memory is not <span class=\"mask\">[deteriorating]</span> but “adapting to new <span class=\"mask\">[communications]</span> technology,” Sparrow says.</p>\n<p><strong>开始精读：</strong></p>\n<p>The Internet may be changing merely what we remember, / not our capacity to do so, / suggests Columbia University <span class=\"mask\">[psychology]</span> <span class=\"mask\">[professor]</span> Betsy Sparrow. / In 2011, / Sparrow led a study in / which <span class=\"mask\">[participants]</span> were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain,” for example). / Half of the <span class=\"mask\">[participants]</span> were told the <span class=\"mask\">[information]</span> would be erased, / / while the other half were told it would be saved. / Guess what? The latter group made no effort to recall the <span class=\"mask\">[information]</span> / when quizzed on it later, / / because they knew they could find it on their computers. / In the same study, / a group was asked to remember both the <span class=\"mask\">[information]</span> and the folders it was stored in. / They didn’t remember the <span class=\"mask\">[information]</span>, / but they remembered how to find the folders. / In other words, / human memory is not <span class=\"mask\">[deteriorating]</span> but “adapting to new <span class=\"mask\">[communications]</span> technology,” Sparrow says.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>哥伦比亚大学心理学教授贝特西·斯帕罗表示，互联网可能只是改变了我们的记忆，而不是我们这样做的能力。 2011 年，Sparrow 领导了一项研究，要求参与者在计算机中记录 40 个事实（例如，“鸵鸟的眼睛比大脑大”）。一半的参与者被告知信息将被删除，而另一半则被告知信息将被保存。你猜怎么着？后一组人在后来被询问时没有努力回忆这些信息，因为他们知道他们可以在计算机上找到它。在同一项研究中，一组人被要求记住信息和存储信息的文件夹。他们不记得信息，但记得如何找到文件夹。换句话说，人类的记忆力并没有恶化，而是“适应了新的通信技术”，斯帕罗说。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "31"
+          }
+        },
+        {
+          "section": "31题",
+          "raw": "### A. analyze information in detail\n\n> 详细分析信息\n\n我们先看 A 选项：`analyze information in detail`（详细分析信息）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：斯帕罗的研究表明，有了互联网，人脑就会。 ➔ 选项认为：详细分析信息\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“详细分析信息”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. analyze information in detail</h3>\n<blockquote><p>详细分析信息</p></blockquote>\n<p>我们先看 A 选项：<code>analyze information in detail</code>（详细分析信息）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：斯帕罗的研究表明，有了互联网，人脑就会。 ➔ 选项认为：详细分析信息</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“详细分析信息”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "31",
+            "option": "A"
+          }
+        },
+        {
+          "section": "31题",
+          "raw": "### B. collect information efficiently\n\n> 高效收集信息\n\n我们先看 B 选项：`collect information efficiently`（高效收集信息）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：斯帕罗的研究表明，有了互联网，人脑就会。 ➔ 选项认为：高效收集信息\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“高效收集信息”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. collect information efficiently</h3>\n<blockquote><p>高效收集信息</p></blockquote>\n<p>我们先看 B 选项：<code>collect information efficiently</code>（高效收集信息）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：斯帕罗的研究表明，有了互联网，人脑就会。 ➔ 选项认为：高效收集信息</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“高效收集信息”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "31",
+            "option": "B"
+          }
+        },
+        {
+          "section": "31题",
+          "raw": "### C. switch its focus of memory\n\n> 切换记忆焦点\n\n我们先看 C 选项：`switch its focus of memory`（切换记忆焦点）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：斯帕罗的研究表明，有了互联网，人脑就会。 ➔ 选项认为：切换记忆焦点\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `switch`, `its`, `focus` 与原文第 1 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：C强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>C. switch its focus of memory</h3>\n<blockquote><p>切换记忆焦点</p></blockquote>\n<p>我们先看 C 选项：<code>switch its focus of memory</code>（切换记忆焦点）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：斯帕罗的研究表明，有了互联网，人脑就会。 ➔ 选项认为：切换记忆焦点</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>switch</code>, <code>its</code>, <code>focus</code> 与原文第 1 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：C强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "31",
+            "option": "C"
+          }
+        },
+        {
+          "section": "31题",
+          "raw": "### D. extend its memory duration\n\n> 延长其记忆时间\n\n我们先看 D 选项：`extend its memory duration`（延长其记忆时间）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：斯帕罗的研究表明，有了互联网，人脑就会。 ➔ 选项认为：延长其记忆时间\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `extend`, `its`, `memory` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. extend its memory duration</h3>\n<blockquote><p>延长其记忆时间</p></blockquote>\n<p>我们先看 D 选项：<code>extend its memory duration</code>（延长其记忆时间）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：斯帕罗的研究表明，有了互联网，人脑就会。 ➔ 选项认为：延长其记忆时间</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>extend</code>, <code>its</code>, <code>memory</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "31",
+            "option": "D"
+          }
+        },
+        {
+          "section": "31题",
+          "raw": "### 31题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C强保留，与原文定位信息高度吻合；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>31题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C强保留，与原文定位信息高度吻合</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "31"
+          }
+        },
+        {
+          "section": "32题",
+          "raw": "## 32题\n\n**The process of “cognitive offloading” .**\n\n> “认知卸载”的过程。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> In a very practical way, the Internet is becoming an external hard drive for our memories, a process known as [“cognitive] offloading.” [Traditionally], this role was [fulfilled] by data banks, libraries, and other humans. Your father may never remember birthdays because your mother does, for instance. Some worry that this is having a destructive effect on society, but Sparrow sees an upside. Perhaps, she suggests, the trend will change our approach to learning from a focus on [individual] facts and [memorization] to an emphasis on more [conceptual] thinking— [something] that is not available on the Internet. “I personally have never seen all that much [intellectual] value in memorizing things,” Sparrow says, adding that we haven’t lost our ability to do it.\n>\n> 开始精读：\n>\n> In a very practical way, / the Internet is becoming an external hard drive for our memories, / a process known as [“cognitive] offloading.” [Traditionally], / this role was [fulfilled] by data banks, / libraries, / and other humans. / Your father may never remember birthdays / because your mother does, / for instance. / Some worry / that this is having a destructive effect on society, / but Sparrow sees an upside. / Perhaps, / she suggests, / the trend will change our approach to learning from a focus on [individual] facts and [memorization] to an emphasis on more [conceptual] thinking— / [something] / that is not available on the Internet. “I personally have never seen all / that much [intellectual] value in memorizing things,” Sparrow says, / adding / that we haven’t lost our ability to do it.\n>\n> 逐意群顺译：\n>\n> 以一种非常实际的方式，互联网正在成为我们记忆的外部硬盘驱动器，这一过程被称为“认知卸载”。传统上，这一角色是由数据库、图书馆和其他人来履行的。例如，你的父亲可能永远不会记得生日，因为你的母亲会记得。有些人担心这会对社会产生破坏性影响，但斯帕罗看到了积极的一面。她认为，也许这一趋势将改变我们的学习方法，从关注个人事实和记忆转向强调更多概念性思维——这是互联网上无法提供的。斯帕罗说：“我个人从未见过记忆事物有如此大的智力价值。”他补充说，我们并没有失去记忆的能力。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>32题</h2>\n<p><strong>The process of “cognitive offloading” .</strong></p>\n<blockquote><p>“认知卸载”的过程。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>In a very practical way, the Internet is becoming an external hard drive for our memories, a process known as <span class=\"mask\">[“cognitive]</span> offloading.” <span class=\"mask\">[Traditionally]</span>, this role was <span class=\"mask\">[fulfilled]</span> by data banks, libraries, and other humans. Your father may never remember birthdays because your mother does, for instance. Some worry that this is having a destructive effect on society, but Sparrow sees an upside. Perhaps, she suggests, the trend will change our approach to learning from a focus on <span class=\"mask\">[individual]</span> facts and <span class=\"mask\">[memorization]</span> to an emphasis on more <span class=\"mask\">[conceptual]</span> thinking— <span class=\"mask\">[something]</span> that is not available on the Internet. “I personally have never seen all that much <span class=\"mask\">[intellectual]</span> value in memorizing things,” Sparrow says, adding that we haven’t lost our ability to do it.</p>\n<p><strong>开始精读：</strong></p>\n<p>In a very practical way, / the Internet is becoming an external hard drive for our memories, / a process known as <span class=\"mask\">[“cognitive]</span> offloading.” <span class=\"mask\">[Traditionally]</span>, / this role was <span class=\"mask\">[fulfilled]</span> by data banks, / libraries, / and other humans. / Your father may never remember birthdays / because your mother does, / for instance. / Some worry / that this is having a destructive effect on society, / but Sparrow sees an upside. / Perhaps, / she suggests, / the trend will change our approach to learning from a focus on <span class=\"mask\">[individual]</span> facts and <span class=\"mask\">[memorization]</span> to an emphasis on more <span class=\"mask\">[conceptual]</span> thinking— / <span class=\"mask\">[something]</span> / that is not available on the Internet. “I personally have never seen all / that much <span class=\"mask\">[intellectual]</span> value in memorizing things,” Sparrow says, / adding / that we haven’t lost our ability to do it.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>以一种非常实际的方式，互联网正在成为我们记忆的外部硬盘驱动器，这一过程被称为“认知卸载”。传统上，这一角色是由数据库、图书馆和其他人来履行的。例如，你的父亲可能永远不会记得生日，因为你的母亲会记得。有些人担心这会对社会产生破坏性影响，但斯帕罗看到了积极的一面。她认为，也许这一趋势将改变我们的学习方法，从关注个人事实和记忆转向强调更多概念性思维——这是互联网上无法提供的。斯帕罗说：“我个人从未见过记忆事物有如此大的智力价值。”他补充说，我们并没有失去记忆的能力。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "32"
+          }
+        },
+        {
+          "section": "32题",
+          "raw": "### A. helps us identify false information\n\n> 帮助我们识别虚假信息\n\n我们先看 A 选项：`helps us identify false information`（帮助我们识别虚假信息）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：“认知卸载”的过程。 ➔ 选项认为：帮助我们识别虚假信息\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `helps`, `identify`, `false` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 2 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. helps us identify false information</h3>\n<blockquote><p>帮助我们识别虚假信息</p></blockquote>\n<p>我们先看 A 选项：<code>helps us identify false information</code>（帮助我们识别虚假信息）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：“认知卸载”的过程。 ➔ 选项认为：帮助我们识别虚假信息</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>helps</code>, <code>identify</code>, <code>false</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 2 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "32",
+            "option": "A"
+          }
+        },
+        {
+          "section": "32题",
+          "raw": "### B. keeps our memory from failing\n\n> 防止我们的记忆力衰退\n\n我们先看 B 选项：`keeps our memory from failing`（防止我们的记忆力衰退）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：“认知卸载”的过程。 ➔ 选项认为：防止我们的记忆力衰退\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“防止我们的记忆力衰退”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. keeps our memory from failing</h3>\n<blockquote><p>防止我们的记忆力衰退</p></blockquote>\n<p>我们先看 B 选项：<code>keeps our memory from failing</code>（防止我们的记忆力衰退）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：“认知卸载”的过程。 ➔ 选项认为：防止我们的记忆力衰退</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“防止我们的记忆力衰退”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "32",
+            "option": "B"
+          }
+        },
+        {
+          "section": "32题",
+          "raw": "### C. enables us to classify trivial facts\n\n> 使我们能够对琐碎的事实进行分类\n\n我们先看 C 选项：`enables us to classify trivial facts`（使我们能够对琐碎的事实进行分类）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：“认知卸载”的过程。 ➔ 选项认为：使我们能够对琐碎的事实进行分类\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“使我们能够对琐碎的事实进行分类”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. enables us to classify trivial facts</h3>\n<blockquote><p>使我们能够对琐碎的事实进行分类</p></blockquote>\n<p>我们先看 C 选项：<code>enables us to classify trivial facts</code>（使我们能够对琐碎的事实进行分类）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：“认知卸载”的过程。 ➔ 选项认为：使我们能够对琐碎的事实进行分类</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“使我们能够对琐碎的事实进行分类”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "32",
+            "option": "C"
+          }
+        },
+        {
+          "section": "32题",
+          "raw": "### D. lessens our memory burdens\n\n> 减轻我们的记忆负担\n\n我们先看 D 选项：`lessens our memory burdens`（减轻我们的记忆负担）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：“认知卸载”的过程。 ➔ 选项认为：减轻我们的记忆负担\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `lessens`, `our`, `memory` 与原文第 2 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：D强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>D. lessens our memory burdens</h3>\n<blockquote><p>减轻我们的记忆负担</p></blockquote>\n<p>我们先看 D 选项：<code>lessens our memory burdens</code>（减轻我们的记忆负担）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：“认知卸载”的过程。 ➔ 选项认为：减轻我们的记忆负担</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>lessens</code>, <code>our</code>, <code>memory</code> 与原文第 2 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：D强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "32",
+            "option": "D"
+          }
+        },
+        {
+          "section": "32题",
+          "raw": "### 32题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D强保留，与原文定位信息高度吻合；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>32题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D强保留，与原文定位信息高度吻合</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "32"
+          }
+        },
+        {
+          "section": "33题",
+          "raw": "## 33题\n\n**Which of the following would Sparrow support about the Internet?**\n\n> Sparrow 支持以下关于互联网的哪项？\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> Still other experts say it’s too soon to understand how the Internet affects our brains. There is no [experimental] evidence showing that it interferes with our ability to focus, for instance, wrote [psychologists] Christopher Chabris and Daniel J. Simons. And surfing the web exercised the brain more than reading did among [computer-savvy] older adults in a 2008 study involving 24 [participants] at the Semel Institute for [Neuroscience] and Human Behavior at the University of California, Los Angeles.\n>\n> 开始精读：\n>\n> Still other experts say it’s too soon to understand how the Internet affects our brains. / There is no [experimental] evidence showing / that it interferes with our ability to focus, / for instance, / wrote [psychologists] Christopher Chabris and Daniel J. / Simons. / And surfing the web exercised the brain more than reading did among [computer-savvy] older adults in a 2008 study involving 24 [participants] at the Semel Institute for [Neuroscience] and Human Behavior at the University of California, / Los Angeles.\n>\n> 逐意群顺译：\n>\n> 还有一些专家表示，现在了解互联网如何影响我们的大脑还为时过早。例如，心理学家克里斯托弗·查布里斯 (Christopher Chabris) 和丹尼尔·J·西蒙斯 (Daniel J. Simons) 写道，没有实验证据表明它会干扰我们的注意力集中能力。 2008 年，加州大学洛杉矶分校塞梅尔神经科学与人类行为研究所对 24 名参与者进行了一项研究，对精通电脑的老年人来说，上网比阅读更能锻炼大脑。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>33题</h2>\n<p><strong>Which of the following would Sparrow support about the Internet?</strong></p>\n<blockquote><p>Sparrow 支持以下关于互联网的哪项？</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Still other experts say it’s too soon to understand how the Internet affects our brains. There is no <span class=\"mask\">[experimental]</span> evidence showing that it interferes with our ability to focus, for instance, wrote <span class=\"mask\">[psychologists]</span> Christopher Chabris and Daniel J. Simons. And surfing the web exercised the brain more than reading did among <span class=\"mask\">[computer-savvy]</span> older adults in a 2008 study involving 24 <span class=\"mask\">[participants]</span> at the Semel Institute for <span class=\"mask\">[Neuroscience]</span> and Human Behavior at the University of California, Los Angeles.</p>\n<p><strong>开始精读：</strong></p>\n<p>Still other experts say it’s too soon to understand how the Internet affects our brains. / There is no <span class=\"mask\">[experimental]</span> evidence showing / that it interferes with our ability to focus, / for instance, / wrote <span class=\"mask\">[psychologists]</span> Christopher Chabris and Daniel J. / Simons. / And surfing the web exercised the brain more than reading did among <span class=\"mask\">[computer-savvy]</span> older adults in a 2008 study involving 24 <span class=\"mask\">[participants]</span> at the Semel Institute for <span class=\"mask\">[Neuroscience]</span> and Human Behavior at the University of California, / Los Angeles.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>还有一些专家表示，现在了解互联网如何影响我们的大脑还为时过早。例如，心理学家克里斯托弗·查布里斯 (Christopher Chabris) 和丹尼尔·J·西蒙斯 (Daniel J. Simons) 写道，没有实验证据表明它会干扰我们的注意力集中能力。 2008 年，加州大学洛杉矶分校塞梅尔神经科学与人类行为研究所对 24 名参与者进行了一项研究，对精通电脑的老年人来说，上网比阅读更能锻炼大脑。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "33"
+          }
+        },
+        {
+          "section": "33题",
+          "raw": "### A. It may reform our learning approach.\n\n> 它可能会改变我们的学习方法。\n\n我们先看 A 选项：`It may reform our learning approach.`（它可能会改变我们的学习方法。）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Sparrow 支持以下关于互联网的哪项？ ➔ 选项认为：它可能会改变我们的学习方法。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `may`, `reform`, `our` 与原文第 3 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：A强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>A. It may reform our learning approach.</h3>\n<blockquote><p>它可能会改变我们的学习方法。</p></blockquote>\n<p>我们先看 A 选项：<code>It may reform our learning approach.</code>（它可能会改变我们的学习方法。）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Sparrow 支持以下关于互联网的哪项？ ➔ 选项认为：它可能会改变我们的学习方法。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>may</code>, <code>reform</code>, <code>our</code> 与原文第 3 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：A强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "33",
+            "option": "A"
+          }
+        },
+        {
+          "section": "33题",
+          "raw": "### B. It may impact our society negatively.\n\n> 它可能会对我们的社会产生负面影响。\n\n我们先看 B 选项：`It may impact our society negatively.`（它可能会对我们的社会产生负面影响。）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Sparrow 支持以下关于互联网的哪项？ ➔ 选项认为：它可能会对我们的社会产生负面影响。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“它可能会对我们的社会产生负面影响。”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. It may impact our society negatively.</h3>\n<blockquote><p>它可能会对我们的社会产生负面影响。</p></blockquote>\n<p>我们先看 B 选项：<code>It may impact our society negatively.</code>（它可能会对我们的社会产生负面影响。）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Sparrow 支持以下关于互联网的哪项？ ➔ 选项认为：它可能会对我们的社会产生负面影响。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“它可能会对我们的社会产生负面影响。”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "33",
+            "option": "B"
+          }
+        },
+        {
+          "section": "33题",
+          "raw": "### C. It may enhance our adaptability to technology.\n\n> 它可以增强我们对技术的适应能力。\n\n我们先看 C 选项：`It may enhance our adaptability to technology.`（它可以增强我们对技术的适应能力。）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Sparrow 支持以下关于互联网的哪项？ ➔ 选项认为：它可以增强我们对技术的适应能力。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“它可以增强我们对技术的适应能力。”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. It may enhance our adaptability to technology.</h3>\n<blockquote><p>它可以增强我们对技术的适应能力。</p></blockquote>\n<p>我们先看 C 选项：<code>It may enhance our adaptability to technology.</code>（它可以增强我们对技术的适应能力。）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Sparrow 支持以下关于互联网的哪项？ ➔ 选项认为：它可以增强我们对技术的适应能力。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“它可以增强我们对技术的适应能力。”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "33",
+            "option": "C"
+          }
+        },
+        {
+          "section": "33题",
+          "raw": "### D. It may interfere with our conceptual thinking.\n\n> 它可能会干扰我们的概念思维。\n\n我们先看 D 选项：`It may interfere with our conceptual thinking.`（它可能会干扰我们的概念思维。）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Sparrow 支持以下关于互联网的哪项？ ➔ 选项认为：它可能会干扰我们的概念思维。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `may`, `interfere`, `our` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. It may interfere with our conceptual thinking.</h3>\n<blockquote><p>它可能会干扰我们的概念思维。</p></blockquote>\n<p>我们先看 D 选项：<code>It may interfere with our conceptual thinking.</code>（它可能会干扰我们的概念思维。）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Sparrow 支持以下关于互联网的哪项？ ➔ 选项认为：它可能会干扰我们的概念思维。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>may</code>, <code>interfere</code>, <code>our</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "33",
+            "option": "D"
+          }
+        },
+        {
+          "section": "33题",
+          "raw": "### 33题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A强保留，与原文定位信息高度吻合；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>33题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A强保留，与原文定位信息高度吻合</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "33"
+          }
+        },
+        {
+          "section": "34题",
+          "raw": "## 34题\n\n**It is indicated in Paragraph 3 that how the Internet affects our brains .**\n\n> 第3段指出了互联网如何影响我们的大脑。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> “There may be costs [associated] with our increased reliance on the Internet, but I’d have to imagine that overall the benefits are going to outweigh those costs,” observes [psychology] [professor] Benjamin Storm. “It seems pretty clear that memory is changing, but is it changing for the better? At this point, we don’t know.”\n>\n> 开始精读：\n>\n> “There may be costs [associated] with our increased reliance on the Internet, / but I’d have to imagine / that overall the benefits are going to outweigh those costs,” observes [psychology] [professor] Benjamin Storm. “It seems pretty clear / that memory is changing, / but is it changing for the better? At this point, / we don’t know.”\n>\n> 逐意群顺译：\n>\n> 心理学教授本杰明·斯托姆 (Benjamin Storm) 表示：“我们对互联网的依赖程度增加可能会带来成本，但我可以想象，总体而言，收益将超过这些成本。” “记忆正在发生变化似乎很明显，但它是否会变得更好？目前我们还不知道。”\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>34题</h2>\n<p><strong>It is indicated in Paragraph 3 that how the Internet affects our brains .</strong></p>\n<blockquote><p>第3段指出了互联网如何影响我们的大脑。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>“There may be costs <span class=\"mask\">[associated]</span> with our increased reliance on the Internet, but I’d have to imagine that overall the benefits are going to outweigh those costs,” observes <span class=\"mask\">[psychology]</span> <span class=\"mask\">[professor]</span> Benjamin Storm. “It seems pretty clear that memory is changing, but is it changing for the better? At this point, we don’t know.”</p>\n<p><strong>开始精读：</strong></p>\n<p>“There may be costs <span class=\"mask\">[associated]</span> with our increased reliance on the Internet, / but I’d have to imagine / that overall the benefits are going to outweigh those costs,” observes <span class=\"mask\">[psychology]</span> <span class=\"mask\">[professor]</span> Benjamin Storm. “It seems pretty clear / that memory is changing, / but is it changing for the better? At this point, / we don’t know.”</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>心理学教授本杰明·斯托姆 (Benjamin Storm) 表示：“我们对互联网的依赖程度增加可能会带来成本，但我可以想象，总体而言，收益将超过这些成本。” “记忆正在发生变化似乎很明显，但它是否会变得更好？目前我们还不知道。”</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "34"
+          }
+        },
+        {
+          "section": "34题",
+          "raw": "### A. requires further academic research\n\n> 需要进一步的学术研究\n\n我们先看 A 选项：`requires further academic research`（需要进一步的学术研究）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：第3段指出了互联网如何影响我们的大脑。 ➔ 选项认为：需要进一步的学术研究\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `requires`, `further`, `academic` 与原文第 4 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：A强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>A. requires further academic research</h3>\n<blockquote><p>需要进一步的学术研究</p></blockquote>\n<p>我们先看 A 选项：<code>requires further academic research</code>（需要进一步的学术研究）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：第3段指出了互联网如何影响我们的大脑。 ➔ 选项认为：需要进一步的学术研究</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>requires</code>, <code>further</code>, <code>academic</code> 与原文第 4 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：A强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "34",
+            "option": "A"
+          }
+        },
+        {
+          "section": "34题",
+          "raw": "### B. is most studied in older adults\n\n> 研究最多的是老年人\n\n我们先看 B 选项：`is most studied in older adults`（研究最多的是老年人）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：第3段指出了互联网如何影响我们的大脑。 ➔ 选项认为：研究最多的是老年人\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“研究最多的是老年人”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. is most studied in older adults</h3>\n<blockquote><p>研究最多的是老年人</p></blockquote>\n<p>我们先看 B 选项：<code>is most studied in older adults</code>（研究最多的是老年人）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：第3段指出了互联网如何影响我们的大脑。 ➔ 选项认为：研究最多的是老年人</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“研究最多的是老年人”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "34",
+            "option": "B"
+          }
+        },
+        {
+          "section": "34题",
+          "raw": "### C. is reflected in our reading speed\n\n> 体现在我们的阅读速度上\n\n我们先看 C 选项：`is reflected in our reading speed`（体现在我们的阅读速度上）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：第3段指出了互联网如何影响我们的大脑。 ➔ 选项认为：体现在我们的阅读速度上\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“体现在我们的阅读速度上”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. is reflected in our reading speed</h3>\n<blockquote><p>体现在我们的阅读速度上</p></blockquote>\n<p>我们先看 C 选项：<code>is reflected in our reading speed</code>（体现在我们的阅读速度上）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：第3段指出了互联网如何影响我们的大脑。 ➔ 选项认为：体现在我们的阅读速度上</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“体现在我们的阅读速度上”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "34",
+            "option": "C"
+          }
+        },
+        {
+          "section": "34题",
+          "raw": "### D. depends on our web-surfing habits\n\n> 取决于我们的上网习惯\n\n我们先看 D 选项：`depends on our web-surfing habits`（取决于我们的上网习惯）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：第3段指出了互联网如何影响我们的大脑。 ➔ 选项认为：取决于我们的上网习惯\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“取决于我们的上网习惯”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. depends on our web-surfing habits</h3>\n<blockquote><p>取决于我们的上网习惯</p></blockquote>\n<p>我们先看 D 选项：<code>depends on our web-surfing habits</code>（取决于我们的上网习惯）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：第3段指出了互联网如何影响我们的大脑。 ➔ 选项认为：取决于我们的上网习惯</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“取决于我们的上网习惯”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "34",
+            "option": "D"
+          }
+        },
+        {
+          "section": "34题",
+          "raw": "### 34题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A强保留，与原文定位信息高度吻合；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>34题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A强保留，与原文定位信息高度吻合</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "34"
+          }
+        },
+        {
+          "section": "35题",
+          "raw": "## 35题\n\n**Neither Sparrow nor Storm would agree that .**\n\n> 麻雀和暴风女都不会同意这一点。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> “There may be costs [associated] with our increased reliance on the Internet, but I’d have to imagine that overall the benefits are going to outweigh those costs,” observes [psychology] [professor] Benjamin Storm. “It seems pretty clear that memory is changing, but is it changing for the better? At this point, we don’t know.”\n>\n> 开始精读：\n>\n> “There may be costs [associated] with our increased reliance on the Internet, / but I’d have to imagine / that overall the benefits are going to outweigh those costs,” observes [psychology] [professor] Benjamin Storm. “It seems pretty clear / that memory is changing, / but is it changing for the better? At this point, / we don’t know.”\n>\n> 逐意群顺译：\n>\n> 心理学教授本杰明·斯托姆 (Benjamin Storm) 表示：“我们对互联网的依赖程度增加可能会带来成本，但我可以想象，总体而言，收益将超过这些成本。” “记忆正在发生变化似乎很明显，但它是否会变得更好？目前我们还不知道。”\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>35题</h2>\n<p><strong>Neither Sparrow nor Storm would agree that .</strong></p>\n<blockquote><p>麻雀和暴风女都不会同意这一点。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>“There may be costs <span class=\"mask\">[associated]</span> with our increased reliance on the Internet, but I’d have to imagine that overall the benefits are going to outweigh those costs,” observes <span class=\"mask\">[psychology]</span> <span class=\"mask\">[professor]</span> Benjamin Storm. “It seems pretty clear that memory is changing, but is it changing for the better? At this point, we don’t know.”</p>\n<p><strong>开始精读：</strong></p>\n<p>“There may be costs <span class=\"mask\">[associated]</span> with our increased reliance on the Internet, / but I’d have to imagine / that overall the benefits are going to outweigh those costs,” observes <span class=\"mask\">[psychology]</span> <span class=\"mask\">[professor]</span> Benjamin Storm. “It seems pretty clear / that memory is changing, / but is it changing for the better? At this point, / we don’t know.”</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>心理学教授本杰明·斯托姆 (Benjamin Storm) 表示：“我们对互联网的依赖程度增加可能会带来成本，但我可以想象，总体而言，收益将超过这些成本。” “记忆正在发生变化似乎很明显，但它是否会变得更好？目前我们还不知道。”</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "35"
+          }
+        },
+        {
+          "section": "35题",
+          "raw": "### A. our reliance on the Internet will be costly\n\n> 我们对互联网的依赖将会付出高昂的代价\n\n我们先看 A 选项：`our reliance on the Internet will be costly`（我们对互联网的依赖将会付出高昂的代价）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：麻雀和暴风女都不会同意这一点。 ➔ 选项认为：我们对互联网的依赖将会付出高昂的代价\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“我们对互联网的依赖将会付出高昂的代价”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. our reliance on the Internet will be costly</h3>\n<blockquote><p>我们对互联网的依赖将会付出高昂的代价</p></blockquote>\n<p>我们先看 A 选项：<code>our reliance on the Internet will be costly</code>（我们对互联网的依赖将会付出高昂的代价）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：麻雀和暴风女都不会同意这一点。 ➔ 选项认为：我们对互联网的依赖将会付出高昂的代价</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“我们对互联网的依赖将会付出高昂的代价”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "35",
+            "option": "A"
+          }
+        },
+        {
+          "section": "35题",
+          "raw": "### B. the Internet is weakening our memory\n\n> 互联网正在削弱我们的记忆\n\n我们先看 B 选项：`the Internet is weakening our memory`（互联网正在削弱我们的记忆）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：麻雀和暴风女都不会同意这一点。 ➔ 选项认为：互联网正在削弱我们的记忆\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `Internet`, `weakening`, `our` 与原文第 4 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：B强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>B. the Internet is weakening our memory</h3>\n<blockquote><p>互联网正在削弱我们的记忆</p></blockquote>\n<p>我们先看 B 选项：<code>the Internet is weakening our memory</code>（互联网正在削弱我们的记忆）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：麻雀和暴风女都不会同意这一点。 ➔ 选项认为：互联网正在削弱我们的记忆</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>Internet</code>, <code>weakening</code>, <code>our</code> 与原文第 4 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：B强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "35",
+            "option": "B"
+          }
+        },
+        {
+          "section": "35题",
+          "raw": "### C. memory exercise is a must for our brains\n\n> 记忆力锻炼对于我们的大脑来说是必须的\n\n我们先看 C 选项：`memory exercise is a must for our brains`（记忆力锻炼对于我们的大脑来说是必须的）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：麻雀和暴风女都不会同意这一点。 ➔ 选项认为：记忆力锻炼对于我们的大脑来说是必须的\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `memory`, `exercise`, `must` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. memory exercise is a must for our brains</h3>\n<blockquote><p>记忆力锻炼对于我们的大脑来说是必须的</p></blockquote>\n<p>我们先看 C 选项：<code>memory exercise is a must for our brains</code>（记忆力锻炼对于我们的大脑来说是必须的）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：麻雀和暴风女都不会同意这一点。 ➔ 选项认为：记忆力锻炼对于我们的大脑来说是必须的</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>memory</code>, <code>exercise</code>, <code>must</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "35",
+            "option": "C"
+          }
+        },
+        {
+          "section": "35题",
+          "raw": "### D. our ability to focus declines with age\n\n> 我们的注意力随着年龄的增长而下降\n\n我们先看 D 选项：`our ability to focus declines with age`（我们的注意力随着年龄的增长而下降）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：麻雀和暴风女都不会同意这一点。 ➔ 选项认为：我们的注意力随着年龄的增长而下降\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“我们的注意力随着年龄的增长而下降”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. our ability to focus declines with age</h3>\n<blockquote><p>我们的注意力随着年龄的增长而下降</p></blockquote>\n<p>我们先看 D 选项：<code>our ability to focus declines with age</code>（我们的注意力随着年龄的增长而下降）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：麻雀和暴风女都不会同意这一点。 ➔ 选项认为：我们的注意力随着年龄的增长而下降</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“我们的注意力随着年龄的增长而下降”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "35",
+            "option": "D"
+          }
+        },
+        {
+          "section": "35题",
+          "raw": "### 35题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B强保留，与原文定位信息高度吻合；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>35题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B强保留，与原文定位信息高度吻合</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "35"
+          }
+        },
+        {
+          "section": "进阶技巧",
+          "raw": "# 4. 进阶技巧：交叉验证冲全对\n\n当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。",
+          "html": "<h1>4. 进阶技巧：交叉验证冲全对</h1><p>当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。</p>",
+          "meta": {}
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查31题交叉验证\n\n**题干**：Sparrow’s study shows that with the Internet, the human brain will .\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **C**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **C**。\n\n**31题选 C。**",
+          "html": "<h2>回查31题交叉验证</h2>\n<p><strong>题干</strong>：Sparrow’s study shows that with the Internet, the human brain will .</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>C</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">C</span></strong>。</p>\n<p><strong>31题选 C。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "31"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查32题交叉验证\n\n**题干**：The process of “cognitive offloading” .\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **D**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **D**。\n\n**32题选 D。**",
+          "html": "<h2>回查32题交叉验证</h2>\n<p><strong>题干</strong>：The process of “cognitive offloading” .</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>D</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">D</span></strong>。</p>\n<p><strong>32题选 D。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "32"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查33题交叉验证\n\n**题干**：Which of the following would Sparrow support about the Internet?\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **A**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **A**。\n\n**33题选 A。**",
+          "html": "<h2>回查33题交叉验证</h2>\n<p><strong>题干</strong>：Which of the following would Sparrow support about the Internet?</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>A</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">A</span></strong>。</p>\n<p><strong>33题选 A。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "33"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查34题交叉验证\n\n**题干**：It is indicated in Paragraph 3 that how the Internet affects our brains .\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **A**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **A**。\n\n**34题选 A。**",
+          "html": "<h2>回查34题交叉验证</h2>\n<p><strong>题干</strong>：It is indicated in Paragraph 3 that how the Internet affects our brains .</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>A</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">A</span></strong>。</p>\n<p><strong>34题选 A。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "34"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查35题交叉验证\n\n**题干**：Neither Sparrow nor Storm would agree that .\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **B**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **B**。\n\n**35题选 B。**",
+          "html": "<h2>回查35题交叉验证</h2>\n<p><strong>题干</strong>：Neither Sparrow nor Storm would agree that .</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>B</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">B</span></strong>。</p>\n<p><strong>35题选 B。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "35"
+          }
+        },
+        {
+          "section": "最终答案",
+          "raw": "# 5. 最终答案汇总\n\n**31. C**\n\n**32. D**\n\n**33. A**\n\n**34. A**\n\n**35. B**\n\n恭喜完成本篇阅读的做题推演！建议点击顶栏切换至【复盘模式（一石五鸟）】进行全方位深度吸收。",
+          "html": "<h1>5. 最终答案汇总</h1><div style=\"background:#f0fdf4;border:1px solid #bbf7d0;padding:16px;border-radius:8px;font-size:18px;line-height:2;color:#166534\">**31. C**<br><br>**32. D**<br><br>**33. A**<br><br>**34. A**<br><br>**35. B**</div><p style=\"margin-top:16px\">恭喜完成本篇阅读的做题推演！建议点击顶栏切换至<strong>【复盘模式（一石五鸟）】</strong>进行全方位深度吸收。</p>",
+          "meta": {
+            "kind": "final"
+          }
+        }
+      ]
+    },
+    "review": {
+      "steps": [
+        {
+          "section": 0,
+          "title": "省流：一石五鸟法怎么做",
+          "html": "<p>一石五鸟复盘法将一篇阅读真题价值吃干榨净，同时打通词汇、长难句与翻译、阅读解题思维、新题型逻辑、大作文写作五大核心题型，实现高效备考。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第一鸟-积累文中重点单词带来的词汇量提升",
+          "html": "<p>精选真题高频核心词、熟词生义、派生搭配，在语境中彻底掌握考研核心5500词的核心词族。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第二鸟-精读文章与翻译练习带来的翻译能力提升",
+          "html": "<p>逐句精读拆解句法骨架（主干提取、从句修饰剥离），针对典型长难句进行规范中文翻译输出。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>深度剖析命题人设置正确选项的同义替换规律，归纳排查5大高频干扰陷阱（偷换概念/无中生有/反向干扰/过度推断/答非所问）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>梳理全文语篇结构树（起承转合、因果对比、问题解决），迁移训练考研英语二新题型（7选5/小标题/排序）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第五鸟-顺手积累本文的大作文主题词与表达带来的写作能力提升",
+          "html": "<p>提炼本文涉及社会热点、科技经济、生态教育等母题的高分表达、观点金句与论证句型，直接化为写作武器。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "为什么考研英语备考实际只需要两到三个月的有效备考工作量",
+          "html": "<p>通过一石五鸟法，做1篇真题等于练5项能力，无需题海战术，56篇真题足以为考研英语二夯实75+甚至85+的坚实功底。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第1段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>Internet</strong></td><td>n. 互联网，因特网</td><td><strong>changing</strong></td><td>adj. 变化中的，改变中的；v. 改变，变化；更换，替换</td><td><strong>merely</strong></td><td>adv. 仅仅，只；无非是……，不过是……</td></tr><tr><td><strong>remember</strong></td><td>v. 回想起，记得；记起，忆起；记牢，不忘记</td><td><strong>capacity</strong></td><td>n. 能力，才能；容积，容纳能力；职位，职责</td><td><strong>suggests</strong></td><td>v. 暗示，建议</td></tr><tr><td><strong>psychology</strong></td><td>n. 心理学；心理特点，心理状态；心理影响</td><td><strong>professor</strong></td><td>n. 教授；讲师，教员；信仰表示者，宣称信仰者</td><td><strong>participants</strong></td><td>n. 参与者，参加者</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第2段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>focus on</strong></td><td>集中，专注于</td><td><strong>practical</strong></td><td>adj. 真实的，实际的；切实有效的，切实可行的；明智的，务实的</td><td><strong>Internet</strong></td><td>n. 互联网，因特网</td></tr><tr><td><strong>becoming</strong></td><td>adj. 好看的，相配的；合适的，得体的；n. 形成，发生</td><td><strong>external</strong></td><td>adj. 外部的，外面的；对外的，与外国有关的；外来的，外聘的</td><td><strong>hard</strong></td><td>adj. 硬的，坚固的；困难的；困苦的，艰苦的</td></tr><tr><td><strong>drive</strong></td><td>v. 驾车送；迫使，驱使；驱赶</td><td><strong>memories</strong></td><td>n. 记忆；回忆</td><td><strong>process</strong></td><td>n. 步骤，程序；变化过程；过程，进程</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 1
+          }
+        },
+        {
+          "section": 1,
+          "title": "第3段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>experts</strong></td><td>n. 专家；人才</td><td><strong>soon</strong></td><td>adv. 很快，马上，不久；早，快；宁可，宁愿</td><td><strong>understand</strong></td><td>v. 理解，懂得；了解，明白；谅解，体谅</td></tr><tr><td><strong>Internet</strong></td><td>n. 互联网，因特网</td><td><strong>affects</strong></td><td>v. affect 的第三人称单数形式：影响；使感动；假装</td><td><strong>brains</strong></td><td>n. 智力；脑髓</td></tr><tr><td><strong>experimental</strong></td><td>adj. 实验性的，试验性的；根据经验的，经验上的</td><td><strong>evidence</strong></td><td>n. 根据，证明；证据，证词；迹象，痕迹</td><td><strong>showing</strong></td><td>n. 放映，放映场次；表演；展示，展览，陈列</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 2
+          }
+        },
+        {
+          "section": 1,
+          "title": "第4段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>costs</strong></td><td>n. 费用；损失；诉讼费</td><td><strong>associated</strong></td><td>adj. 有关联的，相关的；联合的，联营的；v. 联想，联系</td><td><strong>increased</strong></td><td>v. 增长，增强，增大；adj. 增加的，增多的，增强的</td></tr><tr><td><strong>reliance</strong></td><td>n. 依靠，信任；被依赖的人</td><td><strong>Internet</strong></td><td>n. 互联网，因特网</td><td><strong>imagine</strong></td><td>v. 想象，设想；料想，认为；误以为，胡乱猜想</td></tr><tr><td><strong>overall</strong></td><td>adj. 总的，全面的；所有的，包括一切的；adv. 全部，总共</td><td><strong>benefits</strong></td><td>n. 利益，好处；福利，救济金；义演，义卖</td><td><strong>going</strong></td><td>n. 离开，离去；进展速度，难度；地面状况</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>The Internet may be changing merely what we remember, not our capacity to do so, suggests Columbia University psychology professor Betsy Sparrow. In 2011, Sparrow led a study in which participants were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain,” for example). Half of the participants were told the information would be erased, while the other half were told it would be saved. Guess what? The latter group made no effort to recall the information when quizzed on it later, because they knew they could find it on their computers. In the same study, a group was asked to remember both the information and the folders it was stored in. They didn’t remember the information, but they remembered how to find the folders. In other words, human memory is not deteriorating but “adapting to new communications technology,” Sparrow says.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>The Internet may be changing merely what we remember, not our capacity to do so, suggests Columbia University psychology professor Betsy Sparrow. In 2011, Sparrow led a study in which participants were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain,” for example). Half of the participants were told the information would be erased, while the other half were told it would be saved. Guess what? The latter group made no effort to recall the information when quizzed on it later, because they knew they could find it on their computers. In the same study, a group was asked to remember both the information and the folders it was stored in. They didn’t remember the information, but they remembered how to find the folders. In other words, human memory is not deteriorating but “adapting to new communications technology,” Sparrow says.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>The Internet may be changing merely what we remember, / not our capacity to do so, / suggests Columbia University psychology professor Betsy Sparrow. / In 2011, / Sparrow led a study in / which participants were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain,” for example). / Half of the participants were told the information would be erased, / / while the other half were told it would be saved. / Guess what? The latter group made no effort to recall the information / when quizzed on it later, / / because they knew they could find it on their computers. / In the same study, / a group was asked to remember both the information and the folders it was stored in. / They didn’t remember the information, / but they remembered how to find the folders. / In other words, / human memory is not deteriorating but “adapting to new communications technology,” Sparrow says.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>The Internet may be changing merely what we remember, not our capacity to do so, suggests Columbia University psychology professor Betsy Sparrow. In 2011, Sparrow led a study in which participants were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain,” for example). Half of the participants were told the information would be erased, while the other half were told it would be saved. Guess what? The latter group made no effort to recall the information when quizzed on it later, because they knew they could find it on their computers. In the same study, a group was asked to remember both the information and the folders it was stored in. They didn’t remember the information, but they remembered how to find the folders. In other words, human memory is not deteriorating but “adapting to new communications technology,” Sparrow says.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>The Internet may be changing merely what we remember, / not our capacity to do so, / suggests Columbia University psychology professor Betsy Sparrow. / In 2011, / Sparrow led a study in / which participants were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain,” for example). / Half of the participants were told the information would be erased, / / while the other half were told it would be saved. / Guess what? The latter group made no effort to recall the information / when quizzed on it later, / / because they knew they could find it on their computers. / In the same study, / a group was asked to remember both the information and the folders it was stored in. / They didn’t remember the information, / but they remembered how to find the folders. / In other words, / human memory is not deteriorating but “adapting to new communications technology,” Sparrow says.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">互联网可能仅仅改变我们的记忆 / 我们没有能力这样做 / 哥伦比亚大学心理学教授 Betsy Sparrow 表示<br>2011年 / 斯帕罗领导了一项研究 / 参与者被要求在计算机中记录 40 个事实（例如，“鸵鸟的眼睛比大脑大”）<br>一半的参与者被告知信息将被删除 / 而另一半则被告知它会被保存<br>你猜怎么着？<br>后者没有努力回忆这些信息 / 当稍后被问到时 / 因为他们知道可以在计算机上找到它<br>在同一项研究中 / 一组人被要求记住信息及其存储的文件夹<br>他们不记得这些信息 / 但他们记得如何找到文件夹<br>换句话说 / 斯帕罗说，人类的记忆力并没有恶化，而是“适应了新的通信技术”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>The Internet may be changing merely what we remember, not our capacity to do so, suggests Columbia University psychology professor Betsy Sparrow. In 2011, Sparrow led a study in which participants were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain,” for example). Half of the participants were told the information would be erased, while the other half were told it would be saved. Guess what? The latter group made no effort to recall the information when quizzed on it later, because they knew they could find it on their computers. In the same study, a group was asked to remember both the information and the folders it was stored in. They didn’t remember the information, but they remembered how to find the folders. In other words, human memory is not deteriorating but “adapting to new communications technology,” Sparrow says.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>The Internet may be changing merely what we remember, / not our capacity to do so, / suggests Columbia University psychology professor Betsy Sparrow. / In 2011, / Sparrow led a study in / which participants were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain,” for example). / Half of the participants were told the information would be erased, / / while the other half were told it would be saved. / Guess what? The latter group made no effort to recall the information / when quizzed on it later, / / because they knew they could find it on their computers. / In the same study, / a group was asked to remember both the information and the folders it was stored in. / They didn’t remember the information, / but they remembered how to find the folders. / In other words, / human memory is not deteriorating but “adapting to new communications technology,” Sparrow says.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">互联网可能仅仅改变我们的记忆 / 我们没有能力这样做 / 哥伦比亚大学心理学教授 Betsy Sparrow 表示<br>2011年 / 斯帕罗领导了一项研究 / 参与者被要求在计算机中记录 40 个事实（例如，“鸵鸟的眼睛比大脑大”）<br>一半的参与者被告知信息将被删除 / 而另一半则被告知它会被保存<br>你猜怎么着？<br>后者没有努力回忆这些信息 / 当稍后被问到时 / 因为他们知道可以在计算机上找到它<br>在同一项研究中 / 一组人被要求记住信息及其存储的文件夹<br>他们不记得这些信息 / 但他们记得如何找到文件夹<br>换句话说 / 斯帕罗说，人类的记忆力并没有恶化，而是“适应了新的通信技术”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-3\">\n<h3>标准译文 · 第1段</h3>\n<p>哥伦比亚大学心理学教授贝特西·斯帕罗表示，互联网可能只是改变了我们的记忆，而不是我们这样做的能力。 2011 年，Sparrow 领导了一项研究，要求参与者在计算机中记录 40 个事实（例如，“鸵鸟的眼睛比大脑大”）。一半的参与者被告知信息将被删除，而另一半则被告知信息将被保存。你猜怎么着？后一组人在后来被询问时没有努力回忆这些信息，因为他们知道他们可以在计算机上找到它。在同一项研究中，一组人被要求记住信息和存储信息的文件夹。他们不记得信息，但记得如何找到文件夹。换句话说，人类的记忆力并没有恶化，而是“适应了新的通信技术”，斯帕罗说。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The Internet may be changing merely what we remember, not our capacity to do so, suggests Columbia University psychology professor Betsy Sparrow.</p>\n<p><strong>意群断句：</strong><code>The Internet may be changing merely what we remember, / not our capacity to do so, / suggests Columbia University psychology professor Betsy Sparrow.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">互联网可能仅仅改变我们的记忆 / 我们没有能力这样做 / 哥伦比亚大学心理学教授 Betsy Sparrow 表示</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">哥伦比亚大学心理学教授贝特西·斯帕罗表示，互联网可能只是改变了我们的记忆，而不是我们这样做的能力。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>In 2011, Sparrow led a study in which participants were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain,” for example).</p>\n<p><strong>意群断句：</strong><code>In 2011, / Sparrow led a study in / which participants were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain,” for example).</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">2011年 / 斯帕罗领导了一项研究 / 参与者被要求在计算机中记录 40 个事实（例如，“鸵鸟的眼睛比大脑大”）</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>which</code> 引导定语从句修饰先行词 <code>in</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">2011 年，Sparrow 领导了一项研究，要求参与者在计算机中记录 40 个事实（例如，“鸵鸟的眼睛比大脑大”）。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Half of the participants were told the information would be erased, while the other half were told it would be saved.</p>\n<p><strong>意群断句：</strong><code>Half of the participants were told the information would be erased, / / while the other half were told it would be saved.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">一半的参与者被告知信息将被删除 / 而另一半则被告知它会被保存</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">一半的参与者被告知信息将被删除，而另一半则被告知信息将被保存。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Guess what?</p>\n<p><strong>意群断句：</strong><code>Guess what?</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">你猜怎么着？</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">你猜怎么着？</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句5",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (5/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The latter group made no effort to recall the information when quizzed on it later, because they knew they could find it on their computers.</p>\n<p><strong>意群断句：</strong><code>The latter group made no effort to recall the information / when quizzed on it later, / / because they knew they could find it on their computers.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">后者没有努力回忆这些信息 / 当稍后被问到时 / 因为他们知道可以在计算机上找到它</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间状语从句</b>：由连词 <code>When</code> 引导从句 <code>When quizzed on it later</code>，限定主句论述的时空背景或逻辑前提。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">后一组在后来被询问时没有努力回忆这些信息，因为他们知道他们可以在计算机上找到它。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 4
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句6",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (6/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>In the same study, a group was asked to remember both the information and the folders it was stored in.</p>\n<p><strong>意群断句：</strong><code>In the same study, / a group was asked to remember both the information and the folders it was stored in.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">在同一项研究中 / 一组人被要求记住信息及其存储的文件夹</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">在同一项研究中，一组人被要求记住信息及其存储的文件夹。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 5
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句7",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (7/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>They didn’t remember the information, but they remembered how to find the folders.</p>\n<p><strong>意群断句：</strong><code>They didn’t remember the information, / but they remembered how to find the folders.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">他们不记得这些信息 / 但他们记得如何找到文件夹</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">他们不记得这些信息，但他们记得如何找到文件夹。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 6
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句8",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (8/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>In other words, human memory is not deteriorating but “adapting to new communications technology,” Sparrow says.</p>\n<p><strong>意群断句：</strong><code>In other words, / human memory is not deteriorating but “adapting to new communications technology,” Sparrow says.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">换句话说 / 斯帕罗说，人类的记忆力并没有恶化，而是“适应了新的通信技术”</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">换句话说，人类的记忆力并没有恶化，而是“适应了新的通信技术”，斯帕罗说。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 7
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>In a very practical way, the Internet is becoming an external hard drive for our memories, a process known as “cognitive offloading.” Traditionally, this role was fulfilled by data banks, libraries, and other humans. Your father may never remember birthdays because your mother does, for instance. Some worry that this is having a destructive effect on society, but Sparrow sees an upside. Perhaps, she suggests, the trend will change our approach to learning from a focus on individual facts and memorization to an emphasis on more conceptual thinking— something that is not available on the Internet. “I personally have never seen all that much intellectual value in memorizing things,” Sparrow says, adding that we haven’t lost our ability to do it.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>In a very practical way, the Internet is becoming an external hard drive for our memories, a process known as “cognitive offloading.” Traditionally, this role was fulfilled by data banks, libraries, and other humans. Your father may never remember birthdays because your mother does, for instance. Some worry that this is having a destructive effect on society, but Sparrow sees an upside. Perhaps, she suggests, the trend will change our approach to learning from a focus on individual facts and memorization to an emphasis on more conceptual thinking— something that is not available on the Internet. “I personally have never seen all that much intellectual value in memorizing things,” Sparrow says, adding that we haven’t lost our ability to do it.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>In a very practical way, / the Internet is becoming an external hard drive for our memories, / a process known as “cognitive offloading.” Traditionally, / this role was fulfilled by data banks, / libraries, / and other humans. / Your father may never remember birthdays / because your mother does, / for instance. / Some worry / that this is having a destructive effect on society, / but Sparrow sees an upside. / Perhaps, / she suggests, / the trend will change our approach to learning from a focus on individual facts and memorization to an emphasis on more conceptual thinking— / something / that is not available on the Internet. “I personally have never seen all / that much intellectual value in memorizing things,” Sparrow says, / adding / that we haven’t lost our ability to do it.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>In a very practical way, the Internet is becoming an external hard drive for our memories, a process known as “cognitive offloading.” Traditionally, this role was fulfilled by data banks, libraries, and other humans. Your father may never remember birthdays because your mother does, for instance. Some worry that this is having a destructive effect on society, but Sparrow sees an upside. Perhaps, she suggests, the trend will change our approach to learning from a focus on individual facts and memorization to an emphasis on more conceptual thinking— something that is not available on the Internet. “I personally have never seen all that much intellectual value in memorizing things,” Sparrow says, adding that we haven’t lost our ability to do it.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>In a very practical way, / the Internet is becoming an external hard drive for our memories, / a process known as “cognitive offloading.” Traditionally, / this role was fulfilled by data banks, / libraries, / and other humans. / Your father may never remember birthdays / because your mother does, / for instance. / Some worry / that this is having a destructive effect on society, / but Sparrow sees an upside. / Perhaps, / she suggests, / the trend will change our approach to learning from a focus on individual facts and memorization to an emphasis on more conceptual thinking— / something / that is not available on the Internet. “I personally have never seen all / that much intellectual value in memorizing things,” Sparrow says, / adding / that we haven’t lost our ability to do it.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">以非常实用的方式 / 互联网正在成为我们记忆的外部硬盘 / 这个过程被称为“认知卸载”。传统上 / 这一角色是由数据库承担的 / 图书馆 / 和其他人类<br>你父亲可能永远不记得生日 / 因为你妈妈做的 / 例如<br>有些担心 / 这对社会产生破坏性影响 / 但斯帕罗看到了好处<br>也许 / 她建议 / 这一趋势将改变我们的学习方法，从关注个人事实和记忆转向强调概念性思维 / 某物 / 互联网上无法提供的<br>“我个人从未见过所有 / 记忆事物具有如此大的智力价值，”斯帕罗说 / 添加 / 我们还没有失去这样做的能力</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>In a very practical way, the Internet is becoming an external hard drive for our memories, a process known as “cognitive offloading.” Traditionally, this role was fulfilled by data banks, libraries, and other humans. Your father may never remember birthdays because your mother does, for instance. Some worry that this is having a destructive effect on society, but Sparrow sees an upside. Perhaps, she suggests, the trend will change our approach to learning from a focus on individual facts and memorization to an emphasis on more conceptual thinking— something that is not available on the Internet. “I personally have never seen all that much intellectual value in memorizing things,” Sparrow says, adding that we haven’t lost our ability to do it.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>In a very practical way, / the Internet is becoming an external hard drive for our memories, / a process known as “cognitive offloading.” Traditionally, / this role was fulfilled by data banks, / libraries, / and other humans. / Your father may never remember birthdays / because your mother does, / for instance. / Some worry / that this is having a destructive effect on society, / but Sparrow sees an upside. / Perhaps, / she suggests, / the trend will change our approach to learning from a focus on individual facts and memorization to an emphasis on more conceptual thinking— / something / that is not available on the Internet. “I personally have never seen all / that much intellectual value in memorizing things,” Sparrow says, / adding / that we haven’t lost our ability to do it.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">以非常实用的方式 / 互联网正在成为我们记忆的外部硬盘 / 这个过程被称为“认知卸载”。传统上 / 这一角色是由数据库承担的 / 图书馆 / 和其他人类<br>你父亲可能永远不记得生日 / 因为你妈妈做的 / 例如<br>有些担心 / 这对社会产生破坏性影响 / 但斯帕罗看到了好处<br>也许 / 她建议 / 这一趋势将改变我们的学习方法，从关注个人事实和记忆转向强调概念性思维 / 某物 / 互联网上无法提供的<br>“我个人从未见过所有 / 记忆事物具有如此大的智力价值，”斯帕罗说 / 添加 / 我们还没有失去这样做的能力</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-3\">\n<h3>标准译文 · 第2段</h3>\n<p>以一种非常实际的方式，互联网正在成为我们记忆的外部硬盘驱动器，这一过程被称为“认知卸载”。传统上，这一角色是由数据库、图书馆和其他人来履行的。例如，你的父亲可能永远不会记得生日，因为你的母亲会记得。有些人担心这会对社会产生破坏性影响，但斯帕罗看到了积极的一面。她认为，也许这一趋势将改变我们的学习方法，从关注个人事实和记忆转向强调更多概念性思维——这是互联网上无法提供的。斯帕罗说：“我个人从未见过记忆事物有如此大的智力价值。”他补充说，我们并没有失去记忆的能力。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>In a very practical way, the Internet is becoming an external hard drive for our memories, a process known as “cognitive offloading.” Traditionally, this role was fulfilled by data banks, libraries, and other humans.</p>\n<p><strong>意群断句：</strong><code>In a very practical way, / the Internet is becoming an external hard drive for our memories, / a process known as “cognitive offloading.” Traditionally, / this role was fulfilled by data banks, / libraries, / and other humans.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">以非常实用的方式 / 互联网正在成为我们记忆的外部硬盘 / 这个过程被称为“认知卸载”。传统上 / 这一角色是由数据库承担的 / 图书馆 / 和其他人类</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间/伴随状语从句</b>：句首 <code>As “cognitive offloading.” Traditionally</code> 引导时间/伴随状语从句（“正当……之时 / 随着……”），交代主句动作发生的背景与伴随情境。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">以一种非常实际的方式，互联网正在成为我们记忆的外部硬盘驱动器，这一过程被称为“认知卸载”。传统上，这一角色是由数据库、图书馆和其他人来履行的。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Your father may never remember birthdays because your mother does, for instance.</p>\n<p><strong>意群断句：</strong><code>Your father may never remember birthdays / because your mother does, / for instance.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">你父亲可能永远不记得生日 / 因为你妈妈做的 / 例如</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>原因状语从句</b>：由连词 <code>Because</code> 引导从句 <code>Because your mother does</code>，限定主句论述的时空背景或逻辑前提。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">例如，你的父亲可能永远不会记得生日，因为你的母亲会记得。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Some worry that this is having a destructive effect on society, but Sparrow sees an upside.</p>\n<p><strong>意群断句：</strong><code>Some worry / that this is having a destructive effect on society, / but Sparrow sees an upside.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">有些担心 / 这对社会产生破坏性影响 / 但斯帕罗看到了好处</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>worry</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">有些人担心这会对社会产生破坏性影响，但斯帕罗看到了积极的一面。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Perhaps, she suggests, the trend will change our approach to learning from a focus on individual facts and memorization to an emphasis on more conceptual thinking— something that is not available on the Internet.</p>\n<p><strong>意群断句：</strong><code>Perhaps, / she suggests, / the trend will change our approach to learning from a focus on individual facts and memorization to an emphasis on more conceptual thinking— / something / that is not available on the Internet.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">也许 / 她建议 / 这一趋势将改变我们的学习方法，从关注个人事实和记忆转向强调概念性思维 / 某物 / 互联网上无法提供的</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>something</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">她认为，也许这一趋势将改变我们的学习方法，从关注个人事实和记忆转向强调更多概念性思维——这是互联网上无法提供的。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句5",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (5/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>“I personally have never seen all that much intellectual value in memorizing things,” Sparrow says, adding that we haven’t lost our ability to do it.</p>\n<p><strong>意群断句：</strong><code>“I personally have never seen all / that much intellectual value in memorizing things,” Sparrow says, / adding / that we haven’t lost our ability to do it.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">“我个人从未见过所有 / 记忆事物具有如此大的智力价值，”斯帕罗说 / 添加 / 我们还没有失去这样做的能力</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>all</code>，限定其具体属性与内涵。</li><li style=\"margin-bottom:5px\"><b>分词短语作状语/定语</b>：现在分词短语 <code>adding that we haven’t lost our ability to do...</code> 作伴随/结果状语或后置修饰，增强语义表现力。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">斯帕罗说：“我个人从未见过记忆事物有如此大的智力价值。”他补充说，我们并没有失去记忆的能力。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 4
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Still other experts say it’s too soon to understand how the Internet affects our brains. There is no experimental evidence showing that it interferes with our ability to focus, for instance, wrote psychologists Christopher Chabris and Daniel J. Simons. And surfing the web exercised the brain more than reading did among computer-savvy older adults in a 2008 study involving 24 participants at the Semel Institute for Neuroscience and Human Behavior at the University of California, Los Angeles.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Still other experts say it’s too soon to understand how the Internet affects our brains. There is no experimental evidence showing that it interferes with our ability to focus, for instance, wrote psychologists Christopher Chabris and Daniel J. Simons. And surfing the web exercised the brain more than reading did among computer-savvy older adults in a 2008 study involving 24 participants at the Semel Institute for Neuroscience and Human Behavior at the University of California, Los Angeles.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>Still other experts say it’s too soon to understand how the Internet affects our brains. / There is no experimental evidence showing / that it interferes with our ability to focus, / for instance, / wrote psychologists Christopher Chabris and Daniel J. / Simons. / And surfing the web exercised the brain more than reading did among computer-savvy older adults in a 2008 study involving 24 participants at the Semel Institute for Neuroscience and Human Behavior at the University of California, / Los Angeles.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Still other experts say it’s too soon to understand how the Internet affects our brains. There is no experimental evidence showing that it interferes with our ability to focus, for instance, wrote psychologists Christopher Chabris and Daniel J. Simons. And surfing the web exercised the brain more than reading did among computer-savvy older adults in a 2008 study involving 24 participants at the Semel Institute for Neuroscience and Human Behavior at the University of California, Los Angeles.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>Still other experts say it’s too soon to understand how the Internet affects our brains. / There is no experimental evidence showing / that it interferes with our ability to focus, / for instance, / wrote psychologists Christopher Chabris and Daniel J. / Simons. / And surfing the web exercised the brain more than reading did among computer-savvy older adults in a 2008 study involving 24 participants at the Semel Institute for Neuroscience and Human Behavior at the University of California, / Los Angeles.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">还有其他专家表示，现在了解互联网如何影响我们的大脑还为时过早<br>没有实验证据表明 / 它会干扰我们集中注意力的能力 / 例如 / 心理学家 Christopher Chabris 和 Daniel J 写道<br>西蒙斯<br>2008 年，加州大学塞梅尔神经科学与人类行为研究所对 24 名参与者进行了一项研究，对精通电脑的老年人来说，上网比阅读更能锻炼大脑。 / 洛杉矶</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Still other experts say it’s too soon to understand how the Internet affects our brains. There is no experimental evidence showing that it interferes with our ability to focus, for instance, wrote psychologists Christopher Chabris and Daniel J. Simons. And surfing the web exercised the brain more than reading did among computer-savvy older adults in a 2008 study involving 24 participants at the Semel Institute for Neuroscience and Human Behavior at the University of California, Los Angeles.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>Still other experts say it’s too soon to understand how the Internet affects our brains. / There is no experimental evidence showing / that it interferes with our ability to focus, / for instance, / wrote psychologists Christopher Chabris and Daniel J. / Simons. / And surfing the web exercised the brain more than reading did among computer-savvy older adults in a 2008 study involving 24 participants at the Semel Institute for Neuroscience and Human Behavior at the University of California, / Los Angeles.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">还有其他专家表示，现在了解互联网如何影响我们的大脑还为时过早<br>没有实验证据表明 / 它会干扰我们集中注意力的能力 / 例如 / 心理学家 Christopher Chabris 和 Daniel J 写道<br>西蒙斯<br>2008 年，加州大学塞梅尔神经科学与人类行为研究所对 24 名参与者进行了一项研究，对精通电脑的老年人来说，上网比阅读更能锻炼大脑。 / 洛杉矶</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-3\">\n<h3>标准译文 · 第3段</h3>\n<p>还有一些专家表示，现在了解互联网如何影响我们的大脑还为时过早。例如，心理学家克里斯托弗·查布里斯 (Christopher Chabris) 和丹尼尔·J·西蒙斯 (Daniel J. Simons) 写道，没有实验证据表明它会干扰我们的注意力集中能力。 2008 年，加州大学洛杉矶分校塞梅尔神经科学与人类行为研究所对 24 名参与者进行了一项研究，对精通电脑的老年人来说，上网比阅读更能锻炼大脑。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Still other experts say it’s too soon to understand how the Internet affects our brains.</p>\n<p><strong>意群断句：</strong><code>Still other experts say it’s too soon to understand how the Internet affects our brains.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">还有其他专家表示，现在了解互联网如何影响我们的大脑还为时过早</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">还有一些专家表示，现在了解互联网如何影响我们的大脑还为时过早。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>There is no experimental evidence showing that it interferes with our ability to focus, for instance, wrote psychologists Christopher Chabris and Daniel J.</p>\n<p><strong>意群断句：</strong><code>There is no experimental evidence showing / that it interferes with our ability to focus, / for instance, / wrote psychologists Christopher Chabris and Daniel J.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">没有实验证据表明 / 它会干扰我们集中注意力的能力 / 例如 / 心理学家 Christopher Chabris 和 Daniel J 写道</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>showing</code>，限定其具体属性与内涵。</li><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with our ability to focus...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">例如，心理学家 Christopher Chabris 和 Daniel J. 写道，没有实验证据表明它会干扰我们的注意力集中能力。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Simons.</p>\n<p><strong>意群断句：</strong><code>Simons.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">西蒙斯</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">西蒙斯.</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>And surfing the web exercised the brain more than reading did among computer-savvy older adults in a 2008 study involving 24 participants at the Semel Institute for Neuroscience and Human Behavior at the University of California, Los Angeles.</p>\n<p><strong>意群断句：</strong><code>And surfing the web exercised the brain more than reading did among computer-savvy older adults in a 2008 study involving 24 participants at the Semel Institute for Neuroscience and Human Behavior at the University of California, / Los Angeles.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">2008 年，加州大学塞梅尔神经科学与人类行为研究所对 24 名参与者进行了一项研究，对精通电脑的老年人来说，上网比阅读更能锻炼大脑。 / 洛杉矶</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">2008 年，加州大学洛杉矶分校塞梅尔神经科学与人类行为研究所对 24 名参与者进行了一项研究，对精通电脑的老年人来说，上网比阅读更能锻炼大脑。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>“There may be costs associated with our increased reliance on the Internet, but I’d have to imagine that overall the benefits are going to outweigh those costs,” observes psychology professor Benjamin Storm. “It seems pretty clear that memory is changing, but is it changing for the better? At this point, we don’t know.”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>“There may be costs associated with our increased reliance on the Internet, but I’d have to imagine that overall the benefits are going to outweigh those costs,” observes psychology professor Benjamin Storm. “It seems pretty clear that memory is changing, but is it changing for the better? At this point, we don’t know.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>“There may be costs associated with our increased reliance on the Internet, / but I’d have to imagine / that overall the benefits are going to outweigh those costs,” observes psychology professor Benjamin Storm. “It seems pretty clear / that memory is changing, / but is it changing for the better? At this point, / we don’t know.”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>“There may be costs associated with our increased reliance on the Internet, but I’d have to imagine that overall the benefits are going to outweigh those costs,” observes psychology professor Benjamin Storm. “It seems pretty clear that memory is changing, but is it changing for the better? At this point, we don’t know.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>“There may be costs associated with our increased reliance on the Internet, / but I’d have to imagine / that overall the benefits are going to outweigh those costs,” observes psychology professor Benjamin Storm. “It seems pretty clear / that memory is changing, / but is it changing for the better? At this point, / we don’t know.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-2\">\n<h3>意群翻译 · 第4段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">There may be costs associated with our increased reliance on the Internet / 但我不得不想象 / 心理学教授本杰明·斯托姆 (Benjamin Storm) 表示，总体而言，收益将超过成本。<br>“看起来很清楚 / 记忆正在改变 / 但情况会变得更好吗？<br>在此刻 / 我们不知道。”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>“There may be costs associated with our increased reliance on the Internet, but I’d have to imagine that overall the benefits are going to outweigh those costs,” observes psychology professor Benjamin Storm. “It seems pretty clear that memory is changing, but is it changing for the better? At this point, we don’t know.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>“There may be costs associated with our increased reliance on the Internet, / but I’d have to imagine / that overall the benefits are going to outweigh those costs,” observes psychology professor Benjamin Storm. “It seems pretty clear / that memory is changing, / but is it changing for the better? At this point, / we don’t know.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-2\">\n<h3>意群翻译 · 第4段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">There may be costs associated with our increased reliance on the Internet / 但我不得不想象 / 心理学教授本杰明·斯托姆 (Benjamin Storm) 表示，总体而言，收益将超过成本。<br>“看起来很清楚 / 记忆正在改变 / 但情况会变得更好吗？<br>在此刻 / 我们不知道。”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-3\">\n<h3>标准译文 · 第4段</h3>\n<p>心理学教授本杰明·斯托姆 (Benjamin Storm) 表示：“我们对互联网的依赖程度增加可能会带来成本，但我可以想象，总体而言，收益将超过这些成本。” “记忆正在发生变化似乎很明显，但它是否会变得更好？目前我们还不知道。”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>“There may be costs associated with our increased reliance on the Internet, but I’d have to imagine that overall the benefits are going to outweigh those costs,” observes psychology professor Benjamin Storm.</p>\n<p><strong>意群断句：</strong><code>“There may be costs associated with our increased reliance on the Internet, / but I’d have to imagine / that overall the benefits are going to outweigh those costs,” observes psychology professor Benjamin Storm.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">There may be costs associated with our increased reliance on the Internet / 但我不得不想象 / 心理学教授本杰明·斯托姆 (Benjamin Storm) 表示，总体而言，收益将超过成本。</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>imagine</code>，限定其具体属性与内涵。</li><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with our increased reliance on the Inter...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">心理学教授本杰明·斯托姆 (Benjamin Storm) 表示：“我们对互联网的依赖程度增加可能会带来成本，但我可以想象，总体而言，收益将超过这些成本。”</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>“It seems pretty clear that memory is changing, but is it changing for the better?</p>\n<p><strong>意群断句：</strong><code>“It seems pretty clear / that memory is changing, / but is it changing for the better?</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">“看起来很清楚 / 记忆正在改变 / 但情况会变得更好吗？</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>clear</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">“记忆正在发生变化似乎很明显，但它会变得更好吗？</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>At this point, we don’t know.”</p>\n<p><strong>意群断句：</strong><code>At this point, / we don’t know.”</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">在此刻 / 我们不知道。”</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">目前，我们还不知道。”</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "3.一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，正确项如何进行同义改写，错误项如何设置陷阱；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
+          "meta": {
+            "section": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "31题 · 题干、题型与核心出处",
+          "html": "<p><strong>31. Sparrow’s study shows that with the Internet, the human brain will .</strong></p>\n<p>（斯帕罗的研究表明，有了互联网，人脑就会。）</p>\n<p><strong>题型判定</strong>：事实细节题 ｜ <strong>定位出处</strong>：Paragraph 1</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "31"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. analyze information in detail",
+          "html": "<p><strong>选项 A</strong>：<code>analyze information in detail</code></p>\n<p><strong>中文翻译</strong>：详细分析信息</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. collect information efficiently",
+          "html": "<p><strong>选项 B</strong>：<code>collect information efficiently</code></p>\n<p><strong>中文翻译</strong>：高效收集信息</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. switch its focus of memory",
+          "html": "<p><strong>选项 C</strong>：<code>switch its focus of memory</code></p>\n<p><strong>中文翻译</strong>：切换记忆焦点</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. extend its memory duration",
+          "html": "<p><strong>选项 D</strong>：<code>extend its memory duration</code></p>\n<p><strong>中文翻译</strong>：延长其记忆时间</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "32题 · 题干、题型与核心出处",
+          "html": "<p><strong>32. The process of “cognitive offloading” .</strong></p>\n<p>（“认知卸载”的过程。）</p>\n<p><strong>题型判定</strong>：因果推断题 ｜ <strong>定位出处</strong>：Paragraph 2</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "32"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. helps us identify false information",
+          "html": "<p><strong>选项 A</strong>：<code>helps us identify false information</code></p>\n<p><strong>中文翻译</strong>：帮助我们识别虚假信息</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. keeps our memory from failing",
+          "html": "<p><strong>选项 B</strong>：<code>keeps our memory from failing</code></p>\n<p><strong>中文翻译</strong>：防止我们的记忆力衰退</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. enables us to classify trivial facts",
+          "html": "<p><strong>选项 C</strong>：<code>enables us to classify trivial facts</code></p>\n<p><strong>中文翻译</strong>：使我们能够对琐碎的事实进行分类</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. lessens our memory burdens",
+          "html": "<p><strong>选项 D</strong>：<code>lessens our memory burdens</code></p>\n<p><strong>中文翻译</strong>：减轻我们的记忆负担</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "33题 · 题干、题型与核心出处",
+          "html": "<p><strong>33. Which of the following would Sparrow support about the Internet?</strong></p>\n<p>（Sparrow 支持以下关于互联网的哪项？）</p>\n<p><strong>题型判定</strong>：段落推理题 ｜ <strong>定位出处</strong>：Paragraph 3</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "33"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. It may reform our learning approach.",
+          "html": "<p><strong>选项 A</strong>：<code>It may reform our learning approach.</code></p>\n<p><strong>中文翻译</strong>：它可能会改变我们的学习方法。</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. It may impact our society negatively.",
+          "html": "<p><strong>选项 B</strong>：<code>It may impact our society negatively.</code></p>\n<p><strong>中文翻译</strong>：它可能会对我们的社会产生负面影响。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. It may enhance our adaptability to technology.",
+          "html": "<p><strong>选项 C</strong>：<code>It may enhance our adaptability to technology.</code></p>\n<p><strong>中文翻译</strong>：它可以增强我们对技术的适应能力。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. It may interfere with our conceptual thinking.",
+          "html": "<p><strong>选项 D</strong>：<code>It may interfere with our conceptual thinking.</code></p>\n<p><strong>中文翻译</strong>：它可能会干扰我们的概念思维。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "34题 · 题干、题型与核心出处",
+          "html": "<p><strong>34. It is indicated in Paragraph 3 that how the Internet affects our brains .</strong></p>\n<p>（第3段指出了互联网如何影响我们的大脑。）</p>\n<p><strong>题型判定</strong>：词义/例证题 ｜ <strong>定位出处</strong>：Paragraph 4</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "34"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. requires further academic research",
+          "html": "<p><strong>选项 A</strong>：<code>requires further academic research</code></p>\n<p><strong>中文翻译</strong>：需要进一步的学术研究</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. is most studied in older adults",
+          "html": "<p><strong>选项 B</strong>：<code>is most studied in older adults</code></p>\n<p><strong>中文翻译</strong>：研究最多的是老年人</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. is reflected in our reading speed",
+          "html": "<p><strong>选项 C</strong>：<code>is reflected in our reading speed</code></p>\n<p><strong>中文翻译</strong>：体现在我们的阅读速度上</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. depends on our web-surfing habits",
+          "html": "<p><strong>选项 D</strong>：<code>depends on our web-surfing habits</code></p>\n<p><strong>中文翻译</strong>：取决于我们的上网习惯</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "35题 · 题干、题型与核心出处",
+          "html": "<p><strong>35. Neither Sparrow nor Storm would agree that .</strong></p>\n<p>（麻雀和暴风女都不会同意这一点。）</p>\n<p><strong>题型判定</strong>：全文主旨题 ｜ <strong>定位出处</strong>：Paragraph 5</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "35"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. our reliance on the Internet will be costly",
+          "html": "<p><strong>选项 A</strong>：<code>our reliance on the Internet will be costly</code></p>\n<p><strong>中文翻译</strong>：我们对互联网的依赖将会付出高昂的代价</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. the Internet is weakening our memory",
+          "html": "<p><strong>选项 B</strong>：<code>the Internet is weakening our memory</code></p>\n<p><strong>中文翻译</strong>：互联网正在削弱我们的记忆</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. memory exercise is a must for our brains",
+          "html": "<p><strong>选项 C</strong>：<code>memory exercise is a must for our brains</code></p>\n<p><strong>中文翻译</strong>：记忆力锻炼对于我们的大脑来说是必须的</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. our ability to focus declines with age",
+          "html": "<p><strong>选项 D</strong>：<code>our ability to focus declines with age</code></p>\n<p><strong>中文翻译</strong>：我们的注意力随着年龄的增长而下降</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "D"
+          }
+        },
+        {
+          "section": 4,
+          "title": "4.一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>在新题型中，考查的本质是理解文章上下文的逻辑承接能力。我们将本篇真题结构改编为新题型迁移训练，训练对段落主旨与篇章逻辑的提炼概括能力。</p>\n<p><strong>篇章核心逻辑链条</strong>：</p>\n<p>引出核心论题 → 展开多角度实证与事实分析 → 剖析深层体制/社会矛盾 → 提出战略性长效应对策略。</p>",
+          "meta": {
+            "section": 4
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 1",
+          "html": "<p><strong>【考查段落 1】</strong></p>\n<p><code>The Internet may be changing merely what we remember, not our capacity to do so, suggests Columbia University psychology...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 1 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 0
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 2",
+          "html": "<p><strong>【考查段落 2】</strong></p>\n<p><code>In a very practical way, the Internet is becoming an external hard drive for our memories, a process known as “cognitive...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 2 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 1
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 3",
+          "html": "<p><strong>【考查段落 3】</strong></p>\n<p><code>Still other experts say it’s too soon to understand how the Internet affects our brains. There is no experimental eviden...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 3 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 2
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 4",
+          "html": "<p><strong>【考查段落 4】</strong></p>\n<p><code>“There may be costs associated with our increased reliance on the Internet, but I’d have to imagine that overall the ben...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 4 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 3
+          }
+        },
+        {
+          "section": 5,
+          "title": "1. 大作文宏观论述与主题词汇积累",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>可积累的主题表达</th><th>中文翻译</th><th>所属类别</th><th>使用层级</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>promoting institutional adaptability</strong></td><td><strong>增强制度适应性与韧性</strong></td><td><strong>社会/经济发展</strong></td><td><strong>宏观论点</strong></td></tr>\n<tr><td>harmonizing commercial viability and public welfare</td><td>协调商业可行性与公众福祉</td><td>综合治理</td><td>论证支撑</td></tr>\n<tr><td>fostering sustainable long-term development</td><td>促进可持续长远发展</td><td>未来展望</td><td>结论升华</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        },
+        {
+          "section": 5,
+          "title": "2. 大作文图表/观点题通用满分句型模板",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>适用题型</th><th>考试时可复用的形式</th><th>中文翻译</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>图表/观点题</strong></td><td><strong>A is doing B in an effort to do C.</strong></td><td><strong>A正在采取行动B，目的是实现目标C。</strong></td></tr>\n<tr><td>原因剖析段</td><td>The underlying reason behind this phenomenon is that...</td><td>该现象背后的深层原因在于……</td></tr>\n<tr><td>建议对策段</td><td>Only through collaborative governance can we ensure enduring progress.</td><td>唯有通过协同治理，方能确保长久的发展与繁荣。</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        }
+      ]
+    }
+  },
+  "text4": {
+    "id": 4,
+    "qRange": "36-40",
+    "title": "Text 4",
+    "paragraphs": [
+      "Teenagers are paradoxical. That’s a mild and detached way of saying something that parents often express with considerably stronger language. But the paradox is scientific as well as personal. In adolescence, helpless and dependent children who have relied on grown- ups for just about everything become independent people who can take care of themselves and help each other. At the same time, once cheerful and compliant children become rebellious teenage risk-takers.",
+      "A new study published in the journal Child Development, by Eveline Crone of the University of Leiden and colleagues, suggests that the positive and negative sides of teenagers go hand in hand. The study is part of a new wave of thinking about adolescence. For a long time, scientists and policy makers concentrated on the idea that teenagers were a problem that needed to be solved. The new work emphasizes that adolescence is a time of opportunity as well as risk.",
+      "The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, ranging from 11 to 28 years old. The participants filled out questionnaires about how often they did things that were altruistic and positive, like sacrificing their own interests to help a friend, or rebellious and negative, like getting drunk or staying out late. Other studies have shown that rebellious behavior increases as you become a teenager and then fades away as you grow older. But the new study shows that, interestingly, the same pattern holds for prosocial behavior. Teenagers were more likely than younger children or adults to report that they did things like unselfishly help a friend.",
+      "Most significantly, there was a positive correlation between prosociality and rebelliousness. The teenagers who were more rebellious were also more likely to help others. The good and bad sides of adolescence seem to develop together.",
+      "Is there some common factor that underlies these apparently contradictory developments?",
+      "One idea is that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks, benefits and costs. “Reward sensitivity” measures how much reward it takes to outweigh risk.",
+      "Teenagers are particularly sensitive to social rewards—winning the game, impressing a new friend, getting that boy to notice you. Reward sensitivity, like prosocial behavior and risk-taking, seems to go up in adolescence and then down again as we age. Somehow, when you hit 30, the chance that something exciting and new will happen at that party just doesn’t seem to outweigh the effort of getting up off the couch."
+    ],
+    "questions": [
+      {
+        "qid": 36,
+        "stem": "According to Paragraph 1, children growing into adolescence tend to .",
+        "stem_cn": "根据第 1 段，进入青春期的儿童倾向于 。",
+        "type": "事实细节题",
+        "locate": "Paragraph 1",
+        "options": [
+          {
+            "key": "A",
+            "text": "develop opposite personality traits",
+            "text_cn": "发展相反的性格特征",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "B",
+            "text": "see the world in an unreasonable way",
+            "text_cn": "以不合理的方式看待世界",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "have fond memories of their past",
+            "text_cn": "对他们的过去有美好的回忆",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "show affection to their parents",
+            "text_cn": "向父母表达爱意",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 37,
+        "stem": "It can be learned from Paragraph 2 that Crone’s study .",
+        "stem_cn": "从第二段可以看出，克朗的研究。",
+        "type": "因果推断题",
+        "locate": "Paragraph 2",
+        "options": [
+          {
+            "key": "A",
+            "text": "explores teenagers’ social responsibilities",
+            "text_cn": "探讨青少年的社会责任",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "examines teenagers’ emotional problems",
+            "text_cn": "检查青少年的情绪问题",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "provides a new insight into adolescence",
+            "text_cn": "提供了对青春期的新见解",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "D",
+            "text": "highlights negative adolescent behavior",
+            "text_cn": "突出青少年的负面行为",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 38,
+        "stem": "What does Crone’s study find about prosocial behavior?",
+        "stem_cn": "克龙的研究对亲社会行为有何发现？",
+        "type": "段落推理题",
+        "locate": "Paragraph 3",
+        "options": [
+          {
+            "key": "A",
+            "text": "It results from the wish to cooperate.",
+            "text_cn": "这是合作意愿的结果。",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "It is cultivated through education.",
+            "text_cn": "它是通过教育培养的。",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "It is subject to family influence.",
+            "text_cn": "它受到家庭的影响。",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "It tends to peak in adolescence.",
+            "text_cn": "它往往在青春期达到顶峰。",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。"
+          }
+        ]
+      },
+      {
+        "qid": 39,
+        "stem": "It can be learned from the last two paragraphs that teenagers .",
+        "stem_cn": "从最后两段可以看出，青少年。",
+        "type": "词义/例证题",
+        "locate": "Paragraph 4",
+        "options": [
+          {
+            "key": "A",
+            "text": "overstress their influence on others",
+            "text_cn": "过分强调自己对他人的影响",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "care a lot about social recognition",
+            "text_cn": "非常关心社会认可",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "C",
+            "text": "become anxious about their future",
+            "text_cn": "对他们的未来感到焦虑",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "endeavor to live a joyful life",
+            "text_cn": "努力过上幸福的生活",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 40,
+        "stem": "What is the text mainly about?",
+        "stem_cn": "课文主要讲了什么内容？",
+        "type": "全文主旨题",
+        "locate": "Paragraph 5",
+        "options": [
+          {
+            "key": "A",
+            "text": "Why teenagers are self-contradictory.",
+            "text_cn": "为什么青少年会自相矛盾。",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "B",
+            "text": "Why teenagers are risk-sensitive.",
+            "text_cn": "为什么青少年对风险敏感。",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "How teenagers develop prosociality.",
+            "text_cn": "青少年如何培养亲社会性。",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "How teenagers become independent.",
+            "text_cn": "青少年如何变得独立。",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      }
+    ],
+    "practice": {
+      "steps": [
+        {
+          "section": "阅前须知",
+          "raw": "# 0.阅前须知\n\n阅前声明，本教程对英语一英语二均适用。\n\n本教程主要解决考研英语阅读备考中的三个结构性问题：\n\n1. **考研英语骗局一**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持认识文章中的所有细节，一个不漏，咱们不可能完全认识文章中的每一个单词，带着不认识的地方读文章做题才是真正的学生视角。即使是有部分超纲生词不认识，从段落和文章主旨、作者态度等宏观阅读文章内容本身分析的层面，也是不影响做全对的；\n\n2. **考研英语骗局二**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接边读边信达雅地翻译出文章，读完一遍只能在脑海里留下大致信息，并且很快遗忘。正确的方式是先粗后细，放弃信达雅的机械翻译，粗读先理解文章大致出现了哪些东西，然后细读采用意群法这种手段实现，即可临危不乱；\n\n3. **考研英语骗局三**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接用某种神技确定某个一定正确的答案。二选一选不出来是个非常正常的现象。用某种神技去秒杀一个文科单选问题违背了逻辑学常识，即孤证不立。通过宏观认知与多判据交叉验证的方式解决，是所有文科单选题的通法。",
+          "html": "<h1>0.阅前须知</h1>\n<p>阅前声明，本教程对英语一英语二均适用。</p>\n<p>本教程主要解决考研英语阅读备考中的三个结构性问题：</p>\n<ol>\n<li><p><strong>考研英语骗局一</strong>：拒绝上帝视角生词全懂，带着超纲生词读宏观主旨同样能做全对；</p></li>\n<li><p><strong>考研英语骗局二</strong>：放弃考场即时信达雅机械翻译，采用意群粗读抓取核心信息；</p></li>\n<li><p><strong>考研英语骗局三</strong>：拒绝所谓单一神技秒杀，采用定位比对与写作视角交叉验证。</p></li>\n</ol>\n<p>大家把考研英语阅读当成真阅读，才能发现真正正确的备考方式。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "# 1. 先读题干\n\n首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰咱们粗读对文章的理解。看题干对考查重点有个大致印象，并且因为题文同序的原则，也能帮助我们提前获取部分文章的逻辑脉络。",
+          "html": "<h1>1. 先读题干</h1><p>首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰粗读理解。看题干对考查重点建立大致印象，借助题文同序原则提前获取文章逻辑脉络。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 36题题干\n\n**According to Paragraph 1, children growing into adolescence tend to .**\n\n> 根据第 1 段，进入青春期的儿童倾向于 。\n\n题型：**事实细节题**。\n\n定位预判：**Paragraph 1**\n\n---",
+          "html": "<h2>36题题干</h2><p><strong>According to Paragraph 1, children growing into adolescence tend to .</strong></p><blockquote><p>根据第 1 段，进入青春期的儿童倾向于 。</p></blockquote><p>题型：<strong>事实细节题</strong>。</p><p>定位预判：<strong>Paragraph 1</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "36"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 37题题干\n\n**It can be learned from Paragraph 2 that Crone’s study .**\n\n> 从第二段可以看出，克朗的研究。\n\n题型：**因果推断题**。\n\n定位预判：**Paragraph 2**\n\n---",
+          "html": "<h2>37题题干</h2><p><strong>It can be learned from Paragraph 2 that Crone’s study .</strong></p><blockquote><p>从第二段可以看出，克朗的研究。</p></blockquote><p>题型：<strong>因果推断题</strong>。</p><p>定位预判：<strong>Paragraph 2</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "37"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 38题题干\n\n**What does Crone’s study find about prosocial behavior?**\n\n> 克龙的研究对亲社会行为有何发现？\n\n题型：**段落推理题**。\n\n定位预判：**Paragraph 3**\n\n---",
+          "html": "<h2>38题题干</h2><p><strong>What does Crone’s study find about prosocial behavior?</strong></p><blockquote><p>克龙的研究对亲社会行为有何发现？</p></blockquote><p>题型：<strong>段落推理题</strong>。</p><p>定位预判：<strong>Paragraph 3</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "38"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 39题题干\n\n**It can be learned from the last two paragraphs that teenagers .**\n\n> 从最后两段可以看出，青少年。\n\n题型：**词义/例证题**。\n\n定位预判：**Paragraph 4**\n\n---",
+          "html": "<h2>39题题干</h2><p><strong>It can be learned from the last two paragraphs that teenagers .</strong></p><blockquote><p>从最后两段可以看出，青少年。</p></blockquote><p>题型：<strong>词义/例证题</strong>。</p><p>定位预判：<strong>Paragraph 4</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "39"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 40题题干\n\n**What is the text mainly about?**\n\n> 课文主要讲了什么内容？\n\n题型：**全文主旨题**。\n\n定位预判：**Paragraph 5**\n\n---",
+          "html": "<h2>40题题干</h2><p><strong>What is the text mainly about?</strong></p><blockquote><p>课文主要讲了什么内容？</p></blockquote><p>题型：<strong>全文主旨题</strong>。</p><p>定位预判：<strong>Paragraph 5</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "40"
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "# 2. 读文章过程\n\n看完题干后，第一步要粗读一遍文章。根据自身水平扫一遍文章，开头结尾慢一些，注重首尾句，作者举的例子可以略读。关注逻辑词（however, but）、态度评价词、核心动作词与重复主题词。\n\n| 类型 | 关注原因 | 本文关注重点 |\n| --- | --- | --- |\n| 逻辑词 | 作者观点或行文转向 | however, but, nevertheless, yet, although |\n| 态度词 | 作者情感倾向与立场 | critical, positive, resilient, concern, significant |\n| 核心动作 | 论证中主体行为 | argue, demonstrate, implement, undermine |\n| 重复主题词 | 贯穿全篇的核心讨论对象 | 本文核心讨论对象与同义衍生表达 |",
+          "html": "<h1>2. 读文章过程</h1><p>扫读全文，注重段落首尾句，识别论点与论据。关注核心逻辑转折词与态度评价词。</p>\n<table class=\"table-wrap\"><thead><tr><th>类型</th><th>关注原因</th><th>本文关注重点</th></tr></thead>\n<tbody>\n<tr><td>逻辑词</td><td>作者观点或行文转向</td><td>however, but, nevertheless, yet</td></tr>\n<tr><td>态度词</td><td>作者情感倾向与立场</td><td>critical, positive, concern, significant</td></tr>\n<tr><td>核心动作</td><td>论证中主体行为</td><td>argue, demonstrate, implement, undermine</td></tr>\n<tr><td>重复主题词</td><td>贯穿全篇的核心讨论对象</td><td>本文核心论题与衍生词</td></tr>\n</tbody></table>",
+          "meta": {}
+        },
+        {
+          "section": "读文章",
+          "raw": "[Teenagers] are [paradoxical]. That’s a mild and detached way of saying [something] that parents often express with [considerably] stronger language. But the paradox is scientific as well as personal. In adolescence, helpless and [dependent] children who have relied on grown- ups for just about everything become independent people who can take care of themselves and help each other. At the same time, once cheerful and [compliant] children become rebellious teenage [risk-takers].",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p><span class=\"mask\">[Teenagers]</span> are <span class=\"mask\">[paradoxical]</span>. That’s a mild and detached way of saying <span class=\"mask\">[something]</span> that parents often express with <span class=\"mask\">[considerably]</span> stronger language. But the paradox is scientific as well as personal. In adolescence, helpless and <span class=\"mask\">[dependent]</span> children who have relied on grown- ups for just about everything become independent people who can take care of themselves and help each other. At the same time, once cheerful and <span class=\"mask\">[compliant]</span> children become rebellious teenage <span class=\"mask\">[risk-takers]</span>.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "[Teenagers] are [paradoxical]. / That’s a mild and detached way of saying [something] / that parents often express with [considerably] stronger language. / But the paradox is scientific / as well as personal. / In adolescence, / helpless and [dependent] children / who have relied on grown- ups for just about everything become independent people / who can take care of themselves and help each other. / At the same time, / once cheerful and [compliant] children become rebellious teenage [risk-takers].",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p><span class=\"mask\">[Teenagers]</span> are <span class=\"mask\">[paradoxical]</span>. / That’s a mild and detached way of saying <span class=\"mask\">[something]</span> / that parents often express with <span class=\"mask\">[considerably]</span> stronger language. / But the paradox is scientific / as well as personal. / In adolescence, / helpless and <span class=\"mask\">[dependent]</span> children / who have relied on grown- ups for just about everything become independent people / who can take care of themselves and help each other. / At the same time, / once cheerful and <span class=\"mask\">[compliant]</span> children become rebellious teenage <span class=\"mask\">[risk-takers]</span>.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第1段意群顺译】青少年是矛盾的。这是一种温和而超然的表达方式，父母经常用相当强烈的语言来表达。但这个悖论既是科学的，也是个人的。在青春期，几乎所有事情都依赖成年人的无助和依赖的孩子成为能够照顾自己和互相帮助的独立人。与此同时，曾经开朗、顺从的孩子变成了叛逆的冒险者。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>【第1段意群顺译】青少年是矛盾的。这是一种温和而超然的表达方式，父母经常用相当强烈的语言来表达。但这个悖论既是科学的，也是个人的。在青春期，几乎所有事情都依赖成年人的无助和依赖的孩子成为能够照顾自己和互相帮助的独立人。与此同时，曾经开朗、顺从的孩子变成了叛逆的冒险者。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "A new study [published] in the journal Child Development, by Eveline Crone of the University of Leiden and colleagues, suggests that the positive and negative sides of [teenagers] go hand in hand. The study is part of a new wave of thinking about adolescence. For a long time, [scientists] and policy makers [concentrated] on the idea that [teenagers] were a problem that needed to be solved. The new work emphasizes that adolescence is a time of opportunity as well as risk.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>A new study <span class=\"mask\">[published]</span> in the journal Child Development, by Eveline Crone of the University of Leiden and colleagues, suggests that the positive and negative sides of <span class=\"mask\">[teenagers]</span> go hand in hand. The study is part of a new wave of thinking about adolescence. For a long time, <span class=\"mask\">[scientists]</span> and policy makers <span class=\"mask\">[concentrated]</span> on the idea that <span class=\"mask\">[teenagers]</span> were a problem that needed to be solved. The new work emphasizes that adolescence is a time of opportunity as well as risk.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "A new study [published] in the journal Child Development, / by Eveline Crone of the University of Leiden and colleagues, / suggests / that the positive and negative sides of [teenagers] go hand in hand. / The study is part of a new wave of thinking about adolescence. / For a long time, / [scientists] and policy makers [concentrated] on the idea / that [teenagers] were a problem / that needed to be solved. / The new work emphasizes / that adolescence is a time of opportunity / as well as risk.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>A new study <span class=\"mask\">[published]</span> in the journal Child Development, / by Eveline Crone of the University of Leiden and colleagues, / suggests / that the positive and negative sides of <span class=\"mask\">[teenagers]</span> go hand in hand. / The study is part of a new wave of thinking about adolescence. / For a long time, / <span class=\"mask\">[scientists]</span> and policy makers <span class=\"mask\">[concentrated]</span> on the idea / that <span class=\"mask\">[teenagers]</span> were a problem / that needed to be solved. / The new work emphasizes / that adolescence is a time of opportunity / as well as risk.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第2段意群顺译】莱顿大学的伊芙琳·克龙及其同事在《儿童发展》杂志上发表的一项新研究表明，青少年的积极和消极方面是相辅相成的。这项研究是关于青春期的新一波思考的一部分。长期以来，科学家和政策制定者都认为青少年是一个需要解决的问题。新作品强调青春期是一个充满机遇和风险的时期。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第2段意群顺译】莱顿大学的伊芙琳·克龙及其同事在《儿童发展》杂志上发表的一项新研究表明，青少年的积极和消极方面是相辅相成的。这项研究是关于青春期的新一波思考的一部分。长期以来，科学家和政策制定者都认为青少年是一个需要解决的问题。新作品强调青春期是一个充满机遇和风险的时期。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, ranging from 11 to 28 years old. The [participants] filled out [questionnaires] about how often they did things that were altruistic and positive, like [sacrificing] their own interests to help a friend, or rebellious and negative, like getting drunk or staying out late. Other studies have shown that rebellious behavior increases as you become a teenager and then fades away as you grow older. But the new study shows that, [interestingly], the same pattern holds for prosocial behavior. [Teenagers] were more likely than younger children or adults to report that they did things like unselfishly help a friend.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, ranging from 11 to 28 years old. The <span class=\"mask\">[participants]</span> filled out <span class=\"mask\">[questionnaires]</span> about how often they did things that were altruistic and positive, like <span class=\"mask\">[sacrificing]</span> their own interests to help a friend, or rebellious and negative, like getting drunk or staying out late. Other studies have shown that rebellious behavior increases as you become a teenager and then fades away as you grow older. But the new study shows that, <span class=\"mask\">[interestingly]</span>, the same pattern holds for prosocial behavior. <span class=\"mask\">[Teenagers]</span> were more likely than younger children or adults to report that they did things like unselfishly help a friend.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, / ranging from 11 to 28 years old. / The [participants] filled out [questionnaires] about how often they did things / that were altruistic and positive, / like [sacrificing] their own interests to help a friend, / or rebellious and negative, / like getting drunk or staying out late. / Other studies have shown / that rebellious behavior increases as you become a teenager and then fades away as you grow older. / But the new study shows that, / [interestingly], / the same pattern holds for prosocial behavior. [Teenagers] were more likely than younger children or adults to report / that they did things like unselfishly help a friend.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, / ranging from 11 to 28 years old. / The <span class=\"mask\">[participants]</span> filled out <span class=\"mask\">[questionnaires]</span> about how often they did things / that were altruistic and positive, / like <span class=\"mask\">[sacrificing]</span> their own interests to help a friend, / or rebellious and negative, / like getting drunk or staying out late. / Other studies have shown / that rebellious behavior increases as you become a teenager and then fades away as you grow older. / But the new study shows that, / <span class=\"mask\">[interestingly]</span>, / the same pattern holds for prosocial behavior. <span class=\"mask\">[Teenagers]</span> were more likely than younger children or adults to report / that they did things like unselfishly help a friend.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第3段意群顺译】研究人员研究了 200 多名 11 岁至 28 岁的儿童和年轻人的“亲社会”和叛逆特征。参与者填写了调查问卷，了解他们做利他和积极的事情（例如牺牲自己的利益来帮助朋友）或叛逆和消极的事情（例如喝醉或在外面熬夜）的频率。其他研究表明，叛逆行为会随着青少年的增长而增加，然后随着年龄的...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第3段意群顺译】研究人员研究了 200 多名 11 岁至 28 岁的儿童和年轻人的“亲社会”和叛逆特征。参与者填写了调查问卷，了解他们做利他和积极的事情（例如牺牲自己的利益来帮助朋友）或叛逆和消极的事情（例如喝醉或在外面熬夜）的频率。其他研究表明，叛逆行为会随着青少年的增长而增加，然后随着年龄的...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Most [significantly], there was a positive correlation between [prosociality] and [rebelliousness]. The [teenagers] who were more rebellious were also more likely to help others. The good and bad sides of adolescence seem to develop together.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Most <span class=\"mask\">[significantly]</span>, there was a positive correlation between <span class=\"mask\">[prosociality]</span> and <span class=\"mask\">[rebelliousness]</span>. The <span class=\"mask\">[teenagers]</span> who were more rebellious were also more likely to help others. The good and bad sides of adolescence seem to develop together.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Most [significantly], / there was a positive correlation between [prosociality] and [rebelliousness]. / The [teenagers] / who were more rebellious were also more likely to help others. / The good and bad sides of adolescence seem to develop together.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Most <span class=\"mask\">[significantly]</span>, / there was a positive correlation between <span class=\"mask\">[prosociality]</span> and <span class=\"mask\">[rebelliousness]</span>. / The <span class=\"mask\">[teenagers]</span> / who were more rebellious were also more likely to help others. / The good and bad sides of adolescence seem to develop together.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第4段意群顺译】最重要的是，亲社会性和叛逆性之间存在正相关关系。越叛逆的青少年也更有可能帮助别人。青春期的好处和坏处似乎是同时发展的。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第4段意群顺译】最重要的是，亲社会性和叛逆性之间存在正相关关系。越叛逆的青少年也更有可能帮助别人。青春期的好处和坏处似乎是同时发展的。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Is there some common factor that [underlies] these apparently [contradictory] [developments]?",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Is there some common factor that <span class=\"mask\">[underlies]</span> these apparently <span class=\"mask\">[contradictory]</span> <span class=\"mask\">[developments]</span>?</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Is there some common factor / that [underlies] these apparently [contradictory] [developments]?",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Is there some common factor / that <span class=\"mask\">[underlies]</span> these apparently <span class=\"mask\">[contradictory]</span> <span class=\"mask\">[developments]</span>?</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第5段意群顺译】这些看似矛盾的发展背后是否存在某种共同因素？...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第5段意群顺译】这些看似矛盾的发展背后是否存在某种共同因素？...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "One idea is that teenage behavior is related to what researchers call “reward sensitivity.” [Decision-making] always involves balancing rewards and risks, benefits and costs. “Reward sensitivity” measures how much reward it takes to outweigh risk.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>One idea is that teenage behavior is related to what researchers call “reward sensitivity.” <span class=\"mask\">[Decision-making]</span> always involves balancing rewards and risks, benefits and costs. “Reward sensitivity” measures how much reward it takes to outweigh risk.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "One idea is / that teenage behavior is related to what researchers call “reward sensitivity.” [Decision-making] always involves balancing rewards and risks, / benefits and costs. “Reward sensitivity” measures how much reward it takes to outweigh risk.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>One idea is / that teenage behavior is related to what researchers call “reward sensitivity.” <span class=\"mask\">[Decision-making]</span> always involves balancing rewards and risks, / benefits and costs. “Reward sensitivity” measures how much reward it takes to outweigh risk.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第6段意群顺译】一种观点是，青少年的行为与研究人员所说的“奖励敏感性”有关。决策总是涉及平衡回报与风险、收益与成本。 “奖励敏感性”衡量的是需要多少奖励才能超过风险。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第6段意群顺译】一种观点是，青少年的行为与研究人员所说的“奖励敏感性”有关。决策总是涉及平衡回报与风险、收益与成本。 “奖励敏感性”衡量的是需要多少奖励才能超过风险。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "[Teenagers] are [particularly] sensitive to social rewards—winning the game, [impressing] a new friend, getting that boy to notice you. Reward sensitivity, like prosocial behavior and risk-taking, seems to go up in adolescence and then down again as we age. Somehow, when you hit 30, the chance that [something] exciting and new will happen at that party just doesn’t seem to outweigh the effort of getting up off the couch.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p><span class=\"mask\">[Teenagers]</span> are <span class=\"mask\">[particularly]</span> sensitive to social rewards—winning the game, <span class=\"mask\">[impressing]</span> a new friend, getting that boy to notice you. Reward sensitivity, like prosocial behavior and risk-taking, seems to go up in adolescence and then down again as we age. Somehow, when you hit 30, the chance that <span class=\"mask\">[something]</span> exciting and new will happen at that party just doesn’t seem to outweigh the effort of getting up off the couch.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 6,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "[Teenagers] are [particularly] sensitive to social rewards—winning the game, / [impressing] a new friend, / getting / that boy to notice you. / Reward sensitivity, / like prosocial behavior and risk-taking, / seems to go up in adolescence and then down again as we age. / Somehow, / / when you hit 30, / the chance / that [something] exciting and new will happen at / that party just doesn’t seem to outweigh the effort of getting up off the couch.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p><span class=\"mask\">[Teenagers]</span> are <span class=\"mask\">[particularly]</span> sensitive to social rewards—winning the game, / <span class=\"mask\">[impressing]</span> a new friend, / getting / that boy to notice you. / Reward sensitivity, / like prosocial behavior and risk-taking, / seems to go up in adolescence and then down again as we age. / Somehow, / / when you hit 30, / the chance / that <span class=\"mask\">[something]</span> exciting and new will happen at / that party just doesn’t seem to outweigh the effort of getting up off the couch.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 6,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第7段意群顺译】青少年对社会奖励特别敏感——赢得比赛、给新朋友留下深刻印象、让那个男孩注意到你。奖励敏感性，如亲社会行为和冒险行为，似乎在青春期会上升，但随着年龄的增长又会下降。不知何故，当你到了 30 岁时，聚会上发生令人兴奋的新事情的机会似乎并不比从沙发上站起来的努力重要。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第7段意群顺译】青少年对社会奖励特别敏感——赢得比赛、给新朋友留下深刻印象、让那个男孩注意到你。奖励敏感性，如亲社会行为和冒险行为，似乎在青春期会上升，但随着年龄的增长又会下降。不知何故，当你到了 30 岁时，聚会上发生令人兴奋的新事情的机会似乎并不比从沙发上站起来的努力重要。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 6,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落7大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>7、【段落7大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 6,
+            "form": 3
+          }
+        },
+        {
+          "section": "做题过程",
+          "raw": "# 3. 开始做题 (36-40题)\n\n粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。",
+          "html": "<h1>3. 开始做题 (36-40题)</h1><p>粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。</p>",
+          "meta": {}
+        },
+        {
+          "section": "36题",
+          "raw": "## 36题\n\n**According to Paragraph 1, children growing into adolescence tend to .**\n\n> 根据第 1 段，进入青春期的儿童倾向于 。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> [Teenagers] are [paradoxical]. That’s a mild and detached way of saying [something] that parents often express with [considerably] stronger language. But the paradox is scientific as well as personal. In adolescence, helpless and [dependent] children who have relied on grown- ups for just about everything become independent people who can take care of themselves and help each other. At the same time, once cheerful and [compliant] children become rebellious teenage [risk-takers].\n>\n> 开始精读：\n>\n> [Teenagers] are [paradoxical]. / That’s a mild and detached way of saying [something] / that parents often express with [considerably] stronger language. / But the paradox is scientific / as well as personal. / In adolescence, / helpless and [dependent] children / who have relied on grown- ups for just about everything become independent people / who can take care of themselves and help each other. / At the same time, / once cheerful and [compliant] children become rebellious teenage [risk-takers].\n>\n> 逐意群顺译：\n>\n> 青少年是矛盾的。这是一种温和而超然的表达方式，父母经常用相当强烈的语言来表达。但这个悖论既是科学的，也是个人的。在青春期，几乎所有事情都依赖成年人的无助和依赖的孩子成为能够照顾自己和互相帮助的独立人。与此同时，曾经开朗、顺从的孩子变成了叛逆的冒险者。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>36题</h2>\n<p><strong>According to Paragraph 1, children growing into adolescence tend to .</strong></p>\n<blockquote><p>根据第 1 段，进入青春期的儿童倾向于 。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p><span class=\"mask\">[Teenagers]</span> are <span class=\"mask\">[paradoxical]</span>. That’s a mild and detached way of saying <span class=\"mask\">[something]</span> that parents often express with <span class=\"mask\">[considerably]</span> stronger language. But the paradox is scientific as well as personal. In adolescence, helpless and <span class=\"mask\">[dependent]</span> children who have relied on grown- ups for just about everything become independent people who can take care of themselves and help each other. At the same time, once cheerful and <span class=\"mask\">[compliant]</span> children become rebellious teenage <span class=\"mask\">[risk-takers]</span>.</p>\n<p><strong>开始精读：</strong></p>\n<p><span class=\"mask\">[Teenagers]</span> are <span class=\"mask\">[paradoxical]</span>. / That’s a mild and detached way of saying <span class=\"mask\">[something]</span> / that parents often express with <span class=\"mask\">[considerably]</span> stronger language. / But the paradox is scientific / as well as personal. / In adolescence, / helpless and <span class=\"mask\">[dependent]</span> children / who have relied on grown- ups for just about everything become independent people / who can take care of themselves and help each other. / At the same time, / once cheerful and <span class=\"mask\">[compliant]</span> children become rebellious teenage <span class=\"mask\">[risk-takers]</span>.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>青少年是矛盾的。这是一种温和而超然的表达方式，父母经常用相当强烈的语言来表达。但这个悖论既是科学的，也是个人的。在青春期，几乎所有事情都依赖成年人的无助和依赖的孩子成为能够照顾自己和互相帮助的独立人。与此同时，曾经开朗、顺从的孩子变成了叛逆的冒险者。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "36"
+          }
+        },
+        {
+          "section": "36题",
+          "raw": "### A. develop opposite personality traits\n\n> 发展相反的性格特征\n\n我们先看 A 选项：`develop opposite personality traits`（发展相反的性格特征）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第 1 段，进入青春期的儿童倾向于 。 ➔ 选项认为：发展相反的性格特征\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `develop`, `opposite`, `personality` 与原文第 1 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：A强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>A. develop opposite personality traits</h3>\n<blockquote><p>发展相反的性格特征</p></blockquote>\n<p>我们先看 A 选项：<code>develop opposite personality traits</code>（发展相反的性格特征）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第 1 段，进入青春期的儿童倾向于 。 ➔ 选项认为：发展相反的性格特征</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>develop</code>, <code>opposite</code>, <code>personality</code> 与原文第 1 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：A强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "36",
+            "option": "A"
+          }
+        },
+        {
+          "section": "36题",
+          "raw": "### B. see the world in an unreasonable way\n\n> 以不合理的方式看待世界\n\n我们先看 B 选项：`see the world in an unreasonable way`（以不合理的方式看待世界）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第 1 段，进入青春期的儿童倾向于 。 ➔ 选项认为：以不合理的方式看待世界\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“以不合理的方式看待世界”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. see the world in an unreasonable way</h3>\n<blockquote><p>以不合理的方式看待世界</p></blockquote>\n<p>我们先看 B 选项：<code>see the world in an unreasonable way</code>（以不合理的方式看待世界）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第 1 段，进入青春期的儿童倾向于 。 ➔ 选项认为：以不合理的方式看待世界</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“以不合理的方式看待世界”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "36",
+            "option": "B"
+          }
+        },
+        {
+          "section": "36题",
+          "raw": "### C. have fond memories of their past\n\n> 对他们的过去有美好的回忆\n\n我们先看 C 选项：`have fond memories of their past`（对他们的过去有美好的回忆）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第 1 段，进入青春期的儿童倾向于 。 ➔ 选项认为：对他们的过去有美好的回忆\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `fond`, `memories`, `their` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. have fond memories of their past</h3>\n<blockquote><p>对他们的过去有美好的回忆</p></blockquote>\n<p>我们先看 C 选项：<code>have fond memories of their past</code>（对他们的过去有美好的回忆）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第 1 段，进入青春期的儿童倾向于 。 ➔ 选项认为：对他们的过去有美好的回忆</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>fond</code>, <code>memories</code>, <code>their</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "36",
+            "option": "C"
+          }
+        },
+        {
+          "section": "36题",
+          "raw": "### D. show affection to their parents\n\n> 向父母表达爱意\n\n我们先看 D 选项：`show affection to their parents`（向父母表达爱意）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第 1 段，进入青春期的儿童倾向于 。 ➔ 选项认为：向父母表达爱意\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“向父母表达爱意”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. show affection to their parents</h3>\n<blockquote><p>向父母表达爱意</p></blockquote>\n<p>我们先看 D 选项：<code>show affection to their parents</code>（向父母表达爱意）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第 1 段，进入青春期的儿童倾向于 。 ➔ 选项认为：向父母表达爱意</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“向父母表达爱意”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "36",
+            "option": "D"
+          }
+        },
+        {
+          "section": "36题",
+          "raw": "### 36题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A强保留，与原文定位信息高度吻合；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>36题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A强保留，与原文定位信息高度吻合</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "36"
+          }
+        },
+        {
+          "section": "37题",
+          "raw": "## 37题\n\n**It can be learned from Paragraph 2 that Crone’s study .**\n\n> 从第二段可以看出，克朗的研究。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> A new study [published] in the journal Child Development, by Eveline Crone of the University of Leiden and colleagues, suggests that the positive and negative sides of [teenagers] go hand in hand. The study is part of a new wave of thinking about adolescence. For a long time, [scientists] and policy makers [concentrated] on the idea that [teenagers] were a problem that needed to be solved. The new work emphasizes that adolescence is a time of opportunity as well as risk.\n>\n> 开始精读：\n>\n> A new study [published] in the journal Child Development, / by Eveline Crone of the University of Leiden and colleagues, / suggests / that the positive and negative sides of [teenagers] go hand in hand. / The study is part of a new wave of thinking about adolescence. / For a long time, / [scientists] and policy makers [concentrated] on the idea / that [teenagers] were a problem / that needed to be solved. / The new work emphasizes / that adolescence is a time of opportunity / as well as risk.\n>\n> 逐意群顺译：\n>\n> 莱顿大学的伊芙琳·克龙及其同事在《儿童发展》杂志上发表的一项新研究表明，青少年的积极和消极方面是相辅相成的。这项研究是关于青春期的新一波思考的一部分。长期以来，科学家和政策制定者都认为青少年是一个需要解决的问题。新作品强调青春期是一个充满机遇和风险的时期。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>37题</h2>\n<p><strong>It can be learned from Paragraph 2 that Crone’s study .</strong></p>\n<blockquote><p>从第二段可以看出，克朗的研究。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>A new study <span class=\"mask\">[published]</span> in the journal Child Development, by Eveline Crone of the University of Leiden and colleagues, suggests that the positive and negative sides of <span class=\"mask\">[teenagers]</span> go hand in hand. The study is part of a new wave of thinking about adolescence. For a long time, <span class=\"mask\">[scientists]</span> and policy makers <span class=\"mask\">[concentrated]</span> on the idea that <span class=\"mask\">[teenagers]</span> were a problem that needed to be solved. The new work emphasizes that adolescence is a time of opportunity as well as risk.</p>\n<p><strong>开始精读：</strong></p>\n<p>A new study <span class=\"mask\">[published]</span> in the journal Child Development, / by Eveline Crone of the University of Leiden and colleagues, / suggests / that the positive and negative sides of <span class=\"mask\">[teenagers]</span> go hand in hand. / The study is part of a new wave of thinking about adolescence. / For a long time, / <span class=\"mask\">[scientists]</span> and policy makers <span class=\"mask\">[concentrated]</span> on the idea / that <span class=\"mask\">[teenagers]</span> were a problem / that needed to be solved. / The new work emphasizes / that adolescence is a time of opportunity / as well as risk.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>莱顿大学的伊芙琳·克龙及其同事在《儿童发展》杂志上发表的一项新研究表明，青少年的积极和消极方面是相辅相成的。这项研究是关于青春期的新一波思考的一部分。长期以来，科学家和政策制定者都认为青少年是一个需要解决的问题。新作品强调青春期是一个充满机遇和风险的时期。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "37"
+          }
+        },
+        {
+          "section": "37题",
+          "raw": "### A. explores teenagers’ social responsibilities\n\n> 探讨青少年的社会责任\n\n我们先看 A 选项：`explores teenagers’ social responsibilities`（探讨青少年的社会责任）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从第二段可以看出，克朗的研究。 ➔ 选项认为：探讨青少年的社会责任\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“探讨青少年的社会责任”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. explores teenagers’ social responsibilities</h3>\n<blockquote><p>探讨青少年的社会责任</p></blockquote>\n<p>我们先看 A 选项：<code>explores teenagers’ social responsibilities</code>（探讨青少年的社会责任）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从第二段可以看出，克朗的研究。 ➔ 选项认为：探讨青少年的社会责任</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“探讨青少年的社会责任”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "37",
+            "option": "A"
+          }
+        },
+        {
+          "section": "37题",
+          "raw": "### B. examines teenagers’ emotional problems\n\n> 检查青少年的情绪问题\n\n我们先看 B 选项：`examines teenagers’ emotional problems`（检查青少年的情绪问题）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从第二段可以看出，克朗的研究。 ➔ 选项认为：检查青少年的情绪问题\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“检查青少年的情绪问题”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. examines teenagers’ emotional problems</h3>\n<blockquote><p>检查青少年的情绪问题</p></blockquote>\n<p>我们先看 B 选项：<code>examines teenagers’ emotional problems</code>（检查青少年的情绪问题）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从第二段可以看出，克朗的研究。 ➔ 选项认为：检查青少年的情绪问题</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“检查青少年的情绪问题”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "37",
+            "option": "B"
+          }
+        },
+        {
+          "section": "37题",
+          "raw": "### C. provides a new insight into adolescence\n\n> 提供了对青春期的新见解\n\n我们先看 C 选项：`provides a new insight into adolescence`（提供了对青春期的新见解）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从第二段可以看出，克朗的研究。 ➔ 选项认为：提供了对青春期的新见解\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `provides`, `new`, `insight` 与原文第 2 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：C强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>C. provides a new insight into adolescence</h3>\n<blockquote><p>提供了对青春期的新见解</p></blockquote>\n<p>我们先看 C 选项：<code>provides a new insight into adolescence</code>（提供了对青春期的新见解）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从第二段可以看出，克朗的研究。 ➔ 选项认为：提供了对青春期的新见解</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>provides</code>, <code>new</code>, <code>insight</code> 与原文第 2 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：C强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "37",
+            "option": "C"
+          }
+        },
+        {
+          "section": "37题",
+          "raw": "### D. highlights negative adolescent behavior\n\n> 突出青少年的负面行为\n\n我们先看 D 选项：`highlights negative adolescent behavior`（突出青少年的负面行为）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从第二段可以看出，克朗的研究。 ➔ 选项认为：突出青少年的负面行为\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“突出青少年的负面行为”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. highlights negative adolescent behavior</h3>\n<blockquote><p>突出青少年的负面行为</p></blockquote>\n<p>我们先看 D 选项：<code>highlights negative adolescent behavior</code>（突出青少年的负面行为）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从第二段可以看出，克朗的研究。 ➔ 选项认为：突出青少年的负面行为</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“突出青少年的负面行为”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "37",
+            "option": "D"
+          }
+        },
+        {
+          "section": "37题",
+          "raw": "### 37题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C强保留，与原文定位信息高度吻合；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>37题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C强保留，与原文定位信息高度吻合</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "37"
+          }
+        },
+        {
+          "section": "38题",
+          "raw": "## 38题\n\n**What does Crone’s study find about prosocial behavior?**\n\n> 克龙的研究对亲社会行为有何发现？\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, ranging from 11 to 28 years old. The [participants] filled out [questionnaires] about how often they did things that were altruistic and positive, like [sacrificing] their own interests to help a friend, or rebellious and negative, like getting drunk or staying out late. Other studies have shown that rebellious behavior increases as you become a teenager and then fades away as you grow older. But the new study shows that, [interestingly], the same pattern holds for prosocial behavior. [Teenagers] were more likely than younger children or adults to report that they did things like unselfishly help a friend.\n>\n> 开始精读：\n>\n> The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, / ranging from 11 to 28 years old. / The [participants] filled out [questionnaires] about how often they did things / that were altruistic and positive, / like [sacrificing] their own interests to help a friend, / or rebellious and negative, / like getting drunk or staying out late. / Other studies have shown / that rebellious behavior increases as you become a teenager and then fades away as you grow older. / But the new study shows that, / [interestingly], / the same pattern holds for prosocial behavior. [Teenagers] were more likely than younger children or adults to report / that they did things like unselfishly help a friend.\n>\n> 逐意群顺译：\n>\n> 研究人员研究了 200 多名 11 岁至 28 岁的儿童和年轻人的“亲社会”和叛逆特征。参与者填写了调查问卷，了解他们做利他和积极的事情（例如牺牲自己的利益来帮助朋友）或叛逆和消极的事情（例如喝醉或在外面熬夜）的频率。其他研究表明，叛逆行为会随着青少年的增长而增加，然后随着年龄的增长而消失。但有趣的是，新研究表明，亲社会行为也存在同样的模式。青少年比年幼的孩子或成年人更有可能报告说他们做了诸如无私帮助朋友之类的事情。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>38题</h2>\n<p><strong>What does Crone’s study find about prosocial behavior?</strong></p>\n<blockquote><p>克龙的研究对亲社会行为有何发现？</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, ranging from 11 to 28 years old. The <span class=\"mask\">[participants]</span> filled out <span class=\"mask\">[questionnaires]</span> about how often they did things that were altruistic and positive, like <span class=\"mask\">[sacrificing]</span> their own interests to help a friend, or rebellious and negative, like getting drunk or staying out late. Other studies have shown that rebellious behavior increases as you become a teenager and then fades away as you grow older. But the new study shows that, <span class=\"mask\">[interestingly]</span>, the same pattern holds for prosocial behavior. <span class=\"mask\">[Teenagers]</span> were more likely than younger children or adults to report that they did things like unselfishly help a friend.</p>\n<p><strong>开始精读：</strong></p>\n<p>The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, / ranging from 11 to 28 years old. / The <span class=\"mask\">[participants]</span> filled out <span class=\"mask\">[questionnaires]</span> about how often they did things / that were altruistic and positive, / like <span class=\"mask\">[sacrificing]</span> their own interests to help a friend, / or rebellious and negative, / like getting drunk or staying out late. / Other studies have shown / that rebellious behavior increases as you become a teenager and then fades away as you grow older. / But the new study shows that, / <span class=\"mask\">[interestingly]</span>, / the same pattern holds for prosocial behavior. <span class=\"mask\">[Teenagers]</span> were more likely than younger children or adults to report / that they did things like unselfishly help a friend.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>研究人员研究了 200 多名 11 岁至 28 岁的儿童和年轻人的“亲社会”和叛逆特征。参与者填写了调查问卷，了解他们做利他和积极的事情（例如牺牲自己的利益来帮助朋友）或叛逆和消极的事情（例如喝醉或在外面熬夜）的频率。其他研究表明，叛逆行为会随着青少年的增长而增加，然后随着年龄的增长而消失。但有趣的是，新研究表明，亲社会行为也存在同样的模式。青少年比年幼的孩子或成年人更有可能报告说他们做了诸如无私帮助朋友之类的事情。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "38"
+          }
+        },
+        {
+          "section": "38题",
+          "raw": "### A. It results from the wish to cooperate.\n\n> 这是合作意愿的结果。\n\n我们先看 A 选项：`It results from the wish to cooperate.`（这是合作意愿的结果。）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：克龙的研究对亲社会行为有何发现？ ➔ 选项认为：这是合作意愿的结果。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `results`, `wish`, `cooperate` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. It results from the wish to cooperate.</h3>\n<blockquote><p>这是合作意愿的结果。</p></blockquote>\n<p>我们先看 A 选项：<code>It results from the wish to cooperate.</code>（这是合作意愿的结果。）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：克龙的研究对亲社会行为有何发现？ ➔ 选项认为：这是合作意愿的结果。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>results</code>, <code>wish</code>, <code>cooperate</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "38",
+            "option": "A"
+          }
+        },
+        {
+          "section": "38题",
+          "raw": "### B. It is cultivated through education.\n\n> 它是通过教育培养的。\n\n我们先看 B 选项：`It is cultivated through education.`（它是通过教育培养的。）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：克龙的研究对亲社会行为有何发现？ ➔ 选项认为：它是通过教育培养的。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“它是通过教育培养的。”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. It is cultivated through education.</h3>\n<blockquote><p>它是通过教育培养的。</p></blockquote>\n<p>我们先看 B 选项：<code>It is cultivated through education.</code>（它是通过教育培养的。）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：克龙的研究对亲社会行为有何发现？ ➔ 选项认为：它是通过教育培养的。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“它是通过教育培养的。”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "38",
+            "option": "B"
+          }
+        },
+        {
+          "section": "38题",
+          "raw": "### C. It is subject to family influence.\n\n> 它受到家庭的影响。\n\n我们先看 C 选项：`It is subject to family influence.`（它受到家庭的影响。）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：克龙的研究对亲社会行为有何发现？ ➔ 选项认为：它受到家庭的影响。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `subject`, `family`, `influence` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. It is subject to family influence.</h3>\n<blockquote><p>它受到家庭的影响。</p></blockquote>\n<p>我们先看 C 选项：<code>It is subject to family influence.</code>（它受到家庭的影响。）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：克龙的研究对亲社会行为有何发现？ ➔ 选项认为：它受到家庭的影响。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>subject</code>, <code>family</code>, <code>influence</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "38",
+            "option": "C"
+          }
+        },
+        {
+          "section": "38题",
+          "raw": "### D. It tends to peak in adolescence.\n\n> 它往往在青春期达到顶峰。\n\n我们先看 D 选项：`It tends to peak in adolescence.`（它往往在青春期达到顶峰。）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：克龙的研究对亲社会行为有何发现？ ➔ 选项认为：它往往在青春期达到顶峰。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `tends`, `peak`, `adolescence` 与原文第 3 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：D强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>D. It tends to peak in adolescence.</h3>\n<blockquote><p>它往往在青春期达到顶峰。</p></blockquote>\n<p>我们先看 D 选项：<code>It tends to peak in adolescence.</code>（它往往在青春期达到顶峰。）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：克龙的研究对亲社会行为有何发现？ ➔ 选项认为：它往往在青春期达到顶峰。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>tends</code>, <code>peak</code>, <code>adolescence</code> 与原文第 3 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：D强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "38",
+            "option": "D"
+          }
+        },
+        {
+          "section": "38题",
+          "raw": "### 38题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D强保留，与原文定位信息高度吻合；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>38题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D强保留，与原文定位信息高度吻合</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "38"
+          }
+        },
+        {
+          "section": "39题",
+          "raw": "## 39题\n\n**It can be learned from the last two paragraphs that teenagers .**\n\n> 从最后两段可以看出，青少年。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> Most [significantly], there was a positive correlation between [prosociality] and [rebelliousness]. The [teenagers] who were more rebellious were also more likely to help others. The good and bad sides of adolescence seem to develop together.\n>\n> 开始精读：\n>\n> Most [significantly], / there was a positive correlation between [prosociality] and [rebelliousness]. / The [teenagers] / who were more rebellious were also more likely to help others. / The good and bad sides of adolescence seem to develop together.\n>\n> 逐意群顺译：\n>\n> 最重要的是，亲社会性和叛逆性之间存在正相关关系。越叛逆的青少年也更有可能帮助别人。青春期的好处和坏处似乎是同时发展的。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>39题</h2>\n<p><strong>It can be learned from the last two paragraphs that teenagers .</strong></p>\n<blockquote><p>从最后两段可以看出，青少年。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Most <span class=\"mask\">[significantly]</span>, there was a positive correlation between <span class=\"mask\">[prosociality]</span> and <span class=\"mask\">[rebelliousness]</span>. The <span class=\"mask\">[teenagers]</span> who were more rebellious were also more likely to help others. The good and bad sides of adolescence seem to develop together.</p>\n<p><strong>开始精读：</strong></p>\n<p>Most <span class=\"mask\">[significantly]</span>, / there was a positive correlation between <span class=\"mask\">[prosociality]</span> and <span class=\"mask\">[rebelliousness]</span>. / The <span class=\"mask\">[teenagers]</span> / who were more rebellious were also more likely to help others. / The good and bad sides of adolescence seem to develop together.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>最重要的是，亲社会性和叛逆性之间存在正相关关系。越叛逆的青少年也更有可能帮助别人。青春期的好处和坏处似乎是同时发展的。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "39"
+          }
+        },
+        {
+          "section": "39题",
+          "raw": "### A. overstress their influence on others\n\n> 过分强调自己对他人的影响\n\n我们先看 A 选项：`overstress their influence on others`（过分强调自己对他人的影响）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从最后两段可以看出，青少年。 ➔ 选项认为：过分强调自己对他人的影响\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `overstress`, `their`, `influence` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. overstress their influence on others</h3>\n<blockquote><p>过分强调自己对他人的影响</p></blockquote>\n<p>我们先看 A 选项：<code>overstress their influence on others</code>（过分强调自己对他人的影响）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从最后两段可以看出，青少年。 ➔ 选项认为：过分强调自己对他人的影响</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>overstress</code>, <code>their</code>, <code>influence</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "39",
+            "option": "A"
+          }
+        },
+        {
+          "section": "39题",
+          "raw": "### B. care a lot about social recognition\n\n> 非常关心社会认可\n\n我们先看 B 选项：`care a lot about social recognition`（非常关心社会认可）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从最后两段可以看出，青少年。 ➔ 选项认为：非常关心社会认可\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `care`, `lot`, `social` 与原文第 4 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：B强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>B. care a lot about social recognition</h3>\n<blockquote><p>非常关心社会认可</p></blockquote>\n<p>我们先看 B 选项：<code>care a lot about social recognition</code>（非常关心社会认可）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从最后两段可以看出，青少年。 ➔ 选项认为：非常关心社会认可</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>care</code>, <code>lot</code>, <code>social</code> 与原文第 4 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：B强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "39",
+            "option": "B"
+          }
+        },
+        {
+          "section": "39题",
+          "raw": "### C. become anxious about their future\n\n> 对他们的未来感到焦虑\n\n我们先看 C 选项：`become anxious about their future`（对他们的未来感到焦虑）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从最后两段可以看出，青少年。 ➔ 选项认为：对他们的未来感到焦虑\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“对他们的未来感到焦虑”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. become anxious about their future</h3>\n<blockquote><p>对他们的未来感到焦虑</p></blockquote>\n<p>我们先看 C 选项：<code>become anxious about their future</code>（对他们的未来感到焦虑）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从最后两段可以看出，青少年。 ➔ 选项认为：对他们的未来感到焦虑</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“对他们的未来感到焦虑”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "39",
+            "option": "C"
+          }
+        },
+        {
+          "section": "39题",
+          "raw": "### D. endeavor to live a joyful life\n\n> 努力过上幸福的生活\n\n我们先看 D 选项：`endeavor to live a joyful life`（努力过上幸福的生活）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从最后两段可以看出，青少年。 ➔ 选项认为：努力过上幸福的生活\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“努力过上幸福的生活”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. endeavor to live a joyful life</h3>\n<blockquote><p>努力过上幸福的生活</p></blockquote>\n<p>我们先看 D 选项：<code>endeavor to live a joyful life</code>（努力过上幸福的生活）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从最后两段可以看出，青少年。 ➔ 选项认为：努力过上幸福的生活</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“努力过上幸福的生活”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "39",
+            "option": "D"
+          }
+        },
+        {
+          "section": "39题",
+          "raw": "### 39题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B强保留，与原文定位信息高度吻合；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>39题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B强保留，与原文定位信息高度吻合</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "39"
+          }
+        },
+        {
+          "section": "40题",
+          "raw": "## 40题\n\n**What is the text mainly about?**\n\n> 课文主要讲了什么内容？\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 5 段展开，所以我们直接回第 5 段定位精读。\n\n> 原文参考：\n>\n> Is there some common factor that [underlies] these apparently [contradictory] [developments]?\n>\n> 开始精读：\n>\n> Is there some common factor / that [underlies] these apparently [contradictory] [developments]?\n>\n> 逐意群顺译：\n>\n> 这些看似矛盾的发展背后是否存在某种共同因素？\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>40题</h2>\n<p><strong>What is the text mainly about?</strong></p>\n<blockquote><p>课文主要讲了什么内容？</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>5</strong> 段展开，所以我们直接回第 <strong>5</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Is there some common factor that <span class=\"mask\">[underlies]</span> these apparently <span class=\"mask\">[contradictory]</span> <span class=\"mask\">[developments]</span>?</p>\n<p><strong>开始精读：</strong></p>\n<p>Is there some common factor / that <span class=\"mask\">[underlies]</span> these apparently <span class=\"mask\">[contradictory]</span> <span class=\"mask\">[developments]</span>?</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>这些看似矛盾的发展背后是否存在某种共同因素？</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "40"
+          }
+        },
+        {
+          "section": "40题",
+          "raw": "### A. Why teenagers are self-contradictory.\n\n> 为什么青少年会自相矛盾。\n\n我们先看 A 选项：`Why teenagers are self-contradictory.`（为什么青少年会自相矛盾。）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：课文主要讲了什么内容？ ➔ 选项认为：为什么青少年会自相矛盾。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `Why`, `teenagers`, `are` 与原文第 5 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 5 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：A强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>A. Why teenagers are self-contradictory.</h3>\n<blockquote><p>为什么青少年会自相矛盾。</p></blockquote>\n<p>我们先看 A 选项：<code>Why teenagers are self-contradictory.</code>（为什么青少年会自相矛盾。）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：课文主要讲了什么内容？ ➔ 选项认为：为什么青少年会自相矛盾。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>Why</code>, <code>teenagers</code>, <code>are</code> 与原文第 5 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 5 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：A强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "40",
+            "option": "A"
+          }
+        },
+        {
+          "section": "40题",
+          "raw": "### B. Why teenagers are risk-sensitive.\n\n> 为什么青少年对风险敏感。\n\n我们先看 B 选项：`Why teenagers are risk-sensitive.`（为什么青少年对风险敏感。）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：课文主要讲了什么内容？ ➔ 选项认为：为什么青少年对风险敏感。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“为什么青少年对风险敏感。”，但在原文第 5 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. Why teenagers are risk-sensitive.</h3>\n<blockquote><p>为什么青少年对风险敏感。</p></blockquote>\n<p>我们先看 B 选项：<code>Why teenagers are risk-sensitive.</code>（为什么青少年对风险敏感。）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：课文主要讲了什么内容？ ➔ 选项认为：为什么青少年对风险敏感。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“为什么青少年对风险敏感。”，但在原文第 5 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "40",
+            "option": "B"
+          }
+        },
+        {
+          "section": "40题",
+          "raw": "### C. How teenagers develop prosociality.\n\n> 青少年如何培养亲社会性。\n\n我们先看 C 选项：`How teenagers develop prosociality.`（青少年如何培养亲社会性。）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：课文主要讲了什么内容？ ➔ 选项认为：青少年如何培养亲社会性。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `How`, `teenagers`, `develop` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. How teenagers develop prosociality.</h3>\n<blockquote><p>青少年如何培养亲社会性。</p></blockquote>\n<p>我们先看 C 选项：<code>How teenagers develop prosociality.</code>（青少年如何培养亲社会性。）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：课文主要讲了什么内容？ ➔ 选项认为：青少年如何培养亲社会性。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>How</code>, <code>teenagers</code>, <code>develop</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "40",
+            "option": "C"
+          }
+        },
+        {
+          "section": "40题",
+          "raw": "### D. How teenagers become independent.\n\n> 青少年如何变得独立。\n\n我们先看 D 选项：`How teenagers become independent.`（青少年如何变得独立。）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：课文主要讲了什么内容？ ➔ 选项认为：青少年如何变得独立。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“青少年如何变得独立。”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. How teenagers become independent.</h3>\n<blockquote><p>青少年如何变得独立。</p></blockquote>\n<p>我们先看 D 选项：<code>How teenagers become independent.</code>（青少年如何变得独立。）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：课文主要讲了什么内容？ ➔ 选项认为：青少年如何变得独立。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“青少年如何变得独立。”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "40",
+            "option": "D"
+          }
+        },
+        {
+          "section": "40题",
+          "raw": "### 40题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A强保留，与原文定位信息高度吻合；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>40题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A强保留，与原文定位信息高度吻合</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "40"
+          }
+        },
+        {
+          "section": "进阶技巧",
+          "raw": "# 4. 进阶技巧：交叉验证冲全对\n\n当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。",
+          "html": "<h1>4. 进阶技巧：交叉验证冲全对</h1><p>当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。</p>",
+          "meta": {}
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查36题交叉验证\n\n**题干**：According to Paragraph 1, children growing into adolescence tend to .\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **A**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **A**。\n\n**36题选 A。**",
+          "html": "<h2>回查36题交叉验证</h2>\n<p><strong>题干</strong>：According to Paragraph 1, children growing into adolescence tend to .</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>A</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">A</span></strong>。</p>\n<p><strong>36题选 A。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "36"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查37题交叉验证\n\n**题干**：It can be learned from Paragraph 2 that Crone’s study .\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **C**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **C**。\n\n**37题选 C。**",
+          "html": "<h2>回查37题交叉验证</h2>\n<p><strong>题干</strong>：It can be learned from Paragraph 2 that Crone’s study .</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>C</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">C</span></strong>。</p>\n<p><strong>37题选 C。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "37"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查38题交叉验证\n\n**题干**：What does Crone’s study find about prosocial behavior?\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **D**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **D**。\n\n**38题选 D。**",
+          "html": "<h2>回查38题交叉验证</h2>\n<p><strong>题干</strong>：What does Crone’s study find about prosocial behavior?</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>D</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">D</span></strong>。</p>\n<p><strong>38题选 D。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "38"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查39题交叉验证\n\n**题干**：It can be learned from the last two paragraphs that teenagers .\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **B**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **B**。\n\n**39题选 B。**",
+          "html": "<h2>回查39题交叉验证</h2>\n<p><strong>题干</strong>：It can be learned from the last two paragraphs that teenagers .</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>B</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">B</span></strong>。</p>\n<p><strong>39题选 B。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "39"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查40题交叉验证\n\n**题干**：What is the text mainly about?\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **A**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **A**。\n\n**40题选 A。**",
+          "html": "<h2>回查40题交叉验证</h2>\n<p><strong>题干</strong>：What is the text mainly about?</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>A</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">A</span></strong>。</p>\n<p><strong>40题选 A。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "40"
+          }
+        },
+        {
+          "section": "最终答案",
+          "raw": "# 5. 最终答案汇总\n\n**36. A**\n\n**37. C**\n\n**38. D**\n\n**39. B**\n\n**40. A**\n\n恭喜完成本篇阅读的做题推演！建议点击顶栏切换至【复盘模式（一石五鸟）】进行全方位深度吸收。",
+          "html": "<h1>5. 最终答案汇总</h1><div style=\"background:#f0fdf4;border:1px solid #bbf7d0;padding:16px;border-radius:8px;font-size:18px;line-height:2;color:#166534\">**36. A**<br><br>**37. C**<br><br>**38. D**<br><br>**39. B**<br><br>**40. A**</div><p style=\"margin-top:16px\">恭喜完成本篇阅读的做题推演！建议点击顶栏切换至<strong>【复盘模式（一石五鸟）】</strong>进行全方位深度吸收。</p>",
+          "meta": {
+            "kind": "final"
+          }
+        }
+      ]
+    },
+    "review": {
+      "steps": [
+        {
+          "section": 0,
+          "title": "省流：一石五鸟法怎么做",
+          "html": "<p>一石五鸟复盘法将一篇阅读真题价值吃干榨净，同时打通词汇、长难句与翻译、阅读解题思维、新题型逻辑、大作文写作五大核心题型，实现高效备考。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第一鸟-积累文中重点单词带来的词汇量提升",
+          "html": "<p>精选真题高频核心词、熟词生义、派生搭配，在语境中彻底掌握考研核心5500词的核心词族。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第二鸟-精读文章与翻译练习带来的翻译能力提升",
+          "html": "<p>逐句精读拆解句法骨架（主干提取、从句修饰剥离），针对典型长难句进行规范中文翻译输出。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>深度剖析命题人设置正确选项的同义替换规律，归纳排查5大高频干扰陷阱（偷换概念/无中生有/反向干扰/过度推断/答非所问）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>梳理全文语篇结构树（起承转合、因果对比、问题解决），迁移训练考研英语二新题型（7选5/小标题/排序）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第五鸟-顺手积累本文的大作文主题词与表达带来的写作能力提升",
+          "html": "<p>提炼本文涉及社会热点、科技经济、生态教育等母题的高分表达、观点金句与论证句型，直接化为写作武器。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "为什么考研英语备考实际只需要两到三个月的有效备考工作量",
+          "html": "<p>通过一石五鸟法，做1篇真题等于练5项能力，无需题海战术，56篇真题足以为考研英语二夯实75+甚至85+的坚实功底。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第1段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>as well as</strong></td><td>也，还有，以及</td><td><strong>paradoxical</strong></td><td>adj. 自相矛盾的；事与愿违的，出乎意料的</td><td><strong>mild</strong></td><td>adj. 不严重的，轻微的；不强烈的，微弱的；不严厉的</td></tr><tr><td><strong>detached</strong></td><td>adj. 超然的，不带感情的，客观的；单独的，分离的；v. 拆下，使分离</td><td><strong>saying</strong></td><td>n. 谚语，格言，警句；重要讲话，教诲；v. 说，讲</td><td><strong>something</strong></td><td>pron. 某事，某物；……或诸如此类的东西，……什么的；大致，大约，左右</td></tr><tr><td><strong>often</strong></td><td>adv. 常常，时常；在许多情况下</td><td><strong>express</strong></td><td>v. 表达，表露；表现，体现；表示</td><td><strong>considerably</strong></td><td>adv. 非常，相当多地</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第2段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>as well as</strong></td><td>也，还有，以及</td><td><strong>published</strong></td><td>adj. 已出版的，已发行的，已发布的；v. publish 的过去式和过去分词：出版，发行；发表，使出版</td><td><strong>journal</strong></td><td>n. 杂志，期刊，报纸；日记，日志；日记账</td></tr><tr><td><strong>colleagues</strong></td><td>n. 同事；同行</td><td><strong>suggests</strong></td><td>v. 暗示，建议</td><td><strong>positive</strong></td><td>adj. 乐观的，有信心的；积极的，建设性的；良好的，有助益的</td></tr><tr><td><strong>negative</strong></td><td>adj. 有害的，负面的；悲观的，消极的；否定的，拒绝的</td><td><strong>sides</strong></td><td>n. 边，侧面；身体两侧，肋部；一方，双方</td><td><strong>teenagers</strong></td><td>n. 青少年</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 1
+          }
+        },
+        {
+          "section": 1,
+          "title": "第3段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>researchers</strong></td><td>n. 研究人员，研究者</td><td><strong>studied</strong></td><td>v. study 的过去式和过去分词；学习；研究</td><td><strong>prosocial</strong></td><td>adj. 亲社会的，有益于他人或社会的；符合或忠实于既定社会道德准则的</td></tr><tr><td><strong>rebellious</strong></td><td>adj. 叛乱的，造反的；反抗的，反叛的；难处理的，难对付的</td><td><strong>traits</strong></td><td>n. 特性，特质，性格；性状，遗传特征</td><td><strong>young</strong></td><td>adj. 幼小的，年轻的；存在不久的，新成立的；年轻的，岁数不大的</td></tr><tr><td><strong>adults</strong></td><td>n. 成年人；成年动物</td><td><strong>ranging</strong></td><td>v. 变化，变动；排列，排序；徘徊，漫步</td><td><strong>participants</strong></td><td>n. 参与者，参加者</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 2
+          }
+        },
+        {
+          "section": 1,
+          "title": "第4段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>significantly</strong></td><td>adv. 显著地，相当数量地；值得注意的是；意味深长地，别有含意地</td><td><strong>positive</strong></td><td>adj. 乐观的，有信心的；积极的，建设性的；良好的，有助益的</td><td><strong>correlation</strong></td><td>n. 相互关系，关联；相关量</td></tr><tr><td><strong>prosociality</strong></td><td>n. 亲社会性，趋社会性</td><td><strong>rebelliousness</strong></td><td>n. 造反；叛逆性；难以控制</td><td><strong>teenagers</strong></td><td>n. 青少年</td></tr><tr><td><strong>rebellious</strong></td><td>adj. 叛乱的，造反的；反抗的，反叛的；难处理的，难对付的</td><td><strong>likely</strong></td><td>adj. 可能发生的；似乎合适的，仿佛恰当的；似乎真实的，可信的</td><td><strong>help</strong></td><td>v. 帮助，援助；改善状况，对……有益；给食物或饮料</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 3
+          }
+        },
+        {
+          "section": 1,
+          "title": "第5段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>common</strong></td><td>adj. 共同的，共享的；常见的，普遍的，一般的；普通的，平凡的</td><td><strong>factor</strong></td><td>n. 因素，要素；等级，系数；因数，因子</td><td><strong>underlies</strong></td><td>v. 构成…的基础，是…的原因；位于…之下</td></tr><tr><td><strong>apparently</strong></td><td>adv. 据说，显然；似乎，好像</td><td><strong>contradictory</strong></td><td>adj. 相互矛盾的，对立的；好反驳的，爱争辩的；n. 矛盾命题</td><td><strong>developments</strong></td><td>n. 发展；进展，新情况，最新动态；建设</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 4
+          }
+        },
+        {
+          "section": 1,
+          "title": "第6段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>idea</strong></td><td>n. 想法，主意；观点，看法；原则，信念</td><td><strong>teenage</strong></td><td>adj. 十几岁的，青少年的；关于青少年的，面向青少年的</td><td><strong>behavior</strong></td><td>n. 行为，举止，态度；性能，性状，反应；有机体对刺激的可观察反应或活动</td></tr><tr><td><strong>related</strong></td><td>adj. 相关的，有联系的；有亲戚关系的；同类的，同族的</td><td><strong>researchers</strong></td><td>n. 研究人员，研究者</td><td><strong>call</strong></td><td>v. 给……命名，称呼；认为……是，把……看作；喊，叫</td></tr><tr><td><strong>reward</strong></td><td>n. 奖励，回报；赏格，悬赏金；报偿，报应</td><td><strong>sensitivity</strong></td><td>n. 感知，觉察；灵敏度；敏感，易生气</td><td><strong>making</strong></td><td>n. 制作，生产；素质，潜在能力；材料，原料</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 5
+          }
+        },
+        {
+          "section": 1,
+          "title": "第7段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>particularly</strong></td><td>adv. 非常，尤其；特别是；清楚地，明确地</td><td><strong>sensitive</strong></td><td>adj. 过敏的，易受影响的；灵敏的；善解人意的，体恤的</td><td><strong>rewards</strong></td><td>n. 奖励，奖品；回报；v. 奖赏，酬谢，报答</td></tr><tr><td><strong>winning</strong></td><td>adj. 获胜的，胜利的；中奖的，获奖的；制胜的</td><td><strong>game</strong></td><td>n. 游戏，比赛；一局，一场；运动会</td><td><strong>impressing</strong></td><td>v. 使钦佩，使留下深刻印象；使意识到；使铭记</td></tr><tr><td><strong>friend</strong></td><td>n. 朋友，友人；好友；朋友，朋友关系</td><td><strong>getting</strong></td><td>v. get 的现在分词：得到，获得；收到；买到</td><td><strong>notice</strong></td><td>n. 注意，察觉；通告，布告；公告牌，警示牌</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 6
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>Teenagers are paradoxical. That’s a mild and detached way of saying something that parents often express with considerably stronger language. But the paradox is scientific as well as personal. In adolescence, helpless and dependent children who have relied on grown- ups for just about everything become independent people who can take care of themselves and help each other. At the same time, once cheerful and compliant children become rebellious teenage risk-takers.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>Teenagers are paradoxical. That’s a mild and detached way of saying something that parents often express with considerably stronger language. But the paradox is scientific as well as personal. In adolescence, helpless and dependent children who have relied on grown- ups for just about everything become independent people who can take care of themselves and help each other. At the same time, once cheerful and compliant children become rebellious teenage risk-takers.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>Teenagers are paradoxical. / That’s a mild and detached way of saying something / that parents often express with considerably stronger language. / But the paradox is scientific / as well as personal. / In adolescence, / helpless and dependent children / who have relied on grown- ups for just about everything become independent people / who can take care of themselves and help each other. / At the same time, / once cheerful and compliant children become rebellious teenage risk-takers.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>Teenagers are paradoxical. That’s a mild and detached way of saying something that parents often express with considerably stronger language. But the paradox is scientific as well as personal. In adolescence, helpless and dependent children who have relied on grown- ups for just about everything become independent people who can take care of themselves and help each other. At the same time, once cheerful and compliant children become rebellious teenage risk-takers.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>Teenagers are paradoxical. / That’s a mild and detached way of saying something / that parents often express with considerably stronger language. / But the paradox is scientific / as well as personal. / In adolescence, / helpless and dependent children / who have relied on grown- ups for just about everything become independent people / who can take care of themselves and help each other. / At the same time, / once cheerful and compliant children become rebellious teenage risk-takers.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">青少年是矛盾的<br>这是一种温和而超然的说话方式 / 父母经常用相当强烈的语言来表达<br>但这个悖论是科学的 / 以及个人的<br>青春期时 / 无助和依赖的儿童 / 凡事都依赖大人的人成为独立的人 / 谁能照顾自己并互相帮助<br>同时 / 曾经开朗顺从的孩子变成了叛逆的冒险家</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>Teenagers are paradoxical. That’s a mild and detached way of saying something that parents often express with considerably stronger language. But the paradox is scientific as well as personal. In adolescence, helpless and dependent children who have relied on grown- ups for just about everything become independent people who can take care of themselves and help each other. At the same time, once cheerful and compliant children become rebellious teenage risk-takers.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>Teenagers are paradoxical. / That’s a mild and detached way of saying something / that parents often express with considerably stronger language. / But the paradox is scientific / as well as personal. / In adolescence, / helpless and dependent children / who have relied on grown- ups for just about everything become independent people / who can take care of themselves and help each other. / At the same time, / once cheerful and compliant children become rebellious teenage risk-takers.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">青少年是矛盾的<br>这是一种温和而超然的说话方式 / 父母经常用相当强烈的语言来表达<br>但这个悖论是科学的 / 以及个人的<br>青春期时 / 无助和依赖的儿童 / 凡事都依赖大人的人成为独立的人 / 谁能照顾自己并互相帮助<br>同时 / 曾经开朗顺从的孩子变成了叛逆的冒险家</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-3\">\n<h3>标准译文 · 第1段</h3>\n<p>青少年是矛盾的。这是一种温和而超然的表达方式，父母经常用相当强烈的语言来表达。但这个悖论既是科学的，也是个人的。在青春期，几乎所有事情都依赖成年人的无助和依赖的孩子成为能够照顾自己和互相帮助的独立人。与此同时，曾经开朗、顺从的孩子变成了叛逆的冒险者。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Teenagers are paradoxical.</p>\n<p><strong>意群断句：</strong><code>Teenagers are paradoxical.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">青少年是矛盾的</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">青少年是矛盾的。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>That’s a mild and detached way of saying something that parents often express with considerably stronger language.</p>\n<p><strong>意群断句：</strong><code>That’s a mild and detached way of saying something / that parents often express with considerably stronger language.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">这是一种温和而超然的说话方式 / 父母经常用相当强烈的语言来表达</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>something</code>，限定其具体属性与内涵。</li><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with considerably stronger language....</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">这是一种温和而超然的表达方式，父母经常用相当强烈的语言来表达。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>But the paradox is scientific as well as personal.</p>\n<p><strong>意群断句：</strong><code>But the paradox is scientific / as well as personal.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">但这个悖论是科学的 / 以及个人的</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">但这个悖论既是科学的，也是个人的。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>In adolescence, helpless and dependent children who have relied on grown- ups for just about everything become independent people who can take care of themselves and help each other.</p>\n<p><strong>意群断句：</strong><code>In adolescence, / helpless and dependent children / who have relied on grown- ups for just about everything become independent people / who can take care of themselves and help each other.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">青春期时 / 无助和依赖的儿童 / 凡事都依赖大人的人成为独立的人 / 谁能照顾自己并互相帮助</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>who</code> 引导定语从句修饰先行词 <code>children</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">在青春期，几乎所有事情都依赖成年人的无助和依赖的孩子成为能够照顾自己和互相帮助的独立人。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句5",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (5/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>At the same time, once cheerful and compliant children become rebellious teenage risk-takers.</p>\n<p><strong>意群断句：</strong><code>At the same time, / once cheerful and compliant children become rebellious teenage risk-takers.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">同时 / 曾经开朗顺从的孩子变成了叛逆的冒险家</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">与此同时，曾经快乐和顺从的孩子变成了叛逆的青少年冒险者。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 4
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>A new study published in the journal Child Development, by Eveline Crone of the University of Leiden and colleagues, suggests that the positive and negative sides of teenagers go hand in hand. The study is part of a new wave of thinking about adolescence. For a long time, scientists and policy makers concentrated on the idea that teenagers were a problem that needed to be solved. The new work emphasizes that adolescence is a time of opportunity as well as risk.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>A new study published in the journal Child Development, by Eveline Crone of the University of Leiden and colleagues, suggests that the positive and negative sides of teenagers go hand in hand. The study is part of a new wave of thinking about adolescence. For a long time, scientists and policy makers concentrated on the idea that teenagers were a problem that needed to be solved. The new work emphasizes that adolescence is a time of opportunity as well as risk.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>A new study published in the journal Child Development, / by Eveline Crone of the University of Leiden and colleagues, / suggests / that the positive and negative sides of teenagers go hand in hand. / The study is part of a new wave of thinking about adolescence. / For a long time, / scientists and policy makers concentrated on the idea / that teenagers were a problem / that needed to be solved. / The new work emphasizes / that adolescence is a time of opportunity / as well as risk.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>A new study published in the journal Child Development, by Eveline Crone of the University of Leiden and colleagues, suggests that the positive and negative sides of teenagers go hand in hand. The study is part of a new wave of thinking about adolescence. For a long time, scientists and policy makers concentrated on the idea that teenagers were a problem that needed to be solved. The new work emphasizes that adolescence is a time of opportunity as well as risk.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>A new study published in the journal Child Development, / by Eveline Crone of the University of Leiden and colleagues, / suggests / that the positive and negative sides of teenagers go hand in hand. / The study is part of a new wave of thinking about adolescence. / For a long time, / scientists and policy makers concentrated on the idea / that teenagers were a problem / that needed to be solved. / The new work emphasizes / that adolescence is a time of opportunity / as well as risk.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">一项新研究发表在《儿童发展》杂志上 / 作者：莱顿大学的 Eveline Crone 及其同事 / 建议 / 青少年的积极和消极的一面是齐头并进的<br>这项研究是关于青春期的新一波思考的一部分<br>许久 / 科学家和政策制定者集中精力研究这个想法 / 青少年是个问题 / 需要解决的问题<br>新作品强调 / 青春期是一个充满机遇的时期 / 还有风险</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>A new study published in the journal Child Development, by Eveline Crone of the University of Leiden and colleagues, suggests that the positive and negative sides of teenagers go hand in hand. The study is part of a new wave of thinking about adolescence. For a long time, scientists and policy makers concentrated on the idea that teenagers were a problem that needed to be solved. The new work emphasizes that adolescence is a time of opportunity as well as risk.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>A new study published in the journal Child Development, / by Eveline Crone of the University of Leiden and colleagues, / suggests / that the positive and negative sides of teenagers go hand in hand. / The study is part of a new wave of thinking about adolescence. / For a long time, / scientists and policy makers concentrated on the idea / that teenagers were a problem / that needed to be solved. / The new work emphasizes / that adolescence is a time of opportunity / as well as risk.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">一项新研究发表在《儿童发展》杂志上 / 作者：莱顿大学的 Eveline Crone 及其同事 / 建议 / 青少年的积极和消极的一面是齐头并进的<br>这项研究是关于青春期的新一波思考的一部分<br>许久 / 科学家和政策制定者集中精力研究这个想法 / 青少年是个问题 / 需要解决的问题<br>新作品强调 / 青春期是一个充满机遇的时期 / 还有风险</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-3\">\n<h3>标准译文 · 第2段</h3>\n<p>莱顿大学的伊芙琳·克龙及其同事在《儿童发展》杂志上发表的一项新研究表明，青少年的积极和消极方面是相辅相成的。这项研究是关于青春期的新一波思考的一部分。长期以来，科学家和政策制定者都认为青少年是一个需要解决的问题。新作品强调青春期是一个充满机遇和风险的时期。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>A new study published in the journal Child Development, by Eveline Crone of the University of Leiden and colleagues, suggests that the positive and negative sides of teenagers go hand in hand.</p>\n<p><strong>意群断句：</strong><code>A new study published in the journal Child Development, / by Eveline Crone of the University of Leiden and colleagues, / suggests / that the positive and negative sides of teenagers go hand in hand.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">一项新研究发表在《儿童发展》杂志上 / 作者：莱顿大学的 Eveline Crone 及其同事 / 建议 / 青少年的积极和消极的一面是齐头并进的</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>suggests</code>，限定其具体属性与内涵。</li><li style=\"margin-bottom:5px\"><b>宾语从句</b>：谓语动词 <code>suggests</code> 后接 <code>that</code> 引导的宾语从句，充当其核心认知或事实陈述内容。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">莱顿大学的伊芙琳·克龙及其同事在《儿童发展》杂志上发表的一项新研究表明，青少年的积极和消极方面是相辅相成的。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The study is part of a new wave of thinking about adolescence.</p>\n<p><strong>意群断句：</strong><code>The study is part of a new wave of thinking about adolescence.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">这项研究是关于青春期的新一波思考的一部分</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">这项研究是关于青春期的新一波思考的一部分。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>For a long time, scientists and policy makers concentrated on the idea that teenagers were a problem that needed to be solved.</p>\n<p><strong>意群断句：</strong><code>For a long time, / scientists and policy makers concentrated on the idea / that teenagers were a problem / that needed to be solved.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">许久 / 科学家和政策制定者集中精力研究这个想法 / 青少年是个问题 / 需要解决的问题</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>idea</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">长期以来，科学家和政策制定者都认为青少年是一个需要解决的问题。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The new work emphasizes that adolescence is a time of opportunity as well as risk.</p>\n<p><strong>意群断句：</strong><code>The new work emphasizes / that adolescence is a time of opportunity / as well as risk.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">新作品强调 / 青春期是一个充满机遇的时期 / 还有风险</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>emphasizes</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">新作品强调青春期是一个充满机遇和风险的时期。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, ranging from 11 to 28 years old. The participants filled out questionnaires about how often they did things that were altruistic and positive, like sacrificing their own interests to help a friend, or rebellious and negative, like getting drunk or staying out late. Other studies have shown that rebellious behavior increases as you become a teenager and then fades away as you grow older. But the new study shows that, interestingly, the same pattern holds for prosocial behavior. Teenagers were more likely than younger children or adults to report that they did things like unselfishly help a friend.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, ranging from 11 to 28 years old. The participants filled out questionnaires about how often they did things that were altruistic and positive, like sacrificing their own interests to help a friend, or rebellious and negative, like getting drunk or staying out late. Other studies have shown that rebellious behavior increases as you become a teenager and then fades away as you grow older. But the new study shows that, interestingly, the same pattern holds for prosocial behavior. Teenagers were more likely than younger children or adults to report that they did things like unselfishly help a friend.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, / ranging from 11 to 28 years old. / The participants filled out questionnaires about how often they did things / that were altruistic and positive, / like sacrificing their own interests to help a friend, / or rebellious and negative, / like getting drunk or staying out late. / Other studies have shown / that rebellious behavior increases as you become a teenager and then fades away as you grow older. / But the new study shows that, / interestingly, / the same pattern holds for prosocial behavior. / Teenagers were more likely than younger children or adults to report / that they did things like unselfishly help a friend.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, ranging from 11 to 28 years old. The participants filled out questionnaires about how often they did things that were altruistic and positive, like sacrificing their own interests to help a friend, or rebellious and negative, like getting drunk or staying out late. Other studies have shown that rebellious behavior increases as you become a teenager and then fades away as you grow older. But the new study shows that, interestingly, the same pattern holds for prosocial behavior. Teenagers were more likely than younger children or adults to report that they did things like unselfishly help a friend.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, / ranging from 11 to 28 years old. / The participants filled out questionnaires about how often they did things / that were altruistic and positive, / like sacrificing their own interests to help a friend, / or rebellious and negative, / like getting drunk or staying out late. / Other studies have shown / that rebellious behavior increases as you become a teenager and then fades away as you grow older. / But the new study shows that, / interestingly, / the same pattern holds for prosocial behavior. / Teenagers were more likely than younger children or adults to report / that they did things like unselfishly help a friend.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">研究人员研究了 200 多名儿童和年轻人的“亲社会”和叛逆特征 / 年龄范围从11岁到28岁<br>参与者填写了关于他们做某事的频率的调查问卷 / 是无私和积极的 / 喜欢牺牲自己的利益来帮助朋友 / 或叛逆、消极 / 比如喝醉或在外面呆到很晚<br>其他研究表明 / 叛逆行为会随着你进入青少年而增加，然后随着年龄的增长而消失<br>但新的研究表明 / 有趣的是 / 同样的模式也适用于亲社会行为<br>青少年比年幼的儿童或成人更有可能报告 / 他们做了一些事情，比如无私地帮助朋友</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, ranging from 11 to 28 years old. The participants filled out questionnaires about how often they did things that were altruistic and positive, like sacrificing their own interests to help a friend, or rebellious and negative, like getting drunk or staying out late. Other studies have shown that rebellious behavior increases as you become a teenager and then fades away as you grow older. But the new study shows that, interestingly, the same pattern holds for prosocial behavior. Teenagers were more likely than younger children or adults to report that they did things like unselfishly help a friend.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, / ranging from 11 to 28 years old. / The participants filled out questionnaires about how often they did things / that were altruistic and positive, / like sacrificing their own interests to help a friend, / or rebellious and negative, / like getting drunk or staying out late. / Other studies have shown / that rebellious behavior increases as you become a teenager and then fades away as you grow older. / But the new study shows that, / interestingly, / the same pattern holds for prosocial behavior. / Teenagers were more likely than younger children or adults to report / that they did things like unselfishly help a friend.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">研究人员研究了 200 多名儿童和年轻人的“亲社会”和叛逆特征 / 年龄范围从11岁到28岁<br>参与者填写了关于他们做某事的频率的调查问卷 / 是无私和积极的 / 喜欢牺牲自己的利益来帮助朋友 / 或叛逆、消极 / 比如喝醉或在外面呆到很晚<br>其他研究表明 / 叛逆行为会随着你进入青少年而增加，然后随着年龄的增长而消失<br>但新的研究表明 / 有趣的是 / 同样的模式也适用于亲社会行为<br>青少年比年幼的儿童或成人更有可能报告 / 他们做了一些事情，比如无私地帮助朋友</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-3\">\n<h3>标准译文 · 第3段</h3>\n<p>研究人员研究了 200 多名 11 岁至 28 岁的儿童和年轻人的“亲社会”和叛逆特征。参与者填写了调查问卷，了解他们做利他和积极的事情（例如牺牲自己的利益来帮助朋友）或叛逆和消极的事情（例如喝醉或在外面熬夜）的频率。其他研究表明，叛逆行为会随着青少年的增长而增加，然后随着年龄的增长而消失。但有趣的是，新研究表明，亲社会行为也存在同样的模式。青少年比年幼的孩子或成年人更有可能报告说他们做了诸如无私帮助朋友之类的事情。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, ranging from 11 to 28 years old.</p>\n<p><strong>意群断句：</strong><code>The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, / ranging from 11 to 28 years old.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">研究人员研究了 200 多名儿童和年轻人的“亲社会”和叛逆特征 / 年龄范围从11岁到28岁</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>分词短语作状语/定语</b>：现在分词短语 <code>ranging from 11 to 28 years old....</code> 作伴随/结果状语或后置修饰，增强语义表现力。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">研究人员研究了 200 多名 11 岁至 28 岁儿童和年轻人的“亲社会”和叛逆特征。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The participants filled out questionnaires about how often they did things that were altruistic and positive, like sacrificing their own interests to help a friend, or rebellious and negative, like getting drunk or staying out late.</p>\n<p><strong>意群断句：</strong><code>The participants filled out questionnaires about how often they did things / that were altruistic and positive, / like sacrificing their own interests to help a friend, / or rebellious and negative, / like getting drunk or staying out late.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">参与者填写了关于他们做某事的频率的调查问卷 / 是无私和积极的 / 喜欢牺牲自己的利益来帮助朋友 / 或叛逆、消极 / 比如喝醉或在外面呆到很晚</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>things</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">参与者填写了调查问卷，了解他们做利他和积极的事情（例如牺牲自己的利益来帮助朋友）或叛逆和消极的事情（例如喝醉或在外面熬夜）的频率。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Other studies have shown that rebellious behavior increases as you become a teenager and then fades away as you grow older.</p>\n<p><strong>意群断句：</strong><code>Other studies have shown / that rebellious behavior increases as you become a teenager and then fades away as you grow older.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">其他研究表明 / 叛逆行为会随着你进入青少年而增加，然后随着年龄的增长而消失</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>shown</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">其他研究表明，叛逆行为会随着青少年的增长而增加，然后随着年龄的增长而消失。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>But the new study shows that, interestingly, the same pattern holds for prosocial behavior.</p>\n<p><strong>意群断句：</strong><code>But the new study shows that, / interestingly, / the same pattern holds for prosocial behavior.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">但新的研究表明 / 有趣的是 / 同样的模式也适用于亲社会行为</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">但有趣的是，新研究表明，亲社会行为也存在同样的模式。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句5",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (5/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Teenagers were more likely than younger children or adults to report that they did things like unselfishly help a friend.</p>\n<p><strong>意群断句：</strong><code>Teenagers were more likely than younger children or adults to report / that they did things like unselfishly help a friend.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">青少年比年幼的儿童或成人更有可能报告 / 他们做了一些事情，比如无私地帮助朋友</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>report</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">青少年比年幼的孩子或成年人更有可能报告说他们做了诸如无私帮助朋友之类的事情。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 4
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>Most significantly, there was a positive correlation between prosociality and rebelliousness. The teenagers who were more rebellious were also more likely to help others. The good and bad sides of adolescence seem to develop together.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>Most significantly, there was a positive correlation between prosociality and rebelliousness. The teenagers who were more rebellious were also more likely to help others. The good and bad sides of adolescence seem to develop together.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>Most significantly, / there was a positive correlation between prosociality and rebelliousness. / The teenagers / who were more rebellious were also more likely to help others. / The good and bad sides of adolescence seem to develop together.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>Most significantly, there was a positive correlation between prosociality and rebelliousness. The teenagers who were more rebellious were also more likely to help others. The good and bad sides of adolescence seem to develop together.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>Most significantly, / there was a positive correlation between prosociality and rebelliousness. / The teenagers / who were more rebellious were also more likely to help others. / The good and bad sides of adolescence seem to develop together.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-2\">\n<h3>意群翻译 · 第4段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">最显着的是 / 亲社会性和叛逆性之间存在正相关关系<br>青少年们 / 越叛逆的人也越有可能帮助别人<br>青春期的好与坏似乎是同时发展的</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>Most significantly, there was a positive correlation between prosociality and rebelliousness. The teenagers who were more rebellious were also more likely to help others. The good and bad sides of adolescence seem to develop together.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>Most significantly, / there was a positive correlation between prosociality and rebelliousness. / The teenagers / who were more rebellious were also more likely to help others. / The good and bad sides of adolescence seem to develop together.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-2\">\n<h3>意群翻译 · 第4段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">最显着的是 / 亲社会性和叛逆性之间存在正相关关系<br>青少年们 / 越叛逆的人也越有可能帮助别人<br>青春期的好与坏似乎是同时发展的</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-3\">\n<h3>标准译文 · 第4段</h3>\n<p>最重要的是，亲社会性和叛逆性之间存在正相关关系。越叛逆的青少年也更有可能帮助别人。青春期的好处和坏处似乎是同时发展的。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Most significantly, there was a positive correlation between prosociality and rebelliousness.</p>\n<p><strong>意群断句：</strong><code>Most significantly, / there was a positive correlation between prosociality and rebelliousness.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">最显着的是 / 亲社会性和叛逆性之间存在正相关关系</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">最重要的是，亲社会性和叛逆性之间存在正相关关系。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The teenagers who were more rebellious were also more likely to help others.</p>\n<p><strong>意群断句：</strong><code>The teenagers / who were more rebellious were also more likely to help others.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">青少年们 / 越叛逆的人也越有可能帮助别人</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>who</code> 引导定语从句修饰先行词 <code>teenagers</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">越叛逆的青少年也更有可能帮助别人。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The good and bad sides of adolescence seem to develop together.</p>\n<p><strong>意群断句：</strong><code>The good and bad sides of adolescence seem to develop together.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">青春期的好与坏似乎是同时发展的</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">青春期的好处和坏处似乎是同时发展的。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>Is there some common factor that underlies these apparently contradictory developments?</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>Is there some common factor that underlies these apparently contradictory developments?</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>Is there some common factor / that underlies these apparently contradictory developments?</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>Is there some common factor that underlies these apparently contradictory developments?</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>Is there some common factor / that underlies these apparently contradictory developments?</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-2\">\n<h3>意群翻译 · 第5段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">有没有什么共同因素 / 这些看似矛盾的发展背后隐藏着什么？</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>Is there some common factor that underlies these apparently contradictory developments?</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>Is there some common factor / that underlies these apparently contradictory developments?</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-2\">\n<h3>意群翻译 · 第5段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">有没有什么共同因素 / 这些看似矛盾的发展背后隐藏着什么？</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-3\">\n<h3>标准译文 · 第5段</h3>\n<p>这些看似矛盾的发展背后是否存在某种共同因素？</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/1)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Is there some common factor that underlies these apparently contradictory developments?</p>\n<p><strong>意群断句：</strong><code>Is there some common factor / that underlies these apparently contradictory developments?</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">有没有什么共同因素 / 这些看似矛盾的发展背后隐藏着什么？</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>factor</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">这些看似矛盾的发展背后是否存在某种共同因素？</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>One idea is that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks, benefits and costs. “Reward sensitivity” measures how much reward it takes to outweigh risk.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>One idea is that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks, benefits and costs. “Reward sensitivity” measures how much reward it takes to outweigh risk.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-1\">\n<h3>意群划分 · 第6段</h3>\n<p>One idea is / that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks, / benefits and costs. “Reward sensitivity” measures how much reward it takes to outweigh risk.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>One idea is that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks, benefits and costs. “Reward sensitivity” measures how much reward it takes to outweigh risk.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-1\">\n<h3>意群划分 · 第6段</h3>\n<p>One idea is / that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks, / benefits and costs. “Reward sensitivity” measures how much reward it takes to outweigh risk.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-2\">\n<h3>意群翻译 · 第6段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">一个想法是 / 青少年的行为与研究人员所说的“奖励敏感性”有关。决策总是涉及平衡回报和风险 / 效益和成本<br>“奖励敏感性”衡量的是需要多少奖励才能超过风险。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>One idea is that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks, benefits and costs. “Reward sensitivity” measures how much reward it takes to outweigh risk.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-1\">\n<h3>意群划分 · 第6段</h3>\n<p>One idea is / that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks, / benefits and costs. “Reward sensitivity” measures how much reward it takes to outweigh risk.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-2\">\n<h3>意群翻译 · 第6段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">一个想法是 / 青少年的行为与研究人员所说的“奖励敏感性”有关。决策总是涉及平衡回报和风险 / 效益和成本<br>“奖励敏感性”衡量的是需要多少奖励才能超过风险。</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-3\">\n<h3>标准译文 · 第6段</h3>\n<p>一种观点是，青少年的行为与研究人员所说的“奖励敏感性”有关。决策总是涉及平衡回报与风险、收益与成本。 “奖励敏感性”衡量的是需要多少奖励才能超过风险。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>One idea is that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks, benefits and costs.</p>\n<p><strong>意群断句：</strong><code>One idea is / that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks, / benefits and costs.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">一个想法是 / 青少年的行为与研究人员所说的“奖励敏感性”有关。决策总是涉及平衡回报和风险 / 效益和成本</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">一种观点是，青少年的行为与研究人员所说的“奖励敏感性”有关。决策总是涉及平衡回报与风险、收益与成本。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>“Reward sensitivity” measures how much reward it takes to outweigh risk.</p>\n<p><strong>意群断句：</strong><code>“Reward sensitivity” measures how much reward it takes to outweigh risk.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">“奖励敏感性”衡量的是需要多少奖励才能超过风险。</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">“奖励敏感性”衡量的是需要多少奖励才能超过风险。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-7-0\">\n<h3>完整原文 · 第7段</h3>\n<p>Teenagers are particularly sensitive to social rewards—winning the game, impressing a new friend, getting that boy to notice you. Reward sensitivity, like prosocial behavior and risk-taking, seems to go up in adolescence and then down again as we age. Somehow, when you hit 30, the chance that something exciting and new will happen at that party just doesn’t seem to outweigh the effort of getting up off the couch.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-7-0\">\n<h3>完整原文 · 第7段</h3>\n<p>Teenagers are particularly sensitive to social rewards—winning the game, impressing a new friend, getting that boy to notice you. Reward sensitivity, like prosocial behavior and risk-taking, seems to go up in adolescence and then down again as we age. Somehow, when you hit 30, the chance that something exciting and new will happen at that party just doesn’t seem to outweigh the effort of getting up off the couch.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-1\">\n<h3>意群划分 · 第7段</h3>\n<p>Teenagers are particularly sensitive to social rewards—winning the game, / impressing a new friend, / getting / that boy to notice you. / Reward sensitivity, / like prosocial behavior and risk-taking, / seems to go up in adolescence and then down again as we age. / Somehow, / / when you hit 30, / the chance / that something exciting and new will happen at / that party just doesn’t seem to outweigh the effort of getting up off the couch.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-7-0\">\n<h3>完整原文 · 第7段</h3>\n<p>Teenagers are particularly sensitive to social rewards—winning the game, impressing a new friend, getting that boy to notice you. Reward sensitivity, like prosocial behavior and risk-taking, seems to go up in adolescence and then down again as we age. Somehow, when you hit 30, the chance that something exciting and new will happen at that party just doesn’t seem to outweigh the effort of getting up off the couch.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-1\">\n<h3>意群划分 · 第7段</h3>\n<p>Teenagers are particularly sensitive to social rewards—winning the game, / impressing a new friend, / getting / that boy to notice you. / Reward sensitivity, / like prosocial behavior and risk-taking, / seems to go up in adolescence and then down again as we age. / Somehow, / / when you hit 30, / the chance / that something exciting and new will happen at / that party just doesn’t seem to outweigh the effort of getting up off the couch.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-2\">\n<h3>意群翻译 · 第7段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">青少年对社会奖励特别敏感——赢得比赛 / 给新朋友留下深刻印象 / 得到 / 那个男孩注意到你<br>奖励敏感性 / 比如亲社会行为和冒险行为 / 似乎在青春期上升，然后随着年龄的增长又下降<br>不知何故 / 当你达到30岁的时候 / 机会 / 一些令人兴奋和新的事情将会发生在 / 那个聚会似乎并不比从沙发上站起来的努力更重要</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-7-0\">\n<h3>完整原文 · 第7段</h3>\n<p>Teenagers are particularly sensitive to social rewards—winning the game, impressing a new friend, getting that boy to notice you. Reward sensitivity, like prosocial behavior and risk-taking, seems to go up in adolescence and then down again as we age. Somehow, when you hit 30, the chance that something exciting and new will happen at that party just doesn’t seem to outweigh the effort of getting up off the couch.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-1\">\n<h3>意群划分 · 第7段</h3>\n<p>Teenagers are particularly sensitive to social rewards—winning the game, / impressing a new friend, / getting / that boy to notice you. / Reward sensitivity, / like prosocial behavior and risk-taking, / seems to go up in adolescence and then down again as we age. / Somehow, / / when you hit 30, / the chance / that something exciting and new will happen at / that party just doesn’t seem to outweigh the effort of getting up off the couch.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-2\">\n<h3>意群翻译 · 第7段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">青少年对社会奖励特别敏感——赢得比赛 / 给新朋友留下深刻印象 / 得到 / 那个男孩注意到你<br>奖励敏感性 / 比如亲社会行为和冒险行为 / 似乎在青春期上升，然后随着年龄的增长又下降<br>不知何故 / 当你达到30岁的时候 / 机会 / 一些令人兴奋和新的事情将会发生在 / 那个聚会似乎并不比从沙发上站起来的努力更重要</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-3\">\n<h3>标准译文 · 第7段</h3>\n<p>青少年对社会奖励特别敏感——赢得比赛、给新朋友留下深刻印象、让那个男孩注意到你。奖励敏感性，如亲社会行为和冒险行为，似乎在青春期会上升，但随着年龄的增长又会下降。不知何故，当你到了 30 岁时，聚会上发生令人兴奋的新事情的机会似乎并不比从沙发上站起来的努力重要。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Teenagers are particularly sensitive to social rewards—winning the game, impressing a new friend, getting that boy to notice you.</p>\n<p><strong>意群断句：</strong><code>Teenagers are particularly sensitive to social rewards—winning the game, / impressing a new friend, / getting / that boy to notice you.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">青少年对社会奖励特别敏感——赢得比赛 / 给新朋友留下深刻印象 / 得到 / 那个男孩注意到你</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>getting</code>，限定其具体属性与内涵。</li><li style=\"margin-bottom:5px\"><b>分词短语作状语/定语</b>：现在分词短语 <code>impressing a new friend...</code> 作伴随/结果状语或后置修饰，增强语义表现力。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">青少年对社会奖励特别敏感——赢得比赛、给新朋友留下深刻印象、让那个男孩注意到你。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Reward sensitivity, like prosocial behavior and risk-taking, seems to go up in adolescence and then down again as we age.</p>\n<p><strong>意群断句：</strong><code>Reward sensitivity, / like prosocial behavior and risk-taking, / seems to go up in adolescence and then down again as we age.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">奖励敏感性 / 比如亲社会行为和冒险行为 / 似乎在青春期上升，然后随着年龄的增长又下降</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">奖励敏感性，如亲社会行为和冒险行为，似乎在青春期会上升，但随着年龄的增长又会下降。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Somehow, when you hit 30, the chance that something exciting and new will happen at that party just doesn’t seem to outweigh the effort of getting up off the couch.</p>\n<p><strong>意群断句：</strong><code>Somehow, / / when you hit 30, / the chance / that something exciting and new will happen at / that party just doesn’t seem to outweigh the effort of getting up off the couch.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">不知何故 / 当你达到30岁的时候 / 机会 / 一些令人兴奋和新的事情将会发生在 / 那个聚会似乎并不比从沙发上站起来的努力更重要</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间状语从句</b>：由连词 <code>When</code> 引导从句 <code>When you hit 30</code>，限定主句论述的时空背景或逻辑前提。</li><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>chance</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">不知何故，当你到了 30 岁时，聚会上发生令人兴奋的新事情的机会似乎并不比从沙发上站起来的努力重要。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "3.一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，正确项如何进行同义改写，错误项如何设置陷阱；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
+          "meta": {
+            "section": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "36题 · 题干、题型与核心出处",
+          "html": "<p><strong>36. According to Paragraph 1, children growing into adolescence tend to .</strong></p>\n<p>（根据第 1 段，进入青春期的儿童倾向于 。）</p>\n<p><strong>题型判定</strong>：事实细节题 ｜ <strong>定位出处</strong>：Paragraph 1</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "36"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. develop opposite personality traits",
+          "html": "<p><strong>选项 A</strong>：<code>develop opposite personality traits</code></p>\n<p><strong>中文翻译</strong>：发展相反的性格特征</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. see the world in an unreasonable way",
+          "html": "<p><strong>选项 B</strong>：<code>see the world in an unreasonable way</code></p>\n<p><strong>中文翻译</strong>：以不合理的方式看待世界</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. have fond memories of their past",
+          "html": "<p><strong>选项 C</strong>：<code>have fond memories of their past</code></p>\n<p><strong>中文翻译</strong>：对他们的过去有美好的回忆</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. show affection to their parents",
+          "html": "<p><strong>选项 D</strong>：<code>show affection to their parents</code></p>\n<p><strong>中文翻译</strong>：向父母表达爱意</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "37题 · 题干、题型与核心出处",
+          "html": "<p><strong>37. It can be learned from Paragraph 2 that Crone’s study .</strong></p>\n<p>（从第二段可以看出，克朗的研究。）</p>\n<p><strong>题型判定</strong>：因果推断题 ｜ <strong>定位出处</strong>：Paragraph 2</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "37"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. explores teenagers’ social responsibilities",
+          "html": "<p><strong>选项 A</strong>：<code>explores teenagers’ social responsibilities</code></p>\n<p><strong>中文翻译</strong>：探讨青少年的社会责任</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. examines teenagers’ emotional problems",
+          "html": "<p><strong>选项 B</strong>：<code>examines teenagers’ emotional problems</code></p>\n<p><strong>中文翻译</strong>：检查青少年的情绪问题</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. provides a new insight into adolescence",
+          "html": "<p><strong>选项 C</strong>：<code>provides a new insight into adolescence</code></p>\n<p><strong>中文翻译</strong>：提供了对青春期的新见解</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. highlights negative adolescent behavior",
+          "html": "<p><strong>选项 D</strong>：<code>highlights negative adolescent behavior</code></p>\n<p><strong>中文翻译</strong>：突出青少年的负面行为</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "38题 · 题干、题型与核心出处",
+          "html": "<p><strong>38. What does Crone’s study find about prosocial behavior?</strong></p>\n<p>（克龙的研究对亲社会行为有何发现？）</p>\n<p><strong>题型判定</strong>：段落推理题 ｜ <strong>定位出处</strong>：Paragraph 3</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "38"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. It results from the wish to cooperate.",
+          "html": "<p><strong>选项 A</strong>：<code>It results from the wish to cooperate.</code></p>\n<p><strong>中文翻译</strong>：这是合作意愿的结果。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. It is cultivated through education.",
+          "html": "<p><strong>选项 B</strong>：<code>It is cultivated through education.</code></p>\n<p><strong>中文翻译</strong>：它是通过教育培养的。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. It is subject to family influence.",
+          "html": "<p><strong>选项 C</strong>：<code>It is subject to family influence.</code></p>\n<p><strong>中文翻译</strong>：它受到家庭的影响。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. It tends to peak in adolescence.",
+          "html": "<p><strong>选项 D</strong>：<code>It tends to peak in adolescence.</code></p>\n<p><strong>中文翻译</strong>：它往往在青春期达到顶峰。</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "39题 · 题干、题型与核心出处",
+          "html": "<p><strong>39. It can be learned from the last two paragraphs that teenagers .</strong></p>\n<p>（从最后两段可以看出，青少年。）</p>\n<p><strong>题型判定</strong>：词义/例证题 ｜ <strong>定位出处</strong>：Paragraph 4</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "39"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. overstress their influence on others",
+          "html": "<p><strong>选项 A</strong>：<code>overstress their influence on others</code></p>\n<p><strong>中文翻译</strong>：过分强调自己对他人的影响</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. care a lot about social recognition",
+          "html": "<p><strong>选项 B</strong>：<code>care a lot about social recognition</code></p>\n<p><strong>中文翻译</strong>：非常关心社会认可</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. become anxious about their future",
+          "html": "<p><strong>选项 C</strong>：<code>become anxious about their future</code></p>\n<p><strong>中文翻译</strong>：对他们的未来感到焦虑</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. endeavor to live a joyful life",
+          "html": "<p><strong>选项 D</strong>：<code>endeavor to live a joyful life</code></p>\n<p><strong>中文翻译</strong>：努力过上幸福的生活</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "40题 · 题干、题型与核心出处",
+          "html": "<p><strong>40. What is the text mainly about?</strong></p>\n<p>（课文主要讲了什么内容？）</p>\n<p><strong>题型判定</strong>：全文主旨题 ｜ <strong>定位出处</strong>：Paragraph 5</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "40"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. Why teenagers are self-contradictory.",
+          "html": "<p><strong>选项 A</strong>：<code>Why teenagers are self-contradictory.</code></p>\n<p><strong>中文翻译</strong>：为什么青少年会自相矛盾。</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. Why teenagers are risk-sensitive.",
+          "html": "<p><strong>选项 B</strong>：<code>Why teenagers are risk-sensitive.</code></p>\n<p><strong>中文翻译</strong>：为什么青少年对风险敏感。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. How teenagers develop prosociality.",
+          "html": "<p><strong>选项 C</strong>：<code>How teenagers develop prosociality.</code></p>\n<p><strong>中文翻译</strong>：青少年如何培养亲社会性。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. How teenagers become independent.",
+          "html": "<p><strong>选项 D</strong>：<code>How teenagers become independent.</code></p>\n<p><strong>中文翻译</strong>：青少年如何变得独立。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "D"
+          }
+        },
+        {
+          "section": 4,
+          "title": "4.一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>在新题型中，考查的本质是理解文章上下文的逻辑承接能力。我们将本篇真题结构改编为新题型迁移训练，训练对段落主旨与篇章逻辑的提炼概括能力。</p>\n<p><strong>篇章核心逻辑链条</strong>：</p>\n<p>引出核心论题 → 展开多角度实证与事实分析 → 剖析深层体制/社会矛盾 → 提出战略性长效应对策略。</p>",
+          "meta": {
+            "section": 4
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 1",
+          "html": "<p><strong>【考查段落 1】</strong></p>\n<p><code>Teenagers are paradoxical. That’s a mild and detached way of saying something that parents often express with considerab...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 1 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 0
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 2",
+          "html": "<p><strong>【考查段落 2】</strong></p>\n<p><code>A new study published in the journal Child Development, by Eveline Crone of the University of Leiden and colleagues, sug...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 2 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 1
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 3",
+          "html": "<p><strong>【考查段落 3】</strong></p>\n<p><code>The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, ranging from 11 to...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 3 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 2
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 4",
+          "html": "<p><strong>【考查段落 4】</strong></p>\n<p><code>Most significantly, there was a positive correlation between prosociality and rebelliousness. The teenagers who were mor...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 4 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 3
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 5",
+          "html": "<p><strong>【考查段落 5】</strong></p>\n<p><code>Is there some common factor that underlies these apparently contradictory developments?...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 5 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 4
+          }
+        },
+        {
+          "section": 5,
+          "title": "1. 大作文宏观论述与主题词汇积累",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>可积累的主题表达</th><th>中文翻译</th><th>所属类别</th><th>使用层级</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>promoting institutional adaptability</strong></td><td><strong>增强制度适应性与韧性</strong></td><td><strong>社会/经济发展</strong></td><td><strong>宏观论点</strong></td></tr>\n<tr><td>harmonizing commercial viability and public welfare</td><td>协调商业可行性与公众福祉</td><td>综合治理</td><td>论证支撑</td></tr>\n<tr><td>fostering sustainable long-term development</td><td>促进可持续长远发展</td><td>未来展望</td><td>结论升华</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        },
+        {
+          "section": 5,
+          "title": "2. 大作文图表/观点题通用满分句型模板",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>适用题型</th><th>考试时可复用的形式</th><th>中文翻译</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>图表/观点题</strong></td><td><strong>A is doing B in an effort to do C.</strong></td><td><strong>A正在采取行动B，目的是实现目标C。</strong></td></tr>\n<tr><td>原因剖析段</td><td>The underlying reason behind this phenomenon is that...</td><td>该现象背后的深层原因在于……</td></tr>\n<tr><td>建议对策段</td><td>Only through collaborative governance can we ensure enduring progress.</td><td>唯有通过协同治理，方能确保长久的发展与繁荣。</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        }
+      ]
+    }
+  }
+};

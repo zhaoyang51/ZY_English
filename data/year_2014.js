@@ -1,0 +1,6686 @@
+window.KAOYAN_DATA_2014 = {
+  "text1": {
+    "id": 1,
+    "qRange": "21-25",
+    "title": "Text 1",
+    "paragraphs": [
+      "What would you do with $590m? This is now a question for Gloria MacKenzie, an 84-year-old widow who recently emerged from her small, tin-roofed house in Florida to collect the biggest undivided lottery jackpot in history. If she hopes her new-found fortune will yield lasting feelings of fulfilment, she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton.",
+      "These two academics use an array of behavioural research to show that the most rewarding ways to spend money can be counterintuitive. Fantasies of great wealth often involve visions of fancy cars and extravagant homes. Yet satisfaction with these material purchases wears off fairly quickly. What was once exciting and new becomes old-hat; regret creeps in. It is far better to spend money on experiences, say Ms Dunn and Mr Norton, like interesting trips, unique meals or even going to the cinema. These purchases often become more valuable with time—as stories or memories—particularly if they involve feeling more connected to others.",
+      "This slim volume is packed with tips to help wage slaves as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off if they could shorten their commutes to work, spend more time with friends and family and less of it watching television (something the average American spends a whopping two months a year doing, and is hardly jollier for it). Buying gifts or giving to charity is often more pleasurable than purchasing things for oneself, and luxuries are most enjoyable when they are consumed sparingly. This is apparently the reason McDonald’s restricts the availability of its popular McRib—a marketing trick that has turned the pork sandwich into an object of obsession. Readers of Happy Money are clearly a privileged lot, anxious about fulfilment, not hunger. Money may not quite buy happiness, but people in wealthier countries are generally happier than those in poor ones. Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, and scarcity enhances the pleasure of most things for most people. Not everyone will agree with the authors’ policy ideas, which range from mandating more holiday time to reducing tax incentives for American homebuyers. But most people will come away from this book believing it was money well spent."
+    ],
+    "questions": [
+      {
+        "qid": 21,
+        "stem": "According to Dunn and Norton, which of the following is the most rewarding purchase?",
+        "stem_cn": "根据 Dunn 和 Norton 的说法，购买以下哪项最有价值？",
+        "type": "事实细节题",
+        "locate": "Paragraph 1",
+        "options": [
+          {
+            "key": "A",
+            "text": "A big house.",
+            "text_cn": "一个大房子。",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "A special tour.",
+            "text_cn": "一次特别的旅行。",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "C",
+            "text": "A stylish car.",
+            "text_cn": "一辆时尚的汽车。",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "A rich meal.",
+            "text_cn": "丰盛的一餐。",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 22,
+        "stem": "The author’s attitude toward Americans’ watching TV is _______.",
+        "stem_cn": "作者对美国人看电视的态度是_______。",
+        "type": "因果推断题",
+        "locate": "Paragraph 2",
+        "options": [
+          {
+            "key": "A",
+            "text": "critical",
+            "text_cn": "批判的",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "B",
+            "text": "supportive",
+            "text_cn": "支持的",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "sympathetic",
+            "text_cn": "富有同情心的",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "ambiguous",
+            "text_cn": "模糊的",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 23,
+        "stem": "McRib is mentioned in Paragraph 3 to show that _______.",
+        "stem_cn": "第 3 段中提到 McRib 是为了表明_______。",
+        "type": "段落推理题",
+        "locate": "Paragraph 3",
+        "options": [
+          {
+            "key": "A",
+            "text": "consumers are sometimes irrational",
+            "text_cn": "消费者有时是非理性的",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "popularity usually comes after quality",
+            "text_cn": "受欢迎程度通常先于质量",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "marketing tricks are often effective",
+            "text_cn": "营销技巧往往很有效",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "rarity generally increases pleasure",
+            "text_cn": "稀有性通常会增加乐趣",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。"
+          }
+        ]
+      },
+      {
+        "qid": 24,
+        "stem": "According to the last paragraph, Happy Money _______.",
+        "stem_cn": "根据最后一段，快乐钱_______。",
+        "type": "词义/例证题",
+        "locate": "Paragraph 4",
+        "options": [
+          {
+            "key": "A",
+            "text": "has left much room for readers’ criticism",
+            "text_cn": "给读者留下了很多批评的空间",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "may prove to be a worthwhile purchase",
+            "text_cn": "可能会被证明是值得购买的",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "C",
+            "text": "has predicted a wider income gap in the US",
+            "text_cn": "预测美国的收入差距将扩大",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "may give its readers a sense of achievement",
+            "text_cn": "可能会给读者带来成就感",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 25,
+        "stem": "This text mainly discusses how to _______.",
+        "stem_cn": "本文主要讨论如何_______。",
+        "type": "全文主旨题",
+        "locate": "Paragraph 5",
+        "options": [
+          {
+            "key": "A",
+            "text": "balance feeling good and spending money",
+            "text_cn": "平衡感觉良好和花钱",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "spend large sums of money won in lotteries",
+            "text_cn": "花掉大笔买彩票赢得的钱",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "obtain lasting satisfaction from money spent",
+            "text_cn": "从花钱中获得持久的满足感",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "D",
+            "text": "become more reasonable in spending on luxuries",
+            "text_cn": "奢侈品消费变得更加合理",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      }
+    ],
+    "practice": {
+      "steps": [
+        {
+          "section": "阅前须知",
+          "raw": "# 0.阅前须知\n\n阅前声明，本教程对英语一英语二均适用。\n\n本教程主要解决考研英语阅读备考中的三个结构性问题：\n\n1. **考研英语骗局一**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持认识文章中的所有细节，一个不漏，咱们不可能完全认识文章中的每一个单词，带着不认识的地方读文章做题才是真正的学生视角。即使是有部分超纲生词不认识，从段落和文章主旨、作者态度等宏观阅读文章内容本身分析的层面，也是不影响做全对的；\n\n2. **考研英语骗局二**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接边读边信达雅地翻译出文章，读完一遍只能在脑海里留下大致信息，并且很快遗忘。正确的方式是先粗后细，放弃信达雅的机械翻译，粗读先理解文章大致出现了哪些东西，然后细读采用意群法这种手段实现，即可临危不乱；\n\n3. **考研英语骗局三**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接用某种神技确定某个一定正确的答案。二选一选不出来是个非常正常的现象。用某种神技去秒杀一个文科单选问题违背了逻辑学常识，即孤证不立。通过宏观认知与多判据交叉验证的方式解决，是所有文科单选题的通法。",
+          "html": "<h1>0.阅前须知</h1>\n<p>阅前声明，本教程对英语一英语二均适用。</p>\n<p>本教程主要解决考研英语阅读备考中的三个结构性问题：</p>\n<ol>\n<li><p><strong>考研英语骗局一</strong>：拒绝上帝视角生词全懂，带着超纲生词读宏观主旨同样能做全对；</p></li>\n<li><p><strong>考研英语骗局二</strong>：放弃考场即时信达雅机械翻译，采用意群粗读抓取核心信息；</p></li>\n<li><p><strong>考研英语骗局三</strong>：拒绝所谓单一神技秒杀，采用定位比对与写作视角交叉验证。</p></li>\n</ol>\n<p>大家把考研英语阅读当成真阅读，才能发现真正正确的备考方式。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "# 1. 先读题干\n\n首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰咱们粗读对文章的理解。看题干对考查重点有个大致印象，并且因为题文同序的原则，也能帮助我们提前获取部分文章的逻辑脉络。",
+          "html": "<h1>1. 先读题干</h1><p>首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰粗读理解。看题干对考查重点建立大致印象，借助题文同序原则提前获取文章逻辑脉络。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 21题题干\n\n**According to Dunn and Norton, which of the following is the most rewarding purchase?**\n\n> 根据 Dunn 和 Norton 的说法，购买以下哪项最有价值？\n\n题型：**事实细节题**。\n\n定位预判：**Paragraph 1**\n\n---",
+          "html": "<h2>21题题干</h2><p><strong>According to Dunn and Norton, which of the following is the most rewarding purchase?</strong></p><blockquote><p>根据 Dunn 和 Norton 的说法，购买以下哪项最有价值？</p></blockquote><p>题型：<strong>事实细节题</strong>。</p><p>定位预判：<strong>Paragraph 1</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "21"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 22题题干\n\n**The author’s attitude toward Americans’ watching TV is _______.**\n\n> 作者对美国人看电视的态度是_______。\n\n题型：**因果推断题**。\n\n定位预判：**Paragraph 2**\n\n---",
+          "html": "<h2>22题题干</h2><p><strong>The author’s attitude toward Americans’ watching TV is _______.</strong></p><blockquote><p>作者对美国人看电视的态度是_______。</p></blockquote><p>题型：<strong>因果推断题</strong>。</p><p>定位预判：<strong>Paragraph 2</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "22"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 23题题干\n\n**McRib is mentioned in Paragraph 3 to show that _______.**\n\n> 第 3 段中提到 McRib 是为了表明_______。\n\n题型：**段落推理题**。\n\n定位预判：**Paragraph 3**\n\n---",
+          "html": "<h2>23题题干</h2><p><strong>McRib is mentioned in Paragraph 3 to show that _______.</strong></p><blockquote><p>第 3 段中提到 McRib 是为了表明_______。</p></blockquote><p>题型：<strong>段落推理题</strong>。</p><p>定位预判：<strong>Paragraph 3</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "23"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 24题题干\n\n**According to the last paragraph, Happy Money _______.**\n\n> 根据最后一段，快乐钱_______。\n\n题型：**词义/例证题**。\n\n定位预判：**Paragraph 4**\n\n---",
+          "html": "<h2>24题题干</h2><p><strong>According to the last paragraph, Happy Money _______.</strong></p><blockquote><p>根据最后一段，快乐钱_______。</p></blockquote><p>题型：<strong>词义/例证题</strong>。</p><p>定位预判：<strong>Paragraph 4</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "24"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 25题题干\n\n**This text mainly discusses how to _______.**\n\n> 本文主要讨论如何_______。\n\n题型：**全文主旨题**。\n\n定位预判：**Paragraph 5**\n\n---",
+          "html": "<h2>25题题干</h2><p><strong>This text mainly discusses how to _______.</strong></p><blockquote><p>本文主要讨论如何_______。</p></blockquote><p>题型：<strong>全文主旨题</strong>。</p><p>定位预判：<strong>Paragraph 5</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "25"
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "# 2. 读文章过程\n\n看完题干后，第一步要粗读一遍文章。根据自身水平扫一遍文章，开头结尾慢一些，注重首尾句，作者举的例子可以略读。关注逻辑词（however, but）、态度评价词、核心动作词与重复主题词。\n\n| 类型 | 关注原因 | 本文关注重点 |\n| --- | --- | --- |\n| 逻辑词 | 作者观点或行文转向 | however, but, nevertheless, yet, although |\n| 态度词 | 作者情感倾向与立场 | critical, positive, resilient, concern, significant |\n| 核心动作 | 论证中主体行为 | argue, demonstrate, implement, undermine |\n| 重复主题词 | 贯穿全篇的核心讨论对象 | 本文核心讨论对象与同义衍生表达 |",
+          "html": "<h1>2. 读文章过程</h1><p>扫读全文，注重段落首尾句，识别论点与论据。关注核心逻辑转折词与态度评价词。</p>\n<table class=\"table-wrap\"><thead><tr><th>类型</th><th>关注原因</th><th>本文关注重点</th></tr></thead>\n<tbody>\n<tr><td>逻辑词</td><td>作者观点或行文转向</td><td>however, but, nevertheless, yet</td></tr>\n<tr><td>态度词</td><td>作者情感倾向与立场</td><td>critical, positive, concern, significant</td></tr>\n<tr><td>核心动作</td><td>论证中主体行为</td><td>argue, demonstrate, implement, undermine</td></tr>\n<tr><td>重复主题词</td><td>贯穿全篇的核心讨论对象</td><td>本文核心论题与衍生词</td></tr>\n</tbody></table>",
+          "meta": {}
+        },
+        {
+          "section": "读文章",
+          "raw": "What would you do with $590m? This is now a question for Gloria MacKenzie, an 84-year-old widow who recently emerged from her small, tin-roofed house in Florida to collect the biggest [undivided] lottery jackpot in history. If she hopes her new-found fortune will yield lasting feelings of fulfilment, she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>What would you do with $590m? This is now a question for Gloria MacKenzie, an 84-year-old widow who recently emerged from her small, tin-roofed house in Florida to collect the biggest <span class=\"mask\">[undivided]</span> lottery jackpot in history. If she hopes her new-found fortune will yield lasting feelings of fulfilment, she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "What would you do with $590m? This is now a question for Gloria MacKenzie, / an 84-year-old widow / who recently emerged from her small, / tin-roofed house in Florida to collect the biggest [undivided] lottery jackpot in history. / If she hopes her new-found fortune will yield lasting feelings of fulfilment, / she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>What would you do with $590m? This is now a question for Gloria MacKenzie, / an 84-year-old widow / who recently emerged from her small, / tin-roofed house in Florida to collect the biggest <span class=\"mask\">[undivided]</span> lottery jackpot in history. / If she hopes her new-found fortune will yield lasting feelings of fulfilment, / she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第1段意群顺译】您会用 5.9 亿美元做什么？现在，这是一位 84 岁的寡妇格洛丽亚·麦肯齐 (Gloria MacKenzie) 面临的问题。她最近从佛罗里达州的铁皮屋顶小房子里走出来，赢得了历史上最大的不可分割的彩票头奖。如果她希望新发现的财富能够带来持久的满足感，那么她最好读一下伊丽莎白·...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>【第1段意群顺译】您会用 5.9 亿美元做什么？现在，这是一位 84 岁的寡妇格洛丽亚·麦肯齐 (Gloria MacKenzie) 面临的问题。她最近从佛罗里达州的铁皮屋顶小房子里走出来，赢得了历史上最大的不可分割的彩票头奖。如果她希望新发现的财富能够带来持久的满足感，那么她最好读一下伊丽莎白·...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "These two [academics] use an array of behavioural research to show that the most rewarding ways to spend money can be [counterintuitive]. Fantasies of great wealth often involve visions of fancy cars and extravagant homes. Yet [satisfaction] with these material purchases wears off fairly quickly. What was once exciting and new becomes old-hat; regret creeps in. It is far better to spend money on [experiences], say Ms Dunn and Mr Norton, like [interesting] trips, unique meals or even going to the cinema. These purchases often become more valuable with time—as stories or memories—[particularly] if they involve feeling more connected to others.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>These two <span class=\"mask\">[academics]</span> use an array of behavioural research to show that the most rewarding ways to spend money can be <span class=\"mask\">[counterintuitive]</span>. Fantasies of great wealth often involve visions of fancy cars and extravagant homes. Yet <span class=\"mask\">[satisfaction]</span> with these material purchases wears off fairly quickly. What was once exciting and new becomes old-hat; regret creeps in. It is far better to spend money on <span class=\"mask\">[experiences]</span>, say Ms Dunn and Mr Norton, like <span class=\"mask\">[interesting]</span> trips, unique meals or even going to the cinema. These purchases often become more valuable with time—as stories or memories—<span class=\"mask\">[particularly]</span> if they involve feeling more connected to others.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "These two [academics] use an array of behavioural research to show / that the most rewarding ways to spend money can be [counterintuitive]. / Fantasies of great wealth often involve visions of fancy cars and extravagant homes. / Yet [satisfaction] with these material purchases wears off fairly quickly. / What was once exciting and new becomes old-hat; / regret creeps in. / It is far better to spend money on [experiences], / say Ms Dunn and Mr Norton, / like [interesting] trips, / unique meals or even going to the cinema. / These purchases often become more valuable with time—as stories or memories—[particularly] / if they involve feeling more connected to others.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>These two <span class=\"mask\">[academics]</span> use an array of behavioural research to show / that the most rewarding ways to spend money can be <span class=\"mask\">[counterintuitive]</span>. / Fantasies of great wealth often involve visions of fancy cars and extravagant homes. / Yet <span class=\"mask\">[satisfaction]</span> with these material purchases wears off fairly quickly. / What was once exciting and new becomes old-hat; / regret creeps in. / It is far better to spend money on <span class=\"mask\">[experiences]</span>, / say Ms Dunn and Mr Norton, / like <span class=\"mask\">[interesting]</span> trips, / unique meals or even going to the cinema. / These purchases often become more valuable with time—as stories or memories—<span class=\"mask\">[particularly]</span> / if they involve feeling more connected to others.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第2段意群顺译】这两位学者通过一系列行为研究表明，最有价值的花钱方式可能是违反直觉的。对巨额财富的幻想常常涉及豪华轿车和奢华住宅的幻想。然而，对这些物质购买的满意度很快就会消失。曾经令人兴奋的新事物变得过时了；邓恩女士和诺顿先生说，最好把钱花在体验上，比如有趣的旅行、独特的美食，甚至去看电影。随...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第2段意群顺译】这两位学者通过一系列行为研究表明，最有价值的花钱方式可能是违反直觉的。对巨额财富的幻想常常涉及豪华轿车和奢华住宅的幻想。然而，对这些物质购买的满意度很快就会消失。曾经令人兴奋的新事物变得过时了；邓恩女士和诺顿先生说，最好把钱花在体验上，比如有趣的旅行、独特的美食，甚至去看电影。随...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "This slim volume is packed with tips to help wage slaves as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off if they could shorten their commutes to work, spend more time with friends and family and less of it watching television ([something] the average American spends a whopping two months a year doing, and is hardly jollier for it). Buying gifts or giving to charity is often more pleasurable than [purchasing] things for oneself, and luxuries are most enjoyable when they are consumed sparingly. This is apparently the reason McDonald’s [restricts] the [availability] of its popular McRib—a marketing trick that has turned the pork sandwich into an object of obsession. Readers of Happy Money are clearly a privileged lot, anxious about fulfilment, not hunger. Money may not quite buy happiness, but people in wealthier countries are generally happier than those in poor ones. Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, and scarcity enhances the pleasure of most things for most people. Not everyone will agree with the authors’ policy ideas, which range from mandating more holiday time to reducing tax [incentives] for American homebuyers. But most people will come away from this book believing it was money well spent.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>This slim volume is packed with tips to help wage slaves as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off if they could shorten their commutes to work, spend more time with friends and family and less of it watching television (<span class=\"mask\">[something]</span> the average American spends a whopping two months a year doing, and is hardly jollier for it). Buying gifts or giving to charity is often more pleasurable than <span class=\"mask\">[purchasing]</span> things for oneself, and luxuries are most enjoyable when they are consumed sparingly. This is apparently the reason McDonald’s <span class=\"mask\">[restricts]</span> the <span class=\"mask\">[availability]</span> of its popular McRib—a marketing trick that has turned the pork sandwich into an object of obsession. Readers of Happy Money are clearly a privileged lot, anxious about fulfilment, not hunger. Money may not quite buy happiness, but people in wealthier countries are generally happier than those in poor ones. Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, and scarcity enhances the pleasure of most things for most people. Not everyone will agree with the authors’ policy ideas, which range from mandating more holiday time to reducing tax <span class=\"mask\">[incentives]</span> for American homebuyers. But most people will come away from this book believing it was money well spent.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "This slim volume is packed with tips to help wage slaves / as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off / if they could shorten their commutes to work, / spend more time with friends and family and less of it watching television ([something] the average American spends a whopping two months a year doing, / and is hardly jollier for it). / Buying gifts or giving to charity is often more pleasurable than [purchasing] things for oneself, / and luxuries are most enjoyable / when they are consumed sparingly. / This is apparently the reason McDonald’s [restricts] the [availability] of its popular McRib—a marketing trick / that has turned the pork sandwich into an object of obsession. / Readers of Happy Money are clearly a privileged lot, / anxious about fulfilment, / not hunger. / Money may not quite buy happiness, / but people in wealthier countries are generally happier than those in poor ones. / Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, / and scarcity enhances the pleasure of most things for most people. / Not everyone will agree with the authors’ policy ideas, / / which range from mandating more holiday time to reducing tax [incentives] for American homebuyers. / But most people will come away from this book believing it was money well spent.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>This slim volume is packed with tips to help wage slaves / as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off / if they could shorten their commutes to work, / spend more time with friends and family and less of it watching television (<span class=\"mask\">[something]</span> the average American spends a whopping two months a year doing, / and is hardly jollier for it). / Buying gifts or giving to charity is often more pleasurable than <span class=\"mask\">[purchasing]</span> things for oneself, / and luxuries are most enjoyable / when they are consumed sparingly. / This is apparently the reason McDonald’s <span class=\"mask\">[restricts]</span> the <span class=\"mask\">[availability]</span> of its popular McRib—a marketing trick / that has turned the pork sandwich into an object of obsession. / Readers of Happy Money are clearly a privileged lot, / anxious about fulfilment, / not hunger. / Money may not quite buy happiness, / but people in wealthier countries are generally happier than those in poor ones. / Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, / and scarcity enhances the pleasure of most things for most people. / Not everyone will agree with the authors’ policy ideas, / / which range from mandating more holiday time to reducing tax <span class=\"mask\">[incentives]</span> for American homebuyers. / But most people will come away from this book believing it was money well spent.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第3段意群顺译】这本薄薄的书充满了帮助工资奴隶和彩票中奖者获得最大“物有所值的幸福”的技巧。似乎大多数人如果能缩短上班时间、花更多时间与朋友和家人在一起、少看电视（美国人平均每年花两个月的时间做这件事，而且并不因此而快乐），他们的生活似乎会更好。购买礼物或捐赠给慈善机构往往比为自己购买东西更令人...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第3段意群顺译】这本薄薄的书充满了帮助工资奴隶和彩票中奖者获得最大“物有所值的幸福”的技巧。似乎大多数人如果能缩短上班时间、花更多时间与朋友和家人在一起、少看电视（美国人平均每年花两个月的时间做这件事，而且并不因此而快乐），他们的生活似乎会更好。购买礼物或捐赠给慈善机构往往比为自己购买东西更令人...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": "做题过程",
+          "raw": "# 3. 开始做题 (21-25题)\n\n粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。",
+          "html": "<h1>3. 开始做题 (21-25题)</h1><p>粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。</p>",
+          "meta": {}
+        },
+        {
+          "section": "21题",
+          "raw": "## 21题\n\n**According to Dunn and Norton, which of the following is the most rewarding purchase?**\n\n> 根据 Dunn 和 Norton 的说法，购买以下哪项最有价值？\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> What would you do with $590m? This is now a question for Gloria MacKenzie, an 84-year-old widow who recently emerged from her small, tin-roofed house in Florida to collect the biggest [undivided] lottery jackpot in history. If she hopes her new-found fortune will yield lasting feelings of fulfilment, she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton.\n>\n> 开始精读：\n>\n> What would you do with $590m? This is now a question for Gloria MacKenzie, / an 84-year-old widow / who recently emerged from her small, / tin-roofed house in Florida to collect the biggest [undivided] lottery jackpot in history. / If she hopes her new-found fortune will yield lasting feelings of fulfilment, / she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton.\n>\n> 逐意群顺译：\n>\n> 您会用 5.9 亿美元做什么？现在，这是一位 84 岁的寡妇格洛丽亚·麦肯齐 (Gloria MacKenzie) 面临的问题。她最近从佛罗里达州的铁皮屋顶小房子里走出来，赢得了历史上最大的不可分割的彩票头奖。如果她希望新发现的财富能够带来持久的满足感，那么她最好读一下伊丽莎白·邓恩和迈克尔·诺顿的《快乐金钱》。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>21题</h2>\n<p><strong>According to Dunn and Norton, which of the following is the most rewarding purchase?</strong></p>\n<blockquote><p>根据 Dunn 和 Norton 的说法，购买以下哪项最有价值？</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>What would you do with $590m? This is now a question for Gloria MacKenzie, an 84-year-old widow who recently emerged from her small, tin-roofed house in Florida to collect the biggest <span class=\"mask\">[undivided]</span> lottery jackpot in history. If she hopes her new-found fortune will yield lasting feelings of fulfilment, she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton.</p>\n<p><strong>开始精读：</strong></p>\n<p>What would you do with $590m? This is now a question for Gloria MacKenzie, / an 84-year-old widow / who recently emerged from her small, / tin-roofed house in Florida to collect the biggest <span class=\"mask\">[undivided]</span> lottery jackpot in history. / If she hopes her new-found fortune will yield lasting feelings of fulfilment, / she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>您会用 5.9 亿美元做什么？现在，这是一位 84 岁的寡妇格洛丽亚·麦肯齐 (Gloria MacKenzie) 面临的问题。她最近从佛罗里达州的铁皮屋顶小房子里走出来，赢得了历史上最大的不可分割的彩票头奖。如果她希望新发现的财富能够带来持久的满足感，那么她最好读一下伊丽莎白·邓恩和迈克尔·诺顿的《快乐金钱》。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "21"
+          }
+        },
+        {
+          "section": "21题",
+          "raw": "### A. A big house.\n\n> 一个大房子。\n\n我们先看 A 选项：`A big house.`（一个大房子。）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据 Dunn 和 Norton 的说法，购买以下哪项最有价值？ ➔ 选项认为：一个大房子。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“一个大房子。”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. A big house.</h3>\n<blockquote><p>一个大房子。</p></blockquote>\n<p>我们先看 A 选项：<code>A big house.</code>（一个大房子。）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据 Dunn 和 Norton 的说法，购买以下哪项最有价值？ ➔ 选项认为：一个大房子。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“一个大房子。”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "21",
+            "option": "A"
+          }
+        },
+        {
+          "section": "21题",
+          "raw": "### B. A special tour.\n\n> 一次特别的旅行。\n\n我们先看 B 选项：`A special tour.`（一次特别的旅行。）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据 Dunn 和 Norton 的说法，购买以下哪项最有价值？ ➔ 选项认为：一次特别的旅行。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `special`, `tour` 与原文第 1 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：B强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>B. A special tour.</h3>\n<blockquote><p>一次特别的旅行。</p></blockquote>\n<p>我们先看 B 选项：<code>A special tour.</code>（一次特别的旅行。）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据 Dunn 和 Norton 的说法，购买以下哪项最有价值？ ➔ 选项认为：一次特别的旅行。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>special</code>, <code>tour</code> 与原文第 1 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：B强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "21",
+            "option": "B"
+          }
+        },
+        {
+          "section": "21题",
+          "raw": "### C. A stylish car.\n\n> 一辆时尚的汽车。\n\n我们先看 C 选项：`A stylish car.`（一辆时尚的汽车。）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据 Dunn 和 Norton 的说法，购买以下哪项最有价值？ ➔ 选项认为：一辆时尚的汽车。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“一辆时尚的汽车。”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. A stylish car.</h3>\n<blockquote><p>一辆时尚的汽车。</p></blockquote>\n<p>我们先看 C 选项：<code>A stylish car.</code>（一辆时尚的汽车。）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据 Dunn 和 Norton 的说法，购买以下哪项最有价值？ ➔ 选项认为：一辆时尚的汽车。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“一辆时尚的汽车。”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "21",
+            "option": "C"
+          }
+        },
+        {
+          "section": "21题",
+          "raw": "### D. A rich meal.\n\n> 丰盛的一餐。\n\n我们先看 D 选项：`A rich meal.`（丰盛的一餐。）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据 Dunn 和 Norton 的说法，购买以下哪项最有价值？ ➔ 选项认为：丰盛的一餐。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `rich`, `meal` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. A rich meal.</h3>\n<blockquote><p>丰盛的一餐。</p></blockquote>\n<p>我们先看 D 选项：<code>A rich meal.</code>（丰盛的一餐。）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据 Dunn 和 Norton 的说法，购买以下哪项最有价值？ ➔ 选项认为：丰盛的一餐。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>rich</code>, <code>meal</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "21",
+            "option": "D"
+          }
+        },
+        {
+          "section": "21题",
+          "raw": "### 21题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B强保留，与原文定位信息高度吻合；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>21题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B强保留，与原文定位信息高度吻合</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "21"
+          }
+        },
+        {
+          "section": "22题",
+          "raw": "## 22题\n\n**The author’s attitude toward Americans’ watching TV is _______.**\n\n> 作者对美国人看电视的态度是_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> These two [academics] use an array of behavioural research to show that the most rewarding ways to spend money can be [counterintuitive]. Fantasies of great wealth often involve visions of fancy cars and extravagant homes. Yet [satisfaction] with these material purchases wears off fairly quickly. What was once exciting and new becomes old-hat; regret creeps in. It is far better to spend money on [experiences], say Ms Dunn and Mr Norton, like [interesting] trips, unique meals or even going to the cinema. These purchases often become more valuable with time—as stories or memories—[particularly] if they involve feeling more connected to others.\n>\n> 开始精读：\n>\n> These two [academics] use an array of behavioural research to show / that the most rewarding ways to spend money can be [counterintuitive]. / Fantasies of great wealth often involve visions of fancy cars and extravagant homes. / Yet [satisfaction] with these material purchases wears off fairly quickly. / What was once exciting and new becomes old-hat; / regret creeps in. / It is far better to spend money on [experiences], / say Ms Dunn and Mr Norton, / like [interesting] trips, / unique meals or even going to the cinema. / These purchases often become more valuable with time—as stories or memories—[particularly] / if they involve feeling more connected to others.\n>\n> 逐意群顺译：\n>\n> 这两位学者通过一系列行为研究表明，最有价值的花钱方式可能是违反直觉的。对巨额财富的幻想常常涉及豪华轿车和奢华住宅的幻想。然而，对这些物质购买的满意度很快就会消失。曾经令人兴奋的新事物变得过时了；邓恩女士和诺顿先生说，最好把钱花在体验上，比如有趣的旅行、独特的美食，甚至去看电影。随着时间的推移，这些购买通常会变得更有价值——作为故事或记忆——特别是当它们涉及到与他人的联系更加紧密时。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>22题</h2>\n<p><strong>The author’s attitude toward Americans’ watching TV is _______.</strong></p>\n<blockquote><p>作者对美国人看电视的态度是_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>These two <span class=\"mask\">[academics]</span> use an array of behavioural research to show that the most rewarding ways to spend money can be <span class=\"mask\">[counterintuitive]</span>. Fantasies of great wealth often involve visions of fancy cars and extravagant homes. Yet <span class=\"mask\">[satisfaction]</span> with these material purchases wears off fairly quickly. What was once exciting and new becomes old-hat; regret creeps in. It is far better to spend money on <span class=\"mask\">[experiences]</span>, say Ms Dunn and Mr Norton, like <span class=\"mask\">[interesting]</span> trips, unique meals or even going to the cinema. These purchases often become more valuable with time—as stories or memories—<span class=\"mask\">[particularly]</span> if they involve feeling more connected to others.</p>\n<p><strong>开始精读：</strong></p>\n<p>These two <span class=\"mask\">[academics]</span> use an array of behavioural research to show / that the most rewarding ways to spend money can be <span class=\"mask\">[counterintuitive]</span>. / Fantasies of great wealth often involve visions of fancy cars and extravagant homes. / Yet <span class=\"mask\">[satisfaction]</span> with these material purchases wears off fairly quickly. / What was once exciting and new becomes old-hat; / regret creeps in. / It is far better to spend money on <span class=\"mask\">[experiences]</span>, / say Ms Dunn and Mr Norton, / like <span class=\"mask\">[interesting]</span> trips, / unique meals or even going to the cinema. / These purchases often become more valuable with time—as stories or memories—<span class=\"mask\">[particularly]</span> / if they involve feeling more connected to others.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>这两位学者通过一系列行为研究表明，最有价值的花钱方式可能是违反直觉的。对巨额财富的幻想常常涉及豪华轿车和奢华住宅的幻想。然而，对这些物质购买的满意度很快就会消失。曾经令人兴奋的新事物变得过时了；邓恩女士和诺顿先生说，最好把钱花在体验上，比如有趣的旅行、独特的美食，甚至去看电影。随着时间的推移，这些购买通常会变得更有价值——作为故事或记忆——特别是当它们涉及到与他人的联系更加紧密时。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "22"
+          }
+        },
+        {
+          "section": "22题",
+          "raw": "### A. critical\n\n> 批判的\n\n我们先看 A 选项：`critical`（批判的）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者对美国人看电视的态度是“批判的”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `critical` 与原文第 2 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：A强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>A. critical</h3>\n<blockquote><p>批判的</p></blockquote>\n<p>我们先看 A 选项：<code>critical</code>（批判的）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者对美国人看电视的态度是“批判的”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>critical</code> 与原文第 2 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：A强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "22",
+            "option": "A"
+          }
+        },
+        {
+          "section": "22题",
+          "raw": "### B. supportive\n\n> 支持的\n\n我们先看 B 选项：`supportive`（支持的）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者对美国人看电视的态度是“支持的”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“支持的”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. supportive</h3>\n<blockquote><p>支持的</p></blockquote>\n<p>我们先看 B 选项：<code>supportive</code>（支持的）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者对美国人看电视的态度是“支持的”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“支持的”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "22",
+            "option": "B"
+          }
+        },
+        {
+          "section": "22题",
+          "raw": "### C. sympathetic\n\n> 富有同情心的\n\n我们先看 C 选项：`sympathetic`（富有同情心的）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者对美国人看电视的态度是“富有同情心的”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“富有同情心的”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. sympathetic</h3>\n<blockquote><p>富有同情心的</p></blockquote>\n<p>我们先看 C 选项：<code>sympathetic</code>（富有同情心的）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者对美国人看电视的态度是“富有同情心的”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“富有同情心的”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "22",
+            "option": "C"
+          }
+        },
+        {
+          "section": "22题",
+          "raw": "### D. ambiguous\n\n> 模糊的\n\n我们先看 D 选项：`ambiguous`（模糊的）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者对美国人看电视的态度是“模糊的”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“模糊的”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. ambiguous</h3>\n<blockquote><p>模糊的</p></blockquote>\n<p>我们先看 D 选项：<code>ambiguous</code>（模糊的）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者对美国人看电视的态度是“模糊的”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“模糊的”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "22",
+            "option": "D"
+          }
+        },
+        {
+          "section": "22题",
+          "raw": "### 22题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A强保留，与原文定位信息高度吻合；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>22题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A强保留，与原文定位信息高度吻合</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "22"
+          }
+        },
+        {
+          "section": "23题",
+          "raw": "## 23题\n\n**McRib is mentioned in Paragraph 3 to show that _______.**\n\n> 第 3 段中提到 McRib 是为了表明_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> This slim volume is packed with tips to help wage slaves as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off if they could shorten their commutes to work, spend more time with friends and family and less of it watching television ([something] the average American spends a whopping two months a year doing, and is hardly jollier for it). Buying gifts or giving to charity is often more pleasurable than [purchasing] things for oneself, and luxuries are most enjoyable when they are consumed sparingly. This is apparently the reason McDonald’s [restricts] the [availability] of its popular McRib—a marketing trick that has turned the pork sandwich into an object of obsession. Readers of Happy Money are clearly a privileged lot, anxious about fulfilment, not hunger. Money may not quite buy happiness, but people in wealthier countries are generally happier than those in poor ones. Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, and scarcity enhances the pleasure of most things for most people. Not everyone will agree with the authors’ policy ideas, which range from mandating more holiday time to reducing tax [incentives] for American homebuyers. But most people will come away from this book believing it was money well spent.\n>\n> 开始精读：\n>\n> This slim volume is packed with tips to help wage slaves / as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off / if they could shorten their commutes to work, / spend more time with friends and family and less of it watching television ([something] the average American spends a whopping two months a year doing, / and is hardly jollier for it). / Buying gifts or giving to charity is often more pleasurable than [purchasing] things for oneself, / and luxuries are most enjoyable / when they are consumed sparingly. / This is apparently the reason McDonald’s [restricts] the [availability] of its popular McRib—a marketing trick / that has turned the pork sandwich into an object of obsession. / Readers of Happy Money are clearly a privileged lot, / anxious about fulfilment, / not hunger. / Money may not quite buy happiness, / but people in wealthier countries are generally happier than those in poor ones. / Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, / and scarcity enhances the pleasure of most things for most people. / Not everyone will agree with the authors’ policy ideas, / / which range from mandating more holiday time to reducing tax [incentives] for American homebuyers. / But most people will come away from this book believing it was money well spent.\n>\n> 逐意群顺译：\n>\n> 这本薄薄的书充满了帮助工资奴隶和彩票中奖者获得最大“物有所值的幸福”的技巧。似乎大多数人如果能缩短上班时间、花更多时间与朋友和家人在一起、少看电视（美国人平均每年花两个月的时间做这件事，而且并不因此而快乐），他们的生活似乎会更好。购买礼物或捐赠给慈善机构往往比为自己购买东西更令人愉快，而奢侈品只有在少量消费时才是最令人愉快的。这显然就是麦当劳限制其受欢迎的排骨供应的原因——这一营销策略让猪肉三明治成为了人们痴迷的对象。 《快乐金钱》的读者显然是一群享有特权的人，他们关心的是成就感，而不是饥饿。金钱可能并不能完全买到幸福，但富裕国家的人们通常比贫穷国家的人们更幸福。然而，在世界各地的富人和穷人中都可以看到感觉良好和为他人花钱之间的联系，而稀缺性增强了大多数人对大多数事物的乐趣。并非所有人都会同意作者的政策理念，其中包括要求更多的假期时间和减少对美国购房者的税收优惠。但大多数人读完这本书后都会认为这钱花得值。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>23题</h2>\n<p><strong>McRib is mentioned in Paragraph 3 to show that _______.</strong></p>\n<blockquote><p>第 3 段中提到 McRib 是为了表明_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>This slim volume is packed with tips to help wage slaves as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off if they could shorten their commutes to work, spend more time with friends and family and less of it watching television (<span class=\"mask\">[something]</span> the average American spends a whopping two months a year doing, and is hardly jollier for it). Buying gifts or giving to charity is often more pleasurable than <span class=\"mask\">[purchasing]</span> things for oneself, and luxuries are most enjoyable when they are consumed sparingly. This is apparently the reason McDonald’s <span class=\"mask\">[restricts]</span> the <span class=\"mask\">[availability]</span> of its popular McRib—a marketing trick that has turned the pork sandwich into an object of obsession. Readers of Happy Money are clearly a privileged lot, anxious about fulfilment, not hunger. Money may not quite buy happiness, but people in wealthier countries are generally happier than those in poor ones. Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, and scarcity enhances the pleasure of most things for most people. Not everyone will agree with the authors’ policy ideas, which range from mandating more holiday time to reducing tax <span class=\"mask\">[incentives]</span> for American homebuyers. But most people will come away from this book believing it was money well spent.</p>\n<p><strong>开始精读：</strong></p>\n<p>This slim volume is packed with tips to help wage slaves / as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off / if they could shorten their commutes to work, / spend more time with friends and family and less of it watching television (<span class=\"mask\">[something]</span> the average American spends a whopping two months a year doing, / and is hardly jollier for it). / Buying gifts or giving to charity is often more pleasurable than <span class=\"mask\">[purchasing]</span> things for oneself, / and luxuries are most enjoyable / when they are consumed sparingly. / This is apparently the reason McDonald’s <span class=\"mask\">[restricts]</span> the <span class=\"mask\">[availability]</span> of its popular McRib—a marketing trick / that has turned the pork sandwich into an object of obsession. / Readers of Happy Money are clearly a privileged lot, / anxious about fulfilment, / not hunger. / Money may not quite buy happiness, / but people in wealthier countries are generally happier than those in poor ones. / Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, / and scarcity enhances the pleasure of most things for most people. / Not everyone will agree with the authors’ policy ideas, / / which range from mandating more holiday time to reducing tax <span class=\"mask\">[incentives]</span> for American homebuyers. / But most people will come away from this book believing it was money well spent.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>这本薄薄的书充满了帮助工资奴隶和彩票中奖者获得最大“物有所值的幸福”的技巧。似乎大多数人如果能缩短上班时间、花更多时间与朋友和家人在一起、少看电视（美国人平均每年花两个月的时间做这件事，而且并不因此而快乐），他们的生活似乎会更好。购买礼物或捐赠给慈善机构往往比为自己购买东西更令人愉快，而奢侈品只有在少量消费时才是最令人愉快的。这显然就是麦当劳限制其受欢迎的排骨供应的原因——这一营销策略让猪肉三明治成为了人们痴迷的对象。 《快乐金钱》的读者显然是一群享有特权的人，他们关心的是成就感，而不是饥饿。金钱可能并不能完全买到幸福，但富裕国家的人们通常比贫穷国家的人们更幸福。然而，在世界各地的富人和穷人中都可以看到感觉良好和为他人花钱之间的联系，而稀缺性增强了大多数人对大多数事物的乐趣。并非所有人都会同意作者的政策理念，其中包括要求更多的假期时间和减少对美国购房者的税收优惠。但大多数人读完这本书后都会认为这钱花得值。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "23"
+          }
+        },
+        {
+          "section": "23题",
+          "raw": "### A. consumers are sometimes irrational\n\n> 消费者有时是非理性的\n\n我们先看 A 选项：`consumers are sometimes irrational`（消费者有时是非理性的）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：第 3 段中提到 McRib 是为了表明“消费者有时是非理性的”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“消费者有时是非理性的”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. consumers are sometimes irrational</h3>\n<blockquote><p>消费者有时是非理性的</p></blockquote>\n<p>我们先看 A 选项：<code>consumers are sometimes irrational</code>（消费者有时是非理性的）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：第 3 段中提到 McRib 是为了表明“消费者有时是非理性的”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“消费者有时是非理性的”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "23",
+            "option": "A"
+          }
+        },
+        {
+          "section": "23题",
+          "raw": "### B. popularity usually comes after quality\n\n> 受欢迎程度通常先于质量\n\n我们先看 B 选项：`popularity usually comes after quality`（受欢迎程度通常先于质量）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：第 3 段中提到 McRib 是为了表明“受欢迎程度通常先于质量”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“受欢迎程度通常先于质量”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. popularity usually comes after quality</h3>\n<blockquote><p>受欢迎程度通常先于质量</p></blockquote>\n<p>我们先看 B 选项：<code>popularity usually comes after quality</code>（受欢迎程度通常先于质量）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：第 3 段中提到 McRib 是为了表明“受欢迎程度通常先于质量”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“受欢迎程度通常先于质量”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "23",
+            "option": "B"
+          }
+        },
+        {
+          "section": "23题",
+          "raw": "### C. marketing tricks are often effective\n\n> 营销技巧往往很有效\n\n我们先看 C 选项：`marketing tricks are often effective`（营销技巧往往很有效）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：第 3 段中提到 McRib 是为了表明“营销技巧往往很有效”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“营销技巧往往很有效”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. marketing tricks are often effective</h3>\n<blockquote><p>营销技巧往往很有效</p></blockquote>\n<p>我们先看 C 选项：<code>marketing tricks are often effective</code>（营销技巧往往很有效）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：第 3 段中提到 McRib 是为了表明“营销技巧往往很有效”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“营销技巧往往很有效”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "23",
+            "option": "C"
+          }
+        },
+        {
+          "section": "23题",
+          "raw": "### D. rarity generally increases pleasure\n\n> 稀有性通常会增加乐趣\n\n我们先看 D 选项：`rarity generally increases pleasure`（稀有性通常会增加乐趣）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：第 3 段中提到 McRib 是为了表明“稀有性通常会增加乐趣”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `rarity`, `generally`, `increases` 与原文第 3 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：D强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>D. rarity generally increases pleasure</h3>\n<blockquote><p>稀有性通常会增加乐趣</p></blockquote>\n<p>我们先看 D 选项：<code>rarity generally increases pleasure</code>（稀有性通常会增加乐趣）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：第 3 段中提到 McRib 是为了表明“稀有性通常会增加乐趣”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>rarity</code>, <code>generally</code>, <code>increases</code> 与原文第 3 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：D强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "23",
+            "option": "D"
+          }
+        },
+        {
+          "section": "23题",
+          "raw": "### 23题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D强保留，与原文定位信息高度吻合；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>23题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D强保留，与原文定位信息高度吻合</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "23"
+          }
+        },
+        {
+          "section": "24题",
+          "raw": "## 24题\n\n**According to the last paragraph, Happy Money _______.**\n\n> 根据最后一段，快乐钱_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> This slim volume is packed with tips to help wage slaves as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off if they could shorten their commutes to work, spend more time with friends and family and less of it watching television ([something] the average American spends a whopping two months a year doing, and is hardly jollier for it). Buying gifts or giving to charity is often more pleasurable than [purchasing] things for oneself, and luxuries are most enjoyable when they are consumed sparingly. This is apparently the reason McDonald’s [restricts] the [availability] of its popular McRib—a marketing trick that has turned the pork sandwich into an object of obsession. Readers of Happy Money are clearly a privileged lot, anxious about fulfilment, not hunger. Money may not quite buy happiness, but people in wealthier countries are generally happier than those in poor ones. Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, and scarcity enhances the pleasure of most things for most people. Not everyone will agree with the authors’ policy ideas, which range from mandating more holiday time to reducing tax [incentives] for American homebuyers. But most people will come away from this book believing it was money well spent.\n>\n> 开始精读：\n>\n> This slim volume is packed with tips to help wage slaves / as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off / if they could shorten their commutes to work, / spend more time with friends and family and less of it watching television ([something] the average American spends a whopping two months a year doing, / and is hardly jollier for it). / Buying gifts or giving to charity is often more pleasurable than [purchasing] things for oneself, / and luxuries are most enjoyable / when they are consumed sparingly. / This is apparently the reason McDonald’s [restricts] the [availability] of its popular McRib—a marketing trick / that has turned the pork sandwich into an object of obsession. / Readers of Happy Money are clearly a privileged lot, / anxious about fulfilment, / not hunger. / Money may not quite buy happiness, / but people in wealthier countries are generally happier than those in poor ones. / Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, / and scarcity enhances the pleasure of most things for most people. / Not everyone will agree with the authors’ policy ideas, / / which range from mandating more holiday time to reducing tax [incentives] for American homebuyers. / But most people will come away from this book believing it was money well spent.\n>\n> 逐意群顺译：\n>\n> 这本薄薄的书充满了帮助工资奴隶和彩票中奖者获得最大“物有所值的幸福”的技巧。似乎大多数人如果能缩短上班时间、花更多时间与朋友和家人在一起、少看电视（美国人平均每年花两个月的时间做这件事，而且并不因此而快乐），他们的生活似乎会更好。购买礼物或捐赠给慈善机构往往比为自己购买东西更令人愉快，而奢侈品只有在少量消费时才是最令人愉快的。这显然就是麦当劳限制其受欢迎的排骨供应的原因——这一营销策略让猪肉三明治成为了人们痴迷的对象。 《快乐金钱》的读者显然是一群享有特权的人，他们关心的是成就感，而不是饥饿。金钱可能并不能完全买到幸福，但富裕国家的人们通常比贫穷国家的人们更幸福。然而，在世界各地的富人和穷人中都可以看到感觉良好和为他人花钱之间的联系，而稀缺性增强了大多数人对大多数事物的乐趣。并非所有人都会同意作者的政策理念，其中包括要求更多的假期时间和减少对美国购房者的税收优惠。但大多数人读完这本书后都会认为这钱花得值。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>24题</h2>\n<p><strong>According to the last paragraph, Happy Money _______.</strong></p>\n<blockquote><p>根据最后一段，快乐钱_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>This slim volume is packed with tips to help wage slaves as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off if they could shorten their commutes to work, spend more time with friends and family and less of it watching television (<span class=\"mask\">[something]</span> the average American spends a whopping two months a year doing, and is hardly jollier for it). Buying gifts or giving to charity is often more pleasurable than <span class=\"mask\">[purchasing]</span> things for oneself, and luxuries are most enjoyable when they are consumed sparingly. This is apparently the reason McDonald’s <span class=\"mask\">[restricts]</span> the <span class=\"mask\">[availability]</span> of its popular McRib—a marketing trick that has turned the pork sandwich into an object of obsession. Readers of Happy Money are clearly a privileged lot, anxious about fulfilment, not hunger. Money may not quite buy happiness, but people in wealthier countries are generally happier than those in poor ones. Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, and scarcity enhances the pleasure of most things for most people. Not everyone will agree with the authors’ policy ideas, which range from mandating more holiday time to reducing tax <span class=\"mask\">[incentives]</span> for American homebuyers. But most people will come away from this book believing it was money well spent.</p>\n<p><strong>开始精读：</strong></p>\n<p>This slim volume is packed with tips to help wage slaves / as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off / if they could shorten their commutes to work, / spend more time with friends and family and less of it watching television (<span class=\"mask\">[something]</span> the average American spends a whopping two months a year doing, / and is hardly jollier for it). / Buying gifts or giving to charity is often more pleasurable than <span class=\"mask\">[purchasing]</span> things for oneself, / and luxuries are most enjoyable / when they are consumed sparingly. / This is apparently the reason McDonald’s <span class=\"mask\">[restricts]</span> the <span class=\"mask\">[availability]</span> of its popular McRib—a marketing trick / that has turned the pork sandwich into an object of obsession. / Readers of Happy Money are clearly a privileged lot, / anxious about fulfilment, / not hunger. / Money may not quite buy happiness, / but people in wealthier countries are generally happier than those in poor ones. / Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, / and scarcity enhances the pleasure of most things for most people. / Not everyone will agree with the authors’ policy ideas, / / which range from mandating more holiday time to reducing tax <span class=\"mask\">[incentives]</span> for American homebuyers. / But most people will come away from this book believing it was money well spent.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>这本薄薄的书充满了帮助工资奴隶和彩票中奖者获得最大“物有所值的幸福”的技巧。似乎大多数人如果能缩短上班时间、花更多时间与朋友和家人在一起、少看电视（美国人平均每年花两个月的时间做这件事，而且并不因此而快乐），他们的生活似乎会更好。购买礼物或捐赠给慈善机构往往比为自己购买东西更令人愉快，而奢侈品只有在少量消费时才是最令人愉快的。这显然就是麦当劳限制其受欢迎的排骨供应的原因——这一营销策略让猪肉三明治成为了人们痴迷的对象。 《快乐金钱》的读者显然是一群享有特权的人，他们关心的是成就感，而不是饥饿。金钱可能并不能完全买到幸福，但富裕国家的人们通常比贫穷国家的人们更幸福。然而，在世界各地的富人和穷人中都可以看到感觉良好和为他人花钱之间的联系，而稀缺性增强了大多数人对大多数事物的乐趣。并非所有人都会同意作者的政策理念，其中包括要求更多的假期时间和减少对美国购房者的税收优惠。但大多数人读完这本书后都会认为这钱花得值。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "24"
+          }
+        },
+        {
+          "section": "24题",
+          "raw": "### A. has left much room for readers’ criticism\n\n> 给读者留下了很多批评的空间\n\n我们先看 A 选项：`has left much room for readers’ criticism`（给读者留下了很多批评的空间）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据最后一段，快乐钱“给读者留下了很多批评的空间”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `has`, `left`, `much` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. has left much room for readers’ criticism</h3>\n<blockquote><p>给读者留下了很多批评的空间</p></blockquote>\n<p>我们先看 A 选项：<code>has left much room for readers’ criticism</code>（给读者留下了很多批评的空间）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据最后一段，快乐钱“给读者留下了很多批评的空间”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>has</code>, <code>left</code>, <code>much</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "24",
+            "option": "A"
+          }
+        },
+        {
+          "section": "24题",
+          "raw": "### B. may prove to be a worthwhile purchase\n\n> 可能会被证明是值得购买的\n\n我们先看 B 选项：`may prove to be a worthwhile purchase`（可能会被证明是值得购买的）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据最后一段，快乐钱“可能会被证明是值得购买的”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `may`, `prove`, `worthwhile` 与原文第 3 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：B强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>B. may prove to be a worthwhile purchase</h3>\n<blockquote><p>可能会被证明是值得购买的</p></blockquote>\n<p>我们先看 B 选项：<code>may prove to be a worthwhile purchase</code>（可能会被证明是值得购买的）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据最后一段，快乐钱“可能会被证明是值得购买的”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>may</code>, <code>prove</code>, <code>worthwhile</code> 与原文第 3 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：B强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "24",
+            "option": "B"
+          }
+        },
+        {
+          "section": "24题",
+          "raw": "### C. has predicted a wider income gap in the US\n\n> 预测美国的收入差距将扩大\n\n我们先看 C 选项：`has predicted a wider income gap in the US`（预测美国的收入差距将扩大）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据最后一段，快乐钱“预测美国的收入差距将扩大”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“预测美国的收入差距将扩大”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. has predicted a wider income gap in the US</h3>\n<blockquote><p>预测美国的收入差距将扩大</p></blockquote>\n<p>我们先看 C 选项：<code>has predicted a wider income gap in the US</code>（预测美国的收入差距将扩大）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据最后一段，快乐钱“预测美国的收入差距将扩大”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“预测美国的收入差距将扩大”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "24",
+            "option": "C"
+          }
+        },
+        {
+          "section": "24题",
+          "raw": "### D. may give its readers a sense of achievement\n\n> 可能会给读者带来成就感\n\n我们先看 D 选项：`may give its readers a sense of achievement`（可能会给读者带来成就感）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据最后一段，快乐钱“可能会给读者带来成就感”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“可能会给读者带来成就感”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. may give its readers a sense of achievement</h3>\n<blockquote><p>可能会给读者带来成就感</p></blockquote>\n<p>我们先看 D 选项：<code>may give its readers a sense of achievement</code>（可能会给读者带来成就感）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据最后一段，快乐钱“可能会给读者带来成就感”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“可能会给读者带来成就感”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "24",
+            "option": "D"
+          }
+        },
+        {
+          "section": "24题",
+          "raw": "### 24题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B强保留，与原文定位信息高度吻合；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>24题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B强保留，与原文定位信息高度吻合</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "24"
+          }
+        },
+        {
+          "section": "25题",
+          "raw": "## 25题\n\n**This text mainly discusses how to _______.**\n\n> 本文主要讨论如何_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> This slim volume is packed with tips to help wage slaves as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off if they could shorten their commutes to work, spend more time with friends and family and less of it watching television ([something] the average American spends a whopping two months a year doing, and is hardly jollier for it). Buying gifts or giving to charity is often more pleasurable than [purchasing] things for oneself, and luxuries are most enjoyable when they are consumed sparingly. This is apparently the reason McDonald’s [restricts] the [availability] of its popular McRib—a marketing trick that has turned the pork sandwich into an object of obsession. Readers of Happy Money are clearly a privileged lot, anxious about fulfilment, not hunger. Money may not quite buy happiness, but people in wealthier countries are generally happier than those in poor ones. Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, and scarcity enhances the pleasure of most things for most people. Not everyone will agree with the authors’ policy ideas, which range from mandating more holiday time to reducing tax [incentives] for American homebuyers. But most people will come away from this book believing it was money well spent.\n>\n> 开始精读：\n>\n> This slim volume is packed with tips to help wage slaves / as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off / if they could shorten their commutes to work, / spend more time with friends and family and less of it watching television ([something] the average American spends a whopping two months a year doing, / and is hardly jollier for it). / Buying gifts or giving to charity is often more pleasurable than [purchasing] things for oneself, / and luxuries are most enjoyable / when they are consumed sparingly. / This is apparently the reason McDonald’s [restricts] the [availability] of its popular McRib—a marketing trick / that has turned the pork sandwich into an object of obsession. / Readers of Happy Money are clearly a privileged lot, / anxious about fulfilment, / not hunger. / Money may not quite buy happiness, / but people in wealthier countries are generally happier than those in poor ones. / Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, / and scarcity enhances the pleasure of most things for most people. / Not everyone will agree with the authors’ policy ideas, / / which range from mandating more holiday time to reducing tax [incentives] for American homebuyers. / But most people will come away from this book believing it was money well spent.\n>\n> 逐意群顺译：\n>\n> 这本薄薄的书充满了帮助工资奴隶和彩票中奖者获得最大“物有所值的幸福”的技巧。似乎大多数人如果能缩短上班时间、花更多时间与朋友和家人在一起、少看电视（美国人平均每年花两个月的时间做这件事，而且并不因此而快乐），他们的生活似乎会更好。购买礼物或捐赠给慈善机构往往比为自己购买东西更令人愉快，而奢侈品只有在少量消费时才是最令人愉快的。这显然就是麦当劳限制其受欢迎的排骨供应的原因——这一营销策略让猪肉三明治成为了人们痴迷的对象。 《快乐金钱》的读者显然是一群享有特权的人，他们关心的是成就感，而不是饥饿。金钱可能并不能完全买到幸福，但富裕国家的人们通常比贫穷国家的人们更幸福。然而，在世界各地的富人和穷人中都可以看到感觉良好和为他人花钱之间的联系，而稀缺性增强了大多数人对大多数事物的乐趣。并非所有人都会同意作者的政策理念，其中包括要求更多的假期时间和减少对美国购房者的税收优惠。但大多数人读完这本书后都会认为这钱花得值。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>25题</h2>\n<p><strong>This text mainly discusses how to _______.</strong></p>\n<blockquote><p>本文主要讨论如何_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>This slim volume is packed with tips to help wage slaves as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off if they could shorten their commutes to work, spend more time with friends and family and less of it watching television (<span class=\"mask\">[something]</span> the average American spends a whopping two months a year doing, and is hardly jollier for it). Buying gifts or giving to charity is often more pleasurable than <span class=\"mask\">[purchasing]</span> things for oneself, and luxuries are most enjoyable when they are consumed sparingly. This is apparently the reason McDonald’s <span class=\"mask\">[restricts]</span> the <span class=\"mask\">[availability]</span> of its popular McRib—a marketing trick that has turned the pork sandwich into an object of obsession. Readers of Happy Money are clearly a privileged lot, anxious about fulfilment, not hunger. Money may not quite buy happiness, but people in wealthier countries are generally happier than those in poor ones. Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, and scarcity enhances the pleasure of most things for most people. Not everyone will agree with the authors’ policy ideas, which range from mandating more holiday time to reducing tax <span class=\"mask\">[incentives]</span> for American homebuyers. But most people will come away from this book believing it was money well spent.</p>\n<p><strong>开始精读：</strong></p>\n<p>This slim volume is packed with tips to help wage slaves / as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off / if they could shorten their commutes to work, / spend more time with friends and family and less of it watching television (<span class=\"mask\">[something]</span> the average American spends a whopping two months a year doing, / and is hardly jollier for it). / Buying gifts or giving to charity is often more pleasurable than <span class=\"mask\">[purchasing]</span> things for oneself, / and luxuries are most enjoyable / when they are consumed sparingly. / This is apparently the reason McDonald’s <span class=\"mask\">[restricts]</span> the <span class=\"mask\">[availability]</span> of its popular McRib—a marketing trick / that has turned the pork sandwich into an object of obsession. / Readers of Happy Money are clearly a privileged lot, / anxious about fulfilment, / not hunger. / Money may not quite buy happiness, / but people in wealthier countries are generally happier than those in poor ones. / Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, / and scarcity enhances the pleasure of most things for most people. / Not everyone will agree with the authors’ policy ideas, / / which range from mandating more holiday time to reducing tax <span class=\"mask\">[incentives]</span> for American homebuyers. / But most people will come away from this book believing it was money well spent.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>这本薄薄的书充满了帮助工资奴隶和彩票中奖者获得最大“物有所值的幸福”的技巧。似乎大多数人如果能缩短上班时间、花更多时间与朋友和家人在一起、少看电视（美国人平均每年花两个月的时间做这件事，而且并不因此而快乐），他们的生活似乎会更好。购买礼物或捐赠给慈善机构往往比为自己购买东西更令人愉快，而奢侈品只有在少量消费时才是最令人愉快的。这显然就是麦当劳限制其受欢迎的排骨供应的原因——这一营销策略让猪肉三明治成为了人们痴迷的对象。 《快乐金钱》的读者显然是一群享有特权的人，他们关心的是成就感，而不是饥饿。金钱可能并不能完全买到幸福，但富裕国家的人们通常比贫穷国家的人们更幸福。然而，在世界各地的富人和穷人中都可以看到感觉良好和为他人花钱之间的联系，而稀缺性增强了大多数人对大多数事物的乐趣。并非所有人都会同意作者的政策理念，其中包括要求更多的假期时间和减少对美国购房者的税收优惠。但大多数人读完这本书后都会认为这钱花得值。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "25"
+          }
+        },
+        {
+          "section": "25题",
+          "raw": "### A. balance feeling good and spending money\n\n> 平衡感觉良好和花钱\n\n我们先看 A 选项：`balance feeling good and spending money`（平衡感觉良好和花钱）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：本文主要讨论如何“平衡感觉良好和花钱”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“平衡感觉良好和花钱”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. balance feeling good and spending money</h3>\n<blockquote><p>平衡感觉良好和花钱</p></blockquote>\n<p>我们先看 A 选项：<code>balance feeling good and spending money</code>（平衡感觉良好和花钱）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：本文主要讨论如何“平衡感觉良好和花钱”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“平衡感觉良好和花钱”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "25",
+            "option": "A"
+          }
+        },
+        {
+          "section": "25题",
+          "raw": "### B. spend large sums of money won in lotteries\n\n> 花掉大笔买彩票赢得的钱\n\n我们先看 B 选项：`spend large sums of money won in lotteries`（花掉大笔买彩票赢得的钱）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：本文主要讨论如何“花掉大笔买彩票赢得的钱”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“花掉大笔买彩票赢得的钱”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. spend large sums of money won in lotteries</h3>\n<blockquote><p>花掉大笔买彩票赢得的钱</p></blockquote>\n<p>我们先看 B 选项：<code>spend large sums of money won in lotteries</code>（花掉大笔买彩票赢得的钱）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：本文主要讨论如何“花掉大笔买彩票赢得的钱”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“花掉大笔买彩票赢得的钱”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "25",
+            "option": "B"
+          }
+        },
+        {
+          "section": "25题",
+          "raw": "### C. obtain lasting satisfaction from money spent\n\n> 从花钱中获得持久的满足感\n\n我们先看 C 选项：`obtain lasting satisfaction from money spent`（从花钱中获得持久的满足感）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：本文主要讨论如何“从花钱中获得持久的满足感”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `obtain`, `lasting`, `satisfaction` 与原文第 3 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：C强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>C. obtain lasting satisfaction from money spent</h3>\n<blockquote><p>从花钱中获得持久的满足感</p></blockquote>\n<p>我们先看 C 选项：<code>obtain lasting satisfaction from money spent</code>（从花钱中获得持久的满足感）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：本文主要讨论如何“从花钱中获得持久的满足感”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>obtain</code>, <code>lasting</code>, <code>satisfaction</code> 与原文第 3 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：C强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "25",
+            "option": "C"
+          }
+        },
+        {
+          "section": "25题",
+          "raw": "### D. become more reasonable in spending on luxuries\n\n> 奢侈品消费变得更加合理\n\n我们先看 D 选项：`become more reasonable in spending on luxuries`（奢侈品消费变得更加合理）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：本文主要讨论如何“奢侈品消费变得更加合理”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“奢侈品消费变得更加合理”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. become more reasonable in spending on luxuries</h3>\n<blockquote><p>奢侈品消费变得更加合理</p></blockquote>\n<p>我们先看 D 选项：<code>become more reasonable in spending on luxuries</code>（奢侈品消费变得更加合理）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：本文主要讨论如何“奢侈品消费变得更加合理”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“奢侈品消费变得更加合理”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "25",
+            "option": "D"
+          }
+        },
+        {
+          "section": "25题",
+          "raw": "### 25题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C强保留，与原文定位信息高度吻合；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>25题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C强保留，与原文定位信息高度吻合</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "25"
+          }
+        },
+        {
+          "section": "进阶技巧",
+          "raw": "# 4. 进阶技巧：交叉验证冲全对\n\n当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。",
+          "html": "<h1>4. 进阶技巧：交叉验证冲全对</h1><p>当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。</p>",
+          "meta": {}
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查21题交叉验证\n\n**题干**：According to Dunn and Norton, which of the following is the most rewarding purchase?\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **B**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **B**。\n\n**21题选 B。**",
+          "html": "<h2>回查21题交叉验证</h2>\n<p><strong>题干</strong>：According to Dunn and Norton, which of the following is the most rewarding purchase?</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>B</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">B</span></strong>。</p>\n<p><strong>21题选 B。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "21"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查22题交叉验证\n\n**题干**：The author’s attitude toward Americans’ watching TV is _______.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **A**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **A**。\n\n**22题选 A。**",
+          "html": "<h2>回查22题交叉验证</h2>\n<p><strong>题干</strong>：The author’s attitude toward Americans’ watching TV is _______.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>A</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">A</span></strong>。</p>\n<p><strong>22题选 A。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "22"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查23题交叉验证\n\n**题干**：McRib is mentioned in Paragraph 3 to show that _______.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **D**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **D**。\n\n**23题选 D。**",
+          "html": "<h2>回查23题交叉验证</h2>\n<p><strong>题干</strong>：McRib is mentioned in Paragraph 3 to show that _______.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>D</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">D</span></strong>。</p>\n<p><strong>23题选 D。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "23"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查24题交叉验证\n\n**题干**：According to the last paragraph, Happy Money _______.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **B**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **B**。\n\n**24题选 B。**",
+          "html": "<h2>回查24题交叉验证</h2>\n<p><strong>题干</strong>：According to the last paragraph, Happy Money _______.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>B</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">B</span></strong>。</p>\n<p><strong>24题选 B。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "24"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查25题交叉验证\n\n**题干**：This text mainly discusses how to _______.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **C**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **C**。\n\n**25题选 C。**",
+          "html": "<h2>回查25题交叉验证</h2>\n<p><strong>题干</strong>：This text mainly discusses how to _______.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>C</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">C</span></strong>。</p>\n<p><strong>25题选 C。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "25"
+          }
+        },
+        {
+          "section": "最终答案",
+          "raw": "# 5. 最终答案汇总\n\n**21. B**\n\n**22. A**\n\n**23. D**\n\n**24. B**\n\n**25. C**\n\n恭喜完成本篇阅读的做题推演！建议点击顶栏切换至【复盘模式（一石五鸟）】进行全方位深度吸收。",
+          "html": "<h1>5. 最终答案汇总</h1><div style=\"background:#f0fdf4;border:1px solid #bbf7d0;padding:16px;border-radius:8px;font-size:18px;line-height:2;color:#166534\">**21. B**<br><br>**22. A**<br><br>**23. D**<br><br>**24. B**<br><br>**25. C**</div><p style=\"margin-top:16px\">恭喜完成本篇阅读的做题推演！建议点击顶栏切换至<strong>【复盘模式（一石五鸟）】</strong>进行全方位深度吸收。</p>",
+          "meta": {
+            "kind": "final"
+          }
+        }
+      ]
+    },
+    "review": {
+      "steps": [
+        {
+          "section": 0,
+          "title": "省流：一石五鸟法怎么做",
+          "html": "<p>一石五鸟复盘法将一篇阅读真题价值吃干榨净，同时打通词汇、长难句与翻译、阅读解题思维、新题型逻辑、大作文写作五大核心题型，实现高效备考。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第一鸟-积累文中重点单词带来的词汇量提升",
+          "html": "<p>精选真题高频核心词、熟词生义、派生搭配，在语境中彻底掌握考研核心5500词的核心词族。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第二鸟-精读文章与翻译练习带来的翻译能力提升",
+          "html": "<p>逐句精读拆解句法骨架（主干提取、从句修饰剥离），针对典型长难句进行规范中文翻译输出。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>深度剖析命题人设置正确选项的同义替换规律，归纳排查5大高频干扰陷阱（偷换概念/无中生有/反向干扰/过度推断/答非所问）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>梳理全文语篇结构树（起承转合、因果对比、问题解决），迁移训练考研英语二新题型（7选5/小标题/排序）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第五鸟-顺手积累本文的大作文主题词与表达带来的写作能力提升",
+          "html": "<p>提炼本文涉及社会热点、科技经济、生态教育等母题的高分表达、观点金句与论证句型，直接化为写作武器。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "为什么考研英语备考实际只需要两到三个月的有效备考工作量",
+          "html": "<p>通过一石五鸟法，做1篇真题等于练5项能力，无需题海战术，56篇真题足以为考研英语二夯实75+甚至85+的坚实功底。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第1段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>question</strong></td><td>n. 问题，疑问；试题，题目；事情，议题</td><td><strong>widow</strong></td><td>n. 寡妇，遗孀；活寡妇；寡妇鸟</td><td><strong>recently</strong></td><td>adv. 最近，不久前</td></tr><tr><td><strong>emerged</strong></td><td>vt. 出现，浮现；暴露；显现，显露</td><td><strong>small</strong></td><td>adj. 小型的；少的；小规模的</td><td><strong>roofed</strong></td><td>adj. 有屋顶的；v. 给……覆以屋顶</td></tr><tr><td><strong>collect</strong></td><td>v. 聚集，聚积；收集，采集；收藏</td><td><strong>biggest</strong></td><td>adj. 最大的</td><td><strong>undivided</strong></td><td>adj. 专心的；专一的；未分开的</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第2段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>academics</strong></td><td>n. 学者，大学教师，研究人员；学业，学术知识，学术水平</td><td><strong>array</strong></td><td>n. 一系列，大量；数组，阵列；盛装</td><td><strong>behavioural</strong></td><td>adj. 行为的，行为上的，行为研究的</td></tr><tr><td><strong>research</strong></td><td>n. 研究，探讨；研究工作，调查工作；v. 研究，探索</td><td><strong>show</strong></td><td>v. 显示，表明；给……看，出示；演示，教</td><td><strong>rewarding</strong></td><td>adj. 值得的，有意义的；赚钱的，营利的；v. 酬谢，奖赏</td></tr><tr><td><strong>spend</strong></td><td>v. 度过，花；花，花费；消耗，用尽</td><td><strong>counterintuitive</strong></td><td>adj. 违反直觉的，反直觉的</td><td><strong>great</strong></td><td>adj. 伟大的，著名的；大型的，巨大的；极大的，很大的</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 1
+          }
+        },
+        {
+          "section": 1,
+          "title": "第3段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>as well as</strong></td><td>也，还有，以及</td><td><strong>well spent</strong></td><td>花得值得的，有效利用的</td><td><strong>slim</strong></td><td>adj. 苗条的，纤细的；单薄的；狭长的</td></tr><tr><td><strong>volume</strong></td><td>n. 体积，容积；总数，总量；音量，响度</td><td><strong>packed</strong></td><td>adj. 挤满人的，非常拥挤的；充满的，装满的；收拾妥当的，收拾好了的</td><td><strong>tips</strong></td><td>n. 技巧，小贴士，小窍门；小费；尖端，末端</td></tr><tr><td><strong>help</strong></td><td>v. 帮助，援助；改善状况，对……有益；给食物或饮料</td><td><strong>wage</strong></td><td>n. 工资，报酬；工资总额；报应</td><td><strong>slaves</strong></td><td>n. 奴隶，服伺的人；侍女；上瘾</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>What would you do with $590m? This is now a question for Gloria MacKenzie, an 84-year-old widow who recently emerged from her small, tin-roofed house in Florida to collect the biggest undivided lottery jackpot in history. If she hopes her new-found fortune will yield lasting feelings of fulfilment, she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>What would you do with $590m? This is now a question for Gloria MacKenzie, an 84-year-old widow who recently emerged from her small, tin-roofed house in Florida to collect the biggest undivided lottery jackpot in history. If she hopes her new-found fortune will yield lasting feelings of fulfilment, she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>What would you do with $590m? This is now a question for Gloria MacKenzie, / an 84-year-old widow / who recently emerged from her small, / tin-roofed house in Florida to collect the biggest undivided lottery jackpot in history. / If she hopes her new-found fortune will yield lasting feelings of fulfilment, / she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>What would you do with $590m? This is now a question for Gloria MacKenzie, an 84-year-old widow who recently emerged from her small, tin-roofed house in Florida to collect the biggest undivided lottery jackpot in history. If she hopes her new-found fortune will yield lasting feelings of fulfilment, she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>What would you do with $590m? This is now a question for Gloria MacKenzie, / an 84-year-old widow / who recently emerged from her small, / tin-roofed house in Florida to collect the biggest undivided lottery jackpot in history. / If she hopes her new-found fortune will yield lasting feelings of fulfilment, / she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">您会用 5.9 亿美元做什么？<br>这是格洛丽亚·麦肯齐 (Gloria MacKenzie) 的问题 / 一位84岁的寡妇 / 最近从她的小 / 佛罗里达州的铁皮屋顶房子将收集历史上最大的不可分割的彩票大奖<br>如果她希望新发现的财富能够带来持久的满足感 / 她可以比读伊丽莎白·邓恩和迈克尔·诺顿的《快乐金钱》更糟糕</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>What would you do with $590m? This is now a question for Gloria MacKenzie, an 84-year-old widow who recently emerged from her small, tin-roofed house in Florida to collect the biggest undivided lottery jackpot in history. If she hopes her new-found fortune will yield lasting feelings of fulfilment, she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>What would you do with $590m? This is now a question for Gloria MacKenzie, / an 84-year-old widow / who recently emerged from her small, / tin-roofed house in Florida to collect the biggest undivided lottery jackpot in history. / If she hopes her new-found fortune will yield lasting feelings of fulfilment, / she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">您会用 5.9 亿美元做什么？<br>这是格洛丽亚·麦肯齐 (Gloria MacKenzie) 的问题 / 一位84岁的寡妇 / 最近从她的小 / 佛罗里达州的铁皮屋顶房子将收集历史上最大的不可分割的彩票大奖<br>如果她希望新发现的财富能够带来持久的满足感 / 她可以比读伊丽莎白·邓恩和迈克尔·诺顿的《快乐金钱》更糟糕</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-3\">\n<h3>标准译文 · 第1段</h3>\n<p>您会用 5.9 亿美元做什么？现在，这是一位 84 岁的寡妇格洛丽亚·麦肯齐 (Gloria MacKenzie) 面临的问题。她最近从佛罗里达州的铁皮屋顶小房子里走出来，赢得了历史上最大的不可分割的彩票头奖。如果她希望新发现的财富能够带来持久的满足感，那么她最好读一下伊丽莎白·邓恩和迈克尔·诺顿的《快乐金钱》。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>What would you do with $590m?</p>\n<p><strong>意群断句：</strong><code>What would you do with $590m?</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">您会用 5.9 亿美元做什么？</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with $590m?...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">您会用 5.9 亿美元做什么？</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>This is now a question for Gloria MacKenzie, an 84-year-old widow who recently emerged from her small, tin-roofed house in Florida to collect the biggest undivided lottery jackpot in history.</p>\n<p><strong>意群断句：</strong><code>This is now a question for Gloria MacKenzie, / an 84-year-old widow / who recently emerged from her small, / tin-roofed house in Florida to collect the biggest undivided lottery jackpot in history.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">这是格洛丽亚·麦肯齐 (Gloria MacKenzie) 的问题 / 一位84岁的寡妇 / 最近从她的小 / 佛罗里达州的铁皮屋顶房子将收集历史上最大的不可分割的彩票大奖</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>who</code> 引导定语从句修饰先行词 <code>widow</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">现在，这是一位 84 岁的寡妇格洛丽亚·麦肯齐 (Gloria MacKenzie) 面临的问题。她最近从佛罗里达州的铁皮屋顶小房子里走出来，赢得了历史上最大的不可分割的彩票头奖。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>If she hopes her new-found fortune will yield lasting feelings of fulfilment, she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton.</p>\n<p><strong>意群断句：</strong><code>If she hopes her new-found fortune will yield lasting feelings of fulfilment, / she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">如果她希望新发现的财富能够带来持久的满足感 / 她可以比读伊丽莎白·邓恩和迈克尔·诺顿的《快乐金钱》更糟糕</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>条件状语从句</b>：由连词 <code>If</code> 引导从句 <code>If she hopes her new-found fortune will yield lasting feelings of fulfilment</code>，限定主句论述的时空背景或逻辑前提。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">如果她希望新发现的财富能够带来持久的满足感，那么她最好读一下伊丽莎白·邓恩和迈克尔·诺顿的《快乐金钱》。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>These two academics use an array of behavioural research to show that the most rewarding ways to spend money can be counterintuitive. Fantasies of great wealth often involve visions of fancy cars and extravagant homes. Yet satisfaction with these material purchases wears off fairly quickly. What was once exciting and new becomes old-hat; regret creeps in. It is far better to spend money on experiences, say Ms Dunn and Mr Norton, like interesting trips, unique meals or even going to the cinema. These purchases often become more valuable with time—as stories or memories—particularly if they involve feeling more connected to others.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>These two academics use an array of behavioural research to show that the most rewarding ways to spend money can be counterintuitive. Fantasies of great wealth often involve visions of fancy cars and extravagant homes. Yet satisfaction with these material purchases wears off fairly quickly. What was once exciting and new becomes old-hat; regret creeps in. It is far better to spend money on experiences, say Ms Dunn and Mr Norton, like interesting trips, unique meals or even going to the cinema. These purchases often become more valuable with time—as stories or memories—particularly if they involve feeling more connected to others.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>These two academics use an array of behavioural research to show / that the most rewarding ways to spend money can be counterintuitive. / Fantasies of great wealth often involve visions of fancy cars and extravagant homes. / Yet satisfaction with these material purchases wears off fairly quickly. / What was once exciting and new becomes old-hat; / regret creeps in. / It is far better to spend money on experiences, / say Ms Dunn and Mr Norton, / like interesting trips, / unique meals or even going to the cinema. / These purchases often become more valuable with time—as stories or memories—particularly / if they involve feeling more connected to others.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>These two academics use an array of behavioural research to show that the most rewarding ways to spend money can be counterintuitive. Fantasies of great wealth often involve visions of fancy cars and extravagant homes. Yet satisfaction with these material purchases wears off fairly quickly. What was once exciting and new becomes old-hat; regret creeps in. It is far better to spend money on experiences, say Ms Dunn and Mr Norton, like interesting trips, unique meals or even going to the cinema. These purchases often become more valuable with time—as stories or memories—particularly if they involve feeling more connected to others.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>These two academics use an array of behavioural research to show / that the most rewarding ways to spend money can be counterintuitive. / Fantasies of great wealth often involve visions of fancy cars and extravagant homes. / Yet satisfaction with these material purchases wears off fairly quickly. / What was once exciting and new becomes old-hat; / regret creeps in. / It is far better to spend money on experiences, / say Ms Dunn and Mr Norton, / like interesting trips, / unique meals or even going to the cinema. / These purchases often become more valuable with time—as stories or memories—particularly / if they involve feeling more connected to others.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">这两位学者利用一系列行为研究来证明 / 最有价值的花钱方式可能是违反直觉的<br>对巨额财富的幻想往往涉及豪车和奢华住宅的幻想<br>然而，对这些物质购买的满意度很快就会消失<br>曾经令人兴奋的新事物变得过时了 / 后悔悄然而至<br>花钱买体验要好得多 / 邓恩女士和诺顿先生说 / 喜欢有趣的旅行 / 独特的美食甚至去电影院<br>随着时间的推移，这些购买的东西通常会变得更有价值——作为故事或记忆——尤其是 / 如果它们涉及感觉与他人有更紧密的联系</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>These two academics use an array of behavioural research to show that the most rewarding ways to spend money can be counterintuitive. Fantasies of great wealth often involve visions of fancy cars and extravagant homes. Yet satisfaction with these material purchases wears off fairly quickly. What was once exciting and new becomes old-hat; regret creeps in. It is far better to spend money on experiences, say Ms Dunn and Mr Norton, like interesting trips, unique meals or even going to the cinema. These purchases often become more valuable with time—as stories or memories—particularly if they involve feeling more connected to others.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>These two academics use an array of behavioural research to show / that the most rewarding ways to spend money can be counterintuitive. / Fantasies of great wealth often involve visions of fancy cars and extravagant homes. / Yet satisfaction with these material purchases wears off fairly quickly. / What was once exciting and new becomes old-hat; / regret creeps in. / It is far better to spend money on experiences, / say Ms Dunn and Mr Norton, / like interesting trips, / unique meals or even going to the cinema. / These purchases often become more valuable with time—as stories or memories—particularly / if they involve feeling more connected to others.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">这两位学者利用一系列行为研究来证明 / 最有价值的花钱方式可能是违反直觉的<br>对巨额财富的幻想往往涉及豪车和奢华住宅的幻想<br>然而，对这些物质购买的满意度很快就会消失<br>曾经令人兴奋的新事物变得过时了 / 后悔悄然而至<br>花钱买体验要好得多 / 邓恩女士和诺顿先生说 / 喜欢有趣的旅行 / 独特的美食甚至去电影院<br>随着时间的推移，这些购买的东西通常会变得更有价值——作为故事或记忆——尤其是 / 如果它们涉及感觉与他人有更紧密的联系</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-3\">\n<h3>标准译文 · 第2段</h3>\n<p>这两位学者通过一系列行为研究表明，最有价值的花钱方式可能是违反直觉的。对巨额财富的幻想常常涉及豪华轿车和奢华住宅的幻想。然而，对这些物质购买的满意度很快就会消失。曾经令人兴奋的新事物变得过时了；邓恩女士和诺顿先生说，最好把钱花在体验上，比如有趣的旅行、独特的美食，甚至去看电影。随着时间的推移，这些购买通常会变得更有价值——作为故事或记忆——特别是当它们涉及到与他人的联系更加紧密时。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>These two academics use an array of behavioural research to show that the most rewarding ways to spend money can be counterintuitive.</p>\n<p><strong>意群断句：</strong><code>These two academics use an array of behavioural research to show / that the most rewarding ways to spend money can be counterintuitive.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">这两位学者利用一系列行为研究来证明 / 最有价值的花钱方式可能是违反直觉的</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>show</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">这两位学者通过一系列行为研究表明，最有价值的花钱方式可能是违反直觉的。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Fantasies of great wealth often involve visions of fancy cars and extravagant homes.</p>\n<p><strong>意群断句：</strong><code>Fantasies of great wealth often involve visions of fancy cars and extravagant homes.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">对巨额财富的幻想往往涉及豪车和奢华住宅的幻想</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">对巨额财富的幻想常常涉及豪华轿车和奢华住宅的幻想。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Yet satisfaction with these material purchases wears off fairly quickly.</p>\n<p><strong>意群断句：</strong><code>Yet satisfaction with these material purchases wears off fairly quickly.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">然而，对这些物质购买的满意度很快就会消失</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with these material purchases wears off ...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">然而，对这些物质购买的满意度很快就会消失。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>What was once exciting and new becomes old-hat; regret creeps in.</p>\n<p><strong>意群断句：</strong><code>What was once exciting and new becomes old-hat; / regret creeps in.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">曾经令人兴奋的新事物变得过时了 / 后悔悄然而至</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间状语从句</b>：由连词 <code>Once</code> 引导从句 <code>Once exciting and new becomes old-hat</code>，限定主句论述的时空背景或逻辑前提。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">曾经令人兴奋的新事物变得过时了；后悔悄然而至。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句5",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (5/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>It is far better to spend money on experiences, say Ms Dunn and Mr Norton, like interesting trips, unique meals or even going to the cinema.</p>\n<p><strong>意群断句：</strong><code>It is far better to spend money on experiences, / say Ms Dunn and Mr Norton, / like interesting trips, / unique meals or even going to the cinema.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">花钱买体验要好得多 / 邓恩女士和诺顿先生说 / 喜欢有趣的旅行 / 独特的美食甚至去电影院</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">邓恩女士和诺顿先生说，最好把钱花在体验上，比如有趣的旅行、独特的美食，甚至去看电影。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 4
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句6",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (6/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>These purchases often become more valuable with time—as stories or memories—particularly if they involve feeling more connected to others.</p>\n<p><strong>意群断句：</strong><code>These purchases often become more valuable with time—as stories or memories—particularly / if they involve feeling more connected to others.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">随着时间的推移，这些购买的东西通常会变得更有价值——作为故事或记忆——尤其是 / 如果它们涉及感觉与他人有更紧密的联系</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with time—as stories or memories—particu...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">随着时间的推移，这些购买通常会变得更有价值——作为故事或记忆——特别是当它们涉及到与他人的联系更加紧密时。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 5
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>This slim volume is packed with tips to help wage slaves as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off if they could shorten their commutes to work, spend more time with friends and family and less of it watching television (something the average American spends a whopping two months a year doing, and is hardly jollier for it). Buying gifts or giving to charity is often more pleasurable than purchasing things for oneself, and luxuries are most enjoyable when they are consumed sparingly. This is apparently the reason McDonald’s restricts the availability of its popular McRib—a marketing trick that has turned the pork sandwich into an object of obsession. Readers of Happy Money are clearly a privileged lot, anxious about fulfilment, not hunger. Money may not quite buy happiness, but people in wealthier countries are generally happier than those in poor ones. Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, and scarcity enhances the pleasure of most things for most people. Not everyone will agree with the authors’ policy ideas, which range from mandating more holiday time to reducing tax incentives for American homebuyers. But most people will come away from this book believing it was money well spent.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>This slim volume is packed with tips to help wage slaves as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off if they could shorten their commutes to work, spend more time with friends and family and less of it watching television (something the average American spends a whopping two months a year doing, and is hardly jollier for it). Buying gifts or giving to charity is often more pleasurable than purchasing things for oneself, and luxuries are most enjoyable when they are consumed sparingly. This is apparently the reason McDonald’s restricts the availability of its popular McRib—a marketing trick that has turned the pork sandwich into an object of obsession. Readers of Happy Money are clearly a privileged lot, anxious about fulfilment, not hunger. Money may not quite buy happiness, but people in wealthier countries are generally happier than those in poor ones. Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, and scarcity enhances the pleasure of most things for most people. Not everyone will agree with the authors’ policy ideas, which range from mandating more holiday time to reducing tax incentives for American homebuyers. But most people will come away from this book believing it was money well spent.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>This slim volume is packed with tips to help wage slaves / as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off / if they could shorten their commutes to work, / spend more time with friends and family and less of it watching television (something the average American spends a whopping two months a year doing, / and is hardly jollier for it). / Buying gifts or giving to charity is often more pleasurable than purchasing things for oneself, / and luxuries are most enjoyable / when they are consumed sparingly. / This is apparently the reason McDonald’s restricts the availability of its popular McRib—a marketing trick / that has turned the pork sandwich into an object of obsession. / Readers of Happy Money are clearly a privileged lot, / anxious about fulfilment, / not hunger. / Money may not quite buy happiness, / but people in wealthier countries are generally happier than those in poor ones. / Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, / and scarcity enhances the pleasure of most things for most people. / Not everyone will agree with the authors’ policy ideas, / / which range from mandating more holiday time to reducing tax incentives for American homebuyers. / But most people will come away from this book believing it was money well spent.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>This slim volume is packed with tips to help wage slaves as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off if they could shorten their commutes to work, spend more time with friends and family and less of it watching television (something the average American spends a whopping two months a year doing, and is hardly jollier for it). Buying gifts or giving to charity is often more pleasurable than purchasing things for oneself, and luxuries are most enjoyable when they are consumed sparingly. This is apparently the reason McDonald’s restricts the availability of its popular McRib—a marketing trick that has turned the pork sandwich into an object of obsession. Readers of Happy Money are clearly a privileged lot, anxious about fulfilment, not hunger. Money may not quite buy happiness, but people in wealthier countries are generally happier than those in poor ones. Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, and scarcity enhances the pleasure of most things for most people. Not everyone will agree with the authors’ policy ideas, which range from mandating more holiday time to reducing tax incentives for American homebuyers. But most people will come away from this book believing it was money well spent.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>This slim volume is packed with tips to help wage slaves / as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off / if they could shorten their commutes to work, / spend more time with friends and family and less of it watching television (something the average American spends a whopping two months a year doing, / and is hardly jollier for it). / Buying gifts or giving to charity is often more pleasurable than purchasing things for oneself, / and luxuries are most enjoyable / when they are consumed sparingly. / This is apparently the reason McDonald’s restricts the availability of its popular McRib—a marketing trick / that has turned the pork sandwich into an object of obsession. / Readers of Happy Money are clearly a privileged lot, / anxious about fulfilment, / not hunger. / Money may not quite buy happiness, / but people in wealthier countries are generally happier than those in poor ones. / Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, / and scarcity enhances the pleasure of most things for most people. / Not everyone will agree with the authors’ policy ideas, / / which range from mandating more holiday time to reducing tax incentives for American homebuyers. / But most people will come away from this book believing it was money well spent.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">这本薄薄的书充满了帮助奴隶挣钱的技巧 / 以及彩票中奖者获得最多的“物超所值的幸福”。看来大多数人会过得更好 / 如果他们可以缩短上班通勤时间 / 花更多的时间与朋友和家人在一起，减少看电视的时间（美国人平均每年花两个月的时间看电视） / 并且几乎没有因此而快乐）<br>购买礼物或捐赠给慈善机构通常比为自己购买东西更令人愉快 / 和奢侈品是最令人享受的 / 当它们被少量消耗时<br>这显然是麦当劳限制其受欢迎的排骨供应的原因——一种营销伎俩 / 这让猪肉三明治成为了人们痴迷的对象<br>《快乐金钱》的读者显然是一群享有特权的人 / 为实现而焦虑 / 不饥饿<br>金钱不一定能买到幸福 / 但富裕国家的人们普遍比贫穷国家的人们更幸福<br>然而，在世界各地的富人和穷人中都可以看到感觉良好和为他人花钱之间的联系 / 对于大多数人来说，稀缺性增强了大多数事物的乐趣<br>并非所有人都会同意作者的政策理念 / 其范围从规定更多的假期时间到减少对美国购房者的税收优惠<br>但大多数人读完这本书后都会相信这本书花得值</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>This slim volume is packed with tips to help wage slaves as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off if they could shorten their commutes to work, spend more time with friends and family and less of it watching television (something the average American spends a whopping two months a year doing, and is hardly jollier for it). Buying gifts or giving to charity is often more pleasurable than purchasing things for oneself, and luxuries are most enjoyable when they are consumed sparingly. This is apparently the reason McDonald’s restricts the availability of its popular McRib—a marketing trick that has turned the pork sandwich into an object of obsession. Readers of Happy Money are clearly a privileged lot, anxious about fulfilment, not hunger. Money may not quite buy happiness, but people in wealthier countries are generally happier than those in poor ones. Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, and scarcity enhances the pleasure of most things for most people. Not everyone will agree with the authors’ policy ideas, which range from mandating more holiday time to reducing tax incentives for American homebuyers. But most people will come away from this book believing it was money well spent.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>This slim volume is packed with tips to help wage slaves / as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off / if they could shorten their commutes to work, / spend more time with friends and family and less of it watching television (something the average American spends a whopping two months a year doing, / and is hardly jollier for it). / Buying gifts or giving to charity is often more pleasurable than purchasing things for oneself, / and luxuries are most enjoyable / when they are consumed sparingly. / This is apparently the reason McDonald’s restricts the availability of its popular McRib—a marketing trick / that has turned the pork sandwich into an object of obsession. / Readers of Happy Money are clearly a privileged lot, / anxious about fulfilment, / not hunger. / Money may not quite buy happiness, / but people in wealthier countries are generally happier than those in poor ones. / Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, / and scarcity enhances the pleasure of most things for most people. / Not everyone will agree with the authors’ policy ideas, / / which range from mandating more holiday time to reducing tax incentives for American homebuyers. / But most people will come away from this book believing it was money well spent.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">这本薄薄的书充满了帮助奴隶挣钱的技巧 / 以及彩票中奖者获得最多的“物超所值的幸福”。看来大多数人会过得更好 / 如果他们可以缩短上班通勤时间 / 花更多的时间与朋友和家人在一起，减少看电视的时间（美国人平均每年花两个月的时间看电视） / 并且几乎没有因此而快乐）<br>购买礼物或捐赠给慈善机构通常比为自己购买东西更令人愉快 / 和奢侈品是最令人享受的 / 当它们被少量消耗时<br>这显然是麦当劳限制其受欢迎的排骨供应的原因——一种营销伎俩 / 这让猪肉三明治成为了人们痴迷的对象<br>《快乐金钱》的读者显然是一群享有特权的人 / 为实现而焦虑 / 不饥饿<br>金钱不一定能买到幸福 / 但富裕国家的人们普遍比贫穷国家的人们更幸福<br>然而，在世界各地的富人和穷人中都可以看到感觉良好和为他人花钱之间的联系 / 对于大多数人来说，稀缺性增强了大多数事物的乐趣<br>并非所有人都会同意作者的政策理念 / 其范围从规定更多的假期时间到减少对美国购房者的税收优惠<br>但大多数人读完这本书后都会相信这本书花得值</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-3\">\n<h3>标准译文 · 第3段</h3>\n<p>这本薄薄的书充满了帮助工资奴隶和彩票中奖者获得最大“物有所值的幸福”的技巧。似乎大多数人如果能缩短上班时间、花更多时间与朋友和家人在一起、少看电视（美国人平均每年花两个月的时间做这件事，而且并不因此而快乐），他们的生活似乎会更好。购买礼物或捐赠给慈善机构往往比为自己购买东西更令人愉快，而奢侈品只有在少量消费时才是最令人愉快的。这显然就是麦当劳限制其受欢迎的排骨供应的原因——这一营销策略让猪肉三明治成为了人们痴迷的对象。 《快乐金钱》的读者显然是一群享有特权的人，他们关心的是成就感，而不是饥饿。金钱可能并不能完全买到幸福，但富裕国家的人们通常比贫穷国家的人们更幸福。然而，在世界各地的富人和穷人中都可以看到感觉良好和为他人花钱之间的联系，而稀缺性增强了大多数人对大多数事物的乐趣。并非所有人都会同意作者的政策理念，其中包括要求更多的假期时间和减少对美国购房者的税收优惠。但大多数人读完这本书后都会认为这钱花得值。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>This slim volume is packed with tips to help wage slaves as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off if they could shorten their commutes to work, spend more time with friends and family and less of it watching television (something the average American spends a whopping two months a year doing, and is hardly jollier for it).</p>\n<p><strong>意群断句：</strong><code>This slim volume is packed with tips to help wage slaves / as well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off / if they could shorten their commutes to work, / spend more time with friends and family and less of it watching television (something the average American spends a whopping two months a year doing, / and is hardly jollier for it).</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">这本薄薄的书充满了帮助奴隶挣钱的技巧 / 以及彩票中奖者获得最多的“物超所值的幸福”。看来大多数人会过得更好 / 如果他们可以缩短上班通勤时间 / 花更多的时间与朋友和家人在一起，减少看电视的时间（美国人平均每年花两个月的时间看电视） / 并且几乎没有因此而快乐）</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间/伴随状语从句</b>：句首 <code>As well as lottery winners get the most “happiness bang for your buck.” It seems most people would be better off if they could shorten their commutes to work</code> 引导时间/伴随状语从句（“正当……之时 / 随着……”），交代主句动作发生的背景与伴随情境。</li><li style=\"margin-bottom:5px\"><b>条件状语从句</b>：由连词 <code>If</code> 引导从句 <code>If they could shorten their commutes to work</code>，限定主句论述的时空背景或逻辑前提。</li><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with tips to help wage slaves as well as...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">这本薄薄的书充满了帮助工资奴隶和彩票中奖者获得最大“物有所值的幸福”的技巧。似乎大多数人如果能缩短上班时间、花更多时间与朋友和家人在一起、少看电视（美国人平均每年花两个月的时间做这件事，而且并不因此而快乐），他们的生活似乎会更好。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Buying gifts or giving to charity is often more pleasurable than purchasing things for oneself, and luxuries are most enjoyable when they are consumed sparingly.</p>\n<p><strong>意群断句：</strong><code>Buying gifts or giving to charity is often more pleasurable than purchasing things for oneself, / and luxuries are most enjoyable / when they are consumed sparingly.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">购买礼物或捐赠给慈善机构通常比为自己购买东西更令人愉快 / 和奢侈品是最令人享受的 / 当它们被少量消耗时</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">购买礼物或捐赠给慈善机构往往比为自己购买东西更令人愉快，而奢侈品在适度消费时才是最令人愉快的。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>This is apparently the reason McDonald’s restricts the availability of its popular McRib—a marketing trick that has turned the pork sandwich into an object of obsession.</p>\n<p><strong>意群断句：</strong><code>This is apparently the reason McDonald’s restricts the availability of its popular McRib—a marketing trick / that has turned the pork sandwich into an object of obsession.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">这显然是麦当劳限制其受欢迎的排骨供应的原因——一种营销伎俩 / 这让猪肉三明治成为了人们痴迷的对象</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>trick</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">这显然就是麦当劳限制其受欢迎的排骨供应的原因——这一营销策略让猪肉三明治成为了人们痴迷的对象。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Readers of Happy Money are clearly a privileged lot, anxious about fulfilment, not hunger.</p>\n<p><strong>意群断句：</strong><code>Readers of Happy Money are clearly a privileged lot, / anxious about fulfilment, / not hunger.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">《快乐金钱》的读者显然是一群享有特权的人 / 为实现而焦虑 / 不饥饿</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">《快乐金钱》的读者显然是一群享有特权的人，他们关心的是成就感，而不是饥饿。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句5",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (5/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Money may not quite buy happiness, but people in wealthier countries are generally happier than those in poor ones.</p>\n<p><strong>意群断句：</strong><code>Money may not quite buy happiness, / but people in wealthier countries are generally happier than those in poor ones.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">金钱不一定能买到幸福 / 但富裕国家的人们普遍比贫穷国家的人们更幸福</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">金钱不一定能买到幸福，但富裕国家的人们通常比贫穷国家的人们更幸福。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 4
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句6",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (6/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, and scarcity enhances the pleasure of most things for most people.</p>\n<p><strong>意群断句：</strong><code>Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, / and scarcity enhances the pleasure of most things for most people.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">然而，在世界各地的富人和穷人中都可以看到感觉良好和为他人花钱之间的联系 / 对于大多数人来说，稀缺性增强了大多数事物的乐趣</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">然而，在世界各地的富人和穷人中都可以看到感觉良好和为他人花钱之间的联系，而稀缺性增强了大多数人对大多数事物的乐趣。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 5
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句7",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (7/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Not everyone will agree with the authors’ policy ideas, which range from mandating more holiday time to reducing tax incentives for American homebuyers.</p>\n<p><strong>意群断句：</strong><code>Not everyone will agree with the authors’ policy ideas, / / which range from mandating more holiday time to reducing tax incentives for American homebuyers.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">并非所有人都会同意作者的政策理念 / 其范围从规定更多的假期时间到减少对美国购房者的税收优惠</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>非限制性定语从句</b>：<code>,which range from mandating more holiday time to red...</code> 引导非限制性定语从句，对前文先行词进行补充说明与信息拓展。</li><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with the authors’ policy ideas...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">并非所有人都会同意作者的政策理念，其中包括要求更多的假期时间和减少对美国购房者的税收优惠。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 6
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句8",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (8/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>But most people will come away from this book believing it was money well spent.</p>\n<p><strong>意群断句：</strong><code>But most people will come away from this book believing it was money well spent.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">但大多数人读完这本书后都会相信这本书花得值</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">但大多数人读完这本书后都会认为这钱花得值。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 7
+          }
+        },
+        {
+          "section": 3,
+          "title": "3.一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，正确项如何进行同义改写，错误项如何设置陷阱；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
+          "meta": {
+            "section": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "21题 · 题干、题型与核心出处",
+          "html": "<p><strong>21. According to Dunn and Norton, which of the following is the most rewarding purchase?</strong></p>\n<p>（根据 Dunn 和 Norton 的说法，购买以下哪项最有价值？）</p>\n<p><strong>题型判定</strong>：事实细节题 ｜ <strong>定位出处</strong>：Paragraph 1</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "21"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. A big house.",
+          "html": "<p><strong>选项 A</strong>：<code>A big house.</code></p>\n<p><strong>中文翻译</strong>：一个大房子。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. A special tour.",
+          "html": "<p><strong>选项 B</strong>：<code>A special tour.</code></p>\n<p><strong>中文翻译</strong>：一次特别的旅行。</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. A stylish car.",
+          "html": "<p><strong>选项 C</strong>：<code>A stylish car.</code></p>\n<p><strong>中文翻译</strong>：一辆时尚的汽车。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. A rich meal.",
+          "html": "<p><strong>选项 D</strong>：<code>A rich meal.</code></p>\n<p><strong>中文翻译</strong>：丰盛的一餐。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "22题 · 题干、题型与核心出处",
+          "html": "<p><strong>22. The author’s attitude toward Americans’ watching TV is _______.</strong></p>\n<p>（作者对美国人看电视的态度是_______。）</p>\n<p><strong>题型判定</strong>：因果推断题 ｜ <strong>定位出处</strong>：Paragraph 2</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "22"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. critical",
+          "html": "<p><strong>选项 A</strong>：<code>critical</code></p>\n<p><strong>中文翻译</strong>：批判的</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. supportive",
+          "html": "<p><strong>选项 B</strong>：<code>supportive</code></p>\n<p><strong>中文翻译</strong>：支持的</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. sympathetic",
+          "html": "<p><strong>选项 C</strong>：<code>sympathetic</code></p>\n<p><strong>中文翻译</strong>：富有同情心的</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. ambiguous",
+          "html": "<p><strong>选项 D</strong>：<code>ambiguous</code></p>\n<p><strong>中文翻译</strong>：模糊的</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "23题 · 题干、题型与核心出处",
+          "html": "<p><strong>23. McRib is mentioned in Paragraph 3 to show that _______.</strong></p>\n<p>（第 3 段中提到 McRib 是为了表明_______。）</p>\n<p><strong>题型判定</strong>：段落推理题 ｜ <strong>定位出处</strong>：Paragraph 3</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "23"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. consumers are sometimes irrational",
+          "html": "<p><strong>选项 A</strong>：<code>consumers are sometimes irrational</code></p>\n<p><strong>中文翻译</strong>：消费者有时是非理性的</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. popularity usually comes after quality",
+          "html": "<p><strong>选项 B</strong>：<code>popularity usually comes after quality</code></p>\n<p><strong>中文翻译</strong>：受欢迎程度通常先于质量</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. marketing tricks are often effective",
+          "html": "<p><strong>选项 C</strong>：<code>marketing tricks are often effective</code></p>\n<p><strong>中文翻译</strong>：营销技巧往往很有效</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. rarity generally increases pleasure",
+          "html": "<p><strong>选项 D</strong>：<code>rarity generally increases pleasure</code></p>\n<p><strong>中文翻译</strong>：稀有性通常会增加乐趣</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "24题 · 题干、题型与核心出处",
+          "html": "<p><strong>24. According to the last paragraph, Happy Money _______.</strong></p>\n<p>（根据最后一段，快乐钱_______。）</p>\n<p><strong>题型判定</strong>：词义/例证题 ｜ <strong>定位出处</strong>：Paragraph 4</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "24"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. has left much room for readers’ criticism",
+          "html": "<p><strong>选项 A</strong>：<code>has left much room for readers’ criticism</code></p>\n<p><strong>中文翻译</strong>：给读者留下了很多批评的空间</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. may prove to be a worthwhile purchase",
+          "html": "<p><strong>选项 B</strong>：<code>may prove to be a worthwhile purchase</code></p>\n<p><strong>中文翻译</strong>：可能会被证明是值得购买的</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. has predicted a wider income gap in the US",
+          "html": "<p><strong>选项 C</strong>：<code>has predicted a wider income gap in the US</code></p>\n<p><strong>中文翻译</strong>：预测美国的收入差距将扩大</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. may give its readers a sense of achievement",
+          "html": "<p><strong>选项 D</strong>：<code>may give its readers a sense of achievement</code></p>\n<p><strong>中文翻译</strong>：可能会给读者带来成就感</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "25题 · 题干、题型与核心出处",
+          "html": "<p><strong>25. This text mainly discusses how to _______.</strong></p>\n<p>（本文主要讨论如何_______。）</p>\n<p><strong>题型判定</strong>：全文主旨题 ｜ <strong>定位出处</strong>：Paragraph 5</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "25"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. balance feeling good and spending money",
+          "html": "<p><strong>选项 A</strong>：<code>balance feeling good and spending money</code></p>\n<p><strong>中文翻译</strong>：平衡感觉良好和花钱</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. spend large sums of money won in lotteries",
+          "html": "<p><strong>选项 B</strong>：<code>spend large sums of money won in lotteries</code></p>\n<p><strong>中文翻译</strong>：花掉大笔买彩票赢得的钱</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. obtain lasting satisfaction from money spent",
+          "html": "<p><strong>选项 C</strong>：<code>obtain lasting satisfaction from money spent</code></p>\n<p><strong>中文翻译</strong>：从花钱中获得持久的满足感</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. become more reasonable in spending on luxuries",
+          "html": "<p><strong>选项 D</strong>：<code>become more reasonable in spending on luxuries</code></p>\n<p><strong>中文翻译</strong>：奢侈品消费变得更加合理</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "D"
+          }
+        },
+        {
+          "section": 4,
+          "title": "4.一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>在新题型中，考查的本质是理解文章上下文的逻辑承接能力。我们将本篇真题结构改编为新题型迁移训练，训练对段落主旨与篇章逻辑的提炼概括能力。</p>\n<p><strong>篇章核心逻辑链条</strong>：</p>\n<p>引出核心论题 → 展开多角度实证与事实分析 → 剖析深层体制/社会矛盾 → 提出战略性长效应对策略。</p>",
+          "meta": {
+            "section": 4
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 1",
+          "html": "<p><strong>【考查段落 1】</strong></p>\n<p><code>What would you do with $590m? This is now a question for Gloria MacKenzie, an 84-year-old widow who recently emerged fro...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 1 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 0
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 2",
+          "html": "<p><strong>【考查段落 2】</strong></p>\n<p><code>These two academics use an array of behavioural research to show that the most rewarding ways to spend money can be coun...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 2 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 1
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 3",
+          "html": "<p><strong>【考查段落 3】</strong></p>\n<p><code>This slim volume is packed with tips to help wage slaves as well as lottery winners get the most “happiness bang for you...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 3 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 2
+          }
+        },
+        {
+          "section": 5,
+          "title": "1. 大作文宏观论述与主题词汇积累",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>可积累的主题表达</th><th>中文翻译</th><th>所属类别</th><th>使用层级</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>promoting institutional adaptability</strong></td><td><strong>增强制度适应性与韧性</strong></td><td><strong>社会/经济发展</strong></td><td><strong>宏观论点</strong></td></tr>\n<tr><td>harmonizing commercial viability and public welfare</td><td>协调商业可行性与公众福祉</td><td>综合治理</td><td>论证支撑</td></tr>\n<tr><td>fostering sustainable long-term development</td><td>促进可持续长远发展</td><td>未来展望</td><td>结论升华</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        },
+        {
+          "section": 5,
+          "title": "2. 大作文图表/观点题通用满分句型模板",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>适用题型</th><th>考试时可复用的形式</th><th>中文翻译</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>图表/观点题</strong></td><td><strong>A is doing B in an effort to do C.</strong></td><td><strong>A正在采取行动B，目的是实现目标C。</strong></td></tr>\n<tr><td>原因剖析段</td><td>The underlying reason behind this phenomenon is that...</td><td>该现象背后的深层原因在于……</td></tr>\n<tr><td>建议对策段</td><td>Only through collaborative governance can we ensure enduring progress.</td><td>唯有通过协同治理，方能确保长久的发展与繁荣。</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        }
+      ]
+    }
+  },
+  "text2": {
+    "id": 2,
+    "qRange": "26-30",
+    "title": "Text 2",
+    "paragraphs": [
+      "An article in Scientific American has pointed out that empirical research says that, actually, you think you’re more beautiful than you are. We have a deep-seated need to feel good about ourselves and we naturally employ a number of self-enhancing strategies to achieve this. Social psychologists have amassed oceans of research into what they call the “above average effect”, or “illusory superiority”, and shown that, for example, 70 % of us rate ourselves as above average in leadership, 93 % in driving and 85 % at getting on well with others—all obviously statistical impossibilities.",
+      "We rose-tint our memories and put ourselves into self-affirming situations. We become defensive when criticised, and apply negative stereotypes to others to boost our own esteem. We stalk around thinking we’re hot stuff.",
+      "Psychologist and behavioural scientist Nicholas Epley oversaw a key study into self- enhancement and attractiveness. Rather than have people simply rate their beauty compared with others, he asked them to identify an original photograph of themselves from a lineup including versions that had been altered to appear more and less attractive. Visual recognition, reads the study, is “an automatic psychological process, occurring rapidly and intuitively with little or no apparent conscious deliberation.” If the subjects quickly chose a falsely flattering image—which most did—they genuinely believed it was really how they looked.",
+      "Epley found no significant gender difference in responses. Nor was there any evidence that those who self-enhanced the most (that is, the participants who thought the most positively doctored picture were real) were doing so to make up for profound insecurities. In fact, those who thought that the images higher up the attractiveness scale were real directly corresponded with those who showed other markers for having higher self-esteem. “I don’t think the findings that we have are any evidence of personal delusion,” says Epley. “It’s a reflection simply of people generally thinking well of themselves.” If you are depressed, you won’t be self-enhancing.",
+      "Knowing the results of Epley’s study, it makes sense that many people hate photographs of themselves viscerally—on one level, they don’t even recognise the person in the picture as themselves. Facebook therefore, is a self-enhancer’s paradise, where people can share only the most flattering photos, the cream of their wit, style, beauty, intellect and lifestyle. It’s not that people’s profiles are dishonest, says Catalina Toma of Wisconsin-Madison University, “but they portray an idealised version of themselves.”"
+    ],
+    "questions": [
+      {
+        "qid": 26,
+        "stem": "According to the first paragraph, social psychologists have found that _______.",
+        "stem_cn": "根据第一段，社会心理学家发现_______。",
+        "type": "事实细节题",
+        "locate": "Paragraph 1",
+        "options": [
+          {
+            "key": "A",
+            "text": "our self-ratings are unrealistically high",
+            "text_cn": "我们的自我评价高得不切实际",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "B",
+            "text": "illusory superiority is a baseless effect",
+            "text_cn": "虚幻的优越感是毫无根据的效果",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "our need for leadership is unnatural",
+            "text_cn": "我们对领导力的需求是不自然的",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "self-enhancing strategies are ineffective",
+            "text_cn": "自我增强策略无效",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 27,
+        "stem": "Visual recognition is believed to be people’s _______.",
+        "stem_cn": "视觉识别被认为是人们的_______。",
+        "type": "因果推断题",
+        "locate": "Paragraph 2",
+        "options": [
+          {
+            "key": "A",
+            "text": "rapid matching",
+            "text_cn": "快速匹配",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "conscious choice",
+            "text_cn": "有意识的选择",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "intuitive response",
+            "text_cn": "直觉反应",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "D",
+            "text": "automatic self-defence",
+            "text_cn": "自动自卫",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 28,
+        "stem": "Epley found that people with higher self-esteem tended to _______.",
+        "stem_cn": "埃普利发现，自尊心较高的人倾向于_______。",
+        "type": "段落推理题",
+        "locate": "Paragraph 3",
+        "options": [
+          {
+            "key": "A",
+            "text": "underestimate their insecurities",
+            "text_cn": "低估他们的不安全感",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "believe in their attractiveness",
+            "text_cn": "相信他们的吸引力",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "C",
+            "text": "cover up their depressions",
+            "text_cn": "掩饰自己的忧郁",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "oversimplify their illusions",
+            "text_cn": "过度简化他们的幻想",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 29,
+        "stem": "The word “viscerally” (Paragraph 5) is closest in meaning to _______.",
+        "stem_cn": "“本能地”一词（第 5 段）的含义最接近_______。",
+        "type": "词义/例证题",
+        "locate": "Paragraph 4",
+        "options": [
+          {
+            "key": "A",
+            "text": "instinctively",
+            "text_cn": "本能地",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "B",
+            "text": "occasionally",
+            "text_cn": "偶尔",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "particularly",
+            "text_cn": "特别",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "aggressively",
+            "text_cn": "积极地",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 30,
+        "stem": "It can be inferred that Facebook is a self-enhancer’s paradise because people can ______.",
+        "stem_cn": "可以推断，Facebook 是自我增强者的天堂，因为人们可以______。",
+        "type": "全文主旨题",
+        "locate": "Paragraph 5",
+        "options": [
+          {
+            "key": "A",
+            "text": "present their dishonest profiles",
+            "text_cn": "展示他们不诚实的个人资料",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "define their traditional lifestyles",
+            "text_cn": "定义他们的传统生活方式",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "share their intellectual pursuits",
+            "text_cn": "分享他们的智力追求",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "withhold their unflattering sides",
+            "text_cn": "保留他们不讨人喜欢的一面",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。"
+          }
+        ]
+      }
+    ],
+    "practice": {
+      "steps": [
+        {
+          "section": "阅前须知",
+          "raw": "# 0.阅前须知\n\n阅前声明，本教程对英语一英语二均适用。\n\n本教程主要解决考研英语阅读备考中的三个结构性问题：\n\n1. **考研英语骗局一**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持认识文章中的所有细节，一个不漏，咱们不可能完全认识文章中的每一个单词，带着不认识的地方读文章做题才是真正的学生视角。即使是有部分超纲生词不认识，从段落和文章主旨、作者态度等宏观阅读文章内容本身分析的层面，也是不影响做全对的；\n\n2. **考研英语骗局二**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接边读边信达雅地翻译出文章，读完一遍只能在脑海里留下大致信息，并且很快遗忘。正确的方式是先粗后细，放弃信达雅的机械翻译，粗读先理解文章大致出现了哪些东西，然后细读采用意群法这种手段实现，即可临危不乱；\n\n3. **考研英语骗局三**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接用某种神技确定某个一定正确的答案。二选一选不出来是个非常正常的现象。用某种神技去秒杀一个文科单选问题违背了逻辑学常识，即孤证不立。通过宏观认知与多判据交叉验证的方式解决，是所有文科单选题的通法。",
+          "html": "<h1>0.阅前须知</h1>\n<p>阅前声明，本教程对英语一英语二均适用。</p>\n<p>本教程主要解决考研英语阅读备考中的三个结构性问题：</p>\n<ol>\n<li><p><strong>考研英语骗局一</strong>：拒绝上帝视角生词全懂，带着超纲生词读宏观主旨同样能做全对；</p></li>\n<li><p><strong>考研英语骗局二</strong>：放弃考场即时信达雅机械翻译，采用意群粗读抓取核心信息；</p></li>\n<li><p><strong>考研英语骗局三</strong>：拒绝所谓单一神技秒杀，采用定位比对与写作视角交叉验证。</p></li>\n</ol>\n<p>大家把考研英语阅读当成真阅读，才能发现真正正确的备考方式。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "# 1. 先读题干\n\n首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰咱们粗读对文章的理解。看题干对考查重点有个大致印象，并且因为题文同序的原则，也能帮助我们提前获取部分文章的逻辑脉络。",
+          "html": "<h1>1. 先读题干</h1><p>首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰粗读理解。看题干对考查重点建立大致印象，借助题文同序原则提前获取文章逻辑脉络。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 26题题干\n\n**According to the first paragraph, social psychologists have found that _______.**\n\n> 根据第一段，社会心理学家发现_______。\n\n题型：**事实细节题**。\n\n定位预判：**Paragraph 1**\n\n---",
+          "html": "<h2>26题题干</h2><p><strong>According to the first paragraph, social psychologists have found that _______.</strong></p><blockquote><p>根据第一段，社会心理学家发现_______。</p></blockquote><p>题型：<strong>事实细节题</strong>。</p><p>定位预判：<strong>Paragraph 1</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "26"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 27题题干\n\n**Visual recognition is believed to be people’s _______.**\n\n> 视觉识别被认为是人们的_______。\n\n题型：**因果推断题**。\n\n定位预判：**Paragraph 2**\n\n---",
+          "html": "<h2>27题题干</h2><p><strong>Visual recognition is believed to be people’s _______.</strong></p><blockquote><p>视觉识别被认为是人们的_______。</p></blockquote><p>题型：<strong>因果推断题</strong>。</p><p>定位预判：<strong>Paragraph 2</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "27"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 28题题干\n\n**Epley found that people with higher self-esteem tended to _______.**\n\n> 埃普利发现，自尊心较高的人倾向于_______。\n\n题型：**段落推理题**。\n\n定位预判：**Paragraph 3**\n\n---",
+          "html": "<h2>28题题干</h2><p><strong>Epley found that people with higher self-esteem tended to _______.</strong></p><blockquote><p>埃普利发现，自尊心较高的人倾向于_______。</p></blockquote><p>题型：<strong>段落推理题</strong>。</p><p>定位预判：<strong>Paragraph 3</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "28"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 29题题干\n\n**The word “viscerally” (Paragraph 5) is closest in meaning to _______.**\n\n> “本能地”一词（第 5 段）的含义最接近_______。\n\n题型：**词义/例证题**。\n\n定位预判：**Paragraph 4**\n\n---",
+          "html": "<h2>29题题干</h2><p><strong>The word “viscerally” (Paragraph 5) is closest in meaning to _______.</strong></p><blockquote><p>“本能地”一词（第 5 段）的含义最接近_______。</p></blockquote><p>题型：<strong>词义/例证题</strong>。</p><p>定位预判：<strong>Paragraph 4</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "29"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 30题题干\n\n**It can be inferred that Facebook is a self-enhancer’s paradise because people can ______.**\n\n> 可以推断，Facebook 是自我增强者的天堂，因为人们可以______。\n\n题型：**全文主旨题**。\n\n定位预判：**Paragraph 5**\n\n---",
+          "html": "<h2>30题题干</h2><p><strong>It can be inferred that Facebook is a self-enhancer’s paradise because people can ______.</strong></p><blockquote><p>可以推断，Facebook 是自我增强者的天堂，因为人们可以______。</p></blockquote><p>题型：<strong>全文主旨题</strong>。</p><p>定位预判：<strong>Paragraph 5</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "30"
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "# 2. 读文章过程\n\n看完题干后，第一步要粗读一遍文章。根据自身水平扫一遍文章，开头结尾慢一些，注重首尾句，作者举的例子可以略读。关注逻辑词（however, but）、态度评价词、核心动作词与重复主题词。\n\n| 类型 | 关注原因 | 本文关注重点 |\n| --- | --- | --- |\n| 逻辑词 | 作者观点或行文转向 | however, but, nevertheless, yet, although |\n| 态度词 | 作者情感倾向与立场 | critical, positive, resilient, concern, significant |\n| 核心动作 | 论证中主体行为 | argue, demonstrate, implement, undermine |\n| 重复主题词 | 贯穿全篇的核心讨论对象 | 本文核心讨论对象与同义衍生表达 |",
+          "html": "<h1>2. 读文章过程</h1><p>扫读全文，注重段落首尾句，识别论点与论据。关注核心逻辑转折词与态度评价词。</p>\n<table class=\"table-wrap\"><thead><tr><th>类型</th><th>关注原因</th><th>本文关注重点</th></tr></thead>\n<tbody>\n<tr><td>逻辑词</td><td>作者观点或行文转向</td><td>however, but, nevertheless, yet</td></tr>\n<tr><td>态度词</td><td>作者情感倾向与立场</td><td>critical, positive, concern, significant</td></tr>\n<tr><td>核心动作</td><td>论证中主体行为</td><td>argue, demonstrate, implement, undermine</td></tr>\n<tr><td>重复主题词</td><td>贯穿全篇的核心讨论对象</td><td>本文核心论题与衍生词</td></tr>\n</tbody></table>",
+          "meta": {}
+        },
+        {
+          "section": "读文章",
+          "raw": "An article in Scientific American has pointed out that [empirical] research says that, actually, you think you’re more beautiful than you are. We have a [deep-seated] need to feel good about [ourselves] and we naturally employ a number of [self-enhancing] strategies to achieve this. Social [psychologists] have amassed oceans of research into what they call the “above average effect”, or “illusory superiority”, and shown that, for example, 70 % of us rate [ourselves] as above average in leadership, 93 % in driving and 85 % at getting on well with others—all obviously [statistical] [impossibilities].",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>An article in Scientific American has pointed out that <span class=\"mask\">[empirical]</span> research says that, actually, you think you’re more beautiful than you are. We have a <span class=\"mask\">[deep-seated]</span> need to feel good about <span class=\"mask\">[ourselves]</span> and we naturally employ a number of <span class=\"mask\">[self-enhancing]</span> strategies to achieve this. Social <span class=\"mask\">[psychologists]</span> have amassed oceans of research into what they call the “above average effect”, or “illusory superiority”, and shown that, for example, 70 % of us rate <span class=\"mask\">[ourselves]</span> as above average in leadership, 93 % in driving and 85 % at getting on well with others—all obviously <span class=\"mask\">[statistical]</span> <span class=\"mask\">[impossibilities]</span>.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "An article in Scientific American has pointed out / that [empirical] research says that, / actually, / you think you’re more beautiful than you are. / We have a [deep-seated] need to feel good about [ourselves] and we naturally employ a number of [self-enhancing] strategies to achieve this. / Social [psychologists] have amassed oceans of research into what they call the “above average effect”, / or “illusory superiority”, / and shown that, / for example, / 70 % of us rate [ourselves] as above average in leadership, / 93 % in driving and 85 % at getting on well with others—all obviously [statistical] [impossibilities].",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>An article in Scientific American has pointed out / that <span class=\"mask\">[empirical]</span> research says that, / actually, / you think you’re more beautiful than you are. / We have a <span class=\"mask\">[deep-seated]</span> need to feel good about <span class=\"mask\">[ourselves]</span> and we naturally employ a number of <span class=\"mask\">[self-enhancing]</span> strategies to achieve this. / Social <span class=\"mask\">[psychologists]</span> have amassed oceans of research into what they call the “above average effect”, / or “illusory superiority”, / and shown that, / for example, / 70 % of us rate <span class=\"mask\">[ourselves]</span> as above average in leadership, / 93 % in driving and 85 % at getting on well with others—all obviously <span class=\"mask\">[statistical]</span> <span class=\"mask\">[impossibilities]</span>.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第1段意群顺译】《科学美国人》的一篇文章指出，实证研究表明，实际上，你认为自己比实际情况更美丽。我们有一种根深蒂固的自我感觉良好的需要，我们自然会采用一些自我增强的策略来实现这一目标。社会心理学家对他们所谓的“高于平均水平效应”或“虚幻的优越感”进行了大量研究，并表明，例如，我们中 70% 的人...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>【第1段意群顺译】《科学美国人》的一篇文章指出，实证研究表明，实际上，你认为自己比实际情况更美丽。我们有一种根深蒂固的自我感觉良好的需要，我们自然会采用一些自我增强的策略来实现这一目标。社会心理学家对他们所谓的“高于平均水平效应”或“虚幻的优越感”进行了大量研究，并表明，例如，我们中 70% 的人...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "We rose-tint our memories and put [ourselves] into [self-affirming] [situations]. We become defensive when criticised, and apply negative [stereotypes] to others to boost our own esteem. We stalk around thinking we’re hot stuff.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>We rose-tint our memories and put <span class=\"mask\">[ourselves]</span> into <span class=\"mask\">[self-affirming]</span> <span class=\"mask\">[situations]</span>. We become defensive when criticised, and apply negative <span class=\"mask\">[stereotypes]</span> to others to boost our own esteem. We stalk around thinking we’re hot stuff.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "We rose-tint our memories and put [ourselves] into [self-affirming] [situations]. / We become defensive / when criticised, / and apply negative [stereotypes] to others to boost our own esteem. / We stalk around thinking we’re hot stuff.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>We rose-tint our memories and put <span class=\"mask\">[ourselves]</span> into <span class=\"mask\">[self-affirming]</span> <span class=\"mask\">[situations]</span>. / We become defensive / when criticised, / and apply negative <span class=\"mask\">[stereotypes]</span> to others to boost our own esteem. / We stalk around thinking we’re hot stuff.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第2段意群顺译】我们将自己的记忆染上玫瑰色，并将自己置于自我肯定的境地。当受到批评时，我们会变得防御性，并对他人施加负面的刻板印象，以提高自己的自尊。我们四处走动，以为自己很热门。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第2段意群顺译】我们将自己的记忆染上玫瑰色，并将自己置于自我肯定的境地。当受到批评时，我们会变得防御性，并对他人施加负面的刻板印象，以提高自己的自尊。我们四处走动，以为自己很热门。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "[Psychologist] and behavioural scientist Nicholas Epley oversaw a key study into self- enhancement and [attractiveness]. Rather than have people simply rate their beauty compared with others, he asked them to identify an original [photograph] of themselves from a lineup [including] versions that had been altered to appear more and less attractive. Visual [recognition], reads the study, is “an automatic [psychological] process, [occurring] rapidly and intuitively with little or no apparent conscious [deliberation].” If the subjects quickly chose a falsely flattering image—which most did—they genuinely believed it was really how they looked.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p><span class=\"mask\">[Psychologist]</span> and behavioural scientist Nicholas Epley oversaw a key study into self- enhancement and <span class=\"mask\">[attractiveness]</span>. Rather than have people simply rate their beauty compared with others, he asked them to identify an original <span class=\"mask\">[photograph]</span> of themselves from a lineup <span class=\"mask\">[including]</span> versions that had been altered to appear more and less attractive. Visual <span class=\"mask\">[recognition]</span>, reads the study, is “an automatic <span class=\"mask\">[psychological]</span> process, <span class=\"mask\">[occurring]</span> rapidly and intuitively with little or no apparent conscious <span class=\"mask\">[deliberation]</span>.” If the subjects quickly chose a falsely flattering image—which most did—they genuinely believed it was really how they looked.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "[Psychologist] and behavioural scientist Nicholas Epley oversaw a key study into self- enhancement and [attractiveness]. / Rather than have people simply rate their beauty compared with others, / he asked them to identify an original [photograph] of themselves from a lineup [including] versions / that had been altered to appear more and less attractive. / Visual [recognition], / reads the study, / is “an automatic [psychological] process, / [occurring] rapidly and intuitively with little or no apparent conscious [deliberation].” If the subjects quickly chose a falsely flattering image—which most did—they genuinely believed it was really how they looked.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p><span class=\"mask\">[Psychologist]</span> and behavioural scientist Nicholas Epley oversaw a key study into self- enhancement and <span class=\"mask\">[attractiveness]</span>. / Rather than have people simply rate their beauty compared with others, / he asked them to identify an original <span class=\"mask\">[photograph]</span> of themselves from a lineup <span class=\"mask\">[including]</span> versions / that had been altered to appear more and less attractive. / Visual <span class=\"mask\">[recognition]</span>, / reads the study, / is “an automatic <span class=\"mask\">[psychological]</span> process, / <span class=\"mask\">[occurring]</span> rapidly and intuitively with little or no apparent conscious <span class=\"mask\">[deliberation]</span>.” If the subjects quickly chose a falsely flattering image—which most did—they genuinely believed it was really how they looked.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第3段意群顺译】心理学家和行为科学家尼古拉斯·埃普利（Nicholas Epley）主持了一项关于自我增强和吸引力的重要研究。他并没有让人们简单地与其他人相比评价自己的美丽程度，而是要求他们从一系列照片中找出一张自己的原始照片，其中包括经过修改的版本，使其看起来更具吸引力或不那么有吸引力。该研究...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第3段意群顺译】心理学家和行为科学家尼古拉斯·埃普利（Nicholas Epley）主持了一项关于自我增强和吸引力的重要研究。他并没有让人们简单地与其他人相比评价自己的美丽程度，而是要求他们从一系列照片中找出一张自己的原始照片，其中包括经过修改的版本，使其看起来更具吸引力或不那么有吸引力。该研究...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Epley found no significant gender difference in [responses]. Nor was there any evidence that those who [self-enhanced] the most (that is, the [participants] who thought the most [positively] doctored picture were real) were doing so to make up for profound [insecurities]. In fact, those who thought that the images higher up the [attractiveness] scale were real directly [corresponded] with those who showed other markers for having higher self-esteem. “I don’t think the findings that we have are any evidence of personal delusion,” says Epley. “It’s a reflection simply of people generally thinking well of themselves.” If you are [depressed], you won’t be [self-enhancing].",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Epley found no significant gender difference in <span class=\"mask\">[responses]</span>. Nor was there any evidence that those who <span class=\"mask\">[self-enhanced]</span> the most (that is, the <span class=\"mask\">[participants]</span> who thought the most <span class=\"mask\">[positively]</span> doctored picture were real) were doing so to make up for profound <span class=\"mask\">[insecurities]</span>. In fact, those who thought that the images higher up the <span class=\"mask\">[attractiveness]</span> scale were real directly <span class=\"mask\">[corresponded]</span> with those who showed other markers for having higher self-esteem. “I don’t think the findings that we have are any evidence of personal delusion,” says Epley. “It’s a reflection simply of people generally thinking well of themselves.” If you are <span class=\"mask\">[depressed]</span>, you won’t be <span class=\"mask\">[self-enhancing]</span>.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Epley found no significant gender difference in [responses]. / Nor was there any evidence / that those / who [self-enhanced] the most (that is, / the [participants] / who thought the most [positively] doctored picture were real) were doing so to make up for profound [insecurities]. / In fact, / those / who thought / that the images higher up the [attractiveness] scale were real directly [corresponded] with those / who showed other markers for having higher self-esteem. “I don’t think the findings / that we have are any evidence of personal delusion,” says Epley. “It’s a reflection simply of people generally thinking well of themselves.” If you are [depressed], / you won’t be [self-enhancing].",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Epley found no significant gender difference in <span class=\"mask\">[responses]</span>. / Nor was there any evidence / that those / who <span class=\"mask\">[self-enhanced]</span> the most (that is, / the <span class=\"mask\">[participants]</span> / who thought the most <span class=\"mask\">[positively]</span> doctored picture were real) were doing so to make up for profound <span class=\"mask\">[insecurities]</span>. / In fact, / those / who thought / that the images higher up the <span class=\"mask\">[attractiveness]</span> scale were real directly <span class=\"mask\">[corresponded]</span> with those / who showed other markers for having higher self-esteem. “I don’t think the findings / that we have are any evidence of personal delusion,” says Epley. “It’s a reflection simply of people generally thinking well of themselves.” If you are <span class=\"mask\">[depressed]</span>, / you won’t be <span class=\"mask\">[self-enhancing]</span>.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第4段意群顺译】埃普利发现反应中没有显着的性别差异。也没有任何证据表明那些自我增强最多的人（即那些认为经过最积极修改的图片是真实的参与者）这样做是为了弥补深深的不安全感。事实上，那些认为吸引力等级较高的图像是真实的的人与那些表现出其他具有更高自尊的标志的人直接对应。 “我不认为我们的发现是个人错...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第4段意群顺译】埃普利发现反应中没有显着的性别差异。也没有任何证据表明那些自我增强最多的人（即那些认为经过最积极修改的图片是真实的参与者）这样做是为了弥补深深的不安全感。事实上，那些认为吸引力等级较高的图像是真实的的人与那些表现出其他具有更高自尊的标志的人直接对应。 “我不认为我们的发现是个人错...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Knowing the results of Epley’s study, it makes sense that many people hate photographs of themselves viscerally—on one level, they don’t even recognise the person in the picture as themselves. Facebook therefore, is a [self-enhancer’s] paradise, where people can share only the most flattering photos, the cream of their wit, style, beauty, [intellect] and lifestyle. It’s not that people’s profiles are dishonest, says Catalina Toma of [Wisconsin-Madison] University, “but they portray an idealised version of themselves.”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Knowing the results of Epley’s study, it makes sense that many people hate photographs of themselves viscerally—on one level, they don’t even recognise the person in the picture as themselves. Facebook therefore, is a <span class=\"mask\">[self-enhancer’s]</span> paradise, where people can share only the most flattering photos, the cream of their wit, style, beauty, <span class=\"mask\">[intellect]</span> and lifestyle. It’s not that people’s profiles are dishonest, says Catalina Toma of <span class=\"mask\">[Wisconsin-Madison]</span> University, “but they portray an idealised version of themselves.”</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Knowing the results of Epley’s study, / it makes sense / that many people hate photographs of themselves viscerally—on one level, / they don’t even recognise the person in the picture as themselves. / Facebook therefore, / is a [self-enhancer’s] paradise, / / where people can share only the most flattering photos, / the cream of their wit, / style, / beauty, / [intellect] and lifestyle. / It’s not / that people’s profiles are dishonest, / says Catalina Toma of [Wisconsin-Madison] University, / “but they portray an idealised version of themselves.”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Knowing the results of Epley’s study, / it makes sense / that many people hate photographs of themselves viscerally—on one level, / they don’t even recognise the person in the picture as themselves. / Facebook therefore, / is a <span class=\"mask\">[self-enhancer’s]</span> paradise, / / where people can share only the most flattering photos, / the cream of their wit, / style, / beauty, / <span class=\"mask\">[intellect]</span> and lifestyle. / It’s not / that people’s profiles are dishonest, / says Catalina Toma of <span class=\"mask\">[Wisconsin-Madison]</span> University, / “but they portray an idealised version of themselves.”</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第5段意群顺译】了解了埃普利的研究结果后，我们发现许多人发自内心地讨厌自己的照片，这是有道理的——在某种程度上，他们甚至不认识照片中的人就是他们自己。因此，Facebook 是自我提升者的天堂，人们只能在这里分享最讨人喜欢的照片，以及他们智慧、风格、美丽、智慧和生活方式的精华。威斯康星麦迪逊大学...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第5段意群顺译】了解了埃普利的研究结果后，我们发现许多人发自内心地讨厌自己的照片，这是有道理的——在某种程度上，他们甚至不认识照片中的人就是他们自己。因此，Facebook 是自我提升者的天堂，人们只能在这里分享最讨人喜欢的照片，以及他们智慧、风格、美丽、智慧和生活方式的精华。威斯康星麦迪逊大学...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 3
+          }
+        },
+        {
+          "section": "做题过程",
+          "raw": "# 3. 开始做题 (26-30题)\n\n粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。",
+          "html": "<h1>3. 开始做题 (26-30题)</h1><p>粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。</p>",
+          "meta": {}
+        },
+        {
+          "section": "26题",
+          "raw": "## 26题\n\n**According to the first paragraph, social psychologists have found that _______.**\n\n> 根据第一段，社会心理学家发现_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> An article in Scientific American has pointed out that [empirical] research says that, actually, you think you’re more beautiful than you are. We have a [deep-seated] need to feel good about [ourselves] and we naturally employ a number of [self-enhancing] strategies to achieve this. Social [psychologists] have amassed oceans of research into what they call the “above average effect”, or “illusory superiority”, and shown that, for example, 70 % of us rate [ourselves] as above average in leadership, 93 % in driving and 85 % at getting on well with others—all obviously [statistical] [impossibilities].\n>\n> 开始精读：\n>\n> An article in Scientific American has pointed out / that [empirical] research says that, / actually, / you think you’re more beautiful than you are. / We have a [deep-seated] need to feel good about [ourselves] and we naturally employ a number of [self-enhancing] strategies to achieve this. / Social [psychologists] have amassed oceans of research into what they call the “above average effect”, / or “illusory superiority”, / and shown that, / for example, / 70 % of us rate [ourselves] as above average in leadership, / 93 % in driving and 85 % at getting on well with others—all obviously [statistical] [impossibilities].\n>\n> 逐意群顺译：\n>\n> 《科学美国人》的一篇文章指出，实证研究表明，实际上，你认为自己比实际情况更美丽。我们有一种根深蒂固的自我感觉良好的需要，我们自然会采用一些自我增强的策略来实现这一目标。社会心理学家对他们所谓的“高于平均水平效应”或“虚幻的优越感”进行了大量研究，并表明，例如，我们中 70% 的人认为自己在领导力方面高于平均水平，93% 的人在驾驶方面高于平均水平，85% 的人在与他人相处方面高于平均水平——所有这些显然在统计上都是不可能的。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>26题</h2>\n<p><strong>According to the first paragraph, social psychologists have found that _______.</strong></p>\n<blockquote><p>根据第一段，社会心理学家发现_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>An article in Scientific American has pointed out that <span class=\"mask\">[empirical]</span> research says that, actually, you think you’re more beautiful than you are. We have a <span class=\"mask\">[deep-seated]</span> need to feel good about <span class=\"mask\">[ourselves]</span> and we naturally employ a number of <span class=\"mask\">[self-enhancing]</span> strategies to achieve this. Social <span class=\"mask\">[psychologists]</span> have amassed oceans of research into what they call the “above average effect”, or “illusory superiority”, and shown that, for example, 70 % of us rate <span class=\"mask\">[ourselves]</span> as above average in leadership, 93 % in driving and 85 % at getting on well with others—all obviously <span class=\"mask\">[statistical]</span> <span class=\"mask\">[impossibilities]</span>.</p>\n<p><strong>开始精读：</strong></p>\n<p>An article in Scientific American has pointed out / that <span class=\"mask\">[empirical]</span> research says that, / actually, / you think you’re more beautiful than you are. / We have a <span class=\"mask\">[deep-seated]</span> need to feel good about <span class=\"mask\">[ourselves]</span> and we naturally employ a number of <span class=\"mask\">[self-enhancing]</span> strategies to achieve this. / Social <span class=\"mask\">[psychologists]</span> have amassed oceans of research into what they call the “above average effect”, / or “illusory superiority”, / and shown that, / for example, / 70 % of us rate <span class=\"mask\">[ourselves]</span> as above average in leadership, / 93 % in driving and 85 % at getting on well with others—all obviously <span class=\"mask\">[statistical]</span> <span class=\"mask\">[impossibilities]</span>.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>《科学美国人》的一篇文章指出，实证研究表明，实际上，你认为自己比实际情况更美丽。我们有一种根深蒂固的自我感觉良好的需要，我们自然会采用一些自我增强的策略来实现这一目标。社会心理学家对他们所谓的“高于平均水平效应”或“虚幻的优越感”进行了大量研究，并表明，例如，我们中 70% 的人认为自己在领导力方面高于平均水平，93% 的人在驾驶方面高于平均水平，85% 的人在与他人相处方面高于平均水平——所有这些显然在统计上都是不可能的。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "26"
+          }
+        },
+        {
+          "section": "26题",
+          "raw": "### A. our self-ratings are unrealistically high\n\n> 我们的自我评价高得不切实际\n\n我们先看 A 选项：`our self-ratings are unrealistically high`（我们的自我评价高得不切实际）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第一段，社会心理学家发现“我们的自我评价高得不切实际”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `our`, `self`, `ratings` 与原文第 1 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：A强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>A. our self-ratings are unrealistically high</h3>\n<blockquote><p>我们的自我评价高得不切实际</p></blockquote>\n<p>我们先看 A 选项：<code>our self-ratings are unrealistically high</code>（我们的自我评价高得不切实际）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第一段，社会心理学家发现“我们的自我评价高得不切实际”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>our</code>, <code>self</code>, <code>ratings</code> 与原文第 1 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：A强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "26",
+            "option": "A"
+          }
+        },
+        {
+          "section": "26题",
+          "raw": "### B. illusory superiority is a baseless effect\n\n> 虚幻的优越感是毫无根据的效果\n\n我们先看 B 选项：`illusory superiority is a baseless effect`（虚幻的优越感是毫无根据的效果）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第一段，社会心理学家发现“虚幻的优越感是毫无根据的效果”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“虚幻的优越感是毫无根据的效果”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. illusory superiority is a baseless effect</h3>\n<blockquote><p>虚幻的优越感是毫无根据的效果</p></blockquote>\n<p>我们先看 B 选项：<code>illusory superiority is a baseless effect</code>（虚幻的优越感是毫无根据的效果）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第一段，社会心理学家发现“虚幻的优越感是毫无根据的效果”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“虚幻的优越感是毫无根据的效果”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "26",
+            "option": "B"
+          }
+        },
+        {
+          "section": "26题",
+          "raw": "### C. our need for leadership is unnatural\n\n> 我们对领导力的需求是不自然的\n\n我们先看 C 选项：`our need for leadership is unnatural`（我们对领导力的需求是不自然的）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第一段，社会心理学家发现“我们对领导力的需求是不自然的”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `our`, `need`, `leadership` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. our need for leadership is unnatural</h3>\n<blockquote><p>我们对领导力的需求是不自然的</p></blockquote>\n<p>我们先看 C 选项：<code>our need for leadership is unnatural</code>（我们对领导力的需求是不自然的）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第一段，社会心理学家发现“我们对领导力的需求是不自然的”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>our</code>, <code>need</code>, <code>leadership</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "26",
+            "option": "C"
+          }
+        },
+        {
+          "section": "26题",
+          "raw": "### D. self-enhancing strategies are ineffective\n\n> 自我增强策略无效\n\n我们先看 D 选项：`self-enhancing strategies are ineffective`（自我增强策略无效）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第一段，社会心理学家发现“自我增强策略无效”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“自我增强策略无效”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. self-enhancing strategies are ineffective</h3>\n<blockquote><p>自我增强策略无效</p></blockquote>\n<p>我们先看 D 选项：<code>self-enhancing strategies are ineffective</code>（自我增强策略无效）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第一段，社会心理学家发现“自我增强策略无效”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“自我增强策略无效”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "26",
+            "option": "D"
+          }
+        },
+        {
+          "section": "26题",
+          "raw": "### 26题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A强保留，与原文定位信息高度吻合；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>26题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A强保留，与原文定位信息高度吻合</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "26"
+          }
+        },
+        {
+          "section": "27题",
+          "raw": "## 27题\n\n**Visual recognition is believed to be people’s _______.**\n\n> 视觉识别被认为是人们的_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> We rose-tint our memories and put [ourselves] into [self-affirming] [situations]. We become defensive when criticised, and apply negative [stereotypes] to others to boost our own esteem. We stalk around thinking we’re hot stuff.\n>\n> 开始精读：\n>\n> We rose-tint our memories and put [ourselves] into [self-affirming] [situations]. / We become defensive / when criticised, / and apply negative [stereotypes] to others to boost our own esteem. / We stalk around thinking we’re hot stuff.\n>\n> 逐意群顺译：\n>\n> 我们将自己的记忆染上玫瑰色，并将自己置于自我肯定的境地。当受到批评时，我们会变得防御性，并对他人施加负面的刻板印象，以提高自己的自尊。我们四处走动，以为自己很热门。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>27题</h2>\n<p><strong>Visual recognition is believed to be people’s _______.</strong></p>\n<blockquote><p>视觉识别被认为是人们的_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>We rose-tint our memories and put <span class=\"mask\">[ourselves]</span> into <span class=\"mask\">[self-affirming]</span> <span class=\"mask\">[situations]</span>. We become defensive when criticised, and apply negative <span class=\"mask\">[stereotypes]</span> to others to boost our own esteem. We stalk around thinking we’re hot stuff.</p>\n<p><strong>开始精读：</strong></p>\n<p>We rose-tint our memories and put <span class=\"mask\">[ourselves]</span> into <span class=\"mask\">[self-affirming]</span> <span class=\"mask\">[situations]</span>. / We become defensive / when criticised, / and apply negative <span class=\"mask\">[stereotypes]</span> to others to boost our own esteem. / We stalk around thinking we’re hot stuff.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>我们将自己的记忆染上玫瑰色，并将自己置于自我肯定的境地。当受到批评时，我们会变得防御性，并对他人施加负面的刻板印象，以提高自己的自尊。我们四处走动，以为自己很热门。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "27"
+          }
+        },
+        {
+          "section": "27题",
+          "raw": "### A. rapid matching\n\n> 快速匹配\n\n我们先看 A 选项：`rapid matching`（快速匹配）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：视觉识别被认为是人们的“快速匹配”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `rapid`, `matching` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 2 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. rapid matching</h3>\n<blockquote><p>快速匹配</p></blockquote>\n<p>我们先看 A 选项：<code>rapid matching</code>（快速匹配）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：视觉识别被认为是人们的“快速匹配”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>rapid</code>, <code>matching</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 2 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "27",
+            "option": "A"
+          }
+        },
+        {
+          "section": "27题",
+          "raw": "### B. conscious choice\n\n> 有意识的选择\n\n我们先看 B 选项：`conscious choice`（有意识的选择）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：视觉识别被认为是人们的“有意识的选择”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“有意识的选择”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. conscious choice</h3>\n<blockquote><p>有意识的选择</p></blockquote>\n<p>我们先看 B 选项：<code>conscious choice</code>（有意识的选择）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：视觉识别被认为是人们的“有意识的选择”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“有意识的选择”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "27",
+            "option": "B"
+          }
+        },
+        {
+          "section": "27题",
+          "raw": "### C. intuitive response\n\n> 直觉反应\n\n我们先看 C 选项：`intuitive response`（直觉反应）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：视觉识别被认为是人们的“直觉反应”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `intuitive`, `response` 与原文第 2 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：C强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>C. intuitive response</h3>\n<blockquote><p>直觉反应</p></blockquote>\n<p>我们先看 C 选项：<code>intuitive response</code>（直觉反应）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：视觉识别被认为是人们的“直觉反应”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>intuitive</code>, <code>response</code> 与原文第 2 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：C强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "27",
+            "option": "C"
+          }
+        },
+        {
+          "section": "27题",
+          "raw": "### D. automatic self-defence\n\n> 自动自卫\n\n我们先看 D 选项：`automatic self-defence`（自动自卫）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：视觉识别被认为是人们的“自动自卫”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `automatic`, `self`, `defence` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 2 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. automatic self-defence</h3>\n<blockquote><p>自动自卫</p></blockquote>\n<p>我们先看 D 选项：<code>automatic self-defence</code>（自动自卫）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：视觉识别被认为是人们的“自动自卫”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>automatic</code>, <code>self</code>, <code>defence</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 2 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "27",
+            "option": "D"
+          }
+        },
+        {
+          "section": "27题",
+          "raw": "### 27题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C强保留，与原文定位信息高度吻合；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>27题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C强保留，与原文定位信息高度吻合</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "27"
+          }
+        },
+        {
+          "section": "28题",
+          "raw": "## 28题\n\n**Epley found that people with higher self-esteem tended to _______.**\n\n> 埃普利发现，自尊心较高的人倾向于_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> [Psychologist] and behavioural scientist Nicholas Epley oversaw a key study into self- enhancement and [attractiveness]. Rather than have people simply rate their beauty compared with others, he asked them to identify an original [photograph] of themselves from a lineup [including] versions that had been altered to appear more and less attractive. Visual [recognition], reads the study, is “an automatic [psychological] process, [occurring] rapidly and intuitively with little or no apparent conscious [deliberation].” If the subjects quickly chose a falsely flattering image—which most did—they genuinely believed it was really how they looked.\n>\n> 开始精读：\n>\n> [Psychologist] and behavioural scientist Nicholas Epley oversaw a key study into self- enhancement and [attractiveness]. / Rather than have people simply rate their beauty compared with others, / he asked them to identify an original [photograph] of themselves from a lineup [including] versions / that had been altered to appear more and less attractive. / Visual [recognition], / reads the study, / is “an automatic [psychological] process, / [occurring] rapidly and intuitively with little or no apparent conscious [deliberation].” If the subjects quickly chose a falsely flattering image—which most did—they genuinely believed it was really how they looked.\n>\n> 逐意群顺译：\n>\n> 心理学家和行为科学家尼古拉斯·埃普利（Nicholas Epley）主持了一项关于自我增强和吸引力的重要研究。他并没有让人们简单地与其他人相比评价自己的美丽程度，而是要求他们从一系列照片中找出一张自己的原始照片，其中包括经过修改的版本，使其看起来更具吸引力或不那么有吸引力。该研究称，视觉识别是“一种自动的心理过程，快速而直观地发生，很少或没有明显的有意识的考虑。”如果受试者很快选择了一个虚假的讨人喜欢的形象——大多数人都会这样做——他们就会真诚地相信这就是他们的样子。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>28题</h2>\n<p><strong>Epley found that people with higher self-esteem tended to _______.</strong></p>\n<blockquote><p>埃普利发现，自尊心较高的人倾向于_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p><span class=\"mask\">[Psychologist]</span> and behavioural scientist Nicholas Epley oversaw a key study into self- enhancement and <span class=\"mask\">[attractiveness]</span>. Rather than have people simply rate their beauty compared with others, he asked them to identify an original <span class=\"mask\">[photograph]</span> of themselves from a lineup <span class=\"mask\">[including]</span> versions that had been altered to appear more and less attractive. Visual <span class=\"mask\">[recognition]</span>, reads the study, is “an automatic <span class=\"mask\">[psychological]</span> process, <span class=\"mask\">[occurring]</span> rapidly and intuitively with little or no apparent conscious <span class=\"mask\">[deliberation]</span>.” If the subjects quickly chose a falsely flattering image—which most did—they genuinely believed it was really how they looked.</p>\n<p><strong>开始精读：</strong></p>\n<p><span class=\"mask\">[Psychologist]</span> and behavioural scientist Nicholas Epley oversaw a key study into self- enhancement and <span class=\"mask\">[attractiveness]</span>. / Rather than have people simply rate their beauty compared with others, / he asked them to identify an original <span class=\"mask\">[photograph]</span> of themselves from a lineup <span class=\"mask\">[including]</span> versions / that had been altered to appear more and less attractive. / Visual <span class=\"mask\">[recognition]</span>, / reads the study, / is “an automatic <span class=\"mask\">[psychological]</span> process, / <span class=\"mask\">[occurring]</span> rapidly and intuitively with little or no apparent conscious <span class=\"mask\">[deliberation]</span>.” If the subjects quickly chose a falsely flattering image—which most did—they genuinely believed it was really how they looked.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>心理学家和行为科学家尼古拉斯·埃普利（Nicholas Epley）主持了一项关于自我增强和吸引力的重要研究。他并没有让人们简单地与其他人相比评价自己的美丽程度，而是要求他们从一系列照片中找出一张自己的原始照片，其中包括经过修改的版本，使其看起来更具吸引力或不那么有吸引力。该研究称，视觉识别是“一种自动的心理过程，快速而直观地发生，很少或没有明显的有意识的考虑。”如果受试者很快选择了一个虚假的讨人喜欢的形象——大多数人都会这样做——他们就会真诚地相信这就是他们的样子。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "28"
+          }
+        },
+        {
+          "section": "28题",
+          "raw": "### A. underestimate their insecurities\n\n> 低估他们的不安全感\n\n我们先看 A 选项：`underestimate their insecurities`（低估他们的不安全感）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：埃普利发现，自尊心较高的人倾向于“低估他们的不安全感”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `underestimate`, `their`, `insecurities` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. underestimate their insecurities</h3>\n<blockquote><p>低估他们的不安全感</p></blockquote>\n<p>我们先看 A 选项：<code>underestimate their insecurities</code>（低估他们的不安全感）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：埃普利发现，自尊心较高的人倾向于“低估他们的不安全感”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>underestimate</code>, <code>their</code>, <code>insecurities</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "28",
+            "option": "A"
+          }
+        },
+        {
+          "section": "28题",
+          "raw": "### B. believe in their attractiveness\n\n> 相信他们的吸引力\n\n我们先看 B 选项：`believe in their attractiveness`（相信他们的吸引力）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：埃普利发现，自尊心较高的人倾向于“相信他们的吸引力”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `believe`, `their`, `attractiveness` 与原文第 3 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：B强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>B. believe in their attractiveness</h3>\n<blockquote><p>相信他们的吸引力</p></blockquote>\n<p>我们先看 B 选项：<code>believe in their attractiveness</code>（相信他们的吸引力）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：埃普利发现，自尊心较高的人倾向于“相信他们的吸引力”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>believe</code>, <code>their</code>, <code>attractiveness</code> 与原文第 3 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：B强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "28",
+            "option": "B"
+          }
+        },
+        {
+          "section": "28题",
+          "raw": "### C. cover up their depressions\n\n> 掩饰自己的忧郁\n\n我们先看 C 选项：`cover up their depressions`（掩饰自己的忧郁）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：埃普利发现，自尊心较高的人倾向于“掩饰自己的忧郁”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“掩饰自己的忧郁”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. cover up their depressions</h3>\n<blockquote><p>掩饰自己的忧郁</p></blockquote>\n<p>我们先看 C 选项：<code>cover up their depressions</code>（掩饰自己的忧郁）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：埃普利发现，自尊心较高的人倾向于“掩饰自己的忧郁”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“掩饰自己的忧郁”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "28",
+            "option": "C"
+          }
+        },
+        {
+          "section": "28题",
+          "raw": "### D. oversimplify their illusions\n\n> 过度简化他们的幻想\n\n我们先看 D 选项：`oversimplify their illusions`（过度简化他们的幻想）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：埃普利发现，自尊心较高的人倾向于“过度简化他们的幻想”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“过度简化他们的幻想”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. oversimplify their illusions</h3>\n<blockquote><p>过度简化他们的幻想</p></blockquote>\n<p>我们先看 D 选项：<code>oversimplify their illusions</code>（过度简化他们的幻想）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：埃普利发现，自尊心较高的人倾向于“过度简化他们的幻想”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“过度简化他们的幻想”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "28",
+            "option": "D"
+          }
+        },
+        {
+          "section": "28题",
+          "raw": "### 28题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B强保留，与原文定位信息高度吻合；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>28题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B强保留，与原文定位信息高度吻合</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "28"
+          }
+        },
+        {
+          "section": "29题",
+          "raw": "## 29题\n\n**The word “viscerally” (Paragraph 5) is closest in meaning to _______.**\n\n> “本能地”一词（第 5 段）的含义最接近_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> Epley found no significant gender difference in [responses]. Nor was there any evidence that those who [self-enhanced] the most (that is, the [participants] who thought the most [positively] doctored picture were real) were doing so to make up for profound [insecurities]. In fact, those who thought that the images higher up the [attractiveness] scale were real directly [corresponded] with those who showed other markers for having higher self-esteem. “I don’t think the findings that we have are any evidence of personal delusion,” says Epley. “It’s a reflection simply of people generally thinking well of themselves.” If you are [depressed], you won’t be [self-enhancing].\n>\n> 开始精读：\n>\n> Epley found no significant gender difference in [responses]. / Nor was there any evidence / that those / who [self-enhanced] the most (that is, / the [participants] / who thought the most [positively] doctored picture were real) were doing so to make up for profound [insecurities]. / In fact, / those / who thought / that the images higher up the [attractiveness] scale were real directly [corresponded] with those / who showed other markers for having higher self-esteem. “I don’t think the findings / that we have are any evidence of personal delusion,” says Epley. “It’s a reflection simply of people generally thinking well of themselves.” If you are [depressed], / you won’t be [self-enhancing].\n>\n> 逐意群顺译：\n>\n> 埃普利发现反应中没有显着的性别差异。也没有任何证据表明那些自我增强最多的人（即那些认为经过最积极修改的图片是真实的参与者）这样做是为了弥补深深的不安全感。事实上，那些认为吸引力等级较高的图像是真实的的人与那些表现出其他具有更高自尊的标志的人直接对应。 “我不认为我们的发现是个人错觉的任何证据，”埃普利说。 “这只是人们普遍自我评价良好的反映。”如果你感到沮丧，你就不会自我提升。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>29题</h2>\n<p><strong>The word “viscerally” (Paragraph 5) is closest in meaning to _______.</strong></p>\n<blockquote><p>“本能地”一词（第 5 段）的含义最接近_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Epley found no significant gender difference in <span class=\"mask\">[responses]</span>. Nor was there any evidence that those who <span class=\"mask\">[self-enhanced]</span> the most (that is, the <span class=\"mask\">[participants]</span> who thought the most <span class=\"mask\">[positively]</span> doctored picture were real) were doing so to make up for profound <span class=\"mask\">[insecurities]</span>. In fact, those who thought that the images higher up the <span class=\"mask\">[attractiveness]</span> scale were real directly <span class=\"mask\">[corresponded]</span> with those who showed other markers for having higher self-esteem. “I don’t think the findings that we have are any evidence of personal delusion,” says Epley. “It’s a reflection simply of people generally thinking well of themselves.” If you are <span class=\"mask\">[depressed]</span>, you won’t be <span class=\"mask\">[self-enhancing]</span>.</p>\n<p><strong>开始精读：</strong></p>\n<p>Epley found no significant gender difference in <span class=\"mask\">[responses]</span>. / Nor was there any evidence / that those / who <span class=\"mask\">[self-enhanced]</span> the most (that is, / the <span class=\"mask\">[participants]</span> / who thought the most <span class=\"mask\">[positively]</span> doctored picture were real) were doing so to make up for profound <span class=\"mask\">[insecurities]</span>. / In fact, / those / who thought / that the images higher up the <span class=\"mask\">[attractiveness]</span> scale were real directly <span class=\"mask\">[corresponded]</span> with those / who showed other markers for having higher self-esteem. “I don’t think the findings / that we have are any evidence of personal delusion,” says Epley. “It’s a reflection simply of people generally thinking well of themselves.” If you are <span class=\"mask\">[depressed]</span>, / you won’t be <span class=\"mask\">[self-enhancing]</span>.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>埃普利发现反应中没有显着的性别差异。也没有任何证据表明那些自我增强最多的人（即那些认为经过最积极修改的图片是真实的参与者）这样做是为了弥补深深的不安全感。事实上，那些认为吸引力等级较高的图像是真实的的人与那些表现出其他具有更高自尊的标志的人直接对应。 “我不认为我们的发现是个人错觉的任何证据，”埃普利说。 “这只是人们普遍自我评价良好的反映。”如果你感到沮丧，你就不会自我提升。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "29"
+          }
+        },
+        {
+          "section": "29题",
+          "raw": "### A. instinctively\n\n> 本能地\n\n我们先看 A 选项：`instinctively`（本能地）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：“本能地”一词（第 5 段）的含义最接近“本能地”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `instinctively` 与原文第 4 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：A强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>A. instinctively</h3>\n<blockquote><p>本能地</p></blockquote>\n<p>我们先看 A 选项：<code>instinctively</code>（本能地）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：“本能地”一词（第 5 段）的含义最接近“本能地”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>instinctively</code> 与原文第 4 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：A强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "29",
+            "option": "A"
+          }
+        },
+        {
+          "section": "29题",
+          "raw": "### B. occasionally\n\n> 偶尔\n\n我们先看 B 选项：`occasionally`（偶尔）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：“本能地”一词（第 5 段）的含义最接近“偶尔”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“偶尔”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. occasionally</h3>\n<blockquote><p>偶尔</p></blockquote>\n<p>我们先看 B 选项：<code>occasionally</code>（偶尔）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：“本能地”一词（第 5 段）的含义最接近“偶尔”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“偶尔”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "29",
+            "option": "B"
+          }
+        },
+        {
+          "section": "29题",
+          "raw": "### C. particularly\n\n> 特别\n\n我们先看 C 选项：`particularly`（特别）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：“本能地”一词（第 5 段）的含义最接近“特别”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `particularly` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. particularly</h3>\n<blockquote><p>特别</p></blockquote>\n<p>我们先看 C 选项：<code>particularly</code>（特别）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：“本能地”一词（第 5 段）的含义最接近“特别”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>particularly</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "29",
+            "option": "C"
+          }
+        },
+        {
+          "section": "29题",
+          "raw": "### D. aggressively\n\n> 积极地\n\n我们先看 D 选项：`aggressively`（积极地）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：“本能地”一词（第 5 段）的含义最接近“积极地”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `aggressively` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. aggressively</h3>\n<blockquote><p>积极地</p></blockquote>\n<p>我们先看 D 选项：<code>aggressively</code>（积极地）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：“本能地”一词（第 5 段）的含义最接近“积极地”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>aggressively</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "29",
+            "option": "D"
+          }
+        },
+        {
+          "section": "29题",
+          "raw": "### 29题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A强保留，与原文定位信息高度吻合；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>29题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A强保留，与原文定位信息高度吻合</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "29"
+          }
+        },
+        {
+          "section": "30题",
+          "raw": "## 30题\n\n**It can be inferred that Facebook is a self-enhancer’s paradise because people can ______.**\n\n> 可以推断，Facebook 是自我增强者的天堂，因为人们可以______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 5 段展开，所以我们直接回第 5 段定位精读。\n\n> 原文参考：\n>\n> Knowing the results of Epley’s study, it makes sense that many people hate photographs of themselves viscerally—on one level, they don’t even recognise the person in the picture as themselves. Facebook therefore, is a [self-enhancer’s] paradise, where people can share only the most flattering photos, the cream of their wit, style, beauty, [intellect] and lifestyle. It’s not that people’s profiles are dishonest, says Catalina Toma of [Wisconsin-Madison] University, “but they portray an idealised version of themselves.”\n>\n> 开始精读：\n>\n> Knowing the results of Epley’s study, / it makes sense / that many people hate photographs of themselves viscerally—on one level, / they don’t even recognise the person in the picture as themselves. / Facebook therefore, / is a [self-enhancer’s] paradise, / / where people can share only the most flattering photos, / the cream of their wit, / style, / beauty, / [intellect] and lifestyle. / It’s not / that people’s profiles are dishonest, / says Catalina Toma of [Wisconsin-Madison] University, / “but they portray an idealised version of themselves.”\n>\n> 逐意群顺译：\n>\n> 了解了埃普利的研究结果后，我们发现许多人发自内心地讨厌自己的照片，这是有道理的——在某种程度上，他们甚至不认识照片中的人就是他们自己。因此，Facebook 是自我提升者的天堂，人们只能在这里分享最讨人喜欢的照片，以及他们智慧、风格、美丽、智慧和生活方式的精华。威斯康星麦迪逊大学的卡特琳娜·托马表示，这并不是说人们的个人资料不诚实，“而是他们描绘了理想化的自己。”\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>30题</h2>\n<p><strong>It can be inferred that Facebook is a self-enhancer’s paradise because people can ______.</strong></p>\n<blockquote><p>可以推断，Facebook 是自我增强者的天堂，因为人们可以______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>5</strong> 段展开，所以我们直接回第 <strong>5</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Knowing the results of Epley’s study, it makes sense that many people hate photographs of themselves viscerally—on one level, they don’t even recognise the person in the picture as themselves. Facebook therefore, is a <span class=\"mask\">[self-enhancer’s]</span> paradise, where people can share only the most flattering photos, the cream of their wit, style, beauty, <span class=\"mask\">[intellect]</span> and lifestyle. It’s not that people’s profiles are dishonest, says Catalina Toma of <span class=\"mask\">[Wisconsin-Madison]</span> University, “but they portray an idealised version of themselves.”</p>\n<p><strong>开始精读：</strong></p>\n<p>Knowing the results of Epley’s study, / it makes sense / that many people hate photographs of themselves viscerally—on one level, / they don’t even recognise the person in the picture as themselves. / Facebook therefore, / is a <span class=\"mask\">[self-enhancer’s]</span> paradise, / / where people can share only the most flattering photos, / the cream of their wit, / style, / beauty, / <span class=\"mask\">[intellect]</span> and lifestyle. / It’s not / that people’s profiles are dishonest, / says Catalina Toma of <span class=\"mask\">[Wisconsin-Madison]</span> University, / “but they portray an idealised version of themselves.”</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>了解了埃普利的研究结果后，我们发现许多人发自内心地讨厌自己的照片，这是有道理的——在某种程度上，他们甚至不认识照片中的人就是他们自己。因此，Facebook 是自我提升者的天堂，人们只能在这里分享最讨人喜欢的照片，以及他们智慧、风格、美丽、智慧和生活方式的精华。威斯康星麦迪逊大学的卡特琳娜·托马表示，这并不是说人们的个人资料不诚实，“而是他们描绘了理想化的自己。”</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "30"
+          }
+        },
+        {
+          "section": "30题",
+          "raw": "### A. present their dishonest profiles\n\n> 展示他们不诚实的个人资料\n\n我们先看 A 选项：`present their dishonest profiles`（展示他们不诚实的个人资料）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：可以推断，Facebook 是自我增强者的天堂，因为人们可以“展示他们不诚实的个人资料”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“展示他们不诚实的个人资料”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. present their dishonest profiles</h3>\n<blockquote><p>展示他们不诚实的个人资料</p></blockquote>\n<p>我们先看 A 选项：<code>present their dishonest profiles</code>（展示他们不诚实的个人资料）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：可以推断，Facebook 是自我增强者的天堂，因为人们可以“展示他们不诚实的个人资料”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“展示他们不诚实的个人资料”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "30",
+            "option": "A"
+          }
+        },
+        {
+          "section": "30题",
+          "raw": "### B. define their traditional lifestyles\n\n> 定义他们的传统生活方式\n\n我们先看 B 选项：`define their traditional lifestyles`（定义他们的传统生活方式）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：可以推断，Facebook 是自我增强者的天堂，因为人们可以“定义他们的传统生活方式”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“定义他们的传统生活方式”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 5 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. define their traditional lifestyles</h3>\n<blockquote><p>定义他们的传统生活方式</p></blockquote>\n<p>我们先看 B 选项：<code>define their traditional lifestyles</code>（定义他们的传统生活方式）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：可以推断，Facebook 是自我增强者的天堂，因为人们可以“定义他们的传统生活方式”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“定义他们的传统生活方式”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 5 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "30",
+            "option": "B"
+          }
+        },
+        {
+          "section": "30题",
+          "raw": "### C. share their intellectual pursuits\n\n> 分享他们的智力追求\n\n我们先看 C 选项：`share their intellectual pursuits`（分享他们的智力追求）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：可以推断，Facebook 是自我增强者的天堂，因为人们可以“分享他们的智力追求”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“分享他们的智力追求”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. share their intellectual pursuits</h3>\n<blockquote><p>分享他们的智力追求</p></blockquote>\n<p>我们先看 C 选项：<code>share their intellectual pursuits</code>（分享他们的智力追求）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：可以推断，Facebook 是自我增强者的天堂，因为人们可以“分享他们的智力追求”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“分享他们的智力追求”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "30",
+            "option": "C"
+          }
+        },
+        {
+          "section": "30题",
+          "raw": "### D. withhold their unflattering sides\n\n> 保留他们不讨人喜欢的一面\n\n我们先看 D 选项：`withhold their unflattering sides`（保留他们不讨人喜欢的一面）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：可以推断，Facebook 是自我增强者的天堂，因为人们可以“保留他们不讨人喜欢的一面”。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `withhold`, `their`, `unflattering` 与原文第 5 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 5 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：D强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>D. withhold their unflattering sides</h3>\n<blockquote><p>保留他们不讨人喜欢的一面</p></blockquote>\n<p>我们先看 D 选项：<code>withhold their unflattering sides</code>（保留他们不讨人喜欢的一面）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：可以推断，Facebook 是自我增强者的天堂，因为人们可以“保留他们不讨人喜欢的一面”。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>withhold</code>, <code>their</code>, <code>unflattering</code> 与原文第 5 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 5 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：D强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "30",
+            "option": "D"
+          }
+        },
+        {
+          "section": "30题",
+          "raw": "### 30题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D强保留，与原文定位信息高度吻合；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>30题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D强保留，与原文定位信息高度吻合</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "30"
+          }
+        },
+        {
+          "section": "进阶技巧",
+          "raw": "# 4. 进阶技巧：交叉验证冲全对\n\n当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。",
+          "html": "<h1>4. 进阶技巧：交叉验证冲全对</h1><p>当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。</p>",
+          "meta": {}
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查26题交叉验证\n\n**题干**：According to the first paragraph, social psychologists have found that _______.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **A**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **A**。\n\n**26题选 A。**",
+          "html": "<h2>回查26题交叉验证</h2>\n<p><strong>题干</strong>：According to the first paragraph, social psychologists have found that _______.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>A</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">A</span></strong>。</p>\n<p><strong>26题选 A。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "26"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查27题交叉验证\n\n**题干**：Visual recognition is believed to be people’s _______.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **C**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **C**。\n\n**27题选 C。**",
+          "html": "<h2>回查27题交叉验证</h2>\n<p><strong>题干</strong>：Visual recognition is believed to be people’s _______.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>C</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">C</span></strong>。</p>\n<p><strong>27题选 C。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "27"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查28题交叉验证\n\n**题干**：Epley found that people with higher self-esteem tended to _______.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **B**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **B**。\n\n**28题选 B。**",
+          "html": "<h2>回查28题交叉验证</h2>\n<p><strong>题干</strong>：Epley found that people with higher self-esteem tended to _______.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>B</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">B</span></strong>。</p>\n<p><strong>28题选 B。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "28"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查29题交叉验证\n\n**题干**：The word “viscerally” (Paragraph 5) is closest in meaning to _______.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **A**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **A**。\n\n**29题选 A。**",
+          "html": "<h2>回查29题交叉验证</h2>\n<p><strong>题干</strong>：The word “viscerally” (Paragraph 5) is closest in meaning to _______.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>A</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">A</span></strong>。</p>\n<p><strong>29题选 A。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "29"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查30题交叉验证\n\n**题干**：It can be inferred that Facebook is a self-enhancer’s paradise because people can ______.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **D**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **D**。\n\n**30题选 D。**",
+          "html": "<h2>回查30题交叉验证</h2>\n<p><strong>题干</strong>：It can be inferred that Facebook is a self-enhancer’s paradise because people can ______.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>D</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">D</span></strong>。</p>\n<p><strong>30题选 D。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "30"
+          }
+        },
+        {
+          "section": "最终答案",
+          "raw": "# 5. 最终答案汇总\n\n**26. A**\n\n**27. C**\n\n**28. B**\n\n**29. A**\n\n**30. D**\n\n恭喜完成本篇阅读的做题推演！建议点击顶栏切换至【复盘模式（一石五鸟）】进行全方位深度吸收。",
+          "html": "<h1>5. 最终答案汇总</h1><div style=\"background:#f0fdf4;border:1px solid #bbf7d0;padding:16px;border-radius:8px;font-size:18px;line-height:2;color:#166534\">**26. A**<br><br>**27. C**<br><br>**28. B**<br><br>**29. A**<br><br>**30. D**</div><p style=\"margin-top:16px\">恭喜完成本篇阅读的做题推演！建议点击顶栏切换至<strong>【复盘模式（一石五鸟）】</strong>进行全方位深度吸收。</p>",
+          "meta": {
+            "kind": "final"
+          }
+        }
+      ]
+    },
+    "review": {
+      "steps": [
+        {
+          "section": 0,
+          "title": "省流：一石五鸟法怎么做",
+          "html": "<p>一石五鸟复盘法将一篇阅读真题价值吃干榨净，同时打通词汇、长难句与翻译、阅读解题思维、新题型逻辑、大作文写作五大核心题型，实现高效备考。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第一鸟-积累文中重点单词带来的词汇量提升",
+          "html": "<p>精选真题高频核心词、熟词生义、派生搭配，在语境中彻底掌握考研核心5500词的核心词族。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第二鸟-精读文章与翻译练习带来的翻译能力提升",
+          "html": "<p>逐句精读拆解句法骨架（主干提取、从句修饰剥离），针对典型长难句进行规范中文翻译输出。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>深度剖析命题人设置正确选项的同义替换规律，归纳排查5大高频干扰陷阱（偷换概念/无中生有/反向干扰/过度推断/答非所问）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>梳理全文语篇结构树（起承转合、因果对比、问题解决），迁移训练考研英语二新题型（7选5/小标题/排序）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第五鸟-顺手积累本文的大作文主题词与表达带来的写作能力提升",
+          "html": "<p>提炼本文涉及社会热点、科技经济、生态教育等母题的高分表达、观点金句与论证句型，直接化为写作武器。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "为什么考研英语备考实际只需要两到三个月的有效备考工作量",
+          "html": "<p>通过一石五鸟法，做1篇真题等于练5项能力，无需题海战术，56篇真题足以为考研英语二夯实75+甚至85+的坚实功底。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第1段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>article</strong></td><td>n. 文章，论文；物品；条款，条文</td><td><strong>pointed</strong></td><td>adj. 尖的，尖角的，有尖头的；尖锐的，直接的；明显的，突出的</td><td><strong>empirical</strong></td><td>adj. 经验主义的，以经验为依据的</td></tr><tr><td><strong>research</strong></td><td>n. 研究，探讨；研究工作，调查工作；v. 研究，探索</td><td><strong>says</strong></td><td>vt. 说，讲；宣称，说明；认为，据说</td><td><strong>actually</strong></td><td>adv. 实际上，事实上；其实；竟然，居然</td></tr><tr><td><strong>beautiful</strong></td><td>adj. 美丽的，漂亮的；令人愉悦的，美妙的；出色的，极好的</td><td><strong>deep</strong></td><td>adj. 深的，厚的；纵深的，宽的；有……深的</td><td><strong>seated</strong></td><td>adj. 就座的，坐着的；deep-seated根深蒂固的，由来已久的；v. seat 的过去式和过去分词：使……坐下</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第2段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>rose</strong></td><td>n. 玫瑰，蔷薇；玫瑰形物，玫瑰花饰，玫瑰花形纹章；玫瑰色，玫瑰红</td><td><strong>tint</strong></td><td>n. 浅色，淡色调；染发剂，染发；一丝</td><td><strong>memories</strong></td><td>n. 记忆；回忆</td></tr><tr><td><strong>ourselves</strong></td><td>pron. 用作反身代词，作动词或介词宾语，指包括说话者在内的一组人自身，也可泛指人们；作强调用法时表示“我们亲自”，正式英语中有时代替 us 作宾语；固定搭配 by ourselves 意为“独自地</td><td><strong>self</strong></td><td>n. 自己，自我；自己，本人；私心，私利</td><td><strong>affirming</strong></td><td>vt. 肯定；断言；vi. 确认</td></tr><tr><td><strong>situations</strong></td><td>n. 情况，状况，局面；情境；处境，境地</td><td><strong>become</strong></td><td>v. 变得，变成，成为；适合，使显得漂亮</td><td><strong>defensive</strong></td><td>adj. 防御的，戒备的；生气的，发怒的；防守的，防御的</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 1
+          }
+        },
+        {
+          "section": 1,
+          "title": "第3段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>rather than</strong></td><td>宁可，而不是，与其……不如</td><td><strong>behavioural</strong></td><td>adj. 行为的，行为上的，行为研究的</td><td><strong>scientist</strong></td><td>n. 科学家</td></tr><tr><td><strong>oversaw</strong></td><td>v. 监管，监督；看到，无意中看到</td><td><strong>self</strong></td><td>n. 自己，自我；自己，本人；私心，私利</td><td><strong>enhancement</strong></td><td>n. 增加，增强，改善</td></tr><tr><td><strong>attractiveness</strong></td><td>n. 吸引力，魅力，迷惑力；外表吸引力，动人的特质</td><td><strong>simply</strong></td><td>adv. 仅仅，只，不过；简直，的确；简单地，简明地</td><td><strong>beauty</strong></td><td>n. 美丽，漂亮；美好的事物，上品；美人，美女</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 2
+          }
+        },
+        {
+          "section": 1,
+          "title": "第4段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>found</strong></td><td>v. 创办，成立；建造，兴建；根据，以……为基础</td><td><strong>significant</strong></td><td>adj. 显著的，相当数量的；重要的，意义重大的；别有含义的，意味深长的</td><td><strong>gender</strong></td><td>n. 性别；性；男性，女性</td></tr><tr><td><strong>difference</strong></td><td>n. 差异，不同之处；差额；分歧</td><td><strong>responses</strong></td><td>n. response 的复数形式：反应，响应；回复，答复；答案</td><td><strong>evidence</strong></td><td>n. 根据，证明；证据，证词；迹象，痕迹</td></tr><tr><td><strong>self</strong></td><td>n. 自己，自我；自己，本人；私心，私利</td><td><strong>enhanced</strong></td><td>v. 提高，增强；adj. 提高的，增强的</td><td><strong>participants</strong></td><td>n. 参与者，参加者</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 3
+          }
+        },
+        {
+          "section": 1,
+          "title": "第5段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>results</strong></td><td>v. 发生，产生；终归，导致；由…引起，因…而产生</td><td><strong>makes</strong></td><td>v. 做，制作，制造；使，使得，让；n. 品牌，型号，种类</td><td><strong>sense</strong></td><td>n. 感觉官能；感觉；道理，合理性</td></tr><tr><td><strong>hate</strong></td><td>v. 厌恶，不喜欢；仇恨，憎恨；不愿，不想</td><td><strong>photographs</strong></td><td>n. 照片；逼真的描绘；v. 拍照</td><td><strong>themselves</strong></td><td>pron. 他们自己；他们亲自</td></tr><tr><td><strong>viscerally</strong></td><td>adv. 本能地，发自内心地；在内脏中</td><td><strong>recognise</strong></td><td>vt. 认出，辨认出；识别，辨别；承认，认可</td><td><strong>person</strong></td><td>n. 人；自然人，法人；某人，家伙</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 4
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>An article in Scientific American has pointed out that empirical research says that, actually, you think you’re more beautiful than you are. We have a deep-seated need to feel good about ourselves and we naturally employ a number of self-enhancing strategies to achieve this. Social psychologists have amassed oceans of research into what they call the “above average effect”, or “illusory superiority”, and shown that, for example, 70 % of us rate ourselves as above average in leadership, 93 % in driving and 85 % at getting on well with others—all obviously statistical impossibilities.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>An article in Scientific American has pointed out that empirical research says that, actually, you think you’re more beautiful than you are. We have a deep-seated need to feel good about ourselves and we naturally employ a number of self-enhancing strategies to achieve this. Social psychologists have amassed oceans of research into what they call the “above average effect”, or “illusory superiority”, and shown that, for example, 70 % of us rate ourselves as above average in leadership, 93 % in driving and 85 % at getting on well with others—all obviously statistical impossibilities.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>An article in Scientific American has pointed out / that empirical research says that, / actually, / you think you’re more beautiful than you are. / We have a deep-seated need to feel good about ourselves and we naturally employ a number of self-enhancing strategies to achieve this. / Social psychologists have amassed oceans of research into what they call the “above average effect”, / or “illusory superiority”, / and shown that, / for example, / 70 % of us rate ourselves as above average in leadership, / 93 % in driving and 85 % at getting on well with others—all obviously statistical impossibilities.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>An article in Scientific American has pointed out that empirical research says that, actually, you think you’re more beautiful than you are. We have a deep-seated need to feel good about ourselves and we naturally employ a number of self-enhancing strategies to achieve this. Social psychologists have amassed oceans of research into what they call the “above average effect”, or “illusory superiority”, and shown that, for example, 70 % of us rate ourselves as above average in leadership, 93 % in driving and 85 % at getting on well with others—all obviously statistical impossibilities.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>An article in Scientific American has pointed out / that empirical research says that, / actually, / you think you’re more beautiful than you are. / We have a deep-seated need to feel good about ourselves and we naturally employ a number of self-enhancing strategies to achieve this. / Social psychologists have amassed oceans of research into what they call the “above average effect”, / or “illusory superiority”, / and shown that, / for example, / 70 % of us rate ourselves as above average in leadership, / 93 % in driving and 85 % at getting on well with others—all obviously statistical impossibilities.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">《科学美国人》的一篇文章指出 / 实证研究表明 / 实际上 / 你认为你比实际情况更美丽<br>我们有一种根深蒂固的自我感觉良好的需要，我们自然会采用一些自我增强策略来实现这一目标<br>Social psychologists have amassed oceans of research into what they call the “above average effect / or “illusory superiority / 并表明 / 例如 / 70% 的人认为自己的领导力高于平均水平 / 93% 的人擅长驾驶，85% 的人擅长与人相处——所有这些显然在统计上都是不可能的</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>An article in Scientific American has pointed out that empirical research says that, actually, you think you’re more beautiful than you are. We have a deep-seated need to feel good about ourselves and we naturally employ a number of self-enhancing strategies to achieve this. Social psychologists have amassed oceans of research into what they call the “above average effect”, or “illusory superiority”, and shown that, for example, 70 % of us rate ourselves as above average in leadership, 93 % in driving and 85 % at getting on well with others—all obviously statistical impossibilities.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>An article in Scientific American has pointed out / that empirical research says that, / actually, / you think you’re more beautiful than you are. / We have a deep-seated need to feel good about ourselves and we naturally employ a number of self-enhancing strategies to achieve this. / Social psychologists have amassed oceans of research into what they call the “above average effect”, / or “illusory superiority”, / and shown that, / for example, / 70 % of us rate ourselves as above average in leadership, / 93 % in driving and 85 % at getting on well with others—all obviously statistical impossibilities.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">《科学美国人》的一篇文章指出 / 实证研究表明 / 实际上 / 你认为你比实际情况更美丽<br>我们有一种根深蒂固的自我感觉良好的需要，我们自然会采用一些自我增强策略来实现这一目标<br>Social psychologists have amassed oceans of research into what they call the “above average effect / or “illusory superiority / 并表明 / 例如 / 70% 的人认为自己的领导力高于平均水平 / 93% 的人擅长驾驶，85% 的人擅长与人相处——所有这些显然在统计上都是不可能的</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-3\">\n<h3>标准译文 · 第1段</h3>\n<p>《科学美国人》的一篇文章指出，实证研究表明，实际上，你认为自己比实际情况更美丽。我们有一种根深蒂固的自我感觉良好的需要，我们自然会采用一些自我增强的策略来实现这一目标。社会心理学家对他们所谓的“高于平均水平效应”或“虚幻的优越感”进行了大量研究，并表明，例如，我们中 70% 的人认为自己在领导力方面高于平均水平，93% 的人在驾驶方面高于平均水平，85% 的人在与他人相处方面高于平均水平——所有这些显然在统计上都是不可能的。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>An article in Scientific American has pointed out that empirical research says that, actually, you think you’re more beautiful than you are.</p>\n<p><strong>意群断句：</strong><code>An article in Scientific American has pointed out / that empirical research says that, / actually, / you think you’re more beautiful than you are.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">《科学美国人》的一篇文章指出 / 实证研究表明 / 实际上 / 你认为你比实际情况更美丽</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>out</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">《科学美国人》的一篇文章指出，实证研究表明，实际上，你认为自己比实际情况更美丽。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>We have a deep-seated need to feel good about ourselves and we naturally employ a number of self-enhancing strategies to achieve this.</p>\n<p><strong>意群断句：</strong><code>We have a deep-seated need to feel good about ourselves and we naturally employ a number of self-enhancing strategies to achieve this.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">我们有一种根深蒂固的自我感觉良好的需要，我们自然会采用一些自我增强策略来实现这一目标</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">我们有一种根深蒂固的自我感觉良好的需求，我们自然会采用一些自我提升的策略来实现这一目标。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Social psychologists have amassed oceans of research into what they call the “above average effect”, or “illusory superiority”, and shown that, for example, 70 % of us rate ourselves as above average in leadership, 93 % in driving and 85 % at getting on well with others—all obviously statistical impossibilities.</p>\n<p><strong>意群断句：</strong><code>Social psychologists have amassed oceans of research into what they call the “above average effect”, / or “illusory superiority”, / and shown that, / for example, / 70 % of us rate ourselves as above average in leadership, / 93 % in driving and 85 % at getting on well with others—all obviously statistical impossibilities.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">Social psychologists have amassed oceans of research into what they call the “above average effect / or “illusory superiority / 并表明 / 例如 / 70% 的人认为自己的领导力高于平均水平 / 93% 的人擅长驾驶，85% 的人擅长与人相处——所有这些显然在统计上都是不可能的</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间/伴随状语从句</b>：句首 <code>As above average in leadership</code> 引导时间/伴随状语从句（“正当……之时 / 随着……”），交代主句动作发生的背景与伴随情境。</li><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with others—all obviously statistical im...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">社会心理学家对他们所谓的“高于平均水平效应”或“虚幻的优越感”进行了大量研究，并表明，例如，我们中 70% 的人认为自己在领导力方面高于平均水平，93% 的人在驾驶方面高于平均水平，85% 的人在与他人相处方面高于平均水平——所有这些显然在统计上都是不可能的。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>We rose-tint our memories and put ourselves into self-affirming situations. We become defensive when criticised, and apply negative stereotypes to others to boost our own esteem. We stalk around thinking we’re hot stuff.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>We rose-tint our memories and put ourselves into self-affirming situations. We become defensive when criticised, and apply negative stereotypes to others to boost our own esteem. We stalk around thinking we’re hot stuff.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>We rose-tint our memories and put ourselves into self-affirming situations. / We become defensive / when criticised, / and apply negative stereotypes to others to boost our own esteem. / We stalk around thinking we’re hot stuff.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>We rose-tint our memories and put ourselves into self-affirming situations. We become defensive when criticised, and apply negative stereotypes to others to boost our own esteem. We stalk around thinking we’re hot stuff.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>We rose-tint our memories and put ourselves into self-affirming situations. / We become defensive / when criticised, / and apply negative stereotypes to others to boost our own esteem. / We stalk around thinking we’re hot stuff.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">我们将自己的记忆粉饰成玫瑰色，并将自己置于自我肯定的境地<br>我们变得防御性 / 当受到批评时 / 并对他人施加负面刻板印象以提高我们自己的自尊<br>我们四处走动，以为自己很热门</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>We rose-tint our memories and put ourselves into self-affirming situations. We become defensive when criticised, and apply negative stereotypes to others to boost our own esteem. We stalk around thinking we’re hot stuff.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>We rose-tint our memories and put ourselves into self-affirming situations. / We become defensive / when criticised, / and apply negative stereotypes to others to boost our own esteem. / We stalk around thinking we’re hot stuff.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">我们将自己的记忆粉饰成玫瑰色，并将自己置于自我肯定的境地<br>我们变得防御性 / 当受到批评时 / 并对他人施加负面刻板印象以提高我们自己的自尊<br>我们四处走动，以为自己很热门</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-3\">\n<h3>标准译文 · 第2段</h3>\n<p>我们将自己的记忆染上玫瑰色，并将自己置于自我肯定的境地。当受到批评时，我们会变得防御性，并对他人施加负面的刻板印象，以提高自己的自尊。我们四处走动，以为自己很热门。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>We rose-tint our memories and put ourselves into self-affirming situations.</p>\n<p><strong>意群断句：</strong><code>We rose-tint our memories and put ourselves into self-affirming situations.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">我们将自己的记忆粉饰成玫瑰色，并将自己置于自我肯定的境地</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">我们将自己的记忆粉饰得玫瑰色，并将自己置于自我肯定的境地。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>We become defensive when criticised, and apply negative stereotypes to others to boost our own esteem.</p>\n<p><strong>意群断句：</strong><code>We become defensive / when criticised, / and apply negative stereotypes to others to boost our own esteem.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">我们变得防御性 / 当受到批评时 / 并对他人施加负面刻板印象以提高我们自己的自尊</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间状语从句</b>：由连词 <code>When</code> 引导从句 <code>When criticised</code>，限定主句论述的时空背景或逻辑前提。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">当受到批评时，我们会变得防御性，并对他人施加负面的刻板印象，以提高我们自己的自尊。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>We stalk around thinking we’re hot stuff.</p>\n<p><strong>意群断句：</strong><code>We stalk around thinking we’re hot stuff.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">我们四处走动，以为自己很热门</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">我们四处走动，以为自己很热门。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Psychologist and behavioural scientist Nicholas Epley oversaw a key study into self- enhancement and attractiveness. Rather than have people simply rate their beauty compared with others, he asked them to identify an original photograph of themselves from a lineup including versions that had been altered to appear more and less attractive. Visual recognition, reads the study, is “an automatic psychological process, occurring rapidly and intuitively with little or no apparent conscious deliberation.” If the subjects quickly chose a falsely flattering image—which most did—they genuinely believed it was really how they looked.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Psychologist and behavioural scientist Nicholas Epley oversaw a key study into self- enhancement and attractiveness. Rather than have people simply rate their beauty compared with others, he asked them to identify an original photograph of themselves from a lineup including versions that had been altered to appear more and less attractive. Visual recognition, reads the study, is “an automatic psychological process, occurring rapidly and intuitively with little or no apparent conscious deliberation.” If the subjects quickly chose a falsely flattering image—which most did—they genuinely believed it was really how they looked.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>Psychologist and behavioural scientist Nicholas Epley oversaw a key study into self- enhancement and attractiveness. / Rather than have people simply rate their beauty compared with others, / he asked them to identify an original photograph of themselves from a lineup including versions / that had been altered to appear more and less attractive. / Visual recognition, / reads the study, / is “an automatic psychological process, / occurring rapidly and intuitively with little or no apparent conscious deliberation.” If the subjects quickly chose a falsely flattering image—which most did—they genuinely believed it was really how they looked.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Psychologist and behavioural scientist Nicholas Epley oversaw a key study into self- enhancement and attractiveness. Rather than have people simply rate their beauty compared with others, he asked them to identify an original photograph of themselves from a lineup including versions that had been altered to appear more and less attractive. Visual recognition, reads the study, is “an automatic psychological process, occurring rapidly and intuitively with little or no apparent conscious deliberation.” If the subjects quickly chose a falsely flattering image—which most did—they genuinely believed it was really how they looked.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>Psychologist and behavioural scientist Nicholas Epley oversaw a key study into self- enhancement and attractiveness. / Rather than have people simply rate their beauty compared with others, / he asked them to identify an original photograph of themselves from a lineup including versions / that had been altered to appear more and less attractive. / Visual recognition, / reads the study, / is “an automatic psychological process, / occurring rapidly and intuitively with little or no apparent conscious deliberation.” If the subjects quickly chose a falsely flattering image—which most did—they genuinely believed it was really how they looked.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">心理学家和行为科学家尼古拉斯·埃普利 (Nicholas Epley) 主持了一项关于自我增强和吸引力的重要研究<br>而不是让人们简单地与其他人相比评价自己的美丽 / 他要求他们从包括版本在内的一系列照片中找出一张自己的原始照片 / 已经被改变，看起来越来越有吸引力或越来越不有吸引力<br>视觉识别 / 阅读研究 / 是“一种自动的心理过程 / 快速而直观地发生，很少或没有明显的有意识的考虑。”如果受试者很快选择了一个虚假的讨人喜欢的图像（大多数人都这样做了），他们就会真诚地相信这就是他们的样子</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Psychologist and behavioural scientist Nicholas Epley oversaw a key study into self- enhancement and attractiveness. Rather than have people simply rate their beauty compared with others, he asked them to identify an original photograph of themselves from a lineup including versions that had been altered to appear more and less attractive. Visual recognition, reads the study, is “an automatic psychological process, occurring rapidly and intuitively with little or no apparent conscious deliberation.” If the subjects quickly chose a falsely flattering image—which most did—they genuinely believed it was really how they looked.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>Psychologist and behavioural scientist Nicholas Epley oversaw a key study into self- enhancement and attractiveness. / Rather than have people simply rate their beauty compared with others, / he asked them to identify an original photograph of themselves from a lineup including versions / that had been altered to appear more and less attractive. / Visual recognition, / reads the study, / is “an automatic psychological process, / occurring rapidly and intuitively with little or no apparent conscious deliberation.” If the subjects quickly chose a falsely flattering image—which most did—they genuinely believed it was really how they looked.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">心理学家和行为科学家尼古拉斯·埃普利 (Nicholas Epley) 主持了一项关于自我增强和吸引力的重要研究<br>而不是让人们简单地与其他人相比评价自己的美丽 / 他要求他们从包括版本在内的一系列照片中找出一张自己的原始照片 / 已经被改变，看起来越来越有吸引力或越来越不有吸引力<br>视觉识别 / 阅读研究 / 是“一种自动的心理过程 / 快速而直观地发生，很少或没有明显的有意识的考虑。”如果受试者很快选择了一个虚假的讨人喜欢的图像（大多数人都这样做了），他们就会真诚地相信这就是他们的样子</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-3\">\n<h3>标准译文 · 第3段</h3>\n<p>心理学家和行为科学家尼古拉斯·埃普利（Nicholas Epley）主持了一项关于自我增强和吸引力的重要研究。他并没有让人们简单地与其他人相比评价自己的美丽程度，而是要求他们从一系列照片中找出一张自己的原始照片，其中包括经过修改的版本，使其看起来更具吸引力或不那么有吸引力。该研究称，视觉识别是“一种自动的心理过程，快速而直观地发生，很少或没有明显的有意识的考虑。”如果受试者很快选择了一个虚假的讨人喜欢的形象——大多数人都会这样做——他们就会真诚地相信这就是他们的样子。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Psychologist and behavioural scientist Nicholas Epley oversaw a key study into self- enhancement and attractiveness.</p>\n<p><strong>意群断句：</strong><code>Psychologist and behavioural scientist Nicholas Epley oversaw a key study into self- enhancement and attractiveness.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">心理学家和行为科学家尼古拉斯·埃普利 (Nicholas Epley) 主持了一项关于自我增强和吸引力的重要研究</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">心理学家和行为科学家尼古拉斯·埃普利（Nicholas Epley）主持了一项关于自我增强和吸引力的重要研究。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Rather than have people simply rate their beauty compared with others, he asked them to identify an original photograph of themselves from a lineup including versions that had been altered to appear more and less attractive.</p>\n<p><strong>意群断句：</strong><code>Rather than have people simply rate their beauty compared with others, / he asked them to identify an original photograph of themselves from a lineup including versions / that had been altered to appear more and less attractive.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">而不是让人们简单地与其他人相比评价自己的美丽 / 他要求他们从包括版本在内的一系列照片中找出一张自己的原始照片 / 已经被改变，看起来越来越有吸引力或越来越不有吸引力</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>versions</code>，限定其具体属性与内涵。</li><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with others...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">他并没有让人们简单地与其他人相比评价自己的美丽程度，而是要求他们从一系列照片中找出一张自己的原始照片，其中包括经过修改的版本，使其看起来更具吸引力或不那么有吸引力。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Visual recognition, reads the study, is “an automatic psychological process, occurring rapidly and intuitively with little or no apparent conscious deliberation.” If the subjects quickly chose a falsely flattering image—which most did—they genuinely believed it was really how they looked.</p>\n<p><strong>意群断句：</strong><code>Visual recognition, / reads the study, / is “an automatic psychological process, / occurring rapidly and intuitively with little or no apparent conscious deliberation.” If the subjects quickly chose a falsely flattering image—which most did—they genuinely believed it was really how they looked.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">视觉识别 / 阅读研究 / 是“一种自动的心理过程 / 快速而直观地发生，很少或没有明显的有意识的考虑。”如果受试者很快选择了一个虚假的讨人喜欢的图像（大多数人都这样做了），他们就会真诚地相信这就是他们的样子</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>分词短语作状语/定语</b>：现在分词短语 <code>occurring rapidly and intuitively with little...</code> 作伴随/结果状语或后置修饰，增强语义表现力。</li><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with little or no apparent conscious del...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">该研究称，视觉识别是“一种自动的心理过程，快速而直观地发生，很少或没有明显的有意识的考虑。”如果受试者很快选择了一个虚假的讨人喜欢的形象——大多数人都会这样做——他们就会真诚地相信这就是他们的样子。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>Epley found no significant gender difference in responses. Nor was there any evidence that those who self-enhanced the most (that is, the participants who thought the most positively doctored picture were real) were doing so to make up for profound insecurities. In fact, those who thought that the images higher up the attractiveness scale were real directly corresponded with those who showed other markers for having higher self-esteem. “I don’t think the findings that we have are any evidence of personal delusion,” says Epley. “It’s a reflection simply of people generally thinking well of themselves.” If you are depressed, you won’t be self-enhancing.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>Epley found no significant gender difference in responses. Nor was there any evidence that those who self-enhanced the most (that is, the participants who thought the most positively doctored picture were real) were doing so to make up for profound insecurities. In fact, those who thought that the images higher up the attractiveness scale were real directly corresponded with those who showed other markers for having higher self-esteem. “I don’t think the findings that we have are any evidence of personal delusion,” says Epley. “It’s a reflection simply of people generally thinking well of themselves.” If you are depressed, you won’t be self-enhancing.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>Epley found no significant gender difference in responses. / Nor was there any evidence / that those / who self-enhanced the most (that is, / the participants / who thought the most positively doctored picture were real) were doing so to make up for profound insecurities. / In fact, / those / who thought / that the images higher up the attractiveness scale were real directly corresponded with those / who showed other markers for having higher self-esteem. “I don’t think the findings / that we have are any evidence of personal delusion,” says Epley. “It’s a reflection simply of people generally thinking well of themselves.” If you are depressed, / you won’t be self-enhancing.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>Epley found no significant gender difference in responses. Nor was there any evidence that those who self-enhanced the most (that is, the participants who thought the most positively doctored picture were real) were doing so to make up for profound insecurities. In fact, those who thought that the images higher up the attractiveness scale were real directly corresponded with those who showed other markers for having higher self-esteem. “I don’t think the findings that we have are any evidence of personal delusion,” says Epley. “It’s a reflection simply of people generally thinking well of themselves.” If you are depressed, you won’t be self-enhancing.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>Epley found no significant gender difference in responses. / Nor was there any evidence / that those / who self-enhanced the most (that is, / the participants / who thought the most positively doctored picture were real) were doing so to make up for profound insecurities. / In fact, / those / who thought / that the images higher up the attractiveness scale were real directly corresponded with those / who showed other markers for having higher self-esteem. “I don’t think the findings / that we have are any evidence of personal delusion,” says Epley. “It’s a reflection simply of people generally thinking well of themselves.” If you are depressed, / you won’t be self-enhancing.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-2\">\n<h3>意群翻译 · 第4段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">艾普利发现反应中没有显着的性别差异<br>也没有任何证据 / 那些 / 谁自我提升最多（即 / 参与者 / 他们认为经过最积极修改的图片是真实的）这样做是为了弥补深深的不安全感<br>实际上 / 那些 / 谁想到 / 吸引力等级较高的图像与真实的图像直接对应 / 谁表现出更高自尊的其他标志<br>“我不认为研究结果 / 我们掌握的任何证据都是个人妄想，”埃普利说<br>It’s a reflection simply of people generally thinking well of themselves.” If you are depressed / 你不会自我提升</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>Epley found no significant gender difference in responses. Nor was there any evidence that those who self-enhanced the most (that is, the participants who thought the most positively doctored picture were real) were doing so to make up for profound insecurities. In fact, those who thought that the images higher up the attractiveness scale were real directly corresponded with those who showed other markers for having higher self-esteem. “I don’t think the findings that we have are any evidence of personal delusion,” says Epley. “It’s a reflection simply of people generally thinking well of themselves.” If you are depressed, you won’t be self-enhancing.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>Epley found no significant gender difference in responses. / Nor was there any evidence / that those / who self-enhanced the most (that is, / the participants / who thought the most positively doctored picture were real) were doing so to make up for profound insecurities. / In fact, / those / who thought / that the images higher up the attractiveness scale were real directly corresponded with those / who showed other markers for having higher self-esteem. “I don’t think the findings / that we have are any evidence of personal delusion,” says Epley. “It’s a reflection simply of people generally thinking well of themselves.” If you are depressed, / you won’t be self-enhancing.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-2\">\n<h3>意群翻译 · 第4段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">艾普利发现反应中没有显着的性别差异<br>也没有任何证据 / 那些 / 谁自我提升最多（即 / 参与者 / 他们认为经过最积极修改的图片是真实的）这样做是为了弥补深深的不安全感<br>实际上 / 那些 / 谁想到 / 吸引力等级较高的图像与真实的图像直接对应 / 谁表现出更高自尊的其他标志<br>“我不认为研究结果 / 我们掌握的任何证据都是个人妄想，”埃普利说<br>It’s a reflection simply of people generally thinking well of themselves.” If you are depressed / 你不会自我提升</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-3\">\n<h3>标准译文 · 第4段</h3>\n<p>埃普利发现反应中没有显着的性别差异。也没有任何证据表明那些自我增强最多的人（即那些认为经过最积极修改的图片是真实的参与者）这样做是为了弥补深深的不安全感。事实上，那些认为吸引力等级较高的图像是真实的的人与那些表现出其他具有更高自尊的标志的人直接对应。 “我不认为我们的发现是个人错觉的任何证据，”埃普利说。 “这只是人们普遍自我评价良好的反映。”如果你感到沮丧，你就不会自我提升。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Epley found no significant gender difference in responses.</p>\n<p><strong>意群断句：</strong><code>Epley found no significant gender difference in responses.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">艾普利发现反应中没有显着的性别差异</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">埃普利发现反应中没有显着的性别差异。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Nor was there any evidence that those who self-enhanced the most (that is, the participants who thought the most positively doctored picture were real) were doing so to make up for profound insecurities.</p>\n<p><strong>意群断句：</strong><code>Nor was there any evidence / that those / who self-enhanced the most (that is, / the participants / who thought the most positively doctored picture were real) were doing so to make up for profound insecurities.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">也没有任何证据 / 那些 / 谁自我提升最多（即 / 参与者 / 他们认为经过最积极修改的图片是真实的）这样做是为了弥补深深的不安全感</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>evidence</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">也没有任何证据表明那些自我增强最多的人（即那些认为经过最积极修改的图片是真实的参与者）这样做是为了弥补深深的不安全感。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>In fact, those who thought that the images higher up the attractiveness scale were real directly corresponded with those who showed other markers for having higher self-esteem.</p>\n<p><strong>意群断句：</strong><code>In fact, / those / who thought / that the images higher up the attractiveness scale were real directly corresponded with those / who showed other markers for having higher self-esteem.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">实际上 / 那些 / 谁想到 / 吸引力等级较高的图像与真实的图像直接对应 / 谁表现出更高自尊的其他标志</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>who</code> 引导定语从句修饰先行词 <code>those</code>，限定其具体属性与内涵。</li><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with those who showed other markers for ...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">事实上，那些认为吸引力等级较高的图像是真实的的人与那些表现出其他具有更高自尊的标志的人直接对应。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>“I don’t think the findings that we have are any evidence of personal delusion,” says Epley.</p>\n<p><strong>意群断句：</strong><code>“I don’t think the findings / that we have are any evidence of personal delusion,” says Epley.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">“我不认为研究结果 / 我们掌握的任何证据都是个人妄想，”埃普利说</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>findings</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">“我不认为我们的发现是个人错觉的任何证据，”埃普利说。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句5",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (5/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>“It’s a reflection simply of people generally thinking well of themselves.” If you are depressed, you won’t be self-enhancing.</p>\n<p><strong>意群断句：</strong><code>“It’s a reflection simply of people generally thinking well of themselves.” If you are depressed, / you won’t be self-enhancing.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">It’s a reflection simply of people generally thinking well of themselves.” If you are depressed / 你不会自我提升</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>条件状语从句</b>：由连词 <code>If</code> 引导从句 <code>If you are depressed</code>，限定主句论述的时空背景或逻辑前提。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">“这只是人们普遍自我评价良好的反映。”如果你感到沮丧，你就不会自我提升。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 4
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>Knowing the results of Epley’s study, it makes sense that many people hate photographs of themselves viscerally—on one level, they don’t even recognise the person in the picture as themselves. Facebook therefore, is a self-enhancer’s paradise, where people can share only the most flattering photos, the cream of their wit, style, beauty, intellect and lifestyle. It’s not that people’s profiles are dishonest, says Catalina Toma of Wisconsin-Madison University, “but they portray an idealised version of themselves.”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>Knowing the results of Epley’s study, it makes sense that many people hate photographs of themselves viscerally—on one level, they don’t even recognise the person in the picture as themselves. Facebook therefore, is a self-enhancer’s paradise, where people can share only the most flattering photos, the cream of their wit, style, beauty, intellect and lifestyle. It’s not that people’s profiles are dishonest, says Catalina Toma of Wisconsin-Madison University, “but they portray an idealised version of themselves.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>Knowing the results of Epley’s study, / it makes sense / that many people hate photographs of themselves viscerally—on one level, / they don’t even recognise the person in the picture as themselves. / Facebook therefore, / is a self-enhancer’s paradise, / / where people can share only the most flattering photos, / the cream of their wit, / style, / beauty, / intellect and lifestyle. / It’s not / that people’s profiles are dishonest, / says Catalina Toma of Wisconsin-Madison University, / “but they portray an idealised version of themselves.”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>Knowing the results of Epley’s study, it makes sense that many people hate photographs of themselves viscerally—on one level, they don’t even recognise the person in the picture as themselves. Facebook therefore, is a self-enhancer’s paradise, where people can share only the most flattering photos, the cream of their wit, style, beauty, intellect and lifestyle. It’s not that people’s profiles are dishonest, says Catalina Toma of Wisconsin-Madison University, “but they portray an idealised version of themselves.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>Knowing the results of Epley’s study, / it makes sense / that many people hate photographs of themselves viscerally—on one level, / they don’t even recognise the person in the picture as themselves. / Facebook therefore, / is a self-enhancer’s paradise, / / where people can share only the most flattering photos, / the cream of their wit, / style, / beauty, / intellect and lifestyle. / It’s not / that people’s profiles are dishonest, / says Catalina Toma of Wisconsin-Madison University, / “but they portray an idealised version of themselves.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-2\">\n<h3>意群翻译 · 第5段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">了解 Epley 的研究结果 / 这是有道理的 / 许多人发自内心地讨厌自己的照片——在某种程度上 / 他们甚至认不出照片中的人是他们自己<br>因此脸书 / 是自我提升者的天堂 / 人们只能分享最讨人喜欢的照片 / 他们的智慧结晶 / 风格 / 美丽 / 智力和生活方式<br>它不是 / 人们的个人资料不诚实 / 威斯康星-麦迪逊大学的 Catalina Toma 说道 / “但他们描绘的是自己的理想化版本。”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>Knowing the results of Epley’s study, it makes sense that many people hate photographs of themselves viscerally—on one level, they don’t even recognise the person in the picture as themselves. Facebook therefore, is a self-enhancer’s paradise, where people can share only the most flattering photos, the cream of their wit, style, beauty, intellect and lifestyle. It’s not that people’s profiles are dishonest, says Catalina Toma of Wisconsin-Madison University, “but they portray an idealised version of themselves.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>Knowing the results of Epley’s study, / it makes sense / that many people hate photographs of themselves viscerally—on one level, / they don’t even recognise the person in the picture as themselves. / Facebook therefore, / is a self-enhancer’s paradise, / / where people can share only the most flattering photos, / the cream of their wit, / style, / beauty, / intellect and lifestyle. / It’s not / that people’s profiles are dishonest, / says Catalina Toma of Wisconsin-Madison University, / “but they portray an idealised version of themselves.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-2\">\n<h3>意群翻译 · 第5段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">了解 Epley 的研究结果 / 这是有道理的 / 许多人发自内心地讨厌自己的照片——在某种程度上 / 他们甚至认不出照片中的人是他们自己<br>因此脸书 / 是自我提升者的天堂 / 人们只能分享最讨人喜欢的照片 / 他们的智慧结晶 / 风格 / 美丽 / 智力和生活方式<br>它不是 / 人们的个人资料不诚实 / 威斯康星-麦迪逊大学的 Catalina Toma 说道 / “但他们描绘的是自己的理想化版本。”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-3\">\n<h3>标准译文 · 第5段</h3>\n<p>了解了埃普利的研究结果后，我们发现许多人发自内心地讨厌自己的照片，这是有道理的——在某种程度上，他们甚至不认识照片中的人就是他们自己。因此，Facebook 是自我提升者的天堂，人们只能在这里分享最讨人喜欢的照片，以及他们智慧、风格、美丽、智慧和生活方式的精华。威斯康星麦迪逊大学的卡特琳娜·托马表示，这并不是说人们的个人资料不诚实，“而是他们描绘了理想化的自己。”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Knowing the results of Epley’s study, it makes sense that many people hate photographs of themselves viscerally—on one level, they don’t even recognise the person in the picture as themselves.</p>\n<p><strong>意群断句：</strong><code>Knowing the results of Epley’s study, / it makes sense / that many people hate photographs of themselves viscerally—on one level, / they don’t even recognise the person in the picture as themselves.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">了解 Epley 的研究结果 / 这是有道理的 / 许多人发自内心地讨厌自己的照片——在某种程度上 / 他们甚至认不出照片中的人是他们自己</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>sense</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">了解了埃普利的研究结果后，我们发现许多人发自内心地讨厌自己的照片，这是有道理的——在某种程度上，他们甚至不认识照片中的人就是他们自己。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Facebook therefore, is a self-enhancer’s paradise, where people can share only the most flattering photos, the cream of their wit, style, beauty, intellect and lifestyle.</p>\n<p><strong>意群断句：</strong><code>Facebook therefore, / is a self-enhancer’s paradise, / / where people can share only the most flattering photos, / the cream of their wit, / style, / beauty, / intellect and lifestyle.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">因此脸书 / 是自我提升者的天堂 / 人们只能分享最讨人喜欢的照片 / 他们的智慧结晶 / 风格 / 美丽 / 智力和生活方式</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>非限制性定语从句</b>：<code>,where people can share only the most flattering pho...</code> 引导非限制性定语从句，对前文先行词进行补充说明与信息拓展。</li><li style=\"margin-bottom:5px\"><b>同位语/插入语</b>：<code>the cream of their wit</code> 充当同位语/插入语，紧随其后对前置名词提供身份补充或同等指代。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">因此，Facebook 是自我提升者的天堂，人们只能在这里分享最讨人喜欢的照片，以及他们智慧、风格、美丽、智慧和生活方式的精华。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>It’s not that people’s profiles are dishonest, says Catalina Toma of Wisconsin-Madison University, “but they portray an idealised version of themselves.”</p>\n<p><strong>意群断句：</strong><code>It’s not / that people’s profiles are dishonest, / says Catalina Toma of Wisconsin-Madison University, / “but they portray an idealised version of themselves.”</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">它不是 / 人们的个人资料不诚实 / 威斯康星-麦迪逊大学的 Catalina Toma 说道 / “但他们描绘的是自己的理想化版本。”</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>not</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">威斯康星麦迪逊大学的卡特琳娜·托马表示，这并不是说人们的个人资料不诚实，“而是他们描绘了理想化的自己。”</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "3.一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，正确项如何进行同义改写，错误项如何设置陷阱；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
+          "meta": {
+            "section": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "26题 · 题干、题型与核心出处",
+          "html": "<p><strong>26. According to the first paragraph, social psychologists have found that _______.</strong></p>\n<p>（根据第一段，社会心理学家发现_______。）</p>\n<p><strong>题型判定</strong>：事实细节题 ｜ <strong>定位出处</strong>：Paragraph 1</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "26"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. our self-ratings are unrealistically high",
+          "html": "<p><strong>选项 A</strong>：<code>our self-ratings are unrealistically high</code></p>\n<p><strong>中文翻译</strong>：我们的自我评价高得不切实际</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. illusory superiority is a baseless effect",
+          "html": "<p><strong>选项 B</strong>：<code>illusory superiority is a baseless effect</code></p>\n<p><strong>中文翻译</strong>：虚幻的优越感是毫无根据的效果</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. our need for leadership is unnatural",
+          "html": "<p><strong>选项 C</strong>：<code>our need for leadership is unnatural</code></p>\n<p><strong>中文翻译</strong>：我们对领导力的需求是不自然的</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. self-enhancing strategies are ineffective",
+          "html": "<p><strong>选项 D</strong>：<code>self-enhancing strategies are ineffective</code></p>\n<p><strong>中文翻译</strong>：自我增强策略无效</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "27题 · 题干、题型与核心出处",
+          "html": "<p><strong>27. Visual recognition is believed to be people’s _______.</strong></p>\n<p>（视觉识别被认为是人们的_______。）</p>\n<p><strong>题型判定</strong>：因果推断题 ｜ <strong>定位出处</strong>：Paragraph 2</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "27"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. rapid matching",
+          "html": "<p><strong>选项 A</strong>：<code>rapid matching</code></p>\n<p><strong>中文翻译</strong>：快速匹配</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. conscious choice",
+          "html": "<p><strong>选项 B</strong>：<code>conscious choice</code></p>\n<p><strong>中文翻译</strong>：有意识的选择</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. intuitive response",
+          "html": "<p><strong>选项 C</strong>：<code>intuitive response</code></p>\n<p><strong>中文翻译</strong>：直觉反应</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. automatic self-defence",
+          "html": "<p><strong>选项 D</strong>：<code>automatic self-defence</code></p>\n<p><strong>中文翻译</strong>：自动自卫</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "28题 · 题干、题型与核心出处",
+          "html": "<p><strong>28. Epley found that people with higher self-esteem tended to _______.</strong></p>\n<p>（埃普利发现，自尊心较高的人倾向于_______。）</p>\n<p><strong>题型判定</strong>：段落推理题 ｜ <strong>定位出处</strong>：Paragraph 3</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "28"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. underestimate their insecurities",
+          "html": "<p><strong>选项 A</strong>：<code>underestimate their insecurities</code></p>\n<p><strong>中文翻译</strong>：低估他们的不安全感</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. believe in their attractiveness",
+          "html": "<p><strong>选项 B</strong>：<code>believe in their attractiveness</code></p>\n<p><strong>中文翻译</strong>：相信他们的吸引力</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. cover up their depressions",
+          "html": "<p><strong>选项 C</strong>：<code>cover up their depressions</code></p>\n<p><strong>中文翻译</strong>：掩饰自己的忧郁</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. oversimplify their illusions",
+          "html": "<p><strong>选项 D</strong>：<code>oversimplify their illusions</code></p>\n<p><strong>中文翻译</strong>：过度简化他们的幻想</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "29题 · 题干、题型与核心出处",
+          "html": "<p><strong>29. The word “viscerally” (Paragraph 5) is closest in meaning to _______.</strong></p>\n<p>（“本能地”一词（第 5 段）的含义最接近_______。）</p>\n<p><strong>题型判定</strong>：词义/例证题 ｜ <strong>定位出处</strong>：Paragraph 4</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "29"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. instinctively",
+          "html": "<p><strong>选项 A</strong>：<code>instinctively</code></p>\n<p><strong>中文翻译</strong>：本能地</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. occasionally",
+          "html": "<p><strong>选项 B</strong>：<code>occasionally</code></p>\n<p><strong>中文翻译</strong>：偶尔</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. particularly",
+          "html": "<p><strong>选项 C</strong>：<code>particularly</code></p>\n<p><strong>中文翻译</strong>：特别</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. aggressively",
+          "html": "<p><strong>选项 D</strong>：<code>aggressively</code></p>\n<p><strong>中文翻译</strong>：积极地</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "30题 · 题干、题型与核心出处",
+          "html": "<p><strong>30. It can be inferred that Facebook is a self-enhancer’s paradise because people can ______.</strong></p>\n<p>（可以推断，Facebook 是自我增强者的天堂，因为人们可以______。）</p>\n<p><strong>题型判定</strong>：全文主旨题 ｜ <strong>定位出处</strong>：Paragraph 5</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "30"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. present their dishonest profiles",
+          "html": "<p><strong>选项 A</strong>：<code>present their dishonest profiles</code></p>\n<p><strong>中文翻译</strong>：展示他们不诚实的个人资料</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. define their traditional lifestyles",
+          "html": "<p><strong>选项 B</strong>：<code>define their traditional lifestyles</code></p>\n<p><strong>中文翻译</strong>：定义他们的传统生活方式</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. share their intellectual pursuits",
+          "html": "<p><strong>选项 C</strong>：<code>share their intellectual pursuits</code></p>\n<p><strong>中文翻译</strong>：分享他们的智力追求</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. withhold their unflattering sides",
+          "html": "<p><strong>选项 D</strong>：<code>withhold their unflattering sides</code></p>\n<p><strong>中文翻译</strong>：保留他们不讨人喜欢的一面</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "D"
+          }
+        },
+        {
+          "section": 4,
+          "title": "4.一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>在新题型中，考查的本质是理解文章上下文的逻辑承接能力。我们将本篇真题结构改编为新题型迁移训练，训练对段落主旨与篇章逻辑的提炼概括能力。</p>\n<p><strong>篇章核心逻辑链条</strong>：</p>\n<p>引出核心论题 → 展开多角度实证与事实分析 → 剖析深层体制/社会矛盾 → 提出战略性长效应对策略。</p>",
+          "meta": {
+            "section": 4
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 1",
+          "html": "<p><strong>【考查段落 1】</strong></p>\n<p><code>An article in Scientific American has pointed out that empirical research says that, actually, you think you’re more bea...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 1 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 0
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 2",
+          "html": "<p><strong>【考查段落 2】</strong></p>\n<p><code>We rose-tint our memories and put ourselves into self-affirming situations. We become defensive when criticised, and app...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 2 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 1
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 3",
+          "html": "<p><strong>【考查段落 3】</strong></p>\n<p><code>Psychologist and behavioural scientist Nicholas Epley oversaw a key study into self- enhancement and attractiveness. Rat...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 3 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 2
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 4",
+          "html": "<p><strong>【考查段落 4】</strong></p>\n<p><code>Epley found no significant gender difference in responses. Nor was there any evidence that those who self-enhanced the m...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 4 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 3
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 5",
+          "html": "<p><strong>【考查段落 5】</strong></p>\n<p><code>Knowing the results of Epley’s study, it makes sense that many people hate photographs of themselves viscerally—on one l...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 5 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 4
+          }
+        },
+        {
+          "section": 5,
+          "title": "1. 大作文宏观论述与主题词汇积累",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>可积累的主题表达</th><th>中文翻译</th><th>所属类别</th><th>使用层级</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>promoting institutional adaptability</strong></td><td><strong>增强制度适应性与韧性</strong></td><td><strong>社会/经济发展</strong></td><td><strong>宏观论点</strong></td></tr>\n<tr><td>harmonizing commercial viability and public welfare</td><td>协调商业可行性与公众福祉</td><td>综合治理</td><td>论证支撑</td></tr>\n<tr><td>fostering sustainable long-term development</td><td>促进可持续长远发展</td><td>未来展望</td><td>结论升华</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        },
+        {
+          "section": 5,
+          "title": "2. 大作文图表/观点题通用满分句型模板",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>适用题型</th><th>考试时可复用的形式</th><th>中文翻译</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>图表/观点题</strong></td><td><strong>A is doing B in an effort to do C.</strong></td><td><strong>A正在采取行动B，目的是实现目标C。</strong></td></tr>\n<tr><td>原因剖析段</td><td>The underlying reason behind this phenomenon is that...</td><td>该现象背后的深层原因在于……</td></tr>\n<tr><td>建议对策段</td><td>Only through collaborative governance can we ensure enduring progress.</td><td>唯有通过协同治理，方能确保长久的发展与繁荣。</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        }
+      ]
+    }
+  },
+  "text3": {
+    "id": 3,
+    "qRange": "31-35",
+    "title": "Text 3",
+    "paragraphs": [
+      "The concept of man versus machine is at least as old as the industrial revolution, but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries. And yet, it would be a mistake to think we are right now simply experiencing the painful side of a boom and bust cycle. Certain jobs have gone away for good, outmoded by machines. Since technology has such an insatiable appetite for eating up human jobs, this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.",
+      "When there is rapid improvement in the price and performance of technology, jobs that were once thought to be immune from automation suddenly become threatened. This argument has attracted a lot of attention, via the success of the book Race Against the Machine , by Erik Brynjolfsson and Andrew McAfee, who both hail from MIT’s Center for Digital Business.",
+      "This is a powerful argument, and a scary one. And yet, John Hagel, author of The Power of Pull and other books, says Brynjolfsson and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.",
+      "Hagel says we have designed jobs in the U.S. that tend to be “tightly scripted” and “highly standardized” ones that leave no room for “individual initiative or creativity.” In short, these are the types of jobs that machines can perform much better at than human beings. That is how we have put a giant target sign on the backs of American workers, Hagel says.",
+      "It’s time to reinvent the formula for how work is conducted, since we are still relying on a very 20th century notion of work, Hagel says. In our rapidly changing economy, we more than ever need people in the workplace who can take initiative and exercise their imagination “to respond to unexpected events.” That is not something machines are good at. They are designed to perform very predictable activities.",
+      "As Hagel notes, Brynjolfsson and McAfee indeed touched on this point in their book. We need to reframe race against the machine as race with the machine . In other words, we need to look at the ways in which machines can augment human labor rather than replace it. So then the problem is not really about technology, but rather, “how do we innovate our institutions and our work practices?”"
+    ],
+    "questions": [
+      {
+        "qid": 31,
+        "stem": "According to the first paragraph, economic downturns would _______.",
+        "stem_cn": "根据第一段，经济衰退将_______。",
+        "type": "事实细节题",
+        "locate": "Paragraph 1",
+        "options": [
+          {
+            "key": "A",
+            "text": "ease the competition of man vs. machine",
+            "text_cn": "缓解人与机器的竞争",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "highlight machines’ threat to human jobs",
+            "text_cn": "强调机器对人类工作的威胁",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "C",
+            "text": "provoke a painful technological revolution",
+            "text_cn": "引发一场痛苦的技术革命",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "outmode our current economic structure",
+            "text_cn": "超越我们目前的经济结构",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 32,
+        "stem": "The authors of Race Against the Machine argue that _______.",
+        "stem_cn": "《与机器竞赛》的作者认为_______。",
+        "type": "因果推断题",
+        "locate": "Paragraph 2",
+        "options": [
+          {
+            "key": "A",
+            "text": "technology is diminishing man’s job opportunities",
+            "text_cn": "技术正在减少人类的工作机会",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "B",
+            "text": "automation is accelerating technological development",
+            "text_cn": "自动化正在加速技术发展",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "certain jobs will remain intact after automation",
+            "text_cn": "自动化后某些工作将保持不变",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "man will finally win the race against machine",
+            "text_cn": "人类最终将赢得与机器的竞赛",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 33,
+        "stem": "Hagel argues that jobs in the U.S. are often ______.",
+        "stem_cn": "哈格尔认为，美国的工作通常是______。",
+        "type": "段落推理题",
+        "locate": "Paragraph 3",
+        "options": [
+          {
+            "key": "A",
+            "text": "performed by innovative minds",
+            "text_cn": "由创新思维执行",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "scripted with an individual style",
+            "text_cn": "以个人风格编写",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "standardized without a clear target",
+            "text_cn": "没有明确目标的标准化",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "designed against human creativity",
+            "text_cn": "反对人类创造力的设计",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。"
+          }
+        ]
+      },
+      {
+        "qid": 34,
+        "stem": "According to the last paragraph, Brynjolfsson and McAfee discussed _______.",
+        "stem_cn": "根据最后一段，Brynjolfsson 和 McAfee 讨论了 _______。",
+        "type": "词义/例证题",
+        "locate": "Paragraph 4",
+        "options": [
+          {
+            "key": "A",
+            "text": "the predictability of machine behavior in practice",
+            "text_cn": "实践中机器行为的可预测性",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "the formula for how work is conducted efficiently",
+            "text_cn": "如何高效开展工作的公式",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "the ways machines replace human labor in modern times",
+            "text_cn": "现代机器取代人类劳动力的方式",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "the necessity of human involvement in the workplace",
+            "text_cn": "人类参与工作场所的必要性",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。"
+          }
+        ]
+      },
+      {
+        "qid": 35,
+        "stem": "Which of the following could be the most appropriate title for the text?",
+        "stem_cn": "以下哪一项最适合该文本的标题？",
+        "type": "全文主旨题",
+        "locate": "Paragraph 5",
+        "options": [
+          {
+            "key": "A",
+            "text": "How to Innovate Our Work Practices",
+            "text_cn": "如何创新我们的工作实践",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "Machines Will Replace Human Labor",
+            "text_cn": "机器将取代人类劳动力",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "Can We Win the Race Against Machines",
+            "text_cn": "我们能赢得与机器的竞赛吗",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "D",
+            "text": "Economic Downturns Stimulate Innovations",
+            "text_cn": "经济衰退刺激创新",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      }
+    ],
+    "practice": {
+      "steps": [
+        {
+          "section": "阅前须知",
+          "raw": "# 0.阅前须知\n\n阅前声明，本教程对英语一英语二均适用。\n\n本教程主要解决考研英语阅读备考中的三个结构性问题：\n\n1. **考研英语骗局一**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持认识文章中的所有细节，一个不漏，咱们不可能完全认识文章中的每一个单词，带着不认识的地方读文章做题才是真正的学生视角。即使是有部分超纲生词不认识，从段落和文章主旨、作者态度等宏观阅读文章内容本身分析的层面，也是不影响做全对的；\n\n2. **考研英语骗局二**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接边读边信达雅地翻译出文章，读完一遍只能在脑海里留下大致信息，并且很快遗忘。正确的方式是先粗后细，放弃信达雅的机械翻译，粗读先理解文章大致出现了哪些东西，然后细读采用意群法这种手段实现，即可临危不乱；\n\n3. **考研英语骗局三**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接用某种神技确定某个一定正确的答案。二选一选不出来是个非常正常的现象。用某种神技去秒杀一个文科单选问题违背了逻辑学常识，即孤证不立。通过宏观认知与多判据交叉验证的方式解决，是所有文科单选题的通法。",
+          "html": "<h1>0.阅前须知</h1>\n<p>阅前声明，本教程对英语一英语二均适用。</p>\n<p>本教程主要解决考研英语阅读备考中的三个结构性问题：</p>\n<ol>\n<li><p><strong>考研英语骗局一</strong>：拒绝上帝视角生词全懂，带着超纲生词读宏观主旨同样能做全对；</p></li>\n<li><p><strong>考研英语骗局二</strong>：放弃考场即时信达雅机械翻译，采用意群粗读抓取核心信息；</p></li>\n<li><p><strong>考研英语骗局三</strong>：拒绝所谓单一神技秒杀，采用定位比对与写作视角交叉验证。</p></li>\n</ol>\n<p>大家把考研英语阅读当成真阅读，才能发现真正正确的备考方式。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "# 1. 先读题干\n\n首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰咱们粗读对文章的理解。看题干对考查重点有个大致印象，并且因为题文同序的原则，也能帮助我们提前获取部分文章的逻辑脉络。",
+          "html": "<h1>1. 先读题干</h1><p>首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰粗读理解。看题干对考查重点建立大致印象，借助题文同序原则提前获取文章逻辑脉络。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 31题题干\n\n**According to the first paragraph, economic downturns would _______.**\n\n> 根据第一段，经济衰退将_______。\n\n题型：**事实细节题**。\n\n定位预判：**Paragraph 1**\n\n---",
+          "html": "<h2>31题题干</h2><p><strong>According to the first paragraph, economic downturns would _______.</strong></p><blockquote><p>根据第一段，经济衰退将_______。</p></blockquote><p>题型：<strong>事实细节题</strong>。</p><p>定位预判：<strong>Paragraph 1</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "31"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 32题题干\n\n**The authors of Race Against the Machine argue that _______.**\n\n> 《与机器竞赛》的作者认为_______。\n\n题型：**因果推断题**。\n\n定位预判：**Paragraph 2**\n\n---",
+          "html": "<h2>32题题干</h2><p><strong>The authors of Race Against the Machine argue that _______.</strong></p><blockquote><p>《与机器竞赛》的作者认为_______。</p></blockquote><p>题型：<strong>因果推断题</strong>。</p><p>定位预判：<strong>Paragraph 2</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "32"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 33题题干\n\n**Hagel argues that jobs in the U.S. are often ______.**\n\n> 哈格尔认为，美国的工作通常是______。\n\n题型：**段落推理题**。\n\n定位预判：**Paragraph 3**\n\n---",
+          "html": "<h2>33题题干</h2><p><strong>Hagel argues that jobs in the U.S. are often ______.</strong></p><blockquote><p>哈格尔认为，美国的工作通常是______。</p></blockquote><p>题型：<strong>段落推理题</strong>。</p><p>定位预判：<strong>Paragraph 3</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "33"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 34题题干\n\n**According to the last paragraph, Brynjolfsson and McAfee discussed _______.**\n\n> 根据最后一段，Brynjolfsson 和 McAfee 讨论了 _______。\n\n题型：**词义/例证题**。\n\n定位预判：**Paragraph 4**\n\n---",
+          "html": "<h2>34题题干</h2><p><strong>According to the last paragraph, Brynjolfsson and McAfee discussed _______.</strong></p><blockquote><p>根据最后一段，Brynjolfsson 和 McAfee 讨论了 _______。</p></blockquote><p>题型：<strong>词义/例证题</strong>。</p><p>定位预判：<strong>Paragraph 4</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "34"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 35题题干\n\n**Which of the following could be the most appropriate title for the text?**\n\n> 以下哪一项最适合该文本的标题？\n\n题型：**全文主旨题**。\n\n定位预判：**Paragraph 5**\n\n---",
+          "html": "<h2>35题题干</h2><p><strong>Which of the following could be the most appropriate title for the text?</strong></p><blockquote><p>以下哪一项最适合该文本的标题？</p></blockquote><p>题型：<strong>全文主旨题</strong>。</p><p>定位预判：<strong>Paragraph 5</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "35"
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "# 2. 读文章过程\n\n看完题干后，第一步要粗读一遍文章。根据自身水平扫一遍文章，开头结尾慢一些，注重首尾句，作者举的例子可以略读。关注逻辑词（however, but）、态度评价词、核心动作词与重复主题词。\n\n| 类型 | 关注原因 | 本文关注重点 |\n| --- | --- | --- |\n| 逻辑词 | 作者观点或行文转向 | however, but, nevertheless, yet, although |\n| 态度词 | 作者情感倾向与立场 | critical, positive, resilient, concern, significant |\n| 核心动作 | 论证中主体行为 | argue, demonstrate, implement, undermine |\n| 重复主题词 | 贯穿全篇的核心讨论对象 | 本文核心讨论对象与同义衍生表达 |",
+          "html": "<h1>2. 读文章过程</h1><p>扫读全文，注重段落首尾句，识别论点与论据。关注核心逻辑转折词与态度评价词。</p>\n<table class=\"table-wrap\"><thead><tr><th>类型</th><th>关注原因</th><th>本文关注重点</th></tr></thead>\n<tbody>\n<tr><td>逻辑词</td><td>作者观点或行文转向</td><td>however, but, nevertheless, yet</td></tr>\n<tr><td>态度词</td><td>作者情感倾向与立场</td><td>critical, positive, concern, significant</td></tr>\n<tr><td>核心动作</td><td>论证中主体行为</td><td>argue, demonstrate, implement, undermine</td></tr>\n<tr><td>重复主题词</td><td>贯穿全篇的核心讨论对象</td><td>本文核心论题与衍生词</td></tr>\n</tbody></table>",
+          "meta": {}
+        },
+        {
+          "section": "读文章",
+          "raw": "The concept of man versus machine is at least as old as the industrial revolution, but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries. And yet, it would be a mistake to think we are right now simply [experiencing] the painful side of a boom and bust cycle. Certain jobs have gone away for good, outmoded by machines. Since technology has such an insatiable appetite for eating up human jobs, this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>The concept of man versus machine is at least as old as the industrial revolution, but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries. And yet, it would be a mistake to think we are right now simply <span class=\"mask\">[experiencing]</span> the painful side of a boom and bust cycle. Certain jobs have gone away for good, outmoded by machines. Since technology has such an insatiable appetite for eating up human jobs, this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The concept of man versus machine is at least as old as the industrial revolution, / but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries. / And yet, / it would be a mistake to think we are right now simply [experiencing] the painful side of a boom and bust cycle. / Certain jobs have gone away for good, / outmoded by machines. / Since technology has such an insatiable appetite for eating up human jobs, / this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>The concept of man versus machine is at least as old as the industrial revolution, / but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries. / And yet, / it would be a mistake to think we are right now simply <span class=\"mask\">[experiencing]</span> the painful side of a boom and bust cycle. / Certain jobs have gone away for good, / outmoded by machines. / Since technology has such an insatiable appetite for eating up human jobs, / this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第1段意群顺译】人与机器的概念至少与工业革命一样古老，但这种现象往往在经济低迷和脆弱的复苏期间最为明显。然而，如果认为我们现在只是在经历繁荣与萧条周期的痛苦一面，那就错了。某些工作已经被机器永远消失、过时了。由于技术对吞噬人类工作的胃口如此之大，这种现象将继续以我们无法立即预见的方式重组我们的经...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>【第1段意群顺译】人与机器的概念至少与工业革命一样古老，但这种现象往往在经济低迷和脆弱的复苏期间最为明显。然而，如果认为我们现在只是在经历繁荣与萧条周期的痛苦一面，那就错了。某些工作已经被机器永远消失、过时了。由于技术对吞噬人类工作的胃口如此之大，这种现象将继续以我们无法立即预见的方式重组我们的经...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "When there is rapid improvement in the price and performance of technology, jobs that were once thought to be immune from automation suddenly become threatened. This argument has [attracted] a lot of attention, via the success of the book Race Against the Machine , by Erik [Brynjolfsson] and Andrew McAfee, who both hail from MIT’s Center for Digital Business.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>When there is rapid improvement in the price and performance of technology, jobs that were once thought to be immune from automation suddenly become threatened. This argument has <span class=\"mask\">[attracted]</span> a lot of attention, via the success of the book Race Against the Machine , by Erik <span class=\"mask\">[Brynjolfsson]</span> and Andrew McAfee, who both hail from MIT’s Center for Digital Business.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "When there is rapid improvement in the price and performance of technology, / jobs / that were once thought to be immune from automation suddenly become threatened. / This argument has [attracted] a lot of attention, / via the success of the book Race Against the Machine , / by Erik [Brynjolfsson] and Andrew McAfee, / / who both hail from MIT’s Center for Digital Business.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>When there is rapid improvement in the price and performance of technology, / jobs / that were once thought to be immune from automation suddenly become threatened. / This argument has <span class=\"mask\">[attracted]</span> a lot of attention, / via the success of the book Race Against the Machine , / by Erik <span class=\"mask\">[Brynjolfsson]</span> and Andrew McAfee, / / who both hail from MIT’s Center for Digital Business.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第2段意群顺译】当技术的价格和性能迅速提高时，曾经被认为不受自动化影响的工作突然受到威胁。由于埃里克·布林约尔松 (Erik Brynjolfsson) 和安德鲁·麦卡菲 (Andrew McAfee) 所著的《与机器赛跑》一书的成功，这一论点引起了广泛关注，他们都来自麻省理工学院数字商业中心。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第2段意群顺译】当技术的价格和性能迅速提高时，曾经被认为不受自动化影响的工作突然受到威胁。由于埃里克·布林约尔松 (Erik Brynjolfsson) 和安德鲁·麦卡菲 (Andrew McAfee) 所著的《与机器赛跑》一书的成功，这一论点引起了广泛关注，他们都来自麻省理工学院数字商业中心。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "This is a powerful argument, and a scary one. And yet, John Hagel, author of The Power of Pull and other books, says [Brynjolfsson] and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>This is a powerful argument, and a scary one. And yet, John Hagel, author of The Power of Pull and other books, says <span class=\"mask\">[Brynjolfsson]</span> and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "This is a powerful argument, / and a scary one. / And yet, / John Hagel, / author of The Power of Pull and other books, / says [Brynjolfsson] and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>This is a powerful argument, / and a scary one. / And yet, / John Hagel, / author of The Power of Pull and other books, / says <span class=\"mask\">[Brynjolfsson]</span> and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第3段意群顺译】这是一个强有力的论点，也是一个可怕的论点。然而，《拉动的力量》和其他书籍的作者约翰·哈格尔表示，布林约尔松和迈克菲首先忽视了这些工作如此容易受到技术影响的原因。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第3段意群顺译】这是一个强有力的论点，也是一个可怕的论点。然而，《拉动的力量》和其他书籍的作者约翰·哈格尔表示，布林约尔松和迈克菲首先忽视了这些工作如此容易受到技术影响的原因。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Hagel says we have designed jobs in the U.S. that tend to be “tightly scripted” and “highly [standardized”] ones that leave no room for [“individual] initiative or creativity.” In short, these are the types of jobs that machines can perform much better at than human beings. That is how we have put a giant target sign on the backs of American workers, Hagel says.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Hagel says we have designed jobs in the U.S. that tend to be “tightly scripted” and “highly <span class=\"mask\">[standardized”]</span> ones that leave no room for <span class=\"mask\">[“individual]</span> initiative or creativity.” In short, these are the types of jobs that machines can perform much better at than human beings. That is how we have put a giant target sign on the backs of American workers, Hagel says.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Hagel says we have designed jobs in the U.S. / that tend to be “tightly scripted” and “highly [standardized”] ones / that leave no room for [“individual] initiative or creativity.” In short, / these are the types of jobs / that machines can perform much better at than human beings. / That is how we have put a giant target sign on the backs of American workers, / Hagel says.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Hagel says we have designed jobs in the U.S. / that tend to be “tightly scripted” and “highly <span class=\"mask\">[standardized”]</span> ones / that leave no room for <span class=\"mask\">[“individual]</span> initiative or creativity.” In short, / these are the types of jobs / that machines can perform much better at than human beings. / That is how we have put a giant target sign on the backs of American workers, / Hagel says.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第4段意群顺译】哈格尔说，我们在美国设计的工作往往是“严格照本宣科”和“高度标准化”，没有给“个人主动性或创造力”留下空间。简而言之，在这些类型的工作中，机器可以比人类做得更好。哈格尔说，这就是我们如何在美国工人的背上挂上一个巨大的目标标志。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第4段意群顺译】哈格尔说，我们在美国设计的工作往往是“严格照本宣科”和“高度标准化”，没有给“个人主动性或创造力”留下空间。简而言之，在这些类型的工作中，机器可以比人类做得更好。哈格尔说，这就是我们如何在美国工人的背上挂上一个巨大的目标标志。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "It’s time to reinvent the formula for how work is conducted, since we are still relying on a very 20th century notion of work, Hagel says. In our rapidly changing economy, we more than ever need people in the workplace who can take initiative and exercise their imagination “to respond to [unexpected] events.” That is not [something] machines are good at. They are designed to perform very [predictable] activities.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>It’s time to reinvent the formula for how work is conducted, since we are still relying on a very 20th century notion of work, Hagel says. In our rapidly changing economy, we more than ever need people in the workplace who can take initiative and exercise their imagination “to respond to <span class=\"mask\">[unexpected]</span> events.” That is not <span class=\"mask\">[something]</span> machines are good at. They are designed to perform very <span class=\"mask\">[predictable]</span> activities.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "It’s time to reinvent the formula for how work is conducted, / / since we are still relying on a very 20th century notion of work, / Hagel says. / In our rapidly changing economy, / we more than ever need people in the workplace / who can take initiative and exercise their imagination “to respond to [unexpected] events.” That is not [something] machines are good at. / They are designed to perform very [predictable] activities.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>It’s time to reinvent the formula for how work is conducted, / / since we are still relying on a very 20th century notion of work, / Hagel says. / In our rapidly changing economy, / we more than ever need people in the workplace / who can take initiative and exercise their imagination “to respond to <span class=\"mask\">[unexpected]</span> events.” That is not <span class=\"mask\">[something]</span> machines are good at. / They are designed to perform very <span class=\"mask\">[predictable]</span> activities.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第5段意群顺译】哈格尔说，现在是重新发明工作方式的时候了，因为我们仍然依赖 20 世纪的工作概念。在瞬息万变的经济中，我们比以往任何时候都更需要工作场所的人们能够主动并发挥想象力“应对突发事件”。这不是机器擅长的事情。它们被设计用来执行非常可预测的活动。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第5段意群顺译】哈格尔说，现在是重新发明工作方式的时候了，因为我们仍然依赖 20 世纪的工作概念。在瞬息万变的经济中，我们比以往任何时候都更需要工作场所的人们能够主动并发挥想象力“应对突发事件”。这不是机器擅长的事情。它们被设计用来执行非常可预测的活动。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "As Hagel notes, [Brynjolfsson] and McAfee indeed touched on this point in their book. We need to reframe race against the machine as race with the machine . In other words, we need to look at the ways in which machines can augment human labor rather than replace it. So then the problem is not really about technology, but rather, “how do we innovate our [institutions] and our work [practices]?”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>As Hagel notes, <span class=\"mask\">[Brynjolfsson]</span> and McAfee indeed touched on this point in their book. We need to reframe race against the machine as race with the machine . In other words, we need to look at the ways in which machines can augment human labor rather than replace it. So then the problem is not really about technology, but rather, “how do we innovate our <span class=\"mask\">[institutions]</span> and our work <span class=\"mask\">[practices]</span>?”</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "As Hagel notes, / [Brynjolfsson] and McAfee indeed touched on this point in their book. / We need to reframe race against the machine as race with the machine . / In other words, / we need to look at the ways in / which machines can augment human labor / rather than replace it. / So then the problem is not really about technology, / but rather, / “how do we innovate our [institutions] and our work [practices]?”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>As Hagel notes, / <span class=\"mask\">[Brynjolfsson]</span> and McAfee indeed touched on this point in their book. / We need to reframe race against the machine as race with the machine . / In other words, / we need to look at the ways in / which machines can augment human labor / rather than replace it. / So then the problem is not really about technology, / but rather, / “how do we innovate our <span class=\"mask\">[institutions]</span> and our work <span class=\"mask\">[practices]</span>?”</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第6段意群顺译】正如哈格尔指出的那样，布林约尔松和迈克菲确实在他们的书中谈到了这一点。我们需要将与机器的竞赛重新定义为与机器的竞赛。换句话说，我们需要研究机器如何增强而不是取代人类劳动力。因此，问题实际上并不在于技术，而是“我们如何创新我们的机构和工作实践？”...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第6段意群顺译】正如哈格尔指出的那样，布林约尔松和迈克菲确实在他们的书中谈到了这一点。我们需要将与机器的竞赛重新定义为与机器的竞赛。换句话说，我们需要研究机器如何增强而不是取代人类劳动力。因此，问题实际上并不在于技术，而是“我们如何创新我们的机构和工作实践？”...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 3
+          }
+        },
+        {
+          "section": "做题过程",
+          "raw": "# 3. 开始做题 (31-35题)\n\n粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。",
+          "html": "<h1>3. 开始做题 (31-35题)</h1><p>粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。</p>",
+          "meta": {}
+        },
+        {
+          "section": "31题",
+          "raw": "## 31题\n\n**According to the first paragraph, economic downturns would _______.**\n\n> 根据第一段，经济衰退将_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> The concept of man versus machine is at least as old as the industrial revolution, but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries. And yet, it would be a mistake to think we are right now simply [experiencing] the painful side of a boom and bust cycle. Certain jobs have gone away for good, outmoded by machines. Since technology has such an insatiable appetite for eating up human jobs, this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.\n>\n> 开始精读：\n>\n> The concept of man versus machine is at least as old as the industrial revolution, / but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries. / And yet, / it would be a mistake to think we are right now simply [experiencing] the painful side of a boom and bust cycle. / Certain jobs have gone away for good, / outmoded by machines. / Since technology has such an insatiable appetite for eating up human jobs, / this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.\n>\n> 逐意群顺译：\n>\n> 人与机器的概念至少与工业革命一样古老，但这种现象往往在经济低迷和脆弱的复苏期间最为明显。然而，如果认为我们现在只是在经历繁荣与萧条周期的痛苦一面，那就错了。某些工作已经被机器永远消失、过时了。由于技术对吞噬人类工作的胃口如此之大，这种现象将继续以我们无法立即预见的方式重组我们的经济。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>31题</h2>\n<p><strong>According to the first paragraph, economic downturns would _______.</strong></p>\n<blockquote><p>根据第一段，经济衰退将_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>The concept of man versus machine is at least as old as the industrial revolution, but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries. And yet, it would be a mistake to think we are right now simply <span class=\"mask\">[experiencing]</span> the painful side of a boom and bust cycle. Certain jobs have gone away for good, outmoded by machines. Since technology has such an insatiable appetite for eating up human jobs, this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.</p>\n<p><strong>开始精读：</strong></p>\n<p>The concept of man versus machine is at least as old as the industrial revolution, / but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries. / And yet, / it would be a mistake to think we are right now simply <span class=\"mask\">[experiencing]</span> the painful side of a boom and bust cycle. / Certain jobs have gone away for good, / outmoded by machines. / Since technology has such an insatiable appetite for eating up human jobs, / this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>人与机器的概念至少与工业革命一样古老，但这种现象往往在经济低迷和脆弱的复苏期间最为明显。然而，如果认为我们现在只是在经历繁荣与萧条周期的痛苦一面，那就错了。某些工作已经被机器永远消失、过时了。由于技术对吞噬人类工作的胃口如此之大，这种现象将继续以我们无法立即预见的方式重组我们的经济。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "31"
+          }
+        },
+        {
+          "section": "31题",
+          "raw": "### A. ease the competition of man vs. machine\n\n> 缓解人与机器的竞争\n\n我们先看 A 选项：`ease the competition of man vs. machine`（缓解人与机器的竞争）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第一段，经济衰退将“缓解人与机器的竞争”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `ease`, `competition`, `man` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. ease the competition of man vs. machine</h3>\n<blockquote><p>缓解人与机器的竞争</p></blockquote>\n<p>我们先看 A 选项：<code>ease the competition of man vs. machine</code>（缓解人与机器的竞争）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第一段，经济衰退将“缓解人与机器的竞争”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>ease</code>, <code>competition</code>, <code>man</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "31",
+            "option": "A"
+          }
+        },
+        {
+          "section": "31题",
+          "raw": "### B. highlight machines’ threat to human jobs\n\n> 强调机器对人类工作的威胁\n\n我们先看 B 选项：`highlight machines’ threat to human jobs`（强调机器对人类工作的威胁）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第一段，经济衰退将“强调机器对人类工作的威胁”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `highlight`, `machines`, `threat` 与原文第 1 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：B强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>B. highlight machines’ threat to human jobs</h3>\n<blockquote><p>强调机器对人类工作的威胁</p></blockquote>\n<p>我们先看 B 选项：<code>highlight machines’ threat to human jobs</code>（强调机器对人类工作的威胁）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第一段，经济衰退将“强调机器对人类工作的威胁”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>highlight</code>, <code>machines</code>, <code>threat</code> 与原文第 1 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：B强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "31",
+            "option": "B"
+          }
+        },
+        {
+          "section": "31题",
+          "raw": "### C. provoke a painful technological revolution\n\n> 引发一场痛苦的技术革命\n\n我们先看 C 选项：`provoke a painful technological revolution`（引发一场痛苦的技术革命）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第一段，经济衰退将“引发一场痛苦的技术革命”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“引发一场痛苦的技术革命”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. provoke a painful technological revolution</h3>\n<blockquote><p>引发一场痛苦的技术革命</p></blockquote>\n<p>我们先看 C 选项：<code>provoke a painful technological revolution</code>（引发一场痛苦的技术革命）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第一段，经济衰退将“引发一场痛苦的技术革命”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“引发一场痛苦的技术革命”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "31",
+            "option": "C"
+          }
+        },
+        {
+          "section": "31题",
+          "raw": "### D. outmode our current economic structure\n\n> 超越我们目前的经济结构\n\n我们先看 D 选项：`outmode our current economic structure`（超越我们目前的经济结构）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第一段，经济衰退将“超越我们目前的经济结构”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `outmode`, `our`, `current` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. outmode our current economic structure</h3>\n<blockquote><p>超越我们目前的经济结构</p></blockquote>\n<p>我们先看 D 选项：<code>outmode our current economic structure</code>（超越我们目前的经济结构）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第一段，经济衰退将“超越我们目前的经济结构”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>outmode</code>, <code>our</code>, <code>current</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "31",
+            "option": "D"
+          }
+        },
+        {
+          "section": "31题",
+          "raw": "### 31题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B强保留，与原文定位信息高度吻合；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>31题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B强保留，与原文定位信息高度吻合</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "31"
+          }
+        },
+        {
+          "section": "32题",
+          "raw": "## 32题\n\n**The authors of Race Against the Machine argue that _______.**\n\n> 《与机器竞赛》的作者认为_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> When there is rapid improvement in the price and performance of technology, jobs that were once thought to be immune from automation suddenly become threatened. This argument has [attracted] a lot of attention, via the success of the book Race Against the Machine , by Erik [Brynjolfsson] and Andrew McAfee, who both hail from MIT’s Center for Digital Business.\n>\n> 开始精读：\n>\n> When there is rapid improvement in the price and performance of technology, / jobs / that were once thought to be immune from automation suddenly become threatened. / This argument has [attracted] a lot of attention, / via the success of the book Race Against the Machine , / by Erik [Brynjolfsson] and Andrew McAfee, / / who both hail from MIT’s Center for Digital Business.\n>\n> 逐意群顺译：\n>\n> 当技术的价格和性能迅速提高时，曾经被认为不受自动化影响的工作突然受到威胁。由于埃里克·布林约尔松 (Erik Brynjolfsson) 和安德鲁·麦卡菲 (Andrew McAfee) 所著的《与机器赛跑》一书的成功，这一论点引起了广泛关注，他们都来自麻省理工学院数字商业中心。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>32题</h2>\n<p><strong>The authors of Race Against the Machine argue that _______.</strong></p>\n<blockquote><p>《与机器竞赛》的作者认为_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>When there is rapid improvement in the price and performance of technology, jobs that were once thought to be immune from automation suddenly become threatened. This argument has <span class=\"mask\">[attracted]</span> a lot of attention, via the success of the book Race Against the Machine , by Erik <span class=\"mask\">[Brynjolfsson]</span> and Andrew McAfee, who both hail from MIT’s Center for Digital Business.</p>\n<p><strong>开始精读：</strong></p>\n<p>When there is rapid improvement in the price and performance of technology, / jobs / that were once thought to be immune from automation suddenly become threatened. / This argument has <span class=\"mask\">[attracted]</span> a lot of attention, / via the success of the book Race Against the Machine , / by Erik <span class=\"mask\">[Brynjolfsson]</span> and Andrew McAfee, / / who both hail from MIT’s Center for Digital Business.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>当技术的价格和性能迅速提高时，曾经被认为不受自动化影响的工作突然受到威胁。由于埃里克·布林约尔松 (Erik Brynjolfsson) 和安德鲁·麦卡菲 (Andrew McAfee) 所著的《与机器赛跑》一书的成功，这一论点引起了广泛关注，他们都来自麻省理工学院数字商业中心。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "32"
+          }
+        },
+        {
+          "section": "32题",
+          "raw": "### A. technology is diminishing man’s job opportunities\n\n> 技术正在减少人类的工作机会\n\n我们先看 A 选项：`technology is diminishing man’s job opportunities`（技术正在减少人类的工作机会）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：《与机器竞赛》的作者认为“技术正在减少人类的工作机会”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `technology`, `diminishing`, `man` 与原文第 2 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：A强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>A. technology is diminishing man’s job opportunities</h3>\n<blockquote><p>技术正在减少人类的工作机会</p></blockquote>\n<p>我们先看 A 选项：<code>technology is diminishing man’s job opportunities</code>（技术正在减少人类的工作机会）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：《与机器竞赛》的作者认为“技术正在减少人类的工作机会”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>technology</code>, <code>diminishing</code>, <code>man</code> 与原文第 2 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：A强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "32",
+            "option": "A"
+          }
+        },
+        {
+          "section": "32题",
+          "raw": "### B. automation is accelerating technological development\n\n> 自动化正在加速技术发展\n\n我们先看 B 选项：`automation is accelerating technological development`（自动化正在加速技术发展）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：《与机器竞赛》的作者认为“自动化正在加速技术发展”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“自动化正在加速技术发展”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. automation is accelerating technological development</h3>\n<blockquote><p>自动化正在加速技术发展</p></blockquote>\n<p>我们先看 B 选项：<code>automation is accelerating technological development</code>（自动化正在加速技术发展）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：《与机器竞赛》的作者认为“自动化正在加速技术发展”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“自动化正在加速技术发展”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "32",
+            "option": "B"
+          }
+        },
+        {
+          "section": "32题",
+          "raw": "### C. certain jobs will remain intact after automation\n\n> 自动化后某些工作将保持不变\n\n我们先看 C 选项：`certain jobs will remain intact after automation`（自动化后某些工作将保持不变）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：《与机器竞赛》的作者认为“自动化后某些工作将保持不变”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“自动化后某些工作将保持不变”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. certain jobs will remain intact after automation</h3>\n<blockquote><p>自动化后某些工作将保持不变</p></blockquote>\n<p>我们先看 C 选项：<code>certain jobs will remain intact after automation</code>（自动化后某些工作将保持不变）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：《与机器竞赛》的作者认为“自动化后某些工作将保持不变”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“自动化后某些工作将保持不变”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "32",
+            "option": "C"
+          }
+        },
+        {
+          "section": "32题",
+          "raw": "### D. man will finally win the race against machine\n\n> 人类最终将赢得与机器的竞赛\n\n我们先看 D 选项：`man will finally win the race against machine`（人类最终将赢得与机器的竞赛）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：《与机器竞赛》的作者认为“人类最终将赢得与机器的竞赛”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“人类最终将赢得与机器的竞赛”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. man will finally win the race against machine</h3>\n<blockquote><p>人类最终将赢得与机器的竞赛</p></blockquote>\n<p>我们先看 D 选项：<code>man will finally win the race against machine</code>（人类最终将赢得与机器的竞赛）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：《与机器竞赛》的作者认为“人类最终将赢得与机器的竞赛”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“人类最终将赢得与机器的竞赛”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "32",
+            "option": "D"
+          }
+        },
+        {
+          "section": "32题",
+          "raw": "### 32题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A强保留，与原文定位信息高度吻合；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>32题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A强保留，与原文定位信息高度吻合</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "32"
+          }
+        },
+        {
+          "section": "33题",
+          "raw": "## 33题\n\n**Hagel argues that jobs in the U.S. are often ______.**\n\n> 哈格尔认为，美国的工作通常是______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> This is a powerful argument, and a scary one. And yet, John Hagel, author of The Power of Pull and other books, says [Brynjolfsson] and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.\n>\n> 开始精读：\n>\n> This is a powerful argument, / and a scary one. / And yet, / John Hagel, / author of The Power of Pull and other books, / says [Brynjolfsson] and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.\n>\n> 逐意群顺译：\n>\n> 这是一个强有力的论点，也是一个可怕的论点。然而，《拉动的力量》和其他书籍的作者约翰·哈格尔表示，布林约尔松和迈克菲首先忽视了这些工作如此容易受到技术影响的原因。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>33题</h2>\n<p><strong>Hagel argues that jobs in the U.S. are often ______.</strong></p>\n<blockquote><p>哈格尔认为，美国的工作通常是______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>This is a powerful argument, and a scary one. And yet, John Hagel, author of The Power of Pull and other books, says <span class=\"mask\">[Brynjolfsson]</span> and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.</p>\n<p><strong>开始精读：</strong></p>\n<p>This is a powerful argument, / and a scary one. / And yet, / John Hagel, / author of The Power of Pull and other books, / says <span class=\"mask\">[Brynjolfsson]</span> and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>这是一个强有力的论点，也是一个可怕的论点。然而，《拉动的力量》和其他书籍的作者约翰·哈格尔表示，布林约尔松和迈克菲首先忽视了这些工作如此容易受到技术影响的原因。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "33"
+          }
+        },
+        {
+          "section": "33题",
+          "raw": "### A. performed by innovative minds\n\n> 由创新思维执行\n\n我们先看 A 选项：`performed by innovative minds`（由创新思维执行）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：哈格尔认为，美国的工作通常是“由创新思维执行”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“由创新思维执行”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. performed by innovative minds</h3>\n<blockquote><p>由创新思维执行</p></blockquote>\n<p>我们先看 A 选项：<code>performed by innovative minds</code>（由创新思维执行）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：哈格尔认为，美国的工作通常是“由创新思维执行”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“由创新思维执行”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "33",
+            "option": "A"
+          }
+        },
+        {
+          "section": "33题",
+          "raw": "### B. scripted with an individual style\n\n> 以个人风格编写\n\n我们先看 B 选项：`scripted with an individual style`（以个人风格编写）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：哈格尔认为，美国的工作通常是“以个人风格编写”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“以个人风格编写”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. scripted with an individual style</h3>\n<blockquote><p>以个人风格编写</p></blockquote>\n<p>我们先看 B 选项：<code>scripted with an individual style</code>（以个人风格编写）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：哈格尔认为，美国的工作通常是“以个人风格编写”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“以个人风格编写”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "33",
+            "option": "B"
+          }
+        },
+        {
+          "section": "33题",
+          "raw": "### C. standardized without a clear target\n\n> 没有明确目标的标准化\n\n我们先看 C 选项：`standardized without a clear target`（没有明确目标的标准化）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：哈格尔认为，美国的工作通常是“没有明确目标的标准化”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“没有明确目标的标准化”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. standardized without a clear target</h3>\n<blockquote><p>没有明确目标的标准化</p></blockquote>\n<p>我们先看 C 选项：<code>standardized without a clear target</code>（没有明确目标的标准化）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：哈格尔认为，美国的工作通常是“没有明确目标的标准化”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“没有明确目标的标准化”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "33",
+            "option": "C"
+          }
+        },
+        {
+          "section": "33题",
+          "raw": "### D. designed against human creativity\n\n> 反对人类创造力的设计\n\n我们先看 D 选项：`designed against human creativity`（反对人类创造力的设计）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：哈格尔认为，美国的工作通常是“反对人类创造力的设计”。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `designed`, `against`, `human` 与原文第 3 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：D强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>D. designed against human creativity</h3>\n<blockquote><p>反对人类创造力的设计</p></blockquote>\n<p>我们先看 D 选项：<code>designed against human creativity</code>（反对人类创造力的设计）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：哈格尔认为，美国的工作通常是“反对人类创造力的设计”。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>designed</code>, <code>against</code>, <code>human</code> 与原文第 3 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：D强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "33",
+            "option": "D"
+          }
+        },
+        {
+          "section": "33题",
+          "raw": "### 33题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D强保留，与原文定位信息高度吻合；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>33题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D强保留，与原文定位信息高度吻合</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "33"
+          }
+        },
+        {
+          "section": "34题",
+          "raw": "## 34题\n\n**According to the last paragraph, Brynjolfsson and McAfee discussed _______.**\n\n> 根据最后一段，Brynjolfsson 和 McAfee 讨论了 _______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> Hagel says we have designed jobs in the U.S. that tend to be “tightly scripted” and “highly [standardized”] ones that leave no room for [“individual] initiative or creativity.” In short, these are the types of jobs that machines can perform much better at than human beings. That is how we have put a giant target sign on the backs of American workers, Hagel says.\n>\n> 开始精读：\n>\n> Hagel says we have designed jobs in the U.S. / that tend to be “tightly scripted” and “highly [standardized”] ones / that leave no room for [“individual] initiative or creativity.” In short, / these are the types of jobs / that machines can perform much better at than human beings. / That is how we have put a giant target sign on the backs of American workers, / Hagel says.\n>\n> 逐意群顺译：\n>\n> 哈格尔说，我们在美国设计的工作往往是“严格照本宣科”和“高度标准化”，没有给“个人主动性或创造力”留下空间。简而言之，在这些类型的工作中，机器可以比人类做得更好。哈格尔说，这就是我们如何在美国工人的背上挂上一个巨大的目标标志。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>34题</h2>\n<p><strong>According to the last paragraph, Brynjolfsson and McAfee discussed _______.</strong></p>\n<blockquote><p>根据最后一段，Brynjolfsson 和 McAfee 讨论了 _______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Hagel says we have designed jobs in the U.S. that tend to be “tightly scripted” and “highly <span class=\"mask\">[standardized”]</span> ones that leave no room for <span class=\"mask\">[“individual]</span> initiative or creativity.” In short, these are the types of jobs that machines can perform much better at than human beings. That is how we have put a giant target sign on the backs of American workers, Hagel says.</p>\n<p><strong>开始精读：</strong></p>\n<p>Hagel says we have designed jobs in the U.S. / that tend to be “tightly scripted” and “highly <span class=\"mask\">[standardized”]</span> ones / that leave no room for <span class=\"mask\">[“individual]</span> initiative or creativity.” In short, / these are the types of jobs / that machines can perform much better at than human beings. / That is how we have put a giant target sign on the backs of American workers, / Hagel says.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>哈格尔说，我们在美国设计的工作往往是“严格照本宣科”和“高度标准化”，没有给“个人主动性或创造力”留下空间。简而言之，在这些类型的工作中，机器可以比人类做得更好。哈格尔说，这就是我们如何在美国工人的背上挂上一个巨大的目标标志。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "34"
+          }
+        },
+        {
+          "section": "34题",
+          "raw": "### A. the predictability of machine behavior in practice\n\n> 实践中机器行为的可预测性\n\n我们先看 A 选项：`the predictability of machine behavior in practice`（实践中机器行为的可预测性）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据最后一段，Brynjolfsson 和 McAfee 讨论了 “实践中机器行为的可预测性”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“实践中机器行为的可预测性”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. the predictability of machine behavior in practice</h3>\n<blockquote><p>实践中机器行为的可预测性</p></blockquote>\n<p>我们先看 A 选项：<code>the predictability of machine behavior in practice</code>（实践中机器行为的可预测性）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据最后一段，Brynjolfsson 和 McAfee 讨论了 “实践中机器行为的可预测性”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“实践中机器行为的可预测性”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "34",
+            "option": "A"
+          }
+        },
+        {
+          "section": "34题",
+          "raw": "### B. the formula for how work is conducted efficiently\n\n> 如何高效开展工作的公式\n\n我们先看 B 选项：`the formula for how work is conducted efficiently`（如何高效开展工作的公式）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据最后一段，Brynjolfsson 和 McAfee 讨论了 “如何高效开展工作的公式”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“如何高效开展工作的公式”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. the formula for how work is conducted efficiently</h3>\n<blockquote><p>如何高效开展工作的公式</p></blockquote>\n<p>我们先看 B 选项：<code>the formula for how work is conducted efficiently</code>（如何高效开展工作的公式）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据最后一段，Brynjolfsson 和 McAfee 讨论了 “如何高效开展工作的公式”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“如何高效开展工作的公式”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "34",
+            "option": "B"
+          }
+        },
+        {
+          "section": "34题",
+          "raw": "### C. the ways machines replace human labor in modern times\n\n> 现代机器取代人类劳动力的方式\n\n我们先看 C 选项：`the ways machines replace human labor in modern times`（现代机器取代人类劳动力的方式）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据最后一段，Brynjolfsson 和 McAfee 讨论了 “现代机器取代人类劳动力的方式”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `ways`, `machines`, `replace` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. the ways machines replace human labor in modern times</h3>\n<blockquote><p>现代机器取代人类劳动力的方式</p></blockquote>\n<p>我们先看 C 选项：<code>the ways machines replace human labor in modern times</code>（现代机器取代人类劳动力的方式）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据最后一段，Brynjolfsson 和 McAfee 讨论了 “现代机器取代人类劳动力的方式”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>ways</code>, <code>machines</code>, <code>replace</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "34",
+            "option": "C"
+          }
+        },
+        {
+          "section": "34题",
+          "raw": "### D. the necessity of human involvement in the workplace\n\n> 人类参与工作场所的必要性\n\n我们先看 D 选项：`the necessity of human involvement in the workplace`（人类参与工作场所的必要性）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据最后一段，Brynjolfsson 和 McAfee 讨论了 “人类参与工作场所的必要性”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `necessity`, `human`, `involvement` 与原文第 4 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：D强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>D. the necessity of human involvement in the workplace</h3>\n<blockquote><p>人类参与工作场所的必要性</p></blockquote>\n<p>我们先看 D 选项：<code>the necessity of human involvement in the workplace</code>（人类参与工作场所的必要性）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据最后一段，Brynjolfsson 和 McAfee 讨论了 “人类参与工作场所的必要性”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>necessity</code>, <code>human</code>, <code>involvement</code> 与原文第 4 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：D强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "34",
+            "option": "D"
+          }
+        },
+        {
+          "section": "34题",
+          "raw": "### 34题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D强保留，与原文定位信息高度吻合；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>34题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D强保留，与原文定位信息高度吻合</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "34"
+          }
+        },
+        {
+          "section": "35题",
+          "raw": "## 35题\n\n**Which of the following could be the most appropriate title for the text?**\n\n> 以下哪一项最适合该文本的标题？\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 5 段展开，所以我们直接回第 5 段定位精读。\n\n> 原文参考：\n>\n> It’s time to reinvent the formula for how work is conducted, since we are still relying on a very 20th century notion of work, Hagel says. In our rapidly changing economy, we more than ever need people in the workplace who can take initiative and exercise their imagination “to respond to [unexpected] events.” That is not [something] machines are good at. They are designed to perform very [predictable] activities.\n>\n> 开始精读：\n>\n> It’s time to reinvent the formula for how work is conducted, / / since we are still relying on a very 20th century notion of work, / Hagel says. / In our rapidly changing economy, / we more than ever need people in the workplace / who can take initiative and exercise their imagination “to respond to [unexpected] events.” That is not [something] machines are good at. / They are designed to perform very [predictable] activities.\n>\n> 逐意群顺译：\n>\n> 哈格尔说，现在是重新发明工作方式的时候了，因为我们仍然依赖 20 世纪的工作概念。在瞬息万变的经济中，我们比以往任何时候都更需要工作场所的人们能够主动并发挥想象力“应对突发事件”。这不是机器擅长的事情。它们被设计用来执行非常可预测的活动。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>35题</h2>\n<p><strong>Which of the following could be the most appropriate title for the text?</strong></p>\n<blockquote><p>以下哪一项最适合该文本的标题？</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>5</strong> 段展开，所以我们直接回第 <strong>5</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>It’s time to reinvent the formula for how work is conducted, since we are still relying on a very 20th century notion of work, Hagel says. In our rapidly changing economy, we more than ever need people in the workplace who can take initiative and exercise their imagination “to respond to <span class=\"mask\">[unexpected]</span> events.” That is not <span class=\"mask\">[something]</span> machines are good at. They are designed to perform very <span class=\"mask\">[predictable]</span> activities.</p>\n<p><strong>开始精读：</strong></p>\n<p>It’s time to reinvent the formula for how work is conducted, / / since we are still relying on a very 20th century notion of work, / Hagel says. / In our rapidly changing economy, / we more than ever need people in the workplace / who can take initiative and exercise their imagination “to respond to <span class=\"mask\">[unexpected]</span> events.” That is not <span class=\"mask\">[something]</span> machines are good at. / They are designed to perform very <span class=\"mask\">[predictable]</span> activities.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>哈格尔说，现在是重新发明工作方式的时候了，因为我们仍然依赖 20 世纪的工作概念。在瞬息万变的经济中，我们比以往任何时候都更需要工作场所的人们能够主动并发挥想象力“应对突发事件”。这不是机器擅长的事情。它们被设计用来执行非常可预测的活动。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "35"
+          }
+        },
+        {
+          "section": "35题",
+          "raw": "### A. How to Innovate Our Work Practices\n\n> 如何创新我们的工作实践\n\n我们先看 A 选项：`How to Innovate Our Work Practices`（如何创新我们的工作实践）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪一项最适合该文本的标题？ ➔ 选项认为：如何创新我们的工作实践\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“如何创新我们的工作实践”，但在原文第 5 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. How to Innovate Our Work Practices</h3>\n<blockquote><p>如何创新我们的工作实践</p></blockquote>\n<p>我们先看 A 选项：<code>How to Innovate Our Work Practices</code>（如何创新我们的工作实践）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪一项最适合该文本的标题？ ➔ 选项认为：如何创新我们的工作实践</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“如何创新我们的工作实践”，但在原文第 5 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "35",
+            "option": "A"
+          }
+        },
+        {
+          "section": "35题",
+          "raw": "### B. Machines Will Replace Human Labor\n\n> 机器将取代人类劳动力\n\n我们先看 B 选项：`Machines Will Replace Human Labor`（机器将取代人类劳动力）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪一项最适合该文本的标题？ ➔ 选项认为：机器将取代人类劳动力\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“机器将取代人类劳动力”，但在原文第 5 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. Machines Will Replace Human Labor</h3>\n<blockquote><p>机器将取代人类劳动力</p></blockquote>\n<p>我们先看 B 选项：<code>Machines Will Replace Human Labor</code>（机器将取代人类劳动力）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪一项最适合该文本的标题？ ➔ 选项认为：机器将取代人类劳动力</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“机器将取代人类劳动力”，但在原文第 5 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "35",
+            "option": "B"
+          }
+        },
+        {
+          "section": "35题",
+          "raw": "### C. Can We Win the Race Against Machines\n\n> 我们能赢得与机器的竞赛吗\n\n我们先看 C 选项：`Can We Win the Race Against Machines`（我们能赢得与机器的竞赛吗）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪一项最适合该文本的标题？ ➔ 选项认为：我们能赢得与机器的竞赛吗\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `Can`, `Win`, `Race` 与原文第 5 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 5 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：C强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>C. Can We Win the Race Against Machines</h3>\n<blockquote><p>我们能赢得与机器的竞赛吗</p></blockquote>\n<p>我们先看 C 选项：<code>Can We Win the Race Against Machines</code>（我们能赢得与机器的竞赛吗）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪一项最适合该文本的标题？ ➔ 选项认为：我们能赢得与机器的竞赛吗</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>Can</code>, <code>Win</code>, <code>Race</code> 与原文第 5 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 5 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：C强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "35",
+            "option": "C"
+          }
+        },
+        {
+          "section": "35题",
+          "raw": "### D. Economic Downturns Stimulate Innovations\n\n> 经济衰退刺激创新\n\n我们先看 D 选项：`Economic Downturns Stimulate Innovations`（经济衰退刺激创新）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪一项最适合该文本的标题？ ➔ 选项认为：经济衰退刺激创新\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“经济衰退刺激创新”，但在原文第 5 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. Economic Downturns Stimulate Innovations</h3>\n<blockquote><p>经济衰退刺激创新</p></blockquote>\n<p>我们先看 D 选项：<code>Economic Downturns Stimulate Innovations</code>（经济衰退刺激创新）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪一项最适合该文本的标题？ ➔ 选项认为：经济衰退刺激创新</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“经济衰退刺激创新”，但在原文第 5 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "35",
+            "option": "D"
+          }
+        },
+        {
+          "section": "35题",
+          "raw": "### 35题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C强保留，与原文定位信息高度吻合；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>35题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C强保留，与原文定位信息高度吻合</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "35"
+          }
+        },
+        {
+          "section": "进阶技巧",
+          "raw": "# 4. 进阶技巧：交叉验证冲全对\n\n当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。",
+          "html": "<h1>4. 进阶技巧：交叉验证冲全对</h1><p>当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。</p>",
+          "meta": {}
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查31题交叉验证\n\n**题干**：According to the first paragraph, economic downturns would _______.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **B**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **B**。\n\n**31题选 B。**",
+          "html": "<h2>回查31题交叉验证</h2>\n<p><strong>题干</strong>：According to the first paragraph, economic downturns would _______.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>B</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">B</span></strong>。</p>\n<p><strong>31题选 B。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "31"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查32题交叉验证\n\n**题干**：The authors of Race Against the Machine argue that _______.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **A**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **A**。\n\n**32题选 A。**",
+          "html": "<h2>回查32题交叉验证</h2>\n<p><strong>题干</strong>：The authors of Race Against the Machine argue that _______.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>A</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">A</span></strong>。</p>\n<p><strong>32题选 A。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "32"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查33题交叉验证\n\n**题干**：Hagel argues that jobs in the U.S. are often ______.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **D**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **D**。\n\n**33题选 D。**",
+          "html": "<h2>回查33题交叉验证</h2>\n<p><strong>题干</strong>：Hagel argues that jobs in the U.S. are often ______.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>D</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">D</span></strong>。</p>\n<p><strong>33题选 D。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "33"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查34题交叉验证\n\n**题干**：According to the last paragraph, Brynjolfsson and McAfee discussed _______.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **D**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **D**。\n\n**34题选 D。**",
+          "html": "<h2>回查34题交叉验证</h2>\n<p><strong>题干</strong>：According to the last paragraph, Brynjolfsson and McAfee discussed _______.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>D</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">D</span></strong>。</p>\n<p><strong>34题选 D。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "34"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查35题交叉验证\n\n**题干**：Which of the following could be the most appropriate title for the text?\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **C**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **C**。\n\n**35题选 C。**",
+          "html": "<h2>回查35题交叉验证</h2>\n<p><strong>题干</strong>：Which of the following could be the most appropriate title for the text?</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>C</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">C</span></strong>。</p>\n<p><strong>35题选 C。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "35"
+          }
+        },
+        {
+          "section": "最终答案",
+          "raw": "# 5. 最终答案汇总\n\n**31. B**\n\n**32. A**\n\n**33. D**\n\n**34. D**\n\n**35. C**\n\n恭喜完成本篇阅读的做题推演！建议点击顶栏切换至【复盘模式（一石五鸟）】进行全方位深度吸收。",
+          "html": "<h1>5. 最终答案汇总</h1><div style=\"background:#f0fdf4;border:1px solid #bbf7d0;padding:16px;border-radius:8px;font-size:18px;line-height:2;color:#166534\">**31. B**<br><br>**32. A**<br><br>**33. D**<br><br>**34. D**<br><br>**35. C**</div><p style=\"margin-top:16px\">恭喜完成本篇阅读的做题推演！建议点击顶栏切换至<strong>【复盘模式（一石五鸟）】</strong>进行全方位深度吸收。</p>",
+          "meta": {
+            "kind": "final"
+          }
+        }
+      ]
+    },
+    "review": {
+      "steps": [
+        {
+          "section": 0,
+          "title": "省流：一石五鸟法怎么做",
+          "html": "<p>一石五鸟复盘法将一篇阅读真题价值吃干榨净，同时打通词汇、长难句与翻译、阅读解题思维、新题型逻辑、大作文写作五大核心题型，实现高效备考。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第一鸟-积累文中重点单词带来的词汇量提升",
+          "html": "<p>精选真题高频核心词、熟词生义、派生搭配，在语境中彻底掌握考研核心5500词的核心词族。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第二鸟-精读文章与翻译练习带来的翻译能力提升",
+          "html": "<p>逐句精读拆解句法骨架（主干提取、从句修饰剥离），针对典型长难句进行规范中文翻译输出。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>深度剖析命题人设置正确选项的同义替换规律，归纳排查5大高频干扰陷阱（偷换概念/无中生有/反向干扰/过度推断/答非所问）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>梳理全文语篇结构树（起承转合、因果对比、问题解决），迁移训练考研英语二新题型（7选5/小标题/排序）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第五鸟-顺手积累本文的大作文主题词与表达带来的写作能力提升",
+          "html": "<p>提炼本文涉及社会热点、科技经济、生态教育等母题的高分表达、观点金句与论证句型，直接化为写作武器。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "为什么考研英语备考实际只需要两到三个月的有效备考工作量",
+          "html": "<p>通过一石五鸟法，做1篇真题等于练5项能力，无需题海战术，56篇真题足以为考研英语二夯实75+甚至85+的坚实功底。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第1段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>concept</strong></td><td>n. 概念，观念；adj. 某主题的；为表达一种想法而创造的</td><td><strong>versus</strong></td><td>prep. 以……为对手，与……竞争；与……相对，与……相比</td><td><strong>machine</strong></td><td>n. 机器，机械；计算机，电脑；核心机构，领导核心</td></tr><tr><td><strong>least</strong></td><td>adj. 一点儿；最少的；最微不足道的</td><td><strong>industrial</strong></td><td>adj. 工业的，产业的；有很多产业的，工业发达的；工业用的，用于工业的</td><td><strong>revolution</strong></td><td>n. 彻底变革；革命；旋转</td></tr><tr><td><strong>phenomenon</strong></td><td>n. 现象；杰出的人，非凡的人；现象</td><td><strong>tends</strong></td><td>v. 倾向于，往往会；照料，照顾</td><td><strong>acutely</strong></td><td>adv. 极其，强烈地，剧烈地；敏锐地，精明地；急性地，突然发作地</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第2段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>rapid</strong></td><td>adj. 快的，迅速的；快速的；n. 急流，湍滩</td><td><strong>improvement</strong></td><td>n. 改善；改进之处</td><td><strong>performance</strong></td><td>n. 表演，演出；工作情况，表现；业绩</td></tr><tr><td><strong>technology</strong></td><td>n. 科技，技术；技术设备，先进机器；技术学，工艺学</td><td><strong>jobs</strong></td><td>n. 工作</td><td><strong>once</strong></td><td>adv. 一次， 一回；曾经，一度；任何一次，从来</td></tr><tr><td><strong>thought</strong></td><td>n. 想法，看法，主意；考虑，深思；关心，顾虑</td><td><strong>immune</strong></td><td>adj. 免疫的；不受影响的；免除的，豁免的</td><td><strong>automation</strong></td><td>n. 自动化</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 1
+          }
+        },
+        {
+          "section": 1,
+          "title": "第3段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>powerful</strong></td><td>adj. 强大的，有影响力的；大功率的，高效能的；极具感染力的，有震撼力的</td><td><strong>argument</strong></td><td>n. 争论，争吵；论据，理由；辩论，讨论</td><td><strong>scary</strong></td><td>adj. 骇人的，恐怖的；异乎寻常的，令人惊奇的；胆小的，易受惊吓的</td></tr><tr><td><strong>books</strong></td><td>n. 书，书籍，图书；账簿，账目记录，名册；v. 预订</td><td><strong>says</strong></td><td>vt. 说，讲；宣称，说明；认为，据说</td><td><strong>miss</strong></td><td>n. 女士，小姐，年轻未婚女子；vt. 错过，想念，缺</td></tr><tr><td><strong>reason</strong></td><td>n. 原因，理由；充分理由，正当理由；道理，情理</td><td><strong>jobs</strong></td><td>n. 工作</td><td><strong>vulnerable</strong></td><td>adj. 脆弱的，易受伤的；易受攻击的，易受伤害的；易患病的</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 2
+          }
+        },
+        {
+          "section": 1,
+          "title": "第4段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>says</strong></td><td>vt. 说，讲；宣称，说明；认为，据说</td><td><strong>designed</strong></td><td>v. 设计；计划；be designed to/for 旨在，为…而设计</td><td><strong>jobs</strong></td><td>n. 工作</td></tr><tr><td><strong>tend</strong></td><td>v. 倾向于，往往会；照顾，护理；走向，趋向</td><td><strong>tightly</strong></td><td>adv. 紧紧地，牢固地</td><td><strong>scripted</strong></td><td>adj. 照稿子念的；用稿子写的；有剧本的</td></tr><tr><td><strong>highly</strong></td><td>adv. 极其，非常；高度地，高水平地；钦佩地，赞赏地</td><td><strong>standardized</strong></td><td>adj. 标准的；标准化的；定型的</td><td><strong>ones</strong></td><td>pron. 用作复数代词，替代前文已提到或明确所指的人或事物，可译作“那些”或“某一类”；n. one 的复数形式，指数字 1或若干个 1；尤用于 number ones，指排行榜名列第一的唱片或歌曲</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 3
+          }
+        },
+        {
+          "section": 1,
+          "title": "第5段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>reinvent</strong></td><td>v. 彻底改造，重新创造；以新形象示人</td><td><strong>formula</strong></td><td>n. 计划，方案；配方，处方；公式，方程式</td><td><strong>conducted</strong></td><td>v. conduct 的过去式和过去分词：实施，进行，管理；引导，带领；指挥</td></tr><tr><td><strong>since</strong></td><td>prep. 自……以后，自……以来；何曾，什么时候；conj. 在……以后，自……以来</td><td><strong>still</strong></td><td>adv. 还，依旧；仍然，还是；尽管那样，尽管如此</td><td><strong>relying</strong></td><td>v. 相信，信赖；依靠，依赖</td></tr><tr><td><strong>notion</strong></td><td>n. 概念，想法；缝纫用品；一时的念头，突发的奇想</td><td><strong>says</strong></td><td>vt. 说，讲；宣称，说明；认为，据说</td><td><strong>rapidly</strong></td><td>adv. 快速地，迅速地</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 4
+          }
+        },
+        {
+          "section": 1,
+          "title": "第6段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>rather than</strong></td><td>宁可，而不是，与其……不如</td><td><strong>notes</strong></td><td>n. 笔记；注释，说明，备注；便条，短笺</td><td><strong>indeed</strong></td><td>adv. 确实，的确；实际上；真正地</td></tr><tr><td><strong>touched</strong></td><td>adj. 受感动的，感激的，高兴的；有点儿疯的，行为怪异的；有一点</td><td><strong>book</strong></td><td>n. 书，书籍；本子，簿册；篇，卷，部</td><td><strong>need</strong></td><td>v. 需要；有必要；需要</td></tr><tr><td><strong>reframe</strong></td><td>v. 给换框，重新装裱；重新表述，换一个角度看待</td><td><strong>race</strong></td><td>n. 赛跑，速度竞赛；竞争，角逐；赛马会</td><td><strong>machine</strong></td><td>n. 机器，机械；计算机，电脑；核心机构，领导核心</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 5
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>The concept of man versus machine is at least as old as the industrial revolution, but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries. And yet, it would be a mistake to think we are right now simply experiencing the painful side of a boom and bust cycle. Certain jobs have gone away for good, outmoded by machines. Since technology has such an insatiable appetite for eating up human jobs, this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>The concept of man versus machine is at least as old as the industrial revolution, but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries. And yet, it would be a mistake to think we are right now simply experiencing the painful side of a boom and bust cycle. Certain jobs have gone away for good, outmoded by machines. Since technology has such an insatiable appetite for eating up human jobs, this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>The concept of man versus machine is at least as old as the industrial revolution, / but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries. / And yet, / it would be a mistake to think we are right now simply experiencing the painful side of a boom and bust cycle. / Certain jobs have gone away for good, / outmoded by machines. / Since technology has such an insatiable appetite for eating up human jobs, / this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>The concept of man versus machine is at least as old as the industrial revolution, but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries. And yet, it would be a mistake to think we are right now simply experiencing the painful side of a boom and bust cycle. Certain jobs have gone away for good, outmoded by machines. Since technology has such an insatiable appetite for eating up human jobs, this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>The concept of man versus machine is at least as old as the industrial revolution, / but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries. / And yet, / it would be a mistake to think we are right now simply experiencing the painful side of a boom and bust cycle. / Certain jobs have gone away for good, / outmoded by machines. / Since technology has such an insatiable appetite for eating up human jobs, / this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">人与机器的概念至少与工业革命一样古老 / 但这种现象在经济衰退和脆弱复苏期间往往最为明显<br>然而 / 如果认为我们现在只是在经历繁荣与萧条周期的痛苦一面，那就错了<br>某些工作已经永远消失 / 被机器过时了<br>由于技术对蚕食人类工作的胃口如此巨大 / 这种现象将继续以我们无法立即预见的方式重组我们的经济</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>The concept of man versus machine is at least as old as the industrial revolution, but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries. And yet, it would be a mistake to think we are right now simply experiencing the painful side of a boom and bust cycle. Certain jobs have gone away for good, outmoded by machines. Since technology has such an insatiable appetite for eating up human jobs, this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>The concept of man versus machine is at least as old as the industrial revolution, / but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries. / And yet, / it would be a mistake to think we are right now simply experiencing the painful side of a boom and bust cycle. / Certain jobs have gone away for good, / outmoded by machines. / Since technology has such an insatiable appetite for eating up human jobs, / this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">人与机器的概念至少与工业革命一样古老 / 但这种现象在经济衰退和脆弱复苏期间往往最为明显<br>然而 / 如果认为我们现在只是在经历繁荣与萧条周期的痛苦一面，那就错了<br>某些工作已经永远消失 / 被机器过时了<br>由于技术对蚕食人类工作的胃口如此巨大 / 这种现象将继续以我们无法立即预见的方式重组我们的经济</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-3\">\n<h3>标准译文 · 第1段</h3>\n<p>人与机器的概念至少与工业革命一样古老，但这种现象往往在经济低迷和脆弱的复苏期间最为明显。然而，如果认为我们现在只是在经历繁荣与萧条周期的痛苦一面，那就错了。某些工作已经被机器永远消失、过时了。由于技术对吞噬人类工作的胃口如此之大，这种现象将继续以我们无法立即预见的方式重组我们的经济。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The concept of man versus machine is at least as old as the industrial revolution, but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries.</p>\n<p><strong>意群断句：</strong><code>The concept of man versus machine is at least as old as the industrial revolution, / but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">人与机器的概念至少与工业革命一样古老 / 但这种现象在经济衰退和脆弱复苏期间往往最为明显</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间/伴随状语从句</b>：句首 <code>As old as the industrial revolution</code> 引导时间/伴随状语从句（“正当……之时 / 随着……”），交代主句动作发生的背景与伴随情境。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">人与机器的概念至少与工业革命一样古老，但这种现象往往在经济低迷和脆弱的复苏期间最为明显。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>And yet, it would be a mistake to think we are right now simply experiencing the painful side of a boom and bust cycle.</p>\n<p><strong>意群断句：</strong><code>And yet, / it would be a mistake to think we are right now simply experiencing the painful side of a boom and bust cycle.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">然而 / 如果认为我们现在只是在经历繁荣与萧条周期的痛苦一面，那就错了</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">然而，如果认为我们现在只是在经历繁荣与萧条周期的痛苦一面，那就错了。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Certain jobs have gone away for good, outmoded by machines.</p>\n<p><strong>意群断句：</strong><code>Certain jobs have gone away for good, / outmoded by machines.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">某些工作已经永远消失 / 被机器过时了</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">某些工作已经被机器永远消失、过时了。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Since technology has such an insatiable appetite for eating up human jobs, this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.</p>\n<p><strong>意群断句：</strong><code>Since technology has such an insatiable appetite for eating up human jobs, / this phenomenon will continue to restructure our economy in ways we cannot immediately foresee.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">由于技术对蚕食人类工作的胃口如此巨大 / 这种现象将继续以我们无法立即预见的方式重组我们的经济</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间状语从句</b>：由连词 <code>Since</code> 引导从句 <code>Since technology has such an insatiable appetite for eating up human jobs</code>，限定主句论述的时空背景或逻辑前提。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">由于技术对吞噬人类工作的胃口如此之大，这种现象将继续以我们无法立即预见的方式重组我们的经济。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>When there is rapid improvement in the price and performance of technology, jobs that were once thought to be immune from automation suddenly become threatened. This argument has attracted a lot of attention, via the success of the book Race Against the Machine , by Erik Brynjolfsson and Andrew McAfee, who both hail from MIT’s Center for Digital Business.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>When there is rapid improvement in the price and performance of technology, jobs that were once thought to be immune from automation suddenly become threatened. This argument has attracted a lot of attention, via the success of the book Race Against the Machine , by Erik Brynjolfsson and Andrew McAfee, who both hail from MIT’s Center for Digital Business.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>When there is rapid improvement in the price and performance of technology, / jobs / that were once thought to be immune from automation suddenly become threatened. / This argument has attracted a lot of attention, / via the success of the book Race Against the Machine , / by Erik Brynjolfsson and Andrew McAfee, / / who both hail from MIT’s Center for Digital Business.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>When there is rapid improvement in the price and performance of technology, jobs that were once thought to be immune from automation suddenly become threatened. This argument has attracted a lot of attention, via the success of the book Race Against the Machine , by Erik Brynjolfsson and Andrew McAfee, who both hail from MIT’s Center for Digital Business.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>When there is rapid improvement in the price and performance of technology, / jobs / that were once thought to be immune from automation suddenly become threatened. / This argument has attracted a lot of attention, / via the success of the book Race Against the Machine , / by Erik Brynjolfsson and Andrew McAfee, / / who both hail from MIT’s Center for Digital Business.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">当技术的价格和性能快速提高时 / 职位 / 曾经被认为不受自动化影响的领域突然受到威胁<br>这个说法引起了很多人的关注 / 通过《与机器竞赛》一书的成功 / 作者：Erik Brynjolfsson 和 Andrew McAfee / 他们都来自麻省理工学院数字商业中心</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>When there is rapid improvement in the price and performance of technology, jobs that were once thought to be immune from automation suddenly become threatened. This argument has attracted a lot of attention, via the success of the book Race Against the Machine , by Erik Brynjolfsson and Andrew McAfee, who both hail from MIT’s Center for Digital Business.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>When there is rapid improvement in the price and performance of technology, / jobs / that were once thought to be immune from automation suddenly become threatened. / This argument has attracted a lot of attention, / via the success of the book Race Against the Machine , / by Erik Brynjolfsson and Andrew McAfee, / / who both hail from MIT’s Center for Digital Business.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">当技术的价格和性能快速提高时 / 职位 / 曾经被认为不受自动化影响的领域突然受到威胁<br>这个说法引起了很多人的关注 / 通过《与机器竞赛》一书的成功 / 作者：Erik Brynjolfsson 和 Andrew McAfee / 他们都来自麻省理工学院数字商业中心</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-3\">\n<h3>标准译文 · 第2段</h3>\n<p>当技术的价格和性能迅速提高时，曾经被认为不受自动化影响的工作突然受到威胁。由于埃里克·布林约尔松 (Erik Brynjolfsson) 和安德鲁·麦卡菲 (Andrew McAfee) 所著的《与机器赛跑》一书的成功，这一论点引起了广泛关注，他们都来自麻省理工学院数字商业中心。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>When there is rapid improvement in the price and performance of technology, jobs that were once thought to be immune from automation suddenly become threatened.</p>\n<p><strong>意群断句：</strong><code>When there is rapid improvement in the price and performance of technology, / jobs / that were once thought to be immune from automation suddenly become threatened.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">当技术的价格和性能快速提高时 / 职位 / 曾经被认为不受自动化影响的领域突然受到威胁</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间状语从句</b>：由连词 <code>When</code> 引导从句 <code>When there is rapid improvement in the price and performance of technology</code>，限定主句论述的时空背景或逻辑前提。</li><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>jobs</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">当技术的价格和性能迅速提高时，曾经被认为不受自动化影响的工作突然受到威胁。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>This argument has attracted a lot of attention, via the success of the book Race Against the Machine , by Erik Brynjolfsson and Andrew McAfee, who both hail from MIT’s Center for Digital Business.</p>\n<p><strong>意群断句：</strong><code>This argument has attracted a lot of attention, / via the success of the book Race Against the Machine , / by Erik Brynjolfsson and Andrew McAfee, / / who both hail from MIT’s Center for Digital Business.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">这个说法引起了很多人的关注 / 通过《与机器竞赛》一书的成功 / 作者：Erik Brynjolfsson 和 Andrew McAfee / 他们都来自麻省理工学院数字商业中心</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>非限制性定语从句</b>：<code>,who both hail from MIT’s Center for Digital Busin...</code> 引导非限制性定语从句，对前文先行词进行补充说明与信息拓展。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">由于埃里克·布林约尔松 (Erik Brynjolfsson) 和安德鲁·麦卡菲 (Andrew McAfee) 所著的《与机器赛跑》一书的成功，这一论点引起了广泛关注，他们都来自麻省理工学院数字商业中心。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>This is a powerful argument, and a scary one. And yet, John Hagel, author of The Power of Pull and other books, says Brynjolfsson and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>This is a powerful argument, and a scary one. And yet, John Hagel, author of The Power of Pull and other books, says Brynjolfsson and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>This is a powerful argument, / and a scary one. / And yet, / John Hagel, / author of The Power of Pull and other books, / says Brynjolfsson and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>This is a powerful argument, and a scary one. And yet, John Hagel, author of The Power of Pull and other books, says Brynjolfsson and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>This is a powerful argument, / and a scary one. / And yet, / John Hagel, / author of The Power of Pull and other books, / says Brynjolfsson and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">这是一个有力的论据 / 和一个可怕的<br>然而 / 约翰·哈格尔 / 《拉力的力量》等书的作者 / 布林约尔松 (Brynjolfsson) 和迈克菲 (McAfee) 表示，他们首先忽略了这些工作如此容易受到技术影响的原因</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>This is a powerful argument, and a scary one. And yet, John Hagel, author of The Power of Pull and other books, says Brynjolfsson and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>This is a powerful argument, / and a scary one. / And yet, / John Hagel, / author of The Power of Pull and other books, / says Brynjolfsson and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">这是一个有力的论据 / 和一个可怕的<br>然而 / 约翰·哈格尔 / 《拉力的力量》等书的作者 / 布林约尔松 (Brynjolfsson) 和迈克菲 (McAfee) 表示，他们首先忽略了这些工作如此容易受到技术影响的原因</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-3\">\n<h3>标准译文 · 第3段</h3>\n<p>这是一个强有力的论点，也是一个可怕的论点。然而，《拉动的力量》和其他书籍的作者约翰·哈格尔表示，布林约尔松和迈克菲首先忽视了这些工作如此容易受到技术影响的原因。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>This is a powerful argument, and a scary one.</p>\n<p><strong>意群断句：</strong><code>This is a powerful argument, / and a scary one.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">这是一个有力的论据 / 和一个可怕的</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">这是一个强有力的论点，也是一个可怕的论点。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>And yet, John Hagel, author of The Power of Pull and other books, says Brynjolfsson and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.</p>\n<p><strong>意群断句：</strong><code>And yet, / John Hagel, / author of The Power of Pull and other books, / says Brynjolfsson and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">然而 / 约翰·哈格尔 / 《拉力的力量》等书的作者 / 布林约尔松 (Brynjolfsson) 和迈克菲 (McAfee) 表示，他们首先忽略了这些工作如此容易受到技术影响的原因</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>同位语/插入语</b>：<code>John Hagel</code> 充当同位语/插入语，紧随其后对前置名词提供身份补充或同等指代。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">然而，《拉动的力量》和其他书籍的作者约翰·哈格尔表示，布林约尔松和迈克菲首先忽视了这些工作如此容易受到技术影响的原因。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>Hagel says we have designed jobs in the U.S. that tend to be “tightly scripted” and “highly standardized” ones that leave no room for “individual initiative or creativity.” In short, these are the types of jobs that machines can perform much better at than human beings. That is how we have put a giant target sign on the backs of American workers, Hagel says.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>Hagel says we have designed jobs in the U.S. that tend to be “tightly scripted” and “highly standardized” ones that leave no room for “individual initiative or creativity.” In short, these are the types of jobs that machines can perform much better at than human beings. That is how we have put a giant target sign on the backs of American workers, Hagel says.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>Hagel says we have designed jobs in the U.S. / that tend to be “tightly scripted” and “highly standardized” ones / that leave no room for “individual initiative or creativity.” In short, / these are the types of jobs / that machines can perform much better at than human beings. / That is how we have put a giant target sign on the backs of American workers, / Hagel says.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>Hagel says we have designed jobs in the U.S. that tend to be “tightly scripted” and “highly standardized” ones that leave no room for “individual initiative or creativity.” In short, these are the types of jobs that machines can perform much better at than human beings. That is how we have put a giant target sign on the backs of American workers, Hagel says.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>Hagel says we have designed jobs in the U.S. / that tend to be “tightly scripted” and “highly standardized” ones / that leave no room for “individual initiative or creativity.” In short, / these are the types of jobs / that machines can perform much better at than human beings. / That is how we have put a giant target sign on the backs of American workers, / Hagel says.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-2\">\n<h3>意群翻译 · 第4段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">哈格尔说我们在美国设计了就业机会<br>往往是“严格脚本化”和“高度标准化”的 / 没有给“个人主动性或创造力”留下空间。简而言之 / 这些是工作类型 / 机器的表现比人类好得多<br>这就是我们如何在美国工人的背上挂上一个巨大的目标标志 / 哈格尔说</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>Hagel says we have designed jobs in the U.S. that tend to be “tightly scripted” and “highly standardized” ones that leave no room for “individual initiative or creativity.” In short, these are the types of jobs that machines can perform much better at than human beings. That is how we have put a giant target sign on the backs of American workers, Hagel says.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>Hagel says we have designed jobs in the U.S. / that tend to be “tightly scripted” and “highly standardized” ones / that leave no room for “individual initiative or creativity.” In short, / these are the types of jobs / that machines can perform much better at than human beings. / That is how we have put a giant target sign on the backs of American workers, / Hagel says.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-2\">\n<h3>意群翻译 · 第4段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">哈格尔说我们在美国设计了就业机会<br>往往是“严格脚本化”和“高度标准化”的 / 没有给“个人主动性或创造力”留下空间。简而言之 / 这些是工作类型 / 机器的表现比人类好得多<br>这就是我们如何在美国工人的背上挂上一个巨大的目标标志 / 哈格尔说</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-3\">\n<h3>标准译文 · 第4段</h3>\n<p>哈格尔说，我们在美国设计的工作往往是“严格照本宣科”和“高度标准化”，没有给“个人主动性或创造力”留下空间。简而言之，在这些类型的工作中，机器可以比人类做得更好。哈格尔说，这就是我们如何在美国工人的背上挂上一个巨大的目标标志。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Hagel says we have designed jobs in the U.S.</p>\n<p><strong>意群断句：</strong><code>Hagel says we have designed jobs in the U.S.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">哈格尔说我们在美国设计了就业机会</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">哈格尔说我们在美国设计了就业机会</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>that tend to be “tightly scripted” and “highly standardized” ones that leave no room for “individual initiative or creativity.” In short, these are the types of jobs that machines can perform much better at than human beings.</p>\n<p><strong>意群断句：</strong><code>that tend to be “tightly scripted” and “highly standardized” ones / that leave no room for “individual initiative or creativity.” In short, / these are the types of jobs / that machines can perform much better at than human beings.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">往往是“严格脚本化”和“高度标准化”的 / 没有给“个人主动性或创造力”留下空间。简而言之 / 这些是工作类型 / 机器的表现比人类好得多</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>ones</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">这些往往是“严格的脚本化”和“高度标准化”的，没有为“个人主动性或创造力”留下空间。简而言之，在这些类型的工作中，机器可以比人类做得更好。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>That is how we have put a giant target sign on the backs of American workers, Hagel says.</p>\n<p><strong>意群断句：</strong><code>That is how we have put a giant target sign on the backs of American workers, / Hagel says.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">这就是我们如何在美国工人的背上挂上一个巨大的目标标志 / 哈格尔说</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">哈格尔说，这就是我们如何在美国工人的背上挂上一个巨大的目标标志。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>It’s time to reinvent the formula for how work is conducted, since we are still relying on a very 20th century notion of work, Hagel says. In our rapidly changing economy, we more than ever need people in the workplace who can take initiative and exercise their imagination “to respond to unexpected events.” That is not something machines are good at. They are designed to perform very predictable activities.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>It’s time to reinvent the formula for how work is conducted, since we are still relying on a very 20th century notion of work, Hagel says. In our rapidly changing economy, we more than ever need people in the workplace who can take initiative and exercise their imagination “to respond to unexpected events.” That is not something machines are good at. They are designed to perform very predictable activities.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>It’s time to reinvent the formula for how work is conducted, / / since we are still relying on a very 20th century notion of work, / Hagel says. / In our rapidly changing economy, / we more than ever need people in the workplace / who can take initiative and exercise their imagination “to respond to unexpected events.” That is not something machines are good at. / They are designed to perform very predictable activities.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>It’s time to reinvent the formula for how work is conducted, since we are still relying on a very 20th century notion of work, Hagel says. In our rapidly changing economy, we more than ever need people in the workplace who can take initiative and exercise their imagination “to respond to unexpected events.” That is not something machines are good at. They are designed to perform very predictable activities.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>It’s time to reinvent the formula for how work is conducted, / / since we are still relying on a very 20th century notion of work, / Hagel says. / In our rapidly changing economy, / we more than ever need people in the workplace / who can take initiative and exercise their imagination “to respond to unexpected events.” That is not something machines are good at. / They are designed to perform very predictable activities.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-2\">\n<h3>意群翻译 · 第5段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">是时候重新发明工作方式的公式了 / 因为我们仍然依赖 20 世纪的工作观念 / 哈格尔说<br>在我们快速变化的经济中 / 我们比以往任何时候都更需要工作场所的人才 / 他们能够主动并发挥想象力“应对突发事件”。这不是机器擅长的事情<br>它们旨在执行非常可预测的活动</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>It’s time to reinvent the formula for how work is conducted, since we are still relying on a very 20th century notion of work, Hagel says. In our rapidly changing economy, we more than ever need people in the workplace who can take initiative and exercise their imagination “to respond to unexpected events.” That is not something machines are good at. They are designed to perform very predictable activities.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>It’s time to reinvent the formula for how work is conducted, / / since we are still relying on a very 20th century notion of work, / Hagel says. / In our rapidly changing economy, / we more than ever need people in the workplace / who can take initiative and exercise their imagination “to respond to unexpected events.” That is not something machines are good at. / They are designed to perform very predictable activities.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-2\">\n<h3>意群翻译 · 第5段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">是时候重新发明工作方式的公式了 / 因为我们仍然依赖 20 世纪的工作观念 / 哈格尔说<br>在我们快速变化的经济中 / 我们比以往任何时候都更需要工作场所的人才 / 他们能够主动并发挥想象力“应对突发事件”。这不是机器擅长的事情<br>它们旨在执行非常可预测的活动</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-3\">\n<h3>标准译文 · 第5段</h3>\n<p>哈格尔说，现在是重新发明工作方式的时候了，因为我们仍然依赖 20 世纪的工作概念。在瞬息万变的经济中，我们比以往任何时候都更需要工作场所的人们能够主动并发挥想象力“应对突发事件”。这不是机器擅长的事情。它们被设计用来执行非常可预测的活动。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>It’s time to reinvent the formula for how work is conducted, since we are still relying on a very 20th century notion of work, Hagel says.</p>\n<p><strong>意群断句：</strong><code>It’s time to reinvent the formula for how work is conducted, / / since we are still relying on a very 20th century notion of work, / Hagel says.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">是时候重新发明工作方式的公式了 / 因为我们仍然依赖 20 世纪的工作观念 / 哈格尔说</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间状语从句</b>：由连词 <code>Since</code> 引导从句 <code>Since we are still relying on a very 20th century notion of work</code>，限定主句论述的时空背景或逻辑前提。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">哈格尔说，现在是重新发明工作方式的时候了，因为我们仍然依赖 20 世纪的工作概念。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>In our rapidly changing economy, we more than ever need people in the workplace who can take initiative and exercise their imagination “to respond to unexpected events.” That is not something machines are good at.</p>\n<p><strong>意群断句：</strong><code>In our rapidly changing economy, / we more than ever need people in the workplace / who can take initiative and exercise their imagination “to respond to unexpected events.” That is not something machines are good at.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">在我们快速变化的经济中 / 我们比以往任何时候都更需要工作场所的人才 / 他们能够主动并发挥想象力“应对突发事件”。这不是机器擅长的事情</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>who</code> 引导定语从句修饰先行词 <code>workplace</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">在瞬息万变的经济中，我们比以往任何时候都更需要工作场所的人们能够主动并发挥想象力“应对突发事件”。这不是机器擅长的事情。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>They are designed to perform very predictable activities.</p>\n<p><strong>意群断句：</strong><code>They are designed to perform very predictable activities.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">它们旨在执行非常可预测的活动</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">它们被设计用来执行非常可预测的活动。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>As Hagel notes, Brynjolfsson and McAfee indeed touched on this point in their book. We need to reframe race against the machine as race with the machine . In other words, we need to look at the ways in which machines can augment human labor rather than replace it. So then the problem is not really about technology, but rather, “how do we innovate our institutions and our work practices?”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>As Hagel notes, Brynjolfsson and McAfee indeed touched on this point in their book. We need to reframe race against the machine as race with the machine . In other words, we need to look at the ways in which machines can augment human labor rather than replace it. So then the problem is not really about technology, but rather, “how do we innovate our institutions and our work practices?”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-1\">\n<h3>意群划分 · 第6段</h3>\n<p>As Hagel notes, / Brynjolfsson and McAfee indeed touched on this point in their book. / We need to reframe race against the machine as race with the machine . / In other words, / we need to look at the ways in / which machines can augment human labor / rather than replace it. / So then the problem is not really about technology, / but rather, / “how do we innovate our institutions and our work practices?”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>As Hagel notes, Brynjolfsson and McAfee indeed touched on this point in their book. We need to reframe race against the machine as race with the machine . In other words, we need to look at the ways in which machines can augment human labor rather than replace it. So then the problem is not really about technology, but rather, “how do we innovate our institutions and our work practices?”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-1\">\n<h3>意群划分 · 第6段</h3>\n<p>As Hagel notes, / Brynjolfsson and McAfee indeed touched on this point in their book. / We need to reframe race against the machine as race with the machine . / In other words, / we need to look at the ways in / which machines can augment human labor / rather than replace it. / So then the problem is not really about technology, / but rather, / “how do we innovate our institutions and our work practices?”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-2\">\n<h3>意群翻译 · 第6段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">正如哈格尔指出的 / Brynjolfsson 和 McAfee 在他们的书中确实谈到了这一点<br>我们需要将与机器的竞赛重新定义为与机器的竞赛<br>换句话说 / 我们需要看看其中的方法 / 哪些机器可以增强人类劳动 / 而不是更换它<br>那么问题并不在于技术 / 而是 / “我们如何创新我们的机构和工作实践？”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>As Hagel notes, Brynjolfsson and McAfee indeed touched on this point in their book. We need to reframe race against the machine as race with the machine . In other words, we need to look at the ways in which machines can augment human labor rather than replace it. So then the problem is not really about technology, but rather, “how do we innovate our institutions and our work practices?”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-1\">\n<h3>意群划分 · 第6段</h3>\n<p>As Hagel notes, / Brynjolfsson and McAfee indeed touched on this point in their book. / We need to reframe race against the machine as race with the machine . / In other words, / we need to look at the ways in / which machines can augment human labor / rather than replace it. / So then the problem is not really about technology, / but rather, / “how do we innovate our institutions and our work practices?”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-2\">\n<h3>意群翻译 · 第6段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">正如哈格尔指出的 / Brynjolfsson 和 McAfee 在他们的书中确实谈到了这一点<br>我们需要将与机器的竞赛重新定义为与机器的竞赛<br>换句话说 / 我们需要看看其中的方法 / 哪些机器可以增强人类劳动 / 而不是更换它<br>那么问题并不在于技术 / 而是 / “我们如何创新我们的机构和工作实践？”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-3\">\n<h3>标准译文 · 第6段</h3>\n<p>正如哈格尔指出的那样，布林约尔松和迈克菲确实在他们的书中谈到了这一点。我们需要将与机器的竞赛重新定义为与机器的竞赛。换句话说，我们需要研究机器如何增强而不是取代人类劳动力。因此，问题实际上并不在于技术，而是“我们如何创新我们的机构和工作实践？”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>As Hagel notes, Brynjolfsson and McAfee indeed touched on this point in their book.</p>\n<p><strong>意群断句：</strong><code>As Hagel notes, / Brynjolfsson and McAfee indeed touched on this point in their book.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">正如哈格尔指出的 / Brynjolfsson 和 McAfee 在他们的书中确实谈到了这一点</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间/伴随状语从句</b>：句首 <code>As Hagel notes</code> 引导时间/伴随状语从句（“正当……之时 / 随着……”），交代主句动作发生的背景与伴随情境。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">正如哈格尔指出的那样，布林约尔松和迈克菲在他们的书中确实谈到了这一点。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>We need to reframe race against the machine as race with the machine .</p>\n<p><strong>意群断句：</strong><code>We need to reframe race against the machine as race with the machine .</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">我们需要将与机器的竞赛重新定义为与机器的竞赛</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with the machine ....</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">我们需要将与机器的竞赛重新定义为与机器的竞赛。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>In other words, we need to look at the ways in which machines can augment human labor rather than replace it.</p>\n<p><strong>意群断句：</strong><code>In other words, / we need to look at the ways in / which machines can augment human labor / rather than replace it.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">换句话说 / 我们需要看看其中的方法 / 哪些机器可以增强人类劳动 / 而不是更换它</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>which</code> 引导定语从句修饰先行词 <code>in</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">换句话说，我们需要研究机器如何增强而不是取代人类劳动力。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>So then the problem is not really about technology, but rather, “how do we innovate our institutions and our work practices?”</p>\n<p><strong>意群断句：</strong><code>So then the problem is not really about technology, / but rather, / “how do we innovate our institutions and our work practices?”</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">那么问题并不在于技术 / 而是 / “我们如何创新我们的机构和工作实践？”</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">因此，问题实际上并不在于技术，而是“我们如何创新我们的机构和工作实践？”</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "3.一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，正确项如何进行同义改写，错误项如何设置陷阱；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
+          "meta": {
+            "section": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "31题 · 题干、题型与核心出处",
+          "html": "<p><strong>31. According to the first paragraph, economic downturns would _______.</strong></p>\n<p>（根据第一段，经济衰退将_______。）</p>\n<p><strong>题型判定</strong>：事实细节题 ｜ <strong>定位出处</strong>：Paragraph 1</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "31"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. ease the competition of man vs. machine",
+          "html": "<p><strong>选项 A</strong>：<code>ease the competition of man vs. machine</code></p>\n<p><strong>中文翻译</strong>：缓解人与机器的竞争</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. highlight machines’ threat to human jobs",
+          "html": "<p><strong>选项 B</strong>：<code>highlight machines’ threat to human jobs</code></p>\n<p><strong>中文翻译</strong>：强调机器对人类工作的威胁</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. provoke a painful technological revolution",
+          "html": "<p><strong>选项 C</strong>：<code>provoke a painful technological revolution</code></p>\n<p><strong>中文翻译</strong>：引发一场痛苦的技术革命</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. outmode our current economic structure",
+          "html": "<p><strong>选项 D</strong>：<code>outmode our current economic structure</code></p>\n<p><strong>中文翻译</strong>：超越我们目前的经济结构</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "32题 · 题干、题型与核心出处",
+          "html": "<p><strong>32. The authors of Race Against the Machine argue that _______.</strong></p>\n<p>（《与机器竞赛》的作者认为_______。）</p>\n<p><strong>题型判定</strong>：因果推断题 ｜ <strong>定位出处</strong>：Paragraph 2</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "32"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. technology is diminishing man’s job opportunities",
+          "html": "<p><strong>选项 A</strong>：<code>technology is diminishing man’s job opportunities</code></p>\n<p><strong>中文翻译</strong>：技术正在减少人类的工作机会</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. automation is accelerating technological development",
+          "html": "<p><strong>选项 B</strong>：<code>automation is accelerating technological development</code></p>\n<p><strong>中文翻译</strong>：自动化正在加速技术发展</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. certain jobs will remain intact after automation",
+          "html": "<p><strong>选项 C</strong>：<code>certain jobs will remain intact after automation</code></p>\n<p><strong>中文翻译</strong>：自动化后某些工作将保持不变</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. man will finally win the race against machine",
+          "html": "<p><strong>选项 D</strong>：<code>man will finally win the race against machine</code></p>\n<p><strong>中文翻译</strong>：人类最终将赢得与机器的竞赛</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "33题 · 题干、题型与核心出处",
+          "html": "<p><strong>33. Hagel argues that jobs in the U.S. are often ______.</strong></p>\n<p>（哈格尔认为，美国的工作通常是______。）</p>\n<p><strong>题型判定</strong>：段落推理题 ｜ <strong>定位出处</strong>：Paragraph 3</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "33"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. performed by innovative minds",
+          "html": "<p><strong>选项 A</strong>：<code>performed by innovative minds</code></p>\n<p><strong>中文翻译</strong>：由创新思维执行</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. scripted with an individual style",
+          "html": "<p><strong>选项 B</strong>：<code>scripted with an individual style</code></p>\n<p><strong>中文翻译</strong>：以个人风格编写</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. standardized without a clear target",
+          "html": "<p><strong>选项 C</strong>：<code>standardized without a clear target</code></p>\n<p><strong>中文翻译</strong>：没有明确目标的标准化</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. designed against human creativity",
+          "html": "<p><strong>选项 D</strong>：<code>designed against human creativity</code></p>\n<p><strong>中文翻译</strong>：反对人类创造力的设计</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "34题 · 题干、题型与核心出处",
+          "html": "<p><strong>34. According to the last paragraph, Brynjolfsson and McAfee discussed _______.</strong></p>\n<p>（根据最后一段，Brynjolfsson 和 McAfee 讨论了 _______。）</p>\n<p><strong>题型判定</strong>：词义/例证题 ｜ <strong>定位出处</strong>：Paragraph 4</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "34"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. the predictability of machine behavior in practice",
+          "html": "<p><strong>选项 A</strong>：<code>the predictability of machine behavior in practice</code></p>\n<p><strong>中文翻译</strong>：实践中机器行为的可预测性</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. the formula for how work is conducted efficiently",
+          "html": "<p><strong>选项 B</strong>：<code>the formula for how work is conducted efficiently</code></p>\n<p><strong>中文翻译</strong>：如何高效开展工作的公式</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. the ways machines replace human labor in modern times",
+          "html": "<p><strong>选项 C</strong>：<code>the ways machines replace human labor in modern times</code></p>\n<p><strong>中文翻译</strong>：现代机器取代人类劳动力的方式</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. the necessity of human involvement in the workplace",
+          "html": "<p><strong>选项 D</strong>：<code>the necessity of human involvement in the workplace</code></p>\n<p><strong>中文翻译</strong>：人类参与工作场所的必要性</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "35题 · 题干、题型与核心出处",
+          "html": "<p><strong>35. Which of the following could be the most appropriate title for the text?</strong></p>\n<p>（以下哪一项最适合该文本的标题？）</p>\n<p><strong>题型判定</strong>：全文主旨题 ｜ <strong>定位出处</strong>：Paragraph 5</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "35"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. How to Innovate Our Work Practices",
+          "html": "<p><strong>选项 A</strong>：<code>How to Innovate Our Work Practices</code></p>\n<p><strong>中文翻译</strong>：如何创新我们的工作实践</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. Machines Will Replace Human Labor",
+          "html": "<p><strong>选项 B</strong>：<code>Machines Will Replace Human Labor</code></p>\n<p><strong>中文翻译</strong>：机器将取代人类劳动力</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. Can We Win the Race Against Machines",
+          "html": "<p><strong>选项 C</strong>：<code>Can We Win the Race Against Machines</code></p>\n<p><strong>中文翻译</strong>：我们能赢得与机器的竞赛吗</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. Economic Downturns Stimulate Innovations",
+          "html": "<p><strong>选项 D</strong>：<code>Economic Downturns Stimulate Innovations</code></p>\n<p><strong>中文翻译</strong>：经济衰退刺激创新</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "D"
+          }
+        },
+        {
+          "section": 4,
+          "title": "4.一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>在新题型中，考查的本质是理解文章上下文的逻辑承接能力。我们将本篇真题结构改编为新题型迁移训练，训练对段落主旨与篇章逻辑的提炼概括能力。</p>\n<p><strong>篇章核心逻辑链条</strong>：</p>\n<p>引出核心论题 → 展开多角度实证与事实分析 → 剖析深层体制/社会矛盾 → 提出战略性长效应对策略。</p>",
+          "meta": {
+            "section": 4
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 1",
+          "html": "<p><strong>【考查段落 1】</strong></p>\n<p><code>The concept of man versus machine is at least as old as the industrial revolution, but this phenomenon tends to be most ...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 1 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 0
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 2",
+          "html": "<p><strong>【考查段落 2】</strong></p>\n<p><code>When there is rapid improvement in the price and performance of technology, jobs that were once thought to be immune fro...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 2 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 1
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 3",
+          "html": "<p><strong>【考查段落 3】</strong></p>\n<p><code>This is a powerful argument, and a scary one. And yet, John Hagel, author of The Power of Pull and other books, says Bry...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 3 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 2
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 4",
+          "html": "<p><strong>【考查段落 4】</strong></p>\n<p><code>Hagel says we have designed jobs in the U.S. that tend to be “tightly scripted” and “highly standardized” ones that leav...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 4 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 3
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 5",
+          "html": "<p><strong>【考查段落 5】</strong></p>\n<p><code>It’s time to reinvent the formula for how work is conducted, since we are still relying on a very 20th century notion of...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 5 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 4
+          }
+        },
+        {
+          "section": 5,
+          "title": "1. 大作文宏观论述与主题词汇积累",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>可积累的主题表达</th><th>中文翻译</th><th>所属类别</th><th>使用层级</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>promoting institutional adaptability</strong></td><td><strong>增强制度适应性与韧性</strong></td><td><strong>社会/经济发展</strong></td><td><strong>宏观论点</strong></td></tr>\n<tr><td>harmonizing commercial viability and public welfare</td><td>协调商业可行性与公众福祉</td><td>综合治理</td><td>论证支撑</td></tr>\n<tr><td>fostering sustainable long-term development</td><td>促进可持续长远发展</td><td>未来展望</td><td>结论升华</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        },
+        {
+          "section": 5,
+          "title": "2. 大作文图表/观点题通用满分句型模板",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>适用题型</th><th>考试时可复用的形式</th><th>中文翻译</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>图表/观点题</strong></td><td><strong>A is doing B in an effort to do C.</strong></td><td><strong>A正在采取行动B，目的是实现目标C。</strong></td></tr>\n<tr><td>原因剖析段</td><td>The underlying reason behind this phenomenon is that...</td><td>该现象背后的深层原因在于……</td></tr>\n<tr><td>建议对策段</td><td>Only through collaborative governance can we ensure enduring progress.</td><td>唯有通过协同治理，方能确保长久的发展与繁荣。</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        }
+      ]
+    }
+  },
+  "text4": {
+    "id": 4,
+    "qRange": "36-40",
+    "title": "Text 4",
+    "paragraphs": [
+      "When the government talks about infrastructure contributing to the economy the focus is usually on roads, railways, broadband and energy. Housing is seldom mentioned.",
+      "Why is that? To some extent the housing sector must shoulder the blame. We have not been good at communicating the real value that housing can contribute to economic growth. Then there is the scale of the typical housing project. It is hard to shove for attention among multibillion-pound infrastructure projects, so it is inevitable that the attention is focused elsewhere. But perhaps the most significant reason is that the issue has always been so politically charged.",
+      "Nevertheless, the affordable housing situation is desperate. Waiting lists increase all the time and we are simply not building enough new homes.",
+      "The comprehensive spending review offers an opportunity for the government to help rectify this. It needs to put historical prejudices to one side and take some steps to address our urgent housing need.",
+      "There are some indications that it is preparing to do just that. The communities minister, Don Foster, has hinted that George Osborne, Chancellor of the Exchequer, may introduce more flexibility to the current cap on the amount that local authorities can borrow against their housing stock debt. Evidence shows that 60,000 extra new homes could be built over the next five years if the cap were lifted, increasing GDP by 0.6%.",
+      "Ministers should also look at creating greater certainty in the rental environment, which would have a significant impact on the ability of registered providers to fund new developments from revenues.",
+      "But it is not just down to the government. While these measures would be welcome in the short term, we must face up to the fact that the existing ￡4.5bn programme of grants to fund new affordable housing, set to expire in 2015, is unlikely to be extended beyond then. The Labour party has recently announced that it will retain a large part of the coalition’s spending plans if it returns to power. The housing sector needs to accept that we are very unlikely to ever return to the era of large-scale public grants. We need to adjust to this changing climate. While the government’s commitment to long-term funding may have changed, the very pressing need for more affordable housing is real and is not going away."
+    ],
+    "questions": [
+      {
+        "qid": 36,
+        "stem": "The author believes that the housing sector _______.",
+        "stem_cn": "笔者认为，住房部门_______。",
+        "type": "事实细节题",
+        "locate": "Paragraph 1",
+        "options": [
+          {
+            "key": "A",
+            "text": "has attracted much attention",
+            "text_cn": "引起了很多关注",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "involves certain political factors",
+            "text_cn": "涉及一定的政治因素",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "C",
+            "text": "shoulders too much responsibility",
+            "text_cn": "肩负太多责任",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "has lost its real value in economy",
+            "text_cn": "已经失去了其真正的经济价值",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 37,
+        "stem": "It can be learned that affordable housing has _______.",
+        "stem_cn": "由此可见，经济适用房有_______。",
+        "type": "因果推断题",
+        "locate": "Paragraph 2",
+        "options": [
+          {
+            "key": "A",
+            "text": "increased its home supply",
+            "text_cn": "增加房屋供应",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "offered spending opportunities",
+            "text_cn": "提供消费机会",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "suffered government biases",
+            "text_cn": "遭受政府偏见",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "D",
+            "text": "disappointed the government",
+            "text_cn": "让政府失望",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 38,
+        "stem": "According to Paragraph 5, George Osborne may _______.",
+        "stem_cn": "根据第5段，乔治·奥斯本可能_______。",
+        "type": "段落推理题",
+        "locate": "Paragraph 3",
+        "options": [
+          {
+            "key": "A",
+            "text": "allow greater government debt for housing",
+            "text_cn": "允许政府增加住房债务",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "B",
+            "text": "stop local authorities from building homes",
+            "text_cn": "阻止地方当局建造房屋",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "prepare to reduce housing stock debt",
+            "text_cn": "准备减少住房存量债务",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "release a lifted GDP growth forecast",
+            "text_cn": "发布上调的GDP增长预测",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 39,
+        "stem": "It can be inferred that a stable rental environment would _______.",
+        "stem_cn": "可以推断，稳定的租赁环境会_______。",
+        "type": "词义/例证题",
+        "locate": "Paragraph 4",
+        "options": [
+          {
+            "key": "A",
+            "text": "lower the costs of registered providers",
+            "text_cn": "降低注册提供商的成本",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "lessen the impact of government interference",
+            "text_cn": "减少政府干预的影响",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "contribute to funding new developments",
+            "text_cn": "为新的发展提供资金",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "D",
+            "text": "relieve the ministers of responsibilities",
+            "text_cn": "解除部长们的职责",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 40,
+        "stem": "The author believes that after 2015, the government may _______.",
+        "stem_cn": "笔者认为，2015年后，政府可能_______。",
+        "type": "全文主旨题",
+        "locate": "Paragraph 5",
+        "options": [
+          {
+            "key": "A",
+            "text": "implement more policies to support housing",
+            "text_cn": "落实更多住房政策支持",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "review the need for large-scale public grants",
+            "text_cn": "审查大规模公共拨款的需要",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "renew the affordable housing grants programme",
+            "text_cn": "更新经济适用住房补助计划",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "stop generous funding to the housing sector",
+            "text_cn": "停止对住房部门的慷慨资助",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。"
+          }
+        ]
+      }
+    ],
+    "practice": {
+      "steps": [
+        {
+          "section": "阅前须知",
+          "raw": "# 0.阅前须知\n\n阅前声明，本教程对英语一英语二均适用。\n\n本教程主要解决考研英语阅读备考中的三个结构性问题：\n\n1. **考研英语骗局一**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持认识文章中的所有细节，一个不漏，咱们不可能完全认识文章中的每一个单词，带着不认识的地方读文章做题才是真正的学生视角。即使是有部分超纲生词不认识，从段落和文章主旨、作者态度等宏观阅读文章内容本身分析的层面，也是不影响做全对的；\n\n2. **考研英语骗局二**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接边读边信达雅地翻译出文章，读完一遍只能在脑海里留下大致信息，并且很快遗忘。正确的方式是先粗后细，放弃信达雅的机械翻译，粗读先理解文章大致出现了哪些东西，然后细读采用意群法这种手段实现，即可临危不乱；\n\n3. **考研英语骗局三**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接用某种神技确定某个一定正确的答案。二选一选不出来是个非常正常的现象。用某种神技去秒杀一个文科单选问题违背了逻辑学常识，即孤证不立。通过宏观认知与多判据交叉验证的方式解决，是所有文科单选题的通法。",
+          "html": "<h1>0.阅前须知</h1>\n<p>阅前声明，本教程对英语一英语二均适用。</p>\n<p>本教程主要解决考研英语阅读备考中的三个结构性问题：</p>\n<ol>\n<li><p><strong>考研英语骗局一</strong>：拒绝上帝视角生词全懂，带着超纲生词读宏观主旨同样能做全对；</p></li>\n<li><p><strong>考研英语骗局二</strong>：放弃考场即时信达雅机械翻译，采用意群粗读抓取核心信息；</p></li>\n<li><p><strong>考研英语骗局三</strong>：拒绝所谓单一神技秒杀，采用定位比对与写作视角交叉验证。</p></li>\n</ol>\n<p>大家把考研英语阅读当成真阅读，才能发现真正正确的备考方式。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "# 1. 先读题干\n\n首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰咱们粗读对文章的理解。看题干对考查重点有个大致印象，并且因为题文同序的原则，也能帮助我们提前获取部分文章的逻辑脉络。",
+          "html": "<h1>1. 先读题干</h1><p>首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰粗读理解。看题干对考查重点建立大致印象，借助题文同序原则提前获取文章逻辑脉络。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 36题题干\n\n**The author believes that the housing sector _______.**\n\n> 笔者认为，住房部门_______。\n\n题型：**事实细节题**。\n\n定位预判：**Paragraph 1**\n\n---",
+          "html": "<h2>36题题干</h2><p><strong>The author believes that the housing sector _______.</strong></p><blockquote><p>笔者认为，住房部门_______。</p></blockquote><p>题型：<strong>事实细节题</strong>。</p><p>定位预判：<strong>Paragraph 1</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "36"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 37题题干\n\n**It can be learned that affordable housing has _______.**\n\n> 由此可见，经济适用房有_______。\n\n题型：**因果推断题**。\n\n定位预判：**Paragraph 2**\n\n---",
+          "html": "<h2>37题题干</h2><p><strong>It can be learned that affordable housing has _______.</strong></p><blockquote><p>由此可见，经济适用房有_______。</p></blockquote><p>题型：<strong>因果推断题</strong>。</p><p>定位预判：<strong>Paragraph 2</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "37"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 38题题干\n\n**According to Paragraph 5, George Osborne may _______.**\n\n> 根据第5段，乔治·奥斯本可能_______。\n\n题型：**段落推理题**。\n\n定位预判：**Paragraph 3**\n\n---",
+          "html": "<h2>38题题干</h2><p><strong>According to Paragraph 5, George Osborne may _______.</strong></p><blockquote><p>根据第5段，乔治·奥斯本可能_______。</p></blockquote><p>题型：<strong>段落推理题</strong>。</p><p>定位预判：<strong>Paragraph 3</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "38"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 39题题干\n\n**It can be inferred that a stable rental environment would _______.**\n\n> 可以推断，稳定的租赁环境会_______。\n\n题型：**词义/例证题**。\n\n定位预判：**Paragraph 4**\n\n---",
+          "html": "<h2>39题题干</h2><p><strong>It can be inferred that a stable rental environment would _______.</strong></p><blockquote><p>可以推断，稳定的租赁环境会_______。</p></blockquote><p>题型：<strong>词义/例证题</strong>。</p><p>定位预判：<strong>Paragraph 4</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "39"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 40题题干\n\n**The author believes that after 2015, the government may _______.**\n\n> 笔者认为，2015年后，政府可能_______。\n\n题型：**全文主旨题**。\n\n定位预判：**Paragraph 5**\n\n---",
+          "html": "<h2>40题题干</h2><p><strong>The author believes that after 2015, the government may _______.</strong></p><blockquote><p>笔者认为，2015年后，政府可能_______。</p></blockquote><p>题型：<strong>全文主旨题</strong>。</p><p>定位预判：<strong>Paragraph 5</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "40"
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "# 2. 读文章过程\n\n看完题干后，第一步要粗读一遍文章。根据自身水平扫一遍文章，开头结尾慢一些，注重首尾句，作者举的例子可以略读。关注逻辑词（however, but）、态度评价词、核心动作词与重复主题词。\n\n| 类型 | 关注原因 | 本文关注重点 |\n| --- | --- | --- |\n| 逻辑词 | 作者观点或行文转向 | however, but, nevertheless, yet, although |\n| 态度词 | 作者情感倾向与立场 | critical, positive, resilient, concern, significant |\n| 核心动作 | 论证中主体行为 | argue, demonstrate, implement, undermine |\n| 重复主题词 | 贯穿全篇的核心讨论对象 | 本文核心讨论对象与同义衍生表达 |",
+          "html": "<h1>2. 读文章过程</h1><p>扫读全文，注重段落首尾句，识别论点与论据。关注核心逻辑转折词与态度评价词。</p>\n<table class=\"table-wrap\"><thead><tr><th>类型</th><th>关注原因</th><th>本文关注重点</th></tr></thead>\n<tbody>\n<tr><td>逻辑词</td><td>作者观点或行文转向</td><td>however, but, nevertheless, yet</td></tr>\n<tr><td>态度词</td><td>作者情感倾向与立场</td><td>critical, positive, concern, significant</td></tr>\n<tr><td>核心动作</td><td>论证中主体行为</td><td>argue, demonstrate, implement, undermine</td></tr>\n<tr><td>重复主题词</td><td>贯穿全篇的核心讨论对象</td><td>本文核心论题与衍生词</td></tr>\n</tbody></table>",
+          "meta": {}
+        },
+        {
+          "section": "读文章",
+          "raw": "When the government talks about [infrastructure] [contributing] to the economy the focus is usually on roads, railways, broadband and energy. Housing is seldom mentioned.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>When the government talks about <span class=\"mask\">[infrastructure]</span> <span class=\"mask\">[contributing]</span> to the economy the focus is usually on roads, railways, broadband and energy. Housing is seldom mentioned.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "When the government talks about [infrastructure] [contributing] to the economy the focus is usually on roads, / railways, / broadband and energy. / Housing is seldom mentioned.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>When the government talks about <span class=\"mask\">[infrastructure]</span> <span class=\"mask\">[contributing]</span> to the economy the focus is usually on roads, / railways, / broadband and energy. / Housing is seldom mentioned.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第1段意群顺译】当政府谈论基础设施对经济的贡献时，重点通常是公路、铁路、宽带和能源。住房很少被提及。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>【第1段意群顺译】当政府谈论基础设施对经济的贡献时，重点通常是公路、铁路、宽带和能源。住房很少被提及。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Why is that? To some extent the housing sector must shoulder the blame. We have not been good at [communicating] the real value that housing can contribute to economic growth. Then there is the scale of the typical housing project. It is hard to shove for attention among [multibillion-pound] [infrastructure] projects, so it is inevitable that the attention is focused elsewhere. But perhaps the most significant reason is that the issue has always been so politically charged.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Why is that? To some extent the housing sector must shoulder the blame. We have not been good at <span class=\"mask\">[communicating]</span> the real value that housing can contribute to economic growth. Then there is the scale of the typical housing project. It is hard to shove for attention among <span class=\"mask\">[multibillion-pound]</span> <span class=\"mask\">[infrastructure]</span> projects, so it is inevitable that the attention is focused elsewhere. But perhaps the most significant reason is that the issue has always been so politically charged.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Why is that? To some extent the housing sector must shoulder the blame. / We have not been good at [communicating] the real value / that housing can contribute to economic growth. / Then there is the scale of the typical housing project. / It is hard to shove for attention among [multibillion-pound] [infrastructure] projects, / so it is inevitable / that the attention is focused elsewhere. / But perhaps the most significant reason is / that the issue has always been so politically charged.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Why is that? To some extent the housing sector must shoulder the blame. / We have not been good at <span class=\"mask\">[communicating]</span> the real value / that housing can contribute to economic growth. / Then there is the scale of the typical housing project. / It is hard to shove for attention among <span class=\"mask\">[multibillion-pound]</span> <span class=\"mask\">[infrastructure]</span> projects, / so it is inevitable / that the attention is focused elsewhere. / But perhaps the most significant reason is / that the issue has always been so politically charged.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第2段意群顺译】这是为什么？在某种程度上，住房部门必须承担责任。我们一直不擅长传达住房对经济增长贡献的真正价值。然后是典型住房项目的规模。耗资数十亿英镑的基础设施项目很难引起人们的注意，因此注意力不可避免地会集中到其他地方。但也许最重要的原因是这个问题一直充满政治色彩。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第2段意群顺译】这是为什么？在某种程度上，住房部门必须承担责任。我们一直不擅长传达住房对经济增长贡献的真正价值。然后是典型住房项目的规模。耗资数十亿英镑的基础设施项目很难引起人们的注意，因此注意力不可避免地会集中到其他地方。但也许最重要的原因是这个问题一直充满政治色彩。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "[Nevertheless], the affordable housing situation is desperate. Waiting lists increase all the time and we are simply not building enough new homes.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p><span class=\"mask\">[Nevertheless]</span>, the affordable housing situation is desperate. Waiting lists increase all the time and we are simply not building enough new homes.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "[Nevertheless], / the affordable housing situation is desperate. / Waiting lists increase all the time and we are simply not building enough new homes.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p><span class=\"mask\">[Nevertheless]</span>, / the affordable housing situation is desperate. / Waiting lists increase all the time and we are simply not building enough new homes.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第3段意群顺译】然而，保障性住房的形势却十分严峻。等候名单一直在增加，而我们根本没有建造足够的新房。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第3段意群顺译】然而，保障性住房的形势却十分严峻。等候名单一直在增加，而我们根本没有建造足够的新房。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The [comprehensive] spending review offers an opportunity for the government to help rectify this. It needs to put historical [prejudices] to one side and take some steps to address our urgent housing need.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The <span class=\"mask\">[comprehensive]</span> spending review offers an opportunity for the government to help rectify this. It needs to put historical <span class=\"mask\">[prejudices]</span> to one side and take some steps to address our urgent housing need.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The [comprehensive] spending review offers an opportunity for the government to help rectify this. / It needs to put historical [prejudices] to one side and take some steps to address our urgent housing need.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The <span class=\"mask\">[comprehensive]</span> spending review offers an opportunity for the government to help rectify this. / It needs to put historical <span class=\"mask\">[prejudices]</span> to one side and take some steps to address our urgent housing need.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第4段意群顺译】全面的支出审查为政府提供了一个帮助纠正这一问题的机会。它需要把历史偏见放在一边，采取一些措施来解决我们迫切的住房需求。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第4段意群顺译】全面的支出审查为政府提供了一个帮助纠正这一问题的机会。它需要把历史偏见放在一边，采取一些措施来解决我们迫切的住房需求。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "There are some indications that it is preparing to do just that. The communities minister, Don Foster, has hinted that George Osborne, [Chancellor] of the Exchequer, may introduce more flexibility to the current cap on the amount that local authorities can borrow against their housing stock debt. Evidence shows that 60,000 extra new homes could be built over the next five years if the cap were lifted, increasing GDP by 0.6%.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>There are some indications that it is preparing to do just that. The communities minister, Don Foster, has hinted that George Osborne, <span class=\"mask\">[Chancellor]</span> of the Exchequer, may introduce more flexibility to the current cap on the amount that local authorities can borrow against their housing stock debt. Evidence shows that 60,000 extra new homes could be built over the next five years if the cap were lifted, increasing GDP by 0.6%.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "There are some indications / that it is preparing to do just that. / The communities minister, / Don Foster, / has hinted / that George Osborne, / [Chancellor] of the Exchequer, / may introduce more flexibility to the current cap on the amount / that local authorities can borrow against their housing stock debt. / Evidence shows / that 60,000 extra new homes could be built over the next five years / if the cap were lifted, / increasing GDP by 0.6%.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>There are some indications / that it is preparing to do just that. / The communities minister, / Don Foster, / has hinted / that George Osborne, / <span class=\"mask\">[Chancellor]</span> of the Exchequer, / may introduce more flexibility to the current cap on the amount / that local authorities can borrow against their housing stock debt. / Evidence shows / that 60,000 extra new homes could be built over the next five years / if the cap were lifted, / increasing GDP by 0.6%.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第5段意群顺译】有一些迹象表明它正准备这样做。社区部长唐·福斯特 (Don Foster) 暗示，财政大臣乔治·奥斯本 (George Osborne) 可能会对当前地方政府可抵押住房存量债务的借款金额上限引入更大的灵活性。有证据表明，如果取消上限，未来五年可额外建造 60,000 套新房，GD...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第5段意群顺译】有一些迹象表明它正准备这样做。社区部长唐·福斯特 (Don Foster) 暗示，财政大臣乔治·奥斯本 (George Osborne) 可能会对当前地方政府可抵押住房存量债务的借款金额上限引入更大的灵活性。有证据表明，如果取消上限，未来五年可额外建造 60,000 套新房，GD...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Ministers should also look at creating greater certainty in the rental environment, which would have a significant impact on the ability of registered providers to fund new [developments] from revenues.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Ministers should also look at creating greater certainty in the rental environment, which would have a significant impact on the ability of registered providers to fund new <span class=\"mask\">[developments]</span> from revenues.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Ministers should also look at creating greater certainty in the rental environment, / / which would have a significant impact on the ability of registered providers to fund new [developments] from revenues.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Ministers should also look at creating greater certainty in the rental environment, / / which would have a significant impact on the ability of registered providers to fund new <span class=\"mask\">[developments]</span> from revenues.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第6段意群顺译】部长们还应该考虑在租赁环境中创造更大的确定性，这将对注册提供商利用收入为新开发项目提供资金的能力产生重大影响。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第6段意群顺译】部长们还应该考虑在租赁环境中创造更大的确定性，这将对注册提供商利用收入为新开发项目提供资金的能力产生重大影响。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "But it is not just down to the government. While these measures would be welcome in the short term, we must face up to the fact that the existing ￡4.5bn programme of grants to fund new affordable housing, set to expire in 2015, is unlikely to be extended beyond then. The Labour party has recently announced that it will retain a large part of the coalition’s spending plans if it returns to power. The housing sector needs to accept that we are very unlikely to ever return to the era of large-scale public grants. We need to adjust to this changing climate. While the government’s commitment to long-term funding may have changed, the very pressing need for more affordable housing is real and is not going away.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>But it is not just down to the government. While these measures would be welcome in the short term, we must face up to the fact that the existing ￡4.5bn programme of grants to fund new affordable housing, set to expire in 2015, is unlikely to be extended beyond then. The Labour party has recently announced that it will retain a large part of the coalition’s spending plans if it returns to power. The housing sector needs to accept that we are very unlikely to ever return to the era of large-scale public grants. We need to adjust to this changing climate. While the government’s commitment to long-term funding may have changed, the very pressing need for more affordable housing is real and is not going away.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 6,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "But it is not just down to the government. / While these measures would be welcome in the short term, / we must face up to the fact / that the existing ￡4.5bn programme of grants to fund new affordable housing, / set to expire in 2015, / is unlikely to be extended beyond then. / The Labour party has recently announced / that it will retain a large part of the coalition’s spending plans / if it returns to power. / The housing sector needs to accept / that we are very unlikely to ever return to the era of large-scale public grants. / We need to adjust to this changing climate. / While the government’s commitment to long-term funding may have changed, / the very pressing need for more affordable housing is real and is not going away.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>But it is not just down to the government. / While these measures would be welcome in the short term, / we must face up to the fact / that the existing ￡4.5bn programme of grants to fund new affordable housing, / set to expire in 2015, / is unlikely to be extended beyond then. / The Labour party has recently announced / that it will retain a large part of the coalition’s spending plans / if it returns to power. / The housing sector needs to accept / that we are very unlikely to ever return to the era of large-scale public grants. / We need to adjust to this changing climate. / While the government’s commitment to long-term funding may have changed, / the very pressing need for more affordable housing is real and is not going away.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 6,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第7段意群顺译】但这不仅仅取决于政府。虽然这些措施在短期内会受到欢迎，但我们必须面对这样一个事实：现有的 45 亿英镑资助新建经济适用房的赠款计划将于 2015 年到期，之后不太可能再延长。工党最近宣布，如果重新执政，它将保留联盟大部分支出计划。住房部门需要接受这样一个事实：我们不太可能回到大规...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第7段意群顺译】但这不仅仅取决于政府。虽然这些措施在短期内会受到欢迎，但我们必须面对这样一个事实：现有的 45 亿英镑资助新建经济适用房的赠款计划将于 2015 年到期，之后不太可能再延长。工党最近宣布，如果重新执政，它将保留联盟大部分支出计划。住房部门需要接受这样一个事实：我们不太可能回到大规...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 6,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落7大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>7、【段落7大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 6,
+            "form": 3
+          }
+        },
+        {
+          "section": "做题过程",
+          "raw": "# 3. 开始做题 (36-40题)\n\n粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。",
+          "html": "<h1>3. 开始做题 (36-40题)</h1><p>粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。</p>",
+          "meta": {}
+        },
+        {
+          "section": "36题",
+          "raw": "## 36题\n\n**The author believes that the housing sector _______.**\n\n> 笔者认为，住房部门_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> When the government talks about [infrastructure] [contributing] to the economy the focus is usually on roads, railways, broadband and energy. Housing is seldom mentioned.\n>\n> 开始精读：\n>\n> When the government talks about [infrastructure] [contributing] to the economy the focus is usually on roads, / railways, / broadband and energy. / Housing is seldom mentioned.\n>\n> 逐意群顺译：\n>\n> 当政府谈论基础设施对经济的贡献时，重点通常是公路、铁路、宽带和能源。住房很少被提及。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>36题</h2>\n<p><strong>The author believes that the housing sector _______.</strong></p>\n<blockquote><p>笔者认为，住房部门_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>When the government talks about <span class=\"mask\">[infrastructure]</span> <span class=\"mask\">[contributing]</span> to the economy the focus is usually on roads, railways, broadband and energy. Housing is seldom mentioned.</p>\n<p><strong>开始精读：</strong></p>\n<p>When the government talks about <span class=\"mask\">[infrastructure]</span> <span class=\"mask\">[contributing]</span> to the economy the focus is usually on roads, / railways, / broadband and energy. / Housing is seldom mentioned.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>当政府谈论基础设施对经济的贡献时，重点通常是公路、铁路、宽带和能源。住房很少被提及。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "36"
+          }
+        },
+        {
+          "section": "36题",
+          "raw": "### A. has attracted much attention\n\n> 引起了很多关注\n\n我们先看 A 选项：`has attracted much attention`（引起了很多关注）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：笔者认为，住房部门“引起了很多关注”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“引起了很多关注”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. has attracted much attention</h3>\n<blockquote><p>引起了很多关注</p></blockquote>\n<p>我们先看 A 选项：<code>has attracted much attention</code>（引起了很多关注）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：笔者认为，住房部门“引起了很多关注”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“引起了很多关注”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "36",
+            "option": "A"
+          }
+        },
+        {
+          "section": "36题",
+          "raw": "### B. involves certain political factors\n\n> 涉及一定的政治因素\n\n我们先看 B 选项：`involves certain political factors`（涉及一定的政治因素）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：笔者认为，住房部门“涉及一定的政治因素”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `involves`, `certain`, `political` 与原文第 1 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：B强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>B. involves certain political factors</h3>\n<blockquote><p>涉及一定的政治因素</p></blockquote>\n<p>我们先看 B 选项：<code>involves certain political factors</code>（涉及一定的政治因素）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：笔者认为，住房部门“涉及一定的政治因素”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>involves</code>, <code>certain</code>, <code>political</code> 与原文第 1 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：B强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "36",
+            "option": "B"
+          }
+        },
+        {
+          "section": "36题",
+          "raw": "### C. shoulders too much responsibility\n\n> 肩负太多责任\n\n我们先看 C 选项：`shoulders too much responsibility`（肩负太多责任）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：笔者认为，住房部门“肩负太多责任”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `shoulders`, `too`, `much` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. shoulders too much responsibility</h3>\n<blockquote><p>肩负太多责任</p></blockquote>\n<p>我们先看 C 选项：<code>shoulders too much responsibility</code>（肩负太多责任）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：笔者认为，住房部门“肩负太多责任”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>shoulders</code>, <code>too</code>, <code>much</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "36",
+            "option": "C"
+          }
+        },
+        {
+          "section": "36题",
+          "raw": "### D. has lost its real value in economy\n\n> 已经失去了其真正的经济价值\n\n我们先看 D 选项：`has lost its real value in economy`（已经失去了其真正的经济价值）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：笔者认为，住房部门“已经失去了其真正的经济价值”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“已经失去了其真正的经济价值”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. has lost its real value in economy</h3>\n<blockquote><p>已经失去了其真正的经济价值</p></blockquote>\n<p>我们先看 D 选项：<code>has lost its real value in economy</code>（已经失去了其真正的经济价值）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：笔者认为，住房部门“已经失去了其真正的经济价值”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“已经失去了其真正的经济价值”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "36",
+            "option": "D"
+          }
+        },
+        {
+          "section": "36题",
+          "raw": "### 36题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B强保留，与原文定位信息高度吻合；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>36题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B强保留，与原文定位信息高度吻合</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "36"
+          }
+        },
+        {
+          "section": "37题",
+          "raw": "## 37题\n\n**It can be learned that affordable housing has _______.**\n\n> 由此可见，经济适用房有_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> Why is that? To some extent the housing sector must shoulder the blame. We have not been good at [communicating] the real value that housing can contribute to economic growth. Then there is the scale of the typical housing project. It is hard to shove for attention among [multibillion-pound] [infrastructure] projects, so it is inevitable that the attention is focused elsewhere. But perhaps the most significant reason is that the issue has always been so politically charged.\n>\n> 开始精读：\n>\n> Why is that? To some extent the housing sector must shoulder the blame. / We have not been good at [communicating] the real value / that housing can contribute to economic growth. / Then there is the scale of the typical housing project. / It is hard to shove for attention among [multibillion-pound] [infrastructure] projects, / so it is inevitable / that the attention is focused elsewhere. / But perhaps the most significant reason is / that the issue has always been so politically charged.\n>\n> 逐意群顺译：\n>\n> 这是为什么？在某种程度上，住房部门必须承担责任。我们一直不擅长传达住房对经济增长贡献的真正价值。然后是典型住房项目的规模。耗资数十亿英镑的基础设施项目很难引起人们的注意，因此注意力不可避免地会集中到其他地方。但也许最重要的原因是这个问题一直充满政治色彩。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>37题</h2>\n<p><strong>It can be learned that affordable housing has _______.</strong></p>\n<blockquote><p>由此可见，经济适用房有_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Why is that? To some extent the housing sector must shoulder the blame. We have not been good at <span class=\"mask\">[communicating]</span> the real value that housing can contribute to economic growth. Then there is the scale of the typical housing project. It is hard to shove for attention among <span class=\"mask\">[multibillion-pound]</span> <span class=\"mask\">[infrastructure]</span> projects, so it is inevitable that the attention is focused elsewhere. But perhaps the most significant reason is that the issue has always been so politically charged.</p>\n<p><strong>开始精读：</strong></p>\n<p>Why is that? To some extent the housing sector must shoulder the blame. / We have not been good at <span class=\"mask\">[communicating]</span> the real value / that housing can contribute to economic growth. / Then there is the scale of the typical housing project. / It is hard to shove for attention among <span class=\"mask\">[multibillion-pound]</span> <span class=\"mask\">[infrastructure]</span> projects, / so it is inevitable / that the attention is focused elsewhere. / But perhaps the most significant reason is / that the issue has always been so politically charged.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>这是为什么？在某种程度上，住房部门必须承担责任。我们一直不擅长传达住房对经济增长贡献的真正价值。然后是典型住房项目的规模。耗资数十亿英镑的基础设施项目很难引起人们的注意，因此注意力不可避免地会集中到其他地方。但也许最重要的原因是这个问题一直充满政治色彩。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "37"
+          }
+        },
+        {
+          "section": "37题",
+          "raw": "### A. increased its home supply\n\n> 增加房屋供应\n\n我们先看 A 选项：`increased its home supply`（增加房屋供应）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：由此可见，经济适用房有“增加房屋供应”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“增加房屋供应”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. increased its home supply</h3>\n<blockquote><p>增加房屋供应</p></blockquote>\n<p>我们先看 A 选项：<code>increased its home supply</code>（增加房屋供应）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：由此可见，经济适用房有“增加房屋供应”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“增加房屋供应”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "37",
+            "option": "A"
+          }
+        },
+        {
+          "section": "37题",
+          "raw": "### B. offered spending opportunities\n\n> 提供消费机会\n\n我们先看 B 选项：`offered spending opportunities`（提供消费机会）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：由此可见，经济适用房有“提供消费机会”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“提供消费机会”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. offered spending opportunities</h3>\n<blockquote><p>提供消费机会</p></blockquote>\n<p>我们先看 B 选项：<code>offered spending opportunities</code>（提供消费机会）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：由此可见，经济适用房有“提供消费机会”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“提供消费机会”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "37",
+            "option": "B"
+          }
+        },
+        {
+          "section": "37题",
+          "raw": "### C. suffered government biases\n\n> 遭受政府偏见\n\n我们先看 C 选项：`suffered government biases`（遭受政府偏见）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：由此可见，经济适用房有“遭受政府偏见”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `suffered`, `government`, `biases` 与原文第 2 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：C强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>C. suffered government biases</h3>\n<blockquote><p>遭受政府偏见</p></blockquote>\n<p>我们先看 C 选项：<code>suffered government biases</code>（遭受政府偏见）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：由此可见，经济适用房有“遭受政府偏见”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>suffered</code>, <code>government</code>, <code>biases</code> 与原文第 2 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：C强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "37",
+            "option": "C"
+          }
+        },
+        {
+          "section": "37题",
+          "raw": "### D. disappointed the government\n\n> 让政府失望\n\n我们先看 D 选项：`disappointed the government`（让政府失望）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：由此可见，经济适用房有“让政府失望”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“让政府失望”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. disappointed the government</h3>\n<blockquote><p>让政府失望</p></blockquote>\n<p>我们先看 D 选项：<code>disappointed the government</code>（让政府失望）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：由此可见，经济适用房有“让政府失望”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“让政府失望”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "37",
+            "option": "D"
+          }
+        },
+        {
+          "section": "37题",
+          "raw": "### 37题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C强保留，与原文定位信息高度吻合；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>37题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C强保留，与原文定位信息高度吻合</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "37"
+          }
+        },
+        {
+          "section": "38题",
+          "raw": "## 38题\n\n**According to Paragraph 5, George Osborne may _______.**\n\n> 根据第5段，乔治·奥斯本可能_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> [Nevertheless], the affordable housing situation is desperate. Waiting lists increase all the time and we are simply not building enough new homes.\n>\n> 开始精读：\n>\n> [Nevertheless], / the affordable housing situation is desperate. / Waiting lists increase all the time and we are simply not building enough new homes.\n>\n> 逐意群顺译：\n>\n> 然而，保障性住房的形势却十分严峻。等候名单一直在增加，而我们根本没有建造足够的新房。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>38题</h2>\n<p><strong>According to Paragraph 5, George Osborne may _______.</strong></p>\n<blockquote><p>根据第5段，乔治·奥斯本可能_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p><span class=\"mask\">[Nevertheless]</span>, the affordable housing situation is desperate. Waiting lists increase all the time and we are simply not building enough new homes.</p>\n<p><strong>开始精读：</strong></p>\n<p><span class=\"mask\">[Nevertheless]</span>, / the affordable housing situation is desperate. / Waiting lists increase all the time and we are simply not building enough new homes.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>然而，保障性住房的形势却十分严峻。等候名单一直在增加，而我们根本没有建造足够的新房。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "38"
+          }
+        },
+        {
+          "section": "38题",
+          "raw": "### A. allow greater government debt for housing\n\n> 允许政府增加住房债务\n\n我们先看 A 选项：`allow greater government debt for housing`（允许政府增加住房债务）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第5段，乔治·奥斯本可能“允许政府增加住房债务”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `allow`, `greater`, `government` 与原文第 3 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：A强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>A. allow greater government debt for housing</h3>\n<blockquote><p>允许政府增加住房债务</p></blockquote>\n<p>我们先看 A 选项：<code>allow greater government debt for housing</code>（允许政府增加住房债务）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第5段，乔治·奥斯本可能“允许政府增加住房债务”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>allow</code>, <code>greater</code>, <code>government</code> 与原文第 3 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：A强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "38",
+            "option": "A"
+          }
+        },
+        {
+          "section": "38题",
+          "raw": "### B. stop local authorities from building homes\n\n> 阻止地方当局建造房屋\n\n我们先看 B 选项：`stop local authorities from building homes`（阻止地方当局建造房屋）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第5段，乔治·奥斯本可能“阻止地方当局建造房屋”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“阻止地方当局建造房屋”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. stop local authorities from building homes</h3>\n<blockquote><p>阻止地方当局建造房屋</p></blockquote>\n<p>我们先看 B 选项：<code>stop local authorities from building homes</code>（阻止地方当局建造房屋）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第5段，乔治·奥斯本可能“阻止地方当局建造房屋”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“阻止地方当局建造房屋”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "38",
+            "option": "B"
+          }
+        },
+        {
+          "section": "38题",
+          "raw": "### C. prepare to reduce housing stock debt\n\n> 准备减少住房存量债务\n\n我们先看 C 选项：`prepare to reduce housing stock debt`（准备减少住房存量债务）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第5段，乔治·奥斯本可能“准备减少住房存量债务”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `prepare`, `reduce`, `housing` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. prepare to reduce housing stock debt</h3>\n<blockquote><p>准备减少住房存量债务</p></blockquote>\n<p>我们先看 C 选项：<code>prepare to reduce housing stock debt</code>（准备减少住房存量债务）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第5段，乔治·奥斯本可能“准备减少住房存量债务”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>prepare</code>, <code>reduce</code>, <code>housing</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "38",
+            "option": "C"
+          }
+        },
+        {
+          "section": "38题",
+          "raw": "### D. release a lifted GDP growth forecast\n\n> 发布上调的GDP增长预测\n\n我们先看 D 选项：`release a lifted GDP growth forecast`（发布上调的GDP增长预测）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第5段，乔治·奥斯本可能“发布上调的GDP增长预测”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“发布上调的GDP增长预测”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. release a lifted GDP growth forecast</h3>\n<blockquote><p>发布上调的GDP增长预测</p></blockquote>\n<p>我们先看 D 选项：<code>release a lifted GDP growth forecast</code>（发布上调的GDP增长预测）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第5段，乔治·奥斯本可能“发布上调的GDP增长预测”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“发布上调的GDP增长预测”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "38",
+            "option": "D"
+          }
+        },
+        {
+          "section": "38题",
+          "raw": "### 38题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A强保留，与原文定位信息高度吻合；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>38题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A强保留，与原文定位信息高度吻合</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "38"
+          }
+        },
+        {
+          "section": "39题",
+          "raw": "## 39题\n\n**It can be inferred that a stable rental environment would _______.**\n\n> 可以推断，稳定的租赁环境会_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> The [comprehensive] spending review offers an opportunity for the government to help rectify this. It needs to put historical [prejudices] to one side and take some steps to address our urgent housing need.\n>\n> 开始精读：\n>\n> The [comprehensive] spending review offers an opportunity for the government to help rectify this. / It needs to put historical [prejudices] to one side and take some steps to address our urgent housing need.\n>\n> 逐意群顺译：\n>\n> 全面的支出审查为政府提供了一个帮助纠正这一问题的机会。它需要把历史偏见放在一边，采取一些措施来解决我们迫切的住房需求。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>39题</h2>\n<p><strong>It can be inferred that a stable rental environment would _______.</strong></p>\n<blockquote><p>可以推断，稳定的租赁环境会_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>The <span class=\"mask\">[comprehensive]</span> spending review offers an opportunity for the government to help rectify this. It needs to put historical <span class=\"mask\">[prejudices]</span> to one side and take some steps to address our urgent housing need.</p>\n<p><strong>开始精读：</strong></p>\n<p>The <span class=\"mask\">[comprehensive]</span> spending review offers an opportunity for the government to help rectify this. / It needs to put historical <span class=\"mask\">[prejudices]</span> to one side and take some steps to address our urgent housing need.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>全面的支出审查为政府提供了一个帮助纠正这一问题的机会。它需要把历史偏见放在一边，采取一些措施来解决我们迫切的住房需求。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "39"
+          }
+        },
+        {
+          "section": "39题",
+          "raw": "### A. lower the costs of registered providers\n\n> 降低注册提供商的成本\n\n我们先看 A 选项：`lower the costs of registered providers`（降低注册提供商的成本）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：可以推断，稳定的租赁环境会“降低注册提供商的成本”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“降低注册提供商的成本”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. lower the costs of registered providers</h3>\n<blockquote><p>降低注册提供商的成本</p></blockquote>\n<p>我们先看 A 选项：<code>lower the costs of registered providers</code>（降低注册提供商的成本）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：可以推断，稳定的租赁环境会“降低注册提供商的成本”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“降低注册提供商的成本”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "39",
+            "option": "A"
+          }
+        },
+        {
+          "section": "39题",
+          "raw": "### B. lessen the impact of government interference\n\n> 减少政府干预的影响\n\n我们先看 B 选项：`lessen the impact of government interference`（减少政府干预的影响）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：可以推断，稳定的租赁环境会“减少政府干预的影响”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“减少政府干预的影响”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. lessen the impact of government interference</h3>\n<blockquote><p>减少政府干预的影响</p></blockquote>\n<p>我们先看 B 选项：<code>lessen the impact of government interference</code>（减少政府干预的影响）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：可以推断，稳定的租赁环境会“减少政府干预的影响”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“减少政府干预的影响”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "39",
+            "option": "B"
+          }
+        },
+        {
+          "section": "39题",
+          "raw": "### C. contribute to funding new developments\n\n> 为新的发展提供资金\n\n我们先看 C 选项：`contribute to funding new developments`（为新的发展提供资金）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：可以推断，稳定的租赁环境会“为新的发展提供资金”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `contribute`, `funding`, `new` 与原文第 4 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：C强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>C. contribute to funding new developments</h3>\n<blockquote><p>为新的发展提供资金</p></blockquote>\n<p>我们先看 C 选项：<code>contribute to funding new developments</code>（为新的发展提供资金）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：可以推断，稳定的租赁环境会“为新的发展提供资金”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>contribute</code>, <code>funding</code>, <code>new</code> 与原文第 4 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：C强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "39",
+            "option": "C"
+          }
+        },
+        {
+          "section": "39题",
+          "raw": "### D. relieve the ministers of responsibilities\n\n> 解除部长们的职责\n\n我们先看 D 选项：`relieve the ministers of responsibilities`（解除部长们的职责）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：可以推断，稳定的租赁环境会“解除部长们的职责”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“解除部长们的职责”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. relieve the ministers of responsibilities</h3>\n<blockquote><p>解除部长们的职责</p></blockquote>\n<p>我们先看 D 选项：<code>relieve the ministers of responsibilities</code>（解除部长们的职责）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：可以推断，稳定的租赁环境会“解除部长们的职责”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“解除部长们的职责”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "39",
+            "option": "D"
+          }
+        },
+        {
+          "section": "39题",
+          "raw": "### 39题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C强保留，与原文定位信息高度吻合；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>39题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C强保留，与原文定位信息高度吻合</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "39"
+          }
+        },
+        {
+          "section": "40题",
+          "raw": "## 40题\n\n**The author believes that after 2015, the government may _______.**\n\n> 笔者认为，2015年后，政府可能_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 5 段展开，所以我们直接回第 5 段定位精读。\n\n> 原文参考：\n>\n> There are some indications that it is preparing to do just that. The communities minister, Don Foster, has hinted that George Osborne, [Chancellor] of the Exchequer, may introduce more flexibility to the current cap on the amount that local authorities can borrow against their housing stock debt. Evidence shows that 60,000 extra new homes could be built over the next five years if the cap were lifted, increasing GDP by 0.6%.\n>\n> 开始精读：\n>\n> There are some indications / that it is preparing to do just that. / The communities minister, / Don Foster, / has hinted / that George Osborne, / [Chancellor] of the Exchequer, / may introduce more flexibility to the current cap on the amount / that local authorities can borrow against their housing stock debt. / Evidence shows / that 60,000 extra new homes could be built over the next five years / if the cap were lifted, / increasing GDP by 0.6%.\n>\n> 逐意群顺译：\n>\n> 有一些迹象表明它正准备这样做。社区部长唐·福斯特 (Don Foster) 暗示，财政大臣乔治·奥斯本 (George Osborne) 可能会对当前地方政府可抵押住房存量债务的借款金额上限引入更大的灵活性。有证据表明，如果取消上限，未来五年可额外建造 60,000 套新房，GDP 增长 0.6%。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>40题</h2>\n<p><strong>The author believes that after 2015, the government may _______.</strong></p>\n<blockquote><p>笔者认为，2015年后，政府可能_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>5</strong> 段展开，所以我们直接回第 <strong>5</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>There are some indications that it is preparing to do just that. The communities minister, Don Foster, has hinted that George Osborne, <span class=\"mask\">[Chancellor]</span> of the Exchequer, may introduce more flexibility to the current cap on the amount that local authorities can borrow against their housing stock debt. Evidence shows that 60,000 extra new homes could be built over the next five years if the cap were lifted, increasing GDP by 0.6%.</p>\n<p><strong>开始精读：</strong></p>\n<p>There are some indications / that it is preparing to do just that. / The communities minister, / Don Foster, / has hinted / that George Osborne, / <span class=\"mask\">[Chancellor]</span> of the Exchequer, / may introduce more flexibility to the current cap on the amount / that local authorities can borrow against their housing stock debt. / Evidence shows / that 60,000 extra new homes could be built over the next five years / if the cap were lifted, / increasing GDP by 0.6%.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>有一些迹象表明它正准备这样做。社区部长唐·福斯特 (Don Foster) 暗示，财政大臣乔治·奥斯本 (George Osborne) 可能会对当前地方政府可抵押住房存量债务的借款金额上限引入更大的灵活性。有证据表明，如果取消上限，未来五年可额外建造 60,000 套新房，GDP 增长 0.6%。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "40"
+          }
+        },
+        {
+          "section": "40题",
+          "raw": "### A. implement more policies to support housing\n\n> 落实更多住房政策支持\n\n我们先看 A 选项：`implement more policies to support housing`（落实更多住房政策支持）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：笔者认为，2015年后，政府可能“落实更多住房政策支持”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `implement`, `more`, `policies` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. implement more policies to support housing</h3>\n<blockquote><p>落实更多住房政策支持</p></blockquote>\n<p>我们先看 A 选项：<code>implement more policies to support housing</code>（落实更多住房政策支持）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：笔者认为，2015年后，政府可能“落实更多住房政策支持”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>implement</code>, <code>more</code>, <code>policies</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "40",
+            "option": "A"
+          }
+        },
+        {
+          "section": "40题",
+          "raw": "### B. review the need for large-scale public grants\n\n> 审查大规模公共拨款的需要\n\n我们先看 B 选项：`review the need for large-scale public grants`（审查大规模公共拨款的需要）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：笔者认为，2015年后，政府可能“审查大规模公共拨款的需要”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `review`, `need`, `large` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. review the need for large-scale public grants</h3>\n<blockquote><p>审查大规模公共拨款的需要</p></blockquote>\n<p>我们先看 B 选项：<code>review the need for large-scale public grants</code>（审查大规模公共拨款的需要）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：笔者认为，2015年后，政府可能“审查大规模公共拨款的需要”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>review</code>, <code>need</code>, <code>large</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "40",
+            "option": "B"
+          }
+        },
+        {
+          "section": "40题",
+          "raw": "### C. renew the affordable housing grants programme\n\n> 更新经济适用住房补助计划\n\n我们先看 C 选项：`renew the affordable housing grants programme`（更新经济适用住房补助计划）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：笔者认为，2015年后，政府可能“更新经济适用住房补助计划”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“更新经济适用住房补助计划”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 5 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. renew the affordable housing grants programme</h3>\n<blockquote><p>更新经济适用住房补助计划</p></blockquote>\n<p>我们先看 C 选项：<code>renew the affordable housing grants programme</code>（更新经济适用住房补助计划）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：笔者认为，2015年后，政府可能“更新经济适用住房补助计划”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“更新经济适用住房补助计划”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 5 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "40",
+            "option": "C"
+          }
+        },
+        {
+          "section": "40题",
+          "raw": "### D. stop generous funding to the housing sector\n\n> 停止对住房部门的慷慨资助\n\n我们先看 D 选项：`stop generous funding to the housing sector`（停止对住房部门的慷慨资助）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：笔者认为，2015年后，政府可能“停止对住房部门的慷慨资助”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `stop`, `generous`, `funding` 与原文第 5 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 5 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：D强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>D. stop generous funding to the housing sector</h3>\n<blockquote><p>停止对住房部门的慷慨资助</p></blockquote>\n<p>我们先看 D 选项：<code>stop generous funding to the housing sector</code>（停止对住房部门的慷慨资助）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：笔者认为，2015年后，政府可能“停止对住房部门的慷慨资助”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>stop</code>, <code>generous</code>, <code>funding</code> 与原文第 5 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 5 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：D强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "40",
+            "option": "D"
+          }
+        },
+        {
+          "section": "40题",
+          "raw": "### 40题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D强保留，与原文定位信息高度吻合；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>40题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D强保留，与原文定位信息高度吻合</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "40"
+          }
+        },
+        {
+          "section": "进阶技巧",
+          "raw": "# 4. 进阶技巧：交叉验证冲全对\n\n当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。",
+          "html": "<h1>4. 进阶技巧：交叉验证冲全对</h1><p>当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。</p>",
+          "meta": {}
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查36题交叉验证\n\n**题干**：The author believes that the housing sector _______.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **B**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **B**。\n\n**36题选 B。**",
+          "html": "<h2>回查36题交叉验证</h2>\n<p><strong>题干</strong>：The author believes that the housing sector _______.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>B</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">B</span></strong>。</p>\n<p><strong>36题选 B。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "36"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查37题交叉验证\n\n**题干**：It can be learned that affordable housing has _______.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **C**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **C**。\n\n**37题选 C。**",
+          "html": "<h2>回查37题交叉验证</h2>\n<p><strong>题干</strong>：It can be learned that affordable housing has _______.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>C</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">C</span></strong>。</p>\n<p><strong>37题选 C。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "37"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查38题交叉验证\n\n**题干**：According to Paragraph 5, George Osborne may _______.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **A**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **A**。\n\n**38题选 A。**",
+          "html": "<h2>回查38题交叉验证</h2>\n<p><strong>题干</strong>：According to Paragraph 5, George Osborne may _______.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>A</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">A</span></strong>。</p>\n<p><strong>38题选 A。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "38"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查39题交叉验证\n\n**题干**：It can be inferred that a stable rental environment would _______.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **C**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **C**。\n\n**39题选 C。**",
+          "html": "<h2>回查39题交叉验证</h2>\n<p><strong>题干</strong>：It can be inferred that a stable rental environment would _______.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>C</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">C</span></strong>。</p>\n<p><strong>39题选 C。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "39"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查40题交叉验证\n\n**题干**：The author believes that after 2015, the government may _______.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **D**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **D**。\n\n**40题选 D。**",
+          "html": "<h2>回查40题交叉验证</h2>\n<p><strong>题干</strong>：The author believes that after 2015, the government may _______.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>D</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">D</span></strong>。</p>\n<p><strong>40题选 D。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "40"
+          }
+        },
+        {
+          "section": "最终答案",
+          "raw": "# 5. 最终答案汇总\n\n**36. B**\n\n**37. C**\n\n**38. A**\n\n**39. C**\n\n**40. D**\n\n恭喜完成本篇阅读的做题推演！建议点击顶栏切换至【复盘模式（一石五鸟）】进行全方位深度吸收。",
+          "html": "<h1>5. 最终答案汇总</h1><div style=\"background:#f0fdf4;border:1px solid #bbf7d0;padding:16px;border-radius:8px;font-size:18px;line-height:2;color:#166534\">**36. B**<br><br>**37. C**<br><br>**38. A**<br><br>**39. C**<br><br>**40. D**</div><p style=\"margin-top:16px\">恭喜完成本篇阅读的做题推演！建议点击顶栏切换至<strong>【复盘模式（一石五鸟）】</strong>进行全方位深度吸收。</p>",
+          "meta": {
+            "kind": "final"
+          }
+        }
+      ]
+    },
+    "review": {
+      "steps": [
+        {
+          "section": 0,
+          "title": "省流：一石五鸟法怎么做",
+          "html": "<p>一石五鸟复盘法将一篇阅读真题价值吃干榨净，同时打通词汇、长难句与翻译、阅读解题思维、新题型逻辑、大作文写作五大核心题型，实现高效备考。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第一鸟-积累文中重点单词带来的词汇量提升",
+          "html": "<p>精选真题高频核心词、熟词生义、派生搭配，在语境中彻底掌握考研核心5500词的核心词族。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第二鸟-精读文章与翻译练习带来的翻译能力提升",
+          "html": "<p>逐句精读拆解句法骨架（主干提取、从句修饰剥离），针对典型长难句进行规范中文翻译输出。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>深度剖析命题人设置正确选项的同义替换规律，归纳排查5大高频干扰陷阱（偷换概念/无中生有/反向干扰/过度推断/答非所问）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>梳理全文语篇结构树（起承转合、因果对比、问题解决），迁移训练考研英语二新题型（7选5/小标题/排序）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第五鸟-顺手积累本文的大作文主题词与表达带来的写作能力提升",
+          "html": "<p>提炼本文涉及社会热点、科技经济、生态教育等母题的高分表达、观点金句与论证句型，直接化为写作武器。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "为什么考研英语备考实际只需要两到三个月的有效备考工作量",
+          "html": "<p>通过一石五鸟法，做1篇真题等于练5项能力，无需题海战术，56篇真题足以为考研英语二夯实75+甚至85+的坚实功底。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第1段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>talks</strong></td><td>n. 会谈，谈判；谈话，交谈；讲话，讲座</td><td><strong>infrastructure</strong></td><td>n. 下面结构；永久性军事设施；基础设施，基础建设</td><td><strong>contributing</strong></td><td>v. 捐赠，捐助；做贡献；促成，是……的原因之一</td></tr><tr><td><strong>focus</strong></td><td>n. 重点，中心点；关注，注意；震源</td><td><strong>usually</strong></td><td>adv. 通常地，经常地</td><td><strong>roads</strong></td><td>n. 道路，公路；开敞或半开敞锚地，即泊地；英语姓氏，音译“罗兹”</td></tr><tr><td><strong>railways</strong></td><td>n. 铁路；铁路系统，铁路部门；铁路公司</td><td><strong>broadband</strong></td><td>n. 宽带，宽频；宽频带，宽波段；adj. 宽频带的，宽波段的，宽频通讯的</td><td><strong>energy</strong></td><td>n. 能力，力气；精力，活力；能源</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第2段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>contribute to</strong></td><td>有助于，促成；向……捐献</td><td><strong>extent</strong></td><td>n. 程度；范围，长度</td><td><strong>housing</strong></td><td>n. 房屋，住宅；住房供给，住房建设；外壳，外罩</td></tr><tr><td><strong>sector</strong></td><td>n. 区域，部分；部门，行业；小群体</td><td><strong>shoulder</strong></td><td>n. 肩，肩膀；双肩，上背部；肩部</td><td><strong>blame</strong></td><td>v. 责怪，归咎于；怨，怪；n. 责备，过错，罪责</td></tr><tr><td><strong>communicating</strong></td><td>v. 交流，沟通；传递，传播，传达；adj. 相通的，相连的</td><td><strong>real</strong></td><td>adj. 实际存在的，非想象的；名副其实的；真正的，真实的</td><td><strong>value</strong></td><td>n. 价值；等值，等价，物有所值；重要性，有用性</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 1
+          }
+        },
+        {
+          "section": 1,
+          "title": "第3段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>affordable</strong></td><td>adj. 便宜的，付得起的</td><td><strong>housing</strong></td><td>n. 房屋，住宅；住房供给，住房建设；外壳，外罩</td><td><strong>situation</strong></td><td>n. 情况，形势；重要问题，突发情况；地理位置，环境特点</td></tr><tr><td><strong>desperate</strong></td><td>adj. 不顾一切的，拼命的；极需要的，渴望的；极严重的，极危险的</td><td><strong>lists</strong></td><td>n. 竞技场，比武场；围栏；目录，名单，清单</td><td><strong>simply</strong></td><td>adv. 仅仅，只，不过；简直，的确；简单地，简明地</td></tr><tr><td><strong>building</strong></td><td>n. 建筑物，房屋，楼房；建筑，建筑业；v. 建造</td><td><strong>enough</strong></td><td>adj. 充足的，足够的；pron. 足够，充分；adv. 充分地，足够地</td><td><strong>homes</strong></td><td>n. 家庭；房屋，住宅；人名</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 2
+          }
+        },
+        {
+          "section": 1,
+          "title": "第4段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>comprehensive</strong></td><td>adj. 综合性的，全面的；有理解力的；n. 综合中学</td><td><strong>spending</strong></td><td>n. 支出，开销，花费；v. 用，花；花，度过</td><td><strong>review</strong></td><td>n. 审查，检查；评论，评论文章；评论期刊</td></tr><tr><td><strong>offers</strong></td><td>v. 提供，给予；提议，表示愿意；出，开</td><td><strong>opportunity</strong></td><td>n. 时机，机会</td><td><strong>help</strong></td><td>v. 帮助，援助；改善状况，对……有益；给食物或饮料</td></tr><tr><td><strong>rectify</strong></td><td>v. 纠正，矫正；整流，把转变成直流电；蒸馏</td><td><strong>needs</strong></td><td>v. 需要；有必要，必须；n. 需要，需求，必需品</td><td><strong>historical</strong></td><td>adj. 历史的；历史学的；描述历史的，基于史实的</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 3
+          }
+        },
+        {
+          "section": 1,
+          "title": "第5段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>indications</strong></td><td>n. 迹象，标志，显示；适应证，适应症，指征；示值，读数，指示</td><td><strong>preparing</strong></td><td>v. 准备</td><td><strong>communities</strong></td><td>n. 社区；团体，群体；群落</td></tr><tr><td><strong>minister</strong></td><td>n. 部长，大臣；牧师；公使，外交使节</td><td><strong>hinted</strong></td><td>v. hint 的过去式和过去分词：暗示，示意；间接地表示或表达，通常以微妙的方式。</td><td><strong>introduce</strong></td><td>v. 介绍，引见；使初次了解，使尝试；为做开场白，主持</td></tr><tr><td><strong>flexibility</strong></td><td>n. 灵活性；弹性，柔性</td><td><strong>current</strong></td><td>adj. 现行的，当前的；通用的，流行的；最近的</td><td><strong>amount</strong></td><td>n. 数量，量；金额，钱数；程度</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 4
+          }
+        },
+        {
+          "section": 1,
+          "title": "第6段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>should</strong></td><td>v. 应该；该，可以；应该会</td><td><strong>creating</strong></td><td>v. 创造，创建，产生</td><td><strong>greater</strong></td><td>adj. 较大的，更大的；用于大城市名或国名等专有名词前，表示“大”，指包括该城市及周边地区，或包括该国及其相关属地的更大区域，首字母通常大写，如 Greater London、Greater China</td></tr><tr><td><strong>certainty</strong></td><td>n. 确实，确定性；确实的事，必然的事</td><td><strong>rental</strong></td><td>n. 租费，租金；出租，租赁；租用物</td><td><strong>environment</strong></td><td>n. 自然环境，生态环境；周围状况，条件；工作平台，软件包</td></tr><tr><td><strong>significant</strong></td><td>adj. 显著的，相当数量的；重要的，意义重大的；别有含义的，意味深长的</td><td><strong>impact</strong></td><td>n. 撞击，冲击力；巨大影响，强大作用；v. 冲击，撞击</td><td><strong>ability</strong></td><td>n. 能力，能够；才能，技能，本领</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 5
+          }
+        },
+        {
+          "section": 1,
+          "title": "第7段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>measures</strong></td><td>n. 措施；层组；v. 测量</td><td><strong>welcome</strong></td><td>v. 欢迎，迎接；迎新；乐意接纳，欣然接受</td><td><strong>short</strong></td><td>adj. 短暂的，短期的；短的；个子矮的</td></tr><tr><td><strong>term</strong></td><td>n. 词语，术语；措辞；学期，开庭期</td><td><strong>face</strong></td><td>n. 脸，面部；面部表情，脸色；人</td><td><strong>existing</strong></td><td>adj. 现存的，现行的；v. 存在，实有；生活，生活方式</td></tr><tr><td><strong>programme</strong></td><td>n. 计划，方案；节目；说明书，节目单</td><td><strong>grants</strong></td><td>n. 补助金，津贴，政府奖助；人名；格兰茨</td><td><strong>fund</strong></td><td>n. 基金，专款；资金，钱款；基金会</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 6
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>When the government talks about infrastructure contributing to the economy the focus is usually on roads, railways, broadband and energy. Housing is seldom mentioned.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>When the government talks about infrastructure contributing to the economy the focus is usually on roads, railways, broadband and energy. Housing is seldom mentioned.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>When the government talks about infrastructure contributing to the economy the focus is usually on roads, / railways, / broadband and energy. / Housing is seldom mentioned.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>When the government talks about infrastructure contributing to the economy the focus is usually on roads, railways, broadband and energy. Housing is seldom mentioned.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>When the government talks about infrastructure contributing to the economy the focus is usually on roads, / railways, / broadband and energy. / Housing is seldom mentioned.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">当政府谈论基础设施对经济的贡献时，重点通常是道路 / 铁路 / 宽带和能源<br>住房很少被提及</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>When the government talks about infrastructure contributing to the economy the focus is usually on roads, railways, broadband and energy. Housing is seldom mentioned.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>When the government talks about infrastructure contributing to the economy the focus is usually on roads, / railways, / broadband and energy. / Housing is seldom mentioned.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">当政府谈论基础设施对经济的贡献时，重点通常是道路 / 铁路 / 宽带和能源<br>住房很少被提及</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-3\">\n<h3>标准译文 · 第1段</h3>\n<p>当政府谈论基础设施对经济的贡献时，重点通常是公路、铁路、宽带和能源。住房很少被提及。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>When the government talks about infrastructure contributing to the economy the focus is usually on roads, railways, broadband and energy.</p>\n<p><strong>意群断句：</strong><code>When the government talks about infrastructure contributing to the economy the focus is usually on roads, / railways, / broadband and energy.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">当政府谈论基础设施对经济的贡献时，重点通常是道路 / 铁路 / 宽带和能源</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间状语从句</b>：由连词 <code>When</code> 引导从句 <code>When the government talks about infrastructure contributing to the economy the focus is usually on roads</code>，限定主句论述的时空背景或逻辑前提。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">当政府谈论基础设施对经济的贡献时，重点通常是公路、铁路、宽带和能源。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Housing is seldom mentioned.</p>\n<p><strong>意群断句：</strong><code>Housing is seldom mentioned.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">住房很少被提及</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">住房很少被提及。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>Why is that? To some extent the housing sector must shoulder the blame. We have not been good at communicating the real value that housing can contribute to economic growth. Then there is the scale of the typical housing project. It is hard to shove for attention among multibillion-pound infrastructure projects, so it is inevitable that the attention is focused elsewhere. But perhaps the most significant reason is that the issue has always been so politically charged.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>Why is that? To some extent the housing sector must shoulder the blame. We have not been good at communicating the real value that housing can contribute to economic growth. Then there is the scale of the typical housing project. It is hard to shove for attention among multibillion-pound infrastructure projects, so it is inevitable that the attention is focused elsewhere. But perhaps the most significant reason is that the issue has always been so politically charged.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>Why is that? To some extent the housing sector must shoulder the blame. / We have not been good at communicating the real value / that housing can contribute to economic growth. / Then there is the scale of the typical housing project. / It is hard to shove for attention among multibillion-pound infrastructure projects, / so it is inevitable / that the attention is focused elsewhere. / But perhaps the most significant reason is / that the issue has always been so politically charged.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>Why is that? To some extent the housing sector must shoulder the blame. We have not been good at communicating the real value that housing can contribute to economic growth. Then there is the scale of the typical housing project. It is hard to shove for attention among multibillion-pound infrastructure projects, so it is inevitable that the attention is focused elsewhere. But perhaps the most significant reason is that the issue has always been so politically charged.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>Why is that? To some extent the housing sector must shoulder the blame. / We have not been good at communicating the real value / that housing can contribute to economic growth. / Then there is the scale of the typical housing project. / It is hard to shove for attention among multibillion-pound infrastructure projects, / so it is inevitable / that the attention is focused elsewhere. / But perhaps the most significant reason is / that the issue has always been so politically charged.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">这是为什么？<br>在某种程度上，住房部门应该承担责任<br>我们不善于传达真正的价值 / 住房可以促进经济增长<br>然后是典型住宅项目的规模<br>数十亿英镑的基础设施项目很难引起人们的注意 / 所以这是不可避免的 / 注意力集中在其他地方<br>但也许最重要的原因是 / 这个问题一直充满政治色彩</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>Why is that? To some extent the housing sector must shoulder the blame. We have not been good at communicating the real value that housing can contribute to economic growth. Then there is the scale of the typical housing project. It is hard to shove for attention among multibillion-pound infrastructure projects, so it is inevitable that the attention is focused elsewhere. But perhaps the most significant reason is that the issue has always been so politically charged.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>Why is that? To some extent the housing sector must shoulder the blame. / We have not been good at communicating the real value / that housing can contribute to economic growth. / Then there is the scale of the typical housing project. / It is hard to shove for attention among multibillion-pound infrastructure projects, / so it is inevitable / that the attention is focused elsewhere. / But perhaps the most significant reason is / that the issue has always been so politically charged.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">这是为什么？<br>在某种程度上，住房部门应该承担责任<br>我们不善于传达真正的价值 / 住房可以促进经济增长<br>然后是典型住宅项目的规模<br>数十亿英镑的基础设施项目很难引起人们的注意 / 所以这是不可避免的 / 注意力集中在其他地方<br>但也许最重要的原因是 / 这个问题一直充满政治色彩</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-3\">\n<h3>标准译文 · 第2段</h3>\n<p>这是为什么？在某种程度上，住房部门必须承担责任。我们一直不擅长传达住房对经济增长贡献的真正价值。然后是典型住房项目的规模。耗资数十亿英镑的基础设施项目很难引起人们的注意，因此注意力不可避免地会集中到其他地方。但也许最重要的原因是这个问题一直充满政治色彩。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Why is that?</p>\n<p><strong>意群断句：</strong><code>Why is that?</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">这是为什么？</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">这是为什么？</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>To some extent the housing sector must shoulder the blame.</p>\n<p><strong>意群断句：</strong><code>To some extent the housing sector must shoulder the blame.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">在某种程度上，住房部门应该承担责任</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">在某种程度上，住房部门必须承担责任。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>We have not been good at communicating the real value that housing can contribute to economic growth.</p>\n<p><strong>意群断句：</strong><code>We have not been good at communicating the real value / that housing can contribute to economic growth.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">我们不善于传达真正的价值 / 住房可以促进经济增长</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>value</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">我们一直不擅长传达住房对经济增长贡献的真正价值。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Then there is the scale of the typical housing project.</p>\n<p><strong>意群断句：</strong><code>Then there is the scale of the typical housing project.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">然后是典型住宅项目的规模</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">然后是典型住房项目的规模。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句5",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (5/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>It is hard to shove for attention among multibillion-pound infrastructure projects, so it is inevitable that the attention is focused elsewhere.</p>\n<p><strong>意群断句：</strong><code>It is hard to shove for attention among multibillion-pound infrastructure projects, / so it is inevitable / that the attention is focused elsewhere.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">数十亿英镑的基础设施项目很难引起人们的注意 / 所以这是不可避免的 / 注意力集中在其他地方</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>inevitable</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">耗资数十亿英镑的基础设施项目很难引起人们的注意，因此注意力不可避免地会集中到其他地方。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 4
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句6",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (6/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>But perhaps the most significant reason is that the issue has always been so politically charged.</p>\n<p><strong>意群断句：</strong><code>But perhaps the most significant reason is / that the issue has always been so politically charged.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">但也许最重要的原因是 / 这个问题一直充满政治色彩</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">但也许最重要的原因是这个问题一直充满政治色彩。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 5
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Nevertheless, the affordable housing situation is desperate. Waiting lists increase all the time and we are simply not building enough new homes.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Nevertheless, the affordable housing situation is desperate. Waiting lists increase all the time and we are simply not building enough new homes.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>Nevertheless, / the affordable housing situation is desperate. / Waiting lists increase all the time and we are simply not building enough new homes.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Nevertheless, the affordable housing situation is desperate. Waiting lists increase all the time and we are simply not building enough new homes.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>Nevertheless, / the affordable housing situation is desperate. / Waiting lists increase all the time and we are simply not building enough new homes.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">尽管如此 / 保障性住房形势严峻<br>等候名单一直在增加，而我们根本没有建造足够的新房</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Nevertheless, the affordable housing situation is desperate. Waiting lists increase all the time and we are simply not building enough new homes.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>Nevertheless, / the affordable housing situation is desperate. / Waiting lists increase all the time and we are simply not building enough new homes.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">尽管如此 / 保障性住房形势严峻<br>等候名单一直在增加，而我们根本没有建造足够的新房</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-3\">\n<h3>标准译文 · 第3段</h3>\n<p>然而，保障性住房的形势却十分严峻。等候名单一直在增加，而我们根本没有建造足够的新房。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Nevertheless, the affordable housing situation is desperate.</p>\n<p><strong>意群断句：</strong><code>Nevertheless, / the affordable housing situation is desperate.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">尽管如此 / 保障性住房形势严峻</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">然而，保障性住房的形势却十分严峻。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Waiting lists increase all the time and we are simply not building enough new homes.</p>\n<p><strong>意群断句：</strong><code>Waiting lists increase all the time and we are simply not building enough new homes.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">等候名单一直在增加，而我们根本没有建造足够的新房</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">等候名单一直在增加，而我们根本没有建造足够的新房。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>The comprehensive spending review offers an opportunity for the government to help rectify this. It needs to put historical prejudices to one side and take some steps to address our urgent housing need.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>The comprehensive spending review offers an opportunity for the government to help rectify this. It needs to put historical prejudices to one side and take some steps to address our urgent housing need.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>The comprehensive spending review offers an opportunity for the government to help rectify this. / It needs to put historical prejudices to one side and take some steps to address our urgent housing need.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>The comprehensive spending review offers an opportunity for the government to help rectify this. It needs to put historical prejudices to one side and take some steps to address our urgent housing need.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>The comprehensive spending review offers an opportunity for the government to help rectify this. / It needs to put historical prejudices to one side and take some steps to address our urgent housing need.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-2\">\n<h3>意群翻译 · 第4段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">全面支出审查为政府提供了帮助纠正这一问题的机会<br>我们需要抛开历史偏见，采取一些措施来解决我们迫切的住房需求</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>The comprehensive spending review offers an opportunity for the government to help rectify this. It needs to put historical prejudices to one side and take some steps to address our urgent housing need.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>The comprehensive spending review offers an opportunity for the government to help rectify this. / It needs to put historical prejudices to one side and take some steps to address our urgent housing need.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-2\">\n<h3>意群翻译 · 第4段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">全面支出审查为政府提供了帮助纠正这一问题的机会<br>我们需要抛开历史偏见，采取一些措施来解决我们迫切的住房需求</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-3\">\n<h3>标准译文 · 第4段</h3>\n<p>全面的支出审查为政府提供了一个帮助纠正这一问题的机会。它需要把历史偏见放在一边，采取一些措施来解决我们迫切的住房需求。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The comprehensive spending review offers an opportunity for the government to help rectify this.</p>\n<p><strong>意群断句：</strong><code>The comprehensive spending review offers an opportunity for the government to help rectify this.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">全面支出审查为政府提供了帮助纠正这一问题的机会</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">全面的支出审查为政府提供了一个帮助纠正这一问题的机会。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>It needs to put historical prejudices to one side and take some steps to address our urgent housing need.</p>\n<p><strong>意群断句：</strong><code>It needs to put historical prejudices to one side and take some steps to address our urgent housing need.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">我们需要抛开历史偏见，采取一些措施来解决我们迫切的住房需求</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">它需要把历史偏见放在一边，采取一些措施来解决我们迫切的住房需求。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>There are some indications that it is preparing to do just that. The communities minister, Don Foster, has hinted that George Osborne, Chancellor of the Exchequer, may introduce more flexibility to the current cap on the amount that local authorities can borrow against their housing stock debt. Evidence shows that 60,000 extra new homes could be built over the next five years if the cap were lifted, increasing GDP by 0.6%.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>There are some indications that it is preparing to do just that. The communities minister, Don Foster, has hinted that George Osborne, Chancellor of the Exchequer, may introduce more flexibility to the current cap on the amount that local authorities can borrow against their housing stock debt. Evidence shows that 60,000 extra new homes could be built over the next five years if the cap were lifted, increasing GDP by 0.6%.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>There are some indications / that it is preparing to do just that. / The communities minister, / Don Foster, / has hinted / that George Osborne, / Chancellor of the Exchequer, / may introduce more flexibility to the current cap on the amount / that local authorities can borrow against their housing stock debt. / Evidence shows / that 60,000 extra new homes could be built over the next five years / if the cap were lifted, / increasing GDP by 0.6%.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>There are some indications that it is preparing to do just that. The communities minister, Don Foster, has hinted that George Osborne, Chancellor of the Exchequer, may introduce more flexibility to the current cap on the amount that local authorities can borrow against their housing stock debt. Evidence shows that 60,000 extra new homes could be built over the next five years if the cap were lifted, increasing GDP by 0.6%.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>There are some indications / that it is preparing to do just that. / The communities minister, / Don Foster, / has hinted / that George Osborne, / Chancellor of the Exchequer, / may introduce more flexibility to the current cap on the amount / that local authorities can borrow against their housing stock debt. / Evidence shows / that 60,000 extra new homes could be built over the next five years / if the cap were lifted, / increasing GDP by 0.6%.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-2\">\n<h3>意群翻译 · 第5段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">有一些迹象表明 / 它正准备这样做<br>社区部长 / 唐·福斯特 / 已暗示 / 乔治·奥斯本 / 英国财政大臣 / 可能会给当前的金额上限带来更多灵活性 / 地方当局可以以其住房存量债务进行借款<br>证据表明 / 未来五年内将额外建造 60,000 套新住宅 / 如果帽子被抬起 / GDP增长0.6%</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>There are some indications that it is preparing to do just that. The communities minister, Don Foster, has hinted that George Osborne, Chancellor of the Exchequer, may introduce more flexibility to the current cap on the amount that local authorities can borrow against their housing stock debt. Evidence shows that 60,000 extra new homes could be built over the next five years if the cap were lifted, increasing GDP by 0.6%.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>There are some indications / that it is preparing to do just that. / The communities minister, / Don Foster, / has hinted / that George Osborne, / Chancellor of the Exchequer, / may introduce more flexibility to the current cap on the amount / that local authorities can borrow against their housing stock debt. / Evidence shows / that 60,000 extra new homes could be built over the next five years / if the cap were lifted, / increasing GDP by 0.6%.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-2\">\n<h3>意群翻译 · 第5段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">有一些迹象表明 / 它正准备这样做<br>社区部长 / 唐·福斯特 / 已暗示 / 乔治·奥斯本 / 英国财政大臣 / 可能会给当前的金额上限带来更多灵活性 / 地方当局可以以其住房存量债务进行借款<br>证据表明 / 未来五年内将额外建造 60,000 套新住宅 / 如果帽子被抬起 / GDP增长0.6%</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-3\">\n<h3>标准译文 · 第5段</h3>\n<p>有一些迹象表明它正准备这样做。社区部长唐·福斯特 (Don Foster) 暗示，财政大臣乔治·奥斯本 (George Osborne) 可能会对当前地方政府可抵押住房存量债务的借款金额上限引入更大的灵活性。有证据表明，如果取消上限，未来五年可额外建造 60,000 套新房，GDP 增长 0.6%。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>There are some indications that it is preparing to do just that.</p>\n<p><strong>意群断句：</strong><code>There are some indications / that it is preparing to do just that.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">有一些迹象表明 / 它正准备这样做</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>indications</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">有一些迹象表明它正准备这样做。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The communities minister, Don Foster, has hinted that George Osborne, Chancellor of the Exchequer, may introduce more flexibility to the current cap on the amount that local authorities can borrow against their housing stock debt.</p>\n<p><strong>意群断句：</strong><code>The communities minister, / Don Foster, / has hinted / that George Osborne, / Chancellor of the Exchequer, / may introduce more flexibility to the current cap on the amount / that local authorities can borrow against their housing stock debt.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">社区部长 / 唐·福斯特 / 已暗示 / 乔治·奥斯本 / 英国财政大臣 / 可能会给当前的金额上限带来更多灵活性 / 地方当局可以以其住房存量债务进行借款</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>hinted</code>，限定其具体属性与内涵。</li><li style=\"margin-bottom:5px\"><b>同位语/插入语</b>：<code>Don Foster</code> 充当同位语/插入语，紧随其后对前置名词提供身份补充或同等指代。</li><li style=\"margin-bottom:5px\"><b>同位语/插入语</b>：<code>Chancellor of the Exchequer</code> 充当同位语/插入语，紧随其后对前置名词提供身份补充或同等指代。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">社区部长唐·福斯特 (Don Foster) 暗示，财政大臣乔治·奥斯本 (George Osborne) 可能会对当前地方政府可抵押住房存量债务的借款金额上限引入更大的灵活性。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Evidence shows that 60,000 extra new homes could be built over the next five years if the cap were lifted, increasing GDP by 0.6%.</p>\n<p><strong>意群断句：</strong><code>Evidence shows / that 60,000 extra new homes could be built over the next five years / if the cap were lifted, / increasing GDP by 0.6%.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">证据表明 / 未来五年内将额外建造 60,000 套新住宅 / 如果帽子被抬起 / GDP增长0.6%</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>条件状语从句</b>：由连词 <code>If</code> 引导从句 <code>If the cap were lifted</code>，限定主句论述的时空背景或逻辑前提。</li><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>shows</code>，限定其具体属性与内涵。</li><li style=\"margin-bottom:5px\"><b>宾语从句</b>：谓语动词 <code>shows</code> 后接 <code>that</code> 引导的宾语从句，充当其核心认知或事实陈述内容。</li><li style=\"margin-bottom:5px\"><b>分词短语作状语/定语</b>：现在分词短语 <code>increasing GDP by 0.6%....</code> 作伴随/结果状语或后置修饰，增强语义表现力。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">有证据表明，如果取消上限，未来五年可额外建造 60,000 套新房，GDP 增长 0.6%。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>Ministers should also look at creating greater certainty in the rental environment, which would have a significant impact on the ability of registered providers to fund new developments from revenues.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>Ministers should also look at creating greater certainty in the rental environment, which would have a significant impact on the ability of registered providers to fund new developments from revenues.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-1\">\n<h3>意群划分 · 第6段</h3>\n<p>Ministers should also look at creating greater certainty in the rental environment, / / which would have a significant impact on the ability of registered providers to fund new developments from revenues.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>Ministers should also look at creating greater certainty in the rental environment, which would have a significant impact on the ability of registered providers to fund new developments from revenues.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-1\">\n<h3>意群划分 · 第6段</h3>\n<p>Ministers should also look at creating greater certainty in the rental environment, / / which would have a significant impact on the ability of registered providers to fund new developments from revenues.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-2\">\n<h3>意群翻译 · 第6段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">部长们还应该考虑在租赁环境中创造更大的确定性 / 这将对注册提供商利用收入资助新开发的能力产生重大影响</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>Ministers should also look at creating greater certainty in the rental environment, which would have a significant impact on the ability of registered providers to fund new developments from revenues.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-1\">\n<h3>意群划分 · 第6段</h3>\n<p>Ministers should also look at creating greater certainty in the rental environment, / / which would have a significant impact on the ability of registered providers to fund new developments from revenues.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-2\">\n<h3>意群翻译 · 第6段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">部长们还应该考虑在租赁环境中创造更大的确定性 / 这将对注册提供商利用收入资助新开发的能力产生重大影响</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-3\">\n<h3>标准译文 · 第6段</h3>\n<p>部长们还应该考虑在租赁环境中创造更大的确定性，这将对注册提供商利用收入为新开发项目提供资金的能力产生重大影响。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/1)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Ministers should also look at creating greater certainty in the rental environment, which would have a significant impact on the ability of registered providers to fund new developments from revenues.</p>\n<p><strong>意群断句：</strong><code>Ministers should also look at creating greater certainty in the rental environment, / / which would have a significant impact on the ability of registered providers to fund new developments from revenues.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">部长们还应该考虑在租赁环境中创造更大的确定性 / 这将对注册提供商利用收入资助新开发的能力产生重大影响</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>非限制性定语从句</b>：<code>,which would have a significant impact on the abilit...</code> 引导非限制性定语从句，对前文先行词进行补充说明与信息拓展。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">部长们还应该考虑在租赁环境中创造更大的确定性，这将对注册提供商利用收入为新开发项目提供资金的能力产生重大影响。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-7-0\">\n<h3>完整原文 · 第7段</h3>\n<p>But it is not just down to the government. While these measures would be welcome in the short term, we must face up to the fact that the existing ￡4.5bn programme of grants to fund new affordable housing, set to expire in 2015, is unlikely to be extended beyond then. The Labour party has recently announced that it will retain a large part of the coalition’s spending plans if it returns to power. The housing sector needs to accept that we are very unlikely to ever return to the era of large-scale public grants. We need to adjust to this changing climate. While the government’s commitment to long-term funding may have changed, the very pressing need for more affordable housing is real and is not going away.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-7-0\">\n<h3>完整原文 · 第7段</h3>\n<p>But it is not just down to the government. While these measures would be welcome in the short term, we must face up to the fact that the existing ￡4.5bn programme of grants to fund new affordable housing, set to expire in 2015, is unlikely to be extended beyond then. The Labour party has recently announced that it will retain a large part of the coalition’s spending plans if it returns to power. The housing sector needs to accept that we are very unlikely to ever return to the era of large-scale public grants. We need to adjust to this changing climate. While the government’s commitment to long-term funding may have changed, the very pressing need for more affordable housing is real and is not going away.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-1\">\n<h3>意群划分 · 第7段</h3>\n<p>But it is not just down to the government. / While these measures would be welcome in the short term, / we must face up to the fact / that the existing ￡4.5bn programme of grants to fund new affordable housing, / set to expire in 2015, / is unlikely to be extended beyond then. / The Labour party has recently announced / that it will retain a large part of the coalition’s spending plans / if it returns to power. / The housing sector needs to accept / that we are very unlikely to ever return to the era of large-scale public grants. / We need to adjust to this changing climate. / While the government’s commitment to long-term funding may have changed, / the very pressing need for more affordable housing is real and is not going away.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-7-0\">\n<h3>完整原文 · 第7段</h3>\n<p>But it is not just down to the government. While these measures would be welcome in the short term, we must face up to the fact that the existing ￡4.5bn programme of grants to fund new affordable housing, set to expire in 2015, is unlikely to be extended beyond then. The Labour party has recently announced that it will retain a large part of the coalition’s spending plans if it returns to power. The housing sector needs to accept that we are very unlikely to ever return to the era of large-scale public grants. We need to adjust to this changing climate. While the government’s commitment to long-term funding may have changed, the very pressing need for more affordable housing is real and is not going away.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-1\">\n<h3>意群划分 · 第7段</h3>\n<p>But it is not just down to the government. / While these measures would be welcome in the short term, / we must face up to the fact / that the existing ￡4.5bn programme of grants to fund new affordable housing, / set to expire in 2015, / is unlikely to be extended beyond then. / The Labour party has recently announced / that it will retain a large part of the coalition’s spending plans / if it returns to power. / The housing sector needs to accept / that we are very unlikely to ever return to the era of large-scale public grants. / We need to adjust to this changing climate. / While the government’s commitment to long-term funding may have changed, / the very pressing need for more affordable housing is real and is not going away.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-2\">\n<h3>意群翻译 · 第7段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">但这不仅仅取决于政府<br>虽然这些措施在短期内会受到欢迎 / 我们必须正视事实 / 现有的 45 亿英镑拨款计划为新的经济适用房提供资金 / 预计2015年到期 / 不太可能再延长到那时<br>工党最近宣布 / 它将保留联盟支出计划的很大一部分 / 如果它重新掌权<br>住房部门需要接受 / 我们不太可能回到大规模公共拨款的时代<br>我们需要适应这种不断变化的气候<br>虽然政府对长期资助的承诺可能已经改变 / 对更经济适用住房的迫切需求是真实存在的，并且不会消失</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-7-0\">\n<h3>完整原文 · 第7段</h3>\n<p>But it is not just down to the government. While these measures would be welcome in the short term, we must face up to the fact that the existing ￡4.5bn programme of grants to fund new affordable housing, set to expire in 2015, is unlikely to be extended beyond then. The Labour party has recently announced that it will retain a large part of the coalition’s spending plans if it returns to power. The housing sector needs to accept that we are very unlikely to ever return to the era of large-scale public grants. We need to adjust to this changing climate. While the government’s commitment to long-term funding may have changed, the very pressing need for more affordable housing is real and is not going away.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-1\">\n<h3>意群划分 · 第7段</h3>\n<p>But it is not just down to the government. / While these measures would be welcome in the short term, / we must face up to the fact / that the existing ￡4.5bn programme of grants to fund new affordable housing, / set to expire in 2015, / is unlikely to be extended beyond then. / The Labour party has recently announced / that it will retain a large part of the coalition’s spending plans / if it returns to power. / The housing sector needs to accept / that we are very unlikely to ever return to the era of large-scale public grants. / We need to adjust to this changing climate. / While the government’s commitment to long-term funding may have changed, / the very pressing need for more affordable housing is real and is not going away.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-2\">\n<h3>意群翻译 · 第7段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">但这不仅仅取决于政府<br>虽然这些措施在短期内会受到欢迎 / 我们必须正视事实 / 现有的 45 亿英镑拨款计划为新的经济适用房提供资金 / 预计2015年到期 / 不太可能再延长到那时<br>工党最近宣布 / 它将保留联盟支出计划的很大一部分 / 如果它重新掌权<br>住房部门需要接受 / 我们不太可能回到大规模公共拨款的时代<br>我们需要适应这种不断变化的气候<br>虽然政府对长期资助的承诺可能已经改变 / 对更经济适用住房的迫切需求是真实存在的，并且不会消失</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-3\">\n<h3>标准译文 · 第7段</h3>\n<p>但这不仅仅取决于政府。虽然这些措施在短期内会受到欢迎，但我们必须面对这样一个事实：现有的 45 亿英镑资助新建经济适用房的赠款计划将于 2015 年到期，之后不太可能再延长。工党最近宣布，如果重新执政，它将保留联盟大部分支出计划。住房部门需要接受这样一个事实：我们不太可能回到大规模公共拨款的时代。我们需要适应这种不断变化的气候。尽管政府对长期资助的承诺可能已经改变，但对更多经济适用房的迫切需求是真实存在的，并且不会消失。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>But it is not just down to the government.</p>\n<p><strong>意群断句：</strong><code>But it is not just down to the government.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">但这不仅仅取决于政府</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">但这不仅仅取决于政府。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>While these measures would be welcome in the short term, we must face up to the fact that the existing ￡4.5bn programme of grants to fund new affordable housing, set to expire in 2015, is unlikely to be extended beyond then.</p>\n<p><strong>意群断句：</strong><code>While these measures would be welcome in the short term, / we must face up to the fact / that the existing ￡4.5bn programme of grants to fund new affordable housing, / set to expire in 2015, / is unlikely to be extended beyond then.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">虽然这些措施在短期内会受到欢迎 / 我们必须正视事实 / 现有的 45 亿英镑拨款计划为新的经济适用房提供资金 / 预计2015年到期 / 不太可能再延长到那时</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间状语从句</b>：由连词 <code>While</code> 引导从句 <code>While these measures would be welcome in the short term</code>，限定主句论述的时空背景或逻辑前提。</li><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>fact</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">虽然这些措施在短期内会受到欢迎，但我们必须面对这样一个事实：现有的 45 亿英镑资助新建经济适用房的赠款计划将于 2015 年到期，之后不太可能再延长。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The Labour party has recently announced that it will retain a large part of the coalition’s spending plans if it returns to power.</p>\n<p><strong>意群断句：</strong><code>The Labour party has recently announced / that it will retain a large part of the coalition’s spending plans / if it returns to power.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">工党最近宣布 / 它将保留联盟支出计划的很大一部分 / 如果它重新掌权</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>announced</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">工党最近宣布，如果重新掌权，它将保留联合政府支出计划的很大一部分。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The housing sector needs to accept that we are very unlikely to ever return to the era of large-scale public grants.</p>\n<p><strong>意群断句：</strong><code>The housing sector needs to accept / that we are very unlikely to ever return to the era of large-scale public grants.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">住房部门需要接受 / 我们不太可能回到大规模公共拨款的时代</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>accept</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">住房部门需要接受这样一个事实：我们不太可能回到大规模公共拨款的时代。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 句5",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (5/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>We need to adjust to this changing climate.</p>\n<p><strong>意群断句：</strong><code>We need to adjust to this changing climate.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">我们需要适应这种不断变化的气候</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">我们需要适应这种不断变化的气候。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "sentence": 4
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 句6",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (6/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>While the government’s commitment to long-term funding may have changed, the very pressing need for more affordable housing is real and is not going away.</p>\n<p><strong>意群断句：</strong><code>While the government’s commitment to long-term funding may have changed, / the very pressing need for more affordable housing is real and is not going away.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">虽然政府对长期资助的承诺可能已经改变 / 对更经济适用住房的迫切需求是真实存在的，并且不会消失</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间状语从句</b>：由连词 <code>While</code> 引导从句 <code>While the government’s commitment to long-term funding may have changed</code>，限定主句论述的时空背景或逻辑前提。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">尽管政府对长期资助的承诺可能已经改变，但对更多经济适用房的迫切需求是真实存在的，并且不会消失。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "sentence": 5
+          }
+        },
+        {
+          "section": 3,
+          "title": "3.一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，正确项如何进行同义改写，错误项如何设置陷阱；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
+          "meta": {
+            "section": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "36题 · 题干、题型与核心出处",
+          "html": "<p><strong>36. The author believes that the housing sector _______.</strong></p>\n<p>（笔者认为，住房部门_______。）</p>\n<p><strong>题型判定</strong>：事实细节题 ｜ <strong>定位出处</strong>：Paragraph 1</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "36"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. has attracted much attention",
+          "html": "<p><strong>选项 A</strong>：<code>has attracted much attention</code></p>\n<p><strong>中文翻译</strong>：引起了很多关注</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. involves certain political factors",
+          "html": "<p><strong>选项 B</strong>：<code>involves certain political factors</code></p>\n<p><strong>中文翻译</strong>：涉及一定的政治因素</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. shoulders too much responsibility",
+          "html": "<p><strong>选项 C</strong>：<code>shoulders too much responsibility</code></p>\n<p><strong>中文翻译</strong>：肩负太多责任</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. has lost its real value in economy",
+          "html": "<p><strong>选项 D</strong>：<code>has lost its real value in economy</code></p>\n<p><strong>中文翻译</strong>：已经失去了其真正的经济价值</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "37题 · 题干、题型与核心出处",
+          "html": "<p><strong>37. It can be learned that affordable housing has _______.</strong></p>\n<p>（由此可见，经济适用房有_______。）</p>\n<p><strong>题型判定</strong>：因果推断题 ｜ <strong>定位出处</strong>：Paragraph 2</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "37"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. increased its home supply",
+          "html": "<p><strong>选项 A</strong>：<code>increased its home supply</code></p>\n<p><strong>中文翻译</strong>：增加房屋供应</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. offered spending opportunities",
+          "html": "<p><strong>选项 B</strong>：<code>offered spending opportunities</code></p>\n<p><strong>中文翻译</strong>：提供消费机会</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. suffered government biases",
+          "html": "<p><strong>选项 C</strong>：<code>suffered government biases</code></p>\n<p><strong>中文翻译</strong>：遭受政府偏见</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. disappointed the government",
+          "html": "<p><strong>选项 D</strong>：<code>disappointed the government</code></p>\n<p><strong>中文翻译</strong>：让政府失望</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "38题 · 题干、题型与核心出处",
+          "html": "<p><strong>38. According to Paragraph 5, George Osborne may _______.</strong></p>\n<p>（根据第5段，乔治·奥斯本可能_______。）</p>\n<p><strong>题型判定</strong>：段落推理题 ｜ <strong>定位出处</strong>：Paragraph 3</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "38"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. allow greater government debt for housing",
+          "html": "<p><strong>选项 A</strong>：<code>allow greater government debt for housing</code></p>\n<p><strong>中文翻译</strong>：允许政府增加住房债务</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. stop local authorities from building homes",
+          "html": "<p><strong>选项 B</strong>：<code>stop local authorities from building homes</code></p>\n<p><strong>中文翻译</strong>：阻止地方当局建造房屋</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. prepare to reduce housing stock debt",
+          "html": "<p><strong>选项 C</strong>：<code>prepare to reduce housing stock debt</code></p>\n<p><strong>中文翻译</strong>：准备减少住房存量债务</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. release a lifted GDP growth forecast",
+          "html": "<p><strong>选项 D</strong>：<code>release a lifted GDP growth forecast</code></p>\n<p><strong>中文翻译</strong>：发布上调的GDP增长预测</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "39题 · 题干、题型与核心出处",
+          "html": "<p><strong>39. It can be inferred that a stable rental environment would _______.</strong></p>\n<p>（可以推断，稳定的租赁环境会_______。）</p>\n<p><strong>题型判定</strong>：词义/例证题 ｜ <strong>定位出处</strong>：Paragraph 4</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "39"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. lower the costs of registered providers",
+          "html": "<p><strong>选项 A</strong>：<code>lower the costs of registered providers</code></p>\n<p><strong>中文翻译</strong>：降低注册提供商的成本</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. lessen the impact of government interference",
+          "html": "<p><strong>选项 B</strong>：<code>lessen the impact of government interference</code></p>\n<p><strong>中文翻译</strong>：减少政府干预的影响</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. contribute to funding new developments",
+          "html": "<p><strong>选项 C</strong>：<code>contribute to funding new developments</code></p>\n<p><strong>中文翻译</strong>：为新的发展提供资金</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. relieve the ministers of responsibilities",
+          "html": "<p><strong>选项 D</strong>：<code>relieve the ministers of responsibilities</code></p>\n<p><strong>中文翻译</strong>：解除部长们的职责</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "40题 · 题干、题型与核心出处",
+          "html": "<p><strong>40. The author believes that after 2015, the government may _______.</strong></p>\n<p>（笔者认为，2015年后，政府可能_______。）</p>\n<p><strong>题型判定</strong>：全文主旨题 ｜ <strong>定位出处</strong>：Paragraph 5</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "40"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. implement more policies to support housing",
+          "html": "<p><strong>选项 A</strong>：<code>implement more policies to support housing</code></p>\n<p><strong>中文翻译</strong>：落实更多住房政策支持</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. review the need for large-scale public grants",
+          "html": "<p><strong>选项 B</strong>：<code>review the need for large-scale public grants</code></p>\n<p><strong>中文翻译</strong>：审查大规模公共拨款的需要</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. renew the affordable housing grants programme",
+          "html": "<p><strong>选项 C</strong>：<code>renew the affordable housing grants programme</code></p>\n<p><strong>中文翻译</strong>：更新经济适用住房补助计划</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. stop generous funding to the housing sector",
+          "html": "<p><strong>选项 D</strong>：<code>stop generous funding to the housing sector</code></p>\n<p><strong>中文翻译</strong>：停止对住房部门的慷慨资助</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "D"
+          }
+        },
+        {
+          "section": 4,
+          "title": "4.一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>在新题型中，考查的本质是理解文章上下文的逻辑承接能力。我们将本篇真题结构改编为新题型迁移训练，训练对段落主旨与篇章逻辑的提炼概括能力。</p>\n<p><strong>篇章核心逻辑链条</strong>：</p>\n<p>引出核心论题 → 展开多角度实证与事实分析 → 剖析深层体制/社会矛盾 → 提出战略性长效应对策略。</p>",
+          "meta": {
+            "section": 4
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 1",
+          "html": "<p><strong>【考查段落 1】</strong></p>\n<p><code>When the government talks about infrastructure contributing to the economy the focus is usually on roads, railways, broa...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 1 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 0
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 2",
+          "html": "<p><strong>【考查段落 2】</strong></p>\n<p><code>Why is that? To some extent the housing sector must shoulder the blame. We have not been good at communicating the real ...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 2 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 1
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 3",
+          "html": "<p><strong>【考查段落 3】</strong></p>\n<p><code>Nevertheless, the affordable housing situation is desperate. Waiting lists increase all the time and we are simply not b...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 3 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 2
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 4",
+          "html": "<p><strong>【考查段落 4】</strong></p>\n<p><code>The comprehensive spending review offers an opportunity for the government to help rectify this. It needs to put histori...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 4 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 3
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 5",
+          "html": "<p><strong>【考查段落 5】</strong></p>\n<p><code>There are some indications that it is preparing to do just that. The communities minister, Don Foster, has hinted that G...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 5 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 4
+          }
+        },
+        {
+          "section": 5,
+          "title": "1. 大作文宏观论述与主题词汇积累",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>可积累的主题表达</th><th>中文翻译</th><th>所属类别</th><th>使用层级</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>promoting institutional adaptability</strong></td><td><strong>增强制度适应性与韧性</strong></td><td><strong>社会/经济发展</strong></td><td><strong>宏观论点</strong></td></tr>\n<tr><td>harmonizing commercial viability and public welfare</td><td>协调商业可行性与公众福祉</td><td>综合治理</td><td>论证支撑</td></tr>\n<tr><td>fostering sustainable long-term development</td><td>促进可持续长远发展</td><td>未来展望</td><td>结论升华</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        },
+        {
+          "section": 5,
+          "title": "2. 大作文图表/观点题通用满分句型模板",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>适用题型</th><th>考试时可复用的形式</th><th>中文翻译</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>图表/观点题</strong></td><td><strong>A is doing B in an effort to do C.</strong></td><td><strong>A正在采取行动B，目的是实现目标C。</strong></td></tr>\n<tr><td>原因剖析段</td><td>The underlying reason behind this phenomenon is that...</td><td>该现象背后的深层原因在于……</td></tr>\n<tr><td>建议对策段</td><td>Only through collaborative governance can we ensure enduring progress.</td><td>唯有通过协同治理，方能确保长久的发展与繁荣。</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        }
+      ]
+    }
+  }
+};

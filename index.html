@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>考研英语二 (2010-2023) 历年真题精读与复盘交互系统</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Header Navigation -->
+  <header class="topbar">
+    <div class="brand-section">
+      <div class="brand-title">
+        <span>考研英语二历年真题</span>
+        <span class="brand-badge">2010-2023 全真题库</span>
+      </div>
+      
+      <div class="selector-group">
+        <select id="yearSelect" class="custom-select" title="选择年份"></select>
+        <select id="textSelect" class="custom-select" title="选择篇章"></select>
+      </div>
+      
+      <!-- Mode Toggle Switch -->
+      <div class="mode-switch-group">
+        <button id="practiceModeBtn" class="mode-btn active practice-mode" title="切换至做题模式（意群粗读+选项推演+交叉验证）">🔵 做题模式</button>
+        <button id="reviewModeBtn" class="mode-btn review-mode" title="切换至复盘模式（一石五鸟：词汇+精读长难句+命题复盘+新题型+写作）">🟣 复盘模式（一石五鸟）</button>
+      </div>
+    </div>
+    
+    <!-- Action Controls -->
+    <div class="controls-group">
+      <select id="jumpSelect" class="custom-select" style="max-width:180px;"></select>
+      <button id="toggleAllBtn" class="btn" title="切换显示全部或分步交互 (快捷键: F)">显示全部</button>
+      <button id="prevBtn" class="btn" title="上一步 (快捷键: ←)">上一步</button>
+      <button id="nextBtn" class="btn primary" title="下一步 (快捷键: → / 空格)">下一步</button>
+      <button id="resetBtn" class="btn" title="重置本篇进度 (快捷键: R)">重置</button>
+      <div id="progressText" class="progress-tag">1 / 75</div>
+      
+      <select id="themeSelect" class="custom-select" style="font-size:12px;padding:4px 8px;">
+        <option value="light">☀️ 浅色</option>
+        <option value="parchment">📜 羊皮纸</option>
+        <option value="dark">🌙 夜间</option>
+      </select>
+    </div>
+  </header>
+
+  <!-- Main Split Layout -->
+  <main class="layout" id="mainLayout">
+    
+    <!-- Left Panel: Exam Paper (Article & Questions) -->
+    <section class="panel left-panel">
+      <div class="panel-header">
+        <div class="panel-title">
+          <span>📖 考场标准试卷视图</span>
+        </div>
+        <span style="font-size:12px;color:var(--muted)">同步联动高亮与定位</span>
+      </div>
+      <div class="scroll-container" id="leftScroll">
+        <div class="exam-paper" id="examPaper">
+          <!-- Populated by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Right Panel: Thinking & Review Workspace -->
+    <section class="panel right-panel">
+      <div class="panel-header">
+        <div class="panel-title">
+          <span>🧠 思维推演与多维复盘工作台</span>
+        </div>
+        <span style="font-size:12px;color:var(--muted)">快捷键：← 上一步 ｜ → / 空格 下一步 ｜ M 切换模式</span>
+      </div>
+      <div class="scroll-container" id="rightScroll">
+        <div class="workspace" id="workspaceContent">
+          <!-- Populated by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Database & Module Scripts -->
+  <script src="data/manifest.js"></script>
+  <script src="data/year_2010.js"></script>
+  <script src="data/year_2011.js"></script>
+  <script src="data/year_2012.js"></script>
+  <script src="data/year_2013.js"></script>
+  <script src="data/year_2014.js"></script>
+  <script src="data/year_2015.js"></script>
+  <script src="data/year_2016.js"></script>
+  <script src="data/year_2017.js"></script>
+  <script src="data/year_2018.js"></script>
+  <script src="data/year_2019.js"></script>
+  <script src="data/year_2020.js"></script>
+  <script src="data/year_2021.js"></script>
+  <script src="data/year_2022.js"></script>
+  <script src="data/year_2023.js"></script>
+  <script src="data/db.js"></script>
+  <script src="js/render_practice.js"></script>
+  <script src="js/render_review.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

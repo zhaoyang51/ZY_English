@@ -1,0 +1,5 @@
+scratch/
+*.log
+.gemini/
+__pycache__/
+*.pyc

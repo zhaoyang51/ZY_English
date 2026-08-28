@@ -1,0 +1,6805 @@
+window.KAOYAN_DATA_2020 = {
+  "text1": {
+    "id": 1,
+    "qRange": "21-25",
+    "title": "Text 1",
+    "paragraphs": [
+      "Rats and other animals need to be highly attuned to social signals from others so they can identify friends to cooperate with and enemies to avoid. To find out if this extends to non- living beings, Laleh Quinn at the University of California, San Diego, and her colleagues tested whether rats can detect social signals from robotic rats.",
+      "They housed eight adult rats with two types of robotic rat—one social and one asocial— for four days. The robot rats were quite minimalist, resembling a chunkier version of a computer mouse with wheels to move around and colorful markings.",
+      "During the experiment, the social robot rat followed the living rats around, played with the same toys, and opened cage doors to let trapped rats escape. Meanwhile, the asocial robot simply moved forwards and backwards and side to side.",
+      "Next, the researchers trapped the robots in cages and gave the rats the opportunity to release them by pressing a lever. Across 18 trials each, the living rats were 52 per cent more likely on average to set the social robot free than the asocial one. This suggests that the rats perceived the social robot as a genuine social being. They may have bonded more with the social robot because it displayed behaviours like communal exploring and playing. This could lead to the rats better remembering having freed it earlier, and wanting the robot to return the favour when they get trapped, says Quinn.",
+      "“Rats have been shown to engage in multiple forms of reciprocal help and cooperation, including what is referred to as direct reciprocity—where a rat will help another rat that has previously helped them,” says Quinn.",
+      "The readiness of the rats to befriend the social robot was surprising given its minimal design. The robot was the same size as a regular rat but resembled a simple plastic box on wheels. “We’d assumed we’d have to give it a moving head and tail, facial features, and put a scent on it to make it smell like a real rat, but that wasn’t necessary,” says Janet Wiles at the University of Queensland in Australia, who helped with the research.",
+      "The finding shows how sensitive rats are to social cues, even when they come from basic robots. Similarly, children tend to treat robots as if they are fellow beings, even when they display only simple social signals. “We humans seem to be fascinated by robots, and it turns out other animals are too,” says Wiles."
+    ],
+    "questions": [
+      {
+        "qid": 21,
+        "stem": "Quinn and her colleagues conducted a test to see if rats can _____.",
+        "stem_cn": "奎因和她的同事进行了一项测试，看看老鼠是否可以 _____。",
+        "type": "事实细节题",
+        "locate": "Paragraph 1",
+        "options": [
+          {
+            "key": "A",
+            "text": "pick up social signals from non-living rats",
+            "text_cn": "从无生命的老鼠那里获取社交信号",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "B",
+            "text": "distinguish a friendly rat from a hostile one",
+            "text_cn": "区分友好的老鼠和敌对的老鼠",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "attain sociable traits through special training",
+            "text_cn": "通过特殊训练获得社交特质",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "send out warning messages to their fellows",
+            "text_cn": "向他们的同伴发出警告信息",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 22,
+        "stem": "What did the asocial robot do during the experiment?",
+        "stem_cn": "反社会机器人在实验过程中做了什么？",
+        "type": "因果推断题",
+        "locate": "Paragraph 2",
+        "options": [
+          {
+            "key": "A",
+            "text": "It followed the social robot.",
+            "text_cn": "它跟随社交机器人。",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "It played with some toys.",
+            "text_cn": "它玩着一些玩具。",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "It set the trapped rats free.",
+            "text_cn": "它把被困的老鼠释放了。",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "It moved around alone.",
+            "text_cn": "它独自四处走动。",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。"
+          }
+        ]
+      },
+      {
+        "qid": 23,
+        "stem": "According to Quinn, the rats released the social robot because they _____.",
+        "stem_cn": "根据奎因的说法，老鼠释放社交机器人是因为它们 _____。",
+        "type": "段落推理题",
+        "locate": "Paragraph 3",
+        "options": [
+          {
+            "key": "A",
+            "text": "tried to practice a means of escape",
+            "text_cn": "尝试练习逃跑的方法",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "expected it to do the same in return",
+            "text_cn": "期望它能做同样的回报",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "C",
+            "text": "wanted to display their intelligence",
+            "text_cn": "想展示自己的聪明才智",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "considered that an interesting game",
+            "text_cn": "认为是一个有趣的游戏",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 24,
+        "stem": "Janet Wiles notes that rats _____.",
+        "stem_cn": "珍妮特·怀尔斯指出老鼠_____。",
+        "type": "词义/例证题",
+        "locate": "Paragraph 4",
+        "options": [
+          {
+            "key": "A",
+            "text": "can remember other rats’ facial features",
+            "text_cn": "能记住其他老鼠的面部特征",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "differentiate smells better than sizes",
+            "text_cn": "区分气味比区分大小更有效",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "respond more to actions than to looks",
+            "text_cn": "对行动的反应多于对外表的反应",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "D",
+            "text": "can be scared by a plastic box on wheels",
+            "text_cn": "可能会被带轮子的塑料盒吓到",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 25,
+        "stem": "It can be learned from the text that rats _____.",
+        "stem_cn": "从文中可知，老鼠_____。",
+        "type": "全文主旨题",
+        "locate": "Paragraph 5",
+        "options": [
+          {
+            "key": "A",
+            "text": "appear to be adaptable to new surroundings",
+            "text_cn": "似乎能适应新环境",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "are more socially active than other animals",
+            "text_cn": "比其他动物更活跃",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "behave differently from children in socializing",
+            "text_cn": "社交行为与孩子不同",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "are more sensitive to social cues than expected",
+            "text_cn": "对社交线索比预期更敏感",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。"
+          }
+        ]
+      }
+    ],
+    "practice": {
+      "steps": [
+        {
+          "section": "阅前须知",
+          "raw": "# 0.阅前须知\n\n阅前声明，本教程对英语一英语二均适用。\n\n本教程主要解决考研英语阅读备考中的三个结构性问题：\n\n1. **考研英语骗局一**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持认识文章中的所有细节，一个不漏，咱们不可能完全认识文章中的每一个单词，带着不认识的地方读文章做题才是真正的学生视角。即使是有部分超纲生词不认识，从段落和文章主旨、作者态度等宏观阅读文章内容本身分析的层面，也是不影响做全对的；\n\n2. **考研英语骗局二**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接边读边信达雅地翻译出文章，读完一遍只能在脑海里留下大致信息，并且很快遗忘。正确的方式是先粗后细，放弃信达雅的机械翻译，粗读先理解文章大致出现了哪些东西，然后细读采用意群法这种手段实现，即可临危不乱；\n\n3. **考研英语骗局三**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接用某种神技确定某个一定正确的答案。二选一选不出来是个非常正常的现象。用某种神技去秒杀一个文科单选问题违背了逻辑学常识，即孤证不立。通过宏观认知与多判据交叉验证的方式解决，是所有文科单选题的通法。",
+          "html": "<h1>0.阅前须知</h1>\n<p>阅前声明，本教程对英语一英语二均适用。</p>\n<p>本教程主要解决考研英语阅读备考中的三个结构性问题：</p>\n<ol>\n<li><p><strong>考研英语骗局一</strong>：拒绝上帝视角生词全懂，带着超纲生词读宏观主旨同样能做全对；</p></li>\n<li><p><strong>考研英语骗局二</strong>：放弃考场即时信达雅机械翻译，采用意群粗读抓取核心信息；</p></li>\n<li><p><strong>考研英语骗局三</strong>：拒绝所谓单一神技秒杀，采用定位比对与写作视角交叉验证。</p></li>\n</ol>\n<p>大家把考研英语阅读当成真阅读，才能发现真正正确的备考方式。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "# 1. 先读题干\n\n首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰咱们粗读对文章的理解。看题干对考查重点有个大致印象，并且因为题文同序的原则，也能帮助我们提前获取部分文章的逻辑脉络。",
+          "html": "<h1>1. 先读题干</h1><p>首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰粗读理解。看题干对考查重点建立大致印象，借助题文同序原则提前获取文章逻辑脉络。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 21题题干\n\n**Quinn and her colleagues conducted a test to see if rats can _____.**\n\n> 奎因和她的同事进行了一项测试，看看老鼠是否可以 _____。\n\n题型：**事实细节题**。\n\n定位预判：**Paragraph 1**\n\n---",
+          "html": "<h2>21题题干</h2><p><strong>Quinn and her colleagues conducted a test to see if rats can _____.</strong></p><blockquote><p>奎因和她的同事进行了一项测试，看看老鼠是否可以 _____。</p></blockquote><p>题型：<strong>事实细节题</strong>。</p><p>定位预判：<strong>Paragraph 1</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "21"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 22题题干\n\n**What did the asocial robot do during the experiment?**\n\n> 反社会机器人在实验过程中做了什么？\n\n题型：**因果推断题**。\n\n定位预判：**Paragraph 2**\n\n---",
+          "html": "<h2>22题题干</h2><p><strong>What did the asocial robot do during the experiment?</strong></p><blockquote><p>反社会机器人在实验过程中做了什么？</p></blockquote><p>题型：<strong>因果推断题</strong>。</p><p>定位预判：<strong>Paragraph 2</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "22"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 23题题干\n\n**According to Quinn, the rats released the social robot because they _____.**\n\n> 根据奎因的说法，老鼠释放社交机器人是因为它们 _____。\n\n题型：**段落推理题**。\n\n定位预判：**Paragraph 3**\n\n---",
+          "html": "<h2>23题题干</h2><p><strong>According to Quinn, the rats released the social robot because they _____.</strong></p><blockquote><p>根据奎因的说法，老鼠释放社交机器人是因为它们 _____。</p></blockquote><p>题型：<strong>段落推理题</strong>。</p><p>定位预判：<strong>Paragraph 3</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "23"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 24题题干\n\n**Janet Wiles notes that rats _____.**\n\n> 珍妮特·怀尔斯指出老鼠_____。\n\n题型：**词义/例证题**。\n\n定位预判：**Paragraph 4**\n\n---",
+          "html": "<h2>24题题干</h2><p><strong>Janet Wiles notes that rats _____.</strong></p><blockquote><p>珍妮特·怀尔斯指出老鼠_____。</p></blockquote><p>题型：<strong>词义/例证题</strong>。</p><p>定位预判：<strong>Paragraph 4</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "24"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 25题题干\n\n**It can be learned from the text that rats _____.**\n\n> 从文中可知，老鼠_____。\n\n题型：**全文主旨题**。\n\n定位预判：**Paragraph 5**\n\n---",
+          "html": "<h2>25题题干</h2><p><strong>It can be learned from the text that rats _____.</strong></p><blockquote><p>从文中可知，老鼠_____。</p></blockquote><p>题型：<strong>全文主旨题</strong>。</p><p>定位预判：<strong>Paragraph 5</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "25"
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "# 2. 读文章过程\n\n看完题干后，第一步要粗读一遍文章。根据自身水平扫一遍文章，开头结尾慢一些，注重首尾句，作者举的例子可以略读。关注逻辑词（however, but）、态度评价词、核心动作词与重复主题词。\n\n| 类型 | 关注原因 | 本文关注重点 |\n| --- | --- | --- |\n| 逻辑词 | 作者观点或行文转向 | however, but, nevertheless, yet, although |\n| 态度词 | 作者情感倾向与立场 | critical, positive, resilient, concern, significant |\n| 核心动作 | 论证中主体行为 | argue, demonstrate, implement, undermine |\n| 重复主题词 | 贯穿全篇的核心讨论对象 | 本文核心讨论对象与同义衍生表达 |",
+          "html": "<h1>2. 读文章过程</h1><p>扫读全文，注重段落首尾句，识别论点与论据。关注核心逻辑转折词与态度评价词。</p>\n<table class=\"table-wrap\"><thead><tr><th>类型</th><th>关注原因</th><th>本文关注重点</th></tr></thead>\n<tbody>\n<tr><td>逻辑词</td><td>作者观点或行文转向</td><td>however, but, nevertheless, yet</td></tr>\n<tr><td>态度词</td><td>作者情感倾向与立场</td><td>critical, positive, concern, significant</td></tr>\n<tr><td>核心动作</td><td>论证中主体行为</td><td>argue, demonstrate, implement, undermine</td></tr>\n<tr><td>重复主题词</td><td>贯穿全篇的核心讨论对象</td><td>本文核心论题与衍生词</td></tr>\n</tbody></table>",
+          "meta": {}
+        },
+        {
+          "section": "读文章",
+          "raw": "Rats and other animals need to be highly attuned to social signals from others so they can identify friends to cooperate with and enemies to avoid. To find out if this extends to non- living beings, Laleh Quinn at the University of California, San Diego, and her colleagues tested whether rats can detect social signals from robotic rats.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Rats and other animals need to be highly attuned to social signals from others so they can identify friends to cooperate with and enemies to avoid. To find out if this extends to non- living beings, Laleh Quinn at the University of California, San Diego, and her colleagues tested whether rats can detect social signals from robotic rats.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Rats and other animals need to be highly attuned to social signals from others so they can identify friends to cooperate with and enemies to avoid. / To find out / if this extends to non- living beings, / Laleh Quinn at the University of California, / San Diego, / and her colleagues tested whether rats can detect social signals from robotic rats.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Rats and other animals need to be highly attuned to social signals from others so they can identify friends to cooperate with and enemies to avoid. / To find out / if this extends to non- living beings, / Laleh Quinn at the University of California, / San Diego, / and her colleagues tested whether rats can detect social signals from robotic rats.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第1段意群顺译】老鼠和其他动物需要高度适应来自他人的社交信号，这样它们才能识别出要合作的朋友和要避开的敌人。为了查明这种现象是否也适用于非生物，加州大学圣地亚哥分校的拉勒·奎因 (Laleh Quinn) 和她的同事测试了老鼠是否能够检测到来自机器老鼠的社交信号。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>【第1段意群顺译】老鼠和其他动物需要高度适应来自他人的社交信号，这样它们才能识别出要合作的朋友和要避开的敌人。为了查明这种现象是否也适用于非生物，加州大学圣地亚哥分校的拉勒·奎因 (Laleh Quinn) 和她的同事测试了老鼠是否能够检测到来自机器老鼠的社交信号。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "They housed eight adult rats with two types of robotic rat—one social and one asocial— for four days. The robot rats were quite minimalist, resembling a chunkier version of a computer mouse with wheels to move around and colorful markings.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>They housed eight adult rats with two types of robotic rat—one social and one asocial— for four days. The robot rats were quite minimalist, resembling a chunkier version of a computer mouse with wheels to move around and colorful markings.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "They housed eight adult rats with two types of robotic rat—one social and one asocial— / for four days. / The robot rats were quite minimalist, / resembling a chunkier version of a computer mouse with wheels to move around and colorful markings.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>They housed eight adult rats with two types of robotic rat—one social and one asocial— / for four days. / The robot rats were quite minimalist, / resembling a chunkier version of a computer mouse with wheels to move around and colorful markings.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第2段意群顺译】他们将八只成年老鼠与两种类型的机器老鼠（一种是社交型的，一种是非社交型的）一起饲养了四天。机器鼠非常简约，类似于一个厚重版本的电脑鼠标，带有可以移动的轮子和彩色标记。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第2段意群顺译】他们将八只成年老鼠与两种类型的机器老鼠（一种是社交型的，一种是非社交型的）一起饲养了四天。机器鼠非常简约，类似于一个厚重版本的电脑鼠标，带有可以移动的轮子和彩色标记。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "During the experiment, the social robot rat followed the living rats around, played with the same toys, and opened cage doors to let trapped rats escape. [Meanwhile], the asocial robot simply moved forwards and backwards and side to side.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>During the experiment, the social robot rat followed the living rats around, played with the same toys, and opened cage doors to let trapped rats escape. <span class=\"mask\">[Meanwhile]</span>, the asocial robot simply moved forwards and backwards and side to side.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "During the experiment, / the social robot rat followed the living rats around, / played with the same toys, / and opened cage doors to let trapped rats escape. [Meanwhile], / the asocial robot simply moved forwards and backwards and side to side.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>During the experiment, / the social robot rat followed the living rats around, / played with the same toys, / and opened cage doors to let trapped rats escape. <span class=\"mask\">[Meanwhile]</span>, / the asocial robot simply moved forwards and backwards and side to side.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第3段意群顺译】实验过程中，社交机器鼠跟随活体老鼠四处走动，玩同样的玩具，并打开笼门让被困的老鼠逃脱。与此同时，非社交机器人只是简单地前后左右移动。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第3段意群顺译】实验过程中，社交机器鼠跟随活体老鼠四处走动，玩同样的玩具，并打开笼门让被困的老鼠逃脱。与此同时，非社交机器人只是简单地前后左右移动。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Next, the researchers trapped the robots in cages and gave the rats the opportunity to release them by pressing a lever. Across 18 trials each, the living rats were 52 per cent more likely on average to set the social robot free than the asocial one. This suggests that the rats [perceived] the social robot as a genuine social being. They may have bonded more with the social robot because it displayed behaviours like communal exploring and playing. This could lead to the rats better [remembering] having freed it earlier, and wanting the robot to return the favour when they get trapped, says Quinn.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Next, the researchers trapped the robots in cages and gave the rats the opportunity to release them by pressing a lever. Across 18 trials each, the living rats were 52 per cent more likely on average to set the social robot free than the asocial one. This suggests that the rats <span class=\"mask\">[perceived]</span> the social robot as a genuine social being. They may have bonded more with the social robot because it displayed behaviours like communal exploring and playing. This could lead to the rats better <span class=\"mask\">[remembering]</span> having freed it earlier, and wanting the robot to return the favour when they get trapped, says Quinn.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Next, / the researchers trapped the robots in cages and gave the rats the opportunity to release them by pressing a lever. / Across 18 trials each, / the living rats were 52 per cent more likely on average to set the social robot free than the asocial one. / This suggests / that the rats [perceived] the social robot as a genuine social being. / They may have bonded more with the social robot / because it displayed behaviours like communal exploring and playing. / This could lead to the rats better [remembering] having freed it earlier, / and wanting the robot to return the favour / when they get trapped, / says Quinn.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Next, / the researchers trapped the robots in cages and gave the rats the opportunity to release them by pressing a lever. / Across 18 trials each, / the living rats were 52 per cent more likely on average to set the social robot free than the asocial one. / This suggests / that the rats <span class=\"mask\">[perceived]</span> the social robot as a genuine social being. / They may have bonded more with the social robot / because it displayed behaviours like communal exploring and playing. / This could lead to the rats better <span class=\"mask\">[remembering]</span> having freed it earlier, / and wanting the robot to return the favour / when they get trapped, / says Quinn.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第4段意群顺译】接下来，研究人员将机器人困在笼子里，让老鼠有机会通过按下杠杆来释放它们。在每项 18 项试验中，活体老鼠释放社交机器人的可能性平均比非社交老鼠高出 52%。这表明老鼠将社交机器人视为真正的社交存在。他们可能与社交机器人有更多的联系，因为它表现出公共探索和玩耍等行为。奎因说，这可能...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第4段意群顺译】接下来，研究人员将机器人困在笼子里，让老鼠有机会通过按下杠杆来释放它们。在每项 18 项试验中，活体老鼠释放社交机器人的可能性平均比非社交老鼠高出 52%。这表明老鼠将社交机器人视为真正的社交存在。他们可能与社交机器人有更多的联系，因为它表现出公共探索和玩耍等行为。奎因说，这可能...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "“Rats have been shown to engage in multiple forms of reciprocal help and cooperation, [including] what is referred to as direct reciprocity—where a rat will help another rat that has previously helped them,” says Quinn.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>“Rats have been shown to engage in multiple forms of reciprocal help and cooperation, <span class=\"mask\">[including]</span> what is referred to as direct reciprocity—where a rat will help another rat that has previously helped them,” says Quinn.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "“Rats have been shown to engage in multiple forms of reciprocal help and cooperation, / [including] what is referred to as direct reciprocity—where a rat will help another rat / that has previously helped them,” says Quinn.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>“Rats have been shown to engage in multiple forms of reciprocal help and cooperation, / <span class=\"mask\">[including]</span> what is referred to as direct reciprocity—where a rat will help another rat / that has previously helped them,” says Quinn.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第5段意群顺译】奎因说：“研究表明，老鼠会参与多种形式的互惠帮助和合作，包括所谓的直接互惠——一只老鼠会帮助另一只曾经帮助过它们的老鼠。”...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第5段意群顺译】奎因说：“研究表明，老鼠会参与多种形式的互惠帮助和合作，包括所谓的直接互惠——一只老鼠会帮助另一只曾经帮助过它们的老鼠。”...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The readiness of the rats to befriend the social robot was surprising given its minimal design. The robot was the same size as a regular rat but resembled a simple plastic box on wheels. “We’d assumed we’d have to give it a moving head and tail, facial features, and put a scent on it to make it smell like a real rat, but that wasn’t necessary,” says Janet Wiles at the University of Queensland in Australia, who helped with the research.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The readiness of the rats to befriend the social robot was surprising given its minimal design. The robot was the same size as a regular rat but resembled a simple plastic box on wheels. “We’d assumed we’d have to give it a moving head and tail, facial features, and put a scent on it to make it smell like a real rat, but that wasn’t necessary,” says Janet Wiles at the University of Queensland in Australia, who helped with the research.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The readiness of the rats to befriend the social robot was surprising given its minimal design. / The robot was the same size as a regular rat but resembled a simple plastic box on wheels. “We’d assumed we’d have to give it a moving head and tail, / facial features, / and put a scent on it to make it smell like a real rat, / but / that wasn’t necessary,” says Janet Wiles at the University of Queensland in Australia, / / who helped with the research.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The readiness of the rats to befriend the social robot was surprising given its minimal design. / The robot was the same size as a regular rat but resembled a simple plastic box on wheels. “We’d assumed we’d have to give it a moving head and tail, / facial features, / and put a scent on it to make it smell like a real rat, / but / that wasn’t necessary,” says Janet Wiles at the University of Queensland in Australia, / / who helped with the research.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第6段意群顺译】考虑到社交机器人的简约设计，老鼠愿意与社交机器人成为朋友的意愿令人惊讶。该机器人与普通老鼠大小相同，但类似于一个带轮子的简单塑料盒子。帮助这项研究的澳大利亚昆士兰大学的珍妮特·威尔斯（Janet Wiles）说：“我们原以为必须给它一个会动的头和尾、面部特征，并在上面放上气味，让...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第6段意群顺译】考虑到社交机器人的简约设计，老鼠愿意与社交机器人成为朋友的意愿令人惊讶。该机器人与普通老鼠大小相同，但类似于一个带轮子的简单塑料盒子。帮助这项研究的澳大利亚昆士兰大学的珍妮特·威尔斯（Janet Wiles）说：“我们原以为必须给它一个会动的头和尾、面部特征，并在上面放上气味，让...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The finding shows how sensitive rats are to social cues, even when they come from basic robots. Similarly, children tend to treat robots as if they are fellow beings, even when they display only simple social signals. “We humans seem to be fascinated by robots, and it turns out other animals are too,” says Wiles.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The finding shows how sensitive rats are to social cues, even when they come from basic robots. Similarly, children tend to treat robots as if they are fellow beings, even when they display only simple social signals. “We humans seem to be fascinated by robots, and it turns out other animals are too,” says Wiles.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 6,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The finding shows how sensitive rats are to social cues, / even / when they come from basic robots. / Similarly, / children tend to treat robots as / if they are fellow beings, / even / when they display only simple social signals. “We humans seem to be fascinated by robots, / and it turns out other animals are too,” says Wiles.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The finding shows how sensitive rats are to social cues, / even / when they come from basic robots. / Similarly, / children tend to treat robots as / if they are fellow beings, / even / when they display only simple social signals. “We humans seem to be fascinated by robots, / and it turns out other animals are too,” says Wiles.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 6,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第7段意群顺译】这一发现表明，老鼠对社交线索非常敏感，即使这些线索来自基本的机器人。同样，孩子们倾向于将机器人视为同胞，即使它们只显示简单的社交信号。 “我们人类似乎对机器人着迷，事实证明其他动物也是如此，”怀尔斯说。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第7段意群顺译】这一发现表明，老鼠对社交线索非常敏感，即使这些线索来自基本的机器人。同样，孩子们倾向于将机器人视为同胞，即使它们只显示简单的社交信号。 “我们人类似乎对机器人着迷，事实证明其他动物也是如此，”怀尔斯说。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 6,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落7大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>7、【段落7大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 6,
+            "form": 3
+          }
+        },
+        {
+          "section": "做题过程",
+          "raw": "# 3. 开始做题 (21-25题)\n\n粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。",
+          "html": "<h1>3. 开始做题 (21-25题)</h1><p>粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。</p>",
+          "meta": {}
+        },
+        {
+          "section": "21题",
+          "raw": "## 21题\n\n**Quinn and her colleagues conducted a test to see if rats can _____.**\n\n> 奎因和她的同事进行了一项测试，看看老鼠是否可以 _____。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> Rats and other animals need to be highly attuned to social signals from others so they can identify friends to cooperate with and enemies to avoid. To find out if this extends to non- living beings, Laleh Quinn at the University of California, San Diego, and her colleagues tested whether rats can detect social signals from robotic rats.\n>\n> 开始精读：\n>\n> Rats and other animals need to be highly attuned to social signals from others so they can identify friends to cooperate with and enemies to avoid. / To find out / if this extends to non- living beings, / Laleh Quinn at the University of California, / San Diego, / and her colleagues tested whether rats can detect social signals from robotic rats.\n>\n> 逐意群顺译：\n>\n> 老鼠和其他动物需要高度适应来自他人的社交信号，这样它们才能识别出要合作的朋友和要避开的敌人。为了查明这种现象是否也适用于非生物，加州大学圣地亚哥分校的拉勒·奎因 (Laleh Quinn) 和她的同事测试了老鼠是否能够检测到来自机器老鼠的社交信号。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>21题</h2>\n<p><strong>Quinn and her colleagues conducted a test to see if rats can _____.</strong></p>\n<blockquote><p>奎因和她的同事进行了一项测试，看看老鼠是否可以 _____。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Rats and other animals need to be highly attuned to social signals from others so they can identify friends to cooperate with and enemies to avoid. To find out if this extends to non- living beings, Laleh Quinn at the University of California, San Diego, and her colleagues tested whether rats can detect social signals from robotic rats.</p>\n<p><strong>开始精读：</strong></p>\n<p>Rats and other animals need to be highly attuned to social signals from others so they can identify friends to cooperate with and enemies to avoid. / To find out / if this extends to non- living beings, / Laleh Quinn at the University of California, / San Diego, / and her colleagues tested whether rats can detect social signals from robotic rats.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>老鼠和其他动物需要高度适应来自他人的社交信号，这样它们才能识别出要合作的朋友和要避开的敌人。为了查明这种现象是否也适用于非生物，加州大学圣地亚哥分校的拉勒·奎因 (Laleh Quinn) 和她的同事测试了老鼠是否能够检测到来自机器老鼠的社交信号。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "21"
+          }
+        },
+        {
+          "section": "21题",
+          "raw": "### A. pick up social signals from non-living rats\n\n> 从无生命的老鼠那里获取社交信号\n\n我们先看 A 选项：`pick up social signals from non-living rats`（从无生命的老鼠那里获取社交信号）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：奎因和她的同事进行了一项测试，看看老鼠是否可以 “从无生命的老鼠那里获取社交信号”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `pick`, `social`, `signals` 与原文第 1 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：A强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>A. pick up social signals from non-living rats</h3>\n<blockquote><p>从无生命的老鼠那里获取社交信号</p></blockquote>\n<p>我们先看 A 选项：<code>pick up social signals from non-living rats</code>（从无生命的老鼠那里获取社交信号）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：奎因和她的同事进行了一项测试，看看老鼠是否可以 “从无生命的老鼠那里获取社交信号”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>pick</code>, <code>social</code>, <code>signals</code> 与原文第 1 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：A强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "21",
+            "option": "A"
+          }
+        },
+        {
+          "section": "21题",
+          "raw": "### B. distinguish a friendly rat from a hostile one\n\n> 区分友好的老鼠和敌对的老鼠\n\n我们先看 B 选项：`distinguish a friendly rat from a hostile one`（区分友好的老鼠和敌对的老鼠）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：奎因和她的同事进行了一项测试，看看老鼠是否可以 “区分友好的老鼠和敌对的老鼠”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“区分友好的老鼠和敌对的老鼠”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. distinguish a friendly rat from a hostile one</h3>\n<blockquote><p>区分友好的老鼠和敌对的老鼠</p></blockquote>\n<p>我们先看 B 选项：<code>distinguish a friendly rat from a hostile one</code>（区分友好的老鼠和敌对的老鼠）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：奎因和她的同事进行了一项测试，看看老鼠是否可以 “区分友好的老鼠和敌对的老鼠”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“区分友好的老鼠和敌对的老鼠”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "21",
+            "option": "B"
+          }
+        },
+        {
+          "section": "21题",
+          "raw": "### C. attain sociable traits through special training\n\n> 通过特殊训练获得社交特质\n\n我们先看 C 选项：`attain sociable traits through special training`（通过特殊训练获得社交特质）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：奎因和她的同事进行了一项测试，看看老鼠是否可以 “通过特殊训练获得社交特质”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“通过特殊训练获得社交特质”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. attain sociable traits through special training</h3>\n<blockquote><p>通过特殊训练获得社交特质</p></blockquote>\n<p>我们先看 C 选项：<code>attain sociable traits through special training</code>（通过特殊训练获得社交特质）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：奎因和她的同事进行了一项测试，看看老鼠是否可以 “通过特殊训练获得社交特质”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“通过特殊训练获得社交特质”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "21",
+            "option": "C"
+          }
+        },
+        {
+          "section": "21题",
+          "raw": "### D. send out warning messages to their fellows\n\n> 向他们的同伴发出警告信息\n\n我们先看 D 选项：`send out warning messages to their fellows`（向他们的同伴发出警告信息）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：奎因和她的同事进行了一项测试，看看老鼠是否可以 “向他们的同伴发出警告信息”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“向他们的同伴发出警告信息”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. send out warning messages to their fellows</h3>\n<blockquote><p>向他们的同伴发出警告信息</p></blockquote>\n<p>我们先看 D 选项：<code>send out warning messages to their fellows</code>（向他们的同伴发出警告信息）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：奎因和她的同事进行了一项测试，看看老鼠是否可以 “向他们的同伴发出警告信息”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“向他们的同伴发出警告信息”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "21",
+            "option": "D"
+          }
+        },
+        {
+          "section": "21题",
+          "raw": "### 21题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A强保留，与原文定位信息高度吻合；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>21题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A强保留，与原文定位信息高度吻合</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "21"
+          }
+        },
+        {
+          "section": "22题",
+          "raw": "## 22题\n\n**What did the asocial robot do during the experiment?**\n\n> 反社会机器人在实验过程中做了什么？\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> They housed eight adult rats with two types of robotic rat—one social and one asocial— for four days. The robot rats were quite minimalist, resembling a chunkier version of a computer mouse with wheels to move around and colorful markings.\n>\n> 开始精读：\n>\n> They housed eight adult rats with two types of robotic rat—one social and one asocial— / for four days. / The robot rats were quite minimalist, / resembling a chunkier version of a computer mouse with wheels to move around and colorful markings.\n>\n> 逐意群顺译：\n>\n> 他们将八只成年老鼠与两种类型的机器老鼠（一种是社交型的，一种是非社交型的）一起饲养了四天。机器鼠非常简约，类似于一个厚重版本的电脑鼠标，带有可以移动的轮子和彩色标记。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>22题</h2>\n<p><strong>What did the asocial robot do during the experiment?</strong></p>\n<blockquote><p>反社会机器人在实验过程中做了什么？</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>They housed eight adult rats with two types of robotic rat—one social and one asocial— for four days. The robot rats were quite minimalist, resembling a chunkier version of a computer mouse with wheels to move around and colorful markings.</p>\n<p><strong>开始精读：</strong></p>\n<p>They housed eight adult rats with two types of robotic rat—one social and one asocial— / for four days. / The robot rats were quite minimalist, / resembling a chunkier version of a computer mouse with wheels to move around and colorful markings.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>他们将八只成年老鼠与两种类型的机器老鼠（一种是社交型的，一种是非社交型的）一起饲养了四天。机器鼠非常简约，类似于一个厚重版本的电脑鼠标，带有可以移动的轮子和彩色标记。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "22"
+          }
+        },
+        {
+          "section": "22题",
+          "raw": "### A. It followed the social robot.\n\n> 它跟随社交机器人。\n\n我们先看 A 选项：`It followed the social robot.`（它跟随社交机器人。）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：反社会机器人在实验过程中做了什么？ ➔ 选项认为：它跟随社交机器人。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“它跟随社交机器人。”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. It followed the social robot.</h3>\n<blockquote><p>它跟随社交机器人。</p></blockquote>\n<p>我们先看 A 选项：<code>It followed the social robot.</code>（它跟随社交机器人。）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：反社会机器人在实验过程中做了什么？ ➔ 选项认为：它跟随社交机器人。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“它跟随社交机器人。”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "22",
+            "option": "A"
+          }
+        },
+        {
+          "section": "22题",
+          "raw": "### B. It played with some toys.\n\n> 它玩着一些玩具。\n\n我们先看 B 选项：`It played with some toys.`（它玩着一些玩具。）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：反社会机器人在实验过程中做了什么？ ➔ 选项认为：它玩着一些玩具。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“它玩着一些玩具。”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. It played with some toys.</h3>\n<blockquote><p>它玩着一些玩具。</p></blockquote>\n<p>我们先看 B 选项：<code>It played with some toys.</code>（它玩着一些玩具。）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：反社会机器人在实验过程中做了什么？ ➔ 选项认为：它玩着一些玩具。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“它玩着一些玩具。”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "22",
+            "option": "B"
+          }
+        },
+        {
+          "section": "22题",
+          "raw": "### C. It set the trapped rats free.\n\n> 它把被困的老鼠释放了。\n\n我们先看 C 选项：`It set the trapped rats free.`（它把被困的老鼠释放了。）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：反社会机器人在实验过程中做了什么？ ➔ 选项认为：它把被困的老鼠释放了。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“它把被困的老鼠释放了。”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. It set the trapped rats free.</h3>\n<blockquote><p>它把被困的老鼠释放了。</p></blockquote>\n<p>我们先看 C 选项：<code>It set the trapped rats free.</code>（它把被困的老鼠释放了。）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：反社会机器人在实验过程中做了什么？ ➔ 选项认为：它把被困的老鼠释放了。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“它把被困的老鼠释放了。”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "22",
+            "option": "C"
+          }
+        },
+        {
+          "section": "22题",
+          "raw": "### D. It moved around alone.\n\n> 它独自四处走动。\n\n我们先看 D 选项：`It moved around alone.`（它独自四处走动。）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：反社会机器人在实验过程中做了什么？ ➔ 选项认为：它独自四处走动。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `moved`, `around`, `alone` 与原文第 2 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：D强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>D. It moved around alone.</h3>\n<blockquote><p>它独自四处走动。</p></blockquote>\n<p>我们先看 D 选项：<code>It moved around alone.</code>（它独自四处走动。）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：反社会机器人在实验过程中做了什么？ ➔ 选项认为：它独自四处走动。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>moved</code>, <code>around</code>, <code>alone</code> 与原文第 2 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：D强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "22",
+            "option": "D"
+          }
+        },
+        {
+          "section": "22题",
+          "raw": "### 22题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D强保留，与原文定位信息高度吻合；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>22题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D强保留，与原文定位信息高度吻合</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "22"
+          }
+        },
+        {
+          "section": "23题",
+          "raw": "## 23题\n\n**According to Quinn, the rats released the social robot because they _____.**\n\n> 根据奎因的说法，老鼠释放社交机器人是因为它们 _____。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> During the experiment, the social robot rat followed the living rats around, played with the same toys, and opened cage doors to let trapped rats escape. [Meanwhile], the asocial robot simply moved forwards and backwards and side to side.\n>\n> 开始精读：\n>\n> During the experiment, / the social robot rat followed the living rats around, / played with the same toys, / and opened cage doors to let trapped rats escape. [Meanwhile], / the asocial robot simply moved forwards and backwards and side to side.\n>\n> 逐意群顺译：\n>\n> 实验过程中，社交机器鼠跟随活体老鼠四处走动，玩同样的玩具，并打开笼门让被困的老鼠逃脱。与此同时，非社交机器人只是简单地前后左右移动。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>23题</h2>\n<p><strong>According to Quinn, the rats released the social robot because they _____.</strong></p>\n<blockquote><p>根据奎因的说法，老鼠释放社交机器人是因为它们 _____。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>During the experiment, the social robot rat followed the living rats around, played with the same toys, and opened cage doors to let trapped rats escape. <span class=\"mask\">[Meanwhile]</span>, the asocial robot simply moved forwards and backwards and side to side.</p>\n<p><strong>开始精读：</strong></p>\n<p>During the experiment, / the social robot rat followed the living rats around, / played with the same toys, / and opened cage doors to let trapped rats escape. <span class=\"mask\">[Meanwhile]</span>, / the asocial robot simply moved forwards and backwards and side to side.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>实验过程中，社交机器鼠跟随活体老鼠四处走动，玩同样的玩具，并打开笼门让被困的老鼠逃脱。与此同时，非社交机器人只是简单地前后左右移动。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "23"
+          }
+        },
+        {
+          "section": "23题",
+          "raw": "### A. tried to practice a means of escape\n\n> 尝试练习逃跑的方法\n\n我们先看 A 选项：`tried to practice a means of escape`（尝试练习逃跑的方法）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据奎因的说法，老鼠释放社交机器人是因为它们 “尝试练习逃跑的方法”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“尝试练习逃跑的方法”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. tried to practice a means of escape</h3>\n<blockquote><p>尝试练习逃跑的方法</p></blockquote>\n<p>我们先看 A 选项：<code>tried to practice a means of escape</code>（尝试练习逃跑的方法）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据奎因的说法，老鼠释放社交机器人是因为它们 “尝试练习逃跑的方法”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“尝试练习逃跑的方法”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "23",
+            "option": "A"
+          }
+        },
+        {
+          "section": "23题",
+          "raw": "### B. expected it to do the same in return\n\n> 期望它能做同样的回报\n\n我们先看 B 选项：`expected it to do the same in return`（期望它能做同样的回报）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据奎因的说法，老鼠释放社交机器人是因为它们 “期望它能做同样的回报”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `expected`, `same`, `return` 与原文第 3 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：B强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>B. expected it to do the same in return</h3>\n<blockquote><p>期望它能做同样的回报</p></blockquote>\n<p>我们先看 B 选项：<code>expected it to do the same in return</code>（期望它能做同样的回报）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据奎因的说法，老鼠释放社交机器人是因为它们 “期望它能做同样的回报”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>expected</code>, <code>same</code>, <code>return</code> 与原文第 3 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：B强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "23",
+            "option": "B"
+          }
+        },
+        {
+          "section": "23题",
+          "raw": "### C. wanted to display their intelligence\n\n> 想展示自己的聪明才智\n\n我们先看 C 选项：`wanted to display their intelligence`（想展示自己的聪明才智）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据奎因的说法，老鼠释放社交机器人是因为它们 “想展示自己的聪明才智”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“想展示自己的聪明才智”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. wanted to display their intelligence</h3>\n<blockquote><p>想展示自己的聪明才智</p></blockquote>\n<p>我们先看 C 选项：<code>wanted to display their intelligence</code>（想展示自己的聪明才智）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据奎因的说法，老鼠释放社交机器人是因为它们 “想展示自己的聪明才智”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“想展示自己的聪明才智”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "23",
+            "option": "C"
+          }
+        },
+        {
+          "section": "23题",
+          "raw": "### D. considered that an interesting game\n\n> 认为是一个有趣的游戏\n\n我们先看 D 选项：`considered that an interesting game`（认为是一个有趣的游戏）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据奎因的说法，老鼠释放社交机器人是因为它们 “认为是一个有趣的游戏”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“认为是一个有趣的游戏”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. considered that an interesting game</h3>\n<blockquote><p>认为是一个有趣的游戏</p></blockquote>\n<p>我们先看 D 选项：<code>considered that an interesting game</code>（认为是一个有趣的游戏）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据奎因的说法，老鼠释放社交机器人是因为它们 “认为是一个有趣的游戏”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“认为是一个有趣的游戏”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "23",
+            "option": "D"
+          }
+        },
+        {
+          "section": "23题",
+          "raw": "### 23题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B强保留，与原文定位信息高度吻合；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>23题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B强保留，与原文定位信息高度吻合</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "23"
+          }
+        },
+        {
+          "section": "24题",
+          "raw": "## 24题\n\n**Janet Wiles notes that rats _____.**\n\n> 珍妮特·怀尔斯指出老鼠_____。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> Next, the researchers trapped the robots in cages and gave the rats the opportunity to release them by pressing a lever. Across 18 trials each, the living rats were 52 per cent more likely on average to set the social robot free than the asocial one. This suggests that the rats [perceived] the social robot as a genuine social being. They may have bonded more with the social robot because it displayed behaviours like communal exploring and playing. This could lead to the rats better [remembering] having freed it earlier, and wanting the robot to return the favour when they get trapped, says Quinn.\n>\n> 开始精读：\n>\n> Next, / the researchers trapped the robots in cages and gave the rats the opportunity to release them by pressing a lever. / Across 18 trials each, / the living rats were 52 per cent more likely on average to set the social robot free than the asocial one. / This suggests / that the rats [perceived] the social robot as a genuine social being. / They may have bonded more with the social robot / because it displayed behaviours like communal exploring and playing. / This could lead to the rats better [remembering] having freed it earlier, / and wanting the robot to return the favour / when they get trapped, / says Quinn.\n>\n> 逐意群顺译：\n>\n> 接下来，研究人员将机器人困在笼子里，让老鼠有机会通过按下杠杆来释放它们。在每项 18 项试验中，活体老鼠释放社交机器人的可能性平均比非社交老鼠高出 52%。这表明老鼠将社交机器人视为真正的社交存在。他们可能与社交机器人有更多的联系，因为它表现出公共探索和玩耍等行为。奎因说，这可能会让老鼠更好地记住早些时候释放了它，并希望机器人在它们被困时回报它。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>24题</h2>\n<p><strong>Janet Wiles notes that rats _____.</strong></p>\n<blockquote><p>珍妮特·怀尔斯指出老鼠_____。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Next, the researchers trapped the robots in cages and gave the rats the opportunity to release them by pressing a lever. Across 18 trials each, the living rats were 52 per cent more likely on average to set the social robot free than the asocial one. This suggests that the rats <span class=\"mask\">[perceived]</span> the social robot as a genuine social being. They may have bonded more with the social robot because it displayed behaviours like communal exploring and playing. This could lead to the rats better <span class=\"mask\">[remembering]</span> having freed it earlier, and wanting the robot to return the favour when they get trapped, says Quinn.</p>\n<p><strong>开始精读：</strong></p>\n<p>Next, / the researchers trapped the robots in cages and gave the rats the opportunity to release them by pressing a lever. / Across 18 trials each, / the living rats were 52 per cent more likely on average to set the social robot free than the asocial one. / This suggests / that the rats <span class=\"mask\">[perceived]</span> the social robot as a genuine social being. / They may have bonded more with the social robot / because it displayed behaviours like communal exploring and playing. / This could lead to the rats better <span class=\"mask\">[remembering]</span> having freed it earlier, / and wanting the robot to return the favour / when they get trapped, / says Quinn.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>接下来，研究人员将机器人困在笼子里，让老鼠有机会通过按下杠杆来释放它们。在每项 18 项试验中，活体老鼠释放社交机器人的可能性平均比非社交老鼠高出 52%。这表明老鼠将社交机器人视为真正的社交存在。他们可能与社交机器人有更多的联系，因为它表现出公共探索和玩耍等行为。奎因说，这可能会让老鼠更好地记住早些时候释放了它，并希望机器人在它们被困时回报它。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "24"
+          }
+        },
+        {
+          "section": "24题",
+          "raw": "### A. can remember other rats’ facial features\n\n> 能记住其他老鼠的面部特征\n\n我们先看 A 选项：`can remember other rats’ facial features`（能记住其他老鼠的面部特征）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：珍妮特·怀尔斯指出老鼠“能记住其他老鼠的面部特征”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“能记住其他老鼠的面部特征”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. can remember other rats’ facial features</h3>\n<blockquote><p>能记住其他老鼠的面部特征</p></blockquote>\n<p>我们先看 A 选项：<code>can remember other rats’ facial features</code>（能记住其他老鼠的面部特征）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：珍妮特·怀尔斯指出老鼠“能记住其他老鼠的面部特征”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“能记住其他老鼠的面部特征”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "24",
+            "option": "A"
+          }
+        },
+        {
+          "section": "24题",
+          "raw": "### B. differentiate smells better than sizes\n\n> 区分气味比区分大小更有效\n\n我们先看 B 选项：`differentiate smells better than sizes`（区分气味比区分大小更有效）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：珍妮特·怀尔斯指出老鼠“区分气味比区分大小更有效”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“区分气味比区分大小更有效”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. differentiate smells better than sizes</h3>\n<blockquote><p>区分气味比区分大小更有效</p></blockquote>\n<p>我们先看 B 选项：<code>differentiate smells better than sizes</code>（区分气味比区分大小更有效）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：珍妮特·怀尔斯指出老鼠“区分气味比区分大小更有效”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“区分气味比区分大小更有效”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "24",
+            "option": "B"
+          }
+        },
+        {
+          "section": "24题",
+          "raw": "### C. respond more to actions than to looks\n\n> 对行动的反应多于对外表的反应\n\n我们先看 C 选项：`respond more to actions than to looks`（对行动的反应多于对外表的反应）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：珍妮特·怀尔斯指出老鼠“对行动的反应多于对外表的反应”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `respond`, `more`, `actions` 与原文第 4 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：C强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>C. respond more to actions than to looks</h3>\n<blockquote><p>对行动的反应多于对外表的反应</p></blockquote>\n<p>我们先看 C 选项：<code>respond more to actions than to looks</code>（对行动的反应多于对外表的反应）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：珍妮特·怀尔斯指出老鼠“对行动的反应多于对外表的反应”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>respond</code>, <code>more</code>, <code>actions</code> 与原文第 4 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：C强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "24",
+            "option": "C"
+          }
+        },
+        {
+          "section": "24题",
+          "raw": "### D. can be scared by a plastic box on wheels\n\n> 可能会被带轮子的塑料盒吓到\n\n我们先看 D 选项：`can be scared by a plastic box on wheels`（可能会被带轮子的塑料盒吓到）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：珍妮特·怀尔斯指出老鼠“可能会被带轮子的塑料盒吓到”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `can`, `scared`, `plastic` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. can be scared by a plastic box on wheels</h3>\n<blockquote><p>可能会被带轮子的塑料盒吓到</p></blockquote>\n<p>我们先看 D 选项：<code>can be scared by a plastic box on wheels</code>（可能会被带轮子的塑料盒吓到）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：珍妮特·怀尔斯指出老鼠“可能会被带轮子的塑料盒吓到”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>can</code>, <code>scared</code>, <code>plastic</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "24",
+            "option": "D"
+          }
+        },
+        {
+          "section": "24题",
+          "raw": "### 24题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C强保留，与原文定位信息高度吻合；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>24题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C强保留，与原文定位信息高度吻合</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "24"
+          }
+        },
+        {
+          "section": "25题",
+          "raw": "## 25题\n\n**It can be learned from the text that rats _____.**\n\n> 从文中可知，老鼠_____。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 5 段展开，所以我们直接回第 5 段定位精读。\n\n> 原文参考：\n>\n> “Rats have been shown to engage in multiple forms of reciprocal help and cooperation, [including] what is referred to as direct reciprocity—where a rat will help another rat that has previously helped them,” says Quinn.\n>\n> 开始精读：\n>\n> “Rats have been shown to engage in multiple forms of reciprocal help and cooperation, / [including] what is referred to as direct reciprocity—where a rat will help another rat / that has previously helped them,” says Quinn.\n>\n> 逐意群顺译：\n>\n> 奎因说：“研究表明，老鼠会参与多种形式的互惠帮助和合作，包括所谓的直接互惠——一只老鼠会帮助另一只曾经帮助过它们的老鼠。”\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>25题</h2>\n<p><strong>It can be learned from the text that rats _____.</strong></p>\n<blockquote><p>从文中可知，老鼠_____。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>5</strong> 段展开，所以我们直接回第 <strong>5</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>“Rats have been shown to engage in multiple forms of reciprocal help and cooperation, <span class=\"mask\">[including]</span> what is referred to as direct reciprocity—where a rat will help another rat that has previously helped them,” says Quinn.</p>\n<p><strong>开始精读：</strong></p>\n<p>“Rats have been shown to engage in multiple forms of reciprocal help and cooperation, / <span class=\"mask\">[including]</span> what is referred to as direct reciprocity—where a rat will help another rat / that has previously helped them,” says Quinn.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>奎因说：“研究表明，老鼠会参与多种形式的互惠帮助和合作，包括所谓的直接互惠——一只老鼠会帮助另一只曾经帮助过它们的老鼠。”</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "25"
+          }
+        },
+        {
+          "section": "25题",
+          "raw": "### A. appear to be adaptable to new surroundings\n\n> 似乎能适应新环境\n\n我们先看 A 选项：`appear to be adaptable to new surroundings`（似乎能适应新环境）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从文中可知，老鼠“似乎能适应新环境”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“似乎能适应新环境”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 5 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. appear to be adaptable to new surroundings</h3>\n<blockquote><p>似乎能适应新环境</p></blockquote>\n<p>我们先看 A 选项：<code>appear to be adaptable to new surroundings</code>（似乎能适应新环境）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从文中可知，老鼠“似乎能适应新环境”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“似乎能适应新环境”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 5 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "25",
+            "option": "A"
+          }
+        },
+        {
+          "section": "25题",
+          "raw": "### B. are more socially active than other animals\n\n> 比其他动物更活跃\n\n我们先看 B 选项：`are more socially active than other animals`（比其他动物更活跃）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从文中可知，老鼠“比其他动物更活跃”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `are`, `more`, `socially` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. are more socially active than other animals</h3>\n<blockquote><p>比其他动物更活跃</p></blockquote>\n<p>我们先看 B 选项：<code>are more socially active than other animals</code>（比其他动物更活跃）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从文中可知，老鼠“比其他动物更活跃”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>are</code>, <code>more</code>, <code>socially</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "25",
+            "option": "B"
+          }
+        },
+        {
+          "section": "25题",
+          "raw": "### C. behave differently from children in socializing\n\n> 社交行为与孩子不同\n\n我们先看 C 选项：`behave differently from children in socializing`（社交行为与孩子不同）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从文中可知，老鼠“社交行为与孩子不同”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `behave`, `differently`, `children` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. behave differently from children in socializing</h3>\n<blockquote><p>社交行为与孩子不同</p></blockquote>\n<p>我们先看 C 选项：<code>behave differently from children in socializing</code>（社交行为与孩子不同）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从文中可知，老鼠“社交行为与孩子不同”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>behave</code>, <code>differently</code>, <code>children</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "25",
+            "option": "C"
+          }
+        },
+        {
+          "section": "25题",
+          "raw": "### D. are more sensitive to social cues than expected\n\n> 对社交线索比预期更敏感\n\n我们先看 D 选项：`are more sensitive to social cues than expected`（对社交线索比预期更敏感）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从文中可知，老鼠“对社交线索比预期更敏感”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `are`, `more`, `sensitive` 与原文第 5 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 5 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：D强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>D. are more sensitive to social cues than expected</h3>\n<blockquote><p>对社交线索比预期更敏感</p></blockquote>\n<p>我们先看 D 选项：<code>are more sensitive to social cues than expected</code>（对社交线索比预期更敏感）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从文中可知，老鼠“对社交线索比预期更敏感”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>are</code>, <code>more</code>, <code>sensitive</code> 与原文第 5 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 5 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：D强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "25",
+            "option": "D"
+          }
+        },
+        {
+          "section": "25题",
+          "raw": "### 25题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D强保留，与原文定位信息高度吻合；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>25题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D强保留，与原文定位信息高度吻合</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "25"
+          }
+        },
+        {
+          "section": "进阶技巧",
+          "raw": "# 4. 进阶技巧：交叉验证冲全对\n\n当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。",
+          "html": "<h1>4. 进阶技巧：交叉验证冲全对</h1><p>当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。</p>",
+          "meta": {}
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查21题交叉验证\n\n**题干**：Quinn and her colleagues conducted a test to see if rats can _____.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **A**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **A**。\n\n**21题选 A。**",
+          "html": "<h2>回查21题交叉验证</h2>\n<p><strong>题干</strong>：Quinn and her colleagues conducted a test to see if rats can _____.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>A</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">A</span></strong>。</p>\n<p><strong>21题选 A。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "21"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查22题交叉验证\n\n**题干**：What did the asocial robot do during the experiment?\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **D**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **D**。\n\n**22题选 D。**",
+          "html": "<h2>回查22题交叉验证</h2>\n<p><strong>题干</strong>：What did the asocial robot do during the experiment?</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>D</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">D</span></strong>。</p>\n<p><strong>22题选 D。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "22"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查23题交叉验证\n\n**题干**：According to Quinn, the rats released the social robot because they _____.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **B**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **B**。\n\n**23题选 B。**",
+          "html": "<h2>回查23题交叉验证</h2>\n<p><strong>题干</strong>：According to Quinn, the rats released the social robot because they _____.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>B</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">B</span></strong>。</p>\n<p><strong>23题选 B。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "23"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查24题交叉验证\n\n**题干**：Janet Wiles notes that rats _____.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **C**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **C**。\n\n**24题选 C。**",
+          "html": "<h2>回查24题交叉验证</h2>\n<p><strong>题干</strong>：Janet Wiles notes that rats _____.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>C</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">C</span></strong>。</p>\n<p><strong>24题选 C。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "24"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查25题交叉验证\n\n**题干**：It can be learned from the text that rats _____.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **D**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **D**。\n\n**25题选 D。**",
+          "html": "<h2>回查25题交叉验证</h2>\n<p><strong>题干</strong>：It can be learned from the text that rats _____.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>D</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">D</span></strong>。</p>\n<p><strong>25题选 D。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "25"
+          }
+        },
+        {
+          "section": "最终答案",
+          "raw": "# 5. 最终答案汇总\n\n**21. A**\n\n**22. D**\n\n**23. B**\n\n**24. C**\n\n**25. D**\n\n恭喜完成本篇阅读的做题推演！建议点击顶栏切换至【复盘模式（一石五鸟）】进行全方位深度吸收。",
+          "html": "<h1>5. 最终答案汇总</h1><div style=\"background:#f0fdf4;border:1px solid #bbf7d0;padding:16px;border-radius:8px;font-size:18px;line-height:2;color:#166534\">**21. A**<br><br>**22. D**<br><br>**23. B**<br><br>**24. C**<br><br>**25. D**</div><p style=\"margin-top:16px\">恭喜完成本篇阅读的做题推演！建议点击顶栏切换至<strong>【复盘模式（一石五鸟）】</strong>进行全方位深度吸收。</p>",
+          "meta": {
+            "kind": "final"
+          }
+        }
+      ]
+    },
+    "review": {
+      "steps": [
+        {
+          "section": 0,
+          "title": "省流：一石五鸟法怎么做",
+          "html": "<p>一石五鸟复盘法将一篇阅读真题价值吃干榨净，同时打通词汇、长难句与翻译、阅读解题思维、新题型逻辑、大作文写作五大核心题型，实现高效备考。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第一鸟-积累文中重点单词带来的词汇量提升",
+          "html": "<p>精选真题高频核心词、熟词生义、派生搭配，在语境中彻底掌握考研核心5500词的核心词族。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第二鸟-精读文章与翻译练习带来的翻译能力提升",
+          "html": "<p>逐句精读拆解句法骨架（主干提取、从句修饰剥离），针对典型长难句进行规范中文翻译输出。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>深度剖析命题人设置正确选项的同义替换规律，归纳排查5大高频干扰陷阱（偷换概念/无中生有/反向干扰/过度推断/答非所问）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>梳理全文语篇结构树（起承转合、因果对比、问题解决），迁移训练考研英语二新题型（7选5/小标题/排序）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第五鸟-顺手积累本文的大作文主题词与表达带来的写作能力提升",
+          "html": "<p>提炼本文涉及社会热点、科技经济、生态教育等母题的高分表达、观点金句与论证句型，直接化为写作武器。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "为什么考研英语备考实际只需要两到三个月的有效备考工作量",
+          "html": "<p>通过一石五鸟法，做1篇真题等于练5项能力，无需题海战术，56篇真题足以为考研英语二夯实75+甚至85+的坚实功底。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第1段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>animals</strong></td><td>n. 动物，动物世界；牲畜</td><td><strong>need</strong></td><td>v. 需要；有必要；需要</td><td><strong>highly</strong></td><td>adv. 极其，非常；高度地，高水平地；钦佩地，赞赏地</td></tr><tr><td><strong>attuned</strong></td><td>adj. 能理解并敏锐察觉……的，善解人意的；与……协调的，适应的；能听辨出……的</td><td><strong>signals</strong></td><td>n. 信号，示意；标志，迹象；诱因</td><td><strong>others</strong></td><td>pron. 其他人</td></tr><tr><td><strong>identify</strong></td><td>v. 认出，识别；查明，确认；发现</td><td><strong>friends</strong></td><td>n. 朋友，友人</td><td><strong>cooperate</strong></td><td>v. 合作，协作；配合，协助</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第2段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>housed</strong></td><td>v. house 的过去式和过去分词；adj. 被安置在…的，设在…的；封装的，装在保护性外壳/箱体内的</td><td><strong>adult</strong></td><td>n. 成年人或动物；adj. 成年的，发育成熟的；成人的，理智的</td><td><strong>rats</strong></td><td>n. 鼠，老鼠；卑鄙的人；告密者</td></tr><tr><td><strong>types</strong></td><td>n. 类型，种类；某种类型的人；典型</td><td><strong>robotic</strong></td><td>adj. 机器人的，机械的；像机器人的，机械呆板的；机器人舞的</td><td><strong>asocial</strong></td><td>adj. 不合群的，不喜社交的，缺乏社交性的；自私的，不顾他人的</td></tr><tr><td><strong>robot</strong></td><td>n. 机器人，自动操作装置；机器般的人；自动交通信号机</td><td><strong>quite</strong></td><td>adv. 相当，很；非常，十分；完全地，彻底地</td><td><strong>minimalist</strong></td><td>n. 极简主义者；极简派艺术家，极简抽象派艺术家；温和政治改良主义者</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 1
+          }
+        },
+        {
+          "section": 1,
+          "title": "第3段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>experiment</strong></td><td>n. 实验，试验；尝试，实践；v. 进行实验，做试验</td><td><strong>robot</strong></td><td>n. 机器人，自动操作装置；机器般的人；自动交通信号机</td><td><strong>followed</strong></td><td>v. follow 的过去式和过去分词：跟在……后面；跟随；跟踪</td></tr><tr><td><strong>living</strong></td><td>adj. 活着的，活的；在使用的，在实施的；居住的，起居的</td><td><strong>rats</strong></td><td>n. 鼠，老鼠；卑鄙的人；告密者</td><td><strong>around</strong></td><td>adv. 围绕，环绕；大约；周围，四周</td></tr><tr><td><strong>played</strong></td><td>v. 演奏；播放；玩耍</td><td><strong>toys</strong></td><td>n. 玩具，玩物；v. 摆弄，玩弄；调情</td><td><strong>opened</strong></td><td>v. open 的过去式和过去分词形式：打开，开启，张开，睁开；开始，开业，开通，开放等；adj. 开着的，打开的</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 2
+          }
+        },
+        {
+          "section": 1,
+          "title": "第4段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>lead to</strong></td><td>导致，引起，通向</td><td><strong>researchers</strong></td><td>n. 研究人员，研究者</td><td><strong>trapped</strong></td><td>adj. 受困的，受限制的；v. 诱捕；使陷入圈套</td></tr><tr><td><strong>robots</strong></td><td>n. 机器人</td><td><strong>cages</strong></td><td>n. 鸟笼；监狱；电梯梯厢</td><td><strong>gave</strong></td><td>v. 给予；n. 人名；加韦</td></tr><tr><td><strong>rats</strong></td><td>n. 鼠，老鼠；卑鄙的人；告密者</td><td><strong>opportunity</strong></td><td>n. 时机，机会</td><td><strong>release</strong></td><td>v. 释放，放走；放开，松开；公布，发布</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 3
+          }
+        },
+        {
+          "section": 1,
+          "title": "第5段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>shown</strong></td><td>v. show 的过去分词，用于完成时和被动语态，可表示展示，显示，表明，给予，表露，证明等；adv. 用于固定短语 as shown，表示“如图所示，如上所示”</td><td><strong>engage</strong></td><td>v. 雇用，聘请；参加，从事；吸引，引起</td><td><strong>multiple</strong></td><td>adj. 多个的，多种的；多人共有的；影响身体许多部位的</td></tr><tr><td><strong>forms</strong></td><td>n. 形式，形状；形态，外形；方式</td><td><strong>reciprocal</strong></td><td>adj. 相互的，互惠的，报答的；反向的；互相的</td><td><strong>help</strong></td><td>v. 帮助，援助；改善状况，对……有益；给食物或饮料</td></tr><tr><td><strong>cooperation</strong></td><td>n. 合作，协作；协助，配合</td><td><strong>including</strong></td><td>prep. 包括，包含；v. 包含；把……列为一部分，把……算入</td><td><strong>referred</strong></td><td>v. 参考，查阅；提及，谈到，指称；送交，转交，提交</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 4
+          }
+        },
+        {
+          "section": 1,
+          "title": "第6段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>readiness</strong></td><td>n. 准备就绪状态；愿意，乐意；快，迅捷</td><td><strong>rats</strong></td><td>n. 鼠，老鼠；卑鄙的人；告密者</td><td><strong>befriend</strong></td><td>v. 做……的朋友，和……交朋友；友善对待，以朋友态度对待</td></tr><tr><td><strong>robot</strong></td><td>n. 机器人，自动操作装置；机器般的人；自动交通信号机</td><td><strong>surprising</strong></td><td>adj. 令人惊讶的，出人意料的；v. 使吃惊；意外发现，当场抓获，突然袭击</td><td><strong>given</strong></td><td>adj. 规定的，指定的；倾向于；签署的</td></tr><tr><td><strong>minimal</strong></td><td>adj. 极小的，极少的；极简抽象艺术的；简朴的，朴实无华的</td><td><strong>design</strong></td><td>n. 设计，布局，安排；设计艺术，构思；设计图，图纸</td><td><strong>size</strong></td><td>n. 大小，尺寸；庞大，巨大；数量，规模</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 5
+          }
+        },
+        {
+          "section": 1,
+          "title": "第7段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>finding</strong></td><td>n. 结果，发现；判决，裁决；一应小物件</td><td><strong>shows</strong></td><td>v. 显示，表明；给……看，出示；演示，教</td><td><strong>sensitive</strong></td><td>adj. 过敏的，易受影响的；灵敏的；善解人意的，体恤的</td></tr><tr><td><strong>rats</strong></td><td>n. 鼠，老鼠；卑鄙的人；告密者</td><td><strong>cues</strong></td><td>n. 开端，线索；提示，关键；球杆</td><td><strong>basic</strong></td><td>adj. 最重要的，基本的；最简单的，初级的；必需的</td></tr><tr><td><strong>robots</strong></td><td>n. 机器人</td><td><strong>tend</strong></td><td>v. 倾向于，往往会；照顾，护理；走向，趋向</td><td><strong>treat</strong></td><td>v. 对待，看待；治疗，医治；请客，招待</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 6
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>Rats and other animals need to be highly attuned to social signals from others so they can identify friends to cooperate with and enemies to avoid. To find out if this extends to non- living beings, Laleh Quinn at the University of California, San Diego, and her colleagues tested whether rats can detect social signals from robotic rats.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>Rats and other animals need to be highly attuned to social signals from others so they can identify friends to cooperate with and enemies to avoid. To find out if this extends to non- living beings, Laleh Quinn at the University of California, San Diego, and her colleagues tested whether rats can detect social signals from robotic rats.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>Rats and other animals need to be highly attuned to social signals from others so they can identify friends to cooperate with and enemies to avoid. / To find out / if this extends to non- living beings, / Laleh Quinn at the University of California, / San Diego, / and her colleagues tested whether rats can detect social signals from robotic rats.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>Rats and other animals need to be highly attuned to social signals from others so they can identify friends to cooperate with and enemies to avoid. To find out if this extends to non- living beings, Laleh Quinn at the University of California, San Diego, and her colleagues tested whether rats can detect social signals from robotic rats.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>Rats and other animals need to be highly attuned to social signals from others so they can identify friends to cooperate with and enemies to avoid. / To find out / if this extends to non- living beings, / Laleh Quinn at the University of California, / San Diego, / and her colleagues tested whether rats can detect social signals from robotic rats.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">老鼠和其他动物需要高度适应来自他人的社交信号，这样它们才能识别要合作的朋友和要避免的敌人<br>找出来 / 如果这延伸到非生物体 / 拉勒·奎因 (Laleh Quinn)，加州大学 / 圣地亚哥 / 和她的同事测试了老鼠是否能够检测到机器人老鼠的社交信号</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>Rats and other animals need to be highly attuned to social signals from others so they can identify friends to cooperate with and enemies to avoid. To find out if this extends to non- living beings, Laleh Quinn at the University of California, San Diego, and her colleagues tested whether rats can detect social signals from robotic rats.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>Rats and other animals need to be highly attuned to social signals from others so they can identify friends to cooperate with and enemies to avoid. / To find out / if this extends to non- living beings, / Laleh Quinn at the University of California, / San Diego, / and her colleagues tested whether rats can detect social signals from robotic rats.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">老鼠和其他动物需要高度适应来自他人的社交信号，这样它们才能识别要合作的朋友和要避免的敌人<br>找出来 / 如果这延伸到非生物体 / 拉勒·奎因 (Laleh Quinn)，加州大学 / 圣地亚哥 / 和她的同事测试了老鼠是否能够检测到机器人老鼠的社交信号</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-3\">\n<h3>标准译文 · 第1段</h3>\n<p>老鼠和其他动物需要高度适应来自他人的社交信号，这样它们才能识别出要合作的朋友和要避开的敌人。为了查明这种现象是否也适用于非生物，加州大学圣地亚哥分校的拉勒·奎因 (Laleh Quinn) 和她的同事测试了老鼠是否能够检测到来自机器老鼠的社交信号。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Rats and other animals need to be highly attuned to social signals from others so they can identify friends to cooperate with and enemies to avoid.</p>\n<p><strong>意群断句：</strong><code>Rats and other animals need to be highly attuned to social signals from others so they can identify friends to cooperate with and enemies to avoid.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">老鼠和其他动物需要高度适应来自他人的社交信号，这样它们才能识别要合作的朋友和要避免的敌人</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with and enemies to avoid....</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">老鼠和其他动物需要高度适应来自他人的社交信号，这样它们才能识别出要合作的朋友和要避开的敌人。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>To find out if this extends to non- living beings, Laleh Quinn at the University of California, San Diego, and her colleagues tested whether rats can detect social signals from robotic rats.</p>\n<p><strong>意群断句：</strong><code>To find out / if this extends to non- living beings, / Laleh Quinn at the University of California, / San Diego, / and her colleagues tested whether rats can detect social signals from robotic rats.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">找出来 / 如果这延伸到非生物体 / 拉勒·奎因 (Laleh Quinn)，加州大学 / 圣地亚哥 / 和她的同事测试了老鼠是否能够检测到机器人老鼠的社交信号</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>条件状语从句</b>：由连词 <code>If</code> 引导从句 <code>If this extends to non- living beings</code>，限定主句论述的时空背景或逻辑前提。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">为了查明这种现象是否也适用于非生物，加州大学圣地亚哥分校的拉勒·奎因 (Laleh Quinn) 和她的同事测试了老鼠是否能够检测到来自机器老鼠的社交信号。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>They housed eight adult rats with two types of robotic rat—one social and one asocial— for four days. The robot rats were quite minimalist, resembling a chunkier version of a computer mouse with wheels to move around and colorful markings.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>They housed eight adult rats with two types of robotic rat—one social and one asocial— for four days. The robot rats were quite minimalist, resembling a chunkier version of a computer mouse with wheels to move around and colorful markings.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>They housed eight adult rats with two types of robotic rat—one social and one asocial— / for four days. / The robot rats were quite minimalist, / resembling a chunkier version of a computer mouse with wheels to move around and colorful markings.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>They housed eight adult rats with two types of robotic rat—one social and one asocial— for four days. The robot rats were quite minimalist, resembling a chunkier version of a computer mouse with wheels to move around and colorful markings.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>They housed eight adult rats with two types of robotic rat—one social and one asocial— / for four days. / The robot rats were quite minimalist, / resembling a chunkier version of a computer mouse with wheels to move around and colorful markings.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">他们饲养了八只成年老鼠和两种类型的机器老鼠——一种是社交型的，一种是非社交型的。 / 四天<br>机器鼠非常简约 / 类似于更厚重的电脑鼠标，带有可移动的轮子和彩色标记</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>They housed eight adult rats with two types of robotic rat—one social and one asocial— for four days. The robot rats were quite minimalist, resembling a chunkier version of a computer mouse with wheels to move around and colorful markings.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>They housed eight adult rats with two types of robotic rat—one social and one asocial— / for four days. / The robot rats were quite minimalist, / resembling a chunkier version of a computer mouse with wheels to move around and colorful markings.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">他们饲养了八只成年老鼠和两种类型的机器老鼠——一种是社交型的，一种是非社交型的。 / 四天<br>机器鼠非常简约 / 类似于更厚重的电脑鼠标，带有可移动的轮子和彩色标记</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-3\">\n<h3>标准译文 · 第2段</h3>\n<p>他们将八只成年老鼠与两种类型的机器老鼠（一种是社交型的，一种是非社交型的）一起饲养了四天。机器鼠非常简约，类似于一个厚重版本的电脑鼠标，带有可以移动的轮子和彩色标记。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>They housed eight adult rats with two types of robotic rat—one social and one asocial— for four days.</p>\n<p><strong>意群断句：</strong><code>They housed eight adult rats with two types of robotic rat—one social and one asocial— / for four days.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">他们饲养了八只成年老鼠和两种类型的机器老鼠——一种是社交型的，一种是非社交型的。 / 四天</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with two types of robotic rat—one social...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">他们将八只成年老鼠与两种类型的机器老鼠（一种是社交型的，一种是非社交型的）一起饲养了四天。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The robot rats were quite minimalist, resembling a chunkier version of a computer mouse with wheels to move around and colorful markings.</p>\n<p><strong>意群断句：</strong><code>The robot rats were quite minimalist, / resembling a chunkier version of a computer mouse with wheels to move around and colorful markings.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">机器鼠非常简约 / 类似于更厚重的电脑鼠标，带有可移动的轮子和彩色标记</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>分词短语作状语/定语</b>：现在分词短语 <code>resembling a chunkier version of a computer m...</code> 作伴随/结果状语或后置修饰，增强语义表现力。</li><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with wheels to move around and colorful ...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">机器鼠非常简约，类似于一个厚重版本的电脑鼠标，带有可以移动的轮子和彩色标记。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>During the experiment, the social robot rat followed the living rats around, played with the same toys, and opened cage doors to let trapped rats escape. Meanwhile, the asocial robot simply moved forwards and backwards and side to side.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>During the experiment, the social robot rat followed the living rats around, played with the same toys, and opened cage doors to let trapped rats escape. Meanwhile, the asocial robot simply moved forwards and backwards and side to side.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>During the experiment, / the social robot rat followed the living rats around, / played with the same toys, / and opened cage doors to let trapped rats escape. / Meanwhile, / the asocial robot simply moved forwards and backwards and side to side.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>During the experiment, the social robot rat followed the living rats around, played with the same toys, and opened cage doors to let trapped rats escape. Meanwhile, the asocial robot simply moved forwards and backwards and side to side.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>During the experiment, / the social robot rat followed the living rats around, / played with the same toys, / and opened cage doors to let trapped rats escape. / Meanwhile, / the asocial robot simply moved forwards and backwards and side to side.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">实验过程中 / 社交机器鼠跟随活生生的老鼠 / 玩同样的玩具 / 并打开笼门让被困的老鼠逃走<br>同时 / 反社会机器人只是简单地向前、向后、左右移动</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>During the experiment, the social robot rat followed the living rats around, played with the same toys, and opened cage doors to let trapped rats escape. Meanwhile, the asocial robot simply moved forwards and backwards and side to side.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>During the experiment, / the social robot rat followed the living rats around, / played with the same toys, / and opened cage doors to let trapped rats escape. / Meanwhile, / the asocial robot simply moved forwards and backwards and side to side.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">实验过程中 / 社交机器鼠跟随活生生的老鼠 / 玩同样的玩具 / 并打开笼门让被困的老鼠逃走<br>同时 / 反社会机器人只是简单地向前、向后、左右移动</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-3\">\n<h3>标准译文 · 第3段</h3>\n<p>实验过程中，社交机器鼠跟随活体老鼠四处走动，玩同样的玩具，并打开笼门让被困的老鼠逃脱。与此同时，非社交机器人只是简单地前后左右移动。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>During the experiment, the social robot rat followed the living rats around, played with the same toys, and opened cage doors to let trapped rats escape.</p>\n<p><strong>意群断句：</strong><code>During the experiment, / the social robot rat followed the living rats around, / played with the same toys, / and opened cage doors to let trapped rats escape.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">实验过程中 / 社交机器鼠跟随活生生的老鼠 / 玩同样的玩具 / 并打开笼门让被困的老鼠逃走</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with the same toys...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">实验过程中，社交机器鼠跟随活体老鼠四处走动，玩同样的玩具，并打开笼门让被困的老鼠逃脱。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Meanwhile, the asocial robot simply moved forwards and backwards and side to side.</p>\n<p><strong>意群断句：</strong><code>Meanwhile, / the asocial robot simply moved forwards and backwards and side to side.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">同时 / 反社会机器人只是简单地向前、向后、左右移动</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">与此同时，非社交机器人只是简单地前后左右移动。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>Next, the researchers trapped the robots in cages and gave the rats the opportunity to release them by pressing a lever. Across 18 trials each, the living rats were 52 per cent more likely on average to set the social robot free than the asocial one. This suggests that the rats perceived the social robot as a genuine social being. They may have bonded more with the social robot because it displayed behaviours like communal exploring and playing. This could lead to the rats better remembering having freed it earlier, and wanting the robot to return the favour when they get trapped, says Quinn.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>Next, the researchers trapped the robots in cages and gave the rats the opportunity to release them by pressing a lever. Across 18 trials each, the living rats were 52 per cent more likely on average to set the social robot free than the asocial one. This suggests that the rats perceived the social robot as a genuine social being. They may have bonded more with the social robot because it displayed behaviours like communal exploring and playing. This could lead to the rats better remembering having freed it earlier, and wanting the robot to return the favour when they get trapped, says Quinn.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>Next, / the researchers trapped the robots in cages and gave the rats the opportunity to release them by pressing a lever. / Across 18 trials each, / the living rats were 52 per cent more likely on average to set the social robot free than the asocial one. / This suggests / that the rats perceived the social robot as a genuine social being. / They may have bonded more with the social robot / because it displayed behaviours like communal exploring and playing. / This could lead to the rats better remembering having freed it earlier, / and wanting the robot to return the favour / when they get trapped, / says Quinn.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>Next, the researchers trapped the robots in cages and gave the rats the opportunity to release them by pressing a lever. Across 18 trials each, the living rats were 52 per cent more likely on average to set the social robot free than the asocial one. This suggests that the rats perceived the social robot as a genuine social being. They may have bonded more with the social robot because it displayed behaviours like communal exploring and playing. This could lead to the rats better remembering having freed it earlier, and wanting the robot to return the favour when they get trapped, says Quinn.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>Next, / the researchers trapped the robots in cages and gave the rats the opportunity to release them by pressing a lever. / Across 18 trials each, / the living rats were 52 per cent more likely on average to set the social robot free than the asocial one. / This suggests / that the rats perceived the social robot as a genuine social being. / They may have bonded more with the social robot / because it displayed behaviours like communal exploring and playing. / This could lead to the rats better remembering having freed it earlier, / and wanting the robot to return the favour / when they get trapped, / says Quinn.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-2\">\n<h3>意群翻译 · 第4段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">下一个 / 研究人员将机器人困在笼子里，并让老鼠有机会通过按下杠杆来释放它们<br>每项试验 18 次 / 活生生的老鼠释放社交机器人的可能性比不合群的老鼠平均高出 52%<br>这表明 / 老鼠将社交机器人视为真正的社交存在<br>他们可能与社交机器人有更多的联系 / 因为它表现出诸如公共探索和玩耍之类的行为<br>这可能会让老鼠更好地记住早些时候释放了它 / 并希望机器人报答 / 当他们被困时 / 奎因说</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>Next, the researchers trapped the robots in cages and gave the rats the opportunity to release them by pressing a lever. Across 18 trials each, the living rats were 52 per cent more likely on average to set the social robot free than the asocial one. This suggests that the rats perceived the social robot as a genuine social being. They may have bonded more with the social robot because it displayed behaviours like communal exploring and playing. This could lead to the rats better remembering having freed it earlier, and wanting the robot to return the favour when they get trapped, says Quinn.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>Next, / the researchers trapped the robots in cages and gave the rats the opportunity to release them by pressing a lever. / Across 18 trials each, / the living rats were 52 per cent more likely on average to set the social robot free than the asocial one. / This suggests / that the rats perceived the social robot as a genuine social being. / They may have bonded more with the social robot / because it displayed behaviours like communal exploring and playing. / This could lead to the rats better remembering having freed it earlier, / and wanting the robot to return the favour / when they get trapped, / says Quinn.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-2\">\n<h3>意群翻译 · 第4段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">下一个 / 研究人员将机器人困在笼子里，并让老鼠有机会通过按下杠杆来释放它们<br>每项试验 18 次 / 活生生的老鼠释放社交机器人的可能性比不合群的老鼠平均高出 52%<br>这表明 / 老鼠将社交机器人视为真正的社交存在<br>他们可能与社交机器人有更多的联系 / 因为它表现出诸如公共探索和玩耍之类的行为<br>这可能会让老鼠更好地记住早些时候释放了它 / 并希望机器人报答 / 当他们被困时 / 奎因说</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-3\">\n<h3>标准译文 · 第4段</h3>\n<p>接下来，研究人员将机器人困在笼子里，让老鼠有机会通过按下杠杆来释放它们。在每项 18 项试验中，活体老鼠释放社交机器人的可能性平均比非社交老鼠高出 52%。这表明老鼠将社交机器人视为真正的社交存在。他们可能与社交机器人有更多的联系，因为它表现出公共探索和玩耍等行为。奎因说，这可能会让老鼠更好地记住早些时候释放了它，并希望机器人在它们被困时回报它。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Next, the researchers trapped the robots in cages and gave the rats the opportunity to release them by pressing a lever.</p>\n<p><strong>意群断句：</strong><code>Next, / the researchers trapped the robots in cages and gave the rats the opportunity to release them by pressing a lever.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">下一个 / 研究人员将机器人困在笼子里，并让老鼠有机会通过按下杠杆来释放它们</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">接下来，研究人员将机器人困在笼子里，让老鼠有机会通过按下杠杆来释放它们。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Across 18 trials each, the living rats were 52 per cent more likely on average to set the social robot free than the asocial one.</p>\n<p><strong>意群断句：</strong><code>Across 18 trials each, / the living rats were 52 per cent more likely on average to set the social robot free than the asocial one.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">每项试验 18 次 / 活生生的老鼠释放社交机器人的可能性比不合群的老鼠平均高出 52%</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">在每项18次试验中，活着的老鼠释放社交机器人的可能性比不社交机器人平均高52%。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>This suggests that the rats perceived the social robot as a genuine social being.</p>\n<p><strong>意群断句：</strong><code>This suggests / that the rats perceived the social robot as a genuine social being.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">这表明 / 老鼠将社交机器人视为真正的社交存在</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>suggests</code>，限定其具体属性与内涵。</li><li style=\"margin-bottom:5px\"><b>宾语从句</b>：谓语动词 <code>suggests</code> 后接 <code>that</code> 引导的宾语从句，充当其核心认知或事实陈述内容。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">这表明老鼠将社交机器人视为真正的社交存在。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>They may have bonded more with the social robot because it displayed behaviours like communal exploring and playing.</p>\n<p><strong>意群断句：</strong><code>They may have bonded more with the social robot / because it displayed behaviours like communal exploring and playing.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">他们可能与社交机器人有更多的联系 / 因为它表现出诸如公共探索和玩耍之类的行为</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with the social robot because it display...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">他们可能与社交机器人有更多的联系，因为它表现出公共探索和玩耍等行为。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句5",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (5/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>This could lead to the rats better remembering having freed it earlier, and wanting the robot to return the favour when they get trapped, says Quinn.</p>\n<p><strong>意群断句：</strong><code>This could lead to the rats better remembering having freed it earlier, / and wanting the robot to return the favour / when they get trapped, / says Quinn.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">这可能会让老鼠更好地记住早些时候释放了它 / 并希望机器人报答 / 当他们被困时 / 奎因说</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间状语从句</b>：由连词 <code>When</code> 引导从句 <code>When they get trapped</code>，限定主句论述的时空背景或逻辑前提。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">奎因说，这可能会让老鼠更好地记住早些时候释放了它，并希望机器人在它们被困时回报它。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 4
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>“Rats have been shown to engage in multiple forms of reciprocal help and cooperation, including what is referred to as direct reciprocity—where a rat will help another rat that has previously helped them,” says Quinn.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>“Rats have been shown to engage in multiple forms of reciprocal help and cooperation, including what is referred to as direct reciprocity—where a rat will help another rat that has previously helped them,” says Quinn.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>“Rats have been shown to engage in multiple forms of reciprocal help and cooperation, / including what is referred to as direct reciprocity—where a rat will help another rat / that has previously helped them,” says Quinn.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>“Rats have been shown to engage in multiple forms of reciprocal help and cooperation, including what is referred to as direct reciprocity—where a rat will help another rat that has previously helped them,” says Quinn.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>“Rats have been shown to engage in multiple forms of reciprocal help and cooperation, / including what is referred to as direct reciprocity—where a rat will help another rat / that has previously helped them,” says Quinn.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-2\">\n<h3>意群翻译 · 第5段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">Rats have been shown to engage in multiple forms of reciprocal help and cooperation / 包括所谓的直接互惠——一只老鼠会帮助另一只老鼠 / 以前曾帮助过他们，”奎因说</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>“Rats have been shown to engage in multiple forms of reciprocal help and cooperation, including what is referred to as direct reciprocity—where a rat will help another rat that has previously helped them,” says Quinn.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>“Rats have been shown to engage in multiple forms of reciprocal help and cooperation, / including what is referred to as direct reciprocity—where a rat will help another rat / that has previously helped them,” says Quinn.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-2\">\n<h3>意群翻译 · 第5段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">Rats have been shown to engage in multiple forms of reciprocal help and cooperation / 包括所谓的直接互惠——一只老鼠会帮助另一只老鼠 / 以前曾帮助过他们，”奎因说</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-3\">\n<h3>标准译文 · 第5段</h3>\n<p>奎因说：“研究表明，老鼠会参与多种形式的互惠帮助和合作，包括所谓的直接互惠——一只老鼠会帮助另一只曾经帮助过它们的老鼠。”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/1)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>“Rats have been shown to engage in multiple forms of reciprocal help and cooperation, including what is referred to as direct reciprocity—where a rat will help another rat that has previously helped them,” says Quinn.</p>\n<p><strong>意群断句：</strong><code>“Rats have been shown to engage in multiple forms of reciprocal help and cooperation, / including what is referred to as direct reciprocity—where a rat will help another rat / that has previously helped them,” says Quinn.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">Rats have been shown to engage in multiple forms of reciprocal help and cooperation / 包括所谓的直接互惠——一只老鼠会帮助另一只老鼠 / 以前曾帮助过他们，”奎因说</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间/伴随状语从句</b>：句首 <code>As direct reciprocity—where a rat will help another rat that has previously helped them</code> 引导时间/伴随状语从句（“正当……之时 / 随着……”），交代主句动作发生的背景与伴随情境。</li><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>rat</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">奎因说：“研究表明，老鼠会参与多种形式的互惠帮助和合作，包括所谓的直接互惠——一只老鼠会帮助另一只曾经帮助过它们的老鼠。”</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>The readiness of the rats to befriend the social robot was surprising given its minimal design. The robot was the same size as a regular rat but resembled a simple plastic box on wheels. “We’d assumed we’d have to give it a moving head and tail, facial features, and put a scent on it to make it smell like a real rat, but that wasn’t necessary,” says Janet Wiles at the University of Queensland in Australia, who helped with the research.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>The readiness of the rats to befriend the social robot was surprising given its minimal design. The robot was the same size as a regular rat but resembled a simple plastic box on wheels. “We’d assumed we’d have to give it a moving head and tail, facial features, and put a scent on it to make it smell like a real rat, but that wasn’t necessary,” says Janet Wiles at the University of Queensland in Australia, who helped with the research.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-1\">\n<h3>意群划分 · 第6段</h3>\n<p>The readiness of the rats to befriend the social robot was surprising given its minimal design. / The robot was the same size as a regular rat but resembled a simple plastic box on wheels. “We’d assumed we’d have to give it a moving head and tail, / facial features, / and put a scent on it to make it smell like a real rat, / but / that wasn’t necessary,” says Janet Wiles at the University of Queensland in Australia, / / who helped with the research.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>The readiness of the rats to befriend the social robot was surprising given its minimal design. The robot was the same size as a regular rat but resembled a simple plastic box on wheels. “We’d assumed we’d have to give it a moving head and tail, facial features, and put a scent on it to make it smell like a real rat, but that wasn’t necessary,” says Janet Wiles at the University of Queensland in Australia, who helped with the research.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-1\">\n<h3>意群划分 · 第6段</h3>\n<p>The readiness of the rats to befriend the social robot was surprising given its minimal design. / The robot was the same size as a regular rat but resembled a simple plastic box on wheels. “We’d assumed we’d have to give it a moving head and tail, / facial features, / and put a scent on it to make it smell like a real rat, / but / that wasn’t necessary,” says Janet Wiles at the University of Queensland in Australia, / / who helped with the research.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-2\">\n<h3>意群翻译 · 第6段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">考虑到社交机器人的简约设计，老鼠与它成为朋友的意愿令人惊讶<br>该机器人与普通老鼠大小相同，但类似于带轮子的简单塑料盒<br>We’d assumed we’d have to give it a moving head and tail / 面部特征 / 然后在上面涂上香味，让它闻起来像真正的老鼠 / 但 / 澳大利亚昆士兰大学的珍妮特·怀尔斯 (Janet Wiles) 表示：“这是没有必要的。” / 谁帮助了这项研究</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>The readiness of the rats to befriend the social robot was surprising given its minimal design. The robot was the same size as a regular rat but resembled a simple plastic box on wheels. “We’d assumed we’d have to give it a moving head and tail, facial features, and put a scent on it to make it smell like a real rat, but that wasn’t necessary,” says Janet Wiles at the University of Queensland in Australia, who helped with the research.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-1\">\n<h3>意群划分 · 第6段</h3>\n<p>The readiness of the rats to befriend the social robot was surprising given its minimal design. / The robot was the same size as a regular rat but resembled a simple plastic box on wheels. “We’d assumed we’d have to give it a moving head and tail, / facial features, / and put a scent on it to make it smell like a real rat, / but / that wasn’t necessary,” says Janet Wiles at the University of Queensland in Australia, / / who helped with the research.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-2\">\n<h3>意群翻译 · 第6段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">考虑到社交机器人的简约设计，老鼠与它成为朋友的意愿令人惊讶<br>该机器人与普通老鼠大小相同，但类似于带轮子的简单塑料盒<br>We’d assumed we’d have to give it a moving head and tail / 面部特征 / 然后在上面涂上香味，让它闻起来像真正的老鼠 / 但 / 澳大利亚昆士兰大学的珍妮特·怀尔斯 (Janet Wiles) 表示：“这是没有必要的。” / 谁帮助了这项研究</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-3\">\n<h3>标准译文 · 第6段</h3>\n<p>考虑到社交机器人的简约设计，老鼠愿意与社交机器人成为朋友的意愿令人惊讶。该机器人与普通老鼠大小相同，但类似于一个带轮子的简单塑料盒子。帮助这项研究的澳大利亚昆士兰大学的珍妮特·威尔斯（Janet Wiles）说：“我们原以为必须给它一个会动的头和尾、面部特征，并在上面放上气味，让它闻起来像一只真正的老鼠，但那是没有必要的。”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The readiness of the rats to befriend the social robot was surprising given its minimal design.</p>\n<p><strong>意群断句：</strong><code>The readiness of the rats to befriend the social robot was surprising given its minimal design.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">考虑到社交机器人的简约设计，老鼠与它成为朋友的意愿令人惊讶</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">考虑到社交机器人的简约设计，老鼠愿意与社交机器人成为朋友的意愿令人惊讶。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The robot was the same size as a regular rat but resembled a simple plastic box on wheels.</p>\n<p><strong>意群断句：</strong><code>The robot was the same size as a regular rat but resembled a simple plastic box on wheels.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">该机器人与普通老鼠大小相同，但类似于带轮子的简单塑料盒</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">这个机器人和普通老鼠一样大，但看起来像一个带轮子的简单塑料盒子。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>“We’d assumed we’d have to give it a moving head and tail, facial features, and put a scent on it to make it smell like a real rat, but that wasn’t necessary,” says Janet Wiles at the University of Queensland in Australia, who helped with the research.</p>\n<p><strong>意群断句：</strong><code>“We’d assumed we’d have to give it a moving head and tail, / facial features, / and put a scent on it to make it smell like a real rat, / but / that wasn’t necessary,” says Janet Wiles at the University of Queensland in Australia, / / who helped with the research.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">We’d assumed we’d have to give it a moving head and tail / 面部特征 / 然后在上面涂上香味，让它闻起来像真正的老鼠 / 但 / 澳大利亚昆士兰大学的珍妮特·怀尔斯 (Janet Wiles) 表示：“这是没有必要的。” / 谁帮助了这项研究</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>非限制性定语从句</b>：<code>,who helped with the research....</code> 引导非限制性定语从句，对前文先行词进行补充说明与信息拓展。</li><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with the research....</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">帮助这项研究的澳大利亚昆士兰大学的珍妮特·威尔斯（Janet Wiles）说：“我们原以为必须给它一个会动的头和尾、面部特征，并在上面喷上气味，让它闻起来像一只真正的老鼠，但那是没有必要的。”</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-7-0\">\n<h3>完整原文 · 第7段</h3>\n<p>The finding shows how sensitive rats are to social cues, even when they come from basic robots. Similarly, children tend to treat robots as if they are fellow beings, even when they display only simple social signals. “We humans seem to be fascinated by robots, and it turns out other animals are too,” says Wiles.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-7-0\">\n<h3>完整原文 · 第7段</h3>\n<p>The finding shows how sensitive rats are to social cues, even when they come from basic robots. Similarly, children tend to treat robots as if they are fellow beings, even when they display only simple social signals. “We humans seem to be fascinated by robots, and it turns out other animals are too,” says Wiles.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-1\">\n<h3>意群划分 · 第7段</h3>\n<p>The finding shows how sensitive rats are to social cues, / even / when they come from basic robots. / Similarly, / children tend to treat robots as / if they are fellow beings, / even / when they display only simple social signals. “We humans seem to be fascinated by robots, / and it turns out other animals are too,” says Wiles.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-7-0\">\n<h3>完整原文 · 第7段</h3>\n<p>The finding shows how sensitive rats are to social cues, even when they come from basic robots. Similarly, children tend to treat robots as if they are fellow beings, even when they display only simple social signals. “We humans seem to be fascinated by robots, and it turns out other animals are too,” says Wiles.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-1\">\n<h3>意群划分 · 第7段</h3>\n<p>The finding shows how sensitive rats are to social cues, / even / when they come from basic robots. / Similarly, / children tend to treat robots as / if they are fellow beings, / even / when they display only simple social signals. “We humans seem to be fascinated by robots, / and it turns out other animals are too,” says Wiles.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-2\">\n<h3>意群翻译 · 第7段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">这一发现表明老鼠对社交暗示有多敏感 / 甚至 / 当它们来自基本机器人时<br>相似地 / 孩子们倾向于将机器人视为 / 如果他们是同胞 / 甚至 / 当他们只显示简单的社交信号时<br>We humans seem to be fascinated by robots / 事实证明其他动物也是如此，”威尔斯说</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-7-0\">\n<h3>完整原文 · 第7段</h3>\n<p>The finding shows how sensitive rats are to social cues, even when they come from basic robots. Similarly, children tend to treat robots as if they are fellow beings, even when they display only simple social signals. “We humans seem to be fascinated by robots, and it turns out other animals are too,” says Wiles.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-1\">\n<h3>意群划分 · 第7段</h3>\n<p>The finding shows how sensitive rats are to social cues, / even / when they come from basic robots. / Similarly, / children tend to treat robots as / if they are fellow beings, / even / when they display only simple social signals. “We humans seem to be fascinated by robots, / and it turns out other animals are too,” says Wiles.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-2\">\n<h3>意群翻译 · 第7段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">这一发现表明老鼠对社交暗示有多敏感 / 甚至 / 当它们来自基本机器人时<br>相似地 / 孩子们倾向于将机器人视为 / 如果他们是同胞 / 甚至 / 当他们只显示简单的社交信号时<br>We humans seem to be fascinated by robots / 事实证明其他动物也是如此，”威尔斯说</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-7-3\">\n<h3>标准译文 · 第7段</h3>\n<p>这一发现表明，老鼠对社交线索非常敏感，即使这些线索来自基本的机器人。同样，孩子们倾向于将机器人视为同胞，即使它们只显示简单的社交信号。 “我们人类似乎对机器人着迷，事实证明其他动物也是如此，”怀尔斯说。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The finding shows how sensitive rats are to social cues, even when they come from basic robots.</p>\n<p><strong>意群断句：</strong><code>The finding shows how sensitive rats are to social cues, / even / when they come from basic robots.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">这一发现表明老鼠对社交暗示有多敏感 / 甚至 / 当它们来自基本机器人时</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">这一发现表明，老鼠对社交线索非常敏感，即使这些线索来自基本的机器人。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Similarly, children tend to treat robots as if they are fellow beings, even when they display only simple social signals.</p>\n<p><strong>意群断句：</strong><code>Similarly, / children tend to treat robots as / if they are fellow beings, / even / when they display only simple social signals.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">相似地 / 孩子们倾向于将机器人视为 / 如果他们是同胞 / 甚至 / 当他们只显示简单的社交信号时</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间/伴随状语从句</b>：句首 <code>As if they are fellow beings</code> 引导时间/伴随状语从句（“正当……之时 / 随着……”），交代主句动作发生的背景与伴随情境。</li><li style=\"margin-bottom:5px\"><b>条件状语从句</b>：由连词 <code>If</code> 引导从句 <code>If they are fellow beings</code>，限定主句论述的时空背景或逻辑前提。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">同样，孩子们倾向于将机器人视为同胞，即使它们只显示简单的社交信号。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第7段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>“We humans seem to be fascinated by robots, and it turns out other animals are too,” says Wiles.</p>\n<p><strong>意群断句：</strong><code>“We humans seem to be fascinated by robots, / and it turns out other animals are too,” says Wiles.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">We humans seem to be fascinated by robots / 事实证明其他动物也是如此，”威尔斯说</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">“我们人类似乎对机器人着迷，事实证明其他动物也是如此，”怀尔斯说。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 6,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "3.一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，正确项如何进行同义改写，错误项如何设置陷阱；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
+          "meta": {
+            "section": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "21题 · 题干、题型与核心出处",
+          "html": "<p><strong>21. Quinn and her colleagues conducted a test to see if rats can _____.</strong></p>\n<p>（奎因和她的同事进行了一项测试，看看老鼠是否可以 _____。）</p>\n<p><strong>题型判定</strong>：事实细节题 ｜ <strong>定位出处</strong>：Paragraph 1</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "21"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. pick up social signals from non-living rats",
+          "html": "<p><strong>选项 A</strong>：<code>pick up social signals from non-living rats</code></p>\n<p><strong>中文翻译</strong>：从无生命的老鼠那里获取社交信号</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. distinguish a friendly rat from a hostile one",
+          "html": "<p><strong>选项 B</strong>：<code>distinguish a friendly rat from a hostile one</code></p>\n<p><strong>中文翻译</strong>：区分友好的老鼠和敌对的老鼠</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. attain sociable traits through special training",
+          "html": "<p><strong>选项 C</strong>：<code>attain sociable traits through special training</code></p>\n<p><strong>中文翻译</strong>：通过特殊训练获得社交特质</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. send out warning messages to their fellows",
+          "html": "<p><strong>选项 D</strong>：<code>send out warning messages to their fellows</code></p>\n<p><strong>中文翻译</strong>：向他们的同伴发出警告信息</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "22题 · 题干、题型与核心出处",
+          "html": "<p><strong>22. What did the asocial robot do during the experiment?</strong></p>\n<p>（反社会机器人在实验过程中做了什么？）</p>\n<p><strong>题型判定</strong>：因果推断题 ｜ <strong>定位出处</strong>：Paragraph 2</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "22"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. It followed the social robot.",
+          "html": "<p><strong>选项 A</strong>：<code>It followed the social robot.</code></p>\n<p><strong>中文翻译</strong>：它跟随社交机器人。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. It played with some toys.",
+          "html": "<p><strong>选项 B</strong>：<code>It played with some toys.</code></p>\n<p><strong>中文翻译</strong>：它玩着一些玩具。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. It set the trapped rats free.",
+          "html": "<p><strong>选项 C</strong>：<code>It set the trapped rats free.</code></p>\n<p><strong>中文翻译</strong>：它把被困的老鼠释放了。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. It moved around alone.",
+          "html": "<p><strong>选项 D</strong>：<code>It moved around alone.</code></p>\n<p><strong>中文翻译</strong>：它独自四处走动。</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "23题 · 题干、题型与核心出处",
+          "html": "<p><strong>23. According to Quinn, the rats released the social robot because they _____.</strong></p>\n<p>（根据奎因的说法，老鼠释放社交机器人是因为它们 _____。）</p>\n<p><strong>题型判定</strong>：段落推理题 ｜ <strong>定位出处</strong>：Paragraph 3</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "23"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. tried to practice a means of escape",
+          "html": "<p><strong>选项 A</strong>：<code>tried to practice a means of escape</code></p>\n<p><strong>中文翻译</strong>：尝试练习逃跑的方法</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. expected it to do the same in return",
+          "html": "<p><strong>选项 B</strong>：<code>expected it to do the same in return</code></p>\n<p><strong>中文翻译</strong>：期望它能做同样的回报</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. wanted to display their intelligence",
+          "html": "<p><strong>选项 C</strong>：<code>wanted to display their intelligence</code></p>\n<p><strong>中文翻译</strong>：想展示自己的聪明才智</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. considered that an interesting game",
+          "html": "<p><strong>选项 D</strong>：<code>considered that an interesting game</code></p>\n<p><strong>中文翻译</strong>：认为是一个有趣的游戏</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "24题 · 题干、题型与核心出处",
+          "html": "<p><strong>24. Janet Wiles notes that rats _____.</strong></p>\n<p>（珍妮特·怀尔斯指出老鼠_____。）</p>\n<p><strong>题型判定</strong>：词义/例证题 ｜ <strong>定位出处</strong>：Paragraph 4</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "24"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. can remember other rats’ facial features",
+          "html": "<p><strong>选项 A</strong>：<code>can remember other rats’ facial features</code></p>\n<p><strong>中文翻译</strong>：能记住其他老鼠的面部特征</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. differentiate smells better than sizes",
+          "html": "<p><strong>选项 B</strong>：<code>differentiate smells better than sizes</code></p>\n<p><strong>中文翻译</strong>：区分气味比区分大小更有效</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. respond more to actions than to looks",
+          "html": "<p><strong>选项 C</strong>：<code>respond more to actions than to looks</code></p>\n<p><strong>中文翻译</strong>：对行动的反应多于对外表的反应</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. can be scared by a plastic box on wheels",
+          "html": "<p><strong>选项 D</strong>：<code>can be scared by a plastic box on wheels</code></p>\n<p><strong>中文翻译</strong>：可能会被带轮子的塑料盒吓到</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "25题 · 题干、题型与核心出处",
+          "html": "<p><strong>25. It can be learned from the text that rats _____.</strong></p>\n<p>（从文中可知，老鼠_____。）</p>\n<p><strong>题型判定</strong>：全文主旨题 ｜ <strong>定位出处</strong>：Paragraph 5</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "25"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. appear to be adaptable to new surroundings",
+          "html": "<p><strong>选项 A</strong>：<code>appear to be adaptable to new surroundings</code></p>\n<p><strong>中文翻译</strong>：似乎能适应新环境</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. are more socially active than other animals",
+          "html": "<p><strong>选项 B</strong>：<code>are more socially active than other animals</code></p>\n<p><strong>中文翻译</strong>：比其他动物更活跃</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. behave differently from children in socializing",
+          "html": "<p><strong>选项 C</strong>：<code>behave differently from children in socializing</code></p>\n<p><strong>中文翻译</strong>：社交行为与孩子不同</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. are more sensitive to social cues than expected",
+          "html": "<p><strong>选项 D</strong>：<code>are more sensitive to social cues than expected</code></p>\n<p><strong>中文翻译</strong>：对社交线索比预期更敏感</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "D"
+          }
+        },
+        {
+          "section": 4,
+          "title": "4.一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>在新题型中，考查的本质是理解文章上下文的逻辑承接能力。我们将本篇真题结构改编为新题型迁移训练，训练对段落主旨与篇章逻辑的提炼概括能力。</p>\n<p><strong>篇章核心逻辑链条</strong>：</p>\n<p>引出核心论题 → 展开多角度实证与事实分析 → 剖析深层体制/社会矛盾 → 提出战略性长效应对策略。</p>",
+          "meta": {
+            "section": 4
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 1",
+          "html": "<p><strong>【考查段落 1】</strong></p>\n<p><code>Rats and other animals need to be highly attuned to social signals from others so they can identify friends to cooperate...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 1 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 0
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 2",
+          "html": "<p><strong>【考查段落 2】</strong></p>\n<p><code>They housed eight adult rats with two types of robotic rat—one social and one asocial— for four days. The robot rats wer...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 2 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 1
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 3",
+          "html": "<p><strong>【考查段落 3】</strong></p>\n<p><code>During the experiment, the social robot rat followed the living rats around, played with the same toys, and opened cage ...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 3 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 2
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 4",
+          "html": "<p><strong>【考查段落 4】</strong></p>\n<p><code>Next, the researchers trapped the robots in cages and gave the rats the opportunity to release them by pressing a lever....</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 4 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 3
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 5",
+          "html": "<p><strong>【考查段落 5】</strong></p>\n<p><code>“Rats have been shown to engage in multiple forms of reciprocal help and cooperation, including what is referred to as d...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 5 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 4
+          }
+        },
+        {
+          "section": 5,
+          "title": "1. 大作文宏观论述与主题词汇积累",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>可积累的主题表达</th><th>中文翻译</th><th>所属类别</th><th>使用层级</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>promoting institutional adaptability</strong></td><td><strong>增强制度适应性与韧性</strong></td><td><strong>社会/经济发展</strong></td><td><strong>宏观论点</strong></td></tr>\n<tr><td>harmonizing commercial viability and public welfare</td><td>协调商业可行性与公众福祉</td><td>综合治理</td><td>论证支撑</td></tr>\n<tr><td>fostering sustainable long-term development</td><td>促进可持续长远发展</td><td>未来展望</td><td>结论升华</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        },
+        {
+          "section": 5,
+          "title": "2. 大作文图表/观点题通用满分句型模板",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>适用题型</th><th>考试时可复用的形式</th><th>中文翻译</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>图表/观点题</strong></td><td><strong>A is doing B in an effort to do C.</strong></td><td><strong>A正在采取行动B，目的是实现目标C。</strong></td></tr>\n<tr><td>原因剖析段</td><td>The underlying reason behind this phenomenon is that...</td><td>该现象背后的深层原因在于……</td></tr>\n<tr><td>建议对策段</td><td>Only through collaborative governance can we ensure enduring progress.</td><td>唯有通过协同治理，方能确保长久的发展与繁荣。</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        }
+      ]
+    }
+  },
+  "text2": {
+    "id": 2,
+    "qRange": "26-30",
+    "title": "Text 2",
+    "paragraphs": [
+      "It is true that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, and since the mid-1970s, CEO pay for large publicly traded American corporations has, by varying estimates, gone up by about 500 %. The typical CEO of a top American corporation now makes about $18.9 million a year.",
+      "The best model for understanding the growth of CEO pay is that of limited CEO talent in a world where business opportunities for the top firms are growing rapidly. The efforts of America’s highest-earning 1 % have been one of the more dynamic elements of the global economy. It’s not popular to say, but one reason their pay has gone up so much is that CEOs really have upped their game relative to many other workers in the U.S. economy.",
+      "Today’s CEO, at least for major American firms, must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade in them. They also need better public relations skills than their predecessors, as the costs of even a minor slipup can be significant. Then there’s the fact that large American companies are much more globalized than ever before, with supply chains spread across a larger number of countries. To lead in that system requires knowledge that is fairly mind-boggling. Plus, virtually all major American companies are becoming tech companies, often with their own research and development. And beyond this, major CEOs still have to do all the day-to-day work they have always done.",
+      "The common idea that high CEO pay is mainly about ripping people off doesn’t explain history very well. By most measures, corporate governance has become a lot tighter and more rigorous since the 1970s. Yet it is principally during this period of stronger governance that CEO pay has been high and rising. That suggests it is in the broader corporate interest to recruit top candidates for increasingly tough jobs.",
+      "Furthermore, the highest CEO salaries are paid to outside candidates, not to the cozy insider picks, another sign that high CEO pay is not some kind of depredation at the expense of the rest of the company. And the stock market reacts positively when companies tie CEO pay to, say, stock prices, a sign that those practices build up corporate value not just for the CEO."
+    ],
+    "questions": [
+      {
+        "qid": 26,
+        "stem": "Which of the following has contributed to CEO pay rise?",
+        "stem_cn": "以下哪项因素促成了 CEO 的加薪？",
+        "type": "事实细节题",
+        "locate": "Paragraph 1",
+        "options": [
+          {
+            "key": "A",
+            "text": "Close cooperation among leading economies.",
+            "text_cn": "主要经济体之间合作密切。",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "Increased business opportunities for top firms.",
+            "text_cn": "为顶尖企业增加了商机。",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "C",
+            "text": "The general pay rise with a better economy.",
+            "text_cn": "随着经济的好转，工资普遍上涨。",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "The growth in the number of corporations.",
+            "text_cn": "企业数量的增长。",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 27,
+        "stem": "Compared with their predecessors, today’s CEOs are required to _____.",
+        "stem_cn": "与他们的前任相比，今天的首席执行官需要 _____。",
+        "type": "因果推断题",
+        "locate": "Paragraph 2",
+        "options": [
+          {
+            "key": "A",
+            "text": "establish closer ties with tech companies",
+            "text_cn": "与科技公司建立更紧密的联系",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "finance more research and development",
+            "text_cn": "资助更多研究和开发",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "operate more globalized companies",
+            "text_cn": "经营更多全球化的公司",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "D",
+            "text": "foster a stronger sense of teamwork",
+            "text_cn": "培养更强的团队合作意识",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 28,
+        "stem": "CEO pay has been rising since the 1970s despite _____.",
+        "stem_cn": "自 20 世纪 70 年代以来，首席执行官的薪酬一直在上涨，尽管_____。",
+        "type": "段落推理题",
+        "locate": "Paragraph 3",
+        "options": [
+          {
+            "key": "A",
+            "text": "continual internal opposition",
+            "text_cn": "内部持续反对",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "conservative business strategies",
+            "text_cn": "保守的经营策略",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "strict corporate governance",
+            "text_cn": "严格的公司治理",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "D",
+            "text": "repeated government warnings",
+            "text_cn": "政府多次警告",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 29,
+        "stem": "High CEO pay can be justified by the fact that it helps _____.",
+        "stem_cn": "首席执行官的高薪可以通过以下事实来证明：它有助于_____。",
+        "type": "词义/例证题",
+        "locate": "Paragraph 4",
+        "options": [
+          {
+            "key": "A",
+            "text": "increase corporate value",
+            "text_cn": "增加企业价值",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "B",
+            "text": "confirm the status of CEOs",
+            "text_cn": "确认CEO的地位",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "boost the efficiency of CEOs",
+            "text_cn": "提高CEO的效率",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "motivate inside candidates",
+            "text_cn": "激励内部候选人",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 30,
+        "stem": "The most suitable title for this text would be _____.",
+        "stem_cn": "这篇文章最合适的标题是_____。",
+        "type": "全文主旨题",
+        "locate": "Paragraph 5",
+        "options": [
+          {
+            "key": "A",
+            "text": "CEOs Are Not Overpaid",
+            "text_cn": "首席执行官的薪酬并不过分",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "B",
+            "text": "CEO Pay: Past and Present",
+            "text_cn": "首席执行官薪酬：过去和现在",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "CEO Traits: Not Easy to Define",
+            "text_cn": "CEO特质：不容易定义",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "CEOs’ Challenges of Toda",
+            "text_cn": "户田CEO面临的挑战",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      }
+    ],
+    "practice": {
+      "steps": [
+        {
+          "section": "阅前须知",
+          "raw": "# 0.阅前须知\n\n阅前声明，本教程对英语一英语二均适用。\n\n本教程主要解决考研英语阅读备考中的三个结构性问题：\n\n1. **考研英语骗局一**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持认识文章中的所有细节，一个不漏，咱们不可能完全认识文章中的每一个单词，带着不认识的地方读文章做题才是真正的学生视角。即使是有部分超纲生词不认识，从段落和文章主旨、作者态度等宏观阅读文章内容本身分析的层面，也是不影响做全对的；\n\n2. **考研英语骗局二**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接边读边信达雅地翻译出文章，读完一遍只能在脑海里留下大致信息，并且很快遗忘。正确的方式是先粗后细，放弃信达雅的机械翻译，粗读先理解文章大致出现了哪些东西，然后细读采用意群法这种手段实现，即可临危不乱；\n\n3. **考研英语骗局三**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接用某种神技确定某个一定正确的答案。二选一选不出来是个非常正常的现象。用某种神技去秒杀一个文科单选问题违背了逻辑学常识，即孤证不立。通过宏观认知与多判据交叉验证的方式解决，是所有文科单选题的通法。",
+          "html": "<h1>0.阅前须知</h1>\n<p>阅前声明，本教程对英语一英语二均适用。</p>\n<p>本教程主要解决考研英语阅读备考中的三个结构性问题：</p>\n<ol>\n<li><p><strong>考研英语骗局一</strong>：拒绝上帝视角生词全懂，带着超纲生词读宏观主旨同样能做全对；</p></li>\n<li><p><strong>考研英语骗局二</strong>：放弃考场即时信达雅机械翻译，采用意群粗读抓取核心信息；</p></li>\n<li><p><strong>考研英语骗局三</strong>：拒绝所谓单一神技秒杀，采用定位比对与写作视角交叉验证。</p></li>\n</ol>\n<p>大家把考研英语阅读当成真阅读，才能发现真正正确的备考方式。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "# 1. 先读题干\n\n首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰咱们粗读对文章的理解。看题干对考查重点有个大致印象，并且因为题文同序的原则，也能帮助我们提前获取部分文章的逻辑脉络。",
+          "html": "<h1>1. 先读题干</h1><p>首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰粗读理解。看题干对考查重点建立大致印象，借助题文同序原则提前获取文章逻辑脉络。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 26题题干\n\n**Which of the following has contributed to CEO pay rise?**\n\n> 以下哪项因素促成了 CEO 的加薪？\n\n题型：**事实细节题**。\n\n定位预判：**Paragraph 1**\n\n---",
+          "html": "<h2>26题题干</h2><p><strong>Which of the following has contributed to CEO pay rise?</strong></p><blockquote><p>以下哪项因素促成了 CEO 的加薪？</p></blockquote><p>题型：<strong>事实细节题</strong>。</p><p>定位预判：<strong>Paragraph 1</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "26"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 27题题干\n\n**Compared with their predecessors, today’s CEOs are required to _____.**\n\n> 与他们的前任相比，今天的首席执行官需要 _____。\n\n题型：**因果推断题**。\n\n定位预判：**Paragraph 2**\n\n---",
+          "html": "<h2>27题题干</h2><p><strong>Compared with their predecessors, today’s CEOs are required to _____.</strong></p><blockquote><p>与他们的前任相比，今天的首席执行官需要 _____。</p></blockquote><p>题型：<strong>因果推断题</strong>。</p><p>定位预判：<strong>Paragraph 2</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "27"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 28题题干\n\n**CEO pay has been rising since the 1970s despite _____.**\n\n> 自 20 世纪 70 年代以来，首席执行官的薪酬一直在上涨，尽管_____。\n\n题型：**段落推理题**。\n\n定位预判：**Paragraph 3**\n\n---",
+          "html": "<h2>28题题干</h2><p><strong>CEO pay has been rising since the 1970s despite _____.</strong></p><blockquote><p>自 20 世纪 70 年代以来，首席执行官的薪酬一直在上涨，尽管_____。</p></blockquote><p>题型：<strong>段落推理题</strong>。</p><p>定位预判：<strong>Paragraph 3</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "28"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 29题题干\n\n**High CEO pay can be justified by the fact that it helps _____.**\n\n> 首席执行官的高薪可以通过以下事实来证明：它有助于_____。\n\n题型：**词义/例证题**。\n\n定位预判：**Paragraph 4**\n\n---",
+          "html": "<h2>29题题干</h2><p><strong>High CEO pay can be justified by the fact that it helps _____.</strong></p><blockquote><p>首席执行官的高薪可以通过以下事实来证明：它有助于_____。</p></blockquote><p>题型：<strong>词义/例证题</strong>。</p><p>定位预判：<strong>Paragraph 4</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "29"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 30题题干\n\n**The most suitable title for this text would be _____.**\n\n> 这篇文章最合适的标题是_____。\n\n题型：**全文主旨题**。\n\n定位预判：**Paragraph 5**\n\n---",
+          "html": "<h2>30题题干</h2><p><strong>The most suitable title for this text would be _____.</strong></p><blockquote><p>这篇文章最合适的标题是_____。</p></blockquote><p>题型：<strong>全文主旨题</strong>。</p><p>定位预判：<strong>Paragraph 5</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "30"
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "# 2. 读文章过程\n\n看完题干后，第一步要粗读一遍文章。根据自身水平扫一遍文章，开头结尾慢一些，注重首尾句，作者举的例子可以略读。关注逻辑词（however, but）、态度评价词、核心动作词与重复主题词。\n\n| 类型 | 关注原因 | 本文关注重点 |\n| --- | --- | --- |\n| 逻辑词 | 作者观点或行文转向 | however, but, nevertheless, yet, although |\n| 态度词 | 作者情感倾向与立场 | critical, positive, resilient, concern, significant |\n| 核心动作 | 论证中主体行为 | argue, demonstrate, implement, undermine |\n| 重复主题词 | 贯穿全篇的核心讨论对象 | 本文核心讨论对象与同义衍生表达 |",
+          "html": "<h1>2. 读文章过程</h1><p>扫读全文，注重段落首尾句，识别论点与论据。关注核心逻辑转折词与态度评价词。</p>\n<table class=\"table-wrap\"><thead><tr><th>类型</th><th>关注原因</th><th>本文关注重点</th></tr></thead>\n<tbody>\n<tr><td>逻辑词</td><td>作者观点或行文转向</td><td>however, but, nevertheless, yet</td></tr>\n<tr><td>态度词</td><td>作者情感倾向与立场</td><td>critical, positive, concern, significant</td></tr>\n<tr><td>核心动作</td><td>论证中主体行为</td><td>argue, demonstrate, implement, undermine</td></tr>\n<tr><td>重复主题词</td><td>贯穿全篇的核心讨论对象</td><td>本文核心论题与衍生词</td></tr>\n</tbody></table>",
+          "meta": {}
+        },
+        {
+          "section": "读文章",
+          "raw": "It is true that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, and since the mid-1970s, CEO pay for large publicly traded American [corporations] has, by varying [estimates], gone up by about 500 %. The typical CEO of a top American corporation now makes about $18.9 million a year.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>It is true that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, and since the mid-1970s, CEO pay for large publicly traded American <span class=\"mask\">[corporations]</span> has, by varying <span class=\"mask\">[estimates]</span>, gone up by about 500 %. The typical CEO of a top American corporation now makes about $18.9 million a year.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "It is true / that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, / and / since the mid-1970s, / CEO pay for large publicly traded American [corporations] has, / by varying [estimates], / gone up by about 500 %. / The typical CEO of a top American corporation now makes about $18.9 million a year.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>It is true / that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, / and / since the mid-1970s, / CEO pay for large publicly traded American <span class=\"mask\">[corporations]</span> has, / by varying <span class=\"mask\">[estimates]</span>, / gone up by about 500 %. / The typical CEO of a top American corporation now makes about $18.9 million a year.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第1段意群顺译】确实，CEO 的薪酬有所上涨——高层管理人员的平均薪酬可能是普通员工的 300 倍，而且自 20 世纪 70 年代中期以来，美国大型上市公司的 CEO 薪酬（根据不同的估计）上涨了约 500%。美国顶级公司首席执行官的典型年薪约为 1890 万美元。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>【第1段意群顺译】确实，CEO 的薪酬有所上涨——高层管理人员的平均薪酬可能是普通员工的 300 倍，而且自 20 世纪 70 年代中期以来，美国大型上市公司的 CEO 薪酬（根据不同的估计）上涨了约 500%。美国顶级公司首席执行官的典型年薪约为 1890 万美元。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The best model for [understanding] the growth of CEO pay is that of limited CEO talent in a world where business [opportunities] for the top firms are growing rapidly. The efforts of America’s [highest-earning] 1 % have been one of the more dynamic elements of the global economy. It’s not popular to say, but one reason their pay has gone up so much is that CEOs really have upped their game relative to many other workers in the U.S. economy.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The best model for <span class=\"mask\">[understanding]</span> the growth of CEO pay is that of limited CEO talent in a world where business <span class=\"mask\">[opportunities]</span> for the top firms are growing rapidly. The efforts of America’s <span class=\"mask\">[highest-earning]</span> 1 % have been one of the more dynamic elements of the global economy. It’s not popular to say, but one reason their pay has gone up so much is that CEOs really have upped their game relative to many other workers in the U.S. economy.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The best model for [understanding] the growth of CEO pay is / that of limited CEO talent in a world / where business [opportunities] for the top firms are growing rapidly. / The efforts of America’s [highest-earning] 1 % have been one of the more dynamic elements of the global economy. / It’s not popular to say, / but one reason their pay has gone up so much is / that CEOs really have upped their game relative to many other workers in the U.S. economy.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The best model for <span class=\"mask\">[understanding]</span> the growth of CEO pay is / that of limited CEO talent in a world / where business <span class=\"mask\">[opportunities]</span> for the top firms are growing rapidly. / The efforts of America’s <span class=\"mask\">[highest-earning]</span> 1 % have been one of the more dynamic elements of the global economy. / It’s not popular to say, / but one reason their pay has gone up so much is / that CEOs really have upped their game relative to many other workers in the U.S. economy.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第2段意群顺译】理解首席执行官薪酬增长的最佳模型是在顶级公司的商业机会快速增长的世界中有限的首席执行官人才。美国收入最高的 1% 人群的努力已成为全球经济中最具活力的因素之一。这种说法并不流行，但他们的薪酬上涨如此之多的原因之一是，相对于美国经济中的许多其他工人，首席执行官确实提高了自己的水平。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第2段意群顺译】理解首席执行官薪酬增长的最佳模型是在顶级公司的商业机会快速增长的世界中有限的首席执行官人才。美国收入最高的 1% 人群的努力已成为全球经济中最具活力的因素之一。这种说法并不流行，但他们的薪酬上涨如此之多的原因之一是，相对于美国经济中的许多其他工人，首席执行官确实提高了自己的水平。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Today’s CEO, at least for major American firms, must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade in them. They also need better public relations skills than their [predecessors], as the costs of even a minor slipup can be significant. Then there’s the fact that large American [companies] are much more globalized than ever before, with supply chains spread across a larger number of countries. To lead in that system requires knowledge that is fairly [mind-boggling]. Plus, virtually all major American [companies] are becoming tech [companies], often with their own research and development. And beyond this, major CEOs still have to do all the day-to-day work they have always done.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Today’s CEO, at least for major American firms, must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade in them. They also need better public relations skills than their <span class=\"mask\">[predecessors]</span>, as the costs of even a minor slipup can be significant. Then there’s the fact that large American <span class=\"mask\">[companies]</span> are much more globalized than ever before, with supply chains spread across a larger number of countries. To lead in that system requires knowledge that is fairly <span class=\"mask\">[mind-boggling]</span>. Plus, virtually all major American <span class=\"mask\">[companies]</span> are becoming tech <span class=\"mask\">[companies]</span>, often with their own research and development. And beyond this, major CEOs still have to do all the day-to-day work they have always done.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Today’s CEO, / at least for major American firms, / must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade in them. / They also need better public relations skills than their [predecessors], / as the costs of even a minor slipup can be significant. / Then there’s the fact / that large American [companies] are much more globalized than ever before, / with supply chains spread across a larger number of countries. / To lead in / that system requires knowledge / that is fairly [mind-boggling]. / Plus, / virtually all major American [companies] are becoming tech [companies], / often with their own research and development. / And beyond this, / major CEOs still have to do all the day-to-day work they have always done.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Today’s CEO, / at least for major American firms, / must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade in them. / They also need better public relations skills than their <span class=\"mask\">[predecessors]</span>, / as the costs of even a minor slipup can be significant. / Then there’s the fact / that large American <span class=\"mask\">[companies]</span> are much more globalized than ever before, / with supply chains spread across a larger number of countries. / To lead in / that system requires knowledge / that is fairly <span class=\"mask\">[mind-boggling]</span>. / Plus, / virtually all major American <span class=\"mask\">[companies]</span> are becoming tech <span class=\"mask\">[companies]</span>, / often with their own research and development. / And beyond this, / major CEOs still have to do all the day-to-day work they have always done.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第3段意群顺译】今天的首席执行官，至少对于美国大公司来说，必须拥有更多的技能，而不仅仅是能够“经营公司”。首席执行官必须对金融市场有良好的了解，甚至可能对公司应该如何在金融市场进行交易有很好的了解。他们还需要比前任更好的公共关系技能，因为即使是很小的失误也会造成巨大的损失。事实上，美国大公司比以...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第3段意群顺译】今天的首席执行官，至少对于美国大公司来说，必须拥有更多的技能，而不仅仅是能够“经营公司”。首席执行官必须对金融市场有良好的了解，甚至可能对公司应该如何在金融市场进行交易有很好的了解。他们还需要比前任更好的公共关系技能，因为即使是很小的失误也会造成巨大的损失。事实上，美国大公司比以...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The common idea that high CEO pay is mainly about ripping people off doesn’t explain history very well. By most measures, [corporate] [governance] has become a lot tighter and more rigorous since the 1970s. Yet it is principally during this period of stronger [governance] that CEO pay has been high and rising. That suggests it is in the broader [corporate] interest to recruit top candidates for [increasingly] tough jobs.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The common idea that high CEO pay is mainly about ripping people off doesn’t explain history very well. By most measures, <span class=\"mask\">[corporate]</span> <span class=\"mask\">[governance]</span> has become a lot tighter and more rigorous since the 1970s. Yet it is principally during this period of stronger <span class=\"mask\">[governance]</span> that CEO pay has been high and rising. That suggests it is in the broader <span class=\"mask\">[corporate]</span> interest to recruit top candidates for <span class=\"mask\">[increasingly]</span> tough jobs.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "The common idea / that high CEO pay is mainly about ripping people off doesn’t explain history very well. / By most measures, / [corporate] [governance] has become a lot tighter and more rigorous / since the 1970s. / Yet it is principally during this period of stronger [governance] / that CEO pay has been high and rising. / That suggests it is in the broader [corporate] interest to recruit top candidates for [increasingly] tough jobs.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The common idea / that high CEO pay is mainly about ripping people off doesn’t explain history very well. / By most measures, / <span class=\"mask\">[corporate]</span> <span class=\"mask\">[governance]</span> has become a lot tighter and more rigorous / since the 1970s. / Yet it is principally during this period of stronger <span class=\"mask\">[governance]</span> / that CEO pay has been high and rising. / That suggests it is in the broader <span class=\"mask\">[corporate]</span> interest to recruit top candidates for <span class=\"mask\">[increasingly]</span> tough jobs.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第4段意群顺译】人们普遍认为首席执行官的高薪主要是为了敲诈别人，但这并不能很好地解释历史。从大多数标准来看，自 20 世纪 70 年代以来，公司治理变得更加严格和严格。然而，主要是在治理更加强有力的时期，首席执行官的薪酬一直很高，而且还在不断上涨。这表明，招聘顶尖候选人来应对日益艰巨的工作符合更...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第4段意群顺译】人们普遍认为首席执行官的高薪主要是为了敲诈别人，但这并不能很好地解释历史。从大多数标准来看，自 20 世纪 70 年代以来，公司治理变得更加严格和严格。然而，主要是在治理更加强有力的时期，首席执行官的薪酬一直很高，而且还在不断上涨。这表明，招聘顶尖候选人来应对日益艰巨的工作符合更...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Furthermore, the highest CEO salaries are paid to outside candidates, not to the cozy insider picks, another sign that high CEO pay is not some kind of depredation at the expense of the rest of the company. And the stock market reacts [positively] when [companies] tie CEO pay to, say, stock prices, a sign that those [practices] build up [corporate] value not just for the CEO.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Furthermore, the highest CEO salaries are paid to outside candidates, not to the cozy insider picks, another sign that high CEO pay is not some kind of depredation at the expense of the rest of the company. And the stock market reacts <span class=\"mask\">[positively]</span> when <span class=\"mask\">[companies]</span> tie CEO pay to, say, stock prices, a sign that those <span class=\"mask\">[practices]</span> build up <span class=\"mask\">[corporate]</span> value not just for the CEO.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Furthermore, / the highest CEO salaries are paid to outside candidates, / not to the cozy insider picks, / another sign / that high CEO pay is not some kind of depredation at the expense of the rest of the company. / And the stock market reacts [positively] / when [companies] tie CEO pay to, / say, / stock prices, / a sign / that those [practices] build up [corporate] value not just for the CEO.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Furthermore, / the highest CEO salaries are paid to outside candidates, / not to the cozy insider picks, / another sign / that high CEO pay is not some kind of depredation at the expense of the rest of the company. / And the stock market reacts <span class=\"mask\">[positively]</span> / when <span class=\"mask\">[companies]</span> tie CEO pay to, / say, / stock prices, / a sign / that those <span class=\"mask\">[practices]</span> build up <span class=\"mask\">[corporate]</span> value not just for the CEO.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第5段意群顺译】此外，最高的首席执行官薪酬是支付给外部候选人的，而不是舒适的内部人选，这另一个迹象表明，高额首席执行官薪酬并不是以牺牲公司其他部门为代价的某种掠夺。当公司将首席执行官的薪酬与股票价格挂钩时，股市会做出积极反应，这表明这些做法不仅为首席执行官创造了企业价值。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第5段意群顺译】此外，最高的首席执行官薪酬是支付给外部候选人的，而不是舒适的内部人选，这另一个迹象表明，高额首席执行官薪酬并不是以牺牲公司其他部门为代价的某种掠夺。当公司将首席执行官的薪酬与股票价格挂钩时，股市会做出积极反应，这表明这些做法不仅为首席执行官创造了企业价值。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 3
+          }
+        },
+        {
+          "section": "做题过程",
+          "raw": "# 3. 开始做题 (26-30题)\n\n粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。",
+          "html": "<h1>3. 开始做题 (26-30题)</h1><p>粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。</p>",
+          "meta": {}
+        },
+        {
+          "section": "26题",
+          "raw": "## 26题\n\n**Which of the following has contributed to CEO pay rise?**\n\n> 以下哪项因素促成了 CEO 的加薪？\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> It is true that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, and since the mid-1970s, CEO pay for large publicly traded American [corporations] has, by varying [estimates], gone up by about 500 %. The typical CEO of a top American corporation now makes about $18.9 million a year.\n>\n> 开始精读：\n>\n> It is true / that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, / and / since the mid-1970s, / CEO pay for large publicly traded American [corporations] has, / by varying [estimates], / gone up by about 500 %. / The typical CEO of a top American corporation now makes about $18.9 million a year.\n>\n> 逐意群顺译：\n>\n> 确实，CEO 的薪酬有所上涨——高层管理人员的平均薪酬可能是普通员工的 300 倍，而且自 20 世纪 70 年代中期以来，美国大型上市公司的 CEO 薪酬（根据不同的估计）上涨了约 500%。美国顶级公司首席执行官的典型年薪约为 1890 万美元。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>26题</h2>\n<p><strong>Which of the following has contributed to CEO pay rise?</strong></p>\n<blockquote><p>以下哪项因素促成了 CEO 的加薪？</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>It is true that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, and since the mid-1970s, CEO pay for large publicly traded American <span class=\"mask\">[corporations]</span> has, by varying <span class=\"mask\">[estimates]</span>, gone up by about 500 %. The typical CEO of a top American corporation now makes about $18.9 million a year.</p>\n<p><strong>开始精读：</strong></p>\n<p>It is true / that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, / and / since the mid-1970s, / CEO pay for large publicly traded American <span class=\"mask\">[corporations]</span> has, / by varying <span class=\"mask\">[estimates]</span>, / gone up by about 500 %. / The typical CEO of a top American corporation now makes about $18.9 million a year.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>确实，CEO 的薪酬有所上涨——高层管理人员的平均薪酬可能是普通员工的 300 倍，而且自 20 世纪 70 年代中期以来，美国大型上市公司的 CEO 薪酬（根据不同的估计）上涨了约 500%。美国顶级公司首席执行官的典型年薪约为 1890 万美元。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "26"
+          }
+        },
+        {
+          "section": "26题",
+          "raw": "### A. Close cooperation among leading economies.\n\n> 主要经济体之间合作密切。\n\n我们先看 A 选项：`Close cooperation among leading economies.`（主要经济体之间合作密切。）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪项因素促成了 CEO 的加薪？ ➔ 选项认为：主要经济体之间合作密切。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `Close`, `cooperation`, `among` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. Close cooperation among leading economies.</h3>\n<blockquote><p>主要经济体之间合作密切。</p></blockquote>\n<p>我们先看 A 选项：<code>Close cooperation among leading economies.</code>（主要经济体之间合作密切。）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪项因素促成了 CEO 的加薪？ ➔ 选项认为：主要经济体之间合作密切。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>Close</code>, <code>cooperation</code>, <code>among</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "26",
+            "option": "A"
+          }
+        },
+        {
+          "section": "26题",
+          "raw": "### B. Increased business opportunities for top firms.\n\n> 为顶尖企业增加了商机。\n\n我们先看 B 选项：`Increased business opportunities for top firms.`（为顶尖企业增加了商机。）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪项因素促成了 CEO 的加薪？ ➔ 选项认为：为顶尖企业增加了商机。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `Increased`, `business`, `opportunities` 与原文第 1 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：B强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>B. Increased business opportunities for top firms.</h3>\n<blockquote><p>为顶尖企业增加了商机。</p></blockquote>\n<p>我们先看 B 选项：<code>Increased business opportunities for top firms.</code>（为顶尖企业增加了商机。）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪项因素促成了 CEO 的加薪？ ➔ 选项认为：为顶尖企业增加了商机。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>Increased</code>, <code>business</code>, <code>opportunities</code> 与原文第 1 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：B强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "26",
+            "option": "B"
+          }
+        },
+        {
+          "section": "26题",
+          "raw": "### C. The general pay rise with a better economy.\n\n> 随着经济的好转，工资普遍上涨。\n\n我们先看 C 选项：`The general pay rise with a better economy.`（随着经济的好转，工资普遍上涨。）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪项因素促成了 CEO 的加薪？ ➔ 选项认为：随着经济的好转，工资普遍上涨。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `general`, `pay`, `rise` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. The general pay rise with a better economy.</h3>\n<blockquote><p>随着经济的好转，工资普遍上涨。</p></blockquote>\n<p>我们先看 C 选项：<code>The general pay rise with a better economy.</code>（随着经济的好转，工资普遍上涨。）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪项因素促成了 CEO 的加薪？ ➔ 选项认为：随着经济的好转，工资普遍上涨。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>general</code>, <code>pay</code>, <code>rise</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "26",
+            "option": "C"
+          }
+        },
+        {
+          "section": "26题",
+          "raw": "### D. The growth in the number of corporations.\n\n> 企业数量的增长。\n\n我们先看 D 选项：`The growth in the number of corporations.`（企业数量的增长。）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪项因素促成了 CEO 的加薪？ ➔ 选项认为：企业数量的增长。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“企业数量的增长。”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. The growth in the number of corporations.</h3>\n<blockquote><p>企业数量的增长。</p></blockquote>\n<p>我们先看 D 选项：<code>The growth in the number of corporations.</code>（企业数量的增长。）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪项因素促成了 CEO 的加薪？ ➔ 选项认为：企业数量的增长。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“企业数量的增长。”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "26",
+            "option": "D"
+          }
+        },
+        {
+          "section": "26题",
+          "raw": "### 26题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B强保留，与原文定位信息高度吻合；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>26题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B强保留，与原文定位信息高度吻合</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "26"
+          }
+        },
+        {
+          "section": "27题",
+          "raw": "## 27题\n\n**Compared with their predecessors, today’s CEOs are required to _____.**\n\n> 与他们的前任相比，今天的首席执行官需要 _____。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> The best model for [understanding] the growth of CEO pay is that of limited CEO talent in a world where business [opportunities] for the top firms are growing rapidly. The efforts of America’s [highest-earning] 1 % have been one of the more dynamic elements of the global economy. It’s not popular to say, but one reason their pay has gone up so much is that CEOs really have upped their game relative to many other workers in the U.S. economy.\n>\n> 开始精读：\n>\n> The best model for [understanding] the growth of CEO pay is / that of limited CEO talent in a world / where business [opportunities] for the top firms are growing rapidly. / The efforts of America’s [highest-earning] 1 % have been one of the more dynamic elements of the global economy. / It’s not popular to say, / but one reason their pay has gone up so much is / that CEOs really have upped their game relative to many other workers in the U.S. economy.\n>\n> 逐意群顺译：\n>\n> 理解首席执行官薪酬增长的最佳模型是在顶级公司的商业机会快速增长的世界中有限的首席执行官人才。美国收入最高的 1% 人群的努力已成为全球经济中最具活力的因素之一。这种说法并不流行，但他们的薪酬上涨如此之多的原因之一是，相对于美国经济中的许多其他工人，首席执行官确实提高了自己的水平。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>27题</h2>\n<p><strong>Compared with their predecessors, today’s CEOs are required to _____.</strong></p>\n<blockquote><p>与他们的前任相比，今天的首席执行官需要 _____。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>The best model for <span class=\"mask\">[understanding]</span> the growth of CEO pay is that of limited CEO talent in a world where business <span class=\"mask\">[opportunities]</span> for the top firms are growing rapidly. The efforts of America’s <span class=\"mask\">[highest-earning]</span> 1 % have been one of the more dynamic elements of the global economy. It’s not popular to say, but one reason their pay has gone up so much is that CEOs really have upped their game relative to many other workers in the U.S. economy.</p>\n<p><strong>开始精读：</strong></p>\n<p>The best model for <span class=\"mask\">[understanding]</span> the growth of CEO pay is / that of limited CEO talent in a world / where business <span class=\"mask\">[opportunities]</span> for the top firms are growing rapidly. / The efforts of America’s <span class=\"mask\">[highest-earning]</span> 1 % have been one of the more dynamic elements of the global economy. / It’s not popular to say, / but one reason their pay has gone up so much is / that CEOs really have upped their game relative to many other workers in the U.S. economy.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>理解首席执行官薪酬增长的最佳模型是在顶级公司的商业机会快速增长的世界中有限的首席执行官人才。美国收入最高的 1% 人群的努力已成为全球经济中最具活力的因素之一。这种说法并不流行，但他们的薪酬上涨如此之多的原因之一是，相对于美国经济中的许多其他工人，首席执行官确实提高了自己的水平。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "27"
+          }
+        },
+        {
+          "section": "27题",
+          "raw": "### A. establish closer ties with tech companies\n\n> 与科技公司建立更紧密的联系\n\n我们先看 A 选项：`establish closer ties with tech companies`（与科技公司建立更紧密的联系）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：与他们的前任相比，今天的首席执行官需要 “与科技公司建立更紧密的联系”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“与科技公司建立更紧密的联系”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. establish closer ties with tech companies</h3>\n<blockquote><p>与科技公司建立更紧密的联系</p></blockquote>\n<p>我们先看 A 选项：<code>establish closer ties with tech companies</code>（与科技公司建立更紧密的联系）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：与他们的前任相比，今天的首席执行官需要 “与科技公司建立更紧密的联系”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“与科技公司建立更紧密的联系”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "27",
+            "option": "A"
+          }
+        },
+        {
+          "section": "27题",
+          "raw": "### B. finance more research and development\n\n> 资助更多研究和开发\n\n我们先看 B 选项：`finance more research and development`（资助更多研究和开发）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：与他们的前任相比，今天的首席执行官需要 “资助更多研究和开发”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“资助更多研究和开发”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. finance more research and development</h3>\n<blockquote><p>资助更多研究和开发</p></blockquote>\n<p>我们先看 B 选项：<code>finance more research and development</code>（资助更多研究和开发）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：与他们的前任相比，今天的首席执行官需要 “资助更多研究和开发”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“资助更多研究和开发”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "27",
+            "option": "B"
+          }
+        },
+        {
+          "section": "27题",
+          "raw": "### C. operate more globalized companies\n\n> 经营更多全球化的公司\n\n我们先看 C 选项：`operate more globalized companies`（经营更多全球化的公司）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：与他们的前任相比，今天的首席执行官需要 “经营更多全球化的公司”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `operate`, `more`, `globalized` 与原文第 2 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：C强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>C. operate more globalized companies</h3>\n<blockquote><p>经营更多全球化的公司</p></blockquote>\n<p>我们先看 C 选项：<code>operate more globalized companies</code>（经营更多全球化的公司）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：与他们的前任相比，今天的首席执行官需要 “经营更多全球化的公司”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>operate</code>, <code>more</code>, <code>globalized</code> 与原文第 2 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：C强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "27",
+            "option": "C"
+          }
+        },
+        {
+          "section": "27题",
+          "raw": "### D. foster a stronger sense of teamwork\n\n> 培养更强的团队合作意识\n\n我们先看 D 选项：`foster a stronger sense of teamwork`（培养更强的团队合作意识）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：与他们的前任相比，今天的首席执行官需要 “培养更强的团队合作意识”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `foster`, `stronger`, `sense` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 2 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. foster a stronger sense of teamwork</h3>\n<blockquote><p>培养更强的团队合作意识</p></blockquote>\n<p>我们先看 D 选项：<code>foster a stronger sense of teamwork</code>（培养更强的团队合作意识）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：与他们的前任相比，今天的首席执行官需要 “培养更强的团队合作意识”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>foster</code>, <code>stronger</code>, <code>sense</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 2 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "27",
+            "option": "D"
+          }
+        },
+        {
+          "section": "27题",
+          "raw": "### 27题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C强保留，与原文定位信息高度吻合；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>27题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C强保留，与原文定位信息高度吻合</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "27"
+          }
+        },
+        {
+          "section": "28题",
+          "raw": "## 28题\n\n**CEO pay has been rising since the 1970s despite _____.**\n\n> 自 20 世纪 70 年代以来，首席执行官的薪酬一直在上涨，尽管_____。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> Today’s CEO, at least for major American firms, must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade in them. They also need better public relations skills than their [predecessors], as the costs of even a minor slipup can be significant. Then there’s the fact that large American [companies] are much more globalized than ever before, with supply chains spread across a larger number of countries. To lead in that system requires knowledge that is fairly [mind-boggling]. Plus, virtually all major American [companies] are becoming tech [companies], often with their own research and development. And beyond this, major CEOs still have to do all the day-to-day work they have always done.\n>\n> 开始精读：\n>\n> Today’s CEO, / at least for major American firms, / must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade in them. / They also need better public relations skills than their [predecessors], / as the costs of even a minor slipup can be significant. / Then there’s the fact / that large American [companies] are much more globalized than ever before, / with supply chains spread across a larger number of countries. / To lead in / that system requires knowledge / that is fairly [mind-boggling]. / Plus, / virtually all major American [companies] are becoming tech [companies], / often with their own research and development. / And beyond this, / major CEOs still have to do all the day-to-day work they have always done.\n>\n> 逐意群顺译：\n>\n> 今天的首席执行官，至少对于美国大公司来说，必须拥有更多的技能，而不仅仅是能够“经营公司”。首席执行官必须对金融市场有良好的了解，甚至可能对公司应该如何在金融市场进行交易有很好的了解。他们还需要比前任更好的公共关系技能，因为即使是很小的失误也会造成巨大的损失。事实上，美国大公司比以往任何时候都更加全球化，供应链遍布更多国家。要领导这个系统，需要相当令人难以置信的知识。此外，几乎所有美国大公司都在成为科技公司，而且通常拥有自己的研发能力。除此之外，主要首席执行官仍然必须做他们一直在做的所有日常工作。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>28题</h2>\n<p><strong>CEO pay has been rising since the 1970s despite _____.</strong></p>\n<blockquote><p>自 20 世纪 70 年代以来，首席执行官的薪酬一直在上涨，尽管_____。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Today’s CEO, at least for major American firms, must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade in them. They also need better public relations skills than their <span class=\"mask\">[predecessors]</span>, as the costs of even a minor slipup can be significant. Then there’s the fact that large American <span class=\"mask\">[companies]</span> are much more globalized than ever before, with supply chains spread across a larger number of countries. To lead in that system requires knowledge that is fairly <span class=\"mask\">[mind-boggling]</span>. Plus, virtually all major American <span class=\"mask\">[companies]</span> are becoming tech <span class=\"mask\">[companies]</span>, often with their own research and development. And beyond this, major CEOs still have to do all the day-to-day work they have always done.</p>\n<p><strong>开始精读：</strong></p>\n<p>Today’s CEO, / at least for major American firms, / must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade in them. / They also need better public relations skills than their <span class=\"mask\">[predecessors]</span>, / as the costs of even a minor slipup can be significant. / Then there’s the fact / that large American <span class=\"mask\">[companies]</span> are much more globalized than ever before, / with supply chains spread across a larger number of countries. / To lead in / that system requires knowledge / that is fairly <span class=\"mask\">[mind-boggling]</span>. / Plus, / virtually all major American <span class=\"mask\">[companies]</span> are becoming tech <span class=\"mask\">[companies]</span>, / often with their own research and development. / And beyond this, / major CEOs still have to do all the day-to-day work they have always done.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>今天的首席执行官，至少对于美国大公司来说，必须拥有更多的技能，而不仅仅是能够“经营公司”。首席执行官必须对金融市场有良好的了解，甚至可能对公司应该如何在金融市场进行交易有很好的了解。他们还需要比前任更好的公共关系技能，因为即使是很小的失误也会造成巨大的损失。事实上，美国大公司比以往任何时候都更加全球化，供应链遍布更多国家。要领导这个系统，需要相当令人难以置信的知识。此外，几乎所有美国大公司都在成为科技公司，而且通常拥有自己的研发能力。除此之外，主要首席执行官仍然必须做他们一直在做的所有日常工作。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "28"
+          }
+        },
+        {
+          "section": "28题",
+          "raw": "### A. continual internal opposition\n\n> 内部持续反对\n\n我们先看 A 选项：`continual internal opposition`（内部持续反对）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：自 20 世纪 70 年代以来，首席执行官的薪酬一直在上涨，尽管“内部持续反对”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“内部持续反对”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. continual internal opposition</h3>\n<blockquote><p>内部持续反对</p></blockquote>\n<p>我们先看 A 选项：<code>continual internal opposition</code>（内部持续反对）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：自 20 世纪 70 年代以来，首席执行官的薪酬一直在上涨，尽管“内部持续反对”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“内部持续反对”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "28",
+            "option": "A"
+          }
+        },
+        {
+          "section": "28题",
+          "raw": "### B. conservative business strategies\n\n> 保守的经营策略\n\n我们先看 B 选项：`conservative business strategies`（保守的经营策略）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：自 20 世纪 70 年代以来，首席执行官的薪酬一直在上涨，尽管“保守的经营策略”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“保守的经营策略”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. conservative business strategies</h3>\n<blockquote><p>保守的经营策略</p></blockquote>\n<p>我们先看 B 选项：<code>conservative business strategies</code>（保守的经营策略）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：自 20 世纪 70 年代以来，首席执行官的薪酬一直在上涨，尽管“保守的经营策略”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“保守的经营策略”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "28",
+            "option": "B"
+          }
+        },
+        {
+          "section": "28题",
+          "raw": "### C. strict corporate governance\n\n> 严格的公司治理\n\n我们先看 C 选项：`strict corporate governance`（严格的公司治理）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：自 20 世纪 70 年代以来，首席执行官的薪酬一直在上涨，尽管“严格的公司治理”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `strict`, `corporate`, `governance` 与原文第 3 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：C强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>C. strict corporate governance</h3>\n<blockquote><p>严格的公司治理</p></blockquote>\n<p>我们先看 C 选项：<code>strict corporate governance</code>（严格的公司治理）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：自 20 世纪 70 年代以来，首席执行官的薪酬一直在上涨，尽管“严格的公司治理”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>strict</code>, <code>corporate</code>, <code>governance</code> 与原文第 3 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：C强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "28",
+            "option": "C"
+          }
+        },
+        {
+          "section": "28题",
+          "raw": "### D. repeated government warnings\n\n> 政府多次警告\n\n我们先看 D 选项：`repeated government warnings`（政府多次警告）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：自 20 世纪 70 年代以来，首席执行官的薪酬一直在上涨，尽管“政府多次警告”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `repeated`, `government`, `warnings` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. repeated government warnings</h3>\n<blockquote><p>政府多次警告</p></blockquote>\n<p>我们先看 D 选项：<code>repeated government warnings</code>（政府多次警告）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：自 20 世纪 70 年代以来，首席执行官的薪酬一直在上涨，尽管“政府多次警告”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>repeated</code>, <code>government</code>, <code>warnings</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "28",
+            "option": "D"
+          }
+        },
+        {
+          "section": "28题",
+          "raw": "### 28题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C强保留，与原文定位信息高度吻合；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>28题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C强保留，与原文定位信息高度吻合</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "28"
+          }
+        },
+        {
+          "section": "29题",
+          "raw": "## 29题\n\n**High CEO pay can be justified by the fact that it helps _____.**\n\n> 首席执行官的高薪可以通过以下事实来证明：它有助于_____。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> The common idea that high CEO pay is mainly about ripping people off doesn’t explain history very well. By most measures, [corporate] [governance] has become a lot tighter and more rigorous since the 1970s. Yet it is principally during this period of stronger [governance] that CEO pay has been high and rising. That suggests it is in the broader [corporate] interest to recruit top candidates for [increasingly] tough jobs.\n>\n> 开始精读：\n>\n> The common idea / that high CEO pay is mainly about ripping people off doesn’t explain history very well. / By most measures, / [corporate] [governance] has become a lot tighter and more rigorous / since the 1970s. / Yet it is principally during this period of stronger [governance] / that CEO pay has been high and rising. / That suggests it is in the broader [corporate] interest to recruit top candidates for [increasingly] tough jobs.\n>\n> 逐意群顺译：\n>\n> 人们普遍认为首席执行官的高薪主要是为了敲诈别人，但这并不能很好地解释历史。从大多数标准来看，自 20 世纪 70 年代以来，公司治理变得更加严格和严格。然而，主要是在治理更加强有力的时期，首席执行官的薪酬一直很高，而且还在不断上涨。这表明，招聘顶尖候选人来应对日益艰巨的工作符合更广泛的企业利益。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>29题</h2>\n<p><strong>High CEO pay can be justified by the fact that it helps _____.</strong></p>\n<blockquote><p>首席执行官的高薪可以通过以下事实来证明：它有助于_____。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>The common idea that high CEO pay is mainly about ripping people off doesn’t explain history very well. By most measures, <span class=\"mask\">[corporate]</span> <span class=\"mask\">[governance]</span> has become a lot tighter and more rigorous since the 1970s. Yet it is principally during this period of stronger <span class=\"mask\">[governance]</span> that CEO pay has been high and rising. That suggests it is in the broader <span class=\"mask\">[corporate]</span> interest to recruit top candidates for <span class=\"mask\">[increasingly]</span> tough jobs.</p>\n<p><strong>开始精读：</strong></p>\n<p>The common idea / that high CEO pay is mainly about ripping people off doesn’t explain history very well. / By most measures, / <span class=\"mask\">[corporate]</span> <span class=\"mask\">[governance]</span> has become a lot tighter and more rigorous / since the 1970s. / Yet it is principally during this period of stronger <span class=\"mask\">[governance]</span> / that CEO pay has been high and rising. / That suggests it is in the broader <span class=\"mask\">[corporate]</span> interest to recruit top candidates for <span class=\"mask\">[increasingly]</span> tough jobs.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>人们普遍认为首席执行官的高薪主要是为了敲诈别人，但这并不能很好地解释历史。从大多数标准来看，自 20 世纪 70 年代以来，公司治理变得更加严格和严格。然而，主要是在治理更加强有力的时期，首席执行官的薪酬一直很高，而且还在不断上涨。这表明，招聘顶尖候选人来应对日益艰巨的工作符合更广泛的企业利益。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "29"
+          }
+        },
+        {
+          "section": "29题",
+          "raw": "### A. increase corporate value\n\n> 增加企业价值\n\n我们先看 A 选项：`increase corporate value`（增加企业价值）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：首席执行官的高薪可以通过以下事实来证明：它有助于“增加企业价值”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `increase`, `corporate`, `value` 与原文第 4 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：A强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>A. increase corporate value</h3>\n<blockquote><p>增加企业价值</p></blockquote>\n<p>我们先看 A 选项：<code>increase corporate value</code>（增加企业价值）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：首席执行官的高薪可以通过以下事实来证明：它有助于“增加企业价值”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>increase</code>, <code>corporate</code>, <code>value</code> 与原文第 4 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：A强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "29",
+            "option": "A"
+          }
+        },
+        {
+          "section": "29题",
+          "raw": "### B. confirm the status of CEOs\n\n> 确认CEO的地位\n\n我们先看 B 选项：`confirm the status of CEOs`（确认CEO的地位）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：首席执行官的高薪可以通过以下事实来证明：它有助于“确认CEO的地位”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `confirm`, `status`, `CEOs` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. confirm the status of CEOs</h3>\n<blockquote><p>确认CEO的地位</p></blockquote>\n<p>我们先看 B 选项：<code>confirm the status of CEOs</code>（确认CEO的地位）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：首席执行官的高薪可以通过以下事实来证明：它有助于“确认CEO的地位”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>confirm</code>, <code>status</code>, <code>CEOs</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "29",
+            "option": "B"
+          }
+        },
+        {
+          "section": "29题",
+          "raw": "### C. boost the efficiency of CEOs\n\n> 提高CEO的效率\n\n我们先看 C 选项：`boost the efficiency of CEOs`（提高CEO的效率）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：首席执行官的高薪可以通过以下事实来证明：它有助于“提高CEO的效率”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“提高CEO的效率”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. boost the efficiency of CEOs</h3>\n<blockquote><p>提高CEO的效率</p></blockquote>\n<p>我们先看 C 选项：<code>boost the efficiency of CEOs</code>（提高CEO的效率）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：首席执行官的高薪可以通过以下事实来证明：它有助于“提高CEO的效率”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“提高CEO的效率”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "29",
+            "option": "C"
+          }
+        },
+        {
+          "section": "29题",
+          "raw": "### D. motivate inside candidates\n\n> 激励内部候选人\n\n我们先看 D 选项：`motivate inside candidates`（激励内部候选人）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：首席执行官的高薪可以通过以下事实来证明：它有助于“激励内部候选人”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `motivate`, `inside`, `candidates` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. motivate inside candidates</h3>\n<blockquote><p>激励内部候选人</p></blockquote>\n<p>我们先看 D 选项：<code>motivate inside candidates</code>（激励内部候选人）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：首席执行官的高薪可以通过以下事实来证明：它有助于“激励内部候选人”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>motivate</code>, <code>inside</code>, <code>candidates</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "29",
+            "option": "D"
+          }
+        },
+        {
+          "section": "29题",
+          "raw": "### 29题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A强保留，与原文定位信息高度吻合；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>29题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A强保留，与原文定位信息高度吻合</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "29"
+          }
+        },
+        {
+          "section": "30题",
+          "raw": "## 30题\n\n**The most suitable title for this text would be _____.**\n\n> 这篇文章最合适的标题是_____。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 5 段展开，所以我们直接回第 5 段定位精读。\n\n> 原文参考：\n>\n> Furthermore, the highest CEO salaries are paid to outside candidates, not to the cozy insider picks, another sign that high CEO pay is not some kind of depredation at the expense of the rest of the company. And the stock market reacts [positively] when [companies] tie CEO pay to, say, stock prices, a sign that those [practices] build up [corporate] value not just for the CEO.\n>\n> 开始精读：\n>\n> Furthermore, / the highest CEO salaries are paid to outside candidates, / not to the cozy insider picks, / another sign / that high CEO pay is not some kind of depredation at the expense of the rest of the company. / And the stock market reacts [positively] / when [companies] tie CEO pay to, / say, / stock prices, / a sign / that those [practices] build up [corporate] value not just for the CEO.\n>\n> 逐意群顺译：\n>\n> 此外，最高的首席执行官薪酬是支付给外部候选人的，而不是舒适的内部人选，这另一个迹象表明，高额首席执行官薪酬并不是以牺牲公司其他部门为代价的某种掠夺。当公司将首席执行官的薪酬与股票价格挂钩时，股市会做出积极反应，这表明这些做法不仅为首席执行官创造了企业价值。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>30题</h2>\n<p><strong>The most suitable title for this text would be _____.</strong></p>\n<blockquote><p>这篇文章最合适的标题是_____。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>5</strong> 段展开，所以我们直接回第 <strong>5</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Furthermore, the highest CEO salaries are paid to outside candidates, not to the cozy insider picks, another sign that high CEO pay is not some kind of depredation at the expense of the rest of the company. And the stock market reacts <span class=\"mask\">[positively]</span> when <span class=\"mask\">[companies]</span> tie CEO pay to, say, stock prices, a sign that those <span class=\"mask\">[practices]</span> build up <span class=\"mask\">[corporate]</span> value not just for the CEO.</p>\n<p><strong>开始精读：</strong></p>\n<p>Furthermore, / the highest CEO salaries are paid to outside candidates, / not to the cozy insider picks, / another sign / that high CEO pay is not some kind of depredation at the expense of the rest of the company. / And the stock market reacts <span class=\"mask\">[positively]</span> / when <span class=\"mask\">[companies]</span> tie CEO pay to, / say, / stock prices, / a sign / that those <span class=\"mask\">[practices]</span> build up <span class=\"mask\">[corporate]</span> value not just for the CEO.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>此外，最高的首席执行官薪酬是支付给外部候选人的，而不是舒适的内部人选，这另一个迹象表明，高额首席执行官薪酬并不是以牺牲公司其他部门为代价的某种掠夺。当公司将首席执行官的薪酬与股票价格挂钩时，股市会做出积极反应，这表明这些做法不仅为首席执行官创造了企业价值。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "30"
+          }
+        },
+        {
+          "section": "30题",
+          "raw": "### A. CEOs Are Not Overpaid\n\n> 首席执行官的薪酬并不过分\n\n我们先看 A 选项：`CEOs Are Not Overpaid`（首席执行官的薪酬并不过分）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：这篇文章最合适的标题是“首席执行官的薪酬并不过分”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `CEOs`, `Are`, `Not` 与原文第 5 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 5 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：A强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>A. CEOs Are Not Overpaid</h3>\n<blockquote><p>首席执行官的薪酬并不过分</p></blockquote>\n<p>我们先看 A 选项：<code>CEOs Are Not Overpaid</code>（首席执行官的薪酬并不过分）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：这篇文章最合适的标题是“首席执行官的薪酬并不过分”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>CEOs</code>, <code>Are</code>, <code>Not</code> 与原文第 5 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 5 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：A强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "30",
+            "option": "A"
+          }
+        },
+        {
+          "section": "30题",
+          "raw": "### B. CEO Pay: Past and Present\n\n> 首席执行官薪酬：过去和现在\n\n我们先看 B 选项：`CEO Pay: Past and Present`（首席执行官薪酬：过去和现在）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：这篇文章最合适的标题是“首席执行官薪酬：过去和现在”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“首席执行官薪酬：过去和现在”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 5 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. CEO Pay: Past and Present</h3>\n<blockquote><p>首席执行官薪酬：过去和现在</p></blockquote>\n<p>我们先看 B 选项：<code>CEO Pay: Past and Present</code>（首席执行官薪酬：过去和现在）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：这篇文章最合适的标题是“首席执行官薪酬：过去和现在”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“首席执行官薪酬：过去和现在”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 5 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "30",
+            "option": "B"
+          }
+        },
+        {
+          "section": "30题",
+          "raw": "### C. CEO Traits: Not Easy to Define\n\n> CEO特质：不容易定义\n\n我们先看 C 选项：`CEO Traits: Not Easy to Define`（CEO特质：不容易定义）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：这篇文章最合适的标题是“CEO特质：不容易定义”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“CEO特质：不容易定义”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. CEO Traits: Not Easy to Define</h3>\n<blockquote><p>CEO特质：不容易定义</p></blockquote>\n<p>我们先看 C 选项：<code>CEO Traits: Not Easy to Define</code>（CEO特质：不容易定义）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：这篇文章最合适的标题是“CEO特质：不容易定义”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“CEO特质：不容易定义”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "30",
+            "option": "C"
+          }
+        },
+        {
+          "section": "30题",
+          "raw": "### D. CEOs’ Challenges of Toda\n\n> 户田CEO面临的挑战\n\n我们先看 D 选项：`CEOs’ Challenges of Toda`（户田CEO面临的挑战）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：这篇文章最合适的标题是“户田CEO面临的挑战”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `CEOs`, `Challenges`, `Toda` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. CEOs’ Challenges of Toda</h3>\n<blockquote><p>户田CEO面临的挑战</p></blockquote>\n<p>我们先看 D 选项：<code>CEOs’ Challenges of Toda</code>（户田CEO面临的挑战）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：这篇文章最合适的标题是“户田CEO面临的挑战”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>CEOs</code>, <code>Challenges</code>, <code>Toda</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "30",
+            "option": "D"
+          }
+        },
+        {
+          "section": "30题",
+          "raw": "### 30题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A强保留，与原文定位信息高度吻合；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>30题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A强保留，与原文定位信息高度吻合</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "30"
+          }
+        },
+        {
+          "section": "进阶技巧",
+          "raw": "# 4. 进阶技巧：交叉验证冲全对\n\n当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。",
+          "html": "<h1>4. 进阶技巧：交叉验证冲全对</h1><p>当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。</p>",
+          "meta": {}
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查26题交叉验证\n\n**题干**：Which of the following has contributed to CEO pay rise?\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **B**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **B**。\n\n**26题选 B。**",
+          "html": "<h2>回查26题交叉验证</h2>\n<p><strong>题干</strong>：Which of the following has contributed to CEO pay rise?</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>B</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">B</span></strong>。</p>\n<p><strong>26题选 B。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "26"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查27题交叉验证\n\n**题干**：Compared with their predecessors, today’s CEOs are required to _____.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **C**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **C**。\n\n**27题选 C。**",
+          "html": "<h2>回查27题交叉验证</h2>\n<p><strong>题干</strong>：Compared with their predecessors, today’s CEOs are required to _____.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>C</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">C</span></strong>。</p>\n<p><strong>27题选 C。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "27"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查28题交叉验证\n\n**题干**：CEO pay has been rising since the 1970s despite _____.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **C**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **C**。\n\n**28题选 C。**",
+          "html": "<h2>回查28题交叉验证</h2>\n<p><strong>题干</strong>：CEO pay has been rising since the 1970s despite _____.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>C</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">C</span></strong>。</p>\n<p><strong>28题选 C。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "28"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查29题交叉验证\n\n**题干**：High CEO pay can be justified by the fact that it helps _____.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **A**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **A**。\n\n**29题选 A。**",
+          "html": "<h2>回查29题交叉验证</h2>\n<p><strong>题干</strong>：High CEO pay can be justified by the fact that it helps _____.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>A</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">A</span></strong>。</p>\n<p><strong>29题选 A。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "29"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查30题交叉验证\n\n**题干**：The most suitable title for this text would be _____.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **A**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **A**。\n\n**30题选 A。**",
+          "html": "<h2>回查30题交叉验证</h2>\n<p><strong>题干</strong>：The most suitable title for this text would be _____.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>A</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">A</span></strong>。</p>\n<p><strong>30题选 A。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "30"
+          }
+        },
+        {
+          "section": "最终答案",
+          "raw": "# 5. 最终答案汇总\n\n**26. B**\n\n**27. C**\n\n**28. C**\n\n**29. A**\n\n**30. A**\n\n恭喜完成本篇阅读的做题推演！建议点击顶栏切换至【复盘模式（一石五鸟）】进行全方位深度吸收。",
+          "html": "<h1>5. 最终答案汇总</h1><div style=\"background:#f0fdf4;border:1px solid #bbf7d0;padding:16px;border-radius:8px;font-size:18px;line-height:2;color:#166534\">**26. B**<br><br>**27. C**<br><br>**28. C**<br><br>**29. A**<br><br>**30. A**</div><p style=\"margin-top:16px\">恭喜完成本篇阅读的做题推演！建议点击顶栏切换至<strong>【复盘模式（一石五鸟）】</strong>进行全方位深度吸收。</p>",
+          "meta": {
+            "kind": "final"
+          }
+        }
+      ]
+    },
+    "review": {
+      "steps": [
+        {
+          "section": 0,
+          "title": "省流：一石五鸟法怎么做",
+          "html": "<p>一石五鸟复盘法将一篇阅读真题价值吃干榨净，同时打通词汇、长难句与翻译、阅读解题思维、新题型逻辑、大作文写作五大核心题型，实现高效备考。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第一鸟-积累文中重点单词带来的词汇量提升",
+          "html": "<p>精选真题高频核心词、熟词生义、派生搭配，在语境中彻底掌握考研核心5500词的核心词族。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第二鸟-精读文章与翻译练习带来的翻译能力提升",
+          "html": "<p>逐句精读拆解句法骨架（主干提取、从句修饰剥离），针对典型长难句进行规范中文翻译输出。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>深度剖析命题人设置正确选项的同义替换规律，归纳排查5大高频干扰陷阱（偷换概念/无中生有/反向干扰/过度推断/答非所问）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>梳理全文语篇结构树（起承转合、因果对比、问题解决），迁移训练考研英语二新题型（7选5/小标题/排序）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第五鸟-顺手积累本文的大作文主题词与表达带来的写作能力提升",
+          "html": "<p>提炼本文涉及社会热点、科技经济、生态教育等母题的高分表达、观点金句与论证句型，直接化为写作武器。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "为什么考研英语备考实际只需要两到三个月的有效备考工作量",
+          "html": "<p>通过一石五鸟法，做1篇真题等于练5项能力，无需题海战术，56篇真题足以为考研英语二夯实75+甚至85+的坚实功底。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第1段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>true</strong></td><td>adj. 真实的；正确的；adv. 真实地</td><td><strong>ones</strong></td><td>pron. 用作复数代词，替代前文已提到或明确所指的人或事物，可译作“那些”或“某一类”；n. one 的复数形式，指数字 1或若干个 1；尤用于 number ones，指排行榜名列第一的唱片或歌曲</td><td><strong>times</strong></td><td>n. 蒂姆</td></tr><tr><td><strong>typical</strong></td><td>adj. 典型的，有代表性的；一贯的，平常的；不出所料，特有的</td><td><strong>workers</strong></td><td>n. 工作者，工作人员；劳工，工人</td><td><strong>average</strong></td><td>n. 平均水平，一般标准；平均数，平均值；平均分担</td></tr><tr><td><strong>since</strong></td><td>prep. 自……以后，自……以来；何曾，什么时候；conj. 在……以后，自……以来</td><td><strong>large</strong></td><td>adj. 大的；广泛的，重要的；身材高大的</td><td><strong>publicly</strong></td><td>adv. 公开地，公然地；由政府；由公众</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第2段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>best</strong></td><td>adj. 最好的，最出色的；最愉快的，最幸福的；最合适的，最恰当的</td><td><strong>model</strong></td><td>n. 模型；模式；型号</td><td><strong>understanding</strong></td><td>n. 了解，认识；协议，谅解；理解，谅解，体谅</td></tr><tr><td><strong>growth</strong></td><td>n. 成长，生长；增长，发展；肿瘤，赘生物</td><td><strong>limited</strong></td><td>adj. 有限的；受限的；受宪法限制的</td><td><strong>talent</strong></td><td>n. 天赋，才能；天才，人才；性感的人</td></tr><tr><td><strong>opportunities</strong></td><td>n. 因素；机会；机遇</td><td><strong>firms</strong></td><td>n. 公司，厂商；v. 变得坚实；使坚实</td><td><strong>growing</strong></td><td>adj. 增长的，增加的；v. 长大，成长；成活，生长</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 1
+          }
+        },
+        {
+          "section": 1,
+          "title": "第3段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>least</strong></td><td>adj. 一点儿；最少的；最微不足道的</td><td><strong>major</strong></td><td>adj. 重大的，主要的；严重的；大调的，大音阶的</td><td><strong>firms</strong></td><td>n. 公司，厂商；v. 变得坚实；使坚实</td></tr><tr><td><strong>skills</strong></td><td>n. 技术，技能，技巧</td><td><strong>simply</strong></td><td>adv. 仅仅，只，不过；简直，的确；简单地，简明地</td><td><strong>being</strong></td><td>n. 生物；存在；本质，本性</td></tr><tr><td><strong>able</strong></td><td>adj. 能够，有能力的；聪明能干的，精通的；【名】 埃布尔，阿布勒</td><td><strong>sense</strong></td><td>n. 感觉官能；感觉；道理，合理性</td><td><strong>financial</strong></td><td>adj. 财政的，金融的；有钱的；已缴费的</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 2
+          }
+        },
+        {
+          "section": 1,
+          "title": "第4段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>common</strong></td><td>adj. 共同的，共享的；常见的，普遍的，一般的；普通的，平凡的</td><td><strong>idea</strong></td><td>n. 想法，主意；观点，看法；原则，信念</td><td><strong>mainly</strong></td><td>adv. 主要地，首要地；大部分，大多</td></tr><tr><td><strong>ripping</strong></td><td>v. 撕破，猛地扯开，裂开；击穿；猛冲，飞速移动</td><td><strong>doesn</strong></td><td>aux. 表示否定</td><td><strong>explain</strong></td><td>v. 解释，说明；说明原因，解释理由</td></tr><tr><td><strong>measures</strong></td><td>n. 措施；层组；v. 测量</td><td><strong>corporate</strong></td><td>adj. 公司的；法人的；共同的，全体的</td><td><strong>governance</strong></td><td>n. 统治方式，管理方法</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 3
+          }
+        },
+        {
+          "section": 1,
+          "title": "第5段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>highest</strong></td><td>adj. 最高的；adv. 最高地，最高</td><td><strong>salaries</strong></td><td>n. 工资，职员薪金；v. 给……薪水</td><td><strong>paid</strong></td><td>adj. 有偿的，付费的；有报酬的，领取薪金的；报酬……的</td></tr><tr><td><strong>outside</strong></td><td>n. 外表，外部；周围，外围；外侧</td><td><strong>candidates</strong></td><td>n. 候选人，申请者，应征人员；考生，应试者；有望成为…的人或事物，适合某用途的候选对象</td><td><strong>cozy</strong></td><td>adj. 舒适的，温暖的，惬意的；友好的，亲密无间的，温馨的；密切的，互相勾结的，串通的</td></tr><tr><td><strong>insider</strong></td><td>n. 内部的人，知情人</td><td><strong>picks</strong></td><td>n. 选择；被选中的人；预测</td><td><strong>sign</strong></td><td>n. 指示牌，标志；迹象，征兆；示意动作，手势</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 4
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>It is true that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, and since the mid-1970s, CEO pay for large publicly traded American corporations has, by varying estimates, gone up by about 500 %. The typical CEO of a top American corporation now makes about $18.9 million a year.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>It is true that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, and since the mid-1970s, CEO pay for large publicly traded American corporations has, by varying estimates, gone up by about 500 %. The typical CEO of a top American corporation now makes about $18.9 million a year.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>It is true / that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, / and / since the mid-1970s, / CEO pay for large publicly traded American corporations has, / by varying estimates, / gone up by about 500 %. / The typical CEO of a top American corporation now makes about $18.9 million a year.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>It is true that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, and since the mid-1970s, CEO pay for large publicly traded American corporations has, by varying estimates, gone up by about 500 %. The typical CEO of a top American corporation now makes about $18.9 million a year.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>It is true / that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, / and / since the mid-1970s, / CEO pay for large publicly traded American corporations has, / by varying estimates, / gone up by about 500 %. / The typical CEO of a top American corporation now makes about $18.9 million a year.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">是真的 / CEO 的薪酬已经上涨——顶级高管的平均薪酬可能是普通员工的 300 倍 / 和 / 自20世纪70年代中期以来 / 美国大型上市公司首席执行官的薪酬 / 通过不同的估计 / 上涨约500%<br>美国顶级公司首席执行官的典型年薪约为 1890 万美元</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>It is true that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, and since the mid-1970s, CEO pay for large publicly traded American corporations has, by varying estimates, gone up by about 500 %. The typical CEO of a top American corporation now makes about $18.9 million a year.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>It is true / that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, / and / since the mid-1970s, / CEO pay for large publicly traded American corporations has, / by varying estimates, / gone up by about 500 %. / The typical CEO of a top American corporation now makes about $18.9 million a year.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">是真的 / CEO 的薪酬已经上涨——顶级高管的平均薪酬可能是普通员工的 300 倍 / 和 / 自20世纪70年代中期以来 / 美国大型上市公司首席执行官的薪酬 / 通过不同的估计 / 上涨约500%<br>美国顶级公司首席执行官的典型年薪约为 1890 万美元</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-3\">\n<h3>标准译文 · 第1段</h3>\n<p>确实，CEO 的薪酬有所上涨——高层管理人员的平均薪酬可能是普通员工的 300 倍，而且自 20 世纪 70 年代中期以来，美国大型上市公司的 CEO 薪酬（根据不同的估计）上涨了约 500%。美国顶级公司首席执行官的典型年薪约为 1890 万美元。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>It is true that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, and since the mid-1970s, CEO pay for large publicly traded American corporations has, by varying estimates, gone up by about 500 %.</p>\n<p><strong>意群断句：</strong><code>It is true / that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, / and / since the mid-1970s, / CEO pay for large publicly traded American corporations has, / by varying estimates, / gone up by about 500 %.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">是真的 / CEO 的薪酬已经上涨——顶级高管的平均薪酬可能是普通员工的 300 倍 / 和 / 自20世纪70年代中期以来 / 美国大型上市公司首席执行官的薪酬 / 通过不同的估计 / 上涨约500%</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间状语从句</b>：由连词 <code>Since</code> 引导从句 <code>Since the mid-1970s</code>，限定主句论述的时空背景或逻辑前提。</li><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>true</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">确实，CEO 的薪酬有所上涨——高层管理人员的平均薪酬可能是普通员工的 300 倍，而且自 20 世纪 70 年代中期以来，美国大型上市公司的 CEO 薪酬（根据不同的估计）上涨了约 500%。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The typical CEO of a top American corporation now makes about $18.9 million a year.</p>\n<p><strong>意群断句：</strong><code>The typical CEO of a top American corporation now makes about $18.9 million a year.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">美国顶级公司首席执行官的典型年薪约为 1890 万美元</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">美国顶级公司首席执行官的典型年薪约为 1890 万美元。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>The best model for understanding the growth of CEO pay is that of limited CEO talent in a world where business opportunities for the top firms are growing rapidly. The efforts of America’s highest-earning 1 % have been one of the more dynamic elements of the global economy. It’s not popular to say, but one reason their pay has gone up so much is that CEOs really have upped their game relative to many other workers in the U.S. economy.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>The best model for understanding the growth of CEO pay is that of limited CEO talent in a world where business opportunities for the top firms are growing rapidly. The efforts of America’s highest-earning 1 % have been one of the more dynamic elements of the global economy. It’s not popular to say, but one reason their pay has gone up so much is that CEOs really have upped their game relative to many other workers in the U.S. economy.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>The best model for understanding the growth of CEO pay is / that of limited CEO talent in a world / where business opportunities for the top firms are growing rapidly. / The efforts of America’s highest-earning 1 % have been one of the more dynamic elements of the global economy. / It’s not popular to say, / but one reason their pay has gone up so much is / that CEOs really have upped their game relative to many other workers in the U.S. economy.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>The best model for understanding the growth of CEO pay is that of limited CEO talent in a world where business opportunities for the top firms are growing rapidly. The efforts of America’s highest-earning 1 % have been one of the more dynamic elements of the global economy. It’s not popular to say, but one reason their pay has gone up so much is that CEOs really have upped their game relative to many other workers in the U.S. economy.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>The best model for understanding the growth of CEO pay is / that of limited CEO talent in a world / where business opportunities for the top firms are growing rapidly. / The efforts of America’s highest-earning 1 % have been one of the more dynamic elements of the global economy. / It’s not popular to say, / but one reason their pay has gone up so much is / that CEOs really have upped their game relative to many other workers in the U.S. economy.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">了解 CEO 薪酬增长的最佳模型是 / 世界上首席执行官人才有限 / 顶尖企业的商机正在快速增长<br>美国收入最高的 1% 人群的努力已成为全球经济中最具活力的因素之一<br>不流行的说法 / 但他们的工资上涨如此之多的原因之一是 / 相对于美国的许多其他员工，首席执行官确实提高了自己的水平<br>经济</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>The best model for understanding the growth of CEO pay is that of limited CEO talent in a world where business opportunities for the top firms are growing rapidly. The efforts of America’s highest-earning 1 % have been one of the more dynamic elements of the global economy. It’s not popular to say, but one reason their pay has gone up so much is that CEOs really have upped their game relative to many other workers in the U.S. economy.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>The best model for understanding the growth of CEO pay is / that of limited CEO talent in a world / where business opportunities for the top firms are growing rapidly. / The efforts of America’s highest-earning 1 % have been one of the more dynamic elements of the global economy. / It’s not popular to say, / but one reason their pay has gone up so much is / that CEOs really have upped their game relative to many other workers in the U.S. economy.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">了解 CEO 薪酬增长的最佳模型是 / 世界上首席执行官人才有限 / 顶尖企业的商机正在快速增长<br>美国收入最高的 1% 人群的努力已成为全球经济中最具活力的因素之一<br>不流行的说法 / 但他们的工资上涨如此之多的原因之一是 / 相对于美国的许多其他员工，首席执行官确实提高了自己的水平<br>经济</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-3\">\n<h3>标准译文 · 第2段</h3>\n<p>理解首席执行官薪酬增长的最佳模型是在顶级公司的商业机会快速增长的世界中有限的首席执行官人才。美国收入最高的 1% 人群的努力已成为全球经济中最具活力的因素之一。这种说法并不流行，但他们的薪酬上涨如此之多的原因之一是，相对于美国经济中的许多其他工人，首席执行官确实提高了自己的水平。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The best model for understanding the growth of CEO pay is that of limited CEO talent in a world where business opportunities for the top firms are growing rapidly.</p>\n<p><strong>意群断句：</strong><code>The best model for understanding the growth of CEO pay is / that of limited CEO talent in a world / where business opportunities for the top firms are growing rapidly.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">了解 CEO 薪酬增长的最佳模型是 / 世界上首席执行官人才有限 / 顶尖企业的商机正在快速增长</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">理解首席执行官薪酬增长的最佳模型是在顶级公司的商业机会快速增长的世界中有限的首席执行官人才。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The efforts of America’s highest-earning 1 % have been one of the more dynamic elements of the global economy.</p>\n<p><strong>意群断句：</strong><code>The efforts of America’s highest-earning 1 % have been one of the more dynamic elements of the global economy.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">美国收入最高的 1% 人群的努力已成为全球经济中最具活力的因素之一</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">美国收入最高的 1% 人群的努力已成为全球经济中最具活力的因素之一。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>It’s not popular to say, but one reason their pay has gone up so much is that CEOs really have upped their game relative to many other workers in the U.S.</p>\n<p><strong>意群断句：</strong><code>It’s not popular to say, / but one reason their pay has gone up so much is / that CEOs really have upped their game relative to many other workers in the U.S.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">不流行的说法 / 但他们的工资上涨如此之多的原因之一是 / 相对于美国的许多其他员工，首席执行官确实提高了自己的水平</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">这种说法并不流行，但他们的薪酬上涨如此之多的原因之一是，相对于美国许多其他员工，首席执行官确实提高了自己的水平。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>economy.</p>\n<p><strong>意群断句：</strong><code>economy.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">经济</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">经济。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Today’s CEO, at least for major American firms, must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade in them. They also need better public relations skills than their predecessors, as the costs of even a minor slipup can be significant. Then there’s the fact that large American companies are much more globalized than ever before, with supply chains spread across a larger number of countries. To lead in that system requires knowledge that is fairly mind-boggling. Plus, virtually all major American companies are becoming tech companies, often with their own research and development. And beyond this, major CEOs still have to do all the day-to-day work they have always done.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Today’s CEO, at least for major American firms, must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade in them. They also need better public relations skills than their predecessors, as the costs of even a minor slipup can be significant. Then there’s the fact that large American companies are much more globalized than ever before, with supply chains spread across a larger number of countries. To lead in that system requires knowledge that is fairly mind-boggling. Plus, virtually all major American companies are becoming tech companies, often with their own research and development. And beyond this, major CEOs still have to do all the day-to-day work they have always done.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>Today’s CEO, / at least for major American firms, / must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade in them. / They also need better public relations skills than their predecessors, / as the costs of even a minor slipup can be significant. / Then there’s the fact / that large American companies are much more globalized than ever before, / with supply chains spread across a larger number of countries. / To lead in / that system requires knowledge / that is fairly mind-boggling. / Plus, / virtually all major American companies are becoming tech companies, / often with their own research and development. / And beyond this, / major CEOs still have to do all the day-to-day work they have always done.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Today’s CEO, at least for major American firms, must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade in them. They also need better public relations skills than their predecessors, as the costs of even a minor slipup can be significant. Then there’s the fact that large American companies are much more globalized than ever before, with supply chains spread across a larger number of countries. To lead in that system requires knowledge that is fairly mind-boggling. Plus, virtually all major American companies are becoming tech companies, often with their own research and development. And beyond this, major CEOs still have to do all the day-to-day work they have always done.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>Today’s CEO, / at least for major American firms, / must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade in them. / They also need better public relations skills than their predecessors, / as the costs of even a minor slipup can be significant. / Then there’s the fact / that large American companies are much more globalized than ever before, / with supply chains spread across a larger number of countries. / To lead in / that system requires knowledge / that is fairly mind-boggling. / Plus, / virtually all major American companies are becoming tech companies, / often with their own research and development. / And beyond this, / major CEOs still have to do all the day-to-day work they have always done.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">今天的首席执行官 / 至少对美国大公司来说是这样 / 必须拥有比仅仅能够“经营公司”更多的技能。首席执行官必须对金融市场有良好的了解，甚至对公司应该如何进行交易有良好的了解<br>他们还需要比前任更好的公共关系技能 / 因为即使是轻微的失误也会造成巨大的损失<br>然后就是事实 / 美国大公司比以往任何时候都更加全球化 / 供应链遍布更多国家<br>引领 / 该系统需要知识 / 这相当令人难以置信<br>加 / 几乎所有美国大公司都在转型为科技公司 / 往往有自己的研发<br>除此之外 / 主要首席执行官仍然必须做他们一直在做的所有日常工作</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Today’s CEO, at least for major American firms, must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade in them. They also need better public relations skills than their predecessors, as the costs of even a minor slipup can be significant. Then there’s the fact that large American companies are much more globalized than ever before, with supply chains spread across a larger number of countries. To lead in that system requires knowledge that is fairly mind-boggling. Plus, virtually all major American companies are becoming tech companies, often with their own research and development. And beyond this, major CEOs still have to do all the day-to-day work they have always done.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>Today’s CEO, / at least for major American firms, / must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade in them. / They also need better public relations skills than their predecessors, / as the costs of even a minor slipup can be significant. / Then there’s the fact / that large American companies are much more globalized than ever before, / with supply chains spread across a larger number of countries. / To lead in / that system requires knowledge / that is fairly mind-boggling. / Plus, / virtually all major American companies are becoming tech companies, / often with their own research and development. / And beyond this, / major CEOs still have to do all the day-to-day work they have always done.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">今天的首席执行官 / 至少对美国大公司来说是这样 / 必须拥有比仅仅能够“经营公司”更多的技能。首席执行官必须对金融市场有良好的了解，甚至对公司应该如何进行交易有良好的了解<br>他们还需要比前任更好的公共关系技能 / 因为即使是轻微的失误也会造成巨大的损失<br>然后就是事实 / 美国大公司比以往任何时候都更加全球化 / 供应链遍布更多国家<br>引领 / 该系统需要知识 / 这相当令人难以置信<br>加 / 几乎所有美国大公司都在转型为科技公司 / 往往有自己的研发<br>除此之外 / 主要首席执行官仍然必须做他们一直在做的所有日常工作</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-3\">\n<h3>标准译文 · 第3段</h3>\n<p>今天的首席执行官，至少对于美国大公司来说，必须拥有更多的技能，而不仅仅是能够“经营公司”。首席执行官必须对金融市场有良好的了解，甚至可能对公司应该如何在金融市场进行交易有很好的了解。他们还需要比前任更好的公共关系技能，因为即使是很小的失误也会造成巨大的损失。事实上，美国大公司比以往任何时候都更加全球化，供应链遍布更多国家。要领导这个系统，需要相当令人难以置信的知识。此外，几乎所有美国大公司都在成为科技公司，而且通常拥有自己的研发能力。除此之外，主要首席执行官仍然必须做他们一直在做的所有日常工作。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Today’s CEO, at least for major American firms, must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade in them.</p>\n<p><strong>意群断句：</strong><code>Today’s CEO, / at least for major American firms, / must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade in them.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">今天的首席执行官 / 至少对美国大公司来说是这样 / 必须拥有比仅仅能够“经营公司”更多的技能。首席执行官必须对金融市场有良好的了解，甚至对公司应该如何进行交易有良好的了解</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">今天的首席执行官，至少对于美国大公司来说，必须拥有更多的技能，而不仅仅是能够“经营公司”。首席执行官必须对金融市场有良好的了解，甚至可能对公司应该如何在金融市场进行交易有很好的了解。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>They also need better public relations skills than their predecessors, as the costs of even a minor slipup can be significant.</p>\n<p><strong>意群断句：</strong><code>They also need better public relations skills than their predecessors, / as the costs of even a minor slipup can be significant.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">他们还需要比前任更好的公共关系技能 / 因为即使是轻微的失误也会造成巨大的损失</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">他们还需要比前任更好的公共关系技能，因为即使是很小的失误也会造成巨大的损失。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Then there’s the fact that large American companies are much more globalized than ever before, with supply chains spread across a larger number of countries.</p>\n<p><strong>意群断句：</strong><code>Then there’s the fact / that large American companies are much more globalized than ever before, / with supply chains spread across a larger number of countries.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">然后就是事实 / 美国大公司比以往任何时候都更加全球化 / 供应链遍布更多国家</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>fact</code>，限定其具体属性与内涵。</li><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with supply chains spread across a large...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">事实上，美国大公司比以往任何时候都更加全球化，供应链遍布更多国家。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>To lead in that system requires knowledge that is fairly mind-boggling.</p>\n<p><strong>意群断句：</strong><code>To lead in / that system requires knowledge / that is fairly mind-boggling.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">引领 / 该系统需要知识 / 这相当令人难以置信</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>in</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">要领导这个系统，需要相当令人难以置信的知识。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句5",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (5/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Plus, virtually all major American companies are becoming tech companies, often with their own research and development.</p>\n<p><strong>意群断句：</strong><code>Plus, / virtually all major American companies are becoming tech companies, / often with their own research and development.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">加 / 几乎所有美国大公司都在转型为科技公司 / 往往有自己的研发</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with their own research and development....</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">此外，几乎所有美国大公司都在成为科技公司，而且通常拥有自己的研发能力。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 4
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句6",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (6/6)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>And beyond this, major CEOs still have to do all the day-to-day work they have always done.</p>\n<p><strong>意群断句：</strong><code>And beyond this, / major CEOs still have to do all the day-to-day work they have always done.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">除此之外 / 主要首席执行官仍然必须做他们一直在做的所有日常工作</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">除此之外，主要首席执行官仍然必须做他们一直在做的所有日常工作。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 5
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>The common idea that high CEO pay is mainly about ripping people off doesn’t explain history very well. By most measures, corporate governance has become a lot tighter and more rigorous since the 1970s. Yet it is principally during this period of stronger governance that CEO pay has been high and rising. That suggests it is in the broader corporate interest to recruit top candidates for increasingly tough jobs.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>The common idea that high CEO pay is mainly about ripping people off doesn’t explain history very well. By most measures, corporate governance has become a lot tighter and more rigorous since the 1970s. Yet it is principally during this period of stronger governance that CEO pay has been high and rising. That suggests it is in the broader corporate interest to recruit top candidates for increasingly tough jobs.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>The common idea / that high CEO pay is mainly about ripping people off doesn’t explain history very well. / By most measures, / corporate governance has become a lot tighter and more rigorous / since the 1970s. / Yet it is principally during this period of stronger governance / that CEO pay has been high and rising. / That suggests it is in the broader corporate interest to recruit top candidates for increasingly tough jobs.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>The common idea that high CEO pay is mainly about ripping people off doesn’t explain history very well. By most measures, corporate governance has become a lot tighter and more rigorous since the 1970s. Yet it is principally during this period of stronger governance that CEO pay has been high and rising. That suggests it is in the broader corporate interest to recruit top candidates for increasingly tough jobs.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>The common idea / that high CEO pay is mainly about ripping people off doesn’t explain history very well. / By most measures, / corporate governance has become a lot tighter and more rigorous / since the 1970s. / Yet it is principally during this period of stronger governance / that CEO pay has been high and rising. / That suggests it is in the broader corporate interest to recruit top candidates for increasingly tough jobs.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-2\">\n<h3>意群翻译 · 第4段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">共同的想法 / 首席执行官的高薪主要是为了敲诈别人，这并不能很好地解释历史<br>从大多数衡量标准来看 / 公司治理变得更加严格和严格 / 自20世纪70年代以来<br>但主要是在这个治理更强有力的时期 / 首席执行官的薪酬一直很高并且还在上涨<br>这表明招聘顶尖候选人来应对日益艰巨的工作符合更广泛的企业利益</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>The common idea that high CEO pay is mainly about ripping people off doesn’t explain history very well. By most measures, corporate governance has become a lot tighter and more rigorous since the 1970s. Yet it is principally during this period of stronger governance that CEO pay has been high and rising. That suggests it is in the broader corporate interest to recruit top candidates for increasingly tough jobs.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>The common idea / that high CEO pay is mainly about ripping people off doesn’t explain history very well. / By most measures, / corporate governance has become a lot tighter and more rigorous / since the 1970s. / Yet it is principally during this period of stronger governance / that CEO pay has been high and rising. / That suggests it is in the broader corporate interest to recruit top candidates for increasingly tough jobs.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-2\">\n<h3>意群翻译 · 第4段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">共同的想法 / 首席执行官的高薪主要是为了敲诈别人，这并不能很好地解释历史<br>从大多数衡量标准来看 / 公司治理变得更加严格和严格 / 自20世纪70年代以来<br>但主要是在这个治理更强有力的时期 / 首席执行官的薪酬一直很高并且还在上涨<br>这表明招聘顶尖候选人来应对日益艰巨的工作符合更广泛的企业利益</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-3\">\n<h3>标准译文 · 第4段</h3>\n<p>人们普遍认为首席执行官的高薪主要是为了敲诈别人，但这并不能很好地解释历史。从大多数标准来看，自 20 世纪 70 年代以来，公司治理变得更加严格和严格。然而，主要是在治理更加强有力的时期，首席执行官的薪酬一直很高，而且还在不断上涨。这表明，招聘顶尖候选人来应对日益艰巨的工作符合更广泛的企业利益。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The common idea that high CEO pay is mainly about ripping people off doesn’t explain history very well.</p>\n<p><strong>意群断句：</strong><code>The common idea / that high CEO pay is mainly about ripping people off doesn’t explain history very well.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">共同的想法 / 首席执行官的高薪主要是为了敲诈别人，这并不能很好地解释历史</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>idea</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">人们普遍认为首席执行官的高薪主要是为了敲诈别人，但这并不能很好地解释历史。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>By most measures, corporate governance has become a lot tighter and more rigorous since the 1970s.</p>\n<p><strong>意群断句：</strong><code>By most measures, / corporate governance has become a lot tighter and more rigorous / since the 1970s.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">从大多数衡量标准来看 / 公司治理变得更加严格和严格 / 自20世纪70年代以来</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">从大多数标准来看，自 20 世纪 70 年代以来，公司治理变得更加严格和严格。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Yet it is principally during this period of stronger governance that CEO pay has been high and rising.</p>\n<p><strong>意群断句：</strong><code>Yet it is principally during this period of stronger governance / that CEO pay has been high and rising.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">但主要是在这个治理更强有力的时期 / 首席执行官的薪酬一直很高并且还在上涨</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>governance</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">然而，主要是在治理更加强有力的时期，首席执行官的薪酬一直很高，而且还在不断上涨。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>That suggests it is in the broader corporate interest to recruit top candidates for increasingly tough jobs.</p>\n<p><strong>意群断句：</strong><code>That suggests it is in the broader corporate interest to recruit top candidates for increasingly tough jobs.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">这表明招聘顶尖候选人来应对日益艰巨的工作符合更广泛的企业利益</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">这表明，招聘顶尖候选人来应对日益艰巨的工作符合更广泛的企业利益。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>Furthermore, the highest CEO salaries are paid to outside candidates, not to the cozy insider picks, another sign that high CEO pay is not some kind of depredation at the expense of the rest of the company. And the stock market reacts positively when companies tie CEO pay to, say, stock prices, a sign that those practices build up corporate value not just for the CEO.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>Furthermore, the highest CEO salaries are paid to outside candidates, not to the cozy insider picks, another sign that high CEO pay is not some kind of depredation at the expense of the rest of the company. And the stock market reacts positively when companies tie CEO pay to, say, stock prices, a sign that those practices build up corporate value not just for the CEO.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>Furthermore, / the highest CEO salaries are paid to outside candidates, / not to the cozy insider picks, / another sign / that high CEO pay is not some kind of depredation at the expense of the rest of the company. / And the stock market reacts positively / when companies tie CEO pay to, / say, / stock prices, / a sign / that those practices build up corporate value not just for the CEO.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>Furthermore, the highest CEO salaries are paid to outside candidates, not to the cozy insider picks, another sign that high CEO pay is not some kind of depredation at the expense of the rest of the company. And the stock market reacts positively when companies tie CEO pay to, say, stock prices, a sign that those practices build up corporate value not just for the CEO.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>Furthermore, / the highest CEO salaries are paid to outside candidates, / not to the cozy insider picks, / another sign / that high CEO pay is not some kind of depredation at the expense of the rest of the company. / And the stock market reacts positively / when companies tie CEO pay to, / say, / stock prices, / a sign / that those practices build up corporate value not just for the CEO.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-2\">\n<h3>意群翻译 · 第5段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">此外 / 最高的首席执行官薪水支付给外部候选人 / 不适合舒适的内部人士选择 / 另一个标志 / 首席执行官的高薪并不是某种以牺牲公司其他部门为代价的掠夺<br>股市反应积极 / 当公司将首席执行官的薪酬与 / 说 / 股票价格 / 一个标志 / 这些实践不仅为首席执行官创造了企业价值</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>Furthermore, the highest CEO salaries are paid to outside candidates, not to the cozy insider picks, another sign that high CEO pay is not some kind of depredation at the expense of the rest of the company. And the stock market reacts positively when companies tie CEO pay to, say, stock prices, a sign that those practices build up corporate value not just for the CEO.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>Furthermore, / the highest CEO salaries are paid to outside candidates, / not to the cozy insider picks, / another sign / that high CEO pay is not some kind of depredation at the expense of the rest of the company. / And the stock market reacts positively / when companies tie CEO pay to, / say, / stock prices, / a sign / that those practices build up corporate value not just for the CEO.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-2\">\n<h3>意群翻译 · 第5段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">此外 / 最高的首席执行官薪水支付给外部候选人 / 不适合舒适的内部人士选择 / 另一个标志 / 首席执行官的高薪并不是某种以牺牲公司其他部门为代价的掠夺<br>股市反应积极 / 当公司将首席执行官的薪酬与 / 说 / 股票价格 / 一个标志 / 这些实践不仅为首席执行官创造了企业价值</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-3\">\n<h3>标准译文 · 第5段</h3>\n<p>此外，最高的首席执行官薪酬是支付给外部候选人的，而不是舒适的内部人选，这另一个迹象表明，高额首席执行官薪酬并不是以牺牲公司其他部门为代价的某种掠夺。当公司将首席执行官的薪酬与股票价格挂钩时，股市会做出积极反应，这表明这些做法不仅为首席执行官创造了企业价值。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Furthermore, the highest CEO salaries are paid to outside candidates, not to the cozy insider picks, another sign that high CEO pay is not some kind of depredation at the expense of the rest of the company.</p>\n<p><strong>意群断句：</strong><code>Furthermore, / the highest CEO salaries are paid to outside candidates, / not to the cozy insider picks, / another sign / that high CEO pay is not some kind of depredation at the expense of the rest of the company.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">此外 / 最高的首席执行官薪水支付给外部候选人 / 不适合舒适的内部人士选择 / 另一个标志 / 首席执行官的高薪并不是某种以牺牲公司其他部门为代价的掠夺</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>sign</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">此外，最高的首席执行官薪酬是支付给外部候选人的，而不是舒适的内部人选，这另一个迹象表明，高额首席执行官薪酬并不是以牺牲公司其他部门为代价的某种掠夺。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>And the stock market reacts positively when companies tie CEO pay to, say, stock prices, a sign that those practices build up corporate value not just for the CEO.</p>\n<p><strong>意群断句：</strong><code>And the stock market reacts positively / when companies tie CEO pay to, / say, / stock prices, / a sign / that those practices build up corporate value not just for the CEO.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">股市反应积极 / 当公司将首席执行官的薪酬与 / 说 / 股票价格 / 一个标志 / 这些实践不仅为首席执行官创造了企业价值</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间状语从句</b>：由连词 <code>When</code> 引导从句 <code>When companies tie CEO pay to</code>，限定主句论述的时空背景或逻辑前提。</li><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>sign</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">当公司将首席执行官的薪酬与股票价格挂钩时，股市会做出积极反应，这表明这些做法不仅为首席执行官创造了企业价值。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "3.一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，正确项如何进行同义改写，错误项如何设置陷阱；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
+          "meta": {
+            "section": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "26题 · 题干、题型与核心出处",
+          "html": "<p><strong>26. Which of the following has contributed to CEO pay rise?</strong></p>\n<p>（以下哪项因素促成了 CEO 的加薪？）</p>\n<p><strong>题型判定</strong>：事实细节题 ｜ <strong>定位出处</strong>：Paragraph 1</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "26"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. Close cooperation among leading economies.",
+          "html": "<p><strong>选项 A</strong>：<code>Close cooperation among leading economies.</code></p>\n<p><strong>中文翻译</strong>：主要经济体之间合作密切。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. Increased business opportunities for top firms.",
+          "html": "<p><strong>选项 B</strong>：<code>Increased business opportunities for top firms.</code></p>\n<p><strong>中文翻译</strong>：为顶尖企业增加了商机。</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. The general pay rise with a better economy.",
+          "html": "<p><strong>选项 C</strong>：<code>The general pay rise with a better economy.</code></p>\n<p><strong>中文翻译</strong>：随着经济的好转，工资普遍上涨。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. The growth in the number of corporations.",
+          "html": "<p><strong>选项 D</strong>：<code>The growth in the number of corporations.</code></p>\n<p><strong>中文翻译</strong>：企业数量的增长。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "27题 · 题干、题型与核心出处",
+          "html": "<p><strong>27. Compared with their predecessors, today’s CEOs are required to _____.</strong></p>\n<p>（与他们的前任相比，今天的首席执行官需要 _____。）</p>\n<p><strong>题型判定</strong>：因果推断题 ｜ <strong>定位出处</strong>：Paragraph 2</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "27"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. establish closer ties with tech companies",
+          "html": "<p><strong>选项 A</strong>：<code>establish closer ties with tech companies</code></p>\n<p><strong>中文翻译</strong>：与科技公司建立更紧密的联系</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. finance more research and development",
+          "html": "<p><strong>选项 B</strong>：<code>finance more research and development</code></p>\n<p><strong>中文翻译</strong>：资助更多研究和开发</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. operate more globalized companies",
+          "html": "<p><strong>选项 C</strong>：<code>operate more globalized companies</code></p>\n<p><strong>中文翻译</strong>：经营更多全球化的公司</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. foster a stronger sense of teamwork",
+          "html": "<p><strong>选项 D</strong>：<code>foster a stronger sense of teamwork</code></p>\n<p><strong>中文翻译</strong>：培养更强的团队合作意识</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "28题 · 题干、题型与核心出处",
+          "html": "<p><strong>28. CEO pay has been rising since the 1970s despite _____.</strong></p>\n<p>（自 20 世纪 70 年代以来，首席执行官的薪酬一直在上涨，尽管_____。）</p>\n<p><strong>题型判定</strong>：段落推理题 ｜ <strong>定位出处</strong>：Paragraph 3</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "28"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. continual internal opposition",
+          "html": "<p><strong>选项 A</strong>：<code>continual internal opposition</code></p>\n<p><strong>中文翻译</strong>：内部持续反对</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. conservative business strategies",
+          "html": "<p><strong>选项 B</strong>：<code>conservative business strategies</code></p>\n<p><strong>中文翻译</strong>：保守的经营策略</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. strict corporate governance",
+          "html": "<p><strong>选项 C</strong>：<code>strict corporate governance</code></p>\n<p><strong>中文翻译</strong>：严格的公司治理</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. repeated government warnings",
+          "html": "<p><strong>选项 D</strong>：<code>repeated government warnings</code></p>\n<p><strong>中文翻译</strong>：政府多次警告</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "29题 · 题干、题型与核心出处",
+          "html": "<p><strong>29. High CEO pay can be justified by the fact that it helps _____.</strong></p>\n<p>（首席执行官的高薪可以通过以下事实来证明：它有助于_____。）</p>\n<p><strong>题型判定</strong>：词义/例证题 ｜ <strong>定位出处</strong>：Paragraph 4</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "29"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. increase corporate value",
+          "html": "<p><strong>选项 A</strong>：<code>increase corporate value</code></p>\n<p><strong>中文翻译</strong>：增加企业价值</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. confirm the status of CEOs",
+          "html": "<p><strong>选项 B</strong>：<code>confirm the status of CEOs</code></p>\n<p><strong>中文翻译</strong>：确认CEO的地位</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. boost the efficiency of CEOs",
+          "html": "<p><strong>选项 C</strong>：<code>boost the efficiency of CEOs</code></p>\n<p><strong>中文翻译</strong>：提高CEO的效率</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. motivate inside candidates",
+          "html": "<p><strong>选项 D</strong>：<code>motivate inside candidates</code></p>\n<p><strong>中文翻译</strong>：激励内部候选人</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "30题 · 题干、题型与核心出处",
+          "html": "<p><strong>30. The most suitable title for this text would be _____.</strong></p>\n<p>（这篇文章最合适的标题是_____。）</p>\n<p><strong>题型判定</strong>：全文主旨题 ｜ <strong>定位出处</strong>：Paragraph 5</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "30"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. CEOs Are Not Overpaid",
+          "html": "<p><strong>选项 A</strong>：<code>CEOs Are Not Overpaid</code></p>\n<p><strong>中文翻译</strong>：首席执行官的薪酬并不过分</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. CEO Pay: Past and Present",
+          "html": "<p><strong>选项 B</strong>：<code>CEO Pay: Past and Present</code></p>\n<p><strong>中文翻译</strong>：首席执行官薪酬：过去和现在</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. CEO Traits: Not Easy to Define",
+          "html": "<p><strong>选项 C</strong>：<code>CEO Traits: Not Easy to Define</code></p>\n<p><strong>中文翻译</strong>：CEO特质：不容易定义</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. CEOs’ Challenges of Toda",
+          "html": "<p><strong>选项 D</strong>：<code>CEOs’ Challenges of Toda</code></p>\n<p><strong>中文翻译</strong>：户田CEO面临的挑战</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "D"
+          }
+        },
+        {
+          "section": 4,
+          "title": "4.一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>在新题型中，考查的本质是理解文章上下文的逻辑承接能力。我们将本篇真题结构改编为新题型迁移训练，训练对段落主旨与篇章逻辑的提炼概括能力。</p>\n<p><strong>篇章核心逻辑链条</strong>：</p>\n<p>引出核心论题 → 展开多角度实证与事实分析 → 剖析深层体制/社会矛盾 → 提出战略性长效应对策略。</p>",
+          "meta": {
+            "section": 4
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 1",
+          "html": "<p><strong>【考查段落 1】</strong></p>\n<p><code>It is true that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, and since the mid...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 1 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 0
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 2",
+          "html": "<p><strong>【考查段落 2】</strong></p>\n<p><code>The best model for understanding the growth of CEO pay is that of limited CEO talent in a world where business opportuni...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 2 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 1
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 3",
+          "html": "<p><strong>【考查段落 3】</strong></p>\n<p><code>Today’s CEO, at least for major American firms, must have many more skills than simply being able to “run the company.” ...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 3 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 2
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 4",
+          "html": "<p><strong>【考查段落 4】</strong></p>\n<p><code>The common idea that high CEO pay is mainly about ripping people off doesn’t explain history very well. By most measures...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 4 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 3
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 5",
+          "html": "<p><strong>【考查段落 5】</strong></p>\n<p><code>Furthermore, the highest CEO salaries are paid to outside candidates, not to the cozy insider picks, another sign that h...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 5 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 4
+          }
+        },
+        {
+          "section": 5,
+          "title": "1. 大作文宏观论述与主题词汇积累",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>可积累的主题表达</th><th>中文翻译</th><th>所属类别</th><th>使用层级</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>promoting institutional adaptability</strong></td><td><strong>增强制度适应性与韧性</strong></td><td><strong>社会/经济发展</strong></td><td><strong>宏观论点</strong></td></tr>\n<tr><td>harmonizing commercial viability and public welfare</td><td>协调商业可行性与公众福祉</td><td>综合治理</td><td>论证支撑</td></tr>\n<tr><td>fostering sustainable long-term development</td><td>促进可持续长远发展</td><td>未来展望</td><td>结论升华</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        },
+        {
+          "section": 5,
+          "title": "2. 大作文图表/观点题通用满分句型模板",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>适用题型</th><th>考试时可复用的形式</th><th>中文翻译</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>图表/观点题</strong></td><td><strong>A is doing B in an effort to do C.</strong></td><td><strong>A正在采取行动B，目的是实现目标C。</strong></td></tr>\n<tr><td>原因剖析段</td><td>The underlying reason behind this phenomenon is that...</td><td>该现象背后的深层原因在于……</td></tr>\n<tr><td>建议对策段</td><td>Only through collaborative governance can we ensure enduring progress.</td><td>唯有通过协同治理，方能确保长久的发展与繁荣。</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        }
+      ]
+    }
+  },
+  "text3": {
+    "id": 3,
+    "qRange": "31-35",
+    "title": "Text 3",
+    "paragraphs": [
+      "Madrid was hailed as a public health guiding light last November when it rolled out ambitious restrictions on the most polluting cars. Seven months and one election day later, a new conservative city council suspended enforcement of the clean air zone, a first step toward its possible termination. Mayor José Luis Martínez-Almeida made opposition to the zone a centrepiece of his election campaign, despite its success in improving air quality. A judge has now overruled the city’s decision to stop levying fines, ordering them restored. But with legal battles ahead, the zone’s future looks uncertain at best.",
+      "Madrid’s back and forth on clean air is a pointed reminder of the limits to the patchwork, city-by-city approach that characterises efforts on air pollution across Europe, Britain very much included.",
+      "Among other weaknesses, the measures cities must employ when left to tackle dirty air on their own are politically controversial, and therefore vulnerable. That’s because they inevitably put the costs of cleaning the air on to individual drivers—who must pay fees or buy better vehicles—rather than on to the car manufacturers whose cheating is the real cause of our toxic pollution. It’s not hard to imagine a similar reversal happening in London. The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election. And if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends, it is sure to spark intense opposition from the far larger number of motorists who will then be affected.",
+      "It’s not that measures such as London’s Ulez are useless. Far from it. Local officials are using the levers that are available to them to safeguard residents’ health in the face of a serious threat. The zones do deliver some improvements to air quality, and the science tells us that means real health benefits.",
+      "But mayors and councillors can only do so much about a problem that is far bigger than any one city or town. They are acting because national governments—Britain’s and others across Europe—have failed to do so.",
+      "Restrictions that keep highly polluting cars out of certain areas—city centres, “school streets”, even individual roads—are a response to the absence of a larger effort to properly enforce existing regulations and require auto companies to bring their vehicles into compliance. Wales has introduced special low speed limits to minimise pollution. We’re doing everything but insist that manufacturers clean up their cars."
+    ],
+    "questions": [
+      {
+        "qid": 31,
+        "stem": "Which of the following is true about Madrid’s clean air zone?",
+        "stem_cn": "以下关于马德里清洁空气区的说法哪一项是正确的？",
+        "type": "事实细节题",
+        "locate": "Paragraph 1",
+        "options": [
+          {
+            "key": "A",
+            "text": "Its effects are questionable.",
+            "text_cn": "其效果值得怀疑。",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "It has been opposed by a judge.",
+            "text_cn": "但遭到法官的反对。",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "It needs tougher enforcement.",
+            "text_cn": "需要更严厉的执法。",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "Its fate is yet to be decided.",
+            "text_cn": "它的命运尚未决定。",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。"
+          }
+        ]
+      },
+      {
+        "qid": 32,
+        "stem": "What is considered a weakness of the city-level measures to tackle dirty air?",
+        "stem_cn": "市级空气污染治理措施的弱点是什么？",
+        "type": "因果推断题",
+        "locate": "Paragraph 2",
+        "options": [
+          {
+            "key": "A",
+            "text": "They put the burden on individual motorists.",
+            "text_cn": "他们把负担强加给了个别驾车者。",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "B",
+            "text": "They prove impractical for city councils.",
+            "text_cn": "事实证明，它们对于市议会来说是不切实际的。",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "They are deemed too mild by politicians.",
+            "text_cn": "政客们认为他们过于温和。",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "They are biased against car manufacturers.",
+            "text_cn": "他们对汽车制造商有偏见。",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 33,
+        "stem": "The author believes that the extension of London’s Ulez will _____.",
+        "stem_cn": "作者认为，伦敦 Ulez 的延期将 _____。",
+        "type": "段落推理题",
+        "locate": "Paragraph 3",
+        "options": [
+          {
+            "key": "A",
+            "text": "ensure Khan’s electoral success",
+            "text_cn": "确保汗的选举成功",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "arouse strong resistance",
+            "text_cn": "激起强烈反抗",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "C",
+            "text": "improve the city’s traffic",
+            "text_cn": "改善城市交通",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "discourage car manufacturing",
+            "text_cn": "阻碍汽车制造",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 34,
+        "stem": "Who does the author think should have addressed the problem?",
+        "stem_cn": "作者认为应该由谁来解决这个问题？",
+        "type": "词义/例证题",
+        "locate": "Paragraph 4",
+        "options": [
+          {
+            "key": "A",
+            "text": "Local residents.",
+            "text_cn": "当地居民。",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "National governments.",
+            "text_cn": "各国政府。",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "C",
+            "text": "Councillors.",
+            "text_cn": "议员们。",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "Mayors.",
+            "text_cn": "市长们。",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 35,
+        "stem": "It can be learned from the last paragraph that auto companies _____.",
+        "stem_cn": "从最后一段可以得知，汽车公司_____。",
+        "type": "全文主旨题",
+        "locate": "Paragraph 5",
+        "options": [
+          {
+            "key": "A",
+            "text": "will raise low-emission car production",
+            "text_cn": "将提高低排放汽车产量",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "will upgrade the design of their vehicles",
+            "text_cn": "将升级他们的车辆的设计",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "should be forced to follow regulations",
+            "text_cn": "应该强制遵守规定",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "D",
+            "text": "should be put under public supervision",
+            "text_cn": "应接受公众监督",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      }
+    ],
+    "practice": {
+      "steps": [
+        {
+          "section": "阅前须知",
+          "raw": "# 0.阅前须知\n\n阅前声明，本教程对英语一英语二均适用。\n\n本教程主要解决考研英语阅读备考中的三个结构性问题：\n\n1. **考研英语骗局一**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持认识文章中的所有细节，一个不漏，咱们不可能完全认识文章中的每一个单词，带着不认识的地方读文章做题才是真正的学生视角。即使是有部分超纲生词不认识，从段落和文章主旨、作者态度等宏观阅读文章内容本身分析的层面，也是不影响做全对的；\n\n2. **考研英语骗局二**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接边读边信达雅地翻译出文章，读完一遍只能在脑海里留下大致信息，并且很快遗忘。正确的方式是先粗后细，放弃信达雅的机械翻译，粗读先理解文章大致出现了哪些东西，然后细读采用意群法这种手段实现，即可临危不乱；\n\n3. **考研英语骗局三**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接用某种神技确定某个一定正确的答案。二选一选不出来是个非常正常的现象。用某种神技去秒杀一个文科单选问题违背了逻辑学常识，即孤证不立。通过宏观认知与多判据交叉验证的方式解决，是所有文科单选题的通法。",
+          "html": "<h1>0.阅前须知</h1>\n<p>阅前声明，本教程对英语一英语二均适用。</p>\n<p>本教程主要解决考研英语阅读备考中的三个结构性问题：</p>\n<ol>\n<li><p><strong>考研英语骗局一</strong>：拒绝上帝视角生词全懂，带着超纲生词读宏观主旨同样能做全对；</p></li>\n<li><p><strong>考研英语骗局二</strong>：放弃考场即时信达雅机械翻译，采用意群粗读抓取核心信息；</p></li>\n<li><p><strong>考研英语骗局三</strong>：拒绝所谓单一神技秒杀，采用定位比对与写作视角交叉验证。</p></li>\n</ol>\n<p>大家把考研英语阅读当成真阅读，才能发现真正正确的备考方式。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "# 1. 先读题干\n\n首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰咱们粗读对文章的理解。看题干对考查重点有个大致印象，并且因为题文同序的原则，也能帮助我们提前获取部分文章的逻辑脉络。",
+          "html": "<h1>1. 先读题干</h1><p>首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰粗读理解。看题干对考查重点建立大致印象，借助题文同序原则提前获取文章逻辑脉络。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 31题题干\n\n**Which of the following is true about Madrid’s clean air zone?**\n\n> 以下关于马德里清洁空气区的说法哪一项是正确的？\n\n题型：**事实细节题**。\n\n定位预判：**Paragraph 1**\n\n---",
+          "html": "<h2>31题题干</h2><p><strong>Which of the following is true about Madrid’s clean air zone?</strong></p><blockquote><p>以下关于马德里清洁空气区的说法哪一项是正确的？</p></blockquote><p>题型：<strong>事实细节题</strong>。</p><p>定位预判：<strong>Paragraph 1</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "31"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 32题题干\n\n**What is considered a weakness of the city-level measures to tackle dirty air?**\n\n> 市级空气污染治理措施的弱点是什么？\n\n题型：**因果推断题**。\n\n定位预判：**Paragraph 2**\n\n---",
+          "html": "<h2>32题题干</h2><p><strong>What is considered a weakness of the city-level measures to tackle dirty air?</strong></p><blockquote><p>市级空气污染治理措施的弱点是什么？</p></blockquote><p>题型：<strong>因果推断题</strong>。</p><p>定位预判：<strong>Paragraph 2</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "32"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 33题题干\n\n**The author believes that the extension of London’s Ulez will _____.**\n\n> 作者认为，伦敦 Ulez 的延期将 _____。\n\n题型：**段落推理题**。\n\n定位预判：**Paragraph 3**\n\n---",
+          "html": "<h2>33题题干</h2><p><strong>The author believes that the extension of London’s Ulez will _____.</strong></p><blockquote><p>作者认为，伦敦 Ulez 的延期将 _____。</p></blockquote><p>题型：<strong>段落推理题</strong>。</p><p>定位预判：<strong>Paragraph 3</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "33"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 34题题干\n\n**Who does the author think should have addressed the problem?**\n\n> 作者认为应该由谁来解决这个问题？\n\n题型：**词义/例证题**。\n\n定位预判：**Paragraph 4**\n\n---",
+          "html": "<h2>34题题干</h2><p><strong>Who does the author think should have addressed the problem?</strong></p><blockquote><p>作者认为应该由谁来解决这个问题？</p></blockquote><p>题型：<strong>词义/例证题</strong>。</p><p>定位预判：<strong>Paragraph 4</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "34"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 35题题干\n\n**It can be learned from the last paragraph that auto companies _____.**\n\n> 从最后一段可以得知，汽车公司_____。\n\n题型：**全文主旨题**。\n\n定位预判：**Paragraph 5**\n\n---",
+          "html": "<h2>35题题干</h2><p><strong>It can be learned from the last paragraph that auto companies _____.</strong></p><blockquote><p>从最后一段可以得知，汽车公司_____。</p></blockquote><p>题型：<strong>全文主旨题</strong>。</p><p>定位预判：<strong>Paragraph 5</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "35"
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "# 2. 读文章过程\n\n看完题干后，第一步要粗读一遍文章。根据自身水平扫一遍文章，开头结尾慢一些，注重首尾句，作者举的例子可以略读。关注逻辑词（however, but）、态度评价词、核心动作词与重复主题词。\n\n| 类型 | 关注原因 | 本文关注重点 |\n| --- | --- | --- |\n| 逻辑词 | 作者观点或行文转向 | however, but, nevertheless, yet, although |\n| 态度词 | 作者情感倾向与立场 | critical, positive, resilient, concern, significant |\n| 核心动作 | 论证中主体行为 | argue, demonstrate, implement, undermine |\n| 重复主题词 | 贯穿全篇的核心讨论对象 | 本文核心讨论对象与同义衍生表达 |",
+          "html": "<h1>2. 读文章过程</h1><p>扫读全文，注重段落首尾句，识别论点与论据。关注核心逻辑转折词与态度评价词。</p>\n<table class=\"table-wrap\"><thead><tr><th>类型</th><th>关注原因</th><th>本文关注重点</th></tr></thead>\n<tbody>\n<tr><td>逻辑词</td><td>作者观点或行文转向</td><td>however, but, nevertheless, yet</td></tr>\n<tr><td>态度词</td><td>作者情感倾向与立场</td><td>critical, positive, concern, significant</td></tr>\n<tr><td>核心动作</td><td>论证中主体行为</td><td>argue, demonstrate, implement, undermine</td></tr>\n<tr><td>重复主题词</td><td>贯穿全篇的核心讨论对象</td><td>本文核心论题与衍生词</td></tr>\n</tbody></table>",
+          "meta": {}
+        },
+        {
+          "section": "读文章",
+          "raw": "Madrid was hailed as a public health guiding light last November when it rolled out ambitious [restrictions] on the most [polluting] cars. Seven months and one election day later, a new [conservative] city council suspended enforcement of the clean air zone, a first step toward its possible termination. Mayor José Luis [Martínez-Almeida] made opposition to the zone a centrepiece of his election campaign, despite its success in improving air quality. A judge has now overruled the city’s decision to stop levying fines, ordering them restored. But with legal battles ahead, the zone’s future looks uncertain at best.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Madrid was hailed as a public health guiding light last November when it rolled out ambitious <span class=\"mask\">[restrictions]</span> on the most <span class=\"mask\">[polluting]</span> cars. Seven months and one election day later, a new <span class=\"mask\">[conservative]</span> city council suspended enforcement of the clean air zone, a first step toward its possible termination. Mayor José Luis <span class=\"mask\">[Martínez-Almeida]</span> made opposition to the zone a centrepiece of his election campaign, despite its success in improving air quality. A judge has now overruled the city’s decision to stop levying fines, ordering them restored. But with legal battles ahead, the zone’s future looks uncertain at best.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Madrid was hailed as a public health guiding light last November / when it rolled out ambitious [restrictions] on the most [polluting] cars. / Seven months and one election day later, / a new [conservative] city council suspended enforcement of the clean air zone, / a first step toward its possible termination. / Mayor José Luis [Martínez-Almeida] made opposition to the zone a centrepiece of his election campaign, / despite its success in improving air quality. / A judge has now overruled the city’s decision to stop levying fines, / ordering them restored. / But with legal battles ahead, / the zone’s future looks uncertain at best.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Madrid was hailed as a public health guiding light last November / when it rolled out ambitious <span class=\"mask\">[restrictions]</span> on the most <span class=\"mask\">[polluting]</span> cars. / Seven months and one election day later, / a new <span class=\"mask\">[conservative]</span> city council suspended enforcement of the clean air zone, / a first step toward its possible termination. / Mayor José Luis <span class=\"mask\">[Martínez-Almeida]</span> made opposition to the zone a centrepiece of his election campaign, / despite its success in improving air quality. / A judge has now overruled the city’s decision to stop levying fines, / ordering them restored. / But with legal battles ahead, / the zone’s future looks uncertain at best.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第1段意群顺译】去年11月，马德里对污染最严重的汽车实施了雄心勃勃的限制，被誉为公共卫生的指路明灯。七个月和一个选举日后，新的保守派市议会暂停了清洁空气区的执法，这是其可能终止的第一步。尽管该区域在改善空气质量方面取得了成功，但市长何塞·路易斯·马丁内斯-阿尔梅达仍将反对该区域作为其竞选活动的核...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>【第1段意群顺译】去年11月，马德里对污染最严重的汽车实施了雄心勃勃的限制，被誉为公共卫生的指路明灯。七个月和一个选举日后，新的保守派市议会暂停了清洁空气区的执法，这是其可能终止的第一步。尽管该区域在改善空气质量方面取得了成功，但市长何塞·路易斯·马丁内斯-阿尔梅达仍将反对该区域作为其竞选活动的核...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Madrid’s back and forth on clean air is a pointed reminder of the limits to the [patchwork], city-by-city approach that [characterises] efforts on air [pollution] across Europe, Britain very much included.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Madrid’s back and forth on clean air is a pointed reminder of the limits to the <span class=\"mask\">[patchwork]</span>, city-by-city approach that <span class=\"mask\">[characterises]</span> efforts on air <span class=\"mask\">[pollution]</span> across Europe, Britain very much included.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Madrid’s back and forth on clean air is a pointed reminder of the limits to the [patchwork], / city-by-city approach / that [characterises] efforts on air [pollution] across Europe, / Britain very much included.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Madrid’s back and forth on clean air is a pointed reminder of the limits to the <span class=\"mask\">[patchwork]</span>, / city-by-city approach / that <span class=\"mask\">[characterises]</span> efforts on air <span class=\"mask\">[pollution]</span> across Europe, / Britain very much included.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第2段意群顺译】马德里在清洁空气问题上的来回反复提醒人们，欧洲（包括英国）在空气污染问题上采取的拼凑、逐个城市的做法是有局限性的。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第2段意群顺译】马德里在清洁空气问题上的来回反复提醒人们，欧洲（包括英国）在空气污染问题上采取的拼凑、逐个城市的做法是有局限性的。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Among other weaknesses, the measures cities must employ when left to tackle dirty air on their own are politically [controversial], and therefore vulnerable. That’s because they inevitably put the costs of cleaning the air on to [individual] drivers—who must pay fees or buy better vehicles—rather than on to the car [manufacturers] whose cheating is the real cause of our toxic [pollution]. It’s not hard to imagine a similar reversal [happening] in London. The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election. And if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends, it is sure to spark intense opposition from the far larger number of motorists who will then be affected.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Among other weaknesses, the measures cities must employ when left to tackle dirty air on their own are politically <span class=\"mask\">[controversial]</span>, and therefore vulnerable. That’s because they inevitably put the costs of cleaning the air on to <span class=\"mask\">[individual]</span> drivers—who must pay fees or buy better vehicles—rather than on to the car <span class=\"mask\">[manufacturers]</span> whose cheating is the real cause of our toxic <span class=\"mask\">[pollution]</span>. It’s not hard to imagine a similar reversal <span class=\"mask\">[happening]</span> in London. The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election. And if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends, it is sure to spark intense opposition from the far larger number of motorists who will then be affected.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Among other weaknesses, / the measures cities must employ / when left to tackle dirty air on their own are politically [controversial], / and therefore vulnerable. / That’s / because they inevitably put the costs of cleaning the air on to [individual] drivers—who must pay fees or buy better vehicles—rather than on to the car [manufacturers] / whose cheating is the real cause of our toxic [pollution]. / It’s not hard to imagine a similar reversal [happening] in London. / The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election. / And / if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends, / it is sure to spark intense opposition from the far larger number of motorists / who will then be affected.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Among other weaknesses, / the measures cities must employ / when left to tackle dirty air on their own are politically <span class=\"mask\">[controversial]</span>, / and therefore vulnerable. / That’s / because they inevitably put the costs of cleaning the air on to <span class=\"mask\">[individual]</span> drivers—who must pay fees or buy better vehicles—rather than on to the car <span class=\"mask\">[manufacturers]</span> / whose cheating is the real cause of our toxic <span class=\"mask\">[pollution]</span>. / It’s not hard to imagine a similar reversal <span class=\"mask\">[happening]</span> in London. / The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election. / And / if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends, / it is sure to spark intense opposition from the far larger number of motorists / who will then be affected.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第3段意群顺译】除其他弱点外，城市在自行解决空气污染问题时必须采取的措施在政治上存在争议，因此很脆弱。这是因为他们不可避免地将清洁空气的成本转嫁给了个别司机——他们必须支付费用或购买更好的车辆——而不是转嫁给汽车制造商，而汽车制造商的作弊行为是我们有毒污染的真正原因。不难想象伦敦也会发生类似的逆...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第3段意群顺译】除其他弱点外，城市在自行解决空气污染问题时必须采取的措施在政治上存在争议，因此很脆弱。这是因为他们不可避免地将清洁空气的成本转嫁给了个别司机——他们必须支付费用或购买更好的车辆——而不是转嫁给汽车制造商，而汽车制造商的作弊行为是我们有毒污染的真正原因。不难想象伦敦也会发生类似的逆...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "It’s not that measures such as London’s Ulez are useless. Far from it. Local officials are using the levers that are available to them to safeguard residents’ health in the face of a serious threat. The zones do deliver some [improvements] to air quality, and the science tells us that means real health benefits.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>It’s not that measures such as London’s Ulez are useless. Far from it. Local officials are using the levers that are available to them to safeguard residents’ health in the face of a serious threat. The zones do deliver some <span class=\"mask\">[improvements]</span> to air quality, and the science tells us that means real health benefits.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "It’s not / that measures such as London’s Ulez are useless. / Far from it. / Local officials are using the levers / that are available to them to safeguard residents’ health in the face of a serious threat. / The zones do deliver some [improvements] to air quality, / and the science tells us / that means real health benefits.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>It’s not / that measures such as London’s Ulez are useless. / Far from it. / Local officials are using the levers / that are available to them to safeguard residents’ health in the face of a serious threat. / The zones do deliver some <span class=\"mask\">[improvements]</span> to air quality, / and the science tells us / that means real health benefits.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第4段意群顺译】这并不是说伦敦的乌勒兹等措施毫无用处。远非如此。面对严重威胁，当地官员正在利用可用的手段来保护居民的健康。这些区域确实改善了空气质量，科学告诉我们这意味着真正的健康益处。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第4段意群顺译】这并不是说伦敦的乌勒兹等措施毫无用处。远非如此。面对严重威胁，当地官员正在利用可用的手段来保护居民的健康。这些区域确实改善了空气质量，科学告诉我们这意味着真正的健康益处。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "But mayors and councillors can only do so much about a problem that is far bigger than any one city or town. They are acting because national governments—Britain’s and others across Europe—have failed to do so.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>But mayors and councillors can only do so much about a problem that is far bigger than any one city or town. They are acting because national governments—Britain’s and others across Europe—have failed to do so.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "But mayors and councillors can only do so much about a problem / that is far bigger than any one city or town. / They are acting / because national governments—Britain’s and others across Europe—have failed to do so.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>But mayors and councillors can only do so much about a problem / that is far bigger than any one city or town. / They are acting / because national governments—Britain’s and others across Europe—have failed to do so.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第5段意群顺译】但市长和议员们对于这个比任何一个城市或城镇都严重得多的问题只能做这么多。他们之所以采取行动，是因为英国和欧洲其他国家政府未能这样做。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第5段意群顺译】但市长和议员们对于这个比任何一个城市或城镇都严重得多的问题只能做这么多。他们之所以采取行动，是因为英国和欧洲其他国家政府未能这样做。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 4,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "[Restrictions] that keep highly [polluting] cars out of certain areas—city centres, “school streets”, even [individual] roads—are a response to the absence of a larger effort to properly enforce existing regulations and require auto [companies] to bring their vehicles into compliance. Wales has introduced special low speed limits to minimise [pollution]. We’re doing everything but insist that [manufacturers] clean up their cars.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p><span class=\"mask\">[Restrictions]</span> that keep highly <span class=\"mask\">[polluting]</span> cars out of certain areas—city centres, “school streets”, even <span class=\"mask\">[individual]</span> roads—are a response to the absence of a larger effort to properly enforce existing regulations and require auto <span class=\"mask\">[companies]</span> to bring their vehicles into compliance. Wales has introduced special low speed limits to minimise <span class=\"mask\">[pollution]</span>. We’re doing everything but insist that <span class=\"mask\">[manufacturers]</span> clean up their cars.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "[Restrictions] / that keep highly [polluting] cars out of certain areas—city centres, / “school streets”, / even [individual] roads—are a response to the absence of a larger effort to properly enforce existing regulations and require auto [companies] to bring their vehicles into compliance. / Wales has introduced special low speed limits to minimise [pollution]. / We’re doing everything but insist / that [manufacturers] clean up their cars.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p><span class=\"mask\">[Restrictions]</span> / that keep highly <span class=\"mask\">[polluting]</span> cars out of certain areas—city centres, / “school streets”, / even <span class=\"mask\">[individual]</span> roads—are a response to the absence of a larger effort to properly enforce existing regulations and require auto <span class=\"mask\">[companies]</span> to bring their vehicles into compliance. / Wales has introduced special low speed limits to minimise <span class=\"mask\">[pollution]</span>. / We’re doing everything but insist / that <span class=\"mask\">[manufacturers]</span> clean up their cars.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第6段意群顺译】限制高污染汽车进入某些区域（市中心、“学校街道”，甚至个别道路）的原因是缺乏更大努力来正确执行现有法规并要求汽车公司使其车辆符合规定。威尔士实行了特殊的低速限制，以尽量减少污染。我们正在尽一切努力，但坚持要求制造商清理他们的汽车。...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第6段意群顺译】限制高污染汽车进入某些区域（市中心、“学校街道”，甚至个别道路）的原因是缺乏更大努力来正确执行现有法规并要求汽车公司使其车辆符合规定。威尔士实行了特殊的低速限制，以尽量减少污染。我们正在尽一切努力，但坚持要求制造商清理他们的汽车。...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 5,
+            "form": 3
+          }
+        },
+        {
+          "section": "做题过程",
+          "raw": "# 3. 开始做题 (31-35题)\n\n粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。",
+          "html": "<h1>3. 开始做题 (31-35题)</h1><p>粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。</p>",
+          "meta": {}
+        },
+        {
+          "section": "31题",
+          "raw": "## 31题\n\n**Which of the following is true about Madrid’s clean air zone?**\n\n> 以下关于马德里清洁空气区的说法哪一项是正确的？\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> Madrid was hailed as a public health guiding light last November when it rolled out ambitious [restrictions] on the most [polluting] cars. Seven months and one election day later, a new [conservative] city council suspended enforcement of the clean air zone, a first step toward its possible termination. Mayor José Luis [Martínez-Almeida] made opposition to the zone a centrepiece of his election campaign, despite its success in improving air quality. A judge has now overruled the city’s decision to stop levying fines, ordering them restored. But with legal battles ahead, the zone’s future looks uncertain at best.\n>\n> 开始精读：\n>\n> Madrid was hailed as a public health guiding light last November / when it rolled out ambitious [restrictions] on the most [polluting] cars. / Seven months and one election day later, / a new [conservative] city council suspended enforcement of the clean air zone, / a first step toward its possible termination. / Mayor José Luis [Martínez-Almeida] made opposition to the zone a centrepiece of his election campaign, / despite its success in improving air quality. / A judge has now overruled the city’s decision to stop levying fines, / ordering them restored. / But with legal battles ahead, / the zone’s future looks uncertain at best.\n>\n> 逐意群顺译：\n>\n> 去年11月，马德里对污染最严重的汽车实施了雄心勃勃的限制，被誉为公共卫生的指路明灯。七个月和一个选举日后，新的保守派市议会暂停了清洁空气区的执法，这是其可能终止的第一步。尽管该区域在改善空气质量方面取得了成功，但市长何塞·路易斯·马丁内斯-阿尔梅达仍将反对该区域作为其竞选活动的核心内容。一名法官现已驳回该市停止征收罚款的决定，并下令恢复罚款。但随着未来的法律斗争，该地区的未来充其量也是不确定的。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>31题</h2>\n<p><strong>Which of the following is true about Madrid’s clean air zone?</strong></p>\n<blockquote><p>以下关于马德里清洁空气区的说法哪一项是正确的？</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Madrid was hailed as a public health guiding light last November when it rolled out ambitious <span class=\"mask\">[restrictions]</span> on the most <span class=\"mask\">[polluting]</span> cars. Seven months and one election day later, a new <span class=\"mask\">[conservative]</span> city council suspended enforcement of the clean air zone, a first step toward its possible termination. Mayor José Luis <span class=\"mask\">[Martínez-Almeida]</span> made opposition to the zone a centrepiece of his election campaign, despite its success in improving air quality. A judge has now overruled the city’s decision to stop levying fines, ordering them restored. But with legal battles ahead, the zone’s future looks uncertain at best.</p>\n<p><strong>开始精读：</strong></p>\n<p>Madrid was hailed as a public health guiding light last November / when it rolled out ambitious <span class=\"mask\">[restrictions]</span> on the most <span class=\"mask\">[polluting]</span> cars. / Seven months and one election day later, / a new <span class=\"mask\">[conservative]</span> city council suspended enforcement of the clean air zone, / a first step toward its possible termination. / Mayor José Luis <span class=\"mask\">[Martínez-Almeida]</span> made opposition to the zone a centrepiece of his election campaign, / despite its success in improving air quality. / A judge has now overruled the city’s decision to stop levying fines, / ordering them restored. / But with legal battles ahead, / the zone’s future looks uncertain at best.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>去年11月，马德里对污染最严重的汽车实施了雄心勃勃的限制，被誉为公共卫生的指路明灯。七个月和一个选举日后，新的保守派市议会暂停了清洁空气区的执法，这是其可能终止的第一步。尽管该区域在改善空气质量方面取得了成功，但市长何塞·路易斯·马丁内斯-阿尔梅达仍将反对该区域作为其竞选活动的核心内容。一名法官现已驳回该市停止征收罚款的决定，并下令恢复罚款。但随着未来的法律斗争，该地区的未来充其量也是不确定的。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "31"
+          }
+        },
+        {
+          "section": "31题",
+          "raw": "### A. Its effects are questionable.\n\n> 其效果值得怀疑。\n\n我们先看 A 选项：`Its effects are questionable.`（其效果值得怀疑。）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下关于马德里清洁空气区的说法哪一项是正确的？ ➔ 选项认为：其效果值得怀疑。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“其效果值得怀疑。”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. Its effects are questionable.</h3>\n<blockquote><p>其效果值得怀疑。</p></blockquote>\n<p>我们先看 A 选项：<code>Its effects are questionable.</code>（其效果值得怀疑。）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下关于马德里清洁空气区的说法哪一项是正确的？ ➔ 选项认为：其效果值得怀疑。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“其效果值得怀疑。”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "31",
+            "option": "A"
+          }
+        },
+        {
+          "section": "31题",
+          "raw": "### B. It has been opposed by a judge.\n\n> 但遭到法官的反对。\n\n我们先看 B 选项：`It has been opposed by a judge.`（但遭到法官的反对。）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下关于马德里清洁空气区的说法哪一项是正确的？ ➔ 选项认为：但遭到法官的反对。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“但遭到法官的反对。”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. It has been opposed by a judge.</h3>\n<blockquote><p>但遭到法官的反对。</p></blockquote>\n<p>我们先看 B 选项：<code>It has been opposed by a judge.</code>（但遭到法官的反对。）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下关于马德里清洁空气区的说法哪一项是正确的？ ➔ 选项认为：但遭到法官的反对。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“但遭到法官的反对。”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "31",
+            "option": "B"
+          }
+        },
+        {
+          "section": "31题",
+          "raw": "### C. It needs tougher enforcement.\n\n> 需要更严厉的执法。\n\n我们先看 C 选项：`It needs tougher enforcement.`（需要更严厉的执法。）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下关于马德里清洁空气区的说法哪一项是正确的？ ➔ 选项认为：需要更严厉的执法。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `needs`, `tougher`, `enforcement` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. It needs tougher enforcement.</h3>\n<blockquote><p>需要更严厉的执法。</p></blockquote>\n<p>我们先看 C 选项：<code>It needs tougher enforcement.</code>（需要更严厉的执法。）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下关于马德里清洁空气区的说法哪一项是正确的？ ➔ 选项认为：需要更严厉的执法。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>needs</code>, <code>tougher</code>, <code>enforcement</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "31",
+            "option": "C"
+          }
+        },
+        {
+          "section": "31题",
+          "raw": "### D. Its fate is yet to be decided.\n\n> 它的命运尚未决定。\n\n我们先看 D 选项：`Its fate is yet to be decided.`（它的命运尚未决定。）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下关于马德里清洁空气区的说法哪一项是正确的？ ➔ 选项认为：它的命运尚未决定。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `Its`, `fate`, `yet` 与原文第 1 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：D强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>D. Its fate is yet to be decided.</h3>\n<blockquote><p>它的命运尚未决定。</p></blockquote>\n<p>我们先看 D 选项：<code>Its fate is yet to be decided.</code>（它的命运尚未决定。）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下关于马德里清洁空气区的说法哪一项是正确的？ ➔ 选项认为：它的命运尚未决定。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>Its</code>, <code>fate</code>, <code>yet</code> 与原文第 1 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：D强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "31",
+            "option": "D"
+          }
+        },
+        {
+          "section": "31题",
+          "raw": "### 31题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D强保留，与原文定位信息高度吻合；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>31题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D强保留，与原文定位信息高度吻合</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "31"
+          }
+        },
+        {
+          "section": "32题",
+          "raw": "## 32题\n\n**What is considered a weakness of the city-level measures to tackle dirty air?**\n\n> 市级空气污染治理措施的弱点是什么？\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> Madrid’s back and forth on clean air is a pointed reminder of the limits to the [patchwork], city-by-city approach that [characterises] efforts on air [pollution] across Europe, Britain very much included.\n>\n> 开始精读：\n>\n> Madrid’s back and forth on clean air is a pointed reminder of the limits to the [patchwork], / city-by-city approach / that [characterises] efforts on air [pollution] across Europe, / Britain very much included.\n>\n> 逐意群顺译：\n>\n> 马德里在清洁空气问题上的来回反复提醒人们，欧洲（包括英国）在空气污染问题上采取的拼凑、逐个城市的做法是有局限性的。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>32题</h2>\n<p><strong>What is considered a weakness of the city-level measures to tackle dirty air?</strong></p>\n<blockquote><p>市级空气污染治理措施的弱点是什么？</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Madrid’s back and forth on clean air is a pointed reminder of the limits to the <span class=\"mask\">[patchwork]</span>, city-by-city approach that <span class=\"mask\">[characterises]</span> efforts on air <span class=\"mask\">[pollution]</span> across Europe, Britain very much included.</p>\n<p><strong>开始精读：</strong></p>\n<p>Madrid’s back and forth on clean air is a pointed reminder of the limits to the <span class=\"mask\">[patchwork]</span>, / city-by-city approach / that <span class=\"mask\">[characterises]</span> efforts on air <span class=\"mask\">[pollution]</span> across Europe, / Britain very much included.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>马德里在清洁空气问题上的来回反复提醒人们，欧洲（包括英国）在空气污染问题上采取的拼凑、逐个城市的做法是有局限性的。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "32"
+          }
+        },
+        {
+          "section": "32题",
+          "raw": "### A. They put the burden on individual motorists.\n\n> 他们把负担强加给了个别驾车者。\n\n我们先看 A 选项：`They put the burden on individual motorists.`（他们把负担强加给了个别驾车者。）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：市级空气污染治理措施的弱点是什么？ ➔ 选项认为：他们把负担强加给了个别驾车者。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `They`, `put`, `burden` 与原文第 2 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：A强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>A. They put the burden on individual motorists.</h3>\n<blockquote><p>他们把负担强加给了个别驾车者。</p></blockquote>\n<p>我们先看 A 选项：<code>They put the burden on individual motorists.</code>（他们把负担强加给了个别驾车者。）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：市级空气污染治理措施的弱点是什么？ ➔ 选项认为：他们把负担强加给了个别驾车者。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>They</code>, <code>put</code>, <code>burden</code> 与原文第 2 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 A 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：A强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "32",
+            "option": "A"
+          }
+        },
+        {
+          "section": "32题",
+          "raw": "### B. They prove impractical for city councils.\n\n> 事实证明，它们对于市议会来说是不切实际的。\n\n我们先看 B 选项：`They prove impractical for city councils.`（事实证明，它们对于市议会来说是不切实际的。）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：市级空气污染治理措施的弱点是什么？ ➔ 选项认为：事实证明，它们对于市议会来说是不切实际的。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“事实证明，它们对于市议会来说是不切实际的。”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. They prove impractical for city councils.</h3>\n<blockquote><p>事实证明，它们对于市议会来说是不切实际的。</p></blockquote>\n<p>我们先看 B 选项：<code>They prove impractical for city councils.</code>（事实证明，它们对于市议会来说是不切实际的。）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：市级空气污染治理措施的弱点是什么？ ➔ 选项认为：事实证明，它们对于市议会来说是不切实际的。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“事实证明，它们对于市议会来说是不切实际的。”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "32",
+            "option": "B"
+          }
+        },
+        {
+          "section": "32题",
+          "raw": "### C. They are deemed too mild by politicians.\n\n> 政客们认为他们过于温和。\n\n我们先看 C 选项：`They are deemed too mild by politicians.`（政客们认为他们过于温和。）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：市级空气污染治理措施的弱点是什么？ ➔ 选项认为：政客们认为他们过于温和。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“政客们认为他们过于温和。”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. They are deemed too mild by politicians.</h3>\n<blockquote><p>政客们认为他们过于温和。</p></blockquote>\n<p>我们先看 C 选项：<code>They are deemed too mild by politicians.</code>（政客们认为他们过于温和。）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：市级空气污染治理措施的弱点是什么？ ➔ 选项认为：政客们认为他们过于温和。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“政客们认为他们过于温和。”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "32",
+            "option": "C"
+          }
+        },
+        {
+          "section": "32题",
+          "raw": "### D. They are biased against car manufacturers.\n\n> 他们对汽车制造商有偏见。\n\n我们先看 D 选项：`They are biased against car manufacturers.`（他们对汽车制造商有偏见。）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：市级空气污染治理措施的弱点是什么？ ➔ 选项认为：他们对汽车制造商有偏见。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `They`, `are`, `biased` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 2 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. They are biased against car manufacturers.</h3>\n<blockquote><p>他们对汽车制造商有偏见。</p></blockquote>\n<p>我们先看 D 选项：<code>They are biased against car manufacturers.</code>（他们对汽车制造商有偏见。）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：市级空气污染治理措施的弱点是什么？ ➔ 选项认为：他们对汽车制造商有偏见。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>They</code>, <code>are</code>, <code>biased</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 2 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "32",
+            "option": "D"
+          }
+        },
+        {
+          "section": "32题",
+          "raw": "### 32题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A强保留，与原文定位信息高度吻合；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>32题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A强保留，与原文定位信息高度吻合</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "32"
+          }
+        },
+        {
+          "section": "33题",
+          "raw": "## 33题\n\n**The author believes that the extension of London’s Ulez will _____.**\n\n> 作者认为，伦敦 Ulez 的延期将 _____。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> Among other weaknesses, the measures cities must employ when left to tackle dirty air on their own are politically [controversial], and therefore vulnerable. That’s because they inevitably put the costs of cleaning the air on to [individual] drivers—who must pay fees or buy better vehicles—rather than on to the car [manufacturers] whose cheating is the real cause of our toxic [pollution]. It’s not hard to imagine a similar reversal [happening] in London. The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election. And if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends, it is sure to spark intense opposition from the far larger number of motorists who will then be affected.\n>\n> 开始精读：\n>\n> Among other weaknesses, / the measures cities must employ / when left to tackle dirty air on their own are politically [controversial], / and therefore vulnerable. / That’s / because they inevitably put the costs of cleaning the air on to [individual] drivers—who must pay fees or buy better vehicles—rather than on to the car [manufacturers] / whose cheating is the real cause of our toxic [pollution]. / It’s not hard to imagine a similar reversal [happening] in London. / The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election. / And / if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends, / it is sure to spark intense opposition from the far larger number of motorists / who will then be affected.\n>\n> 逐意群顺译：\n>\n> 除其他弱点外，城市在自行解决空气污染问题时必须采取的措施在政治上存在争议，因此很脆弱。这是因为他们不可避免地将清洁空气的成本转嫁给了个别司机——他们必须支付费用或购买更好的车辆——而不是转嫁给汽车制造商，而汽车制造商的作弊行为是我们有毒污染的真正原因。不难想象伦敦也会发生类似的逆转。新的超低排放区（Ulez）很可能成为明年市长选举的一个大问题。如果萨迪克·汗（Sadiq Khan）获胜并按照他的意愿在 2021 年将其扩展到南北环路，那么肯定会引发更多驾车者的强烈反对，届时他们将受到影响。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>33题</h2>\n<p><strong>The author believes that the extension of London’s Ulez will _____.</strong></p>\n<blockquote><p>作者认为，伦敦 Ulez 的延期将 _____。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Among other weaknesses, the measures cities must employ when left to tackle dirty air on their own are politically <span class=\"mask\">[controversial]</span>, and therefore vulnerable. That’s because they inevitably put the costs of cleaning the air on to <span class=\"mask\">[individual]</span> drivers—who must pay fees or buy better vehicles—rather than on to the car <span class=\"mask\">[manufacturers]</span> whose cheating is the real cause of our toxic <span class=\"mask\">[pollution]</span>. It’s not hard to imagine a similar reversal <span class=\"mask\">[happening]</span> in London. The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election. And if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends, it is sure to spark intense opposition from the far larger number of motorists who will then be affected.</p>\n<p><strong>开始精读：</strong></p>\n<p>Among other weaknesses, / the measures cities must employ / when left to tackle dirty air on their own are politically <span class=\"mask\">[controversial]</span>, / and therefore vulnerable. / That’s / because they inevitably put the costs of cleaning the air on to <span class=\"mask\">[individual]</span> drivers—who must pay fees or buy better vehicles—rather than on to the car <span class=\"mask\">[manufacturers]</span> / whose cheating is the real cause of our toxic <span class=\"mask\">[pollution]</span>. / It’s not hard to imagine a similar reversal <span class=\"mask\">[happening]</span> in London. / The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election. / And / if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends, / it is sure to spark intense opposition from the far larger number of motorists / who will then be affected.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>除其他弱点外，城市在自行解决空气污染问题时必须采取的措施在政治上存在争议，因此很脆弱。这是因为他们不可避免地将清洁空气的成本转嫁给了个别司机——他们必须支付费用或购买更好的车辆——而不是转嫁给汽车制造商，而汽车制造商的作弊行为是我们有毒污染的真正原因。不难想象伦敦也会发生类似的逆转。新的超低排放区（Ulez）很可能成为明年市长选举的一个大问题。如果萨迪克·汗（Sadiq Khan）获胜并按照他的意愿在 2021 年将其扩展到南北环路，那么肯定会引发更多驾车者的强烈反对，届时他们将受到影响。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "33"
+          }
+        },
+        {
+          "section": "33题",
+          "raw": "### A. ensure Khan’s electoral success\n\n> 确保汗的选举成功\n\n我们先看 A 选项：`ensure Khan’s electoral success`（确保汗的选举成功）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者认为，伦敦 Ulez 的延期将 “确保汗的选举成功”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `ensure`, `Khan`, `electoral` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. ensure Khan’s electoral success</h3>\n<blockquote><p>确保汗的选举成功</p></blockquote>\n<p>我们先看 A 选项：<code>ensure Khan’s electoral success</code>（确保汗的选举成功）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者认为，伦敦 Ulez 的延期将 “确保汗的选举成功”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>ensure</code>, <code>Khan</code>, <code>electoral</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "33",
+            "option": "A"
+          }
+        },
+        {
+          "section": "33题",
+          "raw": "### B. arouse strong resistance\n\n> 激起强烈反抗\n\n我们先看 B 选项：`arouse strong resistance`（激起强烈反抗）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者认为，伦敦 Ulez 的延期将 “激起强烈反抗”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `arouse`, `strong`, `resistance` 与原文第 3 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：B强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>B. arouse strong resistance</h3>\n<blockquote><p>激起强烈反抗</p></blockquote>\n<p>我们先看 B 选项：<code>arouse strong resistance</code>（激起强烈反抗）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者认为，伦敦 Ulez 的延期将 “激起强烈反抗”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>arouse</code>, <code>strong</code>, <code>resistance</code> 与原文第 3 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：B强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "33",
+            "option": "B"
+          }
+        },
+        {
+          "section": "33题",
+          "raw": "### C. improve the city’s traffic\n\n> 改善城市交通\n\n我们先看 C 选项：`improve the city’s traffic`（改善城市交通）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者认为，伦敦 Ulez 的延期将 “改善城市交通”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“改善城市交通”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. improve the city’s traffic</h3>\n<blockquote><p>改善城市交通</p></blockquote>\n<p>我们先看 C 选项：<code>improve the city’s traffic</code>（改善城市交通）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者认为，伦敦 Ulez 的延期将 “改善城市交通”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“改善城市交通”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "33",
+            "option": "C"
+          }
+        },
+        {
+          "section": "33题",
+          "raw": "### D. discourage car manufacturing\n\n> 阻碍汽车制造\n\n我们先看 D 选项：`discourage car manufacturing`（阻碍汽车制造）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者认为，伦敦 Ulez 的延期将 “阻碍汽车制造”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `discourage`, `car`, `manufacturing` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. discourage car manufacturing</h3>\n<blockquote><p>阻碍汽车制造</p></blockquote>\n<p>我们先看 D 选项：<code>discourage car manufacturing</code>（阻碍汽车制造）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者认为，伦敦 Ulez 的延期将 “阻碍汽车制造”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>discourage</code>, <code>car</code>, <code>manufacturing</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "33",
+            "option": "D"
+          }
+        },
+        {
+          "section": "33题",
+          "raw": "### 33题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B强保留，与原文定位信息高度吻合；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>33题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B强保留，与原文定位信息高度吻合</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "33"
+          }
+        },
+        {
+          "section": "34题",
+          "raw": "## 34题\n\n**Who does the author think should have addressed the problem?**\n\n> 作者认为应该由谁来解决这个问题？\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> It’s not that measures such as London’s Ulez are useless. Far from it. Local officials are using the levers that are available to them to safeguard residents’ health in the face of a serious threat. The zones do deliver some [improvements] to air quality, and the science tells us that means real health benefits.\n>\n> 开始精读：\n>\n> It’s not / that measures such as London’s Ulez are useless. / Far from it. / Local officials are using the levers / that are available to them to safeguard residents’ health in the face of a serious threat. / The zones do deliver some [improvements] to air quality, / and the science tells us / that means real health benefits.\n>\n> 逐意群顺译：\n>\n> 这并不是说伦敦的乌勒兹等措施毫无用处。远非如此。面对严重威胁，当地官员正在利用可用的手段来保护居民的健康。这些区域确实改善了空气质量，科学告诉我们这意味着真正的健康益处。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>34题</h2>\n<p><strong>Who does the author think should have addressed the problem?</strong></p>\n<blockquote><p>作者认为应该由谁来解决这个问题？</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>It’s not that measures such as London’s Ulez are useless. Far from it. Local officials are using the levers that are available to them to safeguard residents’ health in the face of a serious threat. The zones do deliver some <span class=\"mask\">[improvements]</span> to air quality, and the science tells us that means real health benefits.</p>\n<p><strong>开始精读：</strong></p>\n<p>It’s not / that measures such as London’s Ulez are useless. / Far from it. / Local officials are using the levers / that are available to them to safeguard residents’ health in the face of a serious threat. / The zones do deliver some <span class=\"mask\">[improvements]</span> to air quality, / and the science tells us / that means real health benefits.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>这并不是说伦敦的乌勒兹等措施毫无用处。远非如此。面对严重威胁，当地官员正在利用可用的手段来保护居民的健康。这些区域确实改善了空气质量，科学告诉我们这意味着真正的健康益处。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "34"
+          }
+        },
+        {
+          "section": "34题",
+          "raw": "### A. Local residents.\n\n> 当地居民。\n\n我们先看 A 选项：`Local residents.`（当地居民。）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者认为应该由谁来解决这个问题？ ➔ 选项认为：当地居民。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“当地居民。”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. Local residents.</h3>\n<blockquote><p>当地居民。</p></blockquote>\n<p>我们先看 A 选项：<code>Local residents.</code>（当地居民。）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者认为应该由谁来解决这个问题？ ➔ 选项认为：当地居民。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“当地居民。”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "34",
+            "option": "A"
+          }
+        },
+        {
+          "section": "34题",
+          "raw": "### B. National governments.\n\n> 各国政府。\n\n我们先看 B 选项：`National governments.`（各国政府。）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者认为应该由谁来解决这个问题？ ➔ 选项认为：各国政府。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `National`, `governments` 与原文第 4 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：B强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>B. National governments.</h3>\n<blockquote><p>各国政府。</p></blockquote>\n<p>我们先看 B 选项：<code>National governments.</code>（各国政府。）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者认为应该由谁来解决这个问题？ ➔ 选项认为：各国政府。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>National</code>, <code>governments</code> 与原文第 4 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：B强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "34",
+            "option": "B"
+          }
+        },
+        {
+          "section": "34题",
+          "raw": "### C. Councillors.\n\n> 议员们。\n\n我们先看 C 选项：`Councillors.`（议员们。）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者认为应该由谁来解决这个问题？ ➔ 选项认为：议员们。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `Councillors` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. Councillors.</h3>\n<blockquote><p>议员们。</p></blockquote>\n<p>我们先看 C 选项：<code>Councillors.</code>（议员们。）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者认为应该由谁来解决这个问题？ ➔ 选项认为：议员们。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>Councillors</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "34",
+            "option": "C"
+          }
+        },
+        {
+          "section": "34题",
+          "raw": "### D. Mayors.\n\n> 市长们。\n\n我们先看 D 选项：`Mayors.`（市长们。）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者认为应该由谁来解决这个问题？ ➔ 选项认为：市长们。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“市长们。”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. Mayors.</h3>\n<blockquote><p>市长们。</p></blockquote>\n<p>我们先看 D 选项：<code>Mayors.</code>（市长们。）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者认为应该由谁来解决这个问题？ ➔ 选项认为：市长们。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“市长们。”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "34",
+            "option": "D"
+          }
+        },
+        {
+          "section": "34题",
+          "raw": "### 34题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B强保留，与原文定位信息高度吻合；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>34题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B强保留，与原文定位信息高度吻合</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "34"
+          }
+        },
+        {
+          "section": "35题",
+          "raw": "## 35题\n\n**It can be learned from the last paragraph that auto companies _____.**\n\n> 从最后一段可以得知，汽车公司_____。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 5 段展开，所以我们直接回第 5 段定位精读。\n\n> 原文参考：\n>\n> But mayors and councillors can only do so much about a problem that is far bigger than any one city or town. They are acting because national governments—Britain’s and others across Europe—have failed to do so.\n>\n> 开始精读：\n>\n> But mayors and councillors can only do so much about a problem / that is far bigger than any one city or town. / They are acting / because national governments—Britain’s and others across Europe—have failed to do so.\n>\n> 逐意群顺译：\n>\n> 但市长和议员们对于这个比任何一个城市或城镇都严重得多的问题只能做这么多。他们之所以采取行动，是因为英国和欧洲其他国家政府未能这样做。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>35题</h2>\n<p><strong>It can be learned from the last paragraph that auto companies _____.</strong></p>\n<blockquote><p>从最后一段可以得知，汽车公司_____。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>5</strong> 段展开，所以我们直接回第 <strong>5</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>But mayors and councillors can only do so much about a problem that is far bigger than any one city or town. They are acting because national governments—Britain’s and others across Europe—have failed to do so.</p>\n<p><strong>开始精读：</strong></p>\n<p>But mayors and councillors can only do so much about a problem / that is far bigger than any one city or town. / They are acting / because national governments—Britain’s and others across Europe—have failed to do so.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>但市长和议员们对于这个比任何一个城市或城镇都严重得多的问题只能做这么多。他们之所以采取行动，是因为英国和欧洲其他国家政府未能这样做。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "35"
+          }
+        },
+        {
+          "section": "35题",
+          "raw": "### A. will raise low-emission car production\n\n> 将提高低排放汽车产量\n\n我们先看 A 选项：`will raise low-emission car production`（将提高低排放汽车产量）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从最后一段可以得知，汽车公司“将提高低排放汽车产量”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“将提高低排放汽车产量”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 5 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. will raise low-emission car production</h3>\n<blockquote><p>将提高低排放汽车产量</p></blockquote>\n<p>我们先看 A 选项：<code>will raise low-emission car production</code>（将提高低排放汽车产量）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从最后一段可以得知，汽车公司“将提高低排放汽车产量”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“将提高低排放汽车产量”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 5 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "35",
+            "option": "A"
+          }
+        },
+        {
+          "section": "35题",
+          "raw": "### B. will upgrade the design of their vehicles\n\n> 将升级他们的车辆的设计\n\n我们先看 B 选项：`will upgrade the design of their vehicles`（将升级他们的车辆的设计）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从最后一段可以得知，汽车公司“将升级他们的车辆的设计”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“将升级他们的车辆的设计”，但在原文第 5 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. will upgrade the design of their vehicles</h3>\n<blockquote><p>将升级他们的车辆的设计</p></blockquote>\n<p>我们先看 B 选项：<code>will upgrade the design of their vehicles</code>（将升级他们的车辆的设计）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从最后一段可以得知，汽车公司“将升级他们的车辆的设计”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“将升级他们的车辆的设计”，但在原文第 5 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "35",
+            "option": "B"
+          }
+        },
+        {
+          "section": "35题",
+          "raw": "### C. should be forced to follow regulations\n\n> 应该强制遵守规定\n\n我们先看 C 选项：`should be forced to follow regulations`（应该强制遵守规定）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从最后一段可以得知，汽车公司“应该强制遵守规定”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `should`, `forced`, `follow` 与原文第 5 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 5 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：C强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>C. should be forced to follow regulations</h3>\n<blockquote><p>应该强制遵守规定</p></blockquote>\n<p>我们先看 C 选项：<code>should be forced to follow regulations</code>（应该强制遵守规定）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从最后一段可以得知，汽车公司“应该强制遵守规定”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>should</code>, <code>forced</code>, <code>follow</code> 与原文第 5 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 5 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：C强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "35",
+            "option": "C"
+          }
+        },
+        {
+          "section": "35题",
+          "raw": "### D. should be put under public supervision\n\n> 应接受公众监督\n\n我们先看 D 选项：`should be put under public supervision`（应接受公众监督）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从最后一段可以得知，汽车公司“应接受公众监督”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“应接受公众监督”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. should be put under public supervision</h3>\n<blockquote><p>应接受公众监督</p></blockquote>\n<p>我们先看 D 选项：<code>should be put under public supervision</code>（应接受公众监督）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从最后一段可以得知，汽车公司“应接受公众监督”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“应接受公众监督”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "35",
+            "option": "D"
+          }
+        },
+        {
+          "section": "35题",
+          "raw": "### 35题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C强保留，与原文定位信息高度吻合；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>35题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C强保留，与原文定位信息高度吻合</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "35"
+          }
+        },
+        {
+          "section": "进阶技巧",
+          "raw": "# 4. 进阶技巧：交叉验证冲全对\n\n当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。",
+          "html": "<h1>4. 进阶技巧：交叉验证冲全对</h1><p>当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。</p>",
+          "meta": {}
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查31题交叉验证\n\n**题干**：Which of the following is true about Madrid’s clean air zone?\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **D**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **D**。\n\n**31题选 D。**",
+          "html": "<h2>回查31题交叉验证</h2>\n<p><strong>题干</strong>：Which of the following is true about Madrid’s clean air zone?</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>D</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">D</span></strong>。</p>\n<p><strong>31题选 D。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "31"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查32题交叉验证\n\n**题干**：What is considered a weakness of the city-level measures to tackle dirty air?\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **A**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **A**。\n\n**32题选 A。**",
+          "html": "<h2>回查32题交叉验证</h2>\n<p><strong>题干</strong>：What is considered a weakness of the city-level measures to tackle dirty air?</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>A</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">A</span></strong>。</p>\n<p><strong>32题选 A。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "32"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查33题交叉验证\n\n**题干**：The author believes that the extension of London’s Ulez will _____.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **B**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **B**。\n\n**33题选 B。**",
+          "html": "<h2>回查33题交叉验证</h2>\n<p><strong>题干</strong>：The author believes that the extension of London’s Ulez will _____.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>B</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">B</span></strong>。</p>\n<p><strong>33题选 B。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "33"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查34题交叉验证\n\n**题干**：Who does the author think should have addressed the problem?\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **B**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **B**。\n\n**34题选 B。**",
+          "html": "<h2>回查34题交叉验证</h2>\n<p><strong>题干</strong>：Who does the author think should have addressed the problem?</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>B</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">B</span></strong>。</p>\n<p><strong>34题选 B。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "34"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查35题交叉验证\n\n**题干**：It can be learned from the last paragraph that auto companies _____.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **C**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **C**。\n\n**35题选 C。**",
+          "html": "<h2>回查35题交叉验证</h2>\n<p><strong>题干</strong>：It can be learned from the last paragraph that auto companies _____.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>C</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">C</span></strong>。</p>\n<p><strong>35题选 C。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "35"
+          }
+        },
+        {
+          "section": "最终答案",
+          "raw": "# 5. 最终答案汇总\n\n**31. D**\n\n**32. A**\n\n**33. B**\n\n**34. B**\n\n**35. C**\n\n恭喜完成本篇阅读的做题推演！建议点击顶栏切换至【复盘模式（一石五鸟）】进行全方位深度吸收。",
+          "html": "<h1>5. 最终答案汇总</h1><div style=\"background:#f0fdf4;border:1px solid #bbf7d0;padding:16px;border-radius:8px;font-size:18px;line-height:2;color:#166534\">**31. D**<br><br>**32. A**<br><br>**33. B**<br><br>**34. B**<br><br>**35. C**</div><p style=\"margin-top:16px\">恭喜完成本篇阅读的做题推演！建议点击顶栏切换至<strong>【复盘模式（一石五鸟）】</strong>进行全方位深度吸收。</p>",
+          "meta": {
+            "kind": "final"
+          }
+        }
+      ]
+    },
+    "review": {
+      "steps": [
+        {
+          "section": 0,
+          "title": "省流：一石五鸟法怎么做",
+          "html": "<p>一石五鸟复盘法将一篇阅读真题价值吃干榨净，同时打通词汇、长难句与翻译、阅读解题思维、新题型逻辑、大作文写作五大核心题型，实现高效备考。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第一鸟-积累文中重点单词带来的词汇量提升",
+          "html": "<p>精选真题高频核心词、熟词生义、派生搭配，在语境中彻底掌握考研核心5500词的核心词族。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第二鸟-精读文章与翻译练习带来的翻译能力提升",
+          "html": "<p>逐句精读拆解句法骨架（主干提取、从句修饰剥离），针对典型长难句进行规范中文翻译输出。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>深度剖析命题人设置正确选项的同义替换规律，归纳排查5大高频干扰陷阱（偷换概念/无中生有/反向干扰/过度推断/答非所问）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>梳理全文语篇结构树（起承转合、因果对比、问题解决），迁移训练考研英语二新题型（7选5/小标题/排序）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第五鸟-顺手积累本文的大作文主题词与表达带来的写作能力提升",
+          "html": "<p>提炼本文涉及社会热点、科技经济、生态教育等母题的高分表达、观点金句与论证句型，直接化为写作武器。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "为什么考研英语备考实际只需要两到三个月的有效备考工作量",
+          "html": "<p>通过一石五鸟法，做1篇真题等于练5项能力，无需题海战术，56篇真题足以为考研英语二夯实75+甚至85+的坚实功底。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第1段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>hailed</strong></td><td>v. 赞扬，称赞，被誉为；向…欢呼，热情欢迎；呼喊，招呼</td><td><strong>health</strong></td><td>n. 身体状况；健康；医疗，卫生</td><td><strong>guiding</strong></td><td>v. 给某人领路；指导，影响；解释</td></tr><tr><td><strong>light</strong></td><td>n. 光，光线；光源；某种光亮</td><td><strong>last</strong></td><td>adj. 最后的；最近的，上一个的；最后剩下的</td><td><strong>rolled</strong></td><td>adj. 轧制的，滚制的，压延的；卷起的；碾压成薄片的</td></tr><tr><td><strong>ambitious</strong></td><td>adj. 有抱负的，野心勃勃的；费劲的，艰巨的；热望的</td><td><strong>restrictions</strong></td><td>n. 限制，限制条件</td><td><strong>polluting</strong></td><td>v. 污染；玷污；adj. 造成污染的，有污染性的</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第2段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>forth</strong></td><td>adv. 离去，外出；来，出；自……以后，向前</td><td><strong>clean</strong></td><td>adj. 洁净的，干净的；讲卫生的，爱干净的；无有害物的，无污染的</td><td><strong>pointed</strong></td><td>adj. 尖的，尖角的，有尖头的；尖锐的，直接的；明显的，突出的</td></tr><tr><td><strong>reminder</strong></td><td>n. 提醒物，引起回忆的事物；提示信，通知单</td><td><strong>limits</strong></td><td>n. 限制；极限，限度；界限，边界，范围</td><td><strong>patchwork</strong></td><td>n. 拼布工艺；拼凑之物；adj. 拼缀的，拼缝的</td></tr><tr><td><strong>city</strong></td><td>n. 城市，都市；市民，全市居民；市政府</td><td><strong>approach</strong></td><td>v. 靠近，临近；接洽，交谈；对付，处理</td><td><strong>characterises</strong></td><td>v. 是……的特征；刻划……的性格；使……具有特点</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 1
+          }
+        },
+        {
+          "section": 1,
+          "title": "第3段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>rather than</strong></td><td>宁可，而不是，与其……不如</td><td><strong>weaknesses</strong></td><td>n. 弱点，缺点，劣势；薄弱环节</td><td><strong>measures</strong></td><td>n. 措施；层组；v. 测量</td></tr><tr><td><strong>cities</strong></td><td>n. 城市</td><td><strong>employ</strong></td><td>v. 雇用；使用，利用；忙于，从事</td><td><strong>left</strong></td><td>adj. 左边的；剩余的；左派的，左翼的</td></tr><tr><td><strong>tackle</strong></td><td>v. 应付，解决；与……交涉；抢断</td><td><strong>dirty</strong></td><td>adj. 肮脏的；下流的；卑鄙的，不诚实的</td><td><strong>politically</strong></td><td>adv. 政治上，在政治上，从政治角度；在涉及权力或权威的社会关系方面</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 2
+          }
+        },
+        {
+          "section": 1,
+          "title": "第4段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>measures</strong></td><td>n. 措施；层组；v. 测量</td><td><strong>useless</strong></td><td>adj. 无用的，无价值的；差劲的，无能的；无效的，徒劳的</td><td><strong>officials</strong></td><td>n. 裁判，官员；行政人员</td></tr><tr><td><strong>levers</strong></td><td>n. 杠杆；控制杆，操纵杆；手段，工具</td><td><strong>available</strong></td><td>adj. 可用的，可获得的；有空的，有闲暇的；未婚的，单身的</td><td><strong>safeguard</strong></td><td>n. 保障条款， 保护措施；v. 保护，护卫</td></tr><tr><td><strong>residents</strong></td><td>n. 居民；房客；住院医生，高级专科住院实习医生</td><td><strong>health</strong></td><td>n. 身体状况；健康；医疗，卫生</td><td><strong>face</strong></td><td>n. 脸，面部；面部表情，脸色；人</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 3
+          }
+        },
+        {
+          "section": 1,
+          "title": "第5段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>mayors</strong></td><td>市长</td><td><strong>councillors</strong></td><td>n. 市议员，政务委员会委员</td><td><strong>bigger</strong></td><td>adj. 更大的，较大的；更重要的，更重大的；年龄较大的，较年长的</td></tr><tr><td><strong>city</strong></td><td>n. 城市，都市；市民，全市居民；市政府</td><td><strong>town</strong></td><td>n. 城镇，市镇；城镇；商业区，中心区</td><td><strong>acting</strong></td><td>adj. 代理的；表演的；n. 表演，演技</td></tr><tr><td><strong>governments</strong></td><td>n. 政府；政权；可转让政府证券</td><td><strong>others</strong></td><td>pron. 其他人</td><td><strong>across</strong></td><td>adv. 从一边到另一边；在……对面；朝，向</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 4
+          }
+        },
+        {
+          "section": 1,
+          "title": "第6段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>keep</strong></td><td>v. 保持，留在；继续，重复；耽搁，延误</td><td><strong>highly</strong></td><td>adv. 极其，非常；高度地，高水平地；钦佩地，赞赏地</td><td><strong>polluting</strong></td><td>v. 污染；玷污；adj. 造成污染的，有污染性的</td></tr><tr><td><strong>cars</strong></td><td>n. 汽车，车辆；火车车厢，列车车厢；美国皮克斯/迪士尼动画电影系列《赛车总动员》</td><td><strong>certain</strong></td><td>adj. 必然的，必定的；确定的，无疑的；某个，特定的</td><td><strong>areas</strong></td><td>n. 区域，领域；面积</td></tr><tr><td><strong>city</strong></td><td>n. 城市，都市；市民，全市居民；市政府</td><td><strong>centres</strong></td><td>n. centre 的复数：中心，中央；中心机构，活动中心；市中心</td><td><strong>streets</strong></td><td>n. 街道；街头，指城市中在建筑物外进行的活动或发生的情况</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 5
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>Madrid was hailed as a public health guiding light last November when it rolled out ambitious restrictions on the most polluting cars. Seven months and one election day later, a new conservative city council suspended enforcement of the clean air zone, a first step toward its possible termination. Mayor José Luis Martínez-Almeida made opposition to the zone a centrepiece of his election campaign, despite its success in improving air quality. A judge has now overruled the city’s decision to stop levying fines, ordering them restored. But with legal battles ahead, the zone’s future looks uncertain at best.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>Madrid was hailed as a public health guiding light last November when it rolled out ambitious restrictions on the most polluting cars. Seven months and one election day later, a new conservative city council suspended enforcement of the clean air zone, a first step toward its possible termination. Mayor José Luis Martínez-Almeida made opposition to the zone a centrepiece of his election campaign, despite its success in improving air quality. A judge has now overruled the city’s decision to stop levying fines, ordering them restored. But with legal battles ahead, the zone’s future looks uncertain at best.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>Madrid was hailed as a public health guiding light last November / when it rolled out ambitious restrictions on the most polluting cars. / Seven months and one election day later, / a new conservative city council suspended enforcement of the clean air zone, / a first step toward its possible termination. / Mayor José Luis Martínez-Almeida made opposition to the zone a centrepiece of his election campaign, / despite its success in improving air quality. / A judge has now overruled the city’s decision to stop levying fines, / ordering them restored. / But with legal battles ahead, / the zone’s future looks uncertain at best.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>Madrid was hailed as a public health guiding light last November when it rolled out ambitious restrictions on the most polluting cars. Seven months and one election day later, a new conservative city council suspended enforcement of the clean air zone, a first step toward its possible termination. Mayor José Luis Martínez-Almeida made opposition to the zone a centrepiece of his election campaign, despite its success in improving air quality. A judge has now overruled the city’s decision to stop levying fines, ordering them restored. But with legal battles ahead, the zone’s future looks uncertain at best.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>Madrid was hailed as a public health guiding light last November / when it rolled out ambitious restrictions on the most polluting cars. / Seven months and one election day later, / a new conservative city council suspended enforcement of the clean air zone, / a first step toward its possible termination. / Mayor José Luis Martínez-Almeida made opposition to the zone a centrepiece of his election campaign, / despite its success in improving air quality. / A judge has now overruled the city’s decision to stop levying fines, / ordering them restored. / But with legal battles ahead, / the zone’s future looks uncertain at best.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">去年11月，马德里被誉为公共卫生指路明灯 / 当它对污染最严重的汽车推出雄心勃勃的限制时<br>七个月零一个选举日后 / 新的保守派市议会暂停了清洁空气区的执法 / 朝着可能终止的第一步<br>市长何塞·路易斯·马丁内斯-阿尔梅达将反对该地区作为其竞选活动的核心内容 / 尽管它在改善空气质量方面取得了成功<br>法官现已推翻该市停止征收罚款的决定 / 命令他们恢复<br>但随着未来的法律斗争 / 该地区的未来充其量是不确定的</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>Madrid was hailed as a public health guiding light last November when it rolled out ambitious restrictions on the most polluting cars. Seven months and one election day later, a new conservative city council suspended enforcement of the clean air zone, a first step toward its possible termination. Mayor José Luis Martínez-Almeida made opposition to the zone a centrepiece of his election campaign, despite its success in improving air quality. A judge has now overruled the city’s decision to stop levying fines, ordering them restored. But with legal battles ahead, the zone’s future looks uncertain at best.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>Madrid was hailed as a public health guiding light last November / when it rolled out ambitious restrictions on the most polluting cars. / Seven months and one election day later, / a new conservative city council suspended enforcement of the clean air zone, / a first step toward its possible termination. / Mayor José Luis Martínez-Almeida made opposition to the zone a centrepiece of his election campaign, / despite its success in improving air quality. / A judge has now overruled the city’s decision to stop levying fines, / ordering them restored. / But with legal battles ahead, / the zone’s future looks uncertain at best.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">去年11月，马德里被誉为公共卫生指路明灯 / 当它对污染最严重的汽车推出雄心勃勃的限制时<br>七个月零一个选举日后 / 新的保守派市议会暂停了清洁空气区的执法 / 朝着可能终止的第一步<br>市长何塞·路易斯·马丁内斯-阿尔梅达将反对该地区作为其竞选活动的核心内容 / 尽管它在改善空气质量方面取得了成功<br>法官现已推翻该市停止征收罚款的决定 / 命令他们恢复<br>但随着未来的法律斗争 / 该地区的未来充其量是不确定的</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-3\">\n<h3>标准译文 · 第1段</h3>\n<p>去年11月，马德里对污染最严重的汽车实施了雄心勃勃的限制，被誉为公共卫生的指路明灯。七个月和一个选举日后，新的保守派市议会暂停了清洁空气区的执法，这是其可能终止的第一步。尽管该区域在改善空气质量方面取得了成功，但市长何塞·路易斯·马丁内斯-阿尔梅达仍将反对该区域作为其竞选活动的核心内容。一名法官现已驳回该市停止征收罚款的决定，并下令恢复罚款。但随着未来的法律斗争，该地区的未来充其量也是不确定的。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Madrid was hailed as a public health guiding light last November when it rolled out ambitious restrictions on the most polluting cars.</p>\n<p><strong>意群断句：</strong><code>Madrid was hailed as a public health guiding light last November / when it rolled out ambitious restrictions on the most polluting cars.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">去年11月，马德里被誉为公共卫生指路明灯 / 当它对污染最严重的汽车推出雄心勃勃的限制时</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">去年11月，马德里对污染最严重的汽车实施了雄心勃勃的限制，被誉为公共卫生的指路明灯。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Seven months and one election day later, a new conservative city council suspended enforcement of the clean air zone, a first step toward its possible termination.</p>\n<p><strong>意群断句：</strong><code>Seven months and one election day later, / a new conservative city council suspended enforcement of the clean air zone, / a first step toward its possible termination.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">七个月零一个选举日后 / 新的保守派市议会暂停了清洁空气区的执法 / 朝着可能终止的第一步</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">七个月和一个选举日后，新的保守派市议会暂停了清洁空气区的执法，这是其可能终止的第一步。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Mayor José Luis Martínez-Almeida made opposition to the zone a centrepiece of his election campaign, despite its success in improving air quality.</p>\n<p><strong>意群断句：</strong><code>Mayor José Luis Martínez-Almeida made opposition to the zone a centrepiece of his election campaign, / despite its success in improving air quality.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">市长何塞·路易斯·马丁内斯-阿尔梅达将反对该地区作为其竞选活动的核心内容 / 尽管它在改善空气质量方面取得了成功</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>despite its success in improving air qualit...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">尽管该区域在改善空气质量方面取得了成功，但市长何塞·路易斯·马丁内斯-阿尔梅达仍将反对该区域作为其竞选活动的核心内容。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>A judge has now overruled the city’s decision to stop levying fines, ordering them restored.</p>\n<p><strong>意群断句：</strong><code>A judge has now overruled the city’s decision to stop levying fines, / ordering them restored.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">法官现已推翻该市停止征收罚款的决定 / 命令他们恢复</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>分词短语作状语/定语</b>：现在分词短语 <code>ordering them restored....</code> 作伴随/结果状语或后置修饰，增强语义表现力。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">一名法官现已驳回该市停止征收罚款的决定，并下令恢复罚款。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句5",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (5/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>But with legal battles ahead, the zone’s future looks uncertain at best.</p>\n<p><strong>意群断句：</strong><code>But with legal battles ahead, / the zone’s future looks uncertain at best.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">但随着未来的法律斗争 / 该地区的未来充其量是不确定的</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with legal battles ahead...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">但随着未来的法律斗争，该地区的未来充其量也是不确定的。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 4
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>Madrid’s back and forth on clean air is a pointed reminder of the limits to the patchwork, city-by-city approach that characterises efforts on air pollution across Europe, Britain very much included.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>Madrid’s back and forth on clean air is a pointed reminder of the limits to the patchwork, city-by-city approach that characterises efforts on air pollution across Europe, Britain very much included.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>Madrid’s back and forth on clean air is a pointed reminder of the limits to the patchwork, / city-by-city approach / that characterises efforts on air pollution across Europe, / Britain very much included.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>Madrid’s back and forth on clean air is a pointed reminder of the limits to the patchwork, city-by-city approach that characterises efforts on air pollution across Europe, Britain very much included.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>Madrid’s back and forth on clean air is a pointed reminder of the limits to the patchwork, / city-by-city approach / that characterises efforts on air pollution across Europe, / Britain very much included.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">马德里在清洁空气问题上的来回反复提醒人们拼凑的局限性 / 逐个城市的方法 / 这体现了整个欧洲在空气污染方面所做的努力 / 英国也被包括在内</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>Madrid’s back and forth on clean air is a pointed reminder of the limits to the patchwork, city-by-city approach that characterises efforts on air pollution across Europe, Britain very much included.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>Madrid’s back and forth on clean air is a pointed reminder of the limits to the patchwork, / city-by-city approach / that characterises efforts on air pollution across Europe, / Britain very much included.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">马德里在清洁空气问题上的来回反复提醒人们拼凑的局限性 / 逐个城市的方法 / 这体现了整个欧洲在空气污染方面所做的努力 / 英国也被包括在内</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-3\">\n<h3>标准译文 · 第2段</h3>\n<p>马德里在清洁空气问题上的来回反复提醒人们，欧洲（包括英国）在空气污染问题上采取的拼凑、逐个城市的做法是有局限性的。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/1)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Madrid’s back and forth on clean air is a pointed reminder of the limits to the patchwork, city-by-city approach that characterises efforts on air pollution across Europe, Britain very much included.</p>\n<p><strong>意群断句：</strong><code>Madrid’s back and forth on clean air is a pointed reminder of the limits to the patchwork, / city-by-city approach / that characterises efforts on air pollution across Europe, / Britain very much included.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">马德里在清洁空气问题上的来回反复提醒人们拼凑的局限性 / 逐个城市的方法 / 这体现了整个欧洲在空气污染方面所做的努力 / 英国也被包括在内</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>approach</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">马德里在清洁空气问题上的来回反复提醒人们，欧洲（包括英国）在空气污染问题上采取的拼凑、逐个城市的做法是有局限性的。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Among other weaknesses, the measures cities must employ when left to tackle dirty air on their own are politically controversial, and therefore vulnerable. That’s because they inevitably put the costs of cleaning the air on to individual drivers—who must pay fees or buy better vehicles—rather than on to the car manufacturers whose cheating is the real cause of our toxic pollution. It’s not hard to imagine a similar reversal happening in London. The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election. And if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends, it is sure to spark intense opposition from the far larger number of motorists who will then be affected.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Among other weaknesses, the measures cities must employ when left to tackle dirty air on their own are politically controversial, and therefore vulnerable. That’s because they inevitably put the costs of cleaning the air on to individual drivers—who must pay fees or buy better vehicles—rather than on to the car manufacturers whose cheating is the real cause of our toxic pollution. It’s not hard to imagine a similar reversal happening in London. The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election. And if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends, it is sure to spark intense opposition from the far larger number of motorists who will then be affected.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>Among other weaknesses, / the measures cities must employ / when left to tackle dirty air on their own are politically controversial, / and therefore vulnerable. / That’s / because they inevitably put the costs of cleaning the air on to individual drivers—who must pay fees or buy better vehicles—rather than on to the car manufacturers / whose cheating is the real cause of our toxic pollution. / It’s not hard to imagine a similar reversal happening in London. / The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election. / And / if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends, / it is sure to spark intense opposition from the far larger number of motorists / who will then be affected.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Among other weaknesses, the measures cities must employ when left to tackle dirty air on their own are politically controversial, and therefore vulnerable. That’s because they inevitably put the costs of cleaning the air on to individual drivers—who must pay fees or buy better vehicles—rather than on to the car manufacturers whose cheating is the real cause of our toxic pollution. It’s not hard to imagine a similar reversal happening in London. The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election. And if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends, it is sure to spark intense opposition from the far larger number of motorists who will then be affected.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>Among other weaknesses, / the measures cities must employ / when left to tackle dirty air on their own are politically controversial, / and therefore vulnerable. / That’s / because they inevitably put the costs of cleaning the air on to individual drivers—who must pay fees or buy better vehicles—rather than on to the car manufacturers / whose cheating is the real cause of our toxic pollution. / It’s not hard to imagine a similar reversal happening in London. / The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election. / And / if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends, / it is sure to spark intense opposition from the far larger number of motorists / who will then be affected.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">除其他弱点外 / 城市必须采取的措施 / 当他们独自解决肮脏的空气问题时，会在政治上引起争议 / 因此很脆弱<br>那是 / 因为他们不可避免地将清洁空气的成本转嫁给了个人司机——他们必须支付费用或购买更好的车辆——而不是汽车制造商 / 谁的作弊才是造成我们有毒污染的真正原因<br>不难想象伦敦也会发生类似的逆转<br>新的超低排放区（Ulez）很可能成为明年市长选举的一大议题<br>和 / 如果萨迪克汗获胜并按照他的意愿在 2021 年将其扩展到南北环路 / 这肯定会引起更多驾车者的强烈反对 / 谁将受到影响</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>Among other weaknesses, the measures cities must employ when left to tackle dirty air on their own are politically controversial, and therefore vulnerable. That’s because they inevitably put the costs of cleaning the air on to individual drivers—who must pay fees or buy better vehicles—rather than on to the car manufacturers whose cheating is the real cause of our toxic pollution. It’s not hard to imagine a similar reversal happening in London. The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election. And if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends, it is sure to spark intense opposition from the far larger number of motorists who will then be affected.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>Among other weaknesses, / the measures cities must employ / when left to tackle dirty air on their own are politically controversial, / and therefore vulnerable. / That’s / because they inevitably put the costs of cleaning the air on to individual drivers—who must pay fees or buy better vehicles—rather than on to the car manufacturers / whose cheating is the real cause of our toxic pollution. / It’s not hard to imagine a similar reversal happening in London. / The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election. / And / if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends, / it is sure to spark intense opposition from the far larger number of motorists / who will then be affected.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">除其他弱点外 / 城市必须采取的措施 / 当他们独自解决肮脏的空气问题时，会在政治上引起争议 / 因此很脆弱<br>那是 / 因为他们不可避免地将清洁空气的成本转嫁给了个人司机——他们必须支付费用或购买更好的车辆——而不是汽车制造商 / 谁的作弊才是造成我们有毒污染的真正原因<br>不难想象伦敦也会发生类似的逆转<br>新的超低排放区（Ulez）很可能成为明年市长选举的一大议题<br>和 / 如果萨迪克汗获胜并按照他的意愿在 2021 年将其扩展到南北环路 / 这肯定会引起更多驾车者的强烈反对 / 谁将受到影响</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-3\">\n<h3>标准译文 · 第3段</h3>\n<p>除其他弱点外，城市在自行解决空气污染问题时必须采取的措施在政治上存在争议，因此很脆弱。这是因为他们不可避免地将清洁空气的成本转嫁给了个别司机——他们必须支付费用或购买更好的车辆——而不是转嫁给汽车制造商，而汽车制造商的作弊行为是我们有毒污染的真正原因。不难想象伦敦也会发生类似的逆转。新的超低排放区（Ulez）很可能成为明年市长选举的一个大问题。如果萨迪克·汗（Sadiq Khan）获胜并按照他的意愿在 2021 年将其扩展到南北环路，那么肯定会引发更多驾车者的强烈反对，届时他们将受到影响。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Among other weaknesses, the measures cities must employ when left to tackle dirty air on their own are politically controversial, and therefore vulnerable.</p>\n<p><strong>意群断句：</strong><code>Among other weaknesses, / the measures cities must employ / when left to tackle dirty air on their own are politically controversial, / and therefore vulnerable.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">除其他弱点外 / 城市必须采取的措施 / 当他们独自解决肮脏的空气问题时，会在政治上引起争议 / 因此很脆弱</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间状语从句</b>：由连词 <code>When</code> 引导从句 <code>When left to tackle dirty air on their own are politically controversial</code>，限定主句论述的时空背景或逻辑前提。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">除其他弱点外，城市在自行解决空气污染问题时必须采取的措施在政治上存在争议，因此很脆弱。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>That’s because they inevitably put the costs of cleaning the air on to individual drivers—who must pay fees or buy better vehicles—rather than on to the car manufacturers whose cheating is the real cause of our toxic pollution.</p>\n<p><strong>意群断句：</strong><code>That’s / because they inevitably put the costs of cleaning the air on to individual drivers—who must pay fees or buy better vehicles—rather than on to the car manufacturers / whose cheating is the real cause of our toxic pollution.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">那是 / 因为他们不可避免地将清洁空气的成本转嫁给了个人司机——他们必须支付费用或购买更好的车辆——而不是汽车制造商 / 谁的作弊才是造成我们有毒污染的真正原因</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>whose</code> 引导定语从句修饰先行词 <code>manufacturers</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">这是因为他们不可避免地将清洁空气的成本转嫁给了个别司机——他们必须支付费用或购买更好的车辆——而不是转嫁给汽车制造商，而汽车制造商的作弊行为是我们有毒污染的真正原因。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>It’s not hard to imagine a similar reversal happening in London.</p>\n<p><strong>意群断句：</strong><code>It’s not hard to imagine a similar reversal happening in London.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">不难想象伦敦也会发生类似的逆转</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">不难想象伦敦也会发生类似的逆转。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election.</p>\n<p><strong>意群断句：</strong><code>The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">新的超低排放区（Ulez）很可能成为明年市长选举的一大议题</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">新的超低排放区（Ulez）很可能成为明年市长选举的一个大问题。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句5",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (5/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>And if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends, it is sure to spark intense opposition from the far larger number of motorists who will then be affected.</p>\n<p><strong>意群断句：</strong><code>And / if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends, / it is sure to spark intense opposition from the far larger number of motorists / who will then be affected.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">和 / 如果萨迪克汗获胜并按照他的意愿在 2021 年将其扩展到南北环路 / 这肯定会引起更多驾车者的强烈反对 / 谁将受到影响</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间/伴随状语从句</b>：句首 <code>As he intends</code> 引导时间/伴随状语从句（“正当……之时 / 随着……”），交代主句动作发生的背景与伴随情境。</li><li style=\"margin-bottom:5px\"><b>条件状语从句</b>：由连词 <code>If</code> 引导从句 <code>If Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends</code>，限定主句论述的时空背景或逻辑前提。</li><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>who</code> 引导定语从句修饰先行词 <code>motorists</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">如果萨迪克·汗（Sadiq Khan）获胜并按照他的意愿在 2021 年将其扩展到南北环路，那么肯定会引发更多驾车者的强烈反对，届时他们将受到影响。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 4
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>It’s not that measures such as London’s Ulez are useless. Far from it. Local officials are using the levers that are available to them to safeguard residents’ health in the face of a serious threat. The zones do deliver some improvements to air quality, and the science tells us that means real health benefits.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>It’s not that measures such as London’s Ulez are useless. Far from it. Local officials are using the levers that are available to them to safeguard residents’ health in the face of a serious threat. The zones do deliver some improvements to air quality, and the science tells us that means real health benefits.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>It’s not / that measures such as London’s Ulez are useless. / Far from it. / Local officials are using the levers / that are available to them to safeguard residents’ health in the face of a serious threat. / The zones do deliver some improvements to air quality, / and the science tells us / that means real health benefits.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>It’s not that measures such as London’s Ulez are useless. Far from it. Local officials are using the levers that are available to them to safeguard residents’ health in the face of a serious threat. The zones do deliver some improvements to air quality, and the science tells us that means real health benefits.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>It’s not / that measures such as London’s Ulez are useless. / Far from it. / Local officials are using the levers / that are available to them to safeguard residents’ health in the face of a serious threat. / The zones do deliver some improvements to air quality, / and the science tells us / that means real health benefits.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-2\">\n<h3>意群翻译 · 第4段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">它不是 / 伦敦的 Ulez 等措施毫无用处<br>离它还很远<br>地方官员正在使用杠杆 / 他们可以在面临严重威胁时保护居民的健康<br>这些区域确实改善了空气质量 / 科学告诉我们 / 这意味着真正的健康益处</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>It’s not that measures such as London’s Ulez are useless. Far from it. Local officials are using the levers that are available to them to safeguard residents’ health in the face of a serious threat. The zones do deliver some improvements to air quality, and the science tells us that means real health benefits.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>It’s not / that measures such as London’s Ulez are useless. / Far from it. / Local officials are using the levers / that are available to them to safeguard residents’ health in the face of a serious threat. / The zones do deliver some improvements to air quality, / and the science tells us / that means real health benefits.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-2\">\n<h3>意群翻译 · 第4段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">它不是 / 伦敦的 Ulez 等措施毫无用处<br>离它还很远<br>地方官员正在使用杠杆 / 他们可以在面临严重威胁时保护居民的健康<br>这些区域确实改善了空气质量 / 科学告诉我们 / 这意味着真正的健康益处</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-3\">\n<h3>标准译文 · 第4段</h3>\n<p>这并不是说伦敦的乌勒兹等措施毫无用处。远非如此。面对严重威胁，当地官员正在利用可用的手段来保护居民的健康。这些区域确实改善了空气质量，科学告诉我们这意味着真正的健康益处。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>It’s not that measures such as London’s Ulez are useless.</p>\n<p><strong>意群断句：</strong><code>It’s not / that measures such as London’s Ulez are useless.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">它不是 / 伦敦的 Ulez 等措施毫无用处</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>not</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">这并不是说伦敦的乌勒兹等措施毫无用处。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Far from it.</p>\n<p><strong>意群断句：</strong><code>Far from it.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">离它还很远</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">远非如此。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Local officials are using the levers that are available to them to safeguard residents’ health in the face of a serious threat.</p>\n<p><strong>意群断句：</strong><code>Local officials are using the levers / that are available to them to safeguard residents’ health in the face of a serious threat.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">地方官员正在使用杠杆 / 他们可以在面临严重威胁时保护居民的健康</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>levers</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">面对严重威胁，当地官员正在利用可用的手段来保护居民的健康。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The zones do deliver some improvements to air quality, and the science tells us that means real health benefits.</p>\n<p><strong>意群断句：</strong><code>The zones do deliver some improvements to air quality, / and the science tells us / that means real health benefits.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">这些区域确实改善了空气质量 / 科学告诉我们 / 这意味着真正的健康益处</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>us</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">这些区域确实改善了空气质量，科学告诉我们这意味着真正的健康益处。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>But mayors and councillors can only do so much about a problem that is far bigger than any one city or town. They are acting because national governments—Britain’s and others across Europe—have failed to do so.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>But mayors and councillors can only do so much about a problem that is far bigger than any one city or town. They are acting because national governments—Britain’s and others across Europe—have failed to do so.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>But mayors and councillors can only do so much about a problem / that is far bigger than any one city or town. / They are acting / because national governments—Britain’s and others across Europe—have failed to do so.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>But mayors and councillors can only do so much about a problem that is far bigger than any one city or town. They are acting because national governments—Britain’s and others across Europe—have failed to do so.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>But mayors and councillors can only do so much about a problem / that is far bigger than any one city or town. / They are acting / because national governments—Britain’s and others across Europe—have failed to do so.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-2\">\n<h3>意群翻译 · 第5段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">但市长和议员对于一个问题只能做这么多 / 比任何一个城市或城镇都大得多<br>他们在演戏 / 因为各国政府——英国和欧洲其他国家的政府——未能做到这一点</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-5-0\">\n<h3>完整原文 · 第5段</h3>\n<p>But mayors and councillors can only do so much about a problem that is far bigger than any one city or town. They are acting because national governments—Britain’s and others across Europe—have failed to do so.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-1\">\n<h3>意群划分 · 第5段</h3>\n<p>But mayors and councillors can only do so much about a problem / that is far bigger than any one city or town. / They are acting / because national governments—Britain’s and others across Europe—have failed to do so.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-2\">\n<h3>意群翻译 · 第5段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">但市长和议员对于一个问题只能做这么多 / 比任何一个城市或城镇都大得多<br>他们在演戏 / 因为各国政府——英国和欧洲其他国家的政府——未能做到这一点</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-5-3\">\n<h3>标准译文 · 第5段</h3>\n<p>但市长和议员们对于这个比任何一个城市或城镇都严重得多的问题只能做这么多。他们之所以采取行动，是因为英国和欧洲其他国家政府未能这样做。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>But mayors and councillors can only do so much about a problem that is far bigger than any one city or town.</p>\n<p><strong>意群断句：</strong><code>But mayors and councillors can only do so much about a problem / that is far bigger than any one city or town.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">但市长和议员对于一个问题只能做这么多 / 比任何一个城市或城镇都大得多</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>problem</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">但市长和议员们对于这个比任何一个城市或城镇都严重得多的问题只能做这么多。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第5段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/2)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>They are acting because national governments—Britain’s and others across Europe—have failed to do so.</p>\n<p><strong>意群断句：</strong><code>They are acting / because national governments—Britain’s and others across Europe—have failed to do so.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">他们在演戏 / 因为各国政府——英国和欧洲其他国家的政府——未能做到这一点</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">他们之所以采取行动，是因为英国和欧洲其他国家政府未能这样做。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 4,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>Restrictions that keep highly polluting cars out of certain areas—city centres, “school streets”, even individual roads—are a response to the absence of a larger effort to properly enforce existing regulations and require auto companies to bring their vehicles into compliance. Wales has introduced special low speed limits to minimise pollution. We’re doing everything but insist that manufacturers clean up their cars.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>Restrictions that keep highly polluting cars out of certain areas—city centres, “school streets”, even individual roads—are a response to the absence of a larger effort to properly enforce existing regulations and require auto companies to bring their vehicles into compliance. Wales has introduced special low speed limits to minimise pollution. We’re doing everything but insist that manufacturers clean up their cars.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-1\">\n<h3>意群划分 · 第6段</h3>\n<p>Restrictions / that keep highly polluting cars out of certain areas—city centres, / “school streets”, / even individual roads—are a response to the absence of a larger effort to properly enforce existing regulations and require auto companies to bring their vehicles into compliance. / Wales has introduced special low speed limits to minimise pollution. / We’re doing everything but insist / that manufacturers clean up their cars.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>Restrictions that keep highly polluting cars out of certain areas—city centres, “school streets”, even individual roads—are a response to the absence of a larger effort to properly enforce existing regulations and require auto companies to bring their vehicles into compliance. Wales has introduced special low speed limits to minimise pollution. We’re doing everything but insist that manufacturers clean up their cars.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-1\">\n<h3>意群划分 · 第6段</h3>\n<p>Restrictions / that keep highly polluting cars out of certain areas—city centres, / “school streets”, / even individual roads—are a response to the absence of a larger effort to properly enforce existing regulations and require auto companies to bring their vehicles into compliance. / Wales has introduced special low speed limits to minimise pollution. / We’re doing everything but insist / that manufacturers clean up their cars.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-2\">\n<h3>意群翻译 · 第6段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">限制 / 阻止高污染汽车进入某些区域——市中心 / school streets / 即使是个别道路——也是对缺乏更大努力来正确执行现有法规并要求汽车公司使其车辆合规的回应<br>威尔士引入了特殊的低速限制以最大程度地减少污染<br>我们正在做一切，但坚持 / 制造商清理他们的汽车</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-6-0\">\n<h3>完整原文 · 第6段</h3>\n<p>Restrictions that keep highly polluting cars out of certain areas—city centres, “school streets”, even individual roads—are a response to the absence of a larger effort to properly enforce existing regulations and require auto companies to bring their vehicles into compliance. Wales has introduced special low speed limits to minimise pollution. We’re doing everything but insist that manufacturers clean up their cars.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-1\">\n<h3>意群划分 · 第6段</h3>\n<p>Restrictions / that keep highly polluting cars out of certain areas—city centres, / “school streets”, / even individual roads—are a response to the absence of a larger effort to properly enforce existing regulations and require auto companies to bring their vehicles into compliance. / Wales has introduced special low speed limits to minimise pollution. / We’re doing everything but insist / that manufacturers clean up their cars.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-2\">\n<h3>意群翻译 · 第6段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">限制 / 阻止高污染汽车进入某些区域——市中心 / school streets / 即使是个别道路——也是对缺乏更大努力来正确执行现有法规并要求汽车公司使其车辆合规的回应<br>威尔士引入了特殊的低速限制以最大程度地减少污染<br>我们正在做一切，但坚持 / 制造商清理他们的汽车</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-6-3\">\n<h3>标准译文 · 第6段</h3>\n<p>限制高污染汽车进入某些区域（市中心、“学校街道”，甚至个别道路）的原因是缺乏更大努力来正确执行现有法规并要求汽车公司使其车辆符合规定。威尔士实行了特殊的低速限制，以尽量减少污染。我们正在尽一切努力，但坚持要求制造商清理他们的汽车。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Restrictions that keep highly polluting cars out of certain areas—city centres, “school streets”, even individual roads—are a response to the absence of a larger effort to properly enforce existing regulations and require auto companies to bring their vehicles into compliance.</p>\n<p><strong>意群断句：</strong><code>Restrictions / that keep highly polluting cars out of certain areas—city centres, / “school streets”, / even individual roads—are a response to the absence of a larger effort to properly enforce existing regulations and require auto companies to bring their vehicles into compliance.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">限制 / 阻止高污染汽车进入某些区域——市中心 / school streets / 即使是个别道路——也是对缺乏更大努力来正确执行现有法规并要求汽车公司使其车辆合规的回应</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>Restrictions</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">限制高污染汽车进入某些区域——市中心、“学校街道”，甚至个别道路——是对缺乏更大力度正确执行现有法规并要求汽车公司使其车辆合规的回应。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Wales has introduced special low speed limits to minimise pollution.</p>\n<p><strong>意群断句：</strong><code>Wales has introduced special low speed limits to minimise pollution.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">威尔士引入了特殊的低速限制以最大程度地减少污染</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">威尔士实行了特殊的低速限制，以尽量减少污染。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第6段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>We’re doing everything but insist that manufacturers clean up their cars.</p>\n<p><strong>意群断句：</strong><code>We’re doing everything but insist / that manufacturers clean up their cars.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">我们正在做一切，但坚持 / 制造商清理他们的汽车</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>insist</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">我们正在尽一切努力，但坚持要求制造商清理他们的汽车。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 5,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "3.一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，正确项如何进行同义改写，错误项如何设置陷阱；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
+          "meta": {
+            "section": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "31题 · 题干、题型与核心出处",
+          "html": "<p><strong>31. Which of the following is true about Madrid’s clean air zone?</strong></p>\n<p>（以下关于马德里清洁空气区的说法哪一项是正确的？）</p>\n<p><strong>题型判定</strong>：事实细节题 ｜ <strong>定位出处</strong>：Paragraph 1</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "31"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. Its effects are questionable.",
+          "html": "<p><strong>选项 A</strong>：<code>Its effects are questionable.</code></p>\n<p><strong>中文翻译</strong>：其效果值得怀疑。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. It has been opposed by a judge.",
+          "html": "<p><strong>选项 B</strong>：<code>It has been opposed by a judge.</code></p>\n<p><strong>中文翻译</strong>：但遭到法官的反对。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. It needs tougher enforcement.",
+          "html": "<p><strong>选项 C</strong>：<code>It needs tougher enforcement.</code></p>\n<p><strong>中文翻译</strong>：需要更严厉的执法。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. Its fate is yet to be decided.",
+          "html": "<p><strong>选项 D</strong>：<code>Its fate is yet to be decided.</code></p>\n<p><strong>中文翻译</strong>：它的命运尚未决定。</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "32题 · 题干、题型与核心出处",
+          "html": "<p><strong>32. What is considered a weakness of the city-level measures to tackle dirty air?</strong></p>\n<p>（市级空气污染治理措施的弱点是什么？）</p>\n<p><strong>题型判定</strong>：因果推断题 ｜ <strong>定位出处</strong>：Paragraph 2</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "32"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. They put the burden on individual motorists.",
+          "html": "<p><strong>选项 A</strong>：<code>They put the burden on individual motorists.</code></p>\n<p><strong>中文翻译</strong>：他们把负担强加给了个别驾车者。</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. They prove impractical for city councils.",
+          "html": "<p><strong>选项 B</strong>：<code>They prove impractical for city councils.</code></p>\n<p><strong>中文翻译</strong>：事实证明，它们对于市议会来说是不切实际的。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. They are deemed too mild by politicians.",
+          "html": "<p><strong>选项 C</strong>：<code>They are deemed too mild by politicians.</code></p>\n<p><strong>中文翻译</strong>：政客们认为他们过于温和。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. They are biased against car manufacturers.",
+          "html": "<p><strong>选项 D</strong>：<code>They are biased against car manufacturers.</code></p>\n<p><strong>中文翻译</strong>：他们对汽车制造商有偏见。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "33题 · 题干、题型与核心出处",
+          "html": "<p><strong>33. The author believes that the extension of London’s Ulez will _____.</strong></p>\n<p>（作者认为，伦敦 Ulez 的延期将 _____。）</p>\n<p><strong>题型判定</strong>：段落推理题 ｜ <strong>定位出处</strong>：Paragraph 3</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "33"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. ensure Khan’s electoral success",
+          "html": "<p><strong>选项 A</strong>：<code>ensure Khan’s electoral success</code></p>\n<p><strong>中文翻译</strong>：确保汗的选举成功</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. arouse strong resistance",
+          "html": "<p><strong>选项 B</strong>：<code>arouse strong resistance</code></p>\n<p><strong>中文翻译</strong>：激起强烈反抗</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. improve the city’s traffic",
+          "html": "<p><strong>选项 C</strong>：<code>improve the city’s traffic</code></p>\n<p><strong>中文翻译</strong>：改善城市交通</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. discourage car manufacturing",
+          "html": "<p><strong>选项 D</strong>：<code>discourage car manufacturing</code></p>\n<p><strong>中文翻译</strong>：阻碍汽车制造</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "34题 · 题干、题型与核心出处",
+          "html": "<p><strong>34. Who does the author think should have addressed the problem?</strong></p>\n<p>（作者认为应该由谁来解决这个问题？）</p>\n<p><strong>题型判定</strong>：词义/例证题 ｜ <strong>定位出处</strong>：Paragraph 4</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "34"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. Local residents.",
+          "html": "<p><strong>选项 A</strong>：<code>Local residents.</code></p>\n<p><strong>中文翻译</strong>：当地居民。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. National governments.",
+          "html": "<p><strong>选项 B</strong>：<code>National governments.</code></p>\n<p><strong>中文翻译</strong>：各国政府。</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. Councillors.",
+          "html": "<p><strong>选项 C</strong>：<code>Councillors.</code></p>\n<p><strong>中文翻译</strong>：议员们。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. Mayors.",
+          "html": "<p><strong>选项 D</strong>：<code>Mayors.</code></p>\n<p><strong>中文翻译</strong>：市长们。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "35题 · 题干、题型与核心出处",
+          "html": "<p><strong>35. It can be learned from the last paragraph that auto companies _____.</strong></p>\n<p>（从最后一段可以得知，汽车公司_____。）</p>\n<p><strong>题型判定</strong>：全文主旨题 ｜ <strong>定位出处</strong>：Paragraph 5</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "35"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. will raise low-emission car production",
+          "html": "<p><strong>选项 A</strong>：<code>will raise low-emission car production</code></p>\n<p><strong>中文翻译</strong>：将提高低排放汽车产量</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. will upgrade the design of their vehicles",
+          "html": "<p><strong>选项 B</strong>：<code>will upgrade the design of their vehicles</code></p>\n<p><strong>中文翻译</strong>：将升级他们的车辆的设计</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. should be forced to follow regulations",
+          "html": "<p><strong>选项 C</strong>：<code>should be forced to follow regulations</code></p>\n<p><strong>中文翻译</strong>：应该强制遵守规定</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. should be put under public supervision",
+          "html": "<p><strong>选项 D</strong>：<code>should be put under public supervision</code></p>\n<p><strong>中文翻译</strong>：应接受公众监督</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "D"
+          }
+        },
+        {
+          "section": 4,
+          "title": "4.一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>在新题型中，考查的本质是理解文章上下文的逻辑承接能力。我们将本篇真题结构改编为新题型迁移训练，训练对段落主旨与篇章逻辑的提炼概括能力。</p>\n<p><strong>篇章核心逻辑链条</strong>：</p>\n<p>引出核心论题 → 展开多角度实证与事实分析 → 剖析深层体制/社会矛盾 → 提出战略性长效应对策略。</p>",
+          "meta": {
+            "section": 4
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 1",
+          "html": "<p><strong>【考查段落 1】</strong></p>\n<p><code>Madrid was hailed as a public health guiding light last November when it rolled out ambitious restrictions on the most p...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 1 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 0
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 2",
+          "html": "<p><strong>【考查段落 2】</strong></p>\n<p><code>Madrid’s back and forth on clean air is a pointed reminder of the limits to the patchwork, city-by-city approach that ch...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 2 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 1
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 3",
+          "html": "<p><strong>【考查段落 3】</strong></p>\n<p><code>Among other weaknesses, the measures cities must employ when left to tackle dirty air on their own are politically contr...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 3 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 2
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 4",
+          "html": "<p><strong>【考查段落 4】</strong></p>\n<p><code>It’s not that measures such as London’s Ulez are useless. Far from it. Local officials are using the levers that are ava...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 4 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 3
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 5",
+          "html": "<p><strong>【考查段落 5】</strong></p>\n<p><code>But mayors and councillors can only do so much about a problem that is far bigger than any one city or town. They are ac...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 5 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 4
+          }
+        },
+        {
+          "section": 5,
+          "title": "1. 大作文宏观论述与主题词汇积累",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>可积累的主题表达</th><th>中文翻译</th><th>所属类别</th><th>使用层级</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>promoting institutional adaptability</strong></td><td><strong>增强制度适应性与韧性</strong></td><td><strong>社会/经济发展</strong></td><td><strong>宏观论点</strong></td></tr>\n<tr><td>harmonizing commercial viability and public welfare</td><td>协调商业可行性与公众福祉</td><td>综合治理</td><td>论证支撑</td></tr>\n<tr><td>fostering sustainable long-term development</td><td>促进可持续长远发展</td><td>未来展望</td><td>结论升华</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        },
+        {
+          "section": 5,
+          "title": "2. 大作文图表/观点题通用满分句型模板",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>适用题型</th><th>考试时可复用的形式</th><th>中文翻译</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>图表/观点题</strong></td><td><strong>A is doing B in an effort to do C.</strong></td><td><strong>A正在采取行动B，目的是实现目标C。</strong></td></tr>\n<tr><td>原因剖析段</td><td>The underlying reason behind this phenomenon is that...</td><td>该现象背后的深层原因在于……</td></tr>\n<tr><td>建议对策段</td><td>Only through collaborative governance can we ensure enduring progress.</td><td>唯有通过协同治理，方能确保长久的发展与繁荣。</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        }
+      ]
+    }
+  },
+  "text4": {
+    "id": 4,
+    "qRange": "36-40",
+    "title": "Text 4",
+    "paragraphs": [
+      "Now that members of Generation Z are graduating college this spring—the most commonly-accepted definition says this generation was born after 1995, give or take a year— the attention has been rising steadily in recent weeks. Gen Zs are about to hit the streets looking for work in a labor market that’s tighter than it’s been in decades. And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S. this year than last, according to a survey conducted by the National Association of Colleges and Employers. Everybody wants to know how the people who will soon inhabit those empty office cubicles will differ from those who came before them.",
+      "If “entitled” is the most common adjective, fairly or not, applied to millennials (those born between 1981 and 1995), the catchwords for Generation Z are practical and cautious. According to the career counselors and experts who study them, Generation Zs are clear-eyed, economic pragmatists. Despite graduating into the best economy in the past 50 years, Gen Zs know what an economic train wreck looks like. They were impressionable kids during the crash of 2008, when many of their parents lost their jobs or their life savings or both. They aren’t interested in taking any chances. The booming economy seems to have done little to assuage this underlying generational sense of anxious urgency, especially for those who have college debt. College loan balances in the U.S. now stand at a record $1.5 trillion, according to the Federal Reserve.",
+      "One survey from Accenture found that 88 percent of graduating seniors this year chose their major with a job in mind. In a 2019 survey of University of Georgia students, meanwhile, the career office found the most desirable trait in a future employer was the ability to offer secure employment (followed by professional development and training, and then inspiring purpose). Job security or stability was the second most important career goal (work-life balance was number one), followed by a sense of being dedicated to a cause or to feel good about serving the greater good.",
+      "That’s a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya Michelsen, Associate Director of YouthSight, a UK-based brand manager that conducts regular 60-day surveys of British youth, in findings that might just as well apply to American youth. “Generation Zs are looking for more certainty and stability, because of the rise of the gig economy. They have troubles seeing a financial future and they are quite risk averse.”"
+    ],
+    "questions": [
+      {
+        "qid": 36,
+        "stem": "Generation Zs graduating college this spring _____.",
+        "stem_cn": "Z 世代今年春天大学毕业_____。",
+        "type": "事实细节题",
+        "locate": "Paragraph 1",
+        "options": [
+          {
+            "key": "A",
+            "text": "are recognized for their abilities",
+            "text_cn": "因其能力而受到认可",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "are optimistic about the labor market",
+            "text_cn": "对劳动力市场持乐观态度",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "are in favor of office job offers",
+            "text_cn": "赞成办公室工作机会",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "are drawing growing public attention",
+            "text_cn": "正在引起越来越多的公众关注",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。"
+          }
+        ]
+      },
+      {
+        "qid": 37,
+        "stem": "Generation Zs are keenly aware _____.",
+        "stem_cn": "Z 一代敏锐地意识到 _____。",
+        "type": "因果推断题",
+        "locate": "Paragraph 2",
+        "options": [
+          {
+            "key": "A",
+            "text": "what their parents expect of them",
+            "text_cn": "他们的父母对他们的期望",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "how valuable a counselor’s advice is",
+            "text_cn": "辅导员的建议有多有价值",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "what a tough economic situation is like",
+            "text_cn": "严峻的经济形势是什么样的",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "D",
+            "text": "how they differ from past generations",
+            "text_cn": "他们与前几代人有何不同",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 38,
+        "stem": "The word “assuage” (Paragraph 2) is closest in meaning to _____.",
+        "stem_cn": "“assuage”（第 2 段）一词的含义最接近 _____。",
+        "type": "段落推理题",
+        "locate": "Paragraph 3",
+        "options": [
+          {
+            "key": "A",
+            "text": "deepen",
+            "text_cn": "深化",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "define",
+            "text_cn": "定义",
+            "is_correct": false,
+            "trap": "反向干扰",
+            "analysis": "【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "C",
+            "text": "maintain",
+            "text_cn": "维持",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "relieve",
+            "text_cn": "缓解",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。"
+          }
+        ]
+      },
+      {
+        "qid": 39,
+        "stem": "It can be learned from Paragraph 3 that Generation Zs _____.",
+        "stem_cn": "从第 3 段可以看出，Z 世代 _____。",
+        "type": "词义/例证题",
+        "locate": "Paragraph 4",
+        "options": [
+          {
+            "key": "A",
+            "text": "give top priority to professional training",
+            "text_cn": "把专业培训放在首位",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "have a clear idea about their future jobs",
+            "text_cn": "对自己未来的工作有清晰的想法",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "C",
+            "text": "care little about their job performance",
+            "text_cn": "不太关心他们的工作表现",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "think it hard to achieve work-life balance",
+            "text_cn": "认为很难实现工作与生活的平衡",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      },
+      {
+        "qid": 40,
+        "stem": "Michelsen thinks that compared with millennials, Generation Zs are _____.",
+        "stem_cn": "迈克尔森认为，与千禧一代相比，Z 一代是_____。",
+        "type": "全文主旨题",
+        "locate": "Paragraph 5",
+        "options": [
+          {
+            "key": "A",
+            "text": "less realistic",
+            "text_cn": "不太现实",
+            "is_correct": false,
+            "trap": "偷换概念",
+            "analysis": "【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "B",
+            "text": "less adventurous",
+            "text_cn": "较少冒险",
+            "is_correct": true,
+            "trap": "正选",
+            "analysis": "【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。"
+          },
+          {
+            "key": "C",
+            "text": "more diligent",
+            "text_cn": "更勤奋",
+            "is_correct": false,
+            "trap": "无中生有",
+            "analysis": "【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。"
+          },
+          {
+            "key": "D",
+            "text": "more generous",
+            "text_cn": "更慷慨",
+            "is_correct": false,
+            "trap": "过度推断",
+            "analysis": "【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。"
+          }
+        ]
+      }
+    ],
+    "practice": {
+      "steps": [
+        {
+          "section": "阅前须知",
+          "raw": "# 0.阅前须知\n\n阅前声明，本教程对英语一英语二均适用。\n\n本教程主要解决考研英语阅读备考中的三个结构性问题：\n\n1. **考研英语骗局一**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持认识文章中的所有细节，一个不漏，咱们不可能完全认识文章中的每一个单词，带着不认识的地方读文章做题才是真正的学生视角。即使是有部分超纲生词不认识，从段落和文章主旨、作者态度等宏观阅读文章内容本身分析的层面，也是不影响做全对的；\n\n2. **考研英语骗局二**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接边读边信达雅地翻译出文章，读完一遍只能在脑海里留下大致信息，并且很快遗忘。正确的方式是先粗后细，放弃信达雅的机械翻译，粗读先理解文章大致出现了哪些东西，然后细读采用意群法这种手段实现，即可临危不乱；\n\n3. **考研英语骗局三**：是个正常人都不可能在考场上做阅读时站在上帝视角天意加持直接用某种神技确定某个一定正确的答案。二选一选不出来是个非常正常的现象。用某种神技去秒杀一个文科单选问题违背了逻辑学常识，即孤证不立。通过宏观认知与多判据交叉验证的方式解决，是所有文科单选题的通法。",
+          "html": "<h1>0.阅前须知</h1>\n<p>阅前声明，本教程对英语一英语二均适用。</p>\n<p>本教程主要解决考研英语阅读备考中的三个结构性问题：</p>\n<ol>\n<li><p><strong>考研英语骗局一</strong>：拒绝上帝视角生词全懂，带着超纲生词读宏观主旨同样能做全对；</p></li>\n<li><p><strong>考研英语骗局二</strong>：放弃考场即时信达雅机械翻译，采用意群粗读抓取核心信息；</p></li>\n<li><p><strong>考研英语骗局三</strong>：拒绝所谓单一神技秒杀，采用定位比对与写作视角交叉验证。</p></li>\n</ol>\n<p>大家把考研英语阅读当成真阅读，才能发现真正正确的备考方式。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "# 1. 先读题干\n\n首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰咱们粗读对文章的理解。看题干对考查重点有个大致印象，并且因为题文同序的原则，也能帮助我们提前获取部分文章的逻辑脉络。",
+          "html": "<h1>1. 先读题干</h1><p>首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰粗读理解。看题干对考查重点建立大致印象，借助题文同序原则提前获取文章逻辑脉络。</p>",
+          "meta": {}
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 36题题干\n\n**Generation Zs graduating college this spring _____.**\n\n> Z 世代今年春天大学毕业_____。\n\n题型：**事实细节题**。\n\n定位预判：**Paragraph 1**\n\n---",
+          "html": "<h2>36题题干</h2><p><strong>Generation Zs graduating college this spring _____.</strong></p><blockquote><p>Z 世代今年春天大学毕业_____。</p></blockquote><p>题型：<strong>事实细节题</strong>。</p><p>定位预判：<strong>Paragraph 1</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "36"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 37题题干\n\n**Generation Zs are keenly aware _____.**\n\n> Z 一代敏锐地意识到 _____。\n\n题型：**因果推断题**。\n\n定位预判：**Paragraph 2**\n\n---",
+          "html": "<h2>37题题干</h2><p><strong>Generation Zs are keenly aware _____.</strong></p><blockquote><p>Z 一代敏锐地意识到 _____。</p></blockquote><p>题型：<strong>因果推断题</strong>。</p><p>定位预判：<strong>Paragraph 2</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "37"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 38题题干\n\n**The word “assuage” (Paragraph 2) is closest in meaning to _____.**\n\n> “assuage”（第 2 段）一词的含义最接近 _____。\n\n题型：**段落推理题**。\n\n定位预判：**Paragraph 3**\n\n---",
+          "html": "<h2>38题题干</h2><p><strong>The word “assuage” (Paragraph 2) is closest in meaning to _____.</strong></p><blockquote><p>“assuage”（第 2 段）一词的含义最接近 _____。</p></blockquote><p>题型：<strong>段落推理题</strong>。</p><p>定位预判：<strong>Paragraph 3</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "38"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 39题题干\n\n**It can be learned from Paragraph 3 that Generation Zs _____.**\n\n> 从第 3 段可以看出，Z 世代 _____。\n\n题型：**词义/例证题**。\n\n定位预判：**Paragraph 4**\n\n---",
+          "html": "<h2>39题题干</h2><p><strong>It can be learned from Paragraph 3 that Generation Zs _____.</strong></p><blockquote><p>从第 3 段可以看出，Z 世代 _____。</p></blockquote><p>题型：<strong>词义/例证题</strong>。</p><p>定位预判：<strong>Paragraph 4</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "39"
+          }
+        },
+        {
+          "section": "先读题干",
+          "raw": "## 40题题干\n\n**Michelsen thinks that compared with millennials, Generation Zs are _____.**\n\n> 迈克尔森认为，与千禧一代相比，Z 一代是_____。\n\n题型：**全文主旨题**。\n\n定位预判：**Paragraph 5**\n\n---",
+          "html": "<h2>40题题干</h2><p><strong>Michelsen thinks that compared with millennials, Generation Zs are _____.</strong></p><blockquote><p>迈克尔森认为，与千禧一代相比，Z 一代是_____。</p></blockquote><p>题型：<strong>全文主旨题</strong>。</p><p>定位预判：<strong>Paragraph 5</strong></p><hr />",
+          "meta": {
+            "kind": "stem",
+            "qid": "40"
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "# 2. 读文章过程\n\n看完题干后，第一步要粗读一遍文章。根据自身水平扫一遍文章，开头结尾慢一些，注重首尾句，作者举的例子可以略读。关注逻辑词（however, but）、态度评价词、核心动作词与重复主题词。\n\n| 类型 | 关注原因 | 本文关注重点 |\n| --- | --- | --- |\n| 逻辑词 | 作者观点或行文转向 | however, but, nevertheless, yet, although |\n| 态度词 | 作者情感倾向与立场 | critical, positive, resilient, concern, significant |\n| 核心动作 | 论证中主体行为 | argue, demonstrate, implement, undermine |\n| 重复主题词 | 贯穿全篇的核心讨论对象 | 本文核心讨论对象与同义衍生表达 |",
+          "html": "<h1>2. 读文章过程</h1><p>扫读全文，注重段落首尾句，识别论点与论据。关注核心逻辑转折词与态度评价词。</p>\n<table class=\"table-wrap\"><thead><tr><th>类型</th><th>关注原因</th><th>本文关注重点</th></tr></thead>\n<tbody>\n<tr><td>逻辑词</td><td>作者观点或行文转向</td><td>however, but, nevertheless, yet</td></tr>\n<tr><td>态度词</td><td>作者情感倾向与立场</td><td>critical, positive, concern, significant</td></tr>\n<tr><td>核心动作</td><td>论证中主体行为</td><td>argue, demonstrate, implement, undermine</td></tr>\n<tr><td>重复主题词</td><td>贯穿全篇的核心讨论对象</td><td>本文核心论题与衍生词</td></tr>\n</tbody></table>",
+          "meta": {}
+        },
+        {
+          "section": "读文章",
+          "raw": "Now that members of Generation Z are graduating college this spring—the most [commonly-accepted] definition says this generation was born after 1995, give or take a year— the attention has been rising steadily in recent weeks. Gen Zs are about to hit the streets looking for work in a labor market that’s tighter than it’s been in decades. And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S. this year than last, [according] to a survey conducted by the National Association of Colleges and Employers. Everybody wants to know how the people who will soon inhabit those empty office cubicles will differ from those who came before them.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Now that members of Generation Z are graduating college this spring—the most <span class=\"mask\">[commonly-accepted]</span> definition says this generation was born after 1995, give or take a year— the attention has been rising steadily in recent weeks. Gen Zs are about to hit the streets looking for work in a labor market that’s tighter than it’s been in decades. And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S. this year than last, <span class=\"mask\">[according]</span> to a survey conducted by the National Association of Colleges and Employers. Everybody wants to know how the people who will soon inhabit those empty office cubicles will differ from those who came before them.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "Now / that members of Generation Z are graduating college this spring—the most [commonly-accepted] definition says this generation was born / after 1995, / give or take a year— / the attention has been rising steadily in recent weeks. / Gen Zs are about to hit the streets looking for work in a labor market that’s tighter than it’s been in decades. / And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S. this year than last, / [according] to a survey conducted by the National Association of Colleges and Employers. / Everybody wants to know how the people / who will soon inhabit those empty office cubicles will differ from those / who came / before them.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Now / that members of Generation Z are graduating college this spring—the most <span class=\"mask\">[commonly-accepted]</span> definition says this generation was born / after 1995, / give or take a year— / the attention has been rising steadily in recent weeks. / Gen Zs are about to hit the streets looking for work in a labor market that’s tighter than it’s been in decades. / And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S. this year than last, / <span class=\"mask\">[according]</span> to a survey conducted by the National Association of Colleges and Employers. / Everybody wants to know how the people / who will soon inhabit those empty office cubicles will differ from those / who came / before them.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第1段意群顺译】现在，Z 世代的成员将于今年春天大学毕业——最普遍接受的定义是这一代人出生在 1995 年之后，大约一年左右——最近几周，人们的关注度一直在稳步上升。 Z 世代即将走上街头，在比几十年来更加紧张的劳动力市场中寻找工作。根据全国大学和雇主协会进行的一项调查，今年雇主计划在美国雇用的...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>【第1段意群顺译】现在，Z 世代的成员将于今年春天大学毕业——最普遍接受的定义是这一代人出生在 1995 年之后，大约一年左右——最近几周，人们的关注度一直在稳步上升。 Z 世代即将走上街头，在比几十年来更加紧张的劳动力市场中寻找工作。根据全国大学和雇主协会进行的一项调查，今年雇主计划在美国雇用的...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "If “entitled” is the most common [adjective], fairly or not, applied to millennials (those born between 1981 and 1995), the catchwords for Generation Z are practical and cautious. [According] to the career [counselors] and experts who study them, Generation Zs are clear-eyed, economic [pragmatists]. Despite graduating into the best economy in the past 50 years, Gen Zs know what an economic train wreck looks like. They were [impressionable] kids during the crash of 2008, when many of their parents lost their jobs or their life savings or both. They aren’t [interested] in taking any chances. The booming economy seems to have done little to assuage this underlying [generational] sense of anxious urgency, especially for those who have college debt. College loan balances in the U.S. now stand at a record $1.5 trillion, [according] to the Federal Reserve.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>If “entitled” is the most common <span class=\"mask\">[adjective]</span>, fairly or not, applied to millennials (those born between 1981 and 1995), the catchwords for Generation Z are practical and cautious. <span class=\"mask\">[According]</span> to the career <span class=\"mask\">[counselors]</span> and experts who study them, Generation Zs are clear-eyed, economic <span class=\"mask\">[pragmatists]</span>. Despite graduating into the best economy in the past 50 years, Gen Zs know what an economic train wreck looks like. They were <span class=\"mask\">[impressionable]</span> kids during the crash of 2008, when many of their parents lost their jobs or their life savings or both. They aren’t <span class=\"mask\">[interested]</span> in taking any chances. The booming economy seems to have done little to assuage this underlying <span class=\"mask\">[generational]</span> sense of anxious urgency, especially for those who have college debt. College loan balances in the U.S. now stand at a record $1.5 trillion, <span class=\"mask\">[according]</span> to the Federal Reserve.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "If “entitled” is the most common [adjective], / fairly or not, / applied to millennials (those born between 1981 and 1995), / the catchwords for Generation Z are practical and cautious. [According] to the career [counselors] and experts / who study them, / Generation Zs are clear-eyed, / economic [pragmatists]. / Despite graduating into the best economy in the past 50 years, / Gen Zs know what an economic train wreck looks like. / They were [impressionable] kids during the crash of 2008, / / when many of their parents lost their jobs or their life savings or both. / They aren’t [interested] in taking any chances. / The booming economy seems to have done little to assuage this underlying [generational] sense of anxious urgency, / especially for those / who have college debt. / College loan balances in the U.S. now stand at a record $1.5 trillion, / [according] to the Federal Reserve.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>If “entitled” is the most common <span class=\"mask\">[adjective]</span>, / fairly or not, / applied to millennials (those born between 1981 and 1995), / the catchwords for Generation Z are practical and cautious. <span class=\"mask\">[According]</span> to the career <span class=\"mask\">[counselors]</span> and experts / who study them, / Generation Zs are clear-eyed, / economic <span class=\"mask\">[pragmatists]</span>. / Despite graduating into the best economy in the past 50 years, / Gen Zs know what an economic train wreck looks like. / They were <span class=\"mask\">[impressionable]</span> kids during the crash of 2008, / / when many of their parents lost their jobs or their life savings or both. / They aren’t <span class=\"mask\">[interested]</span> in taking any chances. / The booming economy seems to have done little to assuage this underlying <span class=\"mask\">[generational]</span> sense of anxious urgency, / especially for those / who have college debt. / College loan balances in the U.S. now stand at a record $1.5 trillion, / <span class=\"mask\">[according]</span> to the Federal Reserve.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第2段意群顺译】如果“有资格”是最常见的形容词，无论公平与否，适用于千禧一代（1981 年至 1995 年出生的人），那么 Z 世代的口号就是务实和谨慎。根据职业顾问和研究他们的专家的说法，Z 一代是头脑清醒的经济实用主义者。尽管 Z 世代已经进入了过去 50 年来最好的经济体，但他们知道经济列...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第2段意群顺译】如果“有资格”是最常见的形容词，无论公平与否，适用于千禧一代（1981 年至 1995 年出生的人），那么 Z 世代的口号就是务实和谨慎。根据职业顾问和研究他们的专家的说法，Z 一代是头脑清醒的经济实用主义者。尽管 Z 世代已经进入了过去 50 年来最好的经济体，但他们知道经济列...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "One survey from Accenture found that 88 percent of graduating seniors this year chose their major with a job in mind. In a 2019 survey of University of Georgia students, [meanwhile], the career office found the most desirable trait in a future employer was the ability to offer secure [employment] (followed by [professional] development and training, and then [inspiring] purpose). Job security or [stability] was the second most important career goal (work-life balance was number one), followed by a sense of being [dedicated] to a cause or to feel good about serving the greater good.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>One survey from Accenture found that 88 percent of graduating seniors this year chose their major with a job in mind. In a 2019 survey of University of Georgia students, <span class=\"mask\">[meanwhile]</span>, the career office found the most desirable trait in a future employer was the ability to offer secure <span class=\"mask\">[employment]</span> (followed by <span class=\"mask\">[professional]</span> development and training, and then <span class=\"mask\">[inspiring]</span> purpose). Job security or <span class=\"mask\">[stability]</span> was the second most important career goal (work-life balance was number one), followed by a sense of being <span class=\"mask\">[dedicated]</span> to a cause or to feel good about serving the greater good.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "One survey from Accenture found / that 88 percent of graduating seniors this year chose their major with a job in mind. / In a 2019 survey of University of Georgia students, / [meanwhile], / the career office found the most desirable trait in a future employer was the ability to offer secure [employment] (followed by [professional] development and training, / and then [inspiring] purpose). / Job security or [stability] was the second most important career goal (work-life balance was number one), / followed by a sense of being [dedicated] to a cause or to feel good about serving the greater good.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>One survey from Accenture found / that 88 percent of graduating seniors this year chose their major with a job in mind. / In a 2019 survey of University of Georgia students, / <span class=\"mask\">[meanwhile]</span>, / the career office found the most desirable trait in a future employer was the ability to offer secure <span class=\"mask\">[employment]</span> (followed by <span class=\"mask\">[professional]</span> development and training, / and then <span class=\"mask\">[inspiring]</span> purpose). / Job security or <span class=\"mask\">[stability]</span> was the second most important career goal (work-life balance was number one), / followed by a sense of being <span class=\"mask\">[dedicated]</span> to a cause or to feel good about serving the greater good.</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第3段意群顺译】埃森哲的一项调查发现，今年 88% 的应届毕业生在选择专业时就考虑到了工作。与此同时，在 2019 年对佐治亚大学学生的一项调查中，职业办公室发现，未来雇主最理想的特质是提供稳定就业的能力（其次是专业发展和培训，然后是鼓舞人心的目标）。工作保障或稳定是第二重要的职业目标（工作与生...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第3段意群顺译】埃森哲的一项调查发现，今年 88% 的应届毕业生在选择专业时就考虑到了工作。与此同时，在 2019 年对佐治亚大学学生的一项调查中，职业办公室发现，未来雇主最理想的特质是提供稳定就业的能力（其次是专业发展和培训，然后是鼓舞人心的目标）。工作保障或稳定是第二重要的职业目标（工作与生...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "That’s a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya [Michelsen], Associate Director of YouthSight, a UK-based brand manager that conducts regular 60-day surveys of British youth, in findings that might just as well apply to American youth. “Generation Zs are looking for more certainty and [stability], because of the rise of the gig economy. They have troubles seeing a financial future and they are quite risk averse.”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>That’s a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya <span class=\"mask\">[Michelsen]</span>, Associate Director of YouthSight, a UK-based brand manager that conducts regular 60-day surveys of British youth, in findings that might just as well apply to American youth. “Generation Zs are looking for more certainty and <span class=\"mask\">[stability]</span>, because of the rise of the gig economy. They have troubles seeing a financial future and they are quite risk averse.”</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 0
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "That’s a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya [Michelsen], / Associate Director of YouthSight, / a UK-based brand manager / that conducts regular 60-day surveys of British youth, / in findings / that might just as well apply to American youth. “Generation Zs are looking for more certainty and [stability], / / because of the rise of the gig economy. / They have troubles seeing a financial future and they are quite risk averse.”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>That’s a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya <span class=\"mask\">[Michelsen]</span>, / Associate Director of YouthSight, / a UK-based brand manager / that conducts regular 60-day surveys of British youth, / in findings / that might just as well apply to American youth. “Generation Zs are looking for more certainty and <span class=\"mask\">[stability]</span>, / / because of the rise of the gig economy. / They have troubles seeing a financial future and they are quite risk averse.”</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 1
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【第4段意群顺译】与上一代相比，这是一个很大的变化。英国品牌经理YouthSight对英国年轻人进行为期60天的定期调查，其副总监坦尼娅•米歇尔森指出：“千禧一代希望自己的生活更灵活。”她的调查结果可能同样适用于美国年轻人。“由于零工经济的兴起，z世代正在寻求更多的确定性和稳定性。他们很难预见未来...",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>【第4段意群顺译】与上一代相比，这是一个很大的变化。英国品牌经理YouthSight对英国年轻人进行为期60天的定期调查，其副总监坦尼娅•米歇尔森指出：“千禧一代希望自己的生活更灵活。”她的调查结果可能同样适用于美国年轻人。“由于零工经济的兴起，z世代正在寻求更多的确定性和稳定性。他们很难预见未来...</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 2
+          }
+        },
+        {
+          "section": "读文章",
+          "raw": "【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div></div>",
+          "meta": {
+            "coarse": true,
+            "pid": 3,
+            "form": 3
+          }
+        },
+        {
+          "section": "做题过程",
+          "raw": "# 3. 开始做题 (36-40题)\n\n粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。",
+          "html": "<h1>3. 开始做题 (36-40题)</h1><p>粗读完文章并建立对全文的宏观框架后，我们进入逐题精确定位与深度选项推演阶段。</p>",
+          "meta": {}
+        },
+        {
+          "section": "36题",
+          "raw": "## 36题\n\n**Generation Zs graduating college this spring _____.**\n\n> Z 世代今年春天大学毕业_____。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> Now that members of Generation Z are graduating college this spring—the most [commonly-accepted] definition says this generation was born after 1995, give or take a year— the attention has been rising steadily in recent weeks. Gen Zs are about to hit the streets looking for work in a labor market that’s tighter than it’s been in decades. And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S. this year than last, [according] to a survey conducted by the National Association of Colleges and Employers. Everybody wants to know how the people who will soon inhabit those empty office cubicles will differ from those who came before them.\n>\n> 开始精读：\n>\n> Now / that members of Generation Z are graduating college this spring—the most [commonly-accepted] definition says this generation was born / after 1995, / give or take a year— / the attention has been rising steadily in recent weeks. / Gen Zs are about to hit the streets looking for work in a labor market that’s tighter than it’s been in decades. / And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S. this year than last, / [according] to a survey conducted by the National Association of Colleges and Employers. / Everybody wants to know how the people / who will soon inhabit those empty office cubicles will differ from those / who came / before them.\n>\n> 逐意群顺译：\n>\n> 现在，Z 世代的成员将于今年春天大学毕业——最普遍接受的定义是这一代人出生在 1995 年之后，大约一年左右——最近几周，人们的关注度一直在稳步上升。 Z 世代即将走上街头，在比几十年来更加紧张的劳动力市场中寻找工作。根据全国大学和雇主协会进行的一项调查，今年雇主计划在美国雇用的应届毕业生比去年增加约 17%。每个人都想知道即将入住这些空办公室隔间的人们与之前的人们有何不同。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>36题</h2>\n<p><strong>Generation Zs graduating college this spring _____.</strong></p>\n<blockquote><p>Z 世代今年春天大学毕业_____。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Now that members of Generation Z are graduating college this spring—the most <span class=\"mask\">[commonly-accepted]</span> definition says this generation was born after 1995, give or take a year— the attention has been rising steadily in recent weeks. Gen Zs are about to hit the streets looking for work in a labor market that’s tighter than it’s been in decades. And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S. this year than last, <span class=\"mask\">[according]</span> to a survey conducted by the National Association of Colleges and Employers. Everybody wants to know how the people who will soon inhabit those empty office cubicles will differ from those who came before them.</p>\n<p><strong>开始精读：</strong></p>\n<p>Now / that members of Generation Z are graduating college this spring—the most <span class=\"mask\">[commonly-accepted]</span> definition says this generation was born / after 1995, / give or take a year— / the attention has been rising steadily in recent weeks. / Gen Zs are about to hit the streets looking for work in a labor market that’s tighter than it’s been in decades. / And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S. this year than last, / <span class=\"mask\">[according]</span> to a survey conducted by the National Association of Colleges and Employers. / Everybody wants to know how the people / who will soon inhabit those empty office cubicles will differ from those / who came / before them.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>现在，Z 世代的成员将于今年春天大学毕业——最普遍接受的定义是这一代人出生在 1995 年之后，大约一年左右——最近几周，人们的关注度一直在稳步上升。 Z 世代即将走上街头，在比几十年来更加紧张的劳动力市场中寻找工作。根据全国大学和雇主协会进行的一项调查，今年雇主计划在美国雇用的应届毕业生比去年增加约 17%。每个人都想知道即将入住这些空办公室隔间的人们与之前的人们有何不同。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "36"
+          }
+        },
+        {
+          "section": "36题",
+          "raw": "### A. are recognized for their abilities\n\n> 因其能力而受到认可\n\n我们先看 A 选项：`are recognized for their abilities`（因其能力而受到认可）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Z 世代今年春天大学毕业“因其能力而受到认可”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“因其能力而受到认可”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. are recognized for their abilities</h3>\n<blockquote><p>因其能力而受到认可</p></blockquote>\n<p>我们先看 A 选项：<code>are recognized for their abilities</code>（因其能力而受到认可）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Z 世代今年春天大学毕业“因其能力而受到认可”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“因其能力而受到认可”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "36",
+            "option": "A"
+          }
+        },
+        {
+          "section": "36题",
+          "raw": "### B. are optimistic about the labor market\n\n> 对劳动力市场持乐观态度\n\n我们先看 B 选项：`are optimistic about the labor market`（对劳动力市场持乐观态度）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Z 世代今年春天大学毕业“对劳动力市场持乐观态度”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“对劳动力市场持乐观态度”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. are optimistic about the labor market</h3>\n<blockquote><p>对劳动力市场持乐观态度</p></blockquote>\n<p>我们先看 B 选项：<code>are optimistic about the labor market</code>（对劳动力市场持乐观态度）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Z 世代今年春天大学毕业“对劳动力市场持乐观态度”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“对劳动力市场持乐观态度”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "36",
+            "option": "B"
+          }
+        },
+        {
+          "section": "36题",
+          "raw": "### C. are in favor of office job offers\n\n> 赞成办公室工作机会\n\n我们先看 C 选项：`are in favor of office job offers`（赞成办公室工作机会）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Z 世代今年春天大学毕业“赞成办公室工作机会”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“赞成办公室工作机会”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. are in favor of office job offers</h3>\n<blockquote><p>赞成办公室工作机会</p></blockquote>\n<p>我们先看 C 选项：<code>are in favor of office job offers</code>（赞成办公室工作机会）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Z 世代今年春天大学毕业“赞成办公室工作机会”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“赞成办公室工作机会”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "36",
+            "option": "C"
+          }
+        },
+        {
+          "section": "36题",
+          "raw": "### D. are drawing growing public attention\n\n> 正在引起越来越多的公众关注\n\n我们先看 D 选项：`are drawing growing public attention`（正在引起越来越多的公众关注）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Z 世代今年春天大学毕业“正在引起越来越多的公众关注”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `are`, `drawing`, `growing` 与原文第 1 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：D强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>D. are drawing growing public attention</h3>\n<blockquote><p>正在引起越来越多的公众关注</p></blockquote>\n<p>我们先看 D 选项：<code>are drawing growing public attention</code>（正在引起越来越多的公众关注）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Z 世代今年春天大学毕业“正在引起越来越多的公众关注”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>are</code>, <code>drawing</code>, <code>growing</code> 与原文第 1 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 1 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：D强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "36",
+            "option": "D"
+          }
+        },
+        {
+          "section": "36题",
+          "raw": "### 36题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D强保留，与原文定位信息高度吻合；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>36题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D强保留，与原文定位信息高度吻合</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "36"
+          }
+        },
+        {
+          "section": "37题",
+          "raw": "## 37题\n\n**Generation Zs are keenly aware _____.**\n\n> Z 一代敏锐地意识到 _____。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> If “entitled” is the most common [adjective], fairly or not, applied to millennials (those born between 1981 and 1995), the catchwords for Generation Z are practical and cautious. [According] to the career [counselors] and experts who study them, Generation Zs are clear-eyed, economic [pragmatists]. Despite graduating into the best economy in the past 50 years, Gen Zs know what an economic train wreck looks like. They were [impressionable] kids during the crash of 2008, when many of their parents lost their jobs or their life savings or both. They aren’t [interested] in taking any chances. The booming economy seems to have done little to assuage this underlying [generational] sense of anxious urgency, especially for those who have college debt. College loan balances in the U.S. now stand at a record $1.5 trillion, [according] to the Federal Reserve.\n>\n> 开始精读：\n>\n> If “entitled” is the most common [adjective], / fairly or not, / applied to millennials (those born between 1981 and 1995), / the catchwords for Generation Z are practical and cautious. [According] to the career [counselors] and experts / who study them, / Generation Zs are clear-eyed, / economic [pragmatists]. / Despite graduating into the best economy in the past 50 years, / Gen Zs know what an economic train wreck looks like. / They were [impressionable] kids during the crash of 2008, / / when many of their parents lost their jobs or their life savings or both. / They aren’t [interested] in taking any chances. / The booming economy seems to have done little to assuage this underlying [generational] sense of anxious urgency, / especially for those / who have college debt. / College loan balances in the U.S. now stand at a record $1.5 trillion, / [according] to the Federal Reserve.\n>\n> 逐意群顺译：\n>\n> 如果“有资格”是最常见的形容词，无论公平与否，适用于千禧一代（1981 年至 1995 年出生的人），那么 Z 世代的口号就是务实和谨慎。根据职业顾问和研究他们的专家的说法，Z 一代是头脑清醒的经济实用主义者。尽管 Z 世代已经进入了过去 50 年来最好的经济体，但他们知道经济列车失事是什么样子。在 2008 年经济危机期间，他们是易受影响的孩子，当时他们的许多父母失去了工作或毕生积蓄，或两者兼而有之。他们没有兴趣冒险。蓬勃发展的经济似乎并没有缓解这一代人潜在的焦虑感，特别是对于那些背负大学债务的人来说。根据美联储的数据，美国的大学贷款余额目前达到创纪录的 1.5 万亿美元。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>37题</h2>\n<p><strong>Generation Zs are keenly aware _____.</strong></p>\n<blockquote><p>Z 一代敏锐地意识到 _____。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>If “entitled” is the most common <span class=\"mask\">[adjective]</span>, fairly or not, applied to millennials (those born between 1981 and 1995), the catchwords for Generation Z are practical and cautious. <span class=\"mask\">[According]</span> to the career <span class=\"mask\">[counselors]</span> and experts who study them, Generation Zs are clear-eyed, economic <span class=\"mask\">[pragmatists]</span>. Despite graduating into the best economy in the past 50 years, Gen Zs know what an economic train wreck looks like. They were <span class=\"mask\">[impressionable]</span> kids during the crash of 2008, when many of their parents lost their jobs or their life savings or both. They aren’t <span class=\"mask\">[interested]</span> in taking any chances. The booming economy seems to have done little to assuage this underlying <span class=\"mask\">[generational]</span> sense of anxious urgency, especially for those who have college debt. College loan balances in the U.S. now stand at a record $1.5 trillion, <span class=\"mask\">[according]</span> to the Federal Reserve.</p>\n<p><strong>开始精读：</strong></p>\n<p>If “entitled” is the most common <span class=\"mask\">[adjective]</span>, / fairly or not, / applied to millennials (those born between 1981 and 1995), / the catchwords for Generation Z are practical and cautious. <span class=\"mask\">[According]</span> to the career <span class=\"mask\">[counselors]</span> and experts / who study them, / Generation Zs are clear-eyed, / economic <span class=\"mask\">[pragmatists]</span>. / Despite graduating into the best economy in the past 50 years, / Gen Zs know what an economic train wreck looks like. / They were <span class=\"mask\">[impressionable]</span> kids during the crash of 2008, / / when many of their parents lost their jobs or their life savings or both. / They aren’t <span class=\"mask\">[interested]</span> in taking any chances. / The booming economy seems to have done little to assuage this underlying <span class=\"mask\">[generational]</span> sense of anxious urgency, / especially for those / who have college debt. / College loan balances in the U.S. now stand at a record $1.5 trillion, / <span class=\"mask\">[according]</span> to the Federal Reserve.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>如果“有资格”是最常见的形容词，无论公平与否，适用于千禧一代（1981 年至 1995 年出生的人），那么 Z 世代的口号就是务实和谨慎。根据职业顾问和研究他们的专家的说法，Z 一代是头脑清醒的经济实用主义者。尽管 Z 世代已经进入了过去 50 年来最好的经济体，但他们知道经济列车失事是什么样子。在 2008 年经济危机期间，他们是易受影响的孩子，当时他们的许多父母失去了工作或毕生积蓄，或两者兼而有之。他们没有兴趣冒险。蓬勃发展的经济似乎并没有缓解这一代人潜在的焦虑感，特别是对于那些背负大学债务的人来说。根据美联储的数据，美国的大学贷款余额目前达到创纪录的 1.5 万亿美元。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "37"
+          }
+        },
+        {
+          "section": "37题",
+          "raw": "### A. what their parents expect of them\n\n> 他们的父母对他们的期望\n\n我们先看 A 选项：`what their parents expect of them`（他们的父母对他们的期望）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Z 一代敏锐地意识到 “他们的父母对他们的期望”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“他们的父母对他们的期望”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. what their parents expect of them</h3>\n<blockquote><p>他们的父母对他们的期望</p></blockquote>\n<p>我们先看 A 选项：<code>what their parents expect of them</code>（他们的父母对他们的期望）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Z 一代敏锐地意识到 “他们的父母对他们的期望”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“他们的父母对他们的期望”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "37",
+            "option": "A"
+          }
+        },
+        {
+          "section": "37题",
+          "raw": "### B. how valuable a counselor’s advice is\n\n> 辅导员的建议有多有价值\n\n我们先看 B 选项：`how valuable a counselor’s advice is`（辅导员的建议有多有价值）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Z 一代敏锐地意识到 “辅导员的建议有多有价值”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“辅导员的建议有多有价值”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. how valuable a counselor’s advice is</h3>\n<blockquote><p>辅导员的建议有多有价值</p></blockquote>\n<p>我们先看 B 选项：<code>how valuable a counselor’s advice is</code>（辅导员的建议有多有价值）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Z 一代敏锐地意识到 “辅导员的建议有多有价值”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“辅导员的建议有多有价值”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "37",
+            "option": "B"
+          }
+        },
+        {
+          "section": "37题",
+          "raw": "### C. what a tough economic situation is like\n\n> 严峻的经济形势是什么样的\n\n我们先看 C 选项：`what a tough economic situation is like`（严峻的经济形势是什么样的）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Z 一代敏锐地意识到 “严峻的经济形势是什么样的”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `what`, `tough`, `economic` 与原文第 2 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：C强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>C. what a tough economic situation is like</h3>\n<blockquote><p>严峻的经济形势是什么样的</p></blockquote>\n<p>我们先看 C 选项：<code>what a tough economic situation is like</code>（严峻的经济形势是什么样的）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Z 一代敏锐地意识到 “严峻的经济形势是什么样的”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>what</code>, <code>tough</code>, <code>economic</code> 与原文第 2 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 C 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 2 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：C强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "37",
+            "option": "C"
+          }
+        },
+        {
+          "section": "37题",
+          "raw": "### D. how they differ from past generations\n\n> 他们与前几代人有何不同\n\n我们先看 D 选项：`how they differ from past generations`（他们与前几代人有何不同）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Z 一代敏锐地意识到 “他们与前几代人有何不同”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“他们与前几代人有何不同”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. how they differ from past generations</h3>\n<blockquote><p>他们与前几代人有何不同</p></blockquote>\n<p>我们先看 D 选项：<code>how they differ from past generations</code>（他们与前几代人有何不同）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Z 一代敏锐地意识到 “他们与前几代人有何不同”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“他们与前几代人有何不同”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "37",
+            "option": "D"
+          }
+        },
+        {
+          "section": "37题",
+          "raw": "### 37题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C强保留，与原文定位信息高度吻合；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>37题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C强保留，与原文定位信息高度吻合</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "37"
+          }
+        },
+        {
+          "section": "38题",
+          "raw": "## 38题\n\n**The word “assuage” (Paragraph 2) is closest in meaning to _____.**\n\n> “assuage”（第 2 段）一词的含义最接近 _____。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> One survey from Accenture found that 88 percent of graduating seniors this year chose their major with a job in mind. In a 2019 survey of University of Georgia students, [meanwhile], the career office found the most desirable trait in a future employer was the ability to offer secure [employment] (followed by [professional] development and training, and then [inspiring] purpose). Job security or [stability] was the second most important career goal (work-life balance was number one), followed by a sense of being [dedicated] to a cause or to feel good about serving the greater good.\n>\n> 开始精读：\n>\n> One survey from Accenture found / that 88 percent of graduating seniors this year chose their major with a job in mind. / In a 2019 survey of University of Georgia students, / [meanwhile], / the career office found the most desirable trait in a future employer was the ability to offer secure [employment] (followed by [professional] development and training, / and then [inspiring] purpose). / Job security or [stability] was the second most important career goal (work-life balance was number one), / followed by a sense of being [dedicated] to a cause or to feel good about serving the greater good.\n>\n> 逐意群顺译：\n>\n> 埃森哲的一项调查发现，今年 88% 的应届毕业生在选择专业时就考虑到了工作。与此同时，在 2019 年对佐治亚大学学生的一项调查中，职业办公室发现，未来雇主最理想的特质是提供稳定就业的能力（其次是专业发展和培训，然后是鼓舞人心的目标）。工作保障或稳定是第二重要的职业目标（工作与生活的平衡是第一位的），其次是致力于一项事业的感觉或为更大的利益服务的感觉。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>38题</h2>\n<p><strong>The word “assuage” (Paragraph 2) is closest in meaning to _____.</strong></p>\n<blockquote><p>“assuage”（第 2 段）一词的含义最接近 _____。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>One survey from Accenture found that 88 percent of graduating seniors this year chose their major with a job in mind. In a 2019 survey of University of Georgia students, <span class=\"mask\">[meanwhile]</span>, the career office found the most desirable trait in a future employer was the ability to offer secure <span class=\"mask\">[employment]</span> (followed by <span class=\"mask\">[professional]</span> development and training, and then <span class=\"mask\">[inspiring]</span> purpose). Job security or <span class=\"mask\">[stability]</span> was the second most important career goal (work-life balance was number one), followed by a sense of being <span class=\"mask\">[dedicated]</span> to a cause or to feel good about serving the greater good.</p>\n<p><strong>开始精读：</strong></p>\n<p>One survey from Accenture found / that 88 percent of graduating seniors this year chose their major with a job in mind. / In a 2019 survey of University of Georgia students, / <span class=\"mask\">[meanwhile]</span>, / the career office found the most desirable trait in a future employer was the ability to offer secure <span class=\"mask\">[employment]</span> (followed by <span class=\"mask\">[professional]</span> development and training, / and then <span class=\"mask\">[inspiring]</span> purpose). / Job security or <span class=\"mask\">[stability]</span> was the second most important career goal (work-life balance was number one), / followed by a sense of being <span class=\"mask\">[dedicated]</span> to a cause or to feel good about serving the greater good.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>埃森哲的一项调查发现，今年 88% 的应届毕业生在选择专业时就考虑到了工作。与此同时，在 2019 年对佐治亚大学学生的一项调查中，职业办公室发现，未来雇主最理想的特质是提供稳定就业的能力（其次是专业发展和培训，然后是鼓舞人心的目标）。工作保障或稳定是第二重要的职业目标（工作与生活的平衡是第一位的），其次是致力于一项事业的感觉或为更大的利益服务的感觉。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "38"
+          }
+        },
+        {
+          "section": "38题",
+          "raw": "### A. deepen\n\n> 深化\n\n我们先看 A 选项：`deepen`（深化）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：“assuage”（第 2 段）一词的含义最接近 “深化”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `deepen` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. deepen</h3>\n<blockquote><p>深化</p></blockquote>\n<p>我们先看 A 选项：<code>deepen</code>（深化）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：“assuage”（第 2 段）一词的含义最接近 “深化”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>deepen</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "38",
+            "option": "A"
+          }
+        },
+        {
+          "section": "38题",
+          "raw": "### B. define\n\n> 定义\n\n我们先看 B 选项：`define`（定义）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：“assuage”（第 2 段）一词的含义最接近 “定义”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“定义”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. define</h3>\n<blockquote><p>定义</p></blockquote>\n<p>我们先看 B 选项：<code>define</code>（定义）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：“assuage”（第 2 段）一词的含义最接近 “定义”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“定义”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "38",
+            "option": "B"
+          }
+        },
+        {
+          "section": "38题",
+          "raw": "### C. maintain\n\n> 维持\n\n我们先看 C 选项：`maintain`（维持）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：“assuage”（第 2 段）一词的含义最接近 “维持”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `maintain` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. maintain</h3>\n<blockquote><p>维持</p></blockquote>\n<p>我们先看 C 选项：<code>maintain</code>（维持）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：“assuage”（第 2 段）一词的含义最接近 “维持”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>maintain</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "38",
+            "option": "C"
+          }
+        },
+        {
+          "section": "38题",
+          "raw": "### D. relieve\n\n> 缓解\n\n我们先看 D 选项：`relieve`（缓解）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：“assuage”（第 2 段）一词的含义最接近 “缓解”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `relieve` 与原文第 3 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：D强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>D. relieve</h3>\n<blockquote><p>缓解</p></blockquote>\n<p>我们先看 D 选项：<code>relieve</code>（缓解）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：“assuage”（第 2 段）一词的含义最接近 “缓解”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>relieve</code> 与原文第 3 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 D 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 3 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：D强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "38",
+            "option": "D"
+          }
+        },
+        {
+          "section": "38题",
+          "raw": "### 38题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B直接排除；\n- **C**：C直接排除；\n- **D**：D强保留，与原文定位信息高度吻合；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>38题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B直接排除</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D强保留，与原文定位信息高度吻合</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "38"
+          }
+        },
+        {
+          "section": "39题",
+          "raw": "## 39题\n\n**It can be learned from Paragraph 3 that Generation Zs _____.**\n\n> 从第 3 段可以看出，Z 世代 _____。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> That’s a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya [Michelsen], Associate Director of YouthSight, a UK-based brand manager that conducts regular 60-day surveys of British youth, in findings that might just as well apply to American youth. “Generation Zs are looking for more certainty and [stability], because of the rise of the gig economy. They have troubles seeing a financial future and they are quite risk averse.”\n>\n> 开始精读：\n>\n> That’s a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya [Michelsen], / Associate Director of YouthSight, / a UK-based brand manager / that conducts regular 60-day surveys of British youth, / in findings / that might just as well apply to American youth. “Generation Zs are looking for more certainty and [stability], / / because of the rise of the gig economy. / They have troubles seeing a financial future and they are quite risk averse.”\n>\n> 逐意群顺译：\n>\n> 与上一代相比，这是一个很大的变化。英国品牌经理YouthSight对英国年轻人进行为期60天的定期调查，其副总监坦尼娅•米歇尔森指出：“千禧一代希望自己的生活更灵活。”她的调查结果可能同样适用于美国年轻人。“由于零工经济的兴起，z世代正在寻求更多的确定性和稳定性。他们很难预见未来的财务状况，而且相当厌恶风险。”\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>39题</h2>\n<p><strong>It can be learned from Paragraph 3 that Generation Zs _____.</strong></p>\n<blockquote><p>从第 3 段可以看出，Z 世代 _____。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>That’s a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya <span class=\"mask\">[Michelsen]</span>, Associate Director of YouthSight, a UK-based brand manager that conducts regular 60-day surveys of British youth, in findings that might just as well apply to American youth. “Generation Zs are looking for more certainty and <span class=\"mask\">[stability]</span>, because of the rise of the gig economy. They have troubles seeing a financial future and they are quite risk averse.”</p>\n<p><strong>开始精读：</strong></p>\n<p>That’s a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya <span class=\"mask\">[Michelsen]</span>, / Associate Director of YouthSight, / a UK-based brand manager / that conducts regular 60-day surveys of British youth, / in findings / that might just as well apply to American youth. “Generation Zs are looking for more certainty and <span class=\"mask\">[stability]</span>, / / because of the rise of the gig economy. / They have troubles seeing a financial future and they are quite risk averse.”</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>与上一代相比，这是一个很大的变化。英国品牌经理YouthSight对英国年轻人进行为期60天的定期调查，其副总监坦尼娅•米歇尔森指出：“千禧一代希望自己的生活更灵活。”她的调查结果可能同样适用于美国年轻人。“由于零工经济的兴起，z世代正在寻求更多的确定性和稳定性。他们很难预见未来的财务状况，而且相当厌恶风险。”</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "39"
+          }
+        },
+        {
+          "section": "39题",
+          "raw": "### A. give top priority to professional training\n\n> 把专业培训放在首位\n\n我们先看 A 选项：`give top priority to professional training`（把专业培训放在首位）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从第 3 段可以看出，Z 世代 “把专业培训放在首位”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“把专业培训放在首位”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. give top priority to professional training</h3>\n<blockquote><p>把专业培训放在首位</p></blockquote>\n<p>我们先看 A 选项：<code>give top priority to professional training</code>（把专业培训放在首位）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从第 3 段可以看出，Z 世代 “把专业培训放在首位”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“把专业培训放在首位”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "39",
+            "option": "A"
+          }
+        },
+        {
+          "section": "39题",
+          "raw": "### B. have a clear idea about their future jobs\n\n> 对自己未来的工作有清晰的想法\n\n我们先看 B 选项：`have a clear idea about their future jobs`（对自己未来的工作有清晰的想法）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从第 3 段可以看出，Z 世代 “对自己未来的工作有清晰的想法”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `clear`, `idea`, `their` 与原文第 4 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：B强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>B. have a clear idea about their future jobs</h3>\n<blockquote><p>对自己未来的工作有清晰的想法</p></blockquote>\n<p>我们先看 B 选项：<code>have a clear idea about their future jobs</code>（对自己未来的工作有清晰的想法）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从第 3 段可以看出，Z 世代 “对自己未来的工作有清晰的想法”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>clear</code>, <code>idea</code>, <code>their</code> 与原文第 4 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：B强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "39",
+            "option": "B"
+          }
+        },
+        {
+          "section": "39题",
+          "raw": "### C. care little about their job performance\n\n> 不太关心他们的工作表现\n\n我们先看 C 选项：`care little about their job performance`（不太关心他们的工作表现）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从第 3 段可以看出，Z 世代 “不太关心他们的工作表现”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“不太关心他们的工作表现”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. care little about their job performance</h3>\n<blockquote><p>不太关心他们的工作表现</p></blockquote>\n<p>我们先看 C 选项：<code>care little about their job performance</code>（不太关心他们的工作表现）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从第 3 段可以看出，Z 世代 “不太关心他们的工作表现”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“不太关心他们的工作表现”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "39",
+            "option": "C"
+          }
+        },
+        {
+          "section": "39题",
+          "raw": "### D. think it hard to achieve work-life balance\n\n> 认为很难实现工作与生活的平衡\n\n我们先看 D 选项：`think it hard to achieve work-life balance`（认为很难实现工作与生活的平衡）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从第 3 段可以看出，Z 世代 “认为很难实现工作与生活的平衡”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“认为很难实现工作与生活的平衡”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. think it hard to achieve work-life balance</h3>\n<blockquote><p>认为很难实现工作与生活的平衡</p></blockquote>\n<p>我们先看 D 选项：<code>think it hard to achieve work-life balance</code>（认为很难实现工作与生活的平衡）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从第 3 段可以看出，Z 世代 “认为很难实现工作与生活的平衡”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“认为很难实现工作与生活的平衡”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "39",
+            "option": "D"
+          }
+        },
+        {
+          "section": "39题",
+          "raw": "### 39题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B强保留，与原文定位信息高度吻合；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>39题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B强保留，与原文定位信息高度吻合</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "39"
+          }
+        },
+        {
+          "section": "40题",
+          "raw": "## 40题\n\n**Michelsen thinks that compared with millennials, Generation Zs are _____.**\n\n> 迈克尔森认为，与千禧一代相比，Z 一代是_____。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> That’s a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya [Michelsen], Associate Director of YouthSight, a UK-based brand manager that conducts regular 60-day surveys of British youth, in findings that might just as well apply to American youth. “Generation Zs are looking for more certainty and [stability], because of the rise of the gig economy. They have troubles seeing a financial future and they are quite risk averse.”\n>\n> 开始精读：\n>\n> That’s a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya [Michelsen], / Associate Director of YouthSight, / a UK-based brand manager / that conducts regular 60-day surveys of British youth, / in findings / that might just as well apply to American youth. “Generation Zs are looking for more certainty and [stability], / / because of the rise of the gig economy. / They have troubles seeing a financial future and they are quite risk averse.”\n>\n> 逐意群顺译：\n>\n> 与上一代相比，这是一个很大的变化。英国品牌经理YouthSight对英国年轻人进行为期60天的定期调查，其副总监坦尼娅•米歇尔森指出：“千禧一代希望自己的生活更灵活。”她的调查结果可能同样适用于美国年轻人。“由于零工经济的兴起，z世代正在寻求更多的确定性和稳定性。他们很难预见未来的财务状况，而且相当厌恶风险。”\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>40题</h2>\n<p><strong>Michelsen thinks that compared with millennials, Generation Zs are _____.</strong></p>\n<blockquote><p>迈克尔森认为，与千禧一代相比，Z 一代是_____。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>That’s a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya <span class=\"mask\">[Michelsen]</span>, Associate Director of YouthSight, a UK-based brand manager that conducts regular 60-day surveys of British youth, in findings that might just as well apply to American youth. “Generation Zs are looking for more certainty and <span class=\"mask\">[stability]</span>, because of the rise of the gig economy. They have troubles seeing a financial future and they are quite risk averse.”</p>\n<p><strong>开始精读：</strong></p>\n<p>That’s a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya <span class=\"mask\">[Michelsen]</span>, / Associate Director of YouthSight, / a UK-based brand manager / that conducts regular 60-day surveys of British youth, / in findings / that might just as well apply to American youth. “Generation Zs are looking for more certainty and <span class=\"mask\">[stability]</span>, / / because of the rise of the gig economy. / They have troubles seeing a financial future and they are quite risk averse.”</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>与上一代相比，这是一个很大的变化。英国品牌经理YouthSight对英国年轻人进行为期60天的定期调查，其副总监坦尼娅•米歇尔森指出：“千禧一代希望自己的生活更灵活。”她的调查结果可能同样适用于美国年轻人。“由于零工经济的兴起，z世代正在寻求更多的确定性和稳定性。他们很难预见未来的财务状况，而且相当厌恶风险。”</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "meta": {
+            "kind": "question",
+            "qid": "40"
+          }
+        },
+        {
+          "section": "40题",
+          "raw": "### A. less realistic\n\n> 不太现实\n\n我们先看 A 选项：`less realistic`（不太现实）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：迈克尔森认为，与千禧一代相比，Z 一代是“不太现实”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `less`, `realistic` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. less realistic</h3>\n<blockquote><p>不太现实</p></blockquote>\n<p>我们先看 A 选项：<code>less realistic</code>（不太现实）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：迈克尔森认为，与千禧一代相比，Z 一代是“不太现实”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>less</code>, <code>realistic</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "40",
+            "option": "A"
+          }
+        },
+        {
+          "section": "40题",
+          "raw": "### B. less adventurous\n\n> 较少冒险\n\n我们先看 B 选项：`less adventurous`（较少冒险）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：迈克尔森认为，与千禧一代相比，Z 一代是“较少冒险”_。\n\n**定位原文与对比分析：**\n\n1. **同义替换与核心考点对应**：\n   - 选项中的核心关键词 `less`, `adventurous` 与原文第 4 段定位句形成了精准的同义替换。\n   - 题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。\n\n2. **逻辑一致性与作者态度**：\n   - 选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。\n\n**第一轮判断：B强保留，是目前最符合原文证据的标准正选。**",
+          "html": "<h3>B. less adventurous</h3>\n<blockquote><p>较少冒险</p></blockquote>\n<p>我们先看 B 选项：<code>less adventurous</code>（较少冒险）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：迈克尔森认为，与千禧一代相比，Z 一代是“较少冒险”_。</p></blockquote>\n<p><strong>定位原文与对比分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 同义替换与核心考点对应：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的核心关键词 <code>less</code>, <code>adventurous</code> 与原文第 4 段定位句形成了精准的同义替换。</li><li style=\"margin-bottom:6px\">题干提问的重心在于考查对该段落关键事实与论证因果的准确理解，而 B 选项准确提炼了定位句的核心主干，既没有随意添加未经证实的极端修饰，也没有缩小范围。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 逻辑一致性与作者态度：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项表达的因果与作者在第 4 段的客观叙述完全一致。在回答题干所问的核心问题时，该选项给出了最直接、最符合上下文逻辑的解答。</li></ul>\n<p><strong>第一轮判断：B强保留，是目前最符合原文证据的标准正选。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "40",
+            "option": "B"
+          }
+        },
+        {
+          "section": "40题",
+          "raw": "### C. more diligent\n\n> 更勤奋\n\n我们先看 C 选项：`more diligent`（更勤奋）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：迈克尔森认为，与千禧一代相比，Z 一代是“更勤奋”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“更勤奋”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. more diligent</h3>\n<blockquote><p>更勤奋</p></blockquote>\n<p>我们先看 C 选项：<code>more diligent</code>（更勤奋）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：迈克尔森认为，与千禧一代相比，Z 一代是“更勤奋”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“更勤奋”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "40",
+            "option": "C"
+          }
+        },
+        {
+          "section": "40题",
+          "raw": "### D. more generous\n\n> 更慷慨\n\n我们先看 D 选项：`more generous`（更慷慨）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：迈克尔森认为，与千禧一代相比，Z 一代是“更慷慨”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `more`, `generous` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. more generous</h3>\n<blockquote><p>更慷慨</p></blockquote>\n<p>我们先看 D 选项：<code>more generous</code>（更慷慨）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：迈克尔森认为，与千禧一代相比，Z 一代是“更慷慨”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>more</code>, <code>generous</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "meta": {
+            "kind": "option",
+            "qid": "40",
+            "option": "D"
+          }
+        },
+        {
+          "section": "40题",
+          "raw": "### 40题第一次结果\n\n经过定位比对法和写作视角法推演，我们得到：\n\n- **A**：A直接排除；\n- **B**：B强保留，与原文定位信息高度吻合；\n- **C**：C直接排除；\n- **D**：D直接排除；\n\n锁定最具竞争力的核心选项，进入下一步或最终交叉验证。",
+          "html": "<h3>40题第一次结果</h3>\n<p>经过定位比对法和写作视角法推演，我们得到：</p>\n<ul><li><strong>A</strong>：A直接排除</li><li><strong>B</strong>：B强保留，与原文定位信息高度吻合</li><li><strong>C</strong>：C直接排除</li><li><strong>D</strong>：D直接排除</li></ul>\n<p>锁定最具竞争力的核心选项，进入下一步或最终交叉验证。</p>",
+          "meta": {
+            "kind": "result",
+            "qid": "40"
+          }
+        },
+        {
+          "section": "进阶技巧",
+          "raw": "# 4. 进阶技巧：交叉验证冲全对\n\n当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。",
+          "html": "<h1>4. 进阶技巧：交叉验证冲全对</h1><p>当遇到二选一纠结或存在模棱两可选项时，利用全文主旨与作者情感倾向进行交叉验证，孤证不立，以主旨统领全局。</p>",
+          "meta": {}
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查36题交叉验证\n\n**题干**：Generation Zs graduating college this spring _____.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **D**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **D**。\n\n**36题选 D。**",
+          "html": "<h2>回查36题交叉验证</h2>\n<p><strong>题干</strong>：Generation Zs graduating college this spring _____.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>D</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">D</span></strong>。</p>\n<p><strong>36题选 D。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "36"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查37题交叉验证\n\n**题干**：Generation Zs are keenly aware _____.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **C**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **C**。\n\n**37题选 C。**",
+          "html": "<h2>回查37题交叉验证</h2>\n<p><strong>题干</strong>：Generation Zs are keenly aware _____.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>C</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">C</span></strong>。</p>\n<p><strong>37题选 C。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "37"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查38题交叉验证\n\n**题干**：The word “assuage” (Paragraph 2) is closest in meaning to _____.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **D**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **D**。\n\n**38题选 D。**",
+          "html": "<h2>回查38题交叉验证</h2>\n<p><strong>题干</strong>：The word “assuage” (Paragraph 2) is closest in meaning to _____.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>D</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">D</span></strong>。</p>\n<p><strong>38题选 D。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "38"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查39题交叉验证\n\n**题干**：It can be learned from Paragraph 3 that Generation Zs _____.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **B**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **B**。\n\n**39题选 B。**",
+          "html": "<h2>回查39题交叉验证</h2>\n<p><strong>题干</strong>：It can be learned from Paragraph 3 that Generation Zs _____.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>B</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">B</span></strong>。</p>\n<p><strong>39题选 B。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "39"
+          }
+        },
+        {
+          "section": "进阶回查",
+          "raw": "## 回查40题交叉验证\n\n**题干**：Michelsen thinks that compared with millennials, Generation Zs are _____.\n\n**回查主旨底牌**：\n本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。\n\n回扣选项 **B**，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 **B**。\n\n**40题选 B。**",
+          "html": "<h2>回查40题交叉验证</h2>\n<p><strong>题干</strong>：Michelsen thinks that compared with millennials, Generation Zs are _____.</p>\n<p><strong>回查主旨底牌</strong>：本文全文逻辑主线鲜明，作者在论述中始终秉持客观、严谨且层层递进的态度。</p>\n<p>回扣选项 <strong>B</strong>，其论述目标与全文核心论调高度自洽；相比之下，其余被排除的干扰选项均存在以偏概全、偷换概念或无中生有之嫌，孤证不立，再次百分之百印证正确答案为 <strong><span style=\"color:#0f766e;font-size:1.2em\">B</span></strong>。</p>\n<p><strong>40题选 B。</strong></p>",
+          "meta": {
+            "kind": "review",
+            "qid": "40"
+          }
+        },
+        {
+          "section": "最终答案",
+          "raw": "# 5. 最终答案汇总\n\n**36. D**\n\n**37. C**\n\n**38. D**\n\n**39. B**\n\n**40. B**\n\n恭喜完成本篇阅读的做题推演！建议点击顶栏切换至【复盘模式（一石五鸟）】进行全方位深度吸收。",
+          "html": "<h1>5. 最终答案汇总</h1><div style=\"background:#f0fdf4;border:1px solid #bbf7d0;padding:16px;border-radius:8px;font-size:18px;line-height:2;color:#166534\">**36. D**<br><br>**37. C**<br><br>**38. D**<br><br>**39. B**<br><br>**40. B**</div><p style=\"margin-top:16px\">恭喜完成本篇阅读的做题推演！建议点击顶栏切换至<strong>【复盘模式（一石五鸟）】</strong>进行全方位深度吸收。</p>",
+          "meta": {
+            "kind": "final"
+          }
+        }
+      ]
+    },
+    "review": {
+      "steps": [
+        {
+          "section": 0,
+          "title": "省流：一石五鸟法怎么做",
+          "html": "<p>一石五鸟复盘法将一篇阅读真题价值吃干榨净，同时打通词汇、长难句与翻译、阅读解题思维、新题型逻辑、大作文写作五大核心题型，实现高效备考。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第一鸟-积累文中重点单词带来的词汇量提升",
+          "html": "<p>精选真题高频核心词、熟词生义、派生搭配，在语境中彻底掌握考研核心5500词的核心词族。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第二鸟-精读文章与翻译练习带来的翻译能力提升",
+          "html": "<p>逐句精读拆解句法骨架（主干提取、从句修饰剥离），针对典型长难句进行规范中文翻译输出。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>深度剖析命题人设置正确选项的同义替换规律，归纳排查5大高频干扰陷阱（偷换概念/无中生有/反向干扰/过度推断/答非所问）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>梳理全文语篇结构树（起承转合、因果对比、问题解决），迁移训练考研英语二新题型（7选5/小标题/排序）。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "一石五鸟第五鸟-顺手积累本文的大作文主题词与表达带来的写作能力提升",
+          "html": "<p>提炼本文涉及社会热点、科技经济、生态教育等母题的高分表达、观点金句与论证句型，直接化为写作武器。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 0,
+          "title": "为什么考研英语备考实际只需要两到三个月的有效备考工作量",
+          "html": "<p>通过一石五鸟法，做1篇真题等于练5项能力，无需题海战术，56篇真题足以为考研英语二夯实75+甚至85+的坚实功底。</p>",
+          "meta": {
+            "section": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第1段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>members</strong></td><td>n. 成员，会员；一分子；议员</td><td><strong>graduating</strong></td><td>v. 毕业；分度，标刻度；n. 毕业情怀</td><td><strong>college</strong></td><td>n. 大学，专科学校；学院，分院；公学</td></tr><tr><td><strong>spring</strong></td><td>n. 春天，春季；泉，泉水；源泉，根源</td><td><strong>commonly</strong></td><td>adv. 通常，大多数人地</td><td><strong>accepted</strong></td><td>adj. 公认的，为公众所接受的；v. 接受；相信，认为……正确</td></tr><tr><td><strong>definition</strong></td><td>n. 定义，释义；榜样，典范；清晰，清晰度，鲜明度</td><td><strong>says</strong></td><td>vt. 说，讲；宣称，说明；认为，据说</td><td><strong>generation</strong></td><td>n. 一代；一代人的时间；代</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 0
+          }
+        },
+        {
+          "section": 1,
+          "title": "第2段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>entitled</strong></td><td>adj. 有资格的；v. 使享有权利；给……命名</td><td><strong>common</strong></td><td>adj. 共同的，共享的；常见的，普遍的，一般的；普通的，平凡的</td><td><strong>adjective</strong></td><td>n. 形容词；adj. 形容词的；从属的</td></tr><tr><td><strong>fairly</strong></td><td>adv. 相当地，颇；公平地，公正地；完全，简直</td><td><strong>applied</strong></td><td>adj. 应用的，实用的；v. 申请；涂，敷</td><td><strong>millennials</strong></td><td>n. 千禧一代，千禧世代，千禧之子</td></tr><tr><td><strong>born</strong></td><td>adj. 天生的，生来就有的；出生的；产生的，问世的</td><td><strong>catchwords</strong></td><td>流行语；词目；接头词</td><td><strong>practical</strong></td><td>adj. 真实的，实际的；切实有效的，切实可行的；明智的，务实的</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 1
+          }
+        },
+        {
+          "section": 1,
+          "title": "第3段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>survey</strong></td><td>n. 民意调查，民意测验；考察，调查；全面考察，概述</td><td><strong>found</strong></td><td>v. 创办，成立；建造，兴建；根据，以……为基础</td><td><strong>graduating</strong></td><td>v. 毕业；分度，标刻度；n. 毕业情怀</td></tr><tr><td><strong>seniors</strong></td><td>n. 老年人，年长者；上级，地位较高者，资历较深的人；高中或大学的毕业班学生</td><td><strong>chose</strong></td><td>v. 选择，挑选；n. [法律]物体；动产</td><td><strong>major</strong></td><td>adj. 重大的，主要的；严重的；大调的，大音阶的</td></tr><tr><td><strong>mind</strong></td><td>n. 头脑，大脑；智慧，思维方式；聪明人，富有才智的人</td><td><strong>meanwhile</strong></td><td>adv. 与此同时；在此期间；另一方面</td><td><strong>career</strong></td><td>n. 职业，事业；职业生涯；速度，行程</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 2
+          }
+        },
+        {
+          "section": 1,
+          "title": "第4段",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n  <th>表达</th><th>词性＋意思</th>\n</tr>\n</thead>\n<tbody><tr><td><strong>previous</strong></td><td>adj. 以前的，先前的；稍前的；过早的，过急的</td><td><strong>generation</strong></td><td>n. 一代；一代人的时间；代</td><td><strong>wanted</strong></td><td>adj. 被警方追捕的，被通缉的；为人渴望和喜爱的，受人照料的；v. 需要</td></tr><tr><td><strong>flexibility</strong></td><td>n. 灵活性；弹性，柔性</td><td><strong>lives</strong></td><td>n. 生活；生命；v. 居住</td><td><strong>notes</strong></td><td>n. 笔记；注释，说明，备注；便条，短笺</td></tr><tr><td><strong>based</strong></td><td>adj. 为基础的，为根据的；在……居住的，基地在……的；v. 以……为基础</td><td><strong>brand</strong></td><td>n. 品牌，商标；一种，一类；烙印，火印</td><td><strong>manager</strong></td><td>n. 经理；经纪人；管理人，主教练</td></tr></tbody>\n</table></div>",
+          "meta": {
+            "section": 1,
+            "para": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>Now that members of Generation Z are graduating college this spring—the most commonly-accepted definition says this generation was born after 1995, give or take a year— the attention has been rising steadily in recent weeks. Gen Zs are about to hit the streets looking for work in a labor market that’s tighter than it’s been in decades. And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S. this year than last, according to a survey conducted by the National Association of Colleges and Employers. Everybody wants to know how the people who will soon inhabit those empty office cubicles will differ from those who came before them.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>Now that members of Generation Z are graduating college this spring—the most commonly-accepted definition says this generation was born after 1995, give or take a year— the attention has been rising steadily in recent weeks. Gen Zs are about to hit the streets looking for work in a labor market that’s tighter than it’s been in decades. And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S. this year than last, according to a survey conducted by the National Association of Colleges and Employers. Everybody wants to know how the people who will soon inhabit those empty office cubicles will differ from those who came before them.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>Now / that members of Generation Z are graduating college this spring—the most commonly-accepted definition says this generation was born / after 1995, / give or take a year— / the attention has been rising steadily in recent weeks. / Gen Zs are about to hit the streets looking for work in a labor market that’s tighter than it’s been in decades. / And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S. this year than last, / according to a survey conducted by the National Association of Colleges and Employers. / Everybody wants to know how the people / who will soon inhabit those empty office cubicles will differ from those / who came / before them.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>Now that members of Generation Z are graduating college this spring—the most commonly-accepted definition says this generation was born after 1995, give or take a year— the attention has been rising steadily in recent weeks. Gen Zs are about to hit the streets looking for work in a labor market that’s tighter than it’s been in decades. And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S. this year than last, according to a survey conducted by the National Association of Colleges and Employers. Everybody wants to know how the people who will soon inhabit those empty office cubicles will differ from those who came before them.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>Now / that members of Generation Z are graduating college this spring—the most commonly-accepted definition says this generation was born / after 1995, / give or take a year— / the attention has been rising steadily in recent weeks. / Gen Zs are about to hit the streets looking for work in a labor market that’s tighter than it’s been in decades. / And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S. this year than last, / according to a survey conducted by the National Association of Colleges and Employers. / Everybody wants to know how the people / who will soon inhabit those empty office cubicles will differ from those / who came / before them.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">现在 / Z 世代的成员将于今年春天从大学毕业——最普遍接受的定义是这一代人诞生了 / 1995年以后 / 一年 / 最近几周关注度稳步上升<br>Z世代即将走上街头，在比几十年来更加紧张的劳动力市场中寻找工作<br>雇主们计划在美国雇用约 17% 的应届毕业生<br>今年比去年 / 根据全国大学和雇主协会进行的一项调查<br>每个人都想知道人们如何 / 谁将很快居住在那些空荡荡的办公室隔间里，将会与那些人有所不同 / 谁来了 / 在他们面前</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-1-0\">\n<h3>完整原文 · 第1段</h3>\n<p>Now that members of Generation Z are graduating college this spring—the most commonly-accepted definition says this generation was born after 1995, give or take a year— the attention has been rising steadily in recent weeks. Gen Zs are about to hit the streets looking for work in a labor market that’s tighter than it’s been in decades. And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S. this year than last, according to a survey conducted by the National Association of Colleges and Employers. Everybody wants to know how the people who will soon inhabit those empty office cubicles will differ from those who came before them.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-1\">\n<h3>意群划分 · 第1段</h3>\n<p>Now / that members of Generation Z are graduating college this spring—the most commonly-accepted definition says this generation was born / after 1995, / give or take a year— / the attention has been rising steadily in recent weeks. / Gen Zs are about to hit the streets looking for work in a labor market that’s tighter than it’s been in decades. / And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S. this year than last, / according to a survey conducted by the National Association of Colleges and Employers. / Everybody wants to know how the people / who will soon inhabit those empty office cubicles will differ from those / who came / before them.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-2\">\n<h3>意群翻译 · 第1段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">现在 / Z 世代的成员将于今年春天从大学毕业——最普遍接受的定义是这一代人诞生了 / 1995年以后 / 一年 / 最近几周关注度稳步上升<br>Z世代即将走上街头，在比几十年来更加紧张的劳动力市场中寻找工作<br>雇主们计划在美国雇用约 17% 的应届毕业生<br>今年比去年 / 根据全国大学和雇主协会进行的一项调查<br>每个人都想知道人们如何 / 谁将很快居住在那些空荡荡的办公室隔间里，将会与那些人有所不同 / 谁来了 / 在他们面前</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-1-3\">\n<h3>标准译文 · 第1段</h3>\n<p>现在，Z 世代的成员将于今年春天大学毕业——最普遍接受的定义是这一代人出生在 1995 年之后，大约一年左右——最近几周，人们的关注度一直在稳步上升。 Z 世代即将走上街头，在比几十年来更加紧张的劳动力市场中寻找工作。根据全国大学和雇主协会进行的一项调查，今年雇主计划在美国雇用的应届毕业生比去年增加约 17%。每个人都想知道即将入住这些空办公室隔间的人们与之前的人们有何不同。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Now that members of Generation Z are graduating college this spring—the most commonly-accepted definition says this generation was born after 1995, give or take a year— the attention has been rising steadily in recent weeks.</p>\n<p><strong>意群断句：</strong><code>Now / that members of Generation Z are graduating college this spring—the most commonly-accepted definition says this generation was born / after 1995, / give or take a year— / the attention has been rising steadily in recent weeks.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">现在 / Z 世代的成员将于今年春天从大学毕业——最普遍接受的定义是这一代人诞生了 / 1995年以后 / 一年 / 最近几周关注度稳步上升</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>时间状语从句</b>：由连词 <code>After</code> 引导从句 <code>After 1995</code>，限定主句论述的时空背景或逻辑前提。</li><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>Now</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">现在，Z 世代的成员将于今年春天大学毕业——最普遍接受的定义是这一代人出生在 1995 年之后，大约一年左右——最近几周，人们的关注度一直在稳步上升。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Gen Zs are about to hit the streets looking for work in a labor market that’s tighter than it’s been in decades.</p>\n<p><strong>意群断句：</strong><code>Gen Zs are about to hit the streets looking for work in a labor market that’s tighter than it’s been in decades.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">Z世代即将走上街头，在比几十年来更加紧张的劳动力市场中寻找工作</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">Z 世代即将走上街头，在比几十年来更加紧张的劳动力市场中寻找工作。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S.</p>\n<p><strong>意群断句：</strong><code>And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">雇主们计划在美国雇用约 17% 的应届毕业生</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">雇主们计划在美国多雇用约 17% 的应届毕业生。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>this year than last, according to a survey conducted by the National Association of Colleges and Employers.</p>\n<p><strong>意群断句：</strong><code>this year than last, / according to a survey conducted by the National Association of Colleges and Employers.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">今年比去年 / 根据全国大学和雇主协会进行的一项调查</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">根据全国大学和雇主协会进行的一项调查，今年的就业人数高于去年。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第1段 · 句5",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (5/5)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Everybody wants to know how the people who will soon inhabit those empty office cubicles will differ from those who came before them.</p>\n<p><strong>意群断句：</strong><code>Everybody wants to know how the people / who will soon inhabit those empty office cubicles will differ from those / who came / before them.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">每个人都想知道人们如何 / 谁将很快居住在那些空荡荡的办公室隔间里，将会与那些人有所不同 / 谁来了 / 在他们面前</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>who</code> 引导定语从句修饰先行词 <code>people</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">每个人都想知道即将入住这些空办公室隔间的人们与之前的人们有何不同。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 0,
+            "sentence": 4
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>If “entitled” is the most common adjective, fairly or not, applied to millennials (those born between 1981 and 1995), the catchwords for Generation Z are practical and cautious. According to the career counselors and experts who study them, Generation Zs are clear-eyed, economic pragmatists. Despite graduating into the best economy in the past 50 years, Gen Zs know what an economic train wreck looks like. They were impressionable kids during the crash of 2008, when many of their parents lost their jobs or their life savings or both. They aren’t interested in taking any chances. The booming economy seems to have done little to assuage this underlying generational sense of anxious urgency, especially for those who have college debt. College loan balances in the U.S. now stand at a record $1.5 trillion, according to the Federal Reserve.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>If “entitled” is the most common adjective, fairly or not, applied to millennials (those born between 1981 and 1995), the catchwords for Generation Z are practical and cautious. According to the career counselors and experts who study them, Generation Zs are clear-eyed, economic pragmatists. Despite graduating into the best economy in the past 50 years, Gen Zs know what an economic train wreck looks like. They were impressionable kids during the crash of 2008, when many of their parents lost their jobs or their life savings or both. They aren’t interested in taking any chances. The booming economy seems to have done little to assuage this underlying generational sense of anxious urgency, especially for those who have college debt. College loan balances in the U.S. now stand at a record $1.5 trillion, according to the Federal Reserve.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>If “entitled” is the most common adjective, / fairly or not, / applied to millennials (those born between 1981 and 1995), / the catchwords for Generation Z are practical and cautious. / According to the career counselors and experts / who study them, / Generation Zs are clear-eyed, / economic pragmatists. / Despite graduating into the best economy in the past 50 years, / Gen Zs know what an economic train wreck looks like. / They were impressionable kids during the crash of 2008, / / when many of their parents lost their jobs or their life savings or both. / They aren’t interested in taking any chances. / The booming economy seems to have done little to assuage this underlying generational sense of anxious urgency, / especially for those / who have college debt. / College loan balances in the U.S. now stand at a record $1.5 trillion, / according to the Federal Reserve.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>If “entitled” is the most common adjective, fairly or not, applied to millennials (those born between 1981 and 1995), the catchwords for Generation Z are practical and cautious. According to the career counselors and experts who study them, Generation Zs are clear-eyed, economic pragmatists. Despite graduating into the best economy in the past 50 years, Gen Zs know what an economic train wreck looks like. They were impressionable kids during the crash of 2008, when many of their parents lost their jobs or their life savings or both. They aren’t interested in taking any chances. The booming economy seems to have done little to assuage this underlying generational sense of anxious urgency, especially for those who have college debt. College loan balances in the U.S. now stand at a record $1.5 trillion, according to the Federal Reserve.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>If “entitled” is the most common adjective, / fairly or not, / applied to millennials (those born between 1981 and 1995), / the catchwords for Generation Z are practical and cautious. / According to the career counselors and experts / who study them, / Generation Zs are clear-eyed, / economic pragmatists. / Despite graduating into the best economy in the past 50 years, / Gen Zs know what an economic train wreck looks like. / They were impressionable kids during the crash of 2008, / / when many of their parents lost their jobs or their life savings or both. / They aren’t interested in taking any chances. / The booming economy seems to have done little to assuage this underlying generational sense of anxious urgency, / especially for those / who have college debt. / College loan balances in the U.S. now stand at a record $1.5 trillion, / according to the Federal Reserve.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">如果“有权利”是最常见的形容词 / 公平与否 / 适用于千禧一代（1981 年至 1995 年出生的人） / Z世代的口号是务实、谨慎<br>根据职业顾问和专家的说法 / 谁研究它们 / Z世代目光敏锐 / 经济实用主义者<br>尽管毕业进入了过去50年最好的经济体 / Z世代知道经济列车失事是什么样子<br>2008 年金融危机期间，他们都是易受影响的孩子 / 当他们的许多父母失去工作或毕生积蓄或两者兼而有之时<br>他们没有兴趣冒险<br>蓬勃发展的经济似乎并没有缓解这一代人潜在的焦虑感 / 特别是对于那些 / 谁有大学债务<br>美国的大学贷款余额<br>目前已达到创纪录的 1.5 万亿美元 / 根据美联储的数据</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-2-0\">\n<h3>完整原文 · 第2段</h3>\n<p>If “entitled” is the most common adjective, fairly or not, applied to millennials (those born between 1981 and 1995), the catchwords for Generation Z are practical and cautious. According to the career counselors and experts who study them, Generation Zs are clear-eyed, economic pragmatists. Despite graduating into the best economy in the past 50 years, Gen Zs know what an economic train wreck looks like. They were impressionable kids during the crash of 2008, when many of their parents lost their jobs or their life savings or both. They aren’t interested in taking any chances. The booming economy seems to have done little to assuage this underlying generational sense of anxious urgency, especially for those who have college debt. College loan balances in the U.S. now stand at a record $1.5 trillion, according to the Federal Reserve.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-1\">\n<h3>意群划分 · 第2段</h3>\n<p>If “entitled” is the most common adjective, / fairly or not, / applied to millennials (those born between 1981 and 1995), / the catchwords for Generation Z are practical and cautious. / According to the career counselors and experts / who study them, / Generation Zs are clear-eyed, / economic pragmatists. / Despite graduating into the best economy in the past 50 years, / Gen Zs know what an economic train wreck looks like. / They were impressionable kids during the crash of 2008, / / when many of their parents lost their jobs or their life savings or both. / They aren’t interested in taking any chances. / The booming economy seems to have done little to assuage this underlying generational sense of anxious urgency, / especially for those / who have college debt. / College loan balances in the U.S. now stand at a record $1.5 trillion, / according to the Federal Reserve.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-2\">\n<h3>意群翻译 · 第2段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">如果“有权利”是最常见的形容词 / 公平与否 / 适用于千禧一代（1981 年至 1995 年出生的人） / Z世代的口号是务实、谨慎<br>根据职业顾问和专家的说法 / 谁研究它们 / Z世代目光敏锐 / 经济实用主义者<br>尽管毕业进入了过去50年最好的经济体 / Z世代知道经济列车失事是什么样子<br>2008 年金融危机期间，他们都是易受影响的孩子 / 当他们的许多父母失去工作或毕生积蓄或两者兼而有之时<br>他们没有兴趣冒险<br>蓬勃发展的经济似乎并没有缓解这一代人潜在的焦虑感 / 特别是对于那些 / 谁有大学债务<br>美国的大学贷款余额<br>目前已达到创纪录的 1.5 万亿美元 / 根据美联储的数据</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-2-3\">\n<h3>标准译文 · 第2段</h3>\n<p>如果“有资格”是最常见的形容词，无论公平与否，适用于千禧一代（1981 年至 1995 年出生的人），那么 Z 世代的口号就是务实和谨慎。根据职业顾问和研究他们的专家的说法，Z 一代是头脑清醒的经济实用主义者。尽管 Z 世代已经进入了过去 50 年来最好的经济体，但他们知道经济列车失事是什么样子。在 2008 年经济危机期间，他们是易受影响的孩子，当时他们的许多父母失去了工作或毕生积蓄，或两者兼而有之。他们没有兴趣冒险。蓬勃发展的经济似乎并没有缓解这一代人潜在的焦虑感，特别是对于那些背负大学债务的人来说。根据美联储的数据，美国的大学贷款余额目前达到创纪录的 1.5 万亿美元。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>If “entitled” is the most common adjective, fairly or not, applied to millennials (those born between 1981 and 1995), the catchwords for Generation Z are practical and cautious.</p>\n<p><strong>意群断句：</strong><code>If “entitled” is the most common adjective, / fairly or not, / applied to millennials (those born between 1981 and 1995), / the catchwords for Generation Z are practical and cautious.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">如果“有权利”是最常见的形容词 / 公平与否 / 适用于千禧一代（1981 年至 1995 年出生的人） / Z世代的口号是务实、谨慎</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>条件状语从句</b>：由连词 <code>If</code> 引导从句 <code>If “entitled” is the most common adjective</code>，限定主句论述的时空背景或逻辑前提。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">如果“有资格”是最常见的形容词，无论公平与否，适用于千禧一代（1981 年至 1995 年出生的人），那么 Z 世代的口号就是务实和谨慎。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>According to the career counselors and experts who study them, Generation Zs are clear-eyed, economic pragmatists.</p>\n<p><strong>意群断句：</strong><code>According to the career counselors and experts / who study them, / Generation Zs are clear-eyed, / economic pragmatists.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">根据职业顾问和专家的说法 / 谁研究它们 / Z世代目光敏锐 / 经济实用主义者</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>who</code> 引导定语从句修饰先行词 <code>experts</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">根据职业顾问和研究他们的专家的说法，Z 一代是头脑清醒的经济实用主义者。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Despite graduating into the best economy in the past 50 years, Gen Zs know what an economic train wreck looks like.</p>\n<p><strong>意群断句：</strong><code>Despite graduating into the best economy in the past 50 years, / Gen Zs know what an economic train wreck looks like.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">尽管毕业进入了过去50年最好的经济体 / Z世代知道经济列车失事是什么样子</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>Despite graduating into the best economy in...</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">尽管 Z 世代已经进入了过去 50 年来最好的经济体，但他们知道经济列车失事是什么样子。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>They were impressionable kids during the crash of 2008, when many of their parents lost their jobs or their life savings or both.</p>\n<p><strong>意群断句：</strong><code>They were impressionable kids during the crash of 2008, / / when many of their parents lost their jobs or their life savings or both.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">2008 年金融危机期间，他们都是易受影响的孩子 / 当他们的许多父母失去工作或毕生积蓄或两者兼而有之时</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">在 2008 年经济危机期间，他们是易受影响的孩子，当时他们的许多父母失去了工作或毕生积蓄，或两者兼而有之。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句5",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (5/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>They aren’t interested in taking any chances.</p>\n<p><strong>意群断句：</strong><code>They aren’t interested in taking any chances.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">他们没有兴趣冒险</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">他们没有兴趣冒险。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 4
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句6",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (6/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>The booming economy seems to have done little to assuage this underlying generational sense of anxious urgency, especially for those who have college debt.</p>\n<p><strong>意群断句：</strong><code>The booming economy seems to have done little to assuage this underlying generational sense of anxious urgency, / especially for those / who have college debt.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">蓬勃发展的经济似乎并没有缓解这一代人潜在的焦虑感 / 特别是对于那些 / 谁有大学债务</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>who</code> 引导定语从句修饰先行词 <code>those</code>，限定其具体属性与内涵。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">蓬勃发展的经济似乎并没有缓解这一代人潜在的焦虑感，特别是对于那些背负大学债务的人来说。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 5
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句7",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (7/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>College loan balances in the U.S.</p>\n<p><strong>意群断句：</strong><code>College loan balances in the U.S.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">美国的大学贷款余额</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">美国的大学贷款余额</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 6
+          }
+        },
+        {
+          "section": 2,
+          "title": "第2段 · 句8",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (8/8)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>now stand at a record $1.5 trillion, according to the Federal Reserve.</p>\n<p><strong>意群断句：</strong><code>now stand at a record $1.5 trillion, / according to the Federal Reserve.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">目前已达到创纪录的 1.5 万亿美元 / 根据美联储的数据</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">根据美联储的数据，目前美元规模已达到创纪录的 1.5 万亿美元。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 1,
+            "sentence": 7
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>One survey from Accenture found that 88 percent of graduating seniors this year chose their major with a job in mind. In a 2019 survey of University of Georgia students, meanwhile, the career office found the most desirable trait in a future employer was the ability to offer secure employment (followed by professional development and training, and then inspiring purpose). Job security or stability was the second most important career goal (work-life balance was number one), followed by a sense of being dedicated to a cause or to feel good about serving the greater good.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>One survey from Accenture found that 88 percent of graduating seniors this year chose their major with a job in mind. In a 2019 survey of University of Georgia students, meanwhile, the career office found the most desirable trait in a future employer was the ability to offer secure employment (followed by professional development and training, and then inspiring purpose). Job security or stability was the second most important career goal (work-life balance was number one), followed by a sense of being dedicated to a cause or to feel good about serving the greater good.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>One survey from Accenture found / that 88 percent of graduating seniors this year chose their major with a job in mind. / In a 2019 survey of University of Georgia students, / meanwhile, / the career office found the most desirable trait in a future employer was the ability to offer secure employment (followed by professional development and training, / and then inspiring purpose). / Job security or stability was the second most important career goal (work-life balance was number one), / followed by a sense of being dedicated to a cause or to feel good about serving the greater good.</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>One survey from Accenture found that 88 percent of graduating seniors this year chose their major with a job in mind. In a 2019 survey of University of Georgia students, meanwhile, the career office found the most desirable trait in a future employer was the ability to offer secure employment (followed by professional development and training, and then inspiring purpose). Job security or stability was the second most important career goal (work-life balance was number one), followed by a sense of being dedicated to a cause or to feel good about serving the greater good.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>One survey from Accenture found / that 88 percent of graduating seniors this year chose their major with a job in mind. / In a 2019 survey of University of Georgia students, / meanwhile, / the career office found the most desirable trait in a future employer was the ability to offer secure employment (followed by professional development and training, / and then inspiring purpose). / Job security or stability was the second most important career goal (work-life balance was number one), / followed by a sense of being dedicated to a cause or to feel good about serving the greater good.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">埃森哲的一项调查发现 / 今年 88% 的应届毕业生选择专业时考虑的是工作<br>2019 年对佐治亚大学学生的调查 / 同时 / 职业办公室发现未来雇主最理想的特质是提供稳定就业的能力（其次是专业发展和培训 / 然后是鼓舞人心的目标）<br>工作保障或稳定是第二重要的职业目标（工作与生活的平衡是第一位的） / 其次是一种致力于某项事业的感觉或为更大的利益服务的感觉良好</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-3-0\">\n<h3>完整原文 · 第3段</h3>\n<p>One survey from Accenture found that 88 percent of graduating seniors this year chose their major with a job in mind. In a 2019 survey of University of Georgia students, meanwhile, the career office found the most desirable trait in a future employer was the ability to offer secure employment (followed by professional development and training, and then inspiring purpose). Job security or stability was the second most important career goal (work-life balance was number one), followed by a sense of being dedicated to a cause or to feel good about serving the greater good.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-1\">\n<h3>意群划分 · 第3段</h3>\n<p>One survey from Accenture found / that 88 percent of graduating seniors this year chose their major with a job in mind. / In a 2019 survey of University of Georgia students, / meanwhile, / the career office found the most desirable trait in a future employer was the ability to offer secure employment (followed by professional development and training, / and then inspiring purpose). / Job security or stability was the second most important career goal (work-life balance was number one), / followed by a sense of being dedicated to a cause or to feel good about serving the greater good.</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-2\">\n<h3>意群翻译 · 第3段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">埃森哲的一项调查发现 / 今年 88% 的应届毕业生选择专业时考虑的是工作<br>2019 年对佐治亚大学学生的调查 / 同时 / 职业办公室发现未来雇主最理想的特质是提供稳定就业的能力（其次是专业发展和培训 / 然后是鼓舞人心的目标）<br>工作保障或稳定是第二重要的职业目标（工作与生活的平衡是第一位的） / 其次是一种致力于某项事业的感觉或为更大的利益服务的感觉良好</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-3-3\">\n<h3>标准译文 · 第3段</h3>\n<p>埃森哲的一项调查发现，今年 88% 的应届毕业生在选择专业时就考虑到了工作。与此同时，在 2019 年对佐治亚大学学生的一项调查中，职业办公室发现，未来雇主最理想的特质是提供稳定就业的能力（其次是专业发展和培训，然后是鼓舞人心的目标）。工作保障或稳定是第二重要的职业目标（工作与生活的平衡是第一位的），其次是致力于一项事业的感觉或为更大的利益服务的感觉。</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>One survey from Accenture found that 88 percent of graduating seniors this year chose their major with a job in mind.</p>\n<p><strong>意群断句：</strong><code>One survey from Accenture found / that 88 percent of graduating seniors this year chose their major with a job in mind.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">埃森哲的一项调查发现 / 今年 88% 的应届毕业生选择专业时考虑的是工作</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>宾语从句</b>：谓语动词 <code>found</code> 后接 <code>that</code> 引导的宾语从句，充当其核心认知或事实陈述内容。</li><li style=\"margin-bottom:5px\"><b>介词短语修饰</b>：<code>with a job in mind....</code> 充当状语或定语，补充方式、伴随或背景条件。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">埃森哲的一项调查发现，今年 88% 的应届毕业生在选择专业时就考虑到了工作。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>In a 2019 survey of University of Georgia students, meanwhile, the career office found the most desirable trait in a future employer was the ability to offer secure employment (followed by professional development and training, and then inspiring purpose).</p>\n<p><strong>意群断句：</strong><code>In a 2019 survey of University of Georgia students, / meanwhile, / the career office found the most desirable trait in a future employer was the ability to offer secure employment (followed by professional development and training, / and then inspiring purpose).</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">2019 年对佐治亚大学学生的调查 / 同时 / 职业办公室发现未来雇主最理想的特质是提供稳定就业的能力（其次是专业发展和培训 / 然后是鼓舞人心的目标）</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">与此同时，在 2019 年对佐治亚大学学生的一项调查中，职业办公室发现，未来雇主最理想的特质是提供稳定就业的能力（其次是专业发展和培训，然后是鼓舞人心的目标）。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第3段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/3)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>Job security or stability was the second most important career goal (work-life balance was number one), followed by a sense of being dedicated to a cause or to feel good about serving the greater good.</p>\n<p><strong>意群断句：</strong><code>Job security or stability was the second most important career goal (work-life balance was number one), / followed by a sense of being dedicated to a cause or to feel good about serving the greater good.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">工作保障或稳定是第二重要的职业目标（工作与生活的平衡是第一位的） / 其次是一种致力于某项事业的感觉或为更大的利益服务的感觉良好</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">工作保障或稳定是第二重要的职业目标（工作与生活的平衡是第一位的），其次是致力于一项事业的感觉或为更大的利益服务的感觉。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 2,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>That’s a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya Michelsen, Associate Director of YouthSight, a UK-based brand manager that conducts regular 60-day surveys of British youth, in findings that might just as well apply to American youth. “Generation Zs are looking for more certainty and stability, because of the rise of the gig economy. They have troubles seeing a financial future and they are quite risk averse.”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>That’s a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya Michelsen, Associate Director of YouthSight, a UK-based brand manager that conducts regular 60-day surveys of British youth, in findings that might just as well apply to American youth. “Generation Zs are looking for more certainty and stability, because of the rise of the gig economy. They have troubles seeing a financial future and they are quite risk averse.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>That’s a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya Michelsen, / Associate Director of YouthSight, / a UK-based brand manager / that conducts regular 60-day surveys of British youth, / in findings / that might just as well apply to American youth. “Generation Zs are looking for more certainty and stability, / / because of the rise of the gig economy. / They have troubles seeing a financial future and they are quite risk averse.”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>That’s a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya Michelsen, Associate Director of YouthSight, a UK-based brand manager that conducts regular 60-day surveys of British youth, in findings that might just as well apply to American youth. “Generation Zs are looking for more certainty and stability, because of the rise of the gig economy. They have troubles seeing a financial future and they are quite risk averse.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>That’s a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya Michelsen, / Associate Director of YouthSight, / a UK-based brand manager / that conducts regular 60-day surveys of British youth, / in findings / that might just as well apply to American youth. “Generation Zs are looking for more certainty and stability, / / because of the rise of the gig economy. / They have troubles seeing a financial future and they are quite risk averse.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-2\">\n<h3>意群翻译 · 第4段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">与上一代相比，这是一个很大的变化<br>Millennials wanted more flexibility in their lives,” notes Tanya Michelsen / 青年视野副主任 / 英国品牌经理 / 对英国年轻人进行为期 60 天的定期调查 / 在调查结果中 / 这也可能适用于美国年轻人<br>Generation Zs are looking for more certainty and stability / 由于零工经济的兴起<br>他们很难看到财务未来，而且非常厌恶风险。”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 篇章精读",
+          "html": "<section class=\"revealPart\" id=\"focus-paragraph-4-0\">\n<h3>完整原文 · 第4段</h3>\n<p>That’s a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya Michelsen, Associate Director of YouthSight, a UK-based brand manager that conducts regular 60-day surveys of British youth, in findings that might just as well apply to American youth. “Generation Zs are looking for more certainty and stability, because of the rise of the gig economy. They have troubles seeing a financial future and they are quite risk averse.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-1\">\n<h3>意群划分 · 第4段</h3>\n<p>That’s a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya Michelsen, / Associate Director of YouthSight, / a UK-based brand manager / that conducts regular 60-day surveys of British youth, / in findings / that might just as well apply to American youth. “Generation Zs are looking for more certainty and stability, / / because of the rise of the gig economy. / They have troubles seeing a financial future and they are quite risk averse.”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-2\">\n<h3>意群翻译 · 第4段</h3>\n<p style=\"line-height:1.8;color:#2563eb;font-weight:500\">与上一代相比，这是一个很大的变化<br>Millennials wanted more flexibility in their lives,” notes Tanya Michelsen / 青年视野副主任 / 英国品牌经理 / 对英国年轻人进行为期 60 天的定期调查 / 在调查结果中 / 这也可能适用于美国年轻人<br>Generation Zs are looking for more certainty and stability / 由于零工经济的兴起<br>他们很难看到财务未来，而且非常厌恶风险。”</p>\n</section>\n<section class=\"revealPart\" id=\"focus-paragraph-4-3\">\n<h3>标准译文 · 第4段</h3>\n<p>与上一代相比，这是一个很大的变化。英国品牌经理YouthSight对英国年轻人进行为期60天的定期调查，其副总监坦尼娅•米歇尔森指出：“千禧一代希望自己的生活更灵活。”她的调查结果可能同样适用于美国年轻人。“由于零工经济的兴起，z世代正在寻求更多的确定性和稳定性。他们很难预见未来的财务状况，而且相当厌恶风险。”</p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "form": 3
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句1",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (1/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>That’s a big change from the previous generation.</p>\n<p><strong>意群断句：</strong><code>That’s a big change from the previous generation.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">与上一代相比，这是一个很大的变化</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">与上一代相比，这是一个很大的变化。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 0
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句2",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (2/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>“Millennials wanted more flexibility in their lives,” notes Tanya Michelsen, Associate Director of YouthSight, a UK-based brand manager that conducts regular 60-day surveys of British youth, in findings that might just as well apply to American youth.</p>\n<p><strong>意群断句：</strong><code>“Millennials wanted more flexibility in their lives,” notes Tanya Michelsen, / Associate Director of YouthSight, / a UK-based brand manager / that conducts regular 60-day surveys of British youth, / in findings / that might just as well apply to American youth.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">Millennials wanted more flexibility in their lives,” notes Tanya Michelsen / 青年视野副主任 / 英国品牌经理 / 对英国年轻人进行为期 60 天的定期调查 / 在调查结果中 / 这也可能适用于美国年轻人</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>限制性定语从句</b>：关系词 <code>that</code> 引导定语从句修饰先行词 <code>manager</code>，限定其具体属性与内涵。</li><li style=\"margin-bottom:5px\"><b>同位语/插入语</b>：<code>Associate Director of YouthSight</code> 充当同位语/插入语，紧随其后对前置名词提供身份补充或同等指代。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">英国品牌经理YouthSight对英国年轻人进行为期60天的定期调查，其副总监坦尼娅•米歇尔森指出：“千禧一代希望自己的生活更灵活。”她的调查结果可能同样适用于美国年轻人。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 1
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句3",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (3/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>“Generation Zs are looking for more certainty and stability, because of the rise of the gig economy.</p>\n<p><strong>意群断句：</strong><code>“Generation Zs are looking for more certainty and stability, / / because of the rise of the gig economy.</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">Generation Zs are looking for more certainty and stability / 由于零工经济的兴起</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">“由于零工经济的兴起，Z 一代正在寻求更多的确定性和稳定性。</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 2
+          }
+        },
+        {
+          "section": 2,
+          "title": "第4段 · 句4",
+          "html": "<section class=\"revealPart\">\n<h4>句子精析 (4/4)</h4>\n<p style=\"font-family:'Times New Roman',serif;font-size:1.15em;color:#1e293b;line-height:1.7\"><strong>原句：</strong>They have troubles seeing a financial future and they are quite risk averse.”</p>\n<p><strong>意群断句：</strong><code>They have troubles seeing a financial future and they are quite risk averse.”</code></p>\n<p style=\"margin:8px 0\"><strong>【意群翻译】：</strong><span style=\"color:#2563eb;font-weight:500;font-size:1.02em\">他们很难看到财务未来，而且非常厌恶风险。”</span></p>\n<div style=\"margin:8px 0;background:#f8fafc;border-left:4px solid #0f766e;padding:8px 12px;border-radius:0 6px 6px 0\">\n  <p style=\"font-weight:bold;color:#0f766e;margin-bottom:4px\">【句法拆解与逻辑剖析】</p>\n  <ul style=\"margin:6px 0 0 18px;padding:0;line-height:1.7;color:#334155\"><li style=\"margin-bottom:5px\"><b>主干结构剖析</b>：全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接紧密自然。</li></ul>\n</div>\n<p style=\"margin-top:8px\"><strong>【满分参考汉译】</strong><span style=\"color:#0f766e;font-weight:600;font-size:1.05em\">他们很难看到财务未来，而且非常厌恶风险。”</span></p>\n</section>",
+          "meta": {
+            "section": 2,
+            "para": 3,
+            "sentence": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "3.一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
+          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，正确项如何进行同义改写，错误项如何设置陷阱；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
+          "meta": {
+            "section": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "36题 · 题干、题型与核心出处",
+          "html": "<p><strong>36. Generation Zs graduating college this spring _____.</strong></p>\n<p>（Z 世代今年春天大学毕业_____。）</p>\n<p><strong>题型判定</strong>：事实细节题 ｜ <strong>定位出处</strong>：Paragraph 1</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "36"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. are recognized for their abilities",
+          "html": "<p><strong>选项 A</strong>：<code>are recognized for their abilities</code></p>\n<p><strong>中文翻译</strong>：因其能力而受到认可</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. are optimistic about the labor market",
+          "html": "<p><strong>选项 B</strong>：<code>are optimistic about the labor market</code></p>\n<p><strong>中文翻译</strong>：对劳动力市场持乐观态度</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. are in favor of office job offers",
+          "html": "<p><strong>选项 C</strong>：<code>are in favor of office job offers</code></p>\n<p><strong>中文翻译</strong>：赞成办公室工作机会</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. are drawing growing public attention",
+          "html": "<p><strong>选项 D</strong>：<code>are drawing growing public attention</code></p>\n<p><strong>中文翻译</strong>：正在引起越来越多的公众关注</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "37题 · 题干、题型与核心出处",
+          "html": "<p><strong>37. Generation Zs are keenly aware _____.</strong></p>\n<p>（Z 一代敏锐地意识到 _____。）</p>\n<p><strong>题型判定</strong>：因果推断题 ｜ <strong>定位出处</strong>：Paragraph 2</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "37"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. what their parents expect of them",
+          "html": "<p><strong>选项 A</strong>：<code>what their parents expect of them</code></p>\n<p><strong>中文翻译</strong>：他们的父母对他们的期望</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. how valuable a counselor’s advice is",
+          "html": "<p><strong>选项 B</strong>：<code>how valuable a counselor’s advice is</code></p>\n<p><strong>中文翻译</strong>：辅导员的建议有多有价值</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. what a tough economic situation is like",
+          "html": "<p><strong>选项 C</strong>：<code>what a tough economic situation is like</code></p>\n<p><strong>中文翻译</strong>：严峻的经济形势是什么样的</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. how they differ from past generations",
+          "html": "<p><strong>选项 D</strong>：<code>how they differ from past generations</code></p>\n<p><strong>中文翻译</strong>：他们与前几代人有何不同</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "38题 · 题干、题型与核心出处",
+          "html": "<p><strong>38. The word “assuage” (Paragraph 2) is closest in meaning to _____.</strong></p>\n<p>（“assuage”（第 2 段）一词的含义最接近 _____。）</p>\n<p><strong>题型判定</strong>：段落推理题 ｜ <strong>定位出处</strong>：Paragraph 3</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "38"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. deepen",
+          "html": "<p><strong>选项 A</strong>：<code>deepen</code></p>\n<p><strong>中文翻译</strong>：深化</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. define",
+          "html": "<p><strong>选项 B</strong>：<code>define</code></p>\n<p><strong>中文翻译</strong>：定义</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. maintain",
+          "html": "<p><strong>选项 C</strong>：<code>maintain</code></p>\n<p><strong>中文翻译</strong>：维持</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. relieve",
+          "html": "<p><strong>选项 D</strong>：<code>relieve</code></p>\n<p><strong>中文翻译</strong>：缓解</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "39题 · 题干、题型与核心出处",
+          "html": "<p><strong>39. It can be learned from Paragraph 3 that Generation Zs _____.</strong></p>\n<p>（从第 3 段可以看出，Z 世代 _____。）</p>\n<p><strong>题型判定</strong>：词义/例证题 ｜ <strong>定位出处</strong>：Paragraph 4</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "39"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. give top priority to professional training",
+          "html": "<p><strong>选项 A</strong>：<code>give top priority to professional training</code></p>\n<p><strong>中文翻译</strong>：把专业培训放在首位</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. have a clear idea about their future jobs",
+          "html": "<p><strong>选项 B</strong>：<code>have a clear idea about their future jobs</code></p>\n<p><strong>中文翻译</strong>：对自己未来的工作有清晰的想法</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. care little about their job performance",
+          "html": "<p><strong>选项 C</strong>：<code>care little about their job performance</code></p>\n<p><strong>中文翻译</strong>：不太关心他们的工作表现</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. think it hard to achieve work-life balance",
+          "html": "<p><strong>选项 D</strong>：<code>think it hard to achieve work-life balance</code></p>\n<p><strong>中文翻译</strong>：认为很难实现工作与生活的平衡</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "D"
+          }
+        },
+        {
+          "section": 3,
+          "title": "40题 · 题干、题型与核心出处",
+          "html": "<p><strong>40. Michelsen thinks that compared with millennials, Generation Zs are _____.</strong></p>\n<p>（迈克尔森认为，与千禧一代相比，Z 一代是_____。）</p>\n<p><strong>题型判定</strong>：全文主旨题 ｜ <strong>定位出处</strong>：Paragraph 5</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "40"
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. less realistic",
+          "html": "<p><strong>选项 A</strong>：<code>less realistic</code></p>\n<p><strong>中文翻译</strong>：不太现实</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "A"
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. less adventurous",
+          "html": "<p><strong>选项 B</strong>：<code>less adventurous</code></p>\n<p><strong>中文翻译</strong>：较少冒险</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "B"
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. more diligent",
+          "html": "<p><strong>选项 C</strong>：<code>more diligent</code></p>\n<p><strong>中文翻译</strong>：更勤奋</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "C"
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. more generous",
+          "html": "<p><strong>选项 D</strong>：<code>more generous</code></p>\n<p><strong>中文翻译</strong>：更慷慨</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "D"
+          }
+        },
+        {
+          "section": 4,
+          "title": "4.一石五鸟第四鸟-应用文章逻辑带来的新题型能力提升",
+          "html": "<p>在新题型中，考查的本质是理解文章上下文的逻辑承接能力。我们将本篇真题结构改编为新题型迁移训练，训练对段落主旨与篇章逻辑的提炼概括能力。</p>\n<p><strong>篇章核心逻辑链条</strong>：</p>\n<p>引出核心论题 → 展开多角度实证与事实分析 → 剖析深层体制/社会矛盾 → 提出战略性长效应对策略。</p>",
+          "meta": {
+            "section": 4
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 1",
+          "html": "<p><strong>【考查段落 1】</strong></p>\n<p><code>Now that members of Generation Z are graduating college this spring—the most commonly-accepted definition says this gene...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 1 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 0
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 2",
+          "html": "<p><strong>【考查段落 2】</strong></p>\n<p><code>If “entitled” is the most common adjective, fairly or not, applied to millennials (those born between 1981 and 1995), th...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 2 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 1
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 3",
+          "html": "<p><strong>【考查段落 3】</strong></p>\n<p><code>One survey from Accenture found that 88 percent of graduating seniors this year chose their major with a job in mind. In...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 3 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 2
+          }
+        },
+        {
+          "section": 4,
+          "title": "新题型小标题匹配 · 段落 4",
+          "html": "<p><strong>【考查段落 4】</strong></p>\n<p><code>That’s a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya Mich...</code></p>\n<p><strong>【对应小标题最佳选项】</strong><code>Summary of Paragraph 4 Focus</code></p>\n<p><strong>【解析】</strong>段落首尾句明确阐述了本段核心论点，与小标题形成精准对应。</p>",
+          "meta": {
+            "section": 4,
+            "para": 3
+          }
+        },
+        {
+          "section": 5,
+          "title": "1. 大作文宏观论述与主题词汇积累",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>可积累的主题表达</th><th>中文翻译</th><th>所属类别</th><th>使用层级</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>promoting institutional adaptability</strong></td><td><strong>增强制度适应性与韧性</strong></td><td><strong>社会/经济发展</strong></td><td><strong>宏观论点</strong></td></tr>\n<tr><td>harmonizing commercial viability and public welfare</td><td>协调商业可行性与公众福祉</td><td>综合治理</td><td>论证支撑</td></tr>\n<tr><td>fostering sustainable long-term development</td><td>促进可持续长远发展</td><td>未来展望</td><td>结论升华</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        },
+        {
+          "section": 5,
+          "title": "2. 大作文图表/观点题通用满分句型模板",
+          "html": "<div class=\"table-wrap\"><table>\n<thead>\n<tr><th>适用题型</th><th>考试时可复用的形式</th><th>中文翻译</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>图表/观点题</strong></td><td><strong>A is doing B in an effort to do C.</strong></td><td><strong>A正在采取行动B，目的是实现目标C。</strong></td></tr>\n<tr><td>原因剖析段</td><td>The underlying reason behind this phenomenon is that...</td><td>该现象背后的深层原因在于……</td></tr>\n<tr><td>建议对策段</td><td>Only through collaborative governance can we ensure enduring progress.</td><td>唯有通过协同治理，方能确保长久的发展与繁荣。</td></tr>\n</tbody>\n</table></div>",
+          "meta": {
+            "section": 5
+          }
+        }
+      ]
+    }
+  }
+};
