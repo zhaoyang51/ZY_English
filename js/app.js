@@ -193,9 +193,8 @@
     window.QuizModule.renderStep(step, AppState.stepIndex, AppState.steps.length, 'workspaceContent', AppState.textData);
 
     const rightScroll = document.getElementById('rightScroll');
-    if (rightScroll) rightScroll.scrollTo({ top: 0, behavior: 'smooth' });
-    if (window.innerWidth <= 900) {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+    if (rightScroll && window.innerWidth > 900) {
+      rightScroll.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
     // Auto mark completed if reached last step
@@ -605,6 +604,23 @@
   };
 
   function setupEventListeners() {
+    // Topbar Collapse / Expand Toggle
+    const toggleTopbarBtn = document.getElementById('toggleTopbarBtn');
+    const topbarExpandPill = document.getElementById('topbarExpandPill');
+    const topbar = document.getElementById('mainTopbar');
+
+    if (toggleTopbarBtn && topbar && topbarExpandPill) {
+      toggleTopbarBtn.addEventListener('click', () => {
+        topbar.classList.add('collapsed');
+        topbarExpandPill.classList.add('show');
+      });
+
+      topbarExpandPill.addEventListener('click', () => {
+        topbar.classList.remove('collapsed');
+        topbarExpandPill.classList.remove('show');
+      });
+    }
+
     document.getElementById('yearSelect').addEventListener('change', e => {
       AppState.year = Number(e.target.value);
       updateTextDropdown();

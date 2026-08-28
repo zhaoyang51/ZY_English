@@ -13,7 +13,7 @@
 <body class="mode-practice">
 
   <!-- Top Navigation Bar -->
-  <header class="topbar">
+  <header class="topbar" id="mainTopbar">
     <div class="topbar-brand">
       <span>📖 考研英语二真题系统</span>
       <span class="badge">2010-2023 全量</span>
@@ -65,7 +65,11 @@
         <option value="dark">🌙 深色夜间</option>
       </select>
     </div>
+    <button id="toggleTopbarBtn" class="topbar-toggle-btn" title="收起顶栏功能区">▲ 收起顶栏</button>
   </header>
+
+  <!-- Topbar Floating Expand Pill -->
+  <div class="topbar-expand-pill" id="topbarExpandPill">▼ 展开功能顶栏</div>
 
   <!-- Mobile View Switcher Tabs -->
   <nav class="mobile-tabs-bar" id="mobileTabsBar">

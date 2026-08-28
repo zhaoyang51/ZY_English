@@ -713,3 +713,52 @@ body.theme-dark .vocab-tip {
     justify-content: center;
   }
 }
+
+/* Topbar Collapse & Mini Expand Pill */
+.topbar.collapsed {
+  display: none !important;
+}
+
+.topbar-toggle-btn {
+  padding: 4px 8px;
+  font-size: 0.82em;
+  font-weight: 700;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--card-bg);
+  color: var(--muted);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.topbar-toggle-btn:hover {
+  color: var(--ink);
+  background: var(--surface);
+}
+
+.topbar-expand-pill {
+  position: fixed;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  background: var(--surface);
+  border: 1.5px solid var(--mode-color);
+  box-shadow: var(--shadow-md);
+  border-radius: var(--radius-full);
+  padding: 4px 16px;
+  font-size: 0.84em;
+  font-weight: 700;
+  color: var(--mode-color);
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  gap: 6px;
+  animation: popIn 0.2s ease;
+}
+
+.topbar-expand-pill.show {
+  display: inline-flex;
+}

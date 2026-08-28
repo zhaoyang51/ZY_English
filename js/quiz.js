@@ -179,17 +179,16 @@
       container.innerHTML = html;
     },
 
-    // 2. Step-by-Step Practice Mode: 5-Stage Progressive Reasoning
+    // 2. Step-by-Step Practice Mode: Focused Question Solving & Deduction
     buildPracticeSteps(textData) {
       const steps = [];
-      const paras = textData.paragraphs;
       const questions = textData.questions;
 
       // 0. 阅前须知
       steps.push({
         section: "阅前须知",
         title: "0. 阅前须知",
-        html: `<h1>0.阅前须知</h1>
+        html: `<h1>0. 阅前须知</h1>
 <p>阅前声明，本教程对英语一英语二均适用。</p>
 <p>本教程主要解决考研英语阅读备考中的三个结构性问题：</p>
 <ol>
@@ -204,7 +203,7 @@
       steps.push({
         section: "先读题干",
         title: "1. 先读题干",
-        html: `<h1>1. 先读题干</h1><p>首先先看题干再用意群法粗读一遍文章，不看选项是因为提前看选项会干扰粗读理解。看题干对考查重点建立大致印象，借助题文同序原则提前获取文章逻辑脉络。</p>`,
+        html: `<h1>1. 先读题干</h1><p>首先先看题干再用意群法粗读文章，不看选项是因为提前看选项会干扰粗读理解。看题干对考查重点建立大致印象，借助题文同序原则提前获取文章逻辑脉络。</p>`,
         meta: {}
       });
 
@@ -217,51 +216,11 @@
         });
       });
 
-      // 2. 读文章过程 (4-Stage Progressive Reveal per Paragraph)
-      steps.push({
-        section: "读文章过程",
-        title: "2. 读文章过程",
-        html: `<h1>2. 读文章过程</h1><p>扫读全文，注重段落首尾句，识别论点与论据。关注核心逻辑转折词与态度评价词。</p>`,
-        meta: {}
-      });
-
-      paras.forEach((p, pid) => {
-        const maskHtml = p.slashed_text.replace(/([a-zA-Z]{5,})/g, '<span class="mask" onclick="this.classList.toggle(\'revealed\')">$1</span>');
-        
-        steps.push({
-          section: "读文章过程",
-          title: `第${pid+1}段 · 考场粗读`,
-          html: `<h2>第${pid+1}段 考场粗读</h2><p>${p.text}</p>`,
-          meta: { para: pid, stage: 0 }
-        });
-
-        steps.push({
-          section: "读文章过程",
-          title: `第${pid+1}段 · 考场粗读`,
-          html: `<h2>第${pid+1}段 考场粗读</h2><p>${p.text}</p><h3>意群划分</h3><p>${p.slashed_text}</p>`,
-          meta: { para: pid, stage: 1 }
-        });
-
-        steps.push({
-          section: "读文章过程",
-          title: `第${pid+1}段 · 考场粗读`,
-          html: `<h2>第${pid+1}段 考场粗读</h2><p>${p.text}</p><h3>意群划分</h3><p>${p.slashed_text}</p><h3>生词遮挡模拟（点击揭示）</h3><p>${maskHtml}</p>`,
-          meta: { para: pid, stage: 2 }
-        });
-
-        steps.push({
-          section: "读文章过程",
-          title: `第${pid+1}段 · 考场粗读`,
-          html: `<h2>第${pid+1}段 考场粗读</h2><p>${p.text}</p><h3>意群划分</h3><p>${p.slashed_text}</p><h3>生词遮挡模拟</h3><p>${maskHtml}</p><h3>意群速译</h3><p style="color:#2563eb;font-weight:500">${p.chunk_translation}</p>`,
-          meta: { para: pid, stage: 3 }
-        });
-      });
-
-      // 3. 开始做题 (Deep Options Paraphrasing & Comparative Deduction + Synonym Cards + Traps)
+      // 2. 开始做题 (Deep Options Paraphrasing & Comparative Deduction + Synonym Cards + Traps)
       steps.push({
         section: "开始做题",
-        title: "3. 开始做题",
-        html: `<h1>3. 开始做题</h1><p>严格按照定位比对、写作视角与排除干扰的三大判据，逐题逐项展开深度推演。</p>`,
+        title: "2. 开始做题",
+        html: `<h1>2. 开始做题</h1><p>严格按照定位比对、写作视角与排除干扰的三大判据，逐题逐项展开深度推演。</p>`,
         meta: {}
       });
 
@@ -318,11 +277,11 @@ ${synonymCard}
         });
       });
 
-      // 4. 进阶技巧
+      // 3. 进阶技巧
       steps.push({
         section: "进阶技巧",
-        title: "4. 进阶技巧",
-        html: `<h1>4. 进阶技巧 · 交叉验证总结</h1><p>孤证不立：做考研阅读必须结合定位句主干、作者行文逻辑与全文主旨三大支点进行闭环验证！</p>`,
+        title: "3. 进阶技巧",
+        html: `<h1>3. 进阶技巧 · 交叉验证总结</h1><p>孤证不立：做考研阅读必须结合定位句主干、作者行文逻辑与全文主旨三大支点进行闭环验证！</p>`,
         meta: {}
       });
 
