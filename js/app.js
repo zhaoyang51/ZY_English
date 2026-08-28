@@ -1,21 +1,59 @@
 /**
  * Kaoyan English II (2010-2026) Main Application Controller
- * Mobile & Tablet Responsive + Floating Navigation Controls
+ * Mobile & Tablet Responsive + Floating Controls + Progress Persistence + Dynamic Module Tracker
  */
 (function() {
+  const STORAGE_KEY = 'KAOYAN_USER_PROGRESS_V2';
+
   const State = {
     year: 2010,
     textId: 1,
     mode: 'practice', // 'practice' | 'review'
     stepIndex: 0,
+    savedStepIndex: null,
     isFullMode: false,
     theme: 'light',
     fontSize: 18,
     textData: null,
     steps: []
   };
+
+  function saveState() {
+    try {
+      const payload = {
+        year: State.year,
+        textId: State.textId,
+        mode: State.mode,
+        stepIndex: State.stepIndex,
+        theme: State.theme,
+        isFullMode: State.isFullMode
+      };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+    } catch (e) {
+      console.warn('LocalStorage save failed:', e);
+    }
+  }
+
+  function restoreState() {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        const data = JSON.parse(saved);
+        if (data.year) State.year = Number(data.year);
+        if (data.textId) State.textId = Number(data.textId);
+        if (data.mode === 'practice' || data.mode === 'review') State.mode = data.mode;
+        if (typeof data.stepIndex === 'number') State.savedStepIndex = data.stepIndex;
+        if (data.theme) State.theme = data.theme;
+        if (typeof data.isFullMode === 'boolean') State.isFullMode = data.isFullMode;
+      }
+    } catch (e) {
+      console.warn('LocalStorage restore failed:', e);
+    }
+  }
   
   function init() {
+    restoreState();
+
     const manifest = window.KAOYAN_MANIFEST || [];
     if (manifest.length > 0) {
       if (!manifest.some(item => item.year === State.year)) {
@@ -28,10 +66,25 @@
         }
       }
     }
+
+    // Apply saved theme
+    applyTheme(State.theme);
+
     setupSelectors();
     setupEventListeners();
     setupKeyboardShortcuts();
     loadCurrentText();
+  }
+
+  function applyTheme(themeName) {
+    document.body.className = '';
+    if (themeName === 'parchment') document.body.classList.add('theme-parchment');
+    if (themeName === 'dark') document.body.classList.add('theme-dark');
+    document.body.classList.toggle('mode-review', State.mode === 'review');
+    document.body.classList.toggle('mode-practice', State.mode === 'practice');
+
+    const themeSelect = document.getElementById('themeSelect');
+    if (themeSelect) themeSelect.value = themeName || 'light';
   }
   
   function setupSelectors() {
@@ -48,6 +101,14 @@
     });
     
     updateTextDropdown();
+
+    // Mode Buttons active state
+    const practiceBtn = document.getElementById('practiceModeBtn');
+    const reviewBtn = document.getElementById('reviewModeBtn');
+    if (practiceBtn && reviewBtn) {
+      practiceBtn.classList.toggle('active', State.mode === 'practice');
+      reviewBtn.classList.toggle('active', State.mode === 'review');
+    }
   }
   
   function updateTextDropdown() {
@@ -85,10 +146,17 @@
       State.steps = State.textData.review.steps;
     }
     
-    State.stepIndex = 0;
+    if (State.savedStepIndex !== null && State.savedStepIndex >= 0 && State.savedStepIndex < State.steps.length) {
+      State.stepIndex = State.savedStepIndex;
+      State.savedStepIndex = null;
+    } else {
+      State.stepIndex = 0;
+    }
+
     updateJumpDropdown();
     renderCurrentStep();
     updateUIControls();
+    saveState();
   }
   
   function renderLeftExamPaper() {
@@ -212,6 +280,25 @@
       toggleAllBtn.textContent = State.isFullMode ? '返回分步' : '显示全部';
       toggleAllBtn.classList.toggle('active', State.isFullMode);
     }
+
+    // Dynamic Module/Section Tracker: auto-select matching section in jumpSelect
+    const jumpSelect = document.getElementById('jumpSelect');
+    if (jumpSelect && jumpSelect.options.length > 1) {
+      let matchedVal = '';
+      for (let i = 1; i < jumpSelect.options.length; i++) {
+        const optVal = Number(jumpSelect.options[i].value);
+        if (State.stepIndex >= optVal) {
+          matchedVal = jumpSelect.options[i].value;
+        } else {
+          break;
+        }
+      }
+      if (matchedVal !== '') {
+        jumpSelect.value = matchedVal;
+      }
+    }
+
+    saveState();
   }
   
   function setupEventListeners() {
@@ -220,12 +307,14 @@
       State.year = Number(e.target.value);
       updateTextDropdown();
       State.textId = 1;
+      State.savedStepIndex = 0;
       loadCurrentText();
     });
     
     // Text Change
     document.getElementById('textSelect').addEventListener('change', e => {
       State.textId = Number(e.target.value);
+      State.savedStepIndex = 0;
       loadCurrentText();
     });
     
@@ -233,6 +322,7 @@
     document.getElementById('practiceModeBtn').addEventListener('click', () => {
       if (State.mode === 'practice') return;
       State.mode = 'practice';
+      State.savedStepIndex = 0;
       document.getElementById('practiceModeBtn').classList.add('active');
       document.getElementById('reviewModeBtn').classList.remove('active');
       loadCurrentText();
@@ -241,12 +331,13 @@
     document.getElementById('reviewModeBtn').addEventListener('click', () => {
       if (State.mode === 'review') return;
       State.mode = 'review';
+      State.savedStepIndex = 0;
       document.getElementById('reviewModeBtn').classList.add('active');
       document.getElementById('practiceModeBtn').classList.remove('active');
       loadCurrentText();
     });
     
-    // Step Navigation Function
+    // Step Navigation Functions
     function goPrev() {
       if (State.stepIndex > 0) {
         State.stepIndex--;
@@ -302,11 +393,9 @@
     
     // Theme Switch
     document.getElementById('themeSelect').addEventListener('change', e => {
-      document.body.className = '';
-      if (e.target.value === 'parchment') document.body.classList.add('theme-parchment');
-      if (e.target.value === 'dark') document.body.classList.add('theme-dark');
-      document.body.classList.toggle('mode-review', State.mode === 'review');
-      document.body.classList.toggle('mode-practice', State.mode === 'practice');
+      State.theme = e.target.value;
+      applyTheme(State.theme);
+      saveState();
     });
     
     // Mobile Tabs (Article vs Workspace)
