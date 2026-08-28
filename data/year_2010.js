@@ -284,8 +284,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008. All but two pieces sold, fetching more than £70m, a record for a sale by a single artist. It was a last victory. As the auctioneer called out bids, in New York one of the oldest banks on Wall Street, Lehman Brothers, filed for bankruptcy.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008. All but two pieces sold, fetching more than £70m, a record for a sale by a single artist. It was a last victory. As the auctioneer called out bids, in New York one of the oldest banks on Wall Street, Lehman Brothers, filed for bankruptcy.</p></div></div>",
+          "raw": "The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, [Beautiful] Inside My Head Forever, at Sotheby’s in London on September 15th 2008. All but two pieces sold, fetching more than £70m, a record for a sale by a single artist. It was a last victory. As the auctioneer called out bids, in New York one of the oldest banks on Wall Street, Lehman Brothers, filed for bankruptcy.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, <span class=\"mask\">[Beautiful]</span> Inside My Head Forever, at Sotheby’s in London on September 15th 2008. All but two pieces sold, fetching more than £70m, a record for a sale by a single artist. It was a last victory. As the auctioneer called out bids, in New York one of the oldest banks on Wall Street, Lehman Brothers, filed for bankruptcy.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 0,
@@ -294,8 +294,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, / Beautiful Inside My Head Forever, / at Sotheby’s in London on September 15th 2008. / All but two pieces sold, / fetching more than £70m, / a record for a sale by a single artist. / It was a last victory. / As the auctioneer called out bids, / in New York one of the oldest banks on Wall Street, / Lehman Brothers, / filed for bankruptcy.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, / Beautiful Inside My Head Forever, / at Sotheby’s in London on September 15th 2008. / All but two pieces sold, / fetching more than £70m, / a record for a sale by a single artist. / It was a last victory. / As the auctioneer called out bids, / in New York one of the oldest banks on Wall Street, / Lehman Brothers, / filed for bankruptcy.</p></div></div>",
+          "raw": "The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, / [Beautiful] Inside My Head Forever, / at Sotheby’s in London on September 15th 2008. / All but two pieces sold, / fetching more than £70m, / a record for a sale by a single artist. / It was a last victory. / As the auctioneer called out bids, / in New York one of the oldest banks on Wall Street, / Lehman Brothers, / filed for bankruptcy.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, / <span class=\"mask\">[Beautiful]</span> Inside My Head Forever, / at Sotheby’s in London on September 15th 2008. / All but two pieces sold, / fetching more than £70m, / a record for a sale by a single artist. / It was a last victory. / As the auctioneer called out bids, / in New York one of the oldest banks on Wall Street, / Lehman Brothers, / filed for bankruptcy.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 0,
@@ -324,8 +324,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "The world art market had already been losing momentum for a while after rising [bewilderingly] since 2003. At its peak in 2007 it was worth some $65 billion, reckons Clare McAndrew, founder of Arts [Economics], a research firm—double the figure five years earlier. Since then it may have come down to $50 billion. But the market generates interest far beyond its size because it brings together great wealth, enormous egos, greed, passion and controversy in a way matched by few other industries.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The world art market had already been losing momentum for a while after rising <span class=\"mask\">[bewilderingly]</span> since 2003. At its peak in 2007 it was worth some $65 billion, reckons Clare McAndrew, founder of Arts <span class=\"mask\">[Economics]</span>, a research firm—double the figure five years earlier. Since then it may have come down to $50 billion. But the market generates interest far beyond its size because it brings together great wealth, enormous egos, greed, passion and controversy in a way matched by few other industries.</p></div></div>",
+          "raw": "The world art market had already been losing momentum for a while after rising [bewilderingly] since 2003. At its peak in 2007 it was worth some $65 billion, reckons Clare McAndrew, founder of Arts Economics, a research firm—double the figure five years earlier. Since then it may have come down to $50 billion. But the market [generates] interest far beyond its size because it brings together great wealth, enormous egos, greed, passion and controversy in a way matched by few other industries.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The world art market had already been losing momentum for a while after rising <span class=\"mask\">[bewilderingly]</span> since 2003. At its peak in 2007 it was worth some $65 billion, reckons Clare McAndrew, founder of Arts Economics, a research firm—double the figure five years earlier. Since then it may have come down to $50 billion. But the market <span class=\"mask\">[generates]</span> interest far beyond its size because it brings together great wealth, enormous egos, greed, passion and controversy in a way matched by few other industries.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 1,
@@ -334,8 +334,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "The world art market had already been losing momentum for a / while after rising [bewilderingly] / since 2003. / At its peak in 2007 it was worth some $65 billion, / reckons Clare McAndrew, / founder of Arts [Economics], / a research firm—double the figure five years earlier. / Since then it may have come down to $50 billion. / But the market generates interest far beyond its size / because it brings together great wealth, / enormous egos, / greed, / passion and controversy in a way matched by few other industries.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The world art market had already been losing momentum for a / while after rising <span class=\"mask\">[bewilderingly]</span> / since 2003. / At its peak in 2007 it was worth some $65 billion, / reckons Clare McAndrew, / founder of Arts <span class=\"mask\">[Economics]</span>, / a research firm—double the figure five years earlier. / Since then it may have come down to $50 billion. / But the market generates interest far beyond its size / because it brings together great wealth, / enormous egos, / greed, / passion and controversy in a way matched by few other industries.</p></div></div>",
+          "raw": "The world art market had already been losing momentum for a / while after rising [bewilderingly] / since 2003. / At its peak in 2007 it was worth some $65 billion, / reckons Clare McAndrew, / founder of Arts Economics, / a research firm—double the figure five years earlier. / Since then it may have come down to $50 billion. / But the market [generates] interest far beyond its size / because it brings together great wealth, / enormous egos, / greed, / passion and controversy in a way matched by few other industries.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The world art market had already been losing momentum for a / while after rising <span class=\"mask\">[bewilderingly]</span> / since 2003. / At its peak in 2007 it was worth some $65 billion, / reckons Clare McAndrew, / founder of Arts Economics, / a research firm—double the figure five years earlier. / Since then it may have come down to $50 billion. / But the market <span class=\"mask\">[generates]</span> interest far beyond its size / because it brings together great wealth, / enormous egos, / greed, / passion and controversy in a way matched by few other industries.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 1,
@@ -364,8 +364,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "In the weeks and months that followed Mr. Hirst’s sale, spending of any sort became deeply [unfashionable] . In the art world that meant collectors stayed away from galleries and [salerooms]. Sales of [contemporary] art fell by two-thirds, and in the most overheated sector, they were down by nearly 90 % in the year to November 2008. Within weeks the world’s two biggest auction houses, Sotheby’s and Christie’s, had to pay out nearly $200m in guarantees to clients who had placed works for sale with them.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>In the weeks and months that followed Mr. Hirst’s sale, spending of any sort became deeply <span class=\"mask\">[unfashionable]</span> . In the art world that meant collectors stayed away from galleries and <span class=\"mask\">[salerooms]</span>. Sales of <span class=\"mask\">[contemporary]</span> art fell by two-thirds, and in the most overheated sector, they were down by nearly 90 % in the year to November 2008. Within weeks the world’s two biggest auction houses, Sotheby’s and Christie’s, had to pay out nearly $200m in guarantees to clients who had placed works for sale with them.</p></div></div>",
+          "raw": "In the weeks and months that followed Mr. Hirst’s sale, spending of any sort became deeply [unfashionable] . In the art world that meant collectors stayed away from galleries and salerooms. Sales of [contemporary] art fell by two-thirds, and in the most [overheated] sector, they were down by nearly 90 % in the year to November 2008. Within weeks the world’s two biggest auction houses, Sotheby’s and [Christie’s], had to pay out nearly $200m in guarantees to clients who had placed works for sale with them.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>In the weeks and months that followed Mr. Hirst’s sale, spending of any sort became deeply <span class=\"mask\">[unfashionable]</span> . In the art world that meant collectors stayed away from galleries and salerooms. Sales of <span class=\"mask\">[contemporary]</span> art fell by two-thirds, and in the most <span class=\"mask\">[overheated]</span> sector, they were down by nearly 90 % in the year to November 2008. Within weeks the world’s two biggest auction houses, Sotheby’s and <span class=\"mask\">[Christie’s]</span>, had to pay out nearly $200m in guarantees to clients who had placed works for sale with them.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 2,
@@ -374,8 +374,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "In the weeks and months / that followed Mr. / Hirst’s sale, / spending of any sort became deeply [unfashionable] . / In the art world / that meant collectors stayed away from galleries and [salerooms]. / Sales of [contemporary] art fell by two-thirds, / and in the most overheated sector, / they were down by nearly 90 % in the year to November 2008. / Within weeks the world’s two biggest auction houses, / Sotheby’s and Christie’s, / had to pay out nearly $200m in guarantees to clients / who had placed works for sale with them.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>In the weeks and months / that followed Mr. / Hirst’s sale, / spending of any sort became deeply <span class=\"mask\">[unfashionable]</span> . / In the art world / that meant collectors stayed away from galleries and <span class=\"mask\">[salerooms]</span>. / Sales of <span class=\"mask\">[contemporary]</span> art fell by two-thirds, / and in the most overheated sector, / they were down by nearly 90 % in the year to November 2008. / Within weeks the world’s two biggest auction houses, / Sotheby’s and Christie’s, / had to pay out nearly $200m in guarantees to clients / who had placed works for sale with them.</p></div></div>",
+          "raw": "In the weeks and months / that followed Mr. / Hirst’s sale, / spending of any sort became deeply [unfashionable] . / In the art world / that meant collectors stayed away from galleries and salerooms. / Sales of [contemporary] art fell by two-thirds, / and in the most [overheated] sector, / they were down by nearly 90 % in the year to November 2008. / Within weeks the world’s two biggest auction houses, / Sotheby’s and [Christie’s], / had to pay out nearly $200m in guarantees to clients / who had placed works for sale with them.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>In the weeks and months / that followed Mr. / Hirst’s sale, / spending of any sort became deeply <span class=\"mask\">[unfashionable]</span> . / In the art world / that meant collectors stayed away from galleries and salerooms. / Sales of <span class=\"mask\">[contemporary]</span> art fell by two-thirds, / and in the most <span class=\"mask\">[overheated]</span> sector, / they were down by nearly 90 % in the year to November 2008. / Within weeks the world’s two biggest auction houses, / Sotheby’s and <span class=\"mask\">[Christie’s]</span>, / had to pay out nearly $200m in guarantees to clients / who had placed works for sale with them.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 2,
@@ -404,8 +404,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "The current downturn in the art market is the worst since the Japanese stopped buying [Impressionists] at the end of 1989. This time experts reckon that prices are about 40 % down on their peak on average, though some have been far more fluctuant. But Edward Dolman, Christie’s chief executive, says: “I’m pretty confident we’re at the bottom.”",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The current downturn in the art market is the worst since the Japanese stopped buying <span class=\"mask\">[Impressionists]</span> at the end of 1989. This time experts reckon that prices are about 40 % down on their peak on average, though some have been far more fluctuant. But Edward Dolman, Christie’s chief executive, says: “I’m pretty confident we’re at the bottom.”</p></div></div>",
+          "raw": "The current downturn in the art market is the worst since the Japanese stopped buying [Impressionists] at the end of 1989. This time experts reckon that prices are about 40 % down on their peak on average, though some have been far more fluctuant. But Edward Dolman, [Christie’s] chief executive, says: “I’m pretty [confident] we’re at the bottom.”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The current downturn in the art market is the worst since the Japanese stopped buying <span class=\"mask\">[Impressionists]</span> at the end of 1989. This time experts reckon that prices are about 40 % down on their peak on average, though some have been far more fluctuant. But Edward Dolman, <span class=\"mask\">[Christie’s]</span> chief executive, says: “I’m pretty <span class=\"mask\">[confident]</span> we’re at the bottom.”</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 3,
@@ -414,8 +414,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "The current downturn in the art market is the worst / since the Japanese stopped buying [Impressionists] at the end of 1989. / This time experts reckon / that prices are about 40 % down on their peak on average, / / though some have been far more fluctuant. / But Edward Dolman, / Christie’s chief executive, / says: / “I’m pretty confident we’re at the bottom.”",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The current downturn in the art market is the worst / since the Japanese stopped buying <span class=\"mask\">[Impressionists]</span> at the end of 1989. / This time experts reckon / that prices are about 40 % down on their peak on average, / / though some have been far more fluctuant. / But Edward Dolman, / Christie’s chief executive, / says: / “I’m pretty confident we’re at the bottom.”</p></div></div>",
+          "raw": "The current downturn in the art market is the worst / since the Japanese stopped buying [Impressionists] at the end of 1989. / This time experts reckon / that prices are about 40 % down on their peak on average, / / though some have been far more fluctuant. / But Edward Dolman, / [Christie’s] chief executive, / says: / “I’m pretty [confident] we’re at the bottom.”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The current downturn in the art market is the worst / since the Japanese stopped buying <span class=\"mask\">[Impressionists]</span> at the end of 1989. / This time experts reckon / that prices are about 40 % down on their peak on average, / / though some have been far more fluctuant. / But Edward Dolman, / <span class=\"mask\">[Christie’s]</span> chief executive, / says: / “I’m pretty <span class=\"mask\">[confident]</span> we’re at the bottom.”</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 3,
@@ -444,8 +444,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "What makes this slump different from the last, he says, is that there are still buyers in the market. Almost everyone who was interviewed for this special report said that the biggest problem at the moment is not a lack of demand but a lack of good work to sell. The three Ds—death, debt and divorce—still deliver works of art to the market. But anyone who does not have to sell is keeping away, waiting for confidence to return.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>What makes this slump different from the last, he says, is that there are still buyers in the market. Almost everyone who was interviewed for this special report said that the biggest problem at the moment is not a lack of demand but a lack of good work to sell. The three Ds—death, debt and divorce—still deliver works of art to the market. But anyone who does not have to sell is keeping away, waiting for confidence to return.</p></div></div>",
+          "raw": "What makes this slump [different] from the last, he says, is that there are still buyers in the market. Almost everyone who was interviewed for this special report said that the biggest problem at the moment is not a lack of demand but a lack of good work to sell. The three Ds—death, debt and divorce—still deliver works of art to the market. But anyone who does not have to sell is keeping away, waiting for confidence to return.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>What makes this slump <span class=\"mask\">[different]</span> from the last, he says, is that there are still buyers in the market. Almost everyone who was interviewed for this special report said that the biggest problem at the moment is not a lack of demand but a lack of good work to sell. The three Ds—death, debt and divorce—still deliver works of art to the market. But anyone who does not have to sell is keeping away, waiting for confidence to return.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 4,
@@ -454,8 +454,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "What makes this slump different from the last, / he says, / is / that there are still buyers in the market. / Almost everyone / who was interviewed for this special report said / that the biggest problem at the moment is not a lack of demand but a lack of good work to sell. / The three Ds—death, / debt and divorce—still deliver works of art to the market. / But anyone / who does not have to sell is keeping away, / waiting for confidence to return.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>What makes this slump different from the last, / he says, / is / that there are still buyers in the market. / Almost everyone / who was interviewed for this special report said / that the biggest problem at the moment is not a lack of demand but a lack of good work to sell. / The three Ds—death, / debt and divorce—still deliver works of art to the market. / But anyone / who does not have to sell is keeping away, / waiting for confidence to return.</p></div></div>",
+          "raw": "What makes this slump [different] from the last, / he says, / is / that there are still buyers in the market. / Almost everyone / who was interviewed for this special report said / that the biggest problem at the moment is not a lack of demand but a lack of good work to sell. / The three Ds—death, / debt and divorce—still deliver works of art to the market. / But anyone / who does not have to sell is keeping away, / waiting for confidence to return.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>What makes this slump <span class=\"mask\">[different]</span> from the last, / he says, / is / that there are still buyers in the market. / Almost everyone / who was interviewed for this special report said / that the biggest problem at the moment is not a lack of demand but a lack of good work to sell. / The three Ds—death, / debt and divorce—still deliver works of art to the market. / But anyone / who does not have to sell is keeping away, / waiting for confidence to return.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 4,
@@ -490,8 +490,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "21题",
-          "raw": "## 21题\n\n**In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because \n.**\n\n> In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because \n.\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008. All but two pieces sold, fetching more than £70m, a record for a sale by a single artist. It was a last victory. As the auctioneer called out bids, in New York one of the oldest banks on Wall Street, Lehman Brothers, filed for bankruptcy.\n>\n> 开始精读：\n>\n> The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, / Beautiful Inside My Head Forever, / at Sotheby’s in London on September 15th 2008. / All but two pieces sold, / fetching more than £70m, / a record for a sale by a single artist. / It was a last victory. / As the auctioneer called out bids, / in New York one of the oldest banks on Wall Street, / Lehman Brothers, / filed for bankruptcy.\n>\n> 逐意群顺译：\n>\n> 2008 年 9 月 15 日，伦敦苏富比拍卖行拍卖达米恩·赫斯特 (Damien Hirst) 的 56 件作品《永远美丽在我的脑海中》(Beautiful Inside My Head Forever)，以戏剧性的方式结束了艺术市场历史上一个世纪以来最长的牛市。除两件作品外，其余作品全部售出，成交价超过 7000 万英镑，创下了单一艺术家的拍卖纪录。这是最后的胜利。当拍卖师发出竞价时，纽约华尔街最古老的银行之一雷曼兄弟公司申请破产。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>21题</h2>\n<p><strong>In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because \n.</strong></p>\n<blockquote><p>In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because \n.</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008. All but two pieces sold, fetching more than £70m, a record for a sale by a single artist. It was a last victory. As the auctioneer called out bids, in New York one of the oldest banks on Wall Street, Lehman Brothers, filed for bankruptcy.</p>\n<p><strong>开始精读：</strong></p>\n<p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, / Beautiful Inside My Head Forever, / at Sotheby’s in London on September 15th 2008. / All but two pieces sold, / fetching more than £70m, / a record for a sale by a single artist. / It was a last victory. / As the auctioneer called out bids, / in New York one of the oldest banks on Wall Street, / Lehman Brothers, / filed for bankruptcy.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>2008 年 9 月 15 日，伦敦苏富比拍卖行拍卖达米恩·赫斯特 (Damien Hirst) 的 56 件作品《永远美丽在我的脑海中》(Beautiful Inside My Head Forever)，以戏剧性的方式结束了艺术市场历史上一个世纪以来最长的牛市。除两件作品外，其余作品全部售出，成交价超过 7000 万英镑，创下了单一艺术家的拍卖纪录。这是最后的胜利。当拍卖师发出竞价时，纽约华尔街最古老的银行之一雷曼兄弟公司申请破产。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 21题\n\n**In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because \n.**\n\n> In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because \n.\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, [Beautiful] Inside My Head Forever, at Sotheby’s in London on September 15th 2008. All but two pieces sold, fetching more than £70m, a record for a sale by a single artist. It was a last victory. As the auctioneer called out bids, in New York one of the oldest banks on Wall Street, Lehman Brothers, filed for bankruptcy.\n>\n> 开始精读：\n>\n> The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, / [Beautiful] Inside My Head Forever, / at Sotheby’s in London on September 15th 2008. / All but two pieces sold, / fetching more than £70m, / a record for a sale by a single artist. / It was a last victory. / As the auctioneer called out bids, / in New York one of the oldest banks on Wall Street, / Lehman Brothers, / filed for bankruptcy.\n>\n> 逐意群顺译：\n>\n> 2008 年 9 月 15 日，伦敦苏富比拍卖行拍卖达米恩·赫斯特 (Damien Hirst) 的 56 件作品《永远美丽在我的脑海中》(Beautiful Inside My Head Forever)，以戏剧性的方式结束了艺术市场历史上一个世纪以来最长的牛市。除两件作品外，其余作品全部售出，成交价超过 7000 万英镑，创下了单一艺术家的拍卖纪录。这是最后的胜利。当拍卖师发出竞价时，纽约华尔街最古老的银行之一雷曼兄弟公司申请破产。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>21题</h2>\n<p><strong>In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because \n.</strong></p>\n<blockquote><p>In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because \n.</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, <span class=\"mask\">[Beautiful]</span> Inside My Head Forever, at Sotheby’s in London on September 15th 2008. All but two pieces sold, fetching more than £70m, a record for a sale by a single artist. It was a last victory. As the auctioneer called out bids, in New York one of the oldest banks on Wall Street, Lehman Brothers, filed for bankruptcy.</p>\n<p><strong>开始精读：</strong></p>\n<p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, / <span class=\"mask\">[Beautiful]</span> Inside My Head Forever, / at Sotheby’s in London on September 15th 2008. / All but two pieces sold, / fetching more than £70m, / a record for a sale by a single artist. / It was a last victory. / As the auctioneer called out bids, / in New York one of the oldest banks on Wall Street, / Lehman Brothers, / filed for bankruptcy.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>2008 年 9 月 15 日，伦敦苏富比拍卖行拍卖达米恩·赫斯特 (Damien Hirst) 的 56 件作品《永远美丽在我的脑海中》(Beautiful Inside My Head Forever)，以戏剧性的方式结束了艺术市场历史上一个世纪以来最长的牛市。除两件作品外，其余作品全部售出，成交价超过 7000 万英镑，创下了单一艺术家的拍卖纪录。这是最后的胜利。当拍卖师发出竞价时，纽约华尔街最古老的银行之一雷曼兄弟公司申请破产。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "21"
@@ -499,8 +499,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "21题",
-          "raw": "### A. the art market had witnessed a succession of victories\n\n> 艺术市场屡战屡胜\n\n我们先看 A 选项：`the art market had witnessed a succession of victories`（艺术市场屡战屡胜）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because \n. ➔ 选项认为：艺术市场屡战屡胜\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `art`, `market`, `had` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
-          "html": "<h3>A. the art market had witnessed a succession of victories</h3>\n<blockquote><p>艺术市场屡战屡胜</p></blockquote>\n<p>我们先看 A 选项：<code>the art market had witnessed a succession of victories</code>（艺术市场屡战屡胜）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because<br />. ➔ 选项认为：艺术市场屡战屡胜</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>art</code>, <code>market</code>, <code>had</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "raw": "### A. the art market had witnessed a succession of victories\n\n> 艺术市场屡战屡胜\n\n我们先看 A 选项：`the art market had witnessed a succession of victories`（艺术市场屡战屡胜）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because \n. ➔ 选项认为：艺术市场屡战屡胜\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“艺术市场屡战屡胜”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. the art market had witnessed a succession of victories</h3>\n<blockquote><p>艺术市场屡战屡胜</p></blockquote>\n<p>我们先看 A 选项：<code>the art market had witnessed a succession of victories</code>（艺术市场屡战屡胜）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because<br />. ➔ 选项认为：艺术市场屡战屡胜</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“艺术市场屡战屡胜”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "21",
@@ -509,8 +509,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "21题",
-          "raw": "### B. the auctioneer finally got the two pieces at the highest bids\n\n> 拍卖师最终以最高出价拍得这两件作品\n\n我们先看 B 选项：`the auctioneer finally got the two pieces at the highest bids`（拍卖师最终以最高出价拍得这两件作品）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because \n. ➔ 选项认为：拍卖师最终以最高出价拍得这两件作品\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“拍卖师最终以最高出价拍得这两件作品”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. the auctioneer finally got the two pieces at the highest bids</h3>\n<blockquote><p>拍卖师最终以最高出价拍得这两件作品</p></blockquote>\n<p>我们先看 B 选项：<code>the auctioneer finally got the two pieces at the highest bids</code>（拍卖师最终以最高出价拍得这两件作品）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because<br />. ➔ 选项认为：拍卖师最终以最高出价拍得这两件作品</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“拍卖师最终以最高出价拍得这两件作品”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. the auctioneer finally got the two pieces at the highest bids\n\n> 拍卖师最终以最高出价拍得这两件作品\n\n我们先看 B 选项：`the auctioneer finally got the two pieces at the highest bids`（拍卖师最终以最高出价拍得这两件作品）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because \n. ➔ 选项认为：拍卖师最终以最高出价拍得这两件作品\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `auctioneer`, `finally`, `got` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. the auctioneer finally got the two pieces at the highest bids</h3>\n<blockquote><p>拍卖师最终以最高出价拍得这两件作品</p></blockquote>\n<p>我们先看 B 选项：<code>the auctioneer finally got the two pieces at the highest bids</code>（拍卖师最终以最高出价拍得这两件作品）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because<br />. ➔ 选项认为：拍卖师最终以最高出价拍得这两件作品</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>auctioneer</code>, <code>finally</code>, <code>got</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "21",
@@ -519,8 +519,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "21题",
-          "raw": "### C. Beautiful Inside My Head Forever won over all masterpieces\n\n> 《永远美丽在我的脑海里》胜过所有杰作\n\n我们先看 C 选项：`Beautiful Inside My Head Forever won over all masterpieces`（《永远美丽在我的脑海里》胜过所有杰作）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because \n. ➔ 选项认为：《永远美丽在我的脑海里》胜过所有杰作\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“《永远美丽在我的脑海里》胜过所有杰作”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
-          "html": "<h3>C. Beautiful Inside My Head Forever won over all masterpieces</h3>\n<blockquote><p>《永远美丽在我的脑海里》胜过所有杰作</p></blockquote>\n<p>我们先看 C 选项：<code>Beautiful Inside My Head Forever won over all masterpieces</code>（《永远美丽在我的脑海里》胜过所有杰作）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because<br />. ➔ 选项认为：《永远美丽在我的脑海里》胜过所有杰作</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“《永远美丽在我的脑海里》胜过所有杰作”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "raw": "### C. Beautiful Inside My Head Forever won over all masterpieces\n\n> 《永远美丽在我的脑海里》胜过所有杰作\n\n我们先看 C 选项：`Beautiful Inside My Head Forever won over all masterpieces`（《永远美丽在我的脑海里》胜过所有杰作）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because \n. ➔ 选项认为：《永远美丽在我的脑海里》胜过所有杰作\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `Beautiful`, `Inside`, `Head` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. Beautiful Inside My Head Forever won over all masterpieces</h3>\n<blockquote><p>《永远美丽在我的脑海里》胜过所有杰作</p></blockquote>\n<p>我们先看 C 选项：<code>Beautiful Inside My Head Forever won over all masterpieces</code>（《永远美丽在我的脑海里》胜过所有杰作）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because<br />. ➔ 选项认为：《永远美丽在我的脑海里》胜过所有杰作</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>Beautiful</code>, <code>Inside</code>, <code>Head</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "21",
@@ -548,8 +548,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "22题",
-          "raw": "## 22题\n\n**By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author \nsuggests that .**\n\n> By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author \nsuggests that .\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> The world art market had already been losing momentum for a while after rising [bewilderingly] since 2003. At its peak in 2007 it was worth some $65 billion, reckons Clare McAndrew, founder of Arts [Economics], a research firm—double the figure five years earlier. Since then it may have come down to $50 billion. But the market generates interest far beyond its size because it brings together great wealth, enormous egos, greed, passion and controversy in a way matched by few other industries.\n>\n> 开始精读：\n>\n> The world art market had already been losing momentum for a / while after rising [bewilderingly] / since 2003. / At its peak in 2007 it was worth some $65 billion, / reckons Clare McAndrew, / founder of Arts [Economics], / a research firm—double the figure five years earlier. / Since then it may have come down to $50 billion. / But the market generates interest far beyond its size / because it brings together great wealth, / enormous egos, / greed, / passion and controversy in a way matched by few other industries.\n>\n> 逐意群顺译：\n>\n> 自 2003 年以来，世界艺术市场经历了令人眼花缭乱的增长，但在一段时间内已经失去了动力。研究公司 Arts Economics 的创始人克莱尔·麦克安德鲁 (Clare McAndrew) 估计，在 2007 年达到顶峰时，其价值约为 650 亿美元，是五年前这一数字的两倍。从那时起，这一数字可能已降至 500 亿美元。但这个市场产生的兴趣远远超出了它的规模，因为它以其他行业很少能比拟的方式汇集了巨大的财富、巨大的自负、贪婪、激情和争议。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>22题</h2>\n<p><strong>By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author \nsuggests that .</strong></p>\n<blockquote><p>By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author \nsuggests that .</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>The world art market had already been losing momentum for a while after rising <span class=\"mask\">[bewilderingly]</span> since 2003. At its peak in 2007 it was worth some $65 billion, reckons Clare McAndrew, founder of Arts <span class=\"mask\">[Economics]</span>, a research firm—double the figure five years earlier. Since then it may have come down to $50 billion. But the market generates interest far beyond its size because it brings together great wealth, enormous egos, greed, passion and controversy in a way matched by few other industries.</p>\n<p><strong>开始精读：</strong></p>\n<p>The world art market had already been losing momentum for a / while after rising <span class=\"mask\">[bewilderingly]</span> / since 2003. / At its peak in 2007 it was worth some $65 billion, / reckons Clare McAndrew, / founder of Arts <span class=\"mask\">[Economics]</span>, / a research firm—double the figure five years earlier. / Since then it may have come down to $50 billion. / But the market generates interest far beyond its size / because it brings together great wealth, / enormous egos, / greed, / passion and controversy in a way matched by few other industries.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>自 2003 年以来，世界艺术市场经历了令人眼花缭乱的增长，但在一段时间内已经失去了动力。研究公司 Arts Economics 的创始人克莱尔·麦克安德鲁 (Clare McAndrew) 估计，在 2007 年达到顶峰时，其价值约为 650 亿美元，是五年前这一数字的两倍。从那时起，这一数字可能已降至 500 亿美元。但这个市场产生的兴趣远远超出了它的规模，因为它以其他行业很少能比拟的方式汇集了巨大的财富、巨大的自负、贪婪、激情和争议。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 22题\n\n**By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author \nsuggests that .**\n\n> By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author \nsuggests that .\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> The world art market had already been losing momentum for a while after rising [bewilderingly] since 2003. At its peak in 2007 it was worth some $65 billion, reckons Clare McAndrew, founder of Arts Economics, a research firm—double the figure five years earlier. Since then it may have come down to $50 billion. But the market [generates] interest far beyond its size because it brings together great wealth, enormous egos, greed, passion and controversy in a way matched by few other industries.\n>\n> 开始精读：\n>\n> The world art market had already been losing momentum for a / while after rising [bewilderingly] / since 2003. / At its peak in 2007 it was worth some $65 billion, / reckons Clare McAndrew, / founder of Arts Economics, / a research firm—double the figure five years earlier. / Since then it may have come down to $50 billion. / But the market [generates] interest far beyond its size / because it brings together great wealth, / enormous egos, / greed, / passion and controversy in a way matched by few other industries.\n>\n> 逐意群顺译：\n>\n> 自 2003 年以来，世界艺术市场经历了令人眼花缭乱的增长，但在一段时间内已经失去了动力。研究公司 Arts Economics 的创始人克莱尔·麦克安德鲁 (Clare McAndrew) 估计，在 2007 年达到顶峰时，其价值约为 650 亿美元，是五年前这一数字的两倍。从那时起，这一数字可能已降至 500 亿美元。但这个市场产生的兴趣远远超出了它的规模，因为它以其他行业很少能比拟的方式汇集了巨大的财富、巨大的自负、贪婪、激情和争议。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>22题</h2>\n<p><strong>By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author \nsuggests that .</strong></p>\n<blockquote><p>By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author \nsuggests that .</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>The world art market had already been losing momentum for a while after rising <span class=\"mask\">[bewilderingly]</span> since 2003. At its peak in 2007 it was worth some $65 billion, reckons Clare McAndrew, founder of Arts Economics, a research firm—double the figure five years earlier. Since then it may have come down to $50 billion. But the market <span class=\"mask\">[generates]</span> interest far beyond its size because it brings together great wealth, enormous egos, greed, passion and controversy in a way matched by few other industries.</p>\n<p><strong>开始精读：</strong></p>\n<p>The world art market had already been losing momentum for a / while after rising <span class=\"mask\">[bewilderingly]</span> / since 2003. / At its peak in 2007 it was worth some $65 billion, / reckons Clare McAndrew, / founder of Arts Economics, / a research firm—double the figure five years earlier. / Since then it may have come down to $50 billion. / But the market <span class=\"mask\">[generates]</span> interest far beyond its size / because it brings together great wealth, / enormous egos, / greed, / passion and controversy in a way matched by few other industries.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>自 2003 年以来，世界艺术市场经历了令人眼花缭乱的增长，但在一段时间内已经失去了动力。研究公司 Arts Economics 的创始人克莱尔·麦克安德鲁 (Clare McAndrew) 估计，在 2007 年达到顶峰时，其价值约为 650 亿美元，是五年前这一数字的两倍。从那时起，这一数字可能已降至 500 亿美元。但这个市场产生的兴趣远远超出了它的规模，因为它以其他行业很少能比拟的方式汇集了巨大的财富、巨大的自负、贪婪、激情和争议。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "22"
@@ -567,8 +567,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "22题",
-          "raw": "### B. people stopped every kind of spending and stayed away from galleries\n\n> 人们停止了各种消费并远离画廊\n\n我们先看 B 选项：`people stopped every kind of spending and stayed away from galleries`（人们停止了各种消费并远离画廊）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author \nsuggests that . ➔ 选项认为：人们停止了各种消费并远离画廊\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `people`, `stopped`, `every` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 2 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. people stopped every kind of spending and stayed away from galleries</h3>\n<blockquote><p>人们停止了各种消费并远离画廊</p></blockquote>\n<p>我们先看 B 选项：<code>people stopped every kind of spending and stayed away from galleries</code>（人们停止了各种消费并远离画廊）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author<br />suggests that . ➔ 选项认为：人们停止了各种消费并远离画廊</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>people</code>, <code>stopped</code>, <code>every</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 2 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. people stopped every kind of spending and stayed away from galleries\n\n> 人们停止了各种消费并远离画廊\n\n我们先看 B 选项：`people stopped every kind of spending and stayed away from galleries`（人们停止了各种消费并远离画廊）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author \nsuggests that . ➔ 选项认为：人们停止了各种消费并远离画廊\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“人们停止了各种消费并远离画廊”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. people stopped every kind of spending and stayed away from galleries</h3>\n<blockquote><p>人们停止了各种消费并远离画廊</p></blockquote>\n<p>我们先看 B 选项：<code>people stopped every kind of spending and stayed away from galleries</code>（人们停止了各种消费并远离画廊）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author<br />suggests that . ➔ 选项认为：人们停止了各种消费并远离画廊</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“人们停止了各种消费并远离画廊”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "22",
@@ -577,8 +577,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "22题",
-          "raw": "### C. art collection as a fashion had lost its appeal to a great extent\n\n> 艺术收藏作为一种时尚已经在很大程度上失去了吸引力\n\n我们先看 C 选项：`art collection as a fashion had lost its appeal to a great extent`（艺术收藏作为一种时尚已经在很大程度上失去了吸引力）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author \nsuggests that . ➔ 选项认为：艺术收藏作为一种时尚已经在很大程度上失去了吸引力\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“艺术收藏作为一种时尚已经在很大程度上失去了吸引力”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
-          "html": "<h3>C. art collection as a fashion had lost its appeal to a great extent</h3>\n<blockquote><p>艺术收藏作为一种时尚已经在很大程度上失去了吸引力</p></blockquote>\n<p>我们先看 C 选项：<code>art collection as a fashion had lost its appeal to a great extent</code>（艺术收藏作为一种时尚已经在很大程度上失去了吸引力）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author<br />suggests that . ➔ 选项认为：艺术收藏作为一种时尚已经在很大程度上失去了吸引力</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“艺术收藏作为一种时尚已经在很大程度上失去了吸引力”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "raw": "### C. art collection as a fashion had lost its appeal to a great extent\n\n> 艺术收藏作为一种时尚已经在很大程度上失去了吸引力\n\n我们先看 C 选项：`art collection as a fashion had lost its appeal to a great extent`（艺术收藏作为一种时尚已经在很大程度上失去了吸引力）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author \nsuggests that . ➔ 选项认为：艺术收藏作为一种时尚已经在很大程度上失去了吸引力\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“艺术收藏作为一种时尚已经在很大程度上失去了吸引力”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. art collection as a fashion had lost its appeal to a great extent</h3>\n<blockquote><p>艺术收藏作为一种时尚已经在很大程度上失去了吸引力</p></blockquote>\n<p>我们先看 C 选项：<code>art collection as a fashion had lost its appeal to a great extent</code>（艺术收藏作为一种时尚已经在很大程度上失去了吸引力）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author<br />suggests that . ➔ 选项认为：艺术收藏作为一种时尚已经在很大程度上失去了吸引力</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“艺术收藏作为一种时尚已经在很大程度上失去了吸引力”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "22",
@@ -606,8 +606,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "23题",
-          "raw": "## 23题\n\n**Which of the following statements is NOT true?**\n\n> 以下哪项陈述是不正确的？\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> In the weeks and months that followed Mr. Hirst’s sale, spending of any sort became deeply [unfashionable] . In the art world that meant collectors stayed away from galleries and [salerooms]. Sales of [contemporary] art fell by two-thirds, and in the most overheated sector, they were down by nearly 90 % in the year to November 2008. Within weeks the world’s two biggest auction houses, Sotheby’s and Christie’s, had to pay out nearly $200m in guarantees to clients who had placed works for sale with them.\n>\n> 开始精读：\n>\n> In the weeks and months / that followed Mr. / Hirst’s sale, / spending of any sort became deeply [unfashionable] . / In the art world / that meant collectors stayed away from galleries and [salerooms]. / Sales of [contemporary] art fell by two-thirds, / and in the most overheated sector, / they were down by nearly 90 % in the year to November 2008. / Within weeks the world’s two biggest auction houses, / Sotheby’s and Christie’s, / had to pay out nearly $200m in guarantees to clients / who had placed works for sale with them.\n>\n> 逐意群顺译：\n>\n> 在赫斯特先生出售后的几周和几个月里，任何形式的支出都变得非常不流行。在艺术界，这意味着收藏家远离画廊和拍卖场。当代艺术品的销售额下降了三分之二，在最过热的领域，截至 2008 年 11 月的一年内下降了近 90%。几周之内，世界上最大的两家拍卖行苏富比和佳士得就不得不向向其出售作品的客户支付近 2 亿美元的担保金。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>23题</h2>\n<p><strong>Which of the following statements is NOT true?</strong></p>\n<blockquote><p>以下哪项陈述是不正确的？</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>In the weeks and months that followed Mr. Hirst’s sale, spending of any sort became deeply <span class=\"mask\">[unfashionable]</span> . In the art world that meant collectors stayed away from galleries and <span class=\"mask\">[salerooms]</span>. Sales of <span class=\"mask\">[contemporary]</span> art fell by two-thirds, and in the most overheated sector, they were down by nearly 90 % in the year to November 2008. Within weeks the world’s two biggest auction houses, Sotheby’s and Christie’s, had to pay out nearly $200m in guarantees to clients who had placed works for sale with them.</p>\n<p><strong>开始精读：</strong></p>\n<p>In the weeks and months / that followed Mr. / Hirst’s sale, / spending of any sort became deeply <span class=\"mask\">[unfashionable]</span> . / In the art world / that meant collectors stayed away from galleries and <span class=\"mask\">[salerooms]</span>. / Sales of <span class=\"mask\">[contemporary]</span> art fell by two-thirds, / and in the most overheated sector, / they were down by nearly 90 % in the year to November 2008. / Within weeks the world’s two biggest auction houses, / Sotheby’s and Christie’s, / had to pay out nearly $200m in guarantees to clients / who had placed works for sale with them.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>在赫斯特先生出售后的几周和几个月里，任何形式的支出都变得非常不流行。在艺术界，这意味着收藏家远离画廊和拍卖场。当代艺术品的销售额下降了三分之二，在最过热的领域，截至 2008 年 11 月的一年内下降了近 90%。几周之内，世界上最大的两家拍卖行苏富比和佳士得就不得不向向其出售作品的客户支付近 2 亿美元的担保金。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 23题\n\n**Which of the following statements is NOT true?**\n\n> 以下哪项陈述是不正确的？\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> In the weeks and months that followed Mr. Hirst’s sale, spending of any sort became deeply [unfashionable] . In the art world that meant collectors stayed away from galleries and salerooms. Sales of [contemporary] art fell by two-thirds, and in the most [overheated] sector, they were down by nearly 90 % in the year to November 2008. Within weeks the world’s two biggest auction houses, Sotheby’s and [Christie’s], had to pay out nearly $200m in guarantees to clients who had placed works for sale with them.\n>\n> 开始精读：\n>\n> In the weeks and months / that followed Mr. / Hirst’s sale, / spending of any sort became deeply [unfashionable] . / In the art world / that meant collectors stayed away from galleries and salerooms. / Sales of [contemporary] art fell by two-thirds, / and in the most [overheated] sector, / they were down by nearly 90 % in the year to November 2008. / Within weeks the world’s two biggest auction houses, / Sotheby’s and [Christie’s], / had to pay out nearly $200m in guarantees to clients / who had placed works for sale with them.\n>\n> 逐意群顺译：\n>\n> 在赫斯特先生出售后的几周和几个月里，任何形式的支出都变得非常不流行。在艺术界，这意味着收藏家远离画廊和拍卖场。当代艺术品的销售额下降了三分之二，在最过热的领域，截至 2008 年 11 月的一年内下降了近 90%。几周之内，世界上最大的两家拍卖行苏富比和佳士得就不得不向向其出售作品的客户支付近 2 亿美元的担保金。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>23题</h2>\n<p><strong>Which of the following statements is NOT true?</strong></p>\n<blockquote><p>以下哪项陈述是不正确的？</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>In the weeks and months that followed Mr. Hirst’s sale, spending of any sort became deeply <span class=\"mask\">[unfashionable]</span> . In the art world that meant collectors stayed away from galleries and salerooms. Sales of <span class=\"mask\">[contemporary]</span> art fell by two-thirds, and in the most <span class=\"mask\">[overheated]</span> sector, they were down by nearly 90 % in the year to November 2008. Within weeks the world’s two biggest auction houses, Sotheby’s and <span class=\"mask\">[Christie’s]</span>, had to pay out nearly $200m in guarantees to clients who had placed works for sale with them.</p>\n<p><strong>开始精读：</strong></p>\n<p>In the weeks and months / that followed Mr. / Hirst’s sale, / spending of any sort became deeply <span class=\"mask\">[unfashionable]</span> . / In the art world / that meant collectors stayed away from galleries and salerooms. / Sales of <span class=\"mask\">[contemporary]</span> art fell by two-thirds, / and in the most <span class=\"mask\">[overheated]</span> sector, / they were down by nearly 90 % in the year to November 2008. / Within weeks the world’s two biggest auction houses, / Sotheby’s and <span class=\"mask\">[Christie’s]</span>, / had to pay out nearly $200m in guarantees to clients / who had placed works for sale with them.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>在赫斯特先生出售后的几周和几个月里，任何形式的支出都变得非常不流行。在艺术界，这意味着收藏家远离画廊和拍卖场。当代艺术品的销售额下降了三分之二，在最过热的领域，截至 2008 年 11 月的一年内下降了近 90%。几周之内，世界上最大的两家拍卖行苏富比和佳士得就不得不向向其出售作品的客户支付近 2 亿美元的担保金。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "23"
@@ -615,8 +615,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "23题",
-          "raw": "### A. Sales of contemporary art fell dramatically from 2007 to 2008.\n\n> 2007年至2008年，当代艺术品的销量急剧下降。\n\n我们先看 A 选项：`Sales of contemporary art fell dramatically from 2007 to 2008.`（2007年至2008年，当代艺术品的销量急剧下降。）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪项陈述是不正确的？ ➔ 选项认为：2007年至2008年，当代艺术品的销量急剧下降。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“2007年至2008年，当代艺术品的销量急剧下降。”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
-          "html": "<h3>A. Sales of contemporary art fell dramatically from 2007 to 2008.</h3>\n<blockquote><p>2007年至2008年，当代艺术品的销量急剧下降。</p></blockquote>\n<p>我们先看 A 选项：<code>Sales of contemporary art fell dramatically from 2007 to 2008.</code>（2007年至2008年，当代艺术品的销量急剧下降。）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪项陈述是不正确的？ ➔ 选项认为：2007年至2008年，当代艺术品的销量急剧下降。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“2007年至2008年，当代艺术品的销量急剧下降。”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "raw": "### A. Sales of contemporary art fell dramatically from 2007 to 2008.\n\n> 2007年至2008年，当代艺术品的销量急剧下降。\n\n我们先看 A 选项：`Sales of contemporary art fell dramatically from 2007 to 2008.`（2007年至2008年，当代艺术品的销量急剧下降。）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪项陈述是不正确的？ ➔ 选项认为：2007年至2008年，当代艺术品的销量急剧下降。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“2007年至2008年，当代艺术品的销量急剧下降。”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. Sales of contemporary art fell dramatically from 2007 to 2008.</h3>\n<blockquote><p>2007年至2008年，当代艺术品的销量急剧下降。</p></blockquote>\n<p>我们先看 A 选项：<code>Sales of contemporary art fell dramatically from 2007 to 2008.</code>（2007年至2008年，当代艺术品的销量急剧下降。）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪项陈述是不正确的？ ➔ 选项认为：2007年至2008年，当代艺术品的销量急剧下降。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“2007年至2008年，当代艺术品的销量急剧下降。”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "23",
@@ -635,8 +635,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "23题",
-          "raw": "### C. The art market generally went downward in various ways.\n\n> 艺术市场普遍以各种方式下滑。\n\n我们先看 C 选项：`The art market generally went downward in various ways.`（艺术市场普遍以各种方式下滑。）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪项陈述是不正确的？ ➔ 选项认为：艺术市场普遍以各种方式下滑。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `art`, `market`, `generally` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
-          "html": "<h3>C. The art market generally went downward in various ways.</h3>\n<blockquote><p>艺术市场普遍以各种方式下滑。</p></blockquote>\n<p>我们先看 C 选项：<code>The art market generally went downward in various ways.</code>（艺术市场普遍以各种方式下滑。）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪项陈述是不正确的？ ➔ 选项认为：艺术市场普遍以各种方式下滑。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>art</code>, <code>market</code>, <code>generally</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "raw": "### C. The art market generally went downward in various ways.\n\n> 艺术市场普遍以各种方式下滑。\n\n我们先看 C 选项：`The art market generally went downward in various ways.`（艺术市场普遍以各种方式下滑。）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪项陈述是不正确的？ ➔ 选项认为：艺术市场普遍以各种方式下滑。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“艺术市场普遍以各种方式下滑。”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. The art market generally went downward in various ways.</h3>\n<blockquote><p>艺术市场普遍以各种方式下滑。</p></blockquote>\n<p>我们先看 C 选项：<code>The art market generally went downward in various ways.</code>（艺术市场普遍以各种方式下滑。）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪项陈述是不正确的？ ➔ 选项认为：艺术市场普遍以各种方式下滑。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“艺术市场普遍以各种方式下滑。”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "23",
@@ -645,8 +645,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "23题",
-          "raw": "### D. Some art dealers were awaiting better chances to come.\n\n> 一些艺术品经销商正在等待更好的机会到来。\n\n我们先看 D 选项：`Some art dealers were awaiting better chances to come.`（一些艺术品经销商正在等待更好的机会到来。）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪项陈述是不正确的？ ➔ 选项认为：一些艺术品经销商正在等待更好的机会到来。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“一些艺术品经销商正在等待更好的机会到来。”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. Some art dealers were awaiting better chances to come.</h3>\n<blockquote><p>一些艺术品经销商正在等待更好的机会到来。</p></blockquote>\n<p>我们先看 D 选项：<code>Some art dealers were awaiting better chances to come.</code>（一些艺术品经销商正在等待更好的机会到来。）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪项陈述是不正确的？ ➔ 选项认为：一些艺术品经销商正在等待更好的机会到来。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“一些艺术品经销商正在等待更好的机会到来。”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. Some art dealers were awaiting better chances to come.\n\n> 一些艺术品经销商正在等待更好的机会到来。\n\n我们先看 D 选项：`Some art dealers were awaiting better chances to come.`（一些艺术品经销商正在等待更好的机会到来。）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪项陈述是不正确的？ ➔ 选项认为：一些艺术品经销商正在等待更好的机会到来。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `Some`, `art`, `dealers` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. Some art dealers were awaiting better chances to come.</h3>\n<blockquote><p>一些艺术品经销商正在等待更好的机会到来。</p></blockquote>\n<p>我们先看 D 选项：<code>Some art dealers were awaiting better chances to come.</code>（一些艺术品经销商正在等待更好的机会到来。）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪项陈述是不正确的？ ➔ 选项认为：一些艺术品经销商正在等待更好的机会到来。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>Some</code>, <code>art</code>, <code>dealers</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "23",
@@ -664,8 +664,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "24题",
-          "raw": "## 24题\n\n**The three Ds mentioned in the last paragraph are .**\n\n> 上一段提到的三个 D 是 。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> The current downturn in the art market is the worst since the Japanese stopped buying [Impressionists] at the end of 1989. This time experts reckon that prices are about 40 % down on their peak on average, though some have been far more fluctuant. But Edward Dolman, Christie’s chief executive, says: “I’m pretty confident we’re at the bottom.”\n>\n> 开始精读：\n>\n> The current downturn in the art market is the worst / since the Japanese stopped buying [Impressionists] at the end of 1989. / This time experts reckon / that prices are about 40 % down on their peak on average, / / though some have been far more fluctuant. / But Edward Dolman, / Christie’s chief executive, / says: / “I’m pretty confident we’re at the bottom.”\n>\n> 逐意群顺译：\n>\n> 目前艺术品市场的低迷是自 1989 年底日本停止购买印象派画家以来最严重的一次。专家估计，这次价格比峰值平均下跌了 40% 左右，尽管有些价格波动更大。但佳士得首席执行官爱德华·多尔曼 (Edward Dolman) 表示：“我非常有信心我们已经处于谷底。”\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>24题</h2>\n<p><strong>The three Ds mentioned in the last paragraph are .</strong></p>\n<blockquote><p>上一段提到的三个 D 是 。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>The current downturn in the art market is the worst since the Japanese stopped buying <span class=\"mask\">[Impressionists]</span> at the end of 1989. This time experts reckon that prices are about 40 % down on their peak on average, though some have been far more fluctuant. But Edward Dolman, Christie’s chief executive, says: “I’m pretty confident we’re at the bottom.”</p>\n<p><strong>开始精读：</strong></p>\n<p>The current downturn in the art market is the worst / since the Japanese stopped buying <span class=\"mask\">[Impressionists]</span> at the end of 1989. / This time experts reckon / that prices are about 40 % down on their peak on average, / / though some have been far more fluctuant. / But Edward Dolman, / Christie’s chief executive, / says: / “I’m pretty confident we’re at the bottom.”</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>目前艺术品市场的低迷是自 1989 年底日本停止购买印象派画家以来最严重的一次。专家估计，这次价格比峰值平均下跌了 40% 左右，尽管有些价格波动更大。但佳士得首席执行官爱德华·多尔曼 (Edward Dolman) 表示：“我非常有信心我们已经处于谷底。”</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 24题\n\n**The three Ds mentioned in the last paragraph are .**\n\n> 上一段提到的三个 D 是 。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> The current downturn in the art market is the worst since the Japanese stopped buying [Impressionists] at the end of 1989. This time experts reckon that prices are about 40 % down on their peak on average, though some have been far more fluctuant. But Edward Dolman, [Christie’s] chief executive, says: “I’m pretty [confident] we’re at the bottom.”\n>\n> 开始精读：\n>\n> The current downturn in the art market is the worst / since the Japanese stopped buying [Impressionists] at the end of 1989. / This time experts reckon / that prices are about 40 % down on their peak on average, / / though some have been far more fluctuant. / But Edward Dolman, / [Christie’s] chief executive, / says: / “I’m pretty [confident] we’re at the bottom.”\n>\n> 逐意群顺译：\n>\n> 目前艺术品市场的低迷是自 1989 年底日本停止购买印象派画家以来最严重的一次。专家估计，这次价格比峰值平均下跌了 40% 左右，尽管有些价格波动更大。但佳士得首席执行官爱德华·多尔曼 (Edward Dolman) 表示：“我非常有信心我们已经处于谷底。”\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>24题</h2>\n<p><strong>The three Ds mentioned in the last paragraph are .</strong></p>\n<blockquote><p>上一段提到的三个 D 是 。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>The current downturn in the art market is the worst since the Japanese stopped buying <span class=\"mask\">[Impressionists]</span> at the end of 1989. This time experts reckon that prices are about 40 % down on their peak on average, though some have been far more fluctuant. But Edward Dolman, <span class=\"mask\">[Christie’s]</span> chief executive, says: “I’m pretty <span class=\"mask\">[confident]</span> we’re at the bottom.”</p>\n<p><strong>开始精读：</strong></p>\n<p>The current downturn in the art market is the worst / since the Japanese stopped buying <span class=\"mask\">[Impressionists]</span> at the end of 1989. / This time experts reckon / that prices are about 40 % down on their peak on average, / / though some have been far more fluctuant. / But Edward Dolman, / <span class=\"mask\">[Christie’s]</span> chief executive, / says: / “I’m pretty <span class=\"mask\">[confident]</span> we’re at the bottom.”</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>目前艺术品市场的低迷是自 1989 年底日本停止购买印象派画家以来最严重的一次。专家估计，这次价格比峰值平均下跌了 40% 左右，尽管有些价格波动更大。但佳士得首席执行官爱德华·多尔曼 (Edward Dolman) 表示：“我非常有信心我们已经处于谷底。”</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "24"
@@ -683,8 +683,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "24题",
-          "raw": "### B. contemporary trends\n\n> 当代趋势\n\n我们先看 B 选项：`contemporary trends`（当代趋势）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：上一段提到的三个 D 是 。 ➔ 选项认为：当代趋势\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“当代趋势”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. contemporary trends</h3>\n<blockquote><p>当代趋势</p></blockquote>\n<p>我们先看 B 选项：<code>contemporary trends</code>（当代趋势）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：上一段提到的三个 D 是 。 ➔ 选项认为：当代趋势</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“当代趋势”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. contemporary trends\n\n> 当代趋势\n\n我们先看 B 选项：`contemporary trends`（当代趋势）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：上一段提到的三个 D 是 。 ➔ 选项认为：当代趋势\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `contemporary`, `trends` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. contemporary trends</h3>\n<blockquote><p>当代趋势</p></blockquote>\n<p>我们先看 B 选项：<code>contemporary trends</code>（当代趋势）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：上一段提到的三个 D 是 。 ➔ 选项认为：当代趋势</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>contemporary</code>, <code>trends</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "24",
@@ -722,8 +722,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "25题",
-          "raw": "## 25题\n\n**The most appropriate title for this text could be .**\n\n> 本文最合适的标题可能是。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 5 段展开，所以我们直接回第 5 段定位精读。\n\n> 原文参考：\n>\n> What makes this slump different from the last, he says, is that there are still buyers in the market. Almost everyone who was interviewed for this special report said that the biggest problem at the moment is not a lack of demand but a lack of good work to sell. The three Ds—death, debt and divorce—still deliver works of art to the market. But anyone who does not have to sell is keeping away, waiting for confidence to return.\n>\n> 开始精读：\n>\n> What makes this slump different from the last, / he says, / is / that there are still buyers in the market. / Almost everyone / who was interviewed for this special report said / that the biggest problem at the moment is not a lack of demand but a lack of good work to sell. / The three Ds—death, / debt and divorce—still deliver works of art to the market. / But anyone / who does not have to sell is keeping away, / waiting for confidence to return.\n>\n> 逐意群顺译：\n>\n> 他说，这次衰退与上次不同的是，市场上仍然有买家。几乎所有接受本专题报道采访的人都表示，目前最大的问题不是缺乏需求，而是缺乏好作品可卖。三个 D——死亡、债务和离婚——仍然将艺术品推向市场。但任何不需要出售的人都在远离，等待信心恢复。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>25题</h2>\n<p><strong>The most appropriate title for this text could be .</strong></p>\n<blockquote><p>本文最合适的标题可能是。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>5</strong> 段展开，所以我们直接回第 <strong>5</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>What makes this slump different from the last, he says, is that there are still buyers in the market. Almost everyone who was interviewed for this special report said that the biggest problem at the moment is not a lack of demand but a lack of good work to sell. The three Ds—death, debt and divorce—still deliver works of art to the market. But anyone who does not have to sell is keeping away, waiting for confidence to return.</p>\n<p><strong>开始精读：</strong></p>\n<p>What makes this slump different from the last, / he says, / is / that there are still buyers in the market. / Almost everyone / who was interviewed for this special report said / that the biggest problem at the moment is not a lack of demand but a lack of good work to sell. / The three Ds—death, / debt and divorce—still deliver works of art to the market. / But anyone / who does not have to sell is keeping away, / waiting for confidence to return.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>他说，这次衰退与上次不同的是，市场上仍然有买家。几乎所有接受本专题报道采访的人都表示，目前最大的问题不是缺乏需求，而是缺乏好作品可卖。三个 D——死亡、债务和离婚——仍然将艺术品推向市场。但任何不需要出售的人都在远离，等待信心恢复。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 25题\n\n**The most appropriate title for this text could be .**\n\n> 本文最合适的标题可能是。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 5 段展开，所以我们直接回第 5 段定位精读。\n\n> 原文参考：\n>\n> What makes this slump [different] from the last, he says, is that there are still buyers in the market. Almost everyone who was interviewed for this special report said that the biggest problem at the moment is not a lack of demand but a lack of good work to sell. The three Ds—death, debt and divorce—still deliver works of art to the market. But anyone who does not have to sell is keeping away, waiting for confidence to return.\n>\n> 开始精读：\n>\n> What makes this slump [different] from the last, / he says, / is / that there are still buyers in the market. / Almost everyone / who was interviewed for this special report said / that the biggest problem at the moment is not a lack of demand but a lack of good work to sell. / The three Ds—death, / debt and divorce—still deliver works of art to the market. / But anyone / who does not have to sell is keeping away, / waiting for confidence to return.\n>\n> 逐意群顺译：\n>\n> 他说，这次衰退与上次不同的是，市场上仍然有买家。几乎所有接受本专题报道采访的人都表示，目前最大的问题不是缺乏需求，而是缺乏好作品可卖。三个 D——死亡、债务和离婚——仍然将艺术品推向市场。但任何不需要出售的人都在远离，等待信心恢复。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>25题</h2>\n<p><strong>The most appropriate title for this text could be .</strong></p>\n<blockquote><p>本文最合适的标题可能是。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>5</strong> 段展开，所以我们直接回第 <strong>5</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>What makes this slump <span class=\"mask\">[different]</span> from the last, he says, is that there are still buyers in the market. Almost everyone who was interviewed for this special report said that the biggest problem at the moment is not a lack of demand but a lack of good work to sell. The three Ds—death, debt and divorce—still deliver works of art to the market. But anyone who does not have to sell is keeping away, waiting for confidence to return.</p>\n<p><strong>开始精读：</strong></p>\n<p>What makes this slump <span class=\"mask\">[different]</span> from the last, / he says, / is / that there are still buyers in the market. / Almost everyone / who was interviewed for this special report said / that the biggest problem at the moment is not a lack of demand but a lack of good work to sell. / The three Ds—death, / debt and divorce—still deliver works of art to the market. / But anyone / who does not have to sell is keeping away, / waiting for confidence to return.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>他说，这次衰退与上次不同的是，市场上仍然有买家。几乎所有接受本专题报道采访的人都表示，目前最大的问题不是缺乏需求，而是缺乏好作品可卖。三个 D——死亡、债务和离婚——仍然将艺术品推向市场。但任何不需要出售的人都在远离，等待信心恢复。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "25"
@@ -741,8 +741,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "25题",
-          "raw": "### B. Up-to-Date Art Auctions\n\n> 最新的艺术品拍卖\n\n我们先看 B 选项：`Up-to-Date Art Auctions`（最新的艺术品拍卖）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：本文最合适的标题可能是。 ➔ 选项认为：最新的艺术品拍卖\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“最新的艺术品拍卖”，但在原文第 5 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. Up-to-Date Art Auctions</h3>\n<blockquote><p>最新的艺术品拍卖</p></blockquote>\n<p>我们先看 B 选项：<code>Up-to-Date Art Auctions</code>（最新的艺术品拍卖）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：本文最合适的标题可能是。 ➔ 选项认为：最新的艺术品拍卖</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“最新的艺术品拍卖”，但在原文第 5 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. Up-to-Date Art Auctions\n\n> 最新的艺术品拍卖\n\n我们先看 B 选项：`Up-to-Date Art Auctions`（最新的艺术品拍卖）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：本文最合适的标题可能是。 ➔ 选项认为：最新的艺术品拍卖\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“最新的艺术品拍卖”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 5 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. Up-to-Date Art Auctions</h3>\n<blockquote><p>最新的艺术品拍卖</p></blockquote>\n<p>我们先看 B 选项：<code>Up-to-Date Art Auctions</code>（最新的艺术品拍卖）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：本文最合适的标题可能是。 ➔ 选项认为：最新的艺术品拍卖</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“最新的艺术品拍卖”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 5 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "25",
@@ -761,8 +761,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "25题",
-          "raw": "### D. Shifted Interest in Arts\n\n> 对艺术的兴趣转移\n\n我们先看 D 选项：`Shifted Interest in Arts`（对艺术的兴趣转移）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：本文最合适的标题可能是。 ➔ 选项认为：对艺术的兴趣转移\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“对艺术的兴趣转移”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 5 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. Shifted Interest in Arts</h3>\n<blockquote><p>对艺术的兴趣转移</p></blockquote>\n<p>我们先看 D 选项：<code>Shifted Interest in Arts</code>（对艺术的兴趣转移）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：本文最合适的标题可能是。 ➔ 选项认为：对艺术的兴趣转移</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“对艺术的兴趣转移”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 5 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. Shifted Interest in Arts\n\n> 对艺术的兴趣转移\n\n我们先看 D 选项：`Shifted Interest in Arts`（对艺术的兴趣转移）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：本文最合适的标题可能是。 ➔ 选项认为：对艺术的兴趣转移\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“对艺术的兴趣转移”，但在原文第 5 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. Shifted Interest in Arts</h3>\n<blockquote><p>对艺术的兴趣转移</p></blockquote>\n<p>我们先看 D 选项：<code>Shifted Interest in Arts</code>（对艺术的兴趣转移）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：本文最合适的标题可能是。 ➔ 选项认为：对艺术的兴趣转移</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“对艺术的兴趣转移”，但在原文第 5 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "25",
@@ -1345,7 +1345,7 @@ window.KAOYAN_DATA_2010 = {
         {
           "section": 3,
           "title": "3.一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
-          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，正确项如何进行同义改写，错误项如何设置陷阱；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
+          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，对的是如何对文章进行同义改写的，错的做题时为什么容易被文章中的对应表达骗，命题人是怎么想的；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
           "meta": {
             "section": 3
           }
@@ -1353,246 +1353,981 @@ window.KAOYAN_DATA_2010 = {
         {
           "section": 3,
           "title": "21题 · 题干、题型与核心出处",
-          "html": "<p><strong>21. In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because \n.</strong></p>\n<p>（In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because \n.）</p>\n<p><strong>题型判定</strong>：事实细节题 ｜ <strong>定位出处</strong>：Paragraph 1</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because \n.<br />In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because \n.</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>事实细节题</strong>，考查考生对第 <strong>1</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 1 段核心定位句）</h3>\n<blockquote>\n<p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.<br />2008 年 9 月 15 日，伦敦苏富比拍卖行拍卖达明安·赫斯特 (Damien Hirst) 的 56 件作品《美丽在我脑海中永远》(Beautiful Inside My Head Forever)，戏剧性地结束了艺术市场历史上一个世纪以来最长的牛市。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 1 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "21"
+            "qid": "21",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. the art market had witnessed a succession of victories",
-          "html": "<p><strong>选项 A</strong>：<code>the art market had witnessed a succession of victories</code></p>\n<p><strong>中文翻译</strong>：艺术市场屡战屡胜</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术市场屡战屡胜</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "21",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. the art market had witnessed a succession of victories",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术市场屡战屡胜</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>art</code>, <code>market</code>, <code>had</code>（“艺术市场屡战屡胜”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.<br />2008 年 9 月 15 日，伦敦苏富比拍卖行拍卖达明安·赫斯特 (Damien Hirst) 的 56 件作品《美丽在我脑海中永远》(Beautiful Inside My Head Forever)，戏剧性地结束了艺术市场历史上一个世纪以来最长的牛市。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. the art market had witnessed a succession of victories",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术市场屡战屡胜</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>art</code>, <code>market</code>, <code>had</code>（“艺术市场屡战屡胜”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.<br />2008 年 9 月 15 日，伦敦苏富比拍卖行拍卖达明安·赫斯特 (Damien Hirst) 的 56 件作品《美丽在我脑海中永远》(Beautiful Inside My Head Forever)，戏剧性地结束了艺术市场历史上一个世纪以来最长的牛市。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>All but two pieces sold, fetching more than £70m, a record for a sale by a single artist.<br />除两件作品外，其余作品全部售出，成交价超过 7000 万英镑，创下了单个艺术家的拍卖纪录。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. the art market had witnessed a succession of victories",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术市场屡战屡胜</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>art</code>, <code>market</code>, <code>had</code>（“艺术市场屡战屡胜”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.<br />2008 年 9 月 15 日，伦敦苏富比拍卖行拍卖达明安·赫斯特 (Damien Hirst) 的 56 件作品《美丽在我脑海中永远》(Beautiful Inside My Head Forever)，戏剧性地结束了艺术市场历史上一个世纪以来最长的牛市。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>All but two pieces sold, fetching more than £70m, a record for a sale by a single artist.<br />除两件作品外，其余作品全部售出，成交价超过 7000 万英镑，创下了单个艺术家的拍卖纪录。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. the auctioneer finally got the two pieces at the highest bids",
-          "html": "<p><strong>选项 B</strong>：<code>the auctioneer finally got the two pieces at the highest bids</code></p>\n<p><strong>中文翻译</strong>：拍卖师最终以最高出价拍得这两件作品</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>拍卖师最终以最高出价拍得这两件作品</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "21",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. the auctioneer finally got the two pieces at the highest bids",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>拍卖师最终以最高出价拍得这两件作品</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>auctioneer</code>, <code>finally</code>, <code>got</code>（“拍卖师最终以最高出价拍得这两件作品”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.<br />2008 年 9 月 15 日，伦敦苏富比拍卖行拍卖达明安·赫斯特 (Damien Hirst) 的 56 件作品《美丽在我脑海中永远》(Beautiful Inside My Head Forever)，戏剧性地结束了艺术市场历史上一个世纪以来最长的牛市。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>auctioneer</code>, <code>finally</code>, <code>got</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. the auctioneer finally got the two pieces at the highest bids",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>拍卖师最终以最高出价拍得这两件作品</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>auctioneer</code>, <code>finally</code>, <code>got</code>（“拍卖师最终以最高出价拍得这两件作品”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.<br />2008 年 9 月 15 日，伦敦苏富比拍卖行拍卖达明安·赫斯特 (Damien Hirst) 的 56 件作品《美丽在我脑海中永远》(Beautiful Inside My Head Forever)，戏剧性地结束了艺术市场历史上一个世纪以来最长的牛市。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>auctioneer</code>, <code>finally</code>, <code>got</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>All but two pieces sold, fetching more than £70m, a record for a sale by a single artist.<br />除两件作品外，其余作品全部售出，成交价超过 7000 万英镑，创下了单个艺术家的拍卖纪录。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. the auctioneer finally got the two pieces at the highest bids",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>拍卖师最终以最高出价拍得这两件作品</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>auctioneer</code>, <code>finally</code>, <code>got</code>（“拍卖师最终以最高出价拍得这两件作品”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.<br />2008 年 9 月 15 日，伦敦苏富比拍卖行拍卖达明安·赫斯特 (Damien Hirst) 的 56 件作品《美丽在我脑海中永远》(Beautiful Inside My Head Forever)，戏剧性地结束了艺术市场历史上一个世纪以来最长的牛市。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>auctioneer</code>, <code>finally</code>, <code>got</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>All but two pieces sold, fetching more than £70m, a record for a sale by a single artist.<br />除两件作品外，其余作品全部售出，成交价超过 7000 万英镑，创下了单个艺术家的拍卖纪录。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. Beautiful Inside My Head Forever won over all masterpieces",
-          "html": "<p><strong>选项 C</strong>：<code>Beautiful Inside My Head Forever won over all masterpieces</code></p>\n<p><strong>中文翻译</strong>：《永远美丽在我的脑海里》胜过所有杰作</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>《永远美丽在我的脑海里》胜过所有杰作</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "21",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. Beautiful Inside My Head Forever won over all masterpieces",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>《永远美丽在我的脑海里》胜过所有杰作</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>Beautiful</code>, <code>Inside</code>, <code>Head</code>（“《永远美丽在我的脑海里》胜过所有杰作”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.<br />2008 年 9 月 15 日，伦敦苏富比拍卖行拍卖达明安·赫斯特 (Damien Hirst) 的 56 件作品《美丽在我脑海中永远》(Beautiful Inside My Head Forever)，戏剧性地结束了艺术市场历史上一个世纪以来最长的牛市。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>Beautiful</code>, <code>Inside</code>, <code>Head</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. Beautiful Inside My Head Forever won over all masterpieces",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>《永远美丽在我的脑海里》胜过所有杰作</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>Beautiful</code>, <code>Inside</code>, <code>Head</code>（“《永远美丽在我的脑海里》胜过所有杰作”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.<br />2008 年 9 月 15 日，伦敦苏富比拍卖行拍卖达明安·赫斯特 (Damien Hirst) 的 56 件作品《美丽在我脑海中永远》(Beautiful Inside My Head Forever)，戏剧性地结束了艺术市场历史上一个世纪以来最长的牛市。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>Beautiful</code>, <code>Inside</code>, <code>Head</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>All but two pieces sold, fetching more than £70m, a record for a sale by a single artist.<br />除两件作品外，其余作品全部售出，成交价超过 7000 万英镑，创下了单个艺术家的拍卖纪录。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. Beautiful Inside My Head Forever won over all masterpieces",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>《永远美丽在我的脑海里》胜过所有杰作</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>Beautiful</code>, <code>Inside</code>, <code>Head</code>（“《永远美丽在我的脑海里》胜过所有杰作”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.<br />2008 年 9 月 15 日，伦敦苏富比拍卖行拍卖达明安·赫斯特 (Damien Hirst) 的 56 件作品《美丽在我脑海中永远》(Beautiful Inside My Head Forever)，戏剧性地结束了艺术市场历史上一个世纪以来最长的牛市。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>Beautiful</code>, <code>Inside</code>, <code>Head</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>All but two pieces sold, fetching more than £70m, a record for a sale by a single artist.<br />除两件作品外，其余作品全部售出，成交价超过 7000 万英镑，创下了单个艺术家的拍卖纪录。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. it was successfully made just before the world financial crisis",
-          "html": "<p><strong>选项 D</strong>：<code>it was successfully made just before the world financial crisis</code></p>\n<p><strong>中文翻译</strong>：它是在世界金融危机之前成功制作的</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>它是在世界金融危机之前成功制作的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "21",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. it was successfully made just before the world financial crisis",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>它是在世界金融危机之前成功制作的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>was</code>, <code>successfully</code>, <code>made</code>，其对应的中文含义为“<strong>它是在世界金融危机之前成功制作的</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.<br />2008 年 9 月 15 日，伦敦苏富比拍卖行拍卖达明安·赫斯特 (Damien Hirst) 的 56 件作品《美丽在我脑海中永远》(Beautiful Inside My Head Forever)，戏剧性地结束了艺术市场历史上一个世纪以来最长的牛市。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. it was successfully made just before the world financial crisis",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>它是在世界金融危机之前成功制作的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>was</code>, <code>successfully</code>, <code>made</code>，其对应的中文含义为“<strong>它是在世界金融危机之前成功制作的</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.<br />2008 年 9 月 15 日，伦敦苏富比拍卖行拍卖达明安·赫斯特 (Damien Hirst) 的 56 件作品《美丽在我脑海中永远》(Beautiful Inside My Head Forever)，戏剧性地结束了艺术市场历史上一个世纪以来最长的牛市。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>All but two pieces sold, fetching more than £70m, a record for a sale by a single artist.<br />除两件作品外，其余作品全部售出，成交价超过 7000 万英镑，创下了单个艺术家的拍卖纪录。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 D 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. it was successfully made just before the world financial crisis",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>它是在世界金融危机之前成功制作的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>was</code>, <code>successfully</code>, <code>made</code>，其对应的中文含义为“<strong>它是在世界金融危机之前成功制作的</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.<br />2008 年 9 月 15 日，伦敦苏富比拍卖行拍卖达明安·赫斯特 (Damien Hirst) 的 56 件作品《美丽在我脑海中永远》(Beautiful Inside My Head Forever)，戏剧性地结束了艺术市场历史上一个世纪以来最长的牛市。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>All but two pieces sold, fetching more than £70m, a record for a sale by a single artist.<br />除两件作品外，其余作品全部售出，成交价超过 7000 万英镑，创下了单个艺术家的拍卖纪录。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 D 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 D 选项（“它是在世界金融危机之前成功制作的”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：D正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "21题结论",
+          "html": "<blockquote>\n<p><strong>21. D. it was successfully made just before the world financial crisis</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>auctioneer</code>, <...；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>Beautiful</code>, <c...；</li><li style=\"margin-bottom:6px\"><b>D</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "22题 · 题干、题型与核心出处",
-          "html": "<p><strong>22. By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author \nsuggests that .</strong></p>\n<p>（By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author \nsuggests that .）</p>\n<p><strong>题型判定</strong>：因果推断题 ｜ <strong>定位出处</strong>：Paragraph 2</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author \nsuggests that .<br />By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author \nsuggests that .</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>因果推断题</strong>，考查考生对第 <strong>2</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 2 段核心定位句）</h3>\n<blockquote>\n<p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.<br />自2003年以来，世界艺术市场经历了令人眼花缭乱的上涨后，已经有一段时间失去了动力。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 2 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "22"
+            "qid": "22",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. collectors were no longer actively involved in art-market auctions",
-          "html": "<p><strong>选项 A</strong>：<code>collectors were no longer actively involved in art-market auctions</code></p>\n<p><strong>中文翻译</strong>：收藏家不再积极参与艺术品市场拍卖</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>收藏家不再积极参与艺术品市场拍卖</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "22",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. collectors were no longer actively involved in art-market auctions",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>收藏家不再积极参与艺术品市场拍卖</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>collectors</code>, <code>longer</code>, <code>actively</code>，其对应的中文含义为“<strong>收藏家不再积极参与艺术品市场拍卖</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.<br />自2003年以来，世界艺术市场经历了令人眼花缭乱的上涨后，已经有一段时间失去了动力。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. collectors were no longer actively involved in art-market auctions",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>收藏家不再积极参与艺术品市场拍卖</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>collectors</code>, <code>longer</code>, <code>actively</code>，其对应的中文含义为“<strong>收藏家不再积极参与艺术品市场拍卖</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.<br />自2003年以来，世界艺术市场经历了令人眼花缭乱的上涨后，已经有一段时间失去了动力。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>At its peak in 2007 it was worth some $65 billion, reckons Clare McAndrew, founder of Arts Economics, a research firm—double the figure five years earlier.<br />研究公司 Arts Economics 的创始人克莱尔·麦克安德鲁 (Clare McAndrew) 估计，在 2007 年的巅峰时期，其价值约为 650 亿美元，是五年前这一数字的两倍。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 A 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. collectors were no longer actively involved in art-market auctions",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>收藏家不再积极参与艺术品市场拍卖</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>collectors</code>, <code>longer</code>, <code>actively</code>，其对应的中文含义为“<strong>收藏家不再积极参与艺术品市场拍卖</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.<br />自2003年以来，世界艺术市场经历了令人眼花缭乱的上涨后，已经有一段时间失去了动力。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>At its peak in 2007 it was worth some $65 billion, reckons Clare McAndrew, founder of Arts Economics, a research firm—double the figure five years earlier.<br />研究公司 Arts Economics 的创始人克莱尔·麦克安德鲁 (Clare McAndrew) 估计，在 2007 年的巅峰时期，其价值约为 650 亿美元，是五年前这一数字的两倍。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 A 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 A 选项（“收藏家不再积极参与艺术品市场拍卖”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：A正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. people stopped every kind of spending and stayed away from galleries",
-          "html": "<p><strong>选项 B</strong>：<code>people stopped every kind of spending and stayed away from galleries</code></p>\n<p><strong>中文翻译</strong>：人们停止了各种消费并远离画廊</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>人们停止了各种消费并远离画廊</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "22",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. people stopped every kind of spending and stayed away from galleries",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>人们停止了各种消费并远离画廊</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>people</code>, <code>stopped</code>, <code>every</code>（“人们停止了各种消费并远离画廊”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.<br />自2003年以来，世界艺术市场经历了令人眼花缭乱的上涨后，已经有一段时间失去了动力。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. people stopped every kind of spending and stayed away from galleries",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>人们停止了各种消费并远离画廊</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>people</code>, <code>stopped</code>, <code>every</code>（“人们停止了各种消费并远离画廊”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.<br />自2003年以来，世界艺术市场经历了令人眼花缭乱的上涨后，已经有一段时间失去了动力。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>At its peak in 2007 it was worth some $65 billion, reckons Clare McAndrew, founder of Arts Economics, a research firm—double the figure five years earlier.<br />研究公司 Arts Economics 的创始人克莱尔·麦克安德鲁 (Clare McAndrew) 估计，在 2007 年的巅峰时期，其价值约为 650 亿美元，是五年前这一数字的两倍。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. people stopped every kind of spending and stayed away from galleries",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>人们停止了各种消费并远离画廊</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>people</code>, <code>stopped</code>, <code>every</code>（“人们停止了各种消费并远离画廊”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.<br />自2003年以来，世界艺术市场经历了令人眼花缭乱的上涨后，已经有一段时间失去了动力。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>At its peak in 2007 it was worth some $65 billion, reckons Clare McAndrew, founder of Arts Economics, a research firm—double the figure five years earlier.<br />研究公司 Arts Economics 的创始人克莱尔·麦克安德鲁 (Clare McAndrew) 估计，在 2007 年的巅峰时期，其价值约为 650 亿美元，是五年前这一数字的两倍。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. art collection as a fashion had lost its appeal to a great extent",
-          "html": "<p><strong>选项 C</strong>：<code>art collection as a fashion had lost its appeal to a great extent</code></p>\n<p><strong>中文翻译</strong>：艺术收藏作为一种时尚已经在很大程度上失去了吸引力</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术收藏作为一种时尚已经在很大程度上失去了吸引力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "22",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. art collection as a fashion had lost its appeal to a great extent",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术收藏作为一种时尚已经在很大程度上失去了吸引力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>art</code>, <code>collection</code>, <code>fashion</code>（“艺术收藏作为一种时尚已经在很大程度上失去了吸引力”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.<br />自2003年以来，世界艺术市场经历了令人眼花缭乱的上涨后，已经有一段时间失去了动力。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. art collection as a fashion had lost its appeal to a great extent",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术收藏作为一种时尚已经在很大程度上失去了吸引力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>art</code>, <code>collection</code>, <code>fashion</code>（“艺术收藏作为一种时尚已经在很大程度上失去了吸引力”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.<br />自2003年以来，世界艺术市场经历了令人眼花缭乱的上涨后，已经有一段时间失去了动力。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>At its peak in 2007 it was worth some $65 billion, reckons Clare McAndrew, founder of Arts Economics, a research firm—double the figure five years earlier.<br />研究公司 Arts Economics 的创始人克莱尔·麦克安德鲁 (Clare McAndrew) 估计，在 2007 年的巅峰时期，其价值约为 650 亿美元，是五年前这一数字的两倍。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. art collection as a fashion had lost its appeal to a great extent",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术收藏作为一种时尚已经在很大程度上失去了吸引力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>art</code>, <code>collection</code>, <code>fashion</code>（“艺术收藏作为一种时尚已经在很大程度上失去了吸引力”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.<br />自2003年以来，世界艺术市场经历了令人眼花缭乱的上涨后，已经有一段时间失去了动力。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>At its peak in 2007 it was worth some $65 billion, reckons Clare McAndrew, founder of Arts Economics, a research firm—double the figure five years earlier.<br />研究公司 Arts Economics 的创始人克莱尔·麦克安德鲁 (Clare McAndrew) 估计，在 2007 年的巅峰时期，其价值约为 650 亿美元，是五年前这一数字的两倍。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. works of art in general had gone out of fashion so they were not worth buying",
-          "html": "<p><strong>选项 D</strong>：<code>works of art in general had gone out of fashion so they were not worth buying</code></p>\n<p><strong>中文翻译</strong>：艺术品一般都已经过时了，所以不值得购买</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术品一般都已经过时了，所以不值得购买</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "22",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. works of art in general had gone out of fashion so they were not worth buying",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术品一般都已经过时了，所以不值得购买</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>works</code>, <code>art</code>, <code>general</code>（“艺术品一般都已经过时了，所以不值得购买”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.<br />自2003年以来，世界艺术市场经历了令人眼花缭乱的上涨后，已经有一段时间失去了动力。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>works</code>, <code>art</code>, <code>general</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. works of art in general had gone out of fashion so they were not worth buying",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术品一般都已经过时了，所以不值得购买</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>works</code>, <code>art</code>, <code>general</code>（“艺术品一般都已经过时了，所以不值得购买”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.<br />自2003年以来，世界艺术市场经历了令人眼花缭乱的上涨后，已经有一段时间失去了动力。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>works</code>, <code>art</code>, <code>general</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>At its peak in 2007 it was worth some $65 billion, reckons Clare McAndrew, founder of Arts Economics, a research firm—double the figure five years earlier.<br />研究公司 Arts Economics 的创始人克莱尔·麦克安德鲁 (Clare McAndrew) 估计，在 2007 年的巅峰时期，其价值约为 650 亿美元，是五年前这一数字的两倍。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. works of art in general had gone out of fashion so they were not worth buying",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术品一般都已经过时了，所以不值得购买</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>works</code>, <code>art</code>, <code>general</code>（“艺术品一般都已经过时了，所以不值得购买”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>The world art market had already been losing momentum for a while after rising bewilderingly since 2003.<br />自2003年以来，世界艺术市场经历了令人眼花缭乱的上涨后，已经有一段时间失去了动力。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>works</code>, <code>art</code>, <code>general</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>At its peak in 2007 it was worth some $65 billion, reckons Clare McAndrew, founder of Arts Economics, a research firm—double the figure five years earlier.<br />研究公司 Arts Economics 的创始人克莱尔·麦克安德鲁 (Clare McAndrew) 估计，在 2007 年的巅峰时期，其价值约为 650 亿美元，是五年前这一数字的两倍。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "22题结论",
+          "html": "<blockquote>\n<p><strong>22. A. collectors were no longer actively involved in art-market auctions</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>works</code>, <code>...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "23题 · 题干、题型与核心出处",
-          "html": "<p><strong>23. Which of the following statements is NOT true?</strong></p>\n<p>（以下哪项陈述是不正确的？）</p>\n<p><strong>题型判定</strong>：段落推理题 ｜ <strong>定位出处</strong>：Paragraph 3</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>Which of the following statements is NOT true?<br />以下哪项陈述是不正确的？</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>段落推理题</strong>，考查考生对第 <strong>3</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 3 段核心定位句）</h3>\n<blockquote>\n<p>In the weeks and months that followed Mr.<br />在接下来的几个星期和几个月里。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 3 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "23"
+            "qid": "23",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. Sales of contemporary art fell dramatically from 2007 to 2008.",
-          "html": "<p><strong>选项 A</strong>：<code>Sales of contemporary art fell dramatically from 2007 to 2008.</code></p>\n<p><strong>中文翻译</strong>：2007年至2008年，当代艺术品的销量急剧下降。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>2007年至2008年，当代艺术品的销量急剧下降。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>In the weeks and months that followed Mr.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "23",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. Sales of contemporary art fell dramatically from 2007 to 2008.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>2007年至2008年，当代艺术品的销量急剧下降。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>In the weeks and months that followed Mr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>Sales</code>, <code>contemporary</code>, <code>art</code>（“2007年至2008年，当代艺术品的销量急剧下降。”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>In the weeks and months that followed Mr.<br />在接下来的几个星期和几个月里。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. Sales of contemporary art fell dramatically from 2007 to 2008.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>2007年至2008年，当代艺术品的销量急剧下降。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>In the weeks and months that followed Mr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>Sales</code>, <code>contemporary</code>, <code>art</code>（“2007年至2008年，当代艺术品的销量急剧下降。”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>In the weeks and months that followed Mr.<br />在接下来的几个星期和几个月里。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Hirst’s sale, spending of any sort became deeply unfashionable .<br />赫斯特的拍卖、任何形式的支出都变得非常不流行。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. Sales of contemporary art fell dramatically from 2007 to 2008.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>2007年至2008年，当代艺术品的销量急剧下降。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>In the weeks and months that followed Mr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>Sales</code>, <code>contemporary</code>, <code>art</code>（“2007年至2008年，当代艺术品的销量急剧下降。”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>In the weeks and months that followed Mr.<br />在接下来的几个星期和几个月里。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Hirst’s sale, spending of any sort became deeply unfashionable .<br />赫斯特的拍卖、任何形式的支出都变得非常不流行。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. The art market surpassed many other industries in momentum.",
-          "html": "<p><strong>选项 B</strong>：<code>The art market surpassed many other industries in momentum.</code></p>\n<p><strong>中文翻译</strong>：艺术品市场的发展势头超过了许多其他行业。</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术品市场的发展势头超过了许多其他行业。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>In the weeks and months that followed Mr.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "23",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. The art market surpassed many other industries in momentum.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术品市场的发展势头超过了许多其他行业。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>In the weeks and months that followed Mr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>art</code>, <code>market</code>, <code>surpassed</code>，其对应的中文含义为“<strong>艺术品市场的发展势头超过了许多其他行业。</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>In the weeks and months that followed Mr.<br />在接下来的几个星期和几个月里。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. The art market surpassed many other industries in momentum.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术品市场的发展势头超过了许多其他行业。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>In the weeks and months that followed Mr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>art</code>, <code>market</code>, <code>surpassed</code>，其对应的中文含义为“<strong>艺术品市场的发展势头超过了许多其他行业。</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>In the weeks and months that followed Mr.<br />在接下来的几个星期和几个月里。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Hirst’s sale, spending of any sort became deeply unfashionable .<br />赫斯特的拍卖、任何形式的支出都变得非常不流行。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 B 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. The art market surpassed many other industries in momentum.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术品市场的发展势头超过了许多其他行业。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>In the weeks and months that followed Mr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>art</code>, <code>market</code>, <code>surpassed</code>，其对应的中文含义为“<strong>艺术品市场的发展势头超过了许多其他行业。</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>In the weeks and months that followed Mr.<br />在接下来的几个星期和几个月里。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Hirst’s sale, spending of any sort became deeply unfashionable .<br />赫斯特的拍卖、任何形式的支出都变得非常不流行。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 B 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 B 选项（“艺术品市场的发展势头超过了许多其他行业。”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：B正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. The art market generally went downward in various ways.",
-          "html": "<p><strong>选项 C</strong>：<code>The art market generally went downward in various ways.</code></p>\n<p><strong>中文翻译</strong>：艺术市场普遍以各种方式下滑。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术市场普遍以各种方式下滑。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>In the weeks and months that followed Mr.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "23",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. The art market generally went downward in various ways.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术市场普遍以各种方式下滑。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>In the weeks and months that followed Mr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>art</code>, <code>market</code>, <code>generally</code>（“艺术市场普遍以各种方式下滑。”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>In the weeks and months that followed Mr.<br />在接下来的几个星期和几个月里。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“艺术市场普遍以各种方式下滑。”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. The art market generally went downward in various ways.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术市场普遍以各种方式下滑。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>In the weeks and months that followed Mr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>art</code>, <code>market</code>, <code>generally</code>（“艺术市场普遍以各种方式下滑。”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>In the weeks and months that followed Mr.<br />在接下来的几个星期和几个月里。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“艺术市场普遍以各种方式下滑。”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Hirst’s sale, spending of any sort became deeply unfashionable .<br />赫斯特的拍卖、任何形式的支出都变得非常不流行。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. The art market generally went downward in various ways.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术市场普遍以各种方式下滑。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>In the weeks and months that followed Mr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>art</code>, <code>market</code>, <code>generally</code>（“艺术市场普遍以各种方式下滑。”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>In the weeks and months that followed Mr.<br />在接下来的几个星期和几个月里。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“艺术市场普遍以各种方式下滑。”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Hirst’s sale, spending of any sort became deeply unfashionable .<br />赫斯特的拍卖、任何形式的支出都变得非常不流行。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. Some art dealers were awaiting better chances to come.",
-          "html": "<p><strong>选项 D</strong>：<code>Some art dealers were awaiting better chances to come.</code></p>\n<p><strong>中文翻译</strong>：一些艺术品经销商正在等待更好的机会到来。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>一些艺术品经销商正在等待更好的机会到来。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>In the weeks and months that followed Mr.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "23",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. Some art dealers were awaiting better chances to come.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>一些艺术品经销商正在等待更好的机会到来。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>In the weeks and months that followed Mr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>Some</code>, <code>art</code>, <code>dealers</code>（“一些艺术品经销商正在等待更好的机会到来。”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>In the weeks and months that followed Mr.<br />在接下来的几个星期和几个月里。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>Some</code>, <code>art</code>, <code>dealers</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. Some art dealers were awaiting better chances to come.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>一些艺术品经销商正在等待更好的机会到来。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>In the weeks and months that followed Mr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>Some</code>, <code>art</code>, <code>dealers</code>（“一些艺术品经销商正在等待更好的机会到来。”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>In the weeks and months that followed Mr.<br />在接下来的几个星期和几个月里。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>Some</code>, <code>art</code>, <code>dealers</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Hirst’s sale, spending of any sort became deeply unfashionable .<br />赫斯特的拍卖、任何形式的支出都变得非常不流行。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. Some art dealers were awaiting better chances to come.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>一些艺术品经销商正在等待更好的机会到来。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>In the weeks and months that followed Mr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>Some</code>, <code>art</code>, <code>dealers</code>（“一些艺术品经销商正在等待更好的机会到来。”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>In the weeks and months that followed Mr.<br />在接下来的几个星期和几个月里。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>Some</code>, <code>art</code>, <code>dealers</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Hirst’s sale, spending of any sort became deeply unfashionable .<br />赫斯特的拍卖、任何形式的支出都变得非常不流行。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "23题结论",
+          "html": "<blockquote>\n<p><strong>23. B. The art market surpassed many other industries in momentum.</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>B</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“艺术市场普遍以各种方式下滑。”，但在原文定位句中，作者表达的...；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>Some</code>, <code>a...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "24题 · 题干、题型与核心出处",
-          "html": "<p><strong>24. The three Ds mentioned in the last paragraph are .</strong></p>\n<p>（上一段提到的三个 D 是 。）</p>\n<p><strong>题型判定</strong>：词义/例证题 ｜ <strong>定位出处</strong>：Paragraph 4</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>The three Ds mentioned in the last paragraph are .<br />上一段提到的三个 D 是 。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>词义/例证题</strong>，考查考生对第 <strong>4</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 4 段核心定位句）</h3>\n<blockquote>\n<p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.<br />目前艺术市场的低迷是自1989年底日本停止购买印象派画家以来最严重的一次。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 4 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "24"
+            "qid": "24",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. auction houses’ favorites",
-          "html": "<p><strong>选项 A</strong>：<code>auction houses’ favorites</code></p>\n<p><strong>中文翻译</strong>：拍卖行的最爱</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>拍卖行的最爱</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "24",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. auction houses’ favorites",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>拍卖行的最爱</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>auction</code>, <code>houses</code>, <code>favorites</code>（“拍卖行的最爱”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.<br />目前艺术市场的低迷是自1989年底日本停止购买印象派画家以来最严重的一次。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. auction houses’ favorites",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>拍卖行的最爱</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>auction</code>, <code>houses</code>, <code>favorites</code>（“拍卖行的最爱”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.<br />目前艺术市场的低迷是自1989年底日本停止购买印象派画家以来最严重的一次。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>This time experts reckon that prices are about 40 % down on their peak on average, though some have been far more fluctuant.<br />专家估计，这一次价格比峰值平均下降了 40% 左右，尽管有些价格的波动要大得多。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. auction houses’ favorites",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>拍卖行的最爱</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>auction</code>, <code>houses</code>, <code>favorites</code>（“拍卖行的最爱”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.<br />目前艺术市场的低迷是自1989年底日本停止购买印象派画家以来最严重的一次。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>This time experts reckon that prices are about 40 % down on their peak on average, though some have been far more fluctuant.<br />专家估计，这一次价格比峰值平均下降了 40% 左右，尽管有些价格的波动要大得多。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. contemporary trends",
-          "html": "<p><strong>选项 B</strong>：<code>contemporary trends</code></p>\n<p><strong>中文翻译</strong>：当代趋势</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>当代趋势</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "24",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. contemporary trends",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>当代趋势</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>contemporary</code>, <code>trends</code>（“当代趋势”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.<br />目前艺术市场的低迷是自1989年底日本停止购买印象派画家以来最严重的一次。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>contemporary</code>, <code>trends</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. contemporary trends",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>当代趋势</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>contemporary</code>, <code>trends</code>（“当代趋势”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.<br />目前艺术市场的低迷是自1989年底日本停止购买印象派画家以来最严重的一次。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>contemporary</code>, <code>trends</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>This time experts reckon that prices are about 40 % down on their peak on average, though some have been far more fluctuant.<br />专家估计，这一次价格比峰值平均下降了 40% 左右，尽管有些价格的波动要大得多。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. contemporary trends",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>当代趋势</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>contemporary</code>, <code>trends</code>（“当代趋势”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.<br />目前艺术市场的低迷是自1989年底日本停止购买印象派画家以来最严重的一次。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>contemporary</code>, <code>trends</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>This time experts reckon that prices are about 40 % down on their peak on average, though some have been far more fluctuant.<br />专家估计，这一次价格比峰值平均下降了 40% 左右，尽管有些价格的波动要大得多。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. factors promoting artwork circulation",
-          "html": "<p><strong>选项 C</strong>：<code>factors promoting artwork circulation</code></p>\n<p><strong>中文翻译</strong>：促进艺术品流通的因素</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>促进艺术品流通的因素</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "24",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. factors promoting artwork circulation",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>促进艺术品流通的因素</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>factors</code>, <code>promoting</code>, <code>artwork</code>，其对应的中文含义为“<strong>促进艺术品流通的因素</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.<br />目前艺术市场的低迷是自1989年底日本停止购买印象派画家以来最严重的一次。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. factors promoting artwork circulation",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>促进艺术品流通的因素</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>factors</code>, <code>promoting</code>, <code>artwork</code>，其对应的中文含义为“<strong>促进艺术品流通的因素</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.<br />目前艺术市场的低迷是自1989年底日本停止购买印象派画家以来最严重的一次。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>This time experts reckon that prices are about 40 % down on their peak on average, though some have been far more fluctuant.<br />专家估计，这一次价格比峰值平均下降了 40% 左右，尽管有些价格的波动要大得多。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 C 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. factors promoting artwork circulation",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>促进艺术品流通的因素</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>factors</code>, <code>promoting</code>, <code>artwork</code>，其对应的中文含义为“<strong>促进艺术品流通的因素</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.<br />目前艺术市场的低迷是自1989年底日本停止购买印象派画家以来最严重的一次。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>This time experts reckon that prices are about 40 % down on their peak on average, though some have been far more fluctuant.<br />专家估计，这一次价格比峰值平均下降了 40% 左右，尽管有些价格的波动要大得多。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 C 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 C 选项（“促进艺术品流通的因素”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：C正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. styles representing Impressionists",
-          "html": "<p><strong>选项 D</strong>：<code>styles representing Impressionists</code></p>\n<p><strong>中文翻译</strong>：印象派代表风格</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>印象派代表风格</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "24",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. styles representing Impressionists",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>印象派代表风格</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>styles</code>, <code>representing</code>, <code>Impressionists</code>（“印象派代表风格”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.<br />目前艺术市场的低迷是自1989年底日本停止购买印象派画家以来最严重的一次。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>styles</code>, <code>representing</code>, <code>Impressionists</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. styles representing Impressionists",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>印象派代表风格</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>styles</code>, <code>representing</code>, <code>Impressionists</code>（“印象派代表风格”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.<br />目前艺术市场的低迷是自1989年底日本停止购买印象派画家以来最严重的一次。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>styles</code>, <code>representing</code>, <code>Impressionists</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>This time experts reckon that prices are about 40 % down on their peak on average, though some have been far more fluctuant.<br />专家估计，这一次价格比峰值平均下降了 40% 左右，尽管有些价格的波动要大得多。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. styles representing Impressionists",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>印象派代表风格</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>styles</code>, <code>representing</code>, <code>Impressionists</code>（“印象派代表风格”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.<br />目前艺术市场的低迷是自1989年底日本停止购买印象派画家以来最严重的一次。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>styles</code>, <code>representing</code>, <code>Impressionists</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>This time experts reckon that prices are about 40 % down on their peak on average, though some have been far more fluctuant.<br />专家估计，这一次价格比峰值平均下降了 40% 左右，尽管有些价格的波动要大得多。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "24题结论",
+          "html": "<blockquote>\n<p><strong>24. C. factors promoting artwork circulation</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>contemporary</code>,...；</li><li style=\"margin-bottom:6px\"><b>C</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>styles</code>, <code...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "25题 · 题干、题型与核心出处",
-          "html": "<p><strong>25. The most appropriate title for this text could be .</strong></p>\n<p>（本文最合适的标题可能是。）</p>\n<p><strong>题型判定</strong>：全文主旨题 ｜ <strong>定位出处</strong>：Paragraph 5</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>The most appropriate title for this text could be .<br />本文最合适的标题可能是。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>全文主旨题</strong>，考查考生对第 <strong>5</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 5 段核心定位句）</h3>\n<blockquote>\n<p>What makes this slump different from the last, he says, is that there are still buyers in the market.<br />他说，这次衰退与上次不同的是，市场上仍然有买家。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 5 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "25"
+            "qid": "25",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. Fluctuation of Art Prices",
-          "html": "<p><strong>选项 A</strong>：<code>Fluctuation of Art Prices</code></p>\n<p><strong>中文翻译</strong>：艺术品价格波动</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术品价格波动</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "25",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. Fluctuation of Art Prices",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术品价格波动</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>Fluctuation</code>, <code>Art</code>, <code>Prices</code>（“艺术品价格波动”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.<br />他说，这次衰退与上次不同的是，市场上仍然有买家。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. Fluctuation of Art Prices",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术品价格波动</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>Fluctuation</code>, <code>Art</code>, <code>Prices</code>（“艺术品价格波动”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.<br />他说，这次衰退与上次不同的是，市场上仍然有买家。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Almost everyone who was interviewed for this special report said that the biggest problem at the moment is not a lack of demand but a lack of good work to sell.<br />几乎所有接受本专题报道采访的人都表示，目前最大的问题不是缺乏需求，而是缺乏好作品可卖。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. Fluctuation of Art Prices",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术品价格波动</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>Fluctuation</code>, <code>Art</code>, <code>Prices</code>（“艺术品价格波动”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.<br />他说，这次衰退与上次不同的是，市场上仍然有买家。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Almost everyone who was interviewed for this special report said that the biggest problem at the moment is not a lack of demand but a lack of good work to sell.<br />几乎所有接受本专题报道采访的人都表示，目前最大的问题不是缺乏需求，而是缺乏好作品可卖。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. Up-to-Date Art Auctions",
-          "html": "<p><strong>选项 B</strong>：<code>Up-to-Date Art Auctions</code></p>\n<p><strong>中文翻译</strong>：最新的艺术品拍卖</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>最新的艺术品拍卖</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "25",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. Up-to-Date Art Auctions",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>最新的艺术品拍卖</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>Date</code>, <code>Art</code>, <code>Auctions</code>（“最新的艺术品拍卖”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.<br />他说，这次衰退与上次不同的是，市场上仍然有买家。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. Up-to-Date Art Auctions",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>最新的艺术品拍卖</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>Date</code>, <code>Art</code>, <code>Auctions</code>（“最新的艺术品拍卖”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.<br />他说，这次衰退与上次不同的是，市场上仍然有买家。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Almost everyone who was interviewed for this special report said that the biggest problem at the moment is not a lack of demand but a lack of good work to sell.<br />几乎所有接受本专题报道采访的人都表示，目前最大的问题不是缺乏需求，而是缺乏好作品可卖。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. Up-to-Date Art Auctions",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>最新的艺术品拍卖</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>Date</code>, <code>Art</code>, <code>Auctions</code>（“最新的艺术品拍卖”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.<br />他说，这次衰退与上次不同的是，市场上仍然有买家。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Almost everyone who was interviewed for this special report said that the biggest problem at the moment is not a lack of demand but a lack of good work to sell.<br />几乎所有接受本专题报道采访的人都表示，目前最大的问题不是缺乏需求，而是缺乏好作品可卖。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. Art Market in Decline",
-          "html": "<p><strong>选项 C</strong>：<code>Art Market in Decline</code></p>\n<p><strong>中文翻译</strong>：艺术市场衰退</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术市场衰退</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "25",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. Art Market in Decline",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术市场衰退</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>Art</code>, <code>Market</code>, <code>Decline</code>，其对应的中文含义为“<strong>艺术市场衰退</strong>”。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.<br />他说，这次衰退与上次不同的是，市场上仍然有买家。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. Art Market in Decline",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术市场衰退</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>Art</code>, <code>Market</code>, <code>Decline</code>，其对应的中文含义为“<strong>艺术市场衰退</strong>”。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.<br />他说，这次衰退与上次不同的是，市场上仍然有买家。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Almost everyone who was interviewed for this special report said that the biggest problem at the moment is not a lack of demand but a lack of good work to sell.<br />几乎所有接受本专题报道采访的人都表示，目前最大的问题不是缺乏需求，而是缺乏好作品可卖。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 C 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. Art Market in Decline",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>艺术市场衰退</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>Art</code>, <code>Market</code>, <code>Decline</code>，其对应的中文含义为“<strong>艺术市场衰退</strong>”。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.<br />他说，这次衰退与上次不同的是，市场上仍然有买家。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Almost everyone who was interviewed for this special report said that the biggest problem at the moment is not a lack of demand but a lack of good work to sell.<br />几乎所有接受本专题报道采访的人都表示，目前最大的问题不是缺乏需求，而是缺乏好作品可卖。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 C 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 C 选项（“艺术市场衰退”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：C正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. Shifted Interest in Arts",
-          "html": "<p><strong>选项 D</strong>：<code>Shifted Interest in Arts</code></p>\n<p><strong>中文翻译</strong>：对艺术的兴趣转移</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>对艺术的兴趣转移</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "25",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. Shifted Interest in Arts",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>对艺术的兴趣转移</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>Shifted</code>, <code>Interest</code>, <code>Arts</code>（“对艺术的兴趣转移”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.<br />他说，这次衰退与上次不同的是，市场上仍然有买家。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“对艺术的兴趣转移”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. Shifted Interest in Arts",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>对艺术的兴趣转移</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>Shifted</code>, <code>Interest</code>, <code>Arts</code>（“对艺术的兴趣转移”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.<br />他说，这次衰退与上次不同的是，市场上仍然有买家。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“对艺术的兴趣转移”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Almost everyone who was interviewed for this special report said that the biggest problem at the moment is not a lack of demand but a lack of good work to sell.<br />几乎所有接受本专题报道采访的人都表示，目前最大的问题不是缺乏需求，而是缺乏好作品可卖。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. Shifted Interest in Arts",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>对艺术的兴趣转移</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>Shifted</code>, <code>Interest</code>, <code>Arts</code>（“对艺术的兴趣转移”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>What makes this slump different from the last, he says, is that there are still buyers in the market.<br />他说，这次衰退与上次不同的是，市场上仍然有买家。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“对艺术的兴趣转移”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Almost everyone who was interviewed for this special report said that the biggest problem at the moment is not a lack of demand but a lack of good work to sell.<br />几乎所有接受本专题报道采访的人都表示，目前最大的问题不是缺乏需求，而是缺乏好作品可卖。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "25题结论",
+          "html": "<blockquote>\n<p><strong>25. C. Art Market in Decline</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>C</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“对艺术的兴趣转移”，但在原文定位句中，作者表达的态度或客观事...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "form": "conclusion"
           }
         },
         {
@@ -1952,8 +2687,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them. Throughout the evening, one man had been [particularly] talkative, frequently offering ideas and anecdotes, while his wife sat silently beside him on the couch. Toward the end of the evening, I commented that women frequently complain that their husbands don’t talk to them. This man quickly nodded in agreement. He gestured toward his wife and said, “She’s the talker in our family.” The room burst into laughter; the man looked puzzled and hurt. “It’s true,” he explained. “When I come home from work, I have nothing to say. If she didn’t keep the [conversation] going, we’d spend the whole evening in silence.”",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them. Throughout the evening, one man had been <span class=\"mask\">[particularly]</span> talkative, frequently offering ideas and anecdotes, while his wife sat silently beside him on the couch. Toward the end of the evening, I commented that women frequently complain that their husbands don’t talk to them. This man quickly nodded in agreement. He gestured toward his wife and said, “She’s the talker in our family.” The room burst into laughter; the man looked puzzled and hurt. “It’s true,” he explained. “When I come home from work, I have nothing to say. If she didn’t keep the <span class=\"mask\">[conversation]</span> going, we’d spend the whole evening in silence.”</p></div></div>",
+          "raw": "I was [addressing] a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them. [Throughout] the evening, one man had been [particularly] talkative, frequently offering ideas and [anecdotes], while his wife sat silently beside him on the couch. Toward the end of the evening, I commented that women frequently complain that their husbands don’t talk to them. This man quickly nodded in agreement. He gestured toward his wife and said, “She’s the talker in our family.” The room burst into laughter; the man looked puzzled and hurt. “It’s true,” he explained. “When I come home from work, I have nothing to say. If she didn’t keep the [conversation] going, we’d spend the whole evening in silence.”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>I was <span class=\"mask\">[addressing]</span> a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them. <span class=\"mask\">[Throughout]</span> the evening, one man had been <span class=\"mask\">[particularly]</span> talkative, frequently offering ideas and <span class=\"mask\">[anecdotes]</span>, while his wife sat silently beside him on the couch. Toward the end of the evening, I commented that women frequently complain that their husbands don’t talk to them. This man quickly nodded in agreement. He gestured toward his wife and said, “She’s the talker in our family.” The room burst into laughter; the man looked puzzled and hurt. “It’s true,” he explained. “When I come home from work, I have nothing to say. If she didn’t keep the <span class=\"mask\">[conversation]</span> going, we’d spend the whole evening in silence.”</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 0,
@@ -1962,8 +2697,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "I was addressing a small gathering in a suburban Virginia living room—a women’s group / that had invited men to join them. / Throughout the evening, / one man had been [particularly] talkative, / frequently offering ideas and anecdotes, / / while his wife sat silently beside him on the couch. / Toward the end of the evening, / I commented / that women frequently complain / that their husbands don’t talk to them. / This man quickly nodded in agreement. / He gestured toward his wife and said, / “She’s the talker in our family.” The room burst into laughter; / the man looked puzzled and hurt. “It’s true,” he explained. “When I come home from work, / I have nothing to say. / If she didn’t keep the [conversation] going, / we’d spend the whole evening in silence.”",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group / that had invited men to join them. / Throughout the evening, / one man had been <span class=\"mask\">[particularly]</span> talkative, / frequently offering ideas and anecdotes, / / while his wife sat silently beside him on the couch. / Toward the end of the evening, / I commented / that women frequently complain / that their husbands don’t talk to them. / This man quickly nodded in agreement. / He gestured toward his wife and said, / “She’s the talker in our family.” The room burst into laughter; / the man looked puzzled and hurt. “It’s true,” he explained. “When I come home from work, / I have nothing to say. / If she didn’t keep the <span class=\"mask\">[conversation]</span> going, / we’d spend the whole evening in silence.”</p></div></div>",
+          "raw": "I was [addressing] a small gathering in a suburban Virginia living room—a women’s group / that had invited men to join them. [Throughout] the evening, / one man had been [particularly] talkative, / frequently offering ideas and [anecdotes], / / while his wife sat silently beside him on the couch. / Toward the end of the evening, / I commented / that women frequently complain / that their husbands don’t talk to them. / This man quickly nodded in agreement. / He gestured toward his wife and said, / “She’s the talker in our family.” The room burst into laughter; / the man looked puzzled and hurt. “It’s true,” he explained. “When I come home from work, / I have nothing to say. / If she didn’t keep the [conversation] going, / we’d spend the whole evening in silence.”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>I was <span class=\"mask\">[addressing]</span> a small gathering in a suburban Virginia living room—a women’s group / that had invited men to join them. <span class=\"mask\">[Throughout]</span> the evening, / one man had been <span class=\"mask\">[particularly]</span> talkative, / frequently offering ideas and <span class=\"mask\">[anecdotes]</span>, / / while his wife sat silently beside him on the couch. / Toward the end of the evening, / I commented / that women frequently complain / that their husbands don’t talk to them. / This man quickly nodded in agreement. / He gestured toward his wife and said, / “She’s the talker in our family.” The room burst into laughter; / the man looked puzzled and hurt. “It’s true,” he explained. “When I come home from work, / I have nothing to say. / If she didn’t keep the <span class=\"mask\">[conversation]</span> going, / we’d spend the whole evening in silence.”</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 0,
@@ -1992,8 +2727,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "This episode [crystallizes] the irony that although American men tend to talk more than women in public [situations], they often talk less at home. And this pattern is wreaking havoc with marriage.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>This episode <span class=\"mask\">[crystallizes]</span> the irony that although American men tend to talk more than women in public <span class=\"mask\">[situations]</span>, they often talk less at home. And this pattern is wreaking havoc with marriage.</p></div></div>",
+          "raw": "This episode [crystallizes] the irony that although American men tend to talk more than women in public situations, they often talk less at home. And this pattern is wreaking havoc with marriage.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>This episode <span class=\"mask\">[crystallizes]</span> the irony that although American men tend to talk more than women in public situations, they often talk less at home. And this pattern is wreaking havoc with marriage.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 1,
@@ -2002,8 +2737,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "This episode [crystallizes] the irony / that although American men tend to talk more than women in public [situations], / they often talk less at home. / And this pattern is wreaking havoc with marriage.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>This episode <span class=\"mask\">[crystallizes]</span> the irony / that although American men tend to talk more than women in public <span class=\"mask\">[situations]</span>, / they often talk less at home. / And this pattern is wreaking havoc with marriage.</p></div></div>",
+          "raw": "This episode [crystallizes] the irony / that although American men tend to talk more than women in public situations, / they often talk less at home. / And this pattern is wreaking havoc with marriage.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>This episode <span class=\"mask\">[crystallizes]</span> the irony / that although American men tend to talk more than women in public situations, / they often talk less at home. / And this pattern is wreaking havoc with marriage.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 1,
@@ -2072,8 +2807,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of [communication] as the reason for their divorces. Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year—a virtual epidemic of failed [conversation]. In my own research, complaints from women about their husbands most often focused not on tangible [inequities] such as having given up the chance for a career to accompany a husband to his, or doing far more than their share of daily life-support work like cleaning, cooking and social [arrangements]. Instead, they focused on [communication:] “He doesn’t listen to me.” “He doesn’t talk to me.” I found, as Hacker observed years before, that most wives want their husbands to be, first and foremost, [conversational] partners, but few husbands share this expectation of their wives.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of <span class=\"mask\">[communication]</span> as the reason for their divorces. Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year—a virtual epidemic of failed <span class=\"mask\">[conversation]</span>. In my own research, complaints from women about their husbands most often focused not on tangible <span class=\"mask\">[inequities]</span> such as having given up the chance for a career to accompany a husband to his, or doing far more than their share of daily life-support work like cleaning, cooking and social <span class=\"mask\">[arrangements]</span>. Instead, they focused on <span class=\"mask\">[communication:]</span> “He doesn’t listen to me.” “He doesn’t talk to me.” I found, as Hacker observed years before, that most wives want their husbands to be, first and foremost, <span class=\"mask\">[conversational]</span> partners, but few husbands share this expectation of their wives.</p></div></div>",
+          "raw": "Sociologist [Catherine] Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of [communication] as the reason for their divorces. Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year—a virtual epidemic of failed [conversation]. In my own research, complaints from women about their husbands most often focused not on tangible inequities such as having given up the chance for a career to accompany a husband to his, or doing far more than their share of daily life-support work like cleaning, cooking and social [arrangements]. Instead, they focused on [communication:] “He doesn’t listen to me.” “He doesn’t talk to me.” I found, as Hacker observed years before, that most wives want their husbands to be, first and foremost, [conversational] partners, but few husbands share this expectation of their wives.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Sociologist <span class=\"mask\">[Catherine]</span> Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of <span class=\"mask\">[communication]</span> as the reason for their divorces. Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year—a virtual epidemic of failed <span class=\"mask\">[conversation]</span>. In my own research, complaints from women about their husbands most often focused not on tangible inequities such as having given up the chance for a career to accompany a husband to his, or doing far more than their share of daily life-support work like cleaning, cooking and social <span class=\"mask\">[arrangements]</span>. Instead, they focused on <span class=\"mask\">[communication:]</span> “He doesn’t listen to me.” “He doesn’t talk to me.” I found, as Hacker observed years before, that most wives want their husbands to be, first and foremost, <span class=\"mask\">[conversational]</span> partners, but few husbands share this expectation of their wives.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 3,
@@ -2082,8 +2817,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk / that most of the women she interviewed—but only a few of the men—gave lack of [communication] as the reason for their divorces. / Given the current divorce rate of nearly 50 percent, / / that amounts to millions of cases in the United States every year—a virtual epidemic of failed [conversation]. / In my own research, / complaints from women about their husbands most often focused not on tangible [inequities] such as having given up the chance for a career to accompany a husband to his, / or doing far more than their share of daily life-support work like cleaning, / cooking and social [arrangements]. / Instead, / they focused on [communication:] “He doesn’t listen to me.” “He doesn’t talk to me.” I found, / as Hacker observed years before, / / that most wives want their husbands to be, / first and foremost, / [conversational] partners, / but few husbands share this expectation of their wives.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk / that most of the women she interviewed—but only a few of the men—gave lack of <span class=\"mask\">[communication]</span> as the reason for their divorces. / Given the current divorce rate of nearly 50 percent, / / that amounts to millions of cases in the United States every year—a virtual epidemic of failed <span class=\"mask\">[conversation]</span>. / In my own research, / complaints from women about their husbands most often focused not on tangible <span class=\"mask\">[inequities]</span> such as having given up the chance for a career to accompany a husband to his, / or doing far more than their share of daily life-support work like cleaning, / cooking and social <span class=\"mask\">[arrangements]</span>. / Instead, / they focused on <span class=\"mask\">[communication:]</span> “He doesn’t listen to me.” “He doesn’t talk to me.” I found, / as Hacker observed years before, / / that most wives want their husbands to be, / first and foremost, / <span class=\"mask\">[conversational]</span> partners, / but few husbands share this expectation of their wives.</p></div></div>",
+          "raw": "Sociologist [Catherine] Kohler Riessman reports in her new book Divorce Talk / that most of the women she interviewed—but only a few of the men—gave lack of [communication] as the reason for their divorces. / Given the current divorce rate of nearly 50 percent, / / that amounts to millions of cases in the United States every year—a virtual epidemic of failed [conversation]. / In my own research, / complaints from women about their husbands most often focused not on tangible inequities such as having given up the chance for a career to accompany a husband to his, / or doing far more than their share of daily life-support work like cleaning, / cooking and social [arrangements]. / Instead, / they focused on [communication:] “He doesn’t listen to me.” “He doesn’t talk to me.” I found, / as Hacker observed years before, / / that most wives want their husbands to be, / first and foremost, / [conversational] partners, / but few husbands share this expectation of their wives.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Sociologist <span class=\"mask\">[Catherine]</span> Kohler Riessman reports in her new book Divorce Talk / that most of the women she interviewed—but only a few of the men—gave lack of <span class=\"mask\">[communication]</span> as the reason for their divorces. / Given the current divorce rate of nearly 50 percent, / / that amounts to millions of cases in the United States every year—a virtual epidemic of failed <span class=\"mask\">[conversation]</span>. / In my own research, / complaints from women about their husbands most often focused not on tangible inequities such as having given up the chance for a career to accompany a husband to his, / or doing far more than their share of daily life-support work like cleaning, / cooking and social <span class=\"mask\">[arrangements]</span>. / Instead, / they focused on <span class=\"mask\">[communication:]</span> “He doesn’t listen to me.” “He doesn’t talk to me.” I found, / as Hacker observed years before, / / that most wives want their husbands to be, / first and foremost, / <span class=\"mask\">[conversational]</span> partners, / but few husbands share this expectation of their wives.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 3,
@@ -2112,8 +2847,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "In short, the image that best represents the current crisis is the [stereotypical] cartoon scene of a man sitting at the [breakfast] table with a [newspaper] held up in front of his face, while a woman glares at the back of it, wanting to talk.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>In short, the image that best represents the current crisis is the <span class=\"mask\">[stereotypical]</span> cartoon scene of a man sitting at the <span class=\"mask\">[breakfast]</span> table with a <span class=\"mask\">[newspaper]</span> held up in front of his face, while a woman glares at the back of it, wanting to talk.</p></div></div>",
+          "raw": "In short, the image that best [represents] the current crisis is the [stereotypical] cartoon scene of a man sitting at the breakfast table with a [newspaper] held up in front of his face, while a woman glares at the back of it, wanting to talk.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>In short, the image that best <span class=\"mask\">[represents]</span> the current crisis is the <span class=\"mask\">[stereotypical]</span> cartoon scene of a man sitting at the breakfast table with a <span class=\"mask\">[newspaper]</span> held up in front of his face, while a woman glares at the back of it, wanting to talk.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 4,
@@ -2122,8 +2857,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "In short, / the image / that best represents the current crisis is the [stereotypical] cartoon scene of a man sitting at the [breakfast] table with a [newspaper] held up in front of his face, / / while a woman glares at the back of it, / wanting to talk.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>In short, / the image / that best represents the current crisis is the <span class=\"mask\">[stereotypical]</span> cartoon scene of a man sitting at the <span class=\"mask\">[breakfast]</span> table with a <span class=\"mask\">[newspaper]</span> held up in front of his face, / / while a woman glares at the back of it, / wanting to talk.</p></div></div>",
+          "raw": "In short, / the image / that best [represents] the current crisis is the [stereotypical] cartoon scene of a man sitting at the breakfast table with a [newspaper] held up in front of his face, / / while a woman glares at the back of it, / wanting to talk.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>In short, / the image / that best <span class=\"mask\">[represents]</span> the current crisis is the <span class=\"mask\">[stereotypical]</span> cartoon scene of a man sitting at the breakfast table with a <span class=\"mask\">[newspaper]</span> held up in front of his face, / / while a woman glares at the back of it, / wanting to talk.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 4,
@@ -2158,8 +2893,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "26题",
-          "raw": "## 26题\n\n**What is most wives’ main expectation of their husbands?**\n\n> 大多数妻子对丈夫的主要期望是什么？\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them. Throughout the evening, one man had been [particularly] talkative, frequently offering ideas and anecdotes, while his wife sat silently beside him on the couch. Toward the end of the evening, I commented that women frequently complain that their husbands don’t talk to them. This man quickly nodded in agreement. He gestured toward his wife and said, “She’s the talker in our family.” The room burst into laughter; the man looked puzzled and hurt. “It’s true,” he explained. “When I come home from work, I have nothing to say. If she didn’t keep the [conversation] going, we’d spend the whole evening in silence.”\n>\n> 开始精读：\n>\n> I was addressing a small gathering in a suburban Virginia living room—a women’s group / that had invited men to join them. / Throughout the evening, / one man had been [particularly] talkative, / frequently offering ideas and anecdotes, / / while his wife sat silently beside him on the couch. / Toward the end of the evening, / I commented / that women frequently complain / that their husbands don’t talk to them. / This man quickly nodded in agreement. / He gestured toward his wife and said, / “She’s the talker in our family.” The room burst into laughter; / the man looked puzzled and hurt. “It’s true,” he explained. “When I come home from work, / I have nothing to say. / If she didn’t keep the [conversation] going, / we’d spend the whole evening in silence.”\n>\n> 逐意群顺译：\n>\n> 我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。整个晚上，一名男子特别健谈，经常提出想法和轶事，而他的妻子则默默地坐在他旁边的沙发上。晚上快结束时，我评论说，女性经常抱怨她们的丈夫不和她们说话。这人连忙点头答应。他指着他的妻子说：“她是我们家里最健谈的人。”房间里爆发出一阵笑声。那人看上去既困惑又受伤。 “这是真的，”他解释道。 “当我下班回家时，我无话可说。如果她不继续谈话，我们整个晚上都会保持沉默。”\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>26题</h2>\n<p><strong>What is most wives’ main expectation of their husbands?</strong></p>\n<blockquote><p>大多数妻子对丈夫的主要期望是什么？</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them. Throughout the evening, one man had been <span class=\"mask\">[particularly]</span> talkative, frequently offering ideas and anecdotes, while his wife sat silently beside him on the couch. Toward the end of the evening, I commented that women frequently complain that their husbands don’t talk to them. This man quickly nodded in agreement. He gestured toward his wife and said, “She’s the talker in our family.” The room burst into laughter; the man looked puzzled and hurt. “It’s true,” he explained. “When I come home from work, I have nothing to say. If she didn’t keep the <span class=\"mask\">[conversation]</span> going, we’d spend the whole evening in silence.”</p>\n<p><strong>开始精读：</strong></p>\n<p>I was addressing a small gathering in a suburban Virginia living room—a women’s group / that had invited men to join them. / Throughout the evening, / one man had been <span class=\"mask\">[particularly]</span> talkative, / frequently offering ideas and anecdotes, / / while his wife sat silently beside him on the couch. / Toward the end of the evening, / I commented / that women frequently complain / that their husbands don’t talk to them. / This man quickly nodded in agreement. / He gestured toward his wife and said, / “She’s the talker in our family.” The room burst into laughter; / the man looked puzzled and hurt. “It’s true,” he explained. “When I come home from work, / I have nothing to say. / If she didn’t keep the <span class=\"mask\">[conversation]</span> going, / we’d spend the whole evening in silence.”</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。整个晚上，一名男子特别健谈，经常提出想法和轶事，而他的妻子则默默地坐在他旁边的沙发上。晚上快结束时，我评论说，女性经常抱怨她们的丈夫不和她们说话。这人连忙点头答应。他指着他的妻子说：“她是我们家里最健谈的人。”房间里爆发出一阵笑声。那人看上去既困惑又受伤。 “这是真的，”他解释道。 “当我下班回家时，我无话可说。如果她不继续谈话，我们整个晚上都会保持沉默。”</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 26题\n\n**What is most wives’ main expectation of their husbands?**\n\n> 大多数妻子对丈夫的主要期望是什么？\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> I was [addressing] a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them. [Throughout] the evening, one man had been [particularly] talkative, frequently offering ideas and [anecdotes], while his wife sat silently beside him on the couch. Toward the end of the evening, I commented that women frequently complain that their husbands don’t talk to them. This man quickly nodded in agreement. He gestured toward his wife and said, “She’s the talker in our family.” The room burst into laughter; the man looked puzzled and hurt. “It’s true,” he explained. “When I come home from work, I have nothing to say. If she didn’t keep the [conversation] going, we’d spend the whole evening in silence.”\n>\n> 开始精读：\n>\n> I was [addressing] a small gathering in a suburban Virginia living room—a women’s group / that had invited men to join them. [Throughout] the evening, / one man had been [particularly] talkative, / frequently offering ideas and [anecdotes], / / while his wife sat silently beside him on the couch. / Toward the end of the evening, / I commented / that women frequently complain / that their husbands don’t talk to them. / This man quickly nodded in agreement. / He gestured toward his wife and said, / “She’s the talker in our family.” The room burst into laughter; / the man looked puzzled and hurt. “It’s true,” he explained. “When I come home from work, / I have nothing to say. / If she didn’t keep the [conversation] going, / we’d spend the whole evening in silence.”\n>\n> 逐意群顺译：\n>\n> 我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。整个晚上，一名男子特别健谈，经常提出想法和轶事，而他的妻子则默默地坐在他旁边的沙发上。晚上快结束时，我评论说，女性经常抱怨她们的丈夫不和她们说话。这人连忙点头答应。他指着他的妻子说：“她是我们家里最健谈的人。”房间里爆发出一阵笑声。那人看上去既困惑又受伤。 “这是真的，”他解释道。 “当我下班回家时，我无话可说。如果她不继续谈话，我们整个晚上都会保持沉默。”\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>26题</h2>\n<p><strong>What is most wives’ main expectation of their husbands?</strong></p>\n<blockquote><p>大多数妻子对丈夫的主要期望是什么？</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>I was <span class=\"mask\">[addressing]</span> a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them. <span class=\"mask\">[Throughout]</span> the evening, one man had been <span class=\"mask\">[particularly]</span> talkative, frequently offering ideas and <span class=\"mask\">[anecdotes]</span>, while his wife sat silently beside him on the couch. Toward the end of the evening, I commented that women frequently complain that their husbands don’t talk to them. This man quickly nodded in agreement. He gestured toward his wife and said, “She’s the talker in our family.” The room burst into laughter; the man looked puzzled and hurt. “It’s true,” he explained. “When I come home from work, I have nothing to say. If she didn’t keep the <span class=\"mask\">[conversation]</span> going, we’d spend the whole evening in silence.”</p>\n<p><strong>开始精读：</strong></p>\n<p>I was <span class=\"mask\">[addressing]</span> a small gathering in a suburban Virginia living room—a women’s group / that had invited men to join them. <span class=\"mask\">[Throughout]</span> the evening, / one man had been <span class=\"mask\">[particularly]</span> talkative, / frequently offering ideas and <span class=\"mask\">[anecdotes]</span>, / / while his wife sat silently beside him on the couch. / Toward the end of the evening, / I commented / that women frequently complain / that their husbands don’t talk to them. / This man quickly nodded in agreement. / He gestured toward his wife and said, / “She’s the talker in our family.” The room burst into laughter; / the man looked puzzled and hurt. “It’s true,” he explained. “When I come home from work, / I have nothing to say. / If she didn’t keep the <span class=\"mask\">[conversation]</span> going, / we’d spend the whole evening in silence.”</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。整个晚上，一名男子特别健谈，经常提出想法和轶事，而他的妻子则默默地坐在他旁边的沙发上。晚上快结束时，我评论说，女性经常抱怨她们的丈夫不和她们说话。这人连忙点头答应。他指着他的妻子说：“她是我们家里最健谈的人。”房间里爆发出一阵笑声。那人看上去既困惑又受伤。 “这是真的，”他解释道。 “当我下班回家时，我无话可说。如果她不继续谈话，我们整个晚上都会保持沉默。”</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "26"
@@ -2177,8 +2912,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "26题",
-          "raw": "### B. Trusting them.\n\n> 信任他们。\n\n我们先看 B 选项：`Trusting them.`（信任他们。）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：大多数妻子对丈夫的主要期望是什么？ ➔ 选项认为：信任他们。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“信任他们。”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. Trusting them.</h3>\n<blockquote><p>信任他们。</p></blockquote>\n<p>我们先看 B 选项：<code>Trusting them.</code>（信任他们。）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：大多数妻子对丈夫的主要期望是什么？ ➔ 选项认为：信任他们。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“信任他们。”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. Trusting them.\n\n> 信任他们。\n\n我们先看 B 选项：`Trusting them.`（信任他们。）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：大多数妻子对丈夫的主要期望是什么？ ➔ 选项认为：信任他们。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `Trusting`, `them` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. Trusting them.</h3>\n<blockquote><p>信任他们。</p></blockquote>\n<p>我们先看 B 选项：<code>Trusting them.</code>（信任他们。）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：大多数妻子对丈夫的主要期望是什么？ ➔ 选项认为：信任他们。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>Trusting</code>, <code>them</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "26",
@@ -2187,8 +2922,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "26题",
-          "raw": "### C. Supporting their careers.\n\n> 支持他们的职业生涯。\n\n我们先看 C 选项：`Supporting their careers.`（支持他们的职业生涯。）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：大多数妻子对丈夫的主要期望是什么？ ➔ 选项认为：支持他们的职业生涯。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“支持他们的职业生涯。”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
-          "html": "<h3>C. Supporting their careers.</h3>\n<blockquote><p>支持他们的职业生涯。</p></blockquote>\n<p>我们先看 C 选项：<code>Supporting their careers.</code>（支持他们的职业生涯。）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：大多数妻子对丈夫的主要期望是什么？ ➔ 选项认为：支持他们的职业生涯。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“支持他们的职业生涯。”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "raw": "### C. Supporting their careers.\n\n> 支持他们的职业生涯。\n\n我们先看 C 选项：`Supporting their careers.`（支持他们的职业生涯。）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：大多数妻子对丈夫的主要期望是什么？ ➔ 选项认为：支持他们的职业生涯。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“支持他们的职业生涯。”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. Supporting their careers.</h3>\n<blockquote><p>支持他们的职业生涯。</p></blockquote>\n<p>我们先看 C 选项：<code>Supporting their careers.</code>（支持他们的职业生涯。）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：大多数妻子对丈夫的主要期望是什么？ ➔ 选项认为：支持他们的职业生涯。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“支持他们的职业生涯。”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "26",
@@ -2197,8 +2932,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "26题",
-          "raw": "### D. Sharing housework.\n\n> 分担家务。\n\n我们先看 D 选项：`Sharing housework.`（分担家务。）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：大多数妻子对丈夫的主要期望是什么？ ➔ 选项认为：分担家务。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“分担家务。”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. Sharing housework.</h3>\n<blockquote><p>分担家务。</p></blockquote>\n<p>我们先看 D 选项：<code>Sharing housework.</code>（分担家务。）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：大多数妻子对丈夫的主要期望是什么？ ➔ 选项认为：分担家务。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“分担家务。”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. Sharing housework.\n\n> 分担家务。\n\n我们先看 D 选项：`Sharing housework.`（分担家务。）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：大多数妻子对丈夫的主要期望是什么？ ➔ 选项认为：分担家务。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“分担家务。”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. Sharing housework.</h3>\n<blockquote><p>分担家务。</p></blockquote>\n<p>我们先看 D 选项：<code>Sharing housework.</code>（分担家务。）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：大多数妻子对丈夫的主要期望是什么？ ➔ 选项认为：分担家务。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“分担家务。”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "26",
@@ -2216,8 +2951,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "27题",
-          "raw": "## 27题\n\n**Judging from the context, the phrase “wreaking havoc” (Paragraph 2) most probably \nmeans .**\n\n> Judging from the context, the phrase “wreaking havoc” (Paragraph 2) most probably \nmeans .\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> This episode [crystallizes] the irony that although American men tend to talk more than women in public [situations], they often talk less at home. And this pattern is wreaking havoc with marriage.\n>\n> 开始精读：\n>\n> This episode [crystallizes] the irony / that although American men tend to talk more than women in public [situations], / they often talk less at home. / And this pattern is wreaking havoc with marriage.\n>\n> 逐意群顺译：\n>\n> 这一集体现了一个讽刺之处：尽管美国男性在公共场合比女性说话更多，但在家里却往往说话更少。这种模式正在对婚姻造成严重破坏。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>27题</h2>\n<p><strong>Judging from the context, the phrase “wreaking havoc” (Paragraph 2) most probably \nmeans .</strong></p>\n<blockquote><p>Judging from the context, the phrase “wreaking havoc” (Paragraph 2) most probably \nmeans .</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>This episode <span class=\"mask\">[crystallizes]</span> the irony that although American men tend to talk more than women in public <span class=\"mask\">[situations]</span>, they often talk less at home. And this pattern is wreaking havoc with marriage.</p>\n<p><strong>开始精读：</strong></p>\n<p>This episode <span class=\"mask\">[crystallizes]</span> the irony / that although American men tend to talk more than women in public <span class=\"mask\">[situations]</span>, / they often talk less at home. / And this pattern is wreaking havoc with marriage.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>这一集体现了一个讽刺之处：尽管美国男性在公共场合比女性说话更多，但在家里却往往说话更少。这种模式正在对婚姻造成严重破坏。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 27题\n\n**Judging from the context, the phrase “wreaking havoc” (Paragraph 2) most probably \nmeans .**\n\n> Judging from the context, the phrase “wreaking havoc” (Paragraph 2) most probably \nmeans .\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> This episode [crystallizes] the irony that although American men tend to talk more than women in public situations, they often talk less at home. And this pattern is wreaking havoc with marriage.\n>\n> 开始精读：\n>\n> This episode [crystallizes] the irony / that although American men tend to talk more than women in public situations, / they often talk less at home. / And this pattern is wreaking havoc with marriage.\n>\n> 逐意群顺译：\n>\n> 这一集体现了一个讽刺之处：尽管美国男性在公共场合比女性说话更多，但在家里却往往说话更少。这种模式正在对婚姻造成严重破坏。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>27题</h2>\n<p><strong>Judging from the context, the phrase “wreaking havoc” (Paragraph 2) most probably \nmeans .</strong></p>\n<blockquote><p>Judging from the context, the phrase “wreaking havoc” (Paragraph 2) most probably \nmeans .</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>This episode <span class=\"mask\">[crystallizes]</span> the irony that although American men tend to talk more than women in public situations, they often talk less at home. And this pattern is wreaking havoc with marriage.</p>\n<p><strong>开始精读：</strong></p>\n<p>This episode <span class=\"mask\">[crystallizes]</span> the irony / that although American men tend to talk more than women in public situations, / they often talk less at home. / And this pattern is wreaking havoc with marriage.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>这一集体现了一个讽刺之处：尽管美国男性在公共场合比女性说话更多，但在家里却往往说话更少。这种模式正在对婚姻造成严重破坏。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "27"
@@ -2235,8 +2970,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "27题",
-          "raw": "### B. exerting influence\n\n> 施加影响\n\n我们先看 B 选项：`exerting influence`（施加影响）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Judging from the context, the phrase “wreaking havoc” (Paragraph 2) most probably \nmeans . ➔ 选项认为：施加影响\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“施加影响”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. exerting influence</h3>\n<blockquote><p>施加影响</p></blockquote>\n<p>我们先看 B 选项：<code>exerting influence</code>（施加影响）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Judging from the context, the phrase “wreaking havoc” (Paragraph 2) most probably<br />means . ➔ 选项认为：施加影响</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“施加影响”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. exerting influence\n\n> 施加影响\n\n我们先看 B 选项：`exerting influence`（施加影响）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Judging from the context, the phrase “wreaking havoc” (Paragraph 2) most probably \nmeans . ➔ 选项认为：施加影响\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“施加影响”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. exerting influence</h3>\n<blockquote><p>施加影响</p></blockquote>\n<p>我们先看 B 选项：<code>exerting influence</code>（施加影响）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Judging from the context, the phrase “wreaking havoc” (Paragraph 2) most probably<br />means . ➔ 选项认为：施加影响</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“施加影响”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "27",
@@ -2255,8 +2990,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "27题",
-          "raw": "### D. creating pressure\n\n> 制造压力\n\n我们先看 D 选项：`creating pressure`（制造压力）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Judging from the context, the phrase “wreaking havoc” (Paragraph 2) most probably \nmeans . ➔ 选项认为：制造压力\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“制造压力”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. creating pressure</h3>\n<blockquote><p>制造压力</p></blockquote>\n<p>我们先看 D 选项：<code>creating pressure</code>（制造压力）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Judging from the context, the phrase “wreaking havoc” (Paragraph 2) most probably<br />means . ➔ 选项认为：制造压力</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“制造压力”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. creating pressure\n\n> 制造压力\n\n我们先看 D 选项：`creating pressure`（制造压力）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Judging from the context, the phrase “wreaking havoc” (Paragraph 2) most probably \nmeans . ➔ 选项认为：制造压力\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“制造压力”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. creating pressure</h3>\n<blockquote><p>制造压力</p></blockquote>\n<p>我们先看 D 选项：<code>creating pressure</code>（制造压力）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Judging from the context, the phrase “wreaking havoc” (Paragraph 2) most probably<br />means . ➔ 选项认为：制造压力</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“制造压力”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "27",
@@ -2313,8 +3048,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "28题",
-          "raw": "### D. a female tends to be more talkative at home than her spouse\n\n> 女性在家里往往比她的配偶更健谈\n\n我们先看 D 选项：`a female tends to be more talkative at home than her spouse`（女性在家里往往比她的配偶更健谈）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下所有内容均正确，除了 . ➔ 选项认为：女性在家里往往比她的配偶更健谈\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“女性在家里往往比她的配偶更健谈”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. a female tends to be more talkative at home than her spouse</h3>\n<blockquote><p>女性在家里往往比她的配偶更健谈</p></blockquote>\n<p>我们先看 D 选项：<code>a female tends to be more talkative at home than her spouse</code>（女性在家里往往比她的配偶更健谈）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下所有内容均正确，除了 . ➔ 选项认为：女性在家里往往比她的配偶更健谈</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“女性在家里往往比她的配偶更健谈”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. a female tends to be more talkative at home than her spouse\n\n> 女性在家里往往比她的配偶更健谈\n\n我们先看 D 选项：`a female tends to be more talkative at home than her spouse`（女性在家里往往比她的配偶更健谈）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下所有内容均正确，除了 . ➔ 选项认为：女性在家里往往比她的配偶更健谈\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“女性在家里往往比她的配偶更健谈”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. a female tends to be more talkative at home than her spouse</h3>\n<blockquote><p>女性在家里往往比她的配偶更健谈</p></blockquote>\n<p>我们先看 D 选项：<code>a female tends to be more talkative at home than her spouse</code>（女性在家里往往比她的配偶更健谈）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下所有内容均正确，除了 . ➔ 选项认为：女性在家里往往比她的配偶更健谈</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“女性在家里往往比她的配偶更健谈”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "28",
@@ -2332,8 +3067,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "29题",
-          "raw": "## 29题\n\n**Which of the following can best summarize the main idea of this text?**\n\n> 以下哪一项最能概括本文的主要思想？\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of [communication] as the reason for their divorces. Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year—a virtual epidemic of failed [conversation]. In my own research, complaints from women about their husbands most often focused not on tangible [inequities] such as having given up the chance for a career to accompany a husband to his, or doing far more than their share of daily life-support work like cleaning, cooking and social [arrangements]. Instead, they focused on [communication:] “He doesn’t listen to me.” “He doesn’t talk to me.” I found, as Hacker observed years before, that most wives want their husbands to be, first and foremost, [conversational] partners, but few husbands share this expectation of their wives.\n>\n> 开始精读：\n>\n> Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk / that most of the women she interviewed—but only a few of the men—gave lack of [communication] as the reason for their divorces. / Given the current divorce rate of nearly 50 percent, / / that amounts to millions of cases in the United States every year—a virtual epidemic of failed [conversation]. / In my own research, / complaints from women about their husbands most often focused not on tangible [inequities] such as having given up the chance for a career to accompany a husband to his, / or doing far more than their share of daily life-support work like cleaning, / cooking and social [arrangements]. / Instead, / they focused on [communication:] “He doesn’t listen to me.” “He doesn’t talk to me.” I found, / as Hacker observed years before, / / that most wives want their husbands to be, / first and foremost, / [conversational] partners, / but few husbands share this expectation of their wives.\n>\n> 逐意群顺译：\n>\n> 社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。鉴于目前近 50% 的离婚率，美国每年的离婚率达到数百万起——几乎是失败对话的流行病。在我自己的研究中，女性对丈夫的抱怨往往不是集中在有形的不平等上，比如放弃了陪伴丈夫的职业机会，或者做的远远超过了她们承担的日常生活支持工作，如清洁、烹饪和社交安排。相反，他们专注于沟通：“他不听我的。” “他不跟我说话。”我发现，正如哈克多年前所观察到的那样，大多数妻子希望她们的丈夫首先成为谈话伙伴，但很少有丈夫对妻子抱有这样的期望。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>29题</h2>\n<p><strong>Which of the following can best summarize the main idea of this text?</strong></p>\n<blockquote><p>以下哪一项最能概括本文的主要思想？</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of <span class=\"mask\">[communication]</span> as the reason for their divorces. Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year—a virtual epidemic of failed <span class=\"mask\">[conversation]</span>. In my own research, complaints from women about their husbands most often focused not on tangible <span class=\"mask\">[inequities]</span> such as having given up the chance for a career to accompany a husband to his, or doing far more than their share of daily life-support work like cleaning, cooking and social <span class=\"mask\">[arrangements]</span>. Instead, they focused on <span class=\"mask\">[communication:]</span> “He doesn’t listen to me.” “He doesn’t talk to me.” I found, as Hacker observed years before, that most wives want their husbands to be, first and foremost, <span class=\"mask\">[conversational]</span> partners, but few husbands share this expectation of their wives.</p>\n<p><strong>开始精读：</strong></p>\n<p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk / that most of the women she interviewed—but only a few of the men—gave lack of <span class=\"mask\">[communication]</span> as the reason for their divorces. / Given the current divorce rate of nearly 50 percent, / / that amounts to millions of cases in the United States every year—a virtual epidemic of failed <span class=\"mask\">[conversation]</span>. / In my own research, / complaints from women about their husbands most often focused not on tangible <span class=\"mask\">[inequities]</span> such as having given up the chance for a career to accompany a husband to his, / or doing far more than their share of daily life-support work like cleaning, / cooking and social <span class=\"mask\">[arrangements]</span>. / Instead, / they focused on <span class=\"mask\">[communication:]</span> “He doesn’t listen to me.” “He doesn’t talk to me.” I found, / as Hacker observed years before, / / that most wives want their husbands to be, / first and foremost, / <span class=\"mask\">[conversational]</span> partners, / but few husbands share this expectation of their wives.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。鉴于目前近 50% 的离婚率，美国每年的离婚率达到数百万起——几乎是失败对话的流行病。在我自己的研究中，女性对丈夫的抱怨往往不是集中在有形的不平等上，比如放弃了陪伴丈夫的职业机会，或者做的远远超过了她们承担的日常生活支持工作，如清洁、烹饪和社交安排。相反，他们专注于沟通：“他不听我的。” “他不跟我说话。”我发现，正如哈克多年前所观察到的那样，大多数妻子希望她们的丈夫首先成为谈话伙伴，但很少有丈夫对妻子抱有这样的期望。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 29题\n\n**Which of the following can best summarize the main idea of this text?**\n\n> 以下哪一项最能概括本文的主要思想？\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> Sociologist [Catherine] Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of [communication] as the reason for their divorces. Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year—a virtual epidemic of failed [conversation]. In my own research, complaints from women about their husbands most often focused not on tangible inequities such as having given up the chance for a career to accompany a husband to his, or doing far more than their share of daily life-support work like cleaning, cooking and social [arrangements]. Instead, they focused on [communication:] “He doesn’t listen to me.” “He doesn’t talk to me.” I found, as Hacker observed years before, that most wives want their husbands to be, first and foremost, [conversational] partners, but few husbands share this expectation of their wives.\n>\n> 开始精读：\n>\n> Sociologist [Catherine] Kohler Riessman reports in her new book Divorce Talk / that most of the women she interviewed—but only a few of the men—gave lack of [communication] as the reason for their divorces. / Given the current divorce rate of nearly 50 percent, / / that amounts to millions of cases in the United States every year—a virtual epidemic of failed [conversation]. / In my own research, / complaints from women about their husbands most often focused not on tangible inequities such as having given up the chance for a career to accompany a husband to his, / or doing far more than their share of daily life-support work like cleaning, / cooking and social [arrangements]. / Instead, / they focused on [communication:] “He doesn’t listen to me.” “He doesn’t talk to me.” I found, / as Hacker observed years before, / / that most wives want their husbands to be, / first and foremost, / [conversational] partners, / but few husbands share this expectation of their wives.\n>\n> 逐意群顺译：\n>\n> 社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。鉴于目前近 50% 的离婚率，美国每年的离婚率达到数百万起——几乎是失败对话的流行病。在我自己的研究中，女性对丈夫的抱怨往往不是集中在有形的不平等上，比如放弃了陪伴丈夫的职业机会，或者做的远远超过了她们承担的日常生活支持工作，如清洁、烹饪和社交安排。相反，他们专注于沟通：“他不听我的。” “他不跟我说话。”我发现，正如哈克多年前所观察到的那样，大多数妻子希望她们的丈夫首先成为谈话伙伴，但很少有丈夫对妻子抱有这样的期望。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>29题</h2>\n<p><strong>Which of the following can best summarize the main idea of this text?</strong></p>\n<blockquote><p>以下哪一项最能概括本文的主要思想？</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Sociologist <span class=\"mask\">[Catherine]</span> Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of <span class=\"mask\">[communication]</span> as the reason for their divorces. Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year—a virtual epidemic of failed <span class=\"mask\">[conversation]</span>. In my own research, complaints from women about their husbands most often focused not on tangible inequities such as having given up the chance for a career to accompany a husband to his, or doing far more than their share of daily life-support work like cleaning, cooking and social <span class=\"mask\">[arrangements]</span>. Instead, they focused on <span class=\"mask\">[communication:]</span> “He doesn’t listen to me.” “He doesn’t talk to me.” I found, as Hacker observed years before, that most wives want their husbands to be, first and foremost, <span class=\"mask\">[conversational]</span> partners, but few husbands share this expectation of their wives.</p>\n<p><strong>开始精读：</strong></p>\n<p>Sociologist <span class=\"mask\">[Catherine]</span> Kohler Riessman reports in her new book Divorce Talk / that most of the women she interviewed—but only a few of the men—gave lack of <span class=\"mask\">[communication]</span> as the reason for their divorces. / Given the current divorce rate of nearly 50 percent, / / that amounts to millions of cases in the United States every year—a virtual epidemic of failed <span class=\"mask\">[conversation]</span>. / In my own research, / complaints from women about their husbands most often focused not on tangible inequities such as having given up the chance for a career to accompany a husband to his, / or doing far more than their share of daily life-support work like cleaning, / cooking and social <span class=\"mask\">[arrangements]</span>. / Instead, / they focused on <span class=\"mask\">[communication:]</span> “He doesn’t listen to me.” “He doesn’t talk to me.” I found, / as Hacker observed years before, / / that most wives want their husbands to be, / first and foremost, / <span class=\"mask\">[conversational]</span> partners, / but few husbands share this expectation of their wives.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。鉴于目前近 50% 的离婚率，美国每年的离婚率达到数百万起——几乎是失败对话的流行病。在我自己的研究中，女性对丈夫的抱怨往往不是集中在有形的不平等上，比如放弃了陪伴丈夫的职业机会，或者做的远远超过了她们承担的日常生活支持工作，如清洁、烹饪和社交安排。相反，他们专注于沟通：“他不听我的。” “他不跟我说话。”我发现，正如哈克多年前所观察到的那样，大多数妻子希望她们的丈夫首先成为谈话伙伴，但很少有丈夫对妻子抱有这样的期望。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "29"
@@ -2341,8 +3076,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "29题",
-          "raw": "### A. The moral decaying deserves more research by sociologists.\n\n> 道德败坏值得社会学家更多研究。\n\n我们先看 A 选项：`The moral decaying deserves more research by sociologists.`（道德败坏值得社会学家更多研究。）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪一项最能概括本文的主要思想？ ➔ 选项认为：道德败坏值得社会学家更多研究。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“道德败坏值得社会学家更多研究。”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
-          "html": "<h3>A. The moral decaying deserves more research by sociologists.</h3>\n<blockquote><p>道德败坏值得社会学家更多研究。</p></blockquote>\n<p>我们先看 A 选项：<code>The moral decaying deserves more research by sociologists.</code>（道德败坏值得社会学家更多研究。）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪一项最能概括本文的主要思想？ ➔ 选项认为：道德败坏值得社会学家更多研究。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“道德败坏值得社会学家更多研究。”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "raw": "### A. The moral decaying deserves more research by sociologists.\n\n> 道德败坏值得社会学家更多研究。\n\n我们先看 A 选项：`The moral decaying deserves more research by sociologists.`（道德败坏值得社会学家更多研究。）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪一项最能概括本文的主要思想？ ➔ 选项认为：道德败坏值得社会学家更多研究。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“道德败坏值得社会学家更多研究。”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. The moral decaying deserves more research by sociologists.</h3>\n<blockquote><p>道德败坏值得社会学家更多研究。</p></blockquote>\n<p>我们先看 A 选项：<code>The moral decaying deserves more research by sociologists.</code>（道德败坏值得社会学家更多研究。）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪一项最能概括本文的主要思想？ ➔ 选项认为：道德败坏值得社会学家更多研究。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“道德败坏值得社会学家更多研究。”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "29",
@@ -2351,8 +3086,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "29题",
-          "raw": "### B. Marriage break-up stems from sex inequalities.\n\n> 婚姻破裂源于性别不平等。\n\n我们先看 B 选项：`Marriage break-up stems from sex inequalities.`（婚姻破裂源于性别不平等。）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪一项最能概括本文的主要思想？ ➔ 选项认为：婚姻破裂源于性别不平等。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `Marriage`, `break`, `stems` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. Marriage break-up stems from sex inequalities.</h3>\n<blockquote><p>婚姻破裂源于性别不平等。</p></blockquote>\n<p>我们先看 B 选项：<code>Marriage break-up stems from sex inequalities.</code>（婚姻破裂源于性别不平等。）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪一项最能概括本文的主要思想？ ➔ 选项认为：婚姻破裂源于性别不平等。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>Marriage</code>, <code>break</code>, <code>stems</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. Marriage break-up stems from sex inequalities.\n\n> 婚姻破裂源于性别不平等。\n\n我们先看 B 选项：`Marriage break-up stems from sex inequalities.`（婚姻破裂源于性别不平等。）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪一项最能概括本文的主要思想？ ➔ 选项认为：婚姻破裂源于性别不平等。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“婚姻破裂源于性别不平等。”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. Marriage break-up stems from sex inequalities.</h3>\n<blockquote><p>婚姻破裂源于性别不平等。</p></blockquote>\n<p>我们先看 B 选项：<code>Marriage break-up stems from sex inequalities.</code>（婚姻破裂源于性别不平等。）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪一项最能概括本文的主要思想？ ➔ 选项认为：婚姻破裂源于性别不平等。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“婚姻破裂源于性别不平等。”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "29",
@@ -2361,8 +3096,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "29题",
-          "raw": "### C. Husband and wife have different expectations from their marriage.\n\n> 丈夫和妻子对婚姻有着不同的期望。\n\n我们先看 C 选项：`Husband and wife have different expectations from their marriage.`（丈夫和妻子对婚姻有着不同的期望。）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪一项最能概括本文的主要思想？ ➔ 选项认为：丈夫和妻子对婚姻有着不同的期望。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“丈夫和妻子对婚姻有着不同的期望。”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
-          "html": "<h3>C. Husband and wife have different expectations from their marriage.</h3>\n<blockquote><p>丈夫和妻子对婚姻有着不同的期望。</p></blockquote>\n<p>我们先看 C 选项：<code>Husband and wife have different expectations from their marriage.</code>（丈夫和妻子对婚姻有着不同的期望。）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪一项最能概括本文的主要思想？ ➔ 选项认为：丈夫和妻子对婚姻有着不同的期望。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“丈夫和妻子对婚姻有着不同的期望。”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "raw": "### C. Husband and wife have different expectations from their marriage.\n\n> 丈夫和妻子对婚姻有着不同的期望。\n\n我们先看 C 选项：`Husband and wife have different expectations from their marriage.`（丈夫和妻子对婚姻有着不同的期望。）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪一项最能概括本文的主要思想？ ➔ 选项认为：丈夫和妻子对婚姻有着不同的期望。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“丈夫和妻子对婚姻有着不同的期望。”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. Husband and wife have different expectations from their marriage.</h3>\n<blockquote><p>丈夫和妻子对婚姻有着不同的期望。</p></blockquote>\n<p>我们先看 C 选项：<code>Husband and wife have different expectations from their marriage.</code>（丈夫和妻子对婚姻有着不同的期望。）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪一项最能概括本文的主要思想？ ➔ 选项认为：丈夫和妻子对婚姻有着不同的期望。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“丈夫和妻子对婚姻有着不同的期望。”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "29",
@@ -2390,8 +3125,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "30题",
-          "raw": "## 30题\n\n**In the following part immediately after this text, the author will most probably focus on \n.**\n\n> In the following part immediately after this text, the author will most probably focus on \n.\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 5 段展开，所以我们直接回第 5 段定位精读。\n\n> 原文参考：\n>\n> In short, the image that best represents the current crisis is the [stereotypical] cartoon scene of a man sitting at the [breakfast] table with a [newspaper] held up in front of his face, while a woman glares at the back of it, wanting to talk.\n>\n> 开始精读：\n>\n> In short, / the image / that best represents the current crisis is the [stereotypical] cartoon scene of a man sitting at the [breakfast] table with a [newspaper] held up in front of his face, / / while a woman glares at the back of it, / wanting to talk.\n>\n> 逐意群顺译：\n>\n> 简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>30题</h2>\n<p><strong>In the following part immediately after this text, the author will most probably focus on \n.</strong></p>\n<blockquote><p>In the following part immediately after this text, the author will most probably focus on \n.</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>5</strong> 段展开，所以我们直接回第 <strong>5</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>In short, the image that best represents the current crisis is the <span class=\"mask\">[stereotypical]</span> cartoon scene of a man sitting at the <span class=\"mask\">[breakfast]</span> table with a <span class=\"mask\">[newspaper]</span> held up in front of his face, while a woman glares at the back of it, wanting to talk.</p>\n<p><strong>开始精读：</strong></p>\n<p>In short, / the image / that best represents the current crisis is the <span class=\"mask\">[stereotypical]</span> cartoon scene of a man sitting at the <span class=\"mask\">[breakfast]</span> table with a <span class=\"mask\">[newspaper]</span> held up in front of his face, / / while a woman glares at the back of it, / wanting to talk.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 30题\n\n**In the following part immediately after this text, the author will most probably focus on \n.**\n\n> In the following part immediately after this text, the author will most probably focus on \n.\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 5 段展开，所以我们直接回第 5 段定位精读。\n\n> 原文参考：\n>\n> In short, the image that best [represents] the current crisis is the [stereotypical] cartoon scene of a man sitting at the breakfast table with a [newspaper] held up in front of his face, while a woman glares at the back of it, wanting to talk.\n>\n> 开始精读：\n>\n> In short, / the image / that best [represents] the current crisis is the [stereotypical] cartoon scene of a man sitting at the breakfast table with a [newspaper] held up in front of his face, / / while a woman glares at the back of it, / wanting to talk.\n>\n> 逐意群顺译：\n>\n> 简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>30题</h2>\n<p><strong>In the following part immediately after this text, the author will most probably focus on \n.</strong></p>\n<blockquote><p>In the following part immediately after this text, the author will most probably focus on \n.</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>5</strong> 段展开，所以我们直接回第 <strong>5</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>In short, the image that best <span class=\"mask\">[represents]</span> the current crisis is the <span class=\"mask\">[stereotypical]</span> cartoon scene of a man sitting at the breakfast table with a <span class=\"mask\">[newspaper]</span> held up in front of his face, while a woman glares at the back of it, wanting to talk.</p>\n<p><strong>开始精读：</strong></p>\n<p>In short, / the image / that best <span class=\"mask\">[represents]</span> the current crisis is the <span class=\"mask\">[stereotypical]</span> cartoon scene of a man sitting at the breakfast table with a <span class=\"mask\">[newspaper]</span> held up in front of his face, / / while a woman glares at the back of it, / wanting to talk.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "30"
@@ -2419,8 +3154,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "30题",
-          "raw": "### C. other possible reasons for a high divorce rate in the US\n\n> 美国高离婚率的其他可能原因\n\n我们先看 C 选项：`other possible reasons for a high divorce rate in the US`（美国高离婚率的其他可能原因）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：In the following part immediately after this text, the author will most probably focus on \n. ➔ 选项认为：美国高离婚率的其他可能原因\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“美国高离婚率的其他可能原因”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
-          "html": "<h3>C. other possible reasons for a high divorce rate in the US</h3>\n<blockquote><p>美国高离婚率的其他可能原因</p></blockquote>\n<p>我们先看 C 选项：<code>other possible reasons for a high divorce rate in the US</code>（美国高离婚率的其他可能原因）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：In the following part immediately after this text, the author will most probably focus on<br />. ➔ 选项认为：美国高离婚率的其他可能原因</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“美国高离婚率的其他可能原因”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "raw": "### C. other possible reasons for a high divorce rate in the US\n\n> 美国高离婚率的其他可能原因\n\n我们先看 C 选项：`other possible reasons for a high divorce rate in the US`（美国高离婚率的其他可能原因）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：In the following part immediately after this text, the author will most probably focus on \n. ➔ 选项认为：美国高离婚率的其他可能原因\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“美国高离婚率的其他可能原因”，但在原文第 5 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. other possible reasons for a high divorce rate in the US</h3>\n<blockquote><p>美国高离婚率的其他可能原因</p></blockquote>\n<p>我们先看 C 选项：<code>other possible reasons for a high divorce rate in the US</code>（美国高离婚率的其他可能原因）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：In the following part immediately after this text, the author will most probably focus on<br />. ➔ 选项认为：美国高离婚率的其他可能原因</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“美国高离婚率的其他可能原因”，但在原文第 5 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "30",
@@ -2429,8 +3164,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "30题",
-          "raw": "### D. a brief introduction to the political scientist Andrew Hacker\n\n> 政治学家安德鲁·哈克简介\n\n我们先看 D 选项：`a brief introduction to the political scientist Andrew Hacker`（政治学家安德鲁·哈克简介）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：In the following part immediately after this text, the author will most probably focus on \n. ➔ 选项认为：政治学家安德鲁·哈克简介\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“政治学家安德鲁·哈克简介”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 5 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. a brief introduction to the political scientist Andrew Hacker</h3>\n<blockquote><p>政治学家安德鲁·哈克简介</p></blockquote>\n<p>我们先看 D 选项：<code>a brief introduction to the political scientist Andrew Hacker</code>（政治学家安德鲁·哈克简介）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：In the following part immediately after this text, the author will most probably focus on<br />. ➔ 选项认为：政治学家安德鲁·哈克简介</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“政治学家安德鲁·哈克简介”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 5 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. a brief introduction to the political scientist Andrew Hacker\n\n> 政治学家安德鲁·哈克简介\n\n我们先看 D 选项：`a brief introduction to the political scientist Andrew Hacker`（政治学家安德鲁·哈克简介）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：In the following part immediately after this text, the author will most probably focus on \n. ➔ 选项认为：政治学家安德鲁·哈克简介\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“政治学家安德鲁·哈克简介”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. a brief introduction to the political scientist Andrew Hacker</h3>\n<blockquote><p>政治学家安德鲁·哈克简介</p></blockquote>\n<p>我们先看 D 选项：<code>a brief introduction to the political scientist Andrew Hacker</code>（政治学家安德鲁·哈克简介）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：In the following part immediately after this text, the author will most probably focus on<br />. ➔ 选项认为：政治学家安德鲁·哈克简介</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“政治学家安德鲁·哈克简介”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "30",
@@ -2973,7 +3708,7 @@ window.KAOYAN_DATA_2010 = {
         {
           "section": 3,
           "title": "3.一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
-          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，正确项如何进行同义改写，错误项如何设置陷阱；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
+          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，对的是如何对文章进行同义改写的，错的做题时为什么容易被文章中的对应表达骗，命题人是怎么想的；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
           "meta": {
             "section": 3
           }
@@ -2981,246 +3716,981 @@ window.KAOYAN_DATA_2010 = {
         {
           "section": 3,
           "title": "26题 · 题干、题型与核心出处",
-          "html": "<p><strong>26. What is most wives’ main expectation of their husbands?</strong></p>\n<p>（大多数妻子对丈夫的主要期望是什么？）</p>\n<p><strong>题型判定</strong>：事实细节题 ｜ <strong>定位出处</strong>：Paragraph 1</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>What is most wives’ main expectation of their husbands?<br />大多数妻子对丈夫的主要期望是什么？</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>事实细节题</strong>，考查考生对第 <strong>1</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 1 段核心定位句）</h3>\n<blockquote>\n<p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.<br />我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 1 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "26"
+            "qid": "26",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. Talking to them.",
-          "html": "<p><strong>选项 A</strong>：<code>Talking to them.</code></p>\n<p><strong>中文翻译</strong>：和他们说话。</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>和他们说话。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "26",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. Talking to them.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>和他们说话。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>Talking</code>, <code>them</code>，其对应的中文含义为“<strong>和他们说话。</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.<br />我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. Talking to them.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>和他们说话。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>Talking</code>, <code>them</code>，其对应的中文含义为“<strong>和他们说话。</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.<br />我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Throughout the evening, one man had been particularly talkative, frequently offering ideas and anecdotes, while his wife sat silently beside him on the couch.<br />整个晚上，一名男子特别健谈，经常提出想法和轶事，而他的妻子则默默地坐在他旁边的沙发上。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 A 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. Talking to them.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>和他们说话。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>Talking</code>, <code>them</code>，其对应的中文含义为“<strong>和他们说话。</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.<br />我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Throughout the evening, one man had been particularly talkative, frequently offering ideas and anecdotes, while his wife sat silently beside him on the couch.<br />整个晚上，一名男子特别健谈，经常提出想法和轶事，而他的妻子则默默地坐在他旁边的沙发上。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 A 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 A 选项（“和他们说话。”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：A正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. Trusting them.",
-          "html": "<p><strong>选项 B</strong>：<code>Trusting them.</code></p>\n<p><strong>中文翻译</strong>：信任他们。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>信任他们。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "26",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. Trusting them.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>信任他们。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>Trusting</code>, <code>them</code>（“信任他们。”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.<br />我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>Trusting</code>, <code>them</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. Trusting them.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>信任他们。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>Trusting</code>, <code>them</code>（“信任他们。”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.<br />我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>Trusting</code>, <code>them</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Throughout the evening, one man had been particularly talkative, frequently offering ideas and anecdotes, while his wife sat silently beside him on the couch.<br />整个晚上，一名男子特别健谈，经常提出想法和轶事，而他的妻子则默默地坐在他旁边的沙发上。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. Trusting them.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>信任他们。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>Trusting</code>, <code>them</code>（“信任他们。”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.<br />我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>Trusting</code>, <code>them</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Throughout the evening, one man had been particularly talkative, frequently offering ideas and anecdotes, while his wife sat silently beside him on the couch.<br />整个晚上，一名男子特别健谈，经常提出想法和轶事，而他的妻子则默默地坐在他旁边的沙发上。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. Supporting their careers.",
-          "html": "<p><strong>选项 C</strong>：<code>Supporting their careers.</code></p>\n<p><strong>中文翻译</strong>：支持他们的职业生涯。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>支持他们的职业生涯。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "26",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. Supporting their careers.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>支持他们的职业生涯。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>Supporting</code>, <code>their</code>, <code>careers</code>（“支持他们的职业生涯。”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.<br />我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“支持他们的职业生涯。”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. Supporting their careers.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>支持他们的职业生涯。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>Supporting</code>, <code>their</code>, <code>careers</code>（“支持他们的职业生涯。”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.<br />我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“支持他们的职业生涯。”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Throughout the evening, one man had been particularly talkative, frequently offering ideas and anecdotes, while his wife sat silently beside him on the couch.<br />整个晚上，一名男子特别健谈，经常提出想法和轶事，而他的妻子则默默地坐在他旁边的沙发上。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. Supporting their careers.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>支持他们的职业生涯。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>Supporting</code>, <code>their</code>, <code>careers</code>（“支持他们的职业生涯。”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.<br />我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“支持他们的职业生涯。”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Throughout the evening, one man had been particularly talkative, frequently offering ideas and anecdotes, while his wife sat silently beside him on the couch.<br />整个晚上，一名男子特别健谈，经常提出想法和轶事，而他的妻子则默默地坐在他旁边的沙发上。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. Sharing housework.",
-          "html": "<p><strong>选项 D</strong>：<code>Sharing housework.</code></p>\n<p><strong>中文翻译</strong>：分担家务。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>分担家务。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "26",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. Sharing housework.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>分担家务。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>Sharing</code>, <code>housework</code>（“分担家务。”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.<br />我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. Sharing housework.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>分担家务。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>Sharing</code>, <code>housework</code>（“分担家务。”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.<br />我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Throughout the evening, one man had been particularly talkative, frequently offering ideas and anecdotes, while his wife sat silently beside him on the couch.<br />整个晚上，一名男子特别健谈，经常提出想法和轶事，而他的妻子则默默地坐在他旁边的沙发上。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. Sharing housework.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>分担家务。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>Sharing</code>, <code>housework</code>（“分担家务。”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.<br />我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Throughout the evening, one man had been particularly talkative, frequently offering ideas and anecdotes, while his wife sat silently beside him on the couch.<br />整个晚上，一名男子特别健谈，经常提出想法和轶事，而他的妻子则默默地坐在他旁边的沙发上。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "26题结论",
+          "html": "<blockquote>\n<p><strong>26. A. Talking to them.</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>Trusting</code>, <co...；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“支持他们的职业生涯。”，但在原文定位句中，作者表达的态度或客...；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "27题 · 题干、题型与核心出处",
-          "html": "<p><strong>27. Judging from the context, the phrase “wreaking havoc” (Paragraph 2) most probably \nmeans .</strong></p>\n<p>（Judging from the context, the phrase “wreaking havoc” (Paragraph 2) most probably \nmeans .）</p>\n<p><strong>题型判定</strong>：因果推断题 ｜ <strong>定位出处</strong>：Paragraph 2</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>Judging from the context, the phrase “wreaking havoc” (Paragraph 2) most probably \nmeans .<br />Judging from the context, the phrase “wreaking havoc” (Paragraph 2) most probably \nmeans .</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>因果推断题</strong>，考查考生对第 <strong>2</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 2 段核心定位句）</h3>\n<blockquote>\n<p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.<br />这一集体现了一个讽刺之处：尽管美国男性在公共场合比女性说话更多，但在家里却往往说话更少。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 2 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "27"
+            "qid": "27",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. generating motivation",
-          "html": "<p><strong>选项 A</strong>：<code>generating motivation</code></p>\n<p><strong>中文翻译</strong>：产生动力</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>产生动力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "27",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. generating motivation",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>产生动力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>generating</code>, <code>motivation</code>（“产生动力”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.<br />这一集体现了一个讽刺之处：尽管美国男性在公共场合比女性说话更多，但在家里却往往说话更少。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“产生动力”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. generating motivation",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>产生动力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>generating</code>, <code>motivation</code>（“产生动力”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.<br />这一集体现了一个讽刺之处：尽管美国男性在公共场合比女性说话更多，但在家里却往往说话更少。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“产生动力”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>And this pattern is wreaking havoc with marriage.<br />这种模式正在对婚姻造成严重破坏。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. generating motivation",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>产生动力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>generating</code>, <code>motivation</code>（“产生动力”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.<br />这一集体现了一个讽刺之处：尽管美国男性在公共场合比女性说话更多，但在家里却往往说话更少。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“产生动力”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>And this pattern is wreaking havoc with marriage.<br />这种模式正在对婚姻造成严重破坏。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. exerting influence",
-          "html": "<p><strong>选项 B</strong>：<code>exerting influence</code></p>\n<p><strong>中文翻译</strong>：施加影响</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>施加影响</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "27",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. exerting influence",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>施加影响</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>exerting</code>, <code>influence</code>（“施加影响”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.<br />这一集体现了一个讽刺之处：尽管美国男性在公共场合比女性说话更多，但在家里却往往说话更少。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. exerting influence",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>施加影响</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>exerting</code>, <code>influence</code>（“施加影响”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.<br />这一集体现了一个讽刺之处：尽管美国男性在公共场合比女性说话更多，但在家里却往往说话更少。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>And this pattern is wreaking havoc with marriage.<br />这种模式正在对婚姻造成严重破坏。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. exerting influence",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>施加影响</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>exerting</code>, <code>influence</code>（“施加影响”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.<br />这一集体现了一个讽刺之处：尽管美国男性在公共场合比女性说话更多，但在家里却往往说话更少。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>And this pattern is wreaking havoc with marriage.<br />这种模式正在对婚姻造成严重破坏。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. causing damage",
-          "html": "<p><strong>选项 C</strong>：<code>causing damage</code></p>\n<p><strong>中文翻译</strong>：造成损害</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>造成损害</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "27",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. causing damage",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>造成损害</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>causing</code>, <code>damage</code>，其对应的中文含义为“<strong>造成损害</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.<br />这一集体现了一个讽刺之处：尽管美国男性在公共场合比女性说话更多，但在家里却往往说话更少。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. causing damage",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>造成损害</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>causing</code>, <code>damage</code>，其对应的中文含义为“<strong>造成损害</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.<br />这一集体现了一个讽刺之处：尽管美国男性在公共场合比女性说话更多，但在家里却往往说话更少。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>And this pattern is wreaking havoc with marriage.<br />这种模式正在对婚姻造成严重破坏。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 C 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. causing damage",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>造成损害</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>causing</code>, <code>damage</code>，其对应的中文含义为“<strong>造成损害</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.<br />这一集体现了一个讽刺之处：尽管美国男性在公共场合比女性说话更多，但在家里却往往说话更少。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>And this pattern is wreaking havoc with marriage.<br />这种模式正在对婚姻造成严重破坏。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 C 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 C 选项（“造成损害”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：C正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. creating pressure",
-          "html": "<p><strong>选项 D</strong>：<code>creating pressure</code></p>\n<p><strong>中文翻译</strong>：制造压力</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>制造压力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "27",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. creating pressure",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>制造压力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>creating</code>, <code>pressure</code>（“制造压力”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.<br />这一集体现了一个讽刺之处：尽管美国男性在公共场合比女性说话更多，但在家里却往往说话更少。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. creating pressure",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>制造压力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>creating</code>, <code>pressure</code>（“制造压力”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.<br />这一集体现了一个讽刺之处：尽管美国男性在公共场合比女性说话更多，但在家里却往往说话更少。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>And this pattern is wreaking havoc with marriage.<br />这种模式正在对婚姻造成严重破坏。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. creating pressure",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>制造压力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>creating</code>, <code>pressure</code>（“制造压力”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.<br />这一集体现了一个讽刺之处：尽管美国男性在公共场合比女性说话更多，但在家里却往往说话更少。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>And this pattern is wreaking havoc with marriage.<br />这种模式正在对婚姻造成严重破坏。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "27题结论",
+          "html": "<blockquote>\n<p><strong>27. C. causing damage</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“产生动力”，但在原文定位句中，作者表达的态度或客观事实恰恰相...；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>C</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "28题 · 题干、题型与核心出处",
-          "html": "<p><strong>28. All of the following are true EXCEPT .</strong></p>\n<p>（以下所有内容均正确，除了 .）</p>\n<p><strong>题型判定</strong>：段落推理题 ｜ <strong>定位出处</strong>：Paragraph 3</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>All of the following are true EXCEPT .<br />以下所有内容均正确，除了 .</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>段落推理题</strong>，考查考生对第 <strong>3</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 3 段核心定位句）</h3>\n<blockquote>\n<p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.<br />政治学家安德鲁·哈克 (Andrew Hacker) 在 20 世纪 70 年代末观察到了这一模式。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 3 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "28"
+            "qid": "28",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. men tend to talk more in public than women",
-          "html": "<p><strong>选项 A</strong>：<code>men tend to talk more in public than women</code></p>\n<p><strong>中文翻译</strong>：男性在公共场合比女性更愿意说话</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>男性在公共场合比女性更愿意说话</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "28",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. men tend to talk more in public than women",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>男性在公共场合比女性更愿意说话</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>men</code>, <code>tend</code>, <code>talk</code>（“男性在公共场合比女性更愿意说话”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.<br />政治学家安德鲁·哈克 (Andrew Hacker) 在 20 世纪 70 年代末观察到了这一模式。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>men</code>, <code>tend</code>, <code>talk</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. men tend to talk more in public than women",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>男性在公共场合比女性更愿意说话</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>men</code>, <code>tend</code>, <code>talk</code>（“男性在公共场合比女性更愿意说话”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.<br />政治学家安德鲁·哈克 (Andrew Hacker) 在 20 世纪 70 年代末观察到了这一模式。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>men</code>, <code>tend</code>, <code>talk</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces<br />Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. men tend to talk more in public than women",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>男性在公共场合比女性更愿意说话</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>men</code>, <code>tend</code>, <code>talk</code>（“男性在公共场合比女性更愿意说话”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.<br />政治学家安德鲁·哈克 (Andrew Hacker) 在 20 世纪 70 年代末观察到了这一模式。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>men</code>, <code>tend</code>, <code>talk</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces<br />Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. nearly 50 percent of recent divorces are caused by failed conversation",
-          "html": "<p><strong>选项 B</strong>：<code>nearly 50 percent of recent divorces are caused by failed conversation</code></p>\n<p><strong>中文翻译</strong>：最近近50%的离婚是由于谈话失败造成的</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>最近近50%的离婚是由于谈话失败造成的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "28",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. nearly 50 percent of recent divorces are caused by failed conversation",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>最近近50%的离婚是由于谈话失败造成的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>nearly</code>, <code>percent</code>, <code>recent</code>，其对应的中文含义为“<strong>最近近50%的离婚是由于谈话失败造成的</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.<br />政治学家安德鲁·哈克 (Andrew Hacker) 在 20 世纪 70 年代末观察到了这一模式。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. nearly 50 percent of recent divorces are caused by failed conversation",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>最近近50%的离婚是由于谈话失败造成的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>nearly</code>, <code>percent</code>, <code>recent</code>，其对应的中文含义为“<strong>最近近50%的离婚是由于谈话失败造成的</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.<br />政治学家安德鲁·哈克 (Andrew Hacker) 在 20 世纪 70 年代末观察到了这一模式。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces<br />Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 B 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. nearly 50 percent of recent divorces are caused by failed conversation",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>最近近50%的离婚是由于谈话失败造成的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>nearly</code>, <code>percent</code>, <code>recent</code>，其对应的中文含义为“<strong>最近近50%的离婚是由于谈话失败造成的</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.<br />政治学家安德鲁·哈克 (Andrew Hacker) 在 20 世纪 70 年代末观察到了这一模式。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces<br />Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 B 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 B 选项（“最近近50%的离婚是由于谈话失败造成的”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：B正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. women attach much importance to communication between couples",
-          "html": "<p><strong>选项 C</strong>：<code>women attach much importance to communication between couples</code></p>\n<p><strong>中文翻译</strong>：女性非常重视夫妻之间的沟通</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>女性非常重视夫妻之间的沟通</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "28",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. women attach much importance to communication between couples",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>女性非常重视夫妻之间的沟通</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>women</code>, <code>attach</code>, <code>much</code>（“女性非常重视夫妻之间的沟通”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.<br />政治学家安德鲁·哈克 (Andrew Hacker) 在 20 世纪 70 年代末观察到了这一模式。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“女性非常重视夫妻之间的沟通”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. women attach much importance to communication between couples",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>女性非常重视夫妻之间的沟通</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>women</code>, <code>attach</code>, <code>much</code>（“女性非常重视夫妻之间的沟通”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.<br />政治学家安德鲁·哈克 (Andrew Hacker) 在 20 世纪 70 年代末观察到了这一模式。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“女性非常重视夫妻之间的沟通”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces<br />Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. women attach much importance to communication between couples",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>女性非常重视夫妻之间的沟通</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>women</code>, <code>attach</code>, <code>much</code>（“女性非常重视夫妻之间的沟通”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.<br />政治学家安德鲁·哈克 (Andrew Hacker) 在 20 世纪 70 年代末观察到了这一模式。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“女性非常重视夫妻之间的沟通”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces<br />Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. a female tends to be more talkative at home than her spouse",
-          "html": "<p><strong>选项 D</strong>：<code>a female tends to be more talkative at home than her spouse</code></p>\n<p><strong>中文翻译</strong>：女性在家里往往比她的配偶更健谈</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>女性在家里往往比她的配偶更健谈</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "28",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. a female tends to be more talkative at home than her spouse",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>女性在家里往往比她的配偶更健谈</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>female</code>, <code>tends</code>, <code>more</code>（“女性在家里往往比她的配偶更健谈”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.<br />政治学家安德鲁·哈克 (Andrew Hacker) 在 20 世纪 70 年代末观察到了这一模式。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. a female tends to be more talkative at home than her spouse",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>女性在家里往往比她的配偶更健谈</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>female</code>, <code>tends</code>, <code>more</code>（“女性在家里往往比她的配偶更健谈”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.<br />政治学家安德鲁·哈克 (Andrew Hacker) 在 20 世纪 70 年代末观察到了这一模式。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces<br />Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. a female tends to be more talkative at home than her spouse",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>女性在家里往往比她的配偶更健谈</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>female</code>, <code>tends</code>, <code>more</code>（“女性在家里往往比她的配偶更健谈”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The pattern was observed by political scientist Andrew Hacker in the late 1970s.<br />政治学家安德鲁·哈克 (Andrew Hacker) 在 20 世纪 70 年代末观察到了这一模式。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces<br />Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "28题结论",
+          "html": "<blockquote>\n<p><strong>28. B. nearly 50 percent of recent divorces are caused by failed conversation</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>men</code>, <code>te...；</li><li style=\"margin-bottom:6px\"><b>B</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“女性非常重视夫妻之间的沟通”，但在原文定位句中，作者表达的态...；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "29题 · 题干、题型与核心出处",
-          "html": "<p><strong>29. Which of the following can best summarize the main idea of this text?</strong></p>\n<p>（以下哪一项最能概括本文的主要思想？）</p>\n<p><strong>题型判定</strong>：词义/例证题 ｜ <strong>定位出处</strong>：Paragraph 4</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>Which of the following can best summarize the main idea of this text?<br />以下哪一项最能概括本文的主要思想？</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>词义/例证题</strong>，考查考生对第 <strong>4</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 4 段核心定位句）</h3>\n<blockquote>\n<p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.<br />社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 4 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "29"
+            "qid": "29",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. The moral decaying deserves more research by sociologists.",
-          "html": "<p><strong>选项 A</strong>：<code>The moral decaying deserves more research by sociologists.</code></p>\n<p><strong>中文翻译</strong>：道德败坏值得社会学家更多研究。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>道德败坏值得社会学家更多研究。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "29",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. The moral decaying deserves more research by sociologists.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>道德败坏值得社会学家更多研究。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>moral</code>, <code>decaying</code>, <code>deserves</code>（“道德败坏值得社会学家更多研究。”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.<br />社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“道德败坏值得社会学家更多研究。”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. The moral decaying deserves more research by sociologists.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>道德败坏值得社会学家更多研究。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>moral</code>, <code>decaying</code>, <code>deserves</code>（“道德败坏值得社会学家更多研究。”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.<br />社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“道德败坏值得社会学家更多研究。”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year—a virtual epidemic of failed conversation.<br />鉴于目前近 50% 的离婚率，美国每年的离婚率达到数百万起——几乎是失败对话的流行病。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. The moral decaying deserves more research by sociologists.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>道德败坏值得社会学家更多研究。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>moral</code>, <code>decaying</code>, <code>deserves</code>（“道德败坏值得社会学家更多研究。”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.<br />社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“道德败坏值得社会学家更多研究。”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year—a virtual epidemic of failed conversation.<br />鉴于目前近 50% 的离婚率，美国每年的离婚率达到数百万起——几乎是失败对话的流行病。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. Marriage break-up stems from sex inequalities.",
-          "html": "<p><strong>选项 B</strong>：<code>Marriage break-up stems from sex inequalities.</code></p>\n<p><strong>中文翻译</strong>：婚姻破裂源于性别不平等。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>婚姻破裂源于性别不平等。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "29",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. Marriage break-up stems from sex inequalities.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>婚姻破裂源于性别不平等。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>Marriage</code>, <code>break</code>, <code>stems</code>（“婚姻破裂源于性别不平等。”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.<br />社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. Marriage break-up stems from sex inequalities.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>婚姻破裂源于性别不平等。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>Marriage</code>, <code>break</code>, <code>stems</code>（“婚姻破裂源于性别不平等。”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.<br />社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year—a virtual epidemic of failed conversation.<br />鉴于目前近 50% 的离婚率，美国每年的离婚率达到数百万起——几乎是失败对话的流行病。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. Marriage break-up stems from sex inequalities.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>婚姻破裂源于性别不平等。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>Marriage</code>, <code>break</code>, <code>stems</code>（“婚姻破裂源于性别不平等。”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.<br />社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year—a virtual epidemic of failed conversation.<br />鉴于目前近 50% 的离婚率，美国每年的离婚率达到数百万起——几乎是失败对话的流行病。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. Husband and wife have different expectations from their marriage.",
-          "html": "<p><strong>选项 C</strong>：<code>Husband and wife have different expectations from their marriage.</code></p>\n<p><strong>中文翻译</strong>：丈夫和妻子对婚姻有着不同的期望。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>丈夫和妻子对婚姻有着不同的期望。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "29",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. Husband and wife have different expectations from their marriage.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>丈夫和妻子对婚姻有着不同的期望。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>Husband</code>, <code>wife</code>, <code>different</code>（“丈夫和妻子对婚姻有着不同的期望。”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.<br />社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. Husband and wife have different expectations from their marriage.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>丈夫和妻子对婚姻有着不同的期望。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>Husband</code>, <code>wife</code>, <code>different</code>（“丈夫和妻子对婚姻有着不同的期望。”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.<br />社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year—a virtual epidemic of failed conversation.<br />鉴于目前近 50% 的离婚率，美国每年的离婚率达到数百万起——几乎是失败对话的流行病。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. Husband and wife have different expectations from their marriage.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>丈夫和妻子对婚姻有着不同的期望。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>Husband</code>, <code>wife</code>, <code>different</code>（“丈夫和妻子对婚姻有着不同的期望。”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.<br />社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year—a virtual epidemic of failed conversation.<br />鉴于目前近 50% 的离婚率，美国每年的离婚率达到数百万起——几乎是失败对话的流行病。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. Conversational patterns between man and wife are different.",
-          "html": "<p><strong>选项 D</strong>：<code>Conversational patterns between man and wife are different.</code></p>\n<p><strong>中文翻译</strong>：夫妻之间的谈话方式是不同的。</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>夫妻之间的谈话方式是不同的。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "29",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. Conversational patterns between man and wife are different.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>夫妻之间的谈话方式是不同的。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>Conversational</code>, <code>patterns</code>, <code>between</code>，其对应的中文含义为“<strong>夫妻之间的谈话方式是不同的。</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.<br />社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. Conversational patterns between man and wife are different.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>夫妻之间的谈话方式是不同的。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>Conversational</code>, <code>patterns</code>, <code>between</code>，其对应的中文含义为“<strong>夫妻之间的谈话方式是不同的。</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.<br />社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year—a virtual epidemic of failed conversation.<br />鉴于目前近 50% 的离婚率，美国每年的离婚率达到数百万起——几乎是失败对话的流行病。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 D 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. Conversational patterns between man and wife are different.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>夫妻之间的谈话方式是不同的。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>Conversational</code>, <code>patterns</code>, <code>between</code>，其对应的中文含义为“<strong>夫妻之间的谈话方式是不同的。</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.<br />社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year—a virtual epidemic of failed conversation.<br />鉴于目前近 50% 的离婚率，美国每年的离婚率达到数百万起——几乎是失败对话的流行病。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 D 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 D 选项（“夫妻之间的谈话方式是不同的。”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：D正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "29题结论",
+          "html": "<blockquote>\n<p><strong>29. D. Conversational patterns between man and wife are different.</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“道德败坏值得社会学家更多研究。”，但在原文定位句中，作者表达...；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>D</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "30题 · 题干、题型与核心出处",
-          "html": "<p><strong>30. In the following part immediately after this text, the author will most probably focus on \n.</strong></p>\n<p>（In the following part immediately after this text, the author will most probably focus on \n.）</p>\n<p><strong>题型判定</strong>：全文主旨题 ｜ <strong>定位出处</strong>：Paragraph 5</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>In the following part immediately after this text, the author will most probably focus on \n.<br />In the following part immediately after this text, the author will most probably focus on \n.</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>全文主旨题</strong>，考查考生对第 <strong>5</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 5 段核心定位句）</h3>\n<blockquote>\n<p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.<br />简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 5 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "30"
+            "qid": "30",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. a vivid account of the new book Divorce Talk",
-          "html": "<p><strong>选项 A</strong>：<code>a vivid account of the new book Divorce Talk</code></p>\n<p><strong>中文翻译</strong>：新书《离婚谈话》的生动描述</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>新书《离婚谈话》的生动描述</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "30",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. a vivid account of the new book Divorce Talk",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>新书《离婚谈话》的生动描述</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>vivid</code>, <code>account</code>, <code>new</code>（“新书《离婚谈话》的生动描述”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.<br />简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“新书《离婚谈话》的生动描述”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. a vivid account of the new book Divorce Talk",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>新书《离婚谈话》的生动描述</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>vivid</code>, <code>account</code>, <code>new</code>（“新书《离婚谈话》的生动描述”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.<br />简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“新书《离婚谈话》的生动描述”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.<br />简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. a vivid account of the new book Divorce Talk",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>新书《离婚谈话》的生动描述</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>vivid</code>, <code>account</code>, <code>new</code>（“新书《离婚谈话》的生动描述”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.<br />简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“新书《离婚谈话》的生动描述”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.<br />简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. a detailed description of the stereotypical cartoon",
-          "html": "<p><strong>选项 B</strong>：<code>a detailed description of the stereotypical cartoon</code></p>\n<p><strong>中文翻译</strong>：刻板卡通的详细描述</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>刻板卡通的详细描述</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "30",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. a detailed description of the stereotypical cartoon",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>刻板卡通的详细描述</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>detailed</code>, <code>description</code>, <code>stereotypical</code>，其对应的中文含义为“<strong>刻板卡通的详细描述</strong>”。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.<br />简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. a detailed description of the stereotypical cartoon",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>刻板卡通的详细描述</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>detailed</code>, <code>description</code>, <code>stereotypical</code>，其对应的中文含义为“<strong>刻板卡通的详细描述</strong>”。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.<br />简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.<br />简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 B 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. a detailed description of the stereotypical cartoon",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>刻板卡通的详细描述</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>detailed</code>, <code>description</code>, <code>stereotypical</code>，其对应的中文含义为“<strong>刻板卡通的详细描述</strong>”。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.<br />简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.<br />简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 B 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 B 选项（“刻板卡通的详细描述”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：B正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. other possible reasons for a high divorce rate in the US",
-          "html": "<p><strong>选项 C</strong>：<code>other possible reasons for a high divorce rate in the US</code></p>\n<p><strong>中文翻译</strong>：美国高离婚率的其他可能原因</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>美国高离婚率的其他可能原因</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "30",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. other possible reasons for a high divorce rate in the US",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>美国高离婚率的其他可能原因</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>other</code>, <code>possible</code>, <code>reasons</code>（“美国高离婚率的其他可能原因”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.<br />简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“美国高离婚率的其他可能原因”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. other possible reasons for a high divorce rate in the US",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>美国高离婚率的其他可能原因</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>other</code>, <code>possible</code>, <code>reasons</code>（“美国高离婚率的其他可能原因”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.<br />简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“美国高离婚率的其他可能原因”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.<br />简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. other possible reasons for a high divorce rate in the US",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>美国高离婚率的其他可能原因</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>other</code>, <code>possible</code>, <code>reasons</code>（“美国高离婚率的其他可能原因”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.<br />简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“美国高离婚率的其他可能原因”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.<br />简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. a brief introduction to the political scientist Andrew Hacker",
-          "html": "<p><strong>选项 D</strong>：<code>a brief introduction to the political scientist Andrew Hacker</code></p>\n<p><strong>中文翻译</strong>：政治学家安德鲁·哈克简介</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>政治学家安德鲁·哈克简介</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "30",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. a brief introduction to the political scientist Andrew Hacker",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>政治学家安德鲁·哈克简介</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>brief</code>, <code>introduction</code>, <code>political</code>（“政治学家安德鲁·哈克简介”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.<br />简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. a brief introduction to the political scientist Andrew Hacker",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>政治学家安德鲁·哈克简介</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>brief</code>, <code>introduction</code>, <code>political</code>（“政治学家安德鲁·哈克简介”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.<br />简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.<br />简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. a brief introduction to the political scientist Andrew Hacker",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>政治学家安德鲁·哈克简介</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>brief</code>, <code>introduction</code>, <code>political</code>（“政治学家安德鲁·哈克简介”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.<br />简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.<br />简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "30题结论",
+          "html": "<blockquote>\n<p><strong>30. B. a detailed description of the stereotypical cartoon</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“新书《离婚谈话》的生动描述”，但在原文定位句中，作者表达的态...；</li><li style=\"margin-bottom:6px\"><b>B</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“美国高离婚率的其他可能原因”，但在原文定位句中，作者表达的态...；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "form": "conclusion"
           }
         },
         {
@@ -3582,8 +5052,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "Over the past decade, many [companies] had [perfected] the art of creating automatic behaviors—habits—among [consumers]. These habits have helped [companies] earn billions of dollars when customers eat snacks or wipe counters almost without thinking, often in response to a carefully designed set of daily cues.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Over the past decade, many <span class=\"mask\">[companies]</span> had <span class=\"mask\">[perfected]</span> the art of creating automatic behaviors—habits—among <span class=\"mask\">[consumers]</span>. These habits have helped <span class=\"mask\">[companies]</span> earn billions of dollars when customers eat snacks or wipe counters almost without thinking, often in response to a carefully designed set of daily cues.</p></div></div>",
+          "raw": "Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers. These habits have helped companies earn billions of dollars when customers eat snacks or wipe counters almost without thinking, often in response to a carefully designed set of daily cues.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers. These habits have helped companies earn billions of dollars when customers eat snacks or wipe counters almost without thinking, often in response to a carefully designed set of daily cues.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 0,
@@ -3592,8 +5062,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "Over the past decade, / many [companies] had [perfected] the art of creating automatic behaviors—habits—among [consumers]. / These habits have helped [companies] earn billions of dollars / when customers eat snacks or wipe counters almost without thinking, / often in response to a carefully designed set of daily cues.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Over the past decade, / many <span class=\"mask\">[companies]</span> had <span class=\"mask\">[perfected]</span> the art of creating automatic behaviors—habits—among <span class=\"mask\">[consumers]</span>. / These habits have helped <span class=\"mask\">[companies]</span> earn billions of dollars / when customers eat snacks or wipe counters almost without thinking, / often in response to a carefully designed set of daily cues.</p></div></div>",
+          "raw": "Over the past decade, / many companies had perfected the art of creating automatic behaviors—habits—among consumers. / These habits have helped companies earn billions of dollars / when customers eat snacks or wipe counters almost without thinking, / often in response to a carefully designed set of daily cues.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Over the past decade, / many companies had perfected the art of creating automatic behaviors—habits—among consumers. / These habits have helped companies earn billions of dollars / when customers eat snacks or wipe counters almost without thinking, / often in response to a carefully designed set of daily cues.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 0,
@@ -3662,8 +5132,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "The [companies] that Dr. Curtis turned to—Procter & Gamble, [Colgate-Palmolive] and Unilever—had invested hundreds of millions of dollars finding the subtle cues in [consumers’] lives that [corporations] could use to introduce new routines.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The <span class=\"mask\">[companies]</span> that Dr. Curtis turned to—Procter & Gamble, <span class=\"mask\">[Colgate-Palmolive]</span> and Unilever—had invested hundreds of millions of dollars finding the subtle cues in <span class=\"mask\">[consumers’]</span> lives that <span class=\"mask\">[corporations]</span> could use to introduce new routines.</p></div></div>",
+          "raw": "The companies that Dr. Curtis turned to—Procter & Gamble, [Colgate-Palmolive] and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that [corporations] could use to introduce new routines.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The companies that Dr. Curtis turned to—Procter & Gamble, <span class=\"mask\">[Colgate-Palmolive]</span> and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that <span class=\"mask\">[corporations]</span> could use to introduce new routines.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 2,
@@ -3672,8 +5142,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "The [companies] / that Dr. / Curtis turned to—Procter & Gamble, / [Colgate-Palmolive] and Unilever—had invested hundreds of millions of dollars finding the subtle cues in [consumers’] lives / that [corporations] could use to introduce new routines.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The <span class=\"mask\">[companies]</span> / that Dr. / Curtis turned to—Procter & Gamble, / <span class=\"mask\">[Colgate-Palmolive]</span> and Unilever—had invested hundreds of millions of dollars finding the subtle cues in <span class=\"mask\">[consumers’]</span> lives / that <span class=\"mask\">[corporations]</span> could use to introduce new routines.</p></div></div>",
+          "raw": "The companies / that Dr. / Curtis turned to—Procter & Gamble, / [Colgate-Palmolive] and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives / that [corporations] could use to introduce new routines.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The companies / that Dr. / Curtis turned to—Procter & Gamble, / <span class=\"mask\">[Colgate-Palmolive]</span> and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives / that <span class=\"mask\">[corporations]</span> could use to introduce new routines.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 2,
@@ -3702,8 +5172,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin [moisturizers], [disinfecting] wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of [manufactured] habits. A century ago, few people regularly brushed their teeth multiple times a day. Today, because of shrewd advertising and public health [campaigns], many Americans habitually give their pearly whites a [cavity-preventing] scrub twice a day, often with Colgate, Crest or one of the other brands.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin <span class=\"mask\">[moisturizers]</span>, <span class=\"mask\">[disinfecting]</span> wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of <span class=\"mask\">[manufactured]</span> habits. A century ago, few people regularly brushed their teeth multiple times a day. Today, because of shrewd advertising and public health <span class=\"mask\">[campaigns]</span>, many Americans habitually give their pearly whites a <span class=\"mask\">[cavity-preventing]</span> scrub twice a day, often with Colgate, Crest or one of the other brands.</p></div></div>",
+          "raw": "If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin [moisturizers], [disinfecting] wipes, air fresheners, water [purifiers], health snacks, teeth [whiteners], fabric softeners, vitamins—are results of [manufactured] habits. A century ago, few people [regularly] brushed their teeth multiple times a day. Today, because of shrewd advertising and public health [campaigns], many [Americans] [habitually] give their pearly whites a [cavity-preventing] scrub twice a day, often with Colgate, Crest or one of the other brands.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin <span class=\"mask\">[moisturizers]</span>, <span class=\"mask\">[disinfecting]</span> wipes, air fresheners, water <span class=\"mask\">[purifiers]</span>, health snacks, teeth <span class=\"mask\">[whiteners]</span>, fabric softeners, vitamins—are results of <span class=\"mask\">[manufactured]</span> habits. A century ago, few people <span class=\"mask\">[regularly]</span> brushed their teeth multiple times a day. Today, because of shrewd advertising and public health <span class=\"mask\">[campaigns]</span>, many <span class=\"mask\">[Americans]</span> <span class=\"mask\">[habitually]</span> give their pearly whites a <span class=\"mask\">[cavity-preventing]</span> scrub twice a day, often with Colgate, Crest or one of the other brands.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 3,
@@ -3712,8 +5182,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "If you look hard enough, / you’ll find / that many of the products we use every day— / chewing gums, / skin [moisturizers], / [disinfecting] wipes, / air fresheners, / water purifiers, / health snacks, / teeth whiteners, / fabric softeners, / vitamins—are results of [manufactured] habits. / A century ago, / few people regularly brushed their teeth multiple times a day. / Today, / / because of shrewd advertising and public health [campaigns], / many Americans habitually give their pearly whites a [cavity-preventing] scrub twice a day, / often with Colgate, / Crest or one of the other brands.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>If you look hard enough, / you’ll find / that many of the products we use every day— / chewing gums, / skin <span class=\"mask\">[moisturizers]</span>, / <span class=\"mask\">[disinfecting]</span> wipes, / air fresheners, / water purifiers, / health snacks, / teeth whiteners, / fabric softeners, / vitamins—are results of <span class=\"mask\">[manufactured]</span> habits. / A century ago, / few people regularly brushed their teeth multiple times a day. / Today, / / because of shrewd advertising and public health <span class=\"mask\">[campaigns]</span>, / many Americans habitually give their pearly whites a <span class=\"mask\">[cavity-preventing]</span> scrub twice a day, / often with Colgate, / Crest or one of the other brands.</p></div></div>",
+          "raw": "If you look hard enough, / you’ll find / that many of the products we use every day— / chewing gums, / skin [moisturizers], / [disinfecting] wipes, / air fresheners, / water [purifiers], / health snacks, / teeth [whiteners], / fabric softeners, / vitamins—are results of [manufactured] habits. / A century ago, / few people [regularly] brushed their teeth multiple times a day. / Today, / / because of shrewd advertising and public health [campaigns], / many [Americans] [habitually] give their pearly whites a [cavity-preventing] scrub twice a day, / often with Colgate, / Crest or one of the other brands.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>If you look hard enough, / you’ll find / that many of the products we use every day— / chewing gums, / skin <span class=\"mask\">[moisturizers]</span>, / <span class=\"mask\">[disinfecting]</span> wipes, / air fresheners, / water <span class=\"mask\">[purifiers]</span>, / health snacks, / teeth <span class=\"mask\">[whiteners]</span>, / fabric softeners, / vitamins—are results of <span class=\"mask\">[manufactured]</span> habits. / A century ago, / few people <span class=\"mask\">[regularly]</span> brushed their teeth multiple times a day. / Today, / / because of shrewd advertising and public health <span class=\"mask\">[campaigns]</span>, / many <span class=\"mask\">[Americans]</span> <span class=\"mask\">[habitually]</span> give their pearly whites a <span class=\"mask\">[cavity-preventing]</span> scrub twice a day, / often with Colgate, / Crest or one of the other brands.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 3,
@@ -3742,8 +5212,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "A few decades ago, many people didn’t drink water outside of a meal. Then beverage [companies] started bottling the production of far-off springs, and now office workers [unthinkingly] sip bottled water all day long. Chewing gum, once bought primarily by adolescent boys, is now featured in commercials as a breath freshener and teeth cleanser for use after a meal. Skin [moisturizers] are advertised as part of morning beauty rituals, slipped in between hair brushing and putting on makeup.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>A few decades ago, many people didn’t drink water outside of a meal. Then beverage <span class=\"mask\">[companies]</span> started bottling the production of far-off springs, and now office workers <span class=\"mask\">[unthinkingly]</span> sip bottled water all day long. Chewing gum, once bought primarily by adolescent boys, is now featured in commercials as a breath freshener and teeth cleanser for use after a meal. Skin <span class=\"mask\">[moisturizers]</span> are advertised as part of morning beauty rituals, slipped in between hair brushing and putting on makeup.</p></div></div>",
+          "raw": "A few decades ago, many people didn’t drink water outside of a meal. Then beverage companies started bottling the production of far-off springs, and now office workers [unthinkingly] sip bottled water all day long. Chewing gum, once bought primarily by adolescent boys, is now featured in commercials as a breath freshener and teeth cleanser for use after a meal. Skin [moisturizers] are advertised as part of morning beauty rituals, slipped in between hair brushing and putting on makeup.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>A few decades ago, many people didn’t drink water outside of a meal. Then beverage companies started bottling the production of far-off springs, and now office workers <span class=\"mask\">[unthinkingly]</span> sip bottled water all day long. Chewing gum, once bought primarily by adolescent boys, is now featured in commercials as a breath freshener and teeth cleanser for use after a meal. Skin <span class=\"mask\">[moisturizers]</span> are advertised as part of morning beauty rituals, slipped in between hair brushing and putting on makeup.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 4,
@@ -3752,8 +5222,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "A few decades ago, / many people didn’t drink water outside of a meal. / Then beverage [companies] started bottling the production of far-off springs, / and now office workers [unthinkingly] sip bottled water all day long. / Chewing gum, / once bought primarily by adolescent boys, / is now featured in commercials as a breath freshener and teeth cleanser for use / after a meal. / Skin [moisturizers] are advertised as part of morning beauty rituals, / slipped in between hair brushing and putting on makeup.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>A few decades ago, / many people didn’t drink water outside of a meal. / Then beverage <span class=\"mask\">[companies]</span> started bottling the production of far-off springs, / and now office workers <span class=\"mask\">[unthinkingly]</span> sip bottled water all day long. / Chewing gum, / once bought primarily by adolescent boys, / is now featured in commercials as a breath freshener and teeth cleanser for use / after a meal. / Skin <span class=\"mask\">[moisturizers]</span> are advertised as part of morning beauty rituals, / slipped in between hair brushing and putting on makeup.</p></div></div>",
+          "raw": "A few decades ago, / many people didn’t drink water outside of a meal. / Then beverage companies started bottling the production of far-off springs, / and now office workers [unthinkingly] sip bottled water all day long. / Chewing gum, / once bought primarily by adolescent boys, / is now featured in commercials as a breath freshener and teeth cleanser for use / after a meal. / Skin [moisturizers] are advertised as part of morning beauty rituals, / slipped in between hair brushing and putting on makeup.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>A few decades ago, / many people didn’t drink water outside of a meal. / Then beverage companies started bottling the production of far-off springs, / and now office workers <span class=\"mask\">[unthinkingly]</span> sip bottled water all day long. / Chewing gum, / once bought primarily by adolescent boys, / is now featured in commercials as a breath freshener and teeth cleanser for use / after a meal. / Skin <span class=\"mask\">[moisturizers]</span> are advertised as part of morning beauty rituals, / slipped in between hair brushing and putting on makeup.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 4,
@@ -3782,8 +5252,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "“Our products succeed when they become part of daily or weekly patterns,” said Carol Berning, a consumer [psychologist] who recently retired from Procter & Gamble, the company that sold $76 billion of Tide, Crest and other products last year. “Creating positive habits is a huge part of improving our [consumers’] lives, and it’s essential to making new products [commercially] viable.”",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>“Our products succeed when they become part of daily or weekly patterns,” said Carol Berning, a consumer <span class=\"mask\">[psychologist]</span> who recently retired from Procter & Gamble, the company that sold $76 billion of Tide, Crest and other products last year. “Creating positive habits is a huge part of improving our <span class=\"mask\">[consumers’]</span> lives, and it’s essential to making new products <span class=\"mask\">[commercially]</span> viable.”</p></div></div>",
+          "raw": "“Our products succeed when they become part of daily or weekly patterns,” said Carol Berning, a consumer [psychologist] who recently retired from Procter & Gamble, the company that sold $76 billion of Tide, Crest and other products last year. “Creating positive habits is a huge part of improving our consumers’ lives, and it’s essential to making new products [commercially] viable.”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>“Our products succeed when they become part of daily or weekly patterns,” said Carol Berning, a consumer <span class=\"mask\">[psychologist]</span> who recently retired from Procter & Gamble, the company that sold $76 billion of Tide, Crest and other products last year. “Creating positive habits is a huge part of improving our consumers’ lives, and it’s essential to making new products <span class=\"mask\">[commercially]</span> viable.”</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 5,
@@ -3792,8 +5262,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "“Our products succeed / when they become part of daily or weekly patterns,” said Carol Berning, / a consumer [psychologist] / who recently retired from Procter & Gamble, / the company / that sold $76 billion of Tide, / Crest and other products last year. “Creating positive habits is a huge part of improving our [consumers’] lives, / and it’s essential to making new products [commercially] viable.”",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>“Our products succeed / when they become part of daily or weekly patterns,” said Carol Berning, / a consumer <span class=\"mask\">[psychologist]</span> / who recently retired from Procter & Gamble, / the company / that sold $76 billion of Tide, / Crest and other products last year. “Creating positive habits is a huge part of improving our <span class=\"mask\">[consumers’]</span> lives, / and it’s essential to making new products <span class=\"mask\">[commercially]</span> viable.”</p></div></div>",
+          "raw": "“Our products succeed / when they become part of daily or weekly patterns,” said Carol Berning, / a consumer [psychologist] / who recently retired from Procter & Gamble, / the company / that sold $76 billion of Tide, / Crest and other products last year. “Creating positive habits is a huge part of improving our consumers’ lives, / and it’s essential to making new products [commercially] viable.”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>“Our products succeed / when they become part of daily or weekly patterns,” said Carol Berning, / a consumer <span class=\"mask\">[psychologist]</span> / who recently retired from Procter & Gamble, / the company / that sold $76 billion of Tide, / Crest and other products last year. “Creating positive habits is a huge part of improving our consumers’ lives, / and it’s essential to making new products <span class=\"mask\">[commercially]</span> viable.”</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 5,
@@ -3822,8 +5292,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "Through experiments and observation, social [scientists] like Dr. Berning have learned that there is power in tying certain behaviors to habitual cues through ruthless advertising. As this new science of habit has emerged, [controversies] have erupted when the tactics have been used to sell [questionable] beauty creams or unhealthy foods.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Through experiments and observation, social <span class=\"mask\">[scientists]</span> like Dr. Berning have learned that there is power in tying certain behaviors to habitual cues through ruthless advertising. As this new science of habit has emerged, <span class=\"mask\">[controversies]</span> have erupted when the tactics have been used to sell <span class=\"mask\">[questionable]</span> beauty creams or unhealthy foods.</p></div></div>",
+          "raw": "Through experiments and observation, social [scientists] like Dr. Berning have learned that there is power in tying certain behaviors to habitual cues through ruthless advertising. As this new science of habit has emerged, [controversies] have erupted when the tactics have been used to sell [questionable] beauty creams or [unhealthy] foods.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Through experiments and observation, social <span class=\"mask\">[scientists]</span> like Dr. Berning have learned that there is power in tying certain behaviors to habitual cues through ruthless advertising. As this new science of habit has emerged, <span class=\"mask\">[controversies]</span> have erupted when the tactics have been used to sell <span class=\"mask\">[questionable]</span> beauty creams or <span class=\"mask\">[unhealthy]</span> foods.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 6,
@@ -3832,8 +5302,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "Through experiments and observation, / social [scientists] like Dr. / Berning have learned / that there is power in tying certain behaviors to habitual cues through ruthless advertising. / As this new science of habit has emerged, / [controversies] have erupted / when the tactics have been used to sell [questionable] beauty creams or unhealthy foods.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Through experiments and observation, / social <span class=\"mask\">[scientists]</span> like Dr. / Berning have learned / that there is power in tying certain behaviors to habitual cues through ruthless advertising. / As this new science of habit has emerged, / <span class=\"mask\">[controversies]</span> have erupted / when the tactics have been used to sell <span class=\"mask\">[questionable]</span> beauty creams or unhealthy foods.</p></div></div>",
+          "raw": "Through experiments and observation, / social [scientists] like Dr. / Berning have learned / that there is power in tying certain behaviors to habitual cues through ruthless advertising. / As this new science of habit has emerged, / [controversies] have erupted / when the tactics have been used to sell [questionable] beauty creams or [unhealthy] foods.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Through experiments and observation, / social <span class=\"mask\">[scientists]</span> like Dr. / Berning have learned / that there is power in tying certain behaviors to habitual cues through ruthless advertising. / As this new science of habit has emerged, / <span class=\"mask\">[controversies]</span> have erupted / when the tactics have been used to sell <span class=\"mask\">[questionable]</span> beauty creams or <span class=\"mask\">[unhealthy]</span> foods.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 6,
@@ -3868,8 +5338,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "31题",
-          "raw": "## 31题\n\n**According to Dr. Curtis, habits like hand washing with soap .**\n\n> 根据柯蒂斯博士的说法，习惯比如用肥皂洗手。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> Over the past decade, many [companies] had [perfected] the art of creating automatic behaviors—habits—among [consumers]. These habits have helped [companies] earn billions of dollars when customers eat snacks or wipe counters almost without thinking, often in response to a carefully designed set of daily cues.\n>\n> 开始精读：\n>\n> Over the past decade, / many [companies] had [perfected] the art of creating automatic behaviors—habits—among [consumers]. / These habits have helped [companies] earn billions of dollars / when customers eat snacks or wipe counters almost without thinking, / often in response to a carefully designed set of daily cues.\n>\n> 逐意群顺译：\n>\n> 在过去的十年里，许多公司已经完善了在消费者中创造自动行为（习惯）的艺术。当顾客几乎不假思索地吃零食或擦拭柜台时，这些习惯帮助公司赚取了数十亿美元，这通常是对一套精心设计的日常提示的反应。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>31题</h2>\n<p><strong>According to Dr. Curtis, habits like hand washing with soap .</strong></p>\n<blockquote><p>根据柯蒂斯博士的说法，习惯比如用肥皂洗手。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Over the past decade, many <span class=\"mask\">[companies]</span> had <span class=\"mask\">[perfected]</span> the art of creating automatic behaviors—habits—among <span class=\"mask\">[consumers]</span>. These habits have helped <span class=\"mask\">[companies]</span> earn billions of dollars when customers eat snacks or wipe counters almost without thinking, often in response to a carefully designed set of daily cues.</p>\n<p><strong>开始精读：</strong></p>\n<p>Over the past decade, / many <span class=\"mask\">[companies]</span> had <span class=\"mask\">[perfected]</span> the art of creating automatic behaviors—habits—among <span class=\"mask\">[consumers]</span>. / These habits have helped <span class=\"mask\">[companies]</span> earn billions of dollars / when customers eat snacks or wipe counters almost without thinking, / often in response to a carefully designed set of daily cues.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>在过去的十年里，许多公司已经完善了在消费者中创造自动行为（习惯）的艺术。当顾客几乎不假思索地吃零食或擦拭柜台时，这些习惯帮助公司赚取了数十亿美元，这通常是对一套精心设计的日常提示的反应。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 31题\n\n**According to Dr. Curtis, habits like hand washing with soap .**\n\n> 根据柯蒂斯博士的说法，习惯比如用肥皂洗手。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers. These habits have helped companies earn billions of dollars when customers eat snacks or wipe counters almost without thinking, often in response to a carefully designed set of daily cues.\n>\n> 开始精读：\n>\n> Over the past decade, / many companies had perfected the art of creating automatic behaviors—habits—among consumers. / These habits have helped companies earn billions of dollars / when customers eat snacks or wipe counters almost without thinking, / often in response to a carefully designed set of daily cues.\n>\n> 逐意群顺译：\n>\n> 在过去的十年里，许多公司已经完善了在消费者中创造自动行为（习惯）的艺术。当顾客几乎不假思索地吃零食或擦拭柜台时，这些习惯帮助公司赚取了数十亿美元，这通常是对一套精心设计的日常提示的反应。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>31题</h2>\n<p><strong>According to Dr. Curtis, habits like hand washing with soap .</strong></p>\n<blockquote><p>根据柯蒂斯博士的说法，习惯比如用肥皂洗手。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers. These habits have helped companies earn billions of dollars when customers eat snacks or wipe counters almost without thinking, often in response to a carefully designed set of daily cues.</p>\n<p><strong>开始精读：</strong></p>\n<p>Over the past decade, / many companies had perfected the art of creating automatic behaviors—habits—among consumers. / These habits have helped companies earn billions of dollars / when customers eat snacks or wipe counters almost without thinking, / often in response to a carefully designed set of daily cues.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>在过去的十年里，许多公司已经完善了在消费者中创造自动行为（习惯）的艺术。当顾客几乎不假思索地吃零食或擦拭柜台时，这些习惯帮助公司赚取了数十亿美元，这通常是对一套精心设计的日常提示的反应。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "31"
@@ -3897,8 +5367,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "31题",
-          "raw": "### C. are deeply rooted in history\n\n> 深深植根于历史\n\n我们先看 C 选项：`are deeply rooted in history`（深深植根于历史）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据柯蒂斯博士的说法，习惯比如用肥皂洗手。 ➔ 选项认为：深深植根于历史\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“深深植根于历史”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
-          "html": "<h3>C. are deeply rooted in history</h3>\n<blockquote><p>深深植根于历史</p></blockquote>\n<p>我们先看 C 选项：<code>are deeply rooted in history</code>（深深植根于历史）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据柯蒂斯博士的说法，习惯比如用肥皂洗手。 ➔ 选项认为：深深植根于历史</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“深深植根于历史”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "raw": "### C. are deeply rooted in history\n\n> 深深植根于历史\n\n我们先看 C 选项：`are deeply rooted in history`（深深植根于历史）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据柯蒂斯博士的说法，习惯比如用肥皂洗手。 ➔ 选项认为：深深植根于历史\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `are`, `deeply`, `rooted` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. are deeply rooted in history</h3>\n<blockquote><p>深深植根于历史</p></blockquote>\n<p>我们先看 C 选项：<code>are deeply rooted in history</code>（深深植根于历史）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据柯蒂斯博士的说法，习惯比如用肥皂洗手。 ➔ 选项认为：深深植根于历史</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>are</code>, <code>deeply</code>, <code>rooted</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "31",
@@ -3907,8 +5377,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "31题",
-          "raw": "### D. are basically private concerns\n\n> 基本上都是私人问题\n\n我们先看 D 选项：`are basically private concerns`（基本上都是私人问题）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据柯蒂斯博士的说法，习惯比如用肥皂洗手。 ➔ 选项认为：基本上都是私人问题\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“基本上都是私人问题”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. are basically private concerns</h3>\n<blockquote><p>基本上都是私人问题</p></blockquote>\n<p>我们先看 D 选项：<code>are basically private concerns</code>（基本上都是私人问题）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据柯蒂斯博士的说法，习惯比如用肥皂洗手。 ➔ 选项认为：基本上都是私人问题</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“基本上都是私人问题”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. are basically private concerns\n\n> 基本上都是私人问题\n\n我们先看 D 选项：`are basically private concerns`（基本上都是私人问题）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据柯蒂斯博士的说法，习惯比如用肥皂洗手。 ➔ 选项认为：基本上都是私人问题\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“基本上都是私人问题”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. are basically private concerns</h3>\n<blockquote><p>基本上都是私人问题</p></blockquote>\n<p>我们先看 D 选项：<code>are basically private concerns</code>（基本上都是私人问题）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据柯蒂斯博士的说法，习惯比如用肥皂洗手。 ➔ 选项认为：基本上都是私人问题</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“基本上都是私人问题”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "31",
@@ -3945,8 +5415,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "32题",
-          "raw": "### B. show the urgent need of daily necessities\n\n> 表现出对生活必需品的迫切需要\n\n我们先看 B 选项：`show the urgent need of daily necessities`（表现出对生活必需品的迫切需要）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Bottled water, chewing gum and skin moisturizers are mentioned in Paragraph 5 so as to \n. ➔ 选项认为：表现出对生活必需品的迫切需要\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“表现出对生活必需品的迫切需要”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. show the urgent need of daily necessities</h3>\n<blockquote><p>表现出对生活必需品的迫切需要</p></blockquote>\n<p>我们先看 B 选项：<code>show the urgent need of daily necessities</code>（表现出对生活必需品的迫切需要）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Bottled water, chewing gum and skin moisturizers are mentioned in Paragraph 5 so as to<br />. ➔ 选项认为：表现出对生活必需品的迫切需要</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“表现出对生活必需品的迫切需要”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. show the urgent need of daily necessities\n\n> 表现出对生活必需品的迫切需要\n\n我们先看 B 选项：`show the urgent need of daily necessities`（表现出对生活必需品的迫切需要）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Bottled water, chewing gum and skin moisturizers are mentioned in Paragraph 5 so as to \n. ➔ 选项认为：表现出对生活必需品的迫切需要\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“表现出对生活必需品的迫切需要”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. show the urgent need of daily necessities</h3>\n<blockquote><p>表现出对生活必需品的迫切需要</p></blockquote>\n<p>我们先看 B 选项：<code>show the urgent need of daily necessities</code>（表现出对生活必需品的迫切需要）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Bottled water, chewing gum and skin moisturizers are mentioned in Paragraph 5 so as to<br />. ➔ 选项认为：表现出对生活必需品的迫切需要</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“表现出对生活必需品的迫切需要”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "32",
@@ -3984,8 +5454,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "33题",
-          "raw": "## 33题\n\n**Which of the following does NOT belong to products that help create people’s habits?**\n\n> 以下哪项不属于帮助人们养成习惯的产品？\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> The [companies] that Dr. Curtis turned to—Procter & Gamble, [Colgate-Palmolive] and Unilever—had invested hundreds of millions of dollars finding the subtle cues in [consumers’] lives that [corporations] could use to introduce new routines.\n>\n> 开始精读：\n>\n> The [companies] / that Dr. / Curtis turned to—Procter & Gamble, / [Colgate-Palmolive] and Unilever—had invested hundreds of millions of dollars finding the subtle cues in [consumers’] lives / that [corporations] could use to introduce new routines.\n>\n> 逐意群顺译：\n>\n> 柯蒂斯博士求助的公司——宝洁公司、高露洁棕榄公司和联合利华公司——已经投资了数亿美元，寻找消费者生活中的微妙线索，企业可以利用这些线索来引入新的生活习惯。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>33题</h2>\n<p><strong>Which of the following does NOT belong to products that help create people’s habits?</strong></p>\n<blockquote><p>以下哪项不属于帮助人们养成习惯的产品？</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>The <span class=\"mask\">[companies]</span> that Dr. Curtis turned to—Procter & Gamble, <span class=\"mask\">[Colgate-Palmolive]</span> and Unilever—had invested hundreds of millions of dollars finding the subtle cues in <span class=\"mask\">[consumers’]</span> lives that <span class=\"mask\">[corporations]</span> could use to introduce new routines.</p>\n<p><strong>开始精读：</strong></p>\n<p>The <span class=\"mask\">[companies]</span> / that Dr. / Curtis turned to—Procter & Gamble, / <span class=\"mask\">[Colgate-Palmolive]</span> and Unilever—had invested hundreds of millions of dollars finding the subtle cues in <span class=\"mask\">[consumers’]</span> lives / that <span class=\"mask\">[corporations]</span> could use to introduce new routines.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>柯蒂斯博士求助的公司——宝洁公司、高露洁棕榄公司和联合利华公司——已经投资了数亿美元，寻找消费者生活中的微妙线索，企业可以利用这些线索来引入新的生活习惯。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 33题\n\n**Which of the following does NOT belong to products that help create people’s habits?**\n\n> 以下哪项不属于帮助人们养成习惯的产品？\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> The companies that Dr. Curtis turned to—Procter & Gamble, [Colgate-Palmolive] and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that [corporations] could use to introduce new routines.\n>\n> 开始精读：\n>\n> The companies / that Dr. / Curtis turned to—Procter & Gamble, / [Colgate-Palmolive] and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives / that [corporations] could use to introduce new routines.\n>\n> 逐意群顺译：\n>\n> 柯蒂斯博士求助的公司——宝洁公司、高露洁棕榄公司和联合利华公司——已经投资了数亿美元，寻找消费者生活中的微妙线索，企业可以利用这些线索来引入新的生活习惯。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>33题</h2>\n<p><strong>Which of the following does NOT belong to products that help create people’s habits?</strong></p>\n<blockquote><p>以下哪项不属于帮助人们养成习惯的产品？</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>The companies that Dr. Curtis turned to—Procter & Gamble, <span class=\"mask\">[Colgate-Palmolive]</span> and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that <span class=\"mask\">[corporations]</span> could use to introduce new routines.</p>\n<p><strong>开始精读：</strong></p>\n<p>The companies / that Dr. / Curtis turned to—Procter & Gamble, / <span class=\"mask\">[Colgate-Palmolive]</span> and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives / that <span class=\"mask\">[corporations]</span> could use to introduce new routines.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>柯蒂斯博士求助的公司——宝洁公司、高露洁棕榄公司和联合利华公司——已经投资了数亿美元，寻找消费者生活中的微妙线索，企业可以利用这些线索来引入新的生活习惯。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "33"
@@ -3993,8 +5463,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "33题",
-          "raw": "### A. Tide.\n\n> 潮。\n\n我们先看 A 选项：`Tide.`（潮。）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪项不属于帮助人们养成习惯的产品？ ➔ 选项认为：潮。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `Tide` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
-          "html": "<h3>A. Tide.</h3>\n<blockquote><p>潮。</p></blockquote>\n<p>我们先看 A 选项：<code>Tide.</code>（潮。）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪项不属于帮助人们养成习惯的产品？ ➔ 选项认为：潮。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>Tide</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "raw": "### A. Tide.\n\n> 潮。\n\n我们先看 A 选项：`Tide.`（潮。）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪项不属于帮助人们养成习惯的产品？ ➔ 选项认为：潮。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“潮。”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. Tide.</h3>\n<blockquote><p>潮。</p></blockquote>\n<p>我们先看 A 选项：<code>Tide.</code>（潮。）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪项不属于帮助人们养成习惯的产品？ ➔ 选项认为：潮。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“潮。”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "33",
@@ -4013,8 +5483,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "33题",
-          "raw": "### C. Colgate.\n\n> 高露洁。\n\n我们先看 C 选项：`Colgate.`（高露洁。）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪项不属于帮助人们养成习惯的产品？ ➔ 选项认为：高露洁。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `Colgate` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
-          "html": "<h3>C. Colgate.</h3>\n<blockquote><p>高露洁。</p></blockquote>\n<p>我们先看 C 选项：<code>Colgate.</code>（高露洁。）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪项不属于帮助人们养成习惯的产品？ ➔ 选项认为：高露洁。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>Colgate</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "raw": "### C. Colgate.\n\n> 高露洁。\n\n我们先看 C 选项：`Colgate.`（高露洁。）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：以下哪项不属于帮助人们养成习惯的产品？ ➔ 选项认为：高露洁。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“高露洁。”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. Colgate.</h3>\n<blockquote><p>高露洁。</p></blockquote>\n<p>我们先看 C 选项：<code>Colgate.</code>（高露洁。）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：以下哪项不属于帮助人们养成习惯的产品？ ➔ 选项认为：高露洁。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“高露洁。”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "33",
@@ -4042,8 +5512,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "34题",
-          "raw": "## 34题\n\n**From the text we know that some of consumer’s habits are developed due to .**\n\n> 从文中我们知道，消费者的一些习惯是由于……而养成的。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin [moisturizers], [disinfecting] wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of [manufactured] habits. A century ago, few people regularly brushed their teeth multiple times a day. Today, because of shrewd advertising and public health [campaigns], many Americans habitually give their pearly whites a [cavity-preventing] scrub twice a day, often with Colgate, Crest or one of the other brands.\n>\n> 开始精读：\n>\n> If you look hard enough, / you’ll find / that many of the products we use every day— / chewing gums, / skin [moisturizers], / [disinfecting] wipes, / air fresheners, / water purifiers, / health snacks, / teeth whiteners, / fabric softeners, / vitamins—are results of [manufactured] habits. / A century ago, / few people regularly brushed their teeth multiple times a day. / Today, / / because of shrewd advertising and public health [campaigns], / many Americans habitually give their pearly whites a [cavity-preventing] scrub twice a day, / often with Colgate, / Crest or one of the other brands.\n>\n> 逐意群顺译：\n>\n> 如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。一个世纪前，很少有人每天定期刷牙多次。如今，由于精明的广告和公共卫生运动，许多美国人习惯性地每天两次给他们的珍珠白皮肤涂上防蛀牙磨砂膏，通常使用高露洁、佳洁士或其他品牌的产品。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>34题</h2>\n<p><strong>From the text we know that some of consumer’s habits are developed due to .</strong></p>\n<blockquote><p>从文中我们知道，消费者的一些习惯是由于……而养成的。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin <span class=\"mask\">[moisturizers]</span>, <span class=\"mask\">[disinfecting]</span> wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of <span class=\"mask\">[manufactured]</span> habits. A century ago, few people regularly brushed their teeth multiple times a day. Today, because of shrewd advertising and public health <span class=\"mask\">[campaigns]</span>, many Americans habitually give their pearly whites a <span class=\"mask\">[cavity-preventing]</span> scrub twice a day, often with Colgate, Crest or one of the other brands.</p>\n<p><strong>开始精读：</strong></p>\n<p>If you look hard enough, / you’ll find / that many of the products we use every day— / chewing gums, / skin <span class=\"mask\">[moisturizers]</span>, / <span class=\"mask\">[disinfecting]</span> wipes, / air fresheners, / water purifiers, / health snacks, / teeth whiteners, / fabric softeners, / vitamins—are results of <span class=\"mask\">[manufactured]</span> habits. / A century ago, / few people regularly brushed their teeth multiple times a day. / Today, / / because of shrewd advertising and public health <span class=\"mask\">[campaigns]</span>, / many Americans habitually give their pearly whites a <span class=\"mask\">[cavity-preventing]</span> scrub twice a day, / often with Colgate, / Crest or one of the other brands.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。一个世纪前，很少有人每天定期刷牙多次。如今，由于精明的广告和公共卫生运动，许多美国人习惯性地每天两次给他们的珍珠白皮肤涂上防蛀牙磨砂膏，通常使用高露洁、佳洁士或其他品牌的产品。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 34题\n\n**From the text we know that some of consumer’s habits are developed due to .**\n\n> 从文中我们知道，消费者的一些习惯是由于……而养成的。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin [moisturizers], [disinfecting] wipes, air fresheners, water [purifiers], health snacks, teeth [whiteners], fabric softeners, vitamins—are results of [manufactured] habits. A century ago, few people [regularly] brushed their teeth multiple times a day. Today, because of shrewd advertising and public health [campaigns], many [Americans] [habitually] give their pearly whites a [cavity-preventing] scrub twice a day, often with Colgate, Crest or one of the other brands.\n>\n> 开始精读：\n>\n> If you look hard enough, / you’ll find / that many of the products we use every day— / chewing gums, / skin [moisturizers], / [disinfecting] wipes, / air fresheners, / water [purifiers], / health snacks, / teeth [whiteners], / fabric softeners, / vitamins—are results of [manufactured] habits. / A century ago, / few people [regularly] brushed their teeth multiple times a day. / Today, / / because of shrewd advertising and public health [campaigns], / many [Americans] [habitually] give their pearly whites a [cavity-preventing] scrub twice a day, / often with Colgate, / Crest or one of the other brands.\n>\n> 逐意群顺译：\n>\n> 如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。一个世纪前，很少有人每天定期刷牙多次。如今，由于精明的广告和公共卫生运动，许多美国人习惯性地每天两次给他们的珍珠白皮肤涂上防蛀牙磨砂膏，通常使用高露洁、佳洁士或其他品牌的产品。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>34题</h2>\n<p><strong>From the text we know that some of consumer’s habits are developed due to .</strong></p>\n<blockquote><p>从文中我们知道，消费者的一些习惯是由于……而养成的。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin <span class=\"mask\">[moisturizers]</span>, <span class=\"mask\">[disinfecting]</span> wipes, air fresheners, water <span class=\"mask\">[purifiers]</span>, health snacks, teeth <span class=\"mask\">[whiteners]</span>, fabric softeners, vitamins—are results of <span class=\"mask\">[manufactured]</span> habits. A century ago, few people <span class=\"mask\">[regularly]</span> brushed their teeth multiple times a day. Today, because of shrewd advertising and public health <span class=\"mask\">[campaigns]</span>, many <span class=\"mask\">[Americans]</span> <span class=\"mask\">[habitually]</span> give their pearly whites a <span class=\"mask\">[cavity-preventing]</span> scrub twice a day, often with Colgate, Crest or one of the other brands.</p>\n<p><strong>开始精读：</strong></p>\n<p>If you look hard enough, / you’ll find / that many of the products we use every day— / chewing gums, / skin <span class=\"mask\">[moisturizers]</span>, / <span class=\"mask\">[disinfecting]</span> wipes, / air fresheners, / water <span class=\"mask\">[purifiers]</span>, / health snacks, / teeth <span class=\"mask\">[whiteners]</span>, / fabric softeners, / vitamins—are results of <span class=\"mask\">[manufactured]</span> habits. / A century ago, / few people <span class=\"mask\">[regularly]</span> brushed their teeth multiple times a day. / Today, / / because of shrewd advertising and public health <span class=\"mask\">[campaigns]</span>, / many <span class=\"mask\">[Americans]</span> <span class=\"mask\">[habitually]</span> give their pearly whites a <span class=\"mask\">[cavity-preventing]</span> scrub twice a day, / often with Colgate, / Crest or one of the other brands.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。一个世纪前，很少有人每天定期刷牙多次。如今，由于精明的广告和公共卫生运动，许多美国人习惯性地每天两次给他们的珍珠白皮肤涂上防蛀牙磨砂膏，通常使用高露洁、佳洁士或其他品牌的产品。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "34"
@@ -4051,8 +5521,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "34题",
-          "raw": "### A. perfected art of products\n\n> 完美的产品艺术\n\n我们先看 A 选项：`perfected art of products`（完美的产品艺术）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从文中我们知道，消费者的一些习惯是由于……而养成的。 ➔ 选项认为：完美的产品艺术\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `perfected`, `art`, `products` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
-          "html": "<h3>A. perfected art of products</h3>\n<blockquote><p>完美的产品艺术</p></blockquote>\n<p>我们先看 A 选项：<code>perfected art of products</code>（完美的产品艺术）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从文中我们知道，消费者的一些习惯是由于……而养成的。 ➔ 选项认为：完美的产品艺术</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>perfected</code>, <code>art</code>, <code>products</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "raw": "### A. perfected art of products\n\n> 完美的产品艺术\n\n我们先看 A 选项：`perfected art of products`（完美的产品艺术）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从文中我们知道，消费者的一些习惯是由于……而养成的。 ➔ 选项认为：完美的产品艺术\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“完美的产品艺术”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. perfected art of products</h3>\n<blockquote><p>完美的产品艺术</p></blockquote>\n<p>我们先看 A 选项：<code>perfected art of products</code>（完美的产品艺术）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从文中我们知道，消费者的一些习惯是由于……而养成的。 ➔ 选项认为：完美的产品艺术</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“完美的产品艺术”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "34",
@@ -4061,8 +5531,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "34题",
-          "raw": "### B. automatic behavior creation\n\n> 自动行为创建\n\n我们先看 B 选项：`automatic behavior creation`（自动行为创建）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从文中我们知道，消费者的一些习惯是由于……而养成的。 ➔ 选项认为：自动行为创建\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `automatic`, `behavior`, `creation` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. automatic behavior creation</h3>\n<blockquote><p>自动行为创建</p></blockquote>\n<p>我们先看 B 选项：<code>automatic behavior creation</code>（自动行为创建）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从文中我们知道，消费者的一些习惯是由于……而养成的。 ➔ 选项认为：自动行为创建</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>automatic</code>, <code>behavior</code>, <code>creation</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. automatic behavior creation\n\n> 自动行为创建\n\n我们先看 B 选项：`automatic behavior creation`（自动行为创建）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从文中我们知道，消费者的一些习惯是由于……而养成的。 ➔ 选项认为：自动行为创建\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“自动行为创建”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. automatic behavior creation</h3>\n<blockquote><p>自动行为创建</p></blockquote>\n<p>我们先看 B 选项：<code>automatic behavior creation</code>（自动行为创建）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从文中我们知道，消费者的一些习惯是由于……而养成的。 ➔ 选项认为：自动行为创建</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“自动行为创建”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "34",
@@ -4081,8 +5551,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "34题",
-          "raw": "### D. scientific experiments\n\n> 科学实验\n\n我们先看 D 选项：`scientific experiments`（科学实验）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从文中我们知道，消费者的一些习惯是由于……而养成的。 ➔ 选项认为：科学实验\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `scientific`, `experiments` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. scientific experiments</h3>\n<blockquote><p>科学实验</p></blockquote>\n<p>我们先看 D 选项：<code>scientific experiments</code>（科学实验）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从文中我们知道，消费者的一些习惯是由于……而养成的。 ➔ 选项认为：科学实验</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>scientific</code>, <code>experiments</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. scientific experiments\n\n> 科学实验\n\n我们先看 D 选项：`scientific experiments`（科学实验）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从文中我们知道，消费者的一些习惯是由于……而养成的。 ➔ 选项认为：科学实验\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“科学实验”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. scientific experiments</h3>\n<blockquote><p>科学实验</p></blockquote>\n<p>我们先看 D 选项：<code>scientific experiments</code>（科学实验）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从文中我们知道，消费者的一些习惯是由于……而养成的。 ➔ 选项认为：科学实验</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“科学实验”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "34",
@@ -4100,8 +5570,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "35题",
-          "raw": "## 35题\n\n**The author’s attitude toward the influence of advertisement on people’s habits is _____.**\n\n> 作者对于广告对人们习惯的影响的态度是_____。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 5 段展开，所以我们直接回第 5 段定位精读。\n\n> 原文参考：\n>\n> A few decades ago, many people didn’t drink water outside of a meal. Then beverage [companies] started bottling the production of far-off springs, and now office workers [unthinkingly] sip bottled water all day long. Chewing gum, once bought primarily by adolescent boys, is now featured in commercials as a breath freshener and teeth cleanser for use after a meal. Skin [moisturizers] are advertised as part of morning beauty rituals, slipped in between hair brushing and putting on makeup.\n>\n> 开始精读：\n>\n> A few decades ago, / many people didn’t drink water outside of a meal. / Then beverage [companies] started bottling the production of far-off springs, / and now office workers [unthinkingly] sip bottled water all day long. / Chewing gum, / once bought primarily by adolescent boys, / is now featured in commercials as a breath freshener and teeth cleanser for use / after a meal. / Skin [moisturizers] are advertised as part of morning beauty rituals, / slipped in between hair brushing and putting on makeup.\n>\n> 逐意群顺译：\n>\n> 几十年前，许多人饭后不喝水。后来饮料公司开始将遥远的泉水生产装瓶，现在上班族整天不假思索地喝着瓶装水。口香糖曾经主要由青春期男孩购买，现在在广告中作为餐后使用的口气清新剂和牙齿清洁剂。皮肤保湿霜被宣传为早晨美容仪式的一部分，在梳头和化妆之间使用。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>35题</h2>\n<p><strong>The author’s attitude toward the influence of advertisement on people’s habits is _____.</strong></p>\n<blockquote><p>作者对于广告对人们习惯的影响的态度是_____。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>5</strong> 段展开，所以我们直接回第 <strong>5</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>A few decades ago, many people didn’t drink water outside of a meal. Then beverage <span class=\"mask\">[companies]</span> started bottling the production of far-off springs, and now office workers <span class=\"mask\">[unthinkingly]</span> sip bottled water all day long. Chewing gum, once bought primarily by adolescent boys, is now featured in commercials as a breath freshener and teeth cleanser for use after a meal. Skin <span class=\"mask\">[moisturizers]</span> are advertised as part of morning beauty rituals, slipped in between hair brushing and putting on makeup.</p>\n<p><strong>开始精读：</strong></p>\n<p>A few decades ago, / many people didn’t drink water outside of a meal. / Then beverage <span class=\"mask\">[companies]</span> started bottling the production of far-off springs, / and now office workers <span class=\"mask\">[unthinkingly]</span> sip bottled water all day long. / Chewing gum, / once bought primarily by adolescent boys, / is now featured in commercials as a breath freshener and teeth cleanser for use / after a meal. / Skin <span class=\"mask\">[moisturizers]</span> are advertised as part of morning beauty rituals, / slipped in between hair brushing and putting on makeup.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>几十年前，许多人饭后不喝水。后来饮料公司开始将遥远的泉水生产装瓶，现在上班族整天不假思索地喝着瓶装水。口香糖曾经主要由青春期男孩购买，现在在广告中作为餐后使用的口气清新剂和牙齿清洁剂。皮肤保湿霜被宣传为早晨美容仪式的一部分，在梳头和化妆之间使用。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 35题\n\n**The author’s attitude toward the influence of advertisement on people’s habits is _____.**\n\n> 作者对于广告对人们习惯的影响的态度是_____。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 5 段展开，所以我们直接回第 5 段定位精读。\n\n> 原文参考：\n>\n> A few decades ago, many people didn’t drink water outside of a meal. Then beverage companies started bottling the production of far-off springs, and now office workers [unthinkingly] sip bottled water all day long. Chewing gum, once bought primarily by adolescent boys, is now featured in commercials as a breath freshener and teeth cleanser for use after a meal. Skin [moisturizers] are advertised as part of morning beauty rituals, slipped in between hair brushing and putting on makeup.\n>\n> 开始精读：\n>\n> A few decades ago, / many people didn’t drink water outside of a meal. / Then beverage companies started bottling the production of far-off springs, / and now office workers [unthinkingly] sip bottled water all day long. / Chewing gum, / once bought primarily by adolescent boys, / is now featured in commercials as a breath freshener and teeth cleanser for use / after a meal. / Skin [moisturizers] are advertised as part of morning beauty rituals, / slipped in between hair brushing and putting on makeup.\n>\n> 逐意群顺译：\n>\n> 几十年前，许多人饭后不喝水。后来饮料公司开始将遥远的泉水生产装瓶，现在上班族整天不假思索地喝着瓶装水。口香糖曾经主要由青春期男孩购买，现在在广告中作为餐后使用的口气清新剂和牙齿清洁剂。皮肤保湿霜被宣传为早晨美容仪式的一部分，在梳头和化妆之间使用。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>35题</h2>\n<p><strong>The author’s attitude toward the influence of advertisement on people’s habits is _____.</strong></p>\n<blockquote><p>作者对于广告对人们习惯的影响的态度是_____。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>5</strong> 段展开，所以我们直接回第 <strong>5</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>A few decades ago, many people didn’t drink water outside of a meal. Then beverage companies started bottling the production of far-off springs, and now office workers <span class=\"mask\">[unthinkingly]</span> sip bottled water all day long. Chewing gum, once bought primarily by adolescent boys, is now featured in commercials as a breath freshener and teeth cleanser for use after a meal. Skin <span class=\"mask\">[moisturizers]</span> are advertised as part of morning beauty rituals, slipped in between hair brushing and putting on makeup.</p>\n<p><strong>开始精读：</strong></p>\n<p>A few decades ago, / many people didn’t drink water outside of a meal. / Then beverage companies started bottling the production of far-off springs, / and now office workers <span class=\"mask\">[unthinkingly]</span> sip bottled water all day long. / Chewing gum, / once bought primarily by adolescent boys, / is now featured in commercials as a breath freshener and teeth cleanser for use / after a meal. / Skin <span class=\"mask\">[moisturizers]</span> are advertised as part of morning beauty rituals, / slipped in between hair brushing and putting on makeup.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>几十年前，许多人饭后不喝水。后来饮料公司开始将遥远的泉水生产装瓶，现在上班族整天不假思索地喝着瓶装水。口香糖曾经主要由青春期男孩购买，现在在广告中作为餐后使用的口气清新剂和牙齿清洁剂。皮肤保湿霜被宣传为早晨美容仪式的一部分，在梳头和化妆之间使用。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "35"
@@ -4109,8 +5579,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "35题",
-          "raw": "### A. indifferent\n\n> 冷漠\n\n我们先看 A 选项：`indifferent`（冷漠）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者对于广告对人们习惯的影响的态度是“冷漠”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“冷漠”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
-          "html": "<h3>A. indifferent</h3>\n<blockquote><p>冷漠</p></blockquote>\n<p>我们先看 A 选项：<code>indifferent</code>（冷漠）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者对于广告对人们习惯的影响的态度是“冷漠”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“冷漠”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "raw": "### A. indifferent\n\n> 冷漠\n\n我们先看 A 选项：`indifferent`（冷漠）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者对于广告对人们习惯的影响的态度是“冷漠”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `indifferent` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. indifferent</h3>\n<blockquote><p>冷漠</p></blockquote>\n<p>我们先看 A 选项：<code>indifferent</code>（冷漠）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者对于广告对人们习惯的影响的态度是“冷漠”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>indifferent</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "35",
@@ -4129,8 +5599,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "35题",
-          "raw": "### C. positive\n\n> 积极的\n\n我们先看 C 选项：`positive`（积极的）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者对于广告对人们习惯的影响的态度是“积极的”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“积极的”，但在原文第 5 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
-          "html": "<h3>C. positive</h3>\n<blockquote><p>积极的</p></blockquote>\n<p>我们先看 C 选项：<code>positive</code>（积极的）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者对于广告对人们习惯的影响的态度是“积极的”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“积极的”，但在原文第 5 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "raw": "### C. positive\n\n> 积极的\n\n我们先看 C 选项：`positive`（积极的）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者对于广告对人们习惯的影响的态度是“积极的”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `positive` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. positive</h3>\n<blockquote><p>积极的</p></blockquote>\n<p>我们先看 C 选项：<code>positive</code>（积极的）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者对于广告对人们习惯的影响的态度是“积极的”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>positive</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "35",
@@ -4811,7 +6281,7 @@ window.KAOYAN_DATA_2010 = {
         {
           "section": 3,
           "title": "3.一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
-          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，正确项如何进行同义改写，错误项如何设置陷阱；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
+          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，对的是如何对文章进行同义改写的，错的做题时为什么容易被文章中的对应表达骗，命题人是怎么想的；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
           "meta": {
             "section": 3
           }
@@ -4819,246 +6289,981 @@ window.KAOYAN_DATA_2010 = {
         {
           "section": 3,
           "title": "31题 · 题干、题型与核心出处",
-          "html": "<p><strong>31. According to Dr. Curtis, habits like hand washing with soap .</strong></p>\n<p>（根据柯蒂斯博士的说法，习惯比如用肥皂洗手。）</p>\n<p><strong>题型判定</strong>：事实细节题 ｜ <strong>定位出处</strong>：Paragraph 1</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>According to Dr. Curtis, habits like hand washing with soap .<br />根据柯蒂斯博士的说法，习惯比如用肥皂洗手。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>事实细节题</strong>，考查考生对第 <strong>1</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 1 段核心定位句）</h3>\n<blockquote>\n<p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.<br />在过去的十年里，许多公司已经完善了在消费者中创造自动行为（习惯）的艺术。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 1 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "31"
+            "qid": "31",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. should be further cultivated",
-          "html": "<p><strong>选项 A</strong>：<code>should be further cultivated</code></p>\n<p><strong>中文翻译</strong>：应该进一步培养</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>应该进一步培养</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "31",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. should be further cultivated",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>应该进一步培养</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>should</code>, <code>further</code>, <code>cultivated</code>，其对应的中文含义为“<strong>应该进一步培养</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.<br />在过去的十年里，许多公司已经完善了在消费者中创造自动行为（习惯）的艺术。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. should be further cultivated",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>应该进一步培养</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>should</code>, <code>further</code>, <code>cultivated</code>，其对应的中文含义为“<strong>应该进一步培养</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.<br />在过去的十年里，许多公司已经完善了在消费者中创造自动行为（习惯）的艺术。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>These habits have helped companies earn billions of dollars when customers eat snacks or wipe counters almost without thinking, often in response to a carefully designed set of daily cues.<br />当顾客几乎不假思索地吃零食或擦拭柜台时，这些习惯帮助公司赚取了数十亿美元，这通常是对一套精心设计的日常提示的反应。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 A 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. should be further cultivated",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>应该进一步培养</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>should</code>, <code>further</code>, <code>cultivated</code>，其对应的中文含义为“<strong>应该进一步培养</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.<br />在过去的十年里，许多公司已经完善了在消费者中创造自动行为（习惯）的艺术。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>These habits have helped companies earn billions of dollars when customers eat snacks or wipe counters almost without thinking, often in response to a carefully designed set of daily cues.<br />当顾客几乎不假思索地吃零食或擦拭柜台时，这些习惯帮助公司赚取了数十亿美元，这通常是对一套精心设计的日常提示的反应。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 A 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 A 选项（“应该进一步培养”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：A正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. should be changed gradually",
-          "html": "<p><strong>选项 B</strong>：<code>should be changed gradually</code></p>\n<p><strong>中文翻译</strong>：应该逐渐改变</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>应该逐渐改变</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "31",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. should be changed gradually",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>应该逐渐改变</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>should</code>, <code>changed</code>, <code>gradually</code>（“应该逐渐改变”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.<br />在过去的十年里，许多公司已经完善了在消费者中创造自动行为（习惯）的艺术。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>should</code>, <code>changed</code>, <code>gradually</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. should be changed gradually",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>应该逐渐改变</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>should</code>, <code>changed</code>, <code>gradually</code>（“应该逐渐改变”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.<br />在过去的十年里，许多公司已经完善了在消费者中创造自动行为（习惯）的艺术。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>should</code>, <code>changed</code>, <code>gradually</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>These habits have helped companies earn billions of dollars when customers eat snacks or wipe counters almost without thinking, often in response to a carefully designed set of daily cues.<br />当顾客几乎不假思索地吃零食或擦拭柜台时，这些习惯帮助公司赚取了数十亿美元，这通常是对一套精心设计的日常提示的反应。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. should be changed gradually",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>应该逐渐改变</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>should</code>, <code>changed</code>, <code>gradually</code>（“应该逐渐改变”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.<br />在过去的十年里，许多公司已经完善了在消费者中创造自动行为（习惯）的艺术。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>should</code>, <code>changed</code>, <code>gradually</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>These habits have helped companies earn billions of dollars when customers eat snacks or wipe counters almost without thinking, often in response to a carefully designed set of daily cues.<br />当顾客几乎不假思索地吃零食或擦拭柜台时，这些习惯帮助公司赚取了数十亿美元，这通常是对一套精心设计的日常提示的反应。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. are deeply rooted in history",
-          "html": "<p><strong>选项 C</strong>：<code>are deeply rooted in history</code></p>\n<p><strong>中文翻译</strong>：深深植根于历史</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>深深植根于历史</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "31",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. are deeply rooted in history",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>深深植根于历史</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>are</code>, <code>deeply</code>, <code>rooted</code>（“深深植根于历史”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.<br />在过去的十年里，许多公司已经完善了在消费者中创造自动行为（习惯）的艺术。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>are</code>, <code>deeply</code>, <code>rooted</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. are deeply rooted in history",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>深深植根于历史</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>are</code>, <code>deeply</code>, <code>rooted</code>（“深深植根于历史”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.<br />在过去的十年里，许多公司已经完善了在消费者中创造自动行为（习惯）的艺术。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>are</code>, <code>deeply</code>, <code>rooted</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>These habits have helped companies earn billions of dollars when customers eat snacks or wipe counters almost without thinking, often in response to a carefully designed set of daily cues.<br />当顾客几乎不假思索地吃零食或擦拭柜台时，这些习惯帮助公司赚取了数十亿美元，这通常是对一套精心设计的日常提示的反应。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. are deeply rooted in history",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>深深植根于历史</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>are</code>, <code>deeply</code>, <code>rooted</code>（“深深植根于历史”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.<br />在过去的十年里，许多公司已经完善了在消费者中创造自动行为（习惯）的艺术。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>are</code>, <code>deeply</code>, <code>rooted</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>These habits have helped companies earn billions of dollars when customers eat snacks or wipe counters almost without thinking, often in response to a carefully designed set of daily cues.<br />当顾客几乎不假思索地吃零食或擦拭柜台时，这些习惯帮助公司赚取了数十亿美元，这通常是对一套精心设计的日常提示的反应。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. are basically private concerns",
-          "html": "<p><strong>选项 D</strong>：<code>are basically private concerns</code></p>\n<p><strong>中文翻译</strong>：基本上都是私人问题</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>基本上都是私人问题</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "31",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. are basically private concerns",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>基本上都是私人问题</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>are</code>, <code>basically</code>, <code>private</code>（“基本上都是私人问题”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.<br />在过去的十年里，许多公司已经完善了在消费者中创造自动行为（习惯）的艺术。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. are basically private concerns",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>基本上都是私人问题</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>are</code>, <code>basically</code>, <code>private</code>（“基本上都是私人问题”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.<br />在过去的十年里，许多公司已经完善了在消费者中创造自动行为（习惯）的艺术。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>These habits have helped companies earn billions of dollars when customers eat snacks or wipe counters almost without thinking, often in response to a carefully designed set of daily cues.<br />当顾客几乎不假思索地吃零食或擦拭柜台时，这些习惯帮助公司赚取了数十亿美元，这通常是对一套精心设计的日常提示的反应。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. are basically private concerns",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>基本上都是私人问题</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>are</code>, <code>basically</code>, <code>private</code>（“基本上都是私人问题”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.<br />在过去的十年里，许多公司已经完善了在消费者中创造自动行为（习惯）的艺术。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>These habits have helped companies earn billions of dollars when customers eat snacks or wipe counters almost without thinking, often in response to a carefully designed set of daily cues.<br />当顾客几乎不假思索地吃零食或擦拭柜台时，这些习惯帮助公司赚取了数十亿美元，这通常是对一套精心设计的日常提示的反应。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "31题结论",
+          "html": "<blockquote>\n<p><strong>31. A. should be further cultivated</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>should</code>, <code...；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>are</code>, <code>de...；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "32题 · 题干、题型与核心出处",
-          "html": "<p><strong>32. Bottled water, chewing gum and skin moisturizers are mentioned in Paragraph 5 so as to \n.</strong></p>\n<p>（Bottled water, chewing gum and skin moisturizers are mentioned in Paragraph 5 so as to \n.）</p>\n<p><strong>题型判定</strong>：因果推断题 ｜ <strong>定位出处</strong>：Paragraph 2</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>Bottled water, chewing gum and skin moisturizers are mentioned in Paragraph 5 so as to \n.<br />Bottled water, chewing gum and skin moisturizers are mentioned in Paragraph 5 so as to \n.</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>因果推断题</strong>，考查考生对第 <strong>2</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 2 段核心定位句）</h3>\n<blockquote>\n<p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.<br />“存在一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，这些问题仍然是杀手，只是因为我们不知道如何改变人们的习惯，”博士说。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 2 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "32"
+            "qid": "32",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. reveal their impact on people’s habits",
-          "html": "<p><strong>选项 A</strong>：<code>reveal their impact on people’s habits</code></p>\n<p><strong>中文翻译</strong>：揭示它们对人们习惯的影响</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>揭示它们对人们习惯的影响</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "32",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. reveal their impact on people’s habits",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>揭示它们对人们习惯的影响</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>reveal</code>, <code>their</code>, <code>impact</code>，其对应的中文含义为“<strong>揭示它们对人们习惯的影响</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.<br />“存在一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，这些问题仍然是杀手，只是因为我们不知道如何改变人们的习惯，”博士说。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. reveal their impact on people’s habits",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>揭示它们对人们习惯的影响</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>reveal</code>, <code>their</code>, <code>impact</code>，其对应的中文含义为“<strong>揭示它们对人们习惯的影响</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.<br />“存在一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，这些问题仍然是杀手，只是因为我们不知道如何改变人们的习惯，”博士说。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Curtis, the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine.<br />柯蒂斯是伦敦卫生与热带医学院卫生中心主任。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 A 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. reveal their impact on people’s habits",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>揭示它们对人们习惯的影响</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>reveal</code>, <code>their</code>, <code>impact</code>，其对应的中文含义为“<strong>揭示它们对人们习惯的影响</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.<br />“存在一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，这些问题仍然是杀手，只是因为我们不知道如何改变人们的习惯，”博士说。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Curtis, the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine.<br />柯蒂斯是伦敦卫生与热带医学院卫生中心主任。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 A 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 A 选项（“揭示它们对人们习惯的影响”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：A正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. show the urgent need of daily necessities",
-          "html": "<p><strong>选项 B</strong>：<code>show the urgent need of daily necessities</code></p>\n<p><strong>中文翻译</strong>：表现出对生活必需品的迫切需要</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>表现出对生活必需品的迫切需要</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "32",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. show the urgent need of daily necessities",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>表现出对生活必需品的迫切需要</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>show</code>, <code>urgent</code>, <code>need</code>（“表现出对生活必需品的迫切需要”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.<br />“存在一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，这些问题仍然是杀手，只是因为我们不知道如何改变人们的习惯，”博士说。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. show the urgent need of daily necessities",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>表现出对生活必需品的迫切需要</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>show</code>, <code>urgent</code>, <code>need</code>（“表现出对生活必需品的迫切需要”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.<br />“存在一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，这些问题仍然是杀手，只是因为我们不知道如何改变人们的习惯，”博士说。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Curtis, the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine.<br />柯蒂斯是伦敦卫生与热带医学院卫生中心主任。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. show the urgent need of daily necessities",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>表现出对生活必需品的迫切需要</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>show</code>, <code>urgent</code>, <code>need</code>（“表现出对生活必需品的迫切需要”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.<br />“存在一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，这些问题仍然是杀手，只是因为我们不知道如何改变人们的习惯，”博士说。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Curtis, the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine.<br />柯蒂斯是伦敦卫生与热带医学院卫生中心主任。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. indicate their effect on people’s buying power",
-          "html": "<p><strong>选项 C</strong>：<code>indicate their effect on people’s buying power</code></p>\n<p><strong>中文翻译</strong>：表明它们对人们购买力的影响</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>表明它们对人们购买力的影响</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "32",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. indicate their effect on people’s buying power",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>表明它们对人们购买力的影响</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>indicate</code>, <code>their</code>, <code>effect</code>（“表明它们对人们购买力的影响”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.<br />“存在一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，这些问题仍然是杀手，只是因为我们不知道如何改变人们的习惯，”博士说。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. indicate their effect on people’s buying power",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>表明它们对人们购买力的影响</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>indicate</code>, <code>their</code>, <code>effect</code>（“表明它们对人们购买力的影响”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.<br />“存在一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，这些问题仍然是杀手，只是因为我们不知道如何改变人们的习惯，”博士说。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Curtis, the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine.<br />柯蒂斯是伦敦卫生与热带医学院卫生中心主任。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. indicate their effect on people’s buying power",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>表明它们对人们购买力的影响</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>indicate</code>, <code>their</code>, <code>effect</code>（“表明它们对人们购买力的影响”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.<br />“存在一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，这些问题仍然是杀手，只是因为我们不知道如何改变人们的习惯，”博士说。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Curtis, the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine.<br />柯蒂斯是伦敦卫生与热带医学院卫生中心主任。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. manifest the significant role of good habits",
-          "html": "<p><strong>选项 D</strong>：<code>manifest the significant role of good habits</code></p>\n<p><strong>中文翻译</strong>：体现良好习惯的重要作用</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>体现良好习惯的重要作用</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "32",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. manifest the significant role of good habits",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>体现良好习惯的重要作用</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>manifest</code>, <code>significant</code>, <code>role</code>（“体现良好习惯的重要作用”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.<br />“存在一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，这些问题仍然是杀手，只是因为我们不知道如何改变人们的习惯，”博士说。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. manifest the significant role of good habits",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>体现良好习惯的重要作用</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>manifest</code>, <code>significant</code>, <code>role</code>（“体现良好习惯的重要作用”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.<br />“存在一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，这些问题仍然是杀手，只是因为我们不知道如何改变人们的习惯，”博士说。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Curtis, the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine.<br />柯蒂斯是伦敦卫生与热带医学院卫生中心主任。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. manifest the significant role of good habits",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>体现良好习惯的重要作用</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>manifest</code>, <code>significant</code>, <code>role</code>（“体现良好习惯的重要作用”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.<br />“存在一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，这些问题仍然是杀手，只是因为我们不知道如何改变人们的习惯，”博士说。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Curtis, the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine.<br />柯蒂斯是伦敦卫生与热带医学院卫生中心主任。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "32题结论",
+          "html": "<blockquote>\n<p><strong>32. A. reveal their impact on people’s habits</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "33题 · 题干、题型与核心出处",
-          "html": "<p><strong>33. Which of the following does NOT belong to products that help create people’s habits?</strong></p>\n<p>（以下哪项不属于帮助人们养成习惯的产品？）</p>\n<p><strong>题型判定</strong>：段落推理题 ｜ <strong>定位出处</strong>：Paragraph 3</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>Which of the following does NOT belong to products that help create people’s habits?<br />以下哪项不属于帮助人们养成习惯的产品？</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>段落推理题</strong>，考查考生对第 <strong>3</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 3 段核心定位句）</h3>\n<blockquote>\n<p>The companies that Dr.<br />博士的公司</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 3 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "33"
+            "qid": "33",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. Tide.",
-          "html": "<p><strong>选项 A</strong>：<code>Tide.</code></p>\n<p><strong>中文翻译</strong>：潮。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>潮。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>The companies that Dr.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "33",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. Tide.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>潮。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>The companies that Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>Tide</code>（“潮。”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The companies that Dr.<br />博士的公司</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. Tide.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>潮。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>The companies that Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>Tide</code>（“潮。”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The companies that Dr.<br />博士的公司</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Curtis turned to—Procter & Gamble, Colgate-Palmolive and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that corporations could use to introduce new routines.<br />柯蒂斯求助于宝洁公司、高露洁棕榄公司和联合利华公司，这些公司投资了数亿美元，寻找消费者生活中的微妙线索，企业可以利用这些线索来引入新的生活习惯。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. Tide.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>潮。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>The companies that Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>Tide</code>（“潮。”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The companies that Dr.<br />博士的公司</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Curtis turned to—Procter & Gamble, Colgate-Palmolive and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that corporations could use to introduce new routines.<br />柯蒂斯求助于宝洁公司、高露洁棕榄公司和联合利华公司，这些公司投资了数亿美元，寻找消费者生活中的微妙线索，企业可以利用这些线索来引入新的生活习惯。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. Crest.",
-          "html": "<p><strong>选项 B</strong>：<code>Crest.</code></p>\n<p><strong>中文翻译</strong>：波峰。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>波峰。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The companies that Dr.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "33",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. Crest.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>波峰。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The companies that Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>Crest</code>（“波峰。”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The companies that Dr.<br />博士的公司</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>Crest</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. Crest.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>波峰。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The companies that Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>Crest</code>（“波峰。”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The companies that Dr.<br />博士的公司</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>Crest</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Curtis turned to—Procter & Gamble, Colgate-Palmolive and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that corporations could use to introduce new routines.<br />柯蒂斯求助于宝洁公司、高露洁棕榄公司和联合利华公司，这些公司投资了数亿美元，寻找消费者生活中的微妙线索，企业可以利用这些线索来引入新的生活习惯。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. Crest.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>波峰。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The companies that Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>Crest</code>（“波峰。”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The companies that Dr.<br />博士的公司</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>Crest</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Curtis turned to—Procter & Gamble, Colgate-Palmolive and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that corporations could use to introduce new routines.<br />柯蒂斯求助于宝洁公司、高露洁棕榄公司和联合利华公司，这些公司投资了数亿美元，寻找消费者生活中的微妙线索，企业可以利用这些线索来引入新的生活习惯。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. Colgate.",
-          "html": "<p><strong>选项 C</strong>：<code>Colgate.</code></p>\n<p><strong>中文翻译</strong>：高露洁。</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>高露洁。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>The companies that Dr.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "33",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. Colgate.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>高露洁。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>The companies that Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>Colgate</code>（“高露洁。”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The companies that Dr.<br />博士的公司</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“高露洁。”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. Colgate.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>高露洁。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>The companies that Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>Colgate</code>（“高露洁。”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The companies that Dr.<br />博士的公司</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“高露洁。”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Curtis turned to—Procter & Gamble, Colgate-Palmolive and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that corporations could use to introduce new routines.<br />柯蒂斯求助于宝洁公司、高露洁棕榄公司和联合利华公司，这些公司投资了数亿美元，寻找消费者生活中的微妙线索，企业可以利用这些线索来引入新的生活习惯。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. Colgate.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>高露洁。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>The companies that Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>Colgate</code>（“高露洁。”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The companies that Dr.<br />博士的公司</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“高露洁。”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Curtis turned to—Procter & Gamble, Colgate-Palmolive and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that corporations could use to introduce new routines.<br />柯蒂斯求助于宝洁公司、高露洁棕榄公司和联合利华公司，这些公司投资了数亿美元，寻找消费者生活中的微妙线索，企业可以利用这些线索来引入新的生活习惯。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. Unilever.",
-          "html": "<p><strong>选项 D</strong>：<code>Unilever.</code></p>\n<p><strong>中文翻译</strong>：联合利华。</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>联合利华。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The companies that Dr.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "33",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. Unilever.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>联合利华。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The companies that Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>Unilever</code>，其对应的中文含义为“<strong>联合利华。</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The companies that Dr.<br />博士的公司</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. Unilever.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>联合利华。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The companies that Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>Unilever</code>，其对应的中文含义为“<strong>联合利华。</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The companies that Dr.<br />博士的公司</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Curtis turned to—Procter & Gamble, Colgate-Palmolive and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that corporations could use to introduce new routines.<br />柯蒂斯求助于宝洁公司、高露洁棕榄公司和联合利华公司，这些公司投资了数亿美元，寻找消费者生活中的微妙线索，企业可以利用这些线索来引入新的生活习惯。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 D 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. Unilever.",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>联合利华。</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The companies that Dr.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>Unilever</code>，其对应的中文含义为“<strong>联合利华。</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The companies that Dr.<br />博士的公司</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Curtis turned to—Procter & Gamble, Colgate-Palmolive and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that corporations could use to introduce new routines.<br />柯蒂斯求助于宝洁公司、高露洁棕榄公司和联合利华公司，这些公司投资了数亿美元，寻找消费者生活中的微妙线索，企业可以利用这些线索来引入新的生活习惯。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 D 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 D 选项（“联合利华。”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：D正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "33题结论",
+          "html": "<blockquote>\n<p><strong>33. D. Unilever.</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>Crest</code>，但将其拼接到题...；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“高露洁。”，但在原文定位句中，作者表达的态度或客观事实恰恰相...；</li><li style=\"margin-bottom:6px\"><b>D</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "34题 · 题干、题型与核心出处",
-          "html": "<p><strong>34. From the text we know that some of consumer’s habits are developed due to .</strong></p>\n<p>（从文中我们知道，消费者的一些习惯是由于……而养成的。）</p>\n<p><strong>题型判定</strong>：词义/例证题 ｜ <strong>定位出处</strong>：Paragraph 4</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>From the text we know that some of consumer’s habits are developed due to .<br />从文中我们知道，消费者的一些习惯是由于……而养成的。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>词义/例证题</strong>，考查考生对第 <strong>4</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 4 段核心定位句）</h3>\n<blockquote>\n<p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.<br />如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 4 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "34"
+            "qid": "34",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. perfected art of products",
-          "html": "<p><strong>选项 A</strong>：<code>perfected art of products</code></p>\n<p><strong>中文翻译</strong>：完美的产品艺术</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>完美的产品艺术</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "34",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. perfected art of products",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>完美的产品艺术</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>perfected</code>, <code>art</code>, <code>products</code>（“完美的产品艺术”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.<br />如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. perfected art of products",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>完美的产品艺术</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>perfected</code>, <code>art</code>, <code>products</code>（“完美的产品艺术”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.<br />如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>A century ago, few people regularly brushed their teeth multiple times a day.<br />一个世纪前，很少有人每天定期刷牙多次。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. perfected art of products",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>完美的产品艺术</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>perfected</code>, <code>art</code>, <code>products</code>（“完美的产品艺术”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.<br />如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>A century ago, few people regularly brushed their teeth multiple times a day.<br />一个世纪前，很少有人每天定期刷牙多次。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. automatic behavior creation",
-          "html": "<p><strong>选项 B</strong>：<code>automatic behavior creation</code></p>\n<p><strong>中文翻译</strong>：自动行为创建</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>自动行为创建</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "34",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. automatic behavior creation",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>自动行为创建</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>automatic</code>, <code>behavior</code>, <code>creation</code>（“自动行为创建”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.<br />如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. automatic behavior creation",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>自动行为创建</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>automatic</code>, <code>behavior</code>, <code>creation</code>（“自动行为创建”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.<br />如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>A century ago, few people regularly brushed their teeth multiple times a day.<br />一个世纪前，很少有人每天定期刷牙多次。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. automatic behavior creation",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>自动行为创建</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>automatic</code>, <code>behavior</code>, <code>creation</code>（“自动行为创建”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.<br />如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>A century ago, few people regularly brushed their teeth multiple times a day.<br />一个世纪前，很少有人每天定期刷牙多次。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. commercial promotions",
-          "html": "<p><strong>选项 C</strong>：<code>commercial promotions</code></p>\n<p><strong>中文翻译</strong>：商业促销</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>商业促销</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "34",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. commercial promotions",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>商业促销</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>commercial</code>, <code>promotions</code>，其对应的中文含义为“<strong>商业促销</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.<br />如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. commercial promotions",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>商业促销</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>commercial</code>, <code>promotions</code>，其对应的中文含义为“<strong>商业促销</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.<br />如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>A century ago, few people regularly brushed their teeth multiple times a day.<br />一个世纪前，很少有人每天定期刷牙多次。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 C 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. commercial promotions",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>商业促销</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>commercial</code>, <code>promotions</code>，其对应的中文含义为“<strong>商业促销</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.<br />如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>A century ago, few people regularly brushed their teeth multiple times a day.<br />一个世纪前，很少有人每天定期刷牙多次。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 C 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 C 选项（“商业促销”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：C正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. scientific experiments",
-          "html": "<p><strong>选项 D</strong>：<code>scientific experiments</code></p>\n<p><strong>中文翻译</strong>：科学实验</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>科学实验</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "34",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. scientific experiments",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>科学实验</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>scientific</code>, <code>experiments</code>（“科学实验”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.<br />如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. scientific experiments",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>科学实验</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>scientific</code>, <code>experiments</code>（“科学实验”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.<br />如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>A century ago, few people regularly brushed their teeth multiple times a day.<br />一个世纪前，很少有人每天定期刷牙多次。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. scientific experiments",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>科学实验</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>scientific</code>, <code>experiments</code>（“科学实验”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.<br />如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>A century ago, few people regularly brushed their teeth multiple times a day.<br />一个世纪前，很少有人每天定期刷牙多次。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "34题结论",
+          "html": "<blockquote>\n<p><strong>34. C. commercial promotions</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>C</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "35题 · 题干、题型与核心出处",
-          "html": "<p><strong>35. The author’s attitude toward the influence of advertisement on people’s habits is _____.</strong></p>\n<p>（作者对于广告对人们习惯的影响的态度是_____。）</p>\n<p><strong>题型判定</strong>：全文主旨题 ｜ <strong>定位出处</strong>：Paragraph 5</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>The author’s attitude toward the influence of advertisement on people’s habits is _____.<br />作者对于广告对人们习惯的影响的态度是_____。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>全文主旨题</strong>，考查考生对第 <strong>5</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 5 段核心定位句）</h3>\n<blockquote>\n<p>A few decades ago, many people didn’t drink water outside of a meal.<br />几十年前，许多人饭后不喝水。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 5 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "35"
+            "qid": "35",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. indifferent",
-          "html": "<p><strong>选项 A</strong>：<code>indifferent</code></p>\n<p><strong>中文翻译</strong>：冷漠</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>冷漠</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "35",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. indifferent",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>冷漠</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>indifferent</code>（“冷漠”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.<br />几十年前，许多人饭后不喝水。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>indifferent</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. indifferent",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>冷漠</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>indifferent</code>（“冷漠”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.<br />几十年前，许多人饭后不喝水。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>indifferent</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Then beverage companies started bottling the production of far-off springs, and now office workers unthinkingly sip bottled water all day long.<br />后来饮料公司开始将遥远的泉水生产装瓶，现在上班族整天不假思索地喝着瓶装水。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. indifferent",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>冷漠</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>indifferent</code>（“冷漠”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.<br />几十年前，许多人饭后不喝水。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>indifferent</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Then beverage companies started bottling the production of far-off springs, and now office workers unthinkingly sip bottled water all day long.<br />后来饮料公司开始将遥远的泉水生产装瓶，现在上班族整天不假思索地喝着瓶装水。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. negative",
-          "html": "<p><strong>选项 B</strong>：<code>negative</code></p>\n<p><strong>中文翻译</strong>：消极的</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>消极的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "35",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. negative",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>消极的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>negative</code>，其对应的中文含义为“<strong>消极的</strong>”。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.<br />几十年前，许多人饭后不喝水。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. negative",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>消极的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>negative</code>，其对应的中文含义为“<strong>消极的</strong>”。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.<br />几十年前，许多人饭后不喝水。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Then beverage companies started bottling the production of far-off springs, and now office workers unthinkingly sip bottled water all day long.<br />后来饮料公司开始将遥远的泉水生产装瓶，现在上班族整天不假思索地喝着瓶装水。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 B 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. negative",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>消极的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>negative</code>，其对应的中文含义为“<strong>消极的</strong>”。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.<br />几十年前，许多人饭后不喝水。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Then beverage companies started bottling the production of far-off springs, and now office workers unthinkingly sip bottled water all day long.<br />后来饮料公司开始将遥远的泉水生产装瓶，现在上班族整天不假思索地喝着瓶装水。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 B 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 B 选项（“消极的”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：B正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. positive",
-          "html": "<p><strong>选项 C</strong>：<code>positive</code></p>\n<p><strong>中文翻译</strong>：积极的</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>积极的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "35",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. positive",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>积极的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>positive</code>（“积极的”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.<br />几十年前，许多人饭后不喝水。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>positive</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. positive",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>积极的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>positive</code>（“积极的”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.<br />几十年前，许多人饭后不喝水。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>positive</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Then beverage companies started bottling the production of far-off springs, and now office workers unthinkingly sip bottled water all day long.<br />后来饮料公司开始将遥远的泉水生产装瓶，现在上班族整天不假思索地喝着瓶装水。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. positive",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>积极的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>positive</code>（“积极的”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.<br />几十年前，许多人饭后不喝水。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>positive</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Then beverage companies started bottling the production of far-off springs, and now office workers unthinkingly sip bottled water all day long.<br />后来饮料公司开始将遥远的泉水生产装瓶，现在上班族整天不假思索地喝着瓶装水。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. biased",
-          "html": "<p><strong>选项 D</strong>：<code>biased</code></p>\n<p><strong>中文翻译</strong>：有偏见的</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>有偏见的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "35",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. biased",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>有偏见的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>biased</code>（“有偏见的”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.<br />几十年前，许多人饭后不喝水。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. biased",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>有偏见的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>biased</code>（“有偏见的”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.<br />几十年前，许多人饭后不喝水。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Then beverage companies started bottling the production of far-off springs, and now office workers unthinkingly sip bottled water all day long.<br />后来饮料公司开始将遥远的泉水生产装瓶，现在上班族整天不假思索地喝着瓶装水。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. biased",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>有偏见的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>biased</code>（“有偏见的”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>A few decades ago, many people didn’t drink water outside of a meal.<br />几十年前，许多人饭后不喝水。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Then beverage companies started bottling the production of far-off springs, and now office workers unthinkingly sip bottled water all day long.<br />后来饮料公司开始将遥远的泉水生产装瓶，现在上班族整天不假思索地喝着瓶装水。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "35题结论",
+          "html": "<blockquote>\n<p><strong>35. B. negative</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>indifferent</code>，但...；</li><li style=\"margin-bottom:6px\"><b>B</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>positive</code>，但将其拼...；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "form": "conclusion"
           }
         },
         {
@@ -5418,8 +7623,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "Many Americans regard the jury system as a concrete expression of crucial democratic values, [including] the principles that all citizens who meet minimal [qualifications] of age and literacy are equally [competent] to serve on juries; that jurors should be selected randomly from a [representative] cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law. The jury is also said to be the best surviving example of direct rather than [representative] [democracy]. In a direct [democracy], citizens take turns governing themselves, rather than electing [representatives] to govern for them.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, <span class=\"mask\">[including]</span> the principles that all citizens who meet minimal <span class=\"mask\">[qualifications]</span> of age and literacy are equally <span class=\"mask\">[competent]</span> to serve on juries; that jurors should be selected randomly from a <span class=\"mask\">[representative]</span> cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law. The jury is also said to be the best surviving example of direct rather than <span class=\"mask\">[representative]</span> <span class=\"mask\">[democracy]</span>. In a direct <span class=\"mask\">[democracy]</span>, citizens take turns governing themselves, rather than electing <span class=\"mask\">[representatives]</span> to govern for them.</p></div></div>",
+          "raw": "Many [Americans] regard the jury system as a concrete expression of crucial [democratic] values, including the principles that all citizens who meet minimal [qualifications] of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a [representative] cross section of the [community]; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that [defendants] are entitled to trial by their peers; and that verdicts should represent the conscience of the [community] and not just the letter of the law. The jury is also said to be the best surviving example of direct rather than [representative] democracy. In a direct democracy, citizens take turns governing themselves, rather than electing [representatives] to govern for them.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Many <span class=\"mask\">[Americans]</span> regard the jury system as a concrete expression of crucial <span class=\"mask\">[democratic]</span> values, including the principles that all citizens who meet minimal <span class=\"mask\">[qualifications]</span> of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a <span class=\"mask\">[representative]</span> cross section of the <span class=\"mask\">[community]</span>; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that <span class=\"mask\">[defendants]</span> are entitled to trial by their peers; and that verdicts should represent the conscience of the <span class=\"mask\">[community]</span> and not just the letter of the law. The jury is also said to be the best surviving example of direct rather than <span class=\"mask\">[representative]</span> democracy. In a direct democracy, citizens take turns governing themselves, rather than electing <span class=\"mask\">[representatives]</span> to govern for them.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 0,
@@ -5428,8 +7633,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "Many Americans regard the jury system as a concrete expression of crucial democratic values, / [including] the principles / that all citizens / who meet minimal [qualifications] of age and literacy are equally [competent] to serve on juries; / / that jurors should be selected randomly from a [representative] cross section of the community; / / that no citizen should be denied the right to serve on a jury on account of race, / religion, / sex, / or national origin; / / that defendants are entitled to trial by their peers; / and / that verdicts should represent the conscience of the community and not just the letter of the law. / The jury is also said to be the best surviving example of direct / rather than [representative] [democracy]. / In a direct [democracy], / citizens take turns governing themselves, / / rather than electing [representatives] to govern for them.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, / <span class=\"mask\">[including]</span> the principles / that all citizens / who meet minimal <span class=\"mask\">[qualifications]</span> of age and literacy are equally <span class=\"mask\">[competent]</span> to serve on juries; / / that jurors should be selected randomly from a <span class=\"mask\">[representative]</span> cross section of the community; / / that no citizen should be denied the right to serve on a jury on account of race, / religion, / sex, / or national origin; / / that defendants are entitled to trial by their peers; / and / that verdicts should represent the conscience of the community and not just the letter of the law. / The jury is also said to be the best surviving example of direct / rather than <span class=\"mask\">[representative]</span> <span class=\"mask\">[democracy]</span>. / In a direct <span class=\"mask\">[democracy]</span>, / citizens take turns governing themselves, / / rather than electing <span class=\"mask\">[representatives]</span> to govern for them.</p></div></div>",
+          "raw": "Many [Americans] regard the jury system as a concrete expression of crucial [democratic] values, / including the principles / that all citizens / who meet minimal [qualifications] of age and literacy are equally competent to serve on juries; / / that jurors should be selected randomly from a [representative] cross section of the [community]; / / that no citizen should be denied the right to serve on a jury on account of race, / religion, / sex, / or national origin; / / that [defendants] are entitled to trial by their peers; / and / that verdicts should represent the conscience of the [community] and not just the letter of the law. / The jury is also said to be the best surviving example of direct / rather than [representative] democracy. / In a direct democracy, / citizens take turns governing themselves, / / rather than electing [representatives] to govern for them.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Many <span class=\"mask\">[Americans]</span> regard the jury system as a concrete expression of crucial <span class=\"mask\">[democratic]</span> values, / including the principles / that all citizens / who meet minimal <span class=\"mask\">[qualifications]</span> of age and literacy are equally competent to serve on juries; / / that jurors should be selected randomly from a <span class=\"mask\">[representative]</span> cross section of the <span class=\"mask\">[community]</span>; / / that no citizen should be denied the right to serve on a jury on account of race, / religion, / sex, / or national origin; / / that <span class=\"mask\">[defendants]</span> are entitled to trial by their peers; / and / that verdicts should represent the conscience of the <span class=\"mask\">[community]</span> and not just the letter of the law. / The jury is also said to be the best surviving example of direct / rather than <span class=\"mask\">[representative]</span> democracy. / In a direct democracy, / citizens take turns governing themselves, / / rather than electing <span class=\"mask\">[representatives]</span> to govern for them.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 0,
@@ -5458,8 +7663,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "But as recently as in 1968, jury selection procedures conflicted with these democratic ideals. In some states, for example, jury duty was limited to persons of supposedly superior [intelligence], education, and moral character. Although the Supreme Court of the United States had prohibited intentional racial [discrimination] in jury selection as early as the 1880 case of Strauder v. West Virginia , the practice of [selecting] so-called elite or blue-ribbon juries provided a convenient way around this and other [antidiscrimination] laws.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals. In some states, for example, jury duty was limited to persons of supposedly superior <span class=\"mask\">[intelligence]</span>, education, and moral character. Although the Supreme Court of the United States had prohibited intentional racial <span class=\"mask\">[discrimination]</span> in jury selection as early as the 1880 case of Strauder v. West Virginia , the practice of <span class=\"mask\">[selecting]</span> so-called elite or blue-ribbon juries provided a convenient way around this and other <span class=\"mask\">[antidiscrimination]</span> laws.</p></div></div>",
+          "raw": "But as recently as in 1968, jury selection procedures conflicted with these [democratic] ideals. In some states, for example, jury duty was limited to persons of supposedly superior [intelligence], education, and moral character. Although the Supreme Court of the United States had prohibited intentional racial [discrimination] in jury selection as early as the 1880 case of Strauder v. West Virginia , the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other [antidiscrimination] laws.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>But as recently as in 1968, jury selection procedures conflicted with these <span class=\"mask\">[democratic]</span> ideals. In some states, for example, jury duty was limited to persons of supposedly superior <span class=\"mask\">[intelligence]</span>, education, and moral character. Although the Supreme Court of the United States had prohibited intentional racial <span class=\"mask\">[discrimination]</span> in jury selection as early as the 1880 case of Strauder v. West Virginia , the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other <span class=\"mask\">[antidiscrimination]</span> laws.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 1,
@@ -5468,8 +7673,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "But as recently as in 1968, / jury selection procedures conflicted with these democratic ideals. / In some states, / for example, / jury duty was limited to persons of supposedly superior [intelligence], / education, / and moral character. / Although the Supreme Court of the United States had prohibited intentional racial [discrimination] in jury selection as early as the 1880 case of Strauder v. / West Virginia , / the practice of [selecting] so-called elite or blue-ribbon juries provided a convenient way around this and other [antidiscrimination] laws.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>But as recently as in 1968, / jury selection procedures conflicted with these democratic ideals. / In some states, / for example, / jury duty was limited to persons of supposedly superior <span class=\"mask\">[intelligence]</span>, / education, / and moral character. / Although the Supreme Court of the United States had prohibited intentional racial <span class=\"mask\">[discrimination]</span> in jury selection as early as the 1880 case of Strauder v. / West Virginia , / the practice of <span class=\"mask\">[selecting]</span> so-called elite or blue-ribbon juries provided a convenient way around this and other <span class=\"mask\">[antidiscrimination]</span> laws.</p></div></div>",
+          "raw": "But as recently as in 1968, / jury selection procedures conflicted with these [democratic] ideals. / In some states, / for example, / jury duty was limited to persons of supposedly superior [intelligence], / education, / and moral character. / Although the Supreme Court of the United States had prohibited intentional racial [discrimination] in jury selection as early as the 1880 case of Strauder v. / West Virginia , / the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other [antidiscrimination] laws.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>But as recently as in 1968, / jury selection procedures conflicted with these <span class=\"mask\">[democratic]</span> ideals. / In some states, / for example, / jury duty was limited to persons of supposedly superior <span class=\"mask\">[intelligence]</span>, / education, / and moral character. / Although the Supreme Court of the United States had prohibited intentional racial <span class=\"mask\">[discrimination]</span> in jury selection as early as the 1880 case of Strauder v. / West Virginia , / the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other <span class=\"mask\">[antidiscrimination]</span> laws.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 1,
@@ -5498,8 +7703,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "The system also failed to regularly include women on juries until the mid-20th century.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The system also failed to regularly include women on juries until the mid-20th century.</p></div></div>",
+          "raw": "The system also failed to [regularly] include women on juries until the mid-20th century.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The system also failed to <span class=\"mask\">[regularly]</span> include women on juries until the mid-20th century.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 2,
@@ -5508,8 +7713,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "The system also failed to regularly include women on juries until the mid-20th century.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The system also failed to regularly include women on juries until the mid-20th century.</p></div></div>",
+          "raw": "The system also failed to [regularly] include women on juries until the mid-20th century.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>The system also failed to <span class=\"mask\">[regularly]</span> include women on juries until the mid-20th century.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 2,
@@ -5538,8 +7743,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty. Even then several states [automatically] exempted women from jury duty unless they personally asked to have their names included on the jury list. This practice was justified by the claim that women were needed at home, and it kept juries [unrepresentative] of women through the 1960s.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty. Even then several states <span class=\"mask\">[automatically]</span> exempted women from jury duty unless they personally asked to have their names included on the jury list. This practice was justified by the claim that women were needed at home, and it kept juries <span class=\"mask\">[unrepresentative]</span> of women through the 1960s.</p></div></div>",
+          "raw": "Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty. Even then several states [automatically] exempted women from jury duty unless they personally asked to have their names included on the jury list. This practice was [justified] by the claim that women were needed at home, and it kept juries [unrepresentative] of women through the 1960s.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty. Even then several states <span class=\"mask\">[automatically]</span> exempted women from jury duty unless they personally asked to have their names included on the jury list. This practice was <span class=\"mask\">[justified]</span> by the claim that women were needed at home, and it kept juries <span class=\"mask\">[unrepresentative]</span> of women through the 1960s.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 3,
@@ -5548,8 +7753,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "Although women first served on state juries in Utah in 1898, / it was not until the 1940s / that a majority of states made women eligible for jury duty. / Even then several states [automatically] exempted women from jury duty unless they personally asked to have their names included on the jury list. / This practice was justified by the claim / that women were needed at home, / and it kept juries [unrepresentative] of women through the 1960s.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Although women first served on state juries in Utah in 1898, / it was not until the 1940s / that a majority of states made women eligible for jury duty. / Even then several states <span class=\"mask\">[automatically]</span> exempted women from jury duty unless they personally asked to have their names included on the jury list. / This practice was justified by the claim / that women were needed at home, / and it kept juries <span class=\"mask\">[unrepresentative]</span> of women through the 1960s.</p></div></div>",
+          "raw": "Although women first served on state juries in Utah in 1898, / it was not until the 1940s / that a majority of states made women eligible for jury duty. / Even then several states [automatically] exempted women from jury duty unless they personally asked to have their names included on the jury list. / This practice was [justified] by the claim / that women were needed at home, / and it kept juries [unrepresentative] of women through the 1960s.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Although women first served on state juries in Utah in 1898, / it was not until the 1940s / that a majority of states made women eligible for jury duty. / Even then several states <span class=\"mask\">[automatically]</span> exempted women from jury duty unless they personally asked to have their names included on the jury list. / This practice was <span class=\"mask\">[justified]</span> by the claim / that women were needed at home, / and it kept juries <span class=\"mask\">[unrepresentative]</span> of women through the 1960s.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 3,
@@ -5578,8 +7783,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury. This law abolished special educational [requirements] for federal jurors and required them to be selected at random from a cross section of the entire community. In the landmark 1975 decision Taylor v. Louisiana, the Supreme Court extended the [requirement] that juries be [representative] of all parts of the community to the state level. The Taylor decision also declared sex [discrimination] in jury selection to be [unconstitutional] and ordered states to use the same procedures for [selecting] male and female jurors.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury. This law abolished special educational <span class=\"mask\">[requirements]</span> for federal jurors and required them to be selected at random from a cross section of the entire community. In the landmark 1975 decision Taylor v. Louisiana, the Supreme Court extended the <span class=\"mask\">[requirement]</span> that juries be <span class=\"mask\">[representative]</span> of all parts of the community to the state level. The Taylor decision also declared sex <span class=\"mask\">[discrimination]</span> in jury selection to be <span class=\"mask\">[unconstitutional]</span> and ordered states to use the same procedures for <span class=\"mask\">[selecting]</span> male and female jurors.</p></div></div>",
+          "raw": "In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of [democratic] reforms for the jury. This law abolished special [educational] [requirements] for federal jurors and required them to be selected at random from a cross section of the entire [community]. In the landmark 1975 decision Taylor v. Louisiana, the Supreme Court extended the requirement that juries be [representative] of all parts of the [community] to the state level. The Taylor decision also declared sex [discrimination] in jury selection to be [unconstitutional] and ordered states to use the same procedures for selecting male and female jurors.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of <span class=\"mask\">[democratic]</span> reforms for the jury. This law abolished special <span class=\"mask\">[educational]</span> <span class=\"mask\">[requirements]</span> for federal jurors and required them to be selected at random from a cross section of the entire <span class=\"mask\">[community]</span>. In the landmark 1975 decision Taylor v. Louisiana, the Supreme Court extended the requirement that juries be <span class=\"mask\">[representative]</span> of all parts of the <span class=\"mask\">[community]</span> to the state level. The Taylor decision also declared sex <span class=\"mask\">[discrimination]</span> in jury selection to be <span class=\"mask\">[unconstitutional]</span> and ordered states to use the same procedures for selecting male and female jurors.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 4,
@@ -5588,8 +7793,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "读文章",
-          "raw": "In 1968, / the Congress of the United States passed the Jury Selection and Service Act, / ushering in a new era of democratic reforms for the jury. / This law abolished special educational [requirements] for federal jurors and required them to be selected at random from a cross section of the entire community. / In the landmark 1975 decision Taylor v. / Louisiana, / the Supreme Court extended the [requirement] / that juries be [representative] of all parts of the community to the state level. / The Taylor decision also declared sex [discrimination] in jury selection to be [unconstitutional] and ordered states to use the same procedures for [selecting] male and female jurors.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>In 1968, / the Congress of the United States passed the Jury Selection and Service Act, / ushering in a new era of democratic reforms for the jury. / This law abolished special educational <span class=\"mask\">[requirements]</span> for federal jurors and required them to be selected at random from a cross section of the entire community. / In the landmark 1975 decision Taylor v. / Louisiana, / the Supreme Court extended the <span class=\"mask\">[requirement]</span> / that juries be <span class=\"mask\">[representative]</span> of all parts of the community to the state level. / The Taylor decision also declared sex <span class=\"mask\">[discrimination]</span> in jury selection to be <span class=\"mask\">[unconstitutional]</span> and ordered states to use the same procedures for <span class=\"mask\">[selecting]</span> male and female jurors.</p></div></div>",
+          "raw": "In 1968, / the Congress of the United States passed the Jury Selection and Service Act, / ushering in a new era of [democratic] reforms for the jury. / This law abolished special [educational] [requirements] for federal jurors and required them to be selected at random from a cross section of the entire [community]. / In the landmark 1975 decision Taylor v. / Louisiana, / the Supreme Court extended the requirement / that juries be [representative] of all parts of the [community] to the state level. / The Taylor decision also declared sex [discrimination] in jury selection to be [unconstitutional] and ordered states to use the same procedures for selecting male and female jurors.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>In 1968, / the Congress of the United States passed the Jury Selection and Service Act, / ushering in a new era of <span class=\"mask\">[democratic]</span> reforms for the jury. / This law abolished special <span class=\"mask\">[educational]</span> <span class=\"mask\">[requirements]</span> for federal jurors and required them to be selected at random from a cross section of the entire <span class=\"mask\">[community]</span>. / In the landmark 1975 decision Taylor v. / Louisiana, / the Supreme Court extended the requirement / that juries be <span class=\"mask\">[representative]</span> of all parts of the <span class=\"mask\">[community]</span> to the state level. / The Taylor decision also declared sex <span class=\"mask\">[discrimination]</span> in jury selection to be <span class=\"mask\">[unconstitutional]</span> and ordered states to use the same procedures for selecting male and female jurors.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 4,
@@ -5624,8 +7829,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "36题",
-          "raw": "## 36题\n\n**From the principles of the US jury system, we learn that .**\n\n> 从美国陪审团制度的原则中我们得知。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> Many Americans regard the jury system as a concrete expression of crucial democratic values, [including] the principles that all citizens who meet minimal [qualifications] of age and literacy are equally [competent] to serve on juries; that jurors should be selected randomly from a [representative] cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law. The jury is also said to be the best surviving example of direct rather than [representative] [democracy]. In a direct [democracy], citizens take turns governing themselves, rather than electing [representatives] to govern for them.\n>\n> 开始精读：\n>\n> Many Americans regard the jury system as a concrete expression of crucial democratic values, / [including] the principles / that all citizens / who meet minimal [qualifications] of age and literacy are equally [competent] to serve on juries; / / that jurors should be selected randomly from a [representative] cross section of the community; / / that no citizen should be denied the right to serve on a jury on account of race, / religion, / sex, / or national origin; / / that defendants are entitled to trial by their peers; / and / that verdicts should represent the conscience of the community and not just the letter of the law. / The jury is also said to be the best surviving example of direct / rather than [representative] [democracy]. / In a direct [democracy], / citizens take turns governing themselves, / / rather than electing [representatives] to govern for them.\n>\n> 逐意群顺译：\n>\n> 许多美国人认为陪审团制度是关键民主价值观的具体体现，其中包括所有符合最低年龄和文化水平的公民都平等有能力担任陪审员的原则；陪审员应从具有代表性的社区中随机选出；任何公民不应因种族、宗教、性别或国籍而被剥夺担任陪审团成员的权利；被告有权接受同侪的审判；判决应该代表社会良心，而不仅仅是法律条文。陪审团也被认为是现存的直接民主而非代议制民主的最佳范例。在直接民主中，公民轮流自治，而不是选举代表来治理。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>36题</h2>\n<p><strong>From the principles of the US jury system, we learn that .</strong></p>\n<blockquote><p>从美国陪审团制度的原则中我们得知。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Many Americans regard the jury system as a concrete expression of crucial democratic values, <span class=\"mask\">[including]</span> the principles that all citizens who meet minimal <span class=\"mask\">[qualifications]</span> of age and literacy are equally <span class=\"mask\">[competent]</span> to serve on juries; that jurors should be selected randomly from a <span class=\"mask\">[representative]</span> cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law. The jury is also said to be the best surviving example of direct rather than <span class=\"mask\">[representative]</span> <span class=\"mask\">[democracy]</span>. In a direct <span class=\"mask\">[democracy]</span>, citizens take turns governing themselves, rather than electing <span class=\"mask\">[representatives]</span> to govern for them.</p>\n<p><strong>开始精读：</strong></p>\n<p>Many Americans regard the jury system as a concrete expression of crucial democratic values, / <span class=\"mask\">[including]</span> the principles / that all citizens / who meet minimal <span class=\"mask\">[qualifications]</span> of age and literacy are equally <span class=\"mask\">[competent]</span> to serve on juries; / / that jurors should be selected randomly from a <span class=\"mask\">[representative]</span> cross section of the community; / / that no citizen should be denied the right to serve on a jury on account of race, / religion, / sex, / or national origin; / / that defendants are entitled to trial by their peers; / and / that verdicts should represent the conscience of the community and not just the letter of the law. / The jury is also said to be the best surviving example of direct / rather than <span class=\"mask\">[representative]</span> <span class=\"mask\">[democracy]</span>. / In a direct <span class=\"mask\">[democracy]</span>, / citizens take turns governing themselves, / / rather than electing <span class=\"mask\">[representatives]</span> to govern for them.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>许多美国人认为陪审团制度是关键民主价值观的具体体现，其中包括所有符合最低年龄和文化水平的公民都平等有能力担任陪审员的原则；陪审员应从具有代表性的社区中随机选出；任何公民不应因种族、宗教、性别或国籍而被剥夺担任陪审团成员的权利；被告有权接受同侪的审判；判决应该代表社会良心，而不仅仅是法律条文。陪审团也被认为是现存的直接民主而非代议制民主的最佳范例。在直接民主中，公民轮流自治，而不是选举代表来治理。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 36题\n\n**From the principles of the US jury system, we learn that .**\n\n> 从美国陪审团制度的原则中我们得知。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> Many [Americans] regard the jury system as a concrete expression of crucial [democratic] values, including the principles that all citizens who meet minimal [qualifications] of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a [representative] cross section of the [community]; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that [defendants] are entitled to trial by their peers; and that verdicts should represent the conscience of the [community] and not just the letter of the law. The jury is also said to be the best surviving example of direct rather than [representative] democracy. In a direct democracy, citizens take turns governing themselves, rather than electing [representatives] to govern for them.\n>\n> 开始精读：\n>\n> Many [Americans] regard the jury system as a concrete expression of crucial [democratic] values, / including the principles / that all citizens / who meet minimal [qualifications] of age and literacy are equally competent to serve on juries; / / that jurors should be selected randomly from a [representative] cross section of the [community]; / / that no citizen should be denied the right to serve on a jury on account of race, / religion, / sex, / or national origin; / / that [defendants] are entitled to trial by their peers; / and / that verdicts should represent the conscience of the [community] and not just the letter of the law. / The jury is also said to be the best surviving example of direct / rather than [representative] democracy. / In a direct democracy, / citizens take turns governing themselves, / / rather than electing [representatives] to govern for them.\n>\n> 逐意群顺译：\n>\n> 许多美国人认为陪审团制度是关键民主价值观的具体体现，其中包括所有符合最低年龄和文化水平的公民都平等有能力担任陪审员的原则；陪审员应从具有代表性的社区中随机选出；任何公民不应因种族、宗教、性别或国籍而被剥夺担任陪审团成员的权利；被告有权接受同侪的审判；判决应该代表社会良心，而不仅仅是法律条文。陪审团也被认为是现存的直接民主而非代议制民主的最佳范例。在直接民主中，公民轮流自治，而不是选举代表来治理。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>36题</h2>\n<p><strong>From the principles of the US jury system, we learn that .</strong></p>\n<blockquote><p>从美国陪审团制度的原则中我们得知。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Many <span class=\"mask\">[Americans]</span> regard the jury system as a concrete expression of crucial <span class=\"mask\">[democratic]</span> values, including the principles that all citizens who meet minimal <span class=\"mask\">[qualifications]</span> of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a <span class=\"mask\">[representative]</span> cross section of the <span class=\"mask\">[community]</span>; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that <span class=\"mask\">[defendants]</span> are entitled to trial by their peers; and that verdicts should represent the conscience of the <span class=\"mask\">[community]</span> and not just the letter of the law. The jury is also said to be the best surviving example of direct rather than <span class=\"mask\">[representative]</span> democracy. In a direct democracy, citizens take turns governing themselves, rather than electing <span class=\"mask\">[representatives]</span> to govern for them.</p>\n<p><strong>开始精读：</strong></p>\n<p>Many <span class=\"mask\">[Americans]</span> regard the jury system as a concrete expression of crucial <span class=\"mask\">[democratic]</span> values, / including the principles / that all citizens / who meet minimal <span class=\"mask\">[qualifications]</span> of age and literacy are equally competent to serve on juries; / / that jurors should be selected randomly from a <span class=\"mask\">[representative]</span> cross section of the <span class=\"mask\">[community]</span>; / / that no citizen should be denied the right to serve on a jury on account of race, / religion, / sex, / or national origin; / / that <span class=\"mask\">[defendants]</span> are entitled to trial by their peers; / and / that verdicts should represent the conscience of the <span class=\"mask\">[community]</span> and not just the letter of the law. / The jury is also said to be the best surviving example of direct / rather than <span class=\"mask\">[representative]</span> democracy. / In a direct democracy, / citizens take turns governing themselves, / / rather than electing <span class=\"mask\">[representatives]</span> to govern for them.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>许多美国人认为陪审团制度是关键民主价值观的具体体现，其中包括所有符合最低年龄和文化水平的公民都平等有能力担任陪审员的原则；陪审员应从具有代表性的社区中随机选出；任何公民不应因种族、宗教、性别或国籍而被剥夺担任陪审团成员的权利；被告有权接受同侪的审判；判决应该代表社会良心，而不仅仅是法律条文。陪审团也被认为是现存的直接民主而非代议制民主的最佳范例。在直接民主中，公民轮流自治，而不是选举代表来治理。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "36"
@@ -5633,8 +7838,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "36题",
-          "raw": "### A. both literate and illiterate people can serve on juries\n\n> 识字和文盲都可以担任陪审员\n\n我们先看 A 选项：`both literate and illiterate people can serve on juries`（识字和文盲都可以担任陪审员）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从美国陪审团制度的原则中我们得知。 ➔ 选项认为：识字和文盲都可以担任陪审员\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“识字和文盲都可以担任陪审员”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
-          "html": "<h3>A. both literate and illiterate people can serve on juries</h3>\n<blockquote><p>识字和文盲都可以担任陪审员</p></blockquote>\n<p>我们先看 A 选项：<code>both literate and illiterate people can serve on juries</code>（识字和文盲都可以担任陪审员）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从美国陪审团制度的原则中我们得知。 ➔ 选项认为：识字和文盲都可以担任陪审员</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“识字和文盲都可以担任陪审员”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "raw": "### A. both literate and illiterate people can serve on juries\n\n> 识字和文盲都可以担任陪审员\n\n我们先看 A 选项：`both literate and illiterate people can serve on juries`（识字和文盲都可以担任陪审员）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从美国陪审团制度的原则中我们得知。 ➔ 选项认为：识字和文盲都可以担任陪审员\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“识字和文盲都可以担任陪审员”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. both literate and illiterate people can serve on juries</h3>\n<blockquote><p>识字和文盲都可以担任陪审员</p></blockquote>\n<p>我们先看 A 选项：<code>both literate and illiterate people can serve on juries</code>（识字和文盲都可以担任陪审员）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从美国陪审团制度的原则中我们得知。 ➔ 选项认为：识字和文盲都可以担任陪审员</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“识字和文盲都可以担任陪审员”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "36",
@@ -5643,8 +7848,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "36题",
-          "raw": "### B. defendants are immune from trial by their peers\n\n> 被告免受同侪审判\n\n我们先看 B 选项：`defendants are immune from trial by their peers`（被告免受同侪审判）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从美国陪审团制度的原则中我们得知。 ➔ 选项认为：被告免受同侪审判\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“被告免受同侪审判”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. defendants are immune from trial by their peers</h3>\n<blockquote><p>被告免受同侪审判</p></blockquote>\n<p>我们先看 B 选项：<code>defendants are immune from trial by their peers</code>（被告免受同侪审判）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从美国陪审团制度的原则中我们得知。 ➔ 选项认为：被告免受同侪审判</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“被告免受同侪审判”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. defendants are immune from trial by their peers\n\n> 被告免受同侪审判\n\n我们先看 B 选项：`defendants are immune from trial by their peers`（被告免受同侪审判）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从美国陪审团制度的原则中我们得知。 ➔ 选项认为：被告免受同侪审判\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“被告免受同侪审判”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. defendants are immune from trial by their peers</h3>\n<blockquote><p>被告免受同侪审判</p></blockquote>\n<p>我们先看 B 选项：<code>defendants are immune from trial by their peers</code>（被告免受同侪审判）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从美国陪审团制度的原则中我们得知。 ➔ 选项认为：被告免受同侪审判</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“被告免受同侪审判”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "36",
@@ -5653,8 +7858,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "36题",
-          "raw": "### C. no age limit should be imposed for jury service\n\n> 出任陪审员不应有年龄限制\n\n我们先看 C 选项：`no age limit should be imposed for jury service`（出任陪审员不应有年龄限制）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从美国陪审团制度的原则中我们得知。 ➔ 选项认为：出任陪审员不应有年龄限制\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `age`, `limit`, `should` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
-          "html": "<h3>C. no age limit should be imposed for jury service</h3>\n<blockquote><p>出任陪审员不应有年龄限制</p></blockquote>\n<p>我们先看 C 选项：<code>no age limit should be imposed for jury service</code>（出任陪审员不应有年龄限制）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从美国陪审团制度的原则中我们得知。 ➔ 选项认为：出任陪审员不应有年龄限制</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>age</code>, <code>limit</code>, <code>should</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "raw": "### C. no age limit should be imposed for jury service\n\n> 出任陪审员不应有年龄限制\n\n我们先看 C 选项：`no age limit should be imposed for jury service`（出任陪审员不应有年龄限制）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：从美国陪审团制度的原则中我们得知。 ➔ 选项认为：出任陪审员不应有年龄限制\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“出任陪审员不应有年龄限制”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. no age limit should be imposed for jury service</h3>\n<blockquote><p>出任陪审员不应有年龄限制</p></blockquote>\n<p>我们先看 C 选项：<code>no age limit should be imposed for jury service</code>（出任陪审员不应有年龄限制）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：从美国陪审团制度的原则中我们得知。 ➔ 选项认为：出任陪审员不应有年龄限制</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“出任陪审员不应有年龄限制”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "36",
@@ -5682,8 +7887,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "37题",
-          "raw": "## 37题\n\n**The practice of selecting so-called elite jurors prior to 1968 showed .**\n\n> 1968年之前选择所谓精英陪审员的做法表明了这一点。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> But as recently as in 1968, jury selection procedures conflicted with these democratic ideals. In some states, for example, jury duty was limited to persons of supposedly superior [intelligence], education, and moral character. Although the Supreme Court of the United States had prohibited intentional racial [discrimination] in jury selection as early as the 1880 case of Strauder v. West Virginia , the practice of [selecting] so-called elite or blue-ribbon juries provided a convenient way around this and other [antidiscrimination] laws.\n>\n> 开始精读：\n>\n> But as recently as in 1968, / jury selection procedures conflicted with these democratic ideals. / In some states, / for example, / jury duty was limited to persons of supposedly superior [intelligence], / education, / and moral character. / Although the Supreme Court of the United States had prohibited intentional racial [discrimination] in jury selection as early as the 1880 case of Strauder v. / West Virginia , / the practice of [selecting] so-called elite or blue-ribbon juries provided a convenient way around this and other [antidiscrimination] laws.\n>\n> 逐意群顺译：\n>\n> 但就在 1968 年，陪审团遴选程序与这些民主理想发生了冲突。例如，在一些州，陪审员职责仅限于被认为具有较高智力、教育程度和道德品质的人。尽管美国最高法院早在1880年的斯特劳德诉西弗吉尼亚州案中就禁止在陪审团选择中存在故意种族歧视，但选择所谓精英或蓝带陪审团的做法为绕过这一法律和其他反歧视法律提供了便捷的方法。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>37题</h2>\n<p><strong>The practice of selecting so-called elite jurors prior to 1968 showed .</strong></p>\n<blockquote><p>1968年之前选择所谓精英陪审员的做法表明了这一点。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals. In some states, for example, jury duty was limited to persons of supposedly superior <span class=\"mask\">[intelligence]</span>, education, and moral character. Although the Supreme Court of the United States had prohibited intentional racial <span class=\"mask\">[discrimination]</span> in jury selection as early as the 1880 case of Strauder v. West Virginia , the practice of <span class=\"mask\">[selecting]</span> so-called elite or blue-ribbon juries provided a convenient way around this and other <span class=\"mask\">[antidiscrimination]</span> laws.</p>\n<p><strong>开始精读：</strong></p>\n<p>But as recently as in 1968, / jury selection procedures conflicted with these democratic ideals. / In some states, / for example, / jury duty was limited to persons of supposedly superior <span class=\"mask\">[intelligence]</span>, / education, / and moral character. / Although the Supreme Court of the United States had prohibited intentional racial <span class=\"mask\">[discrimination]</span> in jury selection as early as the 1880 case of Strauder v. / West Virginia , / the practice of <span class=\"mask\">[selecting]</span> so-called elite or blue-ribbon juries provided a convenient way around this and other <span class=\"mask\">[antidiscrimination]</span> laws.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>但就在 1968 年，陪审团遴选程序与这些民主理想发生了冲突。例如，在一些州，陪审员职责仅限于被认为具有较高智力、教育程度和道德品质的人。尽管美国最高法院早在1880年的斯特劳德诉西弗吉尼亚州案中就禁止在陪审团选择中存在故意种族歧视，但选择所谓精英或蓝带陪审团的做法为绕过这一法律和其他反歧视法律提供了便捷的方法。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 37题\n\n**The practice of selecting so-called elite jurors prior to 1968 showed .**\n\n> 1968年之前选择所谓精英陪审员的做法表明了这一点。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> But as recently as in 1968, jury selection procedures conflicted with these [democratic] ideals. In some states, for example, jury duty was limited to persons of supposedly superior [intelligence], education, and moral character. Although the Supreme Court of the United States had prohibited intentional racial [discrimination] in jury selection as early as the 1880 case of Strauder v. West Virginia , the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other [antidiscrimination] laws.\n>\n> 开始精读：\n>\n> But as recently as in 1968, / jury selection procedures conflicted with these [democratic] ideals. / In some states, / for example, / jury duty was limited to persons of supposedly superior [intelligence], / education, / and moral character. / Although the Supreme Court of the United States had prohibited intentional racial [discrimination] in jury selection as early as the 1880 case of Strauder v. / West Virginia , / the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other [antidiscrimination] laws.\n>\n> 逐意群顺译：\n>\n> 但就在 1968 年，陪审团遴选程序与这些民主理想发生了冲突。例如，在一些州，陪审员职责仅限于被认为具有较高智力、教育程度和道德品质的人。尽管美国最高法院早在1880年的斯特劳德诉西弗吉尼亚州案中就禁止在陪审团选择中存在故意种族歧视，但选择所谓精英或蓝带陪审团的做法为绕过这一法律和其他反歧视法律提供了便捷的方法。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>37题</h2>\n<p><strong>The practice of selecting so-called elite jurors prior to 1968 showed .</strong></p>\n<blockquote><p>1968年之前选择所谓精英陪审员的做法表明了这一点。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>But as recently as in 1968, jury selection procedures conflicted with these <span class=\"mask\">[democratic]</span> ideals. In some states, for example, jury duty was limited to persons of supposedly superior <span class=\"mask\">[intelligence]</span>, education, and moral character. Although the Supreme Court of the United States had prohibited intentional racial <span class=\"mask\">[discrimination]</span> in jury selection as early as the 1880 case of Strauder v. West Virginia , the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other <span class=\"mask\">[antidiscrimination]</span> laws.</p>\n<p><strong>开始精读：</strong></p>\n<p>But as recently as in 1968, / jury selection procedures conflicted with these <span class=\"mask\">[democratic]</span> ideals. / In some states, / for example, / jury duty was limited to persons of supposedly superior <span class=\"mask\">[intelligence]</span>, / education, / and moral character. / Although the Supreme Court of the United States had prohibited intentional racial <span class=\"mask\">[discrimination]</span> in jury selection as early as the 1880 case of Strauder v. / West Virginia , / the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other <span class=\"mask\">[antidiscrimination]</span> laws.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>但就在 1968 年，陪审团遴选程序与这些民主理想发生了冲突。例如，在一些州，陪审员职责仅限于被认为具有较高智力、教育程度和道德品质的人。尽管美国最高法院早在1880年的斯特劳德诉西弗吉尼亚州案中就禁止在陪审团选择中存在故意种族歧视，但选择所谓精英或蓝带陪审团的做法为绕过这一法律和其他反歧视法律提供了便捷的方法。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "37"
@@ -5701,8 +7906,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "37题",
-          "raw": "### B. the prevalent discrimination against certain races\n\n> 对某些种族普遍存在的歧视\n\n我们先看 B 选项：`the prevalent discrimination against certain races`（对某些种族普遍存在的歧视）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：1968年之前选择所谓精英陪审员的做法表明了这一点。 ➔ 选项认为：对某些种族普遍存在的歧视\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“对某些种族普遍存在的歧视”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. the prevalent discrimination against certain races</h3>\n<blockquote><p>对某些种族普遍存在的歧视</p></blockquote>\n<p>我们先看 B 选项：<code>the prevalent discrimination against certain races</code>（对某些种族普遍存在的歧视）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：1968年之前选择所谓精英陪审员的做法表明了这一点。 ➔ 选项认为：对某些种族普遍存在的歧视</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“对某些种族普遍存在的歧视”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. the prevalent discrimination against certain races\n\n> 对某些种族普遍存在的歧视\n\n我们先看 B 选项：`the prevalent discrimination against certain races`（对某些种族普遍存在的歧视）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：1968年之前选择所谓精英陪审员的做法表明了这一点。 ➔ 选项认为：对某些种族普遍存在的歧视\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“对某些种族普遍存在的歧视”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. the prevalent discrimination against certain races</h3>\n<blockquote><p>对某些种族普遍存在的歧视</p></blockquote>\n<p>我们先看 B 选项：<code>the prevalent discrimination against certain races</code>（对某些种族普遍存在的歧视）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：1968年之前选择所谓精英陪审员的做法表明了这一点。 ➔ 选项认为：对某些种族普遍存在的歧视</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“对某些种族普遍存在的歧视”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "37",
@@ -5711,8 +7916,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "37题",
-          "raw": "### C. the conflicting ideals in jury selection procedures\n\n> 陪审团选择程序中相互冲突的理念\n\n我们先看 C 选项：`the conflicting ideals in jury selection procedures`（陪审团选择程序中相互冲突的理念）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：1968年之前选择所谓精英陪审员的做法表明了这一点。 ➔ 选项认为：陪审团选择程序中相互冲突的理念\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“陪审团选择程序中相互冲突的理念”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
-          "html": "<h3>C. the conflicting ideals in jury selection procedures</h3>\n<blockquote><p>陪审团选择程序中相互冲突的理念</p></blockquote>\n<p>我们先看 C 选项：<code>the conflicting ideals in jury selection procedures</code>（陪审团选择程序中相互冲突的理念）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：1968年之前选择所谓精英陪审员的做法表明了这一点。 ➔ 选项认为：陪审团选择程序中相互冲突的理念</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“陪审团选择程序中相互冲突的理念”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "raw": "### C. the conflicting ideals in jury selection procedures\n\n> 陪审团选择程序中相互冲突的理念\n\n我们先看 C 选项：`the conflicting ideals in jury selection procedures`（陪审团选择程序中相互冲突的理念）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：1968年之前选择所谓精英陪审员的做法表明了这一点。 ➔ 选项认为：陪审团选择程序中相互冲突的理念\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“陪审团选择程序中相互冲突的理念”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. the conflicting ideals in jury selection procedures</h3>\n<blockquote><p>陪审团选择程序中相互冲突的理念</p></blockquote>\n<p>我们先看 C 选项：<code>the conflicting ideals in jury selection procedures</code>（陪审团选择程序中相互冲突的理念）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：1968年之前选择所谓精英陪审员的做法表明了这一点。 ➔ 选项认为：陪审团选择程序中相互冲突的理念</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“陪审团选择程序中相互冲突的理念”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "37",
@@ -5721,8 +7926,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "37题",
-          "raw": "### D. the arrogance common among the Supreme Court judges\n\n> 最高法院法官普遍存在的傲慢态度\n\n我们先看 D 选项：`the arrogance common among the Supreme Court judges`（最高法院法官普遍存在的傲慢态度）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：1968年之前选择所谓精英陪审员的做法表明了这一点。 ➔ 选项认为：最高法院法官普遍存在的傲慢态度\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“最高法院法官普遍存在的傲慢态度”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. the arrogance common among the Supreme Court judges</h3>\n<blockquote><p>最高法院法官普遍存在的傲慢态度</p></blockquote>\n<p>我们先看 D 选项：<code>the arrogance common among the Supreme Court judges</code>（最高法院法官普遍存在的傲慢态度）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：1968年之前选择所谓精英陪审员的做法表明了这一点。 ➔ 选项认为：最高法院法官普遍存在的傲慢态度</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“最高法院法官普遍存在的傲慢态度”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. the arrogance common among the Supreme Court judges\n\n> 最高法院法官普遍存在的傲慢态度\n\n我们先看 D 选项：`the arrogance common among the Supreme Court judges`（最高法院法官普遍存在的傲慢态度）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：1968年之前选择所谓精英陪审员的做法表明了这一点。 ➔ 选项认为：最高法院法官普遍存在的傲慢态度\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“最高法院法官普遍存在的傲慢态度”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. the arrogance common among the Supreme Court judges</h3>\n<blockquote><p>最高法院法官普遍存在的傲慢态度</p></blockquote>\n<p>我们先看 D 选项：<code>the arrogance common among the Supreme Court judges</code>（最高法院法官普遍存在的傲慢态度）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：1968年之前选择所谓精英陪审员的做法表明了这一点。 ➔ 选项认为：最高法院法官普遍存在的傲慢态度</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“最高法院法官普遍存在的傲慢态度”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "37",
@@ -5740,8 +7945,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "38题",
-          "raw": "## 38题\n\n**Even in the 1960s, women were seldom on the jury list in some states because .**\n\n> 即使在 20 世纪 60 年代，一些州的陪审团名单中也很少有女性，因为。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> The system also failed to regularly include women on juries until the mid-20th century.\n>\n> 开始精读：\n>\n> The system also failed to regularly include women on juries until the mid-20th century.\n>\n> 逐意群顺译：\n>\n> 直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>38题</h2>\n<p><strong>Even in the 1960s, women were seldom on the jury list in some states because .</strong></p>\n<blockquote><p>即使在 20 世纪 60 年代，一些州的陪审团名单中也很少有女性，因为。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>The system also failed to regularly include women on juries until the mid-20th century.</p>\n<p><strong>开始精读：</strong></p>\n<p>The system also failed to regularly include women on juries until the mid-20th century.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 38题\n\n**Even in the 1960s, women were seldom on the jury list in some states because .**\n\n> 即使在 20 世纪 60 年代，一些州的陪审团名单中也很少有女性，因为。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> The system also failed to [regularly] include women on juries until the mid-20th century.\n>\n> 开始精读：\n>\n> The system also failed to [regularly] include women on juries until the mid-20th century.\n>\n> 逐意群顺译：\n>\n> 直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>38题</h2>\n<p><strong>Even in the 1960s, women were seldom on the jury list in some states because .</strong></p>\n<blockquote><p>即使在 20 世纪 60 年代，一些州的陪审团名单中也很少有女性，因为。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>The system also failed to <span class=\"mask\">[regularly]</span> include women on juries until the mid-20th century.</p>\n<p><strong>开始精读：</strong></p>\n<p>The system also failed to <span class=\"mask\">[regularly]</span> include women on juries until the mid-20th century.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "38"
@@ -5749,8 +7954,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "38题",
-          "raw": "### A. they were automatically banned by state laws\n\n> 他们被州法律自动禁止\n\n我们先看 A 选项：`they were automatically banned by state laws`（他们被州法律自动禁止）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：即使在 20 世纪 60 年代，一些州的陪审团名单中也很少有女性，因为。 ➔ 选项认为：他们被州法律自动禁止\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“他们被州法律自动禁止”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
-          "html": "<h3>A. they were automatically banned by state laws</h3>\n<blockquote><p>他们被州法律自动禁止</p></blockquote>\n<p>我们先看 A 选项：<code>they were automatically banned by state laws</code>（他们被州法律自动禁止）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：即使在 20 世纪 60 年代，一些州的陪审团名单中也很少有女性，因为。 ➔ 选项认为：他们被州法律自动禁止</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“他们被州法律自动禁止”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "raw": "### A. they were automatically banned by state laws\n\n> 他们被州法律自动禁止\n\n我们先看 A 选项：`they were automatically banned by state laws`（他们被州法律自动禁止）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：即使在 20 世纪 60 年代，一些州的陪审团名单中也很少有女性，因为。 ➔ 选项认为：他们被州法律自动禁止\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“他们被州法律自动禁止”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. they were automatically banned by state laws</h3>\n<blockquote><p>他们被州法律自动禁止</p></blockquote>\n<p>我们先看 A 选项：<code>they were automatically banned by state laws</code>（他们被州法律自动禁止）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：即使在 20 世纪 60 年代，一些州的陪审团名单中也很少有女性，因为。 ➔ 选项认为：他们被州法律自动禁止</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“他们被州法律自动禁止”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "38",
@@ -5759,8 +7964,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "38题",
-          "raw": "### B. they fell far short of the required qualifications\n\n> 他们远远达不到所需的资格\n\n我们先看 B 选项：`they fell far short of the required qualifications`（他们远远达不到所需的资格）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：即使在 20 世纪 60 年代，一些州的陪审团名单中也很少有女性，因为。 ➔ 选项认为：他们远远达不到所需的资格\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `they`, `fell`, `far` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. they fell far short of the required qualifications</h3>\n<blockquote><p>他们远远达不到所需的资格</p></blockquote>\n<p>我们先看 B 选项：<code>they fell far short of the required qualifications</code>（他们远远达不到所需的资格）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：即使在 20 世纪 60 年代，一些州的陪审团名单中也很少有女性，因为。 ➔ 选项认为：他们远远达不到所需的资格</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>they</code>, <code>fell</code>, <code>far</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. they fell far short of the required qualifications\n\n> 他们远远达不到所需的资格\n\n我们先看 B 选项：`they fell far short of the required qualifications`（他们远远达不到所需的资格）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：即使在 20 世纪 60 年代，一些州的陪审团名单中也很少有女性，因为。 ➔ 选项认为：他们远远达不到所需的资格\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“他们远远达不到所需的资格”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. they fell far short of the required qualifications</h3>\n<blockquote><p>他们远远达不到所需的资格</p></blockquote>\n<p>我们先看 B 选项：<code>they fell far short of the required qualifications</code>（他们远远达不到所需的资格）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：即使在 20 世纪 60 年代，一些州的陪审团名单中也很少有女性，因为。 ➔ 选项认为：他们远远达不到所需的资格</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“他们远远达不到所需的资格”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "38",
@@ -5779,8 +7984,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "38题",
-          "raw": "### D. they tended to evade public engagement\n\n> 他们倾向于逃避公众参与\n\n我们先看 D 选项：`they tended to evade public engagement`（他们倾向于逃避公众参与）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：即使在 20 世纪 60 年代，一些州的陪审团名单中也很少有女性，因为。 ➔ 选项认为：他们倾向于逃避公众参与\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“他们倾向于逃避公众参与”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. they tended to evade public engagement</h3>\n<blockquote><p>他们倾向于逃避公众参与</p></blockquote>\n<p>我们先看 D 选项：<code>they tended to evade public engagement</code>（他们倾向于逃避公众参与）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：即使在 20 世纪 60 年代，一些州的陪审团名单中也很少有女性，因为。 ➔ 选项认为：他们倾向于逃避公众参与</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“他们倾向于逃避公众参与”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. they tended to evade public engagement\n\n> 他们倾向于逃避公众参与\n\n我们先看 D 选项：`they tended to evade public engagement`（他们倾向于逃避公众参与）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：即使在 20 世纪 60 年代，一些州的陪审团名单中也很少有女性，因为。 ➔ 选项认为：他们倾向于逃避公众参与\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `they`, `tended`, `evade` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. they tended to evade public engagement</h3>\n<blockquote><p>他们倾向于逃避公众参与</p></blockquote>\n<p>我们先看 D 选项：<code>they tended to evade public engagement</code>（他们倾向于逃避公众参与）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：即使在 20 世纪 60 年代，一些州的陪审团名单中也很少有女性，因为。 ➔ 选项认为：他们倾向于逃避公众参与</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>they</code>, <code>tended</code>, <code>evade</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "38",
@@ -5798,8 +8003,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "39题",
-          "raw": "## 39题\n\n**After the Jury Selection and Service Act was passed, .**\n\n> 《陪审团遴选和服务法》通过后，。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty. Even then several states [automatically] exempted women from jury duty unless they personally asked to have their names included on the jury list. This practice was justified by the claim that women were needed at home, and it kept juries [unrepresentative] of women through the 1960s.\n>\n> 开始精读：\n>\n> Although women first served on state juries in Utah in 1898, / it was not until the 1940s / that a majority of states made women eligible for jury duty. / Even then several states [automatically] exempted women from jury duty unless they personally asked to have their names included on the jury list. / This practice was justified by the claim / that women were needed at home, / and it kept juries [unrepresentative] of women through the 1960s.\n>\n> 逐意群顺译：\n>\n> 尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。这种做法的合理性在于，家庭需要女性，并且在 20 世纪 60 年代，陪审团一直无法代表女性。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>39题</h2>\n<p><strong>After the Jury Selection and Service Act was passed, .</strong></p>\n<blockquote><p>《陪审团遴选和服务法》通过后，。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty. Even then several states <span class=\"mask\">[automatically]</span> exempted women from jury duty unless they personally asked to have their names included on the jury list. This practice was justified by the claim that women were needed at home, and it kept juries <span class=\"mask\">[unrepresentative]</span> of women through the 1960s.</p>\n<p><strong>开始精读：</strong></p>\n<p>Although women first served on state juries in Utah in 1898, / it was not until the 1940s / that a majority of states made women eligible for jury duty. / Even then several states <span class=\"mask\">[automatically]</span> exempted women from jury duty unless they personally asked to have their names included on the jury list. / This practice was justified by the claim / that women were needed at home, / and it kept juries <span class=\"mask\">[unrepresentative]</span> of women through the 1960s.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。这种做法的合理性在于，家庭需要女性，并且在 20 世纪 60 年代，陪审团一直无法代表女性。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 39题\n\n**After the Jury Selection and Service Act was passed, .**\n\n> 《陪审团遴选和服务法》通过后，。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty. Even then several states [automatically] exempted women from jury duty unless they personally asked to have their names included on the jury list. This practice was [justified] by the claim that women were needed at home, and it kept juries [unrepresentative] of women through the 1960s.\n>\n> 开始精读：\n>\n> Although women first served on state juries in Utah in 1898, / it was not until the 1940s / that a majority of states made women eligible for jury duty. / Even then several states [automatically] exempted women from jury duty unless they personally asked to have their names included on the jury list. / This practice was [justified] by the claim / that women were needed at home, / and it kept juries [unrepresentative] of women through the 1960s.\n>\n> 逐意群顺译：\n>\n> 尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。这种做法的合理性在于，家庭需要女性，并且在 20 世纪 60 年代，陪审团一直无法代表女性。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>39题</h2>\n<p><strong>After the Jury Selection and Service Act was passed, .</strong></p>\n<blockquote><p>《陪审团遴选和服务法》通过后，。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty. Even then several states <span class=\"mask\">[automatically]</span> exempted women from jury duty unless they personally asked to have their names included on the jury list. This practice was <span class=\"mask\">[justified]</span> by the claim that women were needed at home, and it kept juries <span class=\"mask\">[unrepresentative]</span> of women through the 1960s.</p>\n<p><strong>开始精读：</strong></p>\n<p>Although women first served on state juries in Utah in 1898, / it was not until the 1940s / that a majority of states made women eligible for jury duty. / Even then several states <span class=\"mask\">[automatically]</span> exempted women from jury duty unless they personally asked to have their names included on the jury list. / This practice was <span class=\"mask\">[justified]</span> by the claim / that women were needed at home, / and it kept juries <span class=\"mask\">[unrepresentative]</span> of women through the 1960s.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。这种做法的合理性在于，家庭需要女性，并且在 20 世纪 60 年代，陪审团一直无法代表女性。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "39"
@@ -5807,8 +8012,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "39题",
-          "raw": "### A. sex discrimination in jury selection was unconstitutional and had to be abolished\n\n> 陪审团选择中的性别歧视违宪，必须废除\n\n我们先看 A 选项：`sex discrimination in jury selection was unconstitutional and had to be abolished`（陪审团选择中的性别歧视违宪，必须废除）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：《陪审团遴选和服务法》通过后，。 ➔ 选项认为：陪审团选择中的性别歧视违宪，必须废除\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `sex`, `discrimination`, `jury` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
-          "html": "<h3>A. sex discrimination in jury selection was unconstitutional and had to be abolished</h3>\n<blockquote><p>陪审团选择中的性别歧视违宪，必须废除</p></blockquote>\n<p>我们先看 A 选项：<code>sex discrimination in jury selection was unconstitutional and had to be abolished</code>（陪审团选择中的性别歧视违宪，必须废除）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：《陪审团遴选和服务法》通过后，。 ➔ 选项认为：陪审团选择中的性别歧视违宪，必须废除</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>sex</code>, <code>discrimination</code>, <code>jury</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "raw": "### A. sex discrimination in jury selection was unconstitutional and had to be abolished\n\n> 陪审团选择中的性别歧视违宪，必须废除\n\n我们先看 A 选项：`sex discrimination in jury selection was unconstitutional and had to be abolished`（陪审团选择中的性别歧视违宪，必须废除）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：《陪审团遴选和服务法》通过后，。 ➔ 选项认为：陪审团选择中的性别歧视违宪，必须废除\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“陪审团选择中的性别歧视违宪，必须废除”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. sex discrimination in jury selection was unconstitutional and had to be abolished</h3>\n<blockquote><p>陪审团选择中的性别歧视违宪，必须废除</p></blockquote>\n<p>我们先看 A 选项：<code>sex discrimination in jury selection was unconstitutional and had to be abolished</code>（陪审团选择中的性别歧视违宪，必须废除）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：《陪审团遴选和服务法》通过后，。 ➔ 选项认为：陪审团选择中的性别歧视违宪，必须废除</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“陪审团选择中的性别歧视违宪，必须废除”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "39",
@@ -5827,8 +8032,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "39题",
-          "raw": "### C. jurors at the state level ought to be representative of the entire community\n\n> 州一级的陪审员应该代表整个社会\n\n我们先看 C 选项：`jurors at the state level ought to be representative of the entire community`（州一级的陪审员应该代表整个社会）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：《陪审团遴选和服务法》通过后，。 ➔ 选项认为：州一级的陪审员应该代表整个社会\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“州一级的陪审员应该代表整个社会”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
-          "html": "<h3>C. jurors at the state level ought to be representative of the entire community</h3>\n<blockquote><p>州一级的陪审员应该代表整个社会</p></blockquote>\n<p>我们先看 C 选项：<code>jurors at the state level ought to be representative of the entire community</code>（州一级的陪审员应该代表整个社会）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：《陪审团遴选和服务法》通过后，。 ➔ 选项认为：州一级的陪审员应该代表整个社会</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“州一级的陪审员应该代表整个社会”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "raw": "### C. jurors at the state level ought to be representative of the entire community\n\n> 州一级的陪审员应该代表整个社会\n\n我们先看 C 选项：`jurors at the state level ought to be representative of the entire community`（州一级的陪审员应该代表整个社会）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：《陪审团遴选和服务法》通过后，。 ➔ 选项认为：州一级的陪审员应该代表整个社会\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“州一级的陪审员应该代表整个社会”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. jurors at the state level ought to be representative of the entire community</h3>\n<blockquote><p>州一级的陪审员应该代表整个社会</p></blockquote>\n<p>我们先看 C 选项：<code>jurors at the state level ought to be representative of the entire community</code>（州一级的陪审员应该代表整个社会）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：《陪审团遴选和服务法》通过后，。 ➔ 选项认为：州一级的陪审员应该代表整个社会</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“州一级的陪审员应该代表整个社会”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "39",
@@ -5837,8 +8042,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "39题",
-          "raw": "### D. states ought to conform to the federal court in reforming the jury system\n\n> 各州应效仿联邦法院改革陪审团制度\n\n我们先看 D 选项：`states ought to conform to the federal court in reforming the jury system`（各州应效仿联邦法院改革陪审团制度）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：《陪审团遴选和服务法》通过后，。 ➔ 选项认为：各州应效仿联邦法院改革陪审团制度\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“各州应效仿联邦法院改革陪审团制度”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. states ought to conform to the federal court in reforming the jury system</h3>\n<blockquote><p>各州应效仿联邦法院改革陪审团制度</p></blockquote>\n<p>我们先看 D 选项：<code>states ought to conform to the federal court in reforming the jury system</code>（各州应效仿联邦法院改革陪审团制度）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：《陪审团遴选和服务法》通过后，。 ➔ 选项认为：各州应效仿联邦法院改革陪审团制度</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“各州应效仿联邦法院改革陪审团制度”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. states ought to conform to the federal court in reforming the jury system\n\n> 各州应效仿联邦法院改革陪审团制度\n\n我们先看 D 选项：`states ought to conform to the federal court in reforming the jury system`（各州应效仿联邦法院改革陪审团制度）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：《陪审团遴选和服务法》通过后，。 ➔ 选项认为：各州应效仿联邦法院改革陪审团制度\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `states`, `ought`, `conform` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. states ought to conform to the federal court in reforming the jury system</h3>\n<blockquote><p>各州应效仿联邦法院改革陪审团制度</p></blockquote>\n<p>我们先看 D 选项：<code>states ought to conform to the federal court in reforming the jury system</code>（各州应效仿联邦法院改革陪审团制度）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：《陪审团遴选和服务法》通过后，。 ➔ 选项认为：各州应效仿联邦法院改革陪审团制度</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>states</code>, <code>ought</code>, <code>conform</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "39",
@@ -5856,8 +8061,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "40题",
-          "raw": "## 40题\n\n**In discussing the US jury system, the text centers on .**\n\n> 在讨论美国陪审团制度时，文本的中心是。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 5 段展开，所以我们直接回第 5 段定位精读。\n\n> 原文参考：\n>\n> In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury. This law abolished special educational [requirements] for federal jurors and required them to be selected at random from a cross section of the entire community. In the landmark 1975 decision Taylor v. Louisiana, the Supreme Court extended the [requirement] that juries be [representative] of all parts of the community to the state level. The Taylor decision also declared sex [discrimination] in jury selection to be [unconstitutional] and ordered states to use the same procedures for [selecting] male and female jurors.\n>\n> 开始精读：\n>\n> In 1968, / the Congress of the United States passed the Jury Selection and Service Act, / ushering in a new era of democratic reforms for the jury. / This law abolished special educational [requirements] for federal jurors and required them to be selected at random from a cross section of the entire community. / In the landmark 1975 decision Taylor v. / Louisiana, / the Supreme Court extended the [requirement] / that juries be [representative] of all parts of the community to the state level. / The Taylor decision also declared sex [discrimination] in jury selection to be [unconstitutional] and ordered states to use the same procedures for [selecting] male and female jurors.\n>\n> 逐意群顺译：\n>\n> 1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。该法律废除了对联邦陪审员的特殊教育要求，并要求他们从整个社区的各个阶层中随机选出。在 1975 年具有里程碑意义的泰勒诉路易斯安那州案中，最高法院将陪审团必须代表社会各阶层的要求扩展到州一级。泰勒裁决还宣布陪审团选择中的性别歧视违宪，并命令各州使用相同的程序来选择男性和女性陪审员。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>40题</h2>\n<p><strong>In discussing the US jury system, the text centers on .</strong></p>\n<blockquote><p>在讨论美国陪审团制度时，文本的中心是。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>5</strong> 段展开，所以我们直接回第 <strong>5</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury. This law abolished special educational <span class=\"mask\">[requirements]</span> for federal jurors and required them to be selected at random from a cross section of the entire community. In the landmark 1975 decision Taylor v. Louisiana, the Supreme Court extended the <span class=\"mask\">[requirement]</span> that juries be <span class=\"mask\">[representative]</span> of all parts of the community to the state level. The Taylor decision also declared sex <span class=\"mask\">[discrimination]</span> in jury selection to be <span class=\"mask\">[unconstitutional]</span> and ordered states to use the same procedures for <span class=\"mask\">[selecting]</span> male and female jurors.</p>\n<p><strong>开始精读：</strong></p>\n<p>In 1968, / the Congress of the United States passed the Jury Selection and Service Act, / ushering in a new era of democratic reforms for the jury. / This law abolished special educational <span class=\"mask\">[requirements]</span> for federal jurors and required them to be selected at random from a cross section of the entire community. / In the landmark 1975 decision Taylor v. / Louisiana, / the Supreme Court extended the <span class=\"mask\">[requirement]</span> / that juries be <span class=\"mask\">[representative]</span> of all parts of the community to the state level. / The Taylor decision also declared sex <span class=\"mask\">[discrimination]</span> in jury selection to be <span class=\"mask\">[unconstitutional]</span> and ordered states to use the same procedures for <span class=\"mask\">[selecting]</span> male and female jurors.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。该法律废除了对联邦陪审员的特殊教育要求，并要求他们从整个社区的各个阶层中随机选出。在 1975 年具有里程碑意义的泰勒诉路易斯安那州案中，最高法院将陪审团必须代表社会各阶层的要求扩展到州一级。泰勒裁决还宣布陪审团选择中的性别歧视违宪，并命令各州使用相同的程序来选择男性和女性陪审员。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 40题\n\n**In discussing the US jury system, the text centers on .**\n\n> 在讨论美国陪审团制度时，文本的中心是。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 5 段展开，所以我们直接回第 5 段定位精读。\n\n> 原文参考：\n>\n> In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of [democratic] reforms for the jury. This law abolished special [educational] [requirements] for federal jurors and required them to be selected at random from a cross section of the entire [community]. In the landmark 1975 decision Taylor v. Louisiana, the Supreme Court extended the requirement that juries be [representative] of all parts of the [community] to the state level. The Taylor decision also declared sex [discrimination] in jury selection to be [unconstitutional] and ordered states to use the same procedures for selecting male and female jurors.\n>\n> 开始精读：\n>\n> In 1968, / the Congress of the United States passed the Jury Selection and Service Act, / ushering in a new era of [democratic] reforms for the jury. / This law abolished special [educational] [requirements] for federal jurors and required them to be selected at random from a cross section of the entire [community]. / In the landmark 1975 decision Taylor v. / Louisiana, / the Supreme Court extended the requirement / that juries be [representative] of all parts of the [community] to the state level. / The Taylor decision also declared sex [discrimination] in jury selection to be [unconstitutional] and ordered states to use the same procedures for selecting male and female jurors.\n>\n> 逐意群顺译：\n>\n> 1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。该法律废除了对联邦陪审员的特殊教育要求，并要求他们从整个社区的各个阶层中随机选出。在 1975 年具有里程碑意义的泰勒诉路易斯安那州案中，最高法院将陪审团必须代表社会各阶层的要求扩展到州一级。泰勒裁决还宣布陪审团选择中的性别歧视违宪，并命令各州使用相同的程序来选择男性和女性陪审员。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>40题</h2>\n<p><strong>In discussing the US jury system, the text centers on .</strong></p>\n<blockquote><p>在讨论美国陪审团制度时，文本的中心是。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>5</strong> 段展开，所以我们直接回第 <strong>5</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of <span class=\"mask\">[democratic]</span> reforms for the jury. This law abolished special <span class=\"mask\">[educational]</span> <span class=\"mask\">[requirements]</span> for federal jurors and required them to be selected at random from a cross section of the entire <span class=\"mask\">[community]</span>. In the landmark 1975 decision Taylor v. Louisiana, the Supreme Court extended the requirement that juries be <span class=\"mask\">[representative]</span> of all parts of the <span class=\"mask\">[community]</span> to the state level. The Taylor decision also declared sex <span class=\"mask\">[discrimination]</span> in jury selection to be <span class=\"mask\">[unconstitutional]</span> and ordered states to use the same procedures for selecting male and female jurors.</p>\n<p><strong>开始精读：</strong></p>\n<p>In 1968, / the Congress of the United States passed the Jury Selection and Service Act, / ushering in a new era of <span class=\"mask\">[democratic]</span> reforms for the jury. / This law abolished special <span class=\"mask\">[educational]</span> <span class=\"mask\">[requirements]</span> for federal jurors and required them to be selected at random from a cross section of the entire <span class=\"mask\">[community]</span>. / In the landmark 1975 decision Taylor v. / Louisiana, / the Supreme Court extended the requirement / that juries be <span class=\"mask\">[representative]</span> of all parts of the <span class=\"mask\">[community]</span> to the state level. / The Taylor decision also declared sex <span class=\"mask\">[discrimination]</span> in jury selection to be <span class=\"mask\">[unconstitutional]</span> and ordered states to use the same procedures for selecting male and female jurors.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。该法律废除了对联邦陪审员的特殊教育要求，并要求他们从整个社区的各个阶层中随机选出。在 1975 年具有里程碑意义的泰勒诉路易斯安那州案中，最高法院将陪审团必须代表社会各阶层的要求扩展到州一级。泰勒裁决还宣布陪审团选择中的性别歧视违宪，并命令各州使用相同的程序来选择男性和女性陪审员。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 5 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "40"
@@ -5865,8 +8070,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "40题",
-          "raw": "### A. its nature and problems\n\n> 它的性质和问题\n\n我们先看 A 选项：`its nature and problems`（它的性质和问题）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：在讨论美国陪审团制度时，文本的中心是。 ➔ 选项认为：它的性质和问题\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“它的性质和问题”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 5 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
-          "html": "<h3>A. its nature and problems</h3>\n<blockquote><p>它的性质和问题</p></blockquote>\n<p>我们先看 A 选项：<code>its nature and problems</code>（它的性质和问题）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：在讨论美国陪审团制度时，文本的中心是。 ➔ 选项认为：它的性质和问题</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“它的性质和问题”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 5 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "raw": "### A. its nature and problems\n\n> 它的性质和问题\n\n我们先看 A 选项：`its nature and problems`（它的性质和问题）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：在讨论美国陪审团制度时，文本的中心是。 ➔ 选项认为：它的性质和问题\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“它的性质和问题”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. its nature and problems</h3>\n<blockquote><p>它的性质和问题</p></blockquote>\n<p>我们先看 A 选项：<code>its nature and problems</code>（它的性质和问题）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：在讨论美国陪审团制度时，文本的中心是。 ➔ 选项认为：它的性质和问题</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“它的性质和问题”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "40",
@@ -5875,8 +8080,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "40题",
-          "raw": "### B. its characteristics and tradition\n\n> 它的特点和传统\n\n我们先看 B 选项：`its characteristics and tradition`（它的特点和传统）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：在讨论美国陪审团制度时，文本的中心是。 ➔ 选项认为：它的特点和传统\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“它的特点和传统”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 5 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. its characteristics and tradition</h3>\n<blockquote><p>它的特点和传统</p></blockquote>\n<p>我们先看 B 选项：<code>its characteristics and tradition</code>（它的特点和传统）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：在讨论美国陪审团制度时，文本的中心是。 ➔ 选项认为：它的特点和传统</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“它的特点和传统”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 5 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. its characteristics and tradition\n\n> 它的特点和传统\n\n我们先看 B 选项：`its characteristics and tradition`（它的特点和传统）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：在讨论美国陪审团制度时，文本的中心是。 ➔ 选项认为：它的特点和传统\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“它的特点和传统”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. its characteristics and tradition</h3>\n<blockquote><p>它的特点和传统</p></blockquote>\n<p>我们先看 B 选项：<code>its characteristics and tradition</code>（它的特点和传统）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：在讨论美国陪审团制度时，文本的中心是。 ➔ 选项认为：它的特点和传统</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“它的特点和传统”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "40",
@@ -5885,8 +8090,8 @@ window.KAOYAN_DATA_2010 = {
         },
         {
           "section": "40题",
-          "raw": "### C. its problems and their solutions\n\n> 其问题及其解决方案\n\n我们先看 C 选项：`its problems and their solutions`（其问题及其解决方案）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：在讨论美国陪审团制度时，文本的中心是。 ➔ 选项认为：其问题及其解决方案\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“其问题及其解决方案”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
-          "html": "<h3>C. its problems and their solutions</h3>\n<blockquote><p>其问题及其解决方案</p></blockquote>\n<p>我们先看 C 选项：<code>its problems and their solutions</code>（其问题及其解决方案）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：在讨论美国陪审团制度时，文本的中心是。 ➔ 选项认为：其问题及其解决方案</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“其问题及其解决方案”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "raw": "### C. its problems and their solutions\n\n> 其问题及其解决方案\n\n我们先看 C 选项：`its problems and their solutions`（其问题及其解决方案）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：在讨论美国陪审团制度时，文本的中心是。 ➔ 选项认为：其问题及其解决方案\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `its`, `problems`, `their` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. its problems and their solutions</h3>\n<blockquote><p>其问题及其解决方案</p></blockquote>\n<p>我们先看 C 选项：<code>its problems and their solutions</code>（其问题及其解决方案）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：在讨论美国陪审团制度时，文本的中心是。 ➔ 选项认为：其问题及其解决方案</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>its</code>, <code>problems</code>, <code>their</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "40",
@@ -6439,7 +8644,7 @@ window.KAOYAN_DATA_2010 = {
         {
           "section": 3,
           "title": "3.一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
-          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，正确项如何进行同义改写，错误项如何设置陷阱；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
+          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，对的是如何对文章进行同义改写的，错的做题时为什么容易被文章中的对应表达骗，命题人是怎么想的；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
           "meta": {
             "section": 3
           }
@@ -6447,246 +8652,981 @@ window.KAOYAN_DATA_2010 = {
         {
           "section": 3,
           "title": "36题 · 题干、题型与核心出处",
-          "html": "<p><strong>36. From the principles of the US jury system, we learn that .</strong></p>\n<p>（从美国陪审团制度的原则中我们得知。）</p>\n<p><strong>题型判定</strong>：事实细节题 ｜ <strong>定位出处</strong>：Paragraph 1</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>From the principles of the US jury system, we learn that .<br />从美国陪审团制度的原则中我们得知。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>事实细节题</strong>，考查考生对第 <strong>1</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 1 段核心定位句）</h3>\n<blockquote>\n<p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.<br />许多美国人认为陪审团制度是关键民主价值观的具体体现，其中包括所有符合最低年龄和文化水平的公民都平等有能力担任陪审员的原则；陪审员应从具有代表性的社区中随机选出；任何公民不应因种族、宗教、性别或国籍而被剥夺担任陪审团成员的权利；被告有权接受同侪的审判；判决应该代表社会良心，而不仅仅是法律条文。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 1 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "36"
+            "qid": "36",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. both literate and illiterate people can serve on juries",
-          "html": "<p><strong>选项 A</strong>：<code>both literate and illiterate people can serve on juries</code></p>\n<p><strong>中文翻译</strong>：识字和文盲都可以担任陪审员</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>识字和文盲都可以担任陪审员</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "36",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. both literate and illiterate people can serve on juries",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>识字和文盲都可以担任陪审员</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>both</code>, <code>literate</code>, <code>illiterate</code>（“识字和文盲都可以担任陪审员”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.<br />许多美国人认为陪审团制度是关键民主价值观的具体体现，其中包括所有符合最低年龄和文化水平的公民都平等有能力担任陪审员的原则；陪审员应从具有代表性的社区中随机选出；任何公民不应因种族、宗教、性别或国籍而被剥夺担任陪审团成员的权利；被告有权接受同侪的审判；判决应该代表社会良心，而不仅仅是法律条文。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“识字和文盲都可以担任陪审员”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. both literate and illiterate people can serve on juries",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>识字和文盲都可以担任陪审员</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>both</code>, <code>literate</code>, <code>illiterate</code>（“识字和文盲都可以担任陪审员”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.<br />许多美国人认为陪审团制度是关键民主价值观的具体体现，其中包括所有符合最低年龄和文化水平的公民都平等有能力担任陪审员的原则；陪审员应从具有代表性的社区中随机选出；任何公民不应因种族、宗教、性别或国籍而被剥夺担任陪审团成员的权利；被告有权接受同侪的审判；判决应该代表社会良心，而不仅仅是法律条文。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“识字和文盲都可以担任陪审员”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The jury is also said to be the best surviving example of direct rather than representative democracy.<br />陪审团也被认为是现存的直接民主而非代议制民主的最佳范例。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. both literate and illiterate people can serve on juries",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>识字和文盲都可以担任陪审员</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>both</code>, <code>literate</code>, <code>illiterate</code>（“识字和文盲都可以担任陪审员”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.<br />许多美国人认为陪审团制度是关键民主价值观的具体体现，其中包括所有符合最低年龄和文化水平的公民都平等有能力担任陪审员的原则；陪审员应从具有代表性的社区中随机选出；任何公民不应因种族、宗教、性别或国籍而被剥夺担任陪审团成员的权利；被告有权接受同侪的审判；判决应该代表社会良心，而不仅仅是法律条文。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“识字和文盲都可以担任陪审员”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The jury is also said to be the best surviving example of direct rather than representative democracy.<br />陪审团也被认为是现存的直接民主而非代议制民主的最佳范例。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. defendants are immune from trial by their peers",
-          "html": "<p><strong>选项 B</strong>：<code>defendants are immune from trial by their peers</code></p>\n<p><strong>中文翻译</strong>：被告免受同侪审判</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>被告免受同侪审判</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "36",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. defendants are immune from trial by their peers",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>被告免受同侪审判</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>defendants</code>, <code>are</code>, <code>immune</code>（“被告免受同侪审判”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.<br />许多美国人认为陪审团制度是关键民主价值观的具体体现，其中包括所有符合最低年龄和文化水平的公民都平等有能力担任陪审员的原则；陪审员应从具有代表性的社区中随机选出；任何公民不应因种族、宗教、性别或国籍而被剥夺担任陪审团成员的权利；被告有权接受同侪的审判；判决应该代表社会良心，而不仅仅是法律条文。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“被告免受同侪审判”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. defendants are immune from trial by their peers",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>被告免受同侪审判</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>defendants</code>, <code>are</code>, <code>immune</code>（“被告免受同侪审判”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.<br />许多美国人认为陪审团制度是关键民主价值观的具体体现，其中包括所有符合最低年龄和文化水平的公民都平等有能力担任陪审员的原则；陪审员应从具有代表性的社区中随机选出；任何公民不应因种族、宗教、性别或国籍而被剥夺担任陪审团成员的权利；被告有权接受同侪的审判；判决应该代表社会良心，而不仅仅是法律条文。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“被告免受同侪审判”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The jury is also said to be the best surviving example of direct rather than representative democracy.<br />陪审团也被认为是现存的直接民主而非代议制民主的最佳范例。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. defendants are immune from trial by their peers",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>被告免受同侪审判</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>defendants</code>, <code>are</code>, <code>immune</code>（“被告免受同侪审判”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.<br />许多美国人认为陪审团制度是关键民主价值观的具体体现，其中包括所有符合最低年龄和文化水平的公民都平等有能力担任陪审员的原则；陪审员应从具有代表性的社区中随机选出；任何公民不应因种族、宗教、性别或国籍而被剥夺担任陪审团成员的权利；被告有权接受同侪的审判；判决应该代表社会良心，而不仅仅是法律条文。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“被告免受同侪审判”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The jury is also said to be the best surviving example of direct rather than representative democracy.<br />陪审团也被认为是现存的直接民主而非代议制民主的最佳范例。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. no age limit should be imposed for jury service",
-          "html": "<p><strong>选项 C</strong>：<code>no age limit should be imposed for jury service</code></p>\n<p><strong>中文翻译</strong>：出任陪审员不应有年龄限制</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>出任陪审员不应有年龄限制</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "36",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. no age limit should be imposed for jury service",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>出任陪审员不应有年龄限制</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>age</code>, <code>limit</code>, <code>should</code>（“出任陪审员不应有年龄限制”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.<br />许多美国人认为陪审团制度是关键民主价值观的具体体现，其中包括所有符合最低年龄和文化水平的公民都平等有能力担任陪审员的原则；陪审员应从具有代表性的社区中随机选出；任何公民不应因种族、宗教、性别或国籍而被剥夺担任陪审团成员的权利；被告有权接受同侪的审判；判决应该代表社会良心，而不仅仅是法律条文。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. no age limit should be imposed for jury service",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>出任陪审员不应有年龄限制</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>age</code>, <code>limit</code>, <code>should</code>（“出任陪审员不应有年龄限制”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.<br />许多美国人认为陪审团制度是关键民主价值观的具体体现，其中包括所有符合最低年龄和文化水平的公民都平等有能力担任陪审员的原则；陪审员应从具有代表性的社区中随机选出；任何公民不应因种族、宗教、性别或国籍而被剥夺担任陪审团成员的权利；被告有权接受同侪的审判；判决应该代表社会良心，而不仅仅是法律条文。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The jury is also said to be the best surviving example of direct rather than representative democracy.<br />陪审团也被认为是现存的直接民主而非代议制民主的最佳范例。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. no age limit should be imposed for jury service",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>出任陪审员不应有年龄限制</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>age</code>, <code>limit</code>, <code>should</code>（“出任陪审员不应有年龄限制”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.<br />许多美国人认为陪审团制度是关键民主价值观的具体体现，其中包括所有符合最低年龄和文化水平的公民都平等有能力担任陪审员的原则；陪审员应从具有代表性的社区中随机选出；任何公民不应因种族、宗教、性别或国籍而被剥夺担任陪审团成员的权利；被告有权接受同侪的审判；判决应该代表社会良心，而不仅仅是法律条文。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The jury is also said to be the best surviving example of direct rather than representative democracy.<br />陪审团也被认为是现存的直接民主而非代议制民主的最佳范例。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. judgment should consider the opinion of the public",
-          "html": "<p><strong>选项 D</strong>：<code>judgment should consider the opinion of the public</code></p>\n<p><strong>中文翻译</strong>：判决应当考虑公众意见</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>判决应当考虑公众意见</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "36",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. judgment should consider the opinion of the public",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>判决应当考虑公众意见</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>judgment</code>, <code>should</code>, <code>consider</code>，其对应的中文含义为“<strong>判决应当考虑公众意见</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.<br />许多美国人认为陪审团制度是关键民主价值观的具体体现，其中包括所有符合最低年龄和文化水平的公民都平等有能力担任陪审员的原则；陪审员应从具有代表性的社区中随机选出；任何公民不应因种族、宗教、性别或国籍而被剥夺担任陪审团成员的权利；被告有权接受同侪的审判；判决应该代表社会良心，而不仅仅是法律条文。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. judgment should consider the opinion of the public",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>判决应当考虑公众意见</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>judgment</code>, <code>should</code>, <code>consider</code>，其对应的中文含义为“<strong>判决应当考虑公众意见</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.<br />许多美国人认为陪审团制度是关键民主价值观的具体体现，其中包括所有符合最低年龄和文化水平的公民都平等有能力担任陪审员的原则；陪审员应从具有代表性的社区中随机选出；任何公民不应因种族、宗教、性别或国籍而被剥夺担任陪审团成员的权利；被告有权接受同侪的审判；判决应该代表社会良心，而不仅仅是法律条文。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The jury is also said to be the best surviving example of direct rather than representative democracy.<br />陪审团也被认为是现存的直接民主而非代议制民主的最佳范例。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 D 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. judgment should consider the opinion of the public",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>判决应当考虑公众意见</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>judgment</code>, <code>should</code>, <code>consider</code>，其对应的中文含义为“<strong>判决应当考虑公众意见</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.<br />许多美国人认为陪审团制度是关键民主价值观的具体体现，其中包括所有符合最低年龄和文化水平的公民都平等有能力担任陪审员的原则；陪审员应从具有代表性的社区中随机选出；任何公民不应因种族、宗教、性别或国籍而被剥夺担任陪审团成员的权利；被告有权接受同侪的审判；判决应该代表社会良心，而不仅仅是法律条文。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The jury is also said to be the best surviving example of direct rather than representative democracy.<br />陪审团也被认为是现存的直接民主而非代议制民主的最佳范例。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 D 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 D 选项（“判决应当考虑公众意见”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：D正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "36题结论",
+          "html": "<blockquote>\n<p><strong>36. D. judgment should consider the opinion of the public</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“识字和文盲都可以担任陪审员”，但在原文定位句中，作者表达的态...；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“被告免受同侪审判”，但在原文定位句中，作者表达的态度或客观事...；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>D</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "37题 · 题干、题型与核心出处",
-          "html": "<p><strong>37. The practice of selecting so-called elite jurors prior to 1968 showed .</strong></p>\n<p>（1968年之前选择所谓精英陪审员的做法表明了这一点。）</p>\n<p><strong>题型判定</strong>：因果推断题 ｜ <strong>定位出处</strong>：Paragraph 2</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>The practice of selecting so-called elite jurors prior to 1968 showed .<br />1968年之前选择所谓精英陪审员的做法表明了这一点。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>因果推断题</strong>，考查考生对第 <strong>2</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 2 段核心定位句）</h3>\n<blockquote>\n<p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.<br />但就在 1968 年，陪审团遴选程序与这些民主理想相冲突。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 2 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "37"
+            "qid": "37",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. the inadequacy of antidiscrimination laws",
-          "html": "<p><strong>选项 A</strong>：<code>the inadequacy of antidiscrimination laws</code></p>\n<p><strong>中文翻译</strong>：反歧视法的不足</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>反歧视法的不足</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "37",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. the inadequacy of antidiscrimination laws",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>反歧视法的不足</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>inadequacy</code>, <code>antidiscrimination</code>, <code>laws</code>，其对应的中文含义为“<strong>反歧视法的不足</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.<br />但就在 1968 年，陪审团遴选程序与这些民主理想相冲突。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. the inadequacy of antidiscrimination laws",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>反歧视法的不足</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>inadequacy</code>, <code>antidiscrimination</code>, <code>laws</code>，其对应的中文含义为“<strong>反歧视法的不足</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.<br />但就在 1968 年，陪审团遴选程序与这些民主理想相冲突。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In some states, for example, jury duty was limited to persons of supposedly superior intelligence, education, and moral character.<br />例如，在一些州，陪审员职责仅限于被认为具有较高智力、教育程度和道德品质的人。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 A 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. the inadequacy of antidiscrimination laws",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>反歧视法的不足</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>inadequacy</code>, <code>antidiscrimination</code>, <code>laws</code>，其对应的中文含义为“<strong>反歧视法的不足</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.<br />但就在 1968 年，陪审团遴选程序与这些民主理想相冲突。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In some states, for example, jury duty was limited to persons of supposedly superior intelligence, education, and moral character.<br />例如，在一些州，陪审员职责仅限于被认为具有较高智力、教育程度和道德品质的人。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 A 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 A 选项（“反歧视法的不足”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：A正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. the prevalent discrimination against certain races",
-          "html": "<p><strong>选项 B</strong>：<code>the prevalent discrimination against certain races</code></p>\n<p><strong>中文翻译</strong>：对某些种族普遍存在的歧视</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>对某些种族普遍存在的歧视</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "37",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. the prevalent discrimination against certain races",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>对某些种族普遍存在的歧视</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>prevalent</code>, <code>discrimination</code>, <code>against</code>（“对某些种族普遍存在的歧视”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.<br />但就在 1968 年，陪审团遴选程序与这些民主理想相冲突。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“对某些种族普遍存在的歧视”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. the prevalent discrimination against certain races",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>对某些种族普遍存在的歧视</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>prevalent</code>, <code>discrimination</code>, <code>against</code>（“对某些种族普遍存在的歧视”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.<br />但就在 1968 年，陪审团遴选程序与这些民主理想相冲突。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“对某些种族普遍存在的歧视”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In some states, for example, jury duty was limited to persons of supposedly superior intelligence, education, and moral character.<br />例如，在一些州，陪审员职责仅限于被认为具有较高智力、教育程度和道德品质的人。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. the prevalent discrimination against certain races",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>对某些种族普遍存在的歧视</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>prevalent</code>, <code>discrimination</code>, <code>against</code>（“对某些种族普遍存在的歧视”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.<br />但就在 1968 年，陪审团遴选程序与这些民主理想相冲突。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“对某些种族普遍存在的歧视”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In some states, for example, jury duty was limited to persons of supposedly superior intelligence, education, and moral character.<br />例如，在一些州，陪审员职责仅限于被认为具有较高智力、教育程度和道德品质的人。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. the conflicting ideals in jury selection procedures",
-          "html": "<p><strong>选项 C</strong>：<code>the conflicting ideals in jury selection procedures</code></p>\n<p><strong>中文翻译</strong>：陪审团选择程序中相互冲突的理念</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>陪审团选择程序中相互冲突的理念</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "37",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. the conflicting ideals in jury selection procedures",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>陪审团选择程序中相互冲突的理念</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>conflicting</code>, <code>ideals</code>, <code>jury</code>（“陪审团选择程序中相互冲突的理念”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.<br />但就在 1968 年，陪审团遴选程序与这些民主理想相冲突。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“陪审团选择程序中相互冲突的理念”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. the conflicting ideals in jury selection procedures",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>陪审团选择程序中相互冲突的理念</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>conflicting</code>, <code>ideals</code>, <code>jury</code>（“陪审团选择程序中相互冲突的理念”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.<br />但就在 1968 年，陪审团遴选程序与这些民主理想相冲突。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“陪审团选择程序中相互冲突的理念”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In some states, for example, jury duty was limited to persons of supposedly superior intelligence, education, and moral character.<br />例如，在一些州，陪审员职责仅限于被认为具有较高智力、教育程度和道德品质的人。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. the conflicting ideals in jury selection procedures",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>陪审团选择程序中相互冲突的理念</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>conflicting</code>, <code>ideals</code>, <code>jury</code>（“陪审团选择程序中相互冲突的理念”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.<br />但就在 1968 年，陪审团遴选程序与这些民主理想相冲突。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“陪审团选择程序中相互冲突的理念”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In some states, for example, jury duty was limited to persons of supposedly superior intelligence, education, and moral character.<br />例如，在一些州，陪审员职责仅限于被认为具有较高智力、教育程度和道德品质的人。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. the arrogance common among the Supreme Court judges",
-          "html": "<p><strong>选项 D</strong>：<code>the arrogance common among the Supreme Court judges</code></p>\n<p><strong>中文翻译</strong>：最高法院法官普遍存在的傲慢态度</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>最高法院法官普遍存在的傲慢态度</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "37",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. the arrogance common among the Supreme Court judges",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>最高法院法官普遍存在的傲慢态度</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>arrogance</code>, <code>common</code>, <code>among</code>（“最高法院法官普遍存在的傲慢态度”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.<br />但就在 1968 年，陪审团遴选程序与这些民主理想相冲突。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. the arrogance common among the Supreme Court judges",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>最高法院法官普遍存在的傲慢态度</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>arrogance</code>, <code>common</code>, <code>among</code>（“最高法院法官普遍存在的傲慢态度”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.<br />但就在 1968 年，陪审团遴选程序与这些民主理想相冲突。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In some states, for example, jury duty was limited to persons of supposedly superior intelligence, education, and moral character.<br />例如，在一些州，陪审员职责仅限于被认为具有较高智力、教育程度和道德品质的人。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. the arrogance common among the Supreme Court judges",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>最高法院法官普遍存在的傲慢态度</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>arrogance</code>, <code>common</code>, <code>among</code>（“最高法院法官普遍存在的傲慢态度”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.<br />但就在 1968 年，陪审团遴选程序与这些民主理想相冲突。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In some states, for example, jury duty was limited to persons of supposedly superior intelligence, education, and moral character.<br />例如，在一些州，陪审员职责仅限于被认为具有较高智力、教育程度和道德品质的人。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "37题结论",
+          "html": "<blockquote>\n<p><strong>37. A. the inadequacy of antidiscrimination laws</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“对某些种族普遍存在的歧视”，但在原文定位句中，作者表达的态度...；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“陪审团选择程序中相互冲突的理念”，但在原文定位句中，作者表达...；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "38题 · 题干、题型与核心出处",
-          "html": "<p><strong>38. Even in the 1960s, women were seldom on the jury list in some states because .</strong></p>\n<p>（即使在 20 世纪 60 年代，一些州的陪审团名单中也很少有女性，因为。）</p>\n<p><strong>题型判定</strong>：段落推理题 ｜ <strong>定位出处</strong>：Paragraph 3</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>Even in the 1960s, women were seldom on the jury list in some states because .<br />即使在 20 世纪 60 年代，一些州的陪审团名单中也很少有女性，因为。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>段落推理题</strong>，考查考生对第 <strong>3</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 3 段核心定位句）</h3>\n<blockquote>\n<p>The system also failed to regularly include women on juries until the mid-20th century.<br />直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 3 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "38"
+            "qid": "38",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. they were automatically banned by state laws",
-          "html": "<p><strong>选项 A</strong>：<code>they were automatically banned by state laws</code></p>\n<p><strong>中文翻译</strong>：他们被州法律自动禁止</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们被州法律自动禁止</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "38",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. they were automatically banned by state laws",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们被州法律自动禁止</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>they</code>, <code>automatically</code>, <code>banned</code>（“他们被州法律自动禁止”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.<br />直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“他们被州法律自动禁止”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. they were automatically banned by state laws",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们被州法律自动禁止</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>they</code>, <code>automatically</code>, <code>banned</code>（“他们被州法律自动禁止”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.<br />直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“他们被州法律自动禁止”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty<br />Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. they were automatically banned by state laws",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们被州法律自动禁止</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>they</code>, <code>automatically</code>, <code>banned</code>（“他们被州法律自动禁止”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.<br />直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“他们被州法律自动禁止”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty<br />Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. they fell far short of the required qualifications",
-          "html": "<p><strong>选项 B</strong>：<code>they fell far short of the required qualifications</code></p>\n<p><strong>中文翻译</strong>：他们远远达不到所需的资格</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们远远达不到所需的资格</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "38",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. they fell far short of the required qualifications",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们远远达不到所需的资格</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>they</code>, <code>fell</code>, <code>far</code>（“他们远远达不到所需的资格”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.<br />直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“他们远远达不到所需的资格”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. they fell far short of the required qualifications",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们远远达不到所需的资格</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>they</code>, <code>fell</code>, <code>far</code>（“他们远远达不到所需的资格”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.<br />直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“他们远远达不到所需的资格”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty<br />Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. they fell far short of the required qualifications",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们远远达不到所需的资格</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>they</code>, <code>fell</code>, <code>far</code>（“他们远远达不到所需的资格”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.<br />直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“他们远远达不到所需的资格”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty<br />Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. they were supposed to perform domestic duties",
-          "html": "<p><strong>选项 C</strong>：<code>they were supposed to perform domestic duties</code></p>\n<p><strong>中文翻译</strong>：他们应该履行家庭职责</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们应该履行家庭职责</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "38",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. they were supposed to perform domestic duties",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们应该履行家庭职责</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>they</code>, <code>supposed</code>, <code>perform</code>，其对应的中文含义为“<strong>他们应该履行家庭职责</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.<br />直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. they were supposed to perform domestic duties",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们应该履行家庭职责</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>they</code>, <code>supposed</code>, <code>perform</code>，其对应的中文含义为“<strong>他们应该履行家庭职责</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.<br />直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty<br />Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 C 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. they were supposed to perform domestic duties",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们应该履行家庭职责</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>they</code>, <code>supposed</code>, <code>perform</code>，其对应的中文含义为“<strong>他们应该履行家庭职责</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.<br />直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty<br />Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 C 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 C 选项（“他们应该履行家庭职责”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：C正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. they tended to evade public engagement",
-          "html": "<p><strong>选项 D</strong>：<code>they tended to evade public engagement</code></p>\n<p><strong>中文翻译</strong>：他们倾向于逃避公众参与</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们倾向于逃避公众参与</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "38",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. they tended to evade public engagement",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们倾向于逃避公众参与</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>they</code>, <code>tended</code>, <code>evade</code>（“他们倾向于逃避公众参与”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.<br />直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>they</code>, <code>tended</code>, <code>evade</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. they tended to evade public engagement",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们倾向于逃避公众参与</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>they</code>, <code>tended</code>, <code>evade</code>（“他们倾向于逃避公众参与”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.<br />直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>they</code>, <code>tended</code>, <code>evade</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty<br />Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. they tended to evade public engagement",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们倾向于逃避公众参与</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>they</code>, <code>tended</code>, <code>evade</code>（“他们倾向于逃避公众参与”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>The system also failed to regularly include women on juries until the mid-20th century.<br />直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>they</code>, <code>tended</code>, <code>evade</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty<br />Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "38题结论",
+          "html": "<blockquote>\n<p><strong>38. C. they were supposed to perform domestic duties</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“他们被州法律自动禁止”，但在原文定位句中，作者表达的态度或客...；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“他们远远达不到所需的资格”，但在原文定位句中，作者表达的态度...；</li><li style=\"margin-bottom:6px\"><b>C</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>they</code>, <code>t...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "39题 · 题干、题型与核心出处",
-          "html": "<p><strong>39. After the Jury Selection and Service Act was passed, .</strong></p>\n<p>（《陪审团遴选和服务法》通过后，。）</p>\n<p><strong>题型判定</strong>：词义/例证题 ｜ <strong>定位出处</strong>：Paragraph 4</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>After the Jury Selection and Service Act was passed, .<br />《陪审团遴选和服务法》通过后，。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>词义/例证题</strong>，考查考生对第 <strong>4</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 4 段核心定位句）</h3>\n<blockquote>\n<p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.<br />尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 4 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "39"
+            "qid": "39",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. sex discrimination in jury selection was unconstitutional and had to be abolished",
-          "html": "<p><strong>选项 A</strong>：<code>sex discrimination in jury selection was unconstitutional and had to be abolished</code></p>\n<p><strong>中文翻译</strong>：陪审团选择中的性别歧视违宪，必须废除</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>陪审团选择中的性别歧视违宪，必须废除</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "39",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. sex discrimination in jury selection was unconstitutional and had to be abolished",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>陪审团选择中的性别歧视违宪，必须废除</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>sex</code>, <code>discrimination</code>, <code>jury</code>（“陪审团选择中的性别歧视违宪，必须废除”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.<br />尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. sex discrimination in jury selection was unconstitutional and had to be abolished",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>陪审团选择中的性别歧视违宪，必须废除</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>sex</code>, <code>discrimination</code>, <code>jury</code>（“陪审团选择中的性别歧视违宪，必须废除”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.<br />尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Even then several states automatically exempted women from jury duty unless they personally asked to have their names included on the jury list.<br />即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. sex discrimination in jury selection was unconstitutional and had to be abolished",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>陪审团选择中的性别歧视违宪，必须废除</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>sex</code>, <code>discrimination</code>, <code>jury</code>（“陪审团选择中的性别歧视违宪，必须废除”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.<br />尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Even then several states automatically exempted women from jury duty unless they personally asked to have their names included on the jury list.<br />即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. educational requirements became less rigid in the selection of federal jurors",
-          "html": "<p><strong>选项 B</strong>：<code>educational requirements became less rigid in the selection of federal jurors</code></p>\n<p><strong>中文翻译</strong>：在选择联邦陪审员时，教育要求变得不那么严格</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>在选择联邦陪审员时，教育要求变得不那么严格</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "39",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. educational requirements became less rigid in the selection of federal jurors",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>在选择联邦陪审员时，教育要求变得不那么严格</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>educational</code>, <code>requirements</code>, <code>became</code>，其对应的中文含义为“<strong>在选择联邦陪审员时，教育要求变得不那么严格</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.<br />尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. educational requirements became less rigid in the selection of federal jurors",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>在选择联邦陪审员时，教育要求变得不那么严格</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>educational</code>, <code>requirements</code>, <code>became</code>，其对应的中文含义为“<strong>在选择联邦陪审员时，教育要求变得不那么严格</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.<br />尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Even then several states automatically exempted women from jury duty unless they personally asked to have their names included on the jury list.<br />即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 B 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. educational requirements became less rigid in the selection of federal jurors",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>在选择联邦陪审员时，教育要求变得不那么严格</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>educational</code>, <code>requirements</code>, <code>became</code>，其对应的中文含义为“<strong>在选择联邦陪审员时，教育要求变得不那么严格</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.<br />尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Even then several states automatically exempted women from jury duty unless they personally asked to have their names included on the jury list.<br />即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 B 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 B 选项（“在选择联邦陪审员时，教育要求变得不那么严格”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：B正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. jurors at the state level ought to be representative of the entire community",
-          "html": "<p><strong>选项 C</strong>：<code>jurors at the state level ought to be representative of the entire community</code></p>\n<p><strong>中文翻译</strong>：州一级的陪审员应该代表整个社会</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>州一级的陪审员应该代表整个社会</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "39",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. jurors at the state level ought to be representative of the entire community",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>州一级的陪审员应该代表整个社会</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>jurors</code>, <code>state</code>, <code>level</code>（“州一级的陪审员应该代表整个社会”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.<br />尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“州一级的陪审员应该代表整个社会”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. jurors at the state level ought to be representative of the entire community",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>州一级的陪审员应该代表整个社会</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>jurors</code>, <code>state</code>, <code>level</code>（“州一级的陪审员应该代表整个社会”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.<br />尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“州一级的陪审员应该代表整个社会”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Even then several states automatically exempted women from jury duty unless they personally asked to have their names included on the jury list.<br />即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. jurors at the state level ought to be representative of the entire community",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>州一级的陪审员应该代表整个社会</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>jurors</code>, <code>state</code>, <code>level</code>（“州一级的陪审员应该代表整个社会”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.<br />尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“州一级的陪审员应该代表整个社会”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Even then several states automatically exempted women from jury duty unless they personally asked to have their names included on the jury list.<br />即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. states ought to conform to the federal court in reforming the jury system",
-          "html": "<p><strong>选项 D</strong>：<code>states ought to conform to the federal court in reforming the jury system</code></p>\n<p><strong>中文翻译</strong>：各州应效仿联邦法院改革陪审团制度</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>各州应效仿联邦法院改革陪审团制度</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "39",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. states ought to conform to the federal court in reforming the jury system",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>各州应效仿联邦法院改革陪审团制度</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>states</code>, <code>ought</code>, <code>conform</code>（“各州应效仿联邦法院改革陪审团制度”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.<br />尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>states</code>, <code>ought</code>, <code>conform</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. states ought to conform to the federal court in reforming the jury system",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>各州应效仿联邦法院改革陪审团制度</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>states</code>, <code>ought</code>, <code>conform</code>（“各州应效仿联邦法院改革陪审团制度”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.<br />尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>states</code>, <code>ought</code>, <code>conform</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Even then several states automatically exempted women from jury duty unless they personally asked to have their names included on the jury list.<br />即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. states ought to conform to the federal court in reforming the jury system",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>各州应效仿联邦法院改革陪审团制度</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>states</code>, <code>ought</code>, <code>conform</code>（“各州应效仿联邦法院改革陪审团制度”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.<br />尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>states</code>, <code>ought</code>, <code>conform</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Even then several states automatically exempted women from jury duty unless they personally asked to have their names included on the jury list.<br />即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "39题结论",
+          "html": "<blockquote>\n<p><strong>39. B. educational requirements became less rigid in the selection of federal jurors</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>B</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“州一级的陪审员应该代表整个社会”，但在原文定位句中，作者表达...；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>states</code>, <code...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "40题 · 题干、题型与核心出处",
-          "html": "<p><strong>40. In discussing the US jury system, the text centers on .</strong></p>\n<p>（在讨论美国陪审团制度时，文本的中心是。）</p>\n<p><strong>题型判定</strong>：全文主旨题 ｜ <strong>定位出处</strong>：Paragraph 5</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>In discussing the US jury system, the text centers on .<br />在讨论美国陪审团制度时，文本的中心是。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>全文主旨题</strong>，考查考生对第 <strong>5</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 5 段核心定位句）</h3>\n<blockquote>\n<p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.<br />1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 5 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "40"
+            "qid": "40",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. its nature and problems",
-          "html": "<p><strong>选项 A</strong>：<code>its nature and problems</code></p>\n<p><strong>中文翻译</strong>：它的性质和问题</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>它的性质和问题</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "40",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. its nature and problems",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>它的性质和问题</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>its</code>, <code>nature</code>, <code>problems</code>（“它的性质和问题”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.<br />1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. its nature and problems",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>它的性质和问题</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>its</code>, <code>nature</code>, <code>problems</code>（“它的性质和问题”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.<br />1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>This law abolished special educational requirements for federal jurors and required them to be selected at random from a cross section of the entire community.<br />该法律废除了对联邦陪审员的特殊教育要求，并要求他们从整个社区的各个阶层中随机选出。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. its nature and problems",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>它的性质和问题</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>its</code>, <code>nature</code>, <code>problems</code>（“它的性质和问题”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.<br />1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>This law abolished special educational requirements for federal jurors and required them to be selected at random from a cross section of the entire community.<br />该法律废除了对联邦陪审员的特殊教育要求，并要求他们从整个社区的各个阶层中随机选出。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. its characteristics and tradition",
-          "html": "<p><strong>选项 B</strong>：<code>its characteristics and tradition</code></p>\n<p><strong>中文翻译</strong>：它的特点和传统</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>它的特点和传统</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "40",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. its characteristics and tradition",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>它的特点和传统</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>its</code>, <code>characteristics</code>, <code>tradition</code>（“它的特点和传统”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.<br />1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. its characteristics and tradition",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>它的特点和传统</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>its</code>, <code>characteristics</code>, <code>tradition</code>（“它的特点和传统”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.<br />1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>This law abolished special educational requirements for federal jurors and required them to be selected at random from a cross section of the entire community.<br />该法律废除了对联邦陪审员的特殊教育要求，并要求他们从整个社区的各个阶层中随机选出。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. its characteristics and tradition",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>它的特点和传统</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>its</code>, <code>characteristics</code>, <code>tradition</code>（“它的特点和传统”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.<br />1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>This law abolished special educational requirements for federal jurors and required them to be selected at random from a cross section of the entire community.<br />该法律废除了对联邦陪审员的特殊教育要求，并要求他们从整个社区的各个阶层中随机选出。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. its problems and their solutions",
-          "html": "<p><strong>选项 C</strong>：<code>its problems and their solutions</code></p>\n<p><strong>中文翻译</strong>：其问题及其解决方案</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>其问题及其解决方案</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "40",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. its problems and their solutions",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>其问题及其解决方案</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>its</code>, <code>problems</code>, <code>their</code>（“其问题及其解决方案”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.<br />1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>its</code>, <code>problems</code>, <code>their</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. its problems and their solutions",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>其问题及其解决方案</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>its</code>, <code>problems</code>, <code>their</code>（“其问题及其解决方案”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.<br />1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>its</code>, <code>problems</code>, <code>their</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>This law abolished special educational requirements for federal jurors and required them to be selected at random from a cross section of the entire community.<br />该法律废除了对联邦陪审员的特殊教育要求，并要求他们从整个社区的各个阶层中随机选出。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. its problems and their solutions",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>其问题及其解决方案</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>its</code>, <code>problems</code>, <code>their</code>（“其问题及其解决方案”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.<br />1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>its</code>, <code>problems</code>, <code>their</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>This law abolished special educational requirements for federal jurors and required them to be selected at random from a cross section of the entire community.<br />该法律废除了对联邦陪审员的特殊教育要求，并要求他们从整个社区的各个阶层中随机选出。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. its tradition and development",
-          "html": "<p><strong>选项 D</strong>：<code>its tradition and development</code></p>\n<p><strong>中文翻译</strong>：它的传统和发展</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>它的传统和发展</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "40",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. its tradition and development",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>它的传统和发展</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>its</code>, <code>tradition</code>, <code>development</code>，其对应的中文含义为“<strong>它的传统和发展</strong>”。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.<br />1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. its tradition and development",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>它的传统和发展</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>its</code>, <code>tradition</code>, <code>development</code>，其对应的中文含义为“<strong>它的传统和发展</strong>”。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.<br />1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>This law abolished special educational requirements for federal jurors and required them to be selected at random from a cross section of the entire community.<br />该法律废除了对联邦陪审员的特殊教育要求，并要求他们从整个社区的各个阶层中随机选出。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 D 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. its tradition and development",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>它的传统和发展</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>its</code>, <code>tradition</code>, <code>development</code>，其对应的中文含义为“<strong>它的传统和发展</strong>”。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.<br />1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>This law abolished special educational requirements for federal jurors and required them to be selected at random from a cross section of the entire community.<br />该法律废除了对联邦陪审员的特殊教育要求，并要求他们从整个社区的各个阶层中随机选出。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 D 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 D 选项（“它的传统和发展”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：D正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "40题结论",
+          "html": "<blockquote>\n<p><strong>40. D. its tradition and development</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>its</code>, <code>pr...；</li><li style=\"margin-bottom:6px\"><b>D</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "form": "conclusion"
           }
         },
         {

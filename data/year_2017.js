@@ -283,8 +283,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park. The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad. Events are free, staffed by thousands of volunteers. Runners range from four years old to [grandparents]; their times range from Andrew [Baddeley’s] world record 13 minutes 48 seconds up to an hour.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park. The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad. Events are free, staffed by thousands of volunteers. Runners range from four years old to <span class=\"mask\">[grandparents]</span>; their times range from Andrew <span class=\"mask\">[Baddeley’s]</span> world record 13 minutes 48 seconds up to an hour.</p></div></div>",
+          "raw": "Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park. The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad. Events are free, staffed by thousands of [volunteers]. Runners range from four years old to [grandparents]; their times range from Andrew Baddeley’s world record 13 minutes 48 seconds up to an hour.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park. The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad. Events are free, staffed by thousands of <span class=\"mask\">[volunteers]</span>. Runners range from four years old to <span class=\"mask\">[grandparents]</span>; their times range from Andrew Baddeley’s world record 13 minutes 48 seconds up to an hour.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 0,
@@ -293,8 +293,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "Every Saturday morning, / at 9 am, / more than 50,000 runners set off to run 5km around their local park. / The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad. / Events are free, / staffed by thousands of volunteers. / Runners range from four years old to [grandparents]; / their times range from Andrew [Baddeley’s] world record 13 minutes 48 seconds up to an hour.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Every Saturday morning, / at 9 am, / more than 50,000 runners set off to run 5km around their local park. / The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad. / Events are free, / staffed by thousands of volunteers. / Runners range from four years old to <span class=\"mask\">[grandparents]</span>; / their times range from Andrew <span class=\"mask\">[Baddeley’s]</span> world record 13 minutes 48 seconds up to an hour.</p></div></div>",
+          "raw": "Every Saturday morning, / at 9 am, / more than 50,000 runners set off to run 5km around their local park. / The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad. / Events are free, / staffed by thousands of [volunteers]. / Runners range from four years old to [grandparents]; / their times range from Andrew Baddeley’s world record 13 minutes 48 seconds up to an hour.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Every Saturday morning, / at 9 am, / more than 50,000 runners set off to run 5km around their local park. / The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad. / Events are free, / staffed by thousands of <span class=\"mask\">[volunteers]</span>. / Runners range from four years old to <span class=\"mask\">[grandparents]</span>; / their times range from Andrew Baddeley’s world record 13 minutes 48 seconds up to an hour.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 0,
@@ -323,8 +323,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "Parkrun is [succeeding] where London’s Olympic “legacy” is failing. Ten years ago on Monday, it was announced that the Games of the 30th Olympiad would be in London. Planning [documents] pledged that the great legacy of the Games would be to lever a nation of sport lovers away from their couches. The population would be fitter, [healthier] and produce more winners. It has not happened. The number of adults doing weekly sport did rise, by nearly 2 million in the run-up to 2012—but the general population was growing faster. Worse, the numbers are now falling at an [accelerating] rate. The opposition claims primary school pupils doing at least two hours of sport a week have nearly halved. Obesity has risen among adults and children. Official [retrospections] continue as to why London 2012 failed to “inspire a generation.” The success of Parkrun offers answers.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Parkrun is <span class=\"mask\">[succeeding]</span> where London’s Olympic “legacy” is failing. Ten years ago on Monday, it was announced that the Games of the 30th Olympiad would be in London. Planning <span class=\"mask\">[documents]</span> pledged that the great legacy of the Games would be to lever a nation of sport lovers away from their couches. The population would be fitter, <span class=\"mask\">[healthier]</span> and produce more winners. It has not happened. The number of adults doing weekly sport did rise, by nearly 2 million in the run-up to 2012—but the general population was growing faster. Worse, the numbers are now falling at an <span class=\"mask\">[accelerating]</span> rate. The opposition claims primary school pupils doing at least two hours of sport a week have nearly halved. Obesity has risen among adults and children. Official <span class=\"mask\">[retrospections]</span> continue as to why London 2012 failed to “inspire a generation.” The success of Parkrun offers answers.</p></div></div>",
+          "raw": "Parkrun is succeeding where London’s Olympic “legacy” is failing. Ten years ago on Monday, it was [announced] that the Games of the 30th Olympiad would be in London. Planning documents pledged that the great legacy of the Games would be to lever a nation of sport lovers away from their couches. The population would be fitter, healthier and produce more winners. It has not happened. The number of adults doing weekly sport did rise, by nearly 2 million in the run-up to 2012—but the general population was growing faster. Worse, the numbers are now falling at an [accelerating] rate. The opposition claims primary school pupils doing at least two hours of sport a week have nearly halved. Obesity has risen among adults and children. Official [retrospections] continue as to why London 2012 failed to “inspire a [generation].” The success of Parkrun offers answers.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Parkrun is succeeding where London’s Olympic “legacy” is failing. Ten years ago on Monday, it was <span class=\"mask\">[announced]</span> that the Games of the 30th Olympiad would be in London. Planning documents pledged that the great legacy of the Games would be to lever a nation of sport lovers away from their couches. The population would be fitter, healthier and produce more winners. It has not happened. The number of adults doing weekly sport did rise, by nearly 2 million in the run-up to 2012—but the general population was growing faster. Worse, the numbers are now falling at an <span class=\"mask\">[accelerating]</span> rate. The opposition claims primary school pupils doing at least two hours of sport a week have nearly halved. Obesity has risen among adults and children. Official <span class=\"mask\">[retrospections]</span> continue as to why London 2012 failed to “inspire a <span class=\"mask\">[generation]</span>.” The success of Parkrun offers answers.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 1,
@@ -333,8 +333,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "Parkrun is [succeeding] / where London’s Olympic “legacy” is failing. / Ten years ago on Monday, / it was announced / that the Games of the 30th Olympiad would be in London. / Planning [documents] pledged / that the great legacy of the Games would be to lever a nation of sport lovers away from their couches. / The population would be fitter, / [healthier] and produce more winners. / It has not happened. / The number of adults doing weekly sport did rise, / by nearly 2 million in the run-up to 2012—but the general population was growing faster. / Worse, / the numbers are now falling at an [accelerating] rate. / The opposition claims primary school pupils doing at least two hours of sport a week have nearly halved. / Obesity has risen among adults and children. / Official [retrospections] continue as to why London 2012 failed to “inspire a generation.” The success of Parkrun offers answers.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Parkrun is <span class=\"mask\">[succeeding]</span> / where London’s Olympic “legacy” is failing. / Ten years ago on Monday, / it was announced / that the Games of the 30th Olympiad would be in London. / Planning <span class=\"mask\">[documents]</span> pledged / that the great legacy of the Games would be to lever a nation of sport lovers away from their couches. / The population would be fitter, / <span class=\"mask\">[healthier]</span> and produce more winners. / It has not happened. / The number of adults doing weekly sport did rise, / by nearly 2 million in the run-up to 2012—but the general population was growing faster. / Worse, / the numbers are now falling at an <span class=\"mask\">[accelerating]</span> rate. / The opposition claims primary school pupils doing at least two hours of sport a week have nearly halved. / Obesity has risen among adults and children. / Official <span class=\"mask\">[retrospections]</span> continue as to why London 2012 failed to “inspire a generation.” The success of Parkrun offers answers.</p></div></div>",
+          "raw": "Parkrun is succeeding / where London’s Olympic “legacy” is failing. / Ten years ago on Monday, / it was [announced] / that the Games of the 30th Olympiad would be in London. / Planning documents pledged / that the great legacy of the Games would be to lever a nation of sport lovers away from their couches. / The population would be fitter, / healthier and produce more winners. / It has not happened. / The number of adults doing weekly sport did rise, / by nearly 2 million in the run-up to 2012—but the general population was growing faster. / Worse, / the numbers are now falling at an [accelerating] rate. / The opposition claims primary school pupils doing at least two hours of sport a week have nearly halved. / Obesity has risen among adults and children. / Official [retrospections] continue as to why London 2012 failed to “inspire a [generation].” The success of Parkrun offers answers.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Parkrun is succeeding / where London’s Olympic “legacy” is failing. / Ten years ago on Monday, / it was <span class=\"mask\">[announced]</span> / that the Games of the 30th Olympiad would be in London. / Planning documents pledged / that the great legacy of the Games would be to lever a nation of sport lovers away from their couches. / The population would be fitter, / healthier and produce more winners. / It has not happened. / The number of adults doing weekly sport did rise, / by nearly 2 million in the run-up to 2012—but the general population was growing faster. / Worse, / the numbers are now falling at an <span class=\"mask\">[accelerating]</span> rate. / The opposition claims primary school pupils doing at least two hours of sport a week have nearly halved. / Obesity has risen among adults and children. / Official <span class=\"mask\">[retrospections]</span> continue as to why London 2012 failed to “inspire a <span class=\"mask\">[generation]</span>.” The success of Parkrun offers answers.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 1,
@@ -363,8 +363,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "Parkrun is not a race but a time trial: Your only [competitor] is the clock. The ethos welcomes anybody. There is as much joy over a puffed-out [first-timer] being clapped over the line as there is about top talent shining. The Olympic bidders, by contrast, wanted to get more people doing sport and to produce more elite athletes. The dual aim was mixed up: The stress on success over taking part was [intimidating] for newcomers.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Parkrun is not a race but a time trial: Your only <span class=\"mask\">[competitor]</span> is the clock. The ethos welcomes anybody. There is as much joy over a puffed-out <span class=\"mask\">[first-timer]</span> being clapped over the line as there is about top talent shining. The Olympic bidders, by contrast, wanted to get more people doing sport and to produce more elite athletes. The dual aim was mixed up: The stress on success over taking part was <span class=\"mask\">[intimidating]</span> for newcomers.</p></div></div>",
+          "raw": "Parkrun is not a race but a time trial: Your only competitor is the clock. The ethos welcomes anybody. There is as much joy over a puffed-out first-timer being clapped over the line as there is about top talent shining. The Olympic bidders, by contrast, wanted to get more people doing sport and to produce more elite athletes. The dual aim was mixed up: The stress on success over taking part was [intimidating] for newcomers.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Parkrun is not a race but a time trial: Your only competitor is the clock. The ethos welcomes anybody. There is as much joy over a puffed-out first-timer being clapped over the line as there is about top talent shining. The Olympic bidders, by contrast, wanted to get more people doing sport and to produce more elite athletes. The dual aim was mixed up: The stress on success over taking part was <span class=\"mask\">[intimidating]</span> for newcomers.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 2,
@@ -373,8 +373,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "Parkrun is not a race but a time trial: / Your only [competitor] is the clock. / The ethos welcomes anybody. / There is as much joy over a puffed-out [first-timer] being clapped over the line as there is about top talent shining. / The Olympic bidders, / by contrast, / wanted to get more people doing sport and to produce more elite athletes. / The dual aim was mixed up: / The stress on success over taking part was [intimidating] for newcomers.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Parkrun is not a race but a time trial: / Your only <span class=\"mask\">[competitor]</span> is the clock. / The ethos welcomes anybody. / There is as much joy over a puffed-out <span class=\"mask\">[first-timer]</span> being clapped over the line as there is about top talent shining. / The Olympic bidders, / by contrast, / wanted to get more people doing sport and to produce more elite athletes. / The dual aim was mixed up: / The stress on success over taking part was <span class=\"mask\">[intimidating]</span> for newcomers.</p></div></div>",
+          "raw": "Parkrun is not a race but a time trial: / Your only competitor is the clock. / The ethos welcomes anybody. / There is as much joy over a puffed-out first-timer being clapped over the line as there is about top talent shining. / The Olympic bidders, / by contrast, / wanted to get more people doing sport and to produce more elite athletes. / The dual aim was mixed up: / The stress on success over taking part was [intimidating] for newcomers.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Parkrun is not a race but a time trial: / Your only competitor is the clock. / The ethos welcomes anybody. / There is as much joy over a puffed-out first-timer being clapped over the line as there is about top talent shining. / The Olympic bidders, / by contrast, / wanted to get more people doing sport and to produce more elite athletes. / The dual aim was mixed up: / The stress on success over taking part was <span class=\"mask\">[intimidating]</span> for newcomers.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 2,
@@ -403,8 +403,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "Indeed, there is [something] a little absurd in the state getting involved in the planning of such a [fundamentally] “grassroots” concept as community sports [associations]. If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools. But successive governments have presided over selling green spaces, squeezing money from local authorities and declining attention on sport in education. Instead of wordy, worthy strategies, future governments need to do more to provide the [conditions] for sport to thrive. Or at least not make them worse.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Indeed, there is <span class=\"mask\">[something]</span> a little absurd in the state getting involved in the planning of such a <span class=\"mask\">[fundamentally]</span> “grassroots” concept as community sports <span class=\"mask\">[associations]</span>. If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools. But successive governments have presided over selling green spaces, squeezing money from local authorities and declining attention on sport in education. Instead of wordy, worthy strategies, future governments need to do more to provide the <span class=\"mask\">[conditions]</span> for sport to thrive. Or at least not make them worse.</p></div></div>",
+          "raw": "Indeed, there is something a little absurd in the state getting involved in the planning of such a [fundamentally] “grassroots” concept as [community] sports [associations]. If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the [provision] of all these activities in schools. But successive governments have presided over selling green spaces, squeezing money from local authorities and declining attention on sport in education. Instead of wordy, worthy strategies, future governments need to do more to provide the conditions for sport to thrive. Or at least not make them worse.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a <span class=\"mask\">[fundamentally]</span> “grassroots” concept as <span class=\"mask\">[community]</span> sports <span class=\"mask\">[associations]</span>. If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the <span class=\"mask\">[provision]</span> of all these activities in schools. But successive governments have presided over selling green spaces, squeezing money from local authorities and declining attention on sport in education. Instead of wordy, worthy strategies, future governments need to do more to provide the conditions for sport to thrive. Or at least not make them worse.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 3,
@@ -413,8 +413,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "Indeed, / there is [something] a little absurd in the state getting involved in the planning of such a [fundamentally] “grassroots” concept as community sports [associations]. / If there is a role for government, / it should really be getting involved in providing common goods— / making sure there is space for playing fields and the money to pave tennis and netball courts, / and encouraging the provision of all these activities in schools. / But successive governments have presided over selling green spaces, / squeezing money from local authorities and declining attention on sport in education. / Instead of wordy, / worthy strategies, / future governments need to do more to provide the [conditions] for sport to thrive. / Or at least not make them worse.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Indeed, / there is <span class=\"mask\">[something]</span> a little absurd in the state getting involved in the planning of such a <span class=\"mask\">[fundamentally]</span> “grassroots” concept as community sports <span class=\"mask\">[associations]</span>. / If there is a role for government, / it should really be getting involved in providing common goods— / making sure there is space for playing fields and the money to pave tennis and netball courts, / and encouraging the provision of all these activities in schools. / But successive governments have presided over selling green spaces, / squeezing money from local authorities and declining attention on sport in education. / Instead of wordy, / worthy strategies, / future governments need to do more to provide the <span class=\"mask\">[conditions]</span> for sport to thrive. / Or at least not make them worse.</p></div></div>",
+          "raw": "Indeed, / there is something a little absurd in the state getting involved in the planning of such a [fundamentally] “grassroots” concept as [community] sports [associations]. / If there is a role for government, / it should really be getting involved in providing common goods— / making sure there is space for playing fields and the money to pave tennis and netball courts, / and encouraging the [provision] of all these activities in schools. / But successive governments have presided over selling green spaces, / squeezing money from local authorities and declining attention on sport in education. / Instead of wordy, / worthy strategies, / future governments need to do more to provide the conditions for sport to thrive. / Or at least not make them worse.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Indeed, / there is something a little absurd in the state getting involved in the planning of such a <span class=\"mask\">[fundamentally]</span> “grassroots” concept as <span class=\"mask\">[community]</span> sports <span class=\"mask\">[associations]</span>. / If there is a role for government, / it should really be getting involved in providing common goods— / making sure there is space for playing fields and the money to pave tennis and netball courts, / and encouraging the <span class=\"mask\">[provision]</span> of all these activities in schools. / But successive governments have presided over selling green spaces, / squeezing money from local authorities and declining attention on sport in education. / Instead of wordy, / worthy strategies, / future governments need to do more to provide the conditions for sport to thrive. / Or at least not make them worse.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 3,
@@ -449,8 +449,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "21题",
-          "raw": "## 21题\n\n**According to Paragraph 1, Parkrun has _______.**\n\n> 根据第 1 段，Parkrun 有 _______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park. The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad. Events are free, staffed by thousands of volunteers. Runners range from four years old to [grandparents]; their times range from Andrew [Baddeley’s] world record 13 minutes 48 seconds up to an hour.\n>\n> 开始精读：\n>\n> Every Saturday morning, / at 9 am, / more than 50,000 runners set off to run 5km around their local park. / The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad. / Events are free, / staffed by thousands of volunteers. / Runners range from four years old to [grandparents]; / their times range from Andrew [Baddeley’s] world record 13 minutes 48 seconds up to an hour.\n>\n> 逐意群顺译：\n>\n> 每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。 Parkrun 现象始于十几个朋友，并启发了英国和其他国家举办的 400 场活动。活动是免费的，有数千名志愿者。跑步者的年龄范围从四岁到祖父母；他们的时间从安德鲁·巴德利 (Andrew Baddeley) 的世界纪录 13 分 48 秒到 1 小时不等。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>21题</h2>\n<p><strong>According to Paragraph 1, Parkrun has _______.</strong></p>\n<blockquote><p>根据第 1 段，Parkrun 有 _______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park. The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad. Events are free, staffed by thousands of volunteers. Runners range from four years old to <span class=\"mask\">[grandparents]</span>; their times range from Andrew <span class=\"mask\">[Baddeley’s]</span> world record 13 minutes 48 seconds up to an hour.</p>\n<p><strong>开始精读：</strong></p>\n<p>Every Saturday morning, / at 9 am, / more than 50,000 runners set off to run 5km around their local park. / The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad. / Events are free, / staffed by thousands of volunteers. / Runners range from four years old to <span class=\"mask\">[grandparents]</span>; / their times range from Andrew <span class=\"mask\">[Baddeley’s]</span> world record 13 minutes 48 seconds up to an hour.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。 Parkrun 现象始于十几个朋友，并启发了英国和其他国家举办的 400 场活动。活动是免费的，有数千名志愿者。跑步者的年龄范围从四岁到祖父母；他们的时间从安德鲁·巴德利 (Andrew Baddeley) 的世界纪录 13 分 48 秒到 1 小时不等。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 21题\n\n**According to Paragraph 1, Parkrun has _______.**\n\n> 根据第 1 段，Parkrun 有 _______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park. The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad. Events are free, staffed by thousands of [volunteers]. Runners range from four years old to [grandparents]; their times range from Andrew Baddeley’s world record 13 minutes 48 seconds up to an hour.\n>\n> 开始精读：\n>\n> Every Saturday morning, / at 9 am, / more than 50,000 runners set off to run 5km around their local park. / The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad. / Events are free, / staffed by thousands of [volunteers]. / Runners range from four years old to [grandparents]; / their times range from Andrew Baddeley’s world record 13 minutes 48 seconds up to an hour.\n>\n> 逐意群顺译：\n>\n> 每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。 Parkrun 现象始于十几个朋友，并启发了英国和其他国家举办的 400 场活动。活动是免费的，有数千名志愿者。跑步者的年龄范围从四岁到祖父母；他们的时间从安德鲁·巴德利 (Andrew Baddeley) 的世界纪录 13 分 48 秒到 1 小时不等。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>21题</h2>\n<p><strong>According to Paragraph 1, Parkrun has _______.</strong></p>\n<blockquote><p>根据第 1 段，Parkrun 有 _______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park. The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad. Events are free, staffed by thousands of <span class=\"mask\">[volunteers]</span>. Runners range from four years old to <span class=\"mask\">[grandparents]</span>; their times range from Andrew Baddeley’s world record 13 minutes 48 seconds up to an hour.</p>\n<p><strong>开始精读：</strong></p>\n<p>Every Saturday morning, / at 9 am, / more than 50,000 runners set off to run 5km around their local park. / The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad. / Events are free, / staffed by thousands of <span class=\"mask\">[volunteers]</span>. / Runners range from four years old to <span class=\"mask\">[grandparents]</span>; / their times range from Andrew Baddeley’s world record 13 minutes 48 seconds up to an hour.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。 Parkrun 现象始于十几个朋友，并启发了英国和其他国家举办的 400 场活动。活动是免费的，有数千名志愿者。跑步者的年龄范围从四岁到祖父母；他们的时间从安德鲁·巴德利 (Andrew Baddeley) 的世界纪录 13 分 48 秒到 1 小时不等。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "21"
@@ -458,8 +458,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "21题",
-          "raw": "### A. created many jobs\n\n> 创造了许多就业机会\n\n我们先看 A 选项：`created many jobs`（创造了许多就业机会）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第 1 段，Parkrun 有 “创造了许多就业机会”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `created`, `many`, `jobs` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
-          "html": "<h3>A. created many jobs</h3>\n<blockquote><p>创造了许多就业机会</p></blockquote>\n<p>我们先看 A 选项：<code>created many jobs</code>（创造了许多就业机会）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第 1 段，Parkrun 有 “创造了许多就业机会”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>created</code>, <code>many</code>, <code>jobs</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "raw": "### A. created many jobs\n\n> 创造了许多就业机会\n\n我们先看 A 选项：`created many jobs`（创造了许多就业机会）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第 1 段，Parkrun 有 “创造了许多就业机会”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“创造了许多就业机会”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. created many jobs</h3>\n<blockquote><p>创造了许多就业机会</p></blockquote>\n<p>我们先看 A 选项：<code>created many jobs</code>（创造了许多就业机会）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第 1 段，Parkrun 有 “创造了许多就业机会”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“创造了许多就业机会”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "21",
@@ -478,8 +478,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "21题",
-          "raw": "### C. become an official festival\n\n> 成为官方节日\n\n我们先看 C 选项：`become an official festival`（成为官方节日）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第 1 段，Parkrun 有 “成为官方节日”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“成为官方节日”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
-          "html": "<h3>C. become an official festival</h3>\n<blockquote><p>成为官方节日</p></blockquote>\n<p>我们先看 C 选项：<code>become an official festival</code>（成为官方节日）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第 1 段，Parkrun 有 “成为官方节日”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“成为官方节日”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "raw": "### C. become an official festival\n\n> 成为官方节日\n\n我们先看 C 选项：`become an official festival`（成为官方节日）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第 1 段，Parkrun 有 “成为官方节日”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“成为官方节日”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. become an official festival</h3>\n<blockquote><p>成为官方节日</p></blockquote>\n<p>我们先看 C 选项：<code>become an official festival</code>（成为官方节日）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第 1 段，Parkrun 有 “成为官方节日”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“成为官方节日”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "21",
@@ -488,8 +488,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "21题",
-          "raw": "### D. strengthened community ties\n\n> 加强社区联系\n\n我们先看 D 选项：`strengthened community ties`（加强社区联系）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第 1 段，Parkrun 有 “加强社区联系”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `strengthened`, `community`, `ties` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. strengthened community ties</h3>\n<blockquote><p>加强社区联系</p></blockquote>\n<p>我们先看 D 选项：<code>strengthened community ties</code>（加强社区联系）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第 1 段，Parkrun 有 “加强社区联系”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>strengthened</code>, <code>community</code>, <code>ties</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. strengthened community ties\n\n> 加强社区联系\n\n我们先看 D 选项：`strengthened community ties`（加强社区联系）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据第 1 段，Parkrun 有 “加强社区联系”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“加强社区联系”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. strengthened community ties</h3>\n<blockquote><p>加强社区联系</p></blockquote>\n<p>我们先看 D 选项：<code>strengthened community ties</code>（加强社区联系）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据第 1 段，Parkrun 有 “加强社区联系”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“加强社区联系”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "21",
@@ -507,8 +507,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "22题",
-          "raw": "## 22题\n\n**The author believes that London’s Olympic “legacy” has failed to _______.**\n\n> 作者认为，伦敦奥运会的“遗产”未能_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> Parkrun is [succeeding] where London’s Olympic “legacy” is failing. Ten years ago on Monday, it was announced that the Games of the 30th Olympiad would be in London. Planning [documents] pledged that the great legacy of the Games would be to lever a nation of sport lovers away from their couches. The population would be fitter, [healthier] and produce more winners. It has not happened. The number of adults doing weekly sport did rise, by nearly 2 million in the run-up to 2012—but the general population was growing faster. Worse, the numbers are now falling at an [accelerating] rate. The opposition claims primary school pupils doing at least two hours of sport a week have nearly halved. Obesity has risen among adults and children. Official [retrospections] continue as to why London 2012 failed to “inspire a generation.” The success of Parkrun offers answers.\n>\n> 开始精读：\n>\n> Parkrun is [succeeding] / where London’s Olympic “legacy” is failing. / Ten years ago on Monday, / it was announced / that the Games of the 30th Olympiad would be in London. / Planning [documents] pledged / that the great legacy of the Games would be to lever a nation of sport lovers away from their couches. / The population would be fitter, / [healthier] and produce more winners. / It has not happened. / The number of adults doing weekly sport did rise, / by nearly 2 million in the run-up to 2012—but the general population was growing faster. / Worse, / the numbers are now falling at an [accelerating] rate. / The opposition claims primary school pupils doing at least two hours of sport a week have nearly halved. / Obesity has risen among adults and children. / Official [retrospections] continue as to why London 2012 failed to “inspire a generation.” The success of Parkrun offers answers.\n>\n> 逐意群顺译：\n>\n> 帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。十年前的周一，宣布第 30 届奥运会将在伦敦举行。规划文件承诺，奥运会的伟大遗产将是让全国的体育爱好者远离沙发。人口将会变得更健康、更健康，并产生更多的赢家。但它并没有发生。每周参加体育运动的成年人数量确实有所增加，到 2012 年为止增加了近 200 万，但总人口增长得更快。更糟糕的是，这个数字现在正在加速下降。反对派声称，小学生每周至少进行两小时体育运动的人数几乎减少了一半。成人和儿童的肥胖率有所上升。官方仍在继续反思为什么 2012 年伦敦奥运会未能“激励一代人”。 Parkrun 的成功提供了答案。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>22题</h2>\n<p><strong>The author believes that London’s Olympic “legacy” has failed to _______.</strong></p>\n<blockquote><p>作者认为，伦敦奥运会的“遗产”未能_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Parkrun is <span class=\"mask\">[succeeding]</span> where London’s Olympic “legacy” is failing. Ten years ago on Monday, it was announced that the Games of the 30th Olympiad would be in London. Planning <span class=\"mask\">[documents]</span> pledged that the great legacy of the Games would be to lever a nation of sport lovers away from their couches. The population would be fitter, <span class=\"mask\">[healthier]</span> and produce more winners. It has not happened. The number of adults doing weekly sport did rise, by nearly 2 million in the run-up to 2012—but the general population was growing faster. Worse, the numbers are now falling at an <span class=\"mask\">[accelerating]</span> rate. The opposition claims primary school pupils doing at least two hours of sport a week have nearly halved. Obesity has risen among adults and children. Official <span class=\"mask\">[retrospections]</span> continue as to why London 2012 failed to “inspire a generation.” The success of Parkrun offers answers.</p>\n<p><strong>开始精读：</strong></p>\n<p>Parkrun is <span class=\"mask\">[succeeding]</span> / where London’s Olympic “legacy” is failing. / Ten years ago on Monday, / it was announced / that the Games of the 30th Olympiad would be in London. / Planning <span class=\"mask\">[documents]</span> pledged / that the great legacy of the Games would be to lever a nation of sport lovers away from their couches. / The population would be fitter, / <span class=\"mask\">[healthier]</span> and produce more winners. / It has not happened. / The number of adults doing weekly sport did rise, / by nearly 2 million in the run-up to 2012—but the general population was growing faster. / Worse, / the numbers are now falling at an <span class=\"mask\">[accelerating]</span> rate. / The opposition claims primary school pupils doing at least two hours of sport a week have nearly halved. / Obesity has risen among adults and children. / Official <span class=\"mask\">[retrospections]</span> continue as to why London 2012 failed to “inspire a generation.” The success of Parkrun offers answers.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。十年前的周一，宣布第 30 届奥运会将在伦敦举行。规划文件承诺，奥运会的伟大遗产将是让全国的体育爱好者远离沙发。人口将会变得更健康、更健康，并产生更多的赢家。但它并没有发生。每周参加体育运动的成年人数量确实有所增加，到 2012 年为止增加了近 200 万，但总人口增长得更快。更糟糕的是，这个数字现在正在加速下降。反对派声称，小学生每周至少进行两小时体育运动的人数几乎减少了一半。成人和儿童的肥胖率有所上升。官方仍在继续反思为什么 2012 年伦敦奥运会未能“激励一代人”。 Parkrun 的成功提供了答案。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 22题\n\n**The author believes that London’s Olympic “legacy” has failed to _______.**\n\n> 作者认为，伦敦奥运会的“遗产”未能_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> Parkrun is succeeding where London’s Olympic “legacy” is failing. Ten years ago on Monday, it was [announced] that the Games of the 30th Olympiad would be in London. Planning documents pledged that the great legacy of the Games would be to lever a nation of sport lovers away from their couches. The population would be fitter, healthier and produce more winners. It has not happened. The number of adults doing weekly sport did rise, by nearly 2 million in the run-up to 2012—but the general population was growing faster. Worse, the numbers are now falling at an [accelerating] rate. The opposition claims primary school pupils doing at least two hours of sport a week have nearly halved. Obesity has risen among adults and children. Official [retrospections] continue as to why London 2012 failed to “inspire a [generation].” The success of Parkrun offers answers.\n>\n> 开始精读：\n>\n> Parkrun is succeeding / where London’s Olympic “legacy” is failing. / Ten years ago on Monday, / it was [announced] / that the Games of the 30th Olympiad would be in London. / Planning documents pledged / that the great legacy of the Games would be to lever a nation of sport lovers away from their couches. / The population would be fitter, / healthier and produce more winners. / It has not happened. / The number of adults doing weekly sport did rise, / by nearly 2 million in the run-up to 2012—but the general population was growing faster. / Worse, / the numbers are now falling at an [accelerating] rate. / The opposition claims primary school pupils doing at least two hours of sport a week have nearly halved. / Obesity has risen among adults and children. / Official [retrospections] continue as to why London 2012 failed to “inspire a [generation].” The success of Parkrun offers answers.\n>\n> 逐意群顺译：\n>\n> 帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。十年前的周一，宣布第 30 届奥运会将在伦敦举行。规划文件承诺，奥运会的伟大遗产将是让全国的体育爱好者远离沙发。人口将会变得更健康、更健康，并产生更多的赢家。但它并没有发生。每周参加体育运动的成年人数量确实有所增加，到 2012 年为止增加了近 200 万，但总人口增长得更快。更糟糕的是，这个数字现在正在加速下降。反对派声称，小学生每周至少进行两小时体育运动的人数几乎减少了一半。成人和儿童的肥胖率有所上升。官方仍在继续反思为什么 2012 年伦敦奥运会未能“激励一代人”。 Parkrun 的成功提供了答案。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>22题</h2>\n<p><strong>The author believes that London’s Olympic “legacy” has failed to _______.</strong></p>\n<blockquote><p>作者认为，伦敦奥运会的“遗产”未能_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Parkrun is succeeding where London’s Olympic “legacy” is failing. Ten years ago on Monday, it was <span class=\"mask\">[announced]</span> that the Games of the 30th Olympiad would be in London. Planning documents pledged that the great legacy of the Games would be to lever a nation of sport lovers away from their couches. The population would be fitter, healthier and produce more winners. It has not happened. The number of adults doing weekly sport did rise, by nearly 2 million in the run-up to 2012—but the general population was growing faster. Worse, the numbers are now falling at an <span class=\"mask\">[accelerating]</span> rate. The opposition claims primary school pupils doing at least two hours of sport a week have nearly halved. Obesity has risen among adults and children. Official <span class=\"mask\">[retrospections]</span> continue as to why London 2012 failed to “inspire a <span class=\"mask\">[generation]</span>.” The success of Parkrun offers answers.</p>\n<p><strong>开始精读：</strong></p>\n<p>Parkrun is succeeding / where London’s Olympic “legacy” is failing. / Ten years ago on Monday, / it was <span class=\"mask\">[announced]</span> / that the Games of the 30th Olympiad would be in London. / Planning documents pledged / that the great legacy of the Games would be to lever a nation of sport lovers away from their couches. / The population would be fitter, / healthier and produce more winners. / It has not happened. / The number of adults doing weekly sport did rise, / by nearly 2 million in the run-up to 2012—but the general population was growing faster. / Worse, / the numbers are now falling at an <span class=\"mask\">[accelerating]</span> rate. / The opposition claims primary school pupils doing at least two hours of sport a week have nearly halved. / Obesity has risen among adults and children. / Official <span class=\"mask\">[retrospections]</span> continue as to why London 2012 failed to “inspire a <span class=\"mask\">[generation]</span>.” The success of Parkrun offers answers.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。十年前的周一，宣布第 30 届奥运会将在伦敦举行。规划文件承诺，奥运会的伟大遗产将是让全国的体育爱好者远离沙发。人口将会变得更健康、更健康，并产生更多的赢家。但它并没有发生。每周参加体育运动的成年人数量确实有所增加，到 2012 年为止增加了近 200 万，但总人口增长得更快。更糟糕的是，这个数字现在正在加速下降。反对派声称，小学生每周至少进行两小时体育运动的人数几乎减少了一半。成人和儿童的肥胖率有所上升。官方仍在继续反思为什么 2012 年伦敦奥运会未能“激励一代人”。 Parkrun 的成功提供了答案。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "22"
@@ -516,8 +516,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "22题",
-          "raw": "### A. boost population growth\n\n> 促进人口增长\n\n我们先看 A 选项：`boost population growth`（促进人口增长）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者认为，伦敦奥运会的“遗产”未能“促进人口增长”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“促进人口增长”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
-          "html": "<h3>A. boost population growth</h3>\n<blockquote><p>促进人口增长</p></blockquote>\n<p>我们先看 A 选项：<code>boost population growth</code>（促进人口增长）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者认为，伦敦奥运会的“遗产”未能“促进人口增长”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“促进人口增长”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "raw": "### A. boost population growth\n\n> 促进人口增长\n\n我们先看 A 选项：`boost population growth`（促进人口增长）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者认为，伦敦奥运会的“遗产”未能“促进人口增长”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“促进人口增长”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. boost population growth</h3>\n<blockquote><p>促进人口增长</p></blockquote>\n<p>我们先看 A 选项：<code>boost population growth</code>（促进人口增长）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者认为，伦敦奥运会的“遗产”未能“促进人口增长”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“促进人口增长”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "22",
@@ -526,8 +526,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "22题",
-          "raw": "### B. improve the city’s image\n\n> 提升城市形象\n\n我们先看 B 选项：`improve the city’s image`（提升城市形象）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者认为，伦敦奥运会的“遗产”未能“提升城市形象”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“提升城市形象”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. improve the city’s image</h3>\n<blockquote><p>提升城市形象</p></blockquote>\n<p>我们先看 B 选项：<code>improve the city’s image</code>（提升城市形象）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者认为，伦敦奥运会的“遗产”未能“提升城市形象”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“提升城市形象”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. improve the city’s image\n\n> 提升城市形象\n\n我们先看 B 选项：`improve the city’s image`（提升城市形象）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者认为，伦敦奥运会的“遗产”未能“提升城市形象”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“提升城市形象”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. improve the city’s image</h3>\n<blockquote><p>提升城市形象</p></blockquote>\n<p>我们先看 B 选项：<code>improve the city’s image</code>（提升城市形象）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者认为，伦敦奥运会的“遗产”未能“提升城市形象”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“提升城市形象”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "22",
@@ -565,8 +565,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "23题",
-          "raw": "## 23题\n\n**Parkrun is different from Olympic games in that it _______.**\n\n> Parkrun 与奥运会不同之处在于它_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> Parkrun is not a race but a time trial: Your only [competitor] is the clock. The ethos welcomes anybody. There is as much joy over a puffed-out [first-timer] being clapped over the line as there is about top talent shining. The Olympic bidders, by contrast, wanted to get more people doing sport and to produce more elite athletes. The dual aim was mixed up: The stress on success over taking part was [intimidating] for newcomers.\n>\n> 开始精读：\n>\n> Parkrun is not a race but a time trial: / Your only [competitor] is the clock. / The ethos welcomes anybody. / There is as much joy over a puffed-out [first-timer] being clapped over the line as there is about top talent shining. / The Olympic bidders, / by contrast, / wanted to get more people doing sport and to produce more elite athletes. / The dual aim was mixed up: / The stress on success over taking part was [intimidating] for newcomers.\n>\n> 逐意群顺译：\n>\n> Parkrun 不是一场比赛，而是一场计时赛：你唯一的竞争对手是时钟。这种精神欢迎任何人。一个趾高气扬的初来乍到者被拍到终点线所带来的喜悦与顶尖人才的光芒四射一样令人高兴。相比之下，奥运会申办者希望让更多的人参与体育运动并培养更多的精英运动员。双重目标是混合在一起的：对成功的压力超过了参与的压力，这让新来者感到害怕。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>23题</h2>\n<p><strong>Parkrun is different from Olympic games in that it _______.</strong></p>\n<blockquote><p>Parkrun 与奥运会不同之处在于它_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Parkrun is not a race but a time trial: Your only <span class=\"mask\">[competitor]</span> is the clock. The ethos welcomes anybody. There is as much joy over a puffed-out <span class=\"mask\">[first-timer]</span> being clapped over the line as there is about top talent shining. The Olympic bidders, by contrast, wanted to get more people doing sport and to produce more elite athletes. The dual aim was mixed up: The stress on success over taking part was <span class=\"mask\">[intimidating]</span> for newcomers.</p>\n<p><strong>开始精读：</strong></p>\n<p>Parkrun is not a race but a time trial: / Your only <span class=\"mask\">[competitor]</span> is the clock. / The ethos welcomes anybody. / There is as much joy over a puffed-out <span class=\"mask\">[first-timer]</span> being clapped over the line as there is about top talent shining. / The Olympic bidders, / by contrast, / wanted to get more people doing sport and to produce more elite athletes. / The dual aim was mixed up: / The stress on success over taking part was <span class=\"mask\">[intimidating]</span> for newcomers.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>Parkrun 不是一场比赛，而是一场计时赛：你唯一的竞争对手是时钟。这种精神欢迎任何人。一个趾高气扬的初来乍到者被拍到终点线所带来的喜悦与顶尖人才的光芒四射一样令人高兴。相比之下，奥运会申办者希望让更多的人参与体育运动并培养更多的精英运动员。双重目标是混合在一起的：对成功的压力超过了参与的压力，这让新来者感到害怕。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 23题\n\n**Parkrun is different from Olympic games in that it _______.**\n\n> Parkrun 与奥运会不同之处在于它_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> Parkrun is not a race but a time trial: Your only competitor is the clock. The ethos welcomes anybody. There is as much joy over a puffed-out first-timer being clapped over the line as there is about top talent shining. The Olympic bidders, by contrast, wanted to get more people doing sport and to produce more elite athletes. The dual aim was mixed up: The stress on success over taking part was [intimidating] for newcomers.\n>\n> 开始精读：\n>\n> Parkrun is not a race but a time trial: / Your only competitor is the clock. / The ethos welcomes anybody. / There is as much joy over a puffed-out first-timer being clapped over the line as there is about top talent shining. / The Olympic bidders, / by contrast, / wanted to get more people doing sport and to produce more elite athletes. / The dual aim was mixed up: / The stress on success over taking part was [intimidating] for newcomers.\n>\n> 逐意群顺译：\n>\n> Parkrun 不是一场比赛，而是一场计时赛：你唯一的竞争对手是时钟。这种精神欢迎任何人。一个趾高气扬的初来乍到者被拍到终点线所带来的喜悦与顶尖人才的光芒四射一样令人高兴。相比之下，奥运会申办者希望让更多的人参与体育运动并培养更多的精英运动员。双重目标是混合在一起的：对成功的压力超过了参与的压力，这让新来者感到害怕。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>23题</h2>\n<p><strong>Parkrun is different from Olympic games in that it _______.</strong></p>\n<blockquote><p>Parkrun 与奥运会不同之处在于它_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Parkrun is not a race but a time trial: Your only competitor is the clock. The ethos welcomes anybody. There is as much joy over a puffed-out first-timer being clapped over the line as there is about top talent shining. The Olympic bidders, by contrast, wanted to get more people doing sport and to produce more elite athletes. The dual aim was mixed up: The stress on success over taking part was <span class=\"mask\">[intimidating]</span> for newcomers.</p>\n<p><strong>开始精读：</strong></p>\n<p>Parkrun is not a race but a time trial: / Your only competitor is the clock. / The ethos welcomes anybody. / There is as much joy over a puffed-out first-timer being clapped over the line as there is about top talent shining. / The Olympic bidders, / by contrast, / wanted to get more people doing sport and to produce more elite athletes. / The dual aim was mixed up: / The stress on success over taking part was <span class=\"mask\">[intimidating]</span> for newcomers.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>Parkrun 不是一场比赛，而是一场计时赛：你唯一的竞争对手是时钟。这种精神欢迎任何人。一个趾高气扬的初来乍到者被拍到终点线所带来的喜悦与顶尖人才的光芒四射一样令人高兴。相比之下，奥运会申办者希望让更多的人参与体育运动并培养更多的精英运动员。双重目标是混合在一起的：对成功的压力超过了参与的压力，这让新来者感到害怕。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "23"
@@ -574,8 +574,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "23题",
-          "raw": "### A. aims at discovering talents\n\n> 旨在发现人才\n\n我们先看 A 选项：`aims at discovering talents`（旨在发现人才）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Parkrun 与奥运会不同之处在于它“旨在发现人才”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“旨在发现人才”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
-          "html": "<h3>A. aims at discovering talents</h3>\n<blockquote><p>旨在发现人才</p></blockquote>\n<p>我们先看 A 选项：<code>aims at discovering talents</code>（旨在发现人才）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Parkrun 与奥运会不同之处在于它“旨在发现人才”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“旨在发现人才”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "raw": "### A. aims at discovering talents\n\n> 旨在发现人才\n\n我们先看 A 选项：`aims at discovering talents`（旨在发现人才）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Parkrun 与奥运会不同之处在于它“旨在发现人才”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“旨在发现人才”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. aims at discovering talents</h3>\n<blockquote><p>旨在发现人才</p></blockquote>\n<p>我们先看 A 选项：<code>aims at discovering talents</code>（旨在发现人才）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Parkrun 与奥运会不同之处在于它“旨在发现人才”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“旨在发现人才”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "23",
@@ -584,8 +584,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "23题",
-          "raw": "### B. focuses on mass competition\n\n> 注重大众竞争\n\n我们先看 B 选项：`focuses on mass competition`（注重大众竞争）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Parkrun 与奥运会不同之处在于它“注重大众竞争”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `focuses`, `mass`, `competition` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. focuses on mass competition</h3>\n<blockquote><p>注重大众竞争</p></blockquote>\n<p>我们先看 B 选项：<code>focuses on mass competition</code>（注重大众竞争）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Parkrun 与奥运会不同之处在于它“注重大众竞争”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>focuses</code>, <code>mass</code>, <code>competition</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. focuses on mass competition\n\n> 注重大众竞争\n\n我们先看 B 选项：`focuses on mass competition`（注重大众竞争）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Parkrun 与奥运会不同之处在于它“注重大众竞争”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“注重大众竞争”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. focuses on mass competition</h3>\n<blockquote><p>注重大众竞争</p></blockquote>\n<p>我们先看 B 选项：<code>focuses on mass competition</code>（注重大众竞争）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Parkrun 与奥运会不同之处在于它“注重大众竞争”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“注重大众竞争”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "23",
@@ -604,8 +604,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "23题",
-          "raw": "### D. does not attract first-timers\n\n> 不吸引初次尝试者\n\n我们先看 D 选项：`does not attract first-timers`（不吸引初次尝试者）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Parkrun 与奥运会不同之处在于它“不吸引初次尝试者”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“不吸引初次尝试者”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. does not attract first-timers</h3>\n<blockquote><p>不吸引初次尝试者</p></blockquote>\n<p>我们先看 D 选项：<code>does not attract first-timers</code>（不吸引初次尝试者）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Parkrun 与奥运会不同之处在于它“不吸引初次尝试者”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“不吸引初次尝试者”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. does not attract first-timers\n\n> 不吸引初次尝试者\n\n我们先看 D 选项：`does not attract first-timers`（不吸引初次尝试者）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：Parkrun 与奥运会不同之处在于它“不吸引初次尝试者”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“不吸引初次尝试者”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. does not attract first-timers</h3>\n<blockquote><p>不吸引初次尝试者</p></blockquote>\n<p>我们先看 D 选项：<code>does not attract first-timers</code>（不吸引初次尝试者）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：Parkrun 与奥运会不同之处在于它“不吸引初次尝试者”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“不吸引初次尝试者”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "23",
@@ -623,8 +623,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "24题",
-          "raw": "## 24题\n\n**With regard to mass sports, the author holds that governments should _______.**\n\n> 关于群众体育，作者认为政府应该_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> Indeed, there is [something] a little absurd in the state getting involved in the planning of such a [fundamentally] “grassroots” concept as community sports [associations]. If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools. But successive governments have presided over selling green spaces, squeezing money from local authorities and declining attention on sport in education. Instead of wordy, worthy strategies, future governments need to do more to provide the [conditions] for sport to thrive. Or at least not make them worse.\n>\n> 开始精读：\n>\n> Indeed, / there is [something] a little absurd in the state getting involved in the planning of such a [fundamentally] “grassroots” concept as community sports [associations]. / If there is a role for government, / it should really be getting involved in providing common goods— / making sure there is space for playing fields and the money to pave tennis and netball courts, / and encouraging the provision of all these activities in schools. / But successive governments have presided over selling green spaces, / squeezing money from local authorities and declining attention on sport in education. / Instead of wordy, / worthy strategies, / future governments need to do more to provide the [conditions] for sport to thrive. / Or at least not make them worse.\n>\n> 逐意群顺译：\n>\n> 确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。但历届政府都在主导出售绿地、挤压地方当局的资金以及减少教育中对体育的关注。未来的政府需要做更多的事情来为体育运动的蓬勃发展提供条件，而不是冗长而有价值的策略。或者至少不会让事情变得更糟。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>24题</h2>\n<p><strong>With regard to mass sports, the author holds that governments should _______.</strong></p>\n<blockquote><p>关于群众体育，作者认为政府应该_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Indeed, there is <span class=\"mask\">[something]</span> a little absurd in the state getting involved in the planning of such a <span class=\"mask\">[fundamentally]</span> “grassroots” concept as community sports <span class=\"mask\">[associations]</span>. If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools. But successive governments have presided over selling green spaces, squeezing money from local authorities and declining attention on sport in education. Instead of wordy, worthy strategies, future governments need to do more to provide the <span class=\"mask\">[conditions]</span> for sport to thrive. Or at least not make them worse.</p>\n<p><strong>开始精读：</strong></p>\n<p>Indeed, / there is <span class=\"mask\">[something]</span> a little absurd in the state getting involved in the planning of such a <span class=\"mask\">[fundamentally]</span> “grassroots” concept as community sports <span class=\"mask\">[associations]</span>. / If there is a role for government, / it should really be getting involved in providing common goods— / making sure there is space for playing fields and the money to pave tennis and netball courts, / and encouraging the provision of all these activities in schools. / But successive governments have presided over selling green spaces, / squeezing money from local authorities and declining attention on sport in education. / Instead of wordy, / worthy strategies, / future governments need to do more to provide the <span class=\"mask\">[conditions]</span> for sport to thrive. / Or at least not make them worse.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。但历届政府都在主导出售绿地、挤压地方当局的资金以及减少教育中对体育的关注。未来的政府需要做更多的事情来为体育运动的蓬勃发展提供条件，而不是冗长而有价值的策略。或者至少不会让事情变得更糟。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 24题\n\n**With regard to mass sports, the author holds that governments should _______.**\n\n> 关于群众体育，作者认为政府应该_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> Indeed, there is something a little absurd in the state getting involved in the planning of such a [fundamentally] “grassroots” concept as [community] sports [associations]. If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the [provision] of all these activities in schools. But successive governments have presided over selling green spaces, squeezing money from local authorities and declining attention on sport in education. Instead of wordy, worthy strategies, future governments need to do more to provide the conditions for sport to thrive. Or at least not make them worse.\n>\n> 开始精读：\n>\n> Indeed, / there is something a little absurd in the state getting involved in the planning of such a [fundamentally] “grassroots” concept as [community] sports [associations]. / If there is a role for government, / it should really be getting involved in providing common goods— / making sure there is space for playing fields and the money to pave tennis and netball courts, / and encouraging the [provision] of all these activities in schools. / But successive governments have presided over selling green spaces, / squeezing money from local authorities and declining attention on sport in education. / Instead of wordy, / worthy strategies, / future governments need to do more to provide the conditions for sport to thrive. / Or at least not make them worse.\n>\n> 逐意群顺译：\n>\n> 确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。但历届政府都在主导出售绿地、挤压地方当局的资金以及减少教育中对体育的关注。未来的政府需要做更多的事情来为体育运动的蓬勃发展提供条件，而不是冗长而有价值的策略。或者至少不会让事情变得更糟。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>24题</h2>\n<p><strong>With regard to mass sports, the author holds that governments should _______.</strong></p>\n<blockquote><p>关于群众体育，作者认为政府应该_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Indeed, there is something a little absurd in the state getting involved in the planning of such a <span class=\"mask\">[fundamentally]</span> “grassroots” concept as <span class=\"mask\">[community]</span> sports <span class=\"mask\">[associations]</span>. If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the <span class=\"mask\">[provision]</span> of all these activities in schools. But successive governments have presided over selling green spaces, squeezing money from local authorities and declining attention on sport in education. Instead of wordy, worthy strategies, future governments need to do more to provide the conditions for sport to thrive. Or at least not make them worse.</p>\n<p><strong>开始精读：</strong></p>\n<p>Indeed, / there is something a little absurd in the state getting involved in the planning of such a <span class=\"mask\">[fundamentally]</span> “grassroots” concept as <span class=\"mask\">[community]</span> sports <span class=\"mask\">[associations]</span>. / If there is a role for government, / it should really be getting involved in providing common goods— / making sure there is space for playing fields and the money to pave tennis and netball courts, / and encouraging the <span class=\"mask\">[provision]</span> of all these activities in schools. / But successive governments have presided over selling green spaces, / squeezing money from local authorities and declining attention on sport in education. / Instead of wordy, / worthy strategies, / future governments need to do more to provide the conditions for sport to thrive. / Or at least not make them worse.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。但历届政府都在主导出售绿地、挤压地方当局的资金以及减少教育中对体育的关注。未来的政府需要做更多的事情来为体育运动的蓬勃发展提供条件，而不是冗长而有价值的策略。或者至少不会让事情变得更糟。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "24"
@@ -632,8 +632,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "24题",
-          "raw": "### A. increase funds for sports clubs\n\n> 增加体育俱乐部资金\n\n我们先看 A 选项：`increase funds for sports clubs`（增加体育俱乐部资金）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：关于群众体育，作者认为政府应该“增加体育俱乐部资金”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“增加体育俱乐部资金”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
-          "html": "<h3>A. increase funds for sports clubs</h3>\n<blockquote><p>增加体育俱乐部资金</p></blockquote>\n<p>我们先看 A 选项：<code>increase funds for sports clubs</code>（增加体育俱乐部资金）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：关于群众体育，作者认为政府应该“增加体育俱乐部资金”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“增加体育俱乐部资金”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "raw": "### A. increase funds for sports clubs\n\n> 增加体育俱乐部资金\n\n我们先看 A 选项：`increase funds for sports clubs`（增加体育俱乐部资金）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：关于群众体育，作者认为政府应该“增加体育俱乐部资金”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `increase`, `funds`, `sports` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. increase funds for sports clubs</h3>\n<blockquote><p>增加体育俱乐部资金</p></blockquote>\n<p>我们先看 A 选项：<code>increase funds for sports clubs</code>（增加体育俱乐部资金）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：关于群众体育，作者认为政府应该“增加体育俱乐部资金”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>increase</code>, <code>funds</code>, <code>sports</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "24",
@@ -662,8 +662,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "24题",
-          "raw": "### D. supervise local sports associations\n\n> 监督地方体育协会\n\n我们先看 D 选项：`supervise local sports associations`（监督地方体育协会）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：关于群众体育，作者认为政府应该“监督地方体育协会”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `supervise`, `local`, `sports` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. supervise local sports associations</h3>\n<blockquote><p>监督地方体育协会</p></blockquote>\n<p>我们先看 D 选项：<code>supervise local sports associations</code>（监督地方体育协会）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：关于群众体育，作者认为政府应该“监督地方体育协会”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>supervise</code>, <code>local</code>, <code>sports</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. supervise local sports associations\n\n> 监督地方体育协会\n\n我们先看 D 选项：`supervise local sports associations`（监督地方体育协会）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：关于群众体育，作者认为政府应该“监督地方体育协会”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“监督地方体育协会”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. supervise local sports associations</h3>\n<blockquote><p>监督地方体育协会</p></blockquote>\n<p>我们先看 D 选项：<code>supervise local sports associations</code>（监督地方体育协会）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：关于群众体育，作者认为政府应该“监督地方体育协会”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“监督地方体育协会”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "24",
@@ -681,8 +681,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "25题",
-          "raw": "## 25题\n\n**The author’s attitude to what UK governments have done for sports is _______.**\n\n> 作者对英国政府为体育所做的事情的态度是_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> Indeed, there is [something] a little absurd in the state getting involved in the planning of such a [fundamentally] “grassroots” concept as community sports [associations]. If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools. But successive governments have presided over selling green spaces, squeezing money from local authorities and declining attention on sport in education. Instead of wordy, worthy strategies, future governments need to do more to provide the [conditions] for sport to thrive. Or at least not make them worse.\n>\n> 开始精读：\n>\n> Indeed, / there is [something] a little absurd in the state getting involved in the planning of such a [fundamentally] “grassroots” concept as community sports [associations]. / If there is a role for government, / it should really be getting involved in providing common goods— / making sure there is space for playing fields and the money to pave tennis and netball courts, / and encouraging the provision of all these activities in schools. / But successive governments have presided over selling green spaces, / squeezing money from local authorities and declining attention on sport in education. / Instead of wordy, / worthy strategies, / future governments need to do more to provide the [conditions] for sport to thrive. / Or at least not make them worse.\n>\n> 逐意群顺译：\n>\n> 确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。但历届政府都在主导出售绿地、挤压地方当局的资金以及减少教育中对体育的关注。未来的政府需要做更多的事情来为体育运动的蓬勃发展提供条件，而不是冗长而有价值的策略。或者至少不会让事情变得更糟。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>25题</h2>\n<p><strong>The author’s attitude to what UK governments have done for sports is _______.</strong></p>\n<blockquote><p>作者对英国政府为体育所做的事情的态度是_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Indeed, there is <span class=\"mask\">[something]</span> a little absurd in the state getting involved in the planning of such a <span class=\"mask\">[fundamentally]</span> “grassroots” concept as community sports <span class=\"mask\">[associations]</span>. If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools. But successive governments have presided over selling green spaces, squeezing money from local authorities and declining attention on sport in education. Instead of wordy, worthy strategies, future governments need to do more to provide the <span class=\"mask\">[conditions]</span> for sport to thrive. Or at least not make them worse.</p>\n<p><strong>开始精读：</strong></p>\n<p>Indeed, / there is <span class=\"mask\">[something]</span> a little absurd in the state getting involved in the planning of such a <span class=\"mask\">[fundamentally]</span> “grassroots” concept as community sports <span class=\"mask\">[associations]</span>. / If there is a role for government, / it should really be getting involved in providing common goods— / making sure there is space for playing fields and the money to pave tennis and netball courts, / and encouraging the provision of all these activities in schools. / But successive governments have presided over selling green spaces, / squeezing money from local authorities and declining attention on sport in education. / Instead of wordy, / worthy strategies, / future governments need to do more to provide the <span class=\"mask\">[conditions]</span> for sport to thrive. / Or at least not make them worse.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。但历届政府都在主导出售绿地、挤压地方当局的资金以及减少教育中对体育的关注。未来的政府需要做更多的事情来为体育运动的蓬勃发展提供条件，而不是冗长而有价值的策略。或者至少不会让事情变得更糟。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 25题\n\n**The author’s attitude to what UK governments have done for sports is _______.**\n\n> 作者对英国政府为体育所做的事情的态度是_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> Indeed, there is something a little absurd in the state getting involved in the planning of such a [fundamentally] “grassroots” concept as [community] sports [associations]. If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the [provision] of all these activities in schools. But successive governments have presided over selling green spaces, squeezing money from local authorities and declining attention on sport in education. Instead of wordy, worthy strategies, future governments need to do more to provide the conditions for sport to thrive. Or at least not make them worse.\n>\n> 开始精读：\n>\n> Indeed, / there is something a little absurd in the state getting involved in the planning of such a [fundamentally] “grassroots” concept as [community] sports [associations]. / If there is a role for government, / it should really be getting involved in providing common goods— / making sure there is space for playing fields and the money to pave tennis and netball courts, / and encouraging the [provision] of all these activities in schools. / But successive governments have presided over selling green spaces, / squeezing money from local authorities and declining attention on sport in education. / Instead of wordy, / worthy strategies, / future governments need to do more to provide the conditions for sport to thrive. / Or at least not make them worse.\n>\n> 逐意群顺译：\n>\n> 确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。但历届政府都在主导出售绿地、挤压地方当局的资金以及减少教育中对体育的关注。未来的政府需要做更多的事情来为体育运动的蓬勃发展提供条件，而不是冗长而有价值的策略。或者至少不会让事情变得更糟。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>25题</h2>\n<p><strong>The author’s attitude to what UK governments have done for sports is _______.</strong></p>\n<blockquote><p>作者对英国政府为体育所做的事情的态度是_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Indeed, there is something a little absurd in the state getting involved in the planning of such a <span class=\"mask\">[fundamentally]</span> “grassroots” concept as <span class=\"mask\">[community]</span> sports <span class=\"mask\">[associations]</span>. If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the <span class=\"mask\">[provision]</span> of all these activities in schools. But successive governments have presided over selling green spaces, squeezing money from local authorities and declining attention on sport in education. Instead of wordy, worthy strategies, future governments need to do more to provide the conditions for sport to thrive. Or at least not make them worse.</p>\n<p><strong>开始精读：</strong></p>\n<p>Indeed, / there is something a little absurd in the state getting involved in the planning of such a <span class=\"mask\">[fundamentally]</span> “grassroots” concept as <span class=\"mask\">[community]</span> sports <span class=\"mask\">[associations]</span>. / If there is a role for government, / it should really be getting involved in providing common goods— / making sure there is space for playing fields and the money to pave tennis and netball courts, / and encouraging the <span class=\"mask\">[provision]</span> of all these activities in schools. / But successive governments have presided over selling green spaces, / squeezing money from local authorities and declining attention on sport in education. / Instead of wordy, / worthy strategies, / future governments need to do more to provide the conditions for sport to thrive. / Or at least not make them worse.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。但历届政府都在主导出售绿地、挤压地方当局的资金以及减少教育中对体育的关注。未来的政府需要做更多的事情来为体育运动的蓬勃发展提供条件，而不是冗长而有价值的策略。或者至少不会让事情变得更糟。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "25"
@@ -700,8 +700,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "25题",
-          "raw": "### B. tolerant\n\n> 宽容\n\n我们先看 B 选项：`tolerant`（宽容）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者对英国政府为体育所做的事情的态度是“宽容”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `tolerant` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. tolerant</h3>\n<blockquote><p>宽容</p></blockquote>\n<p>我们先看 B 选项：<code>tolerant</code>（宽容）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者对英国政府为体育所做的事情的态度是“宽容”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>tolerant</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. tolerant\n\n> 宽容\n\n我们先看 B 选项：`tolerant`（宽容）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者对英国政府为体育所做的事情的态度是“宽容”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“宽容”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. tolerant</h3>\n<blockquote><p>宽容</p></blockquote>\n<p>我们先看 B 选项：<code>tolerant</code>（宽容）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者对英国政府为体育所做的事情的态度是“宽容”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“宽容”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "25",
@@ -710,8 +710,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "25题",
-          "raw": "### C. uncertain\n\n> 不确定\n\n我们先看 C 选项：`uncertain`（不确定）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者对英国政府为体育所做的事情的态度是“不确定”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“不确定”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
-          "html": "<h3>C. uncertain</h3>\n<blockquote><p>不确定</p></blockquote>\n<p>我们先看 C 选项：<code>uncertain</code>（不确定）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者对英国政府为体育所做的事情的态度是“不确定”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“不确定”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "raw": "### C. uncertain\n\n> 不确定\n\n我们先看 C 选项：`uncertain`（不确定）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者对英国政府为体育所做的事情的态度是“不确定”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `uncertain` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. uncertain</h3>\n<blockquote><p>不确定</p></blockquote>\n<p>我们先看 C 选项：<code>uncertain</code>（不确定）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者对英国政府为体育所做的事情的态度是“不确定”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>uncertain</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "25",
@@ -720,8 +720,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "25题",
-          "raw": "### D. sympathetic\n\n> 富有同情心的\n\n我们先看 D 选项：`sympathetic`（富有同情心的）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者对英国政府为体育所做的事情的态度是“富有同情心的”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“富有同情心的”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. sympathetic</h3>\n<blockquote><p>富有同情心的</p></blockquote>\n<p>我们先看 D 选项：<code>sympathetic</code>（富有同情心的）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者对英国政府为体育所做的事情的态度是“富有同情心的”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“富有同情心的”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. sympathetic\n\n> 富有同情心的\n\n我们先看 D 选项：`sympathetic`（富有同情心的）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：作者对英国政府为体育所做的事情的态度是“富有同情心的”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `sympathetic` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. sympathetic</h3>\n<blockquote><p>富有同情心的</p></blockquote>\n<p>我们先看 D 选项：<code>sympathetic</code>（富有同情心的）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：作者对英国政府为体育所做的事情的态度是“富有同情心的”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>sympathetic</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "25",
@@ -1295,7 +1295,7 @@ window.KAOYAN_DATA_2017 = {
         {
           "section": 3,
           "title": "3.一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
-          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，正确项如何进行同义改写，错误项如何设置陷阱；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
+          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，对的是如何对文章进行同义改写的，错的做题时为什么容易被文章中的对应表达骗，命题人是怎么想的；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
           "meta": {
             "section": 3
           }
@@ -1303,246 +1303,981 @@ window.KAOYAN_DATA_2017 = {
         {
           "section": 3,
           "title": "21题 · 题干、题型与核心出处",
-          "html": "<p><strong>21. According to Paragraph 1, Parkrun has _______.</strong></p>\n<p>（根据第 1 段，Parkrun 有 _______。）</p>\n<p><strong>题型判定</strong>：事实细节题 ｜ <strong>定位出处</strong>：Paragraph 1</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>According to Paragraph 1, Parkrun has _______.<br />根据第 1 段，Parkrun 有 _______。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>事实细节题</strong>，考查考生对第 <strong>1</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 1 段核心定位句）</h3>\n<blockquote>\n<p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.<br />每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 1 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "21"
+            "qid": "21",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. created many jobs",
-          "html": "<p><strong>选项 A</strong>：<code>created many jobs</code></p>\n<p><strong>中文翻译</strong>：创造了许多就业机会</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>创造了许多就业机会</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "21",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. created many jobs",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>创造了许多就业机会</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>created</code>, <code>many</code>, <code>jobs</code>（“创造了许多就业机会”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.<br />每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. created many jobs",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>创造了许多就业机会</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>created</code>, <code>many</code>, <code>jobs</code>（“创造了许多就业机会”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.<br />每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad.<br />Parkrun 现象始于十几个朋友，并启发了英国和其他国家举办的 400 场活动。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. created many jobs",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>创造了许多就业机会</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>created</code>, <code>many</code>, <code>jobs</code>（“创造了许多就业机会”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.<br />每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad.<br />Parkrun 现象始于十几个朋友，并启发了英国和其他国家举办的 400 场活动。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. gained great popularity",
-          "html": "<p><strong>选项 B</strong>：<code>gained great popularity</code></p>\n<p><strong>中文翻译</strong>：获得了很高的人气</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>获得了很高的人气</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "21",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. gained great popularity",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>获得了很高的人气</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>gained</code>, <code>great</code>, <code>popularity</code>，其对应的中文含义为“<strong>获得了很高的人气</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.<br />每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. gained great popularity",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>获得了很高的人气</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>gained</code>, <code>great</code>, <code>popularity</code>，其对应的中文含义为“<strong>获得了很高的人气</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.<br />每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad.<br />Parkrun 现象始于十几个朋友，并启发了英国和其他国家举办的 400 场活动。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 B 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. gained great popularity",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>获得了很高的人气</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>gained</code>, <code>great</code>, <code>popularity</code>，其对应的中文含义为“<strong>获得了很高的人气</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.<br />每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad.<br />Parkrun 现象始于十几个朋友，并启发了英国和其他国家举办的 400 场活动。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 B 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 B 选项（“获得了很高的人气”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：B正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. become an official festival",
-          "html": "<p><strong>选项 C</strong>：<code>become an official festival</code></p>\n<p><strong>中文翻译</strong>：成为官方节日</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>成为官方节日</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "21",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. become an official festival",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>成为官方节日</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>become</code>, <code>official</code>, <code>festival</code>（“成为官方节日”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.<br />每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“成为官方节日”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. become an official festival",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>成为官方节日</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>become</code>, <code>official</code>, <code>festival</code>（“成为官方节日”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.<br />每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“成为官方节日”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad.<br />Parkrun 现象始于十几个朋友，并启发了英国和其他国家举办的 400 场活动。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. become an official festival",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>成为官方节日</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>become</code>, <code>official</code>, <code>festival</code>（“成为官方节日”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.<br />每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“成为官方节日”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad.<br />Parkrun 现象始于十几个朋友，并启发了英国和其他国家举办的 400 场活动。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. strengthened community ties",
-          "html": "<p><strong>选项 D</strong>：<code>strengthened community ties</code></p>\n<p><strong>中文翻译</strong>：加强社区联系</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>加强社区联系</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "21",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. strengthened community ties",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>加强社区联系</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>strengthened</code>, <code>community</code>, <code>ties</code>（“加强社区联系”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.<br />每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“加强社区联系”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. strengthened community ties",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>加强社区联系</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>strengthened</code>, <code>community</code>, <code>ties</code>（“加强社区联系”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.<br />每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“加强社区联系”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad.<br />Parkrun 现象始于十几个朋友，并启发了英国和其他国家举办的 400 场活动。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. strengthened community ties",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>加强社区联系</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>strengthened</code>, <code>community</code>, <code>ties</code>（“加强社区联系”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.<br />每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“加强社区联系”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad.<br />Parkrun 现象始于十几个朋友，并启发了英国和其他国家举办的 400 场活动。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "21题结论",
+          "html": "<blockquote>\n<p><strong>21. B. gained great popularity</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>B</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“成为官方节日”，但在原文定位句中，作者表达的态度或客观事实恰...；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“加强社区联系”，但在原文定位句中，作者表达的态度或客观事实恰...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "21",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "22题 · 题干、题型与核心出处",
-          "html": "<p><strong>22. The author believes that London’s Olympic “legacy” has failed to _______.</strong></p>\n<p>（作者认为，伦敦奥运会的“遗产”未能_______。）</p>\n<p><strong>题型判定</strong>：因果推断题 ｜ <strong>定位出处</strong>：Paragraph 2</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>The author believes that London’s Olympic “legacy” has failed to _______.<br />作者认为，伦敦奥运会的“遗产”未能_______。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>因果推断题</strong>，考查考生对第 <strong>2</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 2 段核心定位句）</h3>\n<blockquote>\n<p>Parkrun is succeeding where London’s Olympic “legacy” is failing.<br />帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 2 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "22"
+            "qid": "22",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. boost population growth",
-          "html": "<p><strong>选项 A</strong>：<code>boost population growth</code></p>\n<p><strong>中文翻译</strong>：促进人口增长</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>促进人口增长</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "22",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. boost population growth",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>促进人口增长</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>boost</code>, <code>population</code>, <code>growth</code>（“促进人口增长”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.<br />帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. boost population growth",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>促进人口增长</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>boost</code>, <code>population</code>, <code>growth</code>（“促进人口增长”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.<br />帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Ten years ago on Monday, it was announced that the Games of the 30th Olympiad would be in London.<br />十年前的周一，宣布第 30 届奥运会将在伦敦举行。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. boost population growth",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>促进人口增长</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>boost</code>, <code>population</code>, <code>growth</code>（“促进人口增长”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.<br />帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Ten years ago on Monday, it was announced that the Games of the 30th Olympiad would be in London.<br />十年前的周一，宣布第 30 届奥运会将在伦敦举行。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. improve the city’s image",
-          "html": "<p><strong>选项 B</strong>：<code>improve the city’s image</code></p>\n<p><strong>中文翻译</strong>：提升城市形象</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>提升城市形象</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "22",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. improve the city’s image",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>提升城市形象</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>improve</code>, <code>city</code>, <code>image</code>（“提升城市形象”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.<br />帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“提升城市形象”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. improve the city’s image",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>提升城市形象</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>improve</code>, <code>city</code>, <code>image</code>（“提升城市形象”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.<br />帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“提升城市形象”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Ten years ago on Monday, it was announced that the Games of the 30th Olympiad would be in London.<br />十年前的周一，宣布第 30 届奥运会将在伦敦举行。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. improve the city’s image",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>提升城市形象</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>improve</code>, <code>city</code>, <code>image</code>（“提升城市形象”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.<br />帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“提升城市形象”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Ten years ago on Monday, it was announced that the Games of the 30th Olympiad would be in London.<br />十年前的周一，宣布第 30 届奥运会将在伦敦举行。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. increase sport hours in schools",
-          "html": "<p><strong>选项 C</strong>：<code>increase sport hours in schools</code></p>\n<p><strong>中文翻译</strong>：增加学校的体育运动时间</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>增加学校的体育运动时间</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "22",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. increase sport hours in schools",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>增加学校的体育运动时间</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>increase</code>, <code>sport</code>, <code>hours</code>（“增加学校的体育运动时间”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.<br />帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. increase sport hours in schools",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>增加学校的体育运动时间</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>increase</code>, <code>sport</code>, <code>hours</code>（“增加学校的体育运动时间”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.<br />帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Ten years ago on Monday, it was announced that the Games of the 30th Olympiad would be in London.<br />十年前的周一，宣布第 30 届奥运会将在伦敦举行。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. increase sport hours in schools",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>增加学校的体育运动时间</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>increase</code>, <code>sport</code>, <code>hours</code>（“增加学校的体育运动时间”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.<br />帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Ten years ago on Monday, it was announced that the Games of the 30th Olympiad would be in London.<br />十年前的周一，宣布第 30 届奥运会将在伦敦举行。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. promote sport participation",
-          "html": "<p><strong>选项 D</strong>：<code>promote sport participation</code></p>\n<p><strong>中文翻译</strong>：促进体育参与</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>促进体育参与</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "22",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. promote sport participation",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>促进体育参与</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>promote</code>, <code>sport</code>, <code>participation</code>，其对应的中文含义为“<strong>促进体育参与</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.<br />帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. promote sport participation",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>促进体育参与</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>promote</code>, <code>sport</code>, <code>participation</code>，其对应的中文含义为“<strong>促进体育参与</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.<br />帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Ten years ago on Monday, it was announced that the Games of the 30th Olympiad would be in London.<br />十年前的周一，宣布第 30 届奥运会将在伦敦举行。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 D 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. promote sport participation",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>促进体育参与</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>promote</code>, <code>sport</code>, <code>participation</code>，其对应的中文含义为“<strong>促进体育参与</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Parkrun is succeeding where London’s Olympic “legacy” is failing.<br />帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Ten years ago on Monday, it was announced that the Games of the 30th Olympiad would be in London.<br />十年前的周一，宣布第 30 届奥运会将在伦敦举行。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 D 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 D 选项（“促进体育参与”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：D正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "22题结论",
+          "html": "<blockquote>\n<p><strong>22. D. promote sport participation</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“提升城市形象”，但在原文定位句中，作者表达的态度或客观事实恰...；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>D</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "22",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "23题 · 题干、题型与核心出处",
-          "html": "<p><strong>23. Parkrun is different from Olympic games in that it _______.</strong></p>\n<p>（Parkrun 与奥运会不同之处在于它_______。）</p>\n<p><strong>题型判定</strong>：段落推理题 ｜ <strong>定位出处</strong>：Paragraph 3</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>Parkrun is different from Olympic games in that it _______.<br />Parkrun 与奥运会不同之处在于它_______。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>段落推理题</strong>，考查考生对第 <strong>3</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 3 段核心定位句）</h3>\n<blockquote>\n<p>Parkrun is not a race but a time trial: Your only competitor is the clock.<br />Parkrun 不是一场比赛，而是一场计时赛：你唯一的竞争对手是时钟。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 3 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "23"
+            "qid": "23",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. aims at discovering talents",
-          "html": "<p><strong>选项 A</strong>：<code>aims at discovering talents</code></p>\n<p><strong>中文翻译</strong>：旨在发现人才</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>旨在发现人才</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "23",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. aims at discovering talents",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>旨在发现人才</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>aims</code>, <code>discovering</code>, <code>talents</code>（“旨在发现人才”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.<br />Parkrun 不是一场比赛，而是一场计时赛：你唯一的竞争对手是时钟。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“旨在发现人才”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. aims at discovering talents",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>旨在发现人才</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>aims</code>, <code>discovering</code>, <code>talents</code>（“旨在发现人才”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.<br />Parkrun 不是一场比赛，而是一场计时赛：你唯一的竞争对手是时钟。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“旨在发现人才”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The ethos welcomes anybody.<br />这种精神欢迎任何人。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. aims at discovering talents",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>旨在发现人才</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>aims</code>, <code>discovering</code>, <code>talents</code>（“旨在发现人才”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.<br />Parkrun 不是一场比赛，而是一场计时赛：你唯一的竞争对手是时钟。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“旨在发现人才”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The ethos welcomes anybody.<br />这种精神欢迎任何人。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. focuses on mass competition",
-          "html": "<p><strong>选项 B</strong>：<code>focuses on mass competition</code></p>\n<p><strong>中文翻译</strong>：注重大众竞争</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>注重大众竞争</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "23",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. focuses on mass competition",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>注重大众竞争</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>focuses</code>, <code>mass</code>, <code>competition</code>（“注重大众竞争”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.<br />Parkrun 不是一场比赛，而是一场计时赛：你唯一的竞争对手是时钟。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. focuses on mass competition",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>注重大众竞争</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>focuses</code>, <code>mass</code>, <code>competition</code>（“注重大众竞争”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.<br />Parkrun 不是一场比赛，而是一场计时赛：你唯一的竞争对手是时钟。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The ethos welcomes anybody.<br />这种精神欢迎任何人。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. focuses on mass competition",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>注重大众竞争</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>focuses</code>, <code>mass</code>, <code>competition</code>（“注重大众竞争”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.<br />Parkrun 不是一场比赛，而是一场计时赛：你唯一的竞争对手是时钟。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The ethos welcomes anybody.<br />这种精神欢迎任何人。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. does not emphasize elitism",
-          "html": "<p><strong>选项 C</strong>：<code>does not emphasize elitism</code></p>\n<p><strong>中文翻译</strong>：不强调精英主义</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>不强调精英主义</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "23",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. does not emphasize elitism",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>不强调精英主义</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>does</code>, <code>not</code>, <code>emphasize</code>，其对应的中文含义为“<strong>不强调精英主义</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.<br />Parkrun 不是一场比赛，而是一场计时赛：你唯一的竞争对手是时钟。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. does not emphasize elitism",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>不强调精英主义</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>does</code>, <code>not</code>, <code>emphasize</code>，其对应的中文含义为“<strong>不强调精英主义</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.<br />Parkrun 不是一场比赛，而是一场计时赛：你唯一的竞争对手是时钟。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The ethos welcomes anybody.<br />这种精神欢迎任何人。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 C 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. does not emphasize elitism",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>不强调精英主义</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>does</code>, <code>not</code>, <code>emphasize</code>，其对应的中文含义为“<strong>不强调精英主义</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.<br />Parkrun 不是一场比赛，而是一场计时赛：你唯一的竞争对手是时钟。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The ethos welcomes anybody.<br />这种精神欢迎任何人。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 C 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 C 选项（“不强调精英主义”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：C正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. does not attract first-timers",
-          "html": "<p><strong>选项 D</strong>：<code>does not attract first-timers</code></p>\n<p><strong>中文翻译</strong>：不吸引初次尝试者</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>不吸引初次尝试者</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "23",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. does not attract first-timers",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>不吸引初次尝试者</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>does</code>, <code>not</code>, <code>attract</code>（“不吸引初次尝试者”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.<br />Parkrun 不是一场比赛，而是一场计时赛：你唯一的竞争对手是时钟。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“不吸引初次尝试者”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. does not attract first-timers",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>不吸引初次尝试者</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>does</code>, <code>not</code>, <code>attract</code>（“不吸引初次尝试者”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.<br />Parkrun 不是一场比赛，而是一场计时赛：你唯一的竞争对手是时钟。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“不吸引初次尝试者”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The ethos welcomes anybody.<br />这种精神欢迎任何人。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. does not attract first-timers",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>不吸引初次尝试者</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>does</code>, <code>not</code>, <code>attract</code>（“不吸引初次尝试者”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Parkrun is not a race but a time trial: Your only competitor is the clock.<br />Parkrun 不是一场比赛，而是一场计时赛：你唯一的竞争对手是时钟。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“不吸引初次尝试者”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>The ethos welcomes anybody.<br />这种精神欢迎任何人。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "23题结论",
+          "html": "<blockquote>\n<p><strong>23. C. does not emphasize elitism</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“旨在发现人才”，但在原文定位句中，作者表达的态度或客观事实恰...；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>C</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“不吸引初次尝试者”，但在原文定位句中，作者表达的态度或客观事...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "23",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "24题 · 题干、题型与核心出处",
-          "html": "<p><strong>24. With regard to mass sports, the author holds that governments should _______.</strong></p>\n<p>（关于群众体育，作者认为政府应该_______。）</p>\n<p><strong>题型判定</strong>：词义/例证题 ｜ <strong>定位出处</strong>：Paragraph 4</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>With regard to mass sports, the author holds that governments should _______.<br />关于群众体育，作者认为政府应该_______。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>词义/例证题</strong>，考查考生对第 <strong>4</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 4 段核心定位句）</h3>\n<blockquote>\n<p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 4 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "24"
+            "qid": "24",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. increase funds for sports clubs",
-          "html": "<p><strong>选项 A</strong>：<code>increase funds for sports clubs</code></p>\n<p><strong>中文翻译</strong>：增加体育俱乐部资金</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>增加体育俱乐部资金</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "24",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. increase funds for sports clubs",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>增加体育俱乐部资金</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>increase</code>, <code>funds</code>, <code>sports</code>（“增加体育俱乐部资金”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>increase</code>, <code>funds</code>, <code>sports</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. increase funds for sports clubs",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>增加体育俱乐部资金</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>increase</code>, <code>funds</code>, <code>sports</code>（“增加体育俱乐部资金”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>increase</code>, <code>funds</code>, <code>sports</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools.<br />如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. increase funds for sports clubs",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>增加体育俱乐部资金</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>increase</code>, <code>funds</code>, <code>sports</code>（“增加体育俱乐部资金”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>increase</code>, <code>funds</code>, <code>sports</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools.<br />如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. invest in public sports facilities",
-          "html": "<p><strong>选项 B</strong>：<code>invest in public sports facilities</code></p>\n<p><strong>中文翻译</strong>：投资公共体育设施</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>投资公共体育设施</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "24",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. invest in public sports facilities",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>投资公共体育设施</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>invest</code>, <code>public</code>, <code>sports</code>，其对应的中文含义为“<strong>投资公共体育设施</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. invest in public sports facilities",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>投资公共体育设施</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>invest</code>, <code>public</code>, <code>sports</code>，其对应的中文含义为“<strong>投资公共体育设施</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools.<br />如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 B 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. invest in public sports facilities",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>投资公共体育设施</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>invest</code>, <code>public</code>, <code>sports</code>，其对应的中文含义为“<strong>投资公共体育设施</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools.<br />如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 B 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 B 选项（“投资公共体育设施”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：B正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. organize “grassroots” sports events",
-          "html": "<p><strong>选项 C</strong>：<code>organize “grassroots” sports events</code></p>\n<p><strong>中文翻译</strong>：举办“草根”体育赛事</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>举办“草根”体育赛事</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "24",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. organize “grassroots” sports events",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>举办“草根”体育赛事</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>organize</code>, <code>grassroots</code>, <code>sports</code>（“举办“草根”体育赛事”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. organize “grassroots” sports events",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>举办“草根”体育赛事</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>organize</code>, <code>grassroots</code>, <code>sports</code>（“举办“草根”体育赛事”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools.<br />如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. organize “grassroots” sports events",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>举办“草根”体育赛事</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>organize</code>, <code>grassroots</code>, <code>sports</code>（“举办“草根”体育赛事”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools.<br />如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. supervise local sports associations",
-          "html": "<p><strong>选项 D</strong>：<code>supervise local sports associations</code></p>\n<p><strong>中文翻译</strong>：监督地方体育协会</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>监督地方体育协会</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "24",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. supervise local sports associations",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>监督地方体育协会</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>supervise</code>, <code>local</code>, <code>sports</code>（“监督地方体育协会”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“监督地方体育协会”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. supervise local sports associations",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>监督地方体育协会</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>supervise</code>, <code>local</code>, <code>sports</code>（“监督地方体育协会”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“监督地方体育协会”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools.<br />如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. supervise local sports associations",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>监督地方体育协会</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>supervise</code>, <code>local</code>, <code>sports</code>（“监督地方体育协会”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“监督地方体育协会”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools.<br />如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "24题结论",
+          "html": "<blockquote>\n<p><strong>24. B. invest in public sports facilities</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>increase</code>, <co...；</li><li style=\"margin-bottom:6px\"><b>B</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“监督地方体育协会”，但在原文定位句中，作者表达的态度或客观事...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "24",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "25题 · 题干、题型与核心出处",
-          "html": "<p><strong>25. The author’s attitude to what UK governments have done for sports is _______.</strong></p>\n<p>（作者对英国政府为体育所做的事情的态度是_______。）</p>\n<p><strong>题型判定</strong>：全文主旨题 ｜ <strong>定位出处</strong>：Paragraph 5</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>The author’s attitude to what UK governments have done for sports is _______.<br />作者对英国政府为体育所做的事情的态度是_______。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>全文主旨题</strong>，考查考生对第 <strong>4</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 4 段核心定位句）</h3>\n<blockquote>\n<p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 4 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "25"
+            "qid": "25",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. critical",
-          "html": "<p><strong>选项 A</strong>：<code>critical</code></p>\n<p><strong>中文翻译</strong>：批判的</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>批判的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "25",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. critical",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>批判的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>critical</code>，其对应的中文含义为“<strong>批判的</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. critical",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>批判的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>critical</code>，其对应的中文含义为“<strong>批判的</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools.<br />如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 A 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. critical",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>批判的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>critical</code>，其对应的中文含义为“<strong>批判的</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools.<br />如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 A 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 A 选项（“批判的”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：A正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. tolerant",
-          "html": "<p><strong>选项 B</strong>：<code>tolerant</code></p>\n<p><strong>中文翻译</strong>：宽容</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>宽容</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "25",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. tolerant",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>宽容</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>tolerant</code>（“宽容”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. tolerant",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>宽容</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>tolerant</code>（“宽容”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools.<br />如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. tolerant",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>宽容</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>tolerant</code>（“宽容”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools.<br />如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. uncertain",
-          "html": "<p><strong>选项 C</strong>：<code>uncertain</code></p>\n<p><strong>中文翻译</strong>：不确定</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>不确定</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "25",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. uncertain",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>不确定</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>uncertain</code>（“不确定”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>uncertain</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. uncertain",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>不确定</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>uncertain</code>（“不确定”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>uncertain</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools.<br />如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. uncertain",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>不确定</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>uncertain</code>（“不确定”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>uncertain</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools.<br />如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. sympathetic",
-          "html": "<p><strong>选项 D</strong>：<code>sympathetic</code></p>\n<p><strong>中文翻译</strong>：富有同情心的</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>富有同情心的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "25",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. sympathetic",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>富有同情心的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>sympathetic</code>（“富有同情心的”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>sympathetic</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. sympathetic",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>富有同情心的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>sympathetic</code>（“富有同情心的”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>sympathetic</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools.<br />如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. sympathetic",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>富有同情心的</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>sympathetic</code>（“富有同情心的”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.<br />确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>sympathetic</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools.<br />如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "25题结论",
+          "html": "<blockquote>\n<p><strong>25. A. critical</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>uncertain</code>，但将其...；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>sympathetic</code>，但...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "25",
+            "form": "conclusion"
           }
         },
         {
@@ -1932,8 +2667,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a [food-testing] exercise. She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal [interactions] with their children. During a separate observation, she saw that phones became a source of tension in the family. Parents would be looking at their emails while the children would be making excited bids for their attention.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a <span class=\"mask\">[food-testing]</span> exercise. She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal <span class=\"mask\">[interactions]</span> with their children. During a separate observation, she saw that phones became a source of tension in the family. Parents would be looking at their emails while the children would be making excited bids for their attention.</p></div></div>",
+          "raw": "Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise. She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer [nonverbal] [interactions] with their children. During a separate observation, she saw that phones became a source of tension in the family. Parents would be looking at their emails while the children would be making excited bids for their attention.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise. She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer <span class=\"mask\">[nonverbal]</span> <span class=\"mask\">[interactions]</span> with their children. During a separate observation, she saw that phones became a source of tension in the family. Parents would be looking at their emails while the children would be making excited bids for their attention.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 1,
@@ -1942,8 +2677,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a [food-testing] exercise. / She found / that mothers / who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal [interactions] with their children. / During a separate observation, / she saw / that phones became a source of tension in the family. / Parents would be looking at their emails / while the children would be making excited bids for their attention.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a <span class=\"mask\">[food-testing]</span> exercise. / She found / that mothers / who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal <span class=\"mask\">[interactions]</span> with their children. / During a separate observation, / she saw / that phones became a source of tension in the family. / Parents would be looking at their emails / while the children would be making excited bids for their attention.</p></div></div>",
+          "raw": "Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise. / She found / that mothers / who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer [nonverbal] [interactions] with their children. / During a separate observation, / she saw / that phones became a source of tension in the family. / Parents would be looking at their emails / while the children would be making excited bids for their attention.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise. / She found / that mothers / who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer <span class=\"mask\">[nonverbal]</span> <span class=\"mask\">[interactions]</span> with their children. / During a separate observation, / she saw / that phones became a source of tension in the family. / Parents would be looking at their emails / while the children would be making excited bids for their attention.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 1,
@@ -1972,8 +2707,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and [unresponsive]—as they often are when absorbed in a device—it can be [extremely] [disconcerting] for the children. Radesky cites the “still face experiment” devised by [developmental] [psychologist] Ed Tronick in the 1970s. In it, a mother is asked to interact with her child in a normal way before putting on a blank expression and not giving them any visual social feedback: The child becomes [increasingly] distressed as she tries to capture her mother’s attention. “Parents don’t have to be exquisitely present at all times, but there needs to be a balance and parents need to be responsive and sensitive to a child’s verbal or nonverbal expressions of an emotional need,” says Radesky.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and <span class=\"mask\">[unresponsive]</span>—as they often are when absorbed in a device—it can be <span class=\"mask\">[extremely]</span> <span class=\"mask\">[disconcerting]</span> for the children. Radesky cites the “still face experiment” devised by <span class=\"mask\">[developmental]</span> <span class=\"mask\">[psychologist]</span> Ed Tronick in the 1970s. In it, a mother is asked to interact with her child in a normal way before putting on a blank expression and not giving them any visual social feedback: The child becomes <span class=\"mask\">[increasingly]</span> distressed as she tries to capture her mother’s attention. “Parents don’t have to be exquisitely present at all times, but there needs to be a balance and parents need to be responsive and sensitive to a child’s verbal or nonverbal expressions of an emotional need,” says Radesky.</p></div></div>",
+          "raw": "Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and [unresponsive]—as they often are when absorbed in a device—it can be extremely [disconcerting] for the children. Radesky cites the “still face experiment” devised by [developmental] [psychologist] Ed Tronick in the 1970s. In it, a mother is asked to interact with her child in a normal way before putting on a blank expression and not giving them any visual social feedback: The child becomes [increasingly] [distressed] as she tries to capture her mother’s attention. “Parents don’t have to be [exquisitely] present at all times, but there needs to be a balance and parents need to be [responsive] and sensitive to a child’s verbal or [nonverbal] [expressions] of an emotional need,” says Radesky.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and <span class=\"mask\">[unresponsive]</span>—as they often are when absorbed in a device—it can be extremely <span class=\"mask\">[disconcerting]</span> for the children. Radesky cites the “still face experiment” devised by <span class=\"mask\">[developmental]</span> <span class=\"mask\">[psychologist]</span> Ed Tronick in the 1970s. In it, a mother is asked to interact with her child in a normal way before putting on a blank expression and not giving them any visual social feedback: The child becomes <span class=\"mask\">[increasingly]</span> <span class=\"mask\">[distressed]</span> as she tries to capture her mother’s attention. “Parents don’t have to be <span class=\"mask\">[exquisitely]</span> present at all times, but there needs to be a balance and parents need to be <span class=\"mask\">[responsive]</span> and sensitive to a child’s verbal or <span class=\"mask\">[nonverbal]</span> <span class=\"mask\">[expressions]</span> of an emotional need,” says Radesky.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 2,
@@ -1982,8 +2717,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "Infants are wired to look at parents’ faces to try to understand their world, / and / if those faces are blank and [unresponsive]—as they often are / when absorbed in a device—it can be [extremely] [disconcerting] for the children. / Radesky cites the “still face experiment” devised by [developmental] [psychologist] Ed Tronick in the 1970s. / In it, / a mother is asked to interact with her child in a normal way / before putting on a blank expression and not giving them any visual social feedback: / The child becomes [increasingly] distressed as she tries to capture her mother’s attention. “Parents don’t have to be exquisitely present at all times, / but there needs to be a balance and parents need to be responsive and sensitive to a child’s verbal or nonverbal expressions of an emotional need,” says Radesky.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Infants are wired to look at parents’ faces to try to understand their world, / and / if those faces are blank and <span class=\"mask\">[unresponsive]</span>—as they often are / when absorbed in a device—it can be <span class=\"mask\">[extremely]</span> <span class=\"mask\">[disconcerting]</span> for the children. / Radesky cites the “still face experiment” devised by <span class=\"mask\">[developmental]</span> <span class=\"mask\">[psychologist]</span> Ed Tronick in the 1970s. / In it, / a mother is asked to interact with her child in a normal way / before putting on a blank expression and not giving them any visual social feedback: / The child becomes <span class=\"mask\">[increasingly]</span> distressed as she tries to capture her mother’s attention. “Parents don’t have to be exquisitely present at all times, / but there needs to be a balance and parents need to be responsive and sensitive to a child’s verbal or nonverbal expressions of an emotional need,” says Radesky.</p></div></div>",
+          "raw": "Infants are wired to look at parents’ faces to try to understand their world, / and / if those faces are blank and [unresponsive]—as they often are / when absorbed in a device—it can be extremely [disconcerting] for the children. / Radesky cites the “still face experiment” devised by [developmental] [psychologist] Ed Tronick in the 1970s. / In it, / a mother is asked to interact with her child in a normal way / before putting on a blank expression and not giving them any visual social feedback: / The child becomes [increasingly] [distressed] as she tries to capture her mother’s attention. “Parents don’t have to be [exquisitely] present at all times, / but there needs to be a balance and parents need to be [responsive] and sensitive to a child’s verbal or [nonverbal] [expressions] of an emotional need,” says Radesky.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Infants are wired to look at parents’ faces to try to understand their world, / and / if those faces are blank and <span class=\"mask\">[unresponsive]</span>—as they often are / when absorbed in a device—it can be extremely <span class=\"mask\">[disconcerting]</span> for the children. / Radesky cites the “still face experiment” devised by <span class=\"mask\">[developmental]</span> <span class=\"mask\">[psychologist]</span> Ed Tronick in the 1970s. / In it, / a mother is asked to interact with her child in a normal way / before putting on a blank expression and not giving them any visual social feedback: / The child becomes <span class=\"mask\">[increasingly]</span> <span class=\"mask\">[distressed]</span> as she tries to capture her mother’s attention. “Parents don’t have to be <span class=\"mask\">[exquisitely]</span> present at all times, / but there needs to be a balance and parents need to be <span class=\"mask\">[responsive]</span> and sensitive to a child’s verbal or <span class=\"mask\">[nonverbal]</span> <span class=\"mask\">[expressions]</span> of an emotional need,” says Radesky.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 2,
@@ -2012,8 +2747,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "On the other hand, Tronick himself is [concerned] that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- [middle-class] ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—[particularly] if it gives parents time to have a shower, do housework or simply have a break from their child. Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way. This can make them feel happier, which lets them be more available to their child the rest of the time.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>On the other hand, Tronick himself is <span class=\"mask\">[concerned]</span> that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- <span class=\"mask\">[middle-class]</span> ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—<span class=\"mask\">[particularly]</span> if it gives parents time to have a shower, do housework or simply have a break from their child. Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way. This can make them feel happier, which lets them be more available to their child the rest of the time.</p></div></div>",
+          "raw": "On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an [“oppressive] ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat [fantasised], very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are [neglecting] them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—[particularly] if it gives parents time to have a shower, do housework or simply have a break from their child. Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way. This can make them feel happier, which lets them be more available to their child the rest of the time.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an <span class=\"mask\">[“oppressive]</span> ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat <span class=\"mask\">[fantasised]</span>, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are <span class=\"mask\">[neglecting]</span> them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—<span class=\"mask\">[particularly]</span> if it gives parents time to have a shower, do housework or simply have a break from their child. Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way. This can make them feel happier, which lets them be more available to their child the rest of the time.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 3,
@@ -2022,8 +2757,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "On the other hand, / Tronick himself is [concerned] / that the worries about kids’ use of screens are born out of an “oppressive ideology / that demands / that parents should always be interacting” with their children: / “It’s based on a somewhat fantasised, / very white, / very upper- [middle-class] ideology / that says / if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes / that just / because a child isn’t learning from the screen doesn’t mean there’s no value to it—[particularly] / if it gives parents time to have a shower, / do housework or simply have a break from their child. / Parents, / he says, / can get a lot out of using their devices to speak to a friend or get some work out of the way. / This can make them feel happier, / / which lets them be more available to their child the rest of the time.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>On the other hand, / Tronick himself is <span class=\"mask\">[concerned]</span> / that the worries about kids’ use of screens are born out of an “oppressive ideology / that demands / that parents should always be interacting” with their children: / “It’s based on a somewhat fantasised, / very white, / very upper- <span class=\"mask\">[middle-class]</span> ideology / that says / if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes / that just / because a child isn’t learning from the screen doesn’t mean there’s no value to it—<span class=\"mask\">[particularly]</span> / if it gives parents time to have a shower, / do housework or simply have a break from their child. / Parents, / he says, / can get a lot out of using their devices to speak to a friend or get some work out of the way. / This can make them feel happier, / / which lets them be more available to their child the rest of the time.</p></div></div>",
+          "raw": "On the other hand, / Tronick himself is concerned / that the worries about kids’ use of screens are born out of an [“oppressive] ideology / that demands / that parents should always be interacting” with their children: / “It’s based on a somewhat [fantasised], / very white, / very upper- middle-class ideology / that says / if you’re failing to expose your child to 30,000 words you are [neglecting] them.” Tronick believes / that just / because a child isn’t learning from the screen doesn’t mean there’s no value to it—[particularly] / if it gives parents time to have a shower, / do housework or simply have a break from their child. / Parents, / he says, / can get a lot out of using their devices to speak to a friend or get some work out of the way. / This can make them feel happier, / / which lets them be more available to their child the rest of the time.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>On the other hand, / Tronick himself is concerned / that the worries about kids’ use of screens are born out of an <span class=\"mask\">[“oppressive]</span> ideology / that demands / that parents should always be interacting” with their children: / “It’s based on a somewhat <span class=\"mask\">[fantasised]</span>, / very white, / very upper- middle-class ideology / that says / if you’re failing to expose your child to 30,000 words you are <span class=\"mask\">[neglecting]</span> them.” Tronick believes / that just / because a child isn’t learning from the screen doesn’t mean there’s no value to it—<span class=\"mask\">[particularly]</span> / if it gives parents time to have a shower, / do housework or simply have a break from their child. / Parents, / he says, / can get a lot out of using their devices to speak to a friend or get some work out of the way. / This can make them feel happier, / / which lets them be more available to their child the rest of the time.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 3,
@@ -2077,8 +2812,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "26题",
-          "raw": "### B. increase work efficiency\n\n> 提高工作效率\n\n我们先看 B 选项：`increase work efficiency`（提高工作效率）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据 Jenny Radesky 的说法，数字产品的设计目的是“提高工作效率”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“提高工作效率”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. increase work efficiency</h3>\n<blockquote><p>提高工作效率</p></blockquote>\n<p>我们先看 B 选项：<code>increase work efficiency</code>（提高工作效率）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据 Jenny Radesky 的说法，数字产品的设计目的是“提高工作效率”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“提高工作效率”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. increase work efficiency\n\n> 提高工作效率\n\n我们先看 B 选项：`increase work efficiency`（提高工作效率）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据 Jenny Radesky 的说法，数字产品的设计目的是“提高工作效率”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“提高工作效率”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. increase work efficiency</h3>\n<blockquote><p>提高工作效率</p></blockquote>\n<p>我们先看 B 选项：<code>increase work efficiency</code>（提高工作效率）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据 Jenny Radesky 的说法，数字产品的设计目的是“提高工作效率”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“提高工作效率”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "26",
@@ -2097,8 +2832,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "26题",
-          "raw": "### D. better interpersonal relations\n\n> 更好的人际关系\n\n我们先看 D 选项：`better interpersonal relations`（更好的人际关系）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据 Jenny Radesky 的说法，数字产品的设计目的是“更好的人际关系”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“更好的人际关系”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. better interpersonal relations</h3>\n<blockquote><p>更好的人际关系</p></blockquote>\n<p>我们先看 D 选项：<code>better interpersonal relations</code>（更好的人际关系）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据 Jenny Radesky 的说法，数字产品的设计目的是“更好的人际关系”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“更好的人际关系”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. better interpersonal relations\n\n> 更好的人际关系\n\n我们先看 D 选项：`better interpersonal relations`（更好的人际关系）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据 Jenny Radesky 的说法，数字产品的设计目的是“更好的人际关系”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“更好的人际关系”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. better interpersonal relations</h3>\n<blockquote><p>更好的人际关系</p></blockquote>\n<p>我们先看 D 选项：<code>better interpersonal relations</code>（更好的人际关系）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据 Jenny Radesky 的说法，数字产品的设计目的是“更好的人际关系”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“更好的人际关系”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "26",
@@ -2116,8 +2851,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "27题",
-          "raw": "## 27题\n\n**Radesky’s food-testing exercise shows that mothers’ use of devices ______.**\n\n> 拉德斯基的食品测试表明，母亲对设备的使用______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a [food-testing] exercise. She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal [interactions] with their children. During a separate observation, she saw that phones became a source of tension in the family. Parents would be looking at their emails while the children would be making excited bids for their attention.\n>\n> 开始精读：\n>\n> Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a [food-testing] exercise. / She found / that mothers / who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal [interactions] with their children. / During a separate observation, / she saw / that phones became a source of tension in the family. / Parents would be looking at their emails / while the children would be making excited bids for their attention.\n>\n> 逐意群顺译：\n>\n> 拉德斯基通过让母子进行食物测试练习，研究了进餐时手机和平板电脑的使用情况。她发现，在锻炼期间使用设备的母亲与孩子的言语互动减少了 20%，非言语互动减少了 39%。在另一次观察中，她发现手机成为家庭紧张的根源。父母会查看他们的电子邮件，而孩子们会兴奋地吸引他们的注意力。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>27题</h2>\n<p><strong>Radesky’s food-testing exercise shows that mothers’ use of devices ______.</strong></p>\n<blockquote><p>拉德斯基的食品测试表明，母亲对设备的使用______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a <span class=\"mask\">[food-testing]</span> exercise. She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal <span class=\"mask\">[interactions]</span> with their children. During a separate observation, she saw that phones became a source of tension in the family. Parents would be looking at their emails while the children would be making excited bids for their attention.</p>\n<p><strong>开始精读：</strong></p>\n<p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a <span class=\"mask\">[food-testing]</span> exercise. / She found / that mothers / who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal <span class=\"mask\">[interactions]</span> with their children. / During a separate observation, / she saw / that phones became a source of tension in the family. / Parents would be looking at their emails / while the children would be making excited bids for their attention.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>拉德斯基通过让母子进行食物测试练习，研究了进餐时手机和平板电脑的使用情况。她发现，在锻炼期间使用设备的母亲与孩子的言语互动减少了 20%，非言语互动减少了 39%。在另一次观察中，她发现手机成为家庭紧张的根源。父母会查看他们的电子邮件，而孩子们会兴奋地吸引他们的注意力。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 27题\n\n**Radesky’s food-testing exercise shows that mothers’ use of devices ______.**\n\n> 拉德斯基的食品测试表明，母亲对设备的使用______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise. She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer [nonverbal] [interactions] with their children. During a separate observation, she saw that phones became a source of tension in the family. Parents would be looking at their emails while the children would be making excited bids for their attention.\n>\n> 开始精读：\n>\n> Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise. / She found / that mothers / who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer [nonverbal] [interactions] with their children. / During a separate observation, / she saw / that phones became a source of tension in the family. / Parents would be looking at their emails / while the children would be making excited bids for their attention.\n>\n> 逐意群顺译：\n>\n> 拉德斯基通过让母子进行食物测试练习，研究了进餐时手机和平板电脑的使用情况。她发现，在锻炼期间使用设备的母亲与孩子的言语互动减少了 20%，非言语互动减少了 39%。在另一次观察中，她发现手机成为家庭紧张的根源。父母会查看他们的电子邮件，而孩子们会兴奋地吸引他们的注意力。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>27题</h2>\n<p><strong>Radesky’s food-testing exercise shows that mothers’ use of devices ______.</strong></p>\n<blockquote><p>拉德斯基的食品测试表明，母亲对设备的使用______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise. She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer <span class=\"mask\">[nonverbal]</span> <span class=\"mask\">[interactions]</span> with their children. During a separate observation, she saw that phones became a source of tension in the family. Parents would be looking at their emails while the children would be making excited bids for their attention.</p>\n<p><strong>开始精读：</strong></p>\n<p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise. / She found / that mothers / who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer <span class=\"mask\">[nonverbal]</span> <span class=\"mask\">[interactions]</span> with their children. / During a separate observation, / she saw / that phones became a source of tension in the family. / Parents would be looking at their emails / while the children would be making excited bids for their attention.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>拉德斯基通过让母子进行食物测试练习，研究了进餐时手机和平板电脑的使用情况。她发现，在锻炼期间使用设备的母亲与孩子的言语互动减少了 20%，非言语互动减少了 39%。在另一次观察中，她发现手机成为家庭紧张的根源。父母会查看他们的电子邮件，而孩子们会兴奋地吸引他们的注意力。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "27"
@@ -2125,8 +2860,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "27题",
-          "raw": "### A. takes away babies’ appetite\n\n> 夺走了宝宝的食欲\n\n我们先看 A 选项：`takes away babies’ appetite`（夺走了宝宝的食欲）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：拉德斯基的食品测试表明，母亲对设备的使用“夺走了宝宝的食欲”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“夺走了宝宝的食欲”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
-          "html": "<h3>A. takes away babies’ appetite</h3>\n<blockquote><p>夺走了宝宝的食欲</p></blockquote>\n<p>我们先看 A 选项：<code>takes away babies’ appetite</code>（夺走了宝宝的食欲）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：拉德斯基的食品测试表明，母亲对设备的使用“夺走了宝宝的食欲”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“夺走了宝宝的食欲”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "raw": "### A. takes away babies’ appetite\n\n> 夺走了宝宝的食欲\n\n我们先看 A 选项：`takes away babies’ appetite`（夺走了宝宝的食欲）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：拉德斯基的食品测试表明，母亲对设备的使用“夺走了宝宝的食欲”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“夺走了宝宝的食欲”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. takes away babies’ appetite</h3>\n<blockquote><p>夺走了宝宝的食欲</p></blockquote>\n<p>我们先看 A 选项：<code>takes away babies’ appetite</code>（夺走了宝宝的食欲）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：拉德斯基的食品测试表明，母亲对设备的使用“夺走了宝宝的食欲”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“夺走了宝宝的食欲”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "27",
@@ -2135,8 +2870,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "27题",
-          "raw": "### B. distracts children’s attention\n\n> 分散孩子的注意力\n\n我们先看 B 选项：`distracts children’s attention`（分散孩子的注意力）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：拉德斯基的食品测试表明，母亲对设备的使用“分散孩子的注意力”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `distracts`, `children`, `attention` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 2 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. distracts children’s attention</h3>\n<blockquote><p>分散孩子的注意力</p></blockquote>\n<p>我们先看 B 选项：<code>distracts children’s attention</code>（分散孩子的注意力）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：拉德斯基的食品测试表明，母亲对设备的使用“分散孩子的注意力”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>distracts</code>, <code>children</code>, <code>attention</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 2 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. distracts children’s attention\n\n> 分散孩子的注意力\n\n我们先看 B 选项：`distracts children’s attention`（分散孩子的注意力）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：拉德斯基的食品测试表明，母亲对设备的使用“分散孩子的注意力”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“分散孩子的注意力”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. distracts children’s attention</h3>\n<blockquote><p>分散孩子的注意力</p></blockquote>\n<p>我们先看 B 选项：<code>distracts children’s attention</code>（分散孩子的注意力）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：拉德斯基的食品测试表明，母亲对设备的使用“分散孩子的注意力”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“分散孩子的注意力”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "27",
@@ -2174,8 +2909,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "28题",
-          "raw": "## 28题\n\n**Radesky cites the “still face experiment” to show that _______.**\n\n> 拉德斯基引用“静止面孔实验”来证明_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and [unresponsive]—as they often are when absorbed in a device—it can be [extremely] [disconcerting] for the children. Radesky cites the “still face experiment” devised by [developmental] [psychologist] Ed Tronick in the 1970s. In it, a mother is asked to interact with her child in a normal way before putting on a blank expression and not giving them any visual social feedback: The child becomes [increasingly] distressed as she tries to capture her mother’s attention. “Parents don’t have to be exquisitely present at all times, but there needs to be a balance and parents need to be responsive and sensitive to a child’s verbal or nonverbal expressions of an emotional need,” says Radesky.\n>\n> 开始精读：\n>\n> Infants are wired to look at parents’ faces to try to understand their world, / and / if those faces are blank and [unresponsive]—as they often are / when absorbed in a device—it can be [extremely] [disconcerting] for the children. / Radesky cites the “still face experiment” devised by [developmental] [psychologist] Ed Tronick in the 1970s. / In it, / a mother is asked to interact with her child in a normal way / before putting on a blank expression and not giving them any visual social feedback: / The child becomes [increasingly] distressed as she tries to capture her mother’s attention. “Parents don’t have to be exquisitely present at all times, / but there needs to be a balance and parents need to be responsive and sensitive to a child’s verbal or nonverbal expressions of an emotional need,” says Radesky.\n>\n> 逐意群顺译：\n>\n> 婴儿天生会看着父母的脸来试图了解他们的世界，如果父母的脸一片空白且毫无反应——就像他们全神贯注于某个设备时经常出现的情况一样——这可能会让孩子们感到非常不安。 Radesky 引用了发展心理学家 Ed Tronick 在 20 世纪 70 年代设计的“静止面孔实验”。其中，母亲被要求以正常方式与孩子互动，然后表现出茫然的表情，不给他们任何视觉社交反馈：当孩子试图吸引母亲的注意力时，她变得越来越痛苦。拉德斯基说：“父母不必始终在场，但需要保持平衡，父母需要对孩子表达情感需求的语言或非语言表达做出反应并保持敏感。”\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>28题</h2>\n<p><strong>Radesky cites the “still face experiment” to show that _______.</strong></p>\n<blockquote><p>拉德斯基引用“静止面孔实验”来证明_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and <span class=\"mask\">[unresponsive]</span>—as they often are when absorbed in a device—it can be <span class=\"mask\">[extremely]</span> <span class=\"mask\">[disconcerting]</span> for the children. Radesky cites the “still face experiment” devised by <span class=\"mask\">[developmental]</span> <span class=\"mask\">[psychologist]</span> Ed Tronick in the 1970s. In it, a mother is asked to interact with her child in a normal way before putting on a blank expression and not giving them any visual social feedback: The child becomes <span class=\"mask\">[increasingly]</span> distressed as she tries to capture her mother’s attention. “Parents don’t have to be exquisitely present at all times, but there needs to be a balance and parents need to be responsive and sensitive to a child’s verbal or nonverbal expressions of an emotional need,” says Radesky.</p>\n<p><strong>开始精读：</strong></p>\n<p>Infants are wired to look at parents’ faces to try to understand their world, / and / if those faces are blank and <span class=\"mask\">[unresponsive]</span>—as they often are / when absorbed in a device—it can be <span class=\"mask\">[extremely]</span> <span class=\"mask\">[disconcerting]</span> for the children. / Radesky cites the “still face experiment” devised by <span class=\"mask\">[developmental]</span> <span class=\"mask\">[psychologist]</span> Ed Tronick in the 1970s. / In it, / a mother is asked to interact with her child in a normal way / before putting on a blank expression and not giving them any visual social feedback: / The child becomes <span class=\"mask\">[increasingly]</span> distressed as she tries to capture her mother’s attention. “Parents don’t have to be exquisitely present at all times, / but there needs to be a balance and parents need to be responsive and sensitive to a child’s verbal or nonverbal expressions of an emotional need,” says Radesky.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>婴儿天生会看着父母的脸来试图了解他们的世界，如果父母的脸一片空白且毫无反应——就像他们全神贯注于某个设备时经常出现的情况一样——这可能会让孩子们感到非常不安。 Radesky 引用了发展心理学家 Ed Tronick 在 20 世纪 70 年代设计的“静止面孔实验”。其中，母亲被要求以正常方式与孩子互动，然后表现出茫然的表情，不给他们任何视觉社交反馈：当孩子试图吸引母亲的注意力时，她变得越来越痛苦。拉德斯基说：“父母不必始终在场，但需要保持平衡，父母需要对孩子表达情感需求的语言或非语言表达做出反应并保持敏感。”</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 28题\n\n**Radesky cites the “still face experiment” to show that _______.**\n\n> 拉德斯基引用“静止面孔实验”来证明_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and [unresponsive]—as they often are when absorbed in a device—it can be extremely [disconcerting] for the children. Radesky cites the “still face experiment” devised by [developmental] [psychologist] Ed Tronick in the 1970s. In it, a mother is asked to interact with her child in a normal way before putting on a blank expression and not giving them any visual social feedback: The child becomes [increasingly] [distressed] as she tries to capture her mother’s attention. “Parents don’t have to be [exquisitely] present at all times, but there needs to be a balance and parents need to be [responsive] and sensitive to a child’s verbal or [nonverbal] [expressions] of an emotional need,” says Radesky.\n>\n> 开始精读：\n>\n> Infants are wired to look at parents’ faces to try to understand their world, / and / if those faces are blank and [unresponsive]—as they often are / when absorbed in a device—it can be extremely [disconcerting] for the children. / Radesky cites the “still face experiment” devised by [developmental] [psychologist] Ed Tronick in the 1970s. / In it, / a mother is asked to interact with her child in a normal way / before putting on a blank expression and not giving them any visual social feedback: / The child becomes [increasingly] [distressed] as she tries to capture her mother’s attention. “Parents don’t have to be [exquisitely] present at all times, / but there needs to be a balance and parents need to be [responsive] and sensitive to a child’s verbal or [nonverbal] [expressions] of an emotional need,” says Radesky.\n>\n> 逐意群顺译：\n>\n> 婴儿天生会看着父母的脸来试图了解他们的世界，如果父母的脸一片空白且毫无反应——就像他们全神贯注于某个设备时经常出现的情况一样——这可能会让孩子们感到非常不安。 Radesky 引用了发展心理学家 Ed Tronick 在 20 世纪 70 年代设计的“静止面孔实验”。其中，母亲被要求以正常方式与孩子互动，然后表现出茫然的表情，不给他们任何视觉社交反馈：当孩子试图吸引母亲的注意力时，她变得越来越痛苦。拉德斯基说：“父母不必始终在场，但需要保持平衡，父母需要对孩子表达情感需求的语言或非语言表达做出反应并保持敏感。”\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>28题</h2>\n<p><strong>Radesky cites the “still face experiment” to show that _______.</strong></p>\n<blockquote><p>拉德斯基引用“静止面孔实验”来证明_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and <span class=\"mask\">[unresponsive]</span>—as they often are when absorbed in a device—it can be extremely <span class=\"mask\">[disconcerting]</span> for the children. Radesky cites the “still face experiment” devised by <span class=\"mask\">[developmental]</span> <span class=\"mask\">[psychologist]</span> Ed Tronick in the 1970s. In it, a mother is asked to interact with her child in a normal way before putting on a blank expression and not giving them any visual social feedback: The child becomes <span class=\"mask\">[increasingly]</span> <span class=\"mask\">[distressed]</span> as she tries to capture her mother’s attention. “Parents don’t have to be <span class=\"mask\">[exquisitely]</span> present at all times, but there needs to be a balance and parents need to be <span class=\"mask\">[responsive]</span> and sensitive to a child’s verbal or <span class=\"mask\">[nonverbal]</span> <span class=\"mask\">[expressions]</span> of an emotional need,” says Radesky.</p>\n<p><strong>开始精读：</strong></p>\n<p>Infants are wired to look at parents’ faces to try to understand their world, / and / if those faces are blank and <span class=\"mask\">[unresponsive]</span>—as they often are / when absorbed in a device—it can be extremely <span class=\"mask\">[disconcerting]</span> for the children. / Radesky cites the “still face experiment” devised by <span class=\"mask\">[developmental]</span> <span class=\"mask\">[psychologist]</span> Ed Tronick in the 1970s. / In it, / a mother is asked to interact with her child in a normal way / before putting on a blank expression and not giving them any visual social feedback: / The child becomes <span class=\"mask\">[increasingly]</span> <span class=\"mask\">[distressed]</span> as she tries to capture her mother’s attention. “Parents don’t have to be <span class=\"mask\">[exquisitely]</span> present at all times, / but there needs to be a balance and parents need to be <span class=\"mask\">[responsive]</span> and sensitive to a child’s verbal or <span class=\"mask\">[nonverbal]</span> <span class=\"mask\">[expressions]</span> of an emotional need,” says Radesky.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>婴儿天生会看着父母的脸来试图了解他们的世界，如果父母的脸一片空白且毫无反应——就像他们全神贯注于某个设备时经常出现的情况一样——这可能会让孩子们感到非常不安。 Radesky 引用了发展心理学家 Ed Tronick 在 20 世纪 70 年代设计的“静止面孔实验”。其中，母亲被要求以正常方式与孩子互动，然后表现出茫然的表情，不给他们任何视觉社交反馈：当孩子试图吸引母亲的注意力时，她变得越来越痛苦。拉德斯基说：“父母不必始终在场，但需要保持平衡，父母需要对孩子表达情感需求的语言或非语言表达做出反应并保持敏感。”</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "28"
@@ -2213,8 +2948,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "28题",
-          "raw": "### D. children are insensitive to changes in their parents’ mood\n\n> 孩子对父母情绪的变化不敏感\n\n我们先看 D 选项：`children are insensitive to changes in their parents’ mood`（孩子对父母情绪的变化不敏感）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：拉德斯基引用“静止面孔实验”来证明“孩子对父母情绪的变化不敏感”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“孩子对父母情绪的变化不敏感”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. children are insensitive to changes in their parents’ mood</h3>\n<blockquote><p>孩子对父母情绪的变化不敏感</p></blockquote>\n<p>我们先看 D 选项：<code>children are insensitive to changes in their parents’ mood</code>（孩子对父母情绪的变化不敏感）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：拉德斯基引用“静止面孔实验”来证明“孩子对父母情绪的变化不敏感”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“孩子对父母情绪的变化不敏感”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. children are insensitive to changes in their parents’ mood\n\n> 孩子对父母情绪的变化不敏感\n\n我们先看 D 选项：`children are insensitive to changes in their parents’ mood`（孩子对父母情绪的变化不敏感）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：拉德斯基引用“静止面孔实验”来证明“孩子对父母情绪的变化不敏感”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“孩子对父母情绪的变化不敏感”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. children are insensitive to changes in their parents’ mood</h3>\n<blockquote><p>孩子对父母情绪的变化不敏感</p></blockquote>\n<p>我们先看 D 选项：<code>children are insensitive to changes in their parents’ mood</code>（孩子对父母情绪的变化不敏感）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：拉德斯基引用“静止面孔实验”来证明“孩子对父母情绪的变化不敏感”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“孩子对父母情绪的变化不敏感”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "28",
@@ -2232,8 +2967,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "29题",
-          "raw": "## 29题\n\n**The oppressive ideology mentioned by Tronick requires parents to _______.**\n\n> 特罗尼克提到的压迫性意识形态要求父母_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> On the other hand, Tronick himself is [concerned] that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- [middle-class] ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—[particularly] if it gives parents time to have a shower, do housework or simply have a break from their child. Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way. This can make them feel happier, which lets them be more available to their child the rest of the time.\n>\n> 开始精读：\n>\n> On the other hand, / Tronick himself is [concerned] / that the worries about kids’ use of screens are born out of an “oppressive ideology / that demands / that parents should always be interacting” with their children: / “It’s based on a somewhat fantasised, / very white, / very upper- [middle-class] ideology / that says / if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes / that just / because a child isn’t learning from the screen doesn’t mean there’s no value to it—[particularly] / if it gives parents time to have a shower, / do housework or simply have a break from their child. / Parents, / he says, / can get a lot out of using their devices to speak to a friend or get some work out of the way. / This can make them feel happier, / / which lets them be more available to their child the rest of the time.\n>\n> 逐意群顺译：\n>\n> 另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值，特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。这可以让他们感到更快乐，让他们在剩下的时间里能够更多地陪伴孩子。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>29题</h2>\n<p><strong>The oppressive ideology mentioned by Tronick requires parents to _______.</strong></p>\n<blockquote><p>特罗尼克提到的压迫性意识形态要求父母_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>On the other hand, Tronick himself is <span class=\"mask\">[concerned]</span> that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- <span class=\"mask\">[middle-class]</span> ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—<span class=\"mask\">[particularly]</span> if it gives parents time to have a shower, do housework or simply have a break from their child. Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way. This can make them feel happier, which lets them be more available to their child the rest of the time.</p>\n<p><strong>开始精读：</strong></p>\n<p>On the other hand, / Tronick himself is <span class=\"mask\">[concerned]</span> / that the worries about kids’ use of screens are born out of an “oppressive ideology / that demands / that parents should always be interacting” with their children: / “It’s based on a somewhat fantasised, / very white, / very upper- <span class=\"mask\">[middle-class]</span> ideology / that says / if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes / that just / because a child isn’t learning from the screen doesn’t mean there’s no value to it—<span class=\"mask\">[particularly]</span> / if it gives parents time to have a shower, / do housework or simply have a break from their child. / Parents, / he says, / can get a lot out of using their devices to speak to a friend or get some work out of the way. / This can make them feel happier, / / which lets them be more available to their child the rest of the time.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值，特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。这可以让他们感到更快乐，让他们在剩下的时间里能够更多地陪伴孩子。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 29题\n\n**The oppressive ideology mentioned by Tronick requires parents to _______.**\n\n> 特罗尼克提到的压迫性意识形态要求父母_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an [“oppressive] ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat [fantasised], very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are [neglecting] them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—[particularly] if it gives parents time to have a shower, do housework or simply have a break from their child. Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way. This can make them feel happier, which lets them be more available to their child the rest of the time.\n>\n> 开始精读：\n>\n> On the other hand, / Tronick himself is concerned / that the worries about kids’ use of screens are born out of an [“oppressive] ideology / that demands / that parents should always be interacting” with their children: / “It’s based on a somewhat [fantasised], / very white, / very upper- middle-class ideology / that says / if you’re failing to expose your child to 30,000 words you are [neglecting] them.” Tronick believes / that just / because a child isn’t learning from the screen doesn’t mean there’s no value to it—[particularly] / if it gives parents time to have a shower, / do housework or simply have a break from their child. / Parents, / he says, / can get a lot out of using their devices to speak to a friend or get some work out of the way. / This can make them feel happier, / / which lets them be more available to their child the rest of the time.\n>\n> 逐意群顺译：\n>\n> 另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值，特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。这可以让他们感到更快乐，让他们在剩下的时间里能够更多地陪伴孩子。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>29题</h2>\n<p><strong>The oppressive ideology mentioned by Tronick requires parents to _______.</strong></p>\n<blockquote><p>特罗尼克提到的压迫性意识形态要求父母_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an <span class=\"mask\">[“oppressive]</span> ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat <span class=\"mask\">[fantasised]</span>, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are <span class=\"mask\">[neglecting]</span> them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—<span class=\"mask\">[particularly]</span> if it gives parents time to have a shower, do housework or simply have a break from their child. Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way. This can make them feel happier, which lets them be more available to their child the rest of the time.</p>\n<p><strong>开始精读：</strong></p>\n<p>On the other hand, / Tronick himself is concerned / that the worries about kids’ use of screens are born out of an <span class=\"mask\">[“oppressive]</span> ideology / that demands / that parents should always be interacting” with their children: / “It’s based on a somewhat <span class=\"mask\">[fantasised]</span>, / very white, / very upper- middle-class ideology / that says / if you’re failing to expose your child to 30,000 words you are <span class=\"mask\">[neglecting]</span> them.” Tronick believes / that just / because a child isn’t learning from the screen doesn’t mean there’s no value to it—<span class=\"mask\">[particularly]</span> / if it gives parents time to have a shower, / do housework or simply have a break from their child. / Parents, / he says, / can get a lot out of using their devices to speak to a friend or get some work out of the way. / This can make them feel happier, / / which lets them be more available to their child the rest of the time.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值，特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。这可以让他们感到更快乐，让他们在剩下的时间里能够更多地陪伴孩子。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "29"
@@ -2241,8 +2976,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "29题",
-          "raw": "### A. protect kids from exposure to wild fantasies\n\n> 保护孩子免于陷入疯狂的幻想\n\n我们先看 A 选项：`protect kids from exposure to wild fantasies`（保护孩子免于陷入疯狂的幻想）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：特罗尼克提到的压迫性意识形态要求父母“保护孩子免于陷入疯狂的幻想”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“保护孩子免于陷入疯狂的幻想”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
-          "html": "<h3>A. protect kids from exposure to wild fantasies</h3>\n<blockquote><p>保护孩子免于陷入疯狂的幻想</p></blockquote>\n<p>我们先看 A 选项：<code>protect kids from exposure to wild fantasies</code>（保护孩子免于陷入疯狂的幻想）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：特罗尼克提到的压迫性意识形态要求父母“保护孩子免于陷入疯狂的幻想”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“保护孩子免于陷入疯狂的幻想”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "raw": "### A. protect kids from exposure to wild fantasies\n\n> 保护孩子免于陷入疯狂的幻想\n\n我们先看 A 选项：`protect kids from exposure to wild fantasies`（保护孩子免于陷入疯狂的幻想）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：特罗尼克提到的压迫性意识形态要求父母“保护孩子免于陷入疯狂的幻想”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“保护孩子免于陷入疯狂的幻想”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. protect kids from exposure to wild fantasies</h3>\n<blockquote><p>保护孩子免于陷入疯狂的幻想</p></blockquote>\n<p>我们先看 A 选项：<code>protect kids from exposure to wild fantasies</code>（保护孩子免于陷入疯狂的幻想）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：特罗尼克提到的压迫性意识形态要求父母“保护孩子免于陷入疯狂的幻想”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“保护孩子免于陷入疯狂的幻想”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "29",
@@ -2251,8 +2986,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "29题",
-          "raw": "### B. teach their kids at least 30,000 words a year\n\n> 每年至少教孩子 30,000 个单词\n\n我们先看 B 选项：`teach their kids at least 30,000 words a year`（每年至少教孩子 30,000 个单词）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：特罗尼克提到的压迫性意识形态要求父母“每年至少教孩子 30,000 个单词”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `teach`, `their`, `kids` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. teach their kids at least 30,000 words a year</h3>\n<blockquote><p>每年至少教孩子 30,000 个单词</p></blockquote>\n<p>我们先看 B 选项：<code>teach their kids at least 30,000 words a year</code>（每年至少教孩子 30,000 个单词）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：特罗尼克提到的压迫性意识形态要求父母“每年至少教孩子 30,000 个单词”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>teach</code>, <code>their</code>, <code>kids</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. teach their kids at least 30,000 words a year\n\n> 每年至少教孩子 30,000 个单词\n\n我们先看 B 选项：`teach their kids at least 30,000 words a year`（每年至少教孩子 30,000 个单词）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：特罗尼克提到的压迫性意识形态要求父母“每年至少教孩子 30,000 个单词”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“每年至少教孩子 30,000 个单词”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. teach their kids at least 30,000 words a year</h3>\n<blockquote><p>每年至少教孩子 30,000 个单词</p></blockquote>\n<p>我们先看 B 选项：<code>teach their kids at least 30,000 words a year</code>（每年至少教孩子 30,000 个单词）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：特罗尼克提到的压迫性意识形态要求父母“每年至少教孩子 30,000 个单词”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“每年至少教孩子 30,000 个单词”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "29",
@@ -2261,8 +2996,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "29题",
-          "raw": "### C. remain concerned about kids’ use of screens\n\n> 仍然关注孩子们使用屏幕的情况\n\n我们先看 C 选项：`remain concerned about kids’ use of screens`（仍然关注孩子们使用屏幕的情况）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：特罗尼克提到的压迫性意识形态要求父母“仍然关注孩子们使用屏幕的情况”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `remain`, `concerned`, `kids` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
-          "html": "<h3>C. remain concerned about kids’ use of screens</h3>\n<blockquote><p>仍然关注孩子们使用屏幕的情况</p></blockquote>\n<p>我们先看 C 选项：<code>remain concerned about kids’ use of screens</code>（仍然关注孩子们使用屏幕的情况）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：特罗尼克提到的压迫性意识形态要求父母“仍然关注孩子们使用屏幕的情况”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>remain</code>, <code>concerned</code>, <code>kids</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "raw": "### C. remain concerned about kids’ use of screens\n\n> 仍然关注孩子们使用屏幕的情况\n\n我们先看 C 选项：`remain concerned about kids’ use of screens`（仍然关注孩子们使用屏幕的情况）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：特罗尼克提到的压迫性意识形态要求父母“仍然关注孩子们使用屏幕的情况”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“仍然关注孩子们使用屏幕的情况”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. remain concerned about kids’ use of screens</h3>\n<blockquote><p>仍然关注孩子们使用屏幕的情况</p></blockquote>\n<p>我们先看 C 选项：<code>remain concerned about kids’ use of screens</code>（仍然关注孩子们使用屏幕的情况）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：特罗尼克提到的压迫性意识形态要求父母“仍然关注孩子们使用屏幕的情况”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“仍然关注孩子们使用屏幕的情况”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "29",
@@ -2290,8 +3025,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "30题",
-          "raw": "## 30题\n\n**According to Tronick, kids’ use of screens may _______.**\n\n> 根据特罗尼克的说法，孩子们对屏幕的使用可能会_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> On the other hand, Tronick himself is [concerned] that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- [middle-class] ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—[particularly] if it gives parents time to have a shower, do housework or simply have a break from their child. Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way. This can make them feel happier, which lets them be more available to their child the rest of the time.\n>\n> 开始精读：\n>\n> On the other hand, / Tronick himself is [concerned] / that the worries about kids’ use of screens are born out of an “oppressive ideology / that demands / that parents should always be interacting” with their children: / “It’s based on a somewhat fantasised, / very white, / very upper- [middle-class] ideology / that says / if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes / that just / because a child isn’t learning from the screen doesn’t mean there’s no value to it—[particularly] / if it gives parents time to have a shower, / do housework or simply have a break from their child. / Parents, / he says, / can get a lot out of using their devices to speak to a friend or get some work out of the way. / This can make them feel happier, / / which lets them be more available to their child the rest of the time.\n>\n> 逐意群顺译：\n>\n> 另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值，特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。这可以让他们感到更快乐，让他们在剩下的时间里能够更多地陪伴孩子。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>30题</h2>\n<p><strong>According to Tronick, kids’ use of screens may _______.</strong></p>\n<blockquote><p>根据特罗尼克的说法，孩子们对屏幕的使用可能会_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>On the other hand, Tronick himself is <span class=\"mask\">[concerned]</span> that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- <span class=\"mask\">[middle-class]</span> ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—<span class=\"mask\">[particularly]</span> if it gives parents time to have a shower, do housework or simply have a break from their child. Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way. This can make them feel happier, which lets them be more available to their child the rest of the time.</p>\n<p><strong>开始精读：</strong></p>\n<p>On the other hand, / Tronick himself is <span class=\"mask\">[concerned]</span> / that the worries about kids’ use of screens are born out of an “oppressive ideology / that demands / that parents should always be interacting” with their children: / “It’s based on a somewhat fantasised, / very white, / very upper- <span class=\"mask\">[middle-class]</span> ideology / that says / if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes / that just / because a child isn’t learning from the screen doesn’t mean there’s no value to it—<span class=\"mask\">[particularly]</span> / if it gives parents time to have a shower, / do housework or simply have a break from their child. / Parents, / he says, / can get a lot out of using their devices to speak to a friend or get some work out of the way. / This can make them feel happier, / / which lets them be more available to their child the rest of the time.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值，特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。这可以让他们感到更快乐，让他们在剩下的时间里能够更多地陪伴孩子。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 30题\n\n**According to Tronick, kids’ use of screens may _______.**\n\n> 根据特罗尼克的说法，孩子们对屏幕的使用可能会_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an [“oppressive] ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat [fantasised], very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are [neglecting] them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—[particularly] if it gives parents time to have a shower, do housework or simply have a break from their child. Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way. This can make them feel happier, which lets them be more available to their child the rest of the time.\n>\n> 开始精读：\n>\n> On the other hand, / Tronick himself is concerned / that the worries about kids’ use of screens are born out of an [“oppressive] ideology / that demands / that parents should always be interacting” with their children: / “It’s based on a somewhat [fantasised], / very white, / very upper- middle-class ideology / that says / if you’re failing to expose your child to 30,000 words you are [neglecting] them.” Tronick believes / that just / because a child isn’t learning from the screen doesn’t mean there’s no value to it—[particularly] / if it gives parents time to have a shower, / do housework or simply have a break from their child. / Parents, / he says, / can get a lot out of using their devices to speak to a friend or get some work out of the way. / This can make them feel happier, / / which lets them be more available to their child the rest of the time.\n>\n> 逐意群顺译：\n>\n> 另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值，特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。这可以让他们感到更快乐，让他们在剩下的时间里能够更多地陪伴孩子。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>30题</h2>\n<p><strong>According to Tronick, kids’ use of screens may _______.</strong></p>\n<blockquote><p>根据特罗尼克的说法，孩子们对屏幕的使用可能会_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an <span class=\"mask\">[“oppressive]</span> ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat <span class=\"mask\">[fantasised]</span>, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are <span class=\"mask\">[neglecting]</span> them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—<span class=\"mask\">[particularly]</span> if it gives parents time to have a shower, do housework or simply have a break from their child. Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way. This can make them feel happier, which lets them be more available to their child the rest of the time.</p>\n<p><strong>开始精读：</strong></p>\n<p>On the other hand, / Tronick himself is concerned / that the worries about kids’ use of screens are born out of an <span class=\"mask\">[“oppressive]</span> ideology / that demands / that parents should always be interacting” with their children: / “It’s based on a somewhat <span class=\"mask\">[fantasised]</span>, / very white, / very upper- middle-class ideology / that says / if you’re failing to expose your child to 30,000 words you are <span class=\"mask\">[neglecting]</span> them.” Tronick believes / that just / because a child isn’t learning from the screen doesn’t mean there’s no value to it—<span class=\"mask\">[particularly]</span> / if it gives parents time to have a shower, / do housework or simply have a break from their child. / Parents, / he says, / can get a lot out of using their devices to speak to a friend or get some work out of the way. / This can make them feel happier, / / which lets them be more available to their child the rest of the time.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值，特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。这可以让他们感到更快乐，让他们在剩下的时间里能够更多地陪伴孩子。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "30"
@@ -2299,8 +3034,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "30题",
-          "raw": "### A. make their parents more creative\n\n> 让他们的父母更有创造力\n\n我们先看 A 选项：`make their parents more creative`（让他们的父母更有创造力）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据特罗尼克的说法，孩子们对屏幕的使用可能会“让他们的父母更有创造力”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“让他们的父母更有创造力”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
-          "html": "<h3>A. make their parents more creative</h3>\n<blockquote><p>让他们的父母更有创造力</p></blockquote>\n<p>我们先看 A 选项：<code>make their parents more creative</code>（让他们的父母更有创造力）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据特罗尼克的说法，孩子们对屏幕的使用可能会“让他们的父母更有创造力”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“让他们的父母更有创造力”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "raw": "### A. make their parents more creative\n\n> 让他们的父母更有创造力\n\n我们先看 A 选项：`make their parents more creative`（让他们的父母更有创造力）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据特罗尼克的说法，孩子们对屏幕的使用可能会“让他们的父母更有创造力”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“让他们的父母更有创造力”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. make their parents more creative</h3>\n<blockquote><p>让他们的父母更有创造力</p></blockquote>\n<p>我们先看 A 选项：<code>make their parents more creative</code>（让他们的父母更有创造力）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据特罗尼克的说法，孩子们对屏幕的使用可能会“让他们的父母更有创造力”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“让他们的父母更有创造力”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "30",
@@ -2319,8 +3054,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "30题",
-          "raw": "### C. help them with their homework\n\n> 帮助他们做作业\n\n我们先看 C 选项：`help them with their homework`（帮助他们做作业）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据特罗尼克的说法，孩子们对屏幕的使用可能会“帮助他们做作业”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `help`, `them`, `their` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
-          "html": "<h3>C. help them with their homework</h3>\n<blockquote><p>帮助他们做作业</p></blockquote>\n<p>我们先看 C 选项：<code>help them with their homework</code>（帮助他们做作业）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据特罗尼克的说法，孩子们对屏幕的使用可能会“帮助他们做作业”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>help</code>, <code>them</code>, <code>their</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "raw": "### C. help them with their homework\n\n> 帮助他们做作业\n\n我们先看 C 选项：`help them with their homework`（帮助他们做作业）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据特罗尼克的说法，孩子们对屏幕的使用可能会“帮助他们做作业”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“帮助他们做作业”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. help them with their homework</h3>\n<blockquote><p>帮助他们做作业</p></blockquote>\n<p>我们先看 C 选项：<code>help them with their homework</code>（帮助他们做作业）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据特罗尼克的说法，孩子们对屏幕的使用可能会“帮助他们做作业”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“帮助他们做作业”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "30",
@@ -2329,8 +3064,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "30题",
-          "raw": "### D. help them become more attentive\n\n> 帮助他们变得更加专心\n\n我们先看 D 选项：`help them become more attentive`（帮助他们变得更加专心）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据特罗尼克的说法，孩子们对屏幕的使用可能会“帮助他们变得更加专心”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `help`, `them`, `become` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. help them become more attentive</h3>\n<blockquote><p>帮助他们变得更加专心</p></blockquote>\n<p>我们先看 D 选项：<code>help them become more attentive</code>（帮助他们变得更加专心）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据特罗尼克的说法，孩子们对屏幕的使用可能会“帮助他们变得更加专心”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>help</code>, <code>them</code>, <code>become</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 4 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. help them become more attentive\n\n> 帮助他们变得更加专心\n\n我们先看 D 选项：`help them become more attentive`（帮助他们变得更加专心）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：根据特罗尼克的说法，孩子们对屏幕的使用可能会“帮助他们变得更加专心”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“帮助他们变得更加专心”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. help them become more attentive</h3>\n<blockquote><p>帮助他们变得更加专心</p></blockquote>\n<p>我们先看 D 选项：<code>help them become more attentive</code>（帮助他们变得更加专心）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：根据特罗尼克的说法，孩子们对屏幕的使用可能会“帮助他们变得更加专心”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“帮助他们变得更加专心”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "30",
@@ -2814,7 +3549,7 @@ window.KAOYAN_DATA_2017 = {
         {
           "section": 3,
           "title": "3.一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
-          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，正确项如何进行同义改写，错误项如何设置陷阱；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
+          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，对的是如何对文章进行同义改写的，错的做题时为什么容易被文章中的对应表达骗，命题人是怎么想的；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
           "meta": {
             "section": 3
           }
@@ -2822,246 +3557,981 @@ window.KAOYAN_DATA_2017 = {
         {
           "section": 3,
           "title": "26题 · 题干、题型与核心出处",
-          "html": "<p><strong>26. According to Jenny Radesky, digital products are designed to ______.</strong></p>\n<p>（根据 Jenny Radesky 的说法，数字产品的设计目的是______。）</p>\n<p><strong>题型判定</strong>：事实细节题 ｜ <strong>定位出处</strong>：Paragraph 1</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>According to Jenny Radesky, digital products are designed to ______.<br />根据 Jenny Radesky 的说法，数字产品的设计目的是______。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>事实细节题</strong>，考查考生对第 <strong>1</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 1 段核心定位句）</h3>\n<blockquote>\n<p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.<br />由于如此关注孩子对屏幕的使用，父母很容易忘记自己的屏幕使用情况。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 1 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "26"
+            "qid": "26",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. absorb user attention",
-          "html": "<p><strong>选项 A</strong>：<code>absorb user attention</code></p>\n<p><strong>中文翻译</strong>：吸引用户注意力</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>吸引用户注意力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "26",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. absorb user attention",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>吸引用户注意力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>absorb</code>, <code>user</code>, <code>attention</code>，其对应的中文含义为“<strong>吸引用户注意力</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.<br />由于如此关注孩子对屏幕的使用，父母很容易忘记自己的屏幕使用情况。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. absorb user attention",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>吸引用户注意力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>absorb</code>, <code>user</code>, <code>attention</code>，其对应的中文含义为“<strong>吸引用户注意力</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.<br />由于如此关注孩子对屏幕的使用，父母很容易忘记自己的屏幕使用情况。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>“Tech is designed to really suck you in,” says Jenny Radesky in her study of digital play, “and digital products are there to promote maximal engagement.<br />珍妮·拉德斯基（Jenny Radesky）在数字游戏研究中表示：“科技的设计就是为了真正吸引你，而数字产品就是为了促进最大程度的参与。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 A 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. absorb user attention",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>吸引用户注意力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>absorb</code>, <code>user</code>, <code>attention</code>，其对应的中文含义为“<strong>吸引用户注意力</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.<br />由于如此关注孩子对屏幕的使用，父母很容易忘记自己的屏幕使用情况。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>“Tech is designed to really suck you in,” says Jenny Radesky in her study of digital play, “and digital products are there to promote maximal engagement.<br />珍妮·拉德斯基（Jenny Radesky）在数字游戏研究中表示：“科技的设计就是为了真正吸引你，而数字产品就是为了促进最大程度的参与。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 A 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 A 选项（“吸引用户注意力”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：A正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. increase work efficiency",
-          "html": "<p><strong>选项 B</strong>：<code>increase work efficiency</code></p>\n<p><strong>中文翻译</strong>：提高工作效率</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>提高工作效率</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "26",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. increase work efficiency",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>提高工作效率</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>increase</code>, <code>work</code>, <code>efficiency</code>（“提高工作效率”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.<br />由于如此关注孩子对屏幕的使用，父母很容易忘记自己的屏幕使用情况。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. increase work efficiency",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>提高工作效率</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>increase</code>, <code>work</code>, <code>efficiency</code>（“提高工作效率”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.<br />由于如此关注孩子对屏幕的使用，父母很容易忘记自己的屏幕使用情况。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>“Tech is designed to really suck you in,” says Jenny Radesky in her study of digital play, “and digital products are there to promote maximal engagement.<br />珍妮·拉德斯基（Jenny Radesky）在数字游戏研究中表示：“科技的设计就是为了真正吸引你，而数字产品就是为了促进最大程度的参与。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. increase work efficiency",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>提高工作效率</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>increase</code>, <code>work</code>, <code>efficiency</code>（“提高工作效率”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.<br />由于如此关注孩子对屏幕的使用，父母很容易忘记自己的屏幕使用情况。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>“Tech is designed to really suck you in,” says Jenny Radesky in her study of digital play, “and digital products are there to promote maximal engagement.<br />珍妮·拉德斯基（Jenny Radesky）在数字游戏研究中表示：“科技的设计就是为了真正吸引你，而数字产品就是为了促进最大程度的参与。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. simplify routine matters",
-          "html": "<p><strong>选项 C</strong>：<code>simplify routine matters</code></p>\n<p><strong>中文翻译</strong>：简化日常事务</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>简化日常事务</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "26",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. simplify routine matters",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>简化日常事务</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>simplify</code>, <code>routine</code>, <code>matters</code>（“简化日常事务”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.<br />由于如此关注孩子对屏幕的使用，父母很容易忘记自己的屏幕使用情况。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. simplify routine matters",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>简化日常事务</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>simplify</code>, <code>routine</code>, <code>matters</code>（“简化日常事务”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.<br />由于如此关注孩子对屏幕的使用，父母很容易忘记自己的屏幕使用情况。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>“Tech is designed to really suck you in,” says Jenny Radesky in her study of digital play, “and digital products are there to promote maximal engagement.<br />珍妮·拉德斯基（Jenny Radesky）在数字游戏研究中表示：“科技的设计就是为了真正吸引你，而数字产品就是为了促进最大程度的参与。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. simplify routine matters",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>简化日常事务</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>simplify</code>, <code>routine</code>, <code>matters</code>（“简化日常事务”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.<br />由于如此关注孩子对屏幕的使用，父母很容易忘记自己的屏幕使用情况。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>“Tech is designed to really suck you in,” says Jenny Radesky in her study of digital play, “and digital products are there to promote maximal engagement.<br />珍妮·拉德斯基（Jenny Radesky）在数字游戏研究中表示：“科技的设计就是为了真正吸引你，而数字产品就是为了促进最大程度的参与。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. better interpersonal relations",
-          "html": "<p><strong>选项 D</strong>：<code>better interpersonal relations</code></p>\n<p><strong>中文翻译</strong>：更好的人际关系</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>更好的人际关系</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "26",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. better interpersonal relations",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>更好的人际关系</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>better</code>, <code>interpersonal</code>, <code>relations</code>（“更好的人际关系”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.<br />由于如此关注孩子对屏幕的使用，父母很容易忘记自己的屏幕使用情况。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. better interpersonal relations",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>更好的人际关系</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>better</code>, <code>interpersonal</code>, <code>relations</code>（“更好的人际关系”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.<br />由于如此关注孩子对屏幕的使用，父母很容易忘记自己的屏幕使用情况。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>“Tech is designed to really suck you in,” says Jenny Radesky in her study of digital play, “and digital products are there to promote maximal engagement.<br />珍妮·拉德斯基（Jenny Radesky）在数字游戏研究中表示：“科技的设计就是为了真正吸引你，而数字产品就是为了促进最大程度的参与。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. better interpersonal relations",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>更好的人际关系</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>better</code>, <code>interpersonal</code>, <code>relations</code>（“更好的人际关系”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.<br />由于如此关注孩子对屏幕的使用，父母很容易忘记自己的屏幕使用情况。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>“Tech is designed to really suck you in,” says Jenny Radesky in her study of digital play, “and digital products are there to promote maximal engagement.<br />珍妮·拉德斯基（Jenny Radesky）在数字游戏研究中表示：“科技的设计就是为了真正吸引你，而数字产品就是为了促进最大程度的参与。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "26题结论",
+          "html": "<blockquote>\n<p><strong>26. A. absorb user attention</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "26",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "27题 · 题干、题型与核心出处",
-          "html": "<p><strong>27. Radesky’s food-testing exercise shows that mothers’ use of devices ______.</strong></p>\n<p>（拉德斯基的食品测试表明，母亲对设备的使用______。）</p>\n<p><strong>题型判定</strong>：因果推断题 ｜ <strong>定位出处</strong>：Paragraph 2</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>Radesky’s food-testing exercise shows that mothers’ use of devices ______.<br />拉德斯基的食品测试表明，母亲对设备的使用______。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>因果推断题</strong>，考查考生对第 <strong>2</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 2 段核心定位句）</h3>\n<blockquote>\n<p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.<br />拉德斯基通过让母子进行食物测试练习，研究了进餐时手机和平板电脑的使用情况。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 2 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "27"
+            "qid": "27",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. takes away babies’ appetite",
-          "html": "<p><strong>选项 A</strong>：<code>takes away babies’ appetite</code></p>\n<p><strong>中文翻译</strong>：夺走了宝宝的食欲</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>夺走了宝宝的食欲</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "27",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. takes away babies’ appetite",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>夺走了宝宝的食欲</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>takes</code>, <code>away</code>, <code>babies</code>（“夺走了宝宝的食欲”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.<br />拉德斯基通过让母子进行食物测试练习，研究了进餐时手机和平板电脑的使用情况。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. takes away babies’ appetite",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>夺走了宝宝的食欲</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>takes</code>, <code>away</code>, <code>babies</code>（“夺走了宝宝的食欲”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.<br />拉德斯基通过让母子进行食物测试练习，研究了进餐时手机和平板电脑的使用情况。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions with their children.<br />她发现，在锻炼期间使用设备的母亲与孩子的言语互动减少了 20%，非言语互动减少了 39%。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. takes away babies’ appetite",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>夺走了宝宝的食欲</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>takes</code>, <code>away</code>, <code>babies</code>（“夺走了宝宝的食欲”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.<br />拉德斯基通过让母子进行食物测试练习，研究了进餐时手机和平板电脑的使用情况。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions with their children.<br />她发现，在锻炼期间使用设备的母亲与孩子的言语互动减少了 20%，非言语互动减少了 39%。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. distracts children’s attention",
-          "html": "<p><strong>选项 B</strong>：<code>distracts children’s attention</code></p>\n<p><strong>中文翻译</strong>：分散孩子的注意力</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>分散孩子的注意力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "27",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. distracts children’s attention",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>分散孩子的注意力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>distracts</code>, <code>children</code>, <code>attention</code>（“分散孩子的注意力”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.<br />拉德斯基通过让母子进行食物测试练习，研究了进餐时手机和平板电脑的使用情况。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. distracts children’s attention",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>分散孩子的注意力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>distracts</code>, <code>children</code>, <code>attention</code>（“分散孩子的注意力”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.<br />拉德斯基通过让母子进行食物测试练习，研究了进餐时手机和平板电脑的使用情况。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions with their children.<br />她发现，在锻炼期间使用设备的母亲与孩子的言语互动减少了 20%，非言语互动减少了 39%。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. distracts children’s attention",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>分散孩子的注意力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>distracts</code>, <code>children</code>, <code>attention</code>（“分散孩子的注意力”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.<br />拉德斯基通过让母子进行食物测试练习，研究了进餐时手机和平板电脑的使用情况。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions with their children.<br />她发现，在锻炼期间使用设备的母亲与孩子的言语互动减少了 20%，非言语互动减少了 39%。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. slows down babies’ verbal development",
-          "html": "<p><strong>选项 C</strong>：<code>slows down babies’ verbal development</code></p>\n<p><strong>中文翻译</strong>：减缓婴儿的语言发展</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>减缓婴儿的语言发展</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "27",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. slows down babies’ verbal development",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>减缓婴儿的语言发展</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>slows</code>, <code>down</code>, <code>babies</code>（“减缓婴儿的语言发展”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.<br />拉德斯基通过让母子进行食物测试练习，研究了进餐时手机和平板电脑的使用情况。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>slows</code>, <code>down</code>, <code>babies</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. slows down babies’ verbal development",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>减缓婴儿的语言发展</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>slows</code>, <code>down</code>, <code>babies</code>（“减缓婴儿的语言发展”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.<br />拉德斯基通过让母子进行食物测试练习，研究了进餐时手机和平板电脑的使用情况。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>slows</code>, <code>down</code>, <code>babies</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions with their children.<br />她发现，在锻炼期间使用设备的母亲与孩子的言语互动减少了 20%，非言语互动减少了 39%。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. slows down babies’ verbal development",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>减缓婴儿的语言发展</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>slows</code>, <code>down</code>, <code>babies</code>（“减缓婴儿的语言发展”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.<br />拉德斯基通过让母子进行食物测试练习，研究了进餐时手机和平板电脑的使用情况。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>slows</code>, <code>down</code>, <code>babies</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions with their children.<br />她发现，在锻炼期间使用设备的母亲与孩子的言语互动减少了 20%，非言语互动减少了 39%。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. reduces mother-child communication",
-          "html": "<p><strong>选项 D</strong>：<code>reduces mother-child communication</code></p>\n<p><strong>中文翻译</strong>：减少母子沟通</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>减少母子沟通</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "27",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. reduces mother-child communication",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>减少母子沟通</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>reduces</code>, <code>mother</code>, <code>child</code>，其对应的中文含义为“<strong>减少母子沟通</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.<br />拉德斯基通过让母子进行食物测试练习，研究了进餐时手机和平板电脑的使用情况。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. reduces mother-child communication",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>减少母子沟通</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>reduces</code>, <code>mother</code>, <code>child</code>，其对应的中文含义为“<strong>减少母子沟通</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.<br />拉德斯基通过让母子进行食物测试练习，研究了进餐时手机和平板电脑的使用情况。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions with their children.<br />她发现，在锻炼期间使用设备的母亲与孩子的言语互动减少了 20%，非言语互动减少了 39%。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 D 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. reduces mother-child communication",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>减少母子沟通</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>reduces</code>, <code>mother</code>, <code>child</code>，其对应的中文含义为“<strong>减少母子沟通</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.<br />拉德斯基通过让母子进行食物测试练习，研究了进餐时手机和平板电脑的使用情况。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions with their children.<br />她发现，在锻炼期间使用设备的母亲与孩子的言语互动减少了 20%，非言语互动减少了 39%。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 D 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 D 选项（“减少母子沟通”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：D正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "27题结论",
+          "html": "<blockquote>\n<p><strong>27. D. reduces mother-child communication</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>slows</code>, <code>...；</li><li style=\"margin-bottom:6px\"><b>D</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "27",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "28题 · 题干、题型与核心出处",
-          "html": "<p><strong>28. Radesky cites the “still face experiment” to show that _______.</strong></p>\n<p>（拉德斯基引用“静止面孔实验”来证明_______。）</p>\n<p><strong>题型判定</strong>：段落推理题 ｜ <strong>定位出处</strong>：Paragraph 3</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>Radesky cites the “still face experiment” to show that _______.<br />拉德斯基引用“静止面孔实验”来证明_______。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>段落推理题</strong>，考查考生对第 <strong>3</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 3 段核心定位句）</h3>\n<blockquote>\n<p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.<br />婴儿天生会看着父母的脸来试图了解他们的世界，如果父母的脸一片空白且毫无反应——就像他们全神贯注于某个设备时经常出现的情况一样——这可能会让孩子们感到非常不安。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 3 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "28"
+            "qid": "28",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. it is easy for children to get used to blank expressions",
-          "html": "<p><strong>选项 A</strong>：<code>it is easy for children to get used to blank expressions</code></p>\n<p><strong>中文翻译</strong>：孩子很容易习惯空白表达</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>孩子很容易习惯空白表达</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "28",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. it is easy for children to get used to blank expressions",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>孩子很容易习惯空白表达</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>easy</code>, <code>children</code>, <code>get</code>（“孩子很容易习惯空白表达”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.<br />婴儿天生会看着父母的脸来试图了解他们的世界，如果父母的脸一片空白且毫无反应——就像他们全神贯注于某个设备时经常出现的情况一样——这可能会让孩子们感到非常不安。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. it is easy for children to get used to blank expressions",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>孩子很容易习惯空白表达</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>easy</code>, <code>children</code>, <code>get</code>（“孩子很容易习惯空白表达”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.<br />婴儿天生会看着父母的脸来试图了解他们的世界，如果父母的脸一片空白且毫无反应——就像他们全神贯注于某个设备时经常出现的情况一样——这可能会让孩子们感到非常不安。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Radesky cites the “still face experiment” devised by developmental psychologist Ed Tronick in the 1970s.<br />Radesky 引用了发展心理学家 Ed Tronick 在 20 世纪 70 年代设计的“静止面孔实验”。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. it is easy for children to get used to blank expressions",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>孩子很容易习惯空白表达</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>easy</code>, <code>children</code>, <code>get</code>（“孩子很容易习惯空白表达”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.<br />婴儿天生会看着父母的脸来试图了解他们的世界，如果父母的脸一片空白且毫无反应——就像他们全神贯注于某个设备时经常出现的情况一样——这可能会让孩子们感到非常不安。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Radesky cites the “still face experiment” devised by developmental psychologist Ed Tronick in the 1970s.<br />Radesky 引用了发展心理学家 Ed Tronick 在 20 世纪 70 年代设计的“静止面孔实验”。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. verbal expressions are unnecessary for emotional exchange",
-          "html": "<p><strong>选项 B</strong>：<code>verbal expressions are unnecessary for emotional exchange</code></p>\n<p><strong>中文翻译</strong>：情感交流不需要言语表达</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>情感交流不需要言语表达</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "28",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. verbal expressions are unnecessary for emotional exchange",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>情感交流不需要言语表达</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>verbal</code>, <code>expressions</code>, <code>are</code>（“情感交流不需要言语表达”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.<br />婴儿天生会看着父母的脸来试图了解他们的世界，如果父母的脸一片空白且毫无反应——就像他们全神贯注于某个设备时经常出现的情况一样——这可能会让孩子们感到非常不安。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. verbal expressions are unnecessary for emotional exchange",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>情感交流不需要言语表达</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>verbal</code>, <code>expressions</code>, <code>are</code>（“情感交流不需要言语表达”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.<br />婴儿天生会看着父母的脸来试图了解他们的世界，如果父母的脸一片空白且毫无反应——就像他们全神贯注于某个设备时经常出现的情况一样——这可能会让孩子们感到非常不安。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Radesky cites the “still face experiment” devised by developmental psychologist Ed Tronick in the 1970s.<br />Radesky 引用了发展心理学家 Ed Tronick 在 20 世纪 70 年代设计的“静止面孔实验”。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. verbal expressions are unnecessary for emotional exchange",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>情感交流不需要言语表达</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>verbal</code>, <code>expressions</code>, <code>are</code>（“情感交流不需要言语表达”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.<br />婴儿天生会看着父母的脸来试图了解他们的世界，如果父母的脸一片空白且毫无反应——就像他们全神贯注于某个设备时经常出现的情况一样——这可能会让孩子们感到非常不安。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Radesky cites the “still face experiment” devised by developmental psychologist Ed Tronick in the 1970s.<br />Radesky 引用了发展心理学家 Ed Tronick 在 20 世纪 70 年代设计的“静止面孔实验”。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. parents need to respond to children’s emotional needs",
-          "html": "<p><strong>选项 C</strong>：<code>parents need to respond to children’s emotional needs</code></p>\n<p><strong>中文翻译</strong>：父母需要回应孩子的情感需求</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>父母需要回应孩子的情感需求</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "28",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. parents need to respond to children’s emotional needs",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>父母需要回应孩子的情感需求</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>parents</code>, <code>need</code>, <code>respond</code>，其对应的中文含义为“<strong>父母需要回应孩子的情感需求</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.<br />婴儿天生会看着父母的脸来试图了解他们的世界，如果父母的脸一片空白且毫无反应——就像他们全神贯注于某个设备时经常出现的情况一样——这可能会让孩子们感到非常不安。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. parents need to respond to children’s emotional needs",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>父母需要回应孩子的情感需求</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>parents</code>, <code>need</code>, <code>respond</code>，其对应的中文含义为“<strong>父母需要回应孩子的情感需求</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.<br />婴儿天生会看着父母的脸来试图了解他们的世界，如果父母的脸一片空白且毫无反应——就像他们全神贯注于某个设备时经常出现的情况一样——这可能会让孩子们感到非常不安。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Radesky cites the “still face experiment” devised by developmental psychologist Ed Tronick in the 1970s.<br />Radesky 引用了发展心理学家 Ed Tronick 在 20 世纪 70 年代设计的“静止面孔实验”。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 C 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. parents need to respond to children’s emotional needs",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>父母需要回应孩子的情感需求</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>parents</code>, <code>need</code>, <code>respond</code>，其对应的中文含义为“<strong>父母需要回应孩子的情感需求</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.<br />婴儿天生会看着父母的脸来试图了解他们的世界，如果父母的脸一片空白且毫无反应——就像他们全神贯注于某个设备时经常出现的情况一样——这可能会让孩子们感到非常不安。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Radesky cites the “still face experiment” devised by developmental psychologist Ed Tronick in the 1970s.<br />Radesky 引用了发展心理学家 Ed Tronick 在 20 世纪 70 年代设计的“静止面孔实验”。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 C 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 C 选项（“父母需要回应孩子的情感需求”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：C正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. children are insensitive to changes in their parents’ mood",
-          "html": "<p><strong>选项 D</strong>：<code>children are insensitive to changes in their parents’ mood</code></p>\n<p><strong>中文翻译</strong>：孩子对父母情绪的变化不敏感</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>孩子对父母情绪的变化不敏感</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "28",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. children are insensitive to changes in their parents’ mood",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>孩子对父母情绪的变化不敏感</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>children</code>, <code>are</code>, <code>insensitive</code>（“孩子对父母情绪的变化不敏感”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.<br />婴儿天生会看着父母的脸来试图了解他们的世界，如果父母的脸一片空白且毫无反应——就像他们全神贯注于某个设备时经常出现的情况一样——这可能会让孩子们感到非常不安。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“孩子对父母情绪的变化不敏感”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. children are insensitive to changes in their parents’ mood",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>孩子对父母情绪的变化不敏感</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>children</code>, <code>are</code>, <code>insensitive</code>（“孩子对父母情绪的变化不敏感”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.<br />婴儿天生会看着父母的脸来试图了解他们的世界，如果父母的脸一片空白且毫无反应——就像他们全神贯注于某个设备时经常出现的情况一样——这可能会让孩子们感到非常不安。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“孩子对父母情绪的变化不敏感”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Radesky cites the “still face experiment” devised by developmental psychologist Ed Tronick in the 1970s.<br />Radesky 引用了发展心理学家 Ed Tronick 在 20 世纪 70 年代设计的“静止面孔实验”。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. children are insensitive to changes in their parents’ mood",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>孩子对父母情绪的变化不敏感</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>children</code>, <code>are</code>, <code>insensitive</code>（“孩子对父母情绪的变化不敏感”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.<br />婴儿天生会看着父母的脸来试图了解他们的世界，如果父母的脸一片空白且毫无反应——就像他们全神贯注于某个设备时经常出现的情况一样——这可能会让孩子们感到非常不安。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“孩子对父母情绪的变化不敏感”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Radesky cites the “still face experiment” devised by developmental psychologist Ed Tronick in the 1970s.<br />Radesky 引用了发展心理学家 Ed Tronick 在 20 世纪 70 年代设计的“静止面孔实验”。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "28题结论",
+          "html": "<blockquote>\n<p><strong>28. C. parents need to respond to children’s emotional needs</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>C</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“孩子对父母情绪的变化不敏感”，但在原文定位句中，作者表达的态...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "28",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "29题 · 题干、题型与核心出处",
-          "html": "<p><strong>29. The oppressive ideology mentioned by Tronick requires parents to _______.</strong></p>\n<p>（特罗尼克提到的压迫性意识形态要求父母_______。）</p>\n<p><strong>题型判定</strong>：词义/例证题 ｜ <strong>定位出处</strong>：Paragraph 4</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>The oppressive ideology mentioned by Tronick requires parents to _______.<br />特罗尼克提到的压迫性意识形态要求父母_______。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>词义/例证题</strong>，考查考生对第 <strong>4</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 4 段核心定位句）</h3>\n<blockquote>\n<p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 4 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "29"
+            "qid": "29",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. protect kids from exposure to wild fantasies",
-          "html": "<p><strong>选项 A</strong>：<code>protect kids from exposure to wild fantasies</code></p>\n<p><strong>中文翻译</strong>：保护孩子免于陷入疯狂的幻想</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>保护孩子免于陷入疯狂的幻想</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "29",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. protect kids from exposure to wild fantasies",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>保护孩子免于陷入疯狂的幻想</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>protect</code>, <code>kids</code>, <code>exposure</code>（“保护孩子免于陷入疯狂的幻想”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“保护孩子免于陷入疯狂的幻想”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. protect kids from exposure to wild fantasies",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>保护孩子免于陷入疯狂的幻想</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>protect</code>, <code>kids</code>, <code>exposure</code>（“保护孩子免于陷入疯狂的幻想”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“保护孩子免于陷入疯狂的幻想”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way.<br />他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. protect kids from exposure to wild fantasies",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>保护孩子免于陷入疯狂的幻想</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>protect</code>, <code>kids</code>, <code>exposure</code>（“保护孩子免于陷入疯狂的幻想”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“保护孩子免于陷入疯狂的幻想”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way.<br />他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. teach their kids at least 30,000 words a year",
-          "html": "<p><strong>选项 B</strong>：<code>teach their kids at least 30,000 words a year</code></p>\n<p><strong>中文翻译</strong>：每年至少教孩子 30,000 个单词</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>每年至少教孩子 30,000 个单词</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "29",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. teach their kids at least 30,000 words a year",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>每年至少教孩子 30,000 个单词</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>teach</code>, <code>their</code>, <code>kids</code>（“每年至少教孩子 30,000 个单词”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. teach their kids at least 30,000 words a year",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>每年至少教孩子 30,000 个单词</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>teach</code>, <code>their</code>, <code>kids</code>（“每年至少教孩子 30,000 个单词”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way.<br />他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. teach their kids at least 30,000 words a year",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>每年至少教孩子 30,000 个单词</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>teach</code>, <code>their</code>, <code>kids</code>（“每年至少教孩子 30,000 个单词”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way.<br />他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. remain concerned about kids’ use of screens",
-          "html": "<p><strong>选项 C</strong>：<code>remain concerned about kids’ use of screens</code></p>\n<p><strong>中文翻译</strong>：仍然关注孩子们使用屏幕的情况</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>仍然关注孩子们使用屏幕的情况</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "29",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. remain concerned about kids’ use of screens",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>仍然关注孩子们使用屏幕的情况</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>remain</code>, <code>concerned</code>, <code>kids</code>（“仍然关注孩子们使用屏幕的情况”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. remain concerned about kids’ use of screens",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>仍然关注孩子们使用屏幕的情况</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>remain</code>, <code>concerned</code>, <code>kids</code>（“仍然关注孩子们使用屏幕的情况”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way.<br />他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. remain concerned about kids’ use of screens",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>仍然关注孩子们使用屏幕的情况</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>remain</code>, <code>concerned</code>, <code>kids</code>（“仍然关注孩子们使用屏幕的情况”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way.<br />他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. ensure constant interaction with their children",
-          "html": "<p><strong>选项 D</strong>：<code>ensure constant interaction with their children</code></p>\n<p><strong>中文翻译</strong>：确保与孩子持续互动</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>确保与孩子持续互动</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "29",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. ensure constant interaction with their children",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>确保与孩子持续互动</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>ensure</code>, <code>constant</code>, <code>interaction</code>，其对应的中文含义为“<strong>确保与孩子持续互动</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. ensure constant interaction with their children",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>确保与孩子持续互动</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>ensure</code>, <code>constant</code>, <code>interaction</code>，其对应的中文含义为“<strong>确保与孩子持续互动</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way.<br />他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 D 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. ensure constant interaction with their children",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>确保与孩子持续互动</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>ensure</code>, <code>constant</code>, <code>interaction</code>，其对应的中文含义为“<strong>确保与孩子持续互动</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way.<br />他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 D 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 D 选项（“确保与孩子持续互动”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：D正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "29题结论",
+          "html": "<blockquote>\n<p><strong>29. D. ensure constant interaction with their children</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“保护孩子免于陷入疯狂的幻想”，但在原文定位句中，作者表达的态...；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>D</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "29",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "30题 · 题干、题型与核心出处",
-          "html": "<p><strong>30. According to Tronick, kids’ use of screens may _______.</strong></p>\n<p>（根据特罗尼克的说法，孩子们对屏幕的使用可能会_______。）</p>\n<p><strong>题型判定</strong>：全文主旨题 ｜ <strong>定位出处</strong>：Paragraph 5</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>According to Tronick, kids’ use of screens may _______.<br />根据特罗尼克的说法，孩子们对屏幕的使用可能会_______。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>全文主旨题</strong>，考查考生对第 <strong>4</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 4 段核心定位句）</h3>\n<blockquote>\n<p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 4 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "30"
+            "qid": "30",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. make their parents more creative",
-          "html": "<p><strong>选项 A</strong>：<code>make their parents more creative</code></p>\n<p><strong>中文翻译</strong>：让他们的父母更有创造力</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>让他们的父母更有创造力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "30",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. make their parents more creative",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>让他们的父母更有创造力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>make</code>, <code>their</code>, <code>parents</code>（“让他们的父母更有创造力”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. make their parents more creative",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>让他们的父母更有创造力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>make</code>, <code>their</code>, <code>parents</code>（“让他们的父母更有创造力”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way.<br />他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. make their parents more creative",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>让他们的父母更有创造力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>make</code>, <code>their</code>, <code>parents</code>（“让他们的父母更有创造力”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way.<br />他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. give their parents some free time",
-          "html": "<p><strong>选项 B</strong>：<code>give their parents some free time</code></p>\n<p><strong>中文翻译</strong>：给父母一些空闲时间</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>给父母一些空闲时间</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "30",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. give their parents some free time",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>给父母一些空闲时间</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>give</code>, <code>their</code>, <code>parents</code>，其对应的中文含义为“<strong>给父母一些空闲时间</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. give their parents some free time",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>给父母一些空闲时间</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>give</code>, <code>their</code>, <code>parents</code>，其对应的中文含义为“<strong>给父母一些空闲时间</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way.<br />他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 B 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. give their parents some free time",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>给父母一些空闲时间</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>give</code>, <code>their</code>, <code>parents</code>，其对应的中文含义为“<strong>给父母一些空闲时间</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way.<br />他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 B 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 B 选项（“给父母一些空闲时间”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：B正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. help them with their homework",
-          "html": "<p><strong>选项 C</strong>：<code>help them with their homework</code></p>\n<p><strong>中文翻译</strong>：帮助他们做作业</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>帮助他们做作业</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "30",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. help them with their homework",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>帮助他们做作业</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>help</code>, <code>them</code>, <code>their</code>（“帮助他们做作业”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“帮助他们做作业”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. help them with their homework",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>帮助他们做作业</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>help</code>, <code>them</code>, <code>their</code>（“帮助他们做作业”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“帮助他们做作业”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way.<br />他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. help them with their homework",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>帮助他们做作业</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>help</code>, <code>them</code>, <code>their</code>（“帮助他们做作业”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“帮助他们做作业”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way.<br />他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. help them become more attentive",
-          "html": "<p><strong>选项 D</strong>：<code>help them become more attentive</code></p>\n<p><strong>中文翻译</strong>：帮助他们变得更加专心</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>帮助他们变得更加专心</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "30",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. help them become more attentive",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>帮助他们变得更加专心</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>help</code>, <code>them</code>, <code>become</code>（“帮助他们变得更加专心”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. help them become more attentive",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>帮助他们变得更加专心</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>help</code>, <code>them</code>, <code>become</code>（“帮助他们变得更加专心”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way.<br />他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. help them become more attentive",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>帮助他们变得更加专心</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>help</code>, <code>them</code>, <code>become</code>（“帮助他们变得更加专心”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.<br />另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way.<br />他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "30题结论",
+          "html": "<blockquote>\n<p><strong>30. B. give their parents some free time</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>B</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“帮助他们做作业”，但在原文定位句中，作者表达的态度或客观事实...；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "30",
+            "form": "conclusion"
           }
         },
         {
@@ -3410,8 +4880,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "Today, widespread social pressure to immediately go to college in conjunction with [increasingly] high [expectations] in a fast-moving world often causes students to completely overlook the possibility of taking a gap year. After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn’t it? And after going to school for 12 years, it doesn’t feel natural to spend a year doing [something] that isn’t academic. But while this may be true, it’s not a good enough reason to condemn gap years. There’s always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line,” whether that be toward graduate school, medical school or a lucrative career. But despite common [misconceptions], a gap year does not hinder the success of academic pursuits—in fact, it probably enhances it.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Today, widespread social pressure to immediately go to college in conjunction with <span class=\"mask\">[increasingly]</span> high <span class=\"mask\">[expectations]</span> in a fast-moving world often causes students to completely overlook the possibility of taking a gap year. After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn’t it? And after going to school for 12 years, it doesn’t feel natural to spend a year doing <span class=\"mask\">[something]</span> that isn’t academic. But while this may be true, it’s not a good enough reason to condemn gap years. There’s always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line,” whether that be toward graduate school, medical school or a lucrative career. But despite common <span class=\"mask\">[misconceptions]</span>, a gap year does not hinder the success of academic pursuits—in fact, it probably enhances it.</p></div></div>",
+          "raw": "Today, widespread social pressure to immediately go to college in [conjunction] with [increasingly] high [expectations] in a fast-moving world often causes students to completely overlook the possibility of taking a gap year. After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn’t it? And after going to school for 12 years, it doesn’t feel natural to spend a year doing something that isn’t academic. But while this may be true, it’s not a good enough reason to condemn gap years. There’s always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line,” whether that be toward graduate school, medical school or a lucrative career. But despite common [misconceptions], a gap year does not hinder the success of academic pursuits—in fact, it probably enhances it.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Today, widespread social pressure to immediately go to college in <span class=\"mask\">[conjunction]</span> with <span class=\"mask\">[increasingly]</span> high <span class=\"mask\">[expectations]</span> in a fast-moving world often causes students to completely overlook the possibility of taking a gap year. After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn’t it? And after going to school for 12 years, it doesn’t feel natural to spend a year doing something that isn’t academic. But while this may be true, it’s not a good enough reason to condemn gap years. There’s always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line,” whether that be toward graduate school, medical school or a lucrative career. But despite common <span class=\"mask\">[misconceptions]</span>, a gap year does not hinder the success of academic pursuits—in fact, it probably enhances it.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 0,
@@ -3420,8 +4890,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "Today, / widespread social pressure to immediately go to college in conjunction with [increasingly] high [expectations] in a fast-moving world often causes students to completely overlook the possibility of taking a gap year. / After all, / / if everyone you know is going to college in the fall, / it seems silly to stay back a year, / doesn’t it? And / after going to school for 12 years, / it doesn’t feel natural to spend a year doing [something] / that isn’t academic. / But / while this may be true, / it’s not a good enough reason to condemn gap years. / There’s always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line,” whether / that be toward graduate school, / medical school or a lucrative career. / But despite common [misconceptions], / a gap year does not hinder the success of academic pursuits—in fact, / it probably enhances it.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Today, / widespread social pressure to immediately go to college in conjunction with <span class=\"mask\">[increasingly]</span> high <span class=\"mask\">[expectations]</span> in a fast-moving world often causes students to completely overlook the possibility of taking a gap year. / After all, / / if everyone you know is going to college in the fall, / it seems silly to stay back a year, / doesn’t it? And / after going to school for 12 years, / it doesn’t feel natural to spend a year doing <span class=\"mask\">[something]</span> / that isn’t academic. / But / while this may be true, / it’s not a good enough reason to condemn gap years. / There’s always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line,” whether / that be toward graduate school, / medical school or a lucrative career. / But despite common <span class=\"mask\">[misconceptions]</span>, / a gap year does not hinder the success of academic pursuits—in fact, / it probably enhances it.</p></div></div>",
+          "raw": "Today, / widespread social pressure to immediately go to college in [conjunction] with [increasingly] high [expectations] in a fast-moving world often causes students to completely overlook the possibility of taking a gap year. / After all, / / if everyone you know is going to college in the fall, / it seems silly to stay back a year, / doesn’t it? And / after going to school for 12 years, / it doesn’t feel natural to spend a year doing something / that isn’t academic. / But / while this may be true, / it’s not a good enough reason to condemn gap years. / There’s always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line,” whether / that be toward graduate school, / medical school or a lucrative career. / But despite common [misconceptions], / a gap year does not hinder the success of academic pursuits—in fact, / it probably enhances it.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Today, / widespread social pressure to immediately go to college in <span class=\"mask\">[conjunction]</span> with <span class=\"mask\">[increasingly]</span> high <span class=\"mask\">[expectations]</span> in a fast-moving world often causes students to completely overlook the possibility of taking a gap year. / After all, / / if everyone you know is going to college in the fall, / it seems silly to stay back a year, / doesn’t it? And / after going to school for 12 years, / it doesn’t feel natural to spend a year doing something / that isn’t academic. / But / while this may be true, / it’s not a good enough reason to condemn gap years. / There’s always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line,” whether / that be toward graduate school, / medical school or a lucrative career. / But despite common <span class=\"mask\">[misconceptions]</span>, / a gap year does not hinder the success of academic pursuits—in fact, / it probably enhances it.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 0,
@@ -3450,8 +4920,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not. Rather than pulling students back, a gap year pushes them ahead by preparing them for [independence], new [responsibilities] and [environmental] changes—all things that first-year students often struggle with the most. Gap year [experiences] can lessen the blow when it comes to adjusting to college and being thrown into a brand new environment, making it easier to focus on [academics] and activities rather than [acclimation] blunders.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not. Rather than pulling students back, a gap year pushes them ahead by preparing them for <span class=\"mask\">[independence]</span>, new <span class=\"mask\">[responsibilities]</span> and <span class=\"mask\">[environmental]</span> changes—all things that first-year students often struggle with the most. Gap year <span class=\"mask\">[experiences]</span> can lessen the blow when it comes to adjusting to college and being thrown into a brand new environment, making it easier to focus on <span class=\"mask\">[academics]</span> and activities rather than <span class=\"mask\">[acclimation]</span> blunders.</p></div></div>",
+          "raw": "Studies from the United States and [Australia] show that students who take a gap year are generally better prepared for and perform better in college than those who do not. Rather than pulling students back, a gap year pushes them ahead by preparing them for [independence], new [responsibilities] and [environmental] changes—all things that [first-year] students often struggle with the most. Gap year experiences can lessen the blow when it comes to adjusting to college and being thrown into a brand new environment, making it easier to focus on academics and activities rather than acclimation blunders.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Studies from the United States and <span class=\"mask\">[Australia]</span> show that students who take a gap year are generally better prepared for and perform better in college than those who do not. Rather than pulling students back, a gap year pushes them ahead by preparing them for <span class=\"mask\">[independence]</span>, new <span class=\"mask\">[responsibilities]</span> and <span class=\"mask\">[environmental]</span> changes—all things that <span class=\"mask\">[first-year]</span> students often struggle with the most. Gap year experiences can lessen the blow when it comes to adjusting to college and being thrown into a brand new environment, making it easier to focus on academics and activities rather than acclimation blunders.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 1,
@@ -3460,8 +4930,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "Studies from the United States and Australia show / that students / who take a gap year are generally better prepared for and perform better in college than those / who do not. / Rather than pulling students back, / a gap year pushes them ahead by preparing them for [independence], / new [responsibilities] and [environmental] changes—all things / that first-year students often struggle with the most. / Gap year [experiences] can lessen the blow / when it comes to adjusting to college and being thrown into a brand new environment, / making it easier to focus on [academics] and activities / rather than [acclimation] blunders.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Studies from the United States and Australia show / that students / who take a gap year are generally better prepared for and perform better in college than those / who do not. / Rather than pulling students back, / a gap year pushes them ahead by preparing them for <span class=\"mask\">[independence]</span>, / new <span class=\"mask\">[responsibilities]</span> and <span class=\"mask\">[environmental]</span> changes—all things / that first-year students often struggle with the most. / Gap year <span class=\"mask\">[experiences]</span> can lessen the blow / when it comes to adjusting to college and being thrown into a brand new environment, / making it easier to focus on <span class=\"mask\">[academics]</span> and activities / rather than <span class=\"mask\">[acclimation]</span> blunders.</p></div></div>",
+          "raw": "Studies from the United States and [Australia] show / that students / who take a gap year are generally better prepared for and perform better in college than those / who do not. / Rather than pulling students back, / a gap year pushes them ahead by preparing them for [independence], / new [responsibilities] and [environmental] changes—all things / that [first-year] students often struggle with the most. / Gap year experiences can lessen the blow / when it comes to adjusting to college and being thrown into a brand new environment, / making it easier to focus on academics and activities / rather than acclimation blunders.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>Studies from the United States and <span class=\"mask\">[Australia]</span> show / that students / who take a gap year are generally better prepared for and perform better in college than those / who do not. / Rather than pulling students back, / a gap year pushes them ahead by preparing them for <span class=\"mask\">[independence]</span>, / new <span class=\"mask\">[responsibilities]</span> and <span class=\"mask\">[environmental]</span> changes—all things / that <span class=\"mask\">[first-year]</span> students often struggle with the most. / Gap year experiences can lessen the blow / when it comes to adjusting to college and being thrown into a brand new environment, / making it easier to focus on academics and activities / rather than acclimation blunders.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 1,
@@ -3490,8 +4960,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices. [According] to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once. This isn’t surprising, considering the basic mandatory high school [curriculum] leaves students with a poor [understanding] of the vast academic [possibilities] that await them in college. Many students find themselves listing one major on their college [applications], but switching to another after taking college classes. It’s not necessarily a bad thing, but [depending] on the school, it can be costly to make up credits after switching too late in the game. At Boston College, for example, you would have to complete an extra year were you to switch to the nursing school from another [department]. Taking a gap year to figure things out initially can help prevent stress and save money later on.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices. <span class=\"mask\">[According]</span> to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once. This isn’t surprising, considering the basic mandatory high school <span class=\"mask\">[curriculum]</span> leaves students with a poor <span class=\"mask\">[understanding]</span> of the vast academic <span class=\"mask\">[possibilities]</span> that await them in college. Many students find themselves listing one major on their college <span class=\"mask\">[applications]</span>, but switching to another after taking college classes. It’s not necessarily a bad thing, but <span class=\"mask\">[depending]</span> on the school, it can be costly to make up credits after switching too late in the game. At Boston College, for example, you would have to complete an extra year were you to switch to the nursing school from another <span class=\"mask\">[department]</span>. Taking a gap year to figure things out initially can help prevent stress and save money later on.</p></div></div>",
+          "raw": "If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices. According to the National Center for Education [Statistics], nearly 80 percent of college students end up changing their majors at least once. This isn’t [surprising], considering the basic mandatory high school curriculum leaves students with a poor [understanding] of the vast academic [possibilities] that await them in college. Many students find themselves listing one major on their college [applications], but switching to another after taking college classes. It’s not [necessarily] a bad thing, but [depending] on the school, it can be costly to make up credits after switching too late in the game. At Boston College, for example, you would have to complete an extra year were you to switch to the nursing school from another department. Taking a gap year to figure things out initially can help prevent stress and save money later on.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices. According to the National Center for Education <span class=\"mask\">[Statistics]</span>, nearly 80 percent of college students end up changing their majors at least once. This isn’t <span class=\"mask\">[surprising]</span>, considering the basic mandatory high school curriculum leaves students with a poor <span class=\"mask\">[understanding]</span> of the vast academic <span class=\"mask\">[possibilities]</span> that await them in college. Many students find themselves listing one major on their college <span class=\"mask\">[applications]</span>, but switching to another after taking college classes. It’s not <span class=\"mask\">[necessarily]</span> a bad thing, but <span class=\"mask\">[depending]</span> on the school, it can be costly to make up credits after switching too late in the game. At Boston College, for example, you would have to complete an extra year were you to switch to the nursing school from another department. Taking a gap year to figure things out initially can help prevent stress and save money later on.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 2,
@@ -3500,8 +4970,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "If you’re not convinced of the inherent value in taking a year off to explore interests, / then consider its financial impact on future academic choices. [According] to the National Center for Education Statistics, / nearly 80 percent of college students end up changing their majors at least once. / This isn’t surprising, / considering the basic mandatory high school [curriculum] leaves students with a poor [understanding] of the vast academic [possibilities] / that await them in college. / Many students find themselves listing one major on their college [applications], / but switching to another / after taking college classes. / It’s not necessarily a bad thing, / but [depending] on the school, / it can be costly to make up credits / after switching too late in the game. / At Boston College, / for example, / you would have to complete an extra year were you to switch to the nursing school from another [department]. / Taking a gap year to figure things out initially can help prevent stress and save money later on.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>If you’re not convinced of the inherent value in taking a year off to explore interests, / then consider its financial impact on future academic choices. <span class=\"mask\">[According]</span> to the National Center for Education Statistics, / nearly 80 percent of college students end up changing their majors at least once. / This isn’t surprising, / considering the basic mandatory high school <span class=\"mask\">[curriculum]</span> leaves students with a poor <span class=\"mask\">[understanding]</span> of the vast academic <span class=\"mask\">[possibilities]</span> / that await them in college. / Many students find themselves listing one major on their college <span class=\"mask\">[applications]</span>, / but switching to another / after taking college classes. / It’s not necessarily a bad thing, / but <span class=\"mask\">[depending]</span> on the school, / it can be costly to make up credits / after switching too late in the game. / At Boston College, / for example, / you would have to complete an extra year were you to switch to the nursing school from another <span class=\"mask\">[department]</span>. / Taking a gap year to figure things out initially can help prevent stress and save money later on.</p></div></div>",
+          "raw": "If you’re not convinced of the inherent value in taking a year off to explore interests, / then consider its financial impact on future academic choices. / According to the National Center for Education [Statistics], / nearly 80 percent of college students end up changing their majors at least once. / This isn’t [surprising], / considering the basic mandatory high school curriculum leaves students with a poor [understanding] of the vast academic [possibilities] / that await them in college. / Many students find themselves listing one major on their college [applications], / but switching to another / after taking college classes. / It’s not [necessarily] a bad thing, / but [depending] on the school, / it can be costly to make up credits / after switching too late in the game. / At Boston College, / for example, / you would have to complete an extra year were you to switch to the nursing school from another department. / Taking a gap year to figure things out initially can help prevent stress and save money later on.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>If you’re not convinced of the inherent value in taking a year off to explore interests, / then consider its financial impact on future academic choices. / According to the National Center for Education <span class=\"mask\">[Statistics]</span>, / nearly 80 percent of college students end up changing their majors at least once. / This isn’t <span class=\"mask\">[surprising]</span>, / considering the basic mandatory high school curriculum leaves students with a poor <span class=\"mask\">[understanding]</span> of the vast academic <span class=\"mask\">[possibilities]</span> / that await them in college. / Many students find themselves listing one major on their college <span class=\"mask\">[applications]</span>, / but switching to another / after taking college classes. / It’s not <span class=\"mask\">[necessarily]</span> a bad thing, / but <span class=\"mask\">[depending]</span> on the school, / it can be costly to make up credits / after switching too late in the game. / At Boston College, / for example, / you would have to complete an extra year were you to switch to the nursing school from another department. / Taking a gap year to figure things out initially can help prevent stress and save money later on.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 2,
@@ -3536,8 +5006,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "31题",
-          "raw": "## 31题\n\n**One of the reasons for high-school graduates not taking a gap year is that ______.**\n\n> 高中毕业生不参加间隔年的原因之一是______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> Today, widespread social pressure to immediately go to college in conjunction with [increasingly] high [expectations] in a fast-moving world often causes students to completely overlook the possibility of taking a gap year. After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn’t it? And after going to school for 12 years, it doesn’t feel natural to spend a year doing [something] that isn’t academic. But while this may be true, it’s not a good enough reason to condemn gap years. There’s always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line,” whether that be toward graduate school, medical school or a lucrative career. But despite common [misconceptions], a gap year does not hinder the success of academic pursuits—in fact, it probably enhances it.\n>\n> 开始精读：\n>\n> Today, / widespread social pressure to immediately go to college in conjunction with [increasingly] high [expectations] in a fast-moving world often causes students to completely overlook the possibility of taking a gap year. / After all, / / if everyone you know is going to college in the fall, / it seems silly to stay back a year, / doesn’t it? And / after going to school for 12 years, / it doesn’t feel natural to spend a year doing [something] / that isn’t academic. / But / while this may be true, / it’s not a good enough reason to condemn gap years. / There’s always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line,” whether / that be toward graduate school, / medical school or a lucrative career. / But despite common [misconceptions], / a gap year does not hinder the success of academic pursuits—in fact, / it probably enhances it.\n>\n> 逐意群顺译：\n>\n> 如今，立即上大学的普遍社会压力，加上快速变化的世界中越来越高的期望，往往导致学生完全忽视休学一年的可能性。毕竟，如果你认识的每个人都将在秋季上大学，那么留级一年似乎很愚蠢，不是吗？在上学 12 年之后，花一年时间做一些与学术无关的事情感觉很不自然。尽管这可能是真的，但这还不足以成为谴责间隔年的理由。人们总是担心在社会上持续存在的“冲向终点线”的竞赛中落后于其他人，无论是进入研究生院、医学院还是利润丰厚的职业。但尽管存在常见的误解，间隔年并不会阻碍学术追求的成功——事实上，它可能会增强学术追求的成功。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>31题</h2>\n<p><strong>One of the reasons for high-school graduates not taking a gap year is that ______.</strong></p>\n<blockquote><p>高中毕业生不参加间隔年的原因之一是______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Today, widespread social pressure to immediately go to college in conjunction with <span class=\"mask\">[increasingly]</span> high <span class=\"mask\">[expectations]</span> in a fast-moving world often causes students to completely overlook the possibility of taking a gap year. After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn’t it? And after going to school for 12 years, it doesn’t feel natural to spend a year doing <span class=\"mask\">[something]</span> that isn’t academic. But while this may be true, it’s not a good enough reason to condemn gap years. There’s always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line,” whether that be toward graduate school, medical school or a lucrative career. But despite common <span class=\"mask\">[misconceptions]</span>, a gap year does not hinder the success of academic pursuits—in fact, it probably enhances it.</p>\n<p><strong>开始精读：</strong></p>\n<p>Today, / widespread social pressure to immediately go to college in conjunction with <span class=\"mask\">[increasingly]</span> high <span class=\"mask\">[expectations]</span> in a fast-moving world often causes students to completely overlook the possibility of taking a gap year. / After all, / / if everyone you know is going to college in the fall, / it seems silly to stay back a year, / doesn’t it? And / after going to school for 12 years, / it doesn’t feel natural to spend a year doing <span class=\"mask\">[something]</span> / that isn’t academic. / But / while this may be true, / it’s not a good enough reason to condemn gap years. / There’s always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line,” whether / that be toward graduate school, / medical school or a lucrative career. / But despite common <span class=\"mask\">[misconceptions]</span>, / a gap year does not hinder the success of academic pursuits—in fact, / it probably enhances it.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>如今，立即上大学的普遍社会压力，加上快速变化的世界中越来越高的期望，往往导致学生完全忽视休学一年的可能性。毕竟，如果你认识的每个人都将在秋季上大学，那么留级一年似乎很愚蠢，不是吗？在上学 12 年之后，花一年时间做一些与学术无关的事情感觉很不自然。尽管这可能是真的，但这还不足以成为谴责间隔年的理由。人们总是担心在社会上持续存在的“冲向终点线”的竞赛中落后于其他人，无论是进入研究生院、医学院还是利润丰厚的职业。但尽管存在常见的误解，间隔年并不会阻碍学术追求的成功——事实上，它可能会增强学术追求的成功。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 31题\n\n**One of the reasons for high-school graduates not taking a gap year is that ______.**\n\n> 高中毕业生不参加间隔年的原因之一是______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> Today, widespread social pressure to immediately go to college in [conjunction] with [increasingly] high [expectations] in a fast-moving world often causes students to completely overlook the possibility of taking a gap year. After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn’t it? And after going to school for 12 years, it doesn’t feel natural to spend a year doing something that isn’t academic. But while this may be true, it’s not a good enough reason to condemn gap years. There’s always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line,” whether that be toward graduate school, medical school or a lucrative career. But despite common [misconceptions], a gap year does not hinder the success of academic pursuits—in fact, it probably enhances it.\n>\n> 开始精读：\n>\n> Today, / widespread social pressure to immediately go to college in [conjunction] with [increasingly] high [expectations] in a fast-moving world often causes students to completely overlook the possibility of taking a gap year. / After all, / / if everyone you know is going to college in the fall, / it seems silly to stay back a year, / doesn’t it? And / after going to school for 12 years, / it doesn’t feel natural to spend a year doing something / that isn’t academic. / But / while this may be true, / it’s not a good enough reason to condemn gap years. / There’s always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line,” whether / that be toward graduate school, / medical school or a lucrative career. / But despite common [misconceptions], / a gap year does not hinder the success of academic pursuits—in fact, / it probably enhances it.\n>\n> 逐意群顺译：\n>\n> 如今，立即上大学的普遍社会压力，加上快速变化的世界中越来越高的期望，往往导致学生完全忽视休学一年的可能性。毕竟，如果你认识的每个人都将在秋季上大学，那么留级一年似乎很愚蠢，不是吗？在上学 12 年之后，花一年时间做一些与学术无关的事情感觉很不自然。尽管这可能是真的，但这还不足以成为谴责间隔年的理由。人们总是担心在社会上持续存在的“冲向终点线”的竞赛中落后于其他人，无论是进入研究生院、医学院还是利润丰厚的职业。但尽管存在常见的误解，间隔年并不会阻碍学术追求的成功——事实上，它可能会增强学术追求的成功。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>31题</h2>\n<p><strong>One of the reasons for high-school graduates not taking a gap year is that ______.</strong></p>\n<blockquote><p>高中毕业生不参加间隔年的原因之一是______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Today, widespread social pressure to immediately go to college in <span class=\"mask\">[conjunction]</span> with <span class=\"mask\">[increasingly]</span> high <span class=\"mask\">[expectations]</span> in a fast-moving world often causes students to completely overlook the possibility of taking a gap year. After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn’t it? And after going to school for 12 years, it doesn’t feel natural to spend a year doing something that isn’t academic. But while this may be true, it’s not a good enough reason to condemn gap years. There’s always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line,” whether that be toward graduate school, medical school or a lucrative career. But despite common <span class=\"mask\">[misconceptions]</span>, a gap year does not hinder the success of academic pursuits—in fact, it probably enhances it.</p>\n<p><strong>开始精读：</strong></p>\n<p>Today, / widespread social pressure to immediately go to college in <span class=\"mask\">[conjunction]</span> with <span class=\"mask\">[increasingly]</span> high <span class=\"mask\">[expectations]</span> in a fast-moving world often causes students to completely overlook the possibility of taking a gap year. / After all, / / if everyone you know is going to college in the fall, / it seems silly to stay back a year, / doesn’t it? And / after going to school for 12 years, / it doesn’t feel natural to spend a year doing something / that isn’t academic. / But / while this may be true, / it’s not a good enough reason to condemn gap years. / There’s always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line,” whether / that be toward graduate school, / medical school or a lucrative career. / But despite common <span class=\"mask\">[misconceptions]</span>, / a gap year does not hinder the success of academic pursuits—in fact, / it probably enhances it.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>如今，立即上大学的普遍社会压力，加上快速变化的世界中越来越高的期望，往往导致学生完全忽视休学一年的可能性。毕竟，如果你认识的每个人都将在秋季上大学，那么留级一年似乎很愚蠢，不是吗？在上学 12 年之后，花一年时间做一些与学术无关的事情感觉很不自然。尽管这可能是真的，但这还不足以成为谴责间隔年的理由。人们总是担心在社会上持续存在的“冲向终点线”的竞赛中落后于其他人，无论是进入研究生院、医学院还是利润丰厚的职业。但尽管存在常见的误解，间隔年并不会阻碍学术追求的成功——事实上，它可能会增强学术追求的成功。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "31"
@@ -3545,8 +5015,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "31题",
-          "raw": "### A. they think it academically misleading\n\n> 他们认为这在学术上具有误导性\n\n我们先看 A 选项：`they think it academically misleading`（他们认为这在学术上具有误导性）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：高中毕业生不参加间隔年的原因之一是“他们认为这在学术上具有误导性”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“他们认为这在学术上具有误导性”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
-          "html": "<h3>A. they think it academically misleading</h3>\n<blockquote><p>他们认为这在学术上具有误导性</p></blockquote>\n<p>我们先看 A 选项：<code>they think it academically misleading</code>（他们认为这在学术上具有误导性）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：高中毕业生不参加间隔年的原因之一是“他们认为这在学术上具有误导性”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“他们认为这在学术上具有误导性”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "raw": "### A. they think it academically misleading\n\n> 他们认为这在学术上具有误导性\n\n我们先看 A 选项：`they think it academically misleading`（他们认为这在学术上具有误导性）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：高中毕业生不参加间隔年的原因之一是“他们认为这在学术上具有误导性”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“他们认为这在学术上具有误导性”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. they think it academically misleading</h3>\n<blockquote><p>他们认为这在学术上具有误导性</p></blockquote>\n<p>我们先看 A 选项：<code>they think it academically misleading</code>（他们认为这在学术上具有误导性）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：高中毕业生不参加间隔年的原因之一是“他们认为这在学术上具有误导性”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“他们认为这在学术上具有误导性”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "31",
@@ -3555,8 +5025,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "31题",
-          "raw": "### B. they have a lot of fun to expect in college\n\n> 他们在大学里有很多乐趣\n\n我们先看 B 选项：`they have a lot of fun to expect in college`（他们在大学里有很多乐趣）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：高中毕业生不参加间隔年的原因之一是“他们在大学里有很多乐趣”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“他们在大学里有很多乐趣”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. they have a lot of fun to expect in college</h3>\n<blockquote><p>他们在大学里有很多乐趣</p></blockquote>\n<p>我们先看 B 选项：<code>they have a lot of fun to expect in college</code>（他们在大学里有很多乐趣）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：高中毕业生不参加间隔年的原因之一是“他们在大学里有很多乐趣”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“他们在大学里有很多乐趣”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. they have a lot of fun to expect in college\n\n> 他们在大学里有很多乐趣\n\n我们先看 B 选项：`they have a lot of fun to expect in college`（他们在大学里有很多乐趣）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：高中毕业生不参加间隔年的原因之一是“他们在大学里有很多乐趣”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“他们在大学里有很多乐趣”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. they have a lot of fun to expect in college</h3>\n<blockquote><p>他们在大学里有很多乐趣</p></blockquote>\n<p>我们先看 B 选项：<code>they have a lot of fun to expect in college</code>（他们在大学里有很多乐趣）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：高中毕业生不参加间隔年的原因之一是“他们在大学里有很多乐趣”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“他们在大学里有很多乐趣”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "31",
@@ -3575,8 +5045,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "31题",
-          "raw": "### D. it seems worthless to take off-campus courses\n\n> 参加校外课程似乎毫无价值\n\n我们先看 D 选项：`it seems worthless to take off-campus courses`（参加校外课程似乎毫无价值）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：高中毕业生不参加间隔年的原因之一是“参加校外课程似乎毫无价值”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“参加校外课程似乎毫无价值”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. it seems worthless to take off-campus courses</h3>\n<blockquote><p>参加校外课程似乎毫无价值</p></blockquote>\n<p>我们先看 D 选项：<code>it seems worthless to take off-campus courses</code>（参加校外课程似乎毫无价值）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：高中毕业生不参加间隔年的原因之一是“参加校外课程似乎毫无价值”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“参加校外课程似乎毫无价值”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. it seems worthless to take off-campus courses\n\n> 参加校外课程似乎毫无价值\n\n我们先看 D 选项：`it seems worthless to take off-campus courses`（参加校外课程似乎毫无价值）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：高中毕业生不参加间隔年的原因之一是“参加校外课程似乎毫无价值”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“参加校外课程似乎毫无价值”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. it seems worthless to take off-campus courses</h3>\n<blockquote><p>参加校外课程似乎毫无价值</p></blockquote>\n<p>我们先看 D 选项：<code>it seems worthless to take off-campus courses</code>（参加校外课程似乎毫无价值）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：高中毕业生不参加间隔年的原因之一是“参加校外课程似乎毫无价值”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“参加校外课程似乎毫无价值”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "31",
@@ -3594,8 +5064,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "32题",
-          "raw": "## 32题\n\n**Studies from the US and Australia imply that taking a gap year helps ______.**\n\n> 美国和澳大利亚的研究表明，间隔年有助于______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not. Rather than pulling students back, a gap year pushes them ahead by preparing them for [independence], new [responsibilities] and [environmental] changes—all things that first-year students often struggle with the most. Gap year [experiences] can lessen the blow when it comes to adjusting to college and being thrown into a brand new environment, making it easier to focus on [academics] and activities rather than [acclimation] blunders.\n>\n> 开始精读：\n>\n> Studies from the United States and Australia show / that students / who take a gap year are generally better prepared for and perform better in college than those / who do not. / Rather than pulling students back, / a gap year pushes them ahead by preparing them for [independence], / new [responsibilities] and [environmental] changes—all things / that first-year students often struggle with the most. / Gap year [experiences] can lessen the blow / when it comes to adjusting to college and being thrown into a brand new environment, / making it easier to focus on [academics] and activities / rather than [acclimation] blunders.\n>\n> 逐意群顺译：\n>\n> 美国和澳大利亚的研究表明，参加间隔年的学生通常比不参加间隔年的学生为大学做好了更好的准备，并且在大学中表现更好。间隔年并没有让学生退缩，而是通过让他们为独立、新的责任和环境变化做好准备而推动他们前进——所有这些都是一年级学生经常遇到的最困难的事情。间隔年的经历可以减轻适应大学和进入全新环境时的打击，让你更容易专注于学业和活动，而不是适应环境的错误。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>32题</h2>\n<p><strong>Studies from the US and Australia imply that taking a gap year helps ______.</strong></p>\n<blockquote><p>美国和澳大利亚的研究表明，间隔年有助于______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not. Rather than pulling students back, a gap year pushes them ahead by preparing them for <span class=\"mask\">[independence]</span>, new <span class=\"mask\">[responsibilities]</span> and <span class=\"mask\">[environmental]</span> changes—all things that first-year students often struggle with the most. Gap year <span class=\"mask\">[experiences]</span> can lessen the blow when it comes to adjusting to college and being thrown into a brand new environment, making it easier to focus on <span class=\"mask\">[academics]</span> and activities rather than <span class=\"mask\">[acclimation]</span> blunders.</p>\n<p><strong>开始精读：</strong></p>\n<p>Studies from the United States and Australia show / that students / who take a gap year are generally better prepared for and perform better in college than those / who do not. / Rather than pulling students back, / a gap year pushes them ahead by preparing them for <span class=\"mask\">[independence]</span>, / new <span class=\"mask\">[responsibilities]</span> and <span class=\"mask\">[environmental]</span> changes—all things / that first-year students often struggle with the most. / Gap year <span class=\"mask\">[experiences]</span> can lessen the blow / when it comes to adjusting to college and being thrown into a brand new environment, / making it easier to focus on <span class=\"mask\">[academics]</span> and activities / rather than <span class=\"mask\">[acclimation]</span> blunders.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>美国和澳大利亚的研究表明，参加间隔年的学生通常比不参加间隔年的学生为大学做好了更好的准备，并且在大学中表现更好。间隔年并没有让学生退缩，而是通过让他们为独立、新的责任和环境变化做好准备而推动他们前进——所有这些都是一年级学生经常遇到的最困难的事情。间隔年的经历可以减轻适应大学和进入全新环境时的打击，让你更容易专注于学业和活动，而不是适应环境的错误。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 32题\n\n**Studies from the US and Australia imply that taking a gap year helps ______.**\n\n> 美国和澳大利亚的研究表明，间隔年有助于______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> Studies from the United States and [Australia] show that students who take a gap year are generally better prepared for and perform better in college than those who do not. Rather than pulling students back, a gap year pushes them ahead by preparing them for [independence], new [responsibilities] and [environmental] changes—all things that [first-year] students often struggle with the most. Gap year experiences can lessen the blow when it comes to adjusting to college and being thrown into a brand new environment, making it easier to focus on academics and activities rather than acclimation blunders.\n>\n> 开始精读：\n>\n> Studies from the United States and [Australia] show / that students / who take a gap year are generally better prepared for and perform better in college than those / who do not. / Rather than pulling students back, / a gap year pushes them ahead by preparing them for [independence], / new [responsibilities] and [environmental] changes—all things / that [first-year] students often struggle with the most. / Gap year experiences can lessen the blow / when it comes to adjusting to college and being thrown into a brand new environment, / making it easier to focus on academics and activities / rather than acclimation blunders.\n>\n> 逐意群顺译：\n>\n> 美国和澳大利亚的研究表明，参加间隔年的学生通常比不参加间隔年的学生为大学做好了更好的准备，并且在大学中表现更好。间隔年并没有让学生退缩，而是通过让他们为独立、新的责任和环境变化做好准备而推动他们前进——所有这些都是一年级学生经常遇到的最困难的事情。间隔年的经历可以减轻适应大学和进入全新环境时的打击，让你更容易专注于学业和活动，而不是适应环境的错误。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>32题</h2>\n<p><strong>Studies from the US and Australia imply that taking a gap year helps ______.</strong></p>\n<blockquote><p>美国和澳大利亚的研究表明，间隔年有助于______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Studies from the United States and <span class=\"mask\">[Australia]</span> show that students who take a gap year are generally better prepared for and perform better in college than those who do not. Rather than pulling students back, a gap year pushes them ahead by preparing them for <span class=\"mask\">[independence]</span>, new <span class=\"mask\">[responsibilities]</span> and <span class=\"mask\">[environmental]</span> changes—all things that <span class=\"mask\">[first-year]</span> students often struggle with the most. Gap year experiences can lessen the blow when it comes to adjusting to college and being thrown into a brand new environment, making it easier to focus on academics and activities rather than acclimation blunders.</p>\n<p><strong>开始精读：</strong></p>\n<p>Studies from the United States and <span class=\"mask\">[Australia]</span> show / that students / who take a gap year are generally better prepared for and perform better in college than those / who do not. / Rather than pulling students back, / a gap year pushes them ahead by preparing them for <span class=\"mask\">[independence]</span>, / new <span class=\"mask\">[responsibilities]</span> and <span class=\"mask\">[environmental]</span> changes—all things / that <span class=\"mask\">[first-year]</span> students often struggle with the most. / Gap year experiences can lessen the blow / when it comes to adjusting to college and being thrown into a brand new environment, / making it easier to focus on academics and activities / rather than acclimation blunders.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>美国和澳大利亚的研究表明，参加间隔年的学生通常比不参加间隔年的学生为大学做好了更好的准备，并且在大学中表现更好。间隔年并没有让学生退缩，而是通过让他们为独立、新的责任和环境变化做好准备而推动他们前进——所有这些都是一年级学生经常遇到的最困难的事情。间隔年的经历可以减轻适应大学和进入全新环境时的打击，让你更容易专注于学业和活动，而不是适应环境的错误。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "32"
@@ -3613,8 +5083,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "32题",
-          "raw": "### B. lower risks in choosing careers\n\n> 选择职业的风险较低\n\n我们先看 B 选项：`lower risks in choosing careers`（选择职业的风险较低）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：美国和澳大利亚的研究表明，间隔年有助于“选择职业的风险较低”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“选择职业的风险较低”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. lower risks in choosing careers</h3>\n<blockquote><p>选择职业的风险较低</p></blockquote>\n<p>我们先看 B 选项：<code>lower risks in choosing careers</code>（选择职业的风险较低）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：美国和澳大利亚的研究表明，间隔年有助于“选择职业的风险较低”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“选择职业的风险较低”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. lower risks in choosing careers\n\n> 选择职业的风险较低\n\n我们先看 B 选项：`lower risks in choosing careers`（选择职业的风险较低）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：美国和澳大利亚的研究表明，间隔年有助于“选择职业的风险较低”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“选择职业的风险较低”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. lower risks in choosing careers</h3>\n<blockquote><p>选择职业的风险较低</p></blockquote>\n<p>我们先看 B 选项：<code>lower risks in choosing careers</code>（选择职业的风险较低）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：美国和澳大利亚的研究表明，间隔年有助于“选择职业的风险较低”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“选择职业的风险较低”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "32",
@@ -3633,8 +5103,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "32题",
-          "raw": "### D. keep students from being unrealistic\n\n> 防止学生不切实际\n\n我们先看 D 选项：`keep students from being unrealistic`（防止学生不切实际）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：美国和澳大利亚的研究表明，间隔年有助于“防止学生不切实际”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“防止学生不切实际”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. keep students from being unrealistic</h3>\n<blockquote><p>防止学生不切实际</p></blockquote>\n<p>我们先看 D 选项：<code>keep students from being unrealistic</code>（防止学生不切实际）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：美国和澳大利亚的研究表明，间隔年有助于“防止学生不切实际”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“防止学生不切实际”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. keep students from being unrealistic\n\n> 防止学生不切实际\n\n我们先看 D 选项：`keep students from being unrealistic`（防止学生不切实际）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：美国和澳大利亚的研究表明，间隔年有助于“防止学生不切实际”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“防止学生不切实际”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. keep students from being unrealistic</h3>\n<blockquote><p>防止学生不切实际</p></blockquote>\n<p>我们先看 D 选项：<code>keep students from being unrealistic</code>（防止学生不切实际）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：美国和澳大利亚的研究表明，间隔年有助于“防止学生不切实际”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“防止学生不切实际”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "32",
@@ -3652,8 +5122,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "33题",
-          "raw": "## 33题\n\n**The word “acclimation” (Last line, Paragraph 3) is closest in meaning to ______.**\n\n> “适应”一词（最后一行，第 3 段）的含义与 ______ 最接近。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices. [According] to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once. This isn’t surprising, considering the basic mandatory high school [curriculum] leaves students with a poor [understanding] of the vast academic [possibilities] that await them in college. Many students find themselves listing one major on their college [applications], but switching to another after taking college classes. It’s not necessarily a bad thing, but [depending] on the school, it can be costly to make up credits after switching too late in the game. At Boston College, for example, you would have to complete an extra year were you to switch to the nursing school from another [department]. Taking a gap year to figure things out initially can help prevent stress and save money later on.\n>\n> 开始精读：\n>\n> If you’re not convinced of the inherent value in taking a year off to explore interests, / then consider its financial impact on future academic choices. [According] to the National Center for Education Statistics, / nearly 80 percent of college students end up changing their majors at least once. / This isn’t surprising, / considering the basic mandatory high school [curriculum] leaves students with a poor [understanding] of the vast academic [possibilities] / that await them in college. / Many students find themselves listing one major on their college [applications], / but switching to another / after taking college classes. / It’s not necessarily a bad thing, / but [depending] on the school, / it can be costly to make up credits / after switching too late in the game. / At Boston College, / for example, / you would have to complete an extra year were you to switch to the nursing school from another [department]. / Taking a gap year to figure things out initially can help prevent stress and save money later on.\n>\n> 逐意群顺译：\n>\n> 如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。这并不奇怪，因为基本的高中必修课程让学生对大学里等待着他们的巨大学术可能性知之甚少。许多学生发现自己在大学申请中列出了一个专业，但在上完大学课程后却转向了另一个专业。这不一定是坏事，但根据学校的不同，在游戏中转得太晚后弥补学分的成本可能会很高。例如，在波士顿学院，如果您从其他院系转到护理学院，则必须额外完成一年的学习。最初利用间隔年来解决问题可以帮助防止压力并在以后节省金钱。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>33题</h2>\n<p><strong>The word “acclimation” (Last line, Paragraph 3) is closest in meaning to ______.</strong></p>\n<blockquote><p>“适应”一词（最后一行，第 3 段）的含义与 ______ 最接近。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices. <span class=\"mask\">[According]</span> to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once. This isn’t surprising, considering the basic mandatory high school <span class=\"mask\">[curriculum]</span> leaves students with a poor <span class=\"mask\">[understanding]</span> of the vast academic <span class=\"mask\">[possibilities]</span> that await them in college. Many students find themselves listing one major on their college <span class=\"mask\">[applications]</span>, but switching to another after taking college classes. It’s not necessarily a bad thing, but <span class=\"mask\">[depending]</span> on the school, it can be costly to make up credits after switching too late in the game. At Boston College, for example, you would have to complete an extra year were you to switch to the nursing school from another <span class=\"mask\">[department]</span>. Taking a gap year to figure things out initially can help prevent stress and save money later on.</p>\n<p><strong>开始精读：</strong></p>\n<p>If you’re not convinced of the inherent value in taking a year off to explore interests, / then consider its financial impact on future academic choices. <span class=\"mask\">[According]</span> to the National Center for Education Statistics, / nearly 80 percent of college students end up changing their majors at least once. / This isn’t surprising, / considering the basic mandatory high school <span class=\"mask\">[curriculum]</span> leaves students with a poor <span class=\"mask\">[understanding]</span> of the vast academic <span class=\"mask\">[possibilities]</span> / that await them in college. / Many students find themselves listing one major on their college <span class=\"mask\">[applications]</span>, / but switching to another / after taking college classes. / It’s not necessarily a bad thing, / but <span class=\"mask\">[depending]</span> on the school, / it can be costly to make up credits / after switching too late in the game. / At Boston College, / for example, / you would have to complete an extra year were you to switch to the nursing school from another <span class=\"mask\">[department]</span>. / Taking a gap year to figure things out initially can help prevent stress and save money later on.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。这并不奇怪，因为基本的高中必修课程让学生对大学里等待着他们的巨大学术可能性知之甚少。许多学生发现自己在大学申请中列出了一个专业，但在上完大学课程后却转向了另一个专业。这不一定是坏事，但根据学校的不同，在游戏中转得太晚后弥补学分的成本可能会很高。例如，在波士顿学院，如果您从其他院系转到护理学院，则必须额外完成一年的学习。最初利用间隔年来解决问题可以帮助防止压力并在以后节省金钱。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 33题\n\n**The word “acclimation” (Last line, Paragraph 3) is closest in meaning to ______.**\n\n> “适应”一词（最后一行，第 3 段）的含义与 ______ 最接近。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices. According to the National Center for Education [Statistics], nearly 80 percent of college students end up changing their majors at least once. This isn’t [surprising], considering the basic mandatory high school curriculum leaves students with a poor [understanding] of the vast academic [possibilities] that await them in college. Many students find themselves listing one major on their college [applications], but switching to another after taking college classes. It’s not [necessarily] a bad thing, but [depending] on the school, it can be costly to make up credits after switching too late in the game. At Boston College, for example, you would have to complete an extra year were you to switch to the nursing school from another department. Taking a gap year to figure things out initially can help prevent stress and save money later on.\n>\n> 开始精读：\n>\n> If you’re not convinced of the inherent value in taking a year off to explore interests, / then consider its financial impact on future academic choices. / According to the National Center for Education [Statistics], / nearly 80 percent of college students end up changing their majors at least once. / This isn’t [surprising], / considering the basic mandatory high school curriculum leaves students with a poor [understanding] of the vast academic [possibilities] / that await them in college. / Many students find themselves listing one major on their college [applications], / but switching to another / after taking college classes. / It’s not [necessarily] a bad thing, / but [depending] on the school, / it can be costly to make up credits / after switching too late in the game. / At Boston College, / for example, / you would have to complete an extra year were you to switch to the nursing school from another department. / Taking a gap year to figure things out initially can help prevent stress and save money later on.\n>\n> 逐意群顺译：\n>\n> 如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。这并不奇怪，因为基本的高中必修课程让学生对大学里等待着他们的巨大学术可能性知之甚少。许多学生发现自己在大学申请中列出了一个专业，但在上完大学课程后却转向了另一个专业。这不一定是坏事，但根据学校的不同，在游戏中转得太晚后弥补学分的成本可能会很高。例如，在波士顿学院，如果您从其他院系转到护理学院，则必须额外完成一年的学习。最初利用间隔年来解决问题可以帮助防止压力并在以后节省金钱。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>33题</h2>\n<p><strong>The word “acclimation” (Last line, Paragraph 3) is closest in meaning to ______.</strong></p>\n<blockquote><p>“适应”一词（最后一行，第 3 段）的含义与 ______ 最接近。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices. According to the National Center for Education <span class=\"mask\">[Statistics]</span>, nearly 80 percent of college students end up changing their majors at least once. This isn’t <span class=\"mask\">[surprising]</span>, considering the basic mandatory high school curriculum leaves students with a poor <span class=\"mask\">[understanding]</span> of the vast academic <span class=\"mask\">[possibilities]</span> that await them in college. Many students find themselves listing one major on their college <span class=\"mask\">[applications]</span>, but switching to another after taking college classes. It’s not <span class=\"mask\">[necessarily]</span> a bad thing, but <span class=\"mask\">[depending]</span> on the school, it can be costly to make up credits after switching too late in the game. At Boston College, for example, you would have to complete an extra year were you to switch to the nursing school from another department. Taking a gap year to figure things out initially can help prevent stress and save money later on.</p>\n<p><strong>开始精读：</strong></p>\n<p>If you’re not convinced of the inherent value in taking a year off to explore interests, / then consider its financial impact on future academic choices. / According to the National Center for Education <span class=\"mask\">[Statistics]</span>, / nearly 80 percent of college students end up changing their majors at least once. / This isn’t <span class=\"mask\">[surprising]</span>, / considering the basic mandatory high school curriculum leaves students with a poor <span class=\"mask\">[understanding]</span> of the vast academic <span class=\"mask\">[possibilities]</span> / that await them in college. / Many students find themselves listing one major on their college <span class=\"mask\">[applications]</span>, / but switching to another / after taking college classes. / It’s not <span class=\"mask\">[necessarily]</span> a bad thing, / but <span class=\"mask\">[depending]</span> on the school, / it can be costly to make up credits / after switching too late in the game. / At Boston College, / for example, / you would have to complete an extra year were you to switch to the nursing school from another department. / Taking a gap year to figure things out initially can help prevent stress and save money later on.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。这并不奇怪，因为基本的高中必修课程让学生对大学里等待着他们的巨大学术可能性知之甚少。许多学生发现自己在大学申请中列出了一个专业，但在上完大学课程后却转向了另一个专业。这不一定是坏事，但根据学校的不同，在游戏中转得太晚后弥补学分的成本可能会很高。例如，在波士顿学院，如果您从其他院系转到护理学院，则必须额外完成一年的学习。最初利用间隔年来解决问题可以帮助防止压力并在以后节省金钱。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "33"
@@ -3661,8 +5131,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "33题",
-          "raw": "### A. motivation\n\n> 动机\n\n我们先看 A 选项：`motivation`（动机）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：“适应”一词（最后一行，第 3 段）的含义与 “动机” 最接近。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“动机”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
-          "html": "<h3>A. motivation</h3>\n<blockquote><p>动机</p></blockquote>\n<p>我们先看 A 选项：<code>motivation</code>（动机）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：“适应”一词（最后一行，第 3 段）的含义与 “动机” 最接近。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“动机”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "raw": "### A. motivation\n\n> 动机\n\n我们先看 A 选项：`motivation`（动机）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：“适应”一词（最后一行，第 3 段）的含义与 “动机” 最接近。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“动机”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. motivation</h3>\n<blockquote><p>动机</p></blockquote>\n<p>我们先看 A 选项：<code>motivation</code>（动机）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：“适应”一词（最后一行，第 3 段）的含义与 “动机” 最接近。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“动机”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "33",
@@ -3681,8 +5151,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "33题",
-          "raw": "### C. competition\n\n> 竞赛\n\n我们先看 C 选项：`competition`（竞赛）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：“适应”一词（最后一行，第 3 段）的含义与 “竞赛” 最接近。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“竞赛”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
-          "html": "<h3>C. competition</h3>\n<blockquote><p>竞赛</p></blockquote>\n<p>我们先看 C 选项：<code>competition</code>（竞赛）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：“适应”一词（最后一行，第 3 段）的含义与 “竞赛” 最接近。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“竞赛”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "raw": "### C. competition\n\n> 竞赛\n\n我们先看 C 选项：`competition`（竞赛）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：“适应”一词（最后一行，第 3 段）的含义与 “竞赛” 最接近。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“竞赛”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. competition</h3>\n<blockquote><p>竞赛</p></blockquote>\n<p>我们先看 C 选项：<code>competition</code>（竞赛）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：“适应”一词（最后一行，第 3 段）的含义与 “竞赛” 最接近。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“竞赛”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "33",
@@ -3710,8 +5180,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "34题",
-          "raw": "## 34题\n\n**A gap year may save money for students by helping them ______.**\n\n> 间隔年可以通过帮助学生______来为他们省钱。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices. [According] to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once. This isn’t surprising, considering the basic mandatory high school [curriculum] leaves students with a poor [understanding] of the vast academic [possibilities] that await them in college. Many students find themselves listing one major on their college [applications], but switching to another after taking college classes. It’s not necessarily a bad thing, but [depending] on the school, it can be costly to make up credits after switching too late in the game. At Boston College, for example, you would have to complete an extra year were you to switch to the nursing school from another [department]. Taking a gap year to figure things out initially can help prevent stress and save money later on.\n>\n> 开始精读：\n>\n> If you’re not convinced of the inherent value in taking a year off to explore interests, / then consider its financial impact on future academic choices. [According] to the National Center for Education Statistics, / nearly 80 percent of college students end up changing their majors at least once. / This isn’t surprising, / considering the basic mandatory high school [curriculum] leaves students with a poor [understanding] of the vast academic [possibilities] / that await them in college. / Many students find themselves listing one major on their college [applications], / but switching to another / after taking college classes. / It’s not necessarily a bad thing, / but [depending] on the school, / it can be costly to make up credits / after switching too late in the game. / At Boston College, / for example, / you would have to complete an extra year were you to switch to the nursing school from another [department]. / Taking a gap year to figure things out initially can help prevent stress and save money later on.\n>\n> 逐意群顺译：\n>\n> 如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。这并不奇怪，因为基本的高中必修课程让学生对大学里等待着他们的巨大学术可能性知之甚少。许多学生发现自己在大学申请中列出了一个专业，但在上完大学课程后却转向了另一个专业。这不一定是坏事，但根据学校的不同，在游戏中转得太晚后弥补学分的成本可能会很高。例如，在波士顿学院，如果您从其他院系转到护理学院，则必须额外完成一年的学习。最初利用间隔年来解决问题可以帮助防止压力并在以后节省金钱。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>34题</h2>\n<p><strong>A gap year may save money for students by helping them ______.</strong></p>\n<blockquote><p>间隔年可以通过帮助学生______来为他们省钱。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices. <span class=\"mask\">[According]</span> to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once. This isn’t surprising, considering the basic mandatory high school <span class=\"mask\">[curriculum]</span> leaves students with a poor <span class=\"mask\">[understanding]</span> of the vast academic <span class=\"mask\">[possibilities]</span> that await them in college. Many students find themselves listing one major on their college <span class=\"mask\">[applications]</span>, but switching to another after taking college classes. It’s not necessarily a bad thing, but <span class=\"mask\">[depending]</span> on the school, it can be costly to make up credits after switching too late in the game. At Boston College, for example, you would have to complete an extra year were you to switch to the nursing school from another <span class=\"mask\">[department]</span>. Taking a gap year to figure things out initially can help prevent stress and save money later on.</p>\n<p><strong>开始精读：</strong></p>\n<p>If you’re not convinced of the inherent value in taking a year off to explore interests, / then consider its financial impact on future academic choices. <span class=\"mask\">[According]</span> to the National Center for Education Statistics, / nearly 80 percent of college students end up changing their majors at least once. / This isn’t surprising, / considering the basic mandatory high school <span class=\"mask\">[curriculum]</span> leaves students with a poor <span class=\"mask\">[understanding]</span> of the vast academic <span class=\"mask\">[possibilities]</span> / that await them in college. / Many students find themselves listing one major on their college <span class=\"mask\">[applications]</span>, / but switching to another / after taking college classes. / It’s not necessarily a bad thing, / but <span class=\"mask\">[depending]</span> on the school, / it can be costly to make up credits / after switching too late in the game. / At Boston College, / for example, / you would have to complete an extra year were you to switch to the nursing school from another <span class=\"mask\">[department]</span>. / Taking a gap year to figure things out initially can help prevent stress and save money later on.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。这并不奇怪，因为基本的高中必修课程让学生对大学里等待着他们的巨大学术可能性知之甚少。许多学生发现自己在大学申请中列出了一个专业，但在上完大学课程后却转向了另一个专业。这不一定是坏事，但根据学校的不同，在游戏中转得太晚后弥补学分的成本可能会很高。例如，在波士顿学院，如果您从其他院系转到护理学院，则必须额外完成一年的学习。最初利用间隔年来解决问题可以帮助防止压力并在以后节省金钱。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 34题\n\n**A gap year may save money for students by helping them ______.**\n\n> 间隔年可以通过帮助学生______来为他们省钱。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices. According to the National Center for Education [Statistics], nearly 80 percent of college students end up changing their majors at least once. This isn’t [surprising], considering the basic mandatory high school curriculum leaves students with a poor [understanding] of the vast academic [possibilities] that await them in college. Many students find themselves listing one major on their college [applications], but switching to another after taking college classes. It’s not [necessarily] a bad thing, but [depending] on the school, it can be costly to make up credits after switching too late in the game. At Boston College, for example, you would have to complete an extra year were you to switch to the nursing school from another department. Taking a gap year to figure things out initially can help prevent stress and save money later on.\n>\n> 开始精读：\n>\n> If you’re not convinced of the inherent value in taking a year off to explore interests, / then consider its financial impact on future academic choices. / According to the National Center for Education [Statistics], / nearly 80 percent of college students end up changing their majors at least once. / This isn’t [surprising], / considering the basic mandatory high school curriculum leaves students with a poor [understanding] of the vast academic [possibilities] / that await them in college. / Many students find themselves listing one major on their college [applications], / but switching to another / after taking college classes. / It’s not [necessarily] a bad thing, / but [depending] on the school, / it can be costly to make up credits / after switching too late in the game. / At Boston College, / for example, / you would have to complete an extra year were you to switch to the nursing school from another department. / Taking a gap year to figure things out initially can help prevent stress and save money later on.\n>\n> 逐意群顺译：\n>\n> 如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。这并不奇怪，因为基本的高中必修课程让学生对大学里等待着他们的巨大学术可能性知之甚少。许多学生发现自己在大学申请中列出了一个专业，但在上完大学课程后却转向了另一个专业。这不一定是坏事，但根据学校的不同，在游戏中转得太晚后弥补学分的成本可能会很高。例如，在波士顿学院，如果您从其他院系转到护理学院，则必须额外完成一年的学习。最初利用间隔年来解决问题可以帮助防止压力并在以后节省金钱。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>34题</h2>\n<p><strong>A gap year may save money for students by helping them ______.</strong></p>\n<blockquote><p>间隔年可以通过帮助学生______来为他们省钱。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices. According to the National Center for Education <span class=\"mask\">[Statistics]</span>, nearly 80 percent of college students end up changing their majors at least once. This isn’t <span class=\"mask\">[surprising]</span>, considering the basic mandatory high school curriculum leaves students with a poor <span class=\"mask\">[understanding]</span> of the vast academic <span class=\"mask\">[possibilities]</span> that await them in college. Many students find themselves listing one major on their college <span class=\"mask\">[applications]</span>, but switching to another after taking college classes. It’s not <span class=\"mask\">[necessarily]</span> a bad thing, but <span class=\"mask\">[depending]</span> on the school, it can be costly to make up credits after switching too late in the game. At Boston College, for example, you would have to complete an extra year were you to switch to the nursing school from another department. Taking a gap year to figure things out initially can help prevent stress and save money later on.</p>\n<p><strong>开始精读：</strong></p>\n<p>If you’re not convinced of the inherent value in taking a year off to explore interests, / then consider its financial impact on future academic choices. / According to the National Center for Education <span class=\"mask\">[Statistics]</span>, / nearly 80 percent of college students end up changing their majors at least once. / This isn’t <span class=\"mask\">[surprising]</span>, / considering the basic mandatory high school curriculum leaves students with a poor <span class=\"mask\">[understanding]</span> of the vast academic <span class=\"mask\">[possibilities]</span> / that await them in college. / Many students find themselves listing one major on their college <span class=\"mask\">[applications]</span>, / but switching to another / after taking college classes. / It’s not <span class=\"mask\">[necessarily]</span> a bad thing, / but <span class=\"mask\">[depending]</span> on the school, / it can be costly to make up credits / after switching too late in the game. / At Boston College, / for example, / you would have to complete an extra year were you to switch to the nursing school from another department. / Taking a gap year to figure things out initially can help prevent stress and save money later on.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。这并不奇怪，因为基本的高中必修课程让学生对大学里等待着他们的巨大学术可能性知之甚少。许多学生发现自己在大学申请中列出了一个专业，但在上完大学课程后却转向了另一个专业。这不一定是坏事，但根据学校的不同，在游戏中转得太晚后弥补学分的成本可能会很高。例如，在波士顿学院，如果您从其他院系转到护理学院，则必须额外完成一年的学习。最初利用间隔年来解决问题可以帮助防止压力并在以后节省金钱。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "34"
@@ -3749,8 +5219,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "34题",
-          "raw": "### D. establish long-term goals\n\n> 制定长期目标\n\n我们先看 D 选项：`establish long-term goals`（制定长期目标）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：间隔年可以通过帮助学生“制定长期目标”来为他们省钱。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `establish`, `long`, `term` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. establish long-term goals</h3>\n<blockquote><p>制定长期目标</p></blockquote>\n<p>我们先看 D 选项：<code>establish long-term goals</code>（制定长期目标）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：间隔年可以通过帮助学生“制定长期目标”来为他们省钱。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>establish</code>, <code>long</code>, <code>term</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. establish long-term goals\n\n> 制定长期目标\n\n我们先看 D 选项：`establish long-term goals`（制定长期目标）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：间隔年可以通过帮助学生“制定长期目标”来为他们省钱。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“制定长期目标”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. establish long-term goals</h3>\n<blockquote><p>制定长期目标</p></blockquote>\n<p>我们先看 D 选项：<code>establish long-term goals</code>（制定长期目标）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：间隔年可以通过帮助学生“制定长期目标”来为他们省钱。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“制定长期目标”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "34",
@@ -3768,8 +5238,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "35题",
-          "raw": "## 35题\n\n**The most suitable title for this text would be ______.**\n\n> 这篇文章最合适的标题是______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices. [According] to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once. This isn’t surprising, considering the basic mandatory high school [curriculum] leaves students with a poor [understanding] of the vast academic [possibilities] that await them in college. Many students find themselves listing one major on their college [applications], but switching to another after taking college classes. It’s not necessarily a bad thing, but [depending] on the school, it can be costly to make up credits after switching too late in the game. At Boston College, for example, you would have to complete an extra year were you to switch to the nursing school from another [department]. Taking a gap year to figure things out initially can help prevent stress and save money later on.\n>\n> 开始精读：\n>\n> If you’re not convinced of the inherent value in taking a year off to explore interests, / then consider its financial impact on future academic choices. [According] to the National Center for Education Statistics, / nearly 80 percent of college students end up changing their majors at least once. / This isn’t surprising, / considering the basic mandatory high school [curriculum] leaves students with a poor [understanding] of the vast academic [possibilities] / that await them in college. / Many students find themselves listing one major on their college [applications], / but switching to another / after taking college classes. / It’s not necessarily a bad thing, / but [depending] on the school, / it can be costly to make up credits / after switching too late in the game. / At Boston College, / for example, / you would have to complete an extra year were you to switch to the nursing school from another [department]. / Taking a gap year to figure things out initially can help prevent stress and save money later on.\n>\n> 逐意群顺译：\n>\n> 如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。这并不奇怪，因为基本的高中必修课程让学生对大学里等待着他们的巨大学术可能性知之甚少。许多学生发现自己在大学申请中列出了一个专业，但在上完大学课程后却转向了另一个专业。这不一定是坏事，但根据学校的不同，在游戏中转得太晚后弥补学分的成本可能会很高。例如，在波士顿学院，如果您从其他院系转到护理学院，则必须额外完成一年的学习。最初利用间隔年来解决问题可以帮助防止压力并在以后节省金钱。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>35题</h2>\n<p><strong>The most suitable title for this text would be ______.</strong></p>\n<blockquote><p>这篇文章最合适的标题是______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices. <span class=\"mask\">[According]</span> to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once. This isn’t surprising, considering the basic mandatory high school <span class=\"mask\">[curriculum]</span> leaves students with a poor <span class=\"mask\">[understanding]</span> of the vast academic <span class=\"mask\">[possibilities]</span> that await them in college. Many students find themselves listing one major on their college <span class=\"mask\">[applications]</span>, but switching to another after taking college classes. It’s not necessarily a bad thing, but <span class=\"mask\">[depending]</span> on the school, it can be costly to make up credits after switching too late in the game. At Boston College, for example, you would have to complete an extra year were you to switch to the nursing school from another <span class=\"mask\">[department]</span>. Taking a gap year to figure things out initially can help prevent stress and save money later on.</p>\n<p><strong>开始精读：</strong></p>\n<p>If you’re not convinced of the inherent value in taking a year off to explore interests, / then consider its financial impact on future academic choices. <span class=\"mask\">[According]</span> to the National Center for Education Statistics, / nearly 80 percent of college students end up changing their majors at least once. / This isn’t surprising, / considering the basic mandatory high school <span class=\"mask\">[curriculum]</span> leaves students with a poor <span class=\"mask\">[understanding]</span> of the vast academic <span class=\"mask\">[possibilities]</span> / that await them in college. / Many students find themselves listing one major on their college <span class=\"mask\">[applications]</span>, / but switching to another / after taking college classes. / It’s not necessarily a bad thing, / but <span class=\"mask\">[depending]</span> on the school, / it can be costly to make up credits / after switching too late in the game. / At Boston College, / for example, / you would have to complete an extra year were you to switch to the nursing school from another <span class=\"mask\">[department]</span>. / Taking a gap year to figure things out initially can help prevent stress and save money later on.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。这并不奇怪，因为基本的高中必修课程让学生对大学里等待着他们的巨大学术可能性知之甚少。许多学生发现自己在大学申请中列出了一个专业，但在上完大学课程后却转向了另一个专业。这不一定是坏事，但根据学校的不同，在游戏中转得太晚后弥补学分的成本可能会很高。例如，在波士顿学院，如果您从其他院系转到护理学院，则必须额外完成一年的学习。最初利用间隔年来解决问题可以帮助防止压力并在以后节省金钱。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 35题\n\n**The most suitable title for this text would be ______.**\n\n> 这篇文章最合适的标题是______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 3 段展开，所以我们直接回第 3 段定位精读。\n\n> 原文参考：\n>\n> If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices. According to the National Center for Education [Statistics], nearly 80 percent of college students end up changing their majors at least once. This isn’t [surprising], considering the basic mandatory high school curriculum leaves students with a poor [understanding] of the vast academic [possibilities] that await them in college. Many students find themselves listing one major on their college [applications], but switching to another after taking college classes. It’s not [necessarily] a bad thing, but [depending] on the school, it can be costly to make up credits after switching too late in the game. At Boston College, for example, you would have to complete an extra year were you to switch to the nursing school from another department. Taking a gap year to figure things out initially can help prevent stress and save money later on.\n>\n> 开始精读：\n>\n> If you’re not convinced of the inherent value in taking a year off to explore interests, / then consider its financial impact on future academic choices. / According to the National Center for Education [Statistics], / nearly 80 percent of college students end up changing their majors at least once. / This isn’t [surprising], / considering the basic mandatory high school curriculum leaves students with a poor [understanding] of the vast academic [possibilities] / that await them in college. / Many students find themselves listing one major on their college [applications], / but switching to another / after taking college classes. / It’s not [necessarily] a bad thing, / but [depending] on the school, / it can be costly to make up credits / after switching too late in the game. / At Boston College, / for example, / you would have to complete an extra year were you to switch to the nursing school from another department. / Taking a gap year to figure things out initially can help prevent stress and save money later on.\n>\n> 逐意群顺译：\n>\n> 如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。这并不奇怪，因为基本的高中必修课程让学生对大学里等待着他们的巨大学术可能性知之甚少。许多学生发现自己在大学申请中列出了一个专业，但在上完大学课程后却转向了另一个专业。这不一定是坏事，但根据学校的不同，在游戏中转得太晚后弥补学分的成本可能会很高。例如，在波士顿学院，如果您从其他院系转到护理学院，则必须额外完成一年的学习。最初利用间隔年来解决问题可以帮助防止压力并在以后节省金钱。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>35题</h2>\n<p><strong>The most suitable title for this text would be ______.</strong></p>\n<blockquote><p>这篇文章最合适的标题是______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>3</strong> 段展开，所以我们直接回第 <strong>3</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices. According to the National Center for Education <span class=\"mask\">[Statistics]</span>, nearly 80 percent of college students end up changing their majors at least once. This isn’t <span class=\"mask\">[surprising]</span>, considering the basic mandatory high school curriculum leaves students with a poor <span class=\"mask\">[understanding]</span> of the vast academic <span class=\"mask\">[possibilities]</span> that await them in college. Many students find themselves listing one major on their college <span class=\"mask\">[applications]</span>, but switching to another after taking college classes. It’s not <span class=\"mask\">[necessarily]</span> a bad thing, but <span class=\"mask\">[depending]</span> on the school, it can be costly to make up credits after switching too late in the game. At Boston College, for example, you would have to complete an extra year were you to switch to the nursing school from another department. Taking a gap year to figure things out initially can help prevent stress and save money later on.</p>\n<p><strong>开始精读：</strong></p>\n<p>If you’re not convinced of the inherent value in taking a year off to explore interests, / then consider its financial impact on future academic choices. / According to the National Center for Education <span class=\"mask\">[Statistics]</span>, / nearly 80 percent of college students end up changing their majors at least once. / This isn’t <span class=\"mask\">[surprising]</span>, / considering the basic mandatory high school curriculum leaves students with a poor <span class=\"mask\">[understanding]</span> of the vast academic <span class=\"mask\">[possibilities]</span> / that await them in college. / Many students find themselves listing one major on their college <span class=\"mask\">[applications]</span>, / but switching to another / after taking college classes. / It’s not <span class=\"mask\">[necessarily]</span> a bad thing, / but <span class=\"mask\">[depending]</span> on the school, / it can be costly to make up credits / after switching too late in the game. / At Boston College, / for example, / you would have to complete an extra year were you to switch to the nursing school from another department. / Taking a gap year to figure things out initially can help prevent stress and save money later on.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。这并不奇怪，因为基本的高中必修课程让学生对大学里等待着他们的巨大学术可能性知之甚少。许多学生发现自己在大学申请中列出了一个专业，但在上完大学课程后却转向了另一个专业。这不一定是坏事，但根据学校的不同，在游戏中转得太晚后弥补学分的成本可能会很高。例如，在波士顿学院，如果您从其他院系转到护理学院，则必须额外完成一年的学习。最初利用间隔年来解决问题可以帮助防止压力并在以后节省金钱。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 3 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "35"
@@ -3787,8 +5257,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "35题",
-          "raw": "### B. The ABCs of the Gap Year\n\n> 间隔年的基本知识\n\n我们先看 B 选项：`The ABCs of the Gap Year`（间隔年的基本知识）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：这篇文章最合适的标题是“间隔年的基本知识”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `ABCs`, `Gap`, `Year` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. The ABCs of the Gap Year</h3>\n<blockquote><p>间隔年的基本知识</p></blockquote>\n<p>我们先看 B 选项：<code>The ABCs of the Gap Year</code>（间隔年的基本知识）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：这篇文章最合适的标题是“间隔年的基本知识”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>ABCs</code>, <code>Gap</code>, <code>Year</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. The ABCs of the Gap Year\n\n> 间隔年的基本知识\n\n我们先看 B 选项：`The ABCs of the Gap Year`（间隔年的基本知识）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：这篇文章最合适的标题是“间隔年的基本知识”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“间隔年的基本知识”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. The ABCs of the Gap Year</h3>\n<blockquote><p>间隔年的基本知识</p></blockquote>\n<p>我们先看 B 选项：<code>The ABCs of the Gap Year</code>（间隔年的基本知识）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：这篇文章最合适的标题是“间隔年的基本知识”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“间隔年的基本知识”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "35",
@@ -3797,8 +5267,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "35题",
-          "raw": "### C. The Gap Year Comes Back\n\n> 间隔年又回来了\n\n我们先看 C 选项：`The Gap Year Comes Back`（间隔年又回来了）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：这篇文章最合适的标题是“间隔年又回来了”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“间隔年又回来了”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
-          "html": "<h3>C. The Gap Year Comes Back</h3>\n<blockquote><p>间隔年又回来了</p></blockquote>\n<p>我们先看 C 选项：<code>The Gap Year Comes Back</code>（间隔年又回来了）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：这篇文章最合适的标题是“间隔年又回来了”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“间隔年又回来了”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "raw": "### C. The Gap Year Comes Back\n\n> 间隔年又回来了\n\n我们先看 C 选项：`The Gap Year Comes Back`（间隔年又回来了）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：这篇文章最合适的标题是“间隔年又回来了”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“间隔年又回来了”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. The Gap Year Comes Back</h3>\n<blockquote><p>间隔年又回来了</p></blockquote>\n<p>我们先看 C 选项：<code>The Gap Year Comes Back</code>（间隔年又回来了）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：这篇文章最合适的标题是“间隔年又回来了”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“间隔年又回来了”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "35",
@@ -3807,8 +5277,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "35题",
-          "raw": "### D. The Gap Year: A Dilemma\n\n> 间隔年：一个困境\n\n我们先看 D 选项：`The Gap Year: A Dilemma`（间隔年：一个困境）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：这篇文章最合适的标题是“间隔年：一个困境”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“间隔年：一个困境”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. The Gap Year: A Dilemma</h3>\n<blockquote><p>间隔年：一个困境</p></blockquote>\n<p>我们先看 D 选项：<code>The Gap Year: A Dilemma</code>（间隔年：一个困境）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：这篇文章最合适的标题是“间隔年：一个困境”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“间隔年：一个困境”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. The Gap Year: A Dilemma\n\n> 间隔年：一个困境\n\n我们先看 D 选项：`The Gap Year: A Dilemma`（间隔年：一个困境）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：这篇文章最合适的标题是“间隔年：一个困境”。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `Gap`, `Year`, `Dilemma` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. The Gap Year: A Dilemma</h3>\n<blockquote><p>间隔年：一个困境</p></blockquote>\n<p>我们先看 D 选项：<code>The Gap Year: A Dilemma</code>（间隔年：一个困境）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：这篇文章最合适的标题是“间隔年：一个困境”。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>Gap</code>, <code>Year</code>, <code>Dilemma</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "35",
@@ -4253,7 +5723,7 @@ window.KAOYAN_DATA_2017 = {
         {
           "section": 3,
           "title": "3.一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
-          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，正确项如何进行同义改写，错误项如何设置陷阱；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
+          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，对的是如何对文章进行同义改写的，错的做题时为什么容易被文章中的对应表达骗，命题人是怎么想的；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
           "meta": {
             "section": 3
           }
@@ -4261,246 +5731,981 @@ window.KAOYAN_DATA_2017 = {
         {
           "section": 3,
           "title": "31题 · 题干、题型与核心出处",
-          "html": "<p><strong>31. One of the reasons for high-school graduates not taking a gap year is that ______.</strong></p>\n<p>（高中毕业生不参加间隔年的原因之一是______。）</p>\n<p><strong>题型判定</strong>：事实细节题 ｜ <strong>定位出处</strong>：Paragraph 1</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>One of the reasons for high-school graduates not taking a gap year is that ______.<br />高中毕业生不参加间隔年的原因之一是______。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>事实细节题</strong>，考查考生对第 <strong>1</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 1 段核心定位句）</h3>\n<blockquote>\n<p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.<br />如今，立即上大学的普遍社会压力，加上瞬息万变的世界中越来越高的期望，往往导致学生完全忽视休学一年的可能性。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 1 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "31"
+            "qid": "31",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. they think it academically misleading",
-          "html": "<p><strong>选项 A</strong>：<code>they think it academically misleading</code></p>\n<p><strong>中文翻译</strong>：他们认为这在学术上具有误导性</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们认为这在学术上具有误导性</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "31",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. they think it academically misleading",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们认为这在学术上具有误导性</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>they</code>, <code>think</code>, <code>academically</code>（“他们认为这在学术上具有误导性”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.<br />如今，立即上大学的普遍社会压力，加上瞬息万变的世界中越来越高的期望，往往导致学生完全忽视休学一年的可能性。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. they think it academically misleading",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们认为这在学术上具有误导性</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>they</code>, <code>think</code>, <code>academically</code>（“他们认为这在学术上具有误导性”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.<br />如今，立即上大学的普遍社会压力，加上瞬息万变的世界中越来越高的期望，往往导致学生完全忽视休学一年的可能性。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn’t it?<br />毕竟，如果你认识的每个人都将在秋季上大学，那么留级一年似乎很愚蠢，不是吗？</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. they think it academically misleading",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们认为这在学术上具有误导性</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>they</code>, <code>think</code>, <code>academically</code>（“他们认为这在学术上具有误导性”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.<br />如今，立即上大学的普遍社会压力，加上瞬息万变的世界中越来越高的期望，往往导致学生完全忽视休学一年的可能性。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn’t it?<br />毕竟，如果你认识的每个人都将在秋季上大学，那么留级一年似乎很愚蠢，不是吗？</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. they have a lot of fun to expect in college",
-          "html": "<p><strong>选项 B</strong>：<code>they have a lot of fun to expect in college</code></p>\n<p><strong>中文翻译</strong>：他们在大学里有很多乐趣</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们在大学里有很多乐趣</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "31",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. they have a lot of fun to expect in college",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们在大学里有很多乐趣</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>they</code>, <code>lot</code>, <code>fun</code>（“他们在大学里有很多乐趣”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.<br />如今，立即上大学的普遍社会压力，加上瞬息万变的世界中越来越高的期望，往往导致学生完全忽视休学一年的可能性。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. they have a lot of fun to expect in college",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们在大学里有很多乐趣</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>they</code>, <code>lot</code>, <code>fun</code>（“他们在大学里有很多乐趣”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.<br />如今，立即上大学的普遍社会压力，加上瞬息万变的世界中越来越高的期望，往往导致学生完全忽视休学一年的可能性。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn’t it?<br />毕竟，如果你认识的每个人都将在秋季上大学，那么留级一年似乎很愚蠢，不是吗？</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. they have a lot of fun to expect in college",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>他们在大学里有很多乐趣</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>they</code>, <code>lot</code>, <code>fun</code>（“他们在大学里有很多乐趣”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.<br />如今，立即上大学的普遍社会压力，加上瞬息万变的世界中越来越高的期望，往往导致学生完全忽视休学一年的可能性。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn’t it?<br />毕竟，如果你认识的每个人都将在秋季上大学，那么留级一年似乎很愚蠢，不是吗？</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. it feels strange to do differently from others",
-          "html": "<p><strong>选项 C</strong>：<code>it feels strange to do differently from others</code></p>\n<p><strong>中文翻译</strong>：与别人做不同的事情感觉很奇怪</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>与别人做不同的事情感觉很奇怪</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "31",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. it feels strange to do differently from others",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>与别人做不同的事情感觉很奇怪</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>feels</code>, <code>strange</code>, <code>differently</code>，其对应的中文含义为“<strong>与别人做不同的事情感觉很奇怪</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.<br />如今，立即上大学的普遍社会压力，加上瞬息万变的世界中越来越高的期望，往往导致学生完全忽视休学一年的可能性。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. it feels strange to do differently from others",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>与别人做不同的事情感觉很奇怪</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>feels</code>, <code>strange</code>, <code>differently</code>，其对应的中文含义为“<strong>与别人做不同的事情感觉很奇怪</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.<br />如今，立即上大学的普遍社会压力，加上瞬息万变的世界中越来越高的期望，往往导致学生完全忽视休学一年的可能性。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn’t it?<br />毕竟，如果你认识的每个人都将在秋季上大学，那么留级一年似乎很愚蠢，不是吗？</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 C 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. it feels strange to do differently from others",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>与别人做不同的事情感觉很奇怪</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>feels</code>, <code>strange</code>, <code>differently</code>，其对应的中文含义为“<strong>与别人做不同的事情感觉很奇怪</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.<br />如今，立即上大学的普遍社会压力，加上瞬息万变的世界中越来越高的期望，往往导致学生完全忽视休学一年的可能性。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn’t it?<br />毕竟，如果你认识的每个人都将在秋季上大学，那么留级一年似乎很愚蠢，不是吗？</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 C 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 C 选项（“与别人做不同的事情感觉很奇怪”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：C正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. it seems worthless to take off-campus courses",
-          "html": "<p><strong>选项 D</strong>：<code>it seems worthless to take off-campus courses</code></p>\n<p><strong>中文翻译</strong>：参加校外课程似乎毫无价值</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>参加校外课程似乎毫无价值</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "31",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. it seems worthless to take off-campus courses",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>参加校外课程似乎毫无价值</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>seems</code>, <code>worthless</code>, <code>take</code>（“参加校外课程似乎毫无价值”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.<br />如今，立即上大学的普遍社会压力，加上瞬息万变的世界中越来越高的期望，往往导致学生完全忽视休学一年的可能性。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. it seems worthless to take off-campus courses",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>参加校外课程似乎毫无价值</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>seems</code>, <code>worthless</code>, <code>take</code>（“参加校外课程似乎毫无价值”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.<br />如今，立即上大学的普遍社会压力，加上瞬息万变的世界中越来越高的期望，往往导致学生完全忽视休学一年的可能性。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn’t it?<br />毕竟，如果你认识的每个人都将在秋季上大学，那么留级一年似乎很愚蠢，不是吗？</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. it seems worthless to take off-campus courses",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>参加校外课程似乎毫无价值</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>seems</code>, <code>worthless</code>, <code>take</code>（“参加校外课程似乎毫无价值”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.<br />如今，立即上大学的普遍社会压力，加上瞬息万变的世界中越来越高的期望，往往导致学生完全忽视休学一年的可能性。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn’t it?<br />毕竟，如果你认识的每个人都将在秋季上大学，那么留级一年似乎很愚蠢，不是吗？</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "31题结论",
+          "html": "<blockquote>\n<p><strong>31. C. it feels strange to do differently from others</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>C</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "31",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "32题 · 题干、题型与核心出处",
-          "html": "<p><strong>32. Studies from the US and Australia imply that taking a gap year helps ______.</strong></p>\n<p>（美国和澳大利亚的研究表明，间隔年有助于______。）</p>\n<p><strong>题型判定</strong>：因果推断题 ｜ <strong>定位出处</strong>：Paragraph 2</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>Studies from the US and Australia imply that taking a gap year helps ______.<br />美国和澳大利亚的研究表明，间隔年有助于______。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>因果推断题</strong>，考查考生对第 <strong>2</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 2 段核心定位句）</h3>\n<blockquote>\n<p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.<br />美国和澳大利亚的研究表明，参加间隔年的学生通常比不参加间隔年的学生为大学做好了更好的准备，并且在大学中表现更好。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 2 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "32"
+            "qid": "32",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. relieve freshmen of pressures",
-          "html": "<p><strong>选项 A</strong>：<code>relieve freshmen of pressures</code></p>\n<p><strong>中文翻译</strong>：缓解新生压力</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>缓解新生压力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "32",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. relieve freshmen of pressures",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>缓解新生压力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>relieve</code>, <code>freshmen</code>, <code>pressures</code>，其对应的中文含义为“<strong>缓解新生压力</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.<br />美国和澳大利亚的研究表明，参加间隔年的学生通常比不参加间隔年的学生为大学做好了更好的准备，并且在大学中表现更好。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. relieve freshmen of pressures",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>缓解新生压力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>relieve</code>, <code>freshmen</code>, <code>pressures</code>，其对应的中文含义为“<strong>缓解新生压力</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.<br />美国和澳大利亚的研究表明，参加间隔年的学生通常比不参加间隔年的学生为大学做好了更好的准备，并且在大学中表现更好。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Rather than pulling students back, a gap year pushes them ahead by preparing them for independence, new responsibilities and environmental changes—all things that first-year students often struggle with the most.<br />间隔年不会让学生倒退，而是通过让他们为独立、新的责任和环境变化做好准备来推动他们前进——所有这些都是一年级学生经常最难应对的。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 A 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. relieve freshmen of pressures",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>缓解新生压力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>relieve</code>, <code>freshmen</code>, <code>pressures</code>，其对应的中文含义为“<strong>缓解新生压力</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.<br />美国和澳大利亚的研究表明，参加间隔年的学生通常比不参加间隔年的学生为大学做好了更好的准备，并且在大学中表现更好。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Rather than pulling students back, a gap year pushes them ahead by preparing them for independence, new responsibilities and environmental changes—all things that first-year students often struggle with the most.<br />间隔年不会让学生倒退，而是通过让他们为独立、新的责任和环境变化做好准备来推动他们前进——所有这些都是一年级学生经常最难应对的。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 A 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 A 选项（“缓解新生压力”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：A正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. lower risks in choosing careers",
-          "html": "<p><strong>选项 B</strong>：<code>lower risks in choosing careers</code></p>\n<p><strong>中文翻译</strong>：选择职业的风险较低</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>选择职业的风险较低</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "32",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. lower risks in choosing careers",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>选择职业的风险较低</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>lower</code>, <code>risks</code>, <code>choosing</code>（“选择职业的风险较低”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.<br />美国和澳大利亚的研究表明，参加间隔年的学生通常比不参加间隔年的学生为大学做好了更好的准备，并且在大学中表现更好。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. lower risks in choosing careers",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>选择职业的风险较低</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>lower</code>, <code>risks</code>, <code>choosing</code>（“选择职业的风险较低”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.<br />美国和澳大利亚的研究表明，参加间隔年的学生通常比不参加间隔年的学生为大学做好了更好的准备，并且在大学中表现更好。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Rather than pulling students back, a gap year pushes them ahead by preparing them for independence, new responsibilities and environmental changes—all things that first-year students often struggle with the most.<br />间隔年不会让学生倒退，而是通过让他们为独立、新的责任和环境变化做好准备来推动他们前进——所有这些都是一年级学生经常最难应对的。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. lower risks in choosing careers",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>选择职业的风险较低</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>lower</code>, <code>risks</code>, <code>choosing</code>（“选择职业的风险较低”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.<br />美国和澳大利亚的研究表明，参加间隔年的学生通常比不参加间隔年的学生为大学做好了更好的准备，并且在大学中表现更好。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Rather than pulling students back, a gap year pushes them ahead by preparing them for independence, new responsibilities and environmental changes—all things that first-year students often struggle with the most.<br />间隔年不会让学生倒退，而是通过让他们为独立、新的责任和环境变化做好准备来推动他们前进——所有这些都是一年级学生经常最难应对的。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. ease freshmen’s financial burdens",
-          "html": "<p><strong>选项 C</strong>：<code>ease freshmen’s financial burdens</code></p>\n<p><strong>中文翻译</strong>：减轻新生经济负担</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>减轻新生经济负担</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "32",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. ease freshmen’s financial burdens",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>减轻新生经济负担</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>ease</code>, <code>freshmen</code>, <code>financial</code>（“减轻新生经济负担”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.<br />美国和澳大利亚的研究表明，参加间隔年的学生通常比不参加间隔年的学生为大学做好了更好的准备，并且在大学中表现更好。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>ease</code>, <code>freshmen</code>, <code>financial</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. ease freshmen’s financial burdens",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>减轻新生经济负担</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>ease</code>, <code>freshmen</code>, <code>financial</code>（“减轻新生经济负担”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.<br />美国和澳大利亚的研究表明，参加间隔年的学生通常比不参加间隔年的学生为大学做好了更好的准备，并且在大学中表现更好。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>ease</code>, <code>freshmen</code>, <code>financial</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Rather than pulling students back, a gap year pushes them ahead by preparing them for independence, new responsibilities and environmental changes—all things that first-year students often struggle with the most.<br />间隔年不会让学生倒退，而是通过让他们为独立、新的责任和环境变化做好准备来推动他们前进——所有这些都是一年级学生经常最难应对的。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. ease freshmen’s financial burdens",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>减轻新生经济负担</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>ease</code>, <code>freshmen</code>, <code>financial</code>（“减轻新生经济负担”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.<br />美国和澳大利亚的研究表明，参加间隔年的学生通常比不参加间隔年的学生为大学做好了更好的准备，并且在大学中表现更好。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>ease</code>, <code>freshmen</code>, <code>financial</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Rather than pulling students back, a gap year pushes them ahead by preparing them for independence, new responsibilities and environmental changes—all things that first-year students often struggle with the most.<br />间隔年不会让学生倒退，而是通过让他们为独立、新的责任和环境变化做好准备来推动他们前进——所有这些都是一年级学生经常最难应对的。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. keep students from being unrealistic",
-          "html": "<p><strong>选项 D</strong>：<code>keep students from being unrealistic</code></p>\n<p><strong>中文翻译</strong>：防止学生不切实际</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>防止学生不切实际</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "32",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. keep students from being unrealistic",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>防止学生不切实际</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>keep</code>, <code>students</code>, <code>being</code>（“防止学生不切实际”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.<br />美国和澳大利亚的研究表明，参加间隔年的学生通常比不参加间隔年的学生为大学做好了更好的准备，并且在大学中表现更好。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. keep students from being unrealistic",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>防止学生不切实际</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>keep</code>, <code>students</code>, <code>being</code>（“防止学生不切实际”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.<br />美国和澳大利亚的研究表明，参加间隔年的学生通常比不参加间隔年的学生为大学做好了更好的准备，并且在大学中表现更好。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Rather than pulling students back, a gap year pushes them ahead by preparing them for independence, new responsibilities and environmental changes—all things that first-year students often struggle with the most.<br />间隔年不会让学生倒退，而是通过让他们为独立、新的责任和环境变化做好准备来推动他们前进——所有这些都是一年级学生经常最难应对的。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. keep students from being unrealistic",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>防止学生不切实际</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>keep</code>, <code>students</code>, <code>being</code>（“防止学生不切实际”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.<br />美国和澳大利亚的研究表明，参加间隔年的学生通常比不参加间隔年的学生为大学做好了更好的准备，并且在大学中表现更好。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>Rather than pulling students back, a gap year pushes them ahead by preparing them for independence, new responsibilities and environmental changes—all things that first-year students often struggle with the most.<br />间隔年不会让学生倒退，而是通过让他们为独立、新的责任和环境变化做好准备来推动他们前进——所有这些都是一年级学生经常最难应对的。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "32题结论",
+          "html": "<blockquote>\n<p><strong>32. A. relieve freshmen of pressures</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>ease</code>, <code>f...；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "32",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "33题 · 题干、题型与核心出处",
-          "html": "<p><strong>33. The word “acclimation” (Last line, Paragraph 3) is closest in meaning to ______.</strong></p>\n<p>（“适应”一词（最后一行，第 3 段）的含义与 ______ 最接近。）</p>\n<p><strong>题型判定</strong>：段落推理题 ｜ <strong>定位出处</strong>：Paragraph 3</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>The word “acclimation” (Last line, Paragraph 3) is closest in meaning to ______.<br />“适应”一词（最后一行，第 3 段）的含义与 ______ 最接近。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>段落推理题</strong>，考查考生对第 <strong>3</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 3 段核心定位句）</h3>\n<blockquote>\n<p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 3 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "33"
+            "qid": "33",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. motivation",
-          "html": "<p><strong>选项 A</strong>：<code>motivation</code></p>\n<p><strong>中文翻译</strong>：动机</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>动机</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "33",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. motivation",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>动机</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>motivation</code>（“动机”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. motivation",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>动机</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>motivation</code>（“动机”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. motivation",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>动机</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>motivation</code>（“动机”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. application",
-          "html": "<p><strong>选项 B</strong>：<code>application</code></p>\n<p><strong>中文翻译</strong>：应用</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>应用</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "33",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. application",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>应用</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>application</code>（“应用”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“应用”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. application",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>应用</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>application</code>（“应用”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“应用”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. application",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>应用</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>application</code>（“应用”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“应用”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. competition",
-          "html": "<p><strong>选项 C</strong>：<code>competition</code></p>\n<p><strong>中文翻译</strong>：竞赛</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>竞赛</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "33",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. competition",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>竞赛</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>competition</code>（“竞赛”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. competition",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>竞赛</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>competition</code>（“竞赛”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. competition",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>竞赛</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>competition</code>（“竞赛”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. adaptation",
-          "html": "<p><strong>选项 D</strong>：<code>adaptation</code></p>\n<p><strong>中文翻译</strong>：适应</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>适应</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "33",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. adaptation",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>适应</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>adaptation</code>，其对应的中文含义为“<strong>适应</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. adaptation",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>适应</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>adaptation</code>，其对应的中文含义为“<strong>适应</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 D 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. adaptation",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>适应</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>adaptation</code>，其对应的中文含义为“<strong>适应</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 D 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 D 选项（“适应”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：D正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "33题结论",
+          "html": "<blockquote>\n<p><strong>33. D. adaptation</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“应用”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，...；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>D</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "33",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "34题 · 题干、题型与核心出处",
-          "html": "<p><strong>34. A gap year may save money for students by helping them ______.</strong></p>\n<p>（间隔年可以通过帮助学生______来为他们省钱。）</p>\n<p><strong>题型判定</strong>：词义/例证题 ｜ <strong>定位出处</strong>：Paragraph 4</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>A gap year may save money for students by helping them ______.<br />间隔年可以通过帮助学生______来为他们省钱。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>词义/例证题</strong>，考查考生对第 <strong>3</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 3 段核心定位句）</h3>\n<blockquote>\n<p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 3 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "34"
+            "qid": "34",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. switch to another college",
-          "html": "<p><strong>选项 A</strong>：<code>switch to another college</code></p>\n<p><strong>中文翻译</strong>：转学到另一所大学</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>转学到另一所大学</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "34",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. switch to another college",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>转学到另一所大学</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>switch</code>, <code>another</code>, <code>college</code>（“转学到另一所大学”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. switch to another college",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>转学到另一所大学</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>switch</code>, <code>another</code>, <code>college</code>（“转学到另一所大学”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. switch to another college",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>转学到另一所大学</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>switch</code>, <code>another</code>, <code>college</code>（“转学到另一所大学”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. decide on the right major",
-          "html": "<p><strong>选项 B</strong>：<code>decide on the right major</code></p>\n<p><strong>中文翻译</strong>：决定正确的专业</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>决定正确的专业</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "34",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. decide on the right major",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>决定正确的专业</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>decide</code>, <code>right</code>, <code>major</code>，其对应的中文含义为“<strong>决定正确的专业</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. decide on the right major",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>决定正确的专业</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>decide</code>, <code>right</code>, <code>major</code>，其对应的中文含义为“<strong>决定正确的专业</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 B 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. decide on the right major",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>决定正确的专业</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>decide</code>, <code>right</code>, <code>major</code>，其对应的中文含义为“<strong>决定正确的专业</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 B 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 B 选项（“决定正确的专业”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：B正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. avoid academic failures",
-          "html": "<p><strong>选项 C</strong>：<code>avoid academic failures</code></p>\n<p><strong>中文翻译</strong>：避免学业失败</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>避免学业失败</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "34",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. avoid academic failures",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>避免学业失败</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>avoid</code>, <code>academic</code>, <code>failures</code>（“避免学业失败”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“避免学业失败”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. avoid academic failures",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>避免学业失败</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>avoid</code>, <code>academic</code>, <code>failures</code>（“避免学业失败”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“避免学业失败”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. avoid academic failures",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>避免学业失败</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>avoid</code>, <code>academic</code>, <code>failures</code>（“避免学业失败”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“避免学业失败”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. establish long-term goals",
-          "html": "<p><strong>选项 D</strong>：<code>establish long-term goals</code></p>\n<p><strong>中文翻译</strong>：制定长期目标</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>制定长期目标</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "34",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. establish long-term goals",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>制定长期目标</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>establish</code>, <code>long</code>, <code>term</code>（“制定长期目标”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. establish long-term goals",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>制定长期目标</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>establish</code>, <code>long</code>, <code>term</code>（“制定长期目标”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. establish long-term goals",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>制定长期目标</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>establish</code>, <code>long</code>, <code>term</code>（“制定长期目标”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "34题结论",
+          "html": "<blockquote>\n<p><strong>34. B. decide on the right major</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>B</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“避免学业失败”，但在原文定位句中，作者表达的态度或客观事实恰...；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "34",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "35题 · 题干、题型与核心出处",
-          "html": "<p><strong>35. The most suitable title for this text would be ______.</strong></p>\n<p>（这篇文章最合适的标题是______。）</p>\n<p><strong>题型判定</strong>：全文主旨题 ｜ <strong>定位出处</strong>：Paragraph 5</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>The most suitable title for this text would be ______.<br />这篇文章最合适的标题是______。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>全文主旨题</strong>，考查考生对第 <strong>3</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 3 段核心定位句）</h3>\n<blockquote>\n<p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 3 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "35"
+            "qid": "35",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. In Favor of the Gap Year",
-          "html": "<p><strong>选项 A</strong>：<code>In Favor of the Gap Year</code></p>\n<p><strong>中文翻译</strong>：支持间隔年</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>支持间隔年</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "35",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. In Favor of the Gap Year",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>支持间隔年</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>Favor</code>, <code>Gap</code>, <code>Year</code>，其对应的中文含义为“<strong>支持间隔年</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. In Favor of the Gap Year",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>支持间隔年</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>Favor</code>, <code>Gap</code>, <code>Year</code>，其对应的中文含义为“<strong>支持间隔年</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 A 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. In Favor of the Gap Year",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>支持间隔年</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>Favor</code>, <code>Gap</code>, <code>Year</code>，其对应的中文含义为“<strong>支持间隔年</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 A 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 A 选项（“支持间隔年”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：A正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. The ABCs of the Gap Year",
-          "html": "<p><strong>选项 B</strong>：<code>The ABCs of the Gap Year</code></p>\n<p><strong>中文翻译</strong>：间隔年的基本知识</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>间隔年的基本知识</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "35",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. The ABCs of the Gap Year",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>间隔年的基本知识</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>ABCs</code>, <code>Gap</code>, <code>Year</code>（“间隔年的基本知识”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“间隔年的基本知识”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. The ABCs of the Gap Year",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>间隔年的基本知识</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>ABCs</code>, <code>Gap</code>, <code>Year</code>（“间隔年的基本知识”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“间隔年的基本知识”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. The ABCs of the Gap Year",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>间隔年的基本知识</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>ABCs</code>, <code>Gap</code>, <code>Year</code>（“间隔年的基本知识”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“间隔年的基本知识”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. The Gap Year Comes Back",
-          "html": "<p><strong>选项 C</strong>：<code>The Gap Year Comes Back</code></p>\n<p><strong>中文翻译</strong>：间隔年又回来了</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>间隔年又回来了</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "35",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. The Gap Year Comes Back",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>间隔年又回来了</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>Gap</code>, <code>Year</code>, <code>Comes</code>（“间隔年又回来了”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. The Gap Year Comes Back",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>间隔年又回来了</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>Gap</code>, <code>Year</code>, <code>Comes</code>（“间隔年又回来了”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. The Gap Year Comes Back",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>间隔年又回来了</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>Gap</code>, <code>Year</code>, <code>Comes</code>（“间隔年又回来了”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. The Gap Year: A Dilemma",
-          "html": "<p><strong>选项 D</strong>：<code>The Gap Year: A Dilemma</code></p>\n<p><strong>中文翻译</strong>：间隔年：一个困境</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>间隔年：一个困境</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "35",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. The Gap Year: A Dilemma",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>间隔年：一个困境</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>Gap</code>, <code>Year</code>, <code>Dilemma</code>（“间隔年：一个困境”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>Gap</code>, <code>Year</code>, <code>Dilemma</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. The Gap Year: A Dilemma",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>间隔年：一个困境</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>Gap</code>, <code>Year</code>, <code>Dilemma</code>（“间隔年：一个困境”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>Gap</code>, <code>Year</code>, <code>Dilemma</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. The Gap Year: A Dilemma",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>间隔年：一个困境</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>Gap</code>, <code>Year</code>, <code>Dilemma</code>（“间隔年：一个困境”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.<br />如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>Gap</code>, <code>Year</code>, <code>Dilemma</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.<br />根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "35题结论",
+          "html": "<blockquote>\n<p><strong>35. A. In Favor of the Gap Year</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“间隔年的基本知识”，但在原文定位句中，作者表达的态度或客观事...；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>Gap</code>, <code>Ye...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "35",
+            "form": "conclusion"
           }
         },
         {
@@ -4846,8 +7051,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "Though often viewed as a problem for western states, the growing frequency of [wildfires] is a national concern because of its impact on federal tax dollars, says [Professor] Max Moritz, a [specialist] in fire ecology and management.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Though often viewed as a problem for western states, the growing frequency of <span class=\"mask\">[wildfires]</span> is a national concern because of its impact on federal tax dollars, says <span class=\"mask\">[Professor]</span> Max Moritz, a <span class=\"mask\">[specialist]</span> in fire ecology and management.</p></div></div>",
+          "raw": "Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 0,
@@ -4856,8 +7061,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "Though often viewed as a problem for western states, / the growing frequency of [wildfires] is a national concern / because of its impact on federal tax dollars, / says [Professor] Max Moritz, / a [specialist] in fire ecology and management.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Though often viewed as a problem for western states, / the growing frequency of <span class=\"mask\">[wildfires]</span> is a national concern / because of its impact on federal tax dollars, / says <span class=\"mask\">[Professor]</span> Max Moritz, / a <span class=\"mask\">[specialist]</span> in fire ecology and management.</p></div></div>",
+          "raw": "Though often viewed as a problem for western states, / the growing frequency of wildfires is a national concern / because of its impact on federal tax dollars, / says Professor Max Moritz, / a specialist in fire ecology and management.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara currentFocus\"><p>Though often viewed as a problem for western states, / the growing frequency of wildfires is a national concern / because of its impact on federal tax dollars, / says Professor Max Moritz, / a specialist in fire ecology and management.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 0,
@@ -4886,8 +7091,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago. In effect, fewer federal funds today are going towards the agency’s other work—such as forest [conservation], watershed and cultural resources management, and [infrastructure] upkeep—that affect the lives of all Americans.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago. In effect, fewer federal funds today are going towards the agency’s other work—such as forest <span class=\"mask\">[conservation]</span>, watershed and cultural resources management, and <span class=\"mask\">[infrastructure]</span> upkeep—that affect the lives of all Americans.</p></div></div>",
+          "raw": "In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the [percentage] it spent on such efforts 20 years ago. In effect, fewer federal funds today are going towards the agency’s other work—such as forest [conservation], watershed and cultural resources management, and [infrastructure] upkeep—that affect the lives of all [Americans].",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the <span class=\"mask\">[percentage]</span> it spent on such efforts 20 years ago. In effect, fewer federal funds today are going towards the agency’s other work—such as forest <span class=\"mask\">[conservation]</span>, watershed and cultural resources management, and <span class=\"mask\">[infrastructure]</span> upkeep—that affect the lives of all <span class=\"mask\">[Americans]</span>.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 1,
@@ -4896,8 +7101,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "In 2015, / the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago. / In effect, / fewer federal funds today are going towards the agency’s other work—such as forest [conservation], / watershed and cultural resources management, / and [infrastructure] upkeep—that affect the lives of all Americans.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>In 2015, / the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago. / In effect, / fewer federal funds today are going towards the agency’s other work—such as forest <span class=\"mask\">[conservation]</span>, / watershed and cultural resources management, / and <span class=\"mask\">[infrastructure]</span> upkeep—that affect the lives of all Americans.</p></div></div>",
+          "raw": "In 2015, / the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the [percentage] it spent on such efforts 20 years ago. / In effect, / fewer federal funds today are going towards the agency’s other work—such as forest [conservation], / watershed and cultural resources management, / and [infrastructure] upkeep—that affect the lives of all [Americans].",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>In 2015, / the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the <span class=\"mask\">[percentage]</span> it spent on such efforts 20 years ago. / In effect, / fewer federal funds today are going towards the agency’s other work—such as forest <span class=\"mask\">[conservation]</span>, / watershed and cultural resources management, / and <span class=\"mask\">[infrastructure]</span> upkeep—that affect the lives of all <span class=\"mask\">[Americans]</span>.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 1,
@@ -4966,8 +7171,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "“It’s already a huge problem from a public expenditure [perspective] for the whole country,” he says. “We need to take a [magnifying] glass to that. Like, ‘Wait a minute, is this OK?’ Do we want instead to redirect those funds to concentrate on [lower-hazard] parts of the landscape?”",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>“It’s already a huge problem from a public expenditure <span class=\"mask\">[perspective]</span> for the whole country,” he says. “We need to take a <span class=\"mask\">[magnifying]</span> glass to that. Like, ‘Wait a minute, is this OK?’ Do we want instead to redirect those funds to concentrate on <span class=\"mask\">[lower-hazard]</span> parts of the landscape?”</p></div></div>",
+          "raw": "“It’s already a huge problem from a public expenditure perspective for the whole country,” he says. “We need to take a [magnifying] glass to that. Like, ‘Wait a minute, is this OK?’ Do we want instead to redirect those funds to [concentrate] on [lower-hazard] parts of the landscape?”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says. “We need to take a <span class=\"mask\">[magnifying]</span> glass to that. Like, ‘Wait a minute, is this OK?’ Do we want instead to redirect those funds to <span class=\"mask\">[concentrate]</span> on <span class=\"mask\">[lower-hazard]</span> parts of the landscape?”</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 3,
@@ -4976,8 +7181,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "“It’s already a huge problem from a public expenditure [perspective] for the whole country,” he says. “We need to take a [magnifying] glass to that. / Like, / ‘Wait a minute, / is this OK?’ Do we want instead to redirect those funds to concentrate on [lower-hazard] parts of the landscape?”",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>“It’s already a huge problem from a public expenditure <span class=\"mask\">[perspective]</span> for the whole country,” he says. “We need to take a <span class=\"mask\">[magnifying]</span> glass to that. / Like, / ‘Wait a minute, / is this OK?’ Do we want instead to redirect those funds to concentrate on <span class=\"mask\">[lower-hazard]</span> parts of the landscape?”</p></div></div>",
+          "raw": "“It’s already a huge problem from a public expenditure perspective for the whole country,” he says. “We need to take a [magnifying] glass to that. / Like, / ‘Wait a minute, / is this OK?’ Do we want instead to redirect those funds to [concentrate] on [lower-hazard] parts of the landscape?”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says. “We need to take a <span class=\"mask\">[magnifying]</span> glass to that. / Like, / ‘Wait a minute, / is this OK?’ Do we want instead to redirect those funds to <span class=\"mask\">[concentrate]</span> on <span class=\"mask\">[lower-hazard]</span> parts of the landscape?”</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 3,
@@ -5046,8 +7251,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "For one thing, [conversations] about [wildfires] need to be more inclusive. Over the past decade, the focus has been on climate change—how the warming of the Earth from greenhouse gases is leading to [conditions] that worsen fires.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>For one thing, <span class=\"mask\">[conversations]</span> about <span class=\"mask\">[wildfires]</span> need to be more inclusive. Over the past decade, the focus has been on climate change—how the warming of the Earth from greenhouse gases is leading to <span class=\"mask\">[conditions]</span> that worsen fires.</p></div></div>",
+          "raw": "For one thing, [conversations] about wildfires need to be more inclusive. Over the past decade, the focus has been on climate change—how the warming of the Earth from greenhouse gases is leading to conditions that worsen fires.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>For one thing, <span class=\"mask\">[conversations]</span> about wildfires need to be more inclusive. Over the past decade, the focus has been on climate change—how the warming of the Earth from greenhouse gases is leading to conditions that worsen fires.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 5,
@@ -5056,8 +7261,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "For one thing, / [conversations] about [wildfires] need to be more inclusive. / Over the past decade, / the focus has been on climate change—how the warming of the Earth from greenhouse gases is leading to [conditions] / that worsen fires.",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>For one thing, / <span class=\"mask\">[conversations]</span> about <span class=\"mask\">[wildfires]</span> need to be more inclusive. / Over the past decade, / the focus has been on climate change—how the warming of the Earth from greenhouse gases is leading to <span class=\"mask\">[conditions]</span> / that worsen fires.</p></div></div>",
+          "raw": "For one thing, / [conversations] about wildfires need to be more inclusive. / Over the past decade, / the focus has been on climate change—how the warming of the Earth from greenhouse gases is leading to conditions / that worsen fires.",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>For one thing, / <span class=\"mask\">[conversations]</span> about wildfires need to be more inclusive. / Over the past decade, / the focus has been on climate change—how the warming of the Earth from greenhouse gases is leading to conditions / that worsen fires.</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 5,
@@ -5126,8 +7331,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "“The human systems and the landscapes we live on are linked, and the [interactions] go both ways,” he says. Failing to recognize that, he notes, leads to “an overly simplified view of what the [solutions] might be. Our [perception] of the problem and of what the solution is becomes very limited.”",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>7、【段落7大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>“The human systems and the landscapes we live on are linked, and the <span class=\"mask\">[interactions]</span> go both ways,” he says. Failing to recognize that, he notes, leads to “an overly simplified view of what the <span class=\"mask\">[solutions]</span> might be. Our <span class=\"mask\">[perception]</span> of the problem and of what the solution is becomes very limited.”</p></div></div>",
+          "raw": "“The human systems and the [landscapes] we live on are linked, and the [interactions] go both ways,” he says. Failing to recognize that, he notes, leads to “an overly simplified view of what the solutions might be. Our perception of the problem and of what the solution is becomes very limited.”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>7、【段落7大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>“The human systems and the <span class=\"mask\">[landscapes]</span> we live on are linked, and the <span class=\"mask\">[interactions]</span> go both ways,” he says. Failing to recognize that, he notes, leads to “an overly simplified view of what the solutions might be. Our perception of the problem and of what the solution is becomes very limited.”</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 7,
@@ -5136,8 +7341,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "“The human systems and the landscapes we live on are linked, / and the [interactions] go both ways,” he says. / Failing to recognize that, / he notes, / leads to “an overly simplified view of what the [solutions] might be. / Our [perception] of the problem and of what the solution is becomes very limited.”",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>7、【段落7大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>“The human systems and the landscapes we live on are linked, / and the <span class=\"mask\">[interactions]</span> go both ways,” he says. / Failing to recognize that, / he notes, / leads to “an overly simplified view of what the <span class=\"mask\">[solutions]</span> might be. / Our <span class=\"mask\">[perception]</span> of the problem and of what the solution is becomes very limited.”</p></div></div>",
+          "raw": "“The human systems and the [landscapes] we live on are linked, / and the [interactions] go both ways,” he says. / Failing to recognize that, / he notes, / leads to “an overly simplified view of what the solutions might be. / Our perception of the problem and of what the solution is becomes very limited.”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>7、【段落7大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>“The human systems and the <span class=\"mask\">[landscapes]</span> we live on are linked, / and the <span class=\"mask\">[interactions]</span> go both ways,” he says. / Failing to recognize that, / he notes, / leads to “an overly simplified view of what the solutions might be. / Our perception of the problem and of what the solution is becomes very limited.”</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 7,
@@ -5166,8 +7371,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "At the same time, people continue to treat fire as an event that needs to be wholly controlled and unleashed only out of necessity, says [Professor] Balch at the University of Colorado. But [acknowledging] fire’s inevitable presence in human life is an attitude crucial to developing the laws, policies, and [practices] that make it as safe as possible, she says. “We’ve [disconnected] [ourselves] from living with fire,” Balch says. “It is really important to understand and try and tease out what is the human connection with fire today.”",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>7、【段落7大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>8、【段落8大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>At the same time, people continue to treat fire as an event that needs to be wholly controlled and unleashed only out of necessity, says <span class=\"mask\">[Professor]</span> Balch at the University of Colorado. But <span class=\"mask\">[acknowledging]</span> fire’s inevitable presence in human life is an attitude crucial to developing the laws, policies, and <span class=\"mask\">[practices]</span> that make it as safe as possible, she says. “We’ve <span class=\"mask\">[disconnected]</span> <span class=\"mask\">[ourselves]</span> from living with fire,” Balch says. “It is really important to understand and try and tease out what is the human connection with fire today.”</p></div></div>",
+          "raw": "At the same time, people continue to treat fire as an event that needs to be wholly controlled and unleashed only out of necessity, says Professor Balch at the University of Colorado. But [acknowledging] fire’s inevitable presence in human life is an attitude crucial to developing the laws, policies, and practices that make it as safe as possible, she says. “We’ve [disconnected] ourselves from living with fire,” Balch says. “It is really important to understand and try and tease out what is the human connection with fire today.”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>7、【段落7大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>8、【段落8大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>At the same time, people continue to treat fire as an event that needs to be wholly controlled and unleashed only out of necessity, says Professor Balch at the University of Colorado. But <span class=\"mask\">[acknowledging]</span> fire’s inevitable presence in human life is an attitude crucial to developing the laws, policies, and practices that make it as safe as possible, she says. “We’ve <span class=\"mask\">[disconnected]</span> ourselves from living with fire,” Balch says. “It is really important to understand and try and tease out what is the human connection with fire today.”</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 8,
@@ -5176,8 +7381,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "读文章",
-          "raw": "At the same time, / people continue to treat fire as an event / that needs to be wholly controlled and unleashed only out of necessity, / says [Professor] Balch at the University of Colorado. / But [acknowledging] fire’s inevitable presence in human life is an attitude crucial to developing the laws, / policies, / and [practices] / that make it as safe as possible, / she says. “We’ve [disconnected] [ourselves] from living with fire,” Balch says. “It is really important to understand and try and tease out what is the human connection with fire today.”",
-          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>7、【段落7大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>8、【段落8大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>At the same time, / people continue to treat fire as an event / that needs to be wholly controlled and unleashed only out of necessity, / says <span class=\"mask\">[Professor]</span> Balch at the University of Colorado. / But <span class=\"mask\">[acknowledging]</span> fire’s inevitable presence in human life is an attitude crucial to developing the laws, / policies, / and <span class=\"mask\">[practices]</span> / that make it as safe as possible, / she says. “We’ve <span class=\"mask\">[disconnected]</span> <span class=\"mask\">[ourselves]</span> from living with fire,” Balch says. “It is really important to understand and try and tease out what is the human connection with fire today.”</p></div></div>",
+          "raw": "At the same time, / people continue to treat fire as an event / that needs to be wholly controlled and unleashed only out of necessity, / says Professor Balch at the University of Colorado. / But [acknowledging] fire’s inevitable presence in human life is an attitude crucial to developing the laws, / policies, / and practices / that make it as safe as possible, / she says. “We’ve [disconnected] ourselves from living with fire,” Balch says. “It is really important to understand and try and tease out what is the human connection with fire today.”",
+          "html": "<div class=\"coarseStack\"><div class=\"coarsePara coarseDone\"><p>1、【段落1大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>2、【段落2大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>3、【段落3大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>4、【段落4大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>5、【段落5大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>6、【段落6大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>7、【段落7大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara coarseDone\"><p>8、【段落8大意】围绕本段核心句，阐明论点与主要论据支撑。</p></div><div class=\"coarsePara currentFocus\"><p>At the same time, / people continue to treat fire as an event / that needs to be wholly controlled and unleashed only out of necessity, / says Professor Balch at the University of Colorado. / But <span class=\"mask\">[acknowledging]</span> fire’s inevitable presence in human life is an attitude crucial to developing the laws, / policies, / and practices / that make it as safe as possible, / she says. “We’ve <span class=\"mask\">[disconnected]</span> ourselves from living with fire,” Balch says. “It is really important to understand and try and tease out what is the human connection with fire today.”</p></div></div>",
           "meta": {
             "coarse": true,
             "pid": 8,
@@ -5212,8 +7417,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "36题",
-          "raw": "## 36题\n\n**More frequent wildfires have become a national concern because in 2015 they _______.**\n\n> 更频繁的野火已成为全国关注的问题，因为 2015 年它们_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> Though often viewed as a problem for western states, the growing frequency of [wildfires] is a national concern because of its impact on federal tax dollars, says [Professor] Max Moritz, a [specialist] in fire ecology and management.\n>\n> 开始精读：\n>\n> Though often viewed as a problem for western states, / the growing frequency of [wildfires] is a national concern / because of its impact on federal tax dollars, / says [Professor] Max Moritz, / a [specialist] in fire ecology and management.\n>\n> 逐意群顺译：\n>\n> 火灾生态和管理专家马克斯·莫里茨教授表示，尽管野火经常被视为西部各州的一个问题，但由于其对联邦税收的影响，野火的日益频繁也成为全国关注的问题。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>36题</h2>\n<p><strong>More frequent wildfires have become a national concern because in 2015 they _______.</strong></p>\n<blockquote><p>更频繁的野火已成为全国关注的问题，因为 2015 年它们_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Though often viewed as a problem for western states, the growing frequency of <span class=\"mask\">[wildfires]</span> is a national concern because of its impact on federal tax dollars, says <span class=\"mask\">[Professor]</span> Max Moritz, a <span class=\"mask\">[specialist]</span> in fire ecology and management.</p>\n<p><strong>开始精读：</strong></p>\n<p>Though often viewed as a problem for western states, / the growing frequency of <span class=\"mask\">[wildfires]</span> is a national concern / because of its impact on federal tax dollars, / says <span class=\"mask\">[Professor]</span> Max Moritz, / a <span class=\"mask\">[specialist]</span> in fire ecology and management.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>火灾生态和管理专家马克斯·莫里茨教授表示，尽管野火经常被视为西部各州的一个问题，但由于其对联邦税收的影响，野火的日益频繁也成为全国关注的问题。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 36题\n\n**More frequent wildfires have become a national concern because in 2015 they _______.**\n\n> 更频繁的野火已成为全国关注的问题，因为 2015 年它们_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 1 段展开，所以我们直接回第 1 段定位精读。\n\n> 原文参考：\n>\n> Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.\n>\n> 开始精读：\n>\n> Though often viewed as a problem for western states, / the growing frequency of wildfires is a national concern / because of its impact on federal tax dollars, / says Professor Max Moritz, / a specialist in fire ecology and management.\n>\n> 逐意群顺译：\n>\n> 火灾生态和管理专家马克斯·莫里茨教授表示，尽管野火经常被视为西部各州的一个问题，但由于其对联邦税收的影响，野火的日益频繁也成为全国关注的问题。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>36题</h2>\n<p><strong>More frequent wildfires have become a national concern because in 2015 they _______.</strong></p>\n<blockquote><p>更频繁的野火已成为全国关注的问题，因为 2015 年它们_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>1</strong> 段展开，所以我们直接回第 <strong>1</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.</p>\n<p><strong>开始精读：</strong></p>\n<p>Though often viewed as a problem for western states, / the growing frequency of wildfires is a national concern / because of its impact on federal tax dollars, / says Professor Max Moritz, / a specialist in fire ecology and management.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>火灾生态和管理专家马克斯·莫里茨教授表示，尽管野火经常被视为西部各州的一个问题，但由于其对联邦税收的影响，野火的日益频繁也成为全国关注的问题。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 1 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "36"
@@ -5241,8 +7446,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "36题",
-          "raw": "### C. caused a huge rise of infrastructure expenditure\n\n> 导致基础设施支出大幅增加\n\n我们先看 C 选项：`caused a huge rise of infrastructure expenditure`（导致基础设施支出大幅增加）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：更频繁的野火已成为全国关注的问题，因为 2015 年它们“导致基础设施支出大幅增加”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `caused`, `huge`, `rise` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
-          "html": "<h3>C. caused a huge rise of infrastructure expenditure</h3>\n<blockquote><p>导致基础设施支出大幅增加</p></blockquote>\n<p>我们先看 C 选项：<code>caused a huge rise of infrastructure expenditure</code>（导致基础设施支出大幅增加）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：更频繁的野火已成为全国关注的问题，因为 2015 年它们“导致基础设施支出大幅增加”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>caused</code>, <code>huge</code>, <code>rise</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 1 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "raw": "### C. caused a huge rise of infrastructure expenditure\n\n> 导致基础设施支出大幅增加\n\n我们先看 C 选项：`caused a huge rise of infrastructure expenditure`（导致基础设施支出大幅增加）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：更频繁的野火已成为全国关注的问题，因为 2015 年它们“导致基础设施支出大幅增加”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“导致基础设施支出大幅增加”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. caused a huge rise of infrastructure expenditure</h3>\n<blockquote><p>导致基础设施支出大幅增加</p></blockquote>\n<p>我们先看 C 选项：<code>caused a huge rise of infrastructure expenditure</code>（导致基础设施支出大幅增加）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：更频繁的野火已成为全国关注的问题，因为 2015 年它们“导致基础设施支出大幅增加”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“导致基础设施支出大幅增加”，但在原文第 1 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "36",
@@ -5251,8 +7456,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "36题",
-          "raw": "### D. exhausted unprecedented management efforts\n\n> 用尽了前所未有的管理努力\n\n我们先看 D 选项：`exhausted unprecedented management efforts`（用尽了前所未有的管理努力）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：更频繁的野火已成为全国关注的问题，因为 2015 年它们“用尽了前所未有的管理努力”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“用尽了前所未有的管理努力”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. exhausted unprecedented management efforts</h3>\n<blockquote><p>用尽了前所未有的管理努力</p></blockquote>\n<p>我们先看 D 选项：<code>exhausted unprecedented management efforts</code>（用尽了前所未有的管理努力）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：更频繁的野火已成为全国关注的问题，因为 2015 年它们“用尽了前所未有的管理努力”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 1 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“用尽了前所未有的管理努力”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. exhausted unprecedented management efforts\n\n> 用尽了前所未有的管理努力\n\n我们先看 D 选项：`exhausted unprecedented management efforts`（用尽了前所未有的管理努力）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：更频繁的野火已成为全国关注的问题，因为 2015 年它们“用尽了前所未有的管理努力”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“用尽了前所未有的管理努力”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. exhausted unprecedented management efforts</h3>\n<blockquote><p>用尽了前所未有的管理努力</p></blockquote>\n<p>我们先看 D 选项：<code>exhausted unprecedented management efforts</code>（用尽了前所未有的管理努力）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：更频繁的野火已成为全国关注的问题，因为 2015 年它们“用尽了前所未有的管理努力”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“用尽了前所未有的管理努力”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 1 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "36",
@@ -5270,8 +7475,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "37题",
-          "raw": "## 37题\n\n**Moritz calls for the use of “a magnifying glass” to _______.**\n\n> 莫里茨呼吁使用“放大镜”来_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago. In effect, fewer federal funds today are going towards the agency’s other work—such as forest [conservation], watershed and cultural resources management, and [infrastructure] upkeep—that affect the lives of all Americans.\n>\n> 开始精读：\n>\n> In 2015, / the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago. / In effect, / fewer federal funds today are going towards the agency’s other work—such as forest [conservation], / watershed and cultural resources management, / and [infrastructure] upkeep—that affect the lives of all Americans.\n>\n> 逐意群顺译：\n>\n> 2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。实际上，如今用于该机构影响所有美国人生活的其他工作（例如森林保护、流域和文化资源管理以及基础设施维护）的联邦资金减少了。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>37题</h2>\n<p><strong>Moritz calls for the use of “a magnifying glass” to _______.</strong></p>\n<blockquote><p>莫里茨呼吁使用“放大镜”来_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago. In effect, fewer federal funds today are going towards the agency’s other work—such as forest <span class=\"mask\">[conservation]</span>, watershed and cultural resources management, and <span class=\"mask\">[infrastructure]</span> upkeep—that affect the lives of all Americans.</p>\n<p><strong>开始精读：</strong></p>\n<p>In 2015, / the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago. / In effect, / fewer federal funds today are going towards the agency’s other work—such as forest <span class=\"mask\">[conservation]</span>, / watershed and cultural resources management, / and <span class=\"mask\">[infrastructure]</span> upkeep—that affect the lives of all Americans.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。实际上，如今用于该机构影响所有美国人生活的其他工作（例如森林保护、流域和文化资源管理以及基础设施维护）的联邦资金减少了。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 37题\n\n**Moritz calls for the use of “a magnifying glass” to _______.**\n\n> 莫里茨呼吁使用“放大镜”来_______。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 2 段展开，所以我们直接回第 2 段定位精读。\n\n> 原文参考：\n>\n> In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the [percentage] it spent on such efforts 20 years ago. In effect, fewer federal funds today are going towards the agency’s other work—such as forest [conservation], watershed and cultural resources management, and [infrastructure] upkeep—that affect the lives of all [Americans].\n>\n> 开始精读：\n>\n> In 2015, / the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the [percentage] it spent on such efforts 20 years ago. / In effect, / fewer federal funds today are going towards the agency’s other work—such as forest [conservation], / watershed and cultural resources management, / and [infrastructure] upkeep—that affect the lives of all [Americans].\n>\n> 逐意群顺译：\n>\n> 2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。实际上，如今用于该机构影响所有美国人生活的其他工作（例如森林保护、流域和文化资源管理以及基础设施维护）的联邦资金减少了。\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>37题</h2>\n<p><strong>Moritz calls for the use of “a magnifying glass” to _______.</strong></p>\n<blockquote><p>莫里茨呼吁使用“放大镜”来_______。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>2</strong> 段展开，所以我们直接回第 <strong>2</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the <span class=\"mask\">[percentage]</span> it spent on such efforts 20 years ago. In effect, fewer federal funds today are going towards the agency’s other work—such as forest <span class=\"mask\">[conservation]</span>, watershed and cultural resources management, and <span class=\"mask\">[infrastructure]</span> upkeep—that affect the lives of all <span class=\"mask\">[Americans]</span>.</p>\n<p><strong>开始精读：</strong></p>\n<p>In 2015, / the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the <span class=\"mask\">[percentage]</span> it spent on such efforts 20 years ago. / In effect, / fewer federal funds today are going towards the agency’s other work—such as forest <span class=\"mask\">[conservation]</span>, / watershed and cultural resources management, / and <span class=\"mask\">[infrastructure]</span> upkeep—that affect the lives of all <span class=\"mask\">[Americans]</span>.</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。实际上，如今用于该机构影响所有美国人生活的其他工作（例如森林保护、流域和文化资源管理以及基础设施维护）的联邦资金减少了。</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 2 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "37"
@@ -5279,8 +7484,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "37题",
-          "raw": "### A. avoid the redirection of federal money\n\n> 避免联邦资金的重新分配\n\n我们先看 A 选项：`avoid the redirection of federal money`（避免联邦资金的重新分配）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：莫里茨呼吁使用“放大镜”来“避免联邦资金的重新分配”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `avoid`, `redirection`, `federal` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 2 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
-          "html": "<h3>A. avoid the redirection of federal money</h3>\n<blockquote><p>避免联邦资金的重新分配</p></blockquote>\n<p>我们先看 A 选项：<code>avoid the redirection of federal money</code>（避免联邦资金的重新分配）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：莫里茨呼吁使用“放大镜”来“避免联邦资金的重新分配”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>avoid</code>, <code>redirection</code>, <code>federal</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 2 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "raw": "### A. avoid the redirection of federal money\n\n> 避免联邦资金的重新分配\n\n我们先看 A 选项：`avoid the redirection of federal money`（避免联邦资金的重新分配）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：莫里茨呼吁使用“放大镜”来“避免联邦资金的重新分配”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“避免联邦资金的重新分配”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. avoid the redirection of federal money</h3>\n<blockquote><p>避免联邦资金的重新分配</p></blockquote>\n<p>我们先看 A 选项：<code>avoid the redirection of federal money</code>（避免联邦资金的重新分配）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：莫里茨呼吁使用“放大镜”来“避免联邦资金的重新分配”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“避免联邦资金的重新分配”，但在原文第 2 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "37",
@@ -5289,8 +7494,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "37题",
-          "raw": "### B. find wildfire-free parts of the landscape\n\n> 找到景观中没有野火的部分\n\n我们先看 B 选项：`find wildfire-free parts of the landscape`（找到景观中没有野火的部分）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：莫里茨呼吁使用“放大镜”来“找到景观中没有野火的部分”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“找到景观中没有野火的部分”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. find wildfire-free parts of the landscape</h3>\n<blockquote><p>找到景观中没有野火的部分</p></blockquote>\n<p>我们先看 B 选项：<code>find wildfire-free parts of the landscape</code>（找到景观中没有野火的部分）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：莫里茨呼吁使用“放大镜”来“找到景观中没有野火的部分”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 2 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“找到景观中没有野火的部分”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. find wildfire-free parts of the landscape\n\n> 找到景观中没有野火的部分\n\n我们先看 B 选项：`find wildfire-free parts of the landscape`（找到景观中没有野火的部分）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：莫里茨呼吁使用“放大镜”来“找到景观中没有野火的部分”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“找到景观中没有野火的部分”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. find wildfire-free parts of the landscape</h3>\n<blockquote><p>找到景观中没有野火的部分</p></blockquote>\n<p>我们先看 B 选项：<code>find wildfire-free parts of the landscape</code>（找到景观中没有野火的部分）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：莫里茨呼吁使用“放大镜”来“找到景观中没有野火的部分”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“找到景观中没有野火的部分”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 2 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "37",
@@ -5337,8 +7542,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "38题",
-          "raw": "### A. public debates have not settled yet\n\n> 公开辩论尚未平息\n\n我们先看 A 选项：`public debates have not settled yet`（公开辩论尚未平息）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：莫里茨承认气候是一个关键因素，但他指出“公开辩论尚未平息”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“公开辩论尚未平息”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
-          "html": "<h3>A. public debates have not settled yet</h3>\n<blockquote><p>公开辩论尚未平息</p></blockquote>\n<p>我们先看 A 选项：<code>public debates have not settled yet</code>（公开辩论尚未平息）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：莫里茨承认气候是一个关键因素，但他指出“公开辩论尚未平息”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“公开辩论尚未平息”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "raw": "### A. public debates have not settled yet\n\n> 公开辩论尚未平息\n\n我们先看 A 选项：`public debates have not settled yet`（公开辩论尚未平息）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：莫里茨承认气候是一个关键因素，但他指出“公开辩论尚未平息”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“公开辩论尚未平息”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. public debates have not settled yet</h3>\n<blockquote><p>公开辩论尚未平息</p></blockquote>\n<p>我们先看 A 选项：<code>public debates have not settled yet</code>（公开辩论尚未平息）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：莫里茨承认气候是一个关键因素，但他指出“公开辩论尚未平息”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“公开辩论尚未平息”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "38",
@@ -5347,8 +7552,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "38题",
-          "raw": "### B. a shift in the view of fire has taken place\n\n> 对火的看法发生了转变\n\n我们先看 B 选项：`a shift in the view of fire has taken place`（对火的看法发生了转变）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：莫里茨承认气候是一个关键因素，但他指出“对火的看法发生了转变”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“对火的看法发生了转变”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. a shift in the view of fire has taken place</h3>\n<blockquote><p>对火的看法发生了转变</p></blockquote>\n<p>我们先看 B 选项：<code>a shift in the view of fire has taken place</code>（对火的看法发生了转变）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：莫里茨承认气候是一个关键因素，但他指出“对火的看法发生了转变”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“对火的看法发生了转变”，但在原文第 3 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. a shift in the view of fire has taken place\n\n> 对火的看法发生了转变\n\n我们先看 B 选项：`a shift in the view of fire has taken place`（对火的看法发生了转变）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：莫里茨承认气候是一个关键因素，但他指出“对火的看法发生了转变”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“对火的看法发生了转变”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. a shift in the view of fire has taken place</h3>\n<blockquote><p>对火的看法发生了转变</p></blockquote>\n<p>我们先看 B 选项：<code>a shift in the view of fire has taken place</code>（对火的看法发生了转变）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：莫里茨承认气候是一个关键因素，但他指出“对火的看法发生了转变”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 3 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“对火的看法发生了转变”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "38",
@@ -5367,8 +7572,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "38题",
-          "raw": "### D. fire-fighting conditions are improving\n\n> 消防条件不断改善\n\n我们先看 D 选项：`fire-fighting conditions are improving`（消防条件不断改善）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：莫里茨承认气候是一个关键因素，但他指出“消防条件不断改善”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“消防条件不断改善”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. fire-fighting conditions are improving</h3>\n<blockquote><p>消防条件不断改善</p></blockquote>\n<p>我们先看 D 选项：<code>fire-fighting conditions are improving</code>（消防条件不断改善）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：莫里茨承认气候是一个关键因素，但他指出“消防条件不断改善”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“消防条件不断改善”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 3 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. fire-fighting conditions are improving\n\n> 消防条件不断改善\n\n我们先看 D 选项：`fire-fighting conditions are improving`（消防条件不断改善）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：莫里茨承认气候是一个关键因素，但他指出“消防条件不断改善”_。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `fire`, `fighting`, `conditions` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. fire-fighting conditions are improving</h3>\n<blockquote><p>消防条件不断改善</p></blockquote>\n<p>我们先看 D 选项：<code>fire-fighting conditions are improving</code>（消防条件不断改善）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：莫里茨承认气候是一个关键因素，但他指出“消防条件不断改善”_。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>fire</code>, <code>fighting</code>, <code>conditions</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 3 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "38",
@@ -5386,8 +7591,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "39题",
-          "raw": "## 39题\n\n**The overly simplified view Moritz mentions is a result of failing to _______.**\n\n> 莫里茨提到的过于简化的观点是未能_______的结果。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> “It’s already a huge problem from a public expenditure [perspective] for the whole country,” he says. “We need to take a [magnifying] glass to that. Like, ‘Wait a minute, is this OK?’ Do we want instead to redirect those funds to concentrate on [lower-hazard] parts of the landscape?”\n>\n> 开始精读：\n>\n> “It’s already a huge problem from a public expenditure [perspective] for the whole country,” he says. “We need to take a [magnifying] glass to that. / Like, / ‘Wait a minute, / is this OK?’ Do we want instead to redirect those funds to concentrate on [lower-hazard] parts of the landscape?”\n>\n> 逐意群顺译：\n>\n> “从整个国家公共支出的角度来看，这已经是一个巨大的问题，”他说。 “我们需要用放大镜来解决这个问题。比如，‘等一下，这样可以吗？’我们是否想将这些资金集中在风险较低的地区？”\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
-          "html": "<h2>39题</h2>\n<p><strong>The overly simplified view Moritz mentions is a result of failing to _______.</strong></p>\n<blockquote><p>莫里茨提到的过于简化的观点是未能_______的结果。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>“It’s already a huge problem from a public expenditure <span class=\"mask\">[perspective]</span> for the whole country,” he says. “We need to take a <span class=\"mask\">[magnifying]</span> glass to that. Like, ‘Wait a minute, is this OK?’ Do we want instead to redirect those funds to concentrate on <span class=\"mask\">[lower-hazard]</span> parts of the landscape?”</p>\n<p><strong>开始精读：</strong></p>\n<p>“It’s already a huge problem from a public expenditure <span class=\"mask\">[perspective]</span> for the whole country,” he says. “We need to take a <span class=\"mask\">[magnifying]</span> glass to that. / Like, / ‘Wait a minute, / is this OK?’ Do we want instead to redirect those funds to concentrate on <span class=\"mask\">[lower-hazard]</span> parts of the landscape?”</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>“从整个国家公共支出的角度来看，这已经是一个巨大的问题，”他说。 “我们需要用放大镜来解决这个问题。比如，‘等一下，这样可以吗？’我们是否想将这些资金集中在风险较低的地区？”</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
+          "raw": "## 39题\n\n**The overly simplified view Moritz mentions is a result of failing to _______.**\n\n> 莫里茨提到的过于简化的观点是未能_______的结果。\n\n我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 4 段展开，所以我们直接回第 4 段定位精读。\n\n> 原文参考：\n>\n> “It’s already a huge problem from a public expenditure perspective for the whole country,” he says. “We need to take a [magnifying] glass to that. Like, ‘Wait a minute, is this OK?’ Do we want instead to redirect those funds to [concentrate] on [lower-hazard] parts of the landscape?”\n>\n> 开始精读：\n>\n> “It’s already a huge problem from a public expenditure perspective for the whole country,” he says. “We need to take a [magnifying] glass to that. / Like, / ‘Wait a minute, / is this OK?’ Do we want instead to redirect those funds to [concentrate] on [lower-hazard] parts of the landscape?”\n>\n> 逐意群顺译：\n>\n> “从整个国家公共支出的角度来看，这已经是一个巨大的问题，”他说。 “我们需要用放大镜来解决这个问题。比如，‘等一下，这样可以吗？’我们是否想将这些资金集中在风险较低的地区？”\n>\n> 意群逻辑串联：\n>\n> 核心主体 → 实施关键动作 → 产生特定结果/影响。\n\n回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。",
+          "html": "<h2>39题</h2>\n<p><strong>The overly simplified view Moritz mentions is a result of failing to _______.</strong></p>\n<blockquote><p>莫里茨提到的过于简化的观点是未能_______的结果。</p></blockquote>\n<p>我们先看题干中的核心考查点。根据题文同序原则与刚才粗读文章的逻辑脉络，该题干讨论的内容主要在第 <strong>4</strong> 段展开，所以我们直接回第 <strong>4</strong> 段定位精读。</p>\n<blockquote>\n<p><strong>原文参考：</strong></p>\n<p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says. “We need to take a <span class=\"mask\">[magnifying]</span> glass to that. Like, ‘Wait a minute, is this OK?’ Do we want instead to redirect those funds to <span class=\"mask\">[concentrate]</span> on <span class=\"mask\">[lower-hazard]</span> parts of the landscape?”</p>\n<p><strong>开始精读：</strong></p>\n<p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says. “We need to take a <span class=\"mask\">[magnifying]</span> glass to that. / Like, / ‘Wait a minute, / is this OK?’ Do we want instead to redirect those funds to <span class=\"mask\">[concentrate]</span> on <span class=\"mask\">[lower-hazard]</span> parts of the landscape?”</p>\n<p><strong>逐意群顺译：</strong></p>\n<p>“从整个国家公共支出的角度来看，这已经是一个巨大的问题，”他说。 “我们需要用放大镜来解决这个问题。比如，‘等一下，这样可以吗？’我们是否想将这些资金集中在风险较低的地区？”</p>\n<p><strong>意群逻辑串联：</strong></p>\n<p>核心主体 → 实施关键动作 → 产生特定结果/影响。</p>\n</blockquote>\n<p>回到第 4 段，我们比对题干与原文定位句的对应关系，明确本题的论证重心与事实依托。</p>",
           "meta": {
             "kind": "question",
             "qid": "39"
@@ -5395,8 +7600,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "39题",
-          "raw": "### A. discover the fundamental makeup of nature\n\n> 发现自然的基本构成\n\n我们先看 A 选项：`discover the fundamental makeup of nature`（发现自然的基本构成）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：莫里茨提到的过于简化的观点是未能“发现自然的基本构成”_的结果。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“发现自然的基本构成”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
-          "html": "<h3>A. discover the fundamental makeup of nature</h3>\n<blockquote><p>发现自然的基本构成</p></blockquote>\n<p>我们先看 A 选项：<code>discover the fundamental makeup of nature</code>（发现自然的基本构成）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：莫里茨提到的过于简化的观点是未能“发现自然的基本构成”_的结果。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“发现自然的基本构成”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
+          "raw": "### A. discover the fundamental makeup of nature\n\n> 发现自然的基本构成\n\n我们先看 A 选项：`discover the fundamental makeup of nature`（发现自然的基本构成）。\n\n我们把 A 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：莫里茨提到的过于简化的观点是未能“发现自然的基本构成”_的结果。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“发现自然的基本构成”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：A直接排除。**",
+          "html": "<h3>A. discover the fundamental makeup of nature</h3>\n<blockquote><p>发现自然的基本构成</p></blockquote>\n<p>我们先看 A 选项：<code>discover the fundamental makeup of nature</code>（发现自然的基本构成）。</p>\n<p>我们把 A 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：莫里茨提到的过于简化的观点是未能“发现自然的基本构成”_的结果。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 4 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“发现自然的基本构成”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：A直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "39",
@@ -5405,8 +7610,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "39题",
-          "raw": "### B. explore the mechanism of the human systems\n\n> 探索人体系统的机制\n\n我们先看 B 选项：`explore the mechanism of the human systems`（探索人体系统的机制）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：莫里茨提到的过于简化的观点是未能“探索人体系统的机制”_的结果。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“探索人体系统的机制”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
-          "html": "<h3>B. explore the mechanism of the human systems</h3>\n<blockquote><p>探索人体系统的机制</p></blockquote>\n<p>我们先看 B 选项：<code>explore the mechanism of the human systems</code>（探索人体系统的机制）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：莫里茨提到的过于简化的观点是未能“探索人体系统的机制”_的结果。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“探索人体系统的机制”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
+          "raw": "### B. explore the mechanism of the human systems\n\n> 探索人体系统的机制\n\n我们先看 B 选项：`explore the mechanism of the human systems`（探索人体系统的机制）。\n\n我们把 B 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：莫里茨提到的过于简化的观点是未能“探索人体系统的机制”_的结果。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“探索人体系统的机制”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：B直接排除。**",
+          "html": "<h3>B. explore the mechanism of the human systems</h3>\n<blockquote><p>探索人体系统的机制</p></blockquote>\n<p>我们先看 B 选项：<code>explore the mechanism of the human systems</code>（探索人体系统的机制）。</p>\n<p>我们把 B 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：莫里茨提到的过于简化的观点是未能“探索人体系统的机制”_的结果。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“探索人体系统的机制”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：B直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "39",
@@ -5425,8 +7630,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "39题",
-          "raw": "### D. maximize the role of landscape in human life\n\n> 最大限度地发挥景观在人类生活中的作用\n\n我们先看 D 选项：`maximize the role of landscape in human life`（最大限度地发挥景观在人类生活中的作用）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：莫里茨提到的过于简化的观点是未能“最大限度地发挥景观在人类生活中的作用”_的结果。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：反向干扰 / 颠倒黑白】**：\n   - 选项声称“最大限度地发挥景观在人类生活中的作用”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
-          "html": "<h3>D. maximize the role of landscape in human life</h3>\n<blockquote><p>最大限度地发挥景观在人类生活中的作用</p></blockquote>\n<p>我们先看 D 选项：<code>maximize the role of landscape in human life</code>（最大限度地发挥景观在人类生活中的作用）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：莫里茨提到的过于简化的观点是未能“最大限度地发挥景观在人类生活中的作用”_的结果。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：反向干扰 / 颠倒黑白】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项声称“最大限度地发挥景观在人类生活中的作用”，但在原文第 4 段中，作者所表达的态度或客观发生的事实恰恰相反。原文明确指出了制约条件与负面影响，而选项却将其表述为相反的发展趋势，属于方向相反的干扰项。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
+          "raw": "### D. maximize the role of landscape in human life\n\n> 最大限度地发挥景观在人类生活中的作用\n\n我们先看 D 选项：`maximize the role of landscape in human life`（最大限度地发挥景观在人类生活中的作用）。\n\n我们把 D 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：莫里茨提到的过于简化的观点是未能“最大限度地发挥景观在人类生活中的作用”_的结果。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：张冠李戴 / 答非所问】**：\n   - 选项提及的“最大限度地发挥景观在人类生活中的作用”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：D直接排除。**",
+          "html": "<h3>D. maximize the role of landscape in human life</h3>\n<blockquote><p>最大限度地发挥景观在人类生活中的作用</p></blockquote>\n<p>我们先看 D 选项：<code>maximize the role of landscape in human life</code>（最大限度地发挥景观在人类生活中的作用）。</p>\n<p>我们把 D 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：莫里茨提到的过于简化的观点是未能“最大限度地发挥景观在人类生活中的作用”_的结果。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：张冠李戴 / 答非所问】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项提及的“最大限度地发挥景观在人类生活中的作用”在文章其他段落或许有所涉及，但它无法回答本题题干针对第 4 段提出的具体问题。命题人通过跨段落拼凑无关信息设置陷阱，违背了题文同序的解题原则。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：D直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "39",
@@ -5473,8 +7678,8 @@ window.KAOYAN_DATA_2017 = {
         },
         {
           "section": "40题",
-          "raw": "### C. pay a price for\n\n> 付出代价\n\n我们先看 C 选项：`pay a price for`（付出代价）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：巴尔奇教授指出，火是人类应该“付出代价”_的东西。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：偷换概念 / 偏离主干】**：\n   - 选项中的 `pay`, `price` 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
-          "html": "<h3>C. pay a price for</h3>\n<blockquote><p>付出代价</p></blockquote>\n<p>我们先看 C 选项：<code>pay a price for</code>（付出代价）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：巴尔奇教授指出，火是人类应该“付出代价”_的东西。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：偷换概念 / 偏离主干】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">选项中的 <code>pay</code>, <code>price</code> 虽然借用了原文词汇，但将其拼接到题干后，改变了动作的主体或逻辑关系。原文第 5 段强调的是事实发展的主要矛盾，而选项将次要细节或背景修饰偷换成了因果结论。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
+          "raw": "### C. pay a price for\n\n> 付出代价\n\n我们先看 C 选项：`pay a price for`（付出代价）。\n\n我们把 C 选项的内容代入题干进行语义检验：\n\n> **题干结合选项**：巴尔奇教授指出，火是人类应该“付出代价”_的东西。\n\n**定位原文与比对分析：**\n\n1. **【考研命题典型陷阱：无中生有 / 过度推断】**：\n   - 在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“付出代价”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。\n\n2. **原文与选项的本质差异**：\n   - 原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。\n\n**第一轮判断：C直接排除。**",
+          "html": "<h3>C. pay a price for</h3>\n<blockquote><p>付出代价</p></blockquote>\n<p>我们先看 C 选项：<code>pay a price for</code>（付出代价）。</p>\n<p>我们把 C 选项的内容代入题干进行语义检验：</p>\n<blockquote><p><strong>题干结合选项</strong>：巴尔奇教授指出，火是人类应该“付出代价”_的东西。</p></blockquote>\n<p><strong>定位原文与比对分析：</strong></p>\n<p style=\"margin-top:10px\"><strong>1. 【考研命题典型陷阱：无中生有 / 过度推断】：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">在原文第 5 段的表述中，作者仅陈述了相关背景事实，根本没有提及选项所主张的“付出代价”这种极端结论。考生容易凭主观常识进行过度脑补，但该推论在原文中缺乏直接文本依据（孤证不立）。</li></ul>\n<p style=\"margin-top:10px\"><strong>2. 原文与选项的本质差异：</strong></p>\n<ul style=\"margin:6px 0 12px 20px;padding:0\"><li style=\"margin-bottom:6px\">原文强调的是上下文逻辑严密的客观事实，而选项在表述上存在明显的偏差或逻辑断层，无法与题干构成直接合理的答题闭环。</li></ul>\n<p><strong>第一轮判断：C直接排除。</strong></p>",
           "meta": {
             "kind": "option",
             "qid": "40",
@@ -6253,7 +8458,7 @@ window.KAOYAN_DATA_2017 = {
         {
           "section": 3,
           "title": "3.一石五鸟第三鸟-阅读题目复盘带来的阅读思维提升",
-          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，正确项如何进行同义改写，错误项如何设置陷阱；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
+          "html": "<p>之前我们的做题模式模拟的是考场中的真实状态：文章和选项里存在部分难词，我们通过定位比对、写作视角与交叉验证来排除干扰。</p>\n<p>而在当前的复盘模式中，我们直接站在出题人的角度去分析每道题的：</p>\n<ol>\n<li>题目真正在问什么，这是什么题型，题型应对策略；</li>\n<li>每个选项从原文哪里改出来，对的是如何对文章进行同义改写的，错的做题时为什么容易被文章中的对应表达骗，命题人是怎么想的；</li>\n<li>三大判据（定位比对、写作视角、全文主旨）是否同时支持。</li>\n</ol>",
           "meta": {
             "section": 3
           }
@@ -6261,246 +8466,981 @@ window.KAOYAN_DATA_2017 = {
         {
           "section": 3,
           "title": "36题 · 题干、题型与核心出处",
-          "html": "<p><strong>36. More frequent wildfires have become a national concern because in 2015 they _______.</strong></p>\n<p>（更频繁的野火已成为全国关注的问题，因为 2015 年它们_______。）</p>\n<p><strong>题型判定</strong>：事实细节题 ｜ <strong>定位出处</strong>：Paragraph 1</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>More frequent wildfires have become a national concern because in 2015 they _______.<br />更频繁的野火已成为全国关注的问题，因为 2015 年它们_______。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>事实细节题</strong>，考查考生对第 <strong>1</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 1 段核心定位句）</h3>\n<blockquote>\n<p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.<br />火灾生态和管理专家马克斯·莫里茨教授表示，尽管野火经常被视为西部各州的一个问题，但由于其对联邦税收的影响，野火的日益频繁也成为全国关注的问题。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 1 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "36"
+            "qid": "36",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. consumed a record-high percentage of budget",
-          "html": "<p><strong>选项 A</strong>：<code>consumed a record-high percentage of budget</code></p>\n<p><strong>中文翻译</strong>：预算消耗比例创历史新高</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（A）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>预算消耗比例创历史新高</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "36",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. consumed a record-high percentage of budget",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>预算消耗比例创历史新高</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>consumed</code>, <code>record</code>, <code>high</code>，其对应的中文含义为“<strong>预算消耗比例创历史新高</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.<br />火灾生态和管理专家马克斯·莫里茨教授表示，尽管野火经常被视为西部各州的一个问题，但由于其对联邦税收的影响，野火的日益频繁也成为全国关注的问题。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. consumed a record-high percentage of budget",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>预算消耗比例创历史新高</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>consumed</code>, <code>record</code>, <code>high</code>，其对应的中文含义为“<strong>预算消耗比例创历史新高</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.<br />火灾生态和管理专家马克斯·莫里茨教授表示，尽管野火经常被视为西部各州的一个问题，但由于其对联邦税收的影响，野火的日益频繁也成为全国关注的问题。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5<br />In 2015, the US Forest Service for the first time spent more than half of its $5</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 A 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. consumed a record-high percentage of budget",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>预算消耗比例创历史新高</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项的核心表达 <code>consumed</code>, <code>record</code>, <code>high</code>，其对应的中文含义为“<strong>预算消耗比例创历史新高</strong>”。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.<br />火灾生态和管理专家马克斯·莫里茨教授表示，尽管野火经常被视为西部各州的一个问题，但由于其对联邦税收的影响，野火的日益频繁也成为全国关注的问题。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5<br />In 2015, the US Forest Service for the first time spent more than half of its $5</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 A 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 A 选项（“预算消耗比例创历史新高”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：A正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. severely damaged the ecology of western states",
-          "html": "<p><strong>选项 B</strong>：<code>severely damaged the ecology of western states</code></p>\n<p><strong>中文翻译</strong>：严重破坏了西部各州的生态</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>严重破坏了西部各州的生态</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "36",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. severely damaged the ecology of western states",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>严重破坏了西部各州的生态</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>severely</code>, <code>damaged</code>, <code>ecology</code>（“严重破坏了西部各州的生态”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.<br />火灾生态和管理专家马克斯·莫里茨教授表示，尽管野火经常被视为西部各州的一个问题，但由于其对联邦税收的影响，野火的日益频繁也成为全国关注的问题。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. severely damaged the ecology of western states",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>严重破坏了西部各州的生态</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>severely</code>, <code>damaged</code>, <code>ecology</code>（“严重破坏了西部各州的生态”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.<br />火灾生态和管理专家马克斯·莫里茨教授表示，尽管野火经常被视为西部各州的一个问题，但由于其对联邦税收的影响，野火的日益频繁也成为全国关注的问题。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5<br />In 2015, the US Forest Service for the first time spent more than half of its $5</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. severely damaged the ecology of western states",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>严重破坏了西部各州的生态</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>severely</code>, <code>damaged</code>, <code>ecology</code>（“严重破坏了西部各州的生态”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.<br />火灾生态和管理专家马克斯·莫里茨教授表示，尽管野火经常被视为西部各州的一个问题，但由于其对联邦税收的影响，野火的日益频繁也成为全国关注的问题。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5<br />In 2015, the US Forest Service for the first time spent more than half of its $5</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. caused a huge rise of infrastructure expenditure",
-          "html": "<p><strong>选项 C</strong>：<code>caused a huge rise of infrastructure expenditure</code></p>\n<p><strong>中文翻译</strong>：导致基础设施支出大幅增加</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>导致基础设施支出大幅增加</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "36",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. caused a huge rise of infrastructure expenditure",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>导致基础设施支出大幅增加</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>caused</code>, <code>huge</code>, <code>rise</code>（“导致基础设施支出大幅增加”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.<br />火灾生态和管理专家马克斯·莫里茨教授表示，尽管野火经常被视为西部各州的一个问题，但由于其对联邦税收的影响，野火的日益频繁也成为全国关注的问题。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“导致基础设施支出大幅增加”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. caused a huge rise of infrastructure expenditure",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>导致基础设施支出大幅增加</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>caused</code>, <code>huge</code>, <code>rise</code>（“导致基础设施支出大幅增加”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.<br />火灾生态和管理专家马克斯·莫里茨教授表示，尽管野火经常被视为西部各州的一个问题，但由于其对联邦税收的影响，野火的日益频繁也成为全国关注的问题。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“导致基础设施支出大幅增加”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5<br />In 2015, the US Forest Service for the first time spent more than half of its $5</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. caused a huge rise of infrastructure expenditure",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>导致基础设施支出大幅增加</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>caused</code>, <code>huge</code>, <code>rise</code>（“导致基础设施支出大幅增加”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.<br />火灾生态和管理专家马克斯·莫里茨教授表示，尽管野火经常被视为西部各州的一个问题，但由于其对联邦税收的影响，野火的日益频繁也成为全国关注的问题。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“导致基础设施支出大幅增加”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5<br />In 2015, the US Forest Service for the first time spent more than half of its $5</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. exhausted unprecedented management efforts",
-          "html": "<p><strong>选项 D</strong>：<code>exhausted unprecedented management efforts</code></p>\n<p><strong>中文翻译</strong>：用尽了前所未有的管理努力</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>用尽了前所未有的管理努力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "36",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. exhausted unprecedented management efforts",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>用尽了前所未有的管理努力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>exhausted</code>, <code>unprecedented</code>, <code>management</code>（“用尽了前所未有的管理努力”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.<br />火灾生态和管理专家马克斯·莫里茨教授表示，尽管野火经常被视为西部各州的一个问题，但由于其对联邦税收的影响，野火的日益频繁也成为全国关注的问题。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. exhausted unprecedented management efforts",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>用尽了前所未有的管理努力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>exhausted</code>, <code>unprecedented</code>, <code>management</code>（“用尽了前所未有的管理努力”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.<br />火灾生态和管理专家马克斯·莫里茨教授表示，尽管野火经常被视为西部各州的一个问题，但由于其对联邦税收的影响，野火的日益频繁也成为全国关注的问题。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5<br />In 2015, the US Forest Service for the first time spent more than half of its $5</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. exhausted unprecedented management efforts",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>用尽了前所未有的管理努力</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>exhausted</code>, <code>unprecedented</code>, <code>management</code>（“用尽了前所未有的管理努力”）。</p>\n<p>对比原文第 1 段定位句：</p>\n<blockquote><p>Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.<br />火灾生态和管理专家马克斯·莫里茨教授表示，尽管野火经常被视为西部各州的一个问题，但由于其对联邦税收的影响，野火的日益频繁也成为全国关注的问题。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5<br />In 2015, the US Forest Service for the first time spent more than half of its $5</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "36题结论",
+          "html": "<blockquote>\n<p><strong>36. A. consumed a record-high percentage of budget</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“导致基础设施支出大幅增加”，但在原文定位句中，作者表达的态度...；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "36",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "37题 · 题干、题型与核心出处",
-          "html": "<p><strong>37. Moritz calls for the use of “a magnifying glass” to _______.</strong></p>\n<p>（莫里茨呼吁使用“放大镜”来_______。）</p>\n<p><strong>题型判定</strong>：因果推断题 ｜ <strong>定位出处</strong>：Paragraph 2</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>Moritz calls for the use of “a magnifying glass” to _______.<br />莫里茨呼吁使用“放大镜”来_______。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>因果推断题</strong>，考查考生对第 <strong>2</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 2 段核心定位句）</h3>\n<blockquote>\n<p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.<br />2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 2 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "37"
+            "qid": "37",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. avoid the redirection of federal money",
-          "html": "<p><strong>选项 A</strong>：<code>avoid the redirection of federal money</code></p>\n<p><strong>中文翻译</strong>：避免联邦资金的重新分配</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>避免联邦资金的重新分配</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "37",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. avoid the redirection of federal money",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>避免联邦资金的重新分配</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>avoid</code>, <code>redirection</code>, <code>federal</code>（“避免联邦资金的重新分配”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.<br />2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“避免联邦资金的重新分配”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. avoid the redirection of federal money",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>避免联邦资金的重新分配</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>avoid</code>, <code>redirection</code>, <code>federal</code>（“避免联邦资金的重新分配”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.<br />2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“避免联邦资金的重新分配”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In effect, fewer federal funds today are going towards the agency’s other work—such as forest conservation, watershed and cultural resources management, and infrastructure upkeep—that affect the lives of all Americans.<br />实际上，如今用于该机构影响所有美国人生活的其他工作（例如森林保护、流域和文化资源管理以及基础设施维护）的联邦资金减少了。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. avoid the redirection of federal money",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>避免联邦资金的重新分配</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>avoid</code>, <code>redirection</code>, <code>federal</code>（“避免联邦资金的重新分配”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.<br />2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“避免联邦资金的重新分配”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In effect, fewer federal funds today are going towards the agency’s other work—such as forest conservation, watershed and cultural resources management, and infrastructure upkeep—that affect the lives of all Americans.<br />实际上，如今用于该机构影响所有美国人生活的其他工作（例如森林保护、流域和文化资源管理以及基础设施维护）的联邦资金减少了。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. find wildfire-free parts of the landscape",
-          "html": "<p><strong>选项 B</strong>：<code>find wildfire-free parts of the landscape</code></p>\n<p><strong>中文翻译</strong>：找到景观中没有野火的部分</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>找到景观中没有野火的部分</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "37",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. find wildfire-free parts of the landscape",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>找到景观中没有野火的部分</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>find</code>, <code>wildfire</code>, <code>free</code>（“找到景观中没有野火的部分”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.<br />2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. find wildfire-free parts of the landscape",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>找到景观中没有野火的部分</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>find</code>, <code>wildfire</code>, <code>free</code>（“找到景观中没有野火的部分”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.<br />2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In effect, fewer federal funds today are going towards the agency’s other work—such as forest conservation, watershed and cultural resources management, and infrastructure upkeep—that affect the lives of all Americans.<br />实际上，如今用于该机构影响所有美国人生活的其他工作（例如森林保护、流域和文化资源管理以及基础设施维护）的联邦资金减少了。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. find wildfire-free parts of the landscape",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>找到景观中没有野火的部分</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>find</code>, <code>wildfire</code>, <code>free</code>（“找到景观中没有野火的部分”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.<br />2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In effect, fewer federal funds today are going towards the agency’s other work—such as forest conservation, watershed and cultural resources management, and infrastructure upkeep—that affect the lives of all Americans.<br />实际上，如今用于该机构影响所有美国人生活的其他工作（例如森林保护、流域和文化资源管理以及基础设施维护）的联邦资金减少了。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. raise more funds for fire-prone areas",
-          "html": "<p><strong>选项 C</strong>：<code>raise more funds for fire-prone areas</code></p>\n<p><strong>中文翻译</strong>：为火灾易发地区筹集更多资金</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>为火灾易发地区筹集更多资金</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "37",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. raise more funds for fire-prone areas",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>为火灾易发地区筹集更多资金</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>raise</code>, <code>more</code>, <code>funds</code>（“为火灾易发地区筹集更多资金”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.<br />2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. raise more funds for fire-prone areas",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>为火灾易发地区筹集更多资金</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>raise</code>, <code>more</code>, <code>funds</code>（“为火灾易发地区筹集更多资金”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.<br />2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In effect, fewer federal funds today are going towards the agency’s other work—such as forest conservation, watershed and cultural resources management, and infrastructure upkeep—that affect the lives of all Americans.<br />实际上，如今用于该机构影响所有美国人生活的其他工作（例如森林保护、流域和文化资源管理以及基础设施维护）的联邦资金减少了。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. raise more funds for fire-prone areas",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>为火灾易发地区筹集更多资金</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>raise</code>, <code>more</code>, <code>funds</code>（“为火灾易发地区筹集更多资金”）。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.<br />2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In effect, fewer federal funds today are going towards the agency’s other work—such as forest conservation, watershed and cultural resources management, and infrastructure upkeep—that affect the lives of all Americans.<br />实际上，如今用于该机构影响所有美国人生活的其他工作（例如森林保护、流域和文化资源管理以及基础设施维护）的联邦资金减少了。</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. guarantee safer spending of public funds",
-          "html": "<p><strong>选项 D</strong>：<code>guarantee safer spending of public funds</code></p>\n<p><strong>中文翻译</strong>：确保公共资金使用更加安全</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（D）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>确保公共资金使用更加安全</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "37",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. guarantee safer spending of public funds",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>确保公共资金使用更加安全</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>guarantee</code>, <code>safer</code>, <code>spending</code>，其对应的中文含义为“<strong>确保公共资金使用更加安全</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.<br />2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. guarantee safer spending of public funds",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>确保公共资金使用更加安全</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>guarantee</code>, <code>safer</code>, <code>spending</code>，其对应的中文含义为“<strong>确保公共资金使用更加安全</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.<br />2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In effect, fewer federal funds today are going towards the agency’s other work—such as forest conservation, watershed and cultural resources management, and infrastructure upkeep—that affect the lives of all Americans.<br />实际上，如今用于该机构影响所有美国人生活的其他工作（例如森林保护、流域和文化资源管理以及基础设施维护）的联邦资金减少了。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 D 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. guarantee safer spending of public funds",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>确保公共资金使用更加安全</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项的核心表达 <code>guarantee</code>, <code>safer</code>, <code>spending</code>，其对应的中文含义为“<strong>确保公共资金使用更加安全</strong>”。</p>\n<p>对比原文第 2 段定位句：</p>\n<blockquote><p>In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.<br />2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>In effect, fewer federal funds today are going towards the agency’s other work—such as forest conservation, watershed and cultural resources management, and infrastructure upkeep—that affect the lives of all Americans.<br />实际上，如今用于该机构影响所有美国人生活的其他工作（例如森林保护、流域和文化资源管理以及基础设施维护）的联邦资金减少了。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 D 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 D 选项（“确保公共资金使用更加安全”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：D正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "37题结论",
+          "html": "<blockquote>\n<p><strong>37. D. guarantee safer spending of public funds</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“避免联邦资金的重新分配”，但在原文定位句中，作者表达的态度或...；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li><li style=\"margin-bottom:6px\"><b>D</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "37",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "38题 · 题干、题型与核心出处",
-          "html": "<p><strong>38. While admitting that climate is a key element, Moritz notes that _______.</strong></p>\n<p>（莫里茨承认气候是一个关键因素，但他指出_______。）</p>\n<p><strong>题型判定</strong>：段落推理题 ｜ <strong>定位出处</strong>：Paragraph 3</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>While admitting that climate is a key element, Moritz notes that _______.<br />莫里茨承认气候是一个关键因素，但他指出_______。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>段落推理题</strong>，考查考生对第 <strong>3</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 3 段核心定位句）</h3>\n<blockquote>\n<p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.<br />另一个全国性的担忧是其他机构的公共资金是否用于火灾多发地区的建设。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 3 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "38"
+            "qid": "38",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. public debates have not settled yet",
-          "html": "<p><strong>选项 A</strong>：<code>public debates have not settled yet</code></p>\n<p><strong>中文翻译</strong>：公开辩论尚未平息</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>公开辩论尚未平息</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "38",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. public debates have not settled yet",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>公开辩论尚未平息</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>public</code>, <code>debates</code>, <code>not</code>（“公开辩论尚未平息”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.<br />另一个全国性的担忧是其他机构的公共资金是否用于火灾多发地区的建设。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. public debates have not settled yet",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>公开辩论尚未平息</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>public</code>, <code>debates</code>, <code>not</code>（“公开辩论尚未平息”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.<br />另一个全国性的担忧是其他机构的公共资金是否用于火灾多发地区的建设。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>As Moritz puts it, how often are federal dollars building homes that are likely to be lost to a wildfire?<br />正如莫里茨所说，联邦资金建造的房屋有多少可能被野火烧毁？</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. public debates have not settled yet",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>公开辩论尚未平息</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>public</code>, <code>debates</code>, <code>not</code>（“公开辩论尚未平息”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.<br />另一个全国性的担忧是其他机构的公共资金是否用于火灾多发地区的建设。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>As Moritz puts it, how often are federal dollars building homes that are likely to be lost to a wildfire?<br />正如莫里茨所说，联邦资金建造的房屋有多少可能被野火烧毁？</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. a shift in the view of fire has taken place",
-          "html": "<p><strong>选项 B</strong>：<code>a shift in the view of fire has taken place</code></p>\n<p><strong>中文翻译</strong>：对火的看法发生了转变</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>对火的看法发生了转变</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "38",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. a shift in the view of fire has taken place",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>对火的看法发生了转变</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>shift</code>, <code>view</code>, <code>fire</code>（“对火的看法发生了转变”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.<br />另一个全国性的担忧是其他机构的公共资金是否用于火灾多发地区的建设。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. a shift in the view of fire has taken place",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>对火的看法发生了转变</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>shift</code>, <code>view</code>, <code>fire</code>（“对火的看法发生了转变”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.<br />另一个全国性的担忧是其他机构的公共资金是否用于火灾多发地区的建设。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>As Moritz puts it, how often are federal dollars building homes that are likely to be lost to a wildfire?<br />正如莫里茨所说，联邦资金建造的房屋有多少可能被野火烧毁？</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. a shift in the view of fire has taken place",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>对火的看法发生了转变</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>shift</code>, <code>view</code>, <code>fire</code>（“对火的看法发生了转变”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.<br />另一个全国性的担忧是其他机构的公共资金是否用于火灾多发地区的建设。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>As Moritz puts it, how often are federal dollars building homes that are likely to be lost to a wildfire?<br />正如莫里茨所说，联邦资金建造的房屋有多少可能被野火烧毁？</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. other factors should not be overlooked",
-          "html": "<p><strong>选项 C</strong>：<code>other factors should not be overlooked</code></p>\n<p><strong>中文翻译</strong>：其他因素也不容忽视</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>其他因素也不容忽视</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "38",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. other factors should not be overlooked",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>其他因素也不容忽视</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>other</code>, <code>factors</code>, <code>should</code>，其对应的中文含义为“<strong>其他因素也不容忽视</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.<br />另一个全国性的担忧是其他机构的公共资金是否用于火灾多发地区的建设。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. other factors should not be overlooked",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>其他因素也不容忽视</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>other</code>, <code>factors</code>, <code>should</code>，其对应的中文含义为“<strong>其他因素也不容忽视</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.<br />另一个全国性的担忧是其他机构的公共资金是否用于火灾多发地区的建设。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>As Moritz puts it, how often are federal dollars building homes that are likely to be lost to a wildfire?<br />正如莫里茨所说，联邦资金建造的房屋有多少可能被野火烧毁？</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 C 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. other factors should not be overlooked",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>其他因素也不容忽视</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>other</code>, <code>factors</code>, <code>should</code>，其对应的中文含义为“<strong>其他因素也不容忽视</strong>”。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.<br />另一个全国性的担忧是其他机构的公共资金是否用于火灾多发地区的建设。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>As Moritz puts it, how often are federal dollars building homes that are likely to be lost to a wildfire?<br />正如莫里茨所说，联邦资金建造的房屋有多少可能被野火烧毁？</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 C 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 C 选项（“其他因素也不容忽视”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：C正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. fire-fighting conditions are improving",
-          "html": "<p><strong>选项 D</strong>：<code>fire-fighting conditions are improving</code></p>\n<p><strong>中文翻译</strong>：消防条件不断改善</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>消防条件不断改善</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "38",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. fire-fighting conditions are improving",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>消防条件不断改善</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>fire</code>, <code>fighting</code>, <code>conditions</code>（“消防条件不断改善”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.<br />另一个全国性的担忧是其他机构的公共资金是否用于火灾多发地区的建设。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>fire</code>, <code>fighting</code>, <code>conditions</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. fire-fighting conditions are improving",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>消防条件不断改善</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>fire</code>, <code>fighting</code>, <code>conditions</code>（“消防条件不断改善”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.<br />另一个全国性的担忧是其他机构的公共资金是否用于火灾多发地区的建设。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>fire</code>, <code>fighting</code>, <code>conditions</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>As Moritz puts it, how often are federal dollars building homes that are likely to be lost to a wildfire?<br />正如莫里茨所说，联邦资金建造的房屋有多少可能被野火烧毁？</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. fire-fighting conditions are improving",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>消防条件不断改善</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（偷换概念 / 偏离主干）。</strong></p>\n<strong>出处：</strong><blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>fire</code>, <code>fighting</code>, <code>conditions</code>（“消防条件不断改善”）。</p>\n<p>对比原文第 3 段定位句：</p>\n<blockquote><p>Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.<br />另一个全国性的担忧是其他机构的公共资金是否用于火灾多发地区的建设。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：借用了原文的词汇 <code>fire</code>, <code>fighting</code>, <code>conditions</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>As Moritz puts it, how often are federal dollars building homes that are likely to be lost to a wildfire?<br />正如莫里茨所说，联邦资金建造的房屋有多少可能被野火烧毁？</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "38题结论",
+          "html": "<blockquote>\n<p><strong>38. C. other factors should not be overlooked</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>C</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>fire</code>, <code>f...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "38",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "39题 · 题干、题型与核心出处",
-          "html": "<p><strong>39. The overly simplified view Moritz mentions is a result of failing to _______.</strong></p>\n<p>（莫里茨提到的过于简化的观点是未能_______的结果。）</p>\n<p><strong>题型判定</strong>：词义/例证题 ｜ <strong>定位出处</strong>：Paragraph 4</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>The overly simplified view Moritz mentions is a result of failing to _______.<br />莫里茨提到的过于简化的观点是未能_______的结果。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>词义/例证题</strong>，考查考生对第 <strong>4</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 4 段核心定位句）</h3>\n<blockquote>\n<p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.<br />“从整个国家公共支出的角度来看，这已经是一个巨大的问题，”他说。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 4 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "39"
+            "qid": "39",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. discover the fundamental makeup of nature",
-          "html": "<p><strong>选项 A</strong>：<code>discover the fundamental makeup of nature</code></p>\n<p><strong>中文翻译</strong>：发现自然的基本构成</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>发现自然的基本构成</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "39",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. discover the fundamental makeup of nature",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>发现自然的基本构成</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>discover</code>, <code>fundamental</code>, <code>makeup</code>（“发现自然的基本构成”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.<br />“从整个国家公共支出的角度来看，这已经是一个巨大的问题，”他说。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. discover the fundamental makeup of nature",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>发现自然的基本构成</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>discover</code>, <code>fundamental</code>, <code>makeup</code>（“发现自然的基本构成”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.<br />“从整个国家公共支出的角度来看，这已经是一个巨大的问题，”他说。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>“We need to take a magnifying glass to that.<br />“我们需要用放大镜来观察这一点。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. discover the fundamental makeup of nature",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>发现自然的基本构成</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>discover</code>, <code>fundamental</code>, <code>makeup</code>（“发现自然的基本构成”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.<br />“从整个国家公共支出的角度来看，这已经是一个巨大的问题，”他说。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>“We need to take a magnifying glass to that.<br />“我们需要用放大镜来观察这一点。</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. explore the mechanism of the human systems",
-          "html": "<p><strong>选项 B</strong>：<code>explore the mechanism of the human systems</code></p>\n<p><strong>中文翻译</strong>：探索人体系统的机制</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (反向干扰)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：反向干扰】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>探索人体系统的机制</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "39",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. explore the mechanism of the human systems",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>探索人体系统的机制</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>explore</code>, <code>mechanism</code>, <code>human</code>（“探索人体系统的机制”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.<br />“从整个国家公共支出的角度来看，这已经是一个巨大的问题，”他说。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“探索人体系统的机制”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. explore the mechanism of the human systems",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>探索人体系统的机制</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>explore</code>, <code>mechanism</code>, <code>human</code>（“探索人体系统的机制”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.<br />“从整个国家公共支出的角度来看，这已经是一个巨大的问题，”他说。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“探索人体系统的机制”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>“We need to take a magnifying glass to that.<br />“我们需要用放大镜来观察这一点。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. explore the mechanism of the human systems",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>探索人体系统的机制</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项中的核心部分 <code>explore</code>, <code>mechanism</code>, <code>human</code>（“探索人体系统的机制”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.<br />“从整个国家公共支出的角度来看，这已经是一个巨大的问题，”他说。</p></blockquote>\n<p>把 B 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“探索人体系统的机制”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 B 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>“We need to take a magnifying glass to that.<br />“我们需要用放大镜来观察这一点。</p></blockquote>\n<p>实际后文并未沿着 B 选项主张的逻辑展开。如果 B 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：B错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. understand the interrelations of man and nature",
-          "html": "<p><strong>选项 C</strong>：<code>understand the interrelations of man and nature</code></p>\n<p><strong>中文翻译</strong>：了解人与自然的相互关系</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（C）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>了解人与自然的相互关系</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "39",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. understand the interrelations of man and nature",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>了解人与自然的相互关系</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>understand</code>, <code>interrelations</code>, <code>man</code>，其对应的中文含义为“<strong>了解人与自然的相互关系</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.<br />“从整个国家公共支出的角度来看，这已经是一个巨大的问题，”他说。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. understand the interrelations of man and nature",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>了解人与自然的相互关系</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>understand</code>, <code>interrelations</code>, <code>man</code>，其对应的中文含义为“<strong>了解人与自然的相互关系</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.<br />“从整个国家公共支出的角度来看，这已经是一个巨大的问题，”他说。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>“We need to take a magnifying glass to that.<br />“我们需要用放大镜来观察这一点。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 C 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. understand the interrelations of man and nature",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>了解人与自然的相互关系</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项的核心表达 <code>understand</code>, <code>interrelations</code>, <code>man</code>，其对应的中文含义为“<strong>了解人与自然的相互关系</strong>”。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.<br />“从整个国家公共支出的角度来看，这已经是一个巨大的问题，”他说。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>“We need to take a magnifying glass to that.<br />“我们需要用放大镜来观察这一点。</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 C 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 C 选项（“了解人与自然的相互关系”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：C正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. maximize the role of landscape in human life",
-          "html": "<p><strong>选项 D</strong>：<code>maximize the role of landscape in human life</code></p>\n<p><strong>中文翻译</strong>：最大限度地发挥景观在人类生活中的作用</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>最大限度地发挥景观在人类生活中的作用</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "39",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. maximize the role of landscape in human life",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>最大限度地发挥景观在人类生活中的作用</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>maximize</code>, <code>role</code>, <code>landscape</code>（“最大限度地发挥景观在人类生活中的作用”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.<br />“从整个国家公共支出的角度来看，这已经是一个巨大的问题，”他说。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. maximize the role of landscape in human life",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>最大限度地发挥景观在人类生活中的作用</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>maximize</code>, <code>role</code>, <code>landscape</code>（“最大限度地发挥景观在人类生活中的作用”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.<br />“从整个国家公共支出的角度来看，这已经是一个巨大的问题，”他说。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>“We need to take a magnifying glass to that.<br />“我们需要用放大镜来观察这一点。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. maximize the role of landscape in human life",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>最大限度地发挥景观在人类生活中的作用</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（张冠李戴 / 范围偏差）。</strong></p>\n<strong>出处：</strong><blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>maximize</code>, <code>role</code>, <code>landscape</code>（“最大限度地发挥景观在人类生活中的作用”）。</p>\n<p>对比原文第 4 段定位句：</p>\n<blockquote><p>“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.<br />“从整个国家公共支出的角度来看，这已经是一个巨大的问题，”他说。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>“We need to take a magnifying glass to that.<br />“我们需要用放大镜来观察这一点。</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "39题结论",
+          "html": "<blockquote>\n<p><strong>39. C. understand the interrelations of man and nature</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>B</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“探索人体系统的机制”，但在原文定位句中，作者表达的态度或客观...；</li><li style=\"margin-bottom:6px\"><b>C</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "39",
+            "form": "conclusion"
           }
         },
         {
           "section": 3,
           "title": "40题 · 题干、题型与核心出处",
-          "html": "<p><strong>40. Professor Balch points out that fire is something man should _______.</strong></p>\n<p>（巴尔奇教授指出，火是人类应该_______的东西。）</p>\n<p><strong>题型判定</strong>：全文主旨题 ｜ <strong>定位出处</strong>：Paragraph 5</p>\n<p><strong>命题人设题思路</strong>：考查考生对定位句核心主谓宾骨干的把握与同义替换识别能力。</p>",
+          "html": "<blockquote>\n<p>Professor Balch points out that fire is something man should _______.<br />巴尔奇教授指出，火是人类应该_______的东西。</p>\n</blockquote>\n<h3>题型判定与解题策略</h3>\n<p>这是一道<strong>全文主旨题</strong>，考查考生对第 <strong>5</strong> 段核心事实、论证逻辑或作者观点的准确把握。</p>\n<h3>定位出处（第 5 段核心定位句）</h3>\n<blockquote>\n<p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.<br />研究人员表示，这种观点需要当今美国社会对火灾的看法发生相应的转变。</p>\n</blockquote>\n<p><strong>命题人设题思路与考查意图</strong>：命题人围绕第 5 段的关键信息设题，通过考查考生对定位句核心主谓宾骨干的提炼能力，在干扰项中设置词汇拼凑、范围扩大或态度反转等典型陷阱，测试考生能否排除表面词汇干扰、锁定本质同义替换。</p>",
           "meta": {
             "section": 3,
-            "qid": "40"
+            "qid": "40",
+            "form": "overview"
           }
         },
         {
           "section": 3,
           "title": "A. do away with",
-          "html": "<p><strong>选项 A</strong>：<code>do away with</code></p>\n<p><strong>中文翻译</strong>：废除</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (偷换概念)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：偷换概念】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>废除</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "40",
-            "option": "A"
+            "option": "A",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. do away with",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>废除</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>away</code>（“废除”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.<br />研究人员表示，这种观点需要当今美国社会对火灾的看法发生相应的转变。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“废除”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "A",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. do away with",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>废除</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>away</code>（“废除”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.<br />研究人员表示，这种观点需要当今美国社会对火灾的看法发生相应的转变。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“废除”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>For one thing, conversations about wildfires need to be more inclusive<br />For one thing, conversations about wildfires need to be more inclusive</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "A",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "A. do away with",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>废除</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 A 选项中的核心部分 <code>away</code>（“废除”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.<br />研究人员表示，这种观点需要当今美国社会对火灾的看法发生相应的转变。</p></blockquote>\n<p>把 A 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“废除”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 A 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>For one thing, conversations about wildfires need to be more inclusive<br />For one thing, conversations about wildfires need to be more inclusive</p></blockquote>\n<p>实际后文并未沿着 A 选项主张的逻辑展开。如果 A 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：A错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "A",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "B. come to terms with",
-          "html": "<p><strong>选项 B</strong>：<code>come to terms with</code></p>\n<p><strong>中文翻译</strong>：达成协议</p>\n<p><strong>选项性质</strong>：<span class=\"correct-badge\">★ 标准正确答案</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【官方标准正解（B）】精准契合原文定位句事实与同义替换逻辑。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>达成协议</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "40",
-            "option": "B"
+            "option": "B",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. come to terms with",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>达成协议</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>come</code>, <code>terms</code>，其对应的中文含义为“<strong>达成协议</strong>”。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.<br />研究人员表示，这种观点需要当今美国社会对火灾的看法发生相应的转变。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "B",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. come to terms with",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>达成协议</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>come</code>, <code>terms</code>，其对应的中文含义为“<strong>达成协议</strong>”。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.<br />研究人员表示，这种观点需要当今美国社会对火灾的看法发生相应的转变。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>For one thing, conversations about wildfires need to be more inclusive<br />For one thing, conversations about wildfires need to be more inclusive</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 B 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "B",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "B. come to terms with",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>达成协议</p></blockquote>\n<p><strong>做题模式中的状态：</strong>选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。</p>\n<p><strong>选项性质：★ 标准正确同义改写。</strong></p>\n<strong>出处：</strong><blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 B 选项的核心表达 <code>come</code>, <code>terms</code>，其对应的中文含义为“<strong>达成协议</strong>”。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.<br />研究人员表示，这种观点需要当今美国社会对火灾的看法发生相应的转变。</p></blockquote>\n<p>把选项拆开与原文逐层比对：</p>\n<ul>\n  <li><strong>主干对应</strong>：选项准确概括了原文动作主体与关键行为，没有随意添加未经证实的极端限定；</li>\n  <li><strong>同义改写</strong>：选项用规范的学术表达对原文具体事实进行了提炼概括，二者语义完全等价；</li>\n  <li><strong>设题解密</strong>：命题人在正选中故意避免直接照搬原文原词，而是通过抽象化或同义替换提高辨识门槛，只有读懂句子核心主干才能坚定秒选。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>For one thing, conversations about wildfires need to be more inclusive<br />For one thing, conversations about wildfires need to be more inclusive</p></blockquote>\n<p>实际后文紧紧围绕该核心论点展开深入剖析与事实论证。如果 B 选项成立，后文行文脉络与论证走向完全自然衔接，体现了作者严密的篇章逻辑。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文核心论调与主旨推演：本文全文围绕该论题展开严谨论述。将 B 选项（“达成协议”）直接代入题干进行反向语义闭环检验，完全契合文章主旨走向，孤证不立，再次百分之百确证答案。</p>\n<p><strong>复盘判断：B正确。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "B",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "C. pay a price for",
-          "html": "<p><strong>选项 C</strong>：<code>pay a price for</code></p>\n<p><strong>中文翻译</strong>：付出代价</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (无中生有)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：无中生有】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>付出代价</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "40",
-            "option": "C"
+            "option": "C",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. pay a price for",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>付出代价</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>pay</code>, <code>price</code>（“付出代价”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.<br />研究人员表示，这种观点需要当今美国社会对火灾的看法发生相应的转变。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "C",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. pay a price for",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>付出代价</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>pay</code>, <code>price</code>（“付出代价”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.<br />研究人员表示，这种观点需要当今美国社会对火灾的看法发生相应的转变。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>For one thing, conversations about wildfires need to be more inclusive<br />For one thing, conversations about wildfires need to be more inclusive</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "C",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "C. pay a price for",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>付出代价</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（无中生有 / 过度推断）。</strong></p>\n<strong>出处：</strong><blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 C 选项中的核心部分 <code>pay</code>, <code>price</code>（“付出代价”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.<br />研究人员表示，这种观点需要当今美国社会对火灾的看法发生相应的转变。</p></blockquote>\n<p>把 C 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 C 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>For one thing, conversations about wildfires need to be more inclusive<br />For one thing, conversations about wildfires need to be more inclusive</p></blockquote>\n<p>实际后文并未沿着 C 选项主张的逻辑展开。如果 C 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：C错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "C",
+            "form": 3
           }
         },
         {
           "section": 3,
           "title": "D. keep away from",
-          "html": "<p><strong>选项 D</strong>：<code>keep away from</code></p>\n<p><strong>中文翻译</strong>：远离</p>\n<p><strong>选项性质</strong>：<span class=\"trap-badge\">干扰项 (过度推断)</span></p>\n<p><strong>命题人设计意图与避坑解析</strong>：【考研命题干扰项：过度推断】偏离原文事实细节或存在过度推断。</p>",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>远离</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.</p></blockquote>\n</section>",
           "meta": {
             "section": 3,
             "qid": "40",
-            "option": "D"
+            "option": "D",
+            "form": 0
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. keep away from",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>远离</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>keep</code>, <code>away</code>（“远离”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.<br />研究人员表示，这种观点需要当今美国社会对火灾的看法发生相应的转变。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“远离”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "D",
+            "form": 1
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. keep away from",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>远离</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>keep</code>, <code>away</code>（“远离”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.<br />研究人员表示，这种观点需要当今美国社会对火灾的看法发生相应的转变。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“远离”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>For one thing, conversations about wildfires need to be more inclusive<br />For one thing, conversations about wildfires need to be more inclusive</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "D",
+            "form": 2
+          }
+        },
+        {
+          "section": 3,
+          "title": "D. keep away from",
+          "html": "<section class=\"revealPart optionLead\">\n<blockquote><p>远离</p></blockquote>\n<p><strong>做题模式中的状态：</strong>在初步比对时发现与定位句事实存在偏差，果断排除。</p>\n<p><strong>错误类型：干扰项（反向干扰 / 颠倒黑白）。</strong></p>\n<strong>出处：</strong><blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.</p></blockquote>\n</section>\n<section class=\"revealPart\"><h3>定位比对法</h3>\n<p>我们先看 D 选项中的核心部分 <code>keep</code>, <code>away</code>（“远离”）。</p>\n<p>对比原文第 5 段定位句：</p>\n<blockquote><p>Such a view would require a corresponding shift in the way US society today views fire, researchers say.<br />研究人员表示，这种观点需要当今美国社会对火灾的看法发生相应的转变。</p></blockquote>\n<p>把 D 选项接到题干后面进行语义检验：</p>\n<ul>\n  <li><strong>命题人设坑套路</strong>：选项声称“远离”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。</li>\n  <li><strong>本质差异剖析</strong>：原文强调的是客观严谨的事实逻辑，而 D 选项在关键论断上存在明显的逻辑断层，无法与题干构成直接合理的答题闭环。</li>\n</ul></section>\n<section class=\"revealPart\"><h3>写作视角法</h3>\n<p>后文实际写的是：</p>\n<blockquote><p>For one thing, conversations about wildfires need to be more inclusive<br />For one thing, conversations about wildfires need to be more inclusive</p></blockquote>\n<p>实际后文并未沿着 D 选项主张的逻辑展开。如果 D 选项成立，后文应该讨论相反的事实或矛盾，这与文章实际走向彻底相悖，因此该选项在行文逻辑上无法立足。</p></section>\n<section class=\"revealPart\"><h3>主旨交叉验证法</h3>\n<p>结合全文主旨推演：全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。</p>\n<p><strong>复盘判断：D错误，坚决排除。</strong></p></section>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "option": "D",
+            "form": 3
+          }
+        },
+        {
+          "section": 3,
+          "title": "40题结论",
+          "html": "<blockquote>\n<p><strong>40. B. come to terms with</strong></p>\n</blockquote>\n<p>这道题的四个选项命题设计意图与避坑归纳：</p>\n<ul style=\"line-height:1.8\">\n<li style=\"margin-bottom:6px\"><b>A</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“废除”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，...；</li><li style=\"margin-bottom:6px\"><b>B</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；</li><li style=\"margin-bottom:6px\"><b>C</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；</li><li style=\"margin-bottom:6px\"><b>D</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“远离”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，...；</li>\n</ul>",
+          "meta": {
+            "section": 3,
+            "qid": "40",
+            "form": "conclusion"
           }
         },
         {
