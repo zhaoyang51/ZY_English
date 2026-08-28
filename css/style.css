@@ -1,6 +1,6 @@
 /* ==========================================================================
    Kaoyan English II (2010-2026) Interactive Reading & Review System Styles
-   Full Mobile & Tablet Responsive Overhaul + Floating Navigation Widget
+   Mobile & Tablet Native Scrolling + Floating Bottom Navigation
    ========================================================================== */
 
 :root {
@@ -65,18 +65,32 @@ body.theme-dark {
   -webkit-tap-highlight-color: transparent;
 }
 
-html, body {
+html {
   margin: 0;
   padding: 0;
   height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
   width: 100%;
   background: var(--bg);
   color: var(--ink);
   font-family: var(--font-base);
   font-size: 15px;
   line-height: 1.6;
-  overflow: hidden;
   transition: background .2s ease, color .2s ease;
+}
+
+/* On Desktop: fixed height dual-panel */
+@media (min-width: 901px) {
+  body {
+    height: 100%;
+    overflow: hidden;
+  }
 }
 
 /* ==========================================================================
@@ -94,7 +108,7 @@ html, body {
 }
 
 .topbar-main {
-  min-height: 56px;
+  min-height: 52px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -106,7 +120,7 @@ html, body {
 .brand-section {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   flex-wrap: wrap;
 }
 
@@ -128,7 +142,7 @@ html, body {
 .brand-badge {
   font-size: 11px;
   font-weight: 700;
-  padding: 2px 7px;
+  padding: 2px 6px;
   border-radius: 6px;
   background: var(--accent);
   color: #fff;
@@ -143,7 +157,7 @@ html, body {
 .custom-select, .btn {
   font-family: var(--font-sans);
   font-size: 13.5px;
-  padding: 6px 10px;
+  padding: 5px 10px;
   border-radius: 8px;
   border: 1px solid var(--border);
   background: var(--panel-bg);
@@ -218,7 +232,7 @@ html, body {
 }
 
 .btn:disabled {
-  opacity: 0.4;
+  opacity: 0.35;
   cursor: not-allowed;
 }
 
@@ -242,7 +256,7 @@ html, body {
   padding: 4px 8px;
 }
 
-/* Mobile Tabs Switcher Bar (Hidden on Desktop) */
+/* Mobile Tabs Switcher Bar */
 .mobile-tabs-bar {
   display: none;
   background: var(--panel-bg);
@@ -289,7 +303,7 @@ body.mode-review .mobile-tab-btn.active {
   grid-template-columns: minmax(420px, 44fr) minmax(560px, 56fr);
   gap: 12px;
   padding: 12px;
-  height: calc(100vh - 58px);
+  height: calc(100vh - 56px);
   min-height: 0;
   transition: grid-template-columns .2s ease;
 }
@@ -338,14 +352,13 @@ body.mode-review .mobile-tab-btn.active {
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
   min-height: 0;
-  overscroll-behavior: contain;
 }
 
 /* ==========================================================================
    Left Panel: Authentic Exam Paper
    ========================================================================== */
 .exam-paper {
-  padding: 24px 32px 100px;
+  padding: 24px 32px 140px;
   max-width: 860px;
   margin: 0 auto;
   font-family: var(--font-serif);
@@ -481,7 +494,7 @@ body.theme-dark .q-opt.active-opt {
    Right Panel: Thinking & Review Workspace
    ========================================================================== */
 .workspace {
-  padding: 26px 36px 120px;
+  padding: 26px 36px 150px;
   max-width: 1050px;
   margin: 0 auto;
   font-size: 16.5px;
@@ -616,7 +629,7 @@ body.theme-dark .mask {
   width: 100%;
   border-collapse: collapse;
   font-size: 14px;
-  min-width: 600px;
+  min-width: 580px;
 }
 
 .workspace th, .workspace td {
@@ -644,26 +657,26 @@ body.theme-dark .workspace tr.correct-row {
    ========================================================================== */
 .floating-nav-bar {
   position: fixed;
-  bottom: calc(18px + env(safe-area-inset-bottom, 0px));
-  right: 18px;
+  bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+  right: 20px;
   z-index: 999;
   display: flex;
   align-items: center;
   gap: 8px;
   background: rgba(var(--panel-bg-rgb), 0.94);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   padding: 6px 10px;
   border-radius: 40px;
-  box-shadow: 0 8px 26px rgba(0,0,0,0.16), 0 2px 8px rgba(0,0,0,0.06);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2), 0 2px 8px rgba(0,0,0,0.08);
   border: 1px solid var(--border);
   transition: all .2s ease;
 }
 
 .float-btn {
-  height: 40px;
-  min-width: 80px;
-  border-radius: 20px;
+  height: 42px;
+  min-width: 82px;
+  border-radius: 21px;
   border: 1px solid var(--border);
   background: var(--panel-bg);
   color: var(--ink);
@@ -683,11 +696,10 @@ body.theme-dark .workspace tr.correct-row {
 .float-btn:hover:not(:disabled) {
   border-color: #94a3b8;
   background: rgba(0,0,0,0.04);
-  transform: translateY(-1px);
 }
 
 .float-btn:active:not(:disabled) {
-  transform: translateY(1px);
+  transform: scale(0.96);
 }
 
 .float-btn:disabled {
@@ -729,7 +741,7 @@ body.mode-review .float-btn.primary {
 
 /* Full Mode View */
 .all-mode-container {
-  padding-bottom: 100px;
+  padding-bottom: 140px;
 }
 
 .step-card {
@@ -742,18 +754,30 @@ body.mode-review .float-btn.primary {
 }
 
 /* ==========================================================================
-   Responsive Breakpoints: Mobile (<768px) & Tablet (768px - 1024px)
+   Mobile (<900px): Native Window Momentum Scrolling
    ========================================================================== */
-
-/* Tablet (Portrait) & Mobile: Screens <= 900px */
 @media (max-width: 900px) {
-  .topbar {
+  html {
     height: auto;
+    overflow-x: hidden;
+  }
+
+  body {
+    height: auto;
+    min-height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto; /* Enable native phone scrolling! */
+  }
+
+  .topbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
   
   .topbar-main {
     padding: 6px 10px;
-    gap: 8px;
+    gap: 6px;
   }
   
   .brand-title {
@@ -770,13 +794,18 @@ body.mode-review .float-btn.primary {
   
   .mobile-tabs-bar {
     display: flex;
+    position: sticky;
+    top: 52px;
+    z-index: 99;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
   }
   
   .layout {
-    grid-template-columns: 1fr;
-    padding: 6px;
-    gap: 0;
-    height: calc(100vh - 96px);
+    display: block;
+    height: auto;
+    min-height: calc(100dvh - 100px);
+    padding: 8px;
+    overflow: visible;
   }
   
   .layout.show-left .right-panel {
@@ -784,8 +813,9 @@ body.mode-review .float-btn.primary {
   }
   
   .layout.show-left .left-panel {
-    display: flex !important;
+    display: block !important;
     width: 100%;
+    height: auto;
   }
   
   .layout.show-right .left-panel {
@@ -793,17 +823,33 @@ body.mode-review .float-btn.primary {
   }
   
   .layout.show-right .right-panel {
-    display: flex !important;
+    display: block !important;
     width: 100%;
+    height: auto;
   }
   
   .panel {
-    border-radius: 8px;
-    height: 100%;
+    border-radius: 10px;
+    height: auto;
+    overflow: visible;
+  }
+  
+  .panel-header {
+    position: sticky;
+    top: 96px;
+    z-index: 90;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .scroll-container {
+    height: auto;
+    overflow: visible;
+    -webkit-overflow-scrolling: touch;
   }
   
   .exam-paper {
-    padding: 16px 14px 110px;
+    padding: 16px 12px calc(160px + env(safe-area-inset-bottom, 20px)) !important;
     font-size: 16.5px;
     line-height: 1.68;
   }
@@ -813,9 +859,9 @@ body.mode-review .float-btn.primary {
   }
   
   .workspace {
-    padding: 16px 14px 110px;
+    padding: 16px 12px calc(160px + env(safe-area-inset-bottom, 20px)) !important;
     font-size: 15.5px;
-    line-height: 1.66;
+    line-height: 1.68;
   }
   
   .workspace h1 {
@@ -831,19 +877,22 @@ body.mode-review .float-btn.primary {
   }
   
   .floating-nav-bar {
-    bottom: calc(12px + env(safe-area-inset-bottom, 0px));
-    right: 12px;
-    left: 12px;
+    bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+    right: 14px;
+    left: 14px;
+    margin: 0 auto;
+    max-width: 380px;
     justify-content: space-between;
-    padding: 6px 8px;
+    padding: 6px 10px;
     border-radius: 30px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.22);
   }
   
   .float-btn {
     flex: 1;
-    max-width: 130px;
+    max-width: 125px;
     height: 42px;
-    font-size: 14.5px;
+    font-size: 14px;
   }
 }
 
@@ -856,12 +905,12 @@ body.mode-review .float-btn.primary {
   }
   
   .exam-paper {
-    padding: 20px 22px 100px;
+    padding: 20px 22px 140px;
     font-size: 17px;
   }
   
   .workspace {
-    padding: 20px 24px 100px;
+    padding: 20px 24px 140px;
     font-size: 16px;
   }
 }

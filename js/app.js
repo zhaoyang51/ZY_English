@@ -181,6 +181,9 @@
     // Auto scroll right workspace to top
     const rightScroll = document.getElementById('rightScroll');
     if (rightScroll) rightScroll.scrollTo({ top: 0, behavior: 'smooth' });
+    if (window.innerWidth <= 900) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
   }
   
   function updateUIControls() {
