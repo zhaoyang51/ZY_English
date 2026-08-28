@@ -54,6 +54,10 @@
       
       <button id="toggleAllBtn" class="btn" style="border:1px solid var(--border);border-radius:var(--radius-sm)">显示全部</button>
       
+      <!-- Analytics Dashboard & Exporter Buttons -->
+      <button id="statsBtn" class="btn" style="border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--mode-color)">📊 学习看板</button>
+      <button id="exportBtn" class="btn" style="border:1px solid var(--border);border-radius:var(--radius-sm)">📥 导出资料</button>
+
       <!-- Theme Switcher -->
       <select id="themeSelect" class="select-control" title="界面主题">
         <option value="light">☀️ 浅色明亮</option>
@@ -109,12 +113,69 @@
     <div class="syntax-modal-body" id="syntaxModalContent"></div>
   </div>
 
+  <!-- Statistics Analytics Dashboard Modal -->
+  <div class="modal-overlay" id="statsModal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <span style="font-weight:800;font-size:1.1em;color:var(--mode-color)">📊 考研英语二全真学习进度看板</span>
+        <button class="toolbar-btn" id="closeStatsBtn" style="padding:4px 10px">✕ 关闭</button>
+      </div>
+      <div class="modal-body" id="statsModalBody"></div>
+    </div>
+  </div>
+
+  <!-- Multi-Format Exporter Modal -->
+  <div class="modal-overlay" id="exportModal">
+    <div class="modal-dialog" style="width:560px">
+      <div class="modal-header">
+        <span style="font-weight:800;font-size:1.1em;color:var(--mode-color)">📥 考研真题资料多格式导出中心</span>
+        <button class="toolbar-btn" id="closeExportBtn" style="padding:4px 10px">✕ 关闭</button>
+      </div>
+      <div class="modal-body">
+        <div class="export-card-grid">
+          <div class="export-item-card">
+            <div class="export-item-info">
+              <h4>🃏 导出当前篇章生词卡片 (Anki)</h4>
+              <p>制表符格式 (.txt)，含单词、大纲释义、真题语境原句与出处</p>
+            </div>
+            <button class="float-btn" id="btnExpCurrentAnki" style="position:static;font-size:0.88em;padding:6px 14px">📥 导出</button>
+          </div>
+
+          <div class="export-item-card">
+            <div class="export-item-info">
+              <h4>📚 导出全量已收藏生词本 (Anki)</h4>
+              <p>一键打包本地生词本所有单词为 Anki 记忆卡片</p>
+            </div>
+            <button class="float-btn" id="btnExpAllAnki" style="position:static;font-size:0.88em;padding:6px 14px">📥 导出</button>
+          </div>
+
+          <div class="export-item-card">
+            <div class="export-item-info">
+              <h4>📄 导出整篇真题精读复盘笔记 (Markdown)</h4>
+              <p>排版精美的 .md 笔记，含原文、词汇矩阵、长难句与命题人推演</p>
+            </div>
+            <button class="float-btn" id="btnExpNotesMd" style="position:static;font-size:0.88em;padding:6px 14px;background:var(--accent)">📥 导出</button>
+          </div>
+
+          <div class="export-item-card">
+            <div class="export-item-info">
+              <h4>📕 导出个人错题本分析报告 (Markdown)</h4>
+              <p>汇总所有错题、标准正解、我的错误项及五维错因自查归因</p>
+            </div>
+            <button class="float-btn" id="btnExpMistakesMd" style="position:static;font-size:0.88em;padding:6px 14px;background:#be123c">📥 导出</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Pure Structured JSON Database Bridge & In-Browser Dictionary -->
   <script src="data/all_data.js"></script>
   <script src="data/vocab_dict.js"></script>
   
   <!-- Modular JS Application Components -->
   <script src="js/storage.js"></script>
+  <script src="js/exporter.js"></script>
   <script src="js/reader.js"></script>
   <script src="js/quiz.js"></script>
   <script src="js/app.js"></script>

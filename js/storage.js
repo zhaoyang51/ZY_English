@@ -1,15 +1,23 @@
 /**
- * LocalStorage Progress, Settings, Word Bookmarks, Mock Scores & Error Causes
+ * LocalStorage Full Management & Analytics
+ * Manages:
+ * 1. User reading progress & settings
+ * 2. Per-text study time and completion stats
+ * 3. Structured Vocabulary Book (with sentence context)
+ * 4. Mistakes Book (with error reasons)
+ * 5. Mock Exam Answers & Scores
  */
 (function() {
   const PROGRESS_KEY = 'KAOYAN_USER_PROGRESS_V4';
   const SETTINGS_KEY = 'KAOYAN_USER_SETTINGS_V1';
-  const BOOKMARK_KEY = 'KAOYAN_USER_BOOKMARKS_V1';
-  const MOCK_ANSWERS_KEY = 'KAOYAN_MOCK_ANSWERS_V1';
+  const STATS_KEY = 'KAOYAN_STUDY_STATS_V2';
+  const VOCAB_BOOK_KEY = 'KAOYAN_VOCAB_BOOK_V2';
   const MISTAKES_KEY = 'KAOYAN_MISTAKES_BOOK_V1';
   const ERROR_REASONS_KEY = 'KAOYAN_ERROR_REASONS_V1';
+  const MOCK_ANSWERS_KEY = 'KAOYAN_MOCK_ANSWERS_V1';
 
   window.StorageModule = {
+    // --- Progress & Settings ---
     saveProgress(state) {
       try {
         const payload = {
@@ -54,7 +62,136 @@
       };
     },
 
-    // Mock Answers
+    // --- Study Time & Text Stats ---
+    recordTimeSpent(year, textId, seconds) {
+      try {
+        const stats = this.getAllStats();
+        const key = `${year}_${textId}`;
+        if (!stats.texts[key]) {
+          stats.texts[key] = { completed: false, accuracy: null, timeSpentSec: 0, lastVisited: Date.now() };
+        }
+        stats.texts[key].timeSpentSec = (stats.texts[key].timeSpentSec || 0) + seconds;
+        stats.texts[key].lastVisited = Date.now();
+        stats.totalTimeSpentSec = (stats.totalTimeSpentSec || 0) + seconds;
+        localStorage.setItem(STATS_KEY, JSON.stringify(stats));
+      } catch (e) {}
+    },
+
+    markTextCompleted(year, textId, accuracy) {
+      try {
+        const stats = this.getAllStats();
+        const key = `${year}_${textId}`;
+        if (!stats.texts[key]) {
+          stats.texts[key] = { completed: true, accuracy: accuracy, timeSpentSec: 0, lastVisited: Date.now() };
+        } else {
+          stats.texts[key].completed = true;
+          if (typeof accuracy === 'number') stats.texts[key].accuracy = accuracy;
+          stats.texts[key].lastVisited = Date.now();
+        }
+        localStorage.setItem(STATS_KEY, JSON.stringify(stats));
+      } catch (e) {}
+    },
+
+    getAllStats() {
+      try {
+        const s = localStorage.getItem(STATS_KEY);
+        if (s) return JSON.parse(s);
+      } catch (e) {}
+      return { totalTimeSpentSec: 0, texts: {} };
+    },
+
+    getDashboardMetrics() {
+      const stats = this.getAllStats();
+      const totalTexts = 56;
+      let completedCount = 0;
+      let totalAcc = 0;
+      let accCount = 0;
+
+      Object.values(stats.texts || {}).forEach(t => {
+        if (t.completed) completedCount++;
+        if (typeof t.accuracy === 'number') {
+          totalAcc += t.accuracy;
+          accCount++;
+        }
+      });
+
+      const avgAcc = accCount > 0 ? Math.round(totalAcc / accCount) : 0;
+      const vocabCount = this.getVocabBook().length;
+      const mistakesCount = this.getMistakes().length;
+
+      return {
+        totalTexts,
+        completedCount,
+        progressPercent: Math.round((completedCount / totalTexts) * 100),
+        avgAccuracy: avgAcc,
+        totalTimeSpentSec: stats.totalTimeSpentSec || 0,
+        vocabCount,
+        mistakesCount,
+        textsMap: stats.texts || {}
+      };
+    },
+
+    // --- Vocabulary Book ---
+    addWordToBook(word, def, sentence, year, textId) {
+      try {
+        const list = this.getVocabBook();
+        const wLow = word.toLowerCase().trim();
+        const existingIdx = list.findIndex(item => item.word.toLowerCase() === wLow);
+        const item = {
+          word: word.trim(),
+          def: def || '',
+          sentence: sentence || '',
+          year: year || '',
+          textId: textId || '',
+          time: Date.now()
+        };
+        if (existingIdx >= 0) {
+          list[existingIdx] = item;
+        } else {
+          list.push(item);
+        }
+        localStorage.setItem(VOCAB_BOOK_KEY, JSON.stringify(list));
+        return { list, added: true };
+      } catch (e) {
+        return { list: [], added: false };
+      }
+    },
+
+    removeWordFromBook(word) {
+      try {
+        let list = this.getVocabBook();
+        list = list.filter(item => item.word.toLowerCase() !== word.toLowerCase().trim());
+        localStorage.setItem(VOCAB_BOOK_KEY, JSON.stringify(list));
+        return list;
+      } catch (e) {
+        return [];
+      }
+    },
+
+    toggleBookmark(word, def, sentence, year, textId) {
+      const isB = this.isBookmarked(word);
+      if (isB) {
+        this.removeWordFromBook(word);
+        return { added: false };
+      } else {
+        return this.addWordToBook(word, def, sentence, year, textId);
+      }
+    },
+
+    getVocabBook() {
+      try {
+        const s = localStorage.getItem(VOCAB_BOOK_KEY);
+        if (s) return JSON.parse(s);
+      } catch (e) {}
+      return [];
+    },
+
+    isBookmarked(word) {
+      const list = this.getVocabBook();
+      return list.some(item => item.word.toLowerCase() === word.toLowerCase().trim());
+    },
+
+    // --- Mock Answers ---
     saveMockAnswers(year, textId, answers, isSubmitted) {
       try {
         const key = `${year}_${textId}`;
@@ -76,11 +213,10 @@
       }
     },
 
-    // Mistakes Book
+    // --- Mistakes Book ---
     saveMistake(year, textId, qid, qStem, wrongOpt, correctOpt) {
       try {
-        const saved = localStorage.getItem(MISTAKES_KEY);
-        let list = saved ? JSON.parse(saved) : [];
+        const list = this.getMistakes();
         const existingIdx = list.findIndex(m => m.qid === qid && m.year === year && m.textId === textId);
         const item = { year, textId, qid, qStem, wrongOpt, correctOpt, time: Date.now() };
         if (existingIdx >= 0) {
@@ -94,14 +230,21 @@
 
     removeMistake(year, textId, qid) {
       try {
-        const saved = localStorage.getItem(MISTAKES_KEY);
-        let list = saved ? JSON.parse(saved) : [];
+        let list = this.getMistakes();
         list = list.filter(m => !(m.qid === qid && m.year === year && m.textId === textId));
         localStorage.setItem(MISTAKES_KEY, JSON.stringify(list));
       } catch (e) {}
     },
 
-    // Error Reasons Self-Check
+    getMistakes() {
+      try {
+        const s = localStorage.getItem(MISTAKES_KEY);
+        if (s) return JSON.parse(s);
+      } catch (e) {}
+      return [];
+    },
+
+    // --- Error Reasons ---
     saveErrorReasons(year, textId, qid, reasonsList) {
       try {
         const key = `${year}_${textId}_${qid}`;
@@ -120,36 +263,6 @@
         return map[key] || [];
       } catch (e) {
         return [];
-      }
-    },
-
-    // Word Bookmarks
-    toggleBookmark(word, def) {
-      try {
-        const saved = localStorage.getItem(BOOKMARK_KEY);
-        let list = saved ? JSON.parse(saved) : [];
-        const existingIdx = list.findIndex(item => item.word.toLowerCase() === word.toLowerCase());
-        let added = false;
-        if (existingIdx >= 0) {
-          list.splice(existingIdx, 1);
-        } else {
-          list.push({ word, def: def || '', time: Date.now() });
-          added = true;
-        }
-        localStorage.setItem(BOOKMARK_KEY, JSON.stringify(list));
-        return { list, added };
-      } catch (e) {
-        return { list: [], added: false };
-      }
-    },
-
-    isBookmarked(word) {
-      try {
-        const saved = localStorage.getItem(BOOKMARK_KEY);
-        const list = saved ? JSON.parse(saved) : [];
-        return list.some(item => item.word.toLowerCase() === word.toLowerCase());
-      } catch (e) {
-        return false;
       }
     }
   };

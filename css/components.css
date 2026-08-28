@@ -1,5 +1,5 @@
 /**
- * ZY_English Layout, Controls, Modals, Mock Exam & Responsive Components
+ * ZY_English Layout, Controls, Modals, Stats Dashboard & Exporter Styles
  */
 
 * {
@@ -370,6 +370,172 @@ body.theme-dark .score-summary-card {
   color: var(--accent);
   line-height: 1;
   margin: 10px 0;
+}
+
+/* Modal Overlay Base */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(4px);
+  z-index: 250;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.modal-overlay.show {
+  display: flex;
+}
+
+.modal-dialog {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  width: 680px;
+  max-width: 95vw;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: popIn 0.2s ease;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 22px;
+  background: var(--card-bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.modal-body {
+  padding: 20px 24px;
+  overflow-y: auto;
+}
+
+/* Statistics Dashboard Grid */
+.stats-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 600px) {
+  .stats-metrics-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.stat-box {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  text-align: center;
+}
+
+.stat-box .stat-val {
+  font-size: 1.6em;
+  font-weight: 900;
+  color: var(--mode-color);
+  margin-top: 4px;
+}
+
+.stat-box .stat-lbl {
+  font-size: 0.82em;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+/* 14-Year Progress Heatmap Grid */
+.heatmap-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.heatmap-year-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px;
+}
+
+.heatmap-year-title {
+  font-size: 0.85em;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+
+.heatmap-texts-row {
+  display: flex;
+  gap: 4px;
+}
+
+.heatmap-text-chip {
+  flex: 1;
+  padding: 4px 0;
+  text-align: center;
+  font-size: 0.75em;
+  font-weight: 700;
+  border-radius: 3px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.heatmap-text-chip:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.heatmap-text-chip.completed {
+  background: #dcfce7;
+  color: #166534;
+  border-color: #86efac;
+}
+
+.heatmap-text-chip.tested {
+  background: #dbeafe;
+  color: #1e40af;
+  border-color: #93c5fd;
+}
+
+/* Export Dialog Cards */
+.export-card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+.export-item-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 18px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  gap: 16px;
+}
+
+.export-item-info h4 {
+  margin-bottom: 4px;
+  font-size: 1.05em;
+  color: var(--ink);
+}
+
+.export-item-info p {
+  font-size: 0.86em;
+  color: var(--muted);
 }
 
 /* Floating Vocabulary Popup Card */

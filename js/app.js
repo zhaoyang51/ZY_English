@@ -1,6 +1,6 @@
 /**
  * Kaoyan English II Main Application Orchestrator
- * Full In-depth Reading, Mock Exam & Syntax Breakdown Interactive Engine
+ * Full In-depth Reading, Mock Exam, Analytics Dashboard & Multi-Format Exporter
  */
 (function() {
   const AppState = {
@@ -15,6 +15,13 @@
     textData: null,
     steps: []
   };
+
+  // Study Time Tracker (Heartbeat every 5 seconds)
+  setInterval(() => {
+    if (AppState.textData && !document.hidden) {
+      window.StorageModule.recordTimeSpent(AppState.year, AppState.textId, 5);
+    }
+  }, 5000);
 
   function init() {
     // 1. Restore state from localStorage
@@ -37,6 +44,7 @@
     setupEventListeners();
     setupKeyboardShortcuts();
     setupSentenceAndVocabInteractions();
+    setupDashboardAndExportModals();
 
     // 4. Load initial text
     loadCurrentText();
@@ -189,6 +197,11 @@
     if (window.innerWidth <= 900) {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
+
+    // Auto mark completed if reached last step
+    if (AppState.stepIndex >= AppState.steps.length - 2) {
+      window.StorageModule.markTextCompleted(AppState.year, AppState.textId);
+    }
   }
 
   function updateUIControls() {
@@ -258,6 +271,144 @@
     });
   }
 
+  // Setup Dashboard and Exporter Modals
+  function setupDashboardAndExportModals() {
+    const statsBtn = document.getElementById('statsBtn');
+    const exportBtn = document.getElementById('exportBtn');
+    const statsModal = document.getElementById('statsModal');
+    const exportModal = document.getElementById('exportModal');
+    const closeStatsBtn = document.getElementById('closeStatsBtn');
+    const closeExportBtn = document.getElementById('closeExportBtn');
+
+    if (statsBtn && statsModal) {
+      statsBtn.onclick = () => {
+        renderStatsModal();
+        statsModal.classList.add('show');
+      };
+    }
+
+    if (closeStatsBtn && statsModal) {
+      closeStatsBtn.onclick = () => statsModal.classList.remove('show');
+    }
+
+    if (exportBtn && exportModal) {
+      exportBtn.onclick = () => exportModal.classList.add('show');
+    }
+
+    if (closeExportBtn && exportModal) {
+      closeExportBtn.onclick = () => exportModal.classList.remove('show');
+    }
+
+    // Export Triggers
+    const btnExpCurrentAnki = document.getElementById('btnExpCurrentAnki');
+    const btnExpAllAnki = document.getElementById('btnExpAllAnki');
+    const btnExpNotesMd = document.getElementById('btnExpNotesMd');
+    const btnExpMistakesMd = document.getElementById('btnExpMistakesMd');
+
+    if (btnExpCurrentAnki) {
+      btnExpCurrentAnki.onclick = () => {
+        window.ExporterModule.exportCurrentTextAnki(AppState.textData);
+        exportModal.classList.remove('show');
+      };
+    }
+
+    if (btnExpAllAnki) {
+      btnExpAllAnki.onclick = () => {
+        window.ExporterModule.exportAllSavedVocabAnki();
+        exportModal.classList.remove('show');
+      };
+    }
+
+    if (btnExpNotesMd) {
+      btnExpNotesMd.onclick = () => {
+        window.ExporterModule.exportMarkdownNotes(AppState.textData);
+        exportModal.classList.remove('show');
+      };
+    }
+
+    if (btnExpMistakesMd) {
+      btnExpMistakesMd.onclick = () => {
+        window.ExporterModule.exportMistakesBook();
+        exportModal.classList.remove('show');
+      };
+    }
+  }
+
+  function renderStatsModal() {
+    const metrics = window.StorageModule.getDashboardMetrics();
+    const statsContainer = document.getElementById('statsModalBody');
+    if (!statsContainer) return;
+
+    const hours = Math.floor(metrics.totalTimeSpentSec / 3600);
+    const mins = Math.floor((metrics.totalTimeSpentSec % 3600) / 60);
+    const timeStr = hours > 0 ? `${hours}小时${mins}分` : `${mins}分钟`;
+
+    // Build 14-Year Progress Heatmap
+    let heatmapHtml = '';
+    for (let yr = 2010; yr <= 2023; yr++) {
+      let chipsHtml = '';
+      for (let tId = 1; tId <= 4; tId++) {
+        const key = `${yr}_${tId}`;
+        const tStat = metrics.textsMap[key];
+        let chipCls = 'heatmap-text-chip';
+        let chipTitle = `${yr} Text ${tId} (未开始)`;
+
+        if (tStat) {
+          if (tStat.completed) {
+            chipCls += ' completed';
+            chipTitle = `${yr} Text ${tId} (已精读完成)`;
+          } else if (typeof tStat.accuracy === 'number') {
+            chipCls += ' tested';
+            chipTitle = `${yr} Text ${tId} (模考完成: ${tStat.accuracy}%)`;
+          }
+        }
+
+        chipsHtml += `<span class="${chipCls}" title="${chipTitle}" onclick="window.jumpToText(${yr}, ${tId})">T${tId}</span>`;
+      }
+
+      heatmapHtml += `
+        <div class="heatmap-year-card">
+          <div class="heatmap-year-title">${yr} 年</div>
+          <div class="heatmap-texts-row">${chipsHtml}</div>
+        </div>
+      `;
+    }
+
+    statsContainer.innerHTML = `
+      <div class="stats-metrics-grid">
+        <div class="stat-box">
+          <div class="stat-lbl">总精读进度</div>
+          <div class="stat-val">${metrics.completedCount} / 56 <span style="font-size:0.5em;color:var(--muted)">(${metrics.progressPercent}%)</span></div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-lbl">模考平均正确率</div>
+          <div class="stat-val">${metrics.avgAccuracy}%</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-lbl">专注学习时长</div>
+          <div class="stat-val">${timeStr}</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-lbl">生词本 / 待攻克错题</div>
+          <div class="stat-val">${metrics.vocabCount} <span style="font-size:0.5em;color:var(--muted)">/ ${metrics.mistakesCount}题</span></div>
+        </div>
+      </div>
+
+      <h4 style="margin-bottom:12px;font-size:1.05em">📅 2010-2023 全景学习进度矩阵 (点击直达篇章)</h4>
+      <div class="heatmap-grid">${heatmapHtml}</div>
+    `;
+  }
+
+  window.jumpToText = function(year, textId) {
+    AppState.year = year;
+    AppState.textId = textId;
+    AppState.savedStepIndex = 0;
+    setupYearDropdown();
+    loadCurrentText();
+    const statsModal = document.getElementById('statsModal');
+    if (statsModal) statsModal.classList.remove('show');
+  };
+
   // Sentence and Vocab Interactions
   function setupSentenceAndVocabInteractions() {
     const examPaper = document.getElementById('examPaper');
@@ -270,7 +421,9 @@
       const vocabSpan = e.target.closest('.exam-vocab');
       if (vocabSpan) {
         e.stopPropagation();
-        showVocabPopup(vocabSpan.getAttribute('data-word'), e.clientX, e.clientY);
+        const sentSpan = vocabSpan.closest('.exam-sent');
+        const sentText = sentSpan ? sentSpan.innerText : '';
+        showVocabPopup(vocabSpan.getAttribute('data-word'), e.clientX, e.clientY, sentText);
         return;
       }
 
@@ -298,13 +451,16 @@
       if (selection && /^[a-zA-Z\s\-]+$/.test(selection) && selection.length < 30) {
         const range = window.getSelection().getRangeAt(0);
         const rect = range.getBoundingClientRect();
-        showVocabPopup(selection, rect.left + rect.width / 2, rect.top);
+        showVocabPopup(selection, rect.left + rect.width / 2, rect.top, '');
       }
     });
 
     document.addEventListener('click', e => {
       if (vocabPopup && !vocabPopup.contains(e.target) && !e.target.closest('.exam-vocab')) {
         vocabPopup.classList.remove('show');
+      }
+      if (e.target.classList.contains('modal-overlay')) {
+        e.target.classList.remove('show');
       }
     });
   }
@@ -345,7 +501,7 @@
     modal.classList.add('show');
   }
 
-  function showVocabPopup(word, clientX, clientY) {
+  function showVocabPopup(word, clientX, clientY, sentenceContext) {
     const popup = document.getElementById('vocabPopup');
     if (!popup) return;
 
@@ -380,7 +536,7 @@
 
     document.getElementById('closeVocabBtn').onclick = () => popup.classList.remove('show');
     document.getElementById('bookmarkBtn').onclick = () => {
-      const res = window.StorageModule.toggleBookmark(word, info.def);
+      const res = window.StorageModule.toggleBookmark(word, info.def, sentenceContext, AppState.year, AppState.textId);
       const bBtn = document.getElementById('bookmarkBtn');
       if (bBtn) {
         bBtn.textContent = res.added ? '★ 已在生词本' : '☆ 收藏生词';
@@ -392,7 +548,7 @@
   // Global Handlers for Mock Exam Interactions
   window.handleMockOptionClick = function(year, textId, qid, optKey) {
     const saved = window.StorageModule.loadMockAnswers(year, textId) || { answers: {}, isSubmitted: false };
-    if (saved.isSubmitted) return; // Locked once submitted
+    if (saved.isSubmitted) return;
 
     saved.answers[qid] = optKey;
     window.StorageModule.saveMockAnswers(year, textId, saved.answers, false);
@@ -409,19 +565,22 @@
       }
     }
 
-    // Archive mistakes to error book
+    let correctCount = 0;
     AppState.textData.questions.forEach(q => {
       const corrKey = (q.options.find(o => o.is_correct) || q.options[0]).key;
       const userChoice = answers[q.qid];
-      if (userChoice !== corrKey) {
+      if (userChoice === corrKey) {
+        correctCount++;
+        window.StorageModule.removeMistake(year, textId, q.qid);
+      } else {
         const wrongOpt = q.options.find(o => o.key === userChoice);
         const correctOpt = q.options.find(o => o.is_correct);
         window.StorageModule.saveMistake(year, textId, q.qid, q.stem, wrongOpt ? wrongOpt.text : '未作答', correctOpt.text);
-      } else {
-        window.StorageModule.removeMistake(year, textId, q.qid);
       }
     });
 
+    const accuracy = correctCount * 20; // 0% ~ 100%
+    window.StorageModule.markTextCompleted(year, textId, accuracy);
     window.StorageModule.saveMockAnswers(year, textId, answers, true);
     window.QuizModule.renderMockExam(AppState.textData, 'workspaceContent');
   };
@@ -592,8 +751,12 @@
       } else if (e.key === 'Escape') {
         const modal = document.getElementById('syntaxModal');
         const popup = document.getElementById('vocabPopup');
+        const stats = document.getElementById('statsModal');
+        const exp = document.getElementById('exportModal');
         if (modal) modal.classList.remove('show');
         if (popup) popup.classList.remove('show');
+        if (stats) stats.classList.remove('show');
+        if (exp) exp.classList.remove('show');
       } else if (e.key === 'f' || e.key === 'F') {
         document.getElementById('toggleAllBtn').click();
       } else if (e.key === 'm' || e.key === 'M') {
