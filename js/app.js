@@ -1,5 +1,6 @@
 /**
  * Kaoyan English II (2010-2026) Main Application Controller
+ * Mobile & Tablet Responsive + Floating Navigation Controls
  */
 (function() {
   const State = {
@@ -41,7 +42,7 @@
     manifest.forEach(item => {
       const opt = document.createElement('option');
       opt.value = item.year;
-      opt.textContent = `${item.year} 年考研英语二`;
+      opt.textContent = `${item.year} 年`;
       if (item.year === State.year) opt.selected = true;
       yearSelect.appendChild(opt);
     });
@@ -70,6 +71,10 @@
       console.error('Data missing for:', State.year, State.textId);
       return;
     }
+    
+    // Sync mode class on body for theme styling
+    document.body.classList.toggle('mode-review', State.mode === 'review');
+    document.body.classList.toggle('mode-practice', State.mode === 'practice');
     
     renderLeftExamPaper();
     
@@ -132,7 +137,7 @@
     const jumpSelect = document.getElementById('jumpSelect');
     if (!jumpSelect) return;
     
-    jumpSelect.innerHTML = '<option value="">📑 章节快速跳转</option>';
+    jumpSelect.innerHTML = '<option value="">📑 章节跳转</option>';
     
     const seenSections = new Set();
     State.steps.forEach((st, idx) => {
@@ -181,15 +186,24 @@
   function updateUIControls() {
     const prevBtn = document.getElementById('prevBtn');
     const nextBtn = document.getElementById('nextBtn');
+    const floatPrevBtn = document.getElementById('floatPrevBtn');
+    const floatNextBtn = document.getElementById('floatNextBtn');
     const progressText = document.getElementById('progressText');
+    const floatProgressText = document.getElementById('floatProgressText');
     const toggleAllBtn = document.getElementById('toggleAllBtn');
     
-    prevBtn.disabled = State.isFullMode || State.stepIndex <= 0;
-    nextBtn.disabled = State.isFullMode || State.stepIndex >= State.steps.length - 1;
+    const isFirst = State.stepIndex <= 0;
+    const isLast = State.stepIndex >= State.steps.length - 1;
+    const isFull = State.isFullMode;
     
-    if (progressText) {
-      progressText.textContent = `${State.stepIndex + 1} / ${State.steps.length}`;
-    }
+    if (prevBtn) prevBtn.disabled = isFull || isFirst;
+    if (nextBtn) nextBtn.disabled = isFull || isLast;
+    if (floatPrevBtn) floatPrevBtn.disabled = isFull || isFirst;
+    if (floatNextBtn) floatNextBtn.disabled = isFull || isLast;
+    
+    const progStr = `${State.stepIndex + 1} / ${State.steps.length}`;
+    if (progressText) progressText.textContent = progStr;
+    if (floatProgressText) floatProgressText.textContent = progStr;
     
     if (toggleAllBtn) {
       toggleAllBtn.textContent = State.isFullMode ? '返回分步' : '显示全部';
@@ -229,28 +243,42 @@
       loadCurrentText();
     });
     
-    // Step Navigation
-    document.getElementById('prevBtn').addEventListener('click', () => {
+    // Step Navigation Function
+    function goPrev() {
       if (State.stepIndex > 0) {
         State.stepIndex--;
         renderCurrentStep();
         updateUIControls();
       }
-    });
+    }
     
-    document.getElementById('nextBtn').addEventListener('click', () => {
+    function goNext() {
       if (State.stepIndex < State.steps.length - 1) {
         State.stepIndex++;
         renderCurrentStep();
         updateUIControls();
       }
-    });
+    }
     
-    document.getElementById('resetBtn').addEventListener('click', () => {
-      State.stepIndex = 0;
-      renderCurrentStep();
-      updateUIControls();
-    });
+    // Desktop & Floating Prev/Next Buttons
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const floatPrevBtn = document.getElementById('floatPrevBtn');
+    const floatNextBtn = document.getElementById('floatNextBtn');
+    
+    if (prevBtn) prevBtn.addEventListener('click', goPrev);
+    if (nextBtn) nextBtn.addEventListener('click', goNext);
+    if (floatPrevBtn) floatPrevBtn.addEventListener('click', goPrev);
+    if (floatNextBtn) floatNextBtn.addEventListener('click', goNext);
+    
+    const resetBtn = document.getElementById('resetBtn');
+    if (resetBtn) {
+      resetBtn.addEventListener('click', () => {
+        State.stepIndex = 0;
+        renderCurrentStep();
+        updateUIControls();
+      });
+    }
     
     // Jump Select
     document.getElementById('jumpSelect').addEventListener('change', e => {
@@ -274,7 +302,27 @@
       document.body.className = '';
       if (e.target.value === 'parchment') document.body.classList.add('theme-parchment');
       if (e.target.value === 'dark') document.body.classList.add('theme-dark');
+      document.body.classList.toggle('mode-review', State.mode === 'review');
+      document.body.classList.toggle('mode-practice', State.mode === 'practice');
     });
+    
+    // Mobile Tabs (Article vs Workspace)
+    const tabLeftBtn = document.getElementById('tabLeftBtn');
+    const tabRightBtn = document.getElementById('tabRightBtn');
+    const mainLayout = document.getElementById('mainLayout');
+    
+    if (tabLeftBtn && tabRightBtn && mainLayout) {
+      tabLeftBtn.addEventListener('click', () => {
+        mainLayout.className = 'layout show-left';
+        tabLeftBtn.classList.add('active');
+        tabRightBtn.classList.remove('active');
+      });
+      tabRightBtn.addEventListener('click', () => {
+        mainLayout.className = 'layout show-right';
+        tabRightBtn.classList.add('active');
+        tabLeftBtn.classList.remove('active');
+      });
+    }
   }
   
   function setupKeyboardShortcuts() {
@@ -283,14 +331,14 @@
       
       if (e.key === 'ArrowRight' || e.key === ' ') {
         e.preventDefault();
-        document.getElementById('nextBtn').click();
+        const floatNext = document.getElementById('floatNextBtn');
+        if (floatNext && !floatNext.disabled) floatNext.click();
       } else if (e.key === 'ArrowLeft') {
         e.preventDefault();
-        document.getElementById('prevBtn').click();
+        const floatPrev = document.getElementById('floatPrevBtn');
+        if (floatPrev && !floatPrev.disabled) floatPrev.click();
       } else if (e.key === 'f' || e.key === 'F') {
         document.getElementById('toggleAllBtn').click();
-      } else if (e.key === 'r' || e.key === 'R') {
-        document.getElementById('resetBtn').click();
       } else if (e.key === 'm' || e.key === 'M') {
         if (State.mode === 'practice') {
           document.getElementById('reviewModeBtn').click();
