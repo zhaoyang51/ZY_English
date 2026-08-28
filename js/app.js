@@ -604,53 +604,20 @@
   };
 
   function setupEventListeners() {
-    // Topbar Collapse / Expand Toggle
+    // 1. Topbar Controls Collapse Toggle
     const toggleTopbarBtn = document.getElementById('toggleTopbarBtn');
-    const topbarExpandPill = document.getElementById('topbarExpandPill');
     const mainTopbar = document.getElementById('mainTopbar');
 
-    function collapseTopbar() {
-      if (mainTopbar) mainTopbar.classList.add('collapsed');
-      if (topbarExpandPill) topbarExpandPill.classList.add('show');
-    }
-
-    function expandTopbar() {
-      if (mainTopbar) mainTopbar.classList.remove('collapsed');
-      if (topbarExpandPill) topbarExpandPill.classList.remove('show');
-    }
-
-    if (toggleTopbarBtn) {
+    if (toggleTopbarBtn && mainTopbar) {
       toggleTopbarBtn.onclick = function(e) {
         e.preventDefault();
         e.stopPropagation();
-        collapseTopbar();
+        const isCollapsed = mainTopbar.classList.toggle('controls-collapsed');
+        toggleTopbarBtn.textContent = isCollapsed ? '▼ 展开功能栏' : '▲ 收起功能栏';
       };
     }
 
-    if (topbarExpandPill) {
-      topbarExpandPill.onclick = function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        expandTopbar();
-      };
-    }
-    // Topbar Collapse / Expand Toggle
-    const toggleTopbarBtn = document.getElementById('toggleTopbarBtn');
-    const topbarExpandPill = document.getElementById('topbarExpandPill');
-    const topbar = document.getElementById('mainTopbar');
-
-    if (toggleTopbarBtn && topbar && topbarExpandPill) {
-      toggleTopbarBtn.addEventListener('click', () => {
-        topbar.classList.add('collapsed');
-        topbarExpandPill.classList.add('show');
-      });
-
-      topbarExpandPill.addEventListener('click', () => {
-        topbar.classList.remove('collapsed');
-        topbarExpandPill.classList.remove('show');
-      });
-    }
-
+    // 2. Year and Text dropdowns
     document.getElementById('yearSelect').addEventListener('change', e => {
       AppState.year = Number(e.target.value);
       updateTextDropdown();
@@ -665,6 +632,7 @@
       loadCurrentText();
     });
 
+    // 3. Mode Toggles
     const practiceBtn = document.getElementById('practiceModeBtn');
     const reviewBtn = document.getElementById('reviewModeBtn');
 
@@ -686,7 +654,7 @@
       loadCurrentText();
     });
 
-    // Submode Toggle (Mock vs Step)
+    // 4. Submode Toggle (Mock vs Step)
     const mockBtn = document.getElementById('submodeMockBtn');
     const stepBtn = document.getElementById('submodeStepBtn');
 

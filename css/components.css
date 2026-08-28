@@ -24,10 +24,9 @@ html, body {
   box-shadow: var(--shadow-sm);
   z-index: 50;
   gap: 8px;
-  transition: all 0.25s ease;
 }
 
-.topbar.collapsed {
+.topbar.controls-collapsed .topbar-controls {
   display: none !important;
 }
 
@@ -75,31 +74,6 @@ html, body {
 .topbar-toggle-btn:hover {
   background: var(--surface);
   border-color: var(--mode-color);
-}
-
-.topbar-expand-pill {
-  position: fixed;
-  top: 8px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 9999;
-  background: var(--surface);
-  border: 1.5px solid var(--mode-color);
-  box-shadow: 0 4px 14px rgba(0,0,0,0.18);
-  border-radius: var(--radius-full);
-  padding: 6px 18px;
-  font-size: 0.86em;
-  font-weight: 800;
-  color: var(--mode-color);
-  cursor: pointer;
-  display: none;
-  align-items: center;
-  gap: 6px;
-  animation: popIn 0.2s ease;
-}
-
-.topbar-expand-pill.show {
-  display: inline-flex;
 }
 
 .topbar-controls {
@@ -717,7 +691,7 @@ body.theme-dark .vocab-tip {
 
   .topbar {
     position: relative !important;
-    padding: 10px 12px;
+    padding: 10px 14px;
   }
 
   .mobile-tabs-bar {
