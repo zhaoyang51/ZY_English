@@ -17,15 +17,25 @@ html, body {
 /* Top Navigation Bar */
 .topbar {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
   padding: 8px 18px;
   background: var(--surface);
   border-bottom: 1px solid var(--line);
   box-shadow: var(--shadow-sm);
   z-index: 50;
-  gap: 12px;
-  flex-wrap: wrap;
+  gap: 8px;
+  transition: all 0.25s ease;
+}
+
+.topbar.collapsed {
+  display: none !important;
+}
+
+.topbar-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .topbar-brand {
@@ -33,7 +43,7 @@ html, body {
   align-items: center;
   gap: 8px;
   font-weight: 800;
-  font-size: 1.15em;
+  font-size: 1.1em;
   color: var(--ink);
   letter-spacing: -0.02em;
 }
@@ -45,6 +55,51 @@ html, body {
   color: var(--mode-color);
   border-radius: var(--radius-full);
   font-weight: 700;
+}
+
+.topbar-toggle-btn {
+  padding: 5px 12px;
+  font-size: 0.84em;
+  font-weight: 700;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--card-bg);
+  color: var(--mode-color);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.15s ease;
+}
+
+.topbar-toggle-btn:hover {
+  background: var(--surface);
+  border-color: var(--mode-color);
+}
+
+.topbar-expand-pill {
+  position: fixed;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  background: var(--surface);
+  border: 1.5px solid var(--mode-color);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.18);
+  border-radius: var(--radius-full);
+  padding: 6px 18px;
+  font-size: 0.86em;
+  font-weight: 800;
+  color: var(--mode-color);
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  gap: 6px;
+  animation: popIn 0.2s ease;
+}
+
+.topbar-expand-pill.show {
+  display: inline-flex;
 }
 
 .topbar-controls {
@@ -158,9 +213,9 @@ html, body {
   width: 100%;
   background: var(--surface);
   border-bottom: 1px solid var(--line);
-  padding: 6px 12px;
+  padding: 8px 12px;
   gap: 8px;
-  z-index: 40;
+  z-index: 60;
 }
 
 .mobile-tab-btn {
@@ -187,7 +242,7 @@ html, body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
-  height: calc(100vh - 58px);
+  height: calc(100vh - 90px);
   overflow: hidden;
 }
 
@@ -220,7 +275,7 @@ html, body {
   align-items: center;
   gap: 10px;
   padding: 8px 14px;
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid var(--border);
@@ -231,7 +286,7 @@ html, body {
 }
 
 body.theme-dark .floating-nav-bar {
-  background: rgba(17, 24, 39, 0.88);
+  background: rgba(17, 24, 39, 0.9);
   border-color: #374151;
 }
 
@@ -661,14 +716,16 @@ body.theme-dark .vocab-tip {
   }
 
   .topbar {
-    position: sticky;
-    top: 0;
+    position: relative !important;
+    padding: 10px 12px;
   }
 
   .mobile-tabs-bar {
     display: flex;
     position: sticky;
-    top: 54px;
+    top: 0;
+    z-index: 80;
+    box-shadow: var(--shadow-sm);
   }
 
   .layout {
@@ -694,7 +751,7 @@ body.theme-dark .vocab-tip {
   .scroll-container {
     height: auto !important;
     overflow-y: visible !important;
-    padding: 16px 14px;
+    padding: 14px 12px;
     padding-bottom: calc(160px + env(safe-area-inset-bottom, 20px)) !important;
   }
 
@@ -712,53 +769,4 @@ body.theme-dark .vocab-tip {
     flex: 1;
     justify-content: center;
   }
-}
-
-/* Topbar Collapse & Mini Expand Pill */
-.topbar.collapsed {
-  display: none !important;
-}
-
-.topbar-toggle-btn {
-  padding: 4px 8px;
-  font-size: 0.82em;
-  font-weight: 700;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  background: var(--card-bg);
-  color: var(--muted);
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 2px;
-}
-
-.topbar-toggle-btn:hover {
-  color: var(--ink);
-  background: var(--surface);
-}
-
-.topbar-expand-pill {
-  position: fixed;
-  top: 8px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 100;
-  background: var(--surface);
-  border: 1.5px solid var(--mode-color);
-  box-shadow: var(--shadow-md);
-  border-radius: var(--radius-full);
-  padding: 4px 16px;
-  font-size: 0.84em;
-  font-weight: 700;
-  color: var(--mode-color);
-  cursor: pointer;
-  display: none;
-  align-items: center;
-  gap: 6px;
-  animation: popIn 0.2s ease;
-}
-
-.topbar-expand-pill.show {
-  display: inline-flex;
 }

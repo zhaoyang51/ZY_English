@@ -607,6 +607,36 @@
     // Topbar Collapse / Expand Toggle
     const toggleTopbarBtn = document.getElementById('toggleTopbarBtn');
     const topbarExpandPill = document.getElementById('topbarExpandPill');
+    const mainTopbar = document.getElementById('mainTopbar');
+
+    function collapseTopbar() {
+      if (mainTopbar) mainTopbar.classList.add('collapsed');
+      if (topbarExpandPill) topbarExpandPill.classList.add('show');
+    }
+
+    function expandTopbar() {
+      if (mainTopbar) mainTopbar.classList.remove('collapsed');
+      if (topbarExpandPill) topbarExpandPill.classList.remove('show');
+    }
+
+    if (toggleTopbarBtn) {
+      toggleTopbarBtn.onclick = function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        collapseTopbar();
+      };
+    }
+
+    if (topbarExpandPill) {
+      topbarExpandPill.onclick = function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        expandTopbar();
+      };
+    }
+    // Topbar Collapse / Expand Toggle
+    const toggleTopbarBtn = document.getElementById('toggleTopbarBtn');
+    const topbarExpandPill = document.getElementById('topbarExpandPill');
     const topbar = document.getElementById('mainTopbar');
 
     if (toggleTopbarBtn && topbar && topbarExpandPill) {

@@ -14,12 +14,17 @@
 
   <!-- Top Navigation Bar -->
   <header class="topbar" id="mainTopbar">
-    <div class="topbar-brand">
-      <span>📖 考研英语二真题系统</span>
-      <span class="badge">2010-2023 全量</span>
+    <div class="topbar-header-row">
+      <div class="topbar-brand">
+        <span>📖 考研英语二真题系统</span>
+        <span class="badge">2010-2023 全量</span>
+      </div>
+      <button id="toggleTopbarBtn" class="topbar-toggle-btn" title="收起功能顶栏">
+        ▲ 收起功能栏
+      </button>
     </div>
     
-    <div class="topbar-controls">
+    <div class="topbar-controls" id="topbarControls">
       <!-- Year Select -->
       <select id="yearSelect" class="select-control" title="选择年份"></select>
       
@@ -65,11 +70,12 @@
         <option value="dark">🌙 深色夜间</option>
       </select>
     </div>
-    <button id="toggleTopbarBtn" class="topbar-toggle-btn" title="收起顶栏功能区">▲ 收起顶栏</button>
   </header>
 
-  <!-- Topbar Floating Expand Pill -->
-  <div class="topbar-expand-pill" id="topbarExpandPill">▼ 展开功能顶栏</div>
+  <!-- Topbar Floating Expand Pill (Visible when topbar is collapsed) -->
+  <button class="topbar-expand-pill" id="topbarExpandPill" title="点击展开功能栏">
+    ⚙️ 展开功能栏 (年份/模式/看板) ▼
+  </button>
 
   <!-- Mobile View Switcher Tabs -->
   <nav class="mobile-tabs-bar" id="mobileTabsBar">
