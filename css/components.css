@@ -1,5 +1,5 @@
 /**
- * ZY_English Layout, Controls, Modals & Responsive Components
+ * ZY_English Layout, Controls, Modals, Mock Exam & Responsive Components
  */
 
 * {
@@ -108,7 +108,7 @@ html, body {
   cursor: not-allowed;
 }
 
-/* Reading Assistant Toolbar (Sticky on top of Left Panel) */
+/* Reading Assistant Toolbar */
 .reader-toolbar {
   display: flex;
   align-items: center;
@@ -265,6 +265,111 @@ body.theme-dark .floating-nav-bar {
   color: var(--muted);
   padding: 0 4px;
   user-select: none;
+}
+
+/* Mock Exam Mode UI Cards */
+.mock-exam-header {
+  margin-bottom: 20px;
+  padding: 16px 20px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mock-q-card {
+  margin-bottom: 22px;
+  padding: 18px 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s ease;
+}
+
+.mock-q-card.answered {
+  border-color: rgba(37, 99, 235, 0.4);
+}
+
+.mock-q-card.result-correct {
+  border-left: 5px solid var(--success);
+  background: var(--success-bg);
+}
+
+.mock-q-card.result-wrong {
+  border-left: 5px solid var(--danger);
+  background: var(--danger-bg);
+}
+
+.mock-opt-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.mock-opt-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 14px;
+  background: var(--card-bg);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  font-size: 0.96em;
+}
+
+.mock-opt-item:hover {
+  border-color: var(--accent);
+  background: var(--accent-light);
+}
+
+.mock-opt-item.selected {
+  border-color: var(--accent);
+  background: var(--accent-light);
+  font-weight: 600;
+}
+
+.mock-opt-item.opt-correct {
+  border-color: var(--success) !important;
+  background: var(--success-bg) !important;
+  color: var(--success) !important;
+  font-weight: 700;
+}
+
+.mock-opt-item.opt-wrong {
+  border-color: var(--danger) !important;
+  background: var(--danger-bg) !important;
+  color: var(--danger) !important;
+  text-decoration: line-through;
+}
+
+/* Score Summary Card */
+.score-summary-card {
+  margin-bottom: 24px;
+  padding: 20px 24px;
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  border: 1.5px solid #bfdbfe;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  text-align: center;
+}
+
+body.theme-dark .score-summary-card {
+  background: linear-gradient(135deg, #1e3a8a 0%, #172554 100%);
+  border-color: #1e40af;
+}
+
+.score-number {
+  font-size: 2.8em;
+  font-weight: 900;
+  color: var(--accent);
+  line-height: 1;
+  margin: 10px 0;
 }
 
 /* Floating Vocabulary Popup Card */

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-  <title>考研英语二 (2010-2023) 真题精读与长难句交互系统</title>
+  <title>考研英语二 (2010-2023) 真题精读、模考与长难句复盘系统</title>
   
   <!-- Modular Stylesheets -->
   <link rel="stylesheet" href="css/theme.css">
@@ -15,7 +15,7 @@
   <!-- Top Navigation Bar -->
   <header class="topbar">
     <div class="topbar-brand">
-      <span>📖 考研英语二真题精读系统</span>
+      <span>📖 考研英语二真题系统</span>
       <span class="badge">2010-2023 全量</span>
     </div>
     
@@ -30,6 +30,12 @@
       <div class="btn-group">
         <button id="practiceModeBtn" class="btn active">做题模式</button>
         <button id="reviewModeBtn" class="btn">复盘模式 (一石五鸟)</button>
+      </div>
+
+      <!-- Practice Submode Switcher -->
+      <div class="btn-group" id="submodeContainer">
+        <button id="submodeStepBtn" class="btn active" title="逐题推演随读随测">🔍 逐题精读</button>
+        <button id="submodeMockBtn" class="btn" title="隐藏答案全卷模考">📝 盲做模考</button>
       </div>
       
       <!-- Chapter Jump Select -->
@@ -74,7 +80,7 @@
       </div>
     </section>
 
-    <!-- Right Column: Interactive Reasoning & Review Workspace -->
+    <!-- Right Column: Interactive Reasoning, Mock Exam & Review Workspace -->
     <section class="panel right-panel">
       <div class="scroll-container" id="rightScroll">
         <article class="workspace" id="workspaceContent">

@@ -1,6 +1,5 @@
 /**
- * Reader Component: Interactive Exam Paper Rendering
- * Supports sentence-level interaction, vocab tags, logical connector tags, and reading toolbar
+ * Reader Component: Interactive Exam Paper & Locator Sentence Pulse
  */
 (function() {
   const LOGIC_CONNECTORS = {
@@ -42,7 +41,6 @@
 
       this.init();
 
-      // 1. Reader Assistant Toolbar HTML
       let html = `
         <div class="reader-toolbar" id="readerToolbar">
           <div class="toolbar-group">
@@ -63,11 +61,10 @@
         </div>
 
         <h2 style="font-size:1.35em;font-weight:800;margin-bottom:4px">${textData.year} 年全国硕士研究生招生考试英语（二）阅读理解</h2>
-        <div style="color:var(--muted);font-size:0.95em;margin-bottom:18px">Text ${textData.text_id} (${textData.q_range} 题) ｜ <span style="font-size:0.9em;color:var(--mode-color)">💡 点击任意句子查看语法拆解，双击单词即查释义</span></div>
+        <div style="color:var(--muted);font-size:0.95em;margin-bottom:18px">Text ${textData.text_id} (${textData.q_range} 题) ｜ <span style="font-size:0.9em;color:var(--mode-color)">💡 点击句子查看语法拆解，双击单词即查释义</span></div>
         <div class="exam-article-section">
       `;
 
-      // 2. Paragraphs & Sentences Wrapping
       textData.paragraphs.forEach((p) => {
         const pSents = textData.sentences.filter(s => s.pid === p.pid);
         let paraSentsHtml = '';
@@ -86,7 +83,6 @@
         `;
       });
 
-      // 3. Questions Section
       html += `</div><hr style="margin:24px 0;border:none;border-top:1px dashed var(--border)"><div class="exam-questions-section"><h3 style="font-size:1.15em;font-weight:700;margin-bottom:12px">Questions (${textData.q_range})</h3>`;
 
       textData.questions.forEach(q => {
@@ -114,7 +110,6 @@
     formatSentenceText(sentText, paraVocab) {
       let text = sentText;
 
-      // 1. Highlight logical connectors if enabled
       if (this.settings.highlightLogic) {
         LOGIC_CONNECTORS.turn.forEach(w => {
           const reg = new RegExp(`\\b(${w})\\b`, 'gi');
@@ -130,7 +125,6 @@
         });
       }
 
-      // 2. Underline core vocabulary words
       if (paraVocab && paraVocab.length > 0) {
         paraVocab.forEach(v => {
           const reg = new RegExp(`\\b(${v.word})\\b`, 'gi');
@@ -191,7 +185,7 @@
     },
 
     highlight(meta) {
-      document.querySelectorAll('.exam-para').forEach(el => el.classList.remove('highlight-focus'));
+      document.querySelectorAll('.exam-para').forEach(el => el.classList.remove('highlight-focus', 'locator-pulse'));
       document.querySelectorAll('.exam-question-card').forEach(el => el.classList.remove('highlight-focus'));
 
       if (!meta) return;
@@ -208,6 +202,15 @@
           targetQ.classList.add('highlight-focus');
           targetQ.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
+      }
+    },
+
+    highlightLocatorSentence(pid) {
+      document.querySelectorAll('.exam-para').forEach(el => el.classList.remove('locator-pulse'));
+      const targetPara = document.getElementById(`exam-para-${pid}`);
+      if (targetPara) {
+        targetPara.classList.add('locator-pulse');
+        targetPara.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
     }
   };

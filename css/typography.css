@@ -84,6 +84,19 @@ body.mode-review .exam-sent.active-sent {
   box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.15);
 }
 
+/* Locator Sentence Pulse Animation */
+@keyframes locatorPulse {
+  0% { background: rgba(245, 158, 11, 0.18); box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.35); }
+  50% { background: rgba(245, 158, 11, 0.42); box-shadow: 0 0 0 6px rgba(245, 158, 11, 0.55); }
+  100% { background: rgba(245, 158, 11, 0.22); box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.35); }
+}
+
+.locator-pulse {
+  animation: locatorPulse 1.2s ease infinite alternate;
+  border-left: 4px solid #f59e0b !important;
+  border-radius: 4px;
+}
+
 /* Inline Bilingual Translation */
 .sent-trans-inline {
   display: block;
@@ -267,6 +280,105 @@ body.theme-dark .mask {
   border-radius: var(--radius-full);
   font-weight: 700;
   font-size: 0.85em;
+}
+
+/* Classic Kaoyan Trap Badges */
+.trap-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.82em;
+  font-weight: 700;
+}
+
+.trap-pill-concept { background: #ffedd5; color: #c2410c; border: 1px solid #fed7aa; }
+.trap-pill-opposite { background: #fee2e2; color: #b91c1c; border: 1px solid #fecaca; }
+.trap-pill-unfounded { background: #f3e8ff; color: #7e22ce; border: 1px solid #e9d5ff; }
+.trap-pill-overextrapolate { background: #fef3c7; color: #b45309; border: 1px solid #fde68a; }
+.trap-pill-causality { background: #e0e7ff; color: #4338ca; border: 1px solid #c7d2fe; }
+
+/* Synonym Paraphrase Card */
+.synonym-card {
+  margin: 14px 0;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-left: 4px solid #f59e0b;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  padding: 12px 16px;
+}
+
+.synonym-title {
+  font-weight: 800;
+  font-size: 0.95em;
+  color: #b45309;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+body.theme-dark .synonym-title {
+  color: #fbbf24;
+}
+
+.synonym-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92em;
+}
+
+.synonym-table th, .synonym-table td {
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+}
+
+.synonym-table th {
+  background: var(--surface);
+  font-weight: 700;
+  color: var(--muted);
+}
+
+/* Error Reason Checklist */
+.error-reason-box {
+  margin-top: 14px;
+  padding: 12px 16px;
+  background: #fff1f2;
+  border: 1px solid #fecdd3;
+  border-radius: var(--radius-md);
+}
+
+body.theme-dark .error-reason-box {
+  background: #4c0519;
+  border-color: #9f1239;
+}
+
+.error-reason-title {
+  font-size: 0.92em;
+  font-weight: 800;
+  color: #be123c;
+  margin-bottom: 8px;
+}
+
+body.theme-dark .error-reason-title {
+  color: #fecdd3;
+}
+
+.error-reason-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.error-reason-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.88em;
+  font-weight: 600;
+  color: var(--ink);
+  cursor: pointer;
 }
 
 /* Syntax Breakdown Tags */
