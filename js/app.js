@@ -1,6 +1,6 @@
 /**
  * Kaoyan English II Main Application Orchestrator
- * Modular State Machine + Real-time Module Tracker + Persistence
+ * Full In-depth Reading & Syntax Breakdown Interactive Engine
  */
 (function() {
   const AppState = {
@@ -34,6 +34,7 @@
     setupYearDropdown();
     setupEventListeners();
     setupKeyboardShortcuts();
+    setupSentenceAndVocabInteractions();
 
     // 4. Load initial text
     loadCurrentText();
@@ -83,7 +84,6 @@
   }
 
   function loadCurrentText() {
-    // Try synchronous cache from all_data.js first, fallback to DB loader
     if (window.KAOYAN_PURE_DATA && window.KAOYAN_PURE_DATA[AppState.year]) {
       const yData = window.KAOYAN_PURE_DATA[AppState.year];
       AppState.textData = yData.texts.find(t => t.text_id === AppState.textId);
@@ -94,21 +94,19 @@
       return;
     }
 
-    // Sync body mode classes
     document.body.classList.toggle('mode-review', AppState.mode === 'review');
     document.body.classList.toggle('mode-practice', AppState.mode === 'practice');
 
-    // Render left panel authentic exam paper
+    // Render left panel authentic exam paper with interactive sentences
     window.ReaderModule.renderExamPaper(AppState.textData, 'examPaper');
 
-    // Build steps dynamically from pure JSON via QuizModule!
+    // Build steps dynamically from pure JSON via QuizModule
     if (AppState.mode === 'practice') {
       AppState.steps = window.QuizModule.buildPracticeSteps(AppState.textData);
     } else {
       AppState.steps = window.QuizModule.buildReviewSteps(AppState.textData);
     }
 
-    // Restore step index
     if (AppState.savedStepIndex !== null && AppState.savedStepIndex >= 0 && AppState.savedStepIndex < AppState.steps.length) {
       AppState.stepIndex = AppState.savedStepIndex;
       AppState.savedStepIndex = null;
@@ -159,7 +157,6 @@
 
     window.QuizModule.renderStep(step, AppState.stepIndex, AppState.steps.length, 'workspaceContent', AppState.textData);
 
-    // Auto scroll right workspace & mobile window to top
     const rightScroll = document.getElementById('rightScroll');
     if (rightScroll) rightScroll.scrollTo({ top: 0, behavior: 'smooth' });
     if (window.innerWidth <= 900) {
@@ -194,7 +191,7 @@
       toggleAllBtn.classList.toggle('active', AppState.isFullMode);
     }
 
-    // Dynamic Module Tracker: keep jumpSelect matching current section
+    // Dynamic Module Tracker
     const jumpSelect = document.getElementById('jumpSelect');
     if (jumpSelect && jumpSelect.options.length > 1) {
       let matchedVal = '';
@@ -225,8 +222,143 @@
     });
   }
 
+  // 4. In-depth Sentence Syntax Modal & Vocabulary Popups
+  function setupSentenceAndVocabInteractions() {
+    const examPaper = document.getElementById('examPaper');
+    const syntaxModal = document.getElementById('syntaxModal');
+    const syntaxModalContent = document.getElementById('syntaxModalContent');
+    const closeSyntaxBtn = document.getElementById('closeSyntaxBtn');
+    const vocabPopup = document.getElementById('vocabPopup');
+
+    // Sentence Click Handler
+    examPaper.addEventListener('click', e => {
+      const vocabSpan = e.target.closest('.exam-vocab');
+      if (vocabSpan) {
+        e.stopPropagation();
+        showVocabPopup(vocabSpan.getAttribute('data-word'), e.clientX, e.clientY);
+        return;
+      }
+
+      const sentSpan = e.target.closest('.exam-sent');
+      if (sentSpan && AppState.textData) {
+        const sid = Number(sentSpan.getAttribute('data-sid'));
+        const sentObj = AppState.textData.sentences.find(s => s.sid === sid);
+        if (sentObj) {
+          document.querySelectorAll('.exam-sent').forEach(el => el.classList.remove('active-sent'));
+          sentSpan.classList.add('active-sent');
+          showSyntaxModal(sentObj);
+        }
+      }
+    });
+
+    // Close Modal Button
+    if (closeSyntaxBtn && syntaxModal) {
+      closeSyntaxBtn.onclick = () => {
+        syntaxModal.classList.remove('show');
+        document.querySelectorAll('.exam-sent').forEach(el => el.classList.remove('active-sent'));
+      };
+    }
+
+    // Double-click or text selection for dictionary look-up
+    examPaper.addEventListener('dblclick', () => {
+      const selection = window.getSelection().toString().trim();
+      if (selection && /^[a-zA-Z\s\-]+$/.test(selection) && selection.length < 30) {
+        const range = window.getSelection().getRangeAt(0);
+        const rect = range.getBoundingClientRect();
+        showVocabPopup(selection, rect.left + rect.width / 2, rect.top);
+      }
+    });
+
+    // Close popups when clicking outside
+    document.addEventListener('click', e => {
+      if (vocabPopup && !vocabPopup.contains(e.target) && !e.target.closest('.exam-vocab')) {
+        vocabPopup.classList.remove('show');
+      }
+    });
+  }
+
+  function showSyntaxModal(sent) {
+    const modal = document.getElementById('syntaxModal');
+    const content = document.getElementById('syntaxModalContent');
+    if (!modal || !content) return;
+
+    const breakdownTags = sent.syntax.breakdown.map(b => {
+      let tagClass = 'tag-modifier';
+      if (b.type.includes('主干')) tagClass = 'tag-backbone';
+      if (b.type.includes('定语')) tagClass = 'tag-attributive';
+      if (b.type.includes('状语')) tagClass = 'tag-adverbial';
+      if (b.type.includes('名词')) tagClass = 'tag-noun';
+      return `<li style="margin-bottom:8px"><span class="syntax-tag ${tagClass}">[${b.type}]</span> <code>${b.content}</code> — ${b.explanation}</li>`;
+    }).join('');
+
+    content.innerHTML = `
+      <div style="font-size:1.15em;font-family:var(--font-serif);line-height:1.7;color:var(--ink);margin-bottom:12px">
+        <strong>原句：</strong>${sent.text}
+      </div>
+      <div style="margin-bottom:12px;background:rgba(37,99,235,0.06);padding:10px 14px;border-radius:6px;border-left:4px solid var(--accent)">
+        <p style="font-weight:700;color:var(--accent);margin-bottom:4px">【意群断句与速译】</p>
+        <p style="font-family:var(--font-mono);font-size:0.95em;margin-bottom:4px">${sent.slashed_text}</p>
+        <p style="color:#2563eb;font-weight:500">${sent.chunk_translation}</p>
+      </div>
+      <div style="margin-bottom:12px;background:var(--card-bg);padding:12px 14px;border-radius:6px;border:1px solid var(--border)">
+        <p style="font-weight:700;color:var(--mode-color);margin-bottom:8px">【主干识别与句法拆解】</p>
+        <ul style="padding-left:14px;line-height:1.7">${breakdownTags}</ul>
+      </div>
+      <div style="background:rgba(15,118,110,0.06);padding:10px 14px;border-radius:6px;border-left:4px solid #0f766e">
+        <p style="font-weight:700;color:#0f766e;margin-bottom:4px">【满分参考译文与考点】</p>
+        <p style="font-size:1.02em;color:#0f766e;font-weight:600">${sent.translation}</p>
+      </div>
+    `;
+
+    modal.classList.add('show');
+  }
+
+  function showVocabPopup(word, clientX, clientY) {
+    const popup = document.getElementById('vocabPopup');
+    if (!popup) return;
+
+    const wClean = word.toLowerCase().trim();
+    const dict = window.KAOYAN_VOCAB_DICT || {};
+    const info = dict[wClean] || dict[wClean.replace(/s$|ed$|ing$/, '')] || {
+      pos: "n./v.",
+      def: "考研语境核心词汇",
+      full: "语境常考释义与核心搭配"
+    };
+
+    const isBookmarked = window.StorageModule.isBookmarked(wClean);
+
+    popup.innerHTML = `
+      <div class="vocab-header">
+        <span class="vocab-word">${word}</span>
+        <span class="vocab-pos">${info.pos}</span>
+      </div>
+      <div class="vocab-def">${info.def}</div>
+      <div class="vocab-tip">💡 考研考点提示：注意本词在阅读定位句中的同义替换与语境感情色彩。</div>
+      <div class="vocab-actions">
+        <button id="bookmarkBtn" class="toolbar-btn ${isBookmarked ? 'active' : ''}">${isBookmarked ? '★ 已在生词本' : '☆ 收藏生词'}</button>
+        <button id="closeVocabBtn" class="toolbar-btn" style="padding:2px 8px">✕</button>
+      </div>
+    `;
+
+    // Position Popup
+    const posX = Math.min(Math.max(16, clientX - 160), window.innerWidth - 340);
+    const posY = Math.min(clientY + 15, window.innerHeight - 200);
+    popup.style.left = `${posX}px`;
+    popup.style.top = `${posY}px`;
+    popup.classList.add('show');
+
+    document.getElementById('closeVocabBtn').onclick = () => popup.classList.remove('show');
+    document.getElementById('bookmarkBtn').onclick = () => {
+      const res = window.StorageModule.toggleBookmark(word, info.def);
+      const bBtn = document.getElementById('bookmarkBtn');
+      if (bBtn) {
+        bBtn.textContent = res.added ? '★ 已在生词本' : '☆ 收藏生词';
+        bBtn.classList.toggle('active', res.added);
+      }
+    };
+  }
+
   function setupEventListeners() {
-    // Year Change
     document.getElementById('yearSelect').addEventListener('change', e => {
       AppState.year = Number(e.target.value);
       updateTextDropdown();
@@ -235,14 +367,12 @@
       loadCurrentText();
     });
 
-    // Text Change
     document.getElementById('textSelect').addEventListener('change', e => {
       AppState.textId = Number(e.target.value);
       AppState.savedStepIndex = 0;
       loadCurrentText();
     });
 
-    // Mode Buttons
     const practiceBtn = document.getElementById('practiceModeBtn');
     const reviewBtn = document.getElementById('reviewModeBtn');
 
@@ -264,7 +394,6 @@
       loadCurrentText();
     });
 
-    // Step Nav
     function goPrev() {
       if (AppState.stepIndex > 0) {
         AppState.stepIndex--;
@@ -300,7 +429,6 @@
       });
     }
 
-    // Jump Select
     document.getElementById('jumpSelect').addEventListener('change', e => {
       const idx = Number(e.target.value);
       if (!isNaN(idx) && idx >= 0 && idx < AppState.steps.length) {
@@ -310,21 +438,18 @@
       }
     });
 
-    // Toggle Full Mode
     document.getElementById('toggleAllBtn').addEventListener('click', () => {
       AppState.isFullMode = !AppState.isFullMode;
       renderCurrentStep();
       updateUIControls();
     });
 
-    // Theme Switch
     document.getElementById('themeSelect').addEventListener('change', e => {
       AppState.theme = e.target.value;
       applyTheme(AppState.theme);
       saveState();
     });
 
-    // Mobile Tabs
     const tabLeftBtn = document.getElementById('tabLeftBtn');
     const tabRightBtn = document.getElementById('tabRightBtn');
     const mainLayout = document.getElementById('mainLayout');
@@ -355,6 +480,11 @@
         e.preventDefault();
         const floatPrev = document.getElementById('floatPrevBtn');
         if (floatPrev && !floatPrev.disabled) floatPrev.click();
+      } else if (e.key === 'Escape') {
+        const modal = document.getElementById('syntaxModal');
+        const popup = document.getElementById('vocabPopup');
+        if (modal) modal.classList.remove('show');
+        if (popup) popup.classList.remove('show');
       } else if (e.key === 'f' || e.key === 'F') {
         document.getElementById('toggleAllBtn').click();
       } else if (e.key === 'm' || e.key === 'M') {

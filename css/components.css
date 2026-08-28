@@ -1,5 +1,5 @@
 /**
- * ZY_English Layout, Controls & Responsive Components
+ * ZY_English Layout, Controls, Modals & Responsive Components
  */
 
 * {
@@ -108,6 +108,50 @@ html, body {
   cursor: not-allowed;
 }
 
+/* Reading Assistant Toolbar (Sticky on top of Left Panel) */
+.reader-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  margin-bottom: 18px;
+  gap: 8px;
+  flex-wrap: wrap;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+}
+
+.toolbar-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.toolbar-btn {
+  padding: 4px 10px;
+  font-size: 0.84em;
+  font-weight: 600;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.toolbar-btn:hover {
+  color: var(--ink);
+  border-color: var(--muted);
+}
+
+.toolbar-btn.active {
+  background: var(--mode-color);
+  color: #ffffff;
+  border-color: var(--mode-color);
+}
+
 /* Mobile Tabs Bar */
 .mobile-tabs-bar {
   display: none;
@@ -163,7 +207,7 @@ html, body {
   flex: 1;
   overflow-y: auto;
   overflow-x: hidden;
-  padding: 24px 28px;
+  padding: 22px 26px;
   -webkit-overflow-scrolling: touch;
 }
 
@@ -221,6 +265,120 @@ body.theme-dark .floating-nav-bar {
   color: var(--muted);
   padding: 0 4px;
   user-select: none;
+}
+
+/* Floating Vocabulary Popup Card */
+.vocab-popup {
+  position: fixed;
+  z-index: 200;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  padding: 14px 18px;
+  width: 320px;
+  max-width: 90vw;
+  display: none;
+  animation: popIn 0.2s ease;
+}
+
+.vocab-popup.show {
+  display: block;
+}
+
+.vocab-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.vocab-word {
+  font-size: 1.25em;
+  font-weight: 800;
+  color: var(--mode-color);
+}
+
+.vocab-pos {
+  font-size: 0.85em;
+  font-weight: 700;
+  color: var(--muted);
+  background: var(--card-bg);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.vocab-def {
+  font-size: 0.96em;
+  color: var(--ink);
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.vocab-tip {
+  font-size: 0.84em;
+  color: #b45309;
+  background: #fffbeb;
+  padding: 6px 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+body.theme-dark .vocab-tip {
+  background: #451a03;
+  color: #fcd34d;
+}
+
+.vocab-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Sentence Syntax Modal / Drawer */
+.syntax-modal {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-height: 80vh;
+  background: var(--surface);
+  border-top: 2px solid var(--mode-color);
+  box-shadow: 0 -10px 25px rgba(0,0,0,0.15);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  z-index: 150;
+  display: none;
+  flex-direction: column;
+  animation: slideUp 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.syntax-modal.show {
+  display: flex;
+}
+
+.syntax-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  border-bottom: 1px solid var(--border);
+  background: var(--card-bg);
+}
+
+.syntax-modal-body {
+  padding: 20px 24px;
+  overflow-y: auto;
+  max-height: calc(80vh - 60px);
+}
+
+@keyframes popIn {
+  from { opacity: 0; transform: scale(0.94); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
 }
 
 /* Mobile Responsive Optimization (< 900px) */

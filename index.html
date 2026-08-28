@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-  <title>考研英语二 (2010-2023) 真题全真双模交互系统 · 模块化重构版</title>
+  <title>考研英语二 (2010-2023) 真题精读与长难句交互系统</title>
   
   <!-- Modular Stylesheets -->
   <link rel="stylesheet" href="css/theme.css">
@@ -12,11 +12,11 @@
 </head>
 <body class="mode-practice">
 
-  <!-- Top Control Bar -->
+  <!-- Top Navigation Bar -->
   <header class="topbar">
     <div class="topbar-brand">
       <span>📖 考研英语二真题精读系统</span>
-      <span class="badge">2010-2023</span>
+      <span class="badge">2010-2023 全量</span>
     </div>
     
     <div class="topbar-controls">
@@ -69,7 +69,7 @@
     <section class="panel left-panel">
       <div class="scroll-container" id="leftScroll">
         <article class="exam-paper" id="examPaper">
-          <!-- Dynamically populated by ReaderModule -->
+          <!-- Dynamically populated by ReaderModule with sentence-level hooks -->
         </article>
       </div>
     </section>
@@ -91,8 +91,21 @@
     <button class="float-btn" id="floatNextBtn" title="快捷键: → / 空格">下一步 ▶</button>
   </aside>
 
-  <!-- Pure Structured JSON Database Bridge -->
+  <!-- Floating Vocabulary Dictionary Card -->
+  <div class="vocab-popup" id="vocabPopup"></div>
+
+  <!-- Sentence Syntax Breakdown Drawer / Modal -->
+  <div class="syntax-modal" id="syntaxModal">
+    <div class="syntax-modal-header">
+      <span style="font-weight:800;color:var(--mode-color)">🔍 长难句结构化拆解与考点剖析</span>
+      <button class="toolbar-btn" id="closeSyntaxBtn" style="padding:4px 10px">✕ 关闭</button>
+    </div>
+    <div class="syntax-modal-body" id="syntaxModalContent"></div>
+  </div>
+
+  <!-- Pure Structured JSON Database Bridge & In-Browser Dictionary -->
   <script src="data/all_data.js"></script>
+  <script src="data/vocab_dict.js"></script>
   
   <!-- Modular JS Application Components -->
   <script src="js/storage.js"></script>
