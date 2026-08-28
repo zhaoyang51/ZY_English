@@ -1,11 +1,9 @@
 /**
- * Kaoyan English II (2010-2026) Main Application Controller
- * Mobile & Tablet Responsive + Floating Controls + Progress Persistence + Dynamic Module Tracker
+ * Kaoyan English II Main Application Orchestrator
+ * Modular State Machine + Real-time Module Tracker + Persistence
  */
 (function() {
-  const STORAGE_KEY = 'KAOYAN_USER_PROGRESS_V2';
-
-  const State = {
+  const AppState = {
     year: 2010,
     textId: 1,
     mode: 'practice', // 'practice' | 'review'
@@ -13,66 +11,31 @@
     savedStepIndex: null,
     isFullMode: false,
     theme: 'light',
-    fontSize: 18,
     textData: null,
     steps: []
   };
 
-  function saveState() {
-    try {
-      const payload = {
-        year: State.year,
-        textId: State.textId,
-        mode: State.mode,
-        stepIndex: State.stepIndex,
-        theme: State.theme,
-        isFullMode: State.isFullMode
-      };
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
-    } catch (e) {
-      console.warn('LocalStorage save failed:', e);
-    }
-  }
-
-  function restoreState() {
-    try {
-      const saved = localStorage.getItem(STORAGE_KEY);
-      if (saved) {
-        const data = JSON.parse(saved);
-        if (data.year) State.year = Number(data.year);
-        if (data.textId) State.textId = Number(data.textId);
-        if (data.mode === 'practice' || data.mode === 'review') State.mode = data.mode;
-        if (typeof data.stepIndex === 'number') State.savedStepIndex = data.stepIndex;
-        if (data.theme) State.theme = data.theme;
-        if (typeof data.isFullMode === 'boolean') State.isFullMode = data.isFullMode;
-      }
-    } catch (e) {
-      console.warn('LocalStorage restore failed:', e);
-    }
-  }
-  
   function init() {
-    restoreState();
-
-    const manifest = window.KAOYAN_MANIFEST || [];
-    if (manifest.length > 0) {
-      if (!manifest.some(item => item.year === State.year)) {
-        State.year = manifest[0].year;
-      }
-      const yItem = manifest.find(item => item.year === State.year);
-      if (yItem && yItem.texts && yItem.texts.length > 0) {
-        if (!yItem.texts.some(t => t.id === State.textId)) {
-          State.textId = yItem.texts[0].id;
-        }
-      }
+    // 1. Restore state from localStorage
+    const saved = window.StorageModule.loadProgress();
+    if (saved) {
+      if (saved.year) AppState.year = Number(saved.year);
+      if (saved.textId) AppState.textId = Number(saved.textId);
+      if (saved.mode === 'practice' || saved.mode === 'review') AppState.mode = saved.mode;
+      if (typeof saved.stepIndex === 'number') AppState.savedStepIndex = saved.stepIndex;
+      if (saved.theme) AppState.theme = saved.theme;
+      if (typeof saved.isFullMode === 'boolean') AppState.isFullMode = saved.isFullMode;
     }
 
-    // Apply saved theme
-    applyTheme(State.theme);
+    // 2. Apply theme
+    applyTheme(AppState.theme);
 
-    setupSelectors();
+    // 3. Setup UI selectors & event listeners
+    setupYearDropdown();
     setupEventListeners();
     setupKeyboardShortcuts();
+
+    // 4. Load initial text
     loadCurrentText();
   }
 
@@ -80,77 +43,77 @@
     document.body.className = '';
     if (themeName === 'parchment') document.body.classList.add('theme-parchment');
     if (themeName === 'dark') document.body.classList.add('theme-dark');
-    document.body.classList.toggle('mode-review', State.mode === 'review');
-    document.body.classList.toggle('mode-practice', State.mode === 'practice');
+    document.body.classList.toggle('mode-review', AppState.mode === 'review');
+    document.body.classList.toggle('mode-practice', AppState.mode === 'practice');
 
     const themeSelect = document.getElementById('themeSelect');
     if (themeSelect) themeSelect.value = themeName || 'light';
   }
-  
-  function setupSelectors() {
+
+  function setupYearDropdown() {
     const yearSelect = document.getElementById('yearSelect');
     const manifest = window.KAOYAN_MANIFEST || [];
-    
+    if (!yearSelect || manifest.length === 0) return;
+
     yearSelect.innerHTML = '';
     manifest.forEach(item => {
       const opt = document.createElement('option');
       opt.value = item.year;
       opt.textContent = `${item.year} 年`;
-      if (item.year === State.year) opt.selected = true;
+      if (item.year === AppState.year) opt.selected = true;
       yearSelect.appendChild(opt);
     });
-    
-    updateTextDropdown();
 
-    // Mode Buttons active state
-    const practiceBtn = document.getElementById('practiceModeBtn');
-    const reviewBtn = document.getElementById('reviewModeBtn');
-    if (practiceBtn && reviewBtn) {
-      practiceBtn.classList.toggle('active', State.mode === 'practice');
-      reviewBtn.classList.toggle('active', State.mode === 'review');
-    }
+    updateTextDropdown();
   }
-  
+
   function updateTextDropdown() {
     const textSelect = document.getElementById('textSelect');
-    const yItem = (window.KAOYAN_MANIFEST || []).find(m => m.year === State.year);
-    if (!yItem) return;
-    
+    const yItem = (window.KAOYAN_MANIFEST || []).find(m => m.year === AppState.year);
+    if (!textSelect || !yItem) return;
+
     textSelect.innerHTML = '';
     yItem.texts.forEach(t => {
       const opt = document.createElement('option');
       opt.value = t.id;
       opt.textContent = `Text ${t.id} (${t.q_range}题)`;
-      if (t.id === State.textId) opt.selected = true;
+      if (t.id === AppState.textId) opt.selected = true;
       textSelect.appendChild(opt);
     });
   }
-  
+
   function loadCurrentText() {
-    State.textData = window.KAOYAN_DB.getTextData(State.year, State.textId);
-    if (!State.textData) {
-      console.error('Data missing for:', State.year, State.textId);
+    // Try synchronous cache from all_data.js first, fallback to DB loader
+    if (window.KAOYAN_PURE_DATA && window.KAOYAN_PURE_DATA[AppState.year]) {
+      const yData = window.KAOYAN_PURE_DATA[AppState.year];
+      AppState.textData = yData.texts.find(t => t.text_id === AppState.textId);
+    }
+
+    if (!AppState.textData) {
+      console.error('Data not found for:', AppState.year, AppState.textId);
       return;
     }
-    
-    // Sync mode class on body for theme styling
-    document.body.classList.toggle('mode-review', State.mode === 'review');
-    document.body.classList.toggle('mode-practice', State.mode === 'practice');
-    
-    renderLeftExamPaper();
-    
-    // Set steps according to mode
-    if (State.mode === 'practice') {
-      State.steps = State.textData.practice.steps;
+
+    // Sync body mode classes
+    document.body.classList.toggle('mode-review', AppState.mode === 'review');
+    document.body.classList.toggle('mode-practice', AppState.mode === 'practice');
+
+    // Render left panel authentic exam paper
+    window.ReaderModule.renderExamPaper(AppState.textData, 'examPaper');
+
+    // Build steps dynamically from pure JSON via QuizModule!
+    if (AppState.mode === 'practice') {
+      AppState.steps = window.QuizModule.buildPracticeSteps(AppState.textData);
     } else {
-      State.steps = State.textData.review.steps;
+      AppState.steps = window.QuizModule.buildReviewSteps(AppState.textData);
     }
-    
-    if (State.savedStepIndex !== null && State.savedStepIndex >= 0 && State.savedStepIndex < State.steps.length) {
-      State.stepIndex = State.savedStepIndex;
-      State.savedStepIndex = null;
+
+    // Restore step index
+    if (AppState.savedStepIndex !== null && AppState.savedStepIndex >= 0 && AppState.savedStepIndex < AppState.steps.length) {
+      AppState.stepIndex = AppState.savedStepIndex;
+      AppState.savedStepIndex = null;
     } else {
-      State.stepIndex = 0;
+      AppState.stepIndex = 0;
     }
 
     updateJumpDropdown();
@@ -158,65 +121,23 @@
     updateUIControls();
     saveState();
   }
-  
-  function renderLeftExamPaper() {
-    const paper = document.getElementById('examPaper');
-    const data = State.textData;
-    if (!paper || !data) return;
-    
-    let html = `
-      <h2 class="paper-title">${State.year} 年全国硕士研究生招生考试英语（二）阅读理解</h2>
-      <div class="paper-subtitle">Text ${State.textId} (${data.qRange}题)</div>
-      <div class="exam-article-section">
-    `;
-    
-    data.paragraphs.forEach((p, idx) => {
-      html += `
-        <div class="exam-para" id="exam-para-${idx}" data-pid="${idx}">
-          <span class="para-badge">[Para ${idx + 1}]</span>
-          <span class="para-text">${p}</span>
-        </div>
-      `;
-    });
-    
-    html += `</div><hr class="exam-divider"><div class="exam-questions-section"><h3>Questions (${data.qRange})</h3>`;
-    
-    data.questions.forEach(q => {
-      html += `
-        <div class="exam-question-card" id="exam-q-${q.qid}" data-qid="${q.qid}">
-          <div class="q-stem">${q.qid}. ${q.stem}</div>
-          <div class="q-options">
-            ${q.options.map(opt => `
-              <div class="q-opt" data-opt="${opt.key}">
-                <span class="opt-key">[${opt.key}]</span>
-                <span class="opt-text">${opt.text}</span>
-              </div>
-            `).join('')}
-          </div>
-        </div>
-      `;
-    });
-    
-    html += `</div>`;
-    paper.innerHTML = html;
-  }
-  
+
   function updateJumpDropdown() {
     const jumpSelect = document.getElementById('jumpSelect');
     if (!jumpSelect) return;
-    
+
     jumpSelect.innerHTML = '<option value="">📑 章节跳转</option>';
-    
     const seenSections = new Set();
-    State.steps.forEach((st, idx) => {
+
+    AppState.steps.forEach((st, idx) => {
       let secName = '';
-      if (State.mode === 'practice') {
+      if (AppState.mode === 'practice') {
         secName = st.section || `步骤 ${idx + 1}`;
       } else {
         const secTitles = ['0. 方法论总览', '1. 重点词汇库', '2. 精读与长难句', '3. 题目命题复盘', '4. 语篇与新题型', '5. 写作语料库'];
         secName = secTitles[st.section] || `Section ${st.section}`;
       }
-      
+
       if (!seenSections.has(secName)) {
         seenSections.add(secName);
         const opt = document.createElement('option');
@@ -226,34 +147,26 @@
       }
     });
   }
-  
+
   function renderCurrentStep() {
-    if (State.isFullMode) {
-      if (State.mode === 'practice') {
-        window.PracticeRenderer.renderFull(State.steps);
-      } else {
-        window.ReviewRenderer.renderFull(State.steps);
-      }
+    if (AppState.isFullMode) {
+      window.QuizModule.renderFull(AppState.steps, 'workspaceContent');
       return;
     }
-    
-    const step = State.steps[State.stepIndex];
+
+    const step = AppState.steps[AppState.stepIndex];
     if (!step) return;
-    
-    if (State.mode === 'practice') {
-      window.PracticeRenderer.renderStep(step, State.stepIndex, State.steps.length, State.textData);
-    } else {
-      window.ReviewRenderer.renderStep(step, State.stepIndex, State.steps.length, State.textData);
-    }
-    
-    // Auto scroll right workspace to top
+
+    window.QuizModule.renderStep(step, AppState.stepIndex, AppState.steps.length, 'workspaceContent', AppState.textData);
+
+    // Auto scroll right workspace & mobile window to top
     const rightScroll = document.getElementById('rightScroll');
     if (rightScroll) rightScroll.scrollTo({ top: 0, behavior: 'smooth' });
     if (window.innerWidth <= 900) {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   }
-  
+
   function updateUIControls() {
     const prevBtn = document.getElementById('prevBtn');
     const nextBtn = document.getElementById('nextBtn');
@@ -262,32 +175,32 @@
     const progressText = document.getElementById('progressText');
     const floatProgressText = document.getElementById('floatProgressText');
     const toggleAllBtn = document.getElementById('toggleAllBtn');
-    
-    const isFirst = State.stepIndex <= 0;
-    const isLast = State.stepIndex >= State.steps.length - 1;
-    const isFull = State.isFullMode;
-    
+
+    const isFirst = AppState.stepIndex <= 0;
+    const isLast = AppState.stepIndex >= AppState.steps.length - 1;
+    const isFull = AppState.isFullMode;
+
     if (prevBtn) prevBtn.disabled = isFull || isFirst;
     if (nextBtn) nextBtn.disabled = isFull || isLast;
     if (floatPrevBtn) floatPrevBtn.disabled = isFull || isFirst;
     if (floatNextBtn) floatNextBtn.disabled = isFull || isLast;
-    
-    const progStr = `${State.stepIndex + 1} / ${State.steps.length}`;
+
+    const progStr = `${AppState.stepIndex + 1} / ${AppState.steps.length}`;
     if (progressText) progressText.textContent = progStr;
     if (floatProgressText) floatProgressText.textContent = progStr;
-    
+
     if (toggleAllBtn) {
-      toggleAllBtn.textContent = State.isFullMode ? '返回分步' : '显示全部';
-      toggleAllBtn.classList.toggle('active', State.isFullMode);
+      toggleAllBtn.textContent = AppState.isFullMode ? '返回分步' : '显示全部';
+      toggleAllBtn.classList.toggle('active', AppState.isFullMode);
     }
 
-    // Dynamic Module/Section Tracker: auto-select matching section in jumpSelect
+    // Dynamic Module Tracker: keep jumpSelect matching current section
     const jumpSelect = document.getElementById('jumpSelect');
     if (jumpSelect && jumpSelect.options.length > 1) {
       let matchedVal = '';
       for (let i = 1; i < jumpSelect.options.length; i++) {
         const optVal = Number(jumpSelect.options[i].value);
-        if (State.stepIndex >= optVal) {
+        if (AppState.stepIndex >= optVal) {
           matchedVal = jumpSelect.options[i].value;
         } else {
           break;
@@ -300,109 +213,122 @@
 
     saveState();
   }
-  
+
+  function saveState() {
+    window.StorageModule.saveProgress({
+      year: AppState.year,
+      textId: AppState.textId,
+      mode: AppState.mode,
+      stepIndex: AppState.stepIndex,
+      theme: AppState.theme,
+      isFullMode: AppState.isFullMode
+    });
+  }
+
   function setupEventListeners() {
     // Year Change
     document.getElementById('yearSelect').addEventListener('change', e => {
-      State.year = Number(e.target.value);
+      AppState.year = Number(e.target.value);
       updateTextDropdown();
-      State.textId = 1;
-      State.savedStepIndex = 0;
+      AppState.textId = 1;
+      AppState.savedStepIndex = 0;
       loadCurrentText();
     });
-    
+
     // Text Change
     document.getElementById('textSelect').addEventListener('change', e => {
-      State.textId = Number(e.target.value);
-      State.savedStepIndex = 0;
+      AppState.textId = Number(e.target.value);
+      AppState.savedStepIndex = 0;
       loadCurrentText();
     });
-    
-    // Mode Switch Buttons
-    document.getElementById('practiceModeBtn').addEventListener('click', () => {
-      if (State.mode === 'practice') return;
-      State.mode = 'practice';
-      State.savedStepIndex = 0;
-      document.getElementById('practiceModeBtn').classList.add('active');
-      document.getElementById('reviewModeBtn').classList.remove('active');
+
+    // Mode Buttons
+    const practiceBtn = document.getElementById('practiceModeBtn');
+    const reviewBtn = document.getElementById('reviewModeBtn');
+
+    practiceBtn.addEventListener('click', () => {
+      if (AppState.mode === 'practice') return;
+      AppState.mode = 'practice';
+      AppState.savedStepIndex = 0;
+      practiceBtn.classList.add('active');
+      reviewBtn.classList.remove('active');
       loadCurrentText();
     });
-    
-    document.getElementById('reviewModeBtn').addEventListener('click', () => {
-      if (State.mode === 'review') return;
-      State.mode = 'review';
-      State.savedStepIndex = 0;
-      document.getElementById('reviewModeBtn').classList.add('active');
-      document.getElementById('practiceModeBtn').classList.remove('active');
+
+    reviewBtn.addEventListener('click', () => {
+      if (AppState.mode === 'review') return;
+      AppState.mode = 'review';
+      AppState.savedStepIndex = 0;
+      reviewBtn.classList.add('active');
+      practiceBtn.classList.remove('active');
       loadCurrentText();
     });
-    
-    // Step Navigation Functions
+
+    // Step Nav
     function goPrev() {
-      if (State.stepIndex > 0) {
-        State.stepIndex--;
+      if (AppState.stepIndex > 0) {
+        AppState.stepIndex--;
         renderCurrentStep();
         updateUIControls();
       }
     }
-    
+
     function goNext() {
-      if (State.stepIndex < State.steps.length - 1) {
-        State.stepIndex++;
+      if (AppState.stepIndex < AppState.steps.length - 1) {
+        AppState.stepIndex++;
         renderCurrentStep();
         updateUIControls();
       }
     }
-    
-    // Desktop & Floating Prev/Next Buttons
+
     const prevBtn = document.getElementById('prevBtn');
     const nextBtn = document.getElementById('nextBtn');
     const floatPrevBtn = document.getElementById('floatPrevBtn');
     const floatNextBtn = document.getElementById('floatNextBtn');
-    
+
     if (prevBtn) prevBtn.addEventListener('click', goPrev);
     if (nextBtn) nextBtn.addEventListener('click', goNext);
     if (floatPrevBtn) floatPrevBtn.addEventListener('click', goPrev);
     if (floatNextBtn) floatNextBtn.addEventListener('click', goNext);
-    
+
     const resetBtn = document.getElementById('resetBtn');
     if (resetBtn) {
       resetBtn.addEventListener('click', () => {
-        State.stepIndex = 0;
+        AppState.stepIndex = 0;
         renderCurrentStep();
         updateUIControls();
       });
     }
-    
+
     // Jump Select
     document.getElementById('jumpSelect').addEventListener('change', e => {
       const idx = Number(e.target.value);
-      if (!isNaN(idx) && idx >= 0 && idx < State.steps.length) {
-        State.stepIndex = idx;
+      if (!isNaN(idx) && idx >= 0 && idx < AppState.steps.length) {
+        AppState.stepIndex = idx;
         renderCurrentStep();
         updateUIControls();
       }
     });
-    
+
     // Toggle Full Mode
     document.getElementById('toggleAllBtn').addEventListener('click', () => {
-      State.isFullMode = !State.isFullMode;
+      AppState.isFullMode = !AppState.isFullMode;
       renderCurrentStep();
       updateUIControls();
     });
-    
+
     // Theme Switch
     document.getElementById('themeSelect').addEventListener('change', e => {
-      State.theme = e.target.value;
-      applyTheme(State.theme);
+      AppState.theme = e.target.value;
+      applyTheme(AppState.theme);
       saveState();
     });
-    
-    // Mobile Tabs (Article vs Workspace)
+
+    // Mobile Tabs
     const tabLeftBtn = document.getElementById('tabLeftBtn');
     const tabRightBtn = document.getElementById('tabRightBtn');
     const mainLayout = document.getElementById('mainLayout');
-    
+
     if (tabLeftBtn && tabRightBtn && mainLayout) {
       tabLeftBtn.addEventListener('click', () => {
         mainLayout.className = 'layout show-left';
@@ -416,11 +342,11 @@
       });
     }
   }
-  
+
   function setupKeyboardShortcuts() {
     window.addEventListener('keydown', e => {
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
-      
+
       if (e.key === 'ArrowRight' || e.key === ' ') {
         e.preventDefault();
         const floatNext = document.getElementById('floatNextBtn');
@@ -432,7 +358,7 @@
       } else if (e.key === 'f' || e.key === 'F') {
         document.getElementById('toggleAllBtn').click();
       } else if (e.key === 'm' || e.key === 'M') {
-        if (State.mode === 'practice') {
+        if (AppState.mode === 'practice') {
           document.getElementById('reviewModeBtn').click();
         } else {
           document.getElementById('practiceModeBtn').click();
@@ -440,6 +366,6 @@
       }
     });
   }
-  
+
   window.addEventListener('DOMContentLoaded', init);
 })();

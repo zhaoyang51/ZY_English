@@ -1,0 +1,212 @@
+/**
+ * ZY_English Typography & Content Formatting
+ */
+
+body {
+  font-family: var(--font-sans);
+  color: var(--ink);
+  background-color: var(--bg);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Exam Paper Serif Typography */
+.exam-paper {
+  font-family: var(--font-serif);
+  font-size: 1.06em;
+  line-height: 1.85;
+  color: var(--ink);
+}
+
+.exam-para {
+  margin-bottom: 20px;
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  transition: all 0.25s ease;
+  border-left: 4px solid transparent;
+}
+
+.exam-para:hover {
+  background: rgba(37, 99, 235, 0.04);
+}
+
+.exam-para.highlight-focus {
+  background: var(--mode-bg);
+  border-left: 4px solid var(--mode-color);
+  box-shadow: var(--shadow-sm);
+}
+
+.para-badge {
+  font-family: var(--font-mono);
+  font-size: 0.82em;
+  font-weight: 700;
+  color: var(--mode-color);
+  margin-right: 8px;
+  user-select: none;
+}
+
+.exam-question-card {
+  margin-bottom: 22px;
+  padding: 14px 16px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  transition: all 0.25s ease;
+}
+
+.exam-question-card.highlight-focus {
+  border-color: var(--mode-color);
+  background: var(--mode-bg);
+  box-shadow: var(--shadow-md);
+}
+
+.q-stem {
+  font-weight: 700;
+  font-size: 1.05em;
+  margin-bottom: 10px;
+  color: var(--ink);
+}
+
+.q-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.q-opt {
+  display: flex;
+  gap: 8px;
+  padding: 6px 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 0.98em;
+}
+
+.opt-key {
+  font-weight: 700;
+  color: var(--mode-color);
+}
+
+/* Slashed Sense Group Code Blocks */
+code {
+  font-family: var(--font-mono);
+  background: rgba(37, 99, 235, 0.08);
+  color: var(--accent);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.94em;
+}
+
+body.mode-review code {
+  color: var(--review-accent);
+  background: rgba(124, 58, 237, 0.08);
+}
+
+/* Masked Words for Active Recall */
+.mask {
+  background: #334155;
+  color: #334155;
+  padding: 1px 6px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+  font-weight: 500;
+}
+
+.mask:hover, .mask.revealed {
+  background: transparent;
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+body.theme-dark .mask {
+  background: #64748b;
+  color: #64748b;
+}
+
+/* Badges & Pills */
+.correct-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  background: var(--success-bg);
+  color: var(--success);
+  border: 1px solid var(--success);
+  border-radius: var(--radius-full);
+  font-weight: 700;
+  font-size: 0.85em;
+}
+
+.trap-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  background: var(--danger-bg);
+  color: var(--danger);
+  border: 1px solid var(--danger);
+  border-radius: var(--radius-full);
+  font-weight: 700;
+  font-size: 0.85em;
+}
+
+/* Progressive Reveal Step Container */
+.revealPart {
+  margin-bottom: 20px;
+  padding: 14px 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  animation: fadeIn 0.25s ease;
+}
+
+.revealPart.optionLead {
+  border-left: 4px solid var(--mode-color);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* 6-Column Vocabulary Matrix */
+.table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin: 14px 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92em;
+  text-align: left;
+}
+
+th, td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+}
+
+th:last-child, td:last-child {
+  border-right: none;
+}
+
+th {
+  background: var(--card-bg);
+  font-weight: 700;
+  color: var(--muted);
+}
+
+/* Blockquotes */
+blockquote {
+  margin: 12px 0;
+  padding: 10px 16px;
+  background: var(--card-bg);
+  border-left: 4px solid var(--mode-color);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-style: italic;
+}
