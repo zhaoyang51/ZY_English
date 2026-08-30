@@ -1,0 +1,500 @@
+/**
+ * Vocab Module Stylesheet: Ebbinghaus Vocabulary Flashcards & Memorization Dashboard
+ * Supports Light, Dark (body.theme-dark) and Parchment (body.theme-parchment) themes
+ */
+
+.vocab-section {
+  display: none;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px 20px 48px 20px;
+  box-sizing: border-box;
+}
+
+body.mode-vocab .vocab-section {
+  display: block;
+}
+
+body.mode-vocab .main-container {
+  display: none !important;
+}
+
+body.mode-vocab .workspace-font-toolbar {
+  display: none !important;
+}
+
+/* --- Top Filter Bar --- */
+.vocab-filter-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: 18px 22px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.vocab-search-wrap {
+  position: relative;
+  width: 100%;
+}
+
+.vocab-search-input {
+  width: 100%;
+  padding: 10px 14px 10px 38px;
+  font-family: var(--font-base);
+  font-size: 0.95em;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--ink);
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.vocab-search-input:focus {
+  border-color: var(--mode-color);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.vocab-search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--muted);
+  pointer-events: none;
+  font-size: 0.95em;
+}
+
+.vocab-filter-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+@media (max-width: 768px) {
+  .vocab-filter-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.vocab-filter-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.vocab-filter-label {
+  font-size: 0.76em;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.vocab-select {
+  width: 100%;
+  padding: 8px 10px;
+  font-family: var(--font-base);
+  font-size: 0.88em;
+  font-weight: 600;
+  background: var(--card-bg);
+  color: var(--ink);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.vocab-select:focus {
+  border-color: var(--mode-color);
+}
+
+.vocab-filter-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.vocab-count-badge {
+  font-size: 0.88em;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.vocab-count-highlight {
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 1.1em;
+  margin: 0 3px;
+}
+
+/* --- Stats Grid Badges --- */
+.vocab-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 640px) {
+  .vocab-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.vocab-stat-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: 14px 16px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.vocab-stat-title {
+  font-size: 0.75em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+
+.vocab-stat-num {
+  font-size: 1.6em;
+  font-weight: 800;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.stat-due .vocab-stat-title { color: #e11d48; }
+.stat-due .vocab-stat-num { color: #e11d48; }
+.stat-new .vocab-stat-title { color: #4f46e5; }
+.stat-new .vocab-stat-num { color: #4f46e5; }
+.stat-mastered .vocab-stat-title { color: #059669; }
+.stat-mastered .vocab-stat-num { color: #059669; }
+
+/* --- Flashcard Main Display --- */
+.vocab-card-container {
+  width: 100%;
+  max-width: 680px;
+  margin: 0 auto 32px auto;
+  perspective: 1000px;
+}
+
+.vocab-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.06), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+body.theme-dark .vocab-card {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.35);
+}
+
+.vocab-card-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 24px 10px 24px;
+}
+
+.vocab-audio-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: all 0.15s;
+}
+
+.vocab-audio-btn:hover {
+  color: var(--primary);
+  border-color: var(--primary);
+  transform: scale(1.06);
+}
+
+.vocab-tag-provenance {
+  font-size: 0.8em;
+  font-weight: 600;
+  padding: 3px 10px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--muted);
+  letter-spacing: 0.3px;
+}
+
+.vocab-card-progress {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  padding: 0 24px 4px 24px;
+}
+
+.vocab-badge-status {
+  font-size: 0.76em;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+.badge-new { background: rgba(59, 130, 246, 0.1); color: #2563eb; }
+.badge-learning { background: rgba(245, 158, 11, 0.1); color: #d97706; }
+.badge-due { background: rgba(225, 29, 72, 0.1); color: #e11d48; }
+.badge-mastered { background: rgba(16, 185, 129, 0.1); color: #059669; }
+
+.vocab-index-indicator {
+  font-size: 0.82em;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.vocab-word-display {
+  padding: 24px 20px 20px 20px;
+  text-align: center;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.vocab-word-text {
+  font-family: var(--font-base);
+  font-size: 2.8em;
+  font-weight: 800;
+  color: var(--ink);
+  letter-spacing: -0.5px;
+  margin: 0;
+  line-height: 1.15;
+  transition: color 0.15s;
+  user-select: none;
+}
+
+.vocab-word-text:hover {
+  color: var(--primary);
+}
+
+@media (max-width: 640px) {
+  .vocab-word-text {
+    font-size: 2.2em;
+  }
+}
+
+/* Assessment Buttons */
+.vocab-assessment-area {
+  padding: 10px 24px 26px 24px;
+}
+
+.vocab-assessment-tip {
+  text-align: center;
+  font-size: 0.82em;
+  font-weight: 600;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+
+.vocab-grade-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.vocab-grade-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 8px;
+  border-radius: 14px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.18s ease;
+  font-family: var(--font-base);
+}
+
+.vocab-grade-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+.grade-btn-forgot {
+  background: rgba(225, 29, 72, 0.08);
+  border-color: rgba(225, 29, 72, 0.2);
+  color: #e11d48;
+}
+.grade-btn-forgot:hover {
+  background: #e11d48;
+  color: #ffffff;
+}
+
+.grade-btn-hard {
+  background: rgba(217, 119, 6, 0.08);
+  border-color: rgba(217, 119, 6, 0.2);
+  color: #d97706;
+}
+.grade-btn-hard:hover {
+  background: #d97706;
+  color: #ffffff;
+}
+
+.grade-btn-good {
+  background: rgba(5, 150, 105, 0.08);
+  border-color: rgba(5, 150, 105, 0.2);
+  color: #059669;
+}
+.grade-btn-good:hover {
+  background: #059669;
+  color: #ffffff;
+}
+
+.grade-title {
+  font-size: 1.05em;
+  font-weight: 800;
+  margin-bottom: 2px;
+}
+
+.grade-subtitle {
+  font-size: 0.72em;
+  opacity: 0.85;
+  font-weight: 600;
+}
+
+/* Meaning Reveal Area */
+.vocab-meaning-area {
+  display: none;
+  padding: 0 0 24px 0;
+  border-top: 1px dashed var(--border);
+  background: var(--card-bg);
+  animation: vocabFadeIn 0.25s ease-out;
+}
+
+@keyframes vocabFadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.vocab-meaning-text {
+  font-family: var(--font-base);
+  font-size: 1.35em;
+  font-weight: 700;
+  color: var(--ink);
+  text-align: center;
+  padding: 20px 24px 16px 24px;
+  line-height: 1.6;
+}
+
+.vocab-action-row {
+  display: flex;
+  gap: 12px;
+  padding: 0 24px;
+}
+
+.vocab-btn-wrong {
+  flex: 1;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(225, 29, 72, 0.2);
+  background: rgba(225, 29, 72, 0.08);
+  color: #e11d48;
+  font-weight: 700;
+  font-size: 0.95em;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.vocab-btn-wrong:hover {
+  background: rgba(225, 29, 72, 0.15);
+}
+
+.vocab-btn-next {
+  flex: 2;
+  padding: 12px 18px;
+  border-radius: 12px;
+  border: none;
+  background: var(--mode-color);
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 1.05em;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+  transition: all 0.15s;
+}
+
+.vocab-btn-next:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.35);
+}
+
+/* Keyboard hint */
+.vocab-kbd-hint {
+  text-align: center;
+  font-size: 0.78em;
+  color: var(--muted);
+  margin-top: 14px;
+}
+
+.vocab-kbd {
+  display: inline-block;
+  padding: 1px 5px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-family: monospace;
+  margin: 0 3px;
+}
+
+/* Empty State */
+.vocab-empty-state {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 24px;
+  text-align: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+}
+
+.vocab-empty-icon {
+  font-size: 3em;
+  margin-bottom: 12px;
+}
+
+.vocab-empty-title {
+  font-size: 1.3em;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+
+.vocab-empty-desc {
+  font-size: 0.92em;
+  color: var(--muted);
+  margin-bottom: 18px;
+}

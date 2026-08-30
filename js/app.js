@@ -30,7 +30,7 @@
     if (saved) {
       if (saved.year) AppState.year = Number(saved.year);
       if (saved.textId) AppState.textId = Number(saved.textId);
-      if (saved.mode === 'practice' || saved.mode === 'review') AppState.mode = saved.mode;
+      if (saved.mode === 'practice' || saved.mode === 'review' || saved.mode === 'vocab') AppState.mode = saved.mode;
       if (saved.practiceSubmode === 'mock' || saved.practiceSubmode === 'step') AppState.practiceSubmode = saved.practiceSubmode;
       if (typeof saved.stepIndex === 'number') AppState.savedStepIndex = saved.stepIndex;
       if (saved.theme) AppState.theme = saved.theme;
@@ -57,6 +57,7 @@
     if (themeName === 'dark') document.body.classList.add('theme-dark');
     document.body.classList.toggle('mode-review', AppState.mode === 'review');
     document.body.classList.toggle('mode-practice', AppState.mode === 'practice');
+    document.body.classList.toggle('mode-vocab', AppState.mode === 'vocab');
 
     const themeSelect = document.getElementById('themeSelect');
     if (themeSelect) themeSelect.value = themeName || 'light';
@@ -110,6 +111,15 @@
 
     document.body.classList.toggle('mode-review', AppState.mode === 'review');
     document.body.classList.toggle('mode-practice', AppState.mode === 'practice');
+    document.body.classList.toggle('mode-vocab', AppState.mode === 'vocab');
+
+    // Update Mode button active states
+    const practiceBtn = document.getElementById('practiceModeBtn');
+    const reviewBtn = document.getElementById('reviewModeBtn');
+    const vocabBtn = document.getElementById('vocabModeBtn');
+    if (practiceBtn) practiceBtn.classList.toggle('active', AppState.mode === 'practice');
+    if (reviewBtn) reviewBtn.classList.toggle('active', AppState.mode === 'review');
+    if (vocabBtn) vocabBtn.classList.toggle('active', AppState.mode === 'vocab');
 
     // Update Submode toggle visibility
     const submodeContainer = document.getElementById('submodeContainer');
@@ -121,6 +131,15 @@
         mockBtn.classList.toggle('active', AppState.practiceSubmode === 'mock');
         stepBtn.classList.toggle('active', AppState.practiceSubmode === 'step');
       }
+    }
+
+    if (AppState.mode === 'vocab') {
+      if (window.VocabModule) {
+        window.VocabModule.init('vocabSection');
+      }
+      updateUIControls();
+      saveState();
+      return;
     }
 
     // Render left panel authentic exam paper
@@ -219,21 +238,29 @@
     const floatingNavBar = document.getElementById('floatingNavBar');
 
     const isMock = AppState.mode === 'practice' && AppState.practiceSubmode === 'mock';
+    const isVocab = AppState.mode === 'vocab';
 
     if (floatingNavBar) {
-      floatingNavBar.style.display = isMock ? 'none' : 'flex';
+      floatingNavBar.style.display = (isMock || isVocab) ? 'none' : 'flex';
     }
 
     const isFirst = AppState.stepIndex <= 0;
     const isLast = AppState.stepIndex >= AppState.steps.length - 1;
     const isFull = AppState.isFullMode;
 
-    if (prevBtn) prevBtn.disabled = isMock || isFull || isFirst;
-    if (nextBtn) nextBtn.disabled = isMock || isFull || isLast;
-    if (floatPrevBtn) floatPrevBtn.disabled = isMock || isFull || isFirst;
-    if (floatNextBtn) floatNextBtn.disabled = isMock || isFull || isLast;
+    if (prevBtn) prevBtn.disabled = isMock || isVocab || isFull || isFirst;
+    if (nextBtn) nextBtn.disabled = isMock || isVocab || isFull || isLast;
+    if (floatPrevBtn) floatPrevBtn.disabled = isMock || isVocab || isFull || isFirst;
+    if (floatNextBtn) floatNextBtn.disabled = isMock || isVocab || isFull || isLast;
 
-    const progStr = isMock ? '全卷模考' : `${AppState.stepIndex + 1} / ${AppState.steps.length}`;
+    let progStr = '';
+    if (isVocab) {
+      progStr = '单词背诵';
+    } else if (isMock) {
+      progStr = '全卷模考';
+    } else {
+      progStr = `${AppState.stepIndex + 1} / ${AppState.steps.length}`;
+    }
     if (progressText) progressText.textContent = progStr;
     if (floatProgressText) floatProgressText.textContent = progStr;
 
@@ -558,6 +585,7 @@
       <div class="vocab-tip">💡 考研考点提示：注意本词在阅读定位句中的同义替换与感情色彩。</div>
       <div class="vocab-actions">
         <button id="bookmarkBtn" class="toolbar-btn ${isBookmarked ? 'active' : ''}">${isBookmarked ? '★ 已在生词本' : '☆ 收藏生词'}</button>
+        <button id="learnInVocabBtn" class="toolbar-btn" style="font-weight:700;color:var(--primary)">🔤 闪卡背诵</button>
         <button id="closeVocabBtn" class="toolbar-btn" style="padding:2px 8px">✕</button>
       </div>
     `;
@@ -577,6 +605,20 @@
         bBtn.classList.toggle('active', res.added);
       }
     };
+
+    const learnBtn = document.getElementById('learnInVocabBtn');
+    if (learnBtn) {
+      learnBtn.onclick = () => {
+        popup.classList.remove('show');
+        AppState.mode = 'vocab';
+        loadCurrentText();
+        const searchInput = document.getElementById('vocabSearchInput');
+        if (searchInput) {
+          searchInput.value = word;
+          searchInput.dispatchEvent(new Event('input'));
+        }
+      };
+    }
   }
 
   // Global Handlers for Mock Exam Interactions
@@ -670,13 +712,12 @@
     // 3. Mode Toggles
     const practiceBtn = document.getElementById('practiceModeBtn');
     const reviewBtn = document.getElementById('reviewModeBtn');
+    const vocabBtn = document.getElementById('vocabModeBtn');
 
     practiceBtn.addEventListener('click', () => {
       if (AppState.mode === 'practice') return;
       AppState.mode = 'practice';
       AppState.savedStepIndex = 0;
-      practiceBtn.classList.add('active');
-      reviewBtn.classList.remove('active');
       loadCurrentText();
     });
 
@@ -684,10 +725,16 @@
       if (AppState.mode === 'review') return;
       AppState.mode = 'review';
       AppState.savedStepIndex = 0;
-      reviewBtn.classList.add('active');
-      practiceBtn.classList.remove('active');
       loadCurrentText();
     });
+
+    if (vocabBtn) {
+      vocabBtn.addEventListener('click', () => {
+        if (AppState.mode === 'vocab') return;
+        AppState.mode = 'vocab';
+        loadCurrentText();
+      });
+    }
 
     // 4. Submode Toggle (Mock vs Step)
     const mockBtn = document.getElementById('submodeMockBtn');

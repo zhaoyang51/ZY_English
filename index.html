@@ -7,8 +7,9 @@
   
   <!-- Modular Stylesheets -->
   <link rel="stylesheet" href="css/theme.css">
-  <link rel="stylesheet" href="css/typography.css?v=20260831_v4">
+  <link rel="stylesheet" href="css/typography.css?v=20260831_v5">
   <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/vocab.css?v=20260831_v5">
 </head>
 <body class="mode-practice">
 
@@ -35,6 +36,7 @@
       <div class="btn-group">
         <button id="practiceModeBtn" class="btn active">做题模式</button>
         <button id="reviewModeBtn" class="btn">复盘模式 (一石五鸟)</button>
+        <button id="vocabModeBtn" class="btn">🔤 单词背诵</button>
       </div>
 
       <!-- Practice Submode Switcher -->
@@ -118,6 +120,9 @@
     </section>
   </main>
 
+  <!-- Dedicated Vocabulary Memorization Section (Ebbinghaus Spaced Repetition) -->
+  <section class="vocab-section" id="vocabSection"></section>
+
   <!-- Floating Navigation Controls -->
   <aside class="floating-nav-bar" id="floatingNavBar">
     <button class="float-btn" id="floatPrevBtn" title="快捷键: ←">◀ 上一步</button>
@@ -196,14 +201,16 @@
   </div>
 
   <!-- Pure Structured JSON Database Bridge & In-Browser Dictionary -->
-  <script src="data/all_data.js?v=20260831_v4"></script>
+  <script src="data/all_data.js?v=20260831_v5"></script>
   <script src="data/vocab_dict.js"></script>
+  <script src="data/vocab_bank.js"></script>
   
   <!-- Modular JS Application Components -->
   <script src="js/storage.js"></script>
   <script src="js/exporter.js"></script>
-  <script src="js/reader.js?v=20260831_v4"></script>
-  <script src="js/quiz.js?v=20260831_v4"></script>
-  <script src="js/app.js?v=20260831_v4"></script>
+  <script src="js/reader.js?v=20260831_v5"></script>
+  <script src="js/quiz.js?v=20260831_v5"></script>
+  <script src="js/vocab.js?v=20260831_v5"></script>
+  <script src="js/app.js?v=20260831_v5"></script>
 </body>
 </html>
