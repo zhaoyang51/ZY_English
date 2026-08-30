@@ -10,7 +10,7 @@
         {
           "pid": 0,
           "text": "The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008. All but two pieces sold, fetching more than £70m, a record for a sale by a single artist. It was a last victory. As the auctioneer called out bids, in New York one of the oldest banks on Wall Street, Lehman Brothers, filed for bankruptcy.",
-          "translation": "2008 年 9 月 15 日，伦敦苏富比拍卖行拍卖达米恩·赫斯特 (Damien Hirst) 的 56 件作品《永远美丽在我的脑海中》(Beautiful Inside My Head Forever)，以戏剧性的方式结束了艺术市场历史上一个世纪以来最长的牛市。除两件作品外，其余作品全部售出，成交价超过 7000 万英镑，创下了单一艺术家的拍卖纪录。这是最后的胜利。当拍卖师发出竞价时，纽约华尔街最古老的银行之一雷曼兄弟公司申请破产。",
+          "translation": "2008 年 9 月 15 日，伦敦苏富比拍卖行拍卖达明安·赫斯特 (Damien Hirst) 的 56 件作品《美丽在我脑海中永远》(Beautiful Inside My Head Forever)，戏剧性地结束了艺术市场历史上一个世纪以来最长的牛市。除两件作品外，其余作品全部售出，成交价超过 7000 万英镑，创下了单个艺术家的拍卖纪录。这是最后的胜利。当拍卖师发出竞价时，纽约华尔街最古老的银行之一雷曼兄弟公司申请破产。",
           "slashed_text": "The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works / by Damien Hirst , / Beautiful Inside My Head Forever , / at Sotheby’s / in London / on September 15th 2008. All but two pieces sold , / fetching more than £70m , / a record for a sale by a single artist. It was a last victory. As the auctioneer called out bids , / in New York one of the oldest banks / on Wall Street , / Lehman Brothers , / filed / for bankruptcy.",
           "chunk_translation": "艺术市场历史上一个世纪以来最长的牛市以戏剧性的方式宣告结束，拍卖了56件作品 / 由达明安·赫斯特创作 / 名为《美丽在我脑海中永存》 / 在苏富比拍卖行 / 在伦敦 / 于2008年9月15日 除两件作品外其余全部售出 / 成交额超过7000万英镑 / 创下了单个艺术家的拍卖纪录 这是最后的胜利 正当拍卖师喊出竞价时 / 在纽约，华尔街最古老的银行之一 / 华尔街上的 / 雷曼兄弟 / 申请了 / 破产",
           "vocabulary": [
@@ -58,25 +58,30 @@
               "word": "dramatic",
               "pos": "adj.",
               "definition": "adj. 巨大而突然的；急剧的"
+            },
+            {
+              "word": "sale",
+              "pos": "n.",
+              "definition": "n. 出售；销售"
             }
           ]
         },
         {
           "pid": 1,
           "text": "The world art market had already been losing momentum for a while after rising bewilderingly since 2003. At its peak in 2007 it was worth some $65 billion, reckons Clare McAndrew, founder of Arts Economics, a research firm—double the figure five years earlier. Since then it may have come down to $50 billion. But the market generates interest far beyond its size because it brings together great wealth, enormous egos, greed, passion and controversy in a way matched by few other industries.",
-          "translation": "自 2003 年以来，世界艺术市场经历了令人眼花缭乱的增长，但在一段时间内已经失去了动力。研究公司 Arts Economics 的创始人克莱尔·麦克安德鲁 (Clare McAndrew) 估计，在 2007 年达到顶峰时，其价值约为 650 亿美元，是五年前这一数字的两倍。从那时起，这一数字可能已降至 500 亿美元。但这个市场产生的兴趣远远超出了它的规模，因为它以其他行业很少能比拟的方式汇集了巨大的财富、巨大的自负、贪婪、激情和争议。",
+          "translation": "自2003年以来，世界艺术市场经历了令人眼花缭乱的上涨后，已经有一段时间失去了动力。研究公司 Arts Economics 的创始人克莱尔·麦克安德鲁 (Clare McAndrew) 估计，在 2007 年的巅峰时期，其价值约为 650 亿美元，是五年前这一数字的两倍。从那时起，这一数字可能已降至 500 亿美元。但这个市场所产生的兴趣远远超出了它的规模，因为它以其他行业很少能比拟的方式汇集了巨大的财富、巨大的自负、贪婪、激情和争议。",
           "slashed_text": "The world art market had already been losing momentum for a / while / after rising bewilderingly / since 2003. At its peak in 2007 it was worth some $65 billion , / reckons Clare McAndrew , / founder of Arts Economics , / a research firm — / double the figure five years earlier. / Since then it may have come down to $50 billion. But the market generates interest far beyond its size / because it brings together great wealth , / enormous egos , / greed , / passion and controversy in a way matched by few other industries.",
           "chunk_translation": "全球艺术品市场在此前失去上涨势头已经有一段 / 时间了 / 在经历了自2003年以来的惊人上涨之后 / 自2003年起 在2007年的顶峰时期，其价值约为650亿美元 / 克莱尔·麦克安德鲁估计 / 艺术经济学研究公司的创始人 / 一家研究机构—— / 是五年前数字的两倍 / 从那时起，其价值可能已跌至500亿美元 但该市场引发的兴趣远远超出了其自身规模 / 因为它汇集了巨额财富 / 极度膨胀的自负 / 贪婪 / 以及极少有其他行业能够比拟的激情与争议",
           "vocabulary": [
             {
-              "word": "at its peak",
-              "pos": "n.",
-              "definition": "处于顶峰；处于全盛时期"
-            },
-            {
               "word": "market",
               "pos": "n.",
               "definition": "n. 集市；市场"
+            },
+            {
+              "word": "at its peak",
+              "pos": "n.",
+              "definition": "处于顶峰；处于全盛时期"
             },
             {
               "word": "already",
@@ -118,7 +123,7 @@
         {
           "pid": 2,
           "text": "In the weeks and months that followed Mr. Hirst’s sale, spending of any sort became deeply unfashionable . In the art world that meant collectors stayed away from galleries and salerooms. Sales of contemporary art fell by two-thirds, and in the most overheated sector, they were down by nearly 90 % in the year to November 2008. Within weeks the world’s two biggest auction houses, Sotheby’s and Christie’s, had to pay out nearly $200m in guarantees to clients who had placed works for sale with them.",
-          "translation": "在赫斯特先生出售后的几周和几个月里，任何形式的支出都变得非常不流行。在艺术界，这意味着收藏家远离画廊和拍卖场。当代艺术品的销售额下降了三分之二，在最过热的领域，截至 2008 年 11 月的一年内下降了近 90%。几周之内，世界上最大的两家拍卖行苏富比和佳士得就不得不向向其出售作品的客户支付近 2 亿美元的担保金。",
+          "translation": "在接下来的几个星期和几个月里。赫斯特的拍卖、任何形式的支出都变得非常不流行。在艺术界，这意味着收藏家远离画廊和拍卖场。当代艺术品的销售额下降了三分之二，而在最过热的领域，截至 2008 年 11 月的一年里，销售额下降了近 90%。几周之内，世界上最大的两家拍卖行苏富比和佳士得不得不向向其出售作品的客户支付近 2 亿美元的担保金。",
           "slashed_text": "In the weeks and months / that followed Mr. Hirst’s sale , / spending of any sort became deeply unfashionable . In the art world / that meant collectors stayed away / from galleries and salerooms. Sales of contemporary art fell by two-thirds , / and in the most overheated sector , / they were down / by nearly 90 % in the year to November 2008. Within weeks the world’s two biggest auction houses , / Sotheby’s and Christie’s , / had to pay out nearly $200m / in guarantees to clients / who had placed works / for sale / with them.",
           "chunk_translation": "在接下来的几周和几个月里 / 紧随赫斯特先生的 拍卖会之后 / 任何形式的挥霍消费都变得极为不合时宜 在艺术界 / 这意味着收藏家们远离了 / 画廊和拍卖大厅 当代艺术品的销售额下降了三分之二 / 而在最过热的领域中 / 销售额大幅下滑 / 在截至2008年11月的一年里跌幅近90% 数周之内，全球最大的两家拍卖行 / 苏富比和佳士得 / 不得不支付近2亿美元 / 作为对客户的担保金 / 那些将作品委托 / 拍卖出售的 / 给他们的客户",
           "vocabulary": [
@@ -172,10 +177,25 @@
         {
           "pid": 3,
           "text": "The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989. This time experts reckon that prices are about 40 % down on their peak on average, though some have been far more fluctuant. But Edward Dolman, Christie’s chief executive, says: “I’m pretty confident we’re at the bottom.”",
-          "translation": "目前艺术品市场的低迷是自 1989 年底日本停止购买印象派画家以来最严重的一次。专家估计，这次价格比峰值平均下跌了 40% 左右，尽管有些价格波动更大。但佳士得首席执行官爱德华·多尔曼 (Edward Dolman) 表示：“我非常有信心我们已经处于谷底。”",
+          "translation": "目前艺术市场的低迷是自1989年底日本停止购买印象派画家以来最严重的一次。专家估计，这一次价格比峰值平均下降了 40% 左右，尽管有些价格的波动要大得多。但佳士得首席执行官爱德华·多尔曼 (Edward Dolman) 表示：“我非常有信心我们已经处于谷底。”",
           "slashed_text": "The current downturn in the art market is the worst / since the Japanese stopped buying Impressionists at the end of 1989. This time experts reckon / that prices are about 40 % down / on their peak / on average , / though some have been far more fluctuant. But Edward Dolman , / Christie’s chief executive , / says : / “I’m pretty confident we’re at the bottom.”",
           "chunk_translation": "当前艺术市场的低迷是最严重的一次 / 自1989年底日本人停止购买印象派作品以来 这一次专家们估计 / 价格相比其峰值下降了约40% / 与峰值相比 / 平均而言 / 尽管有些价格的波动要剧烈得多 但佳士得首席执行官爱德华·多尔曼 / 佳士得首席执行官 / 表示： / “我非常有信心我们已经见底了。”",
           "vocabulary": [
+            {
+              "word": "market",
+              "pos": "n.",
+              "definition": "n. 集市；市场"
+            },
+            {
+              "word": "since",
+              "pos": "prep.",
+              "definition": "prep. 自……以后；自……以来"
+            },
+            {
+              "word": "peak",
+              "pos": "n.",
+              "definition": "n. 巅峰；顶点"
+            },
             {
               "word": "current",
               "pos": "adj.",
@@ -187,19 +207,9 @@
               "definition": "n. （商业经济的）下降；衰退期"
             },
             {
-              "word": "market",
-              "pos": "n.",
-              "definition": "n. 集市；市场"
-            },
-            {
               "word": "worst",
               "pos": "adj.",
               "definition": "adj. 最差的；最糟的"
-            },
-            {
-              "word": "since",
-              "pos": "prep.",
-              "definition": "prep. 自……以后；自……以来"
             },
             {
               "word": "stopped",
@@ -231,6 +241,11 @@
           "chunk_translation": "使这次暴跌不同于以往的地方 / 他说 / 在于 / 市场上依然存在买家 几乎所有人 / 接受采访的 / 为本特别报道接受采访的人都表示 / 目前最大的问题不是缺乏需求，而是缺乏可售的优秀作品 “3D”因素—— / 死亡、 / 债务和离婚—— / 依然在为市场提供艺术作品 但任何非被迫出售的人都在保持观望 / 远离市场 / 等待着 / 市场信心的回归",
           "vocabulary": [
             {
+              "word": "market",
+              "pos": "n.",
+              "definition": "n. 集市；市场"
+            },
+            {
               "word": "slump",
               "pos": "v.",
               "definition": "v. （价格、价值、数量等）骤降；猛跌"
@@ -249,11 +264,6 @@
               "word": "buyers",
               "pos": "n.",
               "definition": "n. 买主；买家"
-            },
-            {
-              "word": "market",
-              "pos": "n.",
-              "definition": "n. 集市；市场"
             },
             {
               "word": "Almost",
@@ -731,9 +741,9 @@
           "stem": "By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author \nsuggests that .",
           "stem_cn": "By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author \nsuggests that .",
           "type": "因果推断题",
-          "locate_pid": 1,
-          "locate_sentence": "The world art market had already been losing momentum for a while after rising bewilderingly since 2003.",
-          "locate_sentence_cn": "自2003年以来，世界艺术市场经历了令人眼花缭乱的上涨后，已经有一段时间失去了动力。",
+          "locate_pid": 2,
+          "locate_sentence": "Hirst’s sale, spending of any sort became deeply unfashionable .",
+          "locate_sentence_cn": "赫斯特的拍卖、任何形式的支出都变得非常不流行。",
           "options": [
             {
               "key": "A",
@@ -744,8 +754,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The world art market had already been losing momentum for a while after rising bewilderingly since 2003.",
-                "source_translation": "自2003年以来，世界艺术市场经历了令人眼花缭乱的上涨后，已经有一段时间失去了动力。",
+                "source_sentence": "Hirst’s sale, spending of any sort became deeply unfashionable .",
+                "source_translation": "赫斯特的拍卖、任何形式的支出都变得非常不流行。",
                 "locator_comparison": "选项核心词 <code>collectors</code>, <code>longer</code>, <code>actively</code>（“收藏家不再积极参与艺术品市场拍卖”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“研究公司 Arts Economics 的创始人克莱尔·麦克安德鲁 (Clare McAndrew) 估计，在 2007 年的巅峰时期，其价值约为 650 亿美元，是五年前这一数字的两倍。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -811,9 +821,9 @@
           "stem": "Which of the following statements is NOT true?",
           "stem_cn": "以下哪项陈述是不正确的？",
           "type": "段落推理题",
-          "locate_pid": 2,
-          "locate_sentence": "In the weeks and months that followed Mr.",
-          "locate_sentence_cn": "在接下来的几个星期和几个月里。",
+          "locate_pid": 3,
+          "locate_sentence": "The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.",
+          "locate_sentence_cn": "目前艺术市场的低迷是自1989年底日本停止购买印象派画家以来最严重的一次。",
           "options": [
             {
               "key": "A",
@@ -841,8 +851,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "In the weeks and months that followed Mr.",
-                "source_translation": "在接下来的几个星期和几个月里。",
+                "source_sentence": "The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.",
+                "source_translation": "目前艺术市场的低迷是自1989年底日本停止购买印象派画家以来最严重的一次。",
                 "locator_comparison": "选项核心词 <code>art</code>, <code>market</code>, <code>surpassed</code>（“艺术品市场的发展势头超过了许多其他行业。”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“赫斯特的拍卖、任何形式的支出都变得非常不流行。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -891,9 +901,9 @@
           "stem": "The three Ds mentioned in the last paragraph are .",
           "stem_cn": "上一段提到的三个 D 是 。",
           "type": "词义/例证题",
-          "locate_pid": 3,
-          "locate_sentence": "The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.",
-          "locate_sentence_cn": "目前艺术市场的低迷是自1989年底日本停止购买印象派画家以来最严重的一次。",
+          "locate_pid": 4,
+          "locate_sentence": "The three Ds—death, debt and divorce—still deliver works of art to the market.",
+          "locate_sentence_cn": "三个 D——死亡、债务和离婚——仍然将艺术品推向市场。",
           "options": [
             {
               "key": "A",
@@ -938,8 +948,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.",
-                "source_translation": "目前艺术市场的低迷是自1989年底日本停止购买印象派画家以来最严重的一次。",
+                "source_sentence": "The three Ds—death, debt and divorce—still deliver works of art to the market.",
+                "source_translation": "三个 D——死亡、债务和离婚——仍然将艺术品推向市场。",
                 "locator_comparison": "选项核心词 <code>factors</code>, <code>promoting</code>, <code>artwork</code>（“促进艺术品流通的因素”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“专家估计，这一次价格比峰值平均下降了 40% 左右，尽管有些价格的波动要大得多。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -971,9 +981,9 @@
           "stem": "The most appropriate title for this text could be .",
           "stem_cn": "本文最合适的标题可能是。",
           "type": "全文主旨题",
-          "locate_pid": 4,
-          "locate_sentence": "What makes this slump different from the last, he says, is that there are still buyers in the market.",
-          "locate_sentence_cn": "他说，这次衰退与上次不同的是，市场上仍然有买家。",
+          "locate_pid": 1,
+          "locate_sentence": "The world art market had already been losing momentum for a while after rising bewilderingly since 2003.",
+          "locate_sentence_cn": "自2003年以来，世界艺术市场经历了令人眼花缭乱的上涨后，已经有一段时间失去了动力。",
           "options": [
             {
               "key": "A",
@@ -1018,8 +1028,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "What makes this slump different from the last, he says, is that there are still buyers in the market.",
-                "source_translation": "他说，这次衰退与上次不同的是，市场上仍然有买家。",
+                "source_sentence": "The world art market had already been losing momentum for a while after rising bewilderingly since 2003.",
+                "source_translation": "自2003年以来，世界艺术市场经历了令人眼花缭乱的上涨后，已经有一段时间失去了动力。",
                 "locator_comparison": "选项核心词 <code>Art</code>, <code>Market</code>, <code>Decline</code>（“艺术市场衰退”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“几乎所有接受本专题报道采访的人都表示，目前最大的问题不是缺乏需求，而是缺乏好作品可卖。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -1104,7 +1114,7 @@
         {
           "pid": 0,
           "text": "I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them. Throughout the evening, one man had been particularly talkative, frequently offering ideas and anecdotes, while his wife sat silently beside him on the couch. Toward the end of the evening, I commented that women frequently complain that their husbands don’t talk to them. This man quickly nodded in agreement. He gestured toward his wife and said, “She’s the talker in our family.” The room burst into laughter; the man looked puzzled and hurt. “It’s true,” he explained. “When I come home from work, I have nothing to say. If she didn’t keep the conversation going, we’d spend the whole evening in silence.”",
-          "translation": "我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。整个晚上，一名男子特别健谈，经常提出想法和轶事，而他的妻子则默默地坐在他旁边的沙发上。晚上快结束时，我评论说，女性经常抱怨她们的丈夫不和她们说话。这人连忙点头答应。他指着他的妻子说：“她是我们家里最健谈的人。”房间里爆发出一阵笑声。那人看上去既困惑又受伤。 “这是真的，”他解释道。 “当我下班回家时，我无话可说。如果她不继续谈话，我们整个晚上都会保持沉默。”",
+          "translation": "我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。整个晚上，一名男子特别健谈，经常提出想法和轶事，而他的妻子则默默地坐在他旁边的沙发上。晚上快结束时，我评论说，女性经常抱怨她们的丈夫不和她们说话。这人连忙点头答应。他指着他的妻子说：“她是我们家里最健谈的人。”房间里爆发出一阵笑声。那人看上去既困惑又受伤。“这是真的，”他解释道。“当我下班回家时，我无话可说。如果她不继续谈话，我们整个晚上都会保持沉默。”",
           "slashed_text": "I was addressing a small gathering in a suburban Virginia living room — / a women’s group / that had invited men to join them. Throughout the evening , / one man had been particularly talkative , / frequently offering ideas and anecdotes , / while his wife sat silently beside him on the couch. Toward the end of the evening , / I commented / that women frequently complain / that their husbands don’t talk to them. This man quickly nodded / in agreement. He gestured toward his wife and said , / “She’s the talker in our family.” The room burst / into laughter ; / the man looked puzzled and hurt. “It’s true , / ” he explained. “ / When I come home / from work , / I have nothing to say. / If she didn’t keep the conversation going , / we’d spend the whole evening / in silence.”",
           "chunk_translation": "我当时正在弗吉尼亚郊区的一间客厅里向一个小型聚会发表演讲—— / 这是一个女性团体 / 她们邀请了男性加入她们 整个晚上 / 一名男子表现得格外健谈 / 频繁地发表观点并分享轶事 / 而他的妻子则静静地坐在沙发上他身边 在傍晚聚会快结束时 / 我评论道 / 女性经常抱怨 / 她们的丈夫不跟她们说话 这名男子迅速点头 / 表示赞同 他指着他的妻子说道 / “她才是我们家话多的人。”房间里爆发 / 出一阵笑声； / 那名男子看上去既困惑又委屈 “这是真的， / ”他解释道 “ / 当我回到家 / 下班时， / 我无话可说 / 如果她不把对话继续下去 / 我们整个晚上都会 / 在沉默中度过。”",
           "vocabulary": [
@@ -1152,6 +1162,11 @@
               "word": "invited",
               "pos": "v.",
               "definition": "v. 邀请；约请"
+            },
+            {
+              "word": "talk",
+              "pos": "v.",
+              "definition": "v. 说话；交谈"
             }
           ]
         },
@@ -1206,16 +1221,26 @@
               "word": "often",
               "pos": "adv.",
               "definition": "adv. 常常；时常"
+            },
+            {
+              "word": "pattern",
+              "pos": "n.",
+              "definition": "n. 模式；方式"
             }
           ]
         },
         {
           "pid": 2,
-          "text": "The pattern was observed by political scientist Andrew Hacker in the late 1970s.",
-          "translation": "政治学家安德鲁·哈克 (Andrew Hacker) 在 20 世纪 70 年代末观察到了这一模式。",
-          "slashed_text": "The pattern was observed / by political scientist Andrew Hacker in the late 1970s.",
-          "chunk_translation": "这种模式早在20世纪70年代末就被观察到 / 由政治学家安德鲁·哈克提出",
+          "text": "The pattern was observed by political scientist Andrew Hacker in the late 1970s. Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces. Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year—a virtual epidemic of failed conversation.",
+          "translation": "政治学家安德鲁·哈克 (Andrew Hacker) 在 20 世纪 70 年代末观察到了这一模式。社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。鉴于目前近 50% 的离婚率，美国每年的离婚率达到数百万起——几乎是失败对话的流行病。",
+          "slashed_text": "The pattern was observed / by political scientist Andrew Hacker in the late 1970s. Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk / that most of the women she interviewed — / but only a few of the men — / gave lack of communication as the reason / for their divorces. Given the current divorce rate of nearly 50 percent , / that amounts to millions of cases in the United States every year — / a virtual epidemic of failed conversation.",
+          "chunk_translation": "这种模式早在20世纪70年代末就被观察到 / 由政治学家安德鲁·哈克提出 社会学家凯瑟琳·科勒·里斯曼在其新书《离婚谈话》中报告 / 她采访的大多数女性—— / 但只有少数男性—— / 将缺乏沟通作为主要原因 / 导致她们离婚 鉴于目前接近50%的离婚率 / 这相当于美国每年有数百万起案例—— / 实际上是一场谈话失败的流行病",
           "vocabulary": [
+            {
+              "word": "talk",
+              "pos": "v.",
+              "definition": "v. 说话；交谈"
+            },
             {
               "word": "pattern",
               "pos": "n.",
@@ -1250,16 +1275,7 @@
               "word": "late",
               "pos": "adj.",
               "definition": "adj. 晚期的；末期的"
-            }
-          ]
-        },
-        {
-          "pid": 3,
-          "text": "Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces. Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year—a virtual epidemic of failed conversation. In my own research, complaints from women about their husbands most often focused not on tangible inequities such as having given up the chance for a career to accompany a husband to his, or doing far more than their share of daily life-support work like cleaning, cooking and social arrangements. Instead, they focused on communication: “He doesn’t listen to me.” “He doesn’t talk to me.” I found, as Hacker observed years before, that most wives want their husbands to be, first and foremost, conversational partners, but few husbands share this expectation of their wives.",
-          "translation": "社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。鉴于目前近 50% 的离婚率，美国每年的离婚率达到数百万起——几乎是失败对话的流行病。在我自己的研究中，女性对丈夫的抱怨往往不是集中在有形的不平等上，比如放弃了陪伴丈夫的职业机会，或者做的远远超过了她们承担的日常生活支持工作，如清洁、烹饪和社交安排。相反，他们专注于沟通：“他不听我的。” “他不跟我说话。”我发现，正如哈克多年前所观察到的那样，大多数妻子希望她们的丈夫首先成为谈话伙伴，但很少有丈夫对妻子抱有这样的期望。",
-          "slashed_text": "Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk / that most of the women she interviewed — / but only a few of the men — / gave lack of communication as the reason / for their divorces. Given the current divorce rate of nearly 50 percent , / that amounts to millions of cases in the United States every year — / a virtual epidemic of failed conversation. In my own research , / complaints / from women / about their husbands most often focused not / on tangible inequities such as having given up the chance for a career to accompany a husband to his , / or doing far more than their share of daily life-support work like cleaning , / cooking and social arrangements. Instead , / they focused / on communication : / “He doesn’t listen to me.” “He doesn’t talk to me.” I found , / as Hacker observed years before , / that most wives want their husbands to be , / first and foremost , / conversational partners , / but few husbands share this expectation of their wives.",
-          "chunk_translation": "社会学家凯瑟琳·科勒·里斯曼在其新书《离婚谈话》中报告 / 她采访的大多数女性—— / 但只有少数男性—— / 将缺乏沟通作为主要原因 / 导致她们离婚 鉴于目前接近50%的离婚率 / 这相当于美国每年有数百万起案例—— / 实际上是一场谈话失败的流行病 在我自己的研究中 / 抱怨 / 来自女性 / 对她们丈夫的抱怨往往并不集中 / 在切切实实的不平等上，比如放弃自己的职业发展机会去陪伴丈夫的事业 / 或者承担远超自己应尽份额的日常家务，如打扫 / 做饭和社交安排 相反 / 她们聚焦 / 于沟通问题： / “他根本不听我说。”“他从不跟我说话。”我发现 / 正如哈克多年前所观察到的 / 大多数妻子希望她们的丈夫成为 / 首要且最重要的 / 谈话伴侣 / 但很少有丈夫对妻子抱有这样的期望",
-          "vocabulary": [
+            },
             {
               "word": "Sociologist",
               "pos": "n.",
@@ -1296,14 +1312,43 @@
               "definition": "n. 离婚；离婚判决"
             },
             {
-              "word": "Talk",
+              "word": "interviewed",
+              "pos": "v.",
+              "definition": "v. interview 的过去式和过去分词：面试；采访"
+            },
+            {
+              "word": "current",
+              "pos": "adj.",
+              "definition": "adj. 现行的；当前的"
+            }
+          ]
+        },
+        {
+          "pid": 3,
+          "text": "In my own research, complaints from women about their husbands most often focused not on tangible inequities such as having given up the chance for a career to accompany a husband to his, or doing far more than their share of daily life-support work like cleaning, cooking and social arrangements. Instead, they focused on communication: “He doesn’t listen to me.” “He doesn’t talk to me.” I found, as Hacker observed years before, that most wives want their husbands to be, first and foremost, conversational partners, but few husbands share this expectation of their wives.",
+          "translation": "在我自己的研究中，女性对丈夫的抱怨往往不是集中在有形的不平等上，比如放弃了陪伴丈夫的职业机会，或者做的远远超过了她们承担的日常生活支持工作，如清洁、烹饪和社交安排。相反，他们专注于沟通：“他不听我的。” “他不跟我说话。”我发现，正如哈克多年前所观察到的那样，大多数妻子希望她们的丈夫首先成为谈话伙伴，但很少有丈夫对妻子抱有这样的期望。",
+          "slashed_text": "In my own research , / complaints / from women / about their husbands most often focused not / on tangible inequities such as having given up the chance for a career to accompany a husband to his , / or doing far more than their share of daily life-support work like cleaning , / cooking and social arrangements. Instead , / they focused / on communication : / “He doesn’t listen to me.” “He doesn’t talk to me.” I found , / as Hacker observed years before , / that most wives want their husbands to be , / first and foremost , / conversational partners , / but few husbands share this expectation of their wives.",
+          "chunk_translation": "在我自己的研究中 / 抱怨 / 来自女性 / 对她们丈夫的抱怨往往并不集中 / 在切切实实的不平等上，比如放弃自己的职业发展机会去陪伴丈夫的事业 / 或者承担远超自己应尽份额的日常家务，如打扫 / 做饭和社交安排 相反 / 她们聚焦 / 于沟通问题： / “他根本不听我说。”“他从不跟我说话。”我发现 / 正如哈克多年前所观察到的 / 大多数妻子希望她们的丈夫成为 / 首要且最重要的 / 谈话伴侣 / 但很少有丈夫对妻子抱有这样的期望",
+          "vocabulary": [
+            {
+              "word": "talk",
               "pos": "v.",
               "definition": "v. 说话；交谈"
             },
             {
-              "word": "interviewed",
+              "word": "often",
+              "pos": "adv.",
+              "definition": "adv. 常常；时常"
+            },
+            {
+              "word": "observed",
               "pos": "v.",
-              "definition": "v. interview 的过去式和过去分词：面试；采访"
+              "definition": "v. observe 的过去式和过去分词：观察；注意到"
+            },
+            {
+              "word": "Hacker",
+              "pos": "n.",
+              "definition": "n. 黑客；骇客"
             }
           ]
         },
@@ -1314,6 +1359,11 @@
           "slashed_text": "In short , / the image / that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up / in front of his face , / while a woman glares at the back of it , / wanting to talk.",
           "chunk_translation": "简而言之 / 最能代表当前危机的形象 / 是典型的漫画场景：一个男人坐在早餐桌前，手里举着报纸 / 挡在脸前 / 而女人则怒视着报纸的背面 / 渴望交谈",
           "vocabulary": [
+            {
+              "word": "talk",
+              "pos": "v.",
+              "definition": "v. 说话；交谈"
+            },
             {
               "word": "short",
               "pos": "adj.",
@@ -1568,8 +1618,8 @@
         },
         {
           "sid": 11,
-          "pid": 3,
-          "sentence_index": 0,
+          "pid": 2,
+          "sentence_index": 1,
           "text": "Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.",
           "translation": "社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。",
           "slashed_text": "Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk / that most of the women she interviewed — / but only a few of the men — / gave lack of communication as the reason / for their divorces.",
@@ -1586,8 +1636,8 @@
         },
         {
           "sid": 12,
-          "pid": 3,
-          "sentence_index": 1,
+          "pid": 2,
+          "sentence_index": 2,
           "text": "Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year—a virtual epidemic of failed conversation.",
           "translation": "鉴于目前近 50% 的离婚率，美国每年的离婚率达到数百万起——几乎是失败对话的流行病。",
           "slashed_text": "Given the current divorce rate of nearly 50 percent , / that amounts to millions of cases in the United States every year — / a virtual epidemic of failed conversation.",
@@ -1605,7 +1655,7 @@
         {
           "sid": 13,
           "pid": 3,
-          "sentence_index": 2,
+          "sentence_index": 0,
           "text": "In my own research, complaints from women about their husbands most often focused not on tangible inequities such as having given up the chance for a career to accompany a husband to his, or doing far more than their share of daily life-support work like cleaning, cooking and social arrangements.",
           "translation": "在我自己的研究中，女性对丈夫的抱怨往往不是集中在有形的不平等上，比如放弃了陪伴丈夫的职业机会，或者做的远远超过了她们承担的日常生活支持工作，如清洁、烹饪和社交安排。",
           "slashed_text": "In my own research , / complaints / from women / about their husbands most often focused not / on tangible inequities such as having given up the chance for a career to accompany a husband to his , / or doing far more than their share of daily life-support work like cleaning , / cooking and social arrangements.",
@@ -1623,7 +1673,7 @@
         {
           "sid": 14,
           "pid": 3,
-          "sentence_index": 3,
+          "sentence_index": 1,
           "text": "Instead, they focused on communication: “He doesn’t listen to me.” “He doesn’t talk to me.” I found, as Hacker observed years before, that most wives want their husbands to be, first and foremost, conversational partners, but few husbands share this expectation of their wives.",
           "translation": "相反，他们专注于沟通：“他不听我的。” “他不跟我说话。”我发现，正如哈克多年前所观察到的那样，大多数妻子希望她们的丈夫首先成为谈话伙伴，但很少有丈夫对妻子抱有这样的期望。",
           "slashed_text": "Instead , / they focused / on communication : / “He doesn’t listen to me.” “He doesn’t talk to me.” I found , / as Hacker observed years before , / that most wives want their husbands to be , / first and foremost , / conversational partners , / but few husbands share this expectation of their wives.",
@@ -1668,9 +1718,9 @@
           "stem": "What is most wives’ main expectation of their husbands?",
           "stem_cn": "大多数妻子对丈夫的主要期望是什么？",
           "type": "事实细节题",
-          "locate_pid": 0,
-          "locate_sentence": "I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.",
-          "locate_sentence_cn": "我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。",
+          "locate_pid": 3,
+          "locate_sentence": "Instead, they focused on communication: “He doesn’t listen to me.” “He doesn’t talk to me.” I found, as Hacker observed years before, that most wives want their husbands to be, first and foremost, conversational partners, but few husbands share this expectation of their wives.",
+          "locate_sentence_cn": "相反，他们专注于沟通：“他不听我的。” “他不跟我说话。”我发现，正如哈克多年前所观察到的那样，大多数妻子希望她们的丈夫首先成为谈话伙伴，但很少有丈夫对妻子抱有这样的期望。",
           "options": [
             {
               "key": "A",
@@ -1681,8 +1731,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.",
-                "source_translation": "我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。",
+                "source_sentence": "Instead, they focused on communication: “He doesn’t listen to me.” “He doesn’t talk to me.” I found, as Hacker observed years before, that most wives want their husbands to be, first and foremost, conversational partners, but few husbands share this expectation of their wives.",
+                "source_translation": "相反，他们专注于沟通：“他不听我的。” “他不跟我说话。”我发现，正如哈克多年前所观察到的那样，大多数妻子希望她们的丈夫首先成为谈话伙伴，但很少有丈夫对妻子抱有这样的期望。",
                 "locator_comparison": "选项核心词 <code>Talking</code>（“和他们说话。”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“整个晚上，一名男子特别健谈，经常提出想法和轶事，而他的妻子则默默地坐在他旁边的沙发上。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -1749,8 +1799,8 @@
           "stem_cn": "Judging from the context, the phrase “wreaking havoc” (Paragraph 2) most probably \nmeans .",
           "type": "因果推断题",
           "locate_pid": 1,
-          "locate_sentence": "This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.",
-          "locate_sentence_cn": "这一集体现了一个讽刺之处：尽管美国男性在公共场合比女性说话更多，但在家里却往往说话更少。",
+          "locate_sentence": "And this pattern is wreaking havoc with marriage.",
+          "locate_sentence_cn": "这种模式正在对婚姻造成严重破坏。",
           "options": [
             {
               "key": "A",
@@ -1795,8 +1845,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.",
-                "source_translation": "这一集体现了一个讽刺之处：尽管美国男性在公共场合比女性说话更多，但在家里却往往说话更少。",
+                "source_sentence": "And this pattern is wreaking havoc with marriage.",
+                "source_translation": "这种模式正在对婚姻造成严重破坏。",
                 "locator_comparison": "选项核心词 <code>causing</code>, <code>damage</code>（“造成损害”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“这种模式正在对婚姻造成严重破坏。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -1829,8 +1879,8 @@
           "stem_cn": "以下所有内容均正确，除了 .",
           "type": "段落推理题",
           "locate_pid": 2,
-          "locate_sentence": "The pattern was observed by political scientist Andrew Hacker in the late 1970s.",
-          "locate_sentence_cn": "政治学家安德鲁·哈克 (Andrew Hacker) 在 20 世纪 70 年代末观察到了这一模式。",
+          "locate_sentence": "Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.",
+          "locate_sentence_cn": "社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。",
           "options": [
             {
               "key": "A",
@@ -1858,8 +1908,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The pattern was observed by political scientist Andrew Hacker in the late 1970s.",
-                "source_translation": "政治学家安德鲁·哈克 (Andrew Hacker) 在 20 世纪 70 年代末观察到了这一模式。",
+                "source_sentence": "Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.",
+                "source_translation": "社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。",
                 "locator_comparison": "选项核心词 <code>nearly</code>, <code>percent</code>, <code>recent</code>（“最近近50%的离婚是由于谈话失败造成的”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -1908,9 +1958,9 @@
           "stem": "Which of the following can best summarize the main idea of this text?",
           "stem_cn": "以下哪一项最能概括本文的主要思想？",
           "type": "词义/例证题",
-          "locate_pid": 3,
-          "locate_sentence": "Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.",
-          "locate_sentence_cn": "社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。",
+          "locate_pid": 4,
+          "locate_sentence": "In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.",
+          "locate_sentence_cn": "简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。",
           "options": [
             {
               "key": "A",
@@ -1972,8 +2022,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.",
-                "source_translation": "社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。",
+                "source_sentence": "In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.",
+                "source_translation": "简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。",
                 "locator_comparison": "选项核心词 <code>Conversational</code>, <code>patterns</code>, <code>between</code>（“夫妻之间的谈话方式是不同的。”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“鉴于目前近 50% 的离婚率，美国每年的离婚率达到数百万起——几乎是失败对话的流行病。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -2169,16 +2219,36 @@
               "word": "consumers",
               "pos": "n.",
               "definition": "n. consumer 的复数：消费者；顾客"
+            },
+            {
+              "word": "habit",
+              "pos": "n.",
+              "definition": "n. 习惯；（吸毒、喝酒、抽烟的）瘾"
+            },
+            {
+              "word": "daily",
+              "pos": "adj.",
+              "definition": "adj. 每日的；日常的"
+            },
+            {
+              "word": "consumer",
+              "pos": "n.",
+              "definition": "n. 消费者；顾客"
             }
           ]
         },
         {
           "pid": 1,
-          "text": "“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr. Curtis, the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine. “We wanted to learn from private industry how to create new behaviors that happen automatically.”",
-          "translation": "伦敦卫生与热带医学院卫生中心主任柯蒂斯博士说：“一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，仍然是杀手，只是因为我们不知道如何改变人们的习惯。” “我们想向私营企业学习如何创造自动发生的新行为。”",
-          "slashed_text": "“There are fundamental public health problems , / like dirty hands instead of a soap habit , / that remain killers only / because we can’t figure out how to change people’s habits , / ” said Dr. Curtis , / the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine. “We wanted to learn / from private industry how to create new behaviors / that happen automatically.”",
-          "chunk_translation": "“存在一些根本性的公共卫生问题 / 比如手脏却不用肥皂洗手 / 这些问题仍然是致命杀手，仅仅 / 是因为我们不知道如何改变人们的习惯 / ”柯蒂斯博士说 柯蒂斯 / 伦敦卫生与热带医学院卫生中心主任 “我们想学习 / 向私营企业学习如何创造新的行为模式 / 使其能够自动发生。”",
+          "text": "“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr. Curtis, the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine.",
+          "translation": "“存在一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，这些问题仍然是杀手，只是因为我们不知道如何改变人们的习惯，”博士说。柯蒂斯是伦敦卫生与热带医学院卫生中心主任。",
+          "slashed_text": "“There are fundamental public health problems , / like dirty hands instead of a soap habit , / that remain killers only / because we can’t figure out how to change people’s habits , / ” said Dr. Curtis , / the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine.",
+          "chunk_translation": "“存在一些根本性的公共卫生问题 / 比如手脏却不用肥皂洗手 / 这些问题仍然是致命杀手，仅仅 / 是因为我们不知道如何改变人们的习惯 / ”柯蒂斯博士说 柯蒂斯 / 伦敦卫生与热带医学院卫生中心主任",
           "vocabulary": [
+            {
+              "word": "habits",
+              "pos": "n.",
+              "definition": "n. 习惯（habit 的复数）；（生物）习性"
+            },
             {
               "word": "fundamental",
               "pos": "adj.",
@@ -2223,20 +2293,64 @@
               "word": "habit",
               "pos": "n.",
               "definition": "n. 习惯；（吸毒、喝酒、抽烟的）瘾"
+            },
+            {
+              "word": "Curtis",
+              "pos": "n.",
+              "definition": "n. 柯蒂斯（男子名）；柯蒂斯（姓氏）"
             }
           ]
         },
         {
           "pid": 2,
-          "text": "The companies that Dr. Curtis turned to—Procter & Gamble, Colgate-Palmolive and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that corporations could use to introduce new routines.",
-          "translation": "柯蒂斯博士求助的公司——宝洁公司、高露洁棕榄公司和联合利华公司——已经投资了数亿美元，寻找消费者生活中的微妙线索，企业可以利用这些线索来引入新的生活习惯。",
-          "slashed_text": "The companies / that Dr. Curtis turned to — / Procter & Gamble , / Colgate-Palmolive and Unilever — / had invested hundreds of millions of dollars finding the subtle cues / in consumers’ lives / that corporations could use to introduce new routines.",
-          "chunk_translation": "这些公司 / 柯蒂斯博士 求助的公司—— / 宝洁、 / 高露洁棕榄和联合利华—— / 已经投入了数亿美元去寻找微妙的暗示 / 在消费者的日常生活中 / 企业可以利用这些暗示来引入新的生活惯例",
+          "text": "“We wanted to learn from private industry how to create new behaviors that happen automatically.”",
+          "translation": "“我们想向私营企业学习如何创造自动发生的新行为。”",
+          "slashed_text": "“We wanted to learn / from private industry how to create new behaviors / that happen automatically.”",
+          "chunk_translation": "“我们想学习 / 向私营企业学习如何创造新的行为模式 / 使其能够自动发生。”",
+          "vocabulary": [
+            {
+              "word": "automatic",
+              "pos": "adj.",
+              "definition": "adj. 自动的；必然的"
+            },
+            {
+              "word": "behaviors",
+              "pos": "n.",
+              "definition": "n. 行为；举止（behavior 的复数）"
+            }
+          ]
+        },
+        {
+          "pid": 3,
+          "text": "The companies that Dr. Curtis turned to—Procter & Gamble, Colgate-Palmolive and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that corporations could use to introduce new routines. If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.",
+          "translation": "博士的公司柯蒂斯求助于宝洁公司、高露洁棕榄公司和联合利华公司，这些公司投资了数亿美元，寻找消费者生活中的微妙线索，企业可以利用这些线索来引入新的生活习惯。如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。",
+          "slashed_text": "The companies / that Dr. Curtis turned to — / Procter & Gamble , / Colgate-Palmolive and Unilever — / had invested hundreds of millions of dollars finding the subtle cues / in consumers’ lives / that corporations could use to introduce new routines. / If you look hard enough , / you’ll find / that many of the products we use every day — / chewing gums , / skin moisturizers , / disinfecting wipes , / air fresheners , / water purifiers , / health snacks , / teeth whiteners , / fabric softeners , / vitamins — / are results of manufactured habits.",
+          "chunk_translation": "这些公司 / 柯蒂斯博士 求助的公司—— / 宝洁、 / 高露洁棕榄和联合利华—— / 已经投入了数亿美元去寻找微妙的暗示 / 在消费者的日常生活中 / 企业可以利用这些暗示来引入新的生活惯例 / 如果你仔细观察 / 你会发现 / 我们每天使用的许多产品—— / 口香糖、 / 润肤乳、 / 消毒湿巾、 / 空气清新剂、 / 净水器、 / 健康零食、 / 牙齿美白剂、 / 织物柔软剂、 / 维生素—— / 都是人为制造习惯的产物",
           "vocabulary": [
             {
               "word": "companies",
               "pos": "n.",
               "definition": "n. 公司；企业"
+            },
+            {
+              "word": "habits",
+              "pos": "n.",
+              "definition": "n. 习惯（habit 的复数）；（生物）习性"
+            },
+            {
+              "word": "consumers",
+              "pos": "n.",
+              "definition": "n. consumer 的复数：消费者；顾客"
+            },
+            {
+              "word": "health",
+              "pos": "n.",
+              "definition": "n. 身体状况；健康"
+            },
+            {
+              "word": "habit",
+              "pos": "n.",
+              "definition": "n. 习惯；（吸毒、喝酒、抽烟的）瘾"
             },
             {
               "word": "Curtis",
@@ -2277,16 +2391,7 @@
               "word": "invested",
               "pos": "v.",
               "definition": "v. 投资；花费"
-            }
-          ]
-        },
-        {
-          "pid": 3,
-          "text": "If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits. A century ago, few people regularly brushed their teeth multiple times a day. Today, because of shrewd advertising and public health campaigns, many Americans habitually give their pearly whites a cavity-preventing scrub twice a day, often with Colgate, Crest or one of the other brands.",
-          "translation": "如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。一个世纪前，很少有人每天定期刷牙多次。如今，由于精明的广告和公共卫生运动，许多美国人习惯性地每天两次给他们的珍珠白皮肤涂上防蛀牙磨砂膏，通常使用高露洁、佳洁士或其他品牌的产品。",
-          "slashed_text": "/ If you look hard enough , / you’ll find / that many of the products we use every day — / chewing gums , / skin moisturizers , / disinfecting wipes , / air fresheners , / water purifiers , / health snacks , / teeth whiteners , / fabric softeners , / vitamins — / are results of manufactured habits. A century ago , / few people regularly brushed their teeth multiple times a day. Today , / because of shrewd advertising and public health campaigns , / many Americans habitually give their pearly whites a cavity-preventing scrub twice a day , / often / with Colgate , / Crest or one of the other brands.",
-          "chunk_translation": "/ 如果你仔细观察 / 你会发现 / 我们每天使用的许多产品—— / 口香糖、 / 润肤乳、 / 消毒湿巾、 / 空气清新剂、 / 净水器、 / 健康零食、 / 牙齿美白剂、 / 织物柔软剂、 / 维生素—— / 都是人为制造习惯的产物 一个世纪前 / 很少有人每天定期刷牙多次 如今 / 得益于精明的广告宣传和公共卫生运动 / 许多美国人习惯性地每天两次刷净他们洁白的牙齿以防蛀牙 / 通常 / 使用高露洁、 / 佳洁士或其他品牌之一",
-          "vocabulary": [
+            },
             {
               "word": "look",
               "pos": "v.",
@@ -2331,16 +2436,56 @@
               "word": "moisturizers",
               "pos": "n.",
               "definition": "n. 润肤霜；保湿霜"
+            },
+            {
+              "word": "water",
+              "pos": "n.",
+              "definition": "n. 水；雨水"
+            },
+            {
+              "word": "consumer",
+              "pos": "n.",
+              "definition": "n. 消费者；顾客"
             }
           ]
         },
         {
           "pid": 4,
-          "text": "A few decades ago, many people didn’t drink water outside of a meal. Then beverage companies started bottling the production of far-off springs, and now office workers unthinkingly sip bottled water all day long. Chewing gum, once bought primarily by adolescent boys, is now featured in commercials as a breath freshener and teeth cleanser for use after a meal. Skin moisturizers are advertised as part of morning beauty rituals, slipped in between hair brushing and putting on makeup.",
-          "translation": "几十年前，许多人饭后不喝水。后来饮料公司开始将遥远的泉水生产装瓶，现在上班族整天不假思索地喝着瓶装水。口香糖曾经主要由青春期男孩购买，现在在广告中作为餐后使用的口气清新剂和牙齿清洁剂。皮肤保湿霜被宣传为早晨美容仪式的一部分，在梳头和化妆之间使用。",
-          "slashed_text": "A few decades ago , / many people didn’t drink water outside of a meal. Then beverage companies started bottling the production of far-off springs , / and now office workers unthinkingly sip bottled water all day long. Chewing gum , / once bought primarily / by adolescent boys , / is now featured / in commercials as a breath freshener and teeth cleanser for use after a meal. Skin moisturizers are advertised as part of morning beauty rituals , / slipped / in between hair brushing and putting / on makeup.",
-          "chunk_translation": "几十年前 / 许多人在正餐之外并不喝水 后来饮料公司开始将偏远泉水装瓶销售 / 如今上班族整天不假思索地喝着瓶装水 口香糖 / 曾经主要是购买对象 / 为青春期男孩 / 如今在广告中被宣传 / 作为餐后使用的口气清新剂和牙齿清洁剂 润肤霜被宣传为早晨美容护肤程序的一部分 / 悄悄插入 / 在梳头和化 / 妆之间",
+          "text": "A century ago, few people regularly brushed their teeth multiple times a day. Today, because of shrewd advertising and public health campaigns, many Americans habitually give their pearly whites a cavity-preventing scrub twice a day, often with Colgate, Crest or one of the other brands. A few decades ago, many people didn’t drink water outside of a meal. Then beverage companies started bottling the production of far-off springs, and now office workers unthinkingly sip bottled water all day long.",
+          "translation": "一个世纪前，很少有人每天定期刷牙多次。如今，由于精明的广告和公共卫生运动，许多美国人习惯性地每天两次给他们的珍珠白皮肤涂上防蛀牙磨砂膏，通常使用高露洁、佳洁士或其他品牌的产品。几十年前，许多人饭后不喝水。后来饮料公司开始将遥远的泉水生产装瓶，现在上班族整天不假思索地喝着瓶装水。",
+          "slashed_text": "A century ago , / few people regularly brushed their teeth multiple times a day. Today , / because of shrewd advertising and public health campaigns , / many Americans habitually give their pearly whites a cavity-preventing scrub twice a day , / often / with Colgate , / Crest or one of the other brands. A few decades ago , / many people didn’t drink water outside of a meal. Then beverage companies started bottling the production of far-off springs , / and now office workers unthinkingly sip bottled water all day long.",
+          "chunk_translation": "一个世纪前 / 很少有人每天定期刷牙多次 如今 / 得益于精明的广告宣传和公共卫生运动 / 许多美国人习惯性地每天两次刷净他们洁白的牙齿以防蛀牙 / 通常 / 使用高露洁、 / 佳洁士或其他品牌之一 几十年前 / 许多人在正餐之外并不喝水 后来饮料公司开始将偏远泉水装瓶销售 / 如今上班族整天不假思索地喝着瓶装水",
           "vocabulary": [
+            {
+              "word": "decade",
+              "pos": "n.",
+              "definition": "n. 十年；十年期"
+            },
+            {
+              "word": "companies",
+              "pos": "n.",
+              "definition": "n. 公司；企业"
+            },
+            {
+              "word": "public",
+              "pos": "adj.",
+              "definition": "adj. 公众的；大众的"
+            },
+            {
+              "word": "health",
+              "pos": "n.",
+              "definition": "n. 身体状况；健康"
+            },
+            {
+              "word": "habit",
+              "pos": "n.",
+              "definition": "n. 习惯；（吸毒、喝酒、抽烟的）瘾"
+            },
+            {
+              "word": "Colgate",
+              "pos": "n.",
+              "definition": "n. 高露洁（Colgate-Palmolive 旗下的口腔护理品牌）；高露洁公司（Colgate-Palmolive Company 的简称"
+            },
             {
               "word": "decades",
               "pos": "n.",
@@ -2377,11 +2522,6 @@
               "definition": "n. 饮料"
             },
             {
-              "word": "companies",
-              "pos": "n.",
-              "definition": "n. 公司；企业"
-            },
-            {
               "word": "started",
               "pos": "v.",
               "definition": "v. 开始；着手"
@@ -2390,15 +2530,45 @@
         },
         {
           "pid": 5,
-          "text": "“Our products succeed when they become part of daily or weekly patterns,” said Carol Berning, a consumer psychologist who recently retired from Procter & Gamble, the company that sold $76 billion of Tide, Crest and other products last year. “Creating positive habits is a huge part of improving our consumers’ lives, and it’s essential to making new products commercially viable.”",
-          "translation": "“当我们的产品成为日常或每周模式的一部分时，我们的产品就成功了，”最近从宝洁公司退休的消费者心理学家卡罗尔·伯宁（Carol Berning）说，宝洁公司去年销售了 760 亿美元的汰渍、佳洁士和其他产品。 “养成积极的习惯是改善消费者生活的重要组成部分，对于使新产品具有商业可行性至关重要。”",
-          "slashed_text": "“Our products succeed / when they become part of daily or weekly patterns , / ” said Carol Berning , / a consumer psychologist / who recently retired / from Procter & Gamble , / the company / that sold $76 billion of Tide , / Crest and other products last year. “Creating positive habits is a huge part of improving our consumers’ lives , / and it’s essential to making new products commercially viable.”",
-          "chunk_translation": "“我们的产品之所以成功 / 是因为它们融入了人们每天或每周的生活习惯中 / ”卡罗尔·伯宁说 / 一位消费者心理学家 / 她最近刚退休 / 从宝洁公司 / 这家公司 / 去年销售了760亿美元的汰渍、 / 佳洁士和其他产品 “养成积极的习惯是改善消费者生活的重要部分 / 这对使新产品具备商业可行性也至关重要。”",
+          "text": "Chewing gum, once bought primarily by adolescent boys, is now featured in commercials as a breath freshener and teeth cleanser for use after a meal. Skin moisturizers are advertised as part of morning beauty rituals, slipped in between hair brushing and putting on makeup. “Our products succeed when they become part of daily or weekly patterns,” said Carol Berning, a consumer psychologist who recently retired from Procter & Gamble, the company that sold $76 billion of Tide, Crest and other products last year.",
+          "translation": "口香糖曾经主要由青春期男孩购买，现在在广告中作为餐后使用的口气清新剂和牙齿清洁剂。皮肤保湿霜被宣传为早晨美容仪式的一部分，在梳头和化妆之间使用。“当我们的产品成为日常或每周模式的一部分时，我们的产品就成功了，”最近从宝洁公司退休的消费者心理学家卡罗尔·伯宁（Carol Berning）说，宝洁公司去年销售了 760 亿美元的汰渍、佳洁士和其他产品。",
+          "slashed_text": "Chewing gum , / once bought primarily / by adolescent boys , / is now featured / in commercials as a breath freshener and teeth cleanser for use after a meal. Skin moisturizers are advertised as part of morning beauty rituals , / slipped / in between hair brushing and putting / on makeup. “Our products succeed / when they become part of daily or weekly patterns , / ” said Carol Berning , / a consumer psychologist / who recently retired / from Procter & Gamble , / the company / that sold $76 billion of Tide , / Crest and other products last year.",
+          "chunk_translation": "口香糖 / 曾经主要是购买对象 / 为青春期男孩 / 如今在广告中被宣传 / 作为餐后使用的口气清新剂和牙齿清洁剂 润肤霜被宣传为早晨美容护肤程序的一部分 / 悄悄插入 / 在梳头和化 / 妆之间 “我们的产品之所以成功 / 是因为它们融入了人们每天或每周的生活习惯中 / ”卡罗尔·伯宁说 / 一位消费者心理学家 / 她最近刚退休 / 从宝洁公司 / 这家公司 / 去年销售了760亿美元的汰渍、 / 佳洁士和其他产品",
           "vocabulary": [
+            {
+              "word": "Procter",
+              "pos": "n.",
+              "definition": "n. 宝洁；普克特（男子名）"
+            },
+            {
+              "word": "Gamble",
+              "pos": "v.",
+              "definition": "v. 冒险假设；赌博"
+            },
             {
               "word": "products",
               "pos": "n.",
               "definition": "n. 产品；商品（product 的复数）"
+            },
+            {
+              "word": "chewing",
+              "pos": "n.",
+              "definition": "n. 咀嚼；嚼"
+            },
+            {
+              "word": "skin",
+              "pos": "n.",
+              "definition": "n. 皮；皮肤"
+            },
+            {
+              "word": "moisturizers",
+              "pos": "n.",
+              "definition": "n. 润肤霜；保湿霜"
+            },
+            {
+              "word": "meal",
+              "pos": "n.",
+              "definition": "n. 一餐；进餐（时间）"
             },
             {
               "word": "succeed",
@@ -2444,11 +2614,56 @@
         },
         {
           "pid": 6,
-          "text": "Through experiments and observation, social scientists like Dr. Berning have learned that there is power in tying certain behaviors to habitual cues through ruthless advertising. As this new science of habit has emerged, controversies have erupted when the tactics have been used to sell questionable beauty creams or unhealthy foods.",
-          "translation": "通过实验和观察，伯宁博士等社会科学家了解到，通过无情的广告将某些行为与习惯线索联系起来是有力量的。随着这种新的习惯科学的出现，当这种策略被用来销售有问题的美容霜或不健康食品时，争议就会爆发。",
-          "slashed_text": "Through experiments and observation , / social scientists like Dr. Berning have learned / that there is power / in tying certain behaviors to habitual cues / through ruthless advertising. As this new science of habit has emerged , / controversies have erupted / when the tactics have been used to sell questionable beauty creams or unhealthy foods.",
-          "chunk_translation": "通过实验和观察 / 像伯宁博士这样的社会科学家 已经认识到 / 蕴含着巨大的力量 / 将特定行为与习惯性暗示绑定在一起 / 通过铺天盖地的广告宣传 随着这门新的习惯科学的出现 / 争议也随之爆发 / 当这些策略被用来推销存疑的美容霜或不健康食品时",
+          "text": "“Creating positive habits is a huge part of improving our consumers’ lives, and it’s essential to making new products commercially viable.” Through experiments and observation, social scientists like Dr. Berning have learned that there is power in tying certain behaviors to habitual cues through ruthless advertising. As this new science of habit has emerged, controversies have erupted when the tactics have been used to sell questionable beauty creams or unhealthy foods.",
+          "translation": "“养成积极的习惯是改善消费者生活的重要组成部分，对于使新产品具有商业可行性至关重要。”通过实验和观察，像博士这样的社会科学家。伯宁了解到，通过无情的广告将某些行为与习惯暗示联系起来是有力量的。随着这种新的习惯科学的出现，当这种策略被用来销售有问题的美容霜或不健康食品时，争议就会爆发。",
+          "slashed_text": "“Creating positive habits is a huge part of improving our consumers’ lives , / and it’s essential to making new products commercially viable.” Through experiments and observation , / social scientists like Dr. Berning have learned / that there is power / in tying certain behaviors to habitual cues / through ruthless advertising. As this new science of habit has emerged , / controversies have erupted / when the tactics have been used to sell questionable beauty creams or unhealthy foods.",
+          "chunk_translation": "“养成积极的习惯是改善消费者生活的重要部分 / 这对使新产品具备商业可行性也至关重要。” 通过实验和观察 / 像伯宁博士这样的社会科学家 已经认识到 / 蕴含着巨大的力量 / 将特定行为与习惯性暗示绑定在一起 / 通过铺天盖地的广告宣传 随着这门新的习惯科学的出现 / 争议也随之爆发 / 当这些策略被用来推销存疑的美容霜或不健康食品时",
           "vocabulary": [
+            {
+              "word": "creating",
+              "pos": "v.",
+              "definition": "v. 创造；创建"
+            },
+            {
+              "word": "behaviors",
+              "pos": "n.",
+              "definition": "n. 行为；举止（behavior 的复数）"
+            },
+            {
+              "word": "habits",
+              "pos": "n.",
+              "definition": "n. 习惯（habit 的复数）；（生物）习性"
+            },
+            {
+              "word": "consumers",
+              "pos": "n.",
+              "definition": "n. consumer 的复数：消费者；顾客"
+            },
+            {
+              "word": "health",
+              "pos": "n.",
+              "definition": "n. 身体状况；健康"
+            },
+            {
+              "word": "habit",
+              "pos": "n.",
+              "definition": "n. 习惯；（吸毒、喝酒、抽烟的）瘾"
+            },
+            {
+              "word": "products",
+              "pos": "n.",
+              "definition": "n. 产品；商品（product 的复数）"
+            },
+            {
+              "word": "Berning",
+              "pos": "n.",
+              "definition": "n. （Berninger）人名；（德）贝尔宁格"
+            },
+            {
+              "word": "consumer",
+              "pos": "n.",
+              "definition": "n. 消费者；顾客"
+            },
             {
               "word": "experiments",
               "pos": "n.",
@@ -2468,11 +2683,6 @@
               "word": "scientists",
               "pos": "n.",
               "definition": "n. 科学家（scientist 的复数）"
-            },
-            {
-              "word": "Berning",
-              "pos": "n.",
-              "definition": "n. （Berninger）人名；（德）贝尔宁格"
             },
             {
               "word": "learned",
@@ -2577,8 +2787,8 @@
         },
         {
           "sid": 4,
-          "pid": 1,
-          "sentence_index": 2,
+          "pid": 2,
+          "sentence_index": 0,
           "text": "“We wanted to learn from private industry how to create new behaviors that happen automatically.”",
           "translation": "“我们想向私营企业学习如何创造自动发生的新行为。”",
           "slashed_text": "“We wanted to learn / from private industry how to create new behaviors / that happen automatically.”",
@@ -2595,7 +2805,7 @@
         },
         {
           "sid": 5,
-          "pid": 2,
+          "pid": 3,
           "sentence_index": 0,
           "text": "The companies that Dr.",
           "translation": "博士的公司",
@@ -2613,7 +2823,7 @@
         },
         {
           "sid": 6,
-          "pid": 2,
+          "pid": 3,
           "sentence_index": 1,
           "text": "Curtis turned to—Procter & Gamble, Colgate-Palmolive and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that corporations could use to introduce new routines.",
           "translation": "柯蒂斯求助于宝洁公司、高露洁棕榄公司和联合利华公司，这些公司投资了数亿美元，寻找消费者生活中的微妙线索，企业可以利用这些线索来引入新的生活习惯。",
@@ -2632,7 +2842,7 @@
         {
           "sid": 7,
           "pid": 3,
-          "sentence_index": 0,
+          "sentence_index": 2,
           "text": "If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.",
           "translation": "如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。",
           "slashed_text": "/ If you look hard enough , / you’ll find / that many of the products we use every day — / chewing gums , / skin moisturizers , / disinfecting wipes , / air fresheners , / water purifiers , / health snacks , / teeth whiteners , / fabric softeners , / vitamins — / are results of manufactured habits.",
@@ -2654,8 +2864,8 @@
         },
         {
           "sid": 8,
-          "pid": 3,
-          "sentence_index": 1,
+          "pid": 4,
+          "sentence_index": 0,
           "text": "A century ago, few people regularly brushed their teeth multiple times a day.",
           "translation": "一个世纪前，很少有人每天定期刷牙多次。",
           "slashed_text": "A century ago , / few people regularly brushed their teeth multiple times a day.",
@@ -2672,8 +2882,8 @@
         },
         {
           "sid": 9,
-          "pid": 3,
-          "sentence_index": 2,
+          "pid": 4,
+          "sentence_index": 1,
           "text": "Today, because of shrewd advertising and public health campaigns, many Americans habitually give their pearly whites a cavity-preventing scrub twice a day, often with Colgate, Crest or one of the other brands.",
           "translation": "如今，由于精明的广告和公共卫生运动，许多美国人习惯性地每天两次给他们的珍珠白皮肤涂上防蛀牙磨砂膏，通常使用高露洁、佳洁士或其他品牌的产品。",
           "slashed_text": "Today , / because of shrewd advertising and public health campaigns , / many Americans habitually give their pearly whites a cavity-preventing scrub twice a day , / often / with Colgate , / Crest or one of the other brands.",
@@ -2691,7 +2901,7 @@
         {
           "sid": 10,
           "pid": 4,
-          "sentence_index": 0,
+          "sentence_index": 2,
           "text": "A few decades ago, many people didn’t drink water outside of a meal.",
           "translation": "几十年前，许多人饭后不喝水。",
           "slashed_text": "A few decades ago , / many people didn’t drink water outside of a meal.",
@@ -2709,7 +2919,7 @@
         {
           "sid": 11,
           "pid": 4,
-          "sentence_index": 1,
+          "sentence_index": 3,
           "text": "Then beverage companies started bottling the production of far-off springs, and now office workers unthinkingly sip bottled water all day long.",
           "translation": "后来饮料公司开始将遥远的泉水生产装瓶，现在上班族整天不假思索地喝着瓶装水。",
           "slashed_text": "Then beverage companies started bottling the production of far-off springs , / and now office workers unthinkingly sip bottled water all day long.",
@@ -2726,8 +2936,8 @@
         },
         {
           "sid": 12,
-          "pid": 4,
-          "sentence_index": 2,
+          "pid": 5,
+          "sentence_index": 0,
           "text": "Chewing gum, once bought primarily by adolescent boys, is now featured in commercials as a breath freshener and teeth cleanser for use after a meal.",
           "translation": "口香糖曾经主要由青春期男孩购买，现在在广告中作为餐后使用的口气清新剂和牙齿清洁剂。",
           "slashed_text": "Chewing gum , / once bought primarily / by adolescent boys , / is now featured / in commercials as a breath freshener and teeth cleanser for use after a meal.",
@@ -2744,8 +2954,8 @@
         },
         {
           "sid": 13,
-          "pid": 4,
-          "sentence_index": 3,
+          "pid": 5,
+          "sentence_index": 1,
           "text": "Skin moisturizers are advertised as part of morning beauty rituals, slipped in between hair brushing and putting on makeup.",
           "translation": "皮肤保湿霜被宣传为早晨美容仪式的一部分，在梳头和化妆之间使用。",
           "slashed_text": "Skin moisturizers are advertised as part of morning beauty rituals , / slipped / in between hair brushing and putting / on makeup.",
@@ -2763,7 +2973,7 @@
         {
           "sid": 14,
           "pid": 5,
-          "sentence_index": 0,
+          "sentence_index": 2,
           "text": "“Our products succeed when they become part of daily or weekly patterns,” said Carol Berning, a consumer psychologist who recently retired from Procter & Gamble, the company that sold $76 billion of Tide, Crest and other products last year.",
           "translation": "“当我们的产品成为日常或每周模式的一部分时，我们的产品就成功了，”最近从宝洁公司退休的消费者心理学家卡罗尔·伯宁（Carol Berning）说，宝洁公司去年销售了 760 亿美元的汰渍、佳洁士和其他产品。",
           "slashed_text": "“Our products succeed / when they become part of daily or weekly patterns , / ” said Carol Berning , / a consumer psychologist / who recently retired / from Procter & Gamble , / the company / that sold $76 billion of Tide , / Crest and other products last year.",
@@ -2780,8 +2990,8 @@
         },
         {
           "sid": 15,
-          "pid": 5,
-          "sentence_index": 1,
+          "pid": 6,
+          "sentence_index": 0,
           "text": "“Creating positive habits is a huge part of improving our consumers’ lives, and it’s essential to making new products commercially viable.”",
           "translation": "“养成积极的习惯是改善消费者生活的重要组成部分，对于使新产品具有商业可行性至关重要。”",
           "slashed_text": "“Creating positive habits is a huge part of improving our consumers’ lives , / and it’s essential to making new products commercially viable.”",
@@ -2799,7 +3009,7 @@
         {
           "sid": 16,
           "pid": 6,
-          "sentence_index": 0,
+          "sentence_index": 1,
           "text": "Through experiments and observation, social scientists like Dr.",
           "translation": "通过实验和观察，像博士这样的社会科学家。",
           "slashed_text": "Through experiments and observation , / social scientists like Dr.",
@@ -2817,7 +3027,7 @@
         {
           "sid": 17,
           "pid": 6,
-          "sentence_index": 1,
+          "sentence_index": 2,
           "text": "Berning have learned that there is power in tying certain behaviors to habitual cues through ruthless advertising.",
           "translation": "伯宁了解到，通过无情的广告将某些行为与习惯暗示联系起来是有力量的。",
           "slashed_text": "Berning have learned / that there is power / in tying certain behaviors to habitual cues / through ruthless advertising.",
@@ -2835,7 +3045,7 @@
         {
           "sid": 18,
           "pid": 6,
-          "sentence_index": 2,
+          "sentence_index": 3,
           "text": "As this new science of habit has emerged, controversies have erupted when the tactics have been used to sell questionable beauty creams or unhealthy foods.",
           "translation": "随着这种新的习惯科学的出现，当这种策略被用来销售有问题的美容霜或不健康食品时，争议就会爆发。",
           "slashed_text": "As this new science of habit has emerged , / controversies have erupted / when the tactics have been used to sell questionable beauty creams or unhealthy foods.",
@@ -2857,9 +3067,9 @@
           "stem": "According to Dr. Curtis, habits like hand washing with soap .",
           "stem_cn": "根据柯蒂斯博士的说法，习惯比如用肥皂洗手。",
           "type": "事实细节题",
-          "locate_pid": 0,
-          "locate_sentence": "Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.",
-          "locate_sentence_cn": "在过去的十年里，许多公司已经完善了在消费者中创造自动行为（习惯）的艺术。",
+          "locate_pid": 1,
+          "locate_sentence": "“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.",
+          "locate_sentence_cn": "“存在一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，这些问题仍然是杀手，只是因为我们不知道如何改变人们的习惯，”博士说。",
           "options": [
             {
               "key": "A",
@@ -2870,8 +3080,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.",
-                "source_translation": "在过去的十年里，许多公司已经完善了在消费者中创造自动行为（习惯）的艺术。",
+                "source_sentence": "“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.",
+                "source_translation": "“存在一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，这些问题仍然是杀手，只是因为我们不知道如何改变人们的习惯，”博士说。",
                 "locator_comparison": "选项核心词 <code>further</code>, <code>cultivated</code>（“应该进一步培养”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“当顾客几乎不假思索地吃零食或擦拭柜台时，这些习惯帮助公司赚取了数十亿美元，这通常是对一套精心设计的日常提示的反应。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -2937,9 +3147,9 @@
           "stem": "Bottled water, chewing gum and skin moisturizers are mentioned in Paragraph 5 so as to \n.",
           "stem_cn": "Bottled water, chewing gum and skin moisturizers are mentioned in Paragraph 5 so as to \n.",
           "type": "因果推断题",
-          "locate_pid": 1,
-          "locate_sentence": "“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.",
-          "locate_sentence_cn": "“存在一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，这些问题仍然是杀手，只是因为我们不知道如何改变人们的习惯，”博士说。",
+          "locate_pid": 4,
+          "locate_sentence": "A century ago, few people regularly brushed their teeth multiple times a day.",
+          "locate_sentence_cn": "一个世纪前，很少有人每天定期刷牙多次。",
           "options": [
             {
               "key": "A",
@@ -2950,8 +3160,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.",
-                "source_translation": "“存在一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，这些问题仍然是杀手，只是因为我们不知道如何改变人们的习惯，”博士说。",
+                "source_sentence": "A century ago, few people regularly brushed their teeth multiple times a day.",
+                "source_translation": "一个世纪前，很少有人每天定期刷牙多次。",
                 "locator_comparison": "选项核心词 <code>reveal</code>, <code>impact</code>, <code>people</code>（“揭示它们对人们习惯的影响”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“柯蒂斯是伦敦卫生与热带医学院卫生中心主任。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -3017,7 +3227,7 @@
           "stem": "Which of the following does NOT belong to products that help create people’s habits?",
           "stem_cn": "以下哪项不属于帮助人们养成习惯的产品？",
           "type": "段落推理题",
-          "locate_pid": 2,
+          "locate_pid": 3,
           "locate_sentence": "The companies that Dr.",
           "locate_sentence_cn": "博士的公司",
           "options": [
@@ -3097,9 +3307,9 @@
           "stem": "From the text we know that some of consumer’s habits are developed due to .",
           "stem_cn": "从文中我们知道，消费者的一些习惯是由于……而养成的。",
           "type": "词义/例证题",
-          "locate_pid": 3,
-          "locate_sentence": "If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.",
-          "locate_sentence_cn": "如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。",
+          "locate_pid": 5,
+          "locate_sentence": "Skin moisturizers are advertised as part of morning beauty rituals, slipped in between hair brushing and putting on makeup.",
+          "locate_sentence_cn": "皮肤保湿霜被宣传为早晨美容仪式的一部分，在梳头和化妆之间使用。",
           "options": [
             {
               "key": "A",
@@ -3144,8 +3354,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.",
-                "source_translation": "如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。",
+                "source_sentence": "Skin moisturizers are advertised as part of morning beauty rituals, slipped in between hair brushing and putting on makeup.",
+                "source_translation": "皮肤保湿霜被宣传为早晨美容仪式的一部分，在梳头和化妆之间使用。",
                 "locator_comparison": "选项核心词 <code>commercial</code>, <code>promotions</code>（“商业促销”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“一个世纪前，很少有人每天定期刷牙多次。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -3177,9 +3387,9 @@
           "stem": "The author’s attitude toward the influence of advertisement on people’s habits is _____.",
           "stem_cn": "作者对于广告对人们习惯的影响的态度是_____。",
           "type": "全文主旨题",
-          "locate_pid": 4,
-          "locate_sentence": "A few decades ago, many people didn’t drink water outside of a meal.",
-          "locate_sentence_cn": "几十年前，许多人饭后不喝水。",
+          "locate_pid": 6,
+          "locate_sentence": "“Creating positive habits is a huge part of improving our consumers’ lives, and it’s essential to making new products commercially viable.”",
+          "locate_sentence_cn": "“养成积极的习惯是改善消费者生活的重要组成部分，对于使新产品具有商业可行性至关重要。”",
           "options": [
             {
               "key": "A",
@@ -3207,8 +3417,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "A few decades ago, many people didn’t drink water outside of a meal.",
-                "source_translation": "几十年前，许多人饭后不喝水。",
+                "source_sentence": "“Creating positive habits is a huge part of improving our consumers’ lives, and it’s essential to making new products commercially viable.”",
+                "source_translation": "“养成积极的习惯是改善消费者生活的重要组成部分，对于使新产品具有商业可行性至关重要。”",
                 "locator_comparison": "选项核心词 <code>negative</code>, <code>JOEE</code>（“negative\nᆇี൫ज@JOEE ༯໶\n\n06”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“后来饮料公司开始将遥远的泉水生产装瓶，现在上班族整天不假思索地喝着瓶装水。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -3358,25 +3568,40 @@
               "word": "including",
               "pos": "prep.",
               "definition": "prep. 包括；包含"
+            },
+            {
+              "word": "example",
+              "pos": "n.",
+              "definition": "n. 例子；例证"
+            },
+            {
+              "word": "juries",
+              "pos": "n.",
+              "definition": "n. （法）陪审团（jury 的复数）；评委会"
             }
           ]
         },
         {
           "pid": 1,
-          "text": "But as recently as in 1968, jury selection procedures conflicted with these democratic ideals. In some states, for example, jury duty was limited to persons of supposedly superior intelligence, education, and moral character. Although the Supreme Court of the United States had prohibited intentional racial discrimination in jury selection as early as the 1880 case of Strauder v. West Virginia , the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws.",
-          "translation": "但就在 1968 年，陪审团遴选程序与这些民主理想发生了冲突。例如，在一些州，陪审员职责仅限于被认为具有较高智力、教育程度和道德品质的人。尽管美国最高法院早在1880年的斯特劳德诉西弗吉尼亚州案中就禁止在陪审团选择中存在故意种族歧视，但选择所谓精英或蓝带陪审团的做法为绕过这一法律和其他反歧视法律提供了便捷的方法。",
-          "slashed_text": "But as recently as in 1968 , / jury selection procedures conflicted / with these democratic ideals. In some states , / for example , / jury duty was limited to persons of supposedly superior intelligence , / education , / and moral character. / Although the Supreme Court of the United States had prohibited intentional racial discrimination / in jury selection as early as the 1880 case of Strauder v. West Virginia , / the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws.",
-          "chunk_translation": "但就在1968年 / 陪审团遴选程序产生了冲突 / 与这些民主理想 在一些州 / 例如 / 陪审员职责仅限于那些被认为智力超群、受过良好教育的人 / 具有良好教育、 / 以及道德品质的人 / 尽管美国最高法院早在1880年的斯特劳德诉西弗吉尼亚州一案中就已禁止在陪审团遴选中蓄意进行种族歧视 / 在陪审团遴选中，早在1880年的斯特劳德诉 西弗吉尼亚州案中 / 选拔所谓的精英或“蓝带”陪审团的做法为绕开该项法律和其他反歧视法律提供了便利途径",
+          "text": "But as recently as in 1968, jury selection procedures conflicted with these democratic ideals. In some states, for example, jury duty was limited to persons of supposedly superior intelligence, education, and moral character. Although the Supreme Court of the United States had prohibited intentional racial discrimination in jury selection as early as the 1880 case of Strauder v.",
+          "translation": "但就在 1968 年，陪审团遴选程序与这些民主理想相冲突。例如，在一些州，陪审员职责仅限于被认为具有较高智力、教育程度和道德品质的人。尽管美国最高法院早在1880年Strauder v.",
+          "slashed_text": "But as recently as in 1968 , / jury selection procedures conflicted / with these democratic ideals. In some states , / for example , / jury duty was limited to persons of supposedly superior intelligence , / education , / and moral character. / Although the Supreme Court of the United States had prohibited intentional racial discrimination / in jury selection as early as the 1880 case of Strauder v.",
+          "chunk_translation": "但就在1968年 / 陪审团遴选程序产生了冲突 / 与这些民主理想 在一些州 / 例如 / 陪审员职责仅限于那些被认为智力超群、受过良好教育的人 / 具有良好教育、 / 以及道德品质的人 / 尽管美国最高法院早在1880年的斯特劳德诉西弗吉尼亚州一案中就已禁止在陪审团遴选中蓄意进行种族歧视 / 在陪审团遴选中，早在1880年的斯特劳德诉",
           "vocabulary": [
-            {
-              "word": "recently",
-              "pos": "adv.",
-              "definition": "adv. 最近；不久前"
-            },
             {
               "word": "jury",
               "pos": "n.",
               "definition": "n. 陪审团；（竞赛的）裁判委员会"
+            },
+            {
+              "word": "democratic",
+              "pos": "adj.",
+              "definition": "adj. 平等的；有民主精神的"
+            },
+            {
+              "word": "recently",
+              "pos": "adv.",
+              "definition": "adv. 最近；不久前"
             },
             {
               "word": "selection",
@@ -3394,11 +3619,6 @@
               "definition": "v. 冲突；抵触（conflict 的过去式及过去分词）"
             },
             {
-              "word": "democratic",
-              "pos": "adj.",
-              "definition": "adj. 平等的；有民主精神的"
-            },
-            {
               "word": "ideals",
               "pos": "n.",
               "definition": "n. 理想；原则"
@@ -3412,20 +3632,40 @@
               "word": "duty",
               "pos": "n.",
               "definition": "n. 责任；义务"
+            },
+            {
+              "word": "Although",
+              "pos": "conj.",
+              "definition": "conj. 虽然；尽管"
+            },
+            {
+              "word": "United",
+              "pos": "adj.",
+              "definition": "adj. 团结的；统一的"
             }
           ]
         },
         {
           "pid": 2,
-          "text": "The system also failed to regularly include women on juries until the mid-20th century.",
-          "translation": "直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。",
-          "slashed_text": "The system also failed to regularly include women / on juries until the mid-20th century.",
-          "chunk_translation": "该制度在20世纪中叶之前也未能定期吸纳女性 / 加入陪审团",
+          "text": "West Virginia , the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws. The system also failed to regularly include women on juries until the mid-20th century. Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty. Even then several states automatically exempted women from jury duty unless they personally asked to have their names included on the jury list. This practice was justified by the claim that women were needed at home, and it kept juries unrepresentative of women through the 1960s.",
+          "translation": "在西弗吉尼亚州，选择所谓精英或蓝带陪审团的做法为绕过这一法律和其他反歧视法律提供了便捷的方法。直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。这种做法的合理性在于，家庭需要女性，并且在 20 世纪 60 年代，陪审团一直无法代表女性。",
+          "slashed_text": "West Virginia , / the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws. The system also failed to regularly include women / on juries until the mid-20th century. / Although women first served / on state juries / in Utah in 1898 , / it was not until the 1940s / that a majority of states made women eligible / for jury duty. Even then several states automatically exempted women / from jury duty / unless they personally asked to have their names included on the jury list. This practice was justified by the claim / that women were needed / at home , / and it kept juries unrepresentative of women through the 1960s.",
+          "chunk_translation": "西弗吉尼亚州案中 / 选拔所谓的精英或“蓝带”陪审团的做法为绕开该项法律和其他反歧视法律提供了便利途径 该制度在20世纪中叶之前也未能定期吸纳女性 / 加入陪审团 / 尽管女性早在1898年就首次在犹他州担任州陪审员 / 在州陪审团中 / 1898年于犹他州 / 但直到20世纪40年代 / 大多数州才赋予女性担任陪审员的资格 / 担任陪审员 即便在那时，一些州也自动免除女性 / 担任陪审员的义务 / 除非她们亲自要求将自己的名字列入陪审员名单 这种做法被冠以正当理由 / 称家庭需要女性 / 在家里 / 这导致在整个20世纪60年代陪审团中都缺乏女性代表",
           "vocabulary": [
+            {
+              "word": "jury",
+              "pos": "n.",
+              "definition": "n. 陪审团；（竞赛的）裁判委员会"
+            },
             {
               "word": "system",
               "pos": "n.",
               "definition": "n. （协同工作的）系统；（计算机、警报器等的）系统"
+            },
+            {
+              "word": "duty",
+              "pos": "n.",
+              "definition": "n. 责任；义务"
             },
             {
               "word": "failed",
@@ -3456,16 +3696,7 @@
               "word": "century",
               "pos": "n.",
               "definition": "n. 世纪；一百年"
-            }
-          ]
-        },
-        {
-          "pid": 3,
-          "text": "Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty. Even then several states automatically exempted women from jury duty unless they personally asked to have their names included on the jury list. This practice was justified by the claim that women were needed at home, and it kept juries unrepresentative of women through the 1960s.",
-          "translation": "尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。这种做法的合理性在于，家庭需要女性，并且在 20 世纪 60 年代，陪审团一直无法代表女性。",
-          "slashed_text": "/ Although women first served / on state juries / in Utah in 1898 , / it was not until the 1940s / that a majority of states made women eligible / for jury duty. Even then several states automatically exempted women / from jury duty / unless they personally asked to have their names included on the jury list. This practice was justified by the claim / that women were needed / at home , / and it kept juries unrepresentative of women through the 1960s.",
-          "chunk_translation": "/ 尽管女性早在1898年就首次在犹他州担任州陪审员 / 在州陪审团中 / 1898年于犹他州 / 但直到20世纪40年代 / 大多数州才赋予女性担任陪审员的资格 / 担任陪审员 即便在那时，一些州也自动免除女性 / 担任陪审员的义务 / 除非她们亲自要求将自己的名字列入陪审员名单 这种做法被冠以正当理由 / 称家庭需要女性 / 在家里 / 这导致在整个20世纪60年代陪审团中都缺乏女性代表",
-          "vocabulary": [
+            },
             {
               "word": "Although",
               "pos": "conj.",
@@ -3477,19 +3708,9 @@
               "definition": "v. 为……服务；提供（产品或服务）"
             },
             {
-              "word": "juries",
-              "pos": "n.",
-              "definition": "n. （法）陪审团（jury 的复数）；评委会"
-            },
-            {
               "word": "Utah",
               "pos": "n.",
               "definition": "n. 美国犹他州"
-            },
-            {
-              "word": "until",
-              "pos": "conj.",
-              "definition": "conj. 到……时；直到……为止"
             },
             {
               "word": "majority",
@@ -3500,26 +3721,41 @@
               "word": "eligible",
               "pos": "adj.",
               "definition": "adj. 符合条件的；合格的"
-            },
+            }
+          ]
+        },
+        {
+          "pid": 3,
+          "text": "In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury. This law abolished special educational requirements for federal jurors and required them to be selected at random from a cross section of the entire community. In the landmark 1975 decision Taylor v. Louisiana, the Supreme Court extended the requirement that juries be representative of all parts of the community to the state level. The Taylor decision also declared sex discrimination in jury selection to be unconstitutional and ordered states to use the same procedures for selecting male and female jurors.",
+          "translation": "1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。该法律废除了对联邦陪审员的特殊教育要求，并要求他们从整个社区的各个阶层中随机选出。1975 年具有里程碑意义的泰勒诉。路易斯安那州最高法院将陪审团必须代表社区各个部分的要求扩展到州一级。泰勒裁决还宣布陪审团选择中的性别歧视违宪，并命令各州使用相同的程序来选择男性和女性陪审员。",
+          "slashed_text": "In 1968 , / the Congress of the United States passed the Jury Selection and Service Act , / ushering in a new era of democratic reforms for the jury. This law abolished special educational requirements / for federal jurors and required them to be selected / at random from a cross section of the entire community. In the landmark 1975 decision Taylor v. Louisiana , / the Supreme Court extended the requirement / that juries be representative of all parts of the community to the state level. The Taylor decision also declared sex discrimination / in jury selection to be unconstitutional and ordered states to use the same procedures / for selecting male and female jurors.",
+          "chunk_translation": "1968年 / 美国国会通过了《陪审团遴选与服务法案》 / 开启了陪审团民主改革的新时代 该法废除了对联邦陪审员的特殊教育要求 / 并要求从整个社区的各个阶层中随机选出陪审员 / 随机从整个社区的各阶层中选出 在1975年具有里程碑意义的泰勒诉 路易斯安那州案的裁决中 / 最高法院将陪审团必须代表社区各群体的要求扩大到州一级 / 陪审团应代表州一级社区各个群体的要求 泰勒案的裁决还宣布在陪审团遴选中的性别歧视违宪 / 并命令各州采用相同的程序 / 选拔男性和女性陪审员",
+          "vocabulary": [
             {
               "word": "jury",
               "pos": "n.",
               "definition": "n. 陪审团；（竞赛的）裁判委员会"
             },
             {
-              "word": "duty",
+              "word": "democratic",
+              "pos": "adj.",
+              "definition": "adj. 平等的；有民主精神的"
+            },
+            {
+              "word": "selection",
               "pos": "n.",
-              "definition": "n. 责任；义务"
-            }
-          ]
-        },
-        {
-          "pid": 4,
-          "text": "In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury. This law abolished special educational requirements for federal jurors and required them to be selected at random from a cross section of the entire community. In the landmark 1975 decision Taylor v. Louisiana, the Supreme Court extended the requirement that juries be representative of all parts of the community to the state level. The Taylor decision also declared sex discrimination in jury selection to be unconstitutional and ordered states to use the same procedures for selecting male and female jurors.",
-          "translation": "1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。该法律废除了对联邦陪审员的特殊教育要求，并要求他们从整个社区的各个阶层中随机选出。在 1975 年具有里程碑意义的泰勒诉路易斯安那州案中，最高法院将陪审团必须代表社会各阶层的要求扩展到州一级。泰勒裁决还宣布陪审团选择中的性别歧视违宪，并命令各州使用相同的程序来选择男性和女性陪审员。",
-          "slashed_text": "In 1968 , / the Congress of the United States passed the Jury Selection and Service Act , / ushering in a new era of democratic reforms for the jury. This law abolished special educational requirements / for federal jurors and required them to be selected / at random from a cross section of the entire community. In the landmark 1975 decision Taylor v. Louisiana , / the Supreme Court extended the requirement / that juries be representative of all parts of the community to the state level. The Taylor decision also declared sex discrimination / in jury selection to be unconstitutional and ordered states to use the same procedures / for selecting male and female jurors.",
-          "chunk_translation": "1968年 / 美国国会通过了《陪审团遴选与服务法案》 / 开启了陪审团民主改革的新时代 该法废除了对联邦陪审员的特殊教育要求 / 并要求从整个社区的各个阶层中随机选出陪审员 / 随机从整个社区的各阶层中选出 在1975年具有里程碑意义的泰勒诉 路易斯安那州案的裁决中 / 最高法院将陪审团必须代表社区各群体的要求扩大到州一级 / 陪审团应代表州一级社区各个群体的要求 泰勒案的裁决还宣布在陪审团遴选中的性别歧视违宪 / 并命令各州采用相同的程序 / 选拔男性和女性陪审员",
-          "vocabulary": [
+              "definition": "n. 选择；挑选"
+            },
+            {
+              "word": "procedures",
+              "pos": "n.",
+              "definition": "n. 程序；规程"
+            },
+            {
+              "word": "juries",
+              "pos": "n.",
+              "definition": "n. （法）陪审团（jury 的复数）；评委会"
+            },
             {
               "word": "Congress",
               "pos": "n.",
@@ -3536,16 +3772,6 @@
               "definition": "adj. 已经通过的；已经过去的"
             },
             {
-              "word": "Jury",
-              "pos": "n.",
-              "definition": "n. 陪审团；（竞赛的）裁判委员会"
-            },
-            {
-              "word": "Selection",
-              "pos": "n.",
-              "definition": "n. 选择；挑选"
-            },
-            {
               "word": "Service",
               "pos": "n.",
               "definition": "n. 公共服务系统；公共事业"
@@ -3554,11 +3780,6 @@
               "word": "ushering",
               "pos": "v.",
               "definition": "v. usher 的现在分词和动名词：引领；引导"
-            },
-            {
-              "word": "democratic",
-              "pos": "adj.",
-              "definition": "adj. 平等的；有民主精神的"
             },
             {
               "word": "reforms",
@@ -3679,8 +3900,8 @@
         },
         {
           "sid": 6,
-          "pid": 1,
-          "sentence_index": 3,
+          "pid": 2,
+          "sentence_index": 0,
           "text": "West Virginia , the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws.",
           "translation": "在西弗吉尼亚州，选择所谓精英或蓝带陪审团的做法为绕过这一法律和其他反歧视法律提供了便捷的方法。",
           "slashed_text": "West Virginia , / the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws.",
@@ -3698,7 +3919,7 @@
         {
           "sid": 7,
           "pid": 2,
-          "sentence_index": 0,
+          "sentence_index": 1,
           "text": "The system also failed to regularly include women on juries until the mid-20th century.",
           "translation": "直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。",
           "slashed_text": "The system also failed to regularly include women / on juries until the mid-20th century.",
@@ -3715,8 +3936,8 @@
         },
         {
           "sid": 8,
-          "pid": 3,
-          "sentence_index": 0,
+          "pid": 2,
+          "sentence_index": 2,
           "text": "Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.",
           "translation": "尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。",
           "slashed_text": "/ Although women first served / on state juries / in Utah in 1898 , / it was not until the 1940s / that a majority of states made women eligible / for jury duty.",
@@ -3738,8 +3959,8 @@
         },
         {
           "sid": 9,
-          "pid": 3,
-          "sentence_index": 1,
+          "pid": 2,
+          "sentence_index": 3,
           "text": "Even then several states automatically exempted women from jury duty unless they personally asked to have their names included on the jury list.",
           "translation": "即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。",
           "slashed_text": "Even then several states automatically exempted women / from jury duty / unless they personally asked to have their names included on the jury list.",
@@ -3756,8 +3977,8 @@
         },
         {
           "sid": 10,
-          "pid": 3,
-          "sentence_index": 2,
+          "pid": 2,
+          "sentence_index": 4,
           "text": "This practice was justified by the claim that women were needed at home, and it kept juries unrepresentative of women through the 1960s.",
           "translation": "这种做法的合理性在于，家庭需要女性，并且在 20 世纪 60 年代，陪审团一直无法代表女性。",
           "slashed_text": "This practice was justified by the claim / that women were needed / at home , / and it kept juries unrepresentative of women through the 1960s.",
@@ -3774,7 +3995,7 @@
         },
         {
           "sid": 11,
-          "pid": 4,
+          "pid": 3,
           "sentence_index": 0,
           "text": "In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.",
           "translation": "1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。",
@@ -3792,7 +4013,7 @@
         },
         {
           "sid": 12,
-          "pid": 4,
+          "pid": 3,
           "sentence_index": 1,
           "text": "This law abolished special educational requirements for federal jurors and required them to be selected at random from a cross section of the entire community.",
           "translation": "该法律废除了对联邦陪审员的特殊教育要求，并要求他们从整个社区的各个阶层中随机选出。",
@@ -3810,7 +4031,7 @@
         },
         {
           "sid": 13,
-          "pid": 4,
+          "pid": 3,
           "sentence_index": 2,
           "text": "In the landmark 1975 decision Taylor v.",
           "translation": "1975 年具有里程碑意义的泰勒诉。",
@@ -3828,7 +4049,7 @@
         },
         {
           "sid": 14,
-          "pid": 4,
+          "pid": 3,
           "sentence_index": 3,
           "text": "Louisiana, the Supreme Court extended the requirement that juries be representative of all parts of the community to the state level.",
           "translation": "路易斯安那州最高法院将陪审团必须代表社区各个部分的要求扩展到州一级。",
@@ -3846,7 +4067,7 @@
         },
         {
           "sid": 15,
-          "pid": 4,
+          "pid": 3,
           "sentence_index": 4,
           "text": "The Taylor decision also declared sex discrimination in jury selection to be unconstitutional and ordered states to use the same procedures for selecting male and female jurors.",
           "translation": "泰勒裁决还宣布陪审团选择中的性别歧视违宪，并命令各州使用相同的程序来选择男性和女性陪审员。",
@@ -3950,8 +4171,8 @@
           "stem_cn": "1968年之前选择所谓精英陪审员的做法表明了这一点。",
           "type": "因果推断题",
           "locate_pid": 1,
-          "locate_sentence": "But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.",
-          "locate_sentence_cn": "但就在 1968 年，陪审团遴选程序与这些民主理想相冲突。",
+          "locate_sentence": "In some states, for example, jury duty was limited to persons of supposedly superior intelligence, education, and moral character.",
+          "locate_sentence_cn": "例如，在一些州，陪审员职责仅限于被认为具有较高智力、教育程度和道德品质的人。",
           "options": [
             {
               "key": "A",
@@ -3962,8 +4183,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.",
-                "source_translation": "但就在 1968 年，陪审团遴选程序与这些民主理想相冲突。",
+                "source_sentence": "In some states, for example, jury duty was limited to persons of supposedly superior intelligence, education, and moral character.",
+                "source_translation": "例如，在一些州，陪审员职责仅限于被认为具有较高智力、教育程度和道德品质的人。",
                 "locator_comparison": "选项核心词 <code>inadequacy</code>, <code>antidiscrimination</code>, <code>laws</code>（“反歧视法的不足”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“例如，在一些州，陪审员职责仅限于被认为具有较高智力、教育程度和道德品质的人。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -4030,8 +4251,8 @@
           "stem_cn": "即使在 20 世纪 60 年代，一些州的陪审团名单中也很少有女性，因为。",
           "type": "段落推理题",
           "locate_pid": 2,
-          "locate_sentence": "The system also failed to regularly include women on juries until the mid-20th century.",
-          "locate_sentence_cn": "直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。",
+          "locate_sentence": "Even then several states automatically exempted women from jury duty unless they personally asked to have their names included on the jury list.",
+          "locate_sentence_cn": "即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。",
           "options": [
             {
               "key": "A",
@@ -4076,8 +4297,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The system also failed to regularly include women on juries until the mid-20th century.",
-                "source_translation": "直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。",
+                "source_sentence": "Even then several states automatically exempted women from jury duty unless they personally asked to have their names included on the jury list.",
+                "source_translation": "即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。",
                 "locator_comparison": "选项核心词 <code>supposed</code>, <code>perform</code>, <code>domestic</code>（“他们应该履行家庭职责”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -4110,8 +4331,8 @@
           "stem_cn": "《陪审团遴选和服务法》通过后，。",
           "type": "词义/例证题",
           "locate_pid": 3,
-          "locate_sentence": "Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.",
-          "locate_sentence_cn": "尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。",
+          "locate_sentence": "In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.",
+          "locate_sentence_cn": "1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。",
           "options": [
             {
               "key": "A",
@@ -4139,8 +4360,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.",
-                "source_translation": "尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。",
+                "source_sentence": "In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.",
+                "source_translation": "1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。",
                 "locator_comparison": "选项核心词 <code>educational</code>, <code>requirements</code>, <code>became</code>（“在选择联邦陪审员时，教育要求变得不那么严格”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -4189,7 +4410,7 @@
           "stem": "In discussing the US jury system, the text centers on .",
           "stem_cn": "在讨论美国陪审团制度时，文本的中心是。",
           "type": "全文主旨题",
-          "locate_pid": 4,
+          "locate_pid": 3,
           "locate_sentence": "In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.",
           "locate_sentence_cn": "1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。",
           "options": [

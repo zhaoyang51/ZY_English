@@ -171,10 +171,10 @@
         },
         {
           "pid": 3,
-          "text": "However, supporters of fake grass point out that there is also an environmental impact with natural lawns, which need mowing and therefore usually consume electricity or petrol.",
-          "translation": "然而，假草的支持者指出，天然草坪也会对环境造成影响，因为天然草坪需要修剪，因此通常会消耗电力或汽油。",
-          "slashed_text": "However , / supporters of fake grass point out / that there is also an environmental impact / with natural lawns , / which need mowing and therefore usually consume electricity or petrol.",
-          "chunk_translation": "然而， / 假草的支持者指出， / 天然草坪同样 / 会对环境产生影响， / 因为真草需要定期修剪，从而通常会消耗电力或汽油。",
+          "text": "However, supporters of fake grass point out that there is also an environmental impact with natural lawns, which need mowing and therefore usually consume electricity or petrol. The industry also points out that real grass requires considerable amounts of water, weed killer or other treatments and that people who lay fake grass tend to use their garden more. The industry also claims that people who lay fake grass spend an average of £500 on trees or shrubs for their garden, which provides habitat for insects.",
+          "translation": "然而，人造草坪的支持者指出，天然草坪对环境也有影响，需要修剪，因此通常会消耗电力或汽油。该行业还指出，真正的草坪需要大量的水、除草剂或其他处理，而铺设人造草坪的人往往会更多地使用他们的花园。该行业还声称，铺设人造草坪的人平均在花园里的树木或灌木上花费500英镑，这为昆虫提供了栖息地。",
+          "slashed_text": "However , / supporters of fake grass point out that there is also an environmental impact with natural lawns , / which need mowing / and therefore usually consume electricity or petrol. The industry also points out that real grass requires considerable amounts of water , / weed killer or other treatments / and that people who lay fake grass tend to use their garden more. The industry also claims / that people who lay fake grass spend an average of £500 on trees or shrubs for their garden , / which provides habitat for insects.",
+          "chunk_translation": "然而，人造草皮的支持者则指出， / 种植天然草坪同样会对生态环境造成负担， / 因为天然草坪需要定期修剪， / 进而往往要消耗大量电能或汽油燃料。人造草皮行业同时强调，天然草坪需要耗费大量的水资源、 / 除草剂或其他化学养护药剂， / 并且铺设人造草坪的业主往往更倾向于在户外花园中活动。该行业还声称， / 铺设人造草坪的人群平均会在花园的树木和灌木种植上投入500英镑， / 这反倒为各类昆虫提供了更丰富的生态栖息地。",
           "vocabulary": [
             {
               "word": "However",
@@ -220,16 +220,7 @@
               "word": "lawns",
               "pos": "n.",
               "definition": "n. 草坪；草地（lawn 的复数形式）"
-            }
-          ]
-        },
-        {
-          "pid": 4,
-          "text": "The industry also points out that real grass requires considerable amounts of water, weed killer or other treatments and that people who lay fake grass tend to use their garden more.",
-          "translation": "该行业还指出，真草需要大量的水、除草剂或其他处理方法，而铺设假草的人往往会更多地使用他们的花园。",
-          "slashed_text": "The industry also points out / that real grass requires considerable amounts of water , / weed killer or other treatments and / that people / who lay fake grass tend to use their garden more.",
-          "chunk_translation": "该行业还指出， / 天然草坪需要消耗大量水资源、 / 除草剂或其他养护药物，并且 / 那些 / 铺设了人造假草的人往往更频繁地使用他们的花园。",
-          "vocabulary": [
+            },
             {
               "word": "industry",
               "pos": "n.",
@@ -244,11 +235,6 @@
               "word": "real",
               "pos": "adj.",
               "definition": "adj. 实际存在的；非想象的"
-            },
-            {
-              "word": "grass",
-              "pos": "n.",
-              "definition": "n. 草；草地"
             },
             {
               "word": "requires",
@@ -274,35 +260,11 @@
               "word": "weed",
               "pos": "n.",
               "definition": "n. 野草；杂草"
-            }
-          ]
-        },
-        {
-          "pid": 5,
-          "text": "The industry also claims that people who lay fake grass spend an average of £500 on trees or shrubs for their garden, which provides habitat for insects.",
-          "translation": "该行业还声称，铺设假草的人平均花费 500 英镑在花园里种植树木或灌木，为昆虫提供栖息地。",
-          "slashed_text": "The industry also claims / that people / who lay fake grass spend an average of £500 / on trees or shrubs / for their garden , / which provides habitat / for insects.",
-          "chunk_translation": "业内人士还宣称， / 那些 / 铺设假草的人平均会花费500英镑 / 购买树木或灌木 / 用于装点花园， / 这同样能为昆虫 / 提供栖息家园。",
-          "vocabulary": [
-            {
-              "word": "industry",
-              "pos": "n.",
-              "definition": "n. 工业；生产制造"
             },
             {
               "word": "claims",
               "pos": "n.",
               "definition": "n. 声称；说法"
-            },
-            {
-              "word": "fake",
-              "pos": "adj.",
-              "definition": "adj. 伪造的；冒充的"
-            },
-            {
-              "word": "grass",
-              "pos": "n.",
-              "definition": "n. 草；草地"
             },
             {
               "word": "spend",
@@ -332,7 +294,7 @@
           ]
         },
         {
-          "pid": 6,
+          "pid": 4,
           "text": "In response to another petition last year about banning fake lawns, which gathered 30,000 signatures, the government responded that it has “no plans to ban the use of artificial grass”. It added: “We prefer to help people and organizations make the right choice rather than legislating on such matters. However, the use of artificial grass must comply with the legal and policy safeguards in place to protect biodiversity and ensure sustainable drainage while measures such as the strengthened biodiversity duty should serve to encourage public authorities to consider sustainable alternatives.”",
           "translation": "去年，另一份关于禁止假草坪的请愿书收集了 30,000 个签名，在回应时，政府回应称“没有计划禁止使用人造草坪”。它补充说：“我们更愿意帮助人们和组织做出正确的选择，而不是就此类问题立法。然而，人造草坪的使用必须遵守现有的法律和政策保障措施，以保护生物多样性并确保可持续排水，而加强生物多样性责任等措施应有助于鼓励公共当局考虑可持续的替代方案。”",
           "slashed_text": "In response to another petition last year / about banning fake lawns , / which gathered 30 , / 000 signatures , / the government responded / that it has “no plans to ban the use of artificial grass”. It added : / “We prefer to help people and organizations make the right choice rather than legislating / on such matters. However , / the use of artificial grass must comply with the legal and policy safeguards / in place to protect biodiversity and ensure sustainable drainage / while measures such as the strengthened biodiversity duty should serve to encourage public authorities to consider sustainable alternatives.”",
@@ -597,8 +559,8 @@
         },
         {
           "sid": 11,
-          "pid": 4,
-          "sentence_index": 0,
+          "pid": 3,
+          "sentence_index": 1,
           "text": "The industry also points out that real grass requires considerable amounts of water, weed killer or other treatments and that people who lay fake grass tend to use their garden more.",
           "translation": "该行业还指出，真草需要大量的水、除草剂或其他处理方法，而铺设假草的人往往会更多地使用他们的花园。",
           "slashed_text": "The industry also points out / that real grass requires considerable amounts of water , / weed killer or other treatments and / that people / who lay fake grass tend to use their garden more.",
@@ -615,8 +577,8 @@
         },
         {
           "sid": 12,
-          "pid": 5,
-          "sentence_index": 0,
+          "pid": 3,
+          "sentence_index": 2,
           "text": "The industry also claims that people who lay fake grass spend an average of £500 on trees or shrubs for their garden, which provides habitat for insects.",
           "translation": "该行业还声称，铺设假草的人平均花费 500 英镑在花园里种植树木或灌木，为昆虫提供栖息地。",
           "slashed_text": "The industry also claims / that people / who lay fake grass spend an average of £500 / on trees or shrubs / for their garden , / which provides habitat / for insects.",
@@ -633,7 +595,7 @@
         },
         {
           "sid": 13,
-          "pid": 6,
+          "pid": 4,
           "sentence_index": 0,
           "text": "In response to another petition last year about banning fake lawns, which gathered 30,000 signatures, the government responded that it has “no plans to ban the use of artificial grass”.",
           "translation": "去年，另一份关于禁止假草坪的请愿书收集了 30,000 个签名，在回应时，政府回应称“没有计划禁止使用人造草坪”。",
@@ -651,7 +613,7 @@
         },
         {
           "sid": 14,
-          "pid": 6,
+          "pid": 4,
           "sentence_index": 1,
           "text": "It added: “We prefer to help people and organizations make the right choice rather than legislating on such matters.",
           "translation": "它补充道：“我们更愿意帮助人们和组织做出正确的选择，而不是就此类问题立法。",
@@ -669,7 +631,7 @@
         },
         {
           "sid": 15,
-          "pid": 6,
+          "pid": 4,
           "sentence_index": 2,
           "text": "However, the use of artificial grass must comply with the legal and policy safeguards in place to protect biodiversity and ensure sustainable drainage while measures such as the strengthened biodiversity duty should serve to encourage public authorities to consider sustainable alternatives.”",
           "translation": "然而，人造草的使用必须符合现有的法律和政策保障措施，以保护生物多样性并确保可持续排水，而加强生物多样性义务等措施应有助于鼓励公共当局考虑可持续的替代方案。”",
@@ -772,7 +734,7 @@
           "stem": "The petitions mentioned in Paragraph 3 reveal the campaigners’ .",
           "stem_cn": "第 3 段中提到的请愿书揭示了活动家的。",
           "type": "因果推断题",
-          "locate_pid": 1,
+          "locate_pid": 2,
           "locate_sentence": "Ed Horne, of the RHS, said: “We launched our sustainability strategy last year and fake grass is just not in line with our ethos and views on plastic.",
           "locate_sentence_cn": "英国皇家园艺学会的埃德·霍恩（Ed Horne）表示：“我们去年推出了可持续发展战略，而假草不符合我们对塑料的精神和观点。",
           "options": [
@@ -852,7 +814,7 @@
           "stem": "In Paragraph 4, supporters of fake grass point out .",
           "stem_cn": "在第4段中，假草的支持者指出。",
           "type": "段落推理题",
-          "locate_pid": 2,
+          "locate_pid": 3,
           "locate_sentence": "The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes.",
           "locate_sentence_cn": "英国皇家园艺学会做出这一决定之际，活动人士正试图提高人们对假草造成的问题的认识。",
           "options": [
@@ -932,7 +894,7 @@
           "stem": "What should the government do with regard to artificial grass?",
           "stem_cn": "对于人造草坪政府应该做什么？",
           "type": "词义/例证题",
-          "locate_pid": 3,
+          "locate_pid": 4,
           "locate_sentence": "However, supporters of fake grass point out that there is also an environmental impact with natural lawns, which need mowing and therefore usually consume electricity or petrol.",
           "locate_sentence_cn": "然而，假草的支持者指出，天然草坪也会对环境造成影响，因为天然草坪需要修剪，因此通常会消耗电力或汽油。",
           "options": [
@@ -1198,10 +1160,10 @@
         },
         {
           "pid": 1,
-          "text": "But the administration is right about one thing: U.S. national parks are in crisis.",
-          "translation": "但政府在一件事上是正确的：美国国家公园正处于危机之中。",
-          "slashed_text": "But the administration is right about one thing : / U.S. national parks are / in crisis.",
-          "chunk_translation": "但政府在一件事上确实说对了： / 全美国家公园正 / 深陷危机之中。",
+          "text": "But the administration is right about one thing: U.S. national parks are in crisis. Collectively, they have a maintenance backlog of more than $12 billion. Roads, trails, restrooms, visitor centers and other infrastructure are crumbling.",
+          "translation": "但政府在一件事上是正确的：美国国家公园正处于危机之中。 他们总共有超过 120 亿美元的维护积压。道路、小径、卫生间、游客中心和其他基础设施都在崩溃。",
+          "slashed_text": "But the administration is right about one thing : / U.S. national parks are / in crisis. Collectively , / they have a maintenance backlog of more than $12 billion. Roads , / trails , / restrooms , / visitor centers and other infrastructure are crumbling.",
+          "chunk_translation": "但政府在一件事上确实说对了： / 全美国家公园正 / 深陷危机之中。 总计来看， / 它们积压的维修维护开支已超过120亿美元。道路、 / 步道、 / 公共洗手间、 / 游客中心以及其他基础设施正破败不堪。",
           "vocabulary": [
             {
               "word": "administration",
@@ -1227,16 +1189,7 @@
               "word": "crisis",
               "pos": "n.",
               "definition": "n. 危机；紧要关头"
-            }
-          ]
-        },
-        {
-          "pid": 2,
-          "text": "Collectively, they have a maintenance backlog of more than $12 billion. Roads, trails, restrooms, visitor centers and other infrastructure are crumbling.",
-          "translation": "他们总共有超过 120 亿美元的维护积压。道路、小径、卫生间、游客中心和其他基础设施都在崩溃。",
-          "slashed_text": "Collectively , / they have a maintenance backlog of more than $12 billion. Roads , / trails , / restrooms , / visitor centers and other infrastructure are crumbling.",
-          "chunk_translation": "总计来看， / 它们积压的维修维护开支已超过120亿美元。道路、 / 步道、 / 公共洗手间、 / 游客中心以及其他基础设施正破败不堪。",
-          "vocabulary": [
+            },
             {
               "word": "Collectively",
               "pos": "adv.",
@@ -1285,11 +1238,11 @@
           ]
         },
         {
-          "pid": 3,
-          "text": "But privatizing and commercializing the campgrounds would not be a cure-all.",
-          "translation": "但露营地私有化和商业化并不是万能药。",
-          "slashed_text": "But privatizing and commercializing the campgrounds would not be a cure-all.",
-          "chunk_translation": "但将露营地私有化和商业化绝非万灵良药。",
+          "pid": 2,
+          "text": "But privatizing and commercializing the campgrounds would not be a cure-all. Campgrounds are a tiny portion of the overall infrastructure backlog, and concessionaires in the parks hand over, on average, only about 5% of their revenues to the National Park Service.",
+          "translation": "但将露营地私有化和商业化并不能解决所有问题。露营地在整个基础设施积压中所占比例极小，公园特许经营商平均仅将其收入的约5%上交给国家公园管理局。",
+          "slashed_text": "But privatizing and commercializing the campgrounds would not be a cure-all. Campgrounds are a tiny portion of the overall infrastructure backlog , / and concessionaires in the parks hand over , / on average , / only about 5% of their revenues to the National Park Service.",
+          "chunk_translation": "但将露营地私有化和商业化并不能包治百病。露营地只占整体基础设施修缮欠账中极小的比重， / 并且公园内的特许承包商 / 平均而言 / 仅将自身营业额的约5%上缴给国家公园管理局。",
           "vocabulary": [
             {
               "word": "privatizing",
@@ -1310,15 +1263,55 @@
               "word": "cure",
               "pos": "n.",
               "definition": "n. 药物；疗法"
+            },
+            {
+              "word": "tiny",
+              "pos": "adj.",
+              "definition": "adj. 极小的；微小的"
+            },
+            {
+              "word": "portion",
+              "pos": "n.",
+              "definition": "n. （某物的）一部分；（尤指餐馆中食物的）一份"
+            },
+            {
+              "word": "overall",
+              "pos": "adj.",
+              "definition": "adj. 总的；全面的"
+            },
+            {
+              "word": "infrastructure",
+              "pos": "n.",
+              "definition": "n. 下面结构；永久性军事设施"
+            },
+            {
+              "word": "backlog",
+              "pos": "n.",
+              "definition": "n. 积压的工作"
+            },
+            {
+              "word": "concessionaires",
+              "pos": "n.",
+              "definition": "受让人；特许权获得者（concessionaire 的复数）"
+            },
+            {
+              "word": "parks",
+              "pos": "n.",
+              "definition": "n. 公园（park 的复数）；帕克斯（姓氏 Parks 的中文音译"
+            },
+            {
+              "word": "hand",
+              "pos": "n.",
+              "definition": "n. 手；（钟表的）指针"
             }
           ]
         },
         {
-          "pid": 4,
-          "text": "Campgrounds are a tiny portion of the overall infrastructure backlog, and concessionaires in the parks hand over, on average, only about 5% of their revenues to the National Park Service. Moreover, increased privatization would certainly undercut one of the major reasons why 300 million visitors come to the parks each year: to enjoy nature and get a break from the commercial drumbeat that overwhelms daily life.",
-          "translation": "露营地只占整体基础设施积压的一小部分，公园特许经营商平均只将其收入的约 5% 上交给国家公园管理局。此外，私有化程度的提高肯定会削弱每年 3 亿游客来到公园的主要原因之一：享受大自然并从压倒日常生活的商业喧嚣中得到休息。",
-          "slashed_text": "Campgrounds are a tiny portion of the overall infrastructure backlog , / and concessionaires in the parks hand over , / on average , / only about 5% of their revenues to the National Park Service. Moreover , / increased privatization would certainly undercut one of the major reasons why 300 million visitors come to the parks each year : / to enjoy nature and get a break from the commercial drumbeat / that overwhelms daily life.",
-          "chunk_translation": "露营地仅占整个基础设施积压工程中极小的一部分， / 而且公园内的特许经营商平均 / 而言， / 仅将其收入的约5%上缴给国家公园管理局。此外， / 过度私有化无疑会削弱每年3亿游客造访国家公园的核心初衷之一： / 即亲近自然，逃离充斥在日常生活中的 / 喧嚣商业浪潮。",
+          "pid": 3,
+          "text": "Moreover, increased privatization would certainly undercut one of the major reasons why 300 million visitors come to the parks each year: to enjoy nature and get a break from the commercial drumbeat that overwhelms daily life.",
+          "translation": "此外，进一步的私有化肯定会削弱每年3亿游客来到公园的主要原因之一：享受大自然，摆脱充斥着日常生活的商业喧嚣。",
+          "slashed_text": "Moreover , / increased privatization would certainly undercut one of the major reasons / why 300 million visitors come to the parks each year : / to enjoy nature / and get a break from the commercial drumbeat / that overwhelms daily life.",
+          "chunk_translation": "更重要的是， / 进一步推进私有化必然会破坏数亿游客每年纷至沓来的核心初衷之一， / 即每年3亿游客前往国家公园体验自然的根本目的： / 去亲近自然生态， / 并从压倒日常生活的商业鼓噪中获得喘息。",
           "vocabulary": [
             {
               "word": "Campgrounds",
@@ -1368,7 +1361,7 @@
           ]
         },
         {
-          "pid": 5,
+          "pid": 4,
           "text": "The real problem is that the parks have been chronically starved of funding. We conducted a comprehensive survey examining how U.S. residents view their national parks, and we found that Americans place a very high value on them—whether or not they actually visit them. The peer-reviewed economic survey of 700 U.S. taxpayers, conducted by mail and internet, also found that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact. Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.",
           "translation": "真正的问题是公园长期缺乏资金。我们进行了一项全面的调查，了解美国居民如何看待他们的国家公园，我们发现美国人非常重视它们——无论他们是否真的参观过它们。通过邮件和互联网对 700 名美国纳税人进行的同行评审经济调查还发现，人们愿意支付大量资金来确保公园及其项目完好无损。约 81% 的受访者表示，他们愿意在未来 10 年内缴纳额外税款，以避免对国家公园的削减。",
           "slashed_text": "The real problem is / that the parks have been chronically starved of funding. We conducted a comprehensive survey examining how U.S. residents view their national parks , / and we found / that Americans place a very high value / on them — / whether or not they actually visit them. The peer-reviewed economic survey of 700 U.S. taxpayers , / conducted / by mail and internet , / also found / that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact. Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.",
@@ -1422,7 +1415,7 @@
           ]
         },
         {
-          "pid": 6,
+          "pid": 5,
           "text": "The national parks provide great value to U.S. residents both as places to escape and as symbols of nature. On top of this, they produce value from their extensive educational programs, their positive impact on the climate through carbon sequestration, their contribution to our cultural and artistic life, and of course through tourism. The parks also help keep America’s past alive, working with thousands of local jurisdictions around the country to protect historical sites—including Ellis Island and Gettysburg—and to bring the stories of these places to life.",
           "translation": "国家公园为美国居民提供了巨大的价值，既可以作为避世之地，也可以作为自然的象征。除此之外，他们还通过广泛的教育计划、通过碳固存对气候的积极影响、对我们的文化和艺术生活的贡献，当然还有旅游业的贡献来创造价值。这些公园还与全国数千个地方管辖区合作，保护历史遗迹（包括埃利斯岛和葛底斯堡），并让这些地方的故事栩栩如生，从而帮助保留美国的过去。",
           "slashed_text": "The national parks provide great value to U.S. residents both as places to escape and as symbols of nature. On top of this , / they produce value / from their extensive educational programs , / their positive impact on the climate / through carbon sequestration , / their contribution to our cultural and artistic life , / and of course / through tourism. The parks also help keep America’s past alive , / working / with thousands of local jurisdictions around the country to protect historical sites — / including Ellis Island and Gettysburg — / and to bring the stories of these places to life.",
@@ -1476,7 +1469,7 @@
           ]
         },
         {
-          "pid": 7,
+          "pid": 6,
           "text": "The parks do all this on a shoestring. Congress allocates only $3 billion a year to the national park system—an amount that has been flat since 2001 (in inflation-adjusted dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package. Meanwhile, the number of annual visitors has increased by more than 50% since 1980, and now stands at 330 million visitors per year.",
           "translation": "公园在小本经营的情况下完成这一切。国会每年只向国家公园系统拨款 30 亿美元，这一数额自 2001 年以来一直持平（按通货膨胀调整后的美元计算），除了 2009 年作为奥巴马经济刺激计划的一部分而一次性增加的资金外。与此同时，自1980年以来，每年游客数量增长了50%以上，目前每年游客数量达到3.3亿人次。",
           "slashed_text": "The parks do all this on a shoestring. Congress allocates only $3 billion a year to the national park system — / an amount / that has been flat / since 2001 ( / in inflation-adjusted dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package. Meanwhile , / the number of annual visitors has increased / by more than 50% / since 1980 , / and now stands at 330 million visitors per year.",
@@ -1605,8 +1598,8 @@
         },
         {
           "sid": 4,
-          "pid": 2,
-          "sentence_index": 0,
+          "pid": 1,
+          "sentence_index": 2,
           "text": "Collectively, they have a maintenance backlog of more than $12 billion.",
           "translation": "他们总共有超过 120 亿美元的维护积压。",
           "slashed_text": "Collectively , / they have a maintenance backlog of more than $12 billion.",
@@ -1623,8 +1616,8 @@
         },
         {
           "sid": 5,
-          "pid": 2,
-          "sentence_index": 1,
+          "pid": 1,
+          "sentence_index": 3,
           "text": "Roads, trails, restrooms, visitor centers and other infrastructure are crumbling.",
           "translation": "道路、小径、卫生间、游客中心和其他基础设施都在崩溃。",
           "slashed_text": "Roads , / trails , / restrooms , / visitor centers and other infrastructure are crumbling.",
@@ -1641,7 +1634,7 @@
         },
         {
           "sid": 6,
-          "pid": 3,
+          "pid": 2,
           "sentence_index": 0,
           "text": "But privatizing and commercializing the campgrounds would not be a cure-all.",
           "translation": "但露营地私有化和商业化并不是万能药。",
@@ -1659,8 +1652,8 @@
         },
         {
           "sid": 7,
-          "pid": 4,
-          "sentence_index": 0,
+          "pid": 2,
+          "sentence_index": 1,
           "text": "Campgrounds are a tiny portion of the overall infrastructure backlog, and concessionaires in the parks hand over, on average, only about 5% of their revenues to the National Park Service.",
           "translation": "露营地只占整体基础设施积压的一小部分，公园特许经营商平均只将其收入的约 5% 上交给国家公园管理局。",
           "slashed_text": "Campgrounds are a tiny portion of the overall infrastructure backlog , / and concessionaires in the parks hand over , / on average , / only about 5% of their revenues to the National Park Service.",
@@ -1677,8 +1670,8 @@
         },
         {
           "sid": 8,
-          "pid": 4,
-          "sentence_index": 1,
+          "pid": 3,
+          "sentence_index": 0,
           "text": "Moreover, increased privatization would certainly undercut one of the major reasons why 300 million visitors come to the parks each year: to enjoy nature and get a break from the commercial drumbeat that overwhelms daily life.",
           "translation": "此外，私有化程度的提高肯定会削弱每年 3 亿游客来到公园的主要原因之一：享受大自然并从压倒日常生活的商业喧嚣中得到休息。",
           "slashed_text": "Moreover , / increased privatization would certainly undercut one of the major reasons why 300 million visitors come to the parks each year : / to enjoy nature and get a break from the commercial drumbeat / that overwhelms daily life.",
@@ -1695,7 +1688,7 @@
         },
         {
           "sid": 9,
-          "pid": 5,
+          "pid": 4,
           "sentence_index": 0,
           "text": "The real problem is that the parks have been chronically starved of funding.",
           "translation": "真正的问题是公园长期缺乏资金。",
@@ -1713,7 +1706,7 @@
         },
         {
           "sid": 10,
-          "pid": 5,
+          "pid": 4,
           "sentence_index": 1,
           "text": "We conducted a comprehensive survey examining how U.S.",
           "translation": "我们进行了一项全面的调查，研究美国如何",
@@ -1731,7 +1724,7 @@
         },
         {
           "sid": 11,
-          "pid": 5,
+          "pid": 4,
           "sentence_index": 2,
           "text": "residents view their national parks, and we found that Americans place a very high value on them—whether or not they actually visit them.",
           "translation": "居民们参观他们的国家公园，我们发现美国人非常重视它们——无论他们是否真的参观过它们。",
@@ -1749,7 +1742,7 @@
         },
         {
           "sid": 12,
-          "pid": 5,
+          "pid": 4,
           "sentence_index": 3,
           "text": "The peer-reviewed economic survey of 700 U.S.",
           "translation": "对 700 名美国人进行同行评审的经济调查",
@@ -1767,7 +1760,7 @@
         },
         {
           "sid": 13,
-          "pid": 5,
+          "pid": 4,
           "sentence_index": 4,
           "text": "taxpayers, conducted by mail and internet, also found that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact.",
           "translation": "通过邮件和互联网进行的纳税人调查还发现，人们愿意支付大量资金来确保公园及其项目完好无损。",
@@ -1785,7 +1778,7 @@
         },
         {
           "sid": 14,
-          "pid": 5,
+          "pid": 4,
           "sentence_index": 5,
           "text": "Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.",
           "translation": "约 81% 的受访者表示，他们愿意在未来 10 年内缴纳额外税款，以避免对国家公园的削减。",
@@ -1803,7 +1796,7 @@
         },
         {
           "sid": 15,
-          "pid": 6,
+          "pid": 5,
           "sentence_index": 0,
           "text": "The national parks provide great value to U.S.",
           "translation": "国家公园为美国提供了巨大的价值",
@@ -1821,7 +1814,7 @@
         },
         {
           "sid": 16,
-          "pid": 6,
+          "pid": 5,
           "sentence_index": 1,
           "text": "residents both as places to escape and as symbols of nature.",
           "translation": "居民既是逃避的地方，也是自然的象征。",
@@ -1839,7 +1832,7 @@
         },
         {
           "sid": 17,
-          "pid": 6,
+          "pid": 5,
           "sentence_index": 2,
           "text": "On top of this, they produce value from their extensive educational programs, their positive impact on the climate through carbon sequestration, their contribution to our cultural and artistic life, and of course through tourism.",
           "translation": "除此之外，他们还通过广泛的教育计划、通过碳固存对气候的积极影响、对我们的文化和艺术生活的贡献，当然还有旅游业的贡献来创造价值。",
@@ -1857,7 +1850,7 @@
         },
         {
           "sid": 18,
-          "pid": 6,
+          "pid": 5,
           "sentence_index": 3,
           "text": "The parks also help keep America’s past alive, working with thousands of local jurisdictions around the country to protect historical sites—including Ellis Island and Gettysburg—and to bring the stories of these places to life.",
           "translation": "这些公园还与全国数千个地方管辖区合作，保护历史遗迹（包括埃利斯岛和葛底斯堡），并让这些地方的故事栩栩如生，从而帮助保留美国的过去。",
@@ -1875,7 +1868,7 @@
         },
         {
           "sid": 19,
-          "pid": 7,
+          "pid": 6,
           "sentence_index": 0,
           "text": "The parks do all this on a shoestring.",
           "translation": "公园在小本经营的情况下完成这一切。",
@@ -1893,7 +1886,7 @@
         },
         {
           "sid": 20,
-          "pid": 7,
+          "pid": 6,
           "sentence_index": 1,
           "text": "Congress allocates only $3 billion a year to the national park system—an amount that has been flat since 2001 (in inflation-adjusted dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package.",
           "translation": "国会每年只向国家公园系统拨款 30 亿美元，这一数额自 2001 年以来一直持平（按通货膨胀调整后的美元计算），除了 2009 年作为奥巴马经济刺激计划的一部分而一次性增加的资金外。",
@@ -1916,7 +1909,7 @@
         },
         {
           "sid": 21,
-          "pid": 7,
+          "pid": 6,
           "sentence_index": 2,
           "text": "Meanwhile, the number of annual visitors has increased by more than 50% since 1980, and now stands at 330 million visitors per year.",
           "translation": "与此同时，自1980年以来，每年游客数量增长了50%以上，目前每年游客数量达到3.3亿人次。",
@@ -1939,7 +1932,7 @@
           "stem": "What problem are U.S. national parks faced with?",
           "stem_cn": "美国国家公园面临什么问题？",
           "type": "事实细节题",
-          "locate_pid": 0,
+          "locate_pid": 1,
           "locate_sentence": "It’s easy to dismiss as absurd the Trump administration’s ideas for plugging the chronic funding gap of our national parks.",
           "locate_sentence_cn": "特朗普政府填补国家公园长期资金缺口的想法很容易被认为是荒谬的。",
           "options": [
@@ -2019,7 +2012,7 @@
           "stem": "Increased privatization of campgrounds may .",
           "stem_cn": "露营地的私有化可能会增加。",
           "type": "因果推断题",
-          "locate_pid": 1,
+          "locate_pid": 3,
           "locate_sentence": "But the administration is right about one thing: U.S.",
           "locate_sentence_cn": "但政府在一件事上是正确的：美国",
           "options": [
@@ -2099,7 +2092,7 @@
           "stem": "According to Paragraph 5, most respondents in the survey would .",
           "stem_cn": "根据第 5 段，调查中的大多数受访者会 。",
           "type": "段落推理题",
-          "locate_pid": 2,
+          "locate_pid": 4,
           "locate_sentence": "Collectively, they have a maintenance backlog of more than $12 billion.",
           "locate_sentence_cn": "他们总共有超过 120 亿美元的维护积压。",
           "options": [
@@ -2179,7 +2172,7 @@
           "stem": "The national parks are valuable in that they .",
           "stem_cn": "国家公园的价值在于它们。",
           "type": "词义/例证题",
-          "locate_pid": 3,
+          "locate_pid": 5,
           "locate_sentence": "But privatizing and commercializing the campgrounds would not be a cure-all.",
           "locate_sentence_cn": "但露营地私有化和商业化并不是万能药。",
           "options": [
@@ -2259,7 +2252,7 @@
           "stem": "It can be concluded from the text that the national park system .",
           "stem_cn": "从文中可以得出国家公园制度。",
           "type": "全文主旨题",
-          "locate_pid": 4,
+          "locate_pid": 6,
           "locate_sentence": "Campgrounds are a tiny portion of the overall infrastructure backlog, and concessionaires in the parks hand over, on average, only about 5% of their revenues to the National Park Service.",
           "locate_sentence_cn": "露营地只占整体基础设施积压的一小部分，公园特许经营商平均只将其收入的约 5% 上交给国家公园管理局。",
           "options": [
@@ -3139,7 +3132,7 @@
           "stem": "Which of the following would Sparrow support about the Internet?",
           "stem_cn": "Sparrow 支持以下关于互联网的哪项？",
           "type": "段落推理题",
-          "locate_pid": 2,
+          "locate_pid": 1,
           "locate_sentence": "Still other experts say it’s too soon to understand how the Internet affects our brains.",
           "locate_sentence_cn": "还有一些专家表示，现在了解互联网如何影响我们的大脑还为时过早。",
           "options": [
@@ -3219,7 +3212,7 @@
           "stem": "It is indicated in Paragraph 3 that how the Internet affects our brains .",
           "stem_cn": "第3段指出了互联网如何影响我们的大脑。",
           "type": "词义/例证题",
-          "locate_pid": 3,
+          "locate_pid": 2,
           "locate_sentence": "“There may be costs associated with our increased reliance on the Internet, but I’d have to imagine that overall the benefits are going to outweigh those costs,” observes psychology professor Benjamin Storm.",
           "locate_sentence_cn": "心理学教授本杰明·斯托姆 (Benjamin Storm) 表示：“我们对互联网的依赖程度增加可能会带来成本，但我可以想象，总体而言，收益将超过这些成本。”",
           "options": [
@@ -3646,10 +3639,10 @@
         },
         {
           "pid": 4,
-          "text": "Is there some common factor that underlies these apparently contradictory developments?",
-          "translation": "这些看似矛盾的发展背后是否存在某种共同因素？",
-          "slashed_text": "Is there some common factor / that underlies these apparently contradictory developments?",
-          "chunk_translation": "是否存在某种共同的底层因素， / 在驱动着这些表面上看似矛盾的发展变化？",
+          "text": "Is there some common factor that underlies these apparently contradictory developments? One idea is that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks, benefits and costs. “Reward sensitivity” measures how much reward it takes to outweigh risk.",
+          "translation": "是否存在某种共同因素导致了这些看似矛盾的发展？一种观点认为，青少年的行为与研究人员所说的“奖励敏感性”有关。做决策总是涉及权衡奖励和风险、收益和成本。“奖励敏感性”衡量的是需要多少奖励才能超过风险。",
+          "slashed_text": "Is there some common factor that underlies these apparently contradictory developments? One idea is that teenage behavior is related / to what researchers call “reward sensitivity .” / Decision-making always involves balancing rewards and risks , / benefits and costs. “Reward sensitivity” measures / how much reward it takes to outweigh risk.",
+          "chunk_translation": "这些看似矛盾的发展背后是否存在某种共同因素？一种观点认为青少年时期的行为模式 / 与研究人员所谓的“奖励敏感度”密切相关。日常决策过程始终需要在收益与风险、 / 好处与代价之间权衡取舍。“奖励敏感度”主要用于衡量 / 究竟需要多大诱惑的奖赏才能彻底压倒对风险的顾虑。",
           "vocabulary": [
             {
               "word": "common",
@@ -3680,16 +3673,7 @@
               "word": "developments",
               "pos": "n.",
               "definition": "n. 发展；进展（development 的复数）"
-            }
-          ]
-        },
-        {
-          "pid": 5,
-          "text": "One idea is that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks, benefits and costs. “Reward sensitivity” measures how much reward it takes to outweigh risk.",
-          "translation": "一种观点是，青少年的行为与研究人员所说的“奖励敏感性”有关。决策总是涉及平衡回报与风险、收益与成本。 “奖励敏感性”衡量的是需要多少奖励才能超过风险。",
-          "slashed_text": "One idea is / that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks , / benefits and costs. “Reward sensitivity” measures how much reward it takes to outweigh risk.",
-          "chunk_translation": "一种解释是， / 青少年的行为与研究人员所谓的“奖励敏感性”紧密相关。任何决策制定始终都涉及到权衡奖赏与风险、 / 收益与代价。“奖励敏感性”所衡量的，正是需要多大程度的奖励回报才足以压倒所面临的风险。",
-          "vocabulary": [
+            },
             {
               "word": "idea",
               "pos": "n.",
@@ -3738,7 +3722,7 @@
           ]
         },
         {
-          "pid": 6,
+          "pid": 5,
           "text": "Teenagers are particularly sensitive to social rewards—winning the game, impressing a new friend, getting that boy to notice you. Reward sensitivity, like prosocial behavior and risk-taking, seems to go up in adolescence and then down again as we age. Somehow, when you hit 30, the chance that something exciting and new will happen at that party just doesn’t seem to outweigh the effort of getting up off the couch.",
           "translation": "青少年对社会奖励特别敏感——赢得比赛、给新朋友留下深刻印象、让那个男孩注意到你。奖励敏感性，如亲社会行为和冒险行为，似乎在青春期会上升，但随着年龄的增长又会下降。不知何故，当你到了 30 岁时，聚会上发生令人兴奋的新事情的机会似乎并不比从沙发上站起来的努力重要。",
           "slashed_text": "Teenagers are particularly sensitive to social rewards — / winning the game , / impressing a new friend , / getting / that boy to notice you. Reward sensitivity , / like prosocial behavior and risk-taking , / seems to go up / in adolescence and then down again as we age. Somehow , / when you hit 30 , / the chance / that something exciting and new will happen at / that party just doesn’t seem to outweigh the effort of getting up off the couch.",
@@ -4119,8 +4103,8 @@
         },
         {
           "sid": 18,
-          "pid": 5,
-          "sentence_index": 0,
+          "pid": 4,
+          "sentence_index": 1,
           "text": "One idea is that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks, benefits and costs.",
           "translation": "一种观点是，青少年的行为与研究人员所说的“奖励敏感性”有关。决策总是涉及平衡回报与风险、收益与成本。",
           "slashed_text": "One idea is / that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks , / benefits and costs.",
@@ -4137,8 +4121,8 @@
         },
         {
           "sid": 19,
-          "pid": 5,
-          "sentence_index": 1,
+          "pid": 4,
+          "sentence_index": 2,
           "text": "“Reward sensitivity” measures how much reward it takes to outweigh risk.",
           "translation": "“奖励敏感性”衡量的是需要多少奖励才能超过风险。",
           "slashed_text": "“Reward sensitivity” measures how much reward it takes to outweigh risk.",
@@ -4155,7 +4139,7 @@
         },
         {
           "sid": 20,
-          "pid": 6,
+          "pid": 5,
           "sentence_index": 0,
           "text": "Teenagers are particularly sensitive to social rewards—winning the game, impressing a new friend, getting that boy to notice you.",
           "translation": "青少年对社会奖励特别敏感——赢得比赛、给新朋友留下深刻印象、让那个男孩注意到你。",
@@ -4173,7 +4157,7 @@
         },
         {
           "sid": 21,
-          "pid": 6,
+          "pid": 5,
           "sentence_index": 1,
           "text": "Reward sensitivity, like prosocial behavior and risk-taking, seems to go up in adolescence and then down again as we age.",
           "translation": "奖励敏感性，如亲社会行为和冒险行为，似乎在青春期会上升，但随着年龄的增长又会下降。",
@@ -4191,7 +4175,7 @@
         },
         {
           "sid": 22,
-          "pid": 6,
+          "pid": 5,
           "sentence_index": 2,
           "text": "Somehow, when you hit 30, the chance that something exciting and new will happen at that party just doesn’t seem to outweigh the effort of getting up off the couch.",
           "translation": "不知何故，当你到了 30 岁时，聚会上发生令人兴奋的新事情的机会似乎并不比从沙发上站起来的努力重要。",
@@ -4454,7 +4438,7 @@
           "stem": "It can be learned from the last two paragraphs that teenagers .",
           "stem_cn": "从最后两段可以看出，青少年。",
           "type": "词义/例证题",
-          "locate_pid": 3,
+          "locate_pid": 4,
           "locate_sentence": "Most significantly, there was a positive correlation between prosociality and rebelliousness.",
           "locate_sentence_cn": "最重要的是，亲社会性和叛逆性之间存在正相关关系。",
           "options": [
@@ -4534,7 +4518,7 @@
           "stem": "What is the text mainly about?",
           "stem_cn": "课文主要讲了什么内容？",
           "type": "全文主旨题",
-          "locate_pid": 4,
+          "locate_pid": 0,
           "locate_sentence": "Is there some common factor that underlies these apparently contradictory developments?",
           "locate_sentence_cn": "这些看似矛盾的发展背后是否存在某种共同因素？",
           "options": [

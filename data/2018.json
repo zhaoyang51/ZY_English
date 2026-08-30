@@ -468,16 +468,16 @@
           "sid": 1,
           "pid": 1,
           "sentence_index": 0,
-          "text": "Mr.",
-          "translation": "先生。",
-          "slashed_text": "Mr.",
-          "chunk_translation": "先生。",
+          "text": "Mr. Koziatek is part of something pioneering.",
+          "translation": "科齐亚泰克先生正在参与一项开创性的工作。",
+          "slashed_text": "Mr. Koziatek / is part of something pioneering.",
+          "chunk_translation": "科齐亚泰克先生 / 正在参与一项开创性的工作。",
           "syntax": {
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Mr....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Mr. Koziatek is part of something pioneering.",
+                "explanation": "全句为主系表基础陈述结构，核心主干明确，意群衔接自然。"
               }
             ]
           }
@@ -486,24 +486,6 @@
           "sid": 2,
           "pid": 1,
           "sentence_index": 1,
-          "text": "Koziatek is part of something pioneering.",
-          "translation": "Koziatek 是开创性事物的一部分。",
-          "slashed_text": "Koziatek is part of something pioneering.",
-          "chunk_translation": "科齐亚泰克正在参与一项开创性的事业。",
-          "syntax": {
-            "breakdown": [
-              {
-                "type": "主干剖析",
-                "content": "Koziatek is part of something pioneering....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
-              }
-            ]
-          }
-        },
-        {
-          "sid": 3,
-          "pid": 1,
-          "sentence_index": 2,
           "text": "He is a teacher at a New Hampshire high school where learning is not something of books and tests and mechanical memorization, but practical.",
           "translation": "他是新罕布什尔州一所高中的老师，那里的学习不是书本、考试和机械记忆，而是实践。",
           "slashed_text": "He is a teacher at a New Hampshire high school / where learning is not something of books and tests and mechanical memorization , / but practical.",
@@ -519,9 +501,9 @@
           }
         },
         {
-          "sid": 4,
+          "sid": 3,
           "pid": 1,
-          "sentence_index": 3,
+          "sentence_index": 2,
           "text": "When did it become accepted wisdom that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?",
           "translation": "学生们应该能够说出美国第 13 任总统的名字，但却被断掉的自行车链条完全压垮，这从什么时候开始成为公认的智慧？",
           "slashed_text": "/ When did it become accepted wisdom / that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?",
@@ -537,7 +519,7 @@
           }
         },
         {
-          "sid": 5,
+          "sid": 4,
           "pid": 2,
           "sentence_index": 0,
           "text": "As Koziatek knows, there is learning in just about everything.",
@@ -555,7 +537,7 @@
           }
         },
         {
-          "sid": 6,
+          "sid": 5,
           "pid": 2,
           "sentence_index": 1,
           "text": "Nothing is necessarily gained by forcing students to learn geometry at a graffitied desk stuck with generations of discarded chewing gum.",
@@ -573,7 +555,7 @@
           }
         },
         {
-          "sid": 7,
+          "sid": 6,
           "pid": 2,
           "sentence_index": 2,
           "text": "They can also learn geometry by assembling a bicycle.",
@@ -591,7 +573,7 @@
           }
         },
         {
-          "sid": 8,
+          "sid": 7,
           "pid": 3,
           "sentence_index": 0,
           "text": "But he’s also found a kind of insidious prejudice.",
@@ -609,7 +591,7 @@
           }
         },
         {
-          "sid": 9,
+          "sid": 8,
           "pid": 3,
           "sentence_index": 1,
           "text": "Working with your hands is seen as almost a mark of inferiority.",
@@ -627,43 +609,25 @@
           }
         },
         {
-          "sid": 10,
+          "sid": 9,
           "pid": 3,
           "sentence_index": 2,
-          "text": "Schools in the family of vocational education “have that stereotype ...",
-          "translation": "职业教育大家庭中的学校“有这样的刻板印象......",
-          "slashed_text": "Schools in the family of vocational education “have / that stereotype ...",
-          "chunk_translation": "属于职业教育体系的学校“往往存在 / 那样一种刻板印象……",
-          "syntax": {
-            "breakdown": [
-              {
-                "type": "名词性从句",
-                "content": "that stereotype ......",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
-              }
-            ]
-          }
-        },
-        {
-          "sid": 11,
-          "pid": 3,
-          "sentence_index": 3,
-          "text": "that it’s for kids who can’t make it academically,” he says.",
-          "translation": "它是为那些学业成绩不佳的孩子准备的，”他说。",
-          "slashed_text": "/ that it’s / for kids / who can’t make it academically , / ” he says.",
-          "chunk_translation": "即这类学校是 / 为那些 / 在学业上无法取得成功的孩子准备的 / ”他说。",
+          "text": "Schools in the family of vocational education “have that stereotype ... that it’s for kids who can’t make it academically,” he says.",
+          "translation": "他说，职业教育类的学校“存在那种刻板印象……即那是为学业不佳的孩子准备的”。",
+          "slashed_text": "Schools in the family of vocational education / “have that stereotype ... that it’s for kids who can’t make it academically , / ” he says.",
+          "chunk_translation": "职业教育类学校 / “有着那种刻板印象……即那是为学业不佳的孩子准备的， / ”他说。",
           "syntax": {
             "breakdown": [
               {
                 "type": "定语从句",
-                "content": "who can’t make it academically...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "content": "who can’t make it academically",
+                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词 kids。"
               }
             ]
           }
         },
         {
-          "sid": 12,
+          "sid": 10,
           "pid": 4,
           "sentence_index": 0,
           "text": "On one hand, that viewpoint is a logical product of America’s evolution.",
@@ -681,7 +645,7 @@
           }
         },
         {
-          "sid": 13,
+          "sid": 11,
           "pid": 4,
           "sentence_index": 1,
           "text": "Manufacturing is not the economic engine that it once was.",
@@ -699,7 +663,7 @@
           }
         },
         {
-          "sid": 14,
+          "sid": 12,
           "pid": 4,
           "sentence_index": 2,
           "text": "The job security that the US economy once offered to high school graduates has largely evaporated.",
@@ -717,7 +681,7 @@
           }
         },
         {
-          "sid": 15,
+          "sid": 13,
           "pid": 4,
           "sentence_index": 3,
           "text": "More education is the new principle.",
@@ -735,7 +699,7 @@
           }
         },
         {
-          "sid": 16,
+          "sid": 14,
           "pid": 4,
           "sentence_index": 4,
           "text": "We want more for our kids, and rightfully so.",
@@ -753,7 +717,7 @@
           }
         },
         {
-          "sid": 17,
+          "sid": 15,
           "pid": 5,
           "sentence_index": 0,
           "text": "But the headlong push into bachelor’s degrees for all—and the subtle devaluing of anything less—misses an important point: That’s not the only thing the American economy needs.",
@@ -771,7 +735,7 @@
           }
         },
         {
-          "sid": 18,
+          "sid": 16,
           "pid": 5,
           "sentence_index": 1,
           "text": "Yes, a bachelor’s degree opens more doors.",
@@ -789,7 +753,7 @@
           }
         },
         {
-          "sid": 19,
+          "sid": 17,
           "pid": 5,
           "sentence_index": 2,
           "text": "But even now, 54 percent of the jobs in the country are middle-skill jobs, such as construction and high-skill manufacturing.",
@@ -807,7 +771,7 @@
           }
         },
         {
-          "sid": 20,
+          "sid": 18,
           "pid": 5,
           "sentence_index": 3,
           "text": "But only 44 percent of workers are adequately trained.",
@@ -825,7 +789,7 @@
           }
         },
         {
-          "sid": 21,
+          "sid": 19,
           "pid": 6,
           "sentence_index": 0,
           "text": "In other words, at a time when the working class has turned the country on its political head, frustrated that the opportunity that once defined America is vanishing, one obvious solution is staring us in the face.",
@@ -843,7 +807,7 @@
           }
         },
         {
-          "sid": 22,
+          "sid": 20,
           "pid": 6,
           "sentence_index": 1,
           "text": "There is a gap in working-class jobs, but the workers who need those jobs most aren’t equipped to do them.",
@@ -861,7 +825,7 @@
           }
         },
         {
-          "sid": 23,
+          "sid": 21,
           "pid": 6,
           "sentence_index": 2,
           "text": "Koziatek’s Manchester School of Technology High School is trying to fill that gap.",
@@ -879,7 +843,7 @@
           }
         },
         {
-          "sid": 24,
+          "sid": 22,
           "pid": 7,
           "sentence_index": 0,
           "text": "Koziatek’s school is a wake-up call.",
@@ -897,7 +861,7 @@
           }
         },
         {
-          "sid": 25,
+          "sid": 23,
           "pid": 7,
           "sentence_index": 1,
           "text": "When education becomes one-size-fits-all, it risks overlooking a nation’s diversity of gifts.",
@@ -921,9 +885,9 @@
           "stem": "A broken bike chain is mentioned to show students’ lack of ______.",
           "stem_cn": "提到自行车链条断裂表明学生缺乏______。",
           "type": "事实细节题",
-          "locate_pid": 0,
-          "locate_sentence": "It is curious that Stephen Koziatek feels almost as though he has to justify his efforts to give his students a better future.",
-          "locate_sentence_cn": "奇怪的是，史蒂芬·科齐亚泰克似乎觉得他必须证明自己为给学生一个更好的未来所做的努力是合理的。",
+          "locate_pid": 1,
+          "locate_sentence": "When did it become accepted wisdom that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?",
+          "locate_sentence_cn": "从何时起，学生能够说出美国第13任总统的名字，却因一条断了的自行车链条而不知所措，竟成了公认的常理？",
           "options": [
             {
               "key": "A",
@@ -934,9 +898,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "It is curious that Stephen Koziatek feels almost as though he has to justify his efforts to give his students a better future.",
-                "source_translation": "奇怪的是，史蒂芬·科齐亚泰克似乎觉得他必须证明自己为给学生一个更好的未来所做的努力是合理的。",
-                "locator_comparison": "选项核心词 <code>practical</code>, <code>ability</code>（“实践能力”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "When did it become accepted wisdom that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?",
+                "source_translation": "从何时起，学生能够说出美国第13任总统的名字，却因一条断了的自行车链条而不知所措，竟成了公认的常理？",
+                "locator_comparison": "选项核心词 <code>practical</code>, <code>ability</code>（“实践能力”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“Mr”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：A正确。"
@@ -951,8 +915,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "It is curious that Stephen Koziatek feels almost as though he has to justify his efforts to give his students a better future.",
-                "source_translation": "奇怪的是，史蒂芬·科齐亚泰克似乎觉得他必须证明自己为给学生一个更好的未来所做的努力是合理的。",
+                "source_sentence": "When did it become accepted wisdom that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?",
+                "source_translation": "从何时起，学生能够说出美国第13任总统的名字，却因一条断了的自行车链条而不知所措，竟成了公认的常理？",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“Mr”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -968,8 +932,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "It is curious that Stephen Koziatek feels almost as though he has to justify his efforts to give his students a better future.",
-                "source_translation": "奇怪的是，史蒂芬·科齐亚泰克似乎觉得他必须证明自己为给学生一个更好的未来所做的努力是合理的。",
+                "source_sentence": "When did it become accepted wisdom that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?",
+                "source_translation": "从何时起，学生能够说出美国第13任总统的名字，却因一条断了的自行车链条而不知所措，竟成了公认的常理？",
                 "locator_comparison": "借用了原文的词汇 <code>pioneering</code>, <code>spirit</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“Mr”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -985,8 +949,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "It is curious that Stephen Koziatek feels almost as though he has to justify his efforts to give his students a better future.",
-                "source_translation": "奇怪的是，史蒂芬·科齐亚泰克似乎觉得他必须证明自己为给学生一个更好的未来所做的努力是合理的。",
+                "source_sentence": "When did it become accepted wisdom that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?",
+                "source_translation": "从何时起，学生能够说出美国第13任总统的名字，却因一条断了的自行车链条而不知所措，竟成了公认的常理？",
                 "locator_comparison": "选项声称“机械记忆”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“Mr”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1001,9 +965,9 @@
           "stem": "There exists the prejudice that vocational education is for kids who ______.",
           "stem_cn": "人们存在一种偏见，认为职业教育是为______的孩子提供的。",
           "type": "因果推断题",
-          "locate_pid": 1,
-          "locate_sentence": "Mr.",
-          "locate_sentence_cn": "先生。",
+          "locate_pid": 3,
+          "locate_sentence": "Schools in the family of vocational education “have that stereotype ... that it’s for kids who can’t make it academically,” he says.",
+          "locate_sentence_cn": "他说，职业教育类的学校“存在那种刻板印象……即那是为学业不佳的孩子准备的”。",
           "options": [
             {
               "key": "A",
@@ -1014,8 +978,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Mr.",
-                "source_translation": "先生。",
+                "source_sentence": "Schools in the family of vocational education “have that stereotype ... that it’s for kids who can’t make it academically,” he says.",
+                "source_translation": "他说，职业教育类的学校“存在那种刻板印象……即那是为学业不佳的孩子准备的”。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“Koziatek 是开创性事物的一部分。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1031,8 +995,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Mr.",
-                "source_translation": "先生。",
+                "source_sentence": "Schools in the family of vocational education “have that stereotype ... that it’s for kids who can’t make it academically,” he says.",
+                "source_translation": "他说，职业教育类的学校“存在那种刻板印象……即那是为学业不佳的孩子准备的”。",
                 "locator_comparison": "选项声称“没有职业动力”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“Koziatek 是开创性事物的一部分。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1048,9 +1012,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Mr.",
-                "source_translation": "先生。",
-                "locator_comparison": "选项核心词 <code>are</code>, <code>not</code>, <code>academically</code>（“学业上不成功”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "Schools in the family of vocational education “have that stereotype ... that it’s for kids who can’t make it academically,” he says.",
+                "source_translation": "他说，职业教育类的学校“存在那种刻板印象……即那是为学业不佳的孩子准备的”。",
+                "locator_comparison": "选项核心词 <code>are</code>, <code>not</code>, <code>academically</code>（“学业上不成功”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“Koziatek 是开创性事物的一部分。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：C正确。"
@@ -1065,8 +1029,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Mr.",
-                "source_translation": "先生。",
+                "source_sentence": "Schools in the family of vocational education “have that stereotype ... that it’s for kids who can’t make it academically,” he says.",
+                "source_translation": "他说，职业教育类的学校“存在那种刻板印象……即那是为学业不佳的孩子准备的”。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“Koziatek 是开创性事物的一部分。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1081,9 +1045,9 @@
           "stem": "We can infer from Paragraph 5 that high school graduates ______.",
           "stem_cn": "我们可以从第 5 段推断高中毕业生______。",
           "type": "段落推理题",
-          "locate_pid": 2,
-          "locate_sentence": "As Koziatek knows, there is learning in just about everything.",
-          "locate_sentence_cn": "正如 Koziatek 所知，几乎所有事情都需要学习。",
+          "locate_pid": 4,
+          "locate_sentence": "The job security that the US economy once offered to high school graduates has largely evaporated.",
+          "locate_sentence_cn": "美国经济曾经为高中毕业生提供的就业安全感在很大程度上已经化为乌有。",
           "options": [
             {
               "key": "A",
@@ -1094,8 +1058,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "As Koziatek knows, there is learning in just about everything.",
-                "source_translation": "正如 Koziatek 所知，几乎所有事情都需要学习。",
+                "source_sentence": "The job security that the US economy once offered to high school graduates has largely evaporated.",
+                "source_translation": "美国经济曾经为高中毕业生提供的就业安全感在很大程度上已经化为乌有。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“强迫学生在一张贴满了几代人丢弃的口香糖的涂鸦桌子上学习几何，不一定会得到任何好处。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1111,9 +1075,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "As Koziatek knows, there is learning in just about everything.",
-                "source_translation": "正如 Koziatek 所知，几乎所有事情都需要学习。",
-                "locator_comparison": "选项核心词 <code>used</code>, <code>job</code>, <code>opportunities</code>（“曾经有更多的工作机会”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "The job security that the US economy once offered to high school graduates has largely evaporated.",
+                "source_translation": "美国经济曾经为高中毕业生提供的就业安全感在很大程度上已经化为乌有。",
+                "locator_comparison": "选项核心词 <code>used</code>, <code>job</code>, <code>opportunities</code>（“曾经有更多的工作机会”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“强迫学生在一张贴满了几代人丢弃的口香糖的涂鸦桌子上学习几何，不一定会得到任何好处。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：B正确。"
@@ -1128,8 +1092,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "As Koziatek knows, there is learning in just about everything.",
-                "source_translation": "正如 Koziatek 所知，几乎所有事情都需要学习。",
+                "source_sentence": "The job security that the US economy once offered to high school graduates has largely evaporated.",
+                "source_translation": "美国经济曾经为高中毕业生提供的就业安全感在很大程度上已经化为乌有。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“强迫学生在一张贴满了几代人丢弃的口香糖的涂鸦桌子上学习几何，不一定会得到任何好处。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1145,8 +1109,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "As Koziatek knows, there is learning in just about everything.",
-                "source_translation": "正如 Koziatek 所知，几乎所有事情都需要学习。",
+                "source_sentence": "The job security that the US economy once offered to high school graduates has largely evaporated.",
+                "source_translation": "美国经济曾经为高中毕业生提供的就业安全感在很大程度上已经化为乌有。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“强迫学生在一张贴满了几代人丢弃的口香糖的涂鸦桌子上学习几何，不一定会得到任何好处。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1161,9 +1125,9 @@
           "stem": "The headlong push into bachelor’s degrees for all ______.",
           "stem_cn": "所有人都急于攻读学士学位。",
           "type": "词义/例证题",
-          "locate_pid": 3,
-          "locate_sentence": "But he’s also found a kind of insidious prejudice.",
-          "locate_sentence_cn": "但他也发现了一种阴险的偏见。",
+          "locate_pid": 5,
+          "locate_sentence": "But the headlong push into bachelor’s degrees for all—and the subtle devaluing of anything less—misses an important point: That’s not the only thing the American economy needs.",
+          "locate_sentence_cn": "但是，盲目推动所有人去读学士学位——以及对低于该学位的文凭的隐性贬低——忽视了重要的一点：那并不是美国经济唯一需要的东西。",
           "options": [
             {
               "key": "A",
@@ -1174,8 +1138,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "But he’s also found a kind of insidious prejudice.",
-                "source_translation": "但他也发现了一种阴险的偏见。",
+                "source_sentence": "But the headlong push into bachelor’s degrees for all—and the subtle devaluing of anything less—misses an important point: That’s not the only thing the American economy needs.",
+                "source_translation": "但是，盲目推动所有人去读学士学位——以及对低于该学位的文凭的隐性贬低——忽视了重要的一点：那并不是美国经济唯一需要的东西。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“用手工作几乎被视为自卑的标志。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1191,8 +1155,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "But he’s also found a kind of insidious prejudice.",
-                "source_translation": "但他也发现了一种阴险的偏见。",
+                "source_sentence": "But the headlong push into bachelor’s degrees for all—and the subtle devaluing of anything less—misses an important point: That’s not the only thing the American economy needs.",
+                "source_translation": "但是，盲目推动所有人去读学士学位——以及对低于该学位的文凭的隐性贬低——忽视了重要的一点：那并不是美国经济唯一需要的东西。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“用手工作几乎被视为自卑的标志。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1208,8 +1172,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "But he’s also found a kind of insidious prejudice.",
-                "source_translation": "但他也发现了一种阴险的偏见。",
+                "source_sentence": "But the headlong push into bachelor’s degrees for all—and the subtle devaluing of anything less—misses an important point: That’s not the only thing the American economy needs.",
+                "source_translation": "但是，盲目推动所有人去读学士学位——以及对低于该学位的文凭的隐性贬低——忽视了重要的一点：那并不是美国经济唯一需要的东西。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“用手工作几乎被视为自卑的标志。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1225,9 +1189,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "But he’s also found a kind of insidious prejudice.",
-                "source_translation": "但他也发现了一种阴险的偏见。",
-                "locator_comparison": "选项核心词 <code>indicates</code>, <code>overvaluing</code>, <code>higher</code>（“表明高等教育的价值被高估”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "But the headlong push into bachelor’s degrees for all—and the subtle devaluing of anything less—misses an important point: That’s not the only thing the American economy needs.",
+                "source_translation": "但是，盲目推动所有人去读学士学位——以及对低于该学位的文凭的隐性贬低——忽视了重要的一点：那并不是美国经济唯一需要的东西。",
+                "locator_comparison": "选项核心词 <code>indicates</code>, <code>overvaluing</code>, <code>higher</code>（“表明高等教育的价值被高估”）准确概括了原文第 6 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“用手工作几乎被视为自卑的标志。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：D正确。"
@@ -1241,9 +1205,9 @@
           "stem": "The author’s attitude toward Koziatek’s school can be described as ______.",
           "stem_cn": "作者对Koziatek学校的态度可以用______来形容。",
           "type": "全文主旨题",
-          "locate_pid": 4,
-          "locate_sentence": "On one hand, that viewpoint is a logical product of America’s evolution.",
-          "locate_sentence_cn": "一方面，这种观点是美国发展的逻辑产物。",
+          "locate_pid": 7,
+          "locate_sentence": "Koziatek’s school is a wake-up call. When education becomes one-size-fits-all, it risks overlooking a nation’s diversity of gifts.",
+          "locate_sentence_cn": "科齐亚泰克的学校是一记警钟。当教育变成“一刀切”的模式时，就有可能忽视一个国家所拥有的多元才能。",
           "options": [
             {
               "key": "A",
@@ -1254,9 +1218,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "On one hand, that viewpoint is a logical product of America’s evolution.",
-                "source_translation": "一方面，这种观点是美国发展的逻辑产物。",
-                "locator_comparison": "选项核心词 <code>supportive</code>（“支持的”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "Koziatek’s school is a wake-up call. When education becomes one-size-fits-all, it risks overlooking a nation’s diversity of gifts.",
+                "source_translation": "科齐亚泰克的学校是一记警钟。当教育变成“一刀切”的模式时，就有可能忽视一个国家所拥有的多元才能。",
+                "locator_comparison": "选项核心词 <code>supportive</code>（“支持的”）准确概括了原文第 8 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“制造业不再像以前那样是经济引擎。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：A正确。"
@@ -1271,8 +1235,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "On one hand, that viewpoint is a logical product of America’s evolution.",
-                "source_translation": "一方面，这种观点是美国发展的逻辑产物。",
+                "source_sentence": "Koziatek’s school is a wake-up call. When education becomes one-size-fits-all, it risks overlooking a nation’s diversity of gifts.",
+                "source_translation": "科齐亚泰克的学校是一记警钟。当教育变成“一刀切”的模式时，就有可能忽视一个国家所拥有的多元才能。",
                 "locator_comparison": "选项声称“宽容”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“制造业不再像以前那样是经济引擎。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1288,8 +1252,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "On one hand, that viewpoint is a logical product of America’s evolution.",
-                "source_translation": "一方面，这种观点是美国发展的逻辑产物。",
+                "source_sentence": "Koziatek’s school is a wake-up call. When education becomes one-size-fits-all, it risks overlooking a nation’s diversity of gifts.",
+                "source_translation": "科齐亚泰克的学校是一记警钟。当教育变成“一刀切”的模式时，就有可能忽视一个国家所拥有的多元才能。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“制造业不再像以前那样是经济引擎。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1305,8 +1269,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "On one hand, that viewpoint is a logical product of America’s evolution.",
-                "source_translation": "一方面，这种观点是美国发展的逻辑产物。",
+                "source_sentence": "Koziatek’s school is a wake-up call. When education becomes one-size-fits-all, it risks overlooking a nation’s diversity of gifts.",
+                "source_translation": "科齐亚泰克的学校是一记警钟。当教育变成“一刀切”的模式时，就有可能忽视一个国家所拥有的多元才能。",
                 "locator_comparison": "选项声称“谨慎”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“制造业不再像以前那样是经济引擎。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1320,11 +1284,14 @@
       "macro_logic": {
         "main_theme": "本文围绕 It is curious that Stephen Koziatek feels almost a... 展开深入客观的逻辑论述。",
         "logic_chain": [
-          "第1段：奇怪的是，史蒂芬·科齐亚泰克似乎觉得他必须证明自己为给学生一...",
-          "第2段：Koziatek 先生是开创性事业的一部分。他是新罕布什尔州...",
-          "第3段：正如 Koziatek 所知，几乎所有事情都需要学习。强迫学...",
-          "第4段：但他也发现了一种阴险的偏见。用手工作几乎被视为自卑的标志。他...",
-          "第5段：一方面，这种观点是美国发展的逻辑产物。制造业不再像以前那样是..."
+          "第1段：引出科齐亚泰克先生及其致力于为学生创造更美好未来的教学初衷。",
+          "第2段：指出其实践教学模式的开创性，质疑重理论轻实践的传统教育观念。",
+          "第3段：强调万物皆可学习，通过组装自行车等实践同样能够掌握几何等知识。",
+          "第4段：指出社会对职业教育存在深刻偏见，常将其贬低为学业不佳者的退路。",
+          "第5段：分析偏见产生的历史背景：美国制造业变迁导致高中学历保障大幅缩水。",
+          "第6段：批判盲目推崇全员本科学位，指出美国经济大量需要中等技能工人。",
+          "第7段：提出解决劳动力技能断层的方法：通过科技高中等职业教育填补缺口。",
+          "第8段：总结呼吁：一刀切的教育模式会扼杀国家多元人才天赋，需引起警醒。"
         ]
       },
       "writing_corpus": [
@@ -2105,9 +2072,9 @@
           "stem": "The word “plummeting” (Paragraph 2) is closest in meaning to _______.",
           "stem_cn": "“直线下降”（第 2 段）一词的含义最接近_______。",
           "type": "事实细节题",
-          "locate_pid": 0,
-          "locate_sentence": "While fossil fuels—coal, oil, gas—still generate roughly 85 percent of the world’s energy supply, it’s clearer than ever that the future belongs to renewable sources such as wind and solar.",
-          "locate_sentence_cn": "尽管化石燃料（煤炭、石油、天然气）仍占世界能源供应的约 85%，但比以往任何时候都更加清楚的是，未来属于风能和太阳能等可再生能源。",
+          "locate_pid": 1,
+          "locate_sentence": "But increasingly the story is about the plummeting prices of renewables, especially wind and solar.",
+          "locate_sentence_cn": "但越来越多的情况是关于可再生能源价格的骤降，尤其是风能和太阳能。",
           "options": [
             {
               "key": "A",
@@ -2118,8 +2085,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "While fossil fuels—coal, oil, gas—still generate roughly 85 percent of the world’s energy supply, it’s clearer than ever that the future belongs to renewable sources such as wind and solar.",
-                "source_translation": "尽管化石燃料（煤炭、石油、天然气）仍占世界能源供应的约 85%，但比以往任何时候都更加清楚的是，未来属于风能和太阳能等可再生能源。",
+                "source_sentence": "But increasingly the story is about the plummeting prices of renewables, especially wind and solar.",
+                "source_translation": "但越来越多的情况是关于可再生能源价格的骤降，尤其是风能和太阳能。",
                 "locator_comparison": "选项声称“上升”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“全球范围内向可再生能源转型的势头正在增强：目前，可再生能源占新增发电电源的一半以上。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2135,9 +2102,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "While fossil fuels—coal, oil, gas—still generate roughly 85 percent of the world’s energy supply, it’s clearer than ever that the future belongs to renewable sources such as wind and solar.",
-                "source_translation": "尽管化石燃料（煤炭、石油、天然气）仍占世界能源供应的约 85%，但比以往任何时候都更加清楚的是，未来属于风能和太阳能等可再生能源。",
-                "locator_comparison": "选项核心词 <code>falling</code>（“坠落”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "But increasingly the story is about the plummeting prices of renewables, especially wind and solar.",
+                "source_translation": "但越来越多的情况是关于可再生能源价格的骤降，尤其是风能和太阳能。",
+                "locator_comparison": "选项核心词 <code>falling</code>（“坠落”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“全球范围内向可再生能源转型的势头正在增强：目前，可再生能源占新增发电电源的一半以上。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：B正确。"
@@ -2152,8 +2119,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "While fossil fuels—coal, oil, gas—still generate roughly 85 percent of the world’s energy supply, it’s clearer than ever that the future belongs to renewable sources such as wind and solar.",
-                "source_translation": "尽管化石燃料（煤炭、石油、天然气）仍占世界能源供应的约 85%，但比以往任何时候都更加清楚的是，未来属于风能和太阳能等可再生能源。",
+                "source_sentence": "But increasingly the story is about the plummeting prices of renewables, especially wind and solar.",
+                "source_translation": "但越来越多的情况是关于可再生能源价格的骤降，尤其是风能和太阳能。",
                 "locator_comparison": "借用了原文的词汇 <code>changing</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“全球范围内向可再生能源转型的势头正在增强：目前，可再生能源占新增发电电源的一半以上。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2169,8 +2136,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "While fossil fuels—coal, oil, gas—still generate roughly 85 percent of the world’s energy supply, it’s clearer than ever that the future belongs to renewable sources such as wind and solar.",
-                "source_translation": "尽管化石燃料（煤炭、石油、天然气）仍占世界能源供应的约 85%，但比以往任何时候都更加清楚的是，未来属于风能和太阳能等可再生能源。",
+                "source_sentence": "But increasingly the story is about the plummeting prices of renewables, especially wind and solar.",
+                "source_translation": "但越来越多的情况是关于可再生能源价格的骤降，尤其是风能和太阳能。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“全球范围内向可再生能源转型的势头正在增强：目前，可再生能源占新增发电电源的一半以上。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2185,9 +2152,9 @@
           "stem": "According to Paragraph 3, the use of renewable energy in America _______.",
           "stem_cn": "根据第 3 段，美国可再生能源的使用_______。",
           "type": "因果推断题",
-          "locate_pid": 1,
-          "locate_sentence": "Some growth stems from a commitment by governments and farsighted businesses to fund cleaner energy sources.",
-          "locate_sentence_cn": "一些增长源于政府和有远见的企业为清洁能源提供资金的承诺。",
+          "locate_pid": 2,
+          "locate_sentence": "In March, for the first time, wind and solar power accounted for more than 10 percent of the power generated in the US, reported the US Energy Information Administration.",
+          "locate_sentence_cn": "据美国能源信息署报告，今年3月，风能和太阳能发电量首次占到美国总发电量的10%以上。",
           "options": [
             {
               "key": "A",
@@ -2198,8 +2165,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Some growth stems from a commitment by governments and farsighted businesses to fund cleaner energy sources.",
-                "source_translation": "一些增长源于政府和有远见的企业为清洁能源提供资金的承诺。",
+                "source_sentence": "In March, for the first time, wind and solar power accounted for more than 10 percent of the power generated in the US, reported the US Energy Information Administration.",
+                "source_translation": "据美国能源信息署报告，今年3月，风能和太阳能发电量首次占到美国总发电量的10%以上。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“但越来越多的故事是关于可再生能源价格暴跌的，尤其是风能和太阳能。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2215,9 +2182,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Some growth stems from a commitment by governments and farsighted businesses to fund cleaner energy sources.",
-                "source_translation": "一些增长源于政府和有远见的企业为清洁能源提供资金的承诺。",
-                "locator_comparison": "选项核心词 <code>progressing</code>, <code>notably</code>（“正在显着进步”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "In March, for the first time, wind and solar power accounted for more than 10 percent of the power generated in the US, reported the US Energy Information Administration.",
+                "source_translation": "据美国能源信息署报告，今年3月，风能和太阳能发电量首次占到美国总发电量的10%以上。",
+                "locator_comparison": "选项核心词 <code>progressing</code>, <code>notably</code>（“正在显着进步”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“但越来越多的故事是关于可再生能源价格暴跌的，尤其是风能和太阳能。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：B正确。"
@@ -2232,8 +2199,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Some growth stems from a commitment by governments and farsighted businesses to fund cleaner energy sources.",
-                "source_translation": "一些增长源于政府和有远见的企业为清洁能源提供资金的承诺。",
+                "source_sentence": "In March, for the first time, wind and solar power accounted for more than 10 percent of the power generated in the US, reported the US Energy Information Administration.",
+                "source_translation": "据美国能源信息署报告，今年3月，风能和太阳能发电量首次占到美国总发电量的10%以上。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“但越来越多的故事是关于可再生能源价格暴跌的，尤其是风能和太阳能。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2249,8 +2216,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Some growth stems from a commitment by governments and farsighted businesses to fund cleaner energy sources.",
-                "source_translation": "一些增长源于政府和有远见的企业为清洁能源提供资金的承诺。",
+                "source_sentence": "In March, for the first time, wind and solar power accounted for more than 10 percent of the power generated in the US, reported the US Energy Information Administration.",
+                "source_translation": "据美国能源信息署报告，今年3月，风能和太阳能发电量首次占到美国总发电量的10%以上。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“但越来越多的故事是关于可再生能源价格暴跌的，尤其是风能和太阳能。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2265,9 +2232,9 @@
           "stem": "It can be learned that in Iowa, _______.",
           "stem_cn": "据了解，在爱荷华州，_______。",
           "type": "段落推理题",
-          "locate_pid": 2,
-          "locate_sentence": "In many parts of the world renewable energy is already a principal energy source.",
-          "locate_sentence_cn": "在世界许多地方，可再生能源已经成为主要能源。",
+          "locate_pid": 3,
+          "locate_sentence": "But that message did not play well with many in Iowa, where wind turbines dot the fields and provide 36 percent of the state’s electricity generation—and where tech giants like Microsoft are being attracted by the availability of clean energy to power their data centers.",
+          "locate_sentence_cn": "但这一言论在爱荷华州并未受到广泛欢迎，那里的风力发电机遍布田野，提供了该州36%的发电量——而且微软等科技巨头正被清洁能源的可用性所吸引，用其为数据中心供电。",
           "options": [
             {
               "key": "A",
@@ -2278,8 +2245,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "In many parts of the world renewable energy is already a principal energy source.",
-                "source_translation": "在世界许多地方，可再生能源已经成为主要能源。",
+                "source_sentence": "But that message did not play well with many in Iowa, where wind turbines dot the fields and provide 36 percent of the state’s electricity generation—and where tech giants like Microsoft are being attracted by the availability of clean energy to power their data centers.",
+                "source_translation": "但这一言论在爱荷华州并未受到广泛欢迎，那里的风力发电机遍布田野，提供了该州36%的发电量——而且微软等科技巨头正被清洁能源的可用性所吸引，用其为数据中心供电。",
                 "locator_comparison": "借用了原文的词汇 <code>wind</code>, <code>energy</code>, <code>has</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“例如，在苏格兰，风力涡轮机提供的电力足以为 95% 的家庭供电。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2295,8 +2262,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "In many parts of the world renewable energy is already a principal energy source.",
-                "source_translation": "在世界许多地方，可再生能源已经成为主要能源。",
+                "source_sentence": "But that message did not play well with many in Iowa, where wind turbines dot the fields and provide 36 percent of the state’s electricity generation—and where tech giants like Microsoft are being attracted by the availability of clean energy to power their data centers.",
+                "source_translation": "但这一言论在爱荷华州并未受到广泛欢迎，那里的风力发电机遍布田野，提供了该州36%的发电量——而且微软等科技巨头正被清洁能源的可用性所吸引，用其为数据中心供电。",
                 "locator_comparison": "选项声称“清洁能源供应短缺”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“例如，在苏格兰，风力涡轮机提供的电力足以为 95% 的家庭供电。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2312,8 +2279,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "In many parts of the world renewable energy is already a principal energy source.",
-                "source_translation": "在世界许多地方，可再生能源已经成为主要能源。",
+                "source_sentence": "But that message did not play well with many in Iowa, where wind turbines dot the fields and provide 36 percent of the state’s electricity generation—and where tech giants like Microsoft are being attracted by the availability of clean energy to power their data centers.",
+                "source_translation": "但这一言论在爱荷华州并未受到广泛欢迎，那里的风力发电机遍布田野，提供了该州36%的发电量——而且微软等科技巨头正被清洁能源的可用性所吸引，用其为数据中心供电。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“例如，在苏格兰，风力涡轮机提供的电力足以为 95% 的家庭供电。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2329,9 +2296,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "In many parts of the world renewable energy is already a principal energy source.",
-                "source_translation": "在世界许多地方，可再生能源已经成为主要能源。",
-                "locator_comparison": "选项核心词 <code>wind</code>, <code>widely</code>, <code>used</code>（“风是一种广泛使用的能源”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "But that message did not play well with many in Iowa, where wind turbines dot the fields and provide 36 percent of the state’s electricity generation—and where tech giants like Microsoft are being attracted by the availability of clean energy to power their data centers.",
+                "source_translation": "但这一言论在爱荷华州并未受到广泛欢迎，那里的风力发电机遍布田野，提供了该州36%的发电量——而且微软等科技巨头正被清洁能源的可用性所吸引，用其为数据中心供电。",
+                "locator_comparison": "选项核心词 <code>wind</code>, <code>widely</code>, <code>used</code>（“风是一种广泛使用的能源”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“例如，在苏格兰，风力涡轮机提供的电力足以为 95% 的家庭供电。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：D正确。"
@@ -2345,9 +2312,9 @@
           "stem": "Which of the following is true about clean energy according to Paragraphs 5 & 6?",
           "stem_cn": "根据第 5 段和第 6 段，以下关于清洁能源的说法哪一项是正确的？",
           "type": "词义/例证题",
-          "locate_pid": 3,
-          "locate_sentence": "President Trump has underlined fossil fuels—especially coal—as the path to economic growth.",
-          "locate_sentence_cn": "特朗普总统强调化石燃料（尤其是煤炭）是经济增长的途径。",
+          "locate_pid": 5,
+          "locate_sentence": "The advance is driven in part by vehicle manufacturers, who are placing big bets on battery-powered electric vehicles.",
+          "locate_sentence_cn": "这一进展部分是由汽车制造商推动的，他们正对电池驱动的电动汽车下重注。",
           "options": [
             {
               "key": "A",
@@ -2358,8 +2325,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "President Trump has underlined fossil fuels—especially coal—as the path to economic growth.",
-                "source_translation": "特朗普总统强调化石燃料（尤其是煤炭）是经济增长的途径。",
+                "source_sentence": "The advance is driven in part by vehicle manufacturers, who are placing big bets on battery-powered electric vehicles.",
+                "source_translation": "这一进展部分是由汽车制造商推动的，他们正对电池驱动的电动汽车下重注。",
                 "locator_comparison": "选项声称“它的应用提高了电池存储能力。”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“最近在爱荷华州的一次演讲中，他认为风力发电是一种不可靠的能源。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2375,8 +2342,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "President Trump has underlined fossil fuels—especially coal—as the path to economic growth.",
-                "source_translation": "特朗普总统强调化石燃料（尤其是煤炭）是经济增长的途径。",
+                "source_sentence": "The advance is driven in part by vehicle manufacturers, who are placing big bets on battery-powered electric vehicles.",
+                "source_translation": "这一进展部分是由汽车制造商推动的，他们正对电池驱动的电动汽车下重注。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“最近在爱荷华州的一次演讲中，他认为风力发电是一种不可靠的能源。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2392,9 +2359,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "President Trump has underlined fossil fuels—especially coal—as the path to economic growth.",
-                "source_translation": "特朗普总统强调化石燃料（尤其是煤炭）是经济增长的途径。",
-                "locator_comparison": "选项核心词 <code>Its</code>, <code>continuous</code>, <code>supply</code>（“其持续供应正在成为现实。”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "The advance is driven in part by vehicle manufacturers, who are placing big bets on battery-powered electric vehicles.",
+                "source_translation": "这一进展部分是由汽车制造商推动的，他们正对电池驱动的电动汽车下重注。",
+                "locator_comparison": "选项核心词 <code>Its</code>, <code>continuous</code>, <code>supply</code>（“其持续供应正在成为现实。”）准确概括了原文第 6 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“最近在爱荷华州的一次演讲中，他认为风力发电是一种不可靠的能源。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：C正确。"
@@ -2409,8 +2376,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "President Trump has underlined fossil fuels—especially coal—as the path to economic growth.",
-                "source_translation": "特朗普总统强调化石燃料（尤其是煤炭）是经济增长的途径。",
+                "source_sentence": "The advance is driven in part by vehicle manufacturers, who are placing big bets on battery-powered electric vehicles.",
+                "source_translation": "这一进展部分是由汽车制造商推动的，他们正对电池驱动的电动汽车下重注。",
                 "locator_comparison": "选项声称“其可持续开采仍将困难重重。”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“最近在爱荷华州的一次演讲中，他认为风力发电是一种不可靠的能源。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2425,9 +2392,9 @@
           "stem": "It can be inferred from the last paragraph that renewable energy _______.",
           "stem_cn": "从上一段可以推断，可再生能源_______。",
           "type": "全文主旨题",
-          "locate_pid": 4,
-          "locate_sentence": "The question “what happens when the wind doesn’t blow or the sun doesn’t shine?” has provided a quick put-down for skeptics.",
-          "locate_sentence_cn": "“当风不吹或阳光不照时会发生什么？”这个问题。很快就让怀疑者失望了。",
+          "locate_pid": 6,
+          "locate_sentence": "What Washington does—or doesn’t do—to promote alternative energy may mean less and less at a time of a global shift in thought.",
+          "locate_sentence_cn": "在这一全球思维转变的时代，华盛顿在推广替代能源方面做了什么——或没做什么——可能变得越来越无足轻重。",
           "options": [
             {
               "key": "A",
@@ -2438,9 +2405,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The question “what happens when the wind doesn’t blow or the sun doesn’t shine?” has provided a quick put-down for skeptics.",
-                "source_translation": "“当风不吹或阳光不照时会发生什么？”这个问题。很快就让怀疑者失望了。",
-                "locator_comparison": "选项核心词 <code>not</code>, <code>really</code>, <code>encouraged</code>（“美国政府并没有真正鼓励”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "What Washington does—or doesn’t do—to promote alternative energy may mean less and less at a time of a global shift in thought.",
+                "source_translation": "在这一全球思维转变的时代，华盛顿在推广替代能源方面做了什么——或没做什么——可能变得越来越无足轻重。",
+                "locator_comparison": "选项核心词 <code>not</code>, <code>really</code>, <code>encouraged</code>（“美国政府并没有真正鼓励”）准确概括了原文第 7 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“但电池存储容量的提高使得它们更有可能保持全天候供电。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：A正确。"
@@ -2455,8 +2422,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "The question “what happens when the wind doesn’t blow or the sun doesn’t shine?” has provided a quick put-down for skeptics.",
-                "source_translation": "“当风不吹或阳光不照时会发生什么？”这个问题。很快就让怀疑者失望了。",
+                "source_sentence": "What Washington does—or doesn’t do—to promote alternative energy may mean less and less at a time of a global shift in thought.",
+                "source_translation": "在这一全球思维转变的时代，华盛顿在推广替代能源方面做了什么——或没做什么——可能变得越来越无足轻重。",
                 "locator_comparison": "选项声称“在成本方面缺乏足够的竞争力”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“但电池存储容量的提高使得它们更有可能保持全天候供电。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2472,8 +2439,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "The question “what happens when the wind doesn’t blow or the sun doesn’t shine?” has provided a quick put-down for skeptics.",
-                "source_translation": "“当风不吹或阳光不照时会发生什么？”这个问题。很快就让怀疑者失望了。",
+                "source_sentence": "What Washington does—or doesn’t do—to promote alternative energy may mean less and less at a time of a global shift in thought.",
+                "source_translation": "在这一全球思维转变的时代，华盛顿在推广替代能源方面做了什么——或没做什么——可能变得越来越无足轻重。",
                 "locator_comparison": "选项声称“将拉近美国与其他国家的距离”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“但电池存储容量的提高使得它们更有可能保持全天候供电。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2489,8 +2456,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "The question “what happens when the wind doesn’t blow or the sun doesn’t shine?” has provided a quick put-down for skeptics.",
-                "source_translation": "“当风不吹或阳光不照时会发生什么？”这个问题。很快就让怀疑者失望了。",
+                "source_sentence": "What Washington does—or doesn’t do—to promote alternative energy may mean less and less at a time of a global shift in thought.",
+                "source_translation": "在这一全球思维转变的时代，华盛顿在推广替代能源方面做了什么——或没做什么——可能变得越来越无足轻重。",
                 "locator_comparison": "借用了原文的词汇 <code>accelerate</code>, <code>global</code>, <code>environmental</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“但电池存储容量的提高使得它们更有可能保持全天候供电。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2504,11 +2471,13 @@
       "macro_logic": {
         "main_theme": "本文围绕 While fossil fuels—coal, oil, gas—still generate r... 展开深入客观的逻辑论述。",
         "logic_chain": [
-          "第1段：尽管化石燃料（煤炭、石油、天然气）仍占世界能源供应的约 85...",
-          "第2段：一些增长源于政府和有远见的企业为清洁能源提供资金的承诺。但越...",
-          "第3段：在世界许多地方，可再生能源已经成为主要能源。例如，在苏格兰，...",
-          "第4段：特朗普总统强调化石燃料（尤其是煤炭）是经济增长的途径。最近在...",
-          "第5段：“当风不吹或阳光不照时会发生什么？”这个问题。很快就让怀疑者..."
+          "第1段：指出尽管化石燃料仍占主导，但全球向风能和太阳能等可再生能源转型的势头迅猛。",
+          "第2段：说明除了政府和企业投资，风能和太阳能设备成本的断崖式暴跌是核心驱动力。",
+          "第3段：列举全球及美国可再生能源的发展态势，美国风光发电占比首次突破10%。",
+          "第4段：对比特朗普重振煤炭政策在爱荷华州的遇冷，凸显清洁能源已深入地方经济与科技产业。",
+          "第5段：指出电池储能技术的突破有效缓解了风能太阳能间歇性供电的传统质疑。",
+          "第6段：说明汽车巨头对电动汽车电池的大规模押注将进一步加速清洁能源革命。",
+          "第7段：总结全球向清洁能源的不可逆转变趋势，指出联邦层面的消极作为已难以阻挡时代浪潮。"
         ]
       },
       "writing_corpus": [
@@ -3105,8 +3074,8 @@
           "stem_cn": "根据第 1 段，Facebook 因其 ______ 收购了 WhatsApp。",
           "type": "事实细节题",
           "locate_pid": 0,
-          "locate_sentence": "The power and ambition of the giants of the digital economy is astonishing—Amazon has just announced the purchase of the upmarket grocery chain Whole Foods for $13.5bn, but two years ago Facebook paid even more than that to acquire the WhatsApp messaging service, which doesn’t have any physical product at all.",
-          "locate_sentence_cn": "数字经济巨头的力量和野心令人震惊——亚马逊刚刚宣布以 135 亿美元收购高档杂货连锁店 Whole Foods，但两年前 Facebook 斥资甚至更高的价格收购了根本没有任何实体产品的 WhatsApp 消息服务。",
+          "locate_sentence": "What WhatsApp offered Facebook was an intricate and finely detailed web of its users’ friendships and social lives.",
+          "locate_sentence_cn": "WhatsApp 为 Facebook 提供的是其用户错综复杂且极其详尽的友谊与社交生活网络。",
           "options": [
             {
               "key": "A",
@@ -3117,8 +3086,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "The power and ambition of the giants of the digital economy is astonishing—Amazon has just announced the purchase of the upmarket grocery chain Whole Foods for $13.5bn, but two years ago Facebook paid even more than that to acquire the WhatsApp messaging service, which doesn’t have any physical product at all.",
-                "source_translation": "数字经济巨头的力量和野心令人震惊——亚马逊刚刚宣布以 135 亿美元收购高档杂货连锁店 Whole Foods，但两年前 Facebook 斥资甚至更高的价格收购了根本没有任何实体产品的 WhatsApp 消息服务。",
+                "source_sentence": "What WhatsApp offered Facebook was an intricate and finely detailed web of its users’ friendships and social lives.",
+                "source_translation": "WhatsApp 为 Facebook 提供的是其用户错综复杂且极其详尽的友谊与社交生活网络。",
                 "locator_comparison": "选项声称“数码产品”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“WhatsApp 为 Facebook 提供的是一个复杂而细致的网络，记录了用户的友谊和社交生活。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3134,8 +3103,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "The power and ambition of the giants of the digital economy is astonishing—Amazon has just announced the purchase of the upmarket grocery chain Whole Foods for $13.5bn, but two years ago Facebook paid even more than that to acquire the WhatsApp messaging service, which doesn’t have any physical product at all.",
-                "source_translation": "数字经济巨头的力量和野心令人震惊——亚马逊刚刚宣布以 135 亿美元收购高档杂货连锁店 Whole Foods，但两年前 Facebook 斥资甚至更高的价格收购了根本没有任何实体产品的 WhatsApp 消息服务。",
+                "source_sentence": "What WhatsApp offered Facebook was an intricate and finely detailed web of its users’ friendships and social lives.",
+                "source_translation": "WhatsApp 为 Facebook 提供的是其用户错综复杂且极其详尽的友谊与社交生活网络。",
                 "locator_comparison": "借用了原文的词汇 <code>quality</code>, <code>service</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“WhatsApp 为 Facebook 提供的是一个复杂而细致的网络，记录了用户的友谊和社交生活。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3151,8 +3120,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "The power and ambition of the giants of the digital economy is astonishing—Amazon has just announced the purchase of the upmarket grocery chain Whole Foods for $13.5bn, but two years ago Facebook paid even more than that to acquire the WhatsApp messaging service, which doesn’t have any physical product at all.",
-                "source_translation": "数字经济巨头的力量和野心令人震惊——亚马逊刚刚宣布以 135 亿美元收购高档杂货连锁店 Whole Foods，但两年前 Facebook 斥资甚至更高的价格收购了根本没有任何实体产品的 WhatsApp 消息服务。",
+                "source_sentence": "What WhatsApp offered Facebook was an intricate and finely detailed web of its users’ friendships and social lives.",
+                "source_translation": "WhatsApp 为 Facebook 提供的是其用户错综复杂且极其详尽的友谊与社交生活网络。",
                 "locator_comparison": "选项声称“有形资产”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“WhatsApp 为 Facebook 提供的是一个复杂而细致的网络，记录了用户的友谊和社交生活。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3168,8 +3137,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The power and ambition of the giants of the digital economy is astonishing—Amazon has just announced the purchase of the upmarket grocery chain Whole Foods for $13.5bn, but two years ago Facebook paid even more than that to acquire the WhatsApp messaging service, which doesn’t have any physical product at all.",
-                "source_translation": "数字经济巨头的力量和野心令人震惊——亚马逊刚刚宣布以 135 亿美元收购高档杂货连锁店 Whole Foods，但两年前 Facebook 斥资甚至更高的价格收购了根本没有任何实体产品的 WhatsApp 消息服务。",
+                "source_sentence": "What WhatsApp offered Facebook was an intricate and finely detailed web of its users’ friendships and social lives.",
+                "source_translation": "WhatsApp 为 Facebook 提供的是其用户错综复杂且极其详尽的友谊与社交生活网络。",
                 "locator_comparison": "选项核心词 <code>user</code>, <code>information</code>（“用户信息”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“WhatsApp 为 Facebook 提供的是一个复杂而细致的网络，记录了用户的友谊和社交生活。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -3185,8 +3154,8 @@
           "stem_cn": "将电话号码与 Facebook 身份相关联可能会______。",
           "type": "因果推断题",
           "locate_pid": 1,
-          "locate_sentence": "Facebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke the promise almost as soon as the deal went through.",
-          "locate_sentence_cn": "Facebook 当时向欧盟委员会承诺，不会将电话号码与 Facebook 身份关联起来，但交易一完成，它就违背了承诺。",
+          "locate_sentence": "Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still could be.",
+          "locate_sentence_cn": "即便不知道信息的内容，得知谁给谁发送了信息也是极具揭示性的，而且至今依然如此。",
           "options": [
             {
               "key": "A",
@@ -3197,8 +3166,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Facebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke the promise almost as soon as the deal went through.",
-                "source_translation": "Facebook 当时向欧盟委员会承诺，不会将电话号码与 Facebook 身份关联起来，但交易一完成，它就违背了承诺。",
+                "source_sentence": "Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still could be.",
+                "source_translation": "即便不知道信息的内容，得知谁给谁发送了信息也是极具揭示性的，而且至今依然如此。",
                 "locator_comparison": "选项核心词 <code>pose</code>, <code>risk</code>, <code>Facebook</code>（“对 Facebook 用户构成风险”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“即使不知道消息中的内容，了解消息的发送者和收件人也具有很大的启发性，而且仍然可能具有启发性。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -3214,8 +3183,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Facebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke the promise almost as soon as the deal went through.",
-                "source_translation": "Facebook 当时向欧盟委员会承诺，不会将电话号码与 Facebook 身份关联起来，但交易一完成，它就违背了承诺。",
+                "source_sentence": "Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still could be.",
+                "source_translation": "即便不知道信息的内容，得知谁给谁发送了信息也是极具揭示性的，而且至今依然如此。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“即使不知道消息中的内容，了解消息的发送者和收件人也具有很大的启发性，而且仍然可能具有启发性。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3231,8 +3200,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Facebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke the promise almost as soon as the deal went through.",
-                "source_translation": "Facebook 当时向欧盟委员会承诺，不会将电话号码与 Facebook 身份关联起来，但交易一完成，它就违背了承诺。",
+                "source_sentence": "Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still could be.",
+                "source_translation": "即便不知道信息的内容，得知谁给谁发送了信息也是极具揭示性的，而且至今依然如此。",
                 "locator_comparison": "借用了原文的词汇 <code>worsen</code>, <code>political</code>, <code>disputes</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“即使不知道消息中的内容，了解消息的发送者和收件人也具有很大的启发性，而且仍然可能具有启发性。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3248,8 +3217,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Facebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke the promise almost as soon as the deal went through.",
-                "source_translation": "Facebook 当时向欧盟委员会承诺，不会将电话号码与 Facebook 身份关联起来，但交易一完成，它就违背了承诺。",
+                "source_sentence": "Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still could be.",
+                "source_translation": "即便不知道信息的内容，得知谁给谁发送了信息也是极具揭示性的，而且至今依然如此。",
                 "locator_comparison": "借用了原文的词汇 <code>mess</code>, <code>customer</code>, <code>records</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“即使不知道消息中的内容，了解消息的发送者和收件人也具有很大的启发性，而且仍然可能具有启发性。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3265,8 +3234,8 @@
           "stem_cn": "据作者称，竞争法______。",
           "type": "段落推理题",
           "locate_pid": 2,
-          "locate_sentence": "Competition law appears to be the only way to address these imbalances of power.",
-          "locate_sentence_cn": "竞争法似乎是解决这些权力失衡的唯一途径。",
+          "locate_sentence": "Competition law appears to be the only way to address these imbalances of power. But it is clumsy.",
+          "locate_sentence_cn": "竞争法似乎是解决这些权力失衡的唯一途径。但它却显得笨拙低效。",
           "options": [
             {
               "key": "A",
@@ -3277,8 +3246,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Competition law appears to be the only way to address these imbalances of power.",
-                "source_translation": "竞争法似乎是解决这些权力失衡的唯一途径。",
+                "source_sentence": "Competition law appears to be the only way to address these imbalances of power. But it is clumsy.",
+                "source_translation": "竞争法似乎是解决这些权力失衡的唯一途径。但它却显得笨拙低效。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“但它很笨拙。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3294,8 +3263,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Competition law appears to be the only way to address these imbalances of power.",
-                "source_translation": "竞争法似乎是解决这些权力失衡的唯一途径。",
+                "source_sentence": "Competition law appears to be the only way to address these imbalances of power. But it is clumsy.",
+                "source_translation": "竞争法似乎是解决这些权力失衡的唯一途径。但它却显得笨拙低效。",
                 "locator_comparison": "借用了原文的词汇 <code>may</code>, <code>worsen</code>, <code>economic</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“但它很笨拙。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3311,8 +3280,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Competition law appears to be the only way to address these imbalances of power.",
-                "source_translation": "竞争法似乎是解决这些权力失衡的唯一途径。",
+                "source_sentence": "Competition law appears to be the only way to address these imbalances of power. But it is clumsy.",
+                "source_translation": "竞争法似乎是解决这些权力失衡的唯一途径。但它却显得笨拙低效。",
                 "locator_comparison": "选项核心词 <code>cannot</code>, <code>keep</code>, <code>pace</code>（“无法跟上不断变化的市场步伐”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“但它很笨拙。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -3328,8 +3297,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Competition law appears to be the only way to address these imbalances of power.",
-                "source_translation": "竞争法似乎是解决这些权力失衡的唯一途径。",
+                "source_sentence": "Competition law appears to be the only way to address these imbalances of power. But it is clumsy.",
+                "source_translation": "竞争法似乎是解决这些权力失衡的唯一途径。但它却显得笨拙低效。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“但它很笨拙。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3344,9 +3313,9 @@
           "stem": "Competition law as presently interpreted can hardly protect Facebook users because \n______.",
           "stem_cn": "Competition law as presently interpreted can hardly protect Facebook users because \n______.",
           "type": "词义/例证题",
-          "locate_pid": 3,
-          "locate_sentence": "The product they’re selling is data, and we, the users, convert our lives to data for the benefit of the digital giants.",
-          "locate_sentence_cn": "他们销售的产品是数据，而我们用户将我们的生活转化为数据，以造福数字巨头。",
+          "locate_pid": 2,
+          "locate_sentence": "Competition law as presently interpreted deals with financial disadvantage to consumers and this is not obvious when the users of these services don’t pay for them.",
+          "locate_sentence_cn": "目前所诠释的竞争法处理的是消费者遭受的经济损失，而当这些服务的用户无需为此付费时，这种损失就并不明显。",
           "options": [
             {
               "key": "A",
@@ -3357,8 +3326,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "The product they’re selling is data, and we, the users, convert our lives to data for the benefit of the digital giants.",
-                "source_translation": "他们销售的产品是数据，而我们用户将我们的生活转化为数据，以造福数字巨头。",
+                "source_sentence": "Competition law as presently interpreted deals with financial disadvantage to consumers and this is not obvious when the users of these services don’t pay for them.",
+                "source_translation": "目前所诠释的竞争法处理的是消费者遭受的经济损失，而当这些服务的用户无需为此付费时，这种损失就并不明显。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“正如一些蚂蚁养殖蚜虫是为了获取它们进食时产生的蜜露一样，谷歌养殖我们是为了我们的数字生活产生的数据。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3374,9 +3343,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The product they’re selling is data, and we, the users, convert our lives to data for the benefit of the digital giants.",
-                "source_translation": "他们销售的产品是数据，而我们用户将我们的生活转化为数据，以造福数字巨头。",
-                "locator_comparison": "选项核心词 <code>are</code>, <code>not</code>, <code>defined</code>（“他们不被定义为客户”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "Competition law as presently interpreted deals with financial disadvantage to consumers and this is not obvious when the users of these services don’t pay for them.",
+                "source_translation": "目前所诠释的竞争法处理的是消费者遭受的经济损失，而当这些服务的用户无需为此付费时，这种损失就并不明显。",
+                "locator_comparison": "选项核心词 <code>are</code>, <code>not</code>, <code>defined</code>（“他们不被定义为客户”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“正如一些蚂蚁养殖蚜虫是为了获取它们进食时产生的蜜露一样，谷歌养殖我们是为了我们的数字生活产生的数据。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：B正确。"
@@ -3391,8 +3360,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "The product they’re selling is data, and we, the users, convert our lives to data for the benefit of the digital giants.",
-                "source_translation": "他们销售的产品是数据，而我们用户将我们的生活转化为数据，以造福数字巨头。",
+                "source_sentence": "Competition law as presently interpreted deals with financial disadvantage to consumers and this is not obvious when the users of these services don’t pay for them.",
+                "source_translation": "目前所诠释的竞争法处理的是消费者遭受的经济损失，而当这些服务的用户无需为此付费时，这种损失就并不明显。",
                 "locator_comparison": "借用了原文的词汇 <code>services</code>, <code>are</code>, <code>generally</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“正如一些蚂蚁养殖蚜虫是为了获取它们进食时产生的蜜露一样，谷歌养殖我们是为了我们的数字生活产生的数据。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3408,8 +3377,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "The product they’re selling is data, and we, the users, convert our lives to data for the benefit of the digital giants.",
-                "source_translation": "他们销售的产品是数据，而我们用户将我们的生活转化为数据，以造福数字巨头。",
+                "source_sentence": "Competition law as presently interpreted deals with financial disadvantage to consumers and this is not obvious when the users of these services don’t pay for them.",
+                "source_translation": "目前所诠释的竞争法处理的是消费者遭受的经济损失，而当这些服务的用户无需为此付费时，这种损失就并不明显。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“正如一些蚂蚁养殖蚜虫是为了获取它们进食时产生的蜜露一样，谷歌养殖我们是为了我们的数字生活产生的数据。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3425,8 +3394,8 @@
           "stem_cn": "蚂蚁的比喻用来说明______。",
           "type": "全文主旨题",
           "locate_pid": 3,
-          "locate_sentence": "The product they’re selling is data, and we, the users, convert our lives to data for the benefit of the digital giants.",
-          "locate_sentence_cn": "他们销售的产品是数据，而我们用户将我们的生活转化为数据，以造福数字巨头。",
+          "locate_sentence": "Just as some ants farm the bugs called aphids for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield.",
+          "locate_sentence_cn": "正如某些蚂蚁饲养蚜虫以获取其进食时分泌的蜜露一样，谷歌也在“饲养”我们，以获取我们数字生活所产生的数据。",
           "options": [
             {
               "key": "A",
@@ -3437,8 +3406,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "The product they’re selling is data, and we, the users, convert our lives to data for the benefit of the digital giants.",
-                "source_translation": "他们销售的产品是数据，而我们用户将我们的生活转化为数据，以造福数字巨头。",
+                "source_sentence": "Just as some ants farm the bugs called aphids for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield.",
+                "source_translation": "正如某些蚂蚁饲养蚜虫以获取其进食时分泌的蜜露一样，谷歌也在“饲养”我们，以获取我们数字生活所产生的数据。",
                 "locator_comparison": "选项声称“数字巨头之间的典型竞争格局”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“正如一些蚂蚁养殖蚜虫是为了获取它们进食时产生的蜜露一样，谷歌养殖我们是为了我们的数字生活产生的数据。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3454,8 +3423,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "The product they’re selling is data, and we, the users, convert our lives to data for the benefit of the digital giants.",
-                "source_translation": "他们销售的产品是数据，而我们用户将我们的生活转化为数据，以造福数字巨头。",
+                "source_sentence": "Just as some ants farm the bugs called aphids for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield.",
+                "source_translation": "正如某些蚂蚁饲养蚜虫以获取其进食时分泌的蜜露一样，谷歌也在“饲养”我们，以获取我们数字生活所产生的数据。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“正如一些蚂蚁养殖蚜虫是为了获取它们进食时产生的蜜露一样，谷歌养殖我们是为了我们的数字生活产生的数据。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3471,8 +3440,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "The product they’re selling is data, and we, the users, convert our lives to data for the benefit of the digital giants.",
-                "source_translation": "他们销售的产品是数据，而我们用户将我们的生活转化为数据，以造福数字巨头。",
+                "source_sentence": "Just as some ants farm the bugs called aphids for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield.",
+                "source_translation": "正如某些蚂蚁饲养蚜虫以获取其进食时分泌的蜜露一样，谷歌也在“饲养”我们，以获取我们数字生活所产生的数据。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“正如一些蚂蚁养殖蚜虫是为了获取它们进食时产生的蜜露一样，谷歌养殖我们是为了我们的数字生活产生的数据。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3488,8 +3457,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The product they’re selling is data, and we, the users, convert our lives to data for the benefit of the digital giants.",
-                "source_translation": "他们销售的产品是数据，而我们用户将我们的生活转化为数据，以造福数字巨头。",
+                "source_sentence": "Just as some ants farm the bugs called aphids for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield.",
+                "source_translation": "正如某些蚂蚁饲养蚜虫以获取其进食时分泌的蜜露一样，谷歌也在“饲养”我们，以获取我们数字生活所产生的数据。",
                 "locator_comparison": "选项核心词 <code>relationship</code>, <code>between</code>, <code>digital</code>（“数字巨头与其用户之间的关系”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“正如一些蚂蚁养殖蚜虫是为了获取它们进食时产生的蜜露一样，谷歌养殖我们是为了我们的数字生活产生的数据。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -3503,10 +3472,10 @@
       "macro_logic": {
         "main_theme": "本文围绕 The power and ambition of the giants of the digita... 展开深入客观的逻辑论述。",
         "logic_chain": [
-          "第1段：数字经济巨头的力量和野心令人震惊——亚马逊刚刚宣布以 135...",
-          "第2段：Facebook 当时向欧盟委员会承诺，不会将电话号码与 F...",
-          "第3段：竞争法似乎是解决这些权力失衡的唯一途径。但它很笨拙。一方面，...",
-          "第4段：他们销售的产品是数据，而我们用户将我们的生活转化为数据，以造..."
+          "第1段：列举数字经济巨头巨额并购案例，揭示其本质是为了获取庞大的用户社交关系与数据网络。",
+          "第2段：揭露平台违背承诺关联用户数据，指出数据垄断带来的巨大商业与政治监控价值。",
+          "第3段：剖析现有反垄断竞争法在数字经济领域的局限性：反应迟缓且难以界定免费服务对消费者的损害。",
+          "第4段：运用“蚂蚁与蚜虫”的比喻，深刻揭示数字巨头将用户生活异化为数据原材料进行收割的非民主本质。"
         ]
       },
       "writing_corpus": [
@@ -3556,380 +3525,74 @@
         {
           "pid": 0,
           "text": "To combat the trap of putting a premium on being busy, Cal Newport, author of Deep Work: Rules for Focused Success in a Distracted World, recommends building a habit of “deep work”—the ability to focus without distraction.",
-          "translation": "为了摆脱过度忙碌的陷阱，《深度工作：分心世界中专注成功的规则》一书的作者卡尔·纽波特建议养成“深度工作”的习惯，即不分心地专注的能力。",
-          "slashed_text": "To combat the trap of putting a premium / on being busy , / Cal Newport , / author of Deep Work : / Rules / for Focused Success in a Distracted World , / recommends building a habit of “deep work” — / the ability to focus / without distraction.",
-          "chunk_translation": "为了避免陷入过分推崇 / 忙碌的陷阱， / 卡尔·纽波特， / 《深度工作： / 在受干扰的世界中 / 获得专注成功的法则》一书的作者， / 建议养成“深度工作”的习惯—— / 即全神贯注 / 且不受任何干扰的能力。",
-          "vocabulary": [
-            {
-              "word": "combat",
-              "pos": "n.",
-              "definition": "n. 战斗；搏斗"
-            },
-            {
-              "word": "trap",
-              "pos": "n.",
-              "definition": "n. （捕捉动物的）陷阱；网"
-            },
-            {
-              "word": "putting",
-              "pos": "n.",
-              "definition": "n. 投掷；（高尔夫球）打球入洞"
-            },
-            {
-              "word": "premium",
-              "pos": "n.",
-              "definition": "n. 保险费；（正常价格或费用以外的）加付款"
-            },
-            {
-              "word": "busy",
-              "pos": "adj.",
-              "definition": "adj. 繁忙的；忙碌的"
-            },
-            {
-              "word": "Newport",
-              "pos": "n.",
-              "definition": "n. 新港；纽波特（美国罗得岛之避暑胜地）"
-            },
-            {
-              "word": "author",
-              "pos": "n.",
-              "definition": "n. 作者；著者"
-            },
-            {
-              "word": "Deep",
-              "pos": "adj.",
-              "definition": "adj. 深的；厚的"
-            },
-            {
-              "word": "Work",
-              "pos": "n.",
-              "definition": "n. 工作；职业"
-            }
-          ]
+          "translation": "为了摆脱过度忙碌的陷阱，《深度工作：分心世界中专注成功的规则》的作者卡尔·纽波特建议养成“深度工作”的习惯——即在不受干扰的情况下专注工作的能力。",
+          "slashed_text": "To combat the trap of putting a premium on being busy , / Cal Newport , / author of Deep Work : / Rules for Focused Success in a Distracted World , / recommends building a habit of “deep work” — / the ability to focus without distraction.",
+          "chunk_translation": "为了摆脱过度重视忙碌的陷阱 / 卡尔·纽波特 / 《深度工作》的作者 / 《在分心世界中专注成功的规则》 / 建议培养“深度工作”的习惯—— / 即在不受干扰的情况下专注工作的能力。",
+          "vocabulary": []
         },
         {
           "pid": 1,
           "text": "There are a number of approaches to mastering the art of deep work—be it lengthy retreats dedicated to a specific task; developing a daily ritual; or taking a “journalistic” approach to seizing moments of deep work when you can throughout the day. Whichever approach, the key is to determine your length of focus time and stick to it.",
-          "translation": "掌握深度工作艺术的方法有很多种——可以是专门针对特定任务的长时间静修；也可以是长期静修。制定日常仪式；或者采取“新闻”的方式，抓住一天中可以进行深度工作的时刻。无论哪种方法，关键是确定你的专注时间长度并坚持下去。",
-          "slashed_text": "There are a number of approaches to mastering the art of deep work — / be it lengthy retreats dedicated to a specific task ; / developing a daily ritual ; / or taking a “journalistic” approach to seizing moments of deep work / when you can throughout the day. Whichever approach , / the key is to determine your length of focus time and stick to it.",
-          "chunk_translation": "掌握深度工作的艺术有多种途径—— / 无论为了某项特定任务进行长期的闭关专注； / 还是养成每日的固定作息惯例； / 抑或是采取像“新闻记者”那样的方法，在一天中随时 / 抓住一切可能的机会进行深度工作。 无论采取哪种方法， / 关键在于确定你的专注时长并坚持执行。",
-          "vocabulary": [
-            {
-              "word": "number",
-              "pos": "n.",
-              "definition": "n. 数字；编号"
-            },
-            {
-              "word": "approaches",
-              "pos": "v.",
-              "definition": "v. 靠近；临近"
-            },
-            {
-              "word": "mastering",
-              "pos": "n.",
-              "definition": "n. 精通；掌握"
-            },
-            {
-              "word": "deep",
-              "pos": "adj.",
-              "definition": "adj. 深的；厚的"
-            },
-            {
-              "word": "work",
-              "pos": "n.",
-              "definition": "n. 工作；职业"
-            },
-            {
-              "word": "lengthy",
-              "pos": "adj.",
-              "definition": "adj. 漫长的；长时间的"
-            },
-            {
-              "word": "retreats",
-              "pos": "v.",
-              "definition": "v. （retreat 的第三人称单数）撤退；后退"
-            },
-            {
-              "word": "dedicated",
-              "pos": "adj.",
-              "definition": "adj. 专心致志的；献身的"
-            },
-            {
-              "word": "specific",
-              "pos": "adj.",
-              "definition": "adj. 明确的；具体的"
-            }
-          ]
+          "translation": "掌握深度工作艺术的方法有很多——无论是在特定任务上进行长时间闭关，还是培养日常作息仪式，亦或是采取“新闻记者式”的方法在全天随时抓住深度工作的机会。无论采取哪种方法，关键在于确定你的专注时长并坚持下去。",
+          "slashed_text": "There are a number of approaches to mastering the art of deep work — / be it lengthy retreats dedicated to a specific task ; / developing a daily ritual ; / or taking a “journalistic” approach to seizing moments of deep work / when you can throughout the day. / Whichever approach , / the key is to determine your length of focus time and stick to it.",
+          "chunk_translation": "掌握深度工作艺术的方法有很多—— / 可以是专门针对特定任务的长时间静修； / 建立日常作息仪式； / 或者是采取“新闻记者式”的方法抓住深度工作的时刻 / 只要你在一天中有时间。 / 无论采取哪种方法 / 关键在于确定你的专注时长并坚持下去。",
+          "vocabulary": []
         },
         {
           "pid": 2,
           "text": "Newport also recommends “deep scheduling” to combat constant interruptions and get more done in less time. “At any given point, I should have deep work scheduled for roughly the next month. Once on the calendar, I protect this time like I would a doctor’s appointment or important meeting,” he writes.",
-          "translation": "纽波特还建议“深度调度”，以应对持续的干扰，并在更短的时间内完成更多工作。 “在任何特定的时间点，我都应该在大约下个月安排深度工作。一旦列入日历，我就会像对待医生的预约或重要会议一样保护这段时间，”他写道。",
-          "slashed_text": "Newport also recommends “deep scheduling” to combat constant interruptions and get more done / in less time. “At any given point , / I should have deep work scheduled / for roughly the next month. Once on the calendar , / I protect this time like I would a doctor’s appointment or important meeting , / ” he writes.",
-          "chunk_translation": "纽波特还建议采用“深度日程规划”来应对接连不断的干扰，从而在更短时间内 / 完成更多的工作。 “在任何时间点， / 我都应该把深度工作 / 安排好接下来大约一个月的时间。 一旦记入日程表， / 我就会像对待看医生预约或重要会议那样捍卫这段时间， / ”他写道。",
-          "vocabulary": [
-            {
-              "word": "Newport",
-              "pos": "n.",
-              "definition": "n. 新港；纽波特（美国罗得岛之避暑胜地）"
-            },
-            {
-              "word": "recommends",
-              "pos": "v.",
-              "definition": "v. recommend 的第三人称单数现在时形式：推荐；建议"
-            },
-            {
-              "word": "deep",
-              "pos": "adj.",
-              "definition": "adj. 深的；厚的"
-            },
-            {
-              "word": "scheduling",
-              "pos": "n.",
-              "definition": "n. 日程安排；时序安排"
-            },
-            {
-              "word": "combat",
-              "pos": "n.",
-              "definition": "n. 战斗；搏斗"
-            },
-            {
-              "word": "constant",
-              "pos": "adj.",
-              "definition": "adj. 持续不断的；经常发生的"
-            },
-            {
-              "word": "interruptions",
-              "pos": "n.",
-              "definition": "n. 中断；打断"
-            },
-            {
-              "word": "less",
-              "pos": "adv.",
-              "definition": "adv. 更少地；程度较低地"
-            },
-            {
-              "word": "time",
-              "pos": "n.",
-              "definition": "n. （以分钟、小时、天等计量的）时间；（钟表上的）时刻"
-            }
-          ]
+          "translation": "纽波特还建议进行“深度日程规划”以应对持续的干扰，从而在更短的时间内完成更多工作。他写道：“在任何给定的时间点，我都应该安排好大约接下来一个月的深度工作。一旦列入日程表，我就会像保护看病预约或重要会议一样保护这段时间。”",
+          "slashed_text": "Newport also recommends “deep scheduling” / to combat constant interruptions / and get more done in less time. / “At any given point , / I should have deep work scheduled for roughly the next month. / Once on the calendar , / I protect this time like I would a doctor’s appointment or important meeting , / ” he writes.",
+          "chunk_translation": "纽波特还建议“深度日程规划” / 以应对持续不断的干扰 / 并在更短的时间内完成更多工作。 / “在任何特定时刻 / 我都应该安排好大约未来一个月的深度工作。 / 一旦列入日程表 / 我就会像保护看病预约或重要会议一样保护这段时间 / ”他写道。",
+          "vocabulary": []
         },
         {
           "pid": 3,
-          "text": "Another approach to getting more done in less time is to rethink how you prioritize your day—in particular how we craft our to-do lists. Tim Harford, author of Messy: The Power of Disorder to Transform Our Lives, points to a study in the early 1980s that divided undergraduates into two groups: some were advised to set out monthly goals and study activities; others were told to plan activities and goals in much more detail, day by day. While the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of tasks, they were wrong: the detailed daily plans demotivated students. Harford argues that inevitable distractions often render the daily to-do list ineffective, while leaving room for improvisation in such a list can reap the best results. In order to make the most of our focus and energy, we also need to embrace downtime, or as Newport suggests, “be lazy.”",
-          "translation": "在更短的时间内完成更多工作的另一种方法是重新思考如何确定一天的优先顺序，特别是我们如何制定待办事项列表。 《凌乱：改变我们生活的混乱的力量》一书的作者蒂姆·哈福德指出，20世纪80年代初的一项研究将本科生分为两组：一些人被建议制定每月目标和学习活动；另一些人被建议制定每月目标和学习活动；另一些人被建议制定每月目标和学习活动；另一些人被建议制定每月目标和学习活动。其他人则被告知要日复一日地更详细地计划活动和目标。虽然研究人员认为结构良好的每日计划在执行任务时最有效，但他们错了：详细的每日计划会降低学生的积极性。哈福德认为，不可避免的干扰往往会使每日待办事项清单变得无效，而在这样的清单中留出即兴发挥的空间才能获得最佳结果。为了充分利用我们的注意力和精力，我们还需要接受休息时间，或者正如纽波特建议的那样，“变得懒惰”。",
-          "slashed_text": "Another approach to getting more done / in less time is to rethink how you prioritize your day — / in particular how we craft our to-do lists. Tim Harford , / author of Messy : / The Power of Disorder to Transform Our Lives , / points to a study in the early 1980s / that divided undergraduates into two groups : / some were advised to set out monthly goals and study activities ; / others were told to plan activities and goals / in much more detail , / day by day. / While the researchers assumed / that the well-structured daily plans would be most effective / when it came to the execution of tasks , / they were wrong : / the detailed daily plans demotivated students. Harford argues / that inevitable distractions often render the daily to-do list ineffective , / while leaving room / for improvisation / in such a list can reap the best results. / In order to make the most of our focus and energy , / we also need to embrace downtime , / or as Newport suggests , / “be lazy.”",
-          "chunk_translation": "在更短时间内完成更多任务的 / 另一种途径是重新思考如何安排一天事项的优先次序—— / 尤其是我们如何制定每日待办事项清单。 蒂姆·哈福德， / 《混乱： / 混乱力量如何改变我们的生活》一书的作者， / 指出了一项20世纪80年代初的研究， / 该研究将本科生分为两组： / 建议其中一组制定月度目标和学习活动； / 另一组则被要求 / 更加详细地按天规划各项活动和目标， / 逐日进行安排。 / 虽然研究人员起初设想 / 结构严密的每日计划会最为有效 / 在具体执行任务时， / 但他们错了： / 过于详尽的每日计划反而挫伤了学生的积极性。 哈福德指出 / 不可避免的干扰往往会使每日待办清单失去效用， / 而在这样的清单中 / 留出灵活应变的空间 / 却能够收获最佳成效。 / 为了最大限度地发挥我们的专注力和精力， / 我们还需要坦然接纳休息时间， / 或者正如纽波特所建议的那样， / “学会偷懒”。",
-          "vocabulary": [
-            {
-              "word": "approach",
-              "pos": "v.",
-              "definition": "v. 靠近；临近"
-            },
-            {
-              "word": "getting",
-              "pos": "v.",
-              "definition": "v. get 的现在分词：得到；获得"
-            },
-            {
-              "word": "less",
-              "pos": "adv.",
-              "definition": "adv. 更少地；程度较低地"
-            },
-            {
-              "word": "time",
-              "pos": "n.",
-              "definition": "n. （以分钟、小时、天等计量的）时间；（钟表上的）时刻"
-            },
-            {
-              "word": "rethink",
-              "pos": "v.",
-              "definition": "v. 重新考虑；再想"
-            },
-            {
-              "word": "prioritize",
-              "pos": "v.",
-              "definition": "v. 按优先顺序列出；优先考虑（处理）"
-            },
-            {
-              "word": "particular",
-              "pos": "adj.",
-              "definition": "adj. 特定的；某一的"
-            },
-            {
-              "word": "craft",
-              "pos": "n.",
-              "definition": "n. 工艺；手艺"
-            },
-            {
-              "word": "lists",
-              "pos": "n.",
-              "definition": "n. （历史）竞技场；比武场"
-            }
-          ]
+          "text": "Another approach to getting more done in less time is to rethink how you prioritize your day—in particular how we craft our to-do lists. Tim Harford, author of Messy: The Power of Disorder to Transform Our Lives, points to a study in the early 1980s that divided undergraduates into two groups: some were advised to set out monthly goals and study activities; others were told to plan activities and goals in much more detail, day by day.",
+          "translation": "在更短时间内完成更多工作的另一种方法是重新思考你如何安排一天的优先事项——尤其是我们如何制定待办事项清单。《混乱：改变我们生活的混乱力量》一书的作者蒂姆·哈福德指出了20世纪80年代初的一项研究，该研究将本科生分为两组：一组被建议设定月度目标和学习活动；另一组则被要求逐日更详细地规划活动和目标。",
+          "slashed_text": "Another approach to getting more done in less time / is to rethink how you prioritize your day — / in particular how we craft our to-do lists. / Tim Harford , / author of Messy : / The Power of Disorder to Transform Our Lives , / points to a study in the early 1980s that divided undergraduates into two groups : / some were advised to set out monthly goals and study activities ; / others were told to plan activities and goals in much more detail , / day by day.",
+          "chunk_translation": "在更短时间内完成更多工作的另一种方法 / 是重新思考你如何安排一天的优先事项—— / 特别是我们如何制定待办事项清单。 / 蒂姆·哈福德 / 《混乱》的作者 / 《改变我们生活的混乱力量》 / 指出了一项20世纪80年代初将本科生分为两组的研究： / 一组被建议制定月度目标和学习活动； / 另一组被告知要逐日制定详细得多的活动和目标 / 日复一日。",
+          "vocabulary": []
         },
         {
           "pid": 4,
-          "text": "“Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ... [idleness] is, paradoxically, necessary to getting any work done,” he argues.",
-          "translation": "“无所事事不仅仅是一种度假、一种放纵或一种恶习；它对于大脑来说就像维生素 D 对于身体一样不可或缺……矛盾的是，[无所事事]却是完成任何工作所必需的，”他辩称。",
-          "slashed_text": "“Idleness is not just a vacation , / an indulgence or a vice ; / it is as indispensable to the brain as Vitamin D is to the body ... [idleness] is , / paradoxically , / necessary to getting any work done , / ” he argues.",
-          "chunk_translation": "“闲暇不仅是一种度假、 / 一种放纵或一种恶习； / 它对于大脑而言，就像维生素D对于身体一样不可或缺…… 闲暇 / 看似矛盾的是， / 却是顺利完成任何工作的必要前提， / ”他主张道。",
-          "vocabulary": [
-            {
-              "word": "Idleness",
-              "pos": "n.",
-              "definition": "n. 懒惰；懒散"
-            },
-            {
-              "word": "vacation",
-              "pos": "n.",
-              "definition": "n. （学校的）假期；（法院的）休庭期"
-            },
-            {
-              "word": "indulgence",
-              "pos": "n.",
-              "definition": "n. 沉溺；沉迷"
-            },
-            {
-              "word": "vice",
-              "pos": "n.",
-              "definition": "n. 堕落；邪恶"
-            },
-            {
-              "word": "indispensable",
-              "pos": "adj.",
-              "definition": "adj. 不可或缺的；必需的"
-            },
-            {
-              "word": "brain",
-              "pos": "n.",
-              "definition": "n. 脑；智力"
-            },
-            {
-              "word": "Vitamin",
-              "pos": "n.",
-              "definition": "n. 维生素；维他命"
-            },
-            {
-              "word": "body",
-              "pos": "n.",
-              "definition": "n. 身体；躯体"
-            },
-            {
-              "word": "paradoxically",
-              "pos": "adv.",
-              "definition": "adv. 自相矛盾地；似是而非地"
-            }
-          ]
+          "text": "While the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of tasks, they were wrong: the detailed daily plans demotivated students. Harford argues that inevitable distractions often render the daily to-do list ineffective, while leaving room for improvisation in such a list can reap the best results.",
+          "translation": "虽然研究人员原本假设结构良好的每日计划在执行任务时最有效，但他们错了：详尽的每日计划反而挫伤了学生的积极性。哈福德认为，不可避免的干扰往往导致每日待办清单失效，而在这样的清单中留出即兴发挥的空间往往能收获最佳效果。",
+          "slashed_text": "While the researchers assumed / that the well-structured daily plans would be most effective / when it came to the execution of tasks , / they were wrong : / the detailed daily plans demotivated students. / Harford argues that inevitable distractions often render the daily to-do list ineffective , / while leaving room for improvisation in such a list can reap the best results.",
+          "chunk_translation": "虽然研究人员原本假定 / 结构良好的每日计划在执行任务时最有效 / 当涉及任务执行时 / 但他们错了： / 过于详细的每日计划反而挫伤了学生的积极性。 / 哈福德认为，不可避免的干扰往往会导致每日待办清单失效 / 而在清单中留出即兴发挥的空间往往能带来最佳效果。",
+          "vocabulary": []
         },
         {
           "pid": 5,
-          "text": "Srini Pillay, an assistant professor of psychiatry at Harvard Medical School, believes this counterintuitive link between downtime and productivity may be due to the way our brains operate. When our brains switch between being focused and unfocused on a task, they tend to be more efficient.",
-          "translation": "哈佛医学院精神病学助理教授斯里尼·皮莱 (Srini Pillay) 认为，停机时间和生产力之间这种违反直觉的联系可能是由于我们大脑的运作方式造成的。当我们的大脑在专注和不专注于某项任务之间切换时，它们往往会更有效率。",
-          "slashed_text": "Srini Pillay , / an assistant professor of psychiatry / at Harvard Medical School , / believes this counterintuitive link between downtime and productivity may be due to the way our brains operate. / When our brains switch between being focused and unfocused on a task , / they tend to be more efficient.",
-          "chunk_translation": "斯里尼·皮莱， / 精神病学助理教授 / 任职于哈佛大学医学院， / 认为休息与生产力之间这种反直觉的联系，可能是由我们大脑的运转方式决定的。 / 当我们的大脑在专注于任务与不专注之间自如切换时， / 往往会具有更高的效率。",
-          "vocabulary": [
-            {
-              "word": "due to",
-              "pos": "n.",
-              "definition": "由于；因为"
-            },
-            {
-              "word": "Srini",
-              "pos": "n.",
-              "definition": "n. （Srinivasan）人名；（印、尼）斯里尼瓦桑"
-            },
-            {
-              "word": "Pillay",
-              "pos": "n.",
-              "definition": "皮莱（人名）"
-            },
-            {
-              "word": "assistant",
-              "pos": "n.",
-              "definition": "n. 助理；助手"
-            },
-            {
-              "word": "professor",
-              "pos": "n.",
-              "definition": "n. 教授；（大学的）讲师"
-            },
-            {
-              "word": "psychiatry",
-              "pos": "n.",
-              "definition": "n. 精神病学；精神病治疗学"
-            },
-            {
-              "word": "Medical",
-              "pos": "adj.",
-              "definition": "adj. 医学的；医疗的"
-            },
-            {
-              "word": "School",
-              "pos": "n.",
-              "definition": "n. （中、小）学校；全校师生"
-            },
-            {
-              "word": "believes",
-              "pos": "v.",
-              "definition": "v. 认为；相信"
-            }
-          ]
+          "text": "In order to make the most of our focus and energy, we also need to embrace downtime, or as Newport suggests, “be lazy.”",
+          "translation": "为了充分利用我们的专注力和精力，我们还需要拥抱停歇时间，或者正如纽波特所建议的那样，“学会偷懒”。",
+          "slashed_text": "In order to make the most of our focus and energy , / we also need to embrace downtime , / or as Newport suggests , / “be lazy.”",
+          "chunk_translation": "为了充分利用我们的专注力和精力 / 我们还需要拥抱停歇时间 / 或者正如纽波特建议的那样 / “学会偷懒”。",
+          "vocabulary": []
         },
         {
           "pid": 6,
+          "text": "“Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ... [idleness] is, paradoxically, necessary to getting any work done,” he argues.",
+          "translation": "他辩称：“闲暇不仅仅是度假、放纵或恶习；它对大脑的重要性就像维生素D对身体一样必不可少……矛盾的是，[闲暇]对于完成任何工作都是必需的。”",
+          "slashed_text": "“Idleness is not just a vacation , / an indulgence or a vice ; / it is as indispensable to the brain as Vitamin D is to the body ... / [idleness] is , / paradoxically , / necessary to getting any work done , / ” he argues.",
+          "chunk_translation": "“闲暇不仅仅是一种假期 / 一种放纵或一种恶习； / 它对大脑而言，就像维生素D对身体一样必不可少…… / 闲暇 / 看似矛盾的是 / 却是完成任何工作的必要前提 / ”他主张道。",
+          "vocabulary": []
+        },
+        {
+          "pid": 7,
+          "text": "Srini Pillay, an assistant professor of psychiatry at Harvard Medical School, believes this counterintuitive link between downtime and productivity may be due to the way our brains operate. When our brains switch between being focused and unfocused on a task, they tend to be more efficient.",
+          "translation": "哈佛医学院精神病学助理教授斯里尼·皮莱认为，休息与生产力之间这种反直觉的联系可能是由于我们大脑的运作方式造成的。当我们的大脑在专注于某项任务与不专注之间切换时，往往效率更高。",
+          "slashed_text": "Srini Pillay , / an assistant professor of psychiatry / at Harvard Medical School , / believes this counterintuitive link between downtime and productivity may be due to the way our brains operate. / When our brains switch between being focused and unfocused on a task , / they tend to be more efficient.",
+          "chunk_translation": "斯里尼·皮莱 / 精神病学助理教授 / 任职于哈佛医学院 / 认为休息与生产力之间这种反直觉的联系可能是由大脑的运作方式决定的。 / 当我们的大脑在专注于任务与不专注之间切换时 / 往往具有更高的效率。",
+          "vocabulary": []
+        },
+        {
+          "pid": 8,
           "text": "“What people don’t realise is that in order to complete these tasks they need to use both the focus and unfocus circuits in their brain,” says Pillay.",
-          "translation": "“人们没有意识到，为了完成这些任务，他们需要同时使用大脑中的聚焦和散焦回路，”皮莱说。",
-          "slashed_text": "“What people don’t realise is / that / in order to complete these tasks they need to use both the focus and unfocus circuits / in their brain , / ” says Pillay.",
-          "chunk_translation": "“人们没有意识到的是， / 为了 / 完成这些任务，他们需要同时运用大脑中的专注回路和非专注回路， / 在他们的大脑之中， / ”皮莱说。",
-          "vocabulary": [
-            {
-              "word": "realise",
-              "pos": "vt.",
-              "definition": "vt. （英国英语拼写；同 realize）认识到"
-            },
-            {
-              "word": "order",
-              "pos": "n.",
-              "definition": "n. 顺序；次序"
-            },
-            {
-              "word": "complete",
-              "pos": "adj.",
-              "definition": "adj. 完全的；彻底的"
-            },
-            {
-              "word": "tasks",
-              "pos": "n.",
-              "definition": "n. （task 的复数）（尤指困难的或必须定期做的）工作；任务"
-            },
-            {
-              "word": "need",
-              "pos": "v.",
-              "definition": "v. 需要；（表示应该或不得不做）有必要"
-            },
-            {
-              "word": "focus",
-              "pos": "n.",
-              "definition": "n. 重点；中心点"
-            },
-            {
-              "word": "unfocus",
-              "pos": "vt.",
-              "definition": "vt. 使……变得模糊；使……看不清"
-            },
-            {
-              "word": "circuits",
-              "pos": "n.",
-              "definition": "n. （电子）电路（circuit 的复数）；环路"
-            },
-            {
-              "word": "brain",
-              "pos": "n.",
-              "definition": "n. 脑；智力"
-            }
-          ]
+          "translation": "皮莱说：“人们没有意识到的是，为了完成这些任务，他们需要同时运用大脑中的专注回路和非专注回路。”",
+          "slashed_text": "“What people don’t realise is / that in order to complete these tasks they need to use both the focus and unfocus circuits in their brain , / ” says Pillay.",
+          "chunk_translation": "“人们没有意识到的是 / 为了完成这些任务，他们需要同时运用大脑中的专注回路和非专注回路 / ”皮莱说。",
+          "vocabulary": []
         }
       ],
       "sentences": [
@@ -4079,8 +3742,8 @@
         },
         {
           "sid": 8,
-          "pid": 3,
-          "sentence_index": 2,
+          "pid": 4,
+          "sentence_index": 0,
           "text": "While the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of tasks, they were wrong: the detailed daily plans demotivated students.",
           "translation": "虽然研究人员认为结构良好的每日计划在执行任务时最有效，但他们错了：详细的每日计划会降低学生的积极性。",
           "slashed_text": "/ While the researchers assumed / that the well-structured daily plans would be most effective / when it came to the execution of tasks , / they were wrong : / the detailed daily plans demotivated students.",
@@ -4102,8 +3765,8 @@
         },
         {
           "sid": 9,
-          "pid": 3,
-          "sentence_index": 3,
+          "pid": 4,
+          "sentence_index": 1,
           "text": "Harford argues that inevitable distractions often render the daily to-do list ineffective, while leaving room for improvisation in such a list can reap the best results.",
           "translation": "哈福德认为，不可避免的干扰往往会使每日待办事项清单变得无效，而在这样的清单中留出即兴发挥的空间才能获得最佳结果。",
           "slashed_text": "Harford argues / that inevitable distractions often render the daily to-do list ineffective , / while leaving room / for improvisation / in such a list can reap the best results.",
@@ -4125,8 +3788,8 @@
         },
         {
           "sid": 10,
-          "pid": 3,
-          "sentence_index": 4,
+          "pid": 5,
+          "sentence_index": 0,
           "text": "In order to make the most of our focus and energy, we also need to embrace downtime, or as Newport suggests, “be lazy.”",
           "translation": "为了充分利用我们的注意力和精力，我们还需要接受休息时间，或者正如纽波特建议的那样，“变得懒惰”。",
           "slashed_text": "/ In order to make the most of our focus and energy , / we also need to embrace downtime , / or as Newport suggests , / “be lazy.”",
@@ -4143,43 +3806,25 @@
         },
         {
           "sid": 11,
-          "pid": 4,
+          "pid": 6,
           "sentence_index": 0,
-          "text": "“Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ...",
-          "translation": "“无所事事不仅仅是一种度假、一种放纵或一种恶习；它对于大脑来说就像维生素 D 对于身体一样不可或缺......",
-          "slashed_text": "“Idleness is not just a vacation , / an indulgence or a vice ; / it is as indispensable to the brain as Vitamin D is to the body ...",
-          "chunk_translation": "“闲暇不仅是一种度假、 / 一种放纵或一种恶习； / 它对于大脑而言，就像维生素D对于身体一样不可或缺……",
+          "text": "“Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ... [idleness] is, paradoxically, necessary to getting any work done,” he argues.",
+          "translation": "他辩称：“闲暇不仅仅是度假、放纵或恶习；它对大脑的重要性就像维生素D对身体一样必不可少……矛盾的是，[闲暇]对于完成任何工作都是必需的。”",
+          "slashed_text": "“Idleness is not just a vacation , / an indulgence or a vice ; / it is as indispensable to the brain as Vitamin D is to the body ... / [idleness] is , / paradoxically , / necessary to getting any work done , / ” he argues.",
+          "chunk_translation": "“闲暇不仅仅是一种假期 / 一种放纵或一种恶习； / 它对大脑而言，就像维生素D对身体一样必不可少…… / 闲暇 / 看似矛盾的是 / 却是完成任何工作的必要前提 / ”他主张道。",
           "syntax": {
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "“Idleness is not just a vacation, an indulgence or a vice; i...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ...",
+                "explanation": "全句由分号连接两个并列分句，包含 not just... 结构和 as... as... 同级比较。"
               }
             ]
           }
         },
         {
           "sid": 12,
-          "pid": 4,
-          "sentence_index": 1,
-          "text": "[idleness] is, paradoxically, necessary to getting any work done,” he argues.",
-          "translation": "矛盾的是，[无所事事]对于完成任何工作都是必要的，”他辩称。",
-          "slashed_text": "[idleness] is , / paradoxically , / necessary to getting any work done , / ” he argues.",
-          "chunk_translation": "闲暇 / 看似矛盾的是， / 却是顺利完成任何工作的必要前提， / ”他主张道。",
-          "syntax": {
-            "breakdown": [
-              {
-                "type": "主干剖析",
-                "content": "[idleness] is, paradoxically, necessary to getting any work ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
-              }
-            ]
-          }
-        },
-        {
-          "sid": 13,
-          "pid": 5,
+          "pid": 7,
           "sentence_index": 0,
           "text": "Srini Pillay, an assistant professor of psychiatry at Harvard Medical School, believes this counterintuitive link between downtime and productivity may be due to the way our brains operate.",
           "translation": "哈佛医学院精神病学助理教授斯里尼·皮莱 (Srini Pillay) 认为，停机时间和生产力之间这种违反直觉的联系可能是由于我们大脑的运作方式造成的。",
@@ -4196,8 +3841,8 @@
           }
         },
         {
-          "sid": 14,
-          "pid": 5,
+          "sid": 13,
+          "pid": 7,
           "sentence_index": 1,
           "text": "When our brains switch between being focused and unfocused on a task, they tend to be more efficient.",
           "translation": "当我们的大脑在专注和不专注于某项任务之间切换时，它们往往会更有效率。",
@@ -4214,8 +3859,8 @@
           }
         },
         {
-          "sid": 15,
-          "pid": 6,
+          "sid": 14,
+          "pid": 8,
           "sentence_index": 0,
           "text": "“What people don’t realise is that in order to complete these tasks they need to use both the focus and unfocus circuits in their brain,” says Pillay.",
           "translation": "“人们没有意识到，为了完成这些任务，他们需要同时使用大脑中的聚焦和散焦回路，”皮莱说。",
@@ -4238,9 +3883,9 @@
           "stem": "The key to mastering the art of deep work is to ______.",
           "stem_cn": "掌握深度工作艺术的关键是______。",
           "type": "事实细节题",
-          "locate_pid": 0,
-          "locate_sentence": "To combat the trap of putting a premium on being busy, Cal Newport, author of Deep Work: Rules for Focused Success in a Distracted World, recommends building a habit of “deep work”—the ability to focus without distraction.",
-          "locate_sentence_cn": "为了摆脱过度忙碌的陷阱，《深度工作：分心世界中专注成功的规则》一书的作者卡尔·纽波特建议养成“深度工作”的习惯，即不分心地专注的能力。",
+          "locate_pid": 1,
+          "locate_sentence": "Whichever approach, the key is to determine your length of focus time and stick to it.",
+          "locate_sentence_cn": "无论采取哪种方法，关键在于确定你的专注时长并坚持下去。",
           "options": [
             {
               "key": "A",
@@ -4251,8 +3896,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "To combat the trap of putting a premium on being busy, Cal Newport, author of Deep Work: Rules for Focused Success in a Distracted World, recommends building a habit of “deep work”—the ability to focus without distraction.",
-                "source_translation": "为了摆脱过度忙碌的陷阱，《深度工作：分心世界中专注成功的规则》一书的作者卡尔·纽波特建议养成“深度工作”的习惯，即不分心地专注的能力。",
+                "source_sentence": "Whichever approach, the key is to determine your length of focus time and stick to it.",
+                "source_translation": "无论采取哪种方法，关键在于确定你的专注时长并坚持下去。",
                 "locator_comparison": "借用了原文的词汇 <code>list</code>, <code>immediate</code>, <code>tasks</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“There are a number of approaches to mastering the art of deep work—be it lengthy retreats dedicated to a specific task; developing a daily ritual; or taking a “journalistic” approach to seizing moments of deep work when you can throughout the day”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4268,8 +3913,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "To combat the trap of putting a premium on being busy, Cal Newport, author of Deep Work: Rules for Focused Success in a Distracted World, recommends building a habit of “deep work”—the ability to focus without distraction.",
-                "source_translation": "为了摆脱过度忙碌的陷阱，《深度工作：分心世界中专注成功的规则》一书的作者卡尔·纽波特建议养成“深度工作”的习惯，即不分心地专注的能力。",
+                "source_sentence": "Whichever approach, the key is to determine your length of focus time and stick to it.",
+                "source_translation": "无论采取哪种方法，关键在于确定你的专注时长并坚持下去。",
                 "locator_comparison": "选项声称“制定具体的每日计划”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“There are a number of approaches to mastering the art of deep work—be it lengthy retreats dedicated to a specific task; developing a daily ritual; or taking a “journalistic” approach to seizing moments of deep work when you can throughout the day”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4285,9 +3930,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "To combat the trap of putting a premium on being busy, Cal Newport, author of Deep Work: Rules for Focused Success in a Distracted World, recommends building a habit of “deep work”—the ability to focus without distraction.",
-                "source_translation": "为了摆脱过度忙碌的陷阱，《深度工作：分心世界中专注成功的规则》一书的作者卡尔·纽波特建议养成“深度工作”的习惯，即不分心地专注的能力。",
-                "locator_comparison": "选项核心词 <code>keep</code>, <code>focus</code>, <code>time</code>（“保持专注时间”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "Whichever approach, the key is to determine your length of focus time and stick to it.",
+                "source_translation": "无论采取哪种方法，关键在于确定你的专注时长并坚持下去。",
+                "locator_comparison": "选项核心词 <code>keep</code>, <code>focus</code>, <code>time</code>（“保持专注时间”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“There are a number of approaches to mastering the art of deep work—be it lengthy retreats dedicated to a specific task; developing a daily ritual; or taking a “journalistic” approach to seizing moments of deep work when you can throughout the day”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：C正确。"
@@ -4302,8 +3947,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "To combat the trap of putting a premium on being busy, Cal Newport, author of Deep Work: Rules for Focused Success in a Distracted World, recommends building a habit of “deep work”—the ability to focus without distraction.",
-                "source_translation": "为了摆脱过度忙碌的陷阱，《深度工作：分心世界中专注成功的规则》一书的作者卡尔·纽波特建议养成“深度工作”的习惯，即不分心地专注的能力。",
+                "source_sentence": "Whichever approach, the key is to determine your length of focus time and stick to it.",
+                "source_translation": "无论采取哪种方法，关键在于确定你的专注时长并坚持下去。",
                 "locator_comparison": "借用了原文的词汇 <code>seize</code>, <code>every</code>, <code>minute</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“There are a number of approaches to mastering the art of deep work—be it lengthy retreats dedicated to a specific task; developing a daily ritual; or taking a “journalistic” approach to seizing moments of deep work when you can throughout the day”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4318,9 +3963,9 @@
           "stem": "The study in the early 1980s cited by Harford shows that ______.\nᆇี൫ज@JOEE ༯໶\n\n07",
           "stem_cn": "The study in the early 1980s cited by Harford shows that ______.\nᆇี൫ज@JOEE ༯໶\n\n07",
           "type": "因果推断题",
-          "locate_pid": 1,
-          "locate_sentence": "There are a number of approaches to mastering the art of deep work—be it lengthy retreats dedicated to a specific task; developing a daily ritual; or taking a “journalistic” approach to seizing moments of deep work when you can throughout the day.",
-          "locate_sentence_cn": "掌握深度工作艺术的方法有很多种——可以是专门针对特定任务的长时间静修；也可以是长期静修。制定日常仪式；或者采取“新闻”的方式，抓住一天中可以进行深度工作的时刻。",
+          "locate_pid": 4,
+          "locate_sentence": "While the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of tasks, they were wrong: the detailed daily plans demotivated students.",
+          "locate_sentence_cn": "虽然研究人员原本假设结构良好的每日计划在执行任务时最有效，但他们错了：详尽的每日计划反而挫伤了学生的积极性。",
           "options": [
             {
               "key": "A",
@@ -4331,8 +3976,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "There are a number of approaches to mastering the art of deep work—be it lengthy retreats dedicated to a specific task; developing a daily ritual; or taking a “journalistic” approach to seizing moments of deep work when you can throughout the day.",
-                "source_translation": "掌握深度工作艺术的方法有很多种——可以是专门针对特定任务的长时间静修；也可以是长期静修。制定日常仪式；或者采取“新闻”的方式，抓住一天中可以进行深度工作的时刻。",
+                "source_sentence": "While the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of tasks, they were wrong: the detailed daily plans demotivated students.",
+                "source_translation": "虽然研究人员原本假设结构良好的每日计划在执行任务时最有效，但他们错了：详尽的每日计划反而挫伤了学生的积极性。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“无论哪种方法，关键是确定你的专注时间长度并坚持下去。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4348,8 +3993,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "There are a number of approaches to mastering the art of deep work—be it lengthy retreats dedicated to a specific task; developing a daily ritual; or taking a “journalistic” approach to seizing moments of deep work when you can throughout the day.",
-                "source_translation": "掌握深度工作艺术的方法有很多种——可以是专门针对特定任务的长时间静修；也可以是长期静修。制定日常仪式；或者采取“新闻”的方式，抓住一天中可以进行深度工作的时刻。",
+                "source_sentence": "While the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of tasks, they were wrong: the detailed daily plans demotivated students.",
+                "source_translation": "虽然研究人员原本假设结构良好的每日计划在执行任务时最有效，但他们错了：详尽的每日计划反而挫伤了学生的积极性。",
                 "locator_comparison": "借用了原文的词汇 <code>students</code>, <code>are</code>, <code>hardly</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“无论哪种方法，关键是确定你的专注时间长度并坚持下去。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4365,9 +4010,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "There are a number of approaches to mastering the art of deep work—be it lengthy retreats dedicated to a specific task; developing a daily ritual; or taking a “journalistic” approach to seizing moments of deep work when you can throughout the day.",
-                "source_translation": "掌握深度工作艺术的方法有很多种——可以是专门针对特定任务的长时间静修；也可以是长期静修。制定日常仪式；或者采取“新闻”的方式，抓住一天中可以进行深度工作的时刻。",
-                "locator_comparison": "选项核心词 <code>detailed</code>, <code>plans</code>, <code>may</code>（“详细的计划可能不会像预期的那样富有成效”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "While the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of tasks, they were wrong: the detailed daily plans demotivated students.",
+                "source_translation": "虽然研究人员原本假设结构良好的每日计划在执行任务时最有效，但他们错了：详尽的每日计划反而挫伤了学生的积极性。",
+                "locator_comparison": "选项核心词 <code>detailed</code>, <code>plans</code>, <code>may</code>（“详细的计划可能不会像预期的那样富有成效”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“无论哪种方法，关键是确定你的专注时间长度并坚持下去。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：C正确。"
@@ -4382,8 +4027,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "There are a number of approaches to mastering the art of deep work—be it lengthy retreats dedicated to a specific task; developing a daily ritual; or taking a “journalistic” approach to seizing moments of deep work when you can throughout the day.",
-                "source_translation": "掌握深度工作艺术的方法有很多种——可以是专门针对特定任务的长时间静修；也可以是长期静修。制定日常仪式；或者采取“新闻”的方式，抓住一天中可以进行深度工作的时刻。",
+                "source_sentence": "While the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of tasks, they were wrong: the detailed daily plans demotivated students.",
+                "source_translation": "虽然研究人员原本假设结构良好的每日计划在执行任务时最有效，但他们错了：详尽的每日计划反而挫伤了学生的积极性。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“无论哪种方法，关键是确定你的专注时间长度并坚持下去。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4398,9 +4043,9 @@
           "stem": "According to Newport, idleness is ______.",
           "stem_cn": "根据纽波特的说法，闲散是______。",
           "type": "段落推理题",
-          "locate_pid": 2,
-          "locate_sentence": "Newport also recommends “deep scheduling” to combat constant interruptions and get more done in less time.",
-          "locate_sentence_cn": "纽波特还建议“深度调度”，以应对持续的干扰，并在更短的时间内完成更多工作。",
+          "locate_pid": 6,
+          "locate_sentence": "“Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ... [idleness] is, paradoxically, necessary to getting any work done,” he argues.",
+          "locate_sentence_cn": "他辩称：“闲暇不仅仅是度假、放纵或恶习；它对大脑的重要性就像维生素D对身体一样必不可少……矛盾的是，[闲暇]对于完成任何工作都是必需的。”",
           "options": [
             {
               "key": "A",
@@ -4411,9 +4056,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Newport also recommends “deep scheduling” to combat constant interruptions and get more done in less time.",
-                "source_translation": "纽波特还建议“深度调度”，以应对持续的干扰，并在更短的时间内完成更多工作。",
-                "locator_comparison": "选项核心词 <code>essential</code>, <code>factor</code>, <code>accomplishing</code>（“完成任何工作的一个重要因素”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "“Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ... [idleness] is, paradoxically, necessary to getting any work done,” he argues.",
+                "source_translation": "他辩称：“闲暇不仅仅是度假、放纵或恶习；它对大脑的重要性就像维生素D对身体一样必不可少……矛盾的是，[闲暇]对于完成任何工作都是必需的。”",
+                "locator_comparison": "选项核心词 <code>essential</code>, <code>factor</code>, <code>accomplishing</code>（“完成任何工作的一个重要因素”）准确概括了原文第 7 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：““无论何时，我都应该在下个月左右安排深入的工作。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：A正确。"
@@ -4428,8 +4073,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Newport also recommends “deep scheduling” to combat constant interruptions and get more done in less time.",
-                "source_translation": "纽波特还建议“深度调度”，以应对持续的干扰，并在更短的时间内完成更多工作。",
+                "source_sentence": "“Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ... [idleness] is, paradoxically, necessary to getting any work done,” he argues.",
+                "source_translation": "他辩称：“闲暇不仅仅是度假、放纵或恶习；它对大脑的重要性就像维生素D对身体一样必不可少……矛盾的是，[闲暇]对于完成任何工作都是必需的。”",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：““无论何时，我都应该在下个月左右安排深入的工作。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4445,8 +4090,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Newport also recommends “deep scheduling” to combat constant interruptions and get more done in less time.",
-                "source_translation": "纽波特还建议“深度调度”，以应对持续的干扰，并在更短的时间内完成更多工作。",
+                "source_sentence": "“Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ... [idleness] is, paradoxically, necessary to getting any work done,” he argues.",
+                "source_translation": "他辩称：“闲暇不仅仅是度假、放纵或恶习；它对大脑的重要性就像维生素D对身体一样必不可少……矛盾的是，[闲暇]对于完成任何工作都是必需的。”",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：““无论何时，我都应该在下个月左右安排深入的工作。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4462,8 +4107,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Newport also recommends “deep scheduling” to combat constant interruptions and get more done in less time.",
-                "source_translation": "纽波特还建议“深度调度”，以应对持续的干扰，并在更短的时间内完成更多工作。",
+                "source_sentence": "“Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ... [idleness] is, paradoxically, necessary to getting any work done,” he argues.",
+                "source_translation": "他辩称：“闲暇不仅仅是度假、放纵或恶习；它对大脑的重要性就像维生素D对身体一样必不可少……矛盾的是，[闲暇]对于完成任何工作都是必需的。”",
                 "locator_comparison": "选项声称“忙碌的人理想的精神状态”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：““无论何时，我都应该在下个月左右安排深入的工作。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4478,9 +4123,9 @@
           "stem": "Pillay believes that our brains’ shift between being focused and unfocused _______.",
           "stem_cn": "皮莱认为，我们的大脑在专注和不专注之间的转变_______。",
           "type": "词义/例证题",
-          "locate_pid": 3,
-          "locate_sentence": "Another approach to getting more done in less time is to rethink how you prioritize your day—in particular how we craft our to-do lists.",
-          "locate_sentence_cn": "在更短的时间内完成更多工作的另一种方法是重新思考如何确定一天的优先顺序，特别是我们如何制定待办事项列表。",
+          "locate_pid": 7,
+          "locate_sentence": "When our brains switch between being focused and unfocused on a task, they tend to be more efficient.",
+          "locate_sentence_cn": "当我们的大脑在对某项任务保持专注与不专注之间切换时，往往效率更高。",
           "options": [
             {
               "key": "A",
@@ -4491,8 +4136,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Another approach to getting more done in less time is to rethink how you prioritize your day—in particular how we craft our to-do lists.",
-                "source_translation": "在更短的时间内完成更多工作的另一种方法是重新思考如何确定一天的优先顺序，特别是我们如何制定待办事项列表。",
+                "source_sentence": "When our brains switch between being focused and unfocused on a task, they tend to be more efficient.",
+                "source_translation": "当我们的大脑在对某项任务保持专注与不专注之间切换时，往往效率更高。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“《凌乱：改变我们生活的混乱的力量》一书的作者蒂姆·哈福德指出，20世纪80年代初的一项研究将本科生分为两组：一些人被建议制定每月目标和学习活动；另一些人被建议制定每月目标和学习活动；另一些人被建议制定每月目标和学习活动；另一些人被建议制定每月目标和学习活动。其他人则被告知要日复一日地更详细地计划活动和目标。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4508,9 +4153,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Another approach to getting more done in less time is to rethink how you prioritize your day—in particular how we craft our to-do lists.",
-                "source_translation": "在更短的时间内完成更多工作的另一种方法是重新思考如何确定一天的优先顺序，特别是我们如何制定待办事项列表。",
-                "locator_comparison": "选项核心词 <code>can</code>, <code>bring</code>, <code>greater</code>（“可以带来更高的效率”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "When our brains switch between being focused and unfocused on a task, they tend to be more efficient.",
+                "source_translation": "当我们的大脑在对某项任务保持专注与不专注之间切换时，往往效率更高。",
+                "locator_comparison": "选项核心词 <code>can</code>, <code>bring</code>, <code>greater</code>（“可以带来更高的效率”）准确概括了原文第 8 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“《凌乱：改变我们生活的混乱的力量》一书的作者蒂姆·哈福德指出，20世纪80年代初的一项研究将本科生分为两组：一些人被建议制定每月目标和学习活动；另一些人被建议制定每月目标和学习活动；另一些人被建议制定每月目标和学习活动；另一些人被建议制定每月目标和学习活动。其他人则被告知要日复一日地更详细地计划活动和目标。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：B正确。"
@@ -4525,8 +4170,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Another approach to getting more done in less time is to rethink how you prioritize your day—in particular how we craft our to-do lists.",
-                "source_translation": "在更短的时间内完成更多工作的另一种方法是重新思考如何确定一天的优先顺序，特别是我们如何制定待办事项列表。",
+                "source_sentence": "When our brains switch between being focused and unfocused on a task, they tend to be more efficient.",
+                "source_translation": "当我们的大脑在对某项任务保持专注与不专注之间切换时，往往效率更高。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“《凌乱：改变我们生活的混乱的力量》一书的作者蒂姆·哈福德指出，20世纪80年代初的一项研究将本科生分为两组：一些人被建议制定每月目标和学习活动；另一些人被建议制定每月目标和学习活动；另一些人被建议制定每月目标和学习活动；另一些人被建议制定每月目标和学习活动。其他人则被告知要日复一日地更详细地计划活动和目标。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4542,8 +4187,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Another approach to getting more done in less time is to rethink how you prioritize your day—in particular how we craft our to-do lists.",
-                "source_translation": "在更短的时间内完成更多工作的另一种方法是重新思考如何确定一天的优先顺序，特别是我们如何制定待办事项列表。",
+                "source_sentence": "When our brains switch between being focused and unfocused on a task, they tend to be more efficient.",
+                "source_translation": "当我们的大脑在对某项任务保持专注与不专注之间切换时，往往效率更高。",
                 "locator_comparison": "借用了原文的词汇 <code>driven</code>, <code>task</code>, <code>urgency</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“《凌乱：改变我们生活的混乱的力量》一书的作者蒂姆·哈福德指出，20世纪80年代初的一项研究将本科生分为两组：一些人被建议制定每月目标和学习活动；另一些人被建议制定每月目标和学习活动；另一些人被建议制定每月目标和学习活动；另一些人被建议制定每月目标和学习活动。其他人则被告知要日复一日地更详细地计划活动和目标。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4558,9 +4203,9 @@
           "stem": "This text is mainly about _______.",
           "stem_cn": "本文主要讲述_______。",
           "type": "全文主旨题",
-          "locate_pid": 4,
-          "locate_sentence": "“Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ...",
-          "locate_sentence_cn": "“无所事事不仅仅是一种度假、一种放纵或一种恶习；它对于大脑来说就像维生素 D 对于身体一样不可或缺......",
+          "locate_pid": 0,
+          "locate_sentence": "To combat the trap of putting a premium on being busy, Cal Newport, author of Deep Work: Rules for Focused Success in a Distracted World, recommends building a habit of “deep work”—the ability to focus without distraction.",
+          "locate_sentence_cn": "为了摆脱过度重视忙碌的陷阱，《深度工作：分心世界中专注成功的规则》的作者卡尔·纽波特建议养成“深度工作”的习惯——即在不受干扰的情况下专注工作的能力。",
           "options": [
             {
               "key": "A",
@@ -4571,8 +4216,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "“Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ...",
-                "source_translation": "“无所事事不仅仅是一种度假、一种放纵或一种恶习；它对于大脑来说就像维生素 D 对于身体一样不可或缺......",
+                "source_sentence": "To combat the trap of putting a premium on being busy, Cal Newport, author of Deep Work: Rules for Focused Success in a Distracted World, recommends building a habit of “deep work”—the ability to focus without distraction.",
+                "source_translation": "为了摆脱过度重视忙碌的陷阱，《深度工作：分心世界中专注成功的规则》的作者卡尔·纽波特建议养成“深度工作”的习惯——即在不受干扰的情况下专注工作的能力。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“矛盾的是，[无所事事]对于完成任何工作都是必要的，”他辩称。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4588,8 +4233,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "“Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ...",
-                "source_translation": "“无所事事不仅仅是一种度假、一种放纵或一种恶习；它对于大脑来说就像维生素 D 对于身体一样不可或缺......",
+                "source_sentence": "To combat the trap of putting a premium on being busy, Cal Newport, author of Deep Work: Rules for Focused Success in a Distracted World, recommends building a habit of “deep work”—the ability to focus without distraction.",
+                "source_translation": "为了摆脱过度重视忙碌的陷阱，《深度工作：分心世界中专注成功的规则》的作者卡尔·纽波特建议养成“深度工作”的习惯——即在不受干扰的情况下专注工作的能力。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“矛盾的是，[无所事事]对于完成任何工作都是必要的，”他辩称。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4605,8 +4250,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "“Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ...",
-                "source_translation": "“无所事事不仅仅是一种度假、一种放纵或一种恶习；它对于大脑来说就像维生素 D 对于身体一样不可或缺......",
+                "source_sentence": "To combat the trap of putting a premium on being busy, Cal Newport, author of Deep Work: Rules for Focused Success in a Distracted World, recommends building a habit of “deep work”—the ability to focus without distraction.",
+                "source_translation": "为了摆脱过度重视忙碌的陷阱，《深度工作：分心世界中专注成功的规则》的作者卡尔·纽波特建议养成“深度工作”的习惯——即在不受干扰的情况下专注工作的能力。",
                 "locator_comparison": "选项声称“缓解忙碌生活压力的方法”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“矛盾的是，[无所事事]对于完成任何工作都是必要的，”他辩称。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4622,9 +4267,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "“Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ...",
-                "source_translation": "“无所事事不仅仅是一种度假、一种放纵或一种恶习；它对于大脑来说就像维生素 D 对于身体一样不可或缺......",
-                "locator_comparison": "选项核心词 <code>approaches</code>, <code>getting</code>, <code>less</code>（“approaches to getting more done in less time\nᆇี൫ज@JOEE ༯໶”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "To combat the trap of putting a premium on being busy, Cal Newport, author of Deep Work: Rules for Focused Success in a Distracted World, recommends building a habit of “deep work”—the ability to focus without distraction.",
+                "source_translation": "为了摆脱过度重视忙碌的陷阱，《深度工作：分心世界中专注成功的规则》的作者卡尔·纽波特建议养成“深度工作”的习惯——即在不受干扰的情况下专注工作的能力。",
+                "locator_comparison": "选项核心词 <code>approaches</code>, <code>getting</code>, <code>less</code>（“approaches to getting more done in less time\nᆇี൫ज@JOEE ༯໶”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“矛盾的是，[无所事事]对于完成任何工作都是必要的，”他辩称。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：D正确。"
@@ -4637,11 +4282,15 @@
       "macro_logic": {
         "main_theme": "本文围绕 To combat the trap of putting a premium on being b... 展开深入客观的逻辑论述。",
         "logic_chain": [
-          "第1段：为了摆脱过度忙碌的陷阱，《深度工作：分心世界中专注成功的规则...",
-          "第2段：掌握深度工作艺术的方法有很多种——可以是专门针对特定任务的长...",
-          "第3段：纽波特还建议“深度调度”，以应对持续的干扰，并在更短的时间内...",
-          "第4段：在更短的时间内完成更多工作的另一种方法是重新思考如何确定一天...",
-          "第5段：“无所事事不仅仅是一种度假、一种放纵或一种恶习；它对于大脑来..."
+          "第1段：引出主题——卡尔·纽波特建议建立“深度工作”习惯以摆脱盲目忙碌的陷阱。",
+          "第2段：介绍掌握深度工作的多种方式，强调关键在于明确并坚持专注时长。",
+          "第3段：介绍纽波特的“深度日程规划”，提倡将深度工作时间像重要会议一样严加保护。",
+          "第4段：提出优化待办事项清单的方法，引用80年代针对大学生的目标规划实验。",
+          "第5段：指出实验反转结论：过于刻板详尽的每日计划反而挫伤动力，灵活性更为有效。",
+          "第6段：提出新观点：为了最大化专注力与精力，我们必须学会拥抱停歇与休息。",
+          "第7段：引用纽波特名言论述“闲暇”对大脑犹如维生素D对身体般必不可少。",
+          "第8段：从哈佛脑神经科学视角解释：大脑在专注与非专注间切换时效率最高。",
+          "第9段：总结呼吁：完成复杂任务需要大脑同时协同运用专注与非专注回路。"
         ]
       },
       "writing_corpus": [

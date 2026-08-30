@@ -840,8 +840,8 @@
           "stem_cn": "根据 Damaske 的说法，谁在家中最快乐？",
           "type": "因果推断题",
           "locate_pid": 1,
-          "locate_sentence": "“Further contradicting conventional wisdom, we found that women as well as men have lower levels of stress at work than at home,” writes one of the researchers, Sarah Damaske.",
-          "locate_sentence_cn": "研究人员之一莎拉·达马斯克（Sarah Damaske）写道：“与传统观点相矛盾的是，我们发现女性和男性在工作中承受的压力都比在家中承受的压力要低。”",
+          "locate_sentence": "In fact women even say they feel better at work, she notes.",
+          "locate_sentence_cn": "事实上，女性甚至说她们在工作中感觉更好，她指出。",
           "options": [
             {
               "key": "A",
@@ -852,8 +852,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "“Further contradicting conventional wisdom, we found that women as well as men have lower levels of stress at work than at home,” writes one of the researchers, Sarah Damaske.",
-                "source_translation": "研究人员之一莎拉·达马斯克（Sarah Damaske）写道：“与传统观点相矛盾的是，我们发现女性和男性在工作中承受的压力都比在家中承受的压力要低。”",
+                "source_sentence": "In fact women even say they feel better at work, she notes.",
+                "source_translation": "事实上，女性甚至说她们在工作中感觉更好，她指出。",
                 "locator_comparison": "借用了原文的词汇 <code>Working</code>, <code>mothers</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“事实上，女性甚至说她们在工作中感觉更好，她指出。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -869,8 +869,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "“Further contradicting conventional wisdom, we found that women as well as men have lower levels of stress at work than at home,” writes one of the researchers, Sarah Damaske.",
-                "source_translation": "研究人员之一莎拉·达马斯克（Sarah Damaske）写道：“与传统观点相矛盾的是，我们发现女性和男性在工作中承受的压力都比在家中承受的压力要低。”",
+                "source_sentence": "In fact women even say they feel better at work, she notes.",
+                "source_translation": "事实上，女性甚至说她们在工作中感觉更好，她指出。",
                 "locator_comparison": "选项核心词 <code>Childless</code>, <code>husbands</code>（“无子女的丈夫。”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“事实上，女性甚至说她们在工作中感觉更好，她指出。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -886,8 +886,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "“Further contradicting conventional wisdom, we found that women as well as men have lower levels of stress at work than at home,” writes one of the researchers, Sarah Damaske.",
-                "source_translation": "研究人员之一莎拉·达马斯克（Sarah Damaske）写道：“与传统观点相矛盾的是，我们发现女性和男性在工作中承受的压力都比在家中承受的压力要低。”",
+                "source_sentence": "In fact women even say they feel better at work, she notes.",
+                "source_translation": "事实上，女性甚至说她们在工作中感觉更好，她指出。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“事实上，女性甚至说她们在工作中感觉更好，她指出。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -903,8 +903,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "“Further contradicting conventional wisdom, we found that women as well as men have lower levels of stress at work than at home,” writes one of the researchers, Sarah Damaske.",
-                "source_translation": "研究人员之一莎拉·达马斯克（Sarah Damaske）写道：“与传统观点相矛盾的是，我们发现女性和男性在工作中承受的压力都比在家中承受的压力要低。”",
+                "source_sentence": "In fact women even say they feel better at work, she notes.",
+                "source_translation": "事实上，女性甚至说她们在工作中感觉更好，她指出。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“事实上，女性甚至说她们在工作中感觉更好，她指出。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -920,8 +920,8 @@
           "stem_cn": "职业女性角色的模糊是指______。",
           "type": "段落推理题",
           "locate_pid": 2,
-          "locate_sentence": "What the study doesn’t measure is whether people are still doing work when they’re at home, whether it is household work or work brought home from the office.",
-          "locate_sentence_cn": "该研究没有衡量人们在家时是否仍在工作，无论是家务活还是从办公室带回家的工作。",
+          "locate_sentence": "And for women who work outside the home, they often are playing catch-up-with- household tasks.",
+          "locate_sentence_cn": "对于外出工作的女性来说，她们常常要忙着做家务。",
           "options": [
             {
               "key": "A",
@@ -932,8 +932,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "What the study doesn’t measure is whether people are still doing work when they’re at home, whether it is household work or work brought home from the office.",
-                "source_translation": "该研究没有衡量人们在家时是否仍在工作，无论是家务活还是从办公室带回家的工作。",
+                "source_sentence": "And for women who work outside the home, they often are playing catch-up-with- household tasks.",
+                "source_translation": "对于外出工作的女性来说，她们常常要忙着做家务。",
                 "locator_comparison": "选项声称“他们的家也是一个放松的地方”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“对于许多男士来说，工作日结束是休息的时间。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -949,8 +949,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "What the study doesn’t measure is whether people are still doing work when they’re at home, whether it is household work or work brought home from the office.",
-                "source_translation": "该研究没有衡量人们在家时是否仍在工作，无论是家务活还是从办公室带回家的工作。",
+                "source_sentence": "And for women who work outside the home, they often are playing catch-up-with- household tasks.",
+                "source_translation": "对于外出工作的女性来说，她们常常要忙着做家务。",
                 "locator_comparison": "选项核心词 <code>are</code>, <code>bread</code>, <code>winners</code>（“她们既是养家糊口的人又是家庭主妇”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“对于许多男士来说，工作日结束是休息的时间。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -966,8 +966,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "What the study doesn’t measure is whether people are still doing work when they’re at home, whether it is household work or work brought home from the office.",
-                "source_translation": "该研究没有衡量人们在家时是否仍在工作，无论是家务活还是从办公室带回家的工作。",
+                "source_sentence": "And for women who work outside the home, they often are playing catch-up-with- household tasks.",
+                "source_translation": "对于外出工作的女性来说，她们常常要忙着做家务。",
                 "locator_comparison": "选项声称“常常留下很多家务事”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“对于许多男士来说，工作日结束是休息的时间。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -983,8 +983,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "What the study doesn’t measure is whether people are still doing work when they’re at home, whether it is household work or work brought home from the office.",
-                "source_translation": "该研究没有衡量人们在家时是否仍在工作，无论是家务活还是从办公室带回家的工作。",
+                "source_sentence": "And for women who work outside the home, they often are playing catch-up-with- household tasks.",
+                "source_translation": "对于外出工作的女性来说，她们常常要忙着做家务。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“对于许多男士来说，工作日结束是休息的时间。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1000,8 +1000,8 @@
           "stem_cn": "“moola”这个词（第 4 段）很可能意味着 ______。",
           "type": "词义/例证题",
           "locate_pid": 3,
-          "locate_sentence": "But it’s not just a gender thing.",
-          "locate_sentence_cn": "但这不仅仅是性别问题。",
+          "locate_sentence": "At work, people pretty much know what they’re supposed to be doing: working, making money, doing the tasks they have to do in order to draw an income.",
+          "locate_sentence_cn": "在工作中，人们几乎知道他们应该做什么：工作、赚钱、完成他们必须做的任务以获得收入。",
           "options": [
             {
               "key": "A",
@@ -1012,8 +1012,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "But it’s not just a gender thing.",
-                "source_translation": "但这不仅仅是性别问题。",
+                "source_sentence": "At work, people pretty much know what they’re supposed to be doing: working, making money, doing the tasks they have to do in order to draw an income.",
+                "source_translation": "在工作中，人们几乎知道他们应该做什么：工作、赚钱、完成他们必须做的任务以获得收入。",
                 "locator_comparison": "选项声称“技能”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“在工作中，人们几乎知道他们应该做什么：工作、赚钱、完成他们必须做的任务以获得收入。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1029,8 +1029,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "But it’s not just a gender thing.",
-                "source_translation": "但这不仅仅是性别问题。",
+                "source_sentence": "At work, people pretty much know what they’re supposed to be doing: working, making money, doing the tasks they have to do in order to draw an income.",
+                "source_translation": "在工作中，人们几乎知道他们应该做什么：工作、赚钱、完成他们必须做的任务以获得收入。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“在工作中，人们几乎知道他们应该做什么：工作、赚钱、完成他们必须做的任务以获得收入。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1046,8 +1046,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "But it’s not just a gender thing.",
-                "source_translation": "但这不仅仅是性别问题。",
+                "source_sentence": "At work, people pretty much know what they’re supposed to be doing: working, making money, doing the tasks they have to do in order to draw an income.",
+                "source_translation": "在工作中，人们几乎知道他们应该做什么：工作、赚钱、完成他们必须做的任务以获得收入。",
                 "locator_comparison": "选项核心词 <code>earnings</code>（“收益”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“在工作中，人们几乎知道他们应该做什么：工作、赚钱、完成他们必须做的任务以获得收入。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -1063,8 +1063,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "But it’s not just a gender thing.",
-                "source_translation": "但这不仅仅是性别问题。",
+                "source_sentence": "At work, people pretty much know what they’re supposed to be doing: working, making money, doing the tasks they have to do in order to draw an income.",
+                "source_translation": "在工作中，人们几乎知道他们应该做什么：工作、赚钱、完成他们必须做的任务以获得收入。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“在工作中，人们几乎知道他们应该做什么：工作、赚钱、完成他们必须做的任务以获得收入。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1728,8 +1728,8 @@
           "stem_cn": "招收更多第一代学生有______。",
           "type": "事实细节题",
           "locate_pid": 0,
-          "locate_sentence": "For years, studies have found that first-generation college students—those who do not have a parent with a college degree—lag other students on a range of education achievement factors.",
-          "locate_sentence_cn": "多年来，研究发现，第一代大学生（父母没有大学学历的人）在一系列教育成就因素上落后于其他学生。",
+          "locate_sentence": "This has created “a paradox” in that recruiting first-generation students, but then watching many of them fail, means that higher education has “continued to reproduce and widen, rather than close” an achievement gap based on social class, according to the depressing beginning of a paper forthcoming in the journal Psychological Science.",
+          "locate_sentence_cn": "根据即将发表在《心理科学》杂志上的一篇论文的令人沮丧的开头，这造成了一个“悖论”，即招收第一代学生，但随后看到他们中的许多人失败，这意味着高等教育“继续复制和扩大，而不是缩小”基于社会阶层的成就差距。",
           "options": [
             {
               "key": "A",
@@ -1740,8 +1740,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "For years, studies have found that first-generation college students—those who do not have a parent with a college degree—lag other students on a range of education achievement factors.",
-                "source_translation": "多年来，研究发现，第一代大学生（父母没有大学学历的人）在一系列教育成就因素上落后于其他学生。",
+                "source_sentence": "This has created “a paradox” in that recruiting first-generation students, but then watching many of them fail, means that higher education has “continued to reproduce and widen, rather than close” an achievement gap based on social class, according to the depressing beginning of a paper forthcoming in the journal Psychological Science.",
+                "source_translation": "根据即将发表在《心理科学》杂志上的一篇论文的令人沮丧的开头，这造成了一个“悖论”，即招收第一代学生，但随后看到他们中的许多人失败，这意味着高等教育“继续复制和扩大，而不是缩小”基于社会阶层的成就差距。",
                 "locator_comparison": "选项声称“降低了辍学率”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“他们的成绩较低，辍学率较高。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1757,8 +1757,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "For years, studies have found that first-generation college students—those who do not have a parent with a college degree—lag other students on a range of education achievement factors.",
-                "source_translation": "多年来，研究发现，第一代大学生（父母没有大学学历的人）在一系列教育成就因素上落后于其他学生。",
+                "source_sentence": "This has created “a paradox” in that recruiting first-generation students, but then watching many of them fail, means that higher education has “continued to reproduce and widen, rather than close” an achievement gap based on social class, according to the depressing beginning of a paper forthcoming in the journal Psychological Science.",
+                "source_translation": "根据即将发表在《心理科学》杂志上的一篇论文的令人沮丧的开头，这造成了一个“悖论”，即招收第一代学生，但随后看到他们中的许多人失败，这意味着高等教育“继续复制和扩大，而不是缩小”基于社会阶层的成就差距。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“他们的成绩较低，辍学率较高。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1774,8 +1774,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "For years, studies have found that first-generation college students—those who do not have a parent with a college degree—lag other students on a range of education achievement factors.",
-                "source_translation": "多年来，研究发现，第一代大学生（父母没有大学学历的人）在一系列教育成就因素上落后于其他学生。",
+                "source_sentence": "This has created “a paradox” in that recruiting first-generation students, but then watching many of them fail, means that higher education has “continued to reproduce and widen, rather than close” an achievement gap based on social class, according to the depressing beginning of a paper forthcoming in the journal Psychological Science.",
+                "source_translation": "根据即将发表在《心理科学》杂志上的一篇论文的令人沮丧的开头，这造成了一个“悖论”，即招收第一代学生，但随后看到他们中的许多人失败，这意味着高等教育“继续复制和扩大，而不是缩小”基于社会阶层的成就差距。",
                 "locator_comparison": "选项核心词 <code>missed</code>, <code>its</code>, <code>original</code>（“错过了最初的目的”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“他们的成绩较低，辍学率较高。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -1791,8 +1791,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "For years, studies have found that first-generation college students—those who do not have a parent with a college degree—lag other students on a range of education achievement factors.",
-                "source_translation": "多年来，研究发现，第一代大学生（父母没有大学学历的人）在一系列教育成就因素上落后于其他学生。",
+                "source_sentence": "This has created “a paradox” in that recruiting first-generation students, but then watching many of them fail, means that higher education has “continued to reproduce and widen, rather than close” an achievement gap based on social class, according to the depressing beginning of a paper forthcoming in the journal Psychological Science.",
+                "source_translation": "根据即将发表在《心理科学》杂志上的一篇论文的令人沮丧的开头，这造成了一个“悖论”，即招收第一代学生，但随后看到他们中的许多人失败，这意味着高等教育“继续复制和扩大，而不是缩小”基于社会阶层的成就差距。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“他们的成绩较低，辍学率较高。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1847,8 +1847,8 @@
             },
             {
               "key": "C",
-              "text": "the problem is solvable\nᆇี൫ज@JOEE ༯໶\n\n04",
-              "text_cn": "the problem is solvable\nᆇี൫ज@JOEE ༯໶\n\n04",
+              "text": "the problem is solvable",
+              "text_cn": "the problem is solvable",
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
@@ -1856,7 +1856,7 @@
                 "option_nature": "★ 标准正确同义改写",
                 "source_sentence": "But the article is actually quite optimistic, as it outlines a potential solution to this problem, suggesting that an approach (which involves a one-hour, next-to-no-cost program) can close 63 percent of the achievement gap (measured by such factors as grades) between first-generation and other students.",
                 "source_translation": "但这篇文章实际上相当乐观，因为它概述了这个问题的潜在解决方案，表明一种方法（涉及一小时、几乎免费的课程）可以缩小第一代学生和其他学生之间 63% 的成绩差距（以成绩等因素衡量）。",
-                "locator_comparison": "选项核心词 <code>problem</code>, <code>solvable</code>, <code>JOEE</code>（“the problem is solvable\nᆇี൫ज@JOEE ༯໶\n\n04”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
+                "locator_comparison": "选项核心词 <code>problem</code>, <code>solvable</code>, <code>JOEE</code>（“the problem is solvable”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“The authors of the paper are from different universities, and their findings are based on a study involving 147 students (who completed the project) at an unnamed private university”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：C正确。"
@@ -1888,8 +1888,8 @@
           "stem_cn": "研究表明，大多数第一代学生_______。",
           "type": "段落推理题",
           "locate_pid": 2,
-          "locate_sentence": "The authors of the paper are from different universities, and their findings are based on a study involving 147 students (who completed the project) at an unnamed private university.",
-          "locate_sentence_cn": "该论文的作者来自不同的大学，他们的研究结果基于一项涉及一所未具名私立大学的 147 名学生（完成该项目）的研究。",
+          "locate_sentence": "Most of the first-generation students (59.1 percent) were recipients of Pell Grants, a federal grant for undergraduates with financial need, while this was true only for 8.6 percent of the students with at least one parent with a four-year degree.",
+          "locate_sentence_cn": "大多数第一代学生（59.1％）是佩尔助学金的获得者，这是一项针对有经济需要的本科生的联邦助学金，而只有 8.6％ 的学生至少有一个父母拥有四年制学位。",
           "options": [
             {
               "key": "A",
@@ -1900,8 +1900,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "The authors of the paper are from different universities, and their findings are based on a study involving 147 students (who completed the project) at an unnamed private university.",
-                "source_translation": "该论文的作者来自不同的大学，他们的研究结果基于一项涉及一所未具名私立大学的 147 名学生（完成该项目）的研究。",
+                "source_sentence": "Most of the first-generation students (59.1 percent) were recipients of Pell Grants, a federal grant for undergraduates with financial need, while this was true only for 8.6 percent of the students with at least one parent with a four-year degree.",
+                "source_translation": "大多数第一代学生（59.1％）是佩尔助学金的获得者，这是一项针对有经济需要的本科生的联邦助学金，而只有 8.6％ 的学生至少有一个父母拥有四年制学位。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“第一代被定义为父母没有四年制大学学位。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1917,8 +1917,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "The authors of the paper are from different universities, and their findings are based on a study involving 147 students (who completed the project) at an unnamed private university.",
-                "source_translation": "该论文的作者来自不同的大学，他们的研究结果基于一项涉及一所未具名私立大学的 147 名学生（完成该项目）的研究。",
+                "source_sentence": "Most of the first-generation students (59.1 percent) were recipients of Pell Grants, a federal grant for undergraduates with financial need, while this was true only for 8.6 percent of the students with at least one parent with a four-year degree.",
+                "source_translation": "大多数第一代学生（59.1％）是佩尔助学金的获得者，这是一项针对有经济需要的本科生的联邦助学金，而只有 8.6％ 的学生至少有一个父母拥有四年制学位。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“第一代被定义为父母没有四年制大学学位。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1934,8 +1934,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The authors of the paper are from different universities, and their findings are based on a study involving 147 students (who completed the project) at an unnamed private university.",
-                "source_translation": "该论文的作者来自不同的大学，他们的研究结果基于一项涉及一所未具名私立大学的 147 名学生（完成该项目）的研究。",
+                "source_sentence": "Most of the first-generation students (59.1 percent) were recipients of Pell Grants, a federal grant for undergraduates with financial need, while this was true only for 8.6 percent of the students with at least one parent with a four-year degree.",
+                "source_translation": "大多数第一代学生（59.1％）是佩尔助学金的获得者，这是一项针对有经济需要的本科生的联邦助学金，而只有 8.6％ 的学生至少有一个父母拥有四年制学位。",
                 "locator_comparison": "选项核心词 <code>are</code>, <code>need</code>, <code>financial</code>（“需要财政支持”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“第一代被定义为父母没有四年制大学学位。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -1951,8 +1951,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "The authors of the paper are from different universities, and their findings are based on a study involving 147 students (who completed the project) at an unnamed private university.",
-                "source_translation": "该论文的作者来自不同的大学，他们的研究结果基于一项涉及一所未具名私立大学的 147 名学生（完成该项目）的研究。",
+                "source_sentence": "Most of the first-generation students (59.1 percent) were recipients of Pell Grants, a federal grant for undergraduates with financial need, while this was true only for 8.6 percent of the students with at least one parent with a four-year degree.",
+                "source_translation": "大多数第一代学生（59.1％）是佩尔助学金的获得者，这是一项针对有经济需要的本科生的联邦助学金，而只有 8.6％ 的学生至少有一个父母拥有四年制学位。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“第一代被定义为父母没有四年制大学学位。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2048,8 +2048,8 @@
           "stem_cn": "我们可以从最后一段推断出______。",
           "type": "全文主旨题",
           "locate_pid": 4,
-          "locate_sentence": "Many first-generation students “struggle to navigate the middle-class culture of higher education, learn the ‘rules of the game’, and take advantage of college resources,” they write.",
-          "locate_sentence_cn": "他们写道，许多第一代学生“努力适应高等教育的中产阶级文化，学习‘游戏规则’，并利用大学资源。”",
+          "locate_sentence": "“Because US colleges and universities seldom acknowledge how social class can affect students’ educational experience, many first- generation students lack insight about why they are struggling and do not understand how students ‘like them’ can improve.”",
+          "locate_sentence_cn": "“由于美国的学院和大学很少承认社会阶层如何影响学生的教育经历，许多第一代学生缺乏对自己为何陷入困境的洞察力，也不明白‘喜欢他们’的学生如何才能进步。”",
           "options": [
             {
               "key": "A",
@@ -2060,8 +2060,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Many first-generation students “struggle to navigate the middle-class culture of higher education, learn the ‘rules of the game’, and take advantage of college resources,” they write.",
-                "source_translation": "他们写道，许多第一代学生“努力适应高等教育的中产阶级文化，学习‘游戏规则’，并利用大学资源。”",
+                "source_sentence": "“Because US colleges and universities seldom acknowledge how social class can affect students’ educational experience, many first- generation students lack insight about why they are struggling and do not understand how students ‘like them’ can improve.”",
+                "source_translation": "“由于美国的学院和大学很少承认社会阶层如何影响学生的教育经历，许多第一代学生缺乏对自己为何陷入困境的洞察力，也不明白‘喜欢他们’的学生如何才能进步。”",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“当大学不谈论不同学生群体的班级优势和劣势时，这就会成为一个更大的问题。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2077,8 +2077,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Many first-generation students “struggle to navigate the middle-class culture of higher education, learn the ‘rules of the game’, and take advantage of college resources,” they write.",
-                "source_translation": "他们写道，许多第一代学生“努力适应高等教育的中产阶级文化，学习‘游戏规则’，并利用大学资源。”",
+                "source_sentence": "“Because US colleges and universities seldom acknowledge how social class can affect students’ educational experience, many first- generation students lack insight about why they are struggling and do not understand how students ‘like them’ can improve.”",
+                "source_translation": "“由于美国的学院和大学很少承认社会阶层如何影响学生的教育经历，许多第一代学生缺乏对自己为何陷入困境的洞察力，也不明白‘喜欢他们’的学生如何才能进步。”",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“当大学不谈论不同学生群体的班级优势和劣势时，这就会成为一个更大的问题。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2094,8 +2094,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Many first-generation students “struggle to navigate the middle-class culture of higher education, learn the ‘rules of the game’, and take advantage of college resources,” they write.",
-                "source_translation": "他们写道，许多第一代学生“努力适应高等教育的中产阶级文化，学习‘游戏规则’，并利用大学资源。”",
+                "source_sentence": "“Because US colleges and universities seldom acknowledge how social class can affect students’ educational experience, many first- generation students lack insight about why they are struggling and do not understand how students ‘like them’ can improve.”",
+                "source_translation": "“由于美国的学院和大学很少承认社会阶层如何影响学生的教育经历，许多第一代学生缺乏对自己为何陷入困境的洞察力，也不明白‘喜欢他们’的学生如何才能进步。”",
                 "locator_comparison": "借用了原文的词汇 <code>social</code>, <code>class</code>, <code>greatly</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“当大学不谈论不同学生群体的班级优势和劣势时，这就会成为一个更大的问题。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2111,8 +2111,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Many first-generation students “struggle to navigate the middle-class culture of higher education, learn the ‘rules of the game’, and take advantage of college resources,” they write.",
-                "source_translation": "他们写道，许多第一代学生“努力适应高等教育的中产阶级文化，学习‘游戏规则’，并利用大学资源。”",
+                "source_sentence": "“Because US colleges and universities seldom acknowledge how social class can affect students’ educational experience, many first- generation students lack insight about why they are struggling and do not understand how students ‘like them’ can improve.”",
+                "source_translation": "“由于美国的学院和大学很少承认社会阶层如何影响学生的教育经历，许多第一代学生缺乏对自己为何陷入困境的洞察力，也不明白‘喜欢他们’的学生如何才能进步。”",
                 "locator_comparison": "选项核心词 <code>colleges</code>, <code>are</code>, <code>partly</code>（“大学对所涉及的问题负有部分责任”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“当大学不谈论不同学生群体的班级优势和劣势时，这就会成为一个更大的问题。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -2910,8 +2910,8 @@
           "stem_cn": "库拉纳 (Khurana) 认为引入术语的目的是_______。",
           "type": "段落推理题",
           "locate_pid": 2,
-          "locate_sentence": "These terms are also intended to infuse work with meaning—and, as Rakesh Khurana, another professor, points out, increase allegiance to the firm.",
-          "locate_sentence_cn": "这些术语还旨在为工作注入意义，正如另一位教授拉克什·库拉纳 (Rakesh Khurana) 指出的那样，增加对公司的忠诚度。",
+          "locate_sentence": "There are lots and lots of CEOs in very different companies, but most think of themselves as coaches and this is their team and they want to win.”",
+          "locate_sentence_cn": "不同公司有很多很多首席执行官，但大多数人都认为自己是教练，这是他们的团队，他们想赢。”",
           "options": [
             {
               "key": "A",
@@ -2922,8 +2922,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "These terms are also intended to infuse work with meaning—and, as Rakesh Khurana, another professor, points out, increase allegiance to the firm.",
-                "source_translation": "这些术语还旨在为工作注入意义，正如另一位教授拉克什·库拉纳 (Rakesh Khurana) 指出的那样，增加对公司的忠诚度。",
+                "source_sentence": "There are lots and lots of CEOs in very different companies, but most think of themselves as coaches and this is their team and they want to win.”",
+                "source_translation": "不同公司有很多很多首席执行官，但大多数人都认为自己是教练，这是他们的团队，他们想赢。”",
                 "locator_comparison": "借用了原文的词汇 <code>revive</code>, <code>historical</code>, <code>terms</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：““你引入了历史上与非营利组织和宗教组织相关的术语：愿景、价值观、激情和目的等术语，”库拉纳说。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2939,8 +2939,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "These terms are also intended to infuse work with meaning—and, as Rakesh Khurana, another professor, points out, increase allegiance to the firm.",
-                "source_translation": "这些术语还旨在为工作注入意义，正如另一位教授拉克什·库拉纳 (Rakesh Khurana) 指出的那样，增加对公司的忠诚度。",
+                "source_sentence": "There are lots and lots of CEOs in very different companies, but most think of themselves as coaches and this is their team and they want to win.”",
+                "source_translation": "不同公司有很多很多首席执行官，但大多数人都认为自己是教练，这是他们的团队，他们想赢。”",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：““你引入了历史上与非营利组织和宗教组织相关的术语：愿景、价值观、激情和目的等术语，”库拉纳说。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2956,8 +2956,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "These terms are also intended to infuse work with meaning—and, as Rakesh Khurana, another professor, points out, increase allegiance to the firm.",
-                "source_translation": "这些术语还旨在为工作注入意义，正如另一位教授拉克什·库拉纳 (Rakesh Khurana) 指出的那样，增加对公司的忠诚度。",
+                "source_sentence": "There are lots and lots of CEOs in very different companies, but most think of themselves as coaches and this is their team and they want to win.”",
+                "source_translation": "不同公司有很多很多首席执行官，但大多数人都认为自己是教练，这是他们的团队，他们想赢。”",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：““你引入了历史上与非营利组织和宗教组织相关的术语：愿景、价值观、激情和目的等术语，”库拉纳说。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2973,8 +2973,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "These terms are also intended to infuse work with meaning—and, as Rakesh Khurana, another professor, points out, increase allegiance to the firm.",
-                "source_translation": "这些术语还旨在为工作注入意义，正如另一位教授拉克什·库拉纳 (Rakesh Khurana) 指出的那样，增加对公司的忠诚度。",
+                "source_sentence": "There are lots and lots of CEOs in very different companies, but most think of themselves as coaches and this is their team and they want to win.”",
+                "source_translation": "不同公司有很多很多首席执行官，但大多数人都认为自己是教练，这是他们的团队，他们想赢。”",
                 "locator_comparison": "选项核心词 <code>strengthen</code>, <code>employee</code>, <code>loyalty</code>（“增强员工忠诚度”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：““你引入了历史上与非营利组织和宗教组织相关的术语：愿景、价值观、激情和目的等术语，”库拉纳说。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -3126,8 +3126,8 @@
             },
             {
               "key": "D",
-              "text": "Managers admire it but avoid it.\nᆇี൫ज@JOEE ༯໶\n\n06",
-              "text_cn": "Managers admire it but avoid it.\nᆇี൫ज@JOEE ༯໶\n\n06",
+              "text": "Managers admire it but avoid it.",
+              "text_cn": "Managers admire it but avoid it.",
               "is_correct": false,
               "trap_type": "干扰项（张冠李戴 / 范围偏差）",
               "analysis": {
@@ -3256,7 +3256,7 @@
         {
           "pid": 1,
           "text": "However, there is another important part of the jobs picture that was largely overlooked. There was a big jump in the number of people who report voluntarily working part-time. This figure is now 830,000 (4.4 percent) above its year ago level.",
-          "translation": "然而，就业形势的另一个重要部分在很大程度上被忽视了。自愿从事兼职工作的人数大幅增加。目前，这一数字比去年同期增加了 830,000 人（4.4%）。",
+          "translation": "然而，就业形势的另一个重要部分在很大程度上被忽视了。自愿从事兼职工作的人数大幅增加。目前这一数字比去年同期增加了 830,000 人（4.4%）。",
           "slashed_text": "However , / there is another important part of the jobs picture / that was largely overlooked. There was a big jump in the number of people / who report voluntarily working part-time. This figure is now 830 , / 000 (4.4 percent) above its year ago level.",
           "chunk_translation": "然而， / 还有另一个重要组成部分 / 在整个就业格局中被人们所忽视了。 人数出现了大幅激增 / 那些报告称因经济原因而从事兼职工作的人数。 这一数字目前比一年前高出830, / 000人（增幅达4.4%）。",
           "vocabulary": [
@@ -3471,10 +3471,10 @@
         },
         {
           "pid": 5,
-          "text": "The issue of voluntary part-time relates to Obamacare because one of the main purposes was to allow people to get insurance outside of employment. For many people, especially those with serious health conditions or family members with serious health conditions, before Obamacare the only way to get insurance was through a job that provided health insurance. However, Obamacare has allowed more than 12 million people to either get insurance through Medicaid or the exchanges. These are people who may previously have felt the need to get a full-time job that provided insurance in order to cover themselves and their families. With Obamacare there is no longer a link between employment and insurance.",
-          "translation": "自愿兼职问题与奥巴马医改有关，因为其主要目的之一是允许人们在就业之外获得保险。对于许多人来说，特别是那些患有严重健康问题的人或患有严重健康问题的家庭成员，在奥巴马医改之前，获得保险的唯一途径是通过提供健康保险的工作。然而，奥巴马医改已允许超过 1200 万人通过医疗补助或交易所获得保险。这些人以前可能觉得需要找到一份提供保险的全职工作，以保障自己和家人的生活。有了奥巴马医改，就业和保险之间就不再有联系。",
-          "slashed_text": "The issue of voluntary part-time relates to Obamacare / because one of the main purposes was to allow people to get insurance outside of employment. For many people , / especially those / with serious health conditions or family members / with serious health conditions , / before Obamacare the only way to get insurance was through a job / that provided health insurance. However , / Obamacare has allowed more than 12 million people to either get insurance / through Medicaid or the exchanges. These are people / who may previously have felt the need to get a full-time job / that provided insurance / in order to cover themselves and their families. With Obamacare there is no longer a link between employment and insurance.",
-          "chunk_translation": "自愿兼职的问题关联着 / 与奥巴马医改方案有着极其直接的关联。 对于许多人而言， / 特别是那些人 / 患有严重健康疾病的人， / 他们承受不起 / 离开一份提供医疗保险的工作的代价， / 因为他们自己无法单独购买到商业医保。 然而， / 奥巴马医改已经使1200多万人得以 / 能够自行购买并享有医疗保险。 这些人正是 / 先前可能感到有必要 / 去从事全职工作的人， / 仅仅为了获得医疗保险保障。 随着奥巴马医改的实施，全职就业与医疗保险之间的必然捆绑关系已不复存在。",
+          "text": "The issue of voluntary part-time relates to Obamacare because one of the main purposes was to allow people to get insurance outside of employment. For many people, especially those with serious health conditions or family members with serious health conditions, before Obamacare the only way to get insurance was through a job that provided health insurance.",
+          "translation": "自愿兼职问题与奥巴马医改有关，因为其主要目的之一是允许人们在就业之外获得保险。对于许多人来说，特别是那些患有严重健康问题的人或患有严重健康问题的家庭成员，在奥巴马医改之前，获得保险的唯一途径是通过提供健康保险的工作。",
+          "slashed_text": "The issue of voluntary part-time relates to Obamacare / because one of the main purposes was to allow people to get insurance outside of employment. For many people , / especially those / with serious health conditions or family members / with serious health conditions , / before Obamacare the only way to get insurance was through a job / that provided health insurance.",
+          "chunk_translation": "自愿兼职的问题关联着 / 与奥巴马医改方案有着极其直接的关联。 对于许多人而言， / 特别是那些人 / 患有严重健康疾病的人， / 他们承受不起 / 离开一份提供医疗保险的工作的代价， / 因为他们自己无法单独购买到商业医保。",
           "vocabulary": [
             {
               "word": "issue",
@@ -3520,6 +3520,60 @@
               "word": "allow",
               "pos": "v.",
               "definition": "v. 允许；准许"
+            }
+          ]
+        },
+        {
+          "pid": 6,
+          "text": "However, Obamacare has allowed more than 12 million people to either get insurance through Medicaid or the exchanges. These are people who may previously have felt the need to get a full-time job that provided insurance in order to cover themselves and their families. With Obamacare there is no longer a link between employment and insurance.",
+          "translation": "然而，奥巴马医改已允许超过 1200 万人通过医疗补助或交易所获得保险。这些人以前可能觉得需要找到一份提供保险的全职工作，以保障自己和家人的生活。有了奥巴马医改，就业和保险之间就不再有联系。",
+          "slashed_text": "However , / Obamacare has allowed more than 12 million people to either get insurance / through Medicaid or the exchanges. These are people / who may previously have felt the need to get a full-time job / that provided insurance / in order to cover themselves and their families. With Obamacare there is no longer a link between employment and insurance.",
+          "chunk_translation": "然而， / 奥巴马医改已经使1200多万人得以 / 能够自行购买并享有医疗保险。 这些人正是 / 先前可能感到有必要 / 去从事全职工作的人， / 仅仅为了获得医疗保险保障。 随着奥巴马医改的实施，全职就业与医疗保险之间的必然捆绑关系已不复存在。",
+          "vocabulary": [
+            {
+              "word": "time",
+              "pos": "n.",
+              "definition": "n. （以分钟、小时、天等计量的）时间；（钟表上的）时刻"
+            },
+            {
+              "word": "Obamacare",
+              "pos": "n.",
+              "definition": "奥巴马医改计划"
+            },
+            {
+              "word": "However",
+              "pos": "adv.",
+              "definition": "adv. 然而，可是，不过；无论如何；（用于表示惊讶）究竟怎样；……左右，……上下；conj. 不管怎样，无论如何；然而，可是"
+            },
+            {
+              "word": "allowed",
+              "pos": "v.",
+              "definition": "v. allow 的过去式和过去分词：允许，认可；给予，酌留（机会、时间）；允许进入（或出去、通过）；使可能；承认，接受；（非正式）断言，认为；adj. 允许的，容许的"
+            },
+            {
+              "word": "million",
+              "pos": "n.",
+              "definition": "num. 一百万，一百万个；n. 百万，百万个（人或物）；许多，无数；百万英镑（或美元）；adj. 许多的，无数的；【名】 （Million）（美、法）米利翁（人名）"
+            },
+            {
+              "word": "either",
+              "pos": "conj.",
+              "definition": "conj. 或者，要么；两者都（不），既（不）；pron. （两者之中）任意一个；两者都（不）；adv. 也（不），亦（不）；而且，还；det. （两者中的）每个，各方；adj. （两者中的）每个的，各方的"
+            },
+            {
+              "word": "get",
+              "pos": "v.",
+              "definition": "v. 收到，接到；获得，得到；挣得，赚得；去取，去带来；买；得（病），患（病）；遭受……之苦；变成，变得；形成（想法、感觉）；促使，使得；使开始，使进展；得以做，有机会做；到达；达到（某一点或某一阶段）；移动，去；理解，明白；有，经历；做（饭）；搭乘，乘坐；接（电话），应（门铃）；与……通电话；捕获，抓获；袭击，打伤，杀死；<非正式>使恼火，使难过；使困惑，难住；接收（电视广播信号）；受到（惩罚）；<非正式>注意到；n. <英，非正式>（说话人）讨厌（或鄙夷）的人；<旧>（动物的）后代"
+            },
+            {
+              "word": "insurance",
+              "pos": "n.",
+              "definition": "n. 保险；保险费；保险业；保险赔偿金，保险金；保险单；预防措施，安全保障"
+            },
+            {
+              "word": "Medicaid",
+              "pos": "n.",
+              "definition": "n. （美）医疗补助计划"
             }
           ]
         }
@@ -3892,8 +3946,8 @@
         },
         {
           "sid": 20,
-          "pid": 5,
-          "sentence_index": 2,
+          "pid": 6,
+          "sentence_index": 0,
           "text": "However, Obamacare has allowed more than 12 million people to either get insurance through Medicaid or the exchanges.",
           "translation": "然而，奥巴马医改已允许超过 1200 万人通过医疗补助或交易所获得保险。",
           "slashed_text": "However , / Obamacare has allowed more than 12 million people to either get insurance / through Medicaid or the exchanges.",
@@ -3910,8 +3964,8 @@
         },
         {
           "sid": 21,
-          "pid": 5,
-          "sentence_index": 3,
+          "pid": 6,
+          "sentence_index": 1,
           "text": "These are people who may previously have felt the need to get a full-time job that provided insurance in order to cover themselves and their families.",
           "translation": "这些人以前可能觉得需要找到一份提供保险的全职工作，以保障自己和家人的生活。",
           "slashed_text": "These are people / who may previously have felt the need to get a full-time job / that provided insurance / in order to cover themselves and their families.",
@@ -3928,8 +3982,8 @@
         },
         {
           "sid": 22,
-          "pid": 5,
-          "sentence_index": 4,
+          "pid": 6,
+          "sentence_index": 2,
           "text": "With Obamacare there is no longer a link between employment and insurance.",
           "translation": "有了奥巴马医改，就业和保险之间就不再有联系。",
           "slashed_text": "With Obamacare there is no longer a link between employment and insurance.",
@@ -3951,22 +4005,22 @@
           "stem": "Which part of the jobs picture was neglected?",
           "stem_cn": "就业情况的哪一部分被忽视了？",
           "type": "事实细节题",
-          "locate_pid": 0,
-          "locate_sentence": "Many people talked of the 288,000 new jobs the Labor Department reported for June, along with the drop in the unemployment rate to 6.1 percent, as good news.",
-          "locate_sentence_cn": "许多人将劳工部报告的 6 月份新增就业岗位 288,000 个以及失业率下降至 6.1% 视为好消息。",
+          "locate_pid": 1,
+          "locate_sentence": "There was a big jump in the number of people who report voluntarily working part-time.",
+          "locate_sentence_cn": "自愿从事兼职工作的人数大幅增加。",
           "options": [
             {
               "key": "A",
-              "text": "The prospect of a thriving job market.\nᆇี൫ज@JOEE ༯໶\n\n07",
-              "text_cn": "The prospect of a thriving job market.\nᆇี൫ज@JOEE ༯໶\n\n07",
+              "text": "The prospect of a thriving job market.",
+              "text_cn": "The prospect of a thriving job market.",
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Many people talked of the 288,000 new jobs the Labor Department reported for June, along with the drop in the unemployment rate to 6.1 percent, as good news.",
-                "source_translation": "许多人将劳工部报告的 6 月份新增就业岗位 288,000 个以及失业率下降至 6.1% 视为好消息。",
-                "locator_comparison": "选项声称“The prospect of a thriving job market.\nᆇี൫ज@JOEE ༯໶\n\n07”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
+                "source_sentence": "There was a big jump in the number of people who report voluntarily working part-time.",
+                "source_translation": "自愿从事兼职工作的人数大幅增加。",
+                "locator_comparison": "选项声称“The prospect of a thriving job market.”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“他们是对的。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
                 "verdict": "复盘判断：A错误，坚决排除。"
@@ -3981,8 +4035,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Many people talked of the 288,000 new jobs the Labor Department reported for June, along with the drop in the unemployment rate to 6.1 percent, as good news.",
-                "source_translation": "许多人将劳工部报告的 6 月份新增就业岗位 288,000 个以及失业率下降至 6.1% 视为好消息。",
+                "source_sentence": "There was a big jump in the number of people who report voluntarily working part-time.",
+                "source_translation": "自愿从事兼职工作的人数大幅增加。",
                 "locator_comparison": "选项核心词 <code>increase</code>, <code>voluntary</code>, <code>part</code>（“自愿兼职工作的增加。”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“他们是对的。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -3998,8 +4052,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Many people talked of the 288,000 new jobs the Labor Department reported for June, along with the drop in the unemployment rate to 6.1 percent, as good news.",
-                "source_translation": "许多人将劳工部报告的 6 月份新增就业岗位 288,000 个以及失业率下降至 6.1% 视为好消息。",
+                "source_sentence": "There was a big jump in the number of people who report voluntarily working part-time.",
+                "source_translation": "自愿从事兼职工作的人数大幅增加。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“他们是对的。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4015,8 +4069,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Many people talked of the 288,000 new jobs the Labor Department reported for June, along with the drop in the unemployment rate to 6.1 percent, as good news.",
-                "source_translation": "许多人将劳工部报告的 6 月份新增就业岗位 288,000 个以及失业率下降至 6.1% 视为好消息。",
+                "source_sentence": "There was a big jump in the number of people who report voluntarily working part-time.",
+                "source_translation": "自愿从事兼职工作的人数大幅增加。",
                 "locator_comparison": "借用了原文的词汇 <code>acceleration</code>, <code>job</code>, <code>creation</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“他们是对的。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4031,9 +4085,9 @@
           "stem": "Many people work part-time because they _______.",
           "stem_cn": "许多人兼职工作是因为他们_______。",
           "type": "因果推断题",
-          "locate_pid": 1,
-          "locate_sentence": "However, there is another important part of the jobs picture that was largely overlooked.",
-          "locate_sentence_cn": "然而，就业形势的另一个重要部分在很大程度上被忽视了。",
+          "locate_pid": 2,
+          "locate_sentence": "They take part-time work because this is all they can get.",
+          "locate_sentence_cn": "他们从事兼职工作，因为这是他们所能得到的一切。",
           "options": [
             {
               "key": "A",
@@ -4044,8 +4098,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "However, there is another important part of the jobs picture that was largely overlooked.",
-                "source_translation": "然而，就业形势的另一个重要部分在很大程度上被忽视了。",
+                "source_sentence": "They take part-time work because this is all they can get.",
+                "source_translation": "他们从事兼职工作，因为这是他们所能得到的一切。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“自愿从事兼职工作的人数大幅增加。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4061,8 +4115,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "However, there is another important part of the jobs picture that was largely overlooked.",
-                "source_translation": "然而，就业形势的另一个重要部分在很大程度上被忽视了。",
+                "source_sentence": "They take part-time work because this is all they can get.",
+                "source_translation": "他们从事兼职工作，因为这是他们所能得到的一切。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“自愿从事兼职工作的人数大幅增加。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4078,8 +4132,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "However, there is another important part of the jobs picture that was largely overlooked.",
-                "source_translation": "然而，就业形势的另一个重要部分在很大程度上被忽视了。",
+                "source_sentence": "They take part-time work because this is all they can get.",
+                "source_translation": "他们从事兼职工作，因为这是他们所能得到的一切。",
                 "locator_comparison": "选项核心词 <code>cannot</code>, <code>get</code>, <code>hands</code>（“无法找到全职工作”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“自愿从事兼职工作的人数大幅增加。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -4095,8 +4149,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "However, there is another important part of the jobs picture that was largely overlooked.",
-                "source_translation": "然而，就业形势的另一个重要部分在很大程度上被忽视了。",
+                "source_sentence": "They take part-time work because this is all they can get.",
+                "source_translation": "他们从事兼职工作，因为这是他们所能得到的一切。",
                 "locator_comparison": "借用了原文的词汇 <code>haven</code>, <code>seen</code>, <code>weakness</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“自愿从事兼职工作的人数大幅增加。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4111,9 +4165,9 @@
           "stem": "Involuntary part-time employment in the US _______.",
           "stem_cn": "美国的非自愿兼职工作_______。",
           "type": "段落推理题",
-          "locate_pid": 2,
-          "locate_sentence": "Before explaining the connection to the Obamacare, it is worth making an important distinction.",
-          "locate_sentence_cn": "在解释与奥巴马医改的联系之前，有必要先做一个重要的区分。",
+          "locate_pid": 3,
+          "locate_sentence": "There was an increase in involuntary part-time in June, but the general direction has been down.",
+          "locate_sentence_cn": "6月份非自愿兼职有所增加，但总体方向是下降的。",
           "options": [
             {
               "key": "A",
@@ -4124,8 +4178,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Before explaining the connection to the Obamacare, it is worth making an important distinction.",
-                "source_translation": "在解释与奥巴马医改的联系之前，有必要先做一个重要的区分。",
+                "source_sentence": "There was an increase in involuntary part-time in June, but the general direction has been down.",
+                "source_translation": "6月份非自愿兼职有所增加，但总体方向是下降的。",
                 "locator_comparison": "选项核心词 <code>shows</code>, <code>general</code>, <code>tendency</code>（“总体呈现下降趋势”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“许多从事兼职工作的人实际上想要全职工作。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -4141,8 +4195,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Before explaining the connection to the Obamacare, it is worth making an important distinction.",
-                "source_translation": "在解释与奥巴马医改的联系之前，有必要先做一个重要的区分。",
+                "source_sentence": "There was an increase in involuntary part-time in June, but the general direction has been down.",
+                "source_translation": "6月份非自愿兼职有所增加，但总体方向是下降的。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“许多从事兼职工作的人实际上想要全职工作。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4158,8 +4212,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Before explaining the connection to the Obamacare, it is worth making an important distinction.",
-                "source_translation": "在解释与奥巴马医改的联系之前，有必要先做一个重要的区分。",
+                "source_sentence": "There was an increase in involuntary part-time in June, but the general direction has been down.",
+                "source_translation": "6月份非自愿兼职有所增加，但总体方向是下降的。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“许多从事兼职工作的人实际上想要全职工作。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4175,8 +4229,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Before explaining the connection to the Obamacare, it is worth making an important distinction.",
-                "source_translation": "在解释与奥巴马医改的联系之前，有必要先做一个重要的区分。",
+                "source_sentence": "There was an increase in involuntary part-time in June, but the general direction has been down.",
+                "source_translation": "6月份非自愿兼职有所增加，但总体方向是下降的。",
                 "locator_comparison": "选项声称“低于经济衰退前”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“许多从事兼职工作的人实际上想要全职工作。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4191,9 +4245,9 @@
           "stem": "It can be learned that with Obamacare, _______.",
           "stem_cn": "可以看出，有了奥巴马医改，_______。",
           "type": "词义/例证题",
-          "locate_pid": 3,
-          "locate_sentence": "There was an increase in involuntary part-time in June, but the general direction has been down.",
-          "locate_sentence_cn": "6月份非自愿兼职有所增加，但总体方向是下降的。",
+          "locate_pid": 6,
+          "locate_sentence": "With Obamacare there is no longer a link between employment and insurance.",
+          "locate_sentence_cn": "有了奥巴马医改，就业和保险之间就不再有联系。",
           "options": [
             {
               "key": "A",
@@ -4204,8 +4258,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "There was an increase in involuntary part-time in June, but the general direction has been down.",
-                "source_translation": "6月份非自愿兼职有所增加，但总体方向是下降的。",
+                "source_sentence": "With Obamacare there is no longer a link between employment and insurance.",
+                "source_translation": "有了奥巴马医改，就业和保险之间就不再有联系。",
                 "locator_comparison": "选项声称“打工者买保险不再那么容易”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“非自愿兼职就业人数仍远高于经济衰退前，但较去年同期水平减少了 64 万人（7.9%）。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4221,8 +4275,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "There was an increase in involuntary part-time in June, but the general direction has been down.",
-                "source_translation": "6月份非自愿兼职有所增加，但总体方向是下降的。",
+                "source_sentence": "With Obamacare there is no longer a link between employment and insurance.",
+                "source_translation": "有了奥巴马医改，就业和保险之间就不再有联系。",
                 "locator_comparison": "选项声称“全职工作对于保险仍然至关重要”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“非自愿兼职就业人数仍远高于经济衰退前，但较去年同期水平减少了 64 万人（7.9%）。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4238,8 +4292,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "There was an increase in involuntary part-time in June, but the general direction has been down.",
-                "source_translation": "6月份非自愿兼职有所增加，但总体方向是下降的。",
+                "source_sentence": "With Obamacare there is no longer a link between employment and insurance.",
+                "source_translation": "有了奥巴马医改，就业和保险之间就不再有联系。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“非自愿兼职就业人数仍远高于经济衰退前，但较去年同期水平减少了 64 万人（7.9%）。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4255,8 +4309,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "There was an increase in involuntary part-time in June, but the general direction has been down.",
-                "source_translation": "6月份非自愿兼职有所增加，但总体方向是下降的。",
+                "source_sentence": "With Obamacare there is no longer a link between employment and insurance.",
+                "source_translation": "有了奥巴马医改，就业和保险之间就不再有联系。",
                 "locator_comparison": "选项核心词 <code>employment</code>, <code>longer</code>, <code>precondition</code>（“就业不再是获得保险的先决条件”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“非自愿兼职就业人数仍远高于经济衰退前，但较去年同期水平减少了 64 万人（7.9%）。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -4271,9 +4325,9 @@
           "stem": "The text mainly discusses _______.",
           "stem_cn": "正文主要讨论_______。",
           "type": "全文主旨题",
-          "locate_pid": 4,
-          "locate_sentence": "We know the difference between voluntary and involuntary part-time employment because people tell us.",
-          "locate_sentence_cn": "我们知道自愿和非自愿兼职工作之间的区别，因为人们告诉我们。",
+          "locate_pid": 6,
+          "locate_sentence": "However, there is another important part of the jobs picture that was largely overlooked.",
+          "locate_sentence_cn": "然而，就业形势的另一个重要部分在很大程度上被忽视了。",
           "options": [
             {
               "key": "A",
@@ -4284,8 +4338,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "We know the difference between voluntary and involuntary part-time employment because people tell us.",
-                "source_translation": "我们知道自愿和非自愿兼职工作之间的区别，因为人们告诉我们。",
+                "source_sentence": "However, there is another important part of the jobs picture that was largely overlooked.",
+                "source_translation": "然而，就业形势的另一个重要部分在很大程度上被忽视了。",
                 "locator_comparison": "选项核心词 <code>employment</code>（“在美国就业”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“劳工部使用的调查询问人们在参考周内的工作时间是否少于 35 小时。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -4301,8 +4355,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "We know the difference between voluntary and involuntary part-time employment because people tell us.",
-                "source_translation": "我们知道自愿和非自愿兼职工作之间的区别，因为人们告诉我们。",
+                "source_sentence": "However, there is another important part of the jobs picture that was largely overlooked.",
+                "source_translation": "然而，就业形势的另一个重要部分在很大程度上被忽视了。",
                 "locator_comparison": "借用了原文的词汇 <code>part</code>, <code>timer</code>, <code>classification</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“劳工部使用的调查询问人们在参考周内的工作时间是否少于 35 小时。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4318,8 +4372,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "We know the difference between voluntary and involuntary part-time employment because people tell us.",
-                "source_translation": "我们知道自愿和非自愿兼职工作之间的区别，因为人们告诉我们。",
+                "source_sentence": "However, there is another important part of the jobs picture that was largely overlooked.",
+                "source_translation": "然而，就业形势的另一个重要部分在很大程度上被忽视了。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“劳工部使用的调查询问人们在参考周内的工作时间是否少于 35 小时。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4328,15 +4382,15 @@
             },
             {
               "key": "D",
-              "text": "Obamacare’s trouble\nᆇี൫ज@JOEE ༯໶",
-              "text_cn": "Obamacare’s trouble\nᆇี൫ज@JOEE ༯໶",
+              "text": "Obamacare’s trouble",
+              "text_cn": "Obamacare’s trouble",
               "is_correct": false,
               "trap_type": "干扰项（偷换概念 / 偏离主干）",
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "We know the difference between voluntary and involuntary part-time employment because people tell us.",
-                "source_translation": "我们知道自愿和非自愿兼职工作之间的区别，因为人们告诉我们。",
+                "source_sentence": "However, there is another important part of the jobs picture that was largely overlooked.",
+                "source_translation": "然而，就业形势的另一个重要部分在很大程度上被忽视了。",
                 "locator_comparison": "借用了原文的词汇 <code>Obamacare</code>, <code>trouble</code>, <code>JOEE</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“劳工部使用的调查询问人们在参考周内的工作时间是否少于 35 小时。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",

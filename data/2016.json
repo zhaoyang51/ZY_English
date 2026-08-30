@@ -664,9 +664,9 @@
           "stem": "Cortina holds that early exposure to computer science makes it easier to ______.",
           "stem_cn": "Cortina认为，早期接触计算机科学使______更容易。",
           "type": "事实细节题",
-          "locate_pid": 0,
-          "locate_sentence": "It’s true that high-school coding classes aren’t essential for learning computer science in college.",
-          "locate_sentence_cn": "确实，高中编码课程对于大学学习计算机科学来说并不是必需的。",
+          "locate_pid": 1,
+          "locate_sentence": "It’s not as hard for them to transform their thought processes as it is for older students.",
+          "locate_sentence_cn": "对他们来说，改变思维过程并不像高年级学生那么难。",
           "options": [
             {
               "key": "A",
@@ -677,8 +677,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "It’s true that high-school coding classes aren’t essential for learning computer science in college.",
-                "source_translation": "确实，高中编码课程对于大学学习计算机科学来说并不是必需的。",
+                "source_sentence": "It’s not as hard for them to transform their thought processes as it is for older students.",
+                "source_translation": "对他们来说，改变思维过程并不像高年级学生那么难。",
                 "locator_comparison": "选项声称“完成未来的工作培训”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“卡内基梅隆大学计算机科学学院副院长汤姆·科尔蒂纳 (Tom Cortina) 表示，没有经验的学生可以在学习一些入门课程后迎头赶上。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -694,8 +694,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "It’s true that high-school coding classes aren’t essential for learning computer science in college.",
-                "source_translation": "确实，高中编码课程对于大学学习计算机科学来说并不是必需的。",
+                "source_sentence": "It’s not as hard for them to transform their thought processes as it is for older students.",
+                "source_translation": "对他们来说，改变思维过程并不像高年级学生那么难。",
                 "locator_comparison": "选项核心词 <code>remodel</code>, <code>way</code>, <code>thinking</code>（“重塑思维方式”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“卡内基梅隆大学计算机科学学院副院长汤姆·科尔蒂纳 (Tom Cortina) 表示，没有经验的学生可以在学习一些入门课程后迎头赶上。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -711,8 +711,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "It’s true that high-school coding classes aren’t essential for learning computer science in college.",
-                "source_translation": "确实，高中编码课程对于大学学习计算机科学来说并不是必需的。",
+                "source_sentence": "It’s not as hard for them to transform their thought processes as it is for older students.",
+                "source_translation": "对他们来说，改变思维过程并不像高年级学生那么难。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“卡内基梅隆大学计算机科学学院副院长汤姆·科尔蒂纳 (Tom Cortina) 表示，没有经验的学生可以在学习一些入门课程后迎头赶上。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -728,8 +728,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "It’s true that high-school coding classes aren’t essential for learning computer science in college.",
-                "source_translation": "确实，高中编码课程对于大学学习计算机科学来说并不是必需的。",
+                "source_sentence": "It’s not as hard for them to transform their thought processes as it is for older students.",
+                "source_translation": "对他们来说，改变思维过程并不像高年级学生那么难。",
                 "locator_comparison": "借用了原文的词汇 <code>perfect</code>, <code>artwork</code>, <code>production</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“卡内基梅隆大学计算机科学学院副院长汤姆·科尔蒂纳 (Tom Cortina) 表示，没有经验的学生可以在学习一些入门课程后迎头赶上。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -744,9 +744,9 @@
           "stem": "In delivering lessons for high-schoolers, Flatiron has considered their ______.",
           "stem_cn": "在为高中生提供课程时，Flatiron 考虑了他们的______。",
           "type": "因果推断题",
-          "locate_pid": 1,
-          "locate_sentence": "However, Cortina said, early exposure is beneficial.",
-          "locate_sentence_cn": "然而，科尔蒂纳说，早期接触是有益的。",
+          "locate_pid": 3,
+          "locate_sentence": "The Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that’s become popular for adults looking for a career change.",
+          "locate_sentence_cn": "人们付费学习编程的 Flatiron 学校最初是众多编程训练营之一，现在受到寻求职业转变的成年人的欢迎。",
           "options": [
             {
               "key": "A",
@@ -757,8 +757,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "However, Cortina said, early exposure is beneficial.",
-                "source_translation": "然而，科尔蒂纳说，早期接触是有益的。",
+                "source_sentence": "The Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that’s become popular for adults looking for a career change.",
+                "source_translation": "人们付费学习编程的 Flatiron 学校最初是众多编程训练营之一，现在受到寻求职业转变的成年人的欢迎。",
                 "locator_comparison": "选项声称“经验”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“当年幼的孩子学习计算机科学时，他们知道这不仅仅是一串令人困惑的、无穷无尽的字母和数字，而且是构建应用程序、创作艺术品或测试假设的工具。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -774,8 +774,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "However, Cortina said, early exposure is beneficial.",
-                "source_translation": "然而，科尔蒂纳说，早期接触是有益的。",
+                "source_sentence": "The Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that’s become popular for adults looking for a career change.",
+                "source_translation": "人们付费学习编程的 Flatiron 学校最初是众多编程训练营之一，现在受到寻求职业转变的成年人的欢迎。",
                 "locator_comparison": "选项核心词 <code>interest</code>（“兴趣”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“当年幼的孩子学习计算机科学时，他们知道这不仅仅是一串令人困惑的、无穷无尽的字母和数字，而且是构建应用程序、创作艺术品或测试假设的工具。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -791,8 +791,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "However, Cortina said, early exposure is beneficial.",
-                "source_translation": "然而，科尔蒂纳说，早期接触是有益的。",
+                "source_sentence": "The Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that’s become popular for adults looking for a career change.",
+                "source_translation": "人们付费学习编程的 Flatiron 学校最初是众多编程训练营之一，现在受到寻求职业转变的成年人的欢迎。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“当年幼的孩子学习计算机科学时，他们知道这不仅仅是一串令人困惑的、无穷无尽的字母和数字，而且是构建应用程序、创作艺术品或测试假设的工具。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -808,8 +808,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "However, Cortina said, early exposure is beneficial.",
-                "source_translation": "然而，科尔蒂纳说，早期接触是有益的。",
+                "source_sentence": "The Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that’s become popular for adults looking for a career change.",
+                "source_translation": "人们付费学习编程的 Flatiron 学校最初是众多编程训练营之一，现在受到寻求职业转变的成年人的欢迎。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“当年幼的孩子学习计算机科学时，他们知道这不仅仅是一串令人困惑的、无穷无尽的字母和数字，而且是构建应用程序、创作艺术品或测试假设的工具。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -824,9 +824,9 @@
           "stem": "Deborah Seehorn believes that the skills learned at Flatiron will ______.",
           "stem_cn": "Deborah Seehorn 相信在 Flatiron 学到的技能将会______。",
           "type": "段落推理题",
-          "locate_pid": 2,
-          "locate_sentence": "Students also benefit from learning something about coding before they get to college, where introductory computer-science classes are packed to the brim, which can drive the less- experienced or -determined students away.",
-          "locate_sentence_cn": "学生们还可以在上大学之前学习一些关于编码的知识，因为大学里计算机科学入门课程排得满满的，这可能会赶走经验不足或意志坚定的学生。",
+          "locate_pid": 4,
+          "locate_sentence": "Programming languages have a quick turnover, so the “Ruby on Rails” language they learned may not even be relevant by the time they enter the job market.",
+          "locate_sentence_cn": "编程语言的更新换代很快，因此他们所学的“Ruby on Rails”语言在他们进入就业市场时甚至可能不再适用。",
           "options": [
             {
               "key": "A",
@@ -837,8 +837,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Students also benefit from learning something about coding before they get to college, where introductory computer-science classes are packed to the brim, which can drive the less- experienced or -determined students away.",
-                "source_translation": "学生们还可以在上大学之前学习一些关于编码的知识，因为大学里计算机科学入门课程排得满满的，这可能会赶走经验不足或意志坚定的学生。",
+                "source_sentence": "Programming languages have a quick turnover, so the “Ruby on Rails” language they learned may not even be relevant by the time they enter the job market.",
+                "source_translation": "编程语言的更新换代很快，因此他们所学的“Ruby on Rails”语言在他们进入就业市场时甚至可能不再适用。",
                 "locator_comparison": "选项核心词 <code>help</code>, <code>students</code>, <code>learn</code>（“帮助学生学习其他计算机语言”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“The Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that’s become popular for adults looking for a career change”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -854,8 +854,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Students also benefit from learning something about coding before they get to college, where introductory computer-science classes are packed to the brim, which can drive the less- experienced or -determined students away.",
-                "source_translation": "学生们还可以在上大学之前学习一些关于编码的知识，因为大学里计算机科学入门课程排得满满的，这可能会赶走经验不足或意志坚定的学生。",
+                "source_sentence": "Programming languages have a quick turnover, so the “Ruby on Rails” language they learned may not even be relevant by the time they enter the job market.",
+                "source_translation": "编程语言的更新换代很快，因此他们所学的“Ruby on Rails”语言在他们进入就业市场时甚至可能不再适用。",
                 "locator_comparison": "选项声称“新技术到来时必须升级”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“The Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that’s become popular for adults looking for a career change”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -871,8 +871,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Students also benefit from learning something about coding before they get to college, where introductory computer-science classes are packed to the brim, which can drive the less- experienced or -determined students away.",
-                "source_translation": "学生们还可以在上大学之前学习一些关于编码的知识，因为大学里计算机科学入门课程排得满满的，这可能会赶走经验不足或意志坚定的学生。",
+                "source_sentence": "Programming languages have a quick turnover, so the “Ruby on Rails” language they learned may not even be relevant by the time they enter the job market.",
+                "source_translation": "编程语言的更新换代很快，因此他们所学的“Ruby on Rails”语言在他们进入就业市场时甚至可能不再适用。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“The Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that’s become popular for adults looking for a career change”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -888,8 +888,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Students also benefit from learning something about coding before they get to college, where introductory computer-science classes are packed to the brim, which can drive the less- experienced or -determined students away.",
-                "source_translation": "学生们还可以在上大学之前学习一些关于编码的知识，因为大学里计算机科学入门课程排得满满的，这可能会赶走经验不足或意志坚定的学生。",
+                "source_sentence": "Programming languages have a quick turnover, so the “Ruby on Rails” language they learned may not even be relevant by the time they enter the job market.",
+                "source_translation": "编程语言的更新换代很快，因此他们所学的“Ruby on Rails”语言在他们进入就业市场时甚至可能不再适用。",
                 "locator_comparison": "借用了原文的词汇 <code>enable</code>, <code>students</code>, <code>big</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“The Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that’s become popular for adults looking for a career change”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -904,9 +904,9 @@
           "stem": "According to the last paragraph, Flatiron students are expected to ______.",
           "stem_cn": "根据最后一段，Flatiron 学生应该______。",
           "type": "词义/例证题",
-          "locate_pid": 3,
-          "locate_sentence": "The Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that’s become popular for adults looking for a career change.",
-          "locate_sentence_cn": "人们付费学习编程的 Flatiron 学校最初是众多编程训练营之一，现在受到寻求职业转变的成年人的欢迎。",
+          "locate_pid": 5,
+          "locate_sentence": "Indeed, the Flatiron students might not go into IT at all.",
+          "locate_sentence_cn": "事实上，Flatiron 的学生可能根本不会进入 IT 行业。",
           "options": [
             {
               "key": "A",
@@ -917,8 +917,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "The Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that’s become popular for adults looking for a career change.",
-                "source_translation": "人们付费学习编程的 Flatiron 学校最初是众多编程训练营之一，现在受到寻求职业转变的成年人的欢迎。",
+                "source_sentence": "Indeed, the Flatiron students might not go into IT at all.",
+                "source_translation": "事实上，Flatiron 的学生可能根本不会进入 IT 行业。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“高中生学习相同的课程，但“我们尝试根据他们感兴趣的内容安排课程，”讲师维多利亚·弗里德曼 (Victoria Friedman) 说。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -934,8 +934,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "The Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that’s become popular for adults looking for a career change.",
-                "source_translation": "人们付费学习编程的 Flatiron 学校最初是众多编程训练营之一，现在受到寻求职业转变的成年人的欢迎。",
+                "source_sentence": "Indeed, the Flatiron students might not go into IT at all.",
+                "source_translation": "事实上，Flatiron 的学生可能根本不会进入 IT 行业。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“高中生学习相同的课程，但“我们尝试根据他们感兴趣的内容安排课程，”讲师维多利亚·弗里德曼 (Victoria Friedman) 说。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -951,8 +951,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that’s become popular for adults looking for a career change.",
-                "source_translation": "人们付费学习编程的 Flatiron 学校最初是众多编程训练营之一，现在受到寻求职业转变的成年人的欢迎。",
+                "source_sentence": "Indeed, the Flatiron students might not go into IT at all.",
+                "source_translation": "事实上，Flatiron 的学生可能根本不会进入 IT 行业。",
                 "locator_comparison": "选项核心词 <code>become</code>, <code>better</code>, <code>prepared</code>（“为数字化世界做好更好的准备”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“高中生学习相同的课程，但“我们尝试根据他们感兴趣的内容安排课程，”讲师维多利亚·弗里德曼 (Victoria Friedman) 说。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -968,8 +968,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "The Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that’s become popular for adults looking for a career change.",
-                "source_translation": "人们付费学习编程的 Flatiron 学校最初是众多编程训练营之一，现在受到寻求职业转变的成年人的欢迎。",
+                "source_sentence": "Indeed, the Flatiron students might not go into IT at all.",
+                "source_translation": "事实上，Flatiron 的学生可能根本不会进入 IT 行业。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“高中生学习相同的课程，但“我们尝试根据他们感兴趣的内容安排课程，”讲师维多利亚·弗里德曼 (Victoria Friedman) 说。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -984,9 +984,9 @@
           "stem": "The word “coax” (Paragraph 6) is closest in meaning to ______.",
           "stem_cn": "“coax”（第 6 段）一词的含义最接近 ______。",
           "type": "全文主旨题",
-          "locate_pid": 4,
-          "locate_sentence": "The students in the Flatiron class probably won’t drop out of high school and build the next Facebook.",
-          "locate_sentence_cn": "Flatiron 班的学生可能不会从高中辍学并创建下一个 Facebook。",
+          "locate_pid": 5,
+          "locate_sentence": "But creating a future army of coders is not the sole purpose of the classes.",
+          "locate_sentence_cn": "但创建一支未来的程序员大军并不是这些课程的唯一目的。",
           "options": [
             {
               "key": "A",
@@ -997,8 +997,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The students in the Flatiron class probably won’t drop out of high school and build the next Facebook.",
-                "source_translation": "Flatiron 班的学生可能不会从高中辍学并创建下一个 Facebook。",
+                "source_sentence": "But creating a future army of coders is not the sole purpose of the classes.",
+                "source_translation": "但创建一支未来的程序员大军并不是这些课程的唯一目的。",
                 "locator_comparison": "选项核心词 <code>persuade</code>（“说服”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“编程语言的更新换代很快，因此他们所学的“Ruby on Rails”语言在他们进入就业市场时甚至可能不再适用。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -1014,8 +1014,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "The students in the Flatiron class probably won’t drop out of high school and build the next Facebook.",
-                "source_translation": "Flatiron 班的学生可能不会从高中辍学并创建下一个 Facebook。",
+                "source_sentence": "But creating a future army of coders is not the sole purpose of the classes.",
+                "source_translation": "但创建一支未来的程序员大军并不是这些课程的唯一目的。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“编程语言的更新换代很快，因此他们所学的“Ruby on Rails”语言在他们进入就业市场时甚至可能不再适用。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1031,8 +1031,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "The students in the Flatiron class probably won’t drop out of high school and build the next Facebook.",
-                "source_translation": "Flatiron 班的学生可能不会从高中辍学并创建下一个 Facebook。",
+                "source_sentence": "But creating a future army of coders is not the sole purpose of the classes.",
+                "source_translation": "但创建一支未来的程序员大军并不是这些课程的唯一目的。",
                 "locator_comparison": "选项声称“误导”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“编程语言的更新换代很快，因此他们所学的“Ruby on Rails”语言在他们进入就业市场时甚至可能不再适用。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1048,8 +1048,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "The students in the Flatiron class probably won’t drop out of high school and build the next Facebook.",
-                "source_translation": "Flatiron 班的学生可能不会从高中辍学并创建下一个 Facebook。",
+                "source_sentence": "But creating a future army of coders is not the sole purpose of the classes.",
+                "source_translation": "但创建一支未来的程序员大军并不是这些课程的唯一目的。",
                 "locator_comparison": "选项声称“挑战”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“编程语言的更新换代很快，因此他们所学的“Ruby on Rails”语言在他们进入就业市场时甚至可能不再适用。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1170,10 +1170,10 @@
         },
         {
           "pid": 1,
-          "text": "The crash was a major reason the U.S. Fish and Wildlife Service (USFWS) decided to formally list the bird as threatened. “The lesser prairie chicken is in a desperate situation,” said USFWS Director Daniel Ashe. Some environmentalists, however, were disappointed. They had pushed the agency to designate the bird as “endangered,” a status that gives federal officials greater regulatory power to crack down on threats. But Ashe and others argued that the “threatened” tag gave the federal government flexibility to try out new, potentially less confrontational conservation approaches. In particular, they called for forging closer collaborations with western state governments, which are often uneasy with federal action, and with the private landowners who control an estimated 95% of the prairie chicken’s habitat. Under the plan, for example, the agency said it would not prosecute landowners or businesses that unintentionally kill, harm, or disturb the bird, as long as they had signed a range-wide management plan to restore prairie chicken habitat. Negotiated by USFWS and the states, the plan requires individuals and businesses that damage habitat as part of their operations to pay into a fund to replace every acre destroyed with 2 new acres of suitable habitat. The fund will also be used to compensate landowners who set aside habitat. USFWS also set an interim goal of restoring prairie chicken populations to an annual average of 67,000 birds over the next 10 years. And it gives the Western Association of Fish and Wildlife Agencies (WAFWA), a coalition of state agencies, the job of monitoring progress. Overall, the idea is to let “states remain in the driver’s seat for managing the species,” Ashe said. Not everyone buys the win-win rhetoric. Some Congress members are trying to block the plan, and at least a dozen industry groups, four states, and three environmental groups are challenging it in federal court. Not surprisingly, industry groups and states generally argue it goes too far; environmentalists say it doesn’t go far enough. “The federal government is giving responsibility for managing the bird to the same industries that are pushing it to extinction,” says biologist Jay Lininger.",
-          "translation": "这次事故是美国鱼类和野生动物管理局（USFWS）决定正式将这种鸟列为受威胁的主要原因。 “小草原鸡正处于绝望的境地，”美国鱼类和野生动物管理局局长丹尼尔·阿什说。然而，一些环保人士却感到失望。他们敦促该机构将这种鸟指定为“濒危”，这一状态赋予联邦官员更大的监管权力来打击威胁。但阿什和其他人认为，“受威胁”标签使联邦政府能够灵活地尝试新的、可能不那么对抗性的保护方法。他们特别呼吁与西部州政府和私人土地所有者建立更密切的合作，西部州政府往往对联邦政府的行动感到不安，而私人土地所有者控制着大约 95% 的草原鸡栖息地。例如，根据该计划，该机构表示，只要土地所有者或企业签署了恢复草原鸡栖息地的大范围管理计划，就不会起诉无意杀死、伤害或扰乱鸟类的土地所有者或企业。经 USFWS 和各州谈判，该计划要求在其运营过程中破坏栖息地的个人和企业缴纳一笔基金，以用 2 英亩新的合适栖息地取代每被破坏的英亩。该基金还将用于补偿预留栖息地的土地所有者。 USFWS 还设定了一个临时目标，即在未来 10 年内将草原鸡数量恢复到年均 67,000 只。它还赋予西部鱼类和野生动物机构​​协会（WAFWA）这个国家机构联盟监督进展的职责。阿什说，总体而言，这个想法是让“各州继续掌握物种管理的主导权”。并非所有人都相信双赢的说法。一些国会议员正试图阻止该计划，至少有十几个行业团体、四个州和三个环保组织正在联邦法院对该计划提出质疑。毫不奇怪，行业组织和各州普遍认为这种做法太过分了。环保人士表示，这还远远不够。生物学家杰伊·利宁格 (Jay Lininger) 表示：“联邦政府将管理这种鸟类的责任交给了那些导致其灭绝的行业。”",
-          "slashed_text": "The crash was a major reason the U.S. Fish and Wildlife Service (USFWS) decided to formally list the bird as threatened. “The lesser prairie chicken is in a desperate situation , / ” said USFWS Director Daniel Ashe. Some environmentalists , / however , / were disappointed. They had pushed the agency to designate the bird as “endangered , / ” a status / that gives federal officials greater regulatory power to crack down / on threats. But Ashe and others argued / that the “threatened” tag gave the federal government flexibility to try out new , / potentially less confrontational conservation approaches. In particular , / they called / for forging closer collaborations / with western state governments , / which are often uneasy / with federal action , / and with the private landowners / who control an estimated 95% of the prairie chicken’s habitat. Under the plan , / for example , / the agency said it would not prosecute landowners or businesses / that unintentionally kill , / harm , / or disturb the bird , / as long as they had signed a range-wide management plan to restore prairie chicken habitat. Negotiated by USFWS and the states , / the plan requires individuals and businesses / that damage habitat as part of their operations to pay into a fund to replace every acre destroyed with 2 new acres of suitable habitat. The fund will also be used to compensate landowners / who set aside habitat. USFWS also set an interim goal of restoring prairie chicken populations to an annual average of 67 , / 000 birds over the next 10 years. And it gives the Western Association of Fish and Wildlife Agencies (WAFWA) , / a coalition of state agencies , / the job of monitoring progress. Overall , / the idea is to let “states remain in the driver’s seat / for managing the species , / ” Ashe said. Not everyone buys the win-win rhetoric. Some Congress members are trying to block the plan , / and / at least a dozen industry groups , / four states , / and three environmental groups are challenging it / in federal court. Not surprisingly , / industry groups and states generally argue it goes too far ; / environmentalists say it doesn’t go far enough. “The federal government is giving responsibility / for managing the bird to the same industries / that are pushing it to extinction , / ” says biologist Jay Lininger.",
-          "chunk_translation": "种群数量的暴跌是美国相关部门做出决定的主要原因。 美国鱼类及野生动物管理局决定正式将该鸟类列为受威胁物种。 “小草原榛鸡正处于极其危急的境地，” / 美国鱼类及野生动物管理局局长丹·阿什说道。 一些环保人士， / 然而， / 却对这一决定感到失望。 他们此前一直敦促该机构 / 将这种鸟类定为濒危物种， / 这一级别地位 / 能提供更强有力的法律保护。 但阿什等人坚称， / “受威胁”这一标签能给予联邦官员 / 更大的灵活性。 特别是， / 他们呼吁 / 建立更加紧密的协作关系 / 与当地社区和企业合作， / 以保护 / 该鸟类的栖息地， / 而在同时不破坏 / 当地的地方经济。 根据该保护计划， / 例如， / 该机构表示 / 它将不会惩罚石油和天然气企业 / 那些无意中伤害了 / 草原榛鸡的企业， / 只要它们参与了经批准的保护规划。 经由该机构与各州共同协商制定， / 该计划要求行业参与各方缴纳资金 / 汇入一项专门的保护基金。 该项基金还将用于 / 补偿那些划出土地用于生态保护的土地所有者。 该管理局还设立了一项中期目标， / 在未来10年内将草原榛鸡的数量恢复到平均67,000只的水平。 并且该计划赋予了西部鱼类和野生动物机构协会 / 相应的权力 / 来统一协调和管理这项生态保护工作。 总的来说， / 其核心思路是让“各州在生态保护中 / 保持主导地位 / 处于保护工作的驾驶座掌控全局”。 并非人人都买账这种所谓的‘双赢’说辞。 一些国会议员正试图阻挠这一计划， / 他们辩称 / 该计划仍然会造成就业岗位的损失， / 并且 / 损害 / 能源生产产业。 不足为奇的是， / 各行业团体和各州普遍更倾向于 / 联邦政府所采取的这种灵活适度的处理方式。 “联邦政府正将保护的重任 / 生态保护的责任， / 交予那些人手中 / 那些最熟悉这片土地的人，”一位行业发言人说道。",
+          "text": "The crash was a major reason the U.S. Fish and Wildlife Service (USFWS) decided to formally list the bird as threatened. “The lesser prairie chicken is in a desperate situation,” said USFWS Director Daniel Ashe. Some environmentalists, however, were disappointed. They had pushed the agency to designate the bird as “endangered,” a status that gives federal officials greater regulatory power to crack down on threats. But Ashe and others argued that the “threatened” tag gave the federal government flexibility to try out new, potentially less confrontational conservation approaches. In particular, they called for forging closer collaborations with western state governments, which are often uneasy with federal action, and with the private landowners who control an estimated 95% of the prairie chicken’s habitat.",
+          "translation": "这次事故是美国坠机的主要原因鱼类和野生动物管理局（USFWS）决定正式将这种鸟列为受威胁鸟类。“小草原鸡正处于绝望的境地，”美国鱼类和野生动物管理局局长丹尼尔·阿什说。然而，一些环保人士却感到失望。他们敦促该机构将这种鸟指定为“濒临灭绝”，这一状态赋予联邦官员更大的监管权力来打击威胁。但阿什和其他人认为，“受威胁”标签使联邦政府能够灵活地尝试新的、可能不那么对抗性的保护方法。他们特别呼吁与西部州政府和私人土地所有者建立更密切的合作，西部州政府往往对联邦政府的行动感到不安，而私人土地所有者控制着大约 95% 的草原鸡栖息地。",
+          "slashed_text": "The crash was a major reason the U.S. Fish and Wildlife Service (USFWS) decided to formally list the bird as threatened. “The lesser prairie chicken is in a desperate situation , / ” said USFWS Director Daniel Ashe. Some environmentalists , / however , / were disappointed. They had pushed the agency to designate the bird as “endangered , / ” a status / that gives federal officials greater regulatory power to crack down / on threats. But Ashe and others argued / that the “threatened” tag gave the federal government flexibility to try out new , / potentially less confrontational conservation approaches. In particular , / they called / for forging closer collaborations / with western state governments , / which are often uneasy / with federal action , / and with the private landowners / who control an estimated 95% of the prairie chicken’s habitat.",
+          "chunk_translation": "种群数量的暴跌是美国相关部门做出决定的主要原因。 美国鱼类及野生动物管理局决定正式将该鸟类列为受威胁物种。 “小草原榛鸡正处于极其危急的境地，” / 美国鱼类及野生动物管理局局长丹·阿什说道。 一些环保人士， / 然而， / 却对这一决定感到失望。 他们此前一直敦促该机构 / 将这种鸟类定为濒危物种， / 这一级别地位 / 能提供更强有力的法律保护。 但阿什等人坚称， / “受威胁”这一标签能给予联邦官员 / 更大的灵活性。 特别是， / 他们呼吁 / 建立更加紧密的协作关系 / 与当地社区和企业合作， / 以保护 / 该鸟类的栖息地， / 而在同时不破坏 / 当地的地方经济。",
           "vocabulary": [
             {
               "word": "crash",
@@ -1219,6 +1219,114 @@
               "word": "formally",
               "pos": "adv.",
               "definition": "adv. 正式地；按传统（礼仪或规则）"
+            }
+          ]
+        },
+        {
+          "pid": 2,
+          "text": "Under the plan, for example, the agency said it would not prosecute landowners or businesses that unintentionally kill, harm, or disturb the bird, as long as they had signed a range-wide management plan to restore prairie chicken habitat. Negotiated by USFWS and the states, the plan requires individuals and businesses that damage habitat as part of their operations to pay into a fund to replace every acre destroyed with 2 new acres of suitable habitat. The fund will also be used to compensate landowners who set aside habitat. USFWS also set an interim goal of restoring prairie chicken populations to an annual average of 67,000 birds over the next 10 years. And it gives the Western Association of Fish and Wildlife Agencies (WAFWA), a coalition of state agencies, the job of monitoring progress. Overall, the idea is to let “states remain in the driver’s seat for managing the species,” Ashe said.",
+          "translation": "例如，根据该计划，该机构表示，只要土地所有者或企业签署了恢复草原鸡栖息地的大范围管理计划，就不会起诉无意杀死、伤害或扰乱鸟类的土地所有者或企业。经 USFWS 和各州谈判，该计划要求在其运营过程中破坏栖息地的个人和企业缴纳一笔基金，以用 2 英亩新的合适栖息地取代每被破坏的英亩。该基金还将用于补偿预留栖息地的土地所有者。USFWS 还设定了一个临时目标，即在未来 10 年内将草原鸡数量恢复到年均 67,000 只。它还赋予西部鱼类和野生动物机构​​协会（WAFWA）这个国家机构联盟监督进展的职责。阿什说，总体而言，这个想法是让“各州继续掌握物种管理的主导权”。",
+          "slashed_text": "Under the plan , / for example , / the agency said it would not prosecute landowners or businesses / that unintentionally kill , / harm , / or disturb the bird , / as long as they had signed a range-wide management plan to restore prairie chicken habitat. Negotiated by USFWS and the states , / the plan requires individuals and businesses / that damage habitat as part of their operations to pay into a fund to replace every acre destroyed with 2 new acres of suitable habitat. The fund will also be used to compensate landowners / who set aside habitat. USFWS also set an interim goal of restoring prairie chicken populations to an annual average of 67 , / 000 birds over the next 10 years. And it gives the Western Association of Fish and Wildlife Agencies (WAFWA) , / a coalition of state agencies , / the job of monitoring progress. Overall , / the idea is to let “states remain in the driver’s seat / for managing the species , / ” Ashe said.",
+          "chunk_translation": "根据该保护计划， / 例如， / 该机构表示 / 它将不会惩罚石油和天然气企业 / 那些无意中伤害了 / 草原榛鸡的企业， / 只要它们参与了经批准的保护规划。 经由该机构与各州共同协商制定， / 该计划要求行业参与各方缴纳资金 / 汇入一项专门的保护基金。 该项基金还将用于 / 补偿那些划出土地用于生态保护的土地所有者。 该管理局还设立了一项中期目标， / 在未来10年内将草原榛鸡的数量恢复到平均67,000只的水平。 并且该计划赋予了西部鱼类和野生动物机构协会 / 相应的权力 / 来统一协调和管理这项生态保护工作。 总的来说， / 其核心思路是让“各州在生态保护中 / 保持主导地位 / 处于保护工作的驾驶座掌控全局”。",
+          "vocabulary": [
+            {
+              "word": "Fish",
+              "pos": "n.",
+              "definition": "n. 鱼；鱼肉"
+            },
+            {
+              "word": "Wildlife",
+              "pos": "n.",
+              "definition": "n. 野生动植物；adj. 野生动植物的"
+            },
+            {
+              "word": "USFWS",
+              "pos": "abbr.",
+              "definition": "abbr. 美国鱼类及野生动植物管理局（United States Fish and Wildlife Service）"
+            },
+            {
+              "word": "plan",
+              "pos": "n.",
+              "definition": "n. （详细）规划；（养老金、储蓄、保险）方案；计划，打算；平面图，详图；分布图，示意图；（卫理公会教堂）巡回传教士名单；（手机流量、话费等）套餐；v. 计划，筹划；打算；设计；期望，预料；【名】 （Plan）（瑞典）普兰，（法）普朗（人名）"
+            },
+            {
+              "word": "for",
+              "pos": "prep.",
+              "definition": "prep. （表示对象、用途等）给，对；为了，以帮助；为了（表示目的、用途）；（表示感情的对象）对于；代表；受雇于；意思是，表示；支持，拥护；因为，由于；为得到，为获取；换取；就……而言；对（某人）来说；……后（更好、更快乐等）；（表示去向）往，向；（用来表示时间或距离）达，计；（安排或预定）在……时；为 （某场合或时间）；由……负责；要不是；想要；取（某人的）名；表名单或系列中的某些部分；表数字或数量间的联系；表一顿饭中的食物；conj. 因为，由于；abbr. 外国（foreign）；林业（forestry）；adv. 支持地"
+            },
+            {
+              "word": "example",
+              "pos": "n.",
+              "definition": "n. 例子，例证；榜样，楷模；典型，范例；例句，例题；警戒，受罚（以示警告）者；v. 得到说明，可加以举例说明"
+            },
+            {
+              "word": "agency",
+              "pos": "n.",
+              "definition": "n. 代理行，经销处；政府专门机构，政府内的局，部，处；（尤指产生某效果的）作用；起作用的事物（或人）;社会行为者独立选择的能力"
+            },
+            {
+              "word": "not",
+              "pos": "adv.",
+              "definition": "adv. 表示否定，不（常与动词或助动词连用构成否定句，也可表示部分否定或代替前面已出现的否定内容）；n. “非”（计算机、逻辑学中逻辑运算的一种，即逻辑非）"
+            },
+            {
+              "word": "prosecute",
+              "pos": "v.",
+              "definition": "v. 起诉，控告，检举；（律师在法庭上）指控，公诉；<正式>继续（尤指战争）；<古>继续从事（某职业），追求"
+            }
+          ]
+        },
+        {
+          "pid": 3,
+          "text": "Not everyone buys the win-win rhetoric. Some Congress members are trying to block the plan, and at least a dozen industry groups, four states, and three environmental groups are challenging it in federal court. Not surprisingly, industry groups and states generally argue it goes too far; environmentalists say it doesn’t go far enough. “The federal government is giving responsibility for managing the bird to the same industries that are pushing it to extinction,” says biologist Jay Lininger.",
+          "translation": "并非所有人都相信双赢的说法。一些国会议员正试图阻止该计划，至少有十几个行业团体、四个州和三个环保组织正在联邦法院对该计划提出质疑。不出所料，行业组织和各州普遍认为这太过了；环保人士表示，这还远远不够。生物学家杰伊·利宁格 (Jay Lininger) 表示：“联邦政府将管理这种鸟类的责任交给了那些导致其灭绝的行业。”",
+          "slashed_text": "Not everyone buys the win-win rhetoric. Some Congress members are trying to block the plan , / and / at least a dozen industry groups , / four states , / and three environmental groups are challenging it / in federal court. Not surprisingly , / industry groups and states generally argue it goes too far ; / environmentalists say it doesn’t go far enough. “The federal government is giving responsibility / for managing the bird to the same industries / that are pushing it to extinction , / ” says biologist Jay Lininger.",
+          "chunk_translation": "并非人人都买账这种所谓的‘双赢’说辞。 一些国会议员正试图阻挠这一计划， / 他们辩称 / 该计划仍然会造成就业岗位的损失， / 并且 / 损害 / 能源生产产业。 不足为奇的是， / 各行业团体和各州普遍更倾向于 / 联邦政府所采取的这种灵活适度的处理方式。 “联邦政府正将保护的重任 / 生态保护的责任， / 交予那些人手中 / 那些最熟悉这片土地的人，”一位行业发言人说道。",
+          "vocabulary": [
+            {
+              "word": "Not",
+              "pos": "adv.",
+              "definition": "adv. 表示否定，不（常与动词或助动词连用构成否定句，也可表示部分否定或代替前面已出现的否定内容）；n. “非”（计算机、逻辑学中逻辑运算的一种，即逻辑非）"
+            },
+            {
+              "word": "everyone",
+              "pos": "pron.",
+              "definition": "pron. 每个人，人人，大家"
+            },
+            {
+              "word": "buys",
+              "pos": "n.",
+              "definition": "vt. 购买；获得；贿赂；相信（buy的第三人称单数）；vi. 买，采购（buy的第三人称单数）；n. 购买，买卖；所购的物品；合算的东西（buy的复数）；n. (Buys) （美）拜斯（人名）"
+            },
+            {
+              "word": "win",
+              "pos": "v.",
+              "definition": "v. （在战斗、比赛、游戏等中）赢，获胜；赢得（奖品等）；通过努力得到（某物）；为……赢得，使……获得；采（矿）；晾（干草）；n. （在比赛、竞赛等中的）胜利；【名】 （Win）（德、荷、缅）温，（英）温（女子教名 Winifred 的昵称）（人名）"
+            },
+            {
+              "word": "rhetoric",
+              "pos": "n.",
+              "definition": "n. 花言巧语，浮夸之词；修辞，修辞学"
+            },
+            {
+              "word": "Congress",
+              "pos": "n.",
+              "definition": "n. 国会，议会；代表大会；美国国会（Congress）"
+            },
+            {
+              "word": "members",
+              "pos": "n.",
+              "definition": "n. （社团、政党等组织的）成员，会员；（某群体或类别中的）一分子（可指人、动物、植物或事物）；（常大写 Member）议员；（加入国际组织的）成员国，会员国；（尤指最低级的）勋章获得者；（复杂设备或结构的）构件；（句子的）成分；member 的复数形式；（Members）<美，印，澳>墨姆伯尔（人名）"
+            },
+            {
+              "word": "trying",
+              "pos": "adj.",
+              "definition": "adj. 令人厌烦的，难对付的；v. 试图，努力；试用，试做，试验；品尝（try 的现在分词形式）"
+            },
+            {
+              "word": "block",
+              "pos": "n.",
+              "definition": "n. 大块，一块（木料、石头等）；（四面临街的）街段，街区；大楼，大厦；栋，座，幢；障碍物，阻碍；（短时间的）思维停滞，思维中断；一组，一批，一叠；（连续的）一段时间；阻挡，拦截；积木；（古代斩首用的）垫头木；<美>一大片土地；（物体的）平面，纯色色块；滑轮，滑轮组；区块；v. 阻塞，堵塞（道路、管道等）；遮住（视线）；封锁，挡住（去路）；阻挠，阻止；阻截，拦截（对方的球）；对……进行块操作；用模具使（帽等）成形；【名】 （Block）（英、法、德、西、葡、芬、罗）布洛克（人名）"
             }
           ]
         }
@@ -1388,8 +1496,8 @@
         },
         {
           "sid": 9,
-          "pid": 1,
-          "sentence_index": 7,
+          "pid": 2,
+          "sentence_index": 0,
           "text": "Under the plan, for example, the agency said it would not prosecute landowners or businesses that unintentionally kill, harm, or disturb the bird, as long as they had signed a range-wide management plan to restore prairie chicken habitat.",
           "translation": "例如，根据该计划，该机构表示，只要土地所有者或企业签署了恢复草原鸡栖息地的大范围管理计划，就不会起诉无意杀死、伤害或扰乱鸟类的土地所有者或企业。",
           "slashed_text": "Under the plan , / for example , / the agency said it would not prosecute landowners or businesses / that unintentionally kill , / harm , / or disturb the bird , / as long as they had signed a range-wide management plan to restore prairie chicken habitat.",
@@ -1406,8 +1514,8 @@
         },
         {
           "sid": 10,
-          "pid": 1,
-          "sentence_index": 8,
+          "pid": 2,
+          "sentence_index": 1,
           "text": "Negotiated by USFWS and the states, the plan requires individuals and businesses that damage habitat as part of their operations to pay into a fund to replace every acre destroyed with 2 new acres of suitable habitat.",
           "translation": "经 USFWS 和各州谈判，该计划要求在其运营过程中破坏栖息地的个人和企业缴纳一笔基金，以用 2 英亩新的合适栖息地取代每被破坏的英亩。",
           "slashed_text": "Negotiated by USFWS and the states , / the plan requires individuals and businesses / that damage habitat as part of their operations to pay into a fund to replace every acre destroyed with 2 new acres of suitable habitat.",
@@ -1424,8 +1532,8 @@
         },
         {
           "sid": 11,
-          "pid": 1,
-          "sentence_index": 9,
+          "pid": 2,
+          "sentence_index": 2,
           "text": "The fund will also be used to compensate landowners who set aside habitat.",
           "translation": "该基金还将用于补偿预留栖息地的土地所有者。",
           "slashed_text": "The fund will also be used to compensate landowners / who set aside habitat.",
@@ -1442,8 +1550,8 @@
         },
         {
           "sid": 12,
-          "pid": 1,
-          "sentence_index": 10,
+          "pid": 2,
+          "sentence_index": 3,
           "text": "USFWS also set an interim goal of restoring prairie chicken populations to an annual average of 67,000 birds over the next 10 years.",
           "translation": "USFWS 还设定了一个临时目标，即在未来 10 年内将草原鸡数量恢复到年均 67,000 只。",
           "slashed_text": "USFWS also set an interim goal of restoring prairie chicken populations to an annual average of 67 , / 000 birds over the next 10 years.",
@@ -1460,8 +1568,8 @@
         },
         {
           "sid": 13,
-          "pid": 1,
-          "sentence_index": 11,
+          "pid": 2,
+          "sentence_index": 4,
           "text": "And it gives the Western Association of Fish and Wildlife Agencies (WAFWA), a coalition of state agencies, the job of monitoring progress.",
           "translation": "它还赋予西部鱼类和野生动物机构​​协会（WAFWA）这个国家机构联盟监督进展的职责。",
           "slashed_text": "And it gives the Western Association of Fish and Wildlife Agencies (WAFWA) , / a coalition of state agencies , / the job of monitoring progress.",
@@ -1478,8 +1586,8 @@
         },
         {
           "sid": 14,
-          "pid": 1,
-          "sentence_index": 12,
+          "pid": 2,
+          "sentence_index": 5,
           "text": "Overall, the idea is to let “states remain in the driver’s seat for managing the species,” Ashe said.",
           "translation": "阿什说，总体而言，这个想法是让“各州继续掌握物种管理的主导权”。",
           "slashed_text": "Overall , / the idea is to let “states remain in the driver’s seat / for managing the species , / ” Ashe said.",
@@ -1496,8 +1604,8 @@
         },
         {
           "sid": 15,
-          "pid": 1,
-          "sentence_index": 13,
+          "pid": 3,
+          "sentence_index": 0,
           "text": "Not everyone buys the win-win rhetoric.",
           "translation": "并非所有人都相信双赢的说法。",
           "slashed_text": "Not everyone buys the win-win rhetoric.",
@@ -1514,8 +1622,8 @@
         },
         {
           "sid": 16,
-          "pid": 1,
-          "sentence_index": 14,
+          "pid": 3,
+          "sentence_index": 1,
           "text": "Some Congress members are trying to block the plan, and at least a dozen industry groups, four states, and three environmental groups are challenging it in federal court.",
           "translation": "一些国会议员正试图阻止该计划，至少有十几个行业团体、四个州和三个环保组织正在联邦法院对该计划提出质疑。",
           "slashed_text": "Some Congress members are trying to block the plan , / and / at least a dozen industry groups , / four states , / and three environmental groups are challenging it / in federal court.",
@@ -1532,8 +1640,8 @@
         },
         {
           "sid": 17,
-          "pid": 1,
-          "sentence_index": 15,
+          "pid": 3,
+          "sentence_index": 2,
           "text": "Not surprisingly, industry groups and states generally argue it goes too far; environmentalists say it doesn’t go far enough.",
           "translation": "不出所料，行业组织和各州普遍认为这太过了；环保人士表示，这还远远不够。",
           "slashed_text": "Not surprisingly , / industry groups and states generally argue it goes too far ; / environmentalists say it doesn’t go far enough.",
@@ -1550,8 +1658,8 @@
         },
         {
           "sid": 18,
-          "pid": 1,
-          "sentence_index": 16,
+          "pid": 3,
+          "sentence_index": 3,
           "text": "“The federal government is giving responsibility for managing the bird to the same industries that are pushing it to extinction,” says biologist Jay Lininger.",
           "translation": "生物学家杰伊·利宁格 (Jay Lininger) 表示：“联邦政府将管理这种鸟类的责任交给了那些导致其灭绝的行业。”",
           "slashed_text": "“The federal government is giving responsibility / for managing the bird to the same industries / that are pushing it to extinction , / ” says biologist Jay Lininger.",
@@ -1573,9 +1681,9 @@
           "stem": "The major reason for listing the lesser prairie chicken as threatened is ______.",
           "stem_cn": "将小草原鸡列为受威胁的主要原因是______。",
           "type": "事实细节题",
-          "locate_pid": 0,
-          "locate_sentence": "Biologists estimate that as many as 2 million lesser prairie chickens—a kind of bird living on stretching grasslands—once lent red to the often grey landscape of the midwestern and southwestern United States.",
-          "locate_sentence_cn": "生物学家估计，多达 200 万只小草原鸡（一种生活在广阔草原上的鸟类）曾经为美国中西部和西南部通常灰色的土地带来红色。",
+          "locate_pid": 1,
+          "locate_sentence": "The crash was a major reason the U.S.",
+          "locate_sentence_cn": "这次事故是美国坠机的主要原因",
           "options": [
             {
               "key": "A",
@@ -1586,8 +1694,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Biologists estimate that as many as 2 million lesser prairie chickens—a kind of bird living on stretching grasslands—once lent red to the often grey landscape of the midwestern and southwestern United States.",
-                "source_translation": "生物学家估计，多达 200 万只小草原鸡（一种生活在广阔草原上的鸟类）曾经为美国中西部和西南部通常灰色的土地带来红色。",
+                "source_sentence": "The crash was a major reason the U.S.",
+                "source_translation": "这次事故是美国坠机的主要原因",
                 "locator_comparison": "选项核心词 <code>its</code>, <code>drastically</code>, <code>decreased</code>（“其人口急剧减少”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“但如今只剩下约 22,000 只鸟类，约占该物种历史分布范围的 16%。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -1603,8 +1711,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Biologists estimate that as many as 2 million lesser prairie chickens—a kind of bird living on stretching grasslands—once lent red to the often grey landscape of the midwestern and southwestern United States.",
-                "source_translation": "生物学家估计，多达 200 万只小草原鸡（一种生活在广阔草原上的鸟类）曾经为美国中西部和西南部通常灰色的土地带来红色。",
+                "source_sentence": "The crash was a major reason the U.S.",
+                "source_translation": "这次事故是美国坠机的主要原因",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“但如今只剩下约 22,000 只鸟类，约占该物种历史分布范围的 16%。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1620,8 +1728,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Biologists estimate that as many as 2 million lesser prairie chickens—a kind of bird living on stretching grasslands—once lent red to the often grey landscape of the midwestern and southwestern United States.",
-                "source_translation": "生物学家估计，多达 200 万只小草原鸡（一种生活在广阔草原上的鸟类）曾经为美国中西部和西南部通常灰色的土地带来红色。",
+                "source_sentence": "The crash was a major reason the U.S.",
+                "source_translation": "这次事故是美国坠机的主要原因",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“但如今只剩下约 22,000 只鸟类，约占该物种历史分布范围的 16%。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1637,8 +1745,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Biologists estimate that as many as 2 million lesser prairie chickens—a kind of bird living on stretching grasslands—once lent red to the often grey landscape of the midwestern and southwestern United States.",
-                "source_translation": "生物学家估计，多达 200 万只小草原鸡（一种生活在广阔草原上的鸟类）曾经为美国中西部和西南部通常灰色的土地带来红色。",
+                "source_sentence": "The crash was a major reason the U.S.",
+                "source_translation": "这次事故是美国坠机的主要原因",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“但如今只剩下约 22,000 只鸟类，约占该物种历史分布范围的 16%。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1654,8 +1762,8 @@
           "stem_cn": "“受威胁”的标签令一些环保主义者感到失望，因为它______。",
           "type": "因果推断题",
           "locate_pid": 1,
-          "locate_sentence": "The crash was a major reason the U.S.",
-          "locate_sentence_cn": "这次事故是美国坠机的主要原因",
+          "locate_sentence": "They had pushed the agency to designate the bird as “endangered,” a status that gives federal officials greater regulatory power to crack down on threats.",
+          "locate_sentence_cn": "他们敦促该机构将这种鸟指定为“濒临灭绝”，这一状态赋予联邦官员更大的监管权力来打击威胁。",
           "options": [
             {
               "key": "A",
@@ -1666,8 +1774,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "The crash was a major reason the U.S.",
-                "source_translation": "这次事故是美国坠机的主要原因",
+                "source_sentence": "They had pushed the agency to designate the bird as “endangered,” a status that gives federal officials greater regulatory power to crack down on threats.",
+                "source_translation": "他们敦促该机构将这种鸟指定为“濒临灭绝”，这一状态赋予联邦官员更大的监管权力来打击威胁。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“鱼类和野生动物管理局（USFWS）决定正式将这种鸟列为受威胁鸟类。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1683,8 +1791,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "The crash was a major reason the U.S.",
-                "source_translation": "这次事故是美国坠机的主要原因",
+                "source_sentence": "They had pushed the agency to designate the bird as “endangered,” a status that gives federal officials greater regulatory power to crack down on threats.",
+                "source_translation": "他们敦促该机构将这种鸟指定为“濒临灭绝”，这一状态赋予联邦官员更大的监管权力来打击威胁。",
                 "locator_comparison": "借用了原文的词汇 <code>involve</code>, <code>fewer</code>, <code>agencies</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“鱼类和野生动物管理局（USFWS）决定正式将这种鸟列为受威胁鸟类。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1700,8 +1808,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The crash was a major reason the U.S.",
-                "source_translation": "这次事故是美国坠机的主要原因",
+                "source_sentence": "They had pushed the agency to designate the bird as “endangered,” a status that gives federal officials greater regulatory power to crack down on threats.",
+                "source_translation": "他们敦促该机构将这种鸟指定为“濒临灭绝”，这一状态赋予联邦官员更大的监管权力来打击威胁。",
                 "locator_comparison": "选项核心词 <code>granted</code>, <code>less</code>, <code>federal</code>（“授予较少的联邦监管权力”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“鱼类和野生动物管理局（USFWS）决定正式将这种鸟列为受威胁鸟类。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -1717,8 +1825,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "The crash was a major reason the U.S.",
-                "source_translation": "这次事故是美国坠机的主要原因",
+                "source_sentence": "They had pushed the agency to designate the bird as “endangered,” a status that gives federal officials greater regulatory power to crack down on threats.",
+                "source_translation": "他们敦促该机构将这种鸟指定为“濒临灭绝”，这一状态赋予联邦官员更大的监管权力来打击威胁。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“鱼类和野生动物管理局（USFWS）决定正式将这种鸟列为受威胁鸟类。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1730,12 +1838,12 @@
         },
         {
           "qid": 28,
-          "stem": "It can be learned from Paragraph 3 that unintentional harm-doers will not be prosecuted if \nᆇี൫ज@JOEE ༯໶\n\n04\nthey ______.",
-          "stem_cn": "It can be learned from Paragraph 3 that unintentional harm-doers will not be prosecuted if \nᆇี൫ज@JOEE ༯໶\n\n04\nthey ______.",
+          "stem": "It can be learned from Paragraph 3 that unintentional harm-doers will not be prosecuted if \nthey ______.",
+          "stem_cn": "It can be learned from Paragraph 3 that unintentional harm-doers will not be prosecuted if \nthey ______.",
           "type": "段落推理题",
-          "locate_pid": 1,
-          "locate_sentence": "The crash was a major reason the U.S.",
-          "locate_sentence_cn": "这次事故是美国坠机的主要原因",
+          "locate_pid": 2,
+          "locate_sentence": "Under the plan, for example, the agency said it would not prosecute landowners or businesses that unintentionally kill, harm, or disturb the bird, as long as they had signed a range-wide management plan to restore prairie chicken habitat.",
+          "locate_sentence_cn": "例如，根据该计划，该机构表示，只要土地所有者或企业签署了恢复草原鸡栖息地的大范围管理计划，就不会起诉无意杀死、伤害或扰乱鸟类的土地所有者或企业。",
           "options": [
             {
               "key": "A",
@@ -1746,8 +1854,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The crash was a major reason the U.S.",
-                "source_translation": "这次事故是美国坠机的主要原因",
+                "source_sentence": "Under the plan, for example, the agency said it would not prosecute landowners or businesses that unintentionally kill, harm, or disturb the bird, as long as they had signed a range-wide management plan to restore prairie chicken habitat.",
+                "source_translation": "例如，根据该计划，该机构表示，只要土地所有者或企业签署了恢复草原鸡栖息地的大范围管理计划，就不会起诉无意杀死、伤害或扰乱鸟类的土地所有者或企业。",
                 "locator_comparison": "选项核心词 <code>agree</code>, <code>pay</code>, <code>sum</code>（“同意支付一笔赔偿金”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“鱼类和野生动物管理局（USFWS）决定正式将这种鸟列为受威胁鸟类。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -1763,8 +1871,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "The crash was a major reason the U.S.",
-                "source_translation": "这次事故是美国坠机的主要原因",
+                "source_sentence": "Under the plan, for example, the agency said it would not prosecute landowners or businesses that unintentionally kill, harm, or disturb the bird, as long as they had signed a range-wide management plan to restore prairie chicken habitat.",
+                "source_translation": "例如，根据该计划，该机构表示，只要土地所有者或企业签署了恢复草原鸡栖息地的大范围管理计划，就不会起诉无意杀死、伤害或扰乱鸟类的土地所有者或企业。",
                 "locator_comparison": "借用了原文的词汇 <code>volunteer</code>, <code>set</code>, <code>equally</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“鱼类和野生动物管理局（USFWS）决定正式将这种鸟列为受威胁鸟类。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1780,8 +1888,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "The crash was a major reason the U.S.",
-                "source_translation": "这次事故是美国坠机的主要原因",
+                "source_sentence": "Under the plan, for example, the agency said it would not prosecute landowners or businesses that unintentionally kill, harm, or disturb the bird, as long as they had signed a range-wide management plan to restore prairie chicken habitat.",
+                "source_translation": "例如，根据该计划，该机构表示，只要土地所有者或企业签署了恢复草原鸡栖息地的大范围管理计划，就不会起诉无意杀死、伤害或扰乱鸟类的土地所有者或企业。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“鱼类和野生动物管理局（USFWS）决定正式将这种鸟列为受威胁鸟类。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1797,8 +1905,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "The crash was a major reason the U.S.",
-                "source_translation": "这次事故是美国坠机的主要原因",
+                "source_sentence": "Under the plan, for example, the agency said it would not prosecute landowners or businesses that unintentionally kill, harm, or disturb the bird, as long as they had signed a range-wide management plan to restore prairie chicken habitat.",
+                "source_translation": "例如，根据该计划，该机构表示，只要土地所有者或企业签署了恢复草原鸡栖息地的大范围管理计划，就不会起诉无意杀死、伤害或扰乱鸟类的土地所有者或企业。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“鱼类和野生动物管理局（USFWS）决定正式将这种鸟列为受威胁鸟类。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1813,9 +1921,9 @@
           "stem": "According to Ashe, the leading role in managing the species is ______.",
           "stem_cn": "根据阿什的说法，管理该物种的主导作用是______。",
           "type": "词义/例证题",
-          "locate_pid": 1,
-          "locate_sentence": "The crash was a major reason the U.S.",
-          "locate_sentence_cn": "这次事故是美国坠机的主要原因",
+          "locate_pid": 2,
+          "locate_sentence": "Overall, the idea is to let “states remain in the driver’s seat for managing the species,” Ashe said.",
+          "locate_sentence_cn": "阿什说，总体而言，这个想法是让“各州继续掌握物种管理的主导权”。",
           "options": [
             {
               "key": "A",
@@ -1826,8 +1934,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "The crash was a major reason the U.S.",
-                "source_translation": "这次事故是美国坠机的主要原因",
+                "source_sentence": "Overall, the idea is to let “states remain in the driver’s seat for managing the species,” Ashe said.",
+                "source_translation": "阿什说，总体而言，这个想法是让“各州继续掌握物种管理的主导权”。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“鱼类和野生动物管理局（USFWS）决定正式将这种鸟列为受威胁鸟类。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1843,8 +1951,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "The crash was a major reason the U.S.",
-                "source_translation": "这次事故是美国坠机的主要原因",
+                "source_sentence": "Overall, the idea is to let “states remain in the driver’s seat for managing the species,” Ashe said.",
+                "source_translation": "阿什说，总体而言，这个想法是让“各州继续掌握物种管理的主导权”。",
                 "locator_comparison": "选项声称“野生动物保护机构”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“鱼类和野生动物管理局（USFWS）决定正式将这种鸟列为受威胁鸟类。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1860,8 +1968,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "The crash was a major reason the U.S.",
-                "source_translation": "这次事故是美国坠机的主要原因",
+                "source_sentence": "Overall, the idea is to let “states remain in the driver’s seat for managing the species,” Ashe said.",
+                "source_translation": "阿什说，总体而言，这个想法是让“各州继续掌握物种管理的主导权”。",
                 "locator_comparison": "借用了原文的词汇 <code>landowners</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“鱼类和野生动物管理局（USFWS）决定正式将这种鸟列为受威胁鸟类。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1877,8 +1985,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The crash was a major reason the U.S.",
-                "source_translation": "这次事故是美国坠机的主要原因",
+                "source_sentence": "Overall, the idea is to let “states remain in the driver’s seat for managing the species,” Ashe said.",
+                "source_translation": "阿什说，总体而言，这个想法是让“各州继续掌握物种管理的主导权”。",
                 "locator_comparison": "选项核心词 <code>states</code>（“各州”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“鱼类和野生动物管理局（USFWS）决定正式将这种鸟列为受威胁鸟类。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -1893,9 +2001,9 @@
           "stem": "Jay Lininger would most likely support ______.",
           "stem_cn": "Jay Lininger 最有可能支持______。",
           "type": "全文主旨题",
-          "locate_pid": 1,
-          "locate_sentence": "The crash was a major reason the U.S.",
-          "locate_sentence_cn": "这次事故是美国坠机的主要原因",
+          "locate_pid": 3,
+          "locate_sentence": "“The federal government is giving responsibility for managing the bird to the same industries that are pushing it to extinction,” says biologist Jay Lininger.",
+          "locate_sentence_cn": "生物学家杰伊·利宁格 (Jay Lininger) 表示：“联邦政府将管理这种鸟类的责任交给了那些导致其灭绝的行业。”",
           "options": [
             {
               "key": "A",
@@ -1906,8 +2014,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "The crash was a major reason the U.S.",
-                "source_translation": "这次事故是美国坠机的主要原因",
+                "source_sentence": "“The federal government is giving responsibility for managing the bird to the same industries that are pushing it to extinction,” says biologist Jay Lininger.",
+                "source_translation": "生物学家杰伊·利宁格 (Jay Lininger) 表示：“联邦政府将管理这种鸟类的责任交给了那些导致其灭绝的行业。”",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“鱼类和野生动物管理局（USFWS）决定正式将这种鸟列为受威胁鸟类。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1923,8 +2031,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "The crash was a major reason the U.S.",
-                "source_translation": "这次事故是美国坠机的主要原因",
+                "source_sentence": "“The federal government is giving responsibility for managing the bird to the same industries that are pushing it to extinction,” says biologist Jay Lininger.",
+                "source_translation": "生物学家杰伊·利宁格 (Jay Lininger) 表示：“联邦政府将管理这种鸟类的责任交给了那些导致其灭绝的行业。”",
                 "locator_comparison": "借用了原文的词汇 <code>win</code>, <code>win</code>, <code>rhetoric</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“鱼类和野生动物管理局（USFWS）决定正式将这种鸟列为受威胁鸟类。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1940,8 +2048,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The crash was a major reason the U.S.",
-                "source_translation": "这次事故是美国坠机的主要原因",
+                "source_sentence": "“The federal government is giving responsibility for managing the bird to the same industries that are pushing it to extinction,” says biologist Jay Lininger.",
+                "source_translation": "生物学家杰伊·利宁格 (Jay Lininger) 表示：“联邦政府将管理这种鸟类的责任交给了那些导致其灭绝的行业。”",
                 "locator_comparison": "选项核心词 <code>environmental</code>, <code>groups</code>（“环保团体”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“鱼类和野生动物管理局（USFWS）决定正式将这种鸟列为受威胁鸟类。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -1957,8 +2065,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "The crash was a major reason the U.S.",
-                "source_translation": "这次事故是美国坠机的主要原因",
+                "source_sentence": "“The federal government is giving responsibility for managing the bird to the same industries that are pushing it to extinction,” says biologist Jay Lininger.",
+                "source_translation": "生物学家杰伊·利宁格 (Jay Lininger) 表示：“联邦政府将管理这种鸟类的责任交给了那些导致其灭绝的行业。”",
                 "locator_comparison": "借用了原文的词汇 <code>plan</code>, <code>under</code>, <code>challenge</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“鱼类和野生动物管理局（USFWS）决定正式将这种鸟列为受威胁鸟类。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2526,9 +2634,9 @@
           "stem": "The usual time-management techniques don’t work because ______.",
           "stem_cn": "通常的时间管理技巧不起作用，因为______。",
           "type": "事实细节题",
-          "locate_pid": 0,
-          "locate_sentence": "That everyone’s too busy these days is a cliché.",
-          "locate_sentence_cn": "现在每个人都太忙了这是陈词滥调。",
+          "locate_pid": 1,
+          "locate_sentence": "In fact, “becoming more efficient” is part of the problem.",
+          "locate_sentence_cn": "事实上，“变得更有效率”是问题的一部分。",
           "options": [
             {
               "key": "A",
@@ -2539,8 +2647,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "That everyone’s too busy these days is a cliché.",
-                "source_translation": "现在每个人都太忙了这是陈词滥调。",
+                "source_sentence": "In fact, “becoming more efficient” is part of the problem.",
+                "source_translation": "事实上，“变得更有效率”是问题的一部分。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“但有一个特别令人悲伤的抱怨：从来没有时间读书。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2556,8 +2664,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "That everyone’s too busy these days is a cliché.",
-                "source_translation": "现在每个人都太忙了这是陈词滥调。",
+                "source_sentence": "In fact, “becoming more efficient” is part of the problem.",
+                "source_translation": "事实上，“变得更有效率”是问题的一部分。",
                 "locator_comparison": "借用了原文的词汇 <code>challenging</code>, <code>books</code>, <code>demand</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“但有一个特别令人悲伤的抱怨：从来没有时间读书。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2573,8 +2681,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "That everyone’s too busy these days is a cliché.",
-                "source_translation": "现在每个人都太忙了这是陈词滥调。",
+                "source_sentence": "In fact, “becoming more efficient” is part of the problem.",
+                "source_translation": "事实上，“变得更有效率”是问题的一部分。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“但有一个特别令人悲伤的抱怨：从来没有时间读书。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2590,8 +2698,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "That everyone’s too busy these days is a cliché.",
-                "source_translation": "现在每个人都太忙了这是陈词滥调。",
+                "source_sentence": "In fact, “becoming more efficient” is part of the problem.",
+                "source_translation": "事实上，“变得更有效率”是问题的一部分。",
                 "locator_comparison": "选项核心词 <code>deep</code>, <code>reading</code>, <code>requires</code>（“深度阅读所需要的内容无法得到保证”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“但有一个特别令人悲伤的抱怨：从来没有时间读书。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -2606,9 +2714,9 @@
           "stem": "The “empty bottles” metaphor illustrates that people feel a pressure to ______.",
           "stem_cn": "“空瓶子”的比喻说明人们感受到了______的压力。",
           "type": "因果推断题",
-          "locate_pid": 1,
-          "locate_sentence": "What makes the problem thornier is that the usual time-management techniques don’t seem sufficient.",
-          "locate_sentence_cn": "使问题变得更加棘手的是，通常的时间管理技巧似乎还不够。",
+          "locate_pid": 2,
+          "locate_sentence": "“The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” writes Gary Eberle in his book Sacred Time, and “we feel a pressure to fill these different-sized bottles (days, hours, minutes) as they pass, for if they get by without being filled, we will have wasted them.” No mind-set could be worse for losing yourself in a book.",
+          "locate_sentence_cn": "加里·埃伯勒（Gary Eberle）在他的《神圣时间》一书中写道：“未来就像空瓶子沿着不可阻挡的、几乎无限的传送带向我们走来。”“当这些不同尺寸的瓶子（天、小时、分钟）经过时，我们感到有压力去装满它们，因为如果它们没有被装满，我们就会浪费它们。”没有比沉浸在书中更糟糕的心态了。",
           "options": [
             {
               "key": "A",
@@ -2619,8 +2727,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "What makes the problem thornier is that the usual time-management techniques don’t seem sufficient.",
-                "source_translation": "使问题变得更加棘手的是，通常的时间管理技巧似乎还不够。",
+                "source_sentence": "“The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” writes Gary Eberle in his book Sacred Time, and “we feel a pressure to fill these different-sized bottles (days, hours, minutes) as they pass, for if they get by without being filled, we will have wasted them.” No mind-set could be worse for losing yourself in a book.",
+                "source_translation": "加里·埃伯勒（Gary Eberle）在他的《神圣时间》一书中写道：“未来就像空瓶子沿着不可阻挡的、几乎无限的传送带向我们走来。”“当这些不同尺寸的瓶子（天、小时、分钟）经过时，我们感到有压力去装满它们，因为如果它们没有被装满，我们就会浪费它们。”没有比沉浸在书中更糟糕的心态了。",
                 "locator_comparison": "借用了原文的词汇 <code>update</code>, <code>lists</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“网络上有很多文章提供了如何腾出时间阅读的建议：“放弃电视”或“随时随身携带一本书”。但根据我的经验，用这样的方法来腾出那零星的30分钟是行不通的。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2636,8 +2744,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "What makes the problem thornier is that the usual time-management techniques don’t seem sufficient.",
-                "source_translation": "使问题变得更加棘手的是，通常的时间管理技巧似乎还不够。",
+                "source_sentence": "“The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” writes Gary Eberle in his book Sacred Time, and “we feel a pressure to fill these different-sized bottles (days, hours, minutes) as they pass, for if they get by without being filled, we will have wasted them.” No mind-set could be worse for losing yourself in a book.",
+                "source_translation": "加里·埃伯勒（Gary Eberle）在他的《神圣时间》一书中写道：“未来就像空瓶子沿着不可阻挡的、几乎无限的传送带向我们走来。”“当这些不同尺寸的瓶子（天、小时、分钟）经过时，我们感到有压力去装满它们，因为如果它们没有被装满，我们就会浪费它们。”没有比沉浸在书中更糟糕的心态了。",
                 "locator_comparison": "选项核心词 <code>passing</code>, <code>time</code>, <code>fulfilling</code>（“让度过的时间变得充实”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“网络上有很多文章提供了如何腾出时间阅读的建议：“放弃电视”或“随时随身携带一本书”。但根据我的经验，用这样的方法来腾出那零星的30分钟是行不通的。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -2653,8 +2761,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "What makes the problem thornier is that the usual time-management techniques don’t seem sufficient.",
-                "source_translation": "使问题变得更加棘手的是，通常的时间管理技巧似乎还不够。",
+                "source_sentence": "“The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” writes Gary Eberle in his book Sacred Time, and “we feel a pressure to fill these different-sized bottles (days, hours, minutes) as they pass, for if they get by without being filled, we will have wasted them.” No mind-set could be worse for losing yourself in a book.",
+                "source_translation": "加里·埃伯勒（Gary Eberle）在他的《神圣时间》一书中写道：“未来就像空瓶子沿着不可阻挡的、几乎无限的传送带向我们走来。”“当这些不同尺寸的瓶子（天、小时、分钟）经过时，我们感到有压力去装满它们，因为如果它们没有被装满，我们就会浪费它们。”没有比沉浸在书中更糟糕的心态了。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“网络上有很多文章提供了如何腾出时间阅读的建议：“放弃电视”或“随时随身携带一本书”。但根据我的经验，用这样的方法来腾出那零星的30分钟是行不通的。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2670,8 +2778,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "What makes the problem thornier is that the usual time-management techniques don’t seem sufficient.",
-                "source_translation": "使问题变得更加棘手的是，通常的时间管理技巧似乎还不够。",
+                "source_sentence": "“The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” writes Gary Eberle in his book Sacred Time, and “we feel a pressure to fill these different-sized bottles (days, hours, minutes) as they pass, for if they get by without being filled, we will have wasted them.” No mind-set could be worse for losing yourself in a book.",
+                "source_translation": "加里·埃伯勒（Gary Eberle）在他的《神圣时间》一书中写道：“未来就像空瓶子沿着不可阻挡的、几乎无限的传送带向我们走来。”“当这些不同尺寸的瓶子（天、小时、分钟）经过时，我们感到有压力去装满它们，因为如果它们没有被装满，我们就会浪费它们。”没有比沉浸在书中更糟糕的心态了。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“网络上有很多文章提供了如何腾出时间阅读的建议：“放弃电视”或“随时随身携带一本书”。但根据我的经验，用这样的方法来腾出那零星的30分钟是行不通的。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2686,9 +2794,9 @@
           "stem": "Eberle would agree that scheduling regular times for reading helps ______.",
           "stem_cn": "埃伯勒同意安排定期阅读时间有助于______。",
           "type": "段落推理题",
-          "locate_pid": 2,
-          "locate_sentence": "In fact, “becoming more efficient” is part of the problem.",
-          "locate_sentence_cn": "事实上，“变得更有效率”是问题的一部分。",
+          "locate_pid": 3,
+          "locate_sentence": "Perhaps surprisingly, scheduling regular times for reading.",
+          "locate_sentence_cn": "也许令人惊讶的是，安排固定的阅读时间。",
           "options": [
             {
               "key": "A",
@@ -2699,8 +2807,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "In fact, “becoming more efficient” is part of the problem.",
-                "source_translation": "事实上，“变得更有效率”是问题的一部分。",
+                "source_sentence": "Perhaps surprisingly, scheduling regular times for reading.",
+                "source_translation": "也许令人惊讶的是，安排固定的阅读时间。",
                 "locator_comparison": "借用了原文的词汇 <code>encourage</code>, <code>efficiency</code>, <code>mind</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“将时间视为一种可以最大化的资源意味着你要以工具性的方式对待它，判断任何给定的时刻是否值得花在它推动实现某个目标的过程中。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2716,8 +2824,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "In fact, “becoming more efficient” is part of the problem.",
-                "source_translation": "事实上，“变得更有效率”是问题的一部分。",
+                "source_sentence": "Perhaps surprisingly, scheduling regular times for reading.",
+                "source_translation": "也许令人惊讶的是，安排固定的阅读时间。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“将时间视为一种可以最大化的资源意味着你要以工具性的方式对待它，判断任何给定的时刻是否值得花在它推动实现某个目标的过程中。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2733,8 +2841,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "In fact, “becoming more efficient” is part of the problem.",
-                "source_translation": "事实上，“变得更有效率”是问题的一部分。",
+                "source_sentence": "Perhaps surprisingly, scheduling regular times for reading.",
+                "source_translation": "也许令人惊讶的是，安排固定的阅读时间。",
                 "locator_comparison": "选项声称“提倡仪式化阅读”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“将时间视为一种可以最大化的资源意味着你要以工具性的方式对待它，判断任何给定的时刻是否值得花在它推动实现某个目标的过程中。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2750,8 +2858,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "In fact, “becoming more efficient” is part of the problem.",
-                "source_translation": "事实上，“变得更有效率”是问题的一部分。",
+                "source_sentence": "Perhaps surprisingly, scheduling regular times for reading.",
+                "source_translation": "也许令人惊讶的是，安排固定的阅读时间。",
                 "locator_comparison": "选项核心词 <code>achieve</code>, <code>immersive</code>, <code>reading</code>（“实现沉浸式阅读”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“将时间视为一种可以最大化的资源意味着你要以工具性的方式对待它，判断任何给定的时刻是否值得花在它推动实现某个目标的过程中。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -2767,8 +2875,8 @@
           "stem_cn": "如果______，“随时随身携带一本书”就可以。",
           "type": "词义/例证题",
           "locate_pid": 3,
-          "locate_sentence": "So what does work?",
-          "locate_sentence_cn": "那么什么有效呢？",
+          "locate_sentence": "“Carry a book with you at all times” can actually work, too—providing you dip in often enough, so that reading becomes the default state from which you temporarily surface to take care of business, before dropping back down.",
+          "locate_sentence_cn": "“随时随身携带一本书”实际上也可以发挥作用——只要你经常阅读，这样阅读就成为默认状态，你可以暂时浮出水面处理事务，然后再放下来。",
           "options": [
             {
               "key": "A",
@@ -2779,8 +2887,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "So what does work?",
-                "source_translation": "那么什么有效呢？",
+                "source_sentence": "“Carry a book with you at all times” can actually work, too—providing you dip in often enough, so that reading becomes the default state from which you temporarily surface to take care of business, before dropping back down.",
+                "source_translation": "“随时随身携带一本书”实际上也可以发挥作用——只要你经常阅读，这样阅读就成为默认状态，你可以暂时浮出水面处理事务，然后再放下来。",
                 "locator_comparison": "选项核心词 <code>reading</code>, <code>becomes</code>, <code>primary</code>（“阅读成为你一天的首要任务”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“也许令人惊讶的是，安排固定的阅读时间。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -2796,8 +2904,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "So what does work?",
-                "source_translation": "那么什么有效呢？",
+                "source_sentence": "“Carry a book with you at all times” can actually work, too—providing you dip in often enough, so that reading becomes the default state from which you temporarily surface to take care of business, before dropping back down.",
+                "source_translation": "“随时随身携带一本书”实际上也可以发挥作用——只要你经常阅读，这样阅读就成为默认状态，你可以暂时浮出水面处理事务，然后再放下来。",
                 "locator_comparison": "选项声称“所有日常事务都得到及时处理”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“也许令人惊讶的是，安排固定的阅读时间。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2813,8 +2921,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "So what does work?",
-                "source_translation": "那么什么有效呢？",
+                "source_sentence": "“Carry a book with you at all times” can actually work, too—providing you dip in often enough, so that reading becomes the default state from which you temporarily surface to take care of business, before dropping back down.",
+                "source_translation": "“随时随身携带一本书”实际上也可以发挥作用——只要你经常阅读，这样阅读就成为默认状态，你可以暂时浮出水面处理事务，然后再放下来。",
                 "locator_comparison": "借用了原文的词汇 <code>you</code>, <code>are</code>, <code>able</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“也许令人惊讶的是，安排固定的阅读时间。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2830,8 +2938,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "So what does work?",
-                "source_translation": "那么什么有效呢？",
+                "source_sentence": "“Carry a book with you at all times” can actually work, too—providing you dip in often enough, so that reading becomes the default state from which you temporarily surface to take care of business, before dropping back down.",
+                "source_translation": "“随时随身携带一本书”实际上也可以发挥作用——只要你经常阅读，这样阅读就成为默认状态，你可以暂时浮出水面处理事务，然后再放下来。",
                 "locator_comparison": "借用了原文的词汇 <code>time</code>, <code>can</code>, <code>evenly</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“也许令人惊讶的是，安排固定的阅读时间。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2903,8 +3011,8 @@
             },
             {
               "key": "D",
-              "text": "How to Read Extensively \nᆇี൫ज@JOEE ༯໶\n\n06",
-              "text_cn": "How to Read Extensively \nᆇี൫ज@JOEE ༯໶\n\n06",
+              "text": "How to Read Extensively",
+              "text_cn": "How to Read Extensively",
               "is_correct": false,
               "trap_type": "干扰项（张冠李戴 / 范围偏差）",
               "analysis": {
@@ -2977,10 +3085,10 @@
       "paragraphs": [
         {
           "pid": 0,
-          "text": "Against a backdrop of drastic changes in economy and population structure, younger Americans are drawing a new 21st-century road map to success, a latest poll has found. Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, owning a home, and retiring in their sixties. But while young and old mostly agree on what constitutes the finish line of a fulfilling life, they offer strikingly different paths for reaching it. Young people who are still getting started in life were more likely than older adults to prioritize personal fulfillment in their work, to believe they will advance their careers most by regularly changing jobs, to favor communities with more public services and a faster pace of life, to agree that couples should be financially secure before getting married or having children, and to maintain that children are best served by two parents working outside the home, the survey found.",
-          "translation": "最新民意调查发现，在经济和人口结构发生巨大变化的背景下，美国年轻人正在绘制新的21世纪成功路线图。跨越代际界限，美国人仍然珍视成功生活中许多相同的传统里程碑，包括结婚、生子、拥有房屋和六十多岁退休。然而，尽管年轻人和老年人大多都同意什么是充实生活的终点线，但他们提供了截然不同的实现目标的路径。调查发现，与老年人相比，刚刚步入生活的年轻人更有可能优先考虑工作中的个人成就感，相信定期更换工作可以最大程度地促进职业发展，支持提供更多公共服务和更快生活节奏的社区，同意夫妻在结婚或生孩子之前应该有经济保障，并坚持认为孩子最好由两个在外工作的父母来照顾。",
-          "slashed_text": "Against a backdrop of drastic changes / in economy and population structure , / younger Americans are drawing a new 21st-century road map to success , / a latest poll has found. Across generational lines , / Americans continue to prize many of the same traditional milestones of a successful life , / including getting married , / having children , / owning a home , / and retiring / in their sixties. But / while young and old mostly agree / on what constitutes the finish line of a fulfilling life , / they offer strikingly different paths / for reaching it. Young people / who are still getting started / in life were more likely than older adults to prioritize personal fulfillment / in their work , / to believe they will advance their careers most / by regularly changing jobs , / to favor communities / with more public services and a faster pace of life , / to agree / that couples should be financially secure / before getting married or having children , / and to maintain / that children are best served by two parents working outside the home , / the survey found.",
-          "chunk_translation": "在经历剧烈变迁的时代背景下， / 在经济和人口结构方面， / 年轻一代美国人正在绘制一张通往成功的21世纪全新路线图， / 一项最新民调如此发现。 跨越代际界限， / 美国人继续优先考虑成年阶段中许多相同的传统里程碑， / 在成年阶段， / 诸如 / 像 / 结婚成家 / 以及抚养子女。 但是 / 虽然年轻人和年长者在大体上一致赞同 / 关于什么构成了成功， / 他们却存在分歧 / 在实现这些目标的时间表上。 年轻一代 / 那些刚开始起步的人 / 在人生旅途上， / 认为 / 实现这些人生目标 / 将需要耗费 / 更长的时间， / 相比 / 他们的父母一代 / 过去所用的时间。 / 他们 / 预期 / 将达到这些人生里程碑 / 在他们三十多岁时。",
+          "text": "Against a backdrop of drastic changes in economy and population structure, younger Americans are drawing a new 21st-century road map to success, a latest poll has found.",
+          "translation": "最新民意调查发现，在经济和人口结构发生巨大变化的背景下，美国年轻人正在绘制新的21世纪成功路线图。",
+          "slashed_text": "Against a backdrop of drastic changes / in economy and population structure , / younger Americans are drawing a new 21st-century road map to success , / a latest poll has found.",
+          "chunk_translation": "在经历剧烈变迁的时代背景下， / 在经济和人口结构方面， / 年轻一代美国人正在绘制一张通往成功的21世纪全新路线图， / 一项最新民调如此发现。",
           "vocabulary": [
             {
               "word": "backdrop",
@@ -3031,6 +3139,114 @@
         },
         {
           "pid": 1,
+          "text": "Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, owning a home, and retiring in their sixties. But while young and old mostly agree on what constitutes the finish line of a fulfilling life, they offer strikingly different paths for reaching it.",
+          "translation": "跨越代际界限，美国人仍然珍视成功生活中许多相同的传统里程碑，包括结婚、生子、拥有房屋和六十多岁退休。但是，尽管年轻人和老年人在什么是充实人生的终点这一问题上意见一致，但他们提出的实现这一目标的途径却截然不同。",
+          "slashed_text": "Across generational lines , / Americans continue to prize many of the same traditional milestones of a successful life , / including getting married , / having children , / owning a home , / and retiring / in their sixties. But / while young and old mostly agree / on what constitutes the finish line of a fulfilling life , / they offer strikingly different paths / for reaching it.",
+          "chunk_translation": "跨越代际界限， / 美国人继续优先考虑成年阶段中许多相同的传统里程碑， / 在成年阶段， / 诸如 / 像 / 结婚成家 / 以及抚养子女。 但是 / 虽然年轻人和年长者在大体上一致赞同 / 关于什么构成了成功， / 他们却存在分歧 / 在实现这些目标的时间表上。",
+          "vocabulary": [
+            {
+              "word": "Across",
+              "pos": "adv.",
+              "definition": "adv. 从一边到另一边；在……对面；朝，向；宽；横向字谜答案；prep. 从一边到另一边；横过，穿过；在……对面；遍及；在……上；跨越（政治、宗教、社会隔阂等）"
+            },
+            {
+              "word": "generational",
+              "pos": "adj.",
+              "definition": "adj. 一代的；代际的；（计算机）分代的"
+            },
+            {
+              "word": "lines",
+              "pos": "n.",
+              "definition": "n. line 的复数：线，线条，纹路；行列，队伍；（文字的）一行，诗行；台词；航线，线路，路线；外形，轮廓；姓氏 Lines，莱恩斯；v. line 的第三人称单数：使排成一行；在……上画线"
+            },
+            {
+              "word": "continue",
+              "pos": "v.",
+              "definition": "v. （使）继续，（使）延续；继续说，接着说；移动，延伸；留任，维持原状"
+            },
+            {
+              "word": "prize",
+              "pos": "n.",
+              "definition": "n. 奖品，奖项；非常珍贵的人（或物），十分重要的人（或物）；<史>（海战中）缴获的敌船；adj. 可获奖的，优等的；作为奖品的；获奖的；有奖的；<英，非正式>完全的；非常重要的，珍贵的；v. 珍视，高度重视；<美>撬开；竭力打探（消息等）"
+            },
+            {
+              "word": "traditional",
+              "pos": "adj.",
+              "definition": "adj. 传统的；根据传统而制造（或使用）的；因袭的，守旧的；（活动）惯例的，经常从事的；典型的；（爵士乐）具20世纪早期风格的"
+            },
+            {
+              "word": "milestones",
+              "pos": "n.",
+              "definition": "n. 里程碑（比喻重大事件，重要阶段，如项目中的关键节点）；里程标（路旁标记距离的石碑）"
+            },
+            {
+              "word": "successful",
+              "pos": "adj.",
+              "definition": "adj. 成功的，如愿以偿的；事业有成的，飞黄腾达的；（公司、影片、产品等）利润丰厚的，非常赚钱的"
+            },
+            {
+              "word": "life",
+              "pos": "n.",
+              "definition": "n. 生命；人命，性命；生物，活物；寿命，一生；（某事物的）存在期；生活，人生；生活方式；（某种）生活；生气，活力；（绘画的）模特儿，实物；（游戏中的）一次机会，命；传记；无期徒刑，终身监禁；今生，来世；adj. 生命的；一生的，终身的"
+            }
+          ]
+        },
+        {
+          "pid": 2,
+          "text": "Young people who are still getting started in life were more likely than older adults to prioritize personal fulfillment in their work, to believe they will advance their careers most by regularly changing jobs, to favor communities with more public services and a faster pace of life, to agree that couples should be financially secure before getting married or having children, and to maintain that children are best served by two parents working outside the home, the survey found.",
+          "translation": "调查发现，与老年人相比，刚刚步入生活的年轻人更有可能优先考虑工作中的个人成就感，相信定期更换工作可以最大程度地促进职业发展，支持提供更多公共服务和更快生活节奏的社区，同意夫妻在结婚或生孩子之前应该有经济保障，并坚持认为孩子最好由两个在外工作的父母来照顾。",
+          "slashed_text": "Young people / who are still getting started / in life were more likely than older adults to prioritize personal fulfillment / in their work , / to believe they will advance their careers most / by regularly changing jobs , / to favor communities / with more public services and a faster pace of life , / to agree / that couples should be financially secure / before getting married or having children , / and to maintain / that children are best served by two parents working outside the home , / the survey found.",
+          "chunk_translation": "年轻一代 / 那些刚开始起步的人 / 在人生旅途上， / 认为 / 实现这些人生目标 / 将需要耗费 / 更长的时间， / 相比 / 他们的父母一代 / 过去所用的时间。 / 他们 / 预期 / 将达到这些人生里程碑 / 在他们三十多岁时。",
+          "vocabulary": [
+            {
+              "word": "Young",
+              "pos": "adj.",
+              "definition": "adj. 幼小的，年轻的；存在不久的，新成立的；（显得）年轻的，（显得）岁数不大的；适合年轻人的；由年轻人（或儿童）构成的，青少年的，平均年龄小的；夭折的，早逝的；n. 年轻人（the young）；幼崽，雏鸟；【名】 （Young）（英、葡）扬，（柬）永，（中）杨，（广东话）威妥玛（人名）"
+            },
+            {
+              "word": "still",
+              "pos": "adv.",
+              "definition": "adv. 还，依旧；仍然，还是（会或可能）；尽管那样，尽管如此；更加，还要（用于表示强调）；还有（更多）；静止地，不动地；adj. 静止的，不动的；宁静的，寂静的；无风的；不含碳酸气的，不起泡的；（照片）静态的，（画面）定格的；n. （电影或录像的）定格画面，剧照；（制酒的）蒸馏器；静止，安静，平静；v. （使）静止，平静，安静；使（感情）减轻，使（感情）平息；蒸馏；【名】 （Still）（英、芬、瑞典）斯蒂尔，（德）施蒂尔（人名）"
+            },
+            {
+              "word": "getting",
+              "pos": "v.",
+              "definition": "v. get 的现在分词：得到，获得；收到；买到；挣得；变得（后接形容词或比较级，表示逐渐变化）；n. 获得，获取；（Getting）（美、英、印）格廷（人名）"
+            },
+            {
+              "word": "started",
+              "pos": "v.",
+              "definition": "v. 开始，着手；使发生，引发；开动，发动（机器）；创立，创始，开办；出发，启程（start 的过去式和过去分词）"
+            },
+            {
+              "word": "life",
+              "pos": "n.",
+              "definition": "n. 生命；人命，性命；生物，活物；寿命，一生；（某事物的）存在期；生活，人生；生活方式；（某种）生活；生气，活力；（绘画的）模特儿，实物；（游戏中的）一次机会，命；传记；无期徒刑，终身监禁；今生，来世；adj. 生命的；一生的，终身的"
+            },
+            {
+              "word": "likely",
+              "pos": "adj.",
+              "definition": "adj. 可能发生的；似乎合适的，仿佛恰当的；似乎真实的，可信的；看上去精力充沛（或有能力）的；adv. 大概，很可能"
+            },
+            {
+              "word": "older",
+              "pos": "adj.",
+              "definition": "adj. old 的比较级；年长的；较旧的；较有经验的，资历较深的；n. （Older）人名，多作英语姓氏，通译奥尔德"
+            },
+            {
+              "word": "adults",
+              "pos": "n.",
+              "definition": "n. 成年人（adult 的复数形式）；（生物学）成年动物（adult 的复数形式，如成虫、成体）"
+            },
+            {
+              "word": "prioritize",
+              "pos": "v.",
+              "definition": "v. 按优先顺序列出；优先考虑（处理）"
+            }
+          ]
+        },
+        {
+          "pid": 3,
           "text": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.",
           "translation": "从职业到社区和家庭，这些对比表明，在严重的大衰退之后，那些刚刚开始生活的人正在确定优先事项和期望，这些优先事项和期望将越来越多地蔓延到美国生活的几乎所有方面，从消费者偏好到住房模式再到政治。",
           "slashed_text": "From career to community and family , / these contrasts suggest / that in the aftermath of the searing Great Recession , / those just starting out / in life are defining priorities and expectations / that will increasingly spread / through virtually all aspects of American life , / from consumer preferences to housing patterns to politics.",
@@ -3084,7 +3300,7 @@
           ]
         },
         {
-          "pid": 2,
+          "pid": 4,
           "text": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations. While younger people are somewhat more optimistic than their elders about the prospects for those starting out today, big majorities in both groups believe those “just getting started in life” face a tougher climb than earlier generations in reaching such signpost achievements as securing a good-paying job, starting a family, managing debt, and finding affordable housing.",
           "translation": "年轻人和老年人都集中在一个关键点上：两个群体中绝大多数人都表示，他们认为今天的年轻人比前几代人更难开始生活。虽然年轻人对今天开始的人的前景比长辈更加乐观，但这两个群体中的大多数人都认为，那些“刚刚开始生活”的人在获得高薪工作、组建家庭、管理债务和寻找经济适用房等标志性成就方面，比前几代人面临着更艰难的攀登。",
           "slashed_text": "Young and old converge on one key point : / Overwhelming majorities of both groups said they believe it is harder / for young people today to get started / in life than it was / for earlier generations. / While younger people are somewhat more optimistic than their elders about the prospects / for those starting out today , / big majorities / in both groups believe those “just getting started / in life” face a tougher climb than earlier generations / in reaching such signpost achievements as securing a good-paying job , / starting a family , / managing debt , / and finding affordable housing.",
@@ -3138,9 +3354,9 @@
           ]
         },
         {
-          "pid": 3,
+          "pid": 5,
           "text": "Pete Schneider considers the climb tougher today. Schneider, a 27-year-old auto technician from the Chicago suburbs, says he struggled to find a job after graduating from college. Even now that he is working steadily, he said, “I can’t afford to pay my monthly mortgage payments on my own, so I have to rent rooms out to people to make that happen.” Looking back, he is struck that his parents could provide a comfortable life for their children even though neither had completed college when he was young. “I still grew up in an upper middle-class home with parents who didn’t have college degrees,” Schneider said. “I don’t think people are capable of that anymore.”",
-          "translation": "皮特·施奈德 (Pete Schneider) 认为今天的攀登更加艰难。施奈德是一名来自芝加哥郊区的 27 岁汽车技术员，他说大学毕业后他很难找到工作。他说，即使现在他工作稳定，“我自己也无力支付每月的抵押贷款，所以我必须把房间出租给别人才能实现这一点。”回想起来，他惊讶地发现父母在他年轻时都没有完成大学学业，却能为孩子提供舒适的生活。 “我仍然在一个上层中产阶级家庭长大，父母没有大学学位，”施奈德说。 “我认为人们已经没有能力做到这一点了。”",
+          "translation": "皮特·施奈德 (Pete Schneider) 认为今天的攀登更加艰难。施奈德是一名来自芝加哥郊区的 27 岁汽车技术员，他说大学毕业后他很难找到工作。他说，即使现在他工作稳定，“我自己也无力支付每月的抵押贷款，所以我必须把房间出租给别人才能实现这一点。”回想起来，他惊讶地发现父母在他年轻时都没有完成大学学业，却能为孩子提供舒适的生活。“我仍然在一个上层中产阶级家庭长大，父母没有大学学位，”施奈德说。“我认为人们已经没有能力做到这一点了。”",
           "slashed_text": "Pete Schneider considers the climb tougher today. Schneider , / a 27-year-old auto technician from the Chicago suburbs , / says he struggled to find a job / after graduating / from college. Even now / that he is working steadily , / he said , / “I can’t afford to pay my monthly mortgage payments on my own , / so I have to rent rooms out to people to make / that happen.” Looking back , / he is struck / that his parents could provide a comfortable life / for their children even / though neither had completed college / when he was young. “I still grew up in an upper middle-class home / with parents / who didn’t have college degrees , / ” Schneider said. “I don’t think people are capable of / that anymore.”",
           "chunk_translation": "皮特·施耐德认为如今向上的攀登更加艰难。 施耐德， / 一名27岁的汽车维修技师， / 来自芝加哥地区， / 表示 / 他工作十分努力，但却很难实现阶层跨越、出人头地。 即便现在 / 他有着稳定的工作， / 他说道， / “我 / 依然 / 不得不 / 去 / 担忧 / 关于 / 如何维持收支平衡。 / 这让人感到极其沮丧挫败。” “我当年是在一个家庭中长大的 / 在中上阶层的家庭里， / 伴随着 / 所有的优渥机会，”他说道。 “我认为人们现在已经无法再做到那一步了。 / 生活成本实在是太高昂了。”",
           "vocabulary": [
@@ -3213,8 +3429,8 @@
         },
         {
           "sid": 1,
-          "pid": 0,
-          "sentence_index": 1,
+          "pid": 1,
+          "sentence_index": 0,
           "text": "Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, owning a home, and retiring in their sixties.",
           "translation": "跨越代际界限，美国人仍然珍视成功生活中许多相同的传统里程碑，包括结婚、生子、拥有房屋和六十多岁退休。",
           "slashed_text": "Across generational lines , / Americans continue to prize many of the same traditional milestones of a successful life , / including getting married , / having children , / owning a home , / and retiring / in their sixties.",
@@ -3231,8 +3447,8 @@
         },
         {
           "sid": 2,
-          "pid": 0,
-          "sentence_index": 2,
+          "pid": 1,
+          "sentence_index": 1,
           "text": "But while young and old mostly agree on what constitutes the finish line of a fulfilling life, they offer strikingly different paths for reaching it.",
           "translation": "但是，尽管年轻人和老年人在什么是充实人生的终点这一问题上意见一致，但他们提出的实现这一目标的途径却截然不同。",
           "slashed_text": "But / while young and old mostly agree / on what constitutes the finish line of a fulfilling life , / they offer strikingly different paths / for reaching it.",
@@ -3254,8 +3470,8 @@
         },
         {
           "sid": 3,
-          "pid": 0,
-          "sentence_index": 3,
+          "pid": 2,
+          "sentence_index": 0,
           "text": "Young people who are still getting started in life were more likely than older adults to prioritize personal fulfillment in their work, to believe they will advance their careers most by regularly changing jobs, to favor communities with more public services and a faster pace of life, to agree that couples should be financially secure before getting married or having children, and to maintain that children are best served by two parents working outside the home, the survey found.",
           "translation": "调查发现，与老年人相比，刚刚步入生活的年轻人更有可能优先考虑工作中的个人成就感，相信定期更换工作可以最大程度地促进职业发展，支持提供更多公共服务和更快生活节奏的社区，同意夫妻在结婚或生孩子之前应该有经济保障，并坚持认为孩子最好由两个在外工作的父母来照顾。",
           "slashed_text": "Young people / who are still getting started / in life were more likely than older adults to prioritize personal fulfillment / in their work , / to believe they will advance their careers most / by regularly changing jobs , / to favor communities / with more public services and a faster pace of life , / to agree / that couples should be financially secure / before getting married or having children , / and to maintain / that children are best served by two parents working outside the home , / the survey found.",
@@ -3272,7 +3488,7 @@
         },
         {
           "sid": 4,
-          "pid": 1,
+          "pid": 3,
           "sentence_index": 0,
           "text": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.",
           "translation": "从职业到社区和家庭，这些对比表明，在严重的大衰退之后，那些刚刚开始生活的人正在确定优先事项和期望，这些优先事项和期望将越来越多地蔓延到美国生活的几乎所有方面，从消费者偏好到住房模式再到政治。",
@@ -3290,7 +3506,7 @@
         },
         {
           "sid": 5,
-          "pid": 2,
+          "pid": 4,
           "sentence_index": 0,
           "text": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations.",
           "translation": "年轻人和老年人都集中在一个关键点上：两个群体中绝大多数人都表示，他们认为今天的年轻人比前几代人更难开始生活。",
@@ -3308,7 +3524,7 @@
         },
         {
           "sid": 6,
-          "pid": 2,
+          "pid": 4,
           "sentence_index": 1,
           "text": "While younger people are somewhat more optimistic than their elders about the prospects for those starting out today, big majorities in both groups believe those “just getting started in life” face a tougher climb than earlier generations in reaching such signpost achievements as securing a good-paying job, starting a family, managing debt, and finding affordable housing.",
           "translation": "虽然年轻人对今天开始的人的前景比长辈更加乐观，但这两个群体中的大多数人都认为，那些“刚刚开始生活”的人在获得高薪工作、组建家庭、管理债务和寻找经济适用房等标志性成就方面，比前几代人面临着更艰难的攀登。",
@@ -3326,7 +3542,7 @@
         },
         {
           "sid": 7,
-          "pid": 3,
+          "pid": 5,
           "sentence_index": 0,
           "text": "Pete Schneider considers the climb tougher today.",
           "translation": "皮特·施奈德 (Pete Schneider) 认为今天的攀登更加艰难。",
@@ -3344,7 +3560,7 @@
         },
         {
           "sid": 8,
-          "pid": 3,
+          "pid": 5,
           "sentence_index": 1,
           "text": "Schneider, a 27-year-old auto technician from the Chicago suburbs, says he struggled to find a job after graduating from college.",
           "translation": "施奈德是一名来自芝加哥郊区的 27 岁汽车技术员，他说大学毕业后他很难找到工作。",
@@ -3362,7 +3578,7 @@
         },
         {
           "sid": 9,
-          "pid": 3,
+          "pid": 5,
           "sentence_index": 2,
           "text": "Even now that he is working steadily, he said, “I can’t afford to pay my monthly mortgage payments on my own, so I have to rent rooms out to people to make that happen.” Looking back, he is struck that his parents could provide a comfortable life for their children even though neither had completed college when he was young.",
           "translation": "他说，即使现在他工作稳定，“我自己也无力支付每月的抵押贷款，所以我必须把房间出租给别人才能实现这一点。”回想起来，他惊讶地发现父母在他年轻时都没有完成大学学业，却能为孩子提供舒适的生活。",
@@ -3385,7 +3601,7 @@
         },
         {
           "sid": 10,
-          "pid": 3,
+          "pid": 5,
           "sentence_index": 3,
           "text": "“I still grew up in an upper middle-class home with parents who didn’t have college degrees,” Schneider said.",
           "translation": "“我仍然在一个上层中产阶级家庭长大，父母没有大学学位，”施奈德说。",
@@ -3403,7 +3619,7 @@
         },
         {
           "sid": 11,
-          "pid": 3,
+          "pid": 5,
           "sentence_index": 4,
           "text": "“I don’t think people are capable of that anymore.”",
           "translation": "“我认为人们已经没有能力做到这一点了。”",
@@ -3426,9 +3642,9 @@
           "stem": "One cross-generation mark of a successful life is ______.",
           "stem_cn": "成功生活的跨代标志之一是______。",
           "type": "事实细节题",
-          "locate_pid": 0,
-          "locate_sentence": "Against a backdrop of drastic changes in economy and population structure, younger Americans are drawing a new 21st-century road map to success, a latest poll has found.",
-          "locate_sentence_cn": "最新民意调查发现，在经济和人口结构发生巨大变化的背景下，美国年轻人正在绘制新的21世纪成功路线图。",
+          "locate_pid": 1,
+          "locate_sentence": "Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, owning a home, and retiring in their sixties.",
+          "locate_sentence_cn": "跨越代际界限，美国人仍然珍视成功生活中许多相同的传统里程碑，包括结婚、生子、拥有房屋和六十多岁退休。",
           "options": [
             {
               "key": "A",
@@ -3439,8 +3655,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Against a backdrop of drastic changes in economy and population structure, younger Americans are drawing a new 21st-century road map to success, a latest poll has found.",
-                "source_translation": "最新民意调查发现，在经济和人口结构发生巨大变化的背景下，美国年轻人正在绘制新的21世纪成功路线图。",
+                "source_sentence": "Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, owning a home, and retiring in their sixties.",
+                "source_translation": "跨越代际界限，美国人仍然珍视成功生活中许多相同的传统里程碑，包括结婚、生子、拥有房屋和六十多岁退休。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“跨越代际界限，美国人仍然珍视成功生活中许多相同的传统里程碑，包括结婚、生子、拥有房屋和六十多岁退休。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3449,16 +3665,16 @@
             },
             {
               "key": "B",
-              "text": "having a family with children\nᆇี൫ज@JOEE ༯໶\n\n07",
-              "text_cn": "having a family with children\nᆇี൫ज@JOEE ༯໶\n\n07",
+              "text": "having a family with children",
+              "text_cn": "having a family with children",
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Against a backdrop of drastic changes in economy and population structure, younger Americans are drawing a new 21st-century road map to success, a latest poll has found.",
-                "source_translation": "最新民意调查发现，在经济和人口结构发生巨大变化的背景下，美国年轻人正在绘制新的21世纪成功路线图。",
-                "locator_comparison": "选项核心词 <code>family</code>, <code>children</code>, <code>JOEE</code>（“having a family with children\nᆇี൫ज@JOEE ༯໶\n\n07”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, owning a home, and retiring in their sixties.",
+                "source_translation": "跨越代际界限，美国人仍然珍视成功生活中许多相同的传统里程碑，包括结婚、生子、拥有房屋和六十多岁退休。",
+                "locator_comparison": "选项核心词 <code>family</code>, <code>children</code>, <code>JOEE</code>（“having a family with children”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“跨越代际界限，美国人仍然珍视成功生活中许多相同的传统里程碑，包括结婚、生子、拥有房屋和六十多岁退休。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：B正确。"
@@ -3473,8 +3689,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Against a backdrop of drastic changes in economy and population structure, younger Americans are drawing a new 21st-century road map to success, a latest poll has found.",
-                "source_translation": "最新民意调查发现，在经济和人口结构发生巨大变化的背景下，美国年轻人正在绘制新的21世纪成功路线图。",
+                "source_sentence": "Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, owning a home, and retiring in their sixties.",
+                "source_translation": "跨越代际界限，美国人仍然珍视成功生活中许多相同的传统里程碑，包括结婚、生子、拥有房屋和六十多岁退休。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“跨越代际界限，美国人仍然珍视成功生活中许多相同的传统里程碑，包括结婚、生子、拥有房屋和六十多岁退休。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3490,8 +3706,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Against a backdrop of drastic changes in economy and population structure, younger Americans are drawing a new 21st-century road map to success, a latest poll has found.",
-                "source_translation": "最新民意调查发现，在经济和人口结构发生巨大变化的背景下，美国年轻人正在绘制新的21世纪成功路线图。",
+                "source_sentence": "Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, owning a home, and retiring in their sixties.",
+                "source_translation": "跨越代际界限，美国人仍然珍视成功生活中许多相同的传统里程碑，包括结婚、生子、拥有房屋和六十多岁退休。",
                 "locator_comparison": "选项声称“建立有利可图的业务”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“跨越代际界限，美国人仍然珍视成功生活中许多相同的传统里程碑，包括结婚、生子、拥有房屋和六十多岁退休。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3506,9 +3722,9 @@
           "stem": "It can be learned from Paragraph 3 that young people tend to ______.",
           "stem_cn": "从第3段可以看出，年轻人倾向于______。",
           "type": "因果推断题",
-          "locate_pid": 1,
-          "locate_sentence": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.",
-          "locate_sentence_cn": "从职业到社区和家庭，这些对比表明，在严重的大衰退之后，那些刚刚开始生活的人正在确定优先事项和期望，这些优先事项和期望将越来越多地蔓延到美国生活的几乎所有方面，从消费者偏好到住房模式再到政治。",
+          "locate_pid": 2,
+          "locate_sentence": "Young people who are still getting started in life were more likely than older adults to prioritize personal fulfillment in their work, to believe they will advance their careers most by regularly changing jobs, to favor communities with more public services and a faster pace of life, to agree that couples should be financially secure before getting married or having children, and to maintain that children are best served by two parents working outside the home, the survey found.",
+          "locate_sentence_cn": "调查发现，与老年人相比，刚刚步入生活的年轻人更有可能优先考虑工作中的个人成就感，相信定期更换工作可以最大程度地促进职业发展，支持提供更多公共服务和更快生活节奏的社区，同意夫妻在结婚或生孩子之前应该有经济保障，并坚持认为孩子最好由两个在外工作的父母来照顾。",
           "options": [
             {
               "key": "A",
@@ -3519,8 +3735,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.",
-                "source_translation": "从职业到社区和家庭，这些对比表明，在严重的大衰退之后，那些刚刚开始生活的人正在确定优先事项和期望，这些优先事项和期望将越来越多地蔓延到美国生活的几乎所有方面，从消费者偏好到住房模式再到政治。",
+                "source_sentence": "Young people who are still getting started in life were more likely than older adults to prioritize personal fulfillment in their work, to believe they will advance their careers most by regularly changing jobs, to favor communities with more public services and a faster pace of life, to agree that couples should be financially secure before getting married or having children, and to maintain that children are best served by two parents working outside the home, the survey found.",
+                "source_translation": "调查发现，与老年人相比，刚刚步入生活的年轻人更有可能优先考虑工作中的个人成就感，相信定期更换工作可以最大程度地促进职业发展，支持提供更多公共服务和更快生活节奏的社区，同意夫妻在结婚或生孩子之前应该有经济保障，并坚持认为孩子最好由两个在外工作的父母来照顾。",
                 "locator_comparison": "选项声称“喜欢放慢生活节奏”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3536,8 +3752,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.",
-                "source_translation": "从职业到社区和家庭，这些对比表明，在严重的大衰退之后，那些刚刚开始生活的人正在确定优先事项和期望，这些优先事项和期望将越来越多地蔓延到美国生活的几乎所有方面，从消费者偏好到住房模式再到政治。",
+                "source_sentence": "Young people who are still getting started in life were more likely than older adults to prioritize personal fulfillment in their work, to believe they will advance their careers most by regularly changing jobs, to favor communities with more public services and a faster pace of life, to agree that couples should be financially secure before getting married or having children, and to maintain that children are best served by two parents working outside the home, the survey found.",
+                "source_translation": "调查发现，与老年人相比，刚刚步入生活的年轻人更有可能优先考虑工作中的个人成就感，相信定期更换工作可以最大程度地促进职业发展，支持提供更多公共服务和更快生活节奏的社区，同意夫妻在结婚或生孩子之前应该有经济保障，并坚持认为孩子最好由两个在外工作的父母来照顾。",
                 "locator_comparison": "选项声称“保持职业时间更长”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3553,8 +3769,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.",
-                "source_translation": "从职业到社区和家庭，这些对比表明，在严重的大衰退之后，那些刚刚开始生活的人正在确定优先事项和期望，这些优先事项和期望将越来越多地蔓延到美国生活的几乎所有方面，从消费者偏好到住房模式再到政治。",
+                "source_sentence": "Young people who are still getting started in life were more likely than older adults to prioritize personal fulfillment in their work, to believe they will advance their careers most by regularly changing jobs, to favor communities with more public services and a faster pace of life, to agree that couples should be financially secure before getting married or having children, and to maintain that children are best served by two parents working outside the home, the survey found.",
+                "source_translation": "调查发现，与老年人相比，刚刚步入生活的年轻人更有可能优先考虑工作中的个人成就感，相信定期更换工作可以最大程度地促进职业发展，支持提供更多公共服务和更快生活节奏的社区，同意夫妻在结婚或生孩子之前应该有经济保障，并坚持认为孩子最好由两个在外工作的父母来照顾。",
                 "locator_comparison": "选项核心词 <code>attach</code>, <code>importance</code>, <code>pre</code>（“重视婚前理财”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -3570,8 +3786,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.",
-                "source_translation": "从职业到社区和家庭，这些对比表明，在严重的大衰退之后，那些刚刚开始生活的人正在确定优先事项和期望，这些优先事项和期望将越来越多地蔓延到美国生活的几乎所有方面，从消费者偏好到住房模式再到政治。",
+                "source_sentence": "Young people who are still getting started in life were more likely than older adults to prioritize personal fulfillment in their work, to believe they will advance their careers most by regularly changing jobs, to favor communities with more public services and a faster pace of life, to agree that couples should be financially secure before getting married or having children, and to maintain that children are best served by two parents working outside the home, the survey found.",
+                "source_translation": "调查发现，与老年人相比，刚刚步入生活的年轻人更有可能优先考虑工作中的个人成就感，相信定期更换工作可以最大程度地促进职业发展，支持提供更多公共服务和更快生活节奏的社区，同意夫妻在结婚或生孩子之前应该有经济保障，并坚持认为孩子最好由两个在外工作的父母来照顾。",
                 "locator_comparison": "借用了原文的词汇 <code>priority</code>, <code>childcare</code>, <code>outside</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3586,9 +3802,9 @@
           "stem": "The priorities and expectations defined by the young will ______.",
           "stem_cn": "年轻人定义的优先事项和期望将______。",
           "type": "段落推理题",
-          "locate_pid": 2,
-          "locate_sentence": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations.",
-          "locate_sentence_cn": "年轻人和老年人都集中在一个关键点上：两个群体中绝大多数人都表示，他们认为今天的年轻人比前几代人更难开始生活。",
+          "locate_pid": 3,
+          "locate_sentence": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.",
+          "locate_sentence_cn": "从职业到社区和家庭，这些对比表明，在严重的大衰退之后，那些刚刚开始生活的人正在确定优先事项和期望，这些优先事项和期望将越来越多地蔓延到美国生活的几乎所有方面，从消费者偏好到住房模式再到政治。",
           "options": [
             {
               "key": "A",
@@ -3599,8 +3815,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations.",
-                "source_translation": "年轻人和老年人都集中在一个关键点上：两个群体中绝大多数人都表示，他们认为今天的年轻人比前几代人更难开始生活。",
+                "source_sentence": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.",
+                "source_translation": "从职业到社区和家庭，这些对比表明，在严重的大衰退之后，那些刚刚开始生活的人正在确定优先事项和期望，这些优先事项和期望将越来越多地蔓延到美国生活的几乎所有方面，从消费者偏好到住房模式再到政治。",
                 "locator_comparison": "借用了原文的词汇 <code>become</code>, <code>increasingly</code>, <code>clear</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“虽然年轻人对今天开始的人的前景比长辈更加乐观，但这两个群体中的大多数人都认为，那些“刚刚开始生活”的人在获得高薪工作、组建家庭、管理债务和寻找经济适用房等标志性成就方面，比前几代人面临着更艰难的攀登。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3616,8 +3832,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations.",
-                "source_translation": "年轻人和老年人都集中在一个关键点上：两个群体中绝大多数人都表示，他们认为今天的年轻人比前几代人更难开始生活。",
+                "source_sentence": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.",
+                "source_translation": "从职业到社区和家庭，这些对比表明，在严重的大衰退之后，那些刚刚开始生活的人正在确定优先事项和期望，这些优先事项和期望将越来越多地蔓延到美国生活的几乎所有方面，从消费者偏好到住房模式再到政治。",
                 "locator_comparison": "选项声称“关注物质问题”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“虽然年轻人对今天开始的人的前景比长辈更加乐观，但这两个群体中的大多数人都认为，那些“刚刚开始生活”的人在获得高薪工作、组建家庭、管理债务和寻找经济适用房等标志性成就方面，比前几代人面临着更艰难的攀登。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3633,8 +3849,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations.",
-                "source_translation": "年轻人和老年人都集中在一个关键点上：两个群体中绝大多数人都表示，他们认为今天的年轻人比前几代人更难开始生活。",
+                "source_sentence": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.",
+                "source_translation": "从职业到社区和家庭，这些对比表明，在严重的大衰退之后，那些刚刚开始生活的人正在确定优先事项和期望，这些优先事项和期望将越来越多地蔓延到美国生活的几乎所有方面，从消费者偏好到住房模式再到政治。",
                 "locator_comparison": "借用了原文的词汇 <code>depend</code>, <code>largely</code>, <code>political</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“虽然年轻人对今天开始的人的前景比长辈更加乐观，但这两个群体中的大多数人都认为，那些“刚刚开始生活”的人在获得高薪工作、组建家庭、管理债务和寻找经济适用房等标志性成就方面，比前几代人面临着更艰难的攀登。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3650,8 +3866,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations.",
-                "source_translation": "年轻人和老年人都集中在一个关键点上：两个群体中绝大多数人都表示，他们认为今天的年轻人比前几代人更难开始生活。",
+                "source_sentence": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.",
+                "source_translation": "从职业到社区和家庭，这些对比表明，在严重的大衰退之后，那些刚刚开始生活的人正在确定优先事项和期望，这些优先事项和期望将越来越多地蔓延到美国生活的几乎所有方面，从消费者偏好到住房模式再到政治。",
                 "locator_comparison": "选项核心词 <code>reach</code>, <code>almost</code>, <code>all</code>（“几乎触及美国人生活的方方面面”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“虽然年轻人对今天开始的人的前景比长辈更加乐观，但这两个群体中的大多数人都认为，那些“刚刚开始生活”的人在获得高薪工作、组建家庭、管理债务和寻找经济适用房等标志性成就方面，比前几代人面临着更艰难的攀登。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -3666,9 +3882,9 @@
           "stem": "Both young and old agree that ______.",
           "stem_cn": "年轻人和老年人都同意______。",
           "type": "词义/例证题",
-          "locate_pid": 3,
-          "locate_sentence": "Pete Schneider considers the climb tougher today.",
-          "locate_sentence_cn": "皮特·施奈德 (Pete Schneider) 认为今天的攀登更加艰难。",
+          "locate_pid": 4,
+          "locate_sentence": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations.",
+          "locate_sentence_cn": "年轻人和老年人都集中在一个关键点上：两个群体中绝大多数人都表示，他们认为今天的年轻人比前几代人更难开始生活。",
           "options": [
             {
               "key": "A",
@@ -3679,8 +3895,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Pete Schneider considers the climb tougher today.",
-                "source_translation": "皮特·施奈德 (Pete Schneider) 认为今天的攀登更加艰难。",
+                "source_sentence": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations.",
+                "source_translation": "年轻人和老年人都集中在一个关键点上：两个群体中绝大多数人都表示，他们认为今天的年轻人比前几代人更难开始生活。",
                 "locator_comparison": "借用了原文的词汇 <code>good</code>, <code>paying</code>, <code>jobs</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“施奈德是一名来自芝加哥郊区的 27 岁汽车技术员，他说大学毕业后他很难找到工作。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3696,8 +3912,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Pete Schneider considers the climb tougher today.",
-                "source_translation": "皮特·施奈德 (Pete Schneider) 认为今天的攀登更加艰难。",
+                "source_sentence": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations.",
+                "source_translation": "年轻人和老年人都集中在一个关键点上：两个群体中绝大多数人都表示，他们认为今天的年轻人比前几代人更难开始生活。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“施奈德是一名来自芝加哥郊区的 27 岁汽车技术员，他说大学毕业后他很难找到工作。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3713,8 +3929,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Pete Schneider considers the climb tougher today.",
-                "source_translation": "皮特·施奈德 (Pete Schneider) 认为今天的攀登更加艰难。",
+                "source_sentence": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations.",
+                "source_translation": "年轻人和老年人都集中在一个关键点上：两个群体中绝大多数人都表示，他们认为今天的年轻人比前几代人更难开始生活。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“施奈德是一名来自芝加哥郊区的 27 岁汽车技术员，他说大学毕业后他很难找到工作。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3730,8 +3946,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Pete Schneider considers the climb tougher today.",
-                "source_translation": "皮特·施奈德 (Pete Schneider) 认为今天的攀登更加艰难。",
+                "source_sentence": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations.",
+                "source_translation": "年轻人和老年人都集中在一个关键点上：两个群体中绝大多数人都表示，他们认为今天的年轻人比前几代人更难开始生活。",
                 "locator_comparison": "选项核心词 <code>getting</code>, <code>established</code>, <code>harder</code>（“对于年轻人来说，站稳脚跟更困难”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“施奈德是一名来自芝加哥郊区的 27 岁汽车技术员，他说大学毕业后他很难找到工作。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -3746,9 +3962,9 @@
           "stem": "Which of the following is true about Schneider?",
           "stem_cn": "以下关于施耐德的描述哪一项是正确的？",
           "type": "全文主旨题",
-          "locate_pid": 3,
-          "locate_sentence": "Pete Schneider considers the climb tougher today.",
-          "locate_sentence_cn": "皮特·施奈德 (Pete Schneider) 认为今天的攀登更加艰难。",
+          "locate_pid": 5,
+          "locate_sentence": "“I still grew up in an upper middle-class home with parents who didn’t have college degrees,” Schneider said.",
+          "locate_sentence_cn": "“我仍然在一个上层中产阶级家庭长大，父母没有大学学位，”施奈德说。",
           "options": [
             {
               "key": "A",
@@ -3759,8 +3975,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Pete Schneider considers the climb tougher today.",
-                "source_translation": "皮特·施奈德 (Pete Schneider) 认为今天的攀登更加艰难。",
+                "source_sentence": "“I still grew up in an upper middle-class home with parents who didn’t have college degrees,” Schneider said.",
+                "source_translation": "“我仍然在一个上层中产阶级家庭长大，父母没有大学学位，”施奈德说。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“施奈德是一名来自芝加哥郊区的 27 岁汽车技术员，他说大学毕业后他很难找到工作。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3776,8 +3992,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Pete Schneider considers the climb tougher today.",
-                "source_translation": "皮特·施奈德 (Pete Schneider) 认为今天的攀登更加艰难。",
+                "source_sentence": "“I still grew up in an upper middle-class home with parents who didn’t have college degrees,” Schneider said.",
+                "source_translation": "“我仍然在一个上层中产阶级家庭长大，父母没有大学学位，”施奈德说。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“施奈德是一名来自芝加哥郊区的 27 岁汽车技术员，他说大学毕业后他很难找到工作。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3793,8 +4009,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Pete Schneider considers the climb tougher today.",
-                "source_translation": "皮特·施奈德 (Pete Schneider) 认为今天的攀登更加艰难。",
+                "source_sentence": "“I still grew up in an upper middle-class home with parents who didn’t have college degrees,” Schneider said.",
+                "source_translation": "“我仍然在一个上层中产阶级家庭长大，父母没有大学学位，”施奈德说。",
                 "locator_comparison": "选项核心词 <code>His</code>, <code>parents</code>, <code>good</code>（“他父母的美好生活与大学学位没有多大关系。”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“施奈德是一名来自芝加哥郊区的 27 岁汽车技术员，他说大学毕业后他很难找到工作。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -3803,16 +4019,16 @@
             },
             {
               "key": "D",
-              "text": "He thinks his job as a technician quite challenging.\nᆇี൫ज@JOEE ༯໶",
-              "text_cn": "He thinks his job as a technician quite challenging.\nᆇี൫ज@JOEE ༯໶",
+              "text": "He thinks his job as a technician quite challenging.",
+              "text_cn": "He thinks his job as a technician quite challenging.",
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Pete Schneider considers the climb tougher today.",
-                "source_translation": "皮特·施奈德 (Pete Schneider) 认为今天的攀登更加艰难。",
-                "locator_comparison": "选项声称“He thinks his job as a technician quite challenging.\nᆇี൫ज@JOEE ༯໶”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
+                "source_sentence": "“I still grew up in an upper middle-class home with parents who didn’t have college degrees,” Schneider said.",
+                "source_translation": "“我仍然在一个上层中产阶级家庭长大，父母没有大学学位，”施奈德说。",
+                "locator_comparison": "选项声称“He thinks his job as a technician quite challenging.”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“施奈德是一名来自芝加哥郊区的 27 岁汽车技术员，他说大学毕业后他很难找到工作。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
                 "verdict": "复盘判断：D错误，坚决排除。"

@@ -63,10 +63,10 @@
         },
         {
           "pid": 1,
-          "text": "The question of who should pay for reskilling is a thorny one. For individual companies, the temptation is always to let go of workers whose skills are no longer in demand and replace them with those whose skills are. That does not always happen. AT&T is often given as the gold standard of a company that decided to do a massive reskilling program rather than go with a fire-and-hire strategy. Other companies had also pledged to create their own plans.",
-          "translation": "谁应该为再培训付费的问题是一个棘手的问题。对于个别公司来说，解雇那些不再需要技能的工人并用那些技能不再需要的工人来取代他们总是很有吸引力的。这种情况并不总是发生。 AT&T 通常被认为是一家公司的黄金标准，该公司决定进行大规模的再培训计划，而不是采用解雇和雇用策略。其他公司也承诺制定自己的计划。",
-          "slashed_text": "The question of / who should pay / for reskilling is a thorny one. For individual companies , / the temptation is always to let go of workers / whose skills are no longer / in demand and replace them / with those / whose skills are. / That does not always happen. AT&T is often given as the gold standard of a company / that decided to do a massive reskilling program rather than go with a fire-and-hire strategy. Other companies had also pledged to create their own plans.",
-          "chunk_translation": "关于 / 谁应该为再培训买单的问题 / 是一个棘手的问题。对单个公司而言， / 一直以来的诱惑都是解雇那些 / 其技能已不再 / 被需要的员工，并替换为 / 那些技能 / 符合需求的人。 / 但事实并非总是如此。AT&T常被树立为典范，作为一家 / 决定推行大规模再培训计划而非采取“先解雇再招聘”策略的公司。其他公司也曾承诺制定自己的计划。",
+          "text": "The question of who should pay for reskilling is a thorny one. For individual companies, the temptation is always to let go of workers whose skills are no longer in demand and replace them with those whose skills are. That does not always happen. AT&T is often given as the gold standard of a company that decided to do a massive reskilling program rather than go with a fire-and-hire strategy. Other companies had also pledged to create their own plans. When the skills mismatch is in the broader economy, though, the focus usually turns to government to handle. Efforts in Canada and elsewhere have been arguably languid at best, and have given us a situation where we frequently hear of employers begging for workers, even at times and in regions where unemployment is high.",
+          "translation": "谁应该为再培训付费的问题是一个棘手的问题。对于个别公司来说，解雇那些不再需要技能的工人并用那些技能不再需要的工人来取代他们总是很有吸引力的。这种情况并不总是发生。 AT&T 通常被认为是一家公司的黄金标准，该公司决定进行大规模的再培训计划，而不是采用解雇和雇用策略。其他公司也承诺制定自己的计划。 然而，当技能不匹配出现在更广泛的经济领域时，焦点通常会转向政府来处理。加拿大和其他地方的努力充其量可以说是疲软，这给我们带来了这样一种情况：我们经常听到雇主乞求工人，即使在失业率很高的时候和地区也是如此。",
+          "slashed_text": "The question of / who should pay / for reskilling is a thorny one. For individual companies , / the temptation is always to let go of workers / whose skills are no longer / in demand and replace them / with those / whose skills are. / That does not always happen. AT&T is often given as the gold standard of a company / that decided to do a massive reskilling program rather than go with a fire-and-hire strategy. Other companies had also pledged to create their own plans. / When the skills mismatch is in the broader economy , / though , / the focus usually turns to government to handle. Efforts / in Canada and elsewhere have been arguably languid / at best , / and have given us a situation / where we frequently hear of employers begging / for workers , / even / at times and / in regions / where unemployment is high.",
+          "chunk_translation": "关于 / 谁应该为再培训买单的问题 / 是一个棘手的问题。对单个公司而言， / 一直以来的诱惑都是解雇那些 / 其技能已不再 / 被需要的员工，并替换为 / 那些技能 / 符合需求的人。 / 但事实并非总是如此。AT&T常被树立为典范，作为一家 / 决定推行大规模再培训计划而非采取“先解雇再招聘”策略的公司。其他公司也曾承诺制定自己的计划。 然而，当技能不匹配存在于更广泛的宏观经济中时， / 人们关注的焦点 / 通常会转向由政府来处理。相关努力 / 在加拿大和其他地区可以说 / 充其量收效甚微， / 并造成了这样一种局面： / 我们经常听到雇主恳求 / 招募工人， / 甚至 / 在某些时期和 / 地区， / 那里的失业率居高不下。",
           "vocabulary": [
             {
               "word": "question",
@@ -108,20 +108,6 @@
               "pos": "n.",
               "definition": "n. 工作者；工作人员"
             },
-            {
-              "word": "skills",
-              "pos": "n.",
-              "definition": "n. （特定的）技术；技能"
-            }
-          ]
-        },
-        {
-          "pid": 2,
-          "text": "When the skills mismatch is in the broader economy, though, the focus usually turns to government to handle. Efforts in Canada and elsewhere have been arguably languid at best, and have given us a situation where we frequently hear of employers begging for workers, even at times and in regions where unemployment is high.",
-          "translation": "然而，当技能不匹配出现在更广泛的经济领域时，焦点通常会转向政府来处理。加拿大和其他地方的努力充其量可以说是疲软，这给我们带来了这样一种情况：我们经常听到雇主乞求工人，即使在失业率很高的时候和地区也是如此。",
-          "slashed_text": "/ When the skills mismatch is in the broader economy , / though , / the focus usually turns to government to handle. Efforts / in Canada and elsewhere have been arguably languid / at best , / and have given us a situation / where we frequently hear of employers begging / for workers , / even / at times and / in regions / where unemployment is high.",
-          "chunk_translation": "然而，当技能不匹配存在于更广泛的宏观经济中时， / 人们关注的焦点 / 通常会转向由政府来处理。相关努力 / 在加拿大和其他地区可以说 / 充其量收效甚微， / 并造成了这样一种局面： / 我们经常听到雇主恳求 / 招募工人， / 甚至 / 在某些时期和 / 地区， / 那里的失业率居高不下。",
-          "vocabulary": [
             {
               "word": "skills",
               "pos": "n.",
@@ -170,7 +156,7 @@
           ]
         },
         {
-          "pid": 3,
+          "pid": 2,
           "text": "With the pandemic, unemployment is very high indeed. In February, at 3.5 per cent and 5.5 per cent respectively, unemployment rates in Canada and the United States were at generational lows and worker shortages were everywhere. As of May, those rates had spiked up to 13.3 per cent and 13.7 per cent, and although many worker shortages had disappeared, not all had done so. In the medical field, to take an obvious example, the pandemic meant that there were still clear shortages of doctors, nurses and other medical personnel.",
           "translation": "受疫情影响，失业率确实很高。 2月份，加拿大和美国的失业率分别为3.5%和5.5%，处于世代低点，劳动力短缺现象随处可见。截至 5 月份，这一比例已飙升至 13.3% 和 13.7%，尽管许多工人短缺现象已经消失，但并非所有工人短缺现象都消失了。在医疗领域，举个明显的例子，疫情导致医生、护士等医务人员仍然明显短缺。",
           "slashed_text": "With the pandemic , / unemployment is very high indeed. In February , / at 3.5 per cent and 5.5 per cent respectively , / unemployment rates / in Canada and the United States were / at generational lows and worker shortages were everywhere. As of May , / those rates had spiked up to 13.3 per cent and 13.7 per cent , / and / although many worker shortages had disappeared , / not all had done so. In the medical field , / to take an obvious example , / the pandemic meant / that there were still clear shortages of doctors , / nurses and other medical personnel.",
@@ -224,7 +210,7 @@
           ]
         },
         {
-          "pid": 4,
+          "pid": 3,
           "text": "Of course, it is not like you can take an unemployed waiter and train him to be a doctor in a few weeks. But even if you cannot close that gap, maybe you can close others, and doing so would be to the benefit of all concerned. That seems to be the case in Sweden: When forced to furlough 90 per cent of their cabin staff, Scandinavian Airlines decided to start up a short retraining program that reskilled the laid-off workers to support hospital staff. The effort was a collective one and involved other companies as well as a Swedish university.",
           "translation": "当然，你不可能在几周内将一个失业的服务员培养成一名医生。但即使你无法缩小这一差距，也许你可以缩小其他差距，这样做将使所有相关方受益。瑞典的情况似乎就是这样：当被迫让 90% 的机舱工作人员休假时，斯堪的纳维亚航空公司决定启动一项短期再培训计划，对下岗工人进行重新培训，以支持医院工作人员。这是一项集体努力，涉及其他公司以及一所瑞典大学。",
           "slashed_text": "Of course , / it is not like you can take an unemployed waiter and train him to be a doctor in a few weeks. But even / if you cannot close / that gap , / maybe you can close others , / and doing so would be to the benefit of all concerned. / That seems to be the case / in Sweden : / When forced to furlough 90 per cent of their cabin staff , / Scandinavian Airlines decided to start up a short retraining program / that reskilled the laid-off workers to support hospital staff. The effort was a collective one and involved other companies as well as a Swedish university.",
@@ -448,8 +434,8 @@
         },
         {
           "sid": 9,
-          "pid": 2,
-          "sentence_index": 0,
+          "pid": 1,
+          "sentence_index": 5,
           "text": "When the skills mismatch is in the broader economy, though, the focus usually turns to government to handle.",
           "translation": "然而，当技能不匹配出现在更广泛的经济领域时，焦点通常会转向政府来处理。",
           "slashed_text": "/ When the skills mismatch is in the broader economy , / though , / the focus usually turns to government to handle.",
@@ -466,8 +452,8 @@
         },
         {
           "sid": 10,
-          "pid": 2,
-          "sentence_index": 1,
+          "pid": 1,
+          "sentence_index": 6,
           "text": "Efforts in Canada and elsewhere have been arguably languid at best, and have given us a situation where we frequently hear of employers begging for workers, even at times and in regions where unemployment is high.",
           "translation": "加拿大和其他地方的努力充其量可以说是疲软，这给我们带来了这样一种情况：我们经常听到雇主乞求工人，即使在失业率很高的时候和地区也是如此。",
           "slashed_text": "Efforts / in Canada and elsewhere have been arguably languid / at best , / and have given us a situation / where we frequently hear of employers begging / for workers , / even / at times and / in regions / where unemployment is high.",
@@ -484,7 +470,7 @@
         },
         {
           "sid": 11,
-          "pid": 3,
+          "pid": 2,
           "sentence_index": 0,
           "text": "With the pandemic, unemployment is very high indeed.",
           "translation": "受疫情影响，失业率确实很高。",
@@ -502,7 +488,7 @@
         },
         {
           "sid": 12,
-          "pid": 3,
+          "pid": 2,
           "sentence_index": 1,
           "text": "In February, at 3.5 per cent and 5.5 per cent respectively, unemployment rates in Canada and the United States were at generational lows and worker shortages were everywhere.",
           "translation": "2月份，加拿大和美国的失业率分别为3.5%和5.5%，处于世代低点，劳动力短缺现象随处可见。",
@@ -520,7 +506,7 @@
         },
         {
           "sid": 13,
-          "pid": 3,
+          "pid": 2,
           "sentence_index": 2,
           "text": "As of May, those rates had spiked up to 13.3 per cent and 13.7 per cent, and although many worker shortages had disappeared, not all had done so.",
           "translation": "截至 5 月份，这一比例已飙升至 13.3% 和 13.7%，尽管许多工人短缺现象已经消失，但并非所有工人短缺现象都消失了。",
@@ -538,7 +524,7 @@
         },
         {
           "sid": 14,
-          "pid": 3,
+          "pid": 2,
           "sentence_index": 3,
           "text": "In the medical field, to take an obvious example, the pandemic meant that there were still clear shortages of doctors, nurses and other medical personnel.",
           "translation": "在医疗领域，举个明显的例子，疫情导致医生、护士等医务人员仍然明显短缺。",
@@ -556,7 +542,7 @@
         },
         {
           "sid": 15,
-          "pid": 4,
+          "pid": 3,
           "sentence_index": 0,
           "text": "Of course, it is not like you can take an unemployed waiter and train him to be a doctor in a few weeks.",
           "translation": "当然，你不可能在几周内将一个失业的服务员培养成一名医生。",
@@ -574,7 +560,7 @@
         },
         {
           "sid": 16,
-          "pid": 4,
+          "pid": 3,
           "sentence_index": 1,
           "text": "But even if you cannot close that gap, maybe you can close others, and doing so would be to the benefit of all concerned.",
           "translation": "但即使你无法缩小这一差距，也许你可以缩小其他差距，这样做将使所有相关方受益。",
@@ -597,7 +583,7 @@
         },
         {
           "sid": 17,
-          "pid": 4,
+          "pid": 3,
           "sentence_index": 2,
           "text": "That seems to be the case in Sweden: When forced to furlough 90 per cent of their cabin staff, Scandinavian Airlines decided to start up a short retraining program that reskilled the laid-off workers to support hospital staff.",
           "translation": "瑞典的情况似乎就是这样：当被迫让 90% 的机舱工作人员休假时，斯堪的纳维亚航空公司决定启动一项短期再培训计划，对下岗工人进行重新培训，以支持医院工作人员。",
@@ -615,7 +601,7 @@
         },
         {
           "sid": 18,
-          "pid": 4,
+          "pid": 3,
           "sentence_index": 3,
           "text": "The effort was a collective one and involved other companies as well as a Swedish university.",
           "translation": "这是一项集体努力，涉及其他公司以及一所瑞典大学。",
@@ -798,7 +784,7 @@
           "stem": "Efforts to resolve the skills mismatch in Canada .",
           "stem_cn": "努力解决加拿大的技能不匹配问题。",
           "type": "段落推理题",
-          "locate_pid": 2,
+          "locate_pid": 1,
           "locate_sentence": "When the skills mismatch is in the broader economy, though, the focus usually turns to government to handle.",
           "locate_sentence_cn": "然而，当技能不匹配出现在更广泛的经济领域时，焦点通常会转向政府来处理。",
           "options": [
@@ -878,7 +864,7 @@
           "stem": "We can learn from Paragraph 3 that there was .",
           "stem_cn": "我们可以从第 3 段得知，有 。",
           "type": "词义/例证题",
-          "locate_pid": 3,
+          "locate_pid": 2,
           "locate_sentence": "With the pandemic, unemployment is very high indeed.",
           "locate_sentence_cn": "受疫情影响，失业率确实很高。",
           "options": [
@@ -958,7 +944,7 @@
           "stem": "Scandinavian Airlines decided to .",
           "stem_cn": "斯堪的纳维亚航空决定。",
           "type": "全文主旨题",
-          "locate_pid": 4,
+          "locate_pid": 3,
           "locate_sentence": "Of course, it is not like you can take an unemployed waiter and train him to be a doctor in a few weeks.",
           "locate_sentence_cn": "当然，你不可能在几周内将一个失业的服务员培养成一名医生。",
           "options": [
@@ -1714,7 +1700,7 @@
           "stem": "Some people argue that food self-sufficiency in the UK would .",
           "stem_cn": "有些人认为英国的粮食自给自足会。",
           "type": "事实细节题",
-          "locate_pid": 0,
+          "locate_pid": 1,
           "locate_sentence": "With the global population predicted to hit close to 10 billion by 2050, and forecasts that agricultural production in some regions will need to nearly double to keep pace, food security is increasingly making headlines.",
           "locate_sentence_cn": "预计到 2050 年，全球人口将接近 100 亿，并且预测某些地区的农业产量需要增加近一倍才能跟上步伐，粮食安全越来越成为头条新闻。",
           "options": [
@@ -1794,7 +1780,7 @@
           "stem": "The report by the University of Leeds shows that in the UK .",
           "stem_cn": "利兹大学的报告显示，在英国。",
           "type": "因果推断题",
-          "locate_pid": 1,
+          "locate_pid": 2,
           "locate_sentence": "Brexit is seen by some as an opportunity to reverse a recent trend towards the UK importing food.",
           "locate_sentence_cn": "一些人认为英国脱欧是扭转近期英国进口食品趋势的机会。",
           "options": [
@@ -1874,7 +1860,7 @@
           "stem": "Crop-growing in the UK is restricted due to .",
           "stem_cn": "英国的农作物种植受到限制。",
           "type": "段落推理题",
-          "locate_pid": 2,
+          "locate_pid": 4,
           "locate_sentence": "According to a report on UK food production from the University of Leeds, UK, 85 per cent of the country’s total land area is associated with meat and dairy production.",
           "locate_sentence_cn": "英国利兹大学关于英国粮食生产的报告显示，该国 85% 的土地面积用于肉类和奶制品生产。",
           "options": [
@@ -1954,7 +1940,7 @@
           "stem": "It can be learned from the last paragraph that British people .",
           "stem_cn": "从最后一段可以得知，英国人。",
           "type": "词义/例证题",
-          "locate_pid": 3,
+          "locate_pid": 5,
           "locate_sentence": "There are many caveats to those figures, but they are still grave.",
           "locate_sentence_cn": "这些数字有很多警告，但它们仍然很严重。",
           "options": [
@@ -2034,7 +2020,7 @@
           "stem": "The author’s attitude to food self-sufficiency in the UK is .",
           "stem_cn": "作者对英国粮食自给自足的态度是。",
           "type": "全文主旨题",
-          "locate_pid": 4,
+          "locate_pid": 5,
           "locate_sentence": "But switching to a mainly plant-based diet wouldn’t help.",
           "locate_sentence_cn": "但改用以植物为主的饮食并没有什么帮助。",
           "options": [
@@ -3260,10 +3246,10 @@
       "paragraphs": [
         {
           "pid": 0,
-          "text": "We’re fairly good at judging people based on first impressions, thin slices of experience ranging from a glimpse of a photo to five-minute interaction, and deliberation can be not only extraneous but intrusive. In one study of the ability she called “thin slicing,” the late psychologist Nalini Ambady asked participants to watch silent 10-second video clips of professors and to rate the instructor’s overall effectiveness. Their ratings correlated strongly with students’ end-of-semester ratings. Another set of participants had to count backward from 1,000 by nines as they watched the clips, occupying their conscious working memory. Their ratings were just as accurate, demonstrating the intuitive nature of the social processing. Critically, another group was asked to spend a minute writing down reasons for their judgment, before giving the rating. Accuracy dropped dramatically. Ambady suspected that deliberation focused them on vivid but misleading cues, such as certain gestures or utterances, rather than letting the complex interplay of subtle signals form a holistic impression. She found similar interference when participants watched 15-second clips of pairs of people and judged whether they were strangers, friends, or dating partners.",
-          "translation": "我们相当擅长根据第一印象、从瞥见一张照片到五分钟互动等细微的经验来判断一个人，而深思熟虑不仅是无关紧要的，而且是侵入性的。在一项她称之为“薄切片”能力的研究中，已故心理学家 Nalini Ambady 要求参与者观看教授的 10 秒无声视频片段，并对讲师的整体效率进行评分。他们的评分与学生的期末评分密切相关。另一组参与者在观看剪辑时必须从 1,000 倒数到九，这会占据他们有意识的工作记忆。他们的评分同样准确，展示了社交处理的直观本质。至关重要的是，另一组被要求在给出评级之前花一分钟写下他们的判断理由。准确度急剧下降。安巴迪怀疑，深思熟虑将他们集中在生动但具有误导性的线索上，例如某些手势或话语，而不是让微妙信号的复杂相互作用形成整体印象。当参与者观看两人的 15 秒视频并判断他们是陌生人、朋友还是约会对象时，她发现了类似的干扰。",
-          "slashed_text": "We’re fairly good / at judging people based / on first impressions , / thin slices of experience ranging from a glimpse of a photo to five-minute interaction , / and deliberation can be not only extraneous but intrusive. In one study of the ability she called “thin slicing , / ” the late psychologist Nalini Ambady asked participants to watch silent 10-second video clips of professors and to rate the instructor’s overall effectiveness. Their ratings correlated strongly / with students’ end-of-semester ratings. Another set of participants had to count backward from 1 , / 000 / by nines as they watched the clips , / occupying their conscious working memory. Their ratings were just as accurate , / demonstrating the intuitive nature of the social processing. Critically , / another group was asked to spend a minute writing down reasons / for their judgment , / before giving the rating. Accuracy dropped dramatically. Ambady suspected / that deliberation focused them / on vivid but misleading cues , / such as certain gestures or utterances , / rather than letting the complex interplay of subtle signals form a holistic impression. She found similar interference / when participants watched 15-second clips of pairs of people and judged whether they were strangers , / friends , / or dating partners.",
-          "chunk_translation": "我们相当擅长 / 基于第一印象来评价他人， / 这些第一印象来自于 / 从瞥见一张照片到五分钟互动等片刻的体验片段， / 而深思熟虑不仅可能毫无必要，甚至会产生干扰。在一项针对被她称为“薄切片”能力的研究中， / 已故心理学家纳利尼·安巴迪要求参与者观看教授们10秒钟的无声视频片段，并对教师的整体教学效果进行评分。他们的评分与 / 学生们在学期末给出的评分高度相关。另一组参与者必须倒数从1 / 000开始 / 以9为间隔，在他们观看视频片段时， / 这占据了他们有意识的工作记忆。他们的评分同样准确， / 这证明了社交认知处理的直觉本质。关键在于， / 另一组被要求花一分钟时间写下理由 / 作为他们做出判断的依据， / 在给出评分之前。准确率急剧下降。安巴迪推测， / 深思熟虑使他们把注意力集中在 / 生动但具误导性的线索上， / 例如某些手势或言语， / 而不是让微妙信号之间复杂的相互作用来形成一种整体印象。她发现了类似的干扰现象， / 当参与者观看两人之间15秒的视频片段并判断他们是陌生人、 / 朋友 / 还是约会伴侣时。",
+          "text": "We’re fairly good at judging people based on first impressions, thin slices of experience ranging from a glimpse of a photo to five-minute interaction, and deliberation can be not only extraneous but intrusive. In one study of the ability she called “thin slicing,” the late psychologist Nalini Ambady asked participants to watch silent 10-second video clips of professors and to rate the instructor’s overall effectiveness. Their ratings correlated strongly with students’ end-of-semester ratings. Another set of participants had to count backward from 1,000 by nines as they watched the clips, occupying their conscious working memory. Their ratings were just as accurate, demonstrating the intuitive nature of the social processing.",
+          "translation": "我们非常擅长根据第一印象来评价他人，从瞥一眼照片到五分钟的互动，这种极短的经验片段（薄片），而深思熟虑不仅多余，甚至会产生干扰。在已故心理学家纳里尼·安姆巴迪（Nalini Ambady）对被称为“薄片截取”能力的一项研究中，她让参与者观看教授的10秒无声视频片段，并对教师的整体效能进行评分。他们的评分与学生期末的评价密切相关。另一组参与者在观看视频片段时，必须以9为步长从1000倒数，这占据了他们的意识工作记忆。他们的评分同样准确，证明了社会处理的直觉性质。",
+          "slashed_text": "We’re fairly good at judging people based on first impressions , / thin slices of experience ranging from a glimpse of a photo to five-minute interaction , / and deliberation can be not only extraneous but intrusive. In one study of the ability / she called “thin slicing ,” / the late psychologist Nalini Ambady asked participants to watch silent 10-second video clips of professors / and to rate the instructor’s overall effectiveness. Their ratings correlated strongly with students’ end-of-semester ratings. Another set of participants had to count backward from 1 , / 000 by nines / as they watched the clips , / occupying their conscious working memory. Their ratings were just as accurate , / demonstrating the intuitive nature of the social processing.",
+          "chunk_translation": "我们相当擅长根据第一印象评判他人， / 从瞥一眼照片到五分钟互动的极短经验片段， / 深思熟虑不仅多余甚至还会产生干扰。在对这种能力的研究中， / 她将其称为“薄片截取”， / 已故心理学家纳里尼·安巴迪让参与者观看教授的10秒无声视频片段， / 并对授课教师的整体教学效果进行评分。他们的评分与学生期末评价高度相关。另一组参与者在观看视频时被要求从1000开始以9递减倒数， / 以9为步长倒数， / 当他们观看视频时， / 从而占据了他们的意识工作记忆。他们的评分同样准确， / 这证明了社会认知过程的直觉属性。",
           "vocabulary": [
             {
               "word": "fairly",
@@ -3314,6 +3300,60 @@
         },
         {
           "pid": 1,
+          "text": "Critically, another group was asked to spend a minute writing down reasons for their judgment, before giving the rating. Accuracy dropped dramatically. Ambady suspected that deliberation focused them on vivid but misleading cues, such as certain gestures or utterances, rather than letting the complex interplay of subtle signals form a holistic impression. She found similar interference when participants watched 15-second clips of pairs of people and judged whether they were strangers, friends, or dating partners.",
+          "translation": "关键在于，另一组人在评分前被要求花一分钟写下评判的理由。准确性急剧下降。安姆巴迪怀疑，深思熟虑使他们把注意力集中在生动但具有误导性的线索上，例如某些手势或言语，而不是让微妙信号的复杂相互作用形成整体印象。当参与者观看两个人之间15秒的视频片段并判断他们是陌生人、朋友还是约会伴侣时，她也发现了类似的干扰。",
+          "slashed_text": "Critically , / another group was asked to spend a minute writing down reasons for their judgment , / before giving the rating. Accuracy dropped dramatically. Ambady suspected / that deliberation focused them / on vivid but misleading cues , / such as certain gestures or utterances , / rather than letting the complex interplay of subtle signals form a holistic impression. She found similar interference / when participants watched 15-second clips of pairs of people / and judged whether they were strangers , / friends , / or dating partners.",
+          "chunk_translation": "关键在于， / 另一组人在打分前被要求花一分钟写下他们做出判断的理由， / 在给出评分之前。准确率急剧下降。安巴迪推测， / 深思熟虑使他们将注意力集中在 / 生动但具误导性的线索上， / 例如某些手势或话语， / 而未能让微弱信号之间复杂的相互作用去形成整体印象。她发现了类似的干扰现象， / 当参与者观看两人互动的15秒视频片段， / 并判断他们是陌生人、 / 朋友， / 还是约会伴侣时。",
+          "vocabulary": [
+            {
+              "word": "fairly",
+              "pos": "adv.",
+              "definition": "adv. 相当地；颇"
+            },
+            {
+              "word": "good",
+              "pos": "adj.",
+              "definition": "adj. 优良的；能干的"
+            },
+            {
+              "word": "judging",
+              "pos": "vt.",
+              "definition": "vt. 判断；审判（judge 的现在分词）"
+            },
+            {
+              "word": "based",
+              "pos": "adj.",
+              "definition": "adj. （以某事）为基础的；为根据的"
+            },
+            {
+              "word": "impressions",
+              "pos": "n.",
+              "definition": "n. 印象；观感（impression 的复数）"
+            },
+            {
+              "word": "thin",
+              "pos": "adj.",
+              "definition": "adj. 薄的；细的"
+            },
+            {
+              "word": "slices",
+              "pos": "n.",
+              "definition": "n. 薄片；切片"
+            },
+            {
+              "word": "experience",
+              "pos": "n.",
+              "definition": "n. 经历；往事"
+            },
+            {
+              "word": "ranging",
+              "pos": "v.",
+              "definition": "v. （在一定的范围内）变化；变动（常与 from...to... 连用）"
+            }
+          ]
+        },
+        {
+          "pid": 2,
           "text": "Other research shows we’re better at detecting deception from thin slices when we rely on intuition instead of reflection. “It’s as if you’re driving a stick shift,” says Judith Hall, a psychologist at Northeastern University, “and if you start thinking about it too much, you can’t remember what you’re doing. But if you go on automatic pilot, you’re fine. Much of our social life is like that.”",
           "translation": "其他研究表明，当我们依靠直觉而不是反思时，我们可以更好地从薄片中发现欺骗。东北大学心理学家朱迪思·霍尔（Judith Hall）说：“这就好像你在开手动挡，如果你开始想得太多，你就会记不起自己在做什么。但如果你开自动驾驶仪，那就没问题了。我们的大部分社交生活都是这样。”",
           "slashed_text": "Other research shows we’re better / at detecting deception / from thin slices / when we rely / on intuition instead of reflection. “It’s as / if you’re driving a stick shift , / ” says Judith Hall , / a psychologist / at Northeastern University , / “and / if you start thinking about it too much , / you can’t remember what you’re doing. But / if you go / on automatic pilot , / you’re fine. Much of our social life is like / that.”",
@@ -3367,11 +3407,11 @@
           ]
         },
         {
-          "pid": 2,
-          "text": "Thinking too much can also harm our ability to form preferences. College students’",
-          "translation": "想得太多也会损害我们形成偏好的能力。大学生的",
-          "slashed_text": "Thinking too much can also harm our ability to form preferences. College students’",
-          "chunk_translation": "过度思考还会损害我们形成偏好的能力。大学生的",
+          "pid": 3,
+          "text": "Thinking too much can also harm our ability to form preferences. College students’ ratings of strawberry jams and college courses aligned better with experts’ opinions when the students weren’t asked to analyze their rationale. And people made car-buying decisions that were both objectively better and more personally satisfying when asked to focus on their feelings rather than on details, but only if the decision was complex—when they had a lot of information to process.",
+          "translation": "想得太多也会损害我们形成偏好的能力。当大学生没有被要求分析其理由时，他们对草莓酱和大学课程的评价与专家的意见更加一致。当人们被要求关注自己的感受而不是细节时，他们会做出客观上更好、个人更满意的购车决定，但前提是这个决定很复杂——当他们有大量信息需要处理时。",
+          "slashed_text": "Thinking too much can also harm our ability to form preferences. College students’ ratings of strawberry jams and college courses aligned better / with experts’ opinions / when the students weren’t asked to analyze their rationale. And people made car-buying decisions / that were both objectively better and more personally satisfying / when asked to focus / on their feelings rather than / on details , / but only / if the decision was complex — / when they had a lot of information to process.",
+          "chunk_translation": "过度思考还会损害我们形成偏好的能力。大学生对草莓酱和大学课程的评价与专家意见更加一致， / 当学生们没有被要求 / 分析其背后的理由时。而且人们做出的购车决定 / 既在客观上更优，在个人层面上也更令人满意， / 当被要求关注 / 自己的感受而非 / 细节时， / 但前提是 / 这一决定非常复杂—— / 即当他们有大量信息需要处理时。",
           "vocabulary": [
             {
               "word": "Thinking",
@@ -3407,16 +3447,7 @@
               "word": "students",
               "pos": "n.",
               "definition": "n. 学生（student 的复数）"
-            }
-          ]
-        },
-        {
-          "pid": 3,
-          "text": "ratings of strawberry jams and college courses aligned better with experts’ opinions when the students weren’t asked to analyze their rationale. And people made car-buying decisions that were both objectively better and more personally satisfying when asked to focus on their feelings rather than on details, but only if the decision was complex—when they had a lot of information to process.",
-          "translation": "当学生不被要求分析其理由时，草莓酱和大学课程的评分与专家的观点更加一致。当人们被要求关注自己的感受而不是细节时，他们会做出客观上更好、个人更满意的购车决定，但前提是这个决定很复杂——当他们有大量信息需要处理时。",
-          "slashed_text": "ratings of strawberry jams and college courses aligned better / with experts’ opinions / when the students weren’t asked to analyze their rationale. And people made car-buying decisions / that were both objectively better and more personally satisfying / when asked to focus / on their feelings rather than / on details , / but only / if the decision was complex — / when they had a lot of information to process.",
-          "chunk_translation": "对草莓酱和大学课程的评价与专家意见更加一致， / 当学生们没有被要求 / 分析其背后的理由时。而且人们做出的购车决定 / 既在客观上更优，在个人层面上也更令人满意， / 当被要求关注 / 自己的感受而非 / 细节时， / 但前提是 / 这一决定非常复杂—— / 即当他们有大量信息需要处理时。",
-          "vocabulary": [
+            },
             {
               "word": "ratings",
               "pos": "n.",
@@ -3431,11 +3462,6 @@
               "word": "jams",
               "pos": "n.",
               "definition": "n. 宽短裤；短裤睡衣"
-            },
-            {
-              "word": "college",
-              "pos": "n.",
-              "definition": "n. 大学；专科学校"
             },
             {
               "word": "courses",
@@ -3612,8 +3638,8 @@
         },
         {
           "sid": 5,
-          "pid": 0,
-          "sentence_index": 5,
+          "pid": 1,
+          "sentence_index": 0,
           "text": "Critically, another group was asked to spend a minute writing down reasons for their judgment, before giving the rating.",
           "translation": "至关重要的是，另一组被要求在给出评级之前花一分钟写下他们的判断理由。",
           "slashed_text": "Critically , / another group was asked to spend a minute writing down reasons / for their judgment , / before giving the rating.",
@@ -3630,8 +3656,8 @@
         },
         {
           "sid": 6,
-          "pid": 0,
-          "sentence_index": 6,
+          "pid": 1,
+          "sentence_index": 1,
           "text": "Accuracy dropped dramatically.",
           "translation": "准确度急剧下降。",
           "slashed_text": "Accuracy dropped dramatically.",
@@ -3648,8 +3674,8 @@
         },
         {
           "sid": 7,
-          "pid": 0,
-          "sentence_index": 7,
+          "pid": 1,
+          "sentence_index": 2,
           "text": "Ambady suspected that deliberation focused them on vivid but misleading cues, such as certain gestures or utterances, rather than letting the complex interplay of subtle signals form a holistic impression.",
           "translation": "安巴迪怀疑，深思熟虑将他们集中在生动但具有误导性的线索上，例如某些手势或话语，而不是让微妙信号的复杂相互作用形成整体印象。",
           "slashed_text": "Ambady suspected / that deliberation focused them / on vivid but misleading cues , / such as certain gestures or utterances , / rather than letting the complex interplay of subtle signals form a holistic impression.",
@@ -3666,8 +3692,8 @@
         },
         {
           "sid": 8,
-          "pid": 0,
-          "sentence_index": 8,
+          "pid": 1,
+          "sentence_index": 3,
           "text": "She found similar interference when participants watched 15-second clips of pairs of people and judged whether they were strangers, friends, or dating partners.",
           "translation": "当参与者观看两人的 15 秒视频并判断他们是陌生人、朋友还是约会对象时，她发现了类似的干扰。",
           "slashed_text": "She found similar interference / when participants watched 15-second clips of pairs of people and judged whether they were strangers , / friends , / or dating partners.",
@@ -3684,7 +3710,7 @@
         },
         {
           "sid": 9,
-          "pid": 1,
+          "pid": 2,
           "sentence_index": 0,
           "text": "Other research shows we’re better at detecting deception from thin slices when we rely on intuition instead of reflection.",
           "translation": "其他研究表明，当我们依靠直觉而不是反思时，我们可以更好地从薄片中发现欺骗。",
@@ -3702,7 +3728,7 @@
         },
         {
           "sid": 10,
-          "pid": 1,
+          "pid": 2,
           "sentence_index": 1,
           "text": "“It’s as if you’re driving a stick shift,” says Judith Hall, a psychologist at Northeastern University, “and if you start thinking about it too much, you can’t remember what you’re doing.",
           "translation": "东北大学心理学家朱迪思·霍尔（Judith Hall）说：“这就好像你在开手动挡，如果你开始想得太多，你就会记不起自己在做什么。",
@@ -3725,7 +3751,7 @@
         },
         {
           "sid": 11,
-          "pid": 1,
+          "pid": 2,
           "sentence_index": 2,
           "text": "But if you go on automatic pilot, you’re fine.",
           "translation": "但如果你继续自动驾驶，那就没问题了。",
@@ -3743,7 +3769,7 @@
         },
         {
           "sid": 12,
-          "pid": 1,
+          "pid": 2,
           "sentence_index": 3,
           "text": "Much of our social life is like that.”",
           "translation": "我们的大部分社交生活都是这样的。”",
@@ -3761,7 +3787,7 @@
         },
         {
           "sid": 13,
-          "pid": 2,
+          "pid": 3,
           "sentence_index": 0,
           "text": "Thinking too much can also harm our ability to form preferences.",
           "translation": "想得太多也会损害我们形成偏好的能力。",
@@ -3779,18 +3805,18 @@
         },
         {
           "sid": 14,
-          "pid": 2,
+          "pid": 3,
           "sentence_index": 1,
-          "text": "College students’",
-          "translation": "大学生的",
-          "slashed_text": "College students’",
-          "chunk_translation": "大学生的",
+          "text": "College students’ ratings of strawberry jams and college courses aligned better with experts’ opinions when the students weren’t asked to analyze their rationale.",
+          "translation": "当大学生没有被要求分析其理由时，他们对草莓酱和大学课程的评价与专家的意见更加一致。",
+          "slashed_text": "College students’ ratings of strawberry jams and college courses aligned better / with experts’ opinions / when the students weren’t asked to analyze their rationale.",
+          "chunk_translation": "大学生对草莓酱和大学课程的评价与专家意见更加一致， / 当学生们没有被要求 / 分析其背后的理由时。",
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "College students’...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "状语从句",
+                "content": "when the students weren’t asked to analyze their rationale.",
+                "explanation": "从属连词 <code>when</code> 引导时间状语从句，表明动作发生的前提条件或时间背景。"
               }
             ]
           }
@@ -3798,25 +3824,7 @@
         {
           "sid": 15,
           "pid": 3,
-          "sentence_index": 0,
-          "text": "ratings of strawberry jams and college courses aligned better with experts’ opinions when the students weren’t asked to analyze their rationale.",
-          "translation": "当学生不被要求分析其理由时，草莓酱和大学课程的评分与专家的观点更加一致。",
-          "slashed_text": "ratings of strawberry jams and college courses aligned better / with experts’ opinions / when the students weren’t asked to analyze their rationale.",
-          "chunk_translation": "对草莓酱和大学课程的评价与专家意见更加一致， / 当学生们没有被要求 / 分析其背后的理由时。",
-          "syntax": {
-            "breakdown": [
-              {
-                "type": "定语从句",
-                "content": "when the students weren’t asked to analyze th...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
-              }
-            ]
-          }
-        },
-        {
-          "sid": 16,
-          "pid": 3,
-          "sentence_index": 1,
+          "sentence_index": 2,
           "text": "And people made car-buying decisions that were both objectively better and more personally satisfying when asked to focus on their feelings rather than on details, but only if the decision was complex—when they had a lot of information to process.",
           "translation": "当人们被要求关注自己的感受而不是细节时，他们会做出客观上更好、个人更满意的购车决定，但前提是这个决定很复杂——当他们有大量信息需要处理时。",
           "slashed_text": "And people made car-buying decisions / that were both objectively better and more personally satisfying / when asked to focus / on their feelings rather than / on details , / but only / if the decision was complex — / when they had a lot of information to process.",
@@ -3837,7 +3845,7 @@
           }
         },
         {
-          "sid": 17,
+          "sid": 16,
           "pid": 4,
           "sentence_index": 0,
           "text": "Intuition’s special powers are unleashed only in certain circumstances.",
@@ -3855,7 +3863,7 @@
           }
         },
         {
-          "sid": 18,
+          "sid": 17,
           "pid": 4,
           "sentence_index": 1,
           "text": "In one study, participants completed a battery of eight tasks, including four that tapped reflective thinking (discerning rules, comprehending vocabulary) and four that tapped intuition and creativity (generating new products or figures of speech).",
@@ -3873,7 +3881,7 @@
           }
         },
         {
-          "sid": 19,
+          "sid": 18,
           "pid": 4,
           "sentence_index": 2,
           "text": "Then they rated the degree to which they had used intuition (“gut feelings,” “hunches,” “my heart”).",
@@ -3891,7 +3899,7 @@
           }
         },
         {
-          "sid": 20,
+          "sid": 19,
           "pid": 4,
           "sentence_index": 3,
           "text": "Use of their gut hurt their performance on the first four tasks, as expected, and helped them on the rest.",
@@ -3909,7 +3917,7 @@
           }
         },
         {
-          "sid": 21,
+          "sid": 20,
           "pid": 4,
           "sentence_index": 4,
           "text": "Sometimes the heart is smarter than the head.",

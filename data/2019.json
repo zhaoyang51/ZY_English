@@ -774,7 +774,7 @@
           "type": "事实细节题",
           "locate_pid": 0,
           "locate_sentence": "Unlike so-called basic emotions such as sadness, fear, and anger, guilt emerges a little later, in conjunction with a child’s growing grasp of social and moral norms.",
-          "locate_sentence_cn": "与悲伤、恐惧和愤怒等所谓的基本情绪不同，随着孩子对社会和道德规范的掌握不断加深，内疚感会出现得稍晚一些。",
+          "locate_sentence_cn": "与悲伤、恐惧和愤怒等所谓的基本情绪不同，内疚感出现得稍晚一些，是随着儿童对社会和道德规范的逐渐理解而产生的。",
           "options": [
             {
               "key": "A",
@@ -786,7 +786,7 @@
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
                 "source_sentence": "Unlike so-called basic emotions such as sadness, fear, and anger, guilt emerges a little later, in conjunction with a child’s growing grasp of social and moral norms.",
-                "source_translation": "与悲伤、恐惧和愤怒等所谓的基本情绪不同，随着孩子对社会和道德规范的掌握不断加深，内疚感会出现得稍晚一些。",
+                "source_translation": "与悲伤、恐惧和愤怒等所谓的基本情绪不同，内疚感出现得稍晚一些，是随着儿童对社会和道德规范的逐渐理解而产生的。",
                 "locator_comparison": "选项核心词 <code>foster</code>, <code>child</code>, <code>moral</code>（“促进孩子的道德发展”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“孩子生来就不知道如何说“对不起”；相反，随着时间的推移，他们了解到这样的言论可以安抚父母和朋友——以及他们自己的良心。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -803,7 +803,7 @@
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
                 "source_sentence": "Unlike so-called basic emotions such as sadness, fear, and anger, guilt emerges a little later, in conjunction with a child’s growing grasp of social and moral norms.",
-                "source_translation": "与悲伤、恐惧和愤怒等所谓的基本情绪不同，随着孩子对社会和道德规范的掌握不断加深，内疚感会出现得稍晚一些。",
+                "source_translation": "与悲伤、恐惧和愤怒等所谓的基本情绪不同，内疚感出现得稍晚一些，是随着儿童对社会和道德规范的逐渐理解而产生的。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“孩子生来就不知道如何说“对不起”；相反，随着时间的推移，他们了解到这样的言论可以安抚父母和朋友——以及他们自己的良心。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -820,7 +820,7 @@
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
                 "source_sentence": "Unlike so-called basic emotions such as sadness, fear, and anger, guilt emerges a little later, in conjunction with a child’s growing grasp of social and moral norms.",
-                "source_translation": "与悲伤、恐惧和愤怒等所谓的基本情绪不同，随着孩子对社会和道德规范的掌握不断加深，内疚感会出现得稍晚一些。",
+                "source_translation": "与悲伤、恐惧和愤怒等所谓的基本情绪不同，内疚感出现得稍晚一些，是随着儿童对社会和道德规范的逐渐理解而产生的。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“孩子生来就不知道如何说“对不起”；相反，随着时间的推移，他们了解到这样的言论可以安抚父母和朋友——以及他们自己的良心。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -837,7 +837,7 @@
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
                 "source_sentence": "Unlike so-called basic emotions such as sadness, fear, and anger, guilt emerges a little later, in conjunction with a child’s growing grasp of social and moral norms.",
-                "source_translation": "与悲伤、恐惧和愤怒等所谓的基本情绪不同，随着孩子对社会和道德规范的掌握不断加深，内疚感会出现得稍晚一些。",
+                "source_translation": "与悲伤、恐惧和愤怒等所谓的基本情绪不同，内疚感出现得稍晚一些，是随着儿童对社会和道德规范的逐渐理解而产生的。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“孩子生来就不知道如何说“对不起”；相反，随着时间的推移，他们了解到这样的言论可以安抚父母和朋友——以及他们自己的良心。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -853,8 +853,8 @@
           "stem_cn": "根据第 2 段，许多人仍然认为内疚是 _____。",
           "type": "因果推断题",
           "locate_pid": 1,
-          "locate_sentence": "In the popular imagination, of course, guilt still gets a bad rap.",
-          "locate_sentence_cn": "当然，在大众的想象中，内疚感仍然受到不好的批评。",
+          "locate_sentence": "In the popular imagination, of course, guilt still gets a bad rap. It is deeply uncomfortable—it’s the emotional equivalent of wearing a jacket weighted with stones.",
+          "locate_sentence_cn": "当然，在公众的普遍印象中，内疚感仍然饱受诟病。它让人极其难受——在情感上相当于穿着一件装满石头的夹克。",
           "options": [
             {
               "key": "A",
@@ -865,8 +865,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "In the popular imagination, of course, guilt still gets a bad rap.",
-                "source_translation": "当然，在大众的想象中，内疚感仍然受到不好的批评。",
+                "source_sentence": "In the popular imagination, of course, guilt still gets a bad rap. It is deeply uncomfortable—it’s the emotional equivalent of wearing a jacket weighted with stones.",
+                "source_translation": "当然，在公众的普遍印象中，内疚感仍然饱受诟病。它让人极其难受——在情感上相当于穿着一件装满石头的夹克。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“这是非常不舒服的——这在情感上就相当于穿着一件装满石头的夹克。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -882,8 +882,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "In the popular imagination, of course, guilt still gets a bad rap.",
-                "source_translation": "当然，在大众的想象中，内疚感仍然受到不好的批评。",
+                "source_sentence": "In the popular imagination, of course, guilt still gets a bad rap. It is deeply uncomfortable—it’s the emotional equivalent of wearing a jacket weighted with stones.",
+                "source_translation": "当然，在公众的普遍印象中，内疚感仍然饱受诟病。它让人极其难受——在情感上相当于穿着一件装满石头的夹克。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“这是非常不舒服的——这在情感上就相当于穿着一件装满石头的夹克。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -899,8 +899,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "In the popular imagination, of course, guilt still gets a bad rap.",
-                "source_translation": "当然，在大众的想象中，内疚感仍然受到不好的批评。",
+                "source_sentence": "In the popular imagination, of course, guilt still gets a bad rap. It is deeply uncomfortable—it’s the emotional equivalent of wearing a jacket weighted with stones.",
+                "source_translation": "当然，在公众的普遍印象中，内疚感仍然饱受诟病。它让人极其难受——在情感上相当于穿着一件装满石头的夹克。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“这是非常不舒服的——这在情感上就相当于穿着一件装满石头的夹克。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -916,8 +916,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "In the popular imagination, of course, guilt still gets a bad rap.",
-                "source_translation": "当然，在大众的想象中，内疚感仍然受到不好的批评。",
+                "source_sentence": "In the popular imagination, of course, guilt still gets a bad rap. It is deeply uncomfortable—it’s the emotional equivalent of wearing a jacket weighted with stones.",
+                "source_translation": "当然，在公众的普遍印象中，内疚感仍然饱受诟病。它让人极其难受——在情感上相当于穿着一件装满石头的夹克。",
                 "locator_comparison": "选项核心词 <code>burdensome</code>（“繁重的”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“这是非常不舒服的——这在情感上就相当于穿着一件装满石头的夹克。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -932,9 +932,9 @@
           "stem": "Vaish holds that the rethinking about guilt comes from an awareness that _____.",
           "stem_cn": "瓦伊什认为，对内疚的重新思考来自于一种_____的意识。",
           "type": "段落推理题",
-          "locate_pid": 2,
-          "locate_sentence": "And guilt, by prompting us to think more deeply about our goodness, can encourage humans to make up for errors and fix relationships.",
-          "locate_sentence_cn": "而内疚感可以促使我们更深入地思考自己的善良，从而鼓励人们弥补错误并修复关系。",
+          "locate_pid": 1,
+          "locate_sentence": "“There has been a kind of revival or a rethinking about what guilt is and what role guilt can serve,” says Amrisha Vaish, a psychology researcher at the University of Virginia, adding that this revival is part of a larger recognition that emotions aren’t binary—feelings that may be advantageous in one context may be harmful in another.",
+          "locate_sentence_cn": "弗吉尼亚大学心理学研究员阿姆里莎·瓦伊什表示：“人们对什么是内疚以及内疚能发挥什么作用进行了某种复兴或重新思考”，她补充说，这种复兴是对情绪并非非黑即白这一更大认知的一部分——在某种情境下可能有益的情绪在另一种情境下可能是有害的。",
           "options": [
             {
               "key": "A",
@@ -945,8 +945,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "And guilt, by prompting us to think more deeply about our goodness, can encourage humans to make up for errors and fix relationships.",
-                "source_translation": "而内疚感可以促使我们更深入地思考自己的善良，从而鼓励人们弥补错误并修复关系。",
+                "source_sentence": "“There has been a kind of revival or a rethinking about what guilt is and what role guilt can serve,” says Amrisha Vaish, a psychology researcher at the University of Virginia, adding that this revival is part of a larger recognition that emotions aren’t binary—feelings that may be advantageous in one context may be harmful in another.",
+                "source_translation": "弗吉尼亚大学心理学研究员阿姆里莎·瓦伊什表示：“人们对什么是内疚以及内疚能发挥什么作用进行了某种复兴或重新思考”，她补充说，这种复兴是对情绪并非非黑即白这一更大认知的一部分——在某种情境下可能有益的情绪在另一种情境下可能是有害的。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“换句话说，内疚可以帮助让一个合作的物种团结在一起。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -962,9 +962,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "And guilt, by prompting us to think more deeply about our goodness, can encourage humans to make up for errors and fix relationships.",
-                "source_translation": "而内疚感可以促使我们更深入地思考自己的善良，从而鼓励人们弥补错误并修复关系。",
-                "locator_comparison": "选项核心词 <code>emotion</code>, <code>can</code>, <code>play</code>（“情绪可以扮演相反的角色”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "“There has been a kind of revival or a rethinking about what guilt is and what role guilt can serve,” says Amrisha Vaish, a psychology researcher at the University of Virginia, adding that this revival is part of a larger recognition that emotions aren’t binary—feelings that may be advantageous in one context may be harmful in another.",
+                "source_translation": "弗吉尼亚大学心理学研究员阿姆里莎·瓦伊什表示：“人们对什么是内疚以及内疚能发挥什么作用进行了某种复兴或重新思考”，她补充说，这种复兴是对情绪并非非黑即白这一更大认知的一部分——在某种情境下可能有益的情绪在另一种情境下可能是有害的。",
+                "locator_comparison": "选项核心词 <code>emotion</code>, <code>can</code>, <code>play</code>（“情绪可以扮演相反的角色”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“换句话说，内疚可以帮助让一个合作的物种团结在一起。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：B正确。"
@@ -979,8 +979,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "And guilt, by prompting us to think more deeply about our goodness, can encourage humans to make up for errors and fix relationships.",
-                "source_translation": "而内疚感可以促使我们更深入地思考自己的善良，从而鼓励人们弥补错误并修复关系。",
+                "source_sentence": "“There has been a kind of revival or a rethinking about what guilt is and what role guilt can serve,” says Amrisha Vaish, a psychology researcher at the University of Virginia, adding that this revival is part of a larger recognition that emotions aren’t binary—feelings that may be advantageous in one context may be harmful in another.",
+                "source_translation": "弗吉尼亚大学心理学研究员阿姆里莎·瓦伊什表示：“人们对什么是内疚以及内疚能发挥什么作用进行了某种复兴或重新思考”，她补充说，这种复兴是对情绪并非非黑即白这一更大认知的一部分——在某种情境下可能有益的情绪在另一种情境下可能是有害的。",
                 "locator_comparison": "借用了原文的词汇 <code>emotions</code>, <code>are</code>, <code>socially</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“换句话说，内疚可以帮助让一个合作的物种团结在一起。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -996,8 +996,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "And guilt, by prompting us to think more deeply about our goodness, can encourage humans to make up for errors and fix relationships.",
-                "source_translation": "而内疚感可以促使我们更深入地思考自己的善良，从而鼓励人们弥补错误并修复关系。",
+                "source_sentence": "“There has been a kind of revival or a rethinking about what guilt is and what role guilt can serve,” says Amrisha Vaish, a psychology researcher at the University of Virginia, adding that this revival is part of a larger recognition that emotions aren’t binary—feelings that may be advantageous in one context may be harmful in another.",
+                "source_translation": "弗吉尼亚大学心理学研究员阿姆里莎·瓦伊什表示：“人们对什么是内疚以及内疚能发挥什么作用进行了某种复兴或重新思考”，她补充说，这种复兴是对情绪并非非黑即白这一更大认知的一部分——在某种情境下可能有益的情绪在另一种情境下可能是有害的。",
                 "locator_comparison": "选项声称“情绪稳定有利于健康”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“换句话说，内疚可以帮助让一个合作的物种团结在一起。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1013,8 +1013,8 @@
           "stem_cn": "Malti 和其他人已经证明了合作与共享 _____。",
           "type": "词义/例证题",
           "locate_pid": 3,
-          "locate_sentence": "Viewed in this light, guilt is an opportunity.",
-          "locate_sentence_cn": "从这个角度来看，内疚是一个机会。",
+          "locate_sentence": "In a number of studies, Malti and others have shown that guilt and sympathy may represent different pathways to cooperation and sharing.",
+          "locate_sentence_cn": "在多项研究中，马尔蒂等人表明，内疚和同情可能代表了通往合作与分享的不同途径。",
           "options": [
             {
               "key": "A",
@@ -1025,8 +1025,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Viewed in this light, guilt is an opportunity.",
-                "source_translation": "从这个角度来看，内疚是一个机会。",
+                "source_sentence": "In a number of studies, Malti and others have shown that guilt and sympathy may represent different pathways to cooperation and sharing.",
+                "source_translation": "在多项研究中，马尔蒂等人表明，内疚和同情可能代表了通往合作与分享的不同途径。",
                 "locator_comparison": "借用了原文的词汇 <code>may</code>, <code>outcome</code>, <code>impulsive</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“多伦多大学心理学教授蒂娜·马尔蒂的研究表明，内疚可以弥补情感上的缺陷。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1042,8 +1042,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Viewed in this light, guilt is an opportunity.",
-                "source_translation": "从这个角度来看，内疚是一个机会。",
+                "source_sentence": "In a number of studies, Malti and others have shown that guilt and sympathy may represent different pathways to cooperation and sharing.",
+                "source_translation": "在多项研究中，马尔蒂等人表明，内疚和同情可能代表了通往合作与分享的不同途径。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“多伦多大学心理学教授蒂娜·马尔蒂的研究表明，内疚可以弥补情感上的缺陷。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1059,8 +1059,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Viewed in this light, guilt is an opportunity.",
-                "source_translation": "从这个角度来看，内疚是一个机会。",
+                "source_sentence": "In a number of studies, Malti and others have shown that guilt and sympathy may represent different pathways to cooperation and sharing.",
+                "source_translation": "在多项研究中，马尔蒂等人表明，内疚和同情可能代表了通往合作与分享的不同途径。",
                 "locator_comparison": "借用了原文的词汇 <code>can</code>, <code>bring</code>, <code>emotional</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“多伦多大学心理学教授蒂娜·马尔蒂的研究表明，内疚可以弥补情感上的缺陷。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1076,8 +1076,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Viewed in this light, guilt is an opportunity.",
-                "source_translation": "从这个角度来看，内疚是一个机会。",
+                "source_sentence": "In a number of studies, Malti and others have shown that guilt and sympathy may represent different pathways to cooperation and sharing.",
+                "source_translation": "在多项研究中，马尔蒂等人表明，内疚和同情可能代表了通往合作与分享的不同途径。",
                 "locator_comparison": "选项核心词 <code>can</code>, <code>result</code>, <code>either</code>（“可能是出于同情或内疚”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“多伦多大学心理学教授蒂娜·马尔蒂的研究表明，内疚可以弥补情感上的缺陷。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -1093,8 +1093,8 @@
           "stem_cn": "“过犯”（第 5 段）一词的含义最接近 _____。",
           "type": "全文主旨题",
           "locate_pid": 4,
-          "locate_sentence": "In a 2014 study, for example, Malti looked at 244 children.",
-          "locate_sentence_cn": "例如，在2014年的一项研究中，Malti观察了244名儿童。",
+          "locate_sentence": "Using caregiver assessments and the children’s self-observations, she rated each child’s overall sympathy level and his or her tendency to feel negative emotions after moral transgressions.",
+          "locate_sentence_cn": "通过看护人的评估和儿童的自我观察，她评估了每个孩子的整体同情心水平以及他们在做出不道德行为后产生消极情绪的倾向。",
           "options": [
             {
               "key": "A",
@@ -1105,8 +1105,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "In a 2014 study, for example, Malti looked at 244 children.",
-                "source_translation": "例如，在2014年的一项研究中，Malti观察了244名儿童。",
+                "source_sentence": "Using caregiver assessments and the children’s self-observations, she rated each child’s overall sympathy level and his or her tendency to feel negative emotions after moral transgressions.",
+                "source_translation": "通过看护人的评估和儿童的自我观察，她评估了每个孩子的整体同情心水平以及他们在做出不道德行为后产生消极情绪的倾向。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“通过照顾者的评估和孩子们的自我观察，她评估了每个孩子的整体同情心水平以及他或她在道德违规后感受到负面情绪的倾向。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1122,8 +1122,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "In a 2014 study, for example, Malti looked at 244 children.",
-                "source_translation": "例如，在2014年的一项研究中，Malti观察了244名儿童。",
+                "source_sentence": "Using caregiver assessments and the children’s self-observations, she rated each child’s overall sympathy level and his or her tendency to feel negative emotions after moral transgressions.",
+                "source_translation": "通过看护人的评估和儿童的自我观察，她评估了每个孩子的整体同情心水平以及他们在做出不道德行为后产生消极情绪的倾向。",
                 "locator_comparison": "选项核心词 <code>wrongdoings</code>（“不当行为”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“通过照顾者的评估和孩子们的自我观察，她评估了每个孩子的整体同情心水平以及他或她在道德违规后感受到负面情绪的倾向。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -1139,8 +1139,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "In a 2014 study, for example, Malti looked at 244 children.",
-                "source_translation": "例如，在2014年的一项研究中，Malti观察了244名儿童。",
+                "source_sentence": "Using caregiver assessments and the children’s self-observations, she rated each child’s overall sympathy level and his or her tendency to feel negative emotions after moral transgressions.",
+                "source_translation": "通过看护人的评估和儿童的自我观察，她评估了每个孩子的整体同情心水平以及他们在做出不道德行为后产生消极情绪的倾向。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“通过照顾者的评估和孩子们的自我观察，她评估了每个孩子的整体同情心水平以及他或她在道德违规后感受到负面情绪的倾向。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1156,8 +1156,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "In a 2014 study, for example, Malti looked at 244 children.",
-                "source_translation": "例如，在2014年的一项研究中，Malti观察了244名儿童。",
+                "source_sentence": "Using caregiver assessments and the children’s self-observations, she rated each child’s overall sympathy level and his or her tendency to feel negative emotions after moral transgressions.",
+                "source_translation": "通过看护人的评估和儿童的自我观察，她评估了每个孩子的整体同情心水平以及他们在做出不道德行为后产生消极情绪的倾向。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“通过照顾者的评估和孩子们的自我观察，她评估了每个孩子的整体同情心水平以及他或她在道德违规后感受到负面情绪的倾向。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1171,11 +1171,12 @@
       "macro_logic": {
         "main_theme": "本文围绕 Unlike so-called basic emotions such as sadness, f... 展开深入客观的逻辑论述。",
         "logic_chain": [
-          "第1段：与悲伤、恐惧和愤怒等所谓的基本情绪不同，随着孩子对社会和道德...",
-          "第2段：当然，在大众的想象中，内疚感仍然受到不好的批评。这是非常不舒...",
-          "第3段：而内疚感可以促使我们更深入地思考自己的善良，从而鼓励人们弥补...",
-          "第4段：从这个角度来看，内疚是一个机会。多伦多大学心理学教授蒂娜·马...",
-          "第5段：例如，在 2014 年的一项研究中，Malti 研究了 24..."
+          "第1段：指出内疚感是随道德规范发展而产生的高级情绪，适量内疚有益成长。",
+          "第2段：破除对内疚的传统负面认知，指出情绪并非非黑即白，内疚有其进化适应价值。",
+          "第3段：阐述内疚感的社会黏合剂功能：促使人们弥补过失、修复人际关系并维系合作。",
+          "第4段：提出内疚与同情是促进合作与分享的两种互补途径，同情心低者可通过内疚感弥补。",
+          "第5段：引用2014年针对244名儿童的分享实验，实证内疚倾向能显著提升低同情儿童的亲社会行为。",
+          "第6段：引用马尔蒂的话总结：即使出于弥补伤害和悔恨，人类也能展现出积极的亲社会合作。"
         ]
       },
       "writing_corpus": [
@@ -1494,57 +1495,19 @@
         },
         {
           "pid": 5,
-          "text": "The strategy also aims to ensure that carbon in woody material removed from the forests is locked away in the form of solid lumber or burned as biofuel in vehicles that would otherwise run on fossil fuels. New research on transportation biofuels is already under way. State governments are well accustomed to managing forests, but traditionally they’ve focused on wildlife, watersheds and opportunities for recreation. Only recently have they come to see the vital part forests will have to play in storing carbon. California’s plan, which is expected to be finalized by the governor next year, should serve as a model.",
-          "translation": "该战略还旨在确保从森林中采伐的木质材料中的碳以实心木材的形式储存起来，或作为生物燃料在原本使用化石燃料的车辆中燃烧。关于交通生物燃料的新研究已经在进行中。州政府非常习惯于管理森林，但传统上他们更关注野生动物、流域和休闲机会。直到最近，他们才开始认识到森林在碳储存方面所发挥的重要作用。加州的计划预计将于明年由州长最终确定，应该作为典范。",
-          "slashed_text": "The strategy also aims to ensure / that carbon / in woody material removed from the forests is locked away in the form of solid lumber or burned as biofuel / in vehicles / that would otherwise run / on fossil fuels. New research / on transportation biofuels is already under way. State governments are well accustomed to managing forests , / but traditionally they’ve focused / on wildlife , / watersheds and opportunities / for recreation. Only recently have they come to see the vital part forests will have to play / in storing carbon. California’s plan , / which is expected to be finalized by the governor next year , / should serve as a model.",
-          "chunk_translation": "该战略还旨在确保 / 采伐自森林的木质材料中的碳 / 以实木形式封存，或作为生物燃料用于驱动车辆， / 在交通工具中， / 否则这些车辆将不得不使用 / 化石燃料运行。 关于交通生物燃料的 / 新研究目前已经在推进之中。 州政府非常习惯于管理森林， / 但传统上他们的关注点 / 集中在野生动物、 / 水源集水区以及休闲娱乐 / 的开发机会上。 直到最近，他们才开始认识到森林必须发挥的关键作用， / 即在碳储存方面的重要作用。 加州的这项计划， / 预计将于明年由州长最终批准敲定， / 应当能够树立一个典范榜样。",
-          "vocabulary": [
-            {
-              "word": "strategy",
-              "pos": "n.",
-              "definition": "n. （尤指为获得某物制定长期的）策略；行动计划"
-            },
-            {
-              "word": "aims",
-              "pos": "n.",
-              "definition": "n. 目标；目的（aim 的复数）"
-            },
-            {
-              "word": "ensure",
-              "pos": "v.",
-              "definition": "v. 确保；保证"
-            },
-            {
-              "word": "carbon",
-              "pos": "n.",
-              "definition": "n. 碳；复写纸"
-            },
-            {
-              "word": "woody",
-              "pos": "adj.",
-              "definition": "adj. 木质的；多树木的"
-            },
-            {
-              "word": "material",
-              "pos": "n.",
-              "definition": "n. 衣料；布料"
-            },
-            {
-              "word": "removed",
-              "pos": "adj.",
-              "definition": "adj. （亲属关系）隔代的；隔辈的"
-            },
-            {
-              "word": "forests",
-              "pos": "n.",
-              "definition": "n. 森林；林地（forest 的复数形式）"
-            },
-            {
-              "word": "locked",
-              "pos": "adj.",
-              "definition": "adj. 上锁的；（战斗或冲突）僵持不下的"
-            }
-          ]
+          "text": "The strategy also aims to ensure that carbon in woody material removed from the forests is locked away in the form of solid lumber or burned as biofuel in vehicles that would otherwise run on fossil fuels. New research on transportation biofuels is already under way.",
+          "translation": "该战略还旨在确保从森林中清理出的木质材料中的碳以实心木材的形式封存起来，或作为生物燃料在原本依赖化石燃料的车辆中燃烧。关于交通生物燃料的新研究已经在进行中。",
+          "slashed_text": "The strategy also aims to ensure / that carbon in woody material removed from the forests is locked away in the form of solid lumber / or burned as biofuel in vehicles that would otherwise run on fossil fuels. / New research on transportation biofuels is already under way.",
+          "chunk_translation": "该战略还旨在确保 / 从森林中清除的木质材料中的碳以实木形式封存 / 或在原本使用化石燃料的车辆中作为生物燃料燃烧。 / 针对交通生物燃料的新研究已在进行中。",
+          "vocabulary": []
+        },
+        {
+          "pid": 6,
+          "text": "State governments are well accustomed to managing forests, but traditionally they’ve focused on wildlife, watersheds and opportunities for recreation. Only recently have they come to see the vital part forests will have to play in storing carbon. California’s plan, which is expected to be finalized by the governor next year, should serve as a model.",
+          "translation": "州政府非常习惯于管理森林，但传统上他们关注的是野生动物、流域和休闲娱乐机会。直到最近，他们才意识到森林在碳储存方面必须发挥的关键作用。预计将于明年由州长最终敲定的加州计划应该会成为一个典范。",
+          "slashed_text": "State governments are well accustomed to managing forests , / but traditionally they’ve focused on wildlife , / watersheds and opportunities for recreation. / Only recently have they come to see the vital part forests will have to play in storing carbon. / California’s plan , / which is expected to be finalized by the governor next year , / should serve as a model.",
+          "chunk_translation": "州政府十分习惯于管理森林 / 但传统上他们专注于野生动物 / 流域以及休闲娱乐机会。 / 直到最近他们才认识到森林在固碳方面必须发挥的关键作用。 / 加利福尼亚州的计划 / 预计将于明年由州长最终批准 / 应该成为一个示范标杆。",
+          "vocabulary": []
         }
       ],
       "sentences": [
@@ -1874,8 +1837,8 @@
         },
         {
           "sid": 18,
-          "pid": 5,
-          "sentence_index": 2,
+          "pid": 6,
+          "sentence_index": 0,
           "text": "State governments are well accustomed to managing forests, but traditionally they’ve focused on wildlife, watersheds and opportunities for recreation.",
           "translation": "州政府非常习惯于管理森林，但传统上他们更关注野生动物、流域和休闲机会。",
           "slashed_text": "State governments are well accustomed to managing forests , / but traditionally they’ve focused / on wildlife , / watersheds and opportunities / for recreation.",
@@ -1892,8 +1855,8 @@
         },
         {
           "sid": 19,
-          "pid": 5,
-          "sentence_index": 3,
+          "pid": 6,
+          "sentence_index": 1,
           "text": "Only recently have they come to see the vital part forests will have to play in storing carbon.",
           "translation": "直到最近，他们才开始认识到森林在碳储存方面所发挥的重要作用。",
           "slashed_text": "Only recently have they come to see the vital part forests will have to play / in storing carbon.",
@@ -1910,8 +1873,8 @@
         },
         {
           "sid": 20,
-          "pid": 5,
-          "sentence_index": 4,
+          "pid": 6,
+          "sentence_index": 2,
           "text": "California’s plan, which is expected to be finalized by the governor next year, should serve as a model.",
           "translation": "加州的计划预计将于明年由州长最终确定，应该作为典范。",
           "slashed_text": "California’s plan , / which is expected to be finalized by the governor next year , / should serve as a model.",
@@ -1934,8 +1897,8 @@
           "stem_cn": "通过说“一个更艰巨的挑战”，作者暗示_____。",
           "type": "事实细节题",
           "locate_pid": 0,
-          "locate_sentence": "Forests give us shade, quiet and one of the harder challenges in the fight against climate change.",
-          "locate_sentence_cn": "森林为我们提供荫凉、安静，也是应对气候变化的艰巨挑战之一。",
+          "locate_sentence": "Even as we humans count on forests to soak up a good share of the carbon dioxide we produce, we are threatening their ability to do so.",
+          "locate_sentence_cn": "正当我们人类指望森林吸收我们产生的大量二氧化碳时，我们却在威胁它们吸收碳的能力。",
           "options": [
             {
               "key": "A",
@@ -1946,8 +1909,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Forests give us shade, quiet and one of the harder challenges in the fight against climate change.",
-                "source_translation": "森林为我们提供荫凉、安静，也是应对气候变化的艰巨挑战之一。",
+                "source_sentence": "Even as we humans count on forests to soak up a good share of the carbon dioxide we produce, we are threatening their ability to do so.",
+                "source_translation": "正当我们人类指望森林吸收我们产生的大量二氧化碳时，我们却在威胁它们吸收碳的能力。",
                 "locator_comparison": "借用了原文的词汇 <code>global</code>, <code>climate</code>, <code>change</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“尽管我们人类依靠森林吸收我们产生的大部分二氧化碳，但我们正在威胁他们这样做的能力。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1963,8 +1926,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Forests give us shade, quiet and one of the harder challenges in the fight against climate change.",
-                "source_translation": "森林为我们提供荫凉、安静，也是应对气候变化的艰巨挑战之一。",
+                "source_sentence": "Even as we humans count on forests to soak up a good share of the carbon dioxide we produce, we are threatening their ability to do so.",
+                "source_translation": "正当我们人类指望森林吸收我们产生的大量二氧化碳时，我们却在威胁它们吸收碳的能力。",
                 "locator_comparison": "选项核心词 <code>forests</code>, <code>may</code>, <code>become</code>（“森林可能成为潜在威胁”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“尽管我们人类依靠森林吸收我们产生的大部分二氧化碳，但我们正在威胁他们这样做的能力。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -1980,8 +1943,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Forests give us shade, quiet and one of the harder challenges in the fight against climate change.",
-                "source_translation": "森林为我们提供荫凉、安静，也是应对气候变化的艰巨挑战之一。",
+                "source_sentence": "Even as we humans count on forests to soak up a good share of the carbon dioxide we produce, we are threatening their ability to do so.",
+                "source_translation": "正当我们人类指望森林吸收我们产生的大量二氧化碳时，我们却在威胁它们吸收碳的能力。",
                 "locator_comparison": "选项声称“人们可能会误解全球变暖”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“尽管我们人类依靠森林吸收我们产生的大部分二氧化碳，但我们正在威胁他们这样做的能力。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -1997,8 +1960,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Forests give us shade, quiet and one of the harder challenges in the fight against climate change.",
-                "source_translation": "森林为我们提供荫凉、安静，也是应对气候变化的艰巨挑战之一。",
+                "source_sentence": "Even as we humans count on forests to soak up a good share of the carbon dioxide we produce, we are threatening their ability to do so.",
+                "source_translation": "正当我们人类指望森林吸收我们产生的大量二氧化碳时，我们却在威胁它们吸收碳的能力。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“尽管我们人类依靠森林吸收我们产生的大部分二氧化碳，但我们正在威胁他们这样做的能力。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2014,8 +1977,8 @@
           "stem_cn": "为了保持森林作为宝贵的“碳汇”，我们可能需要 _____。",
           "type": "因果推断题",
           "locate_pid": 1,
-          "locate_sentence": "Thankfully, there is a way out of this trap—but it involves striking a subtle balance.",
-          "locate_sentence_cn": "值得庆幸的是，有一种方法可以摆脱这个陷阱，但它需要取得微妙的平衡。",
+          "locate_sentence": "Helping forests flourish as valuable “carbon sinks” long into the future may require reducing their capacity to absorb carbon now.",
+          "locate_sentence_cn": "为了帮助森林在未来长久地作为宝贵的“碳汇”繁荣生长，可能需要现在就降低其吸收碳的能力。",
           "options": [
             {
               "key": "A",
@@ -2026,8 +1989,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Thankfully, there is a way out of this trap—but it involves striking a subtle balance.",
-                "source_translation": "值得庆幸的是，有一种方法可以摆脱这个陷阱，但它需要取得微妙的平衡。",
+                "source_sentence": "Helping forests flourish as valuable “carbon sinks” long into the future may require reducing their capacity to absorb carbon now.",
+                "source_translation": "为了帮助森林在未来长久地作为宝贵的“碳汇”繁荣生长，可能需要现在就降低其吸收碳的能力。",
                 "locator_comparison": "借用了原文的词汇 <code>preserve</code>, <code>diversity</code>, <code>species</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“帮助森林在未来很长一段时间内作为有价值的“碳汇”蓬勃发展可能需要降低其现在吸收碳的能力。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2043,8 +2006,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Thankfully, there is a way out of this trap—but it involves striking a subtle balance.",
-                "source_translation": "值得庆幸的是，有一种方法可以摆脱这个陷阱，但它需要取得微妙的平衡。",
+                "source_sentence": "Helping forests flourish as valuable “carbon sinks” long into the future may require reducing their capacity to absorb carbon now.",
+                "source_translation": "为了帮助森林在未来长久地作为宝贵的“碳汇”繁荣生长，可能需要现在就降低其吸收碳的能力。",
                 "locator_comparison": "选项核心词 <code>lower</code>, <code>present</code>, <code>carbon</code>（“lower their present carbon-absorbing capacity \nᆇี൫ज@JOEE ༯໶\n\n04”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“帮助森林在未来很长一段时间内作为有价值的“碳汇”蓬勃发展可能需要降低其现在吸收碳的能力。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -2060,8 +2023,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Thankfully, there is a way out of this trap—but it involves striking a subtle balance.",
-                "source_translation": "值得庆幸的是，有一种方法可以摆脱这个陷阱，但它需要取得微妙的平衡。",
+                "source_sentence": "Helping forests flourish as valuable “carbon sinks” long into the future may require reducing their capacity to absorb carbon now.",
+                "source_translation": "为了帮助森林在未来长久地作为宝贵的“碳汇”繁荣生长，可能需要现在就降低其吸收碳的能力。",
                 "locator_comparison": "选项声称“加速幼树生长”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“帮助森林在未来很长一段时间内作为有价值的“碳汇”蓬勃发展可能需要降低其现在吸收碳的能力。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2077,8 +2040,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Thankfully, there is a way out of this trap—but it involves striking a subtle balance.",
-                "source_translation": "值得庆幸的是，有一种方法可以摆脱这个陷阱，但它需要取得微妙的平衡。",
+                "source_sentence": "Helping forests flourish as valuable “carbon sinks” long into the future may require reducing their capacity to absorb carbon now.",
+                "source_translation": "为了帮助森林在未来长久地作为宝贵的“碳汇”繁荣生长，可能需要现在就降低其吸收碳的能力。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“帮助森林在未来很长一段时间内作为有价值的“碳汇”蓬勃发展可能需要降低其现在吸收碳的能力。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2095,7 +2058,7 @@
           "type": "段落推理题",
           "locate_pid": 2,
           "locate_sentence": "The state’s proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush in parts of the forest.",
-          "locate_sentence_cn": "该州提出的森林碳计划旨在加倍努力稀疏幼树并清除部分森林的灌木丛。",
+          "locate_sentence_cn": "该州提出的森林碳计划旨在加倍努力，稀疏森林部分区域的幼树并清理灌木丛。",
           "options": [
             {
               "key": "A",
@@ -2107,7 +2070,7 @@
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
                 "source_sentence": "The state’s proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush in parts of the forest.",
-                "source_translation": "该州提出的森林碳计划旨在加倍努力稀疏幼树并清除部分森林的灌木丛。",
+                "source_translation": "该州提出的森林碳计划旨在加倍努力，稀疏森林部分区域的幼树并清理灌木丛。",
                 "locator_comparison": "借用了原文的词汇 <code>restore</code>, <code>its</code>, <code>forests</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“这会暂时降低碳承载能力。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2124,7 +2087,7 @@
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
                 "source_sentence": "The state’s proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush in parts of the forest.",
-                "source_translation": "该州提出的森林碳计划旨在加倍努力稀疏幼树并清除部分森林的灌木丛。",
+                "source_translation": "该州提出的森林碳计划旨在加倍努力，稀疏森林部分区域的幼树并清理灌木丛。",
                 "locator_comparison": "选项声称“培育更多抗旱树木”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“这会暂时降低碳承载能力。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2141,7 +2104,7 @@
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
                 "source_sentence": "The state’s proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush in parts of the forest.",
-                "source_translation": "该州提出的森林碳计划旨在加倍努力稀疏幼树并清除部分森林的灌木丛。",
+                "source_translation": "该州提出的森林碳计划旨在加倍努力，稀疏森林部分区域的幼树并清理灌木丛。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“这会暂时降低碳承载能力。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2158,7 +2121,7 @@
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
                 "source_sentence": "The state’s proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush in parts of the forest.",
-                "source_translation": "该州提出的森林碳计划旨在加倍努力稀疏幼树并清除部分森林的灌木丛。",
+                "source_translation": "该州提出的森林碳计划旨在加倍努力，稀疏森林部分区域的幼树并清理灌木丛。",
                 "locator_comparison": "选项核心词 <code>reduce</code>, <code>density</code>, <code>its</code>（“减少一些森林的密度”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“这会暂时降低碳承载能力。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -2173,9 +2136,9 @@
           "stem": "What is essential to California’s plan according to Paragraph 5?",
           "stem_cn": "根据第 5 段，加州的计划有哪些重要内容？",
           "type": "词义/例证题",
-          "locate_pid": 3,
-          "locate_sentence": "The need for such planning is increasingly urgent.",
-          "locate_sentence_cn": "对此类规划的需求日益迫切。",
+          "locate_pid": 4,
+          "locate_sentence": "That’s only a small share of the total acreage that could benefit, about half a million acres in all, so it will be vital to prioritize areas at greatest risk of fire or drought.",
+          "locate_sentence_cn": "这仅占可能受益的总面积（总计约50万英亩）的一小部分，因此优先考虑火灾或干旱风险最大的区域至关重要。",
           "options": [
             {
               "key": "A",
@@ -2186,8 +2149,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "The need for such planning is increasingly urgent.",
-                "source_translation": "对此类规划的需求日益迫切。",
+                "source_sentence": "That’s only a small share of the total acreage that could benefit, about half a million acres in all, so it will be vital to prioritize areas at greatest risk of fire or drought.",
+                "source_translation": "这仅占可能受益的总面积（总计约50万英亩）的一小部分，因此优先考虑火灾或干旱风险最大的区域至关重要。",
                 "locator_comparison": "选项声称“以获得足够的资金支持。”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“自 2010 年以来，干旱和昆虫已经导致加利福尼亚州超过 1 亿棵树死亡，其中大多数仅在 2016 年就被杀死，野火也烧毁了数十万英亩土地。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2203,8 +2166,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "The need for such planning is increasingly urgent.",
-                "source_translation": "对此类规划的需求日益迫切。",
+                "source_sentence": "That’s only a small share of the total acreage that could benefit, about half a million acres in all, so it will be vital to prioritize areas at greatest risk of fire or drought.",
+                "source_translation": "这仅占可能受益的总面积（总计约50万英亩）的一小部分，因此优先考虑火灾或干旱风险最大的区域至关重要。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“自 2010 年以来，干旱和昆虫已经导致加利福尼亚州超过 1 亿棵树死亡，其中大多数仅在 2016 年就被杀死，野火也烧毁了数十万英亩土地。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2220,9 +2183,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The need for such planning is increasingly urgent.",
-                "source_translation": "对此类规划的需求日益迫切。",
-                "locator_comparison": "选项核心词 <code>handle</code>, <code>areas</code>, <code>serious</code>（“对危险严重地区优先处置。”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "That’s only a small share of the total acreage that could benefit, about half a million acres in all, so it will be vital to prioritize areas at greatest risk of fire or drought.",
+                "source_translation": "这仅占可能受益的总面积（总计约50万英亩）的一小部分，因此优先考虑火灾或干旱风险最大的区域至关重要。",
+                "locator_comparison": "选项核心词 <code>handle</code>, <code>areas</code>, <code>serious</code>（“对危险严重地区优先处置。”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“自 2010 年以来，干旱和昆虫已经导致加利福尼亚州超过 1 亿棵树死亡，其中大多数仅在 2016 年就被杀死，野火也烧毁了数十万英亩土地。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：C正确。"
@@ -2237,8 +2200,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "The need for such planning is increasingly urgent.",
-                "source_translation": "对此类规划的需求日益迫切。",
+                "source_sentence": "That’s only a small share of the total acreage that could benefit, about half a million acres in all, so it will be vital to prioritize areas at greatest risk of fire or drought.",
+                "source_translation": "这仅占可能受益的总面积（总计约50万英亩）的一小部分，因此优先考虑火灾或干旱风险最大的区域至关重要。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“自 2010 年以来，干旱和昆虫已经导致加利福尼亚州超过 1 亿棵树死亡，其中大多数仅在 2016 年就被杀死，野火也烧毁了数十万英亩土地。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2253,9 +2216,9 @@
           "stem": "The author’s attitude to California’s plan can best be described as _____.",
           "stem_cn": "作者对加州计划的态度可以用_____来形容。",
           "type": "全文主旨题",
-          "locate_pid": 4,
-          "locate_sentence": "California plans to treat 35,000 acres of forest a year by 2020, and 60,000 by 2030— financed from the proceeds of the state’s emissions-permit auctions.",
-          "locate_sentence_cn": "加州计划到 2020 年每年治理 35,000 英亩森林，到 2030 年治理 60,000 英亩森林，资金来自该州排放许可证拍卖收益。",
+          "locate_pid": 6,
+          "locate_sentence": "California’s plan, which is expected to be finalized by the governor next year, should serve as a model.",
+          "locate_sentence_cn": "预计将于明年由州长最终确定的加州计划应该会成为一个典范。",
           "options": [
             {
               "key": "A",
@@ -2266,9 +2229,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "California plans to treat 35,000 acres of forest a year by 2020, and 60,000 by 2030— financed from the proceeds of the state’s emissions-permit auctions.",
-                "source_translation": "加州计划到 2020 年每年治理 35,000 英亩森林，到 2030 年治理 60,000 英亩森林，资金来自该州排放许可证拍卖收益。",
-                "locator_comparison": "选项核心词 <code>supportive</code>（“支持的”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "California’s plan, which is expected to be finalized by the governor next year, should serve as a model.",
+                "source_translation": "预计将于明年由州长最终确定的加州计划应该会成为一个典范。",
+                "locator_comparison": "选项核心词 <code>supportive</code>（“支持的”）准确概括了原文第 7 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“这仅占受益总面积的一小部分（总共约 50 万英亩），因此优先考虑火灾或干旱风险最大的地区至关重要。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：A正确。"
@@ -2283,8 +2246,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "California plans to treat 35,000 acres of forest a year by 2020, and 60,000 by 2030— financed from the proceeds of the state’s emissions-permit auctions.",
-                "source_translation": "加州计划到 2020 年每年治理 35,000 英亩森林，到 2030 年治理 60,000 英亩森林，资金来自该州排放许可证拍卖收益。",
+                "source_sentence": "California’s plan, which is expected to be finalized by the governor next year, should serve as a model.",
+                "source_translation": "预计将于明年由州长最终确定的加州计划应该会成为一个典范。",
                 "locator_comparison": "借用了原文的词汇 <code>ambiguous</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“这仅占受益总面积的一小部分（总共约 50 万英亩），因此优先考虑火灾或干旱风险最大的地区至关重要。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2300,8 +2263,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "California plans to treat 35,000 acres of forest a year by 2020, and 60,000 by 2030— financed from the proceeds of the state’s emissions-permit auctions.",
-                "source_translation": "加州计划到 2020 年每年治理 35,000 英亩森林，到 2030 年治理 60,000 英亩森林，资金来自该州排放许可证拍卖收益。",
+                "source_sentence": "California’s plan, which is expected to be finalized by the governor next year, should serve as a model.",
+                "source_translation": "预计将于明年由州长最终确定的加州计划应该会成为一个典范。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“这仅占受益总面积的一小部分（总共约 50 万英亩），因此优先考虑火灾或干旱风险最大的地区至关重要。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2317,8 +2280,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "California plans to treat 35,000 acres of forest a year by 2020, and 60,000 by 2030— financed from the proceeds of the state’s emissions-permit auctions.",
-                "source_translation": "加州计划到 2020 年每年治理 35,000 英亩森林，到 2030 年治理 60,000 英亩森林，资金来自该州排放许可证拍卖收益。",
+                "source_sentence": "California’s plan, which is expected to be finalized by the governor next year, should serve as a model.",
+                "source_translation": "预计将于明年由州长最终确定的加州计划应该会成为一个典范。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“这仅占受益总面积的一小部分（总共约 50 万英亩），因此优先考虑火灾或干旱风险最大的地区至关重要。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -2332,11 +2295,13 @@
       "macro_logic": {
         "main_theme": "本文围绕 Forests give us shade, quiet and one of the harder... 展开深入客观的逻辑论述。",
         "logic_chain": [
-          "第1段：森林为我们提供荫凉、安静，也是应对气候变化的艰巨挑战之一。尽...",
-          "第2段：值得庆幸的是，有一种方法可以摆脱这个陷阱，但它需要取得微妙的...",
-          "第3段：该州提出的森林碳计划旨在加倍努力稀疏幼树并清除部分森林的灌木...",
-          "第4段：对此类规划的需求日益迫切。自 2010 年以来，干旱和昆虫已...",
-          "第5段：加州计划到 2020 年每年治理 35,000 英亩森林，到..."
+          "第1段：指出森林碳吸收悖论：气候变化可能使森林由碳汇逆转为碳排放源。",
+          "第2段：提出加州探索的破局方案：通过当前适度减负换取森林长期碳汇能力。",
+          "第3段：阐述森林碳计划具体措施：疏伐幼树与清理灌木，提升留存树木抗旱抗虫与防火能力。",
+          "第4段：列举干旱与野火对森林造成的灾难性破坏，凸显科学干预规划的紧迫性。",
+          "第5段：说明加州林业治理的具体目标与资金来源，强调优先治理高危区域的必要性。",
+          "第6段：阐述采伐废料的固碳与新能源再利用策略：转化为实木建材或替代化石燃料的生物燃料。",
+          "第7段：总结政府管理思维的转变，高度评价加州方案为全美及全球树立了固碳治理典范。"
         ]
       },
       "writing_corpus": [
@@ -2783,16 +2748,16 @@
           "sid": 2,
           "pid": 0,
           "sentence_index": 2,
-          "text": "Congress has obstructed efforts to create a more straightforward visa for agricultural workers that would let foreign workers stay longer in the U.S.",
-          "translation": "国会阻碍了为农业工人创建更简单的签证的努力，该签证将使外国工人在美国停留更长时间。",
-          "slashed_text": "Congress has obstructed efforts to create a more straightforward visa / for agricultural workers / that would let foreign workers stay longer in the U.S.",
-          "chunk_translation": "国会阻挠了为农业工人设立更简便签证的努力， / 针对农业工人设立的签证， / 该签证原本可以让外国工人在美国停留更长时间。",
+          "text": "Congress has obstructed efforts to create a more straightforward visa for agricultural workers that would let foreign workers stay longer in the U.S. and change jobs within the industry.",
+          "translation": "国会阻挠了为农业工人设立更直接签证的努力，该签证允许外国工人在美国停留更长时间并在行业内更换工作。",
+          "slashed_text": "Congress has obstructed efforts to create a more straightforward visa for agricultural workers / that would let foreign workers stay longer in the U.S. and change jobs within the industry.",
+          "chunk_translation": "国会阻挠了为农业工人创建更直接签证的努力 / 该签证将允许外国工人在美国停留更久并在行业内部调换工作。",
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that would let foreign workers stay longer in...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "定语从句",
+                "content": "that would let foreign workers stay longer in the U.S. and change jobs within the industry",
+                "explanation": "关系词 <code>that</code> 引导定语从句，修饰先行词 visa。"
               }
             ]
           }
@@ -2801,24 +2766,6 @@
           "sid": 3,
           "pid": 0,
           "sentence_index": 3,
-          "text": "and change jobs within the industry.",
-          "translation": "并在行业内更换工作。",
-          "slashed_text": "and change jobs within the industry.",
-          "chunk_translation": "并在该行业内部更换工作。",
-          "syntax": {
-            "breakdown": [
-              {
-                "type": "主干剖析",
-                "content": "and change jobs within the industry....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
-              }
-            ]
-          }
-        },
-        {
-          "sid": 4,
-          "pid": 0,
-          "sentence_index": 4,
           "text": "If this doesn’t change, American businesses, communities, and consumers will be the losers.",
           "translation": "如果这一点不改变，美国企业、社区和消费者将成为输家。",
           "slashed_text": "/ If this doesn’t change , / American businesses , / communities , / and consumers will be the losers.",
@@ -2834,45 +2781,27 @@
           }
         },
         {
-          "sid": 5,
+          "sid": 4,
           "pid": 1,
           "sentence_index": 0,
-          "text": "Perhaps half of U.S.",
-          "translation": "也许是美国的一半",
-          "slashed_text": "Perhaps half of U.S.",
-          "chunk_translation": "大约一半的美国",
+          "text": "Perhaps half of U.S. farm laborers are undocumented immigrants.",
+          "translation": "美国农场工人中可能有一半是无证移民。",
+          "slashed_text": "Perhaps half of U.S. farm laborers / are undocumented immigrants.",
+          "chunk_translation": "也许美国半数的农场劳工 / 都是没有合法身份的无证移民。",
           "syntax": {
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Perhaps half of U.S....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Perhaps half of U.S. farm laborers are undocumented immigrants.",
+                "explanation": "全句为主系表结构，主语为 half of U.S. farm laborers，表语为 undocumented immigrants。"
               }
             ]
           }
         },
         {
-          "sid": 6,
+          "sid": 5,
           "pid": 1,
           "sentence_index": 1,
-          "text": "farm laborers are undocumented immigrants.",
-          "translation": "农场工人是无证移民。",
-          "slashed_text": "farm laborers are undocumented immigrants.",
-          "chunk_translation": "农场劳工属于无合法证件的移民。",
-          "syntax": {
-            "breakdown": [
-              {
-                "type": "主干剖析",
-                "content": "farm laborers are undocumented immigrants....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
-              }
-            ]
-          }
-        },
-        {
-          "sid": 7,
-          "pid": 1,
-          "sentence_index": 2,
           "text": "As fewer such workers enter the country, the characteristics of the agricultural workforce are changing.",
           "translation": "随着进入该国的此类工人越来越少，农业劳动力的特征正在发生变化。",
           "slashed_text": "As fewer such workers enter the country , / the characteristics of the agricultural workforce are changing.",
@@ -2888,9 +2817,9 @@
           }
         },
         {
-          "sid": 8,
+          "sid": 6,
           "pid": 1,
-          "sentence_index": 3,
+          "sentence_index": 2,
           "text": "Today’s farm laborers, while still predominantly born in Mexico, are more likely to be settled rather than migrating and more likely to be married than single.",
           "translation": "今天的农场劳动者虽然仍然主要出生在墨西哥，但更有可能定居​​而不是移民，更有可能结婚而不是单身。",
           "slashed_text": "Today’s farm laborers , / while still predominantly born / in Mexico , / are more likely to be settled rather than migrating and more likely to be married than single.",
@@ -2906,9 +2835,9 @@
           }
         },
         {
-          "sid": 9,
+          "sid": 7,
           "pid": 1,
-          "sentence_index": 4,
+          "sentence_index": 3,
           "text": "They’re also aging.",
           "translation": "他们也在变老。",
           "slashed_text": "They’re also aging.",
@@ -2924,9 +2853,9 @@
           }
         },
         {
-          "sid": 10,
+          "sid": 8,
           "pid": 1,
-          "sentence_index": 5,
+          "sentence_index": 4,
           "text": "At the start of this century, about one-third of crop workers were over the age of 35.",
           "translation": "本世纪初，大约三分之一的农作物工人年龄在 35 岁以上。",
           "slashed_text": "At the start of this century , / about one-third of crop workers were over the age of 35.",
@@ -2942,9 +2871,9 @@
           }
         },
         {
-          "sid": 11,
+          "sid": 9,
           "pid": 1,
-          "sentence_index": 6,
+          "sentence_index": 5,
           "text": "Now more than half are.",
           "translation": "现在超过一半是。",
           "slashed_text": "Now more than half are.",
@@ -2960,9 +2889,9 @@
           }
         },
         {
-          "sid": 12,
+          "sid": 10,
           "pid": 1,
-          "sentence_index": 7,
+          "sentence_index": 6,
           "text": "And picking crops is hard on older bodies.",
           "translation": "对于老年人来说，采摘庄稼是很困难的。",
           "slashed_text": "And picking crops is hard / on older bodies.",
@@ -2978,43 +2907,25 @@
           }
         },
         {
-          "sid": 13,
+          "sid": 11,
           "pid": 1,
-          "sentence_index": 8,
-          "text": "One oft-debated cure for this labor shortage remains as implausible as it’s been all along: Native U.S.",
-          "translation": "解决劳动力短缺问题的一个经常被争论的解决方案仍然像一直以来一样令人难以置信：美国原住民。",
-          "slashed_text": "One oft-debated cure / for this labor shortage remains as implausible as it’s been all along : / Native U.S.",
-          "chunk_translation": "针对劳动力短缺的一个常被讨论的解决方案 / 一直以来都同样显得不切实际： / 美国本土",
+          "sentence_index": 7,
+          "text": "One oft-debated cure for this labor shortage remains as implausible as it’s been all along: Native U.S. workers won’t be returning to the farm.",
+          "translation": "针对这种劳动力短缺的一个经常被讨论的补救方案依然和以往一样难以置信：美国本土工人不会重返农场。",
+          "slashed_text": "One oft-debated cure for this labor shortage / remains as implausible as it’s been all along : / Native U.S. workers won’t be returning to the farm.",
+          "chunk_translation": "解决该劳动力短缺的一个经常被讨论的对策 / 依然如以往一样不切实际： / 美国本土工人绝不会重返农场。",
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "One oft-debated cure for this labor shortage remains as impl...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "同位语/解释说明",
+                "content": "Native U.S. workers won’t be returning to the farm",
+                "explanation": "冒号后为同位说明从句，具体解释前文 cure 的内容。"
               }
             ]
           }
         },
         {
-          "sid": 14,
-          "pid": 1,
-          "sentence_index": 9,
-          "text": "workers won’t be returning to the farm.",
-          "translation": "工人们不会返回农场。",
-          "slashed_text": "workers won’t be returning to the farm.",
-          "chunk_translation": "工人不会重返农场务农。",
-          "syntax": {
-            "breakdown": [
-              {
-                "type": "主干剖析",
-                "content": "workers won’t be returning to the farm....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
-              }
-            ]
-          }
-        },
-        {
-          "sid": 15,
+          "sid": 12,
           "pid": 2,
           "sentence_index": 0,
           "text": "Mechanization isn’t the answer, either—not yet, at least.",
@@ -3032,7 +2943,7 @@
           }
         },
         {
-          "sid": 16,
+          "sid": 13,
           "pid": 2,
           "sentence_index": 1,
           "text": "Production of corn, cotton, rice, soybeans, and wheat has been largely mechanized, but many high-value, labor-intensive crops, such as strawberries, need labor.",
@@ -3050,7 +2961,7 @@
           }
         },
         {
-          "sid": 17,
+          "sid": 14,
           "pid": 2,
           "sentence_index": 2,
           "text": "Even dairy farms, where robots do a small share of milking, have a long way to go before they’re automated.",
@@ -3068,7 +2979,7 @@
           }
         },
         {
-          "sid": 18,
+          "sid": 15,
           "pid": 3,
           "sentence_index": 0,
           "text": "As a result, farms have grown increasingly reliant on temporary guest workers using the H-2A visa to fill the gaps in the workforce.",
@@ -3086,7 +2997,7 @@
           }
         },
         {
-          "sid": 19,
+          "sid": 16,
           "pid": 3,
           "sentence_index": 1,
           "text": "Starting around 2012, requests for the visas rose sharply; from 2011 to 2016 the number of visas issued more than doubled.",
@@ -3104,7 +3015,7 @@
           }
         },
         {
-          "sid": 20,
+          "sid": 17,
           "pid": 4,
           "sentence_index": 0,
           "text": "The H-2A visa has no numerical cap, unlike the H-2B visa for nonagricultural work, which is limited to 66,000 a year.",
@@ -3122,7 +3033,7 @@
           }
         },
         {
-          "sid": 21,
+          "sid": 18,
           "pid": 4,
           "sentence_index": 1,
           "text": "Even so, employers complain they aren’t given all the workers they need.",
@@ -3140,7 +3051,7 @@
           }
         },
         {
-          "sid": 22,
+          "sid": 19,
           "pid": 4,
           "sentence_index": 2,
           "text": "The process is cumbersome, expensive, and unreliable.",
@@ -3158,7 +3069,7 @@
           }
         },
         {
-          "sid": 23,
+          "sid": 20,
           "pid": 4,
           "sentence_index": 3,
           "text": "One survey found that bureaucratic delays led the average H-2A worker to arrive on the job 22 days late.",
@@ -3176,7 +3087,7 @@
           }
         },
         {
-          "sid": 24,
+          "sid": 21,
           "pid": 4,
           "sentence_index": 4,
           "text": "The shortage is compounded by federal immigration raids, which remove some workers and drive others underground.",
@@ -3194,7 +3105,7 @@
           }
         },
         {
-          "sid": 25,
+          "sid": 22,
           "pid": 5,
           "sentence_index": 0,
           "text": "In a 2012 survey, 71 percent of tree-fruit growers and almost 80 percent of raisin and berry growers said they were short of labor.",
@@ -3212,7 +3123,7 @@
           }
         },
         {
-          "sid": 26,
+          "sid": 23,
           "pid": 5,
           "sentence_index": 1,
           "text": "Some western farmers have responded by moving operations to Mexico.",
@@ -3230,7 +3141,7 @@
           }
         },
         {
-          "sid": 27,
+          "sid": 24,
           "pid": 5,
           "sentence_index": 2,
           "text": "From 1998 to 2000, 14.5 percent of the fruit Americans consumed was imported.",
@@ -3248,7 +3159,7 @@
           }
         },
         {
-          "sid": 28,
+          "sid": 25,
           "pid": 5,
           "sentence_index": 3,
           "text": "Little more than a decade later, the share of imports was 25.8 percent.",
@@ -3266,37 +3177,19 @@
           }
         },
         {
-          "sid": 29,
+          "sid": 26,
           "pid": 6,
           "sentence_index": 0,
-          "text": "In effect, the U.S.",
-          "translation": "实际上，美国",
-          "slashed_text": "In effect , / the U.S.",
-          "chunk_translation": "实际上， / 美国",
-          "syntax": {
-            "breakdown": [
-              {
-                "type": "主干剖析",
-                "content": "In effect, the U.S....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
-              }
-            ]
-          }
-        },
-        {
-          "sid": 30,
-          "pid": 6,
-          "sentence_index": 1,
-          "text": "can import food or it can import the workers who pick it.",
-          "translation": "可以进口食物，也可以进口采摘食物的工人。",
-          "slashed_text": "can import food or it can import the workers / who pick it.",
-          "chunk_translation": "要么进口粮食蔬果，要么进口采摘这些农产品的 / 外籍劳工。",
+          "text": "In effect, the U.S. can import food or it can import the workers who pick it.",
+          "translation": "实际上，美国要么可以进口粮食，要么可以引进采摘粮食的劳工。",
+          "slashed_text": "In effect , / the U.S. can import food / or it can import the workers / who pick it.",
+          "chunk_translation": "实际上 / 美国可以进口粮食 / 或者它可以引进工人 / 采摘粮食的劳动力。",
           "syntax": {
             "breakdown": [
               {
                 "type": "定语从句",
-                "content": "who pick it....",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "content": "who pick it",
+                "explanation": "关系词 <code>who</code> 引导定语从句，修饰 workers。"
               }
             ]
           }
@@ -3309,8 +3202,8 @@
           "stem_cn": "根据前两段应该解决什么问题？",
           "type": "事实细节题",
           "locate_pid": 0,
-          "locate_sentence": "American farmers have been complaining of labor shortages for several years.",
-          "locate_sentence_cn": "多年来，美国农民一直抱怨劳动力短缺。",
+          "locate_sentence": "The complaints are unlikely to stop without an overhaul of immigration rules for farm workers.",
+          "locate_sentence_cn": "如果不彻底改革农场工人的移民法规，这些抱怨不太可能停止。",
           "options": [
             {
               "key": "A",
@@ -3321,8 +3214,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "American farmers have been complaining of labor shortages for several years.",
-                "source_translation": "多年来，美国农民一直抱怨劳动力短缺。",
+                "source_sentence": "The complaints are unlikely to stop without an overhaul of immigration rules for farm workers.",
+                "source_translation": "如果不彻底改革农场工人的移民法规，这些抱怨不太可能停止。",
                 "locator_comparison": "选项声称“美国农业就业机会减少。”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“如果不彻底改革农场工人的移民规则，这些抱怨就不可能停止。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3338,8 +3231,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "American farmers have been complaining of labor shortages for several years.",
-                "source_translation": "多年来，美国农民一直抱怨劳动力短缺。",
+                "source_sentence": "The complaints are unlikely to stop without an overhaul of immigration rules for farm workers.",
+                "source_translation": "如果不彻底改革农场工人的移民法规，这些抱怨不太可能停止。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“如果不彻底改革农场工人的移民规则，这些抱怨就不可能停止。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3355,8 +3248,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "American farmers have been complaining of labor shortages for several years.",
-                "source_translation": "多年来，美国农民一直抱怨劳动力短缺。",
+                "source_sentence": "The complaints are unlikely to stop without an overhaul of immigration rules for farm workers.",
+                "source_translation": "如果不彻底改革农场工人的移民法规，这些抱怨不太可能停止。",
                 "locator_comparison": "选项声称“有利于某些美国企业的有偏见的法律。”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“如果不彻底改革农场工人的移民规则，这些抱怨就不可能停止。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3372,8 +3265,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "American farmers have been complaining of labor shortages for several years.",
-                "source_translation": "多年来，美国农民一直抱怨劳动力短缺。",
+                "source_sentence": "The complaints are unlikely to stop without an overhaul of immigration rules for farm workers.",
+                "source_translation": "如果不彻底改革农场工人的移民法规，这些抱怨不太可能停止。",
                 "locator_comparison": "选项核心词 <code>Flaws</code>, <code>immigration</code>, <code>rules</code>（“美国农场工人移民规则存在缺陷。”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“如果不彻底改革农场工人的移民规则，这些抱怨就不可能停止。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -3389,8 +3282,8 @@
           "stem_cn": "美国农业劳动力面临的问题之一是 _____。",
           "type": "因果推断题",
           "locate_pid": 1,
-          "locate_sentence": "Perhaps half of U.S.",
-          "locate_sentence_cn": "也许是美国的一半",
+          "locate_sentence": "At the start of this century, about one-third of crop workers were over the age of 35. Now more than half are. And picking crops is hard on older bodies.",
+          "locate_sentence_cn": "本世纪初，大约三分之一的农作物工人年龄在35岁以上。现在这一比例已超过一半。而采摘庄稼对上了年纪的身体来说是很吃力的。",
           "options": [
             {
               "key": "A",
@@ -3401,8 +3294,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Perhaps half of U.S.",
-                "source_translation": "也许是美国的一半",
+                "source_sentence": "At the start of this century, about one-third of crop workers were over the age of 35. Now more than half are. And picking crops is hard on older bodies.",
+                "source_translation": "本世纪初，大约三分之一的农作物工人年龄在35岁以上。现在这一比例已超过一半。而采摘庄稼对上了年纪的身体来说是很吃力的。",
                 "locator_comparison": "选项核心词 <code>aging</code>, <code>immigrant</code>, <code>farm</code>（“农民工老龄化”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“农场工人是无证移民。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -3418,8 +3311,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Perhaps half of U.S.",
-                "source_translation": "也许是美国的一半",
+                "source_sentence": "At the start of this century, about one-third of crop workers were over the age of 35. Now more than half are. And picking crops is hard on older bodies.",
+                "source_translation": "本世纪初，大约三分之一的农作物工人年龄在35岁以上。现在这一比例已超过一半。而采摘庄稼对上了年纪的身体来说是很吃力的。",
                 "locator_comparison": "选项声称“非法移民人数不断增加”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“农场工人是无证移民。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3435,8 +3328,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Perhaps half of U.S.",
-                "source_translation": "也许是美国的一半",
+                "source_sentence": "At the start of this century, about one-third of crop workers were over the age of 35. Now more than half are. And picking crops is hard on older bodies.",
+                "source_translation": "本世纪初，大约三分之一的农作物工人年龄在35岁以上。现在这一比例已超过一半。而采摘庄稼对上了年纪的身体来说是很吃力的。",
                 "locator_comparison": "借用了原文的词汇 <code>high</code>, <code>mobility</code>, <code>crop</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“农场工人是无证移民。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3452,8 +3345,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Perhaps half of U.S.",
-                "source_translation": "也许是美国的一半",
+                "source_sentence": "At the start of this century, about one-third of crop workers were over the age of 35. Now more than half are. And picking crops is hard on older bodies.",
+                "source_translation": "本世纪初，大约三分之一的农作物工人年龄在35岁以上。现在这一比例已超过一半。而采摘庄稼对上了年纪的身体来说是很吃力的。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“农场工人是无证移民。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3468,9 +3361,9 @@
           "stem": "What is the much-argued solution to the labor shortage in U.S. farming?",
           "stem_cn": "备受争议的美国农业劳动力短缺问题的解决方案是什么？",
           "type": "段落推理题",
-          "locate_pid": 2,
-          "locate_sentence": "Mechanization isn’t the answer, either—not yet, at least.",
-          "locate_sentence_cn": "机械化也不是答案——至少目前还不是。",
+          "locate_pid": 1,
+          "locate_sentence": "One oft-debated cure for this labor shortage remains as implausible as it’s been all along: Native U.S. workers won’t be returning to the farm.",
+          "locate_sentence_cn": "针对这种劳动力短缺的一个经常被讨论的补救方案依然和以往一样难以置信：美国本土工人不会重返农场。",
           "options": [
             {
               "key": "A",
@@ -3481,8 +3374,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Mechanization isn’t the answer, either—not yet, at least.",
-                "source_translation": "机械化也不是答案——至少目前还不是。",
+                "source_sentence": "One oft-debated cure for this labor shortage remains as implausible as it’s been all along: Native U.S. workers won’t be returning to the farm.",
+                "source_translation": "针对这种劳动力短缺的一个经常被讨论的补救方案依然和以往一样难以置信：美国本土工人不会重返农场。",
                 "locator_comparison": "借用了原文的词汇 <code>strengthen</code>, <code>financial</code>, <code>support</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“玉米、棉花、水稻、大豆和小麦的生产已基本机械化，但草莓等许多高价值、劳动密集型作物需要劳动力。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3498,8 +3391,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Mechanization isn’t the answer, either—not yet, at least.",
-                "source_translation": "机械化也不是答案——至少目前还不是。",
+                "source_sentence": "One oft-debated cure for this labor shortage remains as implausible as it’s been all along: Native U.S. workers won’t be returning to the farm.",
+                "source_translation": "针对这种劳动力短缺的一个经常被讨论的补救方案依然和以往一样难以置信：美国本土工人不会重返农场。",
                 "locator_comparison": "借用了原文的词汇 <code>attract</code>, <code>younger</code>, <code>laborers</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“玉米、棉花、水稻、大豆和小麦的生产已基本机械化，但草莓等许多高价值、劳动密集型作物需要劳动力。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3515,9 +3408,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Mechanization isn’t the answer, either—not yet, at least.",
-                "source_translation": "机械化也不是答案——至少目前还不是。",
-                "locator_comparison": "选项核心词 <code>get</code>, <code>native</code>, <code>workers</code>（“让美国本土工人重返农业。”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "One oft-debated cure for this labor shortage remains as implausible as it’s been all along: Native U.S. workers won’t be returning to the farm.",
+                "source_translation": "针对这种劳动力短缺的一个经常被讨论的补救方案依然和以往一样难以置信：美国本土工人不会重返农场。",
+                "locator_comparison": "选项核心词 <code>get</code>, <code>native</code>, <code>workers</code>（“让美国本土工人重返农业。”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“玉米、棉花、水稻、大豆和小麦的生产已基本机械化，但草莓等许多高价值、劳动密集型作物需要劳动力。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：C正确。"
@@ -3532,8 +3425,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Mechanization isn’t the answer, either—not yet, at least.",
-                "source_translation": "机械化也不是答案——至少目前还不是。",
+                "source_sentence": "One oft-debated cure for this labor shortage remains as implausible as it’s been all along: Native U.S. workers won’t be returning to the farm.",
+                "source_translation": "针对这种劳动力短缺的一个经常被讨论的补救方案依然和以往一样难以置信：美国本土工人不会重返农场。",
                 "locator_comparison": "选项声称“使用更多机器人种植高价值农作物。”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“玉米、棉花、水稻、大豆和小麦的生产已基本机械化，但草莓等许多高价值、劳动密集型作物需要劳动力。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3548,9 +3441,9 @@
           "stem": "Agricultural employers complain about the H-2A visa for its _____.",
           "stem_cn": "农业雇主抱怨 H-2A 签证的_____。",
           "type": "词义/例证题",
-          "locate_pid": 3,
-          "locate_sentence": "As a result, farms have grown increasingly reliant on temporary guest workers using the H-2A visa to fill the gaps in the workforce.",
-          "locate_sentence_cn": "因此，农场越来越依赖使用 H-2A 签证的临时客工来填补劳动力缺口。",
+          "locate_pid": 4,
+          "locate_sentence": "The process is cumbersome, expensive, and unreliable. One survey found that bureaucratic delays led the average H-2A worker to arrive on the job 22 days late.",
+          "locate_sentence_cn": "办理该签证的过程繁琐、昂贵且不可靠。一项调查发现，官僚式的拖延导致普通 H-2A 工人平均迟到22天才能上岗。",
           "options": [
             {
               "key": "A",
@@ -3561,8 +3454,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "As a result, farms have grown increasingly reliant on temporary guest workers using the H-2A visa to fill the gaps in the workforce.",
-                "source_translation": "因此，农场越来越依赖使用 H-2A 签证的临时客工来填补劳动力缺口。",
+                "source_sentence": "The process is cumbersome, expensive, and unreliable. One survey found that bureaucratic delays led the average H-2A worker to arrive on the job 22 days late.",
+                "source_translation": "办理该签证的过程繁琐、昂贵且不可靠。一项调查发现，官僚式的拖延导致普通 H-2A 工人平均迟到22天才能上岗。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“从2012年左右开始，签证申请量急剧增加；从2011年到2016年，签发的签证数量增加了一倍多。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3578,9 +3471,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "As a result, farms have grown increasingly reliant on temporary guest workers using the H-2A visa to fill the gaps in the workforce.",
-                "source_translation": "因此，农场越来越依赖使用 H-2A 签证的临时客工来填补劳动力缺口。",
-                "locator_comparison": "选项核心词 <code>slow</code>, <code>granting</code>, <code>procedures</code>（“缓慢的授予程序”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "The process is cumbersome, expensive, and unreliable. One survey found that bureaucratic delays led the average H-2A worker to arrive on the job 22 days late.",
+                "source_translation": "办理该签证的过程繁琐、昂贵且不可靠。一项调查发现，官僚式的拖延导致普通 H-2A 工人平均迟到22天才能上岗。",
+                "locator_comparison": "选项核心词 <code>slow</code>, <code>granting</code>, <code>procedures</code>（“缓慢的授予程序”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“从2012年左右开始，签证申请量急剧增加；从2011年到2016年，签发的签证数量增加了一倍多。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：B正确。"
@@ -3595,8 +3488,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "As a result, farms have grown increasingly reliant on temporary guest workers using the H-2A visa to fill the gaps in the workforce.",
-                "source_translation": "因此，农场越来越依赖使用 H-2A 签证的临时客工来填补劳动力缺口。",
+                "source_sentence": "The process is cumbersome, expensive, and unreliable. One survey found that bureaucratic delays led the average H-2A worker to arrive on the job 22 days late.",
+                "source_translation": "办理该签证的过程繁琐、昂贵且不可靠。一项调查发现，官僚式的拖延导致普通 H-2A 工人平均迟到22天才能上岗。",
                 "locator_comparison": "选项声称“limit on duration of stay \nᆇี൫ज@JOEE ༯໶\n\n06”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“从2012年左右开始，签证申请量急剧增加；从2011年到2016年，签发的签证数量增加了一倍多。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3612,8 +3505,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "As a result, farms have grown increasingly reliant on temporary guest workers using the H-2A visa to fill the gaps in the workforce.",
-                "source_translation": "因此，农场越来越依赖使用 H-2A 签证的临时客工来填补劳动力缺口。",
+                "source_sentence": "The process is cumbersome, expensive, and unreliable. One survey found that bureaucratic delays led the average H-2A worker to arrive on the job 22 days late.",
+                "source_translation": "办理该签证的过程繁琐、昂贵且不可靠。一项调查发现，官僚式的拖延导致普通 H-2A 工人平均迟到22天才能上岗。",
                 "locator_comparison": "选项声称“收紧要求”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“从2012年左右开始，签证申请量急剧增加；从2011年到2016年，签发的签证数量增加了一倍多。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3628,9 +3521,9 @@
           "stem": "Which of the following could be the best title for this text?",
           "stem_cn": "以下哪一个可能是本文的最佳标题？",
           "type": "全文主旨题",
-          "locate_pid": 4,
-          "locate_sentence": "The H-2A visa has no numerical cap, unlike the H-2B visa for nonagricultural work, which is limited to 66,000 a year.",
-          "locate_sentence_cn": "H-2A签证没有数量上限，与非农业工作的H-2B签证每年的数量上限为66,000个不同。",
+          "locate_pid": 6,
+          "locate_sentence": "In effect, the U.S. can import food or it can import the workers who pick it.",
+          "locate_sentence_cn": "实际上，美国要么可以进口粮食，要么可以引进采摘粮食的劳工。",
           "options": [
             {
               "key": "A",
@@ -3641,8 +3534,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "The H-2A visa has no numerical cap, unlike the H-2B visa for nonagricultural work, which is limited to 66,000 a year.",
-                "source_translation": "H-2A签证没有数量上限，与非农业工作的H-2B签证每年的数量上限为66,000个不同。",
+                "source_sentence": "In effect, the U.S. can import food or it can import the workers who pick it.",
+                "source_translation": "实际上，美国要么可以进口粮食，要么可以引进采摘粮食的劳工。",
                 "locator_comparison": "借用了原文的词汇 <code>Manpower</code>, <code>Automation</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“即便如此，雇主仍抱怨他们没有获得所需的全部工人。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3658,8 +3551,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "The H-2A visa has no numerical cap, unlike the H-2B visa for nonagricultural work, which is limited to 66,000 a year.",
-                "source_translation": "H-2A签证没有数量上限，与非农业工作的H-2B签证每年的数量上限为66,000个不同。",
+                "source_sentence": "In effect, the U.S. can import food or it can import the workers who pick it.",
+                "source_translation": "实际上，美国要么可以进口粮食，要么可以引进采摘粮食的劳工。",
                 "locator_comparison": "选项声称“美国农业正在衰退？”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“即便如此，雇主仍抱怨他们没有获得所需的全部工人。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3675,9 +3568,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The H-2A visa has no numerical cap, unlike the H-2B visa for nonagricultural work, which is limited to 66,000 a year.",
-                "source_translation": "H-2A签证没有数量上限，与非农业工作的H-2B签证每年的数量上限为66,000个不同。",
-                "locator_comparison": "选项核心词 <code>Import</code>, <code>Food</code>, <code>Labor</code>（“进口食品还是劳动力？”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "In effect, the U.S. can import food or it can import the workers who pick it.",
+                "source_translation": "实际上，美国要么可以进口粮食，要么可以引进采摘粮食的劳工。",
+                "locator_comparison": "选项核心词 <code>Import</code>, <code>Food</code>, <code>Labor</code>（“进口食品还是劳动力？”）准确概括了原文第 7 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“即便如此，雇主仍抱怨他们没有获得所需的全部工人。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：C正确。"
@@ -3692,8 +3585,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "The H-2A visa has no numerical cap, unlike the H-2B visa for nonagricultural work, which is limited to 66,000 a year.",
-                "source_translation": "H-2A签证没有数量上限，与非农业工作的H-2B签证每年的数量上限为66,000个不同。",
+                "source_sentence": "In effect, the U.S. can import food or it can import the workers who pick it.",
+                "source_translation": "实际上，美国要么可以进口粮食，要么可以引进采摘粮食的劳工。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“即便如此，雇主仍抱怨他们没有获得所需的全部工人。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -3707,11 +3600,13 @@
       "macro_logic": {
         "main_theme": "本文围绕 American farmers have been complaining of labor sh... 展开深入客观的逻辑论述。",
         "logic_chain": [
-          "第1段：多年来，美国农民一直抱怨劳动力短缺。如果不彻底改革农场工人的...",
-          "第2段：也许一半的美国农场工人是无证移民。随着进入该国的此类工人越来...",
-          "第3段：机械化也不是答案——至少目前还不是。玉米、棉花、水稻、大豆和...",
-          "第4段：因此，农场越来越依赖使用 H-2A 签证的临时客工来填补劳动...",
-          "第5段：H-2A签证没有数量上限，与非农业工作的H-2B签证每年的数..."
+          "第1段：指出美国农场劳动力短缺危机的根源在于僵化严苛的移民法规体系。",
+          "第2段：剖析农场劳动力队伍结构变化：非法移民减少、定居化与严重老龄化，本土工人绝无可能重返农场。",
+          "第3段：指出机械化短期内难以替代大量高价值劳动密集型作物的采摘需求。",
+          "第4段：说明农场对 H-2A 临时客工签证依赖剧增，签证申请量成倍增长。",
+          "第5段：揭示 H-2A 签证制度的缺陷：流程繁琐昂贵、官僚拖延严重且常受突击搜捕冲击。",
+          "第6段：列举劳动力匮乏迫使农场外迁墨西哥，导致美国农产品进口依赖度显著上升。",
+          "第7段：一针见血总结国家战略抉择：美国要么进口农产品，要么引进采摘农产品的劳工。"
         ]
       },
       "writing_corpus": [
@@ -4381,40 +4276,22 @@
           "sid": 10,
           "pid": 4,
           "sentence_index": 2,
-          "text": "In her latest book, Why Good People Do Bad Environmental Things, Elizabeth R.",
-          "translation": "在她的最新著作《为什么好人会做坏事》中，Elizabeth R.",
-          "slashed_text": "In her latest book , / Why Good People Do Bad Environmental Things , / Elizabeth R.",
-          "chunk_translation": "在她的最新著作 / 《为什么好人会做破坏环境的坏事》中， / 伊丽莎白·R·",
+          "text": "In her latest book, Why Good People Do Bad Environmental Things, Elizabeth R. DeSombre argues that the best way to collectively change the behavior of large numbers of people is for the change to be structural.",
+          "translation": "伊丽莎白·R·德索姆布雷在其最新著作《好人为何做破坏环境的坏事》中辩称，从集体上改变大量人群行为的最佳方式是进行结构性改变。",
+          "slashed_text": "In her latest book , / Why Good People Do Bad Environmental Things , / Elizabeth R. DeSombre argues / that the best way to collectively change the behavior of large numbers of people / is for the change to be structural.",
+          "chunk_translation": "在她的最新著作中 / 《好人为何做有害环境的坏事》 / 伊丽莎白·R·德索姆布雷主张 / 集体改变大众行为的最佳方式 / 是实现结构性变革。",
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "Why Good People Do Bad Environmental Things...",
-                "explanation": "关系词 <code>Why</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "宾语从句",
+                "content": "that the best way to collectively change the behavior of large numbers of people is for the change to be structural",
+                "explanation": "连接词 <code>that</code> 引导宾语从句，充当动词 argues 的宾语。"
               }
             ]
           }
         },
         {
           "sid": 11,
-          "pid": 4,
-          "sentence_index": 3,
-          "text": "DeSombre argues that the best way to collectively change the behavior of large numbers of people is for the change to be structural.",
-          "translation": "德松布尔认为，集体改变大量人行为的最佳方式是结构性改变。",
-          "slashed_text": "DeSombre argues / that the best way to collectively change the behavior of large numbers of people is for the change to be structural.",
-          "chunk_translation": "德松布尔指出， / 从集体层面改变大众行为的最佳途径是推行结构性变革。",
-          "syntax": {
-            "breakdown": [
-              {
-                "type": "名词性从句",
-                "content": "that the best way to collectively change the ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
-              }
-            ]
-          }
-        },
-        {
-          "sid": 12,
           "pid": 5,
           "sentence_index": 0,
           "text": "This might mean implementing policy such as a plastic tax that adds a cost to environmentally problematic action, or banning single-use plastics altogether.",
@@ -4432,7 +4309,7 @@
           }
         },
         {
-          "sid": 13,
+          "sid": 12,
           "pid": 5,
           "sentence_index": 1,
           "text": "India has just announced it will “eliminate all single-use plastic in the country by 2022.” There are also incentive-based ways of making better environmental choices easier, such as ensuring recycling is at least as easy as trash disposal.",
@@ -4450,7 +4327,7 @@
           }
         },
         {
-          "sid": 14,
+          "sid": 13,
           "pid": 6,
           "sentence_index": 0,
           "text": "DeSombre isn’t saying people should stop caring about the environment.",
@@ -4468,7 +4345,7 @@
           }
         },
         {
-          "sid": 15,
+          "sid": 14,
           "pid": 6,
           "sentence_index": 1,
           "text": "It’s just that individual actions are too slow, she says, for that to be the only, or even primary, approach to changing widespread behavior.",
@@ -4486,7 +4363,7 @@
           }
         },
         {
-          "sid": 16,
+          "sid": 15,
           "pid": 7,
           "sentence_index": 0,
           "text": "None of this is about writing off the individual.",
@@ -4504,7 +4381,7 @@
           }
         },
         {
-          "sid": 17,
+          "sid": 16,
           "pid": 7,
           "sentence_index": 1,
           "text": "It’s just about putting things into perspective.",
@@ -4522,7 +4399,7 @@
           }
         },
         {
-          "sid": 18,
+          "sid": 17,
           "pid": 7,
           "sentence_index": 2,
           "text": "We don’t have time to wait.",
@@ -4540,7 +4417,7 @@
           }
         },
         {
-          "sid": 19,
+          "sid": 18,
           "pid": 7,
           "sentence_index": 3,
           "text": "We need progressive policies that shape collective action, alongside engaged citizens pushing for change.",
@@ -4565,8 +4442,8 @@
           "stem_cn": "一些名人在_____的新视频中出演。",
           "type": "事实细节题",
           "locate_pid": 0,
-          "locate_sentence": "Arnold Schwarzenegger, Dia Mirza and Adrian Grenier have a message for you: It’s easy to beat plastic.",
-          "locate_sentence_cn": "阿诺·施瓦辛格、迪亚·米尔扎和阿德里安·格尼尔向您传达一条信息：打败塑料很容易。",
+          "locate_sentence": "They’re part of a bunch of celebrities starring in a new video for World Environment Day—encouraging you, the consumer, to swap out your single-use plastic staples to combat the plastics crisis.",
+          "locate_sentence_cn": "他们是为世界环境日出演新视频的一群名人中的一员——鼓励身为消费者的你更换掉常用的一次性塑料用品，以应对塑料危机。",
           "options": [
             {
               "key": "A",
@@ -4577,8 +4454,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Arnold Schwarzenegger, Dia Mirza and Adrian Grenier have a message for you: It’s easy to beat plastic.",
-                "source_translation": "阿诺·施瓦辛格、迪亚·米尔扎和阿德里安·格尼尔向您传达一条信息：打败塑料很容易。",
+                "source_sentence": "They’re part of a bunch of celebrities starring in a new video for World Environment Day—encouraging you, the consumer, to swap out your single-use plastic staples to combat the plastics crisis.",
+                "source_translation": "他们是为世界环境日出演新视频的一群名人中的一员——鼓励身为消费者的你更换掉常用的一次性塑料用品，以应对塑料危机。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“他们是一群名人在世界环境日拍摄的新视频中的一员，鼓励您，消费者，更换一次性塑料钉书钉，以应对塑料危机。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4594,8 +4471,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Arnold Schwarzenegger, Dia Mirza and Adrian Grenier have a message for you: It’s easy to beat plastic.",
-                "source_translation": "阿诺·施瓦辛格、迪亚·米尔扎和阿德里安·格尼尔向您传达一条信息：打败塑料很容易。",
+                "source_sentence": "They’re part of a bunch of celebrities starring in a new video for World Environment Day—encouraging you, the consumer, to swap out your single-use plastic staples to combat the plastics crisis.",
+                "source_translation": "他们是为世界环境日出演新视频的一群名人中的一员——鼓励身为消费者的你更换掉常用的一次性塑料用品，以应对塑料危机。",
                 "locator_comparison": "借用了原文的词汇 <code>demand</code>, <code>new</code>, <code>laws</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“他们是一群名人在世界环境日拍摄的新视频中的一员，鼓励您，消费者，更换一次性塑料钉书钉，以应对塑料危机。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4611,8 +4488,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Arnold Schwarzenegger, Dia Mirza and Adrian Grenier have a message for you: It’s easy to beat plastic.",
-                "source_translation": "阿诺·施瓦辛格、迪亚·米尔扎和阿德里安·格尼尔向您传达一条信息：打败塑料很容易。",
+                "source_sentence": "They’re part of a bunch of celebrities starring in a new video for World Environment Day—encouraging you, the consumer, to swap out your single-use plastic staples to combat the plastics crisis.",
+                "source_translation": "他们是为世界环境日出演新视频的一群名人中的一员——鼓励身为消费者的你更换掉常用的一次性塑料用品，以应对塑料危机。",
                 "locator_comparison": "选项核心词 <code>urge</code>, <code>consumers</code>, <code>cut</code>（“敦促消费者减少塑料的使用”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“他们是一群名人在世界环境日拍摄的新视频中的一员，鼓励您，消费者，更换一次性塑料钉书钉，以应对塑料危机。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -4628,8 +4505,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Arnold Schwarzenegger, Dia Mirza and Adrian Grenier have a message for you: It’s easy to beat plastic.",
-                "source_translation": "阿诺·施瓦辛格、迪亚·米尔扎和阿德里安·格尼尔向您传达一条信息：打败塑料很容易。",
+                "source_sentence": "They’re part of a bunch of celebrities starring in a new video for World Environment Day—encouraging you, the consumer, to swap out your single-use plastic staples to combat the plastics crisis.",
+                "source_translation": "他们是为世界环境日出演新视频的一群名人中的一员——鼓励身为消费者的你更换掉常用的一次性塑料用品，以应对塑料危机。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“他们是一群名人在世界环境日拍摄的新视频中的一员，鼓励您，消费者，更换一次性塑料钉书钉，以应对塑料危机。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4644,9 +4521,9 @@
           "stem": "The author is concerned that “moral licensing” may _____.",
           "stem_cn": "作者担心“道德许可”可能_____。",
           "type": "因果推断题",
-          "locate_pid": 1,
-          "locate_sentence": "The key messages that have been put together for World Environment Day do include a call for governments to enact legislation to curb single-use plastics.",
-          "locate_sentence_cn": "世界环境日的关键信息确实包括呼吁各国政府颁布立法来限制一次性塑料制品。",
+          "locate_pid": 2,
+          "locate_sentence": "They could even be harmful, satisfying a need to have “done our bit” without ever progressing onto bigger, bolder, more effective actions—a kind of “moral licensing” that eases our concerns and stops us doing more and asking more of those in charge.",
+          "locate_sentence_cn": "它们甚至可能是有害的，满足了一种“尽了我们一份力”的需求，却从未推进到更大、更大胆、更有效的行动——这是一种“道德许可”，它缓解了我们的担忧，阻止了我们付出更多并向掌权者提出更多要求。",
           "options": [
             {
               "key": "A",
@@ -4657,8 +4534,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "The key messages that have been put together for World Environment Day do include a call for governments to enact legislation to curb single-use plastics.",
-                "source_translation": "世界环境日的关键信息确实包括呼吁各国政府颁布立法来限制一次性塑料制品。",
+                "source_sentence": "They could even be harmful, satisfying a need to have “done our bit” without ever progressing onto bigger, bolder, more effective actions—a kind of “moral licensing” that eases our concerns and stops us doing more and asking more of those in charge.",
+                "source_translation": "它们甚至可能是有害的，满足了一种“尽了我们一份力”的需求，却从未推进到更大、更大胆、更有效的行动——这是一种“道德许可”，它缓解了我们的担忧，阻止了我们付出更多并向掌权者提出更多要求。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“但最重要的信息是针对个人的。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4674,8 +4551,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "The key messages that have been put together for World Environment Day do include a call for governments to enact legislation to curb single-use plastics.",
-                "source_translation": "世界环境日的关键信息确实包括呼吁各国政府颁布立法来限制一次性塑料制品。",
+                "source_sentence": "They could even be harmful, satisfying a need to have “done our bit” without ever progressing onto bigger, bolder, more effective actions—a kind of “moral licensing” that eases our concerns and stops us doing more and asking more of those in charge.",
+                "source_translation": "它们甚至可能是有害的，满足了一种“尽了我们一份力”的需求，却从未推进到更大、更大胆、更有效的行动——这是一种“道德许可”，它缓解了我们的担忧，阻止了我们付出更多并向掌权者提出更多要求。",
                 "locator_comparison": "选项声称“误导我们去做毫无价值的事情”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“但最重要的信息是针对个人的。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4691,9 +4568,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The key messages that have been put together for World Environment Day do include a call for governments to enact legislation to curb single-use plastics.",
-                "source_translation": "世界环境日的关键信息确实包括呼吁各国政府颁布立法来限制一次性塑料制品。",
-                "locator_comparison": "选项核心词 <code>prevent</code>, <code>making</code>, <code>further</code>（“阻止我们做出进一步的努力”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "They could even be harmful, satisfying a need to have “done our bit” without ever progressing onto bigger, bolder, more effective actions—a kind of “moral licensing” that eases our concerns and stops us doing more and asking more of those in charge.",
+                "source_translation": "它们甚至可能是有害的，满足了一种“尽了我们一份力”的需求，却从未推进到更大、更大胆、更有效的行动——这是一种“道德许可”，它缓解了我们的担忧，阻止了我们付出更多并向掌权者提出更多要求。",
+                "locator_comparison": "选项核心词 <code>prevent</code>, <code>making</code>, <code>further</code>（“阻止我们做出进一步的努力”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“但最重要的信息是针对个人的。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：C正确。"
@@ -4708,8 +4585,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "The key messages that have been put together for World Environment Day do include a call for governments to enact legislation to curb single-use plastics.",
-                "source_translation": "世界环境日的关键信息确实包括呼吁各国政府颁布立法来限制一次性塑料制品。",
+                "source_sentence": "They could even be harmful, satisfying a need to have “done our bit” without ever progressing onto bigger, bolder, more effective actions—a kind of “moral licensing” that eases our concerns and stops us doing more and asking more of those in charge.",
+                "source_translation": "它们甚至可能是有害的，满足了一种“尽了我们一份力”的需求，却从未推进到更大、更大胆、更有效的行动——这是一种“道德许可”，它缓解了我们的担忧，阻止了我们付出更多并向掌权者提出更多要求。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“但最重要的信息是针对个人的。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4724,9 +4601,9 @@
           "stem": "By pointing out our identity as “citizens,” the author indicates that _____.",
           "stem_cn": "通过指出我们作为“公民”的身份，作者表明_____。",
           "type": "段落推理题",
-          "locate_pid": 2,
-          "locate_sentence": "My concern with leaving it up to the individual, however, is our limited sense of what needs to be achieved.",
-          "locate_sentence_cn": "然而，我担心将其留给个人，因为我们对需要实现的目标的认识有限。",
+          "locate_pid": 3,
+          "locate_sentence": "While the conversation around our environment and our responsibility toward it remains centered on shopping bags and straws, we’re ignoring the balance of power that implies that as “consumers” we must shop sustainably, rather than as “citizens” hold our governments and industries to account to push for real systemic change.",
+          "locate_sentence_cn": "当围绕我们的环境以及我们对环境的责任的讨论仍然集中在购物袋和吸管上时，我们忽视了权力的平衡，这种权力平衡意味着我们作为“消费者”必须进行可持续购物，而不是作为“公民”向政府和行业问责以推动真正的系统性变革。",
           "options": [
             {
               "key": "A",
@@ -4737,9 +4614,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "My concern with leaving it up to the individual, however, is our limited sense of what needs to be achieved.",
-                "source_translation": "然而，我担心将其留给个人，因为我们对需要实现的目标的认识有限。",
-                "locator_comparison": "选项核心词 <code>press</code>, <code>our</code>, <code>governments</code>（“我们应该敦促我们的政府领导这场战斗”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "While the conversation around our environment and our responsibility toward it remains centered on shopping bags and straws, we’re ignoring the balance of power that implies that as “consumers” we must shop sustainably, rather than as “citizens” hold our governments and industries to account to push for real systemic change.",
+                "source_translation": "当围绕我们的环境以及我们对环境的责任的讨论仍然集中在购物袋和吸管上时，我们忽视了权力的平衡，这种权力平衡意味着我们作为“消费者”必须进行可持续购物，而不是作为“公民”向政府和行业问责以推动真正的系统性变革。",
+                "locator_comparison": "选项核心词 <code>press</code>, <code>our</code>, <code>governments</code>（“我们应该敦促我们的政府领导这场战斗”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“例如，仅凭自己的袋子去杂货店或戒掉塑料吸管，收效甚微，对我们的要求也很少。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：A正确。"
@@ -4754,8 +4631,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "My concern with leaving it up to the individual, however, is our limited sense of what needs to be achieved.",
-                "source_translation": "然而，我担心将其留给个人，因为我们对需要实现的目标的认识有限。",
+                "source_sentence": "While the conversation around our environment and our responsibility toward it remains centered on shopping bags and straws, we’re ignoring the balance of power that implies that as “consumers” we must shop sustainably, rather than as “citizens” hold our governments and industries to account to push for real systemic change.",
+                "source_translation": "当围绕我们的环境以及我们对环境的责任的讨论仍然集中在购物袋和吸管上时，我们忽视了权力的平衡，这种权力平衡意味着我们作为“消费者”必须进行可持续购物，而不是作为“公民”向政府和行业问责以推动真正的系统性变革。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“例如，仅凭自己的袋子去杂货店或戒掉塑料吸管，收效甚微，对我们的要求也很少。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4771,8 +4648,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "My concern with leaving it up to the individual, however, is our limited sense of what needs to be achieved.",
-                "source_translation": "然而，我担心将其留给个人，因为我们对需要实现的目标的认识有限。",
+                "source_sentence": "While the conversation around our environment and our responsibility toward it remains centered on shopping bags and straws, we’re ignoring the balance of power that implies that as “consumers” we must shop sustainably, rather than as “citizens” hold our governments and industries to account to push for real systemic change.",
+                "source_translation": "当围绕我们的环境以及我们对环境的责任的讨论仍然集中在购物袋和吸管上时，我们忽视了权力的平衡，这种权力平衡意味着我们作为“消费者”必须进行可持续购物，而不是作为“公民”向政府和行业问责以推动真正的系统性变革。",
                 "locator_comparison": "借用了原文的词汇 <code>our</code>, <code>relationship</code>, <code>local</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“例如，仅凭自己的袋子去杂货店或戒掉塑料吸管，收效甚微，对我们的要求也很少。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4788,8 +4665,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "My concern with leaving it up to the individual, however, is our limited sense of what needs to be achieved.",
-                "source_translation": "然而，我担心将其留给个人，因为我们对需要实现的目标的认识有限。",
+                "source_sentence": "While the conversation around our environment and our responsibility toward it remains centered on shopping bags and straws, we’re ignoring the balance of power that implies that as “consumers” we must shop sustainably, rather than as “citizens” hold our governments and industries to account to push for real systemic change.",
+                "source_translation": "当围绕我们的环境以及我们对环境的责任的讨论仍然集中在购物袋和吸管上时，我们忽视了权力的平衡，这种权力平衡意味着我们作为“消费者”必须进行可持续购物，而不是作为“公民”向政府和行业问责以推动真正的系统性变革。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“例如，仅凭自己的袋子去杂货店或戒掉塑料吸管，收效甚微，对我们的要求也很少。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4804,9 +4681,9 @@
           "stem": "DeSombre argues that the best way for a collective change should be _____.",
           "stem_cn": "德松布尔认为，集体变革的最佳方式应该是_____。",
           "type": "词义/例证题",
-          "locate_pid": 3,
-          "locate_sentence": "While the conversation around our environment and our responsibility toward it remains centered on shopping bags and straws, we’re ignoring the balance of power that implies that as “consumers” we must shop sustainably, rather than as “citizens” hold our governments and industries to account to push for real systemic change.",
-          "locate_sentence_cn": "虽然围绕我们的环境和我们对环境的责任的讨论仍然集中在购物袋和吸管上，但我们忽视了权力平衡，这意味着作为“消费者”我们必须可持续地购物，而不是作为“公民”要求我们的政府和行业负责推动真正的系统性变革。",
+          "locate_pid": 4,
+          "locate_sentence": "In her latest book, Why Good People Do Bad Environmental Things, Elizabeth R. DeSombre argues that the best way to collectively change the behavior of large numbers of people is for the change to be structural.",
+          "locate_sentence_cn": "伊丽莎白·R·德索姆布雷在其最新著作《好人为何做破坏环境的坏事》中辩称，从集体上改变大量人群行为的最佳方式是进行结构性改变。",
           "options": [
             {
               "key": "A",
@@ -4817,9 +4694,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "While the conversation around our environment and our responsibility toward it remains centered on shopping bags and straws, we’re ignoring the balance of power that implies that as “consumers” we must shop sustainably, rather than as “citizens” hold our governments and industries to account to push for real systemic change.",
-                "source_translation": "虽然围绕我们的环境和我们对环境的责任的讨论仍然集中在购物袋和吸管上，但我们忽视了权力平衡，这意味着作为“消费者”我们必须可持续地购物，而不是作为“公民”要求我们的政府和行业负责推动真正的系统性变革。",
-                "locator_comparison": "选项核心词 <code>top</code>, <code>process</code>（“自上而下的过程”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "In her latest book, Why Good People Do Bad Environmental Things, Elizabeth R. DeSombre argues that the best way to collectively change the behavior of large numbers of people is for the change to be structural.",
+                "source_translation": "伊丽莎白·R·德索姆布雷在其最新著作《好人为何做破坏环境的坏事》中辩称，从集体上改变大量人群行为的最佳方式是进行结构性改变。",
+                "locator_comparison": "选项核心词 <code>top</code>, <code>process</code>（“自上而下的过程”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“It’s important to acknowledge that the environment isn’t everyone’s priority—or even most people’s”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：A正确。"
@@ -4834,8 +4711,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "While the conversation around our environment and our responsibility toward it remains centered on shopping bags and straws, we’re ignoring the balance of power that implies that as “consumers” we must shop sustainably, rather than as “citizens” hold our governments and industries to account to push for real systemic change.",
-                "source_translation": "虽然围绕我们的环境和我们对环境的责任的讨论仍然集中在购物袋和吸管上，但我们忽视了权力平衡，这意味着作为“消费者”我们必须可持续地购物，而不是作为“公民”要求我们的政府和行业负责推动真正的系统性变革。",
+                "source_sentence": "In her latest book, Why Good People Do Bad Environmental Things, Elizabeth R. DeSombre argues that the best way to collectively change the behavior of large numbers of people is for the change to be structural.",
+                "source_translation": "伊丽莎白·R·德索姆布雷在其最新著作《好人为何做破坏环境的坏事》中辩称，从集体上改变大量人群行为的最佳方式是进行结构性改变。",
                 "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“It’s important to acknowledge that the environment isn’t everyone’s priority—or even most people’s”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4851,8 +4728,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "While the conversation around our environment and our responsibility toward it remains centered on shopping bags and straws, we’re ignoring the balance of power that implies that as “consumers” we must shop sustainably, rather than as “citizens” hold our governments and industries to account to push for real systemic change.",
-                "source_translation": "虽然围绕我们的环境和我们对环境的责任的讨论仍然集中在购物袋和吸管上，但我们忽视了权力平衡，这意味着作为“消费者”我们必须可持续地购物，而不是作为“公民”要求我们的政府和行业负责推动真正的系统性变革。",
+                "source_sentence": "In her latest book, Why Good People Do Bad Environmental Things, Elizabeth R. DeSombre argues that the best way to collectively change the behavior of large numbers of people is for the change to be structural.",
+                "source_translation": "伊丽莎白·R·德索姆布雷在其最新著作《好人为何做破坏环境的坏事》中辩称，从集体上改变大量人群行为的最佳方式是进行结构性改变。",
                 "locator_comparison": "借用了原文的词汇 <code>self</code>, <code>driven</code>, <code>mechanism</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“It’s important to acknowledge that the environment isn’t everyone’s priority—or even most people’s”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4868,8 +4745,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "While the conversation around our environment and our responsibility toward it remains centered on shopping bags and straws, we’re ignoring the balance of power that implies that as “consumers” we must shop sustainably, rather than as “citizens” hold our governments and industries to account to push for real systemic change.",
-                "source_translation": "虽然围绕我们的环境和我们对环境的责任的讨论仍然集中在购物袋和吸管上，但我们忽视了权力平衡，这意味着作为“消费者”我们必须可持续地购物，而不是作为“公民”要求我们的政府和行业负责推动真正的系统性变革。",
+                "source_sentence": "In her latest book, Why Good People Do Bad Environmental Things, Elizabeth R. DeSombre argues that the best way to collectively change the behavior of large numbers of people is for the change to be structural.",
+                "source_translation": "伊丽莎白·R·德索姆布雷在其最新著作《好人为何做破坏环境的坏事》中辩称，从集体上改变大量人群行为的最佳方式是进行结构性改变。",
                 "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“It’s important to acknowledge that the environment isn’t everyone’s priority—or even most people’s”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4884,9 +4761,9 @@
           "stem": "The author concludes that individual efforts _____.",
           "stem_cn": "作者的结论是个人努力_____。",
           "type": "全文主旨题",
-          "locate_pid": 4,
-          "locate_sentence": "It’s important to acknowledge that the environment isn’t everyone’s priority—or even most people’s.",
-          "locate_sentence_cn": "重要的是要承认，环境并不是每个人——甚至不是大多数人——的首要任务。",
+          "locate_pid": 7,
+          "locate_sentence": "None of this is about writing off the individual. It’s just about putting things into perspective. We don’t have time to wait. We need progressive policies that shape collective action, alongside engaged citizens pushing for change.",
+          "locate_sentence_cn": "这一切并不是要全盘否定个人。这只是要把事情放在客观角度来看待。我们没有时间等待。我们需要能够塑造集体行动的进步政策，以及积极参与推动变革的公民。",
           "options": [
             {
               "key": "A",
@@ -4897,8 +4774,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "It’s important to acknowledge that the environment isn’t everyone’s priority—or even most people’s.",
-                "source_translation": "重要的是要承认，环境并不是每个人——甚至不是大多数人——的首要任务。",
+                "source_sentence": "None of this is about writing off the individual. It’s just about putting things into perspective. We don’t have time to wait. We need progressive policies that shape collective action, alongside engaged citizens pushing for change.",
+                "source_translation": "这一切并不是要全盘否定个人。这只是要把事情放在客观角度来看待。我们没有时间等待。我们需要能够塑造集体行动的进步政策，以及积极参与推动变革的公民。",
                 "locator_comparison": "选项声称“可能过于激进”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“我们不应该期望它会这样。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4914,8 +4791,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "It’s important to acknowledge that the environment isn’t everyone’s priority—or even most people’s.",
-                "source_translation": "重要的是要承认，环境并不是每个人——甚至不是大多数人——的首要任务。",
+                "source_sentence": "None of this is about writing off the individual. It’s just about putting things into perspective. We don’t have time to wait. We need progressive policies that shape collective action, alongside engaged citizens pushing for change.",
+                "source_translation": "这一切并不是要全盘否定个人。这只是要把事情放在客观角度来看待。我们没有时间等待。我们需要能够塑造集体行动的进步政策，以及积极参与推动变革的公民。",
                 "locator_comparison": "选项声称“可能太不一致”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“我们不应该期望它会这样。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4931,8 +4808,8 @@
               "analysis": {
                 "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
                 "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "It’s important to acknowledge that the environment isn’t everyone’s priority—or even most people’s.",
-                "source_translation": "重要的是要承认，环境并不是每个人——甚至不是大多数人——的首要任务。",
+                "source_sentence": "None of this is about writing off the individual. It’s just about putting things into perspective. We don’t have time to wait. We need progressive policies that shape collective action, alongside engaged citizens pushing for change.",
+                "source_translation": "这一切并不是要全盘否定个人。这只是要把事情放在客观角度来看待。我们没有时间等待。我们需要能够塑造集体行动的进步政策，以及积极参与推动变革的公民。",
                 "locator_comparison": "选项声称“远非理性”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
                 "writing_perspective": "后文实际写道：“我们不应该期望它会这样。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
                 "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
@@ -4948,9 +4825,9 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "It’s important to acknowledge that the environment isn’t everyone’s priority—or even most people’s.",
-                "source_translation": "重要的是要承认，环境并不是每个人——甚至不是大多数人——的首要任务。",
-                "locator_comparison": "选项核心词 <code>are</code>, <code>far</code>, <code>sufficient</code>（“are far from sufficient\nᆇี൫ज@JOEE ༯໶”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
+                "source_sentence": "None of this is about writing off the individual. It’s just about putting things into perspective. We don’t have time to wait. We need progressive policies that shape collective action, alongside engaged citizens pushing for change.",
+                "source_translation": "这一切并不是要全盘否定个人。这只是要把事情放在客观角度来看待。我们没有时间等待。我们需要能够塑造集体行动的进步政策，以及积极参与推动变革的公民。",
+                "locator_comparison": "选项核心词 <code>are</code>, <code>far</code>, <code>sufficient</code>（“are far from sufficient\nᆇี൫ज@JOEE ༯໶”）准确概括了原文第 8 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“我们不应该期望它会这样。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
                 "verdict": "复盘判断：D正确。"
@@ -4963,11 +4840,14 @@
       "macro_logic": {
         "main_theme": "本文围绕 Arnold Schwarzenegger, Dia Mirza and Adrian Grenie... 展开深入客观的逻辑论述。",
         "logic_chain": [
-          "第1段：阿诺·施瓦辛格、迪亚·米尔扎和阿德里安·格尼尔向您传达一条信...",
-          "第2段：世界环境日的关键信息确实包括呼吁各国政府颁布立法来限制一次性...",
-          "第3段：然而，我担心将其留给个人，因为我们对需要实现的目标的认识有限...",
-          "第4段：虽然围绕我们的环境和我们对环境的责任的讨论仍然集中在购物袋和...",
-          "第5段：重要的是要承认，环境并不是每个人——甚至不是大多数人——的首..."
+          "第1段：介绍明星宣传世界环境日视频，号召个人消费者停止使用一次性塑料用品。",
+          "第2段：指出尽管宣传呼吁立法，但其核心基调仍然过度聚焦于个人行为层面。",
+          "第3段：深刻批判将环保寄托于个人的局限性：警惕“道德许可”机制阻碍更大胆的系统性行动。",
+          "第4段：强调公民身份超越消费者身份：推动制度与结构变革比仅仅改变个人消费习惯更关键。",
+          "第5段：引用德索姆布雷教授专著观点：实现大规模人群行为转变的最有效途径是结构性改变。",
+          "第6段：列举塑料税、全面禁塑及让回收更便捷等推动集体行为转变的结构性政策工具。",
+          "第7段：澄清并非全盘否定个人环保意愿，而是强调单纯依靠个人微小行为过于缓慢滞后。",
+          "第8段：总结呼吁：将进步政策与公民集体行动紧密结合，共同推动迫在眉睫的系统性环境变革。"
         ]
       },
       "writing_corpus": [

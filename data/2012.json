@@ -10,7 +10,7 @@
         {
           "pid": 0,
           "text": "Homework has never been terribly popular with students and even many parents, but in recent years it has been particularly scorned. School districts across the country, most recently Los Angeles Unified, are revising their thinking on this educational ritual. Unfortunately, L.A. Unified has produced an inflexible policy which mandates that with the exception of some advanced courses, homework may no longer count for more than 10% of a student’s academic grade.",
-          "translation": "家庭作业从来都不太受学生甚至许多家长的欢迎，但近年来它尤其受到蔑视。全国各地的学区，最近的洛杉矶联合学区，正在修改他们对这种教育仪式的想法。不幸的是，洛杉矶联合大学制定了一项不灵活的政策，规定除某些高级课程外，家庭作业在学生学业成绩中所占的比例可能不再超过 10%。",
+          "translation": "家庭作业从来都不太受学生甚至许多家长的欢迎，但近年来它尤其受到蔑视。全国各地的学区，最近的洛杉矶联合学区，正在修改他们对这种教育仪式的想法。不幸的是，洛杉矶Unified 制定了一项不灵活的政策，规定除某些高级课程外，家庭作业不得再占学生学业成绩的 10% 以上。",
           "slashed_text": "Homework has never been terribly popular / with students and even many parents , / but / in recent years it has been particularly scorned. School districts across the country , / most recently Los Angeles Unified , / are revising their thinking / on this educational ritual. Unfortunately , / L.A. Unified has produced an inflexible policy / which mandates / that with the exception of some advanced courses , / homework may no longer count / for more than 10% of a student’s academic grade.",
           "chunk_translation": "家庭作业向来不太受学生乃至许多家长的欢迎 / 受学生甚至许多家长的欢迎 / 但 / 近年来它尤其饱受抨击 全国各地的学区 / 最近的是洛杉矶联合学区 / 正在修正他们对这种教育惯例的看法 / 关于这种教育惯例 不幸的是， / 洛杉矶 联合学区出台了一项僵化的政策 / 该政策强制规定 / 除某些高阶课程外 / 家庭作业所占比例不得超过 / 学生学业成绩的10%",
           "vocabulary": [
@@ -58,6 +58,26 @@
               "word": "scorned",
               "pos": "adj.",
               "definition": "adj. 鄙视的；轻蔑的"
+            },
+            {
+              "word": "District",
+              "pos": "n.",
+              "definition": "n. 地区；区域"
+            },
+            {
+              "word": "policy",
+              "pos": "n.",
+              "definition": "n. 政策；方针"
+            },
+            {
+              "word": "school",
+              "pos": "n.",
+              "definition": "n. （中、小）学校；全校师生"
+            },
+            {
+              "word": "educational",
+              "pos": "adj.",
+              "definition": "adj. 教育的；有教育意义的"
             }
           ]
         },
@@ -68,6 +88,16 @@
           "slashed_text": "This rule is meant to address the difficulty / that students / from impoverished or chaotic homes might have / in completing their homework. But the policy is unclear and contradictory. Certainly , / no homework should be assigned / that students cannot complete / on their own or / that they cannot do / without expensive equipment. But / if the district is essentially giving a pass to students / who do not do their homework / because of complicated family lives , / it is going riskily close to the implication / that standards need to be lowered / for poor children.",
           "chunk_translation": "该规定旨在解决这种困难 / 即学生们 / 来自贫困或混乱家庭的学生可能面临的 / 在完成家庭作业时 但这项政策既不明确又自相矛盾 诚然 / 不应布置这样的家庭作业 / 即学生无法独立完成的作业 / 独立完成的，或者 / 没有昂贵设备就无法完成的作业 / 没有昂贵设备 但 / 如果学区实质上是在对那些因复杂的家庭生活而不做作业的学生放任不管 / 那些不做作业的学生 / 因为复杂的家庭生活 / 那么它就极其危险地暗示 / 需要降低评判标准 / 针对贫困家庭的孩子",
           "vocabulary": [
+            {
+              "word": "Homework",
+              "pos": "n.",
+              "definition": "n. （学生的）家庭作业；准备工作"
+            },
+            {
+              "word": "students",
+              "pos": "n.",
+              "definition": "n. 学生（student 的复数）"
+            },
             {
               "word": "rule",
               "pos": "n.",
@@ -89,11 +119,6 @@
               "definition": "n. 难题；困难"
             },
             {
-              "word": "students",
-              "pos": "n.",
-              "definition": "n. 学生（student 的复数）"
-            },
-            {
               "word": "impoverished",
               "pos": "adj.",
               "definition": "adj. 贫困的；赤贫的"
@@ -112,6 +137,21 @@
               "word": "completing",
               "pos": "v.",
               "definition": "v. 使完整；使完美"
+            },
+            {
+              "word": "District",
+              "pos": "n.",
+              "definition": "n. 地区；区域"
+            },
+            {
+              "word": "assign",
+              "pos": "v.",
+              "definition": "v. 分派；布置（工作、任务）"
+            },
+            {
+              "word": "policy",
+              "pos": "n.",
+              "definition": "n. 政策；方针"
             }
           ]
         },
@@ -123,6 +163,26 @@
           "chunk_translation": "学区管理人员表示 / 家庭作业仍将是学校教学的一部分； / 教师可以根据需要随意布置作业 但 / 鉴于家庭作业在成绩中所占比例不超过10% / 学生可以轻易漏做一半的作业而在成绩单上几乎看不出什么差别 / 在他们的成绩单上 有些学生即便不做作业可能也能在州级统考中取得好成绩 / 在州级考试中 / 不完成作业 / 但那些既在考试中表现出色又认真完成作业的学生呢？ / 那些在考试中表现优异且完成了作业的学生？ 很有可能 / 是家庭作业发挥了作用 然而，这项政策非但没有赋予教师自主探索最适合学生的教学方法的权利 / 针对其学生 / 反而强行推行一项一刀切的 / 绝对化规定",
           "vocabulary": [
             {
+              "word": "Homework",
+              "pos": "n.",
+              "definition": "n. （学生的）家庭作业；准备工作"
+            },
+            {
+              "word": "students",
+              "pos": "n.",
+              "definition": "n. 学生（student 的复数）"
+            },
+            {
+              "word": "rule",
+              "pos": "n.",
+              "definition": "n. 规章；条例"
+            },
+            {
+              "word": "completing",
+              "pos": "v.",
+              "definition": "v. 使完整；使完美"
+            },
+            {
               "word": "District",
               "pos": "n.",
               "definition": "n. 地区；区域"
@@ -131,11 +191,6 @@
               "word": "administrators",
               "pos": "n.",
               "definition": "n. administrator 的复数形式；管理员"
-            },
-            {
-              "word": "homework",
-              "pos": "n.",
-              "definition": "n. （学生的）家庭作业；准备工作"
             },
             {
               "word": "still",
@@ -166,16 +221,66 @@
               "word": "want",
               "pos": "v.",
               "definition": "v. 想要；希望"
+            },
+            {
+              "word": "policy",
+              "pos": "n.",
+              "definition": "n. 政策；方针"
+            },
+            {
+              "word": "school",
+              "pos": "n.",
+              "definition": "n. （中、小）学校；全校师生"
+            },
+            {
+              "word": "board",
+              "pos": "n.",
+              "definition": "n. 板；木板"
             }
           ]
         },
         {
           "pid": 3,
-          "text": "At the same time, the policy addresses none of the truly thorny questions about homework. If the district finds homework to be unimportant to its students’ academic achievement, it should move to reduce or eliminate the assignments, not make them count for almost nothing. Conversely, if homework matters, it should account for a significant portion of the grade. Meanwhile, this policy does nothing to ensure that the homework students receive is meaningful or appropriate to their age and the subject, or that teachers are not assigning more than they are willing to review and correct.",
-          "translation": "与此同时，该政策没有解决有关家庭作业的任何真正棘手的问题。如果学区发现家庭作业对学生的学业成绩并不重要，就应该减少或取消作业，而不是让它们几乎毫无价值。相反，如果家庭作业很重要，它应该占成绩的很大一部分。与此同时，这项政策并不能确保学生收到的家庭作业有意义或适合他们的年龄和科目，或者教师布置的作业不会超出他们愿意复习和纠正的范围。",
-          "slashed_text": "At the same time , / the policy addresses none of the truly thorny questions / about homework. / If the district finds homework to be unimportant to its students’ academic achievement , / it should move to reduce or eliminate the assignments , / not make them count / for almost nothing. Conversely , / if homework matters , / it should account for a significant portion of the grade. Meanwhile , / this policy does nothing to ensure / that the homework students receive is meaningful or appropriate to their age and the subject , / or / that teachers are not assigning more than they are willing to review and correct.",
-          "chunk_translation": "与此同时 / 该政策没有触及任何关于家庭作业的真正棘手的问题 / 关于家庭作业 / 如果学区认为家庭作业对学生的学业成就无关紧要 / 那么它应该着手减少或取消作业布置 / 而不是让它们的分量微不足道 / 几乎不占任何比重 反之 / 如果家庭作业很重要 / 那么它就应该在成绩中占据相当大的比重 与此同时 / 这项政策完全无法确保 / 学生收到的作业是有意义的或切合其年龄与学科特点的 / 或者 / 教师布置的作业量没有超出其批改和反馈的意愿与能力范围",
+          "text": "At the same time, the policy addresses none of the truly thorny questions about homework. If the district finds homework to be unimportant to its students’ academic achievement, it should move to reduce or eliminate the assignments, not make them count for almost nothing. Conversely, if homework matters, it should account for a significant portion of the grade. Meanwhile, this policy does nothing to ensure that the homework students receive is meaningful or appropriate to their age and the subject, or that teachers are not assigning more than they are willing to review and correct. The homework rules should be put on hold while the school board, which is responsible for setting educational policy, looks into the matter and conducts public hearings.",
+          "translation": "与此同时，该政策没有解决有关家庭作业的任何真正棘手的问题。如果学区发现家庭作业对学生的学业成绩并不重要，就应该减少或取消作业，而不是让它们几乎毫无价值。相反，如果家庭作业很重要，它应该占成绩的很大一部分。与此同时，这项政策并不能确保学生收到的家庭作业有意义或适合他们的年龄和科目，或者教师布置的作业不会超出他们愿意复习和纠正的范围。在负责制定教育政策的学校董事会调查此事并举行公开听证会期间，家庭作业规则应暂停。",
+          "slashed_text": "At the same time , / the policy addresses none of the truly thorny questions / about homework. / If the district finds homework to be unimportant to its students’ academic achievement , / it should move to reduce or eliminate the assignments , / not make them count / for almost nothing. Conversely , / if homework matters , / it should account for a significant portion of the grade. Meanwhile , / this policy does nothing to ensure / that the homework students receive is meaningful or appropriate to their age and the subject , / or / that teachers are not assigning more than they are willing to review and correct. The homework rules should be put / on hold / while the school board , / which is responsible / for setting educational policy , / looks into the matter and conducts public hearings.",
+          "chunk_translation": "与此同时 / 该政策没有触及任何关于家庭作业的真正棘手的问题 / 关于家庭作业 / 如果学区认为家庭作业对学生的学业成就无关紧要 / 那么它应该着手减少或取消作业布置 / 而不是让它们的分量微不足道 / 几乎不占任何比重 反之 / 如果家庭作业很重要 / 那么它就应该在成绩中占据相当大的比重 与此同时 / 这项政策完全无法确保 / 学生收到的作业是有意义的或切合其年龄与学科特点的 / 或者 / 教师布置的作业量没有超出其批改和反馈的意愿与能力范围 家庭作业相关规定应当被搁置 / 暂停执行 / 与此同时负责制定教育政策的学校董事会 / 负责 / 制定教育政策的 / 应当调查此事并举行公开听证会",
           "vocabulary": [
+            {
+              "word": "Homework",
+              "pos": "n.",
+              "definition": "n. （学生的）家庭作业；准备工作"
+            },
+            {
+              "word": "students",
+              "pos": "n.",
+              "definition": "n. 学生（student 的复数）"
+            },
+            {
+              "word": "rule",
+              "pos": "n.",
+              "definition": "n. 规章；条例"
+            },
+            {
+              "word": "address",
+              "pos": "n.",
+              "definition": "n. 地址；住址"
+            },
+            {
+              "word": "District",
+              "pos": "n.",
+              "definition": "n. 地区；区域"
+            },
+            {
+              "word": "teachers",
+              "pos": "n.",
+              "definition": "n. 教师；老师（teacher 的复数）"
+            },
+            {
+              "word": "assign",
+              "pos": "v.",
+              "definition": "v. 分派；布置（工作、任务）"
+            },
             {
               "word": "account for",
               "pos": "n.",
@@ -212,30 +317,6 @@
               "definition": "n. 问题；疑问（question 的复数）"
             },
             {
-              "word": "homework",
-              "pos": "n.",
-              "definition": "n. （学生的）家庭作业；准备工作"
-            },
-            {
-              "word": "district",
-              "pos": "n.",
-              "definition": "n. 地区；区域"
-            }
-          ]
-        },
-        {
-          "pid": 4,
-          "text": "The homework rules should be put on hold while the school board, which is responsible for setting educational policy, looks into the matter and conducts public hearings. It is not too late for L.A. Unified to do homework right.",
-          "translation": "在负责制定教育政策的学校董事会调查此事并举行公开听证会期间，家庭作业规则应暂停。对于洛杉矶联合大学来说，做好功课还不算太晚。",
-          "slashed_text": "The homework rules should be put / on hold / while the school board , / which is responsible / for setting educational policy , / looks into the matter and conducts public hearings. It is not too late for L.A. Unified to do homework right.",
-          "chunk_translation": "家庭作业相关规定应当被搁置 / 暂停执行 / 与此同时负责制定教育政策的学校董事会 / 负责 / 制定教育政策的 / 应当调查此事并举行公开听证会 对于洛杉矶来说还不算太晚 联合学区走上正轨",
-          "vocabulary": [
-            {
-              "word": "homework",
-              "pos": "n.",
-              "definition": "n. （学生的）家庭作业；准备工作"
-            },
-            {
               "word": "rules",
               "pos": "n.",
               "definition": "n. 规章；条例"
@@ -269,11 +350,20 @@
               "word": "educational",
               "pos": "adj.",
               "definition": "adj. 教育的；有教育意义的"
-            },
+            }
+          ]
+        },
+        {
+          "pid": 4,
+          "text": "It is not too late for L.A. Unified to do homework right.",
+          "translation": "对于洛杉矶来说还不算太晚统一做好作业。",
+          "slashed_text": "It is not too late for L.A. Unified to do homework right.",
+          "chunk_translation": "对于洛杉矶来说还不算太晚 联合学区走上正轨",
+          "vocabulary": [
             {
-              "word": "policy",
+              "word": "Homework",
               "pos": "n.",
-              "definition": "n. 政策；方针"
+              "definition": "n. （学生的）家庭作业；准备工作"
             }
           ]
         }
@@ -592,8 +682,8 @@
         },
         {
           "sid": 17,
-          "pid": 4,
-          "sentence_index": 0,
+          "pid": 3,
+          "sentence_index": 4,
           "text": "The homework rules should be put on hold while the school board, which is responsible for setting educational policy, looks into the matter and conducts public hearings.",
           "translation": "在负责制定教育政策的学校董事会调查此事并举行公开听证会期间，家庭作业规则应暂停。",
           "slashed_text": "The homework rules should be put / on hold / while the school board , / which is responsible / for setting educational policy , / looks into the matter and conducts public hearings.",
@@ -616,7 +706,7 @@
         {
           "sid": 18,
           "pid": 4,
-          "sentence_index": 1,
+          "sentence_index": 0,
           "text": "It is not too late for L.A.",
           "translation": "对于洛杉矶来说还不算太晚",
           "slashed_text": "It is not too late for L.A.",
@@ -634,7 +724,7 @@
         {
           "sid": 19,
           "pid": 4,
-          "sentence_index": 2,
+          "sentence_index": 1,
           "text": "Unified to do homework right.",
           "translation": "统一做好作业。",
           "slashed_text": "Unified to do homework right.",
@@ -817,8 +907,8 @@
           "stem_cn": "根据第 3 段，该政策的一个问题是它可能 _____。",
           "type": "段落推理题",
           "locate_pid": 2,
-          "locate_sentence": "District administrators say that homework will still be a part of schooling; teachers are allowed to assign as much of it as they want.",
-          "locate_sentence_cn": "学区管理人员表示，家庭作业仍将是学校教育的一部分；教师可以根据需要分配任意数量的内容。",
+          "locate_sentence": "But with homework counting for no more than 10 % of their grades, students can easily skip half their homework and see very little difference on their report cards.",
+          "locate_sentence_cn": "但由于家庭作业占成绩的比例不超过 10%，学生可以轻松跳过一半的家庭作业，并且在成绩单上看不到什么差别。",
           "options": [
             {
               "key": "A",
@@ -880,8 +970,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "District administrators say that homework will still be a part of schooling; teachers are allowed to assign as much of it as they want.",
-                "source_translation": "学区管理人员表示，家庭作业仍将是学校教育的一部分；教师可以根据需要分配任意数量的内容。",
+                "source_sentence": "But with homework counting for no more than 10 % of their grades, students can easily skip half their homework and see very little difference on their report cards.",
+                "source_translation": "但由于家庭作业占成绩的比例不超过 10%，学生可以轻松跳过一半的家庭作业，并且在成绩单上看不到什么差别。",
                 "locator_comparison": "选项核心词 <code>discourage</code>, <code>students</code>, <code>doing</code>（“阻止学生做作业”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“但由于家庭作业占成绩的比例不超过 10%，学生可以轻松跳过一半的家庭作业，并且在成绩单上看不到什么差别。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -977,8 +1067,8 @@
           "stem_cn": "本文的合适标题可以是______。",
           "type": "全文主旨题",
           "locate_pid": 4,
-          "locate_sentence": "The homework rules should be put on hold while the school board, which is responsible for setting educational policy, looks into the matter and conducts public hearings.",
-          "locate_sentence_cn": "在负责制定教育政策的学校董事会调查此事并举行公开听证会期间，家庭作业规则应暂停。",
+          "locate_sentence": "It is not too late for L.A.",
+          "locate_sentence_cn": "对于洛杉矶来说还不算太晚",
           "options": [
             {
               "key": "A",
@@ -989,8 +1079,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The homework rules should be put on hold while the school board, which is responsible for setting educational policy, looks into the matter and conducts public hearings.",
-                "source_translation": "在负责制定教育政策的学校董事会调查此事并举行公开听证会期间，家庭作业规则应暂停。",
+                "source_sentence": "It is not too late for L.A.",
+                "source_translation": "对于洛杉矶来说还不算太晚",
                 "locator_comparison": "选项核心词 <code>Faulty</code>, <code>Approach</code>, <code>Homework</code>（“错误的家庭作业方法”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“对于洛杉矶来说还不算太晚”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -1108,10 +1198,10 @@
       "paragraphs": [
         {
           "pid": 0,
-          "text": "Pretty in pink: adult women do not remember being so obsessed with the colour, yet it is pervasive in our young girls’ lives. It is not that pink is intrinsically bad, but it is such a tiny slice of the rainbow and, though it may celebrate girlhood in one way, it also repeatedly and firmly fuses girls’ identity to appearance. Then it presents that connection, even among two- year-olds, between girls as not only innocent but as evidence of innocence. Looking around, I despaired at the singular lack of imagination about girls’ lives and interests.",
-          "translation": "漂亮的粉色：成年女性不记得自己对这种颜色如此着迷，但它在我们年轻女孩的生活中无处不在。并不是说粉色本质上不好，而是它只是彩虹中的一小部分，尽管它可能以某种方式庆祝少女时代，但它也反复而坚定地将女孩的身份与外表融合在一起。然后，它展示了女孩之间的这种联系，即使是在两岁的孩子之间，不仅是无辜的，而且是无辜的证据。环顾四周，我对女孩的生活和兴趣缺乏想象力感到绝望。",
-          "slashed_text": "Pretty / in pink : / adult women do not remember being so obsessed with the colour , / yet it is pervasive in our young girls’ lives. It is not / that pink is intrinsically bad , / but it is such a tiny slice of the rainbow and , / though it may celebrate girlhood in one way , / it also repeatedly and firmly fuses girls’ identity to appearance. Then it presents / that connection , / even among two- year-olds , / between girls as not only innocent but as evidence of innocence. Looking around , / I despaired at the singular lack of imagination / about girls’ lives and interests.",
-          "chunk_translation": "漂亮 / 身着粉装： / 成年女性不记得自己曾对这种颜色如此痴迷 / 但它在我们年轻女孩的生活中却无处不在 这并不是 / 说粉色本身有什么不好 / 但它只是彩虹中极小的一部分，而且 / 尽管它可能在某种程度上彰显了少女时代 / 它也反复且牢固地将女孩的身份与外貌捆绑在一起 进而它呈现出 / 那种关联 / 哪怕是在两岁幼童身上 / 将女孩与粉色之间的联系不仅视为纯真，更视为纯真的证据 环顾四周 / 我对关于女孩生活和兴趣的极度匮乏的想象力感到绝望 / 关于女孩的生活与兴趣",
+          "text": "Pretty in pink: adult women do not remember being so obsessed with the colour, yet it is pervasive in our young girls’ lives. It is not that pink is intrinsically bad, but it is such a tiny slice of the rainbow and, though it may celebrate girlhood in one way, it also repeatedly and firmly fuses girls’ identity to appearance. Then it presents that connection, even among two- year-olds, between girls as not only innocent but as evidence of innocence. Looking around, I despaired at the singular lack of imagination about girls’ lives and interests. Girls’ attraction to pink may seem unavoidable, somehow encoded in their DNA, but according to Jo Paoletti, an associate professor of American Studies, it is not.",
+          "translation": "漂亮的粉色：成年女性不记得自己对这种颜色如此着迷，但它在我们年轻女孩的生活中无处不在。并不是说粉色本质上不好，而是它只是彩虹中的一小部分，尽管它可能以某种方式庆祝少女时代，但它也反复而坚定地将女孩的身份与外表融合在一起。然后，它展示了女孩之间的这种联系，即使是在两岁的孩子之间，不仅是无辜的，而且是无辜的证据。环顾四周，我对女孩的生活和兴趣缺乏想象力感到绝望。女孩对粉色的喜爱似乎是不可避免的，不知何故已被编码在她们的 DNA 中，但根据美国研究副教授乔·保莱蒂 (Jo Paoletti) 的说法，事实并非如此。",
+          "slashed_text": "Pretty / in pink : / adult women do not remember being so obsessed with the colour , / yet it is pervasive in our young girls’ lives. It is not / that pink is intrinsically bad , / but it is such a tiny slice of the rainbow and , / though it may celebrate girlhood in one way , / it also repeatedly and firmly fuses girls’ identity to appearance. Then it presents / that connection , / even among two- year-olds , / between girls as not only innocent but as evidence of innocence. Looking around , / I despaired at the singular lack of imagination / about girls’ lives and interests. Girls’ attraction to pink may seem unavoidable , / somehow encoded / in their DNA , / but according to Jo Paoletti , / an associate professor of American Studies , / it is not.",
+          "chunk_translation": "漂亮 / 身着粉装： / 成年女性不记得自己曾对这种颜色如此痴迷 / 但它在我们年轻女孩的生活中却无处不在 这并不是 / 说粉色本身有什么不好 / 但它只是彩虹中极小的一部分，而且 / 尽管它可能在某种程度上彰显了少女时代 / 它也反复且牢固地将女孩的身份与外貌捆绑在一起 进而它呈现出 / 那种关联 / 哪怕是在两岁幼童身上 / 将女孩与粉色之间的联系不仅视为纯真，更视为纯真的证据 环顾四周 / 我对关于女孩生活和兴趣的极度匮乏的想象力感到绝望 / 关于女孩的生活与兴趣 女孩对粉色的喜爱看似不可避免 / 似乎早已编码 / 写入了她们的基因之中 / 但据美国研究副教授乔·保莱蒂表示 / 一位美国研究副教授 / 事实并非如此",
           "vocabulary": [
             {
               "word": "Pretty",
@@ -1157,30 +1247,11 @@
               "word": "girls",
               "pos": "n.",
               "definition": "n. 女孩；姑娘（girl 的复数）"
-            }
-          ]
-        },
-        {
-          "pid": 1,
-          "text": "Girls’ attraction to pink may seem unavoidable, somehow encoded in their DNA, but according to Jo Paoletti, an associate professor of American Studies, it is not. Children were not colour-coded at all until the early 20th century: in the era before domestic washing machines all babies wore white as a practical matter, since the only way of getting clothes clean was to boil them. What’s more, both boys and girls wore what were thought of as gender-neutral dresses. When nursery colours were introduced, pink was actually considered the more masculine colour, a pastel version of red, which was associated with strength. Blue, with its intimations of the Virgin Mary, constancy and faithfulness, symbolised femininity.",
-          "translation": "女孩对粉色的喜爱似乎是不可避免的，不知何故已被编码在她们的 DNA 中，但根据美国研究副教授乔·保莱蒂 (Jo Paoletti) 的说法，事实并非如此。直到20世纪初，孩子们才被用颜色区分：在家用洗衣机还没有出现的时代，所有婴儿实际上都穿白色的衣服，因为清洗衣服的唯一方法就是将它们煮沸。更重要的是，男孩和女孩都穿着被认为是中性的衣服。当引入童趣色时，粉色实际上被认为是更男性化的颜色，是红色的柔和版本，与力量相关。蓝色暗示着圣母玛利亚、坚贞和忠诚，象征着女性气质。",
-          "slashed_text": "Girls’ attraction to pink may seem unavoidable , / somehow encoded / in their DNA , / but according to Jo Paoletti , / an associate professor of American Studies , / it is not. Children were not colour-coded at all until the early 20th century : / in the era / before domestic washing machines all babies wore white as a practical matter , / since the only way of getting clothes clean was to boil them. What’s more , / both boys and girls wore what were thought of as gender-neutral dresses. / When nursery colours were introduced , / pink was actually considered the more masculine colour , / a pastel version of red , / which was associated / with strength. Blue , / with its intimations of the Virgin Mary , / constancy and faithfulness , / symbolised femininity.",
-          "chunk_translation": "女孩对粉色的喜爱看似不可避免 / 似乎早已编码 / 写入了她们的基因之中 / 但据美国研究副教授乔·保莱蒂表示 / 一位美国研究副教授 / 事实并非如此 直到20世纪初，儿童根本没有按颜色区分： / 在那个时代 / 在家用洗衣机问世之前，所有婴儿出于实用考虑都穿白色衣服 / 因为把衣服洗干净的唯一方法就是放进沸水里煮 更重要的是 / 男孩和女孩都穿着当时被认为是中性的长袍裙装 / 当婴儿房颜色最初被引入时 / 粉色实际上被认为是更具阳刚之气的颜色 / 是红色的一种柔和色调 / 红色当时是与 / 力量联系在一起的 而蓝色 / 伴随着对圣母玛利亚的联想、 / 坚贞与忠诚 / 则象征着女性特质",
-          "vocabulary": [
-            {
-              "word": "Girls",
-              "pos": "n.",
-              "definition": "n. 女孩；姑娘（girl 的复数）"
             },
             {
               "word": "attraction",
               "pos": "n.",
               "definition": "n. 有吸引力的事物；吸引力"
-            },
-            {
-              "word": "pink",
-              "pos": "adj.",
-              "definition": "adj. 粉红色的；（因窘迫、愤怒或剧烈活动而）脸色发红的"
             },
             {
               "word": "seem",
@@ -1215,12 +1286,32 @@
           ]
         },
         {
-          "pid": 2,
-          "text": "It was not until the mid-1980s, when amplifying age and sex differences became a dominant children’s marketing strategy, that pink fully came into its own, when it began to seem inherently attractive to girls, part of what defined them as female, at least for the first few critical years.",
-          "translation": "直到 20 世纪 80 年代中期，扩大年龄和性别差异成为儿童营销的主要策略时，粉色才完全发挥了作用，它开始对女孩具有天生的吸引力，这也是她们被定义为女性的一部分，至少在最初的关键几年里是这样。",
-          "slashed_text": "It was not until the mid-1980s , / when amplifying age and sex differences became a dominant children’s marketing strategy , / that pink fully came into its own , / when it began to seem inherently attractive to girls , / part of what defined them as female , / at least for the first few critical years.",
-          "chunk_translation": "直到20世纪80年代中期 / 当放大年龄和性别差异成为主导的儿童营销策略时 / 粉色才真正迎来了属于它的时代 / 当时它开始显得对女孩具有天生的吸引力 / 成为定义她们女性身份的一部分 / 至少在最初关键的几年里是如此",
+          "pid": 1,
+          "text": "Children were not colour-coded at all until the early 20th century: in the era before domestic washing machines all babies wore white as a practical matter, since the only way of getting clothes clean was to boil them. What’s more, both boys and girls wore what were thought of as gender-neutral dresses. When nursery colours were introduced, pink was actually considered the more masculine colour, a pastel version of red, which was associated with strength. Blue, with its intimations of the Virgin Mary, constancy and faithfulness, symbolised femininity. It was not until the mid-1980s, when amplifying age and sex differences became a dominant children’s marketing strategy, that pink fully came into its own, when it began to seem inherently attractive to girls, part of what defined them as female, at least for the first few critical years. I had not realised how profoundly marketing trends dictated our perception of what is natural to kids, including our core beliefs about their psychological development.",
+          "translation": "直到20世纪初，孩子们才被用颜色区分：在家用洗衣机还没有出现的时代，所有婴儿实际上都穿白色的衣服，因为清洗衣服的唯一方法就是将它们煮沸。更重要的是，男孩和女孩都穿着被认为是中性的衣服。当引入童趣色时，粉色实际上被认为是更男性化的颜色，是红色的柔和版本，与力量相关。蓝色暗示着圣母玛利亚、坚贞和忠诚，象征着女性气质。直到 20 世纪 80 年代中期，扩大年龄和性别差异成为儿童营销的主要策略时，粉色才完全发挥了作用，它开始对女孩具有天生的吸引力，这也是她们被定义为女性的一部分，至少在最初的关键几年里是这样。我没有意识到营销趋势如何深刻地决定了我们对孩子自然行为的看法，包括我们对他们心理发展的核心信念。",
+          "slashed_text": "Children were not colour-coded at all until the early 20th century : / in the era / before domestic washing machines all babies wore white as a practical matter , / since the only way of getting clothes clean was to boil them. What’s more , / both boys and girls wore what were thought of as gender-neutral dresses. / When nursery colours were introduced , / pink was actually considered the more masculine colour , / a pastel version of red , / which was associated / with strength. Blue , / with its intimations of the Virgin Mary , / constancy and faithfulness , / symbolised femininity. It was not until the mid-1980s , / when amplifying age and sex differences became a dominant children’s marketing strategy , / that pink fully came into its own , / when it began to seem inherently attractive to girls , / part of what defined them as female , / at least for the first few critical years. I had not realised how profoundly marketing trends dictated our perception of what is natural to kids , / including our core beliefs / about their psychological development.",
+          "chunk_translation": "直到20世纪初，儿童根本没有按颜色区分： / 在那个时代 / 在家用洗衣机问世之前，所有婴儿出于实用考虑都穿白色衣服 / 因为把衣服洗干净的唯一方法就是放进沸水里煮 更重要的是 / 男孩和女孩都穿着当时被认为是中性的长袍裙装 / 当婴儿房颜色最初被引入时 / 粉色实际上被认为是更具阳刚之气的颜色 / 是红色的一种柔和色调 / 红色当时是与 / 力量联系在一起的 而蓝色 / 伴随着对圣母玛利亚的联想、 / 坚贞与忠诚 / 则象征着女性特质 直到20世纪80年代中期 / 当放大年龄和性别差异成为主导的儿童营销策略时 / 粉色才真正迎来了属于它的时代 / 当时它开始显得对女孩具有天生的吸引力 / 成为定义她们女性身份的一部分 / 至少在最初关键的几年里是如此 我原本没有意识到，营销趋势竟然如此深刻地决定了我们对儿童天性的认知 / 包括我们的核心信念 / 关于他们的心理发展",
           "vocabulary": [
+            {
+              "word": "pink",
+              "pos": "adj.",
+              "definition": "adj. 粉红色的；（因窘迫、愤怒或剧烈活动而）脸色发红的"
+            },
+            {
+              "word": "colour",
+              "pos": "n.",
+              "definition": "n. 颜色；色彩"
+            },
+            {
+              "word": "girls",
+              "pos": "n.",
+              "definition": "n. 女孩；姑娘（girl 的复数）"
+            },
+            {
+              "word": "seem",
+              "pos": "v.",
+              "definition": "v. （涉及推断）似乎；看来"
+            },
             {
               "word": "until",
               "pos": "conj.",
@@ -1262,20 +1353,6 @@
               "definition": "n. （尤指为获得某物制定长期的）策略；行动计划"
             },
             {
-              "word": "pink",
-              "pos": "adj.",
-              "definition": "adj. 粉红色的；（因窘迫、愤怒或剧烈活动而）脸色发红的"
-            }
-          ]
-        },
-        {
-          "pid": 3,
-          "text": "I had not realised how profoundly marketing trends dictated our perception of what is natural to kids, including our core beliefs about their psychological development. Take the toddler. I assumed that phase was something experts developed after years of research into children’s behaviour: wrong. Turns out, according to Daniel Cook, a historian of childhood consumerism, it was popularised as a marketing trick by clothing manufacturers in the 1930s. Trade publications counselled department stores that, in order to increase sales, they should create a “third stepping stone” between infant wear and older kids’ clothes. It was only after “toddler” became a common shoppers’ term that it evolved into a broadly accepted developmental stage. Splitting kids, or adults, into ever-tinier categories has proved a sure-fire way to boost profits. And one of the easiest ways to segment a market is to magnify gender differences—or invent them where they did not previously exist.",
-          "translation": "我没有意识到营销趋势如何深刻地决定了我们对孩子自然行为的看法，包括我们对他们心理发展的核心信念。带着小孩。我以为这个阶段是专家们对儿童行为进行多年研究后得出的结论：错误的。儿童消费主义历史学家丹尼尔·库克 (Daniel Cook) 表示，事实证明，这种做法在 20 世纪 30 年代被服装制造商作为一种营销伎俩而普及。贸易出版物建议百货公司，为了增加销售额，他们应该在婴儿服装和大童服装之间建立“第三块垫脚石”。直到“幼儿”成为一个常见的购物术语之后，它才演变成一个被广泛接受的发展阶段。事实证明，将儿童或成人分成更小的类别是增加利润的可靠方法。细分市场最简单的方法之一就是放大性别差异，或者在以前不存在的地方创造性别差异。",
-          "slashed_text": "I had not realised how profoundly marketing trends dictated our perception of what is natural to kids , / including our core beliefs / about their psychological development. Take the toddler. I assumed / that phase was something experts developed / after years of research / into children’s behaviour : / wrong. Turns out , / according to Daniel Cook , / a historian of childhood consumerism , / it was popularised as a marketing trick / by clothing manufacturers in the 1930s. Trade publications counselled department stores / that , /  / in order to increase sales , / they should create a “third stepping stone” between infant wear and older kids’ clothes. It was only after “toddler” became a common shoppers’ term / that it evolved into a broadly accepted developmental stage. Splitting kids , / or adults , / into ever-tinier categories has proved a sure-fire way to boost profits. And one of the easiest ways to segment a market is to magnify gender differences — / or invent them / where they did not previously exist.",
-          "chunk_translation": "我原本没有意识到，营销趋势竟然如此深刻地决定了我们对儿童天性的认知 / 包括我们的核心信念 / 关于他们的心理发展 以“幼儿”这一概念为例 我原本以为 / 这一阶段是专家们总结出来的 / 经过多年研究 / 对儿童行为的研究： / 错了 事实证明 / 据儿童消费主义历史学家丹尼尔·库克表示 / 一位儿童消费主义历史学家 / 它是作为一种营销策略被推广普及的 / 由20世纪30年代的服装制造商推行 行业刊物建议百货商店 / 称 /  / 为了提高销量 / 他们应该在婴儿服饰与大童服饰之间设立“第三块垫脚石” 正是在“幼儿”成为购物者的常用词之后 / 它才演变成为一个被广泛接受的生长发育阶段 把儿童 / 或成年人 / 细分为更细小的类别已被证明是提高利润的绝妙方法 而细分市场最容易的方法之一就是放大性别差异—— / 或者凭空捏造差异 / 在原本并不存在的地方",
-          "vocabulary": [
-            {
               "word": "realised",
               "pos": "v.",
               "definition": "v. 意识到；认识到"
@@ -1284,11 +1361,6 @@
               "word": "profoundly",
               "pos": "adv.",
               "definition": "adv. 极大地；深刻地"
-            },
-            {
-              "word": "marketing",
-              "pos": "n.",
-              "definition": "n. 促销；营销"
             },
             {
               "word": "trends",
@@ -1319,6 +1391,64 @@
               "word": "including",
               "pos": "prep.",
               "definition": "prep. 包括；包含"
+            }
+          ]
+        },
+        {
+          "pid": 2,
+          "text": "Take the toddler. I assumed that phase was something experts developed after years of research into children’s behaviour: wrong. Turns out, according to Daniel Cook, a historian of childhood consumerism, it was popularised as a marketing trick by clothing manufacturers in the 1930s. Trade publications counselled department stores that, in order to increase sales, they should create a “third stepping stone” between infant wear and older kids’ clothes.",
+          "translation": "带着小孩。我以为这个阶段是专家们对儿童行为进行多年研究后得出的结论：错误的。儿童消费主义历史学家丹尼尔·库克 (Daniel Cook) 表示，事实证明，这种做法在 20 世纪 30 年代被服装制造商作为一种营销伎俩而普及。贸易出版物建议百货公司，为了增加销售额，他们应该在婴儿服装和大童服装之间建立“第三块垫脚石”。",
+          "slashed_text": "Take the toddler. I assumed / that phase was something experts developed / after years of research / into children’s behaviour : / wrong. Turns out , / according to Daniel Cook , / a historian of childhood consumerism , / it was popularised as a marketing trick / by clothing manufacturers in the 1930s. Trade publications counselled department stores / that , /  / in order to increase sales , / they should create a “third stepping stone” between infant wear and older kids’ clothes.",
+          "chunk_translation": "以“幼儿”这一概念为例 我原本以为 / 这一阶段是专家们总结出来的 / 经过多年研究 / 对儿童行为的研究： / 错了 事实证明 / 据儿童消费主义历史学家丹尼尔·库克表示 / 一位儿童消费主义历史学家 / 它是作为一种营销策略被推广普及的 / 由20世纪30年代的服装制造商推行 行业刊物建议百货商店 / 称 /  / 为了提高销量 / 他们应该在婴儿服饰与大童服饰之间设立“第三块垫脚石”",
+          "vocabulary": [
+            {
+              "word": "according",
+              "pos": "prep.",
+              "definition": "prep. 按照；根据"
+            },
+            {
+              "word": "children",
+              "pos": "n.",
+              "definition": "n. child 的复数形式；孩子们"
+            },
+            {
+              "word": "marketing",
+              "pos": "n.",
+              "definition": "n. 促销；营销"
+            },
+            {
+              "word": "kids",
+              "pos": "n.",
+              "definition": "n. （kid 的复数）小孩；孩子"
+            }
+          ]
+        },
+        {
+          "pid": 3,
+          "text": "It was only after “toddler” became a common shoppers’ term that it evolved into a broadly accepted developmental stage. Splitting kids, or adults, into ever-tinier categories has proved a sure-fire way to boost profits. And one of the easiest ways to segment a market is to magnify gender differences—or invent them where they did not previously exist.",
+          "translation": "直到“幼儿”成为一个常见的购物术语之后，它才演变成一个被广泛接受的发展阶段。事实证明，将儿童或成人分成更小的类别是增加利润的可靠方法。细分市场最简单的方法之一就是放大性别差异，或者在以前不存在的地方创造性别差异。",
+          "slashed_text": "It was only after “toddler” became a common shoppers’ term / that it evolved into a broadly accepted developmental stage. Splitting kids , / or adults , / into ever-tinier categories has proved a sure-fire way to boost profits. And one of the easiest ways to segment a market is to magnify gender differences — / or invent them / where they did not previously exist.",
+          "chunk_translation": "正是在“幼儿”成为购物者的常用词之后 / 它才演变成为一个被广泛接受的生长发育阶段 把儿童 / 或成年人 / 细分为更细小的类别已被证明是提高利润的绝妙方法 而细分市场最容易的方法之一就是放大性别差异—— / 或者凭空捏造差异 / 在原本并不存在的地方",
+          "vocabulary": [
+            {
+              "word": "adult",
+              "pos": "n.",
+              "definition": "n. 成年人或动物；adj. 成年的"
+            },
+            {
+              "word": "differences",
+              "pos": "n.",
+              "definition": "n. （difference 的复数形式）差异；差别"
+            },
+            {
+              "word": "became",
+              "pos": "v.",
+              "definition": "v. 成为；变得（become 的过去式）"
+            },
+            {
+              "word": "kids",
+              "pos": "n.",
+              "definition": "n. （kid 的复数）小孩；孩子"
             }
           ]
         }
@@ -1403,8 +1533,8 @@
         },
         {
           "sid": 4,
-          "pid": 1,
-          "sentence_index": 0,
+          "pid": 0,
+          "sentence_index": 4,
           "text": "Girls’ attraction to pink may seem unavoidable, somehow encoded in their DNA, but according to Jo Paoletti, an associate professor of American Studies, it is not.",
           "translation": "女孩对粉色的喜爱似乎是不可避免的，不知何故已被编码在她们的 DNA 中，但根据美国研究副教授乔·保莱蒂 (Jo Paoletti) 的说法，事实并非如此。",
           "slashed_text": "Girls’ attraction to pink may seem unavoidable , / somehow encoded / in their DNA , / but according to Jo Paoletti , / an associate professor of American Studies , / it is not.",
@@ -1422,7 +1552,7 @@
         {
           "sid": 5,
           "pid": 1,
-          "sentence_index": 1,
+          "sentence_index": 0,
           "text": "Children were not colour-coded at all until the early 20th century: in the era before domestic washing machines all babies wore white as a practical matter, since the only way of getting clothes clean was to boil them.",
           "translation": "直到20世纪初，孩子们才被用颜色区分：在家用洗衣机还没有出现的时代，所有婴儿实际上都穿白色的衣服，因为清洗衣服的唯一方法就是将它们煮沸。",
           "slashed_text": "Children were not colour-coded at all until the early 20th century : / in the era / before domestic washing machines all babies wore white as a practical matter , / since the only way of getting clothes clean was to boil them.",
@@ -1440,7 +1570,7 @@
         {
           "sid": 6,
           "pid": 1,
-          "sentence_index": 2,
+          "sentence_index": 1,
           "text": "What’s more, both boys and girls wore what were thought of as gender-neutral dresses.",
           "translation": "更重要的是，男孩和女孩都穿着被认为是中性的衣服。",
           "slashed_text": "What’s more , / both boys and girls wore what were thought of as gender-neutral dresses.",
@@ -1458,7 +1588,7 @@
         {
           "sid": 7,
           "pid": 1,
-          "sentence_index": 3,
+          "sentence_index": 2,
           "text": "When nursery colours were introduced, pink was actually considered the more masculine colour, a pastel version of red, which was associated with strength.",
           "translation": "当引入童趣色时，粉色实际上被认为是更男性化的颜色，是红色的柔和版本，与力量相关。",
           "slashed_text": "/ When nursery colours were introduced , / pink was actually considered the more masculine colour , / a pastel version of red , / which was associated / with strength.",
@@ -1476,7 +1606,7 @@
         {
           "sid": 8,
           "pid": 1,
-          "sentence_index": 4,
+          "sentence_index": 3,
           "text": "Blue, with its intimations of the Virgin Mary, constancy and faithfulness, symbolised femininity.",
           "translation": "蓝色暗示着圣母玛利亚、坚贞和忠诚，象征着女性气质。",
           "slashed_text": "Blue , / with its intimations of the Virgin Mary , / constancy and faithfulness , / symbolised femininity.",
@@ -1493,8 +1623,8 @@
         },
         {
           "sid": 9,
-          "pid": 2,
-          "sentence_index": 0,
+          "pid": 1,
+          "sentence_index": 4,
           "text": "It was not until the mid-1980s, when amplifying age and sex differences became a dominant children’s marketing strategy, that pink fully came into its own, when it began to seem inherently attractive to girls, part of what defined them as female, at least for the first few critical years.",
           "translation": "直到 20 世纪 80 年代中期，扩大年龄和性别差异成为儿童营销的主要策略时，粉色才完全发挥了作用，它开始对女孩具有天生的吸引力，这也是她们被定义为女性的一部分，至少在最初的关键几年里是这样。",
           "slashed_text": "It was not until the mid-1980s , / when amplifying age and sex differences became a dominant children’s marketing strategy , / that pink fully came into its own , / when it began to seem inherently attractive to girls , / part of what defined them as female , / at least for the first few critical years.",
@@ -1511,8 +1641,8 @@
         },
         {
           "sid": 10,
-          "pid": 3,
-          "sentence_index": 0,
+          "pid": 1,
+          "sentence_index": 5,
           "text": "I had not realised how profoundly marketing trends dictated our perception of what is natural to kids, including our core beliefs about their psychological development.",
           "translation": "我没有意识到营销趋势如何深刻地决定了我们对孩子自然行为的看法，包括我们对他们心理发展的核心信念。",
           "slashed_text": "I had not realised how profoundly marketing trends dictated our perception of what is natural to kids , / including our core beliefs / about their psychological development.",
@@ -1529,8 +1659,8 @@
         },
         {
           "sid": 11,
-          "pid": 3,
-          "sentence_index": 1,
+          "pid": 2,
+          "sentence_index": 0,
           "text": "Take the toddler.",
           "translation": "带着小孩。",
           "slashed_text": "Take the toddler.",
@@ -1547,8 +1677,8 @@
         },
         {
           "sid": 12,
-          "pid": 3,
-          "sentence_index": 2,
+          "pid": 2,
+          "sentence_index": 1,
           "text": "I assumed that phase was something experts developed after years of research into children’s behaviour: wrong.",
           "translation": "我以为这个阶段是专家们对儿童行为进行多年研究后得出的结论：错误的。",
           "slashed_text": "I assumed / that phase was something experts developed / after years of research / into children’s behaviour : / wrong.",
@@ -1565,8 +1695,8 @@
         },
         {
           "sid": 13,
-          "pid": 3,
-          "sentence_index": 3,
+          "pid": 2,
+          "sentence_index": 2,
           "text": "Turns out, according to Daniel Cook, a historian of childhood consumerism, it was popularised as a marketing trick by clothing manufacturers in the 1930s.",
           "translation": "儿童消费主义历史学家丹尼尔·库克 (Daniel Cook) 表示，事实证明，这种做法在 20 世纪 30 年代被服装制造商作为一种营销伎俩而普及。",
           "slashed_text": "Turns out , / according to Daniel Cook , / a historian of childhood consumerism , / it was popularised as a marketing trick / by clothing manufacturers in the 1930s.",
@@ -1583,8 +1713,8 @@
         },
         {
           "sid": 14,
-          "pid": 3,
-          "sentence_index": 4,
+          "pid": 2,
+          "sentence_index": 3,
           "text": "Trade publications counselled department stores that, in order to increase sales, they should create a “third stepping stone” between infant wear and older kids’ clothes.",
           "translation": "贸易出版物建议百货公司，为了增加销售额，他们应该在婴儿服装和大童服装之间建立“第三块垫脚石”。",
           "slashed_text": "Trade publications counselled department stores / that , /  / in order to increase sales , / they should create a “third stepping stone” between infant wear and older kids’ clothes.",
@@ -1602,7 +1732,7 @@
         {
           "sid": 15,
           "pid": 3,
-          "sentence_index": 5,
+          "sentence_index": 0,
           "text": "It was only after “toddler” became a common shoppers’ term that it evolved into a broadly accepted developmental stage.",
           "translation": "直到“幼儿”成为一个常见的购物术语之后，它才演变成一个被广泛接受的发展阶段。",
           "slashed_text": "It was only after “toddler” became a common shoppers’ term / that it evolved into a broadly accepted developmental stage.",
@@ -1620,7 +1750,7 @@
         {
           "sid": 16,
           "pid": 3,
-          "sentence_index": 6,
+          "sentence_index": 1,
           "text": "Splitting kids, or adults, into ever-tinier categories has proved a sure-fire way to boost profits.",
           "translation": "事实证明，将儿童或成人分成更小的类别是增加利润的可靠方法。",
           "slashed_text": "Splitting kids , / or adults , / into ever-tinier categories has proved a sure-fire way to boost profits.",
@@ -1638,7 +1768,7 @@
         {
           "sid": 17,
           "pid": 3,
-          "sentence_index": 7,
+          "sentence_index": 2,
           "text": "And one of the easiest ways to segment a market is to magnify gender differences—or invent them where they did not previously exist.",
           "translation": "细分市场最简单的方法之一就是放大性别差异，或者在以前不存在的地方创造性别差异。",
           "slashed_text": "And one of the easiest ways to segment a market is to magnify gender differences — / or invent them / where they did not previously exist.",
@@ -1661,8 +1791,8 @@
           "stem_cn": "通过说“它是……彩虹”（第 1 段），作者的意思是粉红色______。",
           "type": "事实细节题",
           "locate_pid": 0,
-          "locate_sentence": "Pretty in pink: adult women do not remember being so obsessed with the colour, yet it is pervasive in our young girls’ lives.",
-          "locate_sentence_cn": "漂亮的粉色：成年女性不记得自己对这种颜色如此着迷，但它在我们年轻女孩的生活中无处不在。",
+          "locate_sentence": "It is not that pink is intrinsically bad, but it is such a tiny slice of the rainbow and, though it may celebrate girlhood in one way, it also repeatedly and firmly fuses girls’ identity to appearance.",
+          "locate_sentence_cn": "并不是说粉色本质上不好，而是它只是彩虹中的一小部分，尽管它可能以某种方式庆祝少女时代，但它也反复而坚定地将女孩的身份与外表融合在一起。",
           "options": [
             {
               "key": "A",
@@ -1707,8 +1837,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Pretty in pink: adult women do not remember being so obsessed with the colour, yet it is pervasive in our young girls’ lives.",
-                "source_translation": "漂亮的粉色：成年女性不记得自己对这种颜色如此着迷，但它在我们年轻女孩的生活中无处不在。",
+                "source_sentence": "It is not that pink is intrinsically bad, but it is such a tiny slice of the rainbow and, though it may celebrate girlhood in one way, it also repeatedly and firmly fuses girls’ identity to appearance.",
+                "source_translation": "并不是说粉色本质上不好，而是它只是彩虹中的一小部分，尽管它可能以某种方式庆祝少女时代，但它也反复而坚定地将女孩的身份与外表融合在一起。",
                 "locator_comparison": "选项核心词 <code>not</code>, <code>sole</code>, <code>representation</code>（“不应该是少女时代的唯一代表”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“并不是说粉色本质上不好，而是它只是彩虹中的一小部分，尽管它可能以某种方式庆祝少女时代，但它也反复而坚定地将女孩的身份与外表融合在一起。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -1741,8 +1871,8 @@
           "stem_cn": "根据第 2 段，下列关于颜色的说法哪一项是正确的？",
           "type": "因果推断题",
           "locate_pid": 1,
-          "locate_sentence": "Girls’ attraction to pink may seem unavoidable, somehow encoded in their DNA, but according to Jo Paoletti, an associate professor of American Studies, it is not.",
-          "locate_sentence_cn": "女孩对粉色的喜爱似乎是不可避免的，不知何故已被编码在她们的 DNA 中，但根据美国研究副教授乔·保莱蒂 (Jo Paoletti) 的说法，事实并非如此。",
+          "locate_sentence": "Blue, with its intimations of the Virgin Mary, constancy and faithfulness, symbolised femininity.",
+          "locate_sentence_cn": "蓝色暗示着圣母玛利亚、坚贞和忠诚，象征着女性气质。",
           "options": [
             {
               "key": "A",
@@ -1770,8 +1900,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Girls’ attraction to pink may seem unavoidable, somehow encoded in their DNA, but according to Jo Paoletti, an associate professor of American Studies, it is not.",
-                "source_translation": "女孩对粉色的喜爱似乎是不可避免的，不知何故已被编码在她们的 DNA 中，但根据美国研究副教授乔·保莱蒂 (Jo Paoletti) 的说法，事实并非如此。",
+                "source_sentence": "Blue, with its intimations of the Virgin Mary, constancy and faithfulness, symbolised femininity.",
+                "source_translation": "蓝色暗示着圣母玛利亚、坚贞和忠诚，象征着女性气质。",
                 "locator_comparison": "选项核心词 <code>Blue</code>, <code>used</code>, <code>regarded</code>（“蓝色曾经被认为是女孩的颜色。”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“直到20世纪初，孩子们才被用颜色区分：在家用洗衣机还没有出现的时代，所有婴儿实际上都穿白色的衣服，因为清洗衣服的唯一方法就是将它们煮沸。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -1821,8 +1951,8 @@
           "stem_cn": "The author suggests that our perception of children’s psychological development was \nmuch influenced by _____.",
           "type": "段落推理题",
           "locate_pid": 2,
-          "locate_sentence": "It was not until the mid-1980s, when amplifying age and sex differences became a dominant children’s marketing strategy, that pink fully came into its own, when it began to seem inherently attractive to girls, part of what defined them as female, at least for the first few critical years.",
-          "locate_sentence_cn": "直到 20 世纪 80 年代中期，扩大年龄和性别差异成为儿童营销的主要策略时，粉色才完全发挥了作用，它开始对女孩具有天生的吸引力，这也是她们被定义为女性的一部分，至少在最初的关键几年里是这样。",
+          "locate_sentence": "Take the toddler.",
+          "locate_sentence_cn": "带着小孩。",
           "options": [
             {
               "key": "A",
@@ -1850,8 +1980,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "It was not until the mid-1980s, when amplifying age and sex differences became a dominant children’s marketing strategy, that pink fully came into its own, when it began to seem inherently attractive to girls, part of what defined them as female, at least for the first few critical years.",
-                "source_translation": "直到 20 世纪 80 年代中期，扩大年龄和性别差异成为儿童营销的主要策略时，粉色才完全发挥了作用，它开始对女孩具有天生的吸引力，这也是她们被定义为女性的一部分，至少在最初的关键几年里是这样。",
+                "source_sentence": "Take the toddler.",
+                "source_translation": "带着小孩。",
                 "locator_comparison": "选项核心词 <code>marketing</code>, <code>products</code>, <code>children</code>（“儿童产品的营销”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“I had not realised how profoundly marketing trends dictated our perception of what is natural to kids, including our core beliefs about their psychological development”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -1901,8 +2031,8 @@
           "stem_cn": "我们可以从第 4 段了解到百货公司被建议_____。",
           "type": "词义/例证题",
           "locate_pid": 3,
-          "locate_sentence": "I had not realised how profoundly marketing trends dictated our perception of what is natural to kids, including our core beliefs about their psychological development.",
-          "locate_sentence_cn": "我没有意识到营销趋势如何深刻地决定了我们对孩子自然行为的看法，包括我们对他们心理发展的核心信念。",
+          "locate_sentence": "It was only after “toddler” became a common shoppers’ term that it evolved into a broadly accepted developmental stage.",
+          "locate_sentence_cn": "直到“幼儿”成为一个常见的购物术语之后，它才演变成一个被广泛接受的发展阶段。",
           "options": [
             {
               "key": "A",
@@ -1913,8 +2043,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "I had not realised how profoundly marketing trends dictated our perception of what is natural to kids, including our core beliefs about their psychological development.",
-                "source_translation": "我没有意识到营销趋势如何深刻地决定了我们对孩子自然行为的看法，包括我们对他们心理发展的核心信念。",
+                "source_sentence": "It was only after “toddler” became a common shoppers’ term that it evolved into a broadly accepted developmental stage.",
+                "source_translation": "直到“幼儿”成为一个常见的购物术语之后，它才演变成一个被广泛接受的发展阶段。",
                 "locator_comparison": "选项核心词 <code>classify</code>, <code>consumers</code>, <code>smaller</code>（“将消费者分为更小的群体”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“带着小孩。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -1981,8 +2111,8 @@
           "stem_cn": "可以得出结论，女孩对粉色的吸引力似乎是_____。",
           "type": "全文主旨题",
           "locate_pid": 3,
-          "locate_sentence": "I had not realised how profoundly marketing trends dictated our perception of what is natural to kids, including our core beliefs about their psychological development.",
-          "locate_sentence_cn": "我没有意识到营销趋势如何深刻地决定了我们对孩子自然行为的看法，包括我们对他们心理发展的核心信念。",
+          "locate_sentence": "And one of the easiest ways to segment a market is to magnify gender differences—or invent them where they did not previously exist.",
+          "locate_sentence_cn": "细分市场最简单的方法之一就是放大性别差异，或者在以前不存在的地方创造性别差异。",
           "options": [
             {
               "key": "A",
@@ -2027,8 +2157,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "I had not realised how profoundly marketing trends dictated our perception of what is natural to kids, including our core beliefs about their psychological development.",
-                "source_translation": "我没有意识到营销趋势如何深刻地决定了我们对孩子自然行为的看法，包括我们对他们心理发展的核心信念。",
+                "source_sentence": "And one of the easiest ways to segment a market is to magnify gender differences—or invent them where they did not previously exist.",
+                "source_translation": "细分市场最简单的方法之一就是放大性别差异，或者在以前不存在的地方创造性别差异。",
                 "locator_comparison": "选项核心词 <code>mainly</code>, <code>imposed</code>, <code>profit</code>（“主要由逐利商人强加”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“带着小孩。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -2160,16 +2290,41 @@
               "word": "isolated",
               "pos": "adj.",
               "definition": "adj. 遥远的；偏僻的"
+            },
+            {
+              "word": "human",
+              "pos": "adj.",
+              "definition": "adj. 人的；人类的"
             }
           ]
         },
         {
           "pid": 1,
-          "text": "On July 29th they were relieved, at least temporarily. A federal appeals court overturned the prior decision, ruling that Myriad Genetics could indeed hold patents to two genes that help forecast a woman’s risk of breast cancer. The chief executive of Myriad, a company in Utah, said the ruling was a blessing to firms and patients alike.",
-          "translation": "7 月 29 日，他们松了一口气，至少暂时松了口气。联邦上诉法院推翻了先前的裁决，裁定 Myriad Genetics 确实可以拥有两个有助于预测女性患乳腺癌风险的基因的专利。犹他州 Myriad 公司的首席执行官表示，这一裁决对公司和患者来说都是一件好事。",
-          "slashed_text": "On July 29th they were relieved , / at least temporarily. A federal appeals court overturned the prior decision , / ruling / that Myriad Genetics could indeed hold patents to two genes / that help forecast a woman’s risk of breast cancer. The chief executive of Myriad , / a company / in Utah , / said the ruling was a blessing to firms and patients alike.",
-          "chunk_translation": "7月29日，他们如释重负 / 至少暂时如此 一家联邦上诉法院推翻了先前的裁决 / 裁定 / 迈利亚德基因公司确实可以拥有两项基因专利 / 这两项基因有助于预测女性患乳腺癌的风险 迈利亚德公司的首席执行官 / 一家公司 / 位于犹他州 / 表示这一裁决对企业和患者而言都是福音",
+          "text": "On July 29th they were relieved, at least temporarily. A federal appeals court overturned the prior decision, ruling that Myriad Genetics could indeed hold patents to two genes that help forecast a woman’s risk of breast cancer. The chief executive of Myriad, a company in Utah, said the ruling was a blessing to firms and patients alike. But as companies continue their attempts at personalised medicine, the courts will remain rather busy. The Myriad case itself is probably not over. Critics make three main arguments against gene patents: a gene is a product of nature, so it may not be patented; gene patents suppress innovation rather than reward it; and patents’ monopolies restrict access to genetic tests such as Myriad’s. A growing number seem to agree. Last year a federal task-force urged reform for patents related to genetic tests. In October the Department of Justice filed a brief in the Myriad case, arguing that an isolated DNA molecule “is no less a product of nature ... than are cotton fibres that have been separated from cotton seeds.”",
+          "translation": "7 月 29 日，他们松了一口气，至少暂时松了口气。联邦上诉法院推翻了先前的裁决，裁定 Myriad Genetics 确实可以拥有两个有助于预测女性患乳腺癌风险的基因的专利。犹他州 Myriad 公司的首席执行官表示，这一裁决对公司和患者来说都是一件好事。但随着公司继续尝试个性化医疗，法院将仍然相当忙碌。Myriad 案本身可能还没有结束。批评者对基因专利提出了三个主要论点：基因是自然的产物，因此不能申请专利；基因专利抑制创新而不是奖励创新；专利垄断限制了 Myriad 等基因检测的使用。越来越多的人似乎同意这一观点。去年，一个联邦工作组敦促对与基因测试相关的专利进行改革。10 月，司法部就 Myriad 案提交了一份简报，认为分离的 DNA 分子“不亚于自然产物......比从棉籽中分离出来的棉纤维还要多。”",
+          "slashed_text": "On July 29th they were relieved , / at least temporarily. A federal appeals court overturned the prior decision , / ruling / that Myriad Genetics could indeed hold patents to two genes / that help forecast a woman’s risk of breast cancer. The chief executive of Myriad , / a company / in Utah , / said the ruling was a blessing to firms and patients alike. But as companies continue their attempts / at personalised medicine , / the courts will remain rather busy. The Myriad case itself is probably not over. Critics make three main arguments against gene patents : / a gene is a product of nature , / so it may not be patented ; / gene patents suppress innovation rather than reward it ; / and patents’ monopolies restrict access to genetic tests such as Myriad’s. A growing number seem to agree. Last year a federal task-force urged reform / for patents related to genetic tests. In October the Department of Justice filed a brief in the Myriad case , / arguing / that an isolated DNA molecule “is no less a product of nature ... than are cotton fibres / that have been separated / from cotton seeds.”",
+          "chunk_translation": "7月29日，他们如释重负 / 至少暂时如此 一家联邦上诉法院推翻了先前的裁决 / 裁定 / 迈利亚德基因公司确实可以拥有两项基因专利 / 这两项基因有助于预测女性患乳腺癌的风险 迈利亚德公司的首席执行官 / 一家公司 / 位于犹他州 / 表示这一裁决对企业和患者而言都是福音 但随着各大公司继续推进个性化医疗的尝试 / 在个性化医疗领域 / 各级法院仍将相当忙碌 迈利亚德案本身很可能并未尘埃落定 批评人士针对基因专利提出了三大主要反对论据： / 基因属于天然产物 / 因此不应授予专利； / 基因专利压制了创新而非奖励创新； / 且专利垄断限制了人们获取基因检测服务的途径，如迈利亚德公司的检测 似乎有越来越多的人认同这一观点 去年一个联邦特别工作组敦促推进改革 / 针对与基因检测相关的专利 10月份美国司法部就迈利亚德案提交了一份辩护状 / 主张 / 分离出的DNA分子“同样属于天然产物…… 并不亚于棉纤维 / 那些被分离出来的 / 从棉籽中分离的”",
           "vocabulary": [
+            {
+              "word": "federal",
+              "pos": "adj.",
+              "definition": "adj. 联邦（制）的；（与）联邦政府（有关的）的"
+            },
+            {
+              "word": "Companies",
+              "pos": "n.",
+              "definition": "n. 公司；企业"
+            },
+            {
+              "word": "patents",
+              "pos": "n.",
+              "definition": "n. 专利（patent 的复数形式）；专利权"
+            },
+            {
+              "word": "isolated",
+              "pos": "adj.",
+              "definition": "adj. 遥远的；偏僻的"
+            },
             {
               "word": "relieved",
               "pos": "adj.",
@@ -2184,11 +2339,6 @@
               "word": "temporarily",
               "pos": "adv.",
               "definition": "adv. 暂时地；临时地"
-            },
-            {
-              "word": "federal",
-              "pos": "adj.",
-              "definition": "adj. 联邦（制）的；（与）联邦政府（有关的）的"
             },
             {
               "word": "appeals",
@@ -2214,20 +2364,6 @@
               "word": "decision",
               "pos": "n.",
               "definition": "n. 决定；抉择"
-            }
-          ]
-        },
-        {
-          "pid": 2,
-          "text": "But as companies continue their attempts at personalised medicine, the courts will remain rather busy. The Myriad case itself is probably not over. Critics make three main arguments against gene patents: a gene is a product of nature, so it may not be patented; gene patents suppress innovation rather than reward it; and patents’ monopolies restrict access to genetic tests such as Myriad’s. A growing number seem to agree. Last year a federal task-force urged reform for patents related to genetic tests. In October the Department of Justice filed a brief in the Myriad case, arguing that an isolated DNA molecule “is no less a product of nature ... than are cotton fibres that have been separated from cotton seeds.”",
-          "translation": "但随着公司继续尝试个性化医疗，法院将仍然相当忙碌。 Myriad 案本身可能还没有结束。批评者对基因专利提出了三个主要论点：基因是自然的产物，因此不能申请专利；基因专利抑制创新而不是奖励创新；专利垄断限制了 Myriad 等基因检测的使用。越来越多的人似乎同意这一观点。去年，一个联邦工作组敦促对与基因测试相关的专利进行改革。 10 月，司法部就 Myriad 案提交了一份简报，称分离出的 DNA 分子“与从棉籽中分离出来的棉花纤维一样，都是自然产物……”。",
-          "slashed_text": "But as companies continue their attempts / at personalised medicine , / the courts will remain rather busy. The Myriad case itself is probably not over. Critics make three main arguments against gene patents : / a gene is a product of nature , / so it may not be patented ; / gene patents suppress innovation rather than reward it ; / and patents’ monopolies restrict access to genetic tests such as Myriad’s. A growing number seem to agree. Last year a federal task-force urged reform / for patents related to genetic tests. In October the Department of Justice filed a brief in the Myriad case , / arguing / that an isolated DNA molecule “is no less a product of nature ... than are cotton fibres / that have been separated / from cotton seeds.”",
-          "chunk_translation": "但随着各大公司继续推进个性化医疗的尝试 / 在个性化医疗领域 / 各级法院仍将相当忙碌 迈利亚德案本身很可能并未尘埃落定 批评人士针对基因专利提出了三大主要反对论据： / 基因属于天然产物 / 因此不应授予专利； / 基因专利压制了创新而非奖励创新； / 且专利垄断限制了人们获取基因检测服务的途径，如迈利亚德公司的检测 似乎有越来越多的人认同这一观点 去年一个联邦特别工作组敦促推进改革 / 针对与基因检测相关的专利 10月份美国司法部就迈利亚德案提交了一份辩护状 / 主张 / 分离出的DNA分子“同样属于天然产物…… 并不亚于棉纤维 / 那些被分离出来的 / 从棉籽中分离的”",
-          "vocabulary": [
-            {
-              "word": "companies",
-              "pos": "n.",
-              "definition": "n. 公司；企业"
             },
             {
               "word": "continue",
@@ -2268,20 +2404,35 @@
               "word": "busy",
               "pos": "adj.",
               "definition": "adj. 繁忙的；忙碌的"
+            },
+            {
+              "word": "file",
+              "pos": "n.",
+              "definition": "n. 文件夹（或箱、柜等）；（计算机的）文档"
+            },
+            {
+              "word": "patented",
+              "pos": "adj.",
+              "definition": "adj. 专利的；受专利保护的"
+            },
+            {
+              "word": "related",
+              "pos": "adj.",
+              "definition": "adj. 相关的；有联系的"
             }
           ]
         },
         {
-          "pid": 3,
+          "pid": 2,
           "text": "Despite the appeals court’s decision, big questions remain unanswered. For example, it is unclear whether the sequencing of a whole genome violates the patents of individual genes within it. The case may yet reach the Supreme Court.",
           "translation": "尽管上诉法院做出了裁决，但仍有一些重大问题没有得到解答。例如，目前尚不清楚整个基因组的测序是否侵犯了其中单个基因的专利。该案可能仍会提交最高法院。",
           "slashed_text": "Despite the appeals court’s decision , / big questions remain unanswered. For example , / it is unclear whether the sequencing of a whole genome violates the patents of individual genes within it. The case may yet reach the Supreme Court.",
           "chunk_translation": "尽管上诉法院做出了裁决 / 但重大问题依然悬而未决 例如 / 目前尚不清楚对整个基因组进行测序是否会侵犯其中单个基因的专利权 该案最终仍有可能上诉至联邦最高法院",
           "vocabulary": [
             {
-              "word": "Despite",
-              "pos": "prep.",
-              "definition": "prep. 尽管；即使"
+              "word": "patents",
+              "pos": "n.",
+              "definition": "n. 专利（patent 的复数形式）；专利权"
             },
             {
               "word": "appeals",
@@ -2299,14 +2450,19 @@
               "definition": "n. 决定；抉择"
             },
             {
-              "word": "questions",
-              "pos": "n.",
-              "definition": "n. 问题；疑问（question 的复数）"
-            },
-            {
               "word": "remain",
               "pos": "v.",
               "definition": "v. 逗留；留下"
+            },
+            {
+              "word": "Despite",
+              "pos": "prep.",
+              "definition": "prep. 尽管；即使"
+            },
+            {
+              "word": "questions",
+              "pos": "n.",
+              "definition": "n. 问题；疑问（question 的复数）"
             },
             {
               "word": "unanswered",
@@ -2322,20 +2478,35 @@
               "word": "unclear",
               "pos": "adj.",
               "definition": "adj. （指事实、原因等）不清楚的、不确定的、不易了解的；（指人）对……不清楚的、不明白的"
+            },
+            {
+              "word": "Supreme",
+              "pos": "adj.",
+              "definition": "adj. 最高的；至高无上的"
             }
           ]
         },
         {
-          "pid": 4,
-          "text": "As the industry advances, however, other suits may have an even greater impact.",
-          "translation": "然而，随着行业的进步，其他诉讼可能会产生更大的影响。",
-          "slashed_text": "As the industry advances , / however , / other suits may have an even greater impact.",
-          "chunk_translation": "然而随着该行业的向前发展 / 然而 / 其他相关诉讼可能会产生更为深远的影响",
+          "pid": 3,
+          "text": "As the industry advances, however, other suits may have an even greater impact. Companies are unlikely to file many more patents for human DNA molecules—most are already patented or in the public domain. Firms are now studying how genes interact, looking for correlations that might be used to determine the causes of disease or predict a drug’s efficacy. Companies are eager to win patents for “connecting the dots”, explains Hans Sauer, a lawyer for the BIO.",
+          "translation": "然而，随着行业的进步，其他诉讼可能会产生更大的影响。公司不太可能为人类 DNA 分子申请更多专利——大多数已经获得专利或属于公共领域。公司现在正在研究基因如何相互作用，寻找可用于确定疾病原因或预测药物疗效的相关性。BIO 律师汉斯·索尔 (Hans Sauer) 解释说，公司渴望赢得“连接点”的专利。",
+          "slashed_text": "As the industry advances , / however , / other suits may have an even greater impact. Companies are unlikely to file many more patents / for human DNA molecules — / most are already patented or in the public domain. Firms are now studying how genes interact , / looking / for correlations / that might be used to determine the causes of disease or predict a drug’s efficacy. Companies are eager to win patents for “connecting the dots” , / explains Hans Sauer , / a lawyer for the BIO.",
+          "chunk_translation": "然而随着该行业的向前发展 / 然而 / 其他相关诉讼可能会产生更为深远的影响 各公司不太可能再申请大量人类DNA分子专利—— / 针对人类DNA分子—— / 大多数基因要么已被授予专利，要么已进入公有领域 各大企业目前正在研究基因之间如何相互作用 / 寻找 / 潜在的关联性 / 这些关联可用于确定疾病病因或预测药物疗效 各家公司渴望在“关联分析”领域获得专利 / 汉斯·绍尔解释道 / 生物技术工业组织的律师",
           "vocabulary": [
             {
               "word": "industry",
               "pos": "n.",
               "definition": "n. 工业；生产制造"
+            },
+            {
+              "word": "Companies",
+              "pos": "n.",
+              "definition": "n. 公司；企业"
+            },
+            {
+              "word": "patents",
+              "pos": "n.",
+              "definition": "n. 专利（patent 的复数形式）；专利权"
             },
             {
               "word": "advances",
@@ -2361,20 +2532,6 @@
               "word": "impact",
               "pos": "n.",
               "definition": "n. 撞击；冲击力"
-            }
-          ]
-        },
-        {
-          "pid": 5,
-          "text": "Companies are unlikely to file many more patents for human DNA molecules—most are already patented or in the public domain. Firms are now studying how genes interact, looking for correlations that might be used to determine the causes of disease or predict a drug’s efficacy. Companies are eager to win patents for “connecting the dots”, explains Hans Sauer, a lawyer for the BIO.",
-          "translation": "公司不太可能为人类 DNA 分子申请更多专利——大多数已经获得专利或属于公共领域。公司现在正在研究基因如何相互作用，寻找可用于确定疾病原因或预测药物疗效的相关性。 BIO 律师汉斯·索尔 (Hans Sauer) 解释说，公司渴望赢得“连接点”的专利。",
-          "slashed_text": "Companies are unlikely to file many more patents / for human DNA molecules — / most are already patented or in the public domain. Firms are now studying how genes interact , / looking / for correlations / that might be used to determine the causes of disease or predict a drug’s efficacy. Companies are eager to win patents for “connecting the dots” , / explains Hans Sauer , / a lawyer for the BIO.",
-          "chunk_translation": "各公司不太可能再申请大量人类DNA分子专利—— / 针对人类DNA分子—— / 大多数基因要么已被授予专利，要么已进入公有领域 各大企业目前正在研究基因之间如何相互作用 / 寻找 / 潜在的关联性 / 这些关联可用于确定疾病病因或预测药物疗效 各家公司渴望在“关联分析”领域获得专利 / 汉斯·绍尔解释道 / 生物技术工业组织的律师",
-          "vocabulary": [
-            {
-              "word": "Companies",
-              "pos": "n.",
-              "definition": "n. 公司；企业"
             },
             {
               "word": "unlikely",
@@ -2385,11 +2542,6 @@
               "word": "file",
               "pos": "n.",
               "definition": "n. 文件夹（或箱、柜等）；（计算机的）文档"
-            },
-            {
-              "word": "patents",
-              "pos": "n.",
-              "definition": "n. 专利（patent 的复数形式）；专利权"
             },
             {
               "word": "human",
@@ -2415,16 +2567,26 @@
               "word": "public",
               "pos": "adj.",
               "definition": "adj. 公众的；大众的"
+            },
+            {
+              "word": "suit",
+              "pos": "n.",
+              "definition": "n. 套装；西装"
             }
           ]
         },
         {
-          "pid": 6,
-          "text": "Their success may be determined by a suit related to this issue, brought by the Mayo Clinic, which the Supreme Court will hear in its next term. The BIO recently held a convention which included sessions to coach lawyers on the shifting landscape for patents. Each meeting was packed.",
-          "translation": "他们的成功可能取决于梅奥诊所提起的与此问题相关的诉讼，最高法院将在下个任期审理该诉讼。 BIO 最近举行了一次会议，其中包括对律师进行有关专利形势变化的培训。每次会议都座无虚席。",
-          "slashed_text": "Their success may be determined by a suit related to this issue , / brought by the Mayo Clinic , / which the Supreme Court will hear in its next term. The BIO recently held a convention / which included sessions to coach lawyers on the shifting landscape / for patents. Each meeting was packed.",
-          "chunk_translation": "他们的成功与否可能取决于梅奥诊所就此问题提起的一起诉讼 / 由梅奥诊所提起的诉讼 / 最高法院将在下一个审判期对此案进行审理 生物技术工业组织最近举办了一次研讨会 / 包含培训律师应对不断变化的专利格局的专题课程 / 针对专利领域 每场会议都座无虚席",
+          "pid": 4,
+          "text": "Their success may be determined by a suit related to this issue, brought by the Mayo Clinic, which the Supreme Court will hear in its next term.",
+          "translation": "他们的成功可能取决于梅奥诊所提起的与此问题相关的诉讼，最高法院将在下个任期审理该诉讼。",
+          "slashed_text": "Their success may be determined by a suit related to this issue , / brought by the Mayo Clinic , / which the Supreme Court will hear in its next term.",
+          "chunk_translation": "他们的成功与否可能取决于梅奥诊所就此问题提起的一起诉讼 / 由梅奥诊所提起的诉讼 / 最高法院将在下一个审判期对此案进行审理",
           "vocabulary": [
+            {
+              "word": "court",
+              "pos": "n.",
+              "definition": "n. 法院；法庭"
+            },
             {
               "word": "success",
               "pos": "n.",
@@ -2469,6 +2631,20 @@
               "word": "Supreme",
               "pos": "adj.",
               "definition": "adj. 最高的；至高无上的"
+            }
+          ]
+        },
+        {
+          "pid": 5,
+          "text": "The BIO recently held a convention which included sessions to coach lawyers on the shifting landscape for patents. Each meeting was packed.",
+          "translation": "BIO 最近举行了一次会议，其中包括对律师进行有关专利形势变化的培训。每次会议都座无虚席。",
+          "slashed_text": "The BIO recently held a convention / which included sessions to coach lawyers on the shifting landscape / for patents. Each meeting was packed.",
+          "chunk_translation": "生物技术工业组织最近举办了一次研讨会 / 包含培训律师应对不断变化的专利格局的专题课程 / 针对专利领域 每场会议都座无虚席",
+          "vocabulary": [
+            {
+              "word": "patents",
+              "pos": "n.",
+              "definition": "n. 专利（patent 的复数形式）；专利权"
             }
           ]
         }
@@ -2620,8 +2796,8 @@
         },
         {
           "sid": 8,
-          "pid": 2,
-          "sentence_index": 0,
+          "pid": 1,
+          "sentence_index": 3,
           "text": "But as companies continue their attempts at personalised medicine, the courts will remain rather busy.",
           "translation": "但随着公司继续尝试个性化医疗，法院将仍然相当忙碌。",
           "slashed_text": "But as companies continue their attempts / at personalised medicine , / the courts will remain rather busy.",
@@ -2638,8 +2814,8 @@
         },
         {
           "sid": 9,
-          "pid": 2,
-          "sentence_index": 1,
+          "pid": 1,
+          "sentence_index": 4,
           "text": "The Myriad case itself is probably not over.",
           "translation": "Myriad 案本身可能还没有结束。",
           "slashed_text": "The Myriad case itself is probably not over.",
@@ -2656,8 +2832,8 @@
         },
         {
           "sid": 10,
-          "pid": 2,
-          "sentence_index": 2,
+          "pid": 1,
+          "sentence_index": 5,
           "text": "Critics make three main arguments against gene patents: a gene is a product of nature, so it may not be patented; gene patents suppress innovation rather than reward it; and patents’ monopolies restrict access to genetic tests such as Myriad’s.",
           "translation": "批评者对基因专利提出了三个主要论点：基因是自然的产物，因此不能申请专利；基因专利抑制创新而不是奖励创新；专利垄断限制了 Myriad 等基因检测的使用。",
           "slashed_text": "Critics make three main arguments against gene patents : / a gene is a product of nature , / so it may not be patented ; / gene patents suppress innovation rather than reward it ; / and patents’ monopolies restrict access to genetic tests such as Myriad’s.",
@@ -2674,8 +2850,8 @@
         },
         {
           "sid": 11,
-          "pid": 2,
-          "sentence_index": 3,
+          "pid": 1,
+          "sentence_index": 6,
           "text": "A growing number seem to agree.",
           "translation": "越来越多的人似乎同意这一观点。",
           "slashed_text": "A growing number seem to agree.",
@@ -2692,8 +2868,8 @@
         },
         {
           "sid": 12,
-          "pid": 2,
-          "sentence_index": 4,
+          "pid": 1,
+          "sentence_index": 7,
           "text": "Last year a federal task-force urged reform for patents related to genetic tests.",
           "translation": "去年，一个联邦工作组敦促对与基因测试相关的专利进行改革。",
           "slashed_text": "Last year a federal task-force urged reform / for patents related to genetic tests.",
@@ -2710,8 +2886,8 @@
         },
         {
           "sid": 13,
-          "pid": 2,
-          "sentence_index": 5,
+          "pid": 1,
+          "sentence_index": 8,
           "text": "In October the Department of Justice filed a brief in the Myriad case, arguing that an isolated DNA molecule “is no less a product of nature ...",
           "translation": "10 月，司法部就 Myriad 案提交了一份简报，认为分离的 DNA 分子“不亚于自然产物......",
           "slashed_text": "In October the Department of Justice filed a brief in the Myriad case , / arguing / that an isolated DNA molecule “is no less a product of nature ...",
@@ -2728,8 +2904,8 @@
         },
         {
           "sid": 14,
-          "pid": 2,
-          "sentence_index": 6,
+          "pid": 1,
+          "sentence_index": 9,
           "text": "than are cotton fibres that have been separated from cotton seeds.”",
           "translation": "比从棉籽中分离出来的棉纤维还要多。”",
           "slashed_text": "than are cotton fibres / that have been separated / from cotton seeds.”",
@@ -2746,7 +2922,7 @@
         },
         {
           "sid": 15,
-          "pid": 3,
+          "pid": 2,
           "sentence_index": 0,
           "text": "Despite the appeals court’s decision, big questions remain unanswered.",
           "translation": "尽管上诉法院做出了裁决，但仍有一些重大问题没有得到解答。",
@@ -2764,7 +2940,7 @@
         },
         {
           "sid": 16,
-          "pid": 3,
+          "pid": 2,
           "sentence_index": 1,
           "text": "For example, it is unclear whether the sequencing of a whole genome violates the patents of individual genes within it.",
           "translation": "例如，目前尚不清楚整个基因组的测序是否侵犯了其中单个基因的专利。",
@@ -2782,7 +2958,7 @@
         },
         {
           "sid": 17,
-          "pid": 3,
+          "pid": 2,
           "sentence_index": 2,
           "text": "The case may yet reach the Supreme Court.",
           "translation": "该案可能仍会提交最高法院。",
@@ -2800,7 +2976,7 @@
         },
         {
           "sid": 18,
-          "pid": 4,
+          "pid": 3,
           "sentence_index": 0,
           "text": "As the industry advances, however, other suits may have an even greater impact.",
           "translation": "然而，随着行业的进步，其他诉讼可能会产生更大的影响。",
@@ -2818,8 +2994,8 @@
         },
         {
           "sid": 19,
-          "pid": 5,
-          "sentence_index": 0,
+          "pid": 3,
+          "sentence_index": 1,
           "text": "Companies are unlikely to file many more patents for human DNA molecules—most are already patented or in the public domain.",
           "translation": "公司不太可能为人类 DNA 分子申请更多专利——大多数已经获得专利或属于公共领域。",
           "slashed_text": "Companies are unlikely to file many more patents / for human DNA molecules — / most are already patented or in the public domain.",
@@ -2836,8 +3012,8 @@
         },
         {
           "sid": 20,
-          "pid": 5,
-          "sentence_index": 1,
+          "pid": 3,
+          "sentence_index": 2,
           "text": "Firms are now studying how genes interact, looking for correlations that might be used to determine the causes of disease or predict a drug’s efficacy.",
           "translation": "公司现在正在研究基因如何相互作用，寻找可用于确定疾病原因或预测药物疗效的相关性。",
           "slashed_text": "Firms are now studying how genes interact , / looking / for correlations / that might be used to determine the causes of disease or predict a drug’s efficacy.",
@@ -2854,8 +3030,8 @@
         },
         {
           "sid": 21,
-          "pid": 5,
-          "sentence_index": 2,
+          "pid": 3,
+          "sentence_index": 3,
           "text": "Companies are eager to win patents for “connecting the dots”, explains Hans Sauer, a lawyer for the BIO.",
           "translation": "BIO 律师汉斯·索尔 (Hans Sauer) 解释说，公司渴望赢得“连接点”的专利。",
           "slashed_text": "Companies are eager to win patents for “connecting the dots” , / explains Hans Sauer , / a lawyer for the BIO.",
@@ -2872,7 +3048,7 @@
         },
         {
           "sid": 22,
-          "pid": 6,
+          "pid": 4,
           "sentence_index": 0,
           "text": "Their success may be determined by a suit related to this issue, brought by the Mayo Clinic, which the Supreme Court will hear in its next term.",
           "translation": "他们的成功可能取决于梅奥诊所提起的与此问题相关的诉讼，最高法院将在下个任期审理该诉讼。",
@@ -2890,8 +3066,8 @@
         },
         {
           "sid": 23,
-          "pid": 6,
-          "sentence_index": 1,
+          "pid": 5,
+          "sentence_index": 0,
           "text": "The BIO recently held a convention which included sessions to coach lawyers on the shifting landscape for patents.",
           "translation": "BIO 最近举行了一次会议，其中包括对律师进行有关专利形势变化的培训。",
           "slashed_text": "The BIO recently held a convention / which included sessions to coach lawyers on the shifting landscape / for patents.",
@@ -2908,8 +3084,8 @@
         },
         {
           "sid": 24,
-          "pid": 6,
-          "sentence_index": 2,
+          "pid": 5,
+          "sentence_index": 1,
           "text": "Each meeting was packed.",
           "translation": "每次会议都座无虚席。",
           "slashed_text": "Each meeting was packed.",
@@ -2932,8 +3108,8 @@
           "stem_cn": "从第 1 段可以看出，生物技术公司希望 _____。",
           "type": "事实细节题",
           "locate_pid": 0,
-          "locate_sentence": "In 2010, a federal judge shook America’s biotech industry to its core.",
-          "locate_sentence_cn": "2010 年，一位联邦法官彻底震撼了美国生物技术产业。",
+          "locate_sentence": "Companies had won patents for isolated DNA for decades—by 2005 some 20 % of human genes were parented.",
+          "locate_sentence_cn": "几十年来，公司已经获得了分离 DNA 的专利——到 2005 年，大约 20% 的人类基因是有亲本的。",
           "options": [
             {
               "key": "A",
@@ -2944,8 +3120,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "In 2010, a federal judge shook America’s biotech industry to its core.",
-                "source_translation": "2010 年，一位联邦法官彻底震撼了美国生物技术产业。",
+                "source_sentence": "Companies had won patents for isolated DNA for decades—by 2005 some 20 % of human genes were parented.",
+                "source_translation": "几十年来，公司已经获得了分离 DNA 的专利——到 2005 年，大约 20% 的人类基因是有亲本的。",
                 "locator_comparison": "选项核心词 <code>genes</code>, <code>patentable</code>（“基因可申请专利”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“几十年来，公司已经获得了分离 DNA 的专利——到 2005 年，大约 20% 的人类基因是有亲本的。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -3012,8 +3188,8 @@
           "stem_cn": "那些反对基因专利的人认为_____。",
           "type": "因果推断题",
           "locate_pid": 1,
-          "locate_sentence": "On July 29th they were relieved, at least temporarily.",
-          "locate_sentence_cn": "7 月 29 日，他们松了一口气，至少暂时松了口气。",
+          "locate_sentence": "Critics make three main arguments against gene patents: a gene is a product of nature, so it may not be patented; gene patents suppress innovation rather than reward it; and patents’ monopolies restrict access to genetic tests such as Myriad’s.",
+          "locate_sentence_cn": "批评者对基因专利提出了三个主要论点：基因是自然的产物，因此不能申请专利；基因专利抑制创新而不是奖励创新；专利垄断限制了 Myriad 等基因检测的使用。",
           "options": [
             {
               "key": "A",
@@ -3041,8 +3217,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "On July 29th they were relieved, at least temporarily.",
-                "source_translation": "7 月 29 日，他们松了一口气，至少暂时松了口气。",
+                "source_sentence": "Critics make three main arguments against gene patents: a gene is a product of nature, so it may not be patented; gene patents suppress innovation rather than reward it; and patents’ monopolies restrict access to genetic tests such as Myriad’s.",
+                "source_translation": "批评者对基因专利提出了三个主要论点：基因是自然的产物，因此不能申请专利；基因专利抑制创新而不是奖励创新；专利垄断限制了 Myriad 等基因检测的使用。",
                 "locator_comparison": "选项核心词 <code>man</code>, <code>products</code>, <code>are</code>（“只有人造产品才可申请专利”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“联邦上诉法院推翻了先前的裁决，裁定 Myriad Genetics 确实可以拥有两个有助于预测女性患乳腺癌风险的基因的专利。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -3091,9 +3267,9 @@
           "stem": "According to Hans Sauer, companies are eager to win patents for _____.",
           "stem_cn": "据汉斯·绍尔 (Hans Sauer) 称，公司渴望赢得 _____ 的专利。",
           "type": "段落推理题",
-          "locate_pid": 2,
-          "locate_sentence": "But as companies continue their attempts at personalised medicine, the courts will remain rather busy.",
-          "locate_sentence_cn": "但随着公司继续尝试个性化医疗，法院将仍然相当忙碌。",
+          "locate_pid": 3,
+          "locate_sentence": "Companies are eager to win patents for “connecting the dots”, explains Hans Sauer, a lawyer for the BIO.",
+          "locate_sentence_cn": "BIO 律师汉斯·索尔 (Hans Sauer) 解释说，公司渴望赢得“连接点”的专利。",
           "options": [
             {
               "key": "A",
@@ -3104,8 +3280,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "But as companies continue their attempts at personalised medicine, the courts will remain rather busy.",
-                "source_translation": "但随着公司继续尝试个性化医疗，法院将仍然相当忙碌。",
+                "source_sentence": "Companies are eager to win patents for “connecting the dots”, explains Hans Sauer, a lawyer for the BIO.",
+                "source_translation": "BIO 律师汉斯·索尔 (Hans Sauer) 解释说，公司渴望赢得“连接点”的专利。",
                 "locator_comparison": "选项核心词 <code>discovering</code>, <code>gene</code>, <code>interactions</code>（“发现基因相互作用”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“Myriad 案本身可能还没有结束。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -3171,9 +3347,9 @@
           "stem": "By saying “Each meeting was packed” (Paragraph 6) the author means that _____.",
           "stem_cn": "通过说“每次会议都挤满了人”（第 6 段），作者的意思是 _____。",
           "type": "词义/例证题",
-          "locate_pid": 3,
-          "locate_sentence": "Despite the appeals court’s decision, big questions remain unanswered.",
-          "locate_sentence_cn": "尽管上诉法院做出了裁决，但仍有一些重大问题没有得到解答。",
+          "locate_pid": 5,
+          "locate_sentence": "Each meeting was packed.",
+          "locate_sentence_cn": "每次会议都座无虚席。",
           "options": [
             {
               "key": "A",
@@ -3218,8 +3394,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Despite the appeals court’s decision, big questions remain unanswered.",
-                "source_translation": "尽管上诉法院做出了裁决，但仍有一些重大问题没有得到解答。",
+                "source_sentence": "Each meeting was packed.",
+                "source_translation": "每次会议都座无虚席。",
                 "locator_comparison": "选项核心词 <code>gene</code>, <code>patenting</code>, <code>was</code>（“基因专利申请备受关注”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“例如，目前尚不清楚整个基因组的测序是否侵犯了其中单个基因的专利。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -3251,9 +3427,9 @@
           "stem": "Generally speaking, the author’s attitude toward gene patenting is _____.",
           "stem_cn": "总体来说，作者对基因专利申请的态度是_____。",
           "type": "全文主旨题",
-          "locate_pid": 4,
-          "locate_sentence": "As the industry advances, however, other suits may have an even greater impact.",
-          "locate_sentence_cn": "然而，随着行业的进步，其他诉讼可能会产生更大的影响。",
+          "locate_pid": 5,
+          "locate_sentence": "The BIO recently held a convention which included sessions to coach lawyers on the shifting landscape for patents.",
+          "locate_sentence_cn": "BIO 最近举行了一次会议，其中包括对律师进行有关专利形势变化的培训。",
           "options": [
             {
               "key": "A",
@@ -3315,8 +3491,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "As the industry advances, however, other suits may have an even greater impact.",
-                "source_translation": "然而，随着行业的进步，其他诉讼可能会产生更大的影响。",
+                "source_sentence": "The BIO recently held a convention which included sessions to coach lawyers on the shifting landscape for patents.",
+                "source_translation": "BIO 最近举行了一次会议，其中包括对律师进行有关专利形势变化的培训。",
                 "locator_comparison": "选项核心词 <code>objective</code>（“客观的”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“Companies are unlikely to file many more patents for human DNA molecules—most are already patented or in the public domain”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -3383,10 +3559,10 @@
       "paragraphs": [
         {
           "pid": 0,
-          "text": "The great recession may be over, but this era of high joblessness is probably beginning.",
-          "translation": "大衰退可能已经结束，但这个高失业率的时代可能正在开始。",
-          "slashed_text": "The great recession may be over , / but this era of high joblessness is probably beginning.",
-          "chunk_translation": "大衰退或许已经结束 / 但这个高失业率的时代可能才刚刚开始",
+          "text": "The great recession may be over, but this era of high joblessness is probably beginning. Before it ends, it will likely change the life course and character of a generation of young adults. And ultimately, it is likely to reshape our politics, our culture, and the character of our society for years.",
+          "translation": "大衰退可能已经结束，但这个高失业率的时代可能正在开始。在它结束之前，它很可能会改变一代年轻人的生命历程和性格。最终，它可能会在未来几年重塑我们的政治、文化和社会特征。",
+          "slashed_text": "The great recession may be over , / but this era of high joblessness is probably beginning. Before it ends , / it will likely change the life course and character of a generation of young adults. And ultimately , / it is likely to reshape our politics , / our culture , / and the character of our society / for years.",
+          "chunk_translation": "大衰退或许已经结束 / 但这个高失业率的时代可能才刚刚开始 在它结束之前 / 它很可能会改变整整一代年轻人的生命轨迹和性格特征 并且归根结底 / 它很可能会重塑我们的政治体制、 / 我们的文化风貌 / 以及我们社会的本质特征 / 在未来数年里",
           "vocabulary": [
             {
               "word": "great",
@@ -3417,16 +3593,7 @@
               "word": "beginning",
               "pos": "n.",
               "definition": "n. 开始；开端"
-            }
-          ]
-        },
-        {
-          "pid": 1,
-          "text": "Before it ends, it will likely change the life course and character of a generation of young adults. And ultimately, it is likely to reshape our politics, our culture, and the character of our society for years.",
-          "translation": "在它结束之前，它很可能会改变一代年轻人的生命历程和性格。最终，它可能会在未来几年重塑我们的政治、文化和社会特征。",
-          "slashed_text": "Before it ends , / it will likely change the life course and character of a generation of young adults. And ultimately , / it is likely to reshape our politics , / our culture , / and the character of our society / for years.",
-          "chunk_translation": "在它结束之前 / 它很可能会改变整整一代年轻人的生命轨迹和性格特征 并且归根结底 / 它很可能会重塑我们的政治体制、 / 我们的文化风貌 / 以及我们社会的本质特征 / 在未来数年里",
-          "vocabulary": [
+            },
             {
               "word": "ends",
               "pos": "n.",
@@ -3471,20 +3638,30 @@
               "word": "adults",
               "pos": "n.",
               "definition": "n. 成年人（adult 的复数形式）；（生物学）成年动物（adult 的复数形式"
+            },
+            {
+              "word": "jobless",
+              "pos": "adj.",
+              "definition": "adj. 失业的；无业的"
+            },
+            {
+              "word": "society",
+              "pos": "n.",
+              "definition": "n. 社会（以群体形式生活在一起的人的总称）；社群（某国家、地区、时期等的群体组织）"
             }
           ]
         },
         {
-          "pid": 2,
-          "text": "No one tries harder than the jobless to find silver linings in this national economic disaster. Many said that unemployment, while extremely painful, had improved them in some ways; they had become less materialistic and more financially prudent; they were more aware of the struggles of others. In limited respects, perhaps the recession will leave society better off. At the very least, it has awoken us from our national fever dream of easy riches and bigger houses, and put a necessary end to an era of reckless personal spending.",
-          "translation": "没有人比失业者更努力地在这场国家经济灾难中寻找一线希望。许多人表示，失业虽然极其痛苦，但在某些方面改善了他们的生活。他们变得不那么物质至上，在财务上更加谨慎；他们更了解其他人的挣扎。在有限的方面，经济衰退也许会让社会变得更好。至少，它唤醒了我们对轻松致富和拥有更大房子的全民狂热梦想，并结束了不计后果的个人消费时代。",
-          "slashed_text": "No one tries harder than the jobless to find silver linings / in this national economic disaster. Many said / that unemployment , / while extremely painful , / had improved them / in some ways ; / they had become less materialistic and more financially prudent ; / they were more aware of the struggles of others. In limited respects , / perhaps the recession will leave society better off. At the very least , / it has awoken us from our national fever dream of easy riches and bigger houses , / and put a necessary end to an era of reckless personal spending.",
-          "chunk_translation": "没有人比失业群体更加竭尽全力地寻找一线希望 / 在这场国家经济灾难之中 许多人表示 / 失业 / 虽然极其痛苦 / 却在某些方面提升了他们 / 在某些方面； / 他们变得不再那么物质至上，在财务上也更为审慎； / 他们对其他人的挣扎困境也更加感同身受 在有限的层面上 / 也许这场经济衰退会让社会变得更好 至少 / 它将我们从轻松发财和住更大房子的全民狂热梦想中唤醒 / 并对那个肆意挥霍个人消费的时代予以了必要的终结",
+          "pid": 1,
+          "text": "No one tries harder than the jobless to find silver linings in this national economic disaster. Many said that unemployment, while extremely painful, had improved them in some ways; they had become less materialistic and more financially prudent; they were more aware of the struggles of others. In limited respects, perhaps the recession will leave society better off.",
+          "translation": "没有人比失业者更努力地在这场国家经济灾难中寻找一线希望。许多人表示，失业虽然极其痛苦，但在某些方面改善了他们的生活。他们变得不那么物质至上，在财务上更加谨慎；他们更了解其他人的挣扎。在有限的方面，经济衰退也许会让社会变得更好。",
+          "slashed_text": "No one tries harder than the jobless to find silver linings / in this national economic disaster. Many said / that unemployment , / while extremely painful , / had improved them / in some ways ; / they had become less materialistic and more financially prudent ; / they were more aware of the struggles of others. In limited respects , / perhaps the recession will leave society better off.",
+          "chunk_translation": "没有人比失业群体更加竭尽全力地寻找一线希望 / 在这场国家经济灾难之中 许多人表示 / 失业 / 虽然极其痛苦 / 却在某些方面提升了他们 / 在某些方面； / 他们变得不再那么物质至上，在财务上也更为审慎； / 他们对其他人的挣扎困境也更加感同身受 在有限的层面上 / 也许这场经济衰退会让社会变得更好",
           "vocabulary": [
             {
-              "word": "at the very least",
-              "pos": "n./v.",
-              "definition": "语境核心词汇"
+              "word": "recession",
+              "pos": "n.",
+              "definition": "n. （经济的）衰退（期）；退后"
             },
             {
               "word": "tries",
@@ -3525,16 +3702,36 @@
               "word": "economic",
               "pos": "adj.",
               "definition": "adj. 经济的；经济学的"
+            },
+            {
+              "word": "society",
+              "pos": "n.",
+              "definition": "n. 社会（以群体形式生活在一起的人的总称）；社群（某国家、地区、时期等的群体组织）"
             }
           ]
         },
         {
-          "pid": 3,
-          "text": "But for the most part, these benefits seem thin, uncertain, and far off. In The Moral Consequences of Economic Growth, the economic historian Benjamin Friedman argues that both inside and outside the U.S., lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive, and have usually stopped or reversed the advance of rights and freedoms. Anti-immigrant sentiment typically increases, as does conflict between races and classes.",
-          "translation": "但在大多数情况下，这些好处似乎微不足道、不确定且遥远。经济历史学家本杰明·弗里德曼在《经济增长的道德后果》一书中指出，无论是在美国国内还是国外，长期的经济停滞或衰退几乎总是会让社会更加卑鄙、包容性更差，并且通常会阻止或逆转权利和自由的进步。反移民情绪通常会增加，种族和阶级之间的冲突也会增加。",
-          "slashed_text": "But for the most part , / these benefits seem thin , / uncertain , / and far off. In The Moral Consequences of Economic Growth , / the economic historian Benjamin Friedman argues / that both inside and outside the U.S. , / lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive , / and have usually stopped or reversed the advance of rights and freedoms. Anti-immigrant sentiment typically increases , / as does conflict between races and classes.",
-          "chunk_translation": "但在大多数情况下 / 这些益处显得微薄弱小 / 充满不确定性 / 且遥不可及 在《经济增长的道德后果》一书中 / 经济史学家本杰明·弗里德曼指出 / 无论在美国国内还是国外 / 长期的经济停滞或衰退几乎总是让社会变得更加刻薄狭隘且缺乏包容 / 并且通常会阻碍甚至逆转人权与自由的推进 反移民情绪通常会随之加剧 / 种族和阶级之间的冲突也是如此",
+          "pid": 2,
+          "text": "At the very least, it has awoken us from our national fever dream of easy riches and bigger houses, and put a necessary end to an era of reckless personal spending. But for the most part, these benefits seem thin, uncertain, and far off. In The Moral Consequences of Economic Growth, the economic historian Benjamin Friedman argues that both inside and outside the U.S., lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive, and have usually stopped or reversed the advance of rights and freedoms.",
+          "translation": "至少，它唤醒了我们对轻松致富和拥有更大房子的全民狂热梦想，并结束了不计后果的个人消费时代。但在大多数情况下，这些好处似乎微不足道、不确定且遥远。经济历史学家本杰明·弗里德曼在《经济增长的道德后果》一书中指出，无论是在美国国内还是国外，长期的经济停滞或衰退几乎总是会让社会变得更加卑鄙、包容性更差，并且通常会阻止或逆转权利和自由的进步。",
+          "slashed_text": "At the very least , / it has awoken us from our national fever dream of easy riches and bigger houses , / and put a necessary end to an era of reckless personal spending. But for the most part , / these benefits seem thin , / uncertain , / and far off. In The Moral Consequences of Economic Growth , / the economic historian Benjamin Friedman argues / that both inside and outside the U.S. , / lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive , / and have usually stopped or reversed the advance of rights and freedoms.",
+          "chunk_translation": "至少 / 它将我们从轻松发财和住更大房子的全民狂热梦想中唤醒 / 并对那个肆意挥霍个人消费的时代予以了必要的终结 但在大多数情况下 / 这些益处显得微薄弱小 / 充满不确定性 / 且遥不可及 在《经济增长的道德后果》一书中 / 经济史学家本杰明·弗里德曼指出 / 无论在美国国内还是国外 / 长期的经济停滞或衰退几乎总是让社会变得更加刻薄狭隘且缺乏包容 / 并且通常会阻碍甚至逆转人权与自由的推进",
           "vocabulary": [
+            {
+              "word": "at the very least",
+              "pos": "n./v.",
+              "definition": "语境核心词汇"
+            },
+            {
+              "word": "national",
+              "pos": "adj.",
+              "definition": "adj. 国家的；全国的"
+            },
+            {
+              "word": "economic",
+              "pos": "adj.",
+              "definition": "adj. 经济的；经济学的"
+            },
             {
               "word": "benefits",
               "pos": "n.",
@@ -3566,11 +3763,6 @@
               "definition": "n. 后果；结果"
             },
             {
-              "word": "Economic",
-              "pos": "adj.",
-              "definition": "adj. 经济的；经济学的"
-            },
-            {
               "word": "Growth",
               "pos": "n.",
               "definition": "n. 成长；生长"
@@ -3579,16 +3771,61 @@
               "word": "historian",
               "pos": "n.",
               "definition": "n. 历史学家；史学工作者"
+            },
+            {
+              "word": "usually",
+              "pos": "adv.",
+              "definition": "adv. 通常地；经常地"
+            },
+            {
+              "word": "period",
+              "pos": "n.",
+              "definition": "n. 一段时间；时期"
+            },
+            {
+              "word": "easy",
+              "pos": "adj.",
+              "definition": "adj. 容易的；不费力的"
+            },
+            {
+              "word": "always",
+              "pos": "adv.",
+              "definition": "adv. 总是；每次都是"
+            },
+            {
+              "word": "society",
+              "pos": "n.",
+              "definition": "n. 社会（以群体形式生活在一起的人的总称）；社群（某国家、地区、时期等的群体组织）"
             }
           ]
         },
         {
-          "pid": 4,
-          "text": "Income inequality usually falls during a recession, but it has not shrunk in this one.",
-          "translation": "收入不平等通常会在经济衰退期间缩小，但在这次衰退中并没有缩小。",
-          "slashed_text": "Income inequality usually falls during a recession , / but it has not shrunk / in this one.",
-          "chunk_translation": "收入不平等通常在经济衰退期间会有所下降 / 但在这一次衰退中却没有缩小 / 在这一次中",
+          "pid": 3,
+          "text": "Anti-immigrant sentiment typically increases, as does conflict between races and classes. Income inequality usually falls during a recession, but it has not shrunk in this one. Indeed, this period of economic weakness may reinforce class divides, and decrease opportunities to cross them—especially for young people. The research of Till V on Wachter, the economist at Columbia University, suggests that not all people graduating into a recession see their life chances dimmed: those with degrees from elite universities catch up fairly quickly to where they otherwise would have been if they had graduated in better times; it is the masses beneath them that are left behind.",
+          "translation": "反移民情绪通常会增加，种族和阶级之间的冲突也会增加。收入不平等通常会在经济衰退期间缩小，但在这次衰退中并没有缩小。事实上，这段经济疲软时期可能会加剧阶级鸿沟，并减少跨越鸿沟的机会——尤其是对年轻人而言。哥伦比亚大学经济学家蒂尔·V (Till V) 对瓦赫特 (Wachter) 的研究表明，并非所有在经济衰退中毕业的人都会看到自己的生活机会变得黯淡：那些拥有精英大学学位的人很快就会赶上他们在更好的时期毕业时本可以达到的水平；被抛在后面的是他们下面的群众。",
+          "slashed_text": "Anti-immigrant sentiment typically increases , / as does conflict between races and classes. Income inequality usually falls during a recession , / but it has not shrunk / in this one. Indeed , / this period of economic weakness may reinforce class divides , / and decrease opportunities to cross them — / especially / for young people. The research of Till V / on Wachter , / the economist / at Columbia University , / suggests / that not all people graduating into a recession see their life chances dimmed : / those / with degrees / from elite universities catch up fairly quickly to / where they otherwise would have been / if they had graduated / in better times ; / it is the masses beneath them / that are left behind.",
+          "chunk_translation": "反移民情绪通常会随之加剧 / 种族和阶级之间的冲突也是如此 收入不平等通常在经济衰退期间会有所下降 / 但在这一次衰退中却没有缩小 / 在这一次中 确实 / 这段经济疲软期可能会加剧阶级分化 / 并减少跨越阶级界限的机会—— / 尤其是 / 对年轻人而言 蒂尔·冯 / ·瓦赫特的研究 / 这位经济学家 / 任教于哥伦比亚大学 / 研究表明 / 并非所有在经济衰退期毕业的人都会面临人生前景黯淡： / 那些 / 拥有学位的人 / 名校毕业的能够相当迅速地赶上 / 他们在正常情况下所能达到的水平 / 如果他们毕业 / 在更好的时期； / 被抛在后面的正是处于他们下层的普通大众 / 那些被抛在后面的大众",
           "vocabulary": [
+            {
+              "word": "recession",
+              "pos": "n.",
+              "definition": "n. （经济的）衰退（期）；退后"
+            },
+            {
+              "word": "life",
+              "pos": "n.",
+              "definition": "n. 生命；人命"
+            },
+            {
+              "word": "young",
+              "pos": "adj.",
+              "definition": "adj. 幼小的；年轻的"
+            },
+            {
+              "word": "economic",
+              "pos": "adj.",
+              "definition": "adj. 经济的；经济学的"
+            },
             {
               "word": "Income",
               "pos": "n.",
@@ -3610,24 +3847,10 @@
               "definition": "n. 瀑布；瀑布群（常大写"
             },
             {
-              "word": "recession",
-              "pos": "n.",
-              "definition": "n. （经济的）衰退（期）；退后"
-            },
-            {
               "word": "shrunk",
               "pos": "v.",
               "definition": "v. 收缩；缩小（shrink 的过去分词）"
-            }
-          ]
-        },
-        {
-          "pid": 5,
-          "text": "Indeed, this period of economic weakness may reinforce class divides, and decrease opportunities to cross them—especially for young people. The research of Till V on Wachter, the economist at Columbia University, suggests that not all people graduating into a recession see their life chances dimmed: those with degrees from elite universities catch up fairly quickly to where they otherwise would have been if they had graduated in better times; it is the masses beneath them that are left behind.",
-          "translation": "事实上，这段经济疲软时期可能会加剧阶级鸿沟，并减少跨越鸿沟的机会——尤其是对年轻人而言。哥伦比亚大学经济学家蒂尔·V (Till V) 对瓦赫特 (Wachter) 的研究表明，并非所有在经济衰退中毕业的人都会看到自己的生活机会变得黯淡：那些拥有精英大学学位的人很快就会赶上他们在更好的时期毕业时本可以达到的水平；被抛在后面的是他们下面的群众。",
-          "slashed_text": "Indeed , / this period of economic weakness may reinforce class divides , / and decrease opportunities to cross them — / especially / for young people. The research of Till V / on Wachter , / the economist / at Columbia University , / suggests / that not all people graduating into a recession see their life chances dimmed : / those / with degrees / from elite universities catch up fairly quickly to / where they otherwise would have been / if they had graduated / in better times ; / it is the masses beneath them / that are left behind.",
-          "chunk_translation": "确实 / 这段经济疲软期可能会加剧阶级分化 / 并减少跨越阶级界限的机会—— / 尤其是 / 对年轻人而言 蒂尔·冯 / ·瓦赫特的研究 / 这位经济学家 / 任教于哥伦比亚大学 / 研究表明 / 并非所有在经济衰退期毕业的人都会面临人生前景黯淡： / 那些 / 拥有学位的人 / 名校毕业的能够相当迅速地赶上 / 他们在正常情况下所能达到的水平 / 如果他们毕业 / 在更好的时期； / 被抛在后面的正是处于他们下层的普通大众 / 那些被抛在后面的大众",
-          "vocabulary": [
+            },
             {
               "word": "Indeed",
               "pos": "adv.",
@@ -3637,11 +3860,6 @@
               "word": "period",
               "pos": "n.",
               "definition": "n. 一段时间；时期"
-            },
-            {
-              "word": "economic",
-              "pos": "adj.",
-              "definition": "adj. 经济的；经济学的"
             },
             {
               "word": "weakness",
@@ -3676,12 +3894,32 @@
           ]
         },
         {
-          "pid": 6,
+          "pid": 4,
           "text": "In the Internet age, it is particularly easy to see the resentment that has always been hidden within American society. More difficult, in the moment, is discerning precisely how these lean times are affecting society’s character. In many respects, the U.S. was more socially tolerant entering this recession than at any time in its history, and a variety of national polls on social conflict since then have shown mixed results. We will have to wait and see exactly how these hard times will reshape our social fabric. But they certainly will reshape it, and all the more so the longer they extend.",
-          "translation": "在网络时代，特别容易看到美国社会内部一直隐藏的怨恨情绪。目前，更困难的是准确辨别这些经济不景气的时期如何影响社会特征。在许多方面，美国在进入这次衰退时比历史上任何时候都更加宽容，自那时以来有关社会冲突的各种全国民意调查显示出不同的结果。我们将不得不拭目以待，看看这些困难时期将如何重塑我们的社会结构。但他们肯定会重塑它，而且随着时间的延长，情况更是如此。",
+          "translation": "在网络时代，特别容易看到美国社会内部一直隐藏的怨恨情绪。目前，更困难的是准确辨别这些经济不景气的时期如何影响社会特征。美国在很多方面进入这次衰退的社会容忍度比历史上任何时候都高，自那时以来有关社会冲突的各种全国民意调查显示出不同的结果。我们将不得不拭目以待，看看这些困难时期将如何重塑我们的社会结构。但他们肯定会重塑它，而且随着时间的延长，情况更是如此。",
           "slashed_text": "In the Internet age , / it is particularly easy to see the resentment / that has always been hidden within American society. More difficult , / in the moment , / is discerning precisely how these lean times are affecting society’s character. In many respects , / the U.S. was more socially tolerant entering this recession than at any time in its history , / and a variety of national polls / on social conflict / since then have shown mixed results. We will have to wait and see exactly how these hard times will reshape our social fabric. But they certainly will reshape it , / and all the more so the longer they extend.",
           "chunk_translation": "在互联网时代 / 尤其容易看清一直深藏于美国社会内部的怨恨之情 / 一直深藏于美国社会中的怨恨 眼下更加困难的 / 在当前 / 是准确洞察这些艰难岁月究竟在如何重塑我们社会的性格特质 在许多方面 / 美国 在进入这场经济衰退时比其历史上任何时期都更具社会包容性 / 并且自那时起开展的一系列关于社会冲突的全国民意调查 / 关于社会冲突 / 呈现出了喜忧参半的结果 我们不得不拭目以待，看看这些艰难岁月究竟会如何重塑我们的社会结构 但它们必然会重塑社会结构 / 而且经济困境持续的时间越长，这种重塑就越深刻",
           "vocabulary": [
+            {
+              "word": "recession",
+              "pos": "n.",
+              "definition": "n. （经济的）衰退（期）；退后"
+            },
+            {
+              "word": "character",
+              "pos": "n.",
+              "definition": "n. 性格；品质"
+            },
+            {
+              "word": "national",
+              "pos": "adj.",
+              "definition": "adj. 国家的；全国的"
+            },
+            {
+              "word": "thin",
+              "pos": "adj.",
+              "definition": "adj. 薄的；细的"
+            },
             {
               "word": "Internet",
               "pos": "n.",
@@ -3751,8 +3989,8 @@
         },
         {
           "sid": 1,
-          "pid": 1,
-          "sentence_index": 0,
+          "pid": 0,
+          "sentence_index": 1,
           "text": "Before it ends, it will likely change the life course and character of a generation of young adults.",
           "translation": "在它结束之前，它很可能会改变一代年轻人的生命历程和性格。",
           "slashed_text": "Before it ends , / it will likely change the life course and character of a generation of young adults.",
@@ -3769,8 +4007,8 @@
         },
         {
           "sid": 2,
-          "pid": 1,
-          "sentence_index": 1,
+          "pid": 0,
+          "sentence_index": 2,
           "text": "And ultimately, it is likely to reshape our politics, our culture, and the character of our society for years.",
           "translation": "最终，它可能会在未来几年重塑我们的政治、文化和社会特征。",
           "slashed_text": "And ultimately , / it is likely to reshape our politics , / our culture , / and the character of our society / for years.",
@@ -3787,7 +4025,7 @@
         },
         {
           "sid": 3,
-          "pid": 2,
+          "pid": 1,
           "sentence_index": 0,
           "text": "No one tries harder than the jobless to find silver linings in this national economic disaster.",
           "translation": "没有人比失业者更努力地在这场国家经济灾难中寻找一线希望。",
@@ -3805,7 +4043,7 @@
         },
         {
           "sid": 4,
-          "pid": 2,
+          "pid": 1,
           "sentence_index": 1,
           "text": "Many said that unemployment, while extremely painful, had improved them in some ways; they had become less materialistic and more financially prudent; they were more aware of the struggles of others.",
           "translation": "许多人表示，失业虽然极其痛苦，但在某些方面改善了他们的生活。他们变得不那么物质至上，在财务上更加谨慎；他们更了解其他人的挣扎。",
@@ -3828,7 +4066,7 @@
         },
         {
           "sid": 5,
-          "pid": 2,
+          "pid": 1,
           "sentence_index": 2,
           "text": "In limited respects, perhaps the recession will leave society better off.",
           "translation": "在有限的方面，经济衰退也许会让社会变得更好。",
@@ -3847,7 +4085,7 @@
         {
           "sid": 6,
           "pid": 2,
-          "sentence_index": 3,
+          "sentence_index": 0,
           "text": "At the very least, it has awoken us from our national fever dream of easy riches and bigger houses, and put a necessary end to an era of reckless personal spending.",
           "translation": "至少，它唤醒了我们对轻松致富和拥有更大房子的全民狂热梦想，并结束了不计后果的个人消费时代。",
           "slashed_text": "At the very least , / it has awoken us from our national fever dream of easy riches and bigger houses , / and put a necessary end to an era of reckless personal spending.",
@@ -3864,8 +4102,8 @@
         },
         {
           "sid": 7,
-          "pid": 3,
-          "sentence_index": 0,
+          "pid": 2,
+          "sentence_index": 1,
           "text": "But for the most part, these benefits seem thin, uncertain, and far off.",
           "translation": "但在大多数情况下，这些好处似乎微不足道、不确定且遥远。",
           "slashed_text": "But for the most part , / these benefits seem thin , / uncertain , / and far off.",
@@ -3882,8 +4120,8 @@
         },
         {
           "sid": 8,
-          "pid": 3,
-          "sentence_index": 1,
+          "pid": 2,
+          "sentence_index": 2,
           "text": "In The Moral Consequences of Economic Growth, the economic historian Benjamin Friedman argues that both inside and outside the U.S., lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive, and have usually stopped or reversed the advance of rights and freedoms.",
           "translation": "经济历史学家本杰明·弗里德曼在《经济增长的道德后果》一书中指出，无论是在美国国内还是国外，长期的经济停滞或衰退几乎总是会让社会变得更加卑鄙、包容性更差，并且通常会阻止或逆转权利和自由的进步。",
           "slashed_text": "In The Moral Consequences of Economic Growth , / the economic historian Benjamin Friedman argues / that both inside and outside the U.S. , / lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive , / and have usually stopped or reversed the advance of rights and freedoms.",
@@ -3901,7 +4139,7 @@
         {
           "sid": 9,
           "pid": 3,
-          "sentence_index": 2,
+          "sentence_index": 0,
           "text": "Anti-immigrant sentiment typically increases, as does conflict between races and classes.",
           "translation": "反移民情绪通常会增加，种族和阶级之间的冲突也会增加。",
           "slashed_text": "Anti-immigrant sentiment typically increases , / as does conflict between races and classes.",
@@ -3918,8 +4156,8 @@
         },
         {
           "sid": 10,
-          "pid": 4,
-          "sentence_index": 0,
+          "pid": 3,
+          "sentence_index": 1,
           "text": "Income inequality usually falls during a recession, but it has not shrunk in this one.",
           "translation": "收入不平等通常会在经济衰退期间缩小，但在这次衰退中并没有缩小。",
           "slashed_text": "Income inequality usually falls during a recession , / but it has not shrunk / in this one.",
@@ -3936,8 +4174,8 @@
         },
         {
           "sid": 11,
-          "pid": 5,
-          "sentence_index": 0,
+          "pid": 3,
+          "sentence_index": 2,
           "text": "Indeed, this period of economic weakness may reinforce class divides, and decrease opportunities to cross them—especially for young people.",
           "translation": "事实上，这段经济疲软时期可能会加剧阶级鸿沟，并减少跨越鸿沟的机会——尤其是对年轻人而言。",
           "slashed_text": "Indeed , / this period of economic weakness may reinforce class divides , / and decrease opportunities to cross them — / especially / for young people.",
@@ -3954,8 +4192,8 @@
         },
         {
           "sid": 12,
-          "pid": 5,
-          "sentence_index": 1,
+          "pid": 3,
+          "sentence_index": 3,
           "text": "The research of Till V on Wachter, the economist at Columbia University, suggests that not all people graduating into a recession see their life chances dimmed: those with degrees from elite universities catch up fairly quickly to where they otherwise would have been if they had graduated in better times; it is the masses beneath them that are left behind.",
           "translation": "哥伦比亚大学经济学家蒂尔·V (Till V) 对瓦赫特 (Wachter) 的研究表明，并非所有在经济衰退中毕业的人都会看到自己的生活机会变得黯淡：那些拥有精英大学学位的人很快就会赶上他们在更好的时期毕业时本可以达到的水平；被抛在后面的是他们下面的群众。",
           "slashed_text": "The research of Till V / on Wachter , / the economist / at Columbia University , / suggests / that not all people graduating into a recession see their life chances dimmed : / those / with degrees / from elite universities catch up fairly quickly to / where they otherwise would have been / if they had graduated / in better times ; / it is the masses beneath them / that are left behind.",
@@ -3977,7 +4215,7 @@
         },
         {
           "sid": 13,
-          "pid": 6,
+          "pid": 4,
           "sentence_index": 0,
           "text": "In the Internet age, it is particularly easy to see the resentment that has always been hidden within American society.",
           "translation": "在网络时代，特别容易看到美国社会内部一直隐藏的怨恨情绪。",
@@ -3995,7 +4233,7 @@
         },
         {
           "sid": 14,
-          "pid": 6,
+          "pid": 4,
           "sentence_index": 1,
           "text": "More difficult, in the moment, is discerning precisely how these lean times are affecting society’s character.",
           "translation": "目前，更困难的是准确辨别这些经济不景气的时期如何影响社会特征。",
@@ -4013,7 +4251,7 @@
         },
         {
           "sid": 15,
-          "pid": 6,
+          "pid": 4,
           "sentence_index": 2,
           "text": "In many respects, the U.S.",
           "translation": "美国在很多方面",
@@ -4031,7 +4269,7 @@
         },
         {
           "sid": 16,
-          "pid": 6,
+          "pid": 4,
           "sentence_index": 3,
           "text": "was more socially tolerant entering this recession than at any time in its history, and a variety of national polls on social conflict since then have shown mixed results.",
           "translation": "进入这次衰退的社会容忍度比历史上任何时候都高，自那时以来有关社会冲突的各种全国民意调查显示出不同的结果。",
@@ -4049,7 +4287,7 @@
         },
         {
           "sid": 17,
-          "pid": 6,
+          "pid": 4,
           "sentence_index": 4,
           "text": "We will have to wait and see exactly how these hard times will reshape our social fabric.",
           "translation": "我们将不得不拭目以待，看看这些困难时期将如何重塑我们的社会结构。",
@@ -4067,7 +4305,7 @@
         },
         {
           "sid": 18,
-          "pid": 6,
+          "pid": 4,
           "sentence_index": 5,
           "text": "But they certainly will reshape it, and all the more so the longer they extend.",
           "translation": "但他们肯定会重塑它，而且随着时间的延长，情况更是如此。",
@@ -4090,9 +4328,9 @@
           "stem": "By saying “to find silver linings” (Paragraph 2) the author suggests that the jobless try to \n_____.",
           "stem_cn": "By saying “to find silver linings” (Paragraph 2) the author suggests that the jobless try to \n_____.",
           "type": "事实细节题",
-          "locate_pid": 0,
-          "locate_sentence": "The great recession may be over, but this era of high joblessness is probably beginning.",
-          "locate_sentence_cn": "大衰退可能已经结束，但这个高失业率的时代可能正在开始。",
+          "locate_pid": 1,
+          "locate_sentence": "No one tries harder than the jobless to find silver linings in this national economic disaster.",
+          "locate_sentence_cn": "没有人比失业者更努力地在这场国家经济灾难中寻找一线希望。",
           "options": [
             {
               "key": "A",
@@ -4154,8 +4392,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The great recession may be over, but this era of high joblessness is probably beginning.",
-                "source_translation": "大衰退可能已经结束，但这个高失业率的时代可能正在开始。",
+                "source_sentence": "No one tries harder than the jobless to find silver linings in this national economic disaster.",
+                "source_translation": "没有人比失业者更努力地在这场国家经济灾难中寻找一线希望。",
                 "locator_comparison": "选项核心词 <code>look</code>, <code>bright</code>, <code>side</code>（“看到经济衰退好的一面”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“Before it ends, it will likely change the life course and character of a generation of young adults”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -4171,8 +4409,8 @@
           "stem_cn": "根据第 2 段，经济衰退使人们 _____。",
           "type": "因果推断题",
           "locate_pid": 1,
-          "locate_sentence": "Before it ends, it will likely change the life course and character of a generation of young adults.",
-          "locate_sentence_cn": "在它结束之前，它很可能会改变一代年轻人的生命历程和性格。",
+          "locate_sentence": "Many said that unemployment, while extremely painful, had improved them in some ways; they had become less materialistic and more financially prudent; they were more aware of the struggles of others.",
+          "locate_sentence_cn": "许多人表示，失业虽然极其痛苦，但在某些方面改善了他们的生活。他们变得不那么物质至上，在财务上更加谨慎；他们更了解其他人的挣扎。",
           "options": [
             {
               "key": "A",
@@ -4234,8 +4472,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Before it ends, it will likely change the life course and character of a generation of young adults.",
-                "source_translation": "在它结束之前，它很可能会改变一代年轻人的生命历程和性格。",
+                "source_sentence": "Many said that unemployment, while extremely painful, had improved them in some ways; they had become less materialistic and more financially prudent; they were more aware of the struggles of others.",
+                "source_translation": "许多人表示，失业虽然极其痛苦，但在某些方面改善了他们的生活。他们变得不那么物质至上，在财务上更加谨慎；他们更了解其他人的挣扎。",
                 "locator_comparison": "选项核心词 <code>reconsider</code>, <code>lifestyle</code>（“重新考虑他们的生活方式”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“最终，它可能会在未来几年重塑我们的政治、文化和社会特征。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -4251,8 +4489,8 @@
           "stem_cn": "本杰明·弗里德曼认为经济衰退可能_____。",
           "type": "段落推理题",
           "locate_pid": 2,
-          "locate_sentence": "No one tries harder than the jobless to find silver linings in this national economic disaster.",
-          "locate_sentence_cn": "没有人比失业者更努力地在这场国家经济灾难中寻找一线希望。",
+          "locate_sentence": "But for the most part, these benefits seem thin, uncertain, and far off.",
+          "locate_sentence_cn": "但在大多数情况下，这些好处似乎微不足道、不确定且遥远。",
           "options": [
             {
               "key": "A",
@@ -4280,8 +4518,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "No one tries harder than the jobless to find silver linings in this national economic disaster.",
-                "source_translation": "没有人比失业者更努力地在这场国家经济灾难中寻找一线希望。",
+                "source_sentence": "But for the most part, these benefits seem thin, uncertain, and far off.",
+                "source_translation": "但在大多数情况下，这些好处似乎微不足道、不确定且遥远。",
                 "locator_comparison": "选项核心词 <code>bring</code>, <code>out</code>, <code>evils</code>（“揭露出更多的人性之恶”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“许多人表示，失业虽然极其痛苦，但在某些方面改善了他们的生活。他们变得不那么物质至上，在财务上更加谨慎；他们更了解其他人的挣扎。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -4331,8 +4569,8 @@
           "stem_cn": "The research of Till V on Wachter suggests that in the recession graduates from elite \nuniversities tend to _____.",
           "type": "词义/例证题",
           "locate_pid": 3,
-          "locate_sentence": "But for the most part, these benefits seem thin, uncertain, and far off.",
-          "locate_sentence_cn": "但在大多数情况下，这些好处似乎微不足道、不确定且遥远。",
+          "locate_sentence": "Indeed, this period of economic weakness may reinforce class divides, and decrease opportunities to cross them—especially for young people.",
+          "locate_sentence_cn": "事实上，这段经济疲软时期可能会加剧阶级鸿沟，并减少跨越鸿沟的机会——尤其是对年轻人而言。",
           "options": [
             {
               "key": "A",
@@ -4394,8 +4632,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "But for the most part, these benefits seem thin, uncertain, and far off.",
-                "source_translation": "但在大多数情况下，这些好处似乎微不足道、不确定且遥远。",
+                "source_sentence": "Indeed, this period of economic weakness may reinforce class divides, and decrease opportunities to cross them—especially for young people.",
+                "source_translation": "事实上，这段经济疲软时期可能会加剧阶级鸿沟，并减少跨越鸿沟的机会——尤其是对年轻人而言。",
                 "locator_comparison": "选项核心词 <code>recover</code>, <code>quickly</code>, <code>others</code>（“比其他人恢复得更快”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“经济历史学家本杰明·弗里德曼在《经济增长的道德后果》一书中指出，无论是在美国国内还是国外，长期的经济停滞或衰退几乎总是会让社会变得更加卑鄙、包容性更差，并且通常会阻止或逆转权利和自由的进步。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
@@ -4411,8 +4649,8 @@
           "stem_cn": "笔者认为困难时期对社会的影响是_____。",
           "type": "全文主旨题",
           "locate_pid": 4,
-          "locate_sentence": "Income inequality usually falls during a recession, but it has not shrunk in this one.",
-          "locate_sentence_cn": "收入不平等通常会在经济衰退期间缩小，但在这次衰退中并没有缩小。",
+          "locate_sentence": "But they certainly will reshape it, and all the more so the longer they extend.",
+          "locate_sentence_cn": "但他们肯定会重塑它，而且随着时间的延长，情况更是如此。",
           "options": [
             {
               "key": "A",
@@ -4457,8 +4695,8 @@
               "analysis": {
                 "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Income inequality usually falls during a recession, but it has not shrunk in this one.",
-                "source_translation": "收入不平等通常会在经济衰退期间缩小，但在这次衰退中并没有缩小。",
+                "source_sentence": "But they certainly will reshape it, and all the more so the longer they extend.",
+                "source_translation": "但他们肯定会重塑它，而且随着时间的延长，情况更是如此。",
                 "locator_comparison": "选项核心词 <code>certain</code>（“肯定”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
                 "writing_perspective": "后文实际写道：“Indeed, this period of economic weakness may reinforce class divides, and decrease opportunities to cross them—especially for young people”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
                 "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
