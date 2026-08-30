@@ -24,6 +24,7 @@
   }, 5000);
 
   function init() {
+    window.ReaderModule.init();
     // 1. Restore state from localStorage
     const saved = window.StorageModule.loadProgress();
     if (saved) {
@@ -191,6 +192,7 @@
     if (!step) return;
 
     window.QuizModule.renderStep(step, AppState.stepIndex, AppState.steps.length, 'workspaceContent', AppState.textData);
+    window.ReaderModule.applySettings();
 
     const rightScroll = document.getElementById('rightScroll');
     if (rightScroll && window.innerWidth > 900) {

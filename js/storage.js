@@ -49,14 +49,25 @@
       } catch (e) {}
     },
 
-    loadSettings() {
+        loadSettings() {
       try {
         const s = localStorage.getItem(SETTINGS_KEY);
-        if (s) return JSON.parse(s);
+        if (s) {
+          const obj = JSON.parse(s);
+          if (obj && typeof obj === 'object') {
+            obj.fontSize = Number(obj.fontSize) || 17.5;
+            obj.lineHeight = Number(obj.lineHeight) || 1.85;
+            obj.workspaceFontSize = Number(obj.workspaceFontSize) || 16;
+            obj.workspaceLineHeight = Number(obj.workspaceLineHeight) || 1.75;
+            return obj;
+          }
+        }
       } catch (e) {}
       return {
         fontSize: 17.5,
         lineHeight: 1.85,
+        workspaceFontSize: 16,
+        workspaceLineHeight: 1.75,
         showTrans: false,
         highlightLogic: false
       };

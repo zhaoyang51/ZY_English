@@ -27,40 +27,72 @@
 
     init() {
       const s = window.StorageModule.loadSettings();
-      if (s) Object.assign(this.settings, s);
+      if (s) {
+        Object.assign(this.settings, s);
+      }
+      this.settings.fontSize = Number(this.settings.fontSize) || 17.5;
+      this.settings.lineHeight = Number(this.settings.lineHeight) || 1.85;
+      this.settings.workspaceFontSize = Number(this.settings.workspaceFontSize) || 16;
+      this.settings.workspaceLineHeight = Number(this.settings.workspaceLineHeight) || 1.75;
+
       this.applySettings();
       this.bindWorkspaceToolbarEvents();
     },
 
     applySettings() {
-      document.documentElement.style.setProperty('--reader-font-size', `${this.settings.fontSize}px`);
-      document.documentElement.style.setProperty('--reader-line-height', `${this.settings.lineHeight}`);
-      document.documentElement.style.setProperty('--workspace-font-size', `${this.settings.workspaceFontSize}px`);
-      document.documentElement.style.setProperty('--workspace-line-height', `${this.settings.workspaceLineHeight}`);
+      const fs = Number(this.settings.fontSize) || 17.5;
+      const lh = Number(this.settings.lineHeight) || 1.85;
+      const wsFs = Number(this.settings.workspaceFontSize) || 16;
+      const wsLh = Number(this.settings.workspaceLineHeight) || 1.75;
+
+      document.documentElement.style.setProperty('--reader-font-size', `${fs}px`);
+      document.documentElement.style.setProperty('--reader-line-height', `${lh}`);
+      document.documentElement.style.setProperty('--workspace-font-size', `${wsFs}px`);
+      document.documentElement.style.setProperty('--workspace-line-height', `${wsLh}`);
+
+      // Also set inline style on #workspaceContent for immediate reaction
+      const wsEl = document.getElementById('workspaceContent');
+      if (wsEl) {
+        wsEl.style.fontSize = `${wsFs}px`;
+        wsEl.style.lineHeight = `${wsLh}`;
+      }
+
+      const examEl = document.getElementById('examPaper');
+      if (examEl) {
+        examEl.style.fontSize = `${fs}px`;
+        examEl.style.lineHeight = `${lh}`;
+      }
+
       window.StorageModule.saveSettings(this.settings);
       this.updateToolbarActiveStates();
     },
 
     updateToolbarActiveStates() {
-      // Left Toolbar Line Height states
+      // 1. Left reader toolbar badges & buttons
+      const readerFontBadge = document.getElementById('readerFontBadge');
+      if (readerFontBadge) {
+        readerFontBadge.textContent = `${this.settings.fontSize}px`;
+      }
+
       const btnTight = document.getElementById('btnLhTight');
       const btnNormal = document.getElementById('btnLhNormal');
       const btnLoose = document.getElementById('btnLhLoose');
-      if (btnTight && btnNormal && btnLoose) {
-        btnTight.classList.toggle('active', this.settings.lineHeight === 1.6);
-        btnNormal.classList.toggle('active', this.settings.lineHeight === 1.85);
-        btnLoose.classList.toggle('active', this.settings.lineHeight === 2.2);
+      if (btnTight) btnTight.classList.toggle('active', this.settings.lineHeight === 1.6);
+      if (btnNormal) btnNormal.classList.toggle('active', this.settings.lineHeight === 1.85);
+      if (btnLoose) btnLoose.classList.toggle('active', this.settings.lineHeight === 2.2);
+
+      // 2. Right workspace toolbar badges & buttons
+      const wsFontBadge = document.getElementById('wsFontBadge');
+      if (wsFontBadge) {
+        wsFontBadge.textContent = `${this.settings.workspaceFontSize}px`;
       }
 
-      // Right Workspace Toolbar Line Height states
       const btnWsTight = document.getElementById('btnWsLhTight');
       const btnWsNormal = document.getElementById('btnWsLhNormal');
       const btnWsLoose = document.getElementById('btnWsLhLoose');
-      if (btnWsTight && btnWsNormal && btnWsLoose) {
-        btnWsTight.classList.toggle('active', this.settings.workspaceLineHeight === 1.5);
-        btnWsNormal.classList.toggle('active', this.settings.workspaceLineHeight === 1.75);
-        btnWsLoose.classList.toggle('active', this.settings.workspaceLineHeight === 2.1);
-      }
+      if (btnWsTight) btnWsTight.classList.toggle('active', this.settings.workspaceLineHeight === 1.5);
+      if (btnWsNormal) btnWsNormal.classList.toggle('active', this.settings.workspaceLineHeight === 1.75);
+      if (btnWsLoose) btnWsLoose.classList.toggle('active', this.settings.workspaceLineHeight === 2.1);
     },
 
     bindWorkspaceToolbarEvents() {
@@ -70,45 +102,45 @@
       const btnWsNormal = document.getElementById('btnWsLhNormal');
       const btnWsLoose = document.getElementById('btnWsLhLoose');
 
-      if (btnWsDec && !btnWsDec.hasAttribute('data-bound')) {
-        btnWsDec.setAttribute('data-bound', 'true');
-        btnWsDec.onclick = () => {
-          if (this.settings.workspaceFontSize > 13) {
-            this.settings.workspaceFontSize -= 1;
+      if (btnWsDec) {
+        btnWsDec.onclick = (e) => {
+          e.preventDefault();
+          if (this.settings.workspaceFontSize > 12) {
+            this.settings.workspaceFontSize = Math.max(12, Number((this.settings.workspaceFontSize - 1.5).toFixed(1)));
             this.applySettings();
           }
         };
       }
 
-      if (btnWsInc && !btnWsInc.hasAttribute('data-bound')) {
-        btnWsInc.setAttribute('data-bound', 'true');
-        btnWsInc.onclick = () => {
-          if (this.settings.workspaceFontSize < 26) {
-            this.settings.workspaceFontSize += 1;
+      if (btnWsInc) {
+        btnWsInc.onclick = (e) => {
+          e.preventDefault();
+          if (this.settings.workspaceFontSize < 28) {
+            this.settings.workspaceFontSize = Math.min(28, Number((this.settings.workspaceFontSize + 1.5).toFixed(1)));
             this.applySettings();
           }
         };
       }
 
-      if (btnWsTight && !btnWsTight.hasAttribute('data-bound')) {
-        btnWsTight.setAttribute('data-bound', 'true');
-        btnWsTight.onclick = () => {
+      if (btnWsTight) {
+        btnWsTight.onclick = (e) => {
+          e.preventDefault();
           this.settings.workspaceLineHeight = 1.5;
           this.applySettings();
         };
       }
 
-      if (btnWsNormal && !btnWsNormal.hasAttribute('data-bound')) {
-        btnWsNormal.setAttribute('data-bound', 'true');
-        btnWsNormal.onclick = () => {
+      if (btnWsNormal) {
+        btnWsNormal.onclick = (e) => {
+          e.preventDefault();
           this.settings.workspaceLineHeight = 1.75;
           this.applySettings();
         };
       }
 
-      if (btnWsLoose && !btnWsLoose.hasAttribute('data-bound')) {
-        btnWsLoose.setAttribute('data-bound', 'true');
-        btnWsLoose.onclick = () => {
+      if (btnWsLoose) {
+        btnWsLoose.onclick = (e) => {
+          e.preventDefault();
           this.settings.workspaceLineHeight = 2.1;
           this.applySettings();
         };
@@ -125,8 +157,9 @@
         <div class="reader-toolbar" id="readerToolbar">
           <div class="toolbar-group">
             <span style="font-size:0.82em;font-weight:700;color:var(--muted)">字号:</span>
-            <button class="toolbar-btn" id="btnFontDec" title="缩小字号">A-</button>
-            <button class="toolbar-btn" id="btnFontInc" title="放大字号">A+</button>
+            <button class="toolbar-btn" id="btnFontDec" title="缩小文章字号">A-</button>
+            <span class="font-size-badge" id="readerFontBadge">${this.settings.fontSize}px</span>
+            <button class="toolbar-btn" id="btnFontInc" title="放大文章字号">A+</button>
           </div>
           <div class="toolbar-group">
             <span style="font-size:0.82em;font-weight:700;color:var(--muted)">行距:</span>
@@ -152,7 +185,7 @@
         pSents.forEach(s => {
           let formattedText = this.formatSentenceText(s.text, p.vocabulary);
           let transHtml = this.settings.showTrans ? `<span class="sent-trans-inline">${s.translation}</span>` : '';
-          paraSentsHtml += `<span class="exam-sent" id="sent-${s.sid}" data-sid="${s.sid}" data-pid="${s.pid}" title="点击查看长难句拆解">${formattedText}</span> ${transHtml}`;
+          paraSentsHtml += `<span class="exam-sent" id="sent-${s.sid}" data-sid="${s.sid}" data-pid="${p.pid}" title="点击查看长难句拆解">${formattedText}</span> ${transHtml}`;
         });
 
         html += `
@@ -222,32 +255,36 @@
       const logicBtn = document.getElementById('btnToggleLogic');
 
       if (decBtn) {
-        decBtn.onclick = () => {
-          if (this.settings.fontSize > 14) {
-            this.settings.fontSize -= 1;
+        decBtn.onclick = (e) => {
+          e.preventDefault();
+          if (this.settings.fontSize > 13) {
+            this.settings.fontSize = Math.max(13, Number((this.settings.fontSize - 1.5).toFixed(1)));
             this.applySettings();
           }
         };
       }
 
       if (incBtn) {
-        incBtn.onclick = () => {
+        incBtn.onclick = (e) => {
+          e.preventDefault();
           if (this.settings.fontSize < 28) {
-            this.settings.fontSize += 1;
+            this.settings.fontSize = Math.min(28, Number((this.settings.fontSize + 1.5).toFixed(1)));
             this.applySettings();
           }
         };
       }
 
       document.querySelectorAll('#readerToolbar [data-lh]').forEach(btn => {
-        btn.onclick = () => {
+        btn.onclick = (e) => {
+          e.preventDefault();
           this.settings.lineHeight = Number(btn.getAttribute('data-lh'));
           this.applySettings();
         };
       });
 
       if (transBtn) {
-        transBtn.onclick = () => {
+        transBtn.onclick = (e) => {
+          e.preventDefault();
           this.settings.showTrans = !this.settings.showTrans;
           transBtn.classList.toggle('active', this.settings.showTrans);
           this.renderExamPaper(textData, containerId);
@@ -255,7 +292,8 @@
       }
 
       if (logicBtn) {
-        logicBtn.onclick = () => {
+        logicBtn.onclick = (e) => {
+          e.preventDefault();
           this.settings.highlightLogic = !this.settings.highlightLogic;
           logicBtn.classList.toggle('active', this.settings.highlightLogic);
           this.renderExamPaper(textData, containerId);
