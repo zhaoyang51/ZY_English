@@ -644,12 +644,17 @@ body.theme-dark .vocab-tip {
   max-height: 80vh;
   background: var(--surface);
   border-top: 2px solid var(--mode-color);
-  box-shadow: 0 -10px 25px rgba(0,0,0,0.15);
+  box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius-lg) var(--radius-lg) 0 0;
   z-index: 150;
   display: none;
   flex-direction: column;
   animation: slideUp 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  font-family: var(--font-base);
+}
+
+.syntax-modal * {
+  font-family: var(--font-base) !important;
 }
 
 .syntax-modal.show {
