@@ -12,7 +12,7 @@
           "text": "In the quest for the perfect lawn, homeowners across the country are taking a shortcut— and it is the environment that is paying the price. About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles. The Chelsea Flower Show has banned fake grass from this year’s event, declaring it to be not part of its ethos. The Royal Horticultural Society (RHS), which runs the annual show in west London, says it has introduced the ban because of the damage plastic grass does to the environment and biodiversity.",
           "translation": "为了追求完美的草坪，全国各地的房主都在走捷径——而付出代价的是环境。塑料草每年售出约 800 万平方米，但反对声音现已蔓延至最高园艺界。切尔西花展已禁止在今年的活动中使用假草，并宣称这不是其精神的一部分。在伦敦西部举办年度展览的皇家园艺学会（RHS）表示，由于塑料草对环境和生物多样性造成损害，因此推出了这项禁令。",
           "slashed_text": "In the quest for the perfect lawn , / homeowners across the country are taking a shortcut — / and it is the environment / that is paying the price. About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles. The Chelsea Flower Show has banned fake grass / from this year’s event , / declaring it to be not part of its ethos. The Royal Horticultural Society (RHS) , / which runs the annual show / in west London , / says it has introduced the ban / because of the damage plastic grass does to the environment and biodiversity.",
-          "chunk_translation": "追求完美的草坪 / 全国各地的房主都在走捷径 / 这就是环境 / that is paying the price. About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles. The Chelsea Flower Show has banned fake grass / from this year’s event / declaring it to be not part of its ethos. The Royal Horticultural Society (RHS) / which runs the annual show / in west London / 称已出台禁令 / 因为塑料草对环境和生物多样性造成的损害",
+          "chunk_translation": "在追求完美草坪的过程中， / 全国各地的房主们正在走一条捷径—— / 然而正是自然生态环境 / 在为此付出沉重代价。每年约有800万平方米的人造塑料草坪售出，但反对的呼声如今已蔓延至园艺界的最高层圈子。切尔西花展已明令禁止人造假草 / 进入今年的展会， / 并宣称其与该展会的生态理念背道而驰。英国皇家园艺学会（RHS）， / 该学会负责在西伦敦 / 举办这一年度盛会， / 表示出台这项禁令是 / 鉴于塑料草坪对自然环境和生物多样性所造成的破坏。",
           "vocabulary": [
             {
               "word": "quest",
@@ -66,7 +66,7 @@
           "text": "Ed Horne, of the RHS, said: “We launched our sustainability strategy last year and fake grass is just not in line with our ethos and views on plastic. We recommend using real grass because of its environmental benefits, which include supporting wildlife, alleviating flooding and cooling the environment.”",
           "translation": "英国皇家园艺学会的埃德·霍恩 (Ed Horne) 表示：“我们去年推出了可持续发展战略，而假草不符合我们的精神和对塑料的看法。我们建议使用真草，因为它对环境有益，包括支持野生动物、缓解洪水和冷却环境。”",
           "slashed_text": "Ed Horne , / of the RHS , / said : / “We launched our sustainability strategy last year and fake grass is just not / in line with our ethos and views / on plastic. We recommend using real grass / because of its environmental benefits , / which include supporting wildlife , / alleviating flooding and cooling the environment.”",
-          "chunk_translation": "埃德·霍恩 / 皇家园艺学会的 / 说 / We launched our sustainability strategy last year and fake grass is just not / in line with our ethos and views / on plastic. We recommend using real grass / 因为它的环境效益 / 其中包括支持野生动物 / 缓解洪水并冷却环境。”",
+          "chunk_translation": "来自皇家园艺学会的 / 埃德·霍恩 / 表示： / “我们在去年启动了可持续发展战略，而人造假草根本不 / 符合我们的核心理念以及对塑料制品的 / 审慎看法。我们强烈建议使用天然真草， / 因为真草具有显著的生态效益， / 包括为野生生物提供栖息支持、 / 缓解城市内涝洪灾以及降低环境温度。”",
           "vocabulary": [
             {
               "word": "Horne",
@@ -120,7 +120,7 @@
           "text": "The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes. A Twitter account, which claims to “cut through the greenwash” of artificial grass, already has more than 20,000 followers. It is trying to encourage people to sign two petitions, one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns. They have gathered 7,276 and 11,282 signatures.",
           "translation": "英国皇家园艺学会做出这一决定之际，活动人士正试图提高人们对假草造成的问题的认识。一个声称要“打破人造草绿化”的 Twitter 账户已经拥有超过 20,000 名粉丝。它试图鼓励人们签署两份请愿书，一份呼吁禁止销售塑料草，另一份呼吁对此类草坪征收“生态破坏”税。他们已收集了 7,276 和 11,282 个签名。",
           "slashed_text": "The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes. A Twitter account , / which claims to “cut through the greenwash” of artificial grass , / already has more than 20 , / 000 followers. It is trying to encourage people to sign two petitions , / one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax / on such lawns. They have gathered 7 , / 276 and 11 , / 282 signatures.",
-          "chunk_translation": "The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes. A Twitter account / 声称可以“打破人造草坪的绿化” / already has more than 20 / 000 followers. It is trying to encourage people to sign two petitions / one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax / on such lawns. They have gathered 7 / 276 and 11 / 282 signatures",
+          "chunk_translation": "皇家园艺学会做出这一决定之际，环保倡导者们也正努力唤起公众对人造假草所致危害的认知。一个推特账号， / 该账号声称要“戳穿人造草坪的伪环保谎言”， / 如今已拥有超过2 / 万名关注者。该账号正努力鼓励公众签署两份请愿书， / 一份呼吁全面禁止销售塑料草坪，另一份则呼吁对此类草坪开征“生态损害”税 / 对此类人造草坪征税。两份请愿书已分别征集到了7 / 276个和11 / 282个签名。",
           "vocabulary": [
             {
               "word": "decision",
@@ -174,7 +174,7 @@
           "text": "However, supporters of fake grass point out that there is also an environmental impact with natural lawns, which need mowing and therefore usually consume electricity or petrol.",
           "translation": "然而，假草的支持者指出，天然草坪也会对环境造成影响，因为天然草坪需要修剪，因此通常会消耗电力或汽油。",
           "slashed_text": "However , / supporters of fake grass point out / that there is also an environmental impact / with natural lawns , / which need mowing and therefore usually consume electricity or petrol.",
-          "chunk_translation": "然而 / 假草的支持者指出 / that there is also an environmental impact / with natural lawns / 需要割草，因此通常消耗电力或汽油",
+          "chunk_translation": "然而， / 假草的支持者指出， / 天然草坪同样 / 会对环境产生影响， / 因为真草需要定期修剪，从而通常会消耗电力或汽油。",
           "vocabulary": [
             {
               "word": "However",
@@ -228,7 +228,7 @@
           "text": "The industry also points out that real grass requires considerable amounts of water, weed killer or other treatments and that people who lay fake grass tend to use their garden more.",
           "translation": "该行业还指出，真草需要大量的水、除草剂或其他处理方法，而铺设假草的人往往会更多地使用他们的花园。",
           "slashed_text": "The industry also points out / that real grass requires considerable amounts of water , / weed killer or other treatments and / that people / who lay fake grass tend to use their garden more.",
-          "chunk_translation": "业内人士还指出 / 真正的草需要大量的水 / 除草剂或其他治疗方法以及 / 那个人 / 铺设假草的人往往更多地使用他们的花园",
+          "chunk_translation": "该行业还指出， / 天然草坪需要消耗大量水资源、 / 除草剂或其他养护药物，并且 / 那些 / 铺设了人造假草的人往往更频繁地使用他们的花园。",
           "vocabulary": [
             {
               "word": "industry",
@@ -282,7 +282,7 @@
           "text": "The industry also claims that people who lay fake grass spend an average of £500 on trees or shrubs for their garden, which provides habitat for insects.",
           "translation": "该行业还声称，铺设假草的人平均花费 500 英镑在花园里种植树木或灌木，为昆虫提供栖息地。",
           "slashed_text": "The industry also claims / that people / who lay fake grass spend an average of £500 / on trees or shrubs / for their garden , / which provides habitat / for insects.",
-          "chunk_translation": "业内还声称 / 那个人 / who lay fake grass spend an average of £500 / on trees or shrubs / for their garden / which provides habitat / for insects",
+          "chunk_translation": "业内人士还宣称， / 那些 / 铺设假草的人平均会花费500英镑 / 购买树木或灌木 / 用于装点花园， / 这同样能为昆虫 / 提供栖息家园。",
           "vocabulary": [
             {
               "word": "industry",
@@ -336,7 +336,7 @@
           "text": "In response to another petition last year about banning fake lawns, which gathered 30,000 signatures, the government responded that it has “no plans to ban the use of artificial grass”. It added: “We prefer to help people and organizations make the right choice rather than legislating on such matters. However, the use of artificial grass must comply with the legal and policy safeguards in place to protect biodiversity and ensure sustainable drainage while measures such as the strengthened biodiversity duty should serve to encourage public authorities to consider sustainable alternatives.”",
           "translation": "去年，另一份关于禁止假草坪的请愿书收集了 30,000 个签名，在回应时，政府回应称“没有计划禁止使用人造草坪”。它补充说：“我们更愿意帮助人们和组织做出正确的选择，而不是就此类问题立法。然而，人造草坪的使用必须遵守现有的法律和政策保障措施，以保护生物多样性并确保可持续排水，而加强生物多样性责任等措施应有助于鼓励公共当局考虑可持续的替代方案。”",
           "slashed_text": "In response to another petition last year / about banning fake lawns , / which gathered 30 , / 000 signatures , / the government responded / that it has “no plans to ban the use of artificial grass”. It added : / “We prefer to help people and organizations make the right choice rather than legislating / on such matters. However , / the use of artificial grass must comply with the legal and policy safeguards / in place to protect biodiversity and ensure sustainable drainage / while measures such as the strengthened biodiversity duty should serve to encourage public authorities to consider sustainable alternatives.”",
-          "chunk_translation": "In response to another petition last year / about banning fake lawns / which gathered 30 / 000 signatures / 政府回应 / that it has “no plans to ban the use of artificial grass”. It added / We prefer to help people and organizations make the right choice rather than legislating / on such matters. However / the use of artificial grass must comply with the legal and policy safeguards / in place to protect biodiversity and ensure sustainable drainage / 而加强生物多样性义务等措施应有助于鼓励公共当局考虑可持续的替代方案。”",
+          "chunk_translation": "针对去年另一份请愿书 / 关于禁止人造草坪的提议， / 该请愿征集了3 / 万个签名， / 英国政府回应称， / 目前“没有计划禁止使用人造草坪”。政府补充道： / “我们更倾向于引导个人与机构做出明智选择，而非直接就此类事项 / 立法规制。然而， / 人造草坪的使用必须遵守现行的法律法规和政策保障措施， / 以保护生物多样性并确保可持续排水， / 同时强化生物多样性职责等举措也应鼓励公共部门积极考虑可持续的替代方案。”",
           "vocabulary": [
             {
               "word": "response",
@@ -394,7 +394,7 @@
           "text": "In the quest for the perfect lawn, homeowners across the country are taking a shortcut— and it is the environment that is paying the price.",
           "translation": "为了追求完美的草坪，全国各地的房主都在走捷径——而付出代价的是环境。",
           "slashed_text": "In the quest for the perfect lawn , / homeowners across the country are taking a shortcut — / and it is the environment / that is paying the price.",
-          "chunk_translation": "追求完美的草坪 / 全国各地的房主都在走捷径 / 这就是环境 / 那是付出代价的",
+          "chunk_translation": "在追求完美草坪的过程中， / 全国各地的房主们正在走一条捷径—— / 然而正是自然生态环境 / 在为此付出沉重代价。",
           "syntax": {
             "breakdown": [
               {
@@ -412,7 +412,7 @@
           "text": "About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles.",
           "translation": "塑料草每年售出约 800 万平方米，但反对声音现已蔓延至最高园艺界。",
           "slashed_text": "About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles.",
-          "chunk_translation": "塑料草每年售出约 800 万平方米，但反对声音现已蔓延至最高园艺界",
+          "chunk_translation": "每年约有800万平方米的人造塑料草坪售出，但反对的呼声如今已蔓延至园艺界的最高层圈子。",
           "syntax": {
             "breakdown": [
               {
@@ -430,7 +430,7 @@
           "text": "The Chelsea Flower Show has banned fake grass from this year’s event, declaring it to be not part of its ethos.",
           "translation": "切尔西花展已禁止在今年的活动中使用假草，并宣称这不是其精神的一部分。",
           "slashed_text": "The Chelsea Flower Show has banned fake grass / from this year’s event , / declaring it to be not part of its ethos.",
-          "chunk_translation": "The Chelsea Flower Show has banned fake grass / from this year’s event / 宣称这不是其精神的一部分",
+          "chunk_translation": "切尔西花展已明令禁止人造假草 / 进入今年的展会， / 并宣称其与该展会的生态理念背道而驰。",
           "syntax": {
             "breakdown": [
               {
@@ -448,7 +448,7 @@
           "text": "The Royal Horticultural Society (RHS), which runs the annual show in west London, says it has introduced the ban because of the damage plastic grass does to the environment and biodiversity.",
           "translation": "在伦敦西部举办年度展览的皇家园艺学会（RHS）表示，由于塑料草对环境和生物多样性造成损害，因此推出了这项禁令。",
           "slashed_text": "The Royal Horticultural Society (RHS) , / which runs the annual show / in west London , / says it has introduced the ban / because of the damage plastic grass does to the environment and biodiversity.",
-          "chunk_translation": "英国皇家园艺学会 (RHS) / which runs the annual show / in west London / 称已出台禁令 / 因为塑料草对环境和生物多样性造成的损害",
+          "chunk_translation": "英国皇家园艺学会（RHS）， / 该学会负责在西伦敦 / 举办这一年度盛会， / 表示出台这项禁令是 / 鉴于塑料草坪对自然环境和生物多样性所造成的破坏。",
           "syntax": {
             "breakdown": [
               {
@@ -471,7 +471,7 @@
           "text": "Ed Horne, of the RHS, said: “We launched our sustainability strategy last year and fake grass is just not in line with our ethos and views on plastic.",
           "translation": "英国皇家园艺学会的埃德·霍恩（Ed Horne）表示：“我们去年推出了可持续发展战略，而假草不符合我们对塑料的精神和观点。",
           "slashed_text": "Ed Horne , / of the RHS , / said : / “We launched our sustainability strategy last year and fake grass is just not / in line with our ethos and views / on plastic.",
-          "chunk_translation": "埃德·霍恩 / 皇家园艺学会的 / 说 / We launched our sustainability strategy last year and fake grass is just not / in line with our ethos and views / on plastic",
+          "chunk_translation": "来自皇家园艺学会的 / 埃德·霍恩 / 表示： / “我们在去年启动了可持续发展战略，而人造假草根本不 / 符合我们的核心理念以及对塑料制品的 / 审慎看法。",
           "syntax": {
             "breakdown": [
               {
@@ -489,7 +489,7 @@
           "text": "We recommend using real grass because of its environmental benefits, which include supporting wildlife, alleviating flooding and cooling the environment.”",
           "translation": "我们建议使用真草，因为它具有环境效益，包括支持野生动物、缓解洪水和冷却环境。”",
           "slashed_text": "We recommend using real grass / because of its environmental benefits , / which include supporting wildlife , / alleviating flooding and cooling the environment.”",
-          "chunk_translation": "我们建议使用真草 / 因为它的环境效益 / 其中包括支持野生动物 / 缓解洪水并冷却环境。”",
+          "chunk_translation": "我们强烈建议使用天然真草， / 因为真草具有显著的生态效益， / 包括为野生生物提供栖息支持、 / 缓解城市内涝洪灾以及降低环境温度。”",
           "syntax": {
             "breakdown": [
               {
@@ -512,7 +512,7 @@
           "text": "The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes.",
           "translation": "英国皇家园艺学会做出这一决定之际，活动人士正试图提高人们对假草造成的问题的认识。",
           "slashed_text": "The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes.",
-          "chunk_translation": "英国皇家园艺学会做出这一决定之际，活动人士正试图提高人们对假草造成的问题的认识",
+          "chunk_translation": "皇家园艺学会做出这一决定之际，环保倡导者们也正努力唤起公众对人造假草所致危害的认知。",
           "syntax": {
             "breakdown": [
               {
@@ -530,7 +530,7 @@
           "text": "A Twitter account, which claims to “cut through the greenwash” of artificial grass, already has more than 20,000 followers.",
           "translation": "一个声称要“打破人造草绿化”的 Twitter 账户已经拥有超过 20,000 名粉丝。",
           "slashed_text": "A Twitter account , / which claims to “cut through the greenwash” of artificial grass , / already has more than 20 , / 000 followers.",
-          "chunk_translation": "一个推特帐户 / 声称可以“打破人造草坪的绿化” / already has more than 20 / 000 followers",
+          "chunk_translation": "一个推特账号， / 该账号声称要“戳穿人造草坪的伪环保谎言”， / 如今已拥有超过2 / 万名关注者。",
           "syntax": {
             "breakdown": [
               {
@@ -548,7 +548,7 @@
           "text": "It is trying to encourage people to sign two petitions, one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns.",
           "translation": "它试图鼓励人们签署两份请愿书，一份呼吁禁止销售塑料草，另一份呼吁对此类草坪征收“生态破坏”税。",
           "slashed_text": "It is trying to encourage people to sign two petitions , / one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax / on such lawns.",
-          "chunk_translation": "它试图鼓励人们签署两份请愿书 / one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax / on such lawns",
+          "chunk_translation": "该账号正努力鼓励公众签署两份请愿书， / 一份呼吁全面禁止销售塑料草坪，另一份则呼吁对此类草坪开征“生态损害”税 / 对此类人造草坪征税。",
           "syntax": {
             "breakdown": [
               {
@@ -566,7 +566,7 @@
           "text": "They have gathered 7,276 and 11,282 signatures.",
           "translation": "他们已收集了 7,276 和 11,282 个签名。",
           "slashed_text": "They have gathered 7 , / 276 and 11 , / 282 signatures.",
-          "chunk_translation": "They have gathered 7 / 276 and 11 / 282 signatures",
+          "chunk_translation": "两份请愿书已分别征集到了7 / 276个和11 / 282个签名。",
           "syntax": {
             "breakdown": [
               {
@@ -584,7 +584,7 @@
           "text": "However, supporters of fake grass point out that there is also an environmental impact with natural lawns, which need mowing and therefore usually consume electricity or petrol.",
           "translation": "然而，假草的支持者指出，天然草坪也会对环境造成影响，因为天然草坪需要修剪，因此通常会消耗电力或汽油。",
           "slashed_text": "However , / supporters of fake grass point out / that there is also an environmental impact / with natural lawns , / which need mowing and therefore usually consume electricity or petrol.",
-          "chunk_translation": "然而 / 假草的支持者指出 / that there is also an environmental impact / with natural lawns / 需要割草，因此通常消耗电力或汽油",
+          "chunk_translation": "然而， / 假草的支持者指出， / 天然草坪同样 / 会对环境产生影响， / 因为真草需要定期修剪，从而通常会消耗电力或汽油。",
           "syntax": {
             "breakdown": [
               {
@@ -602,7 +602,7 @@
           "text": "The industry also points out that real grass requires considerable amounts of water, weed killer or other treatments and that people who lay fake grass tend to use their garden more.",
           "translation": "该行业还指出，真草需要大量的水、除草剂或其他处理方法，而铺设假草的人往往会更多地使用他们的花园。",
           "slashed_text": "The industry also points out / that real grass requires considerable amounts of water , / weed killer or other treatments and / that people / who lay fake grass tend to use their garden more.",
-          "chunk_translation": "业内人士还指出 / 真正的草需要大量的水 / 除草剂或其他治疗方法以及 / 那个人 / 铺设假草的人往往更多地使用他们的花园",
+          "chunk_translation": "该行业还指出， / 天然草坪需要消耗大量水资源、 / 除草剂或其他养护药物，并且 / 那些 / 铺设了人造假草的人往往更频繁地使用他们的花园。",
           "syntax": {
             "breakdown": [
               {
@@ -620,7 +620,7 @@
           "text": "The industry also claims that people who lay fake grass spend an average of £500 on trees or shrubs for their garden, which provides habitat for insects.",
           "translation": "该行业还声称，铺设假草的人平均花费 500 英镑在花园里种植树木或灌木，为昆虫提供栖息地。",
           "slashed_text": "The industry also claims / that people / who lay fake grass spend an average of £500 / on trees or shrubs / for their garden , / which provides habitat / for insects.",
-          "chunk_translation": "业内还声称 / 那个人 / who lay fake grass spend an average of £500 / on trees or shrubs / for their garden / which provides habitat / for insects",
+          "chunk_translation": "业内人士还宣称， / 那些 / 铺设假草的人平均会花费500英镑 / 购买树木或灌木 / 用于装点花园， / 这同样能为昆虫 / 提供栖息家园。",
           "syntax": {
             "breakdown": [
               {
@@ -638,7 +638,7 @@
           "text": "In response to another petition last year about banning fake lawns, which gathered 30,000 signatures, the government responded that it has “no plans to ban the use of artificial grass”.",
           "translation": "去年，另一份关于禁止假草坪的请愿书收集了 30,000 个签名，在回应时，政府回应称“没有计划禁止使用人造草坪”。",
           "slashed_text": "In response to another petition last year / about banning fake lawns , / which gathered 30 , / 000 signatures , / the government responded / that it has “no plans to ban the use of artificial grass”.",
-          "chunk_translation": "In response to another petition last year / about banning fake lawns / which gathered 30 / 000 signatures / 政府回应 / that it has “no plans to ban the use of artificial grass",
+          "chunk_translation": "针对去年另一份请愿书 / 关于禁止人造草坪的提议， / 该请愿征集了3 / 万个签名， / 英国政府回应称， / 目前“没有计划禁止使用人造草坪”。",
           "syntax": {
             "breakdown": [
               {
@@ -656,7 +656,7 @@
           "text": "It added: “We prefer to help people and organizations make the right choice rather than legislating on such matters.",
           "translation": "它补充道：“我们更愿意帮助人们和组织做出正确的选择，而不是就此类问题立法。",
           "slashed_text": "It added : / “We prefer to help people and organizations make the right choice rather than legislating / on such matters.",
-          "chunk_translation": "它添加了 / We prefer to help people and organizations make the right choice rather than legislating / on such matters",
+          "chunk_translation": "政府补充道： / “我们更倾向于引导个人与机构做出明智选择，而非直接就此类事项 / 立法规制。",
           "syntax": {
             "breakdown": [
               {
@@ -674,7 +674,7 @@
           "text": "However, the use of artificial grass must comply with the legal and policy safeguards in place to protect biodiversity and ensure sustainable drainage while measures such as the strengthened biodiversity duty should serve to encourage public authorities to consider sustainable alternatives.”",
           "translation": "然而，人造草的使用必须符合现有的法律和政策保障措施，以保护生物多样性并确保可持续排水，而加强生物多样性义务等措施应有助于鼓励公共当局考虑可持续的替代方案。”",
           "slashed_text": "However , / the use of artificial grass must comply with the legal and policy safeguards / in place to protect biodiversity and ensure sustainable drainage / while measures such as the strengthened biodiversity duty should serve to encourage public authorities to consider sustainable alternatives.”",
-          "chunk_translation": "然而 / the use of artificial grass must comply with the legal and policy safeguards / in place to protect biodiversity and ensure sustainable drainage / 而加强生物多样性义务等措施应有助于鼓励公共当局考虑可持续的替代方案。”",
+          "chunk_translation": "然而， / 人造草坪的使用必须遵守现行的法律法规和政策保障措施， / 以保护生物多样性并确保可持续排水， / 同时强化生物多样性职责等举措也应鼓励公共部门积极考虑可持续的替代方案。”",
           "syntax": {
             "breakdown": [
               {
@@ -1147,7 +1147,7 @@
           "text": "It’s easy to dismiss as absurd the Trump administration’s ideas for plugging the chronic funding gap of our national parks. Can anyone really think it’s a good idea to allow Amazon deliveries to your tent in Yosemite or food trucks to line up under the redwood trees at Sequoia National Park?",
           "translation": "特朗普政府填补国家公园长期资金缺口的想法很容易被认为是荒谬的。有人真的认为让亚马逊送货到你在优胜美地的帐篷或让食品卡车在红杉国家公园的红杉树下排队是个好主意吗？",
           "slashed_text": "It’s easy to dismiss as absurd the Trump administration’s ideas / for plugging the chronic funding gap of our national parks. Can anyone really think it’s a good idea to allow Amazon deliveries to your tent / in Yosemite or food trucks to line up under the redwood trees / at Sequoia National Park?",
-          "chunk_translation": "It’s easy to dismiss as absurd the Trump administration’s ideas / for plugging the chronic funding gap of our national parks. Can anyone really think it’s a good idea to allow Amazon deliveries to your tent / in Yosemite or food trucks to line up under the redwood trees / at Sequoia National Park?",
+          "chunk_translation": "人们很容易将特朗普政府的设想斥为荒谬， / 那些旨在填补全美国家公园长期资金缺口的方案。真有人会觉得允许亚马逊将快递直接送到优胜美地的帐篷里， / 或者让快餐餐车排在红杉国家公园的参天红杉树下 / 是个好主意吗？",
           "vocabulary": [
             {
               "word": "easy",
@@ -1201,7 +1201,7 @@
           "text": "But the administration is right about one thing: U.S. national parks are in crisis.",
           "translation": "但政府在一件事上是正确的：美国国家公园正处于危机之中。",
           "slashed_text": "But the administration is right about one thing : / U.S. national parks are / in crisis.",
-          "chunk_translation": "但政府在一件事上是对的 / U.S. national parks are / in crisis",
+          "chunk_translation": "但政府在一件事上确实说对了： / 全美国家公园正 / 深陷危机之中。",
           "vocabulary": [
             {
               "word": "administration",
@@ -1235,7 +1235,7 @@
           "text": "Collectively, they have a maintenance backlog of more than $12 billion. Roads, trails, restrooms, visitor centers and other infrastructure are crumbling.",
           "translation": "他们总共有超过 120 亿美元的维护积压。道路、小径、卫生间、游客中心和其他基础设施都在崩溃。",
           "slashed_text": "Collectively , / they have a maintenance backlog of more than $12 billion. Roads , / trails , / restrooms , / visitor centers and other infrastructure are crumbling.",
-          "chunk_translation": "集体 / they have a maintenance backlog of more than $12 billion. Roads / 踪迹 / 洗手间 / 游客中心和其他基础设施正在崩溃",
+          "chunk_translation": "总计来看， / 它们积压的维修维护开支已超过120亿美元。道路、 / 步道、 / 公共洗手间、 / 游客中心以及其他基础设施正破败不堪。",
           "vocabulary": [
             {
               "word": "Collectively",
@@ -1289,7 +1289,7 @@
           "text": "But privatizing and commercializing the campgrounds would not be a cure-all.",
           "translation": "但露营地私有化和商业化并不是万能药。",
           "slashed_text": "But privatizing and commercializing the campgrounds would not be a cure-all.",
-          "chunk_translation": "但露营地私有化和商业化并不是万能药",
+          "chunk_translation": "但将露营地私有化和商业化绝非万灵良药。",
           "vocabulary": [
             {
               "word": "privatizing",
@@ -1318,7 +1318,7 @@
           "text": "Campgrounds are a tiny portion of the overall infrastructure backlog, and concessionaires in the parks hand over, on average, only about 5% of their revenues to the National Park Service. Moreover, increased privatization would certainly undercut one of the major reasons why 300 million visitors come to the parks each year: to enjoy nature and get a break from the commercial drumbeat that overwhelms daily life.",
           "translation": "露营地只占整体基础设施积压的一小部分，公园特许经营商平均只将其收入的约 5% 上交给国家公园管理局。此外，私有化程度的提高肯定会削弱每年 3 亿游客来到公园的主要原因之一：享受大自然并从压倒日常生活的商业喧嚣中得到休息。",
           "slashed_text": "Campgrounds are a tiny portion of the overall infrastructure backlog , / and concessionaires in the parks hand over , / on average , / only about 5% of their revenues to the National Park Service. Moreover , / increased privatization would certainly undercut one of the major reasons why 300 million visitors come to the parks each year : / to enjoy nature and get a break from the commercial drumbeat / that overwhelms daily life.",
-          "chunk_translation": "露营地仅占整体基础设施积压的一小部分 / 公园里的特许经营者移交 / 平均而言 / only about 5% of their revenues to the National Park Service. Moreover / 私有化程度的提高肯定会削弱每年 3 亿游客来到公园的主要原因之一 / 享受大自然，远离商业喧嚣 / 压倒日常生活",
+          "chunk_translation": "露营地仅占整个基础设施积压工程中极小的一部分， / 而且公园内的特许经营商平均 / 而言， / 仅将其收入的约5%上缴给国家公园管理局。此外， / 过度私有化无疑会削弱每年3亿游客造访国家公园的核心初衷之一： / 即亲近自然，逃离充斥在日常生活中的 / 喧嚣商业浪潮。",
           "vocabulary": [
             {
               "word": "Campgrounds",
@@ -1372,7 +1372,7 @@
           "text": "The real problem is that the parks have been chronically starved of funding. We conducted a comprehensive survey examining how U.S. residents view their national parks, and we found that Americans place a very high value on them—whether or not they actually visit them. The peer-reviewed economic survey of 700 U.S. taxpayers, conducted by mail and internet, also found that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact. Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.",
           "translation": "真正的问题是公园长期缺乏资金。我们进行了一项全面的调查，了解美国居民如何看待他们的国家公园，我们发现美国人非常重视它们——无论他们是否真的参观过它们。通过邮件和互联网对 700 名美国纳税人进行的同行评审经济调查还发现，人们愿意支付大量资金来确保公园及其项目完好无损。约 81% 的受访者表示，他们愿意在未来 10 年内缴纳额外税款，以避免对国家公园的削减。",
           "slashed_text": "The real problem is / that the parks have been chronically starved of funding. We conducted a comprehensive survey examining how U.S. residents view their national parks , / and we found / that Americans place a very high value / on them — / whether or not they actually visit them. The peer-reviewed economic survey of 700 U.S. taxpayers , / conducted / by mail and internet , / also found / that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact. Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.",
-          "chunk_translation": "真正的问题是 / that the parks have been chronically starved of funding. We conducted a comprehensive survey examining how U.S. residents view their national parks / 我们发现 / that Americans place a very high value / on them / whether or not they actually visit them. The peer-reviewed economic survey of 700 U.S. taxpayers / conducted / by mail and internet / 还发现 / that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact. Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks",
+          "chunk_translation": "真正的根源在于， / 国家公园长期以来一直极度匮乏资金支持。我们开展了一项全面的调查，旨在考察美国居民如何看待自己的国家公园， / 并且我们发现 / 美国民众对国家公园赋予了极高的价值 / 在其身上—— / 无论他们是否真正去实地游览过。这项经过同行评审、针对700名美国纳税人的经济调查， / 通过 / 信件邮寄和互联网渠道开展， / 同样发现 / 公众愿意支付相当数额的资金，以确保国家公园及其保护项目完好无损。约81%的受访者表示，他们愿意在未来10年中额外纳税，以避免对国家公园预算进行任何削减。",
           "vocabulary": [
             {
               "word": "real",
@@ -1426,7 +1426,7 @@
           "text": "The national parks provide great value to U.S. residents both as places to escape and as symbols of nature. On top of this, they produce value from their extensive educational programs, their positive impact on the climate through carbon sequestration, their contribution to our cultural and artistic life, and of course through tourism. The parks also help keep America’s past alive, working with thousands of local jurisdictions around the country to protect historical sites—including Ellis Island and Gettysburg—and to bring the stories of these places to life.",
           "translation": "国家公园为美国居民提供了巨大的价值，既可以作为避世之地，也可以作为自然的象征。除此之外，他们还通过广泛的教育计划、通过碳固存对气候的积极影响、对我们的文化和艺术生活的贡献，当然还有旅游业的贡献来创造价值。这些公园还与全国数千个地方管辖区合作，保护历史遗迹（包括埃利斯岛和葛底斯堡），并让这些地方的故事栩栩如生，从而帮助保留美国的过去。",
           "slashed_text": "The national parks provide great value to U.S. residents both as places to escape and as symbols of nature. On top of this , / they produce value / from their extensive educational programs , / their positive impact on the climate / through carbon sequestration , / their contribution to our cultural and artistic life , / and of course / through tourism. The parks also help keep America’s past alive , / working / with thousands of local jurisdictions around the country to protect historical sites — / including Ellis Island and Gettysburg — / and to bring the stories of these places to life.",
-          "chunk_translation": "The national parks provide great value to U.S. residents both as places to escape and as symbols of nature. On top of this / they produce value / from their extensive educational programs / their positive impact on the climate / through carbon sequestration / 他们对我们的文化和艺术生活的贡献 / and of course / through tourism. The parks also help keep America’s past alive / 在职的 / with thousands of local jurisdictions around the country to protect historical sites / including Ellis Island and Gettysburg / and to bring the stories of these places to life",
+          "chunk_translation": "国家公园为美国居民提供了巨大的价值，它们既是心灵避难所，也是大自然的永恒象征。除此之外， / 它们还创造了巨大价值， / 通过其广泛的科普教育项目、 / 其对气候产生的积极影响 / 通过碳汇储存作用、 / 对我们文化和艺术生活的滋养贡献， / 以及当然 / 来自旅游观光业的收益。国家公园还有助于守护美国的鲜活历史记忆， / 通过携手 / 全美各地数以千计的地方管辖部门共同保护历史遗迹—— / 包括埃利斯岛和葛底斯堡—— / 并让这些遗迹背后的历史故事重现生机。",
           "vocabulary": [
             {
               "word": "national",
@@ -1480,7 +1480,7 @@
           "text": "The parks do all this on a shoestring. Congress allocates only $3 billion a year to the national park system—an amount that has been flat since 2001 (in inflation-adjusted dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package. Meanwhile, the number of annual visitors has increased by more than 50% since 1980, and now stands at 330 million visitors per year.",
           "translation": "公园在小本经营的情况下完成这一切。国会每年只向国家公园系统拨款 30 亿美元，这一数额自 2001 年以来一直持平（按通货膨胀调整后的美元计算），除了 2009 年作为奥巴马经济刺激计划的一部分而一次性增加的资金外。与此同时，自1980年以来，每年游客数量增长了50%以上，目前每年游客数量达到3.3亿人次。",
           "slashed_text": "The parks do all this on a shoestring. Congress allocates only $3 billion a year to the national park system — / an amount / that has been flat / since 2001 ( / in inflation-adjusted dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package. Meanwhile , / the number of annual visitors has increased / by more than 50% / since 1980 , / and now stands at 330 million visitors per year.",
-          "chunk_translation": "The parks do all this on a shoestring. Congress allocates only $3 billion a year to the national park system / an amount / 已经平坦了 / since 2001 ( / in inflation-adjusted dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package. Meanwhile / the number of annual visitors has increased / by more than 50% / 自1980年以来 / 现在每年有 3.3 亿游客",
+          "chunk_translation": "然而国家公园是在极其拮据的微薄预算下完成这一切的。美国国会每年仅向国家公园系统拨款30亿美元—— / 这一数额 / 自2001年以来一直处于停滞状态 / （2001年以来的通胀调整后美元）， / 唯一的例外是2009年作为奥巴马经济刺激方案的一部分所获得的一次性资金注入。与此同时， / 每年的游客接待量却增长了 / 超过50% / 自1980年以来， / 目前已达到每年3.3亿人次的高位。",
           "vocabulary": [
             {
               "word": "parks",
@@ -1538,7 +1538,7 @@
           "text": "It’s easy to dismiss as absurd the Trump administration’s ideas for plugging the chronic funding gap of our national parks.",
           "translation": "特朗普政府填补国家公园长期资金缺口的想法很容易被认为是荒谬的。",
           "slashed_text": "It’s easy to dismiss as absurd the Trump administration’s ideas / for plugging the chronic funding gap of our national parks.",
-          "chunk_translation": "It’s easy to dismiss as absurd the Trump administration’s ideas / for plugging the chronic funding gap of our national parks",
+          "chunk_translation": "人们很容易将特朗普政府的设想斥为荒谬， / 那些旨在填补全美国家公园长期资金缺口的方案。",
           "syntax": {
             "breakdown": [
               {
@@ -1556,7 +1556,7 @@
           "text": "Can anyone really think it’s a good idea to allow Amazon deliveries to your tent in Yosemite or food trucks to line up under the redwood trees at Sequoia National Park?",
           "translation": "有人真的认为让亚马逊送货到你在优胜美地的帐篷或让食品卡车在红杉国家公园的红杉树下排队是个好主意吗？",
           "slashed_text": "Can anyone really think it’s a good idea to allow Amazon deliveries to your tent / in Yosemite or food trucks to line up under the redwood trees / at Sequoia National Park?",
-          "chunk_translation": "Can anyone really think it’s a good idea to allow Amazon deliveries to your tent / in Yosemite or food trucks to line up under the redwood trees / at Sequoia National Park?",
+          "chunk_translation": "真有人会觉得允许亚马逊将快递直接送到优胜美地的帐篷里， / 或者让快餐餐车排在红杉国家公园的参天红杉树下 / 是个好主意吗？",
           "syntax": {
             "breakdown": [
               {
@@ -1574,7 +1574,7 @@
           "text": "But the administration is right about one thing: U.S.",
           "translation": "但政府在一件事上是正确的：美国",
           "slashed_text": "But the administration is right about one thing : / U.S.",
-          "chunk_translation": "但政府在一件事上是对的 / 我们",
+          "chunk_translation": "但政府在一件事上确实说对了： / 全美",
           "syntax": {
             "breakdown": [
               {
@@ -1592,7 +1592,7 @@
           "text": "national parks are in crisis.",
           "translation": "国家公园正处于危机之中。",
           "slashed_text": "national parks are / in crisis.",
-          "chunk_translation": "national parks are / in crisis",
+          "chunk_translation": "国家公园正 / 深陷危机之中。",
           "syntax": {
             "breakdown": [
               {
@@ -1610,7 +1610,7 @@
           "text": "Collectively, they have a maintenance backlog of more than $12 billion.",
           "translation": "他们总共有超过 120 亿美元的维护积压。",
           "slashed_text": "Collectively , / they have a maintenance backlog of more than $12 billion.",
-          "chunk_translation": "集体 / 他们的维护积压超过 120 亿美元",
+          "chunk_translation": "总计来看， / 它们积压的维修维护开支已超过120亿美元。",
           "syntax": {
             "breakdown": [
               {
@@ -1628,7 +1628,7 @@
           "text": "Roads, trails, restrooms, visitor centers and other infrastructure are crumbling.",
           "translation": "道路、小径、卫生间、游客中心和其他基础设施都在崩溃。",
           "slashed_text": "Roads , / trails , / restrooms , / visitor centers and other infrastructure are crumbling.",
-          "chunk_translation": "道路 / 踪迹 / 洗手间 / 游客中心和其他基础设施正在崩溃",
+          "chunk_translation": "道路、 / 步道、 / 公共洗手间、 / 游客中心以及其他基础设施正破败不堪。",
           "syntax": {
             "breakdown": [
               {
@@ -1646,7 +1646,7 @@
           "text": "But privatizing and commercializing the campgrounds would not be a cure-all.",
           "translation": "但露营地私有化和商业化并不是万能药。",
           "slashed_text": "But privatizing and commercializing the campgrounds would not be a cure-all.",
-          "chunk_translation": "但露营地私有化和商业化并不是万能药",
+          "chunk_translation": "但将露营地私有化和商业化绝非万灵良药。",
           "syntax": {
             "breakdown": [
               {
@@ -1664,7 +1664,7 @@
           "text": "Campgrounds are a tiny portion of the overall infrastructure backlog, and concessionaires in the parks hand over, on average, only about 5% of their revenues to the National Park Service.",
           "translation": "露营地只占整体基础设施积压的一小部分，公园特许经营商平均只将其收入的约 5% 上交给国家公园管理局。",
           "slashed_text": "Campgrounds are a tiny portion of the overall infrastructure backlog , / and concessionaires in the parks hand over , / on average , / only about 5% of their revenues to the National Park Service.",
-          "chunk_translation": "露营地仅占整体基础设施积压的一小部分 / 公园里的特许经营者移交 / 平均而言 / 仅将其收入的约 5% 捐献给国家公园管理局",
+          "chunk_translation": "露营地仅占整个基础设施积压工程中极小的一部分， / 而且公园内的特许经营商平均 / 而言， / 仅将其收入的约5%上缴给国家公园管理局。",
           "syntax": {
             "breakdown": [
               {
@@ -1682,7 +1682,7 @@
           "text": "Moreover, increased privatization would certainly undercut one of the major reasons why 300 million visitors come to the parks each year: to enjoy nature and get a break from the commercial drumbeat that overwhelms daily life.",
           "translation": "此外，私有化程度的提高肯定会削弱每年 3 亿游客来到公园的主要原因之一：享受大自然并从压倒日常生活的商业喧嚣中得到休息。",
           "slashed_text": "Moreover , / increased privatization would certainly undercut one of the major reasons why 300 million visitors come to the parks each year : / to enjoy nature and get a break from the commercial drumbeat / that overwhelms daily life.",
-          "chunk_translation": "而且 / 私有化程度的提高肯定会削弱每年 3 亿游客来到公园的主要原因之一 / 享受大自然，远离商业喧嚣 / 压倒日常生活",
+          "chunk_translation": "此外， / 过度私有化无疑会削弱每年3亿游客造访国家公园的核心初衷之一： / 即亲近自然，逃离充斥在日常生活中的 / 喧嚣商业浪潮。",
           "syntax": {
             "breakdown": [
               {
@@ -1700,7 +1700,7 @@
           "text": "The real problem is that the parks have been chronically starved of funding.",
           "translation": "真正的问题是公园长期缺乏资金。",
           "slashed_text": "The real problem is / that the parks have been chronically starved of funding.",
-          "chunk_translation": "真正的问题是 / 公园长期缺乏资金",
+          "chunk_translation": "真正的根源在于， / 国家公园长期以来一直极度匮乏资金支持。",
           "syntax": {
             "breakdown": [
               {
@@ -1718,7 +1718,7 @@
           "text": "We conducted a comprehensive survey examining how U.S.",
           "translation": "我们进行了一项全面的调查，研究美国如何",
           "slashed_text": "We conducted a comprehensive survey examining how U.S.",
-          "chunk_translation": "我们进行了一项全面的调查，研究美国如何",
+          "chunk_translation": "我们开展了一项全面的调查，旨在考察美国",
           "syntax": {
             "breakdown": [
               {
@@ -1736,7 +1736,7 @@
           "text": "residents view their national parks, and we found that Americans place a very high value on them—whether or not they actually visit them.",
           "translation": "居民们参观他们的国家公园，我们发现美国人非常重视它们——无论他们是否真的参观过它们。",
           "slashed_text": "residents view their national parks , / and we found / that Americans place a very high value / on them — / whether or not they actually visit them.",
-          "chunk_translation": "居民查看他们的国家公园 / 我们发现 / that Americans place a very high value / on them / whether or not they actually visit them",
+          "chunk_translation": "居民如何看待自己的国家公园， / 并且我们发现 / 美国民众对国家公园赋予了极高的价值 / 在其身上—— / 无论他们是否真正去实地游览过。",
           "syntax": {
             "breakdown": [
               {
@@ -1754,7 +1754,7 @@
           "text": "The peer-reviewed economic survey of 700 U.S.",
           "translation": "对 700 名美国人进行同行评审的经济调查",
           "slashed_text": "The peer-reviewed economic survey of 700 U.S.",
-          "chunk_translation": "对 700 名美国人进行的同行评审经济调查",
+          "chunk_translation": "这项经过同行评审、针对700名美国",
           "syntax": {
             "breakdown": [
               {
@@ -1772,7 +1772,7 @@
           "text": "taxpayers, conducted by mail and internet, also found that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact.",
           "translation": "通过邮件和互联网进行的纳税人调查还发现，人们愿意支付大量资金来确保公园及其项目完好无损。",
           "slashed_text": "taxpayers , / conducted / by mail and internet , / also found / that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact.",
-          "chunk_translation": "纳税人 / conducted / by mail and internet / 还发现 / 人们愿意支付大量资金来确保公园及其项目完好无损",
+          "chunk_translation": "纳税人的经济调查， / 通过 / 信件邮寄和互联网渠道开展， / 同样发现 / 公众愿意支付相当数额的资金，以确保国家公园及其保护项目完好无损。",
           "syntax": {
             "breakdown": [
               {
@@ -1790,7 +1790,7 @@
           "text": "Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.",
           "translation": "约 81% 的受访者表示，他们愿意在未来 10 年内缴纳额外税款，以避免对国家公园的削减。",
           "slashed_text": "Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.",
-          "chunk_translation": "约 81% 的受访者表示，他们愿意在未来 10 年内缴纳额外税款，以避免对国家公园的任何削减",
+          "chunk_translation": "约81%的受访者表示，他们愿意在未来10年中额外纳税，以避免对国家公园预算进行任何削减。",
           "syntax": {
             "breakdown": [
               {
@@ -1808,7 +1808,7 @@
           "text": "The national parks provide great value to U.S.",
           "translation": "国家公园为美国提供了巨大的价值",
           "slashed_text": "The national parks provide great value to U.S.",
-          "chunk_translation": "国家公园为美国提供了巨大的价值",
+          "chunk_translation": "国家公园为美国",
           "syntax": {
             "breakdown": [
               {
@@ -1826,7 +1826,7 @@
           "text": "residents both as places to escape and as symbols of nature.",
           "translation": "居民既是逃避的地方，也是自然的象征。",
           "slashed_text": "residents both as places to escape and as symbols of nature.",
-          "chunk_translation": "居民既是逃避的场所，也是自然的象征",
+          "chunk_translation": "居民提供了巨大的价值，它们既是心灵避难所，也是大自然的永恒象征。",
           "syntax": {
             "breakdown": [
               {
@@ -1844,7 +1844,7 @@
           "text": "On top of this, they produce value from their extensive educational programs, their positive impact on the climate through carbon sequestration, their contribution to our cultural and artistic life, and of course through tourism.",
           "translation": "除此之外，他们还通过广泛的教育计划、通过碳固存对气候的积极影响、对我们的文化和艺术生活的贡献，当然还有旅游业的贡献来创造价值。",
           "slashed_text": "On top of this , / they produce value / from their extensive educational programs , / their positive impact on the climate / through carbon sequestration , / their contribution to our cultural and artistic life , / and of course / through tourism.",
-          "chunk_translation": "除此之外 / they produce value / from their extensive educational programs / their positive impact on the climate / through carbon sequestration / 他们对我们的文化和艺术生活的贡献 / and of course / through tourism",
+          "chunk_translation": "除此之外， / 它们还创造了巨大价值， / 通过其广泛的科普教育项目、 / 其对气候产生的积极影响 / 通过碳汇储存作用、 / 对我们文化和艺术生活的滋养贡献， / 以及当然 / 来自旅游观光业的收益。",
           "syntax": {
             "breakdown": [
               {
@@ -1862,7 +1862,7 @@
           "text": "The parks also help keep America’s past alive, working with thousands of local jurisdictions around the country to protect historical sites—including Ellis Island and Gettysburg—and to bring the stories of these places to life.",
           "translation": "这些公园还与全国数千个地方管辖区合作，保护历史遗迹（包括埃利斯岛和葛底斯堡），并让这些地方的故事栩栩如生，从而帮助保留美国的过去。",
           "slashed_text": "The parks also help keep America’s past alive , / working / with thousands of local jurisdictions around the country to protect historical sites — / including Ellis Island and Gettysburg — / and to bring the stories of these places to life.",
-          "chunk_translation": "这些公园还有助于保留美国的过去 / 在职的 / with thousands of local jurisdictions around the country to protect historical sites / including Ellis Island and Gettysburg / and to bring the stories of these places to life",
+          "chunk_translation": "国家公园还有助于守护美国的鲜活历史记忆， / 通过携手 / 全美各地数以千计的地方管辖部门共同保护历史遗迹—— / 包括埃利斯岛和葛底斯堡—— / 并让这些遗迹背后的历史故事重现生机。",
           "syntax": {
             "breakdown": [
               {
@@ -1880,7 +1880,7 @@
           "text": "The parks do all this on a shoestring.",
           "translation": "公园在小本经营的情况下完成这一切。",
           "slashed_text": "The parks do all this on a shoestring.",
-          "chunk_translation": "公园以小本钱完成这一切",
+          "chunk_translation": "然而国家公园是在极其拮据的微薄预算下完成这一切的。",
           "syntax": {
             "breakdown": [
               {
@@ -1898,7 +1898,7 @@
           "text": "Congress allocates only $3 billion a year to the national park system—an amount that has been flat since 2001 (in inflation-adjusted dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package.",
           "translation": "国会每年只向国家公园系统拨款 30 亿美元，这一数额自 2001 年以来一直持平（按通货膨胀调整后的美元计算），除了 2009 年作为奥巴马经济刺激计划的一部分而一次性增加的资金外。",
           "slashed_text": "Congress allocates only $3 billion a year to the national park system — / an amount / that has been flat / since 2001 ( / in inflation-adjusted dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package.",
-          "chunk_translation": "Congress allocates only $3 billion a year to the national park system / an amount / 已经平坦了 / since 2001 ( / in inflation-adjusted dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package",
+          "chunk_translation": "美国国会每年仅向国家公园系统拨款30亿美元—— / 这一数额 / 自2001年以来一直处于停滞状态 / （2001年以来的通胀调整后美元）， / 唯一的例外是2009年作为奥巴马经济刺激方案的一部分所获得的一次性资金注入。",
           "syntax": {
             "breakdown": [
               {
@@ -1921,7 +1921,7 @@
           "text": "Meanwhile, the number of annual visitors has increased by more than 50% since 1980, and now stands at 330 million visitors per year.",
           "translation": "与此同时，自1980年以来，每年游客数量增长了50%以上，目前每年游客数量达到3.3亿人次。",
           "slashed_text": "Meanwhile , / the number of annual visitors has increased / by more than 50% / since 1980 , / and now stands at 330 million visitors per year.",
-          "chunk_translation": "同时 / the number of annual visitors has increased / by more than 50% / 自1980年以来 / 现在每年有 3.3 亿游客",
+          "chunk_translation": "与此同时， / 每年的游客接待量却增长了 / 超过50% / 自1980年以来， / 目前已达到每年3.3亿人次的高位。",
           "syntax": {
             "breakdown": [
               {
@@ -2394,7 +2394,7 @@
           "text": "The Internet may be changing merely what we remember, not our capacity to do so, suggests Columbia University psychology professor Betsy Sparrow. In 2011, Sparrow led a study in which participants were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain,” for example). Half of the participants were told the information would be erased, while the other half were told it would be saved. Guess what? The latter group made no effort to recall the information when quizzed on it later, because they knew they could find it on their computers. In the same study, a group was asked to remember both the information and the folders it was stored in. They didn’t remember the information, but they remembered how to find the folders. In other words, human memory is not deteriorating but “adapting to new communications technology,” Sparrow says.",
           "translation": "哥伦比亚大学心理学教授贝特西·斯帕罗表示，互联网可能只是改变了我们的记忆，而不是我们这样做的能力。 2011 年，Sparrow 领导了一项研究，要求参与者在计算机中记录 40 个事实（例如，“鸵鸟的眼睛比大脑大”）。一半的参与者被告知信息将被删除，而另一半则被告知信息将被保存。你猜怎么着？后一组人在后来被询问时没有努力回忆这些信息，因为他们知道他们可以在计算机上找到它。在同一项研究中，一组人被要求记住信息和存储信息的文件夹。他们不记得信息，但记得如何找到文件夹。换句话说，人类的记忆力并没有恶化，而是“适应了新的通信技术”，斯帕罗说。",
           "slashed_text": "The Internet may be changing merely what we remember , / not our capacity to do so , / suggests Columbia University psychology professor Betsy Sparrow. In 2011 , / Sparrow led a study in / which participants were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain , / ” / for example). Half of the participants were told the information would be erased , / while the other half were told it would be saved. Guess what? The latter group made no effort to recall the information / when quizzed on it later , / because they knew they could find it / on their computers. In the same study , / a group was asked to remember both the information and the folders it was stored in. They didn’t remember the information , / but they remembered how to find the folders. In other words , / human memory is not deteriorating but “adapting to new communications technology , / ” Sparrow says.",
-          "chunk_translation": "互联网可能仅仅改变我们的记忆 / 我们没有能力这样做 / suggests Columbia University psychology professor Betsy Sparrow. In 2011 / 斯帕罗领导了一项研究 / which participants were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain /  / for example). Half of the participants were told the information would be erased / while the other half were told it would be saved. Guess what? The latter group made no effort to recall the information / 当稍后被问到时 / because they knew they could find it / on their computers. In the same study / a group was asked to remember both the information and the folders it was stored in. They didn’t remember the information / but they remembered how to find the folders. In other words / human memory is not deteriorating but “adapting to new communications technology / Sparrow says",
+          "chunk_translation": "互联网或许只是改变了我们所记忆的具体内容， / 而非削弱了我们的记忆能力， / 哥伦比亚大学心理学教授贝齐·斯帕罗指出。在2011年， / 斯帕罗主导了一项研究，在研究中 / 参与者被要求在电脑中记录40条冷知识（例如“鸵鸟的眼睛比它的脑子还大” / 这类 / 常识细节）。一半的参与者被告知这些信息随后会被彻底删除， / 而另一半则被告知信息将被完整保存。结果你猜怎么着？后一组在随后接受相关测试时几乎毫不费力去回忆这些信息， / 在被提问时， / 因为他们清楚地知道自己随时可以在电脑中 / 重新找到它们。在同一项研究中， / 一组参与者被要求既记住具体信息，又记住信息所存放的文件夹位置。结果他们并未记住信息本身， / 却清楚地记住了如何找到对应的文件夹。换句话说， / 人类的记忆力并非在退化，而是在“主动适应新的通信技术”， / 斯帕罗指出。",
           "vocabulary": [
             {
               "word": "Internet",
@@ -2448,7 +2448,7 @@
           "text": "In a very practical way, the Internet is becoming an external hard drive for our memories, a process known as “cognitive offloading.” Traditionally, this role was fulfilled by data banks, libraries, and other humans. Your father may never remember birthdays because your mother does, for instance. Some worry that this is having a destructive effect on society, but Sparrow sees an upside. Perhaps, she suggests, the trend will change our approach to learning from a focus on individual facts and memorization to an emphasis on more conceptual thinking— something that is not available on the Internet. “I personally have never seen all that much intellectual value in memorizing things,” Sparrow says, adding that we haven’t lost our ability to do it.",
           "translation": "以一种非常实际的方式，互联网正在成为我们记忆的外部硬盘驱动器，这一过程被称为“认知卸载”。传统上，这一角色是由数据库、图书馆和其他人来履行的。例如，你的父亲可能永远不会记得生日，因为你的母亲会记得。有些人担心这会对社会产生破坏性影响，但斯帕罗看到了积极的一面。她认为，也许这一趋势将改变我们的学习方法，从关注个人事实和记忆转向强调更多概念性思维——这是互联网上无法提供的。斯帕罗说：“我个人从未见过记忆事物有如此大的智力价值。”他补充说，我们并没有失去记忆的能力。",
           "slashed_text": "In a very practical way , / the Internet is becoming an external hard drive for our memories , / a process known as “cognitive offloading.” Traditionally , / this role was fulfilled / by data banks , / libraries , / and other humans. Your father may never remember birthdays / because your mother does , / for instance. Some worry / that this is having a destructive effect / on society , / but Sparrow sees an upside. Perhaps , / she suggests , / the trend will change our approach to learning from a focus / on individual facts and memorization to an emphasis / on more conceptual thinking — / something / that is not available on the Internet. “I personally have never seen all / that much intellectual value / in memorizing things , / ” Sparrow says , / adding / that we haven’t lost our ability to do it.",
-          "chunk_translation": "以非常实用的方式 / 互联网正在成为我们记忆的外部硬盘 / 这个过程被称为“认知卸载”。传统上 / this role was fulfilled / by data banks / 图书馆 / and other humans. Your father may never remember birthdays / 因为你妈妈做的 / for instance. Some worry / that this is having a destructive effect / on society / but Sparrow sees an upside. Perhaps / 她建议 / the trend will change our approach to learning from a focus / on individual facts and memorization to an emphasis / on more conceptual thinking / 某物 / that is not available on the Internet. “I personally have never seen all / that much intellectual value / in memorizing things / Sparrow says / 添加 / 我们还没有失去这样做的能力",
+          "chunk_translation": "在非常切实的意义上， / 互联网正在变成我们个人记忆的“外挂硬盘”， / 这一过程被称为“认知卸载”。在传统时代， / 这一角色主要是由 / 资料库、 / 图书馆 / 以及身边其他人来承担的。比如你的父亲可能从来记不住家人的生日， / 因为你的母亲总会记住， / 就是这个道理。有人担忧 / 这正在产生破坏性负面影响 / 对整个社会而言， / 但斯帕罗却看到了其积极的一面。也许， / 她指出， / 这一趋势将促使我们的学习方式发生转变，从过度聚焦 / 于个别事实和死记硬背，转向着重培养 / 更为宏观的概念性思维—— / 而这正是 / 互联网本身所无法直接提供的能力。“我个人从未认为 / 死记硬背各种事物 / 有多么巨大的智力价值，” / 斯帕罗表示， / 并补充道， / 我们并没有丧失记忆的能力。",
           "vocabulary": [
             {
               "word": "practical",
@@ -2502,7 +2502,7 @@
           "text": "Still other experts say it’s too soon to understand how the Internet affects our brains. There is no experimental evidence showing that it interferes with  our ability to focus, for instance, wrote psychologists Christopher Chabris and Daniel J. Simons. And surfing the web exercised the brain more than reading did among computer-savvy older adults in a 2008 study involving 24 participants at the Semel Institute for Neuroscience and Human Behavior at the University of California, Los Angeles.",
           "translation": "还有一些专家表示，现在了解互联网如何影响我们的大脑还为时过早。 There is no experimental evidence showing that it interferes with  our ability to focus, for instance, wrote psychologists Christopher Chabris and Daniel J. 西蒙斯. 2008 年，加州大学洛杉矶分校塞梅尔神经科学与人类行为研究所对 24 名参与者进行了一项研究，对精通电脑的老年人来说，上网比阅读更能锻炼大脑。",
           "slashed_text": "Still other experts say it’s too soon to understand how the Internet affects our brains. There is no experimental evidence showing / that it interferes with  our ability to focus , / for instance , / wrote psychologists Christopher Chabris and Daniel J. Simons. And surfing the web exercised the brain more than reading did among computer-savvy older adults in a 2008 study involving 24 participants at the Semel Institute / for Neuroscience and Human Behavior at the University of California , / Los Angeles.",
-          "chunk_translation": "Still other experts say it’s too soon to understand how the Internet affects our brains. There is no experimental evidence showing / that it interferes with  our ability to focus / 例如 / wrote psychologists Christopher Chabris and Daniel J. Simons. And surfing the web exercised the brain more than reading did among computer-savvy older adults in a 2008 study involving 24 participants at the Semel Institute / for Neuroscience and Human Behavior at the University of California / 洛杉矶",
+          "chunk_translation": "不过，其他专家认为，现在就给互联网如何影响人类大脑下定论还为时过早。目前尚无确凿的实验证据表明 / 互联网干扰了我们的专注力， / 举例来说， / 心理学家克里斯托弗·查布里斯和丹尼尔·J·西蒙斯写道。在加州大学洛杉矶分校塞梅尔神经科学与人类行为研究所2008年开展的一项涉及24名受试者的研究中，对于精通电脑的老年人而言，网上冲浪比阅读书籍更能锻炼大脑活力， / 加利福尼亚大学， / 洛杉矶分校。",
           "vocabulary": [
             {
               "word": "Still",
@@ -2556,7 +2556,7 @@
           "text": "“There may be costs associated with our increased reliance on the Internet, but I’d have to imagine that overall the benefits are going to outweigh those costs,” observes psychology professor Benjamin Storm. “It seems pretty clear that memory is changing, but is it changing for the better? At this point, we don’t know.”",
           "translation": "心理学教授本杰明·斯托姆 (Benjamin Storm) 表示：“我们对互联网的依赖程度增加可能会带来成本，但我可以想象，总体而言，收益将超过这些成本。” “记忆正在发生变化似乎很明显，但它是否会变得更好？目前我们还不知道。”",
           "slashed_text": "“There may be costs associated with our increased reliance on the Internet , / but I’d have to imagine / that overall the benefits are going to outweigh those costs , / ” observes psychology professor Benjamin Storm. “It seems pretty clear / that memory is changing , / but is it changing for the better? At this point , / we don’t know.”",
-          "chunk_translation": "There may be costs associated with our increased reliance on the Internet / 但我不得不想象 / that overall the benefits are going to outweigh those costs / observes psychology professor Benjamin Storm. “It seems pretty clear / 记忆正在改变 / but is it changing for the better? At this point / 我们不知道。”",
+          "chunk_translation": "“在我们日益加深的互联网依赖中可能确实存在代价， / 但我认为 / 总体而言其利处必将远远大于弊端，” / 心理学教授本杰明·斯托姆观察指出。“记忆模式正在发生改变似乎已显而易见， / 但这种转变是在向更好的方向发展吗？ / 还是相反？”在现阶段， / 我们尚且无法确知。”",
           "vocabulary": [
             {
               "word": "costs",
@@ -2614,7 +2614,7 @@
           "text": "The Internet may be changing merely what we remember, not our capacity to do so, suggests Columbia University psychology professor Betsy Sparrow.",
           "translation": "哥伦比亚大学心理学教授贝特西·斯帕罗表示，互联网可能只是改变了我们的记忆，而不是我们这样做的能力。",
           "slashed_text": "The Internet may be changing merely what we remember , / not our capacity to do so , / suggests Columbia University psychology professor Betsy Sparrow.",
-          "chunk_translation": "互联网可能仅仅改变我们的记忆 / 我们没有能力这样做 / 哥伦比亚大学心理学教授 Betsy Sparrow 表示",
+          "chunk_translation": "互联网或许只是改变了我们所记忆的具体内容， / 而非削弱了我们的记忆能力， / 哥伦比亚大学心理学教授贝齐·斯帕罗指出。",
           "syntax": {
             "breakdown": [
               {
@@ -2632,7 +2632,7 @@
           "text": "In 2011, Sparrow led a study in which participants were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain,” for example).",
           "translation": "2011 年，Sparrow 领导了一项研究，要求参与者在计算机中记录 40 个事实（例如，“鸵鸟的眼睛比大脑大”）。",
           "slashed_text": "In 2011 , / Sparrow led a study in / which participants were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain , / ” / for example).",
-          "chunk_translation": "2011年 / 斯帕罗领导了一项研究 / which participants were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain /  / for example)",
+          "chunk_translation": "在2011年， / 斯帕罗主导了一项研究，在研究中 / 参与者被要求在电脑中记录40条冷知识（例如“鸵鸟的眼睛比它的脑子还大” / 这类 / 常识细节）。",
           "syntax": {
             "breakdown": [
               {
@@ -2650,7 +2650,7 @@
           "text": "Half of the participants were told the information would be erased, while the other half were told it would be saved.",
           "translation": "一半的参与者被告知信息将被删除，而另一半则被告知信息将被保存。",
           "slashed_text": "Half of the participants were told the information would be erased , / while the other half were told it would be saved.",
-          "chunk_translation": "一半的参与者被告知信息将被删除 / 而另一半则被告知它会被保存",
+          "chunk_translation": "一半的参与者被告知这些信息随后会被彻底删除， / 而另一半则被告知信息将被完整保存。",
           "syntax": {
             "breakdown": [
               {
@@ -2668,7 +2668,7 @@
           "text": "Guess what?",
           "translation": "你猜怎么着？",
           "slashed_text": "Guess what?",
-          "chunk_translation": "你猜怎么着？",
+          "chunk_translation": "结果你猜怎么着？",
           "syntax": {
             "breakdown": [
               {
@@ -2686,7 +2686,7 @@
           "text": "The latter group made no effort to recall the information when quizzed on it later, because they knew they could find it on their computers.",
           "translation": "后一组在后来被询问时没有努力回忆这些信息，因为他们知道他们可以在计算机上找到它。",
           "slashed_text": "The latter group made no effort to recall the information / when quizzed on it later , / because they knew they could find it / on their computers.",
-          "chunk_translation": "后者没有努力回忆这些信息 / 当稍后被问到时 / because they knew they could find it / on their computers",
+          "chunk_translation": "后一组在随后接受相关测试时几乎毫不费力去回忆这些信息， / 在被提问时， / 因为他们清楚地知道自己随时可以在电脑中 / 重新找到它们。",
           "syntax": {
             "breakdown": [
               {
@@ -2709,7 +2709,7 @@
           "text": "In the same study, a group was asked to remember both the information and the folders it was stored in.",
           "translation": "在同一项研究中，一组人被要求记住信息及其存储的文件夹。",
           "slashed_text": "In the same study , / a group was asked to remember both the information and the folders it was stored in.",
-          "chunk_translation": "在同一项研究中 / 一组人被要求记住信息及其存储的文件夹",
+          "chunk_translation": "在同一项研究中， / 一组参与者被要求既记住具体信息，又记住信息所存放的文件夹位置。",
           "syntax": {
             "breakdown": [
               {
@@ -2727,7 +2727,7 @@
           "text": "They didn’t remember the information, but they remembered how to find the folders.",
           "translation": "他们不记得这些信息，但他们记得如何找到文件夹。",
           "slashed_text": "They didn’t remember the information , / but they remembered how to find the folders.",
-          "chunk_translation": "他们不记得这些信息 / 但他们记得如何找到文件夹",
+          "chunk_translation": "结果他们并未记住信息本身， / 却清楚地记住了如何找到对应的文件夹。",
           "syntax": {
             "breakdown": [
               {
@@ -2745,7 +2745,7 @@
           "text": "In other words, human memory is not deteriorating but “adapting to new communications technology,” Sparrow says.",
           "translation": "换句话说，人类的记忆力并没有恶化，而是“适应了新的通信技术”，斯帕罗说。",
           "slashed_text": "In other words , / human memory is not deteriorating but “adapting to new communications technology , / ” Sparrow says.",
-          "chunk_translation": "换句话说 / human memory is not deteriorating but “adapting to new communications technology / Sparrow says",
+          "chunk_translation": "换句话说， / 人类的记忆力并非在退化，而是在“主动适应新的通信技术”， / 斯帕罗指出。",
           "syntax": {
             "breakdown": [
               {
@@ -2763,7 +2763,7 @@
           "text": "In a very practical way, the Internet is becoming an external hard drive for our memories, a process known as “cognitive offloading.” Traditionally, this role was fulfilled by data banks, libraries, and other humans.",
           "translation": "以一种非常实际的方式，互联网正在成为我们记忆的外部硬盘驱动器，这一过程被称为“认知卸载”。传统上，这一角色是由数据库、图书馆和其他人来履行的。",
           "slashed_text": "In a very practical way , / the Internet is becoming an external hard drive for our memories , / a process known as “cognitive offloading.” Traditionally , / this role was fulfilled / by data banks , / libraries , / and other humans.",
-          "chunk_translation": "以非常实用的方式 / 互联网正在成为我们记忆的外部硬盘 / 这个过程被称为“认知卸载”。传统上 / this role was fulfilled / by data banks / 图书馆 / 和其他人类",
+          "chunk_translation": "在非常切实的意义上， / 互联网正在变成我们个人记忆的“外挂硬盘”， / 这一过程被称为“认知卸载”。在传统时代， / 这一角色主要是由 / 资料库、 / 图书馆 / 以及身边其他人来承担的。",
           "syntax": {
             "breakdown": [
               {
@@ -2781,7 +2781,7 @@
           "text": "Your father may never remember birthdays because your mother does, for instance.",
           "translation": "例如，你的父亲可能永远不会记得生日，因为你的母亲会记得。",
           "slashed_text": "Your father may never remember birthdays / because your mother does , / for instance.",
-          "chunk_translation": "你父亲可能永远不记得生日 / 因为你妈妈做的 / 例如",
+          "chunk_translation": "比如你的父亲可能从来记不住家人的生日， / 因为你的母亲总会记住， / 就是这个道理。",
           "syntax": {
             "breakdown": [
               {
@@ -2799,7 +2799,7 @@
           "text": "Some worry that this is having a destructive effect on society, but Sparrow sees an upside.",
           "translation": "有些人担心这会对社会产生破坏性影响，但斯帕罗看到了积极的一面。",
           "slashed_text": "Some worry / that this is having a destructive effect / on society , / but Sparrow sees an upside.",
-          "chunk_translation": "有些担心 / that this is having a destructive effect / on society / 但斯帕罗看到了好处",
+          "chunk_translation": "有人担忧 / 这正在产生破坏性负面影响 / 对整个社会而言， / 但斯帕罗却看到了其积极的一面。",
           "syntax": {
             "breakdown": [
               {
@@ -2817,7 +2817,7 @@
           "text": "Perhaps, she suggests, the trend will change our approach to learning from a focus on individual facts and memorization to an emphasis on more conceptual thinking— something that is not available on the Internet.",
           "translation": "她认为，也许这一趋势将改变我们的学习方法，从关注个人事实和记忆转向强调更多概念性思维——这是互联网上无法提供的。",
           "slashed_text": "Perhaps , / she suggests , / the trend will change our approach to learning from a focus / on individual facts and memorization to an emphasis / on more conceptual thinking — / something / that is not available on the Internet.",
-          "chunk_translation": "也许 / 她建议 / the trend will change our approach to learning from a focus / on individual facts and memorization to an emphasis / on more conceptual thinking / 某物 / 互联网上无法提供的",
+          "chunk_translation": "也许， / 她指出， / 这一趋势将促使我们的学习方式发生转变，从过度聚焦 / 于个别事实和死记硬背，转向着重培养 / 更为宏观的概念性思维—— / 而这正是 / 互联网本身所无法直接提供的能力。",
           "syntax": {
             "breakdown": [
               {
@@ -2835,7 +2835,7 @@
           "text": "“I personally have never seen all that much intellectual value in memorizing things,” Sparrow says, adding that we haven’t lost our ability to do it.",
           "translation": "斯帕罗说：“我个人从未见过记忆事物有如此大的智力价值。”他补充说，我们并没有失去记忆的能力。",
           "slashed_text": "“I personally have never seen all / that much intellectual value / in memorizing things , / ” Sparrow says , / adding / that we haven’t lost our ability to do it.",
-          "chunk_translation": "“我个人从未见过所有 / that much intellectual value / in memorizing things / Sparrow says / 添加 / 我们还没有失去这样做的能力",
+          "chunk_translation": "“我个人从未认为 / 死记硬背各种事物 / 有多么巨大的智力价值，” / 斯帕罗表示， / 并补充道， / 我们并没有丧失记忆的能力。",
           "syntax": {
             "breakdown": [
               {
@@ -2853,7 +2853,7 @@
           "text": "Still other experts say it’s too soon to understand how the Internet affects our brains.",
           "translation": "还有一些专家表示，现在了解互联网如何影响我们的大脑还为时过早。",
           "slashed_text": "Still other experts say it’s too soon to understand how the Internet affects our brains.",
-          "chunk_translation": "还有其他专家表示，现在了解互联网如何影响我们的大脑还为时过早",
+          "chunk_translation": "不过，其他专家认为，现在就给互联网如何影响人类大脑下定论还为时过早。",
           "syntax": {
             "breakdown": [
               {
@@ -2871,7 +2871,7 @@
           "text": "There is no experimental evidence showing that it interferes with  our ability to focus, for instance, wrote psychologists Christopher Chabris and Daniel J.",
           "translation": "There is no experimental evidence showing that it interferes with  our ability to focus, for instance, wrote psychologists Christopher Chabris and Daniel J.",
           "slashed_text": "There is no experimental evidence showing / that it interferes with  our ability to focus , / for instance , / wrote psychologists Christopher Chabris and Daniel J.",
-          "chunk_translation": "没有实验证据表明 / that it interferes with  our ability to focus / 例如 / 心理学家 Christopher Chabris 和 Daniel J 写道",
+          "chunk_translation": "目前尚无确凿的实验证据表明 / 互联网干扰了我们的专注力， / 举例来说， / 心理学家克里斯托弗·查布里斯和丹尼尔·J·",
           "syntax": {
             "breakdown": [
               {
@@ -2889,7 +2889,7 @@
           "text": "Simons.",
           "translation": "西蒙斯.",
           "slashed_text": "Simons.",
-          "chunk_translation": "西蒙斯",
+          "chunk_translation": "西蒙斯写道。",
           "syntax": {
             "breakdown": [
               {
@@ -2907,7 +2907,7 @@
           "text": "And surfing the web exercised the brain more than reading did among computer-savvy older adults in a 2008 study involving 24 participants at the Semel Institute for Neuroscience and Human Behavior at the University of California, Los Angeles.",
           "translation": "2008 年，加州大学洛杉矶分校塞梅尔神经科学与人类行为研究所对 24 名参与者进行了一项研究，对精通电脑的老年人来说，上网比阅读更能锻炼大脑。",
           "slashed_text": "And surfing the web exercised the brain more than reading did among computer-savvy older adults in a 2008 study involving 24 participants at the Semel Institute / for Neuroscience and Human Behavior at the University of California , / Los Angeles.",
-          "chunk_translation": "And surfing the web exercised the brain more than reading did among computer-savvy older adults in a 2008 study involving 24 participants at the Semel Institute / for Neuroscience and Human Behavior at the University of California / 洛杉矶",
+          "chunk_translation": "在加州大学洛杉矶分校塞梅尔神经科学与人类行为研究所2008年开展的一项涉及24名受试者的研究中，对于精通电脑的老年人而言，网上冲浪比阅读书籍更能锻炼大脑活力， / 加利福尼亚大学， / 洛杉矶分校。",
           "syntax": {
             "breakdown": [
               {
@@ -2925,7 +2925,7 @@
           "text": "“There may be costs associated with our increased reliance on the Internet, but I’d have to imagine that overall the benefits are going to outweigh those costs,” observes psychology professor Benjamin Storm.",
           "translation": "心理学教授本杰明·斯托姆 (Benjamin Storm) 表示：“我们对互联网的依赖程度增加可能会带来成本，但我可以想象，总体而言，收益将超过这些成本。”",
           "slashed_text": "“There may be costs associated with our increased reliance on the Internet , / but I’d have to imagine / that overall the benefits are going to outweigh those costs , / ” observes psychology professor Benjamin Storm.",
-          "chunk_translation": "There may be costs associated with our increased reliance on the Internet / 但我不得不想象 / that overall the benefits are going to outweigh those costs / observes psychology professor Benjamin Storm",
+          "chunk_translation": "“在我们日益加深的互联网依赖中可能确实存在代价， / 但我认为 / 总体而言其利处必将远远大于弊端，” / 心理学教授本杰明·斯托姆观察指出。",
           "syntax": {
             "breakdown": [
               {
@@ -2943,7 +2943,7 @@
           "text": "“It seems pretty clear that memory is changing, but is it changing for the better?",
           "translation": "“记忆正在发生变化似乎很明显，但它会变得更好吗？",
           "slashed_text": "“It seems pretty clear / that memory is changing , / but is it changing for the better?",
-          "chunk_translation": "“看起来很清楚 / 记忆正在改变 / 但情况会变得更好吗？",
+          "chunk_translation": "“记忆模式正在发生改变似乎已显而易见， / 但这种转变是在向更好的方向发展吗？ / 还是相反？”",
           "syntax": {
             "breakdown": [
               {
@@ -2961,7 +2961,7 @@
           "text": "At this point, we don’t know.”",
           "translation": "目前，我们还不知道。”",
           "slashed_text": "At this point , / we don’t know.”",
-          "chunk_translation": "在此刻 / 我们不知道。”",
+          "chunk_translation": "在现阶段， / 我们尚且无法确知。”",
           "syntax": {
             "breakdown": [
               {
@@ -3433,7 +3433,7 @@
           "text": "Teenagers are paradoxical. That’s a mild and detached way of saying something that parents often express with considerably stronger language. But the paradox is scientific as well as personal. In adolescence, helpless and dependent children who have relied on grown- ups for just about everything become independent people who can take care of themselves and help each other. At the  same time, once cheerful and compliant children become rebellious teenage risk-takers.",
           "translation": "青少年是矛盾的。 这是一种温和而超然的表达方式，父母经常用相当强烈的语言来表达。 但这个悖论既是科学的，也是个人的。 在青春期，几乎所有事情都依赖成年人的无助和依赖的孩子成为能够照顾自己和互相帮助的独立人。 At the  same time, once cheerful and compliant children become rebellious teenage risk-takers.",
           "slashed_text": "Teenagers are paradoxical. / That’s a mild and detached way of saying something / that parents often express / with considerably stronger language. But the paradox is scientific as well as personal. In adolescence , / helpless and dependent children / who have relied / on grown- ups / for just / about everything become independent people / who can take care of themselves and help each other. At the  same time , / once cheerful and compliant children become rebellious teenage risk-takers.",
-          "chunk_translation": "青少年是矛盾的 / 这是一种温和而超然的说话方式 / that parents often express / with considerably stronger language. But the paradox is scientific as well as personal. In adolescence / 无助和依赖的儿童 / who have relied / on grown- ups / for just / about everything become independent people / who can take care of themselves and help each other. At the  same time / 曾经开朗顺从的孩子变成了叛逆的冒险家",
+          "chunk_translation": "青少年群体身上充满了矛盾色彩。 / 这是一种温和且客观的表述方式，用来概括 / 父母们在日常生活中 / 经常用更为激烈的言辞所宣泄的感受。但这种矛盾性不仅存在于个人生活体验中，同样具有科学上的深刻内涵。在青春发育期， / 曾经无助且依赖性强、 / 在几乎所有事情上 / 都全权仰仗成年人的 / 儿童， / 正在转变为能够独当一面的独立个体， / 他们不仅能够自食其力，还能互相扶持。但与此同时， / 曾经温顺听话的孩童也蜕变为了桀骜不驯、热衷冒险的叛逆少年。",
           "vocabulary": [
             {
               "word": "Teenagers",
@@ -3487,7 +3487,7 @@
           "text": "A new study published in the journal Child Development, by Eveline Crone of the University of Leiden and colleagues, suggests that the positive and negative sides of teenagers go hand in hand. The study is part of a new wave of thinking about adolescence. For a long time, scientists and policy makers concentrated on the idea that teenagers were a problem that needed to be solved. The new work emphasizes that adolescence is a time of opportunity as well as risk.",
           "translation": "莱顿大学的伊芙琳·克龙及其同事在《儿童发展》杂志上发表的一项新研究表明，青少年的积极和消极方面是相辅相成的。这项研究是关于青春期的新一波思考的一部分。长期以来，科学家和政策制定者都认为青少年是一个需要解决的问题。新作品强调青春期是一个充满机遇和风险的时期。",
           "slashed_text": "A new study published in the journal Child Development , / by Eveline Crone of the University of Leiden and colleagues , / suggests / that the positive and negative sides of teenagers go hand / in hand. The study is part of a new wave of thinking / about adolescence. For a long time , / scientists and policy makers concentrated on the idea / that teenagers were a problem / that needed to be solved. The new work emphasizes / that adolescence is a time of opportunity as well as risk.",
-          "chunk_translation": "一项新研究发表在《儿童发展》杂志上 / 作者：莱顿大学的 Eveline Crone 及其同事 / 建议 / that the positive and negative sides of teenagers go hand / in hand. The study is part of a new wave of thinking / about adolescence. For a long time / 科学家和政策制定者集中精力研究这个想法 / 青少年是个问题 / that needed to be solved. The new work emphasizes / that adolescence is a time of opportunity as well as risk",
+          "chunk_translation": "发表在《儿童发展》期刊上的一项新研究， / 由莱顿大学的埃芙琳·克罗内及其同事共同开展， / 表明： / 青少年的积极面与消极面其实是相伴相生、 / 携手并进的。这项研究代表了针对青春期认知的 / 新一轮思潮。长期以来， / 科学家和政策制定者都把注意力集中在这样一种观念上： / 青少年本身就是一个 / 亟待解决的问题。而新的研究工作则强调： / 青春期既是充满风险的时期，更是蕴藏无限机遇的黄金阶段。",
           "vocabulary": [
             {
               "word": "study",
@@ -3541,7 +3541,7 @@
           "text": "The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, ranging from 11 to 28 years old. The participants filled out questionnaires about how often they did things that were altruistic and positive, like sacrificing their own interests to help a friend, or rebellious and negative, like getting drunk or staying out late. Other studies have shown that rebellious behavior increases as you become a teenager and then fades away as you grow older. But the new study shows that, interestingly, the same pattern holds for prosocial behavior. Teenagers were  more likely than younger children or adults to report that they did things like unselfishly help a friend.",
           "translation": "研究人员研究了 200 多名 11 岁至 28 岁儿童和年轻人的“亲社会”和叛逆特征。 参与者填写了调查问卷，了解他们做利他和积极的事情（例如牺牲自己的利益来帮助朋友）或叛逆和消极的事情（例如喝醉或在外面熬夜）的频率。 其他研究表明，叛逆行为会随着青少年的增长而增加，然后随着年龄的增长而消失。 但有趣的是，新研究表明，亲社会行为也存在同样的模式。 Teenagers were  more likely than younger children or adults to report that they did things like unselfishly help a friend.",
           "slashed_text": "The researchers studied “prosocial” and rebellious traits / in more than 200 children and young adults , / ranging from 11 to 28 years old. The participants filled out questionnaires about how often they did things / that were altruistic and positive , / like sacrificing their own interests to help a friend , / or rebellious and negative , / like getting drunk or staying out late. Other studies have shown / that rebellious behavior increases as you become a teenager and then fades away as you grow older. But the new study shows / that , / interestingly , / the same pattern holds / for prosocial behavior. Teenagers were  more likely than younger children or adults to report / that they did things like unselfishly help a friend.",
-          "chunk_translation": "The researchers studied “prosocial” and rebellious traits / in more than 200 children and young adults / ranging from 11 to 28 years old. The participants filled out questionnaires about how often they did things / 是无私和积极的 / 喜欢牺牲自己的利益来帮助朋友 / 或叛逆、消极 / like getting drunk or staying out late. Other studies have shown / that rebellious behavior increases as you become a teenager and then fades away as you grow older. But the new study shows / 那 / 有趣的是 / the same pattern holds / for prosocial behavior. Teenagers were  more likely than younger children or adults to report / 他们做了一些事情，比如无私地帮助朋友",
+          "chunk_translation": "研究人员深入分析了“亲社会”与叛逆特质， / 在200多名儿童及青年群体中， / 受试者的年龄跨度从11岁到28岁不等。受试者填写了关于他们从事某些行为频率的调查问卷， / 包括那些利他且积极的行为， / 如牺牲自身利益去帮助朋友， / 或是叛逆且负面的行为， / 如酗酒买醉或夜不归宿。其他研究表明， / 叛逆行为在步入青少年时期时会显著增加，随后随着年龄增长而逐渐消退。然而这项新研究表明， / 即便 / 令人饶有兴味的是， / 同样的规律 / 在亲社会行为上也完全适用。相比年幼儿童或成年人，青少年更倾向于报告 / 自己曾做出诸如无私帮助朋友等亲社会行为。",
           "vocabulary": [
             {
               "word": "researchers",
@@ -3595,7 +3595,7 @@
           "text": "Most significantly, there was a positive correlation between prosociality and rebelliousness. The teenagers who were more rebellious were also more likely to help others. The good and bad sides of adolescence seem to develop together.",
           "translation": "最重要的是，亲社会性和叛逆性之间存在正相关关系。越叛逆的青少年也更有可能帮助别人。青春期的好处和坏处似乎是同时发展的。",
           "slashed_text": "Most significantly , / there was a positive correlation between prosociality and rebelliousness. The teenagers / who were more rebellious were also more likely to help others. The good and bad sides of adolescence seem to develop together.",
-          "chunk_translation": "最显着的是 / there was a positive correlation between prosociality and rebelliousness. The teenagers / who were more rebellious were also more likely to help others. The good and bad sides of adolescence seem to develop together",
+          "chunk_translation": "最引人注目的是， / 亲社会性与叛逆倾向之间存在着显著的正相关关系。那些表现出更强叛逆性的青少年， / 往往也更有可能向他人施以援手。青春期的闪光点与阴暗面似乎是在同步协同发展的。",
           "vocabulary": [
             {
               "word": "significantly",
@@ -3649,7 +3649,7 @@
           "text": "Is there some common factor that underlies these apparently contradictory developments?",
           "translation": "这些看似矛盾的发展背后是否存在某种共同因素？",
           "slashed_text": "Is there some common factor / that underlies these apparently contradictory developments?",
-          "chunk_translation": "有没有什么共同因素 / 这些看似矛盾的发展背后隐藏着什么？",
+          "chunk_translation": "是否存在某种共同的底层因素， / 在驱动着这些表面上看似矛盾的发展变化？",
           "vocabulary": [
             {
               "word": "common",
@@ -3688,7 +3688,7 @@
           "text": "One idea is that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks, benefits and costs. “Reward sensitivity” measures how much reward it takes to outweigh risk.",
           "translation": "一种观点是，青少年的行为与研究人员所说的“奖励敏感性”有关。决策总是涉及平衡回报与风险、收益与成本。 “奖励敏感性”衡量的是需要多少奖励才能超过风险。",
           "slashed_text": "One idea is / that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks , / benefits and costs. “Reward sensitivity” measures how much reward it takes to outweigh risk.",
-          "chunk_translation": "一个想法是 / 青少年的行为与研究人员所说的“奖励敏感性”有关。决策总是涉及平衡回报和风险 / benefits and costs. “Reward sensitivity” measures how much reward it takes to outweigh risk",
+          "chunk_translation": "一种解释是， / 青少年的行为与研究人员所谓的“奖励敏感性”紧密相关。任何决策制定始终都涉及到权衡奖赏与风险、 / 收益与代价。“奖励敏感性”所衡量的，正是需要多大程度的奖励回报才足以压倒所面临的风险。",
           "vocabulary": [
             {
               "word": "idea",
@@ -3742,7 +3742,7 @@
           "text": "Teenagers are particularly sensitive to social rewards—winning the game, impressing a new friend, getting that boy to notice you. Reward sensitivity, like prosocial behavior and risk-taking, seems to go up in adolescence and then down again as we age. Somehow, when you hit 30, the chance that something exciting and new will happen at that party just doesn’t seem to outweigh the effort of getting up off the couch.",
           "translation": "青少年对社会奖励特别敏感——赢得比赛、给新朋友留下深刻印象、让那个男孩注意到你。奖励敏感性，如亲社会行为和冒险行为，似乎在青春期会上升，但随着年龄的增长又会下降。不知何故，当你到了 30 岁时，聚会上发生令人兴奋的新事情的机会似乎并不比从沙发上站起来的努力重要。",
           "slashed_text": "Teenagers are particularly sensitive to social rewards — / winning the game , / impressing a new friend , / getting / that boy to notice you. Reward sensitivity , / like prosocial behavior and risk-taking , / seems to go up / in adolescence and then down again as we age. Somehow , / when you hit 30 , / the chance / that something exciting and new will happen at / that party just doesn’t seem to outweigh the effort of getting up off the couch.",
-          "chunk_translation": "Teenagers are particularly sensitive to social rewards / winning the game / 给新朋友留下深刻印象 / 得到 / that boy to notice you. Reward sensitivity / 比如亲社会行为和冒险行为 / seems to go up / in adolescence and then down again as we age. Somehow / 当你达到30岁的时候 / 机会 / 一些令人兴奋和新的事情将会发生在 / 那个聚会似乎并不比从沙发上站起来的努力更重要",
+          "chunk_translation": "青少年对社交层面的奖励尤为敏锐—— / 赢得比赛胜利、 / 给新结识的朋友留下深刻印象、 / 或是成功引起 / 心仪男生的注意。奖励敏感性， / 如同亲社会行为和冒险倾向一样， / 似乎在青春期显著升高， / 随后随着年龄增长再度回落。不知不觉中， / 当你迈入30岁的大关时， / 那种概率， / 即在派对上邂逅令人兴奋的新鲜事的概率， / 似乎早已无法抵偿让你从舒适沙发上起身的巨大努力了。",
           "vocabulary": [
             {
               "word": "Teenagers",
@@ -3800,7 +3800,7 @@
           "text": "Teenagers are paradoxical.",
           "translation": "青少年是矛盾的。",
           "slashed_text": "Teenagers are paradoxical.",
-          "chunk_translation": "青少年是矛盾的",
+          "chunk_translation": "青少年群体身上充满了矛盾色彩。",
           "syntax": {
             "breakdown": [
               {
@@ -3818,7 +3818,7 @@
           "text": "That’s a mild and detached way of saying something that parents often express with considerably stronger language.",
           "translation": "这是一种温和而超然的表达方式，父母经常用相当强烈的语言来表达。",
           "slashed_text": "/ That’s a mild and detached way of saying something / that parents often express / with considerably stronger language.",
-          "chunk_translation": "这是一种温和而超然的说话方式 / that parents often express / with considerably stronger language",
+          "chunk_translation": "这是一种温和且客观的表述方式，用来概括 / 父母们在日常生活中 / 经常用更为激烈的言辞所宣泄的感受。",
           "syntax": {
             "breakdown": [
               {
@@ -3836,7 +3836,7 @@
           "text": "But the paradox is scientific as well as personal.",
           "translation": "但这个悖论既是科学的，也是个人的。",
           "slashed_text": "But the paradox is scientific as well as personal.",
-          "chunk_translation": "但这个悖论既是科学的，也是个人的。",
+          "chunk_translation": "但这种矛盾性不仅存在于个人生活体验中，同样具有科学上的深刻内涵。",
           "syntax": {
             "breakdown": [
               {
@@ -3854,7 +3854,7 @@
           "text": "In adolescence, helpless and dependent children who have relied on grown- ups for just about everything become independent people who can take care of themselves and help each other.",
           "translation": "在青春期，几乎所有事情都依赖成年人的无助和依赖的孩子成为能够照顾自己和互相帮助的独立人。",
           "slashed_text": "In adolescence , / helpless and dependent children / who have relied / on grown- ups / for just / about everything become independent people / who can take care of themselves and help each other.",
-          "chunk_translation": "青春期时 / 无助和依赖的儿童 / who have relied / on grown- ups / for just / about everything become independent people / 谁能照顾自己并互相帮助",
+          "chunk_translation": "在青春发育期， / 曾经无助且依赖性强、 / 在几乎所有事情上 / 都全权仰仗成年人的 / 儿童， / 正在转变为能够独当一面的独立个体， / 他们不仅能够自食其力，还能互相扶持。",
           "syntax": {
             "breakdown": [
               {
@@ -3872,7 +3872,7 @@
           "text": "At the  same time, once cheerful and compliant children become rebellious teenage risk-takers.",
           "translation": "At the  same time, once cheerful and compliant children become rebellious teenage risk-takers.",
           "slashed_text": "At the  same time , / once cheerful and compliant children become rebellious teenage risk-takers.",
-          "chunk_translation": "At the  same time / 曾经开朗顺从的孩子变成了叛逆的冒险家",
+          "chunk_translation": "但与此同时， / 曾经温顺听话的孩童也蜕变为了桀骜不驯、热衷冒险的叛逆少年。",
           "syntax": {
             "breakdown": [
               {
@@ -3890,7 +3890,7 @@
           "text": "A new study published in the journal Child Development, by Eveline Crone of the University of Leiden and colleagues, suggests that the positive and negative sides of teenagers go hand in hand.",
           "translation": "莱顿大学的伊芙琳·克龙及其同事在《儿童发展》杂志上发表的一项新研究表明，青少年的积极和消极方面是相辅相成的。",
           "slashed_text": "A new study published in the journal Child Development , / by Eveline Crone of the University of Leiden and colleagues , / suggests / that the positive and negative sides of teenagers go hand / in hand.",
-          "chunk_translation": "一项新研究发表在《儿童发展》杂志上 / 作者：莱顿大学的 Eveline Crone 及其同事 / 建议 / that the positive and negative sides of teenagers go hand / in hand",
+          "chunk_translation": "发表在《儿童发展》期刊上的一项新研究， / 由莱顿大学的埃芙琳·克罗内及其同事共同开展， / 表明： / 青少年的积极面与消极面其实是相伴相生、 / 携手并进的。",
           "syntax": {
             "breakdown": [
               {
@@ -3908,7 +3908,7 @@
           "text": "The study is part of a new wave of thinking about adolescence.",
           "translation": "这项研究是关于青春期的新一波思考的一部分。",
           "slashed_text": "The study is part of a new wave of thinking / about adolescence.",
-          "chunk_translation": "The study is part of a new wave of thinking / about adolescence",
+          "chunk_translation": "这项研究代表了针对青春期认知的 / 新一轮思潮。",
           "syntax": {
             "breakdown": [
               {
@@ -3926,7 +3926,7 @@
           "text": "For a long time, scientists and policy makers concentrated on the idea that teenagers were a problem that needed to be solved.",
           "translation": "长期以来，科学家和政策制定者都认为青少年是一个需要解决的问题。",
           "slashed_text": "For a long time , / scientists and policy makers concentrated on the idea / that teenagers were a problem / that needed to be solved.",
-          "chunk_translation": "许久 / 科学家和政策制定者集中精力研究这个想法 / 青少年是个问题 / 需要解决的问题",
+          "chunk_translation": "长期以来， / 科学家和政策制定者都把注意力集中在这样一种观念上： / 青少年本身就是一个 / 亟待解决的问题。",
           "syntax": {
             "breakdown": [
               {
@@ -3944,7 +3944,7 @@
           "text": "The new work emphasizes that adolescence is a time of opportunity as well as risk.",
           "translation": "新作品强调青春期是一个充满机遇和风险的时期。",
           "slashed_text": "The new work emphasizes / that adolescence is a time of opportunity as well as risk.",
-          "chunk_translation": "新作品强调 / that adolescence is a time of opportunity as well as risk",
+          "chunk_translation": "而新的研究工作则强调： / 青春期既是充满风险的时期，更是蕴藏无限机遇的黄金阶段。",
           "syntax": {
             "breakdown": [
               {
@@ -3962,7 +3962,7 @@
           "text": "The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, ranging from 11 to 28 years old.",
           "translation": "研究人员研究了 200 多名 11 岁至 28 岁儿童和年轻人的“亲社会”和叛逆特征。",
           "slashed_text": "The researchers studied “prosocial” and rebellious traits / in more than 200 children and young adults , / ranging from 11 to 28 years old.",
-          "chunk_translation": "The researchers studied “prosocial” and rebellious traits / in more than 200 children and young adults / 年龄范围从11岁到28岁",
+          "chunk_translation": "研究人员深入分析了“亲社会”与叛逆特质， / 在200多名儿童及青年群体中， / 受试者的年龄跨度从11岁到28岁不等。",
           "syntax": {
             "breakdown": [
               {
@@ -3980,7 +3980,7 @@
           "text": "The participants filled out questionnaires about how often they did things that were altruistic and positive, like sacrificing their own interests to help a friend, or rebellious and negative, like getting drunk or staying out late.",
           "translation": "参与者填写了调查问卷，了解他们做利他和积极的事情（例如牺牲自己的利益来帮助朋友）或叛逆和消极的事情（例如喝醉或在外面熬夜）的频率。",
           "slashed_text": "The participants filled out questionnaires about how often they did things / that were altruistic and positive , / like sacrificing their own interests to help a friend , / or rebellious and negative , / like getting drunk or staying out late.",
-          "chunk_translation": "参与者填写了关于他们做某事的频率的调查问卷 / 是无私和积极的 / 喜欢牺牲自己的利益来帮助朋友 / 或叛逆、消极 / 比如喝醉或在外面呆到很晚",
+          "chunk_translation": "受试者填写了关于他们从事某些行为频率的调查问卷， / 包括那些利他且积极的行为， / 如牺牲自身利益去帮助朋友， / 或是叛逆且负面的行为， / 如酗酒买醉或夜不归宿。",
           "syntax": {
             "breakdown": [
               {
@@ -3998,7 +3998,7 @@
           "text": "Other studies have shown that rebellious behavior increases as you become a teenager and then fades away as you grow older.",
           "translation": "其他研究表明，叛逆行为会随着青少年的增长而增加，然后随着年龄的增长而消失。",
           "slashed_text": "Other studies have shown / that rebellious behavior increases as you become a teenager and then fades away as you grow older.",
-          "chunk_translation": "其他研究表明 / 叛逆行为会随着你进入青少年而增加，然后随着年龄的增长而消失",
+          "chunk_translation": "其他研究表明， / 叛逆行为在步入青少年时期时会显著增加，随后随着年龄增长而逐渐消退。",
           "syntax": {
             "breakdown": [
               {
@@ -4016,7 +4016,7 @@
           "text": "But the new study shows that, interestingly, the same pattern holds for prosocial behavior.",
           "translation": "但有趣的是，新研究表明，亲社会行为也存在同样的模式。",
           "slashed_text": "But the new study shows / that , / interestingly , / the same pattern holds / for prosocial behavior.",
-          "chunk_translation": "But the new study shows / 那 / 有趣的是 / the same pattern holds / for prosocial behavior",
+          "chunk_translation": "然而这项新研究表明， / 即便 / 令人饶有兴味的是， / 同样的规律 / 在亲社会行为上也完全适用。",
           "syntax": {
             "breakdown": [
               {
@@ -4034,7 +4034,7 @@
           "text": "Teenagers were  more likely than younger children or adults to report that they did things like unselfishly help a friend.",
           "translation": "Teenagers were  more likely than younger children or adults to report that they did things like unselfishly help a friend.",
           "slashed_text": "Teenagers were  more likely than younger children or adults to report / that they did things like unselfishly help a friend.",
-          "chunk_translation": "Teenagers were  more likely than younger children or adults to report / 他们做了一些事情，比如无私地帮助朋友",
+          "chunk_translation": "相比年幼儿童或成年人，青少年更倾向于报告 / 自己曾做出诸如无私帮助朋友等亲社会行为。",
           "syntax": {
             "breakdown": [
               {
@@ -4052,7 +4052,7 @@
           "text": "Most significantly, there was a positive correlation between prosociality and rebelliousness.",
           "translation": "最重要的是，亲社会性和叛逆性之间存在正相关关系。",
           "slashed_text": "Most significantly , / there was a positive correlation between prosociality and rebelliousness.",
-          "chunk_translation": "最显着的是 / 亲社会性和叛逆性之间存在正相关关系",
+          "chunk_translation": "最引人注目的是， / 亲社会性与叛逆倾向之间存在着显著的正相关关系。",
           "syntax": {
             "breakdown": [
               {
@@ -4070,7 +4070,7 @@
           "text": "The teenagers who were more rebellious were also more likely to help others.",
           "translation": "越叛逆的青少年也更有可能帮助别人。",
           "slashed_text": "The teenagers / who were more rebellious were also more likely to help others.",
-          "chunk_translation": "青少年们 / 越叛逆的人也越有可能帮助别人",
+          "chunk_translation": "那些表现出更强叛逆性的青少年， / 往往也更有可能向他人施以援手。",
           "syntax": {
             "breakdown": [
               {
@@ -4088,7 +4088,7 @@
           "text": "The good and bad sides of adolescence seem to develop together.",
           "translation": "青春期的好处和坏处似乎是同时发展的。",
           "slashed_text": "The good and bad sides of adolescence seem to develop together.",
-          "chunk_translation": "青春期的好与坏似乎是同时发展的",
+          "chunk_translation": "青春期的闪光点与阴暗面似乎是在同步协同发展的。",
           "syntax": {
             "breakdown": [
               {
@@ -4106,7 +4106,7 @@
           "text": "Is there some common factor that underlies these apparently contradictory developments?",
           "translation": "这些看似矛盾的发展背后是否存在某种共同因素？",
           "slashed_text": "Is there some common factor / that underlies these apparently contradictory developments?",
-          "chunk_translation": "有没有什么共同因素 / 这些看似矛盾的发展背后隐藏着什么？",
+          "chunk_translation": "是否存在某种共同的底层因素， / 在驱动着这些表面上看似矛盾的发展变化？",
           "syntax": {
             "breakdown": [
               {
@@ -4124,7 +4124,7 @@
           "text": "One idea is that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks, benefits and costs.",
           "translation": "一种观点是，青少年的行为与研究人员所说的“奖励敏感性”有关。决策总是涉及平衡回报与风险、收益与成本。",
           "slashed_text": "One idea is / that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks , / benefits and costs.",
-          "chunk_translation": "一个想法是 / 青少年的行为与研究人员所说的“奖励敏感性”有关。决策总是涉及平衡回报和风险 / 效益和成本",
+          "chunk_translation": "一种解释是， / 青少年的行为与研究人员所谓的“奖励敏感性”紧密相关。任何决策制定始终都涉及到权衡奖赏与风险、 / 收益与代价。",
           "syntax": {
             "breakdown": [
               {
@@ -4142,7 +4142,7 @@
           "text": "“Reward sensitivity” measures how much reward it takes to outweigh risk.",
           "translation": "“奖励敏感性”衡量的是需要多少奖励才能超过风险。",
           "slashed_text": "“Reward sensitivity” measures how much reward it takes to outweigh risk.",
-          "chunk_translation": "“奖励敏感性”衡量的是需要多少奖励才能超过风险。",
+          "chunk_translation": "“奖励敏感性”所衡量的，正是需要多大程度的奖励回报才足以压倒所面临的风险。",
           "syntax": {
             "breakdown": [
               {
@@ -4160,7 +4160,7 @@
           "text": "Teenagers are particularly sensitive to social rewards—winning the game, impressing a new friend, getting that boy to notice you.",
           "translation": "青少年对社会奖励特别敏感——赢得比赛、给新朋友留下深刻印象、让那个男孩注意到你。",
           "slashed_text": "Teenagers are particularly sensitive to social rewards — / winning the game , / impressing a new friend , / getting / that boy to notice you.",
-          "chunk_translation": "Teenagers are particularly sensitive to social rewards / winning the game / 给新朋友留下深刻印象 / 得到 / 那个男孩注意到你",
+          "chunk_translation": "青少年对社交层面的奖励尤为敏锐—— / 赢得比赛胜利、 / 给新结识的朋友留下深刻印象、 / 或是成功引起 / 心仪男生的注意。",
           "syntax": {
             "breakdown": [
               {
@@ -4178,7 +4178,7 @@
           "text": "Reward sensitivity, like prosocial behavior and risk-taking, seems to go up in adolescence and then down again as we age.",
           "translation": "奖励敏感性，如亲社会行为和冒险行为，似乎在青春期会上升，但随着年龄的增长又会下降。",
           "slashed_text": "Reward sensitivity , / like prosocial behavior and risk-taking , / seems to go up / in adolescence and then down again as we age.",
-          "chunk_translation": "奖励敏感性 / 比如亲社会行为和冒险行为 / seems to go up / in adolescence and then down again as we age",
+          "chunk_translation": "奖励敏感性， / 如同亲社会行为和冒险倾向一样， / 似乎在青春期显著升高， / 随后随着年龄增长再度回落。",
           "syntax": {
             "breakdown": [
               {
@@ -4196,7 +4196,7 @@
           "text": "Somehow, when you hit 30, the chance that something exciting and new will happen at that party just doesn’t seem to outweigh the effort of getting up off the couch.",
           "translation": "不知何故，当你到了 30 岁时，聚会上发生令人兴奋的新事情的机会似乎并不比从沙发上站起来的努力重要。",
           "slashed_text": "Somehow , / when you hit 30 , / the chance / that something exciting and new will happen at / that party just doesn’t seem to outweigh the effort of getting up off the couch.",
-          "chunk_translation": "不知何故 / 当你达到30岁的时候 / 机会 / 一些令人兴奋和新的事情将会发生在 / 那个聚会似乎并不比从沙发上站起来的努力更重要",
+          "chunk_translation": "不知不觉中， / 当你迈入30岁的大关时， / 那种概率， / 即在派对上邂逅令人兴奋的新鲜事的概率， / 似乎早已无法抵偿让你从舒适沙发上起身的巨大努力了。",
           "syntax": {
             "breakdown": [
               {

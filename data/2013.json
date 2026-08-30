@@ -12,7 +12,7 @@
           "text": "In an essay entitled “Making It in America,” the author Adam Davidson relates a joke from cotton country about just how much a modern textile mill has been automated: The average mill has only two employees today, “a man and a dog. The man is there to feed the dog, and the dog is there to keep the man away from the machines.”",
           "translation": "在一篇题为《在美国制造》的文章中，作者亚当·戴维森讲述了一个来自棉花国家的笑话，讲述了现代纺织厂的自动化程度：如今，纺织厂平均只有两名员工，“一个人和一只狗。人在那里喂狗，狗在那里让人远离机器。”",
           "slashed_text": "In an essay entitled “Making It / in America , / ” the author Adam Davidson relates a joke / from cotton country / about just how much a modern textile mill has been automated : / The average mill has only two employees today , / “a man and a dog. The man is there to feed the dog , / and the dog is there to keep the man away from the machines.”",
-          "chunk_translation": "In an essay entitled “Making It / in America / the author Adam Davidson relates a joke / from cotton country / about just how much a modern textile mill has been automated / 如今，工厂平均只有两名员工 / a man and a dog. The man is there to feed the dog / 狗的作用是让人类远离机器。”",
+          "chunk_translation": "在一篇题为“在美国 / 制造”的文章中 / ”作者亚当·戴维森讲述了一个笑话 / 来自棉花之乡 / 关于现代纺织厂的自动化程度究竟有多高： / 如今普通工厂只有两名雇员， / “一个人和一条狗 人的工作是去喂狗 / 而狗的工作是防止人去触碰机器。”",
           "vocabulary": [
             {
               "word": "essay",
@@ -66,7 +66,7 @@
           "text": "Davidson’s article is one of a number of pieces that have recently appeared making the point that the reason we have such stubbornly high unemployment and declining middle-class incomes today is largely because of the big drop in demand because of the Great Recession, but it is also because of the advances in both globalization and the information technology revolution, which are more rapidly than ever replacing labor with machines or foreign workers.",
           "translation": "戴维森的文章是最近出现的众多文章之一，这些文章指出，当今失业率如此居高不下，中产阶级收入下降，很大程度上是因为大衰退造成的需求大幅下降，但也是因为全球化和信息技术革命的进步，机器或外国工人比以往任何时候都更快地取代劳动力。",
           "slashed_text": "Davidson’s article is one of a number of pieces / that have recently appeared making the point / that the reason we have such stubbornly high unemployment and declining middle-class incomes today is largely / because of the big drop / in demand / because of the Great Recession , / but it is also / because of the advances / in both globalization and the information technology revolution , / which are more rapidly than ever replacing labor / with machines or foreign workers.",
-          "chunk_translation": "戴维森的文章是众多文章之一 / 最近出现的问题表明了这一点 / 我们今天失业率居高不下、中产阶级收入下降的原因很大程度上是 / because of the big drop / in demand / 因为大衰退 / 但这也是 / because of the advances / in both globalization and the information technology revolution / which are more rapidly than ever replacing labor / with machines or foreign workers",
+          "chunk_translation": "戴维森的文章是最近出现的诸多文章之一 / 这些文章阐明了这样一个观点： / 当今我们面临如此顽固的高失业率以及中产阶级收入下降的原因很大程度上 / 是因为大幅下滑 / 在需求方面的下滑 / 由于大衰退所致 / 但这也是 / 因为取得了进展 / 在全球化和信息技术革命这两个领域 / 这两者正以前所未有的速度用机器替代劳动力 / 用机器或外国劳工替代",
           "vocabulary": [
             {
               "word": "Davidson",
@@ -120,7 +120,7 @@
           "text": "In the past, workers with average skills, doing an average job, could earn an average lifestyle. But, today, average is officially over. Being average just won’t earn you what it used to. It can’t when so many more employers have so much more access to so much more above average cheap foreign labor, cheap robotics, cheap software, cheap automation and cheap genius. Therefore, everyone needs to find their extra—their unique value contribution that makes them stand out in whatever is their field of employment.",
           "translation": "过去，拥有普通技能的工人，做着普通的工作，就能获得普通的生活方式。但是，今天，平均值正式结束。变得平庸不会让你赚到以前那样的钱。当越来越多的雇主有更多机会获得高于平均水平的廉价外国劳动力、廉价机器人、廉价软件、廉价自动化和廉价天才时，它就不可能了。因此，每个人都需要找到自己的额外价值——独特的价值贡献，使他们在任何就业领域中脱颖而出。",
           "slashed_text": "In the past , / workers / with average skills , / doing an average job , / could earn an average lifestyle. But , / today , / average is officially over. Being average just won’t earn you what it used to. It can’t / when so many more employers have so much more access to so much more above average cheap foreign labor , / cheap robotics , / cheap software , / cheap automation and cheap genius. Therefore , / everyone needs to find their extra — / their unique value contribution / that makes them stand out / in whatever is their field of employment.",
-          "chunk_translation": "在过去 / workers / with average skills / 做着一般的工作 / could earn an average lifestyle. But / 今天 / average is officially over. Being average just won’t earn you what it used to. It can’t / 当越来越多的雇主有更多机会获得高于平均水平的廉价外国劳动力时 / 廉价机器人 / 廉价软件 / cheap automation and cheap genius. Therefore / everyone needs to find their extra / their unique value contribution / that makes them stand out / in whatever is their field of employment",
+          "chunk_translation": "在过去 / 劳动者 / 拥有普通技能的 / 做着一份普通的工作 / 就能获得中等水平的生活方式 但是 / 今天 / 平庸时代已正式终结 表现平庸再也无法为你赢得过去的收入与回报 这绝无可能 / 当越来越多的雇主拥有更多渠道获取远超平均水平的廉价外国劳动力 / 廉价机器人、 / 廉价软件、 / 廉价自动化技术和廉价天才时 因此 / 每个人都需要找到自己的额外优势—— / 即他们独特的价值贡献 / 能够让他们脱颖而出 / 无论在他们所从事的哪个职业领域",
           "vocabulary": [
             {
               "word": "past",
@@ -174,7 +174,7 @@
           "text": "Yes, new technology has been eating jobs forever, and always will. But there’s been an acceleration. As Davidson notes, “In the 10 years ending in 2009, [U.S.] factories shed workers so fast that they erased almost all the gains of the previous 70 years; roughly one out of every three manufacturing jobs—about 6 million in total—disappeared.”",
           "translation": "是的，新技术一直在蚕食就业岗位，而且永远如此。但有一个加速。正如戴维森指出的那样，“在截至 2009 年的 10 年里，（美国）工厂裁员速度如此之快，几乎抹去了过去 70 年的所有成果；大约三分之一的制造业工作岗位（总共约 600 万个）消失了。”",
           "slashed_text": "Yes , / new technology has been eating jobs forever , / and always will. But there’s been an acceleration. As Davidson notes , / “In the 10 years ending in 2009 , / [U.S.] factories shed workers so fast / that they erased almost all the gains of the previous 70 years ; / roughly one out of every three manufacturing jobs — / about 6 million / in total — / disappeared.”",
-          "chunk_translation": "是的 / 新技术一直在蚕食就业机会 / and always will. But there’s been an acceleration. As Davidson notes / In the 10 years ending in 2009 / [美国]工厂裁员速度如此之快 / 他们几乎抹去了过去70年的所有成果 / roughly one out of every three manufacturing jobs / about 6 million / in total / disappeared",
+          "chunk_translation": "是的 / 新技术一直在蚕食工作岗位 / 并且将来也永远会如此 但如今这一进程已然加速 正如戴维森所指出的： / “在截至2009年的10年间 / [美国]工厂裁员速度如此之快 / 以至于几乎抹平了过去70年的所有增幅； / 大约每三个制造业岗位中就有一个—— / 约600万个岗位 / 总计—— / 消失了。”",
           "vocabulary": [
             {
               "word": "technology",
@@ -228,7 +228,7 @@
           "text": "There will always be change—new jobs, new products, new services. But the one thing we know for sure is that with each advance in globalization and the I.T. revolution, the best jobs will require workers to have more and better education to make themselves above average.",
           "translation": "总会有变化——新的工作、新的产品、新的服务。但我们确信的一件事是，随着全球化和信息技术的每一次进步。革命后，最好的工作将要求工人接受更多更好的教育，以使自己高于平均水平。",
           "slashed_text": "There will always be change — / new jobs , / new products , / new services. But the one thing we know / for sure is / that / with each advance / in globalization and the I.T. revolution , / the best jobs will require workers to have more and better education to make themselves above average.",
-          "chunk_translation": "There will always be change / new jobs / 新产品 / new services. But the one thing we know / for sure is / 那 / with each advance / in globalization and the I.T. revolution / 最好的工作需要工人接受更多更好的教育以使自己高于平均水平",
+          "chunk_translation": "变化总是会发生的—— / 新的工作岗位、 / 新的产品、 / 新的服务 但我们确切知道的 / 一件事是 / 即 / 伴随着每一步推进 / 在全球化和信息技术领域 革命的推进 / 最好的工作将要求劳动者接受更多更好的教育，从而使自己超越平庸",
           "vocabulary": [
             {
               "word": "always",
@@ -282,7 +282,7 @@
           "text": "In a world where average is officially over, there are many things we need to do to support employment, but nothing would be more important than passing some kind of G.I. Bill for the 21st century that ensures that every American has access to post-high school education.",
           "translation": "在一个平均水平正式结束的世界里，我们需要做很多事情来支持就业，但没有什么比通过某种退伍军人资格考试更重要的了。确保每个美国人都能接受高中后教育的 21 世纪法案。",
           "slashed_text": "In a world / where average is officially over , / there are many things we need to do to support employment , / but nothing would be more important than passing some kind of G.I. Bill for the 21st century / that ensures / that every American has access to post-high school education.",
-          "chunk_translation": "在一个世界里 / 平均值正式结束 / 支持就业我们需要做很多事情 / but nothing would be more important than passing some kind of G.I. Bill for the 21st century / 这确保了 / 每个美国人都有机会接受高中后教育",
+          "chunk_translation": "在一个世界中 / 平庸时代已正式终结的世界 / 为了支持就业我们需要做很多事情 / 但没有什么比通过某种退伍军人权利法案更重要了 21世纪的退伍军人法案 / 以确保 / 每个美国人都能获得高中后高等教育机会",
           "vocabulary": [
             {
               "word": "average",
@@ -340,7 +340,7 @@
           "text": "In an essay entitled “Making It in America,” the author Adam Davidson relates a joke from cotton country about just how much a modern textile mill has been automated: The average mill has only two employees today, “a man and a dog.",
           "translation": "在一篇题为“在美国制造”的文章中，作者亚当·戴维森讲述了一个来自棉花国家的笑话，讲述了现代纺织厂的自动化程度：如今，工厂平均只有两名员工，“一个男人和一条狗。",
           "slashed_text": "In an essay entitled “Making It / in America , / ” the author Adam Davidson relates a joke / from cotton country / about just how much a modern textile mill has been automated : / The average mill has only two employees today , / “a man and a dog.",
-          "chunk_translation": "In an essay entitled “Making It / in America / the author Adam Davidson relates a joke / from cotton country / about just how much a modern textile mill has been automated / 如今，工厂平均只有两名员工 / a man and a dog",
+          "chunk_translation": "在一篇题为“在美国 / 制造”的文章中 / ”作者亚当·戴维森讲述了一个笑话 / 来自棉花之乡 / 关于现代纺织厂的自动化程度究竟有多高： / 如今普通工厂只有两名雇员， / “一个人和一条狗",
           "syntax": {
             "breakdown": [
               {
@@ -358,7 +358,7 @@
           "text": "The man is there to feed the dog, and the dog is there to keep the man away from the machines.”",
           "translation": "人的职责是喂狗，狗的职责是让人远离机器。”",
           "slashed_text": "The man is there to feed the dog , / and the dog is there to keep the man away from the machines.”",
-          "chunk_translation": "男人是来喂狗的 / 狗的作用是让人类远离机器。”",
+          "chunk_translation": "人的工作是去喂狗 / 而狗的工作是防止人去触碰机器。”",
           "syntax": {
             "breakdown": [
               {
@@ -376,7 +376,7 @@
           "text": "Davidson’s article is one of a number of pieces that have recently appeared making the point that the reason we have such stubbornly high unemployment and declining middle-class incomes today is largely because of the big drop in demand because of the Great Recession, but it is also because of the advances in both globalization and the information technology revolution, which are more rapidly than ever replacing labor with machines or foreign workers.",
           "translation": "戴维森的文章是最近出现的众多文章之一，这些文章指出，当今失业率如此居高不下，中产阶级收入下降，很大程度上是因为大衰退造成的需求大幅下降，但也是因为全球化和信息技术革命的进步，机器或外国工人比以往任何时候都更快地取代劳动力。",
           "slashed_text": "Davidson’s article is one of a number of pieces / that have recently appeared making the point / that the reason we have such stubbornly high unemployment and declining middle-class incomes today is largely / because of the big drop / in demand / because of the Great Recession , / but it is also / because of the advances / in both globalization and the information technology revolution , / which are more rapidly than ever replacing labor / with machines or foreign workers.",
-          "chunk_translation": "戴维森的文章是众多文章之一 / 最近出现的问题表明了这一点 / 我们今天失业率居高不下、中产阶级收入下降的原因很大程度上是 / because of the big drop / in demand / 因为大衰退 / 但这也是 / because of the advances / in both globalization and the information technology revolution / which are more rapidly than ever replacing labor / with machines or foreign workers",
+          "chunk_translation": "戴维森的文章是最近出现的诸多文章之一 / 这些文章阐明了这样一个观点： / 当今我们面临如此顽固的高失业率以及中产阶级收入下降的原因很大程度上 / 是因为大幅下滑 / 在需求方面的下滑 / 由于大衰退所致 / 但这也是 / 因为取得了进展 / 在全球化和信息技术革命这两个领域 / 这两者正以前所未有的速度用机器替代劳动力 / 用机器或外国劳工替代",
           "syntax": {
             "breakdown": [
               {
@@ -399,7 +399,7 @@
           "text": "In the past, workers with average skills, doing an average job, could earn an average lifestyle.",
           "translation": "过去，拥有普通技能的工人，做着普通的工作，就能获得普通的生活方式。",
           "slashed_text": "In the past , / workers / with average skills , / doing an average job , / could earn an average lifestyle.",
-          "chunk_translation": "在过去 / workers / with average skills / 做着一般的工作 / 可以获得平均的生活方式",
+          "chunk_translation": "在过去 / 劳动者 / 拥有普通技能的 / 做着一份普通的工作 / 就能获得中等水平的生活方式",
           "syntax": {
             "breakdown": [
               {
@@ -417,7 +417,7 @@
           "text": "But, today, average is officially over.",
           "translation": "但是，今天，平均值正式结束。",
           "slashed_text": "But , / today , / average is officially over.",
-          "chunk_translation": "但 / 今天 / 平均值正式结束",
+          "chunk_translation": "但是 / 今天 / 平庸时代已正式终结",
           "syntax": {
             "breakdown": [
               {
@@ -435,7 +435,7 @@
           "text": "Being average just won’t earn you what it used to.",
           "translation": "表现平平并不会让你赚到以前那样的钱。",
           "slashed_text": "Being average just won’t earn you what it used to.",
-          "chunk_translation": "平庸不会让你赚到以前那样的钱",
+          "chunk_translation": "表现平庸再也无法为你赢得过去的收入与回报",
           "syntax": {
             "breakdown": [
               {
@@ -453,7 +453,7 @@
           "text": "It can’t when so many more employers have so much more access to so much more above average cheap foreign labor, cheap robotics, cheap software, cheap automation and cheap genius.",
           "translation": "当越来越多的雇主有更多机会获得高于平均水平的廉价外国劳动力、廉价机器人、廉价软件、廉价自动化和廉价天才时，它就不可能了。",
           "slashed_text": "It can’t / when so many more employers have so much more access to so much more above average cheap foreign labor , / cheap robotics , / cheap software , / cheap automation and cheap genius.",
-          "chunk_translation": "不可以 / 当越来越多的雇主有更多机会获得高于平均水平的廉价外国劳动力时 / 廉价机器人 / 廉价软件 / 廉价的自动化和廉价的天才",
+          "chunk_translation": "这绝无可能 / 当越来越多的雇主拥有更多渠道获取远超平均水平的廉价外国劳动力 / 廉价机器人、 / 廉价软件、 / 廉价自动化技术和廉价天才时",
           "syntax": {
             "breakdown": [
               {
@@ -471,7 +471,7 @@
           "text": "Therefore, everyone needs to find their extra—their unique value contribution that makes them stand out in whatever is their field of employment.",
           "translation": "因此，每个人都需要找到自己的额外价值——独特的价值贡献，使他们在任何就业领域中脱颖而出。",
           "slashed_text": "Therefore , / everyone needs to find their extra — / their unique value contribution / that makes them stand out / in whatever is their field of employment.",
-          "chunk_translation": "所以 / everyone needs to find their extra / their unique value contribution / that makes them stand out / in whatever is their field of employment",
+          "chunk_translation": "因此 / 每个人都需要找到自己的额外优势—— / 即他们独特的价值贡献 / 能够让他们脱颖而出 / 无论在他们所从事的哪个职业领域",
           "syntax": {
             "breakdown": [
               {
@@ -489,7 +489,7 @@
           "text": "Yes, new technology has been eating jobs forever, and always will.",
           "translation": "是的，新技术一直在蚕食就业岗位，而且永远如此。",
           "slashed_text": "Yes , / new technology has been eating jobs forever , / and always will.",
-          "chunk_translation": "是的 / 新技术一直在蚕食就业机会 / 并将永远",
+          "chunk_translation": "是的 / 新技术一直在蚕食工作岗位 / 并且将来也永远会如此",
           "syntax": {
             "breakdown": [
               {
@@ -507,7 +507,7 @@
           "text": "But there’s been an acceleration.",
           "translation": "但有一个加速。",
           "slashed_text": "But there’s been an acceleration.",
-          "chunk_translation": "但有一个加速",
+          "chunk_translation": "但如今这一进程已然加速",
           "syntax": {
             "breakdown": [
               {
@@ -525,7 +525,7 @@
           "text": "As Davidson notes, “In the 10 years ending in 2009, [U.S.] factories shed workers so fast that they erased almost all the gains of the previous 70 years; roughly one out of every three manufacturing jobs—about 6 million in total—disappeared.”",
           "translation": "正如戴维森所指出的，“在截至2009年的10年里，[美国工厂裁员速度之快，几乎抹去了过去70年的所有成果；大约三分之一的制造业工作岗位——总共约600万个——消失了。”",
           "slashed_text": "As Davidson notes , / “In the 10 years ending in 2009 , / [U.S.] factories shed workers so fast / that they erased almost all the gains of the previous 70 years ; / roughly one out of every three manufacturing jobs — / about 6 million / in total — / disappeared.”",
-          "chunk_translation": "正如戴维森指出的 / In the 10 years ending in 2009 / [美国]工厂裁员速度如此之快 / 他们几乎抹去了过去70年的所有成果 / roughly one out of every three manufacturing jobs / about 6 million / in total / disappeared",
+          "chunk_translation": "正如戴维森所指出的： / “在截至2009年的10年间 / [美国]工厂裁员速度如此之快 / 以至于几乎抹平了过去70年的所有增幅； / 大约每三个制造业岗位中就有一个—— / 约600万个岗位 / 总计—— / 消失了。”",
           "syntax": {
             "breakdown": [
               {
@@ -543,7 +543,7 @@
           "text": "There will always be change—new jobs, new products, new services.",
           "translation": "总会有变化——新的工作、新的产品、新的服务。",
           "slashed_text": "There will always be change — / new jobs , / new products , / new services.",
-          "chunk_translation": "There will always be change / new jobs / 新产品 / 新服务",
+          "chunk_translation": "变化总是会发生的—— / 新的工作岗位、 / 新的产品、 / 新的服务",
           "syntax": {
             "breakdown": [
               {
@@ -561,7 +561,7 @@
           "text": "But the one thing we know for sure is that with each advance in globalization and the I.T.",
           "translation": "但我们确信的一件事是，随着全球化和信息技术的每一次进步。",
           "slashed_text": "But the one thing we know / for sure is / that / with each advance / in globalization and the I.T.",
-          "chunk_translation": "But the one thing we know / for sure is / 那 / with each advance / in globalization and the I.T",
+          "chunk_translation": "但我们确切知道的 / 一件事是 / 即 / 伴随着每一步推进 / 在全球化和信息技术领域",
           "syntax": {
             "breakdown": [
               {
@@ -579,7 +579,7 @@
           "text": "revolution, the best jobs will require workers to have more and better education to make themselves above average.",
           "translation": "革命后，最好的工作将要求工人接受更多更好的教育，以使自己高于平均水平。",
           "slashed_text": "revolution , / the best jobs will require workers to have more and better education to make themselves above average.",
-          "chunk_translation": "革命 / 最好的工作需要工人接受更多更好的教育以使自己高于平均水平",
+          "chunk_translation": "革命的推进 / 最好的工作将要求劳动者接受更多更好的教育，从而使自己超越平庸",
           "syntax": {
             "breakdown": [
               {
@@ -597,7 +597,7 @@
           "text": "In a world where average is officially over, there are many things we need to do to support employment, but nothing would be more important than passing some kind of G.I.",
           "translation": "在一个平均水平正式结束的世界里，我们需要做很多事情来支持就业，但没有什么比通过某种退伍军人资格考试更重要的了。",
           "slashed_text": "In a world / where average is officially over , / there are many things we need to do to support employment , / but nothing would be more important than passing some kind of G.I.",
-          "chunk_translation": "在一个世界里 / 平均值正式结束 / 支持就业我们需要做很多事情 / 但没有什么比通过某种退伍军人资格考试更重要的了",
+          "chunk_translation": "在一个世界中 / 平庸时代已正式终结的世界 / 为了支持就业我们需要做很多事情 / 但没有什么比通过某种退伍军人权利法案更重要了",
           "syntax": {
             "breakdown": [
               {
@@ -615,7 +615,7 @@
           "text": "Bill for the 21st century that ensures that every American has access to post-high school education.",
           "translation": "确保每个美国人都能接受高中后教育的 21 世纪法案。",
           "slashed_text": "Bill for the 21st century / that ensures / that every American has access to post-high school education.",
-          "chunk_translation": "21世纪的法案 / 这确保了 / 每个美国人都有机会接受高中后教育",
+          "chunk_translation": "21世纪的退伍军人法案 / 以确保 / 每个美国人都能获得高中后高等教育机会",
           "syntax": {
             "breakdown": [
               {
@@ -1088,7 +1088,7 @@
           "text": "A century ago, the immigrants from across the Atlantic included settlers and sojourners. Along with the many folks looking to make a permanent home in the United States came those who had no intention to stay, and who would make some money and then go home. Between 1908 and 1915, about 7 million people arrived while about 2 million departed. About a quarter of all Italian immigrants, for example, eventually returned to Italy for good. They even had an affectionate nickname, “uccelli di passaggio,” birds of passage.",
           "translation": "一个世纪前，来自大西洋彼岸的移民包括定居者和寄居者。除了许多希望在美国永久定居的人之外，还有一些无意留下来、想赚点钱然后回家的人。 1908 年至 1915 年间，约有 700 万人抵达，约 200 万人离开。例如，大约四分之一的意大利移民最终永久返回意大利。它们甚至还有一个亲切的昵称“uccelli di passaggio”，即候鸟。",
           "slashed_text": "A century ago , / the immigrants / from across the Atlantic included settlers and sojourners. Along with the many folks looking to make a permanent home in the United States came those / who had no intention to stay , / and / who would make some money and then go home. Between 1908 and 1915 , / about 7 million people arrived / while about 2 million departed. About a quarter of all Italian immigrants , / for example , / eventually returned to Italy / for good. They even had an affectionate nickname , / “uccelli di passaggio , / ” birds of passage.",
-          "chunk_translation": "一个世纪前 / the immigrants / from across the Atlantic included settlers and sojourners. Along with the many folks looking to make a permanent home in the United States came those / 谁无意留下来 / 和 / who would make some money and then go home. Between 1908 and 1915 / 约700万人抵达 / while about 2 million departed. About a quarter of all Italian immigrants / 例如 / eventually returned to Italy / for good. They even had an affectionate nickname / uccelli di passaggio / birds of passage",
+          "chunk_translation": "一个世纪前 / 移民群体 / 来自大西洋彼岸的移民既包括定居者也包括寄居者 在许多希望在美国永久安家的人群之外，还有那些 / 无意长期留下来的人 / 以及 / 只想赚些钱就回国的人 在1908年至1915年间 / 约有700万人抵达美国 / 而约有200万人离开 例如所有意大利移民中约有四分之一 / 例如 / 最终永久返回了意大利 / 永久地 他们甚至拥有一个亲切的绰号 / “过客之鸟 / ”即候鸟",
           "vocabulary": [
             {
               "word": "century",
@@ -1142,7 +1142,7 @@
           "text": "Today, we are much more rigid about immigrants. We divide newcomers into two categories: legal or illegal, good or bad. We hail them as Americans in the making, or brand them as aliens to be kicked out. That framework has contributed mightily to our broken immigration system and the long political paralysis over how to fix it. We don’t need more categories, but we need to change the way we think about categories. We need to look beyond strict definitions of legal and illegal. To start, we can recognize the new birds of passage, those living and thriving in the gray areas. We might then begin to solve our immigration challenges.",
           "translation": "今天，我们对移民的态度更加严格。我们将新来者分为两类：合法或非法、好或坏。我们称赞他们是正在成长中的美国人，或者将他们视为将被驱逐出境的外星人。这一框架对我们支离破碎的移民体系以及如何修复这一体系的长期政治瘫痪做出了巨大贡献。我们不需要更多的类别，但我们需要改变我们思考类别的方式。我们需要超越合法和非法的严格定义。首先，我们可以认识新的候鸟，那些生活在灰色地带并蓬勃发展的鸟。然后我们可能会开始解决移民挑战。",
           "slashed_text": "Today , / we are much more rigid / about immigrants. We divide newcomers into two categories : / legal or illegal , / good or bad. We hail them as Americans in the making , / or brand them as aliens to be kicked out. / That framework has contributed mightily to our broken immigration system and the long political paralysis over how to fix it. We don’t need more categories , / but we need to change the way we think / about categories. We need to look beyond strict definitions of legal and illegal. To start , / we can recognize the new birds of passage , / those living and thriving in the gray areas. We might then begin to solve our immigration challenges.",
-          "chunk_translation": "今天 / we are much more rigid / about immigrants. We divide newcomers into two categories / 合法或非法 / good or bad. We hail them as Americans in the making / 或者给他们贴上外星人的标签并被赶出去 / That framework has contributed mightily to our broken immigration system and the long political paralysis over how to fix it. We don’t need more categories / but we need to change the way we think / about categories. We need to look beyond strict definitions of legal and illegal. To start / 我们可以认出新的候鸟 / those living and thriving in the gray areas. We might then begin to solve our immigration challenges",
+          "chunk_translation": "如今 / 我们的态度要僵化得多 / 对待移民问题 我们将新来者划分为两大类别： / 合法或非法、 / 好人或坏人 我们要么赞颂他们是未来的美国人 / 要么给他们贴上应被驱逐的非法居留者标签 / 这种认知框架在很大程度上导致了我们移民体系的支离破碎，以及在如何修复该体系上长期的政治瘫痪 我们并不需要划分更多的类别 / 而是需要改变我们的思考方式 / 关于类别划分的思考方式 我们需要超越合法与非法的严苛定义 首先 / 我们可以重新认识这些新时代的“候鸟” / 即那些生活在灰色地带并蓬勃发展的人群 这样我们或许才能开始解决我们的移民难题",
           "vocabulary": [
             {
               "word": "Today",
@@ -1196,7 +1196,7 @@
           "text": "Crop pickers, violinists, construction workers, entrepreneurs, engineers, home health-care aides and physicists are among today’s birds of passage. They are energetic participants in a global economy driven by the flow of work, money and ideas. They prefer to come and go as opportunity calls them. They can manage to have a job in one place and a family in another. With or without permission, they straddle laws, jurisdictions and identities with ease. We need them to imagine the United States as a place where they can be productive for a while without committing themselves to staying forever. We need them to feel that home can be both here and there and that they can belong to two nations honorably.",
           "translation": "农作物采摘工、小提琴家、建筑工人、企业家、工程师、家庭保健助手和物理学家都是当今的候鸟。他们是由工作、金钱和思想流动驱动的全球经济的积极参与者。他们更喜欢随着机会的召唤而来来去去。他们可以设法在一个地方找到工作，在另一个地方建立家庭。无论是否获得许可，他们都能轻松地跨越法律、司法管辖区和身份。我们需要他们将美国想象成一个可以暂时高效工作而无需承诺永远留在美国的地方。我们需要他们感到这里和那里都可以有家，他们可以光荣地属于两个国家。",
           "slashed_text": "Crop pickers , / violinists , / construction workers , / entrepreneurs , / engineers , / home health-care aides and physicists are among today’s birds of passage. They are energetic participants in a global economy driven by the flow of work , / money and ideas. They prefer to come and go as opportunity calls them. They can manage to have a job in one place and a family / in another. With or / without permission , / they straddle laws , / jurisdictions and identities / with ease. We need them to imagine the United States as a place / where they can be productive for a / while / without committing themselves to staying forever. We need them to feel / that home can be both here and there and / that they can belong to two nations honorably.",
-          "chunk_translation": "农作物采摘机 / 小提琴家 / 建筑工人 / 企业家 / 工程师 / home health-care aides and physicists are among today’s birds of passage. They are energetic participants in a global economy driven by the flow of work / money and ideas. They prefer to come and go as opportunity calls them. They can manage to have a job in one place and a family / in another. With or / without permission / 他们跨越法律 / jurisdictions and identities / with ease. We need them to imagine the United States as a place / 他们可以高效工作的地方 / while / without committing themselves to staying forever. We need them to feel / 那个家可以在这里也可以在那里 / 他们可以光荣地属于两个国家",
+          "chunk_translation": "农作物采摘工、 / 小提琴手、 / 建筑工人、 / 创业者、 / 工程师、 / 家庭护理员和物理学家都名列当今的“候鸟”之中 他们是由工作、 / 资金和思想流动所驱动的全球经济中充满活力的参与者 他们更愿意随着机会的召唤而来去自由 他们能够做到在一个地方工作而在另一个地方安家 / 在另一个地方 无论是否 / 获得许可 / 他们都能游刃有余地跨越法律、 / 管辖区域和身份认同 / 轻松自如 我们需要让他们把美国看作这样一个地方 / 在那里他们可以发挥才干工作一段 / 时间 / 而无需承诺永远定居于此 我们需要让他们感受到 / 家可以既在彼处又在此处，而且 / 他们可以堂堂正正地同时归属于两个国家",
           "vocabulary": [
             {
               "word": "Crop",
@@ -1250,7 +1250,7 @@
           "text": "Accommodating this new world of people in motion will require new attitudes on both sides of the immigration battle. Looking beyond the culture war logic of right or wrong means opening up the middle ground and understanding that managing immigration today requires multiple paths and multiple outcomes, including some that are not easy to accomplish legally in the existing system.",
           "translation": "适应这个人口流动的新世界需要移民斗争双方采取新的态度。超越正确或错误的文化战争逻辑意味着开放中间立场，并理解当今的移民管理需要多种路径和多种结果，包括一些在现有体系中不容易合法实现的目标。",
           "slashed_text": "Accommodating this new world of people / in motion will require new attitudes / on both sides of the immigration battle. Looking beyond the culture war logic of right or wrong means opening up the middle ground and understanding / that managing immigration today requires multiple paths and multiple outcomes , / including some / that are not easy to accomplish legally in the existing system.",
-          "chunk_translation": "Accommodating this new world of people / in motion will require new attitudes / on both sides of the immigration battle. Looking beyond the culture war logic of right or wrong means opening up the middle ground and understanding / 当今的移民管理需要多种途径和多种结果 / 包括一些 / 在现有制度下合法地不容易实现的",
+          "chunk_translation": "接纳这个人员流动的崭新世界 / 流动的人员需要全新的态度 / 在移民争论的双方阵营中 超越非对即错的文化战逻辑意味着开辟中间地带并深刻认识到 / 当今管理移民需要多元化的路径和多样化的结果 / 包括一些 / 在现有制度下难以通过合法手段实现的结果",
           "vocabulary": [
             {
               "word": "Accommodating",
@@ -1308,7 +1308,7 @@
           "text": "A century ago, the immigrants from across the Atlantic included settlers and sojourners.",
           "translation": "一个世纪前，来自大西洋彼岸的移民包括定居者和寄居者。",
           "slashed_text": "A century ago , / the immigrants / from across the Atlantic included settlers and sojourners.",
-          "chunk_translation": "一个世纪前 / the immigrants / from across the Atlantic included settlers and sojourners",
+          "chunk_translation": "一个世纪前 / 移民群体 / 来自大西洋彼岸的移民既包括定居者也包括寄居者",
           "syntax": {
             "breakdown": [
               {
@@ -1326,7 +1326,7 @@
           "text": "Along with the many folks looking to make a permanent home in the United States came those who had no intention to stay, and who would make some money and then go home.",
           "translation": "除了许多希望在美国永久定居的人之外，还有一些无意留下来、想赚点钱然后回家的人。",
           "slashed_text": "Along with the many folks looking to make a permanent home in the United States came those / who had no intention to stay , / and / who would make some money and then go home.",
-          "chunk_translation": "与许多希望在美国永久定居的人一起到来的是 / 谁无意留下来 / 和 / 谁会赚一些钱然后回家",
+          "chunk_translation": "在许多希望在美国永久安家的人群之外，还有那些 / 无意长期留下来的人 / 以及 / 只想赚些钱就回国的人",
           "syntax": {
             "breakdown": [
               {
@@ -1344,7 +1344,7 @@
           "text": "Between 1908 and 1915, about 7 million people arrived while about 2 million departed.",
           "translation": "1908 年至 1915 年间，约有 700 万人抵达，约 200 万人离开。",
           "slashed_text": "Between 1908 and 1915 , / about 7 million people arrived / while about 2 million departed.",
-          "chunk_translation": "1908 年至 1915 年间 / 约700万人抵达 / 而大约200万人离开",
+          "chunk_translation": "在1908年至1915年间 / 约有700万人抵达美国 / 而约有200万人离开",
           "syntax": {
             "breakdown": [
               {
@@ -1362,7 +1362,7 @@
           "text": "About a quarter of all Italian immigrants, for example, eventually returned to Italy for good.",
           "translation": "例如，大约四分之一的意大利移民最终永久返回意大利。",
           "slashed_text": "About a quarter of all Italian immigrants , / for example , / eventually returned to Italy / for good.",
-          "chunk_translation": "约占所有意大利移民的四分之一 / 例如 / eventually returned to Italy / for good",
+          "chunk_translation": "例如所有意大利移民中约有四分之一 / 例如 / 最终永久返回了意大利 / 永久地",
           "syntax": {
             "breakdown": [
               {
@@ -1380,7 +1380,7 @@
           "text": "They even had an affectionate nickname, “uccelli di passaggio,” birds of passage.",
           "translation": "它们甚至还有一个亲切的绰号“uccelli di passaggio”，即候鸟。",
           "slashed_text": "They even had an affectionate nickname , / “uccelli di passaggio , / ” birds of passage.",
-          "chunk_translation": "他们甚至还有一个亲切的绰号 / uccelli di passaggio / birds of passage",
+          "chunk_translation": "他们甚至拥有一个亲切的绰号 / “过客之鸟 / ”即候鸟",
           "syntax": {
             "breakdown": [
               {
@@ -1398,7 +1398,7 @@
           "text": "Today, we are much more rigid about immigrants.",
           "translation": "今天，我们对移民的态度更加严格。",
           "slashed_text": "Today , / we are much more rigid / about immigrants.",
-          "chunk_translation": "今天 / we are much more rigid / about immigrants",
+          "chunk_translation": "如今 / 我们的态度要僵化得多 / 对待移民问题",
           "syntax": {
             "breakdown": [
               {
@@ -1416,7 +1416,7 @@
           "text": "We divide newcomers into two categories: legal or illegal, good or bad.",
           "translation": "我们将新来者分为两类：合法或非法、好或坏。",
           "slashed_text": "We divide newcomers into two categories : / legal or illegal , / good or bad.",
-          "chunk_translation": "我们把新人分为两类 / 合法或非法 / 好或坏",
+          "chunk_translation": "我们将新来者划分为两大类别： / 合法或非法、 / 好人或坏人",
           "syntax": {
             "breakdown": [
               {
@@ -1434,7 +1434,7 @@
           "text": "We hail them as Americans in the making, or brand them as aliens to be kicked out.",
           "translation": "我们称赞他们是正在成长中的美国人，或者将他们视为将被驱逐出境的外星人。",
           "slashed_text": "We hail them as Americans in the making , / or brand them as aliens to be kicked out.",
-          "chunk_translation": "我们欢呼他们是正在成长的美国人 / 或者给他们贴上外星人的标签并被赶出去",
+          "chunk_translation": "我们要么赞颂他们是未来的美国人 / 要么给他们贴上应被驱逐的非法居留者标签",
           "syntax": {
             "breakdown": [
               {
@@ -1452,7 +1452,7 @@
           "text": "That framework has contributed mightily to our broken immigration system and the long political paralysis over how to fix it.",
           "translation": "这一框架对我们支离破碎的移民体系以及如何修复这一体系的长期政治瘫痪做出了巨大贡献。",
           "slashed_text": "/ That framework has contributed mightily to our broken immigration system and the long political paralysis over how to fix it.",
-          "chunk_translation": "该框架极大地导致了我们支离破碎的移民体系以及在如何修复该体系上的长期政治瘫痪",
+          "chunk_translation": "/ 这种认知框架在很大程度上导致了我们移民体系的支离破碎，以及在如何修复该体系上长期的政治瘫痪",
           "syntax": {
             "breakdown": [
               {
@@ -1470,7 +1470,7 @@
           "text": "We don’t need more categories, but we need to change the way we think about categories.",
           "translation": "我们不需要更多的类别，但我们需要改变我们思考类别的方式。",
           "slashed_text": "We don’t need more categories , / but we need to change the way we think / about categories.",
-          "chunk_translation": "我们不需要更多的类别 / but we need to change the way we think / about categories",
+          "chunk_translation": "我们并不需要划分更多的类别 / 而是需要改变我们的思考方式 / 关于类别划分的思考方式",
           "syntax": {
             "breakdown": [
               {
@@ -1488,7 +1488,7 @@
           "text": "We need to look beyond strict definitions of legal and illegal.",
           "translation": "我们需要超越合法和非法的严格定义。",
           "slashed_text": "We need to look beyond strict definitions of legal and illegal.",
-          "chunk_translation": "我们需要超越合法和非法的严格定义",
+          "chunk_translation": "我们需要超越合法与非法的严苛定义",
           "syntax": {
             "breakdown": [
               {
@@ -1506,7 +1506,7 @@
           "text": "To start, we can recognize the new birds of passage, those living and thriving in the gray areas.",
           "translation": "首先，我们可以认识新的候鸟，那些生活在灰色地带并蓬勃发展的鸟。",
           "slashed_text": "To start , / we can recognize the new birds of passage , / those living and thriving in the gray areas.",
-          "chunk_translation": "开始 / 我们可以认出新的候鸟 / 那些生活在灰色地带并蓬勃发展的人",
+          "chunk_translation": "首先 / 我们可以重新认识这些新时代的“候鸟” / 即那些生活在灰色地带并蓬勃发展的人群",
           "syntax": {
             "breakdown": [
               {
@@ -1524,7 +1524,7 @@
           "text": "We might then begin to solve our immigration challenges.",
           "translation": "然后我们可能会开始解决移民挑战。",
           "slashed_text": "We might then begin to solve our immigration challenges.",
-          "chunk_translation": "然后我们可能会开始解决移民挑战",
+          "chunk_translation": "这样我们或许才能开始解决我们的移民难题",
           "syntax": {
             "breakdown": [
               {
@@ -1542,7 +1542,7 @@
           "text": "Crop pickers, violinists, construction workers, entrepreneurs, engineers, home health-care aides and physicists are among today’s birds of passage.",
           "translation": "农作物采摘工、小提琴家、建筑工人、企业家、工程师、家庭保健助手和物理学家都是当今的候鸟。",
           "slashed_text": "Crop pickers , / violinists , / construction workers , / entrepreneurs , / engineers , / home health-care aides and physicists are among today’s birds of passage.",
-          "chunk_translation": "农作物采摘机 / 小提琴家 / 建筑工人 / 企业家 / 工程师 / 家庭保健助手和物理学家是当今的候鸟",
+          "chunk_translation": "农作物采摘工、 / 小提琴手、 / 建筑工人、 / 创业者、 / 工程师、 / 家庭护理员和物理学家都名列当今的“候鸟”之中",
           "syntax": {
             "breakdown": [
               {
@@ -1560,7 +1560,7 @@
           "text": "They are energetic participants in a global economy driven by the flow of work, money and ideas.",
           "translation": "他们是由工作、金钱和思想流动驱动的全球经济的积极参与者。",
           "slashed_text": "They are energetic participants in a global economy driven by the flow of work , / money and ideas.",
-          "chunk_translation": "他们是由工作流驱动的全球经济中充满活力的参与者 / 金钱和想法",
+          "chunk_translation": "他们是由工作、 / 资金和思想流动所驱动的全球经济中充满活力的参与者",
           "syntax": {
             "breakdown": [
               {
@@ -1578,7 +1578,7 @@
           "text": "They prefer to come and go as opportunity calls them.",
           "translation": "他们更喜欢随着机会的召唤而来来去去。",
           "slashed_text": "They prefer to come and go as opportunity calls them.",
-          "chunk_translation": "他们更喜欢在机会召唤时来来去去",
+          "chunk_translation": "他们更愿意随着机会的召唤而来去自由",
           "syntax": {
             "breakdown": [
               {
@@ -1596,7 +1596,7 @@
           "text": "They can manage to have a job in one place and a family in another.",
           "translation": "他们可以设法在一个地方找到工作，在另一个地方建立家庭。",
           "slashed_text": "They can manage to have a job in one place and a family / in another.",
-          "chunk_translation": "They can manage to have a job in one place and a family / in another",
+          "chunk_translation": "他们能够做到在一个地方工作而在另一个地方安家 / 在另一个地方",
           "syntax": {
             "breakdown": [
               {
@@ -1614,7 +1614,7 @@
           "text": "With or without permission, they straddle laws, jurisdictions and identities with ease.",
           "translation": "无论是否获得许可，他们都能轻松地跨越法律、司法管辖区和身份。",
           "slashed_text": "With or / without permission , / they straddle laws , / jurisdictions and identities / with ease.",
-          "chunk_translation": "With or / without permission / 他们跨越法律 / jurisdictions and identities / with ease",
+          "chunk_translation": "无论是否 / 获得许可 / 他们都能游刃有余地跨越法律、 / 管辖区域和身份认同 / 轻松自如",
           "syntax": {
             "breakdown": [
               {
@@ -1632,7 +1632,7 @@
           "text": "We need them to imagine the United States as a place where they can be productive for a while without committing themselves to staying forever.",
           "translation": "我们需要他们将美国想象成一个可以暂时高效工作而无需承诺永远留在美国的地方。",
           "slashed_text": "We need them to imagine the United States as a place / where they can be productive for a / while / without committing themselves to staying forever.",
-          "chunk_translation": "我们需要他们将美国想象成一个地方 / 他们可以高效工作的地方 / while / without committing themselves to staying forever",
+          "chunk_translation": "我们需要让他们把美国看作这样一个地方 / 在那里他们可以发挥才干工作一段 / 时间 / 而无需承诺永远定居于此",
           "syntax": {
             "breakdown": [
               {
@@ -1655,7 +1655,7 @@
           "text": "We need them to feel that home can be both here and there and that they can belong to two nations honorably.",
           "translation": "我们需要他们感到这里和那里都可以有家，他们可以光荣地属于两个国家。",
           "slashed_text": "We need them to feel / that home can be both here and there and / that they can belong to two nations honorably.",
-          "chunk_translation": "我们需要他们感受到 / 那个家可以在这里也可以在那里 / 他们可以光荣地属于两个国家",
+          "chunk_translation": "我们需要让他们感受到 / 家可以既在彼处又在此处，而且 / 他们可以堂堂正正地同时归属于两个国家",
           "syntax": {
             "breakdown": [
               {
@@ -1673,7 +1673,7 @@
           "text": "Accommodating this new world of people in motion will require new attitudes on both sides of the immigration battle.",
           "translation": "为了适应这个人口流动的新世界，移民斗争双方都需要采取新的态度。",
           "slashed_text": "Accommodating this new world of people / in motion will require new attitudes / on both sides of the immigration battle.",
-          "chunk_translation": "Accommodating this new world of people / in motion will require new attitudes / on both sides of the immigration battle",
+          "chunk_translation": "接纳这个人员流动的崭新世界 / 流动的人员需要全新的态度 / 在移民争论的双方阵营中",
           "syntax": {
             "breakdown": [
               {
@@ -1691,7 +1691,7 @@
           "text": "Looking beyond the culture war logic of right or wrong means opening up the middle ground and understanding that managing immigration today requires multiple paths and multiple outcomes, including some that are not easy to accomplish legally in the existing system.",
           "translation": "超越正确或错误的文化战争逻辑意味着开放中间立场，并理解当今的移民管理需要多种路径和多种结果，包括一些在现有体系中不容易合法实现的目标。",
           "slashed_text": "Looking beyond the culture war logic of right or wrong means opening up the middle ground and understanding / that managing immigration today requires multiple paths and multiple outcomes , / including some / that are not easy to accomplish legally in the existing system.",
-          "chunk_translation": "超越对错的文化战争逻辑意味着开放中间立场和理解 / 当今的移民管理需要多种途径和多种结果 / 包括一些 / 在现有制度下合法地不容易实现的",
+          "chunk_translation": "超越非对即错的文化战逻辑意味着开辟中间地带并深刻认识到 / 当今管理移民需要多元化的路径和多样化的结果 / 包括一些 / 在现有制度下难以通过合法手段实现的结果",
           "syntax": {
             "breakdown": [
               {
@@ -2163,7 +2163,7 @@
           "text": "Scientists have found that although we are prone to snap overreactions, if we take a moment and think about how we are likely to react, we can reduce or even eliminate the negative effects of our quick, hard-wired responses.",
           "translation": "科学家发现，虽然我们很容易做出过度反应，但如果我们花点时间思考一下我们可能会如何反应，我们就可以减少甚至消除快速、固有反应的负面影响。",
           "slashed_text": "Scientists have found / that / although we are prone to snap overreactions , / if we take a moment and think about how we are likely to react , / we can reduce or even eliminate the negative effects of our quick , / hard-wired responses.",
-          "chunk_translation": "科学家发现 / 那 / although we are prone to snap overreactions / 如果我们花点时间思考一下我们可能会如何反应 / 我们可以减少甚至消除我们快速行动的负面影响 / 硬连线响应",
+          "chunk_translation": "科学家们发现 / 即 / 尽管我们容易做出本能的过度反应 / 但如果我们花点时间思考一下自己可能会如何反应 / 我们就能减少甚至消除我们快速反应带来的负面影响 / 那些本能固化的反应",
           "vocabulary": [
             {
               "word": "Scientists",
@@ -2217,7 +2217,7 @@
           "text": "Snap decisions can be important defense mechanisms; if we are judging whether someone is dangerous, our brains and bodies are hard-wired to react very quickly, within milliseconds. But we need more time to assess other factors. To accurately tell whether someone is sociable, studies show, we need at least a minute, preferably five. It takes a while to judge complex aspects of personality, like neuroticism or open-mindedness.",
           "translation": "快速决策可能是重要的防御机制；如果我们要判断某人是否危险，我们的大脑和身体天生就会在几毫秒内迅速做出反应。但我们需要更多时间来评估其他因素。研究表明，要准确判断某人是否善于交际，我们至少需要一分钟，最好是五分钟。判断性格的复杂方面需要一段时间，比如神经质或开放性。",
           "slashed_text": "Snap decisions can be important defense mechanisms ; / if we are judging whether someone is dangerous , / our brains and bodies are hard-wired to react very quickly , / within milliseconds. But we need more time to assess other factors. To accurately tell whether someone is sociable , / studies show , / we need / at least a minute , / preferably five. It takes a / while to judge complex aspects of personality , / like neuroticism or open-mindedness.",
-          "chunk_translation": "快速决策可能是重要的防御机制 / 如果我们要判断某人是否危险 / 我们的大脑和身体天生反应非常快 / within milliseconds. But we need more time to assess other factors. To accurately tell whether someone is sociable / 研究表明 / we need / at least a minute / preferably five. It takes a / 同时判断个性的复杂方面 / 比如神经质或思想开放",
+          "chunk_translation": "瞬时决策可以是重要的防御机制； / 如果我们要判断某人是否具有危险性 / 我们的大脑和身体生来就会迅速做出反应 / 在数毫秒之内 但我们需要更多时间来评估其他维度的因素 为了准确判断一个人是否善于社交 / 研究表明 / 我们需要 / 至少一分钟的时间 / 最好是五分钟 需要一段 / 时间来评判性格的复杂维度 / 例如神经质或开放性",
           "vocabulary": [
             {
               "word": "Snap",
@@ -2271,7 +2271,7 @@
           "text": "But snap decisions in reaction to rapid stimuli aren’t exclusive to the interpersonal realm. Psychologists at the University of Toronto found that viewing a fast-food logo for just a few milliseconds primes us to read 20 percent faster, even though reading has little to do with eating. We unconsciously associate fast food with speed and impatience and carry those impulses into whatever else we’re doing. Subjects exposed to fast-food flashes also tend to think a musical piece lasts too long.",
           "translation": "但对快速刺激作出反应的仓促决定并不只存在于人际领域。多伦多大学的心理学家发现，尽管阅读与饮食无关，但只要看几毫秒的快餐标志，我们的阅读速度就会加快 20%。我们无意识地将快餐与速度和不耐烦联系在一起，并将这些冲动带入我们正在做的其他事情中。接触快餐闪光灯的受试者也倾向于认为音乐作品持续时间太长。",
           "slashed_text": "But snap decisions / in reaction to rapid stimuli aren’t exclusive to the interpersonal realm. Psychologists at the University of Toronto found / that viewing a fast-food logo / for just a few milliseconds primes us to read 20 percent faster , / even / though reading has little to do / with eating. We unconsciously associate fast food / with speed and impatience and carry those impulses / into whatever else we’re doing. Subjects exposed to fast-food flashes also tend to think a musical piece lasts too long.",
-          "chunk_translation": "But snap decisions / in reaction to rapid stimuli aren’t exclusive to the interpersonal realm. Psychologists at the University of Toronto found / that viewing a fast-food logo / for just a few milliseconds primes us to read 20 percent faster / 甚至 / though reading has little to do / with eating. We unconsciously associate fast food / with speed and impatience and carry those impulses / into whatever else we’re doing. Subjects exposed to fast-food flashes also tend to think a musical piece lasts too long",
+          "chunk_translation": "但这种瞬时决策 / 对快速刺激做出的反应并非仅限于人际交往领域 多伦多大学的心理学家发现 / 仅仅注视快餐标志 / 短短几毫秒就会诱导我们的阅读速度提升20% / 即便 / 尽管阅读与进食几乎没有任何关系 / 与吃东西 我们在潜意识中将快餐 / 与速度和急躁联系在一起并将这些冲动带入 / 我们正在做的任何其他事情中 接触快餐画面闪烁的受试者也往往觉得一首乐曲持续时间太长",
           "vocabulary": [
             {
               "word": "snap",
@@ -2325,7 +2325,7 @@
           "text": "Yet we can reverse such influences. If we know we will overreact to consumer products or housing options when we see a happy face (one reason good sales representatives and real estate agents are always smiling), we can take a moment before buying. If we know female job screeners are more likely to reject attractive female applicants, we can help screeners understand their biases—or hire outside screeners.",
           "translation": "然而我们可以扭转这种影响。如果我们知道当我们看到一张笑脸时我们会对消费品或住房选择反应过度（优秀的销售代表和房地产经纪人总是微笑的原因之一），我们可以在购买前花点时间。如果我们知道女性求职筛选人员更有可能拒绝有吸引力的女性求职者，我们可以帮助筛选人员了解她们的偏见，或者聘请外部筛选人员。",
           "slashed_text": "Yet we can reverse such influences. / If we know we will overreact to consumer products or housing options / when we see a happy face (one reason good sales representatives and real estate agents are always smiling) , / we can take a moment / before buying. / If we know female job screeners are more likely to reject attractive female applicants , / we can help screeners understand their biases — / or hire outside screeners.",
-          "chunk_translation": "然而我们可以扭转这种影响 / 如果我们知道我们会对消费品或住房选择反应过度 / 当我们看到一张笑脸时（优秀的销售代表和房地产经纪人总是微笑的原因之一） / 我们可以花点时间 / 购买前 / 如果我们知道女性求职者更有可能拒绝有吸引力的女性求职者 / we can help screeners understand their biases / or hire outside screeners",
+          "chunk_translation": "然而我们能够扭转这种影响 / 如果我们知道自己看到笑脸时会对消费品或房产选择做出过度反应 / 当我们看到一张笑脸时（这也是优秀销售代表和房产中介总是面带微笑的原因之一） / 我们就可以在付款前缓一缓 / 在购买之前 / 如果我们知道女性招聘筛选人员更有可能拒绝面容姣好的女性求职者 / 我们就可以帮助筛选人员认识到自身的偏见—— / 或者聘请外部招聘人员",
           "vocabulary": [
             {
               "word": "reverse",
@@ -2379,7 +2379,7 @@
           "text": "John Gottman, the marriage expert, explains that we quickly “thin slice” information reliably only after we ground such snap reactions in “thick sliced” long-term study. When Dr. Gottman really wants to assess whether a couple will stay together, he invites them to his island retreat for a much longer evaluation: two days, not two seconds.",
           "translation": "婚姻专家约翰·戈特曼（John Gottman）解释说，只有在“厚切片”的长期研究中将这种快速反应磨碎之后，我们才能快速可靠地“薄切片”信息。当戈特曼博士真正想要评估一对夫妇是否会继续在一起时，他会邀请他们到他的岛屿静修所进行更长的评估：两天，而不是两秒钟。",
           "slashed_text": "John Gottman , / the marriage expert , / explains / that we quickly “thin slice” information reliably only after we ground such snap reactions in “thick sliced” long-term study. / When Dr. Gottman really wants to assess whether a couple will stay together , / he invites them to his island retreat for a much longer evaluation : / two days , / not two seconds.",
-          "chunk_translation": "约翰·戈特曼 / 婚姻专家 / 解释 / that we quickly “thin slice” information reliably only after we ground such snap reactions in “thick sliced” long-term study / When Dr. Gottman really wants to assess whether a couple will stay together / 他邀请他们到他的岛屿静修处进行更长时间的评估 / 两天 / 不到两秒",
+          "chunk_translation": "约翰·戈特曼 / 这位婚姻问题专家 / 解释道 / 只有将这种瞬间反应建立在“厚切片”的长期深入研究基础之上，我们才能快速且可靠地对信息进行“薄切片”提取 / 当戈特曼博士 真正想要评估一对夫妻是否能白头偕老时 / 他会邀请他们到自己的海岛度假处进行时间长得多的评估： / 整整两天 / 而非区区两秒",
           "vocabulary": [
             {
               "word": "Gottman",
@@ -2433,7 +2433,7 @@
           "text": "Our ability to mute our hard-wired reactions by pausing is what differentiates us from animals: dogs can think about the future only intermittently or for a few minutes. But historically we have spent about 12 percent of our days contemplating the longer term.",
           "translation": "我们通过暂停来抑制本能反应的能力是我们与动物的区别：狗只能间歇性地或几分钟地思考未来。但从历史上看，我们花了大约 12% 的时间来考虑更长远的问题。",
           "slashed_text": "Our ability to mute our hard-wired reactions / by pausing is what differentiates us / from animals : / dogs can think about the future only intermittently or for a few minutes. But historically we have spent about 12 percent of our days contemplating the longer term.",
-          "chunk_translation": "Our ability to mute our hard-wired reactions / by pausing is what differentiates us / from animals / dogs can think about the future only intermittently or for a few minutes. But historically we have spent about 12 percent of our days contemplating the longer term",
+          "chunk_translation": "我们通过停顿来抑制本能反应的能力 / 正是将我们区别开来的特质 / 与动物区别开来： / 狗只能断断续续地或只考虑未来几分钟的事情 但从历史上看，我们大约有12%的时间都在思考更长远的未来",
           "vocabulary": [
             {
               "word": "ability",
@@ -2487,7 +2487,7 @@
           "text": "Although technology might change the way we react, it hasn’t changed our nature. We still have the imaginative capacity to rise above temptation and reverse the high-speed trend.",
           "translation": "尽管技术可能会改变我们的反应方式，但它并没有改变我们的本性。我们仍然有想象力，能够超越诱惑，扭转高速发展的趋势。",
           "slashed_text": "/ Although technology might change the way we react , / it hasn’t changed our nature. We still have the imaginative capacity to rise above temptation and reverse the high-speed trend.",
-          "chunk_translation": "尽管技术可能会改变我们的反应方式 / it hasn’t changed our nature. We still have the imaginative capacity to rise above temptation and reverse the high-speed trend",
+          "chunk_translation": "/ 尽管技术可能会改变我们的反应方式 / 但它并未改变我们的人性本质 我们依然拥有抵制诱惑并扭转这种高速狂奔趋势的想象力与能力",
           "vocabulary": [
             {
               "word": "Although",
@@ -2545,7 +2545,7 @@
           "text": "Scientists have found that although we are prone to snap overreactions, if we take a moment and think about how we are likely to react, we can reduce or even eliminate the negative effects of our quick, hard-wired responses.",
           "translation": "科学家发现，虽然我们很容易做出过度反应，但如果我们花点时间思考一下我们可能会如何反应，我们就可以减少甚至消除快速、固有反应的负面影响。",
           "slashed_text": "Scientists have found / that / although we are prone to snap overreactions , / if we take a moment and think about how we are likely to react , / we can reduce or even eliminate the negative effects of our quick , / hard-wired responses.",
-          "chunk_translation": "科学家发现 / 那 / although we are prone to snap overreactions / 如果我们花点时间思考一下我们可能会如何反应 / 我们可以减少甚至消除我们快速行动的负面影响 / 硬连线响应",
+          "chunk_translation": "科学家们发现 / 即 / 尽管我们容易做出本能的过度反应 / 但如果我们花点时间思考一下自己可能会如何反应 / 我们就能减少甚至消除我们快速反应带来的负面影响 / 那些本能固化的反应",
           "syntax": {
             "breakdown": [
               {
@@ -2568,7 +2568,7 @@
           "text": "Snap decisions can be important defense mechanisms; if we are judging whether someone is dangerous, our brains and bodies are hard-wired to react very quickly, within milliseconds.",
           "translation": "快速决策可能是重要的防御机制；如果我们要判断某人是否危险，我们的大脑和身体天生就会在几毫秒内迅速做出反应。",
           "slashed_text": "Snap decisions can be important defense mechanisms ; / if we are judging whether someone is dangerous , / our brains and bodies are hard-wired to react very quickly , / within milliseconds.",
-          "chunk_translation": "快速决策可能是重要的防御机制 / 如果我们要判断某人是否危险 / 我们的大脑和身体天生反应非常快 / 几毫秒内",
+          "chunk_translation": "瞬时决策可以是重要的防御机制； / 如果我们要判断某人是否具有危险性 / 我们的大脑和身体生来就会迅速做出反应 / 在数毫秒之内",
           "syntax": {
             "breakdown": [
               {
@@ -2591,7 +2591,7 @@
           "text": "But we need more time to assess other factors.",
           "translation": "但我们需要更多时间来评估其他因素。",
           "slashed_text": "But we need more time to assess other factors.",
-          "chunk_translation": "但我们需要更多时间来评估其他因素",
+          "chunk_translation": "但我们需要更多时间来评估其他维度的因素",
           "syntax": {
             "breakdown": [
               {
@@ -2609,7 +2609,7 @@
           "text": "To accurately tell whether someone is sociable, studies show, we need at least a minute, preferably five.",
           "translation": "研究表明，要准确判断某人是否善于交际，我们至少需要一分钟，最好是五分钟。",
           "slashed_text": "To accurately tell whether someone is sociable , / studies show , / we need / at least a minute , / preferably five.",
-          "chunk_translation": "准确判断某人是否善于交际 / 研究表明 / we need / at least a minute / 最好是五个",
+          "chunk_translation": "为了准确判断一个人是否善于社交 / 研究表明 / 我们需要 / 至少一分钟的时间 / 最好是五分钟",
           "syntax": {
             "breakdown": [
               {
@@ -2627,7 +2627,7 @@
           "text": "It takes a while to judge complex aspects of personality, like neuroticism or open-mindedness.",
           "translation": "判断性格的复杂方面需要一段时间，比如神经质或开放性。",
           "slashed_text": "It takes a / while to judge complex aspects of personality , / like neuroticism or open-mindedness.",
-          "chunk_translation": "这需要一个 / 同时判断个性的复杂方面 / 比如神经质或思想开放",
+          "chunk_translation": "需要一段 / 时间来评判性格的复杂维度 / 例如神经质或开放性",
           "syntax": {
             "breakdown": [
               {
@@ -2645,7 +2645,7 @@
           "text": "But snap decisions in reaction to rapid stimuli aren’t exclusive to the interpersonal realm.",
           "translation": "但对快速刺激作出反应的仓促决定并不只存在于人际领域。",
           "slashed_text": "But snap decisions / in reaction to rapid stimuli aren’t exclusive to the interpersonal realm.",
-          "chunk_translation": "But snap decisions / in reaction to rapid stimuli aren’t exclusive to the interpersonal realm",
+          "chunk_translation": "但这种瞬时决策 / 对快速刺激做出的反应并非仅限于人际交往领域",
           "syntax": {
             "breakdown": [
               {
@@ -2663,7 +2663,7 @@
           "text": "Psychologists at the University of Toronto found that viewing a fast-food logo for just a few milliseconds primes us to read 20 percent faster, even though reading has little to do with eating.",
           "translation": "多伦多大学的心理学家发现，尽管阅读与饮食无关，但只要看几毫秒的快餐标志，我们的阅读速度就会加快 20%。",
           "slashed_text": "Psychologists at the University of Toronto found / that viewing a fast-food logo / for just a few milliseconds primes us to read 20 percent faster , / even / though reading has little to do / with eating.",
-          "chunk_translation": "多伦多大学心理学家发现 / that viewing a fast-food logo / for just a few milliseconds primes us to read 20 percent faster / 甚至 / though reading has little to do / with eating",
+          "chunk_translation": "多伦多大学的心理学家发现 / 仅仅注视快餐标志 / 短短几毫秒就会诱导我们的阅读速度提升20% / 即便 / 尽管阅读与进食几乎没有任何关系 / 与吃东西",
           "syntax": {
             "breakdown": [
               {
@@ -2686,7 +2686,7 @@
           "text": "We unconsciously associate fast food with speed and impatience and carry those impulses into whatever else we’re doing.",
           "translation": "我们无意识地将快餐与速度和不耐烦联系在一起，并将这些冲动带入我们正在做的其他事情中。",
           "slashed_text": "We unconsciously associate fast food / with speed and impatience and carry those impulses / into whatever else we’re doing.",
-          "chunk_translation": "We unconsciously associate fast food / with speed and impatience and carry those impulses / into whatever else we’re doing",
+          "chunk_translation": "我们在潜意识中将快餐 / 与速度和急躁联系在一起并将这些冲动带入 / 我们正在做的任何其他事情中",
           "syntax": {
             "breakdown": [
               {
@@ -2704,7 +2704,7 @@
           "text": "Subjects exposed to fast-food flashes also tend to think a musical piece lasts too long.",
           "translation": "接触快餐闪光灯的受试者也倾向于认为音乐作品持续时间太长。",
           "slashed_text": "Subjects exposed to fast-food flashes also tend to think a musical piece lasts too long.",
-          "chunk_translation": "接触快餐闪光灯的受试者也倾向于认为音乐作品持续时间太长",
+          "chunk_translation": "接触快餐画面闪烁的受试者也往往觉得一首乐曲持续时间太长",
           "syntax": {
             "breakdown": [
               {
@@ -2722,7 +2722,7 @@
           "text": "Yet we can reverse such influences.",
           "translation": "然而我们可以扭转这种影响。",
           "slashed_text": "Yet we can reverse such influences.",
-          "chunk_translation": "然而我们可以扭转这种影响",
+          "chunk_translation": "然而我们能够扭转这种影响",
           "syntax": {
             "breakdown": [
               {
@@ -2740,7 +2740,7 @@
           "text": "If we know we will overreact to consumer products or housing options when we see a happy face (one reason good sales representatives and real estate agents are always smiling), we can take a moment before buying.",
           "translation": "如果我们知道当我们看到一张笑脸时我们会对消费品或住房选择反应过度（优秀的销售代表和房地产经纪人总是微笑的原因之一），我们可以在购买前花点时间。",
           "slashed_text": "/ If we know we will overreact to consumer products or housing options / when we see a happy face (one reason good sales representatives and real estate agents are always smiling) , / we can take a moment / before buying.",
-          "chunk_translation": "如果我们知道我们会对消费品或住房选择反应过度 / 当我们看到一张笑脸时（优秀的销售代表和房地产经纪人总是微笑的原因之一） / 我们可以花点时间 / 购买前",
+          "chunk_translation": "/ 如果我们知道自己看到笑脸时会对消费品或房产选择做出过度反应 / 当我们看到一张笑脸时（这也是优秀销售代表和房产中介总是面带微笑的原因之一） / 我们就可以在付款前缓一缓 / 在购买之前",
           "syntax": {
             "breakdown": [
               {
@@ -2763,7 +2763,7 @@
           "text": "If we know female job screeners are more likely to reject attractive female applicants, we can help screeners understand their biases—or hire outside screeners.",
           "translation": "如果我们知道女性求职筛选人员更有可能拒绝有吸引力的女性求职者，我们可以帮助筛选人员了解她们的偏见，或者聘请外部筛选人员。",
           "slashed_text": "/ If we know female job screeners are more likely to reject attractive female applicants , / we can help screeners understand their biases — / or hire outside screeners.",
-          "chunk_translation": "如果我们知道女性求职者更有可能拒绝有吸引力的女性求职者 / we can help screeners understand their biases / or hire outside screeners",
+          "chunk_translation": "/ 如果我们知道女性招聘筛选人员更有可能拒绝面容姣好的女性求职者 / 我们就可以帮助筛选人员认识到自身的偏见—— / 或者聘请外部招聘人员",
           "syntax": {
             "breakdown": [
               {
@@ -2781,7 +2781,7 @@
           "text": "John Gottman, the marriage expert, explains that we quickly “thin slice” information reliably only after we ground such snap reactions in “thick sliced” long-term study.",
           "translation": "婚姻专家约翰·戈特曼（John Gottman）解释说，只有在“厚切片”的长期研究中将这种快速反应磨碎之后，我们才能快速可靠地“薄切片”信息。",
           "slashed_text": "John Gottman , / the marriage expert , / explains / that we quickly “thin slice” information reliably only after we ground such snap reactions in “thick sliced” long-term study.",
-          "chunk_translation": "约翰·戈特曼 / 婚姻专家 / 解释 / that we quickly “thin slice” information reliably only after we ground such snap reactions in “thick sliced” long-term study",
+          "chunk_translation": "约翰·戈特曼 / 这位婚姻问题专家 / 解释道 / 只有将这种瞬间反应建立在“厚切片”的长期深入研究基础之上，我们才能快速且可靠地对信息进行“薄切片”提取",
           "syntax": {
             "breakdown": [
               {
@@ -2799,7 +2799,7 @@
           "text": "When Dr.",
           "translation": "当博士。",
           "slashed_text": "/ When Dr.",
-          "chunk_translation": "当博士",
+          "chunk_translation": "/ 当戈特曼博士",
           "syntax": {
             "breakdown": [
               {
@@ -2817,7 +2817,7 @@
           "text": "Gottman really wants to assess whether a couple will stay together, he invites them to his island retreat for a much longer evaluation: two days, not two seconds.",
           "translation": "戈特曼确实想评估一对夫妇是否会在一起，他邀请他们到他的岛屿静修处进行更长时间的评估：两天，而不是两秒钟。",
           "slashed_text": "Gottman really wants to assess whether a couple will stay together , / he invites them to his island retreat for a much longer evaluation : / two days , / not two seconds.",
-          "chunk_translation": "戈特曼真的想评估一对夫妇是否会继续在一起 / 他邀请他们到他的岛屿静修处进行更长时间的评估 / 两天 / 不到两秒",
+          "chunk_translation": "真正想要评估一对夫妻是否能白头偕老时 / 他会邀请他们到自己的海岛度假处进行时间长得多的评估： / 整整两天 / 而非区区两秒",
           "syntax": {
             "breakdown": [
               {
@@ -2835,7 +2835,7 @@
           "text": "Our ability to mute our hard-wired reactions by pausing is what differentiates us from animals: dogs can think about the future only intermittently or for a few minutes.",
           "translation": "我们通过暂停来抑制本能反应的能力是我们与动物的区别：狗只能间歇性地或几分钟地思考未来。",
           "slashed_text": "Our ability to mute our hard-wired reactions / by pausing is what differentiates us / from animals : / dogs can think about the future only intermittently or for a few minutes.",
-          "chunk_translation": "Our ability to mute our hard-wired reactions / by pausing is what differentiates us / from animals / 狗只能间歇性地或几分钟地思考未来",
+          "chunk_translation": "我们通过停顿来抑制本能反应的能力 / 正是将我们区别开来的特质 / 与动物区别开来： / 狗只能断断续续地或只考虑未来几分钟的事情",
           "syntax": {
             "breakdown": [
               {
@@ -2853,7 +2853,7 @@
           "text": "But historically we have spent about 12 percent of our days contemplating the longer term.",
           "translation": "但从历史上看，我们花了大约 12% 的时间来考虑更长远的问题。",
           "slashed_text": "But historically we have spent about 12 percent of our days contemplating the longer term.",
-          "chunk_translation": "但从历史上看，我们花了大约 12% 的时间来考虑更长远的问题",
+          "chunk_translation": "但从历史上看，我们大约有12%的时间都在思考更长远的未来",
           "syntax": {
             "breakdown": [
               {
@@ -2871,7 +2871,7 @@
           "text": "Although technology might change the way we react, it hasn’t changed our nature.",
           "translation": "尽管技术可能会改变我们的反应方式，但它并没有改变我们的本性。",
           "slashed_text": "/ Although technology might change the way we react , / it hasn’t changed our nature.",
-          "chunk_translation": "尽管技术可能会改变我们的反应方式 / 它并没有改变我们的本性",
+          "chunk_translation": "/ 尽管技术可能会改变我们的反应方式 / 但它并未改变我们的人性本质",
           "syntax": {
             "breakdown": [
               {
@@ -2889,7 +2889,7 @@
           "text": "We still have the imaginative capacity to rise above temptation and reverse the high-speed trend.",
           "translation": "我们仍然有想象力，能够超越诱惑，扭转高速发展的趋势。",
           "slashed_text": "We still have the imaginative capacity to rise above temptation and reverse the high-speed trend.",
-          "chunk_translation": "我们仍然有想象力，能够超越诱惑，扭转高速发展的趋势",
+          "chunk_translation": "我们依然拥有抵制诱惑并扭转这种高速狂奔趋势的想象力与能力",
           "syntax": {
             "breakdown": [
               {
@@ -3362,7 +3362,7 @@
           "text": "Europe is not a gender-equality heaven. In particular, the corporate workplace will never be completely family-friendly until women are part of senior management decisions, and Europe’s top corporate-governance positions remain overwhelmingly male. Indeed, women hold only 14 per cent of positions on European corporate boards.",
           "translation": "欧洲不是性别平等的天堂。特别是，除非女性参与高级管理决策，否则企业工作场所永远不会完全适合家庭，而欧洲企业最高治理职位仍然绝大多数是男性。事实上，女性在欧洲公司董事会中只占 14% 的职位。",
           "slashed_text": "Europe is not a gender-equality heaven. In particular , / the corporate workplace will never be completely family-friendly until women are part of senior management decisions , / and Europe’s top corporate-governance positions remain overwhelmingly male. Indeed , / women hold only 14 per cent of positions / on European corporate boards.",
-          "chunk_translation": "Europe is not a gender-equality heaven. In particular / 除非女性参与高级管理决策，否则企业工作场所永远不会完全适合家庭 / and Europe’s top corporate-governance positions remain overwhelmingly male. Indeed / women hold only 14 per cent of positions / on European corporate boards",
+          "chunk_translation": "欧洲并非性别平等的天堂 尤其是 / 除非女性参与高层管理决策，否则企业职场永远无法做到完全顾及家庭 / 而欧洲顶层的公司治理职位绝大多数依然由男性占据 事实上 / 女性仅占据14%的席位 / 在欧洲企业董事会中",
           "vocabulary": [
             {
               "word": "gender",
@@ -3416,7 +3416,7 @@
           "text": "The European Union is now considering legislation to compel corporate boards to maintain a certain proportion of women—up to 60 per cent. This proposed mandate was born of frustration. Last year, European Commission Vice President Viviane Reding issued a call to voluntary action. Reding invited corporations to sign up for gender balance goals of 40 percent female board membership. But her appeal was considered a failure: only 24 companies took it up.",
           "translation": "欧盟目前正在考虑立法强制公司董事会保留一定比例的女性成员——最高可达 60%。这项拟议的任务授权是出于挫败感。去年，欧盟委员会副主席维维安·雷丁呼吁采取自愿行动。雷丁邀请企业签署性别平衡目标，即董事会女性成员比例达到 40%。但她的上诉被认为失败了：只有 24 家公司接受了她的上诉。",
           "slashed_text": "The European Union is now considering legislation to compel corporate boards to maintain a certain proportion of women — / up to 60 per cent. This proposed mandate was born of frustration. Last year , / European Commission Vice President Viviane Reding issued a call to voluntary action. Reding invited corporations to sign up / for gender balance goals of 40 percent female board membership. But her appeal was considered a failure : / only 24 companies took it up.",
-          "chunk_translation": "The European Union is now considering legislation to compel corporate boards to maintain a certain proportion of women / up to 60 per cent. This proposed mandate was born of frustration. Last year / European Commission Vice President Viviane Reding issued a call to voluntary action. Reding invited corporations to sign up / for gender balance goals of 40 percent female board membership. But her appeal was considered a failure / 只有24家公司接受了它",
+          "chunk_translation": "欧盟目前正在考虑立法强制企业董事会保持一定比例的女性代表—— / 比例最高可达60% 这项拟议的强制令源于深深的挫败感 去年 / 欧盟委员会副主席维维安·雷丁发出了采取自愿行动的呼吁 雷丁邀请各企业签署承诺 / 以实现董事会女性成员比例达到40%的性别平衡目标 但她的呼吁被认为是一次失败： / 仅有24家公司响应了这一号召",
           "vocabulary": [
             {
               "word": "Union",
@@ -3470,7 +3470,7 @@
           "text": "Do we need quotas to ensure that women can continue to climb the corporate ladder fairly as they balance work and family?",
           "translation": "我们是否需要配额来确保女性在平衡工作和家庭的同时能够继续公平地在企业晋升？",
           "slashed_text": "Do we need quotas to ensure / that women can continue to climb the corporate ladder fairly as they balance work and family?",
-          "chunk_translation": "我们是否需要配额来确保 / 女性在平衡工作和家庭的同时可以继续公平地在企业晋升吗？",
+          "chunk_translation": "我们是否需要设定配额来确保 / 女性在平衡工作与家庭的同时能够公平地在企业阶梯中向上晋升？",
           "vocabulary": [
             {
               "word": "need",
@@ -3524,7 +3524,7 @@
           "text": "“Personally, I don’t like quotas,” Reding said recently. “But I like what the quotas do.” Quotas get action: they “open the way to equality and they break through the glass ceiling,” according to Reding, a result seen in France and other countries with legally binding provisions on placing women in top business positions.",
           "translation": "“就我个人而言，我不喜欢配额，”雷丁最近表示。 “但我喜欢配额的作用。”雷丁表示，配额得到了行动：它们“开辟了通往平等的道路，突破了玻璃天花板”，这一结果在法国和其他制定了关于让女性担任高层商业职位的具有法律约束力的条款的国家中得到了体现。",
           "slashed_text": "“Personally , / I don’t like quotas , / ” Reding said recently. “But I like what the quotas do.” Quotas get action : / they “open the way to equality and they break through the glass ceiling , / ” according to Reding , / a result seen / in France and other countries / with legally binding provisions / on placing women in top business positions.",
-          "chunk_translation": "Personally / I don’t like quotas / Reding said recently. “But I like what the quotas do.” Quotas get action / they “open the way to equality and they break through the glass ceiling / according to Reding / a result seen / in France and other countries / with legally binding provisions / on placing women in top business positions",
+          "chunk_translation": "“就我个人而言 / 我不喜欢配额制 / ”雷丁最近表示 “但我喜欢配额带来的实际效果。”配额带来了切实行动： / 它们“开辟了通向平等的道路，打破了玻璃天花板 / ”雷丁指出 / 这一成效已显现 / 在法国和其他国家 / 这些国家拥有具有法律约束力的条款 / 关于确保女性担任企业最高职位",
           "vocabulary": [
             {
               "word": "Personally",
@@ -3578,7 +3578,7 @@
           "text": "I understand Reding’s reluctance—and her frustration. I don’t like quotas either; they run counter to my belief in meritocracy, governance by the capable. But, when one considers the obstacles to achieving the meritocratic ideal, it does look as if a fairer world must be temporarily ordered.",
           "translation": "我理解雷丁的不情愿和她的沮丧。我也不喜欢配额；它们与我对精英统治、有能力者治理的信念背道而驰。但是，当人们考虑到实现精英理想的障碍时，看起来确实必须暂时建立一个更加公平的世界。",
           "slashed_text": "I understand Reding’s reluctance — / and her frustration. I don’t like quotas either ; / they run counter to my belief / in meritocracy , / governance by the capable. But , / when one considers the obstacles to achieving the meritocratic ideal , / it does look as / if a fairer world must be temporarily ordered.",
-          "chunk_translation": "I understand Reding’s reluctance / and her frustration. I don’t like quotas either / they run counter to my belief / in meritocracy / governance by the capable. But / 当人们考虑实现精英理想的障碍时 / 它看起来确实像 / 如果必须暂时建立一个更公平的世界",
+          "chunk_translation": "我理解雷丁的不情愿—— / 以及她的挫败感 我同样也不喜欢配额； / 它们背离了我的信念 / 即唯才是举、 / 能者居之的理念 但是 / 当人们考虑到实现精英管理理想的重重阻碍时 / 看起来确实 / 必须通过行政命令暂时构建一个更加公平的世界",
           "vocabulary": [
             {
               "word": "understand",
@@ -3632,7 +3632,7 @@
           "text": "After all, four decades of evidence has now shown that corporations in Europe as well as the US are evading the meritocratic hiring and promotion of women to top positions— no matter how much “soft pressure” is put upon them. When women do break through to the summit of corporate power—as, for example, Sheryl Sandberg recently did at Facebook— they attract massive attention precisely because they remain the exception to the rule. If appropriate public policies were in place to help all women—whether CEOs or their children’s caregivers—and all families, Sandberg would be no more newsworthy than any other highly capable person living in a more just society.",
           "translation": "毕竟，四十年的证据表明，欧洲和美国的公司都在回避精英聘用和晋升女性担任高层职位的做法——无论她们受到多大的“软压力”。当女性确实突破到企业权力的顶峰时——例如谢丽尔·桑德伯格(Sheryl Sandberg)最近在 Facebook 所做的那样——她们会吸引大量关注，因为她们仍然是规则的例外。如果制定适当的公共政策来帮助所有女性（无论是首席执行官还是孩子的照顾者）以及所有家庭，那么桑德伯格不会比生活在更加公正的社会中的任何其他高能力人士更具新闻价值。",
           "slashed_text": "After all , / four decades of evidence has now shown / that corporations / in Europe as well as the US are evading the meritocratic hiring and promotion of women to top positions — / no matter how much “soft pressure” is put upon them. / When women do break through to the summit of corporate power — / as , / for example , / Sheryl Sandberg recently did / at Facebook — / they attract massive attention precisely / because they remain the exception to the rule. / If appropriate public policies were / in place to help all women — / whether CEOs or their children’s caregivers — / and all families , / Sandberg would be no more newsworthy than any other highly capable person living in a more just society.",
-          "chunk_translation": "毕竟 / 四十年的证据现已表明 / that corporations / in Europe as well as the US are evading the meritocratic hiring and promotion of women to top positions / 无论施加多少“软压力” / When women do break through to the summit of corporate power / as / 例如 / Sheryl Sandberg recently did / at Facebook / 他们恰恰吸引了大量的注意力 / 因为他们仍然是规则的例外 / If appropriate public policies were / in place to help all women / whether CEOs or their children’s caregivers / and all families / 桑德伯格不会比生活在更加公正的社会中的任何其他高能力人士更具新闻价值",
+          "chunk_translation": "毕竟 / 四十年的事实证据已经表明 / 各大企业 / 无论在欧洲还是美国都在回避依据唯才是举的原则任用和提拔女性进入最高职位—— / 无论对它们施加多大的“软性压力” / 当女性确实冲破阻碍登上企业权力的顶峰时—— / 正如 / 例如 / 谢丽尔·桑德伯格最近所做的那样 / 在脸书公司—— / 她们之所以引起广泛关注恰恰 / 是因为她们依然是常规之外的特例 / 如果制定了恰当的公共政策 / 到位去帮助所有女性—— / 无论是首席执行官还是她们孩子的照料者—— / 以及所有的家庭 / 桑德伯格就绝不会比生活在一个更加公正社会里的任何其他卓越能人更具新闻价值",
           "vocabulary": [
             {
               "word": "decades",
@@ -3690,7 +3690,7 @@
           "text": "Europe is not a gender-equality heaven.",
           "translation": "欧洲不是性别平等的天堂。",
           "slashed_text": "Europe is not a gender-equality heaven.",
-          "chunk_translation": "欧洲不是性别平等的天堂",
+          "chunk_translation": "欧洲并非性别平等的天堂",
           "syntax": {
             "breakdown": [
               {
@@ -3708,7 +3708,7 @@
           "text": "In particular, the corporate workplace will never be completely family-friendly until women are part of senior management decisions, and Europe’s top corporate-governance positions remain overwhelmingly male.",
           "translation": "特别是，除非女性参与高级管理决策，否则企业工作场所永远不会完全适合家庭，而欧洲企业最高治理职位仍然绝大多数是男性。",
           "slashed_text": "In particular , / the corporate workplace will never be completely family-friendly until women are part of senior management decisions , / and Europe’s top corporate-governance positions remain overwhelmingly male.",
-          "chunk_translation": "尤其 / 除非女性参与高级管理决策，否则企业工作场所永远不会完全适合家庭 / 欧洲公司治理的最高职位仍然绝大多数是男性",
+          "chunk_translation": "尤其是 / 除非女性参与高层管理决策，否则企业职场永远无法做到完全顾及家庭 / 而欧洲顶层的公司治理职位绝大多数依然由男性占据",
           "syntax": {
             "breakdown": [
               {
@@ -3726,7 +3726,7 @@
           "text": "Indeed, women hold only 14 per cent of positions on European corporate boards.",
           "translation": "事实上，女性在欧洲公司董事会中只占 14% 的职位。",
           "slashed_text": "Indeed , / women hold only 14 per cent of positions / on European corporate boards.",
-          "chunk_translation": "的确 / women hold only 14 per cent of positions / on European corporate boards",
+          "chunk_translation": "事实上 / 女性仅占据14%的席位 / 在欧洲企业董事会中",
           "syntax": {
             "breakdown": [
               {
@@ -3744,7 +3744,7 @@
           "text": "The European Union is now considering legislation to compel corporate boards to maintain a certain proportion of women—up to 60 per cent.",
           "translation": "欧盟目前正在考虑立法强制公司董事会保留一定比例的女性成员——最高可达 60%。",
           "slashed_text": "The European Union is now considering legislation to compel corporate boards to maintain a certain proportion of women — / up to 60 per cent.",
-          "chunk_translation": "The European Union is now considering legislation to compel corporate boards to maintain a certain proportion of women / up to 60 per cent",
+          "chunk_translation": "欧盟目前正在考虑立法强制企业董事会保持一定比例的女性代表—— / 比例最高可达60%",
           "syntax": {
             "breakdown": [
               {
@@ -3762,7 +3762,7 @@
           "text": "This proposed mandate was born of frustration.",
           "translation": "这项拟议的任务授权是出于挫败感。",
           "slashed_text": "This proposed mandate was born of frustration.",
-          "chunk_translation": "这项拟议的任务是出于挫败感而产生的",
+          "chunk_translation": "这项拟议的强制令源于深深的挫败感",
           "syntax": {
             "breakdown": [
               {
@@ -3780,7 +3780,7 @@
           "text": "Last year, European Commission Vice President Viviane Reding issued a call to voluntary action.",
           "translation": "去年，欧盟委员会副主席维维安·雷丁呼吁采取自愿行动。",
           "slashed_text": "Last year , / European Commission Vice President Viviane Reding issued a call to voluntary action.",
-          "chunk_translation": "去年 / 欧盟委员会副主席维维安·雷丁呼吁采取自愿行动",
+          "chunk_translation": "去年 / 欧盟委员会副主席维维安·雷丁发出了采取自愿行动的呼吁",
           "syntax": {
             "breakdown": [
               {
@@ -3798,7 +3798,7 @@
           "text": "Reding invited corporations to sign up for gender balance goals of 40 percent female board membership.",
           "translation": "雷丁邀请企业签署性别平衡目标，即董事会女性成员比例达到 40%。",
           "slashed_text": "Reding invited corporations to sign up / for gender balance goals of 40 percent female board membership.",
-          "chunk_translation": "Reding invited corporations to sign up / for gender balance goals of 40 percent female board membership",
+          "chunk_translation": "雷丁邀请各企业签署承诺 / 以实现董事会女性成员比例达到40%的性别平衡目标",
           "syntax": {
             "breakdown": [
               {
@@ -3816,7 +3816,7 @@
           "text": "But her appeal was considered a failure: only 24 companies took it up.",
           "translation": "但她的上诉被认为失败了：只有 24 家公司接受了她的上诉。",
           "slashed_text": "But her appeal was considered a failure : / only 24 companies took it up.",
-          "chunk_translation": "但她的上诉被认为失败了 / 只有24家公司接受了它",
+          "chunk_translation": "但她的呼吁被认为是一次失败： / 仅有24家公司响应了这一号召",
           "syntax": {
             "breakdown": [
               {
@@ -3834,7 +3834,7 @@
           "text": "Do we need quotas to ensure that women can continue to climb the corporate ladder fairly as they balance work and family?",
           "translation": "我们是否需要配额来确保女性在平衡工作和家庭的同时能够继续公平地在企业晋升？",
           "slashed_text": "Do we need quotas to ensure / that women can continue to climb the corporate ladder fairly as they balance work and family?",
-          "chunk_translation": "我们是否需要配额来确保 / 女性在平衡工作和家庭的同时可以继续公平地在企业晋升吗？",
+          "chunk_translation": "我们是否需要设定配额来确保 / 女性在平衡工作与家庭的同时能够公平地在企业阶梯中向上晋升？",
           "syntax": {
             "breakdown": [
               {
@@ -3852,7 +3852,7 @@
           "text": "“Personally, I don’t like quotas,” Reding said recently.",
           "translation": "“就我个人而言，我不喜欢配额，”雷丁最近表示。",
           "slashed_text": "“Personally , / I don’t like quotas , / ” Reding said recently.",
-          "chunk_translation": "Personally / I don’t like quotas / Reding said recently",
+          "chunk_translation": "“就我个人而言 / 我不喜欢配额制 / ”雷丁最近表示",
           "syntax": {
             "breakdown": [
               {
@@ -3870,7 +3870,7 @@
           "text": "“But I like what the quotas do.” Quotas get action: they “open the way to equality and they break through the glass ceiling,” according to Reding, a result seen in France and other countries with legally binding provisions on placing women in top business positions.",
           "translation": "“但我喜欢配额的作用。”雷丁表示，配额得到了行动：它们“开辟了通往平等的道路，突破了玻璃天花板”，这一结果在法国和其他制定了关于让女性担任高层商业职位的具有法律约束力的条款的国家中得到了体现。",
           "slashed_text": "“But I like what the quotas do.” Quotas get action : / they “open the way to equality and they break through the glass ceiling , / ” according to Reding , / a result seen / in France and other countries / with legally binding provisions / on placing women in top business positions.",
-          "chunk_translation": "But I like what the quotas do.” Quotas get action / they “open the way to equality and they break through the glass ceiling / according to Reding / a result seen / in France and other countries / with legally binding provisions / on placing women in top business positions",
+          "chunk_translation": "“但我喜欢配额带来的实际效果。”配额带来了切实行动： / 它们“开辟了通向平等的道路，打破了玻璃天花板 / ”雷丁指出 / 这一成效已显现 / 在法国和其他国家 / 这些国家拥有具有法律约束力的条款 / 关于确保女性担任企业最高职位",
           "syntax": {
             "breakdown": [
               {
@@ -3888,7 +3888,7 @@
           "text": "I understand Reding’s reluctance—and her frustration.",
           "translation": "我理解雷丁的不情愿和她的沮丧。",
           "slashed_text": "I understand Reding’s reluctance — / and her frustration.",
-          "chunk_translation": "I understand Reding’s reluctance / and her frustration",
+          "chunk_translation": "我理解雷丁的不情愿—— / 以及她的挫败感",
           "syntax": {
             "breakdown": [
               {
@@ -3906,7 +3906,7 @@
           "text": "I don’t like quotas either; they run counter to my belief in meritocracy, governance by the capable.",
           "translation": "我也不喜欢配额；它们与我对精英统治、有能力者治理的信念背道而驰。",
           "slashed_text": "I don’t like quotas either ; / they run counter to my belief / in meritocracy , / governance by the capable.",
-          "chunk_translation": "我也不喜欢配额 / they run counter to my belief / in meritocracy / 有能力的人治理",
+          "chunk_translation": "我同样也不喜欢配额； / 它们背离了我的信念 / 即唯才是举、 / 能者居之的理念",
           "syntax": {
             "breakdown": [
               {
@@ -3924,7 +3924,7 @@
           "text": "But, when one considers the obstacles to achieving the meritocratic ideal, it does look as if a fairer world must be temporarily ordered.",
           "translation": "但是，当人们考虑到实现精英理想的障碍时，看起来确实必须暂时建立一个更加公平的世界。",
           "slashed_text": "But , / when one considers the obstacles to achieving the meritocratic ideal , / it does look as / if a fairer world must be temporarily ordered.",
-          "chunk_translation": "但 / 当人们考虑实现精英理想的障碍时 / 它看起来确实像 / 如果必须暂时建立一个更公平的世界",
+          "chunk_translation": "但是 / 当人们考虑到实现精英管理理想的重重阻碍时 / 看起来确实 / 必须通过行政命令暂时构建一个更加公平的世界",
           "syntax": {
             "breakdown": [
               {
@@ -3947,7 +3947,7 @@
           "text": "After all, four decades of evidence has now shown that corporations in Europe as well as the US are evading the meritocratic hiring and promotion of women to top positions— no matter how much “soft pressure” is put upon them.",
           "translation": "毕竟，四十年的证据表明，欧洲和美国的公司都在回避精英聘用和晋升女性担任高层职位的做法——无论她们受到多大的“软压力”。",
           "slashed_text": "After all , / four decades of evidence has now shown / that corporations / in Europe as well as the US are evading the meritocratic hiring and promotion of women to top positions — / no matter how much “soft pressure” is put upon them.",
-          "chunk_translation": "毕竟 / 四十年的证据现已表明 / that corporations / in Europe as well as the US are evading the meritocratic hiring and promotion of women to top positions / 无论施加多少“软压力”",
+          "chunk_translation": "毕竟 / 四十年的事实证据已经表明 / 各大企业 / 无论在欧洲还是美国都在回避依据唯才是举的原则任用和提拔女性进入最高职位—— / 无论对它们施加多大的“软性压力”",
           "syntax": {
             "breakdown": [
               {
@@ -3965,7 +3965,7 @@
           "text": "When women do break through to the summit of corporate power—as, for example, Sheryl Sandberg recently did at Facebook— they attract massive attention precisely because they remain the exception to the rule.",
           "translation": "当女性确实突破到企业权力的顶峰时——例如谢丽尔·桑德伯格(Sheryl Sandberg)最近在 Facebook 所做的那样——她们会吸引大量关注，因为她们仍然是规则的例外。",
           "slashed_text": "/ When women do break through to the summit of corporate power — / as , / for example , / Sheryl Sandberg recently did / at Facebook — / they attract massive attention precisely / because they remain the exception to the rule.",
-          "chunk_translation": "When women do break through to the summit of corporate power / as / 例如 / Sheryl Sandberg recently did / at Facebook / 他们恰恰吸引了大量的注意力 / 因为他们仍然是规则的例外",
+          "chunk_translation": "/ 当女性确实冲破阻碍登上企业权力的顶峰时—— / 正如 / 例如 / 谢丽尔·桑德伯格最近所做的那样 / 在脸书公司—— / 她们之所以引起广泛关注恰恰 / 是因为她们依然是常规之外的特例",
           "syntax": {
             "breakdown": [
               {
@@ -3988,7 +3988,7 @@
           "text": "If appropriate public policies were in place to help all women—whether CEOs or their children’s caregivers—and all families, Sandberg would be no more newsworthy than any other highly capable person living in a more just society.",
           "translation": "如果制定适当的公共政策来帮助所有女性（无论是首席执行官还是孩子的照顾者）以及所有家庭，那么桑德伯格不会比生活在更加公正的社会中的任何其他高能力人士更具新闻价值。",
           "slashed_text": "/ If appropriate public policies were / in place to help all women — / whether CEOs or their children’s caregivers — / and all families , / Sandberg would be no more newsworthy than any other highly capable person living in a more just society.",
-          "chunk_translation": "If appropriate public policies were / in place to help all women / whether CEOs or their children’s caregivers / and all families / 桑德伯格不会比生活在更加公正的社会中的任何其他高能力人士更具新闻价值",
+          "chunk_translation": "/ 如果制定了恰当的公共政策 / 到位去帮助所有女性—— / 无论是首席执行官还是她们孩子的照料者—— / 以及所有的家庭 / 桑德伯格就绝不会比生活在一个更加公正社会里的任何其他卓越能人更具新闻价值",
           "syntax": {
             "breakdown": [
               {

@@ -12,7 +12,7 @@
           "text": "“Reskilling” is something that sounds like a buzzword but is actually a requirement if we plan to have a future in which a lot of would-be workers do not get left behind. We know we are moving into a period where the jobs in demand will change rapidly, as will the requirements of the jobs that remain. Research by the World Economic Forum finds that on average 42 per cent of the “core skills” within job roles will change by 2022. That is a very short timeline.",
           "translation": "“再培训”听起来像是一个流行词，但如果我们计划拥有一个让许多未来的工人不被抛在后面的未来，那么它实际上是一个要求。我们知道，我们正在进入一个工作岗位需求将迅速变化的时期，剩下的工作岗位的要求也将迅速变化。世界经济论坛的研究发现，到 2022 年，工作角色中平均 42% 的“核心技能”将会发生变化。这是一个非常短的时间表。",
           "slashed_text": "“Reskilling” is something / that sounds like a buzzword but is actually a requirement / if we plan to have a future in / which a lot of would-be workers do not get left behind. We know we are moving into a period / where the jobs / in demand will change rapidly , / as will the requirements of the jobs / that remain. Research by the World Economic Forum finds / that / on average 42 per cent of the “core skills” within job roles will change by 2022. / That is a very short timeline.",
-          "chunk_translation": "“再培训”是一件事 / 这听起来像是一个流行词，但实际上是一个要求 / 如果我们打算有一个未来 / which a lot of would-be workers do not get left behind. We know we are moving into a period / where the jobs / in demand will change rapidly / 以及工作的要求 / that remain. Research by the World Economic Forum finds / 那 / on average 42 per cent of the “core skills” within job roles will change by 2022 / 这是一个非常短的时间表",
+          "chunk_translation": "“再培训”这件事 / 听起来像是一个流行词，但实际上却是一项必要要求， / 如果我们打算拥有这样一个未来： / 其中许多潜在的劳动者都不会被时代落下。我们知道自己正在进入一个时期， / 在这个时期， / 需求旺盛的就业岗位将迅速发生变化， / 而那些保留下来的岗位的任职要求 / 也将同样如此。世界经济论坛的研究发现， / 在工作岗位中， / 平均有42%的“核心技能”将在2022年前发生改变。 / 这是一个非常紧迫的时间表。",
           "vocabulary": [
             {
               "word": "Reskilling",
@@ -66,7 +66,7 @@
           "text": "The question of who should pay for reskilling is a thorny one. For individual companies, the temptation is always to let go of workers whose skills are no longer in demand and replace them with those whose skills are. That does not always happen. AT&T is often given as the gold standard of a company that decided to do a massive reskilling program rather than go with a fire-and-hire strategy. Other companies had also pledged to create their own plans.",
           "translation": "谁应该为再培训付费的问题是一个棘手的问题。对于个别公司来说，解雇那些不再需要技能的工人并用那些技能不再需要的工人来取代他们总是很有吸引力的。这种情况并不总是发生。 AT&T 通常被认为是一家公司的黄金标准，该公司决定进行大规模的再培训计划，而不是采用解雇和雇用策略。其他公司也承诺制定自己的计划。",
           "slashed_text": "The question of / who should pay / for reskilling is a thorny one. For individual companies , / the temptation is always to let go of workers / whose skills are no longer / in demand and replace them / with those / whose skills are. / That does not always happen. AT&T is often given as the gold standard of a company / that decided to do a massive reskilling program rather than go with a fire-and-hire strategy. Other companies had also pledged to create their own plans.",
-          "chunk_translation": "的问题 / who should pay / for reskilling is a thorny one. For individual companies / 解雇工人总是诱惑 / whose skills are no longer / in demand and replace them / with those / 谁的技能是 / That does not always happen. AT&T is often given as the gold standard of a company / that decided to do a massive reskilling program rather than go with a fire-and-hire strategy. Other companies had also pledged to create their own plans",
+          "chunk_translation": "关于 / 谁应该为再培训买单的问题 / 是一个棘手的问题。对单个公司而言， / 一直以来的诱惑都是解雇那些 / 其技能已不再 / 被需要的员工，并替换为 / 那些技能 / 符合需求的人。 / 但事实并非总是如此。AT&T常被树立为典范，作为一家 / 决定推行大规模再培训计划而非采取“先解雇再招聘”策略的公司。其他公司也曾承诺制定自己的计划。",
           "vocabulary": [
             {
               "word": "question",
@@ -120,7 +120,7 @@
           "text": "When the skills mismatch is in the broader economy, though, the focus usually turns to government to handle. Efforts in Canada and elsewhere have been arguably languid at best, and have given us a situation where we frequently hear of employers begging for workers, even at times and in regions where unemployment is high.",
           "translation": "然而，当技能不匹配出现在更广泛的经济领域时，焦点通常会转向政府来处理。加拿大和其他地方的努力充其量可以说是疲软，这给我们带来了这样一种情况：我们经常听到雇主乞求工人，即使在失业率很高的时候和地区也是如此。",
           "slashed_text": "/ When the skills mismatch is in the broader economy , / though , / the focus usually turns to government to handle. Efforts / in Canada and elsewhere have been arguably languid / at best , / and have given us a situation / where we frequently hear of employers begging / for workers , / even / at times and / in regions / where unemployment is high.",
-          "chunk_translation": "当技能不匹配出现在更广泛的经济中时 / 尽管 / the focus usually turns to government to handle. Efforts / in Canada and elsewhere have been arguably languid / at best / 并给了我们一个情况 / where we frequently hear of employers begging / for workers / 甚至 / at times and / in regions / 失业率高的地方",
+          "chunk_translation": "然而，当技能不匹配存在于更广泛的宏观经济中时， / 人们关注的焦点 / 通常会转向由政府来处理。相关努力 / 在加拿大和其他地区可以说 / 充其量收效甚微， / 并造成了这样一种局面： / 我们经常听到雇主恳求 / 招募工人， / 甚至 / 在某些时期和 / 地区， / 那里的失业率居高不下。",
           "vocabulary": [
             {
               "word": "skills",
@@ -174,7 +174,7 @@
           "text": "With the pandemic, unemployment is very high indeed. In February, at 3.5 per cent and 5.5 per cent respectively, unemployment rates in Canada and the United States were at generational lows and worker shortages were everywhere. As of May, those rates had spiked up to 13.3 per cent and 13.7 per cent, and although many worker shortages had disappeared, not all had done so. In the medical field, to take an obvious example, the pandemic meant that there were still clear shortages of doctors, nurses and other medical personnel.",
           "translation": "受疫情影响，失业率确实很高。 2月份，加拿大和美国的失业率分别为3.5%和5.5%，处于世代低点，劳动力短缺现象随处可见。截至 5 月份，这一比例已飙升至 13.3% 和 13.7%，尽管许多工人短缺现象已经消失，但并非所有工人短缺现象都消失了。在医疗领域，举个明显的例子，疫情导致医生、护士等医务人员仍然明显短缺。",
           "slashed_text": "With the pandemic , / unemployment is very high indeed. In February , / at 3.5 per cent and 5.5 per cent respectively , / unemployment rates / in Canada and the United States were / at generational lows and worker shortages were everywhere. As of May , / those rates had spiked up to 13.3 per cent and 13.7 per cent , / and / although many worker shortages had disappeared , / not all had done so. In the medical field , / to take an obvious example , / the pandemic meant / that there were still clear shortages of doctors , / nurses and other medical personnel.",
-          "chunk_translation": "随着疫情的蔓延 / unemployment is very high indeed. In February / 分别为 3.5% 和 5.5% / unemployment rates / in Canada and the United States were / at generational lows and worker shortages were everywhere. As of May / 这些比率飙升至 13.3% 和 13.7% / 和 / 尽管许多工人短缺现象已经消失 / not all had done so. In the medical field / 举一个明显的例子 / 大流行意味着 / 医生仍然明显短缺 / 护士和其他医务人员",
+          "chunk_translation": "伴随着疫情的蔓延， / 失业率确实非常高。在二月份， / 分别为3.5%和5.5%， / 失业率 / 在加拿大和美国 / 处于几十年来的历史低点，劳动力短缺随处可见。截至五月， / 这些失业率已飙升至13.3%和13.7%， / 而且 / 尽管许多劳动力短缺现象已经消失， / 但并非所有短缺都已缓解。以医疗领域 / 这一显而易见的例子来说， / 疫情意味着 / 医生、 / 护士和其他医务人员依然存在明显的短缺。",
           "vocabulary": [
             {
               "word": "pandemic",
@@ -228,7 +228,7 @@
           "text": "Of course, it is not like you can take an unemployed waiter and train him to be a doctor in a few weeks. But even if you cannot close that gap, maybe you can close others, and doing so would be to the benefit of all concerned. That seems to be the case in Sweden: When forced to furlough 90 per cent of their cabin staff, Scandinavian Airlines decided to start up a short retraining program that reskilled the laid-off workers to support hospital staff. The effort was a collective one and involved other companies as well as a Swedish university.",
           "translation": "当然，你不可能在几周内将一个失业的服务员培养成一名医生。但即使你无法缩小这一差距，也许你可以缩小其他差距，这样做将使所有相关方受益。瑞典的情况似乎就是这样：当被迫让 90% 的机舱工作人员休假时，斯堪的纳维亚航空公司决定启动一项短期再培训计划，对下岗工人进行重新培训，以支持医院工作人员。这是一项集体努力，涉及其他公司以及一所瑞典大学。",
           "slashed_text": "Of course , / it is not like you can take an unemployed waiter and train him to be a doctor in a few weeks. But even / if you cannot close / that gap , / maybe you can close others , / and doing so would be to the benefit of all concerned. / That seems to be the case / in Sweden : / When forced to furlough 90 per cent of their cabin staff , / Scandinavian Airlines decided to start up a short retraining program / that reskilled the laid-off workers to support hospital staff. The effort was a collective one and involved other companies as well as a Swedish university.",
-          "chunk_translation": "当然 / it is not like you can take an unemployed waiter and train him to be a doctor in a few weeks. But even / 如果你无法关闭 / 那个差距 / 也许你可以关闭其他人 / 这样做将有利于所有相关方 / That seems to be the case / in Sweden / 当被迫让 90% 的客舱工作人员休假时 / 斯堪的纳维亚航空决定启动短期再培训计划 / that reskilled the laid-off workers to support hospital staff. The effort was a collective one and involved other companies as well as a Swedish university",
+          "chunk_translation": "当然， / 你不可能直接找来一个失业的服务员，并在短短几周内把他培训成一名医生。但即便 / 你无法填补 / 那个缺口， / 也许你可以填补其他领域的缺口， / 而这样做将使所有相关各方受益。 / 瑞典的情况似乎正是如此： / 在瑞典， / 当被迫让90%的机舱乘务人员停职休假时， / 斯堪的纳维亚航空公司决定启动一项短期再培训计划， / 对下岗员工进行再培训以支援医院工作人员。这项努力是一次集体行动，参与方还包括其他公司以及一所瑞典大学。",
           "vocabulary": [
             {
               "word": "course",
@@ -286,7 +286,7 @@
           "text": "“Reskilling” is something that sounds like a buzzword but is actually a requirement if we plan to have a future in which a lot of would-be workers do not get left behind.",
           "translation": "“再培训”听起来像是一个流行词，但如果我们计划拥有一个让许多未来的工人不被抛在后面的未来，那么它实际上是一个要求。",
           "slashed_text": "“Reskilling” is something / that sounds like a buzzword but is actually a requirement / if we plan to have a future in / which a lot of would-be workers do not get left behind.",
-          "chunk_translation": "“再培训”是一件事 / 这听起来像是一个流行词，但实际上是一个要求 / 如果我们打算有一个未来 / 许多想要成为工人的人不会被抛在后面",
+          "chunk_translation": "“再培训”这件事 / 听起来像是一个流行词，但实际上却是一项必要要求， / 如果我们打算拥有这样一个未来： / 其中许多潜在的劳动者都不会被时代落下。",
           "syntax": {
             "breakdown": [
               {
@@ -309,7 +309,7 @@
           "text": "We know we are moving into a period where the jobs in demand will change rapidly, as will the requirements of the jobs that remain.",
           "translation": "我们知道，我们正在进入一个工作岗位需求将迅速变化的时期，剩下的工作岗位的要求也将迅速变化。",
           "slashed_text": "We know we are moving into a period / where the jobs / in demand will change rapidly , / as will the requirements of the jobs / that remain.",
-          "chunk_translation": "我们知道我们正在进入一个时期 / where the jobs / in demand will change rapidly / 以及工作的要求 / 剩下的",
+          "chunk_translation": "我们知道自己正在进入一个时期， / 在这个时期， / 需求旺盛的就业岗位将迅速发生变化， / 而那些保留下来的岗位的任职要求 / 也将同样如此。",
           "syntax": {
             "breakdown": [
               {
@@ -327,7 +327,7 @@
           "text": "Research by the World Economic Forum finds that on average 42 per cent of the “core skills” within job roles will change by 2022.",
           "translation": "世界经济论坛的研究发现，到 2022 年，工作角色中平均 42% 的“核心技能”将会发生变化。",
           "slashed_text": "Research by the World Economic Forum finds / that / on average 42 per cent of the “core skills” within job roles will change by 2022.",
-          "chunk_translation": "世界经济论坛的研究发现 / 那 / on average 42 per cent of the “core skills” within job roles will change by 2022",
+          "chunk_translation": "世界经济论坛的研究发现， / 在工作岗位中， / 平均有42%的“核心技能”将在2022年前发生改变。",
           "syntax": {
             "breakdown": [
               {
@@ -345,7 +345,7 @@
           "text": "That is a very short timeline.",
           "translation": "这是一个非常短的时间表。",
           "slashed_text": "/ That is a very short timeline.",
-          "chunk_translation": "这是一个非常短的时间表",
+          "chunk_translation": "这是一个非常紧迫的时间表。",
           "syntax": {
             "breakdown": [
               {
@@ -363,7 +363,7 @@
           "text": "The question of who should pay for reskilling is a thorny one.",
           "translation": "谁应该为再培训付费的问题是一个棘手的问题。",
           "slashed_text": "The question of / who should pay / for reskilling is a thorny one.",
-          "chunk_translation": "的问题 / who should pay / for reskilling is a thorny one",
+          "chunk_translation": "关于 / 谁应该为再培训买单的问题 / 是一个棘手的问题。",
           "syntax": {
             "breakdown": [
               {
@@ -381,7 +381,7 @@
           "text": "For individual companies, the temptation is always to let go of workers whose skills are no longer in demand and replace them with those whose skills are.",
           "translation": "对于个别公司来说，解雇那些不再需要技能的工人并用那些技能不再需要的工人来取代他们总是很有吸引力的。",
           "slashed_text": "For individual companies , / the temptation is always to let go of workers / whose skills are no longer / in demand and replace them / with those / whose skills are.",
-          "chunk_translation": "对于个别公司 / 解雇工人总是诱惑 / whose skills are no longer / in demand and replace them / with those / 谁的技能是",
+          "chunk_translation": "对单个公司而言， / 一直以来的诱惑都是解雇那些 / 其技能已不再 / 被需要的员工，并替换为 / 那些技能 / 符合需求的人。",
           "syntax": {
             "breakdown": [
               {
@@ -399,7 +399,7 @@
           "text": "That does not always happen.",
           "translation": "这种情况并不总是发生。",
           "slashed_text": "/ That does not always happen.",
-          "chunk_translation": "这种情况并不总是发生",
+          "chunk_translation": "但事实并非总是如此。",
           "syntax": {
             "breakdown": [
               {
@@ -417,7 +417,7 @@
           "text": "AT&T is often given as the gold standard of a company that decided to do a massive reskilling program rather than go with a fire-and-hire strategy.",
           "translation": "AT&T 通常被认为是一家公司的黄金标准，该公司决定进行大规模的再培训计划，而不是采用解雇和雇用策略。",
           "slashed_text": "AT&T is often given as the gold standard of a company / that decided to do a massive reskilling program rather than go with a fire-and-hire strategy.",
-          "chunk_translation": "AT&T 通常被视为公司的黄金标准 / that decided to do a massive reskilling program rather than go with a fire-and-hire strategy",
+          "chunk_translation": "AT&T常被树立为典范，作为一家 / 决定推行大规模再培训计划而非采取“先解雇再招聘”策略的公司。",
           "syntax": {
             "breakdown": [
               {
@@ -435,7 +435,7 @@
           "text": "Other companies had also pledged to create their own plans.",
           "translation": "其他公司也承诺制定自己的计划。",
           "slashed_text": "Other companies had also pledged to create their own plans.",
-          "chunk_translation": "其他公司也承诺制定自己的计划",
+          "chunk_translation": "其他公司也曾承诺制定自己的计划。",
           "syntax": {
             "breakdown": [
               {
@@ -453,7 +453,7 @@
           "text": "When the skills mismatch is in the broader economy, though, the focus usually turns to government to handle.",
           "translation": "然而，当技能不匹配出现在更广泛的经济领域时，焦点通常会转向政府来处理。",
           "slashed_text": "/ When the skills mismatch is in the broader economy , / though , / the focus usually turns to government to handle.",
-          "chunk_translation": "当技能不匹配出现在更广泛的经济中时 / 尽管 / 焦点通常转向政府来处理",
+          "chunk_translation": "然而，当技能不匹配存在于更广泛的宏观经济中时， / 人们关注的焦点 / 通常会转向由政府来处理。",
           "syntax": {
             "breakdown": [
               {
@@ -471,7 +471,7 @@
           "text": "Efforts in Canada and elsewhere have been arguably languid at best, and have given us a situation where we frequently hear of employers begging for workers, even at times and in regions where unemployment is high.",
           "translation": "加拿大和其他地方的努力充其量可以说是疲软，这给我们带来了这样一种情况：我们经常听到雇主乞求工人，即使在失业率很高的时候和地区也是如此。",
           "slashed_text": "Efforts / in Canada and elsewhere have been arguably languid / at best , / and have given us a situation / where we frequently hear of employers begging / for workers , / even / at times and / in regions / where unemployment is high.",
-          "chunk_translation": "Efforts / in Canada and elsewhere have been arguably languid / at best / 并给了我们一个情况 / where we frequently hear of employers begging / for workers / 甚至 / at times and / in regions / 失业率高的地方",
+          "chunk_translation": "相关努力 / 在加拿大和其他地区可以说 / 充其量收效甚微， / 并造成了这样一种局面： / 我们经常听到雇主恳求 / 招募工人， / 甚至 / 在某些时期和 / 地区， / 那里的失业率居高不下。",
           "syntax": {
             "breakdown": [
               {
@@ -489,7 +489,7 @@
           "text": "With the pandemic, unemployment is very high indeed.",
           "translation": "受疫情影响，失业率确实很高。",
           "slashed_text": "With the pandemic , / unemployment is very high indeed.",
-          "chunk_translation": "随着疫情的蔓延 / 失业率确实很高",
+          "chunk_translation": "伴随着疫情的蔓延， / 失业率确实非常高。",
           "syntax": {
             "breakdown": [
               {
@@ -507,7 +507,7 @@
           "text": "In February, at 3.5 per cent and 5.5 per cent respectively, unemployment rates in Canada and the United States were at generational lows and worker shortages were everywhere.",
           "translation": "2月份，加拿大和美国的失业率分别为3.5%和5.5%，处于世代低点，劳动力短缺现象随处可见。",
           "slashed_text": "In February , / at 3.5 per cent and 5.5 per cent respectively , / unemployment rates / in Canada and the United States were / at generational lows and worker shortages were everywhere.",
-          "chunk_translation": "二月 / 分别为 3.5% 和 5.5% / unemployment rates / in Canada and the United States were / at generational lows and worker shortages were everywhere",
+          "chunk_translation": "在二月份， / 分别为3.5%和5.5%， / 失业率 / 在加拿大和美国 / 处于几十年来的历史低点，劳动力短缺随处可见。",
           "syntax": {
             "breakdown": [
               {
@@ -525,7 +525,7 @@
           "text": "As of May, those rates had spiked up to 13.3 per cent and 13.7 per cent, and although many worker shortages had disappeared, not all had done so.",
           "translation": "截至 5 月份，这一比例已飙升至 13.3% 和 13.7%，尽管许多工人短缺现象已经消失，但并非所有工人短缺现象都消失了。",
           "slashed_text": "As of May , / those rates had spiked up to 13.3 per cent and 13.7 per cent , / and / although many worker shortages had disappeared , / not all had done so.",
-          "chunk_translation": "截至五月 / 这些比率飙升至 13.3% 和 13.7% / 和 / 尽管许多工人短缺现象已经消失 / 并非所有人都这样做",
+          "chunk_translation": "截至五月， / 这些失业率已飙升至13.3%和13.7%， / 而且 / 尽管许多劳动力短缺现象已经消失， / 但并非所有短缺都已缓解。",
           "syntax": {
             "breakdown": [
               {
@@ -543,7 +543,7 @@
           "text": "In the medical field, to take an obvious example, the pandemic meant that there were still clear shortages of doctors, nurses and other medical personnel.",
           "translation": "在医疗领域，举个明显的例子，疫情导致医生、护士等医务人员仍然明显短缺。",
           "slashed_text": "In the medical field , / to take an obvious example , / the pandemic meant / that there were still clear shortages of doctors , / nurses and other medical personnel.",
-          "chunk_translation": "在医疗领域 / 举一个明显的例子 / 大流行意味着 / 医生仍然明显短缺 / 护士和其他医务人员",
+          "chunk_translation": "以医疗领域 / 这一显而易见的例子来说， / 疫情意味着 / 医生、 / 护士和其他医务人员依然存在明显的短缺。",
           "syntax": {
             "breakdown": [
               {
@@ -561,7 +561,7 @@
           "text": "Of course, it is not like you can take an unemployed waiter and train him to be a doctor in a few weeks.",
           "translation": "当然，你不可能在几周内将一个失业的服务员培养成一名医生。",
           "slashed_text": "Of course , / it is not like you can take an unemployed waiter and train him to be a doctor in a few weeks.",
-          "chunk_translation": "当然 / 这不像你可以在几周内将一个失业的服务员训练成一名医生",
+          "chunk_translation": "当然， / 你不可能直接找来一个失业的服务员，并在短短几周内把他培训成一名医生。",
           "syntax": {
             "breakdown": [
               {
@@ -579,7 +579,7 @@
           "text": "But even if you cannot close that gap, maybe you can close others, and doing so would be to the benefit of all concerned.",
           "translation": "但即使你无法缩小这一差距，也许你可以缩小其他差距，这样做将使所有相关方受益。",
           "slashed_text": "But even / if you cannot close / that gap , / maybe you can close others , / and doing so would be to the benefit of all concerned.",
-          "chunk_translation": "但即使 / 如果你无法关闭 / 那个差距 / 也许你可以关闭其他人 / 这样做将有利于所有相关方",
+          "chunk_translation": "但即便 / 你无法填补 / 那个缺口， / 也许你可以填补其他领域的缺口， / 而这样做将使所有相关各方受益。",
           "syntax": {
             "breakdown": [
               {
@@ -602,7 +602,7 @@
           "text": "That seems to be the case in Sweden: When forced to furlough 90 per cent of their cabin staff, Scandinavian Airlines decided to start up a short retraining program that reskilled the laid-off workers to support hospital staff.",
           "translation": "瑞典的情况似乎就是这样：当被迫让 90% 的机舱工作人员休假时，斯堪的纳维亚航空公司决定启动一项短期再培训计划，对下岗工人进行重新培训，以支持医院工作人员。",
           "slashed_text": "/ That seems to be the case / in Sweden : / When forced to furlough 90 per cent of their cabin staff , / Scandinavian Airlines decided to start up a short retraining program / that reskilled the laid-off workers to support hospital staff.",
-          "chunk_translation": "That seems to be the case / in Sweden / 当被迫让 90% 的客舱工作人员休假时 / 斯堪的纳维亚航空决定启动短期再培训计划 / 对下岗工人进行再培训以支持医院工作人员",
+          "chunk_translation": "瑞典的情况似乎正是如此： / 在瑞典， / 当被迫让90%的机舱乘务人员停职休假时， / 斯堪的纳维亚航空公司决定启动一项短期再培训计划， / 对下岗员工进行再培训以支援医院工作人员。",
           "syntax": {
             "breakdown": [
               {
@@ -620,7 +620,7 @@
           "text": "The effort was a collective one and involved other companies as well as a Swedish university.",
           "translation": "这是一项集体努力，涉及其他公司以及一所瑞典大学。",
           "slashed_text": "The effort was a collective one and involved other companies as well as a Swedish university.",
-          "chunk_translation": "这是一项集体努力，涉及其他公司以及一所瑞典大学。",
+          "chunk_translation": "这项努力是一次集体行动，参与方还包括其他公司以及一所瑞典大学。",
           "syntax": {
             "breakdown": [
               {
@@ -1093,7 +1093,7 @@
           "text": "With the global population predicted to hit close to 10 billion by 2050, and forecasts that agricultural production in some regions will need to nearly double to keep pace, food security is increasingly making headlines. In the UK, it has become a big talking point recently too, for a rather particular reason: Brexit.",
           "translation": "预计到 2050 年，全球人口将接近 100 亿，并且预测某些地区的农业产量需要增加近一倍才能跟上步伐，粮食安全越来越成为头条新闻。在英国，由于一个相当特殊的原因，它最近也成为了一个热门话题：英国脱欧。",
           "slashed_text": "With the global population predicted to hit close to 10 billion by 2050 , / and forecasts / that agricultural production / in some regions will need to nearly double to keep pace , / food security is increasingly making headlines. In the UK , / it has become a big talking point recently too , / for a rather particular reason : / Brexit.",
-          "chunk_translation": "预计到 2050 年全球人口将接近 100 亿 / 和预测 / that agricultural production / in some regions will need to nearly double to keep pace / food security is increasingly making headlines. In the UK / 最近它也成为了一个热门话题 / 由于一个相当特殊的原因 / 英国脱欧",
+          "chunk_translation": "预计到2050年全球人口将接近100亿， / 并且有预测显示， / 某些地区的农业产量 / 需要增加近一倍才能跟上人口增长的步伐， / 粮食安全问题正日益成为新闻头条。在英国， / 最近这也成为了一个热门话题， / 原因相当特殊： / 英国脱欧。",
           "vocabulary": [
             {
               "word": "global",
@@ -1147,7 +1147,7 @@
           "text": "Brexit is seen by some as an opportunity to reverse a recent trend towards the UK importing food. The country produces only about 60 per cent of the food it eats, down from almost three-quarters in the late 1980s. A move back to self-sufficiency, the argument goes, would boost the farming industry, political sovereignty and even the nation’s health. Sounds great—but how feasible is this vision?",
           "translation": "一些人认为英国脱欧是扭转近期英国进口食品趋势的机会。该国仅生产其所吃食物的约 60%，低于 20 世纪 80 年代末的近四分之三。有人认为，恢复自给自足将促进农业、政治主权甚至国家健康。听起来不错，但这个愿景的可行性如何？",
           "slashed_text": "Brexit is seen / by some as an opportunity to reverse a recent trend towards the UK importing food. The country produces only about 60 per cent of the food it eats , / down / from almost three-quarters in the late 1980s. A move back to self-sufficiency , / the argument goes , / would boost the farming industry , / political sovereignty and even the nation’s health. Sounds great — / but how feasible is this vision?",
-          "chunk_translation": "Brexit is seen / by some as an opportunity to reverse a recent trend towards the UK importing food. The country produces only about 60 per cent of the food it eats / down / from almost three-quarters in the late 1980s. A move back to self-sufficiency / 争论是这样的 / 将促进农业发展 / political sovereignty and even the nation’s health. Sounds great / but how feasible is this vision?",
+          "chunk_translation": "英国脱欧被一些人视为一个契机， / 用来扭转英国近年来依赖食品进口的趋势。该国生产的食物仅占其消费量的约60%， / 这一比例低于 / 20世纪80年代末期的近四分之三。恢复自给自足的举措， / 有观点认为， / 将促进农业发展、 / 提升政治主权甚至改善国民健康。听起来很不错—— / 但这一愿景的可行性究竟有多大？",
           "vocabulary": [
             {
               "word": "Brexit",
@@ -1201,7 +1201,7 @@
           "text": "According to a report on UK food production from the University of Leeds, UK, 85 per cent of the country’s total land area is associated with meat and dairy production. That supplies 80 per cent of what is consumed, so even covering the whole country in livestock farms wouldn’t allow us to cover all our meat and dairy needs.",
           "translation": "英国利兹大学关于英国粮食生产的报告显示，该国 85% 的土地面积用于肉类和奶制品生产。这供应了 80% 的消费量，因此即使畜牧场覆盖整个国家也无法满足我们所有的肉类和奶制品需求。",
           "slashed_text": "According to a report on UK food production from the University of Leeds , / UK , / 85 per cent of the country’s total land area is associated / with meat and dairy production. / That supplies 80 per cent of what is consumed , / so even covering the whole country / in livestock farms wouldn’t allow us to cover all our meat and dairy needs.",
-          "chunk_translation": "根据利兹大学关于英国食品生产的报告 / 英国 / 85 per cent of the country’s total land area is associated / with meat and dairy production / 供应 80% 的消费 / so even covering the whole country / in livestock farms wouldn’t allow us to cover all our meat and dairy needs",
+          "chunk_translation": "根据英国利兹大学关于英国粮食生产的一份报告， / 英国， / 其国土总面积的85%都与 / 肉类和乳制品生产相关联。 / 这供应了80%的消费量， / 因此即便在全国各地都建满畜牧场， / 也无法满足我们所有的肉类和乳制品需求。",
           "vocabulary": [
             {
               "word": "According",
@@ -1255,7 +1255,7 @@
           "text": "There are many caveats to those figures, but they are still grave. To become much more self-sufficient, the UK would need to drastically reduce its consumption of animal foods, and probably also farm more intensively—meaning fewer green fields and more factory-style production.",
           "translation": "这些数字有很多警告，但它们仍然很严重。为了更加自给自足，英国需要大幅减少动物食品的消费，并且可能还需要更加集约化的农业——这意味着更少的绿地和更多的工厂式生产。",
           "slashed_text": "There are many caveats to those figures , / but they are still grave. To become much more self-sufficient , / the UK would need to drastically reduce its consumption of animal foods , / and probably also farm more intensively — / meaning fewer green fields and more factory-style production.",
-          "chunk_translation": "这些数字有很多注意事项 / but they are still grave. To become much more self-sufficient / 英国需要大幅减少动物食品的消费 / and probably also farm more intensively / meaning fewer green fields and more factory-style production",
+          "chunk_translation": "这些数据存在许多前提限制， / 但它们所反映的情况依然十分严峻。为了大幅提高自给自足水平， / 英国需要大幅减少动物源食品的消费， / 并且可能还需要进行更为集约化的耕作—— / 这意味着更少的绿色田野和更多的工厂化生产。",
           "vocabulary": [
             {
               "word": "caveats",
@@ -1309,7 +1309,7 @@
           "text": "But switching to a mainly plant-based diet wouldn’t help. There is a good reason why the UK is dominated by animal husbandry: most of its terrain doesn’t have the right soil or climate to grow crops on a commercial basis. Just 25 per cent of the country’s land is suitable for crop-growing, most of which is already occupied by arable fields. Even if we converted all the suitable land to fields of fruit and veg—which would involve taking out all the nature reserves and removing thousands of people from their homes—we would achieve only a 30 per cent boost in crop production.",
           "translation": "但改用以植物为主的饮食并没有什么帮助。英国以畜牧业为主有一个很好的理由：英国大部分地区没有合适的土壤或气候来种植农作物。该国只有25%的土地适合种植农作物，其中大部分已经被耕地占用。即使我们将所有合适的土地改造成果蔬田（这将涉及清除所有自然保护区并让数千人离开家园），我们也只能实现农作物产量提高 30%。",
           "slashed_text": "But switching to a mainly plant-based diet wouldn’t help. There is a good reason why the UK is dominated / by animal husbandry : / most of its terrain doesn’t have the right soil or climate to grow crops on a commercial basis. Just 25 per cent of the country’s land is suitable / for crop-growing , / most of / which is already occupied / by arable fields. Even / if we converted all the suitable land to fields of fruit and veg — / which would involve taking out all the nature reserves and removing thousands of people / from their homes — / we would achieve only a 30 per cent boost / in crop production.",
-          "chunk_translation": "But switching to a mainly plant-based diet wouldn’t help. There is a good reason why the UK is dominated / by animal husbandry / most of its terrain doesn’t have the right soil or climate to grow crops on a commercial basis. Just 25 per cent of the country’s land is suitable / for crop-growing / 大部分 / which is already occupied / by arable fields. Even / if we converted all the suitable land to fields of fruit and veg / which would involve taking out all the nature reserves and removing thousands of people / from their homes / we would achieve only a 30 per cent boost / in crop production",
+          "chunk_translation": "但转向主要以植物为主的饮食也无济于事。英国由畜牧业所主导是有充分原因的： / 畜牧业为主： / 其大部分土地并不具备以商业规模种植农作物所适宜的土壤或气候条件。该国只有25%的土地适合 / 农作物种植， / 其中大部分 / 已经被 / 耕地所占用。即便 / 我们将所有适宜的土地都转变为果蔬种植田—— / 这将涉及到取消所有自然保护区并让成千上万的人搬离 / 他们的家园—— / 我们在农作物产量上也只能实现 / 30%的提升。",
           "vocabulary": [
             {
               "word": "switching",
@@ -1363,7 +1363,7 @@
           "text": "Just 23 per cent of the fruit and vegetables consumed in the UK are currently home- grown, so even with the most extreme measures we could meet only 30 per cent of our fresh produce needs. That is before we look for the space to grow the grains, sugars, seeds and oils that provide us with the vast bulk of our current calorie intake.",
           "translation": "目前英国消费的水果和蔬菜中只有 23% 是本土种植的，因此即使采取最极端的措施，我们也只能满足 30% 的新鲜农产品需求。那是在我们寻找空间种植谷物、糖、种子和油之前，这些谷物、糖、种子和油为我们提供了当前卡路里摄入量的大部分。",
           "slashed_text": "Just 23 per cent of the fruit and vegetables consumed in the UK are currently home- grown , / so even with the most extreme measures we could meet only 30 per cent of our fresh produce needs. / That is before we look for the space to grow the grains , / sugars , / seeds and oils / that provide us with the vast bulk of our current calorie intake.",
-          "chunk_translation": "目前英国消费的水果和蔬菜中只有 23% 是本土种植的 / 因此，即使采取最极端的措施，我们也只能满足 30% 的新鲜农产品需求 / That is before we look for the space to grow the grains / 糖类 / 种子和油 / 为我们提供了当前卡路里摄入量的大部分",
+          "chunk_translation": "目前在英国消费的水果和蔬菜中，只有23%是本土种植的， / 因此即便采取最极端的措施，我们也只能满足30%的新鲜果蔬需求。 / 这还是在我们寻找土地来种植谷物、 / 糖料、 / 种子和油料之前的情况， / 而这些作物为我们目前的卡路里摄入提供了绝大部分来源。",
           "vocabulary": [
             {
               "word": "cent",
@@ -1421,7 +1421,7 @@
           "text": "With the global population predicted to hit close to 10 billion by 2050, and forecasts that agricultural production in some regions will need to nearly double to keep pace, food security is increasingly making headlines.",
           "translation": "预计到 2050 年，全球人口将接近 100 亿，并且预测某些地区的农业产量需要增加近一倍才能跟上步伐，粮食安全越来越成为头条新闻。",
           "slashed_text": "With the global population predicted to hit close to 10 billion by 2050 , / and forecasts / that agricultural production / in some regions will need to nearly double to keep pace , / food security is increasingly making headlines.",
-          "chunk_translation": "预计到 2050 年全球人口将接近 100 亿 / 和预测 / that agricultural production / in some regions will need to nearly double to keep pace / 粮食安全越来越成为头条新闻",
+          "chunk_translation": "预计到2050年全球人口将接近100亿， / 并且有预测显示， / 某些地区的农业产量 / 需要增加近一倍才能跟上人口增长的步伐， / 粮食安全问题正日益成为新闻头条。",
           "syntax": {
             "breakdown": [
               {
@@ -1439,7 +1439,7 @@
           "text": "In the UK, it has become a big talking point recently too, for a rather particular reason: Brexit.",
           "translation": "在英国，由于一个相当特殊的原因，它最近也成为了一个热门话题：英国脱欧。",
           "slashed_text": "In the UK , / it has become a big talking point recently too , / for a rather particular reason : / Brexit.",
-          "chunk_translation": "在英国 / 最近它也成为了一个热门话题 / 由于一个相当特殊的原因 / 英国脱欧",
+          "chunk_translation": "在英国， / 最近这也成为了一个热门话题， / 原因相当特殊： / 英国脱欧。",
           "syntax": {
             "breakdown": [
               {
@@ -1457,7 +1457,7 @@
           "text": "Brexit is seen by some as an opportunity to reverse a recent trend towards the UK importing food.",
           "translation": "一些人认为英国脱欧是扭转近期英国进口食品趋势的机会。",
           "slashed_text": "Brexit is seen / by some as an opportunity to reverse a recent trend towards the UK importing food.",
-          "chunk_translation": "Brexit is seen / by some as an opportunity to reverse a recent trend towards the UK importing food",
+          "chunk_translation": "英国脱欧被一些人视为一个契机， / 用来扭转英国近年来依赖食品进口的趋势。",
           "syntax": {
             "breakdown": [
               {
@@ -1475,7 +1475,7 @@
           "text": "The country produces only about 60 per cent of the food it eats, down from almost three-quarters in the late 1980s.",
           "translation": "该国仅生产其所吃食物的约 60%，低于 20 世纪 80 年代末的近四分之三。",
           "slashed_text": "The country produces only about 60 per cent of the food it eats , / down / from almost three-quarters in the late 1980s.",
-          "chunk_translation": "该国仅生产其所吃食物的约 60% / down / from almost three-quarters in the late 1980s",
+          "chunk_translation": "该国生产的食物仅占其消费量的约60%， / 这一比例低于 / 20世纪80年代末期的近四分之三。",
           "syntax": {
             "breakdown": [
               {
@@ -1493,7 +1493,7 @@
           "text": "A move back to self-sufficiency, the argument goes, would boost the farming industry, political sovereignty and even the nation’s health.",
           "translation": "有人认为，恢复自给自足将促进农业、政治主权甚至国家健康。",
           "slashed_text": "A move back to self-sufficiency , / the argument goes , / would boost the farming industry , / political sovereignty and even the nation’s health.",
-          "chunk_translation": "恢复自给自足 / 争论是这样的 / 将促进农业发展 / 政治主权乃至国家健康",
+          "chunk_translation": "恢复自给自足的举措， / 有观点认为， / 将促进农业发展、 / 提升政治主权甚至改善国民健康。",
           "syntax": {
             "breakdown": [
               {
@@ -1511,7 +1511,7 @@
           "text": "Sounds great—but how feasible is this vision?",
           "translation": "听起来不错，但这个愿景的可行性如何？",
           "slashed_text": "Sounds great — / but how feasible is this vision?",
-          "chunk_translation": "Sounds great / but how feasible is this vision?",
+          "chunk_translation": "听起来很不错—— / 但这一愿景的可行性究竟有多大？",
           "syntax": {
             "breakdown": [
               {
@@ -1529,7 +1529,7 @@
           "text": "According to a report on UK food production from the University of Leeds, UK, 85 per cent of the country’s total land area is associated with meat and dairy production.",
           "translation": "英国利兹大学关于英国粮食生产的报告显示，该国 85% 的土地面积用于肉类和奶制品生产。",
           "slashed_text": "According to a report on UK food production from the University of Leeds , / UK , / 85 per cent of the country’s total land area is associated / with meat and dairy production.",
-          "chunk_translation": "根据利兹大学关于英国食品生产的报告 / 英国 / 85 per cent of the country’s total land area is associated / with meat and dairy production",
+          "chunk_translation": "根据英国利兹大学关于英国粮食生产的一份报告， / 英国， / 其国土总面积的85%都与 / 肉类和乳制品生产相关联。",
           "syntax": {
             "breakdown": [
               {
@@ -1547,7 +1547,7 @@
           "text": "That supplies 80 per cent of what is consumed, so even covering the whole country in livestock farms wouldn’t allow us to cover all our meat and dairy needs.",
           "translation": "这供应了 80% 的消费量，因此即使畜牧场覆盖整个国家也无法满足我们所有的肉类和奶制品需求。",
           "slashed_text": "/ That supplies 80 per cent of what is consumed , / so even covering the whole country / in livestock farms wouldn’t allow us to cover all our meat and dairy needs.",
-          "chunk_translation": "供应 80% 的消费 / so even covering the whole country / in livestock farms wouldn’t allow us to cover all our meat and dairy needs",
+          "chunk_translation": "这供应了80%的消费量， / 因此即便在全国各地都建满畜牧场， / 也无法满足我们所有的肉类和乳制品需求。",
           "syntax": {
             "breakdown": [
               {
@@ -1565,7 +1565,7 @@
           "text": "There are many caveats to those figures, but they are still grave.",
           "translation": "这些数字有很多警告，但它们仍然很严重。",
           "slashed_text": "There are many caveats to those figures , / but they are still grave.",
-          "chunk_translation": "这些数字有很多注意事项 / 但他们仍然很严肃",
+          "chunk_translation": "这些数据存在许多前提限制， / 但它们所反映的情况依然十分严峻。",
           "syntax": {
             "breakdown": [
               {
@@ -1583,7 +1583,7 @@
           "text": "To become much more self-sufficient, the UK would need to drastically reduce its consumption of animal foods, and probably also farm more intensively—meaning fewer green fields and more factory-style production.",
           "translation": "为了更加自给自足，英国需要大幅减少动物食品的消费，并且可能还需要更加集约化的农业——这意味着更少的绿地和更多的工厂式生产。",
           "slashed_text": "To become much more self-sufficient , / the UK would need to drastically reduce its consumption of animal foods , / and probably also farm more intensively — / meaning fewer green fields and more factory-style production.",
-          "chunk_translation": "变得更加自给自足 / 英国需要大幅减少动物食品的消费 / and probably also farm more intensively / meaning fewer green fields and more factory-style production",
+          "chunk_translation": "为了大幅提高自给自足水平， / 英国需要大幅减少动物源食品的消费， / 并且可能还需要进行更为集约化的耕作—— / 这意味着更少的绿色田野和更多的工厂化生产。",
           "syntax": {
             "breakdown": [
               {
@@ -1601,7 +1601,7 @@
           "text": "But switching to a mainly plant-based diet wouldn’t help.",
           "translation": "但改用以植物为主的饮食并没有什么帮助。",
           "slashed_text": "But switching to a mainly plant-based diet wouldn’t help.",
-          "chunk_translation": "但转向以植物为主的饮食并没有帮助",
+          "chunk_translation": "但转向主要以植物为主的饮食也无济于事。",
           "syntax": {
             "breakdown": [
               {
@@ -1619,7 +1619,7 @@
           "text": "There is a good reason why the UK is dominated by animal husbandry: most of its terrain doesn’t have the right soil or climate to grow crops on a commercial basis.",
           "translation": "英国以畜牧业为主有一个很好的理由：英国大部分地区没有合适的土壤或气候来种植农作物。",
           "slashed_text": "There is a good reason why the UK is dominated / by animal husbandry : / most of its terrain doesn’t have the right soil or climate to grow crops on a commercial basis.",
-          "chunk_translation": "There is a good reason why the UK is dominated / by animal husbandry / 其大部分地区不具备适宜商业种植农作物的土壤或气候",
+          "chunk_translation": "英国由畜牧业所主导是有充分原因的： / 畜牧业为主： / 其大部分土地并不具备以商业规模种植农作物所适宜的土壤或气候条件。",
           "syntax": {
             "breakdown": [
               {
@@ -1637,7 +1637,7 @@
           "text": "Just 25 per cent of the country’s land is suitable for crop-growing, most of which is already occupied by arable fields.",
           "translation": "该国只有25%的土地适合种植农作物，其中大部分已经被耕地占用。",
           "slashed_text": "Just 25 per cent of the country’s land is suitable / for crop-growing , / most of / which is already occupied / by arable fields.",
-          "chunk_translation": "Just 25 per cent of the country’s land is suitable / for crop-growing / 大部分 / which is already occupied / by arable fields",
+          "chunk_translation": "该国只有25%的土地适合 / 农作物种植， / 其中大部分 / 已经被 / 耕地所占用。",
           "syntax": {
             "breakdown": [
               {
@@ -1655,7 +1655,7 @@
           "text": "Even if we converted all the suitable land to fields of fruit and veg—which would involve taking out all the nature reserves and removing thousands of people from their homes—we would achieve only a 30 per cent boost in crop production.",
           "translation": "即使我们将所有合适的土地改造成果蔬田（这将涉及清除所有自然保护区并让数千人离开家园），我们也只能实现农作物产量提高 30%。",
           "slashed_text": "Even / if we converted all the suitable land to fields of fruit and veg — / which would involve taking out all the nature reserves and removing thousands of people / from their homes — / we would achieve only a 30 per cent boost / in crop production.",
-          "chunk_translation": "甚至 / if we converted all the suitable land to fields of fruit and veg / which would involve taking out all the nature reserves and removing thousands of people / from their homes / we would achieve only a 30 per cent boost / in crop production",
+          "chunk_translation": "即便 / 我们将所有适宜的土地都转变为果蔬种植田—— / 这将涉及到取消所有自然保护区并让成千上万的人搬离 / 他们的家园—— / 我们在农作物产量上也只能实现 / 30%的提升。",
           "syntax": {
             "breakdown": [
               {
@@ -1678,7 +1678,7 @@
           "text": "Just 23 per cent of the fruit and vegetables consumed in the UK are currently home- grown, so even with the most extreme measures we could meet only 30 per cent of our fresh produce needs.",
           "translation": "目前英国消费的水果和蔬菜中只有 23% 是本土种植的，因此即使采取最极端的措施，我们也只能满足 30% 的新鲜农产品需求。",
           "slashed_text": "Just 23 per cent of the fruit and vegetables consumed in the UK are currently home- grown , / so even with the most extreme measures we could meet only 30 per cent of our fresh produce needs.",
-          "chunk_translation": "目前英国消费的水果和蔬菜中只有 23% 是本土种植的 / 因此，即使采取最极端的措施，我们也只能满足 30% 的新鲜农产品需求",
+          "chunk_translation": "目前在英国消费的水果和蔬菜中，只有23%是本土种植的， / 因此即便采取最极端的措施，我们也只能满足30%的新鲜果蔬需求。",
           "syntax": {
             "breakdown": [
               {
@@ -1696,7 +1696,7 @@
           "text": "That is before we look for the space to grow the grains, sugars, seeds and oils that provide us with the vast bulk of our current calorie intake.",
           "translation": "那是在我们寻找空间种植谷物、糖、种子和油之前，这些谷物、糖、种子和油为我们提供了当前卡路里摄入量的大部分。",
           "slashed_text": "/ That is before we look for the space to grow the grains , / sugars , / seeds and oils / that provide us with the vast bulk of our current calorie intake.",
-          "chunk_translation": "That is before we look for the space to grow the grains / 糖类 / 种子和油 / 为我们提供了当前卡路里摄入量的大部分",
+          "chunk_translation": "这还是在我们寻找土地来种植谷物、 / 糖料、 / 种子和油料之前的情况， / 而这些作物为我们目前的卡路里摄入提供了绝大部分来源。",
           "syntax": {
             "breakdown": [
               {
@@ -2169,7 +2169,7 @@
           "text": "When Microsoft bought task management app Wunderlist and mobile calendar Sunrise in 2015, it picked two newcomers that were attracting considerable buzz in Silicon Valley. Microsoft’s own Office dominates the market for “productivity” software, but the start-ups represented a new wave of technology designed from the ground up for the smartphone world. Both apps, however, were later scrapped after Microsoft said it had used their best features in its own products. Their teams of engineers stayed on, making them two of the many “acqui-hires” that the biggest companies have used to feed their great hunger for tech talent.",
           "translation": "当微软在 2015 年收购任务管理应用程序 Wunderlist 和移动日历 Sunrise 时，它​​选择了两个在硅谷引起轰动的新来者。微软自己的 Office 在“生产力”软件市场上占据主导地位，但这些初创公司代表了为智能手机领域从头开始设计的新一波技术。然而，在微软表示已在自己的产品中使用了这两款应用程序的最佳功能后，这两款应用程序后来都被废弃了。他们的工程师团队留下来，使他们成为最大的公司用来满足对技术人才的巨大渴望的众多“收购员工”中的两个。",
           "slashed_text": "/ When Microsoft bought task management app Wunderlist and mobile calendar Sunrise in 2015 , / it picked two newcomers / that were attracting considerable buzz / in Silicon Valley. Microsoft’s own Office dominates the market for “productivity” software , / but the start-ups represented a new wave of technology designed from the ground up for the smartphone world. Both apps , / however , / were later scrapped / after Microsoft said it had used their best features in its own products. Their teams of engineers stayed on , / making them two of the many “acqui-hires” / that the biggest companies have used to feed their great hunger / for tech talent.",
-          "chunk_translation": "微软于 2015 年收购任务管理应用 Wunderlist 和移动日历 Sunrise / 它挑选了两名新人 / that were attracting considerable buzz / in Silicon Valley. Microsoft’s own Office dominates the market for “productivity” software / but the start-ups represented a new wave of technology designed from the ground up for the smartphone world. Both apps / 然而 / 后来被废弃 / after Microsoft said it had used their best features in its own products. Their teams of engineers stayed on / 使他们成为众多“收购者”中的两个 / that the biggest companies have used to feed their great hunger / for tech talent",
+          "chunk_translation": "当微软在2015年收购任务管理应用Wunderlist和移动日历Sunrise时， / 它挑中了两位新秀， / 它们当时在硅谷 / 引发了相当大的轰动。微软自己的Office软件主导着“生产力”软件市场， / 但这些初创公司代表了为智能手机时代从零打造的新一代技术浪潮。这两款应用， / 然而， / 后来都被废弃了， / 此前微软表示已经将其最佳功能融入到了自己的产品中。它们的工程师团队留了下来， / 使其成为众多“人才收购”案例中的两起， / 大型科技巨头正是利用这种方式来满足其巨大渴求 / 对技术人才的渴望。",
           "vocabulary": [
             {
               "word": "bought",
@@ -2223,7 +2223,7 @@
           "text": "To Microsoft’s critics, the fates of Wunderlist and Sunrise are examples of a remorseless drive by Big Tech to chew up any innovative companies that lie in their path. “They bought the seedlings and closed them down,” complained Paul Arnold, a partner at San Francisco- based Switch Ventures, putting an end to businesses that might one day turn into competitors. Microsoft declined to comment.",
           "translation": "对于微软的批评者来说，Wunderlist 和 Sunrise 的命运是大型科技公司无情地蚕食任何挡在他们道路上的创新公司的例子。总部位于旧金山的 Switch Ventures 合伙人保罗·阿诺德 (Paul Arnold) 抱怨道：“他们买下了幼苗，然后将其关闭。”此举终结了那些有朝一日可能成为竞争对手的企业。微软拒绝置评。",
           "slashed_text": "To Microsoft’s critics , / the fates of Wunderlist and Sunrise are examples of a remorseless drive / by Big Tech to chew up any innovative companies / that lie / in their path. “They bought the seedlings and closed them down , / ” complained Paul Arnold , / a partner / at San Francisco- based Switch Ventures , / putting an end to businesses / that might one day turn / into competitors. Microsoft declined to comment.",
-          "chunk_translation": "对于微软的批评者 / the fates of Wunderlist and Sunrise are examples of a remorseless drive / by Big Tech to chew up any innovative companies / that lie / in their path. “They bought the seedlings and closed them down / complained Paul Arnold / a partner / at San Francisco- based Switch Ventures / 结束企业 / that might one day turn / into competitors. Microsoft declined to comment",
+          "chunk_translation": "在微软的批评者看来， / Wunderlist和Sunrise的命运体现了大型科技公司无情推进的势头， / 它们企图吞噬任何创新型公司 / 阻挡 / 在它们道路上的。“他们买下幼苗并将其关闭，” / 保罗·阿诺德抱怨道， / 一名合伙人 / 在总部位于旧金山的Switch Ventures， / 该举措终结了这些企业 / 那些有朝一日可能成长为 / 竞争对手的企业。微软对此拒绝置评。",
           "vocabulary": [
             {
               "word": "critics",
@@ -2277,7 +2277,7 @@
           "text": "Like other start-up investors, Mr. Arnold’s own business often depends on selling start- ups to larger tech companies, though he admits to mixed feelings about the result: “I think these things are good for me, if I put my selfish hat on. But are they good for the American economy? I don’t know.”",
           "translation": "和其他初创企业投资者一样，阿诺德先生自己的生意往往依赖于将初创企业出售给更大的科技公司，尽管他承认对结果的感受很复杂：“如果我戴上自私的帽子，我认为这些事情对我有好处。但它们对美国经济有好处吗？我不知道。”",
           "slashed_text": "Like other start-up investors , / Mr. Arnold’s own business often depends / on selling start- ups to larger tech companies , / though he admits to mixed feelings about the result : / “I think these things are good for me , / if I put my selfish hat on. But are they good for the American economy? I don’t know.”",
-          "chunk_translation": "与其他初创投资者一样 / Mr. Arnold’s own business often depends / on selling start- ups to larger tech companies / 尽管他承认对结果心情复杂 / I think these things are good for me / if I put my selfish hat on. But are they good for the American economy? I don’t know",
+          "chunk_translation": "与其他初创企业投资者一样， / 阿诺德先生自己的业务也常常依赖于 / 将初创公司出售给更大的科技巨头， / 尽管他承认自己对这一结果心情复杂： / “我认为这些事情对我有利， / 如果从自私的角度来看。但它们对美国经济有好处吗？我不知道。”",
           "vocabulary": [
             {
               "word": "start",
@@ -2331,7 +2331,7 @@
           "text": "The US Federal Trade Commission says it wants to find the answer to that question. This week, it asked the five most valuable US tech companies for information about their many small acquisitions over the past decade. Although only a research project at this stage, the request has raised the prospect of regulators wading into early-stage tech markets that until now have been beyond their reach.",
           "translation": "美国联邦贸易委员会表示希望找到这个问题的答案。本周，它向五家最有价值的美国科技公司询问了过去十年中许多小型收购的信息。尽管现阶段只是一个研究项目，但该请求提高了监管机构涉足早期科技市场的前景，而迄今为止，这些市场仍是他们无法触及的。",
           "slashed_text": "The US Federal Trade Commission says it wants to find the answer to / that question. This week , / it asked the five most valuable US tech companies / for information / about their many small acquisitions over the past decade. / Although only a research project / at this stage , / the request has raised the prospect of regulators wading / into early-stage tech markets / that until now have been beyond their reach.",
-          "chunk_translation": "美国联邦贸易委员会表示希望找到答案 / that question. This week / it asked the five most valuable US tech companies / for information / about their many small acquisitions over the past decade / Although only a research project / at this stage / the request has raised the prospect of regulators wading / into early-stage tech markets / 到目前为止，他们还无法做到这一点",
+          "chunk_translation": "美国联邦贸易委员会表示，希望找到 / 该问题的答案。本周， / 该机构向五家最具市值的美国科技巨头索取了相关信息， / 关于过去十年中 / 它们开展的众多小型收购交易。 / 尽管这仅仅是一项研究项目 / 在现阶段， / 但该要求引发了一种可能：监管机构可能会介入 / 早期科技市场， / 而在此之前，这些市场一直是他们触及不到的领域。",
           "vocabulary": [
             {
               "word": "Federal",
@@ -2385,7 +2385,7 @@
           "text": "Given their combined market value of more than $5.5 trillion, rifling through such small deals—many of them much less prominent than Wunderlist and Sunrise—might seem beside the point. Between them, the five biggest tech companies have spent an average of only $3.4 billion a year on sub-$1 billion acquisitions over the past five years—a drop in the ocean compared with their massive financial reserves, and the more than $130 billion of venture capital that was invested in the US last year.",
           "translation": "鉴于它们的总市值超过 5.5 万亿美元，通过如此小的交易（其中许多交易远不如 Wunderlist 和 Sunrise 引人注目）似乎没有意义。过去五年里，五家最大的科技公司平均每年仅花费 34 亿美元进行低于 10 亿美元的收购，与它们庞大的财务储备以及去年在美国投资的超过 1300 亿美元的风险资本相比，简直是九牛一毛。",
           "slashed_text": "Given their combined market value of more than $5.5 trillion , / rifling / through such small deals — / many of them much less prominent than Wunderlist and Sunrise — / might seem beside the point. Between them , / the five biggest tech companies have spent an average of only $3.4 billion a year on sub-$1 billion acquisitions over the past five years — / a drop in the ocean compared / with their massive financial reserves , / and the more than $130 billion of venture capital / that was invested in the US last year.",
-          "chunk_translation": "鉴于它们的总市值超过 5.5 万亿美元 / rifling / through such small deals / many of them much less prominent than Wunderlist and Sunrise / might seem beside the point. Between them / the five biggest tech companies have spent an average of only $3.4 billion a year on sub-$1 billion acquisitions over the past five years / a drop in the ocean compared / with their massive financial reserves / 以及超过1300亿美元的风险投资 / 去年在美国投资的",
+          "chunk_translation": "鉴于它们超过5.5万亿美元的总市值， / 细查 / 这类小型交易—— / 其中许多交易的知名度远不及Wunderlist和Sunrise—— / 似乎有些偏离重点。在它们之间， / 五大科技巨头在过去五年中，平均每年仅在低于10亿美元的收购上花费34亿美元—— / 简直是沧海一粟相比于 / 它们庞大的财务储备， / 以及超过1300亿美元的风险资本 / 去年在美国投资的。",
           "vocabulary": [
             {
               "word": "Given",
@@ -2439,7 +2439,7 @@
           "text": "However, critics say the big companies use such deals to buy their most threatening potential competitors before their businesses have a chance to gain momentum, in some cases as part of a “buy and kill” tactic to simply close them down.",
           "translation": "然而，批评者表示，大公司利用此类交易，在其业务有机会获得发展势头之前收购最具威胁性的潜在竞争对手，在某些情况下，这是“买杀”策略的一部分，目的是简单地关闭它们。",
           "slashed_text": "However , / critics say the big companies use such deals to buy their most threatening potential competitors / before their businesses have a chance to gain momentum , / in some cases as part of a “buy and kill” tactic to simply close them down.",
-          "chunk_translation": "然而 / 批评人士称，大公司利用此类交易来收购最具威胁的潜在竞争对手 / 在他们的企业有机会获得动力之前 / 在某些情况下，作为“买杀”策略的一部分，简单地关闭它们",
+          "chunk_translation": "然而， / 批评人士表示，大公司利用此类交易在最具威胁的潜在竞争对手 / 有机会获得发展势头之前将其收购， / 在某些情况下，这属于“收购并扼杀”策略的一部分，目的是彻底将它们关闭。",
           "vocabulary": [
             {
               "word": "However",
@@ -2497,7 +2497,7 @@
           "text": "When Microsoft bought task management app Wunderlist and mobile calendar Sunrise in 2015, it picked two newcomers that were attracting considerable buzz in Silicon Valley.",
           "translation": "当微软在 2015 年收购任务管理应用程序 Wunderlist 和移动日历 Sunrise 时，它​​选择了两个在硅谷引起巨大轰动的新来者。",
           "slashed_text": "/ When Microsoft bought task management app Wunderlist and mobile calendar Sunrise in 2015 , / it picked two newcomers / that were attracting considerable buzz / in Silicon Valley.",
-          "chunk_translation": "微软于 2015 年收购任务管理应用 Wunderlist 和移动日历 Sunrise / 它挑选了两名新人 / that were attracting considerable buzz / in Silicon Valley",
+          "chunk_translation": "当微软在2015年收购任务管理应用Wunderlist和移动日历Sunrise时， / 它挑中了两位新秀， / 它们当时在硅谷 / 引发了相当大的轰动。",
           "syntax": {
             "breakdown": [
               {
@@ -2515,7 +2515,7 @@
           "text": "Microsoft’s own Office dominates the market for “productivity” software, but the start-ups represented a new wave of technology designed from the ground up for the smartphone world.",
           "translation": "微软自己的 Office 在“生产力”软件市场上占据主导地位，但这些初创公司代表了为智能手机领域从头开始设计的新一波技术。",
           "slashed_text": "Microsoft’s own Office dominates the market for “productivity” software , / but the start-ups represented a new wave of technology designed from the ground up for the smartphone world.",
-          "chunk_translation": "微软自己的 Office 主导“生产力”软件市场 / 但这些初创企业代表了为智能手机世界全新设计的技术浪潮",
+          "chunk_translation": "微软自己的Office软件主导着“生产力”软件市场， / 但这些初创公司代表了为智能手机时代从零打造的新一代技术浪潮。",
           "syntax": {
             "breakdown": [
               {
@@ -2533,7 +2533,7 @@
           "text": "Both apps, however, were later scrapped after Microsoft said it had used their best features in its own products.",
           "translation": "然而，在微软表示已在自己的产品中使用了这两款应用程序的最佳功能后，这两款应用程序后来都被废弃了。",
           "slashed_text": "Both apps , / however , / were later scrapped / after Microsoft said it had used their best features in its own products.",
-          "chunk_translation": "两个应用程序 / 然而 / 后来被废弃 / 在微软表示已经在自己的产品中使用了他们最好的功能之后",
+          "chunk_translation": "这两款应用， / 然而， / 后来都被废弃了， / 此前微软表示已经将其最佳功能融入到了自己的产品中。",
           "syntax": {
             "breakdown": [
               {
@@ -2551,7 +2551,7 @@
           "text": "Their teams of engineers stayed on, making them two of the many “acqui-hires” that the biggest companies have used to feed their great hunger for tech talent.",
           "translation": "他们的工程师团队留下来，使他们成为最大的公司用来满足对技术人才的巨大渴望的众多“收购员工”中的两个。",
           "slashed_text": "Their teams of engineers stayed on , / making them two of the many “acqui-hires” / that the biggest companies have used to feed their great hunger / for tech talent.",
-          "chunk_translation": "他们的工程师团队留下来 / 使他们成为众多“收购者”中的两个 / that the biggest companies have used to feed their great hunger / for tech talent",
+          "chunk_translation": "它们的工程师团队留了下来， / 使其成为众多“人才收购”案例中的两起， / 大型科技巨头正是利用这种方式来满足其巨大渴求 / 对技术人才的渴望。",
           "syntax": {
             "breakdown": [
               {
@@ -2569,7 +2569,7 @@
           "text": "To Microsoft’s critics, the fates of Wunderlist and Sunrise are examples of a remorseless drive by Big Tech to chew up any innovative companies that lie in their path.",
           "translation": "对于微软的批评者来说，Wunderlist 和 Sunrise 的命运是大型科技公司无情地蚕食任何挡在他们道路上的创新公司的例子。",
           "slashed_text": "To Microsoft’s critics , / the fates of Wunderlist and Sunrise are examples of a remorseless drive / by Big Tech to chew up any innovative companies / that lie / in their path.",
-          "chunk_translation": "对于微软的批评者 / the fates of Wunderlist and Sunrise are examples of a remorseless drive / by Big Tech to chew up any innovative companies / that lie / in their path",
+          "chunk_translation": "在微软的批评者看来， / Wunderlist和Sunrise的命运体现了大型科技公司无情推进的势头， / 它们企图吞噬任何创新型公司 / 阻挡 / 在它们道路上的。",
           "syntax": {
             "breakdown": [
               {
@@ -2587,7 +2587,7 @@
           "text": "“They bought the seedlings and closed them down,” complained Paul Arnold, a partner at San Francisco- based Switch Ventures, putting an end to businesses that might one day turn into competitors.",
           "translation": "总部位于旧金山的 Switch Ventures 合伙人保罗·阿诺德 (Paul Arnold) 抱怨道：“他们买下了幼苗，然后将其关闭。”此举终结了那些有朝一日可能成为竞争对手的企业。",
           "slashed_text": "“They bought the seedlings and closed them down , / ” complained Paul Arnold , / a partner / at San Francisco- based Switch Ventures , / putting an end to businesses / that might one day turn / into competitors.",
-          "chunk_translation": "They bought the seedlings and closed them down / complained Paul Arnold / a partner / at San Francisco- based Switch Ventures / 结束企业 / that might one day turn / into competitors",
+          "chunk_translation": "“他们买下幼苗并将其关闭，” / 保罗·阿诺德抱怨道， / 一名合伙人 / 在总部位于旧金山的Switch Ventures， / 该举措终结了这些企业 / 那些有朝一日可能成长为 / 竞争对手的企业。",
           "syntax": {
             "breakdown": [
               {
@@ -2605,7 +2605,7 @@
           "text": "Microsoft declined to comment.",
           "translation": "微软拒绝置评。",
           "slashed_text": "Microsoft declined to comment.",
-          "chunk_translation": "微软拒绝置评",
+          "chunk_translation": "微软对此拒绝置评。",
           "syntax": {
             "breakdown": [
               {
@@ -2623,7 +2623,7 @@
           "text": "Like other start-up investors, Mr.",
           "translation": "与其他初创企业投资者一样，",
           "slashed_text": "Like other start-up investors , / Mr.",
-          "chunk_translation": "与其他初创投资者一样 / 先生",
+          "chunk_translation": "与其他初创企业投资者一样， / 阿诺德先生",
           "syntax": {
             "breakdown": [
               {
@@ -2641,7 +2641,7 @@
           "text": "Arnold’s own business often depends on selling start- ups to larger tech companies, though he admits to mixed feelings about the result: “I think these things are good for me, if I put my selfish hat on.",
           "translation": "阿诺德自己的生意常常依赖于将初创企业出售给更大的科技公司，尽管他承认对结果的感受很复杂：“我认为，如果我戴上自私的帽子，这些事情对我有好处。",
           "slashed_text": "Arnold’s own business often depends / on selling start- ups to larger tech companies , / though he admits to mixed feelings about the result : / “I think these things are good for me , / if I put my selfish hat on.",
-          "chunk_translation": "Arnold’s own business often depends / on selling start- ups to larger tech companies / 尽管他承认对结果心情复杂 / I think these things are good for me / 如果我戴上自私的帽子",
+          "chunk_translation": "自己的业务也常常依赖于 / 将初创公司出售给更大的科技巨头， / 尽管他承认自己对这一结果心情复杂： / “我认为这些事情对我有利， / 如果从自私的角度来看。",
           "syntax": {
             "breakdown": [
               {
@@ -2695,7 +2695,7 @@
           "text": "The US Federal Trade Commission says it wants to find the answer to that question.",
           "translation": "美国联邦贸易委员会表示希望找到这个问题的答案。",
           "slashed_text": "The US Federal Trade Commission says it wants to find the answer to / that question.",
-          "chunk_translation": "美国联邦贸易委员会表示希望找到答案 / 那个问题",
+          "chunk_translation": "美国联邦贸易委员会表示，希望找到 / 该问题的答案。",
           "syntax": {
             "breakdown": [
               {
@@ -2713,7 +2713,7 @@
           "text": "This week, it asked the five most valuable US tech companies for information about their many small acquisitions over the past decade.",
           "translation": "本周，它向五家最有价值的美国科技公司询问了过去十年中许多小型收购的信息。",
           "slashed_text": "This week , / it asked the five most valuable US tech companies / for information / about their many small acquisitions over the past decade.",
-          "chunk_translation": "本星期 / it asked the five most valuable US tech companies / for information / about their many small acquisitions over the past decade",
+          "chunk_translation": "本周， / 该机构向五家最具市值的美国科技巨头索取了相关信息， / 关于过去十年中 / 它们开展的众多小型收购交易。",
           "syntax": {
             "breakdown": [
               {
@@ -2731,7 +2731,7 @@
           "text": "Although only a research project at this stage, the request has raised the prospect of regulators wading into early-stage tech markets that until now have been beyond their reach.",
           "translation": "尽管现阶段只是一个研究项目，但该请求提高了监管机构涉足早期科技市场的前景，而迄今为止，这些市场仍是他们无法触及的。",
           "slashed_text": "/ Although only a research project / at this stage , / the request has raised the prospect of regulators wading / into early-stage tech markets / that until now have been beyond their reach.",
-          "chunk_translation": "Although only a research project / at this stage / the request has raised the prospect of regulators wading / into early-stage tech markets / 到目前为止，他们还无法做到这一点",
+          "chunk_translation": "尽管这仅仅是一项研究项目 / 在现阶段， / 但该要求引发了一种可能：监管机构可能会介入 / 早期科技市场， / 而在此之前，这些市场一直是他们触及不到的领域。",
           "syntax": {
             "breakdown": [
               {
@@ -2754,7 +2754,7 @@
           "text": "Given their combined market value of more than $5.5 trillion, rifling through such small deals—many of them much less prominent than Wunderlist and Sunrise—might seem beside the point.",
           "translation": "鉴于它们的总市值超过 5.5 万亿美元，通过如此小的交易（其中许多交易远不如 Wunderlist 和 Sunrise 引人注目）似乎没有意义。",
           "slashed_text": "Given their combined market value of more than $5.5 trillion , / rifling / through such small deals — / many of them much less prominent than Wunderlist and Sunrise — / might seem beside the point.",
-          "chunk_translation": "鉴于它们的总市值超过 5.5 万亿美元 / rifling / through such small deals / many of them much less prominent than Wunderlist and Sunrise / might seem beside the point",
+          "chunk_translation": "鉴于它们超过5.5万亿美元的总市值， / 细查 / 这类小型交易—— / 其中许多交易的知名度远不及Wunderlist和Sunrise—— / 似乎有些偏离重点。",
           "syntax": {
             "breakdown": [
               {
@@ -2772,7 +2772,7 @@
           "text": "Between them, the five biggest tech companies have spent an average of only $3.4 billion a year on sub-$1 billion acquisitions over the past five years—a drop in the ocean compared with their massive financial reserves, and the more than $130 billion of venture capital that was invested in the US last year.",
           "translation": "过去五年里，五家最大的科技公司平均每年仅花费 34 亿美元进行低于 10 亿美元的收购，与它们庞大的财务储备以及去年在美国投资的超过 1300 亿美元的风险资本相比，简直是九牛一毛。",
           "slashed_text": "Between them , / the five biggest tech companies have spent an average of only $3.4 billion a year on sub-$1 billion acquisitions over the past five years — / a drop in the ocean compared / with their massive financial reserves , / and the more than $130 billion of venture capital / that was invested in the US last year.",
-          "chunk_translation": "他们之间 / the five biggest tech companies have spent an average of only $3.4 billion a year on sub-$1 billion acquisitions over the past five years / a drop in the ocean compared / with their massive financial reserves / 以及超过1300亿美元的风险投资 / 去年在美国投资的",
+          "chunk_translation": "在它们之间， / 五大科技巨头在过去五年中，平均每年仅在低于10亿美元的收购上花费34亿美元—— / 简直是沧海一粟相比于 / 它们庞大的财务储备， / 以及超过1300亿美元的风险资本 / 去年在美国投资的。",
           "syntax": {
             "breakdown": [
               {
@@ -2790,7 +2790,7 @@
           "text": "However, critics say the big companies use such deals to buy their most threatening potential competitors before their businesses have a chance to gain momentum, in some cases as part of a “buy and kill” tactic to simply close them down.",
           "translation": "然而，批评者表示，大公司利用此类交易，在其业务有机会获得发展势头之前收购最具威胁性的潜在竞争对手，在某些情况下，这是“买杀”策略的一部分，目的是简单地关闭它们。",
           "slashed_text": "However , / critics say the big companies use such deals to buy their most threatening potential competitors / before their businesses have a chance to gain momentum , / in some cases as part of a “buy and kill” tactic to simply close them down.",
-          "chunk_translation": "然而 / 批评人士称，大公司利用此类交易来收购最具威胁的潜在竞争对手 / 在他们的企业有机会获得动力之前 / 在某些情况下，作为“买杀”策略的一部分，简单地关闭它们",
+          "chunk_translation": "然而， / 批评人士表示，大公司利用此类交易在最具威胁的潜在竞争对手 / 有机会获得发展势头之前将其收购， / 在某些情况下，这属于“收购并扼杀”策略的一部分，目的是彻底将它们关闭。",
           "syntax": {
             "breakdown": [
               {
@@ -3263,7 +3263,7 @@
           "text": "We’re fairly good at judging people based on first impressions, thin slices of experience ranging from a glimpse of a photo to five-minute interaction, and deliberation can be not only extraneous but intrusive. In one study of the ability she called “thin slicing,” the late psychologist Nalini Ambady asked participants to watch silent 10-second video clips of professors and to rate the instructor’s overall effectiveness. Their ratings correlated strongly with students’ end-of-semester ratings. Another set of participants had to count backward from 1,000 by nines as they watched the clips, occupying their conscious working memory. Their ratings were just as accurate, demonstrating the intuitive nature of the social processing. Critically, another group was asked to spend a minute writing down reasons for their judgment, before giving the rating. Accuracy dropped dramatically. Ambady suspected that deliberation focused them on vivid but misleading cues, such as certain gestures or utterances, rather than letting the complex interplay of subtle signals form a holistic impression. She found similar interference when participants watched 15-second clips of pairs of people and judged whether they were strangers, friends, or dating partners.",
           "translation": "我们相当擅长根据第一印象、从瞥见一张照片到五分钟互动等细微的经验来判断一个人，而深思熟虑不仅是无关紧要的，而且是侵入性的。在一项她称之为“薄切片”能力的研究中，已故心理学家 Nalini Ambady 要求参与者观看教授的 10 秒无声视频片段，并对讲师的整体效率进行评分。他们的评分与学生的期末评分密切相关。另一组参与者在观看剪辑时必须从 1,000 倒数到九，这会占据他们有意识的工作记忆。他们的评分同样准确，展示了社交处理的直观本质。至关重要的是，另一组被要求在给出评级之前花一分钟写下他们的判断理由。准确度急剧下降。安巴迪怀疑，深思熟虑将他们集中在生动但具有误导性的线索上，例如某些手势或话语，而不是让微妙信号的复杂相互作用形成整体印象。当参与者观看两人的 15 秒视频并判断他们是陌生人、朋友还是约会对象时，她发现了类似的干扰。",
           "slashed_text": "We’re fairly good / at judging people based / on first impressions , / thin slices of experience ranging from a glimpse of a photo to five-minute interaction , / and deliberation can be not only extraneous but intrusive. In one study of the ability she called “thin slicing , / ” the late psychologist Nalini Ambady asked participants to watch silent 10-second video clips of professors and to rate the instructor’s overall effectiveness. Their ratings correlated strongly / with students’ end-of-semester ratings. Another set of participants had to count backward from 1 , / 000 / by nines as they watched the clips , / occupying their conscious working memory. Their ratings were just as accurate , / demonstrating the intuitive nature of the social processing. Critically , / another group was asked to spend a minute writing down reasons / for their judgment , / before giving the rating. Accuracy dropped dramatically. Ambady suspected / that deliberation focused them / on vivid but misleading cues , / such as certain gestures or utterances , / rather than letting the complex interplay of subtle signals form a holistic impression. She found similar interference / when participants watched 15-second clips of pairs of people and judged whether they were strangers , / friends , / or dating partners.",
-          "chunk_translation": "We’re fairly good / at judging people based / on first impressions / 从瞥见一张照片到五分钟的互动，体验的薄片 / and deliberation can be not only extraneous but intrusive. In one study of the ability she called “thin slicing / the late psychologist Nalini Ambady asked participants to watch silent 10-second video clips of professors and to rate the instructor’s overall effectiveness. Their ratings correlated strongly / with students’ end-of-semester ratings. Another set of participants had to count backward from 1 / 000 / by nines as they watched the clips / occupying their conscious working memory. Their ratings were just as accurate / demonstrating the intuitive nature of the social processing. Critically / another group was asked to spend a minute writing down reasons / for their judgment / before giving the rating. Accuracy dropped dramatically. Ambady suspected / that deliberation focused them / on vivid but misleading cues / 例如某些手势或言语 / rather than letting the complex interplay of subtle signals form a holistic impression. She found similar interference / 当参与者观看两个人的 15 秒片段并判断他们是否是陌生人时 / 朋友们 / 或约会对象",
+          "chunk_translation": "我们相当擅长 / 基于第一印象来评价他人， / 这些第一印象来自于 / 从瞥见一张照片到五分钟互动等片刻的体验片段， / 而深思熟虑不仅可能毫无必要，甚至会产生干扰。在一项针对被她称为“薄切片”能力的研究中， / 已故心理学家纳利尼·安巴迪要求参与者观看教授们10秒钟的无声视频片段，并对教师的整体教学效果进行评分。他们的评分与 / 学生们在学期末给出的评分高度相关。另一组参与者必须倒数从1 / 000开始 / 以9为间隔，在他们观看视频片段时， / 这占据了他们有意识的工作记忆。他们的评分同样准确， / 这证明了社交认知处理的直觉本质。关键在于， / 另一组被要求花一分钟时间写下理由 / 作为他们做出判断的依据， / 在给出评分之前。准确率急剧下降。安巴迪推测， / 深思熟虑使他们把注意力集中在 / 生动但具误导性的线索上， / 例如某些手势或言语， / 而不是让微妙信号之间复杂的相互作用来形成一种整体印象。她发现了类似的干扰现象， / 当参与者观看两人之间15秒的视频片段并判断他们是陌生人、 / 朋友 / 还是约会伴侣时。",
           "vocabulary": [
             {
               "word": "fairly",
@@ -3317,7 +3317,7 @@
           "text": "Other research shows we’re better at detecting deception from thin slices when we rely on intuition instead of reflection. “It’s as if you’re driving a stick shift,” says Judith Hall, a psychologist at Northeastern University, “and if you start thinking about it too much, you can’t remember what you’re doing. But if you go on automatic pilot, you’re fine. Much of our social life is like that.”",
           "translation": "其他研究表明，当我们依靠直觉而不是反思时，我们可以更好地从薄片中发现欺骗。东北大学心理学家朱迪思·霍尔（Judith Hall）说：“这就好像你在开手动挡，如果你开始想得太多，你就会记不起自己在做什么。但如果你开自动驾驶仪，那就没问题了。我们的大部分社交生活都是这样。”",
           "slashed_text": "Other research shows we’re better / at detecting deception / from thin slices / when we rely / on intuition instead of reflection. “It’s as / if you’re driving a stick shift , / ” says Judith Hall , / a psychologist / at Northeastern University , / “and / if you start thinking about it too much , / you can’t remember what you’re doing. But / if you go / on automatic pilot , / you’re fine. Much of our social life is like / that.”",
-          "chunk_translation": "Other research shows we’re better / at detecting deception / from thin slices / when we rely / on intuition instead of reflection. “It’s as / if you’re driving a stick shift / says Judith Hall / a psychologist / at Northeastern University / 和 / 如果你开始想太多 / you can’t remember what you’re doing. But / if you go / on automatic pilot / you’re fine. Much of our social life is like / 那",
+          "chunk_translation": "其他研究表明，我们更擅长 / 识别欺骗 / 从片刻的体验片段中， / 当我们依赖 / 直觉而非反思时。“这就像 / 你在开一辆手动挡汽车，” / 朱迪思·霍尔说， / 一位心理学家 / 在东北大学， / “而且 / 如果你开始对此思虑过多， / 你就会记不得自己正在做什么。但 / 如果你进入 / ‘自动驾驶’状态， / 你就会表现得很好。我们的大多数社交生活正是 / 如此。”",
           "vocabulary": [
             {
               "word": "research",
@@ -3371,7 +3371,7 @@
           "text": "Thinking too much can also harm our ability to form preferences. College students’",
           "translation": "想得太多也会损害我们形成偏好的能力。大学生的",
           "slashed_text": "Thinking too much can also harm our ability to form preferences. College students’",
-          "chunk_translation": "想得太多也会损害我们形成偏好的能力。大学生的",
+          "chunk_translation": "过度思考还会损害我们形成偏好的能力。大学生的",
           "vocabulary": [
             {
               "word": "Thinking",
@@ -3415,7 +3415,7 @@
           "text": "ratings of strawberry jams and college courses aligned better with experts’ opinions when the students weren’t asked to analyze their rationale. And people made car-buying decisions that were both objectively better and more personally satisfying when asked to focus on their feelings rather than on details, but only if the decision was complex—when they had a lot of information to process.",
           "translation": "当学生不被要求分析其理由时，草莓酱和大学课程的评分与专家的观点更加一致。当人们被要求关注自己的感受而不是细节时，他们会做出客观上更好、个人更满意的购车决定，但前提是这个决定很复杂——当他们有大量信息需要处理时。",
           "slashed_text": "ratings of strawberry jams and college courses aligned better / with experts’ opinions / when the students weren’t asked to analyze their rationale. And people made car-buying decisions / that were both objectively better and more personally satisfying / when asked to focus / on their feelings rather than / on details , / but only / if the decision was complex — / when they had a lot of information to process.",
-          "chunk_translation": "ratings of strawberry jams and college courses aligned better / with experts’ opinions / when the students weren’t asked to analyze their rationale. And people made car-buying decisions / 客观上更好，个人更满意 / when asked to focus / on their feelings rather than / on details / 但仅 / if the decision was complex / when they had a lot of information to process",
+          "chunk_translation": "对草莓酱和大学课程的评价与专家意见更加一致， / 当学生们没有被要求 / 分析其背后的理由时。而且人们做出的购车决定 / 既在客观上更优，在个人层面上也更令人满意， / 当被要求关注 / 自己的感受而非 / 细节时， / 但前提是 / 这一决定非常复杂—— / 即当他们有大量信息需要处理时。",
           "vocabulary": [
             {
               "word": "ratings",
@@ -3469,7 +3469,7 @@
           "text": "Intuition’s special powers are unleashed only in certain circumstances. In one study, participants completed a battery of eight tasks, including four that tapped reflective thinking (discerning rules, comprehending vocabulary) and four that tapped intuition and creativity (generating new products or figures of speech). Then they rated the degree to which they had used intuition (“gut feelings,” “hunches,” “my heart”). Use of their gut hurt their performance on the first four tasks, as expected, and helped them on the rest. Sometimes the heart is smarter than the head.",
           "translation": "直觉的特殊力量只有在某些情况下才会被释放。在一项研究中，参与者完成了一系列八项任务，其中四项利用反思性思维（辨别规则、理解词汇），四项利用直觉和创造力（生成新产品或修辞手法）。然后他们评估自己使用直觉的程度（“直觉”、“预感”、“我的心”）。正如预期的那样，使用直觉会损害他们在前四项任务中的表现，但会帮助他们完成其余任务。有时候，心比头脑更聪明。",
           "slashed_text": "Intuition’s special powers are unleashed only / in certain circumstances. In one study , / participants completed a battery of eight tasks , / including four / that tapped reflective thinking (discerning rules , / comprehending vocabulary) and four / that tapped intuition and creativity (generating new products or figures of speech). Then they rated the degree to / which they had used intuition (“gut feelings , / ” “hunches , / ” “my heart”). Use of their gut hurt their performance on the first four tasks , / as expected , / and helped them on the rest. Sometimes the heart is smarter than the head.",
-          "chunk_translation": "Intuition’s special powers are unleashed only / in certain circumstances. In one study / 参与者完成了一系列八项任务 / 其中包括四个 / 利用反思性思维（辨别规则 / 理解词汇）和四个 / that tapped intuition and creativity (generating new products or figures of speech). Then they rated the degree to / which they had used intuition (“gut feelings / hunches / my heart”). Use of their gut hurt their performance on the first four tasks / 正如预期的那样 / and helped them on the rest. Sometimes the heart is smarter than the head",
+          "chunk_translation": "直觉的特殊力量只有 / 在特定情况下才能被释放出来。在一项研究中， / 参与者完成了一组共八项任务， / 包括四项 / 考察反思性思维的任务（识别规律、 / 理解词汇）以及四项 / 考察直觉和创造力的任务（构思新产品或修辞手法）。随后他们评估了 / 自己在多大程度上使用了直觉（“直觉本能”、 / “预感”、 / “心灵的感觉”）。正如所料，凭借直觉会损害他们在前四项任务中的表现， / 正如预期的那样， / 却对他们完成其余任务起到了帮助作用。有时感性确实比理性更明智。",
           "vocabulary": [
             {
               "word": "Intuition",
@@ -3527,7 +3527,7 @@
           "text": "We’re fairly good at judging people based on first impressions, thin slices of experience ranging from a glimpse of a photo to five-minute interaction, and deliberation can be not only extraneous but intrusive.",
           "translation": "我们相当擅长根据第一印象、从瞥见一张照片到五分钟互动等细微的经验来判断一个人，而深思熟虑不仅是无关紧要的，而且是侵入性的。",
           "slashed_text": "We’re fairly good / at judging people based / on first impressions , / thin slices of experience ranging from a glimpse of a photo to five-minute interaction , / and deliberation can be not only extraneous but intrusive.",
-          "chunk_translation": "We’re fairly good / at judging people based / on first impressions / 从瞥见一张照片到五分钟的互动，体验的薄片 / 深思熟虑不仅是无关紧要的，而且是侵入性的",
+          "chunk_translation": "我们相当擅长 / 基于第一印象来评价他人， / 这些第一印象来自于 / 从瞥见一张照片到五分钟互动等片刻的体验片段， / 而深思熟虑不仅可能毫无必要，甚至会产生干扰。",
           "syntax": {
             "breakdown": [
               {
@@ -3545,7 +3545,7 @@
           "text": "In one study of the ability she called “thin slicing,” the late psychologist Nalini Ambady asked participants to watch silent 10-second video clips of professors and to rate the instructor’s overall effectiveness.",
           "translation": "在一项她称之为“薄切片”能力的研究中，已故心理学家 Nalini Ambady 要求参与者观看教授的 10 秒无声视频片段，并对讲师的整体效率进行评分。",
           "slashed_text": "In one study of the ability she called “thin slicing , / ” the late psychologist Nalini Ambady asked participants to watch silent 10-second video clips of professors and to rate the instructor’s overall effectiveness.",
-          "chunk_translation": "In one study of the ability she called “thin slicing / the late psychologist Nalini Ambady asked participants to watch silent 10-second video clips of professors and to rate the instructor’s overall effectiveness",
+          "chunk_translation": "在一项针对被她称为“薄切片”能力的研究中， / 已故心理学家纳利尼·安巴迪要求参与者观看教授们10秒钟的无声视频片段，并对教师的整体教学效果进行评分。",
           "syntax": {
             "breakdown": [
               {
@@ -3563,7 +3563,7 @@
           "text": "Their ratings correlated strongly with students’ end-of-semester ratings.",
           "translation": "他们的评分与学生的期末评分密切相关。",
           "slashed_text": "Their ratings correlated strongly / with students’ end-of-semester ratings.",
-          "chunk_translation": "Their ratings correlated strongly / with students’ end-of-semester ratings",
+          "chunk_translation": "他们的评分与 / 学生们在学期末给出的评分高度相关。",
           "syntax": {
             "breakdown": [
               {
@@ -3581,7 +3581,7 @@
           "text": "Another set of participants had to count backward from 1,000 by nines as they watched the clips, occupying their conscious working memory.",
           "translation": "另一组参与者在观看剪辑时必须从 1,000 倒数到九，这会占据他们有意识的工作记忆。",
           "slashed_text": "Another set of participants had to count backward from 1 , / 000 / by nines as they watched the clips , / occupying their conscious working memory.",
-          "chunk_translation": "Another set of participants had to count backward from 1 / 000 / by nines as they watched the clips / 占据他们有意识的工作记忆",
+          "chunk_translation": "另一组参与者必须倒数从1 / 000开始 / 以9为间隔，在他们观看视频片段时， / 这占据了他们有意识的工作记忆。",
           "syntax": {
             "breakdown": [
               {
@@ -3599,7 +3599,7 @@
           "text": "Their ratings were just as accurate, demonstrating the intuitive nature of the social processing.",
           "translation": "他们的评分同样准确，展示了社交处理的直观本质。",
           "slashed_text": "Their ratings were just as accurate , / demonstrating the intuitive nature of the social processing.",
-          "chunk_translation": "他们的评分同样准确 / 展示社会处理的直观本质",
+          "chunk_translation": "他们的评分同样准确， / 这证明了社交认知处理的直觉本质。",
           "syntax": {
             "breakdown": [
               {
@@ -3617,7 +3617,7 @@
           "text": "Critically, another group was asked to spend a minute writing down reasons for their judgment, before giving the rating.",
           "translation": "至关重要的是，另一组被要求在给出评级之前花一分钟写下他们的判断理由。",
           "slashed_text": "Critically , / another group was asked to spend a minute writing down reasons / for their judgment , / before giving the rating.",
-          "chunk_translation": "批判地 / another group was asked to spend a minute writing down reasons / for their judgment / 在给出评级之前",
+          "chunk_translation": "关键在于， / 另一组被要求花一分钟时间写下理由 / 作为他们做出判断的依据， / 在给出评分之前。",
           "syntax": {
             "breakdown": [
               {
@@ -3635,7 +3635,7 @@
           "text": "Accuracy dropped dramatically.",
           "translation": "准确度急剧下降。",
           "slashed_text": "Accuracy dropped dramatically.",
-          "chunk_translation": "准确率急剧下降",
+          "chunk_translation": "准确率急剧下降。",
           "syntax": {
             "breakdown": [
               {
@@ -3653,7 +3653,7 @@
           "text": "Ambady suspected that deliberation focused them on vivid but misleading cues, such as certain gestures or utterances, rather than letting the complex interplay of subtle signals form a holistic impression.",
           "translation": "安巴迪怀疑，深思熟虑将他们集中在生动但具有误导性的线索上，例如某些手势或话语，而不是让微妙信号的复杂相互作用形成整体印象。",
           "slashed_text": "Ambady suspected / that deliberation focused them / on vivid but misleading cues , / such as certain gestures or utterances , / rather than letting the complex interplay of subtle signals form a holistic impression.",
-          "chunk_translation": "安巴迪怀疑 / that deliberation focused them / on vivid but misleading cues / 例如某些手势或言语 / 而不是让微妙信号的复杂相互作用形成整体印象",
+          "chunk_translation": "安巴迪推测， / 深思熟虑使他们把注意力集中在 / 生动但具误导性的线索上， / 例如某些手势或言语， / 而不是让微妙信号之间复杂的相互作用来形成一种整体印象。",
           "syntax": {
             "breakdown": [
               {
@@ -3671,7 +3671,7 @@
           "text": "She found similar interference when participants watched 15-second clips of pairs of people and judged whether they were strangers, friends, or dating partners.",
           "translation": "当参与者观看两人的 15 秒视频并判断他们是陌生人、朋友还是约会对象时，她发现了类似的干扰。",
           "slashed_text": "She found similar interference / when participants watched 15-second clips of pairs of people and judged whether they were strangers , / friends , / or dating partners.",
-          "chunk_translation": "她发现了类似的干扰 / 当参与者观看两个人的 15 秒片段并判断他们是否是陌生人时 / 朋友们 / 或约会对象",
+          "chunk_translation": "她发现了类似的干扰现象， / 当参与者观看两人之间15秒的视频片段并判断他们是陌生人、 / 朋友 / 还是约会伴侣时。",
           "syntax": {
             "breakdown": [
               {
@@ -3689,7 +3689,7 @@
           "text": "Other research shows we’re better at detecting deception from thin slices when we rely on intuition instead of reflection.",
           "translation": "其他研究表明，当我们依靠直觉而不是反思时，我们可以更好地从薄片中发现欺骗。",
           "slashed_text": "Other research shows we’re better / at detecting deception / from thin slices / when we rely / on intuition instead of reflection.",
-          "chunk_translation": "Other research shows we’re better / at detecting deception / from thin slices / when we rely / on intuition instead of reflection",
+          "chunk_translation": "其他研究表明，我们更擅长 / 识别欺骗 / 从片刻的体验片段中， / 当我们依赖 / 直觉而非反思时。",
           "syntax": {
             "breakdown": [
               {
@@ -3707,7 +3707,7 @@
           "text": "“It’s as if you’re driving a stick shift,” says Judith Hall, a psychologist at Northeastern University, “and if you start thinking about it too much, you can’t remember what you’re doing.",
           "translation": "东北大学心理学家朱迪思·霍尔（Judith Hall）说：“这就好像你在开手动挡，如果你开始想得太多，你就会记不起自己在做什么。",
           "slashed_text": "“It’s as / if you’re driving a stick shift , / ” says Judith Hall , / a psychologist / at Northeastern University , / “and / if you start thinking about it too much , / you can’t remember what you’re doing.",
-          "chunk_translation": "“这就像 / if you’re driving a stick shift / says Judith Hall / a psychologist / at Northeastern University / 和 / 如果你开始想太多 / 你不记得自己在做什么",
+          "chunk_translation": "“这就像 / 你在开一辆手动挡汽车，” / 朱迪思·霍尔说， / 一位心理学家 / 在东北大学， / “而且 / 如果你开始对此思虑过多， / 你就会记不得自己正在做什么。",
           "syntax": {
             "breakdown": [
               {
@@ -3730,7 +3730,7 @@
           "text": "But if you go on automatic pilot, you’re fine.",
           "translation": "但如果你继续自动驾驶，那就没问题了。",
           "slashed_text": "But / if you go / on automatic pilot , / you’re fine.",
-          "chunk_translation": "但 / if you go / on automatic pilot / 你很好",
+          "chunk_translation": "但 / 如果你进入 / ‘自动驾驶’状态， / 你就会表现得很好。",
           "syntax": {
             "breakdown": [
               {
@@ -3748,7 +3748,7 @@
           "text": "Much of our social life is like that.”",
           "translation": "我们的大部分社交生活都是这样的。”",
           "slashed_text": "Much of our social life is like / that.”",
-          "chunk_translation": "Much of our social life is like / 那",
+          "chunk_translation": "我们的大多数社交生活正是 / 如此。”",
           "syntax": {
             "breakdown": [
               {
@@ -3766,7 +3766,7 @@
           "text": "Thinking too much can also harm our ability to form preferences.",
           "translation": "想得太多也会损害我们形成偏好的能力。",
           "slashed_text": "Thinking too much can also harm our ability to form preferences.",
-          "chunk_translation": "想太多也会损害我们形成偏好的能力",
+          "chunk_translation": "过度思考还会损害我们形成偏好的能力。",
           "syntax": {
             "breakdown": [
               {
@@ -3802,7 +3802,7 @@
           "text": "ratings of strawberry jams and college courses aligned better with experts’ opinions when the students weren’t asked to analyze their rationale.",
           "translation": "当学生不被要求分析其理由时，草莓酱和大学课程的评分与专家的观点更加一致。",
           "slashed_text": "ratings of strawberry jams and college courses aligned better / with experts’ opinions / when the students weren’t asked to analyze their rationale.",
-          "chunk_translation": "ratings of strawberry jams and college courses aligned better / with experts’ opinions / 当学生没有被要求分析他们的理由时",
+          "chunk_translation": "对草莓酱和大学课程的评价与专家意见更加一致， / 当学生们没有被要求 / 分析其背后的理由时。",
           "syntax": {
             "breakdown": [
               {
@@ -3820,7 +3820,7 @@
           "text": "And people made car-buying decisions that were both objectively better and more personally satisfying when asked to focus on their feelings rather than on details, but only if the decision was complex—when they had a lot of information to process.",
           "translation": "当人们被要求关注自己的感受而不是细节时，他们会做出客观上更好、个人更满意的购车决定，但前提是这个决定很复杂——当他们有大量信息需要处理时。",
           "slashed_text": "And people made car-buying decisions / that were both objectively better and more personally satisfying / when asked to focus / on their feelings rather than / on details , / but only / if the decision was complex — / when they had a lot of information to process.",
-          "chunk_translation": "人们做出了购买汽车的决定 / 客观上更好，个人更满意 / when asked to focus / on their feelings rather than / on details / 但仅 / if the decision was complex / when they had a lot of information to process",
+          "chunk_translation": "而且人们做出的购车决定 / 既在客观上更优，在个人层面上也更令人满意， / 当被要求关注 / 自己的感受而非 / 细节时， / 但前提是 / 这一决定非常复杂—— / 即当他们有大量信息需要处理时。",
           "syntax": {
             "breakdown": [
               {
@@ -3843,7 +3843,7 @@
           "text": "Intuition’s special powers are unleashed only in certain circumstances.",
           "translation": "直觉的特殊力量只有在某些情况下才会被释放。",
           "slashed_text": "Intuition’s special powers are unleashed only / in certain circumstances.",
-          "chunk_translation": "Intuition’s special powers are unleashed only / in certain circumstances",
+          "chunk_translation": "直觉的特殊力量只有 / 在特定情况下才能被释放出来。",
           "syntax": {
             "breakdown": [
               {
@@ -3861,7 +3861,7 @@
           "text": "In one study, participants completed a battery of eight tasks, including four that tapped reflective thinking (discerning rules, comprehending vocabulary) and four that tapped intuition and creativity (generating new products or figures of speech).",
           "translation": "在一项研究中，参与者完成了一系列八项任务，其中四项利用反思性思维（辨别规则、理解词汇），四项利用直觉和创造力（生成新产品或修辞手法）。",
           "slashed_text": "In one study , / participants completed a battery of eight tasks , / including four / that tapped reflective thinking (discerning rules , / comprehending vocabulary) and four / that tapped intuition and creativity (generating new products or figures of speech).",
-          "chunk_translation": "在一项研究中 / 参与者完成了一系列八项任务 / 其中包括四个 / 利用反思性思维（辨别规则 / 理解词汇）和四个 / 利用直觉和创造力（产生新产品或修辞手法）",
+          "chunk_translation": "在一项研究中， / 参与者完成了一组共八项任务， / 包括四项 / 考察反思性思维的任务（识别规律、 / 理解词汇）以及四项 / 考察直觉和创造力的任务（构思新产品或修辞手法）。",
           "syntax": {
             "breakdown": [
               {
@@ -3879,7 +3879,7 @@
           "text": "Then they rated the degree to which they had used intuition (“gut feelings,” “hunches,” “my heart”).",
           "translation": "然后他们评估自己使用直觉的程度（“直觉”、“预感”、“我的心”）。",
           "slashed_text": "Then they rated the degree to / which they had used intuition (“gut feelings , / ” “hunches , / ” “my heart”).",
-          "chunk_translation": "然后他们将学位评定为 / which they had used intuition (“gut feelings / hunches / my heart”)",
+          "chunk_translation": "随后他们评估了 / 自己在多大程度上使用了直觉（“直觉本能”、 / “预感”、 / “心灵的感觉”）。",
           "syntax": {
             "breakdown": [
               {
@@ -3897,7 +3897,7 @@
           "text": "Use of their gut hurt their performance on the first four tasks, as expected, and helped them on the rest.",
           "translation": "正如预期的那样，使用直觉会损害他们在前四项任务中的表现，但会帮助他们完成其余任务。",
           "slashed_text": "Use of their gut hurt their performance on the first four tasks , / as expected , / and helped them on the rest.",
-          "chunk_translation": "使用直觉会影响他们在前四项任务中的表现 / 正如预期的那样 / 并帮助他们完成剩下的事情",
+          "chunk_translation": "正如所料，凭借直觉会损害他们在前四项任务中的表现， / 正如预期的那样， / 却对他们完成其余任务起到了帮助作用。",
           "syntax": {
             "breakdown": [
               {
@@ -3915,7 +3915,7 @@
           "text": "Sometimes the heart is smarter than the head.",
           "translation": "有时候，心比头脑更聪明。",
           "slashed_text": "Sometimes the heart is smarter than the head.",
-          "chunk_translation": "有时候心比头脑更聪明",
+          "chunk_translation": "有时感性确实比理性更明智。",
           "syntax": {
             "breakdown": [
               {

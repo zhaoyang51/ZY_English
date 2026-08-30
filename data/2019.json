@@ -12,7 +12,7 @@
           "text": "Unlike so-called basic emotions such as sadness, fear, and anger, guilt emerges a little later, in conjunction with a child’s growing grasp of social and moral norms. Children aren’t born knowing how to say “I’m sorry”; rather, they learn over time that such statements appease parents and friends—and their own consciences. This is why researchers generally regard so-called moral guilt, in the right amount, to be a good thing.",
           "translation": "与悲伤、恐惧和愤怒等所谓的基本情绪不同，随着孩子对社会和道德规范的掌握不断加深，内疚感会出现得稍晚一些。孩子生来就不知道如何说“对不起”；相反，随着时间的推移，他们了解到这样的言论可以安抚父母和朋友——以及他们自己的良心。这就是为什么研究人员普遍认为适量的所谓道德内疚是一件好事。",
           "slashed_text": "Unlike so-called basic emotions such as sadness , / fear , / and anger , / guilt emerges a little later , / in conjunction with a child’s growing grasp of social and moral norms. Children aren’t born knowing how to say “I’m sorry” ; / rather , / they learn over time / that such statements appease parents and friends — / and their own consciences. This is why researchers generally regard so-called moral guilt , / in the right amount , / to be a good thing.",
-          "chunk_translation": "与悲伤等所谓的基本情绪不同 / 害怕 / 和愤怒 / 稍后会出现内疚感 / in conjunction with a child’s growing grasp of social and moral norms. Children aren’t born knowing how to say “I’m sorry / 相当 / 他们随着时间的推移学习 / that such statements appease parents and friends / and their own consciences. This is why researchers generally regard so-called moral guilt / 适量 / 成为一件好事",
+          "chunk_translation": "与悲伤等所谓的基本情绪不同， / 恐惧、 / 和愤怒， / 内疚感的出现要稍晚一些， / 它是伴随着儿童对社会和道德规范的逐步理解而产生的。 孩子并非生来就懂得说“对不起”； / 相反， / 他们是随着时间的推移才逐渐明白 / 这样的道歉能够安抚父母和朋友—— / 以及他们自己的良心。 这就是为什么研究人员普遍认为所谓的道德内疚 / 在适度的情况下 / 是一件好事。",
           "vocabulary": [
             {
               "word": "Unlike",
@@ -66,7 +66,7 @@
           "text": "In the popular imagination, of course, guilt still gets a bad rap. It is deeply uncomfortable—it’s the emotional equivalent of wearing a jacket weighted with stones. Yet this understanding is outdated. “There has been a kind of revival or a rethinking about what guilt is and what role guilt can serve,” says Amrisha Vaish, a psychology researcher at the University of Virginia, adding that this revival is part of a larger recognition that emotions aren’t binary—feelings that may be advantageous in one context may be harmful in another. Jealousy and anger, for example, may have evolved to alert us to important inequalities. Too much happiness can be destructive.",
           "translation": "当然，在大众的想象中，内疚感仍然受到不好的批评。这是非常不舒服的——这在情感上就相当于穿着一件装满石头的夹克。然而这种理解已经过时了。弗吉尼亚大学心理学研究员阿姆里莎·瓦伊什（Amrisha Vaish）表示：“人们对内疚是什么以及内疚能起到什么作用有了某种复兴或重新思考。”她补充说，这种复兴是一种更大的认识的一部分，即情绪不是二元的——在一种情况下可能有利的感觉在另一种情况下可能有害。例如，嫉妒和愤怒可能会进化来提醒我们注意重要的不平等。太多的快乐可能具有破坏性。",
           "slashed_text": "In the popular imagination , / of course , / guilt still gets a bad rap. It is deeply uncomfortable — / it’s the emotional equivalent of wearing a jacket weighted / with stones. Yet this understanding is outdated. “There has been a kind of revival or a rethinking / about what guilt is and what role guilt can serve , / ” says Amrisha Vaish , / a psychology researcher at the University of Virginia , / adding / that this revival is part of a larger recognition / that emotions aren’t binary — / feelings / that may be advantageous in one context may be harmful / in another. Jealousy and anger , / for example , / may have evolved to alert us to important inequalities. Too much happiness can be destructive.",
-          "chunk_translation": "在大众的想象中 / 当然 / guilt still gets a bad rap. It is deeply uncomfortable / it’s the emotional equivalent of wearing a jacket weighted / with stones. Yet this understanding is outdated. “There has been a kind of revival or a rethinking / about what guilt is and what role guilt can serve / says Amrisha Vaish / 弗吉尼亚大学心理学研究员 / 添加 / 这次复兴是更大的认可的一部分 / that emotions aren’t binary / feelings / that may be advantageous in one context may be harmful / in another. Jealousy and anger / 例如 / may have evolved to alert us to important inequalities. Too much happiness can be destructive",
+          "chunk_translation": "当然在大众的普遍认知中， / 毫无疑问， / 内疚感仍然饱受诟病。 它令人极度不适—— / 在情感上相当于穿上了一件装满 / 沉重石头的夹克。 然而这种看法已经过时了。 “人们正在重新兴起或重新反思 / 内疚到底是什么，以及内疚能够发挥什么作用， / ”阿姆里莎·瓦伊什说道， / 她是弗吉尼亚大学的一位心理学研究员， / 她补充道， / 这种重新认识是更广泛认知的一部分， / 即情绪并不是非黑即白的—— / 某些情感 / 在某种情境下可能是有益的，但在另一种情境下 / 却可能是有害的。 例如，嫉妒和愤怒 / 可能是通过进化而来的， / 旨在提醒我们注意重要的不平等现象。 过度的快乐反而可能具有破坏性。",
           "vocabulary": [
             {
               "word": "popular",
@@ -120,7 +120,7 @@
           "text": "And guilt, by prompting us to think more deeply about our goodness, can encourage humans to make up for errors and fix relationships. Guilt, in other words, can help hold a cooperative species together. It is a kind of social glue.",
           "translation": "而内疚感可以促使我们更深入地思考自己的善良，从而鼓励人们弥补错误并修复关系。换句话说，内疚可以帮助让一个合作的物种团结在一起。它是一种社会粘合剂。",
           "slashed_text": "And guilt , / by prompting us to think more deeply about our goodness , / can encourage humans to make up / for errors and fix relationships. Guilt , / in other words , / can help hold a cooperative species together. It is a kind of social glue.",
-          "chunk_translation": "和愧疚 / 促使我们更深入地思考我们的善良 / can encourage humans to make up / for errors and fix relationships. Guilt / 换句话说 / can help hold a cooperative species together. It is a kind of social glue",
+          "chunk_translation": "而内疚感， / 通过促使我们更深入地反思自己的品行是否善良， / 能够激励人们去弥补 / 过错并修复人际关系。 换句话说，内疚感 / 可以帮助 / 将一个具有合作特性的物种紧密维系在一起。 它是一种社会粘合剂。",
           "vocabulary": [
             {
               "word": "guilt",
@@ -174,7 +174,7 @@
           "text": "Viewed in this light, guilt is an opportunity. Work by Tina Malti, a psychology professor at the University of Toronto, suggests that guilt may compensate for an emotional deficiency. In a number of studies, Malti and others have shown that guilt and sympathy may represent different pathways to cooperation and sharing. Some kids who are low in sympathy may make up for that shortfall by experiencing more guilt, which can rein in their nastier impulses. And vice versa: High sympathy can substitute for low guilt.",
           "translation": "从这个角度来看，内疚是一个机会。多伦多大学心理学教授蒂娜·马尔蒂的研究表明，内疚可以弥补情感上的缺陷。在许多研究中，马尔蒂和其他人表明，内疚和同情可能代表着合作和分享的不同途径。一些同情心较低的孩子可能会通过经历更多的内疚感来弥补这种不足，这可以抑制他们更恶劣的冲动。反之亦然：高度同情可以代替低度内疚。",
           "slashed_text": "Viewed / in this light , / guilt is an opportunity. Work / by Tina Malti , / a psychology professor at the University of Toronto , / suggests / that guilt may compensate for an emotional deficiency. In a number of studies , / Malti and others have shown / that guilt and sympathy may represent different pathways to cooperation and sharing. Some kids / who are low / in sympathy may make up for / that shortfall / by experiencing more guilt , / which can rein / in their nastier impulses. And vice versa : / High sympathy can substitute for low guilt.",
-          "chunk_translation": "Viewed / in this light / guilt is an opportunity. Work / by Tina Malti / 多伦多大学心理学教授 / 建议 / that guilt may compensate for an emotional deficiency. In a number of studies / 马耳他和其他人已经表明 / that guilt and sympathy may represent different pathways to cooperation and sharing. Some kids / who are low / in sympathy may make up for / that shortfall / by experiencing more guilt / which can rein / in their nastier impulses. And vice versa / 高同情心可以代替低内疚感",
+          "chunk_translation": "从这个 / 角度来看， / 内疚感是一种转机。 一项研究 / 由蒂娜·马尔蒂主导， / 她是多伦多大学的心理学教授， / 该研究表明 / 内疚感或许能够弥补情感上的缺陷。 在多项研究中， / 马尔蒂等人已经证实 / 内疚和同情可能代表着通往合作与分享的不同途径。 一些同情心 / 较低的 / 孩子可能会通过体验 / 更多的内疚感 / 来弥补这一不足， / 这可以抑制 / 他们更具攻击性的冲动。 反之亦然： / 较高的同情心可以弥补内疚感的不足。",
           "vocabulary": [
             {
               "word": "Viewed",
@@ -228,7 +228,7 @@
           "text": "In a 2014 study, for example, Malti looked at 244 children. Using caregiver assessments and the children’s self-observations, she rated each child’s overall sympathy level and his or her tendency to feel negative emotions after moral transgressions. Then the kids were handed chocolate coins, and given a chance to share them with an anonymous child. For the low- sympathy kids, how much they shared appeared to turn on how inclined they were to feel guilty. The guilt-prone ones shared more, even though they hadn’t magically become more sympathetic to the other child’s deprivation.",
           "translation": "例如，在 2014 年的一项研究中，Malti 研究了 244 名儿童。通过照顾者的评估和孩子们的自我观察，她评估了每个孩子的整体同情心水平以及他或她在道德违规后感受到负面情绪的倾向。然后孩子们收到了巧克力硬币，并有机会与一位匿名的孩子分享。对于缺乏同情心的孩子来说，他们分享的程度似乎取决于他们感到内疚的程度。那些容易感到内疚的孩子分享了更多，尽管他们并没有神奇地变得更加同情另一个孩子的剥夺。",
           "slashed_text": "In a 2014 study , / for example , / Malti looked at 244 children. Using caregiver assessments and the children’s self-observations , / she rated each child’s overall sympathy level and his or her tendency to feel negative emotions / after moral transgressions. Then the kids were handed chocolate coins , / and given a chance to share them with an anonymous child. For the low- sympathy kids , / how much they shared appeared to turn on how inclined they were to feel guilty. The guilt-prone ones shared more , / even / though they hadn’t magically become more sympathetic to the other child’s deprivation.",
-          "chunk_translation": "在 2014 年的一项研究中 / 例如 / Malti looked at 244 children. Using caregiver assessments and the children’s self-observations / 她评估了每个孩子的整体同情心水平以及他或她感受到负面情绪的倾向 / after moral transgressions. Then the kids were handed chocolate coins / and given a chance to share them with an anonymous child. For the low- sympathy kids / how much they shared appeared to turn on how inclined they were to feel guilty. The guilt-prone ones shared more / 甚至 / 尽管他们并没有神奇地变得更加同情另一个孩子的匮乏",
+          "chunk_translation": "例如在2014年的一项研究中， / 举例来说， / 马尔蒂对244名儿童进行了观察研究。 结合看护人的评估和儿童的自我观察， / 她对每个孩子的总体同情心水平以及在发生道德违规行为后 / 产生负面情绪的倾向进行了评分。 随后，孩子们分到了巧克力硬币， / 并获得了与一名匿名儿童分享这些硬币的机会。 对于同情心较低的孩子而言， / 他们分享的数量似乎取决于他们产生内疚感的倾向程度。 容易产生内疚感的孩子分享得更多， / 尽管 / 他们并没有奇迹般地对另一个孩子的缺失产生更多同情。",
           "vocabulary": [
             {
               "word": "study",
@@ -282,7 +282,7 @@
           "text": "“That’s good news,” Malti says. “We can be prosocial because we caused harm and we feel regret.”",
           "translation": "“这是个好消息，”马尔蒂说。 “我们可以变得亲社会，因为我们造成了伤害，并且我们感到遗憾。”",
           "slashed_text": "“ / That’s good news , / ” Malti says. “We can be prosocial / because we caused harm and we feel regret.”",
-          "chunk_translation": " / That’s good news / Malti says. “We can be prosocial / 因为我们造成了伤害，我们感到遗憾。”",
+          "chunk_translation": "“ / 这是个好消息， / ”马尔蒂说。 “我们可以表现出亲社会行为， / 因为我们造成了伤害并感到懊悔。”",
           "vocabulary": [
             {
               "word": "good",
@@ -340,7 +340,7 @@
           "text": "Unlike so-called basic emotions such as sadness, fear, and anger, guilt emerges a little later, in conjunction with a child’s growing grasp of social and moral norms.",
           "translation": "与悲伤、恐惧和愤怒等所谓的基本情绪不同，随着孩子对社会和道德规范的掌握不断加深，内疚感会出现得稍晚一些。",
           "slashed_text": "Unlike so-called basic emotions such as sadness , / fear , / and anger , / guilt emerges a little later , / in conjunction with a child’s growing grasp of social and moral norms.",
-          "chunk_translation": "与悲伤等所谓的基本情绪不同 / 害怕 / 和愤怒 / 稍后会出现内疚感 / 结合孩子对社会和道德规范的不断掌握",
+          "chunk_translation": "与悲伤等所谓的基本情绪不同， / 恐惧、 / 和愤怒， / 内疚感的出现要稍晚一些， / 它是伴随着儿童对社会和道德规范的逐步理解而产生的。",
           "syntax": {
             "breakdown": [
               {
@@ -358,7 +358,7 @@
           "text": "Children aren’t born knowing how to say “I’m sorry”; rather, they learn over time that such statements appease parents and friends—and their own consciences.",
           "translation": "孩子生来就不知道如何说“对不起”；相反，随着时间的推移，他们了解到这样的言论可以安抚父母和朋友——以及他们自己的良心。",
           "slashed_text": "Children aren’t born knowing how to say “I’m sorry” ; / rather , / they learn over time / that such statements appease parents and friends — / and their own consciences.",
-          "chunk_translation": "Children aren’t born knowing how to say “I’m sorry / 相当 / 他们随着时间的推移学习 / that such statements appease parents and friends / and their own consciences",
+          "chunk_translation": "孩子并非生来就懂得说“对不起”； / 相反， / 他们是随着时间的推移才逐渐明白 / 这样的道歉能够安抚父母和朋友—— / 以及他们自己的良心。",
           "syntax": {
             "breakdown": [
               {
@@ -376,7 +376,7 @@
           "text": "This is why researchers generally regard so-called moral guilt, in the right amount, to be a good thing.",
           "translation": "这就是为什么研究人员普遍认为适量的所谓道德内疚是一件好事。",
           "slashed_text": "This is why researchers generally regard so-called moral guilt , / in the right amount , / to be a good thing.",
-          "chunk_translation": "这就是为什么研究人员普遍认为所谓的道德内疚 / 适量 / 成为一件好事",
+          "chunk_translation": "这就是为什么研究人员普遍认为所谓的道德内疚 / 在适度的情况下 / 是一件好事。",
           "syntax": {
             "breakdown": [
               {
@@ -394,7 +394,7 @@
           "text": "In the popular imagination, of course, guilt still gets a bad rap.",
           "translation": "当然，在大众的想象中，内疚感仍然受到不好的批评。",
           "slashed_text": "In the popular imagination , / of course , / guilt still gets a bad rap.",
-          "chunk_translation": "在大众的想象中 / 当然 / 内疚感仍然受到不好的批评",
+          "chunk_translation": "当然在大众的普遍认知中， / 毫无疑问， / 内疚感仍然饱受诟病。",
           "syntax": {
             "breakdown": [
               {
@@ -412,7 +412,7 @@
           "text": "It is deeply uncomfortable—it’s the emotional equivalent of wearing a jacket weighted with stones.",
           "translation": "这是非常不舒服的——这在情感上就相当于穿着一件装满石头的夹克。",
           "slashed_text": "It is deeply uncomfortable — / it’s the emotional equivalent of wearing a jacket weighted / with stones.",
-          "chunk_translation": "It is deeply uncomfortable / it’s the emotional equivalent of wearing a jacket weighted / with stones",
+          "chunk_translation": "它令人极度不适—— / 在情感上相当于穿上了一件装满 / 沉重石头的夹克。",
           "syntax": {
             "breakdown": [
               {
@@ -430,7 +430,7 @@
           "text": "Yet this understanding is outdated.",
           "translation": "然而这种理解已经过时了。",
           "slashed_text": "Yet this understanding is outdated.",
-          "chunk_translation": "但这种理解已经过时了",
+          "chunk_translation": "然而这种看法已经过时了。",
           "syntax": {
             "breakdown": [
               {
@@ -448,7 +448,7 @@
           "text": "“There has been a kind of revival or a rethinking about what guilt is and what role guilt can serve,” says Amrisha Vaish, a psychology researcher at the University of Virginia, adding that this revival is part of a larger recognition that emotions aren’t binary—feelings that may be advantageous in one context may be harmful in another.",
           "translation": "弗吉尼亚大学心理学研究员阿姆里莎·瓦伊什（Amrisha Vaish）表示：“人们对内疚是什么以及内疚能起到什么作用有了某种复兴或重新思考。”她补充说，这种复兴是一种更大的认识的一部分，即情绪不是二元的——在一种情况下可能有利的感觉在另一种情况下可能有害。",
           "slashed_text": "“There has been a kind of revival or a rethinking / about what guilt is and what role guilt can serve , / ” says Amrisha Vaish , / a psychology researcher at the University of Virginia , / adding / that this revival is part of a larger recognition / that emotions aren’t binary — / feelings / that may be advantageous in one context may be harmful / in another.",
-          "chunk_translation": "There has been a kind of revival or a rethinking / about what guilt is and what role guilt can serve / says Amrisha Vaish / 弗吉尼亚大学心理学研究员 / 添加 / 这次复兴是更大的认可的一部分 / that emotions aren’t binary / feelings / that may be advantageous in one context may be harmful / in another",
+          "chunk_translation": "“人们正在重新兴起或重新反思 / 内疚到底是什么，以及内疚能够发挥什么作用， / ”阿姆里莎·瓦伊什说道， / 她是弗吉尼亚大学的一位心理学研究员， / 她补充道， / 这种重新认识是更广泛认知的一部分， / 即情绪并不是非黑即白的—— / 某些情感 / 在某种情境下可能是有益的，但在另一种情境下 / 却可能是有害的。",
           "syntax": {
             "breakdown": [
               {
@@ -466,7 +466,7 @@
           "text": "Jealousy and anger, for example, may have evolved to alert us to important inequalities.",
           "translation": "例如，嫉妒和愤怒可能会进化来提醒我们注意重要的不平等。",
           "slashed_text": "Jealousy and anger , / for example , / may have evolved to alert us to important inequalities.",
-          "chunk_translation": "嫉妒和愤怒 / 例如 / 可能已经进化到提醒我们注意重要的不平等",
+          "chunk_translation": "例如，嫉妒和愤怒 / 可能是通过进化而来的， / 旨在提醒我们注意重要的不平等现象。",
           "syntax": {
             "breakdown": [
               {
@@ -484,7 +484,7 @@
           "text": "Too much happiness can be destructive.",
           "translation": "太多的快乐可能具有破坏性。",
           "slashed_text": "Too much happiness can be destructive.",
-          "chunk_translation": "太多的幸福可能会带来破坏",
+          "chunk_translation": "过度的快乐反而可能具有破坏性。",
           "syntax": {
             "breakdown": [
               {
@@ -502,7 +502,7 @@
           "text": "And guilt, by prompting us to think more deeply about our goodness, can encourage humans to make up for errors and fix relationships.",
           "translation": "而内疚感可以促使我们更深入地思考自己的善良，从而鼓励人们弥补错误并修复关系。",
           "slashed_text": "And guilt , / by prompting us to think more deeply about our goodness , / can encourage humans to make up / for errors and fix relationships.",
-          "chunk_translation": "和愧疚 / 促使我们更深入地思考我们的善良 / can encourage humans to make up / for errors and fix relationships",
+          "chunk_translation": "而内疚感， / 通过促使我们更深入地反思自己的品行是否善良， / 能够激励人们去弥补 / 过错并修复人际关系。",
           "syntax": {
             "breakdown": [
               {
@@ -520,7 +520,7 @@
           "text": "Guilt, in other words, can help hold a cooperative species together.",
           "translation": "换句话说，内疚可以帮助让一个合作的物种团结在一起。",
           "slashed_text": "Guilt , / in other words , / can help hold a cooperative species together.",
-          "chunk_translation": "有罪 / 换句话说 / 可以帮助保持合作物种的团结",
+          "chunk_translation": "换句话说，内疚感 / 可以帮助 / 将一个具有合作特性的物种紧密维系在一起。",
           "syntax": {
             "breakdown": [
               {
@@ -538,7 +538,7 @@
           "text": "It is a kind of social glue.",
           "translation": "它是一种社会粘合剂。",
           "slashed_text": "It is a kind of social glue.",
-          "chunk_translation": "它是一种社会粘合剂",
+          "chunk_translation": "它是一种社会粘合剂。",
           "syntax": {
             "breakdown": [
               {
@@ -556,7 +556,7 @@
           "text": "Viewed in this light, guilt is an opportunity.",
           "translation": "从这个角度来看，内疚是一个机会。",
           "slashed_text": "Viewed / in this light , / guilt is an opportunity.",
-          "chunk_translation": "Viewed / in this light / 内疚是一个机会",
+          "chunk_translation": "从这个 / 角度来看， / 内疚感是一种转机。",
           "syntax": {
             "breakdown": [
               {
@@ -574,7 +574,7 @@
           "text": "Work by Tina Malti, a psychology professor at the University of Toronto, suggests that guilt may compensate for an emotional deficiency.",
           "translation": "多伦多大学心理学教授蒂娜·马尔蒂的研究表明，内疚可以弥补情感上的缺陷。",
           "slashed_text": "Work / by Tina Malti , / a psychology professor at the University of Toronto , / suggests / that guilt may compensate for an emotional deficiency.",
-          "chunk_translation": "Work / by Tina Malti / 多伦多大学心理学教授 / 建议 / 内疚可以弥补情感上的缺陷",
+          "chunk_translation": "一项研究 / 由蒂娜·马尔蒂主导， / 她是多伦多大学的心理学教授， / 该研究表明 / 内疚感或许能够弥补情感上的缺陷。",
           "syntax": {
             "breakdown": [
               {
@@ -592,7 +592,7 @@
           "text": "In a number of studies, Malti and others have shown that guilt and sympathy may represent different pathways to cooperation and sharing.",
           "translation": "在许多研究中，马尔蒂和其他人表明，内疚和同情可能代表着合作和分享的不同途径。",
           "slashed_text": "In a number of studies , / Malti and others have shown / that guilt and sympathy may represent different pathways to cooperation and sharing.",
-          "chunk_translation": "在多项研究中 / 马耳他和其他人已经表明 / 内疚和同情可能代表合作和分享的不同途径",
+          "chunk_translation": "在多项研究中， / 马尔蒂等人已经证实 / 内疚和同情可能代表着通往合作与分享的不同途径。",
           "syntax": {
             "breakdown": [
               {
@@ -610,7 +610,7 @@
           "text": "Some kids who are low in sympathy may make up for that shortfall by experiencing more guilt, which can rein in their nastier impulses.",
           "translation": "一些同情心较低的孩子可能会通过经历更多的内疚感来弥补这种不足，这可以抑制他们更恶劣的冲动。",
           "slashed_text": "Some kids / who are low / in sympathy may make up for / that shortfall / by experiencing more guilt , / which can rein / in their nastier impulses.",
-          "chunk_translation": "一些孩子 / who are low / in sympathy may make up for / that shortfall / by experiencing more guilt / which can rein / in their nastier impulses",
+          "chunk_translation": "一些同情心 / 较低的 / 孩子可能会通过体验 / 更多的内疚感 / 来弥补这一不足， / 这可以抑制 / 他们更具攻击性的冲动。",
           "syntax": {
             "breakdown": [
               {
@@ -628,7 +628,7 @@
           "text": "And vice versa: High sympathy can substitute for low guilt.",
           "translation": "反之亦然：高度同情可以代替低度内疚。",
           "slashed_text": "And vice versa : / High sympathy can substitute for low guilt.",
-          "chunk_translation": "反之亦然 / 高同情心可以代替低内疚感",
+          "chunk_translation": "反之亦然： / 较高的同情心可以弥补内疚感的不足。",
           "syntax": {
             "breakdown": [
               {
@@ -646,7 +646,7 @@
           "text": "In a 2014 study, for example, Malti looked at 244 children.",
           "translation": "例如，在2014年的一项研究中，Malti观察了244名儿童。",
           "slashed_text": "In a 2014 study , / for example , / Malti looked at 244 children.",
-          "chunk_translation": "在 2014 年的一项研究中 / 例如 / Malti 观察了 244 名儿童",
+          "chunk_translation": "例如在2014年的一项研究中， / 举例来说， / 马尔蒂对244名儿童进行了观察研究。",
           "syntax": {
             "breakdown": [
               {
@@ -664,7 +664,7 @@
           "text": "Using caregiver assessments and the children’s self-observations, she rated each child’s overall sympathy level and his or her tendency to feel negative emotions after moral transgressions.",
           "translation": "通过照顾者的评估和孩子们的自我观察，她评估了每个孩子的整体同情心水平以及他或她在道德违规后感受到负面情绪的倾向。",
           "slashed_text": "Using caregiver assessments and the children’s self-observations , / she rated each child’s overall sympathy level and his or her tendency to feel negative emotions / after moral transgressions.",
-          "chunk_translation": "利用看护者的评估和孩子的自我观察 / 她评估了每个孩子的整体同情心水平以及他或她感受到负面情绪的倾向 / 道德违规之后",
+          "chunk_translation": "结合看护人的评估和儿童的自我观察， / 她对每个孩子的总体同情心水平以及在发生道德违规行为后 / 产生负面情绪的倾向进行了评分。",
           "syntax": {
             "breakdown": [
               {
@@ -682,7 +682,7 @@
           "text": "Then the kids were handed chocolate coins, and given a chance to share them with an anonymous child.",
           "translation": "然后孩子们收到了巧克力硬币，并有机会与一位匿名的孩子分享。",
           "slashed_text": "Then the kids were handed chocolate coins , / and given a chance to share them with an anonymous child.",
-          "chunk_translation": "然后孩子们收到了巧克力硬币 / 并有机会与一位匿名的孩子分享",
+          "chunk_translation": "随后，孩子们分到了巧克力硬币， / 并获得了与一名匿名儿童分享这些硬币的机会。",
           "syntax": {
             "breakdown": [
               {
@@ -700,7 +700,7 @@
           "text": "For the low- sympathy kids, how much they shared appeared to turn on how inclined they were to feel guilty.",
           "translation": "对于缺乏同情心的孩子来说，他们分享的程度似乎取决于他们感到内疚的程度。",
           "slashed_text": "For the low- sympathy kids , / how much they shared appeared to turn on how inclined they were to feel guilty.",
-          "chunk_translation": "对于缺乏同情心的孩子 / 他们分享的多少似乎会影响他们感到内疚的倾向",
+          "chunk_translation": "对于同情心较低的孩子而言， / 他们分享的数量似乎取决于他们产生内疚感的倾向程度。",
           "syntax": {
             "breakdown": [
               {
@@ -718,7 +718,7 @@
           "text": "The guilt-prone ones shared more, even though they hadn’t magically become more sympathetic to the other child’s deprivation.",
           "translation": "那些容易感到内疚的孩子分享了更多，尽管他们并没有神奇地变得更加同情另一个孩子的剥夺。",
           "slashed_text": "The guilt-prone ones shared more , / even / though they hadn’t magically become more sympathetic to the other child’s deprivation.",
-          "chunk_translation": "容易内疚的人分享更多 / 甚至 / 尽管他们并没有神奇地变得更加同情另一个孩子的匮乏",
+          "chunk_translation": "容易产生内疚感的孩子分享得更多， / 尽管 / 他们并没有奇迹般地对另一个孩子的缺失产生更多同情。",
           "syntax": {
             "breakdown": [
               {
@@ -736,7 +736,7 @@
           "text": "“That’s good news,” Malti says.",
           "translation": "“这是个好消息，”马尔蒂说。",
           "slashed_text": "“ / That’s good news , / ” Malti says.",
-          "chunk_translation": " / That’s good news / Malti says",
+          "chunk_translation": "“ / 这是个好消息， / ”马尔蒂说。",
           "syntax": {
             "breakdown": [
               {
@@ -754,7 +754,7 @@
           "text": "“We can be prosocial because we caused harm and we feel regret.”",
           "translation": "“我们可以变得亲社会，因为我们造成了伤害，并且我们感到遗憾。”",
           "slashed_text": "“We can be prosocial / because we caused harm and we feel regret.”",
-          "chunk_translation": "“我们可以变得亲社会 / 因为我们造成了伤害，我们感到遗憾。”",
+          "chunk_translation": "“我们可以表现出亲社会行为， / 因为我们造成了伤害并感到懊悔。”",
           "syntax": {
             "breakdown": [
               {
@@ -1227,7 +1227,7 @@
           "text": "Forests give us shade, quiet and one of the harder challenges in the fight against climate change. Even as we humans count on forests to soak up a good share of the carbon dioxide we produce, we are threatening their ability to do so. The climate change we are hastening could one day leave us with forests that emit more carbon than they absorb.",
           "translation": "森林为我们提供荫凉、安静，也是应对气候变化的艰巨挑战之一。尽管我们人类依靠森林吸收我们产生的大部分二氧化碳，但我们正在威胁他们这样做的能力。我们正在加速的气候变化有一天可能会让我们的森林排放的碳多于吸收的碳。",
           "slashed_text": "Forests give us shade , / quiet and one of the harder challenges in the fight against climate change. Even as we humans count / on forests to soak up a good share of the carbon dioxide we produce , / we are threatening their ability to do so. The climate change we are hastening could one day leave us / with forests / that emit more carbon than they absorb.",
-          "chunk_translation": "森林给我们遮荫 / quiet and one of the harder challenges in the fight against climate change. Even as we humans count / on forests to soak up a good share of the carbon dioxide we produce / we are threatening their ability to do so. The climate change we are hastening could one day leave us / with forests / 排放的碳多于吸收的碳",
+          "chunk_translation": "森林为我们提供荫凉、 / 宁静，同时也带来了应对气候变化斗争中更为严峻的挑战之一。 正当我们人类指望 / 森林吸收我们排放的大部分二氧化碳时， / 我们却正在威胁森林吸收二氧化碳的能力。 我们正在加剧的气候变化可能在某一天让我们 / 面临这样的森林： / 它们释放的碳比吸收的还要多。",
           "vocabulary": [
             {
               "word": "Forests",
@@ -1281,7 +1281,7 @@
           "text": "Thankfully, there is a way out of this trap—but it involves striking a subtle balance. Helping forests flourish as valuable “carbon sinks” long into the future may require reducing their capacity to absorb carbon now. California is leading the way, as it does on so many climate efforts, in figuring out the details.",
           "translation": "值得庆幸的是，有一种方法可以摆脱这个陷阱，但它需要取得微妙的平衡。帮助森林在未来很长一段时间内作为宝贵的“碳汇”蓬勃发展可能需要降低其现在吸收碳的能力。正如它在许多气候努力中所做的那样，加州在弄清楚细节方面处于领先地位。",
           "slashed_text": "Thankfully , / there is a way out of this trap — / but it involves striking a subtle balance. Helping forests flourish as valuable “carbon sinks” long into the future may require reducing their capacity to absorb carbon now. California is leading the way , / as it does on so many climate efforts , / in figuring out the details.",
-          "chunk_translation": "谢天谢地 / there is a way out of this trap / but it involves striking a subtle balance. Helping forests flourish as valuable “carbon sinks” long into the future may require reducing their capacity to absorb carbon now. California is leading the way / 正如许多气候努力所做的那样 / 在弄清楚细节的过程中",
+          "chunk_translation": "庆幸的是， / 存在摆脱这一陷阱的途径—— / 但这需要取得一种微妙的平衡。 帮助森林在长远未来作为宝贵的“碳汇”茁壮成长，可能需要暂时削减其目前的碳吸收能力。 加利福尼亚州在这方面处于领先地位， / 正如其在众多应对气候变化的努力中所做的那样， / 正在逐步落实具体的实施细节。",
           "vocabulary": [
             {
               "word": "Thankfully",
@@ -1335,7 +1335,7 @@
           "text": "The state’s proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush in parts of the forest. This temporarily lowers carbon-carrying capacity. But the remaining trees draw a greater share of the available moisture, so they grow and thrive, restoring the forest’s capacity to pull carbon from the air. Healthy trees are also better able to fend off insects. The landscape is rendered less easily burnable. Even in the event of a fire, fewer trees are consumed.",
           "translation": "该州提出的森林碳计划旨在加倍努力稀疏幼树并清除部分森林的灌木丛。这会暂时降低碳承载能力。但剩下的树木吸收了更多的可用水分，因此它们生长茂盛，恢复了森林从空气中吸收碳的能力。健康的树木也能更好地抵御昆虫。景观变得不易燃烧。即使发生火灾，烧毁的树木也更少。",
           "slashed_text": "The state’s proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush / in parts of the forest. This temporarily lowers carbon-carrying capacity. But the remaining trees draw a greater share of the available moisture , / so they grow and thrive , / restoring the forest’s capacity to pull carbon from the air. Healthy trees are also better able to fend off insects. The landscape is rendered less easily burnable. Even in the event of a fire , / fewer trees are consumed.",
-          "chunk_translation": "The state’s proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush / in parts of the forest. This temporarily lowers carbon-carrying capacity. But the remaining trees draw a greater share of the available moisture / 让他们成长并茁壮成长 / restoring the forest’s capacity to pull carbon from the air. Healthy trees are also better able to fend off insects. The landscape is rendered less easily burnable. Even in the event of a fire / 消耗的树木更少",
+          "chunk_translation": "该州提出的《森林碳计划》旨在加倍努力，对森林部分区域的幼树进行疏伐并清理灌木丛， / 在森林的部分区域进行治理。 这会在短期内降低森林的碳储载能力。 但剩余的树木能吸收更充足的水分， / 从而生长得更加茂盛， / 进而恢复森林从空气中吸取碳的能力。 健康的树木也能更好地抵御病虫害。 森林景观也变得不易燃烧。 即使发生火灾， / 被烧毁的树木也会更少。",
           "vocabulary": [
             {
               "word": "proposed",
@@ -1389,7 +1389,7 @@
           "text": "The need for such planning is increasingly urgent. Already, since 2010, drought and insects have killed over 100 million trees in California, most of them in 2016 alone, and wildfires have burned hundreds of thousands of acres.",
           "translation": "对此类规划的需求日益迫切。自 2010 年以来，干旱和昆虫已经导致加利福尼亚州超过 1 亿棵树死亡，其中大多数仅在 2016 年就被杀死，野火也烧毁了数十万英亩土地。",
           "slashed_text": "The need / for such planning is increasingly urgent. Already , / since 2010 , / drought and insects have killed over 100 million trees / in California , / most of them in 2016 alone , / and wildfires have burned hundreds of thousands of acres.",
-          "chunk_translation": "The need / for such planning is increasingly urgent. Already / 自2010年以来 / drought and insects have killed over 100 million trees / in California / 其中大多数仅在 2016 年 / 野火已经烧毁了数十万英亩的土地",
+          "chunk_translation": "对此类规划的 / 需求已变得日益紧迫。 事实上， / 自2010年以来， / 干旱和虫害已导致加州超过1亿棵树木死亡， / 在加利福尼亚州， / 其中大多数仅在2016年一年内死亡， / 且山火已烧毁了数十万英亩林地。",
           "vocabulary": [
             {
               "word": "need",
@@ -1443,7 +1443,7 @@
           "text": "California plans to treat 35,000 acres of forest a year by 2020, and 60,000 by 2030— financed from the proceeds of the state’s emissions-permit auctions. That’s only a small share of the total acreage that could benefit, about half a million acres in all, so it will be vital to prioritize areas at greatest risk of fire or drought.",
           "translation": "加州计划到 2020 年每年治理 35,000 英亩森林，到 2030 年治理 60,000 英亩森林，资金来自该州排放许可证拍卖收益。这仅占受益总面积的一小部分（总共约 50 万英亩），因此优先考虑火灾或干旱风险最大的地区至关重要。",
           "slashed_text": "California plans to treat 35 , / 000 acres of forest a year by 2020 , / and 60 , / 000 by 2030 — / financed from the proceeds of the state’s emissions-permit auctions. / That’s only a small share of the total acreage / that could benefit , / about half a million acres in all , / so it will be vital to prioritize areas / at greatest risk of fire or drought.",
-          "chunk_translation": "California plans to treat 35 / 000 acres of forest a year by 2020 / and 60 / 000 by 2030 / 资金来自该州排放许可证拍卖的收益 / 这仅占总面积的一小部分 / 这可能会受益 / 总共约五十万英亩 / so it will be vital to prioritize areas / at greatest risk of fire or drought",
+          "chunk_translation": "加州计划到2020年每年治理3.5 / 万英亩森林， / 到2030年每年治理6 / 万英亩—— / 资金来自于该州碳排放许可证拍卖的收益。 / 这仅占能够受益的森林总面积的一小部分， / 可以从中受益的面积， / 总计约50万英亩， / 因此至关重要的是优先处理那些 / 面临最严峻火灾或干旱风险的区域。",
           "vocabulary": [
             {
               "word": "plans",
@@ -1497,7 +1497,7 @@
           "text": "The strategy also aims to ensure that carbon in woody material removed from the forests is locked away in the form of solid lumber or burned as biofuel in vehicles that would otherwise run on fossil fuels. New research on transportation biofuels is already under way. State governments are well accustomed to managing forests, but traditionally they’ve focused on wildlife, watersheds and opportunities for recreation. Only recently have they come to see the vital part forests will have to play in storing carbon. California’s plan, which is expected to be finalized by the governor next year, should serve as a model.",
           "translation": "该战略还旨在确保从森林中采伐的木质材料中的碳以实心木材的形式储存起来，或作为生物燃料在原本使用化石燃料的车辆中燃烧。关于交通生物燃料的新研究已经在进行中。州政府非常习惯于管理森林，但传统上他们更关注野生动物、流域和休闲机会。直到最近，他们才开始认识到森林在碳储存方面所发挥的重要作用。加州的计划预计将于明年由州长最终确定，应该作为典范。",
           "slashed_text": "The strategy also aims to ensure / that carbon / in woody material removed from the forests is locked away in the form of solid lumber or burned as biofuel / in vehicles / that would otherwise run / on fossil fuels. New research / on transportation biofuels is already under way. State governments are well accustomed to managing forests , / but traditionally they’ve focused / on wildlife , / watersheds and opportunities / for recreation. Only recently have they come to see the vital part forests will have to play / in storing carbon. California’s plan , / which is expected to be finalized by the governor next year , / should serve as a model.",
-          "chunk_translation": "该战略还旨在确保 / that carbon / in woody material removed from the forests is locked away in the form of solid lumber or burned as biofuel / in vehicles / that would otherwise run / on fossil fuels. New research / on transportation biofuels is already under way. State governments are well accustomed to managing forests / but traditionally they’ve focused / on wildlife / watersheds and opportunities / for recreation. Only recently have they come to see the vital part forests will have to play / in storing carbon. California’s plan / 预计将于明年由州长最终确定 / 应该作为一个模型",
+          "chunk_translation": "该战略还旨在确保 / 采伐自森林的木质材料中的碳 / 以实木形式封存，或作为生物燃料用于驱动车辆， / 在交通工具中， / 否则这些车辆将不得不使用 / 化石燃料运行。 关于交通生物燃料的 / 新研究目前已经在推进之中。 州政府非常习惯于管理森林， / 但传统上他们的关注点 / 集中在野生动物、 / 水源集水区以及休闲娱乐 / 的开发机会上。 直到最近，他们才开始认识到森林必须发挥的关键作用， / 即在碳储存方面的重要作用。 加州的这项计划， / 预计将于明年由州长最终批准敲定， / 应当能够树立一个典范榜样。",
           "vocabulary": [
             {
               "word": "strategy",
@@ -1555,7 +1555,7 @@
           "text": "Forests give us shade, quiet and one of the harder challenges in the fight against climate change.",
           "translation": "森林为我们提供荫凉、安静，也是应对气候变化的艰巨挑战之一。",
           "slashed_text": "Forests give us shade , / quiet and one of the harder challenges in the fight against climate change.",
-          "chunk_translation": "森林给我们遮荫 / 安静，也是应对气候变化的艰巨挑战之一",
+          "chunk_translation": "森林为我们提供荫凉、 / 宁静，同时也带来了应对气候变化斗争中更为严峻的挑战之一。",
           "syntax": {
             "breakdown": [
               {
@@ -1573,7 +1573,7 @@
           "text": "Even as we humans count on forests to soak up a good share of the carbon dioxide we produce, we are threatening their ability to do so.",
           "translation": "尽管我们人类依靠森林吸收我们产生的大部分二氧化碳，但我们正在威胁他们这样做的能力。",
           "slashed_text": "Even as we humans count / on forests to soak up a good share of the carbon dioxide we produce , / we are threatening their ability to do so.",
-          "chunk_translation": "Even as we humans count / on forests to soak up a good share of the carbon dioxide we produce / 我们正在威胁他们这样做的能力",
+          "chunk_translation": "正当我们人类指望 / 森林吸收我们排放的大部分二氧化碳时， / 我们却正在威胁森林吸收二氧化碳的能力。",
           "syntax": {
             "breakdown": [
               {
@@ -1591,7 +1591,7 @@
           "text": "The climate change we are hastening could one day leave us with forests that emit more carbon than they absorb.",
           "translation": "我们正在加速的气候变化有一天可能会让我们的森林排放的碳多于吸收的碳。",
           "slashed_text": "The climate change we are hastening could one day leave us / with forests / that emit more carbon than they absorb.",
-          "chunk_translation": "The climate change we are hastening could one day leave us / with forests / 排放的碳多于吸收的碳",
+          "chunk_translation": "我们正在加剧的气候变化可能在某一天让我们 / 面临这样的森林： / 它们释放的碳比吸收的还要多。",
           "syntax": {
             "breakdown": [
               {
@@ -1609,7 +1609,7 @@
           "text": "Thankfully, there is a way out of this trap—but it involves striking a subtle balance.",
           "translation": "值得庆幸的是，有一种方法可以摆脱这个陷阱，但它需要取得微妙的平衡。",
           "slashed_text": "Thankfully , / there is a way out of this trap — / but it involves striking a subtle balance.",
-          "chunk_translation": "谢天谢地 / there is a way out of this trap / but it involves striking a subtle balance",
+          "chunk_translation": "庆幸的是， / 存在摆脱这一陷阱的途径—— / 但这需要取得一种微妙的平衡。",
           "syntax": {
             "breakdown": [
               {
@@ -1627,7 +1627,7 @@
           "text": "Helping forests flourish as valuable “carbon sinks” long into the future may require reducing their capacity to absorb carbon now.",
           "translation": "帮助森林在未来很长一段时间内作为有价值的“碳汇”蓬勃发展可能需要降低其现在吸收碳的能力。",
           "slashed_text": "Helping forests flourish as valuable “carbon sinks” long into the future may require reducing their capacity to absorb carbon now.",
-          "chunk_translation": "帮助森林在未来很长一段时间内作为有价值的“碳汇”蓬勃发展可能需要降低其现在吸收碳的能力",
+          "chunk_translation": "帮助森林在长远未来作为宝贵的“碳汇”茁壮成长，可能需要暂时削减其目前的碳吸收能力。",
           "syntax": {
             "breakdown": [
               {
@@ -1645,7 +1645,7 @@
           "text": "California is leading the way, as it does on so many climate efforts, in figuring out the details.",
           "translation": "正如它在许多气候努力中所做的那样，加州在弄清楚细节方面处于领先地位。",
           "slashed_text": "California is leading the way , / as it does on so many climate efforts , / in figuring out the details.",
-          "chunk_translation": "加州处于领先地位 / 正如许多气候努力所做的那样 / 在弄清楚细节的过程中",
+          "chunk_translation": "加利福尼亚州在这方面处于领先地位， / 正如其在众多应对气候变化的努力中所做的那样， / 正在逐步落实具体的实施细节。",
           "syntax": {
             "breakdown": [
               {
@@ -1663,7 +1663,7 @@
           "text": "The state’s proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush in parts of the forest.",
           "translation": "该州提出的森林碳计划旨在加倍努力稀疏幼树并清除部分森林的灌木丛。",
           "slashed_text": "The state’s proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush / in parts of the forest.",
-          "chunk_translation": "The state’s proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush / in parts of the forest",
+          "chunk_translation": "该州提出的《森林碳计划》旨在加倍努力，对森林部分区域的幼树进行疏伐并清理灌木丛， / 在森林的部分区域进行治理。",
           "syntax": {
             "breakdown": [
               {
@@ -1681,7 +1681,7 @@
           "text": "This temporarily lowers carbon-carrying capacity.",
           "translation": "这会暂时降低碳承载能力。",
           "slashed_text": "This temporarily lowers carbon-carrying capacity.",
-          "chunk_translation": "这会暂时降低碳承载能力",
+          "chunk_translation": "这会在短期内降低森林的碳储载能力。",
           "syntax": {
             "breakdown": [
               {
@@ -1699,7 +1699,7 @@
           "text": "But the remaining trees draw a greater share of the available moisture, so they grow and thrive, restoring the forest’s capacity to pull carbon from the air.",
           "translation": "但剩下的树木吸收了更多的可用水分，因此它们生长茂盛，恢复了森林从空气中吸收碳的能力。",
           "slashed_text": "But the remaining trees draw a greater share of the available moisture , / so they grow and thrive , / restoring the forest’s capacity to pull carbon from the air.",
-          "chunk_translation": "但剩下的树木吸收了更多的可用水分 / 让他们成长并茁壮成长 / 恢复森林从空气中吸收碳的能力",
+          "chunk_translation": "但剩余的树木能吸收更充足的水分， / 从而生长得更加茂盛， / 进而恢复森林从空气中吸取碳的能力。",
           "syntax": {
             "breakdown": [
               {
@@ -1717,7 +1717,7 @@
           "text": "Healthy trees are also better able to fend off insects.",
           "translation": "健康的树木也能更好地抵御昆虫。",
           "slashed_text": "Healthy trees are also better able to fend off insects.",
-          "chunk_translation": "健康的树木也能更好地抵御昆虫",
+          "chunk_translation": "健康的树木也能更好地抵御病虫害。",
           "syntax": {
             "breakdown": [
               {
@@ -1735,7 +1735,7 @@
           "text": "The landscape is rendered less easily burnable.",
           "translation": "景观变得不易燃烧。",
           "slashed_text": "The landscape is rendered less easily burnable.",
-          "chunk_translation": "景观变得不易燃烧",
+          "chunk_translation": "森林景观也变得不易燃烧。",
           "syntax": {
             "breakdown": [
               {
@@ -1753,7 +1753,7 @@
           "text": "Even in the event of a fire, fewer trees are consumed.",
           "translation": "即使发生火灾，烧毁的树木也更少。",
           "slashed_text": "Even in the event of a fire , / fewer trees are consumed.",
-          "chunk_translation": "即使发生火灾 / 消耗的树木更少",
+          "chunk_translation": "即使发生火灾， / 被烧毁的树木也会更少。",
           "syntax": {
             "breakdown": [
               {
@@ -1771,7 +1771,7 @@
           "text": "The need for such planning is increasingly urgent.",
           "translation": "对此类规划的需求日益迫切。",
           "slashed_text": "The need / for such planning is increasingly urgent.",
-          "chunk_translation": "The need / for such planning is increasingly urgent",
+          "chunk_translation": "对此类规划的 / 需求已变得日益紧迫。",
           "syntax": {
             "breakdown": [
               {
@@ -1789,7 +1789,7 @@
           "text": "Already, since 2010, drought and insects have killed over 100 million trees in California, most of them in 2016 alone, and wildfires have burned hundreds of thousands of acres.",
           "translation": "自 2010 年以来，干旱和昆虫已经导致加利福尼亚州超过 1 亿棵树死亡，其中大多数仅在 2016 年就被杀死，野火也烧毁了数十万英亩土地。",
           "slashed_text": "Already , / since 2010 , / drought and insects have killed over 100 million trees / in California , / most of them in 2016 alone , / and wildfires have burned hundreds of thousands of acres.",
-          "chunk_translation": "已经 / 自2010年以来 / drought and insects have killed over 100 million trees / in California / 其中大多数仅在 2016 年 / 野火已经烧毁了数十万英亩的土地",
+          "chunk_translation": "事实上， / 自2010年以来， / 干旱和虫害已导致加州超过1亿棵树木死亡， / 在加利福尼亚州， / 其中大多数仅在2016年一年内死亡， / 且山火已烧毁了数十万英亩林地。",
           "syntax": {
             "breakdown": [
               {
@@ -1807,7 +1807,7 @@
           "text": "California plans to treat 35,000 acres of forest a year by 2020, and 60,000 by 2030— financed from the proceeds of the state’s emissions-permit auctions.",
           "translation": "加州计划到 2020 年每年治理 35,000 英亩森林，到 2030 年治理 60,000 英亩森林，资金来自该州排放许可证拍卖收益。",
           "slashed_text": "California plans to treat 35 , / 000 acres of forest a year by 2020 , / and 60 , / 000 by 2030 — / financed from the proceeds of the state’s emissions-permit auctions.",
-          "chunk_translation": "California plans to treat 35 / 000 acres of forest a year by 2020 / and 60 / 000 by 2030 / 资金来自该州排放许可证拍卖的收益",
+          "chunk_translation": "加州计划到2020年每年治理3.5 / 万英亩森林， / 到2030年每年治理6 / 万英亩—— / 资金来自于该州碳排放许可证拍卖的收益。",
           "syntax": {
             "breakdown": [
               {
@@ -1825,7 +1825,7 @@
           "text": "That’s only a small share of the total acreage that could benefit, about half a million acres in all, so it will be vital to prioritize areas at greatest risk of fire or drought.",
           "translation": "这仅占受益总面积的一小部分（总共约 50 万英亩），因此优先考虑火灾或干旱风险最大的地区至关重要。",
           "slashed_text": "/ That’s only a small share of the total acreage / that could benefit , / about half a million acres in all , / so it will be vital to prioritize areas / at greatest risk of fire or drought.",
-          "chunk_translation": "这仅占总面积的一小部分 / 这可能会受益 / 总共约五十万英亩 / so it will be vital to prioritize areas / at greatest risk of fire or drought",
+          "chunk_translation": "这仅占能够受益的森林总面积的一小部分， / 可以从中受益的面积， / 总计约50万英亩， / 因此至关重要的是优先处理那些 / 面临最严峻火灾或干旱风险的区域。",
           "syntax": {
             "breakdown": [
               {
@@ -1843,7 +1843,7 @@
           "text": "The strategy also aims to ensure that carbon in woody material removed from the forests is locked away in the form of solid lumber or burned as biofuel in vehicles that would otherwise run on fossil fuels.",
           "translation": "该战略还旨在确保从森林中采伐的木质材料中的碳以实心木材的形式储存起来，或作为生物燃料在原本使用化石燃料的车辆中燃烧。",
           "slashed_text": "The strategy also aims to ensure / that carbon / in woody material removed from the forests is locked away in the form of solid lumber or burned as biofuel / in vehicles / that would otherwise run / on fossil fuels.",
-          "chunk_translation": "该战略还旨在确保 / that carbon / in woody material removed from the forests is locked away in the form of solid lumber or burned as biofuel / in vehicles / that would otherwise run / on fossil fuels",
+          "chunk_translation": "该战略还旨在确保 / 采伐自森林的木质材料中的碳 / 以实木形式封存，或作为生物燃料用于驱动车辆， / 在交通工具中， / 否则这些车辆将不得不使用 / 化石燃料运行。",
           "syntax": {
             "breakdown": [
               {
@@ -1861,7 +1861,7 @@
           "text": "New research on transportation biofuels is already under way.",
           "translation": "关于交通生物燃料的新研究已经在进行中。",
           "slashed_text": "New research / on transportation biofuels is already under way.",
-          "chunk_translation": "New research / on transportation biofuels is already under way",
+          "chunk_translation": "关于交通生物燃料的 / 新研究目前已经在推进之中。",
           "syntax": {
             "breakdown": [
               {
@@ -1879,7 +1879,7 @@
           "text": "State governments are well accustomed to managing forests, but traditionally they’ve focused on wildlife, watersheds and opportunities for recreation.",
           "translation": "州政府非常习惯于管理森林，但传统上他们更关注野生动物、流域和休闲机会。",
           "slashed_text": "State governments are well accustomed to managing forests , / but traditionally they’ve focused / on wildlife , / watersheds and opportunities / for recreation.",
-          "chunk_translation": "州政府非常习惯于管理森林 / but traditionally they’ve focused / on wildlife / watersheds and opportunities / for recreation",
+          "chunk_translation": "州政府非常习惯于管理森林， / 但传统上他们的关注点 / 集中在野生动物、 / 水源集水区以及休闲娱乐 / 的开发机会上。",
           "syntax": {
             "breakdown": [
               {
@@ -1897,7 +1897,7 @@
           "text": "Only recently have they come to see the vital part forests will have to play in storing carbon.",
           "translation": "直到最近，他们才开始认识到森林在碳储存方面所发挥的重要作用。",
           "slashed_text": "Only recently have they come to see the vital part forests will have to play / in storing carbon.",
-          "chunk_translation": "Only recently have they come to see the vital part forests will have to play / in storing carbon",
+          "chunk_translation": "直到最近，他们才开始认识到森林必须发挥的关键作用， / 即在碳储存方面的重要作用。",
           "syntax": {
             "breakdown": [
               {
@@ -1915,7 +1915,7 @@
           "text": "California’s plan, which is expected to be finalized by the governor next year, should serve as a model.",
           "translation": "加州的计划预计将于明年由州长最终确定，应该作为典范。",
           "slashed_text": "California’s plan , / which is expected to be finalized by the governor next year , / should serve as a model.",
-          "chunk_translation": "加州的计划 / 预计将于明年由州长最终确定 / 应该作为一个模型",
+          "chunk_translation": "加州的这项计划， / 预计将于明年由州长最终批准敲定， / 应当能够树立一个典范榜样。",
           "syntax": {
             "breakdown": [
               {
@@ -2388,7 +2388,7 @@
           "text": "American farmers have been complaining of labor shortages for several years. The complaints are unlikely to stop without an overhaul of immigration rules for farm workers. Congress has obstructed efforts to create a more straightforward visa for agricultural workers that would let foreign workers stay longer in the U.S. and change jobs within the industry. If this doesn’t change, American businesses, communities, and consumers will be the losers.",
           "translation": "多年来，美国农民一直抱怨劳动力短缺。如果不彻底改革农场工人的移民规则，这些抱怨就不可能停止。国会阻碍了为农业工人创建更简单的签证的努力，该签证将使外国工人在美国停留更长时间并在该行业内更换工作。如果这一点不改变，美国企业、社区和消费者将成为输家。",
           "slashed_text": "American farmers have been complaining of labor shortages / for several years. The complaints are unlikely to stop without an overhaul of immigration rules / for farm workers. Congress has obstructed efforts to create a more straightforward visa / for agricultural workers / that would let foreign workers stay longer in the U.S. and change jobs within the industry. / If this doesn’t change , / American businesses , / communities , / and consumers will be the losers.",
-          "chunk_translation": "American farmers have been complaining of labor shortages / for several years. The complaints are unlikely to stop without an overhaul of immigration rules / for farm workers. Congress has obstructed efforts to create a more straightforward visa / for agricultural workers / that would let foreign workers stay longer in the U.S. and change jobs within the industry / 如果这没有改变 / 美国企业 / 社区 / 而消费者将成为输家",
+          "chunk_translation": "多年来美国农场主一直抱怨劳动力短缺 / 已经持续数年之久。 如果不对此类农场工人的移民法规进行彻底改革，这些抱怨就不可能停止 / 针对农业工人的制度。 国会阻挠了为农业工人设立更简便签证的努力， / 针对农业工人设立的签证， / 该签证原本可以让外国工人在美国停留更长时间。 并在该行业内部更换工作。 / 如果这种局面得不到改变， / 美国企业、 / 社区、 / 以及消费者都将成为输家。",
           "vocabulary": [
             {
               "word": "farmers",
@@ -2442,7 +2442,7 @@
           "text": "Perhaps half of U.S. farm laborers are undocumented immigrants. As fewer such workers enter the country, the characteristics of the agricultural workforce are changing. Today’s farm laborers, while still predominantly born in Mexico, are more likely to be settled rather than migrating and more likely to be married than single. They’re also aging. At the start of this century, about one-third of crop workers were over the age of 35. Now more than half are. And picking crops is hard on older bodies. One oft-debated cure for this labor shortage remains as implausible as it’s been all along: Native U.S. workers won’t be returning to the farm.",
           "translation": "也许一半的美国农场工人是无证移民。随着进入该国的此类工人越来越少，农业劳动力的特征正在发生变化。今天的农场劳动者虽然仍然主要出生在墨西哥，但更有可能定居​​而不是移民，更有可能结婚而不是单身。他们也在变老。本世纪初，大约三分之一的农作物工人年龄超过 35 岁。现在超过一半。对于老年人来说，采摘庄稼是很困难的。解决劳动力短缺问题的一个经常被争论的解决方案仍然像一直以来一样令人难以置信：美国本土工人不会返回农场。",
           "slashed_text": "Perhaps half of U.S. farm laborers are undocumented immigrants. As fewer such workers enter the country , / the characteristics of the agricultural workforce are changing. Today’s farm laborers , / while still predominantly born / in Mexico , / are more likely to be settled rather than migrating and more likely to be married than single. They’re also aging. At the start of this century , / about one-third of crop workers were over the age of 35. Now more than half are. And picking crops is hard / on older bodies. One oft-debated cure / for this labor shortage remains as implausible as it’s been all along : / Native U.S. workers won’t be returning to the farm.",
-          "chunk_translation": "Perhaps half of U.S. farm laborers are undocumented immigrants. As fewer such workers enter the country / the characteristics of the agricultural workforce are changing. Today’s farm laborers / while still predominantly born / in Mexico / are more likely to be settled rather than migrating and more likely to be married than single. They’re also aging. At the start of this century / about one-third of crop workers were over the age of 35. Now more than half are. And picking crops is hard / on older bodies. One oft-debated cure / for this labor shortage remains as implausible as it’s been all along / Native U.S. workers won’t be returning to the farm",
+          "chunk_translation": "大约一半的美国 农场劳工属于无合法证件的移民。 随着入境该国的此类劳工日益减少， / 农业劳动力的结构特征正在发生改变。 如今的农场劳工， / 尽管绝大多数依然出生 / 于墨西哥， / 但更有可能定居而非候鸟式流动，且更有可能已婚而非单身。 他们也正在老龄化。 在本世纪初， / 大约三分之一的农作物种植工人年龄超过35岁。 如今这一比例已超过一半。 而采摘农作物对于 / 上了年纪的身体而言非常繁重劳累。 针对劳动力短缺的一个常被讨论的解决方案 / 一直以来都同样显得不切实际： / 美国本土 工人不会重返农场务农。",
           "vocabulary": [
             {
               "word": "Perhaps",
@@ -2496,7 +2496,7 @@
           "text": "Mechanization isn’t the answer, either—not yet, at least. Production of corn, cotton, rice, soybeans, and wheat has been largely mechanized, but many high-value, labor-intensive crops, such as strawberries, need labor. Even dairy farms, where robots do a small share of milking, have a long way to go before they’re automated.",
           "translation": "机械化也不是答案——至少目前还不是。玉米、棉花、水稻、大豆和小麦的生产已基本机械化，但草莓等许多高价值、劳动密集型作物需要劳动力。即使是由机器人承担一小部分挤奶工作的奶牛场，在实现自动化之前还有很长的路要走。",
           "slashed_text": "Mechanization isn’t the answer , / either — / not yet , / at least. Production of corn , / cotton , / rice , / soybeans , / and wheat has been largely mechanized , / but many high-value , / labor-intensive crops , / such as strawberries , / need labor. Even dairy farms , / where robots do a small share of milking , / have a long way to go / before they’re automated.",
-          "chunk_translation": "机械化不是答案 / either / not yet / at least. Production of corn / 棉布 / 米 / 大豆 / 小麦已基本实现机械化 / 但很多高价值 / 劳动密集型作物 / 比如草莓 / need labor. Even dairy farms / 机器人承担一小部分挤奶工作 / 还有很长的路要走 / 在自动化之前",
+          "chunk_translation": "机械化也不是解决之道， / 同样不是—— / 至少目前 / 还不成熟。 玉米、 / 棉花、 / 水稻、 / 大豆 / 以及小麦的生产已基本实现机械化， / 但许多高附加值、 / 劳动密集型的农作物， / 比如草莓， / 依然严重依赖人工劳动力。 即便是奶牛场， / 虽然机器人承担了小部分的挤奶工作， / 在全面实现自动化之前 / 依然有很长的路要走。",
           "vocabulary": [
             {
               "word": "Mechanization",
@@ -2550,7 +2550,7 @@
           "text": "As a result, farms have grown increasingly reliant on temporary guest workers using the H-2A visa to fill the gaps in the workforce. Starting around 2012, requests for the visas rose sharply; from 2011 to 2016 the number of visas issued more than doubled.",
           "translation": "因此，农场越来越依赖使用 H-2A 签证的临时客工来填补劳动力缺口。从2012年左右开始，签证申请量急剧增加；从2011年到2016年，签发的签证数量增加了一倍多。",
           "slashed_text": "As a result , / farms have grown increasingly reliant / on temporary guest workers using the H-2A visa to fill the gaps in the workforce. Starting around 2012 , / requests for the visas rose sharply ; / from 2011 to 2016 the number of visas issued more than doubled.",
-          "chunk_translation": "因此 / farms have grown increasingly reliant / on temporary guest workers using the H-2A visa to fill the gaps in the workforce. Starting around 2012 / 签证申请量急剧上升 / 从2011年到2016年，签发的签证数量增加了一倍多",
+          "chunk_translation": "结果是， / 农场越来越依赖 / 持H-2A签证的临时短期外籍劳工来填补劳动力缺口。 大约从2012年开始， / 该类签证的申请量急剧攀升； / 从2011年到2016年，实际签发的签证数量增加了一倍以上。",
           "vocabulary": [
             {
               "word": "as a result",
@@ -2604,7 +2604,7 @@
           "text": "The H-2A visa has no numerical cap, unlike the H-2B visa for nonagricultural work, which is limited to 66,000 a year. Even so, employers complain they aren’t given all the workers they need. The process is cumbersome, expensive, and unreliable. One survey found that bureaucratic delays led the average H-2A worker to arrive on the job 22 days late. The shortage is compounded by federal immigration raids, which remove some workers and drive others underground.",
           "translation": "H-2A签证没有数量上限，与非农业工作的H-2B签证每年的数量上限为66,000个不同。即便如此，雇主仍抱怨他们没有获得所需的全部工人。该过程繁琐、昂贵且不可靠。一项调查发现，官僚主义拖延导致 H-2A 员工平均晚到工作 22 天。联邦移民突击搜查加剧了短缺问题，一些工人被赶走，另一些则被迫转入地下。",
           "slashed_text": "The H-2A visa has no numerical cap , / unlike the H-2B visa / for nonagricultural work , / which is limited to 66 , / 000 a year. Even so , / employers complain they aren’t given all the workers they need. The process is cumbersome , / expensive , / and unreliable. One survey found / that bureaucratic delays led the average H-2A worker to arrive on the job 22 days late. The shortage is compounded / by federal immigration raids , / which remove some workers and drive others underground.",
-          "chunk_translation": "H-2A签证没有人数上限 / unlike the H-2B visa / for nonagricultural work / which is limited to 66 / 000 a year. Even so / employers complain they aren’t given all the workers they need. The process is cumbersome / 昂贵的 / and unreliable. One survey found / that bureaucratic delays led the average H-2A worker to arrive on the job 22 days late. The shortage is compounded / by federal immigration raids / 它带走了一些工人并将其他工人驱赶到地下",
+          "chunk_translation": "H-2A签证没有名额上限， / 不像针对非农业工种的 / H-2B签证， / 后者每年限制在6.6 / 万个名额之内。 尽管如此， / 雇主们依然抱怨他们无法获得所需全部的劳工。 申请流程繁琐、 / 费用高昂， / 且结果不可预测。 一项调查发现， / 官僚主义的拖延导致H-2A工人平均上岗时间延误了22天。 劳动力短缺问题因联邦移民突击搜查 / 而进一步恶化， / 这些搜查带走了一部分劳工，并将其他人逼入地下黑市。",
           "vocabulary": [
             {
               "word": "visa",
@@ -2658,7 +2658,7 @@
           "text": "In a 2012 survey, 71 percent of tree-fruit growers and almost 80 percent of raisin and berry growers said they were short of labor. Some western farmers have responded by moving operations to Mexico. From 1998 to 2000, 14.5 percent of the fruit Americans consumed was imported. Little more than a decade later, the share of imports was 25.8 percent.",
           "translation": "在 2012 年的一项调查中，71% 的树果种植者和近 80% 的葡萄干和浆果种植者表示，他们缺乏劳动力。一些西方农民的应对措施是将业务转移到墨西哥。从 1998 年到 2000 年，美国人消费的水果中有 14.5% 是进口的。十多年后，进口份额达到 25.8%。",
           "slashed_text": "In a 2012 survey , / 71 percent of tree-fruit growers and almost 80 percent of raisin and berry growers said they were short of labor. Some western farmers have responded / by moving operations to Mexico. From 1998 to 2000 , / 14.5 percent of the fruit Americans consumed was imported. Little more than a decade later , / the share of imports was 25.8 percent.",
-          "chunk_translation": "在 2012 年的一项调查中 / 71 percent of tree-fruit growers and almost 80 percent of raisin and berry growers said they were short of labor. Some western farmers have responded / by moving operations to Mexico. From 1998 to 2000 / 14.5 percent of the fruit Americans consumed was imported. Little more than a decade later / 进口份额为25.8%",
+          "chunk_translation": "在2012年的一项调查中， / 71%的树果种植者和近80%的葡萄干及浆果种植者表示他们面临劳动力短缺。 一些西部农场主的应对措施 / 是将业务直接转移到墨西哥。 1998年至2000年间， / 美国人消费的水果中有14.5%来自于进口。 仅仅十多年后， / 进口水果的份额就上升至25.8%。",
           "vocabulary": [
             {
               "word": "survey",
@@ -2712,7 +2712,7 @@
           "text": "In effect, the U.S. can import food or it can import the workers who pick it.",
           "translation": "实际上，美国可以进口食品，也可以进口采摘食品的工人。",
           "slashed_text": "In effect , / the U.S. can import food or it can import the workers / who pick it.",
-          "chunk_translation": "有效 / the U.S. can import food or it can import the workers / 谁选它",
+          "chunk_translation": "实际上， / 美国 要么进口粮食蔬果，要么进口采摘这些农产品的 / 外籍劳工。",
           "vocabulary": [
             {
               "word": "effect",
@@ -2750,7 +2750,7 @@
           "text": "American farmers have been complaining of labor shortages for several years.",
           "translation": "多年来，美国农民一直抱怨劳动力短缺。",
           "slashed_text": "American farmers have been complaining of labor shortages / for several years.",
-          "chunk_translation": "American farmers have been complaining of labor shortages / for several years",
+          "chunk_translation": "多年来美国农场主一直抱怨劳动力短缺 / 已经持续数年之久。",
           "syntax": {
             "breakdown": [
               {
@@ -2768,7 +2768,7 @@
           "text": "The complaints are unlikely to stop without an overhaul of immigration rules for farm workers.",
           "translation": "如果不彻底改革农场工人的移民规则，这些抱怨就不可能停止。",
           "slashed_text": "The complaints are unlikely to stop without an overhaul of immigration rules / for farm workers.",
-          "chunk_translation": "The complaints are unlikely to stop without an overhaul of immigration rules / for farm workers",
+          "chunk_translation": "如果不对此类农场工人的移民法规进行彻底改革，这些抱怨就不可能停止 / 针对农业工人的制度。",
           "syntax": {
             "breakdown": [
               {
@@ -2786,7 +2786,7 @@
           "text": "Congress has obstructed efforts to create a more straightforward visa for agricultural workers that would let foreign workers stay longer in the U.S.",
           "translation": "国会阻碍了为农业工人创建更简单的签证的努力，该签证将使外国工人在美国停留更长时间。",
           "slashed_text": "Congress has obstructed efforts to create a more straightforward visa / for agricultural workers / that would let foreign workers stay longer in the U.S.",
-          "chunk_translation": "Congress has obstructed efforts to create a more straightforward visa / for agricultural workers / 这将使外国工人在美国停留更长时间",
+          "chunk_translation": "国会阻挠了为农业工人设立更简便签证的努力， / 针对农业工人设立的签证， / 该签证原本可以让外国工人在美国停留更长时间。",
           "syntax": {
             "breakdown": [
               {
@@ -2804,7 +2804,7 @@
           "text": "and change jobs within the industry.",
           "translation": "并在行业内更换工作。",
           "slashed_text": "and change jobs within the industry.",
-          "chunk_translation": "并在行业内更换工作",
+          "chunk_translation": "并在该行业内部更换工作。",
           "syntax": {
             "breakdown": [
               {
@@ -2822,7 +2822,7 @@
           "text": "If this doesn’t change, American businesses, communities, and consumers will be the losers.",
           "translation": "如果这一点不改变，美国企业、社区和消费者将成为输家。",
           "slashed_text": "/ If this doesn’t change , / American businesses , / communities , / and consumers will be the losers.",
-          "chunk_translation": "如果这没有改变 / 美国企业 / 社区 / 而消费者将成为输家",
+          "chunk_translation": "如果这种局面得不到改变， / 美国企业、 / 社区、 / 以及消费者都将成为输家。",
           "syntax": {
             "breakdown": [
               {
@@ -2840,7 +2840,7 @@
           "text": "Perhaps half of U.S.",
           "translation": "也许是美国的一半",
           "slashed_text": "Perhaps half of U.S.",
-          "chunk_translation": "可能是美国的一半",
+          "chunk_translation": "大约一半的美国",
           "syntax": {
             "breakdown": [
               {
@@ -2858,7 +2858,7 @@
           "text": "farm laborers are undocumented immigrants.",
           "translation": "农场工人是无证移民。",
           "slashed_text": "farm laborers are undocumented immigrants.",
-          "chunk_translation": "农场工人是无证移民",
+          "chunk_translation": "农场劳工属于无合法证件的移民。",
           "syntax": {
             "breakdown": [
               {
@@ -2876,7 +2876,7 @@
           "text": "As fewer such workers enter the country, the characteristics of the agricultural workforce are changing.",
           "translation": "随着进入该国的此类工人越来越少，农业劳动力的特征正在发生变化。",
           "slashed_text": "As fewer such workers enter the country , / the characteristics of the agricultural workforce are changing.",
-          "chunk_translation": "随着进入该国的此类工人越来越少 / 农业劳动力的特征正在发生变化",
+          "chunk_translation": "随着入境该国的此类劳工日益减少， / 农业劳动力的结构特征正在发生改变。",
           "syntax": {
             "breakdown": [
               {
@@ -2894,7 +2894,7 @@
           "text": "Today’s farm laborers, while still predominantly born in Mexico, are more likely to be settled rather than migrating and more likely to be married than single.",
           "translation": "今天的农场劳动者虽然仍然主要出生在墨西哥，但更有可能定居​​而不是移民，更有可能结婚而不是单身。",
           "slashed_text": "Today’s farm laborers , / while still predominantly born / in Mexico , / are more likely to be settled rather than migrating and more likely to be married than single.",
-          "chunk_translation": "现在的农民工 / while still predominantly born / in Mexico / are more likely to be settled rather than migrating and more likely to be married than single",
+          "chunk_translation": "如今的农场劳工， / 尽管绝大多数依然出生 / 于墨西哥， / 但更有可能定居而非候鸟式流动，且更有可能已婚而非单身。",
           "syntax": {
             "breakdown": [
               {
@@ -2912,7 +2912,7 @@
           "text": "They’re also aging.",
           "translation": "他们也在变老。",
           "slashed_text": "They’re also aging.",
-          "chunk_translation": "他们也在变老",
+          "chunk_translation": "他们也正在老龄化。",
           "syntax": {
             "breakdown": [
               {
@@ -2930,7 +2930,7 @@
           "text": "At the start of this century, about one-third of crop workers were over the age of 35.",
           "translation": "本世纪初，大约三分之一的农作物工人年龄在 35 岁以上。",
           "slashed_text": "At the start of this century , / about one-third of crop workers were over the age of 35.",
-          "chunk_translation": "在本世纪初 / 约三分之一的农作物工人年龄超过 35 岁",
+          "chunk_translation": "在本世纪初， / 大约三分之一的农作物种植工人年龄超过35岁。",
           "syntax": {
             "breakdown": [
               {
@@ -2948,7 +2948,7 @@
           "text": "Now more than half are.",
           "translation": "现在超过一半是。",
           "slashed_text": "Now more than half are.",
-          "chunk_translation": "现在一半以上是",
+          "chunk_translation": "如今这一比例已超过一半。",
           "syntax": {
             "breakdown": [
               {
@@ -2966,7 +2966,7 @@
           "text": "And picking crops is hard on older bodies.",
           "translation": "对于老年人来说，采摘庄稼是很困难的。",
           "slashed_text": "And picking crops is hard / on older bodies.",
-          "chunk_translation": "And picking crops is hard / on older bodies",
+          "chunk_translation": "而采摘农作物对于 / 上了年纪的身体而言非常繁重劳累。",
           "syntax": {
             "breakdown": [
               {
@@ -2984,7 +2984,7 @@
           "text": "One oft-debated cure for this labor shortage remains as implausible as it’s been all along: Native U.S.",
           "translation": "解决劳动力短缺问题的一个经常被争论的解决方案仍然像一直以来一样令人难以置信：美国原住民。",
           "slashed_text": "One oft-debated cure / for this labor shortage remains as implausible as it’s been all along : / Native U.S.",
-          "chunk_translation": "One oft-debated cure / for this labor shortage remains as implausible as it’s been all along / 美国原住民",
+          "chunk_translation": "针对劳动力短缺的一个常被讨论的解决方案 / 一直以来都同样显得不切实际： / 美国本土",
           "syntax": {
             "breakdown": [
               {
@@ -3002,7 +3002,7 @@
           "text": "workers won’t be returning to the farm.",
           "translation": "工人们不会返回农场。",
           "slashed_text": "workers won’t be returning to the farm.",
-          "chunk_translation": "工人不会返回农场",
+          "chunk_translation": "工人不会重返农场务农。",
           "syntax": {
             "breakdown": [
               {
@@ -3020,7 +3020,7 @@
           "text": "Mechanization isn’t the answer, either—not yet, at least.",
           "translation": "机械化也不是答案——至少目前还不是。",
           "slashed_text": "Mechanization isn’t the answer , / either — / not yet , / at least.",
-          "chunk_translation": "机械化不是答案 / either / not yet / 至少",
+          "chunk_translation": "机械化也不是解决之道， / 同样不是—— / 至少目前 / 还不成熟。",
           "syntax": {
             "breakdown": [
               {
@@ -3038,7 +3038,7 @@
           "text": "Production of corn, cotton, rice, soybeans, and wheat has been largely mechanized, but many high-value, labor-intensive crops, such as strawberries, need labor.",
           "translation": "玉米、棉花、水稻、大豆和小麦的生产已基本机械化，但草莓等许多高价值、劳动密集型作物需要劳动力。",
           "slashed_text": "Production of corn , / cotton , / rice , / soybeans , / and wheat has been largely mechanized , / but many high-value , / labor-intensive crops , / such as strawberries , / need labor.",
-          "chunk_translation": "玉米生产 / 棉布 / 米 / 大豆 / 小麦已基本实现机械化 / 但很多高价值 / 劳动密集型作物 / 比如草莓 / 需要劳动力",
+          "chunk_translation": "玉米、 / 棉花、 / 水稻、 / 大豆 / 以及小麦的生产已基本实现机械化， / 但许多高附加值、 / 劳动密集型的农作物， / 比如草莓， / 依然严重依赖人工劳动力。",
           "syntax": {
             "breakdown": [
               {
@@ -3056,7 +3056,7 @@
           "text": "Even dairy farms, where robots do a small share of milking, have a long way to go before they’re automated.",
           "translation": "即使是由机器人承担一小部分挤奶工作的奶牛场，在实现自动化之前还有很长的路要走。",
           "slashed_text": "Even dairy farms , / where robots do a small share of milking , / have a long way to go / before they’re automated.",
-          "chunk_translation": "就连奶牛场 / 机器人承担一小部分挤奶工作 / 还有很长的路要走 / 在自动化之前",
+          "chunk_translation": "即便是奶牛场， / 虽然机器人承担了小部分的挤奶工作， / 在全面实现自动化之前 / 依然有很长的路要走。",
           "syntax": {
             "breakdown": [
               {
@@ -3074,7 +3074,7 @@
           "text": "As a result, farms have grown increasingly reliant on temporary guest workers using the H-2A visa to fill the gaps in the workforce.",
           "translation": "因此，农场越来越依赖使用 H-2A 签证的临时客工来填补劳动力缺口。",
           "slashed_text": "As a result , / farms have grown increasingly reliant / on temporary guest workers using the H-2A visa to fill the gaps in the workforce.",
-          "chunk_translation": "因此 / farms have grown increasingly reliant / on temporary guest workers using the H-2A visa to fill the gaps in the workforce",
+          "chunk_translation": "结果是， / 农场越来越依赖 / 持H-2A签证的临时短期外籍劳工来填补劳动力缺口。",
           "syntax": {
             "breakdown": [
               {
@@ -3092,7 +3092,7 @@
           "text": "Starting around 2012, requests for the visas rose sharply; from 2011 to 2016 the number of visas issued more than doubled.",
           "translation": "从2012年左右开始，签证申请量急剧增加；从2011年到2016年，签发的签证数量增加了一倍多。",
           "slashed_text": "Starting around 2012 , / requests for the visas rose sharply ; / from 2011 to 2016 the number of visas issued more than doubled.",
-          "chunk_translation": "2012年左右开始 / 签证申请量急剧上升 / 从2011年到2016年，签发的签证数量增加了一倍多",
+          "chunk_translation": "大约从2012年开始， / 该类签证的申请量急剧攀升； / 从2011年到2016年，实际签发的签证数量增加了一倍以上。",
           "syntax": {
             "breakdown": [
               {
@@ -3110,7 +3110,7 @@
           "text": "The H-2A visa has no numerical cap, unlike the H-2B visa for nonagricultural work, which is limited to 66,000 a year.",
           "translation": "H-2A签证没有数量上限，与非农业工作的H-2B签证每年的数量上限为66,000个不同。",
           "slashed_text": "The H-2A visa has no numerical cap , / unlike the H-2B visa / for nonagricultural work , / which is limited to 66 , / 000 a year.",
-          "chunk_translation": "H-2A签证没有人数上限 / unlike the H-2B visa / for nonagricultural work / which is limited to 66 / 000 a year",
+          "chunk_translation": "H-2A签证没有名额上限， / 不像针对非农业工种的 / H-2B签证， / 后者每年限制在6.6 / 万个名额之内。",
           "syntax": {
             "breakdown": [
               {
@@ -3128,7 +3128,7 @@
           "text": "Even so, employers complain they aren’t given all the workers they need.",
           "translation": "即便如此，雇主仍抱怨他们没有获得所需的全部工人。",
           "slashed_text": "Even so , / employers complain they aren’t given all the workers they need.",
-          "chunk_translation": "即便如此 / 雇主抱怨他们没有获得所需的全部工人",
+          "chunk_translation": "尽管如此， / 雇主们依然抱怨他们无法获得所需全部的劳工。",
           "syntax": {
             "breakdown": [
               {
@@ -3146,7 +3146,7 @@
           "text": "The process is cumbersome, expensive, and unreliable.",
           "translation": "该过程繁琐、昂贵且不可靠。",
           "slashed_text": "The process is cumbersome , / expensive , / and unreliable.",
-          "chunk_translation": "过程繁琐 / 昂贵的 / 并且不可靠",
+          "chunk_translation": "申请流程繁琐、 / 费用高昂， / 且结果不可预测。",
           "syntax": {
             "breakdown": [
               {
@@ -3164,7 +3164,7 @@
           "text": "One survey found that bureaucratic delays led the average H-2A worker to arrive on the job 22 days late.",
           "translation": "一项调查发现，官僚主义拖延导致 H-2A 员工平均晚到工作 22 天。",
           "slashed_text": "One survey found / that bureaucratic delays led the average H-2A worker to arrive on the job 22 days late.",
-          "chunk_translation": "一项调查发现 / 官僚主义拖延导致 H-2A 员工平均晚到工作 22 天",
+          "chunk_translation": "一项调查发现， / 官僚主义的拖延导致H-2A工人平均上岗时间延误了22天。",
           "syntax": {
             "breakdown": [
               {
@@ -3182,7 +3182,7 @@
           "text": "The shortage is compounded by federal immigration raids, which remove some workers and drive others underground.",
           "translation": "联邦移民突击搜查导致人员短缺，一些工人被赶走，另一些则被迫转入地下。",
           "slashed_text": "The shortage is compounded / by federal immigration raids , / which remove some workers and drive others underground.",
-          "chunk_translation": "The shortage is compounded / by federal immigration raids / 它带走了一些工人并将其他工人驱赶到地下",
+          "chunk_translation": "劳动力短缺问题因联邦移民突击搜查 / 而进一步恶化， / 这些搜查带走了一部分劳工，并将其他人逼入地下黑市。",
           "syntax": {
             "breakdown": [
               {
@@ -3200,7 +3200,7 @@
           "text": "In a 2012 survey, 71 percent of tree-fruit growers and almost 80 percent of raisin and berry growers said they were short of labor.",
           "translation": "在 2012 年的一项调查中，71% 的树果种植者和近 80% 的葡萄干和浆果种植者表示，他们缺乏劳动力。",
           "slashed_text": "In a 2012 survey , / 71 percent of tree-fruit growers and almost 80 percent of raisin and berry growers said they were short of labor.",
-          "chunk_translation": "在 2012 年的一项调查中 / 71% 的树果种植者和近 80% 的葡萄干和浆果种植者表示他们缺乏劳动力",
+          "chunk_translation": "在2012年的一项调查中， / 71%的树果种植者和近80%的葡萄干及浆果种植者表示他们面临劳动力短缺。",
           "syntax": {
             "breakdown": [
               {
@@ -3218,7 +3218,7 @@
           "text": "Some western farmers have responded by moving operations to Mexico.",
           "translation": "一些西方农民的应对措施是将业务转移到墨西哥。",
           "slashed_text": "Some western farmers have responded / by moving operations to Mexico.",
-          "chunk_translation": "Some western farmers have responded / by moving operations to Mexico",
+          "chunk_translation": "一些西部农场主的应对措施 / 是将业务直接转移到墨西哥。",
           "syntax": {
             "breakdown": [
               {
@@ -3236,7 +3236,7 @@
           "text": "From 1998 to 2000, 14.5 percent of the fruit Americans consumed was imported.",
           "translation": "从 1998 年到 2000 年，美国人消费的水果中有 14.5% 是进口的。",
           "slashed_text": "From 1998 to 2000 , / 14.5 percent of the fruit Americans consumed was imported.",
-          "chunk_translation": "1998年至2000年 / 美国人消费的水果中有 14.5% 是进口的",
+          "chunk_translation": "1998年至2000年间， / 美国人消费的水果中有14.5%来自于进口。",
           "syntax": {
             "breakdown": [
               {
@@ -3254,7 +3254,7 @@
           "text": "Little more than a decade later, the share of imports was 25.8 percent.",
           "translation": "十多年后，进口份额达到 25.8%。",
           "slashed_text": "Little more than a decade later , / the share of imports was 25.8 percent.",
-          "chunk_translation": "十多年后 / 进口份额为25.8%",
+          "chunk_translation": "仅仅十多年后， / 进口水果的份额就上升至25.8%。",
           "syntax": {
             "breakdown": [
               {
@@ -3272,7 +3272,7 @@
           "text": "In effect, the U.S.",
           "translation": "实际上，美国",
           "slashed_text": "In effect , / the U.S.",
-          "chunk_translation": "有效 / 美国",
+          "chunk_translation": "实际上， / 美国",
           "syntax": {
             "breakdown": [
               {
@@ -3290,7 +3290,7 @@
           "text": "can import food or it can import the workers who pick it.",
           "translation": "可以进口食物，也可以进口采摘食物的工人。",
           "slashed_text": "can import food or it can import the workers / who pick it.",
-          "chunk_translation": "可以进口食品，也可以进口工人 / 谁选它",
+          "chunk_translation": "要么进口粮食蔬果，要么进口采摘这些农产品的 / 外籍劳工。",
           "syntax": {
             "breakdown": [
               {
@@ -3763,7 +3763,7 @@
           "text": "Arnold Schwarzenegger, Dia Mirza and Adrian Grenier have a message for you: It’s easy to beat plastic. They’re part of a bunch of celebrities starring in a new video for World Environment Day—encouraging you, the consumer, to swap out your single-use plastic staples to combat the plastics crisis.",
           "translation": "阿诺·施瓦辛格、迪亚·米尔扎和阿德里安·格尼尔向您传达一条信息：打败塑料很容易。他们是一群名人在世界环境日拍摄的新视频中的一员，鼓励您，消费者，更换一次性塑料钉书钉，以应对塑料危机。",
           "slashed_text": "Arnold Schwarzenegger , / Dia Mirza and Adrian Grenier have a message for you : / It’s easy to beat plastic. They’re part of a bunch of celebrities starring in a new video / for World Environment Day — / encouraging you , / the consumer , / to swap out your single-use plastic staples to combat the plastics crisis.",
-          "chunk_translation": "阿诺·施瓦辛格 / 迪亚·米尔扎 (Dia Mirza) 和阿德里安·格尼尔 (Adrian Grenier) 有话要告诉你 / It’s easy to beat plastic. They’re part of a bunch of celebrities starring in a new video / for World Environment Day / encouraging you / 消费者 / 更换一次性塑料订书钉以应对塑料危机",
+          "chunk_translation": "阿诺德·施瓦辛格、 / 迪亚·米尔扎和阿德里安·格雷尼尔有一条讯息要告诉你： / 战胜塑料污染很容易。 他们是一众明星中的一员，主演了专为世界环境日 / 拍摄的新公益宣传片—— / 旨在鼓励你， / 作为广大消费者， / 替换掉日常使用的一次性塑料必需品，以应对塑料危机。",
           "vocabulary": [
             {
               "word": "Arnold",
@@ -3817,7 +3817,7 @@
           "text": "The key messages that have been put together for World Environment Day do include a call for governments to enact legislation to curb single-use plastics. But the overarching message is directed at individuals.",
           "translation": "世界环境日的关键信息确实包括呼吁各国政府颁布立法来限制一次性塑料制品。但最重要的信息是针对个人的。",
           "slashed_text": "The key messages / that have been put together / for World Environment Day do include a call / for governments to enact legislation to curb single-use plastics. But the overarching message is directed / at individuals.",
-          "chunk_translation": "关键信息 / that have been put together / for World Environment Day do include a call / for governments to enact legislation to curb single-use plastics. But the overarching message is directed / at individuals",
+          "chunk_translation": "为世界环境日所汇编的 / 核心宣传信息 / 确实包含呼吁 / 各国政府出台法律以遏制一次性塑料的使用。 但最主要的宣传导向依然 / 针对个人。",
           "vocabulary": [
             {
               "word": "messages",
@@ -3871,7 +3871,7 @@
           "text": "My concern with leaving it up to the individual, however, is our limited sense of what needs to be achieved. On their own, taking our own bags to the grocery store or quitting plastic straws, for example, will accomplish little and require very little of us. They could even be harmful, satisfying a need to have “done our bit” without ever progressing onto bigger, bolder, more effective actions—a kind of “moral licensing” that eases our concerns and stops us doing more and asking more of those in charge.",
           "translation": "然而，我担心将其留给个人，因为我们对需要实现的目标的认识有限。例如，仅凭自己的袋子去杂货店或戒掉塑料吸管，收效甚微，对我们的要求也很少。它们甚至可能是有害的，满足了“尽自己的一份力量”的需要，却没有采取更大规模、更大胆、更有效的行动——一种“道德许可”，可以减轻我们的担忧，阻止我们做更多的事情，并向负责人提出更多的要求。",
           "slashed_text": "My concern / with leaving it up to the individual , / however , / is our limited sense of what needs to be achieved. On their own , / taking our own bags to the grocery store or quitting plastic straws , / for example , / will accomplish little and require very little of us. They could even be harmful , / satisfying a need to have “done our bit” / without ever progressing onto bigger , / bolder , / more effective actions — / a kind of “moral licensing” / that eases our concerns and stops us doing more and asking more of those / in charge.",
-          "chunk_translation": "My concern / with leaving it up to the individual / 然而 / is our limited sense of what needs to be achieved. On their own / 带我们自己的袋子去杂货店或戒掉塑料吸管 / 例如 / will accomplish little and require very little of us. They could even be harmful / satisfying a need to have “done our bit / without ever progressing onto bigger / 更大胆 / more effective actions / a kind of “moral licensing / that eases our concerns and stops us doing more and asking more of those / in charge",
+          "chunk_translation": "然而我对将减塑责任完全留给个人的 / 担忧之处在于， / 我们往往， / 对真正需要达成什么目标缺乏全局性认知。 单靠这些行动， / 例如自备购物袋去杂货店或弃用塑料吸管， / 举例来说， / 收效甚微，对我们的改变要求也微乎其微。 这些举动甚至可能产生反作用， / 满足了我们“已经尽了一份力”的心理需求， / 却从未进一步迈向更大规模、 / 更大胆、 / 更具实效的行动—— / 产生一种“道德许可”， / 减轻了我们的担忧，阻止我们采取更多行动并向掌权者 / 提出更高要求。",
           "vocabulary": [
             {
               "word": "concern",
@@ -3925,7 +3925,7 @@
           "text": "While the conversation around our environment and our responsibility toward it remains centered on shopping bags and straws, we’re ignoring the balance of power that implies that as “consumers” we must shop sustainably, rather than as “citizens” hold our governments and industries to account to push for real systemic change.",
           "translation": "虽然围绕我们的环境和我们对环境的责任的讨论仍然集中在购物袋和吸管上，但我们忽视了权力平衡，这意味着作为“消费者”我们必须可持续地购物，而不是作为“公民”要求我们的政府和行业负责推动真正的系统性变革。",
           "slashed_text": "/ While the conversation around our environment and our responsibility toward it remains centered / on shopping bags and straws , / we’re ignoring the balance of power / that implies / that as “consumers” we must shop sustainably , / rather than as “citizens” hold our governments and industries to account to push / for real systemic change.",
-          "chunk_translation": "While the conversation around our environment and our responsibility toward it remains centered / on shopping bags and straws / 我们忽视了力量平衡 / 这意味着 / 作为“消费者”，我们必须可持续地购物 / rather than as “citizens” hold our governments and industries to account to push / for real systemic change",
+          "chunk_translation": "当围绕环境保护及其责任的讨论仍然聚焦 / 在购物袋和塑料吸管上时， / 我们忽视了背后的权力制衡机制， / 这暗示着 / 要求我们作为“消费者”必须以可持续的方式购物， / 而不是作为“公民”去追究政府和产业界的责任，去推动 / 真正的系统性变革。",
           "vocabulary": [
             {
               "word": "conversation",
@@ -3979,7 +3979,7 @@
           "text": "It’s important to acknowledge that the environment isn’t everyone’s priority—or even most people’s. We shouldn’t expect it to be. In her latest book, Why Good People Do Bad Environmental Things, Elizabeth R. DeSombre argues that the best way to collectively change the behavior of large numbers of people is for the change to be structural.",
           "translation": "重要的是要承认，环境并不是每个人——甚至不是大多数人——的首要任务。我们不应该期望它会这样。伊丽莎白·R·德松布尔 (Elizabeth R. DeSombre) 在她的最新著作《为什么好人会做坏事》中指出，集体改变大量人行为的最佳方式是进行结构性改变。",
           "slashed_text": "It’s important to acknowledge / that the environment isn’t everyone’s priority — / or even most people’s. We shouldn’t expect it to be. In her latest book , / Why Good People Do Bad Environmental Things , / Elizabeth R. DeSombre argues / that the best way to collectively change the behavior of large numbers of people is for the change to be structural.",
-          "chunk_translation": "承认这一点很重要 / that the environment isn’t everyone’s priority / or even most people’s. We shouldn’t expect it to be. In her latest book / 为什么好人会做坏事？ / Elizabeth R. DeSombre argues / 集体改变大量人行为的最佳方式是结构性改变",
+          "chunk_translation": "我们必须清醒地承认， / 环境保护并非每个人的头等大事—— / 甚至不是大多数人的优先事项。 我们也不应当期望它是。 在她的最新著作 / 《为什么好人会做破坏环境的坏事》中， / 伊丽莎白·R· 德松布尔指出， / 从集体层面改变大众行为的最佳途径是推行结构性变革。",
           "vocabulary": [
             {
               "word": "important",
@@ -4033,7 +4033,7 @@
           "text": "This might mean implementing policy such as a plastic tax that adds a cost to environmentally problematic action, or banning single-use plastics altogether. India has just announced it will “eliminate all single-use plastic in the country by 2022.” There are also incentive-based ways of making better environmental choices easier, such as ensuring recycling is at least as easy as trash disposal.",
           "translation": "这可能意味着实施塑料税等政策，增加环境问题行动的成本，或者完全禁止一次性塑料。印度刚刚宣布将“到 2022 年消除该国所有一次性塑料制品”。还有一些基于激励的方法可以让更好的环境选择变得更容易，例如确保回收至少像垃圾处理一样容易。",
           "slashed_text": "This might mean implementing policy such as a plastic tax / that adds a cost to environmentally problematic action , / or banning single-use plastics altogether. India has just announced it will “eliminate all single-use plastic in the country by 2022.” There are also incentive-based ways of making better environmental choices easier , / such as ensuring recycling is / at least as easy as trash disposal.",
-          "chunk_translation": "这可能意味着实施塑料税等政策 / 这增加了有环境问题的行动的成本 / or banning single-use plastics altogether. India has just announced it will “eliminate all single-use plastic in the country by 2022.” There are also incentive-based ways of making better environmental choices easier / such as ensuring recycling is / at least as easy as trash disposal",
+          "chunk_translation": "这可能意味着推行诸如征收塑料税等政策， / 为危害环境的行为增加成本， / 或者彻底取缔一次性塑料制品。 印度刚刚宣布将于“2022年前在全国范围内消除所有一次性塑料制品”。此外还可以通过激励机制让做出更好的环保选择变得更加容易， / 例如确保垃圾回收 / 至少与丢弃垃圾一样方便。",
           "vocabulary": [
             {
               "word": "mean",
@@ -4087,7 +4087,7 @@
           "text": "DeSombre isn’t saying people should stop caring about the environment. It’s just that individual actions are too slow, she says, for that to be the only, or even primary, approach to changing widespread behavior.",
           "translation": "德松布雷并不是说人们应该停止关心环境。她说，只是个人行动太慢，这不是改变普遍行为的唯一甚至主要方法。",
           "slashed_text": "DeSombre isn’t saying people should stop caring about the environment. It’s just / that individual actions are too slow , / she says , / for / that to be the only , / or even primary , / approach to changing widespread behavior.",
-          "chunk_translation": "DeSombre isn’t saying people should stop caring about the environment. It’s just / 个人行动太慢 / 她说 / 为了 / 那是唯一的 / 甚至初级 / 改变普遍行为的方法",
+          "chunk_translation": "德松布尔并不是说人们应该停止关心环境。 只是 / 个人行动见效太慢， / 她说， / 不足以 / 将其作为改变广泛公众行为的唯一、 / 乃至主要的 / 途径。",
           "vocabulary": [
             {
               "word": "saying",
@@ -4141,7 +4141,7 @@
           "text": "None of this is about writing off the individual. It’s just about putting things into perspective. We don’t have time to wait. We need progressive policies that shape collective action, alongside engaged citizens pushing for change.",
           "translation": "所有这些都不是要注销个人。这只是要正确看待事物。我们没有时间等待。我们需要制定集体行动的进步政策，同时需要积极参与的公民推动变革。",
           "slashed_text": "None of this is / about writing off the individual. It’s just / about putting things / into perspective. We don’t have time to wait. We need progressive policies / that shape collective action , / alongside engaged citizens pushing / for change.",
-          "chunk_translation": "None of this is / about writing off the individual. It’s just / about putting things / into perspective. We don’t have time to wait. We need progressive policies / 塑造集体行动 / alongside engaged citizens pushing / for change",
+          "chunk_translation": "这一切绝非 / 否定个人的作用。 这只是 / 要客观看待事物， / 把握好大局。 我们已经没有时间再等待。 我们需要引领集体行动的进取性政策， / 来塑造集体行动， / 同时需要积极参与的公民共同推动 / 真正的变革。",
           "vocabulary": [
             {
               "word": "writing",
@@ -4199,7 +4199,7 @@
           "text": "Arnold Schwarzenegger, Dia Mirza and Adrian Grenier have a message for you: It’s easy to beat plastic.",
           "translation": "阿诺·施瓦辛格、迪亚·米尔扎和阿德里安·格尼尔向您传达一条信息：打败塑料很容易。",
           "slashed_text": "Arnold Schwarzenegger , / Dia Mirza and Adrian Grenier have a message for you : / It’s easy to beat plastic.",
-          "chunk_translation": "阿诺·施瓦辛格 / 迪亚·米尔扎 (Dia Mirza) 和阿德里安·格尼尔 (Adrian Grenier) 有话要告诉你 / 打败塑料很容易",
+          "chunk_translation": "阿诺德·施瓦辛格、 / 迪亚·米尔扎和阿德里安·格雷尼尔有一条讯息要告诉你： / 战胜塑料污染很容易。",
           "syntax": {
             "breakdown": [
               {
@@ -4217,7 +4217,7 @@
           "text": "They’re part of a bunch of celebrities starring in a new video for World Environment Day—encouraging you, the consumer, to swap out your single-use plastic staples to combat the plastics crisis.",
           "translation": "他们是一群名人在世界环境日拍摄的新视频中的一员，鼓励您，消费者，更换一次性塑料钉书钉，以应对塑料危机。",
           "slashed_text": "They’re part of a bunch of celebrities starring in a new video / for World Environment Day — / encouraging you , / the consumer , / to swap out your single-use plastic staples to combat the plastics crisis.",
-          "chunk_translation": "They’re part of a bunch of celebrities starring in a new video / for World Environment Day / encouraging you / 消费者 / 更换一次性塑料订书钉以应对塑料危机",
+          "chunk_translation": "他们是一众明星中的一员，主演了专为世界环境日 / 拍摄的新公益宣传片—— / 旨在鼓励你， / 作为广大消费者， / 替换掉日常使用的一次性塑料必需品，以应对塑料危机。",
           "syntax": {
             "breakdown": [
               {
@@ -4235,7 +4235,7 @@
           "text": "The key messages that have been put together for World Environment Day do include a call for governments to enact legislation to curb single-use plastics.",
           "translation": "世界环境日的关键信息确实包括呼吁各国政府颁布立法来限制一次性塑料制品。",
           "slashed_text": "The key messages / that have been put together / for World Environment Day do include a call / for governments to enact legislation to curb single-use plastics.",
-          "chunk_translation": "关键信息 / that have been put together / for World Environment Day do include a call / for governments to enact legislation to curb single-use plastics",
+          "chunk_translation": "为世界环境日所汇编的 / 核心宣传信息 / 确实包含呼吁 / 各国政府出台法律以遏制一次性塑料的使用。",
           "syntax": {
             "breakdown": [
               {
@@ -4253,7 +4253,7 @@
           "text": "But the overarching message is directed at individuals.",
           "translation": "但最重要的信息是针对个人的。",
           "slashed_text": "But the overarching message is directed / at individuals.",
-          "chunk_translation": "But the overarching message is directed / at individuals",
+          "chunk_translation": "但最主要的宣传导向依然 / 针对个人。",
           "syntax": {
             "breakdown": [
               {
@@ -4271,7 +4271,7 @@
           "text": "My concern with leaving it up to the individual, however, is our limited sense of what needs to be achieved.",
           "translation": "然而，我担心将其留给个人，因为我们对需要实现的目标的认识有限。",
           "slashed_text": "My concern / with leaving it up to the individual , / however , / is our limited sense of what needs to be achieved.",
-          "chunk_translation": "My concern / with leaving it up to the individual / 然而 / 我们对需要实现什么目标的认识有限",
+          "chunk_translation": "然而我对将减塑责任完全留给个人的 / 担忧之处在于， / 我们往往， / 对真正需要达成什么目标缺乏全局性认知。",
           "syntax": {
             "breakdown": [
               {
@@ -4289,7 +4289,7 @@
           "text": "On their own, taking our own bags to the grocery store or quitting plastic straws, for example, will accomplish little and require very little of us.",
           "translation": "例如，仅凭自己的袋子去杂货店或戒掉塑料吸管，收效甚微，对我们的要求也很少。",
           "slashed_text": "On their own , / taking our own bags to the grocery store or quitting plastic straws , / for example , / will accomplish little and require very little of us.",
-          "chunk_translation": "靠他们自己 / 带我们自己的袋子去杂货店或戒掉塑料吸管 / 例如 / 不会取得什么成就，对我们的要求也很少",
+          "chunk_translation": "单靠这些行动， / 例如自备购物袋去杂货店或弃用塑料吸管， / 举例来说， / 收效甚微，对我们的改变要求也微乎其微。",
           "syntax": {
             "breakdown": [
               {
@@ -4307,7 +4307,7 @@
           "text": "They could even be harmful, satisfying a need to have “done our bit” without ever progressing onto bigger, bolder, more effective actions—a kind of “moral licensing” that eases our concerns and stops us doing more and asking more of those in charge.",
           "translation": "它们甚至可能是有害的，满足了“尽自己的一份力量”的需要，却没有采取更大规模、更大胆、更有效的行动——一种“道德许可”，可以减轻我们的担忧，阻止我们做更多的事情，并向负责人提出更多的要求。",
           "slashed_text": "They could even be harmful , / satisfying a need to have “done our bit” / without ever progressing onto bigger , / bolder , / more effective actions — / a kind of “moral licensing” / that eases our concerns and stops us doing more and asking more of those / in charge.",
-          "chunk_translation": "它们甚至可能有害 / satisfying a need to have “done our bit / without ever progressing onto bigger / 更大胆 / more effective actions / a kind of “moral licensing / that eases our concerns and stops us doing more and asking more of those / in charge",
+          "chunk_translation": "这些举动甚至可能产生反作用， / 满足了我们“已经尽了一份力”的心理需求， / 却从未进一步迈向更大规模、 / 更大胆、 / 更具实效的行动—— / 产生一种“道德许可”， / 减轻了我们的担忧，阻止我们采取更多行动并向掌权者 / 提出更高要求。",
           "syntax": {
             "breakdown": [
               {
@@ -4325,7 +4325,7 @@
           "text": "While the conversation around our environment and our responsibility toward it remains centered on shopping bags and straws, we’re ignoring the balance of power that implies that as “consumers” we must shop sustainably, rather than as “citizens” hold our governments and industries to account to push for real systemic change.",
           "translation": "虽然围绕我们的环境和我们对环境的责任的讨论仍然集中在购物袋和吸管上，但我们忽视了权力平衡，这意味着作为“消费者”我们必须可持续地购物，而不是作为“公民”要求我们的政府和行业负责推动真正的系统性变革。",
           "slashed_text": "/ While the conversation around our environment and our responsibility toward it remains centered / on shopping bags and straws , / we’re ignoring the balance of power / that implies / that as “consumers” we must shop sustainably , / rather than as “citizens” hold our governments and industries to account to push / for real systemic change.",
-          "chunk_translation": "While the conversation around our environment and our responsibility toward it remains centered / on shopping bags and straws / 我们忽视了力量平衡 / 这意味着 / 作为“消费者”，我们必须可持续地购物 / rather than as “citizens” hold our governments and industries to account to push / for real systemic change",
+          "chunk_translation": "当围绕环境保护及其责任的讨论仍然聚焦 / 在购物袋和塑料吸管上时， / 我们忽视了背后的权力制衡机制， / 这暗示着 / 要求我们作为“消费者”必须以可持续的方式购物， / 而不是作为“公民”去追究政府和产业界的责任，去推动 / 真正的系统性变革。",
           "syntax": {
             "breakdown": [
               {
@@ -4348,7 +4348,7 @@
           "text": "It’s important to acknowledge that the environment isn’t everyone’s priority—or even most people’s.",
           "translation": "重要的是要承认，环境并不是每个人——甚至不是大多数人——的首要任务。",
           "slashed_text": "It’s important to acknowledge / that the environment isn’t everyone’s priority — / or even most people’s.",
-          "chunk_translation": "承认这一点很重要 / that the environment isn’t everyone’s priority / or even most people’s",
+          "chunk_translation": "我们必须清醒地承认， / 环境保护并非每个人的头等大事—— / 甚至不是大多数人的优先事项。",
           "syntax": {
             "breakdown": [
               {
@@ -4366,7 +4366,7 @@
           "text": "We shouldn’t expect it to be.",
           "translation": "我们不应该期望它会这样。",
           "slashed_text": "We shouldn’t expect it to be.",
-          "chunk_translation": "我们不应该期望它是",
+          "chunk_translation": "我们也不应当期望它是。",
           "syntax": {
             "breakdown": [
               {
@@ -4384,7 +4384,7 @@
           "text": "In her latest book, Why Good People Do Bad Environmental Things, Elizabeth R.",
           "translation": "在她的最新著作《为什么好人会做坏事》中，Elizabeth R.",
           "slashed_text": "In her latest book , / Why Good People Do Bad Environmental Things , / Elizabeth R.",
-          "chunk_translation": "在她的最新书中 / 为什么好人会做坏事？ / 伊丽莎白R",
+          "chunk_translation": "在她的最新著作 / 《为什么好人会做破坏环境的坏事》中， / 伊丽莎白·R·",
           "syntax": {
             "breakdown": [
               {
@@ -4402,7 +4402,7 @@
           "text": "DeSombre argues that the best way to collectively change the behavior of large numbers of people is for the change to be structural.",
           "translation": "德松布尔认为，集体改变大量人行为的最佳方式是结构性改变。",
           "slashed_text": "DeSombre argues / that the best way to collectively change the behavior of large numbers of people is for the change to be structural.",
-          "chunk_translation": "德松布尔认为 / 集体改变大量人行为的最佳方式是结构性改变",
+          "chunk_translation": "德松布尔指出， / 从集体层面改变大众行为的最佳途径是推行结构性变革。",
           "syntax": {
             "breakdown": [
               {
@@ -4420,7 +4420,7 @@
           "text": "This might mean implementing policy such as a plastic tax that adds a cost to environmentally problematic action, or banning single-use plastics altogether.",
           "translation": "这可能意味着实施塑料税等政策，增加环境问题行动的成本，或者完全禁止一次性塑料。",
           "slashed_text": "This might mean implementing policy such as a plastic tax / that adds a cost to environmentally problematic action , / or banning single-use plastics altogether.",
-          "chunk_translation": "这可能意味着实施塑料税等政策 / 这增加了有环境问题的行动的成本 / 或完全禁止一次性塑料",
+          "chunk_translation": "这可能意味着推行诸如征收塑料税等政策， / 为危害环境的行为增加成本， / 或者彻底取缔一次性塑料制品。",
           "syntax": {
             "breakdown": [
               {
@@ -4438,7 +4438,7 @@
           "text": "India has just announced it will “eliminate all single-use plastic in the country by 2022.” There are also incentive-based ways of making better environmental choices easier, such as ensuring recycling is at least as easy as trash disposal.",
           "translation": "印度刚刚宣布将“到 2022 年消除该国所有一次性塑料制品”。还有一些基于激励的方法可以让更好的环境选择变得更容易，例如确保回收至少像垃圾处理一样容易。",
           "slashed_text": "India has just announced it will “eliminate all single-use plastic in the country by 2022.” There are also incentive-based ways of making better environmental choices easier , / such as ensuring recycling is / at least as easy as trash disposal.",
-          "chunk_translation": "印度刚刚宣布将“到 2022 年消除该国所有一次性塑料制品”。还有一些基于激励的方法可以让人们更容易做出更好的环境选择 / such as ensuring recycling is / at least as easy as trash disposal",
+          "chunk_translation": "印度刚刚宣布将于“2022年前在全国范围内消除所有一次性塑料制品”。此外还可以通过激励机制让做出更好的环保选择变得更加容易， / 例如确保垃圾回收 / 至少与丢弃垃圾一样方便。",
           "syntax": {
             "breakdown": [
               {
@@ -4456,7 +4456,7 @@
           "text": "DeSombre isn’t saying people should stop caring about the environment.",
           "translation": "德松布雷并不是说人们应该停止关心环境。",
           "slashed_text": "DeSombre isn’t saying people should stop caring about the environment.",
-          "chunk_translation": "德松布雷并不是说人们应该停止关心环境",
+          "chunk_translation": "德松布尔并不是说人们应该停止关心环境。",
           "syntax": {
             "breakdown": [
               {
@@ -4474,7 +4474,7 @@
           "text": "It’s just that individual actions are too slow, she says, for that to be the only, or even primary, approach to changing widespread behavior.",
           "translation": "她说，只是个人行动太慢，这不是改变普遍行为的唯一甚至主要方法。",
           "slashed_text": "It’s just / that individual actions are too slow , / she says , / for / that to be the only , / or even primary , / approach to changing widespread behavior.",
-          "chunk_translation": "这只是 / 个人行动太慢 / 她说 / 为了 / 那是唯一的 / 甚至初级 / 改变普遍行为的方法",
+          "chunk_translation": "只是 / 个人行动见效太慢， / 她说， / 不足以 / 将其作为改变广泛公众行为的唯一、 / 乃至主要的 / 途径。",
           "syntax": {
             "breakdown": [
               {
@@ -4492,7 +4492,7 @@
           "text": "None of this is about writing off the individual.",
           "translation": "所有这些都不是要注销个人。",
           "slashed_text": "None of this is / about writing off the individual.",
-          "chunk_translation": "None of this is / about writing off the individual",
+          "chunk_translation": "这一切绝非 / 否定个人的作用。",
           "syntax": {
             "breakdown": [
               {
@@ -4510,7 +4510,7 @@
           "text": "It’s just about putting things into perspective.",
           "translation": "这只是要正确看待事物。",
           "slashed_text": "It’s just / about putting things / into perspective.",
-          "chunk_translation": "这只是 / about putting things / into perspective",
+          "chunk_translation": "这只是 / 要客观看待事物， / 把握好大局。",
           "syntax": {
             "breakdown": [
               {
@@ -4528,7 +4528,7 @@
           "text": "We don’t have time to wait.",
           "translation": "我们没有时间等待。",
           "slashed_text": "We don’t have time to wait.",
-          "chunk_translation": "我们没有时间等待",
+          "chunk_translation": "我们已经没有时间再等待。",
           "syntax": {
             "breakdown": [
               {
@@ -4546,7 +4546,7 @@
           "text": "We need progressive policies that shape collective action, alongside engaged citizens pushing for change.",
           "translation": "我们需要制定集体行动的进步政策，同时需要积极参与的公民推动变革。",
           "slashed_text": "We need progressive policies / that shape collective action , / alongside engaged citizens pushing / for change.",
-          "chunk_translation": "我们需要进步的政策 / 塑造集体行动 / alongside engaged citizens pushing / for change",
+          "chunk_translation": "我们需要引领集体行动的进取性政策， / 来塑造集体行动， / 同时需要积极参与的公民共同推动 / 真正的变革。",
           "syntax": {
             "breakdown": [
               {

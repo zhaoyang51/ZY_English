@@ -12,7 +12,7 @@
           "text": "Homework has never been terribly popular with students and even many parents, but in recent years it has been particularly scorned. School districts across the country, most recently Los Angeles Unified, are revising their thinking on this educational ritual. Unfortunately, L.A. Unified has produced an inflexible policy which mandates that with the exception of some advanced courses, homework may no longer count for more than 10% of a student’s academic grade.",
           "translation": "家庭作业从来都不太受学生甚至许多家长的欢迎，但近年来它尤其受到蔑视。全国各地的学区，最近的洛杉矶联合学区，正在修改他们对这种教育仪式的想法。不幸的是，洛杉矶联合大学制定了一项不灵活的政策，规定除某些高级课程外，家庭作业在学生学业成绩中所占的比例可能不再超过 10%。",
           "slashed_text": "Homework has never been terribly popular / with students and even many parents , / but / in recent years it has been particularly scorned. School districts across the country , / most recently Los Angeles Unified , / are revising their thinking / on this educational ritual. Unfortunately , / L.A. Unified has produced an inflexible policy / which mandates / that with the exception of some advanced courses , / homework may no longer count / for more than 10% of a student’s academic grade.",
-          "chunk_translation": "Homework has never been terribly popular / with students and even many parents / 但 / in recent years it has been particularly scorned. School districts across the country / 最近洛杉矶联合 / are revising their thinking / on this educational ritual. Unfortunately / L.A. Unified has produced an inflexible policy / 其中规定 / 除了一些高级课程之外 / homework may no longer count / for more than 10% of a student’s academic grade",
+          "chunk_translation": "家庭作业向来不太受学生乃至许多家长的欢迎 / 受学生甚至许多家长的欢迎 / 但 / 近年来它尤其饱受抨击 全国各地的学区 / 最近的是洛杉矶联合学区 / 正在修正他们对这种教育惯例的看法 / 关于这种教育惯例 不幸的是， / 洛杉矶 联合学区出台了一项僵化的政策 / 该政策强制规定 / 除某些高阶课程外 / 家庭作业所占比例不得超过 / 学生学业成绩的10%",
           "vocabulary": [
             {
               "word": "Homework",
@@ -66,7 +66,7 @@
           "text": "This rule is meant to address the difficulty that students from impoverished or chaotic homes might have in completing their homework. But the policy is unclear and contradictory. Certainly, no homework should be assigned that students cannot complete on their own or that they cannot do without expensive equipment. But if the district is essentially giving a pass to students who do not do their homework because of complicated family lives, it is going riskily close to the implication that standards need to be lowered for poor children.",
           "translation": "这条规则的目的是解决来自贫困或混乱家庭的学生完成作业的困难。但政策不明确且矛盾。当然，不应该布置学生无法独立完成或没有昂贵设备就无法完成的作业。但如果学区本质上是给那些因为家庭生活复杂而不做作业的学生发放通行证，那么这就很危险地接近于需要降低贫困儿童的标准了。",
           "slashed_text": "This rule is meant to address the difficulty / that students / from impoverished or chaotic homes might have / in completing their homework. But the policy is unclear and contradictory. Certainly , / no homework should be assigned / that students cannot complete / on their own or / that they cannot do / without expensive equipment. But / if the district is essentially giving a pass to students / who do not do their homework / because of complicated family lives , / it is going riskily close to the implication / that standards need to be lowered / for poor children.",
-          "chunk_translation": "这条规则是为了解决这个困难 / 那个学生 / from impoverished or chaotic homes might have / in completing their homework. But the policy is unclear and contradictory. Certainly / 不应该布置家庭作业 / that students cannot complete / on their own or / that they cannot do / without expensive equipment. But / 如果学区实质上是向学生发放通行证 / 谁不做作业 / 因为复杂的家庭生活 / 它正在冒险接近暗示 / that standards need to be lowered / for poor children",
+          "chunk_translation": "该规定旨在解决这种困难 / 即学生们 / 来自贫困或混乱家庭的学生可能面临的 / 在完成家庭作业时 但这项政策既不明确又自相矛盾 诚然 / 不应布置这样的家庭作业 / 即学生无法独立完成的作业 / 独立完成的，或者 / 没有昂贵设备就无法完成的作业 / 没有昂贵设备 但 / 如果学区实质上是在对那些因复杂的家庭生活而不做作业的学生放任不管 / 那些不做作业的学生 / 因为复杂的家庭生活 / 那么它就极其危险地暗示 / 需要降低评判标准 / 针对贫困家庭的孩子",
           "vocabulary": [
             {
               "word": "rule",
@@ -120,7 +120,7 @@
           "text": "District administrators say that homework will still be a part of schooling; teachers are allowed to assign as much of it as they want. But with homework counting for no more than 10 % of their grades, students can easily skip half their homework and see very little difference on their report cards. Some students might do well on state tests without completing their homework, but what about the students who performed well on the tests and did their homework? It is quite possible that the homework helped. Yet rather than empowering teachers to find what works best for their students, the policy imposes a flat, across-the-board rule.",
           "translation": "学区管理人员表示，家庭作业仍将是学校教育的一部分；教师可以根据需要分配任意数量的内容。但由于家庭作业占成绩的比例不超过 10%，学生可以轻松跳过一半的家庭作业，并且在成绩单上看不到什么差别。有些学生可能在没有完成作业的情况下在州考试中取得好成绩，但是那些在考试中表现良好并完成作业的学生呢？家庭作业很可能有帮助。然而，该政策并没有让教师找到最适合学生的方法，而是强加了一条统一的、全面的规则。",
           "slashed_text": "District administrators say / that homework will still be a part of schooling ; / teachers are allowed to assign as much of it as they want. But / with homework counting for no more than 10 % of their grades , / students can easily skip half their homework and see very little difference / on their report cards. Some students might do well / on state tests / without completing their homework , / but what about the students / who performed well on the tests and did their homework? It is quite possible / that the homework helped. Yet rather than empowering teachers to find what works best / for their students , / the policy imposes a flat , / across-the-board rule.",
-          "chunk_translation": "区领导说 / 家庭作业仍然是学校教育的一部分 / teachers are allowed to assign as much of it as they want. But / with homework counting for no more than 10 % of their grades / students can easily skip half their homework and see very little difference / on their report cards. Some students might do well / on state tests / without completing their homework / 但学生们呢 / who performed well on the tests and did their homework? It is quite possible / that the homework helped. Yet rather than empowering teachers to find what works best / for their students / 该政策强制实行扁平化 / 全面规则",
+          "chunk_translation": "学区管理人员表示 / 家庭作业仍将是学校教学的一部分； / 教师可以根据需要随意布置作业 但 / 鉴于家庭作业在成绩中所占比例不超过10% / 学生可以轻易漏做一半的作业而在成绩单上几乎看不出什么差别 / 在他们的成绩单上 有些学生即便不做作业可能也能在州级统考中取得好成绩 / 在州级考试中 / 不完成作业 / 但那些既在考试中表现出色又认真完成作业的学生呢？ / 那些在考试中表现优异且完成了作业的学生？ 很有可能 / 是家庭作业发挥了作用 然而，这项政策非但没有赋予教师自主探索最适合学生的教学方法的权利 / 针对其学生 / 反而强行推行一项一刀切的 / 绝对化规定",
           "vocabulary": [
             {
               "word": "District",
@@ -174,7 +174,7 @@
           "text": "At the same time, the policy addresses none of the truly thorny questions about homework. If the district finds homework to be unimportant to its students’ academic achievement, it should move to reduce or eliminate the assignments, not make them count for almost nothing. Conversely, if homework matters, it should account for a significant portion of the grade. Meanwhile, this policy does nothing to ensure that the homework students receive is meaningful or appropriate to their age and the subject, or that teachers are not assigning more than they are willing to review and correct.",
           "translation": "与此同时，该政策没有解决有关家庭作业的任何真正棘手的问题。如果学区发现家庭作业对学生的学业成绩并不重要，就应该减少或取消作业，而不是让它们几乎毫无价值。相反，如果家庭作业很重要，它应该占成绩的很大一部分。与此同时，这项政策并不能确保学生收到的家庭作业有意义或适合他们的年龄和科目，或者教师布置的作业不会超出他们愿意复习和纠正的范围。",
           "slashed_text": "At the same time , / the policy addresses none of the truly thorny questions / about homework. / If the district finds homework to be unimportant to its students’ academic achievement , / it should move to reduce or eliminate the assignments , / not make them count / for almost nothing. Conversely , / if homework matters , / it should account for a significant portion of the grade. Meanwhile , / this policy does nothing to ensure / that the homework students receive is meaningful or appropriate to their age and the subject , / or / that teachers are not assigning more than they are willing to review and correct.",
-          "chunk_translation": "同时 / the policy addresses none of the truly thorny questions / about homework / 如果学区发现家庭作业对其学生的学业成绩并不重要 / 它应该减少或消除任务 / not make them count / for almost nothing. Conversely / 如果家庭作业很重要 / it should account for a significant portion of the grade. Meanwhile / 这项政策无助于确保 / 学生收到的家庭作业有意义或适合他们的年龄和科目 / 或者 / 教师布置的作业不会超出他们愿意审查和纠正的范围",
+          "chunk_translation": "与此同时 / 该政策没有触及任何关于家庭作业的真正棘手的问题 / 关于家庭作业 / 如果学区认为家庭作业对学生的学业成就无关紧要 / 那么它应该着手减少或取消作业布置 / 而不是让它们的分量微不足道 / 几乎不占任何比重 反之 / 如果家庭作业很重要 / 那么它就应该在成绩中占据相当大的比重 与此同时 / 这项政策完全无法确保 / 学生收到的作业是有意义的或切合其年龄与学科特点的 / 或者 / 教师布置的作业量没有超出其批改和反馈的意愿与能力范围",
           "vocabulary": [
             {
               "word": "account for",
@@ -228,7 +228,7 @@
           "text": "The homework rules should be put on hold while the school board, which is responsible for setting educational policy, looks into the matter and conducts public hearings. It is not too late for L.A. Unified to do homework right.",
           "translation": "在负责制定教育政策的学校董事会调查此事并举行公开听证会期间，家庭作业规则应暂停。对于洛杉矶联合大学来说，做好功课还不算太晚。",
           "slashed_text": "The homework rules should be put / on hold / while the school board , / which is responsible / for setting educational policy , / looks into the matter and conducts public hearings. It is not too late for L.A. Unified to do homework right.",
-          "chunk_translation": "The homework rules should be put / on hold / 而学校董事会 / which is responsible / for setting educational policy / looks into the matter and conducts public hearings. It is not too late for L.A. Unified to do homework right",
+          "chunk_translation": "家庭作业相关规定应当被搁置 / 暂停执行 / 与此同时负责制定教育政策的学校董事会 / 负责 / 制定教育政策的 / 应当调查此事并举行公开听证会 对于洛杉矶来说还不算太晚 联合学区走上正轨",
           "vocabulary": [
             {
               "word": "homework",
@@ -286,7 +286,7 @@
           "text": "Homework has never been terribly popular with students and even many parents, but in recent years it has been particularly scorned.",
           "translation": "家庭作业从来都不太受学生甚至许多家长的欢迎，但近年来它尤其受到蔑视。",
           "slashed_text": "Homework has never been terribly popular / with students and even many parents , / but / in recent years it has been particularly scorned.",
-          "chunk_translation": "Homework has never been terribly popular / with students and even many parents / 但 / in recent years it has been particularly scorned",
+          "chunk_translation": "家庭作业向来不太受学生乃至许多家长的欢迎 / 受学生甚至许多家长的欢迎 / 但 / 近年来它尤其饱受抨击",
           "syntax": {
             "breakdown": [
               {
@@ -304,7 +304,7 @@
           "text": "School districts across the country, most recently Los Angeles Unified, are revising their thinking on this educational ritual.",
           "translation": "全国各地的学区，最近的洛杉矶联合学区，正在修改他们对这种教育仪式的想法。",
           "slashed_text": "School districts across the country , / most recently Los Angeles Unified , / are revising their thinking / on this educational ritual.",
-          "chunk_translation": "全国各地学区 / 最近洛杉矶联合 / are revising their thinking / on this educational ritual",
+          "chunk_translation": "全国各地的学区 / 最近的是洛杉矶联合学区 / 正在修正他们对这种教育惯例的看法 / 关于这种教育惯例",
           "syntax": {
             "breakdown": [
               {
@@ -322,7 +322,7 @@
           "text": "Unfortunately, L.A.",
           "translation": "不幸的是，洛杉矶",
           "slashed_text": "Unfortunately , / L.A.",
-          "chunk_translation": "很遗憾 / 洛杉矶",
+          "chunk_translation": "不幸的是， / 洛杉矶",
           "syntax": {
             "breakdown": [
               {
@@ -340,7 +340,7 @@
           "text": "Unified has produced an inflexible policy which mandates that with the exception of some advanced courses, homework may no longer count for more than 10% of a student’s academic grade.",
           "translation": "Unified 制定了一项不灵活的政策，规定除某些高级课程外，家庭作业不得再占学生学业成绩的 10% 以上。",
           "slashed_text": "Unified has produced an inflexible policy / which mandates / that with the exception of some advanced courses , / homework may no longer count / for more than 10% of a student’s academic grade.",
-          "chunk_translation": "统一制定了不灵活的政策 / 其中规定 / 除了一些高级课程之外 / homework may no longer count / for more than 10% of a student’s academic grade",
+          "chunk_translation": "联合学区出台了一项僵化的政策 / 该政策强制规定 / 除某些高阶课程外 / 家庭作业所占比例不得超过 / 学生学业成绩的10%",
           "syntax": {
             "breakdown": [
               {
@@ -358,7 +358,7 @@
           "text": "This rule is meant to address the difficulty that students from impoverished or chaotic homes might have in completing their homework.",
           "translation": "这条规则的目的是解决来自贫困或混乱家庭的学生完成作业的困难。",
           "slashed_text": "This rule is meant to address the difficulty / that students / from impoverished or chaotic homes might have / in completing their homework.",
-          "chunk_translation": "这条规则是为了解决这个困难 / 那个学生 / from impoverished or chaotic homes might have / in completing their homework",
+          "chunk_translation": "该规定旨在解决这种困难 / 即学生们 / 来自贫困或混乱家庭的学生可能面临的 / 在完成家庭作业时",
           "syntax": {
             "breakdown": [
               {
@@ -376,7 +376,7 @@
           "text": "But the policy is unclear and contradictory.",
           "translation": "但政策不明确且矛盾。",
           "slashed_text": "But the policy is unclear and contradictory.",
-          "chunk_translation": "但政策不明确且矛盾",
+          "chunk_translation": "但这项政策既不明确又自相矛盾",
           "syntax": {
             "breakdown": [
               {
@@ -394,7 +394,7 @@
           "text": "Certainly, no homework should be assigned that students cannot complete on their own or that they cannot do without expensive equipment.",
           "translation": "当然，不应该布置学生无法独立完成或没有昂贵设备就无法完成的作业。",
           "slashed_text": "Certainly , / no homework should be assigned / that students cannot complete / on their own or / that they cannot do / without expensive equipment.",
-          "chunk_translation": "当然 / 不应该布置家庭作业 / that students cannot complete / on their own or / that they cannot do / without expensive equipment",
+          "chunk_translation": "诚然 / 不应布置这样的家庭作业 / 即学生无法独立完成的作业 / 独立完成的，或者 / 没有昂贵设备就无法完成的作业 / 没有昂贵设备",
           "syntax": {
             "breakdown": [
               {
@@ -412,7 +412,7 @@
           "text": "But if the district is essentially giving a pass to students who do not do their homework because of complicated family lives, it is going riskily close to the implication that standards need to be lowered for poor children.",
           "translation": "但如果学区本质上是给那些因为家庭生活复杂而不做作业的学生发放通行证，那么这就很危险地接近于需要降低贫困儿童的标准了。",
           "slashed_text": "But / if the district is essentially giving a pass to students / who do not do their homework / because of complicated family lives , / it is going riskily close to the implication / that standards need to be lowered / for poor children.",
-          "chunk_translation": "但 / 如果学区实质上是向学生发放通行证 / 谁不做作业 / 因为复杂的家庭生活 / 它正在冒险接近暗示 / that standards need to be lowered / for poor children",
+          "chunk_translation": "但 / 如果学区实质上是在对那些因复杂的家庭生活而不做作业的学生放任不管 / 那些不做作业的学生 / 因为复杂的家庭生活 / 那么它就极其危险地暗示 / 需要降低评判标准 / 针对贫困家庭的孩子",
           "syntax": {
             "breakdown": [
               {
@@ -435,7 +435,7 @@
           "text": "District administrators say that homework will still be a part of schooling; teachers are allowed to assign as much of it as they want.",
           "translation": "学区管理人员表示，家庭作业仍将是学校教育的一部分；教师可以根据需要分配任意数量的内容。",
           "slashed_text": "District administrators say / that homework will still be a part of schooling ; / teachers are allowed to assign as much of it as they want.",
-          "chunk_translation": "区领导说 / 家庭作业仍然是学校教育的一部分 / 教师可以根据需要分配任意数量的内容",
+          "chunk_translation": "学区管理人员表示 / 家庭作业仍将是学校教学的一部分； / 教师可以根据需要随意布置作业",
           "syntax": {
             "breakdown": [
               {
@@ -453,7 +453,7 @@
           "text": "But with homework counting for no more than 10 % of their grades, students can easily skip half their homework and see very little difference on their report cards.",
           "translation": "但由于家庭作业占成绩的比例不超过 10%，学生可以轻松跳过一半的家庭作业，并且在成绩单上看不到什么差别。",
           "slashed_text": "But / with homework counting for no more than 10 % of their grades , / students can easily skip half their homework and see very little difference / on their report cards.",
-          "chunk_translation": "但 / with homework counting for no more than 10 % of their grades / students can easily skip half their homework and see very little difference / on their report cards",
+          "chunk_translation": "但 / 鉴于家庭作业在成绩中所占比例不超过10% / 学生可以轻易漏做一半的作业而在成绩单上几乎看不出什么差别 / 在他们的成绩单上",
           "syntax": {
             "breakdown": [
               {
@@ -471,7 +471,7 @@
           "text": "Some students might do well on state tests without completing their homework, but what about the students who performed well on the tests and did their homework?",
           "translation": "有些学生可能在没有完成作业的情况下在州考试中取得好成绩，但是那些在考试中表现良好并完成作业的学生呢？",
           "slashed_text": "Some students might do well / on state tests / without completing their homework , / but what about the students / who performed well on the tests and did their homework?",
-          "chunk_translation": "Some students might do well / on state tests / without completing their homework / 但学生们呢 / 谁在测试中表现良好并完成了作业？",
+          "chunk_translation": "有些学生即便不做作业可能也能在州级统考中取得好成绩 / 在州级考试中 / 不完成作业 / 但那些既在考试中表现出色又认真完成作业的学生呢？ / 那些在考试中表现优异且完成了作业的学生？",
           "syntax": {
             "breakdown": [
               {
@@ -489,7 +489,7 @@
           "text": "It is quite possible that the homework helped.",
           "translation": "家庭作业很可能有帮助。",
           "slashed_text": "It is quite possible / that the homework helped.",
-          "chunk_translation": "这是很有可能的 / 作业有帮助",
+          "chunk_translation": "很有可能 / 是家庭作业发挥了作用",
           "syntax": {
             "breakdown": [
               {
@@ -507,7 +507,7 @@
           "text": "Yet rather than empowering teachers to find what works best for their students, the policy imposes a flat, across-the-board rule.",
           "translation": "然而，该政策并没有让教师找到最适合学生的方法，而是强加了一条统一的、全面的规则。",
           "slashed_text": "Yet rather than empowering teachers to find what works best / for their students , / the policy imposes a flat , / across-the-board rule.",
-          "chunk_translation": "Yet rather than empowering teachers to find what works best / for their students / 该政策强制实行扁平化 / 全面规则",
+          "chunk_translation": "然而，这项政策非但没有赋予教师自主探索最适合学生的教学方法的权利 / 针对其学生 / 反而强行推行一项一刀切的 / 绝对化规定",
           "syntax": {
             "breakdown": [
               {
@@ -525,7 +525,7 @@
           "text": "At the same time, the policy addresses none of the truly thorny questions about homework.",
           "translation": "与此同时，该政策没有解决有关家庭作业的任何真正棘手的问题。",
           "slashed_text": "At the same time , / the policy addresses none of the truly thorny questions / about homework.",
-          "chunk_translation": "同时 / the policy addresses none of the truly thorny questions / about homework",
+          "chunk_translation": "与此同时 / 该政策没有触及任何关于家庭作业的真正棘手的问题 / 关于家庭作业",
           "syntax": {
             "breakdown": [
               {
@@ -543,7 +543,7 @@
           "text": "If the district finds homework to be unimportant to its students’ academic achievement, it should move to reduce or eliminate the assignments, not make them count for almost nothing.",
           "translation": "如果学区发现家庭作业对学生的学业成绩并不重要，就应该减少或取消作业，而不是让它们几乎毫无价值。",
           "slashed_text": "/ If the district finds homework to be unimportant to its students’ academic achievement , / it should move to reduce or eliminate the assignments , / not make them count / for almost nothing.",
-          "chunk_translation": "如果学区发现家庭作业对其学生的学业成绩并不重要 / 它应该减少或消除任务 / not make them count / for almost nothing",
+          "chunk_translation": "/ 如果学区认为家庭作业对学生的学业成就无关紧要 / 那么它应该着手减少或取消作业布置 / 而不是让它们的分量微不足道 / 几乎不占任何比重",
           "syntax": {
             "breakdown": [
               {
@@ -561,7 +561,7 @@
           "text": "Conversely, if homework matters, it should account for a significant portion of the grade.",
           "translation": "相反，如果家庭作业很重要，它应该占成绩的很大一部分。",
           "slashed_text": "Conversely , / if homework matters , / it should account for a significant portion of the grade.",
-          "chunk_translation": "反过来 / 如果家庭作业很重要 / 它应该占成绩的很大一部分",
+          "chunk_translation": "反之 / 如果家庭作业很重要 / 那么它就应该在成绩中占据相当大的比重",
           "syntax": {
             "breakdown": [
               {
@@ -579,7 +579,7 @@
           "text": "Meanwhile, this policy does nothing to ensure that the homework students receive is meaningful or appropriate to their age and the subject, or that teachers are not assigning more than they are willing to review and correct.",
           "translation": "与此同时，这项政策并不能确保学生收到的家庭作业有意义或适合他们的年龄和科目，或者教师布置的作业不会超出他们愿意复习和纠正的范围。",
           "slashed_text": "Meanwhile , / this policy does nothing to ensure / that the homework students receive is meaningful or appropriate to their age and the subject , / or / that teachers are not assigning more than they are willing to review and correct.",
-          "chunk_translation": "同时 / 这项政策无助于确保 / 学生收到的家庭作业有意义或适合他们的年龄和科目 / 或者 / 教师布置的作业不会超出他们愿意审查和纠正的范围",
+          "chunk_translation": "与此同时 / 这项政策完全无法确保 / 学生收到的作业是有意义的或切合其年龄与学科特点的 / 或者 / 教师布置的作业量没有超出其批改和反馈的意愿与能力范围",
           "syntax": {
             "breakdown": [
               {
@@ -597,7 +597,7 @@
           "text": "The homework rules should be put on hold while the school board, which is responsible for setting educational policy, looks into the matter and conducts public hearings.",
           "translation": "在负责制定教育政策的学校董事会调查此事并举行公开听证会期间，家庭作业规则应暂停。",
           "slashed_text": "The homework rules should be put / on hold / while the school board , / which is responsible / for setting educational policy , / looks into the matter and conducts public hearings.",
-          "chunk_translation": "The homework rules should be put / on hold / 而学校董事会 / which is responsible / for setting educational policy / 调查此事并举行公开听证会",
+          "chunk_translation": "家庭作业相关规定应当被搁置 / 暂停执行 / 与此同时负责制定教育政策的学校董事会 / 负责 / 制定教育政策的 / 应当调查此事并举行公开听证会",
           "syntax": {
             "breakdown": [
               {
@@ -638,7 +638,7 @@
           "text": "Unified to do homework right.",
           "translation": "统一做好作业。",
           "slashed_text": "Unified to do homework right.",
-          "chunk_translation": "统一做作业",
+          "chunk_translation": "联合学区走上正轨",
           "syntax": {
             "breakdown": [
               {
@@ -1111,7 +1111,7 @@
           "text": "Pretty in pink: adult women do not remember being so obsessed with the colour, yet it is pervasive in our young girls’ lives. It is not that pink is intrinsically bad, but it is such a tiny slice of the rainbow and, though it may celebrate girlhood in one way, it also repeatedly and firmly fuses girls’ identity to appearance. Then it presents that connection, even among two- year-olds, between girls as not only innocent but as evidence of innocence. Looking around, I despaired at the singular lack of imagination about girls’ lives and interests.",
           "translation": "漂亮的粉色：成年女性不记得自己对这种颜色如此着迷，但它在我们年轻女孩的生活中无处不在。并不是说粉色本质上不好，而是它只是彩虹中的一小部分，尽管它可能以某种方式庆祝少女时代，但它也反复而坚定地将女孩的身份与外表融合在一起。然后，它展示了女孩之间的这种联系，即使是在两岁的孩子之间，不仅是无辜的，而且是无辜的证据。环顾四周，我对女孩的生活和兴趣缺乏想象力感到绝望。",
           "slashed_text": "Pretty / in pink : / adult women do not remember being so obsessed with the colour , / yet it is pervasive in our young girls’ lives. It is not / that pink is intrinsically bad , / but it is such a tiny slice of the rainbow and , / though it may celebrate girlhood in one way , / it also repeatedly and firmly fuses girls’ identity to appearance. Then it presents / that connection , / even among two- year-olds , / between girls as not only innocent but as evidence of innocence. Looking around , / I despaired at the singular lack of imagination / about girls’ lives and interests.",
-          "chunk_translation": "Pretty / in pink / 成年女性不记得自己对颜色如此着迷 / yet it is pervasive in our young girls’ lives. It is not / 粉色本质上是不好的 / 但这只是彩虹的一小部分 / 尽管它可能以一种方式庆祝少女时代 / it also repeatedly and firmly fuses girls’ identity to appearance. Then it presents / 那种联系 / 即使在两岁的孩子中 / between girls as not only innocent but as evidence of innocence. Looking around / I despaired at the singular lack of imagination / about girls’ lives and interests",
+          "chunk_translation": "漂亮 / 身着粉装： / 成年女性不记得自己曾对这种颜色如此痴迷 / 但它在我们年轻女孩的生活中却无处不在 这并不是 / 说粉色本身有什么不好 / 但它只是彩虹中极小的一部分，而且 / 尽管它可能在某种程度上彰显了少女时代 / 它也反复且牢固地将女孩的身份与外貌捆绑在一起 进而它呈现出 / 那种关联 / 哪怕是在两岁幼童身上 / 将女孩与粉色之间的联系不仅视为纯真，更视为纯真的证据 环顾四周 / 我对关于女孩生活和兴趣的极度匮乏的想象力感到绝望 / 关于女孩的生活与兴趣",
           "vocabulary": [
             {
               "word": "Pretty",
@@ -1165,7 +1165,7 @@
           "text": "Girls’ attraction to pink may seem unavoidable, somehow encoded in their DNA, but according to Jo Paoletti, an associate professor of American Studies, it is not. Children were not colour-coded at all until the early 20th century: in the era before domestic washing machines all babies wore white as a practical matter, since the only way of getting clothes clean was to boil them. What’s more, both boys and girls wore what were thought of as gender-neutral dresses. When nursery colours were introduced, pink was actually considered the more masculine colour, a pastel version of red, which was associated with strength. Blue, with its intimations of the Virgin Mary, constancy and faithfulness, symbolised femininity.",
           "translation": "女孩对粉色的喜爱似乎是不可避免的，不知何故已被编码在她们的 DNA 中，但根据美国研究副教授乔·保莱蒂 (Jo Paoletti) 的说法，事实并非如此。直到20世纪初，孩子们才被用颜色区分：在家用洗衣机还没有出现的时代，所有婴儿实际上都穿白色的衣服，因为清洗衣服的唯一方法就是将它们煮沸。更重要的是，男孩和女孩都穿着被认为是中性的衣服。当引入童趣色时，粉色实际上被认为是更男性化的颜色，是红色的柔和版本，与力量相关。蓝色暗示着圣母玛利亚、坚贞和忠诚，象征着女性气质。",
           "slashed_text": "Girls’ attraction to pink may seem unavoidable , / somehow encoded / in their DNA , / but according to Jo Paoletti , / an associate professor of American Studies , / it is not. Children were not colour-coded at all until the early 20th century : / in the era / before domestic washing machines all babies wore white as a practical matter , / since the only way of getting clothes clean was to boil them. What’s more , / both boys and girls wore what were thought of as gender-neutral dresses. / When nursery colours were introduced , / pink was actually considered the more masculine colour , / a pastel version of red , / which was associated / with strength. Blue , / with its intimations of the Virgin Mary , / constancy and faithfulness , / symbolised femininity.",
-          "chunk_translation": "女孩对粉色的吸引力似乎是不可避免的 / somehow encoded / in their DNA / 但根据乔·保莱蒂的说法 / 美国研究副教授 / it is not. Children were not colour-coded at all until the early 20th century / 在那个时代 / 在家用洗衣机出现之前，所有婴儿实际上都穿白色衣服 / since the only way of getting clothes clean was to boil them. What’s more / 男孩和女孩都穿着被认为是中性的衣服 / 当引入幼儿园颜色时 / 粉色实际上被认为是更男性化的颜色 / 柔和的红色 / which was associated / with strength. Blue / 以及圣母玛利亚的暗示 / 坚定和忠诚 / 象征女性气质",
+          "chunk_translation": "女孩对粉色的喜爱看似不可避免 / 似乎早已编码 / 写入了她们的基因之中 / 但据美国研究副教授乔·保莱蒂表示 / 一位美国研究副教授 / 事实并非如此 直到20世纪初，儿童根本没有按颜色区分： / 在那个时代 / 在家用洗衣机问世之前，所有婴儿出于实用考虑都穿白色衣服 / 因为把衣服洗干净的唯一方法就是放进沸水里煮 更重要的是 / 男孩和女孩都穿着当时被认为是中性的长袍裙装 / 当婴儿房颜色最初被引入时 / 粉色实际上被认为是更具阳刚之气的颜色 / 是红色的一种柔和色调 / 红色当时是与 / 力量联系在一起的 而蓝色 / 伴随着对圣母玛利亚的联想、 / 坚贞与忠诚 / 则象征着女性特质",
           "vocabulary": [
             {
               "word": "Girls",
@@ -1219,7 +1219,7 @@
           "text": "It was not until the mid-1980s, when amplifying age and sex differences became a dominant children’s marketing strategy, that pink fully came into its own, when it began to seem inherently attractive to girls, part of what defined them as female, at least for the first few critical years.",
           "translation": "直到 20 世纪 80 年代中期，扩大年龄和性别差异成为儿童营销的主要策略时，粉色才完全发挥了作用，它开始对女孩具有天生的吸引力，这也是她们被定义为女性的一部分，至少在最初的关键几年里是这样。",
           "slashed_text": "It was not until the mid-1980s , / when amplifying age and sex differences became a dominant children’s marketing strategy , / that pink fully came into its own , / when it began to seem inherently attractive to girls , / part of what defined them as female , / at least for the first few critical years.",
-          "chunk_translation": "直到20世纪80年代中期 / 当放大年龄和性别差异成为主要的儿童营销策略时 / 那粉红色完全发挥了自己的作用 / 当它开始对女孩具有天生的吸引力时 / 部分定义她们为女性的因素 / 至少在最初的关键几年里",
+          "chunk_translation": "直到20世纪80年代中期 / 当放大年龄和性别差异成为主导的儿童营销策略时 / 粉色才真正迎来了属于它的时代 / 当时它开始显得对女孩具有天生的吸引力 / 成为定义她们女性身份的一部分 / 至少在最初关键的几年里是如此",
           "vocabulary": [
             {
               "word": "until",
@@ -1273,7 +1273,7 @@
           "text": "I had not realised how profoundly marketing trends dictated our perception of what is natural to kids, including our core beliefs about their psychological development. Take the toddler. I assumed that phase was something experts developed after years of research into children’s behaviour: wrong. Turns out, according to Daniel Cook, a historian of childhood consumerism, it was popularised as a marketing trick by clothing manufacturers in the 1930s. Trade publications counselled department stores that, in order to increase sales, they should create a “third stepping stone” between infant wear and older kids’ clothes. It was only after “toddler” became a common shoppers’ term that it evolved into a broadly accepted developmental stage. Splitting kids, or adults, into ever-tinier categories has proved a sure-fire way to boost profits. And one of the easiest ways to segment a market is to magnify gender differences—or invent them where they did not previously exist.",
           "translation": "我没有意识到营销趋势如何深刻地决定了我们对孩子自然行为的看法，包括我们对他们心理发展的核心信念。带着小孩。我以为这个阶段是专家们对儿童行为进行多年研究后得出的结论：错误的。儿童消费主义历史学家丹尼尔·库克 (Daniel Cook) 表示，事实证明，这种做法在 20 世纪 30 年代被服装制造商作为一种营销伎俩而普及。贸易出版物建议百货公司，为了增加销售额，他们应该在婴儿服装和大童服装之间建立“第三块垫脚石”。直到“幼儿”成为一个常见的购物术语之后，它才演变成一个被广泛接受的发展阶段。事实证明，将儿童或成人分成更小的类别是增加利润的可靠方法。细分市场最简单的方法之一就是放大性别差异，或者在以前不存在的地方创造性别差异。",
           "slashed_text": "I had not realised how profoundly marketing trends dictated our perception of what is natural to kids , / including our core beliefs / about their psychological development. Take the toddler. I assumed / that phase was something experts developed / after years of research / into children’s behaviour : / wrong. Turns out , / according to Daniel Cook , / a historian of childhood consumerism , / it was popularised as a marketing trick / by clothing manufacturers in the 1930s. Trade publications counselled department stores / that , /  / in order to increase sales , / they should create a “third stepping stone” between infant wear and older kids’ clothes. It was only after “toddler” became a common shoppers’ term / that it evolved into a broadly accepted developmental stage. Splitting kids , / or adults , / into ever-tinier categories has proved a sure-fire way to boost profits. And one of the easiest ways to segment a market is to magnify gender differences — / or invent them / where they did not previously exist.",
-          "chunk_translation": "我没有意识到营销趋势如何深刻地决定了我们对孩子自然的看法 / including our core beliefs / about their psychological development. Take the toddler. I assumed / 这个阶段是专家开发的 / after years of research / into children’s behaviour / wrong. Turns out / 根据丹尼尔·库克的说法 / 儿童消费主义历史学家 / it was popularised as a marketing trick / by clothing manufacturers in the 1930s. Trade publications counselled department stores / 那 / 为了增加销量 / they should create a “third stepping stone” between infant wear and older kids’ clothes. It was only after “toddler” became a common shoppers’ term / that it evolved into a broadly accepted developmental stage. Splitting kids / 或成人 / into ever-tinier categories has proved a sure-fire way to boost profits. And one of the easiest ways to segment a market is to magnify gender differences / or invent them / 它们以前不存在的地方",
+          "chunk_translation": "我原本没有意识到，营销趋势竟然如此深刻地决定了我们对儿童天性的认知 / 包括我们的核心信念 / 关于他们的心理发展 以“幼儿”这一概念为例 我原本以为 / 这一阶段是专家们总结出来的 / 经过多年研究 / 对儿童行为的研究： / 错了 事实证明 / 据儿童消费主义历史学家丹尼尔·库克表示 / 一位儿童消费主义历史学家 / 它是作为一种营销策略被推广普及的 / 由20世纪30年代的服装制造商推行 行业刊物建议百货商店 / 称 /  / 为了提高销量 / 他们应该在婴儿服饰与大童服饰之间设立“第三块垫脚石” 正是在“幼儿”成为购物者的常用词之后 / 它才演变成为一个被广泛接受的生长发育阶段 把儿童 / 或成年人 / 细分为更细小的类别已被证明是提高利润的绝妙方法 而细分市场最容易的方法之一就是放大性别差异—— / 或者凭空捏造差异 / 在原本并不存在的地方",
           "vocabulary": [
             {
               "word": "realised",
@@ -1331,7 +1331,7 @@
           "text": "Pretty in pink: adult women do not remember being so obsessed with the colour, yet it is pervasive in our young girls’ lives.",
           "translation": "漂亮的粉色：成年女性不记得自己对这种颜色如此着迷，但它在我们年轻女孩的生活中无处不在。",
           "slashed_text": "Pretty / in pink : / adult women do not remember being so obsessed with the colour , / yet it is pervasive in our young girls’ lives.",
-          "chunk_translation": "Pretty / in pink / 成年女性不记得自己对颜色如此着迷 / 但它在我们年轻女孩的生活中却无处不在",
+          "chunk_translation": "漂亮 / 身着粉装： / 成年女性不记得自己曾对这种颜色如此痴迷 / 但它在我们年轻女孩的生活中却无处不在",
           "syntax": {
             "breakdown": [
               {
@@ -1349,7 +1349,7 @@
           "text": "It is not that pink is intrinsically bad, but it is such a tiny slice of the rainbow and, though it may celebrate girlhood in one way, it also repeatedly and firmly fuses girls’ identity to appearance.",
           "translation": "并不是说粉色本质上不好，而是它只是彩虹中的一小部分，尽管它可能以某种方式庆祝少女时代，但它也反复而坚定地将女孩的身份与外表融合在一起。",
           "slashed_text": "It is not / that pink is intrinsically bad , / but it is such a tiny slice of the rainbow and , / though it may celebrate girlhood in one way , / it also repeatedly and firmly fuses girls’ identity to appearance.",
-          "chunk_translation": "它不是 / 粉色本质上是不好的 / 但这只是彩虹的一小部分 / 尽管它可能以一种方式庆祝少女时代 / 也将女孩的身份与外表反复牢固地融合在一起",
+          "chunk_translation": "这并不是 / 说粉色本身有什么不好 / 但它只是彩虹中极小的一部分，而且 / 尽管它可能在某种程度上彰显了少女时代 / 它也反复且牢固地将女孩的身份与外貌捆绑在一起",
           "syntax": {
             "breakdown": [
               {
@@ -1372,7 +1372,7 @@
           "text": "Then it presents that connection, even among two- year-olds, between girls as not only innocent but as evidence of innocence.",
           "translation": "然后，它展示了女孩之间的这种联系，即使是在两岁的孩子之间，不仅是无辜的，而且是无辜的证据。",
           "slashed_text": "Then it presents / that connection , / even among two- year-olds , / between girls as not only innocent but as evidence of innocence.",
-          "chunk_translation": "然后它呈现 / 那种联系 / 即使在两岁的孩子中 / 女孩之间不仅是无辜的，而且是无辜的证据",
+          "chunk_translation": "进而它呈现出 / 那种关联 / 哪怕是在两岁幼童身上 / 将女孩与粉色之间的联系不仅视为纯真，更视为纯真的证据",
           "syntax": {
             "breakdown": [
               {
@@ -1390,7 +1390,7 @@
           "text": "Looking around, I despaired at the singular lack of imagination about girls’ lives and interests.",
           "translation": "环顾四周，我对女孩的生活和兴趣缺乏想象力感到绝望。",
           "slashed_text": "Looking around , / I despaired at the singular lack of imagination / about girls’ lives and interests.",
-          "chunk_translation": "环顾四周 / I despaired at the singular lack of imagination / about girls’ lives and interests",
+          "chunk_translation": "环顾四周 / 我对关于女孩生活和兴趣的极度匮乏的想象力感到绝望 / 关于女孩的生活与兴趣",
           "syntax": {
             "breakdown": [
               {
@@ -1408,7 +1408,7 @@
           "text": "Girls’ attraction to pink may seem unavoidable, somehow encoded in their DNA, but according to Jo Paoletti, an associate professor of American Studies, it is not.",
           "translation": "女孩对粉色的喜爱似乎是不可避免的，不知何故已被编码在她们的 DNA 中，但根据美国研究副教授乔·保莱蒂 (Jo Paoletti) 的说法，事实并非如此。",
           "slashed_text": "Girls’ attraction to pink may seem unavoidable , / somehow encoded / in their DNA , / but according to Jo Paoletti , / an associate professor of American Studies , / it is not.",
-          "chunk_translation": "女孩对粉色的吸引力似乎是不可避免的 / somehow encoded / in their DNA / 但根据乔·保莱蒂的说法 / 美国研究副教授 / 它不是",
+          "chunk_translation": "女孩对粉色的喜爱看似不可避免 / 似乎早已编码 / 写入了她们的基因之中 / 但据美国研究副教授乔·保莱蒂表示 / 一位美国研究副教授 / 事实并非如此",
           "syntax": {
             "breakdown": [
               {
@@ -1426,7 +1426,7 @@
           "text": "Children were not colour-coded at all until the early 20th century: in the era before domestic washing machines all babies wore white as a practical matter, since the only way of getting clothes clean was to boil them.",
           "translation": "直到20世纪初，孩子们才被用颜色区分：在家用洗衣机还没有出现的时代，所有婴儿实际上都穿白色的衣服，因为清洗衣服的唯一方法就是将它们煮沸。",
           "slashed_text": "Children were not colour-coded at all until the early 20th century : / in the era / before domestic washing machines all babies wore white as a practical matter , / since the only way of getting clothes clean was to boil them.",
-          "chunk_translation": "直到 20 世纪初，孩子们才被用颜色区分 / 在那个时代 / 在家用洗衣机出现之前，所有婴儿实际上都穿白色衣服 / 因为把衣服洗干净的唯一方法就是把它们煮沸",
+          "chunk_translation": "直到20世纪初，儿童根本没有按颜色区分： / 在那个时代 / 在家用洗衣机问世之前，所有婴儿出于实用考虑都穿白色衣服 / 因为把衣服洗干净的唯一方法就是放进沸水里煮",
           "syntax": {
             "breakdown": [
               {
@@ -1444,7 +1444,7 @@
           "text": "What’s more, both boys and girls wore what were thought of as gender-neutral dresses.",
           "translation": "更重要的是，男孩和女孩都穿着被认为是中性的衣服。",
           "slashed_text": "What’s more , / both boys and girls wore what were thought of as gender-neutral dresses.",
-          "chunk_translation": "更重要的是 / 男孩和女孩都穿着被认为是中性的衣服",
+          "chunk_translation": "更重要的是 / 男孩和女孩都穿着当时被认为是中性的长袍裙装",
           "syntax": {
             "breakdown": [
               {
@@ -1462,7 +1462,7 @@
           "text": "When nursery colours were introduced, pink was actually considered the more masculine colour, a pastel version of red, which was associated with strength.",
           "translation": "当引入童趣色时，粉色实际上被认为是更男性化的颜色，是红色的柔和版本，与力量相关。",
           "slashed_text": "/ When nursery colours were introduced , / pink was actually considered the more masculine colour , / a pastel version of red , / which was associated / with strength.",
-          "chunk_translation": "当引入幼儿园颜色时 / 粉色实际上被认为是更男性化的颜色 / 柔和的红色 / which was associated / with strength",
+          "chunk_translation": "/ 当婴儿房颜色最初被引入时 / 粉色实际上被认为是更具阳刚之气的颜色 / 是红色的一种柔和色调 / 红色当时是与 / 力量联系在一起的",
           "syntax": {
             "breakdown": [
               {
@@ -1480,7 +1480,7 @@
           "text": "Blue, with its intimations of the Virgin Mary, constancy and faithfulness, symbolised femininity.",
           "translation": "蓝色暗示着圣母玛利亚、坚贞和忠诚，象征着女性气质。",
           "slashed_text": "Blue , / with its intimations of the Virgin Mary , / constancy and faithfulness , / symbolised femininity.",
-          "chunk_translation": "蓝色的 / 以及圣母玛利亚的暗示 / 坚定和忠诚 / 象征女性气质",
+          "chunk_translation": "而蓝色 / 伴随着对圣母玛利亚的联想、 / 坚贞与忠诚 / 则象征着女性特质",
           "syntax": {
             "breakdown": [
               {
@@ -1498,7 +1498,7 @@
           "text": "It was not until the mid-1980s, when amplifying age and sex differences became a dominant children’s marketing strategy, that pink fully came into its own, when it began to seem inherently attractive to girls, part of what defined them as female, at least for the first few critical years.",
           "translation": "直到 20 世纪 80 年代中期，扩大年龄和性别差异成为儿童营销的主要策略时，粉色才完全发挥了作用，它开始对女孩具有天生的吸引力，这也是她们被定义为女性的一部分，至少在最初的关键几年里是这样。",
           "slashed_text": "It was not until the mid-1980s , / when amplifying age and sex differences became a dominant children’s marketing strategy , / that pink fully came into its own , / when it began to seem inherently attractive to girls , / part of what defined them as female , / at least for the first few critical years.",
-          "chunk_translation": "直到20世纪80年代中期 / 当放大年龄和性别差异成为主要的儿童营销策略时 / 那粉红色完全发挥了自己的作用 / 当它开始对女孩具有天生的吸引力时 / 部分定义她们为女性的因素 / 至少在最初的关键几年里",
+          "chunk_translation": "直到20世纪80年代中期 / 当放大年龄和性别差异成为主导的儿童营销策略时 / 粉色才真正迎来了属于它的时代 / 当时它开始显得对女孩具有天生的吸引力 / 成为定义她们女性身份的一部分 / 至少在最初关键的几年里是如此",
           "syntax": {
             "breakdown": [
               {
@@ -1516,7 +1516,7 @@
           "text": "I had not realised how profoundly marketing trends dictated our perception of what is natural to kids, including our core beliefs about their psychological development.",
           "translation": "我没有意识到营销趋势如何深刻地决定了我们对孩子自然行为的看法，包括我们对他们心理发展的核心信念。",
           "slashed_text": "I had not realised how profoundly marketing trends dictated our perception of what is natural to kids , / including our core beliefs / about their psychological development.",
-          "chunk_translation": "我没有意识到营销趋势如何深刻地决定了我们对孩子自然的看法 / including our core beliefs / about their psychological development",
+          "chunk_translation": "我原本没有意识到，营销趋势竟然如此深刻地决定了我们对儿童天性的认知 / 包括我们的核心信念 / 关于他们的心理发展",
           "syntax": {
             "breakdown": [
               {
@@ -1534,7 +1534,7 @@
           "text": "Take the toddler.",
           "translation": "带着小孩。",
           "slashed_text": "Take the toddler.",
-          "chunk_translation": "带着幼儿",
+          "chunk_translation": "以“幼儿”这一概念为例",
           "syntax": {
             "breakdown": [
               {
@@ -1552,7 +1552,7 @@
           "text": "I assumed that phase was something experts developed after years of research into children’s behaviour: wrong.",
           "translation": "我以为这个阶段是专家们对儿童行为进行多年研究后得出的结论：错误的。",
           "slashed_text": "I assumed / that phase was something experts developed / after years of research / into children’s behaviour : / wrong.",
-          "chunk_translation": "我以为 / 这个阶段是专家开发的 / after years of research / into children’s behaviour / 错误的",
+          "chunk_translation": "我原本以为 / 这一阶段是专家们总结出来的 / 经过多年研究 / 对儿童行为的研究： / 错了",
           "syntax": {
             "breakdown": [
               {
@@ -1570,7 +1570,7 @@
           "text": "Turns out, according to Daniel Cook, a historian of childhood consumerism, it was popularised as a marketing trick by clothing manufacturers in the 1930s.",
           "translation": "儿童消费主义历史学家丹尼尔·库克 (Daniel Cook) 表示，事实证明，这种做法在 20 世纪 30 年代被服装制造商作为一种营销伎俩而普及。",
           "slashed_text": "Turns out , / according to Daniel Cook , / a historian of childhood consumerism , / it was popularised as a marketing trick / by clothing manufacturers in the 1930s.",
-          "chunk_translation": "事实证明 / 根据丹尼尔·库克的说法 / 儿童消费主义历史学家 / it was popularised as a marketing trick / by clothing manufacturers in the 1930s",
+          "chunk_translation": "事实证明 / 据儿童消费主义历史学家丹尼尔·库克表示 / 一位儿童消费主义历史学家 / 它是作为一种营销策略被推广普及的 / 由20世纪30年代的服装制造商推行",
           "syntax": {
             "breakdown": [
               {
@@ -1588,7 +1588,7 @@
           "text": "Trade publications counselled department stores that, in order to increase sales, they should create a “third stepping stone” between infant wear and older kids’ clothes.",
           "translation": "贸易出版物建议百货公司，为了增加销售额，他们应该在婴儿服装和大童服装之间建立“第三块垫脚石”。",
           "slashed_text": "Trade publications counselled department stores / that , /  / in order to increase sales , / they should create a “third stepping stone” between infant wear and older kids’ clothes.",
-          "chunk_translation": "Trade publications counselled department stores / 那 / 为了增加销量 / 他们应该在婴儿服装和大童服装之间打造“第三块垫脚石”",
+          "chunk_translation": "行业刊物建议百货商店 / 称 /  / 为了提高销量 / 他们应该在婴儿服饰与大童服饰之间设立“第三块垫脚石”",
           "syntax": {
             "breakdown": [
               {
@@ -1606,7 +1606,7 @@
           "text": "It was only after “toddler” became a common shoppers’ term that it evolved into a broadly accepted developmental stage.",
           "translation": "直到“幼儿”成为一个常见的购物术语之后，它才演变成一个被广泛接受的发展阶段。",
           "slashed_text": "It was only after “toddler” became a common shoppers’ term / that it evolved into a broadly accepted developmental stage.",
-          "chunk_translation": "It was only after “toddler” became a common shoppers’ term / 它演变成一个被广泛接受的发展阶段",
+          "chunk_translation": "正是在“幼儿”成为购物者的常用词之后 / 它才演变成为一个被广泛接受的生长发育阶段",
           "syntax": {
             "breakdown": [
               {
@@ -1624,7 +1624,7 @@
           "text": "Splitting kids, or adults, into ever-tinier categories has proved a sure-fire way to boost profits.",
           "translation": "事实证明，将儿童或成人分成更小的类别是增加利润的可靠方法。",
           "slashed_text": "Splitting kids , / or adults , / into ever-tinier categories has proved a sure-fire way to boost profits.",
-          "chunk_translation": "分裂孩子 / 或成人 / 事实证明，进军更小的品类是提高利润的必由之路",
+          "chunk_translation": "把儿童 / 或成年人 / 细分为更细小的类别已被证明是提高利润的绝妙方法",
           "syntax": {
             "breakdown": [
               {
@@ -1642,7 +1642,7 @@
           "text": "And one of the easiest ways to segment a market is to magnify gender differences—or invent them where they did not previously exist.",
           "translation": "细分市场最简单的方法之一就是放大性别差异，或者在以前不存在的地方创造性别差异。",
           "slashed_text": "And one of the easiest ways to segment a market is to magnify gender differences — / or invent them / where they did not previously exist.",
-          "chunk_translation": "And one of the easiest ways to segment a market is to magnify gender differences / or invent them / 它们以前不存在的地方",
+          "chunk_translation": "而细分市场最容易的方法之一就是放大性别差异—— / 或者凭空捏造差异 / 在原本并不存在的地方",
           "syntax": {
             "breakdown": [
               {
@@ -2114,7 +2114,7 @@
           "text": "In 2010, a federal judge shook America’s biotech industry to its core. Companies had won patents for isolated DNA for decades—by 2005 some 20 % of human genes were parented. But in March 2010 a judge ruled that genes were unpatentable. Executives were violently agitated. The Biotechnology Industry Organisation (BIO), a trade group, assured members that this was just a “preliminary step” in a longer battle.",
           "translation": "2010 年，一位联邦法官彻底震撼了美国生物技术产业。几十年来，公司已经获得了分离 DNA 的专利——到 2005 年，大约 20% 的人类基因是有亲本的。但 2010 年 3 月，一位法官裁定基因不可申请专利。高管们非常激动。贸易组织生物技术工业组织（BIO）向成员保证，这只是一场长期斗争中的“初步步骤”。",
           "slashed_text": "In 2010 , / a federal judge shook America’s biotech industry to its core. Companies had won patents / for isolated DNA / for decades — / by 2005 some 20 % of human genes were parented. But / in March 2010 a judge ruled / that genes were unpatentable. Executives were violently agitated. The Biotechnology Industry Organisation (BIO) , / a trade group , / assured members / that this was just a “preliminary step” in a longer battle.",
-          "chunk_translation": "2010年 / a federal judge shook America’s biotech industry to its core. Companies had won patents / for isolated DNA / for decades / by 2005 some 20 % of human genes were parented. But / in March 2010 a judge ruled / that genes were unpatentable. Executives were violently agitated. The Biotechnology Industry Organisation (BIO) / 一个贸易集团 / 放心会员 / 这只是一场长期战斗中的“第一步”",
+          "chunk_translation": "2010年 / 一位联邦法官的判决彻底震撼了美国生物技术产业的核心 数十年来各大公司一直在获取分离DNA的专利 / 针对分离出的DNA / 数十年来—— / 到2005年已有约20%的人类基因被授予了专利 但 / 在2010年3月一位法官裁定 / 人类基因不具备专利资格 企业高管们陷入了极大的震动与不安 生物技术工业组织这一行业贸易团体 / 一个行业贸易团体 / 向会员保证 / 这只是一场漫长斗争中的“初步步骤”",
           "vocabulary": [
             {
               "word": "federal",
@@ -2168,7 +2168,7 @@
           "text": "On July 29th they were relieved, at least temporarily. A federal appeals court overturned the prior decision, ruling that Myriad Genetics could indeed hold patents to two genes that help forecast a woman’s risk of breast cancer. The chief executive of Myriad, a company in Utah, said the ruling was a blessing to firms and patients alike.",
           "translation": "7 月 29 日，他们松了一口气，至少暂时松了口气。联邦上诉法院推翻了先前的裁决，裁定 Myriad Genetics 确实可以拥有两个有助于预测女性患乳腺癌风险的基因的专利。犹他州 Myriad 公司的首席执行官表示，这一裁决对公司和患者来说都是一件好事。",
           "slashed_text": "On July 29th they were relieved , / at least temporarily. A federal appeals court overturned the prior decision , / ruling / that Myriad Genetics could indeed hold patents to two genes / that help forecast a woman’s risk of breast cancer. The chief executive of Myriad , / a company / in Utah , / said the ruling was a blessing to firms and patients alike.",
-          "chunk_translation": "7月29日，他们松了一口气 / at least temporarily. A federal appeals court overturned the prior decision / 裁决 / Myriad Genetics 确实可以拥有两个基因的专利 / that help forecast a woman’s risk of breast cancer. The chief executive of Myriad / a company / in Utah / 表示这一裁决对公司和患者来说都是福音",
+          "chunk_translation": "7月29日，他们如释重负 / 至少暂时如此 一家联邦上诉法院推翻了先前的裁决 / 裁定 / 迈利亚德基因公司确实可以拥有两项基因专利 / 这两项基因有助于预测女性患乳腺癌的风险 迈利亚德公司的首席执行官 / 一家公司 / 位于犹他州 / 表示这一裁决对企业和患者而言都是福音",
           "vocabulary": [
             {
               "word": "relieved",
@@ -2222,7 +2222,7 @@
           "text": "But as companies continue their attempts at personalised medicine, the courts will remain rather busy. The Myriad case itself is probably not over. Critics make three main arguments against gene patents: a gene is a product of nature, so it may not be patented; gene patents suppress innovation rather than reward it; and patents’ monopolies restrict access to genetic tests such as Myriad’s. A growing number seem to agree. Last year a federal task-force urged reform for patents related to genetic tests. In October the Department of Justice filed a brief in the Myriad case, arguing that an isolated DNA molecule “is no less a product of nature ... than are cotton fibres that have been separated from cotton seeds.”",
           "translation": "但随着公司继续尝试个性化医疗，法院将仍然相当忙碌。 Myriad 案本身可能还没有结束。批评者对基因专利提出了三个主要论点：基因是自然的产物，因此不能申请专利；基因专利抑制创新而不是奖励创新；专利垄断限制了 Myriad 等基因检测的使用。越来越多的人似乎同意这一观点。去年，一个联邦工作组敦促对与基因测试相关的专利进行改革。 10 月，司法部就 Myriad 案提交了一份简报，称分离出的 DNA 分子“与从棉籽中分离出来的棉花纤维一样，都是自然产物……”。",
           "slashed_text": "But as companies continue their attempts / at personalised medicine , / the courts will remain rather busy. The Myriad case itself is probably not over. Critics make three main arguments against gene patents : / a gene is a product of nature , / so it may not be patented ; / gene patents suppress innovation rather than reward it ; / and patents’ monopolies restrict access to genetic tests such as Myriad’s. A growing number seem to agree. Last year a federal task-force urged reform / for patents related to genetic tests. In October the Department of Justice filed a brief in the Myriad case , / arguing / that an isolated DNA molecule “is no less a product of nature ... than are cotton fibres / that have been separated / from cotton seeds.”",
-          "chunk_translation": "But as companies continue their attempts / at personalised medicine / the courts will remain rather busy. The Myriad case itself is probably not over. Critics make three main arguments against gene patents / 基因是自然的产物 / 所以它可能不会获得专利 / gene patents suppress innovation rather than reward it / and patents’ monopolies restrict access to genetic tests such as Myriad’s. A growing number seem to agree. Last year a federal task-force urged reform / for patents related to genetic tests. In October the Department of Justice filed a brief in the Myriad case / 争论 / that an isolated DNA molecule “is no less a product of nature ... than are cotton fibres / that have been separated / from cotton seeds",
+          "chunk_translation": "但随着各大公司继续推进个性化医疗的尝试 / 在个性化医疗领域 / 各级法院仍将相当忙碌 迈利亚德案本身很可能并未尘埃落定 批评人士针对基因专利提出了三大主要反对论据： / 基因属于天然产物 / 因此不应授予专利； / 基因专利压制了创新而非奖励创新； / 且专利垄断限制了人们获取基因检测服务的途径，如迈利亚德公司的检测 似乎有越来越多的人认同这一观点 去年一个联邦特别工作组敦促推进改革 / 针对与基因检测相关的专利 10月份美国司法部就迈利亚德案提交了一份辩护状 / 主张 / 分离出的DNA分子“同样属于天然产物…… 并不亚于棉纤维 / 那些被分离出来的 / 从棉籽中分离的”",
           "vocabulary": [
             {
               "word": "companies",
@@ -2276,7 +2276,7 @@
           "text": "Despite the appeals court’s decision, big questions remain unanswered. For example, it is unclear whether the sequencing of a whole genome violates the patents of individual genes within it. The case may yet reach the Supreme Court.",
           "translation": "尽管上诉法院做出了裁决，但仍有一些重大问题没有得到解答。例如，目前尚不清楚整个基因组的测序是否侵犯了其中单个基因的专利。该案可能仍会提交最高法院。",
           "slashed_text": "Despite the appeals court’s decision , / big questions remain unanswered. For example , / it is unclear whether the sequencing of a whole genome violates the patents of individual genes within it. The case may yet reach the Supreme Court.",
-          "chunk_translation": "尽管上诉法院做出了裁决 / big questions remain unanswered. For example / it is unclear whether the sequencing of a whole genome violates the patents of individual genes within it. The case may yet reach the Supreme Court",
+          "chunk_translation": "尽管上诉法院做出了裁决 / 但重大问题依然悬而未决 例如 / 目前尚不清楚对整个基因组进行测序是否会侵犯其中单个基因的专利权 该案最终仍有可能上诉至联邦最高法院",
           "vocabulary": [
             {
               "word": "Despite",
@@ -2330,7 +2330,7 @@
           "text": "As the industry advances, however, other suits may have an even greater impact.",
           "translation": "然而，随着行业的进步，其他诉讼可能会产生更大的影响。",
           "slashed_text": "As the industry advances , / however , / other suits may have an even greater impact.",
-          "chunk_translation": "随着行业的进步 / 然而 / 其他诉讼可能会产生更大的影响",
+          "chunk_translation": "然而随着该行业的向前发展 / 然而 / 其他相关诉讼可能会产生更为深远的影响",
           "vocabulary": [
             {
               "word": "industry",
@@ -2369,7 +2369,7 @@
           "text": "Companies are unlikely to file many more patents for human DNA molecules—most are already patented or in the public domain. Firms are now studying how genes interact, looking for correlations that might be used to determine the causes of disease or predict a drug’s efficacy. Companies are eager to win patents for “connecting the dots”, explains Hans Sauer, a lawyer for the BIO.",
           "translation": "公司不太可能为人类 DNA 分子申请更多专利——大多数已经获得专利或属于公共领域。公司现在正在研究基因如何相互作用，寻找可用于确定疾病原因或预测药物疗效的相关性。 BIO 律师汉斯·索尔 (Hans Sauer) 解释说，公司渴望赢得“连接点”的专利。",
           "slashed_text": "Companies are unlikely to file many more patents / for human DNA molecules — / most are already patented or in the public domain. Firms are now studying how genes interact , / looking / for correlations / that might be used to determine the causes of disease or predict a drug’s efficacy. Companies are eager to win patents for “connecting the dots” , / explains Hans Sauer , / a lawyer for the BIO.",
-          "chunk_translation": "Companies are unlikely to file many more patents / for human DNA molecules / most are already patented or in the public domain. Firms are now studying how genes interact / looking / for correlations / that might be used to determine the causes of disease or predict a drug’s efficacy. Companies are eager to win patents for “connecting the dots / 汉斯·绍尔解释说 / BIO 的律师",
+          "chunk_translation": "各公司不太可能再申请大量人类DNA分子专利—— / 针对人类DNA分子—— / 大多数基因要么已被授予专利，要么已进入公有领域 各大企业目前正在研究基因之间如何相互作用 / 寻找 / 潜在的关联性 / 这些关联可用于确定疾病病因或预测药物疗效 各家公司渴望在“关联分析”领域获得专利 / 汉斯·绍尔解释道 / 生物技术工业组织的律师",
           "vocabulary": [
             {
               "word": "Companies",
@@ -2423,7 +2423,7 @@
           "text": "Their success may be determined by a suit related to this issue, brought by the Mayo Clinic, which the Supreme Court will hear in its next term. The BIO recently held a convention which included sessions to coach lawyers on the shifting landscape for patents. Each meeting was packed.",
           "translation": "他们的成功可能取决于梅奥诊所提起的与此问题相关的诉讼，最高法院将在下个任期审理该诉讼。 BIO 最近举行了一次会议，其中包括对律师进行有关专利形势变化的培训。每次会议都座无虚席。",
           "slashed_text": "Their success may be determined by a suit related to this issue , / brought by the Mayo Clinic , / which the Supreme Court will hear in its next term. The BIO recently held a convention / which included sessions to coach lawyers on the shifting landscape / for patents. Each meeting was packed.",
-          "chunk_translation": "他们的成功可能取决于与此问题相关的诉讼 / 由梅奥诊所带来 / which the Supreme Court will hear in its next term. The BIO recently held a convention / which included sessions to coach lawyers on the shifting landscape / for patents. Each meeting was packed",
+          "chunk_translation": "他们的成功与否可能取决于梅奥诊所就此问题提起的一起诉讼 / 由梅奥诊所提起的诉讼 / 最高法院将在下一个审判期对此案进行审理 生物技术工业组织最近举办了一次研讨会 / 包含培训律师应对不断变化的专利格局的专题课程 / 针对专利领域 每场会议都座无虚席",
           "vocabulary": [
             {
               "word": "success",
@@ -2481,7 +2481,7 @@
           "text": "In 2010, a federal judge shook America’s biotech industry to its core.",
           "translation": "2010 年，一位联邦法官彻底震撼了美国生物技术产业。",
           "slashed_text": "In 2010 , / a federal judge shook America’s biotech industry to its core.",
-          "chunk_translation": "2010年 / 一位联邦法官彻底震撼了美国生物技术产业",
+          "chunk_translation": "2010年 / 一位联邦法官的判决彻底震撼了美国生物技术产业的核心",
           "syntax": {
             "breakdown": [
               {
@@ -2499,7 +2499,7 @@
           "text": "Companies had won patents for isolated DNA for decades—by 2005 some 20 % of human genes were parented.",
           "translation": "几十年来，公司已经获得了分离 DNA 的专利——到 2005 年，大约 20% 的人类基因是有亲本的。",
           "slashed_text": "Companies had won patents / for isolated DNA / for decades — / by 2005 some 20 % of human genes were parented.",
-          "chunk_translation": "Companies had won patents / for isolated DNA / for decades / by 2005 some 20 % of human genes were parented",
+          "chunk_translation": "数十年来各大公司一直在获取分离DNA的专利 / 针对分离出的DNA / 数十年来—— / 到2005年已有约20%的人类基因被授予了专利",
           "syntax": {
             "breakdown": [
               {
@@ -2517,7 +2517,7 @@
           "text": "But in March 2010 a judge ruled that genes were unpatentable.",
           "translation": "但 2010 年 3 月，一位法官裁定基因不可申请专利。",
           "slashed_text": "But / in March 2010 a judge ruled / that genes were unpatentable.",
-          "chunk_translation": "但 / in March 2010 a judge ruled / 基因无法申请专利",
+          "chunk_translation": "但 / 在2010年3月一位法官裁定 / 人类基因不具备专利资格",
           "syntax": {
             "breakdown": [
               {
@@ -2535,7 +2535,7 @@
           "text": "Executives were violently agitated.",
           "translation": "高管们非常激动。",
           "slashed_text": "Executives were violently agitated.",
-          "chunk_translation": "高管们情绪激动",
+          "chunk_translation": "企业高管们陷入了极大的震动与不安",
           "syntax": {
             "breakdown": [
               {
@@ -2553,7 +2553,7 @@
           "text": "The Biotechnology Industry Organisation (BIO), a trade group, assured members that this was just a “preliminary step” in a longer battle.",
           "translation": "贸易组织生物技术工业组织（BIO）向成员保证，这只是一场长期斗争中的“初步步骤”。",
           "slashed_text": "The Biotechnology Industry Organisation (BIO) , / a trade group , / assured members / that this was just a “preliminary step” in a longer battle.",
-          "chunk_translation": "生物技术产业组织 (BIO) / 一个贸易集团 / 放心会员 / 这只是一场长期战斗中的“第一步”",
+          "chunk_translation": "生物技术工业组织这一行业贸易团体 / 一个行业贸易团体 / 向会员保证 / 这只是一场漫长斗争中的“初步步骤”",
           "syntax": {
             "breakdown": [
               {
@@ -2571,7 +2571,7 @@
           "text": "On July 29th they were relieved, at least temporarily.",
           "translation": "7 月 29 日，他们松了一口气，至少暂时松了口气。",
           "slashed_text": "On July 29th they were relieved , / at least temporarily.",
-          "chunk_translation": "7月29日，他们松了一口气 / 至少暂时",
+          "chunk_translation": "7月29日，他们如释重负 / 至少暂时如此",
           "syntax": {
             "breakdown": [
               {
@@ -2589,7 +2589,7 @@
           "text": "A federal appeals court overturned the prior decision, ruling that Myriad Genetics could indeed hold patents to two genes that help forecast a woman’s risk of breast cancer.",
           "translation": "联邦上诉法院推翻了先前的裁决，裁定 Myriad Genetics 确实可以拥有两个有助于预测女性患乳腺癌风险的基因的专利。",
           "slashed_text": "A federal appeals court overturned the prior decision , / ruling / that Myriad Genetics could indeed hold patents to two genes / that help forecast a woman’s risk of breast cancer.",
-          "chunk_translation": "联邦上诉法院推翻了先前的裁决 / 裁决 / Myriad Genetics 确实可以拥有两个基因的专利 / 有助于预测女性患乳腺癌的风险",
+          "chunk_translation": "一家联邦上诉法院推翻了先前的裁决 / 裁定 / 迈利亚德基因公司确实可以拥有两项基因专利 / 这两项基因有助于预测女性患乳腺癌的风险",
           "syntax": {
             "breakdown": [
               {
@@ -2607,7 +2607,7 @@
           "text": "The chief executive of Myriad, a company in Utah, said the ruling was a blessing to firms and patients alike.",
           "translation": "犹他州 Myriad 公司的首席执行官表示，这一裁决对公司和患者来说都是一件好事。",
           "slashed_text": "The chief executive of Myriad , / a company / in Utah , / said the ruling was a blessing to firms and patients alike.",
-          "chunk_translation": "Myriad 首席执行官 / a company / in Utah / 表示这一裁决对公司和患者来说都是福音",
+          "chunk_translation": "迈利亚德公司的首席执行官 / 一家公司 / 位于犹他州 / 表示这一裁决对企业和患者而言都是福音",
           "syntax": {
             "breakdown": [
               {
@@ -2625,7 +2625,7 @@
           "text": "But as companies continue their attempts at personalised medicine, the courts will remain rather busy.",
           "translation": "但随着公司继续尝试个性化医疗，法院将仍然相当忙碌。",
           "slashed_text": "But as companies continue their attempts / at personalised medicine , / the courts will remain rather busy.",
-          "chunk_translation": "But as companies continue their attempts / at personalised medicine / 法院仍将相当忙碌",
+          "chunk_translation": "但随着各大公司继续推进个性化医疗的尝试 / 在个性化医疗领域 / 各级法院仍将相当忙碌",
           "syntax": {
             "breakdown": [
               {
@@ -2643,7 +2643,7 @@
           "text": "The Myriad case itself is probably not over.",
           "translation": "Myriad 案本身可能还没有结束。",
           "slashed_text": "The Myriad case itself is probably not over.",
-          "chunk_translation": "Myriad 案本身可能还没有结束",
+          "chunk_translation": "迈利亚德案本身很可能并未尘埃落定",
           "syntax": {
             "breakdown": [
               {
@@ -2661,7 +2661,7 @@
           "text": "Critics make three main arguments against gene patents: a gene is a product of nature, so it may not be patented; gene patents suppress innovation rather than reward it; and patents’ monopolies restrict access to genetic tests such as Myriad’s.",
           "translation": "批评者对基因专利提出了三个主要论点：基因是自然的产物，因此不能申请专利；基因专利抑制创新而不是奖励创新；专利垄断限制了 Myriad 等基因检测的使用。",
           "slashed_text": "Critics make three main arguments against gene patents : / a gene is a product of nature , / so it may not be patented ; / gene patents suppress innovation rather than reward it ; / and patents’ monopolies restrict access to genetic tests such as Myriad’s.",
-          "chunk_translation": "批评者提出反对基因专利的三个主要论点 / 基因是自然的产物 / 所以它可能不会获得专利 / gene patents suppress innovation rather than reward it / 专利垄断限制了 Myriad 等基因测试的使用",
+          "chunk_translation": "批评人士针对基因专利提出了三大主要反对论据： / 基因属于天然产物 / 因此不应授予专利； / 基因专利压制了创新而非奖励创新； / 且专利垄断限制了人们获取基因检测服务的途径，如迈利亚德公司的检测",
           "syntax": {
             "breakdown": [
               {
@@ -2679,7 +2679,7 @@
           "text": "A growing number seem to agree.",
           "translation": "越来越多的人似乎同意这一观点。",
           "slashed_text": "A growing number seem to agree.",
-          "chunk_translation": "越来越多的人似乎同意",
+          "chunk_translation": "似乎有越来越多的人认同这一观点",
           "syntax": {
             "breakdown": [
               {
@@ -2697,7 +2697,7 @@
           "text": "Last year a federal task-force urged reform for patents related to genetic tests.",
           "translation": "去年，一个联邦工作组敦促对与基因测试相关的专利进行改革。",
           "slashed_text": "Last year a federal task-force urged reform / for patents related to genetic tests.",
-          "chunk_translation": "Last year a federal task-force urged reform / for patents related to genetic tests",
+          "chunk_translation": "去年一个联邦特别工作组敦促推进改革 / 针对与基因检测相关的专利",
           "syntax": {
             "breakdown": [
               {
@@ -2715,7 +2715,7 @@
           "text": "In October the Department of Justice filed a brief in the Myriad case, arguing that an isolated DNA molecule “is no less a product of nature ...",
           "translation": "10 月，司法部就 Myriad 案提交了一份简报，认为分离的 DNA 分子“不亚于自然产物......",
           "slashed_text": "In October the Department of Justice filed a brief in the Myriad case , / arguing / that an isolated DNA molecule “is no less a product of nature ...",
-          "chunk_translation": "10 月，司法部就 Myriad 案提交了一份简报 / 争论 / 一个分离的 DNA 分子“不亚于自然的产物",
+          "chunk_translation": "10月份美国司法部就迈利亚德案提交了一份辩护状 / 主张 / 分离出的DNA分子“同样属于天然产物……",
           "syntax": {
             "breakdown": [
               {
@@ -2733,7 +2733,7 @@
           "text": "than are cotton fibres that have been separated from cotton seeds.”",
           "translation": "比从棉籽中分离出来的棉纤维还要多。”",
           "slashed_text": "than are cotton fibres / that have been separated / from cotton seeds.”",
-          "chunk_translation": "比棉纤维 / that have been separated / from cotton seeds",
+          "chunk_translation": "并不亚于棉纤维 / 那些被分离出来的 / 从棉籽中分离的”",
           "syntax": {
             "breakdown": [
               {
@@ -2751,7 +2751,7 @@
           "text": "Despite the appeals court’s decision, big questions remain unanswered.",
           "translation": "尽管上诉法院做出了裁决，但仍有一些重大问题没有得到解答。",
           "slashed_text": "Despite the appeals court’s decision , / big questions remain unanswered.",
-          "chunk_translation": "尽管上诉法院做出了裁决 / 重大问题仍未得到解答",
+          "chunk_translation": "尽管上诉法院做出了裁决 / 但重大问题依然悬而未决",
           "syntax": {
             "breakdown": [
               {
@@ -2769,7 +2769,7 @@
           "text": "For example, it is unclear whether the sequencing of a whole genome violates the patents of individual genes within it.",
           "translation": "例如，目前尚不清楚整个基因组的测序是否侵犯了其中单个基因的专利。",
           "slashed_text": "For example , / it is unclear whether the sequencing of a whole genome violates the patents of individual genes within it.",
-          "chunk_translation": "例如 / 目前尚不清楚整个基因组的测序是否侵犯了其中单个基因的专利",
+          "chunk_translation": "例如 / 目前尚不清楚对整个基因组进行测序是否会侵犯其中单个基因的专利权",
           "syntax": {
             "breakdown": [
               {
@@ -2787,7 +2787,7 @@
           "text": "The case may yet reach the Supreme Court.",
           "translation": "该案可能仍会提交最高法院。",
           "slashed_text": "The case may yet reach the Supreme Court.",
-          "chunk_translation": "该案可能仍将提交最高法院",
+          "chunk_translation": "该案最终仍有可能上诉至联邦最高法院",
           "syntax": {
             "breakdown": [
               {
@@ -2805,7 +2805,7 @@
           "text": "As the industry advances, however, other suits may have an even greater impact.",
           "translation": "然而，随着行业的进步，其他诉讼可能会产生更大的影响。",
           "slashed_text": "As the industry advances , / however , / other suits may have an even greater impact.",
-          "chunk_translation": "随着行业的进步 / 然而 / 其他诉讼可能会产生更大的影响",
+          "chunk_translation": "然而随着该行业的向前发展 / 然而 / 其他相关诉讼可能会产生更为深远的影响",
           "syntax": {
             "breakdown": [
               {
@@ -2823,7 +2823,7 @@
           "text": "Companies are unlikely to file many more patents for human DNA molecules—most are already patented or in the public domain.",
           "translation": "公司不太可能为人类 DNA 分子申请更多专利——大多数已经获得专利或属于公共领域。",
           "slashed_text": "Companies are unlikely to file many more patents / for human DNA molecules — / most are already patented or in the public domain.",
-          "chunk_translation": "Companies are unlikely to file many more patents / for human DNA molecules / most are already patented or in the public domain",
+          "chunk_translation": "各公司不太可能再申请大量人类DNA分子专利—— / 针对人类DNA分子—— / 大多数基因要么已被授予专利，要么已进入公有领域",
           "syntax": {
             "breakdown": [
               {
@@ -2841,7 +2841,7 @@
           "text": "Firms are now studying how genes interact, looking for correlations that might be used to determine the causes of disease or predict a drug’s efficacy.",
           "translation": "公司现在正在研究基因如何相互作用，寻找可用于确定疾病原因或预测药物疗效的相关性。",
           "slashed_text": "Firms are now studying how genes interact , / looking / for correlations / that might be used to determine the causes of disease or predict a drug’s efficacy.",
-          "chunk_translation": "公司现在正在研究基因如何相互作用 / looking / for correlations / 可用于确定疾病原因或预测药物疗效",
+          "chunk_translation": "各大企业目前正在研究基因之间如何相互作用 / 寻找 / 潜在的关联性 / 这些关联可用于确定疾病病因或预测药物疗效",
           "syntax": {
             "breakdown": [
               {
@@ -2859,7 +2859,7 @@
           "text": "Companies are eager to win patents for “connecting the dots”, explains Hans Sauer, a lawyer for the BIO.",
           "translation": "BIO 律师汉斯·索尔 (Hans Sauer) 解释说，公司渴望赢得“连接点”的专利。",
           "slashed_text": "Companies are eager to win patents for “connecting the dots” , / explains Hans Sauer , / a lawyer for the BIO.",
-          "chunk_translation": "Companies are eager to win patents for “connecting the dots / 汉斯·绍尔解释说 / BIO 的律师",
+          "chunk_translation": "各家公司渴望在“关联分析”领域获得专利 / 汉斯·绍尔解释道 / 生物技术工业组织的律师",
           "syntax": {
             "breakdown": [
               {
@@ -2877,7 +2877,7 @@
           "text": "Their success may be determined by a suit related to this issue, brought by the Mayo Clinic, which the Supreme Court will hear in its next term.",
           "translation": "他们的成功可能取决于梅奥诊所提起的与此问题相关的诉讼，最高法院将在下个任期审理该诉讼。",
           "slashed_text": "Their success may be determined by a suit related to this issue , / brought by the Mayo Clinic , / which the Supreme Court will hear in its next term.",
-          "chunk_translation": "他们的成功可能取决于与此问题相关的诉讼 / 由梅奥诊所带来 / 最高法院将在下一届任期内审理",
+          "chunk_translation": "他们的成功与否可能取决于梅奥诊所就此问题提起的一起诉讼 / 由梅奥诊所提起的诉讼 / 最高法院将在下一个审判期对此案进行审理",
           "syntax": {
             "breakdown": [
               {
@@ -2895,7 +2895,7 @@
           "text": "The BIO recently held a convention which included sessions to coach lawyers on the shifting landscape for patents.",
           "translation": "BIO 最近举行了一次会议，其中包括对律师进行有关专利形势变化的培训。",
           "slashed_text": "The BIO recently held a convention / which included sessions to coach lawyers on the shifting landscape / for patents.",
-          "chunk_translation": "BIO最近召开了一次大会 / which included sessions to coach lawyers on the shifting landscape / for patents",
+          "chunk_translation": "生物技术工业组织最近举办了一次研讨会 / 包含培训律师应对不断变化的专利格局的专题课程 / 针对专利领域",
           "syntax": {
             "breakdown": [
               {
@@ -2913,7 +2913,7 @@
           "text": "Each meeting was packed.",
           "translation": "每次会议都座无虚席。",
           "slashed_text": "Each meeting was packed.",
-          "chunk_translation": "每次会议都座无虚席",
+          "chunk_translation": "每场会议都座无虚席",
           "syntax": {
             "breakdown": [
               {
@@ -3386,7 +3386,7 @@
           "text": "The great recession may be over, but this era of high joblessness is probably beginning.",
           "translation": "大衰退可能已经结束，但这个高失业率的时代可能正在开始。",
           "slashed_text": "The great recession may be over , / but this era of high joblessness is probably beginning.",
-          "chunk_translation": "大衰退可能已经结束 / 但这个高失业率的时代可能正在开始",
+          "chunk_translation": "大衰退或许已经结束 / 但这个高失业率的时代可能才刚刚开始",
           "vocabulary": [
             {
               "word": "great",
@@ -3425,7 +3425,7 @@
           "text": "Before it ends, it will likely change the life course and character of a generation of young adults. And ultimately, it is likely to reshape our politics, our culture, and the character of our society for years.",
           "translation": "在它结束之前，它很可能会改变一代年轻人的生命历程和性格。最终，它可能会在未来几年重塑我们的政治、文化和社会特征。",
           "slashed_text": "Before it ends , / it will likely change the life course and character of a generation of young adults. And ultimately , / it is likely to reshape our politics , / our culture , / and the character of our society / for years.",
-          "chunk_translation": "在结束之前 / it will likely change the life course and character of a generation of young adults. And ultimately / 它可能会重塑我们的政治 / 我们的文化 / and the character of our society / for years",
+          "chunk_translation": "在它结束之前 / 它很可能会改变整整一代年轻人的生命轨迹和性格特征 并且归根结底 / 它很可能会重塑我们的政治体制、 / 我们的文化风貌 / 以及我们社会的本质特征 / 在未来数年里",
           "vocabulary": [
             {
               "word": "ends",
@@ -3479,7 +3479,7 @@
           "text": "No one tries harder than the jobless to find silver linings in this national economic disaster. Many said that unemployment, while extremely painful, had improved them in some ways; they had become less materialistic and more financially prudent; they were more aware of the struggles of others. In limited respects, perhaps the recession will leave society better off. At the very least, it has awoken us from our national fever dream of easy riches and bigger houses, and put a necessary end to an era of reckless personal spending.",
           "translation": "没有人比失业者更努力地在这场国家经济灾难中寻找一线希望。许多人表示，失业虽然极其痛苦，但在某些方面改善了他们的生活。他们变得不那么物质至上，在财务上更加谨慎；他们更了解其他人的挣扎。在有限的方面，经济衰退也许会让社会变得更好。至少，它唤醒了我们对轻松致富和拥有更大房子的全民狂热梦想，并结束了不计后果的个人消费时代。",
           "slashed_text": "No one tries harder than the jobless to find silver linings / in this national economic disaster. Many said / that unemployment , / while extremely painful , / had improved them / in some ways ; / they had become less materialistic and more financially prudent ; / they were more aware of the struggles of others. In limited respects , / perhaps the recession will leave society better off. At the very least , / it has awoken us from our national fever dream of easy riches and bigger houses , / and put a necessary end to an era of reckless personal spending.",
-          "chunk_translation": "No one tries harder than the jobless to find silver linings / in this national economic disaster. Many said / 失业 / 虽然极度痛苦 / had improved them / in some ways / 他们变得不那么物质至上，在财务上更加谨慎 / they were more aware of the struggles of others. In limited respects / perhaps the recession will leave society better off. At the very least / 它把我们从热衷于轻松致富和更大房子的民族梦想中唤醒 / 并必要地结束一个不计后果的个人消费时代",
+          "chunk_translation": "没有人比失业群体更加竭尽全力地寻找一线希望 / 在这场国家经济灾难之中 许多人表示 / 失业 / 虽然极其痛苦 / 却在某些方面提升了他们 / 在某些方面； / 他们变得不再那么物质至上，在财务上也更为审慎； / 他们对其他人的挣扎困境也更加感同身受 在有限的层面上 / 也许这场经济衰退会让社会变得更好 至少 / 它将我们从轻松发财和住更大房子的全民狂热梦想中唤醒 / 并对那个肆意挥霍个人消费的时代予以了必要的终结",
           "vocabulary": [
             {
               "word": "at the very least",
@@ -3533,7 +3533,7 @@
           "text": "But for the most part, these benefits seem thin, uncertain, and far off. In The Moral Consequences of Economic Growth, the economic historian Benjamin Friedman argues that both inside and outside the U.S., lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive, and have usually stopped or reversed the advance of rights and freedoms. Anti-immigrant sentiment typically increases, as does conflict between races and classes.",
           "translation": "但在大多数情况下，这些好处似乎微不足道、不确定且遥远。经济历史学家本杰明·弗里德曼在《经济增长的道德后果》一书中指出，无论是在美国国内还是国外，长期的经济停滞或衰退几乎总是会让社会更加卑鄙、包容性更差，并且通常会阻止或逆转权利和自由的进步。反移民情绪通常会增加，种族和阶级之间的冲突也会增加。",
           "slashed_text": "But for the most part , / these benefits seem thin , / uncertain , / and far off. In The Moral Consequences of Economic Growth , / the economic historian Benjamin Friedman argues / that both inside and outside the U.S. , / lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive , / and have usually stopped or reversed the advance of rights and freedoms. Anti-immigrant sentiment typically increases , / as does conflict between races and classes.",
-          "chunk_translation": "但大多数情况下 / 这些好处似乎很薄弱 / 不确定 / and far off. In The Moral Consequences of Economic Growth / 经济历史学家本杰明·弗里德曼认为 / 无论是在美国境内还是境外 / 长期的经济停滞或衰退几乎总是让社会变得更加卑鄙和包容 / and have usually stopped or reversed the advance of rights and freedoms. Anti-immigrant sentiment typically increases / 种族和阶级之间的冲突也是如此",
+          "chunk_translation": "但在大多数情况下 / 这些益处显得微薄弱小 / 充满不确定性 / 且遥不可及 在《经济增长的道德后果》一书中 / 经济史学家本杰明·弗里德曼指出 / 无论在美国国内还是国外 / 长期的经济停滞或衰退几乎总是让社会变得更加刻薄狭隘且缺乏包容 / 并且通常会阻碍甚至逆转人权与自由的推进 反移民情绪通常会随之加剧 / 种族和阶级之间的冲突也是如此",
           "vocabulary": [
             {
               "word": "benefits",
@@ -3587,7 +3587,7 @@
           "text": "Income inequality usually falls during a recession, but it has not shrunk in this one.",
           "translation": "收入不平等通常会在经济衰退期间缩小，但在这次衰退中并没有缩小。",
           "slashed_text": "Income inequality usually falls during a recession , / but it has not shrunk / in this one.",
-          "chunk_translation": "经济衰退期间收入不平等通常会下降 / but it has not shrunk / in this one",
+          "chunk_translation": "收入不平等通常在经济衰退期间会有所下降 / 但在这一次衰退中却没有缩小 / 在这一次中",
           "vocabulary": [
             {
               "word": "Income",
@@ -3626,7 +3626,7 @@
           "text": "Indeed, this period of economic weakness may reinforce class divides, and decrease opportunities to cross them—especially for young people. The research of Till V on Wachter, the economist at Columbia University, suggests that not all people graduating into a recession see their life chances dimmed: those with degrees from elite universities catch up fairly quickly to where they otherwise would have been if they had graduated in better times; it is the masses beneath them that are left behind.",
           "translation": "事实上，这段经济疲软时期可能会加剧阶级鸿沟，并减少跨越鸿沟的机会——尤其是对年轻人而言。哥伦比亚大学经济学家蒂尔·V (Till V) 对瓦赫特 (Wachter) 的研究表明，并非所有在经济衰退中毕业的人都会看到自己的生活机会变得黯淡：那些拥有精英大学学位的人很快就会赶上他们在更好的时期毕业时本可以达到的水平；被抛在后面的是他们下面的群众。",
           "slashed_text": "Indeed , / this period of economic weakness may reinforce class divides , / and decrease opportunities to cross them — / especially / for young people. The research of Till V / on Wachter , / the economist / at Columbia University , / suggests / that not all people graduating into a recession see their life chances dimmed : / those / with degrees / from elite universities catch up fairly quickly to / where they otherwise would have been / if they had graduated / in better times ; / it is the masses beneath them / that are left behind.",
-          "chunk_translation": "的确 / 这段经济疲软时期可能会加剧阶级分化 / and decrease opportunities to cross them / especially / for young people. The research of Till V / on Wachter / the economist / at Columbia University / 建议 / 并非所有进入经济衰退的人都会看到他们的生活机会变得黯淡 / 那些 / with degrees / from elite universities catch up fairly quickly to / 否则他们会在哪里 / if they had graduated / in better times / 这是他们下面的群众 / 被留下的",
+          "chunk_translation": "确实 / 这段经济疲软期可能会加剧阶级分化 / 并减少跨越阶级界限的机会—— / 尤其是 / 对年轻人而言 蒂尔·冯 / ·瓦赫特的研究 / 这位经济学家 / 任教于哥伦比亚大学 / 研究表明 / 并非所有在经济衰退期毕业的人都会面临人生前景黯淡： / 那些 / 拥有学位的人 / 名校毕业的能够相当迅速地赶上 / 他们在正常情况下所能达到的水平 / 如果他们毕业 / 在更好的时期； / 被抛在后面的正是处于他们下层的普通大众 / 那些被抛在后面的大众",
           "vocabulary": [
             {
               "word": "Indeed",
@@ -3680,7 +3680,7 @@
           "text": "In the Internet age, it is particularly easy to see the resentment that has always been hidden within American society. More difficult, in the moment, is discerning precisely how these lean times are affecting society’s character. In many respects, the U.S. was more socially tolerant entering this recession than at any time in its history, and a variety of national polls on social conflict since then have shown mixed results. We will have to wait and see exactly how these hard times will reshape our social fabric. But they certainly will reshape it, and all the more so the longer they extend.",
           "translation": "在网络时代，特别容易看到美国社会内部一直隐藏的怨恨情绪。目前，更困难的是准确辨别这些经济不景气的时期如何影响社会特征。在许多方面，美国在进入这次衰退时比历史上任何时候都更加宽容，自那时以来有关社会冲突的各种全国民意调查显示出不同的结果。我们将不得不拭目以待，看看这些困难时期将如何重塑我们的社会结构。但他们肯定会重塑它，而且随着时间的延长，情况更是如此。",
           "slashed_text": "In the Internet age , / it is particularly easy to see the resentment / that has always been hidden within American society. More difficult , / in the moment , / is discerning precisely how these lean times are affecting society’s character. In many respects , / the U.S. was more socially tolerant entering this recession than at any time in its history , / and a variety of national polls / on social conflict / since then have shown mixed results. We will have to wait and see exactly how these hard times will reshape our social fabric. But they certainly will reshape it , / and all the more so the longer they extend.",
-          "chunk_translation": "在网络时代 / 特别容易看出反感 / that has always been hidden within American society. More difficult / 此刻 / is discerning precisely how these lean times are affecting society’s character. In many respects / the U.S. was more socially tolerant entering this recession than at any time in its history / and a variety of national polls / on social conflict / since then have shown mixed results. We will have to wait and see exactly how these hard times will reshape our social fabric. But they certainly will reshape it / 而且它们延伸的时间越长",
+          "chunk_translation": "在互联网时代 / 尤其容易看清一直深藏于美国社会内部的怨恨之情 / 一直深藏于美国社会中的怨恨 眼下更加困难的 / 在当前 / 是准确洞察这些艰难岁月究竟在如何重塑我们社会的性格特质 在许多方面 / 美国 在进入这场经济衰退时比其历史上任何时期都更具社会包容性 / 并且自那时起开展的一系列关于社会冲突的全国民意调查 / 关于社会冲突 / 呈现出了喜忧参半的结果 我们不得不拭目以待，看看这些艰难岁月究竟会如何重塑我们的社会结构 但它们必然会重塑社会结构 / 而且经济困境持续的时间越长，这种重塑就越深刻",
           "vocabulary": [
             {
               "word": "Internet",
@@ -3738,7 +3738,7 @@
           "text": "The great recession may be over, but this era of high joblessness is probably beginning.",
           "translation": "大衰退可能已经结束，但这个高失业率的时代可能正在开始。",
           "slashed_text": "The great recession may be over , / but this era of high joblessness is probably beginning.",
-          "chunk_translation": "大衰退可能已经结束 / 但这个高失业率的时代可能正在开始",
+          "chunk_translation": "大衰退或许已经结束 / 但这个高失业率的时代可能才刚刚开始",
           "syntax": {
             "breakdown": [
               {
@@ -3756,7 +3756,7 @@
           "text": "Before it ends, it will likely change the life course and character of a generation of young adults.",
           "translation": "在它结束之前，它很可能会改变一代年轻人的生命历程和性格。",
           "slashed_text": "Before it ends , / it will likely change the life course and character of a generation of young adults.",
-          "chunk_translation": "在结束之前 / 它可能会改变一代年轻人的生命历程和性格",
+          "chunk_translation": "在它结束之前 / 它很可能会改变整整一代年轻人的生命轨迹和性格特征",
           "syntax": {
             "breakdown": [
               {
@@ -3774,7 +3774,7 @@
           "text": "And ultimately, it is likely to reshape our politics, our culture, and the character of our society for years.",
           "translation": "最终，它可能会在未来几年重塑我们的政治、文化和社会特征。",
           "slashed_text": "And ultimately , / it is likely to reshape our politics , / our culture , / and the character of our society / for years.",
-          "chunk_translation": "最终 / 它可能会重塑我们的政治 / 我们的文化 / and the character of our society / for years",
+          "chunk_translation": "并且归根结底 / 它很可能会重塑我们的政治体制、 / 我们的文化风貌 / 以及我们社会的本质特征 / 在未来数年里",
           "syntax": {
             "breakdown": [
               {
@@ -3792,7 +3792,7 @@
           "text": "No one tries harder than the jobless to find silver linings in this national economic disaster.",
           "translation": "没有人比失业者更努力地在这场国家经济灾难中寻找一线希望。",
           "slashed_text": "No one tries harder than the jobless to find silver linings / in this national economic disaster.",
-          "chunk_translation": "No one tries harder than the jobless to find silver linings / in this national economic disaster",
+          "chunk_translation": "没有人比失业群体更加竭尽全力地寻找一线希望 / 在这场国家经济灾难之中",
           "syntax": {
             "breakdown": [
               {
@@ -3810,7 +3810,7 @@
           "text": "Many said that unemployment, while extremely painful, had improved them in some ways; they had become less materialistic and more financially prudent; they were more aware of the struggles of others.",
           "translation": "许多人表示，失业虽然极其痛苦，但在某些方面改善了他们的生活。他们变得不那么物质至上，在财务上更加谨慎；他们更了解其他人的挣扎。",
           "slashed_text": "Many said / that unemployment , / while extremely painful , / had improved them / in some ways ; / they had become less materialistic and more financially prudent ; / they were more aware of the struggles of others.",
-          "chunk_translation": "很多人说 / 失业 / 虽然极度痛苦 / had improved them / in some ways / 他们变得不那么物质至上，在财务上更加谨慎 / 他们更了解其他人的挣扎",
+          "chunk_translation": "许多人表示 / 失业 / 虽然极其痛苦 / 却在某些方面提升了他们 / 在某些方面； / 他们变得不再那么物质至上，在财务上也更为审慎； / 他们对其他人的挣扎困境也更加感同身受",
           "syntax": {
             "breakdown": [
               {
@@ -3833,7 +3833,7 @@
           "text": "In limited respects, perhaps the recession will leave society better off.",
           "translation": "在有限的方面，经济衰退也许会让社会变得更好。",
           "slashed_text": "In limited respects , / perhaps the recession will leave society better off.",
-          "chunk_translation": "在有限的方面 / 也许经济衰退会让社会变得更好",
+          "chunk_translation": "在有限的层面上 / 也许这场经济衰退会让社会变得更好",
           "syntax": {
             "breakdown": [
               {
@@ -3851,7 +3851,7 @@
           "text": "At the very least, it has awoken us from our national fever dream of easy riches and bigger houses, and put a necessary end to an era of reckless personal spending.",
           "translation": "至少，它唤醒了我们对轻松致富和拥有更大房子的全民狂热梦想，并结束了不计后果的个人消费时代。",
           "slashed_text": "At the very least , / it has awoken us from our national fever dream of easy riches and bigger houses , / and put a necessary end to an era of reckless personal spending.",
-          "chunk_translation": "至少 / 它把我们从热衷于轻松致富和更大房子的民族梦想中唤醒 / 并必要地结束一个不计后果的个人消费时代",
+          "chunk_translation": "至少 / 它将我们从轻松发财和住更大房子的全民狂热梦想中唤醒 / 并对那个肆意挥霍个人消费的时代予以了必要的终结",
           "syntax": {
             "breakdown": [
               {
@@ -3869,7 +3869,7 @@
           "text": "But for the most part, these benefits seem thin, uncertain, and far off.",
           "translation": "但在大多数情况下，这些好处似乎微不足道、不确定且遥远。",
           "slashed_text": "But for the most part , / these benefits seem thin , / uncertain , / and far off.",
-          "chunk_translation": "但大多数情况下 / 这些好处似乎很薄弱 / 不确定 / 和遥远的地方",
+          "chunk_translation": "但在大多数情况下 / 这些益处显得微薄弱小 / 充满不确定性 / 且遥不可及",
           "syntax": {
             "breakdown": [
               {
@@ -3887,7 +3887,7 @@
           "text": "In The Moral Consequences of Economic Growth, the economic historian Benjamin Friedman argues that both inside and outside the U.S., lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive, and have usually stopped or reversed the advance of rights and freedoms.",
           "translation": "经济历史学家本杰明·弗里德曼在《经济增长的道德后果》一书中指出，无论是在美国国内还是国外，长期的经济停滞或衰退几乎总是会让社会变得更加卑鄙、包容性更差，并且通常会阻止或逆转权利和自由的进步。",
           "slashed_text": "In The Moral Consequences of Economic Growth , / the economic historian Benjamin Friedman argues / that both inside and outside the U.S. , / lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive , / and have usually stopped or reversed the advance of rights and freedoms.",
-          "chunk_translation": "经济增长的道德后果 / 经济历史学家本杰明·弗里德曼认为 / 无论是在美国境内还是境外 / 长期的经济停滞或衰退几乎总是让社会变得更加卑鄙和包容 / 通常会阻止或逆转权利和自由的进步",
+          "chunk_translation": "在《经济增长的道德后果》一书中 / 经济史学家本杰明·弗里德曼指出 / 无论在美国国内还是国外 / 长期的经济停滞或衰退几乎总是让社会变得更加刻薄狭隘且缺乏包容 / 并且通常会阻碍甚至逆转人权与自由的推进",
           "syntax": {
             "breakdown": [
               {
@@ -3905,7 +3905,7 @@
           "text": "Anti-immigrant sentiment typically increases, as does conflict between races and classes.",
           "translation": "反移民情绪通常会增加，种族和阶级之间的冲突也会增加。",
           "slashed_text": "Anti-immigrant sentiment typically increases , / as does conflict between races and classes.",
-          "chunk_translation": "反移民情绪通常会增加 / 种族和阶级之间的冲突也是如此",
+          "chunk_translation": "反移民情绪通常会随之加剧 / 种族和阶级之间的冲突也是如此",
           "syntax": {
             "breakdown": [
               {
@@ -3923,7 +3923,7 @@
           "text": "Income inequality usually falls during a recession, but it has not shrunk in this one.",
           "translation": "收入不平等通常会在经济衰退期间缩小，但在这次衰退中并没有缩小。",
           "slashed_text": "Income inequality usually falls during a recession , / but it has not shrunk / in this one.",
-          "chunk_translation": "经济衰退期间收入不平等通常会下降 / but it has not shrunk / in this one",
+          "chunk_translation": "收入不平等通常在经济衰退期间会有所下降 / 但在这一次衰退中却没有缩小 / 在这一次中",
           "syntax": {
             "breakdown": [
               {
@@ -3941,7 +3941,7 @@
           "text": "Indeed, this period of economic weakness may reinforce class divides, and decrease opportunities to cross them—especially for young people.",
           "translation": "事实上，这段经济疲软时期可能会加剧阶级鸿沟，并减少跨越鸿沟的机会——尤其是对年轻人而言。",
           "slashed_text": "Indeed , / this period of economic weakness may reinforce class divides , / and decrease opportunities to cross them — / especially / for young people.",
-          "chunk_translation": "的确 / 这段经济疲软时期可能会加剧阶级分化 / and decrease opportunities to cross them / especially / for young people",
+          "chunk_translation": "确实 / 这段经济疲软期可能会加剧阶级分化 / 并减少跨越阶级界限的机会—— / 尤其是 / 对年轻人而言",
           "syntax": {
             "breakdown": [
               {
@@ -3959,7 +3959,7 @@
           "text": "The research of Till V on Wachter, the economist at Columbia University, suggests that not all people graduating into a recession see their life chances dimmed: those with degrees from elite universities catch up fairly quickly to where they otherwise would have been if they had graduated in better times; it is the masses beneath them that are left behind.",
           "translation": "哥伦比亚大学经济学家蒂尔·V (Till V) 对瓦赫特 (Wachter) 的研究表明，并非所有在经济衰退中毕业的人都会看到自己的生活机会变得黯淡：那些拥有精英大学学位的人很快就会赶上他们在更好的时期毕业时本可以达到的水平；被抛在后面的是他们下面的群众。",
           "slashed_text": "The research of Till V / on Wachter , / the economist / at Columbia University , / suggests / that not all people graduating into a recession see their life chances dimmed : / those / with degrees / from elite universities catch up fairly quickly to / where they otherwise would have been / if they had graduated / in better times ; / it is the masses beneath them / that are left behind.",
-          "chunk_translation": "The research of Till V / on Wachter / the economist / at Columbia University / 建议 / 并非所有进入经济衰退的人都会看到他们的生活机会变得黯淡 / 那些 / with degrees / from elite universities catch up fairly quickly to / 否则他们会在哪里 / if they had graduated / in better times / 这是他们下面的群众 / 被留下的",
+          "chunk_translation": "蒂尔·冯 / ·瓦赫特的研究 / 这位经济学家 / 任教于哥伦比亚大学 / 研究表明 / 并非所有在经济衰退期毕业的人都会面临人生前景黯淡： / 那些 / 拥有学位的人 / 名校毕业的能够相当迅速地赶上 / 他们在正常情况下所能达到的水平 / 如果他们毕业 / 在更好的时期； / 被抛在后面的正是处于他们下层的普通大众 / 那些被抛在后面的大众",
           "syntax": {
             "breakdown": [
               {
@@ -3982,7 +3982,7 @@
           "text": "In the Internet age, it is particularly easy to see the resentment that has always been hidden within American society.",
           "translation": "在网络时代，特别容易看到美国社会内部一直隐藏的怨恨情绪。",
           "slashed_text": "In the Internet age , / it is particularly easy to see the resentment / that has always been hidden within American society.",
-          "chunk_translation": "在网络时代 / 特别容易看出反感 / 一直隐藏在美国社会中",
+          "chunk_translation": "在互联网时代 / 尤其容易看清一直深藏于美国社会内部的怨恨之情 / 一直深藏于美国社会中的怨恨",
           "syntax": {
             "breakdown": [
               {
@@ -4000,7 +4000,7 @@
           "text": "More difficult, in the moment, is discerning precisely how these lean times are affecting society’s character.",
           "translation": "目前，更困难的是准确辨别这些经济不景气的时期如何影响社会特征。",
           "slashed_text": "More difficult , / in the moment , / is discerning precisely how these lean times are affecting society’s character.",
-          "chunk_translation": "比较困难 / 此刻 / 准确地洞察这些困难时期如何影响社会特征",
+          "chunk_translation": "眼下更加困难的 / 在当前 / 是准确洞察这些艰难岁月究竟在如何重塑我们社会的性格特质",
           "syntax": {
             "breakdown": [
               {
@@ -4018,7 +4018,7 @@
           "text": "In many respects, the U.S.",
           "translation": "美国在很多方面",
           "slashed_text": "In many respects , / the U.S.",
-          "chunk_translation": "在很多方面 / 美国",
+          "chunk_translation": "在许多方面 / 美国",
           "syntax": {
             "breakdown": [
               {
@@ -4036,7 +4036,7 @@
           "text": "was more socially tolerant entering this recession than at any time in its history, and a variety of national polls on social conflict since then have shown mixed results.",
           "translation": "进入这次衰退的社会容忍度比历史上任何时候都高，自那时以来有关社会冲突的各种全国民意调查显示出不同的结果。",
           "slashed_text": "was more socially tolerant entering this recession than at any time in its history , / and a variety of national polls / on social conflict / since then have shown mixed results.",
-          "chunk_translation": "进入这次衰退的社会容忍度比历史上任何时期都高 / and a variety of national polls / on social conflict / 从那时起，结果好坏参半",
+          "chunk_translation": "在进入这场经济衰退时比其历史上任何时期都更具社会包容性 / 并且自那时起开展的一系列关于社会冲突的全国民意调查 / 关于社会冲突 / 呈现出了喜忧参半的结果",
           "syntax": {
             "breakdown": [
               {
@@ -4054,7 +4054,7 @@
           "text": "We will have to wait and see exactly how these hard times will reshape our social fabric.",
           "translation": "我们将不得不拭目以待，看看这些困难时期将如何重塑我们的社会结构。",
           "slashed_text": "We will have to wait and see exactly how these hard times will reshape our social fabric.",
-          "chunk_translation": "我们将不得不等待，看看这些困难时期将如何重塑我们的社会结构",
+          "chunk_translation": "我们不得不拭目以待，看看这些艰难岁月究竟会如何重塑我们的社会结构",
           "syntax": {
             "breakdown": [
               {
@@ -4072,7 +4072,7 @@
           "text": "But they certainly will reshape it, and all the more so the longer they extend.",
           "translation": "但他们肯定会重塑它，而且随着时间的延长，情况更是如此。",
           "slashed_text": "But they certainly will reshape it , / and all the more so the longer they extend.",
-          "chunk_translation": "但他们肯定会重塑它 / 而且它们延伸的时间越长",
+          "chunk_translation": "但它们必然会重塑社会结构 / 而且经济困境持续的时间越长，这种重塑就越深刻",
           "syntax": {
             "breakdown": [
               {

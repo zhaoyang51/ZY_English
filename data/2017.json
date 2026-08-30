@@ -12,7 +12,7 @@
           "text": "Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park. The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad. Events are free, staffed by thousands of volunteers. Runners range from four years old to grandparents; their times range from Andrew Baddeley’s world record 13 minutes 48 seconds up to an hour.",
           "translation": "每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。 Parkrun 现象始于十几个朋友，并启发了英国和其他国家举办的 400 场活动。活动是免费的，有数千名志愿者。跑步者的年龄范围从四岁到祖父母；他们的时间从安德鲁·巴德利 (Andrew Baddeley) 的世界纪录 13 分 48 秒到 1 小时不等。",
           "slashed_text": "Every Saturday morning , / at 9 am , / more than 50 , / 000 runners set off to run 5km around their local park. The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad. Events are free , / staffed / by thousands of volunteers. Runners range / from four years old to grandparents ; / their times range / from Andrew Baddeley’s world record 13 minutes 48 seconds up to an hour.",
-          "chunk_translation": "每周六早上 / 上午 9 点 / more than 50 / 000 runners set off to run 5km around their local park. The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad. Events are free / staffed / by thousands of volunteers. Runners range / from four years old to grandparents / their times range / from Andrew Baddeley’s world record 13 minutes 48 seconds up to an hour",
+          "chunk_translation": "每个周六早晨， / 在上午9点整， / 超过50, / 000名跑者出发在当地公园跑完5公里。 “公园跑”这一风靡现象始于2004年十几位朋友之间的聚跑活动。 所有活动均免费开放， / 由人员提供服务 / 由数以千计的志愿服务人员提供志愿支持。 跑步者年龄跨度很大， / 从四岁孩童到花甲老人； / 一些人摇着竞速轮椅参赛； / 另一些人则推着婴儿车慢跑。",
           "vocabulary": [
             {
               "word": "morning",
@@ -66,7 +66,7 @@
           "text": "Parkrun is succeeding where London’s Olympic “legacy” is failing. Ten years ago on Monday, it was announced that the Games of the 30th Olympiad would be in London. Planning documents pledged that the great legacy of the Games would be to lever a nation of sport lovers away from their couches. The population would be fitter, healthier and produce more winners. It has not happened. The number of adults doing weekly sport did rise, by nearly 2 million in the run-up to 2012—but the general population was growing faster. Worse, the numbers are now falling at an accelerating rate. The opposition claims primary school pupils doing at least two hours of sport a week have nearly halved. Obesity has risen among adults and children. Official retrospections continue as to why London 2012 failed to “inspire a generation.” The success of Parkrun offers answers.",
           "translation": "帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。十年前的周一，宣布第 30 届奥运会将在伦敦举行。规划文件承诺，奥运会的伟大遗产将是让全国的体育爱好者远离沙发。人口将会变得更健康、更健康，并产生更多的赢家。但它并没有发生。每周参加体育运动的成年人数量确实有所增加，到 2012 年为止增加了近 200 万，但总人口增长得更快。更糟糕的是，这个数字现在正在加速下降。反对派声称，小学生每周至少进行两小时体育运动的人数几乎减少了一半。成人和儿童的肥胖率有所上升。官方仍在继续反思为什么 2012 年伦敦奥运会未能“激励一代人”。 Parkrun 的成功提供了答案。",
           "slashed_text": "Parkrun is succeeding / where London’s Olympic “legacy” is failing. Ten years ago / on Monday , / it was announced / that the Games of the 30th Olympiad would be / in London. Planning documents pledged / that the great legacy of the Games would be to lever a nation of sport lovers away / from their couches. The population would be fitter , / healthier and produce more winners. It has not happened. The number of adults doing weekly sport did rise , / by nearly 2 million in the run-up to 2012 — / but the general population was growing faster. Worse , / the numbers are now falling at an accelerating rate. The opposition claims primary school pupils doing / at least two hours of sport a week have nearly halved. Obesity has risen among adults and children. Official retrospections continue as to why London 2012 failed to “inspire a generation.” The success of Parkrun offers answers.",
-          "chunk_translation": "帕克润正在取得成功 / where London’s Olympic “legacy” is failing. Ten years ago / on Monday / 已宣布 / that the Games of the 30th Olympiad would be / in London. Planning documents pledged / that the great legacy of the Games would be to lever a nation of sport lovers away / from their couches. The population would be fitter / healthier and produce more winners. It has not happened. The number of adults doing weekly sport did rise / by nearly 2 million in the run-up to 2012 / but the general population was growing faster. Worse / the numbers are now falling at an accelerating rate. The opposition claims primary school pupils doing / at least two hours of sport a week have nearly halved. Obesity has risen among adults and children. Official retrospections continue as to why London 2012 failed to “inspire a generation.” The success of Parkrun offers answers",
+          "chunk_translation": "公园跑取得了显著的成功， / 而伦敦奥运会的“遗产计划”却正在走向失败。 十年前的周一， / 官方宣布 / 奥运会主办权将花落 / 伦敦。 / 这是一个激励整整一代人积极投身体育运动的绝佳契机。 规划文件中庄严承诺， / 伦敦奥运会最伟大的遗产 / 将是激励数百万人参与更多的体育运动。 国民体质将更加健壮、 / 更加健康，并催生出一个更具活力的健康经济。 然而这一切并未发生。 每周参加体育运动的成年人数量确实有所上升， / 但这种增长势头十分短暂， / 并未能长久持续。 更为糟糕的是， / 该参与人数目前正以更快的速度持续下滑。 反对党声称，每周进行至少两小时体育锻炼的小学生人数 / 每周至少进行两小时体育课的小学生比例也出现了下降。 成年人和儿童中的肥胖率均在上升。 关于伦敦为何未能兑现其体育遗产承诺的官方反思仍在继续。",
           "vocabulary": [
             {
               "word": "Parkrun",
@@ -120,7 +120,7 @@
           "text": "Parkrun is not a race but a time trial: Your only competitor is the clock. The ethos welcomes anybody. There is as much joy over a puffed-out first-timer being clapped over the line as there is about top talent shining. The Olympic bidders, by contrast, wanted to get more people doing sport and to produce more elite athletes. The dual aim was mixed up: The stress on success over taking part was intimidating for newcomers.",
           "translation": "Parkrun 不是一场比赛，而是一场计时赛：你唯一的竞争对手是时钟。这种精神欢迎任何人。一个趾高气扬的初来乍到者被拍到终点线所带来的喜悦与顶尖人才的光芒四射一样令人高兴。相比之下，奥运会申办者希望让更多的人参与体育运动并培养更多的精英运动员。双重目标是混合在一起的：对成功的压力超过了参与的压力，这让新来者感到害怕。",
           "slashed_text": "Parkrun is not a race but a time trial : / Your only competitor is the clock. The ethos welcomes anybody. There is as much joy over a puffed-out first-timer being clapped over the line as there is about top talent shining. The Olympic bidders , / by contrast , / wanted to get more people doing sport and to produce more elite athletes. The dual aim was mixed up : / The stress / on success over taking part was intimidating / for newcomers.",
-          "chunk_translation": "Parkrun 不是一场比赛，而是一场计时赛 / Your only competitor is the clock. The ethos welcomes anybody. There is as much joy over a puffed-out first-timer being clapped over the line as there is about top talent shining. The Olympic bidders / 相比之下 / wanted to get more people doing sport and to produce more elite athletes. The dual aim was mixed up / The stress / on success over taking part was intimidating / for newcomers",
+          "chunk_translation": "公园跑不是一场对抗比赛，而是一次计时测验： / 你唯一的竞争对手就是时钟。 它的核心精神包容欢迎任何人的加入。 对于气喘吁吁的初跑者所给予的欢呼，丝毫不亚于给予冲线最快的冠军选手。 而奥运申办方， / 相比之下， / 曾希望通过精英运动员的夺金荣耀来带动更多人参与体育运动。 这两个双重目标被本末倒置地混淆了： / 片面强调竞技成功而非广泛大众参与， / 营造出了一种 / 实际上让普通大众望而却步的氛围。",
           "vocabulary": [
             {
               "word": "Parkrun",
@@ -174,7 +174,7 @@
           "text": "Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations. If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools. But successive governments have presided over selling green spaces, squeezing money from local authorities and declining attention on sport in education. Instead of wordy, worthy strategies, future governments need to do more to provide the conditions for sport to thrive. Or at least not make them worse.",
           "translation": "确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。但历届政府都在主导出售绿地、挤压地方当局的资金以及减少教育中对体育的关注。未来的政府需要做更多的事情来为体育运动的蓬勃发展提供条件，而不是冗长而有价值的策略。或者至少不会让事情变得更糟。",
           "slashed_text": "Indeed , / there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations. / If there is a role / for government , / it should really be getting involved / in providing common goods — / making sure there is space / for playing fields and the money to pave tennis and netball courts , / and encouraging the provision of all these activities / in schools. But successive governments have presided over selling green spaces , / squeezing money / from local authorities and declining attention / on sport / in education. Instead of wordy , / worthy strategies , / future governments need to do more to provide the conditions / for sport to thrive. Or / at least not make them worse.",
-          "chunk_translation": "的确 / 国家参与社区体育协会这样一个“草根”概念的规划，有点荒唐 / If there is a role / for government / it should really be getting involved / in providing common goods / making sure there is space / for playing fields and the money to pave tennis and netball courts / and encouraging the provision of all these activities / in schools. But successive governments have presided over selling green spaces / squeezing money / from local authorities and declining attention / on sport / in education. Instead of wordy / 有价值的策略 / future governments need to do more to provide the conditions / for sport to thrive. Or / at least not make them worse",
+          "chunk_translation": "事实上， / 指望精英竞技体育来激发大众全民参与的想法，本身就带有几分荒谬。 / 如果存在着某种角色 / 供政府来承担， / 那政府真正应该做的就是介入 / 提供公共产品—— / 确保有充足的场地空间 / 用于运动场，并有资金铺设网球场和无板篮球场， / 并鼓励开展所有这些体育活动 / 在中小学校中。 但历届政府却放任了 / 学校运动场地的变相变卖， / 地方议会资金匮乏， / 并且 / 大幅削减了公共体育服务。 与其制定冗长空洞的、 / 看似高大上的战略， / 未来的各届政府 / 应当专注于让普通百姓的日常生活更加便利轻松。 或者至少 / 不要让情况变得更加恶化。",
           "vocabulary": [
             {
               "word": "Indeed",
@@ -232,7 +232,7 @@
           "text": "Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.",
           "translation": "每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。",
           "slashed_text": "Every Saturday morning , / at 9 am , / more than 50 , / 000 runners set off to run 5km around their local park.",
-          "chunk_translation": "每周六早上 / 上午 9 点 / more than 50 / 000 runners set off to run 5km around their local park",
+          "chunk_translation": "每个周六早晨， / 在上午9点整， / 超过50, / 000名跑者出发在当地公园跑完5公里。",
           "syntax": {
             "breakdown": [
               {
@@ -250,7 +250,7 @@
           "text": "The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad.",
           "translation": "Parkrun 现象始于十几个朋友，并启发了英国和其他国家举办的 400 场活动。",
           "slashed_text": "The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad.",
-          "chunk_translation": "Parkrun 现象始于十几个朋友，并启发了英国和更多海外地区的 400 场活动",
+          "chunk_translation": "“公园跑”这一风靡现象始于2004年十几位朋友之间的聚跑活动。",
           "syntax": {
             "breakdown": [
               {
@@ -268,7 +268,7 @@
           "text": "Events are free, staffed by thousands of volunteers.",
           "translation": "活动是免费的，有数千名志愿者。",
           "slashed_text": "Events are free , / staffed / by thousands of volunteers.",
-          "chunk_translation": "活动免费 / staffed / by thousands of volunteers",
+          "chunk_translation": "所有活动均免费开放， / 由人员提供服务 / 由数以千计的志愿服务人员提供志愿支持。",
           "syntax": {
             "breakdown": [
               {
@@ -286,7 +286,7 @@
           "text": "Runners range from four years old to grandparents; their times range from Andrew Baddeley’s world record 13 minutes 48 seconds up to an hour.",
           "translation": "跑步者的年龄范围从四岁到祖父母；他们的时间从安德鲁·巴德利 (Andrew Baddeley) 的世界纪录 13 分 48 秒到 1 小时不等。",
           "slashed_text": "Runners range / from four years old to grandparents ; / their times range / from Andrew Baddeley’s world record 13 minutes 48 seconds up to an hour.",
-          "chunk_translation": "Runners range / from four years old to grandparents / their times range / from Andrew Baddeley’s world record 13 minutes 48 seconds up to an hour",
+          "chunk_translation": "跑步者年龄跨度很大， / 从四岁孩童到花甲老人； / 一些人摇着竞速轮椅参赛； / 另一些人则推着婴儿车慢跑。",
           "syntax": {
             "breakdown": [
               {
@@ -304,7 +304,7 @@
           "text": "Parkrun is succeeding where London’s Olympic “legacy” is failing.",
           "translation": "帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。",
           "slashed_text": "Parkrun is succeeding / where London’s Olympic “legacy” is failing.",
-          "chunk_translation": "帕克润正在取得成功 / 伦敦奥运“遗产”正在失败的地方",
+          "chunk_translation": "公园跑取得了显著的成功， / 而伦敦奥运会的“遗产计划”却正在走向失败。",
           "syntax": {
             "breakdown": [
               {
@@ -322,7 +322,7 @@
           "text": "Ten years ago on Monday, it was announced that the Games of the 30th Olympiad would be in London.",
           "translation": "十年前的周一，宣布第 30 届奥运会将在伦敦举行。",
           "slashed_text": "Ten years ago / on Monday , / it was announced / that the Games of the 30th Olympiad would be / in London.",
-          "chunk_translation": "Ten years ago / on Monday / 已宣布 / that the Games of the 30th Olympiad would be / in London",
+          "chunk_translation": "十年前的周一， / 官方宣布 / 奥运会主办权将花落 / 伦敦。 / 这是一个激励整整一代人积极投身体育运动的绝佳契机。",
           "syntax": {
             "breakdown": [
               {
@@ -340,7 +340,7 @@
           "text": "Planning documents pledged that the great legacy of the Games would be to lever a nation of sport lovers away from their couches.",
           "translation": "规划文件承诺，奥运会的伟大遗产将是让全国的体育爱好者远离沙发。",
           "slashed_text": "Planning documents pledged / that the great legacy of the Games would be to lever a nation of sport lovers away / from their couches.",
-          "chunk_translation": "规划文件承诺 / that the great legacy of the Games would be to lever a nation of sport lovers away / from their couches",
+          "chunk_translation": "规划文件中庄严承诺， / 伦敦奥运会最伟大的遗产 / 将是激励数百万人参与更多的体育运动。",
           "syntax": {
             "breakdown": [
               {
@@ -358,7 +358,7 @@
           "text": "The population would be fitter, healthier and produce more winners.",
           "translation": "人口将会变得更健康、更健康，并产生更多的赢家。",
           "slashed_text": "The population would be fitter , / healthier and produce more winners.",
-          "chunk_translation": "人口会更加健康 / 更健康并产生更多赢家",
+          "chunk_translation": "国民体质将更加健壮、 / 更加健康，并催生出一个更具活力的健康经济。",
           "syntax": {
             "breakdown": [
               {
@@ -376,7 +376,7 @@
           "text": "It has not happened.",
           "translation": "但它并没有发生。",
           "slashed_text": "It has not happened.",
-          "chunk_translation": "这还没有发生",
+          "chunk_translation": "然而这一切并未发生。",
           "syntax": {
             "breakdown": [
               {
@@ -394,7 +394,7 @@
           "text": "The number of adults doing weekly sport did rise, by nearly 2 million in the run-up to 2012—but the general population was growing faster.",
           "translation": "每周参加体育运动的成年人数量确实有所增加，到 2012 年为止增加了近 200 万，但总人口增长得更快。",
           "slashed_text": "The number of adults doing weekly sport did rise , / by nearly 2 million in the run-up to 2012 — / but the general population was growing faster.",
-          "chunk_translation": "每周进行体育运动的成年人数量确实有所增加 / by nearly 2 million in the run-up to 2012 / but the general population was growing faster",
+          "chunk_translation": "每周参加体育运动的成年人数量确实有所上升， / 但这种增长势头十分短暂， / 并未能长久持续。",
           "syntax": {
             "breakdown": [
               {
@@ -412,7 +412,7 @@
           "text": "Worse, the numbers are now falling at an accelerating rate.",
           "translation": "更糟糕的是，这个数字现在正在加速下降。",
           "slashed_text": "Worse , / the numbers are now falling at an accelerating rate.",
-          "chunk_translation": "更糟糕的是 / 这个数字现在正在加速下降",
+          "chunk_translation": "更为糟糕的是， / 该参与人数目前正以更快的速度持续下滑。",
           "syntax": {
             "breakdown": [
               {
@@ -430,7 +430,7 @@
           "text": "The opposition claims primary school pupils doing at least two hours of sport a week have nearly halved.",
           "translation": "反对派声称，小学生每周至少进行两小时体育运动的人数几乎减少了一半。",
           "slashed_text": "The opposition claims primary school pupils doing / at least two hours of sport a week have nearly halved.",
-          "chunk_translation": "The opposition claims primary school pupils doing / at least two hours of sport a week have nearly halved",
+          "chunk_translation": "反对党声称，每周进行至少两小时体育锻炼的小学生人数 / 每周至少进行两小时体育课的小学生比例也出现了下降。",
           "syntax": {
             "breakdown": [
               {
@@ -448,7 +448,7 @@
           "text": "Obesity has risen among adults and children.",
           "translation": "成人和儿童的肥胖率有所上升。",
           "slashed_text": "Obesity has risen among adults and children.",
-          "chunk_translation": "成人和儿童的肥胖率有所上升",
+          "chunk_translation": "成年人和儿童中的肥胖率均在上升。",
           "syntax": {
             "breakdown": [
               {
@@ -466,7 +466,7 @@
           "text": "Official retrospections continue as to why London 2012 failed to “inspire a generation.” The success of Parkrun offers answers.",
           "translation": "官方仍在继续反思为什么 2012 年伦敦奥运会未能“激励一代人”。 Parkrun 的成功提供了答案。",
           "slashed_text": "Official retrospections continue as to why London 2012 failed to “inspire a generation.” The success of Parkrun offers answers.",
-          "chunk_translation": "官方仍在继续反思为什么 2012 年伦敦奥运会未能“激励一代人”。 Parkrun的成功给出了答案",
+          "chunk_translation": "关于伦敦为何未能兑现其体育遗产承诺的官方反思仍在继续。",
           "syntax": {
             "breakdown": [
               {
@@ -484,7 +484,7 @@
           "text": "Parkrun is not a race but a time trial: Your only competitor is the clock.",
           "translation": "Parkrun 不是一场比赛，而是一场计时赛：你唯一的竞争对手是时钟。",
           "slashed_text": "Parkrun is not a race but a time trial : / Your only competitor is the clock.",
-          "chunk_translation": "Parkrun 不是一场比赛，而是一场计时赛 / 你唯一的竞争对手是时钟",
+          "chunk_translation": "公园跑不是一场对抗比赛，而是一次计时测验： / 你唯一的竞争对手就是时钟。",
           "syntax": {
             "breakdown": [
               {
@@ -502,7 +502,7 @@
           "text": "The ethos welcomes anybody.",
           "translation": "这种精神欢迎任何人。",
           "slashed_text": "The ethos welcomes anybody.",
-          "chunk_translation": "这种精神欢迎任何人",
+          "chunk_translation": "它的核心精神包容欢迎任何人的加入。",
           "syntax": {
             "breakdown": [
               {
@@ -520,7 +520,7 @@
           "text": "There is as much joy over a puffed-out first-timer being clapped over the line as there is about top talent shining.",
           "translation": "一个趾高气扬的初来乍到者被拍到终点线所带来的喜悦与顶尖人才的光芒四射一样令人高兴。",
           "slashed_text": "There is as much joy over a puffed-out first-timer being clapped over the line as there is about top talent shining.",
-          "chunk_translation": "第一次参赛的人被鼓掌冲过终点线所带来的喜悦与顶尖人才的闪耀一样令人高兴",
+          "chunk_translation": "对于气喘吁吁的初跑者所给予的欢呼，丝毫不亚于给予冲线最快的冠军选手。",
           "syntax": {
             "breakdown": [
               {
@@ -538,7 +538,7 @@
           "text": "The Olympic bidders, by contrast, wanted to get more people doing sport and to produce more elite athletes.",
           "translation": "相比之下，奥运会申办者希望让更多的人参与体育运动并培养更多的精英运动员。",
           "slashed_text": "The Olympic bidders , / by contrast , / wanted to get more people doing sport and to produce more elite athletes.",
-          "chunk_translation": "奥运申办者 / 相比之下 / 希望让更多的人参与体育运动并培养更多的精英运动员",
+          "chunk_translation": "而奥运申办方， / 相比之下， / 曾希望通过精英运动员的夺金荣耀来带动更多人参与体育运动。",
           "syntax": {
             "breakdown": [
               {
@@ -556,7 +556,7 @@
           "text": "The dual aim was mixed up: The stress on success over taking part was intimidating for newcomers.",
           "translation": "双重目标是混合在一起的：对成功的压力超过了参与的压力，这让新来者感到害怕。",
           "slashed_text": "The dual aim was mixed up : / The stress / on success over taking part was intimidating / for newcomers.",
-          "chunk_translation": "双重目标混淆了 / The stress / on success over taking part was intimidating / for newcomers",
+          "chunk_translation": "这两个双重目标被本末倒置地混淆了： / 片面强调竞技成功而非广泛大众参与， / 营造出了一种 / 实际上让普通大众望而却步的氛围。",
           "syntax": {
             "breakdown": [
               {
@@ -574,7 +574,7 @@
           "text": "Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.",
           "translation": "确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有些荒唐。",
           "slashed_text": "Indeed , / there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” concept as community sports associations.",
-          "chunk_translation": "的确 / 国家参与社区体育协会这样一个“草根”概念的规划，有点荒唐",
+          "chunk_translation": "事实上， / 指望精英竞技体育来激发大众全民参与的想法，本身就带有几分荒谬。",
           "syntax": {
             "breakdown": [
               {
@@ -592,7 +592,7 @@
           "text": "If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools.",
           "translation": "如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。",
           "slashed_text": "/ If there is a role / for government , / it should really be getting involved / in providing common goods — / making sure there is space / for playing fields and the money to pave tennis and netball courts , / and encouraging the provision of all these activities / in schools.",
-          "chunk_translation": "If there is a role / for government / it should really be getting involved / in providing common goods / making sure there is space / for playing fields and the money to pave tennis and netball courts / and encouraging the provision of all these activities / in schools",
+          "chunk_translation": "/ 如果存在着某种角色 / 供政府来承担， / 那政府真正应该做的就是介入 / 提供公共产品—— / 确保有充足的场地空间 / 用于运动场，并有资金铺设网球场和无板篮球场， / 并鼓励开展所有这些体育活动 / 在中小学校中。",
           "syntax": {
             "breakdown": [
               {
@@ -610,7 +610,7 @@
           "text": "But successive governments have presided over selling green spaces, squeezing money from local authorities and declining attention on sport in education.",
           "translation": "但历届政府都在主导出售绿地、挤压地方当局的资金以及减少教育中对体育的关注。",
           "slashed_text": "But successive governments have presided over selling green spaces , / squeezing money / from local authorities and declining attention / on sport / in education.",
-          "chunk_translation": "但历届政府都主持出售绿地 / squeezing money / from local authorities and declining attention / on sport / in education",
+          "chunk_translation": "但历届政府却放任了 / 学校运动场地的变相变卖， / 地方议会资金匮乏， / 并且 / 大幅削减了公共体育服务。",
           "syntax": {
             "breakdown": [
               {
@@ -628,7 +628,7 @@
           "text": "Instead of wordy, worthy strategies, future governments need to do more to provide the conditions for sport to thrive.",
           "translation": "未来的政府需要做更多的事情来为体育运动的蓬勃发展提供条件，而不是冗长而有价值的策略。",
           "slashed_text": "Instead of wordy , / worthy strategies , / future governments need to do more to provide the conditions / for sport to thrive.",
-          "chunk_translation": "而不是啰嗦 / 有价值的策略 / future governments need to do more to provide the conditions / for sport to thrive",
+          "chunk_translation": "与其制定冗长空洞的、 / 看似高大上的战略， / 未来的各届政府 / 应当专注于让普通百姓的日常生活更加便利轻松。",
           "syntax": {
             "breakdown": [
               {
@@ -646,7 +646,7 @@
           "text": "Or at least not make them worse.",
           "translation": "或者至少不会让事情变得更糟。",
           "slashed_text": "Or / at least not make them worse.",
-          "chunk_translation": "Or / at least not make them worse",
+          "chunk_translation": "或者至少 / 不要让情况变得更加恶化。",
           "syntax": {
             "breakdown": [
               {
@@ -1118,7 +1118,7 @@
           "text": "With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use. “Tech is designed to really suck you in,” says Jenny Radesky in her study of digital play, “and digital products are there to promote maximal engagement. It makes it hard to disengage, and leads to a lot of bleed-over into the family routine. ”",
           "translation": "由于如此关注孩子对屏幕的使用，父母很容易忘记自己的屏幕使用情况。 “科技的设计就是为了真正吸引你，”珍妮·拉德斯基（Jenny Radesky）在她对数字游戏的研究中说道，“而数字产品的存在是为了促进最大程度的参与。它让人很难脱离，并导致很多家庭日常生活的影响。”",
           "slashed_text": "With so much focus / on children’s use of screens , / it’s easy / for parents to forget / about their own screen use. “Tech is designed to really suck you in , / ” says Jenny Radesky in her study of digital play , / “and digital products are there to promote maximal engagement. It makes it hard to disengage , / and leads to a lot of bleed-over into the family routine. ”",
-          "chunk_translation": "With so much focus / on children’s use of screens / it’s easy / for parents to forget / about their own screen use. “Tech is designed to really suck you in / says Jenny Radesky in her study of digital play / and digital products are there to promote maximal engagement. It makes it hard to disengage / 并导致大量的渗透到家庭日常生活中",
+          "chunk_translation": "在如此多的关注下， / 对于孩子使用屏幕的关注， / 很容易导致 / 父母们忘记了 / 关于他们自己使用电子屏幕的情况。 “科技产品被设计得 / 极具吸引力、让人深陷其中，”珍妮·拉德斯基说道， / 她是密歇根大学的一名儿科医生。 这让人很难抽离脱身， / 并导致了大量的数字化多任务并行处理。 “",
           "vocabulary": [
             {
               "word": "focus",
@@ -1172,7 +1172,7 @@
           "text": "Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise. She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions with their children. During a separate observation, she saw that phones became a source of tension in the family. Parents would be looking at their emails while the children would be making excited bids for their attention.",
           "translation": "拉德斯基通过让母子进行食物测试练习，研究了进餐时手机和平板电脑的使用情况。她发现，在锻炼期间使用设备的母亲与孩子的言语互动减少了 20%，非言语互动减少了 39%。在另一次观察中，她发现手机成为家庭紧张的根源。父母会查看他们的电子邮件，而孩子们会兴奋地吸引他们的注意力。",
           "slashed_text": "Radesky has studied the use of mobile phones and tablets / at mealtimes / by giving mother- child pairs a food-testing exercise. She found / that mothers / who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions / with their children. During a separate observation , / she saw / that phones became a source of tension in the family. Parents would be looking / at their emails / while the children would be making excited bids / for their attention.",
-          "chunk_translation": "Radesky has studied the use of mobile phones and tablets / at mealtimes / by giving mother- child pairs a food-testing exercise. She found / 那个母亲 / who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions / with their children. During a separate observation / 她看到 / that phones became a source of tension in the family. Parents would be looking / at their emails / while the children would be making excited bids / for their attention",
+          "chunk_translation": "拉德斯基专门研究了手机的使用 / 以及 / 平板电脑在就餐期间被父母使用的情况。 她发现， / 那些母亲 / 在用餐期间使用电子设备的母亲，其言语和非言语互动显著更少 / 与她们的孩子之间的互动。 在另一项单独的观察研究中， / 她观察到 / 手机引发了父母与孩子之间的摩擦冲突。 父母们往往目不转睛地盯着 / 他们的电子邮件， / 而此时他们的孩子正试图 / 去吸引父母的注意力。",
           "vocabulary": [
             {
               "word": "Radesky",
@@ -1226,7 +1226,7 @@
           "text": "Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children. Radesky cites the “still face experiment” devised by developmental psychologist Ed Tronick in the 1970s. In it, a mother is asked to interact with her child in a normal way before putting on a blank expression and not giving them any visual social feedback: The child becomes increasingly distressed as she tries to capture her mother’s attention. “Parents don’t have to be exquisitely present at all times, but there needs to be a balance and parents need to be responsive and sensitive to a child’s verbal or nonverbal expressions of an emotional need,” says Radesky.",
           "translation": "婴儿天生会看着父母的脸来试图了解他们的世界，如果父母的脸一片空白且毫无反应——就像他们全神贯注于某个设备时经常出现的情况一样——这可能会让孩子们感到非常不安。 Radesky 引用了发展心理学家 Ed Tronick 在 20 世纪 70 年代设计的“静止面孔实验”。其中，母亲被要求以正常方式与孩子互动，然后表现出茫然的表情，不给他们任何视觉社交反馈：当孩子试图吸引母亲的注意力时，她变得越来越痛苦。拉德斯基说：“父母不必始终在场，但需要保持平衡，父母需要对孩子表达情感需求的语言或非语言表达做出反应并保持敏感。”",
           "slashed_text": "Infants are wired to look / at parents’ faces to try to understand their world , / and / if those faces are blank and unresponsive — / as they often are / when absorbed in a device — / it can be extremely disconcerting for the children. Radesky cites the “still face experiment” devised / by developmental psychologist Ed Tronick in the 1970s. In it , / a mother is asked to interact with her child in a normal way / before putting on a blank expression and not giving them any visual social feedback : / The child becomes increasingly distressed as she tries to capture her mother’s attention. “Parents don’t have to be exquisitely present at all times , / but there needs to be a balance and parents need to be responsive and sensitive to a child’s verbal or nonverbal expressions of an emotional need , / ” says Radesky.",
-          "chunk_translation": "Infants are wired to look / at parents’ faces to try to understand their world / 和 / if those faces are blank and unresponsive / as they often are / when absorbed in a device / it can be extremely disconcerting for the children. Radesky cites the “still face experiment” devised / by developmental psychologist Ed Tronick in the 1970s. In it / 要求母亲以正常方式与孩子互动 / 在表现出茫然的表情并且不给他们任何视觉社交反馈之前 / The child becomes increasingly distressed as she tries to capture her mother’s attention. “Parents don’t have to be exquisitely present at all times / but there needs to be a balance and parents need to be responsive and sensitive to a child’s verbal or nonverbal expressions of an emotional need / says Radesky",
+          "chunk_translation": "婴儿天生具有本能 / 去注视 / 父母的面孔，试图 / 去弄明白 / 清楚 / 到底发生了什么事情 / 在他们周围。 拉德斯基引用了由……设计的“面无表情实验” / 由发展心理学家爱德华·特罗尼克所设计。 在该实验中， / 一位母亲被要求先与她的孩子进行互动， / 然后 / 随后停止互动并保持完全面无表情的状态。 “父母并不需要全神贯注地陪伴在旁 / 在所有时刻，”拉德斯基说， / “但他们应当意识到自己何时处于心不在焉、忽视孩子的状态。”",
           "vocabulary": [
             {
               "word": "Infants",
@@ -1280,7 +1280,7 @@
           "text": "On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child. Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way. This can make them feel happier, which lets them be more available to their child the rest of the time.",
           "translation": "另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值，特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。这可以让他们感到更快乐，让他们在剩下的时间里能够更多地陪伴孩子。",
           "slashed_text": "On the other hand , / Tronick himself is concerned / that the worries / about kids’ use of screens are born out of an “oppressive ideology / that demands / that parents should always be interacting” / with their children : / “It’s based on a somewhat fantasised , / very white , / very upper- middle-class ideology / that says / if you’re failing to expose your child to 30 , / 000 words you are neglecting them.” Tronick believes / that just / because a child isn’t learning from the screen doesn’t mean there’s no value to it — / particularly / if it gives parents time to have a shower , / do housework or simply have a break / from their child. Parents , / he says , / can get a lot out of using their devices to speak to a friend or get some work out of the way. This can make them feel happier , / which lets them be more available to their child the rest of the time.",
-          "chunk_translation": "另一方面 / 特罗尼克本人也很担心 / that the worries / about kids’ use of screens are born out of an “oppressive ideology / 这要求 / that parents should always be interacting / with their children / It’s based on a somewhat fantasised / 很白 / 非常上层中产阶级的意识形态 / 那说 / if you’re failing to expose your child to 30 / 000 words you are neglecting them.” Tronick believes / 那只是 / because a child isn’t learning from the screen doesn’t mean there’s no value to it / 特别 / 如果能让父母有时间洗澡 / do housework or simply have a break / from their child. Parents / 他说 / can get a lot out of using their devices to speak to a friend or get some work out of the way. This can make them feel happier / 这让他们在剩下的时间里可以更方便地陪伴孩子",
+          "chunk_translation": "另一方面， / 特罗尼克本人则担心 / 这种担忧 / 关于父母使用屏幕的过度焦虑可能有些被夸大了。 / 他 / 指 / 出， / 母亲们 / 历来 / 总是 / 不得不 / 去 / 分散 / 她们的 / 注意力 / 在……之间 / 照料孩子 / 和 / 其他事务之间。 父母们， / 他表示， / 能从使用电子设备中获得很多益处——比如获得来自家人和朋友的情感支持。 这能够让他们感到更加快乐， / 从而使他们能够成为更好的父母。",
           "vocabulary": [
             {
               "word": "hand",
@@ -1338,7 +1338,7 @@
           "text": "With so much focus on children’s use of screens, it’s easy for parents to forget about their own screen use.",
           "translation": "由于如此关注孩子对屏幕的使用，父母很容易忘记自己的屏幕使用情况。",
           "slashed_text": "With so much focus / on children’s use of screens , / it’s easy / for parents to forget / about their own screen use.",
-          "chunk_translation": "With so much focus / on children’s use of screens / it’s easy / for parents to forget / about their own screen use",
+          "chunk_translation": "在如此多的关注下， / 对于孩子使用屏幕的关注， / 很容易导致 / 父母们忘记了 / 关于他们自己使用电子屏幕的情况。",
           "syntax": {
             "breakdown": [
               {
@@ -1356,7 +1356,7 @@
           "text": "“Tech is designed to really suck you in,” says Jenny Radesky in her study of digital play, “and digital products are there to promote maximal engagement.",
           "translation": "珍妮·拉德斯基（Jenny Radesky）在数字游戏研究中表示：“科技的设计就是为了真正吸引你，而数字产品就是为了促进最大程度的参与。",
           "slashed_text": "“Tech is designed to really suck you in , / ” says Jenny Radesky in her study of digital play , / “and digital products are there to promote maximal engagement.",
-          "chunk_translation": "Tech is designed to really suck you in / says Jenny Radesky in her study of digital play / and digital products are there to promote maximal engagement",
+          "chunk_translation": "“科技产品被设计得 / 极具吸引力、让人深陷其中，”珍妮·拉德斯基说道， / 她是密歇根大学的一名儿科医生。",
           "syntax": {
             "breakdown": [
               {
@@ -1374,7 +1374,7 @@
           "text": "It makes it hard to disengage, and leads to a lot of bleed-over into the family routine.",
           "translation": "这使得人们很难摆脱束缚，并导致家庭日常生活中出现很多问题。",
           "slashed_text": "It makes it hard to disengage , / and leads to a lot of bleed-over into the family routine.",
-          "chunk_translation": "让人难以割舍 / 并导致大量的渗透到家庭日常生活中",
+          "chunk_translation": "这让人很难抽离脱身， / 并导致了大量的数字化多任务并行处理。",
           "syntax": {
             "breakdown": [
               {
@@ -1392,7 +1392,7 @@
           "text": "”",
           "translation": "”",
           "slashed_text": "”",
-          "chunk_translation": "",
+          "chunk_translation": "“",
           "syntax": {
             "breakdown": [
               {
@@ -1410,7 +1410,7 @@
           "text": "Radesky has studied the use of mobile phones and tablets at mealtimes by giving mother- child pairs a food-testing exercise.",
           "translation": "拉德斯基通过让母子进行食物测试练习，研究了进餐时手机和平板电脑的使用情况。",
           "slashed_text": "Radesky has studied the use of mobile phones and tablets / at mealtimes / by giving mother- child pairs a food-testing exercise.",
-          "chunk_translation": "Radesky has studied the use of mobile phones and tablets / at mealtimes / by giving mother- child pairs a food-testing exercise",
+          "chunk_translation": "拉德斯基专门研究了手机的使用 / 以及 / 平板电脑在就餐期间被父母使用的情况。",
           "syntax": {
             "breakdown": [
               {
@@ -1428,7 +1428,7 @@
           "text": "She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions with their children.",
           "translation": "她发现，在锻炼期间使用设备的母亲与孩子的言语互动减少了 20%，非言语互动减少了 39%。",
           "slashed_text": "She found / that mothers / who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions / with their children.",
-          "chunk_translation": "她发现 / 那个母亲 / who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions / with their children",
+          "chunk_translation": "她发现， / 那些母亲 / 在用餐期间使用电子设备的母亲，其言语和非言语互动显著更少 / 与她们的孩子之间的互动。",
           "syntax": {
             "breakdown": [
               {
@@ -1446,7 +1446,7 @@
           "text": "During a separate observation, she saw that phones became a source of tension in the family.",
           "translation": "在另一次观察中，她发现手机成为家庭紧张的根源。",
           "slashed_text": "During a separate observation , / she saw / that phones became a source of tension in the family.",
-          "chunk_translation": "在单独观察期间 / 她看到 / 电话成为家庭紧张的根源",
+          "chunk_translation": "在另一项单独的观察研究中， / 她观察到 / 手机引发了父母与孩子之间的摩擦冲突。",
           "syntax": {
             "breakdown": [
               {
@@ -1464,7 +1464,7 @@
           "text": "Parents would be looking at their emails while the children would be making excited bids for their attention.",
           "translation": "父母会查看他们的电子邮件，而孩子们会兴奋地吸引他们的注意力。",
           "slashed_text": "Parents would be looking / at their emails / while the children would be making excited bids / for their attention.",
-          "chunk_translation": "Parents would be looking / at their emails / while the children would be making excited bids / for their attention",
+          "chunk_translation": "父母们往往目不转睛地盯着 / 他们的电子邮件， / 而此时他们的孩子正试图 / 去吸引父母的注意力。",
           "syntax": {
             "breakdown": [
               {
@@ -1482,7 +1482,7 @@
           "text": "Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive—as they often are when absorbed in a device—it can be extremely disconcerting for the children.",
           "translation": "婴儿天生会看着父母的脸来试图了解他们的世界，如果父母的脸一片空白且毫无反应——就像他们全神贯注于某个设备时经常出现的情况一样——这可能会让孩子们感到非常不安。",
           "slashed_text": "Infants are wired to look / at parents’ faces to try to understand their world , / and / if those faces are blank and unresponsive — / as they often are / when absorbed in a device — / it can be extremely disconcerting for the children.",
-          "chunk_translation": "Infants are wired to look / at parents’ faces to try to understand their world / 和 / if those faces are blank and unresponsive / as they often are / when absorbed in a device / it can be extremely disconcerting for the children",
+          "chunk_translation": "婴儿天生具有本能 / 去注视 / 父母的面孔，试图 / 去弄明白 / 清楚 / 到底发生了什么事情 / 在他们周围。",
           "syntax": {
             "breakdown": [
               {
@@ -1505,7 +1505,7 @@
           "text": "Radesky cites the “still face experiment” devised by developmental psychologist Ed Tronick in the 1970s.",
           "translation": "Radesky 引用了发展心理学家 Ed Tronick 在 20 世纪 70 年代设计的“静止面孔实验”。",
           "slashed_text": "Radesky cites the “still face experiment” devised / by developmental psychologist Ed Tronick in the 1970s.",
-          "chunk_translation": "Radesky cites the “still face experiment” devised / by developmental psychologist Ed Tronick in the 1970s",
+          "chunk_translation": "拉德斯基引用了由……设计的“面无表情实验” / 由发展心理学家爱德华·特罗尼克所设计。",
           "syntax": {
             "breakdown": [
               {
@@ -1523,7 +1523,7 @@
           "text": "In it, a mother is asked to interact with her child in a normal way before putting on a blank expression and not giving them any visual social feedback: The child becomes increasingly distressed as she tries to capture her mother’s attention.",
           "translation": "其中，母亲被要求以正常方式与孩子互动，然后表现出茫然的表情，不给他们任何视觉社交反馈：当孩子试图吸引母亲的注意力时，她变得越来越痛苦。",
           "slashed_text": "In it , / a mother is asked to interact with her child in a normal way / before putting on a blank expression and not giving them any visual social feedback : / The child becomes increasingly distressed as she tries to capture her mother’s attention.",
-          "chunk_translation": "在其中 / 要求母亲以正常方式与孩子互动 / 在表现出茫然的表情并且不给他们任何视觉社交反馈之前 / 当孩子试图引起母亲的注意时，她变得越来越痛苦",
+          "chunk_translation": "在该实验中， / 一位母亲被要求先与她的孩子进行互动， / 然后 / 随后停止互动并保持完全面无表情的状态。",
           "syntax": {
             "breakdown": [
               {
@@ -1541,7 +1541,7 @@
           "text": "“Parents don’t have to be exquisitely present at all times, but there needs to be a balance and parents need to be responsive and sensitive to a child’s verbal or nonverbal expressions of an emotional need,” says Radesky.",
           "translation": "拉德斯基说：“父母不必始终在场，但需要保持平衡，父母需要对孩子表达情感需求的语言或非语言表达做出反应并保持敏感。”",
           "slashed_text": "“Parents don’t have to be exquisitely present at all times , / but there needs to be a balance and parents need to be responsive and sensitive to a child’s verbal or nonverbal expressions of an emotional need , / ” says Radesky.",
-          "chunk_translation": "Parents don’t have to be exquisitely present at all times / but there needs to be a balance and parents need to be responsive and sensitive to a child’s verbal or nonverbal expressions of an emotional need / says Radesky",
+          "chunk_translation": "“父母并不需要全神贯注地陪伴在旁 / 在所有时刻，”拉德斯基说， / “但他们应当意识到自己何时处于心不在焉、忽视孩子的状态。”",
           "syntax": {
             "breakdown": [
               {
@@ -1559,7 +1559,7 @@
           "text": "On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.",
           "translation": "另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。",
           "slashed_text": "On the other hand , / Tronick himself is concerned / that the worries / about kids’ use of screens are born out of an “oppressive ideology / that demands / that parents should always be interacting” / with their children : / “It’s based on a somewhat fantasised , / very white , / very upper- middle-class ideology / that says / if you’re failing to expose your child to 30 , / 000 words you are neglecting them.” Tronick believes / that just / because a child isn’t learning from the screen doesn’t mean there’s no value to it — / particularly / if it gives parents time to have a shower , / do housework or simply have a break / from their child.",
-          "chunk_translation": "另一方面 / 特罗尼克本人也很担心 / that the worries / about kids’ use of screens are born out of an “oppressive ideology / 这要求 / that parents should always be interacting / with their children / It’s based on a somewhat fantasised / 很白 / 非常上层中产阶级的意识形态 / 那说 / if you’re failing to expose your child to 30 / 000 words you are neglecting them.” Tronick believes / 那只是 / because a child isn’t learning from the screen doesn’t mean there’s no value to it / 特别 / 如果能让父母有时间洗澡 / do housework or simply have a break / from their child",
+          "chunk_translation": "另一方面， / 特罗尼克本人则担心 / 这种担忧 / 关于父母使用屏幕的过度焦虑可能有些被夸大了。 / 他 / 指 / 出， / 母亲们 / 历来 / 总是 / 不得不 / 去 / 分散 / 她们的 / 注意力 / 在……之间 / 照料孩子 / 和 / 其他事务之间。",
           "syntax": {
             "breakdown": [
               {
@@ -1582,7 +1582,7 @@
           "text": "Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way.",
           "translation": "他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。",
           "slashed_text": "Parents , / he says , / can get a lot out of using their devices to speak to a friend or get some work out of the way.",
-          "chunk_translation": "父母 / 他说 / 可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处",
+          "chunk_translation": "父母们， / 他表示， / 能从使用电子设备中获得很多益处——比如获得来自家人和朋友的情感支持。",
           "syntax": {
             "breakdown": [
               {
@@ -1600,7 +1600,7 @@
           "text": "This can make them feel happier, which lets them be more available to their child the rest of the time.",
           "translation": "这可以让他们感到更快乐，让他们在剩下的时间里能够更多地陪伴孩子。",
           "slashed_text": "This can make them feel happier , / which lets them be more available to their child the rest of the time.",
-          "chunk_translation": "这可以让他们感到更快乐 / 这让他们在剩下的时间里可以更方便地陪伴孩子",
+          "chunk_translation": "这能够让他们感到更加快乐， / 从而使他们能够成为更好的父母。",
           "syntax": {
             "breakdown": [
               {
@@ -2072,7 +2072,7 @@
           "text": "Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year. After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn’t it? And after going to school for 12 years, it doesn’t feel natural to spend a year doing something that isn’t academic. But while this may be true, it’s not a good enough reason to condemn gap years. There’s always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line,” whether that be toward graduate school, medical school or a lucrative career. But despite common misconceptions, a gap year does not hinder the success of academic pursuits—in fact, it probably enhances it.",
           "translation": "如今，立即上大学的普遍社会压力，加上快速变化的世界中越来越高的期望，往往导致学生完全忽视休学一年的可能性。毕竟，如果你认识的每个人都将在秋季上大学，那么留级一年似乎很愚蠢，不是吗？在上学 12 年之后，花一年时间做一些与学术无关的事情感觉很不自然。尽管这可能是真的，但这还不足以成为谴责间隔年的理由。人们总是担心在社会上持续存在的“冲向终点线”的竞赛中落后于其他人，无论是进入研究生院、医学院还是利润丰厚的职业。但尽管存在常见的误解，间隔年并不会阻碍学术追求的成功——事实上，它可能会增强学术追求的成功。",
           "slashed_text": "Today , / widespread social pressure to immediately go to college / in conjunction / with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year. After all , / if everyone you know is going to college in the fall , / it seems silly to stay back a year , / doesn’t it? And / after going to school for 12 years , / it doesn’t feel natural to spend a year doing something / that isn’t academic. But / while this may be true , / it’s not a good enough reason to condemn gap years. There’s always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line , / ” whether / that be toward graduate school , / medical school or a lucrative career. But despite common misconceptions , / a gap year does not hinder the success of academic pursuits — / in fact , / it probably enhances it.",
-          "chunk_translation": "今天 / widespread social pressure to immediately go to college / in conjunction / with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year. After all / 如果你认识的每个人都将在秋季上大学 / 留下一年似乎很愚蠢 / doesn’t it? And / 上学12年后 / 花一年时间做某事感觉不自然 / that isn’t academic. But / 虽然这可能是真的 / it’s not a good enough reason to condemn gap years. There’s always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line / whether / 即将进入研究生院 / medical school or a lucrative career. But despite common misconceptions / a gap year does not hinder the success of academic pursuits / in fact / 它可能会增强它",
+          "chunk_translation": "如今， / 要求高中毕业立即升入大学的广泛社会压力 / 连同 / 在这个快节奏世界中日益攀升的期望，常常导致学生们完全忽视了休学度过间隔年的可能性。 毕竟， / 如果你认识的所有人都在秋季升入大学， / 休学推迟一年似乎显得很傻， / 不是吗？ 而且， / 在上了12年学之后， / 花一整年时间去做一些事情会感觉很不自然， / 那些与学术无关的事情。 但是 / 尽管这或许属实， / 这却绝非是排除间隔年选择的充分理由。 人们心中总有一种挥之不去的恐惧 / 害怕落后于身边的其他人 / 并且 / 永远无法真正赶上大家的步伐。 但是 / 尽管存在普遍的误解， / 间隔年并不会阻碍 / 学生的学业与人生进步。",
           "vocabulary": [
             {
               "word": "Today",
@@ -2126,7 +2126,7 @@
           "text": "Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not. Rather than pulling students back, a gap year pushes them ahead by preparing them for independence, new responsibilities and environmental changes—all things that first-year students often struggle with the most. Gap year experiences can lessen the blow when it comes to adjusting to college and being thrown into a brand new environment, making it easier to focus on academics and activities rather than acclimation blunders.",
           "translation": "美国和澳大利亚的研究表明，参加间隔年的学生通常比不参加间隔年的学生为大学做好了更好的准备，并且在大学中表现更好。间隔年并没有让学生退缩，而是通过让他们为独立、新的责任和环境变化做好准备而推动他们前进——所有这些都是一年级学生经常遇到的最困难的事情。间隔年的经历可以减轻适应大学和进入全新环境时的打击，让你更容易专注于学业和活动，而不是适应环境的错误。",
           "slashed_text": "Studies from the United States and Australia show / that students / who take a gap year are generally better prepared for and perform better / in college than those / who do not. Rather than pulling students back , / a gap year pushes them ahead / by preparing them / for independence , / new responsibilities and environmental changes — / all things / that first-year students often struggle with the most. Gap year experiences can lessen the blow / when it comes to adjusting to college and being thrown into a brand new environment , / making it easier to focus / on academics and activities rather than acclimation blunders.",
-          "chunk_translation": "美国和澳大利亚的研究表明 / 那个学生 / who take a gap year are generally better prepared for and perform better / in college than those / who do not. Rather than pulling students back / a gap year pushes them ahead / by preparing them / for independence / new responsibilities and environmental changes / all things / that first-year students often struggle with the most. Gap year experiences can lessen the blow / 当谈到适应大学并被扔进一个全新的环境时 / making it easier to focus / on academics and activities rather than acclimation blunders",
+          "chunk_translation": "各项研究 / 来自美国和澳大利亚的研究表明， / 那些学生 / 那些度过间隔年的学生， / 在大学里取得了更高的平均绩点。 间隔年非但没有拖学生的后腿， / 反而推动着他们向前迈进， / 通过让他们提前做好准备 / 以实现独立生活， / 承担新的责任并适应环境变化—— / 所有这些事情 / 正是大学一年级新生往往最感棘手应对的难题。 间隔年的丰富经历能够减轻精神冲击 / 当面临 / 去应对处理 / 大学期间的职业倦怠感与心理压力时。",
           "vocabulary": [
             {
               "word": "Studies",
@@ -2180,7 +2180,7 @@
           "text": "If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices. According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once. This isn’t surprising, considering the basic mandatory high school curriculum leaves students with a poor understanding of the vast academic possibilities that await them in college. Many students find themselves listing one major on their college applications, but switching to another after taking college classes. It’s not necessarily a bad thing, but depending on the school, it can be costly to make up credits after switching too late in the game. At Boston College, for example, you would have to complete an extra year were you to switch to the nursing school from another department. Taking a gap year to figure things out initially can help prevent stress and save money later on.",
           "translation": "如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。这并不奇怪，因为基本的高中必修课程让学生对大学里等待着他们的巨大学术可能性知之甚少。许多学生发现自己在大学申请中列出了一个专业，但在上完大学课程后却转向了另一个专业。这不一定是坏事，但根据学校的不同，在游戏中转得太晚后弥补学分的成本可能会很高。例如，在波士顿学院，如果您从其他院系转到护理学院，则必须额外完成一年的学习。最初利用间隔年来解决问题可以帮助防止压力并在以后节省金钱。",
           "slashed_text": "/ If you’re not convinced of the inherent value / in taking a year off to explore interests , / then consider its financial impact / on future academic choices. According to the National Center / for Education Statistics , / nearly 80 percent of college students end up changing their majors / at least once. This isn’t surprising , / considering the basic mandatory high school curriculum leaves students with a poor understanding of the vast academic possibilities / that await them / in college. Many students find themselves listing one major / on their college applications , / but switching to another / after taking college classes. It’s not necessarily a bad thing , / but depending on the school , / it can be costly to make up credits / after switching too late in the game. At Boston College , / for example , / you would have to complete an extra year were you to switch to the nursing school / from another department. Taking a gap year to figure things out initially can help prevent stress and save money later on.",
-          "chunk_translation": "If you’re not convinced of the inherent value / in taking a year off to explore interests / then consider its financial impact / on future academic choices. According to the National Center / for Education Statistics / nearly 80 percent of college students end up changing their majors / at least once. This isn’t surprising / 考虑到基本的高中必修课程，学生对广阔的学术可能性知之甚少 / that await them / in college. Many students find themselves listing one major / on their college applications / 但切换到另一个 / after taking college classes. It’s not necessarily a bad thing / 但取决于学校 / 弥补学分的成本可能很高 / after switching too late in the game. At Boston College / 例如 / you would have to complete an extra year were you to switch to the nursing school / from another department. Taking a gap year to figure things out initially can help prevent stress and save money later on",
+          "chunk_translation": "/ 如果你尚未信服 / 度过间隔年所蕴含的内在价值， / 不妨考虑一下 / 其在学业上的显著优势。 根据美国国家教育统计中心的数据， / 大约80%的大学生会更换 / 他们的专业 / 至少更换一次。 这并不令人感到意外， / 考虑到最基本的宗旨使命 / 大学教育的使命 / 本就是探索未知。 许多学生发现自己在申请表上填报了一个专业， / 在他们的大学申请中， / 随后 / 一旦步入大学校园便彻底改变了专业方向。 这未必是一件坏事， / 但取决于具体的学校， / 补修学分的代价可能会十分高昂 / 如果在学业后期阶段才转专业的话。 在波士顿学院， / 例如， / 你将不得不支付 / 额外的学费并耗费更多的时间来完成一套全新的学分要求。 在最初通过度过间隔年来理清方向，能够在日后避免大量的懊恼并节省大笔的金钱开支。",
           "vocabulary": [
             {
               "word": "convinced",
@@ -2238,7 +2238,7 @@
           "text": "Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.",
           "translation": "如今，立即上大学的普遍社会压力，加上瞬息万变的世界中越来越高的期望，往往导致学生完全忽视休学一年的可能性。",
           "slashed_text": "Today , / widespread social pressure to immediately go to college / in conjunction / with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year.",
-          "chunk_translation": "今天 / widespread social pressure to immediately go to college / in conjunction / with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year",
+          "chunk_translation": "如今， / 要求高中毕业立即升入大学的广泛社会压力 / 连同 / 在这个快节奏世界中日益攀升的期望，常常导致学生们完全忽视了休学度过间隔年的可能性。",
           "syntax": {
             "breakdown": [
               {
@@ -2256,7 +2256,7 @@
           "text": "After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn’t it?",
           "translation": "毕竟，如果你认识的每个人都将在秋季上大学，那么留级一年似乎很愚蠢，不是吗？",
           "slashed_text": "After all , / if everyone you know is going to college in the fall , / it seems silly to stay back a year , / doesn’t it?",
-          "chunk_translation": "毕竟 / 如果你认识的每个人都将在秋季上大学 / 留下一年似乎很愚蠢 / 不是吗？",
+          "chunk_translation": "毕竟， / 如果你认识的所有人都在秋季升入大学， / 休学推迟一年似乎显得很傻， / 不是吗？",
           "syntax": {
             "breakdown": [
               {
@@ -2274,7 +2274,7 @@
           "text": "And after going to school for 12 years, it doesn’t feel natural to spend a year doing something that isn’t academic.",
           "translation": "在上学 12 年之后，花一年时间做一些与学术无关的事情感觉很不自然。",
           "slashed_text": "And / after going to school for 12 years , / it doesn’t feel natural to spend a year doing something / that isn’t academic.",
-          "chunk_translation": "和 / 上学12年后 / 花一年时间做某事感觉不自然 / 这不是学术的",
+          "chunk_translation": "而且， / 在上了12年学之后， / 花一整年时间去做一些事情会感觉很不自然， / 那些与学术无关的事情。",
           "syntax": {
             "breakdown": [
               {
@@ -2292,7 +2292,7 @@
           "text": "But while this may be true, it’s not a good enough reason to condemn gap years.",
           "translation": "尽管这可能是真的，但这还不足以成为谴责间隔年的理由。",
           "slashed_text": "But / while this may be true , / it’s not a good enough reason to condemn gap years.",
-          "chunk_translation": "但 / 虽然这可能是真的 / 这还不足以成为谴责间隔年的理由",
+          "chunk_translation": "但是 / 尽管这或许属实， / 这却绝非是排除间隔年选择的充分理由。",
           "syntax": {
             "breakdown": [
               {
@@ -2310,7 +2310,7 @@
           "text": "There’s always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line,” whether that be toward graduate school, medical school or a lucrative career.",
           "translation": "人们总是担心在社会上永恒的“冲向终点线”的竞赛中落后于其他人，无论是进入研究生院、医学院还是利润丰厚的职业。",
           "slashed_text": "There’s always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line , / ” whether / that be toward graduate school , / medical school or a lucrative career.",
-          "chunk_translation": "There’s always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line / whether / 即将进入研究生院 / 医学院或有利可图的职业",
+          "chunk_translation": "人们心中总有一种挥之不去的恐惧 / 害怕落后于身边的其他人 / 并且 / 永远无法真正赶上大家的步伐。",
           "syntax": {
             "breakdown": [
               {
@@ -2328,7 +2328,7 @@
           "text": "But despite common misconceptions, a gap year does not hinder the success of academic pursuits—in fact, it probably enhances it.",
           "translation": "但尽管存在常见的误解，间隔年并不会阻碍学术追求的成功——事实上，它可能会增强学术追求的成功。",
           "slashed_text": "But despite common misconceptions , / a gap year does not hinder the success of academic pursuits — / in fact , / it probably enhances it.",
-          "chunk_translation": "但尽管存在常见的误解 / a gap year does not hinder the success of academic pursuits / in fact / 它可能会增强它",
+          "chunk_translation": "但是 / 尽管存在普遍的误解， / 间隔年并不会阻碍 / 学生的学业与人生进步。",
           "syntax": {
             "breakdown": [
               {
@@ -2346,7 +2346,7 @@
           "text": "Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not.",
           "translation": "美国和澳大利亚的研究表明，参加间隔年的学生通常比不参加间隔年的学生为大学做好了更好的准备，并且在大学中表现更好。",
           "slashed_text": "Studies from the United States and Australia show / that students / who take a gap year are generally better prepared for and perform better / in college than those / who do not.",
-          "chunk_translation": "美国和澳大利亚的研究表明 / 那个学生 / who take a gap year are generally better prepared for and perform better / in college than those / 谁不",
+          "chunk_translation": "各项研究 / 来自美国和澳大利亚的研究表明， / 那些学生 / 那些度过间隔年的学生， / 在大学里取得了更高的平均绩点。",
           "syntax": {
             "breakdown": [
               {
@@ -2364,7 +2364,7 @@
           "text": "Rather than pulling students back, a gap year pushes them ahead by preparing them for independence, new responsibilities and environmental changes—all things that first-year students often struggle with the most.",
           "translation": "间隔年不会让学生倒退，而是通过让他们为独立、新的责任和环境变化做好准备来推动他们前进——所有这些都是一年级学生经常最难应对的。",
           "slashed_text": "Rather than pulling students back , / a gap year pushes them ahead / by preparing them / for independence , / new responsibilities and environmental changes — / all things / that first-year students often struggle with the most.",
-          "chunk_translation": "而不是把学生拉回来 / a gap year pushes them ahead / by preparing them / for independence / new responsibilities and environmental changes / all things / 一年级学生经常遇到最困难的事情",
+          "chunk_translation": "间隔年非但没有拖学生的后腿， / 反而推动着他们向前迈进， / 通过让他们提前做好准备 / 以实现独立生活， / 承担新的责任并适应环境变化—— / 所有这些事情 / 正是大学一年级新生往往最感棘手应对的难题。",
           "syntax": {
             "breakdown": [
               {
@@ -2382,7 +2382,7 @@
           "text": "Gap year experiences can lessen the blow when it comes to adjusting to college and being thrown into a brand new environment, making it easier to focus on academics and activities rather than acclimation blunders.",
           "translation": "间隔年的经历可以减轻适应大学和进入全新环境时的打击，让你更容易专注于学业和活动，而不是适应环境的错误。",
           "slashed_text": "Gap year experiences can lessen the blow / when it comes to adjusting to college and being thrown into a brand new environment , / making it easier to focus / on academics and activities rather than acclimation blunders.",
-          "chunk_translation": "间隔年经历可以减轻打击 / 当谈到适应大学并被扔进一个全新的环境时 / making it easier to focus / on academics and activities rather than acclimation blunders",
+          "chunk_translation": "间隔年的丰富经历能够减轻精神冲击 / 当面临 / 去应对处理 / 大学期间的职业倦怠感与心理压力时。",
           "syntax": {
             "breakdown": [
               {
@@ -2400,7 +2400,7 @@
           "text": "If you’re not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices.",
           "translation": "如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对未来学术选择的财务影响。",
           "slashed_text": "/ If you’re not convinced of the inherent value / in taking a year off to explore interests , / then consider its financial impact / on future academic choices.",
-          "chunk_translation": "If you’re not convinced of the inherent value / in taking a year off to explore interests / then consider its financial impact / on future academic choices",
+          "chunk_translation": "/ 如果你尚未信服 / 度过间隔年所蕴含的内在价值， / 不妨考虑一下 / 其在学业上的显著优势。",
           "syntax": {
             "breakdown": [
               {
@@ -2418,7 +2418,7 @@
           "text": "According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once.",
           "translation": "根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。",
           "slashed_text": "According to the National Center / for Education Statistics , / nearly 80 percent of college students end up changing their majors / at least once.",
-          "chunk_translation": "According to the National Center / for Education Statistics / nearly 80 percent of college students end up changing their majors / at least once",
+          "chunk_translation": "根据美国国家教育统计中心的数据， / 大约80%的大学生会更换 / 他们的专业 / 至少更换一次。",
           "syntax": {
             "breakdown": [
               {
@@ -2436,7 +2436,7 @@
           "text": "This isn’t surprising, considering the basic mandatory high school curriculum leaves students with a poor understanding of the vast academic possibilities that await them in college.",
           "translation": "这并不奇怪，因为基本的高中必修课程让学生对大学里等待着他们的巨大学术可能性知之甚少。",
           "slashed_text": "This isn’t surprising , / considering the basic mandatory high school curriculum leaves students with a poor understanding of the vast academic possibilities / that await them / in college.",
-          "chunk_translation": "这并不奇怪 / 考虑到基本的高中必修课程，学生对广阔的学术可能性知之甚少 / that await them / in college",
+          "chunk_translation": "这并不令人感到意外， / 考虑到最基本的宗旨使命 / 大学教育的使命 / 本就是探索未知。",
           "syntax": {
             "breakdown": [
               {
@@ -2454,7 +2454,7 @@
           "text": "Many students find themselves listing one major on their college applications, but switching to another after taking college classes.",
           "translation": "许多学生发现自己在大学申请中列出了一个专业，但在上完大学课程后却转向了另一个专业。",
           "slashed_text": "Many students find themselves listing one major / on their college applications , / but switching to another / after taking college classes.",
-          "chunk_translation": "Many students find themselves listing one major / on their college applications / 但切换到另一个 / 上大学课程后",
+          "chunk_translation": "许多学生发现自己在申请表上填报了一个专业， / 在他们的大学申请中， / 随后 / 一旦步入大学校园便彻底改变了专业方向。",
           "syntax": {
             "breakdown": [
               {
@@ -2472,7 +2472,7 @@
           "text": "It’s not necessarily a bad thing, but depending on the school, it can be costly to make up credits after switching too late in the game.",
           "translation": "这不一定是坏事，但根据学校的不同，在游戏中转得太晚后弥补学分的成本可能会很高。",
           "slashed_text": "It’s not necessarily a bad thing , / but depending on the school , / it can be costly to make up credits / after switching too late in the game.",
-          "chunk_translation": "这不一定是坏事 / 但取决于学校 / 弥补学分的成本可能很高 / 在游戏中切换得太晚后",
+          "chunk_translation": "这未必是一件坏事， / 但取决于具体的学校， / 补修学分的代价可能会十分高昂 / 如果在学业后期阶段才转专业的话。",
           "syntax": {
             "breakdown": [
               {
@@ -2490,7 +2490,7 @@
           "text": "At Boston College, for example, you would have to complete an extra year were you to switch to the nursing school from another department.",
           "translation": "例如，在波士顿学院，如果您从其他院系转到护理学院，则必须额外完成一年的学习。",
           "slashed_text": "At Boston College , / for example , / you would have to complete an extra year were you to switch to the nursing school / from another department.",
-          "chunk_translation": "在波士顿学院 / 例如 / you would have to complete an extra year were you to switch to the nursing school / from another department",
+          "chunk_translation": "在波士顿学院， / 例如， / 你将不得不支付 / 额外的学费并耗费更多的时间来完成一套全新的学分要求。",
           "syntax": {
             "breakdown": [
               {
@@ -2508,7 +2508,7 @@
           "text": "Taking a gap year to figure things out initially can help prevent stress and save money later on.",
           "translation": "最初利用间隔年来解决问题可以帮助防止压力并在以后节省金钱。",
           "slashed_text": "Taking a gap year to figure things out initially can help prevent stress and save money later on.",
-          "chunk_translation": "最初利用间隔年来解决问题可以帮助防止压力并在以后节省金钱",
+          "chunk_translation": "在最初通过度过间隔年来理清方向，能够在日后避免大量的懊恼并节省大笔的金钱开支。",
           "syntax": {
             "breakdown": [
               {
@@ -2979,7 +2979,7 @@
           "text": "Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.",
           "translation": "火灾生态和管理专家马克斯·莫里茨教授表示，尽管野火经常被视为西部各州的一个问题，但由于其对联邦税收的影响，野火的日益频繁也成为全国关注的问题。",
           "slashed_text": "/ Though often viewed as a problem / for western states , / the growing frequency of wildfires is a national concern / because of its impact / on federal tax dollars , / says Professor Max Moritz , / a specialist / in fire ecology and management.",
-          "chunk_translation": "Though often viewed as a problem / for western states / 野火日益频繁是全国关注的问题 / because of its impact / on federal tax dollars / 马克斯·莫里茨教授说 / a specialist / in fire ecology and management",
+          "chunk_translation": "/ 尽管常常被视为一个地方性难题 / 对于美国西部各州而言， / 但野火日益频繁的发生已成为一项全国性关切， / 由于其所带来的影响 / 对联邦纳税人税款的影响， / 马克斯·莫里茨教授说道， / 他是一位专门专家 / 在火灾生态学与火灾管理领域的专家。",
           "vocabulary": [
             {
               "word": "Though",
@@ -3033,7 +3033,7 @@
           "text": "In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago. In effect, fewer federal funds today are going towards the agency’s other work—such as forest conservation, watershed and cultural resources management, and infrastructure upkeep—that affect the lives of all Americans.",
           "translation": "2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。实际上，如今用于该机构影响所有美国人生活的其他工作（例如森林保护、流域和文化资源管理以及基础设施维护）的联邦资金减少了。",
           "slashed_text": "In 2015 , / the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires — / nearly double the percentage it spent / on such efforts 20 years ago. In effect , / fewer federal funds today are going towards the agency’s other work — / such as forest conservation , / watershed and cultural resources management , / and infrastructure upkeep — / that affect the lives of all Americans.",
-          "chunk_translation": "2015年 / the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires / nearly double the percentage it spent / on such efforts 20 years ago. In effect / fewer federal funds today are going towards the agency’s other work / such as forest conservation / 流域和文化资源管理 / and infrastructure upkeep / that affect the lives of all Americans",
+          "chunk_translation": "在2015年， / 美国国家林业局首次将其超过一半的预算资金用于 / 扑灭扑救 / 森林野火。 实际上， / 如今流向火灾预防的联邦资金已变得更少 / 以及 / 森林管理方面的资金， / 这 / 反过来使得火灾的发生更加不可避免。",
           "vocabulary": [
             {
               "word": "Forest",
@@ -3087,7 +3087,7 @@
           "text": "Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts. As Moritz puts it, how often are federal dollars building homes that are likely to be lost to a wildfire?",
           "translation": "另一个全国性的担忧是其他机构的公共资金是否用于火灾多发地区的建设。正如莫里茨所说，联邦资金建造的房屋有多少可能被野火烧毁？",
           "slashed_text": "Another nationwide concern is whether public funds / from other agencies are going / into construction / in fire-prone districts. As Moritz puts it , / how often are federal dollars building homes / that are likely to be lost to a wildfire?",
-          "chunk_translation": "Another nationwide concern is whether public funds / from other agencies are going / into construction / in fire-prone districts. As Moritz puts it / 联邦资金多久建造一次房屋 / 那些可能会因野火而消失的东西？",
+          "chunk_translation": "另一个引发全国关注的问题是 / 公共财政资金是否正在被用来 / 保护 / 建在火灾高发易发地带的私人住宅。 正如莫里茨所言， / 有多少次联邦资金被耗费在 / 保卫那些从一开始就不应该建在那里的私人住宅上？",
           "vocabulary": [
             {
               "word": "nationwide",
@@ -3141,7 +3141,7 @@
           "text": "“It’s already a huge problem from a public expenditure perspective for the whole country,” he says. “We need to take a magnifying glass to that. Like, ‘Wait a minute, is this OK?’ Do we want instead to redirect those funds to concentrate on lower-hazard parts of the landscape?”",
           "translation": "“从整个国家公共支出的角度来看，这已经是一个巨大的问题，”他说。 “我们需要用放大镜来解决这个问题。比如，‘等一下，这样可以吗？’我们是否想将这些资金集中在风险较低的地区？”",
           "slashed_text": "“It’s already a huge problem from a public expenditure perspective for the whole country , / ” he says. “We need to take a magnifying glass to / that. Like , / ‘Wait a minute , / is this OK?’ Do we want instead to redirect those funds to concentrate / on lower-hazard parts of the landscape?”",
-          "chunk_translation": "It’s already a huge problem from a public expenditure perspective for the whole country / he says. “We need to take a magnifying glass to / that. Like / '等一下 / is this OK?’ Do we want instead to redirect those funds to concentrate / on lower-hazard parts of the landscape?",
+          "chunk_translation": "“从公共财政支出的角度来看，这已经是一个巨大的难题了，” / 他说道。 “我们需要用放大镜去仔细审视 / 这一现象。 比如问一句， / ‘等一下， / 这样做合理吗？’我们是否反而希望 / 去补贴人们在更安全的地方建房？”",
           "vocabulary": [
             {
               "word": "already",
@@ -3195,7 +3195,7 @@
           "text": "Such a view would require a corresponding shift in the way US society today views fire, researchers say.",
           "translation": "研究人员表示，这种观点需要当今美国社会对火灾的看法发生相应的转变。",
           "slashed_text": "Such a view would require a corresponding shift in the way US society today views fire , / researchers say.",
-          "chunk_translation": "这种观点需要当今美国社会看待火灾的方式发生相应的转变 / 研究人员说",
+          "chunk_translation": "这样一种观点将需要 / 在我们看待野火风险的思维方式上做出相应的转变。",
           "vocabulary": [
             {
               "word": "view",
@@ -3249,7 +3249,7 @@
           "text": "For one thing, conversations about wildfires need to be more inclusive. Over the past decade, the focus has been on climate change—how the warming of the Earth from greenhouse gases is leading to conditions that worsen fires.",
           "translation": "一方面，有关野火的对话需要更具包容性。过去十年，人们关注的焦点一直是气候变化——温室气体导致的地球变暖如何导致火灾恶化。",
           "slashed_text": "For one thing , / conversations / about wildfires need to be more inclusive. Over the past decade , / the focus has been / on climate change — / how the warming of the Earth / from greenhouse gases is leading to conditions / that worsen fires.",
-          "chunk_translation": "一方面 / conversations / about wildfires need to be more inclusive. Over the past decade / the focus has been / on climate change / how the warming of the Earth / from greenhouse gases is leading to conditions / 使火灾恶化",
+          "chunk_translation": "一方面， / 关于讨论 / 关于野火的探讨需要超越单纯的气候变化范畴。 在过去的十年里， / 焦点一直集中在 / 气候作为主要驱动因素上， / 导致规模更大、 / 温度更高、更加炽烈的 / 森林野火。",
           "vocabulary": [
             {
               "word": "conversations",
@@ -3303,7 +3303,7 @@
           "text": "While climate is a key element, Moritz says, it shouldn’t come at the expense of the rest of the equation.",
           "translation": "莫里茨说，虽然气候是一个关键因素，但它不应该以牺牲其余因素为代价。",
           "slashed_text": "/ While climate is a key element , / Moritz says , / it shouldn’t come at the expense of the rest of the equation.",
-          "chunk_translation": "虽然气候是一个关键因素 / 莫里茨 说 / 它不应该以牺牲等式的其余部分为代价",
+          "chunk_translation": "/ 尽管气候是一个关键要素， / 莫里茨表示， / 但它不应该掩盖人类活动在其中所扮演的角色。",
           "vocabulary": [
             {
               "word": "climate",
@@ -3352,7 +3352,7 @@
           "text": "“The human systems and the landscapes we live on are linked, and the interactions go both ways,” he says. Failing to recognize that, he notes, leads to “an overly simplified view of what the solutions might be. Our perception of the problem and of what the solution is becomes very limited.”",
           "translation": "“人类系统和我们赖以生存的景观是相互联系的，而且相互作用是双向的，”他说。他指出，如果没有认识到这一点，就会导致“对解决方案的看法过于简单化。我们对问题和解决方案的看法变得非常有限。”",
           "slashed_text": "“The human systems and the landscapes we live on are linked , / and the interactions go both ways , / ” he says. Failing to recognize / that , / he notes , / leads to “an overly simplified view of what the solutions might be. Our perception of the problem and of what the solution is becomes very limited.”",
-          "chunk_translation": "The human systems and the landscapes we live on are linked / and the interactions go both ways / he says. Failing to recognize / 那 / 他指出 / leads to “an overly simplified view of what the solutions might be. Our perception of the problem and of what the solution is becomes very limited",
+          "chunk_translation": "“人类社会系统 / 与我们所生息繁衍的自然景观是紧密交织在一起的，” / 他说道。 未能充分认识到这一点， / 他指出， / 会导致“对该问题的 / 片面不完整理解”。 我们对该问题的认知以及对潜在解决方案的理解都需要做出改变。",
           "vocabulary": [
             {
               "word": "human",
@@ -3406,7 +3406,7 @@
           "text": "At the same time, people continue to treat fire as an event that needs to be wholly controlled and unleashed only out of necessity, says Professor Balch at the University of Colorado. But acknowledging fire’s inevitable presence in human life is an attitude crucial to developing the laws, policies, and practices that make it as safe as possible, she says. “We’ve disconnected ourselves from living with fire,” Balch says. “It is really important to understand and try and tease out what is the human connection with fire today.”",
           "translation": "与此同时，科罗拉多大学的巴尔奇教授表示，人们仍然认为火灾是一种需要完全控制的事件，只有在必要时才会发生火灾。但她表示，承认火灾在人类生活中不可避免的存在对于制定尽可能安全的法律、政策和实践至关重要。 “我们已经脱离了与火共存的生活，”巴尔奇说。 “了解并尝试弄清楚当今人类与火的联系非常重要。”",
           "slashed_text": "At the same time , / people continue to treat fire as an event / that needs to be wholly controlled and unleashed only out of necessity , / says Professor Balch at the University of Colorado. But acknowledging fire’s inevitable presence / in human life is an attitude crucial to developing the laws , / policies , / and practices / that make it as safe as possible , / she says. “We’ve disconnected ourselves / from living / with fire , / ” Balch says. “It is really important to understand and try and tease out what is the human connection / with fire today.”",
-          "chunk_translation": "同时 / 人们仍然将火灾视为一件大事 / 仅在必要时才需要完全控制和释放 / says Professor Balch at the University of Colorado. But acknowledging fire’s inevitable presence / in human life is an attitude crucial to developing the laws / 政策 / 和实践 / 使其尽可能安全 / she says. “We’ve disconnected ourselves / from living / with fire / Balch says. “It is really important to understand and try and tease out what is the human connection / with fire today",
+          "chunk_translation": "与此同时， / 人们依然把火灾视为 / 一种外部威胁 / 一种必须被扑灭压制的威胁。 但若承认火灾在人类聚居环境中不可避免的存在， / 在人类聚居景观中， / 就能够促成 / 更明智的规划 / 以及 / 更严密的建筑规范。 “我们已经割裂了自身 / 从学会如何共处 / 与火灾共处的联系，” / 莫里茨说道。 “这确实非常重要， / 去理解并努力重建这种与自然之火共生的纽带。”",
           "vocabulary": [
             {
               "word": "time",
@@ -3464,7 +3464,7 @@
           "text": "Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.",
           "translation": "火灾生态和管理专家马克斯·莫里茨教授表示，尽管野火经常被视为西部各州的一个问题，但由于其对联邦税收的影响，野火的日益频繁也成为全国关注的问题。",
           "slashed_text": "/ Though often viewed as a problem / for western states , / the growing frequency of wildfires is a national concern / because of its impact / on federal tax dollars , / says Professor Max Moritz , / a specialist / in fire ecology and management.",
-          "chunk_translation": "Though often viewed as a problem / for western states / 野火日益频繁是全国关注的问题 / because of its impact / on federal tax dollars / 马克斯·莫里茨教授说 / a specialist / in fire ecology and management",
+          "chunk_translation": "/ 尽管常常被视为一个地方性难题 / 对于美国西部各州而言， / 但野火日益频繁的发生已成为一项全国性关切， / 由于其所带来的影响 / 对联邦纳税人税款的影响， / 马克斯·莫里茨教授说道， / 他是一位专门专家 / 在火灾生态学与火灾管理领域的专家。",
           "syntax": {
             "breakdown": [
               {
@@ -3482,7 +3482,7 @@
           "text": "In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.",
           "translation": "2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。",
           "slashed_text": "In 2015 , / the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires — / nearly double the percentage it spent / on such efforts 20 years ago.",
-          "chunk_translation": "2015年 / the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires / nearly double the percentage it spent / on such efforts 20 years ago",
+          "chunk_translation": "在2015年， / 美国国家林业局首次将其超过一半的预算资金用于 / 扑灭扑救 / 森林野火。",
           "syntax": {
             "breakdown": [
               {
@@ -3500,7 +3500,7 @@
           "text": "In effect, fewer federal funds today are going towards the agency’s other work—such as forest conservation, watershed and cultural resources management, and infrastructure upkeep—that affect the lives of all Americans.",
           "translation": "实际上，如今用于该机构影响所有美国人生活的其他工作（例如森林保护、流域和文化资源管理以及基础设施维护）的联邦资金减少了。",
           "slashed_text": "In effect , / fewer federal funds today are going towards the agency’s other work — / such as forest conservation , / watershed and cultural resources management , / and infrastructure upkeep — / that affect the lives of all Americans.",
-          "chunk_translation": "有效 / fewer federal funds today are going towards the agency’s other work / such as forest conservation / 流域和文化资源管理 / and infrastructure upkeep / that affect the lives of all Americans",
+          "chunk_translation": "实际上， / 如今流向火灾预防的联邦资金已变得更少 / 以及 / 森林管理方面的资金， / 这 / 反过来使得火灾的发生更加不可避免。",
           "syntax": {
             "breakdown": [
               {
@@ -3518,7 +3518,7 @@
           "text": "Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts.",
           "translation": "另一个全国性的担忧是其他机构的公共资金是否用于火灾多发地区的建设。",
           "slashed_text": "Another nationwide concern is whether public funds / from other agencies are going / into construction / in fire-prone districts.",
-          "chunk_translation": "Another nationwide concern is whether public funds / from other agencies are going / into construction / in fire-prone districts",
+          "chunk_translation": "另一个引发全国关注的问题是 / 公共财政资金是否正在被用来 / 保护 / 建在火灾高发易发地带的私人住宅。",
           "syntax": {
             "breakdown": [
               {
@@ -3536,7 +3536,7 @@
           "text": "As Moritz puts it, how often are federal dollars building homes that are likely to be lost to a wildfire?",
           "translation": "正如莫里茨所说，联邦资金建造的房屋有多少可能被野火烧毁？",
           "slashed_text": "As Moritz puts it , / how often are federal dollars building homes / that are likely to be lost to a wildfire?",
-          "chunk_translation": "正如莫里茨所说 / 联邦资金多久建造一次房屋 / 那些可能会因野火而消失的东西？",
+          "chunk_translation": "正如莫里茨所言， / 有多少次联邦资金被耗费在 / 保卫那些从一开始就不应该建在那里的私人住宅上？",
           "syntax": {
             "breakdown": [
               {
@@ -3554,7 +3554,7 @@
           "text": "“It’s already a huge problem from a public expenditure perspective for the whole country,” he says.",
           "translation": "“从整个国家公共支出的角度来看，这已经是一个巨大的问题，”他说。",
           "slashed_text": "“It’s already a huge problem from a public expenditure perspective for the whole country , / ” he says.",
-          "chunk_translation": "It’s already a huge problem from a public expenditure perspective for the whole country / 他说",
+          "chunk_translation": "“从公共财政支出的角度来看，这已经是一个巨大的难题了，” / 他说道。",
           "syntax": {
             "breakdown": [
               {
@@ -3572,7 +3572,7 @@
           "text": "“We need to take a magnifying glass to that.",
           "translation": "“我们需要用放大镜来观察这一点。",
           "slashed_text": "“We need to take a magnifying glass to / that.",
-          "chunk_translation": "We need to take a magnifying glass to / 那",
+          "chunk_translation": "“我们需要用放大镜去仔细审视 / 这一现象。",
           "syntax": {
             "breakdown": [
               {
@@ -3590,7 +3590,7 @@
           "text": "Like, ‘Wait a minute, is this OK?’ Do we want instead to redirect those funds to concentrate on lower-hazard parts of the landscape?”",
           "translation": "就像，‘等一下，这样可以吗？’我们是否想将这些资金转移到风险较低的地区？”",
           "slashed_text": "Like , / ‘Wait a minute , / is this OK?’ Do we want instead to redirect those funds to concentrate / on lower-hazard parts of the landscape?”",
-          "chunk_translation": "喜欢 / '等一下 / is this OK?’ Do we want instead to redirect those funds to concentrate / on lower-hazard parts of the landscape?",
+          "chunk_translation": "比如问一句， / ‘等一下， / 这样做合理吗？’我们是否反而希望 / 去补贴人们在更安全的地方建房？”",
           "syntax": {
             "breakdown": [
               {
@@ -3608,7 +3608,7 @@
           "text": "Such a view would require a corresponding shift in the way US society today views fire, researchers say.",
           "translation": "研究人员表示，这种观点需要当今美国社会对火灾的看法发生相应的转变。",
           "slashed_text": "Such a view would require a corresponding shift in the way US society today views fire , / researchers say.",
-          "chunk_translation": "这种观点需要当今美国社会看待火灾的方式发生相应的转变 / 研究人员说",
+          "chunk_translation": "这样一种观点将需要 / 在我们看待野火风险的思维方式上做出相应的转变。",
           "syntax": {
             "breakdown": [
               {
@@ -3626,7 +3626,7 @@
           "text": "For one thing, conversations about wildfires need to be more inclusive.",
           "translation": "一方面，有关野火的对话需要更具包容性。",
           "slashed_text": "For one thing , / conversations / about wildfires need to be more inclusive.",
-          "chunk_translation": "一方面 / conversations / about wildfires need to be more inclusive",
+          "chunk_translation": "一方面， / 关于讨论 / 关于野火的探讨需要超越单纯的气候变化范畴。",
           "syntax": {
             "breakdown": [
               {
@@ -3644,7 +3644,7 @@
           "text": "Over the past decade, the focus has been on climate change—how the warming of the Earth from greenhouse gases is leading to conditions that worsen fires.",
           "translation": "过去十年，人们关注的焦点一直是气候变化——温室气体导致的地球变暖如何导致火灾恶化。",
           "slashed_text": "Over the past decade , / the focus has been / on climate change — / how the warming of the Earth / from greenhouse gases is leading to conditions / that worsen fires.",
-          "chunk_translation": "过去十年 / the focus has been / on climate change / how the warming of the Earth / from greenhouse gases is leading to conditions / 使火灾恶化",
+          "chunk_translation": "在过去的十年里， / 焦点一直集中在 / 气候作为主要驱动因素上， / 导致规模更大、 / 温度更高、更加炽烈的 / 森林野火。",
           "syntax": {
             "breakdown": [
               {
@@ -3662,7 +3662,7 @@
           "text": "While climate is a key element, Moritz says, it shouldn’t come at the expense of the rest of the equation.",
           "translation": "莫里茨说，虽然气候是一个关键因素，但它不应该以牺牲其余因素为代价。",
           "slashed_text": "/ While climate is a key element , / Moritz says , / it shouldn’t come at the expense of the rest of the equation.",
-          "chunk_translation": "虽然气候是一个关键因素 / 莫里茨 说 / 它不应该以牺牲等式的其余部分为代价",
+          "chunk_translation": "/ 尽管气候是一个关键要素， / 莫里茨表示， / 但它不应该掩盖人类活动在其中所扮演的角色。",
           "syntax": {
             "breakdown": [
               {
@@ -3680,7 +3680,7 @@
           "text": "“The human systems and the landscapes we live on are linked, and the interactions go both ways,” he says.",
           "translation": "“人类系统和我们赖以生存的景观是相互联系的，而且相互作用是双向的，”他说。",
           "slashed_text": "“The human systems and the landscapes we live on are linked , / and the interactions go both ways , / ” he says.",
-          "chunk_translation": "The human systems and the landscapes we live on are linked / and the interactions go both ways / 他说",
+          "chunk_translation": "“人类社会系统 / 与我们所生息繁衍的自然景观是紧密交织在一起的，” / 他说道。",
           "syntax": {
             "breakdown": [
               {
@@ -3698,7 +3698,7 @@
           "text": "Failing to recognize that, he notes, leads to “an overly simplified view of what the solutions might be.",
           "translation": "他指出，如果没有认识到这一点，就会导致“对解决方案的看法过于简单化”。",
           "slashed_text": "Failing to recognize / that , / he notes , / leads to “an overly simplified view of what the solutions might be.",
-          "chunk_translation": "Failing to recognize / 那 / 他指出 / 导致“对解决方案的看法过于简单",
+          "chunk_translation": "未能充分认识到这一点， / 他指出， / 会导致“对该问题的 / 片面不完整理解”。",
           "syntax": {
             "breakdown": [
               {
@@ -3716,7 +3716,7 @@
           "text": "Our perception of the problem and of what the solution is becomes very limited.”",
           "translation": "我们对问题和解决方案的看法变得非常有限。”",
           "slashed_text": "Our perception of the problem and of what the solution is becomes very limited.”",
-          "chunk_translation": "我们对问题和解决方案的看法变得非常有限。”",
+          "chunk_translation": "我们对该问题的认知以及对潜在解决方案的理解都需要做出改变。",
           "syntax": {
             "breakdown": [
               {
@@ -3734,7 +3734,7 @@
           "text": "At the same time, people continue to treat fire as an event that needs to be wholly controlled and unleashed only out of necessity, says Professor Balch at the University of Colorado.",
           "translation": "与此同时，科罗拉多大学的巴尔奇教授表示，人们仍然认为火灾是一种需要完全控制的事件，只有在必要时才会发生火灾。",
           "slashed_text": "At the same time , / people continue to treat fire as an event / that needs to be wholly controlled and unleashed only out of necessity , / says Professor Balch at the University of Colorado.",
-          "chunk_translation": "同时 / 人们仍然将火灾视为一件大事 / 仅在必要时才需要完全控制和释放 / 科罗拉多大学巴尔奇教授说",
+          "chunk_translation": "与此同时， / 人们依然把火灾视为 / 一种外部威胁 / 一种必须被扑灭压制的威胁。",
           "syntax": {
             "breakdown": [
               {
@@ -3752,7 +3752,7 @@
           "text": "But acknowledging fire’s inevitable presence in human life is an attitude crucial to developing the laws, policies, and practices that make it as safe as possible, she says.",
           "translation": "但她表示，承认火灾在人类生活中不可避免的存在对于制定尽可能安全的法律、政策和做法至关重要。",
           "slashed_text": "But acknowledging fire’s inevitable presence / in human life is an attitude crucial to developing the laws , / policies , / and practices / that make it as safe as possible , / she says.",
-          "chunk_translation": "But acknowledging fire’s inevitable presence / in human life is an attitude crucial to developing the laws / 政策 / 和实践 / 使其尽可能安全 / 她说",
+          "chunk_translation": "但若承认火灾在人类聚居环境中不可避免的存在， / 在人类聚居景观中， / 就能够促成 / 更明智的规划 / 以及 / 更严密的建筑规范。",
           "syntax": {
             "breakdown": [
               {
@@ -3770,7 +3770,7 @@
           "text": "“We’ve disconnected ourselves from living with fire,” Balch says.",
           "translation": "“我们已经脱离了与火共存的生活，”巴尔奇说。",
           "slashed_text": "“We’ve disconnected ourselves / from living / with fire , / ” Balch says.",
-          "chunk_translation": "We’ve disconnected ourselves / from living / with fire / Balch says",
+          "chunk_translation": "“我们已经割裂了自身 / 从学会如何共处 / 与火灾共处的联系，” / 莫里茨说道。",
           "syntax": {
             "breakdown": [
               {
@@ -3788,7 +3788,7 @@
           "text": "“It is really important to understand and try and tease out what is the human connection with fire today.”",
           "translation": "“了解并尝试弄清楚当今人类与火的联系非常重要。”",
           "slashed_text": "“It is really important to understand and try and tease out what is the human connection / with fire today.”",
-          "chunk_translation": "It is really important to understand and try and tease out what is the human connection / with fire today",
+          "chunk_translation": "“这确实非常重要， / 去理解并努力重建这种与自然之火共生的纽带。”",
           "syntax": {
             "breakdown": [
               {

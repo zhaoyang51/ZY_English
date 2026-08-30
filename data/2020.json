@@ -12,7 +12,7 @@
           "text": "Rats and other animals need to be highly attuned to social signals from others so they can identify friends to cooperate with and enemies to avoid. To find out if this extends to non- living beings, Laleh Quinn at the University of California, San Diego, and her colleagues tested whether rats can detect social signals from robotic rats.",
           "translation": "老鼠和其他动物需要高度适应来自他人的社交信号，这样它们才能识别出要合作的朋友和要避开的敌人。为了查明这种现象是否也适用于非生物，加州大学圣地亚哥分校的拉勒·奎因 (Laleh Quinn) 和她的同事测试了老鼠是否能够检测到来自机器老鼠的社交信号。",
           "slashed_text": "Rats and other animals need to be highly attuned to social signals / from others so they can identify friends to cooperate with and enemies to avoid. To find out / if this extends to non- living beings , / Laleh Quinn at the University of California , / San Diego , / and her colleagues tested whether rats can detect social signals / from robotic rats.",
-          "chunk_translation": "Rats and other animals need to be highly attuned to social signals / from others so they can identify friends to cooperate with and enemies to avoid. To find out / 如果这延伸到非生物体 / 拉勒·奎因 (Laleh Quinn)，加州大学 / 圣地亚哥 / and her colleagues tested whether rats can detect social signals / from robotic rats",
+          "chunk_translation": "老鼠和其他动物需要对来自同类的社交信号保持高度敏感， / 以便它们能够识别出可以合作的朋友并避开敌人。 为了查明 / 这一现象是否延伸到非生物体， / 加利福尼亚大学 / 圣迭戈分校的拉莱·奎因 / 及其同事测试了老鼠能否检测到社交信号， / 这些信号来自机器鼠。",
           "vocabulary": [
             {
               "word": "Rats",
@@ -66,7 +66,7 @@
           "text": "They housed eight adult rats with two types of robotic rat—one social and one asocial— for four days. The robot rats were quite minimalist, resembling a chunkier version of a computer mouse with wheels to move around and colorful markings.",
           "translation": "他们将八只成年老鼠与两种类型的机器老鼠（一种是社交型的，一种是非社交型的）一起饲养了四天。机器鼠非常简约，类似于一个厚重版本的电脑鼠标，带有可以移动的轮子和彩色标记。",
           "slashed_text": "They housed eight adult rats with two types of robotic rat — / one social and one asocial — / for four days. The robot rats were quite minimalist , / resembling a chunkier version of a computer mouse / with wheels to move around and colorful markings.",
-          "chunk_translation": "They housed eight adult rats with two types of robotic rat / one social and one asocial / for four days. The robot rats were quite minimalist / resembling a chunkier version of a computer mouse / with wheels to move around and colorful markings",
+          "chunk_translation": "他们将八只成年大鼠与两种类型的机器鼠—— / 一种具备社交功能，另一种不具备社交功能—— / 共同饲养了四天。 机器鼠的构造非常简约， / 看起来像是一个笨重版的电脑鼠标， / 配备了可以四处移动的轮子和彩色标记。",
           "vocabulary": [
             {
               "word": "housed",
@@ -120,7 +120,7 @@
           "text": "During the experiment, the social robot rat followed the living rats around, played with the same toys, and opened cage doors to let trapped rats escape. Meanwhile, the asocial robot simply moved forwards and backwards and side to side.",
           "translation": "实验过程中，社交机器鼠跟随活体老鼠四处走动，玩同样的玩具，并打开笼门让被困的老鼠逃脱。与此同时，非社交机器人只是简单地前后左右移动。",
           "slashed_text": "During the experiment , / the social robot rat followed the living rats around , / played with the same toys , / and opened cage doors to let trapped rats escape. Meanwhile , / the asocial robot simply moved forwards and backwards and side to side.",
-          "chunk_translation": "实验过程中 / 社交机器鼠跟随活生生的老鼠 / 玩同样的玩具 / and opened cage doors to let trapped rats escape. Meanwhile / 反社会机器人只是简单地向前、向后、左右移动",
+          "chunk_translation": "在实验过程中， / 社交型机器鼠跟随活体大鼠四处活动， / 玩同样的玩具， / 并打开笼门让被困的大鼠逃脱。 与此同时， / 非社交型机器鼠只是简单地前后左右移动。",
           "vocabulary": [
             {
               "word": "experiment",
@@ -174,7 +174,7 @@
           "text": "Next, the researchers trapped the robots in cages and gave the rats the opportunity to release them by pressing a lever. Across 18 trials each, the living rats were 52 per cent more likely on average to set the social robot free than the asocial one. This suggests that the rats perceived the social robot as a genuine social being. They may have bonded more with the social robot because it displayed behaviours like communal exploring and playing. This could lead to the rats better remembering having freed it earlier, and wanting the robot to return the favour when they get trapped, says Quinn.",
           "translation": "接下来，研究人员将机器人困在笼子里，让老鼠有机会通过按下杠杆来释放它们。在每项 18 项试验中，活体老鼠释放社交机器人的可能性平均比非社交老鼠高出 52%。这表明老鼠将社交机器人视为真正的社交存在。他们可能与社交机器人有更多的联系，因为它表现出公共探索和玩耍等行为。奎因说，这可能会让老鼠更好地记住早些时候释放了它，并希望机器人在它们被困时回报它。",
           "slashed_text": "Next , / the researchers trapped the robots / in cages and gave the rats the opportunity to release them / by pressing a lever. Across 18 trials each , / the living rats were 52 per cent more likely / on average to set the social robot free than the asocial one. This suggests / that the rats perceived the social robot as a genuine social being. They may have bonded more with the social robot / because it displayed behaviours like communal exploring and playing. This could lead to the rats better remembering having freed it earlier , / and wanting the robot to return the favour / when they get trapped , / says Quinn.",
-          "chunk_translation": "下一个 / the researchers trapped the robots / in cages and gave the rats the opportunity to release them / by pressing a lever. Across 18 trials each / the living rats were 52 per cent more likely / on average to set the social robot free than the asocial one. This suggests / that the rats perceived the social robot as a genuine social being. They may have bonded more with the social robot / because it displayed behaviours like communal exploring and playing. This could lead to the rats better remembering having freed it earlier / 并希望机器人报答 / 当他们被困时 / 奎因说",
+          "chunk_translation": "接下来， / 研究人员将机器鼠困在 / 笼子里，并给予活体大鼠释放它们的机会， / 通过按压杠杆来实现。 在每组18次试验中， / 活体大鼠释放社交型机器人的概率高出52%， / 平均而言比释放非社交型机器人的概率更高。 这表明 / 大鼠将社交型机器鼠视为一个真正的社交同伴。 它们可能与社交型机器鼠建立了更深厚的情感联系， / 因为它表现出了共同探索和玩耍等互动行为。 这可能会使大鼠更清楚地记得先前曾解救过该机器鼠， / 并且希望机器人在自己被困时能予以回报， / 当它们自身陷入困境时， / 奎因说道。",
           "vocabulary": [
             {
               "word": "lead to",
@@ -228,7 +228,7 @@
           "text": "“Rats have been shown to engage in multiple forms of reciprocal help and cooperation, including what is referred to as direct reciprocity—where a rat will help another rat that has previously helped them,” says Quinn.",
           "translation": "奎因说：“研究表明，老鼠会参与多种形式的互惠帮助和合作，包括所谓的直接互惠——一只老鼠会帮助另一只曾经帮助过它们的老鼠。”",
           "slashed_text": "“Rats have been shown to engage / in multiple forms of reciprocal help and cooperation , / including what is referred to as direct reciprocity — / where a rat will help another rat / that has previously helped them , / ” says Quinn.",
-          "chunk_translation": "Rats have been shown to engage / in multiple forms of reciprocal help and cooperation / including what is referred to as direct reciprocity / where a rat will help another rat / that has previously helped them / 奎因说",
+          "chunk_translation": "“研究表明大鼠会参与 / 多种形式的互惠互助与合作， / 包括所谓的直接互惠—— / 即一只大鼠会主动帮助另一只大鼠， / 只要对方先前曾帮助过自己， / ”奎恩说道。",
           "vocabulary": [
             {
               "word": "Rats",
@@ -282,7 +282,7 @@
           "text": "The readiness of the rats to befriend the social robot was surprising given its minimal design. The robot was the same size as a regular rat but resembled a simple plastic box on wheels. “We’d assumed we’d have to give it a moving head and tail, facial features, and put a scent on it to make it smell like a real rat, but that wasn’t necessary,” says Janet Wiles at the University of Queensland in Australia, who helped with the research.",
           "translation": "考虑到社交机器人的简约设计，老鼠愿意与社交机器人成为朋友的意愿令人惊讶。该机器人与普通老鼠大小相同，但类似于一个带轮子的简单塑料盒子。帮助这项研究的澳大利亚昆士兰大学的珍妮特·威尔斯（Janet Wiles）说：“我们原以为必须给它一个会动的头和尾、面部特征，并在上面放上气味，让它闻起来像一只真正的老鼠，但那是没有必要的。”",
           "slashed_text": "The readiness of the rats to befriend the social robot was surprising given its minimal design. The robot was the same size as a regular rat but resembled a simple plastic box / on wheels. “We’d assumed we’d have to give it a moving head and tail , / facial features , / and put a scent on it to make it smell like a real rat , / but / that wasn’t necessary , / ” says Janet Wiles at the University of Queensland / in Australia , / who helped with the research.",
-          "chunk_translation": "The readiness of the rats to befriend the social robot was surprising given its minimal design. The robot was the same size as a regular rat but resembled a simple plastic box / on wheels. “We’d assumed we’d have to give it a moving head and tail / 面部特征 / 然后在上面涂上香味，让它闻起来像真正的老鼠 / 但 / that wasn’t necessary / says Janet Wiles at the University of Queensland / in Australia / 谁帮助了这项研究",
+          "chunk_translation": "考虑到社交机器鼠的极简设计，大鼠愿意与其结交朋友的表现令人惊讶。 该机器鼠与普通大鼠体型相当，但外观上更像是一个装在轮子上的 / 简易塑料盒子。 “我们原以为必须为其配备活动的头部和尾巴、 / 面部特征， / 并在其身上添加气味使其闻起来像一只真实的大鼠， / 但是 / 事实证明这完全没有必要， / ”澳大利亚昆士兰大学的珍妮特·怀尔斯表示， / 她在澳大利亚工作， / 协助参与了这项研究。",
           "vocabulary": [
             {
               "word": "readiness",
@@ -336,7 +336,7 @@
           "text": "The finding shows how sensitive rats are to social cues, even when they come from basic robots. Similarly, children tend to treat robots as if they are fellow beings, even when they display only simple social signals. “We humans seem to be fascinated by robots, and it turns out other animals are too,” says Wiles.",
           "translation": "这一发现表明，老鼠对社交线索非常敏感，即使这些线索来自基本的机器人。同样，孩子们倾向于将机器人视为同胞，即使它们只显示简单的社交信号。 “我们人类似乎对机器人着迷，事实证明其他动物也是如此，”怀尔斯说。",
           "slashed_text": "The finding shows how sensitive rats are to social cues , / even / when they come / from basic robots. Similarly , / children tend to treat robots as / if they are fellow beings , / even / when they display only simple social signals. “We humans seem to be fascinated / by robots , / and it turns out other animals are too , / ” says Wiles.",
-          "chunk_translation": "这一发现表明老鼠对社交暗示有多敏感 / 甚至 / when they come / from basic robots. Similarly / 孩子们倾向于将机器人视为 / 如果他们是同胞 / 甚至 / when they display only simple social signals. “We humans seem to be fascinated / by robots / and it turns out other animals are too / says Wiles",
+          "chunk_translation": "这一发现表明大鼠对社交线索是何等敏感， / 哪怕 / 这些线索来自于 / 极为简易的机器人。 同样地， / 儿童也倾向于将机器人视作 / 自己的同伴， / 即便 / 它们仅仅展示出简单的社交信号。 “我们人类似乎对机器人十分着迷， / 由机器人所吸引， / 事实证明其他动物同样如此， / ”怀尔斯说道。",
           "vocabulary": [
             {
               "word": "finding",
@@ -394,7 +394,7 @@
           "text": "Rats and other animals need to be highly attuned to social signals from others so they can identify friends to cooperate with and enemies to avoid.",
           "translation": "老鼠和其他动物需要高度适应来自他人的社交信号，这样它们才能识别出要合作的朋友和要避开的敌人。",
           "slashed_text": "Rats and other animals need to be highly attuned to social signals / from others so they can identify friends to cooperate with and enemies to avoid.",
-          "chunk_translation": "Rats and other animals need to be highly attuned to social signals / from others so they can identify friends to cooperate with and enemies to avoid",
+          "chunk_translation": "老鼠和其他动物需要对来自同类的社交信号保持高度敏感， / 以便它们能够识别出可以合作的朋友并避开敌人。",
           "syntax": {
             "breakdown": [
               {
@@ -412,7 +412,7 @@
           "text": "To find out if this extends to non- living beings, Laleh Quinn at the University of California, San Diego, and her colleagues tested whether rats can detect social signals from robotic rats.",
           "translation": "为了查明这种现象是否也适用于非生物，加州大学圣地亚哥分校的拉勒·奎因 (Laleh Quinn) 和她的同事测试了老鼠是否能够检测到来自机器老鼠的社交信号。",
           "slashed_text": "To find out / if this extends to non- living beings , / Laleh Quinn at the University of California , / San Diego , / and her colleagues tested whether rats can detect social signals / from robotic rats.",
-          "chunk_translation": "找出来 / 如果这延伸到非生物体 / 拉勒·奎因 (Laleh Quinn)，加州大学 / 圣地亚哥 / and her colleagues tested whether rats can detect social signals / from robotic rats",
+          "chunk_translation": "为了查明 / 这一现象是否延伸到非生物体， / 加利福尼亚大学 / 圣迭戈分校的拉莱·奎因 / 及其同事测试了老鼠能否检测到社交信号， / 这些信号来自机器鼠。",
           "syntax": {
             "breakdown": [
               {
@@ -435,7 +435,7 @@
           "text": "They housed eight adult rats with two types of robotic rat—one social and one asocial— for four days.",
           "translation": "他们将八只成年老鼠与两种类型的机器老鼠（一种是社交型的，一种是非社交型的）一起饲养了四天。",
           "slashed_text": "They housed eight adult rats with two types of robotic rat — / one social and one asocial — / for four days.",
-          "chunk_translation": "They housed eight adult rats with two types of robotic rat / one social and one asocial / 四天",
+          "chunk_translation": "他们将八只成年大鼠与两种类型的机器鼠—— / 一种具备社交功能，另一种不具备社交功能—— / 共同饲养了四天。",
           "syntax": {
             "breakdown": [
               {
@@ -453,7 +453,7 @@
           "text": "The robot rats were quite minimalist, resembling a chunkier version of a computer mouse with wheels to move around and colorful markings.",
           "translation": "机器鼠非常简约，类似于一个厚重版本的电脑鼠标，带有可以移动的轮子和彩色标记。",
           "slashed_text": "The robot rats were quite minimalist , / resembling a chunkier version of a computer mouse / with wheels to move around and colorful markings.",
-          "chunk_translation": "机器鼠非常简约 / resembling a chunkier version of a computer mouse / with wheels to move around and colorful markings",
+          "chunk_translation": "机器鼠的构造非常简约， / 看起来像是一个笨重版的电脑鼠标， / 配备了可以四处移动的轮子和彩色标记。",
           "syntax": {
             "breakdown": [
               {
@@ -471,7 +471,7 @@
           "text": "During the experiment, the social robot rat followed the living rats around, played with the same toys, and opened cage doors to let trapped rats escape.",
           "translation": "实验过程中，社交机器鼠跟随活体老鼠四处走动，玩同样的玩具，并打开笼门让被困的老鼠逃脱。",
           "slashed_text": "During the experiment , / the social robot rat followed the living rats around , / played with the same toys , / and opened cage doors to let trapped rats escape.",
-          "chunk_translation": "实验过程中 / 社交机器鼠跟随活生生的老鼠 / 玩同样的玩具 / 并打开笼门让被困的老鼠逃走",
+          "chunk_translation": "在实验过程中， / 社交型机器鼠跟随活体大鼠四处活动， / 玩同样的玩具， / 并打开笼门让被困的大鼠逃脱。",
           "syntax": {
             "breakdown": [
               {
@@ -489,7 +489,7 @@
           "text": "Meanwhile, the asocial robot simply moved forwards and backwards and side to side.",
           "translation": "与此同时，非社交机器人只是简单地前后左右移动。",
           "slashed_text": "Meanwhile , / the asocial robot simply moved forwards and backwards and side to side.",
-          "chunk_translation": "同时 / 反社会机器人只是简单地向前、向后、左右移动",
+          "chunk_translation": "与此同时， / 非社交型机器鼠只是简单地前后左右移动。",
           "syntax": {
             "breakdown": [
               {
@@ -507,7 +507,7 @@
           "text": "Next, the researchers trapped the robots in cages and gave the rats the opportunity to release them by pressing a lever.",
           "translation": "接下来，研究人员将机器人困在笼子里，让老鼠有机会通过按下杠杆来释放它们。",
           "slashed_text": "Next , / the researchers trapped the robots / in cages and gave the rats the opportunity to release them / by pressing a lever.",
-          "chunk_translation": "下一个 / the researchers trapped the robots / in cages and gave the rats the opportunity to release them / by pressing a lever",
+          "chunk_translation": "接下来， / 研究人员将机器鼠困在 / 笼子里，并给予活体大鼠释放它们的机会， / 通过按压杠杆来实现。",
           "syntax": {
             "breakdown": [
               {
@@ -525,7 +525,7 @@
           "text": "Across 18 trials each, the living rats were 52 per cent more likely on average to set the social robot free than the asocial one.",
           "translation": "在每项18次试验中，活着的老鼠释放社交机器人的可能性比不社交机器人平均高52%。",
           "slashed_text": "Across 18 trials each , / the living rats were 52 per cent more likely / on average to set the social robot free than the asocial one.",
-          "chunk_translation": "每项试验 18 次 / the living rats were 52 per cent more likely / on average to set the social robot free than the asocial one",
+          "chunk_translation": "在每组18次试验中， / 活体大鼠释放社交型机器人的概率高出52%， / 平均而言比释放非社交型机器人的概率更高。",
           "syntax": {
             "breakdown": [
               {
@@ -543,7 +543,7 @@
           "text": "This suggests that the rats perceived the social robot as a genuine social being.",
           "translation": "这表明老鼠将社交机器人视为真正的社交存在。",
           "slashed_text": "This suggests / that the rats perceived the social robot as a genuine social being.",
-          "chunk_translation": "这表明 / 老鼠将社交机器人视为真正的社交存在",
+          "chunk_translation": "这表明 / 大鼠将社交型机器鼠视为一个真正的社交同伴。",
           "syntax": {
             "breakdown": [
               {
@@ -561,7 +561,7 @@
           "text": "They may have bonded more with the social robot because it displayed behaviours like communal exploring and playing.",
           "translation": "他们可能与社交机器人有更多的联系，因为它表现出公共探索和玩耍等行为。",
           "slashed_text": "They may have bonded more with the social robot / because it displayed behaviours like communal exploring and playing.",
-          "chunk_translation": "他们可能与社交机器人有更多的联系 / 因为它表现出诸如公共探索和玩耍之类的行为",
+          "chunk_translation": "它们可能与社交型机器鼠建立了更深厚的情感联系， / 因为它表现出了共同探索和玩耍等互动行为。",
           "syntax": {
             "breakdown": [
               {
@@ -579,7 +579,7 @@
           "text": "This could lead to the rats better remembering having freed it earlier, and wanting the robot to return the favour when they get trapped, says Quinn.",
           "translation": "奎因说，这可能会让老鼠更好地记住早些时候释放了它，并希望机器人在它们被困时回报它。",
           "slashed_text": "This could lead to the rats better remembering having freed it earlier , / and wanting the robot to return the favour / when they get trapped , / says Quinn.",
-          "chunk_translation": "这可能会让老鼠更好地记住早些时候释放了它 / 并希望机器人报答 / 当他们被困时 / 奎因说",
+          "chunk_translation": "这可能会使大鼠更清楚地记得先前曾解救过该机器鼠， / 并且希望机器人在自己被困时能予以回报， / 当它们自身陷入困境时， / 奎因说道。",
           "syntax": {
             "breakdown": [
               {
@@ -597,7 +597,7 @@
           "text": "“Rats have been shown to engage in multiple forms of reciprocal help and cooperation, including what is referred to as direct reciprocity—where a rat will help another rat that has previously helped them,” says Quinn.",
           "translation": "奎因说：“研究表明，老鼠会参与多种形式的互惠帮助和合作，包括所谓的直接互惠——一只老鼠会帮助另一只曾经帮助过它们的老鼠。”",
           "slashed_text": "“Rats have been shown to engage / in multiple forms of reciprocal help and cooperation , / including what is referred to as direct reciprocity — / where a rat will help another rat / that has previously helped them , / ” says Quinn.",
-          "chunk_translation": "Rats have been shown to engage / in multiple forms of reciprocal help and cooperation / including what is referred to as direct reciprocity / where a rat will help another rat / that has previously helped them / 奎因说",
+          "chunk_translation": "“研究表明大鼠会参与 / 多种形式的互惠互助与合作， / 包括所谓的直接互惠—— / 即一只大鼠会主动帮助另一只大鼠， / 只要对方先前曾帮助过自己， / ”奎恩说道。",
           "syntax": {
             "breakdown": [
               {
@@ -615,7 +615,7 @@
           "text": "The readiness of the rats to befriend the social robot was surprising given its minimal design.",
           "translation": "考虑到社交机器人的简约设计，老鼠愿意与社交机器人成为朋友的意愿令人惊讶。",
           "slashed_text": "The readiness of the rats to befriend the social robot was surprising given its minimal design.",
-          "chunk_translation": "考虑到社交机器人的简约设计，老鼠与它成为朋友的意愿令人惊讶",
+          "chunk_translation": "考虑到社交机器鼠的极简设计，大鼠愿意与其结交朋友的表现令人惊讶。",
           "syntax": {
             "breakdown": [
               {
@@ -633,7 +633,7 @@
           "text": "The robot was the same size as a regular rat but resembled a simple plastic box on wheels.",
           "translation": "这个机器人和普通老鼠一样大，但看起来像一个带轮子的简单塑料盒子。",
           "slashed_text": "The robot was the same size as a regular rat but resembled a simple plastic box / on wheels.",
-          "chunk_translation": "The robot was the same size as a regular rat but resembled a simple plastic box / on wheels",
+          "chunk_translation": "该机器鼠与普通大鼠体型相当，但外观上更像是一个装在轮子上的 / 简易塑料盒子。",
           "syntax": {
             "breakdown": [
               {
@@ -651,7 +651,7 @@
           "text": "“We’d assumed we’d have to give it a moving head and tail, facial features, and put a scent on it to make it smell like a real rat, but that wasn’t necessary,” says Janet Wiles at the University of Queensland in Australia, who helped with the research.",
           "translation": "帮助这项研究的澳大利亚昆士兰大学的珍妮特·威尔斯（Janet Wiles）说：“我们原以为必须给它一个会动的头和尾、面部特征，并在上面喷上气味，让它闻起来像一只真正的老鼠，但那是没有必要的。”",
           "slashed_text": "“We’d assumed we’d have to give it a moving head and tail , / facial features , / and put a scent on it to make it smell like a real rat , / but / that wasn’t necessary , / ” says Janet Wiles at the University of Queensland / in Australia , / who helped with the research.",
-          "chunk_translation": "We’d assumed we’d have to give it a moving head and tail / 面部特征 / 然后在上面涂上香味，让它闻起来像真正的老鼠 / 但 / that wasn’t necessary / says Janet Wiles at the University of Queensland / in Australia / 谁帮助了这项研究",
+          "chunk_translation": "“我们原以为必须为其配备活动的头部和尾巴、 / 面部特征， / 并在其身上添加气味使其闻起来像一只真实的大鼠， / 但是 / 事实证明这完全没有必要， / ”澳大利亚昆士兰大学的珍妮特·怀尔斯表示， / 她在澳大利亚工作， / 协助参与了这项研究。",
           "syntax": {
             "breakdown": [
               {
@@ -669,7 +669,7 @@
           "text": "The finding shows how sensitive rats are to social cues, even when they come from basic robots.",
           "translation": "这一发现表明，老鼠对社交线索非常敏感，即使这些线索来自基本的机器人。",
           "slashed_text": "The finding shows how sensitive rats are to social cues , / even / when they come / from basic robots.",
-          "chunk_translation": "这一发现表明老鼠对社交暗示有多敏感 / 甚至 / when they come / from basic robots",
+          "chunk_translation": "这一发现表明大鼠对社交线索是何等敏感， / 哪怕 / 这些线索来自于 / 极为简易的机器人。",
           "syntax": {
             "breakdown": [
               {
@@ -687,7 +687,7 @@
           "text": "Similarly, children tend to treat robots as if they are fellow beings, even when they display only simple social signals.",
           "translation": "同样，孩子们倾向于将机器人视为同胞，即使它们只显示简单的社交信号。",
           "slashed_text": "Similarly , / children tend to treat robots as / if they are fellow beings , / even / when they display only simple social signals.",
-          "chunk_translation": "相似地 / 孩子们倾向于将机器人视为 / 如果他们是同胞 / 甚至 / 当他们只显示简单的社交信号时",
+          "chunk_translation": "同样地， / 儿童也倾向于将机器人视作 / 自己的同伴， / 即便 / 它们仅仅展示出简单的社交信号。",
           "syntax": {
             "breakdown": [
               {
@@ -710,7 +710,7 @@
           "text": "“We humans seem to be fascinated by robots, and it turns out other animals are too,” says Wiles.",
           "translation": "“我们人类似乎对机器人着迷，事实证明其他动物也是如此，”怀尔斯说。",
           "slashed_text": "“We humans seem to be fascinated / by robots , / and it turns out other animals are too , / ” says Wiles.",
-          "chunk_translation": "We humans seem to be fascinated / by robots / and it turns out other animals are too / says Wiles",
+          "chunk_translation": "“我们人类似乎对机器人十分着迷， / 由机器人所吸引， / 事实证明其他动物同样如此， / ”怀尔斯说道。",
           "syntax": {
             "breakdown": [
               {
@@ -1183,7 +1183,7 @@
           "text": "It is true that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, and since the mid-1970s, CEO pay for large publicly traded American corporations has, by varying estimates, gone up by about 500 %. The typical CEO of a top American corporation now makes about $18.9 million a year.",
           "translation": "确实，CEO 的薪酬有所上涨——高层管理人员的平均薪酬可能是普通员工的 300 倍，而且自 20 世纪 70 年代中期以来，美国大型上市公司的 CEO 薪酬（根据不同的估计）上涨了约 500%。美国顶级公司首席执行官的典型年薪约为 1890 万美元。",
           "slashed_text": "It is true / that CEO pay has gone up — / top ones may make 300 times the pay of typical workers / on average , / and / since the mid-1970s , / CEO pay / for large publicly traded American corporations has , / by varying estimates , / gone up / by about 500 %. The typical CEO of a top American corporation now makes about $18.9 million a year.",
-          "chunk_translation": "是真的 / that CEO pay has gone up / top ones may make 300 times the pay of typical workers / 平均而言 / 和 / 自20世纪70年代中期以来 / CEO pay / for large publicly traded American corporations has / 通过不同的估计 / gone up / by about 500 %. The typical CEO of a top American corporation now makes about $18.9 million a year",
+          "chunk_translation": "确实如此， / 首席执行官的薪酬大幅攀升—— / 顶尖高管的薪酬可能是普通员工的300倍 / 平均而言， / 并且 / 自20世纪70年代中期以来， / 首席执行官的薪酬 / 在美国大型上市公司中， / 根据不同的测算， / 上涨了 / 大约500%。 美国顶尖公司的典型首席执行官目前年薪约为1890万美元。",
           "vocabulary": [
             {
               "word": "true",
@@ -1237,7 +1237,7 @@
           "text": "The best model for understanding the growth of CEO pay is that of limited CEO talent in a world where business opportunities for the top firms are growing rapidly. The efforts of America’s highest-earning 1 % have been one of the more dynamic elements of the global economy. It’s not popular to say, but one reason their pay has gone up so much is that CEOs really have upped their game relative to many other workers in the U.S. economy.",
           "translation": "理解首席执行官薪酬增长的最佳模型是在顶级公司的商业机会快速增长的世界中有限的首席执行官人才。美国收入最高的 1% 人群的努力已成为全球经济中最具活力的因素之一。这种说法并不流行，但他们的薪酬上涨如此之多的原因之一是，相对于美国经济中的许多其他工人，首席执行官确实提高了自己的水平。",
           "slashed_text": "The best model / for understanding the growth of CEO pay is / that of limited CEO talent in a world / where business opportunities for the top firms are growing rapidly. The efforts of America’s highest-earning 1 % have been one of the more dynamic elements of the global economy. It’s not popular to say , / but one reason their pay has gone up so much is / that CEOs really have upped their game relative to many other workers in the U.S. economy.",
-          "chunk_translation": "The best model / for understanding the growth of CEO pay is / 世界上首席执行官人才有限 / where business opportunities for the top firms are growing rapidly. The efforts of America’s highest-earning 1 % have been one of the more dynamic elements of the global economy. It’s not popular to say / 但他们的工资上涨如此之多的原因之一是 / that CEOs really have upped their game relative to many other workers in the U.S. economy",
+          "chunk_translation": "解释首席执行官薪酬增长的最佳理论模型 / 应该是首席执行官人才的稀缺性， / 在当今这个世界中，顶尖企业面临的商业机遇 / 正在迅猛增长。 美国收入最高的1%人群所付出的努力，一直是全球经济中更具活力的推动因素之一。 虽然这种说法并不讨喜， / 但他们薪酬大幅上涨的一个原因在于， / 相比美国经济中的许多其他劳动者，首席执行官们确实显著提升了自身的能力水平。 经济领域。",
           "vocabulary": [
             {
               "word": "best",
@@ -1291,7 +1291,7 @@
           "text": "Today’s CEO, at least for major American firms, must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade in them. They also need better public relations skills than their predecessors, as the costs of even a minor slipup can be significant. Then there’s the fact that large American companies are much more globalized than ever before, with supply chains spread across a larger number of countries. To lead in that system requires knowledge that is fairly mind-boggling. Plus, virtually all major American companies are becoming tech companies, often with their own research and development. And beyond this, major CEOs still have to do all the day-to-day work they have always done.",
           "translation": "今天的首席执行官，至少对于美国大公司来说，必须拥有更多的技能，而不仅仅是能够“经营公司”。首席执行官必须对金融市场有良好的了解，甚至可能对公司应该如何在金融市场进行交易有很好的了解。他们还需要比前任更好的公共关系技能，因为即使是很小的失误也会造成巨大的损失。事实上，美国大公司比以往任何时候都更加全球化，供应链遍布更多国家。要领导这个系统，需要相当令人难以置信的知识。此外，几乎所有美国大公司都在成为科技公司，而且通常拥有自己的研发能力。除此之外，主要首席执行官仍然必须做他们一直在做的所有日常工作。",
           "slashed_text": "Today’s CEO , / at least / for major American firms , / must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade / in them. They also need better public relations skills than their predecessors , / as the costs of even a minor slipup can be significant. Then there’s the fact / that large American companies are much more globalized than ever before , / with supply chains spread across a larger number of countries. To lead in / that system requires knowledge / that is fairly mind-boggling. Plus , / virtually all major American companies are becoming tech companies , / often / with their own research and development. And beyond this , / major CEOs still have to do all the day-to-day work they have always done.",
-          "chunk_translation": "今天的首席执行官 / 至少 / for major American firms / must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade / in them. They also need better public relations skills than their predecessors / as the costs of even a minor slipup can be significant. Then there’s the fact / 美国大公司比以往任何时候都更加全球化 / with supply chains spread across a larger number of countries. To lead in / 该系统需要知识 / that is fairly mind-boggling. Plus / 几乎所有美国大公司都在转型为科技公司 / often / with their own research and development. And beyond this / 主要首席执行官仍然必须做他们一直在做的所有日常工作",
+          "chunk_translation": "当今的首席执行官， / 至少 / 对于美国大企业而言， / 必须掌握远不止单纯“管理公司”的诸多技能。首席执行官必须对金融市场有敏锐的洞察力，甚至还要精通公司应如何参与 / 金融市场的运作。 他们还需要比前任具备更出色的公关能力， / 因为哪怕是一个微小的疏忽失误，其代价都可能极其惨重。 此外还有一个客观事实， / 即美国大型企业的全球化程度远超以往任何时期， / 其供应链跨越分布于更多的国家。 要想在 / 这样的庞大体系中担任领军人物，所需要的知识储备 / 庞大到令人叹为观止。 此外， / 几乎所有美国主要企业都在向科技型企业转型， / 往往 / 拥有自主的研发部门。 除此之外， / 大型企业的首席执行官依然必须处理他们以往一直承担的所有日常管理工作。",
           "vocabulary": [
             {
               "word": "Today",
@@ -1345,7 +1345,7 @@
           "text": "The common idea that high CEO pay is mainly about ripping people off doesn’t explain history very well. By most measures, corporate governance has become a lot tighter and more rigorous since the 1970s. Yet it is principally during this period of stronger governance that CEO pay has been high and rising. That suggests it is in the broader corporate interest to recruit top candidates for increasingly tough jobs.",
           "translation": "人们普遍认为首席执行官的高薪主要是为了敲诈别人，但这并不能很好地解释历史。从大多数标准来看，自 20 世纪 70 年代以来，公司治理变得更加严格和严格。然而，主要是在治理更加强有力的时期，首席执行官的薪酬一直很高，而且还在不断上涨。这表明，招聘顶尖候选人来应对日益艰巨的工作符合更广泛的企业利益。",
           "slashed_text": "The common idea / that high CEO pay is mainly / about ripping people off doesn’t explain history very well. By most measures , / corporate governance has become a lot tighter and more rigorous / since the 1970s. Yet it is principally / during this period of stronger governance / that CEO pay has been high and rising. / That suggests it is in the broader corporate interest to recruit top candidates / for increasingly tough jobs.",
-          "chunk_translation": "共同的想法 / that high CEO pay is mainly / about ripping people off doesn’t explain history very well. By most measures / 公司治理变得更加严格和严格 / since the 1970s. Yet it is principally / during this period of stronger governance / 首席执行官的薪酬一直很高并且还在上涨 / That suggests it is in the broader corporate interest to recruit top candidates / for increasingly tough jobs",
+          "chunk_translation": "那种普遍认为 / 首席执行官的高薪主要源于 / 搜刮盘剥的观点，并不能很好地解释历史发展事实。 从大多数衡量标准来看， / 公司治理结构已经变得严密得多且更加规范， / 自20世纪70年代以来。 然而恰恰是 / 在这一公司治理日益强化的时期内， / 首席执行官的薪酬一直居高不下并持续增长。 / 这表明招聘顶尖人选完全符合更广泛的企业利益， / 用以胜任日益艰巨的工作挑战。",
           "vocabulary": [
             {
               "word": "common",
@@ -1399,7 +1399,7 @@
           "text": "Furthermore, the highest CEO salaries are paid to outside candidates, not to the cozy insider picks, another sign that high CEO pay is not some kind of depredation at the expense of the rest of the company. And the stock market reacts positively when companies tie CEO pay to, say, stock prices, a sign that those practices build up corporate value not just for the CEO.",
           "translation": "此外，最高的首席执行官薪酬是支付给外部候选人的，而不是舒适的内部人选，这另一个迹象表明，高额首席执行官薪酬并不是以牺牲公司其他部门为代价的某种掠夺。当公司将首席执行官的薪酬与股票价格挂钩时，股市会做出积极反应，这表明这些做法不仅为首席执行官创造了企业价值。",
           "slashed_text": "Furthermore , / the highest CEO salaries are paid to outside candidates , / not to the cozy insider picks , / another sign / that high CEO pay is not some kind of depredation at the expense of the rest of the company. And the stock market reacts positively / when companies tie CEO pay to , / say , / stock prices , / a sign / that those practices build up corporate value not just for the CEO.",
-          "chunk_translation": "此外 / 最高的首席执行官薪水支付给外部候选人 / 不适合舒适的内部人士选择 / 另一个标志 / that high CEO pay is not some kind of depredation at the expense of the rest of the company. And the stock market reacts positively / 当公司将首席执行官的薪酬与 / 说 / 股票价格 / 一个标志 / 这些实践不仅为首席执行官创造了企业价值",
+          "chunk_translation": "此外， / 最高级别的首席执行官薪酬往往支付给外部引进的候选人， / 而非内部安逸的指定人选， / 这进一步表明 / 高额的首席执行官薪酬绝非某种以牺牲公司其他成员利益为代价的巧取豪夺。 并且股市对此反应积极， / 当企业将首席执行官的薪酬与诸如 / 比如 / 股价相挂钩时， / 这表明 / 此类做法所创造的企业价值绝不仅仅属于首席执行官个人。",
           "vocabulary": [
             {
               "word": "Furthermore",
@@ -1457,7 +1457,7 @@
           "text": "It is true that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, and since the mid-1970s, CEO pay for large publicly traded American corporations has, by varying estimates, gone up by about 500 %.",
           "translation": "确实，CEO 的薪酬有所上涨——高层管理人员的平均薪酬可能是普通员工的 300 倍，而且自 20 世纪 70 年代中期以来，美国大型上市公司的 CEO 薪酬（根据不同的估计）上涨了约 500%。",
           "slashed_text": "It is true / that CEO pay has gone up — / top ones may make 300 times the pay of typical workers / on average , / and / since the mid-1970s , / CEO pay / for large publicly traded American corporations has , / by varying estimates , / gone up / by about 500 %.",
-          "chunk_translation": "是真的 / that CEO pay has gone up / top ones may make 300 times the pay of typical workers / 平均而言 / 和 / 自20世纪70年代中期以来 / CEO pay / for large publicly traded American corporations has / 通过不同的估计 / gone up / by about 500 %",
+          "chunk_translation": "确实如此， / 首席执行官的薪酬大幅攀升—— / 顶尖高管的薪酬可能是普通员工的300倍 / 平均而言， / 并且 / 自20世纪70年代中期以来， / 首席执行官的薪酬 / 在美国大型上市公司中， / 根据不同的测算， / 上涨了 / 大约500%。",
           "syntax": {
             "breakdown": [
               {
@@ -1480,7 +1480,7 @@
           "text": "The typical CEO of a top American corporation now makes about $18.9 million a year.",
           "translation": "美国顶级公司首席执行官的典型年薪约为 1890 万美元。",
           "slashed_text": "The typical CEO of a top American corporation now makes about $18.9 million a year.",
-          "chunk_translation": "美国顶级公司首席执行官的典型年薪约为 1890 万美元",
+          "chunk_translation": "美国顶尖公司的典型首席执行官目前年薪约为1890万美元。",
           "syntax": {
             "breakdown": [
               {
@@ -1498,7 +1498,7 @@
           "text": "The best model for understanding the growth of CEO pay is that of limited CEO talent in a world where business opportunities for the top firms are growing rapidly.",
           "translation": "理解首席执行官薪酬增长的最佳模型是在顶级公司的商业机会快速增长的世界中有限的首席执行官人才。",
           "slashed_text": "The best model / for understanding the growth of CEO pay is / that of limited CEO talent in a world / where business opportunities for the top firms are growing rapidly.",
-          "chunk_translation": "The best model / for understanding the growth of CEO pay is / 世界上首席执行官人才有限 / 顶尖企业的商机正在快速增长",
+          "chunk_translation": "解释首席执行官薪酬增长的最佳理论模型 / 应该是首席执行官人才的稀缺性， / 在当今这个世界中，顶尖企业面临的商业机遇 / 正在迅猛增长。",
           "syntax": {
             "breakdown": [
               {
@@ -1516,7 +1516,7 @@
           "text": "The efforts of America’s highest-earning 1 % have been one of the more dynamic elements of the global economy.",
           "translation": "美国收入最高的 1% 人群的努力已成为全球经济中最具活力的因素之一。",
           "slashed_text": "The efforts of America’s highest-earning 1 % have been one of the more dynamic elements of the global economy.",
-          "chunk_translation": "美国收入最高的 1% 人群的努力已成为全球经济中最具活力的因素之一",
+          "chunk_translation": "美国收入最高的1%人群所付出的努力，一直是全球经济中更具活力的推动因素之一。",
           "syntax": {
             "breakdown": [
               {
@@ -1534,7 +1534,7 @@
           "text": "It’s not popular to say, but one reason their pay has gone up so much is that CEOs really have upped their game relative to many other workers in the U.S.",
           "translation": "这种说法并不流行，但他们的薪酬上涨如此之多的原因之一是，相对于美国许多其他员工，首席执行官确实提高了自己的水平。",
           "slashed_text": "It’s not popular to say , / but one reason their pay has gone up so much is / that CEOs really have upped their game relative to many other workers in the U.S.",
-          "chunk_translation": "不流行的说法 / 但他们的工资上涨如此之多的原因之一是 / 相对于美国的许多其他员工，首席执行官确实提高了自己的水平",
+          "chunk_translation": "虽然这种说法并不讨喜， / 但他们薪酬大幅上涨的一个原因在于， / 相比美国经济中的许多其他劳动者，首席执行官们确实显著提升了自身的能力水平。",
           "syntax": {
             "breakdown": [
               {
@@ -1552,7 +1552,7 @@
           "text": "economy.",
           "translation": "经济。",
           "slashed_text": "economy.",
-          "chunk_translation": "经济",
+          "chunk_translation": "经济领域。",
           "syntax": {
             "breakdown": [
               {
@@ -1570,7 +1570,7 @@
           "text": "Today’s CEO, at least for major American firms, must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade in them.",
           "translation": "今天的首席执行官，至少对于美国大公司来说，必须拥有更多的技能，而不仅仅是能够“经营公司”。首席执行官必须对金融市场有良好的了解，甚至可能对公司应该如何在金融市场进行交易有很好的了解。",
           "slashed_text": "Today’s CEO , / at least / for major American firms , / must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade / in them.",
-          "chunk_translation": "今天的首席执行官 / 至少 / for major American firms / must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets and maybe even how the company should trade / in them",
+          "chunk_translation": "当今的首席执行官， / 至少 / 对于美国大企业而言， / 必须掌握远不止单纯“管理公司”的诸多技能。首席执行官必须对金融市场有敏锐的洞察力，甚至还要精通公司应如何参与 / 金融市场的运作。",
           "syntax": {
             "breakdown": [
               {
@@ -1588,7 +1588,7 @@
           "text": "They also need better public relations skills than their predecessors, as the costs of even a minor slipup can be significant.",
           "translation": "他们还需要比前任更好的公共关系技能，因为即使是很小的失误也会造成巨大的损失。",
           "slashed_text": "They also need better public relations skills than their predecessors , / as the costs of even a minor slipup can be significant.",
-          "chunk_translation": "他们还需要比前任更好的公共关系技能 / 因为即使是轻微的失误也会造成巨大的损失",
+          "chunk_translation": "他们还需要比前任具备更出色的公关能力， / 因为哪怕是一个微小的疏忽失误，其代价都可能极其惨重。",
           "syntax": {
             "breakdown": [
               {
@@ -1606,7 +1606,7 @@
           "text": "Then there’s the fact that large American companies are much more globalized than ever before, with supply chains spread across a larger number of countries.",
           "translation": "事实上，美国大公司比以往任何时候都更加全球化，供应链遍布更多国家。",
           "slashed_text": "Then there’s the fact / that large American companies are much more globalized than ever before , / with supply chains spread across a larger number of countries.",
-          "chunk_translation": "然后就是事实 / 美国大公司比以往任何时候都更加全球化 / 供应链遍布更多国家",
+          "chunk_translation": "此外还有一个客观事实， / 即美国大型企业的全球化程度远超以往任何时期， / 其供应链跨越分布于更多的国家。",
           "syntax": {
             "breakdown": [
               {
@@ -1624,7 +1624,7 @@
           "text": "To lead in that system requires knowledge that is fairly mind-boggling.",
           "translation": "要领导这个系统，需要相当令人难以置信的知识。",
           "slashed_text": "To lead in / that system requires knowledge / that is fairly mind-boggling.",
-          "chunk_translation": "引领 / 该系统需要知识 / 这相当令人难以置信",
+          "chunk_translation": "要想在 / 这样的庞大体系中担任领军人物，所需要的知识储备 / 庞大到令人叹为观止。",
           "syntax": {
             "breakdown": [
               {
@@ -1642,7 +1642,7 @@
           "text": "Plus, virtually all major American companies are becoming tech companies, often with their own research and development.",
           "translation": "此外，几乎所有美国大公司都在成为科技公司，而且通常拥有自己的研发能力。",
           "slashed_text": "Plus , / virtually all major American companies are becoming tech companies , / often / with their own research and development.",
-          "chunk_translation": "加 / 几乎所有美国大公司都在转型为科技公司 / often / with their own research and development",
+          "chunk_translation": "此外， / 几乎所有美国主要企业都在向科技型企业转型， / 往往 / 拥有自主的研发部门。",
           "syntax": {
             "breakdown": [
               {
@@ -1660,7 +1660,7 @@
           "text": "And beyond this, major CEOs still have to do all the day-to-day work they have always done.",
           "translation": "除此之外，主要首席执行官仍然必须做他们一直在做的所有日常工作。",
           "slashed_text": "And beyond this , / major CEOs still have to do all the day-to-day work they have always done.",
-          "chunk_translation": "除此之外 / 主要首席执行官仍然必须做他们一直在做的所有日常工作",
+          "chunk_translation": "除此之外， / 大型企业的首席执行官依然必须处理他们以往一直承担的所有日常管理工作。",
           "syntax": {
             "breakdown": [
               {
@@ -1678,7 +1678,7 @@
           "text": "The common idea that high CEO pay is mainly about ripping people off doesn’t explain history very well.",
           "translation": "人们普遍认为首席执行官的高薪主要是为了敲诈别人，但这并不能很好地解释历史。",
           "slashed_text": "The common idea / that high CEO pay is mainly / about ripping people off doesn’t explain history very well.",
-          "chunk_translation": "共同的想法 / that high CEO pay is mainly / about ripping people off doesn’t explain history very well",
+          "chunk_translation": "那种普遍认为 / 首席执行官的高薪主要源于 / 搜刮盘剥的观点，并不能很好地解释历史发展事实。",
           "syntax": {
             "breakdown": [
               {
@@ -1696,7 +1696,7 @@
           "text": "By most measures, corporate governance has become a lot tighter and more rigorous since the 1970s.",
           "translation": "从大多数标准来看，自 20 世纪 70 年代以来，公司治理变得更加严格和严格。",
           "slashed_text": "By most measures , / corporate governance has become a lot tighter and more rigorous / since the 1970s.",
-          "chunk_translation": "从大多数衡量标准来看 / 公司治理变得更加严格和严格 / 自20世纪70年代以来",
+          "chunk_translation": "从大多数衡量标准来看， / 公司治理结构已经变得严密得多且更加规范， / 自20世纪70年代以来。",
           "syntax": {
             "breakdown": [
               {
@@ -1714,7 +1714,7 @@
           "text": "Yet it is principally during this period of stronger governance that CEO pay has been high and rising.",
           "translation": "然而，主要是在治理更加强有力的时期，首席执行官的薪酬一直很高，而且还在不断上涨。",
           "slashed_text": "Yet it is principally / during this period of stronger governance / that CEO pay has been high and rising.",
-          "chunk_translation": "Yet it is principally / during this period of stronger governance / 首席执行官的薪酬一直很高并且还在上涨",
+          "chunk_translation": "然而恰恰是 / 在这一公司治理日益强化的时期内， / 首席执行官的薪酬一直居高不下并持续增长。",
           "syntax": {
             "breakdown": [
               {
@@ -1732,7 +1732,7 @@
           "text": "That suggests it is in the broader corporate interest to recruit top candidates for increasingly tough jobs.",
           "translation": "这表明，招聘顶尖候选人来应对日益艰巨的工作符合更广泛的企业利益。",
           "slashed_text": "/ That suggests it is in the broader corporate interest to recruit top candidates / for increasingly tough jobs.",
-          "chunk_translation": "That suggests it is in the broader corporate interest to recruit top candidates / for increasingly tough jobs",
+          "chunk_translation": "这表明招聘顶尖人选完全符合更广泛的企业利益， / 用以胜任日益艰巨的工作挑战。",
           "syntax": {
             "breakdown": [
               {
@@ -1750,7 +1750,7 @@
           "text": "Furthermore, the highest CEO salaries are paid to outside candidates, not to the cozy insider picks, another sign that high CEO pay is not some kind of depredation at the expense of the rest of the company.",
           "translation": "此外，最高的首席执行官薪酬是支付给外部候选人的，而不是舒适的内部人选，这另一个迹象表明，高额首席执行官薪酬并不是以牺牲公司其他部门为代价的某种掠夺。",
           "slashed_text": "Furthermore , / the highest CEO salaries are paid to outside candidates , / not to the cozy insider picks , / another sign / that high CEO pay is not some kind of depredation at the expense of the rest of the company.",
-          "chunk_translation": "此外 / 最高的首席执行官薪水支付给外部候选人 / 不适合舒适的内部人士选择 / 另一个标志 / 首席执行官的高薪并不是某种以牺牲公司其他部门为代价的掠夺",
+          "chunk_translation": "此外， / 最高级别的首席执行官薪酬往往支付给外部引进的候选人， / 而非内部安逸的指定人选， / 这进一步表明 / 高额的首席执行官薪酬绝非某种以牺牲公司其他成员利益为代价的巧取豪夺。",
           "syntax": {
             "breakdown": [
               {
@@ -1768,7 +1768,7 @@
           "text": "And the stock market reacts positively when companies tie CEO pay to, say, stock prices, a sign that those practices build up corporate value not just for the CEO.",
           "translation": "当公司将首席执行官的薪酬与股票价格挂钩时，股市会做出积极反应，这表明这些做法不仅为首席执行官创造了企业价值。",
           "slashed_text": "And the stock market reacts positively / when companies tie CEO pay to , / say , / stock prices , / a sign / that those practices build up corporate value not just for the CEO.",
-          "chunk_translation": "股市反应积极 / 当公司将首席执行官的薪酬与 / 说 / 股票价格 / 一个标志 / 这些实践不仅为首席执行官创造了企业价值",
+          "chunk_translation": "并且股市对此反应积极， / 当企业将首席执行官的薪酬与诸如 / 比如 / 股价相挂钩时， / 这表明 / 此类做法所创造的企业价值绝不仅仅属于首席执行官个人。",
           "syntax": {
             "breakdown": [
               {
@@ -2241,7 +2241,7 @@
           "text": "Madrid was hailed as a public health guiding light last November when it rolled out ambitious restrictions on the most polluting cars. Seven months and one election day later, a new conservative city council suspended enforcement of the clean air zone, a first step toward its possible termination. Mayor José Luis Martínez-Almeida made opposition to the zone a centrepiece of his election campaign, despite its success in improving air quality. A judge has now overruled the city’s decision to stop levying fines, ordering them restored. But with legal battles ahead, the zone’s future looks uncertain at best.",
           "translation": "去年11月，马德里对污染最严重的汽车实施了雄心勃勃的限制，被誉为公共卫生的指路明灯。七个月和一个选举日后，新的保守派市议会暂停了清洁空气区的执法，这是其可能终止的第一步。尽管该区域在改善空气质量方面取得了成功，但市长何塞·路易斯·马丁内斯-阿尔梅达仍将反对该区域作为其竞选活动的核心内容。一名法官现已驳回该市停止征收罚款的决定，并下令恢复罚款。但随着未来的法律斗争，该地区的未来充其量也是不确定的。",
           "slashed_text": "Madrid was hailed as a public health guiding light last November / when it rolled out ambitious restrictions on the most polluting cars. Seven months and one election day later , / a new conservative city council suspended enforcement of the clean air zone , / a first step toward its possible termination. Mayor José Luis Martínez-Almeida made opposition to the zone a centrepiece of his election campaign , / despite its success / in improving air quality. A judge has now overruled the city’s decision to stop levying fines , / ordering them restored. But / with legal battles ahead , / the zone’s future looks uncertain / at best.",
-          "chunk_translation": "去年11月，马德里被誉为公共卫生指路明灯 / when it rolled out ambitious restrictions on the most polluting cars. Seven months and one election day later / 新的保守派市议会暂停了清洁空气区的执法 / a first step toward its possible termination. Mayor José Luis Martínez-Almeida made opposition to the zone a centrepiece of his election campaign / despite its success / in improving air quality. A judge has now overruled the city’s decision to stop levying fines / ordering them restored. But / with legal battles ahead / the zone’s future looks uncertain / at best",
+          "chunk_translation": "去年11月马德里被誉为公共卫生领域的典范指路明灯， / 当时该市对污染最严重的汽车推出了雄心勃勃的限行措施。 仅仅七个月并在经历一次市政选举后， / 新一届保守派市议会暂停了清洁空气区的执法行动， / 这迈出了可能彻底废止该区域的第一步。 市长何塞·路易斯·马丁内斯-阿尔梅达将反对设立该限行区作为其竞选活动的核心纲领， / 尽管该区域在改善 / 空气质量方面取得了显著成功。 一名法官日前推翻了市政府停止征收罚款的决定， / 并责令恢复执法罚款。 但 / 面对接踵而至的法律诉讼， / 该清洁空气区的前景充其量 / 依然充满变数。",
           "vocabulary": [
             {
               "word": "Madrid",
@@ -2295,7 +2295,7 @@
           "text": "Madrid’s back and forth on clean air is a pointed reminder of the limits to the patchwork, city-by-city approach that characterises efforts on air pollution across Europe, Britain very much included.",
           "translation": "马德里在清洁空气问题上的来回反复提醒人们，欧洲（包括英国）在空气污染问题上采取的拼凑、逐个城市的做法是有局限性的。",
           "slashed_text": "Madrid’s back and forth / on clean air is a pointed reminder of the limits to the patchwork , / city-by-city approach / that characterises efforts on air pollution across Europe , / Britain very much included.",
-          "chunk_translation": "Madrid’s back and forth / on clean air is a pointed reminder of the limits to the patchwork / 逐个城市的方法 / 这体现了整个欧洲在空气污染方面所做的努力 / 英国也被包括在内",
+          "chunk_translation": "马德里在清洁空气政策上的反复摇摆， / 深刻警示了这种零敲碎打的局限性， / 这种各城市各自为政的应对方式 / 是欧洲各地治理空气污染努力的典型写照， / 英国也毫不例外。",
           "vocabulary": [
             {
               "word": "Madrid",
@@ -2349,7 +2349,7 @@
           "text": "Among other weaknesses, the measures cities must employ when left to tackle dirty air on their own are politically controversial, and therefore vulnerable. That’s because they inevitably put the costs of cleaning the air on to individual drivers—who must pay fees or buy better vehicles—rather than on to the car manufacturers whose cheating is the real cause of our toxic pollution. It’s not hard to imagine a similar reversal happening in London. The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election. And if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends, it is sure to spark intense opposition from the far larger number of motorists who will then be affected.",
           "translation": "除其他弱点外，城市在自行解决空气污染问题时必须采取的措施在政治上存在争议，因此很脆弱。这是因为他们不可避免地将清洁空气的成本转嫁给了个别司机——他们必须支付费用或购买更好的车辆——而不是转嫁给汽车制造商，而汽车制造商的作弊行为是我们有毒污染的真正原因。不难想象伦敦也会发生类似的逆转。新的超低排放区（Ulez）很可能成为明年市长选举的一个大问题。如果萨迪克·汗（Sadiq Khan）获胜并按照他的意愿在 2021 年将其扩展到南北环路，那么肯定会引发更多驾车者的强烈反对，届时他们将受到影响。",
           "slashed_text": "Among other weaknesses , / the measures cities must employ / when left to tackle dirty air / on their own are politically controversial , / and therefore vulnerable. / That’s / because they inevitably put the costs of cleaning the air on to individual drivers — / who must pay fees or buy better vehicles — / rather than on to the car manufacturers / whose cheating is the real cause of our toxic pollution. It’s not hard to imagine a similar reversal happening / in London. The new ultra-low emission zone (Ulez) is likely to be a big issue / in next year’s mayoral election. And / if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends , / it is sure to spark intense opposition from the far larger number of motorists / who will then be affected.",
-          "chunk_translation": "除其他弱点外 / 城市必须采取的措施 / when left to tackle dirty air / on their own are politically controversial / 因此很脆弱 / 那是 / because they inevitably put the costs of cleaning the air on to individual drivers / who must pay fees or buy better vehicles / rather than on to the car manufacturers / whose cheating is the real cause of our toxic pollution. It’s not hard to imagine a similar reversal happening / in London. The new ultra-low emission zone (Ulez) is likely to be a big issue / in next year’s mayoral election. And / 如果萨迪克汗获胜并按照他的意愿在 2021 年将其扩展到南北环路 / 这肯定会引起更多驾车者的强烈反对 / 谁将受到影响",
+          "chunk_translation": "除了其他缺陷之外， / 各城市不得不采取的限行措施 / 当被甩手由各城市自行应对污染空气时， / 在政治上极具争议性， / 因而也极易夭折受挫。 / 这是 / 因为它们不可避免地将净化空气的成本转嫁给了个体车主—— / 车主必须支付通行费或购买排放更达标的车辆—— / 而不是转嫁给汽车制造商， / 汽车制造商的造假作弊才是造成我们有害空气污染的真正元凶。 不难想象类似的政策逆转也可能发生 / 在伦敦。 新设立的超低排放区很可能成为 / 明年伦敦市长选举中的重大争议议题。 并且 / 如果萨迪克·汗胜选并按其计划于2021年将该区域扩展至南北环形公路， / 必将引发规模庞大得多的机动车驾驶员的强烈反对， / 届时他们都将受到限行政策的影响。",
           "vocabulary": [
             {
               "word": "weaknesses",
@@ -2403,7 +2403,7 @@
           "text": "It’s not that measures such as London’s Ulez are useless. Far from it. Local officials are using the levers that are available to them to safeguard residents’ health in the face of a serious threat. The zones do deliver some improvements to air quality, and the science tells us that means real health benefits.",
           "translation": "这并不是说伦敦的乌勒兹等措施毫无用处。远非如此。面对严重威胁，当地官员正在利用可用的手段来保护居民的健康。这些区域确实改善了空气质量，科学告诉我们这意味着真正的健康益处。",
           "slashed_text": "It’s not / that measures such as London’s Ulez are useless. Far from it. Local officials are using the levers / that are available to them to safeguard residents’ health in the face of a serious threat. The zones do deliver some improvements to air quality , / and the science tells us / that means real health benefits.",
-          "chunk_translation": "它不是 / that measures such as London’s Ulez are useless. Far from it. Local officials are using the levers / that are available to them to safeguard residents’ health in the face of a serious threat. The zones do deliver some improvements to air quality / 科学告诉我们 / 这意味着真正的健康益处",
+          "chunk_translation": "这并不是说 / 伦敦设立超低排放区等举措毫无用处。 恰恰相反。 地方官员正在运用他们所掌握的政策杠杆， / 面对严峻威胁以切实维护当地居民的健康。 这些排放区确实在一定程度上改善了空气质量， / 科学研究告诉我们 / 这意味着实实在在的健康收益。",
           "vocabulary": [
             {
               "word": "measures",
@@ -2457,7 +2457,7 @@
           "text": "But mayors and councillors can only do so much about a problem that is far bigger than any one city or town. They are acting because national governments—Britain’s and others across Europe—have failed to do so.",
           "translation": "但市长和议员们对于这个比任何一个城市或城镇都严重得多的问题只能做这么多。他们之所以采取行动，是因为英国和欧洲其他国家政府未能这样做。",
           "slashed_text": "But mayors and councillors can only do so much about a problem / that is far bigger than any one city or town. They are acting / because national governments — / Britain’s and others across Europe — / have failed to do so.",
-          "chunk_translation": "但市长和议员对于一个问题只能做这么多 / that is far bigger than any one city or town. They are acting / because national governments / Britain’s and others across Europe / have failed to do so",
+          "chunk_translation": "但面对一个远超单一城镇范围的宏大问题，市长和市议员们 / 所能发挥的作用毕竟有限。 他们之所以被迫采取行动， / 是因为国家层面的政府—— / 包括英国及欧洲其他国家的中央政府—— / 未能切实承担起治理职责。",
           "vocabulary": [
             {
               "word": "mayors",
@@ -2511,7 +2511,7 @@
           "text": "Restrictions that keep highly polluting cars out of certain areas—city centres, “school streets”, even individual roads—are a response to the absence of a larger effort to properly enforce existing regulations and require auto companies to bring their vehicles into compliance. Wales has introduced special low speed limits to minimise pollution. We’re doing everything but insist that manufacturers clean up their cars.",
           "translation": "限制高污染汽车进入某些区域（市中心、“学校街道”，甚至个别道路）的原因是缺乏更大努力来正确执行现有法规并要求汽车公司使其车辆符合规定。威尔士实行了特殊的低速限制，以尽量减少污染。我们正在尽一切努力，但坚持要求制造商清理他们的汽车。",
           "slashed_text": "Restrictions / that keep highly polluting cars out of certain areas — / city centres , / “school streets” , / even individual roads — / are a response to the absence of a larger effort to properly enforce existing regulations and require auto companies to bring their vehicles / into compliance. Wales has introduced special low speed limits to minimise pollution. We’re doing everything but insist / that manufacturers clean up their cars.",
-          "chunk_translation": "限制 / that keep highly polluting cars out of certain areas / city centres / school streets / even individual roads / are a response to the absence of a larger effort to properly enforce existing regulations and require auto companies to bring their vehicles / into compliance. Wales has introduced special low speed limits to minimise pollution. We’re doing everything but insist / 制造商清理他们的汽车",
+          "chunk_translation": "各项限制措施 / 将高污染车辆拦截在特定区域之外—— / 市中心、 / “学校周边街道”、 / 甚至个别路段—— / 都是在更大范围的监管缺失下所做出的无奈回应，该监管本应严格执行现有法规并强制汽车制造商使其车辆 / 达到排放合规标准。 威尔士出台了专门的低速限速规定以最大限度减少污染。 我们穷尽了所有手段，唯独没有严令坚持 / 要求汽车制造商彻底治理其生产的汽车。",
           "vocabulary": [
             {
               "word": "Restrictions",
@@ -2569,7 +2569,7 @@
           "text": "Madrid was hailed as a public health guiding light last November when it rolled out ambitious restrictions on the most polluting cars.",
           "translation": "去年11月，马德里对污染最严重的汽车实施了雄心勃勃的限制，被誉为公共卫生的指路明灯。",
           "slashed_text": "Madrid was hailed as a public health guiding light last November / when it rolled out ambitious restrictions on the most polluting cars.",
-          "chunk_translation": "去年11月，马德里被誉为公共卫生指路明灯 / 当它对污染最严重的汽车推出雄心勃勃的限制时",
+          "chunk_translation": "去年11月马德里被誉为公共卫生领域的典范指路明灯， / 当时该市对污染最严重的汽车推出了雄心勃勃的限行措施。",
           "syntax": {
             "breakdown": [
               {
@@ -2587,7 +2587,7 @@
           "text": "Seven months and one election day later, a new conservative city council suspended enforcement of the clean air zone, a first step toward its possible termination.",
           "translation": "七个月和一个选举日后，新的保守派市议会暂停了清洁空气区的执法，这是其可能终止的第一步。",
           "slashed_text": "Seven months and one election day later , / a new conservative city council suspended enforcement of the clean air zone , / a first step toward its possible termination.",
-          "chunk_translation": "七个月零一个选举日后 / 新的保守派市议会暂停了清洁空气区的执法 / 朝着可能终止的第一步",
+          "chunk_translation": "仅仅七个月并在经历一次市政选举后， / 新一届保守派市议会暂停了清洁空气区的执法行动， / 这迈出了可能彻底废止该区域的第一步。",
           "syntax": {
             "breakdown": [
               {
@@ -2605,7 +2605,7 @@
           "text": "Mayor José Luis Martínez-Almeida made opposition to the zone a centrepiece of his election campaign, despite its success in improving air quality.",
           "translation": "尽管该区域在改善空气质量方面取得了成功，但市长何塞·路易斯·马丁内斯-阿尔梅达仍将反对该区域作为其竞选活动的核心内容。",
           "slashed_text": "Mayor José Luis Martínez-Almeida made opposition to the zone a centrepiece of his election campaign , / despite its success / in improving air quality.",
-          "chunk_translation": "市长何塞·路易斯·马丁内斯-阿尔梅达将反对该地区作为其竞选活动的核心内容 / despite its success / in improving air quality",
+          "chunk_translation": "市长何塞·路易斯·马丁内斯-阿尔梅达将反对设立该限行区作为其竞选活动的核心纲领， / 尽管该区域在改善 / 空气质量方面取得了显著成功。",
           "syntax": {
             "breakdown": [
               {
@@ -2623,7 +2623,7 @@
           "text": "A judge has now overruled the city’s decision to stop levying fines, ordering them restored.",
           "translation": "一名法官现已驳回该市停止征收罚款的决定，并下令恢复罚款。",
           "slashed_text": "A judge has now overruled the city’s decision to stop levying fines , / ordering them restored.",
-          "chunk_translation": "法官现已推翻该市停止征收罚款的决定 / 命令他们恢复",
+          "chunk_translation": "一名法官日前推翻了市政府停止征收罚款的决定， / 并责令恢复执法罚款。",
           "syntax": {
             "breakdown": [
               {
@@ -2641,7 +2641,7 @@
           "text": "But with legal battles ahead, the zone’s future looks uncertain at best.",
           "translation": "但随着未来的法律斗争，该地区的未来充其量也是不确定的。",
           "slashed_text": "But / with legal battles ahead , / the zone’s future looks uncertain / at best.",
-          "chunk_translation": "但 / with legal battles ahead / the zone’s future looks uncertain / at best",
+          "chunk_translation": "但 / 面对接踵而至的法律诉讼， / 该清洁空气区的前景充其量 / 依然充满变数。",
           "syntax": {
             "breakdown": [
               {
@@ -2659,7 +2659,7 @@
           "text": "Madrid’s back and forth on clean air is a pointed reminder of the limits to the patchwork, city-by-city approach that characterises efforts on air pollution across Europe, Britain very much included.",
           "translation": "马德里在清洁空气问题上的来回反复提醒人们，欧洲（包括英国）在空气污染问题上采取的拼凑、逐个城市的做法是有局限性的。",
           "slashed_text": "Madrid’s back and forth / on clean air is a pointed reminder of the limits to the patchwork , / city-by-city approach / that characterises efforts on air pollution across Europe , / Britain very much included.",
-          "chunk_translation": "Madrid’s back and forth / on clean air is a pointed reminder of the limits to the patchwork / 逐个城市的方法 / 这体现了整个欧洲在空气污染方面所做的努力 / 英国也被包括在内",
+          "chunk_translation": "马德里在清洁空气政策上的反复摇摆， / 深刻警示了这种零敲碎打的局限性， / 这种各城市各自为政的应对方式 / 是欧洲各地治理空气污染努力的典型写照， / 英国也毫不例外。",
           "syntax": {
             "breakdown": [
               {
@@ -2677,7 +2677,7 @@
           "text": "Among other weaknesses, the measures cities must employ when left to tackle dirty air on their own are politically controversial, and therefore vulnerable.",
           "translation": "除其他弱点外，城市在自行解决空气污染问题时必须采取的措施在政治上存在争议，因此很脆弱。",
           "slashed_text": "Among other weaknesses , / the measures cities must employ / when left to tackle dirty air / on their own are politically controversial , / and therefore vulnerable.",
-          "chunk_translation": "除其他弱点外 / 城市必须采取的措施 / when left to tackle dirty air / on their own are politically controversial / 因此很脆弱",
+          "chunk_translation": "除了其他缺陷之外， / 各城市不得不采取的限行措施 / 当被甩手由各城市自行应对污染空气时， / 在政治上极具争议性， / 因而也极易夭折受挫。",
           "syntax": {
             "breakdown": [
               {
@@ -2695,7 +2695,7 @@
           "text": "That’s because they inevitably put the costs of cleaning the air on to individual drivers—who must pay fees or buy better vehicles—rather than on to the car manufacturers whose cheating is the real cause of our toxic pollution.",
           "translation": "这是因为他们不可避免地将清洁空气的成本转嫁给了个别司机——他们必须支付费用或购买更好的车辆——而不是转嫁给汽车制造商，而汽车制造商的作弊行为是我们有毒污染的真正原因。",
           "slashed_text": "/ That’s / because they inevitably put the costs of cleaning the air on to individual drivers — / who must pay fees or buy better vehicles — / rather than on to the car manufacturers / whose cheating is the real cause of our toxic pollution.",
-          "chunk_translation": "那是 / because they inevitably put the costs of cleaning the air on to individual drivers / who must pay fees or buy better vehicles / rather than on to the car manufacturers / 谁的作弊才是造成我们有毒污染的真正原因",
+          "chunk_translation": "这是 / 因为它们不可避免地将净化空气的成本转嫁给了个体车主—— / 车主必须支付通行费或购买排放更达标的车辆—— / 而不是转嫁给汽车制造商， / 汽车制造商的造假作弊才是造成我们有害空气污染的真正元凶。",
           "syntax": {
             "breakdown": [
               {
@@ -2718,7 +2718,7 @@
           "text": "It’s not hard to imagine a similar reversal happening in London.",
           "translation": "不难想象伦敦也会发生类似的逆转。",
           "slashed_text": "It’s not hard to imagine a similar reversal happening / in London.",
-          "chunk_translation": "It’s not hard to imagine a similar reversal happening / in London",
+          "chunk_translation": "不难想象类似的政策逆转也可能发生 / 在伦敦。",
           "syntax": {
             "breakdown": [
               {
@@ -2736,7 +2736,7 @@
           "text": "The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election.",
           "translation": "新的超低排放区（Ulez）很可能成为明年市长选举的一个大问题。",
           "slashed_text": "The new ultra-low emission zone (Ulez) is likely to be a big issue / in next year’s mayoral election.",
-          "chunk_translation": "The new ultra-low emission zone (Ulez) is likely to be a big issue / in next year’s mayoral election",
+          "chunk_translation": "新设立的超低排放区很可能成为 / 明年伦敦市长选举中的重大争议议题。",
           "syntax": {
             "breakdown": [
               {
@@ -2754,7 +2754,7 @@
           "text": "And if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends, it is sure to spark intense opposition from the far larger number of motorists who will then be affected.",
           "translation": "如果萨迪克·汗（Sadiq Khan）获胜并按照他的意愿在 2021 年将其扩展到南北环路，那么肯定会引发更多驾车者的强烈反对，届时他们将受到影响。",
           "slashed_text": "And / if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends , / it is sure to spark intense opposition from the far larger number of motorists / who will then be affected.",
-          "chunk_translation": "和 / 如果萨迪克汗获胜并按照他的意愿在 2021 年将其扩展到南北环路 / 这肯定会引起更多驾车者的强烈反对 / 谁将受到影响",
+          "chunk_translation": "并且 / 如果萨迪克·汗胜选并按其计划于2021年将该区域扩展至南北环形公路， / 必将引发规模庞大得多的机动车驾驶员的强烈反对， / 届时他们都将受到限行政策的影响。",
           "syntax": {
             "breakdown": [
               {
@@ -2777,7 +2777,7 @@
           "text": "It’s not that measures such as London’s Ulez are useless.",
           "translation": "这并不是说伦敦的乌勒兹等措施毫无用处。",
           "slashed_text": "It’s not / that measures such as London’s Ulez are useless.",
-          "chunk_translation": "它不是 / 伦敦的 Ulez 等措施毫无用处",
+          "chunk_translation": "这并不是说 / 伦敦设立超低排放区等举措毫无用处。",
           "syntax": {
             "breakdown": [
               {
@@ -2795,7 +2795,7 @@
           "text": "Far from it.",
           "translation": "远非如此。",
           "slashed_text": "Far from it.",
-          "chunk_translation": "离它还很远",
+          "chunk_translation": "恰恰相反。",
           "syntax": {
             "breakdown": [
               {
@@ -2813,7 +2813,7 @@
           "text": "Local officials are using the levers that are available to them to safeguard residents’ health in the face of a serious threat.",
           "translation": "面对严重威胁，当地官员正在利用可用的手段来保护居民的健康。",
           "slashed_text": "Local officials are using the levers / that are available to them to safeguard residents’ health in the face of a serious threat.",
-          "chunk_translation": "地方官员正在使用杠杆 / 他们可以在面临严重威胁时保护居民的健康",
+          "chunk_translation": "地方官员正在运用他们所掌握的政策杠杆， / 面对严峻威胁以切实维护当地居民的健康。",
           "syntax": {
             "breakdown": [
               {
@@ -2831,7 +2831,7 @@
           "text": "The zones do deliver some improvements to air quality, and the science tells us that means real health benefits.",
           "translation": "这些区域确实改善了空气质量，科学告诉我们这意味着真正的健康益处。",
           "slashed_text": "The zones do deliver some improvements to air quality , / and the science tells us / that means real health benefits.",
-          "chunk_translation": "这些区域确实改善了空气质量 / 科学告诉我们 / 这意味着真正的健康益处",
+          "chunk_translation": "这些排放区确实在一定程度上改善了空气质量， / 科学研究告诉我们 / 这意味着实实在在的健康收益。",
           "syntax": {
             "breakdown": [
               {
@@ -2849,7 +2849,7 @@
           "text": "But mayors and councillors can only do so much about a problem that is far bigger than any one city or town.",
           "translation": "但市长和议员们对于这个比任何一个城市或城镇都严重得多的问题只能做这么多。",
           "slashed_text": "But mayors and councillors can only do so much about a problem / that is far bigger than any one city or town.",
-          "chunk_translation": "但市长和议员对于一个问题只能做这么多 / 比任何一个城市或城镇都大得多",
+          "chunk_translation": "但面对一个远超单一城镇范围的宏大问题，市长和市议员们 / 所能发挥的作用毕竟有限。",
           "syntax": {
             "breakdown": [
               {
@@ -2867,7 +2867,7 @@
           "text": "They are acting because national governments—Britain’s and others across Europe—have failed to do so.",
           "translation": "他们之所以采取行动，是因为英国和欧洲其他国家政府未能这样做。",
           "slashed_text": "They are acting / because national governments — / Britain’s and others across Europe — / have failed to do so.",
-          "chunk_translation": "他们在演戏 / because national governments / Britain’s and others across Europe / have failed to do so",
+          "chunk_translation": "他们之所以被迫采取行动， / 是因为国家层面的政府—— / 包括英国及欧洲其他国家的中央政府—— / 未能切实承担起治理职责。",
           "syntax": {
             "breakdown": [
               {
@@ -2885,7 +2885,7 @@
           "text": "Restrictions that keep highly polluting cars out of certain areas—city centres, “school streets”, even individual roads—are a response to the absence of a larger effort to properly enforce existing regulations and require auto companies to bring their vehicles into compliance.",
           "translation": "限制高污染汽车进入某些区域——市中心、“学校街道”，甚至个别道路——是对缺乏更大力度正确执行现有法规并要求汽车公司使其车辆合规的回应。",
           "slashed_text": "Restrictions / that keep highly polluting cars out of certain areas — / city centres , / “school streets” , / even individual roads — / are a response to the absence of a larger effort to properly enforce existing regulations and require auto companies to bring their vehicles / into compliance.",
-          "chunk_translation": "限制 / that keep highly polluting cars out of certain areas / city centres / school streets / even individual roads / are a response to the absence of a larger effort to properly enforce existing regulations and require auto companies to bring their vehicles / into compliance",
+          "chunk_translation": "各项限制措施 / 将高污染车辆拦截在特定区域之外—— / 市中心、 / “学校周边街道”、 / 甚至个别路段—— / 都是在更大范围的监管缺失下所做出的无奈回应，该监管本应严格执行现有法规并强制汽车制造商使其车辆 / 达到排放合规标准。",
           "syntax": {
             "breakdown": [
               {
@@ -2903,7 +2903,7 @@
           "text": "Wales has introduced special low speed limits to minimise pollution.",
           "translation": "威尔士实行了特殊的低速限制，以尽量减少污染。",
           "slashed_text": "Wales has introduced special low speed limits to minimise pollution.",
-          "chunk_translation": "威尔士引入了特殊的低速限制以最大程度地减少污染",
+          "chunk_translation": "威尔士出台了专门的低速限速规定以最大限度减少污染。",
           "syntax": {
             "breakdown": [
               {
@@ -2921,7 +2921,7 @@
           "text": "We’re doing everything but insist that manufacturers clean up their cars.",
           "translation": "我们正在尽一切努力，但坚持要求制造商清理他们的汽车。",
           "slashed_text": "We’re doing everything but insist / that manufacturers clean up their cars.",
-          "chunk_translation": "我们正在做一切，但坚持 / 制造商清理他们的汽车",
+          "chunk_translation": "我们穷尽了所有手段，唯独没有严令坚持 / 要求汽车制造商彻底治理其生产的汽车。",
           "syntax": {
             "breakdown": [
               {
@@ -3394,7 +3394,7 @@
           "text": "Now that members of Generation Z are graduating college this spring—the most commonly-accepted definition says this generation was born after 1995, give or take a year— the attention has been rising steadily in recent weeks. Gen Zs are about to hit the streets looking for work in a labor market that’s tighter than it’s been in decades. And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S. this year than last, according to a survey conducted by the National Association of Colleges and Employers. Everybody wants to know how the people who will soon inhabit those empty office cubicles will differ from those who came before them.",
           "translation": "现在，Z 世代的成员将于今年春天大学毕业——最普遍接受的定义是这一代人出生在 1995 年之后，大约一年左右——最近几周，人们的关注度一直在稳步上升。 Z 世代即将走上街头，在比几十年来更加紧张的劳动力市场中寻找工作。根据全国大学和雇主协会进行的一项调查，今年雇主计划在美国雇用的应届毕业生比去年增加约 17%。每个人都想知道即将入住这些空办公室隔间的人们与之前的人们有何不同。",
           "slashed_text": "Now / that members of Generation Z are graduating college this spring — / the most commonly-accepted definition says this generation was born after 1995 , / give or take a year — / the attention has been rising steadily / in recent weeks. Gen Zs are about to hit the streets looking / for work in a labor market / that’s tighter than it’s been / in decades. And employers are planning / on hiring about 17 percent more new graduates / for jobs in the U.S. this year than last , / according to a survey conducted by the National Association of Colleges and Employers. Everybody wants to know how the people / who will soon inhabit those empty office cubicles will differ / from those / who came / before them.",
-          "chunk_translation": "现在 / that members of Generation Z are graduating college this spring / the most commonly-accepted definition says this generation was born after 1995 / 一年 / the attention has been rising steadily / in recent weeks. Gen Zs are about to hit the streets looking / for work in a labor market / that’s tighter than it’s been / in decades. And employers are planning / on hiring about 17 percent more new graduates / for jobs in the U.S. this year than last / according to a survey conducted by the National Association of Colleges and Employers. Everybody wants to know how the people / who will soon inhabit those empty office cubicles will differ / from those / 谁来了 / 在他们面前",
+          "chunk_translation": "如今 / 随着Z世代的成员将于今年春季大学毕业—— / 最普遍接受的定义是指1995年之后出生的一代人， / 误差在一岁左右—— / 最近几周公众对他们的关注度一直在稳步上升 / 在近几周里。 Z世代即将走向社会，寻找 / 劳动力市场中的工作机会， / 这一市场的劳动力供求偏紧程度达到了 / 数十年来的最高峰。 并且雇主们正计划 / 多招聘大约17%的应届毕业生 / 以填补在美国的就业岗位。 今年相比去年， / 根据全美大学和雇主协会进行的一项调查。 人人都想知道即将 / 坐进那些空置办公隔间的这批年轻人将如何有别 / 于那些 / 步入职场在 / 他们之前的上一代人。",
           "vocabulary": [
             {
               "word": "members",
@@ -3448,7 +3448,7 @@
           "text": "If “entitled” is the most common adjective, fairly or not, applied to millennials (those born between 1981 and 1995), the catchwords for Generation Z are practical and cautious. According to the career counselors and experts who study them, Generation Zs are clear-eyed, economic pragmatists. Despite graduating into the best economy in the past 50 years, Gen Zs know what an economic train wreck looks like. They were impressionable kids during the crash of 2008, when many of their parents lost their jobs or their life savings or both. They aren’t interested in taking any chances. The booming economy seems to have done little to assuage this underlying generational sense of anxious urgency, especially for those who have college debt. College loan balances in the U.S. now stand at a record $1.5 trillion, according to the Federal Reserve.",
           "translation": "如果“有资格”是最常见的形容词，无论公平与否，适用于千禧一代（1981 年至 1995 年出生的人），那么 Z 世代的口号就是务实和谨慎。根据职业顾问和研究他们的专家的说法，Z 一代是头脑清醒的经济实用主义者。尽管 Z 世代已经进入了过去 50 年来最好的经济体，但他们知道经济列车失事是什么样子。在 2008 年经济危机期间，他们是易受影响的孩子，当时他们的许多父母失去了工作或毕生积蓄，或两者兼而有之。他们没有兴趣冒险。蓬勃发展的经济似乎并没有缓解这一代人潜在的焦虑感，特别是对于那些背负大学债务的人来说。根据美联储的数据，美国的大学贷款余额目前达到创纪录的 1.5 万亿美元。",
           "slashed_text": "/ If “entitled” is the most common adjective , / fairly or not , / applied to millennials (those born between 1981 and 1995) , / the catchwords / for Generation Z are practical and cautious. According to the career counselors and experts / who study them , / Generation Zs are clear-eyed , / economic pragmatists. Despite graduating into the best economy in the past 50 years , / Gen Zs know what an economic train wreck looks like. They were impressionable kids during the crash of 2008 , / when many of their parents lost their jobs or their life savings or both. They aren’t interested / in taking any chances. The booming economy seems to have done little to assuage this underlying generational sense of anxious urgency , / especially / for those / who have college debt. College loan balances in the U.S. now stand at a record $1.5 trillion , / according to the Federal Reserve.",
-          "chunk_translation": "如果“有权利”是最常见的形容词 / 公平与否 / 适用于千禧一代（1981 年至 1995 年出生的人） / the catchwords / for Generation Z are practical and cautious. According to the career counselors and experts / 谁研究它们 / Z世代目光敏锐 / economic pragmatists. Despite graduating into the best economy in the past 50 years / Gen Zs know what an economic train wreck looks like. They were impressionable kids during the crash of 2008 / when many of their parents lost their jobs or their life savings or both. They aren’t interested / in taking any chances. The booming economy seems to have done little to assuage this underlying generational sense of anxious urgency / especially / for those / who have college debt. College loan balances in the U.S. now stand at a record $1.5 trillion / 根据美联储的数据",
+          "chunk_translation": "如果说“优越感强”是常被用来形容千禧一代的最常见形容词， / 无论是否公允， / 用于1981年至1995年出生的这一代人， / 那么形容Z世代的 / 标志性关键词则是务实与谨慎。 据专门研究他们的职业顾问和专家 / 所述， / Z世代是头脑清醒的 / 经济实用主义者。 尽管毕业时步入了近50年来最好的经济发展期， / Z世代却深知经济崩盘的惨烈景象。 在2008年金融危机爆发期间，他们还是易受影响的孩子， / 当时他们的许多父母失去了工作或毕生积蓄，乃至两者皆失。 他们毫无兴趣 / 去冒任何风险。 蓬勃发展的经济似乎并未能有效缓解这一代人内心深处的焦虑紧迫感， / 尤其是 / 对于那些 / 身负大学助学贷款的学生而言。 美国的大学助学贷款总额 目前已达到了创纪录的1.5万亿美元， / 根据美联储的统计数据。",
           "vocabulary": [
             {
               "word": "entitled",
@@ -3502,7 +3502,7 @@
           "text": "One survey from Accenture found that 88 percent of graduating seniors this year chose their major with a job in mind. In a 2019 survey of University of Georgia students, meanwhile, the career office found the most desirable trait in a future employer was the ability to offer secure employment (followed by professional development and training, and then inspiring purpose). Job security or stability was the second most important career goal (work-life balance was number one), followed by a sense of being dedicated to a cause or to feel good about serving the greater good.",
           "translation": "埃森哲的一项调查发现，今年 88% 的应届毕业生在选择专业时就考虑到了工作。与此同时，在 2019 年对佐治亚大学学生的一项调查中，职业办公室发现，未来雇主最理想的特质是提供稳定就业的能力（其次是专业发展和培训，然后是鼓舞人心的目标）。工作保障或稳定是第二重要的职业目标（工作与生活的平衡是第一位的），其次是致力于一项事业的感觉或为更大的利益服务的感觉。",
           "slashed_text": "One survey / from Accenture found / that 88 percent of graduating seniors this year chose their major with a job / in mind. In a 2019 survey of University of Georgia students , / meanwhile , / the career office found the most desirable trait in a future employer was the ability to offer secure employment (followed / by professional development and training , / and then inspiring purpose). Job security or stability was the second most important career goal (work-life balance was number one) , / followed by a sense of being dedicated to a cause or to feel good / about serving the greater good.",
-          "chunk_translation": "One survey / from Accenture found / that 88 percent of graduating seniors this year chose their major with a job / in mind. In a 2019 survey of University of Georgia students / 同时 / the career office found the most desirable trait in a future employer was the ability to offer secure employment (followed / by professional development and training / and then inspiring purpose). Job security or stability was the second most important career goal (work-life balance was number one) / followed by a sense of being dedicated to a cause or to feel good / about serving the greater good",
+          "chunk_translation": "埃森哲咨询公司的 / 一项调查发现， / 今年88%的应届大学毕业生在选择专业时都牢牢考虑到了 / 就业前景。 同时在2019年对佐治亚大学学生开展的一项调查中， / 就就业指导中心发现， / 学生在挑选未来雇主时最看重的特质是提供稳定工作的能力（其次是 / 职业发展与培训机会， / 再次是振奋人心的企业宗旨）。 工作的安全感或稳定性是第二重要的职业目标（工作与生活的平衡位居第一）， / 紧随其后的是投身于某项事业的使命感，或 / 为更大社会福祉服务所获得的价值感。",
           "vocabulary": [
             {
               "word": "survey",
@@ -3556,7 +3556,7 @@
           "text": "That’s a big change from the previous generation. “Millennials wanted more flexibility in their lives,” notes Tanya Michelsen, Associate Director of YouthSight, a UK-based brand manager that conducts regular 60-day surveys of British youth, in findings that might just as well apply to American youth. “Generation Zs are looking for more certainty and stability, because of the rise of the gig economy. They have troubles seeing a financial future and they are quite risk averse.”",
           "translation": "与上一代相比，这是一个很大的变化。英国品牌经理YouthSight对英国年轻人进行为期60天的定期调查，其副总监坦尼娅•米歇尔森指出：“千禧一代希望自己的生活更灵活。”她的调查结果可能同样适用于美国年轻人。“由于零工经济的兴起，z世代正在寻求更多的确定性和稳定性。他们很难预见未来的财务状况，而且相当厌恶风险。”",
           "slashed_text": "/ That’s a big change from the previous generation. “Millennials wanted more flexibility / in their lives , / ” notes Tanya Michelsen , / Associate Director of YouthSight , / a UK-based brand manager / that conducts regular 60-day surveys of British youth , / in findings / that might just as well apply to American youth. “Generation Zs are looking / for more certainty and stability , / because of the rise of the gig economy. They have troubles seeing a financial future and they are quite risk averse.”",
-          "chunk_translation": "That’s a big change from the previous generation. “Millennials wanted more flexibility / in their lives / notes Tanya Michelsen / 青年视野副主任 / 英国品牌经理 / 对英国年轻人进行为期 60 天的定期调查 / 在调查结果中 / that might just as well apply to American youth. “Generation Zs are looking / for more certainty and stability / because of the rise of the gig economy. They have troubles seeing a financial future and they are quite risk averse",
+          "chunk_translation": "这与上一代人相比发生了巨大变化。 “千禧一代希望在自己的生活中拥有更多灵活性， / 在个人生活方面， / ”坦尼娅·米歇尔森指出， / 她是英国咨询机构YouthSight的副总监， / 该机构是一家英国品牌管理咨询公司， / 定期对英国青年开展每60天一次的追踪调查， / 其调查结果 / 可能同样适用于美国青年群体。 “Z世代则在寻求 / 更多的确定性与稳定性， / 这是因为零工经济的兴起。 他们很难看清自己的财务前景，因而非常规避风险。”",
           "vocabulary": [
             {
               "word": "change",
@@ -3614,7 +3614,7 @@
           "text": "Now that members of Generation Z are graduating college this spring—the most commonly-accepted definition says this generation was born after 1995, give or take a year— the attention has been rising steadily in recent weeks.",
           "translation": "现在，Z 世代的成员将于今年春天大学毕业——最普遍接受的定义是这一代人出生在 1995 年之后，大约一年左右——最近几周，人们的关注度一直在稳步上升。",
           "slashed_text": "Now / that members of Generation Z are graduating college this spring — / the most commonly-accepted definition says this generation was born after 1995 , / give or take a year — / the attention has been rising steadily / in recent weeks.",
-          "chunk_translation": "现在 / that members of Generation Z are graduating college this spring / the most commonly-accepted definition says this generation was born after 1995 / 一年 / the attention has been rising steadily / in recent weeks",
+          "chunk_translation": "如今 / 随着Z世代的成员将于今年春季大学毕业—— / 最普遍接受的定义是指1995年之后出生的一代人， / 误差在一岁左右—— / 最近几周公众对他们的关注度一直在稳步上升 / 在近几周里。",
           "syntax": {
             "breakdown": [
               {
@@ -3632,7 +3632,7 @@
           "text": "Gen Zs are about to hit the streets looking for work in a labor market that’s tighter than it’s been in decades.",
           "translation": "Z 世代即将走上街头，在比几十年来更加紧张的劳动力市场中寻找工作。",
           "slashed_text": "Gen Zs are about to hit the streets looking / for work in a labor market / that’s tighter than it’s been / in decades.",
-          "chunk_translation": "Gen Zs are about to hit the streets looking / for work in a labor market / that’s tighter than it’s been / in decades",
+          "chunk_translation": "Z世代即将走向社会，寻找 / 劳动力市场中的工作机会， / 这一市场的劳动力供求偏紧程度达到了 / 数十年来的最高峰。",
           "syntax": {
             "breakdown": [
               {
@@ -3650,7 +3650,7 @@
           "text": "And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S.",
           "translation": "雇主们计划在美国多雇用约 17% 的应届毕业生。",
           "slashed_text": "And employers are planning / on hiring about 17 percent more new graduates / for jobs in the U.S.",
-          "chunk_translation": "And employers are planning / on hiring about 17 percent more new graduates / for jobs in the U.S",
+          "chunk_translation": "并且雇主们正计划 / 多招聘大约17%的应届毕业生 / 以填补在美国的就业岗位。",
           "syntax": {
             "breakdown": [
               {
@@ -3668,7 +3668,7 @@
           "text": "this year than last, according to a survey conducted by the National Association of Colleges and Employers.",
           "translation": "根据全国大学和雇主协会进行的一项调查，今年的就业人数高于去年。",
           "slashed_text": "this year than last , / according to a survey conducted by the National Association of Colleges and Employers.",
-          "chunk_translation": "今年比去年 / 根据全国大学和雇主协会进行的一项调查",
+          "chunk_translation": "今年相比去年， / 根据全美大学和雇主协会进行的一项调查。",
           "syntax": {
             "breakdown": [
               {
@@ -3686,7 +3686,7 @@
           "text": "Everybody wants to know how the people who will soon inhabit those empty office cubicles will differ from those who came before them.",
           "translation": "每个人都想知道即将入住这些空办公室隔间的人们与之前的人们有何不同。",
           "slashed_text": "Everybody wants to know how the people / who will soon inhabit those empty office cubicles will differ / from those / who came / before them.",
-          "chunk_translation": "每个人都想知道人们如何 / who will soon inhabit those empty office cubicles will differ / from those / 谁来了 / 在他们面前",
+          "chunk_translation": "人人都想知道即将 / 坐进那些空置办公隔间的这批年轻人将如何有别 / 于那些 / 步入职场在 / 他们之前的上一代人。",
           "syntax": {
             "breakdown": [
               {
@@ -3704,7 +3704,7 @@
           "text": "If “entitled” is the most common adjective, fairly or not, applied to millennials (those born between 1981 and 1995), the catchwords for Generation Z are practical and cautious.",
           "translation": "如果“有资格”是最常见的形容词，无论公平与否，适用于千禧一代（1981 年至 1995 年出生的人），那么 Z 世代的口号就是务实和谨慎。",
           "slashed_text": "/ If “entitled” is the most common adjective , / fairly or not , / applied to millennials (those born between 1981 and 1995) , / the catchwords / for Generation Z are practical and cautious.",
-          "chunk_translation": "如果“有权利”是最常见的形容词 / 公平与否 / 适用于千禧一代（1981 年至 1995 年出生的人） / the catchwords / for Generation Z are practical and cautious",
+          "chunk_translation": "如果说“优越感强”是常被用来形容千禧一代的最常见形容词， / 无论是否公允， / 用于1981年至1995年出生的这一代人， / 那么形容Z世代的 / 标志性关键词则是务实与谨慎。",
           "syntax": {
             "breakdown": [
               {
@@ -3722,7 +3722,7 @@
           "text": "According to the career counselors and experts who study them, Generation Zs are clear-eyed, economic pragmatists.",
           "translation": "根据职业顾问和研究他们的专家的说法，Z 一代是头脑清醒的经济实用主义者。",
           "slashed_text": "According to the career counselors and experts / who study them , / Generation Zs are clear-eyed , / economic pragmatists.",
-          "chunk_translation": "根据职业顾问和专家的说法 / 谁研究它们 / Z世代目光敏锐 / 经济实用主义者",
+          "chunk_translation": "据专门研究他们的职业顾问和专家 / 所述， / Z世代是头脑清醒的 / 经济实用主义者。",
           "syntax": {
             "breakdown": [
               {
@@ -3740,7 +3740,7 @@
           "text": "Despite graduating into the best economy in the past 50 years, Gen Zs know what an economic train wreck looks like.",
           "translation": "尽管 Z 世代已经进入了过去 50 年来最好的经济体，但他们知道经济列车失事是什么样子。",
           "slashed_text": "Despite graduating into the best economy in the past 50 years , / Gen Zs know what an economic train wreck looks like.",
-          "chunk_translation": "尽管毕业进入了过去50年最好的经济体 / Z世代知道经济列车失事是什么样子",
+          "chunk_translation": "尽管毕业时步入了近50年来最好的经济发展期， / Z世代却深知经济崩盘的惨烈景象。",
           "syntax": {
             "breakdown": [
               {
@@ -3758,7 +3758,7 @@
           "text": "They were impressionable kids during the crash of 2008, when many of their parents lost their jobs or their life savings or both.",
           "translation": "在 2008 年经济危机期间，他们是易受影响的孩子，当时他们的许多父母失去了工作或毕生积蓄，或两者兼而有之。",
           "slashed_text": "They were impressionable kids during the crash of 2008 , / when many of their parents lost their jobs or their life savings or both.",
-          "chunk_translation": "2008 年金融危机期间，他们都是易受影响的孩子 / 当他们的许多父母失去工作或毕生积蓄或两者兼而有之时",
+          "chunk_translation": "在2008年金融危机爆发期间，他们还是易受影响的孩子， / 当时他们的许多父母失去了工作或毕生积蓄，乃至两者皆失。",
           "syntax": {
             "breakdown": [
               {
@@ -3776,7 +3776,7 @@
           "text": "They aren’t interested in taking any chances.",
           "translation": "他们没有兴趣冒险。",
           "slashed_text": "They aren’t interested / in taking any chances.",
-          "chunk_translation": "They aren’t interested / in taking any chances",
+          "chunk_translation": "他们毫无兴趣 / 去冒任何风险。",
           "syntax": {
             "breakdown": [
               {
@@ -3794,7 +3794,7 @@
           "text": "The booming economy seems to have done little to assuage this underlying generational sense of anxious urgency, especially for those who have college debt.",
           "translation": "蓬勃发展的经济似乎并没有缓解这一代人潜在的焦虑感，特别是对于那些背负大学债务的人来说。",
           "slashed_text": "The booming economy seems to have done little to assuage this underlying generational sense of anxious urgency , / especially / for those / who have college debt.",
-          "chunk_translation": "蓬勃发展的经济似乎并没有缓解这一代人潜在的焦虑感 / especially / for those / 谁有大学债务",
+          "chunk_translation": "蓬勃发展的经济似乎并未能有效缓解这一代人内心深处的焦虑紧迫感， / 尤其是 / 对于那些 / 身负大学助学贷款的学生而言。",
           "syntax": {
             "breakdown": [
               {
@@ -3812,7 +3812,7 @@
           "text": "College loan balances in the U.S.",
           "translation": "美国的大学贷款余额",
           "slashed_text": "College loan balances in the U.S.",
-          "chunk_translation": "美国的大学贷款余额",
+          "chunk_translation": "美国的大学助学贷款总额",
           "syntax": {
             "breakdown": [
               {
@@ -3830,7 +3830,7 @@
           "text": "now stand at a record $1.5 trillion, according to the Federal Reserve.",
           "translation": "根据美联储的数据，目前美元规模已达到创纪录的 1.5 万亿美元。",
           "slashed_text": "now stand at a record $1.5 trillion , / according to the Federal Reserve.",
-          "chunk_translation": "目前已达到创纪录的 1.5 万亿美元 / 根据美联储的数据",
+          "chunk_translation": "目前已达到了创纪录的1.5万亿美元， / 根据美联储的统计数据。",
           "syntax": {
             "breakdown": [
               {
@@ -3848,7 +3848,7 @@
           "text": "One survey from Accenture found that 88 percent of graduating seniors this year chose their major with a job in mind.",
           "translation": "埃森哲的一项调查发现，今年 88% 的应届毕业生在选择专业时就考虑到了工作。",
           "slashed_text": "One survey / from Accenture found / that 88 percent of graduating seniors this year chose their major with a job / in mind.",
-          "chunk_translation": "One survey / from Accenture found / that 88 percent of graduating seniors this year chose their major with a job / in mind",
+          "chunk_translation": "埃森哲咨询公司的 / 一项调查发现， / 今年88%的应届大学毕业生在选择专业时都牢牢考虑到了 / 就业前景。",
           "syntax": {
             "breakdown": [
               {
@@ -3866,7 +3866,7 @@
           "text": "In a 2019 survey of University of Georgia students, meanwhile, the career office found the most desirable trait in a future employer was the ability to offer secure employment (followed by professional development and training, and then inspiring purpose).",
           "translation": "与此同时，在 2019 年对佐治亚大学学生的一项调查中，职业办公室发现，未来雇主最理想的特质是提供稳定就业的能力（其次是专业发展和培训，然后是鼓舞人心的目标）。",
           "slashed_text": "In a 2019 survey of University of Georgia students , / meanwhile , / the career office found the most desirable trait in a future employer was the ability to offer secure employment (followed / by professional development and training , / and then inspiring purpose).",
-          "chunk_translation": "2019 年对佐治亚大学学生的调查 / 同时 / the career office found the most desirable trait in a future employer was the ability to offer secure employment (followed / by professional development and training / 然后是鼓舞人心的目标）",
+          "chunk_translation": "同时在2019年对佐治亚大学学生开展的一项调查中， / 就就业指导中心发现， / 学生在挑选未来雇主时最看重的特质是提供稳定工作的能力（其次是 / 职业发展与培训机会， / 再次是振奋人心的企业宗旨）。",
           "syntax": {
             "breakdown": [
               {
@@ -3884,7 +3884,7 @@
           "text": "Job security or stability was the second most important career goal (work-life balance was number one), followed by a sense of being dedicated to a cause or to feel good about serving the greater good.",
           "translation": "工作保障或稳定是第二重要的职业目标（工作与生活的平衡是第一位的），其次是致力于一项事业的感觉或为更大的利益服务的感觉。",
           "slashed_text": "Job security or stability was the second most important career goal (work-life balance was number one) , / followed by a sense of being dedicated to a cause or to feel good / about serving the greater good.",
-          "chunk_translation": "工作保障或稳定是第二重要的职业目标（工作与生活的平衡是第一位的） / followed by a sense of being dedicated to a cause or to feel good / about serving the greater good",
+          "chunk_translation": "工作的安全感或稳定性是第二重要的职业目标（工作与生活的平衡位居第一）， / 紧随其后的是投身于某项事业的使命感，或 / 为更大社会福祉服务所获得的价值感。",
           "syntax": {
             "breakdown": [
               {
@@ -3902,7 +3902,7 @@
           "text": "That’s a big change from the previous generation.",
           "translation": "与上一代相比，这是一个很大的变化。",
           "slashed_text": "/ That’s a big change from the previous generation.",
-          "chunk_translation": "与上一代相比，这是一个很大的变化",
+          "chunk_translation": "这与上一代人相比发生了巨大变化。",
           "syntax": {
             "breakdown": [
               {
@@ -3920,7 +3920,7 @@
           "text": "“Millennials wanted more flexibility in their lives,” notes Tanya Michelsen, Associate Director of YouthSight, a UK-based brand manager that conducts regular 60-day surveys of British youth, in findings that might just as well apply to American youth.",
           "translation": "英国品牌经理YouthSight对英国年轻人进行为期60天的定期调查，其副总监坦尼娅•米歇尔森指出：“千禧一代希望自己的生活更灵活。”她的调查结果可能同样适用于美国年轻人。",
           "slashed_text": "“Millennials wanted more flexibility / in their lives , / ” notes Tanya Michelsen , / Associate Director of YouthSight , / a UK-based brand manager / that conducts regular 60-day surveys of British youth , / in findings / that might just as well apply to American youth.",
-          "chunk_translation": "Millennials wanted more flexibility / in their lives / notes Tanya Michelsen / 青年视野副主任 / 英国品牌经理 / 对英国年轻人进行为期 60 天的定期调查 / 在调查结果中 / 这也可能适用于美国年轻人",
+          "chunk_translation": "“千禧一代希望在自己的生活中拥有更多灵活性， / 在个人生活方面， / ”坦尼娅·米歇尔森指出， / 她是英国咨询机构YouthSight的副总监， / 该机构是一家英国品牌管理咨询公司， / 定期对英国青年开展每60天一次的追踪调查， / 其调查结果 / 可能同样适用于美国青年群体。",
           "syntax": {
             "breakdown": [
               {
@@ -3938,7 +3938,7 @@
           "text": "“Generation Zs are looking for more certainty and stability, because of the rise of the gig economy.",
           "translation": "“由于零工经济的兴起，Z 一代正在寻求更多的确定性和稳定性。",
           "slashed_text": "“Generation Zs are looking / for more certainty and stability , / because of the rise of the gig economy.",
-          "chunk_translation": "Generation Zs are looking / for more certainty and stability / 由于零工经济的兴起",
+          "chunk_translation": "“Z世代则在寻求 / 更多的确定性与稳定性， / 这是因为零工经济的兴起。",
           "syntax": {
             "breakdown": [
               {
@@ -3956,7 +3956,7 @@
           "text": "They have troubles seeing a financial future and they are quite risk averse.”",
           "translation": "他们很难看到财务未来，而且非常厌恶风险。”",
           "slashed_text": "They have troubles seeing a financial future and they are quite risk averse.”",
-          "chunk_translation": "他们很难看到财务未来，而且非常厌恶风险。”",
+          "chunk_translation": "他们很难看清自己的财务前景，因而非常规避风险。”",
           "syntax": {
             "breakdown": [
               {

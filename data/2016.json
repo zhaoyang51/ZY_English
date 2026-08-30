@@ -12,7 +12,7 @@
           "text": "It’s true that high-school coding classes aren’t essential for learning computer science in college. Students without experience can catch up after a few introductory courses, said Tom Cortina, the assistant dean at Carnegie Mellon’s School of Computer Science.",
           "translation": "确实，高中编码课程对于大学学习计算机科学来说并不是必需的。卡内基梅隆大学计算机科学学院副院长汤姆·科尔蒂纳 (Tom Cortina) 表示，没有经验的学生可以在学习一些入门课程后迎头赶上。",
           "slashed_text": "It’s true / that high-school coding classes aren’t essential / for learning computer science / in college. Students / without experience can catch up after a few introductory courses , / said Tom Cortina , / the assistant dean / at Carnegie Mellon’s School of Computer Science.",
-          "chunk_translation": "这是真的 / that high-school coding classes aren’t essential / for learning computer science / in college. Students / without experience can catch up after a few introductory courses / 汤姆·科尔蒂纳说 / the assistant dean / at Carnegie Mellon’s School of Computer Science",
+          "chunk_translation": "确实如此， / 高中阶段的编程课程并不是必不可少的 / 对于在大学学习计算机科学而言 / 在大学里。 毫无编程经验的学生在几周之后便能赶上进度 / 在学完入门编程课程后， / 说道 / 马克·科蒂纳， / 罗伯特莫里斯大学的副院长。",
           "vocabulary": [
             {
               "word": "true",
@@ -66,7 +66,7 @@
           "text": "However, Cortina said, early exposure is beneficial. When younger kids learn computer science, they learn that it’s not just a confusing, endless string of letters and numbers—but a tool to build apps, or create artwork, or test hypotheses. It’s not as hard for them to transform their thought processes as it is for older students. Breaking down problems into bite-sized chunks and using code to solve them becomes normal. Giving more children this training could increase the number of people interested in the field and help fill the jobs gap, Cortina said.",
           "translation": "然而，科尔蒂纳说，早期接触是有益的。当年幼的孩子学习计算机科学时，他们知道这不仅仅是一串令人困惑的、无穷无尽的字母和数字，而且是构建应用程序、创作艺术品或测试假设的工具。对他们来说，改变思维过程并不像高年级学生那么难。将问题分解为小块并使用代码来解决它们变得很正常。科尔蒂纳说，为更多的孩子提供这种培训可以增加对该领域感兴趣的人数，并有助于填补就业缺口。",
           "slashed_text": "However , / Cortina said , / early exposure is beneficial. / When younger kids learn computer science , / they learn / that it’s not just a confusing , / endless string of letters and numbers — / but a tool to build apps , / or create artwork , / or test hypotheses. It’s not as hard / for them to transform their thought processes as it is / for older students. Breaking down problems / into bite-sized chunks and using code to solve them becomes normal. Giving more children this training could increase the number of people interested in the field and help fill the jobs gap , / Cortina said.",
-          "chunk_translation": "然而 / 科尔蒂纳说 / 早期接触是有益的 / 当年幼的孩子学习计算机科学时 / 他们学习 / 这不仅仅是一个令人困惑的问题 / endless string of letters and numbers / but a tool to build apps / 或创作​​艺术品 / or test hypotheses. It’s not as hard / for them to transform their thought processes as it is / for older students. Breaking down problems / into bite-sized chunks and using code to solve them becomes normal. Giving more children this training could increase the number of people interested in the field and help fill the jobs gap / 科尔蒂纳说",
+          "chunk_translation": "然而， / 科蒂纳表示， / 早期接触编程大有裨益。 / 当年龄较小的孩子学习计算机科学时， / 他们了解到 / 这不仅仅是在计算机上解决问题， / 而是 / 关于解决现实世界中的问题， / 在现实世界中， / 科蒂纳说道。 这并非难事 / 对他们而言 / 去转变他们的思维方式。 将复杂问题拆解为易于处理的微小模块 / 并习惯编程的逻辑结构，有助于在不同学科的学习。 让更多的孩子接受这种思维训练， / 能够增加大学里主修计算机科学的学生人数。",
           "vocabulary": [
             {
               "word": "However",
@@ -120,7 +120,7 @@
           "text": "Students also benefit from learning something about coding before they get to college, where introductory computer-science classes are packed to the brim, which can drive the less- experienced or -determined students away.",
           "translation": "学生们还可以在上大学之前学习一些关于编码的知识，因为大学里计算机科学入门课程排得满满的，这可能会赶走经验不足或意志坚定的学生。",
           "slashed_text": "Students also benefit / from learning something / about coding / before they get to college , / where introductory computer-science classes are packed to the brim , / which can drive the less- experienced or -determined students away.",
-          "chunk_translation": "Students also benefit / from learning something / about coding / 在他们上大学之前 / 计算机科学入门课程挤满了人 / 这可能会赶走经验不足或意志坚定的学生",
+          "chunk_translation": "学生也能从中受益 / 通过学习一些知识 / 关于编程的知识 / 在进入大学之前， / 无论 / 他们将来主修什么专业。",
           "vocabulary": [
             {
               "word": "Students",
@@ -174,7 +174,7 @@
           "text": "The Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that’s become popular for adults looking for a career change. The high- schoolers get the same curriculum, but “we try to gear lessons toward things they’re interested in,” said Victoria Friedman, an instructor. For instance, one of the apps the students are developing suggests movies based on your mood.",
           "translation": "人们付费学习编程的 Flatiron 学校最初是众多编程训练营之一，现在受到寻求职业转变的成年人的欢迎。高中生学习相同的课程，但“我们尝试根据他们感兴趣的内容安排课程，”讲师维多利亚·弗里德曼 (Victoria Friedman) 说。例如，学生们正在开发的一款应用程序会根据你的心情推荐电影。",
           "slashed_text": "The Flatiron School , / where people pay to learn programming , / started as one of the many coding bootcamps / that’s become popular / for adults looking for a career change. The high- schoolers get the same curriculum , / but “we try to gear lessons toward things they’re interested in , / ” said Victoria Friedman , / an instructor. For instance , / one of the apps the students are developing suggests movies based / on your mood.",
-          "chunk_translation": "熨斗学校 / 人们付费学习编程的地方 / started as one of the many coding bootcamps / that’s become popular / for adults looking for a career change. The high- schoolers get the same curriculum / but “we try to gear lessons toward things they’re interested in / said Victoria Friedman / an instructor. For instance / one of the apps the students are developing suggests movies based / on your mood",
+          "chunk_translation": "熨斗学院， / 人们在此付费 / 来学习编程， / 已经开始 / 为高中生开设编程课程。 高中生们接受完全相同的课程体系， / 但“老师们会根据进度进行相应调整 / 适应学生的学习节奏，” / 维多利亚·弗里德曼说道。 例如， / 学生们正在开发的一款应用程序 / 就是一个帮助学生记忆物品和事项的工具。",
           "vocabulary": [
             {
               "word": "Flatiron",
@@ -228,7 +228,7 @@
           "text": "The students in the Flatiron class probably won’t drop out of high school and build the next Facebook. Programming languages have a quick turnover, so the “Ruby on Rails” language they learned may not even be relevant by the time they enter the job market. But the skills they learn—how to think logically through a problem and organize the results—apply to any coding language, said Deborah Seehorn, an education consultant for the state of North Carolina.",
           "translation": "Flatiron 班的学生可能不会从高中辍学并创建下一个 Facebook。编程语言的更新换代很快，因此他们所学的“Ruby on Rails”语言在他们进入就业市场时甚至可能不再适用。但北卡罗来纳州教育顾问 Deborah Seehorn 表示，他们学到的技能——如何逻辑思考问题并组织结果——适用于任何编码语言。",
           "slashed_text": "The students in the Flatiron class probably won’t drop out of high school and build the next Facebook. Programming languages have a quick turnover , / so the “Ruby / on Rails” language they learned may not even be relevant by the time they enter the job market. But the skills they learn — / how to think logically through a problem and organize the results — / apply to any coding language , / said Deborah Seehorn , / an education consultant for the state of North Carolina.",
-          "chunk_translation": "The students in the Flatiron class probably won’t drop out of high school and build the next Facebook. Programming languages have a quick turnover / so the “Ruby / on Rails” language they learned may not even be relevant by the time they enter the job market. But the skills they learn / how to think logically through a problem and organize the results / apply to any coding language / 黛博拉·西洪说道 / 北卡罗来纳州教育顾问",
+          "chunk_translation": "参加熨斗学院课程的学生们或许将来不会成为职业程序员。 编程语言更新换代极其迅速， / 因此这些工具 / 他们今天所学到的工具，到他们毕业时很可能就已经被淘汰了。 但他们所掌握的技能—— / 如何通过逻辑思维剖析问题 / 以及 / 解决问题 / 以创造性的方式解决问题——将始终发挥重要作用。",
           "vocabulary": [
             {
               "word": "students",
@@ -282,7 +282,7 @@
           "text": "Indeed, the Flatiron students might not go into IT at all. But creating a future army of coders is not the sole purpose of the classes. These kids are going to be surrounded by computers—in their pockets, in their offices, in their homes—for the rest of their lives. The younger they learn how computers think, how to coax the machine into producing what they want—the earlier they learn that they have the power to do that—the better.",
           "translation": "事实上，Flatiron 的学生可能根本不会进入 IT 行业。但创建未来的程序员大军并不是这些课程的唯一目的。这些孩子将终生被电脑包围——在他们的口袋里、在办公室里、在家里。他们越早了解计算机如何思考、如何引导机器生产他们想要的东西——他们越早知道自己有能力做到这一点——就越好。",
           "slashed_text": "Indeed , / the Flatiron students might not go into IT at all. But creating a future army of coders is not the sole purpose of the classes. These kids are going to be surrounded / by computers — / in their pockets , / in their offices , / in their homes — / for the rest of their lives. The younger they learn how computers think , / how to coax the machine / into producing what they want — / the earlier they learn / that they have the power to do / that — / the better.",
-          "chunk_translation": "的确 / the Flatiron students might not go into IT at all. But creating a future army of coders is not the sole purpose of the classes. These kids are going to be surrounded / by computers / in their pockets / 在他们的办公室 / in their homes / for the rest of their lives. The younger they learn how computers think / how to coax the machine / into producing what they want / the earlier they learn / that they have the power to do / 那 / the better",
+          "chunk_translation": "事实上， / 熨斗学院的学生们将来甚至可能根本不会涉足信息技术行业。 但打造一支未来的程序员大军并不是该项目的唯一目标。 这些孩子们将被电脑所环绕包围 / 由计算机设备， / 在其余生中 / 在他们的整个人生中， / 并且 / 了解计算机如何运作将变得至关重要。 他们越早学会计算机如何思考， / 如何用计算机的语言进行交流， / 就越能 / 他们就越能够 / 从容驾驭 / 一个世界 / 由算法所主导的世界。",
           "vocabulary": [
             {
               "word": "Indeed",
@@ -340,7 +340,7 @@
           "text": "It’s true that high-school coding classes aren’t essential for learning computer science in college.",
           "translation": "确实，高中编码课程对于大学学习计算机科学来说并不是必需的。",
           "slashed_text": "It’s true / that high-school coding classes aren’t essential / for learning computer science / in college.",
-          "chunk_translation": "这是真的 / that high-school coding classes aren’t essential / for learning computer science / in college",
+          "chunk_translation": "确实如此， / 高中阶段的编程课程并不是必不可少的 / 对于在大学学习计算机科学而言 / 在大学里。",
           "syntax": {
             "breakdown": [
               {
@@ -358,7 +358,7 @@
           "text": "Students without experience can catch up after a few introductory courses, said Tom Cortina, the assistant dean at Carnegie Mellon’s School of Computer Science.",
           "translation": "卡内基梅隆大学计算机科学学院副院长汤姆·科尔蒂纳 (Tom Cortina) 表示，没有经验的学生可以在学习一些入门课程后迎头赶上。",
           "slashed_text": "Students / without experience can catch up after a few introductory courses , / said Tom Cortina , / the assistant dean / at Carnegie Mellon’s School of Computer Science.",
-          "chunk_translation": "Students / without experience can catch up after a few introductory courses / 汤姆·科尔蒂纳说 / the assistant dean / at Carnegie Mellon’s School of Computer Science",
+          "chunk_translation": "毫无编程经验的学生在几周之后便能赶上进度 / 在学完入门编程课程后， / 说道 / 马克·科蒂纳， / 罗伯特莫里斯大学的副院长。",
           "syntax": {
             "breakdown": [
               {
@@ -376,7 +376,7 @@
           "text": "However, Cortina said, early exposure is beneficial.",
           "translation": "然而，科尔蒂纳说，早期接触是有益的。",
           "slashed_text": "However , / Cortina said , / early exposure is beneficial.",
-          "chunk_translation": "然而 / 科尔蒂纳说 / 早期接触是有益的",
+          "chunk_translation": "然而， / 科蒂纳表示， / 早期接触编程大有裨益。",
           "syntax": {
             "breakdown": [
               {
@@ -394,7 +394,7 @@
           "text": "When younger kids learn computer science, they learn that it’s not just a confusing, endless string of letters and numbers—but a tool to build apps, or create artwork, or test hypotheses.",
           "translation": "当年幼的孩子学习计算机科学时，他们知道这不仅仅是一串令人困惑的、无穷无尽的字母和数字，而且是构建应用程序、创作艺术品或测试假设的工具。",
           "slashed_text": "/ When younger kids learn computer science , / they learn / that it’s not just a confusing , / endless string of letters and numbers — / but a tool to build apps , / or create artwork , / or test hypotheses.",
-          "chunk_translation": "当年幼的孩子学习计算机科学时 / 他们学习 / 这不仅仅是一个令人困惑的问题 / endless string of letters and numbers / but a tool to build apps / 或创作​​艺术品 / 或检验假设",
+          "chunk_translation": "/ 当年龄较小的孩子学习计算机科学时， / 他们了解到 / 这不仅仅是在计算机上解决问题， / 而是 / 关于解决现实世界中的问题， / 在现实世界中， / 科蒂纳说道。",
           "syntax": {
             "breakdown": [
               {
@@ -412,7 +412,7 @@
           "text": "It’s not as hard for them to transform their thought processes as it is for older students.",
           "translation": "对他们来说，改变思维过程并不像高年级学生那么难。",
           "slashed_text": "It’s not as hard / for them to transform their thought processes as it is / for older students.",
-          "chunk_translation": "It’s not as hard / for them to transform their thought processes as it is / for older students",
+          "chunk_translation": "这并非难事 / 对他们而言 / 去转变他们的思维方式。",
           "syntax": {
             "breakdown": [
               {
@@ -430,7 +430,7 @@
           "text": "Breaking down problems into bite-sized chunks and using code to solve them becomes normal.",
           "translation": "将问题分解为小块并使用代码来解决它们变得很正常。",
           "slashed_text": "Breaking down problems / into bite-sized chunks and using code to solve them becomes normal.",
-          "chunk_translation": "Breaking down problems / into bite-sized chunks and using code to solve them becomes normal",
+          "chunk_translation": "将复杂问题拆解为易于处理的微小模块 / 并习惯编程的逻辑结构，有助于在不同学科的学习。",
           "syntax": {
             "breakdown": [
               {
@@ -448,7 +448,7 @@
           "text": "Giving more children this training could increase the number of people interested in the field and help fill the jobs gap, Cortina said.",
           "translation": "科尔蒂纳说，为更多的孩子提供这种培训可以增加对该领域感兴趣的人数，并有助于填补就业缺口。",
           "slashed_text": "Giving more children this training could increase the number of people interested in the field and help fill the jobs gap , / Cortina said.",
-          "chunk_translation": "为更多的孩子提供这种培训可以增加对该领域感兴趣的人数，并有助于填补就业缺口 / 科尔蒂纳说",
+          "chunk_translation": "让更多的孩子接受这种思维训练， / 能够增加大学里主修计算机科学的学生人数。",
           "syntax": {
             "breakdown": [
               {
@@ -466,7 +466,7 @@
           "text": "Students also benefit from learning something about coding before they get to college, where introductory computer-science classes are packed to the brim, which can drive the less- experienced or -determined students away.",
           "translation": "学生们还可以在上大学之前学习一些关于编码的知识，因为大学里计算机科学入门课程排得满满的，这可能会赶走经验不足或意志坚定的学生。",
           "slashed_text": "Students also benefit / from learning something / about coding / before they get to college , / where introductory computer-science classes are packed to the brim , / which can drive the less- experienced or -determined students away.",
-          "chunk_translation": "Students also benefit / from learning something / about coding / 在他们上大学之前 / 计算机科学入门课程挤满了人 / 这可能会赶走经验不足或意志坚定的学生",
+          "chunk_translation": "学生也能从中受益 / 通过学习一些知识 / 关于编程的知识 / 在进入大学之前， / 无论 / 他们将来主修什么专业。",
           "syntax": {
             "breakdown": [
               {
@@ -484,7 +484,7 @@
           "text": "The Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that’s become popular for adults looking for a career change.",
           "translation": "人们付费学习编程的 Flatiron 学校最初是众多编程训练营之一，现在受到寻求职业转变的成年人的欢迎。",
           "slashed_text": "The Flatiron School , / where people pay to learn programming , / started as one of the many coding bootcamps / that’s become popular / for adults looking for a career change.",
-          "chunk_translation": "熨斗学校 / 人们付费学习编程的地方 / started as one of the many coding bootcamps / that’s become popular / for adults looking for a career change",
+          "chunk_translation": "熨斗学院， / 人们在此付费 / 来学习编程， / 已经开始 / 为高中生开设编程课程。",
           "syntax": {
             "breakdown": [
               {
@@ -502,7 +502,7 @@
           "text": "The high- schoolers get the same curriculum, but “we try to gear lessons toward things they’re interested in,” said Victoria Friedman, an instructor.",
           "translation": "高中生学习相同的课程，但“我们尝试根据他们感兴趣的内容安排课程，”讲师维多利亚·弗里德曼 (Victoria Friedman) 说。",
           "slashed_text": "The high- schoolers get the same curriculum , / but “we try to gear lessons toward things they’re interested in , / ” said Victoria Friedman , / an instructor.",
-          "chunk_translation": "高中生接受相同的课程 / but “we try to gear lessons toward things they’re interested in / said Victoria Friedman / 导师",
+          "chunk_translation": "高中生们接受完全相同的课程体系， / 但“老师们会根据进度进行相应调整 / 适应学生的学习节奏，” / 维多利亚·弗里德曼说道。",
           "syntax": {
             "breakdown": [
               {
@@ -520,7 +520,7 @@
           "text": "For instance, one of the apps the students are developing suggests movies based on your mood.",
           "translation": "例如，学生们正在开发的一款应用程序会根据你的心情推荐电影。",
           "slashed_text": "For instance , / one of the apps the students are developing suggests movies based / on your mood.",
-          "chunk_translation": "例如 / one of the apps the students are developing suggests movies based / on your mood",
+          "chunk_translation": "例如， / 学生们正在开发的一款应用程序 / 就是一个帮助学生记忆物品和事项的工具。",
           "syntax": {
             "breakdown": [
               {
@@ -538,7 +538,7 @@
           "text": "The students in the Flatiron class probably won’t drop out of high school and build the next Facebook.",
           "translation": "Flatiron 班的学生可能不会从高中辍学并创建下一个 Facebook。",
           "slashed_text": "The students in the Flatiron class probably won’t drop out of high school and build the next Facebook.",
-          "chunk_translation": "Flatiron 班的学生可能不会从高中辍学并创建下一个 Facebook",
+          "chunk_translation": "参加熨斗学院课程的学生们或许将来不会成为职业程序员。",
           "syntax": {
             "breakdown": [
               {
@@ -556,7 +556,7 @@
           "text": "Programming languages have a quick turnover, so the “Ruby on Rails” language they learned may not even be relevant by the time they enter the job market.",
           "translation": "编程语言的更新换代很快，因此他们所学的“Ruby on Rails”语言在他们进入就业市场时甚至可能不再适用。",
           "slashed_text": "Programming languages have a quick turnover , / so the “Ruby / on Rails” language they learned may not even be relevant by the time they enter the job market.",
-          "chunk_translation": "编程语言更新换代很快 / so the “Ruby / on Rails” language they learned may not even be relevant by the time they enter the job market",
+          "chunk_translation": "编程语言更新换代极其迅速， / 因此这些工具 / 他们今天所学到的工具，到他们毕业时很可能就已经被淘汰了。",
           "syntax": {
             "breakdown": [
               {
@@ -574,7 +574,7 @@
           "text": "But the skills they learn—how to think logically through a problem and organize the results—apply to any coding language, said Deborah Seehorn, an education consultant for the state of North Carolina.",
           "translation": "但北卡罗来纳州教育顾问 Deborah Seehorn 表示，他们学到的技能——如何逻辑思考问题并组织结果——适用于任何编码语言。",
           "slashed_text": "But the skills they learn — / how to think logically through a problem and organize the results — / apply to any coding language , / said Deborah Seehorn , / an education consultant for the state of North Carolina.",
-          "chunk_translation": "But the skills they learn / how to think logically through a problem and organize the results / apply to any coding language / 黛博拉·西洪说道 / 北卡罗来纳州教育顾问",
+          "chunk_translation": "但他们所掌握的技能—— / 如何通过逻辑思维剖析问题 / 以及 / 解决问题 / 以创造性的方式解决问题——将始终发挥重要作用。",
           "syntax": {
             "breakdown": [
               {
@@ -592,7 +592,7 @@
           "text": "Indeed, the Flatiron students might not go into IT at all.",
           "translation": "事实上，Flatiron 的学生可能根本不会进入 IT 行业。",
           "slashed_text": "Indeed , / the Flatiron students might not go into IT at all.",
-          "chunk_translation": "的确 / Flatiron 的学生可能根本不会进入 IT 行业",
+          "chunk_translation": "事实上， / 熨斗学院的学生们将来甚至可能根本不会涉足信息技术行业。",
           "syntax": {
             "breakdown": [
               {
@@ -610,7 +610,7 @@
           "text": "But creating a future army of coders is not the sole purpose of the classes.",
           "translation": "但创建一支未来的程序员大军并不是这些课程的唯一目的。",
           "slashed_text": "But creating a future army of coders is not the sole purpose of the classes.",
-          "chunk_translation": "但创建未来的程序员大军并不是这些课程的唯一目的",
+          "chunk_translation": "但打造一支未来的程序员大军并不是该项目的唯一目标。",
           "syntax": {
             "breakdown": [
               {
@@ -628,7 +628,7 @@
           "text": "These kids are going to be surrounded by computers—in their pockets, in their offices, in their homes—for the rest of their lives.",
           "translation": "这些孩子将终生被电脑包围——在他们的口袋里、在办公室里、在家里。",
           "slashed_text": "These kids are going to be surrounded / by computers — / in their pockets , / in their offices , / in their homes — / for the rest of their lives.",
-          "chunk_translation": "These kids are going to be surrounded / by computers / in their pockets / 在他们的办公室 / in their homes / for the rest of their lives",
+          "chunk_translation": "这些孩子们将被电脑所环绕包围 / 由计算机设备， / 在其余生中 / 在他们的整个人生中， / 并且 / 了解计算机如何运作将变得至关重要。",
           "syntax": {
             "breakdown": [
               {
@@ -646,7 +646,7 @@
           "text": "The younger they learn how computers think, how to coax the machine into producing what they want—the earlier they learn that they have the power to do that—the better.",
           "translation": "他们越早了解计算机如何思考、如何引导机器生产他们想要的东西——他们越早知道自己有能力做到这一点——就越好。",
           "slashed_text": "The younger they learn how computers think , / how to coax the machine / into producing what they want — / the earlier they learn / that they have the power to do / that — / the better.",
-          "chunk_translation": "他们越年轻就了解计算机如何思考 / how to coax the machine / into producing what they want / the earlier they learn / that they have the power to do / 那 / the better",
+          "chunk_translation": "他们越早学会计算机如何思考， / 如何用计算机的语言进行交流， / 就越能 / 他们就越能够 / 从容驾驭 / 一个世界 / 由算法所主导的世界。",
           "syntax": {
             "breakdown": [
               {
@@ -1119,7 +1119,7 @@
           "text": "Biologists estimate that as many as 2 million lesser prairie chickens—a kind of bird living on stretching grasslands—once lent red to the often grey landscape of the midwestern and southwestern United States. But just some 22,000 birds remain today, occupying about 16% of the species’ historic range.",
           "translation": "生物学家估计，多达 200 万只小草原鸡（一种生活在广阔草原上的鸟类）曾经为美国中西部和西南部通常灰色的土地带来红色。但如今只剩下约 22,000 只鸟类，约占该物种历史分布范围的 16%。",
           "slashed_text": "Biologists estimate / that as many as 2 million lesser prairie chickens — / a kind of bird living / on stretching grasslands — / once lent red to the often grey landscape of the midwestern and southwestern United States. But just some 22 , / 000 birds remain today , / occupying about 16% of the species’ historic range.",
-          "chunk_translation": "生物学家估计 / that as many as 2 million lesser prairie chickens / a kind of bird living / on stretching grasslands / once lent red to the often grey landscape of the midwestern and southwestern United States. But just some 22 / 000 birds remain today / 占据该物种历史分布范围的约 16%",
+          "chunk_translation": "生物学家估计， / 多达200万只小草原榛鸡—— / 一种生活在 / 辽阔草原上的鸟类—— / 曾为美国中西部和西南部通常单调的灰色原野增添了一抹红色。 但如今仅存约22, / 000只小草原榛鸡， / 仅占据着其历史栖息范围的一小部分。",
           "vocabulary": [
             {
               "word": "Biologists",
@@ -1173,7 +1173,7 @@
           "text": "The crash was a major reason the U.S. Fish and Wildlife Service (USFWS) decided to formally list the bird as threatened. “The lesser prairie chicken is in a desperate situation,” said USFWS Director Daniel Ashe. Some environmentalists, however, were disappointed. They had pushed the agency to designate the bird as “endangered,” a status that gives federal officials greater regulatory power to crack down on threats. But Ashe and others argued that the “threatened” tag gave the federal government flexibility to try out new, potentially less confrontational conservation approaches. In particular, they called for forging closer collaborations with western state governments, which are often uneasy with federal action, and with the private landowners who control an estimated 95% of the prairie chicken’s habitat. Under the plan, for example, the agency said it would not prosecute landowners or businesses that unintentionally kill, harm, or disturb the bird, as long as they had signed a range-wide management plan to restore prairie chicken habitat. Negotiated by USFWS and the states, the plan requires individuals and businesses that damage habitat as part of their operations to pay into a fund to replace every acre destroyed with 2 new acres of suitable habitat. The fund will also be used to compensate landowners who set aside habitat. USFWS also set an interim goal of restoring prairie chicken populations to an annual average of 67,000 birds over the next 10 years. And it gives the Western Association of Fish and Wildlife Agencies (WAFWA), a coalition of state agencies, the job of monitoring progress. Overall, the idea is to let “states remain in the driver’s seat for managing the species,” Ashe said. Not everyone buys the win-win rhetoric. Some Congress members are trying to block the plan, and at least a dozen industry groups, four states, and three environmental groups are challenging it in federal court. Not surprisingly, industry groups and states generally argue it goes too far; environmentalists say it doesn’t go far enough. “The federal government is giving responsibility for managing the bird to the same industries that are pushing it to extinction,” says biologist Jay Lininger.",
           "translation": "这次事故是美国鱼类和野生动物管理局（USFWS）决定正式将这种鸟列为受威胁的主要原因。 “小草原鸡正处于绝望的境地，”美国鱼类和野生动物管理局局长丹尼尔·阿什说。然而，一些环保人士却感到失望。他们敦促该机构将这种鸟指定为“濒危”，这一状态赋予联邦官员更大的监管权力来打击威胁。但阿什和其他人认为，“受威胁”标签使联邦政府能够灵活地尝试新的、可能不那么对抗性的保护方法。他们特别呼吁与西部州政府和私人土地所有者建立更密切的合作，西部州政府往往对联邦政府的行动感到不安，而私人土地所有者控制着大约 95% 的草原鸡栖息地。例如，根据该计划，该机构表示，只要土地所有者或企业签署了恢复草原鸡栖息地的大范围管理计划，就不会起诉无意杀死、伤害或扰乱鸟类的土地所有者或企业。经 USFWS 和各州谈判，该计划要求在其运营过程中破坏栖息地的个人和企业缴纳一笔基金，以用 2 英亩新的合适栖息地取代每被破坏的英亩。该基金还将用于补偿预留栖息地的土地所有者。 USFWS 还设定了一个临时目标，即在未来 10 年内将草原鸡数量恢复到年均 67,000 只。它还赋予西部鱼类和野生动物机构​​协会（WAFWA）这个国家机构联盟监督进展的职责。阿什说，总体而言，这个想法是让“各州继续掌握物种管理的主导权”。并非所有人都相信双赢的说法。一些国会议员正试图阻止该计划，至少有十几个行业团体、四个州和三个环保组织正在联邦法院对该计划提出质疑。毫不奇怪，行业组织和各州普遍认为这种做法太过分了。环保人士表示，这还远远不够。生物学家杰伊·利宁格 (Jay Lininger) 表示：“联邦政府将管理这种鸟类的责任交给了那些导致其灭绝的行业。”",
           "slashed_text": "The crash was a major reason the U.S. Fish and Wildlife Service (USFWS) decided to formally list the bird as threatened. “The lesser prairie chicken is in a desperate situation , / ” said USFWS Director Daniel Ashe. Some environmentalists , / however , / were disappointed. They had pushed the agency to designate the bird as “endangered , / ” a status / that gives federal officials greater regulatory power to crack down / on threats. But Ashe and others argued / that the “threatened” tag gave the federal government flexibility to try out new , / potentially less confrontational conservation approaches. In particular , / they called / for forging closer collaborations / with western state governments , / which are often uneasy / with federal action , / and with the private landowners / who control an estimated 95% of the prairie chicken’s habitat. Under the plan , / for example , / the agency said it would not prosecute landowners or businesses / that unintentionally kill , / harm , / or disturb the bird , / as long as they had signed a range-wide management plan to restore prairie chicken habitat. Negotiated by USFWS and the states , / the plan requires individuals and businesses / that damage habitat as part of their operations to pay into a fund to replace every acre destroyed with 2 new acres of suitable habitat. The fund will also be used to compensate landowners / who set aside habitat. USFWS also set an interim goal of restoring prairie chicken populations to an annual average of 67 , / 000 birds over the next 10 years. And it gives the Western Association of Fish and Wildlife Agencies (WAFWA) , / a coalition of state agencies , / the job of monitoring progress. Overall , / the idea is to let “states remain in the driver’s seat / for managing the species , / ” Ashe said. Not everyone buys the win-win rhetoric. Some Congress members are trying to block the plan , / and / at least a dozen industry groups , / four states , / and three environmental groups are challenging it / in federal court. Not surprisingly , / industry groups and states generally argue it goes too far ; / environmentalists say it doesn’t go far enough. “The federal government is giving responsibility / for managing the bird to the same industries / that are pushing it to extinction , / ” says biologist Jay Lininger.",
-          "chunk_translation": "The crash was a major reason the U.S. Fish and Wildlife Service (USFWS) decided to formally list the bird as threatened. “The lesser prairie chicken is in a desperate situation / said USFWS Director Daniel Ashe. Some environmentalists / 然而 / were disappointed. They had pushed the agency to designate the bird as “endangered / a status / that gives federal officials greater regulatory power to crack down / on threats. But Ashe and others argued / “受威胁”标签使联邦政府能够灵活地尝试新的 / potentially less confrontational conservation approaches. In particular / they called / for forging closer collaborations / with western state governments / which are often uneasy / with federal action / 和私人土地所有者 / who control an estimated 95% of the prairie chicken’s habitat. Under the plan / 例如 / 该机构表示不会起诉土地所有者或企业 / 无意中杀死的 / 伤害 / 或打扰鸟儿 / as long as they had signed a range-wide management plan to restore prairie chicken habitat. Negotiated by USFWS and the states / 该计划要求个人和企业 / that damage habitat as part of their operations to pay into a fund to replace every acre destroyed with 2 new acres of suitable habitat. The fund will also be used to compensate landowners / who set aside habitat. USFWS also set an interim goal of restoring prairie chicken populations to an annual average of 67 / 000 birds over the next 10 years. And it gives the Western Association of Fish and Wildlife Agencies (WAFWA) / 国家机构联盟 / the job of monitoring progress. Overall / the idea is to let “states remain in the driver’s seat / for managing the species / Ashe said. Not everyone buys the win-win rhetoric. Some Congress members are trying to block the plan / 和 / at least a dozen industry groups / 四个州 / and three environmental groups are challenging it / in federal court. Not surprisingly / 行业团体和国家普遍认为这太过分了 / environmentalists say it doesn’t go far enough. “The federal government is giving responsibility / for managing the bird to the same industries / that are pushing it to extinction / says biologist Jay Lininger",
+          "chunk_translation": "种群数量的暴跌是美国相关部门做出决定的主要原因。 美国鱼类及野生动物管理局决定正式将该鸟类列为受威胁物种。 “小草原榛鸡正处于极其危急的境地，” / 美国鱼类及野生动物管理局局长丹·阿什说道。 一些环保人士， / 然而， / 却对这一决定感到失望。 他们此前一直敦促该机构 / 将这种鸟类定为濒危物种， / 这一级别地位 / 能提供更强有力的法律保护。 但阿什等人坚称， / “受威胁”这一标签能给予联邦官员 / 更大的灵活性。 特别是， / 他们呼吁 / 建立更加紧密的协作关系 / 与当地社区和企业合作， / 以保护 / 该鸟类的栖息地， / 而在同时不破坏 / 当地的地方经济。 根据该保护计划， / 例如， / 该机构表示 / 它将不会惩罚石油和天然气企业 / 那些无意中伤害了 / 草原榛鸡的企业， / 只要它们参与了经批准的保护规划。 经由该机构与各州共同协商制定， / 该计划要求行业参与各方缴纳资金 / 汇入一项专门的保护基金。 该项基金还将用于 / 补偿那些划出土地用于生态保护的土地所有者。 该管理局还设立了一项中期目标， / 在未来10年内将草原榛鸡的数量恢复到平均67,000只的水平。 并且该计划赋予了西部鱼类和野生动物机构协会 / 相应的权力 / 来统一协调和管理这项生态保护工作。 总的来说， / 其核心思路是让“各州在生态保护中 / 保持主导地位 / 处于保护工作的驾驶座掌控全局”。 并非人人都买账这种所谓的‘双赢’说辞。 一些国会议员正试图阻挠这一计划， / 他们辩称 / 该计划仍然会造成就业岗位的损失， / 并且 / 损害 / 能源生产产业。 不足为奇的是， / 各行业团体和各州普遍更倾向于 / 联邦政府所采取的这种灵活适度的处理方式。 “联邦政府正将保护的重任 / 生态保护的责任， / 交予那些人手中 / 那些最熟悉这片土地的人，”一位行业发言人说道。",
           "vocabulary": [
             {
               "word": "crash",
@@ -1231,7 +1231,7 @@
           "text": "Biologists estimate that as many as 2 million lesser prairie chickens—a kind of bird living on stretching grasslands—once lent red to the often grey landscape of the midwestern and southwestern United States.",
           "translation": "生物学家估计，多达 200 万只小草原鸡（一种生活在广阔草原上的鸟类）曾经为美国中西部和西南部通常灰色的土地带来红色。",
           "slashed_text": "Biologists estimate / that as many as 2 million lesser prairie chickens — / a kind of bird living / on stretching grasslands — / once lent red to the often grey landscape of the midwestern and southwestern United States.",
-          "chunk_translation": "生物学家估计 / that as many as 2 million lesser prairie chickens / a kind of bird living / on stretching grasslands / once lent red to the often grey landscape of the midwestern and southwestern United States",
+          "chunk_translation": "生物学家估计， / 多达200万只小草原榛鸡—— / 一种生活在 / 辽阔草原上的鸟类—— / 曾为美国中西部和西南部通常单调的灰色原野增添了一抹红色。",
           "syntax": {
             "breakdown": [
               {
@@ -1249,7 +1249,7 @@
           "text": "But just some 22,000 birds remain today, occupying about 16% of the species’ historic range.",
           "translation": "但如今只剩下约 22,000 只鸟类，约占该物种历史分布范围的 16%。",
           "slashed_text": "But just some 22 , / 000 birds remain today , / occupying about 16% of the species’ historic range.",
-          "chunk_translation": "But just some 22 / 000 birds remain today / 占据该物种历史分布范围的约 16%",
+          "chunk_translation": "但如今仅存约22, / 000只小草原榛鸡， / 仅占据着其历史栖息范围的一小部分。",
           "syntax": {
             "breakdown": [
               {
@@ -1267,7 +1267,7 @@
           "text": "The crash was a major reason the U.S.",
           "translation": "这次事故是美国坠机的主要原因",
           "slashed_text": "The crash was a major reason the U.S.",
-          "chunk_translation": "此次空难是美国坠机的主要原因",
+          "chunk_translation": "种群数量的暴跌是美国相关部门做出决定的主要原因。",
           "syntax": {
             "breakdown": [
               {
@@ -1285,7 +1285,7 @@
           "text": "Fish and Wildlife Service (USFWS) decided to formally list the bird as threatened.",
           "translation": "鱼类和野生动物管理局（USFWS）决定正式将这种鸟列为受威胁鸟类。",
           "slashed_text": "Fish and Wildlife Service (USFWS) decided to formally list the bird as threatened.",
-          "chunk_translation": "鱼类和野生动物管理局 (USFWS) 决定正式将这种鸟列为受威胁鸟类",
+          "chunk_translation": "美国鱼类及野生动物管理局决定正式将该鸟类列为受威胁物种。",
           "syntax": {
             "breakdown": [
               {
@@ -1303,7 +1303,7 @@
           "text": "“The lesser prairie chicken is in a desperate situation,” said USFWS Director Daniel Ashe.",
           "translation": "“小草原鸡正处于绝望的境地，”美国鱼类和野生动物管理局局长丹尼尔·阿什说。",
           "slashed_text": "“The lesser prairie chicken is in a desperate situation , / ” said USFWS Director Daniel Ashe.",
-          "chunk_translation": "The lesser prairie chicken is in a desperate situation / said USFWS Director Daniel Ashe",
+          "chunk_translation": "“小草原榛鸡正处于极其危急的境地，” / 美国鱼类及野生动物管理局局长丹·阿什说道。",
           "syntax": {
             "breakdown": [
               {
@@ -1321,7 +1321,7 @@
           "text": "Some environmentalists, however, were disappointed.",
           "translation": "然而，一些环保人士却感到失望。",
           "slashed_text": "Some environmentalists , / however , / were disappointed.",
-          "chunk_translation": "一些环保人士 / 然而 / 很失望",
+          "chunk_translation": "一些环保人士， / 然而， / 却对这一决定感到失望。",
           "syntax": {
             "breakdown": [
               {
@@ -1339,7 +1339,7 @@
           "text": "They had pushed the agency to designate the bird as “endangered,” a status that gives federal officials greater regulatory power to crack down on threats.",
           "translation": "他们敦促该机构将这种鸟指定为“濒临灭绝”，这一状态赋予联邦官员更大的监管权力来打击威胁。",
           "slashed_text": "They had pushed the agency to designate the bird as “endangered , / ” a status / that gives federal officials greater regulatory power to crack down / on threats.",
-          "chunk_translation": "They had pushed the agency to designate the bird as “endangered / a status / that gives federal officials greater regulatory power to crack down / on threats",
+          "chunk_translation": "他们此前一直敦促该机构 / 将这种鸟类定为濒危物种， / 这一级别地位 / 能提供更强有力的法律保护。",
           "syntax": {
             "breakdown": [
               {
@@ -1357,7 +1357,7 @@
           "text": "But Ashe and others argued that the “threatened” tag gave the federal government flexibility to try out new, potentially less confrontational conservation approaches.",
           "translation": "但阿什和其他人认为，“受威胁”标签使联邦政府能够灵活地尝试新的、可能不那么对抗性的保护方法。",
           "slashed_text": "But Ashe and others argued / that the “threatened” tag gave the federal government flexibility to try out new , / potentially less confrontational conservation approaches.",
-          "chunk_translation": "但阿什和其他人争论道 / “受威胁”标签使联邦政府能够灵活地尝试新的 / 可能较少对抗性的保护方法",
+          "chunk_translation": "但阿什等人坚称， / “受威胁”这一标签能给予联邦官员 / 更大的灵活性。",
           "syntax": {
             "breakdown": [
               {
@@ -1375,7 +1375,7 @@
           "text": "In particular, they called for forging closer collaborations with western state governments, which are often uneasy with federal action, and with the private landowners who control an estimated 95% of the prairie chicken’s habitat.",
           "translation": "他们特别呼吁与西部州政府和私人土地所有者建立更密切的合作，西部州政府往往对联邦政府的行动感到不安，而私人土地所有者控制着大约 95% 的草原鸡栖息地。",
           "slashed_text": "In particular , / they called / for forging closer collaborations / with western state governments , / which are often uneasy / with federal action , / and with the private landowners / who control an estimated 95% of the prairie chicken’s habitat.",
-          "chunk_translation": "尤其 / they called / for forging closer collaborations / with western state governments / which are often uneasy / with federal action / 和私人土地所有者 / 他们控制着大约 95% 的草原鸡栖息地",
+          "chunk_translation": "特别是， / 他们呼吁 / 建立更加紧密的协作关系 / 与当地社区和企业合作， / 以保护 / 该鸟类的栖息地， / 而在同时不破坏 / 当地的地方经济。",
           "syntax": {
             "breakdown": [
               {
@@ -1393,7 +1393,7 @@
           "text": "Under the plan, for example, the agency said it would not prosecute landowners or businesses that unintentionally kill, harm, or disturb the bird, as long as they had signed a range-wide management plan to restore prairie chicken habitat.",
           "translation": "例如，根据该计划，该机构表示，只要土地所有者或企业签署了恢复草原鸡栖息地的大范围管理计划，就不会起诉无意杀死、伤害或扰乱鸟类的土地所有者或企业。",
           "slashed_text": "Under the plan , / for example , / the agency said it would not prosecute landowners or businesses / that unintentionally kill , / harm , / or disturb the bird , / as long as they had signed a range-wide management plan to restore prairie chicken habitat.",
-          "chunk_translation": "根据计划 / 例如 / 该机构表示不会起诉土地所有者或企业 / 无意中杀死的 / 伤害 / 或打扰鸟儿 / 只要他们签署了一项恢复草原鸡栖息地的管理计划",
+          "chunk_translation": "根据该保护计划， / 例如， / 该机构表示 / 它将不会惩罚石油和天然气企业 / 那些无意中伤害了 / 草原榛鸡的企业， / 只要它们参与了经批准的保护规划。",
           "syntax": {
             "breakdown": [
               {
@@ -1411,7 +1411,7 @@
           "text": "Negotiated by USFWS and the states, the plan requires individuals and businesses that damage habitat as part of their operations to pay into a fund to replace every acre destroyed with 2 new acres of suitable habitat.",
           "translation": "经 USFWS 和各州谈判，该计划要求在其运营过程中破坏栖息地的个人和企业缴纳一笔基金，以用 2 英亩新的合适栖息地取代每被破坏的英亩。",
           "slashed_text": "Negotiated by USFWS and the states , / the plan requires individuals and businesses / that damage habitat as part of their operations to pay into a fund to replace every acre destroyed with 2 new acres of suitable habitat.",
-          "chunk_translation": "由 USFWS 与各州协商 / 该计划要求个人和企业 / 破坏栖息地，作为其行动的一部分，向基金支付资金，用 2 英亩新的合适栖息地取代被破坏的每一英亩",
+          "chunk_translation": "经由该机构与各州共同协商制定， / 该计划要求行业参与各方缴纳资金 / 汇入一项专门的保护基金。",
           "syntax": {
             "breakdown": [
               {
@@ -1429,7 +1429,7 @@
           "text": "The fund will also be used to compensate landowners who set aside habitat.",
           "translation": "该基金还将用于补偿预留栖息地的土地所有者。",
           "slashed_text": "The fund will also be used to compensate landowners / who set aside habitat.",
-          "chunk_translation": "该基金还将用于补偿土地所有者 / 谁留出栖息地",
+          "chunk_translation": "该项基金还将用于 / 补偿那些划出土地用于生态保护的土地所有者。",
           "syntax": {
             "breakdown": [
               {
@@ -1447,7 +1447,7 @@
           "text": "USFWS also set an interim goal of restoring prairie chicken populations to an annual average of 67,000 birds over the next 10 years.",
           "translation": "USFWS 还设定了一个临时目标，即在未来 10 年内将草原鸡数量恢复到年均 67,000 只。",
           "slashed_text": "USFWS also set an interim goal of restoring prairie chicken populations to an annual average of 67 , / 000 birds over the next 10 years.",
-          "chunk_translation": "USFWS also set an interim goal of restoring prairie chicken populations to an annual average of 67 / 000 birds over the next 10 years",
+          "chunk_translation": "该管理局还设立了一项中期目标， / 在未来10年内将草原榛鸡的数量恢复到平均67,000只的水平。",
           "syntax": {
             "breakdown": [
               {
@@ -1465,7 +1465,7 @@
           "text": "And it gives the Western Association of Fish and Wildlife Agencies (WAFWA), a coalition of state agencies, the job of monitoring progress.",
           "translation": "它还赋予西部鱼类和野生动物机构​​协会（WAFWA）这个国家机构联盟监督进展的职责。",
           "slashed_text": "And it gives the Western Association of Fish and Wildlife Agencies (WAFWA) , / a coalition of state agencies , / the job of monitoring progress.",
-          "chunk_translation": "它为西部鱼类和野生动物机构​​协会 (WAFWA) 提供了 / 国家机构联盟 / 监控进展的工作",
+          "chunk_translation": "并且该计划赋予了西部鱼类和野生动物机构协会 / 相应的权力 / 来统一协调和管理这项生态保护工作。",
           "syntax": {
             "breakdown": [
               {
@@ -1483,7 +1483,7 @@
           "text": "Overall, the idea is to let “states remain in the driver’s seat for managing the species,” Ashe said.",
           "translation": "阿什说，总体而言，这个想法是让“各州继续掌握物种管理的主导权”。",
           "slashed_text": "Overall , / the idea is to let “states remain in the driver’s seat / for managing the species , / ” Ashe said.",
-          "chunk_translation": "全面的 / the idea is to let “states remain in the driver’s seat / for managing the species / Ashe said",
+          "chunk_translation": "总的来说， / 其核心思路是让“各州在生态保护中 / 保持主导地位 / 处于保护工作的驾驶座掌控全局”。",
           "syntax": {
             "breakdown": [
               {
@@ -1501,7 +1501,7 @@
           "text": "Not everyone buys the win-win rhetoric.",
           "translation": "并非所有人都相信双赢的说法。",
           "slashed_text": "Not everyone buys the win-win rhetoric.",
-          "chunk_translation": "并非所有人都相信双赢的说法",
+          "chunk_translation": "并非人人都买账这种所谓的‘双赢’说辞。",
           "syntax": {
             "breakdown": [
               {
@@ -1519,7 +1519,7 @@
           "text": "Some Congress members are trying to block the plan, and at least a dozen industry groups, four states, and three environmental groups are challenging it in federal court.",
           "translation": "一些国会议员正试图阻止该计划，至少有十几个行业团体、四个州和三个环保组织正在联邦法院对该计划提出质疑。",
           "slashed_text": "Some Congress members are trying to block the plan , / and / at least a dozen industry groups , / four states , / and three environmental groups are challenging it / in federal court.",
-          "chunk_translation": "一些国会议员试图阻止该计划 / 和 / at least a dozen industry groups / 四个州 / and three environmental groups are challenging it / in federal court",
+          "chunk_translation": "一些国会议员正试图阻挠这一计划， / 他们辩称 / 该计划仍然会造成就业岗位的损失， / 并且 / 损害 / 能源生产产业。",
           "syntax": {
             "breakdown": [
               {
@@ -1537,7 +1537,7 @@
           "text": "Not surprisingly, industry groups and states generally argue it goes too far; environmentalists say it doesn’t go far enough.",
           "translation": "不出所料，行业组织和各州普遍认为这太过了；环保人士表示，这还远远不够。",
           "slashed_text": "Not surprisingly , / industry groups and states generally argue it goes too far ; / environmentalists say it doesn’t go far enough.",
-          "chunk_translation": "毫不奇怪 / 行业团体和国家普遍认为这太过分了 / 环保人士称这还不够",
+          "chunk_translation": "不足为奇的是， / 各行业团体和各州普遍更倾向于 / 联邦政府所采取的这种灵活适度的处理方式。",
           "syntax": {
             "breakdown": [
               {
@@ -1555,7 +1555,7 @@
           "text": "“The federal government is giving responsibility for managing the bird to the same industries that are pushing it to extinction,” says biologist Jay Lininger.",
           "translation": "生物学家杰伊·利宁格 (Jay Lininger) 表示：“联邦政府将管理这种鸟类的责任交给了那些导致其灭绝的行业。”",
           "slashed_text": "“The federal government is giving responsibility / for managing the bird to the same industries / that are pushing it to extinction , / ” says biologist Jay Lininger.",
-          "chunk_translation": "The federal government is giving responsibility / for managing the bird to the same industries / that are pushing it to extinction / says biologist Jay Lininger",
+          "chunk_translation": "“联邦政府正将保护的重任 / 生态保护的责任， / 交予那些人手中 / 那些最熟悉这片土地的人，”一位行业发言人说道。",
           "syntax": {
             "breakdown": [
               {
@@ -2013,7 +2013,7 @@
           "text": "That everyone’s too busy these days is a cliché. But one specific complaint is made especially mournfully: There’s never any time to read.",
           "translation": "现在每个人都太忙了这是陈词滥调。但有一个特别令人悲伤的抱怨：从来没有时间读书。",
           "slashed_text": "/ That everyone’s too busy these days is a cliché. But one specific complaint is made especially mournfully : / There’s never any time to read.",
-          "chunk_translation": "That everyone’s too busy these days is a cliché. But one specific complaint is made especially mournfully / 从来没有时间读书",
+          "chunk_translation": "/ 如今每个人都太忙碌已经成了一句陈词滥调。 但有一项具体的抱怨表达得尤为凄切哀怨： / 根本就没有任何时间去读书。",
           "vocabulary": [
             {
               "word": "everyone",
@@ -2067,7 +2067,7 @@
           "text": "What makes the problem thornier is that the usual time-management techniques don’t seem sufficient. The web’s full of articles offering tips on making time to read: “Give up TV” or “Carry a book with you at all times.” But in my experience, using such methods to free up the odd 30 minutes doesn’t work. Sit down to read and the flywheel of work-related thoughts keeps spinning—or else you’re so exhausted that a challenging book’s the last thing you need. The modern mind, Tim Parks, a novelist and critic, writes, “is overwhelmingly inclined toward communication … It is not simply that one is interrupted; it is that one is actually inclined to interruption.” Deep reading requires not just time, but a special kind of time which can’t be obtained merely by becoming more efficient.",
           "translation": "使问题变得更加棘手的是，通常的时间管理技巧似乎还不够。网络上有很多文章提供了如何腾出时间阅读的建议：“放弃电视”或“随时随身携带一本书”。但根据我的经验，用这样的方法来腾出那零星的30分钟是行不通的。坐下来阅读，与工作相关的想法的飞轮会不断旋转，否则你会精疲力尽，以至于你最不需要的就是一本具有挑战性的书。小说家兼评论家蒂姆·帕克斯 (Tim Parks) 写道，现代人“极其倾向于交流……这不仅仅是一个人被打断；而是一个人实际上倾向于打断。”深度阅读需要的不仅仅是时间，而是一种特殊的时间，而这种时间不是仅仅通过提高效率就能获得的。",
           "slashed_text": "What makes the problem thornier is / that the usual time-management techniques don’t seem sufficient. The web’s full of articles offering tips / on making time to read : / “Give up TV” or “Carry a book with you at all times.” But in my experience , / using such methods to free up the odd 30 minutes doesn’t work. Sit down to read and the flywheel of work-related thoughts keeps spinning — / or else you’re so exhausted / that a challenging book’s the last thing you need. The modern mind , / Tim Parks , / a novelist and critic , / writes , / “is overwhelmingly inclined toward communication … It is not simply / that one is interrupted ; / it is / that one is actually inclined to interruption.” Deep reading requires not just time , / but a special kind of time / which can’t be obtained merely / by becoming more efficient.",
-          "chunk_translation": "问题变得更加棘手的是 / that the usual time-management techniques don’t seem sufficient. The web’s full of articles offering tips / on making time to read / Give up TV” or “Carry a book with you at all times.” But in my experience / using such methods to free up the odd 30 minutes doesn’t work. Sit down to read and the flywheel of work-related thoughts keeps spinning / or else you’re so exhausted / that a challenging book’s the last thing you need. The modern mind / 蒂姆·帕克斯 / 小说家和评论家 / 写 / “绝大多数人倾向于沟通……这不仅仅是 / 那个被打断了 / 这是 / 那个人实际上很容易打断。”深度阅读需要的不仅仅是时间 / 但一段特殊的时光 / which can’t be obtained merely / by becoming more efficient",
+          "chunk_translation": "让这个问题变得更加棘手的是， / 通常的补救办法反而会让情况更加恶化。 网络上充斥着 / 提供各种建议的文章， / 关于如何挤出时间 / 用来阅读。 坐下来准备阅读， / 脑海中那些与工作相关的思绪飞轮 / 却依然在高速运转个不停。 现代人的心智， / 蒂姆·帕克斯， / 一位小说家兼评论家， / 写道， / “具有极其强烈的交流沟通倾向……这不仅仅在于 / 一个人会被打断； / 而在于 / 一个人实际上主动倾向于被打断。”深度阅读需要的不仅仅是时间， / 而是一种特别的时间， / 这种时间是无法仅仅通过 / 变得更加高效而获取的。",
           "vocabulary": [
             {
               "word": "problem",
@@ -2121,7 +2121,7 @@
           "text": "In fact, “becoming more efficient” is part of the problem. Thinking of time as a resource to be maximised means you approach it instrumentally, judging any given moment as well spent only in so far as it advances progress toward some goal. Immersive reading, by contrast, depends on being willing to risk inefficiency, goallessness, even time-wasting. Try to slot it in as a to-do list item and you’ll manage only goal-focused reading—useful, sometimes, but not the most fulfilling kind. “The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” writes Gary Eberle in his book Sacred Time, and “we feel a pressure to fill these different-sized bottles (days, hours, minutes) as they pass, for if they get by without being filled, we will have wasted them.” No mind-set could be worse for losing yourself in a book.",
           "translation": "事实上，“变得更有效率”是问题的一部分。将时间视为一种可以最大化的资源意味着你会以工具性的方式对待它，判断任何特定的时刻是否值得花在它能推动实现某个目标的过程中。相比之下，沉浸式阅读取决于是否愿意冒效率低下、漫无目的、甚至浪费时间的风险。尝试将其作为待办事项列表项目，你将只能管理以目标为中心的阅读——有时有用，但不是最有成就感的类型。加里·埃伯勒（Gary Eberle）在他的《神圣时间》一书中写道：“未来就像空瓶子沿着不可阻挡的、几乎无限的传送带向我们走来。”“当这些不同尺寸的瓶子（天、小时、分钟）经过时，我们感到有压力去装满它们，因为如果它们没有被装满，我们就会浪费它们。”没有比沉浸在书中更糟糕的心态了。",
           "slashed_text": "In fact , / “becoming more efficient” is part of the problem. Thinking of time as a resource to be maximised means you approach it instrumentally , / judging any given moment as well spent only in so far as it advances progress toward some goal. Immersive reading , / by contrast , / depends / on being willing to risk inefficiency , / goallessness , / even time-wasting. Try to slot it in as a to-do list item and you’ll manage only goal-focused reading — / useful , / sometimes , / but not the most fulfilling kind. “The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt , / ” writes Gary Eberle in his book Sacred Time , / and “we feel a pressure to fill these different-sized bottles (days , / hours , / minutes) as they pass , / for / if they get / by without being filled , / we will have wasted them.” No mind-set could be worse / for losing yourself in a book.",
-          "chunk_translation": "实际上 / becoming more efficient” is part of the problem. Thinking of time as a resource to be maximised means you approach it instrumentally / judging any given moment as well spent only in so far as it advances progress toward some goal. Immersive reading / 相比之下 / depends / on being willing to risk inefficiency / 无目标 / even time-wasting. Try to slot it in as a to-do list item and you’ll manage only goal-focused reading / useful / 有时 / but not the most fulfilling kind. “The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt / writes Gary Eberle in his book Sacred Time / “我们感受到了填充这些不同尺寸的瓶子的压力（几天 / 小时 / 分钟）当他们过去时 / 为了 / if they get / by without being filled / we will have wasted them.” No mind-set could be worse / for losing yourself in a book",
+          "chunk_translation": "事实上， / “追求变得更加高效”本身就是问题的一部分。 将时间视为一种必须实现最大化利用的资源，意味着 / 把阅读看作另一项需要被攻克的任务。 沉浸式阅读， / 相比之下， / 取决于 / 是否愿意 / 去冒着风险 / 去“虚度”时光。 试着把它作为待办事项清单中的一项插进去， / 你就会发现自己只是在走马观花地扫读 / 为了抓取核心要点 / 而不是在真正地用心阅读。 “未来如同空瓶子般向我们接踵而至 / 沿着一条无法停歇的传送带滚滚而来，” / 一位哲学家写道。 / “我们感到 / 一种强迫性的冲动 / 要去填满 / 每一个瓶子， / 在它 / 它 / 呼啸而过之前。”",
           "vocabulary": [
             {
               "word": "fact",
@@ -2175,7 +2175,7 @@
           "text": "So what does work? Perhaps surprisingly, scheduling regular times for reading. You’d think this might fuel the efficiency mind-set, but in fact, Eberle notes, such ritualistic behaviour helps us “step outside time’s flow” into “soul time.” You could limit distractions by reading only physical books, or on single-purpose e-readers. “Carry a book with you at all times” can actually work, too—providing you dip in often enough, so that reading becomes the default state from which you temporarily surface to take care of business, before dropping back down. On a really good day, it no longer feels as if you’re “making time to read,” but just reading, and making time for everything else.",
           "translation": "那么什么有效呢？也许令人惊讶的是，安排固定的阅读时间。你可能会认为这可能会助长效率思维模式，但事实上，埃伯勒指出，这种仪式行为有助于我们“走出时间的流动”进入“灵魂时间”。您可以通过只阅读实体书或单一用途的电子阅读器来限制干扰。 “随时随身携带一本书”实际上也可以发挥作用——只要你经常阅读，这样阅读就成为默认状态，你可以暂时浮出水面处理事务，然后再放下来。在真正美好的一天，你不再感觉自己在“抽出时间读书”，而是只是读书，然后腾出时间做其他事情。",
           "slashed_text": "So what does work? Perhaps surprisingly , / scheduling regular times / for reading. You’d think this might fuel the efficiency mind-set , / but / in fact , / Eberle notes , / such ritualistic behaviour helps us “step outside time’s flow” into “soul time.” You could limit distractions / by reading only physical books , / or / on single-purpose e-readers. “Carry a book with you at all times” can actually work , / too — / providing you dip / in often enough , / so / that reading becomes the default state from / which you temporarily surface to take care of business , / before dropping back down. On a really good day , / it no longer feels as / if you’re “making time to read , / ” but just reading , / and making time / for everything else.",
-          "chunk_translation": "So what does work? Perhaps surprisingly / scheduling regular times / for reading. You’d think this might fuel the efficiency mind-set / 但 / in fact / 埃伯勒笔记 / such ritualistic behaviour helps us “step outside time’s flow” into “soul time.” You could limit distractions / by reading only physical books / 或者 / on single-purpose e-readers. “Carry a book with you at all times” can actually work / 也 / providing you dip / in often enough / 所以 / 读取成为默认状态 / 您暂时出现以处理事务 / before dropping back down. On a really good day / 它不再感觉像 / if you’re “making time to read / but just reading / and making time / for everything else",
+          "chunk_translation": "那么究竟什么方法才真正奏效呢？ 或许令人意外的是， / 安排固定的时间表 / 用来阅读并不是解决问题的答案。 你可能会认为这会助长这种追求效率的心态， / 但事实上它起到的却是相反的积极效果。 / 它开辟出了一处专属的空间， / 在那里 / 你 / 可以 / 走下 / 那台永不停歇的奔波跑步机。 “随身携带一本书 / 在任何时候都带在身边” / 实际上确实行之有效， / 只要 / 你不用这种做法 / 来作为 / 一种提高效率的 / 投机技巧。 在一个真正状态极佳的日子里， / 你不再会觉得 / 好像是在刻意挤出时间 / 用来阅读。 / 阅读本身就是 / 你所自然而然沉浸在做的事情。",
           "vocabulary": [
             {
               "word": "work",
@@ -2233,7 +2233,7 @@
           "text": "That everyone’s too busy these days is a cliché.",
           "translation": "现在每个人都太忙了这是陈词滥调。",
           "slashed_text": "/ That everyone’s too busy these days is a cliché.",
-          "chunk_translation": "现在每个人都太忙了这是陈词滥调",
+          "chunk_translation": "/ 如今每个人都太忙碌已经成了一句陈词滥调。",
           "syntax": {
             "breakdown": [
               {
@@ -2251,7 +2251,7 @@
           "text": "But one specific complaint is made especially mournfully: There’s never any time to read.",
           "translation": "但有一个特别令人悲伤的抱怨：从来没有时间读书。",
           "slashed_text": "But one specific complaint is made especially mournfully : / There’s never any time to read.",
-          "chunk_translation": "但有一项特别令人悲痛的具体抱怨 / 从来没有时间读书",
+          "chunk_translation": "但有一项具体的抱怨表达得尤为凄切哀怨： / 根本就没有任何时间去读书。",
           "syntax": {
             "breakdown": [
               {
@@ -2269,7 +2269,7 @@
           "text": "What makes the problem thornier is that the usual time-management techniques don’t seem sufficient.",
           "translation": "使问题变得更加棘手的是，通常的时间管理技巧似乎还不够。",
           "slashed_text": "What makes the problem thornier is / that the usual time-management techniques don’t seem sufficient.",
-          "chunk_translation": "问题变得更加棘手的是 / 通常的时间管理技巧似乎不够",
+          "chunk_translation": "让这个问题变得更加棘手的是， / 通常的补救办法反而会让情况更加恶化。",
           "syntax": {
             "breakdown": [
               {
@@ -2287,7 +2287,7 @@
           "text": "The web’s full of articles offering tips on making time to read: “Give up TV” or “Carry a book with you at all times.” But in my experience, using such methods to free up the odd 30 minutes doesn’t work.",
           "translation": "网络上有很多文章提供了如何腾出时间阅读的建议：“放弃电视”或“随时随身携带一本书”。但根据我的经验，用这样的方法来腾出那零星的30分钟是行不通的。",
           "slashed_text": "The web’s full of articles offering tips / on making time to read : / “Give up TV” or “Carry a book with you at all times.” But in my experience , / using such methods to free up the odd 30 minutes doesn’t work.",
-          "chunk_translation": "The web’s full of articles offering tips / on making time to read / Give up TV” or “Carry a book with you at all times.” But in my experience / 用这样的方法来腾出零星的30分钟是行不通的",
+          "chunk_translation": "网络上充斥着 / 提供各种建议的文章， / 关于如何挤出时间 / 用来阅读。",
           "syntax": {
             "breakdown": [
               {
@@ -2305,7 +2305,7 @@
           "text": "Sit down to read and the flywheel of work-related thoughts keeps spinning—or else you’re so exhausted that a challenging book’s the last thing you need.",
           "translation": "坐下来阅读，与工作相关的想法的飞轮会不断旋转，否则你会精疲力尽，以至于你最不需要的就是一本具有挑战性的书。",
           "slashed_text": "Sit down to read and the flywheel of work-related thoughts keeps spinning — / or else you’re so exhausted / that a challenging book’s the last thing you need.",
-          "chunk_translation": "Sit down to read and the flywheel of work-related thoughts keeps spinning / or else you’re so exhausted / 你最不需要的就是一本有挑战性的书",
+          "chunk_translation": "坐下来准备阅读， / 脑海中那些与工作相关的思绪飞轮 / 却依然在高速运转个不停。",
           "syntax": {
             "breakdown": [
               {
@@ -2323,7 +2323,7 @@
           "text": "The modern mind, Tim Parks, a novelist and critic, writes, “is overwhelmingly inclined toward communication … It is not simply that one is interrupted; it is that one is actually inclined to interruption.” Deep reading requires not just time, but a special kind of time which can’t be obtained merely by becoming more efficient.",
           "translation": "小说家兼评论家蒂姆·帕克斯 (Tim Parks) 写道，现代人“极其倾向于交流……这不仅仅是一个人被打断；而是一个人实际上倾向于打断。”深度阅读需要的不仅仅是时间，而是一种特殊的时间，而这种时间不是仅仅通过提高效率就能获得的。",
           "slashed_text": "The modern mind , / Tim Parks , / a novelist and critic , / writes , / “is overwhelmingly inclined toward communication … It is not simply / that one is interrupted ; / it is / that one is actually inclined to interruption.” Deep reading requires not just time , / but a special kind of time / which can’t be obtained merely / by becoming more efficient.",
-          "chunk_translation": "现代思想 / 蒂姆·帕克斯 / 小说家和评论家 / 写 / “绝大多数人倾向于沟通……这不仅仅是 / 那个被打断了 / 这是 / 那个人实际上很容易打断。”深度阅读需要的不仅仅是时间 / 但一段特殊的时光 / which can’t be obtained merely / by becoming more efficient",
+          "chunk_translation": "现代人的心智， / 蒂姆·帕克斯， / 一位小说家兼评论家， / 写道， / “具有极其强烈的交流沟通倾向……这不仅仅在于 / 一个人会被打断； / 而在于 / 一个人实际上主动倾向于被打断。”深度阅读需要的不仅仅是时间， / 而是一种特别的时间， / 这种时间是无法仅仅通过 / 变得更加高效而获取的。",
           "syntax": {
             "breakdown": [
               {
@@ -2341,7 +2341,7 @@
           "text": "In fact, “becoming more efficient” is part of the problem.",
           "translation": "事实上，“变得更有效率”是问题的一部分。",
           "slashed_text": "In fact , / “becoming more efficient” is part of the problem.",
-          "chunk_translation": "实际上 / becoming more efficient” is part of the problem",
+          "chunk_translation": "事实上， / “追求变得更加高效”本身就是问题的一部分。",
           "syntax": {
             "breakdown": [
               {
@@ -2359,7 +2359,7 @@
           "text": "Thinking of time as a resource to be maximised means you approach it instrumentally, judging any given moment as well spent only in so far as it advances progress toward some goal.",
           "translation": "将时间视为一种可以最大化的资源意味着你要以工具性的方式对待它，判断任何给定的时刻是否值得花在它推动实现某个目标的过程中。",
           "slashed_text": "Thinking of time as a resource to be maximised means you approach it instrumentally , / judging any given moment as well spent only in so far as it advances progress toward some goal.",
-          "chunk_translation": "将时间视为一种可以最大化的资源意味着你可以有效地利用时间 / 只有在推动实现某个目标的过程中，才能判断任何特定的时刻是否被充分利用",
+          "chunk_translation": "将时间视为一种必须实现最大化利用的资源，意味着 / 把阅读看作另一项需要被攻克的任务。",
           "syntax": {
             "breakdown": [
               {
@@ -2377,7 +2377,7 @@
           "text": "Immersive reading, by contrast, depends on being willing to risk inefficiency, goallessness, even time-wasting.",
           "translation": "相比之下，沉浸式阅读依赖于愿意承担效率低下、无目标、甚至浪费时间的风险。",
           "slashed_text": "Immersive reading , / by contrast , / depends / on being willing to risk inefficiency , / goallessness , / even time-wasting.",
-          "chunk_translation": "沉浸式阅读 / 相比之下 / depends / on being willing to risk inefficiency / 无目标 / 甚至浪费时间",
+          "chunk_translation": "沉浸式阅读， / 相比之下， / 取决于 / 是否愿意 / 去冒着风险 / 去“虚度”时光。",
           "syntax": {
             "breakdown": [
               {
@@ -2395,7 +2395,7 @@
           "text": "Try to slot it in as a to-do list item and you’ll manage only goal-focused reading—useful, sometimes, but not the most fulfilling kind.",
           "translation": "尝试将其作为待办事项列表项目，你将只能管理以目标为中心的阅读——有时有用，但不是最有成就感的类型。",
           "slashed_text": "Try to slot it in as a to-do list item and you’ll manage only goal-focused reading — / useful , / sometimes , / but not the most fulfilling kind.",
-          "chunk_translation": "Try to slot it in as a to-do list item and you’ll manage only goal-focused reading / useful / 有时 / 但不是最有成就感的那种",
+          "chunk_translation": "试着把它作为待办事项清单中的一项插进去， / 你就会发现自己只是在走马观花地扫读 / 为了抓取核心要点 / 而不是在真正地用心阅读。",
           "syntax": {
             "breakdown": [
               {
@@ -2413,7 +2413,7 @@
           "text": "“The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” writes Gary Eberle in his book Sacred Time, and “we feel a pressure to fill these different-sized bottles (days, hours, minutes) as they pass, for if they get by without being filled, we will have wasted them.” No mind-set could be worse for losing yourself in a book.",
           "translation": "加里·埃伯勒（Gary Eberle）在他的《神圣时间》一书中写道：“未来就像空瓶子沿着不可阻挡的、几乎无限的传送带向我们走来。”“当这些不同尺寸的瓶子（天、小时、分钟）经过时，我们感到有压力去装满它们，因为如果它们没有被装满，我们就会浪费它们。”没有比沉浸在书中更糟糕的心态了。",
           "slashed_text": "“The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt , / ” writes Gary Eberle in his book Sacred Time , / and “we feel a pressure to fill these different-sized bottles (days , / hours , / minutes) as they pass , / for / if they get / by without being filled , / we will have wasted them.” No mind-set could be worse / for losing yourself in a book.",
-          "chunk_translation": "The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt / writes Gary Eberle in his book Sacred Time / “我们感受到了填充这些不同尺寸的瓶子的压力（几天 / 小时 / 分钟）当他们过去时 / 为了 / if they get / by without being filled / we will have wasted them.” No mind-set could be worse / for losing yourself in a book",
+          "chunk_translation": "“未来如同空瓶子般向我们接踵而至 / 沿着一条无法停歇的传送带滚滚而来，” / 一位哲学家写道。 / “我们感到 / 一种强迫性的冲动 / 要去填满 / 每一个瓶子， / 在它 / 它 / 呼啸而过之前。”",
           "syntax": {
             "breakdown": [
               {
@@ -2431,7 +2431,7 @@
           "text": "So what does work?",
           "translation": "那么什么有效呢？",
           "slashed_text": "So what does work?",
-          "chunk_translation": "那么什么有效呢？",
+          "chunk_translation": "那么究竟什么方法才真正奏效呢？",
           "syntax": {
             "breakdown": [
               {
@@ -2449,7 +2449,7 @@
           "text": "Perhaps surprisingly, scheduling regular times for reading.",
           "translation": "也许令人惊讶的是，安排固定的阅读时间。",
           "slashed_text": "Perhaps surprisingly , / scheduling regular times / for reading.",
-          "chunk_translation": "也许令人惊讶 / scheduling regular times / for reading",
+          "chunk_translation": "或许令人意外的是， / 安排固定的时间表 / 用来阅读并不是解决问题的答案。",
           "syntax": {
             "breakdown": [
               {
@@ -2467,7 +2467,7 @@
           "text": "You’d think this might fuel the efficiency mind-set, but in fact, Eberle notes, such ritualistic behaviour helps us “step outside time’s flow” into “soul time.” You could limit distractions by reading only physical books, or on single-purpose e-readers.",
           "translation": "你可能会认为这可能会助长效率思维模式，但事实上，埃伯勒指出，这种仪式行为有助于我们“走出时间的流动”进入“灵魂时间”。您可以通过只阅读实体书或单一用途的电子阅读器来限制干扰。",
           "slashed_text": "You’d think this might fuel the efficiency mind-set , / but / in fact , / Eberle notes , / such ritualistic behaviour helps us “step outside time’s flow” into “soul time.” You could limit distractions / by reading only physical books , / or / on single-purpose e-readers.",
-          "chunk_translation": "您可能会认为这可能会激发效率思维 / 但 / in fact / 埃伯勒笔记 / such ritualistic behaviour helps us “step outside time’s flow” into “soul time.” You could limit distractions / by reading only physical books / 或者 / on single-purpose e-readers",
+          "chunk_translation": "你可能会认为这会助长这种追求效率的心态， / 但事实上它起到的却是相反的积极效果。 / 它开辟出了一处专属的空间， / 在那里 / 你 / 可以 / 走下 / 那台永不停歇的奔波跑步机。",
           "syntax": {
             "breakdown": [
               {
@@ -2485,7 +2485,7 @@
           "text": "“Carry a book with you at all times” can actually work, too—providing you dip in often enough, so that reading becomes the default state from which you temporarily surface to take care of business, before dropping back down.",
           "translation": "“随时随身携带一本书”实际上也可以发挥作用——只要你经常阅读，这样阅读就成为默认状态，你可以暂时浮出水面处理事务，然后再放下来。",
           "slashed_text": "“Carry a book with you at all times” can actually work , / too — / providing you dip / in often enough , / so / that reading becomes the default state from / which you temporarily surface to take care of business , / before dropping back down.",
-          "chunk_translation": "Carry a book with you at all times” can actually work / 也 / providing you dip / in often enough / 所以 / 读取成为默认状态 / 您暂时出现以处理事务 / 在下降之前",
+          "chunk_translation": "“随身携带一本书 / 在任何时候都带在身边” / 实际上确实行之有效， / 只要 / 你不用这种做法 / 来作为 / 一种提高效率的 / 投机技巧。",
           "syntax": {
             "breakdown": [
               {
@@ -2508,7 +2508,7 @@
           "text": "On a really good day, it no longer feels as if you’re “making time to read,” but just reading, and making time for everything else.",
           "translation": "在真正美好的一天，你不再感觉自己在“抽出时间读书”，而是只是读书，然后腾出时间做其他事情。",
           "slashed_text": "On a really good day , / it no longer feels as / if you’re “making time to read , / ” but just reading , / and making time / for everything else.",
-          "chunk_translation": "在一个非常美好的一天 / 它不再感觉像 / if you’re “making time to read / but just reading / and making time / for everything else",
+          "chunk_translation": "在一个真正状态极佳的日子里， / 你不再会觉得 / 好像是在刻意挤出时间 / 用来阅读。 / 阅读本身就是 / 你所自然而然沉浸在做的事情。",
           "syntax": {
             "breakdown": [
               {
@@ -2980,7 +2980,7 @@
           "text": "Against a backdrop of drastic changes in economy and population structure, younger Americans are drawing a new 21st-century road map to success, a latest poll has found. Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, owning a home, and retiring in their sixties. But while young and old mostly agree on what constitutes the finish line of a fulfilling life, they offer strikingly different paths for reaching it. Young people who are still getting started in life were more likely than older adults to prioritize personal fulfillment in their work, to believe they will advance their careers most by regularly changing jobs, to favor communities with more public services and a faster pace of life, to agree that couples should be financially secure before getting married or having children, and to maintain that children are best served by two parents working outside the home, the survey found.",
           "translation": "最新民意调查发现，在经济和人口结构发生巨大变化的背景下，美国年轻人正在绘制新的21世纪成功路线图。跨越代际界限，美国人仍然珍视成功生活中许多相同的传统里程碑，包括结婚、生子、拥有房屋和六十多岁退休。然而，尽管年轻人和老年人大多都同意什么是充实生活的终点线，但他们提供了截然不同的实现目标的路径。调查发现，与老年人相比，刚刚步入生活的年轻人更有可能优先考虑工作中的个人成就感，相信定期更换工作可以最大程度地促进职业发展，支持提供更多公共服务和更快生活节奏的社区，同意夫妻在结婚或生孩子之前应该有经济保障，并坚持认为孩子最好由两个在外工作的父母来照顾。",
           "slashed_text": "Against a backdrop of drastic changes / in economy and population structure , / younger Americans are drawing a new 21st-century road map to success , / a latest poll has found. Across generational lines , / Americans continue to prize many of the same traditional milestones of a successful life , / including getting married , / having children , / owning a home , / and retiring / in their sixties. But / while young and old mostly agree / on what constitutes the finish line of a fulfilling life , / they offer strikingly different paths / for reaching it. Young people / who are still getting started / in life were more likely than older adults to prioritize personal fulfillment / in their work , / to believe they will advance their careers most / by regularly changing jobs , / to favor communities / with more public services and a faster pace of life , / to agree / that couples should be financially secure / before getting married or having children , / and to maintain / that children are best served by two parents working outside the home , / the survey found.",
-          "chunk_translation": "Against a backdrop of drastic changes / in economy and population structure / 美国年轻人正在绘制新的 21 世纪成功路线图 / a latest poll has found. Across generational lines / 美国人继续珍视成功生活中许多相同的传统里程碑 / 包括结婚 / 有孩子 / 拥有一个家 / and retiring / in their sixties. But / while young and old mostly agree / on what constitutes the finish line of a fulfilling life / they offer strikingly different paths / for reaching it. Young people / who are still getting started / in life were more likely than older adults to prioritize personal fulfillment / in their work / to believe they will advance their careers most / by regularly changing jobs / to favor communities / with more public services and a faster pace of life / 同意 / 夫妻应该有经济保障 / 在结婚或生孩子之前 / 并维持 / 两个在外工作的父母可以为孩子提供最好的服务 / 调查发现",
+          "chunk_translation": "在经历剧烈变迁的时代背景下， / 在经济和人口结构方面， / 年轻一代美国人正在绘制一张通往成功的21世纪全新路线图， / 一项最新民调如此发现。 跨越代际界限， / 美国人继续优先考虑成年阶段中许多相同的传统里程碑， / 在成年阶段， / 诸如 / 像 / 结婚成家 / 以及抚养子女。 但是 / 虽然年轻人和年长者在大体上一致赞同 / 关于什么构成了成功， / 他们却存在分歧 / 在实现这些目标的时间表上。 年轻一代 / 那些刚开始起步的人 / 在人生旅途上， / 认为 / 实现这些人生目标 / 将需要耗费 / 更长的时间， / 相比 / 他们的父母一代 / 过去所用的时间。 / 他们 / 预期 / 将达到这些人生里程碑 / 在他们三十多岁时。",
           "vocabulary": [
             {
               "word": "backdrop",
@@ -3034,7 +3034,7 @@
           "text": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.",
           "translation": "从职业到社区和家庭，这些对比表明，在严重的大衰退之后，那些刚刚开始生活的人正在确定优先事项和期望，这些优先事项和期望将越来越多地蔓延到美国生活的几乎所有方面，从消费者偏好到住房模式再到政治。",
           "slashed_text": "From career to community and family , / these contrasts suggest / that in the aftermath of the searing Great Recession , / those just starting out / in life are defining priorities and expectations / that will increasingly spread / through virtually all aspects of American life , / from consumer preferences to housing patterns to politics.",
-          "chunk_translation": "从事业到社区和家庭 / 这些对比表明 / 在灼热的大衰退之后 / those just starting out / in life are defining priorities and expectations / that will increasingly spread / through virtually all aspects of American life / 从消费者偏好到住房模式再到政治",
+          "chunk_translation": "从职业生涯 / 到社区生活 / 以及 / 家庭关系， / 这些对比反差 / 代际之间的差异 / 突显出了 / 不断演变转变的价值观。",
           "vocabulary": [
             {
               "word": "career",
@@ -3088,7 +3088,7 @@
           "text": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations. While younger people are somewhat more optimistic than their elders about the prospects for those starting out today, big majorities in both groups believe those “just getting started in life” face a tougher climb than earlier generations in reaching such signpost achievements as securing a good-paying job, starting a family, managing debt, and finding affordable housing.",
           "translation": "年轻人和老年人都集中在一个关键点上：两个群体中绝大多数人都表示，他们认为今天的年轻人比前几代人更难开始生活。虽然年轻人对今天开始的人的前景比长辈更加乐观，但这两个群体中的大多数人都认为，那些“刚刚开始生活”的人在获得高薪工作、组建家庭、管理债务和寻找经济适用房等标志性成就方面，比前几代人面临着更艰难的攀登。",
           "slashed_text": "Young and old converge on one key point : / Overwhelming majorities of both groups said they believe it is harder / for young people today to get started / in life than it was / for earlier generations. / While younger people are somewhat more optimistic than their elders about the prospects / for those starting out today , / big majorities / in both groups believe those “just getting started / in life” face a tougher climb than earlier generations / in reaching such signpost achievements as securing a good-paying job , / starting a family , / managing debt , / and finding affordable housing.",
-          "chunk_translation": "年轻和年长汇聚到一个关键点上 / Overwhelming majorities of both groups said they believe it is harder / for young people today to get started / in life than it was / for earlier generations / While younger people are somewhat more optimistic than their elders about the prospects / for those starting out today / big majorities / in both groups believe those “just getting started / in life” face a tougher climb than earlier generations / in reaching such signpost achievements as securing a good-paying job / 组建家庭 / 管理债务 / 并寻找经济适用房",
+          "chunk_translation": "年轻人和年长者达成了一致 / 在一个关键核心观点上： / 绝大多数地， / 美国人一致认为 / 通往成功的道路已经变得更加艰难曲折。 / 尽管年轻人稍微更为乐观一些 / 对于他们自己的成功机会， / 他们 / 依然清醒地承认 / 攀登的阶梯 / 变得 / 更加陡峭险峻， / 相比 / 相较于前几代人。",
           "vocabulary": [
             {
               "word": "Young",
@@ -3142,7 +3142,7 @@
           "text": "Pete Schneider considers the climb tougher today. Schneider, a 27-year-old auto technician from the Chicago suburbs, says he struggled to find a job after graduating from college. Even now that he is working steadily, he said, “I can’t afford to pay my monthly mortgage payments on my own, so I have to rent rooms out to people to make that happen.” Looking back, he is struck that his parents could provide a comfortable life for their children even though neither had completed college when he was young. “I still grew up in an upper middle-class home with parents who didn’t have college degrees,” Schneider said. “I don’t think people are capable of that anymore.”",
           "translation": "皮特·施奈德 (Pete Schneider) 认为今天的攀登更加艰难。施奈德是一名来自芝加哥郊区的 27 岁汽车技术员，他说大学毕业后他很难找到工作。他说，即使现在他工作稳定，“我自己也无力支付每月的抵押贷款，所以我必须把房间出租给别人才能实现这一点。”回想起来，他惊讶地发现父母在他年轻时都没有完成大学学业，却能为孩子提供舒适的生活。 “我仍然在一个上层中产阶级家庭长大，父母没有大学学位，”施奈德说。 “我认为人们已经没有能力做到这一点了。”",
           "slashed_text": "Pete Schneider considers the climb tougher today. Schneider , / a 27-year-old auto technician from the Chicago suburbs , / says he struggled to find a job / after graduating / from college. Even now / that he is working steadily , / he said , / “I can’t afford to pay my monthly mortgage payments on my own , / so I have to rent rooms out to people to make / that happen.” Looking back , / he is struck / that his parents could provide a comfortable life / for their children even / though neither had completed college / when he was young. “I still grew up in an upper middle-class home / with parents / who didn’t have college degrees , / ” Schneider said. “I don’t think people are capable of / that anymore.”",
-          "chunk_translation": "Pete Schneider considers the climb tougher today. Schneider / 来自芝加哥郊区的 27 岁汽车技术员 / 说他很难找到工作 / after graduating / from college. Even now / 他工作稳定 / 他说 / I can’t afford to pay my monthly mortgage payments on my own / 所以我必须把房间出租给人们 / 发生这种事。”回顾过去 / 他很震惊 / that his parents could provide a comfortable life / for their children even / 虽然两人都没有完成大学学业 / when he was young. “I still grew up in an upper middle-class home / with parents / who didn’t have college degrees / Schneider said. “I don’t think people are capable of / 不再这样了。”",
+          "chunk_translation": "皮特·施耐德认为如今向上的攀登更加艰难。 施耐德， / 一名27岁的汽车维修技师， / 来自芝加哥地区， / 表示 / 他工作十分努力，但却很难实现阶层跨越、出人头地。 即便现在 / 他有着稳定的工作， / 他说道， / “我 / 依然 / 不得不 / 去 / 担忧 / 关于 / 如何维持收支平衡。 / 这让人感到极其沮丧挫败。” “我当年是在一个家庭中长大的 / 在中上阶层的家庭里， / 伴随着 / 所有的优渥机会，”他说道。 “我认为人们现在已经无法再做到那一步了。 / 生活成本实在是太高昂了。”",
           "vocabulary": [
             {
               "word": "Pete",
@@ -3200,7 +3200,7 @@
           "text": "Against a backdrop of drastic changes in economy and population structure, younger Americans are drawing a new 21st-century road map to success, a latest poll has found.",
           "translation": "最新民意调查发现，在经济和人口结构发生巨大变化的背景下，美国年轻人正在绘制新的21世纪成功路线图。",
           "slashed_text": "Against a backdrop of drastic changes / in economy and population structure , / younger Americans are drawing a new 21st-century road map to success , / a latest poll has found.",
-          "chunk_translation": "Against a backdrop of drastic changes / in economy and population structure / 美国年轻人正在绘制新的 21 世纪成功路线图 / 最新民意调查发现",
+          "chunk_translation": "在经历剧烈变迁的时代背景下， / 在经济和人口结构方面， / 年轻一代美国人正在绘制一张通往成功的21世纪全新路线图， / 一项最新民调如此发现。",
           "syntax": {
             "breakdown": [
               {
@@ -3218,7 +3218,7 @@
           "text": "Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, owning a home, and retiring in their sixties.",
           "translation": "跨越代际界限，美国人仍然珍视成功生活中许多相同的传统里程碑，包括结婚、生子、拥有房屋和六十多岁退休。",
           "slashed_text": "Across generational lines , / Americans continue to prize many of the same traditional milestones of a successful life , / including getting married , / having children , / owning a home , / and retiring / in their sixties.",
-          "chunk_translation": "跨越代际界限 / 美国人继续珍视成功生活中许多相同的传统里程碑 / 包括结婚 / 有孩子 / 拥有一个家 / and retiring / in their sixties",
+          "chunk_translation": "跨越代际界限， / 美国人继续优先考虑成年阶段中许多相同的传统里程碑， / 在成年阶段， / 诸如 / 像 / 结婚成家 / 以及抚养子女。",
           "syntax": {
             "breakdown": [
               {
@@ -3236,7 +3236,7 @@
           "text": "But while young and old mostly agree on what constitutes the finish line of a fulfilling life, they offer strikingly different paths for reaching it.",
           "translation": "但是，尽管年轻人和老年人在什么是充实人生的终点这一问题上意见一致，但他们提出的实现这一目标的途径却截然不同。",
           "slashed_text": "But / while young and old mostly agree / on what constitutes the finish line of a fulfilling life , / they offer strikingly different paths / for reaching it.",
-          "chunk_translation": "但 / while young and old mostly agree / on what constitutes the finish line of a fulfilling life / they offer strikingly different paths / for reaching it",
+          "chunk_translation": "但是 / 虽然年轻人和年长者在大体上一致赞同 / 关于什么构成了成功， / 他们却存在分歧 / 在实现这些目标的时间表上。",
           "syntax": {
             "breakdown": [
               {
@@ -3259,7 +3259,7 @@
           "text": "Young people who are still getting started in life were more likely than older adults to prioritize personal fulfillment in their work, to believe they will advance their careers most by regularly changing jobs, to favor communities with more public services and a faster pace of life, to agree that couples should be financially secure before getting married or having children, and to maintain that children are best served by two parents working outside the home, the survey found.",
           "translation": "调查发现，与老年人相比，刚刚步入生活的年轻人更有可能优先考虑工作中的个人成就感，相信定期更换工作可以最大程度地促进职业发展，支持提供更多公共服务和更快生活节奏的社区，同意夫妻在结婚或生孩子之前应该有经济保障，并坚持认为孩子最好由两个在外工作的父母来照顾。",
           "slashed_text": "Young people / who are still getting started / in life were more likely than older adults to prioritize personal fulfillment / in their work , / to believe they will advance their careers most / by regularly changing jobs , / to favor communities / with more public services and a faster pace of life , / to agree / that couples should be financially secure / before getting married or having children , / and to maintain / that children are best served by two parents working outside the home , / the survey found.",
-          "chunk_translation": "年轻人 / who are still getting started / in life were more likely than older adults to prioritize personal fulfillment / in their work / to believe they will advance their careers most / by regularly changing jobs / to favor communities / with more public services and a faster pace of life / 同意 / 夫妻应该有经济保障 / 在结婚或生孩子之前 / 并维持 / 两个在外工作的父母可以为孩子提供最好的服务 / 调查发现",
+          "chunk_translation": "年轻一代 / 那些刚开始起步的人 / 在人生旅途上， / 认为 / 实现这些人生目标 / 将需要耗费 / 更长的时间， / 相比 / 他们的父母一代 / 过去所用的时间。 / 他们 / 预期 / 将达到这些人生里程碑 / 在他们三十多岁时。",
           "syntax": {
             "breakdown": [
               {
@@ -3277,7 +3277,7 @@
           "text": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.",
           "translation": "从职业到社区和家庭，这些对比表明，在严重的大衰退之后，那些刚刚开始生活的人正在确定优先事项和期望，这些优先事项和期望将越来越多地蔓延到美国生活的几乎所有方面，从消费者偏好到住房模式再到政治。",
           "slashed_text": "From career to community and family , / these contrasts suggest / that in the aftermath of the searing Great Recession , / those just starting out / in life are defining priorities and expectations / that will increasingly spread / through virtually all aspects of American life , / from consumer preferences to housing patterns to politics.",
-          "chunk_translation": "从事业到社区和家庭 / 这些对比表明 / 在灼热的大衰退之后 / those just starting out / in life are defining priorities and expectations / that will increasingly spread / through virtually all aspects of American life / 从消费者偏好到住房模式再到政治",
+          "chunk_translation": "从职业生涯 / 到社区生活 / 以及 / 家庭关系， / 这些对比反差 / 代际之间的差异 / 突显出了 / 不断演变转变的价值观。",
           "syntax": {
             "breakdown": [
               {
@@ -3295,7 +3295,7 @@
           "text": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations.",
           "translation": "年轻人和老年人都集中在一个关键点上：两个群体中绝大多数人都表示，他们认为今天的年轻人比前几代人更难开始生活。",
           "slashed_text": "Young and old converge on one key point : / Overwhelming majorities of both groups said they believe it is harder / for young people today to get started / in life than it was / for earlier generations.",
-          "chunk_translation": "年轻和年长汇聚到一个关键点上 / Overwhelming majorities of both groups said they believe it is harder / for young people today to get started / in life than it was / for earlier generations",
+          "chunk_translation": "年轻人和年长者达成了一致 / 在一个关键核心观点上： / 绝大多数地， / 美国人一致认为 / 通往成功的道路已经变得更加艰难曲折。",
           "syntax": {
             "breakdown": [
               {
@@ -3313,7 +3313,7 @@
           "text": "While younger people are somewhat more optimistic than their elders about the prospects for those starting out today, big majorities in both groups believe those “just getting started in life” face a tougher climb than earlier generations in reaching such signpost achievements as securing a good-paying job, starting a family, managing debt, and finding affordable housing.",
           "translation": "虽然年轻人对今天开始的人的前景比长辈更加乐观，但这两个群体中的大多数人都认为，那些“刚刚开始生活”的人在获得高薪工作、组建家庭、管理债务和寻找经济适用房等标志性成就方面，比前几代人面临着更艰难的攀登。",
           "slashed_text": "/ While younger people are somewhat more optimistic than their elders about the prospects / for those starting out today , / big majorities / in both groups believe those “just getting started / in life” face a tougher climb than earlier generations / in reaching such signpost achievements as securing a good-paying job , / starting a family , / managing debt , / and finding affordable housing.",
-          "chunk_translation": "While younger people are somewhat more optimistic than their elders about the prospects / for those starting out today / big majorities / in both groups believe those “just getting started / in life” face a tougher climb than earlier generations / in reaching such signpost achievements as securing a good-paying job / 组建家庭 / 管理债务 / 并寻找经济适用房",
+          "chunk_translation": "/ 尽管年轻人稍微更为乐观一些 / 对于他们自己的成功机会， / 他们 / 依然清醒地承认 / 攀登的阶梯 / 变得 / 更加陡峭险峻， / 相比 / 相较于前几代人。",
           "syntax": {
             "breakdown": [
               {
@@ -3331,7 +3331,7 @@
           "text": "Pete Schneider considers the climb tougher today.",
           "translation": "皮特·施奈德 (Pete Schneider) 认为今天的攀登更加艰难。",
           "slashed_text": "Pete Schneider considers the climb tougher today.",
-          "chunk_translation": "皮特·施奈德 (Pete Schneider) 认为今天的攀登更加艰难",
+          "chunk_translation": "皮特·施耐德认为如今向上的攀登更加艰难。",
           "syntax": {
             "breakdown": [
               {
@@ -3349,7 +3349,7 @@
           "text": "Schneider, a 27-year-old auto technician from the Chicago suburbs, says he struggled to find a job after graduating from college.",
           "translation": "施奈德是一名来自芝加哥郊区的 27 岁汽车技术员，他说大学毕业后他很难找到工作。",
           "slashed_text": "Schneider , / a 27-year-old auto technician from the Chicago suburbs , / says he struggled to find a job / after graduating / from college.",
-          "chunk_translation": "施耐德 / 来自芝加哥郊区的 27 岁汽车技术员 / 说他很难找到工作 / after graduating / from college",
+          "chunk_translation": "施耐德， / 一名27岁的汽车维修技师， / 来自芝加哥地区， / 表示 / 他工作十分努力，但却很难实现阶层跨越、出人头地。",
           "syntax": {
             "breakdown": [
               {
@@ -3367,7 +3367,7 @@
           "text": "Even now that he is working steadily, he said, “I can’t afford to pay my monthly mortgage payments on my own, so I have to rent rooms out to people to make that happen.” Looking back, he is struck that his parents could provide a comfortable life for their children even though neither had completed college when he was young.",
           "translation": "他说，即使现在他工作稳定，“我自己也无力支付每月的抵押贷款，所以我必须把房间出租给别人才能实现这一点。”回想起来，他惊讶地发现父母在他年轻时都没有完成大学学业，却能为孩子提供舒适的生活。",
           "slashed_text": "Even now / that he is working steadily , / he said , / “I can’t afford to pay my monthly mortgage payments on my own , / so I have to rent rooms out to people to make / that happen.” Looking back , / he is struck / that his parents could provide a comfortable life / for their children even / though neither had completed college / when he was young.",
-          "chunk_translation": "即使现在 / 他工作稳定 / 他说 / I can’t afford to pay my monthly mortgage payments on my own / 所以我必须把房间出租给人们 / 发生这种事。”回顾过去 / 他很震惊 / that his parents could provide a comfortable life / for their children even / 虽然两人都没有完成大学学业 / 当他年轻的时候",
+          "chunk_translation": "即便现在 / 他有着稳定的工作， / 他说道， / “我 / 依然 / 不得不 / 去 / 担忧 / 关于 / 如何维持收支平衡。 / 这让人感到极其沮丧挫败。”",
           "syntax": {
             "breakdown": [
               {
@@ -3390,7 +3390,7 @@
           "text": "“I still grew up in an upper middle-class home with parents who didn’t have college degrees,” Schneider said.",
           "translation": "“我仍然在一个上层中产阶级家庭长大，父母没有大学学位，”施奈德说。",
           "slashed_text": "“I still grew up in an upper middle-class home / with parents / who didn’t have college degrees , / ” Schneider said.",
-          "chunk_translation": "I still grew up in an upper middle-class home / with parents / who didn’t have college degrees / Schneider said",
+          "chunk_translation": "“我当年是在一个家庭中长大的 / 在中上阶层的家庭里， / 伴随着 / 所有的优渥机会，”他说道。",
           "syntax": {
             "breakdown": [
               {
@@ -3408,7 +3408,7 @@
           "text": "“I don’t think people are capable of that anymore.”",
           "translation": "“我认为人们已经没有能力做到这一点了。”",
           "slashed_text": "“I don’t think people are capable of / that anymore.”",
-          "chunk_translation": "“我认为人们没有能力 / 不再这样了。”",
+          "chunk_translation": "“我认为人们现在已经无法再做到那一步了。 / 生活成本实在是太高昂了。”",
           "syntax": {
             "breakdown": [
               {

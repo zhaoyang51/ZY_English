@@ -12,7 +12,7 @@
           "text": "The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008. All but two pieces sold, fetching more than £70m, a record for a sale by a single artist. It was a last victory. As the auctioneer called out bids, in New York one of the oldest banks on Wall Street, Lehman Brothers, filed for bankruptcy.",
           "translation": "2008 年 9 月 15 日，伦敦苏富比拍卖行拍卖达米恩·赫斯特 (Damien Hirst) 的 56 件作品《永远美丽在我的脑海中》(Beautiful Inside My Head Forever)，以戏剧性的方式结束了艺术市场历史上一个世纪以来最长的牛市。除两件作品外，其余作品全部售出，成交价超过 7000 万英镑，创下了单一艺术家的拍卖纪录。这是最后的胜利。当拍卖师发出竞价时，纽约华尔街最古老的银行之一雷曼兄弟公司申请破产。",
           "slashed_text": "The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works / by Damien Hirst , / Beautiful Inside My Head Forever , / at Sotheby’s / in London / on September 15th 2008. All but two pieces sold , / fetching more than £70m , / a record for a sale by a single artist. It was a last victory. As the auctioneer called out bids , / in New York one of the oldest banks / on Wall Street , / Lehman Brothers , / filed / for bankruptcy.",
-          "chunk_translation": "The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works / by Damien Hirst / 美丽永远在我脑海里 / at Sotheby’s / in London / on September 15th 2008. All but two pieces sold / 售价超过 7000 万英镑 / a record for a sale by a single artist. It was a last victory. As the auctioneer called out bids / in New York one of the oldest banks / on Wall Street / 雷曼兄弟 / filed / for bankruptcy",
+          "chunk_translation": "艺术市场历史上一个世纪以来最长的牛市以戏剧性的方式宣告结束，拍卖了56件作品 / 由达明安·赫斯特创作 / 名为《美丽在我脑海中永存》 / 在苏富比拍卖行 / 在伦敦 / 于2008年9月15日 除两件作品外其余全部售出 / 成交额超过7000万英镑 / 创下了单个艺术家的拍卖纪录 这是最后的胜利 正当拍卖师喊出竞价时 / 在纽约，华尔街最古老的银行之一 / 华尔街上的 / 雷曼兄弟 / 申请了 / 破产",
           "vocabulary": [
             {
               "word": "bull run",
@@ -66,7 +66,7 @@
           "text": "The world art market had already been losing momentum for a while after rising bewilderingly since 2003. At its peak in 2007 it was worth some $65 billion, reckons Clare McAndrew, founder of Arts Economics, a research firm—double the figure five years earlier. Since then it may have come down to $50 billion. But the market generates interest far beyond its size because it brings together great wealth, enormous egos, greed, passion and controversy in a way matched by few other industries.",
           "translation": "自 2003 年以来，世界艺术市场经历了令人眼花缭乱的增长，但在一段时间内已经失去了动力。研究公司 Arts Economics 的创始人克莱尔·麦克安德鲁 (Clare McAndrew) 估计，在 2007 年达到顶峰时，其价值约为 650 亿美元，是五年前这一数字的两倍。从那时起，这一数字可能已降至 500 亿美元。但这个市场产生的兴趣远远超出了它的规模，因为它以其他行业很少能比拟的方式汇集了巨大的财富、巨大的自负、贪婪、激情和争议。",
           "slashed_text": "The world art market had already been losing momentum for a / while / after rising bewilderingly / since 2003. At its peak in 2007 it was worth some $65 billion , / reckons Clare McAndrew , / founder of Arts Economics , / a research firm — / double the figure five years earlier. / Since then it may have come down to $50 billion. But the market generates interest far beyond its size / because it brings together great wealth , / enormous egos , / greed , / passion and controversy in a way matched by few other industries.",
-          "chunk_translation": "世界艺术市场已经失去动力 / while / after rising bewilderingly / since 2003. At its peak in 2007 it was worth some $65 billion / 克莱尔·麦克安德鲁认为 / 艺术经济学创始人 / a research firm / double the figure five years earlier / Since then it may have come down to $50 billion. But the market generates interest far beyond its size / 因为它汇聚了巨大的财富 / 巨大的自我 / 贪婪 / 很少有其他行业能够比拟的热情和争议",
+          "chunk_translation": "全球艺术品市场在此前失去上涨势头已经有一段 / 时间了 / 在经历了自2003年以来的惊人上涨之后 / 自2003年起 在2007年的顶峰时期，其价值约为650亿美元 / 克莱尔·麦克安德鲁估计 / 艺术经济学研究公司的创始人 / 一家研究机构—— / 是五年前数字的两倍 / 从那时起，其价值可能已跌至500亿美元 但该市场引发的兴趣远远超出了其自身规模 / 因为它汇集了巨额财富 / 极度膨胀的自负 / 贪婪 / 以及极少有其他行业能够比拟的激情与争议",
           "vocabulary": [
             {
               "word": "at its peak",
@@ -120,7 +120,7 @@
           "text": "In the weeks and months that followed Mr. Hirst’s sale, spending of any sort became deeply unfashionable . In the art world that meant collectors stayed away from galleries and salerooms. Sales of contemporary art fell by two-thirds, and in the most overheated sector, they were down by nearly 90 % in the year to November 2008. Within weeks the world’s two biggest auction houses, Sotheby’s and Christie’s, had to pay out nearly $200m in guarantees to clients who had placed works for sale with them.",
           "translation": "在赫斯特先生出售后的几周和几个月里，任何形式的支出都变得非常不流行。在艺术界，这意味着收藏家远离画廊和拍卖场。当代艺术品的销售额下降了三分之二，在最过热的领域，截至 2008 年 11 月的一年内下降了近 90%。几周之内，世界上最大的两家拍卖行苏富比和佳士得就不得不向向其出售作品的客户支付近 2 亿美元的担保金。",
           "slashed_text": "In the weeks and months / that followed Mr. Hirst’s sale , / spending of any sort became deeply unfashionable . In the art world / that meant collectors stayed away / from galleries and salerooms. Sales of contemporary art fell by two-thirds , / and in the most overheated sector , / they were down / by nearly 90 % in the year to November 2008. Within weeks the world’s two biggest auction houses , / Sotheby’s and Christie’s , / had to pay out nearly $200m / in guarantees to clients / who had placed works / for sale / with them.",
-          "chunk_translation": "在几周和几个月内 / that followed Mr. Hirst’s sale / spending of any sort became deeply unfashionable . In the art world / that meant collectors stayed away / from galleries and salerooms. Sales of contemporary art fell by two-thirds / 在最过热的行业 / they were down / by nearly 90 % in the year to November 2008. Within weeks the world’s two biggest auction houses / 苏富比和佳士得 / had to pay out nearly $200m / in guarantees to clients / who had placed works / for sale / with them",
+          "chunk_translation": "在接下来的几周和几个月里 / 紧随赫斯特先生的 拍卖会之后 / 任何形式的挥霍消费都变得极为不合时宜 在艺术界 / 这意味着收藏家们远离了 / 画廊和拍卖大厅 当代艺术品的销售额下降了三分之二 / 而在最过热的领域中 / 销售额大幅下滑 / 在截至2008年11月的一年里跌幅近90% 数周之内，全球最大的两家拍卖行 / 苏富比和佳士得 / 不得不支付近2亿美元 / 作为对客户的担保金 / 那些将作品委托 / 拍卖出售的 / 给他们的客户",
           "vocabulary": [
             {
               "word": "weeks",
@@ -174,7 +174,7 @@
           "text": "The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989. This time experts reckon that prices are about 40 % down on their peak on average, though some have been far more fluctuant. But Edward Dolman, Christie’s chief executive, says: “I’m pretty confident we’re at the bottom.”",
           "translation": "目前艺术品市场的低迷是自 1989 年底日本停止购买印象派画家以来最严重的一次。专家估计，这次价格比峰值平均下跌了 40% 左右，尽管有些价格波动更大。但佳士得首席执行官爱德华·多尔曼 (Edward Dolman) 表示：“我非常有信心我们已经处于谷底。”",
           "slashed_text": "The current downturn in the art market is the worst / since the Japanese stopped buying Impressionists at the end of 1989. This time experts reckon / that prices are about 40 % down / on their peak / on average , / though some have been far more fluctuant. But Edward Dolman , / Christie’s chief executive , / says : / “I’m pretty confident we’re at the bottom.”",
-          "chunk_translation": "当前艺术品市场的低迷是最严重的 / since the Japanese stopped buying Impressionists at the end of 1989. This time experts reckon / that prices are about 40 % down / on their peak / 平均而言 / though some have been far more fluctuant. But Edward Dolman / 佳士得首席执行官 / 说 / “我非常有信心我们处于底部。”",
+          "chunk_translation": "当前艺术市场的低迷是最严重的一次 / 自1989年底日本人停止购买印象派作品以来 这一次专家们估计 / 价格相比其峰值下降了约40% / 与峰值相比 / 平均而言 / 尽管有些价格的波动要剧烈得多 但佳士得首席执行官爱德华·多尔曼 / 佳士得首席执行官 / 表示： / “我非常有信心我们已经见底了。”",
           "vocabulary": [
             {
               "word": "current",
@@ -228,7 +228,7 @@
           "text": "What makes this slump different from the last, he says, is that there are still buyers in the market. Almost everyone who was interviewed for this special report said that the biggest problem at the moment is not a lack of demand but a lack of good work to sell. The three Ds—death, debt and divorce—still deliver works of art to the market. But anyone who does not have to sell is keeping away, waiting for confidence to return.",
           "translation": "他说，这次衰退与上次不同的是，市场上仍然有买家。几乎所有接受本专题报道采访的人都表示，目前最大的问题不是缺乏需求，而是缺乏好作品可卖。三个 D——死亡、债务和离婚——仍然将艺术品推向市场。但任何不需要出售的人都在远离，等待信心恢复。",
           "slashed_text": "What makes this slump different from the last , / he says , / is / that there are still buyers in the market. Almost everyone / who was interviewed / for this special report said / that the biggest problem at the moment is not a lack of demand but a lack of good work to sell. The three Ds — / death , / debt and divorce — / still deliver works of art to the market. But anyone / who does not have to sell is keeping away , / waiting / for confidence to return.",
-          "chunk_translation": "这次暴跌与上次有何不同 / 他说 / 是 / that there are still buyers in the market. Almost everyone / who was interviewed / for this special report said / that the biggest problem at the moment is not a lack of demand but a lack of good work to sell. The three Ds / death / debt and divorce / still deliver works of art to the market. But anyone / 谁不必出售，谁就远离 / waiting / for confidence to return",
+          "chunk_translation": "使这次暴跌不同于以往的地方 / 他说 / 在于 / 市场上依然存在买家 几乎所有人 / 接受采访的 / 为本特别报道接受采访的人都表示 / 目前最大的问题不是缺乏需求，而是缺乏可售的优秀作品 “3D”因素—— / 死亡、 / 债务和离婚—— / 依然在为市场提供艺术作品 但任何非被迫出售的人都在保持观望 / 远离市场 / 等待着 / 市场信心的回归",
           "vocabulary": [
             {
               "word": "slump",
@@ -286,7 +286,7 @@
           "text": "The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008.",
           "translation": "2008 年 9 月 15 日，伦敦苏富比拍卖行拍卖达明安·赫斯特 (Damien Hirst) 的 56 件作品《美丽在我脑海中永远》(Beautiful Inside My Head Forever)，戏剧性地结束了艺术市场历史上一个世纪以来最长的牛市。",
           "slashed_text": "The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works / by Damien Hirst , / Beautiful Inside My Head Forever , / at Sotheby’s / in London / on September 15th 2008.",
-          "chunk_translation": "The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works / by Damien Hirst / 美丽永远在我脑海里 / at Sotheby’s / in London / on September 15th 2008",
+          "chunk_translation": "艺术市场历史上一个世纪以来最长的牛市以戏剧性的方式宣告结束，拍卖了56件作品 / 由达明安·赫斯特创作 / 名为《美丽在我脑海中永存》 / 在苏富比拍卖行 / 在伦敦 / 于2008年9月15日",
           "syntax": {
             "breakdown": [
               {
@@ -304,7 +304,7 @@
           "text": "All but two pieces sold, fetching more than £70m, a record for a sale by a single artist.",
           "translation": "除两件作品外，其余作品全部售出，成交价超过 7000 万英镑，创下了单个艺术家的拍卖纪录。",
           "slashed_text": "All but two pieces sold , / fetching more than £70m , / a record for a sale by a single artist.",
-          "chunk_translation": "除两件外全部已售出 / 售价超过 7000 万英镑 / 单一艺术家的拍卖纪录",
+          "chunk_translation": "除两件作品外其余全部售出 / 成交额超过7000万英镑 / 创下了单个艺术家的拍卖纪录",
           "syntax": {
             "breakdown": [
               {
@@ -340,7 +340,7 @@
           "text": "As the auctioneer called out bids, in New York one of the oldest banks on Wall Street, Lehman Brothers, filed for bankruptcy.",
           "translation": "当拍卖师发出竞价时，纽约华尔街最古老的银行之一雷曼兄弟公司申请破产。",
           "slashed_text": "As the auctioneer called out bids , / in New York one of the oldest banks / on Wall Street , / Lehman Brothers , / filed / for bankruptcy.",
-          "chunk_translation": "当拍卖师喊出竞价时 / in New York one of the oldest banks / on Wall Street / 雷曼兄弟 / filed / for bankruptcy",
+          "chunk_translation": "正当拍卖师喊出竞价时 / 在纽约，华尔街最古老的银行之一 / 华尔街上的 / 雷曼兄弟 / 申请了 / 破产",
           "syntax": {
             "breakdown": [
               {
@@ -358,7 +358,7 @@
           "text": "The world art market had already been losing momentum for a while after rising bewilderingly since 2003.",
           "translation": "自2003年以来，世界艺术市场经历了令人眼花缭乱的上涨后，已经有一段时间失去了动力。",
           "slashed_text": "The world art market had already been losing momentum for a / while / after rising bewilderingly / since 2003.",
-          "chunk_translation": "世界艺术市场已经失去动力 / while / after rising bewilderingly / 自2003年以来",
+          "chunk_translation": "全球艺术品市场在此前失去上涨势头已经有一段 / 时间了 / 在经历了自2003年以来的惊人上涨之后 / 自2003年起",
           "syntax": {
             "breakdown": [
               {
@@ -376,7 +376,7 @@
           "text": "At its peak in 2007 it was worth some $65 billion, reckons Clare McAndrew, founder of Arts Economics, a research firm—double the figure five years earlier.",
           "translation": "研究公司 Arts Economics 的创始人克莱尔·麦克安德鲁 (Clare McAndrew) 估计，在 2007 年的巅峰时期，其价值约为 650 亿美元，是五年前这一数字的两倍。",
           "slashed_text": "At its peak in 2007 it was worth some $65 billion , / reckons Clare McAndrew , / founder of Arts Economics , / a research firm — / double the figure five years earlier.",
-          "chunk_translation": "2007 年达到顶峰时，其价值约为 650 亿美元 / 克莱尔·麦克安德鲁认为 / 艺术经济学创始人 / a research firm / double the figure five years earlier",
+          "chunk_translation": "在2007年的顶峰时期，其价值约为650亿美元 / 克莱尔·麦克安德鲁估计 / 艺术经济学研究公司的创始人 / 一家研究机构—— / 是五年前数字的两倍",
           "syntax": {
             "breakdown": [
               {
@@ -394,7 +394,7 @@
           "text": "Since then it may have come down to $50 billion.",
           "translation": "从那时起，这一数字可能已降至 500 亿美元。",
           "slashed_text": "/ Since then it may have come down to $50 billion.",
-          "chunk_translation": "从那时起，它可能已降至 500 亿美元",
+          "chunk_translation": "/ 从那时起，其价值可能已跌至500亿美元",
           "syntax": {
             "breakdown": [
               {
@@ -412,7 +412,7 @@
           "text": "But the market generates interest far beyond its size because it brings together great wealth, enormous egos, greed, passion and controversy in a way matched by few other industries.",
           "translation": "但这个市场所产生的兴趣远远超出了它的规模，因为它以其他行业很少能比拟的方式汇集了巨大的财富、巨大的自负、贪婪、激情和争议。",
           "slashed_text": "But the market generates interest far beyond its size / because it brings together great wealth , / enormous egos , / greed , / passion and controversy in a way matched by few other industries.",
-          "chunk_translation": "但市场产生的兴趣远远超出其规模 / 因为它汇聚了巨大的财富 / 巨大的自我 / 贪婪 / 很少有其他行业能够比拟的热情和争议",
+          "chunk_translation": "但该市场引发的兴趣远远超出了其自身规模 / 因为它汇集了巨额财富 / 极度膨胀的自负 / 贪婪 / 以及极少有其他行业能够比拟的激情与争议",
           "syntax": {
             "breakdown": [
               {
@@ -430,7 +430,7 @@
           "text": "In the weeks and months that followed Mr.",
           "translation": "在接下来的几个星期和几个月里。",
           "slashed_text": "In the weeks and months / that followed Mr.",
-          "chunk_translation": "在几周和几个月内 / 紧接着先生",
+          "chunk_translation": "在接下来的几周和几个月里 / 紧随赫斯特先生的",
           "syntax": {
             "breakdown": [
               {
@@ -448,7 +448,7 @@
           "text": "Hirst’s sale, spending of any sort became deeply unfashionable .",
           "translation": "赫斯特的拍卖、任何形式的支出都变得非常不流行。",
           "slashed_text": "Hirst’s sale , / spending of any sort became deeply unfashionable .",
-          "chunk_translation": "赫斯特的拍卖 / 任何形式的支出都变得非常不流行",
+          "chunk_translation": "拍卖会之后 / 任何形式的挥霍消费都变得极为不合时宜",
           "syntax": {
             "breakdown": [
               {
@@ -466,7 +466,7 @@
           "text": "In the art world that meant collectors stayed away from galleries and salerooms.",
           "translation": "在艺术界，这意味着收藏家远离画廊和拍卖场。",
           "slashed_text": "In the art world / that meant collectors stayed away / from galleries and salerooms.",
-          "chunk_translation": "在艺术世界里 / that meant collectors stayed away / from galleries and salerooms",
+          "chunk_translation": "在艺术界 / 这意味着收藏家们远离了 / 画廊和拍卖大厅",
           "syntax": {
             "breakdown": [
               {
@@ -484,7 +484,7 @@
           "text": "Sales of contemporary art fell by two-thirds, and in the most overheated sector, they were down by nearly 90 % in the year to November 2008.",
           "translation": "当代艺术品的销售额下降了三分之二，而在最过热的领域，截至 2008 年 11 月的一年里，销售额下降了近 90%。",
           "slashed_text": "Sales of contemporary art fell by two-thirds , / and in the most overheated sector , / they were down / by nearly 90 % in the year to November 2008.",
-          "chunk_translation": "当代艺术品销量下降三分之二 / 在最过热的行业 / they were down / by nearly 90 % in the year to November 2008",
+          "chunk_translation": "当代艺术品的销售额下降了三分之二 / 而在最过热的领域中 / 销售额大幅下滑 / 在截至2008年11月的一年里跌幅近90%",
           "syntax": {
             "breakdown": [
               {
@@ -502,7 +502,7 @@
           "text": "Within weeks the world’s two biggest auction houses, Sotheby’s and Christie’s, had to pay out nearly $200m in guarantees to clients who had placed works for sale with them.",
           "translation": "几周之内，世界上最大的两家拍卖行苏富比和佳士得不得不向向其出售作品的客户支付近 2 亿美元的担保金。",
           "slashed_text": "Within weeks the world’s two biggest auction houses , / Sotheby’s and Christie’s , / had to pay out nearly $200m / in guarantees to clients / who had placed works / for sale / with them.",
-          "chunk_translation": "几周内世界上最大的两家拍卖行 / 苏富比和佳士得 / had to pay out nearly $200m / in guarantees to clients / who had placed works / for sale / with them",
+          "chunk_translation": "数周之内，全球最大的两家拍卖行 / 苏富比和佳士得 / 不得不支付近2亿美元 / 作为对客户的担保金 / 那些将作品委托 / 拍卖出售的 / 给他们的客户",
           "syntax": {
             "breakdown": [
               {
@@ -520,7 +520,7 @@
           "text": "The current downturn in the art market is the worst since the Japanese stopped buying Impressionists at the end of 1989.",
           "translation": "目前艺术市场的低迷是自1989年底日本停止购买印象派画家以来最严重的一次。",
           "slashed_text": "The current downturn in the art market is the worst / since the Japanese stopped buying Impressionists at the end of 1989.",
-          "chunk_translation": "当前艺术品市场的低迷是最严重的 / 自从1989年底日本人停止购买印象派画家以来",
+          "chunk_translation": "当前艺术市场的低迷是最严重的一次 / 自1989年底日本人停止购买印象派作品以来",
           "syntax": {
             "breakdown": [
               {
@@ -538,7 +538,7 @@
           "text": "This time experts reckon that prices are about 40 % down on their peak on average, though some have been far more fluctuant.",
           "translation": "专家估计，这一次价格比峰值平均下降了 40% 左右，尽管有些价格的波动要大得多。",
           "slashed_text": "This time experts reckon / that prices are about 40 % down / on their peak / on average , / though some have been far more fluctuant.",
-          "chunk_translation": "这次专家认为 / that prices are about 40 % down / on their peak / 平均而言 / 尽管有些波动更大",
+          "chunk_translation": "这一次专家们估计 / 价格相比其峰值下降了约40% / 与峰值相比 / 平均而言 / 尽管有些价格的波动要剧烈得多",
           "syntax": {
             "breakdown": [
               {
@@ -561,7 +561,7 @@
           "text": "But Edward Dolman, Christie’s chief executive, says: “I’m pretty confident we’re at the bottom.”",
           "translation": "但佳士得首席执行官爱德华·多尔曼 (Edward Dolman) 表示：“我非常有信心我们已经处于谷底。”",
           "slashed_text": "But Edward Dolman , / Christie’s chief executive , / says : / “I’m pretty confident we’re at the bottom.”",
-          "chunk_translation": "但爱德华·多尔曼 / 佳士得首席执行官 / 说 / “我非常有信心我们处于底部。”",
+          "chunk_translation": "但佳士得首席执行官爱德华·多尔曼 / 佳士得首席执行官 / 表示： / “我非常有信心我们已经见底了。”",
           "syntax": {
             "breakdown": [
               {
@@ -579,7 +579,7 @@
           "text": "What makes this slump different from the last, he says, is that there are still buyers in the market.",
           "translation": "他说，这次衰退与上次不同的是，市场上仍然有买家。",
           "slashed_text": "What makes this slump different from the last , / he says , / is / that there are still buyers in the market.",
-          "chunk_translation": "这次暴跌与上次有何不同 / 他说 / 是 / 市场上仍有买家",
+          "chunk_translation": "使这次暴跌不同于以往的地方 / 他说 / 在于 / 市场上依然存在买家",
           "syntax": {
             "breakdown": [
               {
@@ -597,7 +597,7 @@
           "text": "Almost everyone who was interviewed for this special report said that the biggest problem at the moment is not a lack of demand but a lack of good work to sell.",
           "translation": "几乎所有接受本专题报道采访的人都表示，目前最大的问题不是缺乏需求，而是缺乏好作品可卖。",
           "slashed_text": "Almost everyone / who was interviewed / for this special report said / that the biggest problem at the moment is not a lack of demand but a lack of good work to sell.",
-          "chunk_translation": "几乎每个人 / who was interviewed / for this special report said / 目前最大的问题不是缺乏需求，而是缺乏好作品来销售",
+          "chunk_translation": "几乎所有人 / 接受采访的 / 为本特别报道接受采访的人都表示 / 目前最大的问题不是缺乏需求，而是缺乏可售的优秀作品",
           "syntax": {
             "breakdown": [
               {
@@ -615,7 +615,7 @@
           "text": "The three Ds—death, debt and divorce—still deliver works of art to the market.",
           "translation": "三个 D——死亡、债务和离婚——仍然将艺术品推向市场。",
           "slashed_text": "The three Ds — / death , / debt and divorce — / still deliver works of art to the market.",
-          "chunk_translation": "The three Ds / death / debt and divorce / still deliver works of art to the market",
+          "chunk_translation": "“3D”因素—— / 死亡、 / 债务和离婚—— / 依然在为市场提供艺术作品",
           "syntax": {
             "breakdown": [
               {
@@ -633,7 +633,7 @@
           "text": "But anyone who does not have to sell is keeping away, waiting for confidence to return.",
           "translation": "但任何不需要出售的人都在远离，等待信心恢复。",
           "slashed_text": "But anyone / who does not have to sell is keeping away , / waiting / for confidence to return.",
-          "chunk_translation": "但任何人 / 谁不必出售，谁就远离 / waiting / for confidence to return",
+          "chunk_translation": "但任何非被迫出售的人都在保持观望 / 远离市场 / 等待着 / 市场信心的回归",
           "syntax": {
             "breakdown": [
               {
@@ -1106,7 +1106,7 @@
           "text": "I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them. Throughout the evening, one man had been particularly talkative, frequently offering ideas and anecdotes, while his wife sat silently beside him on the couch. Toward the end of the evening, I commented that women frequently complain that their husbands don’t talk to them. This man quickly nodded in agreement. He gestured toward his wife and said, “She’s the talker in our family.” The room burst into laughter; the man looked puzzled and hurt. “It’s true,” he explained. “When I come home from work, I have nothing to say. If she didn’t keep the conversation going, we’d spend the whole evening in silence.”",
           "translation": "我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。整个晚上，一名男子特别健谈，经常提出想法和轶事，而他的妻子则默默地坐在他旁边的沙发上。晚上快结束时，我评论说，女性经常抱怨她们的丈夫不和她们说话。这人连忙点头答应。他指着他的妻子说：“她是我们家里最健谈的人。”房间里爆发出一阵笑声。那人看上去既困惑又受伤。 “这是真的，”他解释道。 “当我下班回家时，我无话可说。如果她不继续谈话，我们整个晚上都会保持沉默。”",
           "slashed_text": "I was addressing a small gathering in a suburban Virginia living room — / a women’s group / that had invited men to join them. Throughout the evening , / one man had been particularly talkative , / frequently offering ideas and anecdotes , / while his wife sat silently beside him on the couch. Toward the end of the evening , / I commented / that women frequently complain / that their husbands don’t talk to them. This man quickly nodded / in agreement. He gestured toward his wife and said , / “She’s the talker in our family.” The room burst / into laughter ; / the man looked puzzled and hurt. “It’s true , / ” he explained. “ / When I come home / from work , / I have nothing to say. / If she didn’t keep the conversation going , / we’d spend the whole evening / in silence.”",
-          "chunk_translation": "I was addressing a small gathering in a suburban Virginia living room / a women’s group / that had invited men to join them. Throughout the evening / 有一个人特别健谈 / 经常提供想法和轶事 / while his wife sat silently beside him on the couch. Toward the end of the evening / 我评论了 / 女性经常抱怨 / that their husbands don’t talk to them. This man quickly nodded / in agreement. He gestured toward his wife and said / She’s the talker in our family.” The room burst / into laughter / the man looked puzzled and hurt. “It’s true / he explained / When I come home / from work / 我无话可说 / 如果她不继续谈话 / we’d spend the whole evening / in silence",
+          "chunk_translation": "我当时正在弗吉尼亚郊区的一间客厅里向一个小型聚会发表演讲—— / 这是一个女性团体 / 她们邀请了男性加入她们 整个晚上 / 一名男子表现得格外健谈 / 频繁地发表观点并分享轶事 / 而他的妻子则静静地坐在沙发上他身边 在傍晚聚会快结束时 / 我评论道 / 女性经常抱怨 / 她们的丈夫不跟她们说话 这名男子迅速点头 / 表示赞同 他指着他的妻子说道 / “她才是我们家话多的人。”房间里爆发 / 出一阵笑声； / 那名男子看上去既困惑又委屈 “这是真的， / ”他解释道 “ / 当我回到家 / 下班时， / 我无话可说 / 如果她不把对话继续下去 / 我们整个晚上都会 / 在沉默中度过。”",
           "vocabulary": [
             {
               "word": "addressing",
@@ -1160,7 +1160,7 @@
           "text": "This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home. And this pattern is wreaking havoc with marriage.",
           "translation": "这一集体现了一个讽刺之处：尽管美国男性在公共场合比女性说话更多，但在家里却往往说话更少。这种模式正在对婚姻造成严重破坏。",
           "slashed_text": "This episode crystallizes the irony / that / although American men tend to talk more than women / in public situations , / they often talk less / at home. And this pattern is wreaking havoc / with marriage.",
-          "chunk_translation": "这一集讽刺的结晶 / 那 / although American men tend to talk more than women / in public situations / they often talk less / at home. And this pattern is wreaking havoc / with marriage",
+          "chunk_translation": "这一幕体现了这种极具讽刺意味的现象 / 即 / 尽管美国男性往往比女性说得更多 / 在公共场合 / 但他们往往说得更少 / 在家里 而这种模式正在造成严重破坏 / 对婚姻关系",
           "vocabulary": [
             {
               "word": "episode",
@@ -1214,7 +1214,7 @@
           "text": "The pattern was observed by political scientist Andrew Hacker in the late 1970s.",
           "translation": "政治学家安德鲁·哈克 (Andrew Hacker) 在 20 世纪 70 年代末观察到了这一模式。",
           "slashed_text": "The pattern was observed / by political scientist Andrew Hacker in the late 1970s.",
-          "chunk_translation": "The pattern was observed / by political scientist Andrew Hacker in the late 1970s",
+          "chunk_translation": "这种模式早在20世纪70年代末就被观察到 / 由政治学家安德鲁·哈克提出",
           "vocabulary": [
             {
               "word": "pattern",
@@ -1258,7 +1258,7 @@
           "text": "Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces. Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year—a virtual epidemic of failed conversation. In my own research, complaints from women about their husbands most often focused not on tangible inequities such as having given up the chance for a career to accompany a husband to his, or doing far more than their share of daily life-support work like cleaning, cooking and social arrangements. Instead, they focused on communication: “He doesn’t listen to me.” “He doesn’t talk to me.” I found, as Hacker observed years before, that most wives want their husbands to be, first and foremost, conversational partners, but few husbands share this expectation of their wives.",
           "translation": "社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。鉴于目前近 50% 的离婚率，美国每年的离婚率达到数百万起——几乎是失败对话的流行病。在我自己的研究中，女性对丈夫的抱怨往往不是集中在有形的不平等上，比如放弃了陪伴丈夫的职业机会，或者做的远远超过了她们承担的日常生活支持工作，如清洁、烹饪和社交安排。相反，他们专注于沟通：“他不听我的。” “他不跟我说话。”我发现，正如哈克多年前所观察到的那样，大多数妻子希望她们的丈夫首先成为谈话伙伴，但很少有丈夫对妻子抱有这样的期望。",
           "slashed_text": "Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk / that most of the women she interviewed — / but only a few of the men — / gave lack of communication as the reason / for their divorces. Given the current divorce rate of nearly 50 percent , / that amounts to millions of cases in the United States every year — / a virtual epidemic of failed conversation. In my own research , / complaints / from women / about their husbands most often focused not / on tangible inequities such as having given up the chance for a career to accompany a husband to his , / or doing far more than their share of daily life-support work like cleaning , / cooking and social arrangements. Instead , / they focused / on communication : / “He doesn’t listen to me.” “He doesn’t talk to me.” I found , / as Hacker observed years before , / that most wives want their husbands to be , / first and foremost , / conversational partners , / but few husbands share this expectation of their wives.",
-          "chunk_translation": "社会学家凯瑟琳·科勒·里斯曼在她的新书《离婚谈话》中进行了报道 / that most of the women she interviewed / but only a few of the men / gave lack of communication as the reason / for their divorces. Given the current divorce rate of nearly 50 percent / that amounts to millions of cases in the United States every year / a virtual epidemic of failed conversation. In my own research / complaints / from women / about their husbands most often focused not / on tangible inequities such as having given up the chance for a career to accompany a husband to his / 或者做远远超过他们日常生活支持工作的事情，比如清洁 / cooking and social arrangements. Instead / they focused / on communication / He doesn’t listen to me.” “He doesn’t talk to me.” I found / 正如黑客几年前观察到的那样 / 大多数妻子都希望她们的丈夫成为这样的人 / 首先也是最重要的 / 对话伙伴 / 但很少有丈夫对妻子抱有这样的期望",
+          "chunk_translation": "社会学家凯瑟琳·科勒·里斯曼在其新书《离婚谈话》中报告 / 她采访的大多数女性—— / 但只有少数男性—— / 将缺乏沟通作为主要原因 / 导致她们离婚 鉴于目前接近50%的离婚率 / 这相当于美国每年有数百万起案例—— / 实际上是一场谈话失败的流行病 在我自己的研究中 / 抱怨 / 来自女性 / 对她们丈夫的抱怨往往并不集中 / 在切切实实的不平等上，比如放弃自己的职业发展机会去陪伴丈夫的事业 / 或者承担远超自己应尽份额的日常家务，如打扫 / 做饭和社交安排 相反 / 她们聚焦 / 于沟通问题： / “他根本不听我说。”“他从不跟我说话。”我发现 / 正如哈克多年前所观察到的 / 大多数妻子希望她们的丈夫成为 / 首要且最重要的 / 谈话伴侣 / 但很少有丈夫对妻子抱有这样的期望",
           "vocabulary": [
             {
               "word": "Sociologist",
@@ -1312,7 +1312,7 @@
           "text": "In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.",
           "translation": "简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。",
           "slashed_text": "In short , / the image / that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up / in front of his face , / while a woman glares at the back of it , / wanting to talk.",
-          "chunk_translation": "简而言之 / 图像 / that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up / in front of his face / 当一个女人瞪着它的背影时 / 想要说话",
+          "chunk_translation": "简而言之 / 最能代表当前危机的形象 / 是典型的漫画场景：一个男人坐在早餐桌前，手里举着报纸 / 挡在脸前 / 而女人则怒视着报纸的背面 / 渴望交谈",
           "vocabulary": [
             {
               "word": "short",
@@ -1370,7 +1370,7 @@
           "text": "I was addressing a small gathering in a suburban Virginia living room—a women’s group that had invited men to join them.",
           "translation": "我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个邀请男性加入的妇女团体。",
           "slashed_text": "I was addressing a small gathering in a suburban Virginia living room — / a women’s group / that had invited men to join them.",
-          "chunk_translation": "I was addressing a small gathering in a suburban Virginia living room / a women’s group / 邀请男人加入他们",
+          "chunk_translation": "我当时正在弗吉尼亚郊区的一间客厅里向一个小型聚会发表演讲—— / 这是一个女性团体 / 她们邀请了男性加入她们",
           "syntax": {
             "breakdown": [
               {
@@ -1388,7 +1388,7 @@
           "text": "Throughout the evening, one man had been particularly talkative, frequently offering ideas and anecdotes, while his wife sat silently beside him on the couch.",
           "translation": "整个晚上，一名男子特别健谈，经常提出想法和轶事，而他的妻子则默默地坐在他旁边的沙发上。",
           "slashed_text": "Throughout the evening , / one man had been particularly talkative , / frequently offering ideas and anecdotes , / while his wife sat silently beside him on the couch.",
-          "chunk_translation": "整个晚上 / 有一个人特别健谈 / 经常提供想法和轶事 / 而他的妻子静静地坐在他旁边的沙发上",
+          "chunk_translation": "整个晚上 / 一名男子表现得格外健谈 / 频繁地发表观点并分享轶事 / 而他的妻子则静静地坐在沙发上他身边",
           "syntax": {
             "breakdown": [
               {
@@ -1406,7 +1406,7 @@
           "text": "Toward the end of the evening, I commented that women frequently complain that their husbands don’t talk to them.",
           "translation": "晚上快结束时，我评论说，女性经常抱怨她们的丈夫不和她们说话。",
           "slashed_text": "Toward the end of the evening , / I commented / that women frequently complain / that their husbands don’t talk to them.",
-          "chunk_translation": "傍晚时分 / 我评论了 / 女性经常抱怨 / 她们的丈夫不和她们说话",
+          "chunk_translation": "在傍晚聚会快结束时 / 我评论道 / 女性经常抱怨 / 她们的丈夫不跟她们说话",
           "syntax": {
             "breakdown": [
               {
@@ -1424,7 +1424,7 @@
           "text": "This man quickly nodded in agreement.",
           "translation": "这人连忙点头答应。",
           "slashed_text": "This man quickly nodded / in agreement.",
-          "chunk_translation": "This man quickly nodded / in agreement",
+          "chunk_translation": "这名男子迅速点头 / 表示赞同",
           "syntax": {
             "breakdown": [
               {
@@ -1442,7 +1442,7 @@
           "text": "He gestured toward his wife and said, “She’s the talker in our family.” The room burst into laughter; the man looked puzzled and hurt.",
           "translation": "他指着他的妻子说：“她是我们家里最健谈的人。”房间里爆发出一阵笑声。那人看上去既困惑又受伤。",
           "slashed_text": "He gestured toward his wife and said , / “She’s the talker in our family.” The room burst / into laughter ; / the man looked puzzled and hurt.",
-          "chunk_translation": "他指着他的妻子说道 / She’s the talker in our family.” The room burst / into laughter / 那名男子看上去既困惑又受伤",
+          "chunk_translation": "他指着他的妻子说道 / “她才是我们家话多的人。”房间里爆发 / 出一阵笑声； / 那名男子看上去既困惑又委屈",
           "syntax": {
             "breakdown": [
               {
@@ -1460,7 +1460,7 @@
           "text": "“It’s true,” he explained.",
           "translation": "“这是真的，”他解释道。",
           "slashed_text": "“It’s true , / ” he explained.",
-          "chunk_translation": "这是真的 / he explained",
+          "chunk_translation": "“这是真的， / ”他解释道",
           "syntax": {
             "breakdown": [
               {
@@ -1478,7 +1478,7 @@
           "text": "“When I come home from work, I have nothing to say.",
           "translation": "“当我下班回家时，我无话可说。",
           "slashed_text": "“ / When I come home / from work , / I have nothing to say.",
-          "chunk_translation": " / When I come home / from work / 我无话可说",
+          "chunk_translation": "“ / 当我回到家 / 下班时， / 我无话可说",
           "syntax": {
             "breakdown": [
               {
@@ -1496,7 +1496,7 @@
           "text": "If she didn’t keep the conversation going, we’d spend the whole evening in silence.”",
           "translation": "如果她不继续谈话，我们整个晚上都会保持沉默。”",
           "slashed_text": "/ If she didn’t keep the conversation going , / we’d spend the whole evening / in silence.”",
-          "chunk_translation": "如果她不继续谈话 / we’d spend the whole evening / in silence",
+          "chunk_translation": "/ 如果她不把对话继续下去 / 我们整个晚上都会 / 在沉默中度过。”",
           "syntax": {
             "breakdown": [
               {
@@ -1514,7 +1514,7 @@
           "text": "This episode crystallizes the irony that although American men tend to talk more than women in public situations, they often talk less at home.",
           "translation": "这一集体现了一个讽刺之处：尽管美国男性在公共场合比女性说话更多，但在家里却往往说话更少。",
           "slashed_text": "This episode crystallizes the irony / that / although American men tend to talk more than women / in public situations , / they often talk less / at home.",
-          "chunk_translation": "这一集讽刺的结晶 / 那 / although American men tend to talk more than women / in public situations / they often talk less / at home",
+          "chunk_translation": "这一幕体现了这种极具讽刺意味的现象 / 即 / 尽管美国男性往往比女性说得更多 / 在公共场合 / 但他们往往说得更少 / 在家里",
           "syntax": {
             "breakdown": [
               {
@@ -1537,7 +1537,7 @@
           "text": "And this pattern is wreaking havoc with marriage.",
           "translation": "这种模式正在对婚姻造成严重破坏。",
           "slashed_text": "And this pattern is wreaking havoc / with marriage.",
-          "chunk_translation": "And this pattern is wreaking havoc / with marriage",
+          "chunk_translation": "而这种模式正在造成严重破坏 / 对婚姻关系",
           "syntax": {
             "breakdown": [
               {
@@ -1555,7 +1555,7 @@
           "text": "The pattern was observed by political scientist Andrew Hacker in the late 1970s.",
           "translation": "政治学家安德鲁·哈克 (Andrew Hacker) 在 20 世纪 70 年代末观察到了这一模式。",
           "slashed_text": "The pattern was observed / by political scientist Andrew Hacker in the late 1970s.",
-          "chunk_translation": "The pattern was observed / by political scientist Andrew Hacker in the late 1970s",
+          "chunk_translation": "这种模式早在20世纪70年代末就被观察到 / 由政治学家安德鲁·哈克提出",
           "syntax": {
             "breakdown": [
               {
@@ -1573,7 +1573,7 @@
           "text": "Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women she interviewed—but only a few of the men—gave lack of communication as the reason for their divorces.",
           "translation": "社会学家凯瑟琳·科勒·里斯曼（Catherine Kohler Riessman）在她的新书《离婚谈话》中报告说，她采访的大多数女性（但只有少数男性）都将缺乏沟通作为离婚的原因。",
           "slashed_text": "Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk / that most of the women she interviewed — / but only a few of the men — / gave lack of communication as the reason / for their divorces.",
-          "chunk_translation": "社会学家凯瑟琳·科勒·里斯曼在她的新书《离婚谈话》中进行了报道 / that most of the women she interviewed / but only a few of the men / gave lack of communication as the reason / for their divorces",
+          "chunk_translation": "社会学家凯瑟琳·科勒·里斯曼在其新书《离婚谈话》中报告 / 她采访的大多数女性—— / 但只有少数男性—— / 将缺乏沟通作为主要原因 / 导致她们离婚",
           "syntax": {
             "breakdown": [
               {
@@ -1591,7 +1591,7 @@
           "text": "Given the current divorce rate of nearly 50 percent, that amounts to millions of cases in the United States every year—a virtual epidemic of failed conversation.",
           "translation": "鉴于目前近 50% 的离婚率，美国每年的离婚率达到数百万起——几乎是失败对话的流行病。",
           "slashed_text": "Given the current divorce rate of nearly 50 percent , / that amounts to millions of cases in the United States every year — / a virtual epidemic of failed conversation.",
-          "chunk_translation": "鉴于目前近50%的离婚率 / that amounts to millions of cases in the United States every year / a virtual epidemic of failed conversation",
+          "chunk_translation": "鉴于目前接近50%的离婚率 / 这相当于美国每年有数百万起案例—— / 实际上是一场谈话失败的流行病",
           "syntax": {
             "breakdown": [
               {
@@ -1609,7 +1609,7 @@
           "text": "In my own research, complaints from women about their husbands most often focused not on tangible inequities such as having given up the chance for a career to accompany a husband to his, or doing far more than their share of daily life-support work like cleaning, cooking and social arrangements.",
           "translation": "在我自己的研究中，女性对丈夫的抱怨往往不是集中在有形的不平等上，比如放弃了陪伴丈夫的职业机会，或者做的远远超过了她们承担的日常生活支持工作，如清洁、烹饪和社交安排。",
           "slashed_text": "In my own research , / complaints / from women / about their husbands most often focused not / on tangible inequities such as having given up the chance for a career to accompany a husband to his , / or doing far more than their share of daily life-support work like cleaning , / cooking and social arrangements.",
-          "chunk_translation": "在我自己的研究中 / complaints / from women / about their husbands most often focused not / on tangible inequities such as having given up the chance for a career to accompany a husband to his / 或者做远远超过他们日常生活支持工作的事情，比如清洁 / 烹饪和社交安排",
+          "chunk_translation": "在我自己的研究中 / 抱怨 / 来自女性 / 对她们丈夫的抱怨往往并不集中 / 在切切实实的不平等上，比如放弃自己的职业发展机会去陪伴丈夫的事业 / 或者承担远超自己应尽份额的日常家务，如打扫 / 做饭和社交安排",
           "syntax": {
             "breakdown": [
               {
@@ -1627,7 +1627,7 @@
           "text": "Instead, they focused on communication: “He doesn’t listen to me.” “He doesn’t talk to me.” I found, as Hacker observed years before, that most wives want their husbands to be, first and foremost, conversational partners, but few husbands share this expectation of their wives.",
           "translation": "相反，他们专注于沟通：“他不听我的。” “他不跟我说话。”我发现，正如哈克多年前所观察到的那样，大多数妻子希望她们的丈夫首先成为谈话伙伴，但很少有丈夫对妻子抱有这样的期望。",
           "slashed_text": "Instead , / they focused / on communication : / “He doesn’t listen to me.” “He doesn’t talk to me.” I found , / as Hacker observed years before , / that most wives want their husbands to be , / first and foremost , / conversational partners , / but few husbands share this expectation of their wives.",
-          "chunk_translation": "反而 / they focused / on communication / He doesn’t listen to me.” “He doesn’t talk to me.” I found / 正如黑客几年前观察到的那样 / 大多数妻子都希望她们的丈夫成为这样的人 / 首先也是最重要的 / 对话伙伴 / 但很少有丈夫对妻子抱有这样的期望",
+          "chunk_translation": "相反 / 她们聚焦 / 于沟通问题： / “他根本不听我说。”“他从不跟我说话。”我发现 / 正如哈克多年前所观察到的 / 大多数妻子希望她们的丈夫成为 / 首要且最重要的 / 谈话伴侣 / 但很少有丈夫对妻子抱有这样的期望",
           "syntax": {
             "breakdown": [
               {
@@ -1645,7 +1645,7 @@
           "text": "In short, the image that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face, while a woman glares at the back of it, wanting to talk.",
           "translation": "简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男人坐在早餐桌前，面前举着一份报纸，而一个女人则盯着报纸后面，想要说话。",
           "slashed_text": "In short , / the image / that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up / in front of his face , / while a woman glares at the back of it , / wanting to talk.",
-          "chunk_translation": "简而言之 / 图像 / that best represents the current crisis is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up / in front of his face / 当一个女人瞪着它的背影时 / 想要说话",
+          "chunk_translation": "简而言之 / 最能代表当前危机的形象 / 是典型的漫画场景：一个男人坐在早餐桌前，手里举着报纸 / 挡在脸前 / 而女人则怒视着报纸的背面 / 渴望交谈",
           "syntax": {
             "breakdown": [
               {
@@ -2123,7 +2123,7 @@
           "text": "Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers. These habits have helped companies earn billions of dollars when customers eat snacks or wipe counters almost without thinking, often in response to a carefully designed set of daily cues.",
           "translation": "在过去的十年里，许多公司已经完善了在消费者中创造自动行为（习惯）的艺术。当顾客几乎不假思索地吃零食或擦拭柜台时，这些习惯帮助公司赚取了数十亿美元，这通常是对一套精心设计的日常提示的反应。",
           "slashed_text": "Over the past decade , / many companies had perfected the art of creating automatic behaviors — / habits — / among consumers. These habits have helped companies earn billions of dollars / when customers eat snacks or wipe counters almost / without thinking , / often / in response to a carefully designed set of daily cues.",
-          "chunk_translation": "过去十年 / many companies had perfected the art of creating automatic behaviors / habits / among consumers. These habits have helped companies earn billions of dollars / when customers eat snacks or wipe counters almost / without thinking / often / in response to a carefully designed set of daily cues",
+          "chunk_translation": "在过去十年中 / 许多公司已经完善了培养无意识自动行为的技巧—— / 即习惯—— / 在消费者群体中 这些习惯帮助公司赚取了数十亿美元 / 当顾客吃零食或擦柜台几乎 / 不假思索时 / 往往 / 是对一套精心设计的日常暗示做出的反应",
           "vocabulary": [
             {
               "word": "past",
@@ -2177,7 +2177,7 @@
           "text": "“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr. Curtis, the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine. “We wanted to learn from private industry how to create new behaviors that happen automatically.”",
           "translation": "伦敦卫生与热带医学院卫生中心主任柯蒂斯博士说：“一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，仍然是杀手，只是因为我们不知道如何改变人们的习惯。” “我们想向私营企业学习如何创造自动发生的新行为。”",
           "slashed_text": "“There are fundamental public health problems , / like dirty hands instead of a soap habit , / that remain killers only / because we can’t figure out how to change people’s habits , / ” said Dr. Curtis , / the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine. “We wanted to learn / from private industry how to create new behaviors / that happen automatically.”",
-          "chunk_translation": "There are fundamental public health problems / 就像脏手而不是肥皂习惯 / 仍然只是杀手 / because we can’t figure out how to change people’s habits / said Dr. Curtis / the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine. “We wanted to learn / from private industry how to create new behaviors / 这会自动发生。”",
+          "chunk_translation": "“存在一些根本性的公共卫生问题 / 比如手脏却不用肥皂洗手 / 这些问题仍然是致命杀手，仅仅 / 是因为我们不知道如何改变人们的习惯 / ”柯蒂斯博士说 柯蒂斯 / 伦敦卫生与热带医学院卫生中心主任 “我们想学习 / 向私营企业学习如何创造新的行为模式 / 使其能够自动发生。”",
           "vocabulary": [
             {
               "word": "fundamental",
@@ -2231,7 +2231,7 @@
           "text": "The companies that Dr. Curtis turned to—Procter & Gamble, Colgate-Palmolive and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that corporations could use to introduce new routines.",
           "translation": "柯蒂斯博士求助的公司——宝洁公司、高露洁棕榄公司和联合利华公司——已经投资了数亿美元，寻找消费者生活中的微妙线索，企业可以利用这些线索来引入新的生活习惯。",
           "slashed_text": "The companies / that Dr. Curtis turned to — / Procter & Gamble , / Colgate-Palmolive and Unilever — / had invested hundreds of millions of dollars finding the subtle cues / in consumers’ lives / that corporations could use to introduce new routines.",
-          "chunk_translation": "公司 / that Dr. Curtis turned to / Procter & Gamble / Colgate-Palmolive and Unilever / had invested hundreds of millions of dollars finding the subtle cues / in consumers’ lives / 企业可以用它来引入新的惯例",
+          "chunk_translation": "这些公司 / 柯蒂斯博士 求助的公司—— / 宝洁、 / 高露洁棕榄和联合利华—— / 已经投入了数亿美元去寻找微妙的暗示 / 在消费者的日常生活中 / 企业可以利用这些暗示来引入新的生活惯例",
           "vocabulary": [
             {
               "word": "companies",
@@ -2285,7 +2285,7 @@
           "text": "If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits. A century ago, few people regularly brushed their teeth multiple times a day. Today, because of shrewd advertising and public health campaigns, many Americans habitually give their pearly whites a cavity-preventing scrub twice a day, often with Colgate, Crest or one of the other brands.",
           "translation": "如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。一个世纪前，很少有人每天定期刷牙多次。如今，由于精明的广告和公共卫生运动，许多美国人习惯性地每天两次给他们的珍珠白皮肤涂上防蛀牙磨砂膏，通常使用高露洁、佳洁士或其他品牌的产品。",
           "slashed_text": "/ If you look hard enough , / you’ll find / that many of the products we use every day — / chewing gums , / skin moisturizers , / disinfecting wipes , / air fresheners , / water purifiers , / health snacks , / teeth whiteners , / fabric softeners , / vitamins — / are results of manufactured habits. A century ago , / few people regularly brushed their teeth multiple times a day. Today , / because of shrewd advertising and public health campaigns , / many Americans habitually give their pearly whites a cavity-preventing scrub twice a day , / often / with Colgate , / Crest or one of the other brands.",
-          "chunk_translation": "如果你看得足够仔细 / 你会发现 / 我们每天使用的许多产品 / 口香糖 / 皮肤保湿剂 / 消毒湿巾 / 空气清新剂 / 净水器 / 健康零食 / 牙齿美白剂 / 织物柔软剂 / vitamins / are results of manufactured habits. A century ago / few people regularly brushed their teeth multiple times a day. Today / 由于精明的广告和公共卫生运动 / 许多美国人习惯每天两次给他们的珍珠白皮肤进行预防蛀牙的磨砂膏 / often / with Colgate / Crest 或其他品牌之一",
+          "chunk_translation": "/ 如果你仔细观察 / 你会发现 / 我们每天使用的许多产品—— / 口香糖、 / 润肤乳、 / 消毒湿巾、 / 空气清新剂、 / 净水器、 / 健康零食、 / 牙齿美白剂、 / 织物柔软剂、 / 维生素—— / 都是人为制造习惯的产物 一个世纪前 / 很少有人每天定期刷牙多次 如今 / 得益于精明的广告宣传和公共卫生运动 / 许多美国人习惯性地每天两次刷净他们洁白的牙齿以防蛀牙 / 通常 / 使用高露洁、 / 佳洁士或其他品牌之一",
           "vocabulary": [
             {
               "word": "look",
@@ -2339,7 +2339,7 @@
           "text": "A few decades ago, many people didn’t drink water outside of a meal. Then beverage companies started bottling the production of far-off springs, and now office workers unthinkingly sip bottled water all day long. Chewing gum, once bought primarily by adolescent boys, is now featured in commercials as a breath freshener and teeth cleanser for use after a meal. Skin moisturizers are advertised as part of morning beauty rituals, slipped in between hair brushing and putting on makeup.",
           "translation": "几十年前，许多人饭后不喝水。后来饮料公司开始将遥远的泉水生产装瓶，现在上班族整天不假思索地喝着瓶装水。口香糖曾经主要由青春期男孩购买，现在在广告中作为餐后使用的口气清新剂和牙齿清洁剂。皮肤保湿霜被宣传为早晨美容仪式的一部分，在梳头和化妆之间使用。",
           "slashed_text": "A few decades ago , / many people didn’t drink water outside of a meal. Then beverage companies started bottling the production of far-off springs , / and now office workers unthinkingly sip bottled water all day long. Chewing gum , / once bought primarily / by adolescent boys , / is now featured / in commercials as a breath freshener and teeth cleanser for use after a meal. Skin moisturizers are advertised as part of morning beauty rituals , / slipped / in between hair brushing and putting / on makeup.",
-          "chunk_translation": "几十年前 / many people didn’t drink water outside of a meal. Then beverage companies started bottling the production of far-off springs / and now office workers unthinkingly sip bottled water all day long. Chewing gum / once bought primarily / by adolescent boys / is now featured / in commercials as a breath freshener and teeth cleanser for use after a meal. Skin moisturizers are advertised as part of morning beauty rituals / slipped / in between hair brushing and putting / on makeup",
+          "chunk_translation": "几十年前 / 许多人在正餐之外并不喝水 后来饮料公司开始将偏远泉水装瓶销售 / 如今上班族整天不假思索地喝着瓶装水 口香糖 / 曾经主要是购买对象 / 为青春期男孩 / 如今在广告中被宣传 / 作为餐后使用的口气清新剂和牙齿清洁剂 润肤霜被宣传为早晨美容护肤程序的一部分 / 悄悄插入 / 在梳头和化 / 妆之间",
           "vocabulary": [
             {
               "word": "decades",
@@ -2393,7 +2393,7 @@
           "text": "“Our products succeed when they become part of daily or weekly patterns,” said Carol Berning, a consumer psychologist who recently retired from Procter & Gamble, the company that sold $76 billion of Tide, Crest and other products last year. “Creating positive habits is a huge part of improving our consumers’ lives, and it’s essential to making new products commercially viable.”",
           "translation": "“当我们的产品成为日常或每周模式的一部分时，我们的产品就成功了，”最近从宝洁公司退休的消费者心理学家卡罗尔·伯宁（Carol Berning）说，宝洁公司去年销售了 760 亿美元的汰渍、佳洁士和其他产品。 “养成积极的习惯是改善消费者生活的重要组成部分，对于使新产品具有商业可行性至关重要。”",
           "slashed_text": "“Our products succeed / when they become part of daily or weekly patterns , / ” said Carol Berning , / a consumer psychologist / who recently retired / from Procter & Gamble , / the company / that sold $76 billion of Tide , / Crest and other products last year. “Creating positive habits is a huge part of improving our consumers’ lives , / and it’s essential to making new products commercially viable.”",
-          "chunk_translation": "“我们的产品取得了成功 / when they become part of daily or weekly patterns / said Carol Berning / 消费者心理学家 / who recently retired / from Procter & Gamble / 公司 / 出售了 760 亿美元的 Tide / Crest and other products last year. “Creating positive habits is a huge part of improving our consumers’ lives / 这对于使新产品具有商业可行性至关重要。”",
+          "chunk_translation": "“我们的产品之所以成功 / 是因为它们融入了人们每天或每周的生活习惯中 / ”卡罗尔·伯宁说 / 一位消费者心理学家 / 她最近刚退休 / 从宝洁公司 / 这家公司 / 去年销售了760亿美元的汰渍、 / 佳洁士和其他产品 “养成积极的习惯是改善消费者生活的重要部分 / 这对使新产品具备商业可行性也至关重要。”",
           "vocabulary": [
             {
               "word": "products",
@@ -2447,7 +2447,7 @@
           "text": "Through experiments and observation, social scientists like Dr. Berning have learned that there is power in tying certain behaviors to habitual cues through ruthless advertising. As this new science of habit has emerged, controversies have erupted when the tactics have been used to sell questionable beauty creams or unhealthy foods.",
           "translation": "通过实验和观察，伯宁博士等社会科学家了解到，通过无情的广告将某些行为与习惯线索联系起来是有力量的。随着这种新的习惯科学的出现，当这种策略被用来销售有问题的美容霜或不健康食品时，争议就会爆发。",
           "slashed_text": "Through experiments and observation , / social scientists like Dr. Berning have learned / that there is power / in tying certain behaviors to habitual cues / through ruthless advertising. As this new science of habit has emerged , / controversies have erupted / when the tactics have been used to sell questionable beauty creams or unhealthy foods.",
-          "chunk_translation": "通过实验和观察 / social scientists like Dr. Berning have learned / that there is power / in tying certain behaviors to habitual cues / through ruthless advertising. As this new science of habit has emerged / 争议已经爆发 / 当这些策略被用来销售有问题的美容霜或不健康食品时",
+          "chunk_translation": "通过实验和观察 / 像伯宁博士这样的社会科学家 已经认识到 / 蕴含着巨大的力量 / 将特定行为与习惯性暗示绑定在一起 / 通过铺天盖地的广告宣传 随着这门新的习惯科学的出现 / 争议也随之爆发 / 当这些策略被用来推销存疑的美容霜或不健康食品时",
           "vocabulary": [
             {
               "word": "experiments",
@@ -2505,7 +2505,7 @@
           "text": "Over the past decade, many companies had perfected the art of creating automatic behaviors—habits—among consumers.",
           "translation": "在过去的十年里，许多公司已经完善了在消费者中创造自动行为（习惯）的艺术。",
           "slashed_text": "Over the past decade , / many companies had perfected the art of creating automatic behaviors — / habits — / among consumers.",
-          "chunk_translation": "过去十年 / many companies had perfected the art of creating automatic behaviors / habits / among consumers",
+          "chunk_translation": "在过去十年中 / 许多公司已经完善了培养无意识自动行为的技巧—— / 即习惯—— / 在消费者群体中",
           "syntax": {
             "breakdown": [
               {
@@ -2523,7 +2523,7 @@
           "text": "These habits have helped companies earn billions of dollars when customers eat snacks or wipe counters almost without thinking, often in response to a carefully designed set of daily cues.",
           "translation": "当顾客几乎不假思索地吃零食或擦拭柜台时，这些习惯帮助公司赚取了数十亿美元，这通常是对一套精心设计的日常提示的反应。",
           "slashed_text": "These habits have helped companies earn billions of dollars / when customers eat snacks or wipe counters almost / without thinking , / often / in response to a carefully designed set of daily cues.",
-          "chunk_translation": "这些习惯帮助公司赚取了数十亿美元 / when customers eat snacks or wipe counters almost / without thinking / often / in response to a carefully designed set of daily cues",
+          "chunk_translation": "这些习惯帮助公司赚取了数十亿美元 / 当顾客吃零食或擦柜台几乎 / 不假思索时 / 往往 / 是对一套精心设计的日常暗示做出的反应",
           "syntax": {
             "breakdown": [
               {
@@ -2541,7 +2541,7 @@
           "text": "“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.",
           "translation": "“存在一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，这些问题仍然是杀手，只是因为我们不知道如何改变人们的习惯，”博士说。",
           "slashed_text": "“There are fundamental public health problems , / like dirty hands instead of a soap habit , / that remain killers only / because we can’t figure out how to change people’s habits , / ” said Dr.",
-          "chunk_translation": "There are fundamental public health problems / 就像脏手而不是肥皂习惯 / 仍然只是杀手 / because we can’t figure out how to change people’s habits / said Dr",
+          "chunk_translation": "“存在一些根本性的公共卫生问题 / 比如手脏却不用肥皂洗手 / 这些问题仍然是致命杀手，仅仅 / 是因为我们不知道如何改变人们的习惯 / ”柯蒂斯博士说",
           "syntax": {
             "breakdown": [
               {
@@ -2582,7 +2582,7 @@
           "text": "“We wanted to learn from private industry how to create new behaviors that happen automatically.”",
           "translation": "“我们想向私营企业学习如何创造自动发生的新行为。”",
           "slashed_text": "“We wanted to learn / from private industry how to create new behaviors / that happen automatically.”",
-          "chunk_translation": "We wanted to learn / from private industry how to create new behaviors / 这会自动发生。”",
+          "chunk_translation": "“我们想学习 / 向私营企业学习如何创造新的行为模式 / 使其能够自动发生。”",
           "syntax": {
             "breakdown": [
               {
@@ -2600,7 +2600,7 @@
           "text": "The companies that Dr.",
           "translation": "博士的公司",
           "slashed_text": "The companies / that Dr.",
-          "chunk_translation": "公司 / 那个博士",
+          "chunk_translation": "这些公司 / 柯蒂斯博士",
           "syntax": {
             "breakdown": [
               {
@@ -2618,7 +2618,7 @@
           "text": "Curtis turned to—Procter & Gamble, Colgate-Palmolive and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that corporations could use to introduce new routines.",
           "translation": "柯蒂斯求助于宝洁公司、高露洁棕榄公司和联合利华公司，这些公司投资了数亿美元，寻找消费者生活中的微妙线索，企业可以利用这些线索来引入新的生活习惯。",
           "slashed_text": "Curtis turned to — / Procter & Gamble , / Colgate-Palmolive and Unilever — / had invested hundreds of millions of dollars finding the subtle cues / in consumers’ lives / that corporations could use to introduce new routines.",
-          "chunk_translation": "Curtis turned to / Procter & Gamble / Colgate-Palmolive and Unilever / had invested hundreds of millions of dollars finding the subtle cues / in consumers’ lives / 企业可以用它来引入新的惯例",
+          "chunk_translation": "求助的公司—— / 宝洁、 / 高露洁棕榄和联合利华—— / 已经投入了数亿美元去寻找微妙的暗示 / 在消费者的日常生活中 / 企业可以利用这些暗示来引入新的生活惯例",
           "syntax": {
             "breakdown": [
               {
@@ -2636,7 +2636,7 @@
           "text": "If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.",
           "translation": "如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。",
           "slashed_text": "/ If you look hard enough , / you’ll find / that many of the products we use every day — / chewing gums , / skin moisturizers , / disinfecting wipes , / air fresheners , / water purifiers , / health snacks , / teeth whiteners , / fabric softeners , / vitamins — / are results of manufactured habits.",
-          "chunk_translation": "如果你看得足够仔细 / 你会发现 / 我们每天使用的许多产品 / 口香糖 / 皮肤保湿剂 / 消毒湿巾 / 空气清新剂 / 净水器 / 健康零食 / 牙齿美白剂 / 织物柔软剂 / vitamins / are results of manufactured habits",
+          "chunk_translation": "/ 如果你仔细观察 / 你会发现 / 我们每天使用的许多产品—— / 口香糖、 / 润肤乳、 / 消毒湿巾、 / 空气清新剂、 / 净水器、 / 健康零食、 / 牙齿美白剂、 / 织物柔软剂、 / 维生素—— / 都是人为制造习惯的产物",
           "syntax": {
             "breakdown": [
               {
@@ -2677,7 +2677,7 @@
           "text": "Today, because of shrewd advertising and public health campaigns, many Americans habitually give their pearly whites a cavity-preventing scrub twice a day, often with Colgate, Crest or one of the other brands.",
           "translation": "如今，由于精明的广告和公共卫生运动，许多美国人习惯性地每天两次给他们的珍珠白皮肤涂上防蛀牙磨砂膏，通常使用高露洁、佳洁士或其他品牌的产品。",
           "slashed_text": "Today , / because of shrewd advertising and public health campaigns , / many Americans habitually give their pearly whites a cavity-preventing scrub twice a day , / often / with Colgate , / Crest or one of the other brands.",
-          "chunk_translation": "今天 / 由于精明的广告和公共卫生运动 / 许多美国人习惯每天两次给他们的珍珠白皮肤进行预防蛀牙的磨砂膏 / often / with Colgate / Crest 或其他品牌之一",
+          "chunk_translation": "如今 / 得益于精明的广告宣传和公共卫生运动 / 许多美国人习惯性地每天两次刷净他们洁白的牙齿以防蛀牙 / 通常 / 使用高露洁、 / 佳洁士或其他品牌之一",
           "syntax": {
             "breakdown": [
               {
@@ -2695,7 +2695,7 @@
           "text": "A few decades ago, many people didn’t drink water outside of a meal.",
           "translation": "几十年前，许多人饭后不喝水。",
           "slashed_text": "A few decades ago , / many people didn’t drink water outside of a meal.",
-          "chunk_translation": "几十年前 / 许多人饭后不喝水",
+          "chunk_translation": "几十年前 / 许多人在正餐之外并不喝水",
           "syntax": {
             "breakdown": [
               {
@@ -2713,7 +2713,7 @@
           "text": "Then beverage companies started bottling the production of far-off springs, and now office workers unthinkingly sip bottled water all day long.",
           "translation": "后来饮料公司开始将遥远的泉水生产装瓶，现在上班族整天不假思索地喝着瓶装水。",
           "slashed_text": "Then beverage companies started bottling the production of far-off springs , / and now office workers unthinkingly sip bottled water all day long.",
-          "chunk_translation": "然后饮料公司开始将遥远的泉水生产装瓶 / 现在上班族整天不假思索地喝着瓶装水",
+          "chunk_translation": "后来饮料公司开始将偏远泉水装瓶销售 / 如今上班族整天不假思索地喝着瓶装水",
           "syntax": {
             "breakdown": [
               {
@@ -2731,7 +2731,7 @@
           "text": "Chewing gum, once bought primarily by adolescent boys, is now featured in commercials as a breath freshener and teeth cleanser for use after a meal.",
           "translation": "口香糖曾经主要由青春期男孩购买，现在在广告中作为餐后使用的口气清新剂和牙齿清洁剂。",
           "slashed_text": "Chewing gum , / once bought primarily / by adolescent boys , / is now featured / in commercials as a breath freshener and teeth cleanser for use after a meal.",
-          "chunk_translation": "口香糖 / once bought primarily / by adolescent boys / is now featured / in commercials as a breath freshener and teeth cleanser for use after a meal",
+          "chunk_translation": "口香糖 / 曾经主要是购买对象 / 为青春期男孩 / 如今在广告中被宣传 / 作为餐后使用的口气清新剂和牙齿清洁剂",
           "syntax": {
             "breakdown": [
               {
@@ -2749,7 +2749,7 @@
           "text": "Skin moisturizers are advertised as part of morning beauty rituals, slipped in between hair brushing and putting on makeup.",
           "translation": "皮肤保湿霜被宣传为早晨美容仪式的一部分，在梳头和化妆之间使用。",
           "slashed_text": "Skin moisturizers are advertised as part of morning beauty rituals , / slipped / in between hair brushing and putting / on makeup.",
-          "chunk_translation": "皮肤保湿霜被宣传为早晨美容仪式的一部分 / slipped / in between hair brushing and putting / on makeup",
+          "chunk_translation": "润肤霜被宣传为早晨美容护肤程序的一部分 / 悄悄插入 / 在梳头和化 / 妆之间",
           "syntax": {
             "breakdown": [
               {
@@ -2767,7 +2767,7 @@
           "text": "“Our products succeed when they become part of daily or weekly patterns,” said Carol Berning, a consumer psychologist who recently retired from Procter & Gamble, the company that sold $76 billion of Tide, Crest and other products last year.",
           "translation": "“当我们的产品成为日常或每周模式的一部分时，我们的产品就成功了，”最近从宝洁公司退休的消费者心理学家卡罗尔·伯宁（Carol Berning）说，宝洁公司去年销售了 760 亿美元的汰渍、佳洁士和其他产品。",
           "slashed_text": "“Our products succeed / when they become part of daily or weekly patterns , / ” said Carol Berning , / a consumer psychologist / who recently retired / from Procter & Gamble , / the company / that sold $76 billion of Tide , / Crest and other products last year.",
-          "chunk_translation": "“我们的产品取得了成功 / when they become part of daily or weekly patterns / said Carol Berning / 消费者心理学家 / who recently retired / from Procter & Gamble / 公司 / 出售了 760 亿美元的 Tide / 去年佳洁士和其他产品",
+          "chunk_translation": "“我们的产品之所以成功 / 是因为它们融入了人们每天或每周的生活习惯中 / ”卡罗尔·伯宁说 / 一位消费者心理学家 / 她最近刚退休 / 从宝洁公司 / 这家公司 / 去年销售了760亿美元的汰渍、 / 佳洁士和其他产品",
           "syntax": {
             "breakdown": [
               {
@@ -2785,7 +2785,7 @@
           "text": "“Creating positive habits is a huge part of improving our consumers’ lives, and it’s essential to making new products commercially viable.”",
           "translation": "“养成积极的习惯是改善消费者生活的重要组成部分，对于使新产品具有商业可行性至关重要。”",
           "slashed_text": "“Creating positive habits is a huge part of improving our consumers’ lives , / and it’s essential to making new products commercially viable.”",
-          "chunk_translation": "Creating positive habits is a huge part of improving our consumers’ lives / 这对于使新产品具有商业可行性至关重要。”",
+          "chunk_translation": "“养成积极的习惯是改善消费者生活的重要部分 / 这对使新产品具备商业可行性也至关重要。”",
           "syntax": {
             "breakdown": [
               {
@@ -2803,7 +2803,7 @@
           "text": "Through experiments and observation, social scientists like Dr.",
           "translation": "通过实验和观察，像博士这样的社会科学家。",
           "slashed_text": "Through experiments and observation , / social scientists like Dr.",
-          "chunk_translation": "通过实验和观察 / 像博士这样的社会科学家",
+          "chunk_translation": "通过实验和观察 / 像伯宁博士这样的社会科学家",
           "syntax": {
             "breakdown": [
               {
@@ -2821,7 +2821,7 @@
           "text": "Berning have learned that there is power in tying certain behaviors to habitual cues through ruthless advertising.",
           "translation": "伯宁了解到，通过无情的广告将某些行为与习惯暗示联系起来是有力量的。",
           "slashed_text": "Berning have learned / that there is power / in tying certain behaviors to habitual cues / through ruthless advertising.",
-          "chunk_translation": "伯宁学到了 / that there is power / in tying certain behaviors to habitual cues / through ruthless advertising",
+          "chunk_translation": "已经认识到 / 蕴含着巨大的力量 / 将特定行为与习惯性暗示绑定在一起 / 通过铺天盖地的广告宣传",
           "syntax": {
             "breakdown": [
               {
@@ -2839,7 +2839,7 @@
           "text": "As this new science of habit has emerged, controversies have erupted when the tactics have been used to sell questionable beauty creams or unhealthy foods.",
           "translation": "随着这种新的习惯科学的出现，当这种策略被用来销售有问题的美容霜或不健康食品时，争议就会爆发。",
           "slashed_text": "As this new science of habit has emerged , / controversies have erupted / when the tactics have been used to sell questionable beauty creams or unhealthy foods.",
-          "chunk_translation": "随着这门新的习惯科学的出现 / 争议已经爆发 / 当这些策略被用来销售有问题的美容霜或不健康食品时",
+          "chunk_translation": "随着这门新的习惯科学的出现 / 争议也随之爆发 / 当这些策略被用来推销存疑的美容霜或不健康食品时",
           "syntax": {
             "breakdown": [
               {
@@ -3312,7 +3312,7 @@
           "text": "Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law. The jury is also said to be the best surviving example of direct rather than representative democracy. In a direct democracy, citizens take turns governing themselves, rather than electing representatives to govern for them.",
           "translation": "许多美国人认为陪审团制度是关键民主价值观的具体体现，其中包括所有符合最低年龄和文化水平的公民都平等有能力担任陪审员的原则；陪审员应从具有代表性的社区中随机选出；任何公民不应因种族、宗教、性别或国籍而被剥夺担任陪审团成员的权利；被告有权接受同侪的审判；判决应该代表社会良心，而不仅仅是法律条文。陪审团也被认为是现存的直接民主而非代议制民主的最佳范例。在直接民主中，公民轮流自治，而不是选举代表来治理。",
           "slashed_text": "Many Americans regard the jury system as a concrete expression of crucial democratic values , / including the principles / that all citizens / who meet minimal qualifications of age and literacy are equally competent to serve / on juries ; / that jurors should be selected randomly from a representative cross section of the community ; / that no citizen should be denied the right to serve on a jury / on account of race , / religion , / sex , / or national origin ; / that defendants are entitled to trial / by their peers ; / and / that verdicts should represent the conscience of the community and not just the letter of the law. The jury is also said to be the best surviving example of direct rather than representative democracy. In a direct democracy , / citizens take turns governing themselves , / rather than electing representatives to govern / for them.",
-          "chunk_translation": "许多美国人认为陪审团制度是重要民主价值观的具体体现 / 包括原则 / 所有公民 / who meet minimal qualifications of age and literacy are equally competent to serve / on juries / 陪审员应从具有代表性的社区中随机选出 / that no citizen should be denied the right to serve on a jury / on account of race / 宗教 / 性别 / 或国籍 / that defendants are entitled to trial / by their peers / 和 / that verdicts should represent the conscience of the community and not just the letter of the law. The jury is also said to be the best surviving example of direct rather than representative democracy. In a direct democracy / 公民轮流自治 / rather than electing representatives to govern / for them",
+          "chunk_translation": "许多美国人将陪审团制度视为关键民主价值观的具体体现 / 包括以下原则： / 所有公民 / 凡符合年龄和文化程度最低资格的均享有同等资格担任 / 陪审员； / 陪审员应从社区中具有代表性的各阶层中随机选出； / 任何公民不得被剥夺担任陪审员的权利 / 基于种族、 / 宗教、 / 性别、 / 或民族血统； / 被告有权接受审判 / 由其同辈审判； / 以及 / 裁决应代表社区的良知而不仅仅是法律条文 陪审团也被认为是现存的直接民主而非代议制民主的最佳范例 在直接民主制度下 / 公民轮流治理自己 / 而不是选举代表来治理 / 他们",
           "vocabulary": [
             {
               "word": "regard",
@@ -3366,7 +3366,7 @@
           "text": "But as recently as in 1968, jury selection procedures conflicted with these democratic ideals. In some states, for example, jury duty was limited to persons of supposedly superior intelligence, education, and moral character. Although the Supreme Court of the United States had prohibited intentional racial discrimination in jury selection as early as the 1880 case of Strauder v. West Virginia , the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws.",
           "translation": "但就在 1968 年，陪审团遴选程序与这些民主理想发生了冲突。例如，在一些州，陪审员职责仅限于被认为具有较高智力、教育程度和道德品质的人。尽管美国最高法院早在1880年的斯特劳德诉西弗吉尼亚州案中就禁止在陪审团选择中存在故意种族歧视，但选择所谓精英或蓝带陪审团的做法为绕过这一法律和其他反歧视法律提供了便捷的方法。",
           "slashed_text": "But as recently as in 1968 , / jury selection procedures conflicted / with these democratic ideals. In some states , / for example , / jury duty was limited to persons of supposedly superior intelligence , / education , / and moral character. / Although the Supreme Court of the United States had prohibited intentional racial discrimination / in jury selection as early as the 1880 case of Strauder v. West Virginia , / the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws.",
-          "chunk_translation": "但就在 1968 年 / jury selection procedures conflicted / with these democratic ideals. In some states / 例如 / 陪审团的职责仅限于被认为具有高智商的人 / 教育 / 和道德品质 / Although the Supreme Court of the United States had prohibited intentional racial discrimination / in jury selection as early as the 1880 case of Strauder v. West Virginia / 选择所谓的精英或蓝带陪审团的做法为绕过该法和其他反歧视法提供了便捷的方法",
+          "chunk_translation": "但就在1968年 / 陪审团遴选程序产生了冲突 / 与这些民主理想 在一些州 / 例如 / 陪审员职责仅限于那些被认为智力超群、受过良好教育的人 / 具有良好教育、 / 以及道德品质的人 / 尽管美国最高法院早在1880年的斯特劳德诉西弗吉尼亚州一案中就已禁止在陪审团遴选中蓄意进行种族歧视 / 在陪审团遴选中，早在1880年的斯特劳德诉 西弗吉尼亚州案中 / 选拔所谓的精英或“蓝带”陪审团的做法为绕开该项法律和其他反歧视法律提供了便利途径",
           "vocabulary": [
             {
               "word": "recently",
@@ -3420,7 +3420,7 @@
           "text": "The system also failed to regularly include women on juries until the mid-20th century.",
           "translation": "直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。",
           "slashed_text": "The system also failed to regularly include women / on juries until the mid-20th century.",
-          "chunk_translation": "The system also failed to regularly include women / on juries until the mid-20th century",
+          "chunk_translation": "该制度在20世纪中叶之前也未能定期吸纳女性 / 加入陪审团",
           "vocabulary": [
             {
               "word": "system",
@@ -3464,7 +3464,7 @@
           "text": "Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty. Even then several states automatically exempted women from jury duty unless they personally asked to have their names included on the jury list. This practice was justified by the claim that women were needed at home, and it kept juries unrepresentative of women through the 1960s.",
           "translation": "尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。这种做法的合理性在于，家庭需要女性，并且在 20 世纪 60 年代，陪审团一直无法代表女性。",
           "slashed_text": "/ Although women first served / on state juries / in Utah in 1898 , / it was not until the 1940s / that a majority of states made women eligible / for jury duty. Even then several states automatically exempted women / from jury duty / unless they personally asked to have their names included on the jury list. This practice was justified by the claim / that women were needed / at home , / and it kept juries unrepresentative of women through the 1960s.",
-          "chunk_translation": "Although women first served / on state juries / in Utah in 1898 / 直到20世纪40年代 / that a majority of states made women eligible / for jury duty. Even then several states automatically exempted women / from jury duty / unless they personally asked to have their names included on the jury list. This practice was justified by the claim / that women were needed / at home / 整个 20 世纪 60 年代，陪审团一直没有女性代表",
+          "chunk_translation": "/ 尽管女性早在1898年就首次在犹他州担任州陪审员 / 在州陪审团中 / 1898年于犹他州 / 但直到20世纪40年代 / 大多数州才赋予女性担任陪审员的资格 / 担任陪审员 即便在那时，一些州也自动免除女性 / 担任陪审员的义务 / 除非她们亲自要求将自己的名字列入陪审员名单 这种做法被冠以正当理由 / 称家庭需要女性 / 在家里 / 这导致在整个20世纪60年代陪审团中都缺乏女性代表",
           "vocabulary": [
             {
               "word": "Although",
@@ -3518,7 +3518,7 @@
           "text": "In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury. This law abolished special educational requirements for federal jurors and required them to be selected at random from a cross section of the entire community. In the landmark 1975 decision Taylor v. Louisiana, the Supreme Court extended the requirement that juries be representative of all parts of the community to the state level. The Taylor decision also declared sex discrimination in jury selection to be unconstitutional and ordered states to use the same procedures for selecting male and female jurors.",
           "translation": "1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。该法律废除了对联邦陪审员的特殊教育要求，并要求他们从整个社区的各个阶层中随机选出。在 1975 年具有里程碑意义的泰勒诉路易斯安那州案中，最高法院将陪审团必须代表社会各阶层的要求扩展到州一级。泰勒裁决还宣布陪审团选择中的性别歧视违宪，并命令各州使用相同的程序来选择男性和女性陪审员。",
           "slashed_text": "In 1968 , / the Congress of the United States passed the Jury Selection and Service Act , / ushering in a new era of democratic reforms for the jury. This law abolished special educational requirements / for federal jurors and required them to be selected / at random from a cross section of the entire community. In the landmark 1975 decision Taylor v. Louisiana , / the Supreme Court extended the requirement / that juries be representative of all parts of the community to the state level. The Taylor decision also declared sex discrimination / in jury selection to be unconstitutional and ordered states to use the same procedures / for selecting male and female jurors.",
-          "chunk_translation": "1968年 / 美国国会通过陪审团遴选和服务法案 / ushering in a new era of democratic reforms for the jury. This law abolished special educational requirements / for federal jurors and required them to be selected / at random from a cross section of the entire community. In the landmark 1975 decision Taylor v. Louisiana / 最高法院扩大了这一要求 / that juries be representative of all parts of the community to the state level. The Taylor decision also declared sex discrimination / in jury selection to be unconstitutional and ordered states to use the same procedures / for selecting male and female jurors",
+          "chunk_translation": "1968年 / 美国国会通过了《陪审团遴选与服务法案》 / 开启了陪审团民主改革的新时代 该法废除了对联邦陪审员的特殊教育要求 / 并要求从整个社区的各个阶层中随机选出陪审员 / 随机从整个社区的各阶层中选出 在1975年具有里程碑意义的泰勒诉 路易斯安那州案的裁决中 / 最高法院将陪审团必须代表社区各群体的要求扩大到州一级 / 陪审团应代表州一级社区各个群体的要求 泰勒案的裁决还宣布在陪审团遴选中的性别歧视违宪 / 并命令各州采用相同的程序 / 选拔男性和女性陪审员",
           "vocabulary": [
             {
               "word": "Congress",
@@ -3576,7 +3576,7 @@
           "text": "Many Americans regard the jury system as a concrete expression of crucial democratic values, including the principles that all citizens who meet minimal qualifications of age and literacy are equally competent to serve on juries; that jurors should be selected randomly from a representative cross section of the community; that no citizen should be denied the right to serve on a jury on account of race, religion, sex, or national origin; that defendants are entitled to trial by their peers; and that verdicts should represent the conscience of the community and not just the letter of the law.",
           "translation": "许多美国人认为陪审团制度是关键民主价值观的具体体现，其中包括所有符合最低年龄和文化水平的公民都平等有能力担任陪审员的原则；陪审员应从具有代表性的社区中随机选出；任何公民不应因种族、宗教、性别或国籍而被剥夺担任陪审团成员的权利；被告有权接受同侪的审判；判决应该代表社会良心，而不仅仅是法律条文。",
           "slashed_text": "Many Americans regard the jury system as a concrete expression of crucial democratic values , / including the principles / that all citizens / who meet minimal qualifications of age and literacy are equally competent to serve / on juries ; / that jurors should be selected randomly from a representative cross section of the community ; / that no citizen should be denied the right to serve on a jury / on account of race , / religion , / sex , / or national origin ; / that defendants are entitled to trial / by their peers ; / and / that verdicts should represent the conscience of the community and not just the letter of the law.",
-          "chunk_translation": "许多美国人认为陪审团制度是重要民主价值观的具体体现 / 包括原则 / 所有公民 / who meet minimal qualifications of age and literacy are equally competent to serve / on juries / 陪审员应从具有代表性的社区中随机选出 / that no citizen should be denied the right to serve on a jury / on account of race / 宗教 / 性别 / 或国籍 / that defendants are entitled to trial / by their peers / 和 / 判决应代表社会良心，而不仅仅是法律条文",
+          "chunk_translation": "许多美国人将陪审团制度视为关键民主价值观的具体体现 / 包括以下原则： / 所有公民 / 凡符合年龄和文化程度最低资格的均享有同等资格担任 / 陪审员； / 陪审员应从社区中具有代表性的各阶层中随机选出； / 任何公民不得被剥夺担任陪审员的权利 / 基于种族、 / 宗教、 / 性别、 / 或民族血统； / 被告有权接受审判 / 由其同辈审判； / 以及 / 裁决应代表社区的良知而不仅仅是法律条文",
           "syntax": {
             "breakdown": [
               {
@@ -3594,7 +3594,7 @@
           "text": "The jury is also said to be the best surviving example of direct rather than representative democracy.",
           "translation": "陪审团也被认为是现存的直接民主而非代议制民主的最佳范例。",
           "slashed_text": "The jury is also said to be the best surviving example of direct rather than representative democracy.",
-          "chunk_translation": "陪审团也被认为是现存的直接民主而非代议制民主的最佳范例。",
+          "chunk_translation": "陪审团也被认为是现存的直接民主而非代议制民主的最佳范例",
           "syntax": {
             "breakdown": [
               {
@@ -3612,7 +3612,7 @@
           "text": "In a direct democracy, citizens take turns governing themselves, rather than electing representatives to govern for them.",
           "translation": "在直接民主中，公民轮流自治，而不是选举代表来治理。",
           "slashed_text": "In a direct democracy , / citizens take turns governing themselves , / rather than electing representatives to govern / for them.",
-          "chunk_translation": "在直接民主制度下 / 公民轮流自治 / rather than electing representatives to govern / for them",
+          "chunk_translation": "在直接民主制度下 / 公民轮流治理自己 / 而不是选举代表来治理 / 他们",
           "syntax": {
             "breakdown": [
               {
@@ -3630,7 +3630,7 @@
           "text": "But as recently as in 1968, jury selection procedures conflicted with these democratic ideals.",
           "translation": "但就在 1968 年，陪审团遴选程序与这些民主理想相冲突。",
           "slashed_text": "But as recently as in 1968 , / jury selection procedures conflicted / with these democratic ideals.",
-          "chunk_translation": "但就在 1968 年 / jury selection procedures conflicted / with these democratic ideals",
+          "chunk_translation": "但就在1968年 / 陪审团遴选程序产生了冲突 / 与这些民主理想",
           "syntax": {
             "breakdown": [
               {
@@ -3648,7 +3648,7 @@
           "text": "In some states, for example, jury duty was limited to persons of supposedly superior intelligence, education, and moral character.",
           "translation": "例如，在一些州，陪审员职责仅限于被认为具有较高智力、教育程度和道德品质的人。",
           "slashed_text": "In some states , / for example , / jury duty was limited to persons of supposedly superior intelligence , / education , / and moral character.",
-          "chunk_translation": "在一些州 / 例如 / 陪审团的职责仅限于被认为具有高智商的人 / 教育 / 和道德品质",
+          "chunk_translation": "在一些州 / 例如 / 陪审员职责仅限于那些被认为智力超群、受过良好教育的人 / 具有良好教育、 / 以及道德品质的人",
           "syntax": {
             "breakdown": [
               {
@@ -3666,7 +3666,7 @@
           "text": "Although the Supreme Court of the United States had prohibited intentional racial discrimination in jury selection as early as the 1880 case of Strauder v.",
           "translation": "尽管美国最高法院早在1880年Strauder v.",
           "slashed_text": "/ Although the Supreme Court of the United States had prohibited intentional racial discrimination / in jury selection as early as the 1880 case of Strauder v.",
-          "chunk_translation": "Although the Supreme Court of the United States had prohibited intentional racial discrimination / in jury selection as early as the 1880 case of Strauder v",
+          "chunk_translation": "/ 尽管美国最高法院早在1880年的斯特劳德诉西弗吉尼亚州一案中就已禁止在陪审团遴选中蓄意进行种族歧视 / 在陪审团遴选中，早在1880年的斯特劳德诉",
           "syntax": {
             "breakdown": [
               {
@@ -3684,7 +3684,7 @@
           "text": "West Virginia , the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws.",
           "translation": "在西弗吉尼亚州，选择所谓精英或蓝带陪审团的做法为绕过这一法律和其他反歧视法律提供了便捷的方法。",
           "slashed_text": "West Virginia , / the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws.",
-          "chunk_translation": "西弗吉尼亚州 / 选择所谓的精英或蓝带陪审团的做法为绕过该法和其他反歧视法提供了便捷的方法",
+          "chunk_translation": "西弗吉尼亚州案中 / 选拔所谓的精英或“蓝带”陪审团的做法为绕开该项法律和其他反歧视法律提供了便利途径",
           "syntax": {
             "breakdown": [
               {
@@ -3702,7 +3702,7 @@
           "text": "The system also failed to regularly include women on juries until the mid-20th century.",
           "translation": "直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。",
           "slashed_text": "The system also failed to regularly include women / on juries until the mid-20th century.",
-          "chunk_translation": "The system also failed to regularly include women / on juries until the mid-20th century",
+          "chunk_translation": "该制度在20世纪中叶之前也未能定期吸纳女性 / 加入陪审团",
           "syntax": {
             "breakdown": [
               {
@@ -3720,7 +3720,7 @@
           "text": "Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.",
           "translation": "尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。",
           "slashed_text": "/ Although women first served / on state juries / in Utah in 1898 , / it was not until the 1940s / that a majority of states made women eligible / for jury duty.",
-          "chunk_translation": "Although women first served / on state juries / in Utah in 1898 / 直到20世纪40年代 / that a majority of states made women eligible / for jury duty",
+          "chunk_translation": "/ 尽管女性早在1898年就首次在犹他州担任州陪审员 / 在州陪审团中 / 1898年于犹他州 / 但直到20世纪40年代 / 大多数州才赋予女性担任陪审员的资格 / 担任陪审员",
           "syntax": {
             "breakdown": [
               {
@@ -3743,7 +3743,7 @@
           "text": "Even then several states automatically exempted women from jury duty unless they personally asked to have their names included on the jury list.",
           "translation": "即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。",
           "slashed_text": "Even then several states automatically exempted women / from jury duty / unless they personally asked to have their names included on the jury list.",
-          "chunk_translation": "Even then several states automatically exempted women / from jury duty / unless they personally asked to have their names included on the jury list",
+          "chunk_translation": "即便在那时，一些州也自动免除女性 / 担任陪审员的义务 / 除非她们亲自要求将自己的名字列入陪审员名单",
           "syntax": {
             "breakdown": [
               {
@@ -3761,7 +3761,7 @@
           "text": "This practice was justified by the claim that women were needed at home, and it kept juries unrepresentative of women through the 1960s.",
           "translation": "这种做法的合理性在于，家庭需要女性，并且在 20 世纪 60 年代，陪审团一直无法代表女性。",
           "slashed_text": "This practice was justified by the claim / that women were needed / at home , / and it kept juries unrepresentative of women through the 1960s.",
-          "chunk_translation": "这种做法是合理的索赔 / that women were needed / at home / 整个 20 世纪 60 年代，陪审团一直没有女性代表",
+          "chunk_translation": "这种做法被冠以正当理由 / 称家庭需要女性 / 在家里 / 这导致在整个20世纪60年代陪审团中都缺乏女性代表",
           "syntax": {
             "breakdown": [
               {
@@ -3779,7 +3779,7 @@
           "text": "In 1968, the Congress of the United States passed the Jury Selection and Service Act, ushering in a new era of democratic reforms for the jury.",
           "translation": "1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪审团民主改革的新时代。",
           "slashed_text": "In 1968 , / the Congress of the United States passed the Jury Selection and Service Act , / ushering in a new era of democratic reforms for the jury.",
-          "chunk_translation": "1968年 / 美国国会通过陪审团遴选和服务法案 / 开创陪审团民主改革新时代",
+          "chunk_translation": "1968年 / 美国国会通过了《陪审团遴选与服务法案》 / 开启了陪审团民主改革的新时代",
           "syntax": {
             "breakdown": [
               {
@@ -3797,7 +3797,7 @@
           "text": "This law abolished special educational requirements for federal jurors and required them to be selected at random from a cross section of the entire community.",
           "translation": "该法律废除了对联邦陪审员的特殊教育要求，并要求他们从整个社区的各个阶层中随机选出。",
           "slashed_text": "This law abolished special educational requirements / for federal jurors and required them to be selected / at random from a cross section of the entire community.",
-          "chunk_translation": "This law abolished special educational requirements / for federal jurors and required them to be selected / at random from a cross section of the entire community",
+          "chunk_translation": "该法废除了对联邦陪审员的特殊教育要求 / 并要求从整个社区的各个阶层中随机选出陪审员 / 随机从整个社区的各阶层中选出",
           "syntax": {
             "breakdown": [
               {
@@ -3815,7 +3815,7 @@
           "text": "In the landmark 1975 decision Taylor v.",
           "translation": "1975 年具有里程碑意义的泰勒诉。",
           "slashed_text": "In the landmark 1975 decision Taylor v.",
-          "chunk_translation": "1975 年具有里程碑意义的泰勒诉",
+          "chunk_translation": "在1975年具有里程碑意义的泰勒诉",
           "syntax": {
             "breakdown": [
               {
@@ -3833,7 +3833,7 @@
           "text": "Louisiana, the Supreme Court extended the requirement that juries be representative of all parts of the community to the state level.",
           "translation": "路易斯安那州最高法院将陪审团必须代表社区各个部分的要求扩展到州一级。",
           "slashed_text": "Louisiana , / the Supreme Court extended the requirement / that juries be representative of all parts of the community to the state level.",
-          "chunk_translation": "路易斯安那州 / 最高法院扩大了这一要求 / 陪审团应代表州一级社区的各个部分",
+          "chunk_translation": "路易斯安那州案的裁决中 / 最高法院将陪审团必须代表社区各群体的要求扩大到州一级 / 陪审团应代表州一级社区各个群体的要求",
           "syntax": {
             "breakdown": [
               {
@@ -3851,7 +3851,7 @@
           "text": "The Taylor decision also declared sex discrimination in jury selection to be unconstitutional and ordered states to use the same procedures for selecting male and female jurors.",
           "translation": "泰勒裁决还宣布陪审团选择中的性别歧视违宪，并命令各州使用相同的程序来选择男性和女性陪审员。",
           "slashed_text": "The Taylor decision also declared sex discrimination / in jury selection to be unconstitutional and ordered states to use the same procedures / for selecting male and female jurors.",
-          "chunk_translation": "The Taylor decision also declared sex discrimination / in jury selection to be unconstitutional and ordered states to use the same procedures / for selecting male and female jurors",
+          "chunk_translation": "泰勒案的裁决还宣布在陪审团遴选中的性别歧视违宪 / 并命令各州采用相同的程序 / 选拔男性和女性陪审员",
           "syntax": {
             "breakdown": [
               {
