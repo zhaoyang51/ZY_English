@@ -413,10 +413,16 @@
   // Sentence and Vocab Interactions
   function setupSentenceAndVocabInteractions() {
     const examPaper = document.getElementById('examPaper');
+    const syntaxOverlay = document.getElementById('syntaxOverlay');
     const syntaxModal = document.getElementById('syntaxModal');
-    const syntaxModalContent = document.getElementById('syntaxModalContent');
     const closeSyntaxBtn = document.getElementById('closeSyntaxBtn');
     const vocabPopup = document.getElementById('vocabPopup');
+
+    function closeSyntaxModal() {
+      if (syntaxOverlay) syntaxOverlay.classList.remove('show');
+      if (syntaxModal) syntaxModal.classList.remove('show');
+      document.querySelectorAll('.exam-sent').forEach(el => el.classList.remove('active-sent'));
+    }
 
     examPaper.addEventListener('click', e => {
       const vocabSpan = e.target.closest('.exam-vocab');
@@ -430,6 +436,7 @@
 
       const sentSpan = e.target.closest('.exam-sent');
       if (sentSpan && AppState.textData) {
+        e.stopPropagation();
         const sid = Number(sentSpan.getAttribute('data-sid'));
         const sentObj = AppState.textData.sentences.find(s => s.sid === sid);
         if (sentObj) {
@@ -440,10 +447,20 @@
       }
     });
 
-    if (closeSyntaxBtn && syntaxModal) {
-      closeSyntaxBtn.onclick = () => {
-        syntaxModal.classList.remove('show');
-        document.querySelectorAll('.exam-sent').forEach(el => el.classList.remove('active-sent'));
+    if (closeSyntaxBtn) {
+      closeSyntaxBtn.onclick = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        closeSyntaxModal();
+      };
+    }
+
+    // Clicking directly on the syntax backdrop overlay closes it
+    if (syntaxOverlay) {
+      syntaxOverlay.onclick = (e) => {
+        if (e.target === syntaxOverlay) {
+          closeSyntaxModal();
+        }
       };
     }
 
@@ -456,6 +473,7 @@
       }
     });
 
+    // Global click listener to close popups and modals when clicking outside
     document.addEventListener('click', e => {
       // 1. Close Vocabulary Popup if clicking outside
       if (vocabPopup && !vocabPopup.contains(e.target) && !e.target.closest('.exam-vocab')) {
@@ -467,20 +485,20 @@
         e.target.classList.remove('show');
       }
 
-      // 3. Close Syntax Breakdown Modal if clicking anywhere outside the modal window
-      if (syntaxModal && syntaxModal.classList.contains('show')) {
-        if (!syntaxModal.contains(e.target) && !e.target.closest('.exam-sent')) {
-          syntaxModal.classList.remove('show');
-          document.querySelectorAll('.exam-sent').forEach(el => el.classList.remove('active-sent'));
+      // 3. Close Syntax Breakdown Modal if clicking outside
+      if (syntaxOverlay && syntaxOverlay.classList.contains('show')) {
+        if (syntaxModal && !syntaxModal.contains(e.target) && !e.target.closest('.exam-sent')) {
+          closeSyntaxModal();
         }
       }
     });
   }
 
   function showSyntaxModal(sent) {
+    const overlay = document.getElementById('syntaxOverlay');
     const modal = document.getElementById('syntaxModal');
     const content = document.getElementById('syntaxModalContent');
-    if (!modal || !content) return;
+    if (!content) return;
 
     const breakdownTags = sent.syntax.breakdown.map(b => {
       let tagClass = 'tag-modifier';
@@ -510,7 +528,8 @@
       </div>
     `;
 
-    modal.classList.add('show');
+    if (overlay) overlay.classList.add('show');
+    if (modal) modal.classList.add('show');
   }
 
   function showVocabPopup(word, clientX, clientY, sentenceContext) {
@@ -776,7 +795,9 @@
         const floatPrev = document.getElementById('floatPrevBtn');
         if (floatPrev && !floatPrev.disabled) floatPrev.click();
       } else if (e.key === 'Escape') {
+        const overlay = document.getElementById('syntaxOverlay');
         const modal = document.getElementById('syntaxModal');
+        if (overlay) overlay.classList.remove('show');
         const popup = document.getElementById('vocabPopup');
         const stats = document.getElementById('statsModal');
         const exp = document.getElementById('exportModal');
