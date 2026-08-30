@@ -15,9 +15,69 @@
           "chunk_translation": "在一篇题为“在美国 / 制造”的文章中 / ”作者亚当·戴维森讲述了一个笑话 / 来自棉花之乡 / 关于现代纺织厂的自动化程度究竟有多高： / 如今普通工厂只有两名雇员， / “一个人和一条狗 / 人的工作是去喂狗 / 而狗的工作是防止人去触碰机器。” / 戴维森的文章是最近出现的诸多文章之一 / 这些文章阐明了这样一个观点： / 当今我们面临如此顽固的高失业率以及中产阶级收入下降的原因很大程度上 / 是因为大幅下滑 / 在需求方面的下滑 / 由于大衰退所致 / 但这也是 / 因为取得了进展 / 在全球化和信息技术革命这两个领域 / 这两者正以前所未有的速度用机器替代劳动力 / 用机器或外国劳工替代",
           "vocabulary": [
             {
-              "word": "essay",
+              "word": "globalization",
               "pos": "n.",
-              "definition": "n. （学生为某门课程所写的）短文；论说文"
+              "definition": "n. 全球化；传播"
+            },
+            {
+              "word": "textile mill",
+              "pos": "",
+              "definition": "纺织厂"
+            },
+            {
+              "word": "unemployment",
+              "pos": "n.",
+              "definition": "n. 失业人数；失业率；失业"
+            },
+            {
+              "word": "information",
+              "pos": "n.",
+              "definition": "n. 消息；资料；情报"
+            },
+            {
+              "word": "stubbornly",
+              "pos": "",
+              "definition": "ad.顽固地;倔强地"
+            },
+            {
+              "word": "revolution",
+              "pos": "",
+              "definition": "n.革命"
+            },
+            {
+              "word": "technology",
+              "pos": "n.",
+              "definition": "n. 科技；技术"
+            },
+            {
+              "word": "employment",
+              "pos": "n.",
+              "definition": "n. 雇用；使用"
+            },
+            {
+              "word": "recession",
+              "pos": "",
+              "definition": "n.衰退:不景气;后退"
+            },
+            {
+              "word": "automated",
+              "pos": "adj.",
+              "definition": "adj. 自动化的；v. 使自动化（automate 的过去式和过去分词）"
+            },
+            {
+              "word": "employees",
+              "pos": "n.",
+              "definition": "n. 员工；雇员；从业人员（employee 的复数）"
+            },
+            {
+              "word": "declining",
+              "pos": "adj.",
+              "definition": "adj. 越来越少的；越来越差的；v. 减少"
+            },
+            {
+              "word": "replacing",
+              "pos": "v.",
+              "definition": "v. 更换；替代；取代（replace 的现在分词或动名词形式"
             },
             {
               "word": "entitled",
@@ -25,54 +85,9 @@
               "definition": "adj. 有资格的；v. 使享有权利"
             },
             {
-              "word": "Making",
-              "pos": "n.",
-              "definition": "n. 制作；生产"
-            },
-            {
-              "word": "author",
-              "pos": "n.",
-              "definition": "n. 作者；著者"
-            },
-            {
-              "word": "Adam",
-              "pos": "n.",
-              "definition": "n. 亚当"
-            },
-            {
               "word": "Davidson",
               "pos": "n.",
               "definition": "n. 戴维森（姓氏）"
-            },
-            {
-              "word": "relates",
-              "pos": "v.",
-              "definition": "v. （relate 的第三人称单数形式）：叙述；讲述"
-            },
-            {
-              "word": "joke",
-              "pos": "n.",
-              "definition": "n. 笑话；玩笑"
-            },
-            {
-              "word": "cotton",
-              "pos": "n.",
-              "definition": "n. 棉；棉花"
-            },
-            {
-              "word": "article",
-              "pos": "n.",
-              "definition": "n. 文章；论文"
-            },
-            {
-              "word": "number",
-              "pos": "n.",
-              "definition": "n. 数字；编号"
-            },
-            {
-              "word": "pieces",
-              "pos": "n.",
-              "definition": "n. （从某物上拆下、撕下或切下的）块；片"
             },
             {
               "word": "recently",
@@ -85,34 +100,34 @@
               "definition": "v. 似乎；出现"
             },
             {
-              "word": "point",
+              "word": "machines",
               "pos": "n.",
-              "definition": "n. 观点；论点"
+              "definition": "n. 机器；机械（machine 的复数）；v. 用机器制造或加工（machine 的第三人称单数形式）"
             },
             {
-              "word": "reason",
-              "pos": "n.",
-              "definition": "n. 原因；理由"
+              "word": "advances",
+              "pos": "v.",
+              "definition": "v. （使）前进；（使）向前移动；发展"
             },
             {
-              "word": "workers",
-              "pos": "n.",
-              "definition": "n. 工作者；工作人员"
+              "word": "textile",
+              "pos": "",
+              "definition": "n.纺织品,织物"
             },
             {
               "word": "average",
-              "pos": "n.",
-              "definition": "n. 平均水平；一般标准"
+              "pos": "",
+              "definition": "n.平均水平,一般水准"
             },
             {
-              "word": "today",
-              "pos": "adv.",
-              "definition": "adv. 今天；今日"
+              "word": "relates",
+              "pos": "v.",
+              "definition": "v. （relate 的第三人称单数形式）：叙述；讲述"
             },
             {
-              "word": "technology",
+              "word": "article",
               "pos": "n.",
-              "definition": "n. 科技；技术"
+              "definition": "n. 文章；论文"
             },
             {
               "word": "advance",
@@ -120,14 +135,74 @@
               "definition": "v. （使）前进；（使）向前移动"
             },
             {
-              "word": "globalization",
+              "word": "incomes",
               "pos": "n.",
-              "definition": "n. 全球化；传播"
+              "definition": "n. 收入；（会计）收益（income 的复数）"
             },
             {
-              "word": "employment",
+              "word": "largely",
+              "pos": "adv.",
+              "definition": "adv. 很大程度上；主要地"
+            },
+            {
+              "word": "rapidly",
+              "pos": "adv.",
+              "definition": "adv. 快速地；迅速地"
+            },
+            {
+              "word": "foreign",
+              "pos": "adj.",
+              "definition": "adj. 外国的；来自国外的；外交的"
+            },
+            {
+              "word": "author",
               "pos": "n.",
-              "definition": "n. 雇用；使用"
+              "definition": "n. 作者；著者"
+            },
+            {
+              "word": "cotton",
+              "pos": "n.",
+              "definition": "n. 棉；棉花"
+            },
+            {
+              "word": "reason",
+              "pos": "n.",
+              "definition": "n. 原因；理由"
+            },
+            {
+              "word": "modern",
+              "pos": "adj.",
+              "definition": "adj. 近代的；现代的；当代风格的"
+            },
+            {
+              "word": "middle",
+              "pos": "adj.",
+              "definition": "adj. 中间的；中等的；折中的"
+            },
+            {
+              "word": "demand",
+              "pos": "v.",
+              "definition": "v. 强烈要求；需要；需求"
+            },
+            {
+              "word": "essay",
+              "pos": "n.",
+              "definition": "n. （学生为某门课程所写的）短文；论说文"
+            },
+            {
+              "word": "labor",
+              "pos": "n.",
+              "definition": "n. 劳动；工作；劳作"
+            },
+            {
+              "word": "Adam",
+              "pos": "n.",
+              "definition": "n. 亚当"
+            },
+            {
+              "word": "joke",
+              "pos": "n.",
+              "definition": "n. 笑话；玩笑"
             }
           ]
         },
@@ -139,34 +214,24 @@
           "chunk_translation": "在过去 / 劳动者 / 拥有普通技能的 / 做着一份普通的工作 / 就能获得中等水平的生活方式",
           "vocabulary": [
             {
+              "word": "lifestyle",
+              "pos": "n.",
+              "definition": "n. 生活方式；adj. 生活方式类的"
+            },
+            {
+              "word": "average",
+              "pos": "",
+              "definition": "n.平均水平,一般水准"
+            },
+            {
               "word": "past",
               "pos": "adj.",
               "definition": "adj. 过去的；昔日的"
             },
             {
-              "word": "workers",
-              "pos": "n.",
-              "definition": "n. 工作者；工作人员"
-            },
-            {
-              "word": "average",
-              "pos": "n.",
-              "definition": "n. 平均水平；一般标准"
-            },
-            {
-              "word": "skills",
-              "pos": "n.",
-              "definition": "n. （特定的）技术；技能"
-            },
-            {
               "word": "earn",
               "pos": "v.",
               "definition": "v. 赚得；挣钱"
-            },
-            {
-              "word": "lifestyle",
-              "pos": "n.",
-              "definition": "n. 生活方式；adj. 生活方式类的"
             }
           ]
         },
@@ -178,19 +243,14 @@
           "chunk_translation": "但是 / 今天 / 平庸时代已正式终结 / 表现平庸再也无法为你赢得过去的收入与回报 / 这绝无可能 / 当越来越多的雇主拥有更多渠道获取远超平均水平的廉价外国劳动力 / 廉价机器人、 / 廉价软件、 / 廉价自动化技术和廉价天才时 / 因此 / 每个人都需要找到自己的额外优势—— / 即他们独特的价值贡献 / 能够让他们脱颖而出 / 无论在他们所从事的哪个职业领域",
           "vocabulary": [
             {
-              "word": "average",
+              "word": "above average",
+              "pos": "",
+              "definition": "超越平庸,高于平均水平"
+            },
+            {
+              "word": "contribution",
               "pos": "n.",
-              "definition": "n. 平均水平；一般标准"
-            },
-            {
-              "word": "earn",
-              "pos": "v.",
-              "definition": "v. 赚得；挣钱"
-            },
-            {
-              "word": "today",
-              "pos": "adv.",
-              "definition": "adv. 今天；今日"
+              "definition": "n. 贡献；促成作用；捐款"
             },
             {
               "word": "officially",
@@ -198,19 +258,99 @@
               "definition": "adv. 官方地；正式地"
             },
             {
+              "word": "employment",
+              "pos": "n.",
+              "definition": "n. 雇用；使用"
+            },
+            {
+              "word": "automation",
+              "pos": "n.",
+              "definition": "n. 自动化"
+            },
+            {
+              "word": "stand out",
+              "pos": "",
+              "definition": "突出,脱颖而出"
+            },
+            {
               "word": "employers",
               "pos": "n.",
               "definition": "n. （劳经）雇主（employer 的复数形式；指两个或两个以上的雇主"
             },
             {
-              "word": "need",
-              "pos": "v.",
-              "definition": "v. 需要；（表示应该或不得不做）有必要"
+              "word": "Therefore",
+              "pos": "adv.",
+              "definition": "adv. 因此；所以"
             },
             {
-              "word": "employment",
+              "word": "robotics",
+              "pos": "",
+              "definition": "n.机器人科学(或技术)"
+            },
+            {
+              "word": "software",
               "pos": "n.",
-              "definition": "n. 雇用；使用"
+              "definition": "n. 软件；（计算机）程序及相关文档资料的总称；与 hardware（硬件）相对"
+            },
+            {
+              "word": "whatever",
+              "pos": "det.",
+              "definition": "det. 任何……的事物；无论什么；pron. 任何事物"
+            },
+            {
+              "word": "average",
+              "pos": "",
+              "definition": "n.平均水平,一般水准"
+            },
+            {
+              "word": "foreign",
+              "pos": "adj.",
+              "definition": "adj. 外国的；来自国外的；外交的"
+            },
+            {
+              "word": "access",
+              "pos": "",
+              "definition": "n.使用权:通路"
+            },
+            {
+              "word": "genius",
+              "pos": "n.",
+              "definition": "n. 天赋；天资；天才"
+            },
+            {
+              "word": "unique",
+              "pos": "adj.",
+              "definition": "adj. 独一无二的；独特的；非常特别的"
+            },
+            {
+              "word": "extra",
+              "pos": "",
+              "definition": "n.额外的事物"
+            },
+            {
+              "word": "cheap",
+              "pos": "adj.",
+              "definition": "adj. 便宜的；廉价的；价低质劣的"
+            },
+            {
+              "word": "labor",
+              "pos": "n.",
+              "definition": "n. 劳动；工作；劳作"
+            },
+            {
+              "word": "value",
+              "pos": "n.",
+              "definition": "n. 价值；等值；等价"
+            },
+            {
+              "word": "field",
+              "pos": "n.",
+              "definition": "n. 田地；田野；专业"
+            },
+            {
+              "word": "earn",
+              "pos": "v.",
+              "definition": "v. 赚得；挣钱"
             }
           ]
         },
@@ -222,6 +362,51 @@
           "chunk_translation": "是的 / 新技术一直在蚕食工作岗位 / 并且将来也永远会如此 / 但如今这一进程已然加速 / 正如戴维森所指出的： / “在截至2009年的10年间 / [美国]工厂裁员速度如此之快 / 以至于几乎抹平了过去70年的所有增幅； / 大约每三个制造业岗位中就有一个—— / 约600万个岗位 / 总计—— / 消失了。”",
           "vocabulary": [
             {
+              "word": "one out of every three",
+              "pos": "",
+              "definition": "三分之一的..."
+            },
+            {
+              "word": "manufacturing",
+              "pos": "n.",
+              "definition": "n. 制造；制造业；v. （用机器）大量生产"
+            },
+            {
+              "word": "acceleration",
+              "pos": "",
+              "definition": "n.加速,促进"
+            },
+            {
+              "word": "shed workers",
+              "pos": "",
+              "definition": "裁员"
+            },
+            {
+              "word": "disappeared",
+              "pos": "adj.",
+              "definition": "adj. 消失的；消失了的；n. 被秘密逮捕（或处决）的人"
+            },
+            {
+              "word": "technology",
+              "pos": "n.",
+              "definition": "n. 科技；技术"
+            },
+            {
+              "word": "factories",
+              "pos": "n.",
+              "definition": "n. 工厂；车厂（factory 的复数形式）"
+            },
+            {
+              "word": "previous",
+              "pos": "",
+              "definition": "a.以前的,以往的"
+            },
+            {
+              "word": "in total",
+              "pos": "",
+              "definition": "总共"
+            },
+            {
               "word": "Davidson",
               "pos": "n.",
               "definition": "n. 戴维森（姓氏）"
@@ -232,14 +417,14 @@
               "definition": "v. 似乎；出现"
             },
             {
-              "word": "workers",
-              "pos": "n.",
-              "definition": "n. 工作者；工作人员"
+              "word": "forever",
+              "pos": "adv.",
+              "definition": "adv. 永远；完全地"
             },
             {
-              "word": "technology",
-              "pos": "n.",
-              "definition": "n. 科技；技术"
+              "word": "roughly",
+              "pos": "adv.",
+              "definition": "adv. 粗略地；大约；粗暴地"
             },
             {
               "word": "eating",
@@ -247,24 +432,14 @@
               "definition": "n. 吃；进食"
             },
             {
-              "word": "jobs",
+              "word": "ending",
               "pos": "n.",
-              "definition": "n. 工作（job 的复数形式）"
+              "definition": "n. 结尾；结局"
             },
             {
-              "word": "forever",
-              "pos": "adv.",
-              "definition": "adv. 永远；完全地"
-            },
-            {
-              "word": "always",
-              "pos": "adv.",
-              "definition": "adv. 总是；每次都是"
-            },
-            {
-              "word": "acceleration",
-              "pos": "n.",
-              "definition": "n. 加速；加快"
+              "word": "erased",
+              "pos": "adj.",
+              "definition": "adj. 被清除的；被抹去的；被删除的"
             },
             {
               "word": "notes",
@@ -272,9 +447,19 @@
               "definition": "n. （note 的复数）笔记；注释"
             },
             {
-              "word": "ending",
+              "word": "gains",
               "pos": "n.",
-              "definition": "n. 结尾；结局"
+              "definition": "n. 收益；利益；腰槽"
+            },
+            {
+              "word": "total",
+              "pos": "adj.",
+              "definition": "adj. 总的；全部的；完全的"
+            },
+            {
+              "word": "shed",
+              "pos": "",
+              "definition": "v.去除;摆脱(已经不再需要的东西)"
             }
           ]
         },
@@ -286,34 +471,109 @@
           "translation": "变革总是会发生——新的工作、新的产品、新的服务。但我们确信的一点是，随着全球化和信息技术革命的每一次推进，最好的工作岗位都将要求劳动者接受更多更好的教育，从而使自己超越普通水准。在这样一个“平庸”时代正式终结的世界里，我们需要做许多事情来促进就业，但没有什么比通过某种21世纪的《退伍军人权利法案》更重要了——该法案能确保每个美国人都能获得高中后的高等教育机会。",
           "vocabulary": [
             {
-              "word": "advance",
-              "pos": "n.",
-              "meaning": "前进；进展"
+              "word": "nothing would be more important than",
+              "pos": "",
+              "definition": "比起....来说,没有什么是更重要的了,最重要的是"
+            },
+            {
+              "word": "post-high school education",
+              "pos": "",
+              "definition": "高中以后教育"
+            },
+            {
+              "word": "above average",
+              "pos": "",
+              "definition": "超越平庸,高于平均水平"
             },
             {
               "word": "globalization",
               "pos": "n.",
-              "meaning": "全球化"
+              "definition": ""
             },
             {
               "word": "revolution",
-              "pos": "n.",
-              "meaning": "革命"
+              "pos": "",
+              "definition": "n.革命"
             },
             {
               "word": "officially",
               "pos": "adv.",
-              "meaning": "正式地"
+              "definition": ""
             },
             {
               "word": "employment",
               "pos": "n.",
-              "meaning": "就业；雇佣"
+              "definition": ""
+            },
+            {
+              "word": "themselves",
+              "pos": "pron.",
+              "definition": "pron. 他们自己；他们亲自"
+            },
+            {
+              "word": "education",
+              "pos": "n.",
+              "definition": "n. （尤指学校）教育；培养；训练"
+            },
+            {
+              "word": "important",
+              "pos": "adj.",
+              "definition": "adj. 重要的；重大的；（人）影响很大的"
+            },
+            {
+              "word": "for sure",
+              "pos": "",
+              "definition": "确实:毫无疑问地"
+            },
+            {
+              "word": "products",
+              "pos": "n.",
+              "definition": "n. 产品；商品（product 的复数）；产物"
+            },
+            {
+              "word": "services",
+              "pos": "n.",
+              "definition": "n. 服务；服务项目；维修（service 的复数）"
+            },
+            {
+              "word": "average",
+              "pos": "",
+              "definition": "n.平均水平,一般水准"
+            },
+            {
+              "word": "support",
+              "pos": "",
+              "definition": "v.支持,支撑"
+            },
+            {
+              "word": "advance",
+              "pos": "n.",
+              "definition": ""
+            },
+            {
+              "word": "passing",
+              "pos": "n.",
+              "definition": "n. （时间、岁月的）流逝；推移；（事物的）结束"
+            },
+            {
+              "word": "century",
+              "pos": "n.",
+              "definition": "n. 世纪；一百年；（板球）一百分"
+            },
+            {
+              "word": "ensures",
+              "pos": "v.",
+              "definition": "v. ensure 的第三人称单数形式：确保；保证；（较正式"
+            },
+            {
+              "word": "access",
+              "pos": "",
+              "definition": "n.使用权:通路"
             },
             {
               "word": "ensure",
               "pos": "v.",
-              "meaning": "确保；保证"
+              "definition": ""
             }
           ]
         }
@@ -1097,9 +1357,29 @@
           "chunk_translation": "一个世纪前 / 移民群体 / 来自大西洋彼岸的移民既包括定居者也包括寄居者 / 在许多希望在美国永久安家的人群之外，还有那些 / 无意长期留下来的人 / 以及 / 只想赚些钱就回国的人 / 在1908年至1915年间 / 约有700万人抵达美国 / 而约有200万人离开 / 例如所有意大利移民中约有四分之一 / 例如 / 最终永久返回了意大利 / 永久地 / 他们甚至拥有一个亲切的绰号 / “过客之鸟 / ”即候鸟",
           "vocabulary": [
             {
-              "word": "century",
-              "pos": "n.",
-              "definition": "n. 世纪；一百年"
+              "word": "from across the Atlantic",
+              "pos": "",
+              "definition": "来自大西洋彼岸"
+            },
+            {
+              "word": "make a permanent home",
+              "pos": "",
+              "definition": "建立永久家园,长留某地"
+            },
+            {
+              "word": "birds of passage",
+              "pos": "",
+              "definition": "侯鸟,漂泊的人"
+            },
+            {
+              "word": "affectionate",
+              "pos": "",
+              "definition": "a.深情的;充满深情的"
+            },
+            {
+              "word": "a quarter of",
+              "pos": "",
+              "definition": "四分之一"
             },
             {
               "word": "immigrants",
@@ -1107,9 +1387,39 @@
               "definition": "n. 移民（immigrant 的复数）"
             },
             {
-              "word": "across",
+              "word": "sojourners",
+              "pos": "n.",
+              "definition": "n. 旅居者；逗留者"
+            },
+            {
+              "word": "eventually",
               "pos": "adv.",
-              "definition": "adv. 从一边到另一边；在……对面"
+              "definition": "adv. 最终；结果"
+            },
+            {
+              "word": "permanent",
+              "pos": "adj.",
+              "definition": "adj. 永久的；永恒的；（尤指问题或困难）不断出现的"
+            },
+            {
+              "word": "intention",
+              "pos": "n.",
+              "definition": "n. 意图；目的；打算"
+            },
+            {
+              "word": "passaggio",
+              "pos": "n.",
+              "definition": "n. （Passaggio）人名；（意）帕萨焦"
+            },
+            {
+              "word": "nickname",
+              "pos": "",
+              "definition": "n.(尤指给朋友或家人取的)绰号,昵称"
+            },
+            {
+              "word": "for good",
+              "pos": "",
+              "definition": "永远地,永久地;一劳永逸地"
             },
             {
               "word": "Atlantic",
@@ -1127,14 +1437,54 @@
               "definition": "n. 移居者（settler的复数形式）；居住者"
             },
             {
-              "word": "sojourners",
-              "pos": "n.",
-              "definition": "n. 旅居者；逗留者"
+              "word": "departed",
+              "pos": "v.",
+              "definition": "v. 启程；出发；背离"
             },
             {
-              "word": "Along",
-              "pos": "prep.",
-              "definition": "prep. 沿着；顺着"
+              "word": "returned",
+              "pos": "v.",
+              "definition": "v. return 的过去式和过去分词：返回；归还；恢复"
+            },
+            {
+              "word": "century",
+              "pos": "n.",
+              "definition": "n. 世纪；一百年"
+            },
+            {
+              "word": "arrived",
+              "pos": "v.",
+              "definition": "v. 到达；抵达（arrive 的过去式和过去分词）；（船舶等）抵港"
+            },
+            {
+              "word": "quarter",
+              "pos": "n.",
+              "definition": "n. 四分之一；一刻钟；十五分钟"
+            },
+            {
+              "word": "Italian",
+              "pos": "adj.",
+              "definition": "adj. 意大利的；意大利语的；意大利文化的"
+            },
+            {
+              "word": "example",
+              "pos": "n.",
+              "definition": "n. 例子；例证；榜样"
+            },
+            {
+              "word": "uccelli",
+              "pos": "n.",
+              "definition": "n. 乌切利（姓氏）"
+            },
+            {
+              "word": "passage",
+              "pos": "n.",
+              "definition": "n. 过道；走廊；（人体的）管道"
+            },
+            {
+              "word": "United",
+              "pos": "adj.",
+              "definition": "adj. 团结的；统一的；共同的"
             },
             {
               "word": "folks",
@@ -1142,19 +1492,19 @@
               "definition": "n. 人们；大家"
             },
             {
-              "word": "good",
-              "pos": "adj.",
-              "definition": "adj. 优良的；能干的"
+              "word": "money",
+              "pos": "n.",
+              "definition": "n. 钱；钞票；货币"
             },
             {
-              "word": "home",
+              "word": "Italy",
               "pos": "n.",
-              "definition": "n. 家；住宅"
+              "definition": "n. 意大利（欧洲南部国家）"
             },
             {
-              "word": "Looking",
+              "word": "birds",
               "pos": "n.",
-              "definition": "n. 看；注视"
+              "definition": "n. 鸟；鸟类；禽（bird 的复数）"
             }
           ]
         },
@@ -1166,49 +1516,19 @@
           "chunk_translation": "如今 / 我们的态度要僵化得多 / 对待移民问题 / 我们将新来者划分为两大类别： / 合法或非法、 / 好人或坏人 / 我们要么赞颂他们是未来的美国人 / 要么给他们贴上应被驱逐的非法居留者标签 / 这种认知框架在很大程度上导致了我们移民体系的支离破碎，以及在如何修复该体系上长期的政治瘫痪 / 我们并不需要划分更多的类别 / 而是需要改变我们的思考方式 / 关于类别划分的思考方式 / 我们需要超越合法与非法的严苛定义 / 首先 / 我们可以重新认识这些新时代的“候鸟” / 即那些生活在灰色地带并蓬勃发展的人群 / 这样我们或许才能开始解决我们的移民难题",
           "vocabulary": [
             {
-              "word": "immigrants",
-              "pos": "n.",
-              "definition": "n. 移民（immigrant 的复数）"
+              "word": "birds of passage",
+              "pos": "",
+              "definition": "侯鸟,漂泊的人"
             },
             {
-              "word": "Today",
-              "pos": "adv.",
-              "definition": "adv. 今天；今日"
+              "word": "in the making",
+              "pos": "",
+              "definition": "在酝酿中的,在形成中的"
             },
             {
-              "word": "rigid",
-              "pos": "adj.",
-              "definition": "adj. （方法、体制等）严格死板的；僵化的"
-            },
-            {
-              "word": "divide",
-              "pos": "v.",
-              "definition": "v. （使）分开；分散"
-            },
-            {
-              "word": "newcomers",
-              "pos": "n.",
-              "definition": "n. 新来的人；新来者（newcomer 的复数）"
-            },
-            {
-              "word": "categories",
-              "pos": "n.",
-              "definition": "n. 类别；种类"
-            },
-            {
-              "word": "legal",
-              "pos": "adj.",
-              "definition": "adj. 法律允许的；合法的"
-            },
-            {
-              "word": "illegal",
-              "pos": "adj.",
-              "definition": "adj. 非法的；违法的"
-            },
-            {
-              "word": "good",
-              "pos": "adj.",
-              "definition": "adj. 优良的；能干的"
+              "word": "look beyond",
+              "pos": "",
+              "definition": "超越...看问题"
             },
             {
               "word": "immigration",
@@ -1216,9 +1536,139 @@
               "definition": "n. 移民（入境）；移民人数"
             },
             {
+              "word": "contributed",
+              "pos": "v.",
+              "definition": "v. 捐赠；捐助；（为……）做贡献"
+            },
+            {
+              "word": "definitions",
+              "pos": "n.",
+              "definition": "n. 定义；释义（definition 的复数形式）"
+            },
+            {
+              "word": "immigrants",
+              "pos": "n.",
+              "definition": "n. 移民（immigrant 的复数）"
+            },
+            {
+              "word": "categories",
+              "pos": "n.",
+              "definition": "n. 类别；种类"
+            },
+            {
+              "word": "challenges",
+              "pos": "n.",
+              "definition": "n. 挑战；艰巨任务；质疑"
+            },
+            {
+              "word": "framework",
+              "pos": "",
+              "definition": "n.框架,骨架:体系、体制"
+            },
+            {
+              "word": "paralysis",
+              "pos": "",
+              "definition": "n.麻痹;无力;停顿;完全丧失,瘫痪"
+            },
+            {
+              "word": "newcomers",
+              "pos": "n.",
+              "definition": "n. 新来的人；新来者（newcomer 的复数）"
+            },
+            {
+              "word": "political",
+              "pos": "adj.",
+              "definition": "adj. 政治（上）的；政府的；政党的"
+            },
+            {
+              "word": "recognize",
+              "pos": "v.",
+              "definition": "v. 认识；辨别出；承认"
+            },
+            {
+              "word": "mightily",
+              "pos": "",
+              "definition": "ad.很,非常"
+            },
+            {
+              "word": "thriving",
+              "pos": "adj.",
+              "definition": "adj. 欣欣向荣的；繁华的；兴旺的"
+            },
+            {
+              "word": "illegal",
+              "pos": "adj.",
+              "definition": "adj. 非法的；违法的"
+            },
+            {
+              "word": "passage",
+              "pos": "n.",
+              "definition": "n. 过道；走廊；（人体的）管道"
+            },
+            {
+              "word": "divide",
+              "pos": "v.",
+              "definition": "v. （使）分开；分散"
+            },
+            {
               "word": "beyond",
               "pos": "prep.",
               "definition": "prep. 在（或向）……较远的一边；晚于"
+            },
+            {
+              "word": "aliens",
+              "pos": "n.",
+              "definition": "n. 外星人；外侨；外国人（alien 的复数）"
+            },
+            {
+              "word": "kicked",
+              "pos": "v.",
+              "definition": "v. 踢；踢腿；赶出"
+            },
+            {
+              "word": "broken",
+              "pos": "adj.",
+              "definition": "adj. 损坏的；破碎的；衰弱的"
+            },
+            {
+              "word": "system",
+              "pos": "n.",
+              "definition": "n. （协同工作的）系统；（计算机、警报器等的）系统；体制"
+            },
+            {
+              "word": "strict",
+              "pos": "adj.",
+              "definition": "adj. 要求严格的；严厉的；（命令或规则）必须严格遵守的"
+            },
+            {
+              "word": "living",
+              "pos": "adj.",
+              "definition": "adj. 活着的；活的；在使用的"
+            },
+            {
+              "word": "rigid",
+              "pos": "",
+              "definition": "a.严格的;僵硬的,死板的"
+            },
+            {
+              "word": "brand",
+              "pos": "",
+              "definition": "v.打烙印于...:印商标于..."
+            },
+            {
+              "word": "legal",
+              "pos": "adj.",
+              "definition": "adj. 法律允许的；合法的"
+            },
+            {
+              "word": "birds",
+              "pos": "n.",
+              "definition": "n. 鸟；鸟类；禽（bird 的复数）"
+            },
+            {
+              "word": "solve",
+              "pos": "v.",
+              "definition": "v. 解决；处理；解释"
             }
           ]
         },
@@ -1230,34 +1680,9 @@
           "chunk_translation": "农作物采摘工、 / 小提琴手、 / 建筑工人、 / 创业者、 / 工程师、 / 家庭护理员和物理学家都名列当今的“候鸟”之中 / 他们是由工作、 / 资金和思想流动所驱动的全球经济中充满活力的参与者 / 他们更愿意随着机会的召唤而来去自由 / 他们能够做到在一个地方工作而在另一个地方安家 / 在另一个地方",
           "vocabulary": [
             {
-              "word": "Today",
-              "pos": "adv.",
-              "definition": "adv. 今天；今日"
-            },
-            {
-              "word": "Crop",
-              "pos": "n.",
-              "definition": "n. 庄稼；（谷物或水果的）收成"
-            },
-            {
-              "word": "pickers",
-              "pos": "n.",
-              "definition": "清棉机（picker 的复数）；采摘者（picker 的复数）"
-            },
-            {
-              "word": "violinists",
-              "pos": "n.",
-              "definition": "n．小提琴手：演奏小提琴的人。"
-            },
-            {
-              "word": "construction",
-              "pos": "n.",
-              "definition": "n. 建造；建筑"
-            },
-            {
-              "word": "workers",
-              "pos": "n.",
-              "definition": "n. 工作者；工作人员"
+              "word": "birds of passage",
+              "pos": "",
+              "definition": "侯鸟,漂泊的人"
             },
             {
               "word": "entrepreneurs",
@@ -1265,19 +1690,119 @@
               "definition": "n. 企业家；创业者（entrepreneur 的复数）"
             },
             {
+              "word": "construction",
+              "pos": "n.",
+              "definition": "n. 建造；建筑"
+            },
+            {
+              "word": "participants",
+              "pos": "n.",
+              "definition": "n. 参与者；参加者（participant 的复数）"
+            },
+            {
+              "word": "opportunity",
+              "pos": "n.",
+              "definition": "n. 时机；机会"
+            },
+            {
+              "word": "violinists",
+              "pos": "n.",
+              "definition": "n．小提琴手：演奏小提琴的人。"
+            },
+            {
+              "word": "physicists",
+              "pos": "n.",
+              "definition": "n. 物理学家（physicist 的复数）；机械唯物论者（physicist 的复数）"
+            },
+            {
+              "word": "driven by",
+              "pos": "",
+              "definition": "由....驱动"
+            },
+            {
+              "word": "prefer to",
+              "pos": "",
+              "definition": "喜欢...,愿意..."
+            },
+            {
               "word": "engineers",
               "pos": "n.",
               "definition": "n. 工程师（engineer 的复数）；机械师"
             },
             {
-              "word": "home",
+              "word": "energetic",
+              "pos": "adj.",
+              "definition": "adj. 精力充沛的；充满活力的；积极的"
+            },
+            {
+              "word": "pickers",
               "pos": "n.",
-              "definition": "n. 家；住宅"
+              "definition": "清棉机（picker 的复数）；采摘者（picker 的复数）"
+            },
+            {
+              "word": "passage",
+              "pos": "n.",
+              "definition": "n. 过道；走廊；（人体的）管道"
+            },
+            {
+              "word": "economy",
+              "pos": "n.",
+              "definition": "n. 经济；节省；简练"
             },
             {
               "word": "health",
               "pos": "n.",
               "definition": "n. 身体状况；健康"
+            },
+            {
+              "word": "global",
+              "pos": "adj.",
+              "definition": "adj. 全球的；全世界的；全面的"
+            },
+            {
+              "word": "driven",
+              "pos": "adj.",
+              "definition": "adj. （人）有紧迫感的；奋发努力的；受（某因素或感情）驱使的"
+            },
+            {
+              "word": "prefer",
+              "pos": "v.",
+              "definition": "v. 更喜爱；宁可；举报"
+            },
+            {
+              "word": "manage",
+              "pos": "v.",
+              "definition": "v. 管理；处理；操纵"
+            },
+            {
+              "word": "family",
+              "pos": "n.",
+              "definition": "n. 家；家庭；家属"
+            },
+            {
+              "word": "aides",
+              "pos": "n.",
+              "definition": "n. 助手；副官；助理（aide 的复数）"
+            },
+            {
+              "word": "birds",
+              "pos": "n.",
+              "definition": "n. 鸟；鸟类；禽（bird 的复数）"
+            },
+            {
+              "word": "money",
+              "pos": "n.",
+              "definition": "n. 钱；钞票；货币"
+            },
+            {
+              "word": "calls",
+              "pos": "n.",
+              "definition": "n. 电话；通话（call 的复数）；呼吁"
+            },
+            {
+              "word": "Crop",
+              "pos": "n.",
+              "definition": "n. 庄稼；（谷物或水果的）收成"
             }
           ]
         },
@@ -1289,9 +1814,94 @@
           "chunk_translation": "无论是否 / 获得许可 / 他们都能游刃有余地跨越法律、 / 管辖区域和身份认同 / 轻松自如 / 我们需要让他们把美国看作这样一个地方 / 在那里他们可以发挥才干工作一段 / 时间 / 而无需承诺永远定居于此 / 我们需要让他们感受到 / 家可以既在彼处又在此处，而且 / 他们可以堂堂正正地同时归属于两个国家",
           "vocabulary": [
             {
-              "word": "home",
+              "word": "with or without permission",
+              "pos": "",
+              "definition": "不管有没有得到许可"
+            },
+            {
+              "word": "jurisdictions",
               "pos": "n.",
-              "definition": "n. 家；住宅"
+              "definition": "n. 司法管辖区；行政辖区（jurisdiction 的复数）"
+            },
+            {
+              "word": "for a while",
+              "pos": "",
+              "definition": "暂时,一会儿"
+            },
+            {
+              "word": "permission",
+              "pos": "n.",
+              "definition": "n. 同意；许可；许可证"
+            },
+            {
+              "word": "identities",
+              "pos": "n.",
+              "definition": "n. 身份；特性；同一性"
+            },
+            {
+              "word": "productive",
+              "pos": "adj.",
+              "definition": "adj. 多产的；丰饶的；有效益的"
+            },
+            {
+              "word": "committing",
+              "pos": "v.",
+              "definition": "v. commit 的现在分词/动名词：犯（罪、错误等）；承诺；答应负责"
+            },
+            {
+              "word": "themselves",
+              "pos": "pron.",
+              "definition": "pron. 他们自己；他们亲自"
+            },
+            {
+              "word": "with ease",
+              "pos": "",
+              "definition": "轻而易举地"
+            },
+            {
+              "word": "belong to",
+              "pos": "",
+              "definition": "属于"
+            },
+            {
+              "word": "honorably",
+              "pos": "adv.",
+              "definition": "adv. 体面地；值得尊敬地；光荣地"
+            },
+            {
+              "word": "straddle",
+              "pos": "",
+              "definition": "v.跨立于;跨越"
+            },
+            {
+              "word": "imagine",
+              "pos": "v.",
+              "definition": "v. 想象；设想；料想"
+            },
+            {
+              "word": "staying",
+              "pos": "n.",
+              "definition": "n. 刚性结合；撑法；加劲"
+            },
+            {
+              "word": "forever",
+              "pos": "adv.",
+              "definition": "adv. 永远；完全地；永恒地"
+            },
+            {
+              "word": "nations",
+              "pos": "n.",
+              "definition": "n. 国家（nation 的复数）；民族；部族群体（nation 的复数）"
+            },
+            {
+              "word": "United",
+              "pos": "adj.",
+              "definition": "adj. 团结的；统一的；共同的"
+            },
+            {
+              "word": "belong",
+              "pos": "v.",
+              "definition": "v. 应在……地方；应处于……状况；适应"
             }
           ]
         },
@@ -1303,14 +1913,9 @@
           "chunk_translation": "接纳这个人员流动的崭新世界 / 流动的人员需要全新的态度 / 在移民争论的双方阵营中 / 超越非对即错的文化战逻辑意味着开辟中间地带并深刻认识到 / 当今管理移民需要多元化的路径和多样化的结果 / 包括一些 / 在现有制度下难以通过合法手段实现的结果",
           "vocabulary": [
             {
-              "word": "Today",
-              "pos": "adv.",
-              "definition": "adv. 今天；今日"
-            },
-            {
-              "word": "legal",
-              "pos": "adj.",
-              "definition": "adj. 法律允许的；合法的"
+              "word": "middle ground",
+              "pos": "",
+              "definition": "中间立场,中间地带"
             },
             {
               "word": "Accommodating",
@@ -1318,24 +1923,14 @@
               "definition": "adj. 乐于助人的；肯通融的"
             },
             {
-              "word": "motion",
+              "word": "understanding",
               "pos": "n.",
-              "definition": "n. 运动；移动"
+              "definition": "n. （对某学科、过程或情况的）了解；认识；（非正式的）协议"
             },
             {
-              "word": "require",
-              "pos": "v.",
-              "definition": "v. 需要；要求做（某事）"
-            },
-            {
-              "word": "attitudes",
-              "pos": "n.",
-              "definition": "n. 态度；看法"
-            },
-            {
-              "word": "sides",
-              "pos": "n.",
-              "definition": "n. 边；侧面"
+              "word": "culture war",
+              "pos": "",
+              "definition": "文化战争"
             },
             {
               "word": "immigration",
@@ -1343,19 +1938,114 @@
               "definition": "n. 移民（入境）；移民人数"
             },
             {
+              "word": "accomplish",
+              "pos": "",
+              "definition": "v.完成;实现;达到"
+            },
+            {
+              "word": "in motion",
+              "pos": "",
+              "definition": "在运动中的"
+            },
+            {
+              "word": "attitudes",
+              "pos": "n.",
+              "definition": "n. 态度；看法"
+            },
+            {
+              "word": "including",
+              "pos": "prep.",
+              "definition": "prep. 包括；包含；v. 包含"
+            },
+            {
+              "word": "managing",
+              "pos": "adj.",
+              "definition": "adj. 主管的；节省的；v. 管理"
+            },
+            {
+              "word": "requires",
+              "pos": "n.",
+              "definition": "n. 需要；要求；需求（require 的复数）"
+            },
+            {
+              "word": "multiple",
+              "pos": "adj.",
+              "definition": "adj. 多个的；多种的；多人共有的"
+            },
+            {
+              "word": "outcomes",
+              "pos": "n.",
+              "definition": "n. 结果；后果；效果（outcome 的复数）"
+            },
+            {
+              "word": "existing",
+              "pos": "adj.",
+              "definition": "adj. 现存的；现行的；v. 存在"
+            },
+            {
+              "word": "culture",
+              "pos": "n.",
+              "definition": "n. 文化；文明；（团体或组织中共同的）态度"
+            },
+            {
+              "word": "legally",
+              "pos": "adv.",
+              "definition": "adv. 按照法律；法律上；合法地"
+            },
+            {
+              "word": "motion",
+              "pos": "n.",
+              "definition": "n. 运动；移动"
+            },
+            {
               "word": "battle",
               "pos": "n.",
               "definition": "n. 战役；战争"
             },
             {
-              "word": "Looking",
-              "pos": "n.",
-              "definition": "n. 看；注视"
-            },
-            {
               "word": "beyond",
               "pos": "prep.",
               "definition": "prep. 在（或向）……较远的一边；晚于"
+            },
+            {
+              "word": "middle",
+              "pos": "adj.",
+              "definition": "adj. 中间的；中等的；折中的"
+            },
+            {
+              "word": "ground",
+              "pos": "n.",
+              "definition": "n. 地；地面；土地"
+            },
+            {
+              "word": "system",
+              "pos": "n.",
+              "definition": "n. （协同工作的）系统；（计算机、警报器等的）系统；体制"
+            },
+            {
+              "word": "legal",
+              "pos": "adj.",
+              "definition": "adj. 法律允许的；合法的"
+            },
+            {
+              "word": "logic",
+              "pos": "n.",
+              "definition": "n. 逻辑；（做某事的）道理；推理方法"
+            },
+            {
+              "word": "wrong",
+              "pos": "adj.",
+              "definition": "adj. 错误的；不合乎事实的；（状况）有问题的"
+            },
+            {
+              "word": "means",
+              "pos": "n.",
+              "definition": "n. 手段；方法；金钱"
+            },
+            {
+              "word": "paths",
+              "pos": "n.",
+              "definition": "n. 路径（path 的复数）"
             }
           ]
         }
@@ -2227,54 +2917,24 @@
           "chunk_translation": "科学家们发现 / 即 / 尽管我们容易做出本能的过度反应 / 但如果我们花点时间思考一下自己可能会如何反应 / 我们就能减少甚至消除我们快速反应带来的负面影响 / 那些本能固化的反应",
           "vocabulary": [
             {
-              "word": "Scientists",
-              "pos": "n.",
-              "definition": "n. 科学家（scientist 的复数）"
-            },
-            {
-              "word": "found",
-              "pos": "v.",
-              "definition": "v. 创办；成立"
-            },
-            {
-              "word": "although",
-              "pos": "conj.",
-              "definition": "conj. 虽然；尽管"
-            },
-            {
-              "word": "prone",
-              "pos": "adj.",
-              "definition": "adj. 有做……倾向的；易于……的"
-            },
-            {
-              "word": "snap",
-              "pos": "v.",
-              "definition": "v. （使咔嚓）断裂；绷断"
-            },
-            {
               "word": "overreactions",
               "pos": "n.",
               "definition": "n．过度反应：对某事物或情况的反应过于强烈或不适当。"
             },
             {
-              "word": "moment",
+              "word": "hard-wired",
+              "pos": "",
+              "definition": "a.直觉的、天生的、本能的"
+            },
+            {
+              "word": "Scientists",
               "pos": "n.",
-              "definition": "n. 片刻；瞬间"
+              "definition": "n. 科学家（scientist 的复数）"
             },
             {
-              "word": "think",
-              "pos": "v.",
-              "definition": "v. 认为；以为"
-            },
-            {
-              "word": "likely",
-              "pos": "adj.",
-              "definition": "adj. 可能发生的；似乎合适的"
-            },
-            {
-              "word": "reaction",
-              "pos": "n.",
-              "definition": "n. 反应；回应"
+              "word": "eliminate",
+              "pos": "",
+              "definition": "v.消除:排除"
             },
             {
               "word": "overreact",
@@ -2282,14 +2942,49 @@
               "definition": "vi. 反应过度；反应过激"
             },
             {
-              "word": "thin",
-              "pos": "adj.",
-              "definition": "adj. 薄的；细的"
+              "word": "reactions",
+              "pos": "n.",
+              "definition": "n. 反应；回应（reaction 的复数）"
             },
             {
-              "word": "hard",
+              "word": "responses",
+              "pos": "n.",
+              "definition": "n. response 的复数形式：反应；响应；（口头或书面的）回复"
+            },
+            {
+              "word": "reaction",
+              "pos": "n.",
+              "definition": "n. 反应；回应"
+            },
+            {
+              "word": "negative",
               "pos": "adj.",
-              "definition": "adj. 硬的；坚固的"
+              "definition": "adj. 有害的；负面的；悲观的"
+            },
+            {
+              "word": "effects",
+              "pos": "n.",
+              "definition": "n. 影响；效果；结果"
+            },
+            {
+              "word": "moment",
+              "pos": "n.",
+              "definition": "n. 片刻；瞬间"
+            },
+            {
+              "word": "likely",
+              "pos": "adj.",
+              "definition": "adj. 可能发生的；似乎合适的"
+            },
+            {
+              "word": "reduce",
+              "pos": "v.",
+              "definition": "v. 减少；降低；（烹调中）使变浓稠"
+            },
+            {
+              "word": "prone",
+              "pos": "",
+              "definition": "a.有...倾向的;易于;倾向于"
             },
             {
               "word": "wired",
@@ -2297,14 +2992,24 @@
               "definition": "adj. 有线的；联网的"
             },
             {
-              "word": "reactions",
-              "pos": "n.",
-              "definition": "n. 反应；回应（reaction 的复数）"
-            },
-            {
               "word": "react",
               "pos": "v.",
               "definition": "v. （作出）反应；起化学反应"
+            },
+            {
+              "word": "quick",
+              "pos": "adj.",
+              "definition": "adj. 迅速的；快的；持续时间很短的"
+            },
+            {
+              "word": "snap",
+              "pos": "",
+              "definition": "a.仓促的、匆忙的"
+            },
+            {
+              "word": "thin",
+              "pos": "adj.",
+              "definition": "adj. 薄的；细的"
             }
           ]
         },
@@ -2316,9 +3021,44 @@
           "chunk_translation": "瞬时决策可以是重要的防御机制； / 如果我们要判断某人是否具有危险性 / 我们的大脑和身体生来就会迅速做出反应 / 在数毫秒之内 / 但我们需要更多时间来评估其他维度的因素 / 为了准确判断一个人是否善于社交 / 研究表明 / 我们需要 / 至少一分钟的时间 / 最好是五分钟 / 需要一段 / 时间来评判性格的复杂维度 / 例如神经质或开放性",
           "vocabulary": [
             {
-              "word": "snap",
-              "pos": "v.",
-              "definition": "v. （使咔嚓）断裂；绷断"
+              "word": "milliseconds",
+              "pos": "n.",
+              "definition": "n. （计量）毫秒；即千分之一秒（millisecond 的复数形式；符号为 ms）"
+            },
+            {
+              "word": "neuroticism",
+              "pos": "",
+              "definition": "n.神经质,情绪不稳定性"
+            },
+            {
+              "word": "personality",
+              "pos": "n.",
+              "definition": "n. 个性；性格；魅力"
+            },
+            {
+              "word": "hard-wired",
+              "pos": "",
+              "definition": "a.直觉的、天生的、本能的"
+            },
+            {
+              "word": "preferably",
+              "pos": "",
+              "definition": "ad.较好,更适宜"
+            },
+            {
+              "word": "mechanisms",
+              "pos": "n.",
+              "definition": "n. 机械装置；机件"
+            },
+            {
+              "word": "accurately",
+              "pos": "adv.",
+              "definition": "adv. 精确地；准确地"
+            },
+            {
+              "word": "mindedness",
+              "pos": "n.",
+              "definition": "n. （尤用于复合词）…心态；…思想；…意识"
             },
             {
               "word": "decisions",
@@ -2331,14 +3071,19 @@
               "definition": "adj. 重要的；重大的"
             },
             {
+              "word": "dangerous",
+              "pos": "adj.",
+              "definition": "adj. 危险的；有威胁的"
+            },
+            {
+              "word": "sociable",
+              "pos": "adj.",
+              "definition": "adj. 好交际的；合群的；友善的"
+            },
+            {
               "word": "defense",
               "pos": "n.",
               "definition": "n. 防御；保卫"
-            },
-            {
-              "word": "mechanisms",
-              "pos": "n.",
-              "definition": "n. 机械装置；机件"
             },
             {
               "word": "judging",
@@ -2346,34 +3091,44 @@
               "definition": "vt. 判断；审判（judge 的现在分词）"
             },
             {
-              "word": "whether",
-              "pos": "conj.",
-              "definition": "conj. 是否（表选择或可能性）；不管"
-            },
-            {
-              "word": "someone",
-              "pos": "pron.",
-              "definition": "pron. 有人；某人"
-            },
-            {
-              "word": "dangerous",
-              "pos": "adj.",
-              "definition": "adj. 危险的；有威胁的"
-            },
-            {
               "word": "quickly",
               "pos": "adv.",
               "definition": "adv. 快速地；很快"
             },
             {
-              "word": "thin",
-              "pos": "adj.",
-              "definition": "adj. 薄的；细的"
+              "word": "factors",
+              "pos": "n.",
+              "definition": "n. 因素；要素（factor 的复数）；（数学）因数"
             },
             {
-              "word": "hard",
+              "word": "studies",
+              "pos": "n.",
+              "definition": "n. 研究；学习；学业（study 的复数）"
+            },
+            {
+              "word": "complex",
               "pos": "adj.",
-              "definition": "adj. 硬的；坚固的"
+              "definition": "adj. 复杂的；难懂的；组合的"
+            },
+            {
+              "word": "aspects",
+              "pos": "n.",
+              "definition": "n. 方面；方位；面貌（aspect 的复数）"
+            },
+            {
+              "word": "assess",
+              "pos": "",
+              "definition": "v.评定,评估"
+            },
+            {
+              "word": "brains",
+              "pos": "n.",
+              "definition": "n. 智力；脑髓（brain 的复数）"
+            },
+            {
+              "word": "minute",
+              "pos": "n.",
+              "definition": "n. 分；分钟；片刻"
             },
             {
               "word": "wired",
@@ -2384,6 +3139,21 @@
               "word": "react",
               "pos": "v.",
               "definition": "v. （作出）反应；起化学反应"
+            },
+            {
+              "word": "judge",
+              "pos": "n.",
+              "definition": "n. 法官；审判官；裁判员"
+            },
+            {
+              "word": "snap",
+              "pos": "",
+              "definition": "a.仓促的、匆忙的"
+            },
+            {
+              "word": "thin",
+              "pos": "adj.",
+              "definition": "adj. 薄的；细的"
             }
           ]
         },
@@ -2395,49 +3165,19 @@
           "chunk_translation": "但这种瞬时决策 / 对快速刺激做出的反应并非仅限于人际交往领域 / 多伦多大学的心理学家发现 / 仅仅注视快餐标志 / 短短几毫秒就会诱导我们的阅读速度提升20% / 即便 / 尽管阅读与进食几乎没有任何关系 / 与吃东西 / 我们在潜意识中将快餐 / 与速度和急躁联系在一起并将这些冲动带入 / 我们正在做的任何其他事情中 / 接触快餐画面闪烁的受试者也往往觉得一首乐曲持续时间太长",
           "vocabulary": [
             {
-              "word": "found",
-              "pos": "v.",
-              "definition": "v. 创办；成立"
+              "word": "in reaction to rapid stimuli",
+              "pos": "",
+              "definition": "应对快速刺激"
             },
             {
-              "word": "snap",
-              "pos": "v.",
-              "definition": "v. （使咔嚓）断裂；绷断"
+              "word": "interpersonal realm",
+              "pos": "",
+              "definition": "人际领域"
             },
             {
-              "word": "think",
-              "pos": "v.",
-              "definition": "v. 认为；以为"
-            },
-            {
-              "word": "decisions",
-              "pos": "n.",
-              "definition": "n. 决策；决断"
-            },
-            {
-              "word": "reaction",
-              "pos": "n.",
-              "definition": "n. 反应；回应"
-            },
-            {
-              "word": "rapid",
-              "pos": "adj.",
-              "definition": "adj. 快的；迅速的"
-            },
-            {
-              "word": "stimuli",
-              "pos": "n.",
-              "definition": "n. 刺激（物）；促进因素"
-            },
-            {
-              "word": "aren",
-              "pos": "abbr.",
-              "definition": "abbr. 陆军无线电工程网（army radio engineering network）"
-            },
-            {
-              "word": "exclusive",
-              "pos": "adj.",
-              "definition": "adj. 独有的；专用的"
+              "word": "a fast-food logo",
+              "pos": "",
+              "definition": "快餐标识"
             },
             {
               "word": "interpersonal",
@@ -2445,19 +3185,159 @@
               "definition": "adj. 人际关系的；人际的"
             },
             {
-              "word": "realm",
+              "word": "Psychologists",
               "pos": "n.",
-              "definition": "n. （知识、活动、思想的）领域；范围"
+              "definition": "n. （心理）心理学家（psychologist 的复数形式）"
             },
             {
-              "word": "thin",
+              "word": "unconsciously",
+              "pos": "adv.",
+              "definition": "adv. 无意识地；无意中；不知不觉"
+            },
+            {
+              "word": "milliseconds",
+              "pos": "n.",
+              "definition": "n. （计量）毫秒；即千分之一秒（millisecond 的复数形式；符号为 ms）"
+            },
+            {
+              "word": "University",
+              "pos": "n.",
+              "definition": "n. 大学；综合性大学；大学校舍"
+            },
+            {
+              "word": "impatience",
+              "pos": "n.",
+              "definition": "n. 不耐烦；无耐心；热切"
+            },
+            {
+              "word": "exclusive",
+              "pos": "",
+              "definition": "a.独有的,专有的,独占的"
+            },
+            {
+              "word": "decisions",
+              "pos": "n.",
+              "definition": "n. 决策；决断"
+            },
+            {
+              "word": "associate",
+              "pos": "v.",
+              "definition": "v. 联想；联系；支持"
+            },
+            {
+              "word": "reaction",
+              "pos": "n.",
+              "definition": "n. 反应；回应"
+            },
+            {
+              "word": "impulses",
+              "pos": "n.",
+              "definition": "n. （心理）冲动；一时的欲望或念头；（电子）脉冲"
+            },
+            {
+              "word": "whatever",
+              "pos": "det.",
+              "definition": "det. 任何……的事物；无论什么；pron. 任何事物"
+            },
+            {
+              "word": "Subjects",
+              "pos": "n.",
+              "definition": "n. 学科；科目；主题"
+            },
+            {
+              "word": "stimuli",
+              "pos": "",
+              "definition": "n.刺激(stimulus的复数)"
+            },
+            {
+              "word": "Toronto",
+              "pos": "n.",
+              "definition": "n. 多伦多（加拿大城市）"
+            },
+            {
+              "word": "viewing",
+              "pos": "n.",
+              "definition": "n. 察看；观看；收看（电视）"
+            },
+            {
+              "word": "reading",
+              "pos": "n.",
+              "definition": "n. 阅读；宣读；读物"
+            },
+            {
+              "word": "exposed",
               "pos": "adj.",
-              "definition": "adj. 薄的；细的"
+              "definition": "adj. 暴露的；无遮蔽的；无保护的"
+            },
+            {
+              "word": "flashes",
+              "pos": "n.",
+              "definition": "n. 闪光灯（flash的复数形式）；光芒；披风"
+            },
+            {
+              "word": "musical",
+              "pos": "adj.",
+              "definition": "adj. 音乐的；配乐的；喜爱音乐的"
+            },
+            {
+              "word": "primes",
+              "pos": "n.",
+              "definition": "n. （prime 的复数）质数；素数；青春"
+            },
+            {
+              "word": "faster",
+              "pos": "adj.",
+              "definition": "adj. 更快的；adv. 更快地；n. 禁食者"
+            },
+            {
+              "word": "eating",
+              "pos": "n.",
+              "definition": "n. 吃；进食；食物（尤指就其品质、味道而言）"
+            },
+            {
+              "word": "realm",
+              "pos": "",
+              "definition": "n.领域,范围"
+            },
+            {
+              "word": "rapid",
+              "pos": "adj.",
+              "definition": "adj. 快的；迅速的"
             },
             {
               "word": "react",
               "pos": "v.",
               "definition": "v. （作出）反应；起化学反应"
+            },
+            {
+              "word": "speed",
+              "pos": "n.",
+              "definition": "n. （运动）速度；（某事发生或进行的）速度；快"
+            },
+            {
+              "word": "carry",
+              "pos": "v.",
+              "definition": "v. 提；扛；背"
+            },
+            {
+              "word": "lasts",
+              "pos": "v.",
+              "definition": "v. 持续；延续（动词 last 的第三人称单数形式）；n. 鞋楦（名词 last 的复数）"
+            },
+            {
+              "word": "snap",
+              "pos": "",
+              "definition": "a.仓促的、匆忙的"
+            },
+            {
+              "word": "aren",
+              "pos": "abbr.",
+              "definition": "abbr. 陆军无线电工程网（army radio engineering network）"
+            },
+            {
+              "word": "thin",
+              "pos": "adj.",
+              "definition": "adj. 薄的；细的"
             }
           ]
         },
@@ -2469,19 +3349,19 @@
           "chunk_translation": "然而我们能够扭转这种影响 / 如果我们知道自己看到笑脸时会对消费品或房产选择做出过度反应 / 当我们看到一张笑脸时（这也是优秀销售代表和房产中介总是面带微笑的原因之一） / 我们就可以在付款前缓一缓 / 在购买之前 / 如果我们知道女性招聘筛选人员更有可能拒绝面容姣好的女性求职者 / 我们就可以帮助筛选人员认识到自身的偏见—— / 或者聘请外部招聘人员",
           "vocabulary": [
             {
-              "word": "moment",
+              "word": "consumer products",
+              "pos": "",
+              "definition": "消费品"
+            },
+            {
+              "word": "housing options",
+              "pos": "",
+              "definition": "住房选择"
+            },
+            {
+              "word": "representatives",
               "pos": "n.",
-              "definition": "n. 片刻；瞬间"
-            },
-            {
-              "word": "likely",
-              "pos": "adj.",
-              "definition": "adj. 可能发生的；似乎合适的"
-            },
-            {
-              "word": "reverse",
-              "pos": "v.",
-              "definition": "v. 逆转；彻底改变（决定、政策、趋势等）"
+              "definition": "n. representative 的复数形式；代表；代理人"
             },
             {
               "word": "influences",
@@ -2489,14 +3369,24 @@
               "definition": "n. 影响；作用"
             },
             {
-              "word": "know",
-              "pos": "v.",
-              "definition": "v. 知道；认识到"
+              "word": "attractive",
+              "pos": "adj.",
+              "definition": "adj. 吸引人的；有吸引力的；（人）迷人的"
+            },
+            {
+              "word": "applicants",
+              "pos": "n.",
+              "definition": "n. 申请人；申请者；应征者（applicant 的复数形式）"
             },
             {
               "word": "overreact",
               "pos": "vi.",
               "definition": "vi. 反应过度；反应过激"
+            },
+            {
+              "word": "screeners",
+              "pos": "n.",
+              "definition": "n. 掩护队员；筛选者（安检员、筛查员、审查员）；筛分工"
             },
             {
               "word": "consumer",
@@ -2509,6 +3399,11 @@
               "definition": "n. 产品；商品（product 的复数）"
             },
             {
+              "word": "reverse",
+              "pos": "",
+              "definition": "v.颠倒;逆转"
+            },
+            {
               "word": "housing",
               "pos": "n.",
               "definition": "n. 房屋；住宅"
@@ -2519,6 +3414,61 @@
               "definition": "n. 可选择的事物；（将来的）买卖选择权利"
             },
             {
+              "word": "smiling",
+              "pos": "adj.",
+              "definition": "adj. 微笑的；带笑意的；欢快的"
+            },
+            {
+              "word": "outside",
+              "pos": "n.",
+              "definition": "n. 外表；外部（the outside）；（建筑物、车辆等的）周围"
+            },
+            {
+              "word": "moment",
+              "pos": "n.",
+              "definition": "n. 片刻；瞬间"
+            },
+            {
+              "word": "likely",
+              "pos": "adj.",
+              "definition": "adj. 可能发生的；似乎合适的"
+            },
+            {
+              "word": "reason",
+              "pos": "n.",
+              "definition": "n. 原因；理由；充分理由"
+            },
+            {
+              "word": "estate",
+              "pos": "n.",
+              "definition": "n. 财产；遗产；大片私有土地"
+            },
+            {
+              "word": "agents",
+              "pos": "n.",
+              "definition": "n. agent 的复数；代理人；代理商"
+            },
+            {
+              "word": "buying",
+              "pos": "v.",
+              "definition": "v. 购买；获得；收买（buy 的现在分词和动名词形式）"
+            },
+            {
+              "word": "female",
+              "pos": "adj.",
+              "definition": "adj. 女性的；妇女的；女性特有的"
+            },
+            {
+              "word": "reject",
+              "pos": "v.",
+              "definition": "v. 拒绝；否决（提议、建议或请求）；摈弃"
+            },
+            {
+              "word": "biases",
+              "pos": "n.",
+              "definition": "n. 偏心；偏见；偏差（bias 的复数）"
+            },
+            {
               "word": "happy",
               "pos": "adj.",
               "definition": "adj. 快乐的；幸福的"
@@ -2527,6 +3477,11 @@
               "word": "react",
               "pos": "v.",
               "definition": "v. （作出）反应；起化学反应"
+            },
+            {
+              "word": "sales",
+              "pos": "adj.",
+              "definition": "adj. （多用作定语）销售的；售货的；有关销售的"
             }
           ]
         },
@@ -2538,59 +3493,14 @@
           "chunk_translation": "约翰·戈特曼 / 这位婚姻问题专家 / 解释道 / 只有将这种瞬间反应建立在“厚切片”的长期深入研究基础之上，我们才能快速且可靠地对信息进行“薄切片”提取 / 当戈特曼博士",
           "vocabulary": [
             {
-              "word": "snap",
-              "pos": "v.",
-              "definition": "v. （使咔嚓）断裂；绷断"
-            },
-            {
-              "word": "reaction",
-              "pos": "n.",
-              "definition": "n. 反应；回应"
-            },
-            {
-              "word": "Gottman",
-              "pos": "n.",
-              "definition": "n. 高特曼；戈特曼（姓氏）"
-            },
-            {
-              "word": "marriage",
-              "pos": "n.",
-              "definition": "n. 结婚；婚姻"
-            },
-            {
-              "word": "expert",
-              "pos": "n.",
-              "definition": "n. 专家；能手"
-            },
-            {
-              "word": "explains",
-              "pos": "v.",
-              "definition": "v. 解释；说明"
-            },
-            {
-              "word": "quickly",
-              "pos": "adv.",
-              "definition": "adv. 快速地；很快"
-            },
-            {
-              "word": "thin",
-              "pos": "adj.",
-              "definition": "adj. 薄的；细的"
-            },
-            {
-              "word": "slice",
-              "pos": "n.",
-              "definition": "n. （切下的食物）薄片；片"
-            },
-            {
               "word": "information",
               "pos": "n.",
               "definition": "n. 消息；资料"
             },
             {
-              "word": "reliably",
-              "pos": "adv.",
-              "definition": "adv. 可靠地；确实地"
+              "word": "only after",
+              "pos": "",
+              "definition": "...之后才"
             },
             {
               "word": "reactions",
@@ -2598,9 +3508,74 @@
               "definition": "n. 反应；回应（reaction 的复数）"
             },
             {
+              "word": "reaction",
+              "pos": "n.",
+              "definition": "n. 反应；回应"
+            },
+            {
+              "word": "marriage",
+              "pos": "n.",
+              "definition": "n. 结婚；婚姻"
+            },
+            {
+              "word": "reliably",
+              "pos": "adv.",
+              "definition": "adv. 可靠地；确实地"
+            },
+            {
+              "word": "Gottman",
+              "pos": "n.",
+              "definition": "n. 高特曼；戈特曼（姓氏）"
+            },
+            {
+              "word": "quickly",
+              "pos": "adv.",
+              "definition": "adv. 快速地；很快"
+            },
+            {
+              "word": "ground",
+              "pos": "",
+              "definition": "v.使接触地面;打基础"
+            },
+            {
+              "word": "expert",
+              "pos": "n.",
+              "definition": "n. 专家；能手"
+            },
+            {
+              "word": "sliced",
+              "pos": "adj.",
+              "definition": "adj. （食物）已切成薄片的；按片切好的；常与 bread、meat 等连用"
+            },
+            {
+              "word": "slice",
+              "pos": "",
+              "definition": "v.切下;把...分成部分;将...切成薄片"
+            },
+            {
               "word": "react",
               "pos": "v.",
               "definition": "v. （作出）反应；起化学反应"
+            },
+            {
+              "word": "thick",
+              "pos": "adj.",
+              "definition": "adj. 厚的；粗的；有……厚的"
+            },
+            {
+              "word": "study",
+              "pos": "n.",
+              "definition": "n. （专题）研究；调查；（尤指通过书本的）学习"
+            },
+            {
+              "word": "snap",
+              "pos": "",
+              "definition": "a.仓促的、匆忙的"
+            },
+            {
+              "word": "thin",
+              "pos": "adj.",
+              "definition": "adj. 薄的；细的"
             }
           ]
         },
@@ -2612,59 +3587,9 @@
           "chunk_translation": "真正想要评估一对夫妻是否能白头偕老时 / 他会邀请他们到自己的海岛度假处进行时间长得多的评估： / 整整两天 / 而非区区两秒 / 我们通过停顿来抑制本能反应的能力 / 正是将我们区别开来的特质 / 与动物区别开来： / 狗只能断断续续地或只考虑未来几分钟的事情 / 但从历史上看，我们大约有12%的时间都在思考更长远的未来",
           "vocabulary": [
             {
-              "word": "think",
-              "pos": "v.",
-              "definition": "v. 认为；以为"
-            },
-            {
-              "word": "whether",
-              "pos": "conj.",
-              "definition": "conj. 是否（表选择或可能性）；不管"
-            },
-            {
-              "word": "reaction",
-              "pos": "n.",
-              "definition": "n. 反应；回应"
-            },
-            {
-              "word": "Gottman",
-              "pos": "n.",
-              "definition": "n. 高特曼；戈特曼（姓氏）"
-            },
-            {
-              "word": "thin",
-              "pos": "adj.",
-              "definition": "adj. 薄的；细的"
-            },
-            {
-              "word": "ability",
-              "pos": "n.",
-              "definition": "n. 能力；能够"
-            },
-            {
-              "word": "mute",
-              "pos": "adj.",
-              "definition": "adj. 缄默的；沉默的"
-            },
-            {
-              "word": "hard",
-              "pos": "adj.",
-              "definition": "adj. 硬的；坚固的"
-            },
-            {
-              "word": "wired",
-              "pos": "adj.",
-              "definition": "adj. 有线的；联网的"
-            },
-            {
-              "word": "reactions",
-              "pos": "n.",
-              "definition": "n. 反应；回应（reaction 的复数）"
-            },
-            {
-              "word": "pausing",
-              "pos": "v.",
-              "definition": "v. 暂停；停顿"
+              "word": "intermittently",
+              "pos": "",
+              "definition": "ad.间歇地,断断续续地"
             },
             {
               "word": "differentiates",
@@ -2672,19 +3597,114 @@
               "definition": "v. （differentiate 的第三人称单数）区分；辨别"
             },
             {
-              "word": "animals",
-              "pos": "n.",
-              "definition": "n. 动物；动物世界"
+              "word": "contemplating",
+              "pos": "v.",
+              "definition": "v. 考虑；盘算；打算"
             },
             {
-              "word": "dogs",
+              "word": "historically",
+              "pos": "adv.",
+              "definition": "adv. 从历史角度说；从历史观点上说；在历史上"
+            },
+            {
+              "word": "hard-wired",
+              "pos": "",
+              "definition": "a.直觉的、天生的、本能的"
+            },
+            {
+              "word": "evaluation",
               "pos": "n.",
-              "definition": "n. 狗（dog 的复数）；瘦狗类"
+              "definition": "n. 评价；评估"
+            },
+            {
+              "word": "reactions",
+              "pos": "n.",
+              "definition": "n. 反应；回应（reaction 的复数）"
+            },
+            {
+              "word": "reaction",
+              "pos": "n.",
+              "definition": "n. 反应；回应"
+            },
+            {
+              "word": "retreat",
+              "pos": "",
+              "definition": "n.僻静处,隐居处,休息寓所"
+            },
+            {
+              "word": "Gottman",
+              "pos": "n.",
+              "definition": "n. 高特曼；戈特曼（姓氏）"
+            },
+            {
+              "word": "ability",
+              "pos": "n.",
+              "definition": "n. 能力；能够"
+            },
+            {
+              "word": "pausing",
+              "pos": "v.",
+              "definition": "v. 暂停；停顿"
+            },
+            {
+              "word": "invites",
+              "pos": "v.",
+              "definition": "v. 邀请；约请；征求"
+            },
+            {
+              "word": "seconds",
+              "pos": "n.",
+              "definition": "n. 秒；片刻；瞬间"
+            },
+            {
+              "word": "minutes",
+              "pos": "n.",
+              "definition": "n. 分钟（minute 的复数）；会议记录；备忘录"
+            },
+            {
+              "word": "assess",
+              "pos": "",
+              "definition": "v.评定,评估"
+            },
+            {
+              "word": "couple",
+              "pos": "n.",
+              "definition": "n. 两个；几个；一对夫妇"
+            },
+            {
+              "word": "island",
+              "pos": "n.",
+              "definition": "n. 岛；岛屿；岛状物"
+            },
+            {
+              "word": "future",
+              "pos": "n.",
+              "definition": "n. 未来；将来；前途"
+            },
+            {
+              "word": "wired",
+              "pos": "adj.",
+              "definition": "adj. 有线的；联网的"
             },
             {
               "word": "react",
               "pos": "v.",
               "definition": "v. （作出）反应；起化学反应"
+            },
+            {
+              "word": "spent",
+              "pos": "adj.",
+              "definition": "adj. 用过已废的；失效的；筋疲力尽的"
+            },
+            {
+              "word": "mute",
+              "pos": "",
+              "definition": "v.减弱......的声音;使.....柔和"
+            },
+            {
+              "word": "thin",
+              "pos": "adj.",
+              "definition": "adj. 薄的；细的"
             }
           ]
         },
@@ -2696,14 +3716,19 @@
           "chunk_translation": "尽管技术可能会改变我们的反应方式 / 但它并未改变我们的人性本质 / 我们依然拥有抵制诱惑并扭转这种高速狂奔趋势的想象力与能力",
           "vocabulary": [
             {
-              "word": "although",
-              "pos": "conj.",
-              "definition": "conj. 虽然；尽管"
+              "word": "imaginative",
+              "pos": "adj.",
+              "definition": "adj. 富于想象力的；创新的"
             },
             {
-              "word": "reverse",
-              "pos": "v.",
-              "definition": "v. 逆转；彻底改变（决定、政策、趋势等）"
+              "word": "temptation",
+              "pos": "",
+              "definition": "n.引诱:诱惑物"
+            },
+            {
+              "word": "rise above",
+              "pos": "",
+              "definition": "超越,克服"
             },
             {
               "word": "technology",
@@ -2711,24 +3736,14 @@
               "definition": "n. 科技；技术"
             },
             {
-              "word": "change",
-              "pos": "v.",
-              "definition": "v. 改变；变化"
+              "word": "capacity",
+              "pos": "n.",
+              "definition": "n. 能力；才能；容积"
             },
             {
-              "word": "react",
-              "pos": "v.",
-              "definition": "v. （作出）反应；起化学反应"
-            },
-            {
-              "word": "hasn",
-              "pos": "abbr.",
-              "definition": "abbr. 还没有（has not）"
-            },
-            {
-              "word": "changed",
-              "pos": "adj.",
-              "definition": "adj. 经过改变的；变化了的"
+              "word": "reverse",
+              "pos": "",
+              "definition": "v.颠倒;逆转"
             },
             {
               "word": "nature",
@@ -2736,14 +3751,24 @@
               "definition": "n. 大自然；自然界"
             },
             {
-              "word": "still",
-              "pos": "adv.",
-              "definition": "adv. 还；依旧"
+              "word": "react",
+              "pos": "v.",
+              "definition": "v. （作出）反应；起化学反应"
             },
             {
-              "word": "imaginative",
-              "pos": "adj.",
-              "definition": "adj. 富于想象力的；创新的"
+              "word": "speed",
+              "pos": "n.",
+              "definition": "n. （运动）速度；（某事发生或进行的）速度；快"
+            },
+            {
+              "word": "trend",
+              "pos": "n.",
+              "definition": "n. 趋势；动态；时尚"
+            },
+            {
+              "word": "hasn",
+              "pos": "abbr.",
+              "definition": "abbr. 还没有（has not）"
             }
           ]
         }
@@ -3577,19 +4602,34 @@
           "chunk_translation": "欧洲并非性别平等的天堂 / 尤其是 / 除非女性参与高层管理决策，否则企业职场永远无法做到完全顾及家庭 / 而欧洲顶层的公司治理职位绝大多数依然由男性占据 / 事实上 / 女性仅占据14%的席位 / 在欧洲企业董事会中",
           "vocabulary": [
             {
-              "word": "gender",
-              "pos": "n.",
-              "definition": "n. 性别；（语法中的）性"
+              "word": "top corporate-governance positions",
+              "pos": "",
+              "definition": "公司高层管理职位"
             },
             {
-              "word": "equality",
-              "pos": "n.",
-              "definition": "n. 均等；平等"
+              "word": "senior management decisions",
+              "pos": "",
+              "definition": "高层管理决策"
             },
             {
-              "word": "heaven",
-              "pos": "n.",
-              "definition": "n. 天堂；天国"
+              "word": "a gender-equality heaven",
+              "pos": "",
+              "definition": "性别平等的天堂"
+            },
+            {
+              "word": "corporate boards",
+              "pos": "",
+              "definition": "董事会"
+            },
+            {
+              "word": "overwhelmingly",
+              "pos": "",
+              "definition": "ad.压倒性地;不可抵抗地"
+            },
+            {
+              "word": "in particular",
+              "pos": "",
+              "definition": "尤其是"
             },
             {
               "word": "particular",
@@ -3597,9 +4637,24 @@
               "definition": "adj. 特定的；某一的"
             },
             {
+              "word": "completely",
+              "pos": "adv.",
+              "definition": "adv. 完全地；彻底地"
+            },
+            {
+              "word": "management",
+              "pos": "n.",
+              "definition": "n. 经营；管理；安排"
+            },
+            {
+              "word": "governance",
+              "pos": "n.",
+              "definition": "n. 统治方式；管理方法"
+            },
+            {
               "word": "corporate",
-              "pos": "adj.",
-              "definition": "adj. 公司的；法人的"
+              "pos": "",
+              "definition": "a.法人的,公司的"
             },
             {
               "word": "workplace",
@@ -3607,14 +4662,39 @@
               "definition": "n. （办公室；工厂）等工作场所"
             },
             {
-              "word": "never",
-              "pos": "adv.",
-              "definition": "adv. 决不；永不"
+              "word": "positions",
+              "pos": "n.",
+              "definition": "n. 位置；地点（position 的复数）"
             },
             {
-              "word": "completely",
-              "pos": "adv.",
-              "definition": "adv. 完全地；彻底地"
+              "word": "decisions",
+              "pos": "n.",
+              "definition": "n. 决策；决断；决定（decision 的复数）"
+            },
+            {
+              "word": "equality",
+              "pos": "n.",
+              "definition": "n. 均等；平等"
+            },
+            {
+              "word": "friendly",
+              "pos": "adj.",
+              "definition": "adj. 亲切的；友善的；朋友（般）的"
+            },
+            {
+              "word": "senior",
+              "pos": "",
+              "definition": "a.高级的,地位较高的,级别高的"
+            },
+            {
+              "word": "gender",
+              "pos": "n.",
+              "definition": "n. 性别；（语法中的）性"
+            },
+            {
+              "word": "heaven",
+              "pos": "n.",
+              "definition": "n. 天堂；天国"
             },
             {
               "word": "family",
@@ -3627,9 +4707,9 @@
               "definition": "n. board 的复数；木板"
             },
             {
-              "word": "positions",
-              "pos": "n.",
-              "definition": "n. 位置；地点（position 的复数）"
+              "word": "Indeed",
+              "pos": "adv.",
+              "definition": "adv. 确实；的确；实际上"
             }
           ]
         },
@@ -3641,19 +4721,34 @@
           "chunk_translation": "欧盟目前正在考虑立法强制企业董事会保持一定比例的女性代表—— / 比例最高可达60% / 这项拟议的强制令源于深深的挫败感 / 去年 / 欧盟委员会副主席维维安·雷丁发出了采取自愿行动的呼吁 / 雷丁邀请各企业签署承诺 / 以实现董事会女性成员比例达到40%的性别平衡目标 / 但她的呼吁被认为是一次失败： / 仅有24家公司响应了这一号召",
           "vocabulary": [
             {
-              "word": "gender",
-              "pos": "n.",
-              "definition": "n. 性别；（语法中的）性"
+              "word": "maintain a certain proportion of",
+              "pos": "",
+              "definition": "保持一定比例的..."
             },
             {
-              "word": "corporate",
-              "pos": "adj.",
-              "definition": "adj. 公司的；法人的"
+              "word": "corporate boards",
+              "pos": "",
+              "definition": "董事会"
             },
             {
-              "word": "Union",
+              "word": "corporations",
               "pos": "n.",
-              "definition": "n. 工会；联邦"
+              "definition": "n. 公司；企业（corporation 的复数）"
+            },
+            {
+              "word": "legislation",
+              "pos": "",
+              "definition": "n.立法,法律"
+            },
+            {
+              "word": "frustration",
+              "pos": "",
+              "definition": "n.挫折,挫败"
+            },
+            {
+              "word": "sign up for",
+              "pos": "",
+              "definition": "报名参加"
             },
             {
               "word": "considering",
@@ -3661,19 +4756,39 @@
               "definition": "prep. 考虑到；鉴于"
             },
             {
-              "word": "legislation",
-              "pos": "n.",
-              "definition": "n. 法规；法律"
+              "word": "proportion",
+              "pos": "",
+              "definition": "n.比例:部分"
             },
             {
-              "word": "compel",
-              "pos": "v.",
-              "definition": "v. 强迫；迫使"
+              "word": "Commission",
+              "pos": "n.",
+              "definition": "n. 考察团；委员会；佣金"
             },
             {
-              "word": "boards",
+              "word": "membership",
               "pos": "n.",
-              "definition": "n. board 的复数；木板"
+              "definition": "n. 会员身份；会籍；会员数"
+            },
+            {
+              "word": "considered",
+              "pos": "adj.",
+              "definition": "adj. 深思熟虑的；v. 考虑；斟酌"
+            },
+            {
+              "word": "corporate",
+              "pos": "",
+              "definition": "a.法人的,公司的"
+            },
+            {
+              "word": "President",
+              "pos": "n.",
+              "definition": "n. 总统；国家主席；（机构、俱乐部、学院等的）负责人"
+            },
+            {
+              "word": "voluntary",
+              "pos": "adj.",
+              "definition": "adj. 自愿的；自发的；主动的"
             },
             {
               "word": "maintain",
@@ -3681,19 +4796,59 @@
               "definition": "v. 保持；维持"
             },
             {
+              "word": "proposed",
+              "pos": "adj.",
+              "definition": "adj. 被提议的；建议的；拟议中的"
+            },
+            {
+              "word": "mandate",
+              "pos": "",
+              "definition": "n.授权;命令,指令"
+            },
+            {
               "word": "certain",
               "pos": "adj.",
               "definition": "adj. 必然的；必定的"
             },
             {
-              "word": "proportion",
-              "pos": "n.",
-              "definition": "n. 部分；份额"
-            },
-            {
               "word": "balance",
               "pos": "n.",
               "definition": "n. 平衡；均衡"
+            },
+            {
+              "word": "Viviane",
+              "pos": "n.",
+              "definition": "n. （Viviane）人名；（法）维维亚娜"
+            },
+            {
+              "word": "invited",
+              "pos": "v.",
+              "definition": "v. 邀请；约请；征求"
+            },
+            {
+              "word": "failure",
+              "pos": "n.",
+              "definition": "n. 失败；失败的人（或企业、事物）；未做到"
+            },
+            {
+              "word": "compel",
+              "pos": "",
+              "definition": "v.强迫,迫使"
+            },
+            {
+              "word": "appeal",
+              "pos": "",
+              "definition": "n.呼吁"
+            },
+            {
+              "word": "gender",
+              "pos": "n.",
+              "definition": "n. 性别；（语法中的）性"
+            },
+            {
+              "word": "boards",
+              "pos": "n.",
+              "definition": "n. board 的复数；木板"
             },
             {
               "word": "Reding",
@@ -3706,14 +4861,29 @@
               "definition": "n. 行动；行为"
             },
             {
-              "word": "frustration",
-              "pos": "n.",
-              "definition": "n. 懊恼；沮丧"
+              "word": "issued",
+              "pos": "v.",
+              "definition": "v. 发布；（正式）发给；将……诉诸法律"
             },
             {
-              "word": "corporations",
+              "word": "female",
+              "pos": "adj.",
+              "definition": "adj. 女性的；妇女的；女性特有的"
+            },
+            {
+              "word": "board",
+              "pos": "",
+              "definition": "n.董事会,委员会,理事会"
+            },
+            {
+              "word": "Union",
               "pos": "n.",
-              "definition": "n. 公司；企业（corporation 的复数）"
+              "definition": "n. 工会；联邦"
+            },
+            {
+              "word": "goals",
+              "pos": "n.",
+              "definition": "n. （goal 的复数）目标；目的；进球"
             }
           ]
         },
@@ -3725,19 +4895,34 @@
           "chunk_translation": "我们是否需要设定配额来确保 / 女性在平衡工作与家庭的同时能够公平地在企业阶梯中向上晋升？",
           "vocabulary": [
             {
+              "word": "climb the corporate ladder",
+              "pos": "",
+              "definition": "攀爬企业晋升阶梯"
+            },
+            {
+              "word": "balance work and family",
+              "pos": "",
+              "definition": "平衡工作和家庭"
+            },
+            {
               "word": "corporate",
-              "pos": "adj.",
-              "definition": "adj. 公司的；法人的"
+              "pos": "",
+              "definition": "a.法人的,公司的"
+            },
+            {
+              "word": "balance",
+              "pos": "n.",
+              "definition": "n. 平衡；均衡"
+            },
+            {
+              "word": "ladder",
+              "pos": "",
+              "definition": "n.阶梯"
             },
             {
               "word": "family",
               "pos": "n.",
               "definition": "n. 家；家庭"
-            },
-            {
-              "word": "need",
-              "pos": "v.",
-              "definition": "v. 需要；（表示应该或不得不做）有必要"
             },
             {
               "word": "quotas",
@@ -3750,29 +4935,14 @@
               "definition": "v. 确保；保证"
             },
             {
-              "word": "continue",
-              "pos": "v.",
-              "definition": "v. （使）继续；（使）延续"
-            },
-            {
-              "word": "climb",
-              "pos": "v.",
-              "definition": "v. 攀登；攀爬"
-            },
-            {
-              "word": "ladder",
-              "pos": "n.",
-              "definition": "n. 梯子；（职位晋升的）阶梯"
-            },
-            {
               "word": "fairly",
               "pos": "adv.",
               "definition": "adv. 相当地；颇"
             },
             {
-              "word": "balance",
-              "pos": "n.",
-              "definition": "n. 平衡；均衡"
+              "word": "climb",
+              "pos": "v.",
+              "definition": "v. 攀登；攀爬"
             }
           ]
         },
@@ -3784,14 +4954,24 @@
           "chunk_translation": "“就我个人而言 / 我不喜欢配额制 / ”雷丁最近表示 / “但我喜欢配额带来的实际效果。”配额带来了切实行动： / 它们“开辟了通向平等的道路，打破了玻璃天花板 / ”雷丁指出 / 这一成效已显现 / 在法国和其他国家 / 这些国家拥有具有法律约束力的条款 / 关于确保女性担任企业最高职位",
           "vocabulary": [
             {
-              "word": "equality",
-              "pos": "n.",
-              "definition": "n. 均等；平等"
+              "word": "legally binding provisions",
+              "pos": "",
+              "definition": "具有法律约束力的条款"
             },
             {
-              "word": "quotas",
-              "pos": "n.",
-              "definition": "n. 配额；定额"
+              "word": "open the way to",
+              "pos": "",
+              "definition": "开辟..之路"
+            },
+            {
+              "word": "glass ceiling",
+              "pos": "",
+              "definition": "玻璃天花板,指限制女性晋升的无形障碍"
+            },
+            {
+              "word": "break through",
+              "pos": "",
+              "definition": "打破"
             },
             {
               "word": "Personally",
@@ -3799,9 +4979,24 @@
               "definition": "adv. 就个人而言；亲自地"
             },
             {
-              "word": "Reding",
-              "pos": "v.",
-              "definition": "v. 提意见；提忠告（rede的现在分词）"
+              "word": "provisions",
+              "pos": "n.",
+              "definition": "n. （法律、合同中的）规定；条款（provision 的复数）；食品"
+            },
+            {
+              "word": "positions",
+              "pos": "n.",
+              "definition": "n. 位置；地点（position 的复数）"
+            },
+            {
+              "word": "according",
+              "pos": "prep.",
+              "definition": "prep. 按照；根据；依照（according to"
+            },
+            {
+              "word": "equality",
+              "pos": "n.",
+              "definition": "n. 均等；平等"
             },
             {
               "word": "recently",
@@ -3809,29 +5004,54 @@
               "definition": "adv. 最近；不久前"
             },
             {
+              "word": "business",
+              "pos": "n.",
+              "definition": "n. 商业；买卖；生意"
+            },
+            {
+              "word": "binding",
+              "pos": "",
+              "definition": "a.有约束力的"
+            },
+            {
+              "word": "ceiling",
+              "pos": "n.",
+              "definition": "n. 天花板；吊顶；上限"
+            },
+            {
+              "word": "legally",
+              "pos": "adv.",
+              "definition": "adv. 按照法律；法律上；合法地"
+            },
+            {
+              "word": "placing",
+              "pos": "n.",
+              "definition": "n. 名次、排名；安放、安置；订货"
+            },
+            {
+              "word": "quotas",
+              "pos": "n.",
+              "definition": "n. 配额；定额"
+            },
+            {
+              "word": "Reding",
+              "pos": "v.",
+              "definition": "v. 提意见；提忠告（rede的现在分词）"
+            },
+            {
               "word": "action",
               "pos": "n.",
               "definition": "n. 行动；行为"
             },
             {
-              "word": "open",
-              "pos": "adj.",
-              "definition": "adj. 开放的；营业的"
-            },
-            {
-              "word": "break",
-              "pos": "v.",
-              "definition": "v. 打破；折断"
+              "word": "result",
+              "pos": "n.",
+              "definition": "n. 结果；后果；（比赛或选举的）结果"
             },
             {
               "word": "glass",
               "pos": "n.",
               "definition": "n. 玻璃；玻璃杯"
-            },
-            {
-              "word": "positions",
-              "pos": "n.",
-              "definition": "n. 位置；地点（position 的复数）"
             }
           ]
         },
@@ -3843,6 +5063,76 @@
           "chunk_translation": "我理解雷丁的不情愿—— / 以及她的挫败感 / 我同样也不喜欢配额； / 它们背离了我的信念 / 即唯才是举、 / 能者居之的理念 / 但是 / 当人们考虑到实现精英管理理想的重重阻碍时 / 看起来确实 / 必须通过行政命令暂时构建一个更加公平的世界",
           "vocabulary": [
             {
+              "word": "the meritocratic ideal",
+              "pos": "",
+              "definition": "精英管理制理想"
+            },
+            {
+              "word": "run counter to",
+              "pos": "",
+              "definition": "违反,与....背道而驰"
+            },
+            {
+              "word": "meritocratic",
+              "pos": "adj.",
+              "definition": "adj. 精英管理的；贤能统治的"
+            },
+            {
+              "word": "frustration",
+              "pos": "",
+              "definition": "n.挫折,挫败"
+            },
+            {
+              "word": "meritocracy",
+              "pos": "",
+              "definition": "n.英才教育(制度)"
+            },
+            {
+              "word": "temporarily",
+              "pos": "",
+              "definition": "ad.暂时"
+            },
+            {
+              "word": "reluctance",
+              "pos": "",
+              "definition": "n.勉强,不情愿"
+            },
+            {
+              "word": "governance",
+              "pos": "n.",
+              "definition": "n. 统治方式；管理方法"
+            },
+            {
+              "word": "considers",
+              "pos": "v.",
+              "definition": "v. consider 的第三人称单数一般现在时形式；考虑；思考：仔细思考某事物或某个问题"
+            },
+            {
+              "word": "obstacles",
+              "pos": "n.",
+              "definition": "n. 障碍；障碍物；阻碍（obstacle 的复数）"
+            },
+            {
+              "word": "achieving",
+              "pos": "v.",
+              "definition": "v. （经努力）达到；取得；实现"
+            },
+            {
+              "word": "counter",
+              "pos": "n.",
+              "definition": "n. 柜台；对立面"
+            },
+            {
+              "word": "capable",
+              "pos": "adj.",
+              "definition": "adj. 有能力的；有本领的；能干的"
+            },
+            {
+              "word": "ordered",
+              "pos": "adj.",
+              "definition": "adj. 有序的；整齐的；安排好的"
+            },
+            {
               "word": "quotas",
               "pos": "n.",
               "definition": "n. 配额；定额"
@@ -3853,44 +5143,19 @@
               "definition": "v. 提意见；提忠告（rede的现在分词）"
             },
             {
-              "word": "understand",
-              "pos": "v.",
-              "definition": "v. 理解；懂得"
-            },
-            {
-              "word": "reluctance",
-              "pos": "n.",
-              "definition": "n. 不情愿；勉强"
-            },
-            {
-              "word": "frustration",
-              "pos": "n.",
-              "definition": "n. 懊恼；沮丧"
-            },
-            {
-              "word": "either",
-              "pos": "conj.",
-              "definition": "conj. 或者；要么"
-            },
-            {
-              "word": "counter",
-              "pos": "n.",
-              "definition": "n. 柜台；对立面"
-            },
-            {
               "word": "belief",
               "pos": "n.",
               "definition": "n. 相信；信心"
             },
             {
-              "word": "meritocracy",
-              "pos": "n.",
-              "definition": "n. 精英领导体制；精英管理的社会"
+              "word": "fairer",
+              "pos": "adj.",
+              "definition": "adj. 更公平；更公正；更合理（fair 的比较级）"
             },
             {
-              "word": "meritocratic",
+              "word": "ideal",
               "pos": "adj.",
-              "definition": "adj. 精英管理的；贤能统治的"
+              "definition": "adj. 理想的；最佳的；想象的"
             }
           ]
         },
@@ -3902,34 +5167,24 @@
           "chunk_translation": "毕竟 / 四十年的事实证据已经表明 / 各大企业 / 无论在欧洲还是美国都在回避依据唯才是举的原则任用和提拔女性进入最高职位—— / 无论对它们施加多大的“软性压力” / 当女性确实冲破阻碍登上企业权力的顶峰时—— / 正如 / 例如 / 谢丽尔·桑德伯格最近所做的那样 / 在脸书公司—— / 她们之所以引起广泛关注恰恰 / 是因为她们依然是常规之外的特例",
           "vocabulary": [
             {
-              "word": "corporate",
-              "pos": "adj.",
-              "definition": "adj. 公司的；法人的"
+              "word": "the summit of corporate power",
+              "pos": "",
+              "definition": "公司权力高层"
             },
             {
-              "word": "recently",
-              "pos": "adv.",
-              "definition": "adv. 最近；不久前"
+              "word": "attract massive attention",
+              "pos": "",
+              "definition": "吸引大量关注"
             },
             {
-              "word": "break",
-              "pos": "v.",
-              "definition": "v. 打破；折断"
+              "word": "break through to",
+              "pos": "",
+              "definition": "突破,突围"
             },
             {
-              "word": "decades",
-              "pos": "n.",
-              "definition": "n. 数十年（decade 的复数）"
-            },
-            {
-              "word": "evidence",
-              "pos": "n.",
-              "definition": "n. 根据；证明"
-            },
-            {
-              "word": "shown",
-              "pos": "v.",
-              "definition": "v. show 的过去分词；用于完成时和被动语态"
+              "word": "break through",
+              "pos": "",
+              "definition": "打破"
             },
             {
               "word": "corporations",
@@ -3937,19 +5192,24 @@
               "definition": "n. 公司；企业（corporation 的复数）"
             },
             {
-              "word": "evading",
-              "pos": "v.",
-              "definition": "v. evade 的现在分词/动名词形式；逃避（义务、责任、税收等）"
-            },
-            {
               "word": "meritocratic",
               "pos": "adj.",
               "definition": "adj. 精英管理的；贤能统治的"
             },
             {
-              "word": "hiring",
-              "pos": "n.",
-              "definition": "n. 雇用；租用"
+              "word": "corporate",
+              "pos": "",
+              "definition": "a.法人的,公司的"
+            },
+            {
+              "word": "precisely",
+              "pos": "",
+              "definition": "ad.(强调真实或明显)确实"
+            },
+            {
+              "word": "exception",
+              "pos": "",
+              "definition": "n.例外"
             },
             {
               "word": "promotion",
@@ -3960,6 +5220,86 @@
               "word": "positions",
               "pos": "n.",
               "definition": "n. 位置；地点（position 的复数）"
+            },
+            {
+              "word": "attention",
+              "pos": "n.",
+              "definition": "n. 注意；注意力；照料"
+            },
+            {
+              "word": "recently",
+              "pos": "adv.",
+              "definition": "adv. 最近；不久前"
+            },
+            {
+              "word": "evidence",
+              "pos": "n.",
+              "definition": "n. 根据；证明"
+            },
+            {
+              "word": "pressure",
+              "pos": "n.",
+              "definition": "n. 压力；挤压；（气体或液体形成的）压力"
+            },
+            {
+              "word": "Sandberg",
+              "pos": "n.",
+              "definition": "n. 桑德伯格（姓）；n. 桑德贝格（德国巴伐利亚州一城市名）"
+            },
+            {
+              "word": "decades",
+              "pos": "n.",
+              "definition": "n. 数十年（decade 的复数）"
+            },
+            {
+              "word": "evading",
+              "pos": "v.",
+              "definition": "v. evade 的现在分词/动名词形式；逃避（义务、责任、税收等）"
+            },
+            {
+              "word": "example",
+              "pos": "n.",
+              "definition": "n. 例子；例证；榜样"
+            },
+            {
+              "word": "attract",
+              "pos": "v.",
+              "definition": "v. 吸引；（物体间）产生引力；引起"
+            },
+            {
+              "word": "massive",
+              "pos": "adj.",
+              "definition": "adj. 大而重的；结实的；非常严重的"
+            },
+            {
+              "word": "summit",
+              "pos": "",
+              "definition": "n.顶点;最高阶层"
+            },
+            {
+              "word": "hiring",
+              "pos": "n.",
+              "definition": "n. 雇用；租用"
+            },
+            {
+              "word": "matter",
+              "pos": "n.",
+              "definition": "n. 事情；问题；事态"
+            },
+            {
+              "word": "Sheryl",
+              "pos": "n.",
+              "definition": "n. 谢乐尔（名；等于Shirley）"
+            },
+            {
+              "word": "shown",
+              "pos": "v.",
+              "definition": "v. show 的过去分词；用于完成时和被动语态"
+            },
+            {
+              "word": "power",
+              "pos": "n.",
+              "definition": "n. 控制力；操控力；政权"
             }
           ]
         },
@@ -3969,7 +5309,73 @@
           "translation": "如果制定适当的公共政策来帮助所有女性（无论是首席执行官还是孩子的照顾者）以及所有家庭，那么桑德伯格不会比生活在更加公正的社会中的任何其他高能力人士更具新闻价值。",
           "slashed_text": "If appropriate public policies were / in place to help all women — / whether CEOs or their children’s caregivers — / and all families , / Sandberg would be no more newsworthy than any other highly capable person living in a more just society.",
           "chunk_translation": "如果制定了恰当的公共政策 / 到位去帮助所有女性—— / 无论是首席执行官还是她们孩子的照料者—— / 以及所有的家庭 / 桑德伯格就绝不会比生活在一个更加公正社会里的任何其他卓越能人更具新闻价值",
-          "vocabulary": []
+          "vocabulary": [
+            {
+              "word": "highly capable person",
+              "pos": "",
+              "definition": "优秀人才,卓越人士"
+            },
+            {
+              "word": "appropriate",
+              "pos": "",
+              "definition": "a.适当的;合适的"
+            },
+            {
+              "word": "newsworthy",
+              "pos": "",
+              "definition": "a.有报道价值的"
+            },
+            {
+              "word": "caregivers",
+              "pos": "n.",
+              "definition": "n. 照顾者；看护人（caregiver 的复数）；（医疗语境）医护人员"
+            },
+            {
+              "word": "in place",
+              "pos": "",
+              "definition": "在正确位置,准备妥当"
+            },
+            {
+              "word": "policies",
+              "pos": "n.",
+              "definition": "n. 政策；方针；策略"
+            },
+            {
+              "word": "families",
+              "pos": "n.",
+              "definition": "n. 家庭（family 的复数）；家人；家属"
+            },
+            {
+              "word": "Sandberg",
+              "pos": "n.",
+              "definition": "n. 桑德伯格（姓）；n. 桑德贝格（德国巴伐利亚州一城市名）"
+            },
+            {
+              "word": "capable",
+              "pos": "adj.",
+              "definition": "adj. 有能力的；有本领的；能干的"
+            },
+            {
+              "word": "society",
+              "pos": "n.",
+              "definition": "n. 社会（以群体形式生活在一起的人的总称）；社群（某国家、地区、时期等的群体组织）；社团"
+            },
+            {
+              "word": "public",
+              "pos": "adj.",
+              "definition": "adj. 公众的；大众的；公共的"
+            },
+            {
+              "word": "highly",
+              "pos": "adv.",
+              "definition": "adv. 极其；非常；高度地"
+            },
+            {
+              "word": "living",
+              "pos": "adj.",
+              "definition": "adj. 活着的；活的；在使用的"
+            }
+          ]
         }
       ],
       "sentences": [

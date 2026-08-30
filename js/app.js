@@ -568,11 +568,32 @@
 
     const wClean = word.toLowerCase().trim();
     const dict = window.KAOYAN_VOCAB_DICT || {};
+
+    let customDef = null;
+    let customPos = '';
+    if (AppState.textData && AppState.textData.paragraphs) {
+      for (const p of AppState.textData.paragraphs) {
+        if (p.vocabulary) {
+          const match = p.vocabulary.find(v => v.word && v.word.toLowerCase().trim() === wClean);
+          if (match && match.definition) {
+            customDef = match.definition;
+            customPos = match.pos || '';
+            break;
+          }
+        }
+      }
+    }
+
     const info = dict[wClean] || dict[wClean.replace(/s$|ed$|ing$/, '')] || {
-      pos: "n./v.",
-      def: "考研语境核心词汇",
+      pos: customPos || "n./v.",
+      def: customDef || "考研语境核心词汇",
       full: "语境常考释义与核心搭配"
     };
+
+    if (customDef) {
+      info.def = customDef;
+      if (customPos) info.pos = customPos;
+    }
 
     const isBookmarked = window.StorageModule.isBookmarked(wClean);
 

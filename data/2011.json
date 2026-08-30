@@ -15,9 +15,64 @@
           "chunk_translation": "露丝·西蒙斯于2000年1月加入高盛董事会担任外部董事 / 于2000年1月 / 一年后她出任布朗大学校长 / 在接下来的十年里，她显然兼顾了这两个职位 / 没有招致太多批评 / 但到2009年底，女士 / 西蒙斯因担任高盛薪酬委员会成员而遭到抨击 / 因担任 / 高盛薪酬委员会职务 / 她怎么能对那些巨额奖金的发放听之任之、不置一词呢？ / 到了次年二月，女士 / 西蒙斯离开了董事会 / 这一职位占用了太多时间 / 她说",
           "vocabulary": [
             {
-              "word": "Ruth",
+              "word": "bonus payouts",
+              "pos": "",
+              "definition": "奖金支出"
+            },
+            {
+              "word": "compensation",
+              "pos": "",
+              "definition": "n.报酬,薪水"
+            },
+            {
+              "word": "University",
               "pos": "n.",
-              "definition": "n. 同情；怜悯"
+              "definition": "n. 大学；综合性大学"
+            },
+            {
+              "word": "apparently",
+              "pos": "adv.",
+              "definition": "adv. 据说；显然；似乎"
+            },
+            {
+              "word": "attracting",
+              "pos": "n.",
+              "definition": "n. 吸引"
+            },
+            {
+              "word": "unremarked",
+              "pos": "adj.",
+              "definition": "adj. 未被注意的；未受评论的"
+            },
+            {
+              "word": "criticism",
+              "pos": "",
+              "definition": "n.批评,批判"
+            },
+            {
+              "word": "president",
+              "pos": "n.",
+              "definition": "n. 总统；国家主席；（机构、俱乐部、学院等的）负责人"
+            },
+            {
+              "word": "committee",
+              "pos": "n.",
+              "definition": "n. 委员会；受托人；监护人"
+            },
+            {
+              "word": "enormous",
+              "pos": "",
+              "definition": "a.巨大的;庞大的"
+            },
+            {
+              "word": "director",
+              "pos": "n.",
+              "definition": "n. 导演；管理者"
+            },
+            {
+              "word": "position",
+              "pos": "n.",
+              "definition": "n. 位置；方位；姿势"
             },
             {
               "word": "Simmons",
@@ -25,14 +80,39 @@
               "definition": "席梦思（美国床垫品牌）；西蒙斯（人名）"
             },
             {
+              "word": "Goldman",
+              "pos": "n.",
+              "definition": "n. 高曼（姓氏）"
+            },
+            {
+              "word": "outside",
+              "pos": "n.",
+              "definition": "n. 外表；外部（the outside）"
+            },
+            {
+              "word": "managed",
+              "pos": "adj.",
+              "definition": "adj. 妥善照看的；受监督的；政府控制的"
+            },
+            {
+              "word": "payouts",
+              "pos": "n.",
+              "definition": "n. 支出；付款；花费（payout 的复数形式）"
+            },
+            {
               "word": "joined",
               "pos": "v.",
               "definition": "v. （join 的过去式和过去分词）加入；参加"
             },
             {
-              "word": "Goldman",
+              "word": "became",
+              "pos": "v.",
+              "definition": "v. 成为；变得（become 的过去式）"
+            },
+            {
+              "word": "decade",
               "pos": "n.",
-              "definition": "n. 高曼（姓氏）"
+              "definition": "n. 十年；十年期；十进"
             },
             {
               "word": "Sachs",
@@ -45,29 +125,24 @@
               "definition": "n. 板；木板"
             },
             {
-              "word": "outside",
-              "pos": "n.",
-              "definition": "n. 外表；外部（the outside）"
+              "word": "Brown",
+              "pos": "adj.",
+              "definition": "adj. 褐色的；棕色的；肤色深的"
             },
             {
-              "word": "director",
+              "word": "roles",
               "pos": "n.",
-              "definition": "n. 导演；管理者"
+              "definition": "n. 任务；作用（role 的复数形式）；角色"
             },
             {
-              "word": "later",
-              "pos": "adv.",
-              "definition": "adv. 后来；随后"
+              "word": "bonus",
+              "pos": "n.",
+              "definition": "n. 奖金；津贴；红利"
             },
             {
-              "word": "University",
+              "word": "Ruth",
               "pos": "n.",
-              "definition": "n. 大学；综合性大学"
-            },
-            {
-              "word": "time",
-              "pos": "n.",
-              "definition": "n. （以分钟、小时、天等计量的）时间；（钟表上的）时刻"
+              "definition": "n. 同情；怜悯"
             }
           ]
         },
@@ -79,59 +154,9 @@
           "chunk_translation": "外部董事本应担任有益的 / 且偏见较少的 / 公司董事会顾问 / 由于在其他领域早已功成名就 / 他们按理应具有足够的独立性来反对首席执行官的提议 / 如果天要塌下来 / 以及股价 / 正在暴跌 / 外部董事应当能够依据自身渡过危机的经验提供建议 / 依据自己渡过危机的经验 / 研究人员 / 来自俄亥俄大学的研究人员使用了一个数据库 / 涵盖了1989年至2004年间1万多家公司 / 以及超过6.4万名 / 名不同的董事",
           "vocabulary": [
             {
-              "word": "board",
+              "word": "independence",
               "pos": "n.",
-              "definition": "n. 板；木板"
-            },
-            {
-              "word": "outside",
-              "pos": "n.",
-              "definition": "n. 外表；外部（the outside）"
-            },
-            {
-              "word": "director",
-              "pos": "n.",
-              "definition": "n. 导演；管理者"
-            },
-            {
-              "word": "directors",
-              "pos": "n.",
-              "definition": "n. 董事（director 的复数形式）；（戏剧、电影、电视节目的）导演"
-            },
-            {
-              "word": "supposed",
-              "pos": "adj.",
-              "definition": "adj. 假定的；据说的"
-            },
-            {
-              "word": "serve",
-              "pos": "v.",
-              "definition": "v. 为……工作；服役"
-            },
-            {
-              "word": "helpful",
-              "pos": "adj.",
-              "definition": "adj. 有帮助的；有用的"
-            },
-            {
-              "word": "less",
-              "pos": "adv.",
-              "definition": "adv. 更少地；程度较低地"
-            },
-            {
-              "word": "biased",
-              "pos": "adj.",
-              "definition": "adj. 有偏见的；偏袒一方的"
-            },
-            {
-              "word": "advisers",
-              "pos": "n.",
-              "definition": "n. 顾问（adviser 的复数）"
-            },
-            {
-              "word": "firm",
-              "pos": "n.",
-              "definition": "n. 公司；商行"
+              "definition": "n. 独立；自主；（国家的）独立"
             },
             {
               "word": "researchers",
@@ -139,9 +164,14 @@
               "definition": "n. 研究人员；研究者（researcher 的复数）"
             },
             {
-              "word": "Ohio",
+              "word": "reputations",
               "pos": "n.",
-              "definition": "n. 俄亥俄州（美国中北部一州）；俄亥俄河（美国东部河流"
+              "definition": "n. 名声；声誉：reputation 的复数形式"
+            },
+            {
+              "word": "presumably",
+              "pos": "",
+              "definition": "ad.据推测:大概;可能"
             },
             {
               "word": "University",
@@ -149,9 +179,64 @@
               "definition": "n. 大学；综合性大学"
             },
             {
+              "word": "directors",
+              "pos": "n.",
+              "definition": "n. 董事（director 的复数形式）；（戏剧、电影、电视节目的）导演"
+            },
+            {
+              "word": "elsewhere",
+              "pos": "adv.",
+              "definition": "adv. 在别处；去别处；pron. 别处"
+            },
+            {
+              "word": "executive",
+              "pos": "adj.",
+              "definition": "adj. 行政的；有执行权的；高档的"
+            },
+            {
+              "word": "proposals",
+              "pos": "n.",
+              "definition": "n. （proposal 的复数）建议；提议；提案"
+            },
+            {
+              "word": "weathered",
+              "pos": "adj.",
+              "definition": "adj. 风化的；受风雨侵蚀的；饱经风霜的"
+            },
+            {
+              "word": "director",
+              "pos": "n.",
+              "definition": "n. 导演；管理者"
+            },
+            {
+              "word": "supposed",
+              "pos": "adj.",
+              "definition": "adj. 假定的；据说的"
+            },
+            {
+              "word": "advisers",
+              "pos": "n.",
+              "definition": "n. 顾问（adviser 的复数）"
+            },
+            {
               "word": "database",
               "pos": "n.",
               "definition": "n. （计算机）数据库；资料库"
+            },
+            {
+              "word": "disagree",
+              "pos": "v.",
+              "definition": "v. 有分歧；意见不合；不一致"
+            },
+            {
+              "word": "outside",
+              "pos": "n.",
+              "definition": "n. 外表；外部（the outside）"
+            },
+            {
+              "word": "helpful",
+              "pos": "adj.",
+              "definition": "adj. 有帮助的；有用的"
             },
             {
               "word": "covered",
@@ -159,19 +244,74 @@
               "definition": "adj. 有顶的；有一层覆盖物的"
             },
             {
+              "word": "falling",
+              "pos": "adj.",
+              "definition": "adj. （规模、数量或力量）下降的；正在减少的；v. 降落"
+            },
+            {
+              "word": "biased",
+              "pos": "",
+              "definition": "a.有偏见的;结果偏倚的"
+            },
+            {
+              "word": "wealth",
+              "pos": "n.",
+              "definition": "n. 财富；富有；大量"
+            },
+            {
+              "word": "should",
+              "pos": "v.",
+              "definition": "v. （用于纠正别人）应该；（用于建议）该；可以"
+            },
+            {
+              "word": "advice",
+              "pos": "n.",
+              "definition": "n. 忠告；劝告；建议"
+            },
+            {
+              "word": "crises",
+              "pos": "n.",
+              "definition": "n. （crisis 的复数形式）危机；紧要关头；危险期"
+            },
+            {
+              "word": "board",
+              "pos": "n.",
+              "definition": "n. 板；木板"
+            },
+            {
               "word": "firms",
               "pos": "n.",
               "definition": "n. 公司；厂商（firm 的复数）"
             },
             {
-              "word": "different",
+              "word": "chief",
               "pos": "adj.",
-              "definition": "adj. 不同的；分别的"
+              "definition": "adj. 首要的；主要的；为首的"
             },
             {
-              "word": "reputations",
+              "word": "share",
+              "pos": "v.",
+              "definition": "v. 共享；合用；分享"
+            },
+            {
+              "word": "price",
               "pos": "n.",
-              "definition": "n. 名声；声誉：reputation 的复数形式"
+              "definition": "n. 价格；代价；开价"
+            },
+            {
+              "word": "based",
+              "pos": "adj.",
+              "definition": "adj. （以某事）为基础的；为根据的；在……居住（或工作）的"
+            },
+            {
+              "word": "firm",
+              "pos": "n.",
+              "definition": "n. 公司；商行"
+            },
+            {
+              "word": "Ohio",
+              "pos": "n.",
+              "definition": "n. 俄亥俄州（美国中北部一州）；俄亥俄河（美国东部河流"
             }
           ]
         },
@@ -183,24 +323,39 @@
           "chunk_translation": "然后他们只是核对了 / 哪些董事从一份委托书一直留任到下一份委托书 / 离开董事会最可能的原因 / 是年龄 / 因此研究人员重点关注 / 那些“令人意外”的离职 / 由70岁以下的董事发生的 / 他们发现 / 在意外离职之后 / 概率 / 该公司随后不得不重述财务收益的概率增加了 / 近20% / 在联邦集体诉讼中被列为被告的可能性也随之上升 / 且公司股票往往表现更差 / 这种效应往往更显著 / 对规模较大的公司而言",
           "vocabulary": [
             {
-              "word": "board",
-              "pos": "n.",
-              "definition": "n. 板；木板"
+              "word": "federal class-action lawsuit",
+              "pos": "",
+              "definition": "联邦集体诉讼"
             },
             {
-              "word": "director",
-              "pos": "n.",
-              "definition": "n. 导演；管理者"
+              "word": "a surprise departure",
+              "pos": "",
+              "definition": "突然离职"
             },
             {
-              "word": "directors",
-              "pos": "n.",
-              "definition": "n. 董事（director 的复数形式）；（戏剧、电影、电视节目的）导演"
+              "word": "restate earnings",
+              "pos": "",
+              "definition": "重申盈利"
             },
             {
-              "word": "firm",
+              "word": "proxy statement",
+              "pos": "",
+              "definition": "股东委托书"
+            },
+            {
+              "word": "disappearances",
               "pos": "n.",
-              "definition": "n. 公司；商行"
+              "definition": "n. disappearance 的复数；失踪事件；消失"
+            },
+            {
+              "word": "subsequently",
+              "pos": "",
+              "definition": "ad.其后,随后,接着"
+            },
+            {
+              "word": "concentrated",
+              "pos": "adj.",
+              "definition": "adj. 集中的；全神贯注的；全力以赴的"
             },
             {
               "word": "researchers",
@@ -208,14 +363,154 @@
               "definition": "n. 研究人员；研究者（researcher 的复数）"
             },
             {
+              "word": "probability",
+              "pos": "n.",
+              "definition": "n. 可能性；或然性；可能发生的事"
+            },
+            {
+              "word": "likelihood",
+              "pos": "",
+              "definition": "n.可能,可能性"
+            },
+            {
+              "word": "departure",
+              "pos": "",
+              "definition": "n.离开,离去"
+            },
+            {
+              "word": "directors",
+              "pos": "n.",
+              "definition": "n. 董事（director 的复数形式）；（戏剧、电影、电视节目的）导演"
+            },
+            {
+              "word": "statement",
+              "pos": "n.",
+              "definition": "n. 声明；报告；说明"
+            },
+            {
+              "word": "departing",
+              "pos": "v.",
+              "definition": "v. 启程；出发；离开"
+            },
+            {
+              "word": "increased",
+              "pos": "v.",
+              "definition": "v. 增长；增强；增大（increase 的过去式和过去分词）"
+            },
+            {
+              "word": "increases",
+              "pos": "v.",
+              "definition": "v. 增长；增强；增大（increase 的第三人称单数）"
+            },
+            {
+              "word": "director",
+              "pos": "n.",
+              "definition": "n. 导演；管理者"
+            },
+            {
+              "word": "surprise",
+              "pos": "n.",
+              "definition": "n. 不寻常的事件；意外之事；惊奇"
+            },
+            {
+              "word": "earnings",
+              "pos": "n.",
+              "definition": "n. 薪水；工资；收入"
+            },
+            {
+              "word": "restate",
+              "pos": "",
+              "definition": "v.重申:重新申报"
+            },
+            {
+              "word": "checked",
+              "pos": "adj.",
+              "definition": "adj. 格子的；有格子图案的；v. 检查"
+            },
+            {
+              "word": "federal",
+              "pos": "adj.",
+              "definition": "adj. 联邦（制）的；（与）联邦政府（有关的）的；中央集权式的"
+            },
+            {
+              "word": "lawsuit",
+              "pos": "n.",
+              "definition": "n. 诉讼；诉讼案"
+            },
+            {
+              "word": "perform",
+              "pos": "v.",
+              "definition": "v. 演出；表演；执行"
+            },
+            {
+              "word": "stayed",
+              "pos": "v.",
+              "definition": "v. stay 的过去式和过去分词：留在某处；不离开；在某地暂住"
+            },
+            {
+              "word": "likely",
+              "pos": "adj.",
+              "definition": "adj. 可能发生的；似乎合适的；仿佛恰当的"
+            },
+            {
+              "word": "reason",
+              "pos": "n.",
+              "definition": "n. 原因；理由；充分理由"
+            },
+            {
+              "word": "nearly",
+              "pos": "adv.",
+              "definition": "adv. 几乎；差不多；密切地"
+            },
+            {
+              "word": "action",
+              "pos": "n.",
+              "definition": "n. 行动；行为；战斗"
+            },
+            {
+              "word": "effect",
+              "pos": "n.",
+              "definition": "n. 作用；影响；（刻意制造的）效果"
+            },
+            {
+              "word": "tended",
+              "pos": "v.",
+              "definition": "v. tend 的过去式和过去分词；1. 照料；照顾"
+            },
+            {
+              "word": "proxy",
+              "pos": "",
+              "definition": "n.代表权,委托书"
+            },
+            {
+              "word": "board",
+              "pos": "n.",
+              "definition": "n. 板；木板"
+            },
+            {
               "word": "firms",
               "pos": "n.",
               "definition": "n. 公司；厂商（firm 的复数）"
             },
             {
-              "word": "simply",
-              "pos": "adv.",
-              "definition": "adv. 仅仅；只"
+              "word": "named",
+              "pos": "adj.",
+              "definition": "adj. 命名的；名叫……的；被命名为……的"
+            },
+            {
+              "word": "stock",
+              "pos": "n.",
+              "definition": "n. 现货；存货；储备物"
+            },
+            {
+              "word": "worse",
+              "pos": "adj.",
+              "definition": "adj. 更糟的；更坏的；更差的"
+            },
+            {
+              "word": "firm",
+              "pos": "n.",
+              "definition": "n. 公司；商行"
             }
           ]
         },
@@ -227,34 +522,9 @@
           "chunk_translation": "尽管董事离职与公司随后糟糕业绩之间的相关性耐人寻味 / 但这并不意味着 / 这类董事总是在弃即将沉没的船而去 / 他们常常是“往高处走” / 离开风险更大、 / 规模更小的公司 / 前往规模更大且更稳定的公司 / 但研究人员认为 / 外部董事如果能在坏消息爆发前离开公司，就更容易避免声誉受损 / 如果他们在坏消息爆发前离开公司 / 甚至 / 即使历史审查表明在任何不当行为发生时他们都在董事会任职 / 公司 / 若想在艰难时期留住外部董事 / 可能不得不制定激励措施 / 否则外部董事将效仿女士 / 西蒙斯的做法 / 重新在大学校园里大受欢迎 / 在校园中",
           "vocabulary": [
             {
-              "word": "Simmons",
-              "pos": "n.",
-              "definition": "席梦思（美国床垫品牌）；西蒙斯（人名）"
-            },
-            {
-              "word": "board",
-              "pos": "n.",
-              "definition": "n. 板；木板"
-            },
-            {
-              "word": "outside",
-              "pos": "n.",
-              "definition": "n. 外表；外部（the outside）"
-            },
-            {
-              "word": "director",
-              "pos": "n.",
-              "definition": "n. 导演；管理者"
-            },
-            {
-              "word": "directors",
-              "pos": "n.",
-              "definition": "n. 董事（director 的复数形式）；（戏剧、电影、电视节目的）导演"
-            },
-            {
-              "word": "firm",
-              "pos": "n.",
-              "definition": "n. 公司；商行"
+              "word": "follow the example of",
+              "pos": "",
+              "definition": "效仿"
             },
             {
               "word": "researchers",
@@ -262,24 +532,54 @@
               "definition": "n. 研究人员；研究者（researcher 的复数）"
             },
             {
-              "word": "firms",
+              "word": "reputations",
               "pos": "n.",
-              "definition": "n. 公司；厂商（firm 的复数）"
+              "definition": "n. 名声；声誉：reputation 的复数形式"
             },
             {
-              "word": "believe",
-              "pos": "v.",
-              "definition": "v. 相信；认为"
+              "word": "correlation",
+              "pos": "n.",
+              "definition": "n. 相互关系；关联；相关量"
             },
             {
-              "word": "easier",
+              "word": "performance",
+              "pos": "n.",
+              "definition": "n. 表演；演出；工作情况"
+            },
+            {
+              "word": "suggestive",
+              "pos": "",
+              "definition": "a.提示的;暗示的,提醒的"
+            },
+            {
+              "word": "subsequent",
               "pos": "adj.",
-              "definition": "adj. 更简单；容易些（easy 的比较级形式）"
+              "definition": "adj. 随后的；接着的；（河"
             },
             {
-              "word": "time",
+              "word": "wrongdoing",
               "pos": "n.",
-              "definition": "n. （以分钟、小时、天等计量的）时间；（钟表上的）时刻"
+              "definition": "n. 坏事；不道德的行为；违法行为"
+            },
+            {
+              "word": "incentives",
+              "pos": "n.",
+              "definition": "n. 激励；奖励；诱因"
+            },
+            {
+              "word": "otherwise",
+              "pos": "",
+              "definition": "conj.否则,不然"
+            },
+            {
+              "word": "directors",
+              "pos": "n.",
+              "definition": "n. 董事（director 的复数形式）；（戏剧、电影、电视节目的）导演"
+            },
+            {
+              "word": "director",
+              "pos": "n.",
+              "definition": "n. 导演；管理者"
             },
             {
               "word": "avoiding",
@@ -287,14 +587,114 @@
               "definition": "v. avoid 的现在分词；避免"
             },
             {
-              "word": "blow",
+              "word": "occurred",
               "pos": "v.",
-              "definition": "v. （风）刮；吹"
+              "definition": "v. 发生（occur 的过去式和过去分词）"
             },
             {
-              "word": "reputations",
+              "word": "Simmons",
               "pos": "n.",
-              "definition": "n. 名声；声誉：reputation 的复数形式"
+              "definition": "席梦思（美国床垫品牌）；西蒙斯（人名）"
+            },
+            {
+              "word": "outside",
+              "pos": "n.",
+              "definition": "n. 外表；外部（the outside）"
+            },
+            {
+              "word": "leaving",
+              "pos": "v.",
+              "definition": "v. 离开；留下；舍弃"
+            },
+            {
+              "word": "jumping",
+              "pos": "v.",
+              "definition": "v. jump 的现在分词／动名词：跳；跳过；（非正式）闯红灯"
+            },
+            {
+              "word": "sinking",
+              "pos": "adj.",
+              "definition": "adj. （情绪突然）颓丧的；抑郁的；下沉的"
+            },
+            {
+              "word": "riskier",
+              "pos": "adj.",
+              "definition": "adj. 更冒险的；风险更大的（risky 的比较级）"
+            },
+            {
+              "word": "smaller",
+              "pos": "adj.",
+              "definition": "adj. 较小的；更小的（small 的比较级）"
+            },
+            {
+              "word": "example",
+              "pos": "n.",
+              "definition": "n. 例子；例证；榜样"
+            },
+            {
+              "word": "popular",
+              "pos": "adj.",
+              "definition": "adj. 受大众喜爱的；受欢迎的；（想法、情绪或态度）普遍的"
+            },
+            {
+              "word": "easier",
+              "pos": "adj.",
+              "definition": "adj. 更简单；容易些（easy 的比较级形式）"
+            },
+            {
+              "word": "stable",
+              "pos": "adj.",
+              "definition": "adj. 稳定的；牢固的；稳重的"
+            },
+            {
+              "word": "breaks",
+              "pos": "n.",
+              "definition": "n. break 的复数；休息；间歇"
+            },
+            {
+              "word": "review",
+              "pos": "n.",
+              "definition": "n. 审查；检查；评论"
+            },
+            {
+              "word": "campus",
+              "pos": "n.",
+              "definition": "n. （大学或学院的）校园；大学生活；大学（学校、医院等机构的）场地"
+            },
+            {
+              "word": "board",
+              "pos": "n.",
+              "definition": "n. 板；木板"
+            },
+            {
+              "word": "firms",
+              "pos": "n.",
+              "definition": "n. 公司；厂商（firm 的复数）"
+            },
+            {
+              "word": "trade",
+              "pos": "n.",
+              "definition": "n. 贸易；买卖；行业"
+            },
+            {
+              "word": "shows",
+              "pos": "v.",
+              "definition": "v. 显示；表明；给……看"
+            },
+            {
+              "word": "tough",
+              "pos": "adj.",
+              "definition": "adj. （物质；物体）坚韧的；坚固的"
+            },
+            {
+              "word": "blow",
+              "pos": "",
+              "definition": "n.打击,意外的灾害,摧毁"
+            },
+            {
+              "word": "firm",
+              "pos": "n.",
+              "definition": "n. 公司；商行"
             }
           ]
         }
@@ -1171,6 +1571,61 @@
           "chunk_translation": "报纸消亡论究竟是怎么回事？ / 一年前，终局似乎已近在眼前 / 经济衰退威胁要夺走那些广告和读者 / 尚未逃往互联网的 / 像《旧金山纪事报》这样的报纸当时正在记录它们自身的末日 / 美国联邦贸易委员会发起了一轮关于如何拯救报纸的研讨 / 报纸应该转变为慈善机构吗？ / 政府应该对其进行补贴吗？ / 不久后还将举行另一场会议",
           "vocabulary": [
             {
+              "word": "corporations",
+              "pos": "n.",
+              "definition": "n. 公司；企业（corporation 的复数）"
+            },
+            {
+              "word": "advertising",
+              "pos": "n.",
+              "definition": "n. 广告活动；广告业"
+            },
+            {
+              "word": "chronicling",
+              "pos": "v.",
+              "definition": "v. 将（某事物）载入编年史（ chronicle 的现在分词）"
+            },
+            {
+              "word": "commission",
+              "pos": "",
+              "definition": "n.委员会,委员"
+            },
+            {
+              "word": "charitable",
+              "pos": "",
+              "definition": "a.公益的,慈善的"
+            },
+            {
+              "word": "newspapers",
+              "pos": "n.",
+              "definition": "n. 报纸；报章（newspaper 的复数）"
+            },
+            {
+              "word": "threatened",
+              "pos": "adj.",
+              "definition": "adj. 受到威胁的；感到危险的"
+            },
+            {
+              "word": "recession",
+              "pos": "",
+              "definition": "n.经济衰退,不景气"
+            },
+            {
+              "word": "chronicle",
+              "pos": "",
+              "definition": "v.记录(大事)"
+            },
+            {
+              "word": "subsidize",
+              "pos": "",
+              "definition": "v.以津贴补助"
+            },
+            {
+              "word": "Francisco",
+              "pos": "n.",
+              "definition": "n. 弗朗西斯科（男子名；等于 Francis）"
+            },
+            {
               "word": "Whatever",
               "pos": "det.",
               "definition": "det. 任何……的事物；无论什么"
@@ -1181,44 +1636,14 @@
               "definition": "vi. 发生（happen 的过去式及过去分词）"
             },
             {
-              "word": "death",
+              "word": "internet",
               "pos": "n.",
-              "definition": "n. 死；死亡"
+              "definition": "n. 互联网；因特网（=the Internet）"
             },
             {
-              "word": "newspapers",
-              "pos": "n.",
-              "definition": "n. 报纸；报章（newspaper 的复数）"
-            },
-            {
-              "word": "seemed",
+              "word": "launched",
               "pos": "v.",
-              "definition": "v. 似乎；看来"
-            },
-            {
-              "word": "near",
-              "pos": "adv.",
-              "definition": "adv. 距离不远；在附近"
-            },
-            {
-              "word": "recession",
-              "pos": "n.",
-              "definition": "n. （经济的）衰退（期）；退后"
-            },
-            {
-              "word": "threatened",
-              "pos": "adj.",
-              "definition": "adj. 受到威胁的；感到危险的"
-            },
-            {
-              "word": "remove",
-              "pos": "vt.",
-              "definition": "vt. 移开；拿开"
-            },
-            {
-              "word": "advertising",
-              "pos": "n.",
-              "definition": "n. 广告活动；广告业"
+              "definition": "v. 启动；开始；推出"
             },
             {
               "word": "readers",
@@ -1226,24 +1651,59 @@
               "definition": "n. reader 的复数形式：读者；电子阅读器、读卡机等阅读设备（常与修饰语连用）"
             },
             {
-              "word": "already",
+              "word": "Federal",
+              "pos": "adj.",
+              "definition": "adj. 联邦（制）的；（与）联邦政府（有关的）的；中央集权式的"
+            },
+            {
+              "word": "meeting",
+              "pos": "n.",
+              "definition": "n. 会议；集会；偶遇"
+            },
+            {
+              "word": "seemed",
+              "pos": "v.",
+              "definition": "v. 似乎；看来"
+            },
+            {
+              "word": "remove",
+              "pos": "vt.",
+              "definition": "vt. 移开；拿开"
+            },
+            {
+              "word": "Should",
+              "pos": "v.",
+              "definition": "v. （用于纠正别人）应该；（用于建议）该；可以"
+            },
+            {
+              "word": "death",
+              "pos": "n.",
+              "definition": "n. 死；死亡"
+            },
+            {
+              "word": "Trade",
+              "pos": "n.",
+              "definition": "n. 贸易；买卖；行业"
+            },
+            {
+              "word": "round",
+              "pos": "adj.",
+              "definition": "adj. 圆形的；球形的；弧形的"
+            },
+            {
+              "word": "talks",
+              "pos": "n.",
+              "definition": "n. （talk 的复数）会谈；谈判；谈话"
+            },
+            {
+              "word": "near",
               "pos": "adv.",
-              "definition": "adv. 已经；早已"
+              "definition": "adv. 距离不远；在附近"
             },
             {
               "word": "fled",
               "pos": "v.",
               "definition": "v. 逃走（flee 的过去式和过去分词）；消逝"
-            },
-            {
-              "word": "internet",
-              "pos": "n.",
-              "definition": "n. 互联网；因特网（=the Internet）"
-            },
-            {
-              "word": "papers",
-              "pos": "n.",
-              "definition": "n. 文件；资料"
             },
             {
               "word": "News",
@@ -1260,29 +1720,19 @@
           "chunk_translation": "但这些讨论如今看来已不合时宜 / 在世界大部分地区几乎看不到危机的迹象 / 德国和巴西的报纸已经摆脱了经济衰退的影响 / 即便是身处全球报业最困顿角落的美国报纸 / 处于全球报业最困顿角落的 / 也不仅存活了下来，而且往往恢复了盈利",
           "vocabulary": [
             {
+              "word": "discussions",
+              "pos": "n.",
+              "definition": "n. 讨论；论述；详述（discussion 的复数）"
+            },
+            {
               "word": "newspapers",
               "pos": "n.",
               "definition": "n. 报纸；报章（newspaper 的复数）"
             },
             {
               "word": "recession",
-              "pos": "n.",
-              "definition": "n. （经济的）衰退（期）；退后"
-            },
-            {
-              "word": "little",
-              "pos": "adj.",
-              "definition": "adj. 小的；比较小的"
-            },
-            {
-              "word": "sign",
-              "pos": "n.",
-              "definition": "n. 指示牌；标志"
-            },
-            {
-              "word": "crisis",
-              "pos": "n.",
-              "definition": "n. 危机；紧要关头"
+              "pos": "",
+              "definition": "n.经济衰退,不景气"
             },
             {
               "word": "Brazilian",
@@ -1290,19 +1740,59 @@
               "definition": "adj. 巴西的；巴西人的"
             },
             {
-              "word": "papers",
-              "pos": "n.",
-              "definition": "n. 文件；资料"
-            },
-            {
               "word": "shrugged",
               "pos": "v.",
               "definition": "v. 耸肩（shrug 的过去式和过去分词）；shrugged off（shrug off 的过去式）：对（批评、担忧等）不予理会或不在意"
             },
             {
-              "word": "inhabit",
+              "word": "troubled",
+              "pos": "adj.",
+              "definition": "adj. 不安的；忧虑的；烦恼的"
+            },
+            {
+              "word": "industry",
+              "pos": "n.",
+              "definition": "n. 工业；生产制造；行业"
+            },
+            {
+              "word": "survived",
               "pos": "v.",
-              "definition": "v. 居住于；栖居在"
+              "definition": "v. （survive 的过去式和过去分词）幸存；活下来；幸免于难"
+            },
+            {
+              "word": "returned",
+              "pos": "v.",
+              "definition": "v. return 的过去式和过去分词：返回；归还；恢复"
+            },
+            {
+              "word": "inhabit",
+              "pos": "",
+              "definition": "v.居住;在...出现;填满"
+            },
+            {
+              "word": "crisis",
+              "pos": "n.",
+              "definition": "n. 危机；紧要关头"
+            },
+            {
+              "word": "corner",
+              "pos": "n.",
+              "definition": "n. 角；嘴角；眼角"
+            },
+            {
+              "word": "global",
+              "pos": "adj.",
+              "definition": "adj. 全球的；全世界的；全面的"
+            },
+            {
+              "word": "profit",
+              "pos": "n.",
+              "definition": "n. 利润；盈利；利益"
+            },
+            {
+              "word": "sign",
+              "pos": "n.",
+              "definition": "n. 指示牌；标志"
             },
             {
               "word": "News",
@@ -1319,29 +1809,14 @@
           "chunk_translation": "虽然不是几年前司空见惯的20%的利润率 / 几年前那是司空见惯的 / 但终归是盈利了 / 这个过程并不轻松愉快 / 许多报纸得以维持运营 / 是通过裁减新闻记者 / 美国新闻编辑协会估计 / 约有1.3 / 万500个新闻编辑室岗位消失了 / 自2007年以来 / 读者正在支付更高的费用 / 购买版面更薄的报纸 / 一些报纸甚至敢于拒绝向偏远郊区发行投递",
           "vocabulary": [
             {
-              "word": "readers",
-              "pos": "n.",
-              "definition": "n. reader 的复数形式：读者；电子阅读器、读卡机等阅读设备（常与修饰语连用）"
+              "word": "profit margins",
+              "pos": "",
+              "definition": "利润空间"
             },
             {
-              "word": "papers",
-              "pos": "n.",
-              "definition": "n. 文件；资料"
-            },
-            {
-              "word": "stayed",
-              "pos": "v.",
-              "definition": "v. stay 的过去式和过去分词：留在某处；不离开"
-            },
-            {
-              "word": "afloat",
-              "pos": "adj.",
-              "definition": "adj. 经济上周转得开的；不欠债的"
-            },
-            {
-              "word": "pushing",
-              "pos": "prep.",
-              "definition": "prep. 接近（某个年龄）；adj. 奋斗的"
+              "word": "all the same",
+              "pos": "",
+              "definition": "(虽...)仍然"
             },
             {
               "word": "journalists",
@@ -1350,18 +1825,43 @@
             },
             {
               "word": "overboard",
-              "pos": "adv.",
-              "definition": "adv. 自船上落下；向船外"
+              "pos": "",
+              "definition": "ad.越过船边坠入水中"
+            },
+            {
+              "word": "delivery",
+              "pos": "",
+              "definition": "n.传达,投递"
+            },
+            {
+              "word": "newsroom",
+              "pos": "n.",
+              "definition": "n. 新闻编辑室；新闻编辑部"
+            },
+            {
+              "word": "products",
+              "pos": "n.",
+              "definition": "n. 产品；商品（product 的复数）；产物"
+            },
+            {
+              "word": "routine",
+              "pos": "",
+              "definition": "n.常规,通常情况"
+            },
+            {
+              "word": "readers",
+              "pos": "n.",
+              "definition": "n. reader 的复数形式：读者；电子阅读器、读卡机等阅读设备（常与修饰语连用）"
+            },
+            {
+              "word": "pushing",
+              "pos": "prep.",
+              "definition": "prep. 接近（某个年龄）；adj. 奋斗的"
             },
             {
               "word": "Society",
               "pos": "n.",
               "definition": "n. 社会（以群体形式生活在一起的人的总称）；社群（某国家、地区、时期等的群体组织）"
-            },
-            {
-              "word": "News",
-              "pos": "n.",
-              "definition": "n. 消息；新情况"
             },
             {
               "word": "Editors",
@@ -1374,24 +1874,59 @@
               "definition": "v. （reckon 的第三人称单数形式）认为；觉得"
             },
             {
-              "word": "newsroom",
+              "word": "margins",
               "pos": "n.",
-              "definition": "n. 新闻编辑室；新闻编辑部"
+              "definition": "n. 边际（margin 的复数）；利润；利润空间"
             },
             {
-              "word": "jobs",
+              "word": "slimmer",
               "pos": "n.",
-              "definition": "n. 工作（job 的复数形式）"
+              "definition": "n. （通过节食、运动等）减肥者；正在减肥的人；adj. 更苗条的"
             },
             {
-              "word": "since",
-              "pos": "prep.",
-              "definition": "prep. 自……以后；自……以来"
+              "word": "distant",
+              "pos": "adj.",
+              "definition": "adj. 遥远的；久远的；冷淡的"
+            },
+            {
+              "word": "suburbs",
+              "pos": "n.",
+              "definition": "n. 郊区；市郊；郊外（suburb 的复数）"
+            },
+            {
+              "word": "afloat",
+              "pos": "",
+              "definition": "ad.漂浮着的,漂浮不定"
+            },
+            {
+              "word": "stayed",
+              "pos": "v.",
+              "definition": "v. stay 的过去式和过去分词：留在某处；不离开"
             },
             {
               "word": "paying",
               "pos": "v.",
               "definition": "v. 支付；付款"
+            },
+            {
+              "word": "profit",
+              "pos": "n.",
+              "definition": "n. 利润；盈利；利益"
+            },
+            {
+              "word": "refuse",
+              "pos": "v.",
+              "definition": "v. 拒绝；回绝（做某事）；不接受"
+            },
+            {
+              "word": "nerve",
+              "pos": "n.",
+              "definition": "n. 神经；勇气；胆量"
+            },
+            {
+              "word": "News",
+              "pos": "n.",
+              "definition": "n. 消息；新情况"
             }
           ]
         },
@@ -1403,9 +1938,19 @@
           "chunk_translation": "然而这些孤注一掷的举措已被证明是正确的，而且 / 令人遗憾的是 / 对许多记者而言 / 这些举措还可以进一步推进 / 报纸正成为更加均衡的商业实体 / 拥有更健康的收入组合 / 来自读者和广告商 / 美国报纸长期以来极不寻常 / 在其对广告的依赖程度上 / 其整整87%的收入来源于此 / 来自2008年的广告收入 / 据该组织统计 / 经济合作与发展组织（经合组织） / 在日本这一比例为35%",
           "vocabulary": [
             {
-              "word": "newspapers",
+              "word": "a healthier mix of revenues",
+              "pos": "",
+              "definition": "更加健康的收益比例"
+            },
+            {
+              "word": "desperate measures",
+              "pos": "",
+              "definition": "孤注一掷的措施"
+            },
+            {
+              "word": "Organization",
               "pos": "n.",
-              "definition": "n. 报纸；报章（newspaper 的复数）"
+              "definition": "n. 组织；机构；组织工作"
             },
             {
               "word": "advertising",
@@ -1413,34 +1958,34 @@
               "definition": "n. 广告活动；广告业"
             },
             {
-              "word": "readers",
-              "pos": "n.",
-              "definition": "n. reader 的复数形式：读者；电子阅读器、读卡机等阅读设备（常与修饰语连用）"
-            },
-            {
-              "word": "papers",
-              "pos": "n.",
-              "definition": "n. 文件；资料"
-            },
-            {
               "word": "journalists",
               "pos": "n.",
               "definition": "n. 新闻记者（journalist 的复数）"
             },
             {
-              "word": "News",
+              "word": "advertisers",
               "pos": "n.",
-              "definition": "n. 消息；新情况"
+              "definition": "n. 广告商；广告主"
             },
             {
-              "word": "becoming",
-              "pos": "adj.",
-              "definition": "adj. （衣服、颜色、发型等）好看的；相配的"
+              "word": "Cooperation",
+              "pos": "n.",
+              "definition": "n. 合作；协作；协助"
             },
             {
-              "word": "balanced",
-              "pos": "adj.",
-              "definition": "adj. 平衡的；均衡的"
+              "word": "Development",
+              "pos": "n.",
+              "definition": "n. 发育；成长；发达"
+            },
+            {
+              "word": "proportion",
+              "pos": "",
+              "definition": "n.比,比率,比例"
+            },
+            {
+              "word": "newspapers",
+              "pos": "n.",
+              "definition": "n. 报纸；报章（newspaper 的复数）"
             },
             {
               "word": "businesses",
@@ -1453,14 +1998,89 @@
               "definition": "adj. 更健康；更有益于健康（healthy 的比较级"
             },
             {
-              "word": "revenues",
-              "pos": "n.",
-              "definition": "n. （会计）收入；营业收入（revenue 的复数形式）"
+              "word": "desperate",
+              "pos": "adj.",
+              "definition": "adj. 不顾一切的；拼命的；极需要的"
             },
             {
-              "word": "advertisers",
+              "word": "according",
+              "pos": "prep.",
+              "definition": "prep. 按照；根据；依照（according to"
+            },
+            {
+              "word": "revenues",
+              "pos": "",
+              "definition": "n.(复数)总收入"
+            },
+            {
+              "word": "reliance",
+              "pos": "",
+              "definition": "n.依靠,依赖"
+            },
+            {
+              "word": "becoming",
+              "pos": "adj.",
+              "definition": "adj. （衣服、颜色、发型等）好看的；相配的"
+            },
+            {
+              "word": "balanced",
+              "pos": "adj.",
+              "definition": "adj. 平衡的；均衡的"
+            },
+            {
+              "word": "measures",
               "pos": "n.",
-              "definition": "n. 广告商；广告主"
+              "definition": "n. 措施；层组（measure 的复数）；v. 测量（measure 的第三人称单数）"
+            },
+            {
+              "word": "Economic",
+              "pos": "adj.",
+              "definition": "adj. 经济的；经济学的；有利可图的"
+            },
+            {
+              "word": "readers",
+              "pos": "n.",
+              "definition": "n. reader 的复数形式：读者；电子阅读器、读卡机等阅读设备（常与修饰语连用）"
+            },
+            {
+              "word": "further",
+              "pos": "adv.",
+              "definition": "adv. 更远地；再往前地；进一步"
+            },
+            {
+              "word": "unusual",
+              "pos": "adj.",
+              "definition": "adj. 不寻常的；罕见的；与众不同的"
+            },
+            {
+              "word": "proved",
+              "pos": "adj.",
+              "definition": "adj. 证实的；被证明的；v. prove 的过去式和过去分词：证明"
+            },
+            {
+              "word": "pushed",
+              "pos": "v.",
+              "definition": "v. 推；挤；逼迫（push 的过去式和过去分词）"
+            },
+            {
+              "word": "highly",
+              "pos": "adv.",
+              "definition": "adv. 极其；非常；高度地"
+            },
+            {
+              "word": "sadly",
+              "pos": "adv.",
+              "definition": "adv. 悲哀地；悲痛地；伤心地"
+            },
+            {
+              "word": "Fully",
+              "pos": "adv.",
+              "definition": "adv. 充分地；完全地；彻底地"
+            },
+            {
+              "word": "News",
+              "pos": "n.",
+              "definition": "n. 消息；新情况"
             }
           ]
         },
@@ -1472,59 +2092,14 @@
           "chunk_translation": "不足为奇的是 / 日本报纸要稳定得多 / 席卷新闻编辑室的狂风暴雨 / 席卷 / 伤害了每一个人 / 但大部分破坏主要集中 / 在某些领域 / 即报纸最缺乏特色的板块 / 汽车和电影评论员已经被裁撤了 / 科技和大众商业记者也是如此 / 驻外记者站已被无情关闭 / 报纸的内容因此不如以往全面 / 但在报业经营中，内容包罗万象已不再是一种美德",
           "vocabulary": [
             {
-              "word": "newspapers",
-              "pos": "n.",
-              "definition": "n. 报纸；报章（newspaper 的复数）"
+              "word": "not surprisingly",
+              "pos": "",
+              "definition": "毫无疑问"
             },
             {
-              "word": "papers",
-              "pos": "n.",
-              "definition": "n. 文件；资料"
-            },
-            {
-              "word": "News",
-              "pos": "n.",
-              "definition": "n. 消息；新情况"
-            },
-            {
-              "word": "newsroom",
-              "pos": "n.",
-              "definition": "n. 新闻编辑室；新闻编辑部"
-            },
-            {
-              "word": "as a result",
-              "pos": "n./v.",
-              "definition": "语境核心词汇"
-            },
-            {
-              "word": "whirlwind",
-              "pos": "n.",
-              "definition": "n. 旋风；旋流"
-            },
-            {
-              "word": "swept",
-              "pos": "v.",
-              "definition": "v. 扫除（sweep 的过去式和过去分词）；扫视"
-            },
-            {
-              "word": "newsrooms",
-              "pos": "n.",
-              "definition": "n. 新闻编辑部；报刊阅览室（newsroom 的复数）"
-            },
-            {
-              "word": "harmed",
-              "pos": "v.",
-              "definition": "v. harm 的过去式和过去分词：伤害；损害"
-            },
-            {
-              "word": "everybody",
-              "pos": "pron.",
-              "definition": "pron. 每个人；人人"
-            },
-            {
-              "word": "damage",
-              "pos": "n.",
-              "definition": "n. （有形的）损坏；损失"
+              "word": "film reviewers",
+              "pos": "",
+              "definition": "电影评论员"
             },
             {
               "word": "concentrated",
@@ -1532,9 +2107,134 @@
               "definition": "adj. 集中的；全神贯注的"
             },
             {
-              "word": "areas",
+              "word": "surprisingly",
+              "pos": "adv.",
+              "definition": "adv. 惊人地；出人意料地"
+            },
+            {
+              "word": "completeness",
               "pos": "n.",
-              "definition": "n. 区域；领域"
+              "definition": "n. 完整；完整性；完全"
+            },
+            {
+              "word": "distinctive",
+              "pos": "",
+              "definition": "a.有特色的,与众不同的"
+            },
+            {
+              "word": "as a result",
+              "pos": "n./v.",
+              "definition": "语境核心词汇"
+            },
+            {
+              "word": "newspapers",
+              "pos": "n.",
+              "definition": "n. 报纸；报章（newspaper 的复数）"
+            },
+            {
+              "word": "whirlwind",
+              "pos": "",
+              "definition": "n.旋风;猛烈的势力"
+            },
+            {
+              "word": "newsrooms",
+              "pos": "n.",
+              "definition": "n. 新闻编辑部；报刊阅览室（newsroom 的复数）"
+            },
+            {
+              "word": "everybody",
+              "pos": "pron.",
+              "definition": "pron. 每个人；人人"
+            },
+            {
+              "word": "reviewers",
+              "pos": "n.",
+              "definition": "n. 评论者；评论家；评论员"
+            },
+            {
+              "word": "reporters",
+              "pos": "n.",
+              "definition": "n. 记者（reporter 的复数）"
+            },
+            {
+              "word": "newspaper",
+              "pos": "n.",
+              "definition": "n. 报纸；报；报社"
+            },
+            {
+              "word": "savagely",
+              "pos": "",
+              "definition": "ad.野蛮地:残忍地"
+            },
+            {
+              "word": "newsroom",
+              "pos": "n.",
+              "definition": "n. 新闻编辑室；新闻编辑部"
+            },
+            {
+              "word": "business",
+              "pos": "n.",
+              "definition": "n. 商业；买卖；生意"
+            },
+            {
+              "word": "complete",
+              "pos": "adj.",
+              "definition": "adj. 完全的；彻底的；全部的"
+            },
+            {
+              "word": "science",
+              "pos": "n.",
+              "definition": "n. 科学；科学知识；专门科学"
+            },
+            {
+              "word": "general",
+              "pos": "adj.",
+              "definition": "adj. 总体的；普遍的；一般的"
+            },
+            {
+              "word": "Foreign",
+              "pos": "adj.",
+              "definition": "adj. 外国的；来自国外的；外交的"
+            },
+            {
+              "word": "bureaus",
+              "pos": "n.",
+              "definition": "n. 局；处；科"
+            },
+            {
+              "word": "stable",
+              "pos": "",
+              "definition": "a.稳定的"
+            },
+            {
+              "word": "virtue",
+              "pos": "",
+              "definition": "n.美德:德行;价值;长处"
+            },
+            {
+              "word": "harmed",
+              "pos": "v.",
+              "definition": "v. harm 的过去式和过去分词：伤害；损害"
+            },
+            {
+              "word": "damage",
+              "pos": "n.",
+              "definition": "n. （有形的）损坏；损失"
+            },
+            {
+              "word": "result",
+              "pos": "n.",
+              "definition": "n. 结果；后果；（比赛或选举的）结果"
+            },
+            {
+              "word": "swept",
+              "pos": "v.",
+              "definition": "v. 扫除（sweep 的过去式和过去分词）；扫视"
+            },
+            {
+              "word": "News",
+              "pos": "n.",
+              "definition": "n. 消息；新情况"
             }
           ]
         }
@@ -2551,19 +3251,9 @@
           "chunk_translation": "我们往往把第二次世界大战刚结束的几十年视为繁荣与发展的时期 / 成百万的退伍军人重返家园 / 依靠退伍军人法案走进大学校园",
           "vocabulary": [
             {
-              "word": "tend",
-              "pos": "v.",
-              "definition": "v. 倾向于；往往会"
-            },
-            {
-              "word": "think",
-              "pos": "v.",
-              "definition": "v. 认为；以为"
-            },
-            {
-              "word": "decades",
-              "pos": "n.",
-              "definition": "n. 数十年（decade 的复数）"
+              "word": "by the millions",
+              "pos": "",
+              "definition": "数以百万计"
             },
             {
               "word": "immediately",
@@ -2571,19 +3261,44 @@
               "definition": "adv. 立即；马上"
             },
             {
+              "word": "prosperity",
+              "pos": "",
+              "definition": "n.繁荣,兴旺,昌盛"
+            },
+            {
               "word": "following",
               "pos": "adj.",
               "definition": "adj. 之后的；接下来的"
             },
             {
-              "word": "time",
-              "pos": "n.",
-              "definition": "n. （以分钟、小时、天等计量的）时间；（钟表上的）时刻"
+              "word": "returning",
+              "pos": "v.",
+              "definition": "v. 归还；（计算机）返回；回复（return 的 ing 形式）"
             },
             {
-              "word": "prosperity",
+              "word": "soldiers",
               "pos": "n.",
-              "definition": "n. 繁荣；成功"
+              "definition": "n. 士兵；军人（soldier 的复数）"
+            },
+            {
+              "word": "millions",
+              "pos": "n.",
+              "definition": "n. 数百万；大量；无数"
+            },
+            {
+              "word": "tend to",
+              "pos": "",
+              "definition": "往往,易于"
+            },
+            {
+              "word": "decades",
+              "pos": "n.",
+              "definition": "n. 数十年（decade 的复数）"
+            },
+            {
+              "word": "college",
+              "pos": "n.",
+              "definition": "n. 大学；专科学校；学院"
             },
             {
               "word": "growth",
@@ -2591,9 +3306,9 @@
               "definition": "n. 成长；生长"
             },
             {
-              "word": "soldiers",
-              "pos": "n.",
-              "definition": "n. 士兵；军人（soldier 的复数）"
+              "word": "tend",
+              "pos": "v.",
+              "definition": "v. 倾向于；往往会"
             }
           ]
         },
@@ -2605,9 +3320,19 @@
           "chunk_translation": "以及在婚姻登记处排起长队 / 但 / 当谈及他们的住宅时 / 那是一个讲求实际并坚信的时代 / 少确实可以代表更多",
           "vocabulary": [
             {
-              "word": "time",
+              "word": "common sense",
+              "pos": "",
+              "definition": "常识"
+            },
+            {
+              "word": "marriage",
               "pos": "n.",
-              "definition": "n. （以分钟、小时、天等计量的）时间；（钟表上的）时刻"
+              "definition": "n. 结婚；婚姻；婚礼"
+            },
+            {
+              "word": "bureaus",
+              "pos": "n.",
+              "definition": "n. 局；处；科"
             },
             {
               "word": "houses",
@@ -2615,24 +3340,19 @@
               "definition": "n. 住宅；家园"
             },
             {
-              "word": "common",
-              "pos": "adj.",
-              "definition": "adj. 共同的；共享的"
-            },
-            {
-              "word": "sense",
-              "pos": "n.",
-              "definition": "n. 感觉官能（即视、听、嗅、味、触五觉）；（对某物的）感觉"
-            },
-            {
               "word": "belief",
               "pos": "n.",
               "definition": "n. 相信；信心"
             },
             {
-              "word": "less",
-              "pos": "adv.",
-              "definition": "adv. 更少地；程度较低地"
+              "word": "lining",
+              "pos": "n.",
+              "definition": "n. 衬层；内衬；（身体器官内壁的）膜"
+            },
+            {
+              "word": "sense",
+              "pos": "n.",
+              "definition": "n. 感觉官能（即视、听、嗅、味、触五觉）；（对某物的）感觉"
             },
             {
               "word": "truly",
@@ -2649,9 +3369,24 @@
           "chunk_translation": "在大萧条和二战期间 / 美国人已经学会了生活 / 依靠更少的生活资料 / 而且 / 那种克制节约 / 加上战后对未来的信心 / 使得小型、 / 高效的住宅变得极为时尚 / 经济状况只是推动高效生活方式趋势的催化剂 / “少即是多”这一名言实际上最早是由一位德国人推广开来的 / 即建筑大师路德维希·密斯·凡德罗 / 他与其他与包豪斯有关的人士一样 / 包豪斯是一所设计学院 / 移民到了美国 / 在二战爆发前并在美国各建筑院校任职 / 在美国建筑院校",
           "vocabulary": [
             {
-              "word": "less",
-              "pos": "adv.",
-              "definition": "adv. 更少地；程度较低地"
+              "word": "in combination with",
+              "pos": "",
+              "definition": "结合"
+            },
+            {
+              "word": "Architecture",
+              "pos": "n.",
+              "definition": "n. 建筑设计；建筑风格"
+            },
+            {
+              "word": "combination",
+              "pos": "n.",
+              "definition": "n. 结合体；联合体；结合"
+            },
+            {
+              "word": "popularized",
+              "pos": "v.",
+              "definition": "v. popularize 的过去式和过去分词：使普及；使流行；推广"
             },
             {
               "word": "Depression",
@@ -2659,14 +3394,34 @@
               "definition": "n. 抑郁；沮丧"
             },
             {
-              "word": "learned",
-              "pos": "adj.",
-              "definition": "adj. 博学的；学术性的"
+              "word": "confidence",
+              "pos": "n.",
+              "definition": "n. 自信；信心；信任"
             },
             {
-              "word": "Economic",
+              "word": "positively",
+              "pos": "adv.",
+              "definition": "adv. 绝对地；乐观地；赞成地"
+            },
+            {
+              "word": "associated",
               "pos": "adj.",
-              "definition": "adj. 经济的；经济学的"
+              "definition": "adj. 有关联的；相关的；联合的"
+            },
+            {
+              "word": "restraint",
+              "pos": "",
+              "definition": "n.抑制,控制,限制,约束"
+            },
+            {
+              "word": "live with",
+              "pos": "",
+              "definition": "忍受,容忍"
+            },
+            {
+              "word": "architect",
+              "pos": "",
+              "definition": "n.建筑师,设计师"
             },
             {
               "word": "condition",
@@ -2674,24 +3429,59 @@
               "definition": "n. 状况；状态"
             },
             {
-              "word": "stimulus",
-              "pos": "n.",
-              "definition": "n. 刺激（物）；促进因素"
-            },
-            {
-              "word": "trend",
-              "pos": "n.",
-              "definition": "n. 趋势；动态"
-            },
-            {
-              "word": "toward",
-              "pos": "prep.",
-              "definition": "prep. 向；朝"
-            },
-            {
               "word": "efficient",
               "pos": "adj.",
               "definition": "adj. 生效的；效率高的"
+            },
+            {
+              "word": "emigrated",
+              "pos": "v.",
+              "definition": "v. emigrate 的过去式和过去分词；移居；移民：离开自己的国家或原居住地"
+            },
+            {
+              "word": "stimulus",
+              "pos": "",
+              "definition": "n.刺激物,刺激因素"
+            },
+            {
+              "word": "Economic",
+              "pos": "adj.",
+              "definition": "adj. 经济的；经济学的"
+            },
+            {
+              "word": "actually",
+              "pos": "adv.",
+              "definition": "adv. 实际上；事实上；（用于开始新话题）其实"
+            },
+            {
+              "word": "stylish",
+              "pos": "",
+              "definition": "a.时髦的,流行的,入时的"
+            },
+            {
+              "word": "learned",
+              "pos": "adj.",
+              "definition": "adj. 博学的；学术性的"
+            },
+            {
+              "word": "postwar",
+              "pos": "adj.",
+              "definition": "adj. 战后的（尤指第二次世界大战后）；n. 战后时期；adv. 战后"
+            },
+            {
+              "word": "housing",
+              "pos": "n.",
+              "definition": "n. 房屋；住宅；住房供给"
+            },
+            {
+              "word": "Bauhaus",
+              "pos": "n.",
+              "definition": "n. （Bauhaus）包豪斯建筑学派；包豪斯建筑学院；adj. （Bauhaus）包豪斯建筑学派的"
+            },
+            {
+              "word": "schools",
+              "pos": "n.",
+              "definition": "n. （中、小）学校；学派；流派"
             },
             {
               "word": "living",
@@ -2704,14 +3494,39 @@
               "definition": "n. 短语；词组"
             },
             {
+              "word": "future",
+              "pos": "n.",
+              "definition": "n. 未来；将来；前途"
+            },
+            {
+              "word": "Ludwig",
+              "pos": "n.",
+              "definition": "n. 路德维希（男子名；也译路德维格）；路德维希（姓氏）"
+            },
+            {
+              "word": "design",
+              "pos": "n.",
+              "definition": "n. 设计；布局；安排"
+            },
+            {
+              "word": "United",
+              "pos": "adj.",
+              "definition": "adj. 团结的；统一的；共同的"
+            },
+            {
+              "word": "trend",
+              "pos": "n.",
+              "definition": "n. 趋势；动态"
+            },
+            {
+              "word": "posts",
+              "pos": "n.",
+              "definition": "n. （post 的复数）岗位；职位；帖子"
+            },
+            {
               "word": "Mies",
               "pos": "abbr.",
               "definition": "abbr. 矿区产业生态系统（mining industry ecosystem）；n. （Mies）人名"
-            },
-            {
-              "word": "Architecture",
-              "pos": "n.",
-              "definition": "n. 建筑设计；建筑风格"
             }
           ]
         },
@@ -2723,34 +3538,39 @@
           "chunk_translation": "这些设计师对美国建筑的发展历程产生了巨大影响 / 但谁的影响也比不上密斯 / 密斯的标志性格言意味着 / 较少的装饰 / 只要组织得当 / 就能比繁复的装饰产生更大的影响力 / 优雅 / 他坚信 / 并非源于 / 繁冗堆砌 / 与其他现代建筑师一样 / 他运用金属、 / 玻璃和层压木板—— / 这些材料 / 在我们今天看来 / 是理所当然的，但 / 在20世纪40年代却象征着未来 / 密斯精湛的表现手法掩盖了这样一个事实 / 即他所设计的空间小而高效 / 而非庞大且往往空旷 / 例如密斯在芝加哥湖滨大道上建造的典雅高楼中的公寓 / 位于芝加哥湖滨大道上 / 例如 / 面积更小—— / 面积不到1 / 000平方英尺的两居室—— / 相比那些 / 位于该市黄金海岸沿线的老式邻近建筑中的公寓",
           "vocabulary": [
             {
-              "word": "less",
-              "pos": "adv.",
-              "definition": "adv. 更少地；程度较低地"
+              "word": "signature phrase",
+              "pos": "",
+              "definition": "口头禅"
             },
             {
-              "word": "efficient",
-              "pos": "adj.",
-              "definition": "adj. 生效的；效率高的"
+              "word": "take for granted",
+              "pos": "",
+              "definition": "认为...理所当然"
             },
             {
-              "word": "phrase",
+              "word": "sophisticated",
+              "pos": "",
+              "definition": "a.复杂的,精致的"
+            },
+            {
+              "word": "Architecture",
               "pos": "n.",
-              "definition": "n. 短语；词组"
+              "definition": "n. 建筑设计；建筑风格"
             },
             {
-              "word": "Mies",
-              "pos": "abbr.",
-              "definition": "abbr. 矿区产业生态系统（mining industry ecosystem）；n. （Mies）人名"
-            },
-            {
-              "word": "signature",
+              "word": "presentation",
               "pos": "n.",
-              "definition": "n. 签名；署名"
+              "definition": "n. （颁奖等）仪式；典礼；授予"
             },
             {
-              "word": "means",
-              "pos": "n.",
-              "definition": "n. 手段；方法"
+              "word": "derive from",
+              "pos": "",
+              "definition": "由......起源;取自"
+            },
+            {
+              "word": "Gold Coast",
+              "pos": "",
+              "definition": "黄金海岸"
             },
             {
               "word": "decoration",
@@ -2758,14 +3578,124 @@
               "definition": "n. 装饰；装饰品"
             },
             {
-              "word": "properly",
-              "pos": "adv.",
-              "definition": "adv. 正确地；适当地"
+              "word": "architects",
+              "pos": "n.",
+              "definition": "n. （建）建筑师（architect 的复数形式）；（思想、事件、制度等的）设计者"
+            },
+            {
+              "word": "symbolized",
+              "pos": "v.",
+              "definition": "v. 象征；代表；用符号表示"
+            },
+            {
+              "word": "apartments",
+              "pos": "n.",
+              "definition": "n. 公寓；公寓住宅（apartment 的复数形式）；套间"
+            },
+            {
+              "word": "signature",
+              "pos": "",
+              "definition": "n.签名,署名:识别标志,鲜明特征"
+            },
+            {
+              "word": "laminated",
+              "pos": "",
+              "definition": "a.由薄片叠成的,分层的"
+            },
+            {
+              "word": "efficient",
+              "pos": "adj.",
+              "definition": "adj. 生效的；效率高的"
             },
             {
               "word": "organized",
               "pos": "adj.",
               "definition": "adj. 有组织的；系统的"
+            },
+            {
+              "word": "designers",
+              "pos": "n.",
+              "definition": "n. 设计师；设计者；设计器（designer 的复数形式）"
+            },
+            {
+              "word": "influence",
+              "pos": "n.",
+              "definition": "n. 影响；作用；势力"
+            },
+            {
+              "word": "abundance",
+              "pos": "n.",
+              "definition": "n. 大量；丰富；繁荣"
+            },
+            {
+              "word": "materials",
+              "pos": "n.",
+              "definition": "n. 材料；原料；物料"
+            },
+            {
+              "word": "neighbors",
+              "pos": "n.",
+              "definition": "n. 街坊邻里；邻居；邻国"
+            },
+            {
+              "word": "properly",
+              "pos": "adv.",
+              "definition": "adv. 正确地；适当地"
+            },
+            {
+              "word": "enormous",
+              "pos": "adj.",
+              "definition": "adj. 巨大的；极大的；凶暴的"
+            },
+            {
+              "word": "Elegance",
+              "pos": "n.",
+              "definition": "n. 优雅；雅致；简练"
+            },
+            {
+              "word": "believed",
+              "pos": "v.",
+              "definition": "v. 相信；信以为真；认为"
+            },
+            {
+              "word": "employed",
+              "pos": "adj.",
+              "definition": "adj. 被雇用的；vt. 雇佣；使用（employ 的过去式与过去分词）"
+            },
+            {
+              "word": "designed",
+              "pos": "v.",
+              "definition": "v. 设计；计划（design 的过去式和过去分词）；be designed to/for 旨在"
+            },
+            {
+              "word": "elegant",
+              "pos": "",
+              "definition": "a.优美的,漂亮的,简练的,简洁的"
+            },
+            {
+              "word": "granted",
+              "pos": "adv.",
+              "definition": "adv. 的确；诚然；conj. 因为（granted that）"
+            },
+            {
+              "word": "example",
+              "pos": "n.",
+              "definition": "n. 例子；例证；榜样"
+            },
+            {
+              "word": "smaller",
+              "pos": "adj.",
+              "definition": "adj. 较小的；更小的（small 的比较级）"
+            },
+            {
+              "word": "bedroom",
+              "pos": "n.",
+              "definition": "n. 卧室；adj. 两性关系的；城郊住宅区的"
+            },
+            {
+              "word": "phrase",
+              "pos": "n.",
+              "definition": "n. 短语；词组"
             },
             {
               "word": "impact",
@@ -2778,14 +3708,99 @@
               "definition": "adj. 近代的；现代的"
             },
             {
-              "word": "architects",
+              "word": "course",
               "pos": "n.",
-              "definition": "n. （建）建筑师（architect 的复数形式）；（思想、事件、制度等的）设计者"
+              "definition": "n. 课程；过程；道路"
             },
             {
-              "word": "Architecture",
+              "word": "derive",
+              "pos": "v.",
+              "definition": "v. 获得；取得；起源于"
+            },
+            {
+              "word": "future",
               "pos": "n.",
-              "definition": "n. 建筑设计；建筑风格"
+              "definition": "n. 未来；将来；前途"
+            },
+            {
+              "word": "masked",
+              "pos": "v.",
+              "definition": "v. mask 的过去式及过去分词：掩饰；给……戴面具；遮蔽"
+            },
+            {
+              "word": "spaces",
+              "pos": "n.",
+              "definition": "n. 空间；空地；空隙"
+            },
+            {
+              "word": "rather",
+              "pos": "adv.",
+              "definition": "adv. 颇；相当；宁愿"
+            },
+            {
+              "word": "towers",
+              "pos": "n.",
+              "definition": "n. 塔；塔楼；发射塔"
+            },
+            {
+              "word": "square",
+              "pos": "adj.",
+              "definition": "adj. 正方形的；四方形的；成直角的"
+            },
+            {
+              "word": "exert",
+              "pos": "",
+              "definition": "v.发挥;运用;使受(影响等)"
+            },
+            {
+              "word": "means",
+              "pos": "n.",
+              "definition": "n. 手段；方法"
+            },
+            {
+              "word": "metal",
+              "pos": "n.",
+              "definition": "n. 重金属音乐；金属色；筑路碎石"
+            },
+            {
+              "word": "glass",
+              "pos": "n.",
+              "definition": "n. 玻璃；玻璃杯；一杯之量"
+            },
+            {
+              "word": "empty",
+              "pos": "adj.",
+              "definition": "adj. 空的；空洞的；无意义的"
+            },
+            {
+              "word": "built",
+              "pos": "adj.",
+              "definition": "adj. 具有……特性；适合做……；有……身材的"
+            },
+            {
+              "word": "Shore",
+              "pos": "n.",
+              "definition": "n. （海、湖或大河的）滨；岸；沿海国家（或地区）（shores）"
+            },
+            {
+              "word": "Drive",
+              "pos": "v.",
+              "definition": "v. 驾车送（人）；迫使；驱使"
+            },
+            {
+              "word": "units",
+              "pos": "n.",
+              "definition": "n. 计量单位；单一整体；组成部分"
+            },
+            {
+              "word": "Coast",
+              "pos": "n.",
+              "definition": "n. 海岸；海滨；（车辆的）滑行"
+            },
+            {
+              "word": "Mies",
+              "pos": "abbr.",
+              "definition": "abbr. 矿区产业生态系统（mining industry ecosystem）；n. （Mies）人名"
             }
           ]
         },
@@ -2797,24 +3812,34 @@
           "chunk_translation": "但它们深受人们喜爱 / 因为其通透通风的玻璃幕墙 / 极佳的采光视野以及建筑细节与比例的典雅 / 堪称当时风靡一时的抽象艺术在建筑学上的体现 / 走向“少”的趋势并非完全是舶来品",
           "vocabulary": [
             {
-              "word": "time",
+              "word": "equivalent of",
+              "pos": "",
+              "definition": "对应物"
+            },
+            {
+              "word": "architectural",
+              "pos": "adj.",
+              "definition": "adj. 建筑学的；建筑方面的；与建筑物相似的"
+            },
+            {
+              "word": "abstract art",
+              "pos": "",
+              "definition": "抽象艺术"
+            },
+            {
+              "word": "proportions",
               "pos": "n.",
-              "definition": "n. （以分钟、小时、天等计量的）时间；（钟表上的）时刻"
+              "definition": "n. 比例；比值；大小"
             },
             {
-              "word": "less",
-              "pos": "adv.",
-              "definition": "adv. 更少地；程度较低地"
+              "word": "equivalent",
+              "pos": "",
+              "definition": "n.对等物"
             },
             {
-              "word": "trend",
+              "word": "buildings",
               "pos": "n.",
-              "definition": "n. 趋势；动态"
-            },
-            {
-              "word": "toward",
-              "pos": "prep.",
-              "definition": "prep. 向；朝"
+              "definition": "n. （建）建筑物（building 的复数）"
             },
             {
               "word": "entirely",
@@ -2822,9 +3847,49 @@
               "definition": "adv. 完全地；完整地"
             },
             {
-              "word": "foreign",
+              "word": "afforded",
+              "pos": "v.",
+              "definition": "v. afford 的过去式和过去分词：买得起；承担得起（费用、损失等）；提供"
+            },
+            {
+              "word": "elegance",
+              "pos": "n.",
+              "definition": "n. 优雅；雅致；简练"
+            },
+            {
+              "word": "abstract",
               "pos": "adj.",
-              "definition": "adj. 外国的；来自国外的"
+              "definition": "adj. 抽象的；纯概念的；（艺术）抽象派的"
+            },
+            {
+              "word": "foreign",
+              "pos": "",
+              "definition": "a.外国的,外来的"
+            },
+            {
+              "word": "popular",
+              "pos": "adj.",
+              "definition": "adj. 受大众喜爱的；受欢迎的；（想法、情绪或态度）普遍的"
+            },
+            {
+              "word": "details",
+              "pos": "n.",
+              "definition": "n. 细节；细微之处；（军队中的）任务"
+            },
+            {
+              "word": "trend",
+              "pos": "n.",
+              "definition": "n. 趋势；动态"
+            },
+            {
+              "word": "glass",
+              "pos": "n.",
+              "definition": "n. 玻璃；玻璃杯；一杯之量"
+            },
+            {
+              "word": "walls",
+              "pos": "n.",
+              "definition": "n. 墙壁；墙体（wall 的复数）；（Walls）人名"
             }
           ]
         },
@@ -2836,6 +3901,161 @@
           "chunk_translation": "在20世纪30年代，弗兰克·劳埃德·赖特就开始建造更加简朴且高效的住宅—— / 通常约为1 / 200平方英尺左右—— / 相比他在19世纪90年代和20世纪初所设计的铺展开来的双层住宅 / 在1945年至1962年间由《加州艺术与建筑》杂志委托建造的“案例研究住宅” / 委托优秀的现代建筑师设计的 / 是对“少即是多”趋势的又一本土影响 / 美学效果源自自然景观、 / 新材料以及简洁直率的细节处理 / 在他的案例研究住宅中 / 拉尔夫·拉普森或许误判了机械革命究竟会如何影响日常生活—— / 极少有美国家庭购买了直升机 / 尽管大多数家庭最终都购置了干衣机—— / 但他的信念 / 即自给自足既令人向往又是必然趋势，却得到了广泛认同",
           "vocabulary": [
             {
+              "word": "commissioned",
+              "pos": "adj.",
+              "definition": "adj. 受委任的；受任命的"
+            },
+            {
+              "word": "Architecture",
+              "pos": "n.",
+              "definition": "n. 建筑设计；建筑风格"
+            },
+            {
+              "word": "mispredicted",
+              "pos": "adj.",
+              "definition": "adj. 错误预测的；预测错误的；v. mispredict 的过去式和过去分词"
+            },
+            {
+              "word": "helicopters",
+              "pos": "n.",
+              "definition": "n. 直升机（helicopter的复数形式）"
+            },
+            {
+              "word": "sufficiency",
+              "pos": "n.",
+              "definition": "n. 足量；充足；充分性"
+            },
+            {
+              "word": "forthright",
+              "pos": "",
+              "definition": "a.直率的,明确的"
+            },
+            {
+              "word": "mechanical",
+              "pos": "",
+              "definition": "a.机械的,机械驱动的"
+            },
+            {
+              "word": "inevitable",
+              "pos": "",
+              "definition": "a.不可避免的;必然发生的"
+            },
+            {
+              "word": "architects",
+              "pos": "n.",
+              "definition": "n. （建）建筑师（architect 的复数形式）；（思想、事件、制度等的）设计者"
+            },
+            {
+              "word": "revolution",
+              "pos": "n.",
+              "definition": "n. （思想、工作方式等的）彻底变革；（使用武力、暴力的）革命；旋转"
+            },
+            {
+              "word": "eventually",
+              "pos": "adv.",
+              "definition": "adv. 最终；结果"
+            },
+            {
+              "word": "aesthetic",
+              "pos": "",
+              "definition": "a.美学的,审美的"
+            },
+            {
+              "word": "desirable",
+              "pos": "",
+              "definition": "a.令人满意的,可取的"
+            },
+            {
+              "word": "efficient",
+              "pos": "adj.",
+              "definition": "adj. 生效的；效率高的"
+            },
+            {
+              "word": "spreading",
+              "pos": "v.",
+              "definition": "v. 传播；蔓延；扩散"
+            },
+            {
+              "word": "homegrown",
+              "pos": "adj.",
+              "definition": "adj. 国产的；本土的；自家种植的"
+            },
+            {
+              "word": "influence",
+              "pos": "n.",
+              "definition": "n. 影响；作用；势力"
+            },
+            {
+              "word": "landscape",
+              "pos": "n.",
+              "definition": "n. （陆上；尤指乡村的）风景；景色"
+            },
+            {
+              "word": "materials",
+              "pos": "n.",
+              "definition": "n. 材料；原料；物料"
+            },
+            {
+              "word": "detailing",
+              "pos": "n.",
+              "definition": "n. （建筑、服装等的）装饰细部；细部设计；（汽车的）彻底清洗、抛光等精细美容养护"
+            },
+            {
+              "word": "talented",
+              "pos": "adj.",
+              "definition": "adj. 有天资的；有才能的"
+            },
+            {
+              "word": "building",
+              "pos": "n.",
+              "definition": "n. 建筑物；房屋；楼房"
+            },
+            {
+              "word": "designed",
+              "pos": "v.",
+              "definition": "v. 设计；计划（design 的过去式和过去分词）；be designed to/for 旨在"
+            },
+            {
+              "word": "magazine",
+              "pos": "n.",
+              "definition": "n. 杂志；期刊；（电视、广播）专题节目"
+            },
+            {
+              "word": "everyday",
+              "pos": "adj.",
+              "definition": "adj. 日常的；每天的"
+            },
+            {
+              "word": "families",
+              "pos": "n.",
+              "definition": "n. 家庭（family 的复数）；家人；家属"
+            },
+            {
+              "word": "acquired",
+              "pos": "adj.",
+              "definition": "adj. 后天的；已获得的；已成习惯的"
+            },
+            {
+              "word": "started",
+              "pos": "v.",
+              "definition": "v. 开始；着手"
+            },
+            {
+              "word": "century",
+              "pos": "n.",
+              "definition": "n. 世纪；一百年；（板球）一百分"
+            },
+            {
+              "word": "clothes",
+              "pos": "n.",
+              "definition": "n. 衣服；衣物；（在特定场合、特定时间或由特定人群穿着的）服装"
+            },
+            {
+              "word": "modest",
+              "pos": "",
+              "definition": "a.适度的,适中的,端庄的"
+            },
+            {
               "word": "houses",
               "pos": "n.",
               "definition": "n. 住宅；家园"
@@ -2846,24 +4066,54 @@
               "definition": "n. 相信；信心"
             },
             {
-              "word": "less",
+              "word": "impact",
+              "pos": "n.",
+              "definition": "n. 撞击；冲击力"
+            },
+            {
+              "word": "Wright",
+              "pos": "n.",
+              "definition": "n. 制作者；工人（常用于复合词"
+            },
+            {
+              "word": "modern",
+              "pos": "adj.",
+              "definition": "adj. 近代的；现代的"
+            },
+            {
+              "word": "square",
+              "pos": "adj.",
+              "definition": "adj. 正方形的；四方形的；成直角的"
+            },
+            {
+              "word": "effect",
+              "pos": "n.",
+              "definition": "n. 作用；影响；（刻意制造的）效果"
+            },
+            {
+              "word": "Rapson",
+              "pos": "n.",
+              "definition": "n. 雷普森；拉普森（姓氏）"
+            },
+            {
+              "word": "dryers",
+              "pos": "n.",
+              "definition": "n. dryer 的复数：干燥机、烘干机等干燥设备/器具；催干剂"
+            },
+            {
+              "word": "widely",
               "pos": "adv.",
-              "definition": "adv. 更少地；程度较低地"
+              "definition": "adv. 普遍地；广泛地；范围广地"
+            },
+            {
+              "word": "shared",
+              "pos": "adj.",
+              "definition": "adj. 分享的；共有的；v. 共享"
             },
             {
               "word": "trend",
               "pos": "n.",
               "definition": "n. 趋势；动态"
-            },
-            {
-              "word": "efficient",
-              "pos": "adj.",
-              "definition": "adj. 生效的；效率高的"
-            },
-            {
-              "word": "impact",
-              "pos": "n.",
-              "definition": "n. 撞击；冲击力"
             },
             {
               "word": "Frank",
@@ -2876,54 +4126,24 @@
               "definition": "n. 劳埃德（男子名或姓氏）"
             },
             {
-              "word": "Wright",
-              "pos": "n.",
-              "definition": "n. 制作者；工人（常用于复合词"
-            },
-            {
-              "word": "started",
-              "pos": "v.",
-              "definition": "v. 开始；着手"
-            },
-            {
-              "word": "Case",
-              "pos": "n.",
-              "definition": "n. 具体情况；实例"
-            },
-            {
               "word": "Study",
               "pos": "n.",
               "definition": "n. （专题）研究；调查"
             },
             {
-              "word": "commissioned",
-              "pos": "adj.",
-              "definition": "adj. 受委任的；受任命的"
-            },
-            {
-              "word": "talented",
-              "pos": "adj.",
-              "definition": "adj. 有天资的；有才能的"
-            },
-            {
-              "word": "modern",
-              "pos": "adj.",
-              "definition": "adj. 近代的；现代的"
-            },
-            {
-              "word": "architects",
+              "word": "story",
               "pos": "n.",
-              "definition": "n. （建）建筑师（architect 的复数形式）；（思想、事件、制度等的）设计者"
+              "definition": "n. （真实或虚构的）故事；叙述；新闻报道"
+            },
+            {
+              "word": "Ralph",
+              "pos": "v.",
+              "definition": "v. 呕吐；n. （Ralph）拉尔夫（人名）"
             },
             {
               "word": "Arts",
               "pos": "n.",
               "definition": "n. 美术；艺术"
-            },
-            {
-              "word": "Architecture",
-              "pos": "n.",
-              "definition": "n. 建筑设计；建筑风格"
             }
           ]
         }
@@ -3724,14 +4944,44 @@
           "chunk_translation": "欧洲联盟能渡过难关吗？ / 这个问题在不久前听起来还会显得很不可思议 / 如今就连这一项目最坚定的支持者也在谈论欧洲大陆面临着债务的“百慕大三角” / 人口下降以及经济增长放缓",
           "vocabulary": [
             {
-              "word": "Union",
+              "word": "cheerleaders",
               "pos": "n.",
-              "definition": "n. 工会；联邦"
+              "definition": "n. 拉拉队（电影名）；啦啦队"
+            },
+            {
+              "word": "population",
+              "pos": "n.",
+              "definition": "n. （地区、国家等的）人口；人口数量；（某领域的）生物"
+            },
+            {
+              "word": "continent",
+              "pos": "n.",
+              "definition": "n. 洲；大陆；adj. 有排便节制力的"
             },
             {
               "word": "question",
               "pos": "n.",
               "definition": "n. 问题；疑问"
+            },
+            {
+              "word": "greatest",
+              "pos": "adj.",
+              "definition": "adj. 最伟大的；最杰出的"
+            },
+            {
+              "word": "triangle",
+              "pos": "n.",
+              "definition": "n. 三角形；三角形物体；三角铁（打击乐器）"
+            },
+            {
+              "word": "make it",
+              "pos": "",
+              "definition": "及时到达,成功"
+            },
+            {
+              "word": "talk of",
+              "pos": "",
+              "definition": "谈论,议论"
             },
             {
               "word": "sounded",
@@ -3744,29 +4994,34 @@
               "definition": "adj. 奇怪的；不寻常的"
             },
             {
-              "word": "long",
-              "pos": "adj.",
-              "definition": "adj. 长的；长久的"
-            },
-            {
               "word": "project",
               "pos": "n.",
               "definition": "n. 项目；计划"
             },
             {
-              "word": "greatest",
-              "pos": "adj.",
-              "definition": "adj. 最伟大的；最杰出的"
-            },
-            {
-              "word": "cheerleaders",
+              "word": "Bermuda",
               "pos": "n.",
-              "definition": "n. 拉拉队（电影名）；啦啦队"
+              "definition": "n. 百慕大；百慕大群岛（北大西洋西部群岛；英国海外领地）"
             },
             {
-              "word": "talk",
+              "word": "decline",
               "pos": "v.",
-              "definition": "v. 说话；交谈"
+              "definition": "v. 下降；衰退；拒绝"
+            },
+            {
+              "word": "facing",
+              "pos": "v.",
+              "definition": "v. face 的现在分词：面朝；面向；朝（某方向）"
+            },
+            {
+              "word": "growth",
+              "pos": "n.",
+              "definition": "n. 成长；生长；增长"
+            },
+            {
+              "word": "Union",
+              "pos": "n.",
+              "definition": "n. 工会；联邦"
             },
             {
               "word": "euro",
@@ -3783,29 +5038,39 @@
           "chunk_translation": "除了那些长期顽疾之外 / 欧盟在其经济核心区还面临着严重的危机 / 即16个 / 使用单一货币的国家 / 市场已经失去了信心 / 认为欧元区各经济体 / 无论强弱 / 终有一天会因为共享单一货币的约束而走向趋同 / 这种货币制度剥夺了缺乏竞争力的成员国利用货币贬值进行快速调整的手段",
           "vocabulary": [
             {
-              "word": "chronic",
+              "word": "uncompetitive",
               "pos": "adj.",
-              "definition": "adj. （疾病）慢性的；长期的"
+              "definition": "adj. 无竞争力的；缺乏竞争力的；（指人或态度）不愿竞争的"
             },
             {
-              "word": "problems",
+              "word": "devaluation",
+              "pos": "",
+              "definition": "n.(货币)贬值"
+            },
+            {
+              "word": "as well as",
+              "pos": "",
+              "definition": "和...一样,除了"
+            },
+            {
+              "word": "discipline",
               "pos": "n.",
-              "definition": "n. 问题；难题"
+              "definition": "n. 纪律；风纪；惩罚"
             },
             {
-              "word": "faces",
+              "word": "quick fix",
+              "pos": "",
+              "definition": "应急措施,权宜之计"
+            },
+            {
+              "word": "economies",
               "pos": "n.",
-              "definition": "n. 脸；面孔（face 的复数）"
+              "definition": "n. （economy 的复数）经济；经济体制；经济体"
             },
             {
-              "word": "acute",
-              "pos": "adj.",
-              "definition": "adj. 严重的；危险的"
-            },
-            {
-              "word": "crisis",
-              "pos": "n.",
-              "definition": "n. 危机；紧要关头"
+              "word": "converge",
+              "pos": "",
+              "definition": "v.会于一点;使聚集"
             },
             {
               "word": "economic",
@@ -3813,24 +5078,74 @@
               "definition": "adj. 经济的；经济学的"
             },
             {
-              "word": "core",
-              "pos": "n.",
-              "definition": "n. 果核；中心部分"
-            },
-            {
-              "word": "countries",
-              "pos": "n.",
-              "definition": "n. 国家（country 的复数）"
-            },
-            {
-              "word": "single",
-              "pos": "adj.",
-              "definition": "adj. 单一的；单个的"
-            },
-            {
               "word": "currency",
               "pos": "n.",
               "definition": "n. 通货；货币"
+            },
+            {
+              "word": "stronger",
+              "pos": "adj.",
+              "definition": "adj. strong 的比较级：更强壮的；更强大的；更有力的"
+            },
+            {
+              "word": "chronic",
+              "pos": "",
+              "definition": "a.慢性的,长期的,习惯性的"
+            },
+            {
+              "word": "Markets",
+              "pos": "n.",
+              "definition": "n. 市场；集市（market 的复数）；商业上的市场、销路"
+            },
+            {
+              "word": "sharing",
+              "pos": "n.",
+              "definition": "n. 公用；共享；共有"
+            },
+            {
+              "word": "members",
+              "pos": "n.",
+              "definition": "n. （社团、政党等组织的）成员；会员；（某群体或类别中的）一分子（可指人、动物、植物或事物）"
+            },
+            {
+              "word": "crisis",
+              "pos": "n.",
+              "definition": "n. 危机；紧要关头"
+            },
+            {
+              "word": "weaker",
+              "pos": "adj.",
+              "definition": "adj. 较弱的（weak 的比较级）；（行情、价格等）下跌的；疲软的"
+            },
+            {
+              "word": "thanks",
+              "pos": "n.",
+              "definition": "n. 谢意；感谢；感激（只用复数）"
+            },
+            {
+              "word": "denies",
+              "pos": "v.",
+              "definition": "v. deny 的第三人称单数一般现在时形式：否认；否定；拒绝"
+            },
+            {
+              "word": "acute",
+              "pos": "",
+              "definition": "a.尖锐的,严重的"
+            },
+            {
+              "word": "faith",
+              "pos": "n.",
+              "definition": "n. 信任；信心；信念"
+            },
+            {
+              "word": "quick",
+              "pos": "adj.",
+              "definition": "adj. 迅速的；快的；持续时间很短的"
+            },
+            {
+              "word": "core",
+              "pos": "n.",
+              "definition": "n. 果核；中心部分"
             },
             {
               "word": "euro",
@@ -3852,19 +5167,29 @@
           "chunk_translation": "然而关于如何拯救欧洲单一货币 / 免于瓦解的争论陷入了僵局 / 之所以陷入僵局 / 是因为欧元区的主导大国 / 法国和德国 / 虽然都认同这一需求 / 即在欧元区内部进行更大程度的协调 / 但在具体协调什么上却存在分歧 / 关于协调的内容",
           "vocabulary": [
             {
-              "word": "single",
-              "pos": "adj.",
-              "definition": "adj. 单一的；单个的"
+              "word": "dominant powers",
+              "pos": "",
+              "definition": "主导力量"
             },
             {
-              "word": "debate",
-              "pos": "n.",
-              "definition": "n. 讨论；辩论"
+              "word": "disintegration",
+              "pos": "",
+              "definition": "n.瓦解,崩溃"
             },
             {
-              "word": "save",
-              "pos": "v.",
-              "definition": "v. 救助；搭救"
+              "word": "harmonisation",
+              "pos": "",
+              "definition": "n.和谐,协调,相称"
+            },
+            {
+              "word": "harmonise",
+              "pos": "vt.",
+              "definition": "vt. 使和谐；使协调一致；vi. 和谐"
+            },
+            {
+              "word": "dominant",
+              "pos": "",
+              "definition": "a.占优势的,统治的,支配的"
             },
             {
               "word": "currency",
@@ -3872,19 +5197,39 @@
               "definition": "n. 通货；货币"
             },
             {
-              "word": "disintegration",
+              "word": "disagree",
+              "pos": "v.",
+              "definition": "v. 有分歧；意见不合；不一致"
+            },
+            {
+              "word": "greater",
+              "pos": "adj.",
+              "definition": "adj. 较大的；更大的（great 的比较级）；用于大城市名或国名等专有名词前"
+            },
+            {
+              "word": "debate",
               "pos": "n.",
-              "definition": "n. 分裂；解体"
+              "definition": "n. 讨论；辩论"
+            },
+            {
+              "word": "powers",
+              "pos": "n.",
+              "definition": "n. 力量（power 的复数形式）；权力；权势"
             },
             {
               "word": "stuck",
-              "pos": "adj.",
-              "definition": "adj. 卡住的；动不了的"
+              "pos": "",
+              "definition": "a.动不了的,被卡住的,被难住的"
             },
             {
-              "word": "because",
-              "pos": "conj.",
-              "definition": "conj. （说明原因）因为；由于"
+              "word": "agree",
+              "pos": "v.",
+              "definition": "v. 同意；赞成；答应"
+            },
+            {
+              "word": "save",
+              "pos": "v.",
+              "definition": "v. 救助；搭救"
             },
             {
               "word": "euro",
@@ -3895,11 +5240,6 @@
               "word": "zone",
               "pos": "n.",
               "definition": "n. （有某特色或作用的）地区；地带"
-            },
-            {
-              "word": "within",
-              "pos": "prep.",
-              "definition": "prep. 在（某段时间）之内；在……限度内"
             }
           ]
         },
@@ -3911,14 +5251,214 @@
           "chunk_translation": "德国认为拯救欧元的手段必须是 / 制定更严格的规则 / 在借贷、 / 财政支出和竞争力方面 / 并辅以 / 准自动的惩罚机制 / 针对那些 / 不遵守规则的政府 / 这些制裁措施可能包括威胁冻结欧盟资金 / 针对贫困地区和欧盟大型项目的资金 / 甚至暂停一个国家在欧盟部长理事会的表决权 / 德国坚称 / 经济协调应当涵盖欧盟俱乐部的全部27个成员国 / 在这之中 / 赞成自由市场自由主义和财政紧缩的成员国占微弱多数 / 赞成自由市场自由主义和经济严谨 / 仅在欧元区核心圈内部 / 德国担心 / 赞成法国干预主义的成员国会占微弱多数",
           "vocabulary": [
             {
-              "word": "project",
+              "word": "a small majority",
+              "pos": "",
+              "definition": "微弱多数"
+            },
+            {
+              "word": "quasi-automatic",
+              "pos": "",
+              "definition": "a.半自动的,准自动的"
+            },
+            {
+              "word": "competitiveness",
               "pos": "n.",
-              "definition": "n. 项目；计划"
+              "definition": "n. 竞争力；好胜"
+            },
+            {
+              "word": "interference",
+              "pos": "n.",
+              "definition": "n. 干涉；干预；（收音机或电视机受到的）干扰信号"
+            },
+            {
+              "word": "ministerial",
+              "pos": "",
+              "definition": "a.内阁的,部长的,行政(上)的"
+            },
+            {
+              "word": "governments",
+              "pos": "n.",
+              "definition": "n. 政府（government 的复数）；政权；可转让政府证券"
+            },
+            {
+              "word": "suspension",
+              "pos": "",
+              "definition": "n.暂停,悬挂"
+            },
+            {
+              "word": "government",
+              "pos": "n.",
+              "definition": "n. 政府；内阁"
+            },
+            {
+              "word": "ordination",
+              "pos": "n.",
+              "definition": "n. 圣职授予；神职授任；任命（神职人员）"
+            },
+            {
+              "word": "liberalism",
+              "pos": "n.",
+              "definition": "n. 自由主义；经济自由主义；开明的思想或见解"
+            },
+            {
+              "word": "backed by",
+              "pos": "",
+              "definition": "依靠,在..支持下"
+            },
+            {
+              "word": "borrowing",
+              "pos": "n.",
+              "definition": "n. 借款；借贷"
+            },
+            {
+              "word": "automatic",
+              "pos": "adj.",
+              "definition": "adj. 自动的；必然的；无意识的"
+            },
+            {
+              "word": "sanctions",
+              "pos": "n.",
+              "definition": "n. 制裁；国际制裁；处罚"
             },
             {
               "word": "economic",
               "pos": "adj.",
               "definition": "adj. 经济的；经济学的"
+            },
+            {
+              "word": "stricter",
+              "pos": "adj.",
+              "definition": "adj. 更严格的；更严厉的"
+            },
+            {
+              "word": "spending",
+              "pos": "n.",
+              "definition": "n. （尤指政府或组织的）支出；开销"
+            },
+            {
+              "word": "projects",
+              "pos": "n.",
+              "definition": "n. （project 的复数）项目；计划"
+            },
+            {
+              "word": "councils",
+              "pos": "n.",
+              "definition": "n. 委员会；理事会；政务委员会"
+            },
+            {
+              "word": "majority",
+              "pos": "n.",
+              "definition": "n. 大多数；多数票；成年的法定年龄"
+            },
+            {
+              "word": "project",
+              "pos": "n.",
+              "definition": "n. 项目；计划"
+            },
+            {
+              "word": "threats",
+              "pos": "n.",
+              "definition": "n. 威胁；恐吓"
+            },
+            {
+              "word": "regions",
+              "pos": "n.",
+              "definition": "n. 地区；区域"
+            },
+            {
+              "word": "insists",
+              "pos": "v.",
+              "definition": "v. （insist 的第三人称单数现在时）坚持说；坚称；强调"
+            },
+            {
+              "word": "involve",
+              "pos": "v.",
+              "definition": "v. 牵涉；涉及；包含"
+            },
+            {
+              "word": "members",
+              "pos": "n.",
+              "definition": "n. （社团、政党等组织的）成员；会员；（某群体或类别中的）一分子（可指人、动物、植物或事物）"
+            },
+            {
+              "word": "rigour",
+              "pos": "",
+              "definition": "n.严苛,严酷"
+            },
+            {
+              "word": "backed",
+              "pos": "adj.",
+              "definition": "adj. 有背的；有靠背的"
+            },
+            {
+              "word": "freeze",
+              "pos": "v.",
+              "definition": "v. 结冰；冻住"
+            },
+            {
+              "word": "poorer",
+              "pos": "adj.",
+              "definition": "adj. poor 的比较级：较贫穷的；较贫困的"
+            },
+            {
+              "word": "voting",
+              "pos": "n.",
+              "definition": "n. 投票；选举；表决"
+            },
+            {
+              "word": "rights",
+              "pos": "n.",
+              "definition": "n. （法）权利；权限；（对作品、财产等的）使用权、开发权"
+            },
+            {
+              "word": "should",
+              "pos": "v.",
+              "definition": "v. （用于纠正别人）应该；（用于建议）该；可以"
+            },
+            {
+              "word": "market",
+              "pos": "n.",
+              "definition": "n. 集市；市场；交易"
+            },
+            {
+              "word": "favour",
+              "pos": "n.",
+              "definition": "n. 支持；喜爱；帮忙"
+            },
+            {
+              "word": "saved",
+              "pos": "adj.",
+              "definition": "adj. 获救的；已保存的"
+            },
+            {
+              "word": "rules",
+              "pos": "n.",
+              "definition": "n. 规章；条例"
+            },
+            {
+              "word": "funds",
+              "pos": "n.",
+              "definition": "n. 资金；款项"
+            },
+            {
+              "word": "quasi",
+              "pos": "adj.",
+              "definition": "adj. 类似；准；外表的"
+            },
+            {
+              "word": "inner",
+              "pos": "adj.",
+              "definition": "adj. 内部的；靠近中心的；内心的"
+            },
+            {
+              "word": "alone",
+              "pos": "adj.",
+              "definition": "adj. 独自的；单独的；孤独的"
+            },
+            {
+              "word": "fears",
+              "pos": "n.",
+              "definition": "n. （fear 的复数）恐惧；担心；（Fears）人名"
             },
             {
               "word": "core",
@@ -3936,94 +5476,9 @@
               "definition": "n. 欧元（欧盟中某些国家的货币单位）（=Euro）；岩大袋鼠"
             },
             {
-              "word": "thinks",
-              "pos": "v.",
-              "definition": "v. （think 的第三人称单数现在时）认为；觉得"
-            },
-            {
-              "word": "saved",
-              "pos": "adj.",
-              "definition": "adj. 获救的；已保存的"
-            },
-            {
-              "word": "stricter",
-              "pos": "adj.",
-              "definition": "adj. 更严格的；更严厉的"
-            },
-            {
-              "word": "rules",
-              "pos": "n.",
-              "definition": "n. 规章；条例"
-            },
-            {
-              "word": "borrowing",
-              "pos": "n.",
-              "definition": "n. 借款；借贷"
-            },
-            {
-              "word": "spending",
-              "pos": "n.",
-              "definition": "n. （尤指政府或组织的）支出；开销"
-            },
-            {
-              "word": "competitiveness",
-              "pos": "n.",
-              "definition": "n. 竞争力；好胜"
-            },
-            {
-              "word": "backed",
-              "pos": "adj.",
-              "definition": "adj. 有背的；有靠背的"
-            },
-            {
-              "word": "include",
-              "pos": "v.",
-              "definition": "v. 包含；把……列为一部分"
-            },
-            {
-              "word": "threats",
-              "pos": "n.",
-              "definition": "n. 威胁；恐吓"
-            },
-            {
-              "word": "freeze",
-              "pos": "v.",
-              "definition": "v. 结冰；冻住"
-            },
-            {
-              "word": "funds",
-              "pos": "n.",
-              "definition": "n. 资金；款项"
-            },
-            {
-              "word": "poorer",
-              "pos": "adj.",
-              "definition": "adj. poor 的比较级：较贫穷的；较贫困的"
-            },
-            {
-              "word": "regions",
-              "pos": "n.",
-              "definition": "n. 地区；区域"
-            },
-            {
               "word": "mega",
               "pos": "adj.",
               "definition": "adj. 极大的；巨大的"
-            },
-            {
-              "word": "projects",
-              "pos": "n.",
-              "definition": "n. （project 的复数）项目；计划"
-            },
-            {
-              "word": "suspension",
-              "pos": "n.",
-              "definition": "n. 暂停；中止"
-            },
-            {
-              "word": "government",
-              "pos": "n.",
-              "definition": "n. 政府；内阁"
             }
           ]
         },
@@ -4035,9 +5490,189 @@
           "chunk_translation": "一个由法国领导的“南方”阵营 / 想要有所不同： / 即在欧元区成员国的核心圈内部建立“欧洲经济政府” / 换句话说 / 这意味着政治家干预 / 货币政策以及建立从富裕成员国向较贫困成员国的再分配机制 / 从较富裕成员到较贫穷成员 / 通过为政府提供更低成本的借贷 / 为政府提供 / 借助联合发行的欧洲共同债券或全面的财政转移支付 / 最后 / 接近法国政府的人士私下表示 / 欧元区成员国应当就某些财政和社会协调达成一致： / 例如 / 限制恶性竞争 / 在企业税率或劳动力成本方面",
           "vocabulary": [
             {
+              "word": "fiscal transfers",
+              "pos": "",
+              "definition": "财政转移"
+            },
+            {
+              "word": "redistribution",
+              "pos": "",
+              "definition": "n.(尤指钱或土地的)重新分配"
+            },
+            {
+              "word": "harmonisation",
+              "pos": "",
+              "definition": "n.和谐,协调,相称"
+            },
+            {
+              "word": "labour costs",
+              "pos": "",
+              "definition": "劳动力成本"
+            },
+            {
+              "word": "politicians",
+              "pos": "n.",
+              "definition": "n. 政治家；政界人士；从政者（politician 的复数形式）"
+            },
+            {
+              "word": "intervening",
+              "pos": "adj.",
+              "definition": "adj. 介于中间的；其间的（指时间上分隔两个事件或时间点）；居间的（指空间上位于两个物体或区域之间）"
+            },
+            {
+              "word": "governments",
+              "pos": "n.",
+              "definition": "n. 政府（government 的复数）；政权；可转让政府证券"
+            },
+            {
+              "word": "competition",
+              "pos": "n.",
+              "definition": "n. 竞争；比赛；竞赛"
+            },
+            {
+              "word": "government",
+              "pos": "n.",
+              "definition": "n. 政府；内阁"
+            },
+            {
+              "word": "Translated",
+              "pos": "v.",
+              "definition": "v. 翻译；译成（translate 的过去式和过去分词）；转化为"
+            },
+            {
+              "word": "headed by",
+              "pos": "",
+              "definition": "由...带领的,以...为首的"
+            },
+            {
+              "word": "borrowing",
+              "pos": "n.",
+              "definition": "n. 借款；借贷"
+            },
+            {
+              "word": "Eurobonds",
+              "pos": "n.",
+              "definition": "n. 欧洲债券"
+            },
+            {
+              "word": "transfers",
+              "pos": "n.",
+              "definition": "n. 转移；调动；移交"
+            },
+            {
+              "word": "corporate",
+              "pos": "adj.",
+              "definition": "adj. 公司的；法人的；共同的"
+            },
+            {
               "word": "economic",
               "pos": "adj.",
               "definition": "adj. 经济的；经济学的"
+            },
+            {
+              "word": "southern",
+              "pos": "adj.",
+              "definition": "adj. 在南方的；向南的"
+            },
+            {
+              "word": "monetary",
+              "pos": "adj.",
+              "definition": "adj. 货币的；金融的；能用金钱衡量的"
+            },
+            {
+              "word": "complete",
+              "pos": "adj.",
+              "definition": "adj. 完全的；彻底的；全部的"
+            },
+            {
+              "word": "murmured",
+              "pos": "v.",
+              "definition": "v. 低声说；喃喃地说（murmur 的过去式和过去分词）；低声抱怨"
+            },
+            {
+              "word": "members",
+              "pos": "n.",
+              "definition": "n. （社团、政党等组织的）成员；会员；（某群体或类别中的）一分子（可指人、动物、植物或事物）"
+            },
+            {
+              "word": "cheaper",
+              "pos": "adj.",
+              "definition": "adj. cheap 的比较级：成本更低；更便宜的"
+            },
+            {
+              "word": "Finally",
+              "pos": "adv.",
+              "definition": "adv. 终于；总之；最后"
+            },
+            {
+              "word": "figures",
+              "pos": "n.",
+              "definition": "n. （figure 的复数）数字；统计数字；人物"
+            },
+            {
+              "word": "curbing",
+              "pos": "v.",
+              "definition": "v. curb 的现在分词：控制；抑制；约束"
+            },
+            {
+              "word": "fiscal",
+              "pos": "",
+              "definition": "a.(美)财政上的"
+            },
+            {
+              "word": "poorer",
+              "pos": "adj.",
+              "definition": "adj. poor 的比较级：较贫穷的；较贫困的"
+            },
+            {
+              "word": "headed",
+              "pos": "adj.",
+              "definition": "adj. 有头的；有…头的"
+            },
+            {
+              "word": "policy",
+              "pos": "n.",
+              "definition": "n. 政策；方针；(处事) 原则"
+            },
+            {
+              "word": "system",
+              "pos": "n.",
+              "definition": "n. （协同工作的）系统；（计算机、警报器等的）系统；体制"
+            },
+            {
+              "word": "richer",
+              "pos": "adj.",
+              "definition": "adj. rich 的比较级：更富有的；更丰富的；n. （Richer）人名：（西）里切尔"
+            },
+            {
+              "word": "should",
+              "pos": "v.",
+              "definition": "v. （用于纠正别人）应该；（用于建议）该；可以"
+            },
+            {
+              "word": "labour",
+              "pos": "n.",
+              "definition": "n. 劳动；任务；（一段时间的）工作"
+            },
+            {
+              "word": "inner",
+              "pos": "adj.",
+              "definition": "adj. 内部的；靠近中心的；内心的"
+            },
+            {
+              "word": "means",
+              "pos": "n.",
+              "definition": "n. 手段；方法；金钱"
+            },
+            {
+              "word": "agree",
+              "pos": "v.",
+              "definition": "v. 同意；赞成；答应"
+            },
+            {
+              "word": "costs",
+              "pos": "n.",
+              "definition": "n. 费用；损失；诉讼费（cost 的复数）"
             },
             {
               "word": "core",
@@ -4055,54 +5690,9 @@
               "definition": "n. （有某特色或作用的）地区；地带"
             },
             {
-              "word": "borrowing",
-              "pos": "n.",
-              "definition": "n. 借款；借贷"
-            },
-            {
-              "word": "poorer",
-              "pos": "adj.",
-              "definition": "adj. poor 的比较级：较贫穷的；较贫困的"
-            },
-            {
-              "word": "southern",
-              "pos": "adj.",
-              "definition": "adj. 在南方的；向南的"
-            },
-            {
               "word": "camp",
               "pos": "n.",
               "definition": "n. 营地；兵营"
-            },
-            {
-              "word": "headed",
-              "pos": "adj.",
-              "definition": "adj. 有头的；有…头的"
-            },
-            {
-              "word": "wants",
-              "pos": "n.",
-              "definition": "n. 需求；欲望"
-            },
-            {
-              "word": "something",
-              "pos": "pron.",
-              "definition": "pron. 某事；某物"
-            },
-            {
-              "word": "different",
-              "pos": "adj.",
-              "definition": "adj. 不同的；分别的"
-            },
-            {
-              "word": "government",
-              "pos": "n.",
-              "definition": "n. 政府；内阁"
-            },
-            {
-              "word": "within",
-              "pos": "prep.",
-              "definition": "prep. 在（某段时间）之内；在……限度内"
             }
           ]
         },
@@ -4114,19 +5704,124 @@
           "chunk_translation": "现在就断言欧盟失败还为时过早 / 它依然是全球最大的贸易集团 / 在最佳状态下 / 欧洲一体化项目极为自由开放： / 它围绕一个由27个贫富国家组成的单一市场建立 / 其内部边界对商品、 / 资本和劳动力的开放程度远超任何具有可比性的贸易区域 / 这是一次雄心勃勃的尝试，旨在抚平全球化最锋利的棱角 / 并使资本主义更具温情与良善",
           "vocabulary": [
             {
+              "word": "trading block",
+              "pos": "",
+              "definition": "贸易集团,贸易区块"
+            },
+            {
+              "word": "globalisation",
+              "pos": "n.",
+              "definition": "n. 全球化（英式拼写；美式拼写为 globalization）"
+            },
+            {
+              "word": "at its best",
+              "pos": "",
+              "definition": "处在最佳状态/全盛时期时"
+            },
+            {
+              "word": "remarkably",
+              "pos": "",
+              "definition": "ad.引人注目地,明显地,非常地"
+            },
+            {
+              "word": "comparable",
+              "pos": "adj.",
+              "definition": "adj. 可比的；可比较的；类似的"
+            },
+            {
+              "word": "capitalism",
+              "pos": "n.",
+              "definition": "n. 资本主义"
+            },
+            {
+              "word": "ambitious",
+              "pos": "adj.",
+              "definition": "adj. 有抱负的；野心勃勃的；费劲的"
+            },
+            {
+              "word": "internal",
+              "pos": "adj.",
+              "definition": "adj. 内部的；体内的；内政的"
+            },
+            {
+              "word": "sharpest",
+              "pos": "adj.",
+              "definition": "adj. 最锋利的；最尖锐的（sharp 的最高级）；最敏锐的"
+            },
+            {
+              "word": "liberal",
+              "pos": "",
+              "definition": "a.开明的,自由的"
+            },
+            {
               "word": "project",
               "pos": "n.",
               "definition": "n. 项目；计划"
             },
             {
-              "word": "countries",
+              "word": "remains",
               "pos": "n.",
-              "definition": "n. 国家（country 的复数）"
+              "definition": "n. 剩余物；残留物"
             },
             {
-              "word": "single",
+              "word": "trading",
+              "pos": "n.",
+              "definition": "n. 交易；贸易"
+            },
+            {
+              "word": "borders",
+              "pos": "n.",
+              "definition": "n. 边界；边缘地区（border 的复数）；v. 毗连"
+            },
+            {
+              "word": "capital",
+              "pos": "n.",
+              "definition": "n. 资本；资金；资本家"
+            },
+            {
+              "word": "attempt",
+              "pos": "v.",
+              "definition": "v. 努力；尝试；n. 试图"
+            },
+            {
+              "word": "benign",
+              "pos": "",
+              "definition": "a.温和的,仁慈的,善良的"
+            },
+            {
+              "word": "market",
+              "pos": "n.",
+              "definition": "n. 集市；市场；交易"
+            },
+            {
+              "word": "labour",
+              "pos": "n.",
+              "definition": "n. 劳动；任务；（一段时间的）工作"
+            },
+            {
+              "word": "blunt",
+              "pos": "",
+              "definition": "v.使迟钝"
+            },
+            {
+              "word": "block",
+              "pos": "n.",
+              "definition": "n. 大块；一块（木料、石头等）"
+            },
+            {
+              "word": "built",
               "pos": "adj.",
-              "definition": "adj. 单一的；单个的"
+              "definition": "adj. 具有……特性；适合做……；有……身材的"
+            },
+            {
+              "word": "goods",
+              "pos": "n.",
+              "definition": "n. 商品；动产；私人财产"
+            },
+            {
+              "word": "edges",
+              "pos": "n.",
+              "definition": "n. 边缘；边界；刃"
             },
             {
               "word": "euro",
@@ -4137,41 +5832,6 @@
               "word": "soon",
               "pos": "adv.",
               "definition": "adv. 很快；马上"
-            },
-            {
-              "word": "write",
-              "pos": "v.",
-              "definition": "v. 写作；编写"
-            },
-            {
-              "word": "remains",
-              "pos": "n.",
-              "definition": "n. 剩余物；残留物"
-            },
-            {
-              "word": "largest",
-              "pos": "adj.",
-              "definition": "adj. 多量的；最大的（large 的最高级）"
-            },
-            {
-              "word": "trading",
-              "pos": "n.",
-              "definition": "n. 交易；贸易"
-            },
-            {
-              "word": "block",
-              "pos": "n.",
-              "definition": "n. 大块；一块（木料、石头等）"
-            },
-            {
-              "word": "best",
-              "pos": "adj.",
-              "definition": "adj. 最好的；最出色的"
-            },
-            {
-              "word": "remarkably",
-              "pos": "adv.",
-              "definition": "adv. 不寻常地；惊人地"
             }
           ]
         }

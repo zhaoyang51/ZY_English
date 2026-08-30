@@ -250,7 +250,8 @@
       }
 
       if (paraVocab && paraVocab.length > 0) {
-        paraVocab.forEach(v => {
+        const sortedVocab = [...paraVocab].sort((a, b) => (b.word ? b.word.length : 0) - (a.word ? a.word.length : 0));
+        sortedVocab.forEach(v => {
           if (v && v.word) {
             text = this.safeReplaceText(text, v.word, '<span class="exam-vocab" data-word="$1" title="点击查词: $1">$1</span>');
           }

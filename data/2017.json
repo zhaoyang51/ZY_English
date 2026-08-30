@@ -15,9 +15,39 @@
           "chunk_translation": "每个周六早晨， / 在上午9点整， / 超过50, / 000名跑者出发在当地公园跑完5公里。 / “公园跑”这一风靡现象始于2004年十几位朋友之间的聚跑活动。 / 所有活动均免费开放， / 由人员提供服务 / 由数以千计的志愿服务人员提供志愿支持。 / 跑步者年龄跨度很大， / 从四岁孩童到花甲老人； / 一些人摇着竞速轮椅参赛； / 另一些人则推着婴儿车慢跑。",
           "vocabulary": [
             {
-              "word": "morning",
+              "word": "grandparents",
               "pos": "n.",
-              "definition": "n. 早晨；上午"
+              "definition": "n. 祖父母；外祖父母（grandparent 的复数）"
+            },
+            {
+              "word": "phenomenon",
+              "pos": "n.",
+              "definition": "n. 现象；杰出的人"
+            },
+            {
+              "word": "volunteers",
+              "pos": "n.",
+              "definition": "n. 志愿者（volunteer 的复数）；自告奋勇者；v. 志愿（volunteer 的三单形式）"
+            },
+            {
+              "word": "thousands",
+              "pos": "n.",
+              "definition": "n. 数千（thousand 的复数）"
+            },
+            {
+              "word": "inspired",
+              "pos": "adj.",
+              "definition": "adj. 品质优秀的；能力卓越的；受……影响的"
+            },
+            {
+              "word": "Baddeley",
+              "pos": "n.",
+              "definition": "n. （Baddeley）人名；（英）巴德利"
+            },
+            {
+              "word": "set off",
+              "pos": "",
+              "definition": "出发,启程"
             },
             {
               "word": "runners",
@@ -25,29 +55,54 @@
               "definition": "n. （runner 的复数形式）奔跑者；赛跑运动员"
             },
             {
-              "word": "around",
-              "pos": "adv.",
-              "definition": "adv. 围绕；环绕"
-            },
-            {
-              "word": "local",
-              "pos": "adj.",
-              "definition": "adj. 当地的；地方的"
-            },
-            {
-              "word": "park",
-              "pos": "n.",
-              "definition": "n. 公园；自然保护区"
-            },
-            {
               "word": "Parkrun",
               "pos": "n.",
               "definition": "n. 公园跑步活动"
             },
             {
-              "word": "phenomenon",
+              "word": "friends",
               "pos": "n.",
-              "definition": "n. 现象；杰出的人"
+              "definition": "n. 朋友；友人（friend 的复数）"
+            },
+            {
+              "word": "staffed",
+              "pos": "v.",
+              "definition": "v. 雇用工作人员（staff 的过去式和过去分词）；由……担任工作人员；adj. 配备工作人员的（常与 well、short 等副词构成复合词）"
+            },
+            {
+              "word": "minutes",
+              "pos": "n.",
+              "definition": "n. 分钟（minute 的复数）；会议记录；备忘录"
+            },
+            {
+              "word": "seconds",
+              "pos": "n.",
+              "definition": "n. 秒；片刻；瞬间"
+            },
+            {
+              "word": "events",
+              "pos": "n.",
+              "definition": "n. 事件；公开活动；社交场合"
+            },
+            {
+              "word": "abroad",
+              "pos": "adv.",
+              "definition": "adv. 在国外；到国外；在室外"
+            },
+            {
+              "word": "Andrew",
+              "pos": "n.",
+              "definition": "n. 安德鲁（男子名）；圣安德鲁（《新约》中耶稣的十二使徒之一；彼得之弟"
+            },
+            {
+              "word": "record",
+              "pos": "n.",
+              "definition": "n. 记录；记载；（某人或某物过去的）记录"
+            },
+            {
+              "word": "local",
+              "pos": "adj.",
+              "definition": "adj. 当地的；地方的"
             },
             {
               "word": "began",
@@ -58,6 +113,16 @@
               "word": "dozen",
               "pos": "n.",
               "definition": "n. 一打；十二个"
+            },
+            {
+              "word": "range",
+              "pos": "n.",
+              "definition": "n. （变动或浮动的）范围；界限；视觉（或听觉）范围"
+            },
+            {
+              "word": "park",
+              "pos": "n.",
+              "definition": "n. 公园；自然保护区"
             }
           ]
         },
@@ -69,9 +134,14 @@
           "chunk_translation": "公园跑取得了显著的成功， / 而伦敦奥运会的“遗产计划”却正在走向失败。 / 十年前的周一， / 官方宣布 / 奥运会主办权将花落 / 伦敦。 / 这是一个激励整整一代人积极投身体育运动的绝佳契机。 / 规划文件中庄严承诺， / 伦敦奥运会最伟大的遗产 / 将是激励数百万人参与更多的体育运动。 / 国民体质将更加健壮、 / 更加健康，并催生出一个更具活力的健康经济。 / 然而这一切并未发生。 / 每周参加体育运动的成年人数量确实有所上升， / 但这种增长势头十分短暂， / 并未能长久持续。 / 更为糟糕的是， / 该参与人数目前正以更快的速度持续下滑。 / 反对党声称，每周进行至少两小时体育锻炼的小学生人数 / 每周至少进行两小时体育课的小学生比例也出现了下降。 / 成年人和儿童中的肥胖率均在上升。 / 关于伦敦为何未能兑现其体育遗产承诺的官方反思仍在继续。",
           "vocabulary": [
             {
-              "word": "Parkrun",
+              "word": "retrospections",
               "pos": "n.",
-              "definition": "n. 公园跑步活动"
+              "definition": "n. retrospection 的复数形式；回顾；回想"
+            },
+            {
+              "word": "accelerating",
+              "pos": "adj.",
+              "definition": "adj. 加速的；促进的；催化的"
             },
             {
               "word": "succeeding",
@@ -79,19 +149,19 @@
               "definition": "adj. 随后的；接着的"
             },
             {
-              "word": "Olympic",
-              "pos": "adj.",
-              "definition": "adj. 奥林匹克的；奥林匹斯山的"
+              "word": "population",
+              "pos": "n.",
+              "definition": "n. （地区、国家等的）人口；人口数量；（某领域的）生物"
             },
             {
-              "word": "legacy",
+              "word": "opposition",
               "pos": "n.",
-              "definition": "n. 遗产；遗赠物"
+              "definition": "n. （强烈的） 反对；反抗；对手"
             },
             {
-              "word": "failing",
+              "word": "generation",
               "pos": "n.",
-              "definition": "n. 弱点；缺点"
+              "definition": "n. 一代（人）；一代人的时间；（产品发展的）代"
             },
             {
               "word": "announced",
@@ -99,9 +169,14 @@
               "definition": "adj. 宣布的；v. 宣布"
             },
             {
-              "word": "Games",
+              "word": "documents",
               "pos": "n.",
-              "definition": "n. game 的复数：游戏；比赛"
+              "definition": "n. 文件；公文；文献"
+            },
+            {
+              "word": "healthier",
+              "pos": "adj.",
+              "definition": "adj. 更健康；更有益于健康（healthy 的比较级；常与 than 连用）"
             },
             {
               "word": "Olympiad",
@@ -112,6 +187,181 @@
               "word": "Planning",
               "pos": "n.",
               "definition": "n. 计划；规划"
+            },
+            {
+              "word": "happened",
+              "pos": "vi.",
+              "definition": "vi. 发生（happen 的过去式及过去分词）"
+            },
+            {
+              "word": "Official",
+              "pos": "adj.",
+              "definition": "adj. 正式的；官方的；官方授权的"
+            },
+            {
+              "word": "inspire",
+              "pos": "",
+              "definition": "v.激发,引起"
+            },
+            {
+              "word": "obesity",
+              "pos": "",
+              "definition": "n.肥胖症"
+            },
+            {
+              "word": "Parkrun",
+              "pos": "n.",
+              "definition": "n. 公园跑步活动"
+            },
+            {
+              "word": "Olympic",
+              "pos": "adj.",
+              "definition": "adj. 奥林匹克的；奥林匹斯山的"
+            },
+            {
+              "word": "failing",
+              "pos": "n.",
+              "definition": "n. 弱点；缺点"
+            },
+            {
+              "word": "pledged",
+              "pos": "v.",
+              "definition": "v. 保证；承诺（做某事或给予某物）；抵押"
+            },
+            {
+              "word": "couches",
+              "pos": "n.",
+              "definition": "n. 长沙发；长榻；诊察台"
+            },
+            {
+              "word": "produce",
+              "pos": "v.",
+              "definition": "v. 引起；造成；（自然地）生产"
+            },
+            {
+              "word": "winners",
+              "pos": "n.",
+              "definition": "n. winner 的复数：获胜者；优胜者；赢家"
+            },
+            {
+              "word": "general",
+              "pos": "adj.",
+              "definition": "adj. 总体的；普遍的；一般的"
+            },
+            {
+              "word": "growing",
+              "pos": "adj.",
+              "definition": "adj. 增长的；增加的；v. 长大"
+            },
+            {
+              "word": "falling",
+              "pos": "adj.",
+              "definition": "adj. （规模、数量或力量）下降的；正在减少的；v. 降落"
+            },
+            {
+              "word": "primary",
+              "pos": "adj.",
+              "definition": "adj. 主要的；首要的；小学教育的"
+            },
+            {
+              "word": "success",
+              "pos": "n.",
+              "definition": "n. 成功；胜利；发财"
+            },
+            {
+              "word": "answers",
+              "pos": "n.",
+              "definition": "n. 答案；回答（answer 的复数）；v. 回答（answer 的第三人称单数形式）"
+            },
+            {
+              "word": "legacy",
+              "pos": "",
+              "definition": "n.遗产"
+            },
+            {
+              "word": "nation",
+              "pos": "n.",
+              "definition": "n. 国家；民族；国民"
+            },
+            {
+              "word": "lovers",
+              "pos": "n.",
+              "definition": "n. （非婚的）情人；爱好者（lover 的复数）"
+            },
+            {
+              "word": "fitter",
+              "pos": "n.",
+              "definition": "n. 装配工；试衣裁缝；地毯安装工"
+            },
+            {
+              "word": "adults",
+              "pos": "n.",
+              "definition": "n. 成年人（adult 的复数形式）；（生物学）成年动物（adult 的复数形式；如成虫、成体）"
+            },
+            {
+              "word": "weekly",
+              "pos": "adj.",
+              "definition": "adj. 每周的；一周一次的；持续一周的"
+            },
+            {
+              "word": "nearly",
+              "pos": "adv.",
+              "definition": "adv. 几乎；差不多；密切地"
+            },
+            {
+              "word": "faster",
+              "pos": "adj.",
+              "definition": "adj. 更快的；adv. 更快地；n. 禁食者"
+            },
+            {
+              "word": "claims",
+              "pos": "n.",
+              "definition": "n. 声称；说法；要求"
+            },
+            {
+              "word": "pupils",
+              "pos": "n.",
+              "definition": "n. 学生；弟子；瞳孔（pupil 的复数）"
+            },
+            {
+              "word": "halved",
+              "pos": "v.",
+              "definition": "v. （使）减半；对半分（halve 的过去式和过去分词）；（高尔夫球）打成平局"
+            },
+            {
+              "word": "failed",
+              "pos": "adj.",
+              "definition": "adj. 失败的；难以为继的；有故障的"
+            },
+            {
+              "word": "offers",
+              "pos": "v.",
+              "definition": "v. （offer 的第三人称单数）提供；给予；提议"
+            },
+            {
+              "word": "lever",
+              "pos": "",
+              "definition": "v.(用杠杆)撬动"
+            },
+            {
+              "word": "Games",
+              "pos": "n.",
+              "definition": "n. game 的复数：游戏；比赛"
+            },
+            {
+              "word": "sport",
+              "pos": "n.",
+              "definition": "n. （某项）体育运动；体育运动；运动会（sports）"
+            },
+            {
+              "word": "Worse",
+              "pos": "adj.",
+              "definition": "adj. 更糟的；更坏的；更差的"
+            },
+            {
+              "word": "risen",
+              "pos": "v.",
+              "definition": "v. rise 的过去分词：升高；上涨；站起来"
             }
           ]
         },
@@ -123,24 +373,24 @@
           "chunk_translation": "公园跑不是一场对抗比赛，而是一次计时测验： / 你唯一的竞争对手就是时钟。 / 它的核心精神包容欢迎任何人的加入。 / 对于气喘吁吁的初跑者所给予的欢呼，丝毫不亚于给予冲线最快的冠军选手。 / 而奥运申办方， / 相比之下， / 曾希望通过精英运动员的夺金荣耀来带动更多人参与体育运动。 / 这两个双重目标被本末倒置地混淆了： / 片面强调竞技成功而非广泛大众参与， / 营造出了一种 / 实际上让普通大众望而却步的氛围。",
           "vocabulary": [
             {
-              "word": "Parkrun",
-              "pos": "n.",
-              "definition": "n. 公园跑步活动"
+              "word": "intimidating",
+              "pos": "",
+              "definition": "a.令人胆怯的"
             },
             {
-              "word": "race",
-              "pos": "n.",
-              "definition": "n. 赛跑；速度竞赛"
+              "word": "first-timer",
+              "pos": "",
+              "definition": "初次做某事者"
             },
             {
-              "word": "time",
-              "pos": "n.",
-              "definition": "n. （以分钟、小时、天等计量的）时间；（钟表上的）时刻"
+              "word": "time trial",
+              "pos": "",
+              "definition": "计时赛"
             },
             {
-              "word": "trial",
-              "pos": "n.",
-              "definition": "n. 审判；审理"
+              "word": "puffed-out",
+              "pos": "",
+              "definition": "气喘吁呼的"
             },
             {
               "word": "competitor",
@@ -148,14 +398,9 @@
               "definition": "n. 竞争者；对手"
             },
             {
-              "word": "clock",
+              "word": "newcomers",
               "pos": "n.",
-              "definition": "n. 时钟；时钟的"
-            },
-            {
-              "word": "ethos",
-              "pos": "n.",
-              "definition": "n. （某团体的）精神特质；道德意识"
+              "definition": "n. 新来的人；新来者（newcomer 的复数）；新人"
             },
             {
               "word": "welcomes",
@@ -163,9 +408,114 @@
               "definition": "v．欢迎；迎接：表示对来访者、新成员或新事物的友好接纳。"
             },
             {
+              "word": "contrast",
+              "pos": "n.",
+              "definition": "n. 差异；对比；对照物"
+            },
+            {
+              "word": "athletes",
+              "pos": "n.",
+              "definition": "n. 运动员；身强体健的人（athlete 的复数）"
+            },
+            {
+              "word": "Parkrun",
+              "pos": "n.",
+              "definition": "n. 公园跑步活动"
+            },
+            {
               "word": "anybody",
               "pos": "pron.",
               "definition": "pron. 任何人；随便哪一个人"
+            },
+            {
+              "word": "clapped",
+              "pos": "v.",
+              "definition": "v. clap 的过去式和过去分词：拍手；鼓掌；轻拍"
+            },
+            {
+              "word": "shining",
+              "pos": "adj.",
+              "definition": "adj. 发光的；反光的；（成就）辉煌的"
+            },
+            {
+              "word": "Olympic",
+              "pos": "adj.",
+              "definition": "adj. 奥林匹克的；奥林匹斯山的；奥林匹亚的"
+            },
+            {
+              "word": "bidders",
+              "pos": "n.",
+              "definition": "n. （bidder 的复数）投标人；竞标者；出价者"
+            },
+            {
+              "word": "produce",
+              "pos": "v.",
+              "definition": "v. 引起；造成；（自然地）生产"
+            },
+            {
+              "word": "success",
+              "pos": "n.",
+              "definition": "n. 成功；胜利；发财"
+            },
+            {
+              "word": "puffed",
+              "pos": "adj.",
+              "definition": "adj. 气喘吁吁的；肿胀的；（食品）膨化的"
+            },
+            {
+              "word": "talent",
+              "pos": "n.",
+              "definition": "n. 天赋；才能；天才"
+            },
+            {
+              "word": "stress",
+              "pos": "n.",
+              "definition": "n. 精神压力；紧张；压力"
+            },
+            {
+              "word": "ethos",
+              "pos": "",
+              "definition": "n.精神特质,理念"
+            },
+            {
+              "word": "trial",
+              "pos": "n.",
+              "definition": "n. 审判；审理"
+            },
+            {
+              "word": "clock",
+              "pos": "n.",
+              "definition": "n. 时钟；时钟的"
+            },
+            {
+              "word": "timer",
+              "pos": "n.",
+              "definition": "n. 定时器；计时器（可设定时间、到时发出提示音或信号的小型装置）；（电子、计算机、机械等）定时控制部件"
+            },
+            {
+              "word": "sport",
+              "pos": "n.",
+              "definition": "n. （某项）体育运动；体育运动；运动会（sports）"
+            },
+            {
+              "word": "elite",
+              "pos": "n.",
+              "definition": "n. 权力集团；上层人士；尖子"
+            },
+            {
+              "word": "mixed",
+              "pos": "adj.",
+              "definition": "adj. （感情）矛盾的；复杂的；（人）混合的"
+            },
+            {
+              "word": "dual",
+              "pos": "",
+              "definition": "a.双重的"
+            },
+            {
+              "word": "race",
+              "pos": "n.",
+              "definition": "n. 赛跑；速度竞赛"
             }
           ]
         },
@@ -177,29 +527,99 @@
           "chunk_translation": "事实上， / 指望精英竞技体育来激发大众全民参与的想法，本身就带有几分荒谬。 / 如果存在着某种角色 / 供政府来承担， / 那政府真正应该做的就是介入 / 提供公共产品—— / 确保有充足的场地空间 / 用于运动场，并有资金铺设网球场和无板篮球场， / 并鼓励开展所有这些体育活动 / 在中小学校中。 / 但历届政府却放任了 / 学校运动场地的变相变卖， / 地方议会资金匮乏， / 并且 / 大幅削减了公共体育服务。 / 与其制定冗长空洞的、 / 看似高大上的战略， / 未来的各届政府 / 应当专注于让普通百姓的日常生活更加便利轻松。 / 或者至少 / 不要让情况变得更加恶化。",
           "vocabulary": [
             {
-              "word": "Indeed",
+              "word": "fundamentally",
               "pos": "adv.",
-              "definition": "adv. 确实；的确"
+              "definition": "adv. 根本地；基础地"
             },
             {
-              "word": "something",
-              "pos": "pron.",
-              "definition": "pron. 某事；某物"
+              "word": "common goods",
+              "pos": "",
+              "definition": "公共产品"
             },
             {
-              "word": "little",
+              "word": "associations",
+              "pos": "n.",
+              "definition": "n. 协会；关联（association 复数）；关联分析"
+            },
+            {
+              "word": "encouraging",
               "pos": "adj.",
-              "definition": "adj. 小的；比较小的"
+              "definition": "adj. 鼓舞人心的；鼓励的；v. 鼓励"
             },
             {
-              "word": "absurd",
+              "word": "governments",
+              "pos": "n.",
+              "definition": "n. 政府（government 的复数）；政权；可转让政府证券"
+            },
+            {
+              "word": "authorities",
+              "pos": "n.",
+              "definition": "n. 当局；官方；官方机构"
+            },
+            {
+              "word": "grassroots",
+              "pos": "",
+              "definition": "n.基层民众,草根"
+            },
+            {
+              "word": "successive",
+              "pos": "",
+              "definition": "a.连续的"
+            },
+            {
+              "word": "government",
+              "pos": "n.",
+              "definition": "n. 政府；内阁；政体"
+            },
+            {
+              "word": "activities",
+              "pos": "n.",
+              "definition": "n. 活动（activity 的复数）；行动"
+            },
+            {
+              "word": "strategies",
+              "pos": "n.",
+              "definition": "n. 策略；战略（strategy 的复数）"
+            },
+            {
+              "word": "conditions",
+              "pos": "n.",
+              "definition": "n. 条件；环境；疾病"
+            },
+            {
+              "word": "community",
+              "pos": "n.",
+              "definition": "n. 社区；社会；（由同国籍、同宗教等构成的）群体"
+            },
+            {
+              "word": "providing",
+              "pos": "conj.",
+              "definition": "conj. 假如；倘若（=providing that/provided）；v. 提供"
+            },
+            {
+              "word": "provision",
+              "pos": "n.",
+              "definition": "n. 提供；供应；准备"
+            },
+            {
+              "word": "squeezing",
+              "pos": "n.",
+              "definition": "n. 挤压；压榨；挤出物"
+            },
+            {
+              "word": "declining",
               "pos": "adj.",
-              "definition": "adj. 愚蠢的；荒谬的"
+              "definition": "adj. 越来越少的；越来越差的；v. 减少"
             },
             {
-              "word": "getting",
-              "pos": "v.",
-              "definition": "v. get 的现在分词：得到；获得"
+              "word": "attention",
+              "pos": "n.",
+              "definition": "n. 注意；注意力；照料"
+            },
+            {
+              "word": "education",
+              "pos": "n.",
+              "definition": "n. （尤指学校）教育；培养；训练"
             },
             {
               "word": "involved",
@@ -212,14 +632,129 @@
               "definition": "n. 计划；规划"
             },
             {
-              "word": "fundamentally",
-              "pos": "adv.",
-              "definition": "adv. 根本地；基础地"
+              "word": "presided",
+              "pos": "v.",
+              "definition": "v. 主持；负责（preside 的过去式和过去分词）"
             },
             {
-              "word": "grassroots",
+              "word": "concept",
+              "pos": "n.",
+              "definition": "n. 概念；观念；adj. （围绕）某主题的"
+            },
+            {
+              "word": "playing",
+              "pos": "n.",
+              "definition": "n. 比赛；参赛；演奏"
+            },
+            {
+              "word": "netball",
+              "pos": "n.",
+              "definition": "n. （女子）无挡板篮球；篮网球"
+            },
+            {
+              "word": "schools",
+              "pos": "n.",
+              "definition": "n. （中、小）学校；学派；流派"
+            },
+            {
+              "word": "selling",
+              "pos": "n.",
+              "definition": "n. 销售；出售；（Selling）人名：塞林（英、德、瑞典）"
+            },
+            {
+              "word": "Instead",
+              "pos": "adv.",
+              "definition": "adv. 代替；顶替；反而"
+            },
+            {
+              "word": "worthy",
+              "pos": "",
+              "definition": "a.有价值的,值得尊敬的"
+            },
+            {
+              "word": "Indeed",
+              "pos": "adv.",
+              "definition": "adv. 确实；的确"
+            },
+            {
+              "word": "absurd",
               "pos": "adj.",
-              "definition": "adj. （常用作定语）基层的；草根的"
+              "definition": "adj. 愚蠢的；荒谬的"
+            },
+            {
+              "word": "sports",
+              "pos": "adj.",
+              "definition": "adj. 体育运动的；与运动有关的；n. 运动会"
+            },
+            {
+              "word": "should",
+              "pos": "v.",
+              "definition": "v. （用于纠正别人）应该；（用于建议）该；可以"
+            },
+            {
+              "word": "fields",
+              "pos": "n.",
+              "definition": "n. 田地；田野；草地"
+            },
+            {
+              "word": "tennis",
+              "pos": "n.",
+              "definition": "n. 网球；网球运动；（Tennis）坦尼斯（人名）"
+            },
+            {
+              "word": "courts",
+              "pos": "n.",
+              "definition": "n. 法院；法庭（court 的复数）；球场"
+            },
+            {
+              "word": "spaces",
+              "pos": "n.",
+              "definition": "n. 空间；空地；空隙"
+            },
+            {
+              "word": "future",
+              "pos": "n.",
+              "definition": "n. 未来；将来；前途"
+            },
+            {
+              "word": "thrive",
+              "pos": "v.",
+              "definition": "v. 茁壮成长；兴旺；繁荣"
+            },
+            {
+              "word": "wordy",
+              "pos": "",
+              "definition": "a.冗长的,啰嗦的"
+            },
+            {
+              "word": "goods",
+              "pos": "n.",
+              "definition": "n. 商品；动产；私人财产"
+            },
+            {
+              "word": "space",
+              "pos": "n.",
+              "definition": "n. 空间；空地；（尤指有特定用途的）空位"
+            },
+            {
+              "word": "money",
+              "pos": "n.",
+              "definition": "n. 钱；钞票；货币"
+            },
+            {
+              "word": "local",
+              "pos": "adj.",
+              "definition": "adj. 当地的；地方的；局部的"
+            },
+            {
+              "word": "sport",
+              "pos": "n.",
+              "definition": "n. （某项）体育运动；体育运动；运动会（sports）"
+            },
+            {
+              "word": "worse",
+              "pos": "adj.",
+              "definition": "adj. 更糟的；更坏的；更差的"
             }
           ]
         }
@@ -1122,14 +1657,34 @@
           "chunk_translation": "在如此多的关注下， / 对于孩子使用屏幕的关注， / 很容易导致 / 父母们忘记了 / 关于他们自己使用电子屏幕的情况。 / “科技产品被设计得 / 极具吸引力、让人深陷其中，”珍妮·拉德斯基说道， / 她是密歇根大学的一名儿科医生。 / 这让人很难抽离脱身， / 并导致了大量的数字化多任务并行处理。 / “",
           "vocabulary": [
             {
-              "word": "focus",
-              "pos": "n.",
-              "definition": "n. 重点；中心点"
+              "word": "engagement",
+              "pos": "",
+              "definition": "n.参与度"
             },
             {
-              "word": "children",
+              "word": "bleed-over",
+              "pos": "",
+              "definition": "n.渗透,渗开"
+            },
+            {
+              "word": "disengage",
+              "pos": "",
+              "definition": "v.脱离,不再感兴趣"
+            },
+            {
+              "word": "designed",
+              "pos": "v.",
+              "definition": "v. 设计；计划（design 的过去式和过去分词）"
+            },
+            {
+              "word": "products",
               "pos": "n.",
-              "definition": "n. child 的复数形式；孩子们"
+              "definition": "n. 产品；商品（product 的复数）；产物"
+            },
+            {
+              "word": "maximal",
+              "pos": "",
+              "definition": "a.最大的,最高的"
             },
             {
               "word": "screens",
@@ -1137,14 +1692,34 @@
               "definition": "n. 屏幕；银幕"
             },
             {
-              "word": "easy",
-              "pos": "adj.",
-              "definition": "adj. 容易的；不费力的"
-            },
-            {
               "word": "parents",
               "pos": "n.",
               "definition": "n. 父母；双亲（parent 的复数）"
+            },
+            {
+              "word": "Radesky",
+              "pos": "n.",
+              "definition": "n. （美、阿根、巴西）雷德斯基（人名）"
+            },
+            {
+              "word": "digital",
+              "pos": "adj.",
+              "definition": "adj. 数字的；数码的；数字显示的"
+            },
+            {
+              "word": "promote",
+              "pos": "v.",
+              "definition": "v. 促进；提倡；升职"
+            },
+            {
+              "word": "routine",
+              "pos": "n.",
+              "definition": "n. 常规；惯例；生活乏味"
+            },
+            {
+              "word": "screen",
+              "pos": "",
+              "definition": "n.屏幕(文中指代数字产品)"
             },
             {
               "word": "forget",
@@ -1152,19 +1727,39 @@
               "definition": "v. 忘记；遗忘"
             },
             {
-              "word": "screen",
+              "word": "family",
               "pos": "n.",
-              "definition": "n. 屏幕；荧光屏"
+              "definition": "n. 家；家庭；家属"
+            },
+            {
+              "word": "focus",
+              "pos": "n.",
+              "definition": "n. 重点；中心点"
+            },
+            {
+              "word": "Jenny",
+              "pos": "n.",
+              "definition": "n. 母驴；雌驴（常作 jenny ass）；金属片卷扬机（金属片卷边机）"
+            },
+            {
+              "word": "study",
+              "pos": "n.",
+              "definition": "n. （专题）研究；调查；（尤指通过书本的）学习"
+            },
+            {
+              "word": "leads",
+              "pos": "n.",
+              "definition": "n. 引线；导线；（营销）销售线索"
+            },
+            {
+              "word": "bleed",
+              "pos": "v.",
+              "definition": "v. 流血；出血；给……放血"
             },
             {
               "word": "Tech",
               "pos": "n.",
               "definition": "n. 技校；技术学院"
-            },
-            {
-              "word": "designed",
-              "pos": "v.",
-              "definition": "v. 设计；计划（design 的过去式和过去分词）"
             }
           ]
         },
@@ -1176,6 +1771,46 @@
           "chunk_translation": "拉德斯基专门研究了手机的使用 / 以及 / 平板电脑在就餐期间被父母使用的情况。 / 她发现， / 那些母亲 / 在用餐期间使用电子设备的母亲，其言语和非言语互动显著更少 / 与她们的孩子之间的互动。 / 在另一项单独的观察研究中， / 她观察到 / 手机引发了父母与孩子之间的摩擦冲突。 / 父母们往往目不转睛地盯着 / 他们的电子邮件， / 而此时他们的孩子正试图 / 去吸引父母的注意力。",
           "vocabulary": [
             {
+              "word": "interactions",
+              "pos": "n.",
+              "definition": "n. 互动；交流；相互影响"
+            },
+            {
+              "word": "observation",
+              "pos": "n.",
+              "definition": "n. 观察；监视；观察力"
+            },
+            {
+              "word": "mealtimes",
+              "pos": "n.",
+              "definition": "n. 进餐时间；吃饭时间"
+            },
+            {
+              "word": "nonverbal",
+              "pos": "adj.",
+              "definition": "adj. 不使用语言的；非言语的；不能说话的"
+            },
+            {
+              "word": "attention",
+              "pos": "n.",
+              "definition": "n. 注意；注意力；照料"
+            },
+            {
+              "word": "exercise",
+              "pos": "",
+              "definition": "n.活动,任务"
+            },
+            {
+              "word": "separate",
+              "pos": "adj.",
+              "definition": "adj. 单独的；分开的；不同的"
+            },
+            {
+              "word": "tension",
+              "pos": "",
+              "definition": "n.紧张关系,紧张状况"
+            },
+            {
               "word": "Radesky",
               "pos": "n.",
               "definition": "n. （美、阿根、巴西）雷德斯基（人名）"
@@ -1184,6 +1819,46 @@
               "word": "studied",
               "pos": "v.",
               "definition": "v. study 的过去式和过去分词；学习"
+            },
+            {
+              "word": "tablets",
+              "pos": "n.",
+              "definition": "n. tablet 的复数形式：药片；片剂"
+            },
+            {
+              "word": "testing",
+              "pos": "n.",
+              "definition": "n. 测试；试验；检测"
+            },
+            {
+              "word": "mothers",
+              "pos": "n.",
+              "definition": "n. 母亲们（mother 的复数）；根源；起源（mother 的复数"
+            },
+            {
+              "word": "devices",
+              "pos": "n.",
+              "definition": "n. 装置；仪器；炸弹"
+            },
+            {
+              "word": "started",
+              "pos": "v.",
+              "definition": "v. 开始；着手；使发生"
+            },
+            {
+              "word": "Parents",
+              "pos": "n.",
+              "definition": "n. 父母；双亲（parent 的复数）；（Parents）人名"
+            },
+            {
+              "word": "excited",
+              "pos": "adj.",
+              "definition": "adj. 激动的；兴奋的；忧虑的"
+            },
+            {
+              "word": "verbal",
+              "pos": "",
+              "definition": "a.文字的,言语的"
             },
             {
               "word": "mobile",
@@ -1196,29 +1871,34 @@
               "definition": "n. 电话（phone 的复数）；听筒"
             },
             {
-              "word": "tablets",
-              "pos": "n.",
-              "definition": "n. tablet 的复数形式：药片；片剂"
-            },
-            {
-              "word": "mealtimes",
-              "pos": "n.",
-              "definition": "n. 进餐时间；吃饭时间"
-            },
-            {
-              "word": "giving",
-              "pos": "v.",
-              "definition": "v. give 的现在分词：给；赠送"
-            },
-            {
               "word": "mother",
               "pos": "n.",
               "definition": "n. 母亲；大娘"
             },
             {
-              "word": "child",
+              "word": "became",
+              "pos": "v.",
+              "definition": "v. 成为；变得（become 的过去式）"
+            },
+            {
+              "word": "source",
               "pos": "n.",
-              "definition": "n. 儿童；小孩"
+              "definition": "n. 来源；出处；（问题的）原因"
+            },
+            {
+              "word": "family",
+              "pos": "n.",
+              "definition": "n. 家；家庭；家属"
+            },
+            {
+              "word": "emails",
+              "pos": "n.",
+              "definition": "n. 电子邮件；电邮（email 的复数形式）：通过互联网发送和接收的电子信息。；v. 发送电子邮件"
+            },
+            {
+              "word": "pairs",
+              "pos": "n.",
+              "definition": "n. 一对；一双；一副"
             }
           ]
         },
@@ -1230,19 +1910,109 @@
           "chunk_translation": "婴儿天生具有本能 / 去注视 / 父母的面孔，试图 / 去弄明白 / 清楚 / 到底发生了什么事情 / 在他们周围。 / 拉德斯基引用了由……设计的“面无表情实验” / 由发展心理学家爱德华·特罗尼克所设计。 / 在该实验中， / 一位母亲被要求先与她的孩子进行互动， / 然后 / 随后停止互动并保持完全面无表情的状态。 / “父母并不需要全神贯注地陪伴在旁 / 在所有时刻，”拉德斯基说， / “但他们应当意识到自己何时处于心不在焉、忽视孩子的状态。”",
           "vocabulary": [
             {
+              "word": "disconcerting",
+              "pos": "",
+              "definition": "a.使人不安的"
+            },
+            {
+              "word": "developmental",
+              "pos": "adj.",
+              "definition": "adj. 发展的；生长的；促使成长的"
+            },
+            {
+              "word": "unresponsive",
+              "pos": "",
+              "definition": "a.反应迟钝的"
+            },
+            {
+              "word": "psychologist",
+              "pos": "n.",
+              "definition": "n. 心理学家"
+            },
+            {
+              "word": "increasingly",
+              "pos": "adv.",
+              "definition": "adv. 越来越多地；不断增加地"
+            },
+            {
+              "word": "exquisitely",
+              "pos": "",
+              "definition": "ad.精致地,近乎完美地"
+            },
+            {
+              "word": "expressions",
+              "pos": "n.",
+              "definition": "n. expression 的复数：表达；表示；表情"
+            },
+            {
+              "word": "distressed",
+              "pos": "",
+              "definition": "a.痛苦的,悲伤的,苦恼的"
+            },
+            {
+              "word": "experiment",
+              "pos": "n.",
+              "definition": "n. 实验；试验；尝试"
+            },
+            {
+              "word": "expression",
+              "pos": "n.",
+              "definition": "n. 表达；表示；表情"
+            },
+            {
+              "word": "responsive",
+              "pos": "adj.",
+              "definition": "adj. 反应迅速的；积极反应的；反应热烈的"
+            },
+            {
+              "word": "sensitive",
+              "pos": "",
+              "definition": "a.体恤的,善解人意的"
+            },
+            {
+              "word": "extremely",
+              "pos": "adv.",
+              "definition": "adv. 极度；非常"
+            },
+            {
+              "word": "attention",
+              "pos": "n.",
+              "definition": "n. 注意；注意力；照料"
+            },
+            {
+              "word": "nonverbal",
+              "pos": "adj.",
+              "definition": "adj. 不使用语言的；非言语的；不能说话的"
+            },
+            {
+              "word": "emotional",
+              "pos": "adj.",
+              "definition": "adj. 情感的；情绪的；激动人心的"
+            },
+            {
+              "word": "absorbed",
+              "pos": "adj.",
+              "definition": "adj. 极感兴趣的；全神贯注的；被吸收的"
+            },
+            {
+              "word": "interact",
+              "pos": "v.",
+              "definition": "v. 相互交流；互动；相互作用"
+            },
+            {
+              "word": "feedback",
+              "pos": "n.",
+              "definition": "n. 反馈意见；（信号返回电子音响系统所致的）噪声；（返回机器、系统或者程序的）返回信息"
+            },
+            {
+              "word": "present",
+              "pos": "",
+              "definition": "a.在场的,存在的"
+            },
+            {
               "word": "Infants",
               "pos": "n.",
               "definition": "n. 婴儿；婴幼儿（infant 的复数）"
-            },
-            {
-              "word": "wired",
-              "pos": "adj.",
-              "definition": "adj. 有线的；联网的"
-            },
-            {
-              "word": "look",
-              "pos": "v.",
-              "definition": "v. 看；寻找"
             },
             {
               "word": "parents",
@@ -1250,29 +2020,89 @@
               "definition": "n. 父母；双亲（parent 的复数）"
             },
             {
-              "word": "faces",
+              "word": "Radesky",
               "pos": "n.",
-              "definition": "n. 脸；面孔（face 的复数）"
+              "definition": "n. （美、阿根、巴西）雷德斯基（人名）"
             },
             {
-              "word": "understand",
+              "word": "devised",
               "pos": "v.",
-              "definition": "v. 理解；懂得"
+              "definition": "v. 设计；计划；发明（devise 的过去式和过去分词）"
+            },
+            {
+              "word": "Tronick",
+              "pos": "n.",
+              "definition": "n. 特朗尼克（姓氏）"
+            },
+            {
+              "word": "putting",
+              "pos": "n.",
+              "definition": "n. 投掷；（高尔夫球）打球入洞；指用推杆轻击球入洞"
+            },
+            {
+              "word": "becomes",
+              "pos": "v.",
+              "definition": "v. 变得；变成；成为（become 的第三人称单数现在时）"
+            },
+            {
+              "word": "capture",
+              "pos": "v.",
+              "definition": "v. 俘获；捕获；夺取"
+            },
+            {
+              "word": "balance",
+              "pos": "n.",
+              "definition": "n. 平衡；均衡；均势"
+            },
+            {
+              "word": "verbal",
+              "pos": "",
+              "definition": "a.文字的,言语的"
+            },
+            {
+              "word": "device",
+              "pos": "n.",
+              "definition": "n. 装置；设备；手段"
+            },
+            {
+              "word": "mother",
+              "pos": "n.",
+              "definition": "n. 母亲；大娘；女修道院院长"
+            },
+            {
+              "word": "normal",
+              "pos": "adj.",
+              "definition": "adj. 正常的；标准的；（身心）健康的"
+            },
+            {
+              "word": "visual",
+              "pos": "adj.",
+              "definition": "adj. 视觉的；视力的；栩栩如生的"
             },
             {
               "word": "blank",
-              "pos": "adj.",
-              "definition": "adj. 空白的；空的"
+              "pos": "",
+              "definition": "a.没表情的,不感兴趣的"
             },
             {
-              "word": "unresponsive",
+              "word": "wired",
               "pos": "adj.",
-              "definition": "adj. 无反应的；反应迟钝的"
+              "definition": "adj. 有线的；联网的"
             },
             {
-              "word": "often",
-              "pos": "adv.",
-              "definition": "adv. 常常；时常"
+              "word": "cites",
+              "pos": "n.",
+              "definition": "n. 引文（cite 的复数形式）；v. 援引（cite 的第三人称单数形式）"
+            },
+            {
+              "word": "asked",
+              "pos": "v.",
+              "definition": "v. 问；询问；请求"
+            },
+            {
+              "word": "tries",
+              "pos": "n.",
+              "definition": "n. 尝试；试验（try 的复数）；（橄榄球）带球触地得分（try 的复数）"
             }
           ]
         },
@@ -1284,9 +2114,64 @@
           "chunk_translation": "另一方面， / 特罗尼克本人则担心 / 这种担忧 / 关于父母使用屏幕的过度焦虑可能有些被夸大了。 / 他 / 指 / 出， / 母亲们 / 历来 / 总是 / 不得不 / 去 / 分散 / 她们的 / 注意力 / 在……之间 / 照料孩子 / 和 / 其他事务之间。 / 父母们， / 他表示， / 能从使用电子设备中获得很多益处——比如获得来自家人和朋友的情感支持。 / 这能够让他们感到更加快乐， / 从而使他们能够成为更好的父母。",
           "vocabulary": [
             {
-              "word": "hand",
+              "word": "particularly",
+              "pos": "adv.",
+              "definition": "adv. 非常；尤其；特别是"
+            },
+            {
+              "word": "interacting",
+              "pos": "v.",
+              "definition": "v. 互相影响；互相作用；互动（interact 的现在分词）"
+            },
+            {
+              "word": "oppressive",
+              "pos": "",
+              "definition": "a.压制的,令人焦虑的"
+            },
+            {
+              "word": "fantasised",
+              "pos": "vi.",
+              "definition": "vi. 耽于幻想；做白日梦（常与 about 连用）；vt. 幻想"
+            },
+            {
+              "word": "neglecting",
+              "pos": "v.",
+              "definition": "v. 忽视；疏于照管；疏忽（未履行应尽义务）（neglect 的现在分词/动名词）"
+            },
+            {
+              "word": "available",
+              "pos": "",
+              "definition": "a.有空的,有暇的"
+            },
+            {
+              "word": "concerned",
+              "pos": "adj.",
+              "definition": "adj. 相关的；关于（某个主题）的"
+            },
+            {
+              "word": "housework",
               "pos": "n.",
-              "definition": "n. 手；（钟表的）指针"
+              "definition": "n. 家务劳动；家务事"
+            },
+            {
+              "word": "ideology",
+              "pos": "n.",
+              "definition": "n. 意识形态；思想体系；观念学"
+            },
+            {
+              "word": "somewhat",
+              "pos": "adv.",
+              "definition": "adv. 稍微；有点；pron. 几分"
+            },
+            {
+              "word": "believes",
+              "pos": "v.",
+              "definition": "v. 认为；相信；信任"
+            },
+            {
+              "word": "learning",
+              "pos": "n.",
+              "definition": "n. 学习；知识；学问"
             },
             {
               "word": "Tronick",
@@ -1299,19 +2184,9 @@
               "definition": "pron. 他自己；他亲自"
             },
             {
-              "word": "concerned",
-              "pos": "adj.",
-              "definition": "adj. 相关的；关于（某个主题）的"
-            },
-            {
               "word": "worries",
               "pos": "n.",
               "definition": "n. 忧虑；担心"
-            },
-            {
-              "word": "kids",
-              "pos": "n.",
-              "definition": "n. （kid 的复数）小孩；孩子"
             },
             {
               "word": "screens",
@@ -1319,14 +2194,79 @@
               "definition": "n. 屏幕；银幕"
             },
             {
-              "word": "born",
-              "pos": "adj.",
-              "definition": "adj. 天生的；生来就有的"
+              "word": "demands",
+              "pos": "n.",
+              "definition": "n. 要求（demand 的复数）；需要付出精力、时间等的要求（demand 的复数；常用于 the demands of/on ...）"
             },
             {
-              "word": "oppressive",
+              "word": "parents",
+              "pos": "n.",
+              "definition": "n. 父母；双亲（parent 的复数）；（Parents）人名"
+            },
+            {
+              "word": "failing",
+              "pos": "n.",
+              "definition": "n. 弱点；缺点；adj. 衰退的"
+            },
+            {
+              "word": "devices",
+              "pos": "n.",
+              "definition": "n. 装置；仪器；炸弹"
+            },
+            {
+              "word": "happier",
               "pos": "adj.",
-              "definition": "adj. （社会、法律、习俗等）压迫的；暴虐的"
+              "definition": "adj. happy 的比较级：更快乐的；更幸福的"
+            },
+            {
+              "word": "screen",
+              "pos": "",
+              "definition": "n.屏幕(文中指代数字产品)"
+            },
+            {
+              "word": "should",
+              "pos": "v.",
+              "definition": "v. （用于纠正别人）应该；（用于建议）该；可以"
+            },
+            {
+              "word": "middle",
+              "pos": "adj.",
+              "definition": "adj. 中间的；中等的；折中的"
+            },
+            {
+              "word": "expose",
+              "pos": "v.",
+              "definition": "v. 暴露；使显露；使面临"
+            },
+            {
+              "word": "shower",
+              "pos": "n.",
+              "definition": "n. 淋浴器；花洒；淋浴间"
+            },
+            {
+              "word": "friend",
+              "pos": "n.",
+              "definition": "n. 朋友；友人；（社交网站上的）好友"
+            },
+            {
+              "word": "based",
+              "pos": "adj.",
+              "definition": "adj. （以某事）为基础的；为根据的；在……居住（或工作）的"
+            },
+            {
+              "word": "white",
+              "pos": "adj.",
+              "definition": "adj. 白色的；白种人的；白肤色的"
+            },
+            {
+              "word": "upper",
+              "pos": "adj.",
+              "definition": "adj. 上面的；上层的；较高的"
+            },
+            {
+              "word": "value",
+              "pos": "n.",
+              "definition": "n. 价值；等值；等价"
             }
           ]
         }
@@ -2077,24 +3017,19 @@
           "chunk_translation": "如今， / 要求高中毕业立即升入大学的广泛社会压力 / 连同 / 在这个快节奏世界中日益攀升的期望，常常导致学生们完全忽视了休学度过间隔年的可能性。 / 毕竟， / 如果你认识的所有人都在秋季升入大学， / 休学推迟一年似乎显得很傻， / 不是吗？ / 而且， / 在上了12年学之后， / 花一整年时间去做一些事情会感觉很不自然， / 那些与学术无关的事情。",
           "vocabulary": [
             {
-              "word": "Today",
+              "word": "increasingly",
               "pos": "adv.",
-              "definition": "adv. 今天；今日"
+              "definition": "adv. 越来越多地；不断增加地"
             },
             {
-              "word": "widespread",
-              "pos": "adj.",
-              "definition": "adj. 普遍的；广泛的"
-            },
-            {
-              "word": "social",
-              "pos": "adj.",
-              "definition": "adj. 社会的；社会地位的"
-            },
-            {
-              "word": "pressure",
+              "word": "expectations",
               "pos": "n.",
-              "definition": "n. 压力；挤压"
+              "definition": "n. 期望；预期；（数学、统计学）期望值（expectation 的复数）"
+            },
+            {
+              "word": "conjunction",
+              "pos": "",
+              "definition": "n.(引起某种结果的事物等的)结合,同时发生"
             },
             {
               "word": "immediately",
@@ -2102,24 +3037,74 @@
               "definition": "adv. 立即；马上"
             },
             {
+              "word": "possibility",
+              "pos": "n.",
+              "definition": "n. 可能；可能性；可能的选项"
+            },
+            {
+              "word": "widespread",
+              "pos": "adj.",
+              "definition": "adj. 普遍的；广泛的"
+            },
+            {
+              "word": "completely",
+              "pos": "adv.",
+              "definition": "adv. 完全地；彻底地"
+            },
+            {
+              "word": "overlook",
+              "pos": "",
+              "definition": "v.忽略,未注意到"
+            },
+            {
+              "word": "gap year",
+              "pos": "",
+              "definition": "间隔年(中学毕业上大学之前所休的一年假期)"
+            },
+            {
+              "word": "academic",
+              "pos": "",
+              "definition": "a.学业的,教学的(尤指与学校教育有关)"
+            },
+            {
+              "word": "pressure",
+              "pos": "n.",
+              "definition": "n. 压力；挤压"
+            },
+            {
+              "word": "students",
+              "pos": "n.",
+              "definition": "n. 学生（student 的复数）"
+            },
+            {
               "word": "college",
               "pos": "n.",
               "definition": "n. 大学；专科学校"
             },
             {
-              "word": "conjunction",
-              "pos": "n.",
-              "definition": "n. 结合；同时发生"
-            },
-            {
-              "word": "increasingly",
-              "pos": "adv.",
-              "definition": "adv. 越来越多地；不断增加地"
-            },
-            {
-              "word": "high",
+              "word": "natural",
               "pos": "adj.",
-              "definition": "adj. 高的；富含……的"
+              "definition": "adj. 天然的；非人为的；合理的"
+            },
+            {
+              "word": "moving",
+              "pos": "adj.",
+              "definition": "adj. 动人的；感人的；活动的"
+            },
+            {
+              "word": "causes",
+              "pos": "n.",
+              "definition": "n. 原因；事业；理由（cause 的复数）"
+            },
+            {
+              "word": "seems",
+              "pos": "v.",
+              "definition": "v. seem 的第三人称单数现在时形式：似乎；好像；看起来"
+            },
+            {
+              "word": "silly",
+              "pos": "adj.",
+              "definition": "adj. 愚蠢的；傻的；嬉笑滑稽的"
             }
           ]
         },
@@ -2131,29 +3116,104 @@
           "chunk_translation": "但是 / 尽管这或许属实， / 这却绝非是排除间隔年选择的充分理由。 / 人们心中总有一种挥之不去的恐惧 / 害怕落后于身边的其他人 / 并且 / 永远无法真正赶上大家的步伐。 / 但是 / 尽管存在普遍的误解， / 间隔年并不会阻碍 / 学生的学业与人生进步。",
           "vocabulary": [
             {
-              "word": "while",
-              "pos": "conj.",
-              "definition": "conj. 当……的时候；与……同时；而，然而（表示对比）；尽管，虽然；直到……为止；n. 一段时间；同时；<文>在此期间；v. 消磨时间；prep. （北英格兰）直到；adv. 在……的时候"
+              "word": "graduate school",
+              "pos": "",
+              "definition": "研究生院"
             },
             {
-              "word": "true",
+              "word": "medical school",
+              "pos": "",
+              "definition": "医学院"
+            },
+            {
+              "word": "misconceptions",
+              "pos": "n.",
+              "definition": "n. （misconception 的复数）错误观念；错误的想法；误解"
+            },
+            {
+              "word": "finish line",
+              "pos": "",
+              "definition": "终点线"
+            },
+            {
+              "word": "perpetuated",
+              "pos": "vt.",
+              "definition": "vt. 使（尤指不好的情形、制度、信念等）继续存在；使持续；使长存（perpetuate 的过去式和过去分词）"
+            },
+            {
+              "word": "lucrative",
+              "pos": "",
+              "definition": "a.赚大钱的,获利多的"
+            },
+            {
+              "word": "gap year",
+              "pos": "",
+              "definition": "间隔年(中学毕业上大学之前所休的一年假期)"
+            },
+            {
+              "word": "academic",
+              "pos": "",
+              "definition": "a.学业的,教学的(尤指与学校教育有关)"
+            },
+            {
+              "word": "constant",
               "pos": "adj.",
-              "definition": "adj. 真实的；正确的；adv. 真实地；准确地；n. 真实；准确；vt. 装准；n. （True）(英)特鲁（人名）"
+              "definition": "adj. 持续不断的；经常发生的；恒定的"
             },
             {
-              "word": "not",
+              "word": "socially",
               "pos": "adv.",
-              "definition": "adv. 表示否定，不（常与动词或助动词连用构成否定句，也可表示部分否定或代替前面已出现的否定内容）；n. “非”（计算机、逻辑学中逻辑运算的一种，即逻辑非）"
+              "definition": "adv. 在社会上；从社会层面看；在社交方面"
             },
             {
-              "word": "good",
-              "pos": "adj.",
-              "definition": "adj. 优良的；能干的，擅长的；令人愉快的，满意的；合适的，方便的；有益的；乖的；虔诚的；健康的；善良的；正直的；相当大的，相当多的；至少；彻底的；明智的，合理的；划算的，收益可观的；赢得赞许的，令人尊敬的；（用于表示回应）好的；表示惊讶、生气或者加强语气；（用于打招呼）好；有趣的；有效的；能提供……的；（踢、射、投）命中；亲密的；<非正式>够了；n. 善，正义；好事；商品，所有物；<英>（运载的）货物（goods）；优势，利益；<非正式>真货，正品（the goods）；好人，有道德的人（the good）；adv. <非正式>好地；<美>彻底地，完全地；【名】 （Good）（英）古德，（瑞典）戈德（人名）"
+              "word": "graduate",
+              "pos": "n.",
+              "definition": "n. 大学毕业生；学士学位获得者；毕业生"
             },
             {
-              "word": "enough",
+              "word": "pursuits",
+              "pos": "n.",
+              "definition": "n. 消遣活动；追求；寻求"
+            },
+            {
+              "word": "probably",
+              "pos": "adv.",
+              "definition": "adv. 大概；或许"
+            },
+            {
+              "word": "enhances",
+              "pos": "v.",
+              "definition": "v. 增强；提高；改善（enhance 的第三人称单数）"
+            },
+            {
+              "word": "condemn",
+              "pos": "",
+              "definition": "v.谴责"
+            },
+            {
+              "word": "falling",
               "pos": "adj.",
-              "definition": "adj. 充足的，足够的；pron. 足够，充分；adv. 充分地，足够地；相当，很；说来奇怪，说起来有趣（strangely/interestingly enough）；n. 足够的（数目或数量），充分；int. 够了，别再说了"
+              "definition": "adj. （规模、数量或力量）下降的；正在减少的；v. 降落"
+            },
+            {
+              "word": "medical",
+              "pos": "adj.",
+              "definition": "adj. 医学的；医疗的；内科的"
+            },
+            {
+              "word": "despite",
+              "pos": "prep.",
+              "definition": "prep. 尽管；即使；不由自主地"
+            },
+            {
+              "word": "success",
+              "pos": "n.",
+              "definition": "n. 成功；胜利；发财"
+            },
+            {
+              "word": "hinder",
+              "pos": "",
+              "definition": "v.阻碍,妨碍,阻挡"
             },
             {
               "word": "reason",
@@ -2161,19 +3221,19 @@
               "definition": "n. 原因，理由；充分理由，正当理由；道理，情理；判断力，理智；v. 推理，逻辑思考；推论出，推断出（reason sth. out）；对（某人）以理相劝，劝告（reason with）；【名】 （Reason）（英）里森（人名）"
             },
             {
-              "word": "condemn",
+              "word": "finish",
               "pos": "v.",
-              "definition": "v. 谴责，严厉指责；宣判，判决；使陷入（不愉快的境地）；宣布……不安全；证明（或表明）有罪"
+              "definition": "v. 完成；做好；（使）结束"
+            },
+            {
+              "word": "career",
+              "pos": "n.",
+              "definition": "n. 职业；事业；职业生涯"
             },
             {
               "word": "gap",
               "pos": "n.",
               "definition": "n. 缝隙，缺口；（时间上的）间隔；空白，缺漏；隔阂，差距"
-            },
-            {
-              "word": "always",
-              "pos": "adv.",
-              "definition": "adv. 总是，每次都是；一直，长久以来；永远；老是，一再；总还有（表示有另一种可能）"
             }
           ]
         },
@@ -2185,14 +3245,49 @@
           "chunk_translation": "各项研究 / 来自美国和澳大利亚的研究表明， / 那些学生 / 那些度过间隔年的学生， / 在大学里取得了更高的平均绩点。 / 间隔年非但没有拖学生的后腿， / 反而推动着他们向前迈进， / 通过让他们提前做好准备 / 以实现独立生活， / 承担新的责任并适应环境变化—— / 所有这些事情 / 正是大学一年级新生往往最感棘手应对的难题。 / 间隔年的丰富经历能够减轻精神冲击 / 当面临 / 去应对处理 / 大学期间的职业倦怠感与心理压力时。",
           "vocabulary": [
             {
-              "word": "Studies",
+              "word": "responsibilities",
               "pos": "n.",
-              "definition": "n. 研究；学习"
+              "definition": "n. responsibility 的复数：责任；义务；职责"
             },
             {
-              "word": "United",
+              "word": "struggle with",
+              "pos": "",
+              "definition": "与...斗争、抗争"
+            },
+            {
+              "word": "environmental",
               "pos": "adj.",
-              "definition": "adj. 团结的；统一的"
+              "definition": "adj. 自然环境的；生态环境的；环保的"
+            },
+            {
+              "word": "independence",
+              "pos": "n.",
+              "definition": "n. 独立；自主；（国家的）独立"
+            },
+            {
+              "word": "acclimation",
+              "pos": "",
+              "definition": "n.适应"
+            },
+            {
+              "word": "experiences",
+              "pos": "n.",
+              "definition": "n. 经历；体验（experience 的复数）；v. 经历"
+            },
+            {
+              "word": "environment",
+              "pos": "n.",
+              "definition": "n. 自然环境；生态环境；周围状况"
+            },
+            {
+              "word": "activities",
+              "pos": "n.",
+              "definition": "n. 活动（activity 的复数）；行动"
+            },
+            {
+              "word": "brand new",
+              "pos": "",
+              "definition": "全新的,崭新的"
             },
             {
               "word": "Australia",
@@ -2200,9 +3295,29 @@
               "definition": "n. 澳大利亚；澳洲"
             },
             {
-              "word": "show",
+              "word": "generally",
+              "pos": "adv.",
+              "definition": "adv. 笼统地；大概"
+            },
+            {
+              "word": "preparing",
               "pos": "v.",
-              "definition": "v. 显示；表明"
+              "definition": "v. 准备（prepare 的现在分词）"
+            },
+            {
+              "word": "adjusting",
+              "pos": "v.",
+              "definition": "v. 调整；调节；校准"
+            },
+            {
+              "word": "academics",
+              "pos": "n.",
+              "definition": "n. 学者；大学教师；研究人员"
+            },
+            {
+              "word": "gap year",
+              "pos": "",
+              "definition": "间隔年(中学毕业上大学之前所休的一年假期)"
             },
             {
               "word": "students",
@@ -2210,24 +3325,84 @@
               "definition": "n. 学生（student 的复数）"
             },
             {
-              "word": "generally",
-              "pos": "adv.",
-              "definition": "adv. 笼统地；大概"
-            },
-            {
-              "word": "better",
-              "pos": "adj.",
-              "definition": "adj. 较好的；更好的"
-            },
-            {
               "word": "prepared",
               "pos": "adj.",
               "definition": "adj. 有准备的；准备好的"
             },
             {
+              "word": "struggle",
+              "pos": "v.",
+              "definition": "v. 奋斗；努力；搏斗"
+            },
+            {
+              "word": "blunders",
+              "pos": "n.",
+              "definition": "n. blunder 的复数形式：错误；愚蠢错误；重大失误"
+            },
+            {
+              "word": "Studies",
+              "pos": "n.",
+              "definition": "n. 研究；学习"
+            },
+            {
               "word": "perform",
               "pos": "v.",
               "definition": "v. 演出；表演"
+            },
+            {
+              "word": "college",
+              "pos": "n.",
+              "definition": "n. 大学；专科学校；学院"
+            },
+            {
+              "word": "pulling",
+              "pos": "v.",
+              "definition": "v. 拉；拔出；（向某方向）拖"
+            },
+            {
+              "word": "lessen",
+              "pos": "",
+              "definition": "v.减弱,减轻"
+            },
+            {
+              "word": "United",
+              "pos": "adj.",
+              "definition": "adj. 团结的；统一的"
+            },
+            {
+              "word": "Rather",
+              "pos": "adv.",
+              "definition": "adv. 颇；相当；宁愿"
+            },
+            {
+              "word": "pushes",
+              "pos": "v.",
+              "definition": "v. （push 的第三人称单数）推；按；挤"
+            },
+            {
+              "word": "thrown",
+              "pos": "v.",
+              "definition": "v. 抛、投、扔（throw 的过去分词）；扔掉（throw away 的过去分词）；（throw up 的过去分词）（口语）呕吐"
+            },
+            {
+              "word": "easier",
+              "pos": "adj.",
+              "definition": "adj. 更简单；容易些（easy 的比较级形式）；较早的"
+            },
+            {
+              "word": "ahead",
+              "pos": "adv.",
+              "definition": "adv. 在前面；朝前面；领先"
+            },
+            {
+              "word": "brand",
+              "pos": "n.",
+              "definition": "n. 品牌；商标；（独特的）一种"
+            },
+            {
+              "word": "focus",
+              "pos": "n.",
+              "definition": "n. 重点；中心点；关注"
             }
           ]
         },
@@ -2239,29 +3414,64 @@
           "chunk_translation": "如果你尚未信服 / 度过间隔年所蕴含的内在价值， / 不妨考虑一下 / 其在学业上的显著优势。 / 根据美国国家教育统计中心的数据， / 大约80%的大学生会更换 / 他们的专业 / 至少更换一次。 / 这并不令人感到意外， / 考虑到最基本的宗旨使命 / 大学教育的使命 / 本就是探索未知。 / 许多学生发现自己在申请表上填报了一个专业， / 在他们的大学申请中， / 随后 / 一旦步入大学校园便彻底改变了专业方向。 / 这未必是一件坏事， / 但取决于具体的学校， / 补修学分的代价可能会十分高昂 / 如果在学业后期阶段才转专业的话。 / 在波士顿学院， / 例如， / 你将不得不支付 / 额外的学费并耗费更多的时间来完成一套全新的学分要求。 / 在最初通过度过间隔年来理清方向，能够在日后避免大量的懊恼并节省大笔的金钱开支。",
           "vocabulary": [
             {
+              "word": "understanding",
+              "pos": "n.",
+              "definition": "n. （对某学科、过程或情况的）了解；认识；（非正式的）协议"
+            },
+            {
+              "word": "possibilities",
+              "pos": "n.",
+              "definition": "n. 可能性；可能的选择；备选方案"
+            },
+            {
+              "word": "applications",
+              "pos": "n.",
+              "definition": "n. 申请；申请书；应用程序"
+            },
+            {
+              "word": "considering",
+              "pos": "prep.",
+              "definition": "prep. 考虑到；鉴于；conj. 考虑到"
+            },
+            {
+              "word": "necessarily",
+              "pos": "adv.",
+              "definition": "adv. 必定；必然；必要地"
+            },
+            {
+              "word": "curriculum",
+              "pos": "",
+              "definition": "n.全部课程"
+            },
+            {
+              "word": "department",
+              "pos": "",
+              "definition": "n.系"
+            },
+            {
+              "word": "Statistics",
+              "pos": "n.",
+              "definition": "n. 统计学；统计数字（statistic 的复数形式）"
+            },
+            {
+              "word": "surprising",
+              "pos": "adj.",
+              "definition": "adj. 令人惊讶的；出人意料的；v. 使（某人）吃惊"
+            },
+            {
+              "word": "themselves",
+              "pos": "pron.",
+              "definition": "pron. 他们自己；他们亲自"
+            },
+            {
+              "word": "mandatory",
+              "pos": "",
+              "definition": "a.强制的,法定的,义务的"
+            },
+            {
               "word": "convinced",
               "pos": "adj.",
               "definition": "adj. 确信的；信服的"
-            },
-            {
-              "word": "inherent",
-              "pos": "adj.",
-              "definition": "adj. 内在的；固有的"
-            },
-            {
-              "word": "value",
-              "pos": "n.",
-              "definition": "n. 价值；等值"
-            },
-            {
-              "word": "taking",
-              "pos": "n.",
-              "definition": "n. 取得；捕获"
-            },
-            {
-              "word": "explore",
-              "pos": "v.",
-              "definition": "v. 探讨；探究"
             },
             {
               "word": "interests",
@@ -2269,19 +3479,199 @@
               "definition": "n. interest 的复数：兴趣；爱好"
             },
             {
-              "word": "consider",
-              "pos": "v.",
-              "definition": "v. 考虑；斟酌"
-            },
-            {
               "word": "financial",
               "pos": "adj.",
               "definition": "adj. 财政的；金融的"
             },
             {
+              "word": "According",
+              "pos": "prep.",
+              "definition": "prep. 按照；根据；依照（according to"
+            },
+            {
+              "word": "Education",
+              "pos": "n.",
+              "definition": "n. （尤指学校）教育；培养；训练"
+            },
+            {
+              "word": "switching",
+              "pos": "v.",
+              "definition": "v. （用开关）打开；关闭；（使）改变"
+            },
+            {
+              "word": "depending",
+              "pos": "v.",
+              "definition": "v. 依赖；信任（depend 的 ing 形式）；prep. depending on/upon 取决于"
+            },
+            {
+              "word": "initially",
+              "pos": "adv.",
+              "definition": "adv. 开始；最初"
+            },
+            {
+              "word": "gap year",
+              "pos": "",
+              "definition": "间隔年(中学毕业上大学之前所休的一年假期)"
+            },
+            {
+              "word": "academic",
+              "pos": "",
+              "definition": "a.学业的,教学的(尤指与学校教育有关)"
+            },
+            {
+              "word": "inherent",
+              "pos": "",
+              "definition": "a.固有的,内在的"
+            },
+            {
+              "word": "consider",
+              "pos": "v.",
+              "definition": "v. 考虑；斟酌"
+            },
+            {
+              "word": "National",
+              "pos": "adj.",
+              "definition": "adj. 国家的；全国的；国家所有的"
+            },
+            {
+              "word": "students",
+              "pos": "n.",
+              "definition": "n. 学生（student 的复数）"
+            },
+            {
+              "word": "changing",
+              "pos": "adj.",
+              "definition": "adj. 变化中的；改变中的；v. 改变"
+            },
+            {
+              "word": "complete",
+              "pos": "adj.",
+              "definition": "adj. 完全的；彻底的；全部的"
+            },
+            {
+              "word": "nursing",
+              "pos": "",
+              "definition": "n.护理"
+            },
+            {
+              "word": "make up",
+              "pos": "",
+              "definition": "补上[失去的东西];补修[某课程]"
+            },
+            {
+              "word": "explore",
+              "pos": "v.",
+              "definition": "v. 探讨；探究"
+            },
+            {
+              "word": "choices",
+              "pos": "n.",
+              "definition": "n. 选择（choice 的复数）；选项；可供选择的事物"
+            },
+            {
+              "word": "college",
+              "pos": "n.",
+              "definition": "n. 大学；专科学校；学院"
+            },
+            {
+              "word": "listing",
+              "pos": "n.",
+              "definition": "n. 列表；清单；目录"
+            },
+            {
+              "word": "credits",
+              "pos": "n.",
+              "definition": "n. 学分（credit 的复数）；（金融）信用；信贷"
+            },
+            {
+              "word": "example",
+              "pos": "n.",
+              "definition": "n. 例子；例证；榜样"
+            },
+            {
+              "word": "prevent",
+              "pos": "v.",
+              "definition": "v. 阻止；阻碍；防止"
+            },
+            {
+              "word": "switch",
+              "pos": "",
+              "definition": "v.(尤指突然彻底的)改变"
+            },
+            {
+              "word": "costly",
+              "pos": "",
+              "definition": "a.昂贵的"
+            },
+            {
               "word": "impact",
               "pos": "n.",
               "definition": "n. 撞击；冲击力"
+            },
+            {
+              "word": "future",
+              "pos": "n.",
+              "definition": "n. 未来；将来；前途"
+            },
+            {
+              "word": "nearly",
+              "pos": "adv.",
+              "definition": "adv. 几乎；差不多；密切地"
+            },
+            {
+              "word": "majors",
+              "pos": "n.",
+              "definition": "n. （美国大学）专业；主修科目（major 的复数）；（美国大学）主修某专业的学生"
+            },
+            {
+              "word": "leaves",
+              "pos": "n.",
+              "definition": "n. （leaf 的复数）树叶；叶片；花瓣"
+            },
+            {
+              "word": "figure",
+              "pos": "n.",
+              "definition": "n. 数字；数目；数值"
+            },
+            {
+              "word": "stress",
+              "pos": "n.",
+              "definition": "n. 精神压力；紧张；压力"
+            },
+            {
+              "word": "major",
+              "pos": "",
+              "definition": "n.主修课程,专业课"
+            },
+            {
+              "word": "await",
+              "pos": "",
+              "definition": "v.将发生在,将降临到"
+            },
+            {
+              "word": "value",
+              "pos": "n.",
+              "definition": "n. 价值；等值"
+            },
+            {
+              "word": "basic",
+              "pos": "adj.",
+              "definition": "adj. 最重要的；基本的；最简单的"
+            },
+            {
+              "word": "extra",
+              "pos": "adj.",
+              "definition": "adj. 额外的；另外收费的；n. 另收费的事物"
+            },
+            {
+              "word": "money",
+              "pos": "n.",
+              "definition": "n. 钱；钞票；货币"
+            },
+            {
+              "word": "game",
+              "pos": "",
+              "definition": "n.活动,行业"
             }
           ]
         }
@@ -3039,34 +4429,14 @@
           "chunk_translation": "尽管常常被视为一个地方性难题 / 对于美国西部各州而言， / 但野火日益频繁的发生已成为一项全国性关切， / 由于其所带来的影响 / 对联邦纳税人税款的影响， / 马克斯·莫里茨教授说道， / 他是一位专门专家 / 在火灾生态学与火灾管理领域的专家。",
           "vocabulary": [
             {
-              "word": "Though",
-              "pos": "conj.",
-              "definition": "conj. 虽然；尽管"
+              "word": "specialist",
+              "pos": "",
+              "definition": "n.专家"
             },
             {
-              "word": "often",
-              "pos": "adv.",
-              "definition": "adv. 常常；时常"
-            },
-            {
-              "word": "viewed",
-              "pos": "v.",
-              "definition": "v. view 的过去式和过去分词；以某种方式看待"
-            },
-            {
-              "word": "problem",
+              "word": "management",
               "pos": "n.",
-              "definition": "n. 问题；难题"
-            },
-            {
-              "word": "western",
-              "pos": "adj.",
-              "definition": "adj. 西方的；西部的"
-            },
-            {
-              "word": "growing",
-              "pos": "adj.",
-              "definition": "adj. 增长的；增加的"
+              "definition": "n. 经营；管理；安排"
             },
             {
               "word": "frequency",
@@ -3079,9 +4449,59 @@
               "definition": "n. 野火（wildfire 复数）；大火灾"
             },
             {
+              "word": "Professor",
+              "pos": "n.",
+              "definition": "n. 教授；（大学的）讲师；教员"
+            },
+            {
               "word": "national",
               "pos": "adj.",
               "definition": "adj. 国家的；全国的"
+            },
+            {
+              "word": "ecology",
+              "pos": "",
+              "definition": "n.生态,生态学"
+            },
+            {
+              "word": "western",
+              "pos": "adj.",
+              "definition": "adj. 西方的；西部的"
+            },
+            {
+              "word": "growing",
+              "pos": "adj.",
+              "definition": "adj. 增长的；增加的"
+            },
+            {
+              "word": "concern",
+              "pos": "n.",
+              "definition": "n. 担心；忧虑；使人担忧的事物"
+            },
+            {
+              "word": "federal",
+              "pos": "adj.",
+              "definition": "adj. 联邦（制）的；（与）联邦政府（有关的）的；中央集权式的"
+            },
+            {
+              "word": "dollars",
+              "pos": "n.",
+              "definition": "n. 美元（dollar 的复数）；也泛指以 dollar 为单位的货币；常特指美元"
+            },
+            {
+              "word": "viewed",
+              "pos": "v.",
+              "definition": "v. view 的过去式和过去分词；以某种方式看待"
+            },
+            {
+              "word": "impact",
+              "pos": "n.",
+              "definition": "n. 撞击；冲击力；巨大影响"
+            },
+            {
+              "word": "Moritz",
+              "pos": "n./v.",
+              "definition": "莫里茨（人名）"
             }
           ]
         },
@@ -3093,9 +4513,59 @@
           "chunk_translation": "在2015年， / 美国国家林业局首次将其超过一半的预算资金用于 / 扑灭扑救 / 森林野火。 / 实际上， / 如今流向火灾预防的联邦资金已变得更少 / 以及 / 森林管理方面的资金， / 这 / 反过来使得火灾的发生更加不可避免。",
           "vocabulary": [
             {
-              "word": "Forest",
+              "word": "infrastructure upkeep",
+              "pos": "",
+              "definition": "基础设施养护"
+            },
+            {
+              "word": "forest conservation",
+              "pos": "",
+              "definition": "森林保护"
+            },
+            {
+              "word": "infrastructure",
+              "pos": "",
+              "definition": "n.基础设施"
+            },
+            {
+              "word": "conservation",
+              "pos": "",
+              "definition": "n.保护"
+            },
+            {
+              "word": "percentage",
               "pos": "n.",
-              "definition": "n. 森林；林区"
+              "definition": "n. 百分比；百分率；部分"
+            },
+            {
+              "word": "management",
+              "pos": "n.",
+              "definition": "n. 经营；管理；安排"
+            },
+            {
+              "word": "watershed",
+              "pos": "",
+              "definition": "n.(森林地带的)集水区"
+            },
+            {
+              "word": "in effect",
+              "pos": "",
+              "definition": "事实上,实际上"
+            },
+            {
+              "word": "resources",
+              "pos": "n.",
+              "definition": "n. 资源；物力；财力（resource 的复数）"
+            },
+            {
+              "word": "fighting",
+              "pos": "n.",
+              "definition": "n. 战斗；打斗"
+            },
+            {
+              "word": "cultural",
+              "pos": "adj.",
+              "definition": "adj. 文化的；与文化有关的；艺术的"
             },
             {
               "word": "Service",
@@ -3103,24 +4573,29 @@
               "definition": "n. 公共服务系统；公共事业"
             },
             {
-              "word": "time",
+              "word": "efforts",
               "pos": "n.",
-              "definition": "n. （以分钟、小时、天等计量的）时间；（钟表上的）时刻"
+              "definition": "n. effort 的复数：努力；尝试；有组织的活动"
             },
             {
-              "word": "spent",
+              "word": "federal",
               "pos": "adj.",
-              "definition": "adj. 用过已废的；失效的"
+              "definition": "adj. 联邦（制）的；（与）联邦政府（有关的）的；中央集权式的"
             },
             {
-              "word": "half",
+              "word": "budget",
+              "pos": "",
+              "definition": "n.预算"
+            },
+            {
+              "word": "upkeep",
+              "pos": "",
+              "definition": "n.保养,维修"
+            },
+            {
+              "word": "Forest",
               "pos": "n.",
-              "definition": "n. 一半；二分之一"
-            },
-            {
-              "word": "billion",
-              "pos": "num.",
-              "definition": "num. 十亿；万亿"
+              "definition": "n. 森林；林区"
             },
             {
               "word": "annual",
@@ -3128,14 +4603,44 @@
               "definition": "adj. 一年一度的；年度的"
             },
             {
-              "word": "budget",
-              "pos": "n.",
-              "definition": "n. 预算；政府预算案"
+              "word": "nearly",
+              "pos": "adv.",
+              "definition": "adv. 几乎；差不多；密切地"
             },
             {
-              "word": "fighting",
+              "word": "double",
+              "pos": "adj.",
+              "definition": "adj. 两倍的；双的；供两人用的"
+            },
+            {
+              "word": "effect",
               "pos": "n.",
-              "definition": "n. 战斗；打斗"
+              "definition": "n. 作用；影响；（刻意制造的）效果"
+            },
+            {
+              "word": "agency",
+              "pos": "n.",
+              "definition": "n. 代理行；经销处；政府专门机构"
+            },
+            {
+              "word": "affect",
+              "pos": "v.",
+              "definition": "v. 影响；（疾病）侵袭；感染"
+            },
+            {
+              "word": "spent",
+              "pos": "adj.",
+              "definition": "adj. 用过已废的；失效的"
+            },
+            {
+              "word": "fires",
+              "pos": "n.",
+              "definition": "n. fire 的复数：火灾；失火；炉火"
+            },
+            {
+              "word": "funds",
+              "pos": "n.",
+              "definition": "n. 资金；款项；现金"
             }
           ]
         },
@@ -3147,29 +4652,24 @@
           "chunk_translation": "另一个引发全国关注的问题是 / 公共财政资金是否正在被用来 / 保护 / 建在火灾高发易发地带的私人住宅。 / 正如莫里茨所言， / 有多少次联邦资金被耗费在 / 保卫那些从一开始就不应该建在那里的私人住宅上？",
           "vocabulary": [
             {
+              "word": "construction",
+              "pos": "n.",
+              "definition": "n. 建造；建筑"
+            },
+            {
               "word": "nationwide",
-              "pos": "adj.",
-              "definition": "adj. 全国性的；全国各地的"
+              "pos": "",
+              "definition": "a.全国范围的,全国性的"
             },
             {
-              "word": "concern",
+              "word": "districts",
               "pos": "n.",
-              "definition": "n. 担心；忧虑"
+              "definition": "n. 区域；地域；行政区（district 的复数形式）"
             },
             {
-              "word": "whether",
-              "pos": "conj.",
-              "definition": "conj. 是否（表选择或可能性）；不管"
-            },
-            {
-              "word": "public",
-              "pos": "adj.",
-              "definition": "adj. 公众的；大众的"
-            },
-            {
-              "word": "funds",
-              "pos": "n.",
-              "definition": "n. 资金；款项"
+              "word": "wildfire",
+              "pos": "",
+              "definition": "n.不易扑灭的大火,野火;大火灾"
             },
             {
               "word": "agencies",
@@ -3177,14 +4677,54 @@
               "definition": "n. 代理；代理处"
             },
             {
-              "word": "going",
+              "word": "building",
               "pos": "n.",
-              "definition": "n. 离开；离去"
+              "definition": "n. 建筑物；房屋；楼房"
             },
             {
-              "word": "construction",
+              "word": "concern",
               "pos": "n.",
-              "definition": "n. 建造；建筑"
+              "definition": "n. 担心；忧虑"
+            },
+            {
+              "word": "federal",
+              "pos": "adj.",
+              "definition": "adj. 联邦（制）的；（与）联邦政府（有关的）的；中央集权式的"
+            },
+            {
+              "word": "dollars",
+              "pos": "n.",
+              "definition": "n. 美元（dollar 的复数）；也泛指以 dollar 为单位的货币；常特指美元"
+            },
+            {
+              "word": "public",
+              "pos": "adj.",
+              "definition": "adj. 公众的；大众的"
+            },
+            {
+              "word": "Moritz",
+              "pos": "n./v.",
+              "definition": "莫里茨（人名）"
+            },
+            {
+              "word": "likely",
+              "pos": "adj.",
+              "definition": "adj. 可能发生的；似乎合适的；仿佛恰当的"
+            },
+            {
+              "word": "prone",
+              "pos": "",
+              "definition": "a.易于发生某事;很可能…………的"
+            },
+            {
+              "word": "funds",
+              "pos": "n.",
+              "definition": "n. 资金；款项"
+            },
+            {
+              "word": "homes",
+              "pos": "n.",
+              "definition": "n. 家庭（home 的复数形式）；房屋；住宅"
             },
             {
               "word": "fire",
@@ -3201,29 +4741,24 @@
           "chunk_translation": "“从公共财政支出的角度来看，这已经是一个巨大的难题了，” / 他说道。 / “我们需要用放大镜去仔细审视 / 这一现象。 / 比如问一句， / ‘等一下， / 这样做合理吗？’我们是否反而希望 / 去补贴人们在更安全的地方建房？”",
           "vocabulary": [
             {
-              "word": "already",
-              "pos": "adv.",
-              "definition": "adv. 已经；早已"
+              "word": "public expenditure",
+              "pos": "",
+              "definition": "公共支出"
             },
             {
-              "word": "huge",
-              "pos": "adj.",
-              "definition": "adj. 庞大的；极大的"
-            },
-            {
-              "word": "problem",
-              "pos": "n.",
-              "definition": "n. 问题；难题"
-            },
-            {
-              "word": "public",
-              "pos": "adj.",
-              "definition": "adj. 公众的；大众的"
+              "word": "magnifying glass",
+              "pos": "",
+              "definition": "放大镜"
             },
             {
               "word": "expenditure",
-              "pos": "n.",
-              "definition": "n. 经费；支出额"
+              "pos": "",
+              "definition": "n.开支,支出"
+            },
+            {
+              "word": "concentrate",
+              "pos": "",
+              "definition": "v.使集中于,使汇聚于"
             },
             {
               "word": "perspective",
@@ -3231,19 +4766,59 @@
               "definition": "n. （观察问题的）视角；观点"
             },
             {
+              "word": "magnifying",
+              "pos": "adj.",
+              "definition": "adj. 放大的；v. 放大（magnify 的 ing 形式）；增大"
+            },
+            {
+              "word": "landscape",
+              "pos": "",
+              "definition": "n.地形,地貌"
+            },
+            {
+              "word": "redirect",
+              "pos": "",
+              "definition": "v.使改变用途,重新使用"
+            },
+            {
+              "word": "instead",
+              "pos": "adv.",
+              "definition": "adv. 代替；顶替；反而"
+            },
+            {
+              "word": "hazard",
+              "pos": "",
+              "definition": "n.危险,隐患"
+            },
+            {
+              "word": "public",
+              "pos": "adj.",
+              "definition": "adj. 公众的；大众的"
+            },
+            {
+              "word": "minute",
+              "pos": "n.",
+              "definition": "n. 分；分钟；片刻"
+            },
+            {
               "word": "whole",
               "pos": "adj.",
               "definition": "adj. 全部的；整个的"
             },
             {
-              "word": "country",
+              "word": "glass",
               "pos": "n.",
-              "definition": "n. 国；国家"
+              "definition": "n. 玻璃；玻璃杯；一杯之量"
             },
             {
-              "word": "need",
-              "pos": "v.",
-              "definition": "v. 需要；（表示应该或不得不做）有必要"
+              "word": "funds",
+              "pos": "n.",
+              "definition": "n. 资金；款项；现金"
+            },
+            {
+              "word": "huge",
+              "pos": "adj.",
+              "definition": "adj. 庞大的；极大的"
             }
           ]
         },
@@ -3255,24 +4830,14 @@
           "chunk_translation": "这样一种观点将需要 / 在我们看待野火风险的思维方式上做出相应的转变。",
           "vocabulary": [
             {
-              "word": "view",
-              "pos": "n.",
-              "definition": "n. 观点；看法"
-            },
-            {
-              "word": "require",
-              "pos": "v.",
-              "definition": "v. 需要；要求做（某事）"
-            },
-            {
               "word": "corresponding",
-              "pos": "adj.",
-              "definition": "adj. 相应的；相关的"
+              "pos": "",
+              "definition": "a.相应的,由此引起的"
             },
             {
-              "word": "shift",
-              "pos": "v.",
-              "definition": "v. （使）移动；（使）转移"
+              "word": "researchers",
+              "pos": "n.",
+              "definition": "n. 研究人员；研究者（researcher 的复数）"
             },
             {
               "word": "society",
@@ -3280,24 +4845,14 @@
               "definition": "n. 社会（以群体形式生活在一起的人的总称）；社群（某国家、地区、时期等的群体组织）"
             },
             {
-              "word": "today",
-              "pos": "adv.",
-              "definition": "adv. 今天；今日"
-            },
-            {
-              "word": "views",
-              "pos": "n.",
-              "definition": "n. 观点；见解"
+              "word": "shift",
+              "pos": "",
+              "definition": "n.(想法、做法等的)转变,改变"
             },
             {
               "word": "fire",
               "pos": "n.",
               "definition": "n. 失火；火灾"
-            },
-            {
-              "word": "researchers",
-              "pos": "n.",
-              "definition": "n. 研究人员；研究者（researcher 的复数）"
             }
           ]
         },
@@ -3309,9 +4864,34 @@
           "chunk_translation": "一方面， / 关于讨论 / 关于野火的探讨需要超越单纯的气候变化范畴。 / 在过去的十年里， / 焦点一直集中在 / 气候作为主要驱动因素上， / 导致规模更大、 / 温度更高、更加炽烈的 / 森林野火。",
           "vocabulary": [
             {
+              "word": "greenhouse gases",
+              "pos": "",
+              "definition": "温室气体"
+            },
+            {
+              "word": "climate change",
+              "pos": "",
+              "definition": "气候变化"
+            },
+            {
               "word": "conversations",
               "pos": "n.",
               "definition": "n. 会话；交谈（conversation 的复数）"
+            },
+            {
+              "word": "greenhouse",
+              "pos": "n.",
+              "definition": "n. 温室；暖房；adj. 温室效应的"
+            },
+            {
+              "word": "conditions",
+              "pos": "n.",
+              "definition": "n. 条件；环境；疾病"
+            },
+            {
+              "word": "inclusive",
+              "pos": "",
+              "definition": "a.包容广阔的,范围广的"
             },
             {
               "word": "wildfires",
@@ -3319,19 +4899,24 @@
               "definition": "n. 野火（wildfire 复数）；大火灾"
             },
             {
-              "word": "need",
-              "pos": "v.",
-              "definition": "v. 需要；（表示应该或不得不做）有必要"
+              "word": "climate",
+              "pos": "n.",
+              "definition": "n. 气候；气候区"
             },
             {
-              "word": "inclusive",
-              "pos": "adj.",
-              "definition": "adj. 包容广阔的；包括一切费用在内的"
+              "word": "warming",
+              "pos": "n.",
+              "definition": "n. 加温；变暖；气温升高（常构成 global warming"
             },
             {
-              "word": "past",
+              "word": "leading",
               "pos": "adj.",
-              "definition": "adj. 过去的；昔日的"
+              "definition": "adj. 主要的；最重要的；在（比赛或行列中）首位的"
+            },
+            {
+              "word": "worsen",
+              "pos": "",
+              "definition": "v.(使)变得更差,(使)恶化"
             },
             {
               "word": "decade",
@@ -3344,14 +4929,24 @@
               "definition": "n. 重点；中心点"
             },
             {
-              "word": "climate",
+              "word": "Earth",
               "pos": "n.",
-              "definition": "n. 气候；气候区"
+              "definition": "n. 地球；世界；陆地"
             },
             {
-              "word": "change",
-              "pos": "v.",
-              "definition": "v. 改变；变化"
+              "word": "gases",
+              "pos": "n.",
+              "definition": "n. 气体；煤气、燃气；毒气"
+            },
+            {
+              "word": "fires",
+              "pos": "n.",
+              "definition": "n. fire 的复数：火灾；失火；炉火"
+            },
+            {
+              "word": "past",
+              "pos": "adj.",
+              "definition": "adj. 过去的；昔日的"
             }
           ]
         },
@@ -3363,6 +4958,21 @@
           "chunk_translation": "尽管气候是一个关键要素， / 莫里茨表示， / 但它不应该掩盖人类活动在其中所扮演的角色。",
           "vocabulary": [
             {
+              "word": "at the expense of",
+              "pos": "",
+              "definition": "以...为代价"
+            },
+            {
+              "word": "key element",
+              "pos": "",
+              "definition": "关键要素"
+            },
+            {
+              "word": "equation",
+              "pos": "",
+              "definition": "n.影响因素,综合体"
+            },
+            {
               "word": "climate",
               "pos": "n.",
               "definition": "n. 气候；气候区"
@@ -3373,19 +4983,9 @@
               "definition": "n. 基本部分；要素"
             },
             {
-              "word": "Moritz",
-              "pos": "n.",
-              "definition": "莫里茨（人名）"
-            },
-            {
               "word": "shouldn",
               "pos": "n.",
               "definition": "不应该；不应（等于 should not）"
-            },
-            {
-              "word": "come",
-              "pos": "v.",
-              "definition": "v. 来；来到"
             },
             {
               "word": "expense",
@@ -3393,14 +4993,14 @@
               "definition": "n. 代价；费用"
             },
             {
+              "word": "Moritz",
+              "pos": "n.",
+              "definition": "莫里茨（人名）"
+            },
+            {
               "word": "rest",
               "pos": "v.",
               "definition": "v. 休息；歇息"
-            },
-            {
-              "word": "equation",
-              "pos": "n.",
-              "definition": "n. 等式；方程（式）"
             }
           ]
         },
@@ -3412,14 +5012,19 @@
           "chunk_translation": "“人类社会系统 / 与我们所生息繁衍的自然景观是紧密交织在一起的，” / 他说道。 / 未能充分认识到这一点， / 他指出， / 会导致“对该问题的 / 片面不完整理解”。 / 我们对该问题的认知以及对潜在解决方案的理解都需要做出改变。",
           "vocabulary": [
             {
-              "word": "human",
-              "pos": "adj.",
-              "definition": "adj. 人的；人类的"
+              "word": "interactions",
+              "pos": "n.",
+              "definition": "n. 互动；交流"
             },
             {
-              "word": "systems",
-              "pos": "n.",
-              "definition": "n. 系统；体制"
+              "word": "simplified",
+              "pos": "",
+              "definition": "a.简化的"
+            },
+            {
+              "word": "perception",
+              "pos": "",
+              "definition": "n.认识,观念,看法"
             },
             {
               "word": "landscapes",
@@ -3427,19 +5032,24 @@
               "definition": "n. 风景；风景地貌"
             },
             {
-              "word": "live",
+              "word": "recognize",
               "pos": "v.",
-              "definition": "v. 生存；活着"
+              "definition": "v. 认识；辨别出"
             },
             {
-              "word": "linked",
-              "pos": "v.",
-              "definition": "v. link 的过去式和过去分词：连接；把……连接起来"
-            },
-            {
-              "word": "interactions",
+              "word": "solutions",
               "pos": "n.",
-              "definition": "n. 互动；交流"
+              "definition": "n. （问题、困难等的）解决办法；解决方案；解答"
+            },
+            {
+              "word": "solution",
+              "pos": "n.",
+              "definition": "n. （问题、困难等的）解决办法；（练习或竞赛的）解答；答案"
+            },
+            {
+              "word": "systems",
+              "pos": "n.",
+              "definition": "n. 系统；体制"
             },
             {
               "word": "Failing",
@@ -3447,14 +5057,44 @@
               "definition": "n. 弱点；缺点"
             },
             {
-              "word": "recognize",
+              "word": "becomes",
               "pos": "v.",
-              "definition": "v. 认识；辨别出"
+              "definition": "v. 变得；变成；成为（become 的第三人称单数现在时）"
+            },
+            {
+              "word": "limited",
+              "pos": "adj.",
+              "definition": "adj. 有限的；受限的；受宪法限制的"
+            },
+            {
+              "word": "linked",
+              "pos": "v.",
+              "definition": "v. link 的过去式和过去分词：连接；把……连接起来"
+            },
+            {
+              "word": "overly",
+              "pos": "adv.",
+              "definition": "adv. 过度地；极度地；过于（常修饰形容词、副词或过去分词）"
+            },
+            {
+              "word": "human",
+              "pos": "adj.",
+              "definition": "adj. 人的；人类的"
             },
             {
               "word": "notes",
               "pos": "n.",
               "definition": "n. （note 的复数）笔记；注释"
+            },
+            {
+              "word": "leads",
+              "pos": "n.",
+              "definition": "n. 引线；导线；（营销）销售线索"
+            },
+            {
+              "word": "live",
+              "pos": "v.",
+              "definition": "v. 生存；活着"
             }
           ]
         },
@@ -3466,39 +5106,24 @@
           "chunk_translation": "与此同时， / 人们依然把火灾视为 / 一种外部威胁 / 一种必须被扑灭压制的威胁。 / 但若承认火灾在人类聚居环境中不可避免的存在， / 在人类聚居景观中， / 就能够促成 / 更明智的规划 / 以及 / 更严密的建筑规范。 / “我们已经割裂了自身 / 从学会如何共处 / 与火灾共处的联系，” / 莫里茨说道。 / “这确实非常重要， / 去理解并努力重建这种与自然之火共生的纽带。”",
           "vocabulary": [
             {
-              "word": "time",
-              "pos": "n.",
-              "definition": "n. （以分钟、小时、天等计量的）时间；（钟表上的）时刻"
+              "word": "out of necessity",
+              "pos": "",
+              "definition": "出于必要"
             },
             {
-              "word": "continue",
+              "word": "acknowledging",
               "pos": "v.",
-              "definition": "v. （使）继续；（使）延续"
+              "definition": "v. 承认（acknowledge 的 ing 形式）；n. 确认；确认收到"
             },
             {
-              "word": "treat",
-              "pos": "v.",
-              "definition": "v. 对待；看待"
+              "word": "disconnected",
+              "pos": "adj.",
+              "definition": "adj. 分离的；断开的；不连贯的"
             },
             {
-              "word": "fire",
-              "pos": "n.",
-              "definition": "n. 失火；火灾"
-            },
-            {
-              "word": "event",
-              "pos": "n.",
-              "definition": "n. 事件；大事"
-            },
-            {
-              "word": "needs",
-              "pos": "v.",
-              "definition": "v. 需要；有必要"
-            },
-            {
-              "word": "wholly",
-              "pos": "adv.",
-              "definition": "adv. 完全地；全部地"
+              "word": "inevitable",
+              "pos": "",
+              "definition": "a.必然发生的,难以避免的"
             },
             {
               "word": "controlled",
@@ -3506,9 +5131,124 @@
               "definition": "adj. 限制的；控制的"
             },
             {
+              "word": "University",
+              "pos": "n.",
+              "definition": "n. 大学；综合性大学；大学校舍"
+            },
+            {
+              "word": "developing",
+              "pos": "adj.",
+              "definition": "adj. （国家）发展中的；正在生长的；正在发展的"
+            },
+            {
+              "word": "connection",
+              "pos": "n.",
+              "definition": "n. 关系；联系；连接"
+            },
+            {
+              "word": "necessity",
+              "pos": "",
+              "definition": "n.必然,必要"
+            },
+            {
+              "word": "tease out",
+              "pos": "",
+              "definition": "梳理,疏通"
+            },
+            {
               "word": "unleashed",
               "pos": "vt.",
               "definition": "vt. 释放；解放"
+            },
+            {
+              "word": "Professor",
+              "pos": "n.",
+              "definition": "n. 教授；（大学的）讲师；教员"
+            },
+            {
+              "word": "practices",
+              "pos": "n.",
+              "definition": "n. 实践；习惯做法；练习"
+            },
+            {
+              "word": "ourselves",
+              "pos": "pron.",
+              "definition": "pron. 用作反身代词；作动词或介词宾语；指包括说话者在内的一组人自身"
+            },
+            {
+              "word": "important",
+              "pos": "adj.",
+              "definition": "adj. 重要的；重大的；（人）影响很大的"
+            },
+            {
+              "word": "presence",
+              "pos": "",
+              "definition": "n.存在,出现"
+            },
+            {
+              "word": "Colorado",
+              "pos": "n.",
+              "definition": "n. 科罗拉多州（美国西部落基山区一州）；科罗拉多河（源出落基山脉；流经美国西南部）"
+            },
+            {
+              "word": "attitude",
+              "pos": "n.",
+              "definition": "n. 态度；看法；姿势"
+            },
+            {
+              "word": "policies",
+              "pos": "n.",
+              "definition": "n. 政策；方针；策略"
+            },
+            {
+              "word": "possible",
+              "pos": "adj.",
+              "definition": "adj. 可能的；可能做到的；可能发生的"
+            },
+            {
+              "word": "crucial",
+              "pos": "adj.",
+              "definition": "adj. 至关重要的；决定性的；极好的"
+            },
+            {
+              "word": "wholly",
+              "pos": "adv.",
+              "definition": "adv. 完全地；全部地"
+            },
+            {
+              "word": "living",
+              "pos": "adj.",
+              "definition": "adj. 活着的；活的；在使用的"
+            },
+            {
+              "word": "tease",
+              "pos": "",
+              "definition": "v.梳理"
+            },
+            {
+              "word": "treat",
+              "pos": "v.",
+              "definition": "v. 对待；看待"
+            },
+            {
+              "word": "event",
+              "pos": "n.",
+              "definition": "n. 事件；大事"
+            },
+            {
+              "word": "Balch",
+              "pos": "n./v.",
+              "definition": "鲍尔奇"
+            },
+            {
+              "word": "human",
+              "pos": "adj.",
+              "definition": "adj. 人的；人类的；（尤指缺点或弱点）显示人的本性的"
+            },
+            {
+              "word": "fire",
+              "pos": "n.",
+              "definition": "n. 失火；火灾"
             }
           ]
         }
