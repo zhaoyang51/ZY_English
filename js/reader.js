@@ -1,5 +1,5 @@
 /**
- * Reader Component: Interactive Exam Paper & Locator Sentence Pulse
+ * Reader Component: Interactive Exam Paper, Locator Pulse & Dual-Panel Font Adjustments
  */
 (function() {
   const LOGIC_CONNECTORS = {
@@ -19,6 +19,8 @@
     settings: {
       fontSize: 17.5,
       lineHeight: 1.85,
+      workspaceFontSize: 16,
+      workspaceLineHeight: 1.75,
       showTrans: false,
       highlightLogic: false
     },
@@ -27,12 +29,90 @@
       const s = window.StorageModule.loadSettings();
       if (s) Object.assign(this.settings, s);
       this.applySettings();
+      this.bindWorkspaceToolbarEvents();
     },
 
     applySettings() {
       document.documentElement.style.setProperty('--reader-font-size', `${this.settings.fontSize}px`);
       document.documentElement.style.setProperty('--reader-line-height', `${this.settings.lineHeight}`);
+      document.documentElement.style.setProperty('--workspace-font-size', `${this.settings.workspaceFontSize}px`);
+      document.documentElement.style.setProperty('--workspace-line-height', `${this.settings.workspaceLineHeight}`);
       window.StorageModule.saveSettings(this.settings);
+      this.updateToolbarActiveStates();
+    },
+
+    updateToolbarActiveStates() {
+      // Left Toolbar Line Height states
+      const btnTight = document.getElementById('btnLhTight');
+      const btnNormal = document.getElementById('btnLhNormal');
+      const btnLoose = document.getElementById('btnLhLoose');
+      if (btnTight && btnNormal && btnLoose) {
+        btnTight.classList.toggle('active', this.settings.lineHeight === 1.6);
+        btnNormal.classList.toggle('active', this.settings.lineHeight === 1.85);
+        btnLoose.classList.toggle('active', this.settings.lineHeight === 2.2);
+      }
+
+      // Right Workspace Toolbar Line Height states
+      const btnWsTight = document.getElementById('btnWsLhTight');
+      const btnWsNormal = document.getElementById('btnWsLhNormal');
+      const btnWsLoose = document.getElementById('btnWsLhLoose');
+      if (btnWsTight && btnWsNormal && btnWsLoose) {
+        btnWsTight.classList.toggle('active', this.settings.workspaceLineHeight === 1.5);
+        btnWsNormal.classList.toggle('active', this.settings.workspaceLineHeight === 1.75);
+        btnWsLoose.classList.toggle('active', this.settings.workspaceLineHeight === 2.1);
+      }
+    },
+
+    bindWorkspaceToolbarEvents() {
+      const btnWsDec = document.getElementById('btnWsFontDec');
+      const btnWsInc = document.getElementById('btnWsFontInc');
+      const btnWsTight = document.getElementById('btnWsLhTight');
+      const btnWsNormal = document.getElementById('btnWsLhNormal');
+      const btnWsLoose = document.getElementById('btnWsLhLoose');
+
+      if (btnWsDec && !btnWsDec.hasAttribute('data-bound')) {
+        btnWsDec.setAttribute('data-bound', 'true');
+        btnWsDec.onclick = () => {
+          if (this.settings.workspaceFontSize > 13) {
+            this.settings.workspaceFontSize -= 1;
+            this.applySettings();
+          }
+        };
+      }
+
+      if (btnWsInc && !btnWsInc.hasAttribute('data-bound')) {
+        btnWsInc.setAttribute('data-bound', 'true');
+        btnWsInc.onclick = () => {
+          if (this.settings.workspaceFontSize < 26) {
+            this.settings.workspaceFontSize += 1;
+            this.applySettings();
+          }
+        };
+      }
+
+      if (btnWsTight && !btnWsTight.hasAttribute('data-bound')) {
+        btnWsTight.setAttribute('data-bound', 'true');
+        btnWsTight.onclick = () => {
+          this.settings.workspaceLineHeight = 1.5;
+          this.applySettings();
+        };
+      }
+
+      if (btnWsNormal && !btnWsNormal.hasAttribute('data-bound')) {
+        btnWsNormal.setAttribute('data-bound', 'true');
+        btnWsNormal.onclick = () => {
+          this.settings.workspaceLineHeight = 1.75;
+          this.applySettings();
+        };
+      }
+
+      if (btnWsLoose && !btnWsLoose.hasAttribute('data-bound')) {
+        btnWsLoose.setAttribute('data-bound', 'true');
+        btnWsLoose.onclick = () => {
+          this.settings.workspaceLineHeight = 2.1;
+          this.applySettings();
+        };
+      }
     },
 
     renderExamPaper(textData, containerId) {
@@ -152,25 +232,24 @@
 
       if (incBtn) {
         incBtn.onclick = () => {
-          if (this.settings.fontSize < 24) {
+          if (this.settings.fontSize < 28) {
             this.settings.fontSize += 1;
             this.applySettings();
           }
         };
       }
 
-      document.querySelectorAll('[data-lh]').forEach(btn => {
+      document.querySelectorAll('#readerToolbar [data-lh]').forEach(btn => {
         btn.onclick = () => {
           this.settings.lineHeight = Number(btn.getAttribute('data-lh'));
           this.applySettings();
-          document.querySelectorAll('[data-lh]').forEach(b => b.classList.toggle('active', b === btn));
         };
       });
 
       if (transBtn) {
         transBtn.onclick = () => {
           this.settings.showTrans = !this.settings.showTrans;
-          this.applySettings();
+          transBtn.classList.toggle('active', this.settings.showTrans);
           this.renderExamPaper(textData, containerId);
         };
       }
@@ -178,39 +257,29 @@
       if (logicBtn) {
         logicBtn.onclick = () => {
           this.settings.highlightLogic = !this.settings.highlightLogic;
-          this.applySettings();
+          logicBtn.classList.toggle('active', this.settings.highlightLogic);
           this.renderExamPaper(textData, containerId);
         };
       }
     },
 
     highlight(meta) {
-      document.querySelectorAll('.exam-para').forEach(el => el.classList.remove('highlight-focus', 'locator-pulse'));
-      document.querySelectorAll('.exam-question-card').forEach(el => el.classList.remove('highlight-focus'));
-
-      if (!meta) return;
-
-      if (typeof meta.para === 'number') {
-        const targetPara = document.getElementById(`exam-para-${meta.para}`);
-        if (targetPara) {
-          targetPara.classList.add('highlight-focus');
-          targetPara.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }
-      } else if (meta.qid) {
-        const targetQ = document.getElementById(`exam-q-${meta.qid}`);
-        if (targetQ) {
-          targetQ.classList.add('highlight-focus');
-          targetQ.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      document.querySelectorAll('.exam-para').forEach(el => el.classList.remove('highlight-focus'));
+      if (meta && typeof meta.para === 'number') {
+        const pEl = document.getElementById(`exam-para-${meta.para}`);
+        if (pEl) {
+          pEl.classList.add('highlight-focus');
+          pEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         }
       }
     },
 
     highlightLocatorSentence(pid) {
-      document.querySelectorAll('.exam-para').forEach(el => el.classList.remove('locator-pulse'));
-      const targetPara = document.getElementById(`exam-para-${pid}`);
-      if (targetPara) {
-        targetPara.classList.add('locator-pulse');
-        targetPara.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      document.querySelectorAll('.exam-sent').forEach(el => el.classList.remove('locator-pulse'));
+      const pEl = document.getElementById(`exam-para-${pid}`);
+      if (pEl) {
+        const firstSent = pEl.querySelector('.exam-sent');
+        if (firstSent) firstSent.classList.add('locator-pulse');
       }
     }
   };

@@ -92,6 +92,24 @@
     <!-- Right Column: Interactive Reasoning, Mock Exam & Review Workspace -->
     <section class="panel right-panel">
       <div class="scroll-container" id="rightScroll">
+        <!-- Right Panel Font & Layout Toolbar -->
+        <div class="reader-toolbar workspace-toolbar" id="workspaceToolbar">
+          <div class="toolbar-group">
+            <span style="font-size:0.82em;font-weight:700;color:var(--muted)">字号:</span>
+            <button class="toolbar-btn" id="btnWsFontDec" title="缩小工作台字号">A-</button>
+            <button class="toolbar-btn" id="btnWsFontInc" title="放大工作台字号">A+</button>
+          </div>
+          <div class="toolbar-group">
+            <span style="font-size:0.82em;font-weight:700;color:var(--muted)">行距:</span>
+            <button class="toolbar-btn" data-wslh="1.5" id="btnWsLhTight">紧凑</button>
+            <button class="toolbar-btn" data-wslh="1.75" id="btnWsLhNormal">舒适</button>
+            <button class="toolbar-btn" data-wslh="2.1" id="btnWsLhLoose">宽松</button>
+          </div>
+          <div class="toolbar-group" style="margin-left:auto">
+            <span style="font-size:0.8em;font-weight:700;color:var(--mode-color)">🧠 工作台排版</span>
+          </div>
+        </div>
+
         <article class="workspace" id="workspaceContent">
           <!-- Dynamically populated by QuizModule -->
         </article>

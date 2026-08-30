@@ -4,20 +4,77 @@
  */
 
 body {
-  font-family: var(--font-sans);
+  font-family: var(--font-base);
   color: var(--ink);
   background-color: var(--bg);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
 
-/* Exam Paper Serif Typography */
+/* Exam Paper Serif Typography (Left Panel) */
 .exam-paper {
-  font-family: var(--font-serif);
+  font-family: var(--font-base);
   font-size: var(--reader-font-size, 17.5px);
   line-height: var(--reader-line-height, 1.85);
   color: var(--ink);
   transition: font-size 0.2s ease, line-height 0.2s ease;
+}
+
+/* Workspace Serif Typography (Right Panel) */
+.workspace {
+  font-family: var(--font-base);
+  font-size: var(--workspace-font-size, 16px);
+  line-height: var(--workspace-line-height, 1.75);
+  color: var(--ink);
+  transition: font-size 0.2s ease, line-height 0.2s ease;
+}
+
+.workspace h1, .workspace h2, .workspace h3, .workspace h4 {
+  font-family: var(--font-base);
+  color: var(--ink);
+  margin-top: 18px;
+  margin-bottom: 12px;
+  letter-spacing: -0.01em;
+}
+
+.workspace p {
+  margin-bottom: 12px;
+}
+
+.workspace blockquote {
+  margin: 14px 0;
+  padding: 12px 18px;
+  background: var(--mode-bg);
+  border-left: 4px solid var(--mode-color);
+  border-radius: var(--radius-sm);
+  font-size: 1.02em;
+}
+
+.workspace table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  font-size: 0.95em;
+}
+
+.workspace th, .workspace td {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+}
+
+.workspace th {
+  background: var(--card-bg);
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.workspace tr:last-child td {
+  border-bottom: none;
 }
 
 .exam-para {
@@ -58,147 +115,134 @@ body {
   margin: 0 1px;
   border-radius: 4px;
   cursor: pointer;
-  transition: background 0.15s ease, box-shadow 0.15s ease;
-  border-bottom: 1.5px solid transparent;
+  transition: all 0.18s ease;
 }
 
 .exam-sent:hover {
   background: rgba(37, 99, 235, 0.12);
-  border-bottom: 1.5px solid var(--accent);
+  color: var(--accent-dark);
 }
 
-body.mode-review .exam-sent:hover {
-  background: rgba(124, 58, 237, 0.12);
-  border-bottom: 1.5px solid var(--review-accent);
+body.theme-dark .exam-sent:hover {
+  background: rgba(59, 130, 246, 0.25);
+  color: #93c5fd;
 }
 
 .exam-sent.active-sent {
-  background: rgba(37, 99, 235, 0.2);
-  border-bottom: 2px solid var(--accent);
-  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+  background: rgba(245, 158, 11, 0.25) !important;
+  border-bottom: 2px solid #f59e0b;
 }
 
-body.mode-review .exam-sent.active-sent {
-  background: rgba(124, 58, 237, 0.2);
-  border-bottom: 2px solid var(--review-accent);
-  box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.15);
-}
-
-/* Locator Sentence Pulse Animation */
-@keyframes locatorPulse {
-  0% { background: rgba(245, 158, 11, 0.18); box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.35); }
-  50% { background: rgba(245, 158, 11, 0.42); box-shadow: 0 0 0 6px rgba(245, 158, 11, 0.55); }
-  100% { background: rgba(245, 158, 11, 0.22); box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.35); }
-}
-
+/* Sentence Locator Pulse (for question targeting) */
 .locator-pulse {
-  animation: locatorPulse 1.2s ease infinite alternate;
-  border-left: 4px solid #f59e0b !important;
+  animation: pulseHighlight 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   border-radius: 4px;
+  padding: 2px 4px;
 }
 
-/* Inline Bilingual Translation */
-.sent-trans-inline {
-  display: block;
-  font-family: var(--font-sans);
-  font-size: 0.9em;
-  line-height: 1.6;
-  color: #0f766e;
-  background: rgba(15, 118, 110, 0.06);
-  padding: 4px 10px;
-  margin: 6px 0 10px;
-  border-left: 3px solid #0f766e;
-  border-radius: 0 4px 4px 0;
-  font-weight: 500;
+@keyframes pulseHighlight {
+  0%, 100% {
+    background-color: rgba(37, 99, 235, 0.12);
+  }
+  50% {
+    background-color: rgba(234, 88, 12, 0.32);
+  }
 }
 
-body.theme-dark .sent-trans-inline {
-  color: #2dd4bf;
-  background: rgba(45, 212, 191, 0.08);
-}
-
-/* Vocabulary Dotted Underline */
+/* Core Vocabulary Dotted Underline */
 .exam-vocab {
-  border-bottom: 1.5px dashed var(--accent);
-  cursor: pointer;
+  text-decoration: underline dotted #2563eb 2px;
+  text-underline-offset: 4px;
   font-weight: 600;
+  cursor: help;
+  color: inherit;
   transition: all 0.15s ease;
 }
 
-body.mode-review .exam-vocab {
-  border-bottom: 1.5px dashed var(--review-accent);
-}
-
 .exam-vocab:hover {
-  background: var(--mode-bg);
-  color: var(--mode-color);
-  border-radius: 2px;
+  background-color: rgba(37, 99, 235, 0.15);
+  color: var(--accent);
 }
 
-/* Logical Connectors / Transition Words Highlighting */
+/* Logical Connectors Highlighting Badges */
 .transition-turn {
-  background: #fee2e2;
-  color: #b91c1c;
-  padding: 1px 4px;
-  border-radius: 3px;
+  background: #fef3c7;
+  color: #92400e;
+  padding: 1px 5px;
+  border-radius: 4px;
   font-weight: 700;
-  border-bottom: 1px solid #ef4444;
+  font-family: var(--font-base);
 }
 
 .transition-cause {
-  background: #fef3c7;
-  color: #b45309;
-  padding: 1px 4px;
-  border-radius: 3px;
+  background: #dbeafe;
+  color: #1e40af;
+  padding: 1px 5px;
+  border-radius: 4px;
   font-weight: 700;
-  border-bottom: 1px solid #f59e0b;
+  font-family: var(--font-base);
 }
 
 .transition-summary {
   background: #e0e7ff;
-  color: #4338ca;
-  padding: 1px 4px;
-  border-radius: 3px;
+  color: #3730a3;
+  padding: 1px 5px;
+  border-radius: 4px;
   font-weight: 700;
-  border-bottom: 1px solid #6366f1;
+  font-family: var(--font-base);
 }
 
 body.theme-dark .transition-turn {
-  background: #450a0a;
-  color: #fca5a5;
+  background: #78350f;
+  color: #fef3c7;
 }
 
 body.theme-dark .transition-cause {
-  background: #451a03;
-  color: #fcd34d;
+  background: #1e3a8a;
+  color: #dbeafe;
 }
 
 body.theme-dark .transition-summary {
-  background: #1e1b4b;
-  color: #a5b4fc;
+  background: #312e81;
+  color: #e0e7ff;
 }
 
-/* Question Cards */
+/* Inline Chinese Sentence Translation */
+.sent-trans-inline {
+  display: block;
+  font-family: var(--font-base);
+  font-size: 0.88em;
+  color: #0f766e;
+  background: rgba(15, 118, 110, 0.05);
+  padding: 4px 8px;
+  margin: 4px 0 10px 0;
+  border-left: 3px solid #0f766e;
+  border-radius: 0 4px 4px 0;
+}
+
+body.theme-dark .sent-trans-inline {
+  background: rgba(20, 184, 166, 0.1);
+  color: #5eead4;
+  border-left-color: #14b8a6;
+}
+
+/* Exam Question Cards */
 .exam-question-card {
-  margin-bottom: 22px;
-  padding: 14px 16px;
+  margin-bottom: 24px;
+  padding: 16px 18px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  transition: all 0.25s ease;
-}
-
-.exam-question-card.highlight-focus {
-  border-color: var(--mode-color);
-  background: var(--mode-bg);
-  box-shadow: var(--shadow-md);
+  font-family: var(--font-base);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
 }
 
 .q-stem {
   font-weight: 700;
-  font-size: 1.05em;
-  margin-bottom: 10px;
+  font-size: 1.04em;
+  margin-bottom: 12px;
   color: var(--ink);
+  font-family: var(--font-base);
 }
 
 .q-options {
@@ -209,118 +253,73 @@ body.theme-dark .transition-summary {
 
 .q-opt {
   display: flex;
+  align-items: flex-start;
   gap: 8px;
   padding: 6px 10px;
-  background: var(--card-bg);
-  border: 1px solid var(--border);
   border-radius: var(--radius-sm);
-  font-size: 0.98em;
+  font-size: 0.96em;
+  font-family: var(--font-base);
 }
 
 .opt-key {
   font-weight: 700;
-  color: var(--mode-color);
+  color: var(--muted);
+  font-family: var(--font-base);
 }
 
-/* Slashed Code Blocks & Mask */
-code {
-  font-family: var(--font-mono);
-  background: rgba(37, 99, 235, 0.08);
-  color: var(--accent);
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-size: 0.94em;
+.opt-text {
+  color: var(--ink);
+  font-family: var(--font-base);
 }
 
-body.mode-review code {
-  color: var(--review-accent);
-  background: rgba(124, 58, 237, 0.08);
-}
-
-.mask {
-  background: #334155;
-  color: #334155;
-  padding: 1px 6px;
-  border-radius: 3px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  user-select: none;
-  font-weight: 500;
-}
-
-.mask:hover, .mask.revealed {
-  background: transparent;
-  color: var(--accent);
-  text-decoration: underline;
-}
-
-body.theme-dark .mask {
-  background: #64748b;
-  color: #64748b;
-}
-
-/* Badges */
-.correct-badge {
-  display: inline-block;
-  padding: 2px 10px;
-  background: var(--success-bg);
-  color: var(--success);
-  border: 1px solid var(--success);
-  border-radius: var(--radius-full);
-  font-weight: 700;
-  font-size: 0.85em;
-}
-
-.trap-badge {
-  display: inline-block;
-  padding: 2px 10px;
-  background: var(--danger-bg);
-  color: var(--danger);
-  border: 1px solid var(--danger);
-  border-radius: var(--radius-full);
-  font-weight: 700;
-  font-size: 0.85em;
-}
-
-/* Classic Kaoyan Trap Badges */
+/* Trap Pills (考研经典干扰项类型标签) */
 .trap-pill {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  padding: 2px 8px;
-  border-radius: 4px;
-  font-size: 0.82em;
+  font-size: 0.76em;
   font-weight: 700;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  margin-left: 6px;
+  vertical-align: middle;
+  font-family: var(--font-base);
 }
 
-.trap-pill-concept { background: #ffedd5; color: #c2410c; border: 1px solid #fed7aa; }
-.trap-pill-opposite { background: #fee2e2; color: #b91c1c; border: 1px solid #fecaca; }
-.trap-pill-unfounded { background: #f3e8ff; color: #7e22ce; border: 1px solid #e9d5ff; }
-.trap-pill-overextrapolate { background: #fef3c7; color: #b45309; border: 1px solid #fde68a; }
-.trap-pill-causality { background: #e0e7ff; color: #4338ca; border: 1px solid #c7d2fe; }
+.trap-pill-opposite { background: #fee2e2; color: #991b1b; border: 1px solid #fecaca; }
+.trap-pill-unfounded { background: #fef3c7; color: #92400e; border: 1px solid #fde68a; }
+.trap-pill-concept { background: #e0e7ff; color: #3730a3; border: 1px solid #c7d2fe; }
+.trap-pill-overextrapolate { background: #f3e8ff; color: #6b21a8; border: 1px solid #e9d5ff; }
+.trap-pill-causality { background: #ffedd5; color: #9a3412; border: 1px solid #fed7aa; }
 
-/* Synonym Paraphrase Card */
+/* Synonym Paraphrase Card (同义替换卡片) */
 .synonym-card {
   margin: 14px 0;
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-left: 4px solid #f59e0b;
-  border-radius: 0 var(--radius-md) var(--radius-md) 0;
-  padding: 12px 16px;
+  padding: 14px 16px;
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+  border: 1.5px solid #86efac;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  font-family: var(--font-base);
+}
+
+body.theme-dark .synonym-card {
+  background: linear-gradient(135deg, #064e3b 0%, #022c22 100%);
+  border-color: #059669;
 }
 
 .synonym-title {
   font-weight: 800;
-  font-size: 0.95em;
-  color: #b45309;
+  color: #166534;
   margin-bottom: 8px;
+  font-size: 0.95em;
   display: flex;
   align-items: center;
   gap: 6px;
 }
 
 body.theme-dark .synonym-title {
-  color: #fbbf24;
+  color: #6ee7b7;
 }
 
 .synonym-table {
@@ -331,108 +330,63 @@ body.theme-dark .synonym-title {
 
 .synonym-table th, .synonym-table td {
   padding: 6px 10px;
-  border: 1px solid var(--border);
+  border: 1px solid rgba(22, 101, 52, 0.2);
 }
 
 .synonym-table th {
-  background: var(--surface);
-  font-weight: 700;
-  color: var(--muted);
+  background: rgba(22, 101, 52, 0.1);
+  color: #166534;
 }
 
-/* Error Reason Checklist */
+body.theme-dark .synonym-table th {
+  background: rgba(110, 231, 183, 0.1);
+  color: #6ee7b7;
+}
+
+/* Error Reason Self-Check Box (错因自查) */
 .error-reason-box {
   margin-top: 14px;
-  padding: 12px 16px;
-  background: #fff1f2;
-  border: 1px solid #fecdd3;
+  padding: 12px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: var(--radius-md);
 }
 
-body.theme-dark .error-reason-box {
-  background: #4c0519;
-  border-color: #9f1239;
-}
-
 .error-reason-title {
-  font-size: 0.92em;
-  font-weight: 800;
-  color: #be123c;
+  font-size: 0.88em;
+  font-weight: 700;
+  color: var(--danger);
   margin-bottom: 8px;
 }
 
-body.theme-dark .error-reason-title {
-  color: #fecdd3;
-}
-
-.error-reason-options {
+.error-checkbox-group {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
 }
 
-.error-reason-label {
+.error-checkbox-label {
+  font-size: 0.85em;
+  color: var(--ink);
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  font-size: 0.88em;
-  font-weight: 600;
-  color: var(--ink);
+  gap: 4px;
   cursor: pointer;
 }
 
-/* Syntax Breakdown Tags */
+/* Syntax Breakdown Badges */
 .syntax-tag {
   display: inline-block;
-  padding: 2px 8px;
+  padding: 2px 7px;
+  font-size: 0.78em;
+  font-weight: 700;
   border-radius: 4px;
-  font-size: 0.82em;
-  font-weight: 700;
   margin-right: 6px;
+  font-family: var(--font-base);
 }
 
-.tag-backbone { background: #dbeafe; color: #1e40af; }
-.tag-attributive { background: #dcfce7; color: #166534; }
-.tag-adverbial { background: #fef3c7; color: #92400e; }
-.tag-noun { background: #f3e8ff; color: #6b21a8; }
-.tag-modifier { background: #e0e7ff; color: #3730a3; }
-
-/* Tables */
-.table-wrap {
-  width: 100%;
-  overflow-x: auto;
-  margin: 14px 0;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.92em;
-  text-align: left;
-}
-
-th, td {
-  padding: 10px 12px;
-  border-bottom: 1px solid var(--border);
-  border-right: 1px solid var(--border);
-}
-
-th:last-child, td:last-child {
-  border-right: none;
-}
-
-th {
-  background: var(--card-bg);
-  font-weight: 700;
-  color: var(--muted);
-}
-
-blockquote {
-  margin: 12px 0;
-  padding: 10px 16px;
-  background: var(--card-bg);
-  border-left: 4px solid var(--mode-color);
-  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-}
+.tag-backbone { background: #dbeafe; color: #1e40af; border: 1px solid #93c5fd; }
+.tag-attributive { background: #fef3c7; color: #92400e; border: 1px solid #fde68a; }
+.tag-adverbial { background: #dcfce7; color: #166534; border: 1px solid #86efac; }
+.tag-noun { background: #f3e8ff; color: #6b21a8; border: 1px solid #e9d5ff; }
+.tag-modifier { background: #f1f5f9; color: #475569; border: 1px solid #cbd5e1; }
