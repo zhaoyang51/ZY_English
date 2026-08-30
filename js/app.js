@@ -515,8 +515,8 @@
       </div>
       <div style="margin-bottom:14px;background:rgba(37,99,235,0.06);padding:12px 16px;border-radius:8px;border-left:4px solid var(--accent);font-family:var(--font-base)">
         <p style="font-weight:700;color:var(--accent);margin-bottom:6px;font-family:var(--font-base)">【意群断句与速译】</p>
-        <p style="font-family:var(--font-base);font-size:1.02em;line-height:1.7;margin-bottom:6px;color:var(--ink)">${sent.slashed_text}</p>
-        <p style="color:#2563eb;font-weight:600;font-family:var(--font-base);line-height:1.6">${sent.chunk_translation}</p>
+        <p class="chunk-group" style="margin-bottom:6px">${window.renderColoredChunks ? window.renderColoredChunks(sent.slashed_text) : sent.slashed_text}</p>
+        <p class="chunk-group">${window.renderColoredChunks ? window.renderColoredChunks(sent.chunk_translation) : sent.chunk_translation}</p>
       </div>
       <div style="margin-bottom:14px;background:var(--card-bg);padding:14px 16px;border-radius:8px;border:1px solid var(--border);font-family:var(--font-base)">
         <p style="font-weight:700;color:var(--mode-color);margin-bottom:10px;font-family:var(--font-base)">【主干识别与句法拆解】</p>

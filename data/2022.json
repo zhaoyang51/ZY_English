@@ -11,8 +11,8 @@
           "pid": 0,
           "text": "On a recent sunny day, 13,000 chickens roam over Larry Brown’s 40 windswept acres in Shiner, Texas. Some rest in the shade of a parked car. Others drink water with the cows. This all seems random, but it’s by design, part of what the $6.1 billion U.S. egg industry bets will be its next big thing: climate-friendly eggs.",
           "translation": "最近一个阳光明媚的日子，13,000 只鸡在拉里·布朗 (Larry Brown) 位于德克萨斯州希纳 (Shiner) 的 40 英亩被风吹拂的土地上漫步。有些人在停放的汽车的阴凉处休息。其他人则与牛一起喝水。这一切看似随机，但却是有意为之，这是价值 61 亿美元的美国鸡蛋行业押注的下一件大事的一部分：气候友好型鸡蛋。",
-          "slashed_text": "On a recent sunny day , / 13 , / 000 chickens roam over Larry Brown’s 40 windswept acres / in Shiner , / Texas. Some rest in the shade of a parked car. Others drink water with the cows. This all seems random , / but it’s / by design , / part of what the $6.1 billion U.S. egg industry bets will be its next big thing : / climate-friendly eggs.",
-          "chunk_translation": "在最近一个阳光明媚的日子里， / 1.3 / 万只鸡在拉里·布朗那40英亩迎风起伏的土地上漫步， / 该农场地处谢纳， / 德克萨斯州。有的在停放的车辆阴凉处休息。有的则与牛群一起喝水。这一切看似随意， / 但实际上却是 / 精心设计的， / 是规模达61亿美元的美国鸡蛋产业所押注的下一个行业焦点的一部分： / 气候友好型鸡蛋。",
+          "slashed_text": "On a recent sunny day , / 13 , / 000 chickens roam over Larry Brown’s 40 windswept acres / in Shiner , / Texas. / Some rest in the shade of a parked car. / Others drink water with the cows. / This all seems random , / but it’s / by design , / part of what the $6.1 billion U.S. / egg industry bets will be its next big thing : / climate-friendly eggs.",
+          "chunk_translation": "在最近一个阳光明媚的日子里， / 1.3 / 万只鸡在拉里·布朗那40英亩迎风起伏的土地上漫步， / 该农场地处谢纳， / 德克萨斯州。 / 有的在停放的车辆阴凉处休息。 / 有的则与牛群一起喝水。 / 这一切看似随意， / 但实际上却是 / 精心设计的， / 是规模达61亿美元的美国 / 鸡蛋产业所押注的下一个行业焦点的一部分： / 气候友好型鸡蛋。",
           "vocabulary": [
             {
               "word": "recent",
@@ -65,8 +65,8 @@
           "pid": 1,
           "text": "These eggs, which are making their debut now on shelves for as much as $8 a dozen, are still labeled organic and animal-friendly, but they’re also from birds that live on farms using regenerative agriculture—special techniques to cultivate rich soils that can trap green-house gases. Such eggs could be marketed as helping to fight climate change.",
           "translation": "这些鸡蛋首次在货架上亮相，售价高达 8 美元一打，仍然贴有有机和动物友好型标签，但它们也来自生活在采用再生农业农场的鸟类，这是一种培育肥沃土壤的特殊技术，可以捕获温室气体。这些鸡蛋可以作为有助于应对气候变化的产品进行营销。",
-          "slashed_text": "These eggs , / which are making their debut now / on shelves for as much as $8 a dozen , / are still labeled organic and animal-friendly , / but they’re also / from birds / that live / on farms using regenerative agriculture — / special techniques to cultivate rich soils / that can trap green-house gases. Such eggs could be marketed as helping to fight climate change.",
-          "chunk_translation": "这些鸡蛋， / 如今正首次亮相 / 于货架之上，售价高达每打8美元， / 依然被贴上“有机”和“动物友好”的标签， / 但它们还来自 / 那些母鸡， / 它们生活在 / 采用再生农业技术的农场中—— / 这是一种用来培育肥沃土壤的特殊技术， / 能够有效封存温室气体。这类鸡蛋在营销时可以宣传为有助于应对气候变化。",
+          "slashed_text": "These eggs , / which are making their debut now / on shelves for as much as $8 a dozen , / are still labeled organic and animal-friendly , / but they’re also / from birds / that live / on farms using regenerative agriculture — / special techniques to cultivate rich soils / that can trap green-house gases. / Such eggs could be marketed as helping to fight climate change.",
+          "chunk_translation": "这些鸡蛋， / 如今正首次亮相 / 于货架之上，售价高达每打8美元， / 依然被贴上“有机”和“动物友好”的标签， / 但它们还来自 / 那些母鸡， / 它们生活在 / 采用再生农业技术的农场中—— / 这是一种用来培育肥沃土壤的特殊技术， / 能够有效封存温室气体。 / 这类鸡蛋在营销时可以宣传为有助于应对气候变化。",
           "vocabulary": [
             {
               "word": "eggs",
@@ -119,8 +119,8 @@
           "pid": 2,
           "text": "“I’m excited about our progress,” says Brown, who is adding more cover crops that draw worms and crickets for the chickens to eat. The birds’ waste then fertilizes fields. Such improvements “allow our hens to forage for higher-quality natural feed that will be good for the land, the hens, and the eggs that we supply to our customers.”",
           "translation": "“我对我们的进展感到很兴奋，”布朗说，他正在增加更多的覆盖作物，吸引蠕虫和蟋蟀来供鸡吃。然后鸟类的排泄物可以给田地施肥。这些改进“使我们的母鸡能够觅食更高质量的天然饲料，这对土地、母鸡和我们向客户提供的鸡蛋都有好处。”",
-          "slashed_text": "“I’m excited about our progress , / ” says Brown , / who is adding more cover crops / that draw worms and crickets for the chickens to eat. The birds’ waste then fertilizes fields. Such improvements “allow our hens to forage / for higher-quality natural feed / that will be good for the land , / the hens , / and the eggs / that we supply to our customers.”",
-          "chunk_translation": "“我对我们的进展感到兴奋，” / 布朗说， / 他正在增加种植更多的覆盖作物， / 这些作物能引来蠕虫和蟋蟀供鸡群食用。鸡群的粪便随后又能为田地施肥。这些改进“使我们的母鸡能够觅食 / 更高质量的天然食料， / 这将有益于土地、 / 母鸡本身， / 以及我们供应给 / 广大客户的鸡蛋。”",
+          "slashed_text": "“I’m excited about our progress , / ” says Brown , / who is adding more cover crops / that draw worms and crickets for the chickens to eat. / The birds’ waste then fertilizes fields. / Such improvements “allow our hens to forage / for higher-quality natural feed / that will be good for the land , / the hens , / and the eggs / that we supply to our customers.”",
+          "chunk_translation": "“我对我们的进展感到兴奋，” / 布朗说， / 他正在增加种植更多的覆盖作物， / 这些作物能引来蠕虫和蟋蟀供鸡群食用。 / 鸡群的粪便随后又能为田地施肥。 / 这些改进“使我们的母鸡能够觅食 / 更高质量的天然食料， / 这将有益于土地、 / 母鸡本身， / 以及我们供应给 / 广大客户的鸡蛋。”",
           "vocabulary": [
             {
               "word": "excited",
@@ -173,8 +173,8 @@
           "pid": 3,
           "text": "The egg industry’s push is the first major test of whether animal products from regenerative farms can become the next premium offering. In barely more than a decade, organic eggs went from being dismissed as a niche product in natural foods stores to being sold at Walmart. More recently there were similar doubts about probiotics and plant-based meats, but both have exploded into major supermarket categories. If the sustainable-egg rollout is successful, it could open the floodgates for regenerative beef, broccoli, and beyond.",
           "translation": "鸡蛋行业的推动是对再生农场的动物产品能否成为下一个高端产品的首次重大考验。在短短十多年间，有机鸡蛋从在天然食品店被视为小众产品，转变为在沃尔玛销售。最近，人们对益生菌和植物肉也有类似的怀疑，但两者都已迅速发展成为主要的超市品类。如果可持续鸡蛋的推广获得成功，它可能会为再生牛肉、西兰花等产品打开闸门。",
-          "slashed_text": "The egg industry’s push is the first major test / of whether animal products from regenerative farms can become the next premium offering. In barely more than a decade , / organic eggs went / from being dismissed as a niche product in natural foods stores / to being sold at Walmart. More recently there were similar doubts / about probiotics and plant-based meats , / but both have exploded into major supermarket categories. If the sustainable-egg rollout is successful , / it could open the floodgates for regenerative beef , / broccoli , / and beyond.",
-          "chunk_translation": "鸡蛋行业的这一推动是一次重大检验， / 检验来自再生农业农场的动物产品是否能成为下一代高端品类。在短短十多年间， / 有机鸡蛋经历蜕变， / 从在天然食品店中被视作小众产品， / 到在沃尔玛全面上架销售。近年来人们也曾对益生菌和植物肉 / 抱有类似疑虑， / 但如今两者都已跃升为各大超市的主力品类。如果可持续鸡蛋的推广取得成功， / 它将为再生牛肉、 / 西兰花及更多农产品的兴起敞开大门。",
+          "slashed_text": "The egg industry’s push is the first major test of whether animal products / from regenerative farms can become the next premium offering. / In barely more than a decade , / organic eggs went / from being dismissed as a niche product / in natural foods stores to being sold / at Walmart. / More recently there were similar doubts / about probiotics and plant-based meats , / but both have exploded / into major supermarket categories. / If the sustainable-egg rollout is successful , / it could open the floodgates / for regenerative beef , / broccoli , / and beyond.",
+          "chunk_translation": "鸡蛋产业的这一推动是对来自再生农场的动物产品 / 能否成为下一代高端主打产品的首次重大考验。 / 在短短十余年间， / 有机鸡蛋的地位经历转变， / 从起初在天然食品商店里被视作小众边缘产品， / 发展到上架销售 / 于沃尔玛这样的主流零售巨头。 / 近来人们对于益生菌和植物人造肉 / 也曾有过类似的怀疑， / 但这二者均已迅速爆发， / 成为超市的核心大类。 / 如果可持续鸡蛋的推广获得成功， / 它可能会打开市场的大门， / 为再生牛肉、 / 西兰花 / 以及更多品类铺平道路。",
           "vocabulary": [
             {
               "word": "regenerative",
@@ -187,8 +187,8 @@
           "pid": 4,
           "text": "Regenerative products could be a hard sell, because the concept is tough to define quickly, says Julie Stanton, associate professor of agricultural economics at Pennsylvania State University Brandywine. Such farming also brings minimal, if any, improvement to the food products (though some producers say their eggs have more protein).",
           "translation": "宾夕法尼亚州立大学布兰迪万分校农业经济学副教授朱莉·斯坦顿（Julie Stanton）表示，再生产品可能很难推销，因为这个概念很难迅速定义。这种耕作方式对食品本身带来的改善即便有也是微乎其微的（尽管一些生产商表示他们的鸡蛋含有更多蛋白质）。",
-          "slashed_text": "Regenerative products could be a hard sell , / because the concept is tough to define quickly , / says Julie Stanton , / associate professor of agricultural economics at Pennsylvania State University Brandywine. Such farming also brings minimal , / if any , / improvement to the food products / ( though some producers say their eggs have more protein ) .",
-          "chunk_translation": "再生农业产品可能很难推销， / 因为这一概念很难在短时间内迅速解释清楚， / 朱莉·斯坦顿指出， / 她是宾夕法尼亚州立大学白兰地酒分校的农业经济学副教授。这种耕作方式对食品品质的提升微乎其微， / 即便有的话， / 对食品本身的改善也很有限 / （尽管部分生产商坚称他们的鸡蛋富含更多蛋白质）。",
+          "slashed_text": "Regenerative products could be a hard sell , / because the concept is tough to define quickly , / says Julie Stanton , / associate professor of agricultural economics / at Pennsylvania State University Brandywine. / Such farming also brings minimal , / if any , / improvement to the food products ( / though some producers say their eggs have more protein).",
+          "chunk_translation": "再生农产品可能并不容易推销， / 因为这一概念很难在短时间内解释清楚， / 宾夕法尼亚州立大学布兰迪万分校 / 农业经济学副教授 / 朱莉·斯坦顿指出。 / 这类农耕方式对食品本身带来的改善即便存在， / 也是微乎其微的 / （虽然一些生产商 / 坚称他们的鸡蛋含有更高的蛋白质）。",
           "vocabulary": [
             {
               "word": "industry",
@@ -236,8 +236,8 @@
           "pid": 5,
           "text": "The industry is betting that the same consumers paying more for premium attributes such as free-range, non-GMO, and pasture-raised eggs will embrace sustainability. Surveys show that younger generations are more concerned about climate change, and some of the success of plant-based meat can be chalked up to shoppers wanting to signal their desire to protect the environment. Young adults “really care about the planet,” says John Brunnquell, president of Egg Innovations. “They are absolutely altering the food chain beyond what I think even they understand what they’re doing.”",
           "translation": "该行业押注，为自由放养、非转基因和牧场饲养鸡蛋等优质产品支付更多费用的消费者将接受可持续发展。调查显示，年轻一代更关心气候变化，植物性肉类的成功部分可以归因于购物者希望表达他们保护环境的愿望。 Egg Innovations 总裁约翰·布伦奎尔 (John Brunnquell) 表示，年轻人“真正关心地球”。 “他们绝对正在改变食物链，超出了我的想象，即使他们明白自己在做什么。”",
-          "slashed_text": "The industry is betting / that the same consumers paying more / for premium attributes such as free-range , / non-GMO , / and pasture-raised eggs will embrace sustainability. Surveys show / that younger generations are more concerned / about climate change , / and some of the success of plant-based meat can be chalked up to shoppers wanting to signal their desire to protect the environment. Young adults “really care about the planet , / ” says John Brunnquell , / president of Egg Innovations. “They are absolutely altering the food chain beyond what I think even they understand what they’re doing.”",
-          "chunk_translation": "该行业正押注 / 那些愿意为优质特性支付更高溢价的消费者， / 例如散养、 / 非转基因 / 以及草场放养鸡蛋的购买者，也将欣然接受可持续性概念。调查显示， / 年轻一代更加关切 / 气候变化问题， / 而植物肉的部分成功可以归因于消费者希望借此展现自己保护环境的意愿。年轻群体“确实非常关爱我们的星球，” / “创新鸡蛋”公司总裁 / 约翰·布伦奎尔说道。“他们绝对正在改变食物链，其深远影响甚至超出了他们对自己行为的认知。”",
+          "slashed_text": "The industry is betting / that the same consumers paying more / for premium attributes such as free-range , / non-GMO , / and pasture-raised eggs will embrace sustainability. / Surveys show / that younger generations are more concerned / about climate change , / and some of the success of plant-based meat can be chalked up to shoppers wanting to signal their desire to protect the environment. / Young adults “really care about the planet , / ” says John Brunnquell , / president of Egg Innovations. / “They are absolutely altering the food chain beyond what I think even they understand what they’re doing.”",
+          "chunk_translation": "该行业正押注 / 那些愿意为优质特性支付更高溢价的消费者， / 例如散养、 / 非转基因 / 以及草场放养鸡蛋的购买者，也将欣然接受可持续性概念。 / 调查显示， / 年轻一代更加关切 / 气候变化问题， / 而植物肉的部分成功可以归因于消费者希望借此展现自己保护环境的意愿。 / 年轻群体“确实非常关爱我们的星球，” / “创新鸡蛋”公司总裁 / 约翰·布伦奎尔说道。 / “他们绝对正在改变食物链，其深远影响甚至超出了他们对自己行为的认知。”",
           "vocabulary": [
             {
               "word": "industry",
@@ -528,7 +528,7 @@
           "sentence_index": 3,
           "text": "If the sustainable-egg rollout is successful, it could open the floodgates for regenerative beef, broccoli, and beyond.",
           "translation": "如果可持续鸡蛋的推广成功，它可能会为再生牛肉、西兰花等产品打开大门。",
-          "slashed_text": "/ If the sustainable-egg rollout is successful , / it could open the floodgates / for regenerative beef , / broccoli , / and beyond.",
+          "slashed_text": "If the sustainable-egg rollout is successful , / it could open the floodgates / for regenerative beef , / broccoli , / and beyond.",
           "chunk_translation": "如果可持续鸡蛋的推广获得成功， / 它可能会打开市场的大门， / 为再生牛肉、 / 西兰花 / 以及更多品类铺平道路。",
           "syntax": {
             "breakdown": [
@@ -1163,8 +1163,8 @@
           "pid": 1,
           "text": "One in three Americans who are at least 40 have, or plan to have a job in retirement to prepare for a longer life, according to a survey conducted by Harris Poll for TD Ameritrade. Even more surprising is that more than half of “unretirees”—those who plan to work in retirement or went back to work after retiring—said they would be employed in their later years even if they had enough money to settle down, the survey showed.",
           "translation": "根据哈里斯民意调查 (Harris Poll) 为德美利证券 (TD Ameritrade) 进行的一项调查，三分之一 40 岁以上的美国人已经或计划在退休后找到一份工作，为更长的生活做好准备。更令人惊讶的是，调查显示，超过一半的“未退休人员”（那些计划退休后工作或退休后重返工作岗位的人）表示，即使他们有足够的钱安定下来，他们也会在晚年找到工作。",
-          "slashed_text": "One / in three Americans / who are / at least 40 have , / or plan to have a job / in retirement to prepare for a longer life , / according to a survey conducted / by Harris Poll for TD Ameritrade. Even more surprising is / that more than half of “unretirees” — / those / who plan to work / in retirement or went back to work / after retiring — / said they would be employed / in their later years even / if they had enough money to settle down , / the survey showed.",
-          "chunk_translation": "每三人中就有一人 / 在全美范围内， / 只要年龄达到 / 至少40岁就已拥有， / 或计划在退休后保留一份工作， / 以便为更长寿的生活做准备， / 根据一项民调调查， / 该调查由哈里斯民调为德美利证券所开展。更令人惊讶的是， / 超过半数的“不退休族”—— / 即那些 / 计划工作的人 / 在退休后，或者重新重返工作岗位 / 在退休之后—— / 表示他们仍会受雇工作 / 在他们的晚年，即便 / 他们有足够的金钱安顿下来， / 该项调查显示。",
+          "slashed_text": "One / in three Americans / who are / at least 40 have , / or plan to have a job / in retirement to prepare for a longer life , / according to a survey conducted / by Harris Poll for TD Ameritrade. / Even more surprising is / that more than half of “unretirees” — / those / who plan to work / in retirement or went back to work / after retiring — / said they would be employed / in their later years even / if they had enough money to settle down , / the survey showed.",
+          "chunk_translation": "每三人中就有一人 / 在全美范围内， / 只要年龄达到 / 至少40岁就已拥有， / 或计划在退休后保留一份工作， / 以便为更长寿的生活做准备， / 根据一项民调调查， / 该调查由哈里斯民调为德美利证券所开展。 / 更令人惊讶的是， / 超过半数的“不退休族”—— / 即那些 / 计划工作的人 / 在退休后，或者重新重返工作岗位 / 在退休之后—— / 表示他们仍会受雇工作 / 在他们的晚年，即便 / 他们有足够的金钱安顿下来， / 该项调查显示。",
           "vocabulary": [
             {
               "word": "least",
@@ -1217,8 +1217,8 @@
           "pid": 2,
           "text": "Financial needs aren’t the only culprit for the “unretirement” trend. Other reasons, according to the study, include personal fulfillment such as staying mentally fit, preventing boredom or avoiding depression. “The concept of retirement is evolving,” said Christine Russell, senior manager of retirement at TD Ameritrade. “It’s not just about finances. The value of work is also driving folks to continue working past retirement.”",
           "translation": "财务需求并不是“不退休”趋势的唯一罪魁祸首。研究表明，其他原因还包括个人满足感，例如保持精神健康、防止无聊或避免抑郁。 德美利证券 (TD Ameritrade) 退休高级经理克里斯汀·拉塞尔 (Christine Russell) 表示：“退休的概念正在不断演变。” “这不仅仅是财务问题。工作的价值也促使人们在退休后继续工作。”",
-          "slashed_text": "Financial needs aren’t the only culprit for the “unretirement” trend. Other reasons , / according to the study , / include personal fulfillment such as staying mentally fit , / preventing boredom or avoiding depression. “The concept of retirement is evolving , / ” said Christine Russell , / senior manager of retirement at TD Ameritrade. “It’s not just / about finances. The value of work is also driving folks to continue working past retirement.”",
-          "chunk_translation": "经济需求并非导致“不退休”趋势的唯一诱因。根据该项研究，其他原因 / 还包括自我实现， / 例如保持思维敏捷活跃、 / 排解无聊或者避免陷入抑郁。 “退休的概念正在不断演化，” / 德美利证券退休事务高级经理 / 克里斯汀·拉塞尔表示。“这不仅关乎 / 经济财务层面。工作的内在价值同样在驱使人们在退休后继续从事工作。”",
+          "slashed_text": "Financial needs aren’t the only culprit for the “unretirement” trend. / Other reasons , / according to the study , / include personal fulfillment such as staying mentally fit , / preventing boredom or avoiding depression. / “The concept of retirement is evolving , / ” said Christine Russell , / senior manager of retirement at TD Ameritrade. / “It’s not just / about finances. / The value of work is also driving folks to continue working past retirement.”",
+          "chunk_translation": "经济需求并非导致“不退休”趋势的唯一诱因。 / 根据该项研究，其他原因 / 还包括自我实现， / 例如保持思维敏捷活跃、 / 排解无聊或者避免陷入抑郁。 / “退休的概念正在不断演化，” / 德美利证券退休事务高级经理 / 克里斯汀·拉塞尔表示。 / “这不仅关乎 / 经济财务层面。 / 工作的内在价值同样在驱使人们在退休后继续从事工作。”",
           "vocabulary": [
             {
               "word": "Financial",
@@ -1316,8 +1316,8 @@
           "pid": 3,
           "text": "One reason for the change in retirement patterns: Americans are living longer. Older Americans are also the fastest-growing segment of the U.S. workforce. The percentage of retirement-age people in the labor force has doubled over the past three decades. About 20% of people 65 and older were in the workforce in February 2019, up from an all-time low of 10% in January 1985, according to money manager United Income.",
           "translation": "退休模式发生变化的原因之一是：美国人的寿命更长。美国老年人也是美国劳动力中增长最快的部分。过去三十年里，退休年龄人口在劳动力中的比例翻了一番。根据资金管理公司 United Income 的数据，2019 年 2 月，65 岁及以上的人中约有 20% 进入劳动力市场，高于 1985 年 1 月 10% 的历史最低水平。",
-          "slashed_text": "One reason for the change / in retirement patterns : / Americans are living longer. Older Americans are also the fastest-growing segment of the U.S. workforce. The percentage of retirement-age people in the labor force has doubled over the past three decades. About 20% of people 65 and older were in the workforce / in February 2019 , / up from an all-time low of 10% / in January 1985 , / according to money manager United Income.",
-          "chunk_translation": "退休模式发生改变的原因之一是： / 退休生活模式： / 美国人的预期寿命变得更长。美国老年群体也是全美劳动力中增长最快的一部分。在过去三十年中，处于退休年龄却依然在职的人员比例翻了一番。大约20%的65岁及以上老年人处于就业状态 / 在2019年2月， / 高于10%的历史最低点 / 在1985年1月， / 据资产管理机构联合收入公司的数据显示。",
+          "slashed_text": "One reason for the change / in retirement patterns : / Americans are living longer. / Older Americans are also the fastest-growing segment of the U.S. / workforce. / The percentage of retirement-age people in the labor force has doubled over the past three decades. / About 20% of people 65 and older were in the workforce / in February 2019 , / up from an all-time low of 10% / in January 1985 , / according to money manager United Income.",
+          "chunk_translation": "退休模式发生改变的原因之一是： / 退休生活模式： / 美国人的预期寿命变得更长。 / 美国老年群体也是全美劳动力中 / 增长最快的一部分。 / 在过去三十年中，处于退休年龄却依然在职的人员比例翻了一番。 / 大约20%的65岁及以上老年人处于就业状态 / 在2019年2月， / 高于10%的历史最低点 / 在1985年1月， / 据资产管理机构联合收入公司的数据显示。",
           "vocabulary": [
             {
               "word": "reason",
@@ -1370,8 +1370,8 @@
           "pid": 4,
           "text": "Because of longer life spans, Americans are also boosting their savings to preserve their nest eggs, the TD Ameritrade study showed, which surveyed 2,000 adults between 40 to 79. Six in 10 “unretirees” are increasing their savings in anticipation of a longer life. Among the most popular ways they are doing this, the company said, is by reducing their overall expenses, securing life insurance or maximizing their contributions to retirement accounts.",
           "translation": "TD Ameritrade对2000名40至79岁的成年人进行的一项研究显示，由于寿命延长，美国人也在增加储蓄以保住养老金。十分之六的“退而不休者”正在增加储蓄以期长寿。该公司表示，在他们这样做的最流行的方式中，包括减少总体开支、购买人寿保险或最大化向退休账户供款。",
-          "slashed_text": "Because of longer life spans , / Americans are also boosting their savings to preserve their nest eggs , / the TD Ameritrade study showed , / which surveyed 2 , / 000 adults between 40 to 79. Six in 10 “unretirees” are increasing their savings / in anticipation of a longer life. Among the most popular ways they are doing this , / the company said , / is by reducing their overall expenses , / securing life insurance / or maximizing their contributions to retirement accounts.",
-          "chunk_translation": "由于预期寿命更长， / 美国人也在增加储蓄以保全自己的养老金积蓄， / 道明美国交易公司的这项调查显示， / 该调查覆盖了2000名年龄在40至79岁之间的成年人。十分之六的“重返职场者”正在增加储蓄， / 为更长寿的生活做准备。在他们采取的最普遍的方式中， / 该机构指出， / 主要是通过削减日常总体开支、 / 购买人寿保险保障， / 或尽量足额向个人退休金账户缴费。",
+          "slashed_text": "Because of longer life spans , / Americans are also boosting their savings to preserve their nest eggs , / the TD Ameritrade study showed , / which surveyed 2 , / 000 adults between 40 to 79. / Six in 10 “unretirees” are increasing their savings / in anticipation of a longer life. / Among the most popular ways they are doing this , / the company said , / is / by reducing their overall expenses , / securing life insurance or maximizing their contributions to retirement accounts.",
+          "chunk_translation": "由于预期寿命延长， / 美国人也在增加储蓄以保全自己的养老金， / 德美利证券的这项研究所揭示， / 该研究调查了2 / 000名年龄在40至79岁之间的成年人。 / 十分之六的“不退休族”正在增加储蓄， / 以应对更加长寿的生活。 / 在他们采取的最普遍的做法中， / 该公司指出， / 主要包括： / 削减总体日常开支、 / 购买人寿保险或顶格缴纳个人退休账户供款。",
           "vocabulary": [
             {
               "word": "Because",
@@ -1424,8 +1424,8 @@
           "pid": 5,
           "text": "Unfortunately, many people who are opting to work in retirement are preparing to do so because they are worried about making ends meet in their later years, said Brent Weiss, a co-founder at Baltimore-based financial-planning firm Facet Wealth. He suggested that pre-retirees should speak with a financial adviser to set long-term financial goals. “The most challenging moments in life are getting married, starting a family and ultimately retiring,” Weiss said. “It’s not just a financial decision, but an emotional one. Many people believe they can’t retire.”",
           "translation": "总部位于巴尔的摩的财务规划公司Facet Wealth的联合创始人布伦特·韦斯（Brent Weiss）表示，不幸的是，许多选择在退休后工作的人准备这样做是因为他们担心在晚年难以维持生计。他建议准退休人员应该与财务顾问交谈，以制定长期财务目标。“人生中最具挑战性的时刻是结婚、组建家庭并最终退休，”韦斯说。“这不仅是一个财务决定，也是一个情感决定。许多人认为他们无法退休。”",
-          "slashed_text": "Unfortunately , / many people who are opting to work in retirement are preparing to do so / because they are worried about making ends meet in their later years , / said Brent Weiss , / a co-founder at Baltimore-based financial-planning firm Facet Wealth. He suggested that pre-retirees should speak with a financial adviser / to set long-term financial goals. “The most challenging moments in life are getting married , / starting a family / and ultimately retiring ,” / Weiss said. “It’s not just a financial decision , / but an emotional one. Many people believe they can’t retire.”",
-          "chunk_translation": "令人遗憾的是， / 许多选择在退休后继续工作的人之所以这样做， / 是因为他们担忧晚年生活入不敷出、生计艰难， / 布伦特·韦斯指出， / 他是总部位于巴尔的摩的财务规划机构Facet Wealth的联合创始人。他建议即将退休的人员应咨询专业理财顾问， / 尽早制定长远稳健的财务目标。“人生中最具挑战性的几个节点莫过于结婚、成家立业 / 以及最终步入退休，” / 韦斯感慨道。 / “这绝不仅仅是一项财务规划决策， / 更是一次深刻的情感转变。然而很多人却深信自己根本无法安享退休。”",
+          "slashed_text": "Unfortunately , / many people / who are opting to work / in retirement are preparing to do so / because they are worried / about making ends meet / in their later years , / said Brent Weiss , / a co-founder / at Baltimore-based financial-planning firm Facet Wealth. / He suggested / that pre- retirees should speak with a financial adviser to set long-term financial goals. / “The most challenging moments / in life are getting married , / starting a family and ultimately retiring , / ” Weiss said. / “It’s not just a financial decision , / but an emotional one. / Many people believe they can’t retire.”",
+          "chunk_translation": "不幸的是， / 许多人 / 选择继续工作 / 在退休后准备这样做， / 是因为他们担忧 / 难以维持收支平衡 / 在自己的晚年生活中， / 布伦特·韦斯指出， / 他是总部位于巴尔的摩的理财规划机构 / 辉盛财富的联合创始人。 / 他建议， / 准退休人员应当咨询专业财务顾问以确立长期财务规划目标。 / “人生中最具挑战性的转折时刻 / 在于结婚成家、 / 养育子女以及最终步入退休，” / 韦斯说道。 / “这不仅是一项财务上的抉择， / 更是一场情感上的心理转变。 / 许多人甚至深信自己根本无法退得起休。”",
           "vocabulary": [
             {
               "word": "Because",
@@ -1766,7 +1766,7 @@
           "sentence_index": 0,
           "text": "Because of longer life spans, Americans are also boosting their savings to preserve their nest eggs, the TD Ameritrade study showed, which surveyed 2,000 adults between 40 to 79.",
           "translation": "德美利证券 (TD Ameritrade) 对 2000 名 40 至 79 岁成年人进行的调查显示，由于寿命更长，美国人也在增加储蓄以保存储蓄。",
-          "slashed_text": "/ Because of longer life spans , / Americans are also boosting their savings to preserve their nest eggs , / the TD Ameritrade study showed , / which surveyed 2 , / 000 adults between 40 to 79.",
+          "slashed_text": "Because of longer life spans , / Americans are also boosting their savings to preserve their nest eggs , / the TD Ameritrade study showed , / which surveyed 2 , / 000 adults between 40 to 79.",
           "chunk_translation": "由于预期寿命延长， / 美国人也在增加储蓄以保全自己的养老金， / 德美利证券的这项研究所揭示， / 该研究调查了2 / 000名年龄在40至79岁之间的成年人。",
           "syntax": {
             "breakdown": [
@@ -2375,8 +2375,8 @@
           "pid": 0,
           "text": "We have all encountered them, in both our personal and professional lives. Think about the times you felt tricked or frustrated by a membership or subscription that had a seamless sign-up process but was later difficult to cancel. Something that should be simple and transparent can be complicated, intentionally or unintentionally, in ways that impair consumer choice. These are examples of dark patterns.",
           "translation": "我们在个人生活和职业生活中都遇到过它们。想象一下您曾因会员资格或订阅具有无缝注册流程但后来很难取消而感到受骗或沮丧的时候。本来应该简单透明的事情可能会有意无意地变得复杂，从而损害消费者的选择。这些是深色图案的示例。",
-          "slashed_text": "We have all encountered them , / in both our personal and professional lives. Think about the times you felt tricked or frustrated by a membership or subscription / that had a seamless sign-up process but was later difficult to cancel. Something / that should be simple and transparent can be complicated , / intentionally or unintentionally , / in ways / that impair consumer choice. These are examples of dark patterns.",
-          "chunk_translation": "我们所有人在个人生活与职场工作中 / 都曾遇见过它们。回想一下你因某项会员或订阅服务而感到被欺骗或沮丧的时刻： / 该服务注册流程畅通无阻，但日后若想取消却百般刁难。某些事情 / 本应简单透明，却可能有意无意地 / 被复杂化， / 以损害 / 消费者自主选择权的方式呈现。这些都是“黑暗模式”的典型例子。",
+          "slashed_text": "We have all encountered them , / in both our personal and professional lives. / Think about the times you felt tricked or frustrated by a membership or subscription / that had a seamless sign-up process but was later difficult to cancel. / Something / that should be simple and transparent can be complicated , / intentionally or unintentionally , / in ways / that impair consumer choice. / These are examples of dark patterns.",
+          "chunk_translation": "我们所有人在个人生活与职场工作中 / 都曾遇见过它们。 / 回想一下你因某项会员或订阅服务而感到被欺骗或沮丧的时刻： / 该服务注册流程畅通无阻，但日后若想取消却百般刁难。 / 某些事情 / 本应简单透明，却可能有意无意地 / 被复杂化， / 以损害 / 消费者自主选择权的方式呈现。 / 这些都是“黑暗模式”的典型例子。",
           "vocabulary": [
             {
               "word": "encountered",
@@ -2429,8 +2429,8 @@
           "pid": 1,
           "text": "First coined in 2010 by user experience expert Harry Brignull, “dark patterns” is a catch- all term for practices that manipulate user interfaces to influence the decision-making ability of users. Brignull identifies 12 types of common dark patterns, ranging from misdirection and hidden costs to “roach motel,” where a user experience seems easy and intuitive at the start, but turns difficult when the user tries to get out.",
           "translation": "“黑暗模式”由用户体验专家 Harry Brignull 于 2010 年首次提出，是一个包罗万象的术语，指的是操纵用户界面以影响用户决策能力的实践。 Brignull 识别了 12 种常见的暗模式，从误导和隐藏成本到“蟑螂汽车旅馆”，用户体验一开始似乎简单直观，但当用户试图离开时就会变得困难。",
-          "slashed_text": "First coined in 2010 / by user experience expert Harry Brignull , / “dark patterns” is a catch- all term / for practices / that manipulate user interfaces to influence the decision-making ability of users. Brignull identifies 12 types of common dark patterns , / ranging / from misdirection and hidden costs to “roach motel , / ” / where a user experience seems easy and intuitive at the start , / but turns difficult / when the user tries to get out.",
-          "chunk_translation": "于2010年由用户体验专家哈里·布里格努尔首次提出， / “黑暗模式”是一个统称术语， / 用以概括那些 / 通过操纵用户界面 / 来左右用户决策能力的做法。布里格努尔归纳出了12种常见的黑暗模式类型， / 范围涵盖 / 从错误引导、隐藏费用到“蟑螂旅馆”模式， / 在这一模式中， / 用户体验在起初看似简单直观， / 但当用户试图抽身退出时 / 却变得困难重重。",
+          "slashed_text": "First coined in 2010 / by user experience expert Harry Brignull , / “dark patterns” is a catch- all term / for practices / that manipulate user interfaces to influence the decision-making ability of users. / Brignull identifies 12 types of common dark patterns , / ranging / from misdirection and hidden costs to “roach motel , / ” / where a user experience seems easy and intuitive at the start , / but turns difficult / when the user tries to get out.",
+          "chunk_translation": "于2010年由用户体验专家哈里·布里格努尔首次提出， / “黑暗模式”是一个统称术语， / 用以概括那些 / 通过操纵用户界面 / 来左右用户决策能力的做法。 / 布里格努尔归纳出了12种常见的黑暗模式类型， / 范围涵盖 / 从错误引导、隐藏费用到“蟑螂旅馆”模式， / 在这一模式中， / 用户体验在起初看似简单直观， / 但当用户试图抽身退出时 / 却变得困难重重。",
           "vocabulary": [
             {
               "word": "coined",
@@ -2483,8 +2483,8 @@
           "pid": 2,
           "text": "In a 2019 study of 53,000 product pages and 11,000 websites, researchers found that about one in 10 employs these design practices. Though widely prevalent, the concept of dark patterns is still not well understood. Business and nonprofit leaders should be aware of dark patterns and try to avoid the gray areas they engender.",
           "translation": "在 2 019 年对 53,000 个产品页面和 11,000 个网站的研究中，研究人员发现大约十分之一的人采用了这些设计实践。尽管深色图案的概念广泛流行，但仍然没有得到很好的理解。企业和非营利组织的领导者应该意识到黑暗模式，并尽量避免它们产生的灰色区域。",
-          "slashed_text": "In a 2019 study of 53 , / 000 product pages and 11 , / 000 websites , / researchers found / that about one in 10 employs these design practices. / Though widely prevalent , / the concept of dark patterns is still not well understood. Business and nonprofit leaders should be aware of dark patterns and try to avoid the gray areas they engender.",
-          "chunk_translation": "在2019年一项针对53 / 000个产品页面和11 / 000个网站的研究中， / 研究人员发现， / 大约有十分之一的网站采用了这类设计手法。 / 尽管广泛存在， / 但“黑暗模式”这一概念在公众中依然缺乏充分理解。商业及非营利机构的领导者应当对黑暗模式保持警惕，并尽力规避其所滋生的灰色地带。",
+          "slashed_text": "In a 2019 study of 53 , / 000 product pages and 11 , / 000 websites , / researchers found / that about one in 10 employs these design practices. / Though widely prevalent , / the concept of dark patterns is still not well understood. / Business and nonprofit leaders should be aware of dark patterns and try to avoid the gray areas they engender.",
+          "chunk_translation": "在2019年一项针对53 / 000个产品页面和11 / 000个网站的研究中， / 研究人员发现， / 大约有十分之一的网站采用了这类设计手法。 / 尽管广泛存在， / 但“黑暗模式”这一概念在公众中依然缺乏充分理解。 / 商业及非营利机构的领导者应当对黑暗模式保持警惕，并尽力规避其所滋生的灰色地带。",
           "vocabulary": [
             {
               "word": "study",
@@ -2537,8 +2537,8 @@
           "pid": 3,
           "text": "Where is the line between ethical, persuasive design and dark patterns? Businesses should engage in conversations with IT, compliance, risk, and legal teams to review their privacy policy, and include in the discussion the customer/user experience designers and coders responsible for the company’s user interface, as well as the marketers and advertisers responsible for sign-ups, checkout baskets, pricing, and promotions. Any or all these teams can play a role in creating or avoiding “digital deception.”",
           "translation": "道德的、有说服力的设计和黑暗模式之间的界限在哪里？企业应与 IT、合规、风险和法律团队进行对话，以审查其隐私政策，并让负责公司用户界面的客户/用户体验设计师和编码人员，以及负责注册、结账篮、定价和促销的营销人员和广告商参与讨论。任何或所有这些团队都可以在创造或避免“数字欺骗”方面发挥作用。",
-          "slashed_text": "/ Where is the line between ethical , / persuasive design and dark patterns? Businesses should engage / in conversations with IT , / compliance , / risk , / and legal teams to review their privacy policy , / and include in the discussion the customer / user experience designers and coders responsible for the company’s user interface , / as well as the marketers and advertisers responsible / for sign-ups , / checkout baskets , / pricing , / and promotions. Any or all these teams can play a role / in creating or avoiding “digital deception.”",
-          "chunk_translation": "合乎道德的说服性设计 / 与黑暗模式之间的分界线究竟在哪里？企业应当开展跨部门沟通， / 与信息技术、 / 合规、 / 风控 / 及法务团队一起审查自身的隐私政策， / 并让负责公司用户界面的客户/ / 用户体验设计师及程序员参与讨论， / 同时纳入负责 / 用户注册、 / 结账购物车、 / 定价 / 及促销活动的营销与广告人员。上述任何或全部团队都在制造或避免 / “数字欺骗”中扮演着重要角色。",
+          "slashed_text": "Where is the line between ethical , / persuasive design and dark patterns? / Businesses should engage / in conversations with IT , / compliance , / risk , / and legal teams to review their privacy policy , / and include in the discussion the customer / user experience designers and coders responsible for the company’s user interface , / as well as the marketers and advertisers responsible / for sign-ups , / checkout baskets , / pricing , / and promotions. / Any or all these teams can play a role / in creating or avoiding “digital deception.”",
+          "chunk_translation": "合乎道德的说服性设计 / 与黑暗模式之间的分界线究竟在哪里？ / 企业应当开展跨部门沟通， / 与信息技术、 / 合规、 / 风控 / 及法务团队一起审查自身的隐私政策， / 并让负责公司用户界面的客户 / 用户体验设计师及程序员参与讨论， / 同时纳入负责 / 用户注册、 / 结账购物车、 / 定价 / 及促销活动的营销与广告人员。 / 上述任何或全部团队都在制造或避免 / “数字欺骗”中扮演着重要角色。",
           "vocabulary": [
             {
               "word": "play a role in",
@@ -2591,8 +2591,8 @@
           "pid": 4,
           "text": "Lawmakers and regulators are slowly starting to address the ambiguity around dark patterns, most recently at the state level. In March, the California Attorney General announced the approval of additional regulations under the California Consumer Privacy Act  (CCPA) that “ensure that consumers will not be confused or misled when seeking to exercise their data privacy rights.” The regulations aim to ban dark patterns—this means prohibiting companies from using “confusing language or unnecessary steps such as forcing them to click through multiple screens or listen to reasons why they shouldn’t opt out.”",
           "translation": "立法者和监管机构正在慢慢开始解决黑暗模式的模糊性，最近是在州一级。 In March, the California Attorney General announced the approval of additional regulations under the California Consumer Privacy Act  (CCPA) that “ensure that consumers will not be confused or misled when seeking to exercise their data privacy rights.” The regulations aim to ban dark patterns—this means prohibiting companies from using “confusing language or unnecessary steps such as forcing them to click through multiple screens or listen to reasons why they shouldn’t opt out.”",
-          "slashed_text": "Lawmakers and regulators are slowly starting to address the ambiguity around dark patterns , / most recently at the state level. In March , / the California Attorney General announced the approval of additional regulations under the California Consumer Privacy Act  (CCPA) / that “ensure / that consumers will not be confused or misled / when seeking to exercise their data privacy rights.” The regulations aim to ban dark patterns — / this means prohibiting companies / from using “confusing language or unnecessary steps such as forcing them to click / through multiple screens or listen to reasons why they shouldn’t opt out.”",
-          "chunk_translation": "立法与监管机构正逐步着手解决围绕黑暗模式的模糊地带， / 最近的举措主要集中在州一级的层面。在三月份， / 加州总检察长宣布批准了《加州消费者隐私法案》（CCPA）项下的补充规章， / 旨在“确保 / 消费者在行使自身数据隐私权利时 / 不会受到困惑或误导。”这些规章旨在禁止黑暗模式—— / 这意味着禁止企业 / 使用“混淆性语言或设置不必要的操作步骤，如强迫用户点击 / 跳转多个界面，或聆听不应退订的说辞。”",
+          "slashed_text": "Lawmakers and regulators are slowly starting to address the ambiguity around dark patterns , / most recently at the state level. / In March , / the California Attorney General announced the approval of additional regulations under the California Consumer Privacy Act  (CCPA) / that “ensure / that consumers will not be confused or misled / when seeking to exercise their data privacy rights.” The regulations aim to ban dark patterns — / this means prohibiting companies / from using “confusing language or unnecessary steps such as forcing them to click / through multiple screens or listen to reasons why they shouldn’t opt out.”",
+          "chunk_translation": "立法与监管机构正逐步着手解决围绕黑暗模式的模糊地带， / 最近的举措主要集中在州一级的层面。 / 在三月份， / 加州总检察长宣布批准了《加州消费者隐私法案》（CCPA）项下的补充规章， / 旨在“确保 / 消费者在行使自身数据隐私权利时 / 不会受到困惑或误导。”这些规章旨在禁止黑暗模式—— / 这意味着禁止企业 / 使用“混淆性语言或设置不必要的操作步骤，如强迫用户点击 / 跳转多个界面，或聆听不应退订的说辞。”",
           "vocabulary": [
             {
               "word": "Lawmakers",
@@ -2645,8 +2645,8 @@
           "pid": 5,
           "text": "As more states consider promulgating additional regulations, there is a need for greater accountability from within the business community. Dark patterns also can be addressed on a self-regulatory basis, but only if organizations hold themselves accountable, not just to legal requirements, but also to industry best practices and standards.",
           "translation": "随着越来越多的州考虑颁布额外的法规，商界内部需要加强问责。黑暗模式也可以在自我监管的基础上得到解决，但前提是组织对自己负责，不仅要遵守法律要求，还要遵守行业最佳实践和标准。",
-          "slashed_text": "As more states consider promulgating additional regulations , / there is a need / for greater accountability / from within the business community. Dark patterns also can be addressed on a self-regulatory basis , / but only / if organizations hold themselves accountable , / not just to legal requirements , / but also to industry best practices and standards.",
-          "chunk_translation": "随着越来越多的州考虑颁布补充法规， / 客观上需要 / 商界内部承担起 / 更高度的自律与问责责任。黑暗模式也可以通过行业自律来加以解决， / 但前提是 / 各机构必须主动承担责任， / 不仅严格遵守法律底线， / 还要积极践行行业最佳实践与高标准规范。",
+          "slashed_text": "As more states consider promulgating additional regulations , / there is a need / for greater accountability / from within the business community. / Dark patterns also can be addressed on a self-regulatory basis , / but only / if organizations hold themselves accountable , / not just to legal requirements , / but also to industry best practices and standards.",
+          "chunk_translation": "随着越来越多的州考虑颁布补充法规， / 客观上需要 / 商界内部承担起 / 更高度的自律与问责责任。 / 黑暗模式也可以通过行业自律来加以解决， / 但前提是 / 各机构必须主动承担责任， / 不仅严格遵守法律底线， / 还要积极践行行业最佳实践与高标准规范。",
           "vocabulary": [
             {
               "word": "consider",
@@ -2829,7 +2829,7 @@
           "sentence_index": 1,
           "text": "Though widely prevalent, the concept of dark patterns is still not well understood.",
           "translation": "尽管深色图案的概念广泛流行，但仍然没有得到很好的理解。",
-          "slashed_text": "/ Though widely prevalent , / the concept of dark patterns is still not well understood.",
+          "slashed_text": "Though widely prevalent , / the concept of dark patterns is still not well understood.",
           "chunk_translation": "尽管广泛存在， / 但“黑暗模式”这一概念在公众中依然缺乏充分理解。",
           "syntax": {
             "breakdown": [
@@ -2865,7 +2865,7 @@
           "sentence_index": 0,
           "text": "Where is the line between ethical, persuasive design and dark patterns?",
           "translation": "道德的、有说服力的设计和黑暗模式之间的界限在哪里？",
-          "slashed_text": "/ Where is the line between ethical , / persuasive design and dark patterns?",
+          "slashed_text": "Where is the line between ethical , / persuasive design and dark patterns?",
           "chunk_translation": "合乎道德的说服性设计 / 与黑暗模式之间的分界线究竟在哪里？",
           "syntax": {
             "breakdown": [
@@ -2884,7 +2884,7 @@
           "text": "Businesses should engage in conversations with IT, compliance, risk, and legal teams to review their privacy policy, and include in the discussion the customer/user experience designers and coders responsible for the company’s user interface, as well as the marketers and advertisers responsible for sign-ups, checkout baskets, pricing, and promotions.",
           "translation": "企业应与 IT、合规、风险和法律团队进行对话，以审查其隐私政策，并让负责公司用户界面的客户/用户体验设计师和编码人员，以及负责注册、结账篮、定价和促销的营销人员和广告商参与讨论。",
           "slashed_text": "Businesses should engage / in conversations with IT , / compliance , / risk , / and legal teams to review their privacy policy , / and include in the discussion the customer / user experience designers and coders responsible for the company’s user interface , / as well as the marketers and advertisers responsible / for sign-ups , / checkout baskets , / pricing , / and promotions.",
-          "chunk_translation": "企业应当开展跨部门沟通， / 与信息技术、 / 合规、 / 风控 / 及法务团队一起审查自身的隐私政策， / 并让负责公司用户界面的客户/ / 用户体验设计师及程序员参与讨论， / 同时纳入负责 / 用户注册、 / 结账购物车、 / 定价 / 及促销活动的营销与广告人员。",
+          "chunk_translation": "企业应当开展跨部门沟通， / 与信息技术、 / 合规、 / 风控 / 及法务团队一起审查自身的隐私政策， / 并让负责公司用户界面的客户 / 用户体验设计师及程序员参与讨论， / 同时纳入负责 / 用户注册、 / 结账购物车、 / 定价 / 及促销活动的营销与广告人员。",
           "syntax": {
             "breakdown": [
               {
@@ -3446,8 +3446,8 @@
           "pid": 0,
           "text": "Although ethics classes are common around the world, scientists are unsure if their lessons can actually change behavior; evidence either way is weak, relying on contrived laboratory tests or sometimes unreliable self-reports. But a new study published in Cognition found that, in at least one real-world situation, a single ethics lesson may have had lasting effects.",
           "translation": "尽管道德课程在世界各地很常见，但科学家们不确定他们的课程是否真的能改变行为；无论哪种方式，证据都很薄弱，依赖于人为的实验室测试或有时不可靠的自我报告。但发表在《认知》杂志上的一项新研究发现，至少在一个现实世界的情况下，一堂道德课可能会产生持久的影响。",
-          "slashed_text": "/ Although ethics classes are common around the world , / scientists are unsure / if their lessons can actually change behavior ; / evidence either way is weak , / relying / on contrived laboratory tests or sometimes unreliable self-reports. But a new study published / in Cognition found / that , / in / at least one real-world situation , / a single ethics lesson may have had lasting effects.",
-          "chunk_translation": "尽管伦理道德课程在世界各地屡见不鲜， / 但科学家们并不确定 / 其讲授内容是否真能改变人们的行为； / 支持与否的证据都相当薄弱， / 往往依赖于 / 人为设计的实验室测试或时常不可靠的自我报告。然而发表在《认知》期刊上的一项新研究发现， / 至少在 / 现实生活中的某一种情境下， / 单单一堂 / 伦理道德课 / 就可能产生持久深远的影响。",
+          "slashed_text": "Although ethics classes are common around the world , / scientists are unsure / if their lessons can actually change behavior ; / evidence either way is weak , / relying / on contrived laboratory tests or sometimes unreliable self-reports. / But a new study published / in Cognition found / that , / in / at least one real-world situation , / a single ethics lesson may have had lasting effects.",
+          "chunk_translation": "尽管伦理道德课程在世界各地屡见不鲜， / 但科学家们并不确定 / 其讲授内容是否真能改变人们的行为； / 支持与否的证据都相当薄弱， / 往往依赖于 / 人为设计的实验室测试或时常不可靠的自我报告。 / 然而发表在《认知》期刊上的一项新研究发现， / 至少在 / 现实生活中的某一种情境下， / 单单一堂 / 伦理道德课 / 就可能产生持久深远的影响。",
           "vocabulary": [
             {
               "word": "Although",
@@ -3500,8 +3500,8 @@
           "pid": 1,
           "text": "The researchers investigated one class session’s impact on eating meat. They chose this particular behavior for three reasons, according to study co-author Eric Schwitzgebel, a philosopher at the University of California, Riverside: students’ attitudes on the topic are variable and unstable, behavior is easily measurable, and ethics literature largely agrees that eating less meat is good because it reduces environmental harm and animal suffering. Half of the students in four large philosophy classes read an article on the ethics of factory-farmed meat, optionally watched an 11-minute video on the topic and joined a 50-minute discussion. The other half focused on charitable giving instead. Then, unknown to the students, the researchers studied their anonymized meal-card purchases for that semester—nearly 14,000 receipts for almost 500 students.",
           "translation": "研究人员调查了一节课对吃肉的影响。研究报告的合著者、加州大学河滨分校的哲学家埃里克·施维茨格贝尔（Eric Sc​​hwitzgebel）表示，他们选择这种特殊行为有三个原因：学生对这个话题的态度是多变且不稳定的，行为很容易衡量，道德文献在很大程度上同意少吃肉是好的，因为它可以减少环境危害和动物痛苦。四个大型哲学课上的一半学生阅读了一篇关于工厂化养殖肉类伦理的文章，选择性地观看了有关该主题的 11 分钟视频，并参加了 50 分钟的讨论。另一半则专注于慈善捐赠。然后，在学生们不知情的情况下，研究人员研究了他们在该学期购买的匿名餐卡——近 500 名学生的近 14,000 张收据。",
-          "slashed_text": "The researchers investigated one class session’s impact / on eating meat. They chose this particular behavior / for three reasons , / according to study co-author Eric Schwitzgebel , / a philosopher at the University of California , / Riverside : / students’ attitudes on the topic are variable and unstable , / behavior is easily measurable , / and ethics literature largely agrees / that eating less meat is good / because it reduces environmental harm and animal suffering. Half of the students / in four large philosophy classes read an article on the ethics of factory-farmed meat , / optionally watched an 11-minute video on the topic and joined a 50-minute discussion. The other half focused / on charitable giving instead. Then , / unknown to the students , / the researchers studied their anonymized meal-card purchases for / that semester — / nearly 14 , / 000 receipts / for almost 500 students.",
-          "chunk_translation": "研究人员调查了一次课堂教学对于 / 肉类消费行为的影响。他们选择这一特定行为 / 是出于三个原因， / 据该研究合著者、加州大学 / 河滨分校的哲学家 / 埃里克·施维茨格贝尔介绍： / 学生在该话题上的态度具有可变性和不稳定性， / 行为表现容易量化测量， / 而且伦理学文献普遍赞同 / 少吃肉是有益的， / 因为这能减轻环境破坏和动物痛苦。在四个大型哲学班级中，一半的学生 / 阅读了一篇关于工厂化养殖肉类伦理的文章， / 自主选择观看了11分钟的相关主题视频，并参与了50分钟的课堂讨论。而另一半学生则将研讨主题 / 集中在慈善捐赠上。随后， / 在学生不知情的情况下， / 研究人员调取并分析了他们在那一学期的匿名餐卡消费记录—— / 该记录涉及 / 将近1.4 / 万张收据， / 来自于近500名学生。",
+          "slashed_text": "The researchers investigated one class session’s impact / on eating meat. / They chose this particular behavior / for three reasons , / according to study co-author Eric Schwitzgebel , / a philosopher at the University of California , / Riverside : / students’ attitudes on the topic are variable and unstable , / behavior is easily measurable , / and ethics literature largely agrees / that eating less meat is good / because it reduces environmental harm and animal suffering. / Half of the students / in four large philosophy classes read an article on the ethics of factory-farmed meat , / optionally watched an 11-minute video on the topic and joined a 50-minute discussion. / The other half focused / on charitable giving instead. / Then , / unknown to the students , / the researchers studied their anonymized meal-card purchases for / that semester — / nearly 14 , / 000 receipts / for almost 500 students.",
+          "chunk_translation": "研究人员调查了一次课堂教学对于 / 肉类消费行为的影响。 / 他们选择这一特定行为 / 是出于三个原因， / 据该研究合著者、加州大学 / 河滨分校的哲学家 / 埃里克·施维茨格贝尔介绍： / 学生在该话题上的态度具有可变性和不稳定性， / 行为表现容易量化测量， / 而且伦理学文献普遍赞同 / 少吃肉是有益的， / 因为这能减轻环境破坏和动物痛苦。 / 在四个大型哲学班级中，一半的学生 / 阅读了一篇关于工厂化养殖肉类伦理的文章， / 自主选择观看了11分钟的相关主题视频，并参与了50分钟的课堂讨论。 / 而另一半学生则将研讨主题 / 集中在慈善捐赠上。 / 随后， / 在学生不知情的情况下， / 研究人员调取并分析了他们在那一学期的匿名餐卡消费记录—— / 该记录涉及 / 将近1.4 / 万张收据， / 来自于近500名学生。",
           "vocabulary": [
             {
               "word": "researchers",
@@ -3554,8 +3554,8 @@
           "pid": 2,
           "text": "Schwitzgebel predicted the intervention would have no effect; he had previously found that ethics professors do not differ from other professors on a range of behaviors, including voting rates, blood donation and returning library books. But among student subjects who discussed meat ethics, meal purchases containing meat decreased from 52 to 45 percent— and this effect held steady for the study’s duration of several weeks. Purchases from the other group remained at 52 percent.",
           "translation": "施维茨格贝尔预测干预不会产生任何效果；他此前发现，伦理学教授在一系列行为上与其他教授没有什么不同，包括投票率、献血和归还图书馆书籍。但在讨论肉类伦理的学生受试者中，购买含有肉类的膳食的比例从 52% 下降到 45%，而且这种影响在研究持续数周的时间内保持稳定。来自另一组的购买量仍保持在 52%。",
-          "slashed_text": "Schwitzgebel predicted the intervention would have no effect ; / he had previously found / that ethics professors do not differ / from other professors on a range of behaviors , / including voting rates , / blood donation and returning library books. But among student subjects / who discussed meat ethics , / meal purchases containing meat decreased from 52 to 45 percent — / and this effect held steady for the study’s duration of several weeks. Purchases from the other group remained at 52 percent.",
-          "chunk_translation": "施维茨格贝尔最初预测这种干预不会产生任何效果； / 他此前曾发现， / 伦理学教授在一系列行为表现上 / 与其他学科教授并无二致， / 包括选民投票率、 / 无偿献血以及归还图书馆书籍等。但在学生受试群体中， / 那些讨论了肉类伦理的人， / 购买含肉餐食的比例从52%下降至45%—— / 并且这一变化效果在为期数周的研究期间一直保持稳定。而对照组学生的含肉餐食购买比例则维持在52%不变。",
+          "slashed_text": "Schwitzgebel predicted the intervention would have no effect ; / he had previously found / that ethics professors do not differ / from other professors on a range of behaviors , / including voting rates , / blood donation and returning library books. / But among student subjects / who discussed meat ethics , / meal purchases containing meat decreased from 52 to 45 percent — / and this effect held steady for the study’s duration of several weeks. / Purchases from the other group remained at 52 percent.",
+          "chunk_translation": "施维茨格贝尔最初预测这种干预不会产生任何效果； / 他此前曾发现， / 伦理学教授在一系列行为表现上 / 与其他学科教授并无二致， / 包括选民投票率、 / 无偿献血以及归还图书馆书籍等。 / 但在学生受试群体中， / 那些讨论了肉类伦理的人， / 购买含肉餐食的比例从52%下降至45%—— / 并且这一变化效果在为期数周的研究期间一直保持稳定。 / 而对照组学生的含肉餐食购买比例则维持在52%不变。",
           "vocabulary": [
             {
               "word": "predicted",
@@ -3608,8 +3608,8 @@
           "pid": 3,
           "text": "“That’s actually a pretty large effect for a pretty small intervention,” Schwitzgebel says. Psychologist Nina Strohminger at the University of Pennsylvania, who was not involved in the study, says she wants the effect to be real but cannot rule out some unknown confounding variable. And if real, she notes, it might be reversible by another nudge: “Easy come, easy go.”",
           "translation": "“对于很小的干预来说，这实际上是一个相当大的影响，”施维茨格贝尔说。宾夕法尼亚大学的心理学家尼娜·斯特罗明格（Nina Strohminger）没有参与这项研究，她说她希望这种效果是真实的，但不能排除一些未知的混杂变量。她指出，如果是真的，这种情况可能会通过另一次推动而逆转：“来得容易，去得也快。”",
-          "slashed_text": "“ / That’s actually a pretty large effect for a pretty small intervention , / ” Schwitzgebel says. Psychologist Nina Strohminger at the University of Pennsylvania , / who was not involved in the study , / says she wants the effect to be real but cannot rule out some unknown confounding variable. And / if real , / she notes , / it might be reversible / by another nudge : / “Easy come , / easy go.”",
-          "chunk_translation": "“ / 对于如此微小的教学干预而言，这实际上是一个相当显著的效果，” / 施维茨格贝尔表示。未参与该研究的宾夕法尼亚大学心理学家妮娜·斯特罗明格 / 表示， / 她虽然希望这种效果是真实的，但尚不能排除某些未知的混杂干扰变量。而且 / 即使效果属实， / 她指出， / 它也可能被另一次心理助推所逆转： / 正所谓： / “来得容易， / 去得也快。”",
+          "slashed_text": "“ / That’s actually a pretty large effect for a pretty small intervention , / ” Schwitzgebel says. / Psychologist Nina Strohminger at the University of Pennsylvania , / who was not involved in the study , / says she wants the effect to be real but cannot rule out some unknown confounding variable. / And / if real , / she notes , / it might be reversible / by another nudge : / “Easy come , / easy go.”",
+          "chunk_translation": "“ / 对于如此微小的教学干预而言，这实际上是一个相当显著的效果，” / 施维茨格贝尔表示。 / 未参与该研究的宾夕法尼亚大学心理学家妮娜·斯特罗明格 / 表示， / 她虽然希望这种效果是真实的，但尚不能排除某些未知的混杂干扰变量。 / 而且 / 即使效果属实， / 她指出， / 它也可能被另一次心理助推所逆转： / 正所谓： / “来得容易， / 去得也快。”",
           "vocabulary": [
             {
               "word": "actually",
@@ -3662,8 +3662,8 @@
           "pid": 4,
           "text": "Schwitzgebel suspects the greatest impact came from social influence—classmates or teaching assistants leading the discussions may have shared their own vegetarianism, showing it as achievable or more common. Second, the video may have had an emotional impact. Least rousing, he thinks, was rational argument, although his co-authors say reason might play a bigger role. Now the researchers are probing the specific effects of teaching style, teaching assistants’ eating habits and students’ video exposure. Meanwhile Schwitzgebel—who had predicted no effect—will be eating his words.",
           "translation": "施维茨格贝尔怀疑最大的影响来自社会影响——主导讨论的同学或助教可能分享了他们自己的素食主义，表明它是可以实现的或更普遍的。其次，该视频可能产生了情感影响。他认为，最不令人兴奋的是理性论证，尽管他的合著者表示理性可能发挥更大的作用。现在研究人员正在探讨教学风格、助教的饮食习惯和学生视频曝光的具体影响。与此同时，曾预测不会有任何效果的施维茨格贝尔将食言。",
-          "slashed_text": "Schwitzgebel suspects the greatest impact came / from social influence — / classmates or teaching assistants leading the discussions may have shared their own vegetarianism , / showing it as achievable or more common. Second , / the video may have had an emotional impact. Least rousing , / he thinks , / was rational argument , / although his co-authors say reason might play a bigger role. Now the researchers are probing the specific effects of teaching style , / teaching assistants’ eating habits and students’ video exposure. Meanwhile Schwitzgebel — / who had predicted no effect — / will be eating his words.",
-          "chunk_translation": "施维茨格贝尔推测，最大的影响力量来自 / 同伴与群体效应—— / 主导讨论的同学或助教可能分享了自身的素食经历， / 从而让素食显得切实可行或更为普遍。其次， / 视频可能引发了情感上的触动与共鸣。最不具打动力的， / 在他看来， / 是纯理性的逻辑论证， / 尽管他的论文合著者认为理性可能发挥了更大的作用。目前研究人员正在深入探讨教学风格、 / 助教的饮食习惯以及学生对视频的观看程度所产生的具体影响。与此同时，曾预测干预毫无作用的 / 施维茨格贝尔—— / 也不得不承认自己的判断失误。",
+          "slashed_text": "Schwitzgebel suspects the greatest impact came / from social influence — / classmates or teaching assistants leading the discussions may have shared their own vegetarianism , / showing it as achievable or more common. / Second , / the video may have had an emotional impact. / Least rousing , / he thinks , / was rational argument , / although his co-authors say reason might play a bigger role. / Now the researchers are probing the specific effects of teaching style , / teaching assistants’ eating habits and students’ video exposure. / Meanwhile Schwitzgebel — / who had predicted no effect — / will be eating his words.",
+          "chunk_translation": "施维茨格贝尔推测，最大的影响力量来自 / 同伴与群体效应—— / 主导讨论的同学或助教可能分享了自身的素食经历， / 从而让素食显得切实可行或更为普遍。 / 其次， / 视频可能引发了情感上的触动与共鸣。 / 最不具打动力的， / 在他看来， / 是纯理性的逻辑论证， / 尽管他的论文合著者认为理性可能发挥了更大的作用。 / 目前研究人员正在深入探讨教学风格、 / 助教的饮食习惯以及学生对视频的观看程度所产生的具体影响。 / 与此同时，曾预测干预毫无作用的 / 施维茨格贝尔—— / 也不得不承认自己的判断失误。",
           "vocabulary": [
             {
               "word": "suspects",
@@ -3720,7 +3720,7 @@
           "sentence_index": 0,
           "text": "Although ethics classes are common around the world, scientists are unsure if their lessons can actually change behavior; evidence either way is weak, relying on contrived laboratory tests or sometimes unreliable self-reports.",
           "translation": "尽管道德课程在世界各地很常见，但科学家们不确定他们的课程是否真的能改变行为；无论哪种方式，证据都很薄弱，依赖于人为的实验室测试或有时不可靠的自我报告。",
-          "slashed_text": "/ Although ethics classes are common around the world , / scientists are unsure / if their lessons can actually change behavior ; / evidence either way is weak , / relying / on contrived laboratory tests or sometimes unreliable self-reports.",
+          "slashed_text": "Although ethics classes are common around the world , / scientists are unsure / if their lessons can actually change behavior ; / evidence either way is weak , / relying / on contrived laboratory tests or sometimes unreliable self-reports.",
           "chunk_translation": "尽管伦理道德课程在世界各地屡见不鲜， / 但科学家们并不确定 / 其讲授内容是否真能改变人们的行为； / 支持与否的证据都相当薄弱， / 往往依赖于 / 人为设计的实验室测试或时常不可靠的自我报告。",
           "syntax": {
             "breakdown": [

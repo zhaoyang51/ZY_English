@@ -65,8 +65,8 @@
           "pid": 1,
           "text": "Mr. Koziatek is part of something pioneering. He is a teacher at a New Hampshire high school where learning is not something of books and tests and mechanical memorization, but practical. When did it become accepted wisdom that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?",
           "translation": "Koziatek 先生是开创性事业的一部分。他是新罕布什尔州一所高中的老师，那里的学习不是书本、考试和机械记忆，而是实践。学生们应该能够说出美国第 13 任总统的名字，但却被断掉的自行车链条完全压垮，这从什么时候开始成为公认的智慧？",
-          "slashed_text": "Mr. Koziatek is part of something pioneering. He is a teacher at a New Hampshire high school / where learning is not something of books and tests and mechanical memorization , / but practical. / When did it become accepted wisdom / that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?",
-          "chunk_translation": "先生。 科齐亚泰克正在参与一项开创性的事业。 他是新罕布什尔州一所高中的教师 / 在那里，学习不再关乎书本、考试和机械记忆 / 而是注重实践。 / 从什么时候开始成为公认常识 / 学生能够说出美国第13任总统的名字，却对一根断掉的自行车链条束手无策？",
+          "slashed_text": "Mr. Koziatek / is part of something pioneering. / He is a teacher at a New Hampshire high school / where learning is not something of books and tests and mechanical memorization , / but practical. / When did it become accepted wisdom / that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?",
+          "chunk_translation": "科齐亚泰克先生 / 正在参与一项开创性的工作。 / 他是新罕布什尔州一所高中的教师 / 在那里，学习不再关乎书本、考试和机械记忆 / 而是注重实践。 / 从什么时候开始成为公认常识 / 学生能够说出美国第13任总统的名字，却对一根断掉的自行车链条束手无策？",
           "vocabulary": [
             {
               "word": "something",
@@ -119,8 +119,8 @@
           "pid": 2,
           "text": "As Koziatek knows, there is learning in just about everything. Nothing is necessarily gained by forcing students to learn geometry at a graffitied desk stuck with generations of discarded chewing gum. They can also learn geometry by assembling a bicycle.",
           "translation": "正如 Koziatek 所知，几乎所有事情都需要学习。强迫学生在一张贴满了几代人丢弃的口香糖的涂鸦桌子上学习几何，不一定会得到任何好处。他们还可以通过组装自行车来学习几何。",
-          "slashed_text": "As Koziatek knows , / there is learning / in just / about everything. Nothing is necessarily gained / by forcing students to learn geometry at a graffitied desk stuck / with generations of discarded chewing gum. They can also learn geometry / by assembling a bicycle.",
-          "chunk_translation": "正如科齐亚泰克所知 / 处处皆学问 / 几乎 / 在任何事物中都有可以学习的东西。 并不一定会获得任何益处 / 如果强迫学生坐在涂鸦满桌的课桌前学习几何，桌上还粘着 / 历代学生丢弃的口香糖。 他们同样可以通过组装自行车 / 来学习几何学。",
+          "slashed_text": "As Koziatek knows , / there is learning / in just / about everything. / Nothing is necessarily gained / by forcing students to learn geometry at a graffitied desk stuck / with generations of discarded chewing gum. / They can also learn geometry / by assembling a bicycle.",
+          "chunk_translation": "正如科齐亚泰克所知 / 处处皆学问 / 几乎 / 在任何事物中都有可以学习的东西。 / 并不一定会获得任何益处 / 如果强迫学生坐在涂鸦满桌的课桌前学习几何，桌上还粘着 / 历代学生丢弃的口香糖。 / 他们同样可以通过组装自行车 / 来学习几何学。",
           "vocabulary": [
             {
               "word": "knows",
@@ -173,8 +173,8 @@
           "pid": 3,
           "text": "But he’s also found a kind of insidious prejudice. Working with your hands is seen as almost a mark of inferiority. Schools in the family of vocational education “have that stereotype ... that it’s for kids who can’t make it academically,” he says.",
           "translation": "但他也发现了一种阴险的偏见。用手工作几乎被视为自卑的标志。他说，职业教育家族中的学校“有一种刻板印象……这是为那些学业成绩不佳的孩子准备的”。",
-          "slashed_text": "But he’s also found a kind of insidious prejudice. Working / with your hands is seen as almost a mark of inferiority. Schools in the family of vocational education “have / that stereotype ... / that it’s / for kids / who can’t make it academically , / ” he says.",
-          "chunk_translation": "但他也发现了一种潜移默化的偏见。 动手工作 / 几乎被视作低人一等的标志。 属于职业教育体系的学校“往往存在 / 那样一种刻板印象…… / 即这类学校是 / 为那些 / 在学业上无法取得成功的孩子准备的 / ”他说。",
+          "slashed_text": "But he’s also found a kind of insidious prejudice. / Working / with your hands is seen as almost a mark of inferiority. / Schools in the family of vocational education / “have that stereotype ... that it’s for kids who can’t make it academically , / ” he says.",
+          "chunk_translation": "但他也发现了一种潜移默化的偏见。 / 动手工作 / 几乎被视作低人一等的标志。 / 职业教育类学校 / “有着那种刻板印象……即那是为学业不佳的孩子准备的， / ”他说。",
           "vocabulary": [
             {
               "word": "found",
@@ -227,8 +227,8 @@
           "pid": 4,
           "text": "On one hand, that viewpoint is a logical product of America’s evolution. Manufacturing is not the economic engine that it once was. The job security that the US economy once offered to high school graduates has largely evaporated. More education is the new principle. We want more for our kids, and rightfully so.",
           "translation": "一方面，这种观点是美国发展的逻辑产物。制造业不再像以前那样是经济引擎。美国经济曾经为高中毕业生提供的就业保障已基本消失。加强教育是新原则。我们希望为我们的孩子提供更多，这是理所当然的。",
-          "slashed_text": "On one hand , / that viewpoint is a logical product of America’s evolution. Manufacturing is not the economic engine / that it once was. The job security / that the US economy once offered to high school graduates has largely evaporated. More education is the new principle. We want more for our kids , / and rightfully so.",
-          "chunk_translation": "一方面 / 这种观点是美国发展演变的一个符合逻辑的产物。 制造业不再是 / 曾经那样的经济引擎。 就业保障 / 美国经济曾经为高中毕业生提供的工作稳定性如今已基本化为乌有。 接受更高层次的教育成为了新的准则。 我们希望给孩子更好的未来 / 这是理所应当的。",
+          "slashed_text": "On one hand , / that viewpoint is a logical product of America’s evolution. / Manufacturing is not the economic engine / that it once was. / The job security / that the US economy once offered to high school graduates has largely evaporated. / More education is the new principle. / We want more for our kids , / and rightfully so.",
+          "chunk_translation": "一方面 / 这种观点是美国发展演变的一个符合逻辑的产物。 / 制造业不再是 / 曾经那样的经济引擎。 / 就业保障 / 美国经济曾经为高中毕业生提供的工作稳定性如今已基本化为乌有。 / 接受更高层次的教育成为了新的准则。 / 我们希望给孩子更好的未来 / 这是理所应当的。",
           "vocabulary": [
             {
               "word": "hand",
@@ -281,8 +281,8 @@
           "pid": 5,
           "text": "But the headlong push into bachelor’s degrees for all—and the subtle devaluing of anything less—misses an important point: That’s not the only thing the American economy needs. Yes, a bachelor’s degree opens more doors. But even now, 54 percent of the jobs in the country are middle-skill jobs, such as construction and high-skill manufacturing. But only 44 percent of workers are adequately trained.",
           "translation": "但一味地推动所有人获得学士学位——以及其他任何东西的微妙贬值——忽略了重要的一点：这并不是美国经济唯一需要的东西。是的，学士学位打开了更多的大门。但即便如此，该国 54% 的工作岗位仍属于中等技能岗位，例如建筑业和高技能制造业。但只有 44% 的工人接受过充分培训。",
-          "slashed_text": "But the headlong push / into bachelor’s degrees for all — / and the subtle devaluing of anything less — / misses an important point : / That’s not the only thing the American economy needs. Yes , / a bachelor’s degree opens more doors. But even now , / 54 percent of the jobs in the country are middle-skill jobs , / such as construction and high-skill manufacturing. But only 44 percent of workers are adequately trained.",
-          "chunk_translation": "但是一味盲目推进 / 全民普及本科学位—— / 以及对本科学历以下教育的微妙贬低—— / 忽略了一个要点： / 这并非美国经济唯一需要的东西。 确实 / 本科学位能开启更多机遇之门。 但即便在现在 / 全美仍有54%的岗位属于中等技能工作 / 例如建筑业和高技能制造业。 然而只有44%的劳动者接受过充分的培训。",
+          "slashed_text": "But the headlong push / into bachelor’s degrees for all — / and the subtle devaluing of anything less — / misses an important point : / That’s not the only thing the American economy needs. / Yes , / a bachelor’s degree opens more doors. / But even now , / 54 percent of the jobs in the country are middle-skill jobs , / such as construction and high-skill manufacturing. / But only 44 percent of workers are adequately trained.",
+          "chunk_translation": "但是一味盲目推进 / 全民普及本科学位—— / 以及对本科学历以下教育的微妙贬低—— / 忽略了一个要点： / 这并非美国经济唯一需要的东西。 / 确实 / 本科学位能开启更多机遇之门。 / 但即便在现在 / 全美仍有54%的岗位属于中等技能工作 / 例如建筑业和高技能制造业。 / 然而只有44%的劳动者接受过充分的培训。",
           "vocabulary": [
             {
               "word": "headlong",
@@ -335,8 +335,8 @@
           "pid": 6,
           "text": "In other words, at a time when the working class has turned the country on its political head, frustrated that the opportunity that once defined America is vanishing, one obvious solution is staring us in the face. There is a gap in working-class jobs, but the workers who need those jobs most aren’t equipped to do them. Koziatek’s Manchester School of Technology High School is trying to fill that gap.",
           "translation": "换句话说，当工人阶级在政治上颠覆国家，对曾经定义美国的机会正在消失感到沮丧时，一个显而易见的解决方案就摆在我们面前。工人阶级的工作存在缺口，但最需要这些工作的工人却没有能力胜任这些工作。 Koziatek 的曼彻斯特理工学院高中正在努力填补这一空白。",
-          "slashed_text": "In other words , / at a time / when the working class has turned the country on its political head , / frustrated / that the opportunity / that once defined America is vanishing , / one obvious solution is staring us in the face. There is a gap / in working-class jobs , / but the workers / who need those jobs most aren’t equipped to do them. Koziatek’s Manchester School of Technology High School is trying to fill / that gap.",
-          "chunk_translation": "换句话说 / 在这样一个时刻 / 工人阶级在政治上彻底颠覆了国家格局 / 他们深感沮丧 / 因为那些曾经 / 定义美国精神的机遇正在消逝 / 一个显而易见的解决办法就摆在我们眼前。 存在着一个缺口 / 在工人阶级的岗位中 / 但那些劳动者 / 最需要这些工作的人却不具备胜任这些工作的能力。 科齐亚泰克所在的曼彻斯特技术高中正试图填补 / 这一缺口。",
+          "slashed_text": "In other words , / at a time / when the working class has turned the country on its political head , / frustrated / that the opportunity / that once defined America is vanishing , / one obvious solution is staring us in the face. / There is a gap / in working-class jobs , / but the workers / who need those jobs most aren’t equipped to do them. / Koziatek’s Manchester School of Technology High School is trying to fill / that gap.",
+          "chunk_translation": "换句话说 / 在这样一个时刻 / 工人阶级在政治上彻底颠覆了国家格局 / 他们深感沮丧 / 因为那些曾经 / 定义美国精神的机遇正在消逝 / 一个显而易见的解决办法就摆在我们眼前。 / 存在着一个缺口 / 在工人阶级的岗位中 / 但那些劳动者 / 最需要这些工作的人却不具备胜任这些工作的能力。 / 科齐亚泰克所在的曼彻斯特技术高中正试图填补 / 这一缺口。",
           "vocabulary": [
             {
               "word": "words",
@@ -506,7 +506,7 @@
           "sentence_index": 2,
           "text": "When did it become accepted wisdom that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?",
           "translation": "学生们应该能够说出美国第 13 任总统的名字，但却被断掉的自行车链条完全压垮，这从什么时候开始成为公认的智慧？",
-          "slashed_text": "/ When did it become accepted wisdom / that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?",
+          "slashed_text": "When did it become accepted wisdom / that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?",
           "chunk_translation": "从什么时候开始成为公认常识 / 学生能够说出美国第13任总统的名字，却对一根断掉的自行车链条束手无策？",
           "syntax": {
             "breakdown": [
@@ -866,7 +866,7 @@
           "sentence_index": 1,
           "text": "When education becomes one-size-fits-all, it risks overlooking a nation’s diversity of gifts.",
           "translation": "当教育变得一刀切时，它就有可能忽视一个国家天赋的多样性。",
-          "slashed_text": "/ When education becomes one-size-fits-all , / it risks overlooking a nation’s diversity of gifts.",
+          "slashed_text": "When education becomes one-size-fits-all , / it risks overlooking a nation’s diversity of gifts.",
           "chunk_translation": "当教育变得“一刀切”时 / 它就面临忽视一个国家多样化天赋才能的风险。",
           "syntax": {
             "breakdown": [
@@ -1342,8 +1342,8 @@
           "pid": 0,
           "text": "While fossil fuels—coal, oil, gas—still generate roughly 85 percent of the world’s energy supply, it’s clearer than ever that the future belongs to renewable sources such as wind and solar. The move to renewables is picking up momentum around the world: They now account for more than half of new power sources going on line.",
           "translation": "尽管化石燃料（煤炭、石油、天然气）仍占世界能源供应的约 85%，但比以往任何时候都更加清楚的是，未来属于风能和太阳能等可再生能源。全球范围内向可再生能源转型的势头正在增强：目前，可再生能源占新增发电电源的一半以上。",
-          "slashed_text": "/ While fossil fuels — / coal , / oil , / gas — / still generate roughly 85 percent of the world’s energy supply , / it’s clearer than ever / that the future belongs to renewable sources such as wind and solar. The move to renewables is picking up momentum around the world : / They now account / for more than half of new power sources going / on line.",
-          "chunk_translation": "尽管化石燃料—— / 煤炭、 / 石油、 / 天然气—— / 仍供应着全球大约85%的能源 / 但比以往任何时候都更清楚的是 / 未来属于风能和太阳能等可再生能源。 全球向可再生能源转型的势头日益强劲： / 它们目前占 / 所有新上线发电装机容量的 / 一半以上。",
+          "slashed_text": "While fossil fuels — / coal , / oil , / gas — / still generate roughly 85 percent of the world’s energy supply , / it’s clearer than ever / that the future belongs to renewable sources such as wind and solar. / The move to renewables is picking up momentum around the world : / They now account / for more than half of new power sources going / on line.",
+          "chunk_translation": "尽管化石燃料—— / 煤炭、 / 石油、 / 天然气—— / 仍供应着全球大约85%的能源 / 但比以往任何时候都更清楚的是 / 未来属于风能和太阳能等可再生能源。 / 全球向可再生能源转型的势头日益强劲： / 它们目前占 / 所有新上线发电装机容量的 / 一半以上。",
           "vocabulary": [
             {
               "word": "account for",
@@ -1396,8 +1396,8 @@
           "pid": 1,
           "text": "Some growth stems from a commitment by governments and farsighted businesses to fund cleaner energy sources. But increasingly the story is about the plummeting prices of renewables, especially wind and solar. The cost of solar panels has dropped by 80 percent and the cost of wind turbines by close to one-third in the past eight years.",
           "translation": "一些增长源于政府和有远见的企业为清洁能源提供资金的承诺。但越来越多的故事是关于可再生能源价格暴跌的，尤其是风能和太阳能。过去八年里，太阳能电池板的成本下降了 80%，风力涡轮机的成本下降了近三分之一。",
-          "slashed_text": "Some growth stems from a commitment / by governments and farsighted businesses to fund cleaner energy sources. But increasingly the story is about the plummeting prices of renewables , / especially wind and solar. The cost of solar panels has dropped by 80 percent and the cost of wind turbines / by close to one-third in the past eight years.",
-          "chunk_translation": "部分增长源于政府和有远见的企业 / 为资助更清洁能源所做出的承诺。 但更多情况下，这一增长是因为可再生能源价格的大幅暴跌 / 尤其是风能和太阳能。 过去八年里，太阳能电池板的成本下降了80%，风力涡轮机的成本 / 则下降了近三分之一。",
+          "slashed_text": "Some growth stems from a commitment / by governments and farsighted businesses to fund cleaner energy sources. / But increasingly the story is about the plummeting prices of renewables , / especially wind and solar. / The cost of solar panels has dropped by 80 percent and the cost of wind turbines / by close to one-third in the past eight years.",
+          "chunk_translation": "部分增长源于政府和有远见的企业 / 为资助更清洁能源所做出的承诺。 / 但更多情况下，这一增长是因为可再生能源价格的大幅暴跌 / 尤其是风能和太阳能。 / 过去八年里，太阳能电池板的成本下降了80%，风力涡轮机的成本 / 则下降了近三分之一。",
           "vocabulary": [
             {
               "word": "growth",
@@ -1450,8 +1450,8 @@
           "pid": 2,
           "text": "In many parts of the world renewable energy is already a principal energy source. In Scotland, for example, wind turbines provide enough electricity to power 95 percent of homes. While the rest of the world takes the lead, notably China and Europe, the United States is also seeing a remarkable shift. In March, for the first time, wind and solar power accounted for more than 10 percent of the power generated in the US, reported the US Energy Information Administration.",
           "translation": "在世界许多地方，可再生能源已经成为主要能源。例如，在苏格兰，风力涡轮机提供的电力足以为 95% 的家庭供电。虽然世界其他地区（尤其是中国和欧洲）处于领先地位，但美国也出现了显着的转变。据美国能源情报署报告，3月份风能和太阳能发电量首次占美国发电量的10%以上。",
-          "slashed_text": "In many parts of the world renewable energy is already a principal energy source. In Scotland , / for example , / wind turbines provide enough electricity to power 95 percent of homes. / While the rest of the world takes the lead , / notably China and Europe , / the United States is also seeing a remarkable shift. In March , / for the first time , / wind and solar power accounted / for more than 10 percent of the power generated in the US , / reported the US Energy Information Administration.",
-          "chunk_translation": "在世界许多地区，可再生能源已经成为主要能源。 例如在苏格兰 / 风力发电机 / 产生的电量足以供应95%的家庭用电。 / 尽管世界其他地区处于领先地位 / 尤其是中国和欧洲 / 但美国也正在经历显著的转变。 今年三月 / 风能和太阳能发电 / 占比首次 / 超过了美国总发电量的10% / 美国能源信息署报告称。",
+          "slashed_text": "In many parts of the world renewable energy is already a principal energy source. / In Scotland , / for example , / wind turbines provide enough electricity to power 95 percent of homes. / While the rest of the world takes the lead , / notably China and Europe , / the United States is also seeing a remarkable shift. / In March , / for the first time , / wind and solar power accounted / for more than 10 percent of the power generated in the US , / reported the US Energy Information Administration.",
+          "chunk_translation": "在世界许多地区，可再生能源已经成为主要能源。 / 例如在苏格兰 / 风力发电机 / 产生的电量足以供应95%的家庭用电。 / 尽管世界其他地区处于领先地位 / 尤其是中国和欧洲 / 但美国也正在经历显著的转变。 / 今年三月 / 风能和太阳能发电 / 占比首次 / 超过了美国总发电量的10% / 美国能源信息署报告称。",
           "vocabulary": [
             {
               "word": "renewable",
@@ -1504,8 +1504,8 @@
           "pid": 3,
           "text": "President Trump has underlined fossil fuels—especially coal—as the path to economic growth. In a recent speech in Iowa, he dismissed wind power as an unreliable energy source. But that message did not play well with many in Iowa, where wind turbines dot the fields and provide 36 percent of the state’s electricity generation—and where tech giants like Microsoft are being attracted by the availability of clean energy to power their data centers.",
           "translation": "特朗普总统强调化石燃料（尤其是煤炭）是经济增长的途径。最近在爱荷华州的一次演讲中，他认为风力发电是一种不可靠的能源。但这一信息在爱荷华州的许多人中并不受欢迎，风力涡轮机遍布该州的田野，提供了该州 36% 的发电量，而且像微软这样的科技巨头也被可用的清洁能源为其数据中心供电所吸引。",
-          "slashed_text": "President Trump has underlined fossil fuels — / especially coal — / as the path to economic growth. In a recent speech / in Iowa , / he dismissed wind power as an unreliable energy source. But / that message did not play well / with many / in Iowa , / where wind turbines dot the fields and provide 36 percent of the state’s electricity generation — / and / where tech giants like Microsoft are being attracted by the availability of clean energy to power their data centers.",
-          "chunk_translation": "特朗普总统强调化石燃料—— / 尤其是煤炭—— / 是实现经济增长的途径。 在最近的一次演讲中 / 在艾奥瓦州 / 他将风力发电贬为不可靠的能源。 但 / 这一论调并未得到普遍认可 / 在艾奥瓦州的许多人看来 / 在该州 / 风力发电机点缀于田野之中，提供了该州36%的电力—— / 而且 / 微软等科技巨头正被这里充足的清洁能源所吸引，用以为其数据中心供电。",
+          "slashed_text": "President Trump has underlined fossil fuels — / especially coal — / as the path to economic growth. / In a recent speech / in Iowa , / he dismissed wind power as an unreliable energy source. / But / that message did not play well / with many / in Iowa , / where wind turbines dot the fields and provide 36 percent of the state’s electricity generation — / and / where tech giants like Microsoft are being attracted by the availability of clean energy to power their data centers.",
+          "chunk_translation": "特朗普总统强调化石燃料—— / 尤其是煤炭—— / 是实现经济增长的途径。 / 在最近的一次演讲中 / 在艾奥瓦州 / 他将风力发电贬为不可靠的能源。 / 但 / 这一论调并未得到普遍认可 / 在艾奥瓦州的许多人看来 / 在该州 / 风力发电机点缀于田野之中，提供了该州36%的电力—— / 而且 / 微软等科技巨头正被这里充足的清洁能源所吸引，用以为其数据中心供电。",
           "vocabulary": [
             {
               "word": "President",
@@ -1558,8 +1558,8 @@
           "pid": 4,
           "text": "The question “what happens when the wind doesn’t blow or the sun doesn’t shine?” has provided a quick put-down for skeptics. But a boost in the storage capacity of batteries is making their ability to keep power flowing around the clock more likely.",
           "translation": "“当风不吹或阳光不照时会发生什么？”这个问题。很快就让怀疑者失望了。但电池存储容量的提高使得它们更有可能保持全天候供电。",
-          "slashed_text": "The question “what happens / when the wind doesn’t blow or the sun doesn’t shine?” has provided a quick put-down / for skeptics. But a boost in the storage capacity of batteries is making their ability to keep power flowing around the clock more likely.",
-          "chunk_translation": "“当风不再吹或太阳不再照耀时会发生什么？” / 这一质问曾为怀疑者提供了一个迅速驳斥的借口 / 来否定可再生能源。 但电池储能容量的提升，正使得全天候不间断供电变得更加可行。",
+          "slashed_text": "The question “what happens / when the wind doesn’t blow or the sun doesn’t shine?” has provided a quick put-down / for skeptics. / But a boost in the storage capacity of batteries is making their ability to keep power flowing around the clock more likely.",
+          "chunk_translation": "“当风不再吹或太阳不再照耀时会发生什么？” / 这一质问曾为怀疑者提供了一个迅速驳斥的借口 / 来否定可再生能源。 / 但电池储能容量的提升，正使得全天候不间断供电变得更加可行。",
           "vocabulary": [
             {
               "word": "question",
@@ -1666,8 +1666,8 @@
           "pid": 6,
           "text": "While there’s a long way to go, the trend lines for renewables are spiking. The pace of change in energy sources appears to be speeding up—perhaps just in time to have a meaningful effect in slowing climate change. What Washington does—or doesn’t do—to promote alternative energy may mean less and less at a time of a global shift in thought.",
           "translation": "尽管还有很长的路要走，但可再生能源的趋势线正在飙升。能源变化的步伐似乎正在加快——也许正好对减缓气候变化产生有意义的影响。在全球思想转变之际，华盛顿在推广替代能源方面所做的或没有做的事情可能意义越来越小。",
-          "slashed_text": "/ While there’s a long way to go , / the trend lines / for renewables are spiking. The pace of change / in energy sources appears to be speeding up — / perhaps just / in time to have a meaningful effect / in slowing climate change. What Washington does — / or doesn’t do — / to promote alternative energy may mean less and less at a time of a global shift / in thought.",
-          "chunk_translation": "尽管前路漫漫 / 但可再生能源的发展走势 / 正在急剧攀升。 能源领域变革的步伐 / 似乎正在加速—— / 或许恰好能够 / 及时地发挥有效作用 / 以减缓气候变化。 华盛顿在推广替代能源方面所做的事情—— / 或未曾做的事情—— / 在全球思维方式发生转变之际，可能变得越来越微不足道 / 在思想观念的转变中。",
+          "slashed_text": "While there’s a long way to go , / the trend lines / for renewables are spiking. / The pace of change / in energy sources appears to be speeding up — / perhaps just / in time to have a meaningful effect / in slowing climate change. / What Washington does — / or doesn’t do — / to promote alternative energy may mean less and less at a time of a global shift / in thought.",
+          "chunk_translation": "尽管前路漫漫 / 但可再生能源的发展走势 / 正在急剧攀升。 / 能源领域变革的步伐 / 似乎正在加速—— / 或许恰好能够 / 及时地发挥有效作用 / 以减缓气候变化。 / 华盛顿在推广替代能源方面所做的事情—— / 或未曾做的事情—— / 在全球思维方式发生转变之际，可能变得越来越微不足道 / 在思想观念的转变中。",
           "vocabulary": [
             {
               "word": "long",
@@ -1724,7 +1724,7 @@
           "sentence_index": 0,
           "text": "While fossil fuels—coal, oil, gas—still generate roughly 85 percent of the world’s energy supply, it’s clearer than ever that the future belongs to renewable sources such as wind and solar.",
           "translation": "尽管化石燃料（煤炭、石油、天然气）仍占世界能源供应的约 85%，但比以往任何时候都更加清楚的是，未来属于风能和太阳能等可再生能源。",
-          "slashed_text": "/ While fossil fuels — / coal , / oil , / gas — / still generate roughly 85 percent of the world’s energy supply , / it’s clearer than ever / that the future belongs to renewable sources such as wind and solar.",
+          "slashed_text": "While fossil fuels — / coal , / oil , / gas — / still generate roughly 85 percent of the world’s energy supply , / it’s clearer than ever / that the future belongs to renewable sources such as wind and solar.",
           "chunk_translation": "尽管化石燃料—— / 煤炭、 / 石油、 / 天然气—— / 仍供应着全球大约85%的能源 / 但比以往任何时候都更清楚的是 / 未来属于风能和太阳能等可再生能源。",
           "syntax": {
             "breakdown": [
@@ -1855,7 +1855,7 @@
           "sentence_index": 2,
           "text": "While the rest of the world takes the lead, notably China and Europe, the United States is also seeing a remarkable shift.",
           "translation": "虽然世界其他地区（尤其是中国和欧洲）处于领先地位，但美国也出现了显着的转变。",
-          "slashed_text": "/ While the rest of the world takes the lead , / notably China and Europe , / the United States is also seeing a remarkable shift.",
+          "slashed_text": "While the rest of the world takes the lead , / notably China and Europe , / the United States is also seeing a remarkable shift.",
           "chunk_translation": "尽管世界其他地区处于领先地位 / 尤其是中国和欧洲 / 但美国也正在经历显著的转变。",
           "syntax": {
             "breakdown": [
@@ -1999,7 +1999,7 @@
           "sentence_index": 1,
           "text": "Although electric cars are still a rarity on roads now, this massive investment could change the picture rapidly in coming years.",
           "translation": "尽管电动汽车现在在道路上仍然很少见，但这项巨额投资可能会在未来几年迅速改变这一状况。",
-          "slashed_text": "/ Although electric cars are still a rarity / on roads now , / this massive investment could change the picture rapidly / in coming years.",
+          "slashed_text": "Although electric cars are still a rarity / on roads now , / this massive investment could change the picture rapidly / in coming years.",
           "chunk_translation": "尽管电动汽车目前在公路上依然少见 / 如今在路上 / 但这一巨额投资可能会在未来几年迅速改变这一局面 / 在未来的岁月里。",
           "syntax": {
             "breakdown": [
@@ -2017,7 +2017,7 @@
           "sentence_index": 0,
           "text": "While there’s a long way to go, the trend lines for renewables are spiking.",
           "translation": "尽管还有很长的路要走，但可再生能源的趋势线正在飙升。",
-          "slashed_text": "/ While there’s a long way to go , / the trend lines / for renewables are spiking.",
+          "slashed_text": "While there’s a long way to go , / the trend lines / for renewables are spiking.",
           "chunk_translation": "尽管前路漫漫 / 但可再生能源的发展走势 / 正在急剧攀升。",
           "syntax": {
             "breakdown": [
@@ -2528,8 +2528,8 @@
           "pid": 0,
           "text": "The power and ambition of the giants of the digital economy is astonishing—Amazon has just announced the purchase of the upmarket grocery chain Whole Foods for $13.5bn, but two years ago Facebook paid even more than that to acquire the WhatsApp messaging service, which doesn’t have any physical product at all. What WhatsApp offered Facebook was an intricate and finely detailed web of its users’ friendships and social lives.",
           "translation": "数字经济巨头的力量和野心令人震惊——亚马逊刚刚宣布以 135 亿美元收购高档杂货连锁店 Whole Foods，但两年前 Facebook 斥资甚至更高的价格收购了根本没有任何实体产品的 WhatsApp 消息服务。 WhatsApp 为 Facebook 提供的是一个复杂而细致的网络，记录了用户的友谊和社交生活。",
-          "slashed_text": "The power and ambition of the giants of the digital economy is astonishing — / Amazon has just announced the purchase of the upmarket grocery chain Whole Foods for $13.5bn , / but two years ago Facebook paid even more than / that to acquire the WhatsApp messaging service , / which doesn’t have any physical product at all. What WhatsApp offered Facebook was an intricate and finely detailed web of its users’ friendships and social lives.",
-          "chunk_translation": "数字经济巨头的实力与野心令人震惊—— / 亚马逊刚刚宣布以135亿美元收购高端食品杂货连锁店全食超市， / 但两年前脸书花费了甚至超过 / 这一数额的资金来收购即时通讯服务软件WhatsApp， / 而WhatsApp根本没有任何实体产品。 WhatsApp为脸书提供的是一张由用户朋友关系和社交生活构成的错综复杂且极其详尽的网络。",
+          "slashed_text": "The power and ambition of the giants of the digital economy is astonishing — / Amazon has just announced the purchase of the upmarket grocery chain Whole Foods for $13.5bn , / but two years ago Facebook paid even more than / that to acquire the WhatsApp messaging service , / which doesn’t have any physical product at all. / What WhatsApp offered Facebook was an intricate and finely detailed web of its users’ friendships and social lives.",
+          "chunk_translation": "数字经济巨头的实力与野心令人震惊—— / 亚马逊刚刚宣布以135亿美元收购高端食品杂货连锁店全食超市， / 但两年前脸书花费了甚至超过 / 这一数额的资金来收购即时通讯服务软件WhatsApp， / 而WhatsApp根本没有任何实体产品。 / WhatsApp为脸书提供的是一张由用户朋友关系和社交生活构成的错综复杂且极其详尽的网络。",
           "vocabulary": [
             {
               "word": "power",
@@ -2582,8 +2582,8 @@
           "pid": 1,
           "text": "Facebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke the promise almost as soon as the deal went through. Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still could be. What political journalist, what party whip, would not want to know the makeup of the WhatsApp groups in which Theresa May’s enemies are currently plotting? It may be that the value of Whole Foods to Amazon is not so much the 460 shops it owns, but the records of which customers have purchased what.",
           "translation": "Facebook 当时向欧盟委员会承诺，不会将电话号码与 Facebook 身份关联起来，但交易一完成，它就违背了承诺。即使不知道消息中的内容，了解消息的发送者和收件人也具有很大的启发性，而且仍然可能具有启发性。哪个政治记者、哪个党鞭不想知道特蕾莎·梅的敌人目前正在密谋的 WhatsApp 群组的构成？ Whole Foods 对亚马逊的价值可能不在于它拥有的 460 家商店，而在于哪些顾客购买了什么商品的记录。",
-          "slashed_text": "Facebook promised the European commission then / that it would not link phone numbers to Facebook identities , / but it broke the promise almost as soon as the deal went through. Even / without knowing what was in the messages , / the knowledge of / who sent them and to / whom was enormously revealing and still could be. What political journalist , / what party whip , / would not want to know the makeup of the WhatsApp groups in / which Theresa May’s enemies are currently plotting? It may be / that the value of Whole Foods to Amazon is not so much the 460 shops it owns , / but the records of / which customers have purchased what.",
-          "chunk_translation": "脸书当时向欧盟委员会承诺 / 不会将电话号码与用户的脸书身份信息相关联， / 但在交易达成后不久它就违背了该承诺。 即便 / 不知道信息的具体内容， / 单是掌握了 / 谁发送了信息以及发送给 / 谁的信息，就极具揭示性，而且至今依然如此。 哪位政治记者、 / 哪位党鞭， / 会不想了解 / 特雷莎·梅的政敌们目前正在其中密谋策划的群组成员构成呢？ 也许 / 全食超市对亚马逊的价值与其说在于其拥有的460家门店， / 不如说在于 / 哪些顾客购买了哪些商品的消费记录。",
+          "slashed_text": "Facebook promised the European commission then / that it would not link phone numbers to Facebook identities , / but it broke the promise almost as soon as the deal went through. / Even / without knowing what was in the messages , / the knowledge of / who sent them and to / whom was enormously revealing and still could be. / What political journalist , / what party whip , / would not want to know the makeup of the WhatsApp groups in / which Theresa May’s enemies are currently plotting? / It may be / that the value of Whole Foods to Amazon is not so much the 460 shops it owns , / but the records of / which customers have purchased what.",
+          "chunk_translation": "脸书当时向欧盟委员会承诺 / 不会将电话号码与用户的脸书身份信息相关联， / 但在交易达成后不久它就违背了该承诺。 / 即便 / 不知道信息的具体内容， / 单是掌握了 / 谁发送了信息以及发送给 / 谁的信息，就极具揭示性，而且至今依然如此。 / 哪位政治记者、 / 哪位党鞭， / 会不想了解 / 特雷莎·梅的政敌们目前正在其中密谋策划的群组成员构成呢？ / 也许 / 全食超市对亚马逊的价值与其说在于其拥有的460家门店， / 不如说在于 / 哪些顾客购买了哪些商品的消费记录。",
           "vocabulary": [
             {
               "word": "promised",
@@ -2636,8 +2636,8 @@
           "pid": 2,
           "text": "Competition law appears to be the only way to address these imbalances of power. But it is clumsy. For one thing, it is very slow compared to the pace of change within the digital economy. By the time a problem has been addressed and remedied it may have vanished in the marketplace, to be replaced by new abuses of power. But there is a deeper conceptual problem, too. Competition law as presently interpreted deals with financial disadvantage to consumers and this is not obvious when the users of these services don’t pay for them. The users of their services are not their customers. That would be the people who buy advertising from them—and Facebook and Google, the two virtual giants, dominate digital advertising to the disadvantage of all other media and entertainment companies.",
           "translation": "竞争法似乎是解决这些权力失衡的唯一途径。但它很笨拙。一方面，与数字经济的变化速度相比，它非常缓慢。当问题得到解决和补救时，它可能已经在市场上消失，取而代之的是新的权力滥用。但还有一个更深层次的概念问题。目前解释的竞争法涉及消费者的经济劣势，而当这些服务的用户不付费时，这一点并不明显。他们的服务的用户不是他们的客户。那将是那些从他们那里购买广告的人，而 Facebook 和谷歌这两个虚拟巨头主导着数字广告，这对所有其他媒体和娱乐公司来说都是不利的。",
-          "slashed_text": "Competition law appears to be the only way to address these imbalances of power. But it is clumsy. For one thing , / it is very slow compared to the pace of change within the digital economy. By the time a problem has been addressed and remedied it may have vanished in the marketplace , / to be replaced by new abuses of power. But there is a deeper conceptual problem , / too. Competition law as presently interpreted deals / with financial disadvantage to consumers and this is not obvious / when the users of these services don’t pay / for them. The users of their services are not their customers. / That would be the people / who buy advertising / from them — / and Facebook and Google , / the two virtual giants , / dominate digital advertising to the disadvantage of all other media and entertainment companies.",
-          "chunk_translation": "反垄断竞争法似乎是解决这些权力失衡问题的唯一途径。 但它却显得笨拙低效。 一方面， / 与数字经济的变革步伐相比，它的反应非常迟缓。 等到一个问题得到处理和补救时，该问题可能已经在市场上消失， / 取而代之的是新的权力滥用行径。 但这里还存在一个更深层次的概念性问题， / 同样不容忽视。 按照目前的解释，竞争法处理的是 / 对消费者造成的经济损失，而当这些服务的用户不需要 / 为使用该服务付费时， / 这种经济损失并不显而易见。 使用这些服务的用户并不是他们的真正客户。 / 真正的客户是那些 / 购买广告的 / 广告主—— / 而脸书和谷歌 / 这两家虚拟网络巨头， / 垄断了数字广告业务，令所有其他媒体和娱乐公司处于极为不利的境地。",
+          "slashed_text": "Competition law appears to be the only way to address these imbalances of power. / But it is clumsy. / For one thing , / it is very slow compared to the pace of change within the digital economy. / By the time a problem has been addressed and remedied it may have vanished in the marketplace , / to be replaced by new abuses of power. / But there is a deeper conceptual problem , / too. / Competition law as presently interpreted deals / with financial disadvantage to consumers and this is not obvious / when the users of these services don’t pay / for them. / The users of their services are not their customers. / That would be the people / who buy advertising / from them — / and Facebook and Google , / the two virtual giants , / dominate digital advertising to the disadvantage of all other media and entertainment companies.",
+          "chunk_translation": "反垄断竞争法似乎是解决这些权力失衡问题的唯一途径。 / 但它却显得笨拙低效。 / 一方面， / 与数字经济的变革步伐相比，它的反应非常迟缓。 / 等到一个问题得到处理和补救时，该问题可能已经在市场上消失， / 取而代之的是新的权力滥用行径。 / 但这里还存在一个更深层次的概念性问题， / 同样不容忽视。 / 按照目前的解释，竞争法处理的是 / 对消费者造成的经济损失，而当这些服务的用户不需要 / 为使用该服务付费时， / 这种经济损失并不显而易见。 / 使用这些服务的用户并不是他们的真正客户。 / 真正的客户是那些 / 购买广告的 / 广告主—— / 而脸书和谷歌 / 这两家虚拟网络巨头， / 垄断了数字广告业务，令所有其他媒体和娱乐公司处于极为不利的境地。",
           "vocabulary": [
             {
               "word": "Competition",
@@ -2690,8 +2690,8 @@
           "pid": 3,
           "text": "The product they’re selling is data, and we, the users, convert our lives to data for the benefit of the digital giants. Just as some ants farm the bugs called aphids for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield. Ants keep predatory insects away from where their aphids feed; Gmail keeps the spammers out of our inboxes. It doesn’t feel like a human or democratic relationship, even if both sides benefit.",
           "translation": "他们销售的产品是数据，而我们用户将我们的生活转化为数据，以造福数字巨头。正如一些蚂蚁养殖蚜虫是为了获取它们进食时产生的蜜露一样，谷歌养殖我们是为了我们的数字生活产生的数据。蚂蚁让捕食性昆虫远离蚜虫的食物来源； Gmail 将垃圾邮件发送者拒之门外。即使双方都受益，这也不像是一种人性或民主的关系。",
-          "slashed_text": "The product they’re selling is data , / and we , / the users , / convert our lives to data for the benefit of the digital giants. Just as some ants farm the bugs called aphids for the honeydew they produce / when they feed , / so Google farms us for the data / that our digital lives yield. Ants keep predatory insects away from / where their aphids feed ; / Gmail keeps the spammers out of our inboxes. It doesn’t feel like a human or democratic relationship , / even / if both sides benefit.",
-          "chunk_translation": "他们出售的产品是数据， / 而我们， / 作为广大用户， / 将自己的日常生活转化为数据，以供这些数字巨头牟利。 正如某些蚂蚁饲养蚜虫以获取它们在进食时所产生的蜜露， / 一样， / 谷歌饲养我们也是为了获取 / 我们的数字化生活所产出的数据。 蚂蚁驱逐捕食性昆虫，使其远离 / 蚜虫进食的场所； / 谷歌邮箱则将垃圾邮件拦截在我们的收件箱之外。 这种关系让人感觉既不人性化也不民主， / 即使 / 双方都能从中获益。",
+          "slashed_text": "The product they’re selling is data , / and we , / the users , / convert our lives to data for the benefit of the digital giants. / Just as some ants farm the bugs called aphids for the honeydew they produce / when they feed , / so Google farms us for the data / that our digital lives yield. / Ants keep predatory insects away from / where their aphids feed ; / Gmail keeps the spammers out of our inboxes. / It doesn’t feel like a human or democratic relationship , / even / if both sides benefit.",
+          "chunk_translation": "他们出售的产品是数据， / 而我们， / 作为广大用户， / 将自己的日常生活转化为数据，以供这些数字巨头牟利。 / 正如某些蚂蚁饲养蚜虫以获取它们在进食时所产生的蜜露， / 一样， / 谷歌饲养我们也是为了获取 / 我们的数字化生活所产出的数据。 / 蚂蚁驱逐捕食性昆虫，使其远离 / 蚜虫进食的场所； / 谷歌邮箱则将垃圾邮件拦截在我们的收件箱之外。 / 这种关系让人感觉既不人性化也不民主， / 即使 / 双方都能从中获益。",
           "vocabulary": [
             {
               "word": "product",
@@ -2982,7 +2982,7 @@
           "sentence_index": 7,
           "text": "That would be the people who buy advertising from them—and Facebook and Google, the two virtual giants, dominate digital advertising to the disadvantage of all other media and entertainment companies.",
           "translation": "那将是那些从他们那里购买广告的人，而 Facebook 和谷歌这两个虚拟巨头主导着数字广告，这对所有其他媒体和娱乐公司来说都是不利的。",
-          "slashed_text": "/ That would be the people / who buy advertising / from them — / and Facebook and Google , / the two virtual giants , / dominate digital advertising to the disadvantage of all other media and entertainment companies.",
+          "slashed_text": "That would be the people / who buy advertising / from them — / and Facebook and Google , / the two virtual giants , / dominate digital advertising to the disadvantage of all other media and entertainment companies.",
           "chunk_translation": "真正的客户是那些 / 购买广告的 / 广告主—— / 而脸书和谷歌 / 这两家虚拟网络巨头， / 垄断了数字广告业务，令所有其他媒体和娱乐公司处于极为不利的境地。",
           "syntax": {
             "breakdown": [
@@ -3526,8 +3526,8 @@
           "pid": 0,
           "text": "To combat the trap of putting a premium on being busy, Cal Newport, author of Deep Work: Rules for Focused Success in a Distracted World, recommends building a habit of “deep work”—the ability to focus without distraction.",
           "translation": "为了摆脱过度忙碌的陷阱，《深度工作：分心世界中专注成功的规则》的作者卡尔·纽波特建议养成“深度工作”的习惯——即在不受干扰的情况下专注工作的能力。",
-          "slashed_text": "To combat the trap of putting a premium on being busy , / Cal Newport , / author of Deep Work : / Rules for Focused Success in a Distracted World , / recommends building a habit of “deep work” — / the ability to focus without distraction.",
-          "chunk_translation": "为了摆脱过度重视忙碌的陷阱 / 卡尔·纽波特 / 《深度工作》的作者 / 《在分心世界中专注成功的规则》 / 建议培养“深度工作”的习惯—— / 即在不受干扰的情况下专注工作的能力。",
+          "slashed_text": "To combat the trap of putting a premium / on being busy , / Cal Newport , / author of Deep Work : / Rules / for Focused Success in a Distracted World , / recommends building a habit of “deep work” — / the ability to focus / without distraction.",
+          "chunk_translation": "为了避免陷入过分推崇 / 忙碌的陷阱， / 卡尔·纽波特， / 《深度工作： / 在受干扰的世界中 / 获得专注成功的法则》一书的作者， / 建议养成“深度工作”的习惯—— / 即全神贯注 / 且不受任何干扰的能力。",
           "vocabulary": []
         },
         {
@@ -3535,31 +3535,31 @@
           "text": "There are a number of approaches to mastering the art of deep work—be it lengthy retreats dedicated to a specific task; developing a daily ritual; or taking a “journalistic” approach to seizing moments of deep work when you can throughout the day. Whichever approach, the key is to determine your length of focus time and stick to it.",
           "translation": "掌握深度工作艺术的方法有很多——无论是在特定任务上进行长时间闭关，还是培养日常作息仪式，亦或是采取“新闻记者式”的方法在全天随时抓住深度工作的机会。无论采取哪种方法，关键在于确定你的专注时长并坚持下去。",
           "slashed_text": "There are a number of approaches to mastering the art of deep work — / be it lengthy retreats dedicated to a specific task ; / developing a daily ritual ; / or taking a “journalistic” approach to seizing moments of deep work / when you can throughout the day. / Whichever approach , / the key is to determine your length of focus time and stick to it.",
-          "chunk_translation": "掌握深度工作艺术的方法有很多—— / 可以是专门针对特定任务的长时间静修； / 建立日常作息仪式； / 或者是采取“新闻记者式”的方法抓住深度工作的时刻 / 只要你在一天中有时间。 / 无论采取哪种方法 / 关键在于确定你的专注时长并坚持下去。",
+          "chunk_translation": "掌握深度工作的艺术有多种途径—— / 无论为了某项特定任务进行长期的闭关专注； / 还是养成每日的固定作息惯例； / 抑或是采取像“新闻记者”那样的方法，在一天中随时 / 抓住一切可能的机会进行深度工作。 / 无论采取哪种方法， / 关键在于确定你的专注时长并坚持执行。",
           "vocabulary": []
         },
         {
           "pid": 2,
           "text": "Newport also recommends “deep scheduling” to combat constant interruptions and get more done in less time. “At any given point, I should have deep work scheduled for roughly the next month. Once on the calendar, I protect this time like I would a doctor’s appointment or important meeting,” he writes.",
           "translation": "纽波特还建议进行“深度日程规划”以应对持续的干扰，从而在更短的时间内完成更多工作。他写道：“在任何给定的时间点，我都应该安排好大约接下来一个月的深度工作。一旦列入日程表，我就会像保护看病预约或重要会议一样保护这段时间。”",
-          "slashed_text": "Newport also recommends “deep scheduling” / to combat constant interruptions / and get more done in less time. / “At any given point , / I should have deep work scheduled for roughly the next month. / Once on the calendar , / I protect this time like I would a doctor’s appointment or important meeting , / ” he writes.",
-          "chunk_translation": "纽波特还建议“深度日程规划” / 以应对持续不断的干扰 / 并在更短的时间内完成更多工作。 / “在任何特定时刻 / 我都应该安排好大约未来一个月的深度工作。 / 一旦列入日程表 / 我就会像保护看病预约或重要会议一样保护这段时间 / ”他写道。",
+          "slashed_text": "Newport also recommends “deep scheduling” to combat constant interruptions and get more done / in less time. / “At any given point , / I should have deep work scheduled / for roughly the next month. / Once on the calendar , / I protect this time like I would a doctor’s appointment or important meeting , / ” he writes.",
+          "chunk_translation": "纽波特还建议采用“深度日程规划”来应对接连不断的干扰，从而在更短时间内 / 完成更多的工作。 / “在任何时间点， / 我都应该把深度工作 / 安排好接下来大约一个月的时间。 / 一旦记入日程表， / 我就会像对待看医生预约或重要会议那样捍卫这段时间， / ”他写道。",
           "vocabulary": []
         },
         {
           "pid": 3,
           "text": "Another approach to getting more done in less time is to rethink how you prioritize your day—in particular how we craft our to-do lists. Tim Harford, author of Messy: The Power of Disorder to Transform Our Lives, points to a study in the early 1980s that divided undergraduates into two groups: some were advised to set out monthly goals and study activities; others were told to plan activities and goals in much more detail, day by day.",
           "translation": "在更短时间内完成更多工作的另一种方法是重新思考你如何安排一天的优先事项——尤其是我们如何制定待办事项清单。《混乱：改变我们生活的混乱力量》一书的作者蒂姆·哈福德指出了20世纪80年代初的一项研究，该研究将本科生分为两组：一组被建议设定月度目标和学习活动；另一组则被要求逐日更详细地规划活动和目标。",
-          "slashed_text": "Another approach to getting more done in less time / is to rethink how you prioritize your day — / in particular how we craft our to-do lists. / Tim Harford , / author of Messy : / The Power of Disorder to Transform Our Lives , / points to a study in the early 1980s that divided undergraduates into two groups : / some were advised to set out monthly goals and study activities ; / others were told to plan activities and goals in much more detail , / day by day.",
-          "chunk_translation": "在更短时间内完成更多工作的另一种方法 / 是重新思考你如何安排一天的优先事项—— / 特别是我们如何制定待办事项清单。 / 蒂姆·哈福德 / 《混乱》的作者 / 《改变我们生活的混乱力量》 / 指出了一项20世纪80年代初将本科生分为两组的研究： / 一组被建议制定月度目标和学习活动； / 另一组被告知要逐日制定详细得多的活动和目标 / 日复一日。",
+          "slashed_text": "Another approach to getting more done / in less time is to rethink how you prioritize your day — / in particular how we craft our to-do lists. / Tim Harford , / author of Messy : / The Power of Disorder to Transform Our Lives , / points to a study in the early 1980s / that divided undergraduates into two groups : / some were advised to set out monthly goals and study activities ; / others were told to plan activities and goals / in much more detail , / day by day.",
+          "chunk_translation": "在更短时间内完成更多任务的 / 另一种途径是重新思考如何安排一天事项的优先次序—— / 尤其是我们如何制定每日待办事项清单。 / 蒂姆·哈福德， / 《混乱： / 混乱力量如何改变我们的生活》一书的作者， / 指出了一项20世纪80年代初的研究， / 该研究将本科生分为两组： / 建议其中一组制定月度目标和学习活动； / 另一组则被要求 / 更加详细地按天规划各项活动和目标， / 逐日进行安排。",
           "vocabulary": []
         },
         {
           "pid": 4,
           "text": "While the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of tasks, they were wrong: the detailed daily plans demotivated students. Harford argues that inevitable distractions often render the daily to-do list ineffective, while leaving room for improvisation in such a list can reap the best results.",
           "translation": "虽然研究人员原本假设结构良好的每日计划在执行任务时最有效，但他们错了：详尽的每日计划反而挫伤了学生的积极性。哈福德认为，不可避免的干扰往往导致每日待办清单失效，而在这样的清单中留出即兴发挥的空间往往能收获最佳效果。",
-          "slashed_text": "While the researchers assumed / that the well-structured daily plans would be most effective / when it came to the execution of tasks , / they were wrong : / the detailed daily plans demotivated students. / Harford argues that inevitable distractions often render the daily to-do list ineffective , / while leaving room for improvisation in such a list can reap the best results.",
-          "chunk_translation": "虽然研究人员原本假定 / 结构良好的每日计划在执行任务时最有效 / 当涉及任务执行时 / 但他们错了： / 过于详细的每日计划反而挫伤了学生的积极性。 / 哈福德认为，不可避免的干扰往往会导致每日待办清单失效 / 而在清单中留出即兴发挥的空间往往能带来最佳效果。",
+          "slashed_text": "While the researchers assumed / that the well-structured daily plans would be most effective / when it came to the execution of tasks , / they were wrong : / the detailed daily plans demotivated students. / Harford argues / that inevitable distractions often render the daily to-do list ineffective , / while leaving room / for improvisation / in such a list can reap the best results.",
+          "chunk_translation": "虽然研究人员起初设想 / 结构严密的每日计划会最为有效 / 在具体执行任务时， / 但他们错了： / 过于详尽的每日计划反而挫伤了学生的积极性。 / 哈福德指出 / 不可避免的干扰往往会使每日待办清单失去效用， / 而在这样的清单中 / 留出灵活应变的空间 / 却能够收获最佳成效。",
           "vocabulary": []
         },
         {
@@ -3567,7 +3567,7 @@
           "text": "In order to make the most of our focus and energy, we also need to embrace downtime, or as Newport suggests, “be lazy.”",
           "translation": "为了充分利用我们的专注力和精力，我们还需要拥抱停歇时间，或者正如纽波特所建议的那样，“学会偷懒”。",
           "slashed_text": "In order to make the most of our focus and energy , / we also need to embrace downtime , / or as Newport suggests , / “be lazy.”",
-          "chunk_translation": "为了充分利用我们的专注力和精力 / 我们还需要拥抱停歇时间 / 或者正如纽波特建议的那样 / “学会偷懒”。",
+          "chunk_translation": "为了最大限度地发挥我们的专注力和精力， / 我们还需要坦然接纳休息时间， / 或者正如纽波特所建议的那样， / “学会偷懒”。",
           "vocabulary": []
         },
         {
@@ -3583,15 +3583,15 @@
           "text": "Srini Pillay, an assistant professor of psychiatry at Harvard Medical School, believes this counterintuitive link between downtime and productivity may be due to the way our brains operate. When our brains switch between being focused and unfocused on a task, they tend to be more efficient.",
           "translation": "哈佛医学院精神病学助理教授斯里尼·皮莱认为，休息与生产力之间这种反直觉的联系可能是由于我们大脑的运作方式造成的。当我们的大脑在专注于某项任务与不专注之间切换时，往往效率更高。",
           "slashed_text": "Srini Pillay , / an assistant professor of psychiatry / at Harvard Medical School , / believes this counterintuitive link between downtime and productivity may be due to the way our brains operate. / When our brains switch between being focused and unfocused on a task , / they tend to be more efficient.",
-          "chunk_translation": "斯里尼·皮莱 / 精神病学助理教授 / 任职于哈佛医学院 / 认为休息与生产力之间这种反直觉的联系可能是由大脑的运作方式决定的。 / 当我们的大脑在专注于任务与不专注之间切换时 / 往往具有更高的效率。",
+          "chunk_translation": "斯里尼·皮莱， / 精神病学助理教授 / 任职于哈佛大学医学院， / 认为休息与生产力之间这种反直觉的联系，可能是由我们大脑的运转方式决定的。 / 当我们的大脑在专注于任务与不专注之间自如切换时， / 往往会具有更高的效率。",
           "vocabulary": []
         },
         {
           "pid": 8,
           "text": "“What people don’t realise is that in order to complete these tasks they need to use both the focus and unfocus circuits in their brain,” says Pillay.",
           "translation": "皮莱说：“人们没有意识到的是，为了完成这些任务，他们需要同时运用大脑中的专注回路和非专注回路。”",
-          "slashed_text": "“What people don’t realise is / that in order to complete these tasks they need to use both the focus and unfocus circuits in their brain , / ” says Pillay.",
-          "chunk_translation": "“人们没有意识到的是 / 为了完成这些任务，他们需要同时运用大脑中的专注回路和非专注回路 / ”皮莱说。",
+          "slashed_text": "“What people don’t realise is / that / in order to complete these tasks they need to use both the focus and unfocus circuits / in their brain , / ” says Pillay.",
+          "chunk_translation": "“人们没有意识到的是， / 为了 / 完成这些任务，他们需要同时运用大脑中的专注回路和非专注回路， / 在他们的大脑之中， / ”皮莱说。",
           "vocabulary": []
         }
       ],
@@ -3746,7 +3746,7 @@
           "sentence_index": 0,
           "text": "While the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of tasks, they were wrong: the detailed daily plans demotivated students.",
           "translation": "虽然研究人员认为结构良好的每日计划在执行任务时最有效，但他们错了：详细的每日计划会降低学生的积极性。",
-          "slashed_text": "/ While the researchers assumed / that the well-structured daily plans would be most effective / when it came to the execution of tasks , / they were wrong : / the detailed daily plans demotivated students.",
+          "slashed_text": "While the researchers assumed / that the well-structured daily plans would be most effective / when it came to the execution of tasks , / they were wrong : / the detailed daily plans demotivated students.",
           "chunk_translation": "虽然研究人员起初设想 / 结构严密的每日计划会最为有效 / 在具体执行任务时， / 但他们错了： / 过于详尽的每日计划反而挫伤了学生的积极性。",
           "syntax": {
             "breakdown": [
@@ -3792,7 +3792,7 @@
           "sentence_index": 0,
           "text": "In order to make the most of our focus and energy, we also need to embrace downtime, or as Newport suggests, “be lazy.”",
           "translation": "为了充分利用我们的注意力和精力，我们还需要接受休息时间，或者正如纽波特建议的那样，“变得懒惰”。",
-          "slashed_text": "/ In order to make the most of our focus and energy , / we also need to embrace downtime , / or as Newport suggests , / “be lazy.”",
+          "slashed_text": "In order to make the most of our focus and energy , / we also need to embrace downtime , / or as Newport suggests , / “be lazy.”",
           "chunk_translation": "为了最大限度地发挥我们的专注力和精力， / 我们还需要坦然接纳休息时间， / 或者正如纽波特所建议的那样， / “学会偷懒”。",
           "syntax": {
             "breakdown": [
@@ -3846,7 +3846,7 @@
           "sentence_index": 1,
           "text": "When our brains switch between being focused and unfocused on a task, they tend to be more efficient.",
           "translation": "当我们的大脑在专注和不专注于某项任务之间切换时，它们往往会更有效率。",
-          "slashed_text": "/ When our brains switch between being focused and unfocused on a task , / they tend to be more efficient.",
+          "slashed_text": "When our brains switch between being focused and unfocused on a task , / they tend to be more efficient.",
           "chunk_translation": "当我们的大脑在专注于任务与不专注之间自如切换时， / 往往会具有更高的效率。",
           "syntax": {
             "breakdown": [

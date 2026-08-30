@@ -37,6 +37,17 @@
     `;
   }
 
+  function renderColoredChunks(slashedText) {
+    if (!slashedText) return '';
+    const chunks = slashedText.split(/\s*[/／]\s*/).filter(c => c && c.trim().length > 0);
+    if (chunks.length === 0) return slashedText;
+    return chunks.map((chunk, i) => {
+      const colorIdx = i % 6;
+      return `<span class="chunk-c${colorIdx}">${chunk.trim()}</span>`;
+    }).join('<span class="chunk-slash"> / </span>');
+  }
+  window.renderColoredChunks = renderColoredChunks;
+
   window.QuizModule = {
     // 1. Mock Exam Mode: Render 5 Questions for blind testing
     renderMockExam(textData, containerId, onOptionSelect, onSubmit) {
@@ -352,7 +363,7 @@ ${synonymCard}
           section: 2,
           title: `第${pid+1}段 · 篇章精读`,
           html: `<section class="revealPart"><h3>完整原文 · 第${pid+1}段</h3><p>${p.text}</p></section>
-<section class="revealPart"><h3>意群划分 · 第${pid+1}段</h3><p>${p.slashed_text}</p></section>`,
+<section class="revealPart"><h3>意群划分 · 第${pid+1}段</h3><p class="chunk-group">${renderColoredChunks(p.slashed_text)}</p></section>`,
           meta: { section: 2, para: pid, stage: 1 }
         });
 
@@ -360,8 +371,8 @@ ${synonymCard}
           section: 2,
           title: `第${pid+1}段 · 篇章精读`,
           html: `<section class="revealPart"><h3>完整原文 · 第${pid+1}段</h3><p>${p.text}</p></section>
-<section class="revealPart"><h3>意群划分 · 第${pid+1}段</h3><p>${p.slashed_text}</p></section>
-<section class="revealPart"><h3>意群翻译 · 第${pid+1}段</h3><p style="color:#7c3aed;font-weight:500">${p.chunk_translation}</p></section>`,
+<section class="revealPart"><h3>意群划分 · 第${pid+1}段</h3><p class="chunk-group">${renderColoredChunks(p.slashed_text)}</p></section>
+<section class="revealPart"><h3>意群翻译 · 第${pid+1}段</h3><p class="chunk-group">${renderColoredChunks(p.chunk_translation)}</p></section>`,
           meta: { section: 2, para: pid, stage: 2 }
         });
 
@@ -369,8 +380,8 @@ ${synonymCard}
           section: 2,
           title: `第${pid+1}段 · 篇章精读`,
           html: `<section class="revealPart"><h3>完整原文 · 第${pid+1}段</h3><p>${p.text}</p></section>
-<section class="revealPart"><h3>意群划分 · 第${pid+1}段</h3><p>${p.slashed_text}</p></section>
-<section class="revealPart"><h3>意群翻译 · 第${pid+1}段</h3><p style="color:#7c3aed;font-weight:500">${p.chunk_translation}</p></section>
+<section class="revealPart"><h3>意群划分 · 第${pid+1}段</h3><p class="chunk-group">${renderColoredChunks(p.slashed_text)}</p></section>
+<section class="revealPart"><h3>意群翻译 · 第${pid+1}段</h3><p class="chunk-group">${renderColoredChunks(p.chunk_translation)}</p></section>
 <section class="revealPart"><h3>标准译文 · 第${pid+1}段</h3><p>${p.translation}</p></section>`,
           meta: { section: 2, para: pid, stage: 3 }
         });
@@ -385,8 +396,10 @@ ${synonymCard}
             html: `<section class="revealPart">
 <h4>句子精析 (${s_idx+1}/${sents.length})</h4>
 <p style="font-size:1.1em;line-height:1.7"><strong>原句：</strong>${sent.text}</p>
-<p><strong>意群断句：</strong><code>${sent.slashed_text}</code></p>
-<p style="margin:8px 0"><strong>【意群翻译】：</strong><span style="color:#7c3aed;font-weight:500">${sent.chunk_translation}</span></p>
+<p><strong>意群断句：</strong></p>
+<p class="chunk-group" style="margin:4px 0 8px 0">${renderColoredChunks(sent.slashed_text)}</p>
+<p style="margin:8px 0"><strong>【意群翻译】：</strong></p>
+<p class="chunk-group" style="margin:4px 0 8px 0">${renderColoredChunks(sent.chunk_translation)}</p>
 <div style="background:var(--card-bg);border-left:4px solid var(--review-accent);padding:10px 14px;border-radius:0 6px 6px 0;margin:10px 0">
   <p style="font-weight:700;color:var(--review-accent);margin-bottom:6px">【句法拆解与逻辑剖析】</p>
   <ul style="padding-left:18px">${breakdownHtml}</ul>

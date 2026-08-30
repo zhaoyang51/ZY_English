@@ -390,3 +390,34 @@ body.theme-dark .synonym-table th {
 .tag-adverbial { background: #dcfce7; color: #166534; border: 1px solid #86efac; }
 .tag-noun { background: #f3e8ff; color: #6b21a8; border: 1px solid #e9d5ff; }
 .tag-modifier { background: #f1f5f9; color: #475569; border: 1px solid #cbd5e1; }
+
+/* Alternating Sense-Group Colored Chunks */
+.chunk-group {
+  font-family: var(--font-base) !important;
+  font-size: 1.02em;
+  line-height: 1.95;
+  margin: 6px 0;
+}
+
+.chunk-c0 { color: #1d4ed8 !important; font-weight: 600 !important; }
+.chunk-c1 { color: #9333ea !important; font-weight: 600 !important; }
+.chunk-c2 { color: #0891b2 !important; font-weight: 600 !important; }
+.chunk-c3 { color: #c2410c !important; font-weight: 600 !important; }
+.chunk-c4 { color: #059669 !important; font-weight: 600 !important; }
+.chunk-c5 { color: #d97706 !important; font-weight: 600 !important; }
+.chunk-slash { color: #94a3b8 !important; font-weight: 700 !important; margin: 0 4px; user-select: none; }
+
+body.theme-dark .chunk-c0 { color: #93c5fd !important; }
+body.theme-dark .chunk-c1 { color: #c4b5fd !important; }
+body.theme-dark .chunk-c2 { color: #67e8f9 !important; }
+body.theme-dark .chunk-c3 { color: #fdba74 !important; }
+body.theme-dark .chunk-c4 { color: #6ee7b7 !important; }
+body.theme-dark .chunk-c5 { color: #fcd34d !important; }
+body.theme-dark .chunk-slash { color: #64748b !important; }
+
+body.theme-parchment .chunk-c0 { color: #1e40af !important; }
+body.theme-parchment .chunk-c1 { color: #7e22ce !important; }
+body.theme-parchment .chunk-c2 { color: #0e7490 !important; }
+body.theme-parchment .chunk-c3 { color: #9a3412 !important; }
+body.theme-parchment .chunk-c4 { color: #047857 !important; }
+body.theme-parchment .chunk-c5 { color: #b45309 !important; }
