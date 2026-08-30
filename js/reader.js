@@ -148,10 +148,11 @@
     },
 
     renderExamPaper(textData, containerId) {
+      const data = textData || (window.AppState ? window.AppState.textData : null);
       const container = document.getElementById(containerId || 'examPaper');
-      if (!container || !textData) return;
+      if (!container || !data) return;
 
-      this.init();
+      this.applySettings();
 
       let html = `
         <div class="reader-toolbar" id="readerToolbar">
@@ -173,13 +174,13 @@
           </div>
         </div>
 
-        <h2 style="font-size:1.35em;font-weight:800;margin-bottom:4px">${textData.year} 年全国硕士研究生招生考试英语（二）阅读理解</h2>
-        <div style="color:var(--muted);font-size:0.95em;margin-bottom:18px">Text ${textData.text_id} (${textData.q_range} 题) ｜ <span style="font-size:0.9em;color:var(--mode-color)">💡 点击句子查看语法拆解，双击单词即查释义</span></div>
+        <h2 style="font-size:1.35em;font-weight:800;margin-bottom:4px">${data.year} 年全国硕士研究生招生考试英语（二）阅读理解</h2>
+        <div style="color:var(--muted);font-size:0.95em;margin-bottom:18px">Text ${data.text_id} (${data.q_range} 题) ｜ <span style="font-size:0.9em;color:var(--mode-color)">💡 点击句子查看语法拆解，双击单词即查释义</span></div>
         <div class="exam-article-section">
       `;
 
-      textData.paragraphs.forEach((p) => {
-        const pSents = textData.sentences.filter(s => s.pid === p.pid);
+      data.paragraphs.forEach((p) => {
+        const pSents = data.sentences.filter(s => s.pid === p.pid);
         let paraSentsHtml = '';
 
         pSents.forEach(s => {
@@ -196,9 +197,9 @@
         `;
       });
 
-      html += `</div><hr style="margin:24px 0;border:none;border-top:1px dashed var(--border)"><div class="exam-questions-section"><h3 style="font-size:1.15em;font-weight:700;margin-bottom:12px">Questions (${textData.q_range})</h3>`;
+      html += `</div><hr style="margin:24px 0;border:none;border-top:1px dashed var(--border)"><div class="exam-questions-section"><h3 style="font-size:1.15em;font-weight:700;margin-bottom:12px">Questions (${data.q_range})</h3>`;
 
-      textData.questions.forEach(q => {
+      data.questions.forEach(q => {
         html += `
           <div class="exam-question-card" id="exam-q-${q.qid}" data-qid="${q.qid}">
             <div class="q-stem">${q.qid}. ${q.stem}</div>
@@ -217,7 +218,20 @@
       html += `</div>`;
       container.innerHTML = html;
 
-      this.bindToolbarEvents(textData, containerId);
+      this.bindToolbarEvents(data, containerId);
+    },
+
+    safeReplaceText(html, word, wrapFn) {
+      if (!word) return html;
+      const escaped = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const regex = new RegExp(`\\b(${escaped})\\b`, 'gi');
+      const parts = html.split(/(<[^>]+>)/g);
+      for (let i = 0; i < parts.length; i += 2) {
+        if (parts[i]) {
+          parts[i] = parts[i].replace(regex, wrapFn);
+        }
+      }
+      return parts.join('');
     },
 
     formatSentenceText(sentText, paraVocab) {
@@ -225,23 +239,21 @@
 
       if (this.settings.highlightLogic) {
         LOGIC_CONNECTORS.turn.forEach(w => {
-          const reg = new RegExp(`\\b(${w})\\b`, 'gi');
-          text = text.replace(reg, '<span class="transition-turn">$1</span>');
+          text = this.safeReplaceText(text, w, '<span class="transition-turn">$1</span>');
         });
         LOGIC_CONNECTORS.cause.forEach(w => {
-          const reg = new RegExp(`\\b(${w})\\b`, 'gi');
-          text = text.replace(reg, '<span class="transition-cause">$1</span>');
+          text = this.safeReplaceText(text, w, '<span class="transition-cause">$1</span>');
         });
         LOGIC_CONNECTORS.summary.forEach(w => {
-          const reg = new RegExp(`\\b(${w})\\b`, 'gi');
-          text = text.replace(reg, '<span class="transition-summary">$1</span>');
+          text = this.safeReplaceText(text, w, '<span class="transition-summary">$1</span>');
         });
       }
 
       if (paraVocab && paraVocab.length > 0) {
         paraVocab.forEach(v => {
-          const reg = new RegExp(`\\b(${v.word})\\b`, 'gi');
-          text = text.replace(reg, '<span class="exam-vocab" data-word="$1" title="点击查词: $1">$1</span>');
+          if (v && v.word) {
+            text = this.safeReplaceText(text, v.word, '<span class="exam-vocab" data-word="$1" title="点击查词: $1">$1</span>');
+          }
         });
       }
 
@@ -286,7 +298,7 @@
         transBtn.onclick = (e) => {
           e.preventDefault();
           this.settings.showTrans = !this.settings.showTrans;
-          transBtn.classList.toggle('active', this.settings.showTrans);
+          window.StorageModule.saveSettings(this.settings);
           this.renderExamPaper(textData, containerId);
         };
       }
@@ -295,7 +307,7 @@
         logicBtn.onclick = (e) => {
           e.preventDefault();
           this.settings.highlightLogic = !this.settings.highlightLogic;
-          logicBtn.classList.toggle('active', this.settings.highlightLogic);
+          window.StorageModule.saveSettings(this.settings);
           this.renderExamPaper(textData, containerId);
         };
       }
