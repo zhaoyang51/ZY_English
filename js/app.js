@@ -98,6 +98,9 @@
     if (window.KAOYAN_PURE_DATA && window.KAOYAN_PURE_DATA[AppState.year]) {
       const yData = window.KAOYAN_PURE_DATA[AppState.year];
       AppState.textData = yData.texts.find(t => t.text_id === AppState.textId);
+      if (AppState.textData && !AppState.textData.year) {
+        AppState.textData.year = yData.year || AppState.year;
+      }
     }
 
     if (!AppState.textData) {

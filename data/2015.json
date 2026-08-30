@@ -1202,7 +1202,8 @@
           "translation": "aux. 表示否定（等于 does not）",
           "application_sentence": "Research demonstrates that doesn plays an indispensable role in sustainable development."
         }
-      ]
+      ],
+      "year": 2015
     },
     {
       "text_id": 2,
@@ -2170,7 +2171,8 @@
           "translation": "n. 纸；报纸",
           "application_sentence": "Research demonstrates that paper plays an indispensable role in sustainable development."
         }
-      ]
+      ],
+      "year": 2015
     },
     {
       "text_id": 3,
@@ -3192,7 +3194,8 @@
           "translation": "adj. 预期的；打算中的",
           "application_sentence": "Research demonstrates that intended plays an indispensable role in sustainable development."
         }
-      ]
+      ],
+      "year": 2015
     },
     {
       "text_id": 4,
@@ -4448,7 +4451,8 @@
           "translation": "n. 关系；联系",
           "application_sentence": "Research demonstrates that connection plays an indispensable role in sustainable development."
         }
-      ]
+      ],
+      "year": 2015
     }
   ]
 }

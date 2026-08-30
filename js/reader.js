@@ -174,7 +174,7 @@
           </div>
         </div>
 
-        <h2 style="font-size:1.35em;font-weight:800;margin-bottom:4px">${data.year} 年全国硕士研究生招生考试英语（二）阅读理解</h2>
+        <h2 style="font-size:1.35em;font-weight:800;margin-bottom:4px">${data.year || (window.AppState ? window.AppState.year : '') || ''} 年全国硕士研究生招生考试英语（二）阅读理解</h2>
         <div style="color:var(--muted);font-size:0.95em;margin-bottom:18px">Text ${data.text_id} (${data.q_range} 题) ｜ <span style="font-size:0.9em;color:var(--mode-color)">💡 点击句子查看语法拆解，双击单词即查释义</span></div>
         <div class="exam-article-section">
       `;
