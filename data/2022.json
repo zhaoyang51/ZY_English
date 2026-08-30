@@ -15,9 +15,34 @@
           "chunk_translation": "在最近一个阳光明媚的日子里， / 1.3 / 万只鸡在拉里·布朗那40英亩迎风起伏的土地上漫步， / 该农场地处谢纳， / 德克萨斯州。 / 有的在停放的车辆阴凉处休息。 / 有的则与牛群一起喝水。 / 这一切看似随意， / 但实际上却是 / 精心设计的， / 是规模达61亿美元的美国 / 鸡蛋产业所押注的下一个行业焦点的一部分： / 气候友好型鸡蛋。",
           "vocabulary": [
             {
+              "word": "sunny",
+              "pos": "",
+              "definition": "a.阳光充足的;艳阳高照的"
+            },
+            {
+              "word": "roam",
+              "pos": "",
+              "definition": "v.徜徉;闲逛;漫步"
+            },
+            {
               "word": "windswept",
               "pos": "",
               "definition": "a.迎风的;当风的;无遮挡的"
+            },
+            {
+              "word": "rest",
+              "pos": "",
+              "definition": "v.休息:放松"
+            },
+            {
+              "word": "shade",
+              "pos": "",
+              "definition": "n.阴凉处;背阴处"
+            },
+            {
+              "word": "random",
+              "pos": "",
+              "definition": "a.随机的;随意的"
             },
             {
               "word": "by design",
@@ -45,11 +70,6 @@
               "definition": "n. 气候；气候区；氛围"
             },
             {
-              "word": "random",
-              "pos": "",
-              "definition": "a.随机的;随意的"
-            },
-            {
               "word": "recent",
               "pos": "adj.",
               "definition": "adj. 最近的；最新的"
@@ -68,16 +88,6 @@
               "word": "design",
               "pos": "n.",
               "definition": "n. 设计；布局；安排"
-            },
-            {
-              "word": "sunny",
-              "pos": "",
-              "definition": "a.阳光充足的;艳阳高照的"
-            },
-            {
-              "word": "shade",
-              "pos": "",
-              "definition": "n.阴凉处;背阴处"
             },
             {
               "word": "Larry",
@@ -103,16 +113,6 @@
               "word": "seems",
               "pos": "v.",
               "definition": "v. seem 的第三人称单数现在时形式：似乎；好像；看起来"
-            },
-            {
-              "word": "roam",
-              "pos": "",
-              "definition": "v.徜徉;闲逛;漫步"
-            },
-            {
-              "word": "rest",
-              "pos": "",
-              "definition": "v.休息:放松"
             }
           ]
         },
@@ -124,14 +124,49 @@
           "chunk_translation": "这些鸡蛋， / 如今正首次亮相 / 于货架之上，售价高达每打8美元， / 依然被贴上“有机”和“动物友好”的标签， / 但它们还来自 / 那些母鸡， / 它们生活在 / 采用再生农业技术的农场中—— / 这是一种用来培育肥沃土壤的特殊技术， / 能够有效封存温室气体。 / 这类鸡蛋在营销时可以宣传为有助于应对气候变化。",
           "vocabulary": [
             {
+              "word": "on specially designed farms",
+              "pos": "",
+              "definition": "【🎯解题正解】 在专门设计的农场"
+            },
+            {
+              "word": "at a considerably low cost",
+              "pos": "",
+              "definition": "【💡题项表达】 以相当低的成本"
+            },
+            {
+              "word": "at the demand of regular shoppers",
+              "pos": "",
+              "definition": "【💡题项表达】 应经常购物者的需求"
+            },
+            {
+              "word": "as a replacement for organic eggs",
+              "pos": "",
+              "definition": "【💡题项表达】 作为有机鸡蛋的替代品"
+            },
+            {
+              "word": "debut",
+              "pos": "",
+              "definition": "n.(新产品的)首次亮相"
+            },
+            {
+              "word": "dozen",
+              "pos": "",
+              "definition": "n.(一)打;十二个"
+            },
+            {
               "word": "regenerative",
               "pos": "",
               "definition": "a.再生的:更生的"
             },
             {
-              "word": "agriculture",
-              "pos": "n.",
-              "definition": "n. 农业；农学；农艺"
+              "word": "cultivate",
+              "pos": "",
+              "definition": "v.培育:培养"
+            },
+            {
+              "word": "trap",
+              "pos": "",
+              "definition": "v.收集:吸收;捕获"
             },
             {
               "word": "as much as",
@@ -139,14 +174,14 @@
               "definition": "像...那么多:多达"
             },
             {
+              "word": "agriculture",
+              "pos": "n.",
+              "definition": "n. 农业；农学；农艺"
+            },
+            {
               "word": "techniques",
               "pos": "n.",
               "definition": "n. 技术；方法；技巧（technique 的复数）"
-            },
-            {
-              "word": "cultivate",
-              "pos": "",
-              "definition": "v.培育:培养"
             },
             {
               "word": "friendly",
@@ -184,16 +219,6 @@
               "definition": "n. 气候；气候区；氛围"
             },
             {
-              "word": "debut",
-              "pos": "",
-              "definition": "n.(新产品的)首次亮相"
-            },
-            {
-              "word": "dozen",
-              "pos": "",
-              "definition": "n.(一)打;十二个"
-            },
-            {
               "word": "birds",
               "pos": "n.",
               "definition": "n. 鸟；鸟类；禽（bird 的复数）"
@@ -219,11 +244,6 @@
               "definition": "v. 与……作斗争；坚决反对；努力争取"
             },
             {
-              "word": "trap",
-              "pos": "",
-              "definition": "v.收集:吸收;捕获"
-            },
-            {
               "word": "eggs",
               "pos": "n.",
               "definition": "n. 蛋（egg 的复数形式）；鸡蛋"
@@ -237,6 +257,46 @@
           "slashed_text": "“I’m excited about our progress , / ” says Brown , / who is adding more cover crops / that draw worms and crickets for the chickens to eat. / The birds’ waste then fertilizes fields. / Such improvements “allow our hens to forage / for higher-quality natural feed / that will be good for the land , / the hens , / and the eggs / that we supply to our customers.”",
           "chunk_translation": "“我对我们的进展感到兴奋，” / 布朗说， / 他正在增加种植更多的覆盖作物， / 这些作物能引来蠕虫和蟋蟀供鸡群食用。 / 鸡群的粪便随后又能为田地施肥。 / 这些改进“使我们的母鸡能够觅食 / 更高质量的天然食料， / 这将有益于土地、 / 母鸡本身， / 以及我们供应给 / 广大客户的鸡蛋。”",
           "vocabulary": [
+            {
+              "word": "creating a sustainable system",
+              "pos": "",
+              "definition": "【🎯解题正解】 创建一个可持续的系统"
+            },
+            {
+              "word": "reducing the damage of worms",
+              "pos": "",
+              "definition": "【💡题项表达】 减少蠕虫的损害"
+            },
+            {
+              "word": "accelerating the disposal of waste",
+              "pos": "",
+              "definition": "【💡题项表达】 加快废物处置"
+            },
+            {
+              "word": "attracting customers to his products",
+              "pos": "",
+              "definition": "【💡题项表达】 吸引顾客购买他的产品"
+            },
+            {
+              "word": "draw",
+              "pos": "",
+              "definition": "v吸引:招引:引来"
+            },
+            {
+              "word": "waste",
+              "pos": "",
+              "definition": "n.粪便"
+            },
+            {
+              "word": "forage",
+              "pos": "",
+              "definition": "v.觅(食);四处搜寻"
+            },
+            {
+              "word": "feed",
+              "pos": "",
+              "definition": "n.(家畜的)饲料"
+            },
             {
               "word": "improvements",
               "pos": "n.",
@@ -273,19 +333,9 @@
               "definition": "adj. 激动的；兴奋的"
             },
             {
-              "word": "quality",
-              "pos": "n.",
-              "definition": "n. 质量；品质；优质"
-            },
-            {
               "word": "natural",
               "pos": "adj.",
               "definition": "adj. 天然的；非人为的；合理的"
-            },
-            {
-              "word": "forage",
-              "pos": "",
-              "definition": "v.觅(食);四处搜寻"
             },
             {
               "word": "adding",
@@ -301,11 +351,6 @@
               "word": "supply",
               "pos": "n.",
               "definition": "n. 供给量；储备；（商品、服务的）供应量"
-            },
-            {
-              "word": "waste",
-              "pos": "",
-              "definition": "n.粪便"
             },
             {
               "word": "cover",
@@ -331,16 +376,6 @@
               "word": "birds",
               "pos": "n.",
               "definition": "n. 鸟；鸟类；禽（bird 的复数）"
-            },
-            {
-              "word": "draw",
-              "pos": "",
-              "definition": "v吸引:招引:引来"
-            },
-            {
-              "word": "feed",
-              "pos": "",
-              "definition": "n.(家畜的)饲料"
             }
           ]
         },
@@ -352,14 +387,79 @@
           "chunk_translation": "鸡蛋产业的这一推动是对来自再生农场的动物产品 / 能否成为下一代高端主打产品的首次重大考验。 / 在短短十余年间， / 有机鸡蛋的地位经历转变， / 从起初在天然食品商店里被视作小众边缘产品， / 发展到上架销售 / 于沃尔玛这样的主流零售巨头。 / 近来人们对于益生菌和植物人造肉 / 也曾有过类似的怀疑， / 但这二者均已迅速爆发， / 成为超市的核心大类。 / 如果可持续鸡蛋的推广获得成功， / 它可能会打开市场的大门， / 为再生牛肉、 / 西兰花 / 以及更多品类铺平道路。",
           "vocabulary": [
             {
-              "word": "niche product",
+              "word": "the potential of regenerative products",
               "pos": "",
-              "definition": "特殊定向产品;利基产品;小众产品"
+              "definition": "【🎯解题正解】 再生产品的潜力"
+            },
+            {
+              "word": "the doubts over natural foods",
+              "pos": "",
+              "definition": "【💡题项表达】 对天然食品的质疑"
+            },
+            {
+              "word": "the setbacks in the egg industry",
+              "pos": "",
+              "definition": "【💡题项表达】 鸡蛋行业的挫折"
+            },
+            {
+              "word": "the promotional success of supermarkets",
+              "pos": "",
+              "definition": "【💡题项表达】 超市促销成功"
             },
             {
               "word": "regenerative",
               "pos": "",
               "definition": "a.再生的:更生的"
+            },
+            {
+              "word": "push",
+              "pos": "",
+              "definition": "n.推销运动;广告活动"
+            },
+            {
+              "word": "premium",
+              "pos": "",
+              "definition": "a.高昂的;优质的"
+            },
+            {
+              "word": "offering",
+              "pos": "",
+              "definition": "n.(供出售的)产品"
+            },
+            {
+              "word": "barely",
+              "pos": "",
+              "definition": "ad.不超过;只有;仅仅"
+            },
+            {
+              "word": "niche",
+              "pos": "",
+              "definition": "a.(产品)针对特定小群体的"
+            },
+            {
+              "word": "rollout",
+              "pos": "",
+              "definition": "n.(产品或服务的)正式推出"
+            },
+            {
+              "word": "broccoli",
+              "pos": "",
+              "definition": "n.绿菜花:西兰花"
+            },
+            {
+              "word": "niche product",
+              "pos": "",
+              "definition": "特殊定向产品;利基产品;小众产品"
+            },
+            {
+              "word": "and beyond",
+              "pos": "",
+              "definition": "及其他人或事物;及以后的"
+            },
+            {
+              "word": "beyond",
+              "pos": "",
+              "definition": "prep.超出:非......可及;无法"
             },
             {
               "word": "supermarket",
@@ -370,11 +470,6 @@
               "word": "sustainable",
               "pos": "adj.",
               "definition": "adj. （计划、方法、体制）可持续的；持续性的；（自然资源）可持续的"
-            },
-            {
-              "word": "and beyond",
-              "pos": "",
-              "definition": "及其他人或事物;及以后的"
             },
             {
               "word": "probiotics",
@@ -402,16 +497,6 @@
               "definition": "v. 开除；解雇；不考虑"
             },
             {
-              "word": "offering",
-              "pos": "",
-              "definition": "n.(供出售的)产品"
-            },
-            {
-              "word": "broccoli",
-              "pos": "",
-              "definition": "n.绿菜花:西兰花"
-            },
-            {
               "word": "industry",
               "pos": "n.",
               "definition": "n. 工业；生产制造；行业"
@@ -430,16 +515,6 @@
               "word": "exploded",
               "pos": "adj.",
               "definition": "adj. 爆炸了的；分解的（尤用于部件分解图等）；被破除的（指理论、说法等）"
-            },
-            {
-              "word": "premium",
-              "pos": "",
-              "definition": "a.高昂的;优质的"
-            },
-            {
-              "word": "rollout",
-              "pos": "",
-              "definition": "n.(产品或服务的)正式推出"
             },
             {
               "word": "organic",
@@ -462,21 +537,6 @@
               "definition": "n. 沃尔玛（世界连锁零售企业）"
             },
             {
-              "word": "similar",
-              "pos": "adj.",
-              "definition": "adj. 相像的；类似的；（几何图形）相似的"
-            },
-            {
-              "word": "barely",
-              "pos": "",
-              "definition": "ad.不超过;只有;仅仅"
-            },
-            {
-              "word": "beyond",
-              "pos": "",
-              "definition": "prep.超出:非......可及;无法"
-            },
-            {
               "word": "decade",
               "pos": "n.",
               "definition": "n. 十年；十年期；十进"
@@ -490,11 +550,6 @@
               "word": "doubts",
               "pos": "n.",
               "definition": "n. doubt 的复数形式：怀疑；疑虑；表示对事物的真实性、准确性或可靠性的不确定或不信任"
-            },
-            {
-              "word": "niche",
-              "pos": "",
-              "definition": "a.(产品)针对特定小群体的"
             },
             {
               "word": "major",
@@ -525,11 +580,6 @@
               "word": "meats",
               "pos": "n.",
               "definition": "n. 肉类（meat 的复数）"
-            },
-            {
-              "word": "push",
-              "pos": "",
-              "definition": "n.推销运动;广告活动"
             }
           ]
         },
@@ -541,9 +591,54 @@
           "chunk_translation": "再生农产品可能并不容易推销， / 因为这一概念很难在短时间内解释清楚， / 宾夕法尼亚州立大学布兰迪万分校 / 农业经济学副教授 / 朱莉·斯坦顿指出。 / 这类农耕方式对食品本身带来的改善即便存在， / 也是微乎其微的 / （虽然一些生产商 / 坚称他们的鸡蛋含有更高的蛋白质）。",
           "vocabulary": [
             {
+              "word": "market prospects",
+              "pos": "",
+              "definition": "【🎯解题正解】 市场前景"
+            },
+            {
+              "word": "standard definition",
+              "pos": "",
+              "definition": "【💡题项表达】 标准定义"
+            },
+            {
+              "word": "nutritional value",
+              "pos": "",
+              "definition": "【💡题项表达】 营养价值"
+            },
+            {
+              "word": "moral implication",
+              "pos": "",
+              "definition": "【💡题项表达】 道德含义"
+            },
+            {
               "word": "regenerative",
               "pos": "",
               "definition": "a.再生的:更生的"
+            },
+            {
+              "word": "tough",
+              "pos": "",
+              "definition": "a.艰难的:棘手的"
+            },
+            {
+              "word": "associate",
+              "pos": "",
+              "definition": "a.非正式的:准的:副的"
+            },
+            {
+              "word": "minimal",
+              "pos": "",
+              "definition": "a.极小的;极少的;最小的"
+            },
+            {
+              "word": "protein",
+              "pos": "",
+              "definition": "n.蛋白质"
+            },
+            {
+              "word": "a hard sell",
+              "pos": "",
+              "definition": "滞销品:不容易被接受的事物"
             },
             {
               "word": "agricultural",
@@ -554,11 +649,6 @@
               "word": "Pennsylvania",
               "pos": "n.",
               "definition": "n. 宾夕法尼亚州（美国中大西洋地区的一个州；美国最初的十三个殖民地之一；别称 Keystone State"
-            },
-            {
-              "word": "a hard sell",
-              "pos": "",
-              "definition": "滞销品:不容易被接受的事物"
             },
             {
               "word": "improvement",
@@ -574,11 +664,6 @@
               "word": "Brandywine",
               "pos": "n.",
               "definition": "n. 布兰迪万河（美国一条河流名）；白兰地酒"
-            },
-            {
-              "word": "associate",
-              "pos": "",
-              "definition": "a.非正式的:准的:副的"
             },
             {
               "word": "professor",
@@ -599,16 +684,6 @@
               "word": "products",
               "pos": "n.",
               "definition": "n. 产品；商品（product 的复数）"
-            },
-            {
-              "word": "minimal",
-              "pos": "",
-              "definition": "a.极小的;极少的;最小的"
-            },
-            {
-              "word": "protein",
-              "pos": "",
-              "definition": "n.蛋白质"
             },
             {
               "word": "concept",
@@ -641,11 +716,6 @@
               "definition": "v. 带来；携带；使发生"
             },
             {
-              "word": "tough",
-              "pos": "",
-              "definition": "a.艰难的:棘手的"
-            },
-            {
               "word": "major",
               "pos": "adj.",
               "definition": "adj. 重大的；主要的"
@@ -675,6 +745,71 @@
           "chunk_translation": "该行业正押注 / 那些愿意为优质特性支付更高溢价的消费者， / 例如散养、 / 非转基因 / 以及草场放养鸡蛋的购买者，也将欣然接受可持续性概念。 / 调查显示， / 年轻一代更加关切 / 气候变化问题， / 而植物肉的部分成功可以归因于消费者希望借此展现自己保护环境的意愿。 / 年轻群体“确实非常关爱我们的星球，” / “创新鸡蛋”公司总裁 / 约翰·布伦奎尔说道。 / “他们绝对正在改变食物链，其深远影响甚至超出了他们对自己行为的认知。”",
           "vocabulary": [
             {
+              "word": "are likely to buy climate-friendly eggs",
+              "pos": "",
+              "definition": "【🎯解题正解】 可能会购买气候友好型鸡蛋"
+            },
+            {
+              "word": "are reluctant to change their diet",
+              "pos": "",
+              "definition": "【💡题项表达】 不愿意改变饮食习惯"
+            },
+            {
+              "word": "are curious about new food",
+              "pos": "",
+              "definition": "【💡题项表达】 对新食物感到好奇"
+            },
+            {
+              "word": "are amazed at agricultural advances",
+              "pos": "",
+              "definition": "【💡题项表达】 对农业进步感到惊讶"
+            },
+            {
+              "word": "premium",
+              "pos": "",
+              "definition": "a.高昂的;优质的"
+            },
+            {
+              "word": "free-range",
+              "pos": "",
+              "definition": "a.(家畜,尤指家禽)自由放养的"
+            },
+            {
+              "word": "GMO",
+              "pos": "",
+              "definition": "n.转基因生物"
+            },
+            {
+              "word": "pasture",
+              "pos": "",
+              "definition": "n.牧场"
+            },
+            {
+              "word": "embrace",
+              "pos": "",
+              "definition": "v.欣然接受:乐意采纳"
+            },
+            {
+              "word": "concerned",
+              "pos": "",
+              "definition": "a.关心的;关切的;关注的"
+            },
+            {
+              "word": "signal",
+              "pos": "",
+              "definition": "v.表达;表示;显示"
+            },
+            {
+              "word": "absolutely",
+              "pos": "",
+              "definition": "ad.完全地;无保留地;极其"
+            },
+            {
+              "word": "beyond",
+              "pos": "",
+              "definition": "prep.超出:非......可及;无法"
+            },
+            {
               "word": "sustainability",
               "pos": "n.",
               "definition": "n. 持续性；能维持性"
@@ -695,24 +830,9 @@
               "definition": "n. 创新（innovation 的复数）；革新；改革"
             },
             {
-              "word": "free-range",
-              "pos": "",
-              "definition": "a.(家畜,尤指家禽)自由放养的"
-            },
-            {
-              "word": "absolutely",
-              "pos": "",
-              "definition": "ad.完全地;无保留地;极其"
-            },
-            {
               "word": "attributes",
               "pos": "n.",
               "definition": "n. 属性；特性"
-            },
-            {
-              "word": "concerned",
-              "pos": "",
-              "definition": "a.关心的;关切的;关注的"
             },
             {
               "word": "consumers",
@@ -740,21 +860,6 @@
               "definition": "v. 改变；改动；（使）变化"
             },
             {
-              "word": "premium",
-              "pos": "",
-              "definition": "a.高昂的;优质的"
-            },
-            {
-              "word": "pasture",
-              "pos": "",
-              "definition": "n.牧场"
-            },
-            {
-              "word": "embrace",
-              "pos": "",
-              "definition": "v.欣然接受:乐意采纳"
-            },
-            {
               "word": "betting",
               "pos": "n.",
               "definition": "n. 打赌；赌博"
@@ -770,11 +875,6 @@
               "definition": "n. 气候；气候区；氛围"
             },
             {
-              "word": "success",
-              "pos": "n.",
-              "definition": "n. 成功；胜利；发财"
-            },
-            {
               "word": "chalked",
               "pos": "v.",
               "definition": "v. chalk 的过去式和过去分词：用粉笔写或画；用白垩粉擦或涂；使变苍白"
@@ -783,16 +883,6 @@
               "word": "protect",
               "pos": "v.",
               "definition": "v. 保护；防护；（制订法律）保护"
-            },
-            {
-              "word": "signal",
-              "pos": "",
-              "definition": "v.表达;表示;显示"
-            },
-            {
-              "word": "beyond",
-              "pos": "",
-              "definition": "prep.超出:非......可及;无法"
             },
             {
               "word": "paying",
@@ -838,11 +928,6 @@
               "word": "chain",
               "pos": "n.",
               "definition": "n. 链；链条；一连串"
-            },
-            {
-              "word": "GMO",
-              "pos": "",
-              "definition": "n.转基因生物"
             }
           ]
         }
@@ -1679,6 +1764,11 @@
               "definition": "n.退休;退休年龄"
             },
             {
+              "word": "upend",
+              "pos": "",
+              "definition": "v.使颠倒;颠覆"
+            },
+            {
               "word": "workforce",
               "pos": "",
               "definition": "n.劳动力"
@@ -1697,11 +1787,6 @@
               "word": "opting",
               "pos": "vi.",
               "definition": "vi. 选择；挑选（opt 的现在分词）"
-            },
-            {
-              "word": "upend",
-              "pos": "",
-              "definition": "v.使颠倒;颠覆"
             },
             {
               "word": "trend",
@@ -1723,14 +1808,19 @@
           "chunk_translation": "每三人中就有一人 / 在全美范围内， / 只要年龄达到 / 至少40岁就已拥有， / 或计划在退休后保留一份工作， / 以便为更长寿的生活做准备， / 根据一项民调调查， / 该调查由哈里斯民调为德美利证券所开展。 / 更令人惊讶的是， / 超过半数的“不退休族”—— / 即那些 / 计划工作的人 / 在退休后，或者重新重返工作岗位 / 在退休之后—— / 表示他们仍会受雇工作 / 在他们的晚年，即便 / 他们有足够的金钱安顿下来， / 该项调查显示。",
           "vocabulary": [
             {
-              "word": "settle down",
+              "word": "more Americans are willing to work in retirement",
               "pos": "",
-              "definition": "过安定的生活"
+              "definition": "【🎯解题正解】 更多美国人愿意在退休后工作"
             },
             {
               "word": "retirement",
               "pos": "",
               "definition": "n.退休;退休年龄"
+            },
+            {
+              "word": "settle down",
+              "pos": "",
+              "definition": "过安定的生活"
             },
             {
               "word": "surprising",
@@ -1807,6 +1897,26 @@
           "chunk_translation": "经济需求并非导致“不退休”趋势的唯一诱因。 / 根据该项研究，其他原因 / 还包括自我实现， / 例如保持思维敏捷活跃、 / 排解无聊或者避免陷入抑郁。 / “退休的概念正在不断演化，” / 德美利证券退休事务高级经理 / 克里斯汀·拉塞尔表示。 / “这不仅关乎 / 经济财务层面。 / 工作的内在价值同样在驱使人们在退休后继续从事工作。”",
           "vocabulary": [
             {
+              "word": "retirement may cause problems for them",
+              "pos": "",
+              "definition": "【🎯解题正解】 退休可能会给他们带来问题"
+            },
+            {
+              "word": "retirement",
+              "pos": "",
+              "definition": "n.退休;退休年龄"
+            },
+            {
+              "word": "culprit",
+              "pos": "",
+              "definition": "n.引起问题的事物;问题的起因"
+            },
+            {
+              "word": "depression",
+              "pos": "",
+              "definition": "n.抑郁症;忧郁"
+            },
+            {
               "word": "unretirement",
               "pos": "n.",
               "definition": "n．退休后重返职场：指一个人在退休后决定重新开始工作；通常是因为经济原因、寻求社交互动或追求个人成就感。"
@@ -1815,16 +1925,6 @@
               "word": "fulfillment",
               "pos": "n.",
               "definition": "n. 履行；实行；满足（感）"
-            },
-            {
-              "word": "retirement",
-              "pos": "",
-              "definition": "n.退休;退休年龄"
-            },
-            {
-              "word": "depression",
-              "pos": "",
-              "definition": "n.抑郁症;忧郁"
             },
             {
               "word": "preventing",
@@ -1870,11 +1970,6 @@
               "word": "avoiding",
               "pos": "v.",
               "definition": "v. avoid 的现在分词；避免；防止"
-            },
-            {
-              "word": "culprit",
-              "pos": "",
-              "definition": "n.引起问题的事物;问题的起因"
             },
             {
               "word": "reasons",
@@ -1951,9 +2046,24 @@
           "chunk_translation": "退休模式发生改变的原因之一是： / 退休生活模式： / 美国人的预期寿命变得更长。 / 美国老年群体也是全美劳动力中 / 增长最快的一部分。 / 在过去三十年中，处于退休年龄却依然在职的人员比例翻了一番。 / 大约20%的65岁及以上老年人处于就业状态 / 在2019年2月， / 高于10%的历史最低点 / 在1985年1月， / 据资产管理机构联合收入公司的数据显示。",
           "vocabulary": [
             {
-              "word": "labor force",
+              "word": "longer life expectancy",
               "pos": "",
-              "definition": "劳动力"
+              "definition": "【🎯解题正解】 预期寿命更长"
+            },
+            {
+              "word": "labor shortages",
+              "pos": "",
+              "definition": "【💡题项表达】 劳动力短缺"
+            },
+            {
+              "word": "population growth",
+              "pos": "",
+              "definition": "【💡题项表达】 人口增长"
+            },
+            {
+              "word": "rising living costs",
+              "pos": "",
+              "definition": "【💡题项表达】 生活成本上升"
             },
             {
               "word": "retirement",
@@ -1961,14 +2071,24 @@
               "definition": "n.退休;退休年龄"
             },
             {
-              "word": "percentage",
-              "pos": "n.",
-              "definition": "n. 百分比；百分率；部分"
-            },
-            {
               "word": "workforce",
               "pos": "",
               "definition": "n.劳动力"
+            },
+            {
+              "word": "segment",
+              "pos": "",
+              "definition": "n.部分"
+            },
+            {
+              "word": "labor force",
+              "pos": "",
+              "definition": "劳动力"
+            },
+            {
+              "word": "percentage",
+              "pos": "n.",
+              "definition": "n. 百分比；百分率；部分"
             },
             {
               "word": "according",
@@ -1979,11 +2099,6 @@
               "word": "patterns",
               "pos": "n.",
               "definition": "n. 模式；方式"
-            },
-            {
-              "word": "segment",
-              "pos": "",
-              "definition": "n.部分"
             },
             {
               "word": "fastest",
@@ -2055,6 +2170,41 @@
           "chunk_translation": "由于预期寿命延长， / 美国人也在增加储蓄以保全自己的养老金， / 德美利证券的这项研究所揭示， / 该研究调查了2 / 000名年龄在40至79岁之间的成年人。 / 十分之六的“不退休族”正在增加储蓄， / 以应对更加长寿的生活。 / 在他们采取的最普遍的做法中， / 该公司指出， / 主要包括： / 削减总体日常开支、 / 购买人寿保险或顶格缴纳个人退休账户供款。",
           "vocabulary": [
             {
+              "word": "spending less",
+              "pos": "",
+              "definition": "【🎯解题正解】 少花钱"
+            },
+            {
+              "word": "investing more in stocks",
+              "pos": "",
+              "definition": "【💡题项表达】 更多地投资股票"
+            },
+            {
+              "word": "taking up odd jobs",
+              "pos": "",
+              "definition": "【💡题项表达】 打零工"
+            },
+            {
+              "word": "getting well-paid work",
+              "pos": "",
+              "definition": "【💡题项表达】 获得高薪工作"
+            },
+            {
+              "word": "retirement",
+              "pos": "",
+              "definition": "n.退休;退休年龄"
+            },
+            {
+              "word": "preserve",
+              "pos": "",
+              "definition": "v.保护:保存"
+            },
+            {
+              "word": "overall",
+              "pos": "",
+              "definition": "a.总体的"
+            },
+            {
               "word": "contributions",
               "pos": "n.",
               "definition": "n. 贡献；促成作用；捐款"
@@ -2063,11 +2213,6 @@
               "word": "anticipation",
               "pos": "n.",
               "definition": "n. 预期；预料；期盼"
-            },
-            {
-              "word": "retirement",
-              "pos": "",
-              "definition": "n.退休;退休年龄"
             },
             {
               "word": "unretirees",
@@ -2088,11 +2233,6 @@
               "word": "insurance",
               "pos": "n.",
               "definition": "n. 保险；保险费；保险业"
-            },
-            {
-              "word": "preserve",
-              "pos": "",
-              "definition": "v.保护:保存"
             },
             {
               "word": "boosting",
@@ -2123,11 +2263,6 @@
               "word": "accounts",
               "pos": "n.",
               "definition": "n. 账目（account 的复数）；账号；会计账簿"
-            },
-            {
-              "word": "overall",
-              "pos": "",
-              "definition": "a.总体的"
             },
             {
               "word": "savings",
@@ -2179,19 +2314,34 @@
           "chunk_translation": "不幸的是， / 许多人 / 选择继续工作 / 在退休后准备这样做， / 是因为他们担忧 / 难以维持收支平衡 / 在自己的晚年生活中， / 布伦特·韦斯指出， / 他是总部位于巴尔的摩的理财规划机构 / 辉盛财富的联合创始人。 / 他建议， / 准退休人员应当咨询专业财务顾问以确立长期财务规划目标。 / “人生中最具挑战性的转折时刻 / 在于结婚成家、 / 养育子女以及最终步入退休，” / 韦斯说道。 / “这不仅是一项财务上的抉择， / 更是一场情感上的心理转变。 / 许多人甚至深信自己根本无法退得起休。”",
           "vocabulary": [
             {
-              "word": "unfortunately",
+              "word": "unprepared",
               "pos": "",
-              "definition": "ad.令人遗憾地"
+              "definition": "【🎯解题正解】 毫无准备的"
             },
             {
-              "word": "challenging",
-              "pos": "adj.",
-              "definition": "adj. 富于挑战性的；困难而有趣的"
+              "word": "unafraid",
+              "pos": "",
+              "definition": "【💡题项表达】 无所畏惧"
+            },
+            {
+              "word": "disappointed",
+              "pos": "",
+              "definition": "【💡题项表达】 失望的"
+            },
+            {
+              "word": "enthusiastic",
+              "pos": "",
+              "definition": "【💡题项表达】 热情的"
             },
             {
               "word": "retirement",
               "pos": "",
               "definition": "n.退休;退休年龄"
+            },
+            {
+              "word": "unfortunately",
+              "pos": "",
+              "definition": "ad.令人遗憾地"
             },
             {
               "word": "ultimately",
@@ -2202,6 +2352,11 @@
               "word": "emotional",
               "pos": "",
               "definition": "a.感情的;情感的"
+            },
+            {
+              "word": "challenging",
+              "pos": "adj.",
+              "definition": "adj. 富于挑战性的；困难而有趣的"
             },
             {
               "word": "preparing",
@@ -2252,11 +2407,6 @@
               "word": "retirees",
               "pos": "n.",
               "definition": "n. 退休人员（retiree 的复数）"
-            },
-            {
-              "word": "decision",
-              "pos": "n.",
-              "definition": "n. 决定；抉择；判决"
             },
             {
               "word": "savings",
@@ -3216,39 +3366,24 @@
           "chunk_translation": "我们所有人在个人生活与职场工作中 / 都曾遇见过它们。 / 回想一下你因某项会员或订阅服务而感到被欺骗或沮丧的时刻： / 该服务注册流程畅通无阻，但日后若想取消却百般刁难。 / 某些事情 / 本应简单透明，却可能有意无意地 / 被复杂化， / 以损害 / 消费者自主选择权的方式呈现。 / 这些都是“黑暗模式”的典型例子。",
           "vocabulary": [
             {
-              "word": "unintentionally",
-              "pos": "adv.",
-              "definition": "adv. 无意地；非故意地；非存心地"
-            },
-            {
-              "word": "intentionally",
-              "pos": "adv.",
-              "definition": "adv. 故意地；有意地"
-            },
-            {
-              "word": "subscription",
+              "word": "undermine users’ decision-making",
               "pos": "",
-              "definition": "n.订阅:订购"
+              "definition": "【🎯解题正解】 破坏用户的决策"
             },
             {
-              "word": "professional",
-              "pos": "adj.",
-              "definition": "adj. 职业的；专业的"
-            },
-            {
-              "word": "transparent",
+              "word": "improve user experiences",
               "pos": "",
-              "definition": "a.易懂的"
+              "definition": "【💡题项表达】 改善用户体验"
             },
             {
-              "word": "complicated",
+              "word": "leak user information for profit",
               "pos": "",
-              "definition": "a.复杂的;难懂的"
+              "definition": "【💡题项表达】 泄露用户信息谋取利益"
             },
             {
-              "word": "encountered",
-              "pos": "v.",
-              "definition": "v. 遇到；曾遭遇"
+              "word": "remind users of hidden costs",
+              "pos": "",
+              "definition": "【💡题项表达】 提醒用户隐藏费用"
             },
             {
               "word": "frustrated",
@@ -3261,14 +3396,64 @@
               "definition": "n.会员身份:成员资格"
             },
             {
-              "word": "difficult",
-              "pos": "adj.",
-              "definition": "adj. 困难的；费力的；不友好的"
+              "word": "subscription",
+              "pos": "",
+              "definition": "n.订阅:订购"
             },
             {
               "word": "seamless",
               "pos": "",
               "definition": "a.无缝的:无停顿的"
+            },
+            {
+              "word": "sign-up",
+              "pos": "",
+              "definition": "n.注册;签约"
+            },
+            {
+              "word": "cancel",
+              "pos": "",
+              "definition": "v.注销:终止"
+            },
+            {
+              "word": "transparent",
+              "pos": "",
+              "definition": "a.易懂的"
+            },
+            {
+              "word": "complicated",
+              "pos": "",
+              "definition": "a.复杂的;难懂的"
+            },
+            {
+              "word": "impair",
+              "pos": "",
+              "definition": "n.损害:削弱"
+            },
+            {
+              "word": "unintentionally",
+              "pos": "adv.",
+              "definition": "adv. 无意地；非故意地；非存心地"
+            },
+            {
+              "word": "intentionally",
+              "pos": "adv.",
+              "definition": "adv. 故意地；有意地"
+            },
+            {
+              "word": "professional",
+              "pos": "adj.",
+              "definition": "adj. 职业的；专业的"
+            },
+            {
+              "word": "encountered",
+              "pos": "v.",
+              "definition": "v. 遇到；曾遭遇"
+            },
+            {
+              "word": "difficult",
+              "pos": "adj.",
+              "definition": "adj. 困难的；费力的；不友好的"
             },
             {
               "word": "personal",
@@ -3291,11 +3476,6 @@
               "definition": "n. 模式；方式；规律（pattern 的复数形式）"
             },
             {
-              "word": "sign-up",
-              "pos": "",
-              "definition": "n.注册;签约"
-            },
-            {
               "word": "tricked",
               "pos": "v.",
               "definition": "v. trick 的过去式和过去分词：欺骗；哄骗"
@@ -3304,16 +3484,6 @@
               "word": "process",
               "pos": "n.",
               "definition": "n. 步骤；程序；（自然或偶然的）变化过程"
-            },
-            {
-              "word": "cancel",
-              "pos": "",
-              "definition": "v.注销:终止"
-            },
-            {
-              "word": "impair",
-              "pos": "",
-              "definition": "n.损害:削弱"
             },
             {
               "word": "should",
@@ -3345,19 +3515,34 @@
           "chunk_translation": "于2010年由用户体验专家哈里·布里格努尔首次提出， / “黑暗模式”是一个统称术语， / 用以概括那些 / 通过操纵用户界面 / 来左右用户决策能力的做法。 / 布里格努尔归纳出了12种常见的黑暗模式类型， / 范围涵盖 / 从错误引导、隐藏费用到“蟑螂旅馆”模式， / 在这一模式中， / 用户体验在起初看似简单直观， / 但当用户试图抽身退出时 / 却变得困难重重。",
           "vocabulary": [
             {
+              "word": "manipulate",
+              "pos": "",
+              "definition": "v.(暗中)控制;操纵"
+            },
+            {
+              "word": "roach",
+              "pos": "",
+              "definition": "n.蟑螂"
+            },
+            {
+              "word": "intuitive",
+              "pos": "",
+              "definition": "a.易懂的:使用简便的"
+            },
+            {
               "word": "user experience",
               "pos": "",
               "definition": "用户体验"
             },
             {
+              "word": "get out",
+              "pos": "",
+              "definition": "离开;从...出来"
+            },
+            {
               "word": "misdirection",
               "pos": "n.",
               "definition": "n. 指示错误；指导错误；误导"
-            },
-            {
-              "word": "manipulate",
-              "pos": "",
-              "definition": "v.(暗中)控制;操纵"
             },
             {
               "word": "experience",
@@ -3373,11 +3558,6 @@
               "word": "identifies",
               "pos": "v.",
               "definition": "v. （identify 的第三人称单数）认出；识别；查明"
-            },
-            {
-              "word": "intuitive",
-              "pos": "",
-              "definition": "a.易懂的:使用简便的"
             },
             {
               "word": "practices",
@@ -3398,16 +3578,6 @@
               "word": "patterns",
               "pos": "n.",
               "definition": "n. 模式；方式"
-            },
-            {
-              "word": "decision",
-              "pos": "n.",
-              "definition": "n. 决定；抉择；判决"
-            },
-            {
-              "word": "get out",
-              "pos": "",
-              "definition": "离开;从...出来"
             },
             {
               "word": "ability",
@@ -3435,11 +3605,6 @@
               "definition": "adj. 隐形的；隐秘的；不易察觉的"
             },
             {
-              "word": "roach",
-              "pos": "",
-              "definition": "n.蟑螂"
-            },
-            {
               "word": "Harry",
               "pos": "v.",
               "definition": "v. 不断烦扰；折磨"
@@ -3453,11 +3618,6 @@
               "word": "users",
               "pos": "n.",
               "definition": "n. 使用者；受限用户（user 的复数）"
-            },
-            {
-              "word": "costs",
-              "pos": "n.",
-              "definition": "n. 费用；损失；诉讼费（cost 的复数）"
             },
             {
               "word": "motel",
@@ -3504,6 +3664,36 @@
           "chunk_translation": "在2019年一项针对53 / 000个产品页面和11 / 000个网站的研究中， / 研究人员发现， / 大约有十分之一的网站采用了这类设计手法。 / 尽管广泛存在， / 但“黑暗模式”这一概念在公众中依然缺乏充分理解。 / 商业及非营利机构的领导者应当对黑暗模式保持警惕，并尽力规避其所滋生的灰色地带。",
           "vocabulary": [
             {
+              "word": "their strong presence",
+              "pos": "",
+              "definition": "【🎯解题正解】 他们的强大存在"
+            },
+            {
+              "word": "their major flaws",
+              "pos": "",
+              "definition": "【💡题项表达】 他们的主要缺陷"
+            },
+            {
+              "word": "their complex designs",
+              "pos": "",
+              "definition": "【💡题项表达】 他们复杂的设计"
+            },
+            {
+              "word": "their severe damage",
+              "pos": "",
+              "definition": "【💡题项表达】 他们的严重损害"
+            },
+            {
+              "word": "prevalent",
+              "pos": "",
+              "definition": "a.普遍存在的;盛行的"
+            },
+            {
+              "word": "engender",
+              "pos": "",
+              "definition": "v.导致:造成"
+            },
+            {
               "word": "researchers",
               "pos": "n.",
               "definition": "n. 研究人员；研究者（researcher 的复数）"
@@ -3514,11 +3704,6 @@
               "definition": "v. 明白；懂得；熟悉（understand 的过去式和过去分词）"
             },
             {
-              "word": "prevalent",
-              "pos": "",
-              "definition": "a.普遍存在的;盛行的"
-            },
-            {
               "word": "practices",
               "pos": "n.",
               "definition": "n. 实践；习惯做法"
@@ -3527,11 +3712,6 @@
               "word": "nonprofit",
               "pos": "adj.",
               "definition": "adj. 非营利的；不以营利为目的"
-            },
-            {
-              "word": "engender",
-              "pos": "",
-              "definition": "v.导致:造成"
             },
             {
               "word": "websites",
@@ -3608,6 +3788,26 @@
           "chunk_translation": "合乎道德的说服性设计 / 与黑暗模式之间的分界线究竟在哪里？ / 企业应当开展跨部门沟通， / 与信息技术、 / 合规、 / 风控 / 及法务团队一起审查自身的隐私政策， / 并让负责公司用户界面的客户 / 用户体验设计师及程序员参与讨论， / 同时纳入负责 / 用户注册、 / 结账购物车、 / 定价 / 及促销活动的营销与广告人员。 / 上述任何或全部团队都在制造或避免 / “数字欺骗”中扮演着重要角色。",
           "vocabulary": [
             {
+              "word": "talk with relevant teams",
+              "pos": "",
+              "definition": "【🎯解题正解】 与相关团队交谈"
+            },
+            {
+              "word": "listen to customer feedback",
+              "pos": "",
+              "definition": "【💡题项表达】 听取客户反馈"
+            },
+            {
+              "word": "turn to independent agencies",
+              "pos": "",
+              "definition": "【💡题项表达】 转向独立机构"
+            },
+            {
+              "word": "rely on professional training",
+              "pos": "",
+              "definition": "【💡题项表达】 依靠专业培训"
+            },
+            {
               "word": "user experience",
               "pos": "",
               "definition": "用户体验"
@@ -3616,6 +3816,31 @@
               "word": "user interface",
               "pos": "",
               "definition": "用户界面"
+            },
+            {
+              "word": "compliance",
+              "pos": "",
+              "definition": "n.合规:遵从"
+            },
+            {
+              "word": "checkout",
+              "pos": "",
+              "definition": "n.付款处;结账"
+            },
+            {
+              "word": "deception",
+              "pos": "",
+              "definition": "n.欺骗:欺诈"
+            },
+            {
+              "word": "engage in",
+              "pos": "",
+              "definition": "从事:参加"
+            },
+            {
+              "word": "play a role",
+              "pos": "",
+              "definition": "发挥作用"
             },
             {
               "word": "play a role in",
@@ -3628,11 +3853,6 @@
               "definition": "n. 会话；交谈（conversation 的复数）"
             },
             {
-              "word": "play a role",
-              "pos": "",
-              "definition": "发挥作用"
-            },
-            {
               "word": "responsible",
               "pos": "adj.",
               "definition": "adj. （对某人、某事）负责的；（对事故、错误、罪行等）负有责任的；应承担责任的"
@@ -3641,11 +3861,6 @@
               "word": "advertisers",
               "pos": "n.",
               "definition": "n. 广告商；广告主；广告客户（advertiser 的复数形式）"
-            },
-            {
-              "word": "compliance",
-              "pos": "",
-              "definition": "n.合规:遵从"
             },
             {
               "word": "persuasive",
@@ -3673,16 +3888,6 @@
               "definition": "n. 促销；推广活动；升职"
             },
             {
-              "word": "deception",
-              "pos": "",
-              "definition": "n.欺骗:欺诈"
-            },
-            {
-              "word": "engage in",
-              "pos": "",
-              "definition": "从事:参加"
-            },
-            {
               "word": "designers",
               "pos": "n.",
               "definition": "n. 设计师；设计者；设计器（designer 的复数形式）"
@@ -3696,11 +3901,6 @@
               "word": "marketers",
               "pos": "n.",
               "definition": "n. 市场营销者（marketer 的复数）；卖主"
-            },
-            {
-              "word": "checkout",
-              "pos": "",
-              "definition": "n.付款处;结账"
             },
             {
               "word": "patterns",
@@ -3802,9 +4002,44 @@
           "chunk_translation": "立法与监管机构正逐步着手解决围绕黑暗模式的模糊地带， / 最近的举措主要集中在州一级的层面。 / 在三月份， / 加州总检察长宣布批准了《加州消费者隐私法案》（CCPA）项下的补充规章， / 旨在“确保 / 消费者在行使自身数据隐私权利时 / 不会受到困惑或误导。”这些规章旨在禁止黑暗模式—— / 这意味着禁止企业 / 使用“混淆性语言或设置不必要的操作步骤，如强迫用户点击 / 跳转多个界面，或聆听不应退订的说辞。”",
           "vocabulary": [
             {
+              "word": "protect consumers from being tricked",
+              "pos": "",
+              "definition": "【🎯解题正解】 保护消费者不被欺骗"
+            },
+            {
+              "word": "guide users through opt-out processes",
+              "pos": "",
+              "definition": "【💡题项表达】 引导用户完成选择退出流程"
+            },
+            {
+              "word": "grant companies data privacy rights",
+              "pos": "",
+              "definition": "【💡题项表达】 授予公司数据隐私权"
+            },
+            {
+              "word": "restrict access to problematic content",
+              "pos": "",
+              "definition": "【💡题项表达】 限制访问有问题的内容"
+            },
+            {
+              "word": "ambiguity",
+              "pos": "",
+              "definition": "n.模棱两可;不明确"
+            },
+            {
+              "word": "ensure",
+              "pos": "",
+              "definition": "v.担保:确保"
+            },
+            {
               "word": "Attorney General",
               "pos": "",
               "definition": "(美国的)司法部长"
+            },
+            {
+              "word": "opt out",
+              "pos": "",
+              "definition": "决定退出;选择不参与"
             },
             {
               "word": "regulations",
@@ -3830,11 +4065,6 @@
               "word": "additional",
               "pos": "adj.",
               "definition": "adj. 附加的；额外的"
-            },
-            {
-              "word": "ambiguity",
-              "pos": "",
-              "definition": "n.模棱两可;不明确"
             },
             {
               "word": "Lawmakers",
@@ -3907,11 +4137,6 @@
               "definition": "adj. 多个的；多种的；多人共有的"
             },
             {
-              "word": "opt out",
-              "pos": "",
-              "definition": "决定退出;选择不参与"
-            },
-            {
               "word": "address",
               "pos": "n.",
               "definition": "n. 地址；住址"
@@ -3950,11 +4175,6 @@
               "word": "shouldn",
               "pos": "n./v.",
               "definition": "不应该；不应（等于 should not）"
-            },
-            {
-              "word": "ensure",
-              "pos": "",
-              "definition": "v.担保:确保"
             },
             {
               "word": "slowly",
@@ -4006,14 +4226,34 @@
           "chunk_translation": "随着越来越多的州考虑颁布补充法规， / 客观上需要 / 商界内部承担起 / 更高度的自律与问责责任。 / 黑暗模式也可以通过行业自律来加以解决， / 但前提是 / 各机构必须主动承担责任， / 不仅严格遵守法律底线， / 还要积极践行行业最佳实践与高标准规范。",
           "vocabulary": [
             {
-              "word": "business community",
+              "word": "businesses’ self-discipline",
               "pos": "",
-              "definition": "工商业界:企业界"
+              "definition": "【🎯解题正解】 企业自律"
+            },
+            {
+              "word": "new legal requirements\nᆇี൫ज@JOEE ༯໶\n\n06",
+              "pos": "",
+              "definition": "【💡题项表达】 new legal requirements\nᆇี൫ज@JOEE ༯໶\n\n06"
+            },
+            {
+              "word": "strict regulatory standards",
+              "pos": "",
+              "definition": "【💡题项表达】 严格的监管标准"
+            },
+            {
+              "word": "consumers’ safety awareness",
+              "pos": "",
+              "definition": "【💡题项表达】 消费者安全意识"
             },
             {
               "word": "accountability",
               "pos": "",
               "definition": "n.负有责任"
+            },
+            {
+              "word": "business community",
+              "pos": "",
+              "definition": "工商业界:企业界"
             },
             {
               "word": "organizations",
@@ -4868,9 +5108,59 @@
           "chunk_translation": "尽管伦理道德课程在世界各地屡见不鲜， / 但科学家们并不确定 / 其讲授内容是否真能改变人们的行为； / 支持与否的证据都相当薄弱， / 往往依赖于 / 人为设计的实验室测试或时常不可靠的自我报告。 / 然而发表在《认知》期刊上的一项新研究发现， / 至少在 / 现实生活中的某一种情境下， / 单单一堂 / 伦理道德课 / 就可能产生持久深远的影响。",
           "vocabulary": [
             {
+              "word": "hard to determine",
+              "pos": "",
+              "definition": "【🎯解题正解】 很难确定"
+            },
+            {
+              "word": "narrowly interpreted",
+              "pos": "",
+              "definition": "【💡题项表达】 狭义解释"
+            },
+            {
+              "word": "difficult to ignore",
+              "pos": "",
+              "definition": "【💡题项表达】 难以忽视"
+            },
+            {
+              "word": "poorly summarized",
+              "pos": "",
+              "definition": "【💡题项表达】 总结得不好"
+            },
+            {
+              "word": "ethics",
+              "pos": "",
+              "definition": "n.伦理学;道德学"
+            },
+            {
+              "word": "unsure",
+              "pos": "",
+              "definition": "a.无把握;不确知"
+            },
+            {
+              "word": "actually",
+              "pos": "",
+              "definition": "ad.的确;真实地;事实上"
+            },
+            {
+              "word": "contrived",
+              "pos": "",
+              "definition": "a.设计的;人为的"
+            },
+            {
               "word": "unreliable",
               "pos": "",
               "definition": "a.不可靠的;不能信赖的"
+            },
+            {
+              "word": "lasting",
+              "pos": "",
+              "definition": "a.持久的"
+            },
+            {
+              "word": "at least",
+              "pos": "",
+              "definition": "至少"
             },
             {
               "word": "scientists",
@@ -4881,11 +5171,6 @@
               "word": "laboratory",
               "pos": "n.",
               "definition": "n. 实验室；实验大楼"
-            },
-            {
-              "word": "contrived",
-              "pos": "",
-              "definition": "a.设计的;人为的"
             },
             {
               "word": "sometimes",
@@ -4908,16 +5193,6 @@
               "definition": "n. 情况；形势；重要问题"
             },
             {
-              "word": "actually",
-              "pos": "",
-              "definition": "ad.的确;真实地;事实上"
-            },
-            {
-              "word": "at least",
-              "pos": "",
-              "definition": "至少"
-            },
-            {
               "word": "behavior",
               "pos": "n.",
               "definition": "n. 行为；举止；态度"
@@ -4926,11 +5201,6 @@
               "word": "evidence",
               "pos": "n.",
               "definition": "n. 根据；证明；（呈上法庭的）证据"
-            },
-            {
-              "word": "lasting",
-              "pos": "",
-              "definition": "a.持久的"
             },
             {
               "word": "lessons",
@@ -4953,16 +5223,6 @@
               "definition": "n. 影响；效果；结果"
             },
             {
-              "word": "ethics",
-              "pos": "",
-              "definition": "n.伦理学;道德学"
-            },
-            {
-              "word": "unsure",
-              "pos": "",
-              "definition": "a.无把握;不确知"
-            },
-            {
               "word": "lesson",
               "pos": "n.",
               "definition": "n. 一节课；一课时；教学单元"
@@ -4981,6 +5241,56 @@
           "slashed_text": "The researchers investigated one class session’s impact / on eating meat. / They chose this particular behavior / for three reasons , / according to study co-author Eric Schwitzgebel , / a philosopher at the University of California , / Riverside : / students’ attitudes on the topic are variable and unstable , / behavior is easily measurable , / and ethics literature largely agrees / that eating less meat is good / because it reduces environmental harm and animal suffering. / Half of the students / in four large philosophy classes read an article on the ethics of factory-farmed meat , / optionally watched an 11-minute video on the topic and joined a 50-minute discussion. / The other half focused / on charitable giving instead. / Then , / unknown to the students , / the researchers studied their anonymized meal-card purchases for / that semester — / nearly 14 , / 000 receipts / for almost 500 students.",
           "chunk_translation": "研究人员调查了一次课堂教学对于 / 肉类消费行为的影响。 / 他们选择这一特定行为 / 是出于三个原因， / 据该研究合著者、加州大学 / 河滨分校的哲学家 / 埃里克·施维茨格贝尔介绍： / 学生在该话题上的态度具有可变性和不稳定性， / 行为表现容易量化测量， / 而且伦理学文献普遍赞同 / 少吃肉是有益的， / 因为这能减轻环境破坏和动物痛苦。 / 在四个大型哲学班级中，一半的学生 / 阅读了一篇关于工厂化养殖肉类伦理的文章， / 自主选择观看了11分钟的相关主题视频，并参与了50分钟的课堂讨论。 / 而另一半学生则将研讨主题 / 集中在慈善捐赠上。 / 随后， / 在学生不知情的情况下， / 研究人员调取并分析了他们在那一学期的匿名餐卡消费记录—— / 该记录涉及 / 将近1.4 / 万张收据， / 来自于近500名学生。",
           "vocabulary": [
+            {
+              "word": "It is a behavior easy to measure",
+              "pos": "",
+              "definition": "【🎯解题正解】 这是一种容易衡量的行为。"
+            },
+            {
+              "word": "It is common among students",
+              "pos": "",
+              "definition": "【💡题项表达】 这在学生中很常见。"
+            },
+            {
+              "word": "It is important to students’ health",
+              "pos": "",
+              "definition": "【💡题项表达】 这对学生的健康很重要。"
+            },
+            {
+              "word": "ethics",
+              "pos": "",
+              "definition": "n.伦理学;道德学"
+            },
+            {
+              "word": "session",
+              "pos": "",
+              "definition": "n.上课时间"
+            },
+            {
+              "word": "variable",
+              "pos": "",
+              "definition": "a.多变的;易变的"
+            },
+            {
+              "word": "unstable",
+              "pos": "",
+              "definition": "a.不稳定的;易变的"
+            },
+            {
+              "word": "measurable",
+              "pos": "",
+              "definition": "a.可测量的"
+            },
+            {
+              "word": "largely",
+              "pos": "",
+              "definition": "ad.在很大程度上;主要地"
+            },
+            {
+              "word": "optionally",
+              "pos": "",
+              "definition": "ad.非强制地"
+            },
             {
               "word": "charitable giving",
               "pos": "",
@@ -5005,16 +5315,6 @@
               "word": "philosopher",
               "pos": "n.",
               "definition": "n. 哲学家；哲人；思想深刻的人"
-            },
-            {
-              "word": "measurable",
-              "pos": "",
-              "definition": "a.可测量的"
-            },
-            {
-              "word": "optionally",
-              "pos": "",
-              "definition": "ad.非强制地"
             },
             {
               "word": "particular",
@@ -5077,16 +5377,6 @@
               "definition": "v. （贸易）购买；进货（purchase 的第三人称单数形式）；n. 所购物"
             },
             {
-              "word": "variable",
-              "pos": "",
-              "definition": "a.多变的;易变的"
-            },
-            {
-              "word": "unstable",
-              "pos": "",
-              "definition": "a.不稳定的;易变的"
-            },
-            {
               "word": "behavior",
               "pos": "n.",
               "definition": "n. 行为；举止；态度"
@@ -5105,16 +5395,6 @@
               "word": "receipts",
               "pos": "n.",
               "definition": "n. 企业、银行等）收到的款；进款；收到( receipt的名词复数 )"
-            },
-            {
-              "word": "session",
-              "pos": "",
-              "definition": "n.上课时间"
-            },
-            {
-              "word": "largely",
-              "pos": "",
-              "definition": "ad.在很大程度上;主要地"
             },
             {
               "word": "reasons",
@@ -5160,11 +5440,6 @@
               "word": "studied",
               "pos": "v.",
               "definition": "v. study 的过去式和过去分词；学习；研究"
-            },
-            {
-              "word": "ethics",
-              "pos": "",
-              "definition": "n.伦理学;道德学"
             },
             {
               "word": "impact",
@@ -5246,14 +5521,54 @@
           "chunk_translation": "施维茨格贝尔最初预测这种干预不会产生任何效果； / 他此前曾发现， / 伦理学教授在一系列行为表现上 / 与其他学科教授并无二致， / 包括选民投票率、 / 无偿献血以及归还图书馆书籍等。 / 但在学生受试群体中， / 那些讨论了肉类伦理的人， / 购买含肉餐食的比例从52%下降至45%—— / 并且这一变化效果在为期数周的研究期间一直保持稳定。 / 而对照组学生的含肉餐食购买比例则维持在52%不变。",
           "vocabulary": [
             {
-              "word": "blood donation",
+              "word": "are not necessarily ethically better",
               "pos": "",
-              "definition": "献血"
+              "definition": "【🎯解题正解】 不一定在道德上更好"
+            },
+            {
+              "word": "are seldom critical of their students",
+              "pos": "",
+              "definition": "【💡题项表达】 很少批评他们的学生"
+            },
+            {
+              "word": "are less sociable than other professors",
+              "pos": "",
+              "definition": "【💡题项表达】 比其他教授不太善于交际"
+            },
+            {
+              "word": "are not sensitive to political issues",
+              "pos": "",
+              "definition": "【💡题项表达】 对政治问题不敏感"
+            },
+            {
+              "word": "ethics",
+              "pos": "",
+              "definition": "n.伦理学;道德学"
             },
             {
               "word": "intervention",
               "pos": "",
               "definition": "n.干涉;干预"
+            },
+            {
+              "word": "donation",
+              "pos": "",
+              "definition": "n.捐献"
+            },
+            {
+              "word": "steady",
+              "pos": "",
+              "definition": "a.稳定的"
+            },
+            {
+              "word": "duration",
+              "pos": "",
+              "definition": "n.持续时间;期间"
+            },
+            {
+              "word": "blood donation",
+              "pos": "",
+              "definition": "献血"
             },
             {
               "word": "previously",
@@ -5306,16 +5621,6 @@
               "definition": "v. （使）减少；（使）降低（decrease 的过去式和过去分词）；adj. 减少了的"
             },
             {
-              "word": "donation",
-              "pos": "",
-              "definition": "n.捐献"
-            },
-            {
-              "word": "duration",
-              "pos": "",
-              "definition": "n.持续时间;期间"
-            },
-            {
               "word": "subjects",
               "pos": "n.",
               "definition": "n. 学科；科目；主题"
@@ -5334,16 +5639,6 @@
               "word": "student",
               "pos": "n.",
               "definition": "n. 学生；学者"
-            },
-            {
-              "word": "ethics",
-              "pos": "",
-              "definition": "n.伦理学;道德学"
-            },
-            {
-              "word": "steady",
-              "pos": "",
-              "definition": "a.稳定的"
             },
             {
               "word": "effect",
@@ -5385,14 +5680,59 @@
           "chunk_translation": "“ / 对于如此微小的教学干预而言，这实际上是一个相当显著的效果，” / 施维茨格贝尔表示。 / 未参与该研究的宾夕法尼亚大学心理学家妮娜·斯特罗明格 / 表示， / 她虽然希望这种效果是真实的，但尚不能排除某些未知的混杂干扰变量。 / 而且 / 即使效果属实， / 她指出， / 它也可能被另一次心理助推所逆转： / 正所谓： / “来得容易， / 去得也快。”",
           "vocabulary": [
             {
-              "word": "confounding variable",
+              "word": "uncertain",
               "pos": "",
-              "definition": "混杂变量"
+              "definition": "【🎯解题正解】 不确定"
+            },
+            {
+              "word": "permanent",
+              "pos": "",
+              "definition": "【💡题项表达】 永恒的"
+            },
+            {
+              "word": "predictable",
+              "pos": "",
+              "definition": "【💡题项表达】 可预测的"
+            },
+            {
+              "word": "unrepeatable",
+              "pos": "",
+              "definition": "【💡题项表达】 不可重复的"
+            },
+            {
+              "word": "actually",
+              "pos": "",
+              "definition": "ad.的确;真实地;事实上"
+            },
+            {
+              "word": "variable",
+              "pos": "",
+              "definition": "a.多变的;易变的"
             },
             {
               "word": "intervention",
               "pos": "",
               "definition": "n.干涉;干预"
+            },
+            {
+              "word": "reversible",
+              "pos": "",
+              "definition": "a.可逆转的"
+            },
+            {
+              "word": "nudge",
+              "pos": "",
+              "definition": "n.轻推:激起"
+            },
+            {
+              "word": "rule out",
+              "pos": "",
+              "definition": "把...排除在外"
+            },
+            {
+              "word": "confounding variable",
+              "pos": "",
+              "definition": "混杂变量"
             },
             {
               "word": "Psychologist",
@@ -5410,29 +5750,9 @@
               "definition": "v. （confound 的现在分词）使困惑；弄糊涂；使混淆"
             },
             {
-              "word": "reversible",
-              "pos": "",
-              "definition": "a.可逆转的"
-            },
-            {
               "word": "University",
               "pos": "n.",
               "definition": "n. 大学；综合性大学"
-            },
-            {
-              "word": "actually",
-              "pos": "",
-              "definition": "ad.的确;真实地;事实上"
-            },
-            {
-              "word": "variable",
-              "pos": "",
-              "definition": "a.多变的;易变的"
-            },
-            {
-              "word": "rule out",
-              "pos": "",
-              "definition": "把...排除在外"
             },
             {
               "word": "involved",
@@ -5460,11 +5780,6 @@
               "definition": "v. 情态动词 can 的否定式：不能；无法；不可能"
             },
             {
-              "word": "nudge",
-              "pos": "",
-              "definition": "n.轻推:激起"
-            },
-            {
               "word": "study",
               "pos": "n.",
               "definition": "n. （专题）研究；调查；（尤指通过书本的）学习"
@@ -5489,9 +5804,44 @@
           "chunk_translation": "施维茨格贝尔推测，最大的影响力量来自 / 同伴与群体效应—— / 主导讨论的同学或助教可能分享了自身的素食经历， / 从而让素食显得切实可行或更为普遍。 / 其次， / 视频可能引发了情感上的触动与共鸣。 / 最不具打动力的， / 在他看来， / 是纯理性的逻辑论证， / 尽管他的论文合著者认为理性可能发挥了更大的作用。 / 目前研究人员正在深入探讨教学风格、 / 助教的饮食习惯以及学生对视频的观看程度所产生的具体影响。 / 与此同时，曾预测干预毫无作用的 / 施维茨格贝尔—— / 也不得不承认自己的判断失误。",
           "vocabulary": [
             {
+              "word": "is a result of multiple factors",
+              "pos": "",
+              "definition": "【🎯解题正解】 是多种因素的结果"
+            },
+            {
+              "word": "can bring psychological benefits",
+              "pos": "",
+              "definition": "【💡题项表达】 可以带来心理上的好处"
+            },
+            {
+              "word": "can be analyzed statistically",
+              "pos": "",
+              "definition": "【💡题项表达】 可以进行统计分析"
+            },
+            {
               "word": "vegetarianism",
               "pos": "",
               "definition": "n.素食主义"
+            },
+            {
+              "word": "achievable",
+              "pos": "",
+              "definition": "a.可实现的"
+            },
+            {
+              "word": "emotional",
+              "pos": "",
+              "definition": "a.情感的;情绪的"
+            },
+            {
+              "word": "rational",
+              "pos": "",
+              "definition": "a.理性的"
+            },
+            {
+              "word": "exposure",
+              "pos": "",
+              "definition": "n.接触:体验"
             },
             {
               "word": "discussions",
@@ -5504,11 +5854,6 @@
               "definition": "n. 研究人员；研究者（researcher 的复数）"
             },
             {
-              "word": "achievable",
-              "pos": "",
-              "definition": "a.可实现的"
-            },
-            {
               "word": "classmates",
               "pos": "n.",
               "definition": "n. 同班同学（classmate 的复数）"
@@ -5517,11 +5862,6 @@
               "word": "assistants",
               "pos": "n.",
               "definition": "n. 助理；助手"
-            },
-            {
-              "word": "emotional",
-              "pos": "",
-              "definition": "a.情感的;情绪的"
             },
             {
               "word": "influence",
@@ -5537,16 +5877,6 @@
               "word": "predicted",
               "pos": "v.",
               "definition": "v. 预测；预言；预报（predict 的过去式和过去分词）"
-            },
-            {
-              "word": "rational",
-              "pos": "",
-              "definition": "a.理性的"
-            },
-            {
-              "word": "exposure",
-              "pos": "",
-              "definition": "n.接触:体验"
             },
             {
               "word": "suspects",

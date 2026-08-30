@@ -15,6 +15,21 @@
           "chunk_translation": "老鼠和其他动物需要对来自同类的社交信号保持高度敏感， / 以便它们能够识别出可以合作的朋友并避开敌人。 / 为了查明 / 这一现象是否延伸到非生物体， / 加利福尼亚大学 / 圣迭戈分校的拉莱·奎因 / 及其同事测试了老鼠能否检测到社交信号， / 这些信号来自机器鼠。",
           "vocabulary": [
             {
+              "word": "pick up social signals from non-living rats",
+              "pos": "",
+              "definition": "【🎯解题正解】 从无生命的老鼠那里获取社交信号"
+            },
+            {
+              "word": "attuned",
+              "pos": "",
+              "definition": "a.敏锐的"
+            },
+            {
+              "word": "identify",
+              "pos": "",
+              "definition": "v.识别"
+            },
+            {
               "word": "University",
               "pos": "n.",
               "definition": "n. 大学；综合性大学；大学校舍"
@@ -28,16 +43,6 @@
               "word": "cooperate",
               "pos": "v.",
               "definition": "v. 合作；协作；配合"
-            },
-            {
-              "word": "identify",
-              "pos": "",
-              "definition": "v.识别"
-            },
-            {
-              "word": "attuned",
-              "pos": "",
-              "definition": "a.敏锐的"
             },
             {
               "word": "signals",
@@ -119,6 +124,11 @@
           "chunk_translation": "他们将八只成年大鼠与两种类型的机器鼠—— / 一种具备社交功能，另一种不具备社交功能—— / 共同饲养了四天。 / 机器鼠的构造非常简约， / 看起来像是一个笨重版的电脑鼠标， / 配备了可以四处移动的轮子和彩色标记。",
           "vocabulary": [
             {
+              "word": "asocial",
+              "pos": "",
+              "definition": "a.不合群的,缺乏社交性的"
+            },
+            {
               "word": "minimalist",
               "pos": "",
               "definition": "a.极简抽象的"
@@ -147,11 +157,6 @@
               "word": "markings",
               "pos": "n.",
               "definition": "n. 标记；记分；成交价格记录（marking 的复数）"
-            },
-            {
-              "word": "asocial",
-              "pos": "",
-              "definition": "a.不合群的,缺乏社交性的"
             },
             {
               "word": "robotic",
@@ -198,6 +203,36 @@
           "chunk_translation": "在实验过程中， / 社交型机器鼠跟随活体大鼠四处活动， / 玩同样的玩具， / 并打开笼门让被困的大鼠逃脱。 / 与此同时， / 非社交型机器鼠只是简单地前后左右移动。",
           "vocabulary": [
             {
+              "word": "It moved around alone",
+              "pos": "",
+              "definition": "【🎯解题正解】 它独自四处走动。"
+            },
+            {
+              "word": "It followed the social robot",
+              "pos": "",
+              "definition": "【💡题项表达】 它跟随社交机器人。"
+            },
+            {
+              "word": "It played with some toys",
+              "pos": "",
+              "definition": "【💡题项表达】 它玩着一些玩具。"
+            },
+            {
+              "word": "It set the trapped rats free",
+              "pos": "",
+              "definition": "【💡题项表达】 它把被困的老鼠释放了。"
+            },
+            {
+              "word": "asocial",
+              "pos": "",
+              "definition": "a.不合群的,缺乏社交性的"
+            },
+            {
+              "word": "trapped",
+              "pos": "",
+              "definition": "a.受困的,被捕获的"
+            },
+            {
               "word": "experiment",
               "pos": "n.",
               "definition": "n. 实验；试验"
@@ -221,16 +256,6 @@
               "word": "forwards",
               "pos": "adv.",
               "definition": "adv. （主要用于英式英语）向前；朝前方；今后"
-            },
-            {
-              "word": "asocial",
-              "pos": "",
-              "definition": "a.不合群的,缺乏社交性的"
-            },
-            {
-              "word": "trapped",
-              "pos": "",
-              "definition": "a.受困的,被捕获的"
             },
             {
               "word": "living",
@@ -272,6 +297,51 @@
           "chunk_translation": "接下来， / 研究人员将机器鼠困在 / 笼子里，并给予活体大鼠释放它们的机会， / 通过按压杠杆来实现。 / 在每组18次试验中， / 活体大鼠释放社交型机器人的概率高出52%， / 平均而言比释放非社交型机器人的概率更高。 / 这表明 / 大鼠将社交型机器鼠视为一个真正的社交同伴。 / 它们可能与社交型机器鼠建立了更深厚的情感联系， / 因为它表现出了共同探索和玩耍等互动行为。 / 这可能会使大鼠更清楚地记得先前曾解救过该机器鼠， / 并且希望机器人在自己被困时能予以回报， / 当它们自身陷入困境时， / 奎因说道。",
           "vocabulary": [
             {
+              "word": "expected it to do the same in return",
+              "pos": "",
+              "definition": "【🎯解题正解】 期望它能做同样的回报"
+            },
+            {
+              "word": "wanted to display their intelligence",
+              "pos": "",
+              "definition": "【💡题项表达】 想展示自己的聪明才智"
+            },
+            {
+              "word": "considered that an interesting game",
+              "pos": "",
+              "definition": "【💡题项表达】 认为是一个有趣的游戏"
+            },
+            {
+              "word": "asocial",
+              "pos": "",
+              "definition": "a.不合群的,缺乏社交性的"
+            },
+            {
+              "word": "trapped",
+              "pos": "",
+              "definition": "a.受困的,被捕获的"
+            },
+            {
+              "word": "release",
+              "pos": "",
+              "definition": "v.释放"
+            },
+            {
+              "word": "lever",
+              "pos": "",
+              "definition": "n.杠杆"
+            },
+            {
+              "word": "genuine",
+              "pos": "",
+              "definition": "a.真正的,名副其实的"
+            },
+            {
+              "word": "communal",
+              "pos": "",
+              "definition": "a.公共的,团体的"
+            },
+            {
               "word": "return the favour",
               "pos": "",
               "definition": "回报"
@@ -312,11 +382,6 @@
               "definition": "v. 探索；探测；探险"
             },
             {
-              "word": "communal",
-              "pos": "",
-              "definition": "a.公共的,团体的"
-            },
-            {
               "word": "pressing",
               "pos": "adj.",
               "definition": "adj. （问题；需求；情况）紧迫的"
@@ -325,26 +390,6 @@
               "word": "suggests",
               "pos": "v.",
               "definition": "v. 暗示；建议（suggest的suggest的第三人称单数）"
-            },
-            {
-              "word": "asocial",
-              "pos": "",
-              "definition": "a.不合群的,缺乏社交性的"
-            },
-            {
-              "word": "trapped",
-              "pos": "",
-              "definition": "a.受困的,被捕获的"
-            },
-            {
-              "word": "release",
-              "pos": "",
-              "definition": "v.释放"
-            },
-            {
-              "word": "genuine",
-              "pos": "",
-              "definition": "a.真正的,名副其实的"
             },
             {
               "word": "lead to",
@@ -377,11 +422,6 @@
               "definition": "adj. 活着的；活的；在使用的"
             },
             {
-              "word": "likely",
-              "pos": "adj.",
-              "definition": "adj. 可能发生的；似乎合适的；仿佛恰当的"
-            },
-            {
               "word": "bonded",
               "pos": "adj.",
               "definition": "adj. 黏合的；粘接的；有粘结的"
@@ -395,11 +435,6 @@
               "word": "favour",
               "pos": "n.",
               "definition": "n. 支持；喜爱；帮忙"
-            },
-            {
-              "word": "lever",
-              "pos": "",
-              "definition": "n.杠杆"
             },
             {
               "word": "cages",
@@ -431,6 +466,16 @@
           "chunk_translation": "“研究表明大鼠会参与 / 多种形式的互惠互助与合作， / 包括所谓的直接互惠—— / 即一只大鼠会主动帮助另一只大鼠， / 只要对方先前曾帮助过自己， / ”奎恩说道。",
           "vocabulary": [
             {
+              "word": "are more sensitive to social cues than expected",
+              "pos": "",
+              "definition": "【🎯解题正解】 对社交线索比预期更敏感"
+            },
+            {
+              "word": "reciprocal",
+              "pos": "",
+              "definition": "a.互惠的"
+            },
+            {
               "word": "cooperation",
               "pos": "n.",
               "definition": "n. 合作；协作"
@@ -439,11 +484,6 @@
               "word": "reciprocity",
               "pos": "n.",
               "definition": "n. 互惠；互换"
-            },
-            {
-              "word": "reciprocal",
-              "pos": "",
-              "definition": "a.互惠的"
             },
             {
               "word": "previously",
@@ -500,6 +540,16 @@
           "chunk_translation": "考虑到社交机器鼠的极简设计，大鼠愿意与其结交朋友的表现令人惊讶。 / 该机器鼠与普通大鼠体型相当，但外观上更像是一个装在轮子上的 / 简易塑料盒子。 / “我们原以为必须为其配备活动的头部和尾巴、 / 面部特征， / 并在其身上添加气味使其闻起来像一只真实的大鼠， / 但是 / 事实证明这完全没有必要， / ”澳大利亚昆士兰大学的珍妮特·怀尔斯表示， / 她在澳大利亚工作， / 协助参与了这项研究。",
           "vocabulary": [
             {
+              "word": "readiness",
+              "pos": "",
+              "definition": "n.愿意"
+            },
+            {
+              "word": "regular",
+              "pos": "",
+              "definition": "a.普通的"
+            },
+            {
               "word": "minimal design",
               "pos": "",
               "definition": "极简设计"
@@ -518,11 +568,6 @@
               "word": "Queensland",
               "pos": "n.",
               "definition": "n. 昆士兰（澳大利亚州）"
-            },
-            {
-              "word": "readiness",
-              "pos": "",
-              "definition": "n.愿意"
             },
             {
               "word": "resembled",
@@ -553,11 +598,6 @@
               "word": "research",
               "pos": "n.",
               "definition": "n. （尤指大学或科研机构进行的）研究；探讨；研究工作"
-            },
-            {
-              "word": "regular",
-              "pos": "",
-              "definition": "a.普通的"
             },
             {
               "word": "minimal",
@@ -634,14 +674,24 @@
           "chunk_translation": "这一发现表明大鼠对社交线索是何等敏感， / 哪怕 / 这些线索来自于 / 极为简易的机器人。 / 同样地， / 儿童也倾向于将机器人视作 / 自己的同伴， / 即便 / 它们仅仅展示出简单的社交信号。 / “我们人类似乎对机器人十分着迷， / 由机器人所吸引， / 事实证明其他动物同样如此， / ”怀尔斯说道。",
           "vocabulary": [
             {
-              "word": "fascinated",
-              "pos": "adj.",
-              "definition": "adj. 入迷的；极感兴趣的；v. （尤指蛇）以眼神震慑（人"
+              "word": "respond more to actions than to looks",
+              "pos": "",
+              "definition": "【🎯解题正解】 对行动的反应多于对外表的反应"
+            },
+            {
+              "word": "differentiate smells better than sizes",
+              "pos": "",
+              "definition": "【💡题项表达】 区分气味比区分大小更有效"
             },
             {
               "word": "sensitive",
               "pos": "",
               "definition": "a.敏感的"
+            },
+            {
+              "word": "fascinated",
+              "pos": "adj.",
+              "definition": "adj. 入迷的；极感兴趣的；v. （尤指蛇）以眼神震慑（人"
             },
             {
               "word": "Similarly",
@@ -1524,6 +1574,36 @@
           "chunk_translation": "确实如此， / 首席执行官的薪酬大幅攀升—— / 顶尖高管的薪酬可能是普通员工的300倍 / 平均而言， / 并且 / 自20世纪70年代中期以来， / 首席执行官的薪酬 / 在美国大型上市公司中， / 根据不同的测算， / 上涨了 / 大约500%。 / 美国顶尖公司的典型首席执行官目前年薪约为1890万美元。",
           "vocabulary": [
             {
+              "word": "CEOs Are Not Overpaid",
+              "pos": "",
+              "definition": "【🎯解题正解】 首席执行官的薪酬并不过分"
+            },
+            {
+              "word": "CEO Pay: Past and Present",
+              "pos": "",
+              "definition": "【💡题项表达】 首席执行官薪酬：过去和现在"
+            },
+            {
+              "word": "CEO Traits: Not Easy to Define",
+              "pos": "",
+              "definition": "【💡题项表达】 CEO特质：不容易定义"
+            },
+            {
+              "word": "CEOs’ Challenges of Toda",
+              "pos": "",
+              "definition": "【💡题项表达】 户田CEO面临的挑战"
+            },
+            {
+              "word": "varying",
+              "pos": "",
+              "definition": "a.不同的"
+            },
+            {
+              "word": "on average",
+              "pos": "",
+              "definition": "平均"
+            },
+            {
               "word": "corporations",
               "pos": "n.",
               "definition": "n. 公司；企业（corporation 的复数）"
@@ -1534,11 +1614,6 @@
               "definition": "n. 社团；公司；法人（团体）"
             },
             {
-              "word": "on average",
-              "pos": "",
-              "definition": "平均"
-            },
-            {
               "word": "estimates",
               "pos": "v.",
               "definition": "v. 估计；估算；判断"
@@ -1547,11 +1622,6 @@
               "word": "publicly",
               "pos": "adv.",
               "definition": "adv. 公开地；公然地"
-            },
-            {
-              "word": "varying",
-              "pos": "",
-              "definition": "a.不同的"
             },
             {
               "word": "typical",
@@ -1578,6 +1648,26 @@
           "chunk_translation": "解释首席执行官薪酬增长的最佳理论模型 / 应该是首席执行官人才的稀缺性， / 在当今这个世界中，顶尖企业面临的商业机遇 / 正在迅猛增长。 / 美国收入最高的1%人群所付出的努力，一直是全球经济中更具活力的推动因素之一。 / 虽然说出来并不讨好 / 但他们的薪酬之所以大幅上涨，原因之一在于 / CEO们相比其他许多劳动者确实大幅提升了能力 / 在美国经济体系中。",
           "vocabulary": [
             {
+              "word": "Increased business opportunities for top firms",
+              "pos": "",
+              "definition": "【🎯解题正解】 为顶尖企业增加了商机。"
+            },
+            {
+              "word": "model",
+              "pos": "",
+              "definition": "n.模型"
+            },
+            {
+              "word": "dynamic",
+              "pos": "",
+              "definition": "a.推动的,动力的;有干劲的"
+            },
+            {
+              "word": "relative to",
+              "pos": "",
+              "definition": "相对于"
+            },
+            {
               "word": "understanding",
               "pos": "n.",
               "definition": "n. （对某学科、过程或情况的）了解；认识"
@@ -1586,11 +1676,6 @@
               "word": "opportunities",
               "pos": "n.",
               "definition": "n. 因素；机会"
-            },
-            {
-              "word": "relative to",
-              "pos": "",
-              "definition": "相对于"
             },
             {
               "word": "business",
@@ -1606,11 +1691,6 @@
               "word": "relative",
               "pos": "n.",
               "definition": "n. 亲戚；亲属；同类事物"
-            },
-            {
-              "word": "dynamic",
-              "pos": "",
-              "definition": "a.推动的,动力的;有干劲的"
             },
             {
               "word": "limited",
@@ -1668,11 +1748,6 @@
               "definition": "n. 原因；理由；充分理由"
             },
             {
-              "word": "model",
-              "pos": "",
-              "definition": "n.模型"
-            },
-            {
               "word": "firms",
               "pos": "n.",
               "definition": "n. 公司；厂商（firm 的复数）"
@@ -1692,9 +1767,29 @@
           "chunk_translation": "当今的首席执行官， / 至少 / 对于美国大企业而言， / 必须掌握远不止单纯“管理公司”的诸多技能。首席执行官必须对金融市场有敏锐的洞察力，甚至还要精通公司应如何参与 / 金融市场的运作。 / 他们还需要比前任具备更出色的公关能力， / 因为哪怕是一个微小的疏忽失误，其代价都可能极其惨重。 / 此外还有一个客观事实， / 即美国大型企业的全球化程度远超以往任何时期， / 其供应链跨越分布于更多的国家。 / 要想在 / 这样的庞大体系中担任领军人物，所需要的知识储备 / 庞大到令人叹为观止。 / 此外， / 几乎所有美国主要企业都在向科技型企业转型， / 往往 / 拥有自主的研发部门。 / 除此之外， / 大型企业的首席执行官依然必须处理他们以往一直承担的所有日常管理工作。",
           "vocabulary": [
             {
-              "word": "day-to-day work",
+              "word": "operate more globalized companies",
               "pos": "",
-              "definition": "日常工作"
+              "definition": "【🎯解题正解】 经营更多全球化的公司"
+            },
+            {
+              "word": "finance more research and development",
+              "pos": "",
+              "definition": "【💡题项表达】 资助更多研究和开发"
+            },
+            {
+              "word": "foster a stronger sense of teamwork",
+              "pos": "",
+              "definition": "【💡题项表达】 培养更强的团队合作意识"
+            },
+            {
+              "word": "sense",
+              "pos": "",
+              "definition": "n.判断力,理解力"
+            },
+            {
+              "word": "slipup",
+              "pos": "",
+              "definition": "n.失误,疏忽"
             },
             {
               "word": "mind-boggling",
@@ -1702,9 +1797,14 @@
               "definition": "a.难以置信的;十分惊人的"
             },
             {
-              "word": "predecessors",
-              "pos": "n.",
-              "definition": "n. predecessor 的复数：前任；前辈；前人"
+              "word": "plus",
+              "pos": "",
+              "definition": "ad.外加地;另外"
+            },
+            {
+              "word": "Virtually",
+              "pos": "",
+              "definition": "ad.几乎"
             },
             {
               "word": "ever before",
@@ -1715,6 +1815,16 @@
               "word": "beyond this",
               "pos": "",
               "definition": "此外"
+            },
+            {
+              "word": "day-to-day work",
+              "pos": "",
+              "definition": "日常工作"
+            },
+            {
+              "word": "predecessors",
+              "pos": "n.",
+              "definition": "n. predecessor 的复数：前任；前辈；前人"
             },
             {
               "word": "significant",
@@ -1730,11 +1840,6 @@
               "word": "globalized",
               "pos": "v.",
               "definition": "v. 使全球化（globalize 的过去式和过去分词）；adj. 全球化的；国际化的"
-            },
-            {
-              "word": "Virtually",
-              "pos": "",
-              "definition": "ad.几乎"
             },
             {
               "word": "financial",
@@ -1777,19 +1882,9 @@
               "definition": "n. 市场；集市（market 的复数）；商业上的市场、销路"
             },
             {
-              "word": "slipup",
-              "pos": "",
-              "definition": "n.失误,疏忽"
-            },
-            {
               "word": "should",
               "pos": "v.",
               "definition": "v. （用于纠正别人）应该；（用于建议）该；可以"
-            },
-            {
-              "word": "public",
-              "pos": "adj.",
-              "definition": "adj. 公众的；大众的；公共的"
             },
             {
               "word": "supply",
@@ -1822,11 +1917,6 @@
               "definition": "prep. 在（或向）……较远的一边；晚于；迟于"
             },
             {
-              "word": "sense",
-              "pos": "",
-              "definition": "n.判断力,理解力"
-            },
-            {
               "word": "major",
               "pos": "adj.",
               "definition": "adj. 重大的；主要的"
@@ -1847,19 +1937,9 @@
               "definition": "n. 贸易；买卖；行业"
             },
             {
-              "word": "costs",
-              "pos": "n.",
-              "definition": "n. 费用；损失；诉讼费（cost 的复数）"
-            },
-            {
               "word": "minor",
               "pos": "adj.",
               "definition": "adj. 较小的；次要的；轻微的"
-            },
-            {
-              "word": "plus",
-              "pos": "",
-              "definition": "ad.外加地;另外"
             },
             {
               "word": "CEOs",
@@ -1876,6 +1956,36 @@
           "chunk_translation": "那种普遍认为 / 首席执行官的高薪主要源于 / 搜刮盘剥的观点，并不能很好地解释历史发展事实。 / 从大多数衡量标准来看， / 公司治理结构已经变得严密得多且更加规范， / 自20世纪70年代以来。 / 然而恰恰是 / 在这一公司治理日益强化的时期内， / 首席执行官的薪酬一直居高不下并持续增长。 / 这表明招聘顶尖人选完全符合更广泛的企业利益， / 用以胜任日益艰巨的工作挑战。",
           "vocabulary": [
             {
+              "word": "strict corporate governance",
+              "pos": "",
+              "definition": "【🎯解题正解】 严格的公司治理"
+            },
+            {
+              "word": "conservative business strategies",
+              "pos": "",
+              "definition": "【💡题项表达】 保守的经营策略"
+            },
+            {
+              "word": "repeated government warnings",
+              "pos": "",
+              "definition": "【💡题项表达】 政府多次警告"
+            },
+            {
+              "word": "rigorous",
+              "pos": "",
+              "definition": "a.严格的;严厉的"
+            },
+            {
+              "word": "principally",
+              "pos": "",
+              "definition": "ad.主要地"
+            },
+            {
+              "word": "recruit",
+              "pos": "",
+              "definition": "v.招募:聘用"
+            },
+            {
               "word": "by most measures",
               "pos": "",
               "definition": "从大多数方面来看;以多数标准衡量"
@@ -1884,11 +1994,6 @@
               "word": "increasingly",
               "pos": "adv.",
               "definition": "adv. 越来越多地；不断增加地"
-            },
-            {
-              "word": "principally",
-              "pos": "",
-              "definition": "ad.主要地"
             },
             {
               "word": "governance",
@@ -1904,11 +2009,6 @@
               "word": "corporate",
               "pos": "adj.",
               "definition": "adj. 公司的；法人的；共同的"
-            },
-            {
-              "word": "rigorous",
-              "pos": "",
-              "definition": "a.严格的;严厉的"
             },
             {
               "word": "measures",
@@ -1929,11 +2029,6 @@
               "word": "interest",
               "pos": "n.",
               "definition": "n. 兴趣；关注；吸引力"
-            },
-            {
-              "word": "recruit",
-              "pos": "",
-              "definition": "v.招募:聘用"
             },
             {
               "word": "ripping",
@@ -1980,9 +2075,44 @@
           "chunk_translation": "此外， / 最高级别的首席执行官薪酬往往支付给外部引进的候选人， / 而非内部安逸的指定人选， / 这进一步表明 / 高额的首席执行官薪酬绝非某种以牺牲公司其他成员利益为代价的巧取豪夺。 / 并且股市对此反应积极， / 当企业将首席执行官的薪酬与诸如 / 比如 / 股价相挂钩时， / 这表明 / 此类做法所创造的企业价值绝不仅仅属于首席执行官个人。",
           "vocabulary": [
             {
+              "word": "increase corporate value",
+              "pos": "",
+              "definition": "【🎯解题正解】 增加企业价值"
+            },
+            {
+              "word": "confirm the status of CEOs",
+              "pos": "",
+              "definition": "【💡题项表达】 确认CEO的地位"
+            },
+            {
+              "word": "boost the efficiency of CEOs",
+              "pos": "",
+              "definition": "【💡题项表达】 提高CEO的效率"
+            },
+            {
+              "word": "motivate inside candidates",
+              "pos": "",
+              "definition": "【💡题项表达】 激励内部候选人"
+            },
+            {
+              "word": "cozy",
+              "pos": "",
+              "definition": "a.舒适的;安逸的"
+            },
+            {
               "word": "depredation",
               "pos": "",
               "definition": "n.掠夺:劫掠"
+            },
+            {
+              "word": "stock",
+              "pos": "",
+              "definition": "n.股份:股票"
+            },
+            {
+              "word": "build up",
+              "pos": "",
+              "definition": "逐渐增大,增强"
             },
             {
               "word": "Furthermore",
@@ -2008,11 +2138,6 @@
               "word": "corporate",
               "pos": "adj.",
               "definition": "adj. 公司的；法人的；共同的"
-            },
-            {
-              "word": "build up",
-              "pos": "",
-              "definition": "逐渐增大,增强"
             },
             {
               "word": "salaries",
@@ -2050,11 +2175,6 @@
               "definition": "n. 价格；物价（price 的复数）；v. 给……定价"
             },
             {
-              "word": "stock",
-              "pos": "",
-              "definition": "n.股份:股票"
-            },
-            {
               "word": "picks",
               "pos": "n.",
               "definition": "n. （pick 的复数）选择；被选中的人（或事物）"
@@ -2063,11 +2183,6 @@
               "word": "value",
               "pos": "n.",
               "definition": "n. 价值；等值；等价"
-            },
-            {
-              "word": "cozy",
-              "pos": "",
-              "definition": "a.舒适的;安逸的"
             },
             {
               "word": "paid",
@@ -2855,6 +2970,31 @@
           "chunk_translation": "去年11月马德里被誉为公共卫生领域的典范指路明灯， / 当时该市对污染最严重的汽车推出了雄心勃勃的限行措施。 / 仅仅七个月并在经历一次市政选举后， / 新一届保守派市议会暂停了清洁空气区的执法行动， / 这迈出了可能彻底废止该区域的第一步。 / 市长何塞·路易斯·马丁内斯-阿尔梅达将反对设立该限行区作为其竞选活动的核心纲领， / 尽管该区域在改善 / 空气质量方面取得了显著成功。 / 一名法官日前推翻了市政府停止征收罚款的决定， / 并责令恢复执法罚款。 / 但 / 面对接踵而至的法律诉讼， / 该清洁空气区的前景充其量 / 依然充满变数。",
           "vocabulary": [
             {
+              "word": "Its fate is yet to be decided",
+              "pos": "",
+              "definition": "【🎯解题正解】 它的命运尚未决定。"
+            },
+            {
+              "word": "Its effects are questionable",
+              "pos": "",
+              "definition": "【💡题项表达】 其效果值得怀疑。"
+            },
+            {
+              "word": "It needs tougher enforcement",
+              "pos": "",
+              "definition": "【💡题项表达】 需要更严厉的执法。"
+            },
+            {
+              "word": "enforcement",
+              "pos": "",
+              "definition": "n.执行,实施"
+            },
+            {
+              "word": "centrepiece",
+              "pos": "",
+              "definition": "n.(最佳的/最具吸引力的)部分"
+            },
+            {
               "word": "conservative city council",
               "pos": "",
               "definition": "保守派掌控的市议会"
@@ -2878,16 +3018,6 @@
               "word": "conservative",
               "pos": "adj.",
               "definition": "adj. 保守的；保守派的；保守主义的（认为政府应该实行政治保守主义）"
-            },
-            {
-              "word": "enforcement",
-              "pos": "",
-              "definition": "n.执行,实施"
-            },
-            {
-              "word": "centrepiece",
-              "pos": "",
-              "definition": "n.(最佳的/最具吸引力的)部分"
             },
             {
               "word": "termination",
@@ -2930,19 +3060,9 @@
               "definition": "adj. 犹豫的；无把握的；无法确知的"
             },
             {
-              "word": "decision",
-              "pos": "",
-              "definition": "n.决议"
-            },
-            {
               "word": "election",
               "pos": "n.",
               "definition": "n. 选举；当选；选举权"
-            },
-            {
-              "word": "possible",
-              "pos": "adj.",
-              "definition": "adj. 可能的；可能做到的；可能发生的"
             },
             {
               "word": "campaign",
@@ -2950,39 +3070,9 @@
               "definition": "n. （有计划的）活动；运动；战役"
             },
             {
-              "word": "ordering",
-              "pos": "v.",
-              "definition": "v. 命令；指示；订购"
-            },
-            {
-              "word": "restored",
-              "pos": "adj.",
-              "definition": "adj. 精力充沛的；精力恢复的；v. 修复"
-            },
-            {
-              "word": "guiding",
-              "pos": "v.",
-              "definition": "v. （guide 的现在分词）给某人领路（或导游）；指导"
-            },
-            {
-              "word": "council",
-              "pos": "n.",
-              "definition": "n. 委员会；理事会；政务委员会"
-            },
-            {
               "word": "despite",
               "pos": "prep.",
               "definition": "prep. 尽管；即使；不由自主地"
-            },
-            {
-              "word": "success",
-              "pos": "n.",
-              "definition": "n. 成功；胜利；发财"
-            },
-            {
-              "word": "quality",
-              "pos": "n.",
-              "definition": "n. 质量；品质；优质"
             },
             {
               "word": "levying",
@@ -3000,31 +3090,6 @@
               "definition": "v. 赞扬；称赞"
             },
             {
-              "word": "public",
-              "pos": "adj.",
-              "definition": "adj. 公众的；大众的"
-            },
-            {
-              "word": "health",
-              "pos": "n.",
-              "definition": "n. 身体状况；健康"
-            },
-            {
-              "word": "rolled",
-              "pos": "adj.",
-              "definition": "adj. 轧制的；滚制的"
-            },
-            {
-              "word": "future",
-              "pos": "n.",
-              "definition": "n. 未来；将来；前途"
-            },
-            {
-              "word": "Mayor",
-              "pos": "n.",
-              "definition": "n. （英格兰、威尔士和北爱尔兰由议员选举产生的）镇长；市长；（美国、加拿大等国家公众选举的）市长"
-            },
-            {
               "word": "judge",
               "pos": "n.",
               "definition": "n. 法官；审判官；裁判员"
@@ -3038,11 +3103,6 @@
               "word": "legal",
               "pos": "adj.",
               "definition": "adj. 法律允许的；合法的；与法律有关的"
-            },
-            {
-              "word": "ahead",
-              "pos": "adv.",
-              "definition": "adv. 在前面；朝前面；领先"
             }
           ]
         },
@@ -3097,11 +3157,6 @@
               "word": "limits",
               "pos": "n.",
               "definition": "n. （limit 的复数）限制；极限"
-            },
-            {
-              "word": "forth",
-              "pos": "adv.",
-              "definition": "adv. 离去；外出"
             }
           ]
         },
@@ -3112,6 +3167,56 @@
           "slashed_text": "Among other weaknesses , / the measures cities must employ / when left to tackle dirty air / on their own are politically controversial , / and therefore vulnerable. / That’s / because they inevitably put the costs of cleaning the air on to individual drivers — / who must pay fees or buy better vehicles — / rather than on to the car manufacturers / whose cheating is the real cause of our toxic pollution. / It’s not hard to imagine a similar reversal happening / in London. / The new ultra-low emission zone (Ulez) is likely to be a big issue / in next year’s mayoral election. / And / if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends , / it is sure to spark intense opposition from the far larger number of motorists / who will then be affected.",
           "chunk_translation": "除了其他缺陷之外， / 各城市不得不采取的限行措施 / 当被甩手由各城市自行应对污染空气时， / 在政治上极具争议性， / 因而也极易夭折受挫。 / 这是 / 因为它们不可避免地将净化空气的成本转嫁给了个体车主—— / 车主必须支付通行费或购买排放更达标的车辆—— / 而不是转嫁给汽车制造商， / 汽车制造商的造假作弊才是造成我们有害空气污染的真正元凶。 / 不难想象类似的政策逆转也可能发生 / 在伦敦。 / 新设立的超低排放区很可能成为 / 明年伦敦市长选举中的重大争议议题。 / 并且 / 如果萨迪克·汗胜选并按其计划于2021年将该区域扩展至南北环形公路， / 必将引发规模庞大得多的机动车驾驶员的强烈反对， / 届时他们都将受到限行政策的影响。",
           "vocabulary": [
+            {
+              "word": "They put the burden on individual motorists",
+              "pos": "",
+              "definition": "【🎯解题正解】 他们把负担强加给了个别驾车者。"
+            },
+            {
+              "word": "arouse strong resistance",
+              "pos": "",
+              "definition": "【🎯解题正解】 激起强烈反抗"
+            },
+            {
+              "word": "ensure Khan’s electoral success",
+              "pos": "",
+              "definition": "【💡题项表达】 确保汗的选举成功"
+            },
+            {
+              "word": "improve the city’s traffic",
+              "pos": "",
+              "definition": "【💡题项表达】 改善城市交通"
+            },
+            {
+              "word": "discourage car manufacturing",
+              "pos": "",
+              "definition": "【💡题项表达】 阻碍汽车制造"
+            },
+            {
+              "word": "vulnerable",
+              "pos": "",
+              "definition": "a.易招致抨击的,易受攻击的"
+            },
+            {
+              "word": "inevitably",
+              "pos": "",
+              "definition": "ad.必然发生地"
+            },
+            {
+              "word": "cheating",
+              "pos": "",
+              "definition": "n.舞弊(指做违法乱纪之事)"
+            },
+            {
+              "word": "toxic",
+              "pos": "",
+              "definition": "a.有毒的"
+            },
+            {
+              "word": "employ",
+              "pos": "",
+              "definition": "v.使用,采用"
+            },
             {
               "word": "controversial",
               "pos": "adj.",
@@ -3126,16 +3231,6 @@
               "word": "politically",
               "pos": "adv.",
               "definition": "adv. 政治上；在政治上"
-            },
-            {
-              "word": "vulnerable",
-              "pos": "",
-              "definition": "a.易招致抨击的,易受攻击的"
-            },
-            {
-              "word": "inevitably",
-              "pos": "",
-              "definition": "ad.必然发生地"
             },
             {
               "word": "weaknesses",
@@ -3153,19 +3248,9 @@
               "definition": "n. （强烈的） 反对；反抗；对手"
             },
             {
-              "word": "therefore",
-              "pos": "adv.",
-              "definition": "adv. 因此；所以"
-            },
-            {
               "word": "pollution",
               "pos": "n.",
               "definition": "n. 污染；污染物；噪音污染"
-            },
-            {
-              "word": "happening",
-              "pos": "n.",
-              "definition": "n. 事件；意外发生的事；偶发艺术"
             },
             {
               "word": "motorists",
@@ -3173,19 +3258,9 @@
               "definition": "n. 汽车司机；汽车驾驶员；驾车者"
             },
             {
-              "word": "cheating",
-              "pos": "",
-              "definition": "n.舞弊(指做违法乱纪之事)"
-            },
-            {
               "word": "measures",
               "pos": "n.",
               "definition": "n. 措施；层组（measure 的复数）"
-            },
-            {
-              "word": "cleaning",
-              "pos": "n.",
-              "definition": "n. 清洗；清除；去污"
             },
             {
               "word": "vehicles",
@@ -3208,11 +3283,6 @@
               "definition": "n. 选举；当选；选举权"
             },
             {
-              "word": "Circular",
-              "pos": "adj.",
-              "definition": "adj. 圆形的；环形的；循环的"
-            },
-            {
               "word": "affected",
               "pos": "adj.",
               "definition": "adj. 做作的；不自然的；被（外界因素）影响的"
@@ -3221,16 +3291,6 @@
               "word": "drivers",
               "pos": "n.",
               "definition": "n. 司机；驾驶员；驱动程序（driver 的复数）"
-            },
-            {
-              "word": "imagine",
-              "pos": "v.",
-              "definition": "v. 想象；设想；料想"
-            },
-            {
-              "word": "similar",
-              "pos": "adj.",
-              "definition": "adj. 相像的；类似的；（几何图形）相似的"
             },
             {
               "word": "mayoral",
@@ -3251,51 +3311,6 @@
               "word": "intense",
               "pos": "adj.",
               "definition": "adj. 很大的；十分强烈的；严肃紧张的"
-            },
-            {
-              "word": "employ",
-              "pos": "",
-              "definition": "v.使用,采用"
-            },
-            {
-              "word": "tackle",
-              "pos": "v.",
-              "definition": "v. 应付；解决（难题或局面）"
-            },
-            {
-              "word": "rather",
-              "pos": "adv.",
-              "definition": "adv. 颇；相当；宁愿"
-            },
-            {
-              "word": "likely",
-              "pos": "adj.",
-              "definition": "adj. 可能发生的；似乎合适的；仿佛恰当的"
-            },
-            {
-              "word": "toxic",
-              "pos": "",
-              "definition": "a.有毒的"
-            },
-            {
-              "word": "costs",
-              "pos": "n.",
-              "definition": "n. 费用；损失；诉讼费（cost 的复数）"
-            },
-            {
-              "word": "cause",
-              "pos": "n.",
-              "definition": "n. 原因；事业；理由"
-            },
-            {
-              "word": "ultra",
-              "pos": "n.",
-              "definition": "n. （尤指政治上的）过激分子；极端主义者；超级马拉松（ultramarathon的简称）"
-            },
-            {
-              "word": "issue",
-              "pos": "n.",
-              "definition": "n. 议题；争论点；（报纸、杂志等的）期"
             },
             {
               "word": "spark",
@@ -3362,11 +3377,6 @@
               "definition": "v. 投递；运送；履行"
             },
             {
-              "word": "quality",
-              "pos": "n.",
-              "definition": "n. 质量；品质；优质"
-            },
-            {
               "word": "science",
               "pos": "n.",
               "definition": "n. 科学；科学知识；专门科学"
@@ -3375,11 +3385,6 @@
               "word": "levers",
               "pos": "n.",
               "definition": "n. （lever 的复数）杠杆；控制杆"
-            },
-            {
-              "word": "health",
-              "pos": "n.",
-              "definition": "n. 身体状况；健康；医疗"
             },
             {
               "word": "threat",
@@ -3416,9 +3421,14 @@
           "chunk_translation": "但面对一个远超单一城镇范围的宏大问题，市长和市议员们 / 所能发挥的作用毕竟有限。 / 他们之所以被迫采取行动， / 是因为国家层面的政府—— / 包括英国及欧洲其他国家的中央政府—— / 未能切实承担起治理职责。",
           "vocabulary": [
             {
-              "word": "councillors",
-              "pos": "n.",
-              "definition": "n. 市议员；政务委员会委员"
+              "word": "National governments",
+              "pos": "",
+              "definition": "【🎯解题正解】 各国政府。"
+            },
+            {
+              "word": "Local residents",
+              "pos": "",
+              "definition": "【💡题项表达】 当地居民。"
             },
             {
               "word": "governments",
@@ -3429,11 +3439,6 @@
               "word": "national",
               "pos": "adj.",
               "definition": "adj. 国家的；全国的"
-            },
-            {
-              "word": "mayors",
-              "pos": "n.",
-              "definition": "市长"
             },
             {
               "word": "bigger",
@@ -3460,9 +3465,29 @@
           "chunk_translation": "各项限制措施 / 将高污染车辆拦截在特定区域之外—— / 市中心、 / “学校周边街道”、 / 甚至个别路段—— / 都是在更大范围的监管缺失下所做出的无奈回应，该监管本应严格执行现有法规并强制汽车制造商使其车辆 / 达到排放合规标准。 / 威尔士出台了专门的低速限速规定以最大限度减少污染。 / 我们穷尽了所有手段，唯独没有严令坚持 / 要求汽车制造商彻底治理其生产的汽车。",
           "vocabulary": [
             {
+              "word": "should be forced to follow regulations",
+              "pos": "",
+              "definition": "【🎯解题正解】 应该强制遵守规定"
+            },
+            {
+              "word": "will raise low-emission car production",
+              "pos": "",
+              "definition": "【💡题项表达】 将提高低排放汽车产量"
+            },
+            {
               "word": "a response to",
               "pos": "",
               "definition": "对..做出反应/响应"
+            },
+            {
+              "word": "absence of",
+              "pos": "",
+              "definition": "缺乏..."
+            },
+            {
+              "word": "clean up",
+              "pos": "",
+              "definition": "治理[污染]"
             },
             {
               "word": "manufacturers",
@@ -3478,11 +3503,6 @@
               "word": "regulations",
               "pos": "n.",
               "definition": "n. 规则；规章；条例"
-            },
-            {
-              "word": "absence of",
-              "pos": "",
-              "definition": "缺乏..."
             },
             {
               "word": "individual",
@@ -3508,11 +3528,6 @@
               "word": "pollution",
               "pos": "n.",
               "definition": "n. 污染；污染物；噪音污染"
-            },
-            {
-              "word": "clean up",
-              "pos": "",
-              "definition": "治理[污染]"
             },
             {
               "word": "response",
@@ -4425,19 +4440,34 @@
           "chunk_translation": "如今 / 随着Z世代的成员将于今年春季大学毕业—— / 最普遍接受的定义是指1995年之后出生的一代人， / 误差在一岁左右—— / 最近几周公众对他们的关注度一直在稳步上升 / 在近几周里。 / Z世代即将走向社会，寻找 / 劳动力市场中的工作机会， / 这一市场的劳动力供求偏紧程度达到了 / 数十年来的最高峰。 / 雇主们正计划多招募大约17%的应届毕业生 / 在美国本土今年的岗位相比去年， / 根据美国大学和雇主协会开展的一项权威调查。 / 人人都想知道即将 / 坐进那些空置办公隔间的这批年轻人将如何有别 / 于那些 / 步入职场在 / 他们之前的上一代人。",
           "vocabulary": [
             {
+              "word": "are drawing growing public attention",
+              "pos": "",
+              "definition": "【🎯解题正解】 正在引起越来越多的公众关注"
+            },
+            {
+              "word": "are recognized for their abilities",
+              "pos": "",
+              "definition": "【💡题项表达】 因其能力而受到认可"
+            },
+            {
+              "word": "inhabit",
+              "pos": "",
+              "definition": "v.占据,留在"
+            },
+            {
               "word": "commonly-accepted",
               "pos": "",
               "definition": "为人们普遍接受的"
             },
             {
-              "word": "hit the streets",
-              "pos": "",
-              "definition": "[商品]大量上市"
-            },
-            {
               "word": "give or take",
               "pos": "",
               "definition": "相差不到...,出入至多..."
+            },
+            {
+              "word": "hit the streets",
+              "pos": "",
+              "definition": "[商品]大量上市"
             },
             {
               "word": "Association",
@@ -4525,11 +4555,6 @@
               "definition": "n. cubicle 的复数：办公室格子间；办公隔间；用于淋浴、更衣、如厕等的小隔间"
             },
             {
-              "word": "inhabit",
-              "pos": "",
-              "definition": "v.占据,留在"
-            },
-            {
               "word": "members",
               "pos": "n.",
               "definition": "n. （社团、政党等组织的）成员；会员"
@@ -4604,9 +4629,59 @@
           "chunk_translation": "如果说“优越感强”是常被用来形容千禧一代的最常见形容词， / 无论是否公允， / 用于1981年至1995年出生的这一代人， / 那么形容Z世代的 / 标志性关键词则是务实与谨慎。 / 据专门研究他们的职业顾问和专家 / 所述， / Z世代是头脑清醒的 / 经济实用主义者。 / 尽管毕业时步入了近50年来最好的经济发展期， / Z世代却深知经济崩盘的惨烈景象。 / 在2008年金融危机爆发期间，他们还是易受影响的孩子， / 当时他们的许多父母失去了工作或毕生积蓄，乃至两者皆失。 / 他们毫无兴趣 / 去冒任何风险。 / 蓬勃发展的经济似乎并未能有效缓解这一代人内心深处的焦虑紧迫感， / 尤其是 / 对于那些 / 身负大学助学贷款的学生而言。 / 全美大学助学贷款的总余额 / 如今已达到创纪录的1.5万亿美元， / 根据美联储公布的数据。",
           "vocabulary": [
             {
+              "word": "what a tough economic situation is like",
+              "pos": "",
+              "definition": "【🎯解题正解】 严峻的经济形势是什么样的"
+            },
+            {
+              "word": "what their parents expect of them",
+              "pos": "",
+              "definition": "【💡题项表达】 他们的父母对他们的期望"
+            },
+            {
+              "word": "how valuable a counselor’s advice is",
+              "pos": "",
+              "definition": "【💡题项表达】 辅导员的建议有多有价值"
+            },
+            {
+              "word": "how they differ from past generations",
+              "pos": "",
+              "definition": "【💡题项表达】 他们与前几代人有何不同"
+            },
+            {
+              "word": "relieve",
+              "pos": "",
+              "definition": "【🎯解题正解】 缓解"
+            },
+            {
+              "word": "deepen",
+              "pos": "",
+              "definition": "【💡题项表达】 深化"
+            },
+            {
+              "word": "define",
+              "pos": "",
+              "definition": "【💡题项表达】 定义"
+            },
+            {
+              "word": "maintain",
+              "pos": "",
+              "definition": "【💡题项表达】 维持"
+            },
+            {
               "word": "impressionable",
               "pos": "",
               "definition": "a.(尤因年轻而)易受影响的"
+            },
+            {
+              "word": "assuage",
+              "pos": "",
+              "definition": "v.缓和,减轻"
+            },
+            {
+              "word": "underlying",
+              "pos": "",
+              "definition": "a.根本的,潜在的"
             },
             {
               "word": "fairly or not",
@@ -4614,14 +4689,14 @@
               "definition": "无论是否恰当"
             },
             {
-              "word": "generational",
-              "pos": "adj.",
-              "definition": "adj. 一代的；代际的；（计算机）分代的"
-            },
-            {
               "word": "train wreck",
               "pos": "",
               "definition": "火车失事"
+            },
+            {
+              "word": "generational",
+              "pos": "adj.",
+              "definition": "adj. 一代的；代际的；（计算机）分代的"
             },
             {
               "word": "millennials",
@@ -4632,11 +4707,6 @@
               "word": "pragmatists",
               "pos": "n./v.",
               "definition": "实用主义者"
-            },
-            {
-              "word": "underlying",
-              "pos": "",
-              "definition": "a.根本的,潜在的"
             },
             {
               "word": "catchwords",
@@ -4707,11 +4777,6 @@
               "word": "trillion",
               "pos": "num.",
               "definition": "num. 万亿；兆；百万兆"
-            },
-            {
-              "word": "assuage",
-              "pos": "",
-              "definition": "v.缓和,减轻"
             },
             {
               "word": "applied",
@@ -4833,6 +4898,31 @@
           "chunk_translation": "埃森哲咨询公司的 / 一项调查发现， / 今年88%的应届大学毕业生在选择专业时都牢牢考虑到了 / 就业前景。 / 同时在2019年对佐治亚大学学生开展的一项调查中， / 就就业指导中心发现， / 学生在挑选未来雇主时最看重的特质是提供稳定工作的能力（其次是 / 职业发展与培训机会， / 再次是振奋人心的企业宗旨）。 / 工作的安全感或稳定性是第二重要的职业目标（工作与生活的平衡位居第一）， / 紧随其后的是投身于某项事业的使命感，或 / 为更大社会福祉服务所获得的价值感。",
           "vocabulary": [
             {
+              "word": "have a clear idea about their future jobs",
+              "pos": "",
+              "definition": "【🎯解题正解】 对自己未来的工作有清晰的想法"
+            },
+            {
+              "word": "care little about their job performance",
+              "pos": "",
+              "definition": "【💡题项表达】 不太关心他们的工作表现"
+            },
+            {
+              "word": "balance",
+              "pos": "",
+              "definition": "n.(债务的)余款,结欠"
+            },
+            {
+              "word": "secure",
+              "pos": "",
+              "definition": "a.稳定的,稳固的"
+            },
+            {
+              "word": "dedicated",
+              "pos": "",
+              "definition": "a.有奉献精神的,满腔热忱的"
+            },
+            {
               "word": "professional",
               "pos": "adj.",
               "definition": "adj. 职业的；专业的；非常内行的"
@@ -4856,11 +4946,6 @@
               "word": "employment",
               "pos": "n.",
               "definition": "n. 雇用；使用；利用"
-            },
-            {
-              "word": "dedicated",
-              "pos": "",
-              "definition": "a.有奉献精神的,满腔热忱的"
             },
             {
               "word": "meanwhile",
@@ -4913,11 +4998,6 @@
               "definition": "n. 保护措施；安全工作；保安部门"
             },
             {
-              "word": "balance",
-              "pos": "",
-              "definition": "n.(债务的)余款,结欠"
-            },
-            {
               "word": "seniors",
               "pos": "n.",
               "definition": "n. 老年人；年长者"
@@ -4948,11 +5028,6 @@
               "definition": "adj. 较大的；更大的（great 的比较级）；用于大城市名或国名等专有名词前"
             },
             {
-              "word": "secure",
-              "pos": "",
-              "definition": "a.稳定的,稳固的"
-            },
-            {
               "word": "survey",
               "pos": "n.",
               "definition": "n. 民意调查；民意测验"
@@ -4966,11 +5041,6 @@
               "word": "office",
               "pos": "n.",
               "definition": "n. 办公室；办公楼；办事处"
-            },
-            {
-              "word": "future",
-              "pos": "n.",
-              "definition": "n. 未来；将来；前途"
             },
             {
               "word": "chose",
@@ -4991,11 +5061,6 @@
               "word": "sense",
               "pos": "n.",
               "definition": "n. 感觉官能（即视、听、嗅、味、触五觉）；（对某物的）感觉；道理"
-            },
-            {
-              "word": "cause",
-              "pos": "n.",
-              "definition": "n. 原因；事业；理由"
             }
           ]
         },
@@ -5007,14 +5072,44 @@
           "chunk_translation": "这与上一代人相比发生了巨大变化。 / “千禧一代希望在自己的生活中拥有更多灵活性， / 在个人生活方面， / ”坦尼娅·米歇尔森指出， / 她是英国咨询机构YouthSight的副总监， / 该机构是一家英国品牌管理咨询公司， / 定期对英国青年开展每60天一次的追踪调查， / 其调查结果 / 可能同样适用于美国青年群体。 / “Z世代则在寻求 / 更多的确定性与稳定性， / 这是因为零工经济的兴起。 / 他们很难看清自己的财务前景，因而非常规避风险。”",
           "vocabulary": [
             {
-              "word": "brand manager",
+              "word": "less adventurous",
               "pos": "",
-              "definition": "品牌经理"
+              "definition": "【🎯解题正解】 较少冒险"
+            },
+            {
+              "word": "less realistic",
+              "pos": "",
+              "definition": "【💡题项表达】 不太现实"
+            },
+            {
+              "word": "more diligent",
+              "pos": "",
+              "definition": "【💡题项表达】 更勤奋"
+            },
+            {
+              "word": "more generous\nᆇี൫ज@JOEE ༯໶",
+              "pos": "",
+              "definition": "【💡题项表达】 more generous\nᆇี൫ज@JOEE ༯໶"
             },
             {
               "word": "flexibility",
               "pos": "",
               "definition": "n.灵活性,弹性"
+            },
+            {
+              "word": "associate",
+              "pos": "",
+              "definition": "a.副的;准的"
+            },
+            {
+              "word": "financial",
+              "pos": "",
+              "definition": "a.财务的;金融的"
+            },
+            {
+              "word": "brand manager",
+              "pos": "",
+              "definition": "品牌经理"
             },
             {
               "word": "gig economy",
@@ -5035,16 +5130,6 @@
               "word": "generation",
               "pos": "n.",
               "definition": "n. 一代（人）；一代人的时间"
-            },
-            {
-              "word": "associate",
-              "pos": "",
-              "definition": "a.副的;准的"
-            },
-            {
-              "word": "financial",
-              "pos": "",
-              "definition": "a.财务的;金融的"
             },
             {
               "word": "Michelsen",
@@ -5105,11 +5190,6 @@
               "word": "economy",
               "pos": "n.",
               "definition": "n. 经济；节省；简练"
-            },
-            {
-              "word": "future",
-              "pos": "n.",
-              "definition": "n. 未来；将来；前途"
             },
             {
               "word": "averse",

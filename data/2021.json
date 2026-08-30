@@ -15,19 +15,24 @@
           "chunk_translation": "“再培训”这件事 / 听起来像是一个流行词，但实际上却是一项必要要求， / 如果我们打算拥有这样一个未来： / 其中许多潜在的劳动者都不会被时代落下。 / 我们知道自己正在进入一个时期， / 在这个时期， / 需求旺盛的就业岗位将迅速发生变化， / 而那些保留下来的岗位的任职要求 / 也将同样如此。 / 世界经济论坛的研究发现， / 在工作岗位中， / 平均有42%的“核心技能”将在2022年前发生改变。 / 这是一个非常紧迫的时间表。",
           "vocabulary": [
             {
-              "word": "get left behind",
+              "word": "an urgent demand for new job skills",
               "pos": "",
-              "definition": "落伍;被时代淘汰"
+              "definition": "【🎯解题正解】 对新工作技能的迫切需求"
             },
             {
-              "word": "requirements",
-              "pos": "n.",
-              "definition": "n. 要求；规定；必备条件（requirement 的复数）"
+              "word": "an increase in full-time employment",
+              "pos": "",
+              "definition": "【💡题项表达】 全职就业人数增加"
             },
             {
-              "word": "requirement",
+              "word": "a steady growth of job opportunities",
               "pos": "",
-              "definition": "n.要求;必要条件"
+              "definition": "【💡题项表达】 就业机会稳定增长"
+            },
+            {
+              "word": "a controversy about the “core skills",
+              "pos": "",
+              "definition": "【💡题项表达】 关于“核心技能”的争议"
             },
             {
               "word": "reskilling",
@@ -35,14 +40,14 @@
               "definition": "n.再培训"
             },
             {
-              "word": "in demand",
-              "pos": "",
-              "definition": "很需要的"
-            },
-            {
               "word": "buzzword",
               "pos": "",
               "definition": "n.时髦用语;流行术语"
+            },
+            {
+              "word": "requirement",
+              "pos": "",
+              "definition": "n.要求;必要条件"
             },
             {
               "word": "would-be",
@@ -50,9 +55,29 @@
               "definition": "a.想要成为...的;未来的"
             },
             {
+              "word": "forum",
+              "pos": "",
+              "definition": "n.论坛"
+            },
+            {
               "word": "timeline",
               "pos": "",
               "definition": "n.时间期限"
+            },
+            {
+              "word": "get left behind",
+              "pos": "",
+              "definition": "落伍;被时代淘汰"
+            },
+            {
+              "word": "in demand",
+              "pos": "",
+              "definition": "很需要的"
+            },
+            {
+              "word": "requirements",
+              "pos": "n.",
+              "definition": "n. 要求；规定；必备条件（requirement 的复数）"
             },
             {
               "word": "actually",
@@ -85,11 +110,6 @@
               "definition": "n. 声音；声响（sound 的复数）"
             },
             {
-              "word": "future",
-              "pos": "n.",
-              "definition": "n. 未来；将来"
-            },
-            {
               "word": "moving",
               "pos": "adj.",
               "definition": "adj. 动人的；感人的；活动的"
@@ -103,11 +123,6 @@
               "word": "demand",
               "pos": "v.",
               "definition": "v. 强烈要求；需要；需求"
-            },
-            {
-              "word": "forum",
-              "pos": "",
-              "definition": "n.论坛"
             },
             {
               "word": "finds",
@@ -134,14 +149,29 @@
           "chunk_translation": "关于 / 谁应该为再培训买单的问题 / 是一个棘手的问题。 / 对单个公司而言， / 一直以来的诱惑都是解雇那些 / 其技能已不再 / 被需要的员工，并替换为 / 那些技能 / 符合需求的人。 / 但事实并非总是如此。 / AT&T常被树立为典范，作为一家 / 决定推行大规模再培训计划而非采取“先解雇再招聘”策略的公司。 / 其他公司也曾承诺制定自己的计划。 / 然而，当技能不匹配存在于更广泛的宏观经济中时， / 人们关注的焦点 / 通常会转向由政府来处理。 / 相关努力 / 在加拿大和其他地区可以说 / 充其量收效甚微， / 并造成了这样一种局面： / 我们经常听到雇主恳求 / 招募工人， / 甚至 / 在某些时期和 / 地区， / 那里的失业率居高不下。",
           "vocabulary": [
             {
-              "word": "gold standard",
+              "word": "an alternative to the fire-and-hire strategy",
               "pos": "",
-              "definition": "黄金标准"
+              "definition": "【🎯解题正解】 解雇和雇用策略的替代方案"
             },
             {
-              "word": "unemployment",
-              "pos": "n.",
-              "definition": "n. 失业人数；失业率；失业"
+              "word": "have appeared to be insufficient",
+              "pos": "",
+              "definition": "【🎯解题正解】 似乎还不够"
+            },
+            {
+              "word": "have driven up labour costs",
+              "pos": "",
+              "definition": "【💡题项表达】 推高了劳动力成本"
+            },
+            {
+              "word": "have proved to be inconsistent",
+              "pos": "",
+              "definition": "【💡题项表达】 已被证明是不一致的"
+            },
+            {
+              "word": "have met with fierce opposition",
+              "pos": "",
+              "definition": "【💡题项表达】 遭到了激烈的反对"
             },
             {
               "word": "reskilling",
@@ -149,9 +179,54 @@
               "definition": "n.再培训"
             },
             {
+              "word": "in demand",
+              "pos": "",
+              "definition": "很需要的"
+            },
+            {
+              "word": "thorny",
+              "pos": "",
+              "definition": "a.棘手的"
+            },
+            {
               "word": "temptation",
               "pos": "",
               "definition": "n.诱惑:诱惑人的东西"
+            },
+            {
+              "word": "massive",
+              "pos": "",
+              "definition": "a.庞大的;大规模的"
+            },
+            {
+              "word": "mismatch",
+              "pos": "",
+              "definition": "n.不匹配;错配"
+            },
+            {
+              "word": "arguably",
+              "pos": "",
+              "definition": "ad.可论证地:可以说"
+            },
+            {
+              "word": "languid",
+              "pos": "",
+              "definition": "a.慢悠悠的;迟缓无力的"
+            },
+            {
+              "word": "gold standard",
+              "pos": "",
+              "definition": "黄金标准"
+            },
+            {
+              "word": "at best",
+              "pos": "",
+              "definition": "充其量;至多"
+            },
+            {
+              "word": "unemployment",
+              "pos": "n.",
+              "definition": "n. 失业人数；失业率；失业"
             },
             {
               "word": "individual",
@@ -169,11 +244,6 @@
               "definition": "adv. 经常地；频繁地"
             },
             {
-              "word": "in demand",
-              "pos": "",
-              "definition": "很需要的"
-            },
-            {
               "word": "elsewhere",
               "pos": "adv.",
               "definition": "adv. 在别处；去别处；pron. 别处"
@@ -189,16 +259,6 @@
               "definition": "n. （劳经）雇主（employer 的复数形式；指两个或两个以上的雇主；可译作“雇主们”“用人单位”“资方”等）"
             },
             {
-              "word": "mismatch",
-              "pos": "",
-              "definition": "n.不匹配;错配"
-            },
-            {
-              "word": "arguably",
-              "pos": "",
-              "definition": "ad.可论证地:可以说"
-            },
-            {
               "word": "question",
               "pos": "n.",
               "definition": "n. 问题；疑问"
@@ -212,21 +272,6 @@
               "word": "strategy",
               "pos": "n.",
               "definition": "n. （尤指为获得某物制定长期的）策略；行动计划；战略"
-            },
-            {
-              "word": "massive",
-              "pos": "",
-              "definition": "a.庞大的;大规模的"
-            },
-            {
-              "word": "languid",
-              "pos": "",
-              "definition": "a.慢悠悠的;迟缓无力的"
-            },
-            {
-              "word": "at best",
-              "pos": "",
-              "definition": "充其量;至多"
             },
             {
               "word": "broader",
@@ -274,11 +319,6 @@
               "definition": "n. 地区；区域；地域"
             },
             {
-              "word": "thorny",
-              "pos": "",
-              "definition": "a.棘手的"
-            },
-            {
               "word": "should",
               "pos": "v.",
               "definition": "v. （用于纠正别人）应该；（用于建议）该；可以"
@@ -287,11 +327,6 @@
               "word": "demand",
               "pos": "v.",
               "definition": "v. 强烈要求；需要；需求"
-            },
-            {
-              "word": "rather",
-              "pos": "adv.",
-              "definition": "adv. 颇；相当；宁愿"
             },
             {
               "word": "handle",
@@ -328,14 +363,29 @@
           "chunk_translation": "伴随着疫情的蔓延， / 失业率确实非常高。 / 在二月份， / 分别为3.5%和5.5%， / 失业率 / 在加拿大和美国 / 处于几十年来的历史低点，劳动力短缺随处可见。 / 截至五月， / 这些失业率已飙升至13.3%和13.7%， / 而且 / 尽管许多劳动力短缺现象已经消失， / 但并非所有短缺都已缓解。 / 以医疗领域 / 这一显而易见的例子来说， / 疫情意味着 / 医生、 / 护士和其他医务人员依然存在明显的短缺。",
           "vocabulary": [
             {
-              "word": "unemployment rates",
+              "word": "a lack of medical workers",
               "pos": "",
-              "definition": "失业率"
+              "definition": "【🎯解题正解】 缺乏医务人员"
             },
             {
-              "word": "worker shortages",
+              "word": "a call for policy adjustment",
               "pos": "",
-              "definition": "员工短缺"
+              "definition": "【💡题项表达】 呼吁政策调整"
+            },
+            {
+              "word": "a change in hiring practices",
+              "pos": "",
+              "definition": "【💡题项表达】 招聘做法的改变"
+            },
+            {
+              "word": "a sign of economic recovery",
+              "pos": "",
+              "definition": "【💡题项表达】 经济复苏的迹象"
+            },
+            {
+              "word": "pandemic",
+              "pos": "",
+              "definition": "n.(全国或全球性)流行病"
             },
             {
               "word": "respectively",
@@ -346,6 +396,26 @@
               "word": "generational",
               "pos": "",
               "definition": "a.一代的"
+            },
+            {
+              "word": "personnel",
+              "pos": "",
+              "definition": "n.全体人员,职员"
+            },
+            {
+              "word": "unemployment rates",
+              "pos": "",
+              "definition": "失业率"
+            },
+            {
+              "word": "worker shortages",
+              "pos": "",
+              "definition": "员工短缺"
+            },
+            {
+              "word": "as of",
+              "pos": "",
+              "definition": "直至:在..时"
             },
             {
               "word": "unemployment",
@@ -363,19 +433,9 @@
               "definition": "adv. 到处；处处；n. 每个地方"
             },
             {
-              "word": "personnel",
-              "pos": "",
-              "definition": "n.全体人员,职员"
-            },
-            {
               "word": "shortages",
               "pos": "n.",
               "definition": "n. 不足；缺乏（shortage 的复数形式）"
-            },
-            {
-              "word": "pandemic",
-              "pos": "",
-              "definition": "n.(全国或全球性)流行病"
             },
             {
               "word": "medical",
@@ -423,11 +483,6 @@
               "definition": "n. 护士；褓姆；看护（nurse 的复数）"
             },
             {
-              "word": "as of",
-              "pos": "",
-              "definition": "直至:在..时"
-            },
-            {
               "word": "field",
               "pos": "n.",
               "definition": "n. 田地；田野；专业"
@@ -452,19 +507,54 @@
           "chunk_translation": "当然， / 你不可能直接找来一个失业的服务员，并在短短几周内把他培训成一名医生。 / 但即便 / 你无法填补 / 那个缺口， / 也许你可以填补其他领域的缺口， / 而这样做将使所有相关各方受益。 / 瑞典的情况似乎正是如此： / 在瑞典， / 当被迫让90%的机舱乘务人员停职休假时， / 斯堪的纳维亚航空公司决定启动一项短期再培训计划， / 对下岗员工进行再培训以支援医院工作人员。 / 这项努力是一次集体行动，参与方还包括其他公司以及一所瑞典大学。",
           "vocabulary": [
             {
+              "word": "prepare their laid-off workers for other jobs",
+              "pos": "",
+              "definition": "【🎯解题正解】 为下岗工人做好其他工作的准备"
+            },
+            {
+              "word": "create job vacancies for the unemployed",
+              "pos": "",
+              "definition": "【💡题项表达】 为失业者创造就业机会"
+            },
+            {
+              "word": "finance their staff’s college education",
+              "pos": "",
+              "definition": "【💡题项表达】 资助员工的大学教育"
+            },
+            {
+              "word": "furlough",
+              "pos": "",
+              "definition": "v.使被迫休假;使暂时下岗"
+            },
+            {
+              "word": "laid-off",
+              "pos": "",
+              "definition": "a.被解雇的"
+            },
+            {
+              "word": "effort",
+              "pos": "",
+              "definition": "n.有组织的活动"
+            },
+            {
               "word": "all concerned",
               "pos": "",
               "definition": "有关各方"
             },
             {
-              "word": "Scandinavian",
-              "pos": "n.",
-              "definition": "n. 斯堪的纳维亚人；斯堪的纳维亚语；北欧日耳曼语系"
-            },
-            {
               "word": "cabin staff",
               "pos": "",
               "definition": "空乘人员"
+            },
+            {
+              "word": "start up",
+              "pos": "",
+              "definition": "(使)启动,开始"
+            },
+            {
+              "word": "Scandinavian",
+              "pos": "n.",
+              "definition": "n. 斯堪的纳维亚人；斯堪的纳维亚语；北欧日耳曼语系"
             },
             {
               "word": "unemployed",
@@ -495,21 +585,6 @@
               "word": "reskilled",
               "pos": "vt.",
               "definition": "vt. 学习新的技能；教……新技能（reskill 的过去式和过去分词）"
-            },
-            {
-              "word": "furlough",
-              "pos": "",
-              "definition": "v.使被迫休假;使暂时下岗"
-            },
-            {
-              "word": "laid-off",
-              "pos": "",
-              "definition": "a.被解雇的"
-            },
-            {
-              "word": "start up",
-              "pos": "",
-              "definition": "(使)启动,开始"
             },
             {
               "word": "Airlines",
@@ -550,11 +625,6 @@
               "word": "Swedish",
               "pos": "adj.",
               "definition": "adj. 瑞典的；瑞典人的；瑞典语的"
-            },
-            {
-              "word": "effort",
-              "pos": "",
-              "definition": "n.有组织的活动"
             },
             {
               "word": "course",
@@ -1433,6 +1503,21 @@
           "chunk_translation": "预计到2050年全球人口将接近100亿， / 并且有预测显示， / 某些地区的农业产量 / 需要增加近一倍才能跟上人口增长的步伐， / 粮食安全问题正日益成为新闻头条。 / 在英国， / 最近这也成为了一个热门话题， / 原因相当特殊： / 英国脱欧。",
           "vocabulary": [
             {
+              "word": "hit",
+              "pos": "",
+              "definition": "v.达到(某水平)"
+            },
+            {
+              "word": "double",
+              "pos": "",
+              "definition": "v.(使)加倍;(使)增加一倍"
+            },
+            {
+              "word": "Brexit",
+              "pos": "",
+              "definition": "n.英国脱欧"
+            },
+            {
               "word": "talking point",
               "pos": "",
               "definition": "话题:论题"
@@ -1498,16 +1583,6 @@
               "definition": "adj. （会）说话的；沉默而有表现力的；n. 讲话"
             },
             {
-              "word": "double",
-              "pos": "",
-              "definition": "v.(使)加倍;(使)增加一倍"
-            },
-            {
-              "word": "Brexit",
-              "pos": "",
-              "definition": "n.英国脱欧"
-            },
-            {
               "word": "global",
               "pos": "adj.",
               "definition": "adj. 全球的；全世界的"
@@ -1518,19 +1593,9 @@
               "definition": "adv. 几乎；差不多；密切地"
             },
             {
-              "word": "rather",
-              "pos": "adv.",
-              "definition": "adv. 颇；相当；宁愿"
-            },
-            {
               "word": "reason",
               "pos": "n.",
               "definition": "n. 原因；理由；充分理由"
-            },
-            {
-              "word": "hit",
-              "pos": "",
-              "definition": "v.达到(某水平)"
             }
           ]
         },
@@ -1542,14 +1607,54 @@
           "chunk_translation": "英国脱欧被一些人视为一个契机， / 用来扭转英国近年来依赖食品进口的趋势。 / 该国生产的食物仅占其消费量的约60%， / 这一比例低于 / 20世纪80年代末期的近四分之三。 / 恢复自给自足的举措， / 有观点认为， / 将促进农业发展、 / 提升政治主权甚至改善国民健康。 / 听起来很不错—— / 但这一愿景的可行性究竟有多大？",
           "vocabulary": [
             {
+              "word": "contribute to the nation’s well-being",
+              "pos": "",
+              "definition": "【🎯解题正解】 为国家福祉作出贡献"
+            },
+            {
+              "word": "be hindered by its population growth",
+              "pos": "",
+              "definition": "【💡题项表达】 受到人口增长的阻碍"
+            },
+            {
+              "word": "become a priority of the government",
+              "pos": "",
+              "definition": "【💡题项表达】 成为政府的优先事项"
+            },
+            {
+              "word": "Brexit",
+              "pos": "",
+              "definition": "n.英国脱欧"
+            },
+            {
+              "word": "reverse",
+              "pos": "",
+              "definition": "v.逆转;反转"
+            },
+            {
               "word": "self-sufficiency",
               "pos": "",
               "definition": "n.自给自足"
             },
             {
+              "word": "boost",
+              "pos": "",
+              "definition": "v.使增长;使兴旺"
+            },
+            {
               "word": "sovereignty",
               "pos": "",
               "definition": "n.主权"
+            },
+            {
+              "word": "feasible",
+              "pos": "",
+              "definition": "a.可行的;行得通的"
+            },
+            {
+              "word": "vision",
+              "pos": "",
+              "definition": "n.想象:展望"
             },
             {
               "word": "opportunity",
@@ -1572,11 +1677,6 @@
               "definition": "adj. 政治（上）的；政府的；政党的"
             },
             {
-              "word": "feasible",
-              "pos": "",
-              "definition": "a.可行的;行得通的"
-            },
-            {
               "word": "produces",
               "pos": "v.",
               "definition": "v. （produce 的第三人称单数）引起；造成；导致"
@@ -1597,24 +1697,9 @@
               "definition": "n. 工业；生产制造；行业"
             },
             {
-              "word": "reverse",
-              "pos": "",
-              "definition": "v.逆转;反转"
-            },
-            {
               "word": "farming",
               "pos": "n.",
               "definition": "n. 农业；农场经营；v. 耕种"
-            },
-            {
-              "word": "Brexit",
-              "pos": "",
-              "definition": "n.英国脱欧"
-            },
-            {
-              "word": "vision",
-              "pos": "",
-              "definition": "n.想象:展望"
             },
             {
               "word": "recent",
@@ -1627,19 +1712,9 @@
               "definition": "n. 国家；民族；国民"
             },
             {
-              "word": "health",
-              "pos": "n.",
-              "definition": "n. 身体状况；健康；医疗"
-            },
-            {
               "word": "Sounds",
               "pos": "n.",
               "definition": "n. 声音；声响（sound 的复数）；音效"
-            },
-            {
-              "word": "boost",
-              "pos": "",
-              "definition": "v.使增长;使兴旺"
             },
             {
               "word": "trend",
@@ -1655,6 +1730,16 @@
           "slashed_text": "According to a report on UK food production from the University of Leeds , / UK , / 85 per cent of the country’s total land area is associated / with meat and dairy production. / That supplies 80 per cent of what is consumed , / so even covering the whole country / in livestock farms wouldn’t allow us to cover all our meat and dairy needs.",
           "chunk_translation": "根据英国利兹大学关于英国粮食生产的一份报告， / 英国， / 其国土总面积的85%都与 / 肉类和乳制品生产相关联。 / 这供应了80%的消费量， / 因此即便在全国各地都建满畜牧场， / 也无法满足我们所有的肉类和乳制品需求。",
           "vocabulary": [
+            {
+              "word": "most land is used for meat and dairy production",
+              "pos": "",
+              "definition": "【🎯解题正解】 大部分土地用于肉类和奶制品生产"
+            },
+            {
+              "word": "cover",
+              "pos": "",
+              "definition": "v.足以负担;足以满足"
+            },
             {
               "word": "production",
               "pos": "n.",
@@ -1701,11 +1786,6 @@
               "definition": "（等于 would not）"
             },
             {
-              "word": "cover",
-              "pos": "",
-              "definition": "v.足以负担;足以满足"
-            },
-            {
               "word": "Leeds",
               "pos": "n.",
               "definition": "n. 利兹市（英国西约克郡城市）；（体育）利兹队（指英国利兹的球队"
@@ -1744,6 +1824,11 @@
           "slashed_text": "There are many caveats to those figures , / but they are still grave. / To become much more self-sufficient , / the UK would need to drastically reduce its consumption of animal foods , / and probably also farm more intensively — / meaning fewer green fields and more factory-style production.",
           "chunk_translation": "这些数据存在许多前提限制， / 但它们所反映的情况依然十分严峻。 / 为了大幅提高自给自足水平， / 英国需要大幅减少动物源食品的消费， / 并且可能还需要进行更为集约化的耕作—— / 这意味着更少的绿色田野和更多的工厂化生产。",
           "vocabulary": [
+            {
+              "word": "grave",
+              "pos": "",
+              "definition": "a.严峻的;严重的"
+            },
             {
               "word": "drastically",
               "pos": "",
@@ -1805,11 +1890,6 @@
               "definition": "n. 田地；田野；草地"
             },
             {
-              "word": "grave",
-              "pos": "",
-              "definition": "a.严峻的;严重的"
-            },
-            {
               "word": "foods",
               "pos": "n.",
               "definition": "n. 食物；食品（food 的复数；尤指不同种类的食物）"
@@ -1834,14 +1914,59 @@
           "chunk_translation": "但转向主要以植物为主的饮食也无济于事。 / 英国由畜牧业所主导是有充分原因的： / 畜牧业为主： / 其大部分土地并不具备以商业规模种植农作物所适宜的土壤或气候条件。 / 该国只有25%的土地适合 / 农作物种植， / 其中大部分 / 已经被 / 耕地所占用。 / 即便 / 我们将所有适宜的土地都转变为果蔬种植田—— / 这将涉及到取消所有自然保护区并让成千上万的人搬离 / 他们的家园—— / 我们在农作物产量上也只能实现 / 30%的提升。",
           "vocabulary": [
             {
-              "word": "on a commercial basis",
+              "word": "its natural conditions\nᆇี൫ज@JOEE ༯໶\n\n04",
               "pos": "",
-              "definition": "商业性地"
+              "definition": "【🎯解题正解】 its natural conditions\nᆇี൫ज@JOEE ༯໶\n\n04"
+            },
+            {
+              "word": "its farming technology",
+              "pos": "",
+              "definition": "【💡题项表达】 它的农业技术"
+            },
+            {
+              "word": "its dietary tradition",
+              "pos": "",
+              "definition": "【💡题项表达】 它的饮食传统"
+            },
+            {
+              "word": "its commercial interests",
+              "pos": "",
+              "definition": "【💡题项表达】 其商业利益"
+            },
+            {
+              "word": "boost",
+              "pos": "",
+              "definition": "v.使增长;使兴旺"
+            },
+            {
+              "word": "husbandry",
+              "pos": "",
+              "definition": "n.农牧业"
+            },
+            {
+              "word": "terrain",
+              "pos": "",
+              "definition": "n.地形;地势;地带"
+            },
+            {
+              "word": "crop",
+              "pos": "",
+              "definition": "n.农作物;庄稼"
+            },
+            {
+              "word": "arable",
+              "pos": "",
+              "definition": "a.适于耕种的"
             },
             {
               "word": "animal husbandry",
               "pos": "",
               "definition": "畜牧业"
+            },
+            {
+              "word": "on a commercial basis",
+              "pos": "",
+              "definition": "商业性地"
             },
             {
               "word": "crop production",
@@ -1857,11 +1982,6 @@
               "word": "production",
               "pos": "n.",
               "definition": "n. （以销售为目的的）生产；制造；（对自然物的）加工"
-            },
-            {
-              "word": "husbandry",
-              "pos": "",
-              "definition": "n.农牧业"
             },
             {
               "word": "switching",
@@ -1904,11 +2024,6 @@
               "definition": "v. remove 的现在分词；表示移动、去除、清除等；n. 去除"
             },
             {
-              "word": "terrain",
-              "pos": "",
-              "definition": "n.地形;地势;地带"
-            },
-            {
               "word": "climate",
               "pos": "n.",
               "definition": "n. 气候；气候区；氛围"
@@ -1927,11 +2042,6 @@
               "word": "achieve",
               "pos": "v.",
               "definition": "v. （经努力）达到；取得；实现"
-            },
-            {
-              "word": "arable",
-              "pos": "",
-              "definition": "a.适于耕种的"
             },
             {
               "word": "mainly",
@@ -1957,11 +2067,6 @@
               "word": "nature",
               "pos": "n.",
               "definition": "n. 大自然；自然界；性格"
-            },
-            {
-              "word": "boost",
-              "pos": "",
-              "definition": "v.使增长;使兴旺"
             },
             {
               "word": "plant",
@@ -1994,11 +2099,6 @@
               "definition": "n. 家庭（home 的复数形式）；房屋；住宅"
             },
             {
-              "word": "crop",
-              "pos": "",
-              "definition": "n.农作物;庄稼"
-            },
-            {
               "word": "diet",
               "pos": "n.",
               "definition": "n. 规定饮食；大量单调的活动"
@@ -2013,14 +2113,59 @@
           "chunk_translation": "目前在英国消费的水果和蔬菜中，只有23%是本土种植的， / 因此即便采取最极端的措施，我们也只能满足30%的新鲜果蔬需求。 / 这还是在我们寻找土地来种植谷物、 / 糖料、 / 种子和油料之前的情况， / 而这些作物为我们目前的卡路里摄入提供了绝大部分来源。",
           "vocabulary": [
             {
-              "word": "calorie intake",
+              "word": "rely largely on imports for fresh produce",
               "pos": "",
-              "definition": "卡路里摄入量"
+              "definition": "【🎯解题正解】 新鲜农产品主要依赖进口"
+            },
+            {
+              "word": "doubtful",
+              "pos": "",
+              "definition": "【🎯解题正解】 疑"
+            },
+            {
+              "word": "defensive",
+              "pos": "",
+              "definition": "【💡题项表达】 防御性的"
+            },
+            {
+              "word": "tolerant",
+              "pos": "",
+              "definition": "【💡题项表达】 宽容"
+            },
+            {
+              "word": "optimistic",
+              "pos": "",
+              "definition": "【💡题项表达】 乐观的"
+            },
+            {
+              "word": "extreme",
+              "pos": "",
+              "definition": "a.极端的"
+            },
+            {
+              "word": "bulk",
+              "pos": "",
+              "definition": "n.大部分"
+            },
+            {
+              "word": "calorie",
+              "pos": "",
+              "definition": "n.卡路里(食物热量单位)"
+            },
+            {
+              "word": "intake",
+              "pos": "",
+              "definition": "n.摄取量;摄入量"
             },
             {
               "word": "fresh produce",
               "pos": "",
               "definition": "新鲜农产品"
+            },
+            {
+              "word": "calorie intake",
+              "pos": "",
+              "definition": "卡路里摄入量"
             },
             {
               "word": "vegetables",
@@ -2043,16 +2188,6 @@
               "definition": "n. 措施；层组（measure 的复数）"
             },
             {
-              "word": "extreme",
-              "pos": "",
-              "definition": "a.极端的"
-            },
-            {
-              "word": "calorie",
-              "pos": "",
-              "definition": "n.卡路里(食物热量单位)"
-            },
-            {
               "word": "produce",
               "pos": "v.",
               "definition": "v. 引起；造成；（自然地）生产"
@@ -2061,11 +2196,6 @@
               "word": "current",
               "pos": "adj.",
               "definition": "adj. 现行的；当前的；通用的"
-            },
-            {
-              "word": "intake",
-              "pos": "",
-              "definition": "n.摄取量;摄入量"
             },
             {
               "word": "grains",
@@ -2101,11 +2231,6 @@
               "word": "seeds",
               "pos": "n.",
               "definition": "n. 种子；籽；（体育）种子选手（seed 的复数）"
-            },
-            {
-              "word": "bulk",
-              "pos": "",
-              "definition": "n.大部分"
             },
             {
               "word": "cent",
@@ -2875,14 +3000,49 @@
           "chunk_translation": "当微软在2015年收购任务管理应用Wunderlist和移动日历Sunrise时， / 它挑中了两位新秀， / 它们当时在硅谷 / 引发了相当大的轰动。 / 微软自己的Office软件主导着“生产力”软件市场， / 但这些初创公司代表了为智能手机时代从零打造的新一代技术浪潮。 / 这两款应用， / 然而， / 后来都被废弃了， / 此前微软表示已经将其最佳功能融入到了自己的产品中。 / 它们的工程师团队留了下来， / 使其成为众多“人才收购”案例中的两起， / 大型科技巨头正是利用这种方式来满足其巨大渴求 / 对技术人才的渴望。",
           "vocabulary": [
             {
-              "word": "from the ground up",
+              "word": "Their engineers were retained",
               "pos": "",
-              "definition": "从头开始"
+              "definition": "【🎯解题正解】 他们的工程师被保留了。"
+            },
+            {
+              "word": "Their market values declined",
+              "pos": "",
+              "definition": "【💡题项表达】 他们的市场价值下降了。"
+            },
+            {
+              "word": "Their tech features improved",
+              "pos": "",
+              "definition": "【💡题项表达】 他们的技术特性得到了改善。"
+            },
+            {
+              "word": "Their products were re-priced",
+              "pos": "",
+              "definition": "【💡题项表达】 他们的产品重新定价。"
             },
             {
               "word": "considerable",
               "pos": "",
               "definition": "a.相当大的"
+            },
+            {
+              "word": "buzz",
+              "pos": "",
+              "definition": "n.嘈杂声"
+            },
+            {
+              "word": "from the ground up",
+              "pos": "",
+              "definition": "从头开始"
+            },
+            {
+              "word": "feed",
+              "pos": "",
+              "definition": "v.满足(需要、愿望等)"
+            },
+            {
+              "word": "talent",
+              "pos": "",
+              "definition": "n.人才"
             },
             {
               "word": "productivity",
@@ -2985,11 +3145,6 @@
               "definition": "adj. 最大的（big 的最高级）"
             },
             {
-              "word": "talent",
-              "pos": "",
-              "definition": "n.人才"
-            },
-            {
               "word": "bought",
               "pos": "v.",
               "definition": "v. 买（buy 的过去式和过去分词）；adj. 从商店购买的"
@@ -3050,16 +3205,6 @@
               "definition": "v. hire 的第三人称单数：聘用、雇用；租用（英国英语）；出租（多用 hire out）"
             },
             {
-              "word": "buzz",
-              "pos": "",
-              "definition": "n.嘈杂声"
-            },
-            {
-              "word": "feed",
-              "pos": "",
-              "definition": "v.满足(需要、愿望等)"
-            },
-            {
               "word": "task",
               "pos": "n.",
               "definition": "n. （尤指困难的或必须定期做的）工作；任务"
@@ -3074,9 +3219,44 @@
           "chunk_translation": "在微软的批评者看来， / Wunderlist和Sunrise的命运体现了大型科技公司无情推进的势头， / 它们企图吞噬任何创新型公司 / 阻挡 / 在它们道路上的。 / “他们买下幼苗并将其关闭，” / 保罗·阿诺德抱怨道， / 一名合伙人 / 在总部位于旧金山的Switch Ventures， / 该举措终结了这些企业 / 那些有朝一日可能成长为 / 竞争对手的企业。 / 微软对此拒绝置评。",
           "vocabulary": [
             {
+              "word": "eliminate their potential competitors",
+              "pos": "",
+              "definition": "【🎯解题正解】 消除他们的潜在竞争对手"
+            },
+            {
+              "word": "exaggerate their product quality",
+              "pos": "",
+              "definition": "【💡题项表达】 夸大他们的产品质量"
+            },
+            {
+              "word": "treat new tech talent unfairly",
+              "pos": "",
+              "definition": "【💡题项表达】 不公平地对待新技术人才"
+            },
+            {
+              "word": "ignore public opinions",
+              "pos": "",
+              "definition": "【💡题项表达】 无视舆论"
+            },
+            {
               "word": "remorseless",
               "pos": "",
               "definition": "a.残酷的;无情的"
+            },
+            {
+              "word": "partner",
+              "pos": "",
+              "definition": "n.合伙人"
+            },
+            {
+              "word": "comment",
+              "pos": "",
+              "definition": "v.表达意见"
+            },
+            {
+              "word": "chew up",
+              "pos": "",
+              "definition": "嚼碎:毁坏"
             },
             {
               "word": "competitors",
@@ -3127,21 +3307,6 @@
               "word": "declined",
               "pos": "v.",
               "definition": "v. 下降；拒绝；衰退（decline 的过去式和过去分词）"
-            },
-            {
-              "word": "partner",
-              "pos": "",
-              "definition": "n.合伙人"
-            },
-            {
-              "word": "comment",
-              "pos": "",
-              "definition": "v.表达意见"
-            },
-            {
-              "word": "chew up",
-              "pos": "",
-              "definition": "嚼碎:毁坏"
             },
             {
               "word": "critics",
@@ -3208,9 +3373,24 @@
           "chunk_translation": "与其他初创企业投资者一样， / 阿诺德先生 / 自己的业务也常常依赖于 / 将初创公司出售给更大的科技巨头， / 尽管他承认自己对这一结果心情复杂： / “我认为这些事情对我有利， / 如果从自私的角度来看。 / 但它们对美国经济有好处吗？ / 我不知道。”",
           "vocabulary": [
             {
-              "word": "investors",
-              "pos": "n.",
-              "definition": "n. （经）投资者（investor 的复数）；投资人"
+              "word": "harm the national economy",
+              "pos": "",
+              "definition": "【🎯解题正解】 损害国民经济"
+            },
+            {
+              "word": "weaken big tech companies",
+              "pos": "",
+              "definition": "【💡题项表达】 削弱大型科技公司"
+            },
+            {
+              "word": "worsen market competition",
+              "pos": "",
+              "definition": "【💡题项表达】 加剧市场竞争"
+            },
+            {
+              "word": "discourage start-up investors",
+              "pos": "",
+              "definition": "【💡题项表达】 阻止初创投资者"
             },
             {
               "word": "start-up",
@@ -3221,6 +3401,11 @@
               "word": "business",
               "pos": "",
               "definition": "n.企业:公司"
+            },
+            {
+              "word": "investors",
+              "pos": "n.",
+              "definition": "n. （经）投资者（investor 的复数）；投资人"
             },
             {
               "word": "feelings",
@@ -3282,6 +3467,36 @@
           "chunk_translation": "美国联邦贸易委员会表示，希望找到 / 该问题的答案。 / 本周， / 该机构向五家最具市值的美国科技巨头索取了相关信息， / 关于过去十年中 / 它们开展的众多小型收购交易。 / 尽管这仅仅是一项研究项目 / 在现阶段， / 但该要求引发了一种可能：监管机构可能会介入 / 早期科技市场， / 而在此之前，这些市场一直是他们触及不到的领域。",
           "vocabulary": [
             {
+              "word": "examine small acquisitions",
+              "pos": "",
+              "definition": "【🎯解题正解】 检查小型收购"
+            },
+            {
+              "word": "limit Big Tech’s expansion",
+              "pos": "",
+              "definition": "【💡题项表达】 限制大型科技公司的扩张"
+            },
+            {
+              "word": "encourage research collaboration",
+              "pos": "",
+              "definition": "【💡题项表达】 鼓励研究合作"
+            },
+            {
+              "word": "supervise start-ups’ operation",
+              "pos": "",
+              "definition": "【💡题项表达】 监督初创企业的运营"
+            },
+            {
+              "word": "stage",
+              "pos": "",
+              "definition": "n.(发展/进展的)时期,阶段"
+            },
+            {
+              "word": "prospect",
+              "pos": "",
+              "definition": "n.前景:展望"
+            },
+            {
               "word": "acquisitions",
               "pos": "n.",
               "definition": "n. 兼并；购并；收购"
@@ -3300,11 +3515,6 @@
               "word": "regulators",
               "pos": "n.",
               "definition": "n. 调整者；监管者；调节阀（regulator的复数形式）"
-            },
-            {
-              "word": "prospect",
-              "pos": "",
-              "definition": "n.前景:展望"
             },
             {
               "word": "question",
@@ -3367,11 +3577,6 @@
               "definition": "prep. 在（或向）……较远的一边；晚于；迟于"
             },
             {
-              "word": "stage",
-              "pos": "",
-              "definition": "n.(发展/进展的)时期,阶段"
-            },
-            {
               "word": "Trade",
               "pos": "n.",
               "definition": "n. 贸易；买卖"
@@ -3396,14 +3601,44 @@
           "chunk_translation": "鉴于它们超过5.5万亿美元的总市值， / 细查 / 这类小型交易—— / 其中许多交易的知名度远不及Wunderlist和Sunrise—— / 似乎有些偏离重点。 / 在它们之间， / 五大科技巨头在过去五年中，平均每年仅在低于10亿美元的收购上花费34亿美元—— / 简直是沧海一粟相比于 / 它们庞大的财务储备， / 以及超过1300亿美元的风险资本 / 去年在美国投资的。",
           "vocabulary": [
             {
-              "word": "a drop in the ocean",
+              "word": "brought little financial pressure",
               "pos": "",
-              "definition": "沧海一栗;九牛一毛"
+              "definition": "【🎯解题正解】 带来的财务压力不大"
+            },
+            {
+              "word": "raised few management challenges",
+              "pos": "",
+              "definition": "【💡题项表达】 提出了一些管理挑战"
+            },
+            {
+              "word": "set an example for future deals",
+              "pos": "",
+              "definition": "【💡题项表达】 为未来的交易树立榜样"
+            },
+            {
+              "word": "venture",
+              "pos": "",
+              "definition": "n.风险项目:投机活动"
+            },
+            {
+              "word": "combined",
+              "pos": "",
+              "definition": "a.加在一起的"
+            },
+            {
+              "word": "prominent",
+              "pos": "",
+              "definition": "a.显眼的;突出的"
             },
             {
               "word": "beside the point",
               "pos": "",
               "definition": "不是重点:无关紧要"
+            },
+            {
+              "word": "a drop in the ocean",
+              "pos": "",
+              "definition": "沧海一栗;九牛一毛"
             },
             {
               "word": "venture capital",
@@ -3421,19 +3656,9 @@
               "definition": "n. 奇妙清单；一款基于云端工作的任务管理应用软件"
             },
             {
-              "word": "prominent",
-              "pos": "",
-              "definition": "a.显眼的;突出的"
-            },
-            {
               "word": "financial",
               "pos": "adj.",
               "definition": "adj. 财政的；金融的；有钱的"
-            },
-            {
-              "word": "combined",
-              "pos": "",
-              "definition": "a.加在一起的"
             },
             {
               "word": "trillion",
@@ -3454,11 +3679,6 @@
               "word": "invested",
               "pos": "v.",
               "definition": "v. 投资；花费；投入（时间、精力等）（invest 的过去式和过去分词"
-            },
-            {
-              "word": "venture",
-              "pos": "",
-              "definition": "n.风险项目:投机活动"
             },
             {
               "word": "rifling",
@@ -3530,6 +3750,16 @@
           "chunk_translation": "然而， / 批评人士表示，大公司利用此类交易在最具威胁的潜在竞争对手 / 有机会获得发展势头之前将其收购， / 在某些情况下，这属于“收购并扼杀”策略的一部分，目的是彻底将它们关闭。",
           "vocabulary": [
             {
+              "word": "momentum",
+              "pos": "",
+              "definition": "n.动力;势头"
+            },
+            {
+              "word": "tactic",
+              "pos": "",
+              "definition": "n.策略;手段"
+            },
+            {
               "word": "threatening",
               "pos": "adj.",
               "definition": "adj. 威胁（性）的；恐吓（性）的"
@@ -3550,11 +3780,6 @@
               "definition": "adj. 潜在的；可能的"
             },
             {
-              "word": "momentum",
-              "pos": "",
-              "definition": "n.动力;势头"
-            },
-            {
               "word": "However",
               "pos": "adv.",
               "definition": "adv. 然而；可是"
@@ -3563,11 +3788,6 @@
               "word": "critics",
               "pos": "n.",
               "definition": "n. 评论家；批评者"
-            },
-            {
-              "word": "tactic",
-              "pos": "",
-              "definition": "n.策略;手段"
             },
             {
               "word": "chance",
@@ -4360,6 +4580,46 @@
           "chunk_translation": "我们相当擅长 / 基于第一印象来评价他人， / 这些第一印象来自于 / 从瞥见一张照片到五分钟互动等片刻的体验片段， / 而深思熟虑不仅可能毫无必要，甚至会产生干扰。 / 在一项针对被她称为“薄切片”能力的研究中， / 已故心理学家纳利尼·安巴迪要求参与者观看教授们10秒钟的无声视频片段，并对教师的整体教学效果进行评分。 / 他们的评分与 / 学生们在学期末给出的评分高度相关。 / 另一组参与者必须倒数从1 / 000开始 / 以9为间隔，在他们观看视频片段时， / 这占据了他们有意识的工作记忆。 / 他们的评分同样准确， / 这证明了社交认知处理的直觉本质。",
           "vocabulary": [
             {
+              "word": "the reliability of first impressions",
+              "pos": "",
+              "definition": "【🎯解题正解】 第一印象的可靠性"
+            },
+            {
+              "word": "instructor-student interaction",
+              "pos": "",
+              "definition": "【💡题项表达】 师生互动"
+            },
+            {
+              "word": "people’s ability to influence others",
+              "pos": "",
+              "definition": "【💡题项表达】 人们影响他人的能力"
+            },
+            {
+              "word": "deliberation",
+              "pos": "",
+              "definition": "n.细想;考虑"
+            },
+            {
+              "word": "extraneous",
+              "pos": "",
+              "definition": "a.非必要的;无关的"
+            },
+            {
+              "word": "intrusive",
+              "pos": "",
+              "definition": "a.打搅的;侵扰的"
+            },
+            {
+              "word": "intuitive",
+              "pos": "",
+              "definition": "a.凭直觉得到的;直觉的"
+            },
+            {
+              "word": "nature",
+              "pos": "",
+              "definition": "n.本质;基本特征"
+            },
+            {
               "word": "count backward",
               "pos": "",
               "definition": "倒数"
@@ -4373,11 +4633,6 @@
               "word": "demonstrating",
               "pos": "v.",
               "definition": "v. 证明；说明；解释"
-            },
-            {
-              "word": "deliberation",
-              "pos": "",
-              "definition": "n.细想;考虑"
             },
             {
               "word": "psychologist",
@@ -4398,11 +4653,6 @@
               "word": "interaction",
               "pos": "n.",
               "definition": "n. 互动；交流；相互影响"
-            },
-            {
-              "word": "extraneous",
-              "pos": "",
-              "definition": "a.非必要的;无关的"
             },
             {
               "word": "experience",
@@ -4428,16 +4678,6 @@
               "word": "processing",
               "pos": "n.",
               "definition": "n. 加工；处理；运算"
-            },
-            {
-              "word": "intrusive",
-              "pos": "",
-              "definition": "a.打搅的;侵扰的"
-            },
-            {
-              "word": "intuitive",
-              "pos": "",
-              "definition": "a.凭直觉得到的;直觉的"
             },
             {
               "word": "occupying",
@@ -4513,11 +4753,6 @@
               "word": "watched",
               "pos": "v.",
               "definition": "v. 观察；注视；看守"
-            },
-            {
-              "word": "nature",
-              "pos": "",
-              "definition": "n.本质;基本特征"
             },
             {
               "word": "fairly",
@@ -4609,14 +4844,54 @@
           "chunk_translation": "关键在于， / 另一组被要求花一分钟时间写下理由 / 作为他们做出判断的依据， / 在给出评分之前。 / 准确率急剧下降。 / 安巴迪推测， / 深思熟虑使他们把注意力集中在 / 生动但具误导性的线索上， / 例如某些手势或言语， / 而不是让微妙信号之间复杂的相互作用来形成一种整体印象。 / 她发现了类似的干扰现象， / 当参与者观看两人之间15秒的视频片段并判断他们是陌生人、 / 朋友 / 还是约会伴侣时。",
           "vocabulary": [
             {
+              "word": "focused on specific details",
+              "pos": "",
+              "definition": "【🎯解题正解】 专注于具体细节"
+            },
+            {
+              "word": "gave the rating in limited time",
+              "pos": "",
+              "definition": "【💡题项表达】 在有限的时间内给出了评级"
+            },
+            {
+              "word": "watched shorter video clips",
+              "pos": "",
+              "definition": "【💡题项表达】 观看较短的视频剪辑"
+            },
+            {
+              "word": "discussed with one another",
+              "pos": "",
+              "definition": "【💡题项表达】 互相讨论"
+            },
+            {
               "word": "deliberation",
               "pos": "",
               "definition": "n.细想;考虑"
             },
             {
+              "word": "critically",
+              "pos": "",
+              "definition": "ad.极为重要地;很大程度上"
+            },
+            {
               "word": "dramatically",
               "pos": "",
               "definition": "ad.突然地:明显地"
+            },
+            {
+              "word": "interplay",
+              "pos": "",
+              "definition": "n.相互影响(或作用)"
+            },
+            {
+              "word": "holistic",
+              "pos": "",
+              "definition": "a.整体的;全面的"
+            },
+            {
+              "word": "complex",
+              "pos": "",
+              "definition": "a.复杂的"
             },
             {
               "word": "interference",
@@ -4632,11 +4907,6 @@
               "word": "impressions",
               "pos": "n.",
               "definition": "n. 印象；观感（impression 的复数）"
-            },
-            {
-              "word": "critically",
-              "pos": "",
-              "definition": "ad.极为重要地;很大程度上"
             },
             {
               "word": "experience",
@@ -4659,11 +4929,6 @@
               "definition": "n. 印象；感想；影响"
             },
             {
-              "word": "interplay",
-              "pos": "",
-              "definition": "n.相互影响(或作用)"
-            },
-            {
               "word": "suspected",
               "pos": "adj.",
               "definition": "adj. 有嫌疑的；涉嫌的；疑似的"
@@ -4672,11 +4937,6 @@
               "word": "strangers",
               "pos": "n.",
               "definition": "n. 陌生人；外地人；外来者"
-            },
-            {
-              "word": "holistic",
-              "pos": "",
-              "definition": "a.整体的;全面的"
             },
             {
               "word": "judgment",
@@ -4697,11 +4957,6 @@
               "word": "partners",
               "pos": "n.",
               "definition": "n. 伙伴；搭档（partner 的复数形式）；伴侣"
-            },
-            {
-              "word": "complex",
-              "pos": "",
-              "definition": "a.复杂的"
             },
             {
               "word": "judging",
@@ -4749,11 +5004,6 @@
               "definition": "n. 信号；示意（signal 的复数）；标志"
             },
             {
-              "word": "similar",
-              "pos": "adj.",
-              "definition": "adj. 相像的；类似的；（几何图形）相似的"
-            },
-            {
               "word": "watched",
               "pos": "v.",
               "definition": "v. 观察；注视；看守"
@@ -4787,11 +5037,6 @@
               "word": "Ambady",
               "pos": "n./v.",
               "definition": "n．Ambady是一个印度南部的地名；位于喀拉拉邦（Kerala）的帕拉卡德（Palakkad）地区。"
-            },
-            {
-              "word": "rather",
-              "pos": "adv.",
-              "definition": "adv. 颇；相当；宁愿"
             },
             {
               "word": "subtle",
@@ -4848,6 +5093,36 @@
           "chunk_translation": "其他研究表明，我们更擅长 / 识别欺骗 / 从片刻的体验片段中， / 当我们依赖 / 直觉而非反思时。 / “这就像 / 你在开一辆手动挡汽车，” / 朱迪思·霍尔说， / 一位心理学家 / 在东北大学， / “而且 / 如果你开始对此思虑过多， / 你就会记不得自己正在做什么。 / 但 / 如果你进入 / ‘自动驾驶’状态， / 你就会表现得很好。 / 我们的大多数社交生活正是 / 如此。”",
           "vocabulary": [
             {
+              "word": "reflection can be distracting",
+              "pos": "",
+              "definition": "【🎯解题正解】 反射可能会分散注意力"
+            },
+            {
+              "word": "memory may be selective",
+              "pos": "",
+              "definition": "【💡题项表达】 记忆可能是有选择性的"
+            },
+            {
+              "word": "social skills must be cultivated",
+              "pos": "",
+              "definition": "【💡题项表达】 必须培养社交技能"
+            },
+            {
+              "word": "deception is difficult to detect",
+              "pos": "",
+              "definition": "【💡题项表达】 欺骗很难被发现"
+            },
+            {
+              "word": "deception",
+              "pos": "",
+              "definition": "n.欺骗;蒙骗"
+            },
+            {
+              "word": "stick shift",
+              "pos": "",
+              "definition": "换挡杆:手动变速车"
+            },
+            {
               "word": "on automatic pilot",
               "pos": "",
               "definition": "习惯性地,机械地"
@@ -4863,11 +5138,6 @@
               "definition": "adj. 在东北的；东北方的；来自东北的"
             },
             {
-              "word": "stick shift",
-              "pos": "",
-              "definition": "换挡杆:手动变速车"
-            },
-            {
               "word": "reflection",
               "pos": "n.",
               "definition": "n. （光、热或声音的）反射；反射光；反射热"
@@ -4876,11 +5146,6 @@
               "word": "University",
               "pos": "n.",
               "definition": "n. 大学；综合性大学；大学校舍"
-            },
-            {
-              "word": "deception",
-              "pos": "",
-              "definition": "n.欺骗;蒙骗"
             },
             {
               "word": "detecting",
@@ -4962,9 +5227,39 @@
           "chunk_translation": "过度思考还会损害我们形成偏好的能力。 / 大学生对草莓酱和大学课程的评价与专家意见更加一致， / 当学生们没有被要求 / 分析其背后的理由时。 / 而且人们做出的购车决定 / 既在客观上更优，在个人层面上也更令人满意， / 当被要求关注 / 自己的感受而非 / 细节时， / 但前提是 / 这一决定非常复杂—— / 即当他们有大量信息需要处理时。",
           "vocabulary": [
             {
+              "word": "follow your feelings",
+              "pos": "",
+              "definition": "【🎯解题正解】 跟随你的感觉"
+            },
+            {
+              "word": "collect enough data",
+              "pos": "",
+              "definition": "【💡题项表达】 收集足够的数据"
+            },
+            {
+              "word": "list your preferences",
+              "pos": "",
+              "definition": "【💡题项表达】 列出您的偏好"
+            },
+            {
+              "word": "seek expert advice",
+              "pos": "",
+              "definition": "【💡题项表达】 寻求专家建议"
+            },
+            {
+              "word": "rationale",
+              "pos": "",
+              "definition": "n.全部理由:逻辑依据"
+            },
+            {
               "word": "objectively",
               "pos": "",
               "definition": "ad.客观(地)"
+            },
+            {
+              "word": "complex",
+              "pos": "",
+              "definition": "a.复杂的"
             },
             {
               "word": "preferences",
@@ -4992,11 +5287,6 @@
               "definition": "adj. 令人满意的；令人满足的；v. satisfy 的现在分词或动名词（满足"
             },
             {
-              "word": "rationale",
-              "pos": "",
-              "definition": "n.全部理由:逻辑依据"
-            },
-            {
               "word": "decisions",
               "pos": "n.",
               "definition": "n. 决策；决断；决定（decision 的复数）"
@@ -5015,16 +5305,6 @@
               "word": "feelings",
               "pos": "n.",
               "definition": "n. 感情；情绪；感觉"
-            },
-            {
-              "word": "decision",
-              "pos": "n.",
-              "definition": "n. 决定；抉择；判决"
-            },
-            {
-              "word": "complex",
-              "pos": "",
-              "definition": "a.复杂的"
             },
             {
               "word": "ability",
@@ -5077,11 +5357,6 @@
               "definition": "v. 购买；获得；收买（buy 的现在分词和动名词形式）"
             },
             {
-              "word": "rather",
-              "pos": "adv.",
-              "definition": "adv. 颇；相当；宁愿"
-            },
-            {
               "word": "weren",
               "pos": "aux.",
               "definition": "aux. 是（be 的复数一般过去式；相当于 were）"
@@ -5120,6 +5395,26 @@
           "slashed_text": "Intuition’s special powers are unleashed only / in certain circumstances. / In one study , / participants completed a battery of eight tasks , / including four / that tapped reflective thinking (discerning rules , / comprehending vocabulary) and four / that tapped intuition and creativity (generating new products or figures of speech). / Then they rated the degree to / which they had used intuition (“gut feelings , / ” “hunches , / ” “my heart”). / Use of their gut hurt their performance on the first four tasks , / as expected , / and helped them on the rest. / Sometimes the heart is smarter than the head.",
           "chunk_translation": "直觉的特殊力量只有 / 在特定情况下才能被释放出来。 / 在一项研究中， / 参与者完成了一组共八项任务， / 包括四项 / 考察反思性思维的任务（识别规律、 / 理解词汇）以及四项 / 考察直觉和创造力的任务（构思新产品或修辞手法）。 / 随后他们评估了 / 自己在多大程度上使用了直觉（“直觉本能”、 / “预感”、 / “心灵的感觉”）。 / 正如所料，凭借直觉会损害他们在前四项任务中的表现， / 正如预期的那样， / 却对他们完成其余任务起到了帮助作用。 / 有时感性确实比理性更明智。",
           "vocabulary": [
+            {
+              "word": "Intuition may affect reflective tasks",
+              "pos": "",
+              "definition": "【🎯解题正解】 直觉可能会影响反思性任务。"
+            },
+            {
+              "word": "Generating new products takes time",
+              "pos": "",
+              "definition": "【💡题项表达】 产生新产品需要时间。"
+            },
+            {
+              "word": "battery",
+              "pos": "",
+              "definition": "n.一组:一系列"
+            },
+            {
+              "word": "gut",
+              "pos": "",
+              "definition": "n.内心;直觉"
+            },
             {
               "word": "circumstances",
               "pos": "n.",
@@ -5206,11 +5501,6 @@
               "definition": "adj. 预料的；预期的；v. 期待"
             },
             {
-              "word": "battery",
-              "pos": "",
-              "definition": "n.一组:一系列"
-            },
-            {
               "word": "special",
               "pos": "adj.",
               "definition": "adj. 特殊的；特别的"
@@ -5274,11 +5564,6 @@
               "word": "rated",
               "pos": "adj.",
               "definition": "adj. 额定的；标称的；分级评定的"
-            },
-            {
-              "word": "gut",
-              "pos": "",
-              "definition": "n.内心;直觉"
             }
           ]
         }

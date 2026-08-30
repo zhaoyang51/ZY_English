@@ -15,6 +15,11 @@
           "chunk_translation": "令人感到奇怪的是 / 斯蒂芬·科齐亚泰克似乎觉得 / 他必须为自己给学生一个更美好未来所付出的努力做出合理解释。",
           "vocabulary": [
             {
+              "word": "justify",
+              "pos": "",
+              "definition": "v.证明...正当,为...辩护"
+            },
+            {
               "word": "as though",
               "pos": "",
               "definition": "好像,似乎"
@@ -23,11 +28,6 @@
               "word": "students",
               "pos": "n.",
               "definition": "n. 学生（student 的复数）"
-            },
-            {
-              "word": "justify",
-              "pos": "",
-              "definition": "v.证明...正当,为...辩护"
             },
             {
               "word": "curious",
@@ -45,11 +45,6 @@
               "definition": "n. effort 的复数：努力；尝试"
             },
             {
-              "word": "future",
-              "pos": "n.",
-              "definition": "n. 未来；将来；前途"
-            },
-            {
               "word": "feels",
               "pos": "v.",
               "definition": "v. feel 的第三人称单数：感到；感觉"
@@ -64,9 +59,39 @@
           "chunk_translation": "科齐亚泰克先生 / 正在参与一项开创性的工作。 / 他是新罕布什尔州一所高中的教师 / 在那里，学习不再关乎书本、考试和机械记忆 / 而是注重实践。 / 从什么时候开始成为公认常识 / 学生能够说出美国第13任总统的名字，却对一根断掉的自行车链条束手无策？",
           "vocabulary": [
             {
+              "word": "practical ability",
+              "pos": "",
+              "definition": "【🎯解题正解】 实践能力"
+            },
+            {
+              "word": "academic training",
+              "pos": "",
+              "definition": "【💡题项表达】 学术培训"
+            },
+            {
+              "word": "pioneering spirit",
+              "pos": "",
+              "definition": "【💡题项表达】 开拓精神"
+            },
+            {
               "word": "mechanical memorization",
               "pos": "",
-              "definition": "机械记忆"
+              "definition": "【💡题项表达】 机械记忆"
+            },
+            {
+              "word": "pioneering",
+              "pos": "",
+              "definition": "a.开创性的,探索性的"
+            },
+            {
+              "word": "practical",
+              "pos": "",
+              "definition": "a.实际的,动手的"
+            },
+            {
+              "word": "utterly",
+              "pos": "",
+              "definition": "ad.完全地,十足地"
             },
             {
               "word": "accepted wisdom",
@@ -84,19 +109,9 @@
               "definition": "adj. 被压倒的；被淹没的；（强烈地影响而使） 不知所措的"
             },
             {
-              "word": "pioneering",
-              "pos": "",
-              "definition": "a.开创性的,探索性的"
-            },
-            {
               "word": "mechanical",
               "pos": "adj.",
               "definition": "adj. 机械（方面）的；机械般的；呆板的"
-            },
-            {
-              "word": "practical",
-              "pos": "",
-              "definition": "a.实际的,动手的"
             },
             {
               "word": "Hampshire",
@@ -122,11 +137,6 @@
               "word": "students",
               "pos": "n.",
               "definition": "n. 学生（student 的复数）"
-            },
-            {
-              "word": "utterly",
-              "pos": "",
-              "definition": "ad.完全地,十足地"
             },
             {
               "word": "teacher",
@@ -242,29 +252,24 @@
           "chunk_translation": "但他也发现了一种潜移默化的偏见。 / 动手工作 / 几乎被视作低人一等的标志。 / 职业教育类学校 / “有着那种刻板印象……即那是为学业不佳的孩子准备的， / ”他说。",
           "vocabulary": [
             {
-              "word": "vocational education",
+              "word": "are not academically successful",
               "pos": "",
-              "definition": "职业教育"
+              "definition": "【🎯解题正解】 学业上不成功"
             },
             {
-              "word": "academically",
+              "word": "have a stereotyped mind",
               "pos": "",
-              "definition": "ad.纯理论地,学术上地"
+              "definition": "【💡题项表达】 有成见"
             },
             {
-              "word": "inferiority",
+              "word": "have no career motivation",
               "pos": "",
-              "definition": "n.低等,劣等"
+              "definition": "【💡题项表达】 没有职业动力"
             },
             {
-              "word": "vocational",
-              "pos": "adj.",
-              "definition": "adj. 职业的；职业技术的；业务知识的"
-            },
-            {
-              "word": "stereotype",
-              "pos": "n.",
-              "definition": "n. 模式化的思想；老一套；公式化人物"
+              "word": "are financially disadvantaged",
+              "pos": "",
+              "definition": "【💡题项表达】 在经济上处于不利地位"
             },
             {
               "word": "insidious",
@@ -277,14 +282,39 @@
               "definition": "n.偏见"
             },
             {
-              "word": "education",
-              "pos": "n.",
-              "definition": "n. （尤指学校）教育；培养；训练"
+              "word": "inferiority",
+              "pos": "",
+              "definition": "n.低等,劣等"
+            },
+            {
+              "word": "academically",
+              "pos": "",
+              "definition": "ad.纯理论地,学术上地"
+            },
+            {
+              "word": "vocational education",
+              "pos": "",
+              "definition": "职业教育"
             },
             {
               "word": "make it",
               "pos": "",
               "definition": "[尤指在困难情况下]赶上:获得成功"
+            },
+            {
+              "word": "vocational",
+              "pos": "adj.",
+              "definition": "adj. 职业的；职业技术的；业务知识的"
+            },
+            {
+              "word": "stereotype",
+              "pos": "n.",
+              "definition": "n. 模式化的思想；老一套；公式化人物"
+            },
+            {
+              "word": "education",
+              "pos": "n.",
+              "definition": "n. （尤指学校）教育；培养；训练"
             },
             {
               "word": "Schools",
@@ -315,6 +345,21 @@
           "slashed_text": "On one hand , / that viewpoint is a logical product of America’s evolution. / Manufacturing is not the economic engine / that it once was. / The job security / that the US economy once offered to high school graduates has largely evaporated. / More education is the new principle. / We want more for our kids , / and rightfully so.",
           "chunk_translation": "一方面 / 这种观点是美国发展演变的一个符合逻辑的产物。 / 制造业不再是 / 曾经那样的经济引擎。 / 就业保障 / 美国经济曾经为高中毕业生提供的工作稳定性如今已基本化为乌有。 / 接受更高层次的教育成为了新的准则。 / 我们希望给孩子更好的未来 / 这是理所应当的。",
           "vocabulary": [
+            {
+              "word": "used to have more job opportunities",
+              "pos": "",
+              "definition": "【🎯解题正解】 曾经有更多的工作机会"
+            },
+            {
+              "word": "used to have big financial concerns",
+              "pos": "",
+              "definition": "【💡题项表达】 曾经有很大的财务问题"
+            },
+            {
+              "word": "are reluctant to work in manufacturing",
+              "pos": "",
+              "definition": "【💡题项表达】 不愿意从事制造业工作"
+            },
             {
               "word": "Manufacturing",
               "pos": "n.",
@@ -410,6 +455,21 @@
           "chunk_translation": "但是一味盲目推进 / 全民普及本科学位—— / 以及对本科学历以下教育的微妙贬低—— / 忽略了一个要点： / 这并非美国经济唯一需要的东西。 / 确实 / 本科学位能开启更多机遇之门。 / 但即便在现在 / 全美仍有54%的岗位属于中等技能工作 / 例如建筑业和高技能制造业。 / 然而只有44%的劳动者接受过充分的培训。",
           "vocabulary": [
             {
+              "word": "indicates the overvaluing of higher education",
+              "pos": "",
+              "definition": "【🎯解题正解】 表明高等教育的价值被高估"
+            },
+            {
+              "word": "headlong",
+              "pos": "",
+              "definition": "a.轻率(仓促)的"
+            },
+            {
+              "word": "subtle",
+              "pos": "",
+              "definition": "a.微妙的"
+            },
+            {
               "word": "manufacturing",
               "pos": "n.",
               "definition": "n. 制造；制造业；v. （用机器）大量生产"
@@ -435,11 +495,6 @@
               "definition": "adj. 重要的；重大的；（人）影响很大的"
             },
             {
-              "word": "headlong",
-              "pos": "",
-              "definition": "a.轻率(仓促)的"
-            },
-            {
               "word": "bachelor",
               "pos": "n.",
               "definition": "n. 未婚男子；单身汉"
@@ -458,11 +513,6 @@
               "word": "trained",
               "pos": "adj.",
               "definition": "adj. 受过训练的；训练过的；受过培训的"
-            },
-            {
-              "word": "subtle",
-              "pos": "",
-              "definition": "a.微妙的"
             },
             {
               "word": "misses",
@@ -578,9 +628,29 @@
           "chunk_translation": "科齐亚泰克的学校敲响了警钟。 / 当教育变得“一刀切”时 / 它就面临忽视一个国家多样化天赋才能的风险。",
           "vocabulary": [
             {
-              "word": "one-size-fits-all",
+              "word": "supportive",
               "pos": "",
-              "definition": "一刀切"
+              "definition": "【🎯解题正解】 支持的"
+            },
+            {
+              "word": "tolerant",
+              "pos": "",
+              "definition": "【💡题项表达】 宽容"
+            },
+            {
+              "word": "disappointed",
+              "pos": "",
+              "definition": "【💡题项表达】 失望的"
+            },
+            {
+              "word": "cautious",
+              "pos": "",
+              "definition": "【💡题项表达】 谨慎"
+            },
+            {
+              "word": "diversity",
+              "pos": "",
+              "definition": "n.多样性,差异"
             },
             {
               "word": "wake-up call",
@@ -588,14 +658,14 @@
               "definition": "叫醒电话,警示,警钟"
             },
             {
+              "word": "one-size-fits-all",
+              "pos": "",
+              "definition": "一刀切"
+            },
+            {
               "word": "overlooking",
               "pos": "v.",
               "definition": "v. 俯瞰；远眺（overlook 的现在分词）"
-            },
-            {
-              "word": "diversity",
-              "pos": "",
-              "definition": "n.多样性,差异"
             },
             {
               "word": "education",
@@ -1547,14 +1617,9 @@
           "chunk_translation": "尽管化石燃料—— / 煤炭、 / 石油、 / 天然气—— / 仍供应着全球大约85%的能源 / 但比以往任何时候都更清楚的是 / 未来属于风能和太阳能等可再生能源。 / 全球向可再生能源转型的势头日益强劲： / 它们目前占 / 所有新上线发电装机容量的 / 一半以上。",
           "vocabulary": [
             {
-              "word": "account for",
+              "word": "roughly",
               "pos": "",
-              "definition": "[数量、比例上]占"
-            },
-            {
-              "word": "renewables",
-              "pos": "n.",
-              "definition": "n. 可再生能源；非传统性能量源（renewable 的复数）"
+              "definition": "ad.粗略地,大致上"
             },
             {
               "word": "renewable",
@@ -1567,14 +1632,19 @@
               "definition": "n.势头"
             },
             {
+              "word": "account for",
+              "pos": "",
+              "definition": "[数量、比例上]占"
+            },
+            {
+              "word": "renewables",
+              "pos": "n.",
+              "definition": "n. 可再生能源；非传统性能量源（renewable 的复数）"
+            },
+            {
               "word": "generate",
               "pos": "v.",
               "definition": "v. 产生；引起"
-            },
-            {
-              "word": "roughly",
-              "pos": "",
-              "definition": "ad.粗略地,大致上"
             },
             {
               "word": "clearer",
@@ -1617,11 +1687,6 @@
               "definition": "n. 供给量；储备；（商品、服务的）供应量"
             },
             {
-              "word": "future",
-              "pos": "n.",
-              "definition": "n. 未来；将来；前途"
-            },
-            {
               "word": "fuels",
               "pos": "n.",
               "definition": "n. 燃料（fuel 的复数形式）；v. 供给燃料"
@@ -1651,14 +1716,24 @@
           "chunk_translation": "部分增长源于政府和有远见的企业 / 为资助更清洁能源所做出的承诺。 / 但更多情况下，这一增长是因为可再生能源价格的大幅暴跌 / 尤其是风能和太阳能。 / 过去八年里，太阳能电池板的成本下降了80%，风力涡轮机的成本 / 则下降了近三分之一。",
           "vocabulary": [
             {
-              "word": "increasingly",
-              "pos": "adv.",
-              "definition": "adv. 越来越多地；不断增加地"
+              "word": "falling",
+              "pos": "",
+              "definition": "【🎯解题正解】 坠落"
             },
             {
-              "word": "governments",
-              "pos": "n.",
-              "definition": "n. 政府（government 的复数）；政权"
+              "word": "rising",
+              "pos": "",
+              "definition": "【💡题项表达】 上升"
+            },
+            {
+              "word": "changing",
+              "pos": "",
+              "definition": "【💡题项表达】 改变"
+            },
+            {
+              "word": "stabilizing",
+              "pos": "",
+              "definition": "【💡题项表达】 稳定"
             },
             {
               "word": "commitment",
@@ -1674,6 +1749,16 @@
               "word": "plummeting",
               "pos": "",
               "definition": "a.直线下降的,暴跌的"
+            },
+            {
+              "word": "increasingly",
+              "pos": "adv.",
+              "definition": "adv. 越来越多地；不断增加地"
+            },
+            {
+              "word": "governments",
+              "pos": "n.",
+              "definition": "n. 政府（government 的复数）；政权"
             },
             {
               "word": "businesses",
@@ -1760,6 +1845,41 @@
           "chunk_translation": "在世界许多地区，可再生能源已经成为主要能源。 / 例如在苏格兰 / 风力发电机 / 产生的电量足以供应95%的家庭用电。 / 尽管世界其他地区处于领先地位 / 尤其是中国和欧洲 / 但美国也正在经历显著的转变。 / 今年三月 / 风能和太阳能发电 / 占比首次 / 超过了美国总发电量的10% / 美国能源信息署报告称。",
           "vocabulary": [
             {
+              "word": "is progressing notably",
+              "pos": "",
+              "definition": "【🎯解题正解】 正在显着进步"
+            },
+            {
+              "word": "has proved to be impractical",
+              "pos": "",
+              "definition": "【💡题项表达】 已被证明是不切实际的"
+            },
+            {
+              "word": "faces many challenges",
+              "pos": "",
+              "definition": "【💡题项表达】 面临诸多挑战"
+            },
+            {
+              "word": "renewable",
+              "pos": "",
+              "definition": "a.可再生的,可恢复的"
+            },
+            {
+              "word": "principal",
+              "pos": "",
+              "definition": "a.最重要的,主要的"
+            },
+            {
+              "word": "notably",
+              "pos": "",
+              "definition": "ad.尤其是,特别地"
+            },
+            {
+              "word": "remarkable",
+              "pos": "",
+              "definition": "a.显著的"
+            },
+            {
               "word": "Administration",
               "pos": "n.",
               "definition": "n. 管理；行政；管理部门"
@@ -1775,21 +1895,6 @@
               "definition": "n. 消息；资料；情报"
             },
             {
-              "word": "remarkable",
-              "pos": "",
-              "definition": "a.显著的"
-            },
-            {
-              "word": "renewable",
-              "pos": "",
-              "definition": "a.可再生的,可恢复的"
-            },
-            {
-              "word": "principal",
-              "pos": "",
-              "definition": "a.最重要的,主要的"
-            },
-            {
               "word": "accounted",
               "pos": "v.",
               "definition": "v. account 的过去式和过去分词；认为；视为（常用于 be accounted + 补语结构）"
@@ -1800,11 +1905,6 @@
               "definition": "v. 产生；生成（generate 的过去式及过去分词）；引发（讨论、关注等）"
             },
             {
-              "word": "Scotland",
-              "pos": "n.",
-              "definition": "n. 苏格兰（大不列颠及北爱尔兰联合王国的组成国家）"
-            },
-            {
               "word": "turbines",
               "pos": "n.",
               "definition": "n. （动力）涡轮机（turbine 的复数）；涡轮"
@@ -1813,11 +1913,6 @@
               "word": "reported",
               "pos": "adj.",
               "definition": "adj. 报告的；声称的；已汇报的"
-            },
-            {
-              "word": "notably",
-              "pos": "",
-              "definition": "ad.尤其是,特别地"
             },
             {
               "word": "example",
@@ -1873,6 +1968,16 @@
           "slashed_text": "President Trump has underlined fossil fuels — / especially coal — / as the path to economic growth. / In a recent speech / in Iowa , / he dismissed wind power as an unreliable energy source. / But / that message did not play well / with many / in Iowa , / where wind turbines dot the fields and provide 36 percent of the state’s electricity generation — / and / where tech giants like Microsoft are being attracted by the availability of clean energy to power their data centers.",
           "chunk_translation": "特朗普总统强调化石燃料—— / 尤其是煤炭—— / 是实现经济增长的途径。 / 在最近的一次演讲中 / 在艾奥瓦州 / 他将风力发电贬为不可靠的能源。 / 但 / 这一论调并未得到普遍认可 / 在艾奥瓦州的许多人看来 / 在该州 / 风力发电机点缀于田野之中，提供了该州36%的电力—— / 而且 / 微软等科技巨头正被这里充足的清洁能源所吸引，用以为其数据中心供电。",
           "vocabulary": [
+            {
+              "word": "wind is a widely used energy source",
+              "pos": "",
+              "definition": "【🎯解题正解】 风是一种广泛使用的能源"
+            },
+            {
+              "word": "path",
+              "pos": "",
+              "definition": "n.(有助于实现某事的)道路,途径"
+            },
             {
               "word": "availability",
               "pos": "",
@@ -1984,11 +2089,6 @@
               "definition": "n. 控制力；操控力；政权"
             },
             {
-              "word": "path",
-              "pos": "",
-              "definition": "n.(有助于实现某事的)道路,途径"
-            },
-            {
               "word": "coal",
               "pos": "n.",
               "definition": "n. 煤；煤炭工业"
@@ -2003,14 +2103,19 @@
           "chunk_translation": "“当风不再吹或太阳不再照耀时会发生什么？” / 这一质问曾为怀疑者提供了一个迅速驳斥的借口 / 来否定可再生能源。 / 但电池储能容量的提升，正使得全天候不间断供电变得更加可行。",
           "vocabulary": [
             {
-              "word": "batteries",
-              "pos": "n.",
-              "definition": "n. （电）电池（battery 的复数形式）；一组；一套"
+              "word": "quick",
+              "pos": "",
+              "definition": "a.聪明的,敏锐的,脑子反应快的"
             },
             {
               "word": "put-down",
               "pos": "",
               "definition": "n.贬低,奚落"
+            },
+            {
+              "word": "batteries",
+              "pos": "n.",
+              "definition": "n. （电）电池（battery 的复数形式）；一组；一套"
             },
             {
               "word": "question",
@@ -2053,16 +2158,6 @@
               "definition": "adj. 流动的；平滑的；流畅的"
             },
             {
-              "word": "likely",
-              "pos": "adj.",
-              "definition": "adj. 可能发生的；似乎合适的；仿佛恰当的"
-            },
-            {
-              "word": "quick",
-              "pos": "",
-              "definition": "a.聪明的,敏锐的,脑子反应快的"
-            },
-            {
               "word": "shine",
               "pos": "v.",
               "definition": "v. （太阳或其他光源）发光；照耀"
@@ -2102,24 +2197,9 @@
           "chunk_translation": "这一进步在一定程度上 / 是由汽车制造商推动的 / 他们正在 / 大力押注 / 电池驱动的电动汽车。 / 尽管电动汽车目前在公路上依然少见 / 如今在路上 / 但这一巨额投资可能会在未来几年迅速改变这一局面 / 在未来的岁月里。",
           "vocabulary": [
             {
-              "word": "manufacturers",
-              "pos": "n.",
-              "definition": "n. manufacturer 的复数形式：（经）制造商；厂商"
-            },
-            {
-              "word": "investment",
-              "pos": "n.",
-              "definition": "n. 投资；值得买的东西；（时间、精力的）投入"
-            },
-            {
-              "word": "electric",
-              "pos": "adj.",
-              "definition": "adj. 电的；令人激动的"
-            },
-            {
-              "word": "vehicles",
-              "pos": "n.",
-              "definition": "n. vehicle 的复数：车辆；交通工具；引申指媒介"
+              "word": "Its continuous supply is becoming a reality",
+              "pos": "",
+              "definition": "【🎯解题正解】 其持续供应正在成为现实。"
             },
             {
               "word": "advance",
@@ -2140,6 +2220,26 @@
               "word": "in part",
               "pos": "",
               "definition": "在某种程度上"
+            },
+            {
+              "word": "manufacturers",
+              "pos": "n.",
+              "definition": "n. manufacturer 的复数形式：（经）制造商；厂商"
+            },
+            {
+              "word": "investment",
+              "pos": "n.",
+              "definition": "n. 投资；值得买的东西；（时间、精力的）投入"
+            },
+            {
+              "word": "electric",
+              "pos": "adj.",
+              "definition": "adj. 电的；令人激动的"
+            },
+            {
+              "word": "vehicles",
+              "pos": "n.",
+              "definition": "n. vehicle 的复数：车辆；交通工具；引申指媒介"
             },
             {
               "word": "vehicle",
@@ -2191,6 +2291,11 @@
           "chunk_translation": "尽管前路漫漫 / 但可再生能源的发展走势 / 正在急剧攀升。 / 能源领域变革的步伐 / 似乎正在加速—— / 或许恰好能够 / 及时地发挥有效作用 / 以减缓气候变化。 / 华盛顿在推广替代能源方面所做的事情—— / 或未曾做的事情—— / 在全球思维方式发生转变之际，可能变得越来越微不足道 / 在思想观念的转变中。",
           "vocabulary": [
             {
+              "word": "meaningful",
+              "pos": "",
+              "definition": "a.有意义的,重要的"
+            },
+            {
               "word": "alternative energy",
               "pos": "",
               "definition": "替代能源"
@@ -2199,11 +2304,6 @@
               "word": "alternative",
               "pos": "n.",
               "definition": "n. 可供选择的事物；替代物；adj. 可替代的"
-            },
-            {
-              "word": "meaningful",
-              "pos": "",
-              "definition": "a.有意义的,重要的"
             },
             {
               "word": "renewables",
@@ -3099,9 +3199,44 @@
           "chunk_translation": "数字经济巨头的实力与野心令人震惊—— / 亚马逊刚刚宣布以135亿美元收购高端食品杂货连锁店全食超市， / 但两年前脸书花费了甚至超过 / 这一数额的资金来收购即时通讯服务软件WhatsApp， / 而WhatsApp根本没有任何实体产品。 / WhatsApp为脸书提供的是一张由用户朋友关系和社交生活构成的错综复杂且极其详尽的网络。",
           "vocabulary": [
             {
-              "word": "physical product",
+              "word": "user information",
               "pos": "",
-              "definition": "实体产品"
+              "definition": "【🎯解题正解】 用户信息"
+            },
+            {
+              "word": "digital products",
+              "pos": "",
+              "definition": "【💡题项表达】 数码产品"
+            },
+            {
+              "word": "quality service",
+              "pos": "",
+              "definition": "【💡题项表达】 优质服务"
+            },
+            {
+              "word": "physical assets",
+              "pos": "",
+              "definition": "【💡题项表达】 有形资产"
+            },
+            {
+              "word": "upmarket",
+              "pos": "",
+              "definition": "a.高级的,高端的"
+            },
+            {
+              "word": "acquire",
+              "pos": "",
+              "definition": "v.购得,得到"
+            },
+            {
+              "word": "intricate",
+              "pos": "",
+              "definition": "a.错综复杂的"
+            },
+            {
+              "word": "detailed",
+              "pos": "",
+              "definition": "a.详尽的;精细的;细致的"
             },
             {
               "word": "digital economy",
@@ -3114,6 +3249,11 @@
               "definition": "连锁杂货店"
             },
             {
+              "word": "physical product",
+              "pos": "",
+              "definition": "实体产品"
+            },
+            {
               "word": "astonishing",
               "pos": "adj.",
               "definition": "adj. 惊人的；令人惊讶的"
@@ -3124,11 +3264,6 @@
               "definition": "n. 友谊；友情；表示友谊的事例（friendship 的复数）"
             },
             {
-              "word": "intricate",
-              "pos": "",
-              "definition": "a.错综复杂的"
-            },
-            {
               "word": "announced",
               "pos": "adj.",
               "definition": "adj. 宣布的；v. 宣布"
@@ -3137,16 +3272,6 @@
               "word": "messaging",
               "pos": "n.",
               "definition": "n. （计算机或电子设备的）信息收发；包括电子邮件的发送和处理；v. 发送"
-            },
-            {
-              "word": "upmarket",
-              "pos": "",
-              "definition": "a.高级的,高端的"
-            },
-            {
-              "word": "detailed",
-              "pos": "",
-              "definition": "a.详尽的;精细的;细致的"
             },
             {
               "word": "ambition",
@@ -3167,11 +3292,6 @@
               "word": "physical",
               "pos": "adj.",
               "definition": "adj. 身体的；肉体的；物质的"
-            },
-            {
-              "word": "acquire",
-              "pos": "",
-              "definition": "v.购得,得到"
             },
             {
               "word": "digital",
@@ -3248,9 +3368,39 @@
           "chunk_translation": "脸书当时向欧盟委员会承诺 / 不会将电话号码与用户的脸书身份信息相关联， / 但在交易达成后不久它就违背了该承诺。 / 即便 / 不知道信息的具体内容， / 单是掌握了 / 谁发送了信息以及发送给 / 谁的信息，就极具揭示性，而且至今依然如此。 / 哪位政治记者、 / 哪位党鞭， / 会不想了解 / 特雷莎·梅的政敌们目前正在其中密谋策划的群组成员构成呢？ / 也许 / 全食超市对亚马逊的价值与其说在于其拥有的460家门店， / 不如说在于 / 哪些顾客购买了哪些商品的消费记录。",
           "vocabulary": [
             {
+              "word": "pose a risk to Facebook users",
+              "pos": "",
+              "definition": "【🎯解题正解】 对 Facebook 用户构成风险"
+            },
+            {
+              "word": "mislead the European commission",
+              "pos": "",
+              "definition": "【💡题项表达】 误导欧盟委员会"
+            },
+            {
+              "word": "worsen political disputes",
+              "pos": "",
+              "definition": "【💡题项表达】 加剧政治争端"
+            },
+            {
+              "word": "mess up customer records",
+              "pos": "",
+              "definition": "【💡题项表达】 搞乱客户记录"
+            },
+            {
               "word": "enormously",
               "pos": "",
               "definition": "ad.极其,非常"
+            },
+            {
+              "word": "revealing",
+              "pos": "",
+              "definition": "a.揭示内情的,泄密的"
+            },
+            {
+              "word": "makeup",
+              "pos": "",
+              "definition": "n.(小组或团队的)组成,构成"
             },
             {
               "word": "party whip",
@@ -3271,11 +3421,6 @@
               "word": "journalist",
               "pos": "n.",
               "definition": "n. 新闻工作者；新闻记者；报人"
-            },
-            {
-              "word": "revealing",
-              "pos": "",
-              "definition": "a.揭示内情的,泄密的"
             },
             {
               "word": "knowledge",
@@ -3343,11 +3488,6 @@
               "definition": "n. 记录；记载；（某人或某物过去的）记录"
             },
             {
-              "word": "makeup",
-              "pos": "",
-              "definition": "n.(小组或团队的)组成,构成"
-            },
-            {
               "word": "phone",
               "pos": "n.",
               "definition": "n. 电话；电话系统"
@@ -3397,9 +3537,59 @@
           "chunk_translation": "反垄断竞争法似乎是解决这些权力失衡问题的唯一途径。 / 但它却显得笨拙低效。 / 一方面， / 与数字经济的变革步伐相比，它的反应非常迟缓。 / 等到一个问题得到处理和补救时，该问题可能已经在市场上消失， / 取而代之的是新的权力滥用行径。 / 但这里还存在一个更深层次的概念性问题， / 同样不容忽视。 / 按照目前的解释，竞争法处理的是 / 对消费者造成的经济损失，而当这些服务的用户不需要 / 为使用该服务付费时， / 这种经济损失并不显而易见。 / 使用这些服务的用户并不是他们的真正客户。 / 真正的客户是那些 / 购买广告的 / 广告主—— / 而脸书和谷歌 / 这两家虚拟网络巨头， / 垄断了数字广告业务，令所有其他媒体和娱乐公司处于极为不利的境地。",
           "vocabulary": [
             {
+              "word": "cannot keep pace with the changing market",
+              "pos": "",
+              "definition": "【🎯解题正解】 无法跟上不断变化的市场步伐"
+            },
+            {
+              "word": "should serve the new market powers",
+              "pos": "",
+              "definition": "【💡题项表达】 应服务于新的市场力量"
+            },
+            {
+              "word": "may worsen the economic imbalance",
+              "pos": "",
+              "definition": "【💡题项表达】 可能会加剧经济失衡"
+            },
+            {
+              "word": "they are not defined as customers",
+              "pos": "",
+              "definition": "【🎯解题正解】 他们不被定义为客户"
+            },
+            {
+              "word": "they are not financially reliable",
+              "pos": "",
+              "definition": "【💡题项表达】 他们在经济上不可靠"
+            },
+            {
+              "word": "the services are generally digital",
+              "pos": "",
+              "definition": "【💡题项表达】 服务通常是数字化的"
+            },
+            {
               "word": "digital economy",
               "pos": "",
               "definition": "数字经济"
+            },
+            {
+              "word": "address",
+              "pos": "",
+              "definition": "v.(着手)解决,处理(问题)"
+            },
+            {
+              "word": "clumsy",
+              "pos": "",
+              "definition": "a.笨拙、不灵活的;使用不便的"
+            },
+            {
+              "word": "conceptual",
+              "pos": "",
+              "definition": "a.观念上的,概念上的"
+            },
+            {
+              "word": "virtual",
+              "pos": "",
+              "definition": "a.实际上的;虚拟的"
             },
             {
               "word": "entertainment",
@@ -3430,11 +3620,6 @@
               "word": "advertising",
               "pos": "n.",
               "definition": "n. 广告活动；广告业；（总称）广告"
-            },
-            {
-              "word": "conceptual",
-              "pos": "",
-              "definition": "a.观念上的,概念上的"
             },
             {
               "word": "imbalances",
@@ -3497,16 +3682,6 @@
               "definition": "v. 统治；支配；在……中占首要地位"
             },
             {
-              "word": "address",
-              "pos": "",
-              "definition": "v.(着手)解决,处理(问题)"
-            },
-            {
-              "word": "virtual",
-              "pos": "",
-              "definition": "a.实际上的;虚拟的"
-            },
-            {
               "word": "appears",
               "pos": "v.",
               "definition": "v. 出现；呈现"
@@ -3525,11 +3700,6 @@
               "word": "obvious",
               "pos": "adj.",
               "definition": "adj. 明显的；显然的；明确表示的"
-            },
-            {
-              "word": "clumsy",
-              "pos": "",
-              "definition": "a.笨拙、不灵活的;使用不便的"
             },
             {
               "word": "abuses",
@@ -3586,6 +3756,31 @@
           "chunk_translation": "他们出售的产品是数据， / 而我们， / 作为广大用户， / 将自己的日常生活转化为数据，以供这些数字巨头牟利。 / 正如某些蚂蚁饲养蚜虫以获取它们在进食时所产生的蜜露， / 一样， / 谷歌饲养我们也是为了获取 / 我们的数字化生活所产出的数据。 / 蚂蚁驱逐捕食性昆虫，使其远离 / 蚜虫进食的场所； / 谷歌邮箱则将垃圾邮件拦截在我们的收件箱之外。 / 这种关系让人感觉既不人性化也不民主， / 即使 / 双方都能从中获益。",
           "vocabulary": [
             {
+              "word": "the relationship between digital giants and their users",
+              "pos": "",
+              "definition": "【🎯解题正解】 数字巨头与其用户之间的关系"
+            },
+            {
+              "word": "convert",
+              "pos": "",
+              "definition": "v.使转变,转化;改装"
+            },
+            {
+              "word": "farm",
+              "pos": "",
+              "definition": "v.养殖;耕种;承包出去"
+            },
+            {
+              "word": "predatory",
+              "pos": "",
+              "definition": "a.捕食性的,食肉的"
+            },
+            {
+              "word": "even if",
+              "pos": "",
+              "definition": "即使,就算"
+            },
+            {
               "word": "relationship",
               "pos": "n.",
               "definition": "n. （人、团体、国家等相互间的）关系；（人或事物之间的）关联；关系"
@@ -3596,11 +3791,6 @@
               "definition": "adj. 平等的；有民主精神的；民主政体的"
             },
             {
-              "word": "predatory",
-              "pos": "",
-              "definition": "a.捕食性的,食肉的"
-            },
-            {
               "word": "honeydew",
               "pos": "n.",
               "definition": "n. 蜜露；蜜汁；甘汁（蚜虫等昆虫分泌的含糖甜液）"
@@ -3609,16 +3799,6 @@
               "word": "spammers",
               "pos": "n.",
               "definition": "n. 垃圾邮件制作者（spammer 的复数）"
-            },
-            {
-              "word": "convert",
-              "pos": "",
-              "definition": "v.使转变,转化;改装"
-            },
-            {
-              "word": "even if",
-              "pos": "",
-              "definition": "即使,就算"
             },
             {
               "word": "product",
@@ -3689,11 +3869,6 @@
               "word": "human",
               "pos": "adj.",
               "definition": "adj. 人的；人类的；（尤指缺点或弱点）显示人的本性的"
-            },
-            {
-              "word": "farm",
-              "pos": "",
-              "definition": "v.养殖;耕种;承包出去"
             },
             {
               "word": "data",
@@ -4493,14 +4668,29 @@
           "chunk_translation": "为了避免陷入过分推崇 / 忙碌的陷阱， / 卡尔·纽波特， / 《深度工作： / 在受干扰的世界中 / 获得专注成功的法则》一书的作者， / 建议养成“深度工作”的习惯—— / 即全神贯注 / 且不受任何干扰的能力。",
           "vocabulary": [
             {
-              "word": "distraction",
-              "pos": "n.",
-              "definition": "n. 使人分心的事物；干扰；分心的事物"
+              "word": "approaches to getting more done in less time\nᆇี൫ज@JOEE ༯໶",
+              "pos": "",
+              "definition": "【🎯解题正解】 approaches to getting more done in less time\nᆇี൫ज@JOEE ༯໶"
+            },
+            {
+              "word": "the key to eliminating distractions",
+              "pos": "",
+              "definition": "【💡题项表达】 消除干扰的关键"
+            },
+            {
+              "word": "combat",
+              "pos": "",
+              "definition": "v.防止,减轻"
             },
             {
               "word": "distracted",
               "pos": "",
               "definition": "a.心烦意乱的,思想不集中的"
+            },
+            {
+              "word": "distraction",
+              "pos": "n.",
+              "definition": "n. 使人分心的事物；干扰；分心的事物"
             },
             {
               "word": "recommends",
@@ -4533,19 +4723,9 @@
               "definition": "adj. 专注的；目标明确的；（声音或图像）清晰的"
             },
             {
-              "word": "Success",
-              "pos": "n.",
-              "definition": "n. 成功；胜利；发财"
-            },
-            {
               "word": "ability",
               "pos": "n.",
               "definition": "n. 能力；能够；才能"
-            },
-            {
-              "word": "combat",
-              "pos": "",
-              "definition": "v.防止,减轻"
             },
             {
               "word": "author",
@@ -4577,14 +4757,44 @@
           "chunk_translation": "掌握深度工作的艺术有多种途径—— / 无论为了某项特定任务进行长期的闭关专注； / 还是养成每日的固定作息惯例； / 抑或是采取像“新闻记者”那样的方法，在一天中随时 / 抓住一切可能的机会进行深度工作。 / 无论采取哪种方法， / 关键在于确定你的专注时长并坚持执行。",
           "vocabulary": [
             {
-              "word": "throughout the day",
+              "word": "keep to your focus time",
               "pos": "",
-              "definition": "终日"
+              "definition": "【🎯解题正解】 保持专注时间"
+            },
+            {
+              "word": "list your immediate tasks",
+              "pos": "",
+              "definition": "【💡题项表达】 列出你当前的任务"
+            },
+            {
+              "word": "make specific daily plans",
+              "pos": "",
+              "definition": "【💡题项表达】 制定具体的每日计划"
+            },
+            {
+              "word": "seize every minute to work",
+              "pos": "",
+              "definition": "【💡题项表达】 抓紧每一分钟去工作"
+            },
+            {
+              "word": "ritual",
+              "pos": "",
+              "definition": "n.程序,仪规;习惯"
             },
             {
               "word": "journalistic",
               "pos": "",
               "definition": "a.新闻工作(者)的"
+            },
+            {
+              "word": "throughout the day",
+              "pos": "",
+              "definition": "终日"
+            },
+            {
+              "word": "stick to",
+              "pos": "",
+              "definition": "坚持,忠于"
             },
             {
               "word": "approaches",
@@ -4622,11 +4832,6 @@
               "definition": "v. 决定；控制；查明"
             },
             {
-              "word": "stick to",
-              "pos": "",
-              "definition": "坚持,忠于"
-            },
-            {
               "word": "retreats",
               "pos": "v.",
               "definition": "v. （retreat 的第三人称单数）撤退；后退；离开"
@@ -4655,11 +4860,6 @@
               "word": "moments",
               "pos": "n.",
               "definition": "n. moment 的复数形式：片刻；瞬间；时刻"
-            },
-            {
-              "word": "ritual",
-              "pos": "",
-              "definition": "n.程序,仪规;习惯"
             },
             {
               "word": "length",
@@ -4691,6 +4891,21 @@
           "chunk_translation": "纽波特还建议采用“深度日程规划”来应对接连不断的干扰，从而在更短时间内 / 完成更多的工作。 / “在任何时间点， / 我都应该把深度工作 / 安排好接下来大约一个月的时间。 / 一旦记入日程表， / 我就会像对待看医生预约或重要会议那样捍卫这段时间， / ”他写道。",
           "vocabulary": [
             {
+              "word": "combat",
+              "pos": "",
+              "definition": "v.防止,减轻"
+            },
+            {
+              "word": "scheduling",
+              "pos": "",
+              "definition": "n.日程安排,排程"
+            },
+            {
+              "word": "roughly",
+              "pos": "",
+              "definition": "ad.大约,差不多"
+            },
+            {
               "word": "interruptions",
               "pos": "n.",
               "definition": "n. 中断；打断；打扰"
@@ -4699,11 +4914,6 @@
               "word": "appointment",
               "pos": "n.",
               "definition": "n. 约会；约定；任命"
-            },
-            {
-              "word": "scheduling",
-              "pos": "",
-              "definition": "n.日程安排,排程"
             },
             {
               "word": "recommends",
@@ -4731,11 +4941,6 @@
               "definition": "n. 日历；日程表；记事录"
             },
             {
-              "word": "roughly",
-              "pos": "",
-              "definition": "ad.大约,差不多"
-            },
-            {
               "word": "Newport",
               "pos": "n.",
               "definition": "n. 新港；纽波特（美国罗得岛之避暑胜地）"
@@ -4749,11 +4954,6 @@
               "word": "meeting",
               "pos": "n.",
               "definition": "n. 会议；集会；偶遇"
-            },
-            {
-              "word": "combat",
-              "pos": "",
-              "definition": "v.防止,减轻"
             },
             {
               "word": "should",
@@ -4779,6 +4979,11 @@
           "slashed_text": "Another approach to getting more done / in less time is to rethink how you prioritize your day — / in particular how we craft our to-do lists. / Tim Harford , / author of Messy : / The Power of Disorder to Transform Our Lives , / points to a study in the early 1980s / that divided undergraduates into two groups : / some were advised to set out monthly goals and study activities ; / others were told to plan activities and goals / in much more detail , / day by day.",
           "chunk_translation": "在更短时间内完成更多任务的 / 另一种途径是重新思考如何安排一天事项的优先次序—— / 尤其是我们如何制定每日待办事项清单。 / 蒂姆·哈福德， / 《混乱： / 混乱力量如何改变我们的生活》一书的作者， / 指出了一项20世纪80年代初的研究， / 该研究将本科生分为两组： / 建议其中一组制定月度目标和学习活动； / 另一组则被要求 / 更加详细地按天规划各项活动和目标， / 逐日进行安排。",
           "vocabulary": [
+            {
+              "word": "craft",
+              "pos": "",
+              "definition": "v.精心制作"
+            },
             {
               "word": "undergraduates",
               "pos": "n.",
@@ -4850,11 +5055,6 @@
               "definition": "n. 细节；细微之处；详情"
             },
             {
-              "word": "craft",
-              "pos": "",
-              "definition": "v.精心制作"
-            },
-            {
               "word": "lists",
               "pos": "n.",
               "definition": "n. （历史）竞技场；比武场；（比武场的）围栏"
@@ -4889,14 +5089,34 @@
           "chunk_translation": "虽然研究人员起初设想 / 结构严密的每日计划会最为有效 / 在具体执行任务时， / 但他们错了： / 过于详尽的每日计划反而挫伤了学生的积极性。 / 哈福德指出 / 不可避免的干扰往往会使每日待办清单失去效用， / 而在这样的清单中 / 留出灵活应变的空间 / 却能够收获最佳成效。",
           "vocabulary": [
             {
+              "word": "detailed plans may not be as fruitful as expected",
+              "pos": "",
+              "definition": "【🎯解题正解】 详细的计划可能不会像预期的那样富有成效"
+            },
+            {
               "word": "well-structured",
               "pos": "",
               "definition": "a.结构良好的,条理清晰的"
             },
             {
+              "word": "render",
+              "pos": "",
+              "definition": "v.使变得:使处于某状态"
+            },
+            {
               "word": "improvisation",
               "pos": "",
               "definition": "n.即兴表演"
+            },
+            {
+              "word": "reap",
+              "pos": "",
+              "definition": "v收获,取得(成果)"
+            },
+            {
+              "word": "to-do list",
+              "pos": "",
+              "definition": "任务清单,待办事项清单"
             },
             {
               "word": "distractions",
@@ -4917,11 +5137,6 @@
               "word": "ineffective",
               "pos": "adj.",
               "definition": "adj. 无效果的；不起作用的；不能胜任的"
-            },
-            {
-              "word": "to-do list",
-              "pos": "",
-              "definition": "任务清单,待办事项清单"
             },
             {
               "word": "structured",
@@ -4974,11 +5189,6 @@
               "definition": "v. 发生；产生；终归"
             },
             {
-              "word": "render",
-              "pos": "",
-              "definition": "v.使变得:使处于某状态"
-            },
-            {
               "word": "argues",
               "pos": "v.",
               "definition": "v. argue 的第三人称单数现在时形式：争吵；吵架；讨论"
@@ -5002,11 +5212,6 @@
               "word": "wrong",
               "pos": "adj.",
               "definition": "adj. 错误的；不合乎事实的；（状况）有问题的"
-            },
-            {
-              "word": "reap",
-              "pos": "",
-              "definition": "v收获,取得(成果)"
             }
           ]
         },
@@ -5018,14 +5223,14 @@
           "chunk_translation": "为了最大限度地发挥我们的专注力和精力， / 我们还需要坦然接纳休息时间， / 或者正如纽波特所建议的那样， / “学会偷懒”。",
           "vocabulary": [
             {
-              "word": "make the most of",
-              "pos": "",
-              "definition": "充分利用"
-            },
-            {
               "word": "downtime",
               "pos": "",
               "definition": "n.停工期,休息"
+            },
+            {
+              "word": "make the most of",
+              "pos": "",
+              "definition": "充分利用"
             },
             {
               "word": "suggests",
@@ -5062,6 +5267,31 @@
           "chunk_translation": "“闲暇不仅仅是一种假期 / 一种放纵或一种恶习； / 它对大脑而言，就像维生素D对身体一样必不可少…… / 闲暇 / 看似矛盾的是 / 却是完成任何工作的必要前提 / ”他主张道。",
           "vocabulary": [
             {
+              "word": "an essential factor in accomplishing any work",
+              "pos": "",
+              "definition": "【🎯解题正解】 完成任何工作的一个重要因素"
+            },
+            {
+              "word": "a major contributor to physical health",
+              "pos": "",
+              "definition": "【💡题项表达】 对身体健康的主要贡献者"
+            },
+            {
+              "word": "idleness",
+              "pos": "",
+              "definition": "n.懒惰,空闲"
+            },
+            {
+              "word": "indulgence",
+              "pos": "",
+              "definition": "n.沉溺,放纵"
+            },
+            {
+              "word": "vice",
+              "pos": "",
+              "definition": "n.恶行,堕落"
+            },
+            {
               "word": "indispensable",
               "pos": "adj.",
               "definition": "adj. 不可或缺的；必需的；不能撇开的"
@@ -5072,19 +5302,9 @@
               "definition": "adv. 自相矛盾地；似是而非地；反常地"
             },
             {
-              "word": "indulgence",
-              "pos": "",
-              "definition": "n.沉溺,放纵"
-            },
-            {
               "word": "necessary",
               "pos": "adj.",
               "definition": "adj. 必要的；必需的；必然的"
-            },
-            {
-              "word": "idleness",
-              "pos": "",
-              "definition": "n.懒惰,空闲"
             },
             {
               "word": "vacation",
@@ -5105,11 +5325,6 @@
               "word": "brain",
               "pos": "n.",
               "definition": "n. 脑；智力；智慧"
-            },
-            {
-              "word": "vice",
-              "pos": "",
-              "definition": "n.恶行,堕落"
             }
           ]
         },
@@ -5121,6 +5336,31 @@
           "chunk_translation": "斯里尼·皮莱， / 精神病学助理教授 / 任职于哈佛大学医学院， / 认为休息与生产力之间这种反直觉的联系，可能是由我们大脑的运转方式决定的。 / 当我们的大脑在专注于任务与不专注之间自如切换时， / 往往会具有更高的效率。",
           "vocabulary": [
             {
+              "word": "can bring about greater efficiency",
+              "pos": "",
+              "definition": "【🎯解题正解】 可以带来更高的效率"
+            },
+            {
+              "word": "can result in psychological well-being",
+              "pos": "",
+              "definition": "【💡题项表达】 可以带来心理健康"
+            },
+            {
+              "word": "is driven by task urgency",
+              "pos": "",
+              "definition": "【💡题项表达】 由任务紧迫性驱动"
+            },
+            {
+              "word": "downtime",
+              "pos": "",
+              "definition": "n.停工期,休息"
+            },
+            {
+              "word": "psychiatry",
+              "pos": "",
+              "definition": "n.精神病学"
+            },
+            {
               "word": "counterintuitive",
               "pos": "adj.",
               "definition": "adj. 违反直觉的；反直觉的"
@@ -5129,11 +5369,6 @@
               "word": "productivity",
               "pos": "n.",
               "definition": "n. 生产率；生产力"
-            },
-            {
-              "word": "psychiatry",
-              "pos": "",
-              "definition": "n.精神病学"
             },
             {
               "word": "assistant",
@@ -5154,11 +5389,6 @@
               "word": "efficient",
               "pos": "adj.",
               "definition": "adj. 生效的；效率高的；（人）有能力的"
-            },
-            {
-              "word": "downtime",
-              "pos": "",
-              "definition": "n.停工期,休息"
             },
             {
               "word": "believes",

@@ -15,19 +15,9 @@
           "chunk_translation": "确实如此， / 高中阶段的编程课程并不是必不可少的 / 对于在大学学习计算机科学而言 / 在大学里。 / 毫无编程经验的学生在几周之后便能赶上进度 / 在学完入门编程课程后， / 说道 / 马克·科蒂纳， / 罗伯特莫里斯大学的副院长。",
           "vocabulary": [
             {
-              "word": "assistant dean",
+              "word": "coding",
               "pos": "",
-              "definition": "(学院)副院长"
-            },
-            {
-              "word": "introductory",
-              "pos": "",
-              "definition": "a.入门的,初步的"
-            },
-            {
-              "word": "experience",
-              "pos": "n.",
-              "definition": "n. 经历；往事；经验"
+              "definition": "n.编码,编程"
             },
             {
               "word": "essential",
@@ -35,14 +25,29 @@
               "definition": "a.必不可少的"
             },
             {
-              "word": "assistant",
-              "pos": "n.",
-              "definition": "n. 助理；助手；店员"
-            },
-            {
               "word": "catch up",
               "pos": "",
               "definition": "赶上,追上"
+            },
+            {
+              "word": "introductory",
+              "pos": "",
+              "definition": "a.入门的,初步的"
+            },
+            {
+              "word": "assistant dean",
+              "pos": "",
+              "definition": "(学院)副院长"
+            },
+            {
+              "word": "experience",
+              "pos": "n.",
+              "definition": "n. 经历；往事；经验"
+            },
+            {
+              "word": "assistant",
+              "pos": "n.",
+              "definition": "n. 助理；助手；店员"
             },
             {
               "word": "learning",
@@ -85,11 +90,6 @@
               "definition": "n. （真菌）丝膜（菌盖边缘与菌柄间的蛛网状部分菌幕）；（地名；常大写 Cortina）科尔蒂纳"
             },
             {
-              "word": "coding",
-              "pos": "",
-              "definition": "n.编码,编程"
-            },
-            {
               "word": "Mellon",
               "pos": "n.",
               "definition": "n. 梅隆（姓氏）"
@@ -114,9 +114,59 @@
           "chunk_translation": "然而， / 科蒂纳表示， / 早期接触编程大有裨益。 / 当年龄较小的孩子学习计算机科学时， / 他们了解到 / 这不仅仅是在计算机上解决问题， / 而是 / 关于解决现实世界中的问题， / 在现实世界中， / 科蒂纳说道。 / 这并非难事 / 对他们而言 / 去转变他们的思维方式。 / 将复杂问题拆解为易于处理的微小模块 / 并习惯编程的逻辑结构，有助于在不同学科的学习。 / 让更多的孩子接受这种思维训练， / 能够增加大学里主修计算机科学的学生人数。",
           "vocabulary": [
             {
+              "word": "remodel the way of thinking",
+              "pos": "",
+              "definition": "【🎯解题正解】 重塑思维方式"
+            },
+            {
+              "word": "complete future job training",
+              "pos": "",
+              "definition": "【💡题项表达】 完成未来的工作培训"
+            },
+            {
+              "word": "formulate logical hypotheses",
+              "pos": "",
+              "definition": "【💡题项表达】 提出逻辑假设"
+            },
+            {
+              "word": "perfect artwork production",
+              "pos": "",
+              "definition": "【💡题项表达】 完美的艺术品制作"
+            },
+            {
+              "word": "exposure",
+              "pos": "",
+              "definition": "n.接触,体验(新事物)"
+            },
+            {
               "word": "beneficial",
               "pos": "",
               "definition": "a.有利的,有用的"
+            },
+            {
+              "word": "confusing",
+              "pos": "",
+              "definition": "a.令人困惑的,难懂的"
+            },
+            {
+              "word": "string",
+              "pos": "",
+              "definition": "n.一连串,一系列"
+            },
+            {
+              "word": "artwork",
+              "pos": "",
+              "definition": "n.艺术作品"
+            },
+            {
+              "word": "transform",
+              "pos": "",
+              "definition": "v.转换,(彻底)改变"
+            },
+            {
+              "word": "jobs gap",
+              "pos": "",
+              "definition": "职位空缺"
             },
             {
               "word": "hypotheses",
@@ -129,29 +179,9 @@
               "definition": "adj. 感兴趣的；关心的；利益相关的"
             },
             {
-              "word": "confusing",
-              "pos": "",
-              "definition": "a.令人困惑的,难懂的"
-            },
-            {
-              "word": "transform",
-              "pos": "",
-              "definition": "v.转换,(彻底)改变"
-            },
-            {
               "word": "processes",
               "pos": "n.",
               "definition": "n. 过程；进程（process 的复数）；v. 处理"
-            },
-            {
-              "word": "exposure",
-              "pos": "",
-              "definition": "n.接触,体验(新事物)"
-            },
-            {
-              "word": "jobs gap",
-              "pos": "",
-              "definition": "职位空缺"
             },
             {
               "word": "computer",
@@ -179,11 +209,6 @@
               "definition": "v. 增长；增强；增大"
             },
             {
-              "word": "artwork",
-              "pos": "",
-              "definition": "n.艺术作品"
-            },
-            {
               "word": "However",
               "pos": "adv.",
               "definition": "adv. 然而；可是"
@@ -207,11 +232,6 @@
               "word": "becomes",
               "pos": "v.",
               "definition": "v. 变得；变成；成为（become 的第三人称单数现在时）"
-            },
-            {
-              "word": "string",
-              "pos": "",
-              "definition": "n.一连串,一系列"
             },
             {
               "word": "chunks",
@@ -248,19 +268,29 @@
           "chunk_translation": "学生也能从中受益 / 通过学习一些知识 / 关于编程的知识 / 在进入大学之前， / 无论 / 他们将来主修什么专业。",
           "vocabulary": [
             {
+              "word": "coding",
+              "pos": "",
+              "definition": "n.编码,编程"
+            },
+            {
               "word": "introductory",
               "pos": "",
               "definition": "a.入门的,初步的"
             },
             {
-              "word": "experienced",
-              "pos": "adj.",
-              "definition": "adj. 熟练的；有经验的；v. 经历"
+              "word": "brim",
+              "pos": "",
+              "definition": "n.口,边沿"
             },
             {
               "word": "determined",
               "pos": "",
               "definition": "a.有决心的,意志坚定的"
+            },
+            {
+              "word": "experienced",
+              "pos": "adj.",
+              "definition": "adj. 熟练的；有经验的；v. 经历"
             },
             {
               "word": "Students",
@@ -293,11 +323,6 @@
               "definition": "n. 科学；科学知识"
             },
             {
-              "word": "coding",
-              "pos": "",
-              "definition": "n.编码,编程"
-            },
-            {
               "word": "packed",
               "pos": "adj.",
               "definition": "adj. 挤满人的；非常拥挤的；充满的"
@@ -306,11 +331,6 @@
               "word": "drive",
               "pos": "v.",
               "definition": "v. 驾车送（人）；迫使；驱使"
-            },
-            {
-              "word": "brim",
-              "pos": "",
-              "definition": "n.口,边沿"
             }
           ]
         },
@@ -322,9 +342,29 @@
           "chunk_translation": "熨斗学院， / 人们在此付费 / 来学习编程， / 已经开始 / 为高中生开设编程课程。 / 高中生们接受完全相同的课程体系， / 但“老师们会根据进度进行相应调整 / 适应学生的学习节奏，” / 维多利亚·弗里德曼说道。 / 例如， / 学生们正在开发的一款应用程序 / 就是一个帮助学生记忆物品和事项的工具。",
           "vocabulary": [
             {
-              "word": "programming",
-              "pos": "n.",
-              "definition": "n. 编程；程序设计"
+              "word": "interest",
+              "pos": "",
+              "definition": "【🎯解题正解】 兴趣"
+            },
+            {
+              "word": "experience",
+              "pos": "",
+              "definition": "【💡题项表达】 经验"
+            },
+            {
+              "word": "career prospects",
+              "pos": "",
+              "definition": "【💡题项表达】 职业前景"
+            },
+            {
+              "word": "academic backgrounds",
+              "pos": "",
+              "definition": "【💡题项表达】 学术背景"
+            },
+            {
+              "word": "coding",
+              "pos": "",
+              "definition": "n.编码,编程"
             },
             {
               "word": "curriculum",
@@ -332,9 +372,19 @@
               "definition": "n.课程"
             },
             {
+              "word": "gear",
+              "pos": "",
+              "definition": "v.使与..相适应;使适合于"
+            },
+            {
               "word": "instructor",
               "pos": "",
               "definition": "n.讲师"
+            },
+            {
+              "word": "programming",
+              "pos": "n.",
+              "definition": "n. 编程；程序设计"
             },
             {
               "word": "interested",
@@ -402,11 +452,6 @@
               "definition": "n. 课程；课；经验教训"
             },
             {
-              "word": "coding",
-              "pos": "",
-              "definition": "n.编码,编程"
-            },
-            {
               "word": "adults",
               "pos": "n.",
               "definition": "n. 成年人（adult 的复数形式）；（生物学）成年动物（adult 的复数形式；如成虫、成体）"
@@ -425,11 +470,6 @@
               "word": "based",
               "pos": "adj.",
               "definition": "adj. （以某事）为基础的；为根据的；在……居住（或工作）的"
-            },
-            {
-              "word": "gear",
-              "pos": "",
-              "definition": "v.使与..相适应;使适合于"
             }
           ]
         },
@@ -441,19 +481,39 @@
           "chunk_translation": "参加熨斗学院课程的学生们或许将来不会成为职业程序员。 / 编程语言更新换代极其迅速， / 因此这些工具 / 他们今天所学到的工具，到他们毕业时很可能就已经被淘汰了。 / 但他们所掌握的技能—— / 如何通过逻辑思维剖析问题 / 以及 / 解决问题 / 以创造性的方式解决问题——将始终发挥重要作用。",
           "vocabulary": [
             {
+              "word": "help students learn other computer languages",
+              "pos": "",
+              "definition": "【🎯解题正解】 帮助学生学习其他计算机语言"
+            },
+            {
+              "word": "coding",
+              "pos": "",
+              "definition": "n.编码,编程"
+            },
+            {
               "word": "drop out of",
               "pos": "",
               "definition": "退学,辍学"
             },
             {
-              "word": "Programming",
-              "pos": "n.",
-              "definition": "n. 编程；程序设计；程序编制"
+              "word": "turnover",
+              "pos": "",
+              "definition": "n.倾覆、翻转"
+            },
+            {
+              "word": "relevant",
+              "pos": "",
+              "definition": "a.紧密相关的;切题的"
             },
             {
               "word": "consultant",
               "pos": "",
               "definition": "n.顾问"
+            },
+            {
+              "word": "Programming",
+              "pos": "n.",
+              "definition": "n. 编程；程序设计；程序编制"
             },
             {
               "word": "languages",
@@ -469,16 +529,6 @@
               "word": "education",
               "pos": "n.",
               "definition": "n. （尤指学校）教育；培养；训练"
-            },
-            {
-              "word": "turnover",
-              "pos": "",
-              "definition": "n.倾覆、翻转"
-            },
-            {
-              "word": "relevant",
-              "pos": "",
-              "definition": "a.紧密相关的;切题的"
             },
             {
               "word": "students",
@@ -531,11 +581,6 @@
               "definition": "塞山（塞山；蔷薇科植物；多年生小乔"
             },
             {
-              "word": "coding",
-              "pos": "",
-              "definition": "n.编码,编程"
-            },
-            {
               "word": "market",
               "pos": "n.",
               "definition": "n. 集市；市场；交易"
@@ -574,6 +619,41 @@
           "slashed_text": "Indeed , / the Flatiron students might not go into IT at all. / But creating a future army of coders is not the sole purpose of the classes. / These kids are going to be surrounded / by computers — / in their pockets , / in their offices , / in their homes — / for the rest of their lives. / The younger they learn how computers think , / how to coax the machine / into producing what they want — / the earlier they learn / that they have the power to do / that — / the better.",
           "chunk_translation": "事实上， / 熨斗学院的学生们将来甚至可能根本不会涉足信息技术行业。 / 但打造一支未来的程序员大军并不是该项目的唯一目标。 / 这些孩子们将被电脑所环绕包围 / 由计算机设备， / 在其余生中 / 在他们的整个人生中， / 并且 / 了解计算机如何运作将变得至关重要。 / 他们越早学会计算机如何思考， / 如何用计算机的语言进行交流， / 就越能 / 他们就越能够 / 从容驾驭 / 一个世界 / 由算法所主导的世界。",
           "vocabulary": [
+            {
+              "word": "become better prepared for the digitalized world",
+              "pos": "",
+              "definition": "【🎯解题正解】 为数字化世界做好更好的准备"
+            },
+            {
+              "word": "persuade",
+              "pos": "",
+              "definition": "【🎯解题正解】 说服"
+            },
+            {
+              "word": "frighten",
+              "pos": "",
+              "definition": "【💡题项表达】 吓唬"
+            },
+            {
+              "word": "misguide",
+              "pos": "",
+              "definition": "【💡题项表达】 误导"
+            },
+            {
+              "word": "challenge",
+              "pos": "",
+              "definition": "【💡题项表达】 挑战"
+            },
+            {
+              "word": "sole",
+              "pos": "",
+              "definition": "a.唯一的,仅有的"
+            },
+            {
+              "word": "coax",
+              "pos": "",
+              "definition": "v.劝诱,哄劝"
+            },
             {
               "word": "surrounded",
               "pos": "adj.",
@@ -630,11 +710,6 @@
               "definition": "adv. 确实；的确"
             },
             {
-              "word": "future",
-              "pos": "n.",
-              "definition": "n. 未来；将来"
-            },
-            {
               "word": "coders",
               "pos": "n.",
               "definition": "n. 程序员；编码员"
@@ -648,16 +723,6 @@
               "word": "power",
               "pos": "n.",
               "definition": "n. 控制力；操控力；政权"
-            },
-            {
-              "word": "sole",
-              "pos": "",
-              "definition": "a.唯一的,仅有的"
-            },
-            {
-              "word": "coax",
-              "pos": "",
-              "definition": "v.劝诱,哄劝"
             },
             {
               "word": "army",
@@ -1458,14 +1523,29 @@
           "chunk_translation": "生物学家估计， / 多达200万只小草原榛鸡—— / 一种生活在 / 辽阔草原上的鸟类—— / 曾为美国中西部和西南部通常单调的灰色原野增添了一抹红色。 / 但如今仅存约22, / 000只小草原榛鸡， / 仅占据着其历史栖息范围的一小部分。",
           "vocabulary": [
             {
-              "word": "southwestern",
-              "pos": "adj.",
-              "definition": "adj. 西南部的；向西南的；（多用于风、气流等）来自西南的"
+              "word": "estimate",
+              "pos": "",
+              "definition": "v.估计,估算"
+            },
+            {
+              "word": "prairie",
+              "pos": "",
+              "definition": "n.(北美洲)大草原"
+            },
+            {
+              "word": "range",
+              "pos": "",
+              "definition": "n.生长区,分布区"
             },
             {
               "word": "as many as",
               "pos": "",
               "definition": "多达"
+            },
+            {
+              "word": "southwestern",
+              "pos": "adj.",
+              "definition": "adj. 西南部的；向西南的；（多用于风、气流等）来自西南的"
             },
             {
               "word": "Biologists",
@@ -1498,11 +1578,6 @@
               "definition": "v. 占用；占领；占据（occupy 的现在分词和动名词）"
             },
             {
-              "word": "estimate",
-              "pos": "",
-              "definition": "v.估计,估算"
-            },
-            {
               "word": "chickens",
               "pos": "n.",
               "definition": "n. 鸡；小鸡（chicken 的复数）"
@@ -1511,11 +1586,6 @@
               "word": "historic",
               "pos": "adj.",
               "definition": "adj. 历史上重要的；过去的；与历史（或过去）有关的"
-            },
-            {
-              "word": "prairie",
-              "pos": "",
-              "definition": "n.(北美洲)大草原"
             },
             {
               "word": "species",
@@ -1536,11 +1606,6 @@
               "word": "United",
               "pos": "adj.",
               "definition": "adj. 团结的；统一的；共同的"
-            },
-            {
-              "word": "range",
-              "pos": "",
-              "definition": "n.生长区,分布区"
             },
             {
               "word": "birds",
@@ -1567,14 +1632,74 @@
           "chunk_translation": "种群数量的暴跌是美国相关部门做出决定的主要原因。 / 美国鱼类及野生动物管理局决定正式将该鸟类列为受威胁物种。 / “小草原榛鸡正处于极其危急的境地，” / 美国鱼类及野生动物管理局局长丹·阿什说道。 / 一些环保人士， / 然而， / 却对这一决定感到失望。 / 他们此前一直敦促该机构 / 将这种鸟类定为濒危物种， / 这一级别地位 / 能提供更强有力的法律保护。 / 但阿什等人坚称， / “受威胁”这一标签能给予联邦官员 / 更大的灵活性。 / 特别是， / 他们呼吁 / 建立更加紧密的协作关系 / 与当地社区和企业合作， / 以保护 / 该鸟类的栖息地， / 而在同时不破坏 / 当地的地方经济。",
           "vocabulary": [
             {
-              "word": "environmentalists",
-              "pos": "n.",
-              "definition": "n. 环保人士；环保主义者（environmentalist 的复数形式）"
+              "word": "its drastically decreased population",
+              "pos": "",
+              "definition": "【🎯解题正解】 其人口急剧减少"
             },
             {
-              "word": "regulatory power",
+              "word": "a desperate appeal from some biologists",
               "pos": "",
-              "definition": "监管权力"
+              "definition": "【💡题项表达】 一些生物学家的绝望呼吁"
+            },
+            {
+              "word": "the insistence of private landowners",
+              "pos": "",
+              "definition": "【💡题项表达】 私人土地所有者的坚持"
+            },
+            {
+              "word": "granted less federal regulatory power",
+              "pos": "",
+              "definition": "【🎯解题正解】 授予较少的联邦监管权力"
+            },
+            {
+              "word": "was a give-in to governmental pressure",
+              "pos": "",
+              "definition": "【💡题项表达】 是对政府压力的让步"
+            },
+            {
+              "word": "would involve fewer agencies in action",
+              "pos": "",
+              "definition": "【💡题项表达】 将涉及更少的机构采取行动"
+            },
+            {
+              "word": "went against conservation policies",
+              "pos": "",
+              "definition": "【💡题项表达】 违反了保护政策"
+            },
+            {
+              "word": "prairie",
+              "pos": "",
+              "definition": "n.(北美洲)大草原"
+            },
+            {
+              "word": "crash",
+              "pos": "",
+              "definition": "n.暴跌,猛跌"
+            },
+            {
+              "word": "desperate",
+              "pos": "",
+              "definition": "a.危急的,严峻的"
+            },
+            {
+              "word": "designate",
+              "pos": "",
+              "definition": "v.指定,认定(~sth as sth)"
+            },
+            {
+              "word": "endangered",
+              "pos": "",
+              "definition": "a.濒临灭绝的"
+            },
+            {
+              "word": "tag",
+              "pos": "",
+              "definition": "n.标签,标志"
+            },
+            {
+              "word": "flexibility",
+              "pos": "",
+              "definition": "n.灵活性"
             },
             {
               "word": "confrontational",
@@ -1582,9 +1707,24 @@
               "definition": "a.对抗性的,挑起冲突的"
             },
             {
-              "word": "collaborations",
-              "pos": "n.",
-              "definition": "n. 协作；合作（collaboration 的复数）；合作成果（collaboration 的复数）"
+              "word": "conservation",
+              "pos": "",
+              "definition": "n.保护"
+            },
+            {
+              "word": "uneasy",
+              "pos": "",
+              "definition": "a.不和谐的,不协调的,矛盾的"
+            },
+            {
+              "word": "habitat",
+              "pos": "",
+              "definition": "n.(动植物的)生活环境,栖息地"
+            },
+            {
+              "word": "regulatory power",
+              "pos": "",
+              "definition": "监管权力"
             },
             {
               "word": "crack down on",
@@ -1592,19 +1732,24 @@
               "definition": "严厉打击,镇压"
             },
             {
-              "word": "conservation",
+              "word": "try out",
               "pos": "",
-              "definition": "n.保护"
+              "definition": "试,试验"
+            },
+            {
+              "word": "environmentalists",
+              "pos": "n.",
+              "definition": "n. 环保人士；环保主义者（environmentalist 的复数形式）"
+            },
+            {
+              "word": "collaborations",
+              "pos": "n.",
+              "definition": "n. 协作；合作（collaboration 的复数）；合作成果（collaboration 的复数）"
             },
             {
               "word": "disappointed",
               "pos": "adj.",
               "definition": "adj. 失望的；沮丧的；（希望、期待）破灭的"
-            },
-            {
-              "word": "flexibility",
-              "pos": "",
-              "definition": "n.灵活性"
             },
             {
               "word": "potentially",
@@ -1615,11 +1760,6 @@
               "word": "governments",
               "pos": "n.",
               "definition": "n. 政府（government 的复数）；政权；可转让政府证券"
-            },
-            {
-              "word": "endangered",
-              "pos": "",
-              "definition": "a.濒临灭绝的"
             },
             {
               "word": "threatened",
@@ -1652,16 +1792,6 @@
               "definition": "n. 土地所有者（尤指拥有大量土地的人）；地主（landowner 的复数形式）"
             },
             {
-              "word": "desperate",
-              "pos": "",
-              "definition": "a.危急的,严峻的"
-            },
-            {
-              "word": "designate",
-              "pos": "",
-              "definition": "v.指定,认定(~sth as sth)"
-            },
-            {
               "word": "situation",
               "pos": "n.",
               "definition": "n. 情况；形势；重要问题"
@@ -1690,21 +1820,6 @@
               "word": "Director",
               "pos": "n.",
               "definition": "n. 导演；管理者；负责人"
-            },
-            {
-              "word": "prairie",
-              "pos": "",
-              "definition": "n.(北美洲)大草原"
-            },
-            {
-              "word": "habitat",
-              "pos": "",
-              "definition": "n.(动植物的)生活环境,栖息地"
-            },
-            {
-              "word": "try out",
-              "pos": "",
-              "definition": "试,试验"
             },
             {
               "word": "Service",
@@ -1762,11 +1877,6 @@
               "definition": "n. （对国家、地区、机构等的）控制权；支配权；控制能力"
             },
             {
-              "word": "uneasy",
-              "pos": "",
-              "definition": "a.不和谐的,不协调的,矛盾的"
-            },
-            {
               "word": "reason",
               "pos": "n.",
               "definition": "n. 原因；理由"
@@ -1812,11 +1922,6 @@
               "definition": "n. 行动；行为；战斗"
             },
             {
-              "word": "crash",
-              "pos": "",
-              "definition": "n.暴跌,猛跌"
-            },
-            {
               "word": "major",
               "pos": "adj.",
               "definition": "adj. 重大的；主要的"
@@ -1840,11 +1945,6 @@
               "word": "Fish",
               "pos": "n.",
               "definition": "n. 鱼；鱼肉"
-            },
-            {
-              "word": "tag",
-              "pos": "",
-              "definition": "n.标签,标志"
             }
           ]
         },
@@ -1856,9 +1956,84 @@
           "chunk_translation": "根据该保护计划， / 例如， / 该机构表示 / 它将不会惩罚石油和天然气企业 / 那些无意中伤害了 / 草原榛鸡的企业， / 只要它们参与了经批准的保护规划。 / 经由该机构与各州共同协商制定， / 该计划要求行业参与各方缴纳资金 / 汇入一项专门的保护基金。 / 该项基金还将用于 / 补偿那些划出土地用于生态保护的土地所有者。 / 该管理局还设立了一项中期目标， / 在未来10年内将草原榛鸡的数量恢复到平均67,000只的水平。 / 并且该计划赋予了西部鱼类和野生动物机构协会 / 相应的权力 / 来统一协调和管理这项生态保护工作。 / 总的来说， / 其核心思路是让“各州在生态保护中 / 保持主导地位 / 处于保护工作的驾驶座掌控全局”。",
           "vocabulary": [
             {
+              "word": "agree to pay a sum for compensation",
+              "pos": "",
+              "definition": "【🎯解题正解】 同意支付一笔赔偿金"
+            },
+            {
+              "word": "the states",
+              "pos": "",
+              "definition": "【🎯解题正解】 各州"
+            },
+            {
+              "word": "the federal government",
+              "pos": "",
+              "definition": "【💡题项表达】 联邦政府"
+            },
+            {
+              "word": "the wildlife agencies",
+              "pos": "",
+              "definition": "【💡题项表达】 野生动物保护机构"
+            },
+            {
+              "word": "the landowners",
+              "pos": "",
+              "definition": "【💡题项表达】 地主们"
+            },
+            {
+              "word": "prairie",
+              "pos": "",
+              "definition": "n.(北美洲)大草原"
+            },
+            {
+              "word": "range",
+              "pos": "",
+              "definition": "n.生长区,分布区"
+            },
+            {
+              "word": "habitat",
+              "pos": "",
+              "definition": "n.(动植物的)生活环境,栖息地"
+            },
+            {
+              "word": "prosecute",
+              "pos": "",
+              "definition": "v.起诉,控告,检举"
+            },
+            {
               "word": "unintentionally",
               "pos": "",
               "definition": "ad.非故意地"
+            },
+            {
+              "word": "restore",
+              "pos": "",
+              "definition": "v.恢复,复原"
+            },
+            {
+              "word": "acre",
+              "pos": "",
+              "definition": "n.英亩"
+            },
+            {
+              "word": "compensate",
+              "pos": "",
+              "definition": "v.弥补,补偿"
+            },
+            {
+              "word": "interim",
+              "pos": "",
+              "definition": "a.临时的,暂时的,过渡期间的"
+            },
+            {
+              "word": "coalition",
+              "pos": "",
+              "definition": "n.联盟,联合体"
+            },
+            {
+              "word": "set aside",
+              "pos": "",
+              "definition": "留出,省出"
             },
             {
               "word": "individuals",
@@ -1874,11 +2049,6 @@
               "word": "Association",
               "pos": "n.",
               "definition": "n. 协会；社团；联盟"
-            },
-            {
-              "word": "compensate",
-              "pos": "",
-              "definition": "v.弥补,补偿"
             },
             {
               "word": "landowners",
@@ -1909,21 +2079,6 @@
               "word": "monitoring",
               "pos": "n.",
               "definition": "n. 监视、监测、监控（对过程、活动、数据、环境或设备状态等的持续观察与记录）；v. monitor 的现在分词：监视、监测、监控；监听（外国广播或电话）"
-            },
-            {
-              "word": "prosecute",
-              "pos": "",
-              "definition": "v.起诉,控告,检举"
-            },
-            {
-              "word": "coalition",
-              "pos": "",
-              "definition": "n.联盟,联合体"
-            },
-            {
-              "word": "set aside",
-              "pos": "",
-              "definition": "留出,省出"
             },
             {
               "word": "destroyed",
@@ -1964,26 +2119,6 @@
               "word": "managing",
               "pos": "adj.",
               "definition": "adj. 主管的；节省的；v. 管理"
-            },
-            {
-              "word": "prairie",
-              "pos": "",
-              "definition": "n.(北美洲)大草原"
-            },
-            {
-              "word": "habitat",
-              "pos": "",
-              "definition": "n.(动植物的)生活环境,栖息地"
-            },
-            {
-              "word": "restore",
-              "pos": "",
-              "definition": "v.恢复,复原"
-            },
-            {
-              "word": "interim",
-              "pos": "",
-              "definition": "a.临时的,暂时的,过渡期间的"
             },
             {
               "word": "example",
@@ -2051,11 +2186,6 @@
               "definition": "n. 司机；驾驶员；驱动程序"
             },
             {
-              "word": "range",
-              "pos": "",
-              "definition": "n.生长区,分布区"
-            },
-            {
               "word": "USFWS",
               "pos": "abbr.",
               "definition": "abbr. 美国鱼类及野生动植物管理局（United States Fish and Wildlife Service）"
@@ -2081,11 +2211,6 @@
               "definition": "adj. 任性的；不规则的；刚愎的"
             },
             {
-              "word": "acre",
-              "pos": "",
-              "definition": "n.英亩"
-            },
-            {
               "word": "Fish",
               "pos": "n.",
               "definition": "n. 鱼；鱼肉"
@@ -2105,14 +2230,49 @@
           "chunk_translation": "并非人人都买账这种所谓的‘双赢’说辞。 / 一些国会议员正试图阻挠这一计划， / 他们辩称 / 该计划仍然会造成就业岗位的损失， / 并且 / 损害 / 能源生产产业。 / 不足为奇的是， / 各行业团体和各州普遍更倾向于 / 联邦政府所采取的这种灵活适度的处理方式。 / “联邦政府正将保护的重任 / 生态保护的责任， / 交予那些人手中 / 那些最熟悉这片土地的人，”一位行业发言人说道。",
           "vocabulary": [
             {
-              "word": "environmentalists",
-              "pos": "n.",
-              "definition": "n. 环保人士；环保主义者（environmentalist 的复数形式）"
+              "word": "environmental groups",
+              "pos": "",
+              "definition": "【🎯解题正解】 环保团体"
+            },
+            {
+              "word": "industry groups",
+              "pos": "",
+              "definition": "【💡题项表达】 行业团体"
+            },
+            {
+              "word": "the win-win rhetoric",
+              "pos": "",
+              "definition": "【💡题项表达】 双赢的言论"
+            },
+            {
+              "word": "the plan under challenge",
+              "pos": "",
+              "definition": "【💡题项表达】 受到挑战的计划"
+            },
+            {
+              "word": "rhetoric",
+              "pos": "",
+              "definition": "n.华而不实的言语,花言巧语"
+            },
+            {
+              "word": "block",
+              "pos": "",
+              "definition": "v.阻止,妨碍,阻挠"
+            },
+            {
+              "word": "extinction",
+              "pos": "",
+              "definition": "n.灭绝,绝种"
             },
             {
               "word": "win-win rhetoric",
               "pos": "",
               "definition": "双赢说辞"
+            },
+            {
+              "word": "environmentalists",
+              "pos": "n.",
+              "definition": "n. 环保人士；环保主义者（environmentalist 的复数形式）"
             },
             {
               "word": "responsibility",
@@ -2135,11 +2295,6 @@
               "definition": "adj. 富于挑战性的；困难而有趣的；挑衅的"
             },
             {
-              "word": "extinction",
-              "pos": "",
-              "definition": "n.灭绝,绝种"
-            },
-            {
               "word": "government",
               "pos": "n.",
               "definition": "n. 政府；内阁；政体"
@@ -2158,11 +2313,6 @@
               "word": "biologist",
               "pos": "n.",
               "definition": "n. 生物学家"
-            },
-            {
-              "word": "rhetoric",
-              "pos": "",
-              "definition": "n.华而不实的言语,花言巧语"
             },
             {
               "word": "Congress",
@@ -2203,11 +2353,6 @@
               "word": "trying",
               "pos": "adj.",
               "definition": "adj. 令人厌烦的，难对付的；v. 试图，努力；试用，试做，试验；品尝（try 的现在分词形式）"
-            },
-            {
-              "word": "block",
-              "pos": "",
-              "definition": "v.阻止,妨碍,阻挠"
             },
             {
               "word": "dozen",
@@ -3060,9 +3205,39 @@
           "chunk_translation": "让这个问题变得更加棘手的是， / 通常的补救办法反而会让情况更加恶化。 / 网络上充斥着 / 提供各种建议的文章， / 关于如何挤出时间 / 用来阅读。 / 坐下来准备阅读， / 脑海中那些与工作相关的思绪飞轮 / 却依然在高速运转个不停。 / 现代人的心智， / 蒂姆·帕克斯， / 一位小说家兼评论家， / 写道， / “具有极其强烈的交流沟通倾向……这不仅仅在于 / 一个人会被打断； / 而在于 / 一个人实际上主动倾向于被打断。”深度阅读需要的不仅仅是时间， / 而是一种特别的时间， / 这种时间是无法仅仅通过 / 变得更加高效而获取的。",
           "vocabulary": [
             {
+              "word": "what deep reading requires cannot be guaranteed",
+              "pos": "",
+              "definition": "【🎯解题正解】 深度阅读所需要的内容无法得到保证"
+            },
+            {
+              "word": "odd",
+              "pos": "",
+              "definition": "a.少量的,微小的;零散的"
+            },
+            {
+              "word": "flywheel",
+              "pos": "",
+              "definition": "n.飞轮,惯性轮"
+            },
+            {
+              "word": "exhausted",
+              "pos": "",
+              "definition": "a.精疲力竭的"
+            },
+            {
               "word": "overwhelmingly",
               "pos": "",
               "definition": "ad.势不可挡地"
+            },
+            {
+              "word": "merely",
+              "pos": "",
+              "definition": "ad.仅仅"
+            },
+            {
+              "word": "free up",
+              "pos": "",
+              "definition": "腾出:使...可用"
             },
             {
               "word": "communication",
@@ -3105,19 +3280,9 @@
               "definition": "n. 经历；往事；经验"
             },
             {
-              "word": "exhausted",
-              "pos": "",
-              "definition": "a.精疲力竭的"
-            },
-            {
               "word": "efficient",
               "pos": "adj.",
               "definition": "adj. 生效的；效率高的；（人）有能力的"
-            },
-            {
-              "word": "flywheel",
-              "pos": "",
-              "definition": "n.飞轮,惯性轮"
             },
             {
               "word": "thornier",
@@ -3175,11 +3340,6 @@
               "definition": "adj. （衣服、颜色、发型等）好看的；相配的；合适的"
             },
             {
-              "word": "free up",
-              "pos": "",
-              "definition": "腾出:使...可用"
-            },
-            {
               "word": "methods",
               "pos": "n.",
               "definition": "n. 方法；方式；研究方法（method 的复数）"
@@ -3203,11 +3363,6 @@
               "word": "special",
               "pos": "adj.",
               "definition": "adj. 特殊的；特别的；格外看重的"
-            },
-            {
-              "word": "merely",
-              "pos": "",
-              "definition": "ad.仅仅"
             },
             {
               "word": "modern",
@@ -3238,11 +3393,6 @@
               "word": "Parks",
               "pos": "n.",
               "definition": "n. 公园（park 的复数）；帕克斯（姓氏 Parks 的中文音译；通常大写）"
-            },
-            {
-              "word": "odd",
-              "pos": "",
-              "definition": "a.少量的,微小的;零散的"
             }
           ]
         },
@@ -3254,14 +3404,69 @@
           "chunk_translation": "事实上， / “追求变得更加高效”本身就是问题的一部分。 / 将时间视为一种必须实现最大化利用的资源，意味着 / 把阅读看作另一项需要被攻克的任务。 / 沉浸式阅读， / 相比之下， / 取决于 / 是否愿意 / 去冒着风险 / 去“虚度”时光。 / 试着把它作为待办事项清单中的一项插进去， / 你就会发现自己只是在走马观花地扫读 / 为了抓取核心要点 / 而不是在真正地用心阅读。 / “未来如同空瓶子般向我们接踵而至 / 沿着一条无法停歇的传送带滚滚而来，” / 一位哲学家写道。 / “我们感到 / 一种强迫性的冲动 / 要去填满 / 每一个瓶子， / 在它 / 它 / 呼啸而过之前。”",
           "vocabulary": [
             {
+              "word": "make passing time fulfilling",
+              "pos": "",
+              "definition": "【🎯解题正解】 让度过的时间变得充实"
+            },
+            {
+              "word": "update their to-do lists",
+              "pos": "",
+              "definition": "【💡题项表达】 更新他们的待办事项列表"
+            },
+            {
+              "word": "carry their plans through",
+              "pos": "",
+              "definition": "【💡题项表达】 执行他们的计划"
+            },
+            {
+              "word": "pursue carefree reading",
+              "pos": "",
+              "definition": "【💡题项表达】 追求无忧无虑的阅读"
+            },
+            {
+              "word": "approach",
+              "pos": "",
+              "definition": "v.对待,处理"
+            },
+            {
               "word": "instrumentally",
               "pos": "",
               "definition": "ad.起作用地,有帮助地"
             },
             {
+              "word": "immersive",
+              "pos": "",
+              "definition": "a.沉浸式的"
+            },
+            {
+              "word": "fulfilling",
+              "pos": "",
+              "definition": "a.让人感到满足的"
+            },
+            {
+              "word": "infinite",
+              "pos": "",
+              "definition": "a.无限的;极多的"
+            },
+            {
               "word": "conveyor belt",
               "pos": "",
               "definition": "传送带"
+            },
+            {
+              "word": "mind-set",
+              "pos": "",
+              "definition": "思想倾向"
+            },
+            {
+              "word": "by contrast",
+              "pos": "",
+              "definition": "相比之下"
+            },
+            {
+              "word": "to-do list",
+              "pos": "",
+              "definition": "任务清单"
             },
             {
               "word": "inefficiency",
@@ -3274,29 +3479,9 @@
               "definition": "n. 无目标"
             },
             {
-              "word": "by contrast",
-              "pos": "",
-              "definition": "相比之下"
-            },
-            {
               "word": "unstoppable",
               "pos": "adj.",
               "definition": "adj. 无法阻挡的；无法停止的；势不可当的"
-            },
-            {
-              "word": "fulfilling",
-              "pos": "",
-              "definition": "a.让人感到满足的"
-            },
-            {
-              "word": "to-do list",
-              "pos": "",
-              "definition": "任务清单"
-            },
-            {
-              "word": "immersive",
-              "pos": "",
-              "definition": "a.沉浸式的"
             },
             {
               "word": "efficient",
@@ -3312,21 +3497,6 @@
               "word": "sometimes",
               "pos": "adv.",
               "definition": "adv. 有时；间或"
-            },
-            {
-              "word": "approach",
-              "pos": "",
-              "definition": "v.对待,处理"
-            },
-            {
-              "word": "infinite",
-              "pos": "",
-              "definition": "a.无限的;极多的"
-            },
-            {
-              "word": "mind-set",
-              "pos": "",
-              "definition": "思想倾向"
             },
             {
               "word": "becoming",
@@ -3424,11 +3594,6 @@
               "definition": "adj. 有用的；有益的；好的"
             },
             {
-              "word": "future",
-              "pos": "n.",
-              "definition": "n. 未来；将来；前途"
-            },
-            {
               "word": "nearly",
               "pos": "adv.",
               "definition": "adv. 几乎；差不多；密切地"
@@ -3503,6 +3668,106 @@
           "chunk_translation": "那么究竟什么方法才真正奏效呢？ / 或许令人意外的是， / 安排固定的时间表 / 用来阅读并不是解决问题的答案。 / 你可能会认为这会助长这种追求效率的心态， / 但事实上它起到的却是相反的积极效果。 / 它开辟出了一处专属的空间， / 在那里 / 你 / 可以 / 走下 / 那台永不停歇的奔波跑步机。 / “随身携带一本书 / 在任何时候都带在身边” / 实际上确实行之有效， / 只要 / 你不用这种做法 / 来作为 / 一种提高效率的 / 投机技巧。 / 在一个真正状态极佳的日子里， / 你不再会觉得 / 好像是在刻意挤出时间 / 用来阅读。 / 阅读本身就是 / 你所自然而然沉浸在做的事情。",
           "vocabulary": [
             {
+              "word": "achieve immersive reading",
+              "pos": "",
+              "definition": "【🎯解题正解】 实现沉浸式阅读"
+            },
+            {
+              "word": "encourage the efficiency mind-set",
+              "pos": "",
+              "definition": "【💡题项表达】 鼓励效率思维"
+            },
+            {
+              "word": "develop online reading habits",
+              "pos": "",
+              "definition": "【💡题项表达】 养成网上阅读习惯"
+            },
+            {
+              "word": "promote ritualistic reading",
+              "pos": "",
+              "definition": "【💡题项表达】 提倡仪式化阅读"
+            },
+            {
+              "word": "reading becomes your primary business of the day",
+              "pos": "",
+              "definition": "【🎯解题正解】 阅读成为你一天的首要任务"
+            },
+            {
+              "word": "How to Find Time to Read",
+              "pos": "",
+              "definition": "【🎯解题正解】 如何找到时间阅读"
+            },
+            {
+              "word": "How to Enjoy Easy Reading",
+              "pos": "",
+              "definition": "【💡题项表达】 如何享受轻松阅读"
+            },
+            {
+              "word": "How to Set Reading Goals",
+              "pos": "",
+              "definition": "【💡题项表达】 如何设定阅读目标"
+            },
+            {
+              "word": "How to Read Extensively",
+              "pos": "",
+              "definition": "【💡题项表达】 How to Read Extensively"
+            },
+            {
+              "word": "mind-set",
+              "pos": "",
+              "definition": "思想倾向"
+            },
+            {
+              "word": "regular",
+              "pos": "",
+              "definition": "a.定期的;固定的"
+            },
+            {
+              "word": "fuel",
+              "pos": "",
+              "definition": "v.刺激;使加剧"
+            },
+            {
+              "word": "ritualistic",
+              "pos": "",
+              "definition": "a.仪式的;例行的"
+            },
+            {
+              "word": "soul",
+              "pos": "",
+              "definition": "n.灵魂"
+            },
+            {
+              "word": "providing",
+              "pos": "",
+              "definition": "conj.以...为条件;如果"
+            },
+            {
+              "word": "dip",
+              "pos": "",
+              "definition": "v.浸,蘸"
+            },
+            {
+              "word": "default",
+              "pos": "",
+              "definition": "a.默认的"
+            },
+            {
+              "word": "temporarily",
+              "pos": "",
+              "definition": "ad.暂时地,临时地"
+            },
+            {
+              "word": "surface",
+              "pos": "",
+              "definition": "v.浮出水面:现身"
+            },
+            {
+              "word": "no longer",
+              "pos": "",
+              "definition": "不再"
+            },
+            {
               "word": "surprisingly",
               "pos": "adv.",
               "definition": "adv. 惊人地；出人意料地"
@@ -3511,16 +3776,6 @@
               "word": "distractions",
               "pos": "n.",
               "definition": "n. 分心；注意力分散；使人分心的事物"
-            },
-            {
-              "word": "ritualistic",
-              "pos": "",
-              "definition": "a.仪式的;例行的"
-            },
-            {
-              "word": "temporarily",
-              "pos": "",
-              "definition": "ad.暂时地,临时地"
             },
             {
               "word": "scheduling",
@@ -3533,24 +3788,9 @@
               "definition": "n. 效率；效能；（机器的）功率"
             },
             {
-              "word": "providing",
-              "pos": "",
-              "definition": "conj.以...为条件;如果"
-            },
-            {
-              "word": "no longer",
-              "pos": "",
-              "definition": "不再"
-            },
-            {
               "word": "behaviour",
               "pos": "n.",
               "definition": "n. 行为；举止；态度"
-            },
-            {
-              "word": "mind-set",
-              "pos": "",
-              "definition": "思想倾向"
             },
             {
               "word": "physical",
@@ -3571,21 +3811,6 @@
               "word": "dropping",
               "pos": "n.",
               "definition": "n. 掉落；空投；滴落物"
-            },
-            {
-              "word": "regular",
-              "pos": "",
-              "definition": "a.定期的;固定的"
-            },
-            {
-              "word": "default",
-              "pos": "",
-              "definition": "a.默认的"
-            },
-            {
-              "word": "surface",
-              "pos": "",
-              "definition": "v.浮出水面:现身"
             },
             {
               "word": "Perhaps",
@@ -3641,21 +3866,6 @@
               "word": "feels",
               "pos": "v.",
               "definition": "v. feel 的第三人称单数：感到；感觉；体会"
-            },
-            {
-              "word": "fuel",
-              "pos": "",
-              "definition": "v.刺激;使加剧"
-            },
-            {
-              "word": "soul",
-              "pos": "",
-              "definition": "n.灵魂"
-            },
-            {
-              "word": "dip",
-              "pos": "",
-              "definition": "v.浸,蘸"
             }
           ]
         }
@@ -4419,6 +4629,16 @@
           "chunk_translation": "在经历剧烈变迁的时代背景下， / 在经济和人口结构方面， / 年轻一代美国人正在绘制一张通往成功的21世纪全新路线图， / 一项最新民调如此发现。",
           "vocabulary": [
             {
+              "word": "backdrop",
+              "pos": "",
+              "definition": "n.背景"
+            },
+            {
+              "word": "poll",
+              "pos": "",
+              "definition": "n.民意调查,民意测验"
+            },
+            {
               "word": "against a backdrop of",
               "pos": "",
               "definition": "在...背景下"
@@ -4439,11 +4659,6 @@
               "definition": "n. 结构；构造"
             },
             {
-              "word": "backdrop",
-              "pos": "",
-              "definition": "n.背景"
-            },
-            {
               "word": "drastic",
               "pos": "adj.",
               "definition": "adj. 极端的；激烈的"
@@ -4462,16 +4677,6 @@
               "word": "century",
               "pos": "n.",
               "definition": "n. 世纪；一百年"
-            },
-            {
-              "word": "success",
-              "pos": "n.",
-              "definition": "n. 成功；胜利；发财"
-            },
-            {
-              "word": "poll",
-              "pos": "",
-              "definition": "n.民意调查,民意测验"
             }
           ]
         },
@@ -4483,24 +4688,29 @@
           "chunk_translation": "跨越代际界限， / 美国人继续优先考虑成年阶段中许多相同的传统里程碑， / 在成年阶段， / 诸如 / 像 / 结婚成家 / 以及抚养子女。 / 但是 / 虽然年轻人和年长者在大体上一致赞同 / 关于什么构成了成功， / 他们却存在分歧 / 在实现这些目标的时间表上。",
           "vocabulary": [
             {
-              "word": "generational",
-              "pos": "adj.",
-              "definition": "adj. 一代的；代际的；（计算机）分代的"
-            },
-            {
-              "word": "finish line",
+              "word": "having a family with children",
               "pos": "",
-              "definition": "终点线"
+              "definition": "【🎯解题正解】 having a family with children"
             },
             {
-              "word": "traditional",
-              "pos": "adj.",
-              "definition": "adj. 传统的；根据传统而制造（或使用）的；因袭的，守旧的；（活动）惯例的，经常从事的；典型的；（爵士乐）具20世纪早期风格的"
+              "word": "trying out different lifestyles",
+              "pos": "",
+              "definition": "【💡题项表达】 尝试不同的生活方式"
             },
             {
-              "word": "constitutes",
-              "pos": "v.",
-              "definition": "v. 构成；组成（constitute 的第三人称单数形式）；等于"
+              "word": "working beyond retirement age",
+              "pos": "",
+              "definition": "【💡题项表达】 超过退休年龄工作"
+            },
+            {
+              "word": "setting up a profitable business",
+              "pos": "",
+              "definition": "【💡题项表达】 建立有利可图的业务"
+            },
+            {
+              "word": "prize",
+              "pos": "",
+              "definition": "v.珍视,高度重视"
             },
             {
               "word": "fulfilling",
@@ -4511,6 +4721,26 @@
               "word": "strikingly",
               "pos": "",
               "definition": "ad.惹人注目地:醒目地"
+            },
+            {
+              "word": "finish line",
+              "pos": "",
+              "definition": "终点线"
+            },
+            {
+              "word": "generational",
+              "pos": "adj.",
+              "definition": "adj. 一代的；代际的；（计算机）分代的"
+            },
+            {
+              "word": "traditional",
+              "pos": "adj.",
+              "definition": "adj. 传统的；根据传统而制造（或使用）的；因袭的，守旧的；（活动）惯例的，经常从事的；典型的；（爵士乐）具20世纪早期风格的"
+            },
+            {
+              "word": "constitutes",
+              "pos": "v.",
+              "definition": "v. 构成；组成（constitute 的第三人称单数形式）；等于"
             },
             {
               "word": "milestones",
@@ -4563,11 +4793,6 @@
               "definition": "v. 完成；做好；（使）结束"
             },
             {
-              "word": "prize",
-              "pos": "",
-              "definition": "v.珍视,高度重视"
-            },
-            {
               "word": "agree",
               "pos": "v.",
               "definition": "v. 同意；赞成；答应"
@@ -4587,9 +4812,44 @@
           "chunk_translation": "年轻一代 / 那些刚开始起步的人 / 在人生旅途上， / 认为 / 实现这些人生目标 / 将需要耗费 / 更长的时间， / 相比 / 他们的父母一代 / 过去所用的时间。 / 他们 / 预期 / 将达到这些人生里程碑 / 在他们三十多岁时。",
           "vocabulary": [
             {
+              "word": "attach importance to pre-marital finance",
+              "pos": "",
+              "definition": "【🎯解题正解】 重视婚前理财"
+            },
+            {
+              "word": "favor a slower life pace",
+              "pos": "",
+              "definition": "【💡题项表达】 喜欢放慢生活节奏"
+            },
+            {
+              "word": "hold an occupation longer",
+              "pos": "",
+              "definition": "【💡题项表达】 保持职业时间更长"
+            },
+            {
+              "word": "prioritize",
+              "pos": "",
+              "definition": "v.按优先顺序列出:确定(事项、问题等)优先顺序"
+            },
+            {
+              "word": "advance",
+              "pos": "",
+              "definition": "v.前进,推进"
+            },
+            {
+              "word": "maintain",
+              "pos": "",
+              "definition": "v.主张;坚持认为"
+            },
+            {
               "word": "personal fulfillment",
               "pos": "",
               "definition": "个人满足感"
+            },
+            {
+              "word": "pace of life",
+              "pos": "",
+              "definition": "生活节奏"
             },
             {
               "word": "financially secure",
@@ -4597,9 +4857,9 @@
               "definition": "有经济保障"
             },
             {
-              "word": "pace of life",
+              "word": "secure",
               "pos": "",
-              "definition": "生活节奏"
+              "definition": "v.(尤指经过努力)获得,取得"
             },
             {
               "word": "fulfillment",
@@ -4617,19 +4877,9 @@
               "definition": "adv. 财政上；金融上"
             },
             {
-              "word": "prioritize",
-              "pos": "",
-              "definition": "v.按优先顺序列出:确定(事项、问题等)优先顺序"
-            },
-            {
               "word": "regularly",
               "pos": "adv.",
               "definition": "adv. 定期地；有规律地；频繁地"
-            },
-            {
-              "word": "maintain",
-              "pos": "",
-              "definition": "v.主张;坚持认为"
             },
             {
               "word": "personal",
@@ -4645,11 +4895,6 @@
               "word": "services",
               "pos": "n.",
               "definition": "n. 服务；服务项目；维修（service 的复数）"
-            },
-            {
-              "word": "advance",
-              "pos": "",
-              "definition": "v.前进,推进"
             },
             {
               "word": "started",
@@ -4682,24 +4927,9 @@
               "definition": "n. 外表；外部（the outside）；（建筑物、车辆等的）周围"
             },
             {
-              "word": "secure",
-              "pos": "",
-              "definition": "v.(尤指经过努力)获得,取得"
-            },
-            {
-              "word": "likely",
-              "pos": "adj.",
-              "definition": "adj. 可能发生的；似乎合适的，仿佛恰当的；似乎真实的，可信的；看上去精力充沛（或有能力）的；adv. 大概，很可能"
-            },
-            {
               "word": "adults",
               "pos": "n.",
               "definition": "n. 成年人（adult 的复数形式）；（生物学）成年动物（adult 的复数形式，如成虫、成体）"
-            },
-            {
-              "word": "public",
-              "pos": "adj.",
-              "definition": "adj. 公众的；大众的；公共的"
             },
             {
               "word": "faster",
@@ -4741,6 +4971,36 @@
           "chunk_translation": "从职业生涯 / 到社区生活 / 以及 / 家庭关系， / 这些对比反差 / 代际之间的差异 / 突显出了 / 不断演变转变的价值观。",
           "vocabulary": [
             {
+              "word": "become increasingly clear",
+              "pos": "",
+              "definition": "【💡题项表达】 变得越来越清晰"
+            },
+            {
+              "word": "focus on materialistic issues",
+              "pos": "",
+              "definition": "【💡题项表达】 关注物质问题"
+            },
+            {
+              "word": "depend largely on political preferences",
+              "pos": "",
+              "definition": "【💡题项表达】 很大程度上取决于政治偏好"
+            },
+            {
+              "word": "aftermath",
+              "pos": "",
+              "definition": "n.(战争、风暴、事故的)后果,余波"
+            },
+            {
+              "word": "searing",
+              "pos": "",
+              "definition": "a.炽热的,灼热的;灼痛的"
+            },
+            {
+              "word": "virtually",
+              "pos": "",
+              "definition": "ad.实际上,几乎,差不多"
+            },
+            {
               "word": "spread through",
               "pos": "",
               "definition": "蔓延到"
@@ -4764,16 +5024,6 @@
               "word": "priorities",
               "pos": "n.",
               "definition": "n. 优先处理的事（priority 的复数）"
-            },
-            {
-              "word": "aftermath",
-              "pos": "",
-              "definition": "n.(战争、风暴、事故的)后果,余波"
-            },
-            {
-              "word": "virtually",
-              "pos": "",
-              "definition": "ad.实际上,几乎,差不多"
             },
             {
               "word": "community",
@@ -4816,11 +5066,6 @@
               "definition": "n. 政治；政治活动（事务）；政治事业"
             },
             {
-              "word": "searing",
-              "pos": "",
-              "definition": "a.炽热的,灼热的;灼痛的"
-            },
-            {
               "word": "aspects",
               "pos": "n.",
               "definition": "n. 方面；方位；面貌（aspect 的复数）"
@@ -4855,9 +5100,49 @@
           "chunk_translation": "年轻人和年长者达成了一致 / 在一个关键核心观点上： / 绝大多数地， / 美国人一致认为 / 通往成功的道路已经变得更加艰难曲折。 / 尽管年轻人稍微更为乐观一些 / 对于他们自己的成功机会， / 他们 / 依然清醒地承认 / 攀登的阶梯 / 变得 / 更加陡峭险峻， / 相比 / 相较于前几代人。",
           "vocabulary": [
             {
+              "word": "getting established is harder for the young",
+              "pos": "",
+              "definition": "【🎯解题正解】 对于年轻人来说，站稳脚跟更困难"
+            },
+            {
+              "word": "good-paying jobs are less available",
+              "pos": "",
+              "definition": "【💡题项表达】 高薪工作越来越少"
+            },
+            {
+              "word": "the old made more life achievements",
+              "pos": "",
+              "definition": "【💡题项表达】 老人取得了更多的人生成就"
+            },
+            {
+              "word": "converge",
+              "pos": "",
+              "definition": "v.(观点、目标)趋同"
+            },
+            {
               "word": "overwhelming",
               "pos": "",
               "definition": "a.巨大的,压倒性的"
+            },
+            {
+              "word": "somewhat",
+              "pos": "",
+              "definition": "ad.有点儿,有几分"
+            },
+            {
+              "word": "optimistic",
+              "pos": "",
+              "definition": "a.乐观的,乐观主义的"
+            },
+            {
+              "word": "climb",
+              "pos": "",
+              "definition": "n.(社会地位)上升;(职务)晋升"
+            },
+            {
+              "word": "signpost",
+              "pos": "",
+              "definition": "n.路标;标志物"
             },
             {
               "word": "achievements",
@@ -4868,11 +5153,6 @@
               "word": "generations",
               "pos": "n.",
               "definition": "n. generation 的复数：几代人；一代代人；后代"
-            },
-            {
-              "word": "optimistic",
-              "pos": "",
-              "definition": "a.乐观的,乐观主义的"
             },
             {
               "word": "majorities",
@@ -4888,21 +5168,6 @@
               "word": "prospects",
               "pos": "n.",
               "definition": "n. （发生好事情的）可能性；机会；成功的机会"
-            },
-            {
-              "word": "converge",
-              "pos": "",
-              "definition": "v.(观点、目标)趋同"
-            },
-            {
-              "word": "somewhat",
-              "pos": "",
-              "definition": "ad.有点儿,有几分"
-            },
-            {
-              "word": "signpost",
-              "pos": "",
-              "definition": "n.路标;标志物"
             },
             {
               "word": "starting",
@@ -4963,11 +5228,6 @@
               "word": "family",
               "pos": "n.",
               "definition": "n. 家；家庭；家属"
-            },
-            {
-              "word": "climb",
-              "pos": "",
-              "definition": "n.(社会地位)上升;(职务)晋升"
             }
           ]
         },
@@ -4979,14 +5239,34 @@
           "chunk_translation": "皮特·施耐德认为如今向上的攀登更加艰难。 / 施耐德， / 一名27岁的汽车维修技师， / 来自芝加哥地区， / 表示 / 他工作十分努力，但却很难实现阶层跨越、出人头地。 / 即便现在 / 他有着稳定的工作， / 他说道， / “我 / 依然 / 不得不 / 去 / 担忧 / 关于 / 如何维持收支平衡。 / 这让人感到极其沮丧挫败。” / “我当年是在一个家庭中长大的 / 在中上阶层的家庭里， / 伴随着 / 所有的优渥机会，”他说道。 / “我认为人们现在已经无法再做到那一步了。 / 生活成本实在是太高昂了。”",
           "vocabulary": [
             {
-              "word": "comfortable",
-              "pos": "adj.",
-              "definition": "adj. 令人舒适的；感到舒服的；安逸的"
+              "word": "His parents’ good life has little to do with a college degree",
+              "pos": "",
+              "definition": "【🎯解题正解】 他父母的美好生活与大学学位没有多大关系。"
+            },
+            {
+              "word": "climb",
+              "pos": "",
+              "definition": "n.(社会地位)上升;(职务)晋升"
             },
             {
               "word": "technician",
               "pos": "",
               "definition": "n.技师,技术人员"
+            },
+            {
+              "word": "steadily",
+              "pos": "",
+              "definition": "ad.稳定地,稳固地"
+            },
+            {
+              "word": "mortgage",
+              "pos": "",
+              "definition": "n.抵押贷款,按揭"
+            },
+            {
+              "word": "comfortable",
+              "pos": "adj.",
+              "definition": "adj. 令人舒适的；感到舒服的；安逸的"
             },
             {
               "word": "graduating",
@@ -5012,16 +5292,6 @@
               "word": "completed",
               "pos": "v.",
               "definition": "v. 完成；填写（表格）；（使）完整"
-            },
-            {
-              "word": "steadily",
-              "pos": "",
-              "definition": "ad.稳定地,稳固地"
-            },
-            {
-              "word": "mortgage",
-              "pos": "",
-              "definition": "n.抵押贷款,按揭"
             },
             {
               "word": "payments",
@@ -5082,11 +5352,6 @@
               "word": "middle",
               "pos": "adj.",
               "definition": "adj. 中间的；中等的；折中的"
-            },
-            {
-              "word": "climb",
-              "pos": "",
-              "definition": "n.(社会地位)上升;(职务)晋升"
             },
             {
               "word": "rooms",

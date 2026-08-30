@@ -15,6 +15,31 @@
           "chunk_translation": "每个周六早晨， / 在上午9点整， / 超过50, / 000名跑者出发在当地公园跑完5公里。 / “公园跑”这一风靡现象始于2004年十几位朋友之间的聚跑活动。 / 所有活动均免费开放， / 由人员提供服务 / 由数以千计的志愿服务人员提供志愿支持。 / 跑步者年龄跨度很大， / 从四岁孩童到花甲老人； / 一些人摇着竞速轮椅参赛； / 另一些人则推着婴儿车慢跑。",
           "vocabulary": [
             {
+              "word": "gained great popularity",
+              "pos": "",
+              "definition": "【🎯解题正解】 获得了很高的人气"
+            },
+            {
+              "word": "created many jobs",
+              "pos": "",
+              "definition": "【💡题项表达】 创造了许多就业机会"
+            },
+            {
+              "word": "become an official festival",
+              "pos": "",
+              "definition": "【💡题项表达】 成为官方节日"
+            },
+            {
+              "word": "strengthened community ties",
+              "pos": "",
+              "definition": "【💡题项表达】 加强社区联系"
+            },
+            {
+              "word": "set off",
+              "pos": "",
+              "definition": "出发,启程"
+            },
+            {
               "word": "grandparents",
               "pos": "n.",
               "definition": "n. 祖父母；外祖父母（grandparent 的复数）"
@@ -43,11 +68,6 @@
               "word": "Baddeley",
               "pos": "n.",
               "definition": "n. （Baddeley）人名；（英）巴德利"
-            },
-            {
-              "word": "set off",
-              "pos": "",
-              "definition": "出发,启程"
             },
             {
               "word": "runners",
@@ -134,6 +154,46 @@
           "chunk_translation": "公园跑取得了显著的成功， / 而伦敦奥运会的“遗产计划”却正在走向失败。 / 十年前的周一， / 官方宣布 / 奥运会主办权将花落 / 伦敦。 / 这是一个激励整整一代人积极投身体育运动的绝佳契机。 / 规划文件中庄严承诺， / 伦敦奥运会最伟大的遗产 / 将是激励数百万人参与更多的体育运动。 / 国民体质将更加健壮、 / 更加健康，并催生出一个更具活力的健康经济。 / 然而这一切并未发生。 / 每周参加体育运动的成年人数量确实有所上升， / 但这种增长势头十分短暂， / 并未能长久持续。 / 更为糟糕的是， / 该参与人数目前正以更快的速度持续下滑。 / 反对党声称，每周进行至少两小时体育锻炼的小学生人数 / 每周至少进行两小时体育课的小学生比例也出现了下降。 / 成年人和儿童中的肥胖率均在上升。 / 关于伦敦为何未能兑现其体育遗产承诺的官方反思仍在继续。",
           "vocabulary": [
             {
+              "word": "promote sport participation",
+              "pos": "",
+              "definition": "【🎯解题正解】 促进体育参与"
+            },
+            {
+              "word": "boost population growth",
+              "pos": "",
+              "definition": "【💡题项表达】 促进人口增长"
+            },
+            {
+              "word": "improve the city’s image",
+              "pos": "",
+              "definition": "【💡题项表达】 提升城市形象"
+            },
+            {
+              "word": "increase sport hours in schools",
+              "pos": "",
+              "definition": "【💡题项表达】 增加学校的体育运动时间"
+            },
+            {
+              "word": "inspire",
+              "pos": "",
+              "definition": "v.激发,引起"
+            },
+            {
+              "word": "legacy",
+              "pos": "",
+              "definition": "n.遗产"
+            },
+            {
+              "word": "lever",
+              "pos": "",
+              "definition": "v.(用杠杆)撬动"
+            },
+            {
+              "word": "obesity",
+              "pos": "",
+              "definition": "n.肥胖症"
+            },
+            {
               "word": "retrospections",
               "pos": "n.",
               "definition": "n. retrospection 的复数形式；回顾；回想"
@@ -199,16 +259,6 @@
               "definition": "adj. 正式的；官方的；官方授权的"
             },
             {
-              "word": "inspire",
-              "pos": "",
-              "definition": "v.激发,引起"
-            },
-            {
-              "word": "obesity",
-              "pos": "",
-              "definition": "n.肥胖症"
-            },
-            {
               "word": "Parkrun",
               "pos": "n.",
               "definition": "n. 公园跑步活动"
@@ -264,19 +314,9 @@
               "definition": "adj. 主要的；首要的；小学教育的"
             },
             {
-              "word": "success",
-              "pos": "n.",
-              "definition": "n. 成功；胜利；发财"
-            },
-            {
               "word": "answers",
               "pos": "n.",
               "definition": "n. 答案；回答（answer 的复数）；v. 回答（answer 的第三人称单数形式）"
-            },
-            {
-              "word": "legacy",
-              "pos": "",
-              "definition": "n.遗产"
             },
             {
               "word": "nation",
@@ -339,11 +379,6 @@
               "definition": "v. （offer 的第三人称单数）提供；给予；提议"
             },
             {
-              "word": "lever",
-              "pos": "",
-              "definition": "v.(用杠杆)撬动"
-            },
-            {
               "word": "Games",
               "pos": "n.",
               "definition": "n. game 的复数：游戏；比赛"
@@ -373,14 +408,39 @@
           "chunk_translation": "公园跑不是一场对抗比赛，而是一次计时测验： / 你唯一的竞争对手就是时钟。 / 它的核心精神包容欢迎任何人的加入。 / 对于气喘吁吁的初跑者所给予的欢呼，丝毫不亚于给予冲线最快的冠军选手。 / 而奥运申办方， / 相比之下， / 曾希望通过精英运动员的夺金荣耀来带动更多人参与体育运动。 / 这两个双重目标被本末倒置地混淆了： / 片面强调竞技成功而非广泛大众参与， / 营造出了一种 / 实际上让普通大众望而却步的氛围。",
           "vocabulary": [
             {
+              "word": "does not emphasize elitism",
+              "pos": "",
+              "definition": "【🎯解题正解】 不强调精英主义"
+            },
+            {
+              "word": "aims at discovering talents",
+              "pos": "",
+              "definition": "【💡题项表达】 旨在发现人才"
+            },
+            {
+              "word": "focuses on mass competition",
+              "pos": "",
+              "definition": "【💡题项表达】 注重大众竞争"
+            },
+            {
+              "word": "does not attract first-timers",
+              "pos": "",
+              "definition": "【💡题项表达】 不吸引初次尝试者"
+            },
+            {
+              "word": "ethos",
+              "pos": "",
+              "definition": "n.精神特质,理念"
+            },
+            {
+              "word": "dual",
+              "pos": "",
+              "definition": "a.双重的"
+            },
+            {
               "word": "intimidating",
               "pos": "",
               "definition": "a.令人胆怯的"
-            },
-            {
-              "word": "first-timer",
-              "pos": "",
-              "definition": "初次做某事者"
             },
             {
               "word": "time trial",
@@ -391,6 +451,11 @@
               "word": "puffed-out",
               "pos": "",
               "definition": "气喘吁呼的"
+            },
+            {
+              "word": "first-timer",
+              "pos": "",
+              "definition": "初次做某事者"
             },
             {
               "word": "competitor",
@@ -453,11 +518,6 @@
               "definition": "v. 引起；造成；（自然地）生产"
             },
             {
-              "word": "success",
-              "pos": "n.",
-              "definition": "n. 成功；胜利；发财"
-            },
-            {
               "word": "puffed",
               "pos": "adj.",
               "definition": "adj. 气喘吁吁的；肿胀的；（食品）膨化的"
@@ -471,11 +531,6 @@
               "word": "stress",
               "pos": "n.",
               "definition": "n. 精神压力；紧张；压力"
-            },
-            {
-              "word": "ethos",
-              "pos": "",
-              "definition": "n.精神特质,理念"
             },
             {
               "word": "trial",
@@ -508,11 +563,6 @@
               "definition": "adj. （感情）矛盾的；复杂的；（人）混合的"
             },
             {
-              "word": "dual",
-              "pos": "",
-              "definition": "a.双重的"
-            },
-            {
               "word": "race",
               "pos": "n.",
               "definition": "n. 赛跑；速度竞赛"
@@ -527,14 +577,74 @@
           "chunk_translation": "事实上， / 指望精英竞技体育来激发大众全民参与的想法，本身就带有几分荒谬。 / 如果存在着某种角色 / 供政府来承担， / 那政府真正应该做的就是介入 / 提供公共产品—— / 确保有充足的场地空间 / 用于运动场，并有资金铺设网球场和无板篮球场， / 并鼓励开展所有这些体育活动 / 在中小学校中。 / 但历届政府却放任了 / 学校运动场地的变相变卖， / 地方议会资金匮乏， / 并且 / 大幅削减了公共体育服务。 / 与其制定冗长空洞的、 / 看似高大上的战略， / 未来的各届政府 / 应当专注于让普通百姓的日常生活更加便利轻松。 / 或者至少 / 不要让情况变得更加恶化。",
           "vocabulary": [
             {
-              "word": "fundamentally",
-              "pos": "adv.",
-              "definition": "adv. 根本地；基础地"
+              "word": "invest in public sports facilities",
+              "pos": "",
+              "definition": "【🎯解题正解】 投资公共体育设施"
+            },
+            {
+              "word": "increase funds for sports clubs",
+              "pos": "",
+              "definition": "【💡题项表达】 增加体育俱乐部资金"
+            },
+            {
+              "word": "organize “grassroots” sports events",
+              "pos": "",
+              "definition": "【💡题项表达】 举办“草根”体育赛事"
+            },
+            {
+              "word": "supervise local sports associations",
+              "pos": "",
+              "definition": "【💡题项表达】 监督地方体育协会"
+            },
+            {
+              "word": "critical",
+              "pos": "",
+              "definition": "【🎯解题正解】 批判的"
+            },
+            {
+              "word": "tolerant",
+              "pos": "",
+              "definition": "【💡题项表达】 宽容"
+            },
+            {
+              "word": "uncertain",
+              "pos": "",
+              "definition": "【💡题项表达】 不确定"
+            },
+            {
+              "word": "sympathetic",
+              "pos": "",
+              "definition": "【💡题项表达】 富有同情心的"
+            },
+            {
+              "word": "grassroots",
+              "pos": "",
+              "definition": "n.基层民众,草根"
+            },
+            {
+              "word": "successive",
+              "pos": "",
+              "definition": "a.连续的"
+            },
+            {
+              "word": "wordy",
+              "pos": "",
+              "definition": "a.冗长的,啰嗦的"
+            },
+            {
+              "word": "worthy",
+              "pos": "",
+              "definition": "a.有价值的,值得尊敬的"
             },
             {
               "word": "common goods",
               "pos": "",
               "definition": "公共产品"
+            },
+            {
+              "word": "fundamentally",
+              "pos": "adv.",
+              "definition": "adv. 根本地；基础地"
             },
             {
               "word": "associations",
@@ -555,16 +665,6 @@
               "word": "authorities",
               "pos": "n.",
               "definition": "n. 当局；官方；官方机构"
-            },
-            {
-              "word": "grassroots",
-              "pos": "",
-              "definition": "n.基层民众,草根"
-            },
-            {
-              "word": "successive",
-              "pos": "",
-              "definition": "a.连续的"
             },
             {
               "word": "government",
@@ -667,11 +767,6 @@
               "definition": "adv. 代替；顶替；反而"
             },
             {
-              "word": "worthy",
-              "pos": "",
-              "definition": "a.有价值的,值得尊敬的"
-            },
-            {
               "word": "Indeed",
               "pos": "adv.",
               "definition": "adv. 确实；的确"
@@ -712,19 +807,9 @@
               "definition": "n. 空间；空地；空隙"
             },
             {
-              "word": "future",
-              "pos": "n.",
-              "definition": "n. 未来；将来；前途"
-            },
-            {
               "word": "thrive",
               "pos": "v.",
               "definition": "v. 茁壮成长；兴旺；繁荣"
-            },
-            {
-              "word": "wordy",
-              "pos": "",
-              "definition": "a.冗长的,啰嗦的"
             },
             {
               "word": "goods",
@@ -1657,19 +1742,49 @@
           "chunk_translation": "在如此多的关注下， / 对于孩子使用屏幕的关注， / 很容易导致 / 父母们忘记了 / 关于他们自己使用电子屏幕的情况。 / “科技产品被设计得 / 极具吸引力、让人深陷其中，”珍妮·拉德斯基说道， / 她是密歇根大学的一名儿科医生。 / 这让人很难抽离脱身， / 并导致了大量的数字化多任务并行处理。 / “",
           "vocabulary": [
             {
+              "word": "absorb user attention",
+              "pos": "",
+              "definition": "【🎯解题正解】 吸引用户注意力"
+            },
+            {
+              "word": "increase work efficiency",
+              "pos": "",
+              "definition": "【💡题项表达】 提高工作效率"
+            },
+            {
+              "word": "simplify routine matters",
+              "pos": "",
+              "definition": "【💡题项表达】 简化日常事务"
+            },
+            {
+              "word": "better interpersonal relations",
+              "pos": "",
+              "definition": "【💡题项表达】 更好的人际关系"
+            },
+            {
+              "word": "screen",
+              "pos": "",
+              "definition": "n.屏幕(文中指代数字产品)"
+            },
+            {
+              "word": "maximal",
+              "pos": "",
+              "definition": "a.最大的,最高的"
+            },
+            {
               "word": "engagement",
               "pos": "",
               "definition": "n.参与度"
             },
             {
-              "word": "bleed-over",
-              "pos": "",
-              "definition": "n.渗透,渗开"
-            },
-            {
               "word": "disengage",
               "pos": "",
               "definition": "v.脱离,不再感兴趣"
+            },
+            {
+              "word": "bleed-over",
+              "pos": "",
+              "definition": "n.渗透,渗开"
             },
             {
               "word": "designed",
@@ -1680,11 +1795,6 @@
               "word": "products",
               "pos": "n.",
               "definition": "n. 产品；商品（product 的复数）；产物"
-            },
-            {
-              "word": "maximal",
-              "pos": "",
-              "definition": "a.最大的,最高的"
             },
             {
               "word": "screens",
@@ -1715,11 +1825,6 @@
               "word": "routine",
               "pos": "n.",
               "definition": "n. 常规；惯例；生活乏味"
-            },
-            {
-              "word": "screen",
-              "pos": "",
-              "definition": "n.屏幕(文中指代数字产品)"
             },
             {
               "word": "forget",
@@ -1771,6 +1876,41 @@
           "chunk_translation": "拉德斯基专门研究了手机的使用 / 以及 / 平板电脑在就餐期间被父母使用的情况。 / 她发现， / 那些母亲 / 在用餐期间使用电子设备的母亲，其言语和非言语互动显著更少 / 与她们的孩子之间的互动。 / 在另一项单独的观察研究中， / 她观察到 / 手机引发了父母与孩子之间的摩擦冲突。 / 父母们往往目不转睛地盯着 / 他们的电子邮件， / 而此时他们的孩子正试图 / 去吸引父母的注意力。",
           "vocabulary": [
             {
+              "word": "reduces mother-child communication",
+              "pos": "",
+              "definition": "【🎯解题正解】 减少母子沟通"
+            },
+            {
+              "word": "takes away babies’ appetite",
+              "pos": "",
+              "definition": "【💡题项表达】 夺走了宝宝的食欲"
+            },
+            {
+              "word": "distracts children’s attention",
+              "pos": "",
+              "definition": "【💡题项表达】 分散孩子的注意力"
+            },
+            {
+              "word": "slows down babies’ verbal development",
+              "pos": "",
+              "definition": "【💡题项表达】 减缓婴儿的语言发展"
+            },
+            {
+              "word": "exercise",
+              "pos": "",
+              "definition": "n.活动,任务"
+            },
+            {
+              "word": "verbal",
+              "pos": "",
+              "definition": "a.文字的,言语的"
+            },
+            {
+              "word": "tension",
+              "pos": "",
+              "definition": "n.紧张关系,紧张状况"
+            },
+            {
               "word": "interactions",
               "pos": "n.",
               "definition": "n. 互动；交流；相互影响"
@@ -1796,19 +1936,9 @@
               "definition": "n. 注意；注意力；照料"
             },
             {
-              "word": "exercise",
-              "pos": "",
-              "definition": "n.活动,任务"
-            },
-            {
               "word": "separate",
               "pos": "adj.",
               "definition": "adj. 单独的；分开的；不同的"
-            },
-            {
-              "word": "tension",
-              "pos": "",
-              "definition": "n.紧张关系,紧张状况"
             },
             {
               "word": "Radesky",
@@ -1854,11 +1984,6 @@
               "word": "excited",
               "pos": "adj.",
               "definition": "adj. 激动的；兴奋的；忧虑的"
-            },
-            {
-              "word": "verbal",
-              "pos": "",
-              "definition": "a.文字的,言语的"
             },
             {
               "word": "mobile",
@@ -1910,19 +2035,54 @@
           "chunk_translation": "婴儿天生具有本能 / 去注视 / 父母的面孔，试图 / 去弄明白 / 清楚 / 到底发生了什么事情 / 在他们周围。 / 拉德斯基引用了由……设计的“面无表情实验” / 由发展心理学家爱德华·特罗尼克所设计。 / 在该实验中， / 一位母亲被要求先与她的孩子进行互动， / 然后 / 随后停止互动并保持完全面无表情的状态。 / “父母并不需要全神贯注地陪伴在旁 / 在所有时刻，”拉德斯基说， / “但他们应当意识到自己何时处于心不在焉、忽视孩子的状态。”",
           "vocabulary": [
             {
-              "word": "disconcerting",
+              "word": "parents need to respond to children’s emotional needs",
               "pos": "",
-              "definition": "a.使人不安的"
+              "definition": "【🎯解题正解】 父母需要回应孩子的情感需求"
             },
             {
-              "word": "developmental",
-              "pos": "adj.",
-              "definition": "adj. 发展的；生长的；促使成长的"
+              "word": "verbal",
+              "pos": "",
+              "definition": "a.文字的,言语的"
+            },
+            {
+              "word": "blank",
+              "pos": "",
+              "definition": "a.没表情的,不感兴趣的"
             },
             {
               "word": "unresponsive",
               "pos": "",
               "definition": "a.反应迟钝的"
+            },
+            {
+              "word": "disconcerting",
+              "pos": "",
+              "definition": "a.使人不安的"
+            },
+            {
+              "word": "distressed",
+              "pos": "",
+              "definition": "a.痛苦的,悲伤的,苦恼的"
+            },
+            {
+              "word": "exquisitely",
+              "pos": "",
+              "definition": "ad.精致地,近乎完美地"
+            },
+            {
+              "word": "present",
+              "pos": "",
+              "definition": "a.在场的,存在的"
+            },
+            {
+              "word": "sensitive",
+              "pos": "",
+              "definition": "a.体恤的,善解人意的"
+            },
+            {
+              "word": "developmental",
+              "pos": "adj.",
+              "definition": "adj. 发展的；生长的；促使成长的"
             },
             {
               "word": "psychologist",
@@ -1935,19 +2095,9 @@
               "definition": "adv. 越来越多地；不断增加地"
             },
             {
-              "word": "exquisitely",
-              "pos": "",
-              "definition": "ad.精致地,近乎完美地"
-            },
-            {
               "word": "expressions",
               "pos": "n.",
               "definition": "n. expression 的复数：表达；表示；表情"
-            },
-            {
-              "word": "distressed",
-              "pos": "",
-              "definition": "a.痛苦的,悲伤的,苦恼的"
             },
             {
               "word": "experiment",
@@ -1963,11 +2113,6 @@
               "word": "responsive",
               "pos": "adj.",
               "definition": "adj. 反应迅速的；积极反应的；反应热烈的"
-            },
-            {
-              "word": "sensitive",
-              "pos": "",
-              "definition": "a.体恤的,善解人意的"
             },
             {
               "word": "extremely",
@@ -2003,11 +2148,6 @@
               "word": "feedback",
               "pos": "n.",
               "definition": "n. 反馈意见；（信号返回电子音响系统所致的）噪声；（返回机器、系统或者程序的）返回信息"
-            },
-            {
-              "word": "present",
-              "pos": "",
-              "definition": "a.在场的,存在的"
             },
             {
               "word": "Infants",
@@ -2055,11 +2195,6 @@
               "definition": "n. 平衡；均衡；均势"
             },
             {
-              "word": "verbal",
-              "pos": "",
-              "definition": "a.文字的,言语的"
-            },
-            {
               "word": "device",
               "pos": "n.",
               "definition": "n. 装置；设备；手段"
@@ -2078,11 +2213,6 @@
               "word": "visual",
               "pos": "adj.",
               "definition": "adj. 视觉的；视力的；栩栩如生的"
-            },
-            {
-              "word": "blank",
-              "pos": "",
-              "definition": "a.没表情的,不感兴趣的"
             },
             {
               "word": "wired",
@@ -2114,6 +2244,46 @@
           "chunk_translation": "另一方面， / 特罗尼克本人则担心 / 这种担忧 / 关于父母使用屏幕的过度焦虑可能有些被夸大了。 / 他 / 指 / 出， / 母亲们 / 历来 / 总是 / 不得不 / 去 / 分散 / 她们的 / 注意力 / 在……之间 / 照料孩子 / 和 / 其他事务之间。 / 父母们， / 他表示， / 能从使用电子设备中获得很多益处——比如获得来自家人和朋友的情感支持。 / 这能够让他们感到更加快乐， / 从而使他们能够成为更好的父母。",
           "vocabulary": [
             {
+              "word": "ensure constant interaction with their children",
+              "pos": "",
+              "definition": "【🎯解题正解】 确保与孩子持续互动"
+            },
+            {
+              "word": "give their parents some free time",
+              "pos": "",
+              "definition": "【🎯解题正解】 给父母一些空闲时间"
+            },
+            {
+              "word": "make their parents more creative",
+              "pos": "",
+              "definition": "【💡题项表达】 让他们的父母更有创造力"
+            },
+            {
+              "word": "help them with their homework",
+              "pos": "",
+              "definition": "【💡题项表达】 帮助他们做作业"
+            },
+            {
+              "word": "help them become more attentive",
+              "pos": "",
+              "definition": "【💡题项表达】 帮助他们变得更加专心"
+            },
+            {
+              "word": "screen",
+              "pos": "",
+              "definition": "n.屏幕(文中指代数字产品)"
+            },
+            {
+              "word": "oppressive",
+              "pos": "",
+              "definition": "a.压制的,令人焦虑的"
+            },
+            {
+              "word": "available",
+              "pos": "",
+              "definition": "a.有空的,有暇的"
+            },
+            {
               "word": "particularly",
               "pos": "adv.",
               "definition": "adv. 非常；尤其；特别是"
@@ -2124,11 +2294,6 @@
               "definition": "v. 互相影响；互相作用；互动（interact 的现在分词）"
             },
             {
-              "word": "oppressive",
-              "pos": "",
-              "definition": "a.压制的,令人焦虑的"
-            },
-            {
               "word": "fantasised",
               "pos": "vi.",
               "definition": "vi. 耽于幻想；做白日梦（常与 about 连用）；vt. 幻想"
@@ -2137,11 +2302,6 @@
               "word": "neglecting",
               "pos": "v.",
               "definition": "v. 忽视；疏于照管；疏忽（未履行应尽义务）（neglect 的现在分词/动名词）"
-            },
-            {
-              "word": "available",
-              "pos": "",
-              "definition": "a.有空的,有暇的"
             },
             {
               "word": "concerned",
@@ -2217,11 +2377,6 @@
               "word": "happier",
               "pos": "adj.",
               "definition": "adj. happy 的比较级：更快乐的；更幸福的"
-            },
-            {
-              "word": "screen",
-              "pos": "",
-              "definition": "n.屏幕(文中指代数字产品)"
             },
             {
               "word": "should",
@@ -3017,6 +3172,36 @@
           "chunk_translation": "如今， / 要求高中毕业立即升入大学的广泛社会压力 / 连同 / 在这个快节奏世界中日益攀升的期望，常常导致学生们完全忽视了休学度过间隔年的可能性。 / 毕竟， / 如果你认识的所有人都在秋季升入大学， / 休学推迟一年似乎显得很傻， / 不是吗？ / 而且， / 在上了12年学之后， / 花一整年时间去做一些事情会感觉很不自然， / 那些与学术无关的事情。",
           "vocabulary": [
             {
+              "word": "it feels strange to do differently from others",
+              "pos": "",
+              "definition": "【🎯解题正解】 与别人做不同的事情感觉很奇怪"
+            },
+            {
+              "word": "they think it academically misleading",
+              "pos": "",
+              "definition": "【💡题项表达】 他们认为这在学术上具有误导性"
+            },
+            {
+              "word": "conjunction",
+              "pos": "",
+              "definition": "n.(引起某种结果的事物等的)结合,同时发生"
+            },
+            {
+              "word": "overlook",
+              "pos": "",
+              "definition": "v.忽略,未注意到"
+            },
+            {
+              "word": "gap year",
+              "pos": "",
+              "definition": "间隔年(中学毕业上大学之前所休的一年假期)"
+            },
+            {
+              "word": "academic",
+              "pos": "",
+              "definition": "a.学业的,教学的(尤指与学校教育有关)"
+            },
+            {
               "word": "increasingly",
               "pos": "adv.",
               "definition": "adv. 越来越多地；不断增加地"
@@ -3025,11 +3210,6 @@
               "word": "expectations",
               "pos": "n.",
               "definition": "n. 期望；预期；（数学、统计学）期望值（expectation 的复数）"
-            },
-            {
-              "word": "conjunction",
-              "pos": "",
-              "definition": "n.(引起某种结果的事物等的)结合,同时发生"
             },
             {
               "word": "immediately",
@@ -3050,21 +3230,6 @@
               "word": "completely",
               "pos": "adv.",
               "definition": "adv. 完全地；彻底地"
-            },
-            {
-              "word": "overlook",
-              "pos": "",
-              "definition": "v.忽略,未注意到"
-            },
-            {
-              "word": "gap year",
-              "pos": "",
-              "definition": "间隔年(中学毕业上大学之前所休的一年假期)"
-            },
-            {
-              "word": "academic",
-              "pos": "",
-              "definition": "a.学业的,教学的(尤指与学校教育有关)"
             },
             {
               "word": "pressure",
@@ -3116,34 +3281,24 @@
           "chunk_translation": "但是 / 尽管这或许属实， / 这却绝非是排除间隔年选择的充分理由。 / 人们心中总有一种挥之不去的恐惧 / 害怕落后于身边的其他人 / 并且 / 永远无法真正赶上大家的步伐。 / 但是 / 尽管存在普遍的误解， / 间隔年并不会阻碍 / 学生的学业与人生进步。",
           "vocabulary": [
             {
-              "word": "graduate school",
+              "word": "In Favor of the Gap Year",
               "pos": "",
-              "definition": "研究生院"
+              "definition": "【🎯解题正解】 支持间隔年"
             },
             {
-              "word": "medical school",
+              "word": "The ABCs of the Gap Year",
               "pos": "",
-              "definition": "医学院"
+              "definition": "【💡题项表达】 间隔年的基本知识"
             },
             {
-              "word": "misconceptions",
-              "pos": "n.",
-              "definition": "n. （misconception 的复数）错误观念；错误的想法；误解"
-            },
-            {
-              "word": "finish line",
+              "word": "The Gap Year Comes Back",
               "pos": "",
-              "definition": "终点线"
+              "definition": "【💡题项表达】 间隔年又回来了"
             },
             {
-              "word": "perpetuated",
-              "pos": "vt.",
-              "definition": "vt. 使（尤指不好的情形、制度、信念等）继续存在；使持续；使长存（perpetuate 的过去式和过去分词）"
-            },
-            {
-              "word": "lucrative",
+              "word": "The Gap Year: A Dilemma",
               "pos": "",
-              "definition": "a.赚大钱的,获利多的"
+              "definition": "【💡题项表达】 间隔年：一个困境"
             },
             {
               "word": "gap year",
@@ -3154,6 +3309,46 @@
               "word": "academic",
               "pos": "",
               "definition": "a.学业的,教学的(尤指与学校教育有关)"
+            },
+            {
+              "word": "condemn",
+              "pos": "",
+              "definition": "v.谴责"
+            },
+            {
+              "word": "finish line",
+              "pos": "",
+              "definition": "终点线"
+            },
+            {
+              "word": "graduate school",
+              "pos": "",
+              "definition": "研究生院"
+            },
+            {
+              "word": "medical school",
+              "pos": "",
+              "definition": "医学院"
+            },
+            {
+              "word": "lucrative",
+              "pos": "",
+              "definition": "a.赚大钱的,获利多的"
+            },
+            {
+              "word": "hinder",
+              "pos": "",
+              "definition": "v.阻碍,妨碍,阻挡"
+            },
+            {
+              "word": "misconceptions",
+              "pos": "n.",
+              "definition": "n. （misconception 的复数）错误观念；错误的想法；误解"
+            },
+            {
+              "word": "perpetuated",
+              "pos": "vt.",
+              "definition": "vt. 使（尤指不好的情形、制度、信念等）继续存在；使持续；使长存（perpetuate 的过去式和过去分词）"
             },
             {
               "word": "constant",
@@ -3186,11 +3381,6 @@
               "definition": "v. 增强；提高；改善（enhance 的第三人称单数）"
             },
             {
-              "word": "condemn",
-              "pos": "",
-              "definition": "v.谴责"
-            },
-            {
               "word": "falling",
               "pos": "adj.",
               "definition": "adj. （规模、数量或力量）下降的；正在减少的；v. 降落"
@@ -3204,16 +3394,6 @@
               "word": "despite",
               "pos": "prep.",
               "definition": "prep. 尽管；即使；不由自主地"
-            },
-            {
-              "word": "success",
-              "pos": "n.",
-              "definition": "n. 成功；胜利；发财"
-            },
-            {
-              "word": "hinder",
-              "pos": "",
-              "definition": "v.阻碍,妨碍,阻挡"
             },
             {
               "word": "reason",
@@ -3245,14 +3425,74 @@
           "chunk_translation": "各项研究 / 来自美国和澳大利亚的研究表明， / 那些学生 / 那些度过间隔年的学生， / 在大学里取得了更高的平均绩点。 / 间隔年非但没有拖学生的后腿， / 反而推动着他们向前迈进， / 通过让他们提前做好准备 / 以实现独立生活， / 承担新的责任并适应环境变化—— / 所有这些事情 / 正是大学一年级新生往往最感棘手应对的难题。 / 间隔年的丰富经历能够减轻精神冲击 / 当面临 / 去应对处理 / 大学期间的职业倦怠感与心理压力时。",
           "vocabulary": [
             {
-              "word": "responsibilities",
-              "pos": "n.",
-              "definition": "n. responsibility 的复数：责任；义务；职责"
+              "word": "relieve freshmen of pressures",
+              "pos": "",
+              "definition": "【🎯解题正解】 缓解新生压力"
+            },
+            {
+              "word": "lower risks in choosing careers",
+              "pos": "",
+              "definition": "【💡题项表达】 选择职业的风险较低"
+            },
+            {
+              "word": "ease freshmen’s financial burdens",
+              "pos": "",
+              "definition": "【💡题项表达】 减轻新生经济负担"
+            },
+            {
+              "word": "keep students from being unrealistic",
+              "pos": "",
+              "definition": "【💡题项表达】 防止学生不切实际"
+            },
+            {
+              "word": "adaptation",
+              "pos": "",
+              "definition": "【🎯解题正解】 适应"
+            },
+            {
+              "word": "motivation",
+              "pos": "",
+              "definition": "【💡题项表达】 动机"
+            },
+            {
+              "word": "application",
+              "pos": "",
+              "definition": "【💡题项表达】 应用"
+            },
+            {
+              "word": "competition",
+              "pos": "",
+              "definition": "【💡题项表达】 竞赛"
+            },
+            {
+              "word": "gap year",
+              "pos": "",
+              "definition": "间隔年(中学毕业上大学之前所休的一年假期)"
+            },
+            {
+              "word": "lessen",
+              "pos": "",
+              "definition": "v.减弱,减轻"
+            },
+            {
+              "word": "brand new",
+              "pos": "",
+              "definition": "全新的,崭新的"
+            },
+            {
+              "word": "acclimation",
+              "pos": "",
+              "definition": "n.适应"
             },
             {
               "word": "struggle with",
               "pos": "",
               "definition": "与...斗争、抗争"
+            },
+            {
+              "word": "responsibilities",
+              "pos": "n.",
+              "definition": "n. responsibility 的复数：责任；义务；职责"
             },
             {
               "word": "environmental",
@@ -3263,11 +3503,6 @@
               "word": "independence",
               "pos": "n.",
               "definition": "n. 独立；自主；（国家的）独立"
-            },
-            {
-              "word": "acclimation",
-              "pos": "",
-              "definition": "n.适应"
             },
             {
               "word": "experiences",
@@ -3283,11 +3518,6 @@
               "word": "activities",
               "pos": "n.",
               "definition": "n. 活动（activity 的复数）；行动"
-            },
-            {
-              "word": "brand new",
-              "pos": "",
-              "definition": "全新的,崭新的"
             },
             {
               "word": "Australia",
@@ -3313,11 +3543,6 @@
               "word": "academics",
               "pos": "n.",
               "definition": "n. 学者；大学教师；研究人员"
-            },
-            {
-              "word": "gap year",
-              "pos": "",
-              "definition": "间隔年(中学毕业上大学之前所休的一年假期)"
             },
             {
               "word": "students",
@@ -3360,19 +3585,9 @@
               "definition": "v. 拉；拔出；（向某方向）拖"
             },
             {
-              "word": "lessen",
-              "pos": "",
-              "definition": "v.减弱,减轻"
-            },
-            {
               "word": "United",
               "pos": "adj.",
               "definition": "adj. 团结的；统一的"
-            },
-            {
-              "word": "Rather",
-              "pos": "adv.",
-              "definition": "adv. 颇；相当；宁愿"
             },
             {
               "word": "pushes",
@@ -3388,11 +3603,6 @@
               "word": "easier",
               "pos": "adj.",
               "definition": "adj. 更简单；容易些（easy 的比较级形式）；较早的"
-            },
-            {
-              "word": "ahead",
-              "pos": "adv.",
-              "definition": "adv. 在前面；朝前面；领先"
             },
             {
               "word": "brand",
@@ -3413,6 +3623,91 @@
           "slashed_text": "If you’re not convinced of the inherent value / in taking a year off to explore interests , / then consider its financial impact / on future academic choices. / According to the National Center / for Education Statistics , / nearly 80 percent of college students end up changing their majors / at least once. / This isn’t surprising , / considering the basic mandatory high school curriculum leaves students with a poor understanding of the vast academic possibilities / that await them / in college. / Many students find themselves listing one major / on their college applications , / but switching to another / after taking college classes. / It’s not necessarily a bad thing , / but depending on the school , / it can be costly to make up credits / after switching too late in the game. / At Boston College , / for example , / you would have to complete an extra year were you to switch to the nursing school / from another department. / Taking a gap year to figure things out initially can help prevent stress and save money later on.",
           "chunk_translation": "如果你尚未信服 / 度过间隔年所蕴含的内在价值， / 不妨考虑一下 / 其在学业上的显著优势。 / 根据美国国家教育统计中心的数据， / 大约80%的大学生会更换 / 他们的专业 / 至少更换一次。 / 这并不令人感到意外， / 考虑到最基本的宗旨使命 / 大学教育的使命 / 本就是探索未知。 / 许多学生发现自己在申请表上填报了一个专业， / 在他们的大学申请中， / 随后 / 一旦步入大学校园便彻底改变了专业方向。 / 这未必是一件坏事， / 但取决于具体的学校， / 补修学分的代价可能会十分高昂 / 如果在学业后期阶段才转专业的话。 / 在波士顿学院， / 例如， / 你将不得不支付 / 额外的学费并耗费更多的时间来完成一套全新的学分要求。 / 在最初通过度过间隔年来理清方向，能够在日后避免大量的懊恼并节省大笔的金钱开支。",
           "vocabulary": [
+            {
+              "word": "decide on the right major",
+              "pos": "",
+              "definition": "【🎯解题正解】 决定正确的专业"
+            },
+            {
+              "word": "switch to another college",
+              "pos": "",
+              "definition": "【💡题项表达】 转学到另一所大学"
+            },
+            {
+              "word": "avoid academic failures",
+              "pos": "",
+              "definition": "【💡题项表达】 避免学业失败"
+            },
+            {
+              "word": "establish long-term goals",
+              "pos": "",
+              "definition": "【💡题项表达】 制定长期目标"
+            },
+            {
+              "word": "gap year",
+              "pos": "",
+              "definition": "间隔年(中学毕业上大学之前所休的一年假期)"
+            },
+            {
+              "word": "academic",
+              "pos": "",
+              "definition": "a.学业的,教学的(尤指与学校教育有关)"
+            },
+            {
+              "word": "inherent",
+              "pos": "",
+              "definition": "a.固有的,内在的"
+            },
+            {
+              "word": "major",
+              "pos": "",
+              "definition": "n.主修课程,专业课"
+            },
+            {
+              "word": "mandatory",
+              "pos": "",
+              "definition": "a.强制的,法定的,义务的"
+            },
+            {
+              "word": "curriculum",
+              "pos": "",
+              "definition": "n.全部课程"
+            },
+            {
+              "word": "await",
+              "pos": "",
+              "definition": "v.将发生在,将降临到"
+            },
+            {
+              "word": "switch",
+              "pos": "",
+              "definition": "v.(尤指突然彻底的)改变"
+            },
+            {
+              "word": "costly",
+              "pos": "",
+              "definition": "a.昂贵的"
+            },
+            {
+              "word": "game",
+              "pos": "",
+              "definition": "n.活动,行业"
+            },
+            {
+              "word": "nursing",
+              "pos": "",
+              "definition": "n.护理"
+            },
+            {
+              "word": "department",
+              "pos": "",
+              "definition": "n.系"
+            },
+            {
+              "word": "make up",
+              "pos": "",
+              "definition": "补上[失去的东西];补修[某课程]"
+            },
             {
               "word": "understanding",
               "pos": "n.",
@@ -3439,16 +3734,6 @@
               "definition": "adv. 必定；必然；必要地"
             },
             {
-              "word": "curriculum",
-              "pos": "",
-              "definition": "n.全部课程"
-            },
-            {
-              "word": "department",
-              "pos": "",
-              "definition": "n.系"
-            },
-            {
               "word": "Statistics",
               "pos": "n.",
               "definition": "n. 统计学；统计数字（statistic 的复数形式）"
@@ -3462,11 +3747,6 @@
               "word": "themselves",
               "pos": "pron.",
               "definition": "pron. 他们自己；他们亲自"
-            },
-            {
-              "word": "mandatory",
-              "pos": "",
-              "definition": "a.强制的,法定的,义务的"
             },
             {
               "word": "convinced",
@@ -3509,21 +3789,6 @@
               "definition": "adv. 开始；最初"
             },
             {
-              "word": "gap year",
-              "pos": "",
-              "definition": "间隔年(中学毕业上大学之前所休的一年假期)"
-            },
-            {
-              "word": "academic",
-              "pos": "",
-              "definition": "a.学业的,教学的(尤指与学校教育有关)"
-            },
-            {
-              "word": "inherent",
-              "pos": "",
-              "definition": "a.固有的,内在的"
-            },
-            {
               "word": "consider",
               "pos": "v.",
               "definition": "v. 考虑；斟酌"
@@ -3547,16 +3812,6 @@
               "word": "complete",
               "pos": "adj.",
               "definition": "adj. 完全的；彻底的；全部的"
-            },
-            {
-              "word": "nursing",
-              "pos": "",
-              "definition": "n.护理"
-            },
-            {
-              "word": "make up",
-              "pos": "",
-              "definition": "补上[失去的东西];补修[某课程]"
             },
             {
               "word": "explore",
@@ -3594,24 +3849,9 @@
               "definition": "v. 阻止；阻碍；防止"
             },
             {
-              "word": "switch",
-              "pos": "",
-              "definition": "v.(尤指突然彻底的)改变"
-            },
-            {
-              "word": "costly",
-              "pos": "",
-              "definition": "a.昂贵的"
-            },
-            {
               "word": "impact",
               "pos": "n.",
               "definition": "n. 撞击；冲击力"
-            },
-            {
-              "word": "future",
-              "pos": "n.",
-              "definition": "n. 未来；将来；前途"
             },
             {
               "word": "nearly",
@@ -3639,16 +3879,6 @@
               "definition": "n. 精神压力；紧张；压力"
             },
             {
-              "word": "major",
-              "pos": "",
-              "definition": "n.主修课程,专业课"
-            },
-            {
-              "word": "await",
-              "pos": "",
-              "definition": "v.将发生在,将降临到"
-            },
-            {
               "word": "value",
               "pos": "n.",
               "definition": "n. 价值；等值"
@@ -3667,11 +3897,6 @@
               "word": "money",
               "pos": "n.",
               "definition": "n. 钱；钞票；货币"
-            },
-            {
-              "word": "game",
-              "pos": "",
-              "definition": "n.活动,行业"
             }
           ]
         }
@@ -4434,6 +4659,11 @@
               "definition": "n.专家"
             },
             {
+              "word": "ecology",
+              "pos": "",
+              "definition": "n.生态,生态学"
+            },
+            {
               "word": "management",
               "pos": "n.",
               "definition": "n. 经营；管理；安排"
@@ -4457,11 +4687,6 @@
               "word": "national",
               "pos": "adj.",
               "definition": "adj. 国家的；全国的"
-            },
-            {
-              "word": "ecology",
-              "pos": "",
-              "definition": "n.生态,生态学"
             },
             {
               "word": "western",
@@ -4513,14 +4738,24 @@
           "chunk_translation": "在2015年， / 美国国家林业局首次将其超过一半的预算资金用于 / 扑灭扑救 / 森林野火。 / 实际上， / 如今流向火灾预防的联邦资金已变得更少 / 以及 / 森林管理方面的资金， / 这 / 反过来使得火灾的发生更加不可避免。",
           "vocabulary": [
             {
-              "word": "infrastructure upkeep",
+              "word": "consumed a record-high percentage of budget",
               "pos": "",
-              "definition": "基础设施养护"
+              "definition": "【🎯解题正解】 预算消耗比例创历史新高"
             },
             {
-              "word": "forest conservation",
+              "word": "budget",
               "pos": "",
-              "definition": "森林保护"
+              "definition": "n.预算"
+            },
+            {
+              "word": "conservation",
+              "pos": "",
+              "definition": "n.保护"
+            },
+            {
+              "word": "watershed",
+              "pos": "",
+              "definition": "n.(森林地带的)集水区"
             },
             {
               "word": "infrastructure",
@@ -4528,9 +4763,24 @@
               "definition": "n.基础设施"
             },
             {
-              "word": "conservation",
+              "word": "upkeep",
               "pos": "",
-              "definition": "n.保护"
+              "definition": "n.保养,维修"
+            },
+            {
+              "word": "in effect",
+              "pos": "",
+              "definition": "事实上,实际上"
+            },
+            {
+              "word": "forest conservation",
+              "pos": "",
+              "definition": "森林保护"
+            },
+            {
+              "word": "infrastructure upkeep",
+              "pos": "",
+              "definition": "基础设施养护"
             },
             {
               "word": "percentage",
@@ -4541,16 +4791,6 @@
               "word": "management",
               "pos": "n.",
               "definition": "n. 经营；管理；安排"
-            },
-            {
-              "word": "watershed",
-              "pos": "",
-              "definition": "n.(森林地带的)集水区"
-            },
-            {
-              "word": "in effect",
-              "pos": "",
-              "definition": "事实上,实际上"
             },
             {
               "word": "resources",
@@ -4581,16 +4821,6 @@
               "word": "federal",
               "pos": "adj.",
               "definition": "adj. 联邦（制）的；（与）联邦政府（有关的）的；中央集权式的"
-            },
-            {
-              "word": "budget",
-              "pos": "",
-              "definition": "n.预算"
-            },
-            {
-              "word": "upkeep",
-              "pos": "",
-              "definition": "n.保养,维修"
             },
             {
               "word": "Forest",
@@ -4652,9 +4882,9 @@
           "chunk_translation": "另一个引发全国关注的问题是 / 公共财政资金是否正在被用来 / 保护 / 建在火灾高发易发地带的私人住宅。 / 正如莫里茨所言， / 有多少次联邦资金被耗费在 / 保卫那些从一开始就不应该建在那里的私人住宅上？",
           "vocabulary": [
             {
-              "word": "construction",
-              "pos": "n.",
-              "definition": "n. 建造；建筑"
+              "word": "wildfire",
+              "pos": "",
+              "definition": "n.不易扑灭的大火,野火;大火灾"
             },
             {
               "word": "nationwide",
@@ -4662,14 +4892,19 @@
               "definition": "a.全国范围的,全国性的"
             },
             {
+              "word": "prone",
+              "pos": "",
+              "definition": "a.易于发生某事;很可能…………的"
+            },
+            {
+              "word": "construction",
+              "pos": "n.",
+              "definition": "n. 建造；建筑"
+            },
+            {
               "word": "districts",
               "pos": "n.",
               "definition": "n. 区域；地域；行政区（district 的复数形式）"
-            },
-            {
-              "word": "wildfire",
-              "pos": "",
-              "definition": "n.不易扑灭的大火,野火;大火灾"
             },
             {
               "word": "agencies",
@@ -4697,24 +4932,9 @@
               "definition": "n. 美元（dollar 的复数）；也泛指以 dollar 为单位的货币；常特指美元"
             },
             {
-              "word": "public",
-              "pos": "adj.",
-              "definition": "adj. 公众的；大众的"
-            },
-            {
               "word": "Moritz",
               "pos": "n./v.",
               "definition": "莫里茨（人名）"
-            },
-            {
-              "word": "likely",
-              "pos": "adj.",
-              "definition": "adj. 可能发生的；似乎合适的；仿佛恰当的"
-            },
-            {
-              "word": "prone",
-              "pos": "",
-              "definition": "a.易于发生某事;很可能…………的"
             },
             {
               "word": "funds",
@@ -4741,6 +4961,46 @@
           "chunk_translation": "“从公共财政支出的角度来看，这已经是一个巨大的难题了，” / 他说道。 / “我们需要用放大镜去仔细审视 / 这一现象。 / 比如问一句， / ‘等一下， / 这样做合理吗？’我们是否反而希望 / 去补贴人们在更安全的地方建房？”",
           "vocabulary": [
             {
+              "word": "guarantee safer spending of public funds",
+              "pos": "",
+              "definition": "【🎯解题正解】 确保公共资金使用更加安全"
+            },
+            {
+              "word": "avoid the redirection of federal money",
+              "pos": "",
+              "definition": "【💡题项表达】 避免联邦资金的重新分配"
+            },
+            {
+              "word": "raise more funds for fire-prone areas",
+              "pos": "",
+              "definition": "【💡题项表达】 为火灾易发地区筹集更多资金"
+            },
+            {
+              "word": "expenditure",
+              "pos": "",
+              "definition": "n.开支,支出"
+            },
+            {
+              "word": "redirect",
+              "pos": "",
+              "definition": "v.使改变用途,重新使用"
+            },
+            {
+              "word": "concentrate",
+              "pos": "",
+              "definition": "v.使集中于,使汇聚于"
+            },
+            {
+              "word": "hazard",
+              "pos": "",
+              "definition": "n.危险,隐患"
+            },
+            {
+              "word": "landscape",
+              "pos": "",
+              "definition": "n.地形,地貌"
+            },
+            {
               "word": "public expenditure",
               "pos": "",
               "definition": "公共支出"
@@ -4749,16 +5009,6 @@
               "word": "magnifying glass",
               "pos": "",
               "definition": "放大镜"
-            },
-            {
-              "word": "expenditure",
-              "pos": "",
-              "definition": "n.开支,支出"
-            },
-            {
-              "word": "concentrate",
-              "pos": "",
-              "definition": "v.使集中于,使汇聚于"
             },
             {
               "word": "perspective",
@@ -4771,29 +5021,9 @@
               "definition": "adj. 放大的；v. 放大（magnify 的 ing 形式）；增大"
             },
             {
-              "word": "landscape",
-              "pos": "",
-              "definition": "n.地形,地貌"
-            },
-            {
-              "word": "redirect",
-              "pos": "",
-              "definition": "v.使改变用途,重新使用"
-            },
-            {
               "word": "instead",
               "pos": "adv.",
               "definition": "adv. 代替；顶替；反而"
-            },
-            {
-              "word": "hazard",
-              "pos": "",
-              "definition": "n.危险,隐患"
-            },
-            {
-              "word": "public",
-              "pos": "adj.",
-              "definition": "adj. 公众的；大众的"
             },
             {
               "word": "minute",
@@ -4835,19 +5065,14 @@
               "definition": "a.相应的,由此引起的"
             },
             {
-              "word": "researchers",
-              "pos": "n.",
-              "definition": "n. 研究人员；研究者（researcher 的复数）"
-            },
-            {
-              "word": "society",
-              "pos": "n.",
-              "definition": "n. 社会（以群体形式生活在一起的人的总称）；社群（某国家、地区、时期等的群体组织）"
-            },
-            {
               "word": "shift",
               "pos": "",
               "definition": "n.(想法、做法等的)转变,改变"
+            },
+            {
+              "word": "researchers",
+              "pos": "n.",
+              "definition": "n. 研究人员；研究者（researcher 的复数）"
             },
             {
               "word": "fire",
@@ -4864,14 +5089,24 @@
           "chunk_translation": "一方面， / 关于讨论 / 关于野火的探讨需要超越单纯的气候变化范畴。 / 在过去的十年里， / 焦点一直集中在 / 气候作为主要驱动因素上， / 导致规模更大、 / 温度更高、更加炽烈的 / 森林野火。",
           "vocabulary": [
             {
-              "word": "greenhouse gases",
+              "word": "inclusive",
               "pos": "",
-              "definition": "温室气体"
+              "definition": "a.包容广阔的,范围广的"
+            },
+            {
+              "word": "worsen",
+              "pos": "",
+              "definition": "v.(使)变得更差,(使)恶化"
             },
             {
               "word": "climate change",
               "pos": "",
               "definition": "气候变化"
+            },
+            {
+              "word": "greenhouse gases",
+              "pos": "",
+              "definition": "温室气体"
             },
             {
               "word": "conversations",
@@ -4887,11 +5122,6 @@
               "word": "conditions",
               "pos": "n.",
               "definition": "n. 条件；环境；疾病"
-            },
-            {
-              "word": "inclusive",
-              "pos": "",
-              "definition": "a.包容广阔的,范围广的"
             },
             {
               "word": "wildfires",
@@ -4912,11 +5142,6 @@
               "word": "leading",
               "pos": "adj.",
               "definition": "adj. 主要的；最重要的；在（比赛或行列中）首位的"
-            },
-            {
-              "word": "worsen",
-              "pos": "",
-              "definition": "v.(使)变得更差,(使)恶化"
             },
             {
               "word": "decade",
@@ -4958,9 +5183,24 @@
           "chunk_translation": "尽管气候是一个关键要素， / 莫里茨表示， / 但它不应该掩盖人类活动在其中所扮演的角色。",
           "vocabulary": [
             {
-              "word": "at the expense of",
+              "word": "other factors should not be overlooked",
               "pos": "",
-              "definition": "以...为代价"
+              "definition": "【🎯解题正解】 其他因素也不容忽视"
+            },
+            {
+              "word": "public debates have not settled yet",
+              "pos": "",
+              "definition": "【💡题项表达】 公开辩论尚未平息"
+            },
+            {
+              "word": "fire-fighting conditions are improving",
+              "pos": "",
+              "definition": "【💡题项表达】 消防条件不断改善"
+            },
+            {
+              "word": "equation",
+              "pos": "",
+              "definition": "n.影响因素,综合体"
             },
             {
               "word": "key element",
@@ -4968,9 +5208,9 @@
               "definition": "关键要素"
             },
             {
-              "word": "equation",
+              "word": "at the expense of",
               "pos": "",
-              "definition": "n.影响因素,综合体"
+              "definition": "以...为代价"
             },
             {
               "word": "climate",
@@ -5012,9 +5252,9 @@
           "chunk_translation": "“人类社会系统 / 与我们所生息繁衍的自然景观是紧密交织在一起的，” / 他说道。 / 未能充分认识到这一点， / 他指出， / 会导致“对该问题的 / 片面不完整理解”。 / 我们对该问题的认知以及对潜在解决方案的理解都需要做出改变。",
           "vocabulary": [
             {
-              "word": "interactions",
-              "pos": "n.",
-              "definition": "n. 互动；交流"
+              "word": "understand the interrelations of man and nature",
+              "pos": "",
+              "definition": "【🎯解题正解】 了解人与自然的相互关系"
             },
             {
               "word": "simplified",
@@ -5025,6 +5265,11 @@
               "word": "perception",
               "pos": "",
               "definition": "n.认识,观念,看法"
+            },
+            {
+              "word": "interactions",
+              "pos": "n.",
+              "definition": "n. 互动；交流"
             },
             {
               "word": "landscapes",
@@ -5106,9 +5351,54 @@
           "chunk_translation": "与此同时， / 人们依然把火灾视为 / 一种外部威胁 / 一种必须被扑灭压制的威胁。 / 但若承认火灾在人类聚居环境中不可避免的存在， / 在人类聚居景观中， / 就能够促成 / 更明智的规划 / 以及 / 更严密的建筑规范。 / “我们已经割裂了自身 / 从学会如何共处 / 与火灾共处的联系，” / 莫里茨说道。 / “这确实非常重要， / 去理解并努力重建这种与自然之火共生的纽带。”",
           "vocabulary": [
             {
+              "word": "come to terms with",
+              "pos": "",
+              "definition": "【🎯解题正解】 达成协议"
+            },
+            {
+              "word": "do away with",
+              "pos": "",
+              "definition": "【💡题项表达】 废除"
+            },
+            {
+              "word": "pay a price for",
+              "pos": "",
+              "definition": "【💡题项表达】 付出代价"
+            },
+            {
+              "word": "keep away from",
+              "pos": "",
+              "definition": "【💡题项表达】 keep away from"
+            },
+            {
+              "word": "necessity",
+              "pos": "",
+              "definition": "n.必然,必要"
+            },
+            {
+              "word": "inevitable",
+              "pos": "",
+              "definition": "a.必然发生的,难以避免的"
+            },
+            {
+              "word": "presence",
+              "pos": "",
+              "definition": "n.存在,出现"
+            },
+            {
               "word": "out of necessity",
               "pos": "",
               "definition": "出于必要"
+            },
+            {
+              "word": "tease",
+              "pos": "",
+              "definition": "v.梳理"
+            },
+            {
+              "word": "tease out",
+              "pos": "",
+              "definition": "梳理,疏通"
             },
             {
               "word": "acknowledging",
@@ -5119,11 +5409,6 @@
               "word": "disconnected",
               "pos": "adj.",
               "definition": "adj. 分离的；断开的；不连贯的"
-            },
-            {
-              "word": "inevitable",
-              "pos": "",
-              "definition": "a.必然发生的,难以避免的"
             },
             {
               "word": "controlled",
@@ -5144,16 +5429,6 @@
               "word": "connection",
               "pos": "n.",
               "definition": "n. 关系；联系；连接"
-            },
-            {
-              "word": "necessity",
-              "pos": "",
-              "definition": "n.必然,必要"
-            },
-            {
-              "word": "tease out",
-              "pos": "",
-              "definition": "梳理,疏通"
             },
             {
               "word": "unleashed",
@@ -5181,11 +5456,6 @@
               "definition": "adj. 重要的；重大的；（人）影响很大的"
             },
             {
-              "word": "presence",
-              "pos": "",
-              "definition": "n.存在,出现"
-            },
-            {
               "word": "Colorado",
               "pos": "n.",
               "definition": "n. 科罗拉多州（美国西部落基山区一州）；科罗拉多河（源出落基山脉；流经美国西南部）"
@@ -5201,11 +5471,6 @@
               "definition": "n. 政策；方针；策略"
             },
             {
-              "word": "possible",
-              "pos": "adj.",
-              "definition": "adj. 可能的；可能做到的；可能发生的"
-            },
-            {
               "word": "crucial",
               "pos": "adj.",
               "definition": "adj. 至关重要的；决定性的；极好的"
@@ -5219,11 +5484,6 @@
               "word": "living",
               "pos": "adj.",
               "definition": "adj. 活着的；活的；在使用的"
-            },
-            {
-              "word": "tease",
-              "pos": "",
-              "definition": "v.梳理"
             },
             {
               "word": "treat",

@@ -15,9 +15,14 @@
           "chunk_translation": "在追求完美草坪的过程中， / 全国各地的房主们正在走一条捷径—— / 然而正是自然生态环境 / 在为此付出沉重代价。 / 每年约有800万平方米的人造塑料草坪售出，但反对的呼声如今已蔓延至园艺界的最高层圈子。 / 切尔西花展已明令禁止人造假草 / 进入今年的展会， / 并宣称其与该展会的生态理念背道而驰。 / 英国皇家园艺学会（RHS）， / 该学会负责在西伦敦 / 举办这一年度盛会， / 表示出台这项禁令是 / 鉴于塑料草坪对自然环境和生物多样性所造成的破坏。",
           "vocabulary": [
             {
-              "word": "Horticultural",
-              "pos": "adj.",
-              "definition": "adj. 园艺的；园艺学的"
+              "word": "is harmful to the environment",
+              "pos": "",
+              "definition": "【🎯解题正解】 对环境有害"
+            },
+            {
+              "word": "is overpraised in the annual show",
+              "pos": "",
+              "definition": "【💡题项表达】 在年度展会上被高估"
             },
             {
               "word": "biodiversity",
@@ -75,16 +80,6 @@
               "definition": "n. 圆；循环（circle的复数）；圆圈"
             },
             {
-              "word": "Chelsea",
-              "pos": "n.",
-              "definition": "n. 切尔西（英国伦敦西部的一个地区；曾为文艺界人士聚居地）；切尔西队（英格兰足球俱乐部"
-            },
-            {
-              "word": "Society",
-              "pos": "n.",
-              "definition": "n. 社会（以群体形式生活在一起的人的总称）；社群（某国家、地区、时期等的群体组织）；社团"
-            },
-            {
               "word": "paying",
               "pos": "v.",
               "definition": "v. 支付；付款；注意"
@@ -103,11 +98,6 @@
               "word": "spread",
               "pos": "v.",
               "definition": "v. 展开；打开；张开"
-            },
-            {
-              "word": "Flower",
-              "pos": "n.",
-              "definition": "n. 花；开花植物；精华"
             },
             {
               "word": "banned",
@@ -148,11 +138,6 @@
               "word": "ethos",
               "pos": "n.",
               "definition": "n. （某团体的）精神特质；道德意识"
-            },
-            {
-              "word": "Royal",
-              "pos": "adj.",
-              "definition": "adj. 国王的；女王的；王室的"
             },
             {
               "word": "lawn",
@@ -234,11 +219,6 @@
               "definition": "adj. 凉快的；凉爽的；清凉的"
             },
             {
-              "word": "Horne",
-              "pos": "n.",
-              "definition": "霍恩（人名）"
-            },
-            {
               "word": "grass",
               "pos": "n.",
               "definition": "n. 草；草地"
@@ -262,6 +242,26 @@
           "slashed_text": "The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes. / A Twitter account , / which claims to “cut through the greenwash” of artificial grass , / already has more than 20 , / 000 followers. / It is trying to encourage people to sign two petitions , / one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax / on such lawns. / They have gathered 7 , / 276 and 11 , / 282 signatures.",
           "chunk_translation": "皇家园艺学会做出这一决定之际，环保倡导者们也正努力唤起公众对人造假草所致危害的认知。 / 一个推特账号， / 该账号声称要“戳穿人造草坪的伪环保谎言”， / 如今已拥有超过2 / 万名关注者。 / 该账号正努力鼓励公众签署两份请愿书， / 一份呼吁全面禁止销售塑料草坪，另一份则呼吁对此类草坪开征“生态损害”税 / 对此类人造草坪征税。 / 两份请愿书已分别征集到了7 / 276个和11 / 282个签名。",
           "vocabulary": [
+            {
+              "word": "resistance to fake grass use",
+              "pos": "",
+              "definition": "【🎯解题正解】 抵抗假草的使用"
+            },
+            {
+              "word": "disappointment with RHS",
+              "pos": "",
+              "definition": "【💡题项表达】 对 RHS 感到失望"
+            },
+            {
+              "word": "anger over the proposed tax",
+              "pos": "",
+              "definition": "【💡题项表达】 对拟议税收的愤怒"
+            },
+            {
+              "word": "concern about real grass supply",
+              "pos": "",
+              "definition": "【💡题项表达】 对真草供应的担忧"
+            },
             {
               "word": "campaigners",
               "pos": "n.",
@@ -306,11 +306,6 @@
               "word": "petitions",
               "pos": "n.",
               "definition": "n. 请愿（petition 的复数）；请愿书；（法律）诉状（向法院提出的申请）"
-            },
-            {
-              "word": "decision",
-              "pos": "n.",
-              "definition": "n. 决定；抉择"
             },
             {
               "word": "gathered",
@@ -372,6 +367,11 @@
           "chunk_translation": "然而， / 假草的支持者指出， / 天然草坪同样 / 会对环境产生影响， / 因为真草需要定期修剪，从而通常会消耗电力或汽油。 / 该行业还指出， / 天然草坪需要消耗大量水资源、 / 除草剂或其他养护药物，并且 / 那些 / 铺设了人造假草的人往往更频繁地使用他们的花园。 / 业内人士还宣称， / 那些 / 铺设假草的人平均会花费500英镑 / 购买树木或灌木 / 用于装点花园， / 这同样能为昆虫 / 提供栖息家园。",
           "vocabulary": [
             {
+              "word": "the disadvantages of growing real grass",
+              "pos": "",
+              "definition": "【🎯解题正解】 种植真草的缺点"
+            },
+            {
               "word": "environmental",
               "pos": "adj.",
               "definition": "adj. 自然环境的；生态环境的"
@@ -395,11 +395,6 @@
               "word": "treatments",
               "pos": "n.",
               "definition": "n. 治疗；疗法；处理"
-            },
-            {
-              "word": "therefore",
-              "pos": "adv.",
-              "definition": "adv. 因此；所以"
             },
             {
               "word": "industry",
@@ -520,6 +515,41 @@
           "slashed_text": "In response to another petition last year / about banning fake lawns , / which gathered 30 , / 000 signatures , / the government responded / that it has “no plans to ban the use of artificial grass”. / It added : / “We prefer to help people and organizations make the right choice rather than legislating / on such matters. / However , / the use of artificial grass must comply with the legal and policy safeguards / in place to protect biodiversity and ensure sustainable drainage / while measures such as the strengthened biodiversity duty should serve to encourage public authorities to consider sustainable alternatives.”",
           "chunk_translation": "针对去年另一份请愿书 / 关于禁止人造草坪的提议， / 该请愿征集了3 / 万个签名， / 英国政府回应称， / 目前“没有计划禁止使用人造草坪”。 / 政府补充道： / “我们更倾向于引导个人与机构做出明智选择，而非直接就此类事项 / 立法规制。 / 然而， / 人造草坪的使用必须遵守现行的法律法规和政策保障措施， / 以保护生物多样性并确保可持续排水， / 同时强化生物多样性职责等举措也应鼓励公共部门积极考虑可持续的替代方案。”",
           "vocabulary": [
+            {
+              "word": "Remind its users to obey existing rules",
+              "pos": "",
+              "definition": "【🎯解题正解】 提醒用户遵守现有规则。"
+            },
+            {
+              "word": "Urge legislation to restrict its use",
+              "pos": "",
+              "definition": "【💡题项表达】 敦促立法限制其使用。"
+            },
+            {
+              "word": "Take measures to guarantee its quality",
+              "pos": "",
+              "definition": "【💡题项表达】 采取措施保证其质量。"
+            },
+            {
+              "word": "has been a controversial product",
+              "pos": "",
+              "definition": "【🎯解题正解】 一直是一个有争议的产品"
+            },
+            {
+              "word": "is being improved continuously",
+              "pos": "",
+              "definition": "【💡题项表达】 正在不断完善中"
+            },
+            {
+              "word": "has seen a market share decline",
+              "pos": "",
+              "definition": "【💡题项表达】 市场份额下降"
+            },
+            {
+              "word": "is becoming increasingly affordable",
+              "pos": "",
+              "definition": "【💡题项表达】 正变得越来越实惠"
+            },
             {
               "word": "organizations",
               "pos": "n.",
@@ -646,11 +676,6 @@
               "definition": "n. 选择；抉择；选择的机会"
             },
             {
-              "word": "rather",
-              "pos": "adv.",
-              "definition": "adv. 颇；相当；宁愿"
-            },
-            {
               "word": "comply",
               "pos": "v.",
               "definition": "v. 遵从；服从；（商品）符合特定标准"
@@ -669,11 +694,6 @@
               "word": "should",
               "pos": "v.",
               "definition": "v. （用于纠正别人）应该；（用于建议）该；可以"
-            },
-            {
-              "word": "public",
-              "pos": "adj.",
-              "definition": "adj. 公众的；大众的；公共的"
             },
             {
               "word": "lawns",
@@ -1552,6 +1572,26 @@
           "chunk_translation": "但政府在一件事上确实说对了： / 全美 / 国家公园正 / 深陷危机之中。 / 总计来看， / 它们积压的维修维护开支已超过120亿美元。 / 道路、 / 步道、 / 公共洗手间、 / 游客中心以及其他基础设施正破败不堪。",
           "vocabulary": [
             {
+              "word": "Poorly maintained infrastructure.\nᆇี൫ज@JOEE ༯໶\n\n04",
+              "pos": "",
+              "definition": "【🎯解题正解】 Poorly maintained infrastructure.\nᆇี൫ज@JOEE ༯໶\n\n04"
+            },
+            {
+              "word": "Decline of business profits",
+              "pos": "",
+              "definition": "【💡题项表达】 营业利润下降。"
+            },
+            {
+              "word": "Inadequate commercialization",
+              "pos": "",
+              "definition": "【💡题项表达】 商业化程度不够。"
+            },
+            {
+              "word": "Lack of transportation services",
+              "pos": "",
+              "definition": "【💡题项表达】 缺乏交通服务。"
+            },
+            {
               "word": "administration",
               "pos": "n.",
               "definition": "n. 管理；行政"
@@ -1705,6 +1745,26 @@
           "chunk_translation": "此外， / 过度私有化无疑会削弱每年3亿游客造访国家公园的核心初衷之一： / 即亲近自然，逃离充斥在日常生活中的 / 喧嚣商业浪潮。",
           "vocabulary": [
             {
+              "word": "spoil visitor experience",
+              "pos": "",
+              "definition": "【🎯解题正解】 破坏游客体验"
+            },
+            {
+              "word": "help preserve nature",
+              "pos": "",
+              "definition": "【💡题项表达】 帮助保护自然"
+            },
+            {
+              "word": "bring operational pressure",
+              "pos": "",
+              "definition": "【💡题项表达】 带来运营压力"
+            },
+            {
+              "word": "boost visitors to parks",
+              "pos": "",
+              "definition": "【💡题项表达】 增加公园游客数量"
+            },
+            {
               "word": "concessionaires",
               "pos": "n.",
               "definition": "受让人；特许权获得者（concessionaire 的复数）"
@@ -1823,6 +1883,11 @@
           "slashed_text": "The real problem is / that the parks have been chronically starved of funding. / We conducted a comprehensive survey examining how U.S. / residents view their national parks , / and we found / that Americans place a very high value / on them — / whether or not they actually visit them. / The peer-reviewed economic survey of 700 U.S. / taxpayers , / conducted / by mail and internet , / also found / that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact. / Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.",
           "chunk_translation": "真正的根源在于， / 国家公园长期以来一直极度匮乏资金支持。 / 我们开展了一项全面的调查，旨在考察美国 / 居民如何看待自己的国家公园， / 并且我们发现 / 美国民众对国家公园赋予了极高的价值 / 在其身上—— / 无论他们是否真正去实地游览过。 / 这项经过同行评审、针对700名美国 / 纳税人的经济调查， / 通过 / 信件邮寄和互联网渠道开展， / 同样发现 / 公众愿意支付相当数额的资金，以确保国家公园及其保护项目完好无损。 / 约81%的受访者表示，他们愿意在未来10年中额外纳税，以避免对国家公园预算进行任何削减。",
           "vocabulary": [
+            {
+              "word": "agree to pay extra for the national parks",
+              "pos": "",
+              "definition": "【🎯解题正解】 同意为国家公园支付额外费用"
+            },
             {
               "word": "comprehensive",
               "pos": "adj.",
@@ -1967,6 +2032,26 @@
           "slashed_text": "The national parks provide great value to U.S. / residents both as places to escape and as symbols of nature. / On top of this , / they produce value / from their extensive educational programs , / their positive impact on the climate / through carbon sequestration , / their contribution to our cultural and artistic life , / and of course / through tourism. / The parks also help keep America’s past alive , / working / with thousands of local jurisdictions around the country to protect historical sites — / including Ellis Island and Gettysburg — / and to bring the stories of these places to life.",
           "chunk_translation": "国家公园为美国 / 居民提供了巨大的价值，它们既是心灵避难所，也是大自然的永恒象征。 / 除此之外， / 它们还创造了巨大价值， / 通过其广泛的科普教育项目、 / 其对气候产生的积极影响 / 通过碳汇储存作用、 / 对我们文化和艺术生活的滋养贡献， / 以及当然 / 来自旅游观光业的收益。 / 国家公园还有助于守护美国的鲜活历史记忆， / 通过携手 / 全美各地数以千计的地方管辖部门共同保护历史遗迹—— / 包括埃利斯岛和葛底斯堡—— / 并让这些遗迹背后的历史故事重现生机。",
           "vocabulary": [
+            {
+              "word": "have historical significance",
+              "pos": "",
+              "definition": "【🎯解题正解】 具有历史意义"
+            },
+            {
+              "word": "lead the way in tourism",
+              "pos": "",
+              "definition": "【💡题项表达】 引领旅游业"
+            },
+            {
+              "word": "sponsor research on climate",
+              "pos": "",
+              "definition": "【💡题项表达】 赞助气候研究"
+            },
+            {
+              "word": "provide an income for the locals",
+              "pos": "",
+              "definition": "【💡题项表达】 为当地人提供收入"
+            },
             {
               "word": "sequestration",
               "pos": "n.",
@@ -2141,6 +2226,16 @@
           "slashed_text": "The parks do all this on a shoestring. / Congress allocates only $3 billion a year to the national park system — / an amount / that has been flat / since 2001 ( / in inflation-adjusted dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package. / Meanwhile , / the number of annual visitors has increased / by more than 50% / since 1980 , / and now stands at 330 million visitors per year.",
           "chunk_translation": "然而国家公园是在极其拮据的微薄预算下完成这一切的。 / 美国国会每年仅向国家公园系统拨款30亿美元—— / 这一数额 / 自2001年以来一直处于停滞状态 / （2001年以来的通胀调整后美元）， / 唯一的例外是2009年作为奥巴马经济刺激方案的一部分所获得的一次性资金注入。 / 与此同时， / 每年的游客接待量却增长了 / 超过50% / 自1980年以来， / 目前已达到每年3.3亿人次的高位。",
           "vocabulary": [
+            {
+              "word": "is in need of a funding increase",
+              "pos": "",
+              "definition": "【🎯解题正解】 需要增加资金"
+            },
+            {
+              "word": "is able to meet visitors’ demands",
+              "pos": "",
+              "definition": "【💡题项表达】 能够满足游客的需求"
+            },
             {
               "word": "shoestring",
               "pos": "n.",
@@ -3117,6 +3212,26 @@
           "chunk_translation": "互联网或许只是改变了我们所记忆的具体内容， / 而非削弱了我们的记忆能力， / 哥伦比亚大学心理学教授贝齐·斯帕罗指出。 / 在2011年， / 斯帕罗主导了一项研究，在研究中 / 参与者被要求在电脑中记录40条冷知识（例如“鸵鸟的眼睛比它的脑子还大” / 这类 / 常识细节）。 / 一半的参与者被告知这些信息随后会被彻底删除， / 而另一半则被告知信息将被完整保存。 / 结果你猜怎么着？ / 后一组在随后接受相关测试时几乎毫不费力去回忆这些信息， / 在被提问时， / 因为他们清楚地知道自己随时可以在电脑中 / 重新找到它们。 / 在同一项研究中， / 一组参与者被要求既记住具体信息，又记住信息所存放的文件夹位置。 / 结果他们并未记住信息本身， / 却清楚地记住了如何找到对应的文件夹。 / 换句话说， / 人类的记忆力并非在退化，而是在“主动适应新的通信技术”， / 斯帕罗指出。",
           "vocabulary": [
             {
+              "word": "switch its focus of memory",
+              "pos": "",
+              "definition": "【🎯解题正解】 切换记忆焦点"
+            },
+            {
+              "word": "analyze information in detail",
+              "pos": "",
+              "definition": "【💡题项表达】 详细分析信息"
+            },
+            {
+              "word": "collect information efficiently",
+              "pos": "",
+              "definition": "【💡题项表达】 高效收集信息"
+            },
+            {
+              "word": "extend its memory duration",
+              "pos": "",
+              "definition": "【💡题项表达】 延长其记忆时间"
+            },
+            {
               "word": "communications",
               "pos": "n.",
               "definition": "n. 传播学；通讯；交通联系"
@@ -3321,6 +3436,21 @@
           "chunk_translation": "在非常切实的意义上， / 互联网正在变成我们个人记忆的“外挂硬盘”， / 这一过程被称为“认知卸载”。在传统时代， / 这一角色主要是由 / 资料库、 / 图书馆 / 以及身边其他人来承担的。 / 比如你的父亲可能从来记不住家人的生日， / 因为你的母亲总会记住， / 就是这个道理。 / 有人担忧 / 这正在产生破坏性负面影响 / 对整个社会而言， / 但斯帕罗却看到了其积极的一面。 / 也许， / 她指出， / 这一趋势将促使我们的学习方式发生转变，从过度聚焦 / 于个别事实和死记硬背，转向着重培养 / 更为宏观的概念性思维—— / 而这正是 / 互联网本身所无法直接提供的能力。 / “我个人从未认为 / 死记硬背各种事物 / 有多么巨大的智力价值，” / 斯帕罗表示， / 并补充道， / 我们并没有丧失记忆的能力。",
           "vocabulary": [
             {
+              "word": "lessens our memory burdens",
+              "pos": "",
+              "definition": "【🎯解题正解】 减轻我们的记忆负担"
+            },
+            {
+              "word": "keeps our memory from failing",
+              "pos": "",
+              "definition": "【💡题项表达】 防止我们的记忆力衰退"
+            },
+            {
+              "word": "It may reform our learning approach",
+              "pos": "",
+              "definition": "【🎯解题正解】 它可能会改变我们的学习方法。"
+            },
+            {
               "word": "Traditionally",
               "pos": "adv.",
               "definition": "adv. 传统上；习惯上；以传统方式"
@@ -3446,11 +3576,6 @@
               "definition": "n. 步骤；程序"
             },
             {
-              "word": "society",
-              "pos": "n.",
-              "definition": "n. 社会（以群体形式生活在一起的人的总称）；社群（某国家、地区、时期等的群体组织）；社团"
-            },
-            {
               "word": "Sparrow",
               "pos": "n.",
               "definition": "n. 麻雀；（任何在体积或颜色方面）像麻雀的鸟类"
@@ -3544,6 +3669,21 @@
           "slashed_text": "Still other experts say it’s too soon to understand how the Internet affects our brains. / There is no experimental evidence showing / that it interferes with  our ability to focus , / for instance , / wrote psychologists Christopher Chabris and Daniel J. / Simons. / And surfing the web exercised the brain more than reading did among computer-savvy older adults in a 2008 study involving 24 participants at the Semel Institute / for Neuroscience and Human Behavior at the University of California , / Los Angeles.",
           "chunk_translation": "不过，其他专家认为，现在就给互联网如何影响人类大脑下定论还为时过早。 / 目前尚无确凿的实验证据表明 / 互联网干扰了我们的专注力， / 举例来说， / 心理学家克里斯托弗·查布里斯和丹尼尔·J· / 西蒙斯写道。 / 在加州大学洛杉矶分校塞梅尔神经科学与人类行为研究所2008年开展的一项涉及24名受试者的研究中，对于精通电脑的老年人而言，网上冲浪比阅读书籍更能锻炼大脑活力， / 加利福尼亚大学， / 洛杉矶分校。",
           "vocabulary": [
+            {
+              "word": "requires further academic research",
+              "pos": "",
+              "definition": "【🎯解题正解】 需要进一步的学术研究"
+            },
+            {
+              "word": "is most studied in older adults",
+              "pos": "",
+              "definition": "【💡题项表达】 研究最多的是老年人"
+            },
+            {
+              "word": "is reflected in our reading speed",
+              "pos": "",
+              "definition": "【💡题项表达】 体现在我们的阅读速度上"
+            },
             {
               "word": "psychologists",
               "pos": "n.",
@@ -3729,6 +3869,11 @@
           "chunk_translation": "“在我们日益加深的互联网依赖中可能确实存在代价， / 但我认为 / 总体而言其利处必将远远大于弊端，” / 心理学教授本杰明·斯托姆观察指出。 / “记忆模式正在发生改变似乎已显而易见， / 但这种转变是在向更好的方向发展吗？ / 还是相反？” / 在现阶段， / 我们尚且无法确知。”",
           "vocabulary": [
             {
+              "word": "the Internet is weakening our memory",
+              "pos": "",
+              "definition": "【🎯解题正解】 互联网正在削弱我们的记忆"
+            },
+            {
               "word": "associated",
               "pos": "adj.",
               "definition": "adj. 有关联的；相关的"
@@ -3784,11 +3929,6 @@
               "definition": "adj. 变化中的；改变中的；v. 改变"
             },
             {
-              "word": "imagine",
-              "pos": "v.",
-              "definition": "v. 想象；设想"
-            },
-            {
               "word": "overall",
               "pos": "adj.",
               "definition": "adj. 总的；全面的"
@@ -3802,11 +3942,6 @@
               "word": "memory",
               "pos": "n.",
               "definition": "n. 记忆力；记性；记忆"
-            },
-            {
-              "word": "costs",
-              "pos": "n.",
-              "definition": "n. 费用；损失"
             },
             {
               "word": "Storm",
@@ -4652,6 +4787,36 @@
           "chunk_translation": "青少年群体身上充满了矛盾色彩。 / 这是一种温和且客观的表述方式，用来概括 / 父母们在日常生活中 / 经常用更为激烈的言辞所宣泄的感受。 / 但这种矛盾性不仅存在于个人生活体验中，同样具有科学上的深刻内涵。 / 在青春发育期， / 曾经无助且依赖性强、 / 在几乎所有事情上 / 都全权仰仗成年人的 / 儿童， / 正在转变为能够独当一面的独立个体， / 他们不仅能够自食其力，还能互相扶持。 / 但与此同时， / 曾经温顺听话的孩童也蜕变为了桀骜不驯、热衷冒险的叛逆少年。",
           "vocabulary": [
             {
+              "word": "develop opposite personality traits",
+              "pos": "",
+              "definition": "【🎯解题正解】 发展相反的性格特征"
+            },
+            {
+              "word": "have fond memories of their past",
+              "pos": "",
+              "definition": "【💡题项表达】 对他们的过去有美好的回忆"
+            },
+            {
+              "word": "show affection to their parents",
+              "pos": "",
+              "definition": "【💡题项表达】 向父母表达爱意"
+            },
+            {
+              "word": "Why teenagers are self-contradictory",
+              "pos": "",
+              "definition": "【🎯解题正解】 为什么青少年会自相矛盾。"
+            },
+            {
+              "word": "Why teenagers are risk-sensitive",
+              "pos": "",
+              "definition": "【💡题项表达】 为什么青少年对风险敏感。"
+            },
+            {
+              "word": "How teenagers develop prosociality",
+              "pos": "",
+              "definition": "【💡题项表达】 青少年如何培养亲社会性。"
+            },
+            {
               "word": "considerably",
               "pos": "adv.",
               "definition": "adv. 非常；相当多地"
@@ -4781,6 +4946,21 @@
           "chunk_translation": "发表在《儿童发展》期刊上的一项新研究， / 由莱顿大学的埃芙琳·克罗内及其同事共同开展， / 表明： / 青少年的积极面与消极面其实是相伴相生、 / 携手并进的。 / 这项研究代表了针对青春期认知的 / 新一轮思潮。 / 长期以来， / 科学家和政策制定者都把注意力集中在这样一种观念上： / 青少年本身就是一个 / 亟待解决的问题。 / 而新的研究工作则强调： / 青春期既是充满风险的时期，更是蕴藏无限机遇的黄金阶段。",
           "vocabulary": [
             {
+              "word": "provides a new insight into adolescence",
+              "pos": "",
+              "definition": "【🎯解题正解】 提供了对青春期的新见解"
+            },
+            {
+              "word": "examines teenagers’ emotional problems",
+              "pos": "",
+              "definition": "【💡题项表达】 检查青少年的情绪问题"
+            },
+            {
+              "word": "highlights negative adolescent behavior",
+              "pos": "",
+              "definition": "【💡题项表达】 突出青少年的负面行为"
+            },
+            {
               "word": "concentrated",
               "pos": "adj.",
               "definition": "adj. 集中的；全神贯注的；全力以赴的"
@@ -4894,6 +5074,21 @@
           "slashed_text": "The researchers studied “prosocial” and rebellious traits / in more than 200 children and young adults , / ranging from 11 to 28 years old. / The participants filled out questionnaires about how often they did things / that were altruistic and positive , / like sacrificing their own interests to help a friend , / or rebellious and negative , / like getting drunk or staying out late. / Other studies have shown / that rebellious behavior increases as you become a teenager and then fades away as you grow older. / But the new study shows / that , / interestingly , / the same pattern holds / for prosocial behavior. / Teenagers were  more likely than younger children or adults to report / that they did things like unselfishly help a friend.",
           "chunk_translation": "研究人员深入分析了“亲社会”与叛逆特质， / 在200多名儿童及青年群体中， / 受试者的年龄跨度从11岁到28岁不等。 / 受试者填写了关于他们从事某些行为频率的调查问卷， / 包括那些利他且积极的行为， / 如牺牲自身利益去帮助朋友， / 或是叛逆且负面的行为， / 如酗酒买醉或夜不归宿。 / 其他研究表明， / 叛逆行为在步入青少年时期时会显著增加，随后随着年龄增长而逐渐消退。 / 然而这项新研究表明， / 即便 / 令人饶有兴味的是， / 同样的规律 / 在亲社会行为上也完全适用。 / 相比年幼儿童或成年人，青少年更倾向于报告 / 自己曾做出诸如无私帮助朋友等亲社会行为。",
           "vocabulary": [
+            {
+              "word": "It tends to peak in adolescence",
+              "pos": "",
+              "definition": "【🎯解题正解】 它往往在青春期达到顶峰。"
+            },
+            {
+              "word": "It is cultivated through education",
+              "pos": "",
+              "definition": "【💡题项表达】 它是通过教育培养的。"
+            },
+            {
+              "word": "It is subject to family influence",
+              "pos": "",
+              "definition": "【💡题项表达】 它受到家庭的影响。"
+            },
             {
               "word": "questionnaires",
               "pos": "n.",
@@ -5020,11 +5215,6 @@
               "definition": "n. 朋友；友人；（社交网站上的）好友"
             },
             {
-              "word": "likely",
-              "pos": "adj.",
-              "definition": "adj. 可能发生的；似乎合适的；仿佛恰当的"
-            },
-            {
               "word": "drunk",
               "pos": "adj.",
               "definition": "adj. 喝醉的；醉酒的；陶醉的"
@@ -5107,11 +5297,6 @@
               "word": "develop",
               "pos": "v.",
               "definition": "v. （使）成长；发育；发展"
-            },
-            {
-              "word": "likely",
-              "pos": "adj.",
-              "definition": "adj. 可能发生的；似乎合适的"
             }
           ]
         },
@@ -5122,6 +5307,26 @@
           "slashed_text": "Is there some common factor / that underlies these apparently contradictory developments? / One idea is / that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks , / benefits and costs. / “Reward sensitivity” measures how much reward it takes to outweigh risk.",
           "chunk_translation": "是否存在某种共同的底层因素， / 在驱动着这些表面上看似矛盾的发展变化？ / 一种解释是， / 青少年的行为与研究人员所谓的“奖励敏感性”紧密相关。任何决策制定始终都涉及到权衡奖赏与风险、 / 收益与代价。 / “奖励敏感性”所衡量的，正是需要多大程度的奖励回报才足以压倒所面临的风险。",
           "vocabulary": [
+            {
+              "word": "care a lot about social recognition",
+              "pos": "",
+              "definition": "【🎯解题正解】 非常关心社会认可"
+            },
+            {
+              "word": "overstress their influence on others",
+              "pos": "",
+              "definition": "【💡题项表达】 过分强调自己对他人的影响"
+            },
+            {
+              "word": "become anxious about their future",
+              "pos": "",
+              "definition": "【💡题项表达】 对他们的未来感到焦虑"
+            },
+            {
+              "word": "endeavor to live a joyful life",
+              "pos": "",
+              "definition": "【💡题项表达】 努力过上幸福的生活"
+            },
             {
               "word": "contradictory",
               "pos": "adj.",
@@ -5161,11 +5366,6 @@
               "word": "behavior",
               "pos": "n.",
               "definition": "n. 行为；举止"
-            },
-            {
-              "word": "Decision",
-              "pos": "n.",
-              "definition": "n. 决定；抉择"
             },
             {
               "word": "involves",
@@ -5216,11 +5416,6 @@
               "word": "risks",
               "pos": "n.",
               "definition": "n. 风险；危险（risk 的复数）；v. 冒……的危险"
-            },
-            {
-              "word": "costs",
-              "pos": "n.",
-              "definition": "n. 费用；损失；诉讼费（cost 的复数）"
             }
           ]
         },

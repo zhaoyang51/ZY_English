@@ -15,14 +15,19 @@
           "chunk_translation": "艺术市场历史上一个世纪以来最长的牛市以戏剧性的方式宣告结束，拍卖了56件作品 / 由达明安·赫斯特创作 / 名为《美丽在我脑海中永存》 / 在苏富比拍卖行 / 在伦敦 / 于2008年9月15日 / 除两件作品外其余全部售出 / 成交额超过7000万英镑 / 创下了单个艺术家的拍卖纪录 / 这是最后的胜利 / 正当拍卖师喊出竞价时 / 在纽约，华尔街最古老的银行之一 / 华尔街上的 / 雷曼兄弟 / 申请了 / 破产",
           "vocabulary": [
             {
-              "word": "filed for bankruptcy",
-              "pos": "n.",
-              "definition": "申请破产；宣告破产"
+              "word": "it was successfully made just before the world financial crisis",
+              "pos": "",
+              "definition": "【🎯解题正解】 它是在世界金融危机之前成功制作的"
             },
             {
-              "word": "on a dramatic note",
+              "word": "bull",
               "pos": "",
-              "definition": "以一种戏剧般的方式"
+              "definition": "n.(股票市场上)买空者"
+            },
+            {
+              "word": "note",
+              "pos": "",
+              "definition": "n.气氛,特征"
             },
             {
               "word": "auctioneer",
@@ -35,14 +40,24 @@
               "definition": "n.破产"
             },
             {
-              "word": "Beautiful",
-              "pos": "adj.",
-              "definition": "adj. 美丽的；漂亮的；令人愉悦的"
-            },
-            {
               "word": "bull run",
               "pos": "",
               "definition": "牛市态势"
+            },
+            {
+              "word": "on a dramatic note",
+              "pos": "",
+              "definition": "以一种戏剧般的方式"
+            },
+            {
+              "word": "filed for bankruptcy",
+              "pos": "n.",
+              "definition": "申请破产；宣告破产"
+            },
+            {
+              "word": "Beautiful",
+              "pos": "adj.",
+              "definition": "adj. 美丽的；漂亮的；令人愉悦的"
             },
             {
               "word": "dramatic",
@@ -105,16 +120,6 @@
               "definition": "v. 申请；正式提交；提起（诉讼、指控等）"
             },
             {
-              "word": "bull",
-              "pos": "",
-              "definition": "n.(股票市场上)买空者"
-            },
-            {
-              "word": "note",
-              "pos": "",
-              "definition": "n.气氛,特征"
-            },
-            {
               "word": "sale",
               "pos": "n.",
               "definition": "n. 出售；销售"
@@ -129,19 +134,39 @@
           "chunk_translation": "全球艺术品市场在此前失去上涨势头已经有一段 / 时间了 / 在经历了自2003年以来的惊人上涨之后 / 自2003年起 / 在2007年的顶峰时期，其价值约为650亿美元 / 克莱尔·麦克安德鲁估计 / 艺术经济学研究公司的创始人 / 一家研究机构—— / 是五年前数字的两倍 / 从那时起，其价值可能已跌至500亿美元 / 但该市场引发的兴趣远远超出了其自身规模 / 因为它汇集了巨额财富 / 极度膨胀的自负 / 贪婪 / 以及极少有其他行业能够比拟的激情与争议",
           "vocabulary": [
             {
+              "word": "Art Market in Decline",
+              "pos": "",
+              "definition": "【🎯解题正解】 艺术市场衰退"
+            },
+            {
+              "word": "Fluctuation of Art Prices",
+              "pos": "",
+              "definition": "【💡题项表达】 艺术品价格波动"
+            },
+            {
+              "word": "Up-to-Date Art Auctions",
+              "pos": "",
+              "definition": "【💡题项表达】 最新的艺术品拍卖"
+            },
+            {
+              "word": "Shifted Interest in Arts",
+              "pos": "",
+              "definition": "【💡题项表达】 对艺术的兴趣转移"
+            },
+            {
+              "word": "momentum",
+              "pos": "",
+              "definition": "n.势头"
+            },
+            {
               "word": "bewilderingly",
               "pos": "",
               "definition": "ad.令人费解地"
             },
             {
-              "word": "enormous egos",
+              "word": "greed",
               "pos": "",
-              "definition": "自负,以自我为中心"
-            },
-            {
-              "word": "come down to",
-              "pos": "",
-              "definition": "(价格,程度,数量)下降到"
+              "definition": "n.贪婪"
             },
             {
               "word": "controversy",
@@ -159,9 +184,24 @@
               "definition": "在其顶峰时期"
             },
             {
+              "word": "come down to",
+              "pos": "",
+              "definition": "(价格,程度,数量)下降到"
+            },
+            {
               "word": "far beyond",
               "pos": "",
               "definition": "远远超过"
+            },
+            {
+              "word": "enormous egos",
+              "pos": "",
+              "definition": "自负,以自我为中心"
+            },
+            {
+              "word": "in a way",
+              "pos": "",
+              "definition": "以..的方式"
             },
             {
               "word": "industries",
@@ -172,16 +212,6 @@
               "word": "generates",
               "pos": "v.",
               "definition": "v. generate 的第三人称单数形式：产生；使发生；引起"
-            },
-            {
-              "word": "momentum",
-              "pos": "",
-              "definition": "n.势头"
-            },
-            {
-              "word": "in a way",
-              "pos": "",
-              "definition": "以..的方式"
             },
             {
               "word": "research",
@@ -259,11 +289,6 @@
               "definition": "n. 财富；富有；大量"
             },
             {
-              "word": "greed",
-              "pos": "",
-              "definition": "n.贪婪"
-            },
-            {
               "word": "worth",
               "pos": "adj.",
               "definition": "adj. 价值……的；值……钱的；值得的"
@@ -283,14 +308,19 @@
           "chunk_translation": "在接下来的几周和几个月里 / 紧随赫斯特先生的 / 拍卖会之后 / 任何形式的挥霍消费都变得极为不合时宜 / 在艺术界 / 这意味着收藏家们远离了 / 画廊和拍卖大厅 / 当代艺术品的销售额下降了三分之二 / 而在最过热的领域中 / 销售额大幅下滑 / 在截至2008年11月的一年里跌幅近90% / 数周之内，全球最大的两家拍卖行 / 苏富比和佳士得 / 不得不支付近2亿美元 / 作为对客户的担保金 / 那些将作品委托 / 拍卖出售的 / 给他们的客户",
           "vocabulary": [
             {
-              "word": "contemporary art",
+              "word": "collectors were no longer actively involved in art-market auctions",
               "pos": "",
-              "definition": "当代艺术"
+              "definition": "【🎯解题正解】 收藏家不再积极参与艺术品市场拍卖"
             },
             {
               "word": "unfashionable",
               "pos": "",
               "definition": "a.不合时宜的"
+            },
+            {
+              "word": "salerooms",
+              "pos": "",
+              "definition": "n.拍卖场"
             },
             {
               "word": "contemporary",
@@ -303,6 +333,16 @@
               "definition": "a.过热的"
             },
             {
+              "word": "contemporary art",
+              "pos": "",
+              "definition": "当代艺术"
+            },
+            {
+              "word": "pay out",
+              "pos": "",
+              "definition": "偿付、支付"
+            },
+            {
               "word": "collectors",
               "pos": "n.",
               "definition": "n. 收藏家；收集者；收取人"
@@ -311,11 +351,6 @@
               "word": "guarantees",
               "pos": "v.",
               "definition": "v. 保证；确保；保障"
-            },
-            {
-              "word": "salerooms",
-              "pos": "",
-              "definition": "n.拍卖场"
             },
             {
               "word": "galleries",
@@ -331,16 +366,6 @@
               "word": "spending",
               "pos": "n.",
               "definition": "n. （尤指政府或组织的）支出；开销"
-            },
-            {
-              "word": "Christie",
-              "pos": "n.",
-              "definition": "n. 克里斯蒂（姓氏）；挪威首都奥斯陆的旧称"
-            },
-            {
-              "word": "pay out",
-              "pos": "",
-              "definition": "偿付、支付"
             },
             {
               "word": "biggest",
@@ -422,14 +447,29 @@
           "chunk_translation": "当前艺术市场的低迷是最严重的一次 / 自1989年底日本人停止购买印象派作品以来 / 这一次专家们估计 / 价格相比其峰值下降了约40% / 与峰值相比 / 平均而言 / 尽管有些价格的波动要剧烈得多 / 但佳士得首席执行官爱德华·多尔曼 / 佳士得首席执行官 / 表示： / “我非常有信心我们已经见底了。”",
           "vocabulary": [
             {
-              "word": "Impressionists",
-              "pos": "n.",
-              "definition": "n. 印象派画家（impressionist 的复数）；印象主义者"
+              "word": "The art market surpassed many other industries in momentum",
+              "pos": "",
+              "definition": "【🎯解题正解】 艺术品市场的发展势头超过了许多其他行业。"
+            },
+            {
+              "word": "reckon",
+              "pos": "",
+              "definition": "v.认为"
+            },
+            {
+              "word": "downturn",
+              "pos": "",
+              "definition": "n.(经济活动、生产等)下降、衰退"
             },
             {
               "word": "fluctuant",
               "pos": "",
               "definition": "a.波动的"
+            },
+            {
+              "word": "Impressionists",
+              "pos": "n.",
+              "definition": "n. 印象派画家（impressionist 的复数）；印象主义者"
             },
             {
               "word": "executive",
@@ -440,16 +480,6 @@
               "word": "confident",
               "pos": "adj.",
               "definition": "adj. （性格；态度）自信的；充满信心的"
-            },
-            {
-              "word": "downturn",
-              "pos": "",
-              "definition": "n.(经济活动、生产等)下降、衰退"
-            },
-            {
-              "word": "Christie",
-              "pos": "n.",
-              "definition": "n. 克里斯蒂（姓氏）；挪威首都奥斯陆的旧称"
             },
             {
               "word": "current",
@@ -470,11 +500,6 @@
               "word": "average",
               "pos": "n.",
               "definition": "n. 平均水平；一般标准；平均数"
-            },
-            {
-              "word": "reckon",
-              "pos": "",
-              "definition": "v.认为"
             },
             {
               "word": "market",
@@ -531,6 +556,41 @@
           "chunk_translation": "使这次暴跌不同于以往的地方 / 他说 / 在于 / 市场上依然存在买家 / 几乎所有人 / 接受采访的 / 为本特别报道接受采访的人都表示 / 目前最大的问题不是缺乏需求，而是缺乏可售的优秀作品 / “3D”因素—— / 死亡、 / 债务和离婚—— / 依然在为市场提供艺术作品 / 但任何非被迫出售的人都在保持观望 / 远离市场 / 等待着 / 市场信心的回归",
           "vocabulary": [
             {
+              "word": "factors promoting artwork circulation",
+              "pos": "",
+              "definition": "【🎯解题正解】 促进艺术品流通的因素"
+            },
+            {
+              "word": "auction houses’ favorites",
+              "pos": "",
+              "definition": "【💡题项表达】 拍卖行的最爱"
+            },
+            {
+              "word": "contemporary trends",
+              "pos": "",
+              "definition": "【💡题项表达】 当代趋势"
+            },
+            {
+              "word": "styles representing Impressionists",
+              "pos": "",
+              "definition": "【💡题项表达】 印象派代表风格"
+            },
+            {
+              "word": "slump",
+              "pos": "",
+              "definition": "n.(价格、数值等)暴跌、不景气、萧条"
+            },
+            {
+              "word": "deliver",
+              "pos": "",
+              "definition": "v.输送"
+            },
+            {
+              "word": "a lack of",
+              "pos": "",
+              "definition": "缺少"
+            },
+            {
               "word": "interviewed",
               "pos": "v.",
               "definition": "v. interview 的过去式和过去分词：面试；采访"
@@ -539,16 +599,6 @@
               "word": "confidence",
               "pos": "n.",
               "definition": "n. 自信；信心；信任"
-            },
-            {
-              "word": "a lack of",
-              "pos": "",
-              "definition": "缺少"
-            },
-            {
-              "word": "deliver",
-              "pos": "",
-              "definition": "v.输送"
             },
             {
               "word": "special",
@@ -599,11 +649,6 @@
               "word": "return",
               "pos": "v.",
               "definition": "v. 回来；回去；归还"
-            },
-            {
-              "word": "slump",
-              "pos": "",
-              "definition": "n.(价格、数值等)暴跌、不景气、萧条"
             },
             {
               "word": "death",
@@ -1445,14 +1490,34 @@
           "chunk_translation": "我当时正在弗吉尼亚郊区的一间客厅里向一个小型聚会发表演讲—— / 这是一个女性团体 / 她们邀请了男性加入她们 / 整个晚上 / 一名男子表现得格外健谈 / 频繁地发表观点并分享轶事 / 而他的妻子则静静地坐在沙发上他身边 / 在傍晚聚会快结束时 / 我评论道 / 女性经常抱怨 / 她们的丈夫不跟她们说话 / 这名男子迅速点头 / 表示赞同 / 他指着他的妻子说道 / “她才是我们家话多的人。”房间里爆发 / 出一阵笑声； / 那名男子看上去既困惑又委屈 / “这是真的， / ”他解释道 / “ / 当我回到家 / 下班时， / 我无话可说 / 如果她不把对话继续下去 / 我们整个晚上都会 / 在沉默中度过。”",
           "vocabulary": [
             {
-              "word": "keep the conversation going",
+              "word": "gathering",
               "pos": "",
-              "definition": "使谈话继续"
+              "definition": "n.聚会"
+            },
+            {
+              "word": "suburban",
+              "pos": "",
+              "definition": "a.郊区的"
+            },
+            {
+              "word": "talkative",
+              "pos": "",
+              "definition": "a.健谈的"
+            },
+            {
+              "word": "puzzled",
+              "pos": "",
+              "definition": "a.困惑的"
             },
             {
               "word": "burst into laughter",
               "pos": "",
               "definition": "爆发笑声"
+            },
+            {
+              "word": "keep the conversation going",
+              "pos": "",
+              "definition": "使谈话继续"
             },
             {
               "word": "particularly",
@@ -1480,16 +1545,6 @@
               "definition": "adv. 经常地；频繁地"
             },
             {
-              "word": "gathering",
-              "pos": "",
-              "definition": "n.聚会"
-            },
-            {
-              "word": "talkative",
-              "pos": "",
-              "definition": "a.健谈的"
-            },
-            {
               "word": "anecdotes",
               "pos": "n.",
               "definition": "n. 奇闻轶事；趣闻轶事；逸闻（anecdote 的复数）"
@@ -1503,11 +1558,6 @@
               "word": "agreement",
               "pos": "n.",
               "definition": "n. 协议；协定；契约"
-            },
-            {
-              "word": "suburban",
-              "pos": "",
-              "definition": "a.郊区的"
             },
             {
               "word": "Virginia",
@@ -1543,11 +1593,6 @@
               "word": "laughter",
               "pos": "n.",
               "definition": "n. 笑；笑声"
-            },
-            {
-              "word": "puzzled",
-              "pos": "",
-              "definition": "a.困惑的"
             },
             {
               "word": "invited",
@@ -1614,6 +1659,46 @@
           "chunk_translation": "这一幕体现了这种极具讽刺意味的现象 / 即 / 尽管美国男性往往比女性说得更多 / 在公共场合 / 但他们往往说得更少 / 在家里 / 而这种模式正在造成严重破坏 / 对婚姻关系",
           "vocabulary": [
             {
+              "word": "causing damage",
+              "pos": "",
+              "definition": "【🎯解题正解】 造成损害"
+            },
+            {
+              "word": "generating motivation",
+              "pos": "",
+              "definition": "【💡题项表达】 产生动力"
+            },
+            {
+              "word": "exerting influence",
+              "pos": "",
+              "definition": "【💡题项表达】 施加影响"
+            },
+            {
+              "word": "creating pressure",
+              "pos": "",
+              "definition": "【💡题项表达】 制造压力"
+            },
+            {
+              "word": "episode",
+              "pos": "",
+              "definition": "n.插曲"
+            },
+            {
+              "word": "irony",
+              "pos": "",
+              "definition": "n.具有讽刺意味的情况"
+            },
+            {
+              "word": "havoc",
+              "pos": "",
+              "definition": "n.灾难、混乱"
+            },
+            {
+              "word": "tend to",
+              "pos": "",
+              "definition": "倾向于,趋于"
+            },
+            {
               "word": "crystallizes",
               "pos": "v.",
               "definition": "v. （使）结晶；使凝固：使某物变成固体晶体形式"
@@ -1634,34 +1719,9 @@
               "definition": "n. 结婚；婚姻；婚礼"
             },
             {
-              "word": "episode",
-              "pos": "",
-              "definition": "n.插曲"
-            },
-            {
-              "word": "tend to",
-              "pos": "",
-              "definition": "倾向于,趋于"
-            },
-            {
               "word": "pattern",
               "pos": "n.",
               "definition": "n. 模式；方式"
-            },
-            {
-              "word": "public",
-              "pos": "adj.",
-              "definition": "adj. 公众的；大众的"
-            },
-            {
-              "word": "irony",
-              "pos": "",
-              "definition": "n.具有讽刺意味的情况"
-            },
-            {
-              "word": "havoc",
-              "pos": "",
-              "definition": "n.灾难、混乱"
             },
             {
               "word": "tend",
@@ -1678,6 +1738,31 @@
           "chunk_translation": "这种模式早在20世纪70年代末就被观察到 / 由政治学家安德鲁·哈克提出 / 社会学家凯瑟琳·科勒·里斯曼在其新书《离婚谈话》中报告 / 她采访的大多数女性—— / 但只有少数男性—— / 将缺乏沟通作为主要原因 / 导致她们离婚 / 鉴于目前接近50%的离婚率 / 这相当于美国每年有数百万起案例—— / 实际上是一场谈话失败的流行病",
           "vocabulary": [
             {
+              "word": "nearly 50 percent of recent divorces are caused by failed conversation",
+              "pos": "",
+              "definition": "【🎯解题正解】 最近近50%的离婚是由于谈话失败造成的"
+            },
+            {
+              "word": "sociologist",
+              "pos": "",
+              "definition": "n.社会学家"
+            },
+            {
+              "word": "virtual",
+              "pos": "",
+              "definition": "a.实际上的、几乎的"
+            },
+            {
+              "word": "epidemic",
+              "pos": "",
+              "definition": "n.流行病"
+            },
+            {
+              "word": "lack of",
+              "pos": "",
+              "definition": "缺乏"
+            },
+            {
               "word": "communication",
               "pos": "n.",
               "definition": "n. 表达；交流；交际"
@@ -1686,11 +1771,6 @@
               "word": "conversation",
               "pos": "n.",
               "definition": "n. （非正式的）谈话；交谈；社交"
-            },
-            {
-              "word": "sociologist",
-              "pos": "",
-              "definition": "n.社会学家"
             },
             {
               "word": "interviewed",
@@ -1713,11 +1793,6 @@
               "definition": "n. 凯瑟琳（女子名）"
             },
             {
-              "word": "epidemic",
-              "pos": "",
-              "definition": "n.流行病"
-            },
-            {
               "word": "observed",
               "pos": "v.",
               "definition": "v. observe 的过去式和过去分词：观察；注意到"
@@ -1736,16 +1811,6 @@
               "word": "millions",
               "pos": "n.",
               "definition": "n. 数百万；大量；无数"
-            },
-            {
-              "word": "virtual",
-              "pos": "",
-              "definition": "a.实际上的、几乎的"
-            },
-            {
-              "word": "lack of",
-              "pos": "",
-              "definition": "缺乏"
             },
             {
               "word": "pattern",
@@ -1817,6 +1882,46 @@
           "chunk_translation": "在我自己的研究中 / 抱怨 / 来自女性 / 对她们丈夫的抱怨往往并不集中 / 在切切实实的不平等上，比如放弃自己的职业发展机会去陪伴丈夫的事业 / 或者承担远超自己应尽份额的日常家务，如打扫 / 做饭和社交安排 / 相反 / 她们聚焦 / 于沟通问题： / “他根本不听我说。”“他从不跟我说话。”我发现 / 正如哈克多年前所观察到的 / 大多数妻子希望她们的丈夫成为 / 首要且最重要的 / 谈话伴侣 / 但很少有丈夫对妻子抱有这样的期望",
           "vocabulary": [
             {
+              "word": "Talking to them",
+              "pos": "",
+              "definition": "【🎯解题正解】 和他们说话。"
+            },
+            {
+              "word": "Trusting them",
+              "pos": "",
+              "definition": "【💡题项表达】 信任他们。"
+            },
+            {
+              "word": "Supporting their careers",
+              "pos": "",
+              "definition": "【💡题项表达】 支持他们的职业生涯。"
+            },
+            {
+              "word": "Sharing housework",
+              "pos": "",
+              "definition": "【💡题项表达】 分担家务。"
+            },
+            {
+              "word": "tangible",
+              "pos": "",
+              "definition": "a.确凿的,实在的"
+            },
+            {
+              "word": "accompany",
+              "pos": "",
+              "definition": "v.陪伴"
+            },
+            {
+              "word": "share",
+              "pos": "",
+              "definition": "n.(某人应有或承担的)一份"
+            },
+            {
+              "word": "expectation",
+              "pos": "",
+              "definition": "n.期望"
+            },
+            {
               "word": "first and foremost",
               "pos": "",
               "definition": "首先、首要"
@@ -1837,11 +1942,6 @@
               "definition": "n. 安排；准备；协议"
             },
             {
-              "word": "expectation",
-              "pos": "",
-              "definition": "n.期望"
-            },
-            {
               "word": "complaints",
               "pos": "n.",
               "definition": "n. 投诉；申诉；抱怨（complaint 的复数）"
@@ -1850,16 +1950,6 @@
               "word": "inequities",
               "pos": "n.",
               "definition": "n. 不公平；不公正；不公平现象或待遇（inequity 的复数形式）"
-            },
-            {
-              "word": "accompany",
-              "pos": "",
-              "definition": "v.陪伴"
-            },
-            {
-              "word": "tangible",
-              "pos": "",
-              "definition": "a.确凿的,实在的"
             },
             {
               "word": "observed",
@@ -1875,11 +1965,6 @@
               "word": "husbands",
               "pos": "n.",
               "definition": "n. 丈夫；节俭的人（husband 的复数）；v. 节约"
-            },
-            {
-              "word": "cleaning",
-              "pos": "n.",
-              "definition": "n. 清洗；清除；去污"
             },
             {
               "word": "foremost",
@@ -1937,11 +2022,6 @@
               "definition": "v. 听；倾听；听从"
             },
             {
-              "word": "share",
-              "pos": "",
-              "definition": "n.(某人应有或承担的)一份"
-            },
-            {
               "word": "daily",
               "pos": "adj.",
               "definition": "adj. 每日的；日常的；一天的"
@@ -1961,9 +2041,34 @@
           "chunk_translation": "简而言之 / 最能代表当前危机的形象 / 是典型的漫画场景：一个男人坐在早餐桌前，手里举着报纸 / 挡在脸前 / 而女人则怒视着报纸的背面 / 渴望交谈",
           "vocabulary": [
             {
+              "word": "Conversational patterns between man and wife are different",
+              "pos": "",
+              "definition": "【🎯解题正解】 夫妻之间的谈话方式是不同的。"
+            },
+            {
+              "word": "a detailed description of the stereotypical cartoon",
+              "pos": "",
+              "definition": "【🎯解题正解】 刻板卡通的详细描述"
+            },
+            {
+              "word": "crisis",
+              "pos": "",
+              "definition": "n.危机"
+            },
+            {
               "word": "stereotypical",
               "pos": "",
               "definition": "a.典型的"
+            },
+            {
+              "word": "scene",
+              "pos": "",
+              "definition": "n.场景"
+            },
+            {
+              "word": "in short",
+              "pos": "",
+              "definition": "简言之"
             },
             {
               "word": "represents",
@@ -1981,11 +2086,6 @@
               "definition": "n. 报纸；报；报社"
             },
             {
-              "word": "in short",
-              "pos": "",
-              "definition": "简言之"
-            },
-            {
               "word": "current",
               "pos": "adj.",
               "definition": "adj. 现行的；当前的"
@@ -2001,19 +2101,9 @@
               "definition": "n. 坐着（做某事）的一段时间；（一次）供人画像（照相）的时间；一批"
             },
             {
-              "word": "crisis",
-              "pos": "",
-              "definition": "n.危机"
-            },
-            {
               "word": "glares",
               "pos": "n.",
               "definition": "n. glare 的复数：刺眼的光线；强烈的光；怒视"
-            },
-            {
-              "word": "scene",
-              "pos": "",
-              "definition": "n.场景"
             },
             {
               "word": "image",
@@ -2788,14 +2878,19 @@
           "chunk_translation": "在过去十年中 / 许多公司已经完善了培养无意识自动行为的技巧—— / 即习惯—— / 在消费者群体中 / 这些习惯帮助公司赚取了数十亿美元 / 当顾客吃零食或擦柜台几乎 / 不假思索时 / 往往 / 是对一套精心设计的日常暗示做出的反应",
           "vocabulary": [
             {
+              "word": "automatic",
+              "pos": "",
+              "definition": "a.自动的"
+            },
+            {
+              "word": "wipe",
+              "pos": "",
+              "definition": "v.擦、抹"
+            },
+            {
               "word": "automatic behaviors",
               "pos": "",
               "definition": "无意识行为"
-            },
-            {
-              "word": "carefully designed",
-              "pos": "",
-              "definition": "精心设计的"
             },
             {
               "word": "In response to",
@@ -2803,14 +2898,14 @@
               "definition": "作为对..的回应"
             },
             {
+              "word": "carefully designed",
+              "pos": "",
+              "definition": "精心设计的"
+            },
+            {
               "word": "daily cues",
               "pos": "",
               "definition": "日常触机"
-            },
-            {
-              "word": "automatic",
-              "pos": "",
-              "definition": "a.自动的"
             },
             {
               "word": "perfected",
@@ -2898,11 +2993,6 @@
               "definition": "adj. 每日的；日常的"
             },
             {
-              "word": "wipe",
-              "pos": "",
-              "definition": "v.擦、抹"
-            },
-            {
               "word": "past",
               "pos": "adj.",
               "definition": "adj. 过去的；昔日的"
@@ -2917,19 +3007,44 @@
           "chunk_translation": "“存在一些根本性的公共卫生问题 / 比如手脏却不用肥皂洗手 / 这些问题仍然是致命杀手，仅仅 / 是因为我们不知道如何改变人们的习惯 / ”柯蒂斯博士说 / 柯蒂斯 / 伦敦卫生与热带医学院卫生中心主任",
           "vocabulary": [
             {
+              "word": "should be further cultivated",
+              "pos": "",
+              "definition": "【🎯解题正解】 应该进一步培养"
+            },
+            {
+              "word": "should be changed gradually",
+              "pos": "",
+              "definition": "【💡题项表达】 应该逐渐改变"
+            },
+            {
+              "word": "are deeply rooted in history",
+              "pos": "",
+              "definition": "【💡题项表达】 深深植根于历史"
+            },
+            {
+              "word": "are basically private concerns",
+              "pos": "",
+              "definition": "【💡题项表达】 基本上都是私人问题"
+            },
+            {
               "word": "fundamental",
               "pos": "",
               "definition": "a.基本的"
             },
             {
-              "word": "figure out",
+              "word": "hygiene",
               "pos": "",
-              "definition": "弄懂、弄明白"
+              "definition": "n.卫生(学)"
             },
             {
               "word": "tropical",
               "pos": "",
               "definition": "a.热带的"
+            },
+            {
+              "word": "figure out",
+              "pos": "",
+              "definition": "弄懂、弄明白"
             },
             {
               "word": "director",
@@ -2940,11 +3055,6 @@
               "word": "Medicine",
               "pos": "n.",
               "definition": "n. 药物；药剂；医疗"
-            },
-            {
-              "word": "hygiene",
-              "pos": "",
-              "definition": "n.卫生(学)"
             },
             {
               "word": "instead",
@@ -2960,16 +3070,6 @@
               "word": "habits",
               "pos": "n.",
               "definition": "n. 习惯（habit 的复数）；（生物）习性"
-            },
-            {
-              "word": "public",
-              "pos": "adj.",
-              "definition": "adj. 公众的；大众的"
-            },
-            {
-              "word": "health",
-              "pos": "n.",
-              "definition": "n. 身体状况；健康"
             },
             {
               "word": "Curtis",
@@ -3035,6 +3135,31 @@
           "chunk_translation": "这些公司 / 柯蒂斯博士 / 求助的公司—— / 宝洁、 / 高露洁棕榄和联合利华—— / 已经投入了数亿美元去寻找微妙的暗示 / 在消费者的日常生活中 / 企业可以利用这些暗示来引入新的生活惯例 / 如果你仔细观察 / 你会发现 / 我们每天使用的许多产品—— / 口香糖、 / 润肤乳、 / 消毒湿巾、 / 空气清新剂、 / 净水器、 / 健康零食、 / 牙齿美白剂、 / 织物柔软剂、 / 维生素—— / 都是人为制造习惯的产物",
           "vocabulary": [
             {
+              "word": "Unilever",
+              "pos": "",
+              "definition": "【🎯解题正解】 联合利华。"
+            },
+            {
+              "word": "Tide",
+              "pos": "",
+              "definition": "【💡题项表达】 潮。"
+            },
+            {
+              "word": "Crest",
+              "pos": "",
+              "definition": "【💡题项表达】 波峰。"
+            },
+            {
+              "word": "Colgate",
+              "pos": "",
+              "definition": "【💡题项表达】 高露洁。"
+            },
+            {
+              "word": "subtle",
+              "pos": "",
+              "definition": "a.微妙的"
+            },
+            {
               "word": "introduce new routines",
               "pos": "",
               "definition": "引入新惯例"
@@ -3043,6 +3168,16 @@
               "word": "disinfecting",
               "pos": "",
               "definition": "a.消毒的"
+            },
+            {
+              "word": "fabric",
+              "pos": "",
+              "definition": "n.针织物"
+            },
+            {
+              "word": "look hard",
+              "pos": "",
+              "definition": "仔细观察"
             },
             {
               "word": "moisturizers",
@@ -3063,11 +3198,6 @@
               "word": "fresheners",
               "pos": "n./v.",
               "definition": "洁净爽肤水"
-            },
-            {
-              "word": "look hard",
-              "pos": "",
-              "definition": "仔细观察"
             },
             {
               "word": "consumers",
@@ -3098,11 +3228,6 @@
               "word": "softeners",
               "pos": "n.",
               "definition": "n. 软化剂（softener 的复数）"
-            },
-            {
-              "word": "Unilever",
-              "pos": "n.",
-              "definition": "n. 联合利华（财富500强公司之一；总部位于荷兰和英国"
             },
             {
               "word": "invested",
@@ -3145,11 +3270,6 @@
               "definition": "n. 宝洁；普克特（男子名）"
             },
             {
-              "word": "Colgate",
-              "pos": "n.",
-              "definition": "n. 高露洁（Colgate-Palmolive 旗下的口腔护理品牌）；高露洁公司（Colgate-Palmolive Company 的简称"
-            },
-            {
               "word": "chewing",
               "pos": "n.",
               "definition": "n. 咀嚼；嚼"
@@ -3170,24 +3290,9 @@
               "definition": "v. 发生；产生；终归"
             },
             {
-              "word": "subtle",
-              "pos": "",
-              "definition": "a.微妙的"
-            },
-            {
-              "word": "fabric",
-              "pos": "",
-              "definition": "n.针织物"
-            },
-            {
               "word": "habits",
               "pos": "n.",
               "definition": "n. 习惯（habit 的复数）；（生物）习性"
-            },
-            {
-              "word": "health",
-              "pos": "n.",
-              "definition": "n. 身体状况；健康"
             },
             {
               "word": "Curtis",
@@ -3249,9 +3354,39 @@
           "chunk_translation": "一个世纪前 / 很少有人每天定期刷牙多次 / 如今 / 得益于精明的广告宣传和公共卫生运动 / 许多美国人习惯性地每天两次刷净他们洁白的牙齿以防蛀牙 / 通常 / 使用高露洁、 / 佳洁士或其他品牌之一 / 几十年前 / 许多人在正餐之外并不喝水 / 后来饮料公司开始将偏远泉水装瓶销售 / 如今上班族整天不假思索地喝着瓶装水",
           "vocabulary": [
             {
+              "word": "reveal their impact on people’s habits",
+              "pos": "",
+              "definition": "【🎯解题正解】 揭示它们对人们习惯的影响"
+            },
+            {
+              "word": "multiple",
+              "pos": "",
+              "definition": "a.多次的"
+            },
+            {
+              "word": "shrewd",
+              "pos": "",
+              "definition": "a.精明的"
+            },
+            {
               "word": "cavity-preventing",
               "pos": "",
               "definition": "口腔预防"
+            },
+            {
+              "word": "scrub",
+              "pos": "",
+              "definition": "n.擦洗"
+            },
+            {
+              "word": "beverage",
+              "pos": "",
+              "definition": "n.饮料"
+            },
+            {
+              "word": "sip",
+              "pos": "",
+              "definition": "v.小口地喝"
             },
             {
               "word": "unthinkingly",
@@ -3287,16 +3422,6 @@
               "word": "campaigns",
               "pos": "n.",
               "definition": "n. （有计划的）活动；运动；战役（campaign 的复数）"
-            },
-            {
-              "word": "multiple",
-              "pos": "",
-              "definition": "a.多次的"
-            },
-            {
-              "word": "beverage",
-              "pos": "",
-              "definition": "n.饮料"
             },
             {
               "word": "bottling",
@@ -3344,24 +3469,9 @@
               "definition": "adj. 瓶装的；装在瓶中的；（常与 up 连用"
             },
             {
-              "word": "shrewd",
-              "pos": "",
-              "definition": "a.精明的"
-            },
-            {
               "word": "decade",
               "pos": "n.",
               "definition": "n. 十年；十年期"
-            },
-            {
-              "word": "public",
-              "pos": "adj.",
-              "definition": "adj. 公众的；大众的"
-            },
-            {
-              "word": "health",
-              "pos": "n.",
-              "definition": "n. 身体状况；健康"
             },
             {
               "word": "pearly",
@@ -3387,11 +3497,6 @@
               "word": "office",
               "pos": "n.",
               "definition": "n. 办公室；办公楼；办事处"
-            },
-            {
-              "word": "scrub",
-              "pos": "",
-              "definition": "n.擦洗"
             },
             {
               "word": "habit",
@@ -3427,11 +3532,6 @@
               "word": "meal",
               "pos": "n.",
               "definition": "n. 一餐；进餐（时间）"
-            },
-            {
-              "word": "sip",
-              "pos": "",
-              "definition": "v.小口地喝"
             }
           ]
         },
@@ -3443,14 +3543,44 @@
           "chunk_translation": "口香糖 / 曾经主要是购买对象 / 为青春期男孩 / 如今在广告中被宣传 / 作为餐后使用的口气清新剂和牙齿清洁剂 / 润肤霜被宣传为早晨美容护肤程序的一部分 / 悄悄插入 / 在梳头和化 / 妆之间 / “我们的产品之所以成功 / 是因为它们融入了人们每天或每周的生活习惯中 / ”卡罗尔·伯宁说 / 一位消费者心理学家 / 她最近刚退休 / 从宝洁公司 / 这家公司 / 去年销售了760亿美元的汰渍、 / 佳洁士和其他产品",
           "vocabulary": [
             {
-              "word": "daily or weekly patterns",
+              "word": "commercial promotions",
               "pos": "",
-              "definition": "每天或每周的惯例"
+              "definition": "【🎯解题正解】 商业促销"
+            },
+            {
+              "word": "perfected art of products",
+              "pos": "",
+              "definition": "【💡题项表达】 完美的产品艺术"
+            },
+            {
+              "word": "automatic behavior creation",
+              "pos": "",
+              "definition": "【💡题项表达】 自动行为创建"
+            },
+            {
+              "word": "scientific experiments",
+              "pos": "",
+              "definition": "【💡题项表达】 科学实验"
+            },
+            {
+              "word": "primarily",
+              "pos": "",
+              "definition": "ad.首先地"
+            },
+            {
+              "word": "adolescent",
+              "pos": "",
+              "definition": "a.青春期的"
             },
             {
               "word": "psychologist",
               "pos": "",
               "definition": "n.心理学家"
+            },
+            {
+              "word": "daily or weekly patterns",
+              "pos": "",
+              "definition": "每天或每周的惯例"
             },
             {
               "word": "moisturizers",
@@ -3463,19 +3593,9 @@
               "definition": "n. 商业广告；宣传（commercial 的复数）；商业股票"
             },
             {
-              "word": "adolescent",
-              "pos": "",
-              "definition": "a.青春期的"
-            },
-            {
               "word": "advertised",
               "pos": "adj.",
               "definition": "adj. 广告的；被广告宣传的；v. 做广告"
-            },
-            {
-              "word": "primarily",
-              "pos": "",
-              "definition": "ad.首先地"
             },
             {
               "word": "freshener",
@@ -3627,6 +3747,36 @@
           "chunk_translation": "“养成积极的习惯是改善消费者生活的重要部分 / 这对使新产品具备商业可行性也至关重要。” / 通过实验和观察 / 像伯宁博士这样的社会科学家 / 已经认识到 / 蕴含着巨大的力量 / 将特定行为与习惯性暗示绑定在一起 / 通过铺天盖地的广告宣传 / 随着这门新的习惯科学的出现 / 争议也随之爆发 / 当这些策略被用来推销存疑的美容霜或不健康食品时",
           "vocabulary": [
             {
+              "word": "negative\nᆇี൫ज@JOEE ༯໶\n\n06",
+              "pos": "",
+              "definition": "【🎯解题正解】 negative\nᆇี൫ज@JOEE ༯໶\n\n06"
+            },
+            {
+              "word": "indifferent",
+              "pos": "",
+              "definition": "【💡题项表达】 冷漠"
+            },
+            {
+              "word": "positive",
+              "pos": "",
+              "definition": "【💡题项表达】 积极的"
+            },
+            {
+              "word": "biased",
+              "pos": "",
+              "definition": "【💡题项表达】 有偏见的"
+            },
+            {
+              "word": "viable",
+              "pos": "",
+              "definition": "a.可行的"
+            },
+            {
+              "word": "ruthless",
+              "pos": "",
+              "definition": "a.无情的、残忍的"
+            },
+            {
               "word": "controversies",
               "pos": "n.",
               "definition": "n. 争论；争议；辩论（controversy 的复数）"
@@ -3687,11 +3837,6 @@
               "definition": "adj. （人、动物或身体部位）不健康的；有病的；（食物、饮食、环境等）有害身心健康的"
             },
             {
-              "word": "ruthless",
-              "pos": "",
-              "definition": "a.无情的、残忍的"
-            },
-            {
               "word": "creating",
               "pos": "v.",
               "definition": "v. 创造；创建"
@@ -3705,11 +3850,6 @@
               "word": "consumer",
               "pos": "n.",
               "definition": "n. 消费者；顾客"
-            },
-            {
-              "word": "positive",
-              "pos": "adj.",
-              "definition": "adj. 乐观的；有信心的；积极的"
             },
             {
               "word": "habitual",
@@ -3752,19 +3892,9 @@
               "definition": "n. 战术；兵法；方法"
             },
             {
-              "word": "viable",
-              "pos": "",
-              "definition": "a.可行的"
-            },
-            {
               "word": "habits",
               "pos": "n.",
               "definition": "n. 习惯（habit 的复数）；（生物）习性"
-            },
-            {
-              "word": "health",
-              "pos": "n.",
-              "definition": "n. 身体状况；健康"
             },
             {
               "word": "beauty",
@@ -4618,14 +4748,74 @@
           "chunk_translation": "许多美国人将陪审团制度视为关键民主价值观的具体体现 / 包括以下原则： / 所有公民 / 凡符合年龄和文化程度最低资格的均享有同等资格担任 / 陪审员； / 陪审员应从社区中具有代表性的各阶层中随机选出； / 任何公民不得被剥夺担任陪审员的权利 / 基于种族、 / 宗教、 / 性别、 / 或民族血统； / 被告有权接受审判 / 由其同辈审判； / 以及 / 裁决应代表社区的良知而不仅仅是法律条文 / 陪审团也被认为是现存的直接民主而非代议制民主的最佳范例 / 在直接民主制度下 / 公民轮流治理自己 / 而不是选举代表来治理 / 他们",
           "vocabulary": [
             {
-              "word": "representative democracy",
+              "word": "judgment should consider the opinion of the public",
               "pos": "",
-              "definition": "代议制民主"
+              "definition": "【🎯解题正解】 判决应当考虑公众意见"
+            },
+            {
+              "word": "jury",
+              "pos": "",
+              "definition": "n.陪审团"
+            },
+            {
+              "word": "concrete",
+              "pos": "",
+              "definition": "a.具体的"
+            },
+            {
+              "word": "democratic",
+              "pos": "",
+              "definition": "a.民主的"
+            },
+            {
+              "word": "minimal",
+              "pos": "",
+              "definition": "a.最低限度的"
+            },
+            {
+              "word": "literacy",
+              "pos": "",
+              "definition": "n.文化程度、有文化"
+            },
+            {
+              "word": "competent",
+              "pos": "",
+              "definition": "a.能胜任的、有能力的"
+            },
+            {
+              "word": "randomly",
+              "pos": "",
+              "definition": "ad.随机地"
+            },
+            {
+              "word": "entitled",
+              "pos": "",
+              "definition": "a.有资格的"
+            },
+            {
+              "word": "trial",
+              "pos": "",
+              "definition": "n.审判"
+            },
+            {
+              "word": "conscience",
+              "pos": "",
+              "definition": "n.良心"
+            },
+            {
+              "word": "jury system",
+              "pos": "",
+              "definition": "陪审团制度"
             },
             {
               "word": "direct democracy",
               "pos": "",
               "definition": "直接民主"
+            },
+            {
+              "word": "representative democracy",
+              "pos": "",
+              "definition": "代议制民主"
             },
             {
               "word": "representatives",
@@ -4641,21 +4831,6 @@
               "word": "representative",
               "pos": "adj.",
               "definition": "adj. 典型的；有代表性的；代表各类人（或事物）的"
-            },
-            {
-              "word": "jury system",
-              "pos": "",
-              "definition": "陪审团制度"
-            },
-            {
-              "word": "democratic",
-              "pos": "",
-              "definition": "a.民主的"
-            },
-            {
-              "word": "conscience",
-              "pos": "",
-              "definition": "n.良心"
             },
             {
               "word": "expression",
@@ -4676,11 +4851,6 @@
               "word": "themselves",
               "pos": "pron.",
               "definition": "pron. 他们自己；他们亲自"
-            },
-            {
-              "word": "competent",
-              "pos": "",
-              "definition": "a.能胜任的、有能力的"
             },
             {
               "word": "including",
@@ -4713,26 +4883,6 @@
               "definition": "adj. 统治的；执政的；管理的"
             },
             {
-              "word": "concrete",
-              "pos": "",
-              "definition": "a.具体的"
-            },
-            {
-              "word": "literacy",
-              "pos": "",
-              "definition": "n.文化程度、有文化"
-            },
-            {
-              "word": "randomly",
-              "pos": "",
-              "definition": "ad.随机地"
-            },
-            {
-              "word": "entitled",
-              "pos": "",
-              "definition": "a.有资格的"
-            },
-            {
               "word": "citizens",
               "pos": "n.",
               "definition": "n. 公民（citizen 的复数）；市民；城镇居民"
@@ -4761,11 +4911,6 @@
               "word": "electing",
               "pos": "n./v.",
               "definition": "选择；选举；当选而尚未就职的"
-            },
-            {
-              "word": "minimal",
-              "pos": "",
-              "definition": "a.最低限度的"
             },
             {
               "word": "crucial",
@@ -4843,19 +4988,9 @@
               "definition": "adj. 径直的；笔直的；坦率的"
             },
             {
-              "word": "rather",
-              "pos": "adv.",
-              "definition": "adv. 颇；相当；宁愿"
-            },
-            {
               "word": "govern",
               "pos": "v.",
               "definition": "v. 统治；管理；控制"
-            },
-            {
-              "word": "trial",
-              "pos": "",
-              "definition": "n.审判"
             },
             {
               "word": "cross",
@@ -4871,11 +5006,6 @@
               "word": "turns",
               "pos": "n.",
               "definition": "n. turn 的复数形式：转动；旋转；拐弯"
-            },
-            {
-              "word": "jury",
-              "pos": "",
-              "definition": "n.陪审团"
             }
           ]
         },
@@ -4887,19 +5017,19 @@
           "chunk_translation": "但就在1968年 / 陪审团遴选程序产生了冲突 / 与这些民主理想 / 在一些州 / 例如 / 陪审员职责仅限于那些被认为智力超群、受过良好教育的人 / 具有良好教育、 / 以及道德品质的人 / 尽管美国最高法院早在1880年的斯特劳德诉西弗吉尼亚州一案中就已禁止在陪审团遴选中蓄意进行种族歧视 / 在陪审团遴选中，早在1880年的斯特劳德诉",
           "vocabulary": [
             {
-              "word": "intentional racial discrimination",
+              "word": "the inadequacy of antidiscrimination laws",
               "pos": "",
-              "definition": "蓄意种族歧视"
+              "definition": "【🎯解题正解】 反歧视法的不足"
             },
             {
-              "word": "discrimination",
+              "word": "jury",
               "pos": "",
-              "definition": "n.歧视"
+              "definition": "n.陪审团"
             },
             {
-              "word": "intelligence",
-              "pos": "n.",
-              "definition": "n. 智力；才智；智能"
+              "word": "democratic",
+              "pos": "",
+              "definition": "a.民主的"
             },
             {
               "word": "intentional",
@@ -4907,9 +5037,19 @@
               "definition": "a.有意的"
             },
             {
-              "word": "democratic",
+              "word": "discrimination",
               "pos": "",
-              "definition": "a.民主的"
+              "definition": "n.歧视"
+            },
+            {
+              "word": "intentional racial discrimination",
+              "pos": "",
+              "definition": "蓄意种族歧视"
+            },
+            {
+              "word": "intelligence",
+              "pos": "n.",
+              "definition": "n. 智力；才智；智能"
             },
             {
               "word": "procedures",
@@ -5002,11 +5142,6 @@
               "definition": "n. 法院；法庭；球场"
             },
             {
-              "word": "jury",
-              "pos": "",
-              "definition": "n.陪审团"
-            },
-            {
               "word": "duty",
               "pos": "n.",
               "definition": "n. 责任；义务"
@@ -5021,9 +5156,34 @@
           "chunk_translation": "西弗吉尼亚州案中 / 选拔所谓的精英或“蓝带”陪审团的做法为绕开该项法律和其他反歧视法律提供了便利途径 / 该制度在20世纪中叶之前也未能定期吸纳女性 / 加入陪审团 / 尽管女性早在1898年就首次在犹他州担任州陪审员 / 在州陪审团中 / 1898年于犹他州 / 但直到20世纪40年代 / 大多数州才赋予女性担任陪审员的资格 / 担任陪审员 / 即便在那时，一些州也自动免除女性 / 担任陪审员的义务 / 除非她们亲自要求将自己的名字列入陪审员名单 / 这种做法被冠以正当理由 / 称家庭需要女性 / 在家里 / 这导致在整个20世纪60年代陪审团中都缺乏女性代表",
           "vocabulary": [
             {
-              "word": "antidiscrimination",
-              "pos": "adj.",
-              "definition": "adj. （常作定语；多用于法律、政策语境）反歧视的；旨在防止或禁止基于种族、性别、年龄、宗教等特征的歧视的"
+              "word": "they were supposed to perform domestic duties",
+              "pos": "",
+              "definition": "【🎯解题正解】 他们应该履行家庭职责"
+            },
+            {
+              "word": "they tended to evade public engagement",
+              "pos": "",
+              "definition": "【💡题项表达】 他们倾向于逃避公众参与"
+            },
+            {
+              "word": "jury",
+              "pos": "",
+              "definition": "n.陪审团"
+            },
+            {
+              "word": "elite",
+              "pos": "",
+              "definition": "n.精英"
+            },
+            {
+              "word": "blue-ribbon",
+              "pos": "",
+              "definition": "a.一流的、头等的"
+            },
+            {
+              "word": "eligible",
+              "pos": "",
+              "definition": "a.有资格的"
             },
             {
               "word": "unrepresentative",
@@ -5031,24 +5191,24 @@
               "definition": "a.不能代表的"
             },
             {
-              "word": "on the jury list",
-              "pos": "",
-              "definition": "在陪审团名单之列"
-            },
-            {
-              "word": "automatically",
-              "pos": "adv.",
-              "definition": "adv. 自然地；必然地；不假思索地"
-            },
-            {
               "word": "eligible for",
               "pos": "",
               "definition": "适宜于,有...资格的"
             },
             {
-              "word": "blue-ribbon",
+              "word": "on the jury list",
               "pos": "",
-              "definition": "a.一流的、头等的"
+              "definition": "在陪审团名单之列"
+            },
+            {
+              "word": "antidiscrimination",
+              "pos": "adj.",
+              "definition": "adj. （常作定语；多用于法律、政策语境）反歧视的；旨在防止或禁止基于种族、性别、年龄、宗教等特征的歧视的"
+            },
+            {
+              "word": "automatically",
+              "pos": "adv.",
+              "definition": "adv. 自然地；必然地；不假思索地"
             },
             {
               "word": "convenient",
@@ -5074,11 +5234,6 @@
               "word": "justified",
               "pos": "adj.",
               "definition": "adj. 有正当理由的；有合理解释的；（页面文字）右侧/左侧对齐的"
-            },
-            {
-              "word": "eligible",
-              "pos": "",
-              "definition": "a.有资格的"
             },
             {
               "word": "majority",
@@ -5146,11 +5301,6 @@
               "definition": "conj. 除非；除非在……情况下；若非"
             },
             {
-              "word": "elite",
-              "pos": "",
-              "definition": "n.精英"
-            },
-            {
               "word": "asked",
               "pos": "v.",
               "definition": "v. 问；询问；请求"
@@ -5159,11 +5309,6 @@
               "word": "claim",
               "pos": "v.",
               "definition": "v. 声称；断言；索取"
-            },
-            {
-              "word": "jury",
-              "pos": "",
-              "definition": "n.陪审团"
             },
             {
               "word": "duty",
@@ -5185,6 +5330,61 @@
           "chunk_translation": "1968年 / 美国国会通过了《陪审团遴选与服务法案》 / 开启了陪审团民主改革的新时代 / 该法废除了对联邦陪审员的特殊教育要求 / 并要求从整个社区的各个阶层中随机选出陪审员 / 随机从整个社区的各阶层中选出 / 在1975年具有里程碑意义的泰勒诉 / 路易斯安那州案的裁决中 / 最高法院将陪审团必须代表社区各群体的要求扩大到州一级 / 陪审团应代表州一级社区各个群体的要求 / 泰勒案的裁决还宣布在陪审团遴选中的性别歧视违宪 / 并命令各州采用相同的程序 / 选拔男性和女性陪审员",
           "vocabulary": [
             {
+              "word": "educational requirements became less rigid in the selection of federal jurors",
+              "pos": "",
+              "definition": "【🎯解题正解】 在选择联邦陪审员时，教育要求变得不那么严格"
+            },
+            {
+              "word": "its tradition and development\nᆇี൫ज@JOEE ༯໶",
+              "pos": "",
+              "definition": "【🎯解题正解】 its tradition and development\nᆇี൫ज@JOEE ༯໶"
+            },
+            {
+              "word": "its nature and problems",
+              "pos": "",
+              "definition": "【💡题项表达】 它的性质和问题"
+            },
+            {
+              "word": "its characteristics and tradition",
+              "pos": "",
+              "definition": "【💡题项表达】 它的特点和传统"
+            },
+            {
+              "word": "its problems and their solutions",
+              "pos": "",
+              "definition": "【💡题项表达】 其问题及其解决方案"
+            },
+            {
+              "word": "jury",
+              "pos": "",
+              "definition": "n.陪审团"
+            },
+            {
+              "word": "democratic",
+              "pos": "",
+              "definition": "a.民主的"
+            },
+            {
+              "word": "discrimination",
+              "pos": "",
+              "definition": "n.歧视"
+            },
+            {
+              "word": "landmark",
+              "pos": "",
+              "definition": "n.里程碑"
+            },
+            {
+              "word": "unconstitutional",
+              "pos": "",
+              "definition": "a.不符合宪法的"
+            },
+            {
+              "word": "at random",
+              "pos": "",
+              "definition": "随机地"
+            },
+            {
               "word": "be representative of",
               "pos": "",
               "definition": "代表..."
@@ -5193,16 +5393,6 @@
               "word": "sex discrimination",
               "pos": "",
               "definition": "性别歧视"
-            },
-            {
-              "word": "unconstitutional",
-              "pos": "",
-              "definition": "a.不符合宪法的"
-            },
-            {
-              "word": "discrimination",
-              "pos": "",
-              "definition": "n.歧视"
             },
             {
               "word": "representative",
@@ -5225,19 +5415,9 @@
               "definition": "n. 要求；必要条件；需要（要求）的事物"
             },
             {
-              "word": "democratic",
-              "pos": "",
-              "definition": "a.民主的"
-            },
-            {
               "word": "procedures",
               "pos": "n.",
               "definition": "n. 程序；规程"
-            },
-            {
-              "word": "at random",
-              "pos": "",
-              "definition": "随机地"
             },
             {
               "word": "selection",
@@ -5265,11 +5445,6 @@
               "definition": "v. 选择；挑选；（计算机）选定"
             },
             {
-              "word": "landmark",
-              "pos": "",
-              "definition": "n.里程碑"
-            },
-            {
               "word": "Congress",
               "pos": "n.",
               "definition": "n. 国会；议会"
@@ -5288,11 +5463,6 @@
               "word": "selected",
               "pos": "v.",
               "definition": "v. select 的过去式和过去分词：挑选；选择；选拔"
-            },
-            {
-              "word": "decision",
-              "pos": "n.",
-              "definition": "n. 决定；抉择；判决"
             },
             {
               "word": "extended",
@@ -5393,11 +5563,6 @@
               "word": "level",
               "pos": "n.",
               "definition": "n. 数量；程度；标准"
-            },
-            {
-              "word": "jury",
-              "pos": "",
-              "definition": "n.陪审团"
             }
           ]
         }

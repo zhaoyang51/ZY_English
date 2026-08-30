@@ -15,6 +15,41 @@
           "chunk_translation": "与悲伤等所谓的基本情绪不同， / 恐惧、 / 和愤怒， / 内疚感的出现要稍晚一些， / 它是伴随着儿童对社会和道德规范的逐步理解而产生的。 / 孩子并非生来就懂得说“对不起”； / 相反， / 他们是随着时间的推移才逐渐明白 / 这样的道歉能够安抚父母和朋友—— / 以及他们自己的良心。 / 这就是为什么研究人员普遍认为所谓的道德内疚 / 在适度的情况下 / 是一件好事。",
           "vocabulary": [
             {
+              "word": "foster a child’s moral development",
+              "pos": "",
+              "definition": "【🎯解题正解】 促进孩子的道德发展"
+            },
+            {
+              "word": "regulate a child’s basic emotions",
+              "pos": "",
+              "definition": "【💡题项表达】 调节孩子的基本情绪"
+            },
+            {
+              "word": "improve a child’s intellectual ability",
+              "pos": "",
+              "definition": "【💡题项表达】 提高孩子的智力"
+            },
+            {
+              "word": "intensify a child’s positive feelings",
+              "pos": "",
+              "definition": "【💡题项表达】 强化孩子的积极情绪"
+            },
+            {
+              "word": "grasp",
+              "pos": "",
+              "definition": "n.理解,领会"
+            },
+            {
+              "word": "norms",
+              "pos": "",
+              "definition": "n.规范,行为标准"
+            },
+            {
+              "word": "appease",
+              "pos": "",
+              "definition": "v.安抚,抚慰"
+            },
+            {
               "word": "in conjunction with",
               "pos": "",
               "definition": "与...一起,连同"
@@ -55,11 +90,6 @@
               "definition": "n. 情感；情绪（emotion 的复数）"
             },
             {
-              "word": "appease",
-              "pos": "",
-              "definition": "v.安抚,抚慰"
-            },
-            {
               "word": "sadness",
               "pos": "n.",
               "definition": "n. 悲伤；悲痛"
@@ -90,11 +120,6 @@
               "definition": "prep. 不像；和……不同"
             },
             {
-              "word": "rather",
-              "pos": "adv.",
-              "definition": "adv. 颇；相当；宁愿"
-            },
-            {
               "word": "regard",
               "pos": "v.",
               "definition": "v. 认为；把……看作；（尤指以某种方式）注视"
@@ -103,16 +128,6 @@
               "word": "amount",
               "pos": "n.",
               "definition": "n. 数量；量；金额"
-            },
-            {
-              "word": "grasp",
-              "pos": "",
-              "definition": "n.理解,领会"
-            },
-            {
-              "word": "norms",
-              "pos": "",
-              "definition": "n.规范,行为标准"
             },
             {
               "word": "basic",
@@ -154,9 +169,79 @@
           "chunk_translation": "当然在大众的普遍认知中， / 毫无疑问， / 内疚感仍然饱受诟病。 / 它令人极度不适—— / 在情感上相当于穿上了一件装满 / 沉重石头的夹克。 / 然而这种看法已经过时了。 / “人们正在重新兴起或重新反思 / 内疚到底是什么，以及内疚能够发挥什么作用， / ”阿姆里莎·瓦伊什说道， / 她是弗吉尼亚大学的一位心理学研究员， / 她补充道， / 这种重新认识是更广泛认知的一部分， / 即情绪并不是非黑即白的—— / 某些情感 / 在某种情境下可能是有益的，但在另一种情境下 / 却可能是有害的。 / 例如，嫉妒和愤怒 / 可能是通过进化而来的， / 旨在提醒我们注意重要的不平等现象。 / 过度的快乐反而可能具有破坏性。",
           "vocabulary": [
             {
+              "word": "burdensome",
+              "pos": "",
+              "definition": "【🎯解题正解】 繁重的"
+            },
+            {
+              "word": "inexcusable",
+              "pos": "",
+              "definition": "【💡题项表达】 不可原谅的"
+            },
+            {
+              "word": "deceptive",
+              "pos": "",
+              "definition": "【💡题项表达】 欺骗性的"
+            },
+            {
+              "word": "addictive",
+              "pos": "",
+              "definition": "【💡题项表达】 令人上瘾的"
+            },
+            {
+              "word": "an emotion can play opposing roles",
+              "pos": "",
+              "definition": "【🎯解题正解】 情绪可以扮演相反的角色"
+            },
+            {
+              "word": "emotions are context-independent",
+              "pos": "",
+              "definition": "【💡题项表达】 情绪与情境无关"
+            },
+            {
+              "word": "emotions are socially constructive",
+              "pos": "",
+              "definition": "【💡题项表达】 情绪具有社会建设性"
+            },
+            {
+              "word": "emotional stability can benefit health",
+              "pos": "",
+              "definition": "【💡题项表达】 情绪稳定有利于健康"
+            },
+            {
+              "word": "equivalent",
+              "pos": "",
+              "definition": "n.相等的东西"
+            },
+            {
+              "word": "revival",
+              "pos": "",
+              "definition": "n.复苏,复兴"
+            },
+            {
+              "word": "binary",
+              "pos": "",
+              "definition": "a.二进制的;二元的"
+            },
+            {
+              "word": "advantageous",
+              "pos": "",
+              "definition": "a.有利的,有好处的"
+            },
+            {
+              "word": "destructive",
+              "pos": "",
+              "definition": "a.破坏性的,引起破坏的"
+            },
+            {
               "word": "in the popular imagination",
               "pos": "",
               "definition": "在大众眼中"
+            },
+            {
+              "word": "bad rap",
+              "pos": "",
+              "definition": "口碑差,无理指责"
             },
             {
               "word": "uncomfortable",
@@ -169,19 +254,9 @@
               "definition": "n. （对某学科、过程或情况的）了解；认识；（非正式的）协议"
             },
             {
-              "word": "advantageous",
-              "pos": "",
-              "definition": "a.有利的,有好处的"
-            },
-            {
               "word": "inequalities",
               "pos": "n.",
               "definition": "n. 不平等；不均等；不平衡（多用于社会、经济等语境）"
-            },
-            {
-              "word": "destructive",
-              "pos": "",
-              "definition": "a.破坏性的,引起破坏的"
             },
             {
               "word": "imagination",
@@ -192,11 +267,6 @@
               "word": "recognition",
               "pos": "n.",
               "definition": "n. 承认；接受；表彰"
-            },
-            {
-              "word": "equivalent",
-              "pos": "",
-              "definition": "n.相等的东西"
             },
             {
               "word": "rethinking",
@@ -264,16 +334,6 @@
               "definition": "n. 嫉妒；羡慕；吃醋"
             },
             {
-              "word": "revival",
-              "pos": "",
-              "definition": "n.复苏,复兴"
-            },
-            {
-              "word": "bad rap",
-              "pos": "",
-              "definition": "口碑差,无理指责"
-            },
-            {
               "word": "popular",
               "pos": "adj.",
               "definition": "adj. 受大众喜爱的；受欢迎的"
@@ -307,11 +367,6 @@
               "word": "evolved",
               "pos": "v.",
               "definition": "v. （使）逐渐形成；（有机体或生物特征）进化；释放（气体或热量）（evolve 的过去式及过去分词）"
-            },
-            {
-              "word": "binary",
-              "pos": "",
-              "definition": "a.二进制的;二元的"
             },
             {
               "word": "course",
@@ -368,14 +423,24 @@
           "chunk_translation": "而内疚感， / 通过促使我们更深入地反思自己的品行是否善良， / 能够激励人们去弥补 / 过错并修复人际关系。 / 换句话说，内疚感 / 可以帮助 / 将一个具有合作特性的物种紧密维系在一起。 / 它是一种社会粘合剂。",
           "vocabulary": [
             {
-              "word": "relationships",
-              "pos": "n.",
-              "definition": "n. relationship 的复数（人际关系；情侣关系"
+              "word": "species",
+              "pos": "",
+              "definition": "n.物种"
+            },
+            {
+              "word": "glue",
+              "pos": "",
+              "definition": "n.胶水,胶"
             },
             {
               "word": "make up for",
               "pos": "",
               "definition": "弥补,补偿"
+            },
+            {
+              "word": "relationships",
+              "pos": "n.",
+              "definition": "n. relationship 的复数（人际关系；情侣关系"
             },
             {
               "word": "cooperative",
@@ -398,11 +463,6 @@
               "definition": "n. 善良；美德"
             },
             {
-              "word": "species",
-              "pos": "",
-              "definition": "n.物种"
-            },
-            {
               "word": "deeply",
               "pos": "adv.",
               "definition": "adv. 很；非常"
@@ -421,11 +481,6 @@
               "word": "guilt",
               "pos": "n.",
               "definition": "n. 内疚；罪行"
-            },
-            {
-              "word": "glue",
-              "pos": "",
-              "definition": "n.胶水,胶"
             }
           ]
         },
@@ -437,29 +492,24 @@
           "chunk_translation": "从这个 / 角度来看， / 内疚感是一种转机。 / 一项研究 / 由蒂娜·马尔蒂主导， / 她是多伦多大学的心理学教授， / 该研究表明 / 内疚感或许能够弥补情感上的缺陷。 / 在多项研究中， / 马尔蒂等人已经证实 / 内疚和同情可能代表着通往合作与分享的不同途径。 / 一些同情心 / 较低的 / 孩子可能会通过体验 / 更多的内疚感 / 来弥补这一不足， / 这可以抑制 / 他们更具攻击性的冲动。 / 反之亦然： / 较高的同情心可以弥补内疚感的不足。",
           "vocabulary": [
             {
-              "word": "substitute for",
+              "word": "can result from either sympathy or guilt",
               "pos": "",
-              "definition": "替代,取代"
+              "definition": "【🎯解题正解】 可能是出于同情或内疚"
             },
             {
-              "word": "experiencing",
-              "pos": "v.",
-              "definition": "v. 经历；体验；感受到（experience 的现在分词/动名词）"
+              "word": "may help correct emotional deficiencies",
+              "pos": "",
+              "definition": "【💡题项表达】 可能有助于纠正情绪缺陷"
+            },
+            {
+              "word": "can bring about emotional satisfaction",
+              "pos": "",
+              "definition": "【💡题项表达】 可以带来情感上的满足"
             },
             {
               "word": "make up for",
               "pos": "",
               "definition": "弥补,补偿"
-            },
-            {
-              "word": "opportunity",
-              "pos": "n.",
-              "definition": "n. 时机；机会"
-            },
-            {
-              "word": "cooperation",
-              "pos": "n.",
-              "definition": "n. 合作；协作；协助"
             },
             {
               "word": "compensate",
@@ -472,9 +522,44 @@
               "definition": "n.缺乏;缺陷"
             },
             {
+              "word": "represent",
+              "pos": "",
+              "definition": "v.代表"
+            },
+            {
+              "word": "shortfall",
+              "pos": "",
+              "definition": "n.不足,差额"
+            },
+            {
+              "word": "rein in",
+              "pos": "",
+              "definition": "严格控制,抑制"
+            },
+            {
               "word": "vice versa",
               "pos": "",
               "definition": "反之亦然"
+            },
+            {
+              "word": "substitute for",
+              "pos": "",
+              "definition": "替代,取代"
+            },
+            {
+              "word": "experiencing",
+              "pos": "v.",
+              "definition": "v. 经历；体验；感受到（experience 的现在分词/动名词）"
+            },
+            {
+              "word": "opportunity",
+              "pos": "n.",
+              "definition": "n. 时机；机会"
+            },
+            {
+              "word": "cooperation",
+              "pos": "n.",
+              "definition": "n. 合作；协作；协助"
             },
             {
               "word": "psychology",
@@ -490,16 +575,6 @@
               "word": "substitute",
               "pos": "n.",
               "definition": "n. 替代品；代替物；（体育比赛中的）替补队员"
-            },
-            {
-              "word": "represent",
-              "pos": "",
-              "definition": "v.代表"
-            },
-            {
-              "word": "shortfall",
-              "pos": "",
-              "definition": "n.不足,差额"
             },
             {
               "word": "professor",
@@ -530,11 +605,6 @@
               "word": "impulses",
               "pos": "n.",
               "definition": "n. （心理）冲动；一时的欲望或念头；（电子）脉冲"
-            },
-            {
-              "word": "rein in",
-              "pos": "",
-              "definition": "严格控制,抑制"
             },
             {
               "word": "Toronto",
@@ -596,6 +666,46 @@
           "chunk_translation": "例如在2014年的一项研究中， / 举例来说， / 马尔蒂对244名儿童进行了观察研究。 / 结合看护人的评估和儿童的自我观察， / 她对每个孩子的总体同情心水平以及在发生道德违规行为后 / 产生负面情绪的倾向进行了评分。 / 随后，孩子们分到了巧克力硬币， / 并获得了与一名匿名儿童分享这些硬币的机会。 / 对于同情心较低的孩子而言， / 他们分享的数量似乎取决于他们产生内疚感的倾向程度。 / 容易产生内疚感的孩子分享得更多， / 尽管 / 他们并没有奇迹般地对另一个孩子的缺失产生更多同情。",
           "vocabulary": [
             {
+              "word": "wrongdoings",
+              "pos": "",
+              "definition": "【🎯解题正解】 不当行为"
+            },
+            {
+              "word": "teachings",
+              "pos": "",
+              "definition": "【💡题项表达】 教义"
+            },
+            {
+              "word": "discussions",
+              "pos": "",
+              "definition": "【💡题项表达】 讨论"
+            },
+            {
+              "word": "restrictions",
+              "pos": "",
+              "definition": "【💡题项表达】 限制"
+            },
+            {
+              "word": "anonymous",
+              "pos": "",
+              "definition": "a.名字不公开的,匿名的"
+            },
+            {
+              "word": "inclined",
+              "pos": "",
+              "definition": "a.有...的倾向"
+            },
+            {
+              "word": "prone",
+              "pos": "",
+              "definition": "a.有...倾向的,易于...的"
+            },
+            {
+              "word": "deprivation",
+              "pos": "",
+              "definition": "n.匮乏,缺少"
+            },
+            {
               "word": "transgressions",
               "pos": "n.",
               "definition": "n. 违反；侵犯（transgression 的复数）：违反法律、道德或社会规范的行为；越界、逾矩或超出限度的行为"
@@ -606,11 +716,6 @@
               "definition": "n. observation 的复数形式：观察；观测"
             },
             {
-              "word": "deprivation",
-              "pos": "",
-              "definition": "n.匮乏,缺少"
-            },
-            {
               "word": "assessments",
               "pos": "n.",
               "definition": "n. 评估；评价"
@@ -619,11 +724,6 @@
               "word": "sympathetic",
               "pos": "adj.",
               "definition": "adj. 同情的；有同情心的；赞同的"
-            },
-            {
-              "word": "anonymous",
-              "pos": "",
-              "definition": "a.名字不公开的,匿名的"
             },
             {
               "word": "caregiver",
@@ -639,11 +739,6 @@
               "word": "magically",
               "pos": "adv.",
               "definition": "adv. 用魔法地；如魔法般地"
-            },
-            {
-              "word": "inclined",
-              "pos": "",
-              "definition": "a.有...的倾向"
             },
             {
               "word": "sympathy",
@@ -699,11 +794,6 @@
               "word": "guilty",
               "pos": "adj.",
               "definition": "adj. 内疚的；羞愧的；有罪的"
-            },
-            {
-              "word": "prone",
-              "pos": "",
-              "definition": "a.有...倾向的,易于...的"
             },
             {
               "word": "study",
@@ -1692,14 +1782,19 @@
           "chunk_translation": "森林为我们提供荫凉、 / 宁静，同时也带来了应对气候变化斗争中更为严峻的挑战之一。 / 正当我们人类指望 / 森林吸收我们排放的大部分二氧化碳时， / 我们却正在威胁森林吸收二氧化碳的能力。 / 我们正在加剧的气候变化可能在某一天让我们 / 面临这样的森林： / 它们释放的碳比吸收的还要多。",
           "vocabulary": [
             {
-              "word": "in the fight against",
+              "word": "forests may become a potential threat",
               "pos": "",
-              "definition": "与...的斗争/战斗"
+              "definition": "【🎯解题正解】 森林可能成为潜在威胁"
             },
             {
-              "word": "a good share of",
+              "word": "people may misunderstand global warming",
               "pos": "",
-              "definition": "许多,大量"
+              "definition": "【💡题项表达】 人们可能会误解全球变暖"
+            },
+            {
+              "word": "extreme weather conditions may arise",
+              "pos": "",
+              "definition": "【💡题项表达】 可能会出现极端天气情况"
             },
             {
               "word": "climate change",
@@ -1710,6 +1805,41 @@
               "word": "carbon dioxide",
               "pos": "",
               "definition": "二氧化碳"
+            },
+            {
+              "word": "emit",
+              "pos": "",
+              "definition": "v.发出;散发"
+            },
+            {
+              "word": "absorb",
+              "pos": "",
+              "definition": "v.吸收"
+            },
+            {
+              "word": "in the fight against",
+              "pos": "",
+              "definition": "与...的斗争/战斗"
+            },
+            {
+              "word": "even as",
+              "pos": "",
+              "definition": "正当,恰好在...的时候"
+            },
+            {
+              "word": "count on",
+              "pos": "",
+              "definition": "指望:依靠"
+            },
+            {
+              "word": "soak up",
+              "pos": "",
+              "definition": "吸收"
+            },
+            {
+              "word": "a good share of",
+              "pos": "",
+              "definition": "许多,大量"
             },
             {
               "word": "threatening",
@@ -1725,21 +1855,6 @@
               "word": "hastening",
               "pos": "v.",
               "definition": "v. hasten 的现在分词／动名词：（及物）加速；催促；使某事发生得更快或更早"
-            },
-            {
-              "word": "count on",
-              "pos": "",
-              "definition": "指望:依靠"
-            },
-            {
-              "word": "even as",
-              "pos": "",
-              "definition": "正当,恰好在...的时候"
-            },
-            {
-              "word": "soak up",
-              "pos": "",
-              "definition": "吸收"
             },
             {
               "word": "Forests",
@@ -1765,11 +1880,6 @@
               "word": "ability",
               "pos": "n.",
               "definition": "n. 能力；能够；才能"
-            },
-            {
-              "word": "absorb",
-              "pos": "",
-              "definition": "v.吸收"
             },
             {
               "word": "harder",
@@ -1810,11 +1920,6 @@
               "word": "share",
               "pos": "v.",
               "definition": "v. 共享；合用；分享"
-            },
-            {
-              "word": "emit",
-              "pos": "",
-              "definition": "v.发出;散发"
             }
           ]
         },
@@ -1826,14 +1931,34 @@
           "chunk_translation": "庆幸的是， / 存在摆脱这一陷阱的途径—— / 但这需要取得一种微妙的平衡。 / 帮助森林在长远未来作为宝贵的“碳汇”茁壮成长，可能需要暂时削减其目前的碳吸收能力。 / 加利福尼亚州在这方面处于领先地位， / 正如其在众多应对气候变化的努力中所做的那样， / 正在逐步落实具体的实施细节。",
           "vocabulary": [
             {
-              "word": "Thankfully",
-              "pos": "adv.",
-              "definition": "adv. 感激地；感谢地"
+              "word": "lower their present carbon-absorbing capacity \nᆇี൫ज@JOEE ༯໶\n\n04",
+              "pos": "",
+              "definition": "【🎯解题正解】 lower their present carbon-absorbing capacity \nᆇี൫ज@JOEE ༯໶\n\n04"
             },
             {
-              "word": "a way out",
+              "word": "accelerate the growth of young trees",
               "pos": "",
-              "definition": "摆脱困难的方法"
+              "definition": "【💡题项表达】 加速幼树生长"
+            },
+            {
+              "word": "strike a balance among different plants",
+              "pos": "",
+              "definition": "【💡题项表达】 在不同植物之间取得平衡"
+            },
+            {
+              "word": "absorb",
+              "pos": "",
+              "definition": "v.吸收"
+            },
+            {
+              "word": "trap",
+              "pos": "",
+              "definition": "n.陷阱;困境"
+            },
+            {
+              "word": "subtle",
+              "pos": "",
+              "definition": "a.微妙的;机智的"
             },
             {
               "word": "flourish",
@@ -1844,6 +1969,16 @@
               "word": "capacity",
               "pos": "",
               "definition": "n.能力;容量"
+            },
+            {
+              "word": "a way out",
+              "pos": "",
+              "definition": "摆脱困难的方法"
+            },
+            {
+              "word": "Thankfully",
+              "pos": "adv.",
+              "definition": "adv. 感激地；感谢地"
             },
             {
               "word": "involves",
@@ -1901,34 +2036,14 @@
               "definition": "n. 细节；细微之处；（军队中的）任务"
             },
             {
-              "word": "absorb",
-              "pos": "",
-              "definition": "v.吸收"
-            },
-            {
-              "word": "subtle",
-              "pos": "",
-              "definition": "a.微妙的;机智的"
-            },
-            {
               "word": "carbon",
               "pos": "n.",
               "definition": "n. 碳；复写纸；炭精棒"
             },
             {
-              "word": "future",
-              "pos": "n.",
-              "definition": "n. 未来；将来；前途"
-            },
-            {
               "word": "sinks",
               "pos": "v.",
               "definition": "v. 下沉；沉没；倒下"
-            },
-            {
-              "word": "trap",
-              "pos": "",
-              "definition": "n.陷阱;困境"
             }
           ]
         },
@@ -1940,9 +2055,24 @@
           "chunk_translation": "该州提出的《森林碳计划》旨在加倍努力，对森林部分区域的幼树进行疏伐并清理灌木丛， / 在森林的部分区域进行治理。 / 这会在短期内降低森林的碳储载能力。 / 但剩余的树木能吸收更充足的水分， / 从而生长得更加茂盛， / 进而恢复森林从空气中吸取碳的能力。 / 健康的树木也能更好地抵御病虫害。 / 森林景观也变得不易燃烧。 / 即使发生火灾， / 被烧毁的树木也会更少。",
           "vocabulary": [
             {
-              "word": "double efforts",
+              "word": "reduce the density of some of its forests",
               "pos": "",
-              "definition": "加倍努力"
+              "definition": "【🎯解题正解】 减少一些森林的密度"
+            },
+            {
+              "word": "cultivate more drought-resistant trees",
+              "pos": "",
+              "definition": "【💡题项表达】 培育更多抗旱树木"
+            },
+            {
+              "word": "capacity",
+              "pos": "",
+              "definition": "n.能力;容量"
+            },
+            {
+              "word": "brush",
+              "pos": "",
+              "definition": "n.灌木丛地带;矮树丛"
             },
             {
               "word": "temporarily",
@@ -1950,9 +2080,44 @@
               "definition": "ad.临时地,临时"
             },
             {
+              "word": "draw",
+              "pos": "",
+              "definition": "v.获取:吸取"
+            },
+            {
+              "word": "moisture",
+              "pos": "",
+              "definition": "n.水分"
+            },
+            {
+              "word": "thrive",
+              "pos": "",
+              "definition": "v.茁壮成长"
+            },
+            {
               "word": "landscape",
               "pos": "",
               "definition": "n.自然景色"
+            },
+            {
+              "word": "burnable",
+              "pos": "",
+              "definition": "a.可燃的;易燃的"
+            },
+            {
+              "word": "double efforts",
+              "pos": "",
+              "definition": "加倍努力"
+            },
+            {
+              "word": "thin out",
+              "pos": "",
+              "definition": "修剪"
+            },
+            {
+              "word": "fend off",
+              "pos": "",
+              "definition": "避开:挡住"
             },
             {
               "word": "remaining",
@@ -1968,31 +2133,6 @@
               "word": "restoring",
               "pos": "v.",
               "definition": "v. 恢复；重建；修复"
-            },
-            {
-              "word": "capacity",
-              "pos": "",
-              "definition": "n.能力;容量"
-            },
-            {
-              "word": "moisture",
-              "pos": "",
-              "definition": "n.水分"
-            },
-            {
-              "word": "burnable",
-              "pos": "",
-              "definition": "a.可燃的;易燃的"
-            },
-            {
-              "word": "thin out",
-              "pos": "",
-              "definition": "修剪"
-            },
-            {
-              "word": "fend off",
-              "pos": "",
-              "definition": "避开:挡住"
             },
             {
               "word": "proposed",
@@ -2035,11 +2175,6 @@
               "definition": "n. 昆虫；类似昆虫的小动物（如蜘蛛）；卑鄙的人（insect 的复数）"
             },
             {
-              "word": "thrive",
-              "pos": "",
-              "definition": "v.茁壮成长"
-            },
-            {
               "word": "Forest",
               "pos": "n.",
               "definition": "n. 森林；林区"
@@ -2065,11 +2200,6 @@
               "definition": "adv. 容易地；很可能；多半"
             },
             {
-              "word": "brush",
-              "pos": "",
-              "definition": "n.灌木丛地带;矮树丛"
-            },
-            {
               "word": "trees",
               "pos": "n.",
               "definition": "n. 树木；乔木；树状结构（tree 的复数）"
@@ -2083,11 +2213,6 @@
               "word": "event",
               "pos": "n.",
               "definition": "n. 事件；大事；社交场合"
-            },
-            {
-              "word": "draw",
-              "pos": "",
-              "definition": "v.获取:吸取"
             },
             {
               "word": "Plan",
@@ -2114,6 +2239,16 @@
           "chunk_translation": "对此类规划的 / 需求已变得日益紧迫。 / 事实上， / 自2010年以来， / 干旱和虫害已导致加州超过1亿棵树木死亡， / 在加利福尼亚州， / 其中大多数仅在2016年一年内死亡， / 且山火已烧毁了数十万英亩林地。",
           "vocabulary": [
             {
+              "word": "urgent",
+              "pos": "",
+              "definition": "a.紧急的;急迫的"
+            },
+            {
+              "word": "drought",
+              "pos": "",
+              "definition": "n.干旱"
+            },
+            {
               "word": "increasingly",
               "pos": "adv.",
               "definition": "adv. 越来越多地；不断增加地"
@@ -2139,19 +2274,9 @@
               "definition": "n. 数百；成百上千；许多"
             },
             {
-              "word": "drought",
-              "pos": "",
-              "definition": "n.干旱"
-            },
-            {
               "word": "insects",
               "pos": "n.",
               "definition": "n. 昆虫；类似昆虫的小动物（如蜘蛛）"
-            },
-            {
-              "word": "urgent",
-              "pos": "",
-              "definition": "a.紧急的;急迫的"
             },
             {
               "word": "killed",
@@ -2188,6 +2313,21 @@
           "chunk_translation": "加州计划到2020年每年治理3.5 / 万英亩森林， / 到2030年每年治理6 / 万英亩—— / 资金来自于该州碳排放许可证拍卖的收益。 / 这仅占能够受益的森林总面积的一小部分， / 可以从中受益的面积， / 总计约50万英亩， / 因此至关重要的是优先处理那些 / 面临最严峻火灾或干旱风险的区域。",
           "vocabulary": [
             {
+              "word": "To handle the areas in serious danger first",
+              "pos": "",
+              "definition": "【🎯解题正解】 对危险严重地区优先处置。"
+            },
+            {
+              "word": "To obtain enough financial support",
+              "pos": "",
+              "definition": "【💡题项表达】 以获得足够的资金支持。"
+            },
+            {
+              "word": "drought",
+              "pos": "",
+              "definition": "n.干旱"
+            },
+            {
               "word": "prioritize",
               "pos": "",
               "definition": "v.优先处理;优先考虑"
@@ -2216,11 +2356,6 @@
               "word": "greatest",
               "pos": "adj.",
               "definition": "adj. 最伟大的；最杰出的；最好的"
-            },
-            {
-              "word": "drought",
-              "pos": "",
-              "definition": "n.干旱"
             },
             {
               "word": "acreage",
@@ -2282,14 +2417,34 @@
           "chunk_translation": "该战略还旨在确保 / 采伐自森林的木质材料中的碳 / 以实木形式封存，或作为生物燃料用于驱动车辆， / 在交通工具中， / 否则这些车辆将不得不使用 / 化石燃料运行。 / 关于交通生物燃料的 / 新研究目前已经在推进之中。",
           "vocabulary": [
             {
-              "word": "transportation",
-              "pos": "n.",
-              "definition": "n. 运输；运送；交通运输系统"
+              "word": "woody",
+              "pos": "",
+              "definition": "a.木质的"
+            },
+            {
+              "word": "lumber",
+              "pos": "",
+              "definition": "n.木材"
+            },
+            {
+              "word": "biofuel",
+              "pos": "",
+              "definition": "n.生物燃料"
+            },
+            {
+              "word": "run on",
+              "pos": "",
+              "definition": "用...驱动"
             },
             {
               "word": "under way",
               "pos": "",
               "definition": "在进行中"
+            },
+            {
+              "word": "transportation",
+              "pos": "n.",
+              "definition": "n. 运输；运送；交通运输系统"
             },
             {
               "word": "otherwise",
@@ -2322,11 +2477,6 @@
               "definition": "n. 生物燃料；生质燃料；生质能源（biofuel 的复数形式）"
             },
             {
-              "word": "biofuel",
-              "pos": "",
-              "definition": "n.生物燃料"
-            },
-            {
               "word": "removed",
               "pos": "adj.",
               "definition": "adj. （亲属关系）隔代的；隔辈的；不同的"
@@ -2335,16 +2485,6 @@
               "word": "forests",
               "pos": "n.",
               "definition": "n. 森林；林地（forest 的复数形式）；v. 植树于"
-            },
-            {
-              "word": "lumber",
-              "pos": "",
-              "definition": "n.木材"
-            },
-            {
-              "word": "run on",
-              "pos": "",
-              "definition": "用...驱动"
             },
             {
               "word": "ensure",
@@ -2372,11 +2512,6 @@
               "definition": "n. 化石；思想僵化的人；僵化的事物"
             },
             {
-              "word": "woody",
-              "pos": "",
-              "definition": "a.木质的"
-            },
-            {
               "word": "solid",
               "pos": "adj.",
               "definition": "adj. 固体的；坚硬的；结实的"
@@ -2396,6 +2531,46 @@
           "chunk_translation": "州政府非常习惯于管理森林， / 但传统上他们的关注点 / 集中在野生动物、 / 水源集水区以及休闲娱乐 / 的开发机会上。 / 直到最近，他们才开始认识到森林必须发挥的关键作用， / 即在碳储存方面的重要作用。 / 加州的这项计划， / 预计将于明年由州长最终批准敲定， / 应当能够树立一个典范榜样。",
           "vocabulary": [
             {
+              "word": "supportive",
+              "pos": "",
+              "definition": "【🎯解题正解】 支持的"
+            },
+            {
+              "word": "ambiguous",
+              "pos": "",
+              "definition": "【💡题项表达】 模糊的"
+            },
+            {
+              "word": "tolerant",
+              "pos": "",
+              "definition": "【💡题项表达】 宽容"
+            },
+            {
+              "word": "cautious",
+              "pos": "",
+              "definition": "【💡题项表达】 谨慎"
+            },
+            {
+              "word": "wildlife",
+              "pos": "",
+              "definition": "n.野生动植物"
+            },
+            {
+              "word": "recreation",
+              "pos": "",
+              "definition": "n.重现:重建"
+            },
+            {
+              "word": "governor",
+              "pos": "",
+              "definition": "n.地方长官;州长"
+            },
+            {
+              "word": "come to",
+              "pos": "",
+              "definition": "开始..;逐渐..."
+            },
+            {
               "word": "traditionally",
               "pos": "adv.",
               "definition": "adv. 传统上；习惯上；以传统方式"
@@ -2409,11 +2584,6 @@
               "word": "governments",
               "pos": "n.",
               "definition": "n. 政府（government 的复数）；政权；可转让政府证券"
-            },
-            {
-              "word": "recreation",
-              "pos": "",
-              "definition": "n.重现:重建"
             },
             {
               "word": "accustomed",
@@ -2431,16 +2601,6 @@
               "definition": "v．完成；敲定；最终确定：使某事物达到最终状态"
             },
             {
-              "word": "wildlife",
-              "pos": "",
-              "definition": "n.野生动植物"
-            },
-            {
-              "word": "governor",
-              "pos": "",
-              "definition": "n.地方长官;州长"
-            },
-            {
               "word": "managing",
               "pos": "adj.",
               "definition": "adj. 主管的；节省的；v. 管理"
@@ -2454,11 +2614,6 @@
               "word": "expected",
               "pos": "adj.",
               "definition": "adj. 预料的；预期的；v. 期待"
-            },
-            {
-              "word": "come to",
-              "pos": "",
-              "definition": "开始..;逐渐..."
             },
             {
               "word": "forests",
@@ -3345,6 +3500,16 @@
           "chunk_translation": "多年来美国农场主一直抱怨劳动力短缺 / 已经持续数年之久。 / 如果不对此类农场工人的移民法规进行彻底改革，这些抱怨就不可能停止 / 针对农业工人的制度。 / 国会阻挠了为农业工人创建更直接签证的努力 / 该签证将允许外国工人在美国停留更久并在行业内部调换工作。 / 如果这种局面得不到改变， / 美国企业、 / 社区、 / 以及消费者都将成为输家。",
           "vocabulary": [
             {
+              "word": "Flaws in U.S. immigration rules for farm workers",
+              "pos": "",
+              "definition": "【🎯解题正解】 美国农场工人移民规则存在缺陷。"
+            },
+            {
+              "word": "overhaul",
+              "pos": "",
+              "definition": "n.(制度或方法的)彻底改革"
+            },
+            {
               "word": "straightforward",
               "pos": "",
               "definition": "a.简单的,不复杂的"
@@ -3393,11 +3558,6 @@
               "word": "consumers",
               "pos": "n.",
               "definition": "n. consumer 的复数：消费者；顾客；用户"
-            },
-            {
-              "word": "overhaul",
-              "pos": "",
-              "definition": "n.(制度或方法的)彻底改革"
             },
             {
               "word": "unlikely",
@@ -3454,9 +3614,29 @@
           "chunk_translation": "也许美国半数的农场劳工 / 都是没有合法身份的无证移民。 / 随着入境该国的此类劳工日益减少， / 农业劳动力的结构特征正在发生改变。 / 如今的农场劳工， / 尽管绝大多数依然出生 / 于墨西哥， / 但更有可能定居而非候鸟式流动，且更有可能已婚而非单身。 / 他们也正在老龄化。 / 在本世纪初， / 大约三分之一的农作物种植工人年龄超过35岁。 / 如今这一比例已超过一半。 / 而采摘农作物对于 / 上了年纪的身体而言非常繁重劳累。 / 解决该劳动力短缺的一个经常被讨论的对策 / 依然如以往一样不切实际： / 美国本土工人绝不会重返农场。",
           "vocabulary": [
             {
-              "word": "characteristics",
-              "pos": "n.",
-              "definition": "n. 特征；特点；特色（characteristic 的复数）"
+              "word": "the aging of immigrant farm workers",
+              "pos": "",
+              "definition": "【🎯解题正解】 农民工老龄化"
+            },
+            {
+              "word": "the rising number of illegal immigrants",
+              "pos": "",
+              "definition": "【💡题项表达】 非法移民人数不断增加"
+            },
+            {
+              "word": "the high mobility of crop workers",
+              "pos": "",
+              "definition": "【💡题项表达】 农作物工人的高流动性"
+            },
+            {
+              "word": "the lack of experienced laborers",
+              "pos": "",
+              "definition": "【💡题项表达】 缺乏有经验的工人"
+            },
+            {
+              "word": "To get native U.S. workers back to farming",
+              "pos": "",
+              "definition": "【🎯解题正解】 让美国本土工人重返农业。"
             },
             {
               "word": "labor shortage",
@@ -3464,19 +3644,19 @@
               "definition": "劳动力短缺"
             },
             {
-              "word": "predominantly",
-              "pos": "",
-              "definition": "ad.主要地"
-            },
-            {
               "word": "undocumented",
               "pos": "",
               "definition": "a.非法的,无证的"
             },
             {
-              "word": "agricultural",
-              "pos": "adj.",
-              "definition": "adj. 农业的；与农业有关的；务农的"
+              "word": "predominantly",
+              "pos": "",
+              "definition": "ad.主要地"
+            },
+            {
+              "word": "cure",
+              "pos": "",
+              "definition": "n.对策,措施"
             },
             {
               "word": "implausible",
@@ -3489,14 +3669,24 @@
               "definition": "备受争议的"
             },
             {
-              "word": "immigrants",
-              "pos": "n.",
-              "definition": "n. 移民（immigrant 的复数）"
-            },
-            {
               "word": "all along",
               "pos": "",
               "definition": "自始至终,一直"
+            },
+            {
+              "word": "characteristics",
+              "pos": "n.",
+              "definition": "n. 特征；特点；特色（characteristic 的复数）"
+            },
+            {
+              "word": "agricultural",
+              "pos": "adj.",
+              "definition": "adj. 农业的；与农业有关的；务农的"
+            },
+            {
+              "word": "immigrants",
+              "pos": "n.",
+              "definition": "n. 移民（immigrant 的复数）"
             },
             {
               "word": "workforce",
@@ -3569,16 +3759,6 @@
               "definition": "n. 墨西哥（北美洲南部国家；正式名称为墨西哥合众国）；（体育）墨西哥队（借指墨西哥国家队）"
             },
             {
-              "word": "likely",
-              "pos": "adj.",
-              "definition": "adj. 可能发生的；似乎合适的；仿佛恰当的"
-            },
-            {
-              "word": "rather",
-              "pos": "adv.",
-              "definition": "adv. 颇；相当；宁愿"
-            },
-            {
               "word": "Native",
               "pos": "adj.",
               "definition": "adj. 本地出生的；出生地的；天生的"
@@ -3604,11 +3784,6 @@
               "definition": "n. 劳动；工作；劳作"
             },
             {
-              "word": "cure",
-              "pos": "",
-              "definition": "n.对策,措施"
-            },
-            {
               "word": "farm",
               "pos": "n.",
               "definition": "n. 农场；养殖场"
@@ -3623,24 +3798,39 @@
           "chunk_translation": "机械化也不是解决之道， / 同样不是—— / 至少目前 / 还不成熟。 / 玉米、 / 棉花、 / 水稻、 / 大豆 / 以及小麦的生产已基本实现机械化， / 但许多高附加值、 / 劳动密集型的农作物， / 比如草莓， / 依然严重依赖人工劳动力。 / 即便是奶牛场， / 虽然机器人承担了小部分的挤奶工作， / 在全面实现自动化之前 / 依然有很长的路要走。",
           "vocabulary": [
             {
-              "word": "labor-intensive",
-              "pos": "",
-              "definition": "劳动密集型的"
-            },
-            {
               "word": "mechanization",
               "pos": "",
               "definition": "n.机械化"
             },
             {
-              "word": "strawberries",
-              "pos": "n.",
-              "definition": "n. 草莓（strawberry 的复数）；（粤）士多啤梨；草莓植株（strawberry 的复数"
+              "word": "dairy",
+              "pos": "",
+              "definition": "a.生产乳品的"
+            },
+            {
+              "word": "automated",
+              "pos": "",
+              "definition": "a.自动化的"
             },
             {
               "word": "high-value",
               "pos": "",
               "definition": "高价值的"
+            },
+            {
+              "word": "labor-intensive",
+              "pos": "",
+              "definition": "劳动密集型的"
+            },
+            {
+              "word": "share",
+              "pos": "",
+              "definition": "n.(分担的)一部分"
+            },
+            {
+              "word": "strawberries",
+              "pos": "n.",
+              "definition": "n. 草莓（strawberry 的复数）；（粤）士多啤梨；草莓植株（strawberry 的复数"
             },
             {
               "word": "Production",
@@ -3651,11 +3841,6 @@
               "word": "mechanized",
               "pos": "adj.",
               "definition": "adj. 机械化的；用机械操作的；呆板的"
-            },
-            {
-              "word": "automated",
-              "pos": "",
-              "definition": "a.自动化的"
             },
             {
               "word": "intensive",
@@ -3691,16 +3876,6 @@
               "word": "robots",
               "pos": "n.",
               "definition": "n. （自）机器人（robot 的复数形式）"
-            },
-            {
-              "word": "dairy",
-              "pos": "",
-              "definition": "a.生产乳品的"
-            },
-            {
-              "word": "share",
-              "pos": "",
-              "definition": "n.(分担的)一部分"
             },
             {
               "word": "wheat",
@@ -3747,6 +3922,16 @@
           "chunk_translation": "结果是， / 农场越来越依赖 / 持H-2A签证的临时短期外籍劳工来填补劳动力缺口。 / 大约从2012年开始， / 该类签证的申请量急剧攀升； / 从2011年到2016年，实际签发的签证数量增加了一倍以上。",
           "vocabulary": [
             {
+              "word": "temporary",
+              "pos": "",
+              "definition": "a.暂时的,临时的"
+            },
+            {
+              "word": "sharply",
+              "pos": "",
+              "definition": "ad.急剧地,突然大幅度地"
+            },
+            {
               "word": "fill the gaps",
               "pos": "",
               "definition": "填补空缺"
@@ -3762,11 +3947,6 @@
               "definition": "语境核心词汇"
             },
             {
-              "word": "temporary",
-              "pos": "",
-              "definition": "a.暂时的,临时的"
-            },
-            {
               "word": "workforce",
               "pos": "n.",
               "definition": "n. （国家或地区的）劳动力；劳动人口；（某组织或公司的）全体员工"
@@ -3780,11 +3960,6 @@
               "word": "requests",
               "pos": "n.",
               "definition": "n. request 的复数形式；请求；要求"
-            },
-            {
-              "word": "sharply",
-              "pos": "",
-              "definition": "ad.急剧地,突然大幅度地"
             },
             {
               "word": "reliant",
@@ -3836,14 +4011,44 @@
           "chunk_translation": "H-2A签证没有名额上限， / 不像针对非农业工种的 / H-2B签证， / 后者每年限制在6.6 / 万个名额之内。 / 尽管如此， / 雇主们依然抱怨他们无法获得所需全部的劳工。 / 申请流程繁琐、 / 费用高昂， / 且结果不可预测。 / 一项调查发现， / 官僚主义的拖延导致H-2A工人平均上岗时间延误了22天。 / 劳动力短缺问题因联邦移民突击搜查 / 而进一步恶化， / 这些搜查带走了一部分劳工，并将其他人逼入地下黑市。",
           "vocabulary": [
             {
-              "word": "nonagricultural",
-              "pos": "adj.",
-              "definition": "adj. 非农业的"
+              "word": "slow granting procedures",
+              "pos": "",
+              "definition": "【🎯解题正解】 缓慢的授予程序"
+            },
+            {
+              "word": "control of annual admissions",
+              "pos": "",
+              "definition": "【💡题项表达】 控制年度招生"
+            },
+            {
+              "word": "tightened requirements",
+              "pos": "",
+              "definition": "【💡题项表达】 收紧要求"
+            },
+            {
+              "word": "numerical",
+              "pos": "",
+              "definition": "a.数字的"
+            },
+            {
+              "word": "cap",
+              "pos": "",
+              "definition": "n.最高限度"
+            },
+            {
+              "word": "cumbersome",
+              "pos": "",
+              "definition": "a.缓慢复杂的"
             },
             {
               "word": "bureaucratic",
               "pos": "",
               "definition": "a.官僚的,官僚主义的"
+            },
+            {
+              "word": "nonagricultural",
+              "pos": "adj.",
+              "definition": "adj. 非农业的"
             },
             {
               "word": "immigration",
@@ -3856,11 +4061,6 @@
               "definition": "adv. 在地（面）下；隐蔽地；隐匿地"
             },
             {
-              "word": "cumbersome",
-              "pos": "",
-              "definition": "a.缓慢复杂的"
-            },
-            {
               "word": "unreliable",
               "pos": "adj.",
               "definition": "adj. 不可靠的；靠不住的"
@@ -3869,11 +4069,6 @@
               "word": "compounded",
               "pos": "adj.",
               "definition": "adj. 混合的；（正式）由……组成的（常与 of 连用）；（化学、生物）复合的"
-            },
-            {
-              "word": "numerical",
-              "pos": "",
-              "definition": "a.数字的"
             },
             {
               "word": "employers",
@@ -3959,11 +4154,6 @@
               "word": "aren",
               "pos": "abbr.",
               "definition": "abbr. 陆军无线电工程网（army radio engineering network）"
-            },
-            {
-              "word": "cap",
-              "pos": "",
-              "definition": "n.最高限度"
             }
           ]
         },
@@ -3974,6 +4164,21 @@
           "slashed_text": "In a 2012 survey , / 71 percent of tree-fruit growers and almost 80 percent of raisin and berry growers said they were short of labor. / Some western farmers have responded / by moving operations to Mexico. / From 1998 to 2000 , / 14.5 percent of the fruit Americans consumed was imported. / Little more than a decade later , / the share of imports was 25.8 percent.",
           "chunk_translation": "在2012年的一项调查中， / 71%的树果种植者和近80%的葡萄干及浆果种植者表示他们面临劳动力短缺。 / 一些西部农场主的应对措施 / 是将业务直接转移到墨西哥。 / 1998年至2000年间， / 美国人消费的水果中有14.5%来自于进口。 / 仅仅十多年后， / 进口水果的份额就上升至25.8%。",
           "vocabulary": [
+            {
+              "word": "raisin",
+              "pos": "",
+              "definition": "n.葡萄干"
+            },
+            {
+              "word": "berry",
+              "pos": "",
+              "definition": "n.浆果,莓"
+            },
+            {
+              "word": "share",
+              "pos": "",
+              "definition": "n.(分担的)一部分"
+            },
             {
               "word": "operations",
               "pos": "n.",
@@ -4015,11 +4220,6 @@
               "definition": "n. 进口商品；进口总额（import 的复数）；v. （贸易）进口（import 的三单）"
             },
             {
-              "word": "raisin",
-              "pos": "",
-              "definition": "n.葡萄干"
-            },
-            {
               "word": "survey",
               "pos": "n.",
               "definition": "n. 民意调查；民意测验"
@@ -4038,16 +4238,6 @@
               "word": "decade",
               "pos": "n.",
               "definition": "n. 十年；十年期；十进"
-            },
-            {
-              "word": "berry",
-              "pos": "",
-              "definition": "n.浆果,莓"
-            },
-            {
-              "word": "share",
-              "pos": "",
-              "definition": "n.(分担的)一部分"
             },
             {
               "word": "fruit",
@@ -4073,6 +4263,21 @@
           "slashed_text": "In effect , / the U.S. can import food / or it can import the workers / who pick it.",
           "chunk_translation": "实际上 / 美国可以进口粮食 / 或者它可以引进工人 / 采摘粮食的劳动力。",
           "vocabulary": [
+            {
+              "word": "Import Food or Labor?",
+              "pos": "",
+              "definition": "【🎯解题正解】 进口食品还是劳动力？"
+            },
+            {
+              "word": "Manpower vs. Automation?",
+              "pos": "",
+              "definition": "【💡题项表达】 人力与自动化？"
+            },
+            {
+              "word": "U.S. Agriculture in Decline?",
+              "pos": "",
+              "definition": "【💡题项表达】 美国农业正在衰退？"
+            },
             {
               "word": "in effect",
               "pos": "",
@@ -5051,6 +5256,31 @@
           "chunk_translation": "阿诺德·施瓦辛格、 / 迪亚·米尔扎和阿德里安·格雷尼尔有一条讯息要告诉你： / 战胜塑料污染很容易。 / 他们是一众明星中的一员，主演了专为世界环境日 / 拍摄的新公益宣传片—— / 旨在鼓励你， / 作为广大消费者， / 替换掉日常使用的一次性塑料必需品，以应对塑料危机。",
           "vocabulary": [
             {
+              "word": "urge consumers to cut the use of plastics",
+              "pos": "",
+              "definition": "【🎯解题正解】 敦促消费者减少塑料的使用"
+            },
+            {
+              "word": "single-use",
+              "pos": "",
+              "definition": "adj.一次性的"
+            },
+            {
+              "word": "combat",
+              "pos": "",
+              "definition": "v.与...战斗,与...斗争"
+            },
+            {
+              "word": "a bunch of",
+              "pos": "",
+              "definition": "一堆"
+            },
+            {
+              "word": "swap out",
+              "pos": "",
+              "definition": "换掉"
+            },
+            {
               "word": "Schwarzenegger",
               "pos": "n.",
               "definition": "n. 施瓦辛格（姓氏名）"
@@ -5069,21 +5299,6 @@
               "word": "encouraging",
               "pos": "adj.",
               "definition": "adj. 鼓舞人心的；鼓励的；v. 鼓励"
-            },
-            {
-              "word": "single-use",
-              "pos": "",
-              "definition": "adj.一次性的"
-            },
-            {
-              "word": "a bunch of",
-              "pos": "",
-              "definition": "一堆"
-            },
-            {
-              "word": "swap out",
-              "pos": "",
-              "definition": "换掉"
             },
             {
               "word": "starring",
@@ -5119,11 +5334,6 @@
               "word": "staples",
               "pos": "n.",
               "definition": "n. 订书钉；装订钉（staple 的复数）；主要产品"
-            },
-            {
-              "word": "combat",
-              "pos": "",
-              "definition": "v.与...战斗,与...斗争"
             },
             {
               "word": "Arnold",
@@ -5170,9 +5380,14 @@
           "chunk_translation": "为世界环境日所汇编的 / 核心宣传信息 / 确实包含呼吁 / 各国政府出台法律以遏制一次性塑料的使用。 / 但最主要的宣传导向依然 / 针对个人。",
           "vocabulary": [
             {
-              "word": "put together",
+              "word": "single-use",
               "pos": "",
-              "definition": "整理;汇总"
+              "definition": "adj.一次性的"
+            },
+            {
+              "word": "enact",
+              "pos": "",
+              "definition": "v.通过(法律),将...制定成法律"
             },
             {
               "word": "legislation",
@@ -5180,9 +5395,19 @@
               "definition": "n.法律,法规"
             },
             {
+              "word": "curb",
+              "pos": "",
+              "definition": "v.控制,抑制"
+            },
+            {
               "word": "overarching",
               "pos": "",
               "definition": "adj.首要的;中心的"
+            },
+            {
+              "word": "put together",
+              "pos": "",
+              "definition": "整理;汇总"
             },
             {
               "word": "Environment",
@@ -5198,11 +5423,6 @@
               "word": "individuals",
               "pos": "n.",
               "definition": "n. 个人；个体（individual 的复数）"
-            },
-            {
-              "word": "single-use",
-              "pos": "",
-              "definition": "adj.一次性的"
             },
             {
               "word": "messages",
@@ -5223,16 +5443,6 @@
               "word": "message",
               "pos": "n.",
               "definition": "n. 口信；消息；（书籍、演讲等的）要旨"
-            },
-            {
-              "word": "enact",
-              "pos": "",
-              "definition": "v.通过(法律),将...制定成法律"
-            },
-            {
-              "word": "curb",
-              "pos": "",
-              "definition": "v.控制,抑制"
             }
           ]
         },
@@ -5243,6 +5453,16 @@
           "slashed_text": "My concern / with leaving it up to the individual , / however , / is our limited sense of what needs to be achieved. / On their own , / taking our own bags to the grocery store or quitting plastic straws , / for example , / will accomplish little and require very little of us. / They could even be harmful , / satisfying a need to have “done our bit” / without ever progressing onto bigger , / bolder , / more effective actions — / a kind of “moral licensing” / that eases our concerns and stops us doing more and asking more of those / in charge.",
           "chunk_translation": "然而我对将减塑责任完全留给个人的 / 担忧之处在于， / 我们往往， / 对真正需要达成什么目标缺乏全局性认知。 / 单靠这些行动， / 例如自备购物袋去杂货店或弃用塑料吸管， / 举例来说， / 收效甚微，对我们的改变要求也微乎其微。 / 这些举动甚至可能产生反作用， / 满足了我们“已经尽了一份力”的心理需求， / 却从未进一步迈向更大规模、 / 更大胆、 / 更具实效的行动—— / 产生一种“道德许可”， / 减轻了我们的担忧，阻止我们采取更多行动并向掌权者 / 提出更高要求。",
           "vocabulary": [
+            {
+              "word": "suppress our desire for success",
+              "pos": "",
+              "definition": "【💡题项表达】 抑制我们对成功的渴望"
+            },
+            {
+              "word": "weaken our sense of accomplishment",
+              "pos": "",
+              "definition": "【💡题项表达】 削弱我们的成就感"
+            },
             {
               "word": "progressing",
               "pos": "v.",
@@ -5393,6 +5613,11 @@
           "chunk_translation": "当围绕环境保护及其责任的讨论仍然聚焦 / 在购物袋和塑料吸管上时， / 我们忽视了背后的权力制衡机制， / 这暗示着 / 要求我们作为“消费者”必须以可持续的方式购物， / 而不是作为“公民”去追究政府和产业界的责任，去推动 / 真正的系统性变革。",
           "vocabulary": [
             {
+              "word": "we should press our governments to lead the combat",
+              "pos": "",
+              "definition": "【🎯解题正解】 我们应该敦促我们的政府领导这场战斗"
+            },
+            {
               "word": "responsibility",
               "pos": "n.",
               "definition": "n. 责任；负责"
@@ -5478,11 +5703,6 @@
               "definition": "n. 稻草；吸管（straw 的复数形式）"
             },
             {
-              "word": "rather",
-              "pos": "adv.",
-              "definition": "adv. 颇；相当；宁愿"
-            },
-            {
               "word": "power",
               "pos": "n.",
               "definition": "n. 控制力；操控力；政权"
@@ -5502,14 +5722,39 @@
           "chunk_translation": "我们必须清醒地承认， / 环境保护并非每个人的头等大事—— / 甚至不是大多数人的优先事项。 / 我们也不应当期望它是。 / 在她的最新著作中 / 《好人为何做有害环境的坏事》 / 伊丽莎白·R·德索姆布雷主张 / 集体改变大众行为的最佳方式 / 是实现结构性变革。",
           "vocabulary": [
             {
-              "word": "Environmental",
-              "pos": "adj.",
-              "definition": "adj. 自然环境的；生态环境的；环保的"
+              "word": "a top-down process",
+              "pos": "",
+              "definition": "【🎯解题正解】 自上而下的过程"
+            },
+            {
+              "word": "a win-win arrangement",
+              "pos": "",
+              "definition": "【💡题项表达】 双赢的安排"
+            },
+            {
+              "word": "a self-driven mechanism",
+              "pos": "",
+              "definition": "【💡题项表达】 自驱动机制"
+            },
+            {
+              "word": "a cost-effective approach",
+              "pos": "",
+              "definition": "【💡题项表达】 具有成本效益的方法"
             },
             {
               "word": "collectively",
               "pos": "",
               "definition": "adv.集体地,共同地"
+            },
+            {
+              "word": "priority",
+              "pos": "",
+              "definition": "n.优先考虑、处理的事,当务之急"
+            },
+            {
+              "word": "Environmental",
+              "pos": "adj.",
+              "definition": "adj. 自然环境的；生态环境的；环保的"
             },
             {
               "word": "acknowledge",
@@ -5537,11 +5782,6 @@
               "definition": "n. 伊丽莎白（女子名）；伊丽莎白一世（1558—1603 年在位的英格兰和爱尔兰女王）；伊丽莎白二世（1952—2022 年在位的英国女王）"
             },
             {
-              "word": "priority",
-              "pos": "",
-              "definition": "n.优先考虑、处理的事,当务之急"
-            },
-            {
               "word": "behavior",
               "pos": "n.",
               "definition": "n. 行为；举止；态度"
@@ -5566,6 +5806,36 @@
           "chunk_translation": "这可能意味着推行诸如征收塑料税等政策， / 为危害环境的行为增加成本， / 或者彻底取缔一次性塑料制品。 / 印度刚刚宣布将于“2022年前在全国范围内消除所有一次性塑料制品”。此外还可以通过激励机制让做出更好的环保选择变得更加容易， / 例如确保垃圾回收 / 至少与丢弃垃圾一样方便。",
           "vocabulary": [
             {
+              "word": "recycling",
+              "pos": "",
+              "definition": "n.再利用,回收利用"
+            },
+            {
+              "word": "single-use",
+              "pos": "",
+              "definition": "adj.一次性的"
+            },
+            {
+              "word": "disposal",
+              "pos": "",
+              "definition": "n.丢弃,清除"
+            },
+            {
+              "word": "trash",
+              "pos": "",
+              "definition": "n.废物,垃圾"
+            },
+            {
+              "word": "problematic",
+              "pos": "",
+              "definition": "adj.难对付的,成问题的"
+            },
+            {
+              "word": "eliminate",
+              "pos": "",
+              "definition": "v.消灭,根除"
+            },
+            {
               "word": "environmentally",
               "pos": "adv.",
               "definition": "adv. 在环境方面；有关环境地（常与 friendly、sound 等连用"
@@ -5581,29 +5851,9 @@
               "definition": "v. 实施；执行"
             },
             {
-              "word": "problematic",
-              "pos": "",
-              "definition": "adj.难对付的,成问题的"
-            },
-            {
-              "word": "single-use",
-              "pos": "",
-              "definition": "adj.一次性的"
-            },
-            {
               "word": "altogether",
               "pos": "adv.",
               "definition": "adv. 完全地；总共；总之"
-            },
-            {
-              "word": "recycling",
-              "pos": "",
-              "definition": "n.再利用,回收利用"
-            },
-            {
-              "word": "eliminate",
-              "pos": "",
-              "definition": "v.消灭,根除"
             },
             {
               "word": "announced",
@@ -5614,11 +5864,6 @@
               "word": "incentive",
               "pos": "n.",
               "definition": "n. 激励；刺激"
-            },
-            {
-              "word": "disposal",
-              "pos": "",
-              "definition": "n.丢弃,清除"
             },
             {
               "word": "plastics",
@@ -5661,11 +5906,6 @@
               "definition": "adj. 更简单；容易些（easy 的比较级形式）；较早的"
             },
             {
-              "word": "trash",
-              "pos": "",
-              "definition": "n.废物,垃圾"
-            },
-            {
               "word": "India",
               "pos": "n.",
               "definition": "n. 印度（南亚国家）"
@@ -5694,6 +5934,11 @@
           "slashed_text": "DeSombre isn’t saying people should stop caring about the environment. / It’s just / that individual actions are too slow , / she says , / for / that to be the only , / or even primary , / approach to changing widespread behavior.",
           "chunk_translation": "德松布尔并不是说人们应该停止关心环境。 / 只是 / 个人行动见效太慢， / 她说， / 不足以 / 将其作为改变广泛公众行为的唯一、 / 乃至主要的 / 途径。",
           "vocabulary": [
+            {
+              "word": "primary",
+              "pos": "",
+              "definition": "adj.首要的,主要的"
+            },
             {
               "word": "environment",
               "pos": "n.",
@@ -5725,11 +5970,6 @@
               "definition": "n. 行为；举止；态度"
             },
             {
-              "word": "primary",
-              "pos": "",
-              "definition": "adj.首要的,主要的"
-            },
-            {
               "word": "actions",
               "pos": "n.",
               "definition": "n. 行动；行为（action 的复数）"
@@ -5759,6 +5999,26 @@
           "chunk_translation": "这一切绝非 / 否定个人的作用。 / 这只是 / 要客观看待事物， / 把握好大局。 / 我们已经没有时间再等待。 / 我们需要引领集体行动的进取性政策， / 来塑造集体行动， / 同时需要积极参与的公民共同推动 / 真正的变革。",
           "vocabulary": [
             {
+              "word": "are far from sufficient\nᆇี൫ज@JOEE ༯໶",
+              "pos": "",
+              "definition": "【🎯解题正解】 are far from sufficient\nᆇี൫ज@JOEE ༯໶"
+            },
+            {
+              "word": "can be too aggressive",
+              "pos": "",
+              "definition": "【💡题项表达】 可能过于激进"
+            },
+            {
+              "word": "can be too inconsistent",
+              "pos": "",
+              "definition": "【💡题项表达】 可能太不一致"
+            },
+            {
+              "word": "are far from rational",
+              "pos": "",
+              "definition": "【💡题项表达】 远非理性"
+            },
+            {
               "word": "perspective",
               "pos": "",
               "definition": "n.合理判断,正确认识"
@@ -5769,6 +6029,16 @@
               "definition": "adj.进步的,先进的"
             },
             {
+              "word": "shape",
+              "pos": "",
+              "definition": "v.塑造"
+            },
+            {
+              "word": "alongside",
+              "pos": "",
+              "definition": "prep.与...一起"
+            },
+            {
               "word": "individual",
               "pos": "adj.",
               "definition": "adj. 单独的；个别的"
@@ -5777,11 +6047,6 @@
               "word": "collective",
               "pos": "adj.",
               "definition": "adj. 集体的；共同的；总的"
-            },
-            {
-              "word": "alongside",
-              "pos": "",
-              "definition": "prep.与...一起"
             },
             {
               "word": "policies",
@@ -5817,11 +6082,6 @@
               "word": "action",
               "pos": "n.",
               "definition": "n. 行动；行为；战斗"
-            },
-            {
-              "word": "shape",
-              "pos": "",
-              "definition": "v.塑造"
             }
           ]
         }

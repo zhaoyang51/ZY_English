@@ -328,7 +328,17 @@ ${synonymCard}
           const chunk = p.vocabulary.slice(i, i + 3);
           let tds = '';
           chunk.forEach(v => {
-            tds += `<td><strong>${v.word}</strong></td><td>${v.definition}</td>`;
+            let badge = '';
+            let cleanDef = v.definition || '';
+            if (cleanDef.startsWith('【🎯解题正解】')) {
+              badge = '<span class="matrix-badge badge-correct">🎯解题正解</span> ';
+              cleanDef = cleanDef.replace('【🎯解题正解】', '').trim();
+            } else if (cleanDef.startsWith('【💡题项表达】')) {
+              badge = '<span class="matrix-badge badge-opt">💡题项考点</span> ';
+              cleanDef = cleanDef.replace('【💡题项表达】', '').trim();
+            }
+            const posHtml = v.pos ? `<span class="matrix-pos">${v.pos}</span> ` : '';
+            tds += `<td>${badge}<strong>${v.word}</strong></td><td>${posHtml}${cleanDef}</td>`;
           });
           while (chunk.length < 3) {
             tds += '<td></td><td></td>';

@@ -15,14 +15,44 @@
           "chunk_translation": "露丝·西蒙斯于2000年1月加入高盛董事会担任外部董事 / 于2000年1月 / 一年后她出任布朗大学校长 / 在接下来的十年里，她显然兼顾了这两个职位 / 没有招致太多批评 / 但到2009年底，女士 / 西蒙斯因担任高盛薪酬委员会成员而遭到抨击 / 因担任 / 高盛薪酬委员会职务 / 她怎么能对那些巨额奖金的发放听之任之、不置一词呢？ / 到了次年二月，女士 / 西蒙斯离开了董事会 / 这一职位占用了太多时间 / 她说",
           "vocabulary": [
             {
-              "word": "bonus payouts",
+              "word": "failing to fulfill her duty",
               "pos": "",
-              "definition": "奖金支出"
+              "definition": "【🎯解题正解】 未能履行她的职责"
+            },
+            {
+              "word": "gaining excessive profits",
+              "pos": "",
+              "definition": "【💡题项表达】 获取超额利润"
+            },
+            {
+              "word": "refusing to make compromises",
+              "pos": "",
+              "definition": "【💡题项表达】 拒绝妥协"
+            },
+            {
+              "word": "leaving the board in tough times",
+              "pos": "",
+              "definition": "【💡题项表达】 在困难时期离开董事会"
+            },
+            {
+              "word": "criticism",
+              "pos": "",
+              "definition": "n.批评,批判"
             },
             {
               "word": "compensation",
               "pos": "",
               "definition": "n.报酬,薪水"
+            },
+            {
+              "word": "enormous",
+              "pos": "",
+              "definition": "a.巨大的;庞大的"
+            },
+            {
+              "word": "bonus payouts",
+              "pos": "",
+              "definition": "奖金支出"
             },
             {
               "word": "University",
@@ -45,11 +75,6 @@
               "definition": "adj. 未被注意的；未受评论的"
             },
             {
-              "word": "criticism",
-              "pos": "",
-              "definition": "n.批评,批判"
-            },
-            {
               "word": "president",
               "pos": "n.",
               "definition": "n. 总统；国家主席；（机构、俱乐部、学院等的）负责人"
@@ -58,11 +83,6 @@
               "word": "committee",
               "pos": "n.",
               "definition": "n. 委员会；受托人；监护人"
-            },
-            {
-              "word": "enormous",
-              "pos": "",
-              "definition": "a.巨大的;庞大的"
             },
             {
               "word": "director",
@@ -154,6 +174,36 @@
           "chunk_translation": "外部董事本应担任有益的 / 且偏见较少的 / 公司董事会顾问 / 由于在其他领域早已功成名就 / 他们按理应具有足够的独立性来反对首席执行官的提议 / 如果天要塌下来 / 以及股价 / 正在暴跌 / 外部董事应当能够依据自身渡过危机的经验提供建议 / 依据自己渡过危机的经验 / 研究人员 / 来自俄亥俄大学的研究人员使用了一个数据库 / 涵盖了1989年至2004年间1万多家公司 / 以及超过6.4万名 / 名不同的董事",
           "vocabulary": [
             {
+              "word": "independent advisers",
+              "pos": "",
+              "definition": "【🎯解题正解】 独立顾问"
+            },
+            {
+              "word": "generous investors",
+              "pos": "",
+              "definition": "【💡题项表达】 慷慨的投资者"
+            },
+            {
+              "word": "unbiased executives",
+              "pos": "",
+              "definition": "【💡题项表达】 公正的高管"
+            },
+            {
+              "word": "share price forecasters",
+              "pos": "",
+              "definition": "【💡题项表达】 股价预测者"
+            },
+            {
+              "word": "biased",
+              "pos": "",
+              "definition": "a.有偏见的;结果偏倚的"
+            },
+            {
+              "word": "presumably",
+              "pos": "",
+              "definition": "ad.据推测:大概;可能"
+            },
+            {
               "word": "independence",
               "pos": "n.",
               "definition": "n. 独立；自主；（国家的）独立"
@@ -167,11 +217,6 @@
               "word": "reputations",
               "pos": "n.",
               "definition": "n. 名声；声誉：reputation 的复数形式"
-            },
-            {
-              "word": "presumably",
-              "pos": "",
-              "definition": "ad.据推测:大概;可能"
             },
             {
               "word": "University",
@@ -249,11 +294,6 @@
               "definition": "adj. （规模、数量或力量）下降的；正在减少的；v. 降落"
             },
             {
-              "word": "biased",
-              "pos": "",
-              "definition": "a.有偏见的;结果偏倚的"
-            },
-            {
               "word": "wealth",
               "pos": "n.",
               "definition": "n. 财富；富有；大量"
@@ -323,9 +363,54 @@
           "chunk_translation": "然后他们只是核对了 / 哪些董事从一份委托书一直留任到下一份委托书 / 离开董事会最可能的原因 / 是年龄 / 因此研究人员重点关注 / 那些“令人意外”的离职 / 由70岁以下的董事发生的 / 他们发现 / 在意外离职之后 / 概率 / 该公司随后不得不重述财务收益的概率增加了 / 近20% / 在联邦集体诉讼中被列为被告的可能性也随之上升 / 且公司股票往往表现更差 / 这种效应往往更显著 / 对规模较大的公司而言",
           "vocabulary": [
             {
-              "word": "federal class-action lawsuit",
+              "word": "do less well in the stock market",
               "pos": "",
-              "definition": "联邦集体诉讼"
+              "definition": "【🎯解题正解】 在股市表现不佳"
+            },
+            {
+              "word": "become more stable",
+              "pos": "",
+              "definition": "【💡题项表达】 变得更加稳定"
+            },
+            {
+              "word": "report increased earnings",
+              "pos": "",
+              "definition": "【💡题项表达】 报告收入增加"
+            },
+            {
+              "word": "perform worse in lawsuits",
+              "pos": "",
+              "definition": "【💡题项表达】 在诉讼中表现较差"
+            },
+            {
+              "word": "proxy",
+              "pos": "",
+              "definition": "n.代表权,委托书"
+            },
+            {
+              "word": "departure",
+              "pos": "",
+              "definition": "n.离开,离去"
+            },
+            {
+              "word": "subsequently",
+              "pos": "",
+              "definition": "ad.其后,随后,接着"
+            },
+            {
+              "word": "restate",
+              "pos": "",
+              "definition": "v.重申:重新申报"
+            },
+            {
+              "word": "likelihood",
+              "pos": "",
+              "definition": "n.可能,可能性"
+            },
+            {
+              "word": "proxy statement",
+              "pos": "",
+              "definition": "股东委托书"
             },
             {
               "word": "a surprise departure",
@@ -338,19 +423,14 @@
               "definition": "重申盈利"
             },
             {
-              "word": "proxy statement",
+              "word": "federal class-action lawsuit",
               "pos": "",
-              "definition": "股东委托书"
+              "definition": "联邦集体诉讼"
             },
             {
               "word": "disappearances",
               "pos": "n.",
               "definition": "n. disappearance 的复数；失踪事件；消失"
-            },
-            {
-              "word": "subsequently",
-              "pos": "",
-              "definition": "ad.其后,随后,接着"
             },
             {
               "word": "concentrated",
@@ -366,16 +446,6 @@
               "word": "probability",
               "pos": "n.",
               "definition": "n. 可能性；或然性；可能发生的事"
-            },
-            {
-              "word": "likelihood",
-              "pos": "",
-              "definition": "n.可能,可能性"
-            },
-            {
-              "word": "departure",
-              "pos": "",
-              "definition": "n.离开,离去"
             },
             {
               "word": "directors",
@@ -418,11 +488,6 @@
               "definition": "n. 薪水；工资；收入"
             },
             {
-              "word": "restate",
-              "pos": "",
-              "definition": "v.重申:重新申报"
-            },
-            {
               "word": "checked",
               "pos": "adj.",
               "definition": "adj. 格子的；有格子图案的；v. 检查"
@@ -448,11 +513,6 @@
               "definition": "v. stay 的过去式和过去分词：留在某处；不离开；在某地暂住"
             },
             {
-              "word": "likely",
-              "pos": "adj.",
-              "definition": "adj. 可能发生的；似乎合适的；仿佛恰当的"
-            },
-            {
               "word": "reason",
               "pos": "n.",
               "definition": "n. 原因；理由；充分理由"
@@ -476,11 +536,6 @@
               "word": "tended",
               "pos": "v.",
               "definition": "v. tend 的过去式和过去分词；1. 照料；照顾"
-            },
-            {
-              "word": "proxy",
-              "pos": "",
-              "definition": "n.代表权,委托书"
             },
             {
               "word": "board",
@@ -522,6 +577,51 @@
           "chunk_translation": "尽管董事离职与公司随后糟糕业绩之间的相关性耐人寻味 / 但这并不意味着 / 这类董事总是在弃即将沉没的船而去 / 他们常常是“往高处走” / 离开风险更大、 / 规模更小的公司 / 前往规模更大且更稳定的公司 / 但研究人员认为 / 外部董事如果能在坏消息爆发前离开公司，就更容易避免声誉受损 / 如果他们在坏消息爆发前离开公司 / 甚至 / 即使历史审查表明在任何不当行为发生时他们都在董事会任职 / 公司 / 若想在艰难时期留住外部董事 / 可能不得不制定激励措施 / 否则外部董事将效仿女士 / 西蒙斯的做法 / 重新在大学校园里大受欢迎 / 在校园中",
           "vocabulary": [
             {
+              "word": "may stay for the attractive offers from the firm",
+              "pos": "",
+              "definition": "【🎯解题正解】 可能会因为公司有吸引力的报价而留下来"
+            },
+            {
+              "word": "will decline incentives from the firm",
+              "pos": "",
+              "definition": "【💡题项表达】 将减少公司的激励措施"
+            },
+            {
+              "word": "positive",
+              "pos": "",
+              "definition": "【🎯解题正解】 积极的"
+            },
+            {
+              "word": "permissive",
+              "pos": "",
+              "definition": "【💡题项表达】 宽容的"
+            },
+            {
+              "word": "scornful",
+              "pos": "",
+              "definition": "【💡题项表达】 轻蔑的"
+            },
+            {
+              "word": "critical",
+              "pos": "",
+              "definition": "【💡题项表达】 批判的"
+            },
+            {
+              "word": "suggestive",
+              "pos": "",
+              "definition": "a.提示的;暗示的,提醒的"
+            },
+            {
+              "word": "blow",
+              "pos": "",
+              "definition": "n.打击,意外的灾害,摧毁"
+            },
+            {
+              "word": "otherwise",
+              "pos": "",
+              "definition": "conj.否则,不然"
+            },
+            {
               "word": "follow the example of",
               "pos": "",
               "definition": "效仿"
@@ -547,11 +647,6 @@
               "definition": "n. 表演；演出；工作情况"
             },
             {
-              "word": "suggestive",
-              "pos": "",
-              "definition": "a.提示的;暗示的,提醒的"
-            },
-            {
               "word": "subsequent",
               "pos": "adj.",
               "definition": "adj. 随后的；接着的；（河"
@@ -565,11 +660,6 @@
               "word": "incentives",
               "pos": "n.",
               "definition": "n. 激励；奖励；诱因"
-            },
-            {
-              "word": "otherwise",
-              "pos": "",
-              "definition": "conj.否则,不然"
             },
             {
               "word": "directors",
@@ -685,11 +775,6 @@
               "word": "tough",
               "pos": "adj.",
               "definition": "adj. （物质；物体）坚韧的；坚固的"
-            },
-            {
-              "word": "blow",
-              "pos": "",
-              "definition": "n.打击,意外的灾害,摧毁"
             },
             {
               "word": "firm",
@@ -1571,6 +1656,51 @@
           "chunk_translation": "报纸消亡论究竟是怎么回事？ / 一年前，终局似乎已近在眼前 / 经济衰退威胁要夺走那些广告和读者 / 尚未逃往互联网的 / 像《旧金山纪事报》这样的报纸当时正在记录它们自身的末日 / 美国联邦贸易委员会发起了一轮关于如何拯救报纸的研讨 / 报纸应该转变为慈善机构吗？ / 政府应该对其进行补贴吗？ / 不久后还将举行另一场会议",
           "vocabulary": [
             {
+              "word": "were in a desperate situation",
+              "pos": "",
+              "definition": "【🎯解题正解】 陷入绝境"
+            },
+            {
+              "word": "neglected the sign of crisis",
+              "pos": "",
+              "definition": "【💡题项表达】 忽视了危机的征兆"
+            },
+            {
+              "word": "failed to get state subsidies",
+              "pos": "",
+              "definition": "【💡题项表达】 未能获得国家补贴"
+            },
+            {
+              "word": "were not charitable corporations",
+              "pos": "",
+              "definition": "【💡题项表达】 不是慈善公司"
+            },
+            {
+              "word": "recession",
+              "pos": "",
+              "definition": "n.经济衰退,不景气"
+            },
+            {
+              "word": "chronicle",
+              "pos": "",
+              "definition": "v.记录(大事)"
+            },
+            {
+              "word": "commission",
+              "pos": "",
+              "definition": "n.委员会,委员"
+            },
+            {
+              "word": "charitable",
+              "pos": "",
+              "definition": "a.公益的,慈善的"
+            },
+            {
+              "word": "subsidize",
+              "pos": "",
+              "definition": "v.以津贴补助"
+            },
+            {
               "word": "corporations",
               "pos": "n.",
               "definition": "n. 公司；企业（corporation 的复数）"
@@ -1586,16 +1716,6 @@
               "definition": "v. 将（某事物）载入编年史（ chronicle 的现在分词）"
             },
             {
-              "word": "commission",
-              "pos": "",
-              "definition": "n.委员会,委员"
-            },
-            {
-              "word": "charitable",
-              "pos": "",
-              "definition": "a.公益的,慈善的"
-            },
-            {
               "word": "newspapers",
               "pos": "n.",
               "definition": "n. 报纸；报章（newspaper 的复数）"
@@ -1604,21 +1724,6 @@
               "word": "threatened",
               "pos": "adj.",
               "definition": "adj. 受到威胁的；感到危险的"
-            },
-            {
-              "word": "recession",
-              "pos": "",
-              "definition": "n.经济衰退,不景气"
-            },
-            {
-              "word": "chronicle",
-              "pos": "",
-              "definition": "v.记录(大事)"
-            },
-            {
-              "word": "subsidize",
-              "pos": "",
-              "definition": "v.以津贴补助"
             },
             {
               "word": "Francisco",
@@ -1720,6 +1825,16 @@
           "chunk_translation": "但这些讨论如今看来已不合时宜 / 在世界大部分地区几乎看不到危机的迹象 / 德国和巴西的报纸已经摆脱了经济衰退的影响 / 即便是身处全球报业最困顿角落的美国报纸 / 处于全球报业最困顿角落的 / 也不仅存活了下来，而且往往恢复了盈利",
           "vocabulary": [
             {
+              "word": "recession",
+              "pos": "",
+              "definition": "n.经济衰退,不景气"
+            },
+            {
+              "word": "inhabit",
+              "pos": "",
+              "definition": "v.居住;在...出现;填满"
+            },
+            {
               "word": "discussions",
               "pos": "n.",
               "definition": "n. 讨论；论述；详述（discussion 的复数）"
@@ -1728,11 +1843,6 @@
               "word": "newspapers",
               "pos": "n.",
               "definition": "n. 报纸；报章（newspaper 的复数）"
-            },
-            {
-              "word": "recession",
-              "pos": "",
-              "definition": "n.经济衰退,不景气"
             },
             {
               "word": "Brazilian",
@@ -1763,11 +1873,6 @@
               "word": "returned",
               "pos": "v.",
               "definition": "v. return 的过去式和过去分词：返回；归还；恢复"
-            },
-            {
-              "word": "inhabit",
-              "pos": "",
-              "definition": "v.居住;在...出现;填满"
             },
             {
               "word": "crisis",
@@ -1809,6 +1914,21 @@
           "chunk_translation": "虽然不是几年前司空见惯的20%的利润率 / 几年前那是司空见惯的 / 但终归是盈利了 / 这个过程并不轻松愉快 / 许多报纸得以维持运营 / 是通过裁减新闻记者 / 美国新闻编辑协会估计 / 约有1.3 / 万500个新闻编辑室岗位消失了 / 自2007年以来 / 读者正在支付更高的费用 / 购买版面更薄的报纸 / 一些报纸甚至敢于拒绝向偏远郊区发行投递",
           "vocabulary": [
             {
+              "word": "newspapers wanted to reduce costs",
+              "pos": "",
+              "definition": "【🎯解题正解】 报纸希望降低成本"
+            },
+            {
+              "word": "readers threatened to pay less",
+              "pos": "",
+              "definition": "【💡题项表达】 读者威胁要少付钱"
+            },
+            {
+              "word": "routine",
+              "pos": "",
+              "definition": "n.常规,通常情况"
+            },
+            {
               "word": "profit margins",
               "pos": "",
               "definition": "利润空间"
@@ -1819,9 +1939,9 @@
               "definition": "(虽...)仍然"
             },
             {
-              "word": "journalists",
-              "pos": "n.",
-              "definition": "n. 新闻记者（journalist 的复数）"
+              "word": "afloat",
+              "pos": "",
+              "definition": "ad.漂浮着的,漂浮不定"
             },
             {
               "word": "overboard",
@@ -1834,6 +1954,11 @@
               "definition": "n.传达,投递"
             },
             {
+              "word": "journalists",
+              "pos": "n.",
+              "definition": "n. 新闻记者（journalist 的复数）"
+            },
+            {
               "word": "newsroom",
               "pos": "n.",
               "definition": "n. 新闻编辑室；新闻编辑部"
@@ -1844,11 +1969,6 @@
               "definition": "n. 产品；商品（product 的复数）；产物"
             },
             {
-              "word": "routine",
-              "pos": "",
-              "definition": "n.常规,通常情况"
-            },
-            {
               "word": "readers",
               "pos": "n.",
               "definition": "n. reader 的复数形式：读者；电子阅读器、读卡机等阅读设备（常与修饰语连用）"
@@ -1857,11 +1977,6 @@
               "word": "pushing",
               "pos": "prep.",
               "definition": "prep. 接近（某个年龄）；adj. 奋斗的"
-            },
-            {
-              "word": "Society",
-              "pos": "n.",
-              "definition": "n. 社会（以群体形式生活在一起的人的总称）；社群（某国家、地区、时期等的群体组织）"
             },
             {
               "word": "Editors",
@@ -1892,11 +2007,6 @@
               "word": "suburbs",
               "pos": "n.",
               "definition": "n. 郊区；市郊；郊外（suburb 的复数）"
-            },
-            {
-              "word": "afloat",
-              "pos": "",
-              "definition": "ad.漂浮着的,漂浮不定"
             },
             {
               "word": "stayed",
@@ -1938,14 +2048,49 @@
           "chunk_translation": "然而这些孤注一掷的举措已被证明是正确的，而且 / 令人遗憾的是 / 对许多记者而言 / 这些举措还可以进一步推进 / 报纸正成为更加均衡的商业实体 / 拥有更健康的收入组合 / 来自读者和广告商 / 美国报纸长期以来极不寻常 / 在其对广告的依赖程度上 / 其整整87%的收入来源于此 / 来自2008年的广告收入 / 据该组织统计 / 经济合作与发展组织（经合组织） / 在日本这一比例为35%",
           "vocabulary": [
             {
-              "word": "a healthier mix of revenues",
+              "word": "are less dependent on advertising \nᆇี൫ज@JOEE ༯໶\n\n04",
               "pos": "",
-              "definition": "更加健康的收益比例"
+              "definition": "【🎯解题正解】 are less dependent on advertising \nᆇี൫ज@JOEE ༯໶\n\n04"
+            },
+            {
+              "word": "have more sources of revenue",
+              "pos": "",
+              "definition": "【💡题项表达】 有更多的收入来源"
+            },
+            {
+              "word": "have more balanced newsrooms",
+              "pos": "",
+              "definition": "【💡题项表达】 拥有更平衡的新闻编辑室"
+            },
+            {
+              "word": "are less affected by readership",
+              "pos": "",
+              "definition": "【💡题项表达】 受读者影响较小"
             },
             {
               "word": "desperate measures",
               "pos": "",
               "definition": "孤注一掷的措施"
+            },
+            {
+              "word": "revenues",
+              "pos": "",
+              "definition": "n.(复数)总收入"
+            },
+            {
+              "word": "reliance",
+              "pos": "",
+              "definition": "n.依靠,依赖"
+            },
+            {
+              "word": "proportion",
+              "pos": "",
+              "definition": "n.比,比率,比例"
+            },
+            {
+              "word": "a healthier mix of revenues",
+              "pos": "",
+              "definition": "更加健康的收益比例"
             },
             {
               "word": "Organization",
@@ -1978,11 +2123,6 @@
               "definition": "n. 发育；成长；发达"
             },
             {
-              "word": "proportion",
-              "pos": "",
-              "definition": "n.比,比率,比例"
-            },
-            {
               "word": "newspapers",
               "pos": "n.",
               "definition": "n. 报纸；报章（newspaper 的复数）"
@@ -2006,16 +2146,6 @@
               "word": "according",
               "pos": "prep.",
               "definition": "prep. 按照；根据；依照（according to"
-            },
-            {
-              "word": "revenues",
-              "pos": "",
-              "definition": "n.(复数)总收入"
-            },
-            {
-              "word": "reliance",
-              "pos": "",
-              "definition": "n.依靠,依赖"
             },
             {
               "word": "becoming",
@@ -2092,9 +2222,39 @@
           "chunk_translation": "不足为奇的是 / 日本报纸要稳定得多 / 席卷新闻编辑室的狂风暴雨 / 席卷 / 伤害了每一个人 / 但大部分破坏主要集中 / 在某些领域 / 即报纸最缺乏特色的板块 / 汽车和电影评论员已经被裁撤了 / 科技和大众商业记者也是如此 / 驻外记者站已被无情关闭 / 报纸的内容因此不如以往全面 / 但在报业经营中，内容包罗万象已不再是一种美德",
           "vocabulary": [
             {
+              "word": "Distinctiveness is an essential feature of newspapers",
+              "pos": "",
+              "definition": "【🎯解题正解】 独特性是报纸的本质特征。"
+            },
+            {
+              "word": "stable",
+              "pos": "",
+              "definition": "a.稳定的"
+            },
+            {
               "word": "not surprisingly",
               "pos": "",
               "definition": "毫无疑问"
+            },
+            {
+              "word": "whirlwind",
+              "pos": "",
+              "definition": "n.旋风;猛烈的势力"
+            },
+            {
+              "word": "distinctive",
+              "pos": "",
+              "definition": "a.有特色的,与众不同的"
+            },
+            {
+              "word": "savagely",
+              "pos": "",
+              "definition": "ad.野蛮地:残忍地"
+            },
+            {
+              "word": "virtue",
+              "pos": "",
+              "definition": "n.美德:德行;价值;长处"
             },
             {
               "word": "film reviewers",
@@ -2117,11 +2277,6 @@
               "definition": "n. 完整；完整性；完全"
             },
             {
-              "word": "distinctive",
-              "pos": "",
-              "definition": "a.有特色的,与众不同的"
-            },
-            {
               "word": "as a result",
               "pos": "n./v.",
               "definition": "语境核心词汇"
@@ -2130,11 +2285,6 @@
               "word": "newspapers",
               "pos": "n.",
               "definition": "n. 报纸；报章（newspaper 的复数）"
-            },
-            {
-              "word": "whirlwind",
-              "pos": "",
-              "definition": "n.旋风;猛烈的势力"
             },
             {
               "word": "newsrooms",
@@ -2160,11 +2310,6 @@
               "word": "newspaper",
               "pos": "n.",
               "definition": "n. 报纸；报；报社"
-            },
-            {
-              "word": "savagely",
-              "pos": "",
-              "definition": "ad.野蛮地:残忍地"
             },
             {
               "word": "newsroom",
@@ -2200,16 +2345,6 @@
               "word": "bureaus",
               "pos": "n.",
               "definition": "n. 局；处；科"
-            },
-            {
-              "word": "stable",
-              "pos": "",
-              "definition": "a.稳定的"
-            },
-            {
-              "word": "virtue",
-              "pos": "",
-              "definition": "n.美德:德行;价值;长处"
             },
             {
               "word": "harmed",
@@ -3251,6 +3386,16 @@
           "chunk_translation": "我们往往把第二次世界大战刚结束的几十年视为繁荣与发展的时期 / 成百万的退伍军人重返家园 / 依靠退伍军人法案走进大学校园",
           "vocabulary": [
             {
+              "word": "prosperity",
+              "pos": "",
+              "definition": "n.繁荣,兴旺,昌盛"
+            },
+            {
+              "word": "tend to",
+              "pos": "",
+              "definition": "往往,易于"
+            },
+            {
               "word": "by the millions",
               "pos": "",
               "definition": "数以百万计"
@@ -3259,11 +3404,6 @@
               "word": "immediately",
               "pos": "adv.",
               "definition": "adv. 立即；马上"
-            },
-            {
-              "word": "prosperity",
-              "pos": "",
-              "definition": "n.繁荣,兴旺,昌盛"
             },
             {
               "word": "following",
@@ -3284,11 +3424,6 @@
               "word": "millions",
               "pos": "n.",
               "definition": "n. 数百万；大量；无数"
-            },
-            {
-              "word": "tend to",
-              "pos": "",
-              "definition": "往往,易于"
             },
             {
               "word": "decades",
@@ -3319,6 +3454,26 @@
           "slashed_text": "Bill and lining up at the marriage bureaus. / But / when it came to their houses , / it was a time of common sense and a belief / that less could truly be more.",
           "chunk_translation": "以及在婚姻登记处排起长队 / 但 / 当谈及他们的住宅时 / 那是一个讲求实际并坚信的时代 / 少确实可以代表更多",
           "vocabulary": [
+            {
+              "word": "restraint and confidence",
+              "pos": "",
+              "definition": "【🎯解题正解】 克制与自信"
+            },
+            {
+              "word": "prosperity and growth",
+              "pos": "",
+              "definition": "【💡题项表达】 繁荣与增长"
+            },
+            {
+              "word": "efficiency and practicality",
+              "pos": "",
+              "definition": "【💡题项表达】 效率和实用性"
+            },
+            {
+              "word": "pride and faithfulness",
+              "pos": "",
+              "definition": "【💡题项表达】 骄傲和忠诚"
+            },
             {
               "word": "common sense",
               "pos": "",
@@ -3369,9 +3524,34 @@
           "chunk_translation": "在大萧条和二战期间 / 美国人已经学会了生活 / 依靠更少的生活资料 / 而且 / 那种克制节约 / 加上战后对未来的信心 / 使得小型、 / 高效的住宅变得极为时尚 / 经济状况只是推动高效生活方式趋势的催化剂 / “少即是多”这一名言实际上最早是由一位德国人推广开来的 / 即建筑大师路德维希·密斯·凡德罗 / 他与其他与包豪斯有关的人士一样 / 包豪斯是一所设计学院 / 移民到了美国 / 在二战爆发前并在美国各建筑院校任职 / 在美国建筑院校",
           "vocabulary": [
             {
+              "word": "restraint",
+              "pos": "",
+              "definition": "n.抑制,控制,限制,约束"
+            },
+            {
+              "word": "stylish",
+              "pos": "",
+              "definition": "a.时髦的,流行的,入时的"
+            },
+            {
+              "word": "live with",
+              "pos": "",
+              "definition": "忍受,容忍"
+            },
+            {
               "word": "in combination with",
               "pos": "",
               "definition": "结合"
+            },
+            {
+              "word": "stimulus",
+              "pos": "",
+              "definition": "n.刺激物,刺激因素"
+            },
+            {
+              "word": "architect",
+              "pos": "",
+              "definition": "n.建筑师,设计师"
             },
             {
               "word": "Architecture",
@@ -3409,21 +3589,6 @@
               "definition": "adj. 有关联的；相关的；联合的"
             },
             {
-              "word": "restraint",
-              "pos": "",
-              "definition": "n.抑制,控制,限制,约束"
-            },
-            {
-              "word": "live with",
-              "pos": "",
-              "definition": "忍受,容忍"
-            },
-            {
-              "word": "architect",
-              "pos": "",
-              "definition": "n.建筑师,设计师"
-            },
-            {
               "word": "condition",
               "pos": "n.",
               "definition": "n. 状况；状态"
@@ -3439,11 +3604,6 @@
               "definition": "v. emigrate 的过去式和过去分词；移居；移民：离开自己的国家或原居住地"
             },
             {
-              "word": "stimulus",
-              "pos": "",
-              "definition": "n.刺激物,刺激因素"
-            },
-            {
               "word": "Economic",
               "pos": "adj.",
               "definition": "adj. 经济的；经济学的"
@@ -3452,11 +3612,6 @@
               "word": "actually",
               "pos": "adv.",
               "definition": "adv. 实际上；事实上；（用于开始新话题）其实"
-            },
-            {
-              "word": "stylish",
-              "pos": "",
-              "definition": "a.时髦的,流行的,入时的"
             },
             {
               "word": "learned",
@@ -3492,11 +3647,6 @@
               "word": "phrase",
               "pos": "n.",
               "definition": "n. 短语；词组"
-            },
-            {
-              "word": "future",
-              "pos": "n.",
-              "definition": "n. 未来；将来；前途"
             },
             {
               "word": "Ludwig",
@@ -3538,6 +3688,61 @@
           "chunk_translation": "这些设计师对美国建筑的发展历程产生了巨大影响 / 但谁的影响也比不上密斯 / 密斯的标志性格言意味着 / 较少的装饰 / 只要组织得当 / 就能比繁复的装饰产生更大的影响力 / 优雅 / 他坚信 / 并非源于 / 繁冗堆砌 / 与其他现代建筑师一样 / 他运用金属、 / 玻璃和层压木板—— / 这些材料 / 在我们今天看来 / 是理所当然的，但 / 在20世纪40年代却象征着未来 / 密斯精湛的表现手法掩盖了这样一个事实 / 即他所设计的空间小而高效 / 而非庞大且往往空旷 / 例如密斯在芝加哥湖滨大道上建造的典雅高楼中的公寓 / 位于芝加哥湖滨大道上 / 例如 / 面积更小—— / 面积不到1 / 000平方英尺的两居室—— / 相比那些 / 位于该市黄金海岸沿线的老式邻近建筑中的公寓",
           "vocabulary": [
             {
+              "word": "was not reliant on abundant decoration",
+              "pos": "",
+              "definition": "【🎯解题正解】 不依赖丰富的装饰"
+            },
+            {
+              "word": "was related to large space",
+              "pos": "",
+              "definition": "【💡题项表达】 与大空间有关"
+            },
+            {
+              "word": "was identified with emptiness",
+              "pos": "",
+              "definition": "【💡题项表达】 被认定为空虚"
+            },
+            {
+              "word": "was not associated with efficiency",
+              "pos": "",
+              "definition": "【💡题项表达】 与效率无关"
+            },
+            {
+              "word": "They shared some characteristics of abstract art",
+              "pos": "",
+              "definition": "【🎯解题正解】 他们有一些共同的抽象艺术特征。"
+            },
+            {
+              "word": "They ignored details and proportions",
+              "pos": "",
+              "definition": "【💡题项表达】 他们忽略了细节和比例。"
+            },
+            {
+              "word": "exert",
+              "pos": "",
+              "definition": "v.发挥;运用;使受(影响等)"
+            },
+            {
+              "word": "signature",
+              "pos": "",
+              "definition": "n.签名,署名:识别标志,鲜明特征"
+            },
+            {
+              "word": "derive from",
+              "pos": "",
+              "definition": "由......起源;取自"
+            },
+            {
+              "word": "laminated",
+              "pos": "",
+              "definition": "a.由薄片叠成的,分层的"
+            },
+            {
+              "word": "sophisticated",
+              "pos": "",
+              "definition": "a.复杂的,精致的"
+            },
+            {
               "word": "signature phrase",
               "pos": "",
               "definition": "口头禅"
@@ -3548,9 +3753,14 @@
               "definition": "认为...理所当然"
             },
             {
-              "word": "sophisticated",
+              "word": "elegant",
               "pos": "",
-              "definition": "a.复杂的,精致的"
+              "definition": "a.优美的,漂亮的,简练的,简洁的"
+            },
+            {
+              "word": "Gold Coast",
+              "pos": "",
+              "definition": "黄金海岸"
             },
             {
               "word": "Architecture",
@@ -3561,16 +3771,6 @@
               "word": "presentation",
               "pos": "n.",
               "definition": "n. （颁奖等）仪式；典礼；授予"
-            },
-            {
-              "word": "derive from",
-              "pos": "",
-              "definition": "由......起源;取自"
-            },
-            {
-              "word": "Gold Coast",
-              "pos": "",
-              "definition": "黄金海岸"
             },
             {
               "word": "decoration",
@@ -3591,16 +3791,6 @@
               "word": "apartments",
               "pos": "n.",
               "definition": "n. 公寓；公寓住宅（apartment 的复数形式）；套间"
-            },
-            {
-              "word": "signature",
-              "pos": "",
-              "definition": "n.签名,署名:识别标志,鲜明特征"
-            },
-            {
-              "word": "laminated",
-              "pos": "",
-              "definition": "a.由薄片叠成的,分层的"
             },
             {
               "word": "efficient",
@@ -3668,11 +3858,6 @@
               "definition": "v. 设计；计划（design 的过去式和过去分词）；be designed to/for 旨在"
             },
             {
-              "word": "elegant",
-              "pos": "",
-              "definition": "a.优美的,漂亮的,简练的,简洁的"
-            },
-            {
               "word": "granted",
               "pos": "adv.",
               "definition": "adv. 的确；诚然；conj. 因为（granted that）"
@@ -3718,11 +3903,6 @@
               "definition": "v. 获得；取得；起源于"
             },
             {
-              "word": "future",
-              "pos": "n.",
-              "definition": "n. 未来；将来；前途"
-            },
-            {
               "word": "masked",
               "pos": "v.",
               "definition": "v. mask 的过去式及过去分词：掩饰；给……戴面具；遮蔽"
@@ -3733,11 +3913,6 @@
               "definition": "n. 空间；空地；空隙"
             },
             {
-              "word": "rather",
-              "pos": "adv.",
-              "definition": "adv. 颇；相当；宁愿"
-            },
-            {
               "word": "towers",
               "pos": "n.",
               "definition": "n. 塔；塔楼；发射塔"
@@ -3746,11 +3921,6 @@
               "word": "square",
               "pos": "adj.",
               "definition": "adj. 正方形的；四方形的；成直角的"
-            },
-            {
-              "word": "exert",
-              "pos": "",
-              "definition": "v.发挥;运用;使受(影响等)"
             },
             {
               "word": "means",
@@ -3812,14 +3982,14 @@
           "chunk_translation": "但它们深受人们喜爱 / 因为其通透通风的玻璃幕墙 / 极佳的采光视野以及建筑细节与比例的典雅 / 堪称当时风靡一时的抽象艺术在建筑学上的体现 / 走向“少”的趋势并非完全是舶来品",
           "vocabulary": [
             {
+              "word": "equivalent",
+              "pos": "",
+              "definition": "n.对等物"
+            },
+            {
               "word": "equivalent of",
               "pos": "",
               "definition": "对应物"
-            },
-            {
-              "word": "architectural",
-              "pos": "adj.",
-              "definition": "adj. 建筑学的；建筑方面的；与建筑物相似的"
             },
             {
               "word": "abstract art",
@@ -3827,14 +3997,19 @@
               "definition": "抽象艺术"
             },
             {
+              "word": "foreign",
+              "pos": "",
+              "definition": "a.外国的,外来的"
+            },
+            {
+              "word": "architectural",
+              "pos": "adj.",
+              "definition": "adj. 建筑学的；建筑方面的；与建筑物相似的"
+            },
+            {
               "word": "proportions",
               "pos": "n.",
               "definition": "n. 比例；比值；大小"
-            },
-            {
-              "word": "equivalent",
-              "pos": "",
-              "definition": "n.对等物"
             },
             {
               "word": "buildings",
@@ -3860,11 +4035,6 @@
               "word": "abstract",
               "pos": "adj.",
               "definition": "adj. 抽象的；纯概念的；（艺术）抽象派的"
-            },
-            {
-              "word": "foreign",
-              "pos": "",
-              "definition": "a.外国的,外来的"
             },
             {
               "word": "popular",
@@ -3901,6 +4071,51 @@
           "chunk_translation": "在20世纪30年代，弗兰克·劳埃德·赖特就开始建造更加简朴且高效的住宅—— / 通常约为1 / 200平方英尺左右—— / 相比他在19世纪90年代和20世纪初所设计的铺展开来的双层住宅 / 在1945年至1962年间由《加州艺术与建筑》杂志委托建造的“案例研究住宅” / 委托优秀的现代建筑师设计的 / 是对“少即是多”趋势的又一本土影响 / 美学效果源自自然景观、 / 新材料以及简洁直率的细节处理 / 在他的案例研究住宅中 / 拉尔夫·拉普森或许误判了机械革命究竟会如何影响日常生活—— / 极少有美国家庭购买了直升机 / 尽管大多数家庭最终都购置了干衣机—— / 但他的信念 / 即自给自足既令人向往又是必然趋势，却得到了广泛认同",
           "vocabulary": [
             {
+              "word": "Natural scenes were taken into consideration",
+              "pos": "",
+              "definition": "【🎯解题正解】 考虑到了自然场景。"
+            },
+            {
+              "word": "Mechanical devices were widely used",
+              "pos": "",
+              "definition": "【💡题项表达】 机械装置被广泛使用。"
+            },
+            {
+              "word": "Eco-friendly materials were employed",
+              "pos": "",
+              "definition": "【💡题项表达】 采用了环保材料。"
+            },
+            {
+              "word": "modest",
+              "pos": "",
+              "definition": "a.适度的,适中的,端庄的"
+            },
+            {
+              "word": "aesthetic",
+              "pos": "",
+              "definition": "a.美学的,审美的"
+            },
+            {
+              "word": "forthright",
+              "pos": "",
+              "definition": "a.直率的,明确的"
+            },
+            {
+              "word": "mechanical",
+              "pos": "",
+              "definition": "a.机械的,机械驱动的"
+            },
+            {
+              "word": "desirable",
+              "pos": "",
+              "definition": "a.令人满意的,可取的"
+            },
+            {
+              "word": "inevitable",
+              "pos": "",
+              "definition": "a.不可避免的;必然发生的"
+            },
+            {
               "word": "commissioned",
               "pos": "adj.",
               "definition": "adj. 受委任的；受任命的"
@@ -3926,21 +4141,6 @@
               "definition": "n. 足量；充足；充分性"
             },
             {
-              "word": "forthright",
-              "pos": "",
-              "definition": "a.直率的,明确的"
-            },
-            {
-              "word": "mechanical",
-              "pos": "",
-              "definition": "a.机械的,机械驱动的"
-            },
-            {
-              "word": "inevitable",
-              "pos": "",
-              "definition": "a.不可避免的;必然发生的"
-            },
-            {
               "word": "architects",
               "pos": "n.",
               "definition": "n. （建）建筑师（architect 的复数形式）；（思想、事件、制度等的）设计者"
@@ -3954,16 +4154,6 @@
               "word": "eventually",
               "pos": "adv.",
               "definition": "adv. 最终；结果"
-            },
-            {
-              "word": "aesthetic",
-              "pos": "",
-              "definition": "a.美学的,审美的"
-            },
-            {
-              "word": "desirable",
-              "pos": "",
-              "definition": "a.令人满意的,可取的"
             },
             {
               "word": "efficient",
@@ -4049,11 +4239,6 @@
               "word": "clothes",
               "pos": "n.",
               "definition": "n. 衣服；衣物；（在特定场合、特定时间或由特定人群穿着的）服装"
-            },
-            {
-              "word": "modest",
-              "pos": "",
-              "definition": "a.适度的,适中的,端庄的"
             },
             {
               "word": "houses",
@@ -4944,6 +5129,21 @@
           "chunk_translation": "欧洲联盟能渡过难关吗？ / 这个问题在不久前听起来还会显得很不可思议 / 如今就连这一项目最坚定的支持者也在谈论欧洲大陆面临着债务的“百慕大三角” / 人口下降以及经济增长放缓",
           "vocabulary": [
             {
+              "word": "even its supporters begin to feel concerned \nᆇี൫ज@JOEE ༯໶\n\n07",
+              "pos": "",
+              "definition": "【🎯解题正解】 even its supporters begin to feel concerned \nᆇี൫ज@JOEE ༯໶\n\n07"
+            },
+            {
+              "word": "make it",
+              "pos": "",
+              "definition": "及时到达,成功"
+            },
+            {
+              "word": "talk of",
+              "pos": "",
+              "definition": "谈论,议论"
+            },
+            {
               "word": "cheerleaders",
               "pos": "n.",
               "definition": "n. 拉拉队（电影名）；啦啦队"
@@ -4972,16 +5172,6 @@
               "word": "triangle",
               "pos": "n.",
               "definition": "n. 三角形；三角形物体；三角铁（打击乐器）"
-            },
-            {
-              "word": "make it",
-              "pos": "",
-              "definition": "及时到达,成功"
-            },
-            {
-              "word": "talk of",
-              "pos": "",
-              "definition": "谈论,议论"
             },
             {
               "word": "sounded",
@@ -5038,9 +5228,19 @@
           "chunk_translation": "除了那些长期顽疾之外 / 欧盟在其经济核心区还面临着严重的危机 / 即16个 / 使用单一货币的国家 / 市场已经失去了信心 / 认为欧元区各经济体 / 无论强弱 / 终有一天会因为共享单一货币的约束而走向趋同 / 这种货币制度剥夺了缺乏竞争力的成员国利用货币贬值进行快速调整的手段",
           "vocabulary": [
             {
-              "word": "uncompetitive",
-              "pos": "adj.",
-              "definition": "adj. 无竞争力的；缺乏竞争力的；（指人或态度）不愿竞争的"
+              "word": "chronic",
+              "pos": "",
+              "definition": "a.慢性的,长期的,习惯性的"
+            },
+            {
+              "word": "acute",
+              "pos": "",
+              "definition": "a.尖锐的,严重的"
+            },
+            {
+              "word": "converge",
+              "pos": "",
+              "definition": "v.会于一点;使聚集"
             },
             {
               "word": "devaluation",
@@ -5053,24 +5253,24 @@
               "definition": "和...一样,除了"
             },
             {
-              "word": "discipline",
-              "pos": "n.",
-              "definition": "n. 纪律；风纪；惩罚"
-            },
-            {
               "word": "quick fix",
               "pos": "",
               "definition": "应急措施,权宜之计"
             },
             {
+              "word": "uncompetitive",
+              "pos": "adj.",
+              "definition": "adj. 无竞争力的；缺乏竞争力的；（指人或态度）不愿竞争的"
+            },
+            {
+              "word": "discipline",
+              "pos": "n.",
+              "definition": "n. 纪律；风纪；惩罚"
+            },
+            {
               "word": "economies",
               "pos": "n.",
               "definition": "n. （economy 的复数）经济；经济体制；经济体"
-            },
-            {
-              "word": "converge",
-              "pos": "",
-              "definition": "v.会于一点;使聚集"
             },
             {
               "word": "economic",
@@ -5086,11 +5286,6 @@
               "word": "stronger",
               "pos": "adj.",
               "definition": "adj. strong 的比较级：更强壮的；更强大的；更有力的"
-            },
-            {
-              "word": "chronic",
-              "pos": "",
-              "definition": "a.慢性的,长期的,习惯性的"
             },
             {
               "word": "Markets",
@@ -5128,11 +5323,6 @@
               "definition": "v. deny 的第三人称单数一般现在时形式：否认；否定；拒绝"
             },
             {
-              "word": "acute",
-              "pos": "",
-              "definition": "a.尖锐的,严重的"
-            },
-            {
               "word": "faith",
               "pos": "n.",
               "definition": "n. 信任；信心；信念"
@@ -5167,9 +5357,19 @@
           "chunk_translation": "然而关于如何拯救欧洲单一货币 / 免于瓦解的争论陷入了僵局 / 之所以陷入僵局 / 是因为欧元区的主导大国 / 法国和德国 / 虽然都认同这一需求 / 即在欧元区内部进行更大程度的协调 / 但在具体协调什么上却存在分歧 / 关于协调的内容",
           "vocabulary": [
             {
-              "word": "dominant powers",
+              "word": "fail to reach an agreement on harmonisation",
               "pos": "",
-              "definition": "主导力量"
+              "definition": "【🎯解题正解】 未能就协调一致达成一致"
+            },
+            {
+              "word": "are competing for the leading position",
+              "pos": "",
+              "definition": "【💡题项表达】 正在争夺领先地位"
+            },
+            {
+              "word": "are busy handling their own crises",
+              "pos": "",
+              "definition": "【💡题项表达】 忙着处理自己的危机"
             },
             {
               "word": "disintegration",
@@ -5177,19 +5377,29 @@
               "definition": "n.瓦解,崩溃"
             },
             {
-              "word": "harmonisation",
+              "word": "stuck",
               "pos": "",
-              "definition": "n.和谐,协调,相称"
-            },
-            {
-              "word": "harmonise",
-              "pos": "vt.",
-              "definition": "vt. 使和谐；使协调一致；vi. 和谐"
+              "definition": "a.动不了的,被卡住的,被难住的"
             },
             {
               "word": "dominant",
               "pos": "",
               "definition": "a.占优势的,统治的,支配的"
+            },
+            {
+              "word": "harmonisation",
+              "pos": "",
+              "definition": "n.和谐,协调,相称"
+            },
+            {
+              "word": "dominant powers",
+              "pos": "",
+              "definition": "主导力量"
+            },
+            {
+              "word": "harmonise",
+              "pos": "vt.",
+              "definition": "vt. 使和谐；使协调一致；vi. 和谐"
             },
             {
               "word": "currency",
@@ -5215,11 +5425,6 @@
               "word": "powers",
               "pos": "n.",
               "definition": "n. 力量（power 的复数形式）；权力；权势"
-            },
-            {
-              "word": "stuck",
-              "pos": "",
-              "definition": "a.动不了的,被卡住的,被难住的"
             },
             {
               "word": "agree",
@@ -5251,14 +5456,39 @@
           "chunk_translation": "德国认为拯救欧元的手段必须是 / 制定更严格的规则 / 在借贷、 / 财政支出和竞争力方面 / 并辅以 / 准自动的惩罚机制 / 针对那些 / 不遵守规则的政府 / 这些制裁措施可能包括威胁冻结欧盟资金 / 针对贫困地区和欧盟大型项目的资金 / 甚至暂停一个国家在欧盟部长理事会的表决权 / 德国坚称 / 经济协调应当涵盖欧盟俱乐部的全部27个成员国 / 在这之中 / 赞成自由市场自由主义和财政紧缩的成员国占微弱多数 / 赞成自由市场自由主义和经济严谨 / 仅在欧元区核心圈内部 / 德国担心 / 赞成法国干预主义的成员国会占微弱多数",
           "vocabulary": [
             {
-              "word": "a small majority",
+              "word": "stricter regulations be imposed",
               "pos": "",
-              "definition": "微弱多数"
+              "definition": "【🎯解题正解】 实施更严格的规定"
             },
             {
               "word": "quasi-automatic",
               "pos": "",
               "definition": "a.半自动的,准自动的"
+            },
+            {
+              "word": "suspension",
+              "pos": "",
+              "definition": "n.暂停,悬挂"
+            },
+            {
+              "word": "ministerial",
+              "pos": "",
+              "definition": "a.内阁的,部长的,行政(上)的"
+            },
+            {
+              "word": "rigour",
+              "pos": "",
+              "definition": "n.严苛,严酷"
+            },
+            {
+              "word": "backed by",
+              "pos": "",
+              "definition": "依靠,在..支持下"
+            },
+            {
+              "word": "a small majority",
+              "pos": "",
+              "definition": "微弱多数"
             },
             {
               "word": "competitiveness",
@@ -5271,19 +5501,9 @@
               "definition": "n. 干涉；干预；（收音机或电视机受到的）干扰信号"
             },
             {
-              "word": "ministerial",
-              "pos": "",
-              "definition": "a.内阁的,部长的,行政(上)的"
-            },
-            {
               "word": "governments",
               "pos": "n.",
               "definition": "n. 政府（government 的复数）；政权；可转让政府证券"
-            },
-            {
-              "word": "suspension",
-              "pos": "",
-              "definition": "n.暂停,悬挂"
             },
             {
               "word": "government",
@@ -5299,11 +5519,6 @@
               "word": "liberalism",
               "pos": "n.",
               "definition": "n. 自由主义；经济自由主义；开明的思想或见解"
-            },
-            {
-              "word": "backed by",
-              "pos": "",
-              "definition": "依靠,在..支持下"
             },
             {
               "word": "borrowing",
@@ -5379,11 +5594,6 @@
               "word": "members",
               "pos": "n.",
               "definition": "n. （社团、政党等组织的）成员；会员；（某群体或类别中的）一分子（可指人、动物、植物或事物）"
-            },
-            {
-              "word": "rigour",
-              "pos": "",
-              "definition": "n.严苛,严酷"
             },
             {
               "word": "backed",
@@ -5490,9 +5700,14 @@
           "chunk_translation": "一个由法国领导的“南方”阵营 / 想要有所不同： / 即在欧元区成员国的核心圈内部建立“欧洲经济政府” / 换句话说 / 这意味着政治家干预 / 货币政策以及建立从富裕成员国向较贫困成员国的再分配机制 / 从较富裕成员到较贫穷成员 / 通过为政府提供更低成本的借贷 / 为政府提供 / 借助联合发行的欧洲共同债券或全面的财政转移支付 / 最后 / 接近法国政府的人士私下表示 / 欧元区成员国应当就某些财政和社会协调达成一致： / 例如 / 限制恶性竞争 / 在企业税率或劳动力成本方面",
           "vocabulary": [
             {
-              "word": "fiscal transfers",
+              "word": "poor countries are more likely to get funds",
               "pos": "",
-              "definition": "财政转移"
+              "definition": "【🎯解题正解】 贫穷国家更有可能获得资金"
+            },
+            {
+              "word": "harmonisation",
+              "pos": "",
+              "definition": "n.和谐,协调,相称"
             },
             {
               "word": "redistribution",
@@ -5500,9 +5715,19 @@
               "definition": "n.(尤指钱或土地的)重新分配"
             },
             {
-              "word": "harmonisation",
+              "word": "fiscal",
               "pos": "",
-              "definition": "n.和谐,协调,相称"
+              "definition": "a.(美)财政上的"
+            },
+            {
+              "word": "headed by",
+              "pos": "",
+              "definition": "由...带领的,以...为首的"
+            },
+            {
+              "word": "fiscal transfers",
+              "pos": "",
+              "definition": "财政转移"
             },
             {
               "word": "labour costs",
@@ -5538,11 +5763,6 @@
               "word": "Translated",
               "pos": "v.",
               "definition": "v. 翻译；译成（translate 的过去式和过去分词）；转化为"
-            },
-            {
-              "word": "headed by",
-              "pos": "",
-              "definition": "由...带领的,以...为首的"
             },
             {
               "word": "borrowing",
@@ -5615,11 +5835,6 @@
               "definition": "v. curb 的现在分词：控制；抑制；约束"
             },
             {
-              "word": "fiscal",
-              "pos": "",
-              "definition": "a.(美)财政上的"
-            },
-            {
               "word": "poorer",
               "pos": "adj.",
               "definition": "adj. poor 的比较级：较贫穷的；较贫困的"
@@ -5670,11 +5885,6 @@
               "definition": "v. 同意；赞成；答应"
             },
             {
-              "word": "costs",
-              "pos": "n.",
-              "definition": "n. 费用；损失；诉讼费（cost 的复数）"
-            },
-            {
               "word": "core",
               "pos": "n.",
               "definition": "n. 果核；中心部分"
@@ -5704,14 +5914,49 @@
           "chunk_translation": "现在就断言欧盟失败还为时过早 / 它依然是全球最大的贸易集团 / 在最佳状态下 / 欧洲一体化项目极为自由开放： / 它围绕一个由27个贫富国家组成的单一市场建立 / 其内部边界对商品、 / 资本和劳动力的开放程度远超任何具有可比性的贸易区域 / 这是一次雄心勃勃的尝试，旨在抚平全球化最锋利的棱角 / 并使资本主义更具温情与良善",
           "vocabulary": [
             {
+              "word": "hopeful\nᆇี൫ज@JOEE ༯໶",
+              "pos": "",
+              "definition": "【🎯解题正解】 hopeful\nᆇี൫ज@JOEE ༯໶"
+            },
+            {
+              "word": "pessimistic",
+              "pos": "",
+              "definition": "【💡题项表达】 悲观"
+            },
+            {
+              "word": "desperate",
+              "pos": "",
+              "definition": "【💡题项表达】 绝望的"
+            },
+            {
+              "word": "conceited",
+              "pos": "",
+              "definition": "【💡题项表达】 自负"
+            },
+            {
+              "word": "remarkably",
+              "pos": "",
+              "definition": "ad.引人注目地,明显地,非常地"
+            },
+            {
+              "word": "liberal",
+              "pos": "",
+              "definition": "a.开明的,自由的"
+            },
+            {
+              "word": "blunt",
+              "pos": "",
+              "definition": "v.使迟钝"
+            },
+            {
+              "word": "benign",
+              "pos": "",
+              "definition": "a.温和的,仁慈的,善良的"
+            },
+            {
               "word": "trading block",
               "pos": "",
               "definition": "贸易集团,贸易区块"
-            },
-            {
-              "word": "globalisation",
-              "pos": "n.",
-              "definition": "n. 全球化（英式拼写；美式拼写为 globalization）"
             },
             {
               "word": "at its best",
@@ -5719,9 +5964,9 @@
               "definition": "处在最佳状态/全盛时期时"
             },
             {
-              "word": "remarkably",
-              "pos": "",
-              "definition": "ad.引人注目地,明显地,非常地"
+              "word": "globalisation",
+              "pos": "n.",
+              "definition": "n. 全球化（英式拼写；美式拼写为 globalization）"
             },
             {
               "word": "comparable",
@@ -5747,11 +5992,6 @@
               "word": "sharpest",
               "pos": "adj.",
               "definition": "adj. 最锋利的；最尖锐的（sharp 的最高级）；最敏锐的"
-            },
-            {
-              "word": "liberal",
-              "pos": "",
-              "definition": "a.开明的,自由的"
             },
             {
               "word": "project",
@@ -5784,11 +6024,6 @@
               "definition": "v. 努力；尝试；n. 试图"
             },
             {
-              "word": "benign",
-              "pos": "",
-              "definition": "a.温和的,仁慈的,善良的"
-            },
-            {
               "word": "market",
               "pos": "n.",
               "definition": "n. 集市；市场；交易"
@@ -5797,11 +6032,6 @@
               "word": "labour",
               "pos": "n.",
               "definition": "n. 劳动；任务；（一段时间的）工作"
-            },
-            {
-              "word": "blunt",
-              "pos": "",
-              "definition": "v.使迟钝"
             },
             {
               "word": "block",
