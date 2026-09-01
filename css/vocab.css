@@ -13,13 +13,24 @@
 }
 
 body.mode-vocab .vocab-section {
-  display: block;
+  display: block !important;
+  height: calc(100vh - 85px);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
-body.mode-vocab .main-container {
-  display: none !important;
-}
-
+body.mode-vocab .layout,
+body.mode-vocab #mainLayout,
+body.mode-vocab #mobileTabsBar,
+body.mode-vocab .floating-nav-bar,
+body.mode-vocab #submodeContainer,
+body.mode-vocab #jumpSelect,
+body.mode-vocab #prevBtn,
+body.mode-vocab #nextBtn,
+body.mode-vocab #resetBtn,
+body.mode-vocab #progressText,
+body.mode-vocab #toggleAllBtn,
+body.mode-vocab .workspace-toolbar,
 body.mode-vocab .workspace-font-toolbar {
   display: none !important;
 }
