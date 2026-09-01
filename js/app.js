@@ -855,6 +855,7 @@
   function setupKeyboardShortcuts() {
     window.addEventListener('keydown', e => {
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
+      if (AppState.mode === 'vocab') return;
 
       if (e.key === 'ArrowRight' || e.key === ' ') {
         e.preventDefault();

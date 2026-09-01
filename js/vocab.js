@@ -184,18 +184,18 @@
             </div>
 
             <div class="vocab-assessment-area" id="vocabAssessmentArea">
-              <div class="vocab-assessment-tip">回想释义后自评熟练度 (数字键 1 / 2 / 3)</div>
+              <div class="vocab-assessment-tip">回想释义后自评熟练度 (快捷键: ← 忘光了 ｜ ↓ 模糊 ｜ → 熟练)</div>
               <div class="vocab-grade-grid">
-                <button class="vocab-grade-btn grade-btn-forgot" id="vocabBtnForgot">
-                  <span class="grade-title">忘光了</span>
+                <button class="vocab-grade-btn grade-btn-forgot" id="vocabBtnForgot" title="快捷键: ← (左方向键)">
+                  <span class="grade-title">忘光了 (←)</span>
                   <span class="grade-subtitle" id="vocabTimeForgot">+5分钟</span>
                 </button>
-                <button class="vocab-grade-btn grade-btn-hard" id="vocabBtnHard">
-                  <span class="grade-title">模糊印象</span>
+                <button class="vocab-grade-btn grade-btn-hard" id="vocabBtnHard" title="快捷键: ↓ (下方向键)">
+                  <span class="grade-title">模糊印象 (↓)</span>
                   <span class="grade-subtitle" id="vocabTimeHard">+30分钟</span>
                 </button>
-                <button class="vocab-grade-btn grade-btn-good" id="vocabBtnGood">
-                  <span class="grade-title">熟练掌握</span>
+                <button class="vocab-grade-btn grade-btn-good" id="vocabBtnGood" title="快捷键: → (右方向键)">
+                  <span class="grade-title">熟练掌握 (→)</span>
                   <span class="grade-subtitle" id="vocabTimeGood">+12小时</span>
                 </button>
               </div>
@@ -204,14 +204,14 @@
             <div class="vocab-meaning-area" id="vocabMeaningArea">
               <div class="vocab-meaning-text" id="vocabCardMeaning"></div>
               <div class="vocab-action-row">
-                <button class="vocab-btn-wrong" id="vocabBtnWrong">❌ 记错了</button>
-                <button class="vocab-btn-next" id="vocabBtnNext">继续下一个 ➔</button>
+                <button class="vocab-btn-wrong" id="vocabBtnWrong" title="快捷键: ← (左方向键)">❌ 记错了 (←)</button>
+                <button class="vocab-btn-next" id="vocabBtnNext" title="快捷键: → (右方向键)">继续下一个 (→)</button>
               </div>
             </div>
           </div>
 
           <div class="vocab-kbd-hint">
-            快捷键：<span class="vocab-kbd">Space</span> 翻开释义 ｜ <span class="vocab-kbd">1/2/3</span> 自评熟练度 ｜ <span class="vocab-kbd">A</span> 发音 ｜ <span class="vocab-kbd">Enter</span> 下一个
+            快捷键：<span class="vocab-kbd">Space</span> 翻开释义 ｜ <span class="vocab-kbd">← / ↓ / →</span> 自评熟练度 ｜ <span class="vocab-kbd">→</span> 下一个 ｜ <span class="vocab-kbd">A</span> 发音
           </div>
         </div>
 
@@ -371,18 +371,25 @@
         if (e.code === 'Space') {
           e.preventDefault();
           this.revealMeaning();
-        } else if (e.key === '1') {
+        } else if (e.code === 'ArrowLeft' || e.key === '1') {
           e.preventDefault();
-          this.gradeWord('forgot');
-        } else if (e.key === '2') {
+          if (appState.isRevealed) {
+            this.markWrongAndNext();
+          } else {
+            this.gradeWord('forgot');
+          }
+        } else if (e.code === 'ArrowDown' || e.key === '2') {
           e.preventDefault();
-          this.gradeWord('hard');
-        } else if (e.key === '3') {
+          if (!appState.isRevealed) {
+            this.gradeWord('hard');
+          }
+        } else if (e.code === 'ArrowRight' || e.key === '3' || e.key === 'Enter') {
           e.preventDefault();
-          this.gradeWord('good');
-        } else if (e.key === 'Enter' || e.code === 'ArrowRight') {
-          e.preventDefault();
-          if (appState.isRevealed) this.goToNextCard();
+          if (appState.isRevealed) {
+            this.goToNextCard();
+          } else {
+            this.gradeWord('good');
+          }
         } else if (e.key === 'a' || e.key === 'A') {
           e.preventDefault();
           this.playAudio();
