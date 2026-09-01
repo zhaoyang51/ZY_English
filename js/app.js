@@ -603,7 +603,6 @@
         <span class="vocab-pos">${info.pos}</span>
       </div>
       <div class="vocab-def">${info.def}</div>
-      <div class="vocab-tip">💡 考研考点提示：注意本词在阅读定位句中的同义替换与感情色彩。</div>
       <div class="vocab-actions">
         <button id="bookmarkBtn" class="toolbar-btn ${isBookmarked ? 'active' : ''}">${isBookmarked ? '★ 已在生词本' : '☆ 收藏生词'}</button>
         <button id="learnInVocabBtn" class="toolbar-btn" style="font-weight:700;color:var(--primary)">🔤 闪卡背诵</button>
