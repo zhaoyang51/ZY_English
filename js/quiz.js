@@ -17,20 +17,37 @@
   }
 
   function getSynonymCardHtml(q, opt) {
+    let rowsHtml = '';
+    if (q.synonym_pairs && q.synonym_pairs.length > 0) {
+      rowsHtml = q.synonym_pairs.map(pair => `
+        <tr>
+          <td><strong style="color:var(--success)">${pair.opt_term}</strong></td>
+          <td style="text-align:center">↔</td>
+          <td><strong style="color:var(--accent)">${pair.text_term}</strong></td>
+          <td>${pair.logic || '精准同义改写'}</td>
+        </tr>
+      `).join('');
+    } else {
+      const locSnippet = q.locate_sentence.length > 55 ? q.locate_sentence.substring(0, 55) + '...' : q.locate_sentence;
+      rowsHtml = `
+        <tr>
+          <td><strong style="color:var(--success)">${opt.text}</strong></td>
+          <td style="text-align:center">↔</td>
+          <td><strong style="color:var(--accent)">${locSnippet}</strong></td>
+          <td>精准主干同义改写</td>
+        </tr>
+      `;
+    }
+
     return `
       <div class="synonym-card">
         <div class="synonym-title">🎯 命题人同义替换核心对照</div>
         <table class="synonym-table">
           <thead>
-            <tr><th>选项核心表达</th><th>↔</th><th>原文定位句</th><th>命题机制</th></tr>
+            <tr><th>选项核心表达</th><th>↔</th><th>原文对应定位点</th><th>同义替换与命题机制</th></tr>
           </thead>
           <tbody>
-            <tr>
-              <td><strong style="color:var(--success)">${opt.text}</strong></td>
-              <td style="text-align:center">↔</td>
-              <td><strong style="color:var(--accent)">${q.locate_sentence.substring(0, 48)}...</strong></td>
-              <td>精准主干同义改写</td>
-            </tr>
+            ${rowsHtml}
           </tbody>
         </table>
       </div>
