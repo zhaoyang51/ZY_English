@@ -1196,402 +1196,442 @@
         {
           "qid": 21,
           "stem": "According to Paragraph 1, Ms. Simmons was criticized for .",
-          "stem_cn": "根据第 1 段，西蒙斯女士因 受到批评。",
+          "stem_cn": "根据第 1 段，西蒙斯女士受到外界广泛批评是因为：",
           "type": "事实细节题",
           "locate_pid": 0,
           "locate_sentence": "Simmons was under fire for having sat on Goldman’s compensation committee; how could she have let those enormous bonus payouts pass unremarked?",
-          "locate_sentence_cn": "西蒙斯因担任高盛薪酬委员会成员而受到批评。她怎么可能对这些巨额奖金视而不见呢？",
+          "locate_sentence_cn": "西蒙斯因担任高盛薪酬委员会成员而受到猛烈抨击；她怎么能让那些巨额奖金的发放不置一词、轻易通过呢？",
           "options": [
             {
               "key": "A",
               "text": "gaining excessive profits",
               "text_cn": "获取超额利润",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 范围偏差）",
+              "trap_type": "干扰项（偷换概念 / 对象曲解）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Ruth Simmons joined Goldman Sachs’s board as an outside director in January 2000; a year later she became president of Brown University.",
-                "source_translation": "露丝·西蒙斯 (Ruth Simmons) 于 2000 年 1 月加入高盛董事会，担任外部董事；一年后，她成为布朗大学校长。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“在接下来的十年里，她显然扮演了这两个角色，没有引起太多批评。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "易受enormous bonus诱导，但细看主谓关系，是高管拿分红而非她本人拿利润，果断排除。",
+                "option_nature": "干扰项（偷换概念 / 对象曲解）",
+                "source_sentence": "Simmons was under fire for having sat on Goldman’s compensation committee; how could she have let those enormous bonus payouts pass unremarked?",
+                "source_translation": "西蒙斯因担任高盛薪酬委员会成员而受到抨击；她怎么能让那些巨额奖金发放毫无异议地通过？",
+                "locator_comparison": "原文指出公众愤怒的是她在薪酬委员会上放任高盛高管领取巨额红利（enormous bonus payouts pass unremarked），并非指责她本人在商业活动中中饱私囊或获取暴利（gaining excessive profits）。选项把‘失职放任他人领钱’偷换为‘自己牟取暴利’。",
+                "writing_perspective": "如果作者指责西蒙斯贪图超额利润，后文应当进一步披露她个人的股权分红与巨额账单；然而作者紧接着写她在次年以‘职务太耗时间’为由主动辞职，行文重点在于其在校长声誉与董事监管职责之间的撕裂，与A项的贪腐定性完全不符。",
+                "theme_validation": "本文旨在探讨外部董事在公司治理中的独立监督功能，A项将制度性失职歪曲为个人道德贪腐，偏离了全文探讨外部董事制度有效性的宏观主旨。",
+                "verdict": "复盘判断：A项偷换提问对象与动作主体，坚决排除。"
               }
             },
             {
               "key": "B",
               "text": "failing to fulfill her duty",
-              "text_cn": "未能履行她的职责",
+              "text_cn": "未能履行她的监督职责",
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
+                "practice_status": "反问句点明薪酬委员会失责的核心事实，同义替换精准严密，锁定正选。",
                 "option_nature": "★ 标准正确同义改写",
                 "source_sentence": "Simmons was under fire for having sat on Goldman’s compensation committee; how could she have let those enormous bonus payouts pass unremarked?",
-                "source_translation": "西蒙斯因担任高盛薪酬委员会成员而受到批评。她怎么可能对这些巨额奖金视而不见呢？",
-                "locator_comparison": "选项核心词 <code>failing</code>, <code>fulfill</code>, <code>her</code>（“未能履行她的职责”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“在接下来的十年里，她显然扮演了这两个角色，没有引起太多批评。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：B正确。"
+                "source_translation": "西蒙斯因身为高盛薪酬委员会成员而遭到抨击；她怎么能让那笔数额惊人的奖金发放悄然通过而未加评述？",
+                "locator_comparison": "选项中的 'failing to fulfill her duty' 精准对应了原文的反问句。作为薪酬委员会成员（sat on compensation committee），其法定核心职责就是把关审核高管薪酬，而她任由巨额奖金'pass unremarked'（不置一词地放行），二者语义高度等价，即未能履行其独立董事的把关与监督职责。",
+                "writing_perspective": "作者首段通过西蒙斯的典型案例作为引子，直击文章的核心议题——外部董事本应承担客观公正的监督建言责任，却在现实风暴中往往沦为橡皮图章，B项完美契合作者立论的逻辑起点。",
+                "theme_validation": "将B项代入首段，直接与第2段对外部董事核心职责的阐述（serve as helpful, yet less biased, advisers）形成前后呼应，完全契合主旨走向。",
+                "verdict": "复盘判断：B项为高难度反问句的抽象概括改写，毫无争议的正选。"
               }
             },
             {
               "key": "C",
               "text": "refusing to make compromises",
-              "text_cn": "拒绝妥协",
+              "text_cn": "拒绝在谈判中妥协",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 范围偏差）",
+              "trap_type": "干扰项（无中生有 / 反向逻辑）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Ruth Simmons joined Goldman Sachs’s board as an outside director in January 2000; a year later she became president of Brown University.",
-                "source_translation": "露丝·西蒙斯 (Ruth Simmons) 于 2000 年 1 月加入高盛董事会，担任外部董事；一年后，她成为布朗大学校长。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“在接下来的十年里，她显然扮演了这两个角色，没有引起太多批评。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "与原文相反，西蒙斯正是因为太容易放行而挨批，并未坚持拒绝妥协，迅速排除。",
+                "option_nature": "干扰项（无中生有 / 反向逻辑）",
+                "source_sentence": "how could she have let those enormous bonus payouts pass unremarked?",
+                "source_translation": "她怎么能任由那些巨额奖金的发放不置一词呢？",
+                "locator_comparison": "原文批判的是西蒙斯在关键时刻毫无立场、随波逐流（pass unremarked），根本没有提及她在任何决议上'拒绝妥协'（refusing to make compromises）。事实上，如果她真的敢于坚持原则、拒绝妥协，就不会受到'毫无作为'的炮轰。",
+                "writing_perspective": "作者行文意在展现她在董事会中缺乏原则性监督，若C项成立，作者后文应赞扬其坚定风骨，这与全段乃至全文对其失职的客观剖析截然相反。",
+                "theme_validation": "本文强调外部董事应独立自主提出反对意见（disagree with CEO's proposals），而西蒙斯恰恰是因为不敢反对而翻车，C项与文章立论方向南辕北辙。",
+                "verdict": "复盘判断：C项无中生有，且违背语篇逻辑，排除。"
               }
             },
             {
               "key": "D",
               "text": "leaving the board in tough times",
-              "text_cn": "在困难时期离开董事会",
+              "text_cn": "在困难时期擅自离开董事会",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 偏离主干）",
+              "trap_type": "干扰项（因果倒置 / 时间错乱）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Ruth Simmons joined Goldman Sachs’s board as an outside director in January 2000; a year later she became president of Brown University.",
-                "source_translation": "露丝·西蒙斯 (Ruth Simmons) 于 2000 年 1 月加入高盛董事会，担任外部董事；一年后，她成为布朗大学校长。",
-                "locator_comparison": "借用了原文的词汇 <code>leaving</code>, <code>board</code>, <code>tough</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“在接下来的十年里，她显然扮演了这两个角色，没有引起太多批评。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "离开是受批评之后的结果而非原因，因果倒置，排除。",
+                "option_nature": "干扰项（因果倒置 / 时间错乱）",
+                "source_sentence": "But by the end of 2009 Ms. Simmons was under fire... By February the next year Ms. Simmons had left the board.",
+                "source_translation": "到2009年底，西蒙斯女士因身为高盛薪酬委员会成员而受到抨击……次年二月，西蒙斯女士离开了董事会。",
+                "locator_comparison": "时间线上，西蒙斯是在 2009 年底先受到抨击（under fire），随后才在次年 2 月离开董事会（left the board）。离职是遭到舆论炮轰后的避险与公关结果，而不是导致她最初受批评的因由。D项混淆了时间先后顺序，犯了因果倒置的错误。",
+                "writing_perspective": "作者在第四段确实探讨了外部董事在危机前跳船离职的现象，但那是针对后文普遍现象的理论推演，不能张冠李戴强加到第一段西蒙斯最初挨批的原因上。",
+                "theme_validation": "首段题眼在于西蒙斯在薪酬委员会上的失职行为，D项利用第四段的背景细节生搬硬套到首段设问，逻辑断层明显。",
+                "verdict": "复盘判断：D项时间线颠倒且因果混淆，果断排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；<b>B</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>C</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；<b>D</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>leaving</code>, <cod...；"
+          "summary": "本题考查对反问句修辞的深度理解与同义抽象概括。命题人将 'let ... payouts pass unremarked'（任由巨额奖金轻易通过）抽象提炼为 'failing to fulfill her duty'（失职），干扰项则分别利用细节词设置贪腐臆断、因果倒置与反向无中生有陷阱。",
+          "synonym_pairs": [
+            {
+              "opt_term": "failing to fulfill her duty",
+              "text_term": "sat on Goldman’s compensation committee ... pass unremarked",
+              "logic": "职责失职同义改写：作为薪酬委员会成员却对巨额分红不置一词、不闻不问 ↔ 未能履行监督职责"
+            },
+            {
+              "opt_term": "was criticized for",
+              "text_term": "was under fire for",
+              "logic": "同义短语互换：under fire（遭到炮轰/抨击） ↔ be criticized for（受到批评）"
+            }
+          ]
         },
         {
           "qid": 22,
           "stem": "We learn from Paragraph 2 that outside directors are supposed to be .",
-          "stem_cn": "我们从第 2 段得知，外部董事应该是 。",
-          "type": "因果推断题",
+          "stem_cn": "我们从第 2 段得知，外部董事理应扮演的角色是：",
+          "type": "推理判断题",
           "locate_pid": 1,
-          "locate_sentence": "Outside directors are supposed to serve as helpful, yet less biased, advisers on a firm’s board.",
-          "locate_sentence_cn": "外部董事应该在公司董事会中充当有用但不带偏见的顾问。",
+          "locate_sentence": "Outside directors are supposed to serve as helpful, yet less biased, advisers on a firm’s board. Having made their wealth and their reputations elsewhere, they presumably have enough independence to disagree with the chief executive’s proposals.",
+          "locate_sentence_cn": "外部董事应当在公司董事会中充当有益且不带偏见的顾问。由于他们已在其他领域积累了财富和声望，他们理应具备充分的独立性，敢于对首席执行官的提议提出异议。",
           "options": [
             {
               "key": "A",
               "text": "generous investors",
-              "text_cn": "慷慨的投资者",
+              "text_cn": "慷慨出资的投资者",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 范围偏差）",
+              "trap_type": "干扰项（偷换概念 / 职业定位错位）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Outside directors are supposed to serve as helpful, yet less biased, advisers on a firm’s board.",
-                "source_translation": "外部董事应该在公司董事会中充当有用但不带偏见的顾问。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“他们在其他地方积累了财富和声誉，想必有足够的独立性来反对首席执行官的提议。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "看到wealth就联想投资，属于无中生有，排除。",
+                "option_nature": "干扰项（偷换概念 / 职业定位错位）",
+                "source_sentence": "Having made their wealth and their reputations elsewhere, they presumably have enough independence...",
+                "source_translation": "他们在别处已经赚足了财富并赢得了声誉，按常理应当拥有充分的独立性……",
+                "locator_comparison": "原文指出他们'在别处已经积累了财富与声誉'（made their wealth elsewhere），这是说明他们经济独立、无欲则刚，拥有对管理层说不的底气，绝非指他们是为当前这家公司慷慨注资的投资人（generous investors）。A项把他们的背景属性偷换为对本公司的职务行为。",
+                "writing_perspective": "外部董事的核心功能是公司治理层面的监督与咨询，如果作者将他们定位为出资投资者，后文就不会探讨他们在董事会上对CEO提议的独立表决权了。",
+                "theme_validation": "全文讨论的是董事会顾问治理结构，而非风险投资或股东注资行为，A项偏离了文章探讨的职业职能范畴。",
+                "verdict": "复盘判断：A项偷换董事身份为投资者，果断排除。"
               }
             },
             {
               "key": "B",
               "text": "unbiased executives",
-              "text_cn": "公正的高管",
+              "text_cn": "公正客观的企业高管",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 过度推断）",
+              "trap_type": "干扰项（混淆管理层与董事会界限）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
+                "practice_status": "辨析executives与outside directors的本质区别，高管负责日常经营，外部董事负责监督，排除B。",
+                "option_nature": "干扰项（混淆管理层与董事会界限）",
                 "source_sentence": "Outside directors are supposed to serve as helpful, yet less biased, advisers on a firm’s board.",
-                "source_translation": "外部董事应该在公司董事会中充当有用但不带偏见的顾问。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“他们在其他地方积累了财富和声誉，想必有足够的独立性来反对首席执行官的提议。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "source_translation": "外部董事应当在公司董事会中充当有益且偏见较少的顾问。",
+                "locator_comparison": "原文明确指明外部董事的法定身份是'advisers'（顾问/咨询监督者），与其监督对象'chief executive'（首席执行官/高管）形成制衡。B项中的'executives'指的是直接掌管公司日常经营的高级行政管理人员，把外部监督者与内部执行高管混为一谈，概念严重混淆。",
+                "writing_perspective": "作者后文强调外部董事因独立于企业内部管理层才能在危机中客观建言，若他们自身就是内部executives，就必然存在利益纠葛，根本无法做到'less biased'。",
+                "theme_validation": "现代企业法人治理结构的常识与文章主旨一致：outside directors 正是用来监督内部 executives 的，B项指鹿为马。",
+                "verdict": "复盘判断：B项偷换核心词性与职务属性，坚决排除。"
               }
             },
             {
               "key": "C",
               "text": "share price forecasters",
-              "text_cn": "股价预测者",
+              "text_cn": "专业的股价走势预测者",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
+              "trap_type": "干扰项（曲解修饰 / 以假定为职能）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Outside directors are supposed to serve as helpful, yet less biased, advisers on a firm’s board.",
-                "source_translation": "外部董事应该在公司董事会中充当有用但不带偏见的顾问。",
-                "locator_comparison": "选项声称“股价预测者”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“他们在其他地方积累了财富和声誉，想必有足够的独立性来反对首席执行官的提议。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "share price是条件状语中的背景，非其职业功能，排除。",
+                "option_nature": "干扰项（曲解修饰 / 以假定为职能）",
+                "source_sentence": "If the sky, and the share price, is falling, outside directors should be able to give advice based on having weathered their own crises.",
+                "source_translation": "即使天塌下来、股价暴跌，外部董事也应该能够凭借自己度过危机的阅历提供建言。",
+                "locator_comparison": "原文中的'if the share price is falling'是一个让步条件状语从句，描绘在公司遭遇股价暴跌等极端危机时外部董事应当凭借经验提供应对建议，并非让他们担任专职的'股价预测员'（forecasters）。C项将危机应对的建议职能曲解为算命式的股价预测。",
+                "writing_perspective": "作者强调他们在逆境中的定力与经验，而非金融分析师的量化预测功能，C项逻辑降维且脱离论证语境。",
+                "theme_validation": "公司外部董事通常是资深学者、政要或行业元老，非二级市场短线操盘分析师，C项偏离常理与文章核心论调。",
+                "verdict": "复盘判断：C项抓取局部细节词生硬编造职能，排除。"
               }
             },
             {
               "key": "D",
               "text": "independent advisers",
-              "text_cn": "独立顾问",
+              "text_cn": "独立客观的建言顾问",
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
+                "practice_status": "less biased + enough independence完美对应independent，advisers原词对位，锁定正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Outside directors are supposed to serve as helpful, yet less biased, advisers on a firm’s board.",
-                "source_translation": "外部董事应该在公司董事会中充当有用但不带偏见的顾问。",
-                "locator_comparison": "选项核心词 <code>independent</code>, <code>advisers</code>（“独立顾问”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“他们在其他地方积累了财富和声誉，想必有足够的独立性来反对首席执行官的提议。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：D正确。"
+                "source_sentence": "Outside directors are supposed to serve as helpful, yet less biased, advisers on a firm’s board... they presumably have enough independence to disagree with the chief executive’s proposals.",
+                "source_translation": "外部董事应当在公司董事会中充当有益且不带偏见的顾问……他们理应具备充分的独立性，敢于对首席执行官的提议提出异议。",
+                "locator_comparison": "选项 D 中的 'independent' 完美概括了原文中的 'less biased'（偏见较少/客观）与 'have enough independence to disagree'（具有充分的独立自主性）；'advisers' 则是原文核心词的原词再现。双重印证，严丝合缝。",
+                "writing_perspective": "第二段首句作为段落主题句，开宗明义地界定了外部董事应有的理想角色定位，为后文探讨现实中外部董事与公司利益深度绑定导致独立性丧失构成了强烈的对照基准。",
+                "theme_validation": "全篇围绕外部董事是否真正具备'独立性'展开，D项紧扣全文立论的核心灵魂，毫无争议。",
+                "verdict": "复盘判断：D项同义改写规范精准，锁定正选。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；<b>B</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；<b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“股价预测者”，但在原文定位句中，作者表达的态度或客观事实恰恰...；<b>D</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；"
+          "summary": "本题考查对段落主题句及修饰语的核心抓取。命题人通过整合 'less biased advisers' 和 'enough independence'，归纳出标准答案 'independent advisers'。干扰项则针对段落出现的 wealth、chief executive、share price 等词汇设置身份置换与功能偏离陷阱。",
+          "synonym_pairs": [
+            {
+              "opt_term": "independent advisers",
+              "text_term": "helpful, yet less biased, advisers ... enough independence to disagree",
+              "logic": "核心考点精准同义对位：less biased advisers + enough independence ↔ independent advisers"
+            }
+          ]
         },
         {
           "qid": 23,
           "stem": "According to the researchers from Ohio University, after an outside director’s surprise \ndeparture, the firm is likely to .",
-          "stem_cn": "According to the researchers from Ohio University, after an outside director’s surprise \ndeparture, the firm is likely to .",
+          "stem_cn": "根据俄亥俄大学研究人员的发现，在外部董事意外离职后，该企业很可能会：",
           "type": "段落推理题",
           "locate_pid": 2,
-          "locate_sentence": "Then they simply checked which directors stayed from one proxy statement to the next.",
-          "locate_sentence_cn": "然后他们简单地检查了哪些董事从一份委托书到下一份委托书都留下了。",
+          "locate_sentence": "They found that after a surprise departure, the probability that the company will subsequently have to restate earnings increased by nearly 20%. The likelihood of being named in a federal class-action lawsuit also increases, and the stock is likely to perform worse.",
+          "locate_sentence_cn": "他们发现，在外部董事意外离职后，公司随后被迫重述财务收益的概率增加了近20%。被列为联邦集体诉讼被告的可能性也随之上升，而且股票在市场上的表现往往更加糟糕。",
           "options": [
             {
               "key": "A",
               "text": "become more stable",
-              "text_cn": "变得更加稳定",
+              "text_cn": "经营局面变得更加稳定",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
+              "trap_type": "干扰项（反向干扰 / 彻底背离事实）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "The researchers from Ohio University used a database that covered more than 10,000 firms and more than 64,000 different directors between 1989 and 2004.",
-                "source_translation": "俄亥俄大学的研究人员使用的数据库涵盖了 1989 年至 2004 年间超过 10,000 家公司和超过 64,000 名不同的董事。",
-                "locator_comparison": "选项声称“变得更加稳定”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“然后他们简单地检查了哪些董事从一份委托书到下一份委托书都留下了。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "原文三大迹象全是动荡恶化，A项与原文事实截然相反，秒杀排除。",
+                "option_nature": "干扰项（反向干扰 / 彻底背离事实）",
+                "source_sentence": "They found that after a surprise departure, the probability that the company will subsequently have to restate earnings increased by nearly 20%... the stock is likely to perform worse.",
+                "source_translation": "他们发现，在意外离职发生后，公司随后重述收益的概率增加了近20%……股票走势往往更差。",
+                "locator_comparison": "原文列举了三大严重负面后果：财报被迫更正概率增加20%、官司缠身风险激增、股价下挫走跌。这些明确显示公司陷入动荡与危机，与 A 选项的 'become more stable'（变得更稳定）完全相反，属于黑白颠倒的极端反向干扰项。",
+                "writing_perspective": "作者引用这项严谨实证研究，意在证明外部董事离职往往是企业潜伏重大危机的晴雨表；若A项成立，作者逻辑便彻底崩溃。",
+                "theme_validation": "危机前兆与企业走下坡路是本段论述核心，A项盲目唱赞歌脱离整个论证脉络。",
+                "verdict": "复盘判断：A项与原文负向事实彻底对立，坚决排除。"
               }
             },
             {
               "key": "B",
               "text": "report increased earnings",
-              "text_cn": "报告收入增加",
+              "text_cn": "报告更高的盈利收入",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 过度推断）",
+              "trap_type": "干扰项（偷换概念 / 歪曲财报专业术语）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "The researchers from Ohio University used a database that covered more than 10,000 firms and more than 64,000 different directors between 1989 and 2004.",
-                "source_translation": "俄亥俄大学的研究人员使用的数据库涵盖了 1989 年至 2004 年间超过 10,000 家公司和超过 64,000 名不同的董事。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“然后他们简单地检查了哪些董事从一份委托书到下一份委托书都留下了。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "restate earnings是更正/下调财报造假，绝非增加收益，排除。",
+                "option_nature": "干扰项（偷换概念 / 歪曲财报专业术语）",
+                "source_sentence": "the probability that the company will subsequently have to restate earnings increased by nearly 20%.",
+                "source_translation": "公司随后被迫重新编制重述财务收益的概率增加了近20%。",
+                "locator_comparison": "原文术语是 'restate earnings'（重述/重新编制收益报表）。在商业财务实务中，重述收益通常是因为此前财务造假虚增利润、被监管发现后被迫调低纠偏，是重大利空丑闻。B项借用 earnings 这个字眼，将其歪曲为喜报频传的'increased earnings'（利润增加），严重颠倒了商业常识与原文语义。",
+                "writing_perspective": "后文紧接着提到面临联邦集体诉讼与股价崩跌，印证重述财报是暴雷事件，绝对不可能带来利润增长。",
+                "theme_validation": "本段围绕企业经营恶化展开，B项的业绩利好与全文危机基调格格不入。",
+                "verdict": "复盘判断：B项混淆商业术语与正面偏向，果断排除。"
               }
             },
             {
               "key": "C",
               "text": "do less well in the stock market",
-              "text_cn": "在股市表现不佳",
+              "text_cn": "在股票市场上表现较差",
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
+                "practice_status": "the stock is likely to perform worse原话同义替换，直击正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Then they simply checked which directors stayed from one proxy statement to the next.",
-                "source_translation": "然后他们简单地检查了哪些董事从一份委托书到下一份委托书都留下了。",
-                "locator_comparison": "选项核心词 <code>less</code>, <code>stock</code>, <code>market</code>（“在股市表现不佳”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“然后他们简单地检查了哪些董事从一份委托书到下一份委托书都留下了。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：C正确。"
+                "source_sentence": "The likelihood of being named in a federal class-action lawsuit also increases, and the stock is likely to perform worse.",
+                "source_translation": "被卷入联邦集体诉讼的概率也增加了，而且该公司的股票在市场上的表现很有可能会变糟。",
+                "locator_comparison": "选项 C 的 'do less well' 完美同义替换了定位句中的 'perform worse'；'in the stock market' 则是对原文 'the stock'（股票交易表现）的语境补全。两者表述在语义上完全重合，毫厘不差。",
+                "writing_perspective": "作者在第三段通过罗列数据层层递进：从内部财报虚假（restate earnings），到外部法律诉讼（lawsuit），最终传导并体现在公开资本市场的股价下行（stock perform worse），逻辑闭环严整。",
+                "theme_validation": "这一结论与第二段'if the share price is falling'形成紧密的前后论据贯通，确立了外部董事离任与公司股价走弱之间的负相关实证关系。",
+                "verdict": "复盘判断：C项直取原文核心句主干，正选无疑。"
               }
             },
             {
               "key": "D",
               "text": "perform worse in lawsuits",
-              "text_cn": "在诉讼中表现较差",
+              "text_cn": "在诉讼案件中的胜诉表现较差",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
+              "trap_type": "干扰项（偷换概念 / 曲解法律程序）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "The researchers from Ohio University used a database that covered more than 10,000 firms and more than 64,000 different directors between 1989 and 2004.",
-                "source_translation": "俄亥俄大学的研究人员使用的数据库涵盖了 1989 年至 2004 年间超过 10,000 家公司和超过 64,000 名不同的董事。",
-                "locator_comparison": "选项声称“在诉讼中表现较差”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“然后他们简单地检查了哪些董事从一份委托书到下一份委托书都留下了。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "原文是被起诉概率增加，非打官司胜率变差，偷换概念，排除。",
+                "option_nature": "干扰项（偷换概念 / 曲解法律程序）",
+                "source_sentence": "The likelihood of being named in a federal class-action lawsuit also increases",
+                "source_translation": "在联邦集体诉讼中被列为被告的可能性也随之上升",
+                "locator_comparison": "原文的准确含义是公司被卷入官司、被列为集体诉讼被告的概率增加（likelihood of being named increases），这是指诉讼风险在数量与频率上的上升。而 D 选项的 'perform worse in lawsuits' 指的是在法庭辩论审判过程中'表现欠佳/输掉官司'。选项将诉讼风险的发生偷换成了法庭审理中的表现。",
+                "writing_perspective": "作者着眼于宏观监管与法律风险暴雷，而非具体探讨法务团队在庭审辩护中的胜败技艺，D项偏离了商业实证研究的统计维度。",
+                "theme_validation": "原文并无公司具体诉讼输赢的判决统计，D项缺乏原文论据支撑。",
+                "verdict": "复盘判断：D项偷换法律诉讼的阶段与范畴，排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“变得更加稳定”，但在原文定位句中，作者表达的态度或客观事实恰...；<b>B</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；<b>C</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>D</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“在诉讼中表现较差”，但在原文定位句中，作者表达的态度或客观事...；"
+          "summary": "本题考查对并列事实细节的逐一排查能力。原文列出三大事实：财报重述概率上升、诉讼被告几率增加、股票走势变差。正确项C直接对应股票走差。干扰项则通过反向混淆（A）、篡改财务术语（B）以及偷换法律环节（D）进行全方位设伏。",
+          "synonym_pairs": [
+            {
+              "opt_term": "do less well in the stock market",
+              "text_term": "the stock is likely to perform worse",
+              "logic": "基础同义词组对位：the stock ... perform worse ↔ do less well in the stock market"
+            }
+          ]
         },
         {
           "qid": 24,
           "stem": "It can be inferred from the last paragraph that outside directors .",
-          "stem_cn": "从最后一段可以看出，外部董事。",
-          "type": "词义/例证题",
+          "stem_cn": "从最后一段可以推断出，外部董事：",
+          "type": "推理判断题",
           "locate_pid": 3,
-          "locate_sentence": "Although a correlation between them leaving and subsequent bad performance at the firm is suggestive, it does not mean that such directors are always jumping off a sinking ship.",
-          "locate_sentence_cn": "尽管他们的离职与公司随后的糟糕表现之间存在相关性，但这并不意味着这些董事总是从一艘正在下沉的船上跳下来。",
+          "locate_sentence": "Firms who want to keep their outside directors through tough times may have to create incentives. Otherwise outside directors will follow the example of Ms. Simmons, once again very popular on campus.",
+          "locate_sentence_cn": "想要在逆境困难时期留住外部董事的企业可能不得不设立激励机制。否则，外部董事们就会效仿西蒙斯女士——如今她重返大学校园，再度备受欢迎。",
           "options": [
             {
               "key": "A",
               "text": "may stay for the attractive offers from the firm",
-              "text_cn": "可能会因为公司有吸引力的报价而留下来",
+              "text_cn": "可能会因为公司极具吸引力的激励待遇而选择留任",
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
+                "practice_status": "反推末句条件句，企业出激励才能留人，说明给够待遇他们就愿留下，锁定正选。",
                 "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Although a correlation between them leaving and subsequent bad performance at the firm is suggestive, it does not mean that such directors are always jumping off a sinking ship.",
-                "source_translation": "尽管他们的离职与公司随后的糟糕表现之间存在相关性，但这并不意味着这些董事总是从一艘正在下沉的船上跳下来。",
-                "locator_comparison": "选项核心词 <code>may</code>, <code>stay</code>, <code>attractive</code>（“可能会因为公司有吸引力的报价而留下来”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“想要留住外部董事度过困难时期的公司可能必须制定激励措施。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：A正确。"
+                "source_sentence": "Firms who want to keep their outside directors through tough times may have to create incentives.",
+                "source_translation": "企业如果希望在艰难时刻留住其外部董事，可能不得不拿出激励措施。",
+                "locator_comparison": "原文指出企业若想在逆境中挽留外部董事（keep their outside directors），必须拿出激励措施（create incentives）。由此反推，外部董事是否留任直接受到企业待遇激励的影响，如果有足够吸引力的高额激励报价（attractive offers），他们就可能会选择继续留任（may stay）。逻辑互为充要反推，严谨工整。",
+                "writing_perspective": "作者在末段剖析外部董事权衡利弊的现实心理：面对声誉受损风险，仅靠道德约束无法留人，唯有经济利益诱导。A项顺应了作者对理性商业博弈的逻辑推演。",
+                "theme_validation": "与前文西蒙斯为了保全声誉匆匆离职形成对照，点明唯有加大实质激励才能克服他们对坏名声的恐惧，契合制度反思主旨。",
+                "verdict": "复盘判断：A项逻辑反推严密成立，正选无疑。"
               }
             },
             {
               "key": "B",
               "text": "have often had records of wrongdoings in the firm",
-              "text_cn": "经常有公司不当行为的记录",
+              "text_cn": "在任职企业中往往有不端行为的违法记录",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
+              "trap_type": "干扰项（张冠李戴 / 极端恶意抹黑）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "But the researchers believe that outside directors have an easier time of avoiding a blow to their reputations if they leave a firm before bad news breaks, even if a review of history shows they were on the board at the time any wrongdoing occurred.",
-                "source_translation": "但研究人员认为，如果外部董事在坏消息传出之前离开公司，他们就更容易避免声誉受到打击，即使对历史的回顾表明，在任何不当行为发生时，他们都是董事会成员。",
-                "locator_comparison": "选项声称“经常有公司不当行为的记录”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“想要留住外部董事度过困难时期的公司可能必须制定激励措施。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "在发生丑闻时在任，不等于他们自己有违法记录，恶意抹黑，排除。",
+                "option_nature": "干扰项（张冠李戴 / 极端恶意抹黑）",
+                "source_sentence": "even if a review of history shows they were on the board at the time any wrongdoing occurred.",
+                "source_translation": "即使历史审查显示在任何不当行为发生时他们人就在董事会当中。",
+                "locator_comparison": "原文的表述是'they were on the board at the time any wrongdoing occurred'（当公司内部发生任何违规行为时，他们人恰好在董事会里任职）。这是指由于时间重合，他们可能连带受到声誉连累，绝不是指外部董事自己本身'有过违法失德的不良记录'（records of wrongdoings）。选项严重歪曲了主体行为性质。",
+                "writing_perspective": "外部董事通常是极具声誉的社会名流（made their reputations elsewhere），极度珍惜羽毛，作者通篇都在强调他们害怕被公司牵连，B项却把他们写成惯犯，逻辑彻底自相矛盾。",
+                "theme_validation": "文章论证的核心是外部董事如何规避声誉打击，B项将其描绘为不良记录者脱离全文逻辑基础。",
+                "verdict": "复盘判断：B项强行移花接木并恶意引申，坚决排除。"
               }
             },
             {
               "key": "C",
               "text": "are accustomed to stress-free work in the firm",
-              "text_cn": "习惯了在公司无压力的工作",
+              "text_cn": "习惯于在企业承担毫无压力的轻松工作",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 范围偏差）",
+              "trap_type": "干扰项（无中生有 / 主观臆造事实）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "But the researchers believe that outside directors have an easier time of avoiding a blow to their reputations if they leave a firm before bad news breaks, even if a review of history shows they were on the board at the time any wrongdoing occurred.",
-                "source_translation": "但研究人员认为，如果外部董事在坏消息传出之前离开公司，他们就更容易避免声誉受到打击，即使对历史的回顾表明，在任何不当行为发生时，他们都是董事会成员。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“想要留住外部董事度过困难时期的公司可能必须制定激励措施。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "外部董事面临巨大声誉风险，绝非无压力，属于无中生有，排除。",
+                "option_nature": "干扰项（无中生有 / 主观臆造事实）",
+                "source_sentence": "outside directors have an easier time of avoiding a blow to their reputations if they leave a firm before bad news breaks...",
+                "source_translation": "如果外部董事在坏消息爆发前离开公司，他们就更容易避免声誉受到打击……",
+                "locator_comparison": "原文虽然提到外部董事希望早点跳船以逃避声誉打击，但从未提及其工作是'stress-free'（毫无压力）。相反，当暴风雨来临时，他们承受着巨大且敏感的声誉拷问与公众舆论压力（例如西蒙斯遭遇的under fire）。C项的主观臆断与原文语境不符。",
+                "writing_perspective": "作者在第四段开篇强调外部董事并非一味跳船，他们也在权衡利弊与承担治理压力，C项的'无压力习惯'毫无行文依据。",
+                "theme_validation": "全文严肃讨论公司治理的信托责任与风险溢价，C项轻佻的定性严重偏离主流论调。",
+                "verdict": "复盘判断：C项凭空捏造事实，排除。"
               }
             },
             {
               "key": "D",
               "text": "will decline incentives from the firm",
-              "text_cn": "将减少公司的激励措施",
+              "text_cn": "会主动拒绝公司开出的激励措施",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 过度推断）",
+              "trap_type": "干扰项（反向干扰 / 颠倒逻辑诉求）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "But the researchers believe that outside directors have an easier time of avoiding a blow to their reputations if they leave a firm before bad news breaks, even if a review of history shows they were on the board at the time any wrongdoing occurred.",
-                "source_translation": "但研究人员认为，如果外部董事在坏消息传出之前离开公司，他们就更容易避免声誉受到打击，即使对历史的回顾表明，在任何不当行为发生时，他们都是董事会成员。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“想要留住外部董事度过困难时期的公司可能必须制定激励措施。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "与原文逻辑截然相反，企业需要激励他们才会留，怎会拒绝，排除。",
+                "option_nature": "干扰项（反向干扰 / 颠倒逻辑诉求）",
+                "source_sentence": "Firms who want to keep their outside directors through tough times may have to create incentives. Otherwise outside directors will follow the example of Ms. Simmons...",
+                "source_translation": "希望在困境中留住外部董事的公司可能必须拿出激励措施。否则外部董事们就会效仿西蒙斯女士离去……",
+                "locator_comparison": "原文明确指出，企业'必须制定激励措施'才能留人，'否则'他们就会一走了之。这充分说明外部董事需要并且乐于接受有吸引力的激励方案。D项宣称他们会'拒绝激励'（decline incentives），与作者的推论逻辑直接对立。",
+                "writing_perspective": "若外部董事对激励一律拒绝，企业制定激励挽留措施的建议就成了无用功，整句论述便失去立论根基。",
+                "theme_validation": "商业利益交换是解决治理困境的关键，D项与经济学理性人假设彻底背道而驰。",
+                "verdict": "复盘判断：D项颠倒因果依赖关系，坚决排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>B</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“经常有公司不当行为的记录”，但在原文定位句中，作者表达的态度...；<b>C</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；<b>D</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；"
+          "summary": "本题考查深层逻辑推断。命题人抓住末句假设推导：企业需要激励措施（create incentives）才能挽留外部董事（keep directors），反向成立即'外部董事可能为了有吸引力的方案（attractive offers）留任（stay）'。干扰项设置了词义倒错、概念抹黑与反向拒绝等经典陷阱。",
+          "synonym_pairs": [
+            {
+              "opt_term": "may stay for the attractive offers",
+              "text_term": "keep their outside directors through tough times may have to create incentives",
+              "logic": "反推因果逻辑改写：公司需提供incentives才能keep them ↔ 他们可能为了attractive offers而stay"
+            }
+          ]
         },
         {
           "qid": 25,
           "stem": "The author’s attitude toward the role of outside directors is .",
-          "stem_cn": "笔者对于外部董事这一角色的态度是。",
-          "type": "全文主旨题",
+          "stem_cn": "作者对外部董事在企业中所扮演角色的态度是：",
+          "type": "观点态度题",
           "locate_pid": 3,
-          "locate_sentence": "Simmons, once again very popular on campus.",
-          "locate_sentence_cn": "西蒙斯再次在校园里大受欢迎。",
+          "locate_sentence": "Outside directors are supposed to serve as helpful, yet less biased, advisers on a firm’s board... Firms who want to keep their outside directors through tough times may have to create incentives.",
+          "locate_sentence_cn": "外部董事本应在董事会充当有益且公正的顾问……企业想要在困难时期留住他们必须提供相应激励。",
           "options": [
             {
               "key": "A",
               "text": "permissive",
-              "text_cn": "宽容的",
+              "text_cn": "宽容纵容的",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
+              "trap_type": "干扰项（感情色彩偏离 / 非学术评价词）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "But the researchers believe that outside directors have an easier time of avoiding a blow to their reputations if they leave a firm before bad news breaks, even if a review of history shows they were on the board at the time any wrongdoing occurred.",
-                "source_translation": "但研究人员认为，如果外部董事在坏消息传出之前离开公司，他们就更容易避免声誉受到打击，即使对历史的回顾表明，在任何不当行为发生时，他们都是董事会成员。",
-                "locator_comparison": "选项声称“宽容的”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“想要留住外部董事度过困难时期的公司可能必须制定激励措施。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "作者理性客观剖析制度，无放任之意，排除。",
+                "option_nature": "干扰项（感情色彩偏离 / 非学术评价词）",
+                "source_sentence": "Outside directors are supposed to serve as helpful, yet less biased, advisers on a firm’s board.",
+                "source_translation": "外部董事应当充当有益且较少偏见的顾问。",
+                "locator_comparison": "'permissive' 意为宽容的、放任自流的、纵容过错的。作者在全文中是基于严谨的实证数据和治理结构展开学术探讨，绝非抱有纵容或无所谓的放任态度。A项用词严重失当。",
+                "writing_perspective": "作者通篇指出问题并给出解决对策，表明其严肃关注治理机制的有效性，而非放任不管。",
+                "theme_validation": "学术性社科论文对待重大财经伦理议题通常不会持有无原则的宽纵态度，A项排除。",
+                "verdict": "复盘判断：A项感情色彩偏位，排除。"
               }
             },
             {
               "key": "B",
               "text": "positive",
-              "text_cn": "积极的",
+              "text_cn": "积极肯定的",
               "is_correct": true,
-              "trap_type": "★ 标准正确同义改写",
+              "trap_type": "★ 标准正确态度评价",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Simmons, once again very popular on campus.",
-                "source_translation": "西蒙斯再次在校园里大受欢迎。",
-                "locator_comparison": "选项核心词 <code>positive</code>（“积极的”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“想要留住外部董事度过困难时期的公司可能必须制定激励措施。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：B正确。"
+                "practice_status": "通篇强调helpful且末段提出挽留建议，明确肯定其重要角色，锁定正选。",
+                "option_nature": "★ 标准正确态度评价",
+                "source_sentence": "Outside directors are supposed to serve as helpful, yet less biased, advisers on a firm’s board... Firms who want to keep their outside directors through tough times may have to create incentives.",
+                "source_translation": "外部董事理应在董事会中担任有益且不带偏见的建言者……企业若想在困境中留住外部董事必须拿出激励措施。",
+                "locator_comparison": "作者在第2段开篇便给予高度正面评价，称其为 'helpful, yet less biased, advisers'（有益且不带偏见的顾问），并肯定他们在危机中能够提供宝贵经验；在第3段用实证数据说明其离职会导致企业恶化，反向印证其不可或缺的积极监督职能；在第4段末尾更积极献策，主张企业出台激励以'keep their outside directors'（留住他们）。这些核心用词与论证走向充分证明作者对外部董事所承载的制度角色持有坚定的肯定（positive）态度。",
+                "writing_perspective": "作者借西蒙斯的争议切入，但整篇并非要打倒外部董事制度，而是试图探寻如何通过科学激励让外部董事真正发挥其不可替代的独立治理价值，立意积极建设。",
+                "theme_validation": "肯定制度初衷并针对痛点提出完善对策，属于典型的积极建设性（positive）论述基调。",
+                "verdict": "复盘判断：B项与作者论证倾向完全吻合，正选无疑。"
               }
             },
             {
               "key": "C",
               "text": "scornful",
-              "text_cn": "轻蔑的",
+              "text_cn": "轻蔑嘲讽的",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
+              "trap_type": "干扰项（极端负向情感偏误）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "But the researchers believe that outside directors have an easier time of avoiding a blow to their reputations if they leave a firm before bad news breaks, even if a review of history shows they were on the board at the time any wrongdoing occurred.",
-                "source_translation": "但研究人员认为，如果外部董事在坏消息传出之前离开公司，他们就更容易避免声誉受到打击，即使对历史的回顾表明，在任何不当行为发生时，他们都是董事会成员。",
-                "locator_comparison": "选项声称“轻蔑的”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“想要留住外部董事度过困难时期的公司可能必须制定激励措施。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "数据详实论述理性，无讽刺蔑视成分，排除。",
+                "option_nature": "干扰项（极端负向情感偏误）",
+                "source_sentence": "The researchers from Ohio University used a database that covered more than 10,000 firms and more than 64,000 different directors...",
+                "source_translation": "来自俄亥俄大学的研究人员使用了一个涵盖1989年至2004年间1万多家公司和6.4万多名不同董事的数据库……",
+                "locator_comparison": "'scornful' 意为轻蔑的、嘲弄的、鄙视的。作者引用涵盖上万家公司、六万多名董事的大规模实证研究数据，语言风格沉稳客观、论证科学规范，没有流露出丝毫冷嘲热讽或轻蔑之情。C项属于主观臆加的极端负面态度。",
+                "writing_perspective": "全文无讽刺修辞，末尾提及西蒙斯重返校园受欢迎也是陈述事实，并无嘲弄意味。",
+                "theme_validation": "经济学与管理学严肃论文杜绝轻蔑情绪，C项违背学术文体规范。",
+                "verdict": "复盘判断：C项感情色彩过激，排除。"
               }
             },
             {
               "key": "D",
               "text": "critical",
-              "text_cn": "批判的",
+              "text_cn": "批判否定的",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 过度推断）",
+              "trap_type": "干扰项（以局部批评替代整体态度）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "But the researchers believe that outside directors have an easier time of avoiding a blow to their reputations if they leave a firm before bad news breaks, even if a review of history shows they were on the board at the time any wrongdoing occurred.",
-                "source_translation": "但研究人员认为，如果外部董事在坏消息传出之前离开公司，他们就更容易避免声誉受到打击，即使对历史的回顾表明，在任何不当行为发生时，他们都是董事会成员。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“想要留住外部董事度过困难时期的公司可能必须制定激励措施。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "受首段under fire干扰，但作者批的是失职现象而非否定角色本身，排除。",
+                "option_nature": "干扰项（以局部批评替代整体态度）",
+                "source_sentence": "Outside directors are supposed to serve as helpful, yet less biased, advisers on a firm’s board.",
+                "source_translation": "外部董事应当充当有益且公正的顾问。",
+                "locator_comparison": "首段确实提及西蒙斯受到外界舆论批判（under fire），但那是转述公众对个别事件的质疑，而非作者本人的态度。对于外部董事这个制度'角色'（the role of outside directors）本身，作者始终承认其是'helpful'的，并积极探讨如何留住他们。D项错把现象剖析当成了对角色价值的彻底批判否定。",
+                "writing_perspective": "如果作者态度是批判否定的，末段就不会建议企业想方设法去留住外部董事了。留任建议与批判态度在逻辑上直接冲突。",
+                "theme_validation": "揭示运行困境是为了更好地完善制度，绝非否定制度本身的价值，D项犯了以偏概全的定性错误。",
+                "verdict": "复盘判断：D项混淆现象描述与作者全局态度，果断排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“宽容的”，但在原文定位句中，作者表达的态度或客观事实恰恰相反...；<b>B</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“轻蔑的”，但在原文定位句中，作者表达的态度或客观事实恰恰相反...；<b>D</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；"
+          "summary": "本题考查对作者全局行文态度的宏观把握。考生极易受首段西蒙斯挨批（under fire）的局部细节误导而误选批判（critical）。但从全文立论来看，作者开宗明义强调其 helpful 属性，尾段建言献策留住他们，充分展现出肯定、建设性的 positive 态度。",
+          "synonym_pairs": [
+            {
+              "opt_term": "positive",
+              "text_term": "helpful, yet less biased, advisers ... keep their outside directors",
+              "logic": "基调态度提炼：正面肯定其职能价值（helpful, keep them） ↔ positive态度"
+            }
+          ]
         }
       ],
       "macro_logic": {
@@ -2925,402 +2965,437 @@
         {
           "qid": 26,
           "stem": "By saying “Newspapers like … their own doom” (Paragraph 1), the author indicates that \nnewspapers .",
-          "stem_cn": "By saying “Newspapers like … their own doom” (Paragraph 1), the author indicates that \nnewspapers .",
-          "type": "事实细节题",
+          "stem_cn": "作者说“像《旧金山纪事报》这样的报纸正在记录自己的覆灭”，意在表明报纸：",
+          "type": "词义句意题",
           "locate_pid": 0,
-          "locate_sentence": "The recession threatened to remove the advertising and readers that had not already fled to the internet.",
-          "locate_sentence_cn": "经济衰退可能会消除尚未逃往互联网的广告和读者。",
+          "locate_sentence": "The recession threatened to remove the advertising and readers that had not already fled to the internet. Newspapers like the San Francisco Chronicle were chronicling their own doom.",
+          "locate_sentence_cn": "经济衰退眼看就要夺走那些尚未逃往互联网的广告和读者。像《旧金山纪事报》这样的报纸甚至在白纸黑字地记录着自身的毁灭。",
           "options": [
             {
               "key": "A",
               "text": "neglected the sign of crisis",
-              "text_cn": "忽视了危机的征兆",
+              "text_cn": "彻底忽视了危机的警示信号",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 过度推断）",
+              "trap_type": "干扰项（反向干扰 / 严重背离文意）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Whatever happened to the death of newspapers?",
-                "source_translation": "报纸的消亡到底是怎么回事？",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“一年前，结局似乎已近在眼前。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "报纸都在亲手记录自己的毁灭了，说明非常清醒痛苦，怎会忽视，排除。",
+                "option_nature": "干扰项（反向干扰 / 严重背离文意）",
+                "source_sentence": "Newspapers like the San Francisco Chronicle were chronicling their own doom.",
+                "source_translation": "像《旧金山纪事报》这样的报纸甚至正在记录着他们自身的灭亡。",
+                "locator_comparison": "原文指出报纸甚至在以新闻专栏的形式'chronicling their own doom'（详细记录着自己的毁灭走向），这说明报社对面临的灭顶之灾有着无比清醒、绝望的认知。A项宣称其'忽视危机信号'（neglected the sign of crisis），与字面事实和作者用意完全反向对立。",
+                "writing_perspective": "作者引用《旧金山纪事报》自报家丑的悲壮细节，正是为了强化危机扑面而来的窒息感；若他们毫无察觉，何来记录一说？",
+                "theme_validation": "首段旨在营造传统报业在互联网冲击与金融危机下的生死存亡紧迫感，A项毫无警觉的假设与全文开篇氛围不符。",
+                "verdict": "复盘判断：A项与原文事实截然相反，坚决排除。"
               }
             },
             {
               "key": "B",
               "text": "failed to get state subsidies",
-              "text_cn": "未能获得国家补贴",
+              "text_cn": "未能成功获得联邦政府补贴",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 过度推断）",
+              "trap_type": "干扰项（张冠李戴 / 杂糅后文细节）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Whatever happened to the death of newspapers?",
-                "source_translation": "报纸的消亡到底是怎么回事？",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“一年前，结局似乎已近在眼前。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "政府补贴是后文讨论的救助可能，非本句修辞比喻之义，排除。",
+                "option_nature": "干扰项（张冠李戴 / 杂糅后文细节）",
+                "source_sentence": "America’s Federal Trade Commission launched a round of talks... Should the state subsidize them?",
+                "source_translation": "美国联邦贸易委员会启动了一轮会谈……国家是否应该补贴他们？",
+                "locator_comparison": "原文后文中确实提及联邦贸易委员会探讨'国家是否应当对其进行补贴'（Should the state subsidize them?），但那是针对危机提出的拯救探讨方案之一，而非首句比喻所指控的既成事实。B项将后文探讨的救急措施张冠李戴成了前文比喻的含义。",
+                "writing_perspective": "作者在行文上是由表及里：先用生动修辞描写报业惨状，随后才叙述监管机构开会研讨救助，B项把不同逻辑层次的句子生拉硬拽。",
+                "theme_validation": "本句是引出报业生存绝境的修辞性概括，与具体的政府财政补贴审批无关，排除。",
+                "verdict": "复盘判断：B项偷换概念并混淆行文层次，排除。"
               }
             },
             {
               "key": "C",
               "text": "were not charitable corporations",
-              "text_cn": "不是慈善公司",
+              "text_cn": "不属于非营利的慈善机构",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 范围偏差）",
+              "trap_type": "干扰项（无中生有 / 借用后文词汇设置陷阱）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Whatever happened to the death of newspapers?",
-                "source_translation": "报纸的消亡到底是怎么回事？",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“一年前，结局似乎已近在眼前。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "慈善机构是讨论能否转型的议题，不能解释毁灭隐喻，排除。",
+                "option_nature": "干扰项（无中生有 / 借用后文词汇设置陷阱）",
+                "source_sentence": "America’s Federal Trade Commission launched a round of talks about how to save newspapers. Should they become charitable corporations?",
+                "source_translation": "美国联邦贸易委员会围绕如何拯救报业发起了一轮磋商：报社是否应该转型为慈善机构？",
+                "locator_comparison": "后文的问句'Should they become charitable corporations?'是探讨报社是否应该转型为免税的慈善非营利组织以求生存。C项从后文抓取'charitable corporations'，拼凑出一个报社原本不是慈善机构的无聊事实，完全没有解释'记录自身毁灭'的深层语境意图，答非所问。",
+                "writing_perspective": "作者用'doom'（末日劫难）形容当时的报业状况，重心在于生死边缘，非企业法律组织性质。",
+                "theme_validation": "商业性质不能解释濒死困境，C项属于典型的拼凑原词干扰项。",
+                "verdict": "复盘判断：C项答非所问，果断排除。"
               }
             },
             {
               "key": "D",
               "text": "were in a desperate situation",
-              "text_cn": "陷入绝境",
+              "text_cn": "处于危在旦夕的绝境之中",
               "is_correct": true,
-              "trap_type": "★ 标准正确同义改写",
+              "trap_type": "★ 标准正确同义抽象概括",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The recession threatened to remove the advertising and readers that had not already fled to the internet.",
-                "source_translation": "经济衰退可能会消除尚未逃往互联网的广告和读者。",
-                "locator_comparison": "选项核心词 <code>desperate</code>, <code>situation</code>（“陷入绝境”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“一年前，结局似乎已近在眼前。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：D正确。"
+                "practice_status": "chronicling doom生动传达濒死绝境，对应in a desperate situation，锁定正选。",
+                "option_nature": "★ 标准正确同义抽象概括",
+                "source_sentence": "A year ago the end seemed near... Newspapers like the San Francisco Chronicle were chronicling their own doom.",
+                "source_translation": "一年前，末日似乎近在眼前……像《旧金山纪事报》这样的报纸甚至在记录他们自身的灭亡。",
+                "locator_comparison": "前句指出'the end seemed near'（终点似乎就在眼前），广告和读者流失殆尽，后句用'chronicling their own doom'（记录着自身的末日毁灭）做形象烘托，D 选项的 'in a desperate situation'（身处绝境/危在旦夕）高度提炼了前两句描绘的濒死惨状，属于精准的文学修辞转抽象语义。",
+                "writing_perspective": "作者在首段通过渲染报纸大难临头的绝境，为第二段'但如今讨论似乎过时了、报业不仅活了下来甚至恢复盈利'的剧情大反转制造了极具张力的戏剧性对照。",
+                "theme_validation": "先写绝境再写自救重生，完全符合全文'Struggling for Survival'（绝境求生）的论述主线。",
+                "verdict": "复盘判断：D项语义凝练精准，锁定正选。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；<b>B</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；<b>C</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；<b>D</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；"
+          "summary": "本题考查对隐喻性修辞表达的语义还原。句中 'chronicling their own doom' 形象描绘出报纸自己报道自己走向破产的无奈与绝望。正确项D将其抽象概括为陷入绝境（in a desperate situation）。干扰项则分别通过反向理解与借用后文谈话细节设置障碍。",
+          "synonym_pairs": [
+            {
+              "opt_term": "were in a desperate situation",
+              "text_term": "were chronicling their own doom ... the end seemed near",
+              "logic": "形象比喻转化为抽象状态：chronicling their own doom（记录自身毁灭） ↔ in a desperate situation（濒临绝境）"
+            }
+          ]
         },
         {
           "qid": 27,
           "stem": "Some newspapers refused delivery to distant suburbs probably because .",
-          "stem_cn": "一些报纸拒绝投递到遥远的郊区可能是因为 。",
+          "stem_cn": "一些报纸甚至拒绝向偏远郊区投递，其主要原因可能是：",
           "type": "因果推断题",
           "locate_pid": 2,
-          "locate_sentence": "The American Society of News Editors reckons that 13,500 newsroom jobs have gone since 2007.",
-          "locate_sentence_cn": "美国新闻编辑协会估计，自 2007 年以来，已有 13,500 个新闻编辑室工作岗位消失。",
+          "locate_sentence": "Many papers stayed afloat by pushing journalists overboard. The American Society of News Editors reckons that 13,500 newsroom jobs have gone since 2007. Readers are paying more for slimmer products. Some papers even had the nerve to refuse delivery to distant suburbs. Yet these desperate measures have proved the right ones...",
+          "locate_sentence_cn": "许多报纸通过裁员来维持运营。美国新闻编辑协会估计，自2007年以来已有13500个新闻编辑室岗位消失。读者在为更薄的报纸支付更高的费用。一些报纸甚至敢于拒绝向偏远郊区投递。然而，事实证明这些孤注一掷的极端举措是正确的……",
           "options": [
             {
               "key": "A",
               "text": "readers threatened to pay less",
-              "text_cn": "读者威胁要少付钱",
+              "text_cn": "郊区读者威胁要减少支付订费",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 过度推断）",
+              "trap_type": "干扰项（反向干扰 / 颠倒原文事实）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "The recession threatened to remove the advertising and readers that had not already fled to the internet.",
-                "source_translation": "经济衰退可能会消除尚未逃往互联网的广告和读者。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“像《旧金山纪事报》这样的报纸正在记录他们自己的厄运。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "原文明确说读者实际上支付了更多费用，事实颠倒，排除。",
+                "option_nature": "干扰项（反向干扰 / 颠倒原文事实）",
+                "source_sentence": "Readers are paying more for slimmer products. Some papers even had the nerve to refuse delivery to distant suburbs.",
+                "source_translation": "读者们正花费更多钱购买版面更薄的报纸。一些报社甚至胆敢拒绝向偏远郊区送报。",
+                "locator_comparison": "原文紧邻的上文明确写道'Readers are paying more for slimmer products'（读者为版面缩水的报纸付了更多的钱），这证明读者不仅没有要求降价或威胁少付钱，反而被迫承担了更高的订阅价格。A项与原文基本事实截然相反。",
+                "writing_perspective": "作者意在表明报社在困境中对读者毫不客气、手段强硬（had the nerve），A项却把主导权倒置给郊区读者的抗议威胁，违背作者论述焦点。",
+                "theme_validation": "本段核心是报社自身主动采取紧缩手段断臂求生，A项缺乏事实依据。",
+                "verdict": "复盘判断：A项彻底颠倒事实，排除。"
               }
             },
             {
               "key": "B",
               "text": "newspapers wanted to reduce costs",
-              "text_cn": "报纸希望降低成本",
+              "text_cn": "报纸希望通过紧缩手段降低成本",
               "is_correct": true,
-              "trap_type": "★ 标准正确同义改写",
+              "trap_type": "★ 标准正确因果推断",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The American Society of News Editors reckons that 13,500 newsroom jobs have gone since 2007.",
-                "source_translation": "美国新闻编辑协会估计，自 2007 年以来，已有 13,500 个新闻编辑室工作岗位消失。",
-                "locator_comparison": "选项核心词 <code>newspapers</code>, <code>wanted</code>, <code>reduce</code>（“报纸希望降低成本”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“像《旧金山纪事报》这样的报纸正在记录他们自己的厄运。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：B正确。"
+                "practice_status": "裁员、减页、停送远郊均是砍开支保命的绝望手段，锁定正选。",
+                "option_nature": "★ 标准正确因果推断",
+                "source_sentence": "Many papers stayed afloat by pushing journalists overboard... Readers are paying more for slimmer products. Some papers even had the nerve to refuse delivery to distant suburbs. Yet these desperate measures have proved the right ones...",
+                "source_translation": "许多报纸通过将记者推下船（大裁员）来勉强维持运转……一些报纸甚至有胆量拒绝向偏远郊区送报。然而事实证明，这些孤注一掷的手段是正确的……",
+                "locator_comparison": "第3段整段都在集中阐述报纸为了生存（stayed afloat）而采取的各种破釜沉舟的开支紧缩举措（desperate measures）：大幅裁减采编人员、削减版面页数、缩短甚至取消成本高昂的远距离郊区物流配送路线。所有这些措施在商业逻辑上的终极目的只有一个：竭尽全力压缩运营开销、降低综合成本（reduce costs）。B项准确提炼了该举措背后的经济学根本动机。",
+                "writing_perspective": "作者在后文紧接着评价'these desperate measures have proved the right ones'，正因为大幅砍掉亏损成本，报纸才得以实现收支平衡并重新盈利，前后因果论证无懈可击。",
+                "theme_validation": "文章论述报纸自救重构之路，降低硬性成本是其扭亏为盈的基石，B项完全吻合主旨。",
+                "verdict": "复盘判断：B项精准抓住商业自救的根本逻辑，正选无疑。"
               }
             },
             {
               "key": "C",
               "text": "journalists reported little about these areas",
-              "text_cn": "记者对这些领域的报道很少",
+              "text_cn": "记者对这些偏远地区的报道非常匮乏",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 偏离主干）",
+              "trap_type": "干扰项（无中生有 / 错把内容当物流原因）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "The recession threatened to remove the advertising and readers that had not already fled to the internet.",
-                "source_translation": "经济衰退可能会消除尚未逃往互联网的广告和读者。",
-                "locator_comparison": "借用了原文的词汇 <code>journalists</code>, <code>reported</code>, <code>little</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“像《旧金山纪事报》这样的报纸正在记录他们自己的厄运。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "停送是因为路途遥远运输贵，非采编内容少，偷换因果，排除。",
+                "option_nature": "干扰项（无中生有 / 错把内容当物流原因）",
+                "source_sentence": "Some papers even had the nerve to refuse delivery to distant suburbs.",
+                "source_translation": "一些报纸甚至有魄力拒绝向遥远的郊区配送。",
+                "locator_comparison": "报社拒绝配送（refuse delivery）纯粹是出于高昂长途运输与物流投递费用的成本考量，完全属于发行渠道维度的商业决策。原文压根没有提及记者对郊区新闻的报道篇幅多寡。C项无端把物理发行问题篡改为采编报道内容问题，属于典型的强加因果与无中生有。",
+                "writing_perspective": "作者在第三段探讨的是运营与发行的断臂自救，第五段才探讨内容专业门类的裁撤，C项将不同层面的讨论生拉硬拽。",
+                "theme_validation": "传统报纸面向整个大都市发行，不会因某地报道少就不送报，违背常理与文章语境。",
+                "verdict": "复盘判断：C项强加非相关因果，排除。"
               }
             },
             {
               "key": "D",
               "text": "subscribers complained about slimmer products",
-              "text_cn": "订户抱怨产品更薄",
+              "text_cn": "订户激烈抱怨报纸版面过薄质量缩水",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 范围偏差）",
+              "trap_type": "干扰项（混淆并列举措与因果关系）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "The recession threatened to remove the advertising and readers that had not already fled to the internet.",
-                "source_translation": "经济衰退可能会消除尚未逃往互联网的广告和读者。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“像《旧金山纪事报》这样的报纸正在记录他们自己的厄运。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "订户抱怨不会导致报社不送报，反向无逻辑联系，排除。",
+                "option_nature": "干扰项（混淆并列举措与因果关系）",
+                "source_sentence": "Readers are paying more for slimmer products. Some papers even had the nerve to refuse delivery to distant suburbs.",
+                "source_translation": "读者们正为更薄的产品支付更高费用。一些报纸甚至敢于拒绝向偏远郊区送报。",
+                "locator_comparison": "原文中'订户为更薄的产品付更高价钱'与'拒绝向偏远郊区配送'是报社采取的两项并列且同样冒天下之大不韪的硬核举措（desperate measures）。D项不仅无中生有地编造了'订户激烈抱怨'的细节，更荒谬地把前一项现象生硬拼凑为后一项举措的因果原因，逻辑完全混乱。",
+                "writing_perspective": "作者强调报社在逆境中强推自救措施，即便读者不爽也只能接受，绝非因订户抱怨而赌气拒绝投递。",
+                "theme_validation": "两句均为证明报社采取激进求生手段的论据，彼此不存在因果衍生关系，排除。",
+                "verdict": "复盘判断：D项硬凑并列细节伪造因果，排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；<b>B</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>C</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>journalists</code>, ...；<b>D</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；"
+          "summary": "本题考查对段落论述逻辑与商业动机的深层领会。第3段整段围绕报社如何通过激进降本手段（裁员、减版面、砍掉偏远投递）自救保命展开。正确项B一针见血点明其商业实质为削减成本。干扰项则利用读者付更多钱等局部细节反向颠倒或伪造因果。",
+          "synonym_pairs": [
+            {
+              "opt_term": "newspapers wanted to reduce costs",
+              "text_term": "stayed afloat by ... desperate measures ... refuse delivery to distant suburbs",
+              "logic": "段落核心论点归纳：裁员、报纸变薄、停送偏远郊区等绝望手段 ↔ 压缩开支、削减成本（reduce costs）"
+            }
+          ]
         },
         {
           "qid": 28,
           "stem": "Compared with their American counterparts, Japanese newspapers are much more stable \nbecause they .",
-          "stem_cn": "Compared with their American counterparts, Japanese newspapers are much more stable \nbecause they .",
-          "type": "段落推理题",
+          "stem_cn": "与美国同行相比，日本报纸要稳定得多，是因为日本报纸：",
+          "type": "事实细节题",
           "locate_pid": 3,
-          "locate_sentence": "Fully 87 % of their revenues came from advertising in 2008, according to the Organization for Economic Cooperation & Development (OECD).",
-          "locate_sentence_cn": "根据经济合作与发展组织 (OECD) 的数据，2008 年他们 87% 的收入来自广告。",
+          "locate_sentence": "American papers have long been highly unusual in their reliance on ads. Fully 87 % of their revenues came from advertising in 2008, according to the Organization for Economic Cooperation & Development (OECD). In Japan the proportion is 35%. Not surprisingly, Japanese newspapers are much more stable.",
+          "locate_sentence_cn": "长期以来，美国报纸对广告的依赖极不寻常。经合组织数据显示，2008年美国报业高达87%的收入来自广告。而在日本，这一比例仅为35%。毫无疑问，日本报纸要稳定得多。",
           "options": [
             {
               "key": "A",
               "text": "have more sources of revenue",
-              "text_cn": "有更多的收入来源",
+              "text_cn": "拥有更加多元化的商业收入来源",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 偏离主干）",
+              "trap_type": "干扰项（无中生有 / 主观过度引申）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "In much of the world there is little sign of crisis.",
-                "source_translation": "世界大部分地区几乎没有出现危机的迹象。",
-                "locator_comparison": "借用了原文的词汇 <code>sources</code>, <code>revenue</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“德国和巴西的报纸已经摆脱了经济衰退的影响。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "原文只对比了广告收入占比，没说日本来源更广泛，过度推断，排除。",
+                "option_nature": "干扰项（无中生有 / 主观过度引申）",
+                "source_sentence": "American papers have long been highly unusual in their reliance on ads... In Japan the proportion is 35%.",
+                "source_translation": "长期以来，美国报纸对广告的依赖极不寻常……在日本这一比例是35%。",
+                "locator_comparison": "原文通篇仅在对比'广告收入占总营收的比例'（reliance on ads / revenues from advertising）这单一维度的统计数据（美国87% vs 日本35%）。除了广告与读者订阅费这两大传统支柱外，原文压根没有提及日本报社是否开辟了其他额外的收入来源。A项的'more sources of revenue'纯属缺乏依据的主观臆测。",
+                "writing_perspective": "作者的论证逻辑极其精练：广告受经济周期波动剧烈，美国单一依赖广告所以死得惨，日本依赖度低所以稳健，A项过度发散偏离了作者的对比主线。",
+                "theme_validation": "本段论述核心是广告依赖风险，而非多元化经营战略，排除。",
+                "verdict": "复盘判断：A项无中生有，过度推断，排除。"
               }
             },
             {
               "key": "B",
               "text": "have more balanced newsrooms",
-              "text_cn": "拥有更平衡的新闻编辑室",
+              "text_cn": "拥有结构更加平衡健全的新闻采编团队",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
+              "trap_type": "干扰项（张冠李戴 / 偷换概念）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "In much of the world there is little sign of crisis.",
-                "source_translation": "世界大部分地区几乎没有出现危机的迹象。",
-                "locator_comparison": "选项声称“拥有更平衡的新闻编辑室”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“德国和巴西的报纸已经摆脱了经济衰退的影响。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "原文是商业收入平衡，非编辑室人员平衡，张冠李戴，排除。",
+                "option_nature": "干扰项（张冠李戴 / 偷换概念）",
+                "source_sentence": "Newspapers are becoming more balanced businesses, with a healthier mix of revenues from readers and advertisers.",
+                "source_translation": "报业正在成为更加平衡的商业形态，拥有来自读者和广告商之间更为健康的营收组合。",
+                "locator_comparison": "原文第4段首句所说的'more balanced'指的是'balanced businesses'，即营收在读者订阅费与广告收入之间的配比更加健康平衡（healthier mix of revenues）。B项将商业收入结构层面的'balanced'，生硬嫁接到新闻采编室（newsrooms）上，偷换成了采编团队人员的平衡，属于张冠李戴的典型干扰项。",
+                "writing_perspective": "后文第5段明确提到全球新闻编辑室都在遭受裁员冲击，日本也不例外，不可能存在人员更加平衡的特权采编室。",
+                "theme_validation": "文章讨论的是商业模式的死活，而非新闻采编团队的组织架构，B项跑题。",
+                "verdict": "复盘判断：B项偷换主体与修饰对象，排除。"
               }
             },
             {
               "key": "C",
               "text": "are less dependent on advertising \nᆇี൫ज@JOEE ༯໶\n\n04",
-              "text_cn": "are less dependent on advertising \nᆇี൫ज@JOEE ༯໶\n\n04",
+              "text_cn": "对商业广告的依赖程度显著较低",
               "is_correct": true,
-              "trap_type": "★ 标准正确同义改写",
+              "trap_type": "★ 标准正确同义数据提炼",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Fully 87 % of their revenues came from advertising in 2008, according to the Organization for Economic Cooperation & Development (OECD).",
-                "source_translation": "根据经济合作与发展组织 (OECD) 的数据，2008 年他们 87% 的收入来自广告。",
-                "locator_comparison": "选项核心词 <code>are</code>, <code>less</code>, <code>dependent</code>（“are less dependent on advertising \nᆇี൫ज@JOEE ༯໶\n\n04”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“德国和巴西的报纸已经摆脱了经济衰退的影响。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：C正确。"
+                "practice_status": "35%远低于美国87%，精准对应less dependent on advertising，锁定正选。",
+                "option_nature": "★ 标准正确同义数据提炼",
+                "source_sentence": "American papers have long been highly unusual in their reliance on ads. Fully 87 % of their revenues came from advertising... In Japan the proportion is 35%. Not surprisingly, Japanese newspapers are much more stable.",
+                "source_translation": "长期以来，美国报业对广告的依赖极不寻常。2008年其高达87%的收入来自广告；而在日本这一比例仅为35%。毫不奇怪，日本报纸要稳定得多。",
+                "locator_comparison": "定位句明确指出：美国报社对广告的依赖异乎寻常（reliance on ads），广告占其收入的 87%；而日本报纸的广告占比仅为 35%。因为经济危机下广告投放最先被企业砍掉，所以广告依赖度低的日本报纸受冲击更小、表现得更加稳健（much more stable）。选项 C 的 'less dependent on advertising' 是对 35% vs 87% 数据差异极其精准的同义转述。",
+                "writing_perspective": "作者通过美日对比，旨在论证美国报业此前畸形依赖广告模式的脆弱性，日本的低依赖度反衬出美国转型调整收入结构的紧迫性与正确性。",
+                "theme_validation": "该细节直接支撑第4段核心论点'Newspapers are becoming more balanced businesses'，逻辑严密契合主旨。",
+                "verdict": "复盘判断：C项数据对应天衣无缝，毫无争议的正选。"
               }
             },
             {
               "key": "D",
               "text": "are less affected by readership",
-              "text_cn": "受读者影响较小",
+              "text_cn": "受读者规模变动的影响极小",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 偏离主干）",
+              "trap_type": "干扰项（反向干扰 / 严重违背商业逻辑）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "In much of the world there is little sign of crisis.",
-                "source_translation": "世界大部分地区几乎没有出现危机的迹象。",
-                "locator_comparison": "借用了原文的词汇 <code>are</code>, <code>less</code>, <code>affected</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“德国和巴西的报纸已经摆脱了经济衰退的影响。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "广告占比低意味着更依赖读者付费，受读者影响反而更大，逻辑反向，排除。",
+                "option_nature": "干扰项（反向干扰 / 严重违背商业逻辑）",
+                "source_sentence": "with a healthier mix of revenues from readers and advertisers... In Japan the proportion is 35%.",
+                "source_translation": "拥有来自读者与广告商之间更健康的营收组合……在日本广告比例仅为35%。",
+                "locator_comparison": "在报业的营收二元模型中，总收入 = 广告收入 + 读者发行收入。日本报纸的广告收入仅占 35%，这意味着剩余高达 65% 的收入必须依靠忠实的订阅读者直接掏腰包付费支持。因此，日本报纸对读者规模和读者群忠诚度的依赖远比美国更深，而不是'受读者影响更小'（less affected by readership）。D项逻辑彻底推导反了。",
+                "writing_perspective": "作者意在表明健康的报业应当仰仗真心愿意为优质内容付费的读者，D项的表述与作者倡导的健康商业模型背道而驰。",
+                "theme_validation": "依赖读者是报业回归健康常态的标志，D项反向曲解了读者价值。",
+                "verdict": "复盘判断：D项经济逻辑与常理反向颠倒，坚决排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>sources</code>, <cod...；<b>B</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“拥有更平衡的新闻编辑室”，但在原文定位句中，作者表达的态度或...；<b>C</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>D</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>are</code>, <code>le...；"
+          "summary": "本题考查对国际对比论据的精准提炼。作者通过美国广告占比87%与日本广告占比35%的直观数据对比，推导出日本报业稳健的根本原因：对广告的依赖度低（less dependent on advertising）。干扰项设置了多元化过度推断（A）、平衡主体偷换（B）以及反向常识错误（D）。",
+          "synonym_pairs": [
+            {
+              "opt_term": "are less dependent on advertising",
+              "text_term": "In Japan the proportion is 35% ... reliance on ads ... 87%",
+              "logic": "数据对比同义改写：日本广告收入占比仅35% vs 美国高达87% ↔ are less dependent on advertising"
+            }
+          ]
         },
         {
           "qid": 29,
           "stem": "What can be inferred from the last paragraph about the current newspaper business?",
-          "stem_cn": "从最后一段关于当前报纸业务可以推断出什么？",
-          "type": "词义/例证题",
+          "stem_cn": "从最后一段关于当前报纸业务的论述中，我们可以推断出：",
+          "type": "推理判断题",
           "locate_pid": 4,
-          "locate_sentence": "Newspapers are less complete as a result.",
-          "locate_sentence_cn": "因此，报纸不太完整。",
+          "locate_sentence": "The whirlwind that swept through newsrooms harmed everybody, but much of the damage has been concentrated in areas where newspapers are least distinctive. Car and film reviewers have gone. So have science and general business reporters. Foreign bureaus have been savagely cut off. Newspapers are less complete as a result. But completeness is no longer a virtue in the newspaper business.",
+          "locate_sentence_cn": "横扫新闻编辑室的风暴伤害了所有人，但大部分破坏都集中在报纸最缺乏特色的领域。汽车和影评人离职了。科学和大众商业记者也走了。驻外分社被野蛮裁撤。结果，报纸变得不再那么包罗万象。但在当下的报业中，面面俱到已不再是一种美德。",
           "options": [
             {
               "key": "A",
               "text": "Distinctiveness is an essential feature of newspapers.",
-              "text_cn": "独特性是报纸的本质特征。",
+              "text_cn": "鲜明独特的个性是报纸立足的核心本质特征",
               "is_correct": true,
-              "trap_type": "★ 标准正确同义改写",
+              "trap_type": "★ 标准正确深层主旨推断",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Newspapers are less complete as a result.",
-                "source_translation": "因此，报纸不太完整。",
-                "locator_comparison": "选项核心词 <code>Distinctiveness</code>, <code>essential</code>, <code>feature</code>（“独特性是报纸的本质特征。”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“许多报纸靠记者的努力才得以维持下去。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：A正确。"
+                "practice_status": "最缺乏特色的领域被裁掉，面面俱到不再是美德，反推独特性是生存核心，锁定正选。",
+                "option_nature": "★ 标准正确深层主旨推断",
+                "source_sentence": "much of the damage has been concentrated in areas where newspapers are least distinctive... But completeness is no longer a virtue in the newspaper business.",
+                "source_translation": "破坏主要集中在报纸最没有特色的领域……但是在报业竞争中，面面俱到早已不再是一种美德。",
+                "locator_comparison": "定位句包含两层递进逻辑：第一，裁员与撤并集中发生在'least distinctive'（最缺乏独创特色）的板块，这反向说明只有具备独到特色才能存活；第二，结尾点睛之笔'completeness is no longer a virtue'（面面俱到不再是美德），彻底破除了传统大而全的幻想。综合推断：在互联网无所不包的冲击下，传统报纸必须舍弃大而全，唯有'distinctiveness'（鲜明独特性）才是其不可替代的核心本质特征（essential feature）。A项推论深刻严谨。",
+                "writing_perspective": "作者在篇尾升华文章立意，指出报纸自救绝非仅仅是简单的苟延残喘，而是整个行业哲学的重塑：从低效泛化的完整性，转向高价值的差异化特色，A项精准把握了这一思想高度。",
+                "theme_validation": "全文论述报纸从危机走向新生，断臂求生淘汰无特色内容是全篇的升华落脚点，A项完美契合。",
+                "verdict": "复盘判断：A项深得作者篇尾哲学提炼精髓，正选无疑。"
               }
             },
             {
               "key": "B",
               "text": "Completeness is to blame for the failure of newspaper.",
-              "text_cn": "报纸的失败应归咎于完整性。",
+              "text_cn": "追求全面性是导致报纸业务衰败的罪魁祸首",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 偏离主干）",
+              "trap_type": "干扰项（过度推断 / 强加罪名与因果）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "It has not been much fun.",
-                "source_translation": "这并不有趣。",
-                "locator_comparison": "借用了原文的词汇 <code>Completeness</code>, <code>blame</code>, <code>failure</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“许多报纸靠记者的努力才得以维持下去。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "衰败是由于互联网冲击与广告下滑，全面性不再是美德不等于导致失败的罪因，排除。",
+                "option_nature": "干扰项（过度推断 / 强加罪名与因果）",
+                "source_sentence": "Newspapers are less complete as a result. But completeness is no longer a virtue in the newspaper business.",
+                "source_translation": "结果是报纸的内容不再那么全面。但在如今的报业中，面面俱到已不再是一种美德。",
+                "locator_comparison": "原文只是说在当前数字媒体时代'completeness is no longer a virtue'（全面性已不再是一种优势或美德），但这绝不等于说是全面性直接'导致了报业的衰落'（to blame for the failure）。首段明确指出报业危机的根本原因是互联网竞争和经济衰退导致的广告与读者出逃。B项将不再适用的传统特征无限上纲上线为致败罪魁祸首，犯了因果乱归因的逻辑错误。",
+                "writing_perspective": "作者在回顾历史时承认全面性过去曾是美德（routine），只是时代变了，并未带着声讨罪责的口吻贬低过去的完整性。",
+                "theme_validation": "作者肯定报业正在走向健康复苏，而非沉溺于追责全面性，B项逻辑推导失真。",
+                "verdict": "复盘判断：B项强行甩锅、因果虚妄，果断排除。"
               }
             },
             {
               "key": "C",
               "text": "Foreign bureaus play a crucial role in the newspaper business.",
-              "text_cn": "外国分社在报纸业务中发挥着至关重要的作用。",
+              "text_cn": "驻外记者分社在报纸业务中依然发挥着不可替代的关键作用",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 过度推断）",
+              "trap_type": "干扰项（反向干扰 / 严重背离文意）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "It has not been much fun.",
-                "source_translation": "这并不有趣。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“许多报纸靠记者的努力才得以维持下去。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "驻外分社被野蛮砍掉，说明被认为非核心，选项说发挥至关重要作用与原文相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 严重背离文意）",
+                "source_sentence": "Foreign bureaus have been savagely cut off. Newspapers are less complete as a result.",
+                "source_translation": "驻外分社已被野蛮裁撤。其结果是报纸内容不再那么完整。",
+                "locator_comparison": "原文用'savagely cut off'（被野蛮无情地砍掉裁撤）来形容驻外机构的命运，这表明在报社眼里，昂贵的驻外分社不仅不是保命的核心王牌，反而成了最先被抛弃的高成本累赘之一。C 选项声称其'play a crucial role'（扮演至关重要的角色），与原文被大刀阔斧裁撤的事实彻底冲突。",
+                "writing_perspective": "作者列举驻外分社被砍，是为了论证报纸不得不牺牲完整性的残酷现实，C项与论述意图截然相反。",
+                "theme_validation": "作者论述报纸聚焦核心特色收缩战线，C项死守传统庞大编制，违背全文主旨走向。",
+                "verdict": "复盘判断：C项与原文事实黑白颠倒，坚决排除。"
               }
             },
             {
               "key": "D",
               "text": "Readers have lost their interest in car and film reviews.",
-              "text_cn": "读者已经失去了对汽车和电影评论的兴趣。",
+              "text_cn": "读者已彻底丧失对汽车和电影评论专栏的阅读兴趣",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
+              "trap_type": "干扰项（偷换概念 / 歪曲采编调整根源）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "It has not been much fun.",
-                "source_translation": "这并不有趣。",
-                "locator_comparison": "选项声称“读者已经失去了对汽车和电影评论的兴趣。”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“许多报纸靠记者的努力才得以维持下去。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "裁掉影评车评是因其缺乏特色同质化严重，非读者不爱看，偷换主客观，排除。",
+                "option_nature": "干扰项（偷换概念 / 歪曲采编调整根源）",
+                "source_sentence": "much of the damage has been concentrated in areas where newspapers are least distinctive. Car and film reviewers have gone.",
+                "source_translation": "破坏主要集中在报纸最没有特色的领域。汽车和影评人离职了。",
+                "locator_comparison": "原文说明车评和影评记者被辞退（Car and film reviewers have gone），是因为这类内容在互联网各大垂直论坛和社交媒体上随处可见，报纸在这些领域'least distinctive'（最缺乏不可替代的独特性与竞争力），并非因为读者自身'对汽车和电影评论失去了兴趣'（lost interest）。D项把报社缺乏竞争力的供给端问题，偷换成了读者丧失兴趣的需求端问题。",
+                "writing_perspective": "作者强调内容维度的差异化竞争，读者可能依然热衷于看影评，但无需通过购买纸媒来获取，D项曲解了逻辑关系。",
+                "theme_validation": "报纸裁剪同质化内容是商业理性选择，与读者的广泛文娱兴趣无关，排除。",
+                "verdict": "复盘判断：D项主客观因果混淆，果断排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>B</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>Completeness</code>,...；<b>C</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；<b>D</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“读者已经失去了对汽车和电影评论的兴趣。”，但在原文定位句中，...；"
+          "summary": "本题考查对末段哲学性结论的反向推理。作者通过'裁撤无特色栏目（least distinctive）'和'全面性不再是美德（completeness is no longer a virtue）'，正向推导出报纸生存的终极真谛：保持独特性（Distinctiveness is an essential feature）。干扰项分别通过归咎过错（B）、逆向吹捧被裁业务（C）以及错怪读者兴趣（D）制造陷阱。",
+          "synonym_pairs": [
+            {
+              "opt_term": "Distinctiveness is an essential feature",
+              "text_term": "damage has been concentrated in areas where newspapers are least distinctive ... completeness is no longer a virtue",
+              "logic": "哲理句反推改写：面面俱到不再是美德 + 裁员集中于最无特色领域 ↔ 鲜明独特性才是报纸生存的本质特征"
+            }
+          ]
         },
         {
           "qid": 30,
           "stem": "The most appropriate title for this text would be .",
-          "stem_cn": "本文最合适的标题是。",
-          "type": "全文主旨题",
-          "locate_pid": 4,
-          "locate_sentence": "Newspapers are less complete as a result.",
-          "locate_sentence_cn": "因此，报纸不太完整。",
+          "stem_cn": "本文最适宜的标题是：",
+          "type": "主旨大意题",
+          "locate_pid": 0,
+          "locate_sentence": "全文主旨脉络：第1段以濒死危机破题，第2段指出美国报业不仅生存下来且重获利润，第3-5段详述裁员节流、调整广告配比、重塑鲜明特色的艰难自救历程。",
+          "locate_sentence_cn": "全文宏观立意：传统报业历经危机惊涛骇浪，通过断臂求生、重构商业模式实现绝境求存与浴火重生。",
           "options": [
             {
               "key": "A",
               "text": "American Newspapers: Struggling for Survival",
-              "text_cn": "美国报纸：为生存而奋斗",
+              "text_cn": "美国报业：在艰难逆境中挣扎求生",
               "is_correct": true,
-              "trap_type": "★ 标准正确同义改写",
+              "trap_type": "★ 标准正确全文主旨标题",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Newspapers are less complete as a result.",
-                "source_translation": "因此，报纸不太完整。",
-                "locator_comparison": "选项核心词 <code>American</code>, <code>Newspapers</code>, <code>Struggling</code>（“美国报纸：为生存而奋斗”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“读者正在为更薄的产品支付更多费用。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：A正确。"
+                "practice_status": "完美涵盖危机、挣扎自救与绝境求存的全部历程，锁定正选。",
+                "option_nature": "★ 标准正确全文主旨标题",
+                "source_sentence": "Even American newspapers... have not only survived but often returned to profit... stayed afloat by pushing journalists overboard... Yet these desperate measures have proved the right ones...",
+                "source_translation": "即便是处境最艰难的美国报业，不仅活了下来而且往往恢复了盈利……通过裁员勉强维持生存……然而这些孤注一掷的举措已被证明是完全正确的……",
+                "locator_comparison": "全文首段描写金融危机与网络浪潮下报业的灭顶绝境；第二段笔锋一转，说明美国报纸不仅挺了过来（survived），而且重新恢复了利润；随后的三、四、五段详尽剖析了报纸如何通过裁减冗员、停送远郊、降低广告依赖、砍掉无特色板块等一系列痛苦而孤注一掷的挣扎（struggling），最终实现了商业模式的平衡与重生。A 选项 'American Newspapers: Struggling for Survival'（美国报业：求生之战）既包含了客观现实对象，又精准刻画了'挣扎'与'生存'的全部主干脉络，是无可挑剔的满分标题。",
+                "writing_perspective": "作者通篇立意客观理性，既不粉饰太平，也不悲观绝望，而是在客观记录一个古老行业如何面对数字化海啸断臂求生，A项完全契合作者的立论胸襟。",
+                "theme_validation": "统摄全篇5个自然段，无任何以偏概全或偏离主题之处，堪称典范。",
+                "verdict": "复盘判断：A项统摄全局、基调契合，正选无疑。"
               }
             },
             {
               "key": "B",
               "text": "American Newspapers: Gone with the Wind",
-              "text_cn": "美国报纸：《乱世佳人》",
+              "text_cn": "美国报业：随风而逝的彻底覆灭",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 过度推断）",
+              "trap_type": "干扰项（极端悲观 / 与文章事实截然相反）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "The American Society of News Editors reckons that 13,500 newsroom jobs have gone since 2007.",
-                "source_translation": "美国新闻编辑协会估计，自 2007 年以来，已有 13,500 个新闻编辑室工作岗位消失。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“读者正在为更薄的产品支付更多费用。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "引用名著书名过分悲观，报纸已经成功存活并盈利，与事实相反，排除。",
+                "option_nature": "干扰项（极端悲观 / 与文章事实截然相反）",
+                "source_sentence": "Even American newspapers, which inhabit the most troubled corner of the global industry, have not only survived but often returned to profit.",
+                "source_translation": "即便是身处全球报业最动荡困顿角落的美国报业，也不仅存活了下来，而且常常重新实现了盈利。",
+                "locator_comparison": "'Gone with the Wind'（随风而逝）借用了名著书名，其字面与修辞含义均为彻底毁灭、化为乌有、一去不复返。然而作者在第2段开门见山明确指出：'have not only survived but often returned to profit'（不仅存活了下来，而且重新实现盈利）。后文全是在讲报社如何自救活命，绝非宣告报业已经彻底死绝。B项犯了彻底否定客观事实的荒谬错误。",
+                "writing_perspective": "如果作者全篇是在写报纸彻底消亡，就不会花大篇幅去肯定裁员降本与广告配比再平衡的积极成果了，B项违背作者叙事脉络。",
+                "theme_validation": "本篇主旨是探讨生存之道，而非书写墓志铭，排除。",
+                "verdict": "复盘判断：B项标题党修辞严重脱离文章事实，坚决排除。"
               }
             },
             {
               "key": "C",
               "text": "American Newspapers: A Thriving Business",
-              "text_cn": "美国报纸：蓬勃发展的行业",
+              "text_cn": "美国报业：欣欣向荣的黄金时代",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 范围偏差）",
+              "trap_type": "干扰项（盲目乐观 / 忽视残酷现实）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "The American Society of News Editors reckons that 13,500 newsroom jobs have gone since 2007.",
-                "source_translation": "美国新闻编辑协会估计，自 2007 年以来，已有 13,500 个新闻编辑室工作岗位消失。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“读者正在为更薄的产品支付更多费用。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "通篇都是裁员苦战，利润远不如前，绝非繁荣，排除。",
+                "option_nature": "干扰项（盲目乐观 / 忽视残酷现实）",
+                "source_sentence": "Not the 20 % profit margins that were routine a few years ago, but profit all the same. It has not been much fun.",
+                "source_translation": "虽然不再是几年前司空见惯的20%的丰厚利润率，但终究还是盈利了。这一过程并不怎么轻松愉快。",
+                "locator_comparison": "'A Thriving Business' 意为蓬勃发展、欣欣向荣的繁荣行业。而原文第3段开篇就明确指出，如今的微薄利润根本无法与过去20%利润率的黄金岁月相比（Not the 20% profit margins that were routine），整个求生过程'has not been much fun'（充满苦涩与艰难），伴随着上万名记者的失业与专栏的野蛮砍除。用'欣欣向荣'来形容一场浴血重伤后的勉强喘息，纯属盲目乐观与严重失实。",
+                "writing_perspective": "作者始终保持着清醒冷静的观察视角，肯定自救成果的同时强调代价惨重，绝非盲目唱赞歌，C项基调严重失真。",
+                "theme_validation": "全文无任何一处暗示报业正在走向黄金盛世，排除。",
+                "verdict": "复盘判断：C项基调偏向盲目乐观，果断排除。"
               }
             },
             {
               "key": "D",
               "text": "American Newspapers: A Hopeless Story",
-              "text_cn": "美国报纸：一个绝望的故事",
+              "text_cn": "美国报业：毫无生机的绝望故事",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 范围偏差）",
+              "trap_type": "干扰项（过度悲观 / 抹杀自救成效）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "The American Society of News Editors reckons that 13,500 newsroom jobs have gone since 2007.",
-                "source_translation": "美国新闻编辑协会估计，自 2007 年以来，已有 13,500 个新闻编辑室工作岗位消失。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“读者正在为更薄的产品支付更多费用。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "忽视了报纸已经自救成功并重构商业模式的正向事实，排除。",
+                "option_nature": "干扰项（过度悲观 / 抹杀自救成效）",
+                "source_sentence": "Yet these desperate measures have proved the right ones and... they can be pushed further. Newspapers are becoming more balanced businesses...",
+                "source_translation": "然而事实证明，这些破釜沉舟的举措是完全正确的……报业正在演化成为更为稳健平衡的商业实体……",
+                "locator_comparison": "'A Hopeless Story' 意为一个看不到任何希望的死局或绝望故事。然而作者在第4段明确赞扬'these desperate measures have proved the right ones'，指出报业已经探索出了一条更加平衡健康（healthier mix）的商业自救道路，并预言其有望在数字化重构中继续前行。D项完全抹杀了报纸自救所取得的希望与生机，陷入了一叶障目的极度悲观视角。",
+                "writing_perspective": "作者从绝境写到转机，文章后半部分充满理性的希望，D项彻底割裂了后半篇的积极论证。",
+                "theme_validation": "与B项一样同属极端负向干扰项，偏离客观平衡的全文主旨，排除。",
+                "verdict": "复盘判断：D项过度消极绝望，排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>B</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；<b>C</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；<b>D</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；"
+          "summary": "本题考查对全篇文章基调与核心议题的提炼。文章核心脉络是传统纸媒面临灭顶之灾，通过激进降本与调整收入结构打响生存保卫战并初见成效。正确项A精准概括为'Struggling for Survival'。干扰项则走向两个极端：彻底毁灭（B）、绝望死局（D）或盲目繁荣（C）。",
+          "synonym_pairs": [
+            {
+              "opt_term": "American Newspapers: Struggling for Survival",
+              "text_term": "survived but often returned to profit ... stayed afloat ... desperate measures",
+              "logic": "主旨统摄概括：在濒死危机中通过一系列极端手段求得生存 ↔ Struggling for Survival"
+            }
+          ]
         }
       ],
       "macro_logic": {
@@ -4668,402 +4743,437 @@
         {
           "qid": 31,
           "stem": "The postwar American housing style largely reflected the Americans’ .",
-          "stem_cn": "战后美国的住房风格很大程度上反映了美国人的风格。",
+          "stem_cn": "二战后美国的建筑住宅风格很大程度上折射出美国人的：",
           "type": "事实细节题",
-          "locate_pid": 1,
-          "locate_sentence": "But when it came to their houses, it was a time of common sense and a belief that less could truly be more.",
-          "locate_sentence_cn": "但当谈到他们的房子时，这是一个常识和信念的时代，即少即是多。",
+          "locate_pid": 2,
+          "locate_sentence": "During the Depression and the war, Americans had learned to live with less, and that restraint, in combination with the postwar confidence in the future, made small, efficient housing positively stylish.",
+          "locate_sentence_cn": "在大萧条和二战期间，美国人学会了在物资匮乏中生活；那种克制与对战后未来的坚定信心相结合，使得小巧而高效的住宅真正成为了一种风尚。",
           "options": [
             {
               "key": "A",
               "text": "prosperity and growth",
-              "text_cn": "繁荣与增长",
+              "text_cn": "对繁荣与经济增长的狂热追求",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 范围偏差）",
+              "trap_type": "干扰项（让步假定干扰 / 颠倒转折逻辑）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "We tend to think of the decades immediately following World War II as a time of prosperity and growth, with soldiers returning home by the millions, going off to college on the G.I.",
-                "source_translation": "我们倾向于将第二次世界大战后的几十年视为繁荣和发展的时期，数以百万计的士兵返回家园，靠着退伍军人权利去上大学。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“比尔在婚姻局排队。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "首段让步提到常规假想是繁荣增长，但转折词but明确说住宅风格恰恰相反，排除。",
+                "option_nature": "干扰项（让步假定干扰 / 颠倒转折逻辑）",
+                "source_sentence": "We tend to think of the decades immediately following World War II as a time of prosperity and growth... But when it came to their houses, it was a time of common sense and a belief that less could truly be more.",
+                "source_translation": "我们往往把二战后紧随而来的几十年看作一个繁荣与增长的时代……但在住房方面，那是一个回归常识并坚信‘少即是多’的时代。",
+                "locator_comparison": "第1段首句确实出现了 'prosperity and growth'（繁荣与增长），但那是一个让步状语从句，表达的是人们通常习惯性的刻板假想（We tend to think of...）。而作者紧接着在第2段用 'But when it came to their houses...' 进行了强烈的转折，明确指出在建筑住房领域，美国人秉持的恰恰不是追求宏大繁荣，而是朴素常识与少即是多。A项错把人们的普遍误解当成了真实的住宅精神。",
+                "writing_perspective": "作者运用先破后立的论述手法，若A项成立，后文关于小户型住宅风靡的论述就成了无源之水，行文逻辑彻底断裂。",
+                "theme_validation": "全文核心旨在探讨'Less is more'（少即是多）的极简住宅风潮，A项的繁荣膨胀与全篇主题背道而驰。",
+                "verdict": "复盘判断：A项错把让步背景当真实结论，坚决排除。"
               }
             },
             {
               "key": "B",
               "text": "efficiency and practicality",
-              "text_cn": "效率和实用性",
+              "text_cn": "高效实用与精明算计",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
+              "trap_type": "干扰项（偷换概念 / 混淆客体特征与主体心理）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "We tend to think of the decades immediately following World War II as a time of prosperity and growth, with soldiers returning home by the millions, going off to college on the G.I.",
-                "source_translation": "我们倾向于将第二次世界大战后的几十年视为繁荣和发展的时期，数以百万计的士兵返回家园，靠着退伍军人权利去上大学。",
-                "locator_comparison": "选项声称“效率和实用性”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“比尔在婚姻局排队。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "高效小巧是住宅的物理属性，题干问的是反映了人怎样的心理品质，偷换概念，排除。",
+                "option_nature": "干扰项（偷换概念 / 混淆客体特征与主体心理）",
+                "source_sentence": "that restraint, in combination with the postwar confidence in the future, made small, efficient housing positively stylish.",
+                "source_translation": "那种克制，与战后对未来的信心相结合，使得小巧而高效的住宅真正成为了一种风尚。",
+                "locator_comparison": "原文中的 'small, efficient'（小巧高效的）是用来修饰住宅物理形态（housing）的客观形容词。而本题题干明确提问的是：战后住房风格折射出美国人自身的何种精神品格与心理特质（reflected the Americans' ...）。B项将建筑本身的物理功能属性（efficiency），移花接木为美国人的精神特质，混淆了主客观对象。",
+                "writing_perspective": "作者在行文上层层剥离：从物质形态（efficient living），追溯到背后的深层精神土壤（restraint and confidence），B项停留于表面客体物理特征。",
+                "theme_validation": "探讨建筑背后的社会文化心理是本文立意所在，B项概念降维，排除。",
+                "verdict": "复盘判断：B项混淆建筑客观属性与人类精神特质，排除。"
               }
             },
             {
               "key": "C",
               "text": "restraint and confidence",
-              "text_cn": "克制与自信",
+              "text_cn": "自律克制与对未来的坚定自信",
               "is_correct": true,
-              "trap_type": "★ 标准正确同义改写",
+              "trap_type": "★ 标准正确原文词对重现",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "But when it came to their houses, it was a time of common sense and a belief that less could truly be more.",
-                "source_translation": "但当谈到他们的房子时，这是一个常识和信念的时代，即少即是多。",
-                "locator_comparison": "选项核心词 <code>restraint</code>, <code>confidence</code>（“克制与自信”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“比尔在婚姻局排队。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：C正确。"
+                "practice_status": "restraint与confidence完美双核对位定位句，毫无悬念的正选。",
+                "option_nature": "★ 标准正确原文词对重现",
+                "source_sentence": "During the Depression and the war, Americans had learned to live with less, and that restraint, in combination with the postwar confidence in the future, made small, efficient housing positively stylish.",
+                "source_translation": "在大萧条和二战期间，美国人学会了在匮乏中生活；那种克制，与战后对未来的信心相结合，使得小巧而高效的住宅真正成为了一种风尚。",
+                "locator_comparison": "定位句中清晰指出，正是大萧条和战争岁月让美国人学会了节制，而'that restraint'（那种自律克制）与战后对未来的'confidence in the future'（坚定信心）相互结合，共同孕育了风靡全美的紧凑住宅风格。选项 C 的 'restraint and confidence' 实现了原词核心精神的毫厘不差对位。",
+                "writing_perspective": "作者在第3段精准揭示了二战后美国大众心理的奇妙张力：既有经历过苦难后的谦逊克制（不盲目攀比大而无当），又有战胜法西斯后对未来的豪迈自信（相信新技术新生活），完美解释了新风格诞生的时代土壤。",
+                "theme_validation": "这一心理机制直接支撑了下文探讨密斯与包豪斯理念为何能快速融入美国主流文化的主旨。",
+                "verdict": "复盘判断：C项与定位句核心事实百分之百等价，正选无疑。"
               }
             },
             {
               "key": "D",
               "text": "pride and faithfulness",
-              "text_cn": "骄傲和忠诚",
+              "text_cn": "虚荣骄傲与对传统的忠诚",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 偏离主干）",
+              "trap_type": "干扰项（无中生有 / 主观捏造道德词汇）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "We tend to think of the decades immediately following World War II as a time of prosperity and growth, with soldiers returning home by the millions, going off to college on the G.I.",
-                "source_translation": "我们倾向于将第二次世界大战后的几十年视为繁荣和发展的时期，数以百万计的士兵返回家园，靠着退伍军人权利去上大学。",
-                "locator_comparison": "借用了原文的词汇 <code>pride</code>, <code>faithfulness</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“比尔在婚姻局排队。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "pride与faithfulness在文中毫无根据，纯属凭空编造，排除。",
+                "option_nature": "干扰项（无中生有 / 主观捏造道德词汇）",
+                "source_sentence": "During the Depression and the war, Americans had learned to live with less...",
+                "source_translation": "在大萧条和战争期间，美国人学会了在匮乏中生活……",
+                "locator_comparison": "原文通篇探讨的是战后美国人突破传统大住宅束缚、拥抱前卫现代主义小户型的创新浪潮，根本未曾提及'pride'（骄傲/虚荣）或'faithfulness'（忠诚守旧）。D项凭空捏造与文意毫无关联的空洞道德形容词，属于彻头彻尾的无中生有。",
+                "writing_perspective": "新建筑风格是对传统大开大合式住宅的颠覆，与'对传统的忠诚'完全相反，D项逻辑严重倒退。",
+                "theme_validation": "文章倡导创新变革与极简生活，D项的传统守旧定性脱离全文语境。",
+                "verdict": "复盘判断：D项纯属出题人凭空臆造，果断排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；<b>B</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“效率和实用性”，但在原文定位句中，作者表达的态度或客观事实恰...；<b>C</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>D</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>pride</code>, <code>...；"
+          "summary": "本题考查对定位句中双核并列因果逻辑的精准提取。作者明确点出推动战后极简住宅风潮的社会心理双引擎：大萧条淬炼的'restraint'（克制）与战胜后的'confidence'（自信）。正确项C实现纯正对位。干扰项则分别利用让步段落假象（A）、混淆建筑属性与人性格（B）以及虚构道德词（D）设下重重陷阱。",
+          "synonym_pairs": [
+            {
+              "opt_term": "restraint and confidence",
+              "text_term": "that restraint, in combination with the postwar confidence",
+              "logic": "核心心态精准原词复现：that restraint + confidence in the future ↔ restraint and confidence"
+            }
+          ]
         },
         {
           "qid": 32,
           "stem": "Which of the following can be inferred from Paragraph 3 about the Bauhaus?",
-          "stem_cn": "从第 3 段中关于包豪斯的内容可以推断出以下哪项？",
-          "type": "因果推断题",
+          "stem_cn": "从第 3 段关于包豪斯设计学派的内容中，我们可以推断出：",
+          "type": "推理判断题",
           "locate_pid": 2,
-          "locate_sentence": "Economic condition was only a stimulus for the trend toward efficient living.",
-          "locate_sentence_cn": "经济状况只是高效生活趋势的刺激因素。",
+          "locate_sentence": "The phrase “less is more” was actually first popularized by a German, the architect Ludwig Mies van der Rohe, who like other people associated with the Bauhaus, a school of design, emigrated to the United States before World War II and took up posts at American architecture schools. These designers came to exert enormous influence on the course of American architecture, but none more so than Mies.",
+          "locate_sentence_cn": "‘少即是多’这句话实际上最早是由德国建筑师路德维希·密斯·凡德罗推广开来的；正如其他与包豪斯设计学派有关联的人士一样，密斯在二战前移民美国，并在美国的建筑学院任教。这些设计师后来对美国建筑的发展进程产生了巨大的影响，而其中尤以密斯为最。",
           "options": [
             {
               "key": "A",
               "text": "It was founded by Ludwig Mies van der Rohe.",
-              "text_cn": "它的创始人是路德维希·密斯·凡德罗。",
+              "text_cn": "包豪斯学派是由密斯·凡德罗一手创立的",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 过度推断）",
+              "trap_type": "干扰项（无中生有 / 夸大历史事实）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "But when it came to their houses, it was a time of common sense and a belief that less could truly be more.",
-                "source_translation": "但当谈到他们的房子时，这是一个常识和信念的时代，即少即是多。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“在大萧条和战争期间，美国人学会了用更少的钱生活，这种克制加上战后对未来的信心，使小型、高效的住房变得非常时尚。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "原文说他是associated with Bauhaus，并非创始人，无端拔高，排除。",
+                "option_nature": "干扰项（无中生有 / 夸大历史事实）",
+                "source_sentence": "Ludwig Mies van der Rohe, who like other people associated with the Bauhaus, a school of design, emigrated to the United States...",
+                "source_translation": "路德维希·密斯·凡德罗，正如其他与包豪斯这一设计学派有关联的人一样，在二战前移民美国……",
+                "locator_comparison": "原文仅说明密斯同其他人一样'associated with the Bauhaus, a school of design'（与设计学派包豪斯有关联），他在其中只是极具代表性的领军人物之一。原文绝未声称包豪斯是由密斯'创立/创办'（founded）的。A项无端拔高历史事实，混淆了学派成员与学派创始人的界限。",
+                "writing_perspective": "作者意在交代现代主义设计理念输入美国的历史路径，而非考据包豪斯的创办校史，A项偏离作者叙述重点。",
+                "theme_validation": "全文聚焦于建筑理念跨大西洋的传播与落地，A项的创始归属毫无论据支撑，排除。",
+                "verdict": "复盘判断：A项无中生有夸大人物角色，排除。"
               }
             },
             {
               "key": "B",
               "text": "Its designing concept was affected by World War II.",
-              "text_cn": "其设计理念受到二战的影响。",
+              "text_cn": "包豪斯的设计理念深刻受到了第二次世界大战的影响",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 范围偏差）",
+              "trap_type": "干扰项（时间线错乱 / 因果逻辑颠倒）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "But when it came to their houses, it was a time of common sense and a belief that less could truly be more.",
-                "source_translation": "但当谈到他们的房子时，这是一个常识和信念的时代，即少即是多。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“在大萧条和战争期间，美国人学会了用更少的钱生活，这种克制加上战后对未来的信心，使小型、高效的住房变得非常时尚。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "他们在二战爆发前就移民美国了，理念早已形成，时间因果倒置，排除。",
+                "option_nature": "干扰项（时间线错乱 / 因果逻辑颠倒）",
+                "source_sentence": "emigrated to the United States before World War II and took up posts at American architecture schools.",
+                "source_translation": "在第二次世界大战之前移民到了美国，并在美国的建筑学院任教。",
+                "locator_comparison": "原文明确交代密斯等包豪斯学者是在'before World War II'（二战爆发之前）就已经移民美国，这意味着包豪斯的'少即是多'与功能主义核心设计理念早在二战全面爆发前就已经在德国成熟定型。B项宣称其设计理念是受到二战的影响才形成的，违背了基本历史时间线与原文陈述。",
+                "writing_perspective": "作者提到二战只是作为学者跨大西洋流亡的时间节点，并未将其作为包豪斯理念演进的因果催化剂，B项强加因果。",
+                "theme_validation": "二战影响的是美国战后本土民众的心理（restraint and confidence），而非远在欧洲早先成型的包豪斯流派，B项张冠李戴。",
+                "verdict": "复盘判断：B项时间逻辑与因果关系错乱，排除。"
               }
             },
             {
               "key": "C",
               "text": "Most American architects used to be associated with it.",
-              "text_cn": "大多数美国建筑师曾经与它有联系。",
+              "text_cn": "绝大多数美国本土建筑师过去都曾与包豪斯有渊源",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 偏离主干）",
+              "trap_type": "干扰项（偷换概念 / 夸大范围）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "But when it came to their houses, it was a time of common sense and a belief that less could truly be more.",
-                "source_translation": "但当谈到他们的房子时，这是一个常识和信念的时代，即少即是多。",
-                "locator_comparison": "借用了原文的词汇 <code>American</code>, <code>architects</code>, <code>used</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“在大萧条和战争期间，美国人学会了用更少的钱生活，这种克制加上战后对未来的信心，使小型、高效的住房变得非常时尚。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "原文是包豪斯学者移民任教影响了美国，非绝大多数美国人出自包豪斯，偷换范围，排除。",
+                "option_nature": "干扰项（偷换概念 / 夸大范围）",
+                "source_sentence": "who like other people associated with the Bauhaus... took up posts at American architecture schools. These designers came to exert enormous influence...",
+                "source_translation": "正如其他与包豪斯有关联的人一样……在美国建筑学院任职。这些设计师后来产生了巨大的影响……",
+                "locator_comparison": "原文指出的是：部分与包豪斯有关联的欧洲学者（other people associated with the Bauhaus）来到美国并在建筑学院执教，进而对美国建筑界产生了深远影响。这绝不意味着'Most American architects'（绝大多数美国建筑师）本人过去都与包豪斯有过直接渊源或在此求学。C项把少数外来传播者的学术背景，无限放大为整个美国建筑师群体的教育背景，范围极其夸大。",
+                "writing_perspective": "如果大多数美国建筑师本身就是包豪斯出身，包豪斯在美国就成了本土主流，作者无需费力论述密斯等欧洲移民的启蒙影响了，C项逻辑荒谬。",
+                "theme_validation": "文章第5段后文还特意指出了赖特等美国本土自身的内生极简思潮，证明美国建筑绝非由包豪斯一家独揽，排除。",
+                "verdict": "复盘判断：C项过度夸大概念外延，果断排除。"
               }
             },
             {
               "key": "D",
               "text": "It had a great influence upon American architecture.",
-              "text_cn": "它对美国建筑产生了巨大的影响。",
+              "text_cn": "它对美国现代建筑的发展产生了深远巨大的影响",
               "is_correct": true,
-              "trap_type": "★ 标准正确同义改写",
+              "trap_type": "★ 标准正确主干逻辑推断",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Economic condition was only a stimulus for the trend toward efficient living.",
-                "source_translation": "经济状况只是高效生活趋势的刺激因素。",
-                "locator_comparison": "选项核心词 <code>had</code>, <code>great</code>, <code>influence</code>（“它对美国建筑产生了巨大的影响。”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“在大萧条和战争期间，美国人学会了用更少的钱生活，这种克制加上战后对未来的信心，使小型、高效的住房变得非常时尚。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：D正确。"
+                "practice_status": "exert enormous influence on the course of American architecture完全同义替换，锁定正选。",
+                "option_nature": "★ 标准正确主干逻辑推断",
+                "source_sentence": "These designers came to exert enormous influence on the course of American architecture, but none more so than Mies.",
+                "source_translation": "这些设计师后来对美国建筑的发展进程产生了巨大的影响，而其中尤以密斯为最。",
+                "locator_comparison": "第4段首句承接上文包豪斯学者群体，给出全局性定论：'These designers came to exert enormous influence on the course of American architecture'（这些包豪斯设计师对美国建筑的进程产生了巨大的影响）。选项 D 将 'exert enormous influence on' 纯正同义转换为 'had a great influence upon'，论断精准客观，与原文主旨完美贴合。",
+                "writing_perspective": "作者在第三段末尾引出包豪斯学派，正是为了说明现代主义极简理念如何深刻重塑了美国战后的天际线与人居环境，D项准确抓取了全段核心论点。",
+                "theme_validation": "包豪斯对美国建筑的划时代影响是全文的核心历史主线，D项高度契合文章宏观主题。",
+                "verdict": "复盘判断：D项与原文段落论点毫厘不差，正选无疑。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；<b>B</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；<b>C</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>American</code>, <co...；<b>D</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；"
+          "summary": "本题考查对跨段落承接主句的准确捕捉。原文第3段末尾引入包豪斯学者移民美国的背景，第4段首句立即定论：'exert enormous influence on the course of American architecture'。正确项D实现直白同义改写。干扰项则分别针对创始人身份（A）、二战时间线（B）和受众范围（C）布设考点陷阱。",
+          "synonym_pairs": [
+            {
+              "opt_term": "It had a great influence upon American architecture",
+              "text_term": "These designers came to exert enormous influence on the course of American architecture",
+              "logic": "同义词组规范改写：exert enormous influence on ↔ had a great influence upon"
+            }
+          ]
         },
         {
           "qid": 33,
           "stem": "Mies held that elegance of architectural design .",
-          "stem_cn": "密斯秉持着建筑设计的优雅。",
-          "type": "段落推理题",
+          "stem_cn": "密斯·凡德罗认为，建筑设计的优雅在于：",
+          "type": "事实细节题",
           "locate_pid": 3,
-          "locate_sentence": "These designers came to exert enormous influence on the course of American architecture, but none more so than Mies.",
-          "locate_sentence_cn": "这些设计师对美国建筑的进程产生了巨大的影响，但密斯影响最大。",
+          "locate_sentence": "Mies’s signature phrase means that less decoration, properly organized, has more impact than a lot. Elegance, he believed, did not derive from abundance.",
+          "locate_sentence_cn": "密斯的这句标志性格言意味着：少量的装饰只要布局得当，其感染力胜过繁复的堆砌。他坚信，优雅绝非来源于充裕与繁盛。",
           "options": [
             {
               "key": "A",
               "text": "was related to large space",
-              "text_cn": "与大空间有关",
+              "text_cn": "与宏大宽敞的开阔空间密切相关",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 过度推断）",
+              "trap_type": "干扰项（反向干扰 / 严重违背密斯设计哲学）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Economic condition was only a stimulus for the trend toward efficient living.",
-                "source_translation": "经济状况只是高效生活趋势的刺激因素。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：““少即是多”这句话实际上是由德国建筑师路德维希·密斯·凡德罗（Ludwig Mies van der Rohe）首先流行起来的，他和其他与包豪斯设计学院有联系的人一样，在二战前移居美国，并在美国建筑学校任职。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "密斯设计的空间是small and efficient而非big，完全相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 严重违背密斯设计哲学）",
+                "source_sentence": "Mies’s sophisticated presentation masked the fact that the spaces he designed were small and efficient, rather than big and often empty.",
+                "source_translation": "密斯高超的设计呈现掩盖了这样一个事实：他设计的空间小巧而高效，而非大而往往空洞。",
+                "locator_comparison": "原文明确指出密斯设计的核心空间特征是 'small and efficient'（小巧而高效），并且专门用了对比转折句：'rather than big and often empty'（而不是宏大且往往空洞无物）。A项声称其优雅与'大空间'（large space）有关，直接走向了密斯极简哲学的完全对立面。",
+                "writing_perspective": "密斯所开创的革命正是打破传统豪宅追求空洞庞大体积的陈规，如果A项成立，'less is more'的核心意义便荡然无存。",
+                "theme_validation": "小空间与高效能是贯穿全篇的核心关键词，A项与文章基本立论相悖。",
+                "verdict": "复盘判断：A项与原文事实黑白颠倒，坚决排除。"
               }
             },
             {
               "key": "B",
               "text": "was identified with emptiness",
-              "text_cn": "被认定为空虚",
+              "text_cn": "等同于空无一物的空旷虚无",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 过度推断）",
+              "trap_type": "干扰项（歪曲概念 / 走向极端误区）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Economic condition was only a stimulus for the trend toward efficient living.",
-                "source_translation": "经济状况只是高效生活趋势的刺激因素。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：““少即是多”这句话实际上是由德国建筑师路德维希·密斯·凡德罗（Ludwig Mies van der Rohe）首先流行起来的，他和其他与包豪斯设计学院有联系的人一样，在二战前移居美国，并在美国建筑学校任职。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "原文恰恰要避免empty，少不是空，偷换概念，排除。",
+                "option_nature": "干扰项（歪曲概念 / 走向极端误区）",
+                "source_sentence": "the spaces he designed were small and efficient, rather than big and often empty.",
+                "source_translation": "他所设计的空间小巧而高效率，而不是大而往往空空荡荡。",
+                "locator_comparison": "原文把 'empty'（空荡空洞）与 'big'（庞大冗余）捆绑在一起，作为密斯极力摒弃与避免的反面教材（rather than big and often empty）。密斯追求的'少'是'properly organized'（精心组织、高效利用），绝不是盲目将空间剥离至毫无生机的'emptiness'（空旷虚无）。B项将密斯对功能主义的提炼恶意曲解为极端的空无主义。",
+                "writing_perspective": "作者特别强调密斯善用玻璃、金属等现代材料赋予空间未来感，富有诗意与美感，绝非死气沉沉的空洞，B项严重偏离其美学内核。",
+                "theme_validation": "优雅来源于细节与比例的严谨组织，B项曲解了'Less is more'的辩证内涵，排除。",
+                "verdict": "复盘判断：B项把高效克制歪曲为空洞虚无，果断排除。"
               }
             },
             {
               "key": "C",
               "text": "was not reliant on abundant decoration",
-              "text_cn": "不依赖丰富的装饰",
+              "text_cn": "并不依赖于铺张繁复的装饰堆砌",
               "is_correct": true,
-              "trap_type": "★ 标准正确同义改写",
+              "trap_type": "★ 标准正确双重否定逻辑改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "These designers came to exert enormous influence on the course of American architecture, but none more so than Mies.",
-                "source_translation": "这些设计师对美国建筑的进程产生了巨大的影响，但密斯影响最大。",
-                "locator_comparison": "选项核心词 <code>was</code>, <code>not</code>, <code>reliant</code>（“不依赖丰富的装饰”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：““少即是多”这句话实际上是由德国建筑师路德维希·密斯·凡德罗（Ludwig Mies van der Rohe）首先流行起来的，他和其他与包豪斯设计学院有联系的人一样，在二战前移居美国，并在美国建筑学校任职。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：C正确。"
+                "practice_status": "less decoration和did not derive from abundance的教科书级同义改写，锁定正选。",
+                "option_nature": "★ 标准正确双重否定逻辑改写",
+                "source_sentence": "Mies’s signature phrase means that less decoration, properly organized, has more impact than a lot. Elegance, he believed, did not derive from abundance.",
+                "source_translation": "密斯的招牌格言意味着：少量的装饰如果组织得当，其震撼力胜过堆砌的奢华。他认为，优雅绝不来源于繁琐充裕的堆砌。",
+                "locator_comparison": "定位句明确给出两个关键事实：其一，'less decoration, properly organized, has more impact than a lot'（恰当组织的少量装饰比大量的装饰更具冲击力）；其二，'Elegance, he believed, did not derive from abundance'（他坚信优雅绝不来源于富余充裕）。选项 C 的 'was not reliant on abundant decoration'（不依赖繁复的装饰）将 abundance 与 decoration 完美融合，对 'did not derive from' 进行了精准的被动依存改写，语义完全等价。",
+                "writing_perspective": "作者在此精确界定了密斯美学中'优雅'的真正定义，为下文湖岸大道公寓如何凭借玻璃墙与精妙比例赢得公众青睐提供了美学理论基石。",
+                "theme_validation": "告别繁冗装饰、拥抱结构与功能美，是包豪斯与现代主义建筑的核心灵魂，C项完美提炼主旨。",
+                "verdict": "复盘判断：C项同义转换兼顾词义与逻辑，毫无争议的正选。"
               }
             },
             {
               "key": "D",
               "text": "was not associated with efficiency",
-              "text_cn": "与效率无关",
+              "text_cn": "与空间的高效利用没有任何关联",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 过度推断）",
+              "trap_type": "干扰项（反向干扰 / 颠倒关键属性）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Economic condition was only a stimulus for the trend toward efficient living.",
-                "source_translation": "经济状况只是高效生活趋势的刺激因素。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：““少即是多”这句话实际上是由德国建筑师路德维希·密斯·凡德罗（Ludwig Mies van der Rohe）首先流行起来的，他和其他与包豪斯设计学院有联系的人一样，在二战前移居美国，并在美国建筑学校任职。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "原文明确指出small and efficient是核心，加否定词颠倒是非，排除。",
+                "option_nature": "干扰项（反向干扰 / 颠倒关键属性）",
+                "source_sentence": "masked the fact that the spaces he designed were small and efficient, rather than big and often empty.",
+                "source_translation": "掩盖了这样一个事实：他设计的空间小巧而高效，而非大而空洞。",
+                "locator_comparison": "原文明确强调密斯设计的精髓正是让空间变得 'small and efficient'（紧凑且高效），效率是其核心追求。而 D 选项使用否定句式 'was not associated with efficiency'（与效率无关），直接否定了原文最关键的属性特征，纯属颠倒黑白的恶性干扰。",
+                "writing_perspective": "密斯的设计之所以能在二战后商业地产中大获成功，正是因为在保证优雅的同时实现了坪效的最大化，D项彻底斩断了这一商业与美学闭环。",
+                "theme_validation": "全文反复赞誉'efficient living'与'efficient housing'，D项逆主流论调而行，排除。",
+                "verdict": "复盘判断：D项赤裸裸否定原文核心词，坚决排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；<b>B</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；<b>C</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>D</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；"
+          "summary": "本题考查对美学论断的同义转述能力。密斯的名言核心在于反思奢华装饰：'less decoration ... Elegance did not derive from abundance'。正确项C精准将其改写为'was not reliant on abundant decoration'。干扰项则全方位利用段落中的 large space、empty、efficiency 实施颠倒黑白的逻辑反向操作。",
+          "synonym_pairs": [
+            {
+              "opt_term": "was not reliant on abundant decoration",
+              "text_term": "less decoration ... Elegance ... did not derive from abundance",
+              "logic": "同义句型反向改写：did not derive from abundance ↔ was not reliant on abundant decoration"
+            }
+          ]
         },
         {
           "qid": 34,
           "stem": "What is true about the apartments Mies built on Chicago’s Lake Shore Drive?",
-          "stem_cn": "密斯在芝加哥湖岸大道上建造的公寓的真相是什么？",
-          "type": "词义/例证题",
-          "locate_pid": 3,
-          "locate_sentence": "Mies’s sophisticated presentation masked the fact that the spaces he designed were small and efficient, rather than big and often empty.",
-          "locate_sentence_cn": "密斯复杂的演示掩盖了这样一个事实：他设计的空间小而高效，而不是大且经常空荡荡的。",
+          "stem_cn": "关于密斯在芝加哥湖岸大道上建造的公寓，下列哪项陈述是真实的？",
+          "type": "事实细节题",
+          "locate_pid": 4,
+          "locate_sentence": "The apartments in the elegant towers Mies built on Chicago’s Lake Shore Drive, for example, were smaller—two-bedroom units under 1,000 square feet—than those in their older neighbors along the city’s Gold Coast. But they were popular because of their airy glass walls, the views they afforded and the elegance of the buildings’ details and proportions, the architectural equivalent of the abstract art so popular at the time.",
+          "locate_sentence_cn": "例如，密斯在芝加哥湖岸大道上建造的优雅高楼中的公寓，面积比该市黄金海岸沿线的旧邻居们要小得多——两居室户型面积不足1000平方英尺。但它们之所以备受欢迎，是因为它们通透的玻璃幕墙、开阔的视野，以及建筑细节与比例的极度优雅——它们正是当时风靡一时的抽象艺术在建筑领域的等价呈现。",
           "options": [
             {
               "key": "A",
               "text": "They ignored details and proportions.",
-              "text_cn": "他们忽略了细节和比例。",
+              "text_cn": "在建筑设计中完全忽略了细节与比例",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 过度推断）",
+              "trap_type": "干扰项（反向干扰 / 颠倒客观事实）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Mies’s signature phrase means that less decoration, properly organized, has more impact than a lot.",
-                "source_translation": "密斯的标志性短语意味着，较少的装饰，适当的组织，比大量的装饰具有更大的影响力。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“他相信，优雅并非源自丰富。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "原文盛赞细节与比例的极度优雅，选项反向说ignored，排除。",
+                "option_nature": "干扰项（反向干扰 / 颠倒客观事实）",
+                "source_sentence": "popular because of their airy glass walls, the views they afforded and the elegance of the buildings’ details and proportions...",
+                "source_translation": "之所以备受推崇，是因为通透的玻璃幕墙、极佳的视野以及建筑在细节和比例上的优雅……",
+                "locator_comparison": "原文明确指出湖岸大道公寓大受欢迎的核心原因之一正是 'the elegance of the buildings’ details and proportions'（建筑细节与比例上的极度优雅）。A项宣称其'ignored details and proportions'（忽略了细节与比例），与原文明确肯定的赞誉直接对立，纯属指黑为白。",
+                "writing_perspective": "密斯正是以对五金件、比例和线条严苛至极的把控而闻名于世，作者以此作为成功论据，绝不可能声称其忽略细节。",
+                "theme_validation": "极简主义绝非粗制滥造，越是极简越依赖精微细节，A项与现代主义设计常识彻底背离，排除。",
+                "verdict": "复盘判断：A项与原文正面赞扬截然相反，排除。"
               }
             },
             {
               "key": "B",
               "text": "They were built with materials popular at that time.",
-              "text_cn": "它们是用当时流行的材料建造的。",
+              "text_cn": "全部采用了当时市场上最为普及流行的建材建造",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 偏离主干）",
+              "trap_type": "干扰项（偷换概念 / 错置历史时间维度）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Mies’s signature phrase means that less decoration, properly organized, has more impact than a lot.",
-                "source_translation": "密斯的标志性短语意味着，较少的装饰，适当的组织，比大量的装饰具有更大的影响力。",
-                "locator_comparison": "借用了原文的词汇 <code>built</code>, <code>materials</code>, <code>popular</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“他相信，优雅并非源自丰富。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "金属玻璃在当时代表未来实验材料，并非当时流行，偷换时代背景，排除。",
+                "option_nature": "干扰项（偷换概念 / 错置历史时间维度）",
+                "source_sentence": "he employed metal, glass and laminated wood—materials that we take for granted today but that in the 1940s symbolized the future.",
+                "source_translation": "他采用了金属、玻璃和层压木——这些材料在今天我们看来理所当然，但在20世纪40年代却象征着未来。",
+                "locator_comparison": "原文第4段明确指出，密斯所使用的金属、玻璃与层压木等工业建材，虽然在我们今天看来习以为常，但在20世纪40年代那个时期是'symbolized the future'（象征着前卫未来）的先锋实验材料。B项将其偷换为在当时那个年代就'popular at that time'（在当时就广为流行普及的大众材料），完全抹杀了密斯敢为人先的创新突破与先锋意义。",
+                "writing_perspective": "作者旨在突出密斯引领时代风骚的开创性，若这些材料当时早就烂大街了，就根本无法体现其象征未来的前瞻性。",
+                "theme_validation": "新材料对旧材料的替代是现代建筑革命的标志，B项抹杀了历史代际差异，排除。",
+                "verdict": "复盘判断：B项把前卫先锋材料错置为大众普及时态，排除。"
               }
             },
             {
               "key": "C",
               "text": "They were more spacious than neighboring buildings.",
-              "text_cn": "它们比邻近的建筑物更宽敞。",
+              "text_cn": "比同一地段邻近的老旧建筑更加宽敞开阔",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
+              "trap_type": "干扰项（反向干扰 / 颠倒大小对比事实）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Mies’s signature phrase means that less decoration, properly organized, has more impact than a lot.",
-                "source_translation": "密斯的标志性短语意味着，较少的装饰，适当的组织，比大量的装饰具有更大的影响力。",
-                "locator_comparison": "选项声称“它们比邻近的建筑物更宽敞。”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“他相信，优雅并非源自丰富。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "明确指出面积比邻近老房子更小（under 1000 sq ft），事实相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 颠倒大小对比事实）",
+                "source_sentence": "were smaller—two-bedroom units under 1,000 square feet—than those in their older neighbors along the city’s Gold Coast.",
+                "source_translation": "比黄金海岸沿线的旧邻居们户型更小——两居室面积在1000平方英尺以下。",
+                "locator_comparison": "原文白纸黑字写着：湖岸大道公寓的户型'were smaller ... than those in their older neighbors'（比邻近的老房子面积更小，不足1000平方英尺）。C 选项的 'more spacious'（更加宽敞）与原文的 'smaller' 构成无法调和的绝对矛盾。出题人意在考查考生是否读懂了比较级与破折号中的解释细节。",
+                "writing_perspective": "面积更小却更受欢迎，恰恰有力地论证了作者关于'小巧高效胜过大而无当'（less is more）的主题，C项直接推翻了作者论据。",
+                "theme_validation": "小户型战胜大豪宅是全文的核心例证支柱，C项完全违背事实，排除。",
+                "verdict": "复盘判断：C项反向颠倒比较级事实，坚决排除。"
               }
             },
             {
               "key": "D",
               "text": "They shared some characteristics of abstract art.",
-              "text_cn": "他们有一些共同的抽象艺术特征。",
+              "text_cn": "分享并具备了抽象艺术的部分美学特征",
               "is_correct": true,
-              "trap_type": "★ 标准正确同义改写",
+              "trap_type": "★ 标准正确修辞隐喻归纳",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Mies’s sophisticated presentation masked the fact that the spaces he designed were small and efficient, rather than big and often empty.",
-                "source_translation": "密斯复杂的演示掩盖了这样一个事实：他设计的空间小而高效，而不是大且经常空荡荡的。",
-                "locator_comparison": "选项核心词 <code>shared</code>, <code>characteristics</code>, <code>abstract</code>（“他们有一些共同的抽象艺术特征。”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“他相信，优雅并非源自丰富。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：D正确。"
+                "practice_status": "the architectural equivalent of abstract art的完美抽象同义转述，锁定正选。",
+                "option_nature": "★ 标准正确修辞隐喻归纳",
+                "source_sentence": "the elegance of the buildings’ details and proportions, the architectural equivalent of the abstract art so popular at the time.",
+                "source_translation": "建筑细节与比例上的极度优雅——它们正是当时极为风靡的抽象艺术在建筑学上的等价化身。",
+                "locator_comparison": "定位句尾明确给出了极富美学洞见的同位语定论：密斯湖岸大道公寓建筑比例与极简线条的优雅，正是'the architectural equivalent of the abstract art so popular at the time'（当时风靡一时的抽象艺术在建筑学上的等价物）。选项 D 将 'the architectural equivalent'（建筑学等价表现）精准转述为 'shared some characteristics of abstract art'（具备抽象艺术的某些特征），二者在美学逻辑上完全契合、无懈可击。",
+                "writing_perspective": "作者把建筑与同时代风靡的抽象表现主义艺术相打通，深刻阐明密斯的现代建筑不仅仅是实用居所，更是凝固的高雅纯艺术，D项精准提炼了这一跨界评价。",
+                "theme_validation": "呼应前文'positively stylish'，说明紧凑极简住宅被社会精英阶层普遍接受的深层艺术根源，契合主旨。",
+                "verdict": "复盘判断：D项提炼同位语核心特征，正选无疑。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；<b>B</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>built</code>, <code>...；<b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“它们比邻近的建筑物更宽敞。”，但在原文定位句中，作者表达的态...；<b>D</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；"
+          "summary": "本题考查对例证细节与美学隐喻的理解。密斯在芝加哥建造的高楼公寓面积更小（smaller）、材料前卫（symbolized future）、细节考究（details and proportions），更被称为抽象艺术的建筑化身（equivalent of abstract art）。正确项D巧妙提取其艺术关联。干扰项则在细节忽略（A）、建材普及（B）和空间大小（C）上逐一设坑。",
+          "synonym_pairs": [
+            {
+              "opt_term": "shared some characteristics of abstract art",
+              "text_term": "the architectural equivalent of the abstract art so popular at the time",
+              "logic": "同位语比喻抽象化：the architectural equivalent of abstract art ↔ shared some characteristics of abstract art"
+            }
+          ]
         },
         {
           "qid": 35,
           "stem": "What can we learn about the design of the “Case Study Houses”?",
-          "stem_cn": "从“案例研究住宅”的设计中我们可以了解到什么？",
-          "type": "全文主旨题",
+          "stem_cn": "关于加州“案例研究住宅”（Case Study Houses）的设计，我们能了解到：",
+          "type": "推理判断题",
           "locate_pid": 5,
-          "locate_sentence": "In the 1930s Frank Lloyd Wright started building more modest and efficient houses—usually around 1,200 square feet— than the spreading two-story ones he had designed in the 1890s and the early 20th century.",
-          "locate_sentence_cn": "20 世纪 30 年代，弗兰克·劳埃德·赖特 (Frank Lloyd Wright) 开始建造比他在 1890 年代和 20 世纪初设计的两层楼更朴素、更高效的房屋（通常面积约为 1,200 平方英尺）。",
+          "locate_sentence": "The “Case Study Houses” commissioned from talented modern architects by California Arts & Architecture magazine between 1945 and 1962 were yet another homegrown influence on the “less is more” trend. Aesthetic effect came from the landscape, new materials and forthright detailing.",
+          "locate_sentence_cn": "《加州艺术与建筑》杂志在1945年至1962年间委托极富才华的现代建筑师设计的‘案例研究住宅’，是‘少即是多’风潮在本土产生的又一深远影响。其美学效果来自于周围的自然风景、新型建材以及直截了当的精湛细节。",
           "options": [
             {
               "key": "A",
               "text": "Mechanical devices were widely used.",
-              "text_cn": "机械装置被广泛使用。",
+              "text_cn": "各种现代机械装置在住宅中得到了全面广泛的应用",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
+              "trap_type": "干扰项（过度推断 / 曲解原文误判细节）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "The trend toward “less” was not entirely foreign.",
-                "source_translation": "“更少”的趋势并非完全陌生。",
-                "locator_comparison": "选项声称“机械装置被广泛使用。”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“20 世纪 30 年代，弗兰克·劳埃德·赖特 (Frank Lloyd Wright) 开始建造比他在 1890 年代和 20 世纪初设计的两层楼更朴素、更高效的房屋（通常面积约为 1,200 平方英尺）。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "原文说建筑师对机械革命的普及做出了误判，并未全面应用，排除。",
+                "option_nature": "干扰项（过度推断 / 曲解原文误判细节）",
+                "source_sentence": "Ralph Rapson may have mispredicted just how the mechanical revolution would impact everyday life—few American families acquired helicopters, though most eventually got clothes dryers...",
+                "source_translation": "拉尔夫·拉普森或许误判了机械革命对日常生活的实际冲击程度——极少有美国家庭真正买得起直升机，尽管大多数家庭最终拥有了干衣机……",
+                "locator_comparison": "原文明确指出建筑师拉普森实际上是'mispredicted'（错误预测了）机械革命对生活的冲击，并用破折号举例调侃：很少有美国家庭真正买得起私人直升机（few families acquired helicopters）。这直接证明机械装置并没有像预想的那样在住宅中全面铺开。A项将建筑师的前瞻性'误判'曲解为机械装置已经'widely used'（广泛应用），犯了颠倒事实的错误。",
+                "writing_perspective": "作者调侃直升机并未普及，是为了表明虽然部分科技幻想落空，但自给自足的精神依然深植人心，A项完全偏离作者幽默修辞的本意。",
+                "theme_validation": "案例住宅倡导的是顺应自然与自给自足，而非沉溺于繁杂机械堆砌，A项与极简环保理念背道而驰。",
+                "verdict": "复盘判断：A项错把建筑师的失误预言当成普及现实，排除。"
               }
             },
             {
               "key": "B",
               "text": "Natural scenes were taken into consideration.",
-              "text_cn": "考虑到了自然场景。",
+              "text_cn": "周遭的自然风景被充分纳入了建筑规划考量之中",
               "is_correct": true,
-              "trap_type": "★ 标准正确同义改写",
+              "trap_type": "★ 标准正确概念同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "In the 1930s Frank Lloyd Wright started building more modest and efficient houses—usually around 1,200 square feet— than the spreading two-story ones he had designed in the 1890s and the early 20th century.",
-                "source_translation": "20 世纪 30 年代，弗兰克·劳埃德·赖特 (Frank Lloyd Wright) 开始建造比他在 1890 年代和 20 世纪初设计的两层楼更朴素、更高效的房屋（通常面积约为 1,200 平方英尺）。",
-                "locator_comparison": "选项核心词 <code>Natural</code>, <code>scenes</code>, <code>consideration</code>（“考虑到了自然场景。”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“20 世纪 30 年代，弗兰克·劳埃德·赖特 (Frank Lloyd Wright) 开始建造比他在 1890 年代和 20 世纪初设计的两层楼更朴素、更高效的房屋（通常面积约为 1,200 平方英尺）。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：B正确。"
+                "practice_status": "Aesthetic effect came from the landscape直接对位Natural scenes，锁定正选。",
+                "option_nature": "★ 标准正确概念同义改写",
+                "source_sentence": "Aesthetic effect came from the landscape, new materials and forthright detailing.",
+                "source_translation": "其美学效果直接汲取自周遭的自然风景、新型材料以及直截了当的细节设计。",
+                "locator_comparison": "定位句清晰指明该批住宅之所以具备卓越的美学效果（Aesthetic effect），首要来源就是 'the landscape'（自然景观/周边地貌地景）。选项 B 将 'landscape' 同义转换为 'Natural scenes'（自然景观）；将'汲取自风景的美学'准确归纳为建筑设计时'were taken into consideration'（被充分纳入考量设计之中）。词义映射自然流畅，毫无逻辑瑕疵。",
+                "writing_perspective": "作者在末段强调美国加州本土设计对极简主义的独特贡献：不同于欧洲密斯式的钢筋玻璃盒子，加州建筑师擅长将建筑融于大自然风景，赋予了极简风格更具生机的人文与自然温度。",
+                "theme_validation": "与自然和谐共生是现代宜居住宅的终极主旨之一，B项完美契合全文追求品质生活的归宿。",
+                "verdict": "复盘判断：B项同义替换严密贴切，正选无疑。"
               }
             },
             {
               "key": "C",
               "text": "Details were sacrificed for the overall effect.\nᆇี൫ज@JOEE ༯໶\n\n06",
-              "text_cn": "Details were sacrificed for the overall effect.\nᆇี൫ज@JOEE ༯໶\n\n06",
+              "text_cn": "为了保证整体视觉震撼力而大幅牺牲了局部细节",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 过度推断）",
+              "trap_type": "干扰项（反向干扰 / 严重抹杀设计品质）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "The trend toward “less” was not entirely foreign.",
-                "source_translation": "“更少”的趋势并非完全陌生。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“20 世纪 30 年代，弗兰克·劳埃德·赖特 (Frank Lloyd Wright) 开始建造比他在 1890 年代和 20 世纪初设计的两层楼更朴素、更高效的房屋（通常面积约为 1,200 平方英尺）。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "原文盛赞forthright detailing，细节是美学三大支柱之一，未曾牺牲，排除。",
+                "option_nature": "干扰项（反向干扰 / 严重抹杀设计品质）",
+                "source_sentence": "Aesthetic effect came from the landscape, new materials and forthright detailing.",
+                "source_translation": "美学效果来源于周围的自然风景、新型建筑材料以及直率而严谨的细节。",
+                "locator_comparison": "原文明确把 'forthright detailing'（直率严谨的精湛细节）作为构成美学三大基石之一进行正面褒奖。细节非但没有为了整体效果而被'sacrificed'（牺牲掉），反而是造就完美视觉效果不可或缺的核心功臣。C项无中生有地编造了细节与整体效果之间的虚假对立，纯属无稽之谈。",
+                "writing_perspective": "现代极简建筑的灵魂正是把螺栓、接缝、转角等工法细节做到极致，作者对此高度赞美，C项颠倒是非。",
+                "theme_validation": "建筑美学强调细微之处见真章，C项违背作者对优秀现代建筑的赞誉基调，排除。",
+                "verdict": "复盘判断：C项虚构对立、颠倒细节价值，排除。"
               }
             },
             {
               "key": "D",
               "text": "Eco-friendly materials were employed.",
-              "text_cn": "采用了环保材料。",
+              "text_cn": "全面采用了环保可降解的生态建材",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 范围偏差）",
+              "trap_type": "干扰项（无中生有 / 强加当代绿色标签）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "The trend toward “less” was not entirely foreign.",
-                "source_translation": "“更少”的趋势并非完全陌生。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“20 世纪 30 年代，弗兰克·劳埃德·赖特 (Frank Lloyd Wright) 开始建造比他在 1890 年代和 20 世纪初设计的两层楼更朴素、更高效的房屋（通常面积约为 1,200 平方英尺）。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "原文仅说是new materials，未提eco-friendly环保概念，过度联想，排除。",
+                "option_nature": "干扰项（无中生有 / 强加当代绿色标签）",
+                "source_sentence": "Aesthetic effect came from the landscape, new materials and forthright detailing.",
+                "source_translation": "其美学效果来自于周遭的地貌风景、新型建材以及直截了当的细节。",
+                "locator_comparison": "原文只提到使用了 'new materials'（新型现代材料，如前文提到的层压木、金属、工业玻璃等）。但原文压根没有使用 'eco-friendly'（环境友好/绿色环保）这一具有明确现代环保产业属性的词汇。出题人利用当代考生热衷于环保生态的思维定势，生搬硬套了一个原文未提及的超前概念，属于典型的无中生有。",
+                "writing_perspective": "20世纪40-50年代建筑师关注的是战后新型工业材料的结构潜力与形式美，而非当代的低碳环保认证，D项带有时代错置的烙印。",
+                "theme_validation": "新材料不等于环保材料，D项偷换科学属性，排除。",
+                "verdict": "复盘判断：D项无中生有强加绿色概念，排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“机械装置被广泛使用。”，但在原文定位句中，作者表达的态度或客...；<b>B</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>C</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；<b>D</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；"
+          "summary": "本题考查对段落核心要素句的精准比对。关于加州案例研究住宅的美学三来源：风景（landscape）、新材料（new materials）、精湛细节（forthright detailing）。正确项B将 landscape 精准转述为 Natural scenes。干扰项则分别利用机械预言的误判（A）、凭空捏造细节牺牲（C）以及强加当代环保光环（D）设置障碍。",
+          "synonym_pairs": [
+            {
+              "opt_term": "Natural scenes were taken into consideration",
+              "text_term": "Aesthetic effect came from the landscape",
+              "logic": "借景与美学同义转化：Aesthetic effect came from the landscape ↔ Natural scenes were taken into consideration"
+            }
+          ]
         }
       ],
       "macro_logic": {
@@ -6383,402 +6493,437 @@
         {
           "qid": 36,
           "stem": "The EU is faced with so many problems that .",
-          "stem_cn": "欧盟面临着如此多的问题。",
+          "stem_cn": "欧盟面临着如此众多的严峻挑战，以至于：",
           "type": "事实细节题",
           "locate_pid": 0,
           "locate_sentence": "Now even the project’s greatest cheerleaders talk of a continent facing a “Bermuda triangle” of debt, population decline and lower growth.",
-          "locate_sentence_cn": "现在，就连该项目最伟大的啦啦队员也谈到非洲大陆面临着债务、人口下降和增长放缓的“百慕大三角”。",
+          "locate_sentence_cn": "如今，连该项目最狂热的欢呼拥护者们，都在谈论着欧洲大陆正面临着由债务危机、人口缩减和低速增长所构成的‘百慕大三角’。",
           "options": [
             {
               "key": "A",
               "text": "it has more or less lost faith in markets",
-              "text_cn": "它或多或少对市场失去了信心",
+              "text_cn": "欧盟多多少少已经对自由市场机制彻底丧失了信心",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
+              "trap_type": "干扰项（主谓颠倒 / 颠倒市场信任关系）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Will the European Union make it?",
-                "source_translation": "欧盟能做到吗？",
-                "locator_comparison": "选项声称“它或多或少对市场失去了信心”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“不久前，这个问题听起来还很奇怪。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "原文是市场对欧元区经济体失去信心，主谓关系彻底搞反，排除。",
+                "option_nature": "干扰项（主谓颠倒 / 颠倒市场信任关系）",
+                "source_sentence": "Markets have lost faith that the euro zone’s economies, weaker or stronger, will one day converge...",
+                "source_translation": "金融市场已经对欧元区经济体（无论强弱）终有一天能实现趋同彻底丧失了信心……",
+                "locator_comparison": "原文第2段明确指出：'Markets have lost faith that the euro zone’s economies... will one day converge'（金融市场对欧元区经济体的自我修复与趋同丧失了信心）。动作的发出者是金融市场（Markets），承受者是欧元区各经济体。而 A 选项声称是'欧盟对市场失去了信心'（it has lost faith in markets），完全颠倒了主谓施受关系，属于低劣的主谓倒错陷阱。",
+                "writing_perspective": "作者后文强调欧盟本质上是一个极其崇尚自由市场机制的共同体，第6段明确赞扬其对资本与货物的开放，绝非反市场，A项在行文逻辑上立不住脚。",
+                "theme_validation": "危机在于主权债务失控与制度僵局，而非意识形态上否定市场经济，排除。",
+                "verdict": "复盘判断：A项主谓颠倒，坚决排除。"
               }
             },
             {
               "key": "B",
               "text": "even its supporters begin to feel concerned \nᆇี൫ज@JOEE ༯໶\n\n07",
-              "text_cn": "even its supporters begin to feel concerned \nᆇี൫ज@JOEE ༯໶\n\n07",
+              "text_cn": "就连它最坚定的支持者也开始感到深切忧虑",
               "is_correct": true,
-              "trap_type": "★ 标准正确同义改写",
+              "trap_type": "★ 标准正确同义生动转抽象",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
+                "practice_status": "cheerleaders对应supporters，百慕大三角对应feel concerned，锁定正选。",
+                "option_nature": "★ 标准正确同义生动转抽象",
                 "source_sentence": "Now even the project’s greatest cheerleaders talk of a continent facing a “Bermuda triangle” of debt, population decline and lower growth.",
-                "source_translation": "现在，就连该项目最伟大的啦啦队员也谈到非洲大陆面临着债务、人口下降和增长放缓的“百慕大三角”。",
-                "locator_comparison": "选项核心词 <code>its</code>, <code>supporters</code>, <code>begin</code>（“even its supporters begin to feel concerned \nᆇี൫ज@JOEE ༯໶\n\n07”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“不久前，这个问题听起来还很奇怪。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：B正确。"
+                "source_translation": "如今，连该项目最坚定的啦啦队长（支持者）们，都在谈论整个大陆正面临着债务、人口萎缩和低增长的‘百慕大三角’。",
+                "locator_comparison": "定位句中用词极其考究：'the project's greatest cheerleaders'（该一体化工程最狂热的啦啦队吹鼓手），被 B 选项精准同义概括为 'its supporters'（它的支持者们）；而这些死忠拥护者都在热议欧洲身陷毁灭性的'Bermuda triangle'（百慕大三角），生动折射出甚至连最乐观的人也'begin to feel concerned'（开始感到严重忧心忡忡）。两者在语境色彩和语义内核上完全重合。",
+                "writing_perspective": "作者在首段通过反衬手法破题：先抛出连铁杆粉丝都动摇担忧的极端惨状，为全篇探讨救助争端与危机深度定下凝重基调。",
+                "theme_validation": "债务风暴卷走了一体化的盲目乐观，全篇论战由此拉开帷幕，B项紧扣首段立论灵魂。",
+                "verdict": "复盘判断：B项修辞转换自然典雅，正选无疑。"
               }
             },
             {
               "key": "C",
               "text": "some of its member countries plan to abandon euro",
-              "text_cn": "部分成员国计划放弃欧元",
+              "text_cn": "部分成员国已经正式拟定计划放弃使用欧元",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
+              "trap_type": "干扰项（无中生有 / 过度耸人听闻引申）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Will the European Union make it?",
-                "source_translation": "欧盟能做到吗？",
-                "locator_comparison": "选项声称“部分成员国计划放弃欧元”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“不久前，这个问题听起来还很奇怪。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "原文探讨单一货币解体风险，并未提及成员国有退出计划，过度推断，排除。",
+                "option_nature": "干扰项（无中生有 / 过度耸人听闻引申）",
+                "source_sentence": "Yet the debate about how to save Europe’s single currency from disintegration is stuck.",
+                "source_translation": "然而，关于如何挽救欧洲单一货币免于崩溃解体的争论却陷入了僵局。",
+                "locator_comparison": "原文虽然在第3段提到了如何拯救欧元避免其'disintegration'（解体瓦解），但通篇从未提及任何一个具体成员国已经正式'计划放弃欧元'（plan to abandon euro）。各大主导国争论的全部焦点恰恰是如何把成员国留在欧元区内。C项把系统性解体的宏观风险，过度主观引申为个别国家密谋退欧的行动计划，缺乏原文事实支撑。",
+                "writing_perspective": "文章后文详述德法两国如何全力以赴拯救欧元，证明大家都在积极挽救而非放弃，C项偏离了博弈主线。",
+                "theme_validation": "拯救单一货币是讨论的绝对前提，C项宣称弃用欧元动摇了全篇讨论基石，排除。",
+                "verdict": "复盘判断：C项无中生有且过度推论，排除。"
               }
             },
             {
               "key": "D",
               "text": "it intends to deny the possibility of devaluation",
-              "text_cn": "它试图否认贬值的可能性",
+              "text_cn": "欧盟当局企图彻底否认货币贬值的可能性",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 过度推断）",
+              "trap_type": "干扰项（偷换概念 / 歪曲客观制度属性为自主意图）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Will the European Union make it?",
-                "source_translation": "欧盟能做到吗？",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“不久前，这个问题听起来还很奇怪。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "单一货币剥夺了贬值机制是客观制度限制，非主观否认，曲解概念，排除。",
+                "option_nature": "干扰项（偷换概念 / 歪曲客观制度属性为自主意图）",
+                "source_sentence": "sharing a single currency, which denies uncompetitive members the quick fix of devaluation.",
+                "source_translation": "共享单一货币制度使得缺乏竞争力的成员国无法享受货币贬值这一立竿见影的救急手段。",
+                "locator_comparison": "原文指出由于欧元区共享同一种货币（single currency），这在客观机制上'denies uncompetitive members the quick fix of devaluation'（剥夺了竞争力较弱成员国通过货币贬值这一权宜之计快速脱困的可能）。这是单一货币制度在金融学上的客观运作机理限制。而 D 选项把这种制度属性歪曲为欧盟当局主观上去'intends to deny'（蓄意否认贬值可能）。D项混淆了客观制度制约与主观政治意图。",
+                "writing_perspective": "作者客观剖析欧元区无法通过汇率自主贬值刺激出口的制度软肋，D项把学术分析变成了对欧盟主管意图的无端指责。",
+                "theme_validation": "制度困境正是导致债务危机的内因，D项主客观倒错，排除。",
+                "verdict": "复盘判断：D项偷换机制属性为主观意志，排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“它或多或少对市场失去了信心”，但在原文定位句中，作者表达的态...；<b>B</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“部分成员国计划放弃欧元”，但在原文定位句中，作者表达的态度或...；<b>D</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；"
+          "summary": "本题考查对段落修辞意图与细节的深层把握。作者借 'greatest cheerleaders' 都在高谈 'Bermuda triangle'，形象表达了连最狂热的铁粉支持者都深感忧虑（supporters begin to feel concerned）。干扰项则分别设置了主谓颠倒（A）、极端引申无中生有（C）以及主客观混淆（D）等陷阱。",
+          "synonym_pairs": [
+            {
+              "opt_term": "even its supporters begin to feel concerned",
+              "text_term": "even the project’s greatest cheerleaders talk of a continent facing a “Bermuda triangle”",
+              "logic": "形象比喻同义抽象化：greatest cheerleaders ↔ its supporters; talk of Bermuda triangle ↔ begin to feel concerned"
+            }
+          ]
         },
         {
           "qid": 37,
           "stem": "The debate over the EU’s single currency is stuck because the dominant powers .",
-          "stem_cn": "关于欧盟单一货币的争论因主导大国而陷入僵局。",
+          "stem_cn": "关于挽救欧盟单一货币的争论陷入停滞，是因为主导大国：",
           "type": "因果推断题",
           "locate_pid": 2,
           "locate_sentence": "It is stuck because the euro zone’s dominant powers, France and Germany, agree on the need for greater harmonisation within the euro zone, but disagree about what to harmonise.",
-          "locate_sentence_cn": "之所以陷入困境，是因为欧元区的主导力量法国和德国都同意欧元区内部需要加强协调，但对于协调的内容存在分歧。",
+          "locate_sentence_cn": "争论之所以陷入僵局，是因为欧元区的主导大国——法国和德国——虽然都认同欧元区内部需要更大程度的协调统一，但在‘具体协调统一什么’的问题上却存在严重分歧。",
           "options": [
             {
               "key": "A",
               "text": "are competing for the leading position",
-              "text_cn": "正在争夺领先地位",
+              "text_cn": "正在为争夺欧洲大陆的最高领导权而明争暗斗",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 范围偏差）",
+              "trap_type": "干扰项（无中生有 / 借地缘政治过度脑补）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "As well as those chronic problems, the EU faces an acute crisis in its economic core, the 16 countries that use the single currency.",
-                "source_translation": "除了这些长期存在的问题外，欧盟的经济核心——使用单一货币的 16 个国家——也面临着严重的危机。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“市场已经失去了信心，欧元区各经济体，无论强弱，终有一天会因共享单一货币的纪律而趋同，这种纪律使得缺乏竞争力的成员国无法快速解决贬值问题。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "双方争论的是救助方案路线，非争夺霸权地位，无中生有，排除。",
+                "option_nature": "干扰项（无中生有 / 借地缘政治过度脑补）",
+                "source_sentence": "agree on the need for greater harmonisation within the euro zone, but disagree about what to harmonise.",
+                "source_translation": "认同欧元区内部需要加强协调，但在具体协调什么上存在分歧。",
+                "locator_comparison": "定位句明确指出争端停滞的原因是德法'disagree about what to harmonise'（在具体协调的内容上意见不合），一方主张严格财政规则，另一方主张共同举债援助。两国的争论聚焦于应对危机的经济与货币治理路径，根本没有提及双方在'competing for the leading position'（争夺霸主领导地位）。A项属于典型的地缘政治宫斗式脑补，缺乏原文依据。",
+                "writing_perspective": "作者在后文详尽对比了德国的'严纪律'与法国的'大政府再分配'两套经济哲学，论战完全停留在政策理念层面，非权力倾轧。",
+                "theme_validation": "文章严肃探讨解决债务危机的货币工具，A项偏离经济政策讨论主题，排除。",
+                "verdict": "复盘判断：A项凭空捏造霸权竞争，排除。"
               }
             },
             {
               "key": "B",
               "text": "are busy handling their own crises",
-              "text_cn": "忙着处理自己的危机",
+              "text_cn": "忙于全力处置各自本国国内爆发的内政危机",
               "is_correct": false,
-              "trap_type": "干扰项（偷换概念 / 偏离主干）",
+              "trap_type": "干扰项（无中生有 / 歪曲谈判各方状态）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "As well as those chronic problems, the EU faces an acute crisis in its economic core, the 16 countries that use the single currency.",
-                "source_translation": "除了这些长期存在的问题外，欧盟的经济核心——使用单一货币的 16 个国家——也面临着严重的危机。",
-                "locator_comparison": "借用了原文的词汇 <code>are</code>, <code>busy</code>, <code>handling</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“市场已经失去了信心，欧元区各经济体，无论强弱，终有一天会因共享单一货币的纪律而趋同，这种纪律使得缺乏竞争力的成员国无法快速解决贬值问题。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "两国积极参与欧盟谈判提出各自方案，并非分身乏术，排除。",
+                "option_nature": "干扰项（无中生有 / 歪曲谈判各方状态）",
+                "source_sentence": "the debate about how to save Europe’s single currency from disintegration is stuck.",
+                "source_translation": "关于如何拯救欧洲单一货币免于瓦解的争论陷入了僵局。",
+                "locator_comparison": "原文指出德法两国都在极其活跃地为欧元区开药方：德国提出了严格财政纪律和自动制裁机制，法国提出了建立核心经济政府与发行共同债券。这说明两国政府高度聚焦于欧盟层面的危机治理并激烈交锋，绝非'各自忙于国内自家烂摊子'（busy handling their own crises）而消极怠工。B项的描述与事实背道而驰。",
+                "writing_perspective": "争论之所以陷入僵局是因为彼此寸步不让，而非无人理睬，B项解释完全违背'stuck'的真正机理。",
+                "theme_validation": "全篇聚焦于超国家层面的协调困境，B项退缩到孤立国内视角，排除。",
+                "verdict": "复盘判断：B项与谈判交锋事实截然相反，排除。"
               }
             },
             {
               "key": "C",
               "text": "fail to reach an agreement on harmonisation",
-              "text_cn": "未能就协调一致达成一致",
+              "text_cn": "无法就协调统一的具体机制与内容达成一致协议",
               "is_correct": true,
-              "trap_type": "★ 标准正确同义改写",
+              "trap_type": "★ 标准正确同义逆向转换",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "It is stuck because the euro zone’s dominant powers, France and Germany, agree on the need for greater harmonisation within the euro zone, but disagree about what to harmonise.",
-                "source_translation": "之所以陷入困境，是因为欧元区的主导力量法国和德国都同意欧元区内部需要加强协调，但对于协调的内容存在分歧。",
-                "locator_comparison": "选项核心词 <code>fail</code>, <code>reach</code>, <code>agreement</code>（“未能就协调一致达成一致”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“市场已经失去了信心，欧元区各经济体，无论强弱，终有一天会因共享单一货币的纪律而趋同，这种纪律使得缺乏竞争力的成员国无法快速解决贬值问题。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：C正确。"
+                "practice_status": "disagree about what to harmonise直接等价于fail to reach agreement，锁定正选。",
+                "option_nature": "★ 标准正确同义逆向转换",
+                "source_sentence": "the euro zone’s dominant powers, France and Germany, agree on the need for greater harmonisation within the euro zone, but disagree about what to harmonise.",
+                "source_translation": "欧元区的主导大国——法国和德国——都认同需要更大程度的协调，但在具体协调什么内容上却分歧严重。",
+                "locator_comparison": "定位句因果链极其清晰：争论陷入僵局（It is stuck）的直接原因就是德法两国 'disagree about what to harmonise'（在具体协调统筹的范畴上存在分歧）。选项 C 的 'fail to reach an agreement on harmonisation'（未能就协调问题达成一致）将动词 'disagree' 极其规范、标准地同义转换为否定词组 'fail to reach an agreement'，宾语 'on harmonisation' 稳稳扣住定位词，逻辑因果毫无破绽。",
+                "writing_perspective": "承上启下：第3段抛出德法'disagree'的核心论点后，第4段顺理成章展开阐述'德国主张什么'，第5段阐述'法国主张什么'，C项作为两段对比的总领逻辑纽带，结构无可挑剔。",
+                "theme_validation": "德法政策分歧是解释欧元区救助难产的关键命题，C项完全统摄核心矛盾。",
+                "verdict": "复盘判断：C项因果同义转换丝丝入扣，正选无疑。"
               }
             },
             {
               "key": "D",
               "text": "disagree on the steps towards disintegration",
-              "text_cn": "不同意走向解体的步骤",
+              "text_cn": "就欧元区走向分崩离析的具体步骤存在严重分歧",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 过度推断）",
+              "trap_type": "干扰项（反向干扰 / 严重篡改谈判目标）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "As well as those chronic problems, the EU faces an acute crisis in its economic core, the 16 countries that use the single currency.",
-                "source_translation": "除了这些长期存在的问题外，欧盟的经济核心——使用单一货币的 16 个国家——也面临着严重的危机。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“市场已经失去了信心，欧元区各经济体，无论强弱，终有一天会因共享单一货币的纪律而趋同，这种纪律使得缺乏竞争力的成员国无法快速解决贬值问题。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "双方都是在全力阻止解体，争论的是救助步骤而非解体步骤，恶性歪曲，排除。",
+                "option_nature": "干扰项（反向干扰 / 严重篡改谈判目标）",
+                "source_sentence": "the debate about how to save Europe’s single currency from disintegration is stuck.",
+                "source_translation": "关于如何挽救欧洲单一货币免于瓦解的争论陷入了僵局。",
+                "locator_comparison": "原文白纸黑字写着两国的争端是围绕 'how to save Europe's single currency from disintegration'（如何拯救欧洲单一货币免遭解体），双方谈判的出发点都是'阻止解体'。而 D 选项竟然篡改为两国在讨论'走向解体的步骤'（steps towards disintegration）上存在分歧，把挽救生命的救灾协商恶意歪曲成了分家产的破产清算协议。逻辑完全颠倒。",
+                "writing_perspective": "作者在后文强调欧洲一体化项目雄心勃勃，绝非在商讨分家路线图，D项严重违背作者论调。",
+                "theme_validation": "一体化的初衷未改，争论手段是为了保住欧元，D项彻底偏离主旨。",
+                "verdict": "复盘判断：D项颠倒谈判初衷与目标，坚决排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；<b>B</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>are</code>, <code>bu...；<b>C</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>D</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；"
+          "summary": "本题考查对定位句因果逻辑的精准提取。定位句指出德法虽然赞同 harmonisation，但 'disagree about what to harmonise'。正确项C精准将其转换为 'fail to reach an agreement on harmonisation'。干扰项则利用霸权相争（A）、各自忙乱（B）以及把拯救欧元颠倒为走向解体（D）制造多重障碍。",
+          "synonym_pairs": [
+            {
+              "opt_term": "fail to reach an agreement on harmonisation",
+              "text_term": "disagree about what to harmonise",
+              "logic": "同义短语反向转换：disagree about what to harmonise ↔ fail to reach an agreement on harmonisation"
+            }
+          ]
         },
         {
           "qid": 38,
           "stem": "To solve the euro problem, Germany proposed that .",
-          "stem_cn": "为了解决欧元问题，德国提出了这一建议。",
-          "type": "段落推理题",
+          "stem_cn": "为了彻底解决欧元区的债务困局，德国提议：",
+          "type": "事实细节题",
           "locate_pid": 3,
           "locate_sentence": "Germany thinks the euro must be saved by stricter rules on borrowing, spending and competitiveness, backed by quasi-automatic sanctions for governments that do not obey.",
-          "locate_sentence_cn": "德国认为必须通过更严格的借贷、支出和竞争力规则来拯救欧元，并对不遵守规则的政府实施准自动制裁。",
+          "locate_sentence_cn": "德国认为，拯救欧元必须依靠对借贷、财政支出和竞争力制定更为严厉的规则，并辅之以对不服从规则的政府施加准自动惩罚措施。",
           "options": [
             {
               "key": "A",
               "text": "EU funds for poor regions be increased",
-              "text_cn": "欧盟将增加贫困地区资金",
+              "text_cn": "大幅增加面向落后贫困地区的欧盟救助基金",
               "is_correct": false,
-              "trap_type": "干扰项（张冠李戴 / 范围偏差）",
+              "trap_type": "干扰项（反向干扰 / 颠倒制裁手段）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Yet the debate about how to save Europe’s single currency from disintegration is stuck.",
-                "source_translation": "然而，关于如何拯救欧洲单一货币免于解体的争论却陷入了僵局。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“之所以陷入困境，是因为欧元区的主导力量法国和德国都同意欧元区内部需要加强协调，但对于协调的内容存在分歧。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "德国提出的是冻结贫困地区资金作为惩罚，选项说增加资金与事实相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 颠倒制裁手段）",
+                "source_sentence": "These might include threats to freeze EU funds for poorer regions and EU mega-projects...",
+                "source_translation": "这些制裁可能包括威胁冻结流向贫困地区的欧盟基金和欧盟大型工程项目……",
+                "locator_comparison": "原文指出德国为了严惩违规乱花钱的政府，祭出的严厉制裁措施包括'freeze EU funds for poorer regions'（冻结面向贫困地区的欧盟基金）。A项使用 'increased'（增加资金），把德国施加的惩罚性制裁手段（冻结不给），颠倒成慈悲大发的主动注资救济。与原文事实黑白颠倒。",
+                "writing_perspective": "德国秉持新自由主义严苛财政纪律，痛恨无节制撒钱补贴，A项彻底违背德国一贯的经济哲学。",
+                "theme_validation": "德国方案的内核是紧缩与惩戒，绝非无原则增加援助，排除。",
+                "verdict": "复盘判断：A项颠倒惩罚事实，排除。"
               }
             },
             {
               "key": "B",
               "text": "stricter regulations be imposed",
-              "text_cn": "实施更严格的规定",
+              "text_cn": "推行并实施更加严格的财经规章纪律",
               "is_correct": true,
-              "trap_type": "★ 标准正确同义改写",
+              "trap_type": "★ 标准正确同义抽象概括",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
+                "practice_status": "stricter rules backed by sanctions完美对应stricter regulations be imposed，锁定正选。",
+                "option_nature": "★ 标准正确同义抽象概括",
                 "source_sentence": "Germany thinks the euro must be saved by stricter rules on borrowing, spending and competitiveness, backed by quasi-automatic sanctions for governments that do not obey.",
-                "source_translation": "德国认为必须通过更严格的借贷、支出和竞争力规则来拯救欧元，并对不遵守规则的政府实施准自动制裁。",
-                "locator_comparison": "选项核心词 <code>stricter</code>, <code>regulations</code>, <code>imposed</code>（“实施更严格的规定”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“之所以陷入困境，是因为欧元区的主导力量法国和德国都同意欧元区内部需要加强协调，但对于协调的内容存在分歧。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：B正确。"
+                "source_translation": "德国认为，拯救欧元必须依靠针对借贷、支出和竞争力的更严格规则，并以针对不服从政府的准自动制裁作为后盾。",
+                "locator_comparison": "定位句中明确列出德国救助方案的核心要素：'stricter rules on borrowing, spending and competitiveness'（在借贷、支出和竞争力方面制定更严格的规则），并且辅以强制自动制裁（quasi-automatic sanctions）。选项 B 将 'stricter rules' 纯正同义替换为 'stricter regulations'；将强制约束概括为 'be imposed'（强制推行实施）。两处核心语义完全契合，高度忠实于德国方案的核心精髓。",
+                "writing_perspective": "作者在第四段围绕'严明纪律'（economic rigour）展开对德国立场的刻画，B项精准抓住了这一核心论点。",
+                "theme_validation": "紧缩、纪律、严管是德国危机应对药方的代名词，B项完全契合全文主旨。",
+                "verdict": "复盘判断：B项用词精当、逻辑一致，正选无疑。"
               }
             },
             {
               "key": "C",
               "text": "only core members be involved in economic co-ordination",
-              "text_cn": "只有核心成员参与经济协调",
+              "text_cn": "经济政策协调仅限于少数核心成员国内部展开",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 过度推断）",
+              "trap_type": "干扰项（张冠李戴 / 错把法国主张安在德国头上）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Yet the debate about how to save Europe’s single currency from disintegration is stuck.",
-                "source_translation": "然而，关于如何拯救欧洲单一货币免于解体的争论却陷入了僵局。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“之所以陷入困境，是因为欧元区的主导力量法国和德国都同意欧元区内部需要加强协调，但对于协调的内容存在分歧。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "德国坚持全体27国参与协调，仅核心成员参与是法国主张，张冠李戴，排除。",
+                "option_nature": "干扰项（张冠李戴 / 错把法国主张安在德国头上）",
+                "source_sentence": "It insists that economic co-ordination should involve all 27 members of the EU club... in the inner core alone, Germany fears, a small majority favour French interference.",
+                "source_translation": "德国坚持认为经济协调应当涵盖欧盟俱乐部全部27个成员国……德国担忧，若仅在核心成员国圈子里，微弱多数会偏向法国的干预主义。",
+                "locator_comparison": "原文第4段末句明确交代：德国坚决主张'economic co-ordination should involve all 27 members'（经济协调必须涵盖全体27个成员国），因为在全员大池子里支持自由放任和财政严明纪律的国家占多数；而只在'inner core'（少数核心成员圈子）内部搞协调恰恰是法国所极力主张的（A 'southern' camp headed by France wants economic government within an inner core）。C项完完全全张冠李戴，把法国的提议扣在了德国头上。",
+                "writing_perspective": "作者特意通过'Germany fears'交代德国对少数核心圈的恐惧，C项把德国最害怕的事情说成是德国的主张，行文逻辑彻底颠倒。",
+                "theme_validation": "大欧盟（27国）制衡法意核心圈是德国的战略底牌，C项指鹿为马，排除。",
+                "verdict": "复盘判断：C项张冠李戴敌对阵营主张，坚决排除。"
               }
             },
             {
               "key": "D",
               "text": "voting rights of the EU members be guaranteed",
-              "text_cn": "欧盟成员国的投票权得到保障",
+              "text_cn": "坚决确保所有欧盟成员国的法定投票权不受侵犯",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
+              "trap_type": "干扰项（反向干扰 / 严重颠倒惩罚手段）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Yet the debate about how to save Europe’s single currency from disintegration is stuck.",
-                "source_translation": "然而，关于如何拯救欧洲单一货币免于解体的争论却陷入了僵局。",
-                "locator_comparison": "选项声称“欧盟成员国的投票权得到保障”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“之所以陷入困境，是因为欧元区的主导力量法国和德国都同意欧元区内部需要加强协调，但对于协调的内容存在分歧。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "德国威胁暂停不服从国家的投票权，选项说保障投票权与事实相反，排除。",
+                "option_nature": "干扰项（反向干扰 / 严重颠倒惩罚手段）",
+                "source_sentence": "and even the suspension of a country’s voting rights in EU ministerial councils.",
+                "source_translation": "甚至包括在欧盟部长理事会中暂停一个国家的投票表决权。",
+                "locator_comparison": "原文指出德国提出的极致制裁甚至包括'the suspension of a country's voting rights'（暂停剥夺违规国家的投票表决权）。而 D 选项使用 'guaranteed'（受到绝对保护/得到保障），直接将德国剥夺投票权的严厉制裁，曲解为保障各国的投票权。语义与事实完全走向反面。",
+                "writing_perspective": "作者以此证明德国铁腕手段的决绝与震慑力，若D项成立，根本无法形成制约威慑，违背立论意图。",
+                "theme_validation": "惩戒违规者是德国方案的核心利刃，D项反向颠倒，排除。",
+                "verdict": "复盘判断：D项与原文剥夺惩罚事实黑白颠倒，排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；<b>B</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>C</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；<b>D</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“欧盟成员国的投票权得到保障”，但在原文定位句中，作者表达的态...；"
+          "summary": "本题考查对具体阵营政策细节的准确锁定。德国主张新自由主义财政纪律：严格规矩（stricter rules）与准自动制裁（sanctions），并坚持27国全员参与。正确项B将 stricter rules 准确转述为 stricter regulations be imposed。干扰项分别将惩罚颠倒为援助（A）、张冠李戴法国主张（C）以及将剥夺表决权颠倒为保障（D）。",
+          "synonym_pairs": [
+            {
+              "opt_term": "stricter regulations be imposed",
+              "text_term": "stricter rules on borrowing, spending and competitiveness, backed by quasi-automatic sanctions",
+              "logic": "同义词语抽象概括：stricter rules ... backed by sanctions ↔ stricter regulations be imposed"
+            }
+          ]
         },
         {
           "qid": 39,
           "stem": "The French proposal of handling the crisis implies that .",
-          "stem_cn": "法国处理危机的建议暗示了这一点。",
-          "type": "词义/例证题",
+          "stem_cn": "法国提出的危机应对方案暗示着：",
+          "type": "推理判断题",
           "locate_pid": 4,
-          "locate_sentence": "A “southern” camp headed by France wants something different: “European economic government” within an inner core of euro-zone members.",
-          "locate_sentence_cn": "以法国为首的“南方”阵营想要不同的东西：在欧元区成员国的核心内建立“欧洲经济政府”。",
+          "locate_sentence": "A “southern” camp headed by France wants something different: “European economic government” within an inner core of euro-zone members. Translated, that means politicians intervening in monetary policy and a system of redistribution from richer to poorer members, via cheaper borrowing for governments through common Eurobonds or complete fiscal transfers.",
+          "locate_sentence_cn": "以法国为首的‘南方阵营’则另有所图：在欧元区核心成员国范围内建立‘欧洲经济政府’。翻译过来，这意味着政治家干预货币政策，并建立一套从富裕成员国向贫困成员国进行财富再分配的机制——通过发行统一的欧洲债券让各国政府获得低息贷款，或是实行全面的财政转移支付。",
           "options": [
             {
               "key": "A",
               "text": "poor countries are more likely to get funds",
-              "text_cn": "贫穷国家更有可能获得资金",
+              "text_cn": "财政困难的贫困国家更有可能获得流动性资金",
               "is_correct": true,
-              "trap_type": "★ 标准正确同义改写",
+              "trap_type": "★ 标准正确深层机制归纳推断",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "A “southern” camp headed by France wants something different: “European economic government” within an inner core of euro-zone members.",
-                "source_translation": "以法国为首的“南方”阵营想要不同的东西：在欧元区成员国的核心内建立“欧洲经济政府”。",
-                "locator_comparison": "选项核心词 <code>poor</code>, <code>countries</code>, <code>are</code>（“贫穷国家更有可能获得资金”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“These might include threats to freeze EU funds for poorer regions and EU mega-projects, and even the suspension of a country’s voting rights in EU ministerial councils”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：A正确。"
+                "practice_status": "富国向穷国再分配+转移支付+发低息欧元债，意味着穷国更容易拿钱，锁定正选。",
+                "option_nature": "★ 标准正确深层机制归纳推断",
+                "source_sentence": "a system of redistribution from richer to poorer members, via cheaper borrowing for governments through common Eurobonds or complete fiscal transfers.",
+                "source_translation": "一个通过发行统一欧洲债券让政府享受低息借贷、或是实行全面财政转移支付的、从富裕成员向贫穷成员进行财富再分配的体系。",
+                "locator_comparison": "定位句中清晰写明法国方案的实质：建立一套 'system of redistribution from richer to poorer members'（从富国向穷国进行资源再分配的机制），具体途径包括通过共同欧洲债券提供 'cheaper borrowing'（廉价借贷资金），以及 'complete fiscal transfers'（彻底的直接财政转移支付）。这直接暗示出，如果法国方案得以通过实施，那些深陷债务泥潭的穷国（poorer members）将更容易获得来自富国背书的低息借款和直接财政注资。选项 A 的 'poor countries are more likely to get funds' 深刻揭示了这一再分配机制的终极受益结果，推论极其工整。",
+                "writing_perspective": "作者使用'Translated, that means...'（翻译成人话就是……）这一讽刺幽默的修辞，目的就是撕开法国华丽口号的伪装，直指其实质就是找富国要钱贴补穷国，A项完全符合作者的揭示逻辑。",
+                "theme_validation": "德法博弈的本质就是紧缩不给钱（德）vs 劫富济贫再分配（法），A项精准呼应法国方案的利益核心。",
+                "verdict": "复盘判断：A项深得法国再分配机制之实质，正选无疑。"
               }
             },
             {
               "key": "B",
               "text": "strict monetary policy will be applied to poor countries",
-              "text_cn": "将对贫穷国家实行严格的货币政策",
+              "text_cn": "将对经济脆弱的贫困国家施加更为严苛的货币政策",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
+              "trap_type": "干扰项（张冠李戴 / 错把德国主张扣给法国）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Germany thinks the euro must be saved by stricter rules on borrowing, spending and competitiveness, backed by quasi-automatic sanctions for governments that do not obey.",
-                "source_translation": "德国认为必须通过更严格的借贷、支出和竞争力规则来拯救欧元，并对不遵守规则的政府实施准自动制裁。",
-                "locator_comparison": "选项声称“将对贫穷国家实行严格的货币政策”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“These might include threats to freeze EU funds for poorer regions and EU mega-projects, and even the suspension of a country’s voting rights in EU ministerial councils”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "严苛规则是德国方案，法国主张政治干预宽松救市，张冠李戴，排除。",
+                "option_nature": "干扰项（张冠李戴 / 错把德国主张扣给法国）",
+                "source_sentence": "Translated, that means politicians intervening in monetary policy and a system of redistribution from richer to poorer members...",
+                "source_translation": "翻译过来，这意味着政治家介入干预货币政策，并建立一套从富裕成员向贫困成员再分配的机制……",
+                "locator_comparison": "原文指出法国主张的是政客干预货币政策（politicians intervening in monetary policy）以实施宽松借贷和再分配，主打的是宽松和资金注入。对穷国施加严苛纪律和制裁规约（stricter rules and sanctions）恰恰是德国的主张。B项颠倒敌我阵营，把德国的严厉纪律张冠李戴扣到了主张放水再分配的法国头上。",
+                "writing_perspective": "法国代表的正是借贷成本居高不下的南方国家利益，不可能给自己套上更为严苛的紧箍咒，B项违背政治常理。",
+                "theme_validation": "法国方案力图缓解南方穷国的紧缩痛苦，B项与全文论述完全相反，排除。",
+                "verdict": "复盘判断：B项阵营主张倒置，果断排除。"
               }
             },
             {
               "key": "C",
               "text": "loans will be readily available to rich countries",
-              "text_cn": "富裕国家将很容易获得贷款",
+              "text_cn": "富裕国家将更加轻而易举地在资本市场获得贷款",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
+              "trap_type": "干扰项（偷换受惠主体 / 颠倒金融常理）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Germany thinks the euro must be saved by stricter rules on borrowing, spending and competitiveness, backed by quasi-automatic sanctions for governments that do not obey.",
-                "source_translation": "德国认为必须通过更严格的借贷、支出和竞争力规则来拯救欧元，并对不遵守规则的政府实施准自动制裁。",
-                "locator_comparison": "选项声称“富裕国家将很容易获得贷款”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“These might include threats to freeze EU funds for poorer regions and EU mega-projects, and even the suspension of a country’s voting rights in EU ministerial councils”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "再分配借钱是救穷国，富国自身信誉本来就高借钱不愁，偷换受惠对象，排除。",
+                "option_nature": "干扰项（偷换受惠主体 / 颠倒金融常理）",
+                "source_sentence": "via cheaper borrowing for governments through common Eurobonds or complete fiscal transfers.",
+                "source_translation": "通过统一的欧洲债券让政府获得更廉价的借贷，或者进行完全的财政转移支付。",
+                "locator_comparison": "在欧洲债券（Eurobonds）的设计中，是因为希腊、意大利等穷国主权信用评级极差、自身在市场上发债利率极高，才渴望拉上信用优良的富国（如德国）共同发债，从而借富国的优质信誉享受 'cheaper borrowing'（更廉价的借款）。富裕国家原本在市场上借贷利率就极低，发共同债券对其借贷不仅毫无益处，反而会推高其借贷成本并替穷国背债。C项把低息借款的真正受惠对象从'穷国'颠倒成了'富国'，严重背离了金融常识与原文意图。",
+                "writing_perspective": "作者强调再分配是'from richer to poorer'（富国流向穷国），C项却声称富国更容易拿贷款，主客体彻底颠倒。",
+                "theme_validation": "救助方案是为了拯救深陷债务违约危机的南方落后成员，C项跑题。",
+                "verdict": "复盘判断：C项受惠主体颠倒，坚决排除。"
               }
             },
             {
               "key": "D",
               "text": "rich countries will basically control Eurobonds",
-              "text_cn": "富裕国家将基本上控制欧洲债券",
+              "text_cn": "富裕国家将在未来全面控制欧洲共同债券的发行",
               "is_correct": false,
-              "trap_type": "干扰项（无中生有 / 过度推断）",
+              "trap_type": "干扰项（无中生有 / 主观臆断债券控制权）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Germany thinks the euro must be saved by stricter rules on borrowing, spending and competitiveness, backed by quasi-automatic sanctions for governments that do not obey.",
-                "source_translation": "德国认为必须通过更严格的借贷、支出和竞争力规则来拯救欧元，并对不遵守规则的政府实施准自动制裁。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“These might include threats to freeze EU funds for poorer regions and EU mega-projects, and even the suspension of a country’s voting rights in EU ministerial councils”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "富国极为排斥欧洲债券，且法国主张政治干预，未提富国控制，排除。",
+                "option_nature": "干扰项（无中生有 / 主观臆断债券控制权）",
+                "source_sentence": "via cheaper borrowing for governments through common Eurobonds or complete fiscal transfers.",
+                "source_translation": "通过共同的欧洲债券或完全的财政转移支付让政府享受更低息的借贷。",
+                "locator_comparison": "原文仅指出法国提议通过共同欧洲债券（common Eurobonds）来作为政府廉价借贷的融资载体，通篇从未提及富裕国家将'控制欧洲债券'（basically control Eurobonds）。相反，根据常理与原文逻辑，富国对欧洲债券极度抗拒，担心沦为替穷国买单的冤大头。D项凭空捏造债券控制权归属，纯属无中生有。",
+                "writing_perspective": "作者剖析的是资金分配机制，非权责归属与行政控制，D项脱离作者论题范畴。",
+                "theme_validation": "文章探讨宏观救急方案，不涉及具体债券机构管理权细则，排除。",
+                "verdict": "复盘判断：D项凭空捏造控制权细节，排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>B</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“将对贫穷国家实行严格的货币政策”，但在原文定位句中，作者表达...；<b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“富裕国家将很容易获得贷款”，但在原文定位句中，作者表达的态度...；<b>D</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；"
+          "summary": "本题考查对法国经济救助方案本质的深层推断。法国倡导的核心是建立超国家'经济政府'，通过共同欧洲债券和财政转移支付实现由富国向穷国的财富再分配（redistribution from richer to poorer）。正确项A精准概括其实质推论：穷国将更有可能获得低息流动资金。干扰项则分别通过张冠李戴德国主张（B）、颠倒受惠对象（C）以及虚构债券控制权（D）进行干扰。",
+          "synonym_pairs": [
+            {
+              "opt_term": "poor countries are more likely to get funds",
+              "text_term": "a system of redistribution from richer to poorer members, via cheaper borrowing ... or complete fiscal transfers",
+              "logic": "机制效果抽象改写：从富国向穷国再分配财富、低息借债或财政转移支付 ↔ 穷国更有可能获取资金"
+            }
+          ]
         },
         {
           "qid": 40,
           "stem": "Regarding the future of the EU, the author seems to feel .",
-          "stem_cn": "对于欧盟的未来，笔者似乎有这样的感受。",
-          "type": "全文主旨题",
+          "stem_cn": "对于欧盟的未来命运与前景，作者的心态似乎是：",
+          "type": "观点态度题",
           "locate_pid": 5,
-          "locate_sentence": "It is an ambitious attempt to blunt the sharpest edges of globalisation, and make capitalism benign.",
-          "locate_sentence_cn": "这是一次雄心勃勃的尝试，旨在削弱全球化最锋利的锋芒，让资本主义变得良性。",
+          "locate_sentence": "It is too soon to write off the EU. It remains the world’s largest trading block. At its best, the European project is remarkably liberal... It is an ambitious attempt to blunt the sharpest edges of globalisation, and make capitalism benign.",
+          "locate_sentence_cn": "现在就给欧盟下死亡判决为时尚早。它依然是全球最大的贸易集团。在最佳状态下，欧洲一体化项目展现出惊人的开放与包容……这是一项雄心勃勃的伟大尝试，旨在磨平全球化最锋利的棱角，让资本主义变得温柔而仁慈。",
           "options": [
             {
               "key": "A",
               "text": "pessimistic",
-              "text_cn": "悲观",
+              "text_cn": "悲观消极的",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
+              "trap_type": "干扰项（受前文危机局部细节干扰 / 忽视篇尾反转）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "These might include threats to freeze EU funds for poorer regions and EU mega-projects, and even the suspension of a country’s voting rights in EU ministerial councils.",
-                "source_translation": "这些措施可能包括威胁冻结欧盟对贫困地区和欧盟大型项目的资金，甚至暂停一个国家在欧盟部长理事会的投票权。",
-                "locator_comparison": "选项声称“悲观”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“它坚持经济协调应涉及欧盟俱乐部的所有27个成员，其中有微弱多数支持自由市场自由主义和经济严谨；德国担心，仅在内部核心，就有少数人赞成法国干涉。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "尾段首句斩钉截铁说现在判死刑太早，后文连番赞美，非悲观，排除。",
+                "option_nature": "干扰项（受前文危机局部细节干扰 / 忽视篇尾反转）",
+                "source_sentence": "It is too soon to write off the EU. It remains the world’s largest trading block.",
+                "source_translation": "现在就断言欧盟失败为时尚早。它依然是世界上最大宗的贸易集团。",
+                "locator_comparison": "文章前几段确实详尽剖析了债务危机与德法争端，但作者在第6段末尾明确进行了态度立场的强力反转：开宗明义指出 'It is too soon to write off the EU'（现在就认定欧盟完蛋了实在为时尚早），直接否定了外界的悲观论调。A项错把前文客观探讨的危机细节，当成了作者最终的结论性态度。",
+                "writing_perspective": "作者采用'抑扬'的论述手法：前面把问题分析得越深刻，末尾对欧洲一体化伟大价值的重申就越显得弥足珍贵与充满力量，A项忽视了结尾的重大升华。",
+                "theme_validation": "肯定其作为全球化缓冲器的独特价值，全文并非唱衰欧洲的挽歌，排除。",
+                "verdict": "复盘判断：A项与结尾鲜明立场对立，坚决排除。"
               }
             },
             {
               "key": "B",
               "text": "desperate",
-              "text_cn": "绝望的",
+              "text_cn": "绝望无助的",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
+              "trap_type": "干扰项（极端消极情感偏误）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "These might include threats to freeze EU funds for poorer regions and EU mega-projects, and even the suspension of a country’s voting rights in EU ministerial councils.",
-                "source_translation": "这些措施可能包括威胁冻结欧盟对贫困地区和欧盟大型项目的资金，甚至暂停一个国家在欧盟部长理事会的投票权。",
-                "locator_comparison": "选项声称“绝望的”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“它坚持经济协调应涉及欧盟俱乐部的所有27个成员，其中有微弱多数支持自由市场自由主义和经济严谨；德国担心，仅在内部核心，就有少数人赞成法国干涉。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "连用remains largest, ambitious attempt等赞美词，毫无绝望之感，排除。",
+                "option_nature": "干扰项（极端消极情感偏误）",
+                "source_sentence": "At its best, the European project is remarkably liberal... It is an ambitious attempt to blunt the sharpest edges of globalisation...",
+                "source_translation": "在最理想状态下，欧洲项目是极其自由开放的……它是磨平全球化最锋利棱角的一次雄心勃勃的尝试……",
+                "locator_comparison": "'desperate' 意为极度绝望的、无可救药的。末段作者连用一系列极具褒义色彩的定性：'remains the world’s largest trading block'（依然是全球最大贸易集团）、'remarkably liberal'（极其自由开放）、'ambitious attempt'（雄心勃勃的尝试）、'make capitalism benign'（使资本主义变得仁慈）。整个末段洋溢着崇高的历史崇高感与对人类文明探索的赞颂，没有流露出哪怕半点绝望绝望之气。B项纯属极端负向干扰。",
+                "writing_perspective": "作者在篇末赋予欧洲一体化崇高的历史使命，字里行间展现出深邃的理性乐观，绝非哀叹绝望。",
+                "theme_validation": "文明探索的雄心与绝望水火不容，B项感情色彩极端偏离。",
+                "verdict": "复盘判断：B项情感定性极端荒谬，排除。"
               }
             },
             {
               "key": "C",
               "text": "conceited",
-              "text_cn": "自负",
+              "text_cn": "自负盲目的",
               "is_correct": false,
-              "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
+              "trap_type": "干扰项（主观定性偏差 / 混淆赞扬与自大）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "These might include threats to freeze EU funds for poorer regions and EU mega-projects, and even the suspension of a country’s voting rights in EU ministerial councils.",
-                "source_translation": "这些措施可能包括威胁冻结欧盟对贫困地区和欧盟大型项目的资金，甚至暂停一个国家在欧盟部长理事会的投票权。",
-                "locator_comparison": "选项声称“自负”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“它坚持经济协调应涉及欧盟俱乐部的所有27个成员，其中有微弱多数支持自由市场自由主义和经济严谨；德国担心，仅在内部核心，就有少数人赞成法国干涉。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "作者理性客观剖析危机与机制，非自负盲目，排除。",
+                "option_nature": "干扰项（主观定性偏差 / 混淆赞扬与自大）",
+                "source_sentence": "It is too soon to write off the EU. It remains the world’s largest trading block...",
+                "source_translation": "现在就放弃欧盟为时过早。它依然是世界最大的贸易集团……",
+                "locator_comparison": "'conceited' 意为自负的、傲慢的、目中无人的。作者通篇前5段极其客观严谨地揭露了欧元区机制缺陷、债务泥潭与德法争端僵局，展现出极高的专业洞察与直面问题的勇气，绝非盲目自负；末段对欧盟优势与理想的阐述同样建立在世界最大贸易集团这一客观经济体量基础之上。C项将深沉厚重的期许恶意贬损为盲目自负，用词严重失当。",
+                "writing_perspective": "作者始终保持着客观独立的第三方分析家视角，既非欧盟狂热的说客，也非傲慢自大者，C项歪曲其学术格调。",
+                "theme_validation": "严肃政经社论不会持有轻浮自大的态度，排除。",
+                "verdict": "复盘判断：C项贬义色彩偏离主旨，排除。"
               }
             },
             {
               "key": "D",
               "text": "hopeful\nᆇี൫ज@JOEE ༯໶",
-              "text_cn": "hopeful\nᆇี൫ज@JOEE ༯໶",
+              "text_cn": "充满希望与审慎期待的",
               "is_correct": true,
-              "trap_type": "★ 标准正确同义改写",
+              "trap_type": "★ 标准正确全局态度概括",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "It is an ambitious attempt to blunt the sharpest edges of globalisation, and make capitalism benign.",
-                "source_translation": "这是一次雄心勃勃的尝试，旨在削弱全球化最锋利的锋芒，让资本主义变得良性。",
-                "locator_comparison": "选项核心词 <code>hopeful</code>, <code>JOEE</code>（“hopeful\nᆇี൫ज@JOEE ༯໶”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“它坚持经济协调应涉及欧盟俱乐部的所有27个成员，其中有微弱多数支持自由市场自由主义和经济严谨；德国担心，仅在内部核心，就有少数人赞成法国干涉。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：D正确。"
+                "practice_status": "too soon to write off + make capitalism benign，明确传达对未来的肯定希望，锁定正选。",
+                "option_nature": "★ 标准正确全局态度概括",
+                "source_sentence": "It is too soon to write off the EU. It remains the world’s largest trading block. At its best, the European project is remarkably liberal... It is an ambitious attempt to blunt the sharpest edges of globalisation, and make capitalism benign.",
+                "source_translation": "现在就认定欧盟失败为时尚早。它依然是世界上最大的贸易集团。在最佳状态下，欧洲一体化项目展示出非凡的开放与自由……这是一项雄心勃勃的伟大尝试，旨在磨平全球化最锋利的棱角，让资本主义变得更加仁慈。",
+                "locator_comparison": "末段全段是判断作者全局立场的终极依据：首先用 'too soon to write off'（下死亡判决太早）斩钉截铁扫清外界看衰阴霾；随后以 'world’s largest trading block' 奠定雄厚现实底盘；最后用极富哲理诗意的定论——'ambitious attempt to blunt the sharpest edges of globalisation, and make capitalism benign'（旨在磨平全球化最锋利棱角、让资本主义变得善良温和的伟大雄心探索），将欧洲一体化拔高到了人类文明自我完善与制度创新的崇高高度。这无一不展现出作者对欧盟历经风雨终将涅槃重生的坚定信念与深切期许（hopeful）。D项完美契合。",
+                "writing_perspective": "作者在篇章结构上深谙政论行文精髓：经历全文沉重的危机解构后，结尾笔锋陡转，赋予其宏大的历史纵深感与终极希望，体现出高级知识分子的远见卓识。",
+                "theme_validation": "危机终将过去，理想烛照未来，D项完美收束全文探讨欧洲命运的核心主旨。",
+                "verdict": "复盘判断：D项全局提炼深邃精准，正选无疑。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“悲观”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，...；<b>B</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“绝望的”，但在原文定位句中，作者表达的态度或客观事实恰恰相反...；<b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“自负”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，...；<b>D</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；"
+          "summary": "本题考查对政论文篇尾感情升华的精准捕捉。作者虽在正文详述债务泥潭，但在末段连续使用 'too soon to write off'、'remarkably liberal'、'ambitious attempt'、'make capitalism benign'，高度肯定欧洲一体化磨平全球化锋芒的伟大价值。正确项D精准定性为充满希望（hopeful）。干扰项则分别在过度悲观（A、B）与用词失当（C）上设置混淆。",
+          "synonym_pairs": [
+            {
+              "opt_term": "hopeful",
+              "text_term": "too soon to write off the EU ... remarkable ... ambitious attempt to ... make capitalism benign",
+              "logic": "篇尾哲理升华：现在判死刑为时尚早 + 赞美其伟大雄心与崇高价值 ↔ hopeful（怀有希望）"
+            }
+          ]
         }
       ],
       "macro_logic": {
