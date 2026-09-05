@@ -348,5 +348,80 @@ window.KAOYAN_MANIFEST = [
         "title": "Text 4"
       }
     ]
+  },
+  {
+    "year": 2024,
+    "texts": [
+      {
+        "id": 1,
+        "q_range": "21-25",
+        "title": "Text 1"
+      },
+      {
+        "id": 2,
+        "q_range": "26-30",
+        "title": "Text 2"
+      },
+      {
+        "id": 3,
+        "q_range": "31-35",
+        "title": "Text 3"
+      },
+      {
+        "id": 4,
+        "q_range": "36-40",
+        "title": "Text 4"
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "texts": [
+      {
+        "id": 1,
+        "q_range": "21-25",
+        "title": "Text 1"
+      },
+      {
+        "id": 2,
+        "q_range": "26-30",
+        "title": "Text 2"
+      },
+      {
+        "id": 3,
+        "q_range": "31-35",
+        "title": "Text 3"
+      },
+      {
+        "id": 4,
+        "q_range": "36-40",
+        "title": "Text 4"
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "texts": [
+      {
+        "id": 1,
+        "q_range": "21-25",
+        "title": "Text 1"
+      },
+      {
+        "id": 2,
+        "q_range": "26-30",
+        "title": "Text 2"
+      },
+      {
+        "id": 3,
+        "q_range": "31-35",
+        "title": "Text 3"
+      },
+      {
+        "id": 4,
+        "q_range": "36-40",
+        "title": "Text 4"
+      }
+    ]
   }
 ];

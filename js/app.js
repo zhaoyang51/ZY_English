@@ -374,9 +374,15 @@
     const mins = Math.floor((metrics.totalTimeSpentSec % 3600) / 60);
     const timeStr = hours > 0 ? `${hours}小时${mins}分` : `${mins}分钟`;
 
-    // Build 14-Year Progress Heatmap
+    // Build Progress Heatmap (Dynamic for all available years)
     let heatmapHtml = '';
-    for (let yr = 2010; yr <= 2023; yr++) {
+    const manifest = window.KAOYAN_MANIFEST || [];
+    const years = manifest.length > 0 ? manifest.map(m => m.year) : Array.from({length: 17}, (_, i) => 2010 + i);
+    const startYr = years.length > 0 ? years[0] : 2010;
+    const endYr = years.length > 0 ? years[years.length - 1] : 2026;
+    const totalTexts = metrics.totalTexts || (years.length * 4);
+
+    years.forEach(yr => {
       let chipsHtml = '';
       for (let tId = 1; tId <= 4; tId++) {
         const key = `${yr}_${tId}`;
@@ -403,13 +409,13 @@
           <div class="heatmap-texts-row">${chipsHtml}</div>
         </div>
       `;
-    }
+    });
 
     statsContainer.innerHTML = `
       <div class="stats-metrics-grid">
         <div class="stat-box">
           <div class="stat-lbl">总精读进度</div>
-          <div class="stat-val">${metrics.completedCount} / 56 <span style="font-size:0.5em;color:var(--muted)">(${metrics.progressPercent}%)</span></div>
+          <div class="stat-val">${metrics.completedCount} / ${totalTexts} <span style="font-size:0.5em;color:var(--muted)">(${metrics.progressPercent}%)</span></div>
         </div>
         <div class="stat-box">
           <div class="stat-lbl">模考平均正确率</div>
@@ -425,7 +431,7 @@
         </div>
       </div>
 
-      <h4 style="margin-bottom:12px;font-size:1.05em">📅 2010-2023 全景学习进度矩阵 (点击直达篇章)</h4>
+      <h4 style="margin-bottom:12px;font-size:1.05em">📅 ${startYr}-${endYr} 全景学习进度矩阵 (点击直达篇章)</h4>
       <div class="heatmap-grid">${heatmapHtml}</div>
     `;
   }

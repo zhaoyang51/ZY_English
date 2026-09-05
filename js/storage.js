@@ -113,7 +113,8 @@
 
     getDashboardMetrics() {
       const stats = this.getAllStats();
-      const totalTexts = 56;
+      const manifest = window.KAOYAN_MANIFEST || [];
+      const totalTexts = manifest.length > 0 ? manifest.reduce((acc, m) => acc + (m.texts ? m.texts.length : 4), 0) : 68;
       let completedCount = 0;
       let totalAcc = 0;
       let accCount = 0;
