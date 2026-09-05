@@ -536,6 +536,8 @@
       if (b.type.includes('定语')) tagClass = 'tag-attributive';
       if (b.type.includes('状语')) tagClass = 'tag-adverbial';
       if (b.type.includes('名词')) tagClass = 'tag-noun';
+      if (b.type.includes('逻辑') || b.type.includes('考点')) tagClass = 'tag-logic';
+      if (b.type.includes('非谓语') || b.type.includes('特殊') || b.type.includes('同位语') || b.type.includes('修饰')) tagClass = 'tag-special';
       return `<li style="margin-bottom:8px;font-family:var(--font-base)"><span class="syntax-tag ${tagClass}">[${b.type}]</span> <strong style="font-family:var(--font-base);color:var(--ink)">${b.content}</strong> — <span style="font-family:var(--font-base)">${b.explanation}</span></li>`;
     }).join('');
 

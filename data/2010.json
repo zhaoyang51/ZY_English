@@ -671,8 +671,23 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The longest bull run in a century of art-market history ende...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The longest bull run ... ended on a dramatic note with a sale of 56 works",
+                "explanation": "主干为主谓结构。主语为 The longest bull run（最长牛市），后接介词短语 in a century of art-market history 作后置定语；谓语动词为 ended（走向终结）；介词短语 on a dramatic note 与 with a sale of 56 works 作方式/伴随状语，点明牛市终结的戏剧性场景与标志性拍卖事件。"
+              },
+              {
+                "type": "同位语修饰",
+                "content": "Beautiful Inside My Head Forever",
+                "explanation": "专有名词短语作 56 works 的同位语，具体指代该批拍卖作品的专场主题名称《美丽在我脑海中永存》。"
+              },
+              {
+                "type": "地点与时间状语",
+                "content": "at Sotheby’s in London on September 15th 2008",
+                "explanation": "连续三个介词短语层层限定动作发生的具体空间与时间：在伦敦苏富比拍卖行、于2008年9月15日。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The longest bull run ... ended on a dramatic note",
+                "explanation": "篇章首句点题。采用典型的新闻倒金字塔叙事笔法，开篇即宣告艺术品市场世纪牛市的戏剧性终结，同时创纪录的单场拍卖为下文雷曼兄弟破产的金融海啸形成强烈的反差对比与悬念铺垫。对应后文 Q21 题眼因果背景。"
               }
             ]
           }
@@ -689,8 +704,23 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "All but two pieces sold, fetching more than £70m, a record f...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "All but two pieces sold",
+                "explanation": "主干为主谓结构。主语为 All but two pieces（除两件作品外的全部作品），介词短语 but two pieces 作后置定语；谓语动词 sold 为不及物用法，意为“售出、成交”。"
+              },
+              {
+                "type": "非谓语/结果状语",
+                "content": "fetching more than £70m",
+                "explanation": "现在分词短语作伴随/结果状语，逻辑主语为售出的艺术品，直观补充说明拍卖成交的惊人总额（逾7000万英镑）。"
+              },
+              {
+                "type": "同位语修饰",
+                "content": "a record for a sale by a single artist",
+                "explanation": "名词短语作为前面 £70m 的同位语，对成交额作出定性评价，指出这一金额打破了单场单个艺术家的拍卖历史纪录。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "All but two pieces sold ... a record for a sale",
+                "explanation": "事实论据。通过极高成交率（仅2件流拍）和创纪录成交额，将艺术品市场的狂热烘托至极点，与下一句雷曼兄弟破产的金融海啸形成戏剧化悬殊反差。"
               }
             ]
           }
@@ -707,8 +737,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "It was a last victory....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "It was a last victory",
+                "explanation": "主干为主系表结构。主语代词 It 指代上句赫斯特拍卖破纪录的成交结果；系动词 was；表语为 a last victory（最后的一场胜利）。"
+              },
+              {
+                "type": "修饰词析义",
+                "content": "last",
+                "explanation": "定语 last（最后的）在此处蕴含强烈的伏笔（foreshadowing），定性这一胜利并非繁荣的开端，而是大崩溃前最后的夕阳晚照。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "It was a last victory",
+                "explanation": "承上启下转折过渡句（Transition）。既承接前句 7000 万英镑的历史纪录，又以“最后”一词迅速给狂欢泼冷水，直接引出下文雷曼破产的惊天巨震。本句是 Q21 题直接题眼，考查作者为何将其称为“最后的胜利”。"
               }
             ]
           }
@@ -725,8 +765,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "As the auctioneer called out bids, in New York one of the ol...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "in New York one of the oldest banks on Wall Street, Lehman Brothers, filed for bankruptcy",
+                "explanation": "主干为主谓结构（介宾短语作宾语）。主语为 one of the oldest banks（最古老的银行之一），介词短语 on Wall Street 作后置定语；Lehman Brothers 为插入同位语明确银行名称；谓语动词 filed 与介词短语 for bankruptcy 构成固定商业法律搭配，意为“申请破产保护”。"
+              },
+              {
+                "type": "时间状语从句",
+                "content": "As the auctioneer called out bids",
+                "explanation": "由从属连词 as 引导时间状语从句，表示“正当拍卖师高声报出竞标价时”，强调两个事件在时间维度上的高度同步性。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "As the auctioneer called out bids ... Lehman Brothers filed for bankruptcy",
+                "explanation": "时空双线蒙太奇式强对比：一边是伦敦苏富比拍卖行最后的狂欢叫价，另一边是纽约华尔街雷曼兄弟轟然倒闭。通过同时发生的动作构成极具讽刺意味和命运转折感的强对照，标志着金融危机海啸正式冲击艺术市场。"
               }
             ]
           }
@@ -742,9 +792,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "while after rising bewilderingly since 2003....",
-                "explanation": "从属连词 <code>while</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "The world art market had already been losing momentum for a while",
+                "explanation": "主干为主谓宾结构。主语为 The world art market（全球艺术品市场）；谓语为过去完成进行时 had already been losing（在此之前已一直在失去），体现动作在雷曼破产前就已处于下行通道；宾语为 momentum（上升势头）；for a while 作时间状语。"
+              },
+              {
+                "type": "介词短语/时间修饰",
+                "content": "after rising bewilderingly since 2003",
+                "explanation": "介词 after 后接动名词短语 rising bewilderingly 作时间状语，副词 bewilderingly（令人眼花缭乱地/惊人地）修饰动名词 rising；since 2003 作时间后置修饰，交代牛市起始点。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "had already been losing momentum ... after rising bewilderingly",
+                "explanation": "段落核心主题句（Topic Sentence）。揭示艺术市场的繁荣泡沫在赫斯特拍卖之前就已出现衰竭迹象，纠正读者的直觉误区。对应 Q22 题关于艺术品市场整体发展势头的理解。"
               }
             ]
           }
@@ -761,8 +821,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "At its peak in 2007 it was worth some $65 billion, reckons C...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "At its peak in 2007 it was worth some $65 billion ... double the figure five years earlier",
+                "explanation": "主干为主系表/主谓补结构。主语代词 it 指代艺术品市场规模；系动词 was；表语/形容词短语 worth some $65 billion；破折号后 double the figure five years earlier 为数量同位语/补足语，生动对比 5 年间翻倍的庞大体量。"
+              },
+              {
+                "type": "插入语/信源引用",
+                "content": "reckons Clare McAndrew, founder of Arts Economics, a research firm",
+                "explanation": "动词前置的插入语引出权威统计信源，founder of... 与 a research firm 为层层嵌套同位语，交代分析师身份与机构资质，增强数据说服力。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "At its peak in 2007 it was worth some $65 billion ... double the figure",
+                "explanation": "数据论据（Statistics Evidence）。列举 2007 年巅峰期的 650 亿美元体量与 5 年翻番的扩张速度，为后文描述市场暴跌提供精准的参考基准线。"
               }
             ]
           }
@@ -778,9 +848,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "Since then it may have come down to $50 billio...",
-                "explanation": "从属连词 <code>Since</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "it may have come down to $50 billion",
+                "explanation": "主干为主谓结构。主语 it 指代市场总估值；谓语为情态动词 may + 完成式 have come down to（可能已经缩水降至），表示对过去到目前状况的合理推测；介词短语 to $50 billion 点明下跌后的规模。"
+              },
+              {
+                "type": "时间状语",
+                "content": "Since then",
+                "explanation": "介词短语作时间状语，指代自 2007 年高点以来的这轮下行期。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Since then it may have come down to $50 billion",
+                "explanation": "承接前句。从 650 亿高点跌至 500 亿，直接量化了艺术市场的急剧降温与市值蒸发，强化衰退现实。"
               }
             ]
           }
@@ -796,9 +876,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "because it brings together great wealth...",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "But the market generates interest far beyond its size",
+                "explanation": "主干为主谓宾结构。连词 But 表语意转折；主语 the market；谓语动词 generates（激发、产生）；宾语 interest（公众兴趣/关注度）；副词短语 far beyond its size（远超其自身规模）作后置补语。"
+              },
+              {
+                "type": "原因状语从句",
+                "content": "because it brings together great wealth, enormous egos, greed, passion and controversy",
+                "explanation": "由 because 引导原因状语从句，阐述关注度奇高的深层原因。从句谓语 brings together（汇聚）后并列了五大宾语名词短语：巨额财富、极度膨胀的自负、贪婪、激情与争议。"
+              },
+              {
+                "type": "后置定语修饰",
+                "content": "in a way matched by few other industries",
+                "explanation": "介词短语 in a way 作从句方式状语，过去分词短语 matched by few other industries（几乎没有其他行业能够比拟）作 way 的后置定语，凸显其独特吸引力。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "far beyond its size ... in a way matched by few other industries",
+                "explanation": "真题核心考点句（Q23 题眼）。出题人精准考查本句的同义替换：将 in a way matched by few other industries 同义转化为正确选项中的 surpassed many other industries in momentum。抓取句中 matched by few 是解题关键。"
               }
             ]
           }
@@ -814,9 +909,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that followed Mr....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "从句与介词短语",
+                "content": "In the weeks and months that followed Mr.",
+                "explanation": "时间状语介词短语 In the weeks and months 后接定语从句 that followed Mr. (Hirst’s sale)，关系词 that 在从句中充当主语，先行词为 the weeks and months，引出拍卖会后的时间背景。（注：原题排版由于缩写点将该句与下句断开）"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "In the weeks and months that followed",
+                "explanation": "时间推进衔接。将叙事视角由单日拍卖转入随后数周及数月的宏观市场寒冬，作为第3段的引子。"
               }
             ]
           }
@@ -833,8 +933,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Hirst’s sale, spending of any sort became deeply unfashionab...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Hirst’s sale, spending of any sort became deeply unfashionable",
+                "explanation": "主干为主系表结构。承接前句名词所有格 Hirst’s sale；主语为动名词短语 spending of any sort（任何形式的开销/挥霍）；系动词 became；表语为形容词 unfashionable（不合时宜的/过时的），副词 deeply（极其、非常）作程度状语修饰表语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "spending of any sort became deeply unfashionable",
+                "explanation": "社会心态概括句。点出金融风暴下富豪阶层消费心理的根本转变：由炫耀性消费转入低调避险，直接导致下一句画廊与拍卖行冷场。"
               }
             ]
           }
@@ -850,9 +955,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that meant collectors stayed away from galler...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "In the art world that meant collectors stayed away from galleries and salerooms",
+                "explanation": "主干为主谓宾（宾语从句）结构。In the art world 为领域状语；主语代词 that 指代上句挥霍消费不再流行的社会风气；谓语动词 meant（意味着）；省略连接词 that 的宾语从句 collectors stayed away from galleries and salerooms 充当宾语，说明收藏家集体远离交易场所的客观事实。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "collectors stayed away from galleries and salerooms",
+                "explanation": "核心题眼句（Q22 题定位句）。将上文抽象的 unfashionable 落地为艺术界买家的具体行为。对应正确答案：collectors were no longer actively involved in art-market auctions。"
               }
             ]
           }
@@ -869,8 +979,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Sales of contemporary art fell by two-thirds, and in the mos...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Sales of contemporary art fell by two-thirds, and in the most overheated sector, they were down by nearly 90 % in the year to November 2008",
+                "explanation": "主干为 and 连接的两个并列分句。第一分句为主谓结构：主语 Sales of contemporary art（当代艺术品销量），谓语 fell，介词短语 by two-thirds 表降幅比例（跌掉三分之二）；第二分句中 they 指代销量，系表结构 were down，介词短语 by nearly 90 % 表降幅，状语 in the most overheated sector 与 in the year to... 说明统计范围与时间跨度。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "fell by two-thirds ... down by nearly 90 %",
+                "explanation": "强冲击力数据论证。从整体板块的“跌去三分之二”到投机过热板块的“暴跌近九成”，层层递进展现当代艺术品市场雪崩式的流动性衰竭。"
               }
             ]
           }
@@ -886,9 +1001,19 @@
           "syntax": {
             "breakdown": [
               {
+                "type": "主干剖析",
+                "content": "the world’s two biggest auction houses, Sotheby’s and Christie’s, had to pay out nearly $200m in guarantees to clients",
+                "explanation": "主干为主谓宾结构。主语为 the world’s two biggest auction houses（全球最大的两家拍卖行），同位语 Sotheby’s and Christie’s 点明具体机构；谓语动词 had to pay out（被迫偿付支出）；宾语为 nearly $200m；介词短语 in guarantees（以保底担保金形式）与 to clients（向客户）作后置修饰与受益对象。"
+              },
+              {
                 "type": "定语从句",
-                "content": "who had placed works for sale with them....",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "content": "who had placed works for sale with them",
+                "explanation": "关系代词 who 引导限制性定语从句，在从句中作主语，先行词为 clients，过去完成时 had placed 说明在此前已将作品委托拍卖行寄售的背景事实。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "had to pay out nearly $200m in guarantees",
+                "explanation": "后果论据。点明拍卖行自身深陷“保底价（guarantees）机制”泥潭，不仅成交佣金锐减，还面临巨额现金垫付亏损，极力印证行业危机的全面蔓延。"
               }
             ]
           }
@@ -904,9 +1029,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "since the Japanese stopped buying Impressionis...",
-                "explanation": "从属连词 <code>since</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "The current downturn in the art market is the worst",
+                "explanation": "主干为主系表结构。主语为 The current downturn in the art market（当前艺术市场的低迷萧条）；系动词 is；表语为最高级 the worst（最严重的一次）。"
+              },
+              {
+                "type": "时间状语从句",
+                "content": "since the Japanese stopped buying Impressionists at the end of 1989",
+                "explanation": "从属连词 since 引导时间状语从句，主语 the Japanese，谓语动词 stopped，动名词短语 buying Impressionists 作宾语，时间状语 at the end of 1989 回溯历史拐点。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The current downturn ... is the worst since ... 1989",
+                "explanation": "横向历史纵深对比。将当下的暴跌与 1989 年底日本泡沫破裂、狂买印象派名画戛然而止的标志性历史崩盘相比拟，凸显此次危机的历史级严重程度。"
               }
             ]
           }
@@ -922,14 +1057,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "though some have been far more fluctuant....",
-                "explanation": "从属连词 <code>though</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "This time experts reckon that prices are about 40 % down on their peak on average",
+                "explanation": "主干为主谓宾（宾语从句）结构。This time 作时间状语；主语 experts；谓语动词 reckon（估计、测算）；that 引导宾语从句，从句主干 prices are about 40 % down（价格下跌约40%），on their peak（相比巅峰）与 on average（平均而言）作限定范围状语。"
               },
               {
-                "type": "名词性从句",
-                "content": "that prices are about 40 % down on their peak...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "让步状语从句",
+                "content": "though some have been far more fluctuant",
+                "explanation": "从属连词 though 引导让步状语从句，代词 some 指代某些特定板块或作品的价格，系表结构 have been far more fluctuant（剧烈动荡得多），补充说明平均降幅下的结构分化。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "prices are about 40 % down ... though some have been far more fluctuant",
+                "explanation": "严谨客观的学术分析。先指出整体均价下挫40%，再通过 though 补充部分高波动资产跌幅更深，展现分析的立体性与可信度。"
               }
             ]
           }
@@ -946,8 +1086,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But Edward Dolman, Christie’s chief executive, says: “I’m pr...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But Edward Dolman, Christie’s chief executive, says: “I’m pretty confident we’re at the bottom.”",
+                "explanation": "主干为主谓宾（直接引语）结构。连词 But 表转折；主语 Edward Dolman，同位语 Christie’s chief executive 说明职务头衔；谓语动词 says；冒号后为直接引语：主系表 I’m pretty confident 嵌套省略 that 的从句 we’re at the bottom（我们已经处于底部）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "But ... I’m pretty confident we’re at the bottom",
+                "explanation": "权威人士观点引述。转折词 But 引出佳士得 CEO 独树一帜的乐观论调，作为全篇观点反转的关键节点，顺势引出第5段关于“此次暴跌不同于以往、仍有潜在买家”的论证。"
               }
             ]
           }
@@ -963,9 +1108,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "What makes this slump different from the last...",
-                "explanation": "连接词 <code>What</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "What makes this slump different from the last ... is that there are still buyers in the market",
+                "explanation": "主干为主系表结构（主语从句 + 表语从句嵌套）。主语为 What 引导的主语从句 What makes this slump different from the last（使此次暴跌不同于以往的特征）；系动词 is；that 引导表语从句 that there are still buyers in the market（市场上依然有买家存在）。"
+              },
+              {
+                "type": "插入语",
+                "content": "he says",
+                "explanation": "双逗号之间的 he says 为简短插入语，注明论断出处。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "What makes this slump different ... is that there are still buyers",
+                "explanation": "第5段段落主题句（Topic Sentence）。承接上文的谷底判断，点明本质差异：并非彻底丧失购买力，市场底盘仍在，为下文剖析“惜售”心理奠定逻辑立足点。"
               }
             ]
           }
@@ -981,9 +1136,19 @@
           "syntax": {
             "breakdown": [
               {
+                "type": "主干剖析",
+                "content": "Almost everyone ... said that the biggest problem at the moment is not a lack of demand but a lack of good work to sell",
+                "explanation": "主干为主谓宾（宾语从句）结构。主语 Almost everyone；谓语动词 said；that 引导宾语从句，从句主语 the biggest problem at the moment，系动词 is，表语为 not... but...（不是……而是……）平行结构：not a lack of demand（不是缺乏需求）but a lack of good work to sell（而是缺乏可卖的优秀精品，动词不定式 to sell 作 work 的后置定语）。"
+              },
+              {
                 "type": "定语从句",
-                "content": "who was interviewed for this special report ...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "content": "who was interviewed for this special report",
+                "explanation": "关系代词 who 引导限制性定语从句修饰先行词 everyone，在从句中作被动语态的主语，交代调查样本来源于该专题采访对象。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "not a lack of demand but a lack of good work to sell",
+                "explanation": "核心论点与考点句。not...but... 结构是考研阅读极其关键的题眼句型，重点永远在 but 之后。出题人直接由此设题，考查当前市场真正的症结所在：买家需求犹在，真正缺乏的是值得入手的顶级好货。"
               }
             ]
           }
@@ -1000,8 +1165,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The three Ds—death, debt and divorce—still deliver works of ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The three Ds ... still deliver works of art to the market",
+                "explanation": "主干为主谓宾结构。主语为 The three Ds（“3D”法则）；谓语动词为 deliver（输送、供应）；宾语为 works of art（艺术作品）；地点介词短语 to the market 作方向状语。"
+              },
+              {
+                "type": "同位语修饰",
+                "content": "—death, debt and divorce—",
+                "explanation": "破折号之间的三个并列名词 death, debt and divorce 充当 The three Ds 的同位语，具体指代导致藏家不得不抛售家当的三大被动诱因：死亡（遗产分割）、债务（破产还债）与离婚（财产拆分）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The three Ds—death, debt and divorce—still deliver works",
+                "explanation": "Q24 题核心定位题眼。考查出题人在文中提及“三个D”的修辞意图：阐述在萧条期推动艺术品依然流入市场的被动流通因素（factors promoting artwork circulation）。"
               }
             ]
           }
@@ -1017,9 +1192,19 @@
           "syntax": {
             "breakdown": [
               {
+                "type": "主干剖析",
+                "content": "But anyone ... is keeping away, waiting for confidence to return",
+                "explanation": "主干为主谓宾/系表结构。连词 But 表转折；主语代词 anyone；谓语动词短语 is keeping away（正在保持观望、远离市场）；现在分词短语 waiting for confidence to return 作伴随状语，动词不定式 to return 作介词 for 的宾语补足语，表明观望者的心理预期。"
+              },
+              {
                 "type": "定语从句",
-                "content": "who does not have to sell is keeping away...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "content": "who does not have to sell",
+                "explanation": "关系代词 who 引导限制性定语从句修饰先行词 anyone，在从句中作主语，强调非被迫出售的自由藏家群体。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "But anyone who does not have to sell is keeping away",
+                "explanation": "全文尾句收束与强转折对比。与前句被迫出售的“3D”群体形成鲜明对照：只要没有致命债务或变故，理性藏家绝不在谷底贱卖，选择惜售观望等待信心复苏。完美回应全文主旨与市场供需僵局。"
               }
             ]
           }
@@ -2195,9 +2380,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that had invited men to join them....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "I was addressing a small gathering in a suburban Virginia living room",
+                "explanation": "主干为主谓宾结构。主语第一人称 I；谓语为过去进行时 was addressing（当时正在向……发表演说/讲话）；宾语 a small gathering（一次小型聚会）；介词短语 in a suburban Virginia living room（在弗吉尼亚郊区的一间客厅里）作地点状语。"
+              },
+              {
+                "type": "同位语与定语从句",
+                "content": "—a women’s group that had invited men to join them",
+                "explanation": "破折号后名词短语 a women’s group 作 a small gathering 的同位语；that 引导限制性定语从句修饰先行词 a women’s group，并在从句中作主语，过去完成时 had invited 说明在聚会前已经邀请了男士参加。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "I was addressing a small gathering ...",
+                "explanation": "开篇叙事引子（Anecdote Hook）。作者通过亲身经历的生动生活场景切入，交代男女齐聚一堂的特殊背景，为后文展示男女交流模式反差提供典型样本。"
               }
             ]
           }
@@ -2213,9 +2408,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "while his wife sat silently beside him on the ...",
-                "explanation": "从属连词 <code>while</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Throughout the evening, one man had been particularly talkative",
+                "explanation": "主干为主系表结构。时间状语 Throughout the evening（整晚）；主语 one man；谓语 had been；表语形容词 talkative（健谈的、多话的），副词 particularly（尤其、格外）作程度状语修饰表语。"
+              },
+              {
+                "type": "非谓语/伴随状语",
+                "content": "frequently offering ideas and anecdotes",
+                "explanation": "现在分词短语 offering... 作伴随状语，逻辑主语为 one man，具体描写其频频发表见解和分享趣闻的具体表现。"
+              },
+              {
+                "type": "状语从句/对比逻辑",
+                "content": "while his wife sat silently beside him on the couch",
+                "explanation": "从属连词 while 引导对比状语从句（意为“然而、而”），主语 his wife，谓语动词 sat，副词 silently（沉默地）与介词短语 beside him on the couch 作状语，刻画妻子的静默无声。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "one man had been particularly talkative ... while his wife sat silently",
+                "explanation": "鲜明的情境对比（Juxtaposition）。通过丈夫的“格外健谈”与妻子的“沉默不语”同台对照，制造生动的戏剧冲突，为下文丈夫的惊人言论埋下伏笔。"
               }
             ]
           }
@@ -2231,9 +2441,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that women frequently complain that their hus...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Toward the end of the evening, I commented that women frequently complain that their husbands don’t talk to them",
+                "explanation": "主干为主谓宾（双层嵌套宾语从句）结构。Toward the end of the evening 为时间状语；主语 I；谓语动词 commented（评论指出）；第一层 that 引导宾语从句作 commented 的宾语；在该从句内部，谓语 complain 后又嵌套第二层 that 引导的宾语从句（their husbands don’t talk to them，丈夫不跟她们说话）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "women frequently complain that their husbands don’t talk to them",
+                "explanation": "话题核心切入点。作者抛出普遍存在的社会现象（女性抱怨丈夫沉默寡言），以此测试现场听众的反应，推动情节高潮。"
               }
             ]
           }
@@ -2250,8 +2465,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "This man quickly nodded in agreement....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "This man quickly nodded in agreement",
+                "explanation": "主干为主谓结构。主语 This man；谓语动词 nodded（点头），副词 quickly 修饰动词；介词短语 in agreement 作方式状语，意为“赞同地”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "This man quickly nodded in agreement",
+                "explanation": "动作神态描写。整晚最健谈的男子迅速点头认同“丈夫不跟妻子说话”的抱怨，这一反应极具反讽意味，激起读者的认知反差。"
               }
             ]
           }
@@ -2268,8 +2488,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "He gestured toward his wife and said, “She’s the talker in o...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "He gestured toward his wife and said, “She’s the talker in our family.” The room burst into laughter; the man looked puzzled and hurt",
+                "explanation": "主干由并列动作分句与分号连接的复合句构成。第一分句 He 搭配两个并列谓语动词 gestured（向妻子示意）和 said，引语为系表结构 She’s the talker in our family；分号后第一分句 The room burst into laughter 为主谓结构（全场哄堂大笑）；第二分句 the man looked puzzled and hurt 为主系表结构，两个过去分词作形容词化的并列表语（感到困惑且委屈受挫）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "“She’s the talker in our family.” The room burst into laughter",
+                "explanation": "Q26 题核心定位句。为什么全场哄堂大笑？因为整晚都是这名男子在滔滔不绝，而他却指着一言不发的妻子声称“她才是我家的话匣子”，这种戏剧性自我认知与客观事实的巨大错位引爆了全场笑点。"
               }
             ]
           }
@@ -2286,8 +2511,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "“It’s true,” he explained....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "“It’s true,” he explained",
+                "explanation": "主干为主系表结构的直接引语 + 谓语引述。主语 It，系动词 is，表语 true；he explained 作引述谓语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "“It’s true,” he explained",
+                "explanation": "态度强化。男子并未意识到荒谬，反而认真澄清，引出下一句对家庭真实交流状况的自白。"
               }
             ]
           }
@@ -2303,9 +2533,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "When I come home from work...",
-                "explanation": "关系词 <code>When</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "When I come home from work, I have nothing to say",
+                "explanation": "主干为主谓宾结构。主句主语 I；谓语动词 have；宾语 nothing，动词不定式 to say 作后置定语修饰 nothing，意为“无话可说”。"
+              },
+              {
+                "type": "时间状语从句",
+                "content": "When I come home from work",
+                "explanation": "从属连词 When 引导时间状语从句，说明状态发生的时间节点（下班回家时）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "When I come home ... I have nothing to say",
+                "explanation": "关键论据。男士说出了男性在私密家庭领域的典型心理机制：在外社交能量耗尽，回到家便进入“沉默节能模式”。"
               }
             ]
           }
@@ -2321,9 +2561,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "If she didn’t keep the conversation going...",
-                "explanation": "从属连词 <code>If</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "If she didn’t keep the conversation going, we’d spend the whole evening in silence",
+                "explanation": "主干为主谓宾结构的虚拟语气主从复合句。主句主语 we；谓语动词 would spend；宾语 the whole evening；介词短语 in silence（在沉默中）作状语。主从句谓语均采用与现在事实相反的虚拟语气（didn't keep, would spend）。"
+              },
+              {
+                "type": "条件状语从句",
+                "content": "If she didn’t keep the conversation going",
+                "explanation": "从属连词 If 引导条件状语从句，从句谓语 didn't keep，宾语 the conversation，现在分词 going 作宾语补足语，keep the conversation going 意为“维持谈话继续”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "If she didn’t keep the conversation going ... in silence",
+                "explanation": "心理真相解密。男子之所以认为妻子是“话匣子”，是因为在私密家庭中，妻子承担了全部“打破沉默、维系沟通”的交流主动权。没有妻子的维系，两人将彻夜无言。"
               }
             ]
           }
@@ -2339,14 +2589,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "although American men tend to talk more than wome...",
-                "explanation": "从属连词 <code>although</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "This episode crystallizes the irony that ... they often talk less at home",
+                "explanation": "主干为主谓宾（同位语从句）结构。主语 This episode（这一幕生活片段）；谓语动词 crystallizes（具体体现、使……结晶化）；宾语 the irony（这一讽刺现象）；that 引导同位语从句，对 the irony 进行实质性内容阐释。"
               },
               {
-                "type": "名词性从句",
-                "content": "that although American men tend to talk more ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "让步状语从句与对比",
+                "content": "although American men tend to talk more than women in public situations",
+                "explanation": "同位语从句内嵌由 although 引导的让步状语从句，主语 American men，谓语动词短语 tend to talk，比较级 more than women，地点状语 in public situations（在公共场合）；从句主句 they often talk less at home 与之构成公私场合的鲜明对称。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "talk more ... in public situations, they often talk less at home",
+                "explanation": "全文主旨文眼句（Q27 题眼）。作者借生活案例升华至社会学核心论点：男女交流模式存在“公私分裂”的反讽现象——男性在公众面前更健谈（谈话作为展示地位的手段），但在家庭内部却往往失语沉默。"
               }
             ]
           }
@@ -2363,8 +2618,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "And this pattern is wreaking havoc with marriage....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "And this pattern is wreaking havoc with marriage",
+                "explanation": "主干为主谓宾结构。连词 And 表递进承接；主语 this pattern（这种模式）；谓语动词为现在进行时 is wreaking havoc with（正在对……造成巨大破坏/浩劫）；宾语 marriage（婚姻制度/婚姻关系）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "this pattern is wreaking havoc with marriage",
+                "explanation": "论点危害升级。作者从“反讽现象”进一步指明其严重的现实社会后果：男女这种沟通脱节正在系统性摧毁婚姻基石，引出下文关于高离婚率的数据与研究。"
               }
             ]
           }
@@ -2381,8 +2641,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The pattern was observed by political scientist Andrew Hacke...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The pattern was observed by political scientist Andrew Hacker in the late 1970s",
+                "explanation": "主干为被动语态主谓结构。主语 The pattern；谓语动词为一般过去时被动语态 was observed（被观察到）；介词短语 by political scientist Andrew Hacker 引出学术提出者；in the late 1970s 作时间状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The pattern was observed by political scientist Andrew Hacker",
+                "explanation": "学术溯源（Literature Reference）。指出这一现象并非个案，早在20世纪70年代末就已被政治学者科学观察并确立为研究课题。"
               }
             ]
           }
@@ -2398,9 +2663,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that most of the women she interviewed—but on...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Sociologist Catherine Kohler Riessman reports in her new book Divorce Talk that most of the women ... gave lack of communication as the reason for their divorces",
+                "explanation": "主干为主谓宾（宾语从句）结构。主语 Sociologist Catherine Kohler Riessman；谓语动词 reports；介词短语 in her new book Divorce Talk 作地点状语交代著作出处；that 引导宾语从句充当 reports 的宾语。"
+              },
+              {
+                "type": "定语从句与插入对比",
+                "content": "most of the women she interviewed—but only a few of the men—",
+                "explanation": "宾语从句内部主语为 most of the women，省略关系代词的定语从句 she interviewed 修饰 women；破折号间 but only a few of the men 作插入对比，凸显男女归因态度的悬殊；从句谓语 gave... as...（将……列为……的原因），宾语为 lack of communication（缺乏沟通）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "most of the women ... but only a few of the men ... gave lack of communication",
+                "explanation": "Q28 题核心定位句。考查男女对离婚原因的归因差异：大多数女性归咎于“缺乏沟通”，而只有极少数男性这样认为，印证女性对沟通破裂的高敏感度与男性的迟钝。"
               }
             ]
           }
@@ -2416,9 +2691,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that amounts to millions of cases in the Unit...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "that amounts to millions of cases in the United States every year",
+                "explanation": "主干为主谓宾结构。主语代词 that 指代上句因缺乏沟通而导致的离婚情形；谓语动词短语 amounts to（总计达、相当于）；宾语 millions of cases（数百万起案件）；介词短语 in the United States 与 every year 分别作地点与时间状语。"
+              },
+              {
+                "type": "分词短语/独立状语",
+                "content": "Given the current divorce rate of nearly 50 percent",
+                "explanation": "过去分词短语 Given... 作条件/原因状语，意为“考虑到/鉴于当前近50%的高离婚率”。"
+              },
+              {
+                "type": "同位语修饰",
+                "content": "—a virtual epidemic of failed conversation",
+                "explanation": "破折号后名词短语充当 millions of cases 的同位语评价，用隐喻修辞将大量因缺乏沟通导致的离婚形象地描绘为“一场失败对话的虚拟流行病”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "a virtual epidemic of failed conversation",
+                "explanation": "修辞升华。作者运用医学隐喻 epidemic（流行病），深刻凸显由于未能进行有效对话而给现代社会婚姻带来的普遍性心理病灶。"
               }
             ]
           }
@@ -2435,8 +2725,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In my own research, complaints from women about their husban...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "complaints from women about their husbands most often focused not on tangible inequities ...",
+                "explanation": "主干为主谓宾结构。In my own research 为领域状语；主语 complaints from women about their husbands（女性对丈夫的抱怨）；谓语动词短语 focused not on...（并不主要集中于……）；介词宾语 tangible inequities（有形的不公/实质的不平等）。"
+              },
+              {
+                "type": "列举说明/同位介词短语",
+                "content": "such as having given up the chance for a career to accompany a husband to his, or doing far more than their share of daily life-support work like cleaning, cooking and social arrangements",
+                "explanation": "such as 引导两个并列的动名词短语详尽列举传统有形不平等：一是 having given up the chance...（为陪伴丈夫的事业而放弃自身职业发展机会），二是 doing far more than their share...（承担远超自身份额的家务琐事，如保洁、烹饪与社交打点）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "focused not on tangible inequities ... but ...",
+                "explanation": "强对比铺垫（not on... 的前半句）。作者先排除传统观念中关于“家庭劳务分配不均”或“事业牺牲”的有形矛盾，制造逻辑悬念，为下一句的转折核心 not on A, but on B 做铺垫。"
               }
             ]
           }
@@ -2452,9 +2752,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that most wives want their husbands to be...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Instead, they focused on communication ... I found ... that most wives want their husbands to be ... conversational partners, but few husbands share this expectation",
+                "explanation": "主干由承转副词 Instead 引出的主谓宾结构 + 第二分句构成。第一分句 they focused on communication（她们聚焦于沟通交流）；引语展示典型抱怨；第二分句主干 I found... that 引导长宾语从句，从句内部由 but 连接两个并列对比项：most wives want their husbands to be conversational partners（大多数妻子希望丈夫首先是谈话伙伴），而 few husbands share this expectation（很少有丈夫对妻子抱有同样期望）。"
+              },
+              {
+                "type": "插入语",
+                "content": "as Hacker observed years before",
+                "explanation": "双逗号之间的 as 从句作插入语，意为“正如哈克多年前所观察到的那样”，增强实证结论的学术一致性。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "wives want their husbands to be ... conversational partners, but few husbands share this expectation",
+                "explanation": "Q29 题核心定位句。揭示婚姻交流危机的根本根源：男女双方对配偶角色的心理期望错位——妻子极度渴望心灵对话伙伴（conversational partners），而丈夫完全没有意识到这种情感沟通预期。"
               }
             ]
           }
@@ -2470,14 +2780,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "while a woman glares at the back of it...",
-                "explanation": "从属连词 <code>while</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "In short, the image ... is the stereotypical cartoon scene of a man sitting at the breakfast table with a newspaper held up in front of his face",
+                "explanation": "主干为主系表结构。In short 作概括性评注状语；主语 the image（标志性形象）；系动词 is；表语 the stereotypical cartoon scene（典型的卡通场景）；介词短语 of a man sitting at the breakfast table... 作定语修饰 scene，with 复合结构 with a newspaper held up in front of his face（报纸举在面前）刻画男人的遮蔽动作。"
               },
               {
-                "type": "名词性从句",
-                "content": "that best represents the current crisis is th...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "定语从句与对比状语从句",
+                "content": "that best represents the current crisis ... while a woman glares at the back of it, wanting to talk",
+                "explanation": "that 引导限制性定语从句修饰 the image，在从句中作主语（最能代表当前危机）；while 引导对比状语从句，描写餐桌对面的妻子怒目而视（glares at the back of it），现在分词短语 wanting to talk 作伴随状语，点明渴望交流的强烈心声。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "a man ... with a newspaper held up ... while a woman glares ... wanting to talk",
+                "explanation": "全篇画龙点睛的意象收尾（Q30 题眼）。作者通过报纸隔绝的早餐饮桌经典画面，将全篇抽象的“男性逃避谈话、女性渴望沟通”的婚姻阻隔与情感冰点具象化，极具画面感染力与讽刺张力。"
               }
             ]
           }
@@ -4052,8 +4367,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Over the past decade, many companies had perfected the art o...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "many companies had perfected the art of creating automatic behaviors ... among consumers",
+                "explanation": "主干为主谓宾结构。Over the past decade 为时间状语；主语 many companies（众多企业）；谓语动词为过去完成时 had perfected（已经精通并使……完美）；宾语 the art of creating automatic behaviors（创造自动化无意识行为的技艺），介词短语 among consumers 作范围后置定语。"
+              },
+              {
+                "type": "同位语修饰",
+                "content": "—habits—",
+                "explanation": "双破折号中的单个名词 habits 作 automatic behaviors 的同位语，将抽象的心理学术语“自动行为”直接锚定为通俗概念——“习惯”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "perfected the art of creating automatic behaviors—habits",
+                "explanation": "全篇主旨总起句（Topic Sentence）。开篇立论，指出商业巨头操纵消费者心智的最高境界：不是推销单一产品，而是系统性培养消费者的日常“无意识习惯”。"
               }
             ]
           }
@@ -4069,9 +4394,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when customers eat snacks or wipe counters al...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "These habits have helped companies earn billions of dollars",
+                "explanation": "主干为主谓宾补结构。主语 These habits；谓语动词 have helped；宾语 companies；动词原形 earn billions of dollars（赚取数十亿美元）作省略 to 的宾语补足语。"
+              },
+              {
+                "type": "时间状语从句与方式状语",
+                "content": "when customers eat snacks or wipe counters almost without thinking",
+                "explanation": "从属连词 when 引导时间状语从句，从句主语 customers，并列谓语 eat snacks 与 wipe counters，介词短语 almost without thinking（几乎不假思索地）作从句方式状语，形象刻画习惯对大脑思考的绕过。"
+              },
+              {
+                "type": "介词短语/触发机制",
+                "content": "often in response to a carefully designed set of daily cues",
+                "explanation": "介词短语 in response to... 作全句补充状语，意为“作为对一套精心设计的日常线索暗示的响应”，过去分词短语 carefully designed 修饰 set of daily cues。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "in response to a carefully designed set of daily cues",
+                "explanation": "商业闭环解密（Q31 题眼）。揭示习惯经济学的底层飞轮：企业通过精心编织的日常环境“提示物（cues）”诱发消费者的自动化动作，从而源源不断变现巨额利润。"
               }
             ]
           }
@@ -4087,14 +4427,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "because we can’t figure out how to change people...",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "“There are fundamental public health problems ... that remain killers only because we can’t figure out how to change people’s habits,” said Dr.",
+                "explanation": "主干为 there be 存在句式的直接引语 + 引述谓语。There are 引导存在句，主语中心词 fundamental public health problems（根本性的公共卫生难题）；said Dr. (Curtis) 为引述主谓。"
               },
               {
-                "type": "名词性从句",
-                "content": "that remain killers only because we can’t fig...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "插入列举与定语从句",
+                "content": "like dirty hands instead of a soap habit, that remain killers",
+                "explanation": "like... 作介词短语列举典型问题（双手污秽而非养成用肥皂洗手的习惯）；that 引导限制性定语从句修饰 problems，并在从句中作主语，系表结构 remain killers（依然是致命杀手）。"
+              },
+              {
+                "type": "原因状语从句与宾语从句",
+                "content": "only because we can’t figure out how to change people’s habits",
+                "explanation": "because 引导原因状语从句，从句谓语 can’t figure out（无法弄明白），疑问词 how + 不定式短语 how to change people’s habits 充当动词短语的宾语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "remain killers only because we can’t figure out how to change habits",
+                "explanation": "公共卫生视角的引入。从商业巨头的成功反衬公共卫生领域的困境：许多致命疾病难以根除的根本原因，不是缺少药物，而是公共机构不知道如何改变大众的根深蒂固恶习。"
               }
             ]
           }
@@ -4110,9 +4460,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "Curtis, the director of the Hygiene Center at the London Sch...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "同位语与介词短语",
+                "content": "Curtis, the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine",
+                "explanation": "承接前句的专有名词 Curtis；名词短语 the director... 充当同位语交代学者职务，介词短语 at the London School... 层层限定顶级科研机构出处。（注：原题排版由于缩写点断开）"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Curtis, the director of the Hygiene Center",
+                "explanation": "权威专家背书。通过交代伦敦卫生与热带医学院卫生中心主任的权威身份，增强后文反向借鉴私营商业公司经验的紧迫感与客观性。"
               }
             ]
           }
@@ -4128,9 +4483,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "how to create new behaviors that happen auto...",
-                "explanation": "连接词 <code>how</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "“We wanted to learn from private industry how to create new behaviors",
+                "explanation": "主干为主谓宾结构。主语 We；谓语动词 wanted；动词不定式短语 to learn... 充当宾语，介词短语 from private industry（向私营工业界学习）作来源状语；疑问词 how + 不定式 how to create new behaviors 作 learn 的复合内容宾语。"
+              },
+              {
+                "type": "定语从句",
+                "content": "that happen automatically",
+                "explanation": "关系代词 that 引导定语从句修饰先行词 behaviors，在从句中作主语，谓语 happen，副词 automatically（自动地）修饰谓语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "learn from private industry how to create new behaviors that happen automatically",
+                "explanation": "段落核心行动宗旨（Q32 题眼）。明确柯蒂斯博士转向商业巨头的核心初衷：打破行业藩篱，直接向消费品巨头汲取“如何将新行为植入为无意识习惯”的成熟方法论。"
               }
             ]
           }
@@ -4146,9 +4511,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that Dr....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干结构片段",
+                "content": "The companies that Dr.",
+                "explanation": "名词短语 The companies 作为后文全句的主语，后接关系代词 that 引导的定语从句开头。（注：因排版中 Dr. 缩写点造成分句断裂，与下句共同构成完整复合句）"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The companies that Dr. (Curtis turned to)",
+                "explanation": "主语先行词引导，紧扣前文提向商业巨头取经的线索。"
               }
             ]
           }
@@ -4164,9 +4534,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that corporations could use to introduce new ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Curtis turned to ... had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives",
+                "explanation": "主干为主谓宾补结构。承接上句主语 The companies，that Dr. Curtis turned to（柯蒂斯博士求助的企业）为定语从句；破折号间为其同位语；谓语为过去完成时 had invested；宾语 hundreds of millions of dollars；现在分词短语 finding... 作投资金额的目的/伴随补足语，宾语为 the subtle cues in consumers’ lives（消费者生活中的微妙线索）。"
+              },
+              {
+                "type": "同位语与定语从句",
+                "content": "—Procter & Gamble, Colgate-Palmolive and Unilever— ... that corporations could use to introduce new routines",
+                "explanation": "破折号间宝洁、高露洁、联合利华三大巨头列举为 companies 的同位语；that 引导定语从句修饰先行词 subtle cues，在从句中作 use 的宾语，动词不定式 to introduce new routines（引入全新日常流程）作目的状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "invested hundreds of millions of dollars finding the subtle cues ... to introduce new routines",
+                "explanation": "核心商业运作逻辑。量化消费品巨头为破译“生活线索—行为惯性”链条所倾注的数亿美元研发巨资，揭示现代商业对日常行为的深度塑造力。"
               }
             ]
           }
@@ -4182,14 +4562,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "If you look hard enough...",
-                "explanation": "从属连词 <code>If</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "you’ll find that many of the products we use every day ... are results of manufactured habits",
+                "explanation": "主干为主谓宾（宾语从句）结构。主语 you；谓语 will find；that 引导宾语从句，从句主语 many of the products，省略 that 的定语从句 we use every day 作后置修饰；破折号为长列举同位语；从句系动词 are，表语 results of manufactured habits（人造习惯的产物）。"
               },
               {
-                "type": "名词性从句",
-                "content": "that many of the products we use every day— c...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "条件状语从句与多项同位列举",
+                "content": "If you look hard enough ... —chewing gums, skin moisturizers, disinfecting wipes ...—",
+                "explanation": "从属连词 If 引导条件状语从句（如果你足够仔细观察）；破折号间列举了9种日常消费品（口香糖、润肤霜、消毒湿巾、空气清新剂、净水器等），密集充当 products 的同位语解释。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "products we use every day ... are results of manufactured habits",
+                "explanation": "立论升华点（Q33 题眼）。通过密集的排比列举，向读者揭开震撼现实：现代人以为属于自主选择的生活日用品，本质上全是被快消巨头流水线式“人造制造出的习惯（manufactured habits）”。"
               }
             ]
           }
@@ -4206,8 +4591,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "A century ago, few people regularly brushed their teeth mult...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "A century ago, few people regularly brushed their teeth multiple times a day",
+                "explanation": "主干为主谓宾结构。时间状语 A century ago；主语 few people（很少有人，否定内涵）；副词 regularly（定期地）修饰谓语动词 brushed；宾语 their teeth；频次状语 multiple times a day（一天多次）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "A century ago, few people regularly brushed their teeth",
+                "explanation": "历史对照基准点（Baseline）。以“百年前几乎无人一天刷数次牙”作为历史常态，与下一句现代人的强迫性洗漱习惯形成跨世纪的剧烈反差。"
               }
             ]
           }
@@ -4223,9 +4613,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "because of shrewd advertising and public health ...",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Today ... many Americans habitually give their pearly whites a cavity-preventing scrub twice a day",
+                "explanation": "主干为主谓双宾结构。时间状语 Today；主语 many Americans；副词 habitually（习惯性地）修饰谓语动词 give；间接宾语 their pearly whites（他们的牙齿，美式俚语隐喻“洁白如珠的牙齿”）；直接宾语 a cavity-preventing scrub（一次防蛀牙的刷拭，复合形容词修饰名词）；频次状语 twice a day。"
+              },
+              {
+                "type": "原因状语与伴随介词短语",
+                "content": "because of shrewd advertising and public health campaigns ... often with Colgate, Crest or one of the other brands",
+                "explanation": "介词短语 because of... 作原因状语，指出精明商业广告与公卫运动的合力驱动；介词短语 with Colgate, Crest... 作工具伴随状语，点名品牌垄断。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "because of shrewd advertising ... habitually give their pearly whites a scrub",
+                "explanation": "因果与今昔对比。通过 shrewd advertising（精明的商业营销）直接解释了全民刷牙习惯从无到有的根本推手，印证习惯可被商业重构。"
               }
             ]
           }
@@ -4242,8 +4642,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "A few decades ago, many people didn’t drink water outside of...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "A few decades ago, many people didn’t drink water outside of a meal",
+                "explanation": "主干为主谓宾结构。时间状语 A few decades ago；主语 many people；谓语 didn’t drink；宾语 water；介词短语 outside of a meal（在正餐时间之外）作时间/场景限制状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "many people didn’t drink water outside of a meal",
+                "explanation": "第二组生活习惯对照。以“几十年前人们除用餐外极少喝水”的传统行为模式，引出瓶装水巨头如何凭空创造全新消费需求的商业奇迹。"
               }
             ]
           }
@@ -4260,8 +4665,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Then beverage companies started bottling the production of f...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Then beverage companies started bottling the production of far-off springs, and now office workers unthinkingly sip bottled water all day long",
+                "explanation": "主干为 and 连接的两个时序并列分句。第一分句 Then beverage companies started bottling...（随后饮料公司开始将远方泉水灌装成瓶），动名词短语作宾语；第二分句 now office workers unthinkingly sip bottled water all day long（现在上班族整天不假思索地小口啜饮瓶装水），副词 unthinkingly 与时间状语 all day long 强化习惯的无意识与全天候渗透。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "office workers unthinkingly sip bottled water all day long",
+                "explanation": "概念实体化论证。通过上班族桌上无处不在的瓶装水，生动展现商业资本如何将一种原本不存在的生活行为固化为当代职场不可或缺的肌肉记忆。"
               }
             ]
           }
@@ -4278,8 +4688,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Chewing gum, once bought primarily by adolescent boys, is no...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Chewing gum ... is now featured in commercials as a breath freshener and teeth cleanser for use after a meal",
+                "explanation": "主干为主谓宾/介宾被动结构。主语 Chewing gum（口香糖）；谓语为现在时被动语态 is now featured in commercials（如今在广告中被重点宣传推介）；介词短语 as a breath freshener and teeth cleanser（作为口气清新剂与牙齿洁净剂）作身份与功能补语，介词短语 for use after a meal 限定餐后使用场景。"
+              },
+              {
+                "type": "过去分词短语/让步背景",
+                "content": ", once bought primarily by adolescent boys,",
+                "explanation": "双逗号之间的过去分词短语 once bought... 作后置定语/非谓语插入语，说明其过去仅被青少年男孩偶尔购买的边缘商品属性。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "once bought primarily by adolescent boys, is now featured ... for use after a meal",
+                "explanation": "商业重塑消费场景典范。口香糖从青少年的零食小玩意，被广告包装重塑为成人“餐后必备口腔清洁仪式”，消费场景与客群实现指数级暴增。"
               }
             ]
           }
@@ -4296,8 +4716,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Skin moisturizers are advertised as part of morning beauty r...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Skin moisturizers are advertised as part of morning beauty rituals",
+                "explanation": "主干为被动语态主谓结构。主语 Skin moisturizers（润肤霜）；谓语 are advertised（被做广告宣传）；介词短语 as part of morning beauty rituals（作为清晨美容仪式的一部分）作功能补语，rituals（仪式）一词深刻揭示习惯的神圣化包装。"
+              },
+              {
+                "type": "过去分词短语/伴随修饰",
+                "content": ", slipped in between hair brushing and putting on makeup",
+                "explanation": "过去分词短语 slipped in... 作后置修饰/伴随状语，介词短语 between hair brushing and putting on makeup（巧妙嵌在梳头与化妆这两项既定动作之间）点明习惯植入的精妙间隙。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "slipped in between hair brushing and putting on makeup",
+                "explanation": "习惯绑定原理（Habit Stacking）。揭示行为科学核心机理：将新产品悄悄“夹塞（slipped in）”在用户原有的稳定习惯链条之间，实现无痛习惯附着。"
               }
             ]
           }
@@ -4313,9 +4743,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when they become part of daily or weekly patt...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "“Our products succeed when they become part of daily or weekly patterns,” said Carol Berning",
+                "explanation": "主干为直接引语 + 引述主谓结构。直接引语主干为 Our products succeed（我们的产品就成功了）；when they become part of daily or weekly patterns（当它们成为日常或每周生活模式的一部分时）为时间/条件状语从句；引述主谓 said Carol Berning。"
+              },
+              {
+                "type": "同位语与双重定语从句",
+                "content": ", a consumer psychologist who recently retired from Procter & Gamble, the company that sold $76 billion of Tide, Crest and other products last year",
+                "explanation": "名词短语 a consumer psychologist 作 Berning 的同位语；who 引导第一层定语从句交代其宝洁高管背景；the company 作宝洁的同位语；that 引导第二层定语从句佐证宝洁 760 亿美元的年销体量。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "succeed when they become part of daily or weekly patterns",
+                "explanation": "权威专家对商业本质的精辟论断（Q34 题眼）。指出消费品盈利的终极秘诀：唯有化作消费者日常作息（patterns/routines）的一部分，产品才能获得长期持久的商业成功。"
               }
             ]
           }
@@ -4332,8 +4772,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "“Creating positive habits is a huge part of improving our co...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Creating positive habits is a huge part of improving our consumers’ lives, and it’s essential to making new products commercially viable",
+                "explanation": "主干为 and 连接的两个并列分句。第一分句动名词短语 Creating positive habits 作主语，系表结构 is a huge part of improving our consumers’ lives；第二分句代词 it 作主语，系表结构 is essential to...（对……至关重要），介词 to 后接动名词短语 making new products commercially viable（使新产品在商业上具备可行性，viably 作宾补）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "essential to making new products commercially viable",
+                "explanation": "企业高管的双重视角：对外宣称改善消费者生活品质，对内坦承是确保新产品在商业竞争中存活盈利的决定性命脉。"
               }
             ]
           }
@@ -4349,9 +4794,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "Through experiments and observation, social scientists like ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "主干介词短语片段",
+                "content": "Through experiments and observation, social scientists like Dr.",
+                "explanation": "介词短语 Through experiments and observation 作方式状语；主语为 social scientists，后接介词短语 like Dr. (Berning) 作举例修饰。（注：因排版中 Dr. 缩写点与下句断开）"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Through experiments and observation",
+                "explanation": "研究方法交代。表明后文结论基于科学实证与长期行为学观察，并非空穴来风。"
               }
             ]
           }
@@ -4367,9 +4817,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that there is power in tying certain behavior...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Berning have learned that there is power in tying certain behaviors to habitual cues through ruthless advertising",
+                "explanation": "主干为主谓宾（宾语从句）结构。承接上句主语；谓语动词 have learned（已经认识到）；that 引导宾语从句，从句内部为 there is power in... 结构，介词 in 后接动名词短语 tying certain behaviors to habitual cues（将特定行为强行绑定到习惯性线索上），方式介词短语 through ruthless advertising 说明手段的残酷与无孔不入。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "power in tying certain behaviors to habitual cues through ruthless advertising",
+                "explanation": "篇章转折伏笔。用 ruthless advertising（无情/铺天盖地的轰炸式广告）这一贬义色彩形容词，打破前文商业成功的赞歌，敏锐引发对操纵消费者心理的道德警惕。"
               }
             ]
           }
@@ -4385,9 +4840,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when the tactics have been used to sell quest...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "controversies have erupted",
+                "explanation": "主干为主谓结构。主语 controversies（巨大争议）；谓语动词为现在完成时 have erupted（已经爆发）。"
+              },
+              {
+                "type": "时间状语从句与条件嵌套",
+                "content": "As this new science of habit has emerged ... when the tactics have been used to sell questionable beauty creams or unhealthy foods",
+                "explanation": "As 引导时间状语从句（随着这门新兴的习惯科学浮出水面）；when 引导第二层状语从句交代争议爆发的具体情境：当这些行为心理学手段被用来倾销成分可疑的美容霜或垃圾不健康食品时（questionable beauty creams or unhealthy foods）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "controversies have erupted when ... used to sell questionable ... or unhealthy foods",
+                "explanation": "全篇终局批判（Q35 题眼与文章主旨升华）。从商业中立工具上升到伦理道德批判：当企业为了牟利，将无孔不入的心理操纵技巧用于兜售有害劣质产品时，科学技术便滑向对大众健康的肆意侵害，留下深刻的反思空间。"
               }
             ]
           }
@@ -5724,9 +6189,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who meet minimal qualifications of age and l...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Many Americans regard the jury system as a concrete expression of crucial democratic values",
+                "explanation": "主干为 regard... as... 复合宾语结构。主语 Many Americans（许多美国人）；谓语动词 regard（将……视作）；宾语 the jury system（陪审团制度）；介词短语 as a concrete expression of crucial democratic values（作为关键民主价值观的具体体现）作宾语补足语。"
+              },
+              {
+                "type": "同位语从句五重并列",
+                "content": "including the principles that ...; that ...; that ...; that ...; and that ...",
+                "explanation": "介词 including 引出名词 the principles，后接分号隔开的五个由 that 引导的同位语从句群，层层排比阐明五大民主原则：① 达标公民皆有同等资格担任陪审员（含 who meet... 定语从句）；② 陪审员须从代表性社区横截面中随机抽选；③ 严禁因种族/宗教/性别等剥夺履职权利；④ 被告享有同侪审判权；⑤ 裁决应代表社会良知而非机械法条。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "regard the jury system as a concrete expression of crucial democratic values",
+                "explanation": "全篇宏观立论基石（Topic Sentence）。以崇高的民主宪政理想切入，通过宏大的排比句式奠定陪审团制度的神圣政治地位，为下文揭示现实遴选实践中的严重违背与偏离制造强烈的反讽落差。"
               }
             ]
           }
@@ -5743,8 +6218,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The jury is also said to be the best surviving example of di...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The jury is also said to be the best surviving example of direct rather than representative democracy",
+                "explanation": "主干为被动语态引述结构。主语 The jury；谓语为被动式 is said to be...（被据称是……）；表语 the best surviving example（现存最佳范例）；介词短语 of direct rather than representative democracy（直接民主而非代议制民主）作后置定语。"
+              },
+              {
+                "type": "修饰与对比结构",
+                "content": "rather than representative democracy",
+                "explanation": "rather than 表排除性转折对比，意为“而不是代议制民主”，突显陪审团由普通公民直接履职行使司法公权的非代理属性。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "best surviving example of direct rather than representative democracy",
+                "explanation": "政治学概念定性（Q36 题眼）。考查对陪审团性质的精准理解：它是雅典式“公民直接参与统治（direct democracy）”在当代法律领域的绝佳活化石。"
               }
             ]
           }
@@ -5761,8 +6246,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In a direct democracy, citizens take turns governing themsel...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "citizens take turns governing themselves, rather than electing representatives to govern for them",
+                "explanation": "主干为主谓结构。In a direct democracy 作范围状语；主语 citizens；谓语动词短语 take turns doing sth（轮流做某事），动名词短语 governing themselves 作宾语；rather than 后接动名词短语 electing representatives to govern for them（选举代表替他们治理），动词不定式 to govern 作目的状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "citizens take turns governing themselves",
+                "explanation": "核心概念下定义阐释。用“轮流自我治理”清晰界定直接民主的运作实质，照应陪审员轮流抽签履职的制度设计。"
               }
             ]
           }
@@ -5779,8 +6269,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But as recently as in 1968, jury selection procedures confli...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "jury selection procedures conflicted with these democratic ideals",
+                "explanation": "主干为主谓宾/介宾结构。连词 But 表全文核心转折；时间状语 as recently as in 1968（就在不久前的1968年）；主语 jury selection procedures（陪审团遴选程序）；谓语动词短语 conflicted with（与……相抵触/相冲突）；宾语 these democratic ideals（上述民主理想）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "But as recently as in 1968, jury selection procedures conflicted with these democratic ideals",
+                "explanation": "全篇转折文眼句（Crucial Pivot）。连词 But 将画风由前一段的理想化赞歌瞬间拉回残酷现实：指出直至1968年，陪审团的实际遴选操作依然与宪法民主理想背道而驰，开启后文对阶级与性别歧视的系统揭露。"
               }
             ]
           }
@@ -5797,8 +6292,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In some states, for example, jury duty was limited to person...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "jury duty was limited to persons of supposedly superior intelligence, education, and moral character",
+                "explanation": "主干为被动语态主谓结构。In some states 作地点状语；for example 作插入举例；主语 jury duty（陪审义务）；谓语 was limited to（被限制于……）；介词宾语 persons；介词短语 of supposedly superior intelligence, education, and moral character（被认为具备更高智商、教育与品德的人）作后置定语修饰 persons。"
+              },
+              {
+                "type": "修辞色彩词",
+                "content": "supposedly superior",
+                "explanation": "副词 supposedly（所谓的、据称的）带有强烈的批判讽刺色彩，揭穿打着“高素质”旗号剥夺底层平民陪审资格的精英主义虚伪面目。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "jury duty was limited to persons of supposedly superior intelligence ...",
+                "explanation": "精英陪审团制度弊端（Q37 题眼）。说明为何各州遴选存在不公：人为设立智力与受教育门槛，打造所谓的“蓝带/精英陪审团”，直接架空全民代表性。"
               }
             ]
           }
@@ -5814,9 +6319,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "Although the Supreme Court of the United States h...",
-                "explanation": "从属连词 <code>Although</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "让步状语从句片段",
+                "content": "Although the Supreme Court of the United States had prohibited intentional racial discrimination in jury selection as early as the 1880 case of Strauder v.",
+                "explanation": "从属连词 Although 引导让步状语从句；从句主语 the Supreme Court of the United States（美国联邦最高法院）；谓语 had prohibited（早已明令禁止）；宾语 intentional racial discrimination in jury selection（陪审团遴选中的故意种族歧视）；as early as... 交代早在1880年先例判决。（注：因法案名 v. 缩写点断开）"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Although the Supreme Court had prohibited ... as early as ... 1880",
+                "explanation": "法律条文与潜规则对抗。先指出联邦司法早在1880年就已判定种族歧视为非法，为下句揭露地方以“精英筛选”变相架空反歧视法做铺垫。"
               }
             ]
           }
@@ -5833,8 +6343,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "West Virginia , the practice of selecting so-called elite or...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "West Virginia , the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws",
+                "explanation": "主干为主谓宾结构。承接上句判例名 Strauder v. West Virginia；主句主语 the practice of selecting so-called elite or blue-ribbon juries（挑选所谓精英或‘蓝带’陪审团的做法）；谓语动词 provided；宾语 a convenient way around this and other antidiscrimination laws（一条绕开该判决及其他反歧视法律的便捷后门）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "selecting so-called elite or blue-ribbon juries provided a convenient way around ... laws",
+                "explanation": "Q37 题核心解题点。揭穿蓝带陪审团（blue-ribbon juries）的险恶本质：名义上选拔德高望重的精英，实质上沦为南方各州合法规避最高法院反种族歧视禁令的阴险手段（circumventing antidiscrimination laws）。"
               }
             ]
           }
@@ -5851,8 +6366,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The system also failed to regularly include women on juries ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The system also failed to regularly include women on juries until the mid-20th century",
+                "explanation": "主干为主谓宾补结构。主语 The system（陪审团遴选制度）；副词 also 表平行递进；谓语动词短语 failed to include（未能纳入）；宾语 women；介词短语 on juries（进入陪审团）；副词 regularly（定期/制度化地）；until the mid-20th century（直到20世纪中叶）作时间界限状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "failed to regularly include women on juries until the mid-20th century",
+                "explanation": "论题维度扩展。从第2段对“种族与阶级壁垒”的揭露，平滑过渡到对“性别歧视（排除女性）”长达半个多世纪历史遗毒的深挖。"
               }
             ]
           }
@@ -5868,14 +6388,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "Although women first served on state juries in Ut...",
-                "explanation": "从属连词 <code>Although</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "it was not until the 1940s that a majority of states made women eligible for jury duty",
+                "explanation": "主干为典型强调句型 It was not until... that...（直到……才……）。强调时间状语 not until the 1940s；that 之后为主句内容：主语 a majority of states（大多数州），谓语 made，宾语 women，形容词短语 eligible for jury duty（具备陪审资格）作宾语补足语。"
               },
               {
-                "type": "名词性从句",
-                "content": "that a majority of states made women eligible...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "让步状语从句",
+                "content": "Although women first served on state juries in Utah in 1898",
+                "explanation": "从属连词 Although 引导让步状语从句，叙述局部历史先例（尽管早在1898年犹他州就首次有女性担任州陪审员）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Although ... in 1898, it was not until the 1940s that a majority of states ...",
+                "explanation": "个别特例与普遍落后的对照（Q38 题眼）。犹他州 1898 年的特例绝不代表普遍权利，全美大多数州直到20世纪40年代才迟缓赋予女性资格，印证女权进入司法的艰辛漫长。"
               }
             ]
           }
@@ -5891,9 +6416,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "unless they personally asked to have their name...",
-                "explanation": "从属连词 <code>unless</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Even then several states automatically exempted women from jury duty",
+                "explanation": "主干为主谓宾/介宾结构。时间状语 Even then（即便在那时）；主语 several states；副词 automatically（自动地）修饰谓语动词 exempted；宾语 women；介词短语 from jury duty（免除其陪审职责，exempt A from B 为固定搭配）。"
+              },
+              {
+                "type": "条件状语从句与复合宾语",
+                "content": "unless they personally asked to have their names included on the jury list",
+                "explanation": "从属连词 unless 引导否定条件状语从句（除非……）；从句主语 they，副词 personally 修饰动词 asked；不定式短语 to have their names included on the jury list 中包含 have sth done 复合结构（让自己的名字被列入名单）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "automatically exempted women ... unless they personally asked",
+                "explanation": "隐性制度障碍剖析。各州通过“默认免除、申请才列入”的恶劣机制，反向将举证与行动成本全部转嫁给女性，实质上形成普遍的系统性排斥。"
               }
             ]
           }
@@ -5909,9 +6444,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that women were needed at home...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "This practice was justified by the claim ... and it kept juries unrepresentative of women through the 1960s",
+                "explanation": "主干为 and 连接的两个因果并列分句。第一分句被动语态 This practice was justified by the claim（这种做法借由某种说辞被合理化辩护）；第二分句 it kept juries unrepresentative of women（它使得陪审团在整个1960年代都无法代表女性，kept + 宾语 juries + 形容词补足语 unrepresentative）。"
+              },
+              {
+                "type": "同位语从句",
+                "content": "that women were needed at home",
+                "explanation": "that 引导同位语从句解释 the claim 的具体内容，指出“家庭需要女性料理家务”这一父权制借口。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "justified by the claim that women were needed at home",
+                "explanation": "历史借口批判（Q38 题深层因果）。点出当时各州拒绝女性担任陪审员冠冕堂皇的官方理由：家庭职能第一位，以关怀之名行剥夺公权之实。"
               }
             ]
           }
@@ -5928,8 +6473,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In 1968, the Congress of the United States passed the Jury S...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "In 1968, the Congress of the United States passed the Jury Selection and Service Act",
+                "explanation": "主干为主谓宾结构。时间状语 In 1968；主语 the Congress of the United States（美国国会）；谓语动词 passed（通过法案）；宾语 the Jury Selection and Service Act（《陪审团遴选与服务法案》）。"
+              },
+              {
+                "type": "现在分词短语/结果状语",
+                "content": ", ushering in a new era of democratic reforms for the jury",
+                "explanation": "现在分词短语 ushering in... 作伴随/结果状语，动词短语 usher in 意为“开启、迎来”，宾语 a new era of democratic reforms for the jury（陪审团民主改革的新时代）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "passed the Jury Selection and Service Act, ushering in a new era",
+                "explanation": "历史转折里程碑（Q39 题眼）。从黑暗的歧视历史跨入立法维新时代，标志着联邦层面以国家法律强制终结遴选乱象。"
               }
             ]
           }
@@ -5946,8 +6501,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "This law abolished special educational requirements for fede...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "This law abolished special educational requirements for federal jurors and required them to be selected at random from a cross section of the entire community",
+                "explanation": "主干为 and 连接的两个并列谓语结构。主语 This law；谓语① abolished（废除），宾语 special educational requirements for federal jurors（针对联邦陪审员的特殊受教育要求）；谓语② required（要求），宾语 them，动词不定式被动语态 to be selected at random from a cross section of the entire community（从整个社区各个阶层中随机抽取）作宾补。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "abolished special educational requirements ... selected at random from a cross section",
+                "explanation": "法案具体改革措施。通过“废除人为学历门槛”与“强制社区随机普选”，真正将第1段中束之高阁的宪法民主原则落地为具有可操作性的联邦法律标准。"
               }
             ]
           }
@@ -5963,9 +6523,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "In the landmark 1975 decision Taylor v....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "主干介词短语片段",
+                "content": "In the landmark 1975 decision Taylor v.",
+                "explanation": "时间与判例介词短语 In the landmark 1975 decision（在1975年具有里程碑意义的判决中），后接案件名称 Taylor v. (Louisiana) 的前半截。（注：因排版中 v. 缩写点断开）"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "landmark 1975 decision",
+                "explanation": "最高法院司法审查标志。由国会立法推进至最高法院的权威宪法裁决，代表改革力量由联邦层面全面下沉至各州自治领域。"
               }
             ]
           }
@@ -5981,9 +6546,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that juries be representative of all parts of...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Louisiana, the Supreme Court extended the requirement ... to the state level",
+                "explanation": "主干为主谓宾补结构。承接案件全称 Taylor v. Louisiana；主语 the Supreme Court（最高法院）；谓语动词 extended... to...（将……推广延伸至……）；宾语 the requirement；方向状语 to the state level（延伸至州一级法律）。"
+              },
+              {
+                "type": "同位语从句与虚拟语气",
+                "content": "that juries be representative of all parts of the community",
+                "explanation": "that 引导同位语从句解释 the requirement，从句谓语 be 采用 demand/require 类要求从句中的虚拟语气省略 should（即 juries [should] be representative of...），意指陪审团必须具有全社区各阶层的广泛代表性。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "extended the requirement ... to the state level",
+                "explanation": "改革范围突破。此前 1968 年法案仅约束联邦法院，而泰勒判决借助宪法解释权将“全面代表性”强制推及至全美各州地方各级法院，彻底封死地方逃避漏洞。"
               }
             ]
           }
@@ -6000,8 +6575,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The Taylor decision also declared sex discrimination in jury...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The Taylor decision also declared sex discrimination in jury selection to be unconstitutional and ordered states to use the same procedures for selecting male and female jurors",
+                "explanation": "主干为 and 连接的两个并列复合结构。主语 The Taylor decision；谓语① declared（宣布），宾语 sex discrimination in jury selection，不定式 to be unconstitutional（违宪）作宾补；谓语② ordered（命令），宾语 states，不定式 to use the same procedures...（采用相同程序选拔男女陪审员）作宾补，介词短语 for selecting male and female jurors 作目的状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "declared sex discrimination ... to be unconstitutional and ordered states to use the same procedures",
+                "explanation": "全篇胜利收官（Q40 题眼与全文主题总结）。泰勒案一锤定音：正式将遴选中的性别歧视定性为违宪，并下达具有终审效力的强制司法执行令，标志着历经百年抗争的陪审团制度终于在宪法层面实现了真正的直接民主平等。"
               }
             ]
           }

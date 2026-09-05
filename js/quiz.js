@@ -415,7 +415,16 @@ ${synonymCard}
 
         const sents = textData.sentences.filter(s => s.pid === pid);
         sents.forEach((sent, s_idx) => {
-          const breakdownHtml = sent.syntax.breakdown.map(b => `<li style="margin-bottom:6px"><b>${b.type}</b>：<code>${b.content}</code> — ${b.explanation}</li>`).join('');
+          const breakdownHtml = (sent.syntax && sent.syntax.breakdown ? sent.syntax.breakdown : []).map(b => {
+            let tagClass = 'tag-modifier';
+            if (b.type.includes('主干')) tagClass = 'tag-backbone';
+            if (b.type.includes('定语')) tagClass = 'tag-attributive';
+            if (b.type.includes('状语')) tagClass = 'tag-adverbial';
+            if (b.type.includes('名词')) tagClass = 'tag-noun';
+            if (b.type.includes('逻辑') || b.type.includes('考点')) tagClass = 'tag-logic';
+            if (b.type.includes('非谓语') || b.type.includes('特殊') || b.type.includes('同位语') || b.type.includes('修饰')) tagClass = 'tag-special';
+            return `<li style="margin-bottom:8px;line-height:1.75"><span class="syntax-tag ${tagClass}">[${b.type}]</span> <strong style="color:var(--ink)">${b.content}</strong> — <span>${b.explanation}</span></li>`;
+          }).join('');
           
           steps.push({
             section: 2,

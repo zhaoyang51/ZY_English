@@ -391,6 +391,16 @@ body.theme-dark .synonym-table th {
 .tag-adverbial { background: #dcfce7; color: #166534; border: 1px solid #86efac; }
 .tag-noun { background: #f3e8ff; color: #6b21a8; border: 1px solid #e9d5ff; }
 .tag-modifier { background: #f1f5f9; color: #475569; border: 1px solid #cbd5e1; }
+.tag-logic { background: #ffe4e6; color: #be123c; border: 1px solid #fecdd3; }
+.tag-special { background: #cffafe; color: #0e7490; border: 1px solid #a5f3fc; }
+
+body.theme-dark .tag-backbone { background: rgba(30, 64, 175, 0.35); color: #93c5fd; border-color: #3b82f6; }
+body.theme-dark .tag-attributive { background: rgba(146, 64, 14, 0.35); color: #fde68a; border-color: #f59e0b; }
+body.theme-dark .tag-adverbial { background: rgba(22, 101, 52, 0.35); color: #86efac; border-color: #10b981; }
+body.theme-dark .tag-noun { background: rgba(107, 33, 168, 0.35); color: #e9d5ff; border-color: #a855f7; }
+body.theme-dark .tag-modifier { background: rgba(71, 85, 105, 0.35); color: #cbd5e1; border-color: #64748b; }
+body.theme-dark .tag-logic { background: rgba(190, 18, 60, 0.35); color: #fda4af; border-color: #f43f5e; }
+body.theme-dark .tag-special { background: rgba(14, 116, 144, 0.35); color: #a5f3fc; border-color: #06b6d4; }
 
 /* Alternating Sense-Group Colored Chunks */
 .chunk-group {
