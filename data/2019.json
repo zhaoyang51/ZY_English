@@ -895,8 +895,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Unlike so-called basic emotions such as sadness, fear, and a...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "guilt emerges a little later, in conjunction with a child’s growing grasp of social and moral norms",
+                "explanation": "主干为主谓结构。主语为不可数抽象名词 guilt（内疚感）；谓语动词为一般现在时不及物动词 emerges（萌发、出现）；副词短语 a little later（稍晚一些）作时间状语；后置介词短语 in conjunction with a child’s growing grasp of social and moral norms 作伴随条件状语，其中 in conjunction with 意为“伴随/与……协力”，grasp of social and moral norms 点明掌握社会道德规范是内疚产生的前提。"
+              },
+              {
+                "type": "对比修饰与介词短语",
+                "content": "Unlike so-called basic emotions such as sadness, fear, and anger",
+                "explanation": "前置介词短语作对比状语。介词 Unlike 引出对比参照物；so-called（所谓）体现学术审慎定性；such as sadness, fear, and anger 列举三种人类与生俱来的“基本情绪”（悲伤、恐惧、愤怒），与主句中萌生较晚的“内疚”形成鲜明发展阶段对照。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "guilt emerges a little later, in conjunction with a child’s growing grasp of social and moral norms",
+                "explanation": "篇首破题与核心概念奠基（Topic Sentence）。从儿童发展心理学视角切入，将“内疚”从本能性基本情绪中剥离，确立其为伴随社会道德认知成熟而发展的高级情绪。这直接为后文论证“适度道德内疚促进儿童道德成长”提供基石，紧密呼应 Q21 题眼 foster a child’s moral development 的根本逻辑前提。"
               }
             ]
           }
@@ -912,9 +922,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "how to say “I’m sorry”...",
-                "explanation": "连接词 <code>how</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Children aren’t born knowing how to say “I’m sorry”; rather, they learn over time that such statements appease parents and friends—and their own consciences.",
+                "explanation": "主干由分号和副词 rather 连接的两个转折并列分句构成。第一分句为主谓补结构：主语 Children；谓语 aren’t born（并非天生）；现在分词短语 knowing how to say... 作主语补足语。第二分句为主谓宾结构：转折副词 rather（相反）；主语 they；谓语 learn（逐渐习得）；介词短语 over time（随着时间推移）作时间状语；后接 that 引导的宾语从句。"
+              },
+              {
+                "type": "从句剖析与非谓语结构",
+                "content": "knowing how to say “I’m sorry” / that such statements appease parents and friends—and their own consciences",
+                "explanation": "① knowing 的宾语为“疑问词 + 不定式”短语 how to say “I’m sorry”；② that 引导宾语从句充当 learn 的宾语，从句主语为 such statements（道歉言论），谓语为及物动词 appease（安抚/平息），并列宾语为 parents and friends 以及破折号强调追加的 their own consciences（他们自己的良知）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "rather, they learn over time that such statements appease parents and friends—and their own consciences",
+                "explanation": "机制阐释与对照论证（Not... rather...）。通过否定先天天赋并确立后天社会化习得机制，揭示道歉与内疚体验的外在与内在双重社会功能：对外平息人际矛盾（appease parents and friends），对内抚平道德良知（their own consciences），深化儿童道德社会化机制。"
               }
             ]
           }
@@ -930,9 +950,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "why researchers generally regard so-called m...",
-                "explanation": "关系词 <code>why</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "This is why researchers generally regard so-called moral guilt, in the right amount, to be a good thing.",
+                "explanation": "主干为主系表结构。指示代词 This 作主语，指代前文所述内疚能平息冲突、抚慰良心的亲社会功能；系动词 is；表语是由连接副词 why 引导的表语从句。"
+              },
+              {
+                "type": "表语从句与复合宾语",
+                "content": "why researchers generally regard so-called moral guilt, in the right amount, to be a good thing",
+                "explanation": "连接副词 why 引导表语从句说明原因。从句主语为 researchers；频度副词 generally（普遍）作状语；谓语动词为及物动词 regard；宾语为名词短语 so-called moral guilt（所谓的道德内疚）；插入语介词短语 in the right amount（适度/适量）限定其积极作用的前提条件；不定式短语 to be a good thing 作宾语补足语，构成 regard sth. to be ... 结构。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "researchers generally regard so-called moral guilt, in the right amount, to be a good thing",
+                "explanation": "首段结论与核心论点（Q21 直接定位句）。This is why 构成因果逻辑推进，正式确立研究人员对适度道德内疚的正面肯定（a good thing）。直接对应第 21 题题干 Researchers think that guilt can be a good thing because it may help...，首段所阐述的促进儿童社会道德规范掌握与良心建立，精准匹配正确选项 [A] foster a child’s moral development。"
               }
             ]
           }
@@ -949,8 +979,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In the popular imagination, of course, guilt still gets a ba...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "In the popular imagination, of course, guilt still gets a bad rap.",
+                "explanation": "主干为主谓宾结构。前置介词短语 In the popular imagination（在大众观念/通俗想象中）作范围状语；插入语 of course（当然）；主语为不可数抽象名词 guilt；时间副词 still（依然）；谓语动词为 gets；宾语为名词短语 a bad rap（恶名/受到不公正的批评）。"
+              },
+              {
+                "type": "习语修辞与语义解析",
+                "content": "guilt still gets a bad rap",
+                "explanation": "核心口语习语 get a bad rap 意为“蒙受不白之冤/招致不良名声”（receive an unfair reputation）。在此生动勾勒出公众对内疚情绪一贯持有的负面刻板印象与本能排斥。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "In the popular imagination, of course, guilt still gets a bad rap.",
+                "explanation": "段首承上启下对比（Popular view vs Scientific view）。第 2 段开篇以 In the popular imagination... still 与第 1 段末尾学界的积极评价形成鲜明的大众常识与前沿科研认知反差，引出下文对大众将内疚视作沉重负担的描述，直接对应 Q22 题干 many people still consider guilt to be... 的破题引子。"
               }
             ]
           }
@@ -967,8 +1007,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "It is deeply uncomfortable—it’s the emotional equivalent of ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "It is deeply uncomfortable—it’s the emotional equivalent of wearing a jacket weighted with stones.",
+                "explanation": "主干由破折号连接的两个主系表分句构成阐释关系。第一分句：主语代词 It 指代 guilt；系动词 is；表语形容词 uncomfortable，受程度副词 deeply（极度地）修饰。第二分句：主语 it；系动词 ’s (is)；表语名词短语 the emotional equivalent（情感等价物）；后接介词短语 of wearing a jacket weighted with stones 作定语。"
+              },
+              {
+                "type": "非谓语修饰与隐喻构建",
+                "content": "wearing a jacket weighted with stones",
+                "explanation": "介词 of 后接动名词短语 wearing a jacket，动名词带宾语 a jacket；过去分词短语 weighted with stones（被石头加重的/装满石头的）作 jacket 的后置定语，构成极具下沉与压抑感的具象心理隐喻。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "it’s the emotional equivalent of wearing a jacket weighted with stones",
+                "explanation": "核心隐喻与命题题眼（Q22 核心定位句）。破折号后用“身穿压满石头的沉重夹克”生动比拟内疚给人们造成的巨大心理负重感。这一具象描写直接对应第 22 题正确答案 [D] burdensome（沉重的、繁重的负担），是典型的具象隐喻到抽象评价词汇的同义替换考点。"
               }
             ]
           }
@@ -985,8 +1035,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Yet this understanding is outdated....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Yet this understanding is outdated.",
+                "explanation": "主干为主系表结构。句首转折连词 Yet（然而）；主语名词短语 this understanding（这种认知/理解，指上文将内疚视作纯粹痛苦负担的大众旧观念）；系动词 is；表语形容词 outdated（过时的、陈旧的）。"
+              },
+              {
+                "type": "修饰成分与指代功能",
+                "content": "Yet this understanding is outdated",
+                "explanation": "单字连词 Yet 居于句首占据强转折语义重音；指示代词 this 承前紧扣上一句中负重石衣的传统陈见；形容词 outdated 宣告旧认知的被推翻与科学认知的破晓。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Yet this understanding is outdated.",
+                "explanation": "独句成段式强转折（Pivot Transition）。全句仅 5 个单词，短促有力，在语篇中起到“破旧立新、力挽狂澜”的枢纽作用：果断终结大众负面偏见，强势开启下文科学家对情绪“非二元论”与内疚建设性功能的全新学术反思。"
               }
             ]
           }
@@ -1002,9 +1062,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "what guilt is and what role guilt can serve...",
-                "explanation": "连接词 <code>what</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "“There has been a kind of revival or a rethinking about what guilt is and what role guilt can serve,” says Amrisha Vaish, a psychology researcher at the University of Virginia, adding that this revival is part of a larger recognition that emotions aren’t binary—feelings that may be advantageous in one context may be harmful in another.",
+                "explanation": "主干为主谓宾引语倒装结构。直接引语充当 says 的宾语；述谓主干为 says Amrisha Vaish，专有名词主语后接同位语短语 a psychology researcher at the University of Virginia 说明学者身份；现在分词短语 adding that... 作伴随状语补充引述学者的理论推论。"
+              },
+              {
+                "type": "多层从句剖析（宾语从句、同位语从句与定语从句）",
+                "content": "about what guilt is and what role guilt can serve / that this revival is part of a larger recognition that emotions aren’t binary / that may be advantageous in one context",
+                "explanation": "① 直接引语中，介词 about 后接两个由 what 引导的并列宾语从句 what guilt is 和 what role guilt can serve；② adding 后接 that 引导的宾语从句，从句中名词 recognition 后面接 that 引导的同位语从句 that emotions aren’t binary（情绪并非非黑即白的二元对立）；③ 破折号后 feelings 后接 that 引导的定语从句 that may be advantageous in one context，修饰 feelings，并与后文 may be harmful in another 形成语境对照。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "this revival is part of a larger recognition that emotions aren’t binary—feelings that may be advantageous in one context may be harmful in another",
+                "explanation": "权威引言与命题题眼（Q23 绝对定位句）。Vaish 明确指出对内疚的反思（rethinking）源于更深层次的认知觉醒：情绪不是二元的（emotions aren’t binary），在某种情境下有利的情绪在另一情境下可能有害。这与第 23 题正确选项 [B] an emotion can play opposing roles（一种情绪可以扮演截然相反的角色）构成精准的学术同义转换；干扰项 [A] emotions are context-independent 则与原文依语境而定的论断彻底背道而驰。"
               }
             ]
           }
@@ -1021,8 +1091,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Jealousy and anger, for example, may have evolved to alert u...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Jealousy and anger, for example, may have evolved to alert us to important inequalities.",
+                "explanation": "主干为主谓补结构。并列主语为抽象名词 Jealousy and anger（嫉妒与愤怒）；插入语 for example（例如）；谓语由情态动词 may + 现在完成时不定式 have evolved 构成，表对进化历程的推测；动词不定式短语 to alert us to important inequalities 作目的状语。"
+              },
+              {
+                "type": "非谓语与动宾介搭配",
+                "content": "to alert us to important inequalities",
+                "explanation": "不定式短语内部包含固定搭配 alert sb. to sth.（警示/提醒某人注意某事），及物动词 alert 带代词宾语 us，介词短语 to important inequalities（对重要的不平等现象）作补足成分，阐释传统负面情绪在进化演化中的适应性生存警报功能。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Jealousy and anger, for example, may have evolved to alert us to important inequalities.",
+                "explanation": "例证支撑（Exemplification）。承接前句中“在特定情境下有利（advantageous in one context）”的理论命题，举出常被视为消极负面的嫉妒与愤怒在进化中作为不平等预警器的正面价值，以反常识案例佐证情绪非二元论。"
               }
             ]
           }
@@ -1039,8 +1119,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Too much happiness can be destructive....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Too much happiness can be destructive.",
+                "explanation": "主干为主系表结构。主语为不可数名词短语 Too much happiness（过度的快乐/幸福）；情态动词 can 表理论上的可能性；系动词 be；表语形容词为 destructive（具有破坏性的、毁灭性的）。"
+              },
+              {
+                "type": "修饰成分与语义限定",
+                "content": "Too much happiness can be destructive",
+                "explanation": "前置定语 Too much（过量）极其关键，对主语进行了剂量上的阈值限定；表语形容词 destructive 与 happiness 形成强烈的修辞张力，强调即使是正向情绪一旦过界亦会走向其反面。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Too much happiness can be destructive.",
+                "explanation": "反向极致对比（Mirror-image Contrast）。与上句“负面情绪有益”形成镜像对称——“正面情绪过量有害”，从而在正反两极严密闭环论证了情绪的多面性（not binary），彻底粉碎常人将情绪机械划分为绝对好与绝对坏的偏见。"
               }
             ]
           }
@@ -1057,8 +1147,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "And guilt, by prompting us to think more deeply about our go...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "And guilt, by prompting us to think more deeply about our goodness, can encourage humans to make up for errors and fix relationships.",
+                "explanation": "主干为主谓宾补结构。句首并列连词 And 顺承推进；主语为抽象名词 guilt；双逗号间插入介词短语 by prompting us... 作方式状语；谓语为情态动词 can + 及物动词 encourage；宾语为 humans；并列不定式短语 to make up for errors and fix relationships 作宾语补足语。"
+              },
+              {
+                "type": "非谓语动词与短语搭配",
+                "content": "by prompting us to think more deeply about our goodness / to make up for errors and fix relationships",
+                "explanation": "① 介词 by 后接动名词短语 prompting us to think...，包含 prompt sb. to do sth.（促使某人做某事），副词比较级 more deeply 修饰 think，介宾短语 about our goodness 明确道德反思指向；② 宾补中并列连词 and 连接短语动词 make up for（弥补/补偿）和 fix（修复），明确内疚转化为积极修复人际关系的亲社会行为。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "guilt, by prompting us to think more deeply about our goodness, can encourage humans to make up for errors and fix relationships",
+                "explanation": "第 3 段段首主题句（Topic Sentence of Para 3）。从广义的情绪理论回收聚焦至核心母题——“内疚的社会建设性功能”。揭示内疚绝非无用的心理痛苦，而是驱动道德自省、修补过失与愈合人际关系的催化剂，进一步呼应 Q21 促进道德发展的深刻内涵。"
               }
             ]
           }
@@ -1075,8 +1175,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Guilt, in other words, can help hold a cooperative species t...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Guilt, in other words, can help hold a cooperative species together.",
+                "explanation": "主干为主谓宾补结构。主语为 Guilt；插入语 in other words（换句话说）作同义复述标记；情态动词 can + 谓语及物动词 help；省略 to 的不定式短语 hold a cooperative species together 作宾语（或 help 复合搭配），其中及物动词短语 hold... together 意为“维系/团结”，宾语为名词短语 a cooperative species（合作型物种，特指人类）。"
+              },
+              {
+                "type": "修饰成分与搭配析义",
+                "content": "hold a cooperative species together",
+                "explanation": "插入语 in other words 表明本句是对上一句修复关系的宏观演化概括；副词 together 与动词 hold 构成动副紧密搭配；形容词 cooperative 精准定性人类群体的根本生存依托在于利他合作。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Guilt, in other words, can help hold a cooperative species together.",
+                "explanation": "演化生物学维度升华。将个人层面的“修补人际关系”拔高至人类物种演化与群体繁衍存续的高度，指出内疚是保证人类合作互助网络不致瓦解的内置伦理刹车与凝聚机制。"
               }
             ]
           }
@@ -1093,8 +1203,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "It is a kind of social glue....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "It is a kind of social glue.",
+                "explanation": "主干为主系表结构。代词主语 It 指代 guilt；系动词 is；表语为名词短语 a kind of social glue（一种社会黏合剂）。"
+              },
+              {
+                "type": "修辞隐喻与定语修饰",
+                "content": "a kind of social glue",
+                "explanation": "名词短语 a kind of 起泛化定语作用；形容词 social 限定社会功能属性；核心名词 glue（胶水/黏合剂）构成极度传神的实体暗喻，与上一句中的 hold together 形成高度凝练的词汇衔接。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "It is a kind of social glue.",
+                "explanation": "高度概括性总结警句（Aphoristic Summary）。承接前文宏观推导，以 social glue 这一生动暗喻将内疚在人类社会中的凝聚功能彻底定格。彻底逆转了第 2 段大众观念中“压满石头的夹克”，确立内疚正面价值的巅峰意象。"
               }
             ]
           }
@@ -1111,8 +1231,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Viewed in this light, guilt is an opportunity....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Viewed in this light, guilt is an opportunity.",
+                "explanation": "主干为主系表结构。主语为不可数名词 guilt；系动词 is；表语为抽象名词短语 an opportunity（一个机会/契机）。"
+              },
+              {
+                "type": "非谓语作状语",
+                "content": "Viewed in this light",
+                "explanation": "句首过去分词短语 Viewed in this light 作视角条件/评注性状语，其逻辑主语与主句主语 guilt 保持一致，表被动视点，相当于 When it is viewed in this light；介词短语 in this light（从这个角度来看）承接上文将内疚视为社会黏合剂的新范式。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Viewed in this light, guilt is an opportunity.",
+                "explanation": "第 4 段段首转承与论题切换（Transition to Empirical Section）。以正面定性词 opportunity 统摄全段，标志着全文由上半篇的理论假说推演正式切入下半篇的发展心理学实证实验论证。"
               }
             ]
           }
@@ -1128,9 +1258,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that guilt may compensate for an emotional de...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Work by Tina Malti, a psychology professor at the University of Toronto, suggests that guilt may compensate for an emotional deficiency.",
+                "explanation": "主干为主谓宾结构。主语为不可数名词 Work（研究工作/成果），后接介词短语 by Tina Malti 作定语；同位语短语 a psychology professor at the University of Toronto 标明学者学术身份；谓语动词为一般现在时 suggests（表明/提出）；后接 that 引导的宾语从句。"
+              },
+              {
+                "type": "宾语从句剖析",
+                "content": "that guilt may compensate for an emotional deficiency",
+                "explanation": "从属连词 that 引导宾语从句充当 suggests 的宾语。从句主语为 guilt；谓语为情态动词 may + 动词短语 compensate for（弥补/补偿）；宾语为名词短语 an emotional deficiency（某种情感缺陷，特指同情心不足）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "guilt may compensate for an emotional deficiency",
+                "explanation": "核心学术发现引述（Topic Sentence for Empirical Findings）。引入多伦多大学心理学教授 Tina Malti 的前沿成果，率先抛出震撼性论点：内疚能够“弥补情感缺陷”。这为下文提出内疚与同情心互补的双轨模型确立了总领纲领。"
               }
             ]
           }
@@ -1146,9 +1286,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that guilt and sympathy may represent differe...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "In a number of studies, Malti and others have shown that guilt and sympathy may represent different pathways to cooperation and sharing.",
+                "explanation": "主干为主谓宾结构。前置介词短语 In a number of studies 作范围状语；并列主语为 Malti and others（马尔蒂及其合作者）；谓语动词为现在完成时 have shown（已经表明）；后接从属连词 that 引导的宾语从句。"
+              },
+              {
+                "type": "宾语从句剖析",
+                "content": "that guilt and sympathy may represent different pathways to cooperation and sharing",
+                "explanation": "that 引导从句作 have shown 的宾语。从句并列主语为 guilt and sympathy（内疚与同情）；情态动词 may + 谓语及物动词 represent（代表/体现）；宾语为名词短语 different pathways（不同途径）；介词短语 to cooperation and sharing 作后置定语，点明通往的亲社会终点。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "guilt and sympathy may represent different pathways to cooperation and sharing",
+                "explanation": "核心考点题眼句（Q24 黄金定位句）。揭示内疚与同情是达成“合作与分享”的“两条不同途径”（different pathways），意味着两者任具其一即可导向亲社会行为。这直接命制第 24 题题干 Malti and others have shown that cooperation and sharing...，与正确答案 [D] can result from either sympathy or guilt（可以源于同情，亦可源于内疚）构成无可争议的双向同义转换。"
               }
             ]
           }
@@ -1164,9 +1314,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who are low in sympathy may make up for that...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Some kids who are low in sympathy may make up for that shortfall by experiencing more guilt, which can rein in their nastier impulses.",
+                "explanation": "主干为主谓宾结构。主语为复合代词短语 Some kids，后接定语从句；谓语为情态动词 may + 短语动词 make up for（弥补）；宾语为指示名词短语 that shortfall（那一欠缺，指同情心偏低）；介词短语 by experiencing more guilt 作方式状语。"
+              },
+              {
+                "type": "从句剖析（限制性与非限制性定语从句）",
+                "content": "who are low in sympathy / which can rein in their nastier impulses",
+                "explanation": "① 关系代词 who 引导限制性定语从句修饰 kids，短语 be low in 意为“在……方面较低/缺乏”；② 关系代词 which 引导非限制性定语从句，指代前面体验更多内疚的心理补偿机制，从句谓语短语 rein in（勒紧缰绳/约束克制）带宾语 their nastier impulses（他们更恶劣的冲动）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Some kids who are low in sympathy may make up for that shortfall by experiencing more guilt, which can rein in their nastier impulses.",
+                "explanation": "补偿机制深度拆解与考点支撑。详细论证“路径一”的具体心理动力学：天生同情心弱的孩子，通过内疚带来的负罪自省机制抑制反社会冲动，同样能做出利他行为。为 Q24 答案提供微观机制支撑。"
               }
             ]
           }
@@ -1183,8 +1343,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "And vice versa: High sympathy can substitute for low guilt....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "And vice versa: High sympathy can substitute for low guilt.",
+                "explanation": "主干由并列承接成语短语与主谓宾分句构成。句首为成语短语 And vice versa（反之亦然），冒号后为主干分句：主语为名词短语 High sympathy（高度同情心）；谓语为情态动词 can + 短语动词 substitute for（替代/取代）；宾语为名词短语 low guilt（低度内疚感）。"
+              },
+              {
+                "type": "标点与对称短语剖析",
+                "content": "substitute for low guilt",
+                "explanation": "冒号起同位阐释作用，直接将拉丁外来短语 vice versa 翻译为对称的具体命题；短语动词 substitute for 与上句的 make up for that shortfall 遥相呼应，构成互为代偿的对称语言体系。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "And vice versa: High sympathy can substitute for low guilt.",
+                "explanation": "逻辑对称闭环（Symmetrical Closure）。至此，“低同情由高内疚代偿，低内疚由高同情弥补”的双轨互补模型彻底建立，再次铁证第 24 题中 either sympathy or guilt 的并列选择逻辑。"
               }
             ]
           }
@@ -1201,8 +1371,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In a 2014 study, for example, Malti looked at 244 children....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "In a 2014 study, for example, Malti looked at 244 children.",
+                "explanation": "主干为主谓宾（介宾）结构。介词短语 In a 2014 study 作时间与出处状语；插入语 for example（例如）；主语为专有名词 Malti；谓语动词为一般过去时短语动词 looked at（考察/研究）；宾语为基数词短语 244 children（244名儿童）。"
+              },
+              {
+                "type": "修饰成分与动词析义",
+                "content": "looked at 244 children",
+                "explanation": "looked at 在学术语境中活用为“以……作为研究样本进行观测分析”；基数词 244 children 交代了实证实验的样本量大小。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "In a 2014 study, for example, Malti looked at 244 children.",
+                "explanation": "第 5 段实证案例切入（Case Study Opening）。以具体的科研年份（2014）与精确样本量（244）拉开实证检验序幕，为上一段提出的互补假说提供坚实的数据论据支持。"
               }
             ]
           }
@@ -1219,8 +1399,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Using caregiver assessments and the children’s self-observat...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Using caregiver assessments and the children’s self-observations, she rated each child’s overall sympathy level and his or her tendency to feel negative emotions after moral transgressions.",
+                "explanation": "主干为主谓宾结构。主语为人称代词 she（指代 Malti）；谓语动词为一般过去时及物动词 rated（评估/评级）；后接由 and 连接的双重复杂并列宾语：① each child’s overall sympathy level（每个孩子的总体同情心水平），② his or her tendency to feel negative emotions after moral transgressions（其在犯下道德过失后感受负面情绪的倾向）。"
+              },
+              {
+                "type": "非谓语与核心考点词义剖析",
+                "content": "Using caregiver assessments and the children’s self-observations / to feel negative emotions after moral transgressions",
+                "explanation": "① 句首现在分词短语 Using caregiver assessments... 作方式状语，标明评估手段；② 动词不定式短语 to feel negative emotions 作后置定语修饰 tendency；③ 介词短语 after moral transgressions 作时间状语，其中 transgressions 为词根 trans-（越过）+ gress（迈步）构成的核心考点词，指“越轨、违法、不端行为、做错事”（wrongdoings）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "his or her tendency to feel negative emotions after moral transgressions",
+                "explanation": "实验变量界定与词义题题眼（Q25 绝对定位句）。在心理实验中，“在道德犯错后体会负面情绪的倾向”正是“内疚倾向（guilt-proneness）”的操作性定义。此处的 moral transgressions 直接命制第 25 题 The word “transgressions” (Para. 5) is closest in meaning to...，其语境中明确指向儿童违背道德规则的行为，完美对应正确答案 [B] wrongdoings（不端行为/过错）。"
               }
             ]
           }
@@ -1237,8 +1427,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Then the kids were handed chocolate coins, and given a chanc...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Then the kids were handed chocolate coins, and given a chance to share them with an anonymous child.",
+                "explanation": "主干为时间副词连接的并列被动谓语结构。时间副词 Then 引出后续步骤；主语为名词短语 the kids；并列谓语由两个一般过去时被动语态短语构成：① were handed chocolate coins（被分发巧克力硬币，间接宾语变主语，保留直接宾语），② 省略 were 的 given a chance（被给予一个机会）；不定式短语 to share them with an anonymous child 作后置定语修饰 chance。"
+              },
+              {
+                "type": "非谓语与双宾被动结构",
+                "content": "were handed chocolate coins, and given a chance to share them with an anonymous child",
+                "explanation": "① hand sb. sth. 与 give sb. sth. 的被动式保留直接宾语；② 不定式短语中，代词 them 指代巧克力硬币，介词短语 with an anonymous child（与一名素昧平生的匿名儿童）设定了彻底排除了人情互惠可能性的纯粹利他行为实验情境。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Then the kids were handed chocolate coins, and given a chance to share them with an anonymous child.",
+                "explanation": "行为指标实操转化。将抽象的亲社会合作概念转化为客观、可精确计量的现实分享行为（是否将属于自己的巧克力硬币分给素不相识的孩子），确保实验结果的实证客观性。"
               }
             ]
           }
@@ -1254,9 +1454,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "how much they shared appeared to turn on how...",
-                "explanation": "连接词 <code>how</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "For the low-sympathy kids, how much they shared appeared to turn on how inclined they were to feel guilty.",
+                "explanation": "主干为主系表复合结构。前置介词短语 For the low-sympathy kids 作对象范围状语；主语是由连接词短语 how much 引导的主语从句；系动词/半系动词为 appeared（显得/表现为）；动词不定式短语 to turn on how inclined they were to feel guilty 作表语（或主语补足语）。"
+              },
+              {
+                "type": "从句多层嵌套（主语从句与介词宾语从句）",
+                "content": "how much they shared / how inclined they were to feel guilty",
+                "explanation": "① how much they shared 作主语从句，从句中 how much 作 shared 的宾语；② 不定式短语中，短语动词 turn on 意为“取决于/以……为转移”；介词 on 后接连接代副词 how inclined 引导的从句充当介词宾语，从句中形容词 inclined（倾向于）受 how 修饰，不定式 to feel guilty 作其补足语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "how much they shared appeared to turn on how inclined they were to feel guilty",
+                "explanation": "实验核心实证发现揭晓。精准聚焦于低同情心儿童群体，实验数据清晰表明其分享多寡完全取决于其内疚敏感度的高低。这以确凿的统计学相关性直接证实了上一段关于内疚能够弥补同情心不足的学术论断，强力巩固 Q24 的论据基础。"
               }
             ]
           }
@@ -1272,9 +1482,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "even though they hadn’t magically become more sympat...",
-                "explanation": "从属连词 <code>even though</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "The guilt-prone ones shared more, even though they hadn’t magically become more sympathetic to the other child’s deprivation.",
+                "explanation": "主干为主谓宾结构。主语为复合名词短语 The guilt-prone ones（容易产生内疚的孩子，ones 指代 kids）；谓语动词为一般过去时 shared；比较级副词/代词 more 作数量宾语（分享得更多）。"
+              },
+              {
+                "type": "让步状语从句剖析",
+                "content": "even though they hadn’t magically become more sympathetic to the other child’s deprivation",
+                "explanation": "从属连词短语 even though 引导让步状语从句。从句主语为代词 they；谓语为过去完成时否定式 hadn’t become；副词 magically（不可思议地/像变魔法般地）作修饰状语；表语形容词比较级短语 more sympathetic，介词短语 to the other child’s deprivation（对另一个孩子缺乏糖果的匮乏境遇）作状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The guilt-prone ones shared more, even though they hadn’t magically become more sympathetic to the other child’s deprivation.",
+                "explanation": "排除替代假说与机制确证（Causal Verification）。even though 引导的让步从句彻底排除了“易内疚的孩子是因为同情心突增才分享”的替代解释，铁证如山地证明：内疚本身是一条完全独立的利他动力路径，即便没有激发同情心，内疚亦能促成高水平的亲社会分享。"
               }
             ]
           }
@@ -1291,8 +1511,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "“That’s good news,” Malti says....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "“That’s good news,” Malti says.",
+                "explanation": "主干为主谓宾引语倒装结构。直接引语 That’s good news 作 says 的及物宾语；直接引语内部为主系表结构：指示代词 That 作主语，指代上句实验发现；系动词 ’s (is)；表语名词短语 good news（好消息）；述谓主句主干为 Malti says。"
+              },
+              {
+                "type": "修饰与指代剖析",
+                "content": "That’s good news",
+                "explanation": "代词 That 回指前文发现：天生缺乏同情心的儿童依然能够通过培育健康的内疚机制成长为乐于分享的亲社会个体；good news 表达了学者对该心理机制应用前景的高度乐观评估。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "“That’s good news,” Malti says.",
+                "explanation": "实验结论定性与过渡。简短有力的引语对整场科学探索给出积极肯定的定调，表明这一学术发现绝非纸上谈兵，而是具有极高育人价值与社会实践意义的福音。"
               }
             ]
           }
@@ -1308,9 +1538,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "because we caused harm and we feel regret.”...",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "“We can be prosocial because we caused harm and we feel regret.”",
+                "explanation": "主干为主系表结构 + 原因状语从句。主句主语为人称代词 We（我们人类）；情态动词 can；系动词 be；表语形容词为 prosocial（亲社会的、造福社会的）。"
+              },
+              {
+                "type": "原因状语从句与并列结构",
+                "content": "because we caused harm and we feel regret",
+                "explanation": "从属连词 because 引导原因状语从句阐明亲社会行为的内因。从句内部由并列连词 and 连接两个主谓宾分句：① we caused harm（我们造成了伤害），② we feel regret（我们感受到了懊悔/内疚自责）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "We can be prosocial because we caused harm and we feel regret.",
+                "explanation": "全文结语与主旨升华（Concluding Thesis）。以学者格言式金句为全篇画上句号：亲社会的利他行为不仅发轫于同情慈悲，更能源于犯错之后的负罪自省与补救驱动（feel regret）。与篇首前后呼应，完满闭环论证了内疚作为社会黏合剂与道德成长阶梯的核心主旨。"
               }
             ]
           }
@@ -2701,8 +2941,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Forests give us shade, quiet and one of the harder challenge...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Forests give us shade, quiet and one of the harder challenges in the fight against climate change.",
+                "explanation": "主干为主谓双宾结构。主语为复数名词 Forests（森林）；谓语动词为一般现在时及物动词 give（给予/赋予）；间接宾语为人称代词 us；直接宾语由三个名词短语并列构成：① shade（荫凉），② quiet（宁静），③ one of the harder challenges in the fight against climate change（应对气候变化斗争中更艰巨的挑战之一）。"
+              },
+              {
+                "type": "介词短语修饰与修辞对照",
+                "content": "in the fight against climate change",
+                "explanation": "介词短语 in the fight 作后置定语修饰 challenges；介词短语 against climate change 修饰 fight，明确挑战所处的宏观环境背景；作者将森林带来的宜人生态福祉（shade, quiet）与艰巨治理挑战（harder challenges）并列，制造出强烈的认知修辞反差。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Forests give us shade, quiet and one of the harder challenges in the fight against climate change.",
+                "explanation": "篇首破题与设问伏笔（Rhetorical Hook）。通过在常识性的森林益处末尾突兀地并列“更艰巨的挑战”，引发读者强烈好奇，迅速将话题由自然风光引向气候治理中森林的双刃剑困境，为后文 Q26 揭示森林可能沦为气候恶化潜在威胁埋下总领伏笔。"
               }
             ]
           }
@@ -2719,8 +2969,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Even as we humans count on forests to soak up a good share o...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Even as we humans count on forests to soak up a good share of the carbon dioxide we produce, we are threatening their ability to do so.",
+                "explanation": "主干为主谓宾结构。由 Even as 引导的时间/轻微让步状语从句先行；主句主语为人称代词 we；谓语动词为现在进行时 are threatening（正在威胁）；宾语为名词短语 their ability to do so（它们这样做的能力，代词 their 指代 forests，do so 代指 soak up carbon dioxide）。"
+              },
+              {
+                "type": "从句剖析与非谓语结构",
+                "content": "Even as we humans count on forests to soak up a good share of the carbon dioxide we produce",
+                "explanation": "① 从属连词短语 Even as（正当……之际/尽管）引导状语从句；从句中 humans 作 we 的同位语；短语动词 count on sb./sth. to do sth. 意为“指望/依赖某物做某事”，动词不定式短语 to soak up...（吸收……）作宾语补足语；② the carbon dioxide 后面紧跟省略关系代词 that/which 的限制性定语从句 we produce（我们所排放的），作后置修饰。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "we are threatening their ability to do so",
+                "explanation": "生态悖论陈述与命题题眼（Q26 核心定位句 1）。揭示出人类与森林关系的荒谬悖论：人类一边指望森林大量吸收碳排放，另一边人类自身的排放活动却在反噬森林吸碳的能力。直接点出首句“harder challenges”的本质所在，呼应 Q26 题干。"
               }
             ]
           }
@@ -2736,9 +2996,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that emit more carbon than they absorb....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "The climate change we are hastening could one day leave us with forests that emit more carbon than they absorb.",
+                "explanation": "主干为主谓宾补结构。主语为名词短语 The climate change，后接定语从句；情态动词 could 表潜在可能性；时间状语 one day（有朝一日）；谓语动词为及物动词 leave（使陷入某种境地）；宾语为人称代词 us；介宾短语 with forests that... 作宾语补足语。"
+              },
+              {
+                "type": "定语从句与比较从句剖析",
+                "content": "we are hastening / that emit more carbon than they absorb",
+                "explanation": "① The climate change 后面跟省略关系代词的定语从句 we are hastening（我们正在加速推进的）；② forests 后接由关系代词 that 引导的限制性定语从句 that emit more carbon than they absorb，从句谓语动词 emit（排放）带比较级宾语 more carbon，后接 than 引导的比较状语从句 than they absorb（多于它们吸收的碳）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "leave us with forests that emit more carbon than they absorb",
+                "explanation": "极端恶果预测与命题题眼（Q26 绝杀定位句 2）。本句对首句 harder challenges 进行了最冷酷的具象推导：如果我们加速气候变化，森林最终将由“吸碳的净碳汇”逆转为“排碳多于吸碳的净排放源”。这直接命中第 26 题题干 By saying “one of the harder challenges,” the author implies that...，与正确答案 [B] forests may become a potential threat（森林可能沦为潜在威胁）形成词意与机理上的完全对接。"
               }
             ]
           }
@@ -2755,8 +3025,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Thankfully, there is a way out of this trap—but it involves ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Thankfully, there is a way out of this trap—but it involves striking a subtle balance.",
+                "explanation": "主干由破折号和并列连词 but 连接的两个独立分句构成。第一分句为 There be 存在句：评注性副词 Thankfully（值得庆幸的是）作全句状语；谓语 is；主语名词短语 a way out of this trap（摆脱这一陷阱的路径）。第二分句为主谓宾结构：并列连词 but；主语代词 it 指代 a way out；谓语动词 involves（涉及/需要）；宾语为动名词短语 striking a subtle balance（实现微妙的平衡）。"
+              },
+              {
+                "type": "非谓语与成语搭配剖析",
+                "content": "striking a subtle balance",
+                "explanation": "动名词短语作 involves 的宾语，包含经典短语 strike a balance（在对立两方之间取得平衡/折中），形容词 subtle（微妙的、精细的）强调此平衡方案要求的精巧权衡与反直觉操作。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Thankfully, there is a way out of this trap—but it involves striking a subtle balance.",
+                "explanation": "第 2 段段首问题转向解决方案（Problem to Solution Pivot）。以 Thankfully 驱散前一段的危机阴云，将叙述转向破局出路，同时以 striking a subtle balance 为下文提出“短期砍树减碳以保长期健康”的反直觉辩证方案预先铺平认知通道。"
               }
             ]
           }
@@ -2773,8 +3053,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Helping forests flourish as valuable “carbon sinks” long int...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Helping forests flourish as valuable “carbon sinks” long into the future may require reducing their capacity to absorb carbon now.",
+                "explanation": "主干为主谓宾结构。主语为动名词短语 Helping forests flourish as valuable “carbon sinks” long into the future；情态动词 may + 谓语及物动词 require（可能需要）；宾语为动名词短语 reducing their capacity to absorb carbon now。"
+              },
+              {
+                "type": "多层非谓语与时间对照剖析",
+                "content": "Helping forests flourish as valuable “carbon sinks” long into the future / reducing their capacity to absorb carbon now",
+                "explanation": "① 主语动名词短语中，Helping 后接不带 to 的不定式 flourish 作宾补，介词短语 as valuable “carbon sinks” 作身份状语，时间短语 long into the future（在未来长久的时间里）作时间状语；② 宾语动名词短语中，reducing 带宾语 their capacity，不定式短语 to absorb carbon 作 capacity 的定语，时间副词 now 与主语中的 long into the future 形成鲜明的现在与未来时间对仗。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "require reducing their capacity to absorb carbon now",
+                "explanation": "核心反直觉论点与命题题眼（Q27 绝杀定位句）。作者提出全篇最核心的悖论方案：为了让森林在未来长期充当碳汇，当下必须主动削减其吸碳能力。这与第 27 题题干 To maintain forests as valuable “carbon sinks,” we may need to... 完美对接，正确答案 [B] lower their present carbon-absorbing capacity 正是本句的精确词义改写（lower 替换 reduce，present 替换 now）。"
               }
             ]
           }
@@ -2791,8 +3081,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "California is leading the way, as it does on so many climate...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "California is leading the way, as it does on so many climate efforts, in figuring out the details.",
+                "explanation": "主干为主谓宾（及物短语）结构。主语为专有名词 California（加州）；谓语动词为现在进行时短语 is leading the way（走在前面/引领道路）；介词短语 in figuring out the details（在落实具体细节方面）作后置状语。"
+              },
+              {
+                "type": "方式状语从句剖析",
+                "content": "as it does on so many climate efforts",
+                "explanation": "双逗号间插入由连词 as 引导的方式状语从句，意为“正如其在诸多气候努力中所做的那样”；从句中助动词 does 承前代指 leads the way，介词短语 on so many climate efforts 标明其在气候治理立法方面的广泛先锋历史。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "California is leading the way, as it does on so many climate efforts, in figuring out the details.",
+                "explanation": "理论走向地方实操过渡（Empirical Case Introduction）。将宏观的反常识理论落地到美国环保急先锋加利福尼亚州的具体政策探索上，引出下文对《森林碳计划》的剖析，同时奠定作者对加州方案高度推崇与赞赏的基调（为 Q30 supportive 提供前期铺垫）。"
               }
             ]
           }
@@ -2809,8 +3109,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The state’s proposed Forest Carbon Plan aims to double effor...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The state’s proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush in parts of the forest.",
+                "explanation": "主干为主谓宾结构。主语为名词短语 The state’s proposed Forest Carbon Plan（该州提出的《森林碳计划》）；谓语及物动词为 aims（旨在）；动词不定式短语 to double efforts to thin out young trees and clear brush in parts of the forest 作及物宾语（或 aim to do 搭配）。"
+              },
+              {
+                "type": "非谓语层层嵌套剖析",
+                "content": "proposed / to double efforts to thin out young trees and clear brush in parts of the forest",
+                "explanation": "① 过去分词 proposed（被提议的）作前置定语修饰 Plan；② 宾语不定式短语内部，efforts 后面带由 and 连接的两个后置不定式短语：to thin out young trees（间伐幼树）和 (to) clear brush（清理灌木丛）；介词短语 in parts of the forest 作地点状语；短语动词 thin out 意为“使……变稀疏/降低密度”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "thin out young trees and clear brush in parts of the forest",
+                "explanation": "核心政策手段阐述与命题题眼（Q28 绝杀定位句）。明确揭示加州计划的核心实施路径：加倍努力间伐幼树、清理林下灌木。这一举措的实质正是人为降低森林林分密度。这直接命中第 28 题题干 California’s Forest Carbon Plan endeavors to...，正确答案 [D] reduce the density of some of its forests（减少其部分森林的密度）是对本句措施的高度概括与学术提炼。"
               }
             ]
           }
@@ -2827,8 +3137,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "This temporarily lowers carbon-carrying capacity....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "This temporarily lowers carbon-carrying capacity.",
+                "explanation": "主干为主谓宾结构。指示代词 This 作主语，指代上句稀疏树木和清理灌木的间伐行为；时间副词 temporarily（暂时地）作状语；谓语动词为一般现在时 lowers（降低）；宾语为专有名词短语 carbon-carrying capacity（碳承载能力）。"
+              },
+              {
+                "type": "修饰成分与逻辑限定",
+                "content": "temporarily lowers carbon-carrying capacity",
+                "explanation": "副词 temporarily（短期内/暂时）为全句的核心限定词，表明碳储量下降仅是短期的、过渡性的表象，与下一句通过 But 引出的长期健康固碳形成“短抑长扬”的辩证逻辑。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "This temporarily lowers carbon-carrying capacity.",
+                "explanation": "主动承认短期代价。体现科学论证的客观严谨性，不回避间伐措施在短期内造成的碳储量减少，为接下来阐述林木因获得充沛水分而健康生长形成逻辑垫脚石。"
               }
             ]
           }
@@ -2845,8 +3165,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But the remaining trees draw a greater share of the availabl...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But the remaining trees draw a greater share of the available moisture, so they grow and thrive, restoring the forest’s capacity to pull carbon from the air.",
+                "explanation": "主干为由并列连词 so 连接的两个因果并列分句。第一分句：转折连词 But；主语为名词短语 the remaining trees（剩下的树木）；谓语及物动词 draw（汲取）；宾语为 a greater share of the available moisture（更大份额的可用水分）。第二分句：连词 so；主语代词 they；谓语为并列动词 grow and thrive（生长并蓬勃繁茂）。"
+              },
+              {
+                "type": "非谓语作结果状语剖析",
+                "content": "restoring the forest’s capacity to pull carbon from the air",
+                "explanation": "逗号后现在分词短语作自然伴随与结果状语。分词 restoring（恢复）带宾语 the forest’s capacity，动词不定式短语 to pull carbon from the air 作定语修饰 capacity，生动描摹出大树茂盛生长后重新展现的强大吸碳机能。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the remaining trees draw a greater share of the available moisture, so they grow and thrive, restoring the forest’s capacity...",
+                "explanation": "生态机理科学闭环。阐释间伐为什么是“以退为进”的明智之举：树少 -> 争水减少 -> 存留树木得以汲取足够水分而茁壮成长 -> 彻底恢复长期的强力固碳能力。严密论证了 Q27 与 Q28 的生态学基础。"
               }
             ]
           }
@@ -2863,8 +3193,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Healthy trees are also better able to fend off insects....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Healthy trees are also better able to fend off insects.",
+                "explanation": "主干为主系表结构。主语为名词短语 Healthy trees（健康的树木）；系动词 are；递进副词 also（也）；表语为形容词短语 better able to fend off insects。"
+              },
+              {
+                "type": "非谓语与动词短语剖析",
+                "content": "better able to fend off insects",
+                "explanation": "be able to do sth. 结构中，比较级副词 better 修饰 able；动词不定式短语 to fend off insects 作补足语，包含核心短语动词 fend off（抵御/击退），宾语为 insects（害虫侵袭）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Healthy trees are also better able to fend off insects.",
+                "explanation": "协同生态红利之一（Pest Defense）。除恢复固碳外，间伐培育出的健康林木能更好地抵御病虫害，为下文提到加州上亿树木死于虫灾提供治本之策。"
               }
             ]
           }
@@ -2881,8 +3221,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The landscape is rendered less easily burnable....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The landscape is rendered less easily burnable.",
+                "explanation": "主干为主谓补结构（被动语态复合主干）。主语为名词短语 The landscape（林区景观/地貌）；谓语动词为一般现在时被动语态 is rendered（被使得变为……）；形容词短语 less easily burnable 作主语补足语。"
+              },
+              {
+                "type": "句型与词汇派生剖析",
+                "content": "is rendered less easily burnable",
+                "explanation": "主动结构 render sth. + adj. 的被动句式；补足语中，burnable（易燃的）由动词 burn 派生，副词短语 less easily 修饰 burnable，准确指出林下清理灌木后阻断山火迅速蔓延的阻燃效果。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The landscape is rendered less easily burnable.",
+                "explanation": "协同生态红利之二（Fire Risk Mitigation）。林地地貌的可燃性大幅降低，从源头上斩断了森林野火爆发的燃料载量（fuel load），使山林转变为低火险景观。"
               }
             ]
           }
@@ -2899,8 +3249,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Even in the event of a fire, fewer trees are consumed....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Even in the event of a fire, fewer trees are consumed.",
+                "explanation": "主干为主谓结构（被动语态）。前置介词短语 Even in the event of a fire 作让步条件状语；主语为名词短语 fewer trees（更少数量的树木）；谓语动词为一般现在时被动语态 are consumed（被烧毁/吞噬）。"
+              },
+              {
+                "type": "介词短语与动词析义",
+                "content": "Even in the event of a fire / are consumed",
+                "explanation": "① 介词短语 in the event of 为固定搭配，意为“万一发生/在……情况下”，Even 加强让步色彩；② 动词 consume 在此引申为被大火“焚毁化为灰烬”，用词庄重传神。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Even in the event of a fire, fewer trees are consumed.",
+                "explanation": "极限情境兜底论证（Worst-case Scenario）。即使发生无法扑灭的野火，稀疏林相也能有效阻隔火势连环蔓延，保护绝大部分树木免于焚毁，从而最大限度保全碳储量，完成对间伐合理性的全面闭环论证。"
               }
             ]
           }
@@ -2917,8 +3277,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The need for such planning is increasingly urgent....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The need for such planning is increasingly urgent.",
+                "explanation": "主干为主系表结构。主语为抽象名词 The need（需求）；介词短语 for such planning（对此类规划的需求）作后置定语；系动词 is；程度副词 increasingly（日益/越来越）；表语形容词 urgent（紧迫的）。"
+              },
+              {
+                "type": "修饰成分剖析",
+                "content": "for such planning / increasingly urgent",
+                "explanation": "介词短语 for such planning 承前指代加州的森林碳管理规划；副词 increasingly 赋予全句动态演进的紧迫感；形容词 urgent 确立警示呼吁语气。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The need for such planning is increasingly urgent.",
+                "explanation": "第 4 段段首主题句（Topic Sentence of Para 4）。全句由方案优势分析骤然切换至现实灾情的紧迫严峻性，以极其简练的句式引领读者正视加州森林面临的生死考验。"
               }
             ]
           }
@@ -2934,9 +3304,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "since 2010...",
-                "explanation": "从属连词 <code>since</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Already, since 2010, drought and insects have killed over 100 million trees in California, most of them in 2016 alone, and wildfires have burned hundreds of thousands of acres.",
+                "explanation": "主干由并列连词 and 连接的两个现在完成时并列分句构成。第一分句：时间副词 Already；时间状语 since 2010；并列主语 drought and insects（干旱与害虫）；谓语及物动词短语 have killed；宾语 over 100 million trees；地点状语 in California；独立主格 most of them in 2016 alone 作补充说明。第二分句：主语 wildfires；谓语 have burned；宾语 hundreds of thousands of acres。"
+              },
+              {
+                "type": "独立主格与数据修饰剖析",
+                "content": "most of them in 2016 alone / hundreds of thousands of acres",
+                "explanation": "① 代词 most of them 后接介词短语 in 2016 alone 构成无动词独立主格结构，逻辑上相当于 with most of them being killed...，凸显 2016 年单年灾情的大爆发；② over 100 million（逾一亿棵）与 hundreds of thousands of acres（数十万英亩）两组天文数字直观展现灾难的毁灭性规模。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "drought and insects have killed over 100 million trees in California... and wildfires have burned hundreds of thousands of acres",
+                "explanation": "震撼性事实与数据论据（Shocking Statistical Evidence）。以逾亿树木枯死和数十万英亩被焚的铁证，充分证实上一句中的 increasingly urgent，彻底击碎了对森林现状无动于衷的消极保守观念。"
               }
             ]
           }
@@ -2953,8 +3333,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "California plans to treat 35,000 acres of forest a year by 2...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "California plans to treat 35,000 acres of forest a year by 2020, and 60,000 by 2030— financed from the proceeds of the state’s emissions-permit auctions.",
+                "explanation": "主干为主谓宾结构。主语为专有名词 California；谓语动词为一般现在时 plans；动词不定式短语 to treat 35,000 acres of forest a year by 2020, and 60,000 by 2030 作及物宾语。"
+              },
+              {
+                "type": "非谓语与介宾短语剖析",
+                "content": "to treat 35,000 acres... and 60,000 by 2030 / financed from the proceeds of the state’s emissions-permit auctions",
+                "explanation": "① 不定式短语内部包含时间与指标阶梯推进：by 2020 目标 35,000 英亩/年，and 连接省略动词的 60,000 (acres a year) by 2030；② 破折号后接过去分词短语 financed from the proceeds... 作后置定语/状语，说明资金来源于加州碳排放配额拍卖的收益（emissions-permit auctions）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "California plans to treat 35,000 acres of forest a year by 2020, and 60,000 by 2030",
+                "explanation": "第 5 段定量行动目标与资金闭环说明。展现加州政府治理规划的时间表与定量指标，并表明其拥有成熟的碳市场资金自我造血机制，增强方案的说服力。"
               }
             ]
           }
@@ -2970,9 +3360,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that could benefit...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "That’s only a small share of the total acreage that could benefit, about half a million acres in all, so it will be vital to prioritize areas at greatest risk of fire or drought.",
+                "explanation": "主干由因果连词 so 连接的两个分句构成。第一分句为主系表结构：指示代词 That 作主语；系动词 ’s (is)；表语名词短语 only a small share of the total acreage that could benefit；同位语 about half a million acres in all 作数量说明。第二分句为形式主语结构：连词 so；形式主语 it；系动词 will be；表语形容词 vital（极其重要的）；真正主语为动词不定式短语 to prioritize areas at greatest risk of fire or drought。"
+              },
+              {
+                "type": "从句与不定式结构剖析",
+                "content": "that could benefit / to prioritize areas at greatest risk of fire or drought",
+                "explanation": "① total acreage 后接由关系代词 that 引导的限制性定语从句 that could benefit（能够受益的总面积）；② 真实主语不定式短语中，及物动词 prioritize 意为“按优先顺序处理/优先考虑”，宾语 areas 后接介词短语 at greatest risk of fire or drought（处于最大火灾或干旱风险的）作后置定语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "it will be vital to prioritize areas at greatest risk of fire or drought",
+                "explanation": "核心行动准则与命题题眼（Q29 绝对定位句）。作者清醒指出：治理目标相对于全州 50 万英亩亟待治理的林地而言仍是一小部分（a small share），因此资源必须用在刀刃上——必须优先处理面临最大火灾或干旱风险的区域。这直接命制第 29 题题干 What is essential to California’s plan according to Paragraph 5?，与正确答案 [C] To handle the areas in serious danger first（优先处置危险严重的区域）形成完美同义替换（prioritize -> handle first, at greatest risk -> in serious danger）。"
               }
             ]
           }
@@ -2988,9 +3388,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that carbon in woody material removed from th...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "The strategy also aims to ensure that carbon in woody material removed from the forests is locked away in the form of solid lumber or burned as biofuel in vehicles that would otherwise run on fossil fuels.",
+                "explanation": "主干为主谓宾结构。主语为名词短语 The strategy；递进副词 also；谓语及物动词 aims；动词不定式短语 to ensure that... 作宾语，其中及物动词 ensure 带从属连词 that 引导的宾语从句。"
+              },
+              {
+                "type": "多层从句与虚拟语气剖析",
+                "content": "that carbon in woody material removed from the forests is locked away in the form of solid lumber or burned as biofuel in vehicles that would otherwise run on fossil fuels",
+                "explanation": "① 宾语从句主语为 carbon in woody material...，其中过去分词短语 removed from the forests 作后置定语修饰 woody material；② 从句并列被动谓语为 is locked away（被封存）或 (is) burned as biofuel（作为生物燃料被燃烧）；③ vehicles 后面接关系代词 that 引导的限制性定语从句 that would otherwise run on fossil fuels，从句中副词 otherwise（否则）触发含蓄虚拟语气 would run，说明生物燃料对传统化石燃油的清洁替代。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "carbon in woody material removed from the forests is locked away in the form of solid lumber or burned as biofuel",
+                "explanation": "第 6 段全生命周期碳封存闭环。详细回应公众顾虑：被间伐砍伐的木料绝非当作垃圾一烧了之，而是制成实木建材长期锁碳或转化为清洁生物燃油，实现伐木过程的全流程绿色闭环。"
               }
             ]
           }
@@ -3007,8 +3417,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "New research on transportation biofuels is already under way...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "New research on transportation biofuels is already under way.",
+                "explanation": "主干为主系表结构（介宾作表语）。主语为不可数名词短语 New research；介词短语 on transportation biofuels（关于交通生物质燃料的）作后置定语；系动词 is；时间副词 already（已经）；表语为介词短语 under way（在进行中）。"
+              },
+              {
+                "type": "修饰成分与习语剖析",
+                "content": "is already under way",
+                "explanation": "介宾短语 under way 为地道固定搭配，意为“在进行中/在推行中”（in progress / ongoing）；介词 on 标明研究课题方向。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "New research on transportation biofuels is already under way.",
+                "explanation": "科研现实进展佐证。以简短的事实验证生物燃料技术并非空中楼阁，而是已有扎实的前沿研究正在推进，夯实全套治理路径的技术可行性。"
               }
             ]
           }
@@ -3025,8 +3445,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "State governments are well accustomed to managing forests, b...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "State governments are well accustomed to managing forests, but traditionally they’ve focused on wildlife, watersheds and opportunities for recreation.",
+                "explanation": "主干由转折连词 but 连接的两个分句构成。第一分句为主系表结构：主语 State governments（州政府）；系动词 are；副词 well；表语形容词短语 accustomed to managing forests（习惯于管理森林）。第二分句为主谓宾结构：转折连词 but；时间副词 traditionally（传统上）；主语 they；谓语为现在完成时 ’ve focused；介宾短语 on wildlife, watersheds and opportunities for recreation 作宾语。"
+              },
+              {
+                "type": "非谓语与介词宾语剖析",
+                "content": "accustomed to managing forests / focused on wildlife, watersheds and opportunities for recreation",
+                "explanation": "① accustomed to doing sth. 中 to 为介词，后接动名词 managing forests 作宾语；② 第二分句 focus on 后面接三元并列宾语：野生动植物（wildlife）、水资源流域（watersheds）与休闲娱乐机会（opportunities for recreation），点明传统林业管理关注维度的狭窄。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "traditionally they’ve focused on wildlife, watersheds and opportunities for recreation",
+                "explanation": "末段新旧管理范式对照。指出各州政府虽擅长管护森林，但以往视野局限于动植物、水体和游憩等传统范畴，从而引出对“固碳”这一划时代战略使命的滞后觉醒。"
               }
             ]
           }
@@ -3043,8 +3473,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Only recently have they come to see the vital part forests w...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Only recently have they come to see the vital part forests will have to play in storing carbon.",
+                "explanation": "主干为主谓宾（部分倒装）结构。时间状语短语 Only recently 居首引发主谓部分倒装；助动词 have 提前至主语前；主语为代词 they；谓语动词短语为完成时不定式结构 come to see（逐渐认识到）；宾语为名词短语 the vital part，后接定语从句。"
+              },
+              {
+                "type": "倒装结构与定语从句剖析",
+                "content": "Only recently have they come to see / the vital part forests will have to play in storing carbon",
+                "explanation": "① 句首由“Only + 时间状语（Only recently）”触发部分倒装（Partial Inversion），正常语序为 They have come to see ... only recently；② the vital part 后面紧跟省略关系代词 that/which 的限制性定语从句 forests will have to play in storing carbon，包含搭配 play a part in doing sth.（在做某事中发挥作用），动名词短语 storing carbon 作介词 in 的宾语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Only recently have they come to see the vital part forests will have to play in storing carbon.",
+                "explanation": "倒装强调与时代觉醒。采用 Only recently have they... 的强语气倒装句式，强烈凸显各州将森林纳入气候战略的认知觉醒之晚，反衬出加州敢为人先的引领示范价值。"
               }
             ]
           }
@@ -3060,9 +3500,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which is expected to be finalized by the gover...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "California’s plan, which is expected to be finalized by the governor next year, should serve as a model.",
+                "explanation": "主干为主谓宾（介宾）结构。主语为名词短语 California’s plan；情态动词 should 表推测与理应如此；谓语及物短语动词为 serve as（充当/作为）；宾语为名词短语 a model（楷模、典范）。"
+              },
+              {
+                "type": "非限制性定语从句剖析",
+                "content": "which is expected to be finalized by the governor next year",
+                "explanation": "双逗号间插入由关系代词 which 引导的非限制性定语从句修饰先行词 California’s plan。从句主干为被动语态 is expected to be finalized（预计将被最终敲定签署），介词短语 by the governor 标明行政签署者，时间状语 next year 标明落地生效节点。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "California’s plan... should serve as a model.",
+                "explanation": "全文终极结论与作者态度题眼（Q30 绝杀定位句）。作者在文章末尾以 should serve as a model（应当成为全美各地的典范楷模）对加州的《森林碳计划》进行盖棺定论，表达了极度赞赏、认可与坚决拥护。这直接命中第 30 题题干 The author’s attitude to California’s plan can best be described as...，正确选项 [A] supportive（支持的）在此获得全篇最权威、最明确的终极题眼锁定。"
               }
             ]
           }
@@ -4384,8 +4834,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "American farmers have been complaining of labor shortages fo...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "American farmers have been complaining of labor shortages for several years.",
+                "explanation": "主干为主谓宾（介宾搭配）结构。主语为名词短语 American farmers（美国农场主/农民）；谓语动词为现在完成进行时 have been complaining，表示从过去一直延续至今且仍在持续的抱怨动作；介词短语 of labor shortages（关于劳动力短缺）作其固定介宾宾语；时间状语 for several years（数年来）标明短缺危机的长期性。"
+              },
+              {
+                "type": "时态与短语搭配剖析",
+                "content": "have been complaining of labor shortages",
+                "explanation": "complain of sth. 为固定及物搭配，意为“诉说……之苦/抱怨……”；现在完成进行时强调该诉求历时久远且至今未获解决，凸显问题的积重难返。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "American farmers have been complaining of labor shortages for several years.",
+                "explanation": "篇首痛点铺垫（Context Hook）。文章开门见山直击美国现代农业最突出的危机——劳动力短缺（labor shortages），为全文展开制度根源剖析奠定叙事基调。"
               }
             ]
           }
@@ -4402,8 +4862,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The complaints are unlikely to stop without an overhaul of i...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The complaints are unlikely to stop without an overhaul of immigration rules for farm workers.",
+                "explanation": "主干为主系表结构。主语为名词短语 The complaints（这些抱怨）；系动词 are；表语形容词 unlikely（不太可能的）；动词不定式短语 to stop 作补足语；介词短语 without an overhaul of immigration rules for farm workers 作否定条件状语。"
+              },
+              {
+                "type": "双重否定与介宾修饰剖析",
+                "content": "unlikely to stop without an overhaul of immigration rules for farm workers",
+                "explanation": "① unlikely（不可能）与 without（若无）构成语篇双重否定，逻辑上表达“只有彻底改革农工移民规则，抱怨才可能平息”的强肯定命题；② 名词 overhaul 意为“全面检修、彻底改革”，介词短语 of immigration rules for farm workers 层层限定改革的具体法律对象。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "without an overhaul of immigration rules for farm workers",
+                "explanation": "首段核心命题与题眼（Q31 绝对定位句）。作者明确判定，农场主抱怨的根本解决之道在于农场工人移民规则的彻底改革（an overhaul of immigration rules）。这直接命制第 31 题题干 What problem should be addressed according to the first two paragraphs?，与正确答案 [D] Flaws in U.S. immigration rules for farm workers（美国农场工人移民规则中的缺陷）构成无缝逻辑对接（overhaul 对应解决 flaws）。"
               }
             ]
           }
@@ -4419,9 +4889,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
+                "type": "主干剖析",
+                "content": "Congress has obstructed efforts to create a more straightforward visa for agricultural workers that would let foreign workers stay longer in the U.S. and change jobs within the industry.",
+                "explanation": "主干为主谓宾结构。主语为专有名词 Congress（美国国会）；谓语动词为现在完成时 has obstructed（阻挠了）；宾语为名词 efforts；后接动词不定式短语 to create a more straightforward visa... 作后置定语。"
+              },
+              {
+                "type": "定语从句与使役结构剖析",
                 "content": "that would let foreign workers stay longer in the U.S. and change jobs within the industry",
-                "explanation": "关系词 <code>that</code> 引导定语从句，修饰先行词 visa。"
+                "explanation": "① 不定式中及物动词 create 带宾语 a more straightforward visa for agricultural workers；② 其后接关系代词 that 引导的限制性定语从句修饰 visa；从句中动词 let 带宾语 foreign workers，后接由 and 连接的两个省略 to 的并列不定式作宾补：stay longer in the U.S.（在美停留更久）与 change jobs within the industry（在行业内自由更换工作）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Congress has obstructed efforts to create a more straightforward visa for agricultural workers",
+                "explanation": "制度症结与政治阻力剖析。直指国会长期阻挠农工签证改革的政治现实，具体揭示了 Q31 中所指“移民规则缺陷（Flaws in immigration rules）”的制度生成根源。"
               }
             ]
           }
@@ -4437,9 +4917,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "If this doesn’t change...",
-                "explanation": "从属连词 <code>If</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "If this doesn’t change, American businesses, communities, and consumers will be the losers.",
+                "explanation": "主干由条件状语从句和主句构成。条件从句：连词 If；主语代词 this（指改革受阻现状）；谓语 doesn’t change。主句为主系表结构：并列主语为 American businesses, communities, and consumers（美国企业、社区与消费者）；助动词 will + 系动词 be；表语名词短语 the losers（输家/受害者）。"
+              },
+              {
+                "type": "条件从句与排比修辞剖析",
+                "content": "If this doesn’t change / American businesses, communities, and consumers will be the losers",
+                "explanation": "① If 引导真实条件句进行政策后果预警；② 主语运用商业、社会、民众三元并列排比，将农业用工荒的波及面从田埂地头扩展至整个宏观国民经济生活。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "American businesses, communities, and consumers will be the losers.",
+                "explanation": "首段后果定性与紧迫性预警。以极具威慑力的词汇 the losers 宣告政策僵局的惨重代价，为接下来深入剖析农业劳动力的人口学危机做足铺垫。"
               }
             ]
           }
@@ -4457,7 +4947,17 @@
               {
                 "type": "主干剖析",
                 "content": "Perhaps half of U.S. farm laborers are undocumented immigrants.",
-                "explanation": "全句为主系表结构，主语为 half of U.S. farm laborers，表语为 undocumented immigrants。"
+                "explanation": "主干为主系表结构。推测副词 Perhaps（或许/大概）作全句状语；主语为比例短语 half of U.S. farm laborers（半数美国农场劳工）；系动词 are；表语名词短语 undocumented immigrants（无证移民/非法移民）。"
+              },
+              {
+                "type": "术语析义与修饰",
+                "content": "undocumented immigrants",
+                "explanation": "术语 undocumented immigrants 为官方中性法律表达，特指未取得合法居留与工作许可的外国劳工；half of 揭示了美国农业对该脆弱地下劳动力的极高依赖度。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Perhaps half of U.S. farm laborers are undocumented immigrants.",
+                "explanation": "第 2 段劳动力人口结构底牌揭示。点出美国农业劳工的结构性致命软肋：一半劳动力系无证移民，因此一旦边境或移民政策有变，整个农业供给网络立即面临瘫痪。"
               }
             ]
           }
@@ -4474,8 +4974,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "As fewer such workers enter the country, the characteristics...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "As fewer such workers enter the country, the characteristics of the agricultural workforce are changing.",
+                "explanation": "主干为主谓结构。由 As 引导的时间/伴随状语从句先行；主句主语为名词短语 the characteristics of the agricultural workforce（农业劳动力的特征）；谓语为现在进行时 are changing（正在发生质变）。"
+              },
+              {
+                "type": "状语从句剖析",
+                "content": "As fewer such workers enter the country",
+                "explanation": "从属连词 As 引导伴随/时间状语从句，从句主语为比较级短语 fewer such workers（更少此类工人，指无证农工），谓语为及物动词 enter，宾语为 the country（美国），标明外部补充通道急剧收缩。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the characteristics of the agricultural workforce are changing",
+                "explanation": "段落内部承前启后过渡。前承劳工流入量骤减的外部约束，后启劳动力内部人口学特征的深刻变迁，直接牵引出下文关于老龄化的核心事实。"
               }
             ]
           }
@@ -4491,9 +5001,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "while still predominantly born in Mexico...",
-                "explanation": "从属连词 <code>while</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Today’s farm laborers, while still predominantly born in Mexico, are more likely to be settled rather than migrating and more likely to be married than single.",
+                "explanation": "主干为主系表结构。主语为名词短语 Today’s farm laborers（当今农场劳工）；双逗号间插入让步从句；系动词 are；表语由两个由 and 连接的并列形容词比较级短语构成：① more likely to be settled rather than migrating，② more likely to be married than single。"
+              },
+              {
+                "type": "状语从句与平行对照剖析",
+                "content": "while still predominantly born in Mexico / settled rather than migrating / married than single",
+                "explanation": "① while 引导让步状语从句，系省略主语与系动词的形式（while they are still...），副词 predominantly（主要地）修饰 born；② 表语内部通过 rather than 和 than 构建了两组高度对称的对比：定居而非候鸟式迁徙（settled vs migrating）、成家结婚而非单身汉（married vs single）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "more likely to be settled rather than migrating and more likely to be married than single",
+                "explanation": "农工群体画像变迁。指出当代农工已由过去随季节迁徙的年轻单身流动工演变为拖家带口就地定居的本地常住人口，劳动力调配弹性与流动性显著下降。"
               }
             ]
           }
@@ -4510,8 +5030,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "They’re also aging....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "They’re also aging.",
+                "explanation": "主干为主系表（或主谓）结构。主语代词 They（指农场劳工）；系动词 ’re (are)；递进副词 also（而且/也）；表语形容词/进行时分词 aging（正在变老/老化）。"
+              },
+              {
+                "type": "修饰成分与短句节奏",
+                "content": "They’re also aging.",
+                "explanation": "全句仅 3 个词，节奏极度紧凑；副词 also 承接前文已婚化与定居化，将论述焦点引爆至对体力劳动最具毁灭性的人口特征——老龄化。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "They’re also aging.",
+                "explanation": "段落核心论点与命题题眼（Q32 绝对定位句）。作者以短小凝练的警句明确点明美国农业劳动力的核心麻烦在于老龄化（aging）。这直接命中第 32 题题干 One trouble with U.S. agricultural workforce is...，与正确答案 [A] the aging of immigrant farm workers（移民农场工人的老龄化）完全无缝重合。"
               }
             ]
           }
@@ -4528,8 +5058,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "At the start of this century, about one-third of crop worker...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "At the start of this century, about one-third of crop workers were over the age of 35.",
+                "explanation": "主干为主系表结构。介词短语 At the start of this century（本世纪初）作时间状语；主语为分数短语 about one-third of crop workers（约三分之一的作物劳工）；系动词 were；表语为介词短语 over the age of 35（超过35岁）。"
+              },
+              {
+                "type": "修饰成分与历史基线",
+                "content": "about one-third of crop workers were over the age of 35",
+                "explanation": "时间短语设立 2000 年前后的历史基准，三分之一超过 35 岁的基线为下句的今昔对比设立了数据参照。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "At the start of this century, about one-third of crop workers were over the age of 35.",
+                "explanation": "历史基准数据。为下一句惊心动魄的数据飙升奠定客观参照系，构成严谨的时空数据对仗。"
               }
             ]
           }
@@ -4546,8 +5086,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Now more than half are....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Now more than half are.",
+                "explanation": "主干为主系表省略结构。时间副词 Now（现在）作状语；主语为比较级代词短语 more than half（超过半数）；系动词 are；承前省略表语短语 (over the age of 35)。"
+              },
+              {
+                "type": "承前省略与对比结构剖析",
+                "content": "Now more than half are",
+                "explanation": "承前完全省略 over the age of 35，句式精悍极简，使读者注意力完全聚焦在从 1/3 到 1/2 以上（more than half）的惊人跃升比例上。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Now more than half are.",
+                "explanation": "今昔悬殊对比论据与 Q32 绝杀支撑。以人口普查级的过半数（more than half）客观数据，无可辩驳地坐实了农业工人的老龄化危机，彻底锁死 Q32 答案。"
               }
             ]
           }
@@ -4564,8 +5114,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "And picking crops is hard on older bodies....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "And picking crops is hard on older bodies.",
+                "explanation": "主干为主系表结构。句首并列连词 And 承接前文；动名词短语 picking crops（采摘庄稼）作主语；系动词 is；表语形容词 hard（艰辛的/难以承受的）；介词短语 on older bodies（对上了年纪的躯体）作对象范围状语。"
+              },
+              {
+                "type": "非谓语与口语搭配剖析",
+                "content": "picking crops is hard on older bodies",
+                "explanation": "① 动名词短语 picking crops 具象化农田繁重体力劳动；② 经典口语搭配 be hard on sb./sth. 意为“对……是沉重负荷/让……吃不消”，older bodies 以肉体感触具象化老龄化的严酷生理极限。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "And picking crops is hard on older bodies.",
+                "explanation": "生理现实残酷补强。指出农业采摘属于超负荷体力活，老龄化绝非简单的数字增长，而是直接导致无法弯腰耐劳、生产效率锐减与劳力断档。"
               }
             ]
           }
@@ -4581,9 +5141,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "同位语/解释说明",
-                "content": "Native U.S. workers won’t be returning to the farm",
-                "explanation": "冒号后为同位说明从句，具体解释前文 cure 的内容。"
+                "type": "主干剖析",
+                "content": "One oft-debated cure for this labor shortage remains as implausible as it’s been all along: Native U.S. workers won’t be returning to the farm.",
+                "explanation": "主干为主系表结构 + 冒号同位阐释分句。主语为名词短语 One oft-debated cure for this labor shortage（针对此劳工短缺的一个常被争论的对策）；系动词 remains；表语为同级比较短语 as implausible as it’s been all along（与其一直以来一样难以置信/荒谬不经）。冒号后为主谓分句：主语 Native U.S. workers；谓语 won’t be returning to the farm。"
+              },
+              {
+                "type": "比较结构与同位阐释剖析",
+                "content": "as implausible as it’s been all along / Native U.S. workers won’t be returning to the farm",
+                "explanation": "① 形容词 implausible 意为“难以置信的、不合情理的”，同级比较 as... as 表明该对策历来就是自欺欺人的幻想；② 冒号后分句作为 cure 的同位语解释从句，将来进行时 won’t be returning（绝不会重返）表达了作者无比斩钉截铁的排除性判定。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "One oft-debated cure for this labor shortage remains as implausible as it’s been all along: Native U.S. workers won’t be returning to the farm.",
+                "explanation": "击破政客虚妄幻想与命题题眼（Q33 绝杀定位句）。针对劳工短缺，美国政坛与民间常年争论的一种所谓解决方案是“让美国本土工人重返农场”，作者一针见血指责其荒谬不经。这直接命制第 33 题题干 What is the much-argued solution to the labor shortage in U.S. farming?，正确答案 [C] To get native U.S. workers back to farming（让美国本土工人重返农耕）正是对冒号前后 oft-debated cure 和 Native U.S. workers returning 的精确提炼。"
               }
             ]
           }
@@ -4600,8 +5170,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Mechanization isn’t the answer, either—not yet, at least....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Mechanization isn’t the answer, either—not yet, at least.",
+                "explanation": "主干为主系表结构。主语为不可数名词 Mechanization（农业机械化）；系动词加否定 isn’t；表语名词短语 the answer（答案/解药）；副词 either（也）；破折号后接插入语 not yet, at least（至少目前尚不是）。"
+              },
+              {
+                "type": "修饰成分与时间限定",
+                "content": "not yet, at least",
+                "explanation": "句末 either 呼应前句对本土劳工方案的否定；破折号后的限定评注 not yet, at least 极为严密审慎，否定的是机械化在当下的替代救场能力，而非其长远演进潜力。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Mechanization isn’t the answer, either—not yet, at least.",
+                "explanation": "第 3 段排除法论证之二。在否定本土工人回流后，紧接着排除第二个技术万能论迷思——农业机械化，从而逼近唯一可行的解决路径。"
               }
             ]
           }
@@ -4618,8 +5198,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Production of corn, cotton, rice, soybeans, and wheat has be...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Production of corn, cotton, rice, soybeans, and wheat has been largely mechanized, but many high-value, labor-intensive crops, such as strawberries, need labor.",
+                "explanation": "主干由转折连词 but 连接的两个分句构成。第一分句为主谓（被动）结构：主语 Production of corn, cotton, rice, soybeans, and wheat；谓语为现在完成时被动语态 has been mechanized，副词 largely（很大程度上）作状语。第二分句为主谓宾结构：转折连词 but；主语为 many high-value, labor-intensive crops，插入举例 such as strawberries；谓语动词 need；宾语 labor。"
+              },
+              {
+                "type": "复合形容词与对照剖析",
+                "content": "high-value, labor-intensive crops, such as strawberries",
+                "explanation": "使用两个精炼的连字符复合形容词 high-value（高附加值的）与 labor-intensive（劳动密集型的），精准勾勒出娇嫩易损的蔬果经济作物对灵巧手工劳动的刚性不可替代依赖。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Production of corn... has been largely mechanized, but many high-value, labor-intensive crops... need labor.",
+                "explanation": "分类实证解剖。通过“大田粮油（高度机械化）”与“高价值蔬果（高度手工化）”的二分法对照，击破无差别全面自动化的虚妄幻想，说明果蔬产业对人力的绝对应急需求。"
               }
             ]
           }
@@ -4635,9 +5225,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "where robots do a small share of milking...",
-                "explanation": "关系词 <code>where</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Even dairy farms, where robots do a small share of milking, have a long way to go before they’re automated.",
+                "explanation": "主干为主谓宾结构。主语为名词短语 Even dairy farms（哪怕是奶牛场）；双逗号间插入定语从句；谓语动词短语 have a long way to go（还有很长的路要走）；后接时间状语从句 before they’re automated。"
+              },
+              {
+                "type": "定语从句与时间状语从句剖析",
+                "content": "where robots do a small share of milking / before they’re automated",
+                "explanation": "① 关系副词 where 引导非限制性定语从句修饰 dairy farms，说明机器人仅承担挤奶的一小部分份额；② 从属连词 before 引导时间状语从句，从句中代词 they 指代奶牛场，谓语为被动语态 are automated。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Even dairy farms... have a long way to go before they’re automated.",
+                "explanation": "极限案例反衬论证（A Fortiori Argument）。连自动化程度最高、已有机器人挤奶的奶牛场全面实现自动化都尚且遥遥无期，普通果蔬采摘实现机器代人更是天方夜谭，彻底终结了机械化幻想。"
               }
             ]
           }
@@ -4654,8 +5254,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "As a result, farms have grown increasingly reliant on tempor...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "As a result, farms have grown increasingly reliant on temporary guest workers using the H-2A visa to fill the gaps in the workforce.",
+                "explanation": "主干为主系表结构。短语 As a result（因此）作因果状语；主语 farms；系动词 have grown（逐渐变得）；程度副词 increasingly；表语形容词短语 reliant on temporary guest workers（依赖临时客工）。"
+              },
+              {
+                "type": "非谓语作定语与目的状语",
+                "content": "using the H-2A visa / to fill the gaps in the workforce",
+                "explanation": "① guest workers 后面接现在分词短语 using the H-2A visa 作后置定语，标明其签证法律类别；② 动词不定式短语 to fill the gaps in the workforce 作目的状语，形象点出填补劳动力空缺的现实需求。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "farms have grown increasingly reliant on temporary guest workers using the H-2A visa",
+                "explanation": "第 4 段因果总括与焦点引入。在排除本土劳工与机械化后，顺理成章引出唯一的现实依托——H-2A 临时农业客工签证，正式拉开对 H-2A 签证行政运转弊端的全景审视。"
               }
             ]
           }
@@ -4672,8 +5282,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Starting around 2012, requests for the visas rose sharply; f...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Starting around 2012, requests for the visas rose sharply; from 2011 to 2016 the number of visas issued more than doubled.",
+                "explanation": "主干由分号连接的两个并列主谓分句构成。第一分句：主语 requests for the visas；谓语动词 rose；副词 sharply（急剧地）作状语。第二分句：时间状语 from 2011 to 2016；主语 the number of visas issued；谓语动词 doubled，副词短语 more than 作修饰语。"
+              },
+              {
+                "type": "非谓语分词修饰剖析",
+                "content": "Starting around 2012 / the number of visas issued",
+                "explanation": "① 句首现在分词短语 Starting around 2012 作时间状语；② 第二分句主语中，过去分词 issued 作后置定语修饰 visas，指实际签发发放的签证总数。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "requests for the visas rose sharply... the number of visas issued more than doubled",
+                "explanation": "客观需求激增数据佐证。以“申请量急剧上升”和“5年签发量翻倍有余”两组迅猛数据，直观体现出美国农业界对 H-2A 签证客工的迫切渴求。"
               }
             ]
           }
@@ -4689,9 +5309,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which is limited to 66...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "The H-2A visa has no numerical cap, unlike the H-2B visa for nonagricultural work, which is limited to 66,000 a year.",
+                "explanation": "主干为主谓宾结构。主语专有名词短语 The H-2A visa；谓语动词 has；宾语否定名词短语 no numerical cap（没有法定配额上限）。"
+              },
+              {
+                "type": "介词短语与非限制性定语从句剖析",
+                "content": "unlike the H-2B visa for nonagricultural work, which is limited to 66,000 a year",
+                "explanation": "① 介词短语 unlike... 作对比状语；② 关系代词 which 引导非限制性定语从句修饰 H-2B visa，从句谓语为被动短语 is limited to 66,000 a year，明确指出非农签证具有严格的年度法定限额。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The H-2A visa has no numerical cap",
+                "explanation": "制度特性澄清与排除铺垫。明确说明 H-2A 法律上不受名额限制（no numerical cap），从而排除了“法定名额用尽”导致短缺的假说，为下一句揭露官僚审批迟缓埋下蓄势铺垫。"
               }
             ]
           }
@@ -4708,8 +5338,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Even so, employers complain they aren’t given all the worker...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Even so, employers complain they aren’t given all the workers they need.",
+                "explanation": "主干为主谓宾结构。句首让步短语 Even so（即便如此）作状语；主语 employers；谓语动词 complain；后接省略 that 的宾语从句 they aren’t given all the workers they need。"
+              },
+              {
+                "type": "宾语从句与定语从句剖析",
+                "content": "they aren’t given all the workers they need",
+                "explanation": "① 宾语从句中主语 they，谓语为一般现在时被动语态 aren’t given，保留直接宾语 all the workers；② workers 后面紧跟省略关系代词 who/that 的定语从句 they need。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Even so, employers complain they aren’t given all the workers they need.",
+                "explanation": "反差悬念制造。明明法律没有配额上限，雇主却依旧招不够工人，尖锐的现实反差直接将批判锋芒逼向行政审批流程的肠梗阻。"
               }
             ]
           }
@@ -4726,8 +5366,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The process is cumbersome, expensive, and unreliable....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The process is cumbersome, expensive, and unreliable.",
+                "explanation": "主干为主系表结构。主语为名词短语 The process（整个申请与出签流程）；系动词 is；表语由三个形容词并列构成：① cumbersome（繁琐复杂的），② expensive（费用高昂的），③ unreliable（不可靠的/充满不确定性的）。"
+              },
+              {
+                "type": "词汇析义与排比修辞",
+                "content": "cumbersome, expensive, and unreliable",
+                "explanation": "三个形容词构成精辟排比：cumbersome 鞭笞手续繁琐耗时，expensive 揭示合规费用不菲，unreliable 批判到岗时间的无法预期，直击官僚主义弊端。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The process is cumbersome, expensive, and unreliable.",
+                "explanation": "痛点定性与核心概括（Q34 核心对应句）。直接对 H-2A 签证的流转程序下达定罪判决书，是第 34 题考查农场主抱怨核心的总括定性句，直接引出下句的具体晚到天数。"
               }
             ]
           }
@@ -4743,9 +5393,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that bureaucratic delays led the average H-2A...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "One survey found that bureaucratic delays led the average H-2A worker to arrive on the job 22 days late.",
+                "explanation": "主干为主谓宾结构。主语 One survey（一项调查）；谓语动词一般过去时 found；后接从属连词 that 引导的宾语从句。"
+              },
+              {
+                "type": "宾语从句与致使结构剖析",
+                "content": "that bureaucratic delays led the average H-2A worker to arrive on the job 22 days late",
+                "explanation": "宾语从句主语为名词短语 bureaucratic delays（官僚机构的拖延耽搁）；谓语及物动词 led；宾语 the average H-2A worker；动词不定式短语 to arrive on the job 22 days late 作宾语补足语，副词短语 22 days late 修饰到岗迟延时间。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "bureaucratic delays led the average H-2A worker to arrive on the job 22 days late",
+                "explanation": "核心考点题眼句（Q34 黄金定位句）。以铁一般的权威调查数据指出：官僚体系的办事拖延导致工人平均迟到 22 天！这直接命制第 34 题题干 Agricultural employers complain about the H-2A visa for its...，与正确答案 [B] slow granting procedures（迟缓的审批发放程序）形成百分之百的词义与因果对仗（bureaucratic delays / 22 days late -> slow granting procedures）。"
               }
             ]
           }
@@ -4761,9 +5421,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which remove some workers and drive others und...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "The shortage is compounded by federal immigration raids, which remove some workers and drive others underground.",
+                "explanation": "主干为主谓结构（被动语态）。主语名词短语 The shortage（劳工短缺）；谓语动词为一般现在时被动语态 is compounded（被加剧/复合恶化）；介词短语 by federal immigration raids（被联邦移民搜捕突袭）标明施动者。"
+              },
+              {
+                "type": "非限制性定语从句剖析",
+                "content": "which remove some workers and drive others underground",
+                "explanation": "双逗号后接关系代词 which 引导的非限制性定语从句修饰 federal immigration raids。从句由 and 连接两个并列动宾短语：① remove some workers（抓捕遣返部分工人），② drive others underground（驱使其余工人潜入地下躲藏）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The shortage is compounded by federal immigration raids",
+                "explanation": "雪上加霜的行政自相矛盾（Compounding Contradiction）。动词 compound（使加剧）点明政策自相矛盾：一边签证审批极其拖沓，另一边执法突袭大肆抓捕，双重绞杀农业劳动力生机。"
               }
             ]
           }
@@ -4780,8 +5450,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In a 2012 survey, 71 percent of tree-fruit growers and almos...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "In a 2012 survey, 71 percent of tree-fruit growers and almost 80 percent of raisin and berry growers said they were short of labor.",
+                "explanation": "主干为主谓宾结构。介词短语 In a 2012 survey 作状语；并列主语由两个百分比短语构成：71 percent of tree-fruit growers 和 almost 80 percent of raisin and berry growers；谓语动词 said；后接省略 that 的宾语从句 they were short of labor。"
+              },
+              {
+                "type": "短语搭配与数据修饰",
+                "content": "said they were short of labor",
+                "explanation": "宾语从句中短语 be short of 意为“短缺/匮乏”；高达 71% 与近 80% 的比例真实展现出高价值果品种植业全行业用工断崖的严峻现实。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "71 percent of tree-fruit growers and almost 80 percent of raisin and berry growers said they were short of labor",
+                "explanation": "第 5 段全行业缺工统计铁证。证实高价值农业已濒临绝境，直接催生下文农场主被迫将种植业务外迁至墨西哥的极端应对举措。"
               }
             ]
           }
@@ -4798,8 +5478,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Some western farmers have responded by moving operations to ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Some western farmers have responded by moving operations to Mexico.",
+                "explanation": "主干为主谓结构。主语名词短语 Some western farmers（一些美国西部农场主）；谓语动词为现在完成时 have responded（已作出反应）；介词短语 by moving operations to Mexico 作方式状语。"
+              },
+              {
+                "type": "非谓语介宾短语剖析",
+                "content": "by moving operations to Mexico",
+                "explanation": "介词 by 后接动名词短语 moving operations to Mexico，动名词 moving 带宾语 operations（生产运营/种植业务），介词短语 to Mexico 标明产业跨国转移的目的地。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Some western farmers have responded by moving operations to Mexico.",
+                "explanation": "产业出海自救现实。国内劳工制度僵局倒逼美国资本和农场连根拔起转移到墨西哥，形成极其讽刺的现实倒逼效应。"
               }
             ]
           }
@@ -4816,8 +5506,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "From 1998 to 2000, 14.5 percent of the fruit Americans consu...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "From 1998 to 2000, 14.5 percent of the fruit Americans consumed was imported.",
+                "explanation": "主干为主系表/被动结构。介词短语 From 1998 to 2000 作时间状语；主语为百分数名词短语 14.5 percent of the fruit，后接定语从句；系动词/助动词 was；表语/过去分词 imported（进口的/被进口）。"
+              },
+              {
+                "type": "定语从句剖析",
+                "content": "the fruit Americans consumed was imported",
+                "explanation": "先行词 the fruit 紧跟省略关系代词 that/which 的限制性定语从句 Americans consumed（美国人所消费的水果），作后置修饰。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "14.5 percent of the fruit Americans consumed was imported",
+                "explanation": "世纪之交初始进口基线。设定 2000 年前后美国本土水果进口占比仅为 14.5% 的初始历史数据，为后文悬殊翻倍提供对比基准。"
               }
             ]
           }
@@ -4834,8 +5534,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Little more than a decade later, the share of imports was 25...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Little more than a decade later, the share of imports was 25.8 percent.",
+                "explanation": "主干为主系表结构。时间短语 Little more than a decade later（短短十余年后）作时间状语；主语为名词短语 the share of imports（进口所占份额）；系动词 was；表语为具体百分比 25.8 percent。"
+              },
+              {
+                "type": "修饰成分与语义递进",
+                "content": "Little more than a decade later / 25.8 percent",
+                "explanation": "副词短语 Little more than（仅比……多一点）展现变迁速度之迅捷，份额从 14.5% 跃升至 25.8%，几近翻倍，凸显美国粮食自给能力的流失。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the share of imports was 25.8 percent",
+                "explanation": "进口依赖度暴增铁证。用无可争辩的宏观经贸数据揭示：由于国内缺乏农工，美国正在急速转变为依赖外国进口农产品的国家。"
               }
             ]
           }
@@ -4851,9 +5561,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who pick it",
-                "explanation": "关系词 <code>who</code> 引导定语从句，修饰 workers。"
+                "type": "主干剖析",
+                "content": "In effect, the U.S. can import food or it can import the workers who pick it.",
+                "explanation": "主干由并列连词 or 连接的两个对称主谓宾分句构成。短语 In effect（实际上/归根结底）作全句评注性状语。第一分句：主语 the U.S.，谓语 can import，宾语 food。第二分句：主语代词 it，谓语 can import，宾语名词短语 the workers，后接定语从句。"
+              },
+              {
+                "type": "定语从句与对称排比修辞剖析",
+                "content": "the workers who pick it / the U.S. can import food or it can import the workers...",
+                "explanation": "① 关系代词 who 引导限制性定语从句 who pick it 修饰 workers，从句中代词 it 指代 food；② 两个分句构成极致严密的对仗排比（import food or import the workers），形成二律背反的政策绝杀审判。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "In effect, the U.S. can import food or it can import the workers who pick it.",
+                "explanation": "全文终极主旨与标题题眼（Q35 绝杀定位句）。作者在文章末尾以最高度浓缩的二元对仗，给美国社会提出了不可回避的终极拷问：美国要么进口粮食，要么引进采摘粮食的劳工！这不仅是全篇思想的巅峰凝聚，更是第 35 题主旨标题题的直接出题句，无可争议地锁死最佳标题 [C] Import Food or Labor?（进口粮食，还是进口劳工？）。"
               }
             ]
           }
@@ -6219,8 +6939,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Arnold Schwarzenegger, Dia Mirza and Adrian Grenier have a m...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Arnold Schwarzenegger, Dia Mirza and Adrian Grenier have a message for you: It’s easy to beat plastic.",
+                "explanation": "主干为主谓双宾（介宾）结构 + 冒号直接引语。主语由三个明星专有名词并列构成：Arnold Schwarzenegger, Dia Mirza and Adrian Grenier；谓语动词为一般现在时 have；宾语为名词短语 a message；介词短语 for you 作对象状语。冒号后为口号引语：形式主语 It，系动词 ’s (is)，表语形容词 easy，真正主语动词不定式短语 to beat plastic（战胜塑料垃圾）。"
+              },
+              {
+                "type": "句型与标点功能剖析",
+                "content": "It’s easy to beat plastic",
+                "explanation": "冒号起引述与同位阐释功能；引语运用经典的 It is + adj. + to do sth. 形式主语结构，及物动词 beat（击败/打赢）富有战斗号召力，渲染出明星倡议举手之劳即可战胜环境危机的通俗基调。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "have a message for you: It’s easy to beat plastic",
+                "explanation": "篇首文化现象切入（Celebrity Hook）。以好莱坞与国际文体巨星在世界环境日的宣传口号切入，抛出看似轻巧振奋的口号“打败塑料轻而易举”，为后文深入批判这种将系统性环境危机矮化、浅表化为个人微小善举的流行思潮设立立论靶子。"
               }
             ]
           }
@@ -6237,8 +6967,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "They’re part of a bunch of celebrities starring in a new vid...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "They’re part of a bunch of celebrities starring in a new video for World Environment Day—encouraging you, the consumer, to swap out your single-use plastic staples to combat the plastics crisis.",
+                "explanation": "主干为主系表结构。主语代词 They（指前述三位明星）；系动词 ’re (are)；表语名词短语 part of a bunch of celebrities（一群名人中的一员）。"
+              },
+              {
+                "type": "非谓语与同位语剖析",
+                "content": "starring in a new video for World Environment Day / encouraging you, the consumer, to swap out your single-use plastic staples to combat the plastics crisis",
+                "explanation": "① 现在分词短语 starring in a new video... 作后置定语修饰 celebrities；② 破折号后现在分词短语 encouraging you... 作伴随状语，包含搭配 encourage sb. to do sth.，名词短语 the consumer 作 you 的同位语；动词不定式短语 to swap out your single-use plastic staples 作宾补，短语动词 swap out 意为“替换/淘汰”，名词短语 single-use plastic staples 意为“常用的一次性塑料制品”；③ 不定式短语 to combat the plastics crisis 作目的状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "encouraging you, the consumer, to swap out your single-use plastic staples to combat the plastics crisis",
+                "explanation": "名人意图揭示与命题题眼（Q36 绝杀定位句）。明确指出明星出演世界环境日公益短片的根本目的：鼓励作为普通消费者的个人，通过淘汰日常一次性塑料用品来抗击塑料危机。这直接命制第 36 题题干 Some celebrities star in a new video to...，与正确答案 [C] urge consumers to cut the use of plastics（敦促消费者减少塑料使用）构成天衣无缝的同义对仗（encouraging -> urge, swap out single-use plastics -> cut the use of plastics）。"
               }
             ]
           }
@@ -6254,9 +6994,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that have been put together for World Environ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "The key messages that have been put together for World Environment Day do include a call for governments to enact legislation to curb single-use plastics.",
+                "explanation": "主干为主谓宾结构（含 do 谓语强调）。主语为名词短语 The key messages，后接定语从句；助动词 do 强调谓语（确实/的确）；谓语动词 include；宾语为名词短语 a call for governments to enact legislation to curb single-use plastics。"
+              },
+              {
+                "type": "定语从句与不定式复合结构剖析",
+                "content": "that have been put together for World Environment Day / a call for governments to enact legislation to curb single-use plastics",
+                "explanation": "① 关系代词 that 引导定语从句修饰 key messages，从句谓语为现在完成时被动语态 have been put together（被汇集编排）；② 宾语包含 a call for sb. to do sth.（呼吁某人做某事）结构，动词不定式 to enact legislation（颁布立法）作补足成分，其后目的不定式 to curb single-use plastics 说明立法意图。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The key messages... do include a call for governments to enact legislation",
+                "explanation": "第 2 段客观让步与蓄势铺垫（Concession before Attack）。作者使用带有 do 强调的让步笔调，承认官方宣传确实提及呼吁政府立法，展示立论的严密与公允，但紧接着在下一句以 But 实施转折反击。"
               }
             ]
           }
@@ -6273,8 +7023,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But the overarching message is directed at individuals....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But the overarching message is directed at individuals.",
+                "explanation": "主干为主谓（被动/系表）结构。句首转折连词 But；主语为名词短语 the overarching message（压倒一切的最核心信息/支配性主导信息）；谓语动词为一般现在时被动语态短语 is directed at（针对/指向）；宾语为名词短语 individuals（个人/个体）。"
+              },
+              {
+                "type": "核心词汇与修饰剖析",
+                "content": "the overarching message is directed at individuals",
+                "explanation": "形容词 overarching 意为“首要的、支配一切的、包罗万象的”（dominant / primary），深刻揭示官方话语重心的严重失衡；be directed at 明确点出责任被转嫁给了广大平民个体。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "But the overarching message is directed at individuals.",
+                "explanation": "核心批判焦点亮明（Pivot Focus）。通过单字 But 强行扭转语流，一针见血指责当代环保宣传的核心偏颇：口头上虽提政府，但实质上的聚光灯和道德压力几乎全部倾泻到了孤立无援的个体消费者身上。"
               }
             ]
           }
@@ -6290,9 +7050,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "what needs to be achieved....",
-                "explanation": "连接词 <code>what</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "My concern with leaving it up to the individual, however, is our limited sense of what needs to be achieved.",
+                "explanation": "主干为主系表结构。主语为名词短语 My concern with leaving it up to the individual；双逗号间插入转折副词 however；系动词 is；表语为名词短语 our limited sense of what needs to be achieved（我们对究竟需要实现什么目标的狭隘认知）。"
+              },
+              {
+                "type": "非谓语动词与宾语从句剖析",
+                "content": "with leaving it up to the individual / what needs to be achieved",
+                "explanation": "① 介词 with 后接动名词短语 leaving it up to the individual，包含搭配 leave sth. up to sb.（听凭某人解决/全权交由某人负责），形式宾语 it 指代环境危机的解决；② 介词 of 后接连接代词 what 引导的宾语从句 what needs to be achieved，从句中 what 作主语，needs to be achieved 为被动语态短语动词。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "My concern with leaving it up to the individual... is our limited sense of what needs to be achieved.",
+                "explanation": "作者立场与警示亮剑（Author’s Warning）。作者以第一人称 My concern 明确阐明自己的深层担忧：将环保全盘寄托于个人，会导致公众陷入严重的认知局限，根本看不清系统变革的庞大图景。"
               }
             ]
           }
@@ -6309,8 +7079,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "On their own, taking our own bags to the grocery store or qu...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "On their own, taking our own bags to the grocery store or quitting plastic straws, for example, will accomplish little and require very little of us.",
+                "explanation": "主干为主谓宾并列结构。介词短语 On their own（孤立来看/单凭它们自身）作状语；并列动名词短语主语为：① taking our own bags to the grocery store，② or quitting plastic straws；插入语 for example；并列谓语由 and 连接：① will accomplish little（几乎无所作为，little 表否定宾语），② (will) require very little of us（对我们几乎提不出任何要求）。"
+              },
+              {
+                "type": "非谓语与双重 little 对称修辞",
+                "content": "taking our own bags... or quitting plastic straws / accomplish little and require very little of us",
+                "explanation": "主语列举自带购物袋和戒用塑料吸管两项最流行的个人微环保举措；谓语部分精巧运用两个 little 形成对仗：成效微不足道（accomplish little），要求微乎其微（require very little of us），淋漓尽致地刻画出微行动的无力感。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "taking our own bags... or quitting plastic straws... will accomplish little and require very little of us.",
+                "explanation": "解构明星微环保。点名自带布袋与不用吸管，指出其在宏大生态危机面前只是隔靴搔痒的个人道德安慰剂，迅速引出下句对“道德许可”心理病灶的解剖。"
               }
             ]
           }
@@ -6326,9 +7106,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that eases our concerns and stops us doing mo...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "They could even be harmful, satisfying a need to have “done our bit” without ever progressing onto bigger, bolder, more effective actions—a kind of “moral licensing” that eases our concerns and stops us doing more and asking more of those in charge.",
+                "explanation": "主干为主系表结构。主语代词 They（指自带袋子、戒用吸管等个人举动）；情态动词 could 表潜在危害；副词 even（甚至）；系动词 be；表语形容词 harmful（有害的）。"
+              },
+              {
+                "type": "多层非谓语、同位语与定语从句剖析",
+                "content": "satisfying a need to have “done our bit” / without ever progressing onto bigger, bolder, more effective actions / a kind of “moral licensing” that eases our concerns and stops us doing more and asking more of those in charge",
+                "explanation": "① 现在分词短语 satisfying a need... 作伴随状语，不定式完成时 to have “done our bit”（已经尽了自己微薄之力）作 need 的定语；② 伴随状语内部接介词短语 without ever progressing onto...，动名词短语表达“未能进阶到更大规模、更大胆、更有效的行动”；③ 破折号后同位语短语 a kind of “moral licensing”（一种“道德许可”）对该心理机制定性；④ 关系代词 that 引导定语从句修饰 moral licensing，从句并列谓语 eases（缓解）和 stops sb. doing sth.（阻止某人做某事），宾补动名词并列为 doing more（做更多努力）与 asking more of those in charge（向当权掌权者提出更多问责）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "a kind of “moral licensing” that eases our concerns and stops us doing more and asking more of those in charge",
+                "explanation": "心理机制解剖与命题题眼（Q37 绝杀定位句）。深刻揭示“道德许可（moral licensing）”的致命毒性：人们因做了微不足道的小善举而产生心理满足，消解了焦虑，反而彻底阻碍了他们采取更深入的行动并停止向掌权者问责（stops us doing more）。这直接命制第 37 题题干 The author is concerned that “moral licensing” may...，与正确答案 [C] prevent us from making further efforts（阻止我们做出进一步努力）在概念和心理机制上完全契合（stops us doing more -> prevent further efforts）。"
               }
             ]
           }
@@ -6344,14 +7134,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "While the conversation around our environment ...",
-                "explanation": "从属连词 <code>While</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "While the conversation around our environment and our responsibility toward it remains centered on shopping bags and straws, we’re ignoring the balance of power that implies that as “consumers” we must shop sustainably, rather than as “citizens” hold our governments and industries to account to push for real systemic change.",
+                "explanation": "主干为主谓宾结构。While 引导的让步状语从句先行；主句主语为人称代词 we；谓语为现在进行时 ’re ignoring（正在忽视）；宾语为名词短语 the balance of power（权力制衡/权力格局），后接两重嵌套从句。"
               },
               {
-                "type": "名词性从句",
-                "content": "that implies that as “consumers” we must shop...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "从句多层嵌套与对照剖析",
+                "content": "While the conversation around our environment... remains centered on shopping bags and straws / that implies that as “consumers” we must shop sustainably, rather than as “citizens” hold our governments and industries to account to push for real systemic change",
+                "explanation": "① 让步从句中，主语 the conversation around our environment...，谓语短语 remains centered on...（依然聚焦于购物袋和吸管）；② 关系代词 that 引导限制性定语从句修饰 the balance of power，从句中及物动词 implies 带 that 引导的宾语从句；③ 宾语从句内部由 rather than 划分出泾渭分明的两大阵营：被动消费主义阵营（as “consumers” we must shop sustainably）与主动公民问责阵营（as “citizens” hold our governments and industries to account...），短语 hold sb. to account 意为“追究某人责任/要求某人交代”，目的不定式 to push for real systemic change 强调推动系统性变革。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "rather than as “citizens” hold our governments and industries to account to push for real systemic change",
+                "explanation": "第 3 段核心思想升华与命题题眼（Q38 绝杀定位句）。作者提出全篇最震撼的政治洞见：公众不应仅被动地充当自律的“消费者”，更应挺身作为行使监督权能的“公民（citizens）”，依法迫使政府和工业巨头负责以撬动真正的系统性变革。这直接命中第 38 题题干 By pointing out our identity as “citizens,” the author indicates that...，正确答案 [A] we should press our governments to lead the combat（我们应当敦促政府带头开展治理）正是对 hold our governments to account 的精准意译。"
               }
             ]
           }
@@ -6367,9 +7162,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that the environment isn’t everyone’s priorit...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "It’s important to acknowledge that the environment isn’t everyone’s priority—or even most people’s.",
+                "explanation": "主干为形式主语结构。形式主语 It；系动词 ’s (is)；表语形容词 important；真正主语为动词不定式短语 to acknowledge that...，及物动词 acknowledge（承认）带从属连词 that 引导的宾语从句。"
+              },
+              {
+                "type": "宾语从句与承前省略剖析",
+                "content": "that the environment isn’t everyone’s priority—or even most people’s",
+                "explanation": "宾语从句主语 the environment，系表结构 isn’t everyone’s priority（不是每个人的当务之急/优先事项），破折号后追加所有格承前省略补语 or even most people’s (priority)（甚至不是多数人的优先项）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the environment isn’t everyone’s priority—or even most people’s",
+                "explanation": "第 4 段清醒现实主义视角。实事求是地指出在社会现实中，环保并不是大多数人柴米油盐中的首要事务，打破道德绑架的空想前提。"
               }
             ]
           }
@@ -6386,8 +7191,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "We shouldn’t expect it to be....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "We shouldn’t expect it to be.",
+                "explanation": "主干为主谓宾补结构。主语代词 We；情态动词 shouldn’t；谓语及物动词 expect（期望/指望）；宾语代词 it（指代 the environment）；动词不定式 to be 作宾语补足语，其后承前省略表语 (everyone’s priority)。"
+              },
+              {
+                "type": "省略与语气剖析",
+                "content": "expect it to be",
+                "explanation": "expect it to be (everyone's priority) 结构承前省略；情态动词 shouldn’t 表达对脱离社会现实、强求人人都成为全职环保主义者的空想说教的理性反思。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "We shouldn’t expect it to be.",
+                "explanation": "承上启下枢纽。既然不可指望普通人自发将环保奉为圭臬，那么寄希望于每个人自觉节制消费便是彻头彻尾的死胡同，从而引出下句中学者关于必须诉诸顶层结构性强制变革的论断。"
               }
             ]
           }
@@ -6403,9 +7218,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "宾语从句",
+                "type": "主干剖析",
+                "content": "In her latest book, Why Good People Do Bad Environmental Things, Elizabeth R. DeSombre argues that the best way to collectively change the behavior of large numbers of people is for the change to be structural.",
+                "explanation": "主干为主谓宾结构。介词短语 In her latest book... 作出处状语，书名斜体作为同位语；主语学者专有名词 Elizabeth R. DeSombre；谓语动词 argues（主张/辩称）；后接连词 that 引导的宾语从句。"
+              },
+              {
+                "type": "宾语从句与不定式复合结构剖析",
                 "content": "that the best way to collectively change the behavior of large numbers of people is for the change to be structural",
-                "explanation": "连接词 <code>that</code> 引导宾语从句，充当动词 argues 的宾语。"
+                "explanation": "宾语从句中，主语为名词短语 the best way，不定式短语 to collectively change the behavior of large numbers of people 作后置定语；系动词 is；表语为 for... to do 不定式复合结构 for the change to be structural（让这种变革成为结构性的），形容词 structural 意为“制度的、结构性的、自上而下的”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the best way to collectively change the behavior of large numbers of people is for the change to be structural",
+                "explanation": "核心理论支柱与命题题眼（Q39 绝对定位句）。学者 DeSombre 给出全篇终极解药：要想从根本上集体改变海量人群的行为，唯一最有效的途径是推行“结构性改变（structural change）”，即依托顶层制度与法规强制。这直接命中第 39 题题干 DeSombre argues that the best way for a collective change should be...，与正确答案 [A] a top-down process（自上而下的过程）构成高维学术同义改写（structural change -> top-down process）。"
               }
             ]
           }
@@ -6421,9 +7246,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that adds a cost to environmentally problemat...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "This might mean implementing policy such as a plastic tax that adds a cost to environmentally problematic action, or banning single-use plastics altogether.",
+                "explanation": "主干为主谓宾结构。指示代词 This 作主语，指代前文的 structural change；情态动词 might；谓语及物动词 mean（意味着）；宾语由两个并列动名词短语构成：① implementing policy such as a plastic tax that...（推行塑料税等政策），② or banning single-use plastics altogether（彻底禁止一次性塑料）。"
+              },
+              {
+                "type": "非谓语与定语从句剖析",
+                "content": "implementing policy such as a plastic tax that adds a cost to environmentally problematic action / banning single-use plastics altogether",
+                "explanation": "① 第一个动名词短语中，介宾短语 such as a plastic tax 作定语；关系代词 that 引导定语从句修饰 a plastic tax，从句中 adds a cost to... 阐释经济税收杠杆的惩戒机制；② 第二个动名词短语中，动名词 banning 带宾语 single-use plastics，副词 altogether（彻底/完全）修饰 banning，展现顶层禁令的强制力。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "implementing policy such as a plastic tax... or banning single-use plastics altogether",
+                "explanation": "自上而下举措具体落地剖析。将抽象的结构性改变具体化为征收塑料税与全面立法禁用，充分坐实了 Q39 答案中的“自上而下（top-down）”制度强制属性。"
               }
             ]
           }
@@ -6440,8 +7275,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "India has just announced it will “eliminate all single-use p...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "India has just announced it will “eliminate all single-use plastic in the country by 2022.” There are also incentive-based ways of making better environmental choices easier, such as ensuring recycling is at least as easy as trash disposal.",
+                "explanation": "主干由两个并列完整陈述句构成。第一句：主语专有名词 India；谓语现在完成时 has just announced；省略 that 的宾语从句 it will “eliminate...”。第二句为 There be 句型：谓语 are；递进副词 also；主语 incentive-based ways of making better environmental choices easier；后接举例介词短语 such as ensuring..."
+              },
+              {
+                "type": "非谓语复合结构与比较剖析",
+                "content": "making better environmental choices easier / ensuring recycling is at least as easy as trash disposal",
+                "explanation": "① 动名词短语中包含 make sth. + adj. 复合宾语：宾语 better environmental choices，表语形容词比较级 easier；② 介宾短语中，动名词 ensuring 带省略 that 的从句，从句中同级比较 as easy as trash disposal 阐明通过正向激励使环保行动阻力降至最低的架构设计。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "India has just announced it will “eliminate all single-use plastic... / incentive-based ways of making better environmental choices easier",
+                "explanation": "第 5 段国际案例与正向制度支撑。以印度的激进禁令证实国家立法可行性，同时补充说明自上而下的制度设计不仅包含惩戒与禁令，更包含降低绿色选择门槛的正向制度架构。"
               }
             ]
           }
@@ -6458,8 +7303,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "DeSombre isn’t saying people should stop caring about the en...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "DeSombre isn’t saying people should stop caring about the environment.",
+                "explanation": "主干为主谓宾结构。主语专有名词 DeSombre；谓语进行时否定式 isn’t saying（并非在说）；后接省略 that 的宾语从句 people should stop caring about the environment。"
+              },
+              {
+                "type": "宾语从句与动名词剖析",
+                "content": "people should stop caring about the environment",
+                "explanation": "从句主语 people，谓语 should stop，动名词短语 caring about the environment 作 stop 的宾语，短语搭配 stop doing sth. 意为“停止做某事”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "DeSombre isn’t saying people should stop caring about the environment.",
+                "explanation": "第 6 段防守性界定与澄清（Clarification & Nuance）。及时澄清主张顶层制度变革绝不等于主张民众放弃环境关怀，防止读者滑向虚无主义与破罐破摔，展现学术立论的周密。"
               }
             ]
           }
@@ -6475,9 +7330,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that individual actions are too slow...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "It’s just that individual actions are too slow, she says, for that to be the only, or even primary, approach to changing widespread behavior.",
+                "explanation": "主干为主系表复合结构 + 插入语。插入语 she says（她说）；主句主语代词 It；系动词 ’s (is)；限定副词 just（仅仅是）；表语是由连词 that 引导的表语从句。"
+              },
+              {
+                "type": "表语从句与 too...to... 复合结构剖析",
+                "content": "individual actions are too slow... for that to be the only, or even primary, approach to changing widespread behavior",
+                "explanation": "表语从句中，主语 individual actions（个人行动）；系动词 are；表语 too slow；后接不定式复合结构 for that to be the only... approach...，其中代词 that 指代个人行动，构成 too... for sth. to do...（太……以至于无法成为……），介词短语 to changing widespread behavior 修饰 approach。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "individual actions are too slow... for that to be the only, or even primary, approach to changing widespread behavior",
+                "explanation": "客观病灶定性（Temporal Inadequacy of Individualism）。一语道破个人行动的死穴在于速度太慢（too slow），在日新月异的生态大溃败面前根本等不起个人道德的缓慢开悟，因此绝不可能成为主力途径，为文末定性个人努力远远不够（far from sufficient）打牢基础。"
               }
             ]
           }
@@ -6494,8 +7359,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "None of this is about writing off the individual....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "None of this is about writing off the individual.",
+                "explanation": "主干为主系表结构（介宾作表语）。主语为否定代词短语 None of this（所有这一切绝非）；系动词 is；介词短语 about writing off the individual 作表语。"
+              },
+              {
+                "type": "非谓语与成语动词剖析",
+                "content": "writing off the individual",
+                "explanation": "介词 about 后接动名词短语 writing off the individual，其中及物短语动词 write off 意为“一笔勾销/彻底否定”，the individual 指代个体公民的能动作用。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "None of this is about writing off the individual.",
+                "explanation": "终段辩证定调与命题题眼（Q40 核心定位句 1）。收尾段开篇以明确表态澄清立场：反思个体消费主义的局限，并不意味着彻底抹杀个人的存在价值与力量，展现高度客观平衡的学术态度。"
               }
             ]
           }
@@ -6512,8 +7387,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "It’s just about putting things into perspective....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "It’s just about putting things into perspective.",
+                "explanation": "主干为主系表结构（介宾作表语）。主语代词 It；系动词 ’s (is)；副词 just；介词短语 about putting things into perspective 作表语。"
+              },
+              {
+                "type": "成语习语与非谓语剖析",
+                "content": "putting things into perspective",
+                "explanation": "动名词短语作介词宾语，包含经典成语 put sth. into perspective，意为“正确客观地看待某事/把握事物的客观真实全貌与恰当分寸”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "It’s just about putting things into perspective.",
+                "explanation": "摆正认知分寸。呼应上一句，强调对个人力量的评价必须摆正客观比例尺：既不盲目夸大个人随手环保的救世能力，也不走向虚无放弃。"
               }
             ]
           }
@@ -6530,8 +7415,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "We don’t have time to wait....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "We don’t have time to wait.",
+                "explanation": "主干为主谓宾结构。主语为人称代词 We（人类社会）；谓语动词一般现在时否定式 don’t have；宾语不可数名词 time；动词不定式短语 to wait 作后置定语修饰 time。"
+              },
+              {
+                "type": "修饰成分与短句节奏",
+                "content": "We don’t have time to wait.",
+                "explanation": "全句仅 6 个词，短促峻急，以强烈的时代紧迫感切断一切无谓的拖延与幻想。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "We don’t have time to wait.",
+                "explanation": "紧迫危机动员。重申生态崩溃倒计时的冷酷事实，说明人类没有时间坐等全体消费者自发道德觉醒，倒逼公共政策的果断介入。"
               }
             ]
           }
@@ -6547,9 +7442,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that shape collective action...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "We need progressive policies that shape collective action, alongside engaged citizens pushing for change.",
+                "explanation": "主干为主谓宾结构。主语代词 We；谓语及物动词 need；宾语为名词短语 progressive policies（具有前瞻性的进步政策），后接定语从句；后接介词短语 alongside engaged citizens pushing for change 作伴随状语。"
+              },
+              {
+                "type": "定语从句与分词修饰剖析",
+                "content": "that shape collective action / alongside engaged citizens pushing for change",
+                "explanation": "① 关系代词 that 引导限制性定语从句 that shape collective action（塑造并引导集体行动的）修饰 policies；② 介词 alongside（与……并肩）引出公民协同力量；名词短语 engaged citizens（积极参与社会政治生活的公民）后接现在分词短语 pushing for change（推动变革）作后置定语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "We need progressive policies that shape collective action, alongside engaged citizens pushing for change.",
+                "explanation": "全文终极结论与主旨题眼（Q40 绝杀定位句 2）。全篇在宏伟的制度倡议中落下帷幕：唯有将公共政策塑造的集体行动与公民积极参政问责相结合，才能真正化解危机。这为第 40 题题干 The author concludes that individual efforts... 提供了最权威的结论判定：个人努力是远远不够的，正确答案 [D] are far from sufficient（远远不够）在此获得最强力、最圆满的终极题眼确立。"
               }
             ]
           }

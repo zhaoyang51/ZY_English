@@ -945,8 +945,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "On a recent sunny day, 13,000 chickens roam over Larry Brown...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "13,000 chickens roam over Larry Brown’s 40 windswept acres",
+                "explanation": "主干为主谓结构（roam 为不及物动词）。主语为数量词修饰的名词短语 13,000 chickens（一万三千只鸡）；谓语动词为一般现在时 roam（漫游/散步，体现农场放养的常态生活模式）；介词短语 over Larry Brown’s 40 windswept acres 充当空间状语，描述鸡群自由活动的开阔农场。"
+              },
+              {
+                "type": "修饰成分",
+                "content": "On a recent sunny day ... in Shiner, Texas",
+                "explanation": "句首介词短语 On a recent sunny day 作全句时间状语，设定生动的叙事场景；句末介词短语 in Shiner, Texas 作地点状语，交代德克萨斯州希纳镇的地理坐标；复合形容词 windswept（饱经风霜的/广袤起伏的）作前置定语修饰 acres。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "On a recent sunny day, 13,000 chickens roam over Larry Brown’s 40 windswept acres in Shiner, Texas.",
+                "explanation": "特写镜头式开篇（Cinematic Scene-setting）。作者未直接抛出抽象的“再生农业”或“气候蛋”技术术语，而是以生动的田园笔触勾勒德州农场万鸡漫步的开阔景象，为下文引出看似随意实则精心设计的生态固碳系统铺垫感性认知。"
               }
             ]
           }
@@ -963,8 +973,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Some rest in the shade of a parked car....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Some rest in the shade of a parked car.",
+                "explanation": "主干为主谓结构。不定代词 Some（指代 Some chickens）作主语；谓语动词为不及物动词 rest（休息）；介词短语 in the shade of a parked car 作地点状语，其中过去分词 parked 作前置定语修饰 car。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Some rest in the shade of a parked car.",
+                "explanation": "细节递进与排比铺垫。通过鸡群在停放车辆阴凉处休憩的惬意细节，展现其无拘无束的自由散养状态，与后文 Others... 形成并列呼应，共同烘托出表面看似散乱无序（random）的生活表象。"
               }
             ]
           }
@@ -981,8 +996,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Others drink water with the cows....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Others drink water with the cows.",
+                "explanation": "主干为主谓宾结构。代词 Others（其他鸡）作主语；谓语动词为及物动词 drink（饮用）；名词 water 作直接宾语；介词短语 with the cows 作伴随状语，展示鸡牛混养的共生画面。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Others drink water with the cows.",
+                "explanation": "微观场景闭环。“Some... Others...”构成经典列举对比，展示了禽畜共处、自然共饮的多元农场生态，强化了田园的“随意漫步”感，为下一句关于“看似随意实则精心设计”的反常识转折积蓄说服力。"
               }
             ]
           }
@@ -998,9 +1018,19 @@
           "syntax": {
             "breakdown": [
               {
+                "type": "主干剖析",
+                "content": "This all seems random, but it’s by design, part of what the $6.1 billion U.S. [egg industry bets...]",
+                "explanation": "主干是由并列连词 but 连接的转折并列句。前一分句为主系表结构：代词短语 This all 作主语，系动词 seems，表语形容词 random；后一分句为主系表结构：主语代词 it，系动词 ’s，介词短语 by design（出于精心设计）作表语；逗号后的名词短语 part of what... 充当补充同位语。"
+              },
+              {
                 "type": "名词性从句",
-                "content": "what the $6.1 billion U.S....",
-                "explanation": "连接词 <code>what</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "content": "part of what the $6.1 billion U.S. [egg industry bets will be its next big thing]",
+                "explanation": "连接代词 what 引导介词 of 的宾语从句（意群跨越句子分割与下句衔接），what 在从句中兼具双重语法功能：既作 of 的宾语，又充当 bets 后宾语从句中 will be 的逻辑主语（即被押注为下一个风口的产品）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "This all seems random, but it’s by design...",
+                "explanation": "全篇破题与逻辑转折核心句（Pivot Sentence）。转折连词 but 将表象的“random”（随意散乱）一举逆转，揭示其本质是“by design”（刻意精心设计），直接呼应并锁定 Q21 题正确项 D（on specially designed farms），是考研英语反常识立论命题的典型示范。"
               }
             ]
           }
@@ -1017,8 +1047,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "egg industry bets will be its next big thing: climate-friend...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "[the $6.1 billion U.S.] egg industry bets will be its next big thing: climate-friendly eggs",
+                "explanation": "主干为承接前句的复合从句结构。主语为名词短语 the $6.1 billion U.S. egg industry（规模达61亿美元的美国鸡蛋产业）；谓语动词 bets（押注）；宾语为省略引导词 that 的从句 (that) [what] will be its next big thing；冒号后名词短语 climate-friendly eggs 作同位语，具体指明“next big thing”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "egg industry bets will be its next big thing: climate-friendly eggs.",
+                "explanation": "核心主题词正式亮出。作者用冒号引出全篇的核心探讨对象——“气候友好型鸡蛋”（climate-friendly eggs），并将其定性为整个美国蛋业斥巨资押注的“下一个重大风口（next big thing）”，确立了全文立论基调与商业叙事主线。"
               }
             ]
           }
@@ -1034,9 +1069,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which are making their debut now on shelves fo...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "These eggs ... are still labeled organic and animal-friendly, but they’re also from birds...",
+                "explanation": "主干是由转折连词 but 连接的复合长难句。前一分句中，主语为 These eggs；谓语为被动语态 are labeled（被贴上……标签）；形容词短语 organic and animal-friendly 作主补。后一分句中，主语代词 they；系动词 ’re；介词短语 from birds 作表语。"
+              },
+              {
+                "type": "定语从句与同位语",
+                "content": "which are making their debut now on shelves for as much as $8 a dozen / that live on farms using regenerative agriculture / that can trap green-house gases",
+                "explanation": "① which 引导非限制性定语从句，补充说明这些鸡蛋正在货架首秀（making debut）且售价高达每打8美元；② that 引导定语从句修饰先行词 birds，说明其产自采用再生农业的农场；③ 破折号后 special techniques... 作 regenerative agriculture 的同位语；④ that 引导定语从句修饰 rich soils，阐明土壤能够锁闭温室气体（trap green-house gases）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "These eggs, which are making their debut ... for as much as $8 a dozen ... farms using regenerative agriculture...",
+                "explanation": "考点高度密集的核心句。①“$8 a dozen”体现其高端溢价定位，直接排除 Q21 的 A 项（at a considerably low cost）；②“still labeled organic”表明并非排他性替代，排除 Q21 的 C 项（as a replacement for organic eggs）；③“farms using regenerative agriculture—special techniques”与前文“it’s by design”共同精准锁定 Q21 正选 D（on specially designed farms）。"
               }
             ]
           }
@@ -1053,8 +1098,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Such eggs could be marketed as helping to fight climate chan...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Such eggs could be marketed as helping to fight climate change.",
+                "explanation": "主干为主谓结构（被动语态）。主语为名词短语 Such eggs（此类鸡蛋）；谓语动词为含情态动词的被动语态 could be marketed（可以被营销推广）；介词短语 as helping to fight climate change 作方式/功能状语，动名词短语 helping to fight... 作介词 as 的宾语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Such eggs could be marketed as helping to fight climate change.",
+                "explanation": "营销定位与宏大叙事连接点。将鸡蛋的生态特性直接升华至全球热点“抗击气候变化（fight climate change）”，点明其最关键的商业溢价卖点，为后文探讨消费者是否愿为“拯救地球”买单埋下伏笔。"
               }
             ]
           }
@@ -1070,9 +1120,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who is adding more cover crops that draw wor...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "“I’m excited about our progress,” says Brown",
+                "explanation": "主干为引述倒装结构。直接引语为主系表结构：主语代词 I，系动词 ’m，表语形容词短语 excited about our progress（对我们的进展感到兴奋）；主句谓语动词为 says，主语为 Brown。"
+              },
+              {
+                "type": "定语从句与不定式",
+                "content": "who is adding more cover crops that draw worms and crickets for the chickens to eat",
+                "explanation": "who 引导非限制性定语从句修饰先行词 Brown；从句内部包含 that 引导的定语从句修饰 cover crops（覆盖作物）；介词短语复合不定式 for the chickens to eat 作目的状语修饰 worms and crickets，表示引诱昆虫是供鸡群啄食作为高蛋白天然饲料。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "“I’m excited about our progress,” says Brown, who is adding more cover crops that draw worms and crickets...",
+                "explanation": "实证农场主视角与 Q22 核心定位点。布朗增加覆盖作物的直接目的是引虫供鸡群食用，体现了自然物种的高效利用，直接击碎 Q22 干扰项 A（reducing the damage of worms，治虫防害是完全反向的常识陷阱），开启循环生态链的具体阐释。"
               }
             ]
           }
@@ -1089,8 +1149,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The birds’ waste then fertilizes fields....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The birds’ waste then fertilizes fields.",
+                "explanation": "主干为主谓宾结构。主语为名词所有格短语 The birds’ waste（禽类粪便/排泄物）；时间副词 then 作状语表示承接；谓语动词为及物动词 fertilizes（为……施肥）；名词 fields 作直接宾语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The birds’ waste then fertilizes fields.",
+                "explanation": "生态营养循环节点。鸡食虫后排便肥田，展示了大自然内部养分的良性自循环，有力证明这是农田全要素生态整合，绝非加速垃圾清运工程，直接排除 Q22 的 B 项（accelerating the disposal of waste）。"
               }
             ]
           }
@@ -1106,9 +1171,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that will be good for the land...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Such improvements “allow our hens to forage for higher-quality natural feed...",
+                "explanation": "主干为主谓宾补结构。主语为名词短语 Such improvements（此类技术改进）；谓语动词为 allow（允许/促成）；名词短语 our hens 作宾语；不定式短语 to forage for higher-quality natural feed 作宾语补足语（forage for 表示搜寻觅食）。"
+              },
+              {
+                "type": "定语从句剖析",
+                "content": "that will be good for the land, the hens, and the eggs that we supply to our customers",
+                "explanation": "① 第一个 that 引导定语从句修饰 natural feed，表明该天然饲料利于土地、母鸡和鸡蛋三者共赢；② 第二个 that 引导定语从句修饰 the eggs，说明鸡蛋最终供应给消费者（we supply to our customers）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "good for the land, the hens, and the eggs that we supply to our customers",
+                "explanation": "Q22 核心正解落脚点。“对土地、母鸡和鸡蛋都有益”高度概括了多方共赢、永续循环的生态链条，严密对应 Q22 正确选项 C（creating a sustainable system，打造可持续系统）；句末 supply to customers 仅陈述供应链终端，排除 D 项（attracting customers）。"
               }
             ]
           }
@@ -1124,9 +1199,19 @@
           "syntax": {
             "breakdown": [
               {
+                "type": "主干剖析",
+                "content": "The egg industry’s push is the first major test of whether animal products from regenerative farms can become the next premium offering.",
+                "explanation": "主干为主系表结构。主语为名词所有格短语 The egg industry’s push（鸡蛋产业的推进推广）；系动词为 is；表语名词短语 the first major test（首次重大考验）；介词 of 引导后置定语修饰 test，其宾语由 whether 引导的名词性从句充当。"
+              },
+              {
                 "type": "名词性从句",
-                "content": "whether animal products from regenerative farms ...",
-                "explanation": "连接词 <code>whether</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "content": "whether animal products from regenerative farms can become the next premium offering",
+                "explanation": "whether 引导介词 of 的宾语从句。从句主语为 animal products，介词短语 from regenerative farms 作后置定语；谓语动词短语 can become；表语为 the next premium offering（下一个溢价/高端产品品类）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The egg industry’s push is the first major test of whether animal products ... can become the next premium offering.",
+                "explanation": "第3段核心立论与提纲挈领句。将可持续鸡蛋的推广正式定性为检验“再生农场动物产品能否成为下一个高端溢价品类”的试金石，统领后文以有机蛋、植物肉为商业类比的论述展开。"
               }
             ]
           }
@@ -1143,8 +1228,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In barely more than a decade, organic eggs went from being d...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "organic eggs went from being dismissed as a niche product in natural foods stores to being sold at Walmart",
+                "explanation": "主干为主谓结构（动态介词短语搭配）。主语为名词短语 organic eggs（有机鸡蛋）；谓语动词为 went；介词结构“from... to...”作路径状语，表明从小众到大众的发展轨迹：从 being dismissed as a niche product（被斥为小众边缘产品）演变为 being sold at Walmart（在沃尔玛随处可见）。句首介词短语 In barely more than a decade 作时间状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "In barely more than a decade, organic eggs went from being dismissed as a niche product ... to being sold at Walmart.",
+                "explanation": "商业史经典类比与 Q23 核心定位点。通过有机蛋在十年内从遭人轻视的小众品类逆袭为沃尔玛热销爆款的商业奇迹，论证先遭质疑后迎爆发是环保先锋品类的普遍规律，核心目的是证明再生农产品的巨大爆发潜力，锁定 Q23 正选 C（the potential of regenerative products），排除 B 项（挫折）与 D 项（超市促销）。"
               }
             ]
           }
@@ -1161,8 +1251,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "More recently there were similar doubts about probiotics and...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "there were similar doubts about probiotics and plant-based meats, but both have exploded into major supermarket categories",
+                "explanation": "主干为转折连词 but 连接的并列句。前一分句为 there be 存在句型：there were 为谓语，similar doubts（类似质疑）为逻辑主语，介词短语 about probiotics and plant-based meats 作后置定语；后一分句为主谓结构：代词 both 作主语，谓语动词为现在完成时 have exploded into（爆发式成长为），宾语为 major supermarket categories。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "doubts about probiotics and plant-based meats, but both have exploded into major supermarket categories",
+                "explanation": "强化类比论据。以“益生菌”和“植物肉”两大近代零售界神话为佐证，进一步夯实“初期质疑并不妨碍后期引爆主流市场”的论点，闭环佐证再生农产品蕴藏的无限市场潜能（Q23）。"
               }
             ]
           }
@@ -1178,9 +1273,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "If the sustainable-egg rollout is successfu...",
-                "explanation": "从属连词 <code>If</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "it could open the floodgates for regenerative beef, broccoli, and beyond",
+                "explanation": "主干为主谓宾结构。主语代词 it（指代可持续鸡蛋的推广成功）；谓语动词为含情态动词的 could open（可能会打开）；名词短语 the floodgates（闸门）作直接宾语；介词短语 for regenerative beef, broccoli, and beyond 作对象状语。"
+              },
+              {
+                "type": "状语从句剖析",
+                "content": "If the sustainable-egg rollout is successful",
+                "explanation": "if 引导条件状语从句，设定主句结论的前提条件。从句内部为主系表结构：主语 the sustainable-egg rollout（可持续鸡蛋的面市推广），系动词 is，表语形容词 successful。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "If the sustainable-egg rollout is successful, it could open the floodgates for regenerative beef, broccoli, and beyond.",
+                "explanation": "第3段结论升华与连锁效应展望。“open the floodgates”（打开闸门）生动形象地预示了以点带面的破局效应：若鸡蛋破圈，将带动再生牛肉、西蓝花等整个农产品矩阵的全面繁荣，再度严密印证再生产品的商业爆发潜力（Q23）。"
               }
             ]
           }
@@ -1196,9 +1301,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "because the concept is tough to define quickly...",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Regenerative products could be a hard sell, because the concept is tough to define quickly, says Julie Stanton",
+                "explanation": "主干为主系表结构加原因状语从句及引述倒装。直接引语中，主语为 Regenerative products；系动词 could be；表语名词短语 a hard sell（难推销之物）；主句引述谓语 says，主语 Julie Stanton。"
+              },
+              {
+                "type": "状语从句与同位语",
+                "content": "because the concept is tough to define quickly / associate professor of agricultural economics at Pennsylvania State University Brandywine",
+                "explanation": "① because 引导原因状语从句，指出难卖的症结在于“the concept is tough to define quickly”（概念深奥晦涩，难以快速向消费者阐释清楚）；② 逗号后名词短语作 Julie Stanton 的同位语，交代其农业经济学副教授的权威学者背景。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Regenerative products could be a hard sell, because the concept is tough to define quickly...",
+                "explanation": "篇章视角重大转折与 Q25 核心交锋点。从前文产业界的乐观预期转入学术界冷静客观的风险警示，学者指出概念难定义导致销售阻力极大（hard sell），与后文实业家坚信年轻人会颠覆食物链的乐观立场形成鲜明反差，直接牵引出 Q25 争议焦点（market prospects）。"
               }
             ]
           }
@@ -1214,9 +1329,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "if any...",
-                "explanation": "从属连词 <code>if</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Such farming also brings minimal, if any, improvement to the food products",
+                "explanation": "主干为主谓宾结构。主语为名词短语 Such farming（此类耕作/再生农业）；副词 also 作状语；谓语动词及物动词 brings（带来）；名词 improvement 作宾语，形容词 minimal（微乎其微的）作定语；插入语 if any 作让步限制；介词短语 to the food products 作对象状语。"
+              },
+              {
+                "type": "让步状语与插入语",
+                "content": "if any / (though some producers say their eggs have more protein)",
+                "explanation": "① if any 为条件/让步省略插入语（完整为 if there is any improvement）；② 括号内 though 引导让步状语从句，从句谓语动词 say 后面接省略 that 的宾语从句 their eggs have more protein。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Such farming also brings minimal, if any, improvement to the food products...",
+                "explanation": "产品内在局限性剖析。指出再生农业益处主要在土壤与生态，对食品本身的品质改良极少，加剧了营销难度；括号内提及部分生产商宣称蛋白质更高仅为营销托词，非学界与商界争辩的焦点，排除 Q25 的 C 项（nutritional value）。"
               }
             ]
           }
@@ -1232,9 +1357,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that the same consumers paying more for premi...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "The industry is betting that the same consumers ... will embrace sustainability.",
+                "explanation": "主干为主谓宾（宾语从句）结构。主语为 The industry（鸡蛋产业界）；谓语动词为现在进行时 is betting（正在押注）；that 引导宾语从句。从句主语为 the same consumers；谓语为 will embrace（将会接纳/拥抱）；宾语为抽象名词 sustainability（可持续性）。"
+              },
+              {
+                "type": "非谓语动词修饰",
+                "content": "paying more for premium attributes such as free-range, non-GMO, and pasture-raised eggs",
+                "explanation": "现在分词短语 paying more for... 作后置定语修饰 consumers；介词短语 such as... 列举高端产品属性（自由放养、非转基因、草场放养），表明这些细分客群具备为绿色溢价买单的心理习惯与消费意愿。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "consumers paying more for premium attributes ... will embrace sustainability",
+                "explanation": "商业策略自洽逻辑。面对大众教育困难，产业界将目标锁定在现有愿为高端属性买单的小众环保倡导者身上，证明这是由上至下针对特定客群的试水，绝非大众日常消费者的普遍要求，排除 Q21 的 B 项（at the demand of regular shoppers）。"
               }
             ]
           }
@@ -1250,9 +1385,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that younger generations are more concerned a...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Surveys show that younger generations are more concerned about climate change, and some of the success of plant-based meat can be chalked up to shoppers wanting to signal their desire to protect the environment.",
+                "explanation": "主干为并列连词 and 连接的两个复合分句。第一分句为主谓宾结构：Surveys（主语）+ show（谓语）+ that 从句（宾语）；从句内部为主系表：younger generations（主语）+ are（系动词）+ more concerned about climate change（表语）。第二分句为主谓结构：some of the success ...（主语）+ can be chalked up to（复合谓语短语，意为“归因于”）+ shoppers wanting to signal...（动名词复合结构作宾语）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "younger generations are more concerned about climate change ... shoppers wanting to signal their desire to protect the environment",
+                "explanation": "Q24 核心命题句。调查表明年轻一代最担忧气候变化，且人造肉的成功印证了消费者渴望借购买行为“表达保护环境的道德意愿（signal desire to protect environment）”，由此必然推导出年轻人极有可能购买气候友好型鸡蛋，精准锁定 Q24 正选 B（are likely to buy climate-friendly eggs）。"
               }
             ]
           }
@@ -1269,8 +1409,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Young adults “really care about the planet,” says John Brunn...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Young adults “really care about the planet,” says John Brunnquell",
+                "explanation": "主干为直接引语加引述倒装结构。直接引语为主谓宾结构：名词短语 Young adults（年轻一代群体）作主语；程度副词 really 作状语；谓语动词 care about（在乎/关爱）；名词短语 the planet（地球/生态环境）作直接宾语。主句谓语为 says，主语为 John Brunnquell。"
+              },
+              {
+                "type": "同位语修饰",
+                "content": "president of Egg Innovations",
+                "explanation": "逗号后名词短语作 John Brunnquell 的同位语，交代其为创新蛋业企业总裁的实业界领袖身份，以企业操盘手的独到洞察与第14句的高校学者形成行业视角的权威对照。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Young adults “really care about the planet,” says John Brunnquell...",
+                "explanation": "实业家坚定信念背书。借领军企业总裁之口高度赞赏年轻人对地球命运的深刻关切，将其定性为驱动绿色新消费的根本原动力，为 Q24（购买意愿）和 Q25（商业前景）提供强有力的实证立场支撑。"
               }
             ]
           }
@@ -1286,9 +1436,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "what I think even they understand what they’r...",
-                "explanation": "连接词 <code>what</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "“They are absolutely altering the food chain beyond what I think even they understand what they’re doing.”",
+                "explanation": "主干为主谓宾加范围状语结构。直接引语中，主语代词 They（指代年轻群体）；副词 absolutely 作状语强化肯定语气；谓语动词为现在进行时 are altering（正在改变/颠覆）；名词短语 the food chain 作直接宾语；介词短语 beyond what... 作程度/范围状语。"
+              },
+              {
+                "type": "复杂嵌套从句",
+                "content": "beyond what I think even they understand what they’re doing",
+                "explanation": "介词 beyond 引导双层嵌套名词性从句：第一个 what 引导介词宾语从句，I think 为从句内部插入语，从句谓语动词 understand 之后紧跟第二个 what 引导的宾语从句 what they’re doing，全意为“超出了我认为他们对自己行为理解的深刻程度”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "They are absolutely altering the food chain beyond what I think even they understand what they’re doing.",
+                "explanation": "全篇震撼收官与 Q24/Q25 终极印证。① 年轻人正在积极深刻地重塑食物链，彻底粉碎 Q24 干扰项 A（reluctant to change）；② 总裁对年轻人重塑市场的坚定乐观与前文斯坦顿教授关于难卖（hard sell）的谨慎警示形成巅峰对决，两人争议的正是产品的“市场前景（market prospects，Q25正选A）”。"
               }
             ]
           }
@@ -2553,9 +2713,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that threatens to upend the old workforce mod...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "More Americans are opting to work well into retirement, a growing trend...",
+                "explanation": "主干为主谓宾（不定式短语作宾语）结构。主语为形容词比较级修饰的名词短语 More Americans（越来越多的美国人）；谓语动词为现在进行时 are opting（正在选择，opt 强调主动选择）；不定式短语 to work well into retirement 作宾语（well into 表示深入/长久处于某一阶段）；逗号后名词短语 a growing trend 充当整个主句事件的同位语。"
+              },
+              {
+                "type": "定语从句剖析",
+                "content": "that threatens to upend the old workforce model",
+                "explanation": "关系代词 that 引导限制性定语从句，修饰同位语先行词 a growing trend；从句谓语动词为 threatens to upend（有可能颠覆/威胁重塑，threaten to do 表示具有某种颠覆性趋势）；名词短语 the old workforce model（旧有劳动力模式）作动词 upend 的直接宾语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "More Americans are opting to work well into retirement, a growing trend that threatens to upend the old workforce model.",
+                "explanation": "全篇开宗明义主旨句（Thesis Statement）。作者以宏观概括的笔触，正式提出全文核心社会现象——“退而不休（unretirement）”，并以“threatens to upend”揭示这一趋势对传统退休体制和劳动力市场的深远颠覆效应，统领全文后面对成因、心态与理财应对的多维剖析。"
               }
             ]
           }
@@ -2571,9 +2741,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who are at least 40 have...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "One in three Americans ... have, or plan to have a job in retirement to prepare for a longer life",
+                "explanation": "主干为主谓宾结构。主语为分数表达 One in three Americans（三分之一的美国人）；谓语是由并列连词 or 连接的复合谓语 have, or plan to have（已经拥有，或者计划拥有一份工作）；名词短语 a job 作直接宾语；介词短语 in retirement 作状态状语；不定式短语 to prepare for a longer life 作目的状语；句末 according to 介词短语交代民调数据源。"
+              },
+              {
+                "type": "定语从句与分词后置定语",
+                "content": "who are at least 40 / conducted by Harris Poll for TD Ameritrade",
+                "explanation": "① 关系代词 who 引导限制性定语从句修饰先行词 Americans，交代受访年龄门槛“who are at least 40”（40岁及以上）；② 过去分词短语 conducted by... 作后置定语修饰 survey，说明民调的受托执行方（哈里斯民调）与出资发布方（德美利证券）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "One in three Americans who are at least 40 have, or plan to have a job in retirement...",
+                "explanation": "权威民调数据支撑句与 Q26 核心定位点。三分之一的40岁以上受访者退休后继续工作，从统计学层面证实“退而不休”已成为广泛共识，与下一句结合直接提炼出 Q26 正确选项 D（more Americans are willing to work in retirement），有力驳斥提前退休的臆想（排除 C 项）。"
               }
             ]
           }
@@ -2589,14 +2769,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who plan to work in retirement or went back ...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Even more surprising is that more than half of “unretirees” ... said they would be employed in their later years...",
+                "explanation": "主干为倒装结构（表语前置）加 that 引导的主语从句。句首形容词比较级短语 Even more surprising（更加令人吃惊的）作前置表语；系动词为 is；真正主语为 that 引导的主语从句。从句内部为主谓宾结构：more than half of “unretirees” 作从句主语；said 为谓语；省略 that 的宾语从句 they would be employed... 作 said 的宾语。句末 the survey showed 为引述插入语。"
               },
               {
-                "type": "状语从句",
-                "content": "even if they had enough money to settle down...",
-                "explanation": "从属连词 <code>even if</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "定语从句、同位语与状语从句",
+                "content": "those who plan to work in retirement or went back to work after retiring / even if they had enough money to settle down",
+                "explanation": "① 破折号内 those 作 unretirees 的同位语，其后接 who 引导的定语从句，精确界定“退而不休者”的两大人群（计划退休后工作者，或退休后重返职场者）；② even if 引导让步状语从句，表明假设即使财富充裕也愿意工作。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "more than half of “unretirees” ... said they would be employed in their later years even if they had enough money to settle down",
+                "explanation": "反直觉深层论据与 Q26 终极定调。过半数“不退休者”即便不差钱也坚持工作，表明其核心动机并非单纯被生计所迫，而是具有强烈的主观工作意愿（willing to work in retirement，Q26正解），同时严厉排除 A 项（偷换为身体健康 physically fit）。"
               }
             ]
           }
@@ -2613,8 +2798,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Financial needs aren’t the only culprit for the “unretiremen...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Financial needs aren’t the only culprit for the “unretirement” trend.",
+                "explanation": "主干为主系表结构。主语为名词短语 Financial needs（财务/经济需求）；系动词否定式为 aren’t；表语名词短语为 the only culprit（唯一的罪魁祸首/诱因，culprit 运用拟人化修辞，暗示该趋势通常被视为令人头疼的社会难题）；介词短语 for the “unretirement” trend 作后置定语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Financial needs aren’t the only culprit for the “unretirement” trend.",
+                "explanation": "段落承上启下过渡句（Transition Sentence）。通过否定排除法“aren’t the only culprit”，在肯定经济因素的同时，顺畅拓宽论证维度，引出后文对精神、心理与自我实现等非经济动因的探讨，是理解 Q27 推理题的逻辑基石。"
               }
             ]
           }
@@ -2631,8 +2821,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Other reasons, according to the study, include personal fulf...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Other reasons, according to the study, include personal fulfillment such as staying mentally fit, preventing boredom or avoiding depression.",
+                "explanation": "主干为主谓宾结构。主语为名词短语 Other reasons（其他原因）；插入语 according to the study 交代出处；谓语动词为 include（包括）；名词短语 personal fulfillment（个人自我实现）作直接宾语；介词短语 such as... 引导三个平行的动名词短语作后置定语举例说明。"
+              },
+              {
+                "type": "动名词平行结构",
+                "content": "staying mentally fit, preventing boredom or avoiding depression",
+                "explanation": "介词 such as 之后连接三个排比动名词短语：① staying mentally fit（保持精神敏锐/心理健康）；② preventing boredom（防止百无聊赖）；③ avoiding depression（避免抑郁消沉），构筑多重心理防御机制。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "include personal fulfillment such as staying mentally fit, preventing boredom or avoiding depression",
+                "explanation": "Q27 核心命题与逆向推理句。受访者之所以需要靠工作来“防无聊、避抑郁、维系心理健康”，反向推导可知，在他们眼中，完全无所事事的传统退休状态极易滋生身心疾病与精神危机，直接命中 Q27 正确选项 A（retirement may cause problems for them），击碎 B 项（退休缓解无聊的颠倒项）。"
               }
             ]
           }
@@ -2649,8 +2849,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "“The concept of retirement is evolving,” said Christine Russ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "“The concept of retirement is evolving,” said Christine Russell",
+                "explanation": "主干为引述倒装结构。直接引语为主谓结构：主语为名词短语 The concept of retirement（退休的概念/定义）；谓语动词为现在进行时 is evolving（正在不断演变/进化）。主句谓语为 said，主语为 Christine Russell。"
+              },
+              {
+                "type": "同位语修饰",
+                "content": "senior manager of retirement at TD Ameritrade",
+                "explanation": "逗号后名词短语作 Christine Russell 的同位语，说明其为德美利证券退休业务高级经理的专业研究者身份，以资深行业观察家的视角为概念重塑背书。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "“The concept of retirement is evolving,” said Christine Russell...",
+                "explanation": "权威专家定性。指出“退休”这一社会学概念正在发生不可逆的时代演变，从过去的“彻底停止劳作”蜕变为“生命后半程的再就业与再创造”，为后文“不仅关乎金钱”提供理论注脚。"
               }
             ]
           }
@@ -2667,8 +2877,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "“It’s not just about finances....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "“It’s not just about finances.",
+                "explanation": "主干为主系表结构。主语代词 It（指代退休概念的演变及退而不休现象）；系动词为 ’s；否定副词短语 not just 作状语修饰；介词短语 about finances（关乎财务金钱）作表语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "“It’s not just about finances.",
+                "explanation": "论点提炼与短句强调。以极具口语冲击力的凝练短句，彻底划清“单纯谋生”与“深层精神价值”的界限，为下一句亮出“工作的内在价值”做铺垫。"
               }
             ]
           }
@@ -2685,8 +2900,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The value of work is also driving folks to continue working ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The value of work is also driving folks to continue working past retirement.”",
+                "explanation": "主干为主谓宾补结构。主语为名词短语 The value of work（工作的内在价值）；时间副词 also 作状语；谓语动词为现在进行时 is driving（正在驱动/促使）；名词 folks（人们/大众）作宾语；不定式短语 to continue working past retirement 作宾语补足语，介词短语 past retirement 作时间状语。"
+              },
+              {
+                "type": "非谓语动词嵌套",
+                "content": "to continue working past retirement",
+                "explanation": "不定式短语 to continue 作 drive 的宾补；动名词 working 作 continue 的宾语，形成不定式嵌套动名词的双层非谓语结构。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The value of work is also driving folks to continue working past retirement.",
+                "explanation": "精神驱动力总结句。明确提出“工作的价值”本身就是一种不可替代的精神犒赏（社交归属感、价值实现与存在感），解释了为何大众愿意跨越退休年龄继续奋斗，深化了 Q27 对心理自我实现的考查。"
               }
             ]
           }
@@ -2703,8 +2928,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "One reason for the change in retirement patterns: Americans ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "One reason for the change in retirement patterns: Americans are living longer.",
+                "explanation": "主干为主谓结构（冒号解释说明）。冒号前为主语名词短语 One reason，介词短语 for the change in retirement patterns 作后置定语修饰 reason；冒号后独立句子 Americans are living longer 作同位语从句/同位说明，其内部为主谓结构：主语 Americans，谓语 are living，副词比较级 longer 作状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "One reason for the change in retirement patterns: Americans are living longer.",
+                "explanation": "第4段核心主旨句与 Q28 直击定位句。作者直奔主题给出退休模式剧变的客观根本原因：“美国人活得更长了（living longer）”，与题干“The change in retirement patterns is partly due to...”无缝咬合，精准命中 Q28 正确选项 C（longer life expectancy），彻底排除劳动力短缺（A项）和人口总数增长（B项）。"
               }
             ]
           }
@@ -2721,8 +2951,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Older Americans are also the fastest-growing segment of the ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Older Americans are also the fastest-growing segment of the U.S. [workforce]",
+                "explanation": "主干为主系表结构（跨越原文本断句与下句 workforce 紧密连接）。主语为名词短语 Older Americans（美国老年人）；副词 also 作状语；系动词 are；表语为最高级形容词修饰的名词短语 the fastest-growing segment（增长最快的组成部分）；介词短语 of the U.S. workforce 作后置定语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Older Americans are also the fastest-growing segment of the U.S. workforce.",
+                "explanation": "人口学与劳动力宏观统计实证。揭示长寿不仅是个体寿命的拉长，更在宏观层面促使老年人群成为美国劳动力中增长最快的一极，展现老龄社会的劳动生产力重组。"
               }
             ]
           }
@@ -2739,8 +2974,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "workforce....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "[of the U.S.] workforce.",
+                "explanation": "句子由原始排版中因缩写“U.S.”引发的句末断词残存形成。语法功能上是第9句介词短语 of the U.S. 的中心名词（核心宾语），共同构成 the U.S. workforce（美国劳动力大军）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "workforce.",
+                "explanation": "篇章意群收尾。与前句融为一体，完成对“全美劳动力大军”这一宏观统计维度的界定，引出下句对具体翻倍数据的详实列举。"
               }
             ]
           }
@@ -2757,8 +2997,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The percentage of retirement-age people in the labor force h...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The percentage of retirement-age people in the labor force has doubled over the past three decades.",
+                "explanation": "主干为主谓结构（double 为不及物动词表翻倍）。主语为名词短语 The percentage（比例）；介词短语 of retirement-age people 及 in the labor force 作双重后置定语修饰 percentage；谓语动词为现在完成时 has doubled（已经翻倍）；介词短语 over the past three decades（在过去三十年间）作时间状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The percentage of retirement-age people in the labor force has doubled over the past three decades.",
+                "explanation": "长期纵向趋势佐证。以“过去三十年比例翻倍”的震撼历史跨度数据，有力夯实长寿带来的职场结构性聚变，证明“退而不休”是长期的历史必然，而非短期的经济周期波动。"
               }
             ]
           }
@@ -2775,8 +3020,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "About 20% of people 65 and older were in the workforce in Fe...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "About 20% of people 65 and older were in the workforce in February 2019, up from an all-time low of 10% in January 1985...",
+                "explanation": "主干为主系表结构。主语为百分数名词短语 About 20% of people 65 and older（大约20%的65岁及以上人群）；系动词 were；表语为介词短语 in the workforce（处于劳动力大军中）；时间状语 in February 2019；形容词短语 up from... 作补充状语表示增幅对比；介词短语 according to... 交代机构来源。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "About 20% of people 65 and older were in the workforce ... up from an all-time low of 10%...",
+                "explanation": "权威横向与历史极值对比。从1985年10%的历史低谷直线反弹跃升至2019年的20%，用实打实的官方统计数据彻底坐实老年劳动力的迅猛扩张，闭环支撑长寿预期（Q28）。"
               }
             ]
           }
@@ -2792,14 +3042,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which surveyed 2...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Americans are also boosting their savings to preserve their nest eggs...",
+                "explanation": "主干为主谓宾结构。主语为名词 Americans；时间副词 also 作状语；谓语动词为现在进行时 are boosting（正在大幅提升/增加）；名词短语 their savings 作直接宾语；不定式短语 to preserve their nest eggs 作目的状语（nest egg 为惯用俚语，意为“养老储蓄金/储备金”）；句首介词短语 Because of longer life spans 作原因状语；插入语 the TD Ameritrade study showed 交代调查出处。"
               },
               {
-                "type": "状语从句",
-                "content": "Because of longer life spans...",
-                "explanation": "从属连词 <code>Because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "定语从句剖析",
+                "content": "which surveyed 2,000 adults between 40 to 79",
+                "explanation": "关系代词 which 引导非限制性定语从句，先行词为 the TD Ameritrade study；从句谓语动词为 surveyed（调查了）；宾语为 2,000 adults，介词短语 between 40 to 79 作后置定语限定受访年龄段。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Because of longer life spans, Americans are also boosting their savings to preserve their nest eggs...",
+                "explanation": "第5段承上启下主题句。因果关联词 Because of 将前文的长寿议题无缝延展到财务储蓄应对上，指出为了避免“人活着钱没了”的长寿财务危机，美国人正在拼命增加储蓄保护养老金，直接领跑 Q29 的答题线索。"
               }
             ]
           }
@@ -2816,8 +3071,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Six in 10 “unretirees” are increasing their savings in antic...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Six in 10 “unretirees” are increasing their savings in anticipation of a longer life.",
+                "explanation": "主干为主谓宾结构。主语为分数短语 Six in 10 “unretirees”（十分之六的“不退休者”）；谓语动词为现在进行时 are increasing（正在增加）；名词短语 their savings 作宾语；介词短语 in anticipation of a longer life（出于对更长寿命的预期）作目的/原因状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Six in 10 “unretirees” are increasing their savings in anticipation of a longer life.",
+                "explanation": "统计数据细化支撑。60%的高比例表明增加储蓄已不是个别精明投资者的私下谋划，而是绝大多数长寿预期人群的普遍防御性本能，强化段落核心论题。"
               }
             ]
           }
@@ -2834,8 +3094,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Among the most popular ways they are doing this, the company...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Among the most popular ways they are doing this ... is by reducing their overall expenses, securing life insurance or maximizing their contributions...",
+                "explanation": "主干为介词短语前置的倒装句/主系表结构。介词短语 Among the most popular ways（在最流行的方式中）置于句首充当范围状语/表语；插入语 the company said 交代引述者；系动词为 is；真正主语/表语由并列的介词短语 by reducing..., securing... or maximizing... 充当，详细列出三大实操途径。"
+              },
+              {
+                "type": "定语从句与动名词并列",
+                "content": "they are doing this / reducing their overall expenses, securing life insurance or maximizing their contributions to retirement accounts",
+                "explanation": "① ways 后面省略关系词 that/in which，引导定语从句 they are doing this 修饰 ways；② 介词 by 后面接三个平行的动名词短语：reducing overall expenses（削减总体开支）、securing life insurance（配置人寿保险）、maximizing contributions to retirement accounts（顶格缴纳退休养老账户资金）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Among the most popular ways ... is by reducing their overall expenses...",
+                "explanation": "Q29 核心命题句。排在最受推崇存钱方式首位的就是“reducing their overall expenses”（削减日常总体开支），直接同义改写为 Q29 正确选项 D（spending less，花得更少），同时严丝合缝地排除了炒股（A项）和打零工（B项）等无中生有干扰项。"
               }
             ]
           }
@@ -2851,14 +3121,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who are opting to work in retirement are pre...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "many people ... are preparing to do so because they are worried about making ends meet in their later years, said Brent Weiss",
+                "explanation": "主干为引述倒装结构。主句直接引述部分为主谓宾加原因状语从句：主语为 many people；谓语动词为 are preparing to do so（正准备这样做）；because 引导原因状语从句。主句引述谓语为 said，主语为 Brent Weiss。"
               },
               {
-                "type": "状语从句",
-                "content": "because they are worried about making ends meet ...",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "定语从句、状语从句与同位语",
+                "content": "who are opting to work in retirement / because they are worried about making ends meet in their later years / a co-founder at Baltimore-based financial-planning firm Facet Wealth",
+                "explanation": "① who 引导限制性定语从句修饰 many people；② because 引导原因状语从句，从句内部为主系表结构（they are worried about...，动名词短语 making ends meet 表示收支相抵/维持生计）；③ 逗号后名词短语作 Brent Weiss 的同位语，交代其理财规划公司联合创始人的专业身份。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Unfortunately, many people ... are preparing to do so because they are worried about making ends meet in their later years...",
+                "explanation": "篇章基调重大反转与 Q30 核心论据。句首副词 Unfortunately 犹如当头棒喝，撕下前文温情脉脉的“自我实现”面纱，冷峻揭开现实的残酷面：绝大多数老年人退休后留任，并非源于浪漫情怀，而是被现实深深恐慌所裹挟——他们极度担忧晚年“入不敷出（making ends meet）”，直指公众对退休规划的准备严重脱节（unprepared，Q30正选）。"
               }
             ]
           }
@@ -2874,9 +3149,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that pre- retirees should speak with a financ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "He suggested that pre- retirees should speak with a financial adviser to set long-term financial goals.",
+                "explanation": "主干为主谓宾（宾语从句）结构。主语代词 He（指代 Brent Weiss）；谓语动词 suggested（建议）；that 引导宾语从句。从句内部使用了虚拟语气结构“should + 动词原形”：主语为 pre-retirees（准退休人员）；谓语为 should speak with；宾语为 a financial adviser（财务/理财顾问）；不定式短语 to set long-term financial goals 作目的状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "He suggested that pre- retirees should speak with a financial adviser to set long-term financial goals.",
+                "explanation": "专业对策建议。理财专家呼吁准退休族必须提前与专业顾问沟通设定长期理财目标，反向印证了现实中普通公众普遍缺乏长期财务目标的盲目与仓促，进一步坐实大众对于退休生活的毫无准备（unprepared，Q30）。"
               }
             ]
           }
@@ -2893,8 +3173,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "“The most challenging moments in life are getting married, s...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "“The most challenging moments in life are getting married, starting a family and ultimately retiring,” Weiss said.",
+                "explanation": "主干为引述倒装结构。直接引语为主系表结构：主语为名词短语 The most challenging moments in life（人生中最具挑战性的时刻）；系动词 are；表语为三个并列的动名词短语：getting married（结婚）、starting a family（成家立业）以及 ultimately retiring（最终退休）。主句引述谓语为 said，主语为 Weiss。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The most challenging moments in life are getting married, starting a family and ultimately retiring...",
+                "explanation": "权威金句提炼。将退休与结婚、生子并列为人生三大最严峻关卡，彻底拔高了退休这一人生转折的复杂性与危险性，打破了传统观念将退休视作“安乐窝”的轻敌心态。"
               }
             ]
           }
@@ -2911,8 +3196,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "“It’s not just a financial decision, but an emotional one....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "“It’s not just a financial decision, but an emotional one.",
+                "explanation": "主干为主系表结构（平行对比）。主语代词 It（指代退休）；系动词 ’s；表语由“not just... but (also)...”连接两个平行的名词短语：a financial decision（一项财务决定）与 an emotional one（一项情感决定，代词 one 指代 decision）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "“It’s not just a financial decision, but an emotional one.",
+                "explanation": "认知维度深化。点明退休不仅涉及钱财收支计算，更是直击人类心智安全感、社会身份认同与生命价值的复杂情感重构，为末句的悲剧性心理困局定调。"
               }
             ]
           }
@@ -2929,8 +3219,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Many people believe they can’t retire.”...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Many people believe they can’t retire.”",
+                "explanation": "主干为主谓宾（宾语从句）结构。主语为不定代词短语 Many people（许多人）；谓语动词 believe（相信/认为）；省略 that 的宾语从句 they can’t retire（他们根本退不起休）作直接宾语，从句内部为主谓结构：主语 they，谓语情态动词否定式加原形 can’t retire。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Many people believe they can’t retire.”",
+                "explanation": "震撼悲情收官句与 Q30 最终闭环。“自认退不起休”生动刻画出公众在面对老龄化冲击时的茫然、无助与沉重恐慌，深刻证明当代普通劳动者在财务和心理层面对晚年生活准备严重不足（unprepared，Q30正确项），警示意义发人深省。"
               }
             ]
           }
@@ -4436,8 +4731,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "We have all encountered them, in both our personal and profe...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "We have all encountered them, in both our personal and professional lives.",
+                "explanation": "主干为主谓宾结构。人称代词 We（我们）作主语；同位代词 all 作 We 的同位语；谓语动词为现在完成时 have encountered（都曾遭遇/碰到过）；代词 them（指代后文将揭晓的 dark patterns“暗黑模式”）作直接宾语；介词短语 in both our personal and professional lives 作地点/领域状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "We have all encountered them, in both our personal and professional lives.",
+                "explanation": "代词悬念破篇（Pronoun Hook）。作者开篇未直接下定义，而是先声夺人使用具有悬念色彩的代词 them，并以“在个人生活与职场中都曾遇到过”引发读者的强烈亲身体验与情感共鸣，为下文引出日常数字订阅痛点作铺垫。"
               }
             ]
           }
@@ -4453,9 +4753,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that had a seamless sign-up process but was l...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Think about the times you felt tricked or frustrated by a membership or subscription...",
+                "explanation": "主干为祈使句（主谓宾结构）。动词原形 Think about（回想一下/试想）充当谓语；名词短语 the times（那些时刻/经历）作宾语；省略关系副词 when 的定语从句 you felt tricked or frustrated... 修饰 times；介词短语 by a membership or subscription 作行为源状语。"
+              },
+              {
+                "type": "定语从句剖析",
+                "content": "that had a seamless sign-up process but was later difficult to cancel",
+                "explanation": "关系代词 that 引导限制性定语从句，先行词为 a membership or subscription；从句内部由转折连词 but 连接两个并列谓语：① had a seamless sign-up process（拥有无缝顺畅的注册流程）；② was later difficult to cancel（随后却极难取消），形成“进门容易出门难”的剧烈反差。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "felt tricked or frustrated by a membership or subscription that had a seamless sign-up process but was later difficult to cancel",
+                "explanation": "场景具象化与 Q31 情感基调铺垫。作者以读者最痛恨的“免密免检极速签约、退订如登天”的流氓流转套路，生动具象化界定欺诈本质，为下一句提炼“损害消费者选择（impair consumer choice）”构筑了无懈可击的情境支撑，排除 Q31 的 A 项（改善体验）。"
               }
             ]
           }
@@ -4471,9 +4781,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that should be simple and transparent can be ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Something ... can be complicated, intentionally or unintentionally, in ways that impair consumer choice.",
+                "explanation": "主干为主谓结构（被动语态）。复合不定代词 Something 作主语；谓语动词为含情态动词的被动语态 can be complicated（可能被复杂化/被人为搞得扑朔迷离）；并列副词短语 intentionally or unintentionally 作状语修饰动词；介词短语 in ways... 作方式状语。"
+              },
+              {
+                "type": "定语从句剖析",
+                "content": "that should be simple and transparent / that impair consumer choice",
+                "explanation": "① 第一个 that 引导限制性定语从句修饰主语 Something，说明事物本身理应具备的属性（“本应简单且透明的事物”）；② 第二个 that 引导限制性定语从句修饰先行词 ways，说明复杂化的方式最终导致的恶果是“损害消费者的自主选择权（impair consumer choice）”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "complicated ... in ways that impair consumer choice",
+                "explanation": "现象本质提炼与 Q31 核心命题句。明确指出暗黑界面的核心实质在于“复杂化并损害消费者的选择权（impair consumer choice）”，与第4句结合直接同义改写为 Q31 正选 C（undermine users’ decision-making），是考研英语下定义的经典标志句。"
               }
             ]
           }
@@ -4490,8 +4810,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "These are examples of dark patterns....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "These are examples of dark patterns.",
+                "explanation": "主干为主系表结构。指示代词 These（这些）作主语；系动词 are；表语名词短语 examples of dark patterns（暗黑模式的案例/表现）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "These are examples of dark patterns.",
+                "explanation": "篇章核心概念正式定名。承接前3句铺垫的生动案例与现象归纳，水到渠成地给出全篇的专业术语标签——“暗黑模式（dark patterns）”，完成从日常痛点到学术/行业议题的正式过渡。"
               }
             ]
           }
@@ -4507,9 +4832,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that manipulate user interfaces to influence ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "“dark patterns” is a catch- all term for practices...",
+                "explanation": "主干为主系表结构。主语为专有名词 “dark patterns”（暗黑模式）；系动词 is；表语名词短语 a catch-all term（包罗万象的统称/兜底术语）；介词短语 for practices... 作后置定语；句首过去分词短语 First coined in 2010 by... 作整个主句的时间/背景状语。"
+              },
+              {
+                "type": "定语从句与分词状语",
+                "content": "First coined in 2010 by user experience expert Harry Brignull / that manipulate user interfaces to influence the decision-making ability of users",
+                "explanation": "① 句首过去分词短语交代术语的提出时间（2010年）与首创者（用户体验专家 Harry Brignull）；② 关系代词 that 引导限制性定语从句修饰先行词 practices，阐明暗黑模式的操纵手法（manipulate user interfaces）及最终目的——左右用户的决策能力（influence decision-making ability）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "manipulate user interfaces to influence the decision-making ability of users",
+                "explanation": "官方权威定义与 Q31 绝对答案出处。“manipulate user interfaces”与“influence decision-making ability”与第2句的“impair consumer choice”遥相呼应，直接对应 Q31 正确答案 C（undermine users’ decision-making），彻底排除了泄露信息（B项）和提醒费用（D项）等反向/无中生有干扰。"
               }
             ]
           }
@@ -4525,9 +4860,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "where a user experience seems easy and intuiti...",
-                "explanation": "关系词 <code>where</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Brignull identifies 12 types of common dark patterns, ranging from misdirection and hidden costs to “roach motel”...",
+                "explanation": "主干为主谓宾结构。主语专有名词 Brignull；谓语动词 identifies（识别/归纳出）；名词短语 12 types of common dark patterns 作宾语；现在分词短语 ranging from... to... 作后置定语修饰 12 types，列举常见类型。"
+              },
+              {
+                "type": "定语从句与时间状语从句",
+                "content": "where a user experience seems easy and intuitive at the start, but turns difficult when the user tries to get out",
+                "explanation": "关系副词 where 引导非限制性定语从句修饰专有名词 “roach motel”（蟑螂汽车旅馆模式）；从句内部由 but 连接两个并列系表结构（seems easy... but turns difficult）；when 引导时间状语从句（when the user tries to get out），形象揭示出“请神容易送神难”的交互陷阱。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "ranging from misdirection and hidden costs to “roach motel”...",
+                "explanation": "细分类型列举与文化隐喻。以“错误引导（misdirection）”、“隐藏费用（hidden costs）”以及极具讽刺意味的“蟑螂汽车旅馆（roach motel，喻指进得来出不去）”为例，将抽象操纵手法具象化，强化了对商业狡诈设计的批判。"
               }
             ]
           }
@@ -4543,9 +4888,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that about one in 10 employs these design pra...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "researchers found that about one in 10 employs these design practices",
+                "explanation": "主干为主谓宾（宾语从句）结构。句首介词短语 In a 2019 study of... 作范围状语交代庞大的样本容量（5.3万个产品页面和1.1万个独立网站）；主语为 researchers（研究人员）；谓语动词为 found（发现）；that 引导宾语从句。从句内部：分数短语 about one in 10（大约十分之一）作主语；谓语动词为 employs（采用/运用）；宾语为 these design practices。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "In a 2019 study of 53,000 product pages and 11,000 websites, researchers found that about one in 10 employs these design practices.",
+                "explanation": "实证数据支撑与 Q32 写作意图命题点。引用海量数据（1.1万网站、十分之一的渗透率），旨在证明暗黑模式已绝非个别黑作坊的罕见操作，而是广泛弥漫于互联网商业全域，展现其“无处不在的强大存在感（their strong presence，Q32考点）”。"
               }
             ]
           }
@@ -4561,9 +4911,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "Though widely prevalent...",
-                "explanation": "从属连词 <code>Though</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "the concept of dark patterns is still not well understood",
+                "explanation": "主干为主系表/被动结构。主语为名词短语 the concept of dark patterns（暗黑模式的概念）；系动词 is；否定副词 not 及程度副词 well 作状语修饰；过去分词 understood 作表语/被动谓语；句首 Though widely prevalent 为省略让步状语从句。"
+              },
+              {
+                "type": "省略让步状语从句",
+                "content": "Though widely prevalent",
+                "explanation": "从属连词 Though 引导让步状语，省略了主语和系动词（完整形式为 Though it is widely prevalent），形容词短语 widely prevalent（广泛盛行）与主句的 not well understood（未被充分理解）形成鲜明认知反差。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Though widely prevalent, the concept of dark patterns is still not well understood.",
+                "explanation": "认知鸿沟与警示转折。以“盛行（prevalent）”与“不被理解（not well understood）”的强烈对比，暴露出公众与监管在面对技术新型陷阱时的盲区，为呼吁商业领袖和立法监管介入敲响警钟。"
               }
             ]
           }
@@ -4580,8 +4940,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Business and nonprofit leaders should be aware of dark patte...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Business and nonprofit leaders should be aware of dark patterns and try to avoid the gray areas they engender.",
+                "explanation": "主干为情态动词 should 引导的并列复合谓语结构。主语为并列名词短语 Business and nonprofit leaders（商界与非营利机构领袖）；第一谓语为 should be aware of（应当意识到/警惕）；宾语为 dark patterns；第二谓语为 (should) try to avoid（尽力规避）；宾语为 the gray areas（灰色地带）。"
+              },
+              {
+                "type": "定语从句剖析",
+                "content": "they engender",
+                "explanation": "省略关系代词 that/which 的限制性定语从句，修饰先行词 the gray areas；从句主语 they（指暗黑模式）；谓语动词 engender（产生/招致）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "leaders should be aware of dark patterns and try to avoid the gray areas they engender.",
+                "explanation": "呼吁行动与自律萌芽。首次向商界管理层提出明确要求，告诫决策者不能以“追求转化率”为借口打擦边球，必须主动警惕并远离暗黑设计带来的法律与伦理灰色地带。"
               }
             ]
           }
@@ -4597,9 +4967,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "Where is the line between ethical...",
-                "explanation": "关系词 <code>Where</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Where is the line between ethical, persuasive design and dark patterns?",
+                "explanation": "主干为特殊疑问句（主系表结构）。疑问副词 Where 作表语；系动词 is；主语为名词短语 the line（界线/分水岭）；介词短语 between ethical, persuasive design and dark patterns 作后置定语修饰 the line。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Where is the line between ethical, persuasive design and dark patterns?",
+                "explanation": "设问引出治理议题（Rhetorical Question）。在“正当的说服性设计（ethical, persuasive design）”与“欺诈性暗黑模式”之间划线，是行业最核心的合规痛点，以设问开启第4段关于跨部门治理策略的深度探讨。"
               }
             ]
           }
@@ -4616,8 +4991,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Businesses should engage in conversations with IT, complianc...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Businesses should engage in conversations with IT, compliance, risk, and legal teams ... and include in the discussion the customer/user experience designers and coders ... as well as the marketers and advertisers...",
+                "explanation": "主干为情态动词 should 引导的超长并列谓语结构。主语为 Businesses；第一谓语为 engage in conversations with...（与……开展对话沟通）；目的状语为 to review their privacy policy；第二谓语为 include in the discussion...（将……纳入讨论，介词短语前置以平衡长宾语）；后接两大并列宾语：① designers and coders；② marketers and advertisers。"
+              },
+              {
+                "type": "后置定语与介词倒装",
+                "content": "include in the discussion the designers... / responsible for the company’s user interface / responsible for sign-ups, checkout baskets, pricing, and promotions",
+                "explanation": "① include 的直接宾语较长，因此将介词短语 in the discussion 前置到谓语动词之后；② 两个形容词短语 responsible for... 分别作后置定语，修饰设计开发团队与营销推广团队，界定各自业务职责。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Businesses should engage in conversations with IT, compliance, risk, and legal teams ... include in the discussion ... designers and coders ... marketers and advertisers...",
+                "explanation": "Q33 核心命题句与解题正选。面对复杂的数字欺骗，作者给出的破解之道是将IT、法务、风控、合规、前端设计、程序员、营销与广告全部召集起来展开全面对齐沟通，选项将其精妙提炼为“talk with relevant teams”（与相关团队沟通，Q33正选B），排除求助第三方（C项）和搞专业培训（D项）。"
               }
             ]
           }
@@ -4634,8 +5019,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Any or all these teams can play a role in creating or avoidi...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Any or all these teams can play a role in creating or avoiding “digital deception.”",
+                "explanation": "主干为主谓宾结构。主语为代词组合短语 Any or all these teams（这些团队中的任何一个或全部）；情态动词 can；动词短语 play a role in（在……中发挥作用/扮演角色）充当复合谓语；介词 in 后接平行动名词短语 creating or avoiding “digital deception”（制造或规避“数字欺骗”）作宾语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Any or all these teams can play a role in creating or avoiding “digital deception.”",
+                "explanation": "治理责任全覆盖总括句。指出“数字欺骗”是系统性工程，任何一个业务部门都有可能不小心筑造陷阱，也都能成为防范欺骗的关卡，彻底论证了上一句跨部门协同对话的绝对必要性。"
               }
             ]
           }
@@ -4652,8 +5042,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Lawmakers and regulators are slowly starting to address the ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Lawmakers and regulators are slowly starting to address the ambiguity around dark patterns, most recently at the state level.",
+                "explanation": "主干为主谓宾结构。主语为并列名词短语 Lawmakers and regulators（立法者与监管机构）；副词 slowly 作状语；谓语动词为现在进行时 are starting to address（正在开始着手解决）；名词短语 the ambiguity（模糊性/不明确性）作直接宾语；介词短语 around dark patterns 作后置定语；句末介词短语 most recently at the state level 作时间与层级状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Lawmakers and regulators are slowly starting to address the ambiguity around dark patterns...",
+                "explanation": "转向外部法律监管视角。标志着全文论述视角从“企业内部自查”升维到“政府外部法律规制”，以“在州一级层面（at the state level）”引出下文加州里程碑式立法的具体实证。"
               }
             ]
           }
@@ -4669,9 +5064,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when seeking to exercise their data privacy r...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "the California Attorney General announced the approval of additional regulations ... The regulations aim to ban dark patterns—this means prohibiting companies from using “confusing language or unnecessary steps...",
+                "explanation": "主干包含两个复合长句：① 第一句为主谓宾结构：主语 the California Attorney General；谓语 announced；宾语 the approval of additional regulations...；that 引导从句修饰 regulations。② 第二句为主谓宾加破折号解释说明：主语 The regulations；谓语 aim to ban；宾语 dark patterns；破折号后 this means prohibiting companies from using... 进一步阐释禁止内容。"
+              },
+              {
+                "type": "定语从句、名词性从句与非谓语",
+                "content": "that “ensure that consumers will not be confused or misled when seeking to exercise their data privacy rights” / prohibiting companies from using... / forcing them to click... / why they shouldn’t opt out",
+                "explanation": "① that 引导定语从句修饰 regulations，从句谓语 ensure 之后接 that 引导的宾语从句；when seeking... 为状语从句的省略分词结构；② 动名词短语 prohibiting companies from using... 作 means 的宾语；such as forcing... 作介词短语举例说明；why 引导宾语从句作 reasons 的同位语/定语修饰。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "regulations ... ensure that consumers will not be confused or misled when seeking to exercise their data privacy rights ... prohibiting companies from using confusing language or unnecessary steps...",
+                "explanation": "法律规制范式与 Q34 命题出处。加州司法部长批准补充法规的核心目的在于“确保消费者在行使隐私权时不被迷惑或误导（not be confused or misled）”，直接同义替换为 Q34 正选 B（protect consumers from being tricked），严厉排除 A 项（误将禁止阻挠当成指引退出）和 C 项（颠倒把权利赋予企业）。"
               }
             ]
           }
@@ -4688,8 +5093,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "As more states consider promulgating additional regulations,...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "there is a need for greater accountability from within the business community",
+                "explanation": "主干为 there be 存在句型。引导词 there；系动词 is；主语为名词短语 a need for greater accountability（对更大问责/责任担当的需求）；介词短语 from within the business community（来自商界内部）作后置定语。"
+              },
+              {
+                "type": "状语从句剖析",
+                "content": "As more states consider promulgating additional regulations",
+                "explanation": "从属连词 As 引导时间/伴随状语从句，表示“随着越来越多的州考虑颁布额外法规”；从句主语 more states；谓语 consider；动名词短语 promulgating additional regulations 作宾语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "there is a need for greater accountability from within the business community",
+                "explanation": "最终结论引出句与 Q35 逻辑转折点。作者指出，虽然各州立法风起云涌，但外部法规终究有其局限，真正治本的关键必须诉诸“商业界内部的自我担当与问责（accountability from within the business community）”，为尾句升华做铺垫。"
               }
             ]
           }
@@ -4705,9 +5120,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "if organizations hold themselves accountabl...",
-                "explanation": "从属连词 <code>if</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Dark patterns also can be addressed on a self-regulatory basis, but only if organizations hold themselves accountable...",
+                "explanation": "主干是由转折连词 but 连接的复合长难句。前一分句为被动结构：主语 Dark patterns；谓语 can be addressed（能够得到化解/解决）；介词短语 on a self-regulatory basis（在行业自律的基础上）作方式状语。后一分句为条件限制从句：only if 引导强条件状语从句，主语 organizations；谓语 hold themselves accountable to...（要求自己对……承担责任）；介词 to 之后由 not just... but also... 连接并列宾语。"
+              },
+              {
+                "type": "状语从句与并列结构",
+                "content": "but only if organizations hold themselves accountable, not just to legal requirements, but also to industry best practices and standards",
+                "explanation": "only if 引导唯一必要条件状语从句；短语 hold oneself accountable to 为固定搭配；not just to legal requirements（不仅要满足法律底线）与 but also to industry best practices and standards（还要坚守行业最佳实践与最高道德标准）构成让步与强调递进。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Dark patterns also can be addressed on a self-regulatory basis, but only if organizations hold themselves accountable...",
+                "explanation": "全篇压轴结语与 Q35 核心正选锁定。作者在文章收官处给出解决暗黑模式的终极药方：单纯依靠外部立法无法穷尽层出不穷的技术套路，根本之道在于“企业自我监管与责任担当（self-regulatory basis / hold themselves accountable）”，完美同义提炼为 Q35 正选 B（businesses’ self-discipline），排除 A 项（抓取让步成分 legal requirements）与 C 项（外部监管标准）。"
               }
             ]
           }
@@ -6123,9 +6548,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "Although ethics classes are common around the wor...",
-                "explanation": "从属连词 <code>Although</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "scientists are unsure if their lessons can actually change behavior; evidence either way is weak, relying on contrived laboratory tests or sometimes unreliable self-reports",
+                "explanation": "主干由分号连接两个并列分句。第一分句为主系表结构：主语 scientists；系动词 are；表语形容词 unsure；if 引导从句作间接宾语。第二分句为主系表结构：主语 evidence either way；系动词 is；表语形容词 weak；现在分词短语 relying on... 作伴随状语。句首 Although 引导让步状语从句。"
+              },
+              {
+                "type": "让步状语从句与分词修饰",
+                "content": "Although ethics classes are common around the world / relying on contrived laboratory tests or sometimes unreliable self-reports",
+                "explanation": "① Although 引导让步状语从句，指出伦理课程在世界各地的普及性；② 现在分词短语 relying on... 揭示既往研究的证据缺陷：依赖于人为操控的实验室测试（contrived laboratory tests）以及易受主观粉饰的被试自我陈述（unreliable self-reports）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "scientists are unsure if their lessons can actually change behavior; evidence either way is weak...",
+                "explanation": "开篇学术背景铺垫与 Q36 直击命题点。科学家吃不准（unsure）且两方面的证据都极其微弱（evidence is weak），直接同义替换为 Q36 正确选项 A（hard to determine，难以断定），为下文引出打破常规的新实证研究构筑强烈的“先抑后扬”蓄势。"
               }
             ]
           }
@@ -6142,8 +6577,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But a new study published in Cognition found that, in at lea...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But a new study ... found that ... a single ethics lesson may have had lasting effects.",
+                "explanation": "主干为主谓宾（宾语从句）结构。句首转折连词 But 开启核心立论；主语为名词短语 a new study；过去分词短语 published in Cognition 作后置定语修饰 study；谓语动词为 found（发现）；that 引导宾语从句。从句主语为 a single ethics lesson；谓语为情态动词复合完成式 may have had；名词短语 lasting effects 作宾语；介词短语 in at least one real-world situation 作范围状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "But a new study ... found that, in at least one real-world situation, a single ethics lesson may have had lasting effects.",
+                "explanation": "全文核心转折立论句（Thesis Turn）。承接首句学术界的普遍怀疑，以 But 强势反转，指出在“现实情境（real-world situation）”中单次伦理教学产生了持久效应，颠覆了以往的悲观共识，正式开启实验全流程的详尽展开。"
               }
             ]
           }
@@ -6160,8 +6600,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The researchers investigated one class session’s impact on e...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The researchers investigated one class session’s impact on eating meat.",
+                "explanation": "主干为主谓宾结构。主语为名词短语 The researchers（研究人员）；谓语动词为 investigated（调查/研究）；名词所有格短语 one class session’s impact（单次课堂干预的影响）作直接宾语；介词短语 on eating meat（对食肉行为）作 impact 的后置定语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The researchers investigated one class session’s impact on eating meat.",
+                "explanation": "实验对象聚焦句。将宏大的“道德行为”具象化为日常微观的“吃肉（eating meat）”决策，为下一句系统阐述“为何选择吃肉作为实验标的”确立切入点。"
               }
             ]
           }
@@ -6177,14 +6622,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "because it reduces environmental harm and animal...",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "They chose this particular behavior for three reasons ... : students’ attitudes ... are variable and unstable, behavior is easily measurable, and ethics literature largely agrees that eating less meat is good...",
+                "explanation": "主干为主谓宾加冒号并列解释结构。主语代词 They；谓语动词 chose；名词短语 this particular behavior 作直接宾语；介词短语 for three reasons 作原因状语；插入语交代合著者学者身份。冒号后并列阐述三大理由：① 主系表 attitudes are variable and unstable；② 主系表 behavior is easily measurable；③ 主谓宾 ethics literature largely agrees that...。"
               },
               {
-                "type": "名词性从句",
-                "content": "that eating less meat is good because it redu...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "同位语与原因状语从句",
+                "content": "a philosopher at the University of California, Riverside / because it reduces environmental harm and animal suffering",
+                "explanation": "① 逗号后名词短语作 Eric Schwitzgebel 的同位语；② because 引导原因状语从句修饰从句 is good，阐述少吃肉符合伦理学文献共识的原因在于能减少环境危害与动物痛苦。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "They chose this particular behavior for three reasons ... behavior is easily measurable...",
+                "explanation": "Q37 核心命题句。在给出的三大理由中，第二条“behavior is easily measurable”（行为容易测量）直接同义转换为 Q37 正选 B（It is a behavior easy to measure），同时严厉排除态度普遍（A项）与关乎学生身体健康（C项，文意为生态环境与动物痛苦，非学生自身养生）。"
               }
             ]
           }
@@ -6201,8 +6651,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Half of the students in four large philosophy classes read a...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Half of the students in four large philosophy classes read an article ... optionally watched an 11-minute video ... and joined a 50-minute discussion.",
+                "explanation": "主干为一个主语连接三个并列谓语的复合结构。主语为分数短语 Half of the students in four large philosophy classes（实验组学生）；三个并列谓语动词短语为：① read an article on...（阅读了相关文章）；② optionally watched a video...（选看了11分钟视频，副词 optionally 作状语）；③ and joined a 50-minute discussion（参与了50分钟讨论）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Half of the students ... read an article ... watched a video ... and joined a discussion.",
+                "explanation": "实验组干预方案细节。通过阅读、影音与讨论的“组合拳”教学干预，具体展现实验自变量的施加过程，为末段将行为改变归因于多元因素（multiple factors）埋下伏笔。"
               }
             ]
           }
@@ -6219,8 +6674,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The other half focused on charitable giving instead....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The other half focused on charitable giving instead.",
+                "explanation": "主干为主谓宾结构。主语为对照组代词短语 The other half（另一半学生，即控制组）；谓语动词短语为 focused on（聚焦于/修习）；名词短语 charitable giving（慈善捐赠）作介词宾语；副词 instead（相反/替代）作状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The other half focused on charitable giving instead.",
+                "explanation": "控制组严格对照设计。安排对照组修习完全无关的伦理议题（慈善捐赠），满足科学实验的标准对照范式，排除学生因参与伦理课程而产生的普遍心理暗示或安慰剂效应。"
               }
             ]
           }
@@ -6236,9 +6696,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that semester—nearly 14...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Then, unknown to the students, the researchers studied their anonymized meal-card purchases for that semester...",
+                "explanation": "主干为主谓宾结构。时间副词 Then 作状语；形容词短语 unknown to the students 作状语（在学生不知情的情况下，体现双盲真实观测）；主语 the researchers；谓语动词 studied（统计分析了）；宾语 their anonymized meal-card purchases（匿名化餐卡消费记录）；破折号后名词短语 nearly 14,000 receipts for almost 500 students 充当补充同位语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "unknown to the students, the researchers studied their anonymized meal-card purchases...",
+                "explanation": "突破性科研实证手段。以客观真实的校园餐卡刷卡大数据取代以往主观问卷，彻底消解了首句指出的实验室伪造与虚假自述弊端，完美呼应并佐证了 Q37（behavior is easily measurable）。"
               }
             ]
           }
@@ -6254,9 +6719,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that ethics professors do not differ from oth...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Schwitzgebel predicted the intervention would have no effect; he had previously found that ethics professors do not differ from other professors...",
+                "explanation": "主干由分号连接两个并列分句。第一分句为主谓宾（省略 that 的宾语从句）结构：主语 Schwitzgebel，谓语 predicted，宾语从句 the intervention would have no effect。第二分句为主谓宾（that 引导宾语从句）结构：主语 he，谓语 had previously found，宾语从句内部为主谓结构（ethics professors do not differ from other professors...）。"
+              },
+              {
+                "type": "介词短语修饰与举例",
+                "content": "on a range of behaviors, including voting rates, blood donation and returning library books",
+                "explanation": "介词短语 on a range of behaviors 作范围状语；介词 including 后接三个平行的公德行为指标作举例：投票率（voting rates）、献血（blood donation）以及按时还书（returning library books）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "ethics professors do not differ from other professors on a range of behaviors, including voting rates, blood donation and returning library books.",
+                "explanation": "讽刺性反直觉实证与 Q38 命题原点。学者此前发现，精通伦理理论的教授在现实生活公德上与常人毫无二致，这一发现深刻说明精通伦理者“并不必然在道德行径上表现更好（are not necessarily ethically better，Q38正选D）”，也是学者事先悲观预测干预无效的底层原因。"
               }
             ]
           }
@@ -6272,9 +6747,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who discussed meat ethics...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "But among student subjects ... meal purchases containing meat decreased from 52 to 45 percent— and this effect held steady...",
+                "explanation": "主干为转折连词 But 引导、由并列连词 and 连接的两个复合分句。前一分句为主谓结构：主语 meal purchases，现在分词短语 containing meat 作后置定语，谓语动词 decreased（下降），介词短语 from 52 to 45 percent 作幅度状语。后一分句为主系表结构：主语 this effect，复合谓语 held steady（保持平稳），介词短语 for the study’s duration of several weeks 作时间状语。"
+              },
+              {
+                "type": "定语从句与介词范围状语",
+                "content": "among student subjects who discussed meat ethics",
+                "explanation": "句首介词短语 among student subjects 作范围状语；关系代词 who 引导限制性定语从句修饰先行词 subjects，限定为参与了肉类伦理讨论的实验组被试。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "meal purchases containing meat decreased from 52 to 45 percent— and this effect held steady for the study’s duration of several weeks.",
+                "explanation": "颠覆性实验核心量化成果。肉食购买率硬生生下降7个百分点，且持续数周保持稳定，用无可辩驳的实打实数据打破了“伦理课无用论”，确立了本次实验的核心突破。"
               }
             ]
           }
@@ -6291,8 +6776,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Purchases from the other group remained at 52 percent....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Purchases from the other group remained at 52 percent.",
+                "explanation": "主干为主系表结构。主语为名词 Purchases；介词短语 from the other group（来自对照组的）作后置定语；系动词为 remained（保持/维持）；介词短语 at 52 percent 作表语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Purchases from the other group remained at 52 percent.",
+                "explanation": "严格对照效度检验。控制组未受干预，消费比例严丝合缝地停留在52%，彻底排除了外部季节变化、食堂菜品更替等偶然噪音干扰，坐实了实验组7%降幅的因果必然性。"
               }
             ]
           }
@@ -6309,8 +6799,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "“That’s actually a pretty large effect for a pretty small in...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "“That’s actually a pretty large effect for a pretty small intervention,” Schwitzgebel says.",
+                "explanation": "主干为直接引语加引述谓语结构。直接引语为主系表结构：主语代词 That（指代7%的行为降幅）；副词 actually 作状语；系动词 ’s；表语名词短语 a pretty large effect（相当显著的效应）；介词短语 for a pretty small intervention（对于一次极小的干预而言）作基准状语。主句谓语为 says，主语为 Schwitzgebel。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "That’s actually a pretty large effect for a pretty small intervention",
+                "explanation": "实验主持者定性评价。学者以“小干预促成大效应”对实验给予自豪肯定，但这一乐观情绪迅速引来下一句第三方同行的严谨审视与学术碰撞。"
               }
             ]
           }
@@ -6326,9 +6821,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who was not involved in the study...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Psychologist Nina Strohminger ... says she wants the effect to be real but cannot rule out some unknown confounding variable.",
+                "explanation": "主干为主谓宾（宾语从句）结构。主语为专有名词 Psychologist Nina Strohminger at the University of Pennsylvania；谓语动词 says；省略 that 的宾语从句作 says 的宾语。从句内部由转折连词 but 连接两个并列谓语：① wants the effect to be real（希望效应属实）；② cannot rule out some unknown confounding variable（无法排除某些未知的混杂变量）。"
+              },
+              {
+                "type": "定语从句剖析",
+                "content": "who was not involved in the study",
+                "explanation": "关系代词 who 引导非限制性定语从句修饰先行词 Nina Strohminger，表明其作为“未参与该研究的独立第三方学者”身份，确保学术评议的中立与严谨。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "she wants the effect to be real but cannot rule out some unknown confounding variable",
+                "explanation": "独立同行评议与 Q39 关键论据。引入第三方学者关于“存在未知混杂变量（confounding variable）”的尖锐质疑，指出该实证在因果确凿性上存在学术保留，表明效应“尚存不确定性（uncertain，Q39正选）”。"
               }
             ]
           }
@@ -6344,9 +6849,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "if real...",
-                "explanation": "从属连词 <code>if</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "it might be reversible by another nudge: “Easy come, easy go.”",
+                "explanation": "主干为主系表结构。主语代词 it（指代该行为改变效应）；系动词 might be；表语形容词 reversible（可逆的/易被逆转的）；介词短语 by another nudge 作方式状语；冒号后引用谚语 Easy come, easy go（来得容易去得快）作同位解释；句首连词 And 承接前句；插入语 if real 为省略条件状语从句；插入语 she notes 交代引述。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "And if real, she notes, it might be reversible by another nudge: “Easy come, easy go.”",
+                "explanation": "脆弱性警示与 Q39 终极闭环。以“可能被另一次轻推逆转”和“来得快去得快”警告改变具有脆弱性与易逝性，彻底坐实了该效应具有“高度不确定性（uncertain，Q39正选C）”，有力粉碎永久性（A项）与可预测性（B项）推论。"
               }
             ]
           }
@@ -6363,8 +6873,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Schwitzgebel suspects the greatest impact came from social i...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Schwitzgebel suspects the greatest impact came from social influence...",
+                "explanation": "主干为主谓宾（省略 that 的宾语从句）结构。主语 Schwitzgebel；谓语 suspects；宾语从句内部为主谓结构：the greatest impact（主语）+ came from（谓语短语）+ social influence（宾语）。破折号后完整句子充当同位语解释：主语 classmates or teaching assistants；现在分词短语 leading the discussions 作后置定语；谓语 may have shared；宾语 their own vegetarianism；现在分词短语 showing it as... 作结果状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "suspects the greatest impact came from social influence... showing it as achievable or more common",
+                "explanation": "成因剖析第一诱因与 Q40 首要支柱。学者剖析改变背后的深层动力，首推“社会社交影响（social influence）”，即同伴和助教的言传身教榜样力量，拉开多元归因分析（multiple factors，Q40）的序幕。"
               }
             ]
           }
@@ -6381,8 +6896,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Second, the video may have had an emotional impact....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Second, the video may have had an emotional impact.",
+                "explanation": "主干为主谓宾结构。序数词 Second 作过渡状语标明第二点成因；主语为名词短语 the video（视频）；谓语动词为情态动词复合完成式 may have had（可能产生了）；名词短语 an emotional impact（情绪上的震撼与冲击）作直接宾语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Second, the video may have had an emotional impact.",
+                "explanation": "成因剖析第二诱因。指出工厂化养殖视频以生动惨烈的画面激发了学生的同理心与道德震惊，确立起非理性的“情绪冲击（emotional impact）”维度，为 Q40（multiple factors）增添关键支柱。"
               }
             ]
           }
@@ -6398,9 +6918,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "although his co-authors say reason might play a b...",
-                "explanation": "从属连词 <code>although</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Least rousing ... was rational argument, although his co-authors say reason might play a bigger role.",
+                "explanation": "主干为倒装结构（形容词表语前置）。句首最高级短语 Least rousing（最不起劲/最不具煽动性的）作表语；插入语 he thinks；系动词 was；真正主语为 rational argument（理性论证/逻辑辩理）。although 引导让步状语从句，从句主语 his co-authors；谓语 say；省略 that 的宾语从句 reason might play a bigger role 作 say 的宾语。"
+              },
+              {
+                "type": "让步状语从句剖析",
+                "content": "although his co-authors say reason might play a bigger role",
+                "explanation": "从属连词 although 引导让步状语从句，呈现团队内部学术观点的健康碰撞：施维茨格贝尔看淡理性说教，但合著者坚持理性逻辑论据同样不可或缺。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Least rousing ... was rational argument, although his co-authors say reason might play a bigger role.",
+                "explanation": "成因剖析第三诱因与 Q40 终极正选。将社交影响（social influence）、情绪冲击（emotional impact）与理性论述（rational argument）三者融合，完美印证了学生行为转变绝非单一刺激，而是“多种因素共同作用的结果（a result of multiple factors，Q40正选C）”。"
               }
             ]
           }
@@ -6417,8 +6947,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Now the researchers are probing the specific effects of teac...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Now the researchers are probing the specific effects of teaching style, teaching assistants’ eating habits and students’ video exposure.",
+                "explanation": "主干为主谓宾结构。时间副词 Now 作状语；主语 the researchers；谓语动词为现在进行时 are probing（正在深入探究）；名词短语 the specific effects 作宾语；介词 of 后面连接三个平行的宾语要素：① teaching style（教学风格）；② teaching assistants’ eating habits（助教饮食习惯）；③ students’ video exposure（学生视频接触暴露量）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "probing the specific effects of teaching style, teaching assistants’ eating habits and students’ video exposure.",
+                "explanation": "后续科研纵深拓展。表明研究并未止步于初步发现，而是继续隔离细分变量深入探究，再次实证了道德行为转化机制的极度复杂性，支撑整篇严谨求实的科学叙事。"
               }
             ]
           }
@@ -6434,9 +6969,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who had predicted no effect—will be eating h...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Meanwhile Schwitzgebel ... will be eating his words.",
+                "explanation": "主干为主谓宾结构。时间副词 Meanwhile（与此同时）作状语；主语为专有名词 Schwitzgebel；谓语动词为将来进行时 will be eating（将要吃下……）；习惯俚语短语 his words 作直接宾语（eat one’s words 为固定成语，意为“认错食言/收回前言”）。"
+              },
+              {
+                "type": "定语从句剖析",
+                "content": "who had predicted no effect",
+                "explanation": "破折号内 who 引导非限制性定语从句修饰先行词 Schwitzgebel，运用过去完成时 had predicted 回顾其最初断言干预毫无效果的悲观预言。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Meanwhile Schwitzgebel—who had predicted no effect—will be eating his words.",
+                "explanation": "幽默双关艺术收官（Pun & Rhetorical Wit）。作者巧妙利用双关修辞：“eat his words”（收回前言/认输食言）既呼应了学者当初预判失灵的学术坦荡，又极其幽默地与全文“吃肉（eating meat）”的核心主题形成词义戏谑互文，以轻松从容的英式幽默为全篇科学探索画上精彩句号。"
               }
             ]
           }

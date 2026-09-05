@@ -740,9 +740,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that is paying the price....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "homeowners across the country are taking a shortcut— and it is the environment that is paying the price.",
+                "explanation": "全句由并列连词 and 连接两个复合分句。第一分句为主谓宾结构：主语 homeowners（房主），后接介词短语 across the country 作后置定语；谓语 are taking 为现在进行时，表示当前普遍存在的社会行为趋势；宾语 a shortcut（捷径）。第二分句为“it is ... that ...”强调句型：主语代词 it；系动词 is；被强调部分 the environment（自然生态环境）；that 引导强调从句，从句谓语 is paying，宾语 the price（付出代价）。"
+              },
+              {
+                "type": "介词短语与修饰",
+                "content": "In the quest for the perfect lawn",
+                "explanation": "句首介词短语作全句的目的与背景状语。名词 quest（追求）后接介词短语 for the perfect lawn（追求完美无瑕的草坪），点明各地房主采取走捷径举措的心理动机与审美驱动力。"
+              },
+              {
+                "type": "特殊结构/强调句",
+                "content": "it is the environment that is paying the price",
+                "explanation": "采用典型的分裂强调句型（cleft sentence）。将本处于受害受体位置的名词 the environment 提前进行强对比高光强调，与破折号前人类追求便捷的“走捷径”形成刺眼的讽刺反差，突出人造假草背后的沉重生态代价。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "homeowners ... taking a shortcut— and it is the environment that is paying the price",
+                "explanation": "篇章总起立论句（Topic Hook）。开篇确立全文核心矛盾——“房主图省事的捷径”与“生态环境遭受的摧残”。破折号引出的转折因果警示直接奠定了 Q21（假草破坏环境有害生态）与 Q25（假草自始至终是一项极具争议的产品）的立论基调。"
               }
             ]
           }
@@ -759,8 +774,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "About eight million square metres of plastic grass is sold e...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "About eight million square metres of plastic grass is sold each year but opposition has now spread to the highest gardening circles.",
+                "explanation": "全句由并列连词 but 连接两个语义对立的分句。前一分句为主谓结构（被动语态）：主语为量词短语 About eight million square metres of plastic grass（约800万平方米的人造塑料草坪，中心词为不可数名词 grass，谓语动词采用单数 is sold）；时间状语 each year。后一分句为主谓结构：主语不可数抽象名词 opposition（反对抵制浪潮）；谓语动词为现在完成时 has spread（蔓延传播）；介词短语 to the highest gardening circles（至园艺界最高层级圈子）作方向状语。"
+              },
+              {
+                "type": "时态与副词修饰",
+                "content": "has now spread to the highest gardening circles",
+                "explanation": "现在完成时 has spread 搭配时间副词 now，突出反对浪潮从散碎的民间杂音正式升格为行业殿堂级权威介入的历史转折；最高级形容词 the highest 精准界定了抵制力量的权威地位（即下文登场的皇家园艺学会 RHS）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "eight million square metres ... is sold ... but opposition has now spread",
+                "explanation": "数据对比与重大转折。前半句以年销800万平米的庞大市场体量彰显假草的泛滥，but 话锋一转引出顶尖行业圈层的强硬反击。本句直接为 Q21 排除 B 选项（偷换概念：园艺界是坚决抵制 opposition 而非热捧 hot topic）并为 Q25 排除 B 选项（销量巨大，并未出现 market share decline 份额衰退）提供核心判定依据。"
               }
             ]
           }
@@ -777,8 +802,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The Chelsea Flower Show has banned fake grass from this year...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The Chelsea Flower Show has banned fake grass from this year’s event, declaring it to be not part of its ethos.",
+                "explanation": "主干为主谓宾结构。主语为国际知名展会专有名词 The Chelsea Flower Show（切尔西花展）；谓语动词为现在完成时 has banned（已明令禁止/封杀）；宾语 fake grass（人造假草）；介词短语 from this year’s event（自本年度展会活动起）作范围限定状语。"
+              },
+              {
+                "type": "非谓语/伴随与补充说明",
+                "content": "declaring it to be not part of its ethos",
+                "explanation": "现在分词短语 declaring... 作伴随结果状语，逻辑主语为主句主语 The Chelsea Flower Show。动词 declaring 后接“代词 it（指代假草）+ 动词不定式否定式 to be not part of its ethos（不属于其文化理念与精神内核）”构成复合宾语（宾语+宾补），宣示了主办方与塑料草坪划清界限的决绝态度。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "banned fake grass ... not part of its ethos",
+                "explanation": "权威行动论据（Institutional Action）。作为园艺界“奥斯卡”的切尔西花展祭出禁令，以行业最高标杆的身份将抵制行动推向高潮。动词 banned 与 not part of its ethos 直接驳斥了 Q21 的 C 干扰项（声称假草在花展受到过度赞美 overpraised），彰显了花展坚定驱逐塑料假草的道德立场。"
               }
             ]
           }
@@ -794,14 +829,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which runs the annual show in west London...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "The Royal Horticultural Society (RHS) ... says it has introduced the ban because of the damage plastic grass does to the environment and biodiversity.",
+                "explanation": "主干为主谓宾（宾语从句）结构。主语为权威机构专有名词 The Royal Horticultural Society（RHS，英国皇家园艺学会）；谓语动词 says；省略连接词 that 的宾语从句 it has introduced the ban（它已出台了该禁令）作 says 的宾语；介词短语 because of... 作从句内部的原因状语。"
               },
               {
-                "type": "状语从句",
-                "content": "because of the damage plastic grass does to the ...",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "非限制性定语从句",
+                "content": "which runs the annual show in west London",
+                "explanation": "关系代词 which 引导非限制性定语从句，先行词为 The Royal Horticultural Society (RHS)。which 在从句中充当主语，谓语动词 runs（运营/主办），宾语 the annual show（年度花展），地点状语 in west London（在西伦敦），交代 RHS 作为切尔西花展主办方的权威行业背景。"
+              },
+              {
+                "type": "限制性定语从句（省略关系代词）",
+                "content": "the damage plastic grass does to the environment and biodiversity",
+                "explanation": "the damage 之后紧接省略关系代词 that/which 的限制性定语从句 plastic grass does to the environment and biodiversity。从句主语 plastic grass，谓语 does，与先行词 the damage 构成动宾短语 do damage to...（对……造成损害），介词短语 to the environment and biodiversity 指向损害的承受客体。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "because of the damage plastic grass does to the environment and biodiversity",
+                "explanation": "核心因果链条与直接题眼句（Q21正解定位句）。句中明确点出出台禁令的根本动因是假草危害生态和生物多样性，直接同义替换 Q21 正解 A 项（is harmful to the environment），同时以客观事实排除了 D 项（将举办地 in west London 移花接木拼贴为“破坏西伦敦景观”）。"
               }
             ]
           }
@@ -818,8 +863,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Ed Horne, of the RHS, said: “We launched our sustainability ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Ed Horne, of the RHS, said: “We launched our sustainability strategy last year and fake grass is just not in line with our ethos and views on plastic.",
+                "explanation": "主干为引述结构：主语 Ed Horne；介词短语 of the RHS 作其机构身份后置定语；谓语动词 said；双引号内的直接引语作宾语。直接引语内部由并列连词 and 连接两个分句：前一分句 We launched our sustainability strategy last year 为主谓宾结构；后一分句 fake grass is just not in line with our ethos and views on plastic 为主系表结构，系动词 is，表语为介词短语 in line with 的否定形式。"
+              },
+              {
+                "type": "短语搭配与后置修饰",
+                "content": "in line with our ethos and views on plastic",
+                "explanation": "介词短语 in line with（与……相符合/契合）后接由 and 连接的两个并列名词 our ethos（我们的精神理念）和 views on plastic（对塑料制品的立场看法），介词短语 on plastic 作 views 的后置限定定语，阐明了机构对塑料制品抵制的原则性高度。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "sustainability strategy ... not in line with our ethos",
+                "explanation": "权威专家证言（Expert Testimony）。通过引用学会发言人的官方表态，将抽象的 ethos 具象化为明确的“可持续发展战略（sustainability strategy）”，从宏观战略层面夯实禁令的正当性，强化 Q21 中关于 RHS 坚守绿色生态底线的论述支撑。"
               }
             ]
           }
@@ -835,14 +890,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which include supporting wildlife...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "We recommend using real grass because of its environmental benefits, which include supporting wildlife, alleviating flooding and cooling the environment.”",
+                "explanation": "主干为主谓宾结构。主语代词 We（代指 RHS）；谓语动词 recommend（建议/提倡）；动名词短语 using real grass（使用天然真草）作宾语；介词短语 because of its environmental benefits 作原因状语，说明提倡真草的生态环境理由。"
               },
               {
-                "type": "状语从句",
-                "content": "because of its environmental benefits...",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "定语从句与并列动名词",
+                "content": "which include supporting wildlife, alleviating flooding and cooling the environment",
+                "explanation": "关系代词 which 引导非限制性定语从句，先行词为复数名词 its environmental benefits。which 在从句中作主语，谓语动词 include，后接三个由逗号与 and 连接的并列动名词短语作宾语：supporting wildlife（扶持野生动物）、alleviating flooding（缓解洪涝灾害）以及 cooling the environment（为环境降温散热）。"
+              },
+              {
+                "type": "动名词短语剖析",
+                "content": "using real grass ... supporting wildlife, alleviating flooding and cooling the environment",
+                "explanation": "全句四处运用动名词：recommend 后接动名词 using 作宾语（recommend doing sth.）；从句中 include 后接三个动名词短语，精准排比概括天然草坪在生态栖息、海绵调蓄与微气候调节三大维度的正外部性效益。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "recommend using real grass ... alleviating flooding",
+                "explanation": "正面方案建构与伏笔呼应。RHS 在痛斥假草后给出建设性替代方案，三大环境效益中的 alleviating flooding（缓解洪涝）与文末第5段政府表态中的 ensure sustainable drainage（确保可持续排水）前后呼应，点明天然地表对防汛防涝不可替代的生态价值。"
               }
             ]
           }
@@ -859,8 +924,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The RHS’s decision comes as campaigners try to raise awarene...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The RHS’s decision comes as campaigners try to raise awareness of the problems fake grass causes.",
+                "explanation": "主干为主谓结构。主语为所有格名词短语 The RHS’s decision（英国皇家园艺学会的禁令决议）；谓语动词为一般现在时 comes（出台/发生，表时间与态势的交汇）；从属连词 as 引导时间状语从句。"
+              },
+              {
+                "type": "时间状语从句与定语从句嵌套",
+                "content": "as campaigners try to raise awareness of the problems fake grass causes",
+                "explanation": "从属连词 as 引导时间状语从句（表示“正当……之际”）。从句主干为主谓宾结构：主语 campaigners（环保运动倡导者），谓语动词短语 try to raise，宾语 awareness of the problems；名词 problems 之后紧跟省略关系代词 that/which 的限制性定语从句 fake grass causes（主语 fake grass，谓语 causes），限定问题的根源。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The RHS’s decision comes as campaigners try to raise awareness...",
+                "explanation": "语篇视角平滑过渡（Transition）。从上一段行业官方权威机构（RHS）转向民间的草根行动网络（campaigners）。两大力量在时间维度上同频共振、在诉求上高度一致，有力驳斥了 Q22 的 A 干扰项（荒谬宣称活动人士对 RHS 感到失望 disappointment）。"
               }
             ]
           }
@@ -876,9 +951,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which claims to “cut through the greenwash” of...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "A Twitter account ... already has more than 20,000 followers.",
+                "explanation": "主干为主谓宾结构。主语为单数名词短语 A Twitter account（一个推特账号）；时间副词 already 作状语；谓语动词 has；宾语为数词短语 more than 20,000 followers（两万多名关注者/粉丝）。"
+              },
+              {
+                "type": "非限制性定语从句",
+                "content": "which claims to “cut through the greenwash” of artificial grass",
+                "explanation": "关系代词 which 引导非限制性定语从句，先行词为 A Twitter account。which 在从句中充当主语，谓语动词 claims；动词不定式短语 to “cut through the greenwash” of artificial grass 作 claims 的宾语。短语 cut through 意为“看透/穿透/击破”，greenwash（绿洗/环保粉饰）指假草厂商将塑料制品包装成环保产品的虚假商业营销话术。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "cut through the greenwash ... more than 20,000 followers",
+                "explanation": "民间声量例证（Grassroots Evidence）。通过展示具体社交网络账号的破两万粉丝量，佐证反假草理念正在英国大众阶层形成强劲的社群动员力，揭穿假草伪环保的画皮，为下一句展示万人连署请愿书铺平叙事道路。"
               }
             ]
           }
@@ -895,8 +980,23 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "It is trying to encourage people to sign two petitions, one ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "It is trying to encourage people to sign two petitions, one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns.",
+                "explanation": "主干为主谓宾补结构。主语代词 It 指代上文推特账号；谓语动词为现在进行时 is trying；不定式短语 to encourage people to sign two petitions 作宾语（encourage sb. to do sth.，people 为逻辑宾语，to sign... 为宾语补足语）；petitions 为 sign 的宾语。"
+              },
+              {
+                "type": "同位语与分词短语修饰",
+                "content": "one calling for a ban on the sale of plastic grass and another calling for an “ecological damage” tax on such lawns",
+                "explanation": "由 and 连接的代词 one 与 another 分别指代 two petitions 中的两份，构成同位语结构。其后各自接现在分词短语 calling for... 作后置定语：① calling for a ban on the sale of plastic grass（呼吁立法禁止销售塑料草坪）；② calling for an “ecological damage” tax on such lawns（呼吁对此类草坪征收“生态破坏税”）。"
+              },
+              {
+                "type": "非谓语分词功能剖析",
+                "content": "calling for a ban ... calling for an “ecological damage” tax",
+                "explanation": "现在分词 calling 在结构中表示主动与持续的呼吁主张，介词短语 on the sale 与 on such lawns 分别精准锁定了禁令与征税针对的具体经济环节（生产销售端与持有使用端）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "sign two petitions, one calling for a ban ... another calling for an “ecological damage” tax",
+                "explanation": "命题核心题眼句（Q22正解定位句）。两份请愿书一份主张“禁售（ban on sale）”，另一份主张“课征惩罚性生态税（damage tax）”，二者结合体现了从法律与经济双重维度围堵假草的坚决态度，直接命中 Q22 答案 B（resistance to fake grass use），并从根本上反驳了 C 项（活动人士是征税的主动倡导者，绝非对税感到愤怒 anger over the tax）。"
               }
             ]
           }
@@ -913,8 +1013,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "They have gathered 7,276 and 11,282 signatures....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "They have gathered 7,276 and 11,282 signatures.",
+                "explanation": "主干为主谓宾结构。主语代词 They 指代上一句中提到的两份请愿书；谓语动词为现在完成时 have gathered（已收集到/征集到）；宾语为由 and 并列的两个精确数据 7,276 and 11,282 signatures（7276个与11282个签名）。"
+              },
+              {
+                "type": "时态与修辞功能",
+                "content": "have gathered 7,276 and 11,282 signatures",
+                "explanation": "现在完成时 have gathered 强调请愿书在民间引发的强大连署效应已经形成客观的政治体量，两个精确到个位的数字展现了叙述的纪实性与无可辩驳的说服力。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "They have gathered 7,276 and 11,282 signatures.",
+                "explanation": "量化事实论据（Quantitative Evidence）。用累计近两万份的沉甸甸连署签名，证明民众抵制假草的诉求绝非少数极端环保倡导者的口头宣泄，而是具有深厚民意基础的现实诉求，进一步印证 Q22 中对假草抵制（resistance）的严肃性。"
               }
             ]
           }
@@ -930,9 +1040,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which need mowing and therefore usually consum...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "However, supporters of fake grass point out that there is also an environmental impact with natural lawns, which need mowing and therefore usually consume electricity or petrol.",
+                "explanation": "主干为主谓宾（宾语从句）结构。转折副词 However 作句首状语；主语 supporters of fake grass（假草支持者）；谓语动词短语 point out；从属连词 that 引导宾语从句。从句内部为 there be 存在句型：there is also an environmental impact（同样存在环境影响），介词短语 with natural lawns（在天然草坪方面）作范围状语。"
+              },
+              {
+                "type": "定语从句与并列谓语",
+                "content": "which need mowing and therefore usually consume electricity or petrol",
+                "explanation": "关系代词 which 引导非限制性定语从句，先行词为 natural lawns。which 在从句中充当主语，从句包含由 and 连接的两个并列谓语：① need mowing（需要割草修剪）；② therefore usually consume electricity or petrol（因而通常消耗电能或汽油，副词 therefore 表因果衔接，consume 为谓语，electricity or petrol 为并列宾语）。"
+              },
+              {
+                "type": "特殊动名词主动表被动",
+                "content": "need mowing",
+                "explanation": "动词 need 后接动名词 mowing，构成英语经典的“need + v-ing”主动形式表达被动含义的句型（等同于 need to be mowed），生动揭示了天然草坪必须持续耗费人工与机械进行周期性修剪的维护痛点。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "However, supporters of fake grass point out that there is also an environmental impact with natural lawns",
+                "explanation": "辩驳视角重大转折（Counter-argument Shift）。However 标志着论证视角的全面转向，由前两段对假草的声讨转入假草支持阵营的防守反击。支持者通过算“真草的环境账本（修剪耗电耗油）”进行防御，直接成为 Q23 核心定位句，命中答案 B（the disadvantages of growing real grass）。"
               }
             ]
           }
@@ -948,9 +1073,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who lay fake grass tend to use their garden ...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "The industry also points out that real grass requires considerable amounts of water, weed killer or other treatments and that people who lay fake grass tend to use their garden more.",
+                "explanation": "主干为主谓+双重并列宾语从句结构。主语 The industry（假草产业界）；副词 also 表并列递进；谓语动词短语 points out；其后由并列连词 and 连接两个由 that 引导的宾语从句：① that real grass requires...；② and that people... tend to use..."
+              },
+              {
+                "type": "第一宾语从句拆解",
+                "content": "real grass requires considerable amounts of water, weed killer or other treatments",
+                "explanation": "第一宾语从句为主谓宾结构：主语 real grass；谓语动词 requires；宾语由量词短语修饰的并列成分构成：considerable amounts of water（大量的水）、weed killer（除草剂）以及 other treatments（其他化学养护药剂）。"
+              },
+              {
+                "type": "第二宾语从句与定语从句",
+                "content": "that people who lay fake grass tend to use their garden more",
+                "explanation": "第二宾语从句中，主语 people 之后嵌套关系代词 who 引导的限制性定语从句 who lay fake grass（铺设假草的人，who 作主语，lay 为谓语，fake grass 为宾语）；从句主干谓语动词短语为 tend to use（往往更常使用），宾语 their garden，副词 more 作程度状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "requires considerable amounts of water, weed killer ... tend to use their garden more",
+                "explanation": "递进辩护与 Q23 考点支撑。行业继续列举天然草坪耗费大量水资源、依赖除草剂化学喷洒等事实，与前一句共同构建起种植真草的三大缺点（耗能、耗水、化学药剂），彻底支撑 Q23 答案 B（the disadvantages of growing real grass）。"
               }
             ]
           }
@@ -966,9 +1106,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who lay fake grass spend an average of £500 ...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "The industry also claims that people who lay fake grass spend an average of £500 on trees or shrubs for their garden, which provides habitat for insects.",
+                "explanation": "主干为主谓宾（宾语从句）结构。主语 The industry；副词 also 表递进；谓语动词 claims（声称）；that 引导宾语从句。从句主干为主谓宾结构：主语 people；谓语动词 spend；宾语 an average of £500（平均500英镑）；介词短语 on trees or shrubs for their garden 作 spend... on... 的固定搭配状语。"
+              },
+              {
+                "type": "定语从句双重修饰",
+                "content": "people who lay fake grass ... trees or shrubs ... which provides habitat for insects",
+                "explanation": "句子包含两个定语从句：① 限制性定语从句 who lay fake grass 修饰 people，说明对象为铺设假草的业主；② 非限制性定语从句 which provides habitat for insects，先行词指代前面铺设假草后省下钱去购买树木灌木这一整体行为举措，故谓语动词采用单数 provides，宾语 habitat，介词短语 for insects 作限定。"
+              },
+              {
+                "type": "谓语动词感情色彩与搭配",
+                "content": "claims that ... provides habitat for insects",
+                "explanation": "谓语动词使用 claims（声称），透露出作者对行业利益集团单方面说辞的客观距离感；provide habitat for... 为生态学固定搭配，意为“为……提供栖息地”，行业以此论证自己不但不破坏生态反而间接造福昆虫。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "claims that people ... spend £500 on trees or shrubs ... provides habitat for insects",
+                "explanation": "行业自我美化与干扰项破解。行业在此极力辩解铺假草能让业主腾出资金种树从而改善昆虫生态。命题人将其设计为 Q23 的 D 干扰项（将行业自夸“有益栖息地”歪曲为“面临保护挑战”challenges，以偏概全且曲解事实）。"
               }
             ]
           }
@@ -984,9 +1139,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which gathered 30...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "the government responded that it has “no plans to ban the use of artificial grass”.",
+                "explanation": "主干为主谓宾（宾语从句）结构。主语 the government（政府官方）；谓语动词 responded（做出回应）；that 引导宾语从句。从句主干为主谓宾结构：主语代词 it；谓语 has；宾语短语 “no plans to ban the use of artificial grass”（没有禁止使用人造草坪的计划），动词不定式短语 to ban... 作抽象名词 plans 的后置定语。"
+              },
+              {
+                "type": "介词短语与非限制性定语从句",
+                "content": "In response to another petition last year about banning fake lawns, which gathered 30,000 signatures",
+                "explanation": "句首介词短语作背景状语。In response to（针对/响应……）后接名词短语 another petition last year about banning fake lawns；关系代词 which 引导非限制性定语从句修饰 petition，which 在从句中作主语，谓语 gathered，宾语 30,000 signatures（3万个签名），点出官方表态所面临的庞大民意压力。"
+              },
+              {
+                "type": "非谓语动词与介宾限定",
+                "content": "to ban the use of artificial grass",
+                "explanation": "不定式短语 to ban 作 plans 的后置同位定语，介词短语 the use of artificial grass 作 ban 的宾语，字面界定了政府明确拒绝采取的极端一刀切禁令措施。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the government responded that it has “no plans to ban the use of artificial grass”",
+                "explanation": "政府官方定调与 Q24 排除基石。在民间请愿与行业辩驳激战正酣之际，政府以最高仲裁者身份表态“没有禁止计划”，为下文给出折中监管路径定调，直接从根本上排除了 Q24 的 A 选项（敦促立法禁止其使用 Urge legislation to restrict its use）。"
               }
             ]
           }
@@ -1003,8 +1173,23 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "It added: “We prefer to help people and organizations make t...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "It added: “We prefer to help people and organizations make the right choice rather than legislating on such matters.",
+                "explanation": "主干为引述结构：主语代词 It（指代政府部门）；谓语动词 added（补充表示）；引号内直接引语作宾语。直接引语内部主干为主谓宾结构：主语 We；谓语 prefer（更倾向于）；宾语为不定式短语 to help people and organizations make the right choice；后接平行对比短语 rather than legislating on such matters 作对比状语。"
+              },
+              {
+                "type": "宾语补足语与平行对比结构",
+                "content": "help people and organizations make the right choice rather than legislating on such matters",
+                "explanation": "① 动词 help 后接复合宾语 people and organizations 及省略 to 的不定式 make the right choice（help sb. do sth.，充当宾补）；② rather than 引导平行对比状语，后接动名词 legislating 与前面的不定式动作形成政策取向上的鲜明对照（重在引导而非强行立法）。"
+              },
+              {
+                "type": "词汇搭配剖析",
+                "content": "rather than legislating on such matters",
+                "explanation": "legislate 与介词 on 构成固定搭配 legislate on sth.（就某项事务进行专项立法）。政府在此明确否定了立法手段，强调以“帮助人们做出正确选择”的柔性治理机制替代刚性法律制裁。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "prefer to help ... make the right choice rather than legislating on such matters",
+                "explanation": "治理哲学阐释。政府重申克制干预的政策立场，再次在逻辑上击溃 Q24 的 A 选项（敦促立法限制），为句末转折引出“恪守现行生态红线”的平衡法则做好逻辑蓄势。"
               }
             ]
           }
@@ -1020,9 +1205,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "while measures such as the strengthened biodiv...",
-                "explanation": "从属连词 <code>while</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "However, the use of artificial grass must comply with the legal and policy safeguards in place to protect biodiversity and ensure sustainable drainage while measures ... should serve to encourage public authorities to consider sustainable alternatives.”",
+                "explanation": "全句由转折副词 However 开篇，主句后接对比状语从句。主句为主谓宾结构：主语 the use of artificial grass（人造草坪的使用）；情态动词 must 搭配及物动词短语 comply with 构成复合谓语（必须遵守）；宾语 the legal and policy safeguards（法律与政策保障措施），后接形容词短语 in place（现行到位的）作后置定语；while 引导伴随对比状语从句。"
+              },
+              {
+                "type": "动词不定式作目的状语",
+                "content": "to protect biodiversity and ensure sustainable drainage",
+                "explanation": "动词不定式短语作目的状语修饰 safeguards，由 and 连接两个并列动宾短语：to protect biodiversity（保护生物多样性）与 ensure sustainable drainage（确保可持续排水防涝），精准锁定现行法规约束人造草坪的两大核心环保指标。"
+              },
+              {
+                "type": "while 对比状语从句拆解",
+                "content": "while measures such as the strengthened biodiversity duty should serve to encourage public authorities to consider sustainable alternatives",
+                "explanation": "从属连词 while 引导对比伴随状语从句（意为“在……的同时”）。从句主语 measures，介词短语 such as the strengthened biodiversity duty 作举例定语；谓语动词短语 should serve to encourage（应当起到鼓励……的作用）；宾语 public authorities（公共行政机构）；宾语补足语为动词不定式短语 to consider sustainable alternatives（考虑可持续的替代方案）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "must comply with the legal and policy safeguards in place ... consider sustainable alternatives",
+                "explanation": "篇末权威结论与命题终极题眼（Q24正解定位句）。政府虽不专项立法禁止，但敲打提醒所有使用者必须服从现行法律和政策保障规范（comply with safeguards in place），完美同义改写 Q24 答案 C（Remind its users to obey existing rules）。句末“鼓励公共机构考虑替代品”同时排除了 D 选项（偷换主体且夸大动作为全面强制替代 Replace it）。"
               }
             ]
           }
@@ -2417,8 +2617,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "It’s easy to dismiss as absurd the Trump administration’s id...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "It’s easy to dismiss as absurd the Trump administration’s ideas for plugging the chronic funding gap of our national parks.",
+                "explanation": "主干为形式主语搭配宾语后置结构。形式主语代词 It；系动词 is；表语形容词 easy；动词不定式短语 to dismiss... 作真正的主语。在不定式内部，谓语动词 dismiss 后接介词短语 as absurd（视为荒唐荒谬，作宾语补足语），而由于真正宾语 the Trump administration’s ideas for plugging the chronic funding gap of our national parks 较长，为避免头重脚轻进行了尾置（postposition of heavy object）。"
+              },
+              {
+                "type": "长宾语后置与介词短语",
+                "content": "the Trump administration’s ideas for plugging the chronic funding gap of our national parks",
+                "explanation": "名词短语 the Trump administration’s ideas 充当 dismiss 的实际宾语，其后接介词短语 for plugging the chronic funding gap... 作后置功能定语；动名词 plugging（填补）带宾语 the chronic funding gap（长期存在的资金缺口），介词短语 of our national parks 界定缺口所属实体。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "dismiss as absurd the Trump administration’s ideas ... plugging the chronic funding gap",
+                "explanation": "篇首靶子确立与叙事切入（Target Hook）。开篇直接将特朗普政府引入商业化私有化以解决公园财政赤字的想法斥为“荒诞不经（dismiss as absurd）”，确立批判基调，为后文批判营地私有化（Q27）以及引出真实财政解决之道（Q26、Q30）拉开论述大幕。"
               }
             ]
           }
@@ -2435,8 +2645,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Can anyone really think it’s a good idea to allow Amazon del...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Can anyone really think it’s a good idea to allow Amazon deliveries to your tent in Yosemite or food trucks to line up under the redwood trees at Sequoia National Park?",
+                "explanation": "全句为主谓宾反问修辞结构。情态动词 Can + 主语 anyone + 副词 really + 谓语动词 think；其后接省略 that 的宾语从句 it’s a good idea to allow...。从句中 it 为形式主语，系动词 is，表语 a good idea，真正主语为不定式短语 to allow...；allow 后接两个由连词 or 并列的复合宾语结构（allow sb./sth. to do sth.）。"
+              },
+              {
+                "type": "并列复合宾语拆解",
+                "content": "allow Amazon deliveries to your tent ... or food trucks to line up under the redwood trees",
+                "explanation": "① 第一复合宾语：Amazon deliveries（亚马逊外卖配送）为宾语，介词短语 to your tent in Yosemite（到你在优胜美地的帐篷）作地点状语；② 第二复合宾语：food trucks（流动餐车）为宾语，不定式短语 to line up under the redwood trees at Sequoia National Park（在红杉国家公园的红杉树下排起长队）作宾语补足语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Can anyone really think it’s a good idea ... Amazon deliveries ... food trucks",
+                "explanation": "极具讽刺色彩的修辞反问（Rhetorical Question）。通过将“亚马逊外卖送进帐篷”和“餐车开进红杉树林”等荒唐商业入侵具象化，直接揭示商业化对国家公园原始宁静的粗暴践踏，生动伏笔 Q27 题眼（过度商业化私有化将破坏游客体验 spoil visitor experience）。"
               }
             ]
           }
@@ -2453,8 +2673,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But the administration is right about one thing: U.S....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But the administration is right about one thing: U.S.",
+                "explanation": "本句为缩写点导致的断句片段（Sentence Fragment），在句法功能上充当下句主干的引出前提。转折连词 But 表让步转折；主语 the administration（政府）；系动词 is；表语形容词短语 right about one thing（在一件事上是正确的）；冒号用于引出下文解释说明的具体事实；专有名词 U.S. 为下句主语 national parks 的前置专有国家定语。"
+              },
+              {
+                "type": "断句与跨句修饰逻辑",
+                "content": "one thing: U.S. [national parks are in crisis]",
+                "explanation": "因专有名词缩写点（U.S.）被分词算法误切分。冒号后连接下句 SID 3 构成完整的同位语说明从句（即：美国国家公园正深陷危机）。作者在痛斥商业化方案后，客观承认政府所指出的“国家公园危机”这一现实判断确实切中要害。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "But the administration is right about one thing: U.S.",
+                "explanation": "逻辑让步与议题聚焦（Concession）。承接前两句的冷嘲热讽，以 But 进行理性回调，将批判焦点从“荒谬的商业化手段”迅速拉回到“国家公园真实的生存困境”，为下文正式披露 120 亿美元基建危机（Q26）奠定逻辑跳板。"
               }
             ]
           }
@@ -2471,8 +2701,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "national parks are in crisis....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "national parks are in crisis.",
+                "explanation": "本句为接续上句 U.S. 的主干核心陈述句。主语为复数名词 national parks（与上句 U.S. 连为整体：美国国家公园）；系动词 are；表语为介词短语 in crisis（深陷危机之中）。"
+              },
+              {
+                "type": "介词短语作表语",
+                "content": "are in crisis",
+                "explanation": "介词短语 in crisis 作系动词 are 的表语，言简意赅地下达定论，将全美国家公园面临的系统性困境上升至生死存亡的“危机”高度。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "national parks are in crisis",
+                "explanation": "段落核心主旨句（Paragraph Thesis）。用极其斩截有力的主系表短句宣布危机，直接引发下句关于百亿维护积压（maintenance backlog）的事实验证，是全文探讨国家公园基础设施崩溃与资金饥渴（Q26、Q30）的纲领性定调。"
               }
             ]
           }
@@ -2489,8 +2729,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Collectively, they have a maintenance backlog of more than $...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Collectively, they have a maintenance backlog of more than $12 billion.",
+                "explanation": "主干为主谓宾结构。副词 Collectively（统而言之/总计来看）作句首评注性状语；主语代词 they（指代 U.S. national parks）；谓语动词 have；宾语名词短语 a maintenance backlog of more than $12 billion（超过120亿美元的维护欠账/积压），介词短语 of more than $12 billion 作 backlog 的金额限定后置定语。"
+              },
+              {
+                "type": "核心术语剖析",
+                "content": "maintenance backlog of more than $12 billion",
+                "explanation": "名词 backlog 指累积未办的积压工作，maintenance backlog 特指公共资产因长期缺乏维护经费而堆积的维修欠账；数词短语 more than $12 billion 直观展示了财政欠账的极其骇人。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "maintenance backlog of more than $12 billion",
+                "explanation": "命题核心题眼句（Q26正解定位句）。120 亿美元的维护积压是对上句 in crisis 的硬核数据佐证，直接同义对位 Q26 题答案 D（Poorly maintained infrastructure，维护严重不善的基础设施），同时彻底击碎 A 选项（商业利润下滑）与 B 选项（商业化不足）的偷换概念。"
               }
             ]
           }
@@ -2507,8 +2757,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Roads, trails, restrooms, visitor centers and other infrastr...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Roads, trails, restrooms, visitor centers and other infrastructure are crumbling.",
+                "explanation": "主干为主谓结构。主语由五个并列名词构成：Roads（道路）、trails（步道）、restrooms（公共洗手间）、visitor centers（游客中心）以及 other infrastructure（其他基础设施）；谓语动词 are crumbling 为现在进行时（crumble 为不及物动词，意为碎裂、坍塌、崩溃），生动描摹物理设施正在土崩瓦解的进行状态。"
+              },
+              {
+                "type": "并列主语与修辞效果",
+                "content": "Roads, trails, restrooms, visitor centers and other infrastructure",
+                "explanation": "多名词连用排比，从路面步道到卫生间游客中心，全面覆盖公园最基础的公共服务设施；配合不及物动词 crumbling，构成立体画面感，强化危机迫在眉睫的窒息感。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "infrastructure are crumbling",
+                "explanation": "具象论据与 Q26 考点印证。列举道路、公厕和基础设施的破败破损，与上一句的 maintenance backlog 形成“宏观数据+微观惨状”的合力论证，彻底确立 Q26 答案 D（Poorly maintained infrastructure），并排除了 C 选项（将路况破败以偏概全篡改为缺乏交通服务）。"
               }
             ]
           }
@@ -2525,8 +2785,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But privatizing and commercializing the campgrounds would no...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But privatizing and commercializing the campgrounds would not be a cure-all.",
+                "explanation": "主干为主系表结构。转折连词 But 表逻辑转向；主语由 and 连接的两个动名词短语构成：privatizing and commercializing the campgrounds（将露营地私有化和商业化，the campgrounds 为动名词的共同逻辑宾语）；情态动词 would not be 构成系动词短语（绝不会是）；表语 a cure-all（灵丹妙药/万能解药）。"
+              },
+              {
+                "type": "并列动名词作主语",
+                "content": "privatizing and commercializing the campgrounds",
+                "explanation": "privatizing（私有化）与 commercializing（商业化）两个动名词并列作主语，准确点明特朗普政府所开出的政策药方实质；名词 cure-all 带有强烈的否定评价色彩，指出该药方根本无法治愈百亿财政积压的沉疴。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "But privatizing and commercializing ... would not be a cure-all",
+                "explanation": "承上启下转折论点（Transition & Core Thesis）。承接上段指出的基建危机，话锋一转严正反驳私有化方案。既在经济可行性上指出其于事无补，又在后文引出对游客体验的严重破坏，为 Q27 的深度考查奠定核心批驳支点。"
               }
             ]
           }
@@ -2543,8 +2813,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Campgrounds are a tiny portion of the overall infrastructure...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Campgrounds are a tiny portion of the overall infrastructure backlog, and concessionaires in the parks hand over, on average, only about 5% of their revenues to the National Park Service.",
+                "explanation": "全句由并列连词 and 连接两个表事实并列的分句。第一分句为主系表结构：主语 Campgrounds（露营地）；系动词 are；表语 a tiny portion of the overall infrastructure backlog（整体基础设施维护积压中极微小的一部分）。第二分句为主谓宾结构：主语 concessionaires in the parks（公园内的特许经营商，介词短语作后置定语）；谓语动词短语 hand over（上交）；插入语 on average（平均而言）；宾语 only about 5% of their revenues（其营业收入的仅约5%）；介词短语 to the National Park Service（给国家公园管理局）作方向宾语。"
+              },
+              {
+                "type": "插入语与比例限定",
+                "content": "on average, only about 5% of their revenues",
+                "explanation": "插入语 on average 增强数据的统计严密性；副词 only 与介词 about 强化限定，揭示特许商给公园管理局的分成比例低得可怜（仅5%），从经济账本上彻底证明商业化无法填补百亿资金缺口。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "tiny portion ... hand over ... only about 5% of their revenues",
+                "explanation": "经济可行性证伪（Economic Disproof）。从“客体占比微不足道（tiny portion）”和“收益分成极度悬殊（only 5%）”两个维度，用冷酷的财务算账将“私有化解决资金缺口”的幻想砸得粉碎，直接反证商业化方案的破产。"
               }
             ]
           }
@@ -2560,9 +2840,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "why 300 million visitors come to the parks e...",
-                "explanation": "关系词 <code>why</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Moreover, increased privatization would certainly undercut one of the major reasons why 300 million visitors come to the parks each year: to enjoy nature and get a break from the commercial drumbeat that overwhelms daily life.",
+                "explanation": "主干为主谓宾结构。递进副词 Moreover；主语 increased privatization（日益加剧的私有化）；谓语动词短语 would certainly undercut（必定会削弱/毁掉）；宾语 one of the major reasons（主要原因之一）；why 引导定语从句修饰 reasons；冒号后接两个并列不定式短语 to enjoy... and get a break... 作同位解释；that 引导定语从句修饰 drumbeat。"
+              },
+              {
+                "type": "关系副词 why 引导的定语从句",
+                "content": "why 300 million visitors come to the parks each year",
+                "explanation": "关系副词 why 引导限制性定语从句修饰先行词 reasons。从句主语 300 million visitors（3亿游客）；谓语动词 come；介词短语 to the parks 作方向状语；时间状语 each year，展现国家公园无可替代的公众参与度。"
+              },
+              {
+                "type": "同位不定式与关系代词 that 定语从句",
+                "content": "to enjoy nature and get a break from the commercial drumbeat that overwhelms daily life",
+                "explanation": "冒号后由 and 连接两个并列动词不定式：to enjoy nature（享受自然）与 get a break from the commercial drumbeat（从商业喧嚣中得到片刻解脱）；that 引导定语从句修饰先行词 drumbeat，that 在从句中作主语，谓语 overwhelms（压倒/席卷），宾语 daily life。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "increased privatization would certainly undercut ... enjoy nature and get a break from the commercial drumbeat",
+                "explanation": "命题绝对核心题眼句（Q27正解定位句）。作者上升到公共伦理与游客体验层面：私有化将扼杀游客逃离商业喧嚣、拥抱自然的根本诉求。动词 undercut 与 enjoy nature / get a break from drumbeat 完美同义改写 Q27 答案 A（spoil visitor experience，破坏游客游览体验）。"
               }
             ]
           }
@@ -2578,9 +2873,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that the parks have been chronically starved ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "The real problem is that the parks have been chronically starved of funding.",
+                "explanation": "主干为主系表（表语从句）结构。主语 The real problem（真正的问题/症结所在）；系动词 is；从属连词 that 引导表语从句。从句主干为主谓结构（被动语态）：主语 the parks；谓语动词为现在完成时的被动式 have been chronically starved of funding（长期以来严重缺乏资金拨款，starve of sth. 意为使匮乏/剥夺）。"
+              },
+              {
+                "type": "副词与被动语态搭配",
+                "content": "have been chronically starved of funding",
+                "explanation": "副词 chronically（长期慢性地）与比喻色彩浓厚的 starve of funding（被活活饿死/资金极度匮乏）搭配，精准定性国家公园危机的本质并非管理不善或缺乏商业经营，而是公共财政投入的长期严重缺位。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The real problem is that the parks have been chronically starved of funding.",
+                "explanation": "段落核心纲领句（Paragraph Thesis & Root Cause）。承前启后拨乱反正，排除了商业化歧途，直接点破危机的本质根源在于财政“饥渴”。这直接奠定了文末终极结论 Q30 的正解 D（is in need of a funding increase，急需增加拨款）。"
               }
             ]
           }
@@ -2596,9 +2901,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "how U.S....",
-                "explanation": "连接词 <code>how</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "We conducted a comprehensive survey examining how U.S.",
+                "explanation": "本句为专有名词缩写点造成的断句片段（Sentence Fragment），充当下句研究结论的前半部分。主语代词 We（指代作者等学者研究团队）；谓语动词 conducted（实施/执行）；宾语 a comprehensive survey（一项综合调查）；现在分词短语 examining... 作 survey 的后置定语；how 引导宾语从句，U.S. 为下句主语 residents 的前置专有国家限定词。"
+              },
+              {
+                "type": "非谓语分词修饰与跨句从句",
+                "content": "a comprehensive survey examining how U.S. [residents view...]",
+                "explanation": "现在分词 examining 作后置定语修饰 survey；examining 后接 how 引导的宾语从句，由于 U.S. 后附句号导致算法断句，其实际主语 residents 及其谓语 view 完整承接在下句 SID 11 中。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "We conducted a comprehensive survey examining how U.S.",
+                "explanation": "研究实证引入（Empirical Evidence Hook）。作者亮出自身学者身份与同行评议调查，用第一手权威学术调研代替主观空谈，为后文展示全美公众愿意掏钱支持国家公园（Q28）构建科学信用基石。"
               }
             ]
           }
@@ -2614,9 +2929,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that Americans place a very high value on the...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "residents view their national parks, and we found that Americans place a very high value on them—whether or not they actually visit them.",
+                "explanation": "本句承接上句构成宾语从句剩余部分并接续并列主句。前半句 [U.S.] residents view their national parks（居民如何看待国家公园）补全 examining 的宾语从句。并列连词 and 连接主句：主语 we；谓语动词 found；that 引导宾语从句。宾语从句主干为主谓宾介结构：主语 Americans，谓语短语 place a very high value on（高度评价/极度重视），宾语代词 them（国家公园）；破折号后接让步状语从句 whether or not they actually visit them。"
+              },
+              {
+                "type": "让步状语从句与固定短语",
+                "content": "place a very high value on them—whether or not they actually visit them",
+                "explanation": "① place a high value on 为经典固定短语，意为“高度重视/视为无价珍宝”；② whether or not 引导让步状语从句，意为“无论他们是否真正亲自造访”，突出美国公众对国家公园作为国家象征与精神图腾的超越性认同。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Americans place a very high value on them—whether or not they actually visit them",
+                "explanation": "实证核心发现之一（Public Sentiment）。调查证明民众对公园的珍视并不局限于个人功利性的实地旅游消费，而是上升到全民共有遗产的高度，为下文公众甘愿多缴税以保全公园铺垫情感与价值观前提。"
               }
             ]
           }
@@ -2633,8 +2958,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The peer-reviewed economic survey of 700 U.S....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The peer-reviewed economic survey of 700 U.S.",
+                "explanation": "本句为缩写点误切分的断句片段（Sentence Fragment），语法上充当下句主干的主语核心成分。定冠词 The + 复合形容词 peer-reviewed（经过同行严格评审的）+ 形容词 economic + 主语中心词 survey（经济学调查）；介词短语 of 700 U.S. [taxpayers] 作限定后置定语，U.S. 紧密修饰下句名首的 taxpayers。"
+              },
+              {
+                "type": "断句成分与复合形容词",
+                "content": "The peer-reviewed economic survey of 700 U.S. [taxpayers]",
+                "explanation": "复合形容词 peer-reviewed 表明该项调查经过学术界最为严苛的同行匿名评审，具备最高等级的统计信度与学术权威性；of 700 U.S. 与下句 taxpayers 共同构成容量明确的纳税人抽样样本群体。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The peer-reviewed economic survey of 700 U.S.",
+                "explanation": "方法论科学性背书（Methodological Rigor）。再次以同行评议的学术权威性强化论据的说服力，确保接下来的“意愿支付（willingness to pay）”调查数据具有不可撼动的政策参考价值。"
               }
             ]
           }
@@ -2650,9 +2985,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that people would be willing to pay a signifi...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "taxpayers, conducted by mail and internet, also found that people would be willing to pay a significant amount of money to make sure the parks and their programs are kept intact.",
+                "explanation": "本句承接上句补全主干。主语补全为 The peer-reviewed economic survey of 700 U.S. taxpayers；过去分词短语 conducted by mail and internet 作后置方式定语；副词 also 表递进；谓语动词 found；that 引导宾语从句。从句主干为主系表结构：主语 people；谓语 would be willing to pay（愿意支付）；宾语 a significant amount of money（一大笔钱）；不定式短语 to make sure... 作目的状语。"
+              },
+              {
+                "type": "过去分词后置定语与目的从句",
+                "content": "conducted by mail and internet ... to make sure the parks and their programs are kept intact",
+                "explanation": "① 过去分词短语 conducted by... 表被动，修饰主语 survey，交代调查执行渠道（邮寄与网络）；② 动词不定式 to make sure 后接省略 that 的宾语从句 the parks and their programs are kept intact（确保公园及其项目保持完好无损），其中 are kept intact 为被动语态搭配形容词补足语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "people would be willing to pay a significant amount of money to make sure the parks ... are kept intact",
+                "explanation": "关键调研定论与 Q28 铺垫。明确指出民众不仅口头赞美，而且在经济行为上愿意自掏腰包（willing to pay a significant amount）来维护国家公园的完整性，直接为下一句抛出 81% 的惊人具体征税支持率做足事实铺垫。"
               }
             ]
           }
@@ -2669,8 +3014,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Some 81% of respondents said they would be willing to pay ad...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Some 81% of respondents said they would be willing to pay additional taxes for the next 10 years to avoid any cuts to the national parks.",
+                "explanation": "主干为主谓宾（宾语从句）结构。主语为百分比短语 Some 81% of respondents（受访者中约81%的人，副词 some 意为“大约”）；谓语动词 said；省略 that 的宾语从句 they would be willing to pay... 作宾语。从句主干为主谓宾结构：主语 they；谓语动词短语 would be willing to pay（愿意支付）；宾语 additional taxes（额外税款）；时间状语 for the next 10 years（在未来10年里）；不定式短语 to avoid any cuts to the national parks（以避免对国家公园的任何削减）作目的状语。"
+              },
+              {
+                "type": "目的不定式与固定短语",
+                "content": "to avoid any cuts to the national parks",
+                "explanation": "动词不定式 to avoid any cuts 作目的状语；名词 cuts 意为预算削减/经费裁减，介词短语 to the national parks 界定削减的对象实体，指明民众主动承担税赋的崇高动机是守护国家公园免遭经费砍杀。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "81% of respondents said they would be willing to pay additional taxes for the next 10 years",
+                "explanation": "命题核心题眼句（Q28正解定位句）。逾八成（81%）受访者愿意连续10年多交税支持公园，这一铁证直接命中 Q28 答案 C（agree to pay extra for the national parks，同意为国家公园额外掏钱），并粉碎了 A（经常去逛公园）与 D（支持近期改革）等干扰项。"
               }
             ]
           }
@@ -2687,8 +3042,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The national parks provide great value to U.S....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The national parks provide great value to U.S.",
+                "explanation": "本句为缩写点引发的断句片段（Sentence Fragment），充当下句主干的主语与谓语部分。主语 The national parks（国家公园）；谓语动词 provide（提供）；宾语 great value（巨大价值）；介词 to 引出接受对象，专有名词 U.S. 与下句开头的名词 residents 共同构成完整的介宾实体 U.S. residents（美国居民）。"
+              },
+              {
+                "type": "断句与及物动词搭配",
+                "content": "provide great value to U.S. [residents]",
+                "explanation": "运用 provide sth. to sb.（向某人提供某物）的标准搭配。由于 U.S. 后附句号被算法误识别为句末，其接受主体名词 residents 完整置于下句 SID 16 句首。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The national parks provide great value to U.S.",
+                "explanation": "段落主题总领（Paragraph Hook）。开篇升华立意，从前文单纯的“民调愿不愿意掏钱”跃升至全方位总结国家公园赋予全美社会的多元深层价值，为后文展开自然、教育、气候与历史文化价值（Q29）奠定主旨纲领。"
               }
             ]
           }
@@ -2705,8 +3070,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "residents both as places to escape and as symbols of nature....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "residents both as places to escape and as symbols of nature.",
+                "explanation": "本句接续上句补全介词短语与平行修饰。名词 residents 补全上句介词 to 的宾语；后接由 both ... and ... 连接的两个并列介词短语作补足语与身份修饰：both as places to escape（既作为逃离世俗喧嚣的去处）and as symbols of nature（又作为大自然的象征图腾）。"
+              },
+              {
+                "type": "平行结构与不定式后置定语",
+                "content": "both as places to escape and as symbols of nature",
+                "explanation": "both... and... 引导完美对称的介词短语；名词 places 后接不定式 to escape 作后置定语，精准表达国家公园在现代快节奏社会中所扮演的精神避风港与生态象征双重价值。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "places to escape and as symbols of nature",
+                "explanation": "核心价值凝练。与第3段中“get a break from the commercial drumbeat”形成遥相呼应，强调公园对于现代公众心灵抚慰与人与自然联结的不可替代性。"
               }
             ]
           }
@@ -2723,8 +3098,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "On top of this, they produce value from their extensive educ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "On top of this, they produce value from their extensive educational programs, their positive impact on the climate through carbon sequestration, their contribution to our cultural and artistic life, and of course through tourism.",
+                "explanation": "主干为主谓宾结构。介词短语 On top of this（除此之外）作句首递进状语；主语代词 they（国家公园）；谓语动词 produce；宾语 value；其后由介词 from/through 引出四个宏大的多重价值来源排比列举。"
+              },
+              {
+                "type": "四重并列介词短语与专业术语",
+                "content": "from their extensive educational programs, their positive impact on the climate through carbon sequestration, their contribution to our cultural and artistic life, and of course through tourism",
+                "explanation": "价值来源四重排比：① their extensive educational programs（广泛的自然科普教育项目）；② their positive impact on the climate through carbon sequestration（通过碳固存对全球气候产生的积极影响，carbon sequestration 为生态固碳专业术语）；③ their contribution to our cultural and artistic life（对国民文化与艺术生活的贡献）；④ and of course through tourism（当然还有旅游业经济拉动）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "extensive educational programs ... carbon sequestration ... cultural and artistic life",
+                "explanation": "全方位价值延展（Multidimensional Merits）。作者层层加码，将国家公园从单一的游览胜地升维为融合科普教育、生态固碳、文艺繁荣和旅游经济的复合超级国家公共品，为下一句进一步强调其国家历史记忆价值做足蓄水。"
               }
             ]
           }
@@ -2741,8 +3126,23 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The parks also help keep America’s past alive, working with ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The parks also help keep America’s past alive, working with thousands of local jurisdictions around the country to protect historical sites—including Ellis Island and Gettysburg—and to bring the stories of these places to life.",
+                "explanation": "主干为主谓宾补结构。主语 The parks；副词 also 表并列；谓语动词短语 help keep；宾语 America’s past（美国过去的岁月历史）；形容词 alive 作宾语补足语（keep sth. alive 使……永存鲜活）；现在分词短语 working with... 作伴随方式状语。"
+              },
+              {
+                "type": "伴随分词与并列目的不定式",
+                "content": "working with thousands of local jurisdictions ... to protect historical sites—including Ellis Island and Gettysburg—and to bring the stories of these places to life",
+                "explanation": "① 现在分词短语 working with... 表主动伴随；② 其后接由 and 连接的两个并列不定式短语作目的状语：to protect historical sites（保护历史遗迹，破折号插入语 including Ellis Island and Gettysburg 举例说明埃利斯岛移民遗址与葛底斯堡古战场遗迹）与 to bring the stories of these places to life（让这些地方的历史故事生动再现/重焕生机）。"
+              },
+              {
+                "type": "成语搭配与修辞",
+                "content": "keep America’s past alive ... bring ... to life",
+                "explanation": "keep sth. alive 与 bring sth. to life 形成绝妙的互文对仗修辞，生动刻画出国家公园管理局作为美国集体历史记忆守护者的神圣使命。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "keep America’s past alive ... protect historical sites—including Ellis Island and Gettysburg",
+                "explanation": "命题核心题眼句（Q29正解定位句）。明确指出公园守护历史遗址、让历史故事重焕生机，完美同义对应 Q29 答案 B（have historical significance，具有重大的历史意义），同时排除 A（引领旅游业）、C（资助气候研究）等无中生有选项。"
               }
             ]
           }
@@ -2759,8 +3159,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The parks do all this on a shoestring....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The parks do all this on a shoestring.",
+                "explanation": "主干为主谓宾结构。主语 The parks；谓语动词 do；代词宾语 all this（指代前文所有庞大复杂的公共服务与历史文化保护职能）；介词短语 on a shoestring 作方式状语，意为“依靠极少的微薄预算/过着紧巴巴的日子”。"
+              },
+              {
+                "type": "习惯习语剖析",
+                "content": "on a shoestring",
+                "explanation": "英语经典习语 on a shoestring 意为“以极其有限的微薄资金经营”。作者用极度精炼传神的语言，将国家公园承担的巨大公共价值与捉襟见肘的财务窘境形成悬殊反差。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The parks do all this on a shoestring.",
+                "explanation": "段落转折与逻辑收束过渡句（Transition）。承接上文铺陈的无可估量的多重国家价值，用短促有力的单句骤然转折，揭开其令人心酸的经费窘状，直接引申出下文国会拨款冻结二十年的冷酷现实（Q30）。"
               }
             ]
           }
@@ -2776,14 +3186,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "since 2001 (in inflation-adjusted dollars) wit...",
-                "explanation": "从属连词 <code>since</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Congress allocates only $3 billion a year to the national park system—an amount that has been flat since 2001 (in inflation-adjusted dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package.",
+                "explanation": "主干为主谓宾介结构。主语 Congress（美国国会）；谓语动词 allocates（拔款/分配）；宾语 only $3 billion a year（每年仅仅30亿美元）；介词短语 to the national park system（给国家公园系统）；破折号后接同位语名词短语 an amount... 对 30 亿美元进行深度定性说明。"
               },
               {
-                "type": "名词性从句",
-                "content": "that has been flat since 2001 (in inflation-a...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "同位语与定语从句拆解",
+                "content": "an amount that has been flat since 2001 (in inflation-adjusted dollars) with the exception of a onetime boost in 2009 as part of the Obama stimulus package",
+                "explanation": "① an amount 作 $3 billion 的同位语；② that 引导定语从句修饰 amount，从句谓语 has been flat（一直持平/零增长），时间状语 since 2001，括号内 in inflation-adjusted dollars 表明是按剔除通胀后的可比价格计算；③ 介词短语 with the exception of...（除……之外）作例外修饰，指出仅在2009年奥巴马经济刺激计划中有过一次性短暂追加。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "allocates only $3 billion ... flat since 2001 ... in need of a funding increase",
+                "explanation": "命题核心题眼句（Q30正解直接支撑点）。国会二十余年来拨款陷入实际零增长，与庞大维护需求形成巨大鸿沟，直接推导并彻底确立 Q30 答案 D（is in need of a funding increase，迫切需要增加经费拨款）。"
               }
             ]
           }
@@ -2799,9 +3214,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "since 1980...",
-                "explanation": "从属连词 <code>since</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Meanwhile, the number of annual visitors has increased by more than 50% since 1980, and now stands at 330 million visitors per year.",
+                "explanation": "全句由时间副词 Meanwhile（与此同时）开启，由并列连词 and 连接两个并列谓语。主语为 The number of annual visitors（每年游客的数量，中心词为 number，谓语动词使用单数）；第一谓语为现在完成时 has increased by more than 50% since 1980（自1980年以来激增逾50%）；第二谓语为一般现在时 now stands at 330 million visitors per year（目前稳定在每年3.3亿人次，stand at 意为达到/位于某一数字水平）。"
+              },
+              {
+                "type": "介词搭配与数据对比",
+                "content": "has increased by more than 50% ... stands at 330 million visitors per year",
+                "explanation": "① increase by 接增幅百分比（增长了逾50%）；② stand at 接具体总量数据（高达3.3亿游客），与上一句国会拨款长达20年的停滞不前（flat since 2001）构成极其惊心动魄的剪刀差强对比。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Meanwhile, the number of annual visitors has increased by more than 50% ... stands at 330 million",
+                "explanation": "全文终极对照与题眼收束（Final Climax & Q30 Conclusion）。一边是游客体量激增50%、年客流高达3.3亿人次的重压，另一边是经费预算停滞、基础设施崩溃的绝境。这一鲜明剪刀差直接呼应文章主旨，彻底排除了 Q30 的 A/B 项（公园根本无法应对人员短缺或满足游客需求），最终铁证定论 Q30 正解 D（急需增加拨款）。"
               }
             ]
           }
@@ -4088,9 +4513,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "what we remember...",
-                "explanation": "连接词 <code>what</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "The Internet may be changing merely what we remember, not our capacity to do so, suggests Columbia University psychology professor Betsy Sparrow.",
+                "explanation": "主干为引述倒装结构。引号内宾语分句主干为主谓宾结构：主语 The Internet；谓语 may be changing 为“情态动词+现在进行时”，表达极具审慎色彩的推测；副词 merely（仅仅）修饰宾语；宾语由连接代词 what 引导的名词性从句 what we remember 与否定并列成分 not our capacity to do so 构成对比。引述主句采用完全倒装：谓语动词 suggests 置于主语 Columbia University psychology professor Betsy Sparrow（哥伦比亚大学心理学教授贝特西·斯帕罗）之前。"
+              },
+              {
+                "type": "宾语从句与不定式修饰",
+                "content": "merely what we remember, not our capacity to do so",
+                "explanation": "① what 引导宾语从句，并在从句中充当 remember 的逻辑宾语，指代记忆的具体信息内容；② not our capacity to do so 为否定并列短语，不定式短语 to do so 作 capacity 的后置定语，替代 to remember things，形成“改变的是记忆对象，而非记忆机能本身”的精妙哲学对立。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "changing merely what we remember, not our capacity to do so",
+                "explanation": "篇首核心主旨句（Thesis Hook）。斯帕罗教授开宗明义推翻“互联网摧毁大脑记忆力”的通俗恐慌，指出技术仅仅重塑了记忆分配模式而非损伤记忆能力。本句直接奠定 Q31 题眼（转换记忆重心 switch its focus of memory）并确立 Q35 正解（斯帕罗坚决否认记忆衰退 weakening our memory）。"
               }
             ]
           }
@@ -4106,9 +4541,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which participants were asked to record 40 fac...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "In 2011, Sparrow led a study in which participants were asked to record 40 factoids in a computer (“an ostrich’s eye is bigger than its brain,” for example).",
+                "explanation": "主干为主谓宾结构。句首时间状语 In 2011；主语 Sparrow；谓语动词 led（领导/主持）；宾语 a study（一项研究）；介词+关系代词 in which 引导定语从句修饰 study；从句中采用被动语态复合谓语 were asked to record（被要求记录），40 factoids 为 record 的宾语；括号内为同位举例说明。"
+              },
+              {
+                "type": "“介词+关系代词”定语从句",
+                "content": "in which participants were asked to record 40 factoids in a computer",
+                "explanation": "介词 in + 关系代词 which 引导限制性定语从句修饰先行词 study，并在从句中充当地点状语（即 in the study）。从句主语 participants（实验参与者），谓语 were asked，不定式短语 to record 40 factoids in a computer 作主语补足语（ask sb. to do sth. 的被动形式）。"
+              },
+              {
+                "type": "同位语与专业词汇",
+                "content": "40 factoids ... (“an ostrich’s eye is bigger than its brain,” for example)",
+                "explanation": "名词 factoid 指琐碎趣味的小知识点。括号内引用“鸵鸟眼睛比脑子还大”作为具体实验记忆材料的同位举例，使严谨的认知心理学实验设计生动具象化。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Sparrow led a study in which participants were asked to record 40 factoids",
+                "explanation": "科学实验事实引入（Methodological Setup）。作者通过展示具体的严密实验设计，为证明人类大脑记忆机制的动态适应性提供无可挑剔的实证科学基石，为后文 Q31、Q32 的推导提供数据起点。"
               }
             ]
           }
@@ -4124,9 +4574,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "while the other half were told it would be sav...",
-                "explanation": "从属连词 <code>while</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Half of the participants were told the information would be erased, while the other half were told it would be saved.",
+                "explanation": "全句由从属连词 while 引导对比分句。前半句为主谓+双宾（被动）结构：主语 Half of the participants（半数参与者）；谓语 were told（被告知）；省略 that 的宾语从句 the information would be erased 作直接宾语。while 引导对比分句：主语 the other half（另一半参与者）；谓语 were told；省略 that 的宾语从句 it would be saved 作直接宾语。"
+              },
+              {
+                "type": "while 对比从句与被动虚拟",
+                "content": "while the other half were told it would be saved",
+                "explanation": "连词 while 在此表示强烈的对照对比关系（意为“而另一半则……”）；两个分句中的 would be erased 与 would be saved 均为过去将来时的被动语态，严格控制实验中的 A/B 对照变量（预期数据被删除 VS 预期数据被永久留存）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Half ... would be erased, while the other half ... would be saved",
+                "explanation": "对照组实验设计（Controlled Experiment）。通过巧妙操纵受试者对“计算机会否保存数据”的预期，检验外部技术存储预期如何倒逼大脑调整其认知资源分配，为下一句引出颠覆性实验结论做好精巧铺垫。"
               }
             ]
           }
@@ -4143,8 +4603,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Guess what?...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Guess what?",
+                "explanation": "全句为口语化祈使修辞问句。动词原形 Guess 作祈使句谓语动词；疑问代词 what 作 Guess 的宾语，意为“你猜怎么着？”。"
+              },
+              {
+                "type": "口语句式与修辞",
+                "content": "Guess what?",
+                "explanation": "作者打破传统学术论文的刻板叙述，借用极富悬念感和互动性的日常修辞反问，瞬间抓住读者的注意力，制造强烈的戏剧性停顿与期待视野。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Guess what?",
+                "explanation": "叙事悬念转折锚点（Narrative Pivot）。承接上文的 A/B 组实验对比，在此短促发问，如同聚光灯骤然亮起，直引下文揭晓令人震惊的认知实验结果。"
               }
             ]
           }
@@ -4160,14 +4630,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when quizzed on it later...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "The latter group made no effort to recall the information when quizzed on it later, because they knew they could find it on their computers.",
+                "explanation": "主干为主谓宾结构。主语 The latter group（后一组，即被告知信息会保存的组）；谓语动词短语 made no effort（毫不费力/完全不做努力）；不定式短语 to recall the information 作 effort 的后置定语；when 引导时间状语从句；because 引导原因状语从句。"
               },
               {
-                "type": "状语从句",
-                "content": "because they knew they could find it on their co...",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "省略时间状语从句与原因从句",
+                "content": "when quizzed on it later, because they knew they could find it on their computers",
+                "explanation": "① when quizzed on it later 为时间状语从句的省略形式（补全为 when they were quizzed on it later，quiz sb. on sth. 意为就某事对某人进行测验提问）；② because 引导原因状语从句，从句主语 they，谓语 knew，后接省略 that 的宾语从句 they could find it on their computers，直击受试者的心理认知依据。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "made no effort to recall ... because they knew they could find it on their computers",
+                "explanation": "核心实证发现一（Selective Cognitive Conservation）。证实了人类大脑遵循“认知经济原则”：一旦确认外部设备能够稳定储存数据，大脑便会主动关闭低效的死记硬背机制，为下文定义“认知卸载（cognitive offloading）”提供首要实验支撑。"
               }
             ]
           }
@@ -4184,8 +4659,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In the same study, a group was asked to remember both the in...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "In the same study, a group was asked to remember both the information and the folders it was stored in.",
+                "explanation": "主干为主谓补结构（被动语态）。句首介词短语 In the same study 作环境状语；主语 a group（一组受试者）；谓语动词为被动语态 was asked（被要求）；动词不定式短语 to remember... 作主语补足语；remember 后接由 both ... and ... 连接的并列宾语。"
+              },
+              {
+                "type": "并列宾语与介词悬置定语从句",
+                "content": "both the information and the folders it was stored in",
+                "explanation": "① both the information（事实信息本身）与 the folders（存放信息的文件夹位置）构成双重记忆任务；② the folders 之后紧跟省略关系代词 that/which 的限制性定语从句 it was stored in，从句主语 it，谓语 was stored，介词 in 悬置于句尾，限定文件夹是信息的物理储存载体。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "remember both the information and the folders it was stored in",
+                "explanation": "进阶实验任务引入。通过让受试者同时追踪“内容本身”与“存储路径”，测试大脑在信息超载时代对“事实记忆”与“索引记忆”的优先级选择，直接铺垫下句的决定性发现（Q31）。"
               }
             ]
           }
@@ -4201,9 +4686,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "how to find the folders....",
-                "explanation": "连接词 <code>how</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "They didn’t remember the information, but they remembered how to find the folders.",
+                "explanation": "全句由并列转折连词 but 连接两个对称主谓宾分句。前一分句：主语 They；谓语 didn’t remember；宾语 the information。后一分句：主语 they；谓语 remembered；宾语为“疑问词+不定式”短语 how to find the folders（如何找到文件夹路径）。"
+              },
+              {
+                "type": "“疑问副词+不定式”作宾语",
+                "content": "how to find the folders",
+                "explanation": "how to find the folders 结构在句中充当及物动词 remembered 的宾语，将抽象的“信息检索路径与索引能力”提炼为精准的语法结构，与前半句中遗忘的具体事实（the information）构成极其锐利的认知对比。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "didn’t remember the information, but they remembered how to find the folders",
+                "explanation": "命题核心题眼句（Q31正解定位句）。实验结果表明受试者记不住具体信息，却牢牢记住了检索信息的路径。这一实证发现直接同义对位 Q31 答案 C（switch its focus of memory，大脑转换了记忆的重心焦点：从死记内容转向记忆索引路径）。"
               }
             ]
           }
@@ -4220,8 +4715,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In other words, human memory is not deteriorating but “adapt...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "In other words, human memory is not deteriorating but “adapting to new communications technology,” Sparrow says.",
+                "explanation": "主干为引述结构：主语 Sparrow；谓语动词 says；直接引语作为宾语。引述句内部为主干为主系表/进行时结构：介词短语 In other words（换言之）作总结状语；主语 human memory（人类记忆力）；谓语由 not ... but ... 连接两个并列现在分词：is not deteriorating（并没有在恶化退化）but “adapting to new communications technology”（而是在主动适应新的通信技术）。"
+              },
+              {
+                "type": "not... but... 核心对仗结构",
+                "content": "not deteriorating but “adapting to new communications technology”",
+                "explanation": "not... but... 引导强烈的破立对照结构：破除大众对记忆恶化（deteriorating）的偏见，树立动态进化与技术共生（adapting）的科学定性；现在分词短语充实了适应的具体对象（新的通信技术）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "human memory is not deteriorating but “adapting to new communications technology”",
+                "explanation": "学者权威科学定论与 Q35 题眼。斯帕罗教授亲口定性人类记忆绝非在退化（not deteriorating），直接成为 Q35 正解 B（Neither Sparrow nor Storm would agree that the Internet is weakening our memory，两人绝不同意互联网削弱了人类记忆力）的核心实证支柱。"
               }
             ]
           }
@@ -4238,8 +4743,23 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In a very practical way, the Internet is becoming an externa...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "In a very practical way, the Internet is becoming an external hard drive for our memories, a process known as “cognitive offloading.” Traditionally, this role was fulfilled by data banks, libraries, and other humans.",
+                "explanation": "本句由两处独立命题的严谨语意单元复合而成。第一句为主系表结构：方式状语 In a very practical way；主语 the Internet；谓语 is becoming；表语 an external hard drive for our memories（我们记忆的外接硬盘）；后接逗号同位语名词短语 a process...。第二句为主谓宾结构（被动语态）：时间状语 Traditionally；主语 this role（这一角色）；谓语动词短语 was fulfilled by（由……来履行）；宾语并列名词 data banks, libraries, and other humans（数据库、图书馆和其他人）。"
+              },
+              {
+                "type": "同位语与过去分词修饰",
+                "content": "a process known as “cognitive offloading”",
+                "explanation": "名词短语 a process 作前述整句隐喻事实的同位语；过去分词短语 known as “cognitive offloading”（被称为“认知卸载”的过程）作后置定语，精确定义了当代认知神经科学的核心术语。"
+              },
+              {
+                "type": "比喻修辞与历时对比",
+                "content": "an external hard drive for our memories ... Traditionally, this role was fulfilled by...",
+                "explanation": "将互联网精妙比喻为人类记忆的“外接硬盘（external hard drive）”；副词 Traditionally 开启历史维度，揭示“外包记忆”古已有之（图书馆、熟人网络），破除技术虚无主义恐慌。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "an external hard drive for our memories, a process known as “cognitive offloading”",
+                "explanation": "命题核心题眼句（Q32正解定位句）。“外接硬盘”与“认知卸载”直击人类将机械记忆压力外包分流的本质，直接同义对应 Q32 答案 D（lessens our memory burdens，减轻了我们的记忆负担），同时排除干扰项 A/B/C。"
               }
             ]
           }
@@ -4255,9 +4775,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "because your mother does...",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Your father may never remember birthdays because your mother does, for instance.",
+                "explanation": "主干为主谓宾结构。插入语 for instance 作举例说明；主语 Your father；情态动词 may 搭配频度副词 never 与谓语动词 remember 构成谓语短语；宾语 birthdays；从属连词 because 引导原因状语从句。"
+              },
+              {
+                "type": "原因状语从句与替代动词 does",
+                "content": "because your mother does",
+                "explanation": "because 引导原因状语从句，从句主语 your mother，谓语动词 does 为代动词（pro-verb），完全替代了 remembers birthdays，用极简的语法避免了语意重复。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Your father may never remember birthdays because your mother does",
+                "explanation": "生活化通俗例证（Everyday Analogy）。以家庭中父亲依赖母亲记生日的微观生活场景，生动诠释了社会心理学中的“交互记忆系统（transactive memory）”，证明认知卸载自古根植于人类社交分工，绝非互联网带来的洪水猛兽。"
               }
             ]
           }
@@ -4273,9 +4803,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that this is having a destructive effect on s...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Some worry that this is having a destructive effect on society, but Sparrow sees an upside.",
+                "explanation": "全句由并列连词 but 连接两个表观点转折的分句。前一分句为主谓宾（宾语从句）结构：不定代词 Some（有些人）作主语；谓语动词 worry；that 引导宾语从句。从句主干为主谓宾介结构：主语 this，谓语 is having，宾语 a destructive effect，介词短语 on society 作限定。后一分句为主谓宾结构：主语 Sparrow；谓语动词 sees；宾语 an upside（积极正向的一面）。"
+              },
+              {
+                "type": "转折对比与反义意群",
+                "content": "destructive effect on society, but Sparrow sees an upside",
+                "explanation": "but 构筑起强烈的思想对立：一方是主流文化悲观论者所担忧的“对社会的毁灭性冲击（destructive effect）”，另一方是斯帕罗教授以专业理性洞察到的“正面积极契机（upside）”，为下文引出认知升华蓄势。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Some worry ... but Sparrow sees an upside.",
+                "explanation": "语篇重大转折枢纽（Turning Point）。从大众对记忆退化的集体焦虑，骤然切换到科学家对技术赋能教育的乐观审视，直接引出下一句关于学习方式革命的划时代预言（Q33）。"
               }
             ]
           }
@@ -4291,9 +4831,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that is not available on the Internet....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "the trend will change our approach to learning from a focus on individual facts and memorization to an emphasis on more conceptual thinking— something that is not available on the Internet.",
+                "explanation": "主干为主谓宾搭配动态介词结构。副词 Perhaps 开篇；插入语 she suggests 标明学者观点；主语 the trend（这一时代趋势）；谓语 will change；宾语 our approach to learning（我们的学习方式）；from... to... 介词短语修饰变革方向；破折号后接名词 something 作同位语；that 引导定语从句。"
+              },
+              {
+                "type": "from... to... 动态对比与同位语定语从句",
+                "content": "from a focus on individual facts and memorization to an emphasis on more conceptual thinking— something that is not available on the Internet",
+                "explanation": "① from A to B 精准刻画认知模式的范式跃迁：从“聚焦于单个孤立事实与死记硬背（focus on facts and memorization）”转向“强调更多概念性高阶思维（emphasis on more conceptual thinking）”；② something 为 conceptual thinking 的同位语，that 引导限制性定语从句修饰 something，说明这种高阶概念思维正是互联网机器无法代替的人类专属智慧。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "change our approach to learning ... to an emphasis on more conceptual thinking",
+                "explanation": "命题核心题眼句（Q33正解定位句）。明确指出互联网使人类从低维度事实死记中解放出来，全面革新学习方法，投身概念性深度思考，直接命中 Q33 答案 A（It may reform our learning approach，改革我们的学习方法）。"
               }
             ]
           }
@@ -4309,9 +4859,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that much intellectual value in memorizing th...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "“I personally have never seen all that much intellectual value in memorizing things,” Sparrow says, adding that we haven’t lost our ability to do it.",
+                "explanation": "主干为引述结构：主语 Sparrow；谓语动词 says；引号内直接引语作宾语；现在分词短语 adding... 作伴随补充状语。直接引语主干为主谓宾结构：主语 I；副词 personally 作修饰；谓语 have never seen；宾语 all that much intellectual value（那么多智力价值）；介词短语 in memorizing things 作范围状语。"
+              },
+              {
+                "type": "现在分词伴随与宾语从句",
+                "content": "adding that we haven’t lost our ability to do it",
+                "explanation": "现在分词短语 adding that... 作伴随状语，that 引导宾语从句。从句主干为主谓宾结构：主语 we；谓语动词为现在完成时 haven’t lost（并未丧失）；宾语 our ability；动词不定式 to do it 作后置定语修饰 ability，it 指代 memorizing things。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "haven’t lost our ability to do it",
+                "explanation": "学者核心态度再次确立与 Q35 考点呼应。斯帕罗重申死记硬背并无太高智力价值，更关键的是我们并未丧失记忆能力（haven't lost our ability），再次为 Q35 正解 B（绝不同意记忆力被削弱）提供铁壁支撑。"
               }
             ]
           }
@@ -4327,9 +4887,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "how the Internet affects our brains....",
-                "explanation": "连接词 <code>how</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Still other experts say it’s too soon to understand how the Internet affects our brains.",
+                "explanation": "主干为主谓宾（宾语从句）结构。主语 Still other experts（还有其他专家）；谓语动词 say；省略 that 的宾语从句 it’s too soon to understand... 作宾语。从句内部为形式主语结构：形式主语 it；系动词 is；表语形容词短语 too soon（为时尚早）；真正的逻辑主语为动词不定式短语 to understand...；understand 后接 how 引导的宾语从句。"
+              },
+              {
+                "type": "形式主语与 how 引导的宾语从句",
+                "content": "it’s too soon to understand how the Internet affects our brains",
+                "explanation": "it 作形式主语，真实主语 to understand 后接连接副词 how 引导的宾语从句。从句主语 the Internet，谓语 affects，宾语 our brains，直陈目前科学界对互联网如何塑造人类大脑这一宏大命题仍处于初期探索阶段。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Still other experts say it’s too soon to understand how the Internet affects our brains.",
+                "explanation": "命题核心题眼句（Q34正解定位句）。“现在下结论为时尚早（too soon to understand）”体现了科学界严谨求实的态度，直接同义推导命中 Q34 答案 A（requires further academic research，需要进一步学术研究）。"
               }
             ]
           }
@@ -4345,9 +4915,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that it interferes with  our ability to focus...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "There is no experimental evidence showing that it interferes with our ability to focus, for instance, wrote psychologists Christopher Chabris and Daniel J.",
+                "explanation": "本句为缩写点误断的引述倒装句前半部分。引述内容为 there be 存在句：There is no experimental evidence（尚无确凿的实验证据）；现在分词短语 showing that... 作 evidence 的后置定语；插入语 for instance。引述主句采用谓语前置：谓语动词 wrote 置于复合主语 psychologists Christopher Chabris and Daniel J. [Simons] 之前。"
+              },
+              {
+                "type": "现在分词与定语从句/宾语从句",
+                "content": "showing that it interferes with our ability to focus",
+                "explanation": "现在分词 showing 作后置定语，that 引导宾语从句。从句主语 it（指代网络科技），谓语动词短语 interferes with（干扰/妨碍），宾语 our ability to focus（我们集中专注力的能力），不定式 to focus 作 ability 的后置定语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "There is no experimental evidence showing that it interferes with our ability to focus",
+                "explanation": "学术辟谣与 Q34 支撑。两位知名心理学家明确指出“网络破坏专注力”目前没有任何实验证据支持，再次支撑了 Q34 中“尚无定论、亟待进一步研究（requires further academic research）”的学术结论。"
               }
             ]
           }
@@ -4364,8 +4944,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Simons....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Simons.",
+                "explanation": "本句为专有名词缩写点（Daniel J.）导致的孤立断句片段（Sentence Fragment），语法上完整补全上句主语心理学家的姓氏，与上句末尾的 Daniel J. 共同构成知名学者专有名词 Daniel J. Simons（丹尼尔·J·西蒙斯，著名心理学教授、“隐形猩猩”实验设计者）。"
+              },
+              {
+                "type": "专有名词补全",
+                "content": "Daniel J. Simons",
+                "explanation": "跨句连贯：上句末尾 Christopher Chabris and Daniel J. 与本句 Simons 形成学术界传奇合作搭档（《大猩猩游戏》作者），为上句关于缺乏专注力破坏证据的论点提供顶尖学术背书。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Daniel J. Simons",
+                "explanation": "权威引用闭环。确保学者引述主体的完整严谨，强化对互联网负面偏见的科学批驳力度。"
               }
             ]
           }
@@ -4382,8 +4972,23 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "And surfing the web exercised the brain more than reading di...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "And surfing the web exercised the brain more than reading did among computer-savvy older adults in a 2008 study involving 24 participants at the Semel Institute for Neuroscience and Human Behavior at the University of California, Los Angeles.",
+                "explanation": "主干为主谓宾+比较级结构。并列连词 And 承接上文；主语为动名词短语 surfing the web（网上冲浪/浏览网络）；谓语动词 exercised（锻炼了）；宾语 the brain；比较级短语 more than reading did（比单纯阅读更能锻炼）；介词短语 among computer-savvy older adults（在精通电脑的老年人中）；后接时间与机构介词短语及分词修饰。"
+              },
+              {
+                "type": "比较状语从句与现在分词短语",
+                "content": "more than reading did ... involving 24 participants",
+                "explanation": "① reading did 为比较从句，did 为代动词替代 exercised the brain，指出网络交互对认知负荷的调动超过了单向静态阅读；② 现在分词短语 involving 24 participants 作 study 的后置定语，其后介词短语层层限定实验地点在加利福尼亚大学洛杉矶分校塞梅尔神经科学与人类行为研究所。"
+              },
+              {
+                "type": "复合形容词析义",
+                "content": "computer-savvy older adults",
+                "explanation": "复合形容词 computer-savvy（精通电脑技术的，savvy 意为懂行的/有见识的）精准限定实验样本的人口学特征，突显人机交互行为对老年神经认知塑造的特殊积极效益。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "surfing the web exercised the brain more than reading did",
+                "explanation": "神经科学反向硬核例证（Neuroscientific Evidence）。用加州大学脑神经实验直接颠覆“上网让人变蠢”的粗糙直觉，证明多任务网络搜索能更强力地激活神经突触与大脑机能，为彻底驳斥记忆退化论（Q35）提供神经解剖学底气。"
               }
             ]
           }
@@ -4399,9 +5004,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that overall the benefits are going to outwei...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "“There may be costs associated with our increased reliance on the Internet, but I’d have to imagine that overall the benefits are going to outweigh those costs,” observes psychology professor Benjamin Storm.",
+                "explanation": "主干为引述倒装结构：谓语动词 observes（评论道/指出）；主语 psychology professor Benjamin Storm。引述句内部由转折连词 but 连接两个分句。第一分句为 there be 存在句：There may be costs associated with...。第二分句为主谓宾（宾语从句）结构：主语 I；谓语短语 would have to imagine；that 引导宾语从句，从句主语 the benefits，谓语 are going to outweigh（将超过），宾语 those costs。"
+              },
+              {
+                "type": "过去分词短语与宾语从句",
+                "content": "costs associated with our increased reliance on the Internet ... the benefits are going to outweigh those costs",
+                "explanation": "① 过去分词短语 associated with... 作 costs 的后置定语，说明依赖网络可能伴生某种成本代价；② but 引出转折，动词 outweigh（在重量/价值上压倒超过）生动定性技术利弊权衡：综合来看收益远大于代价。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "benefits are going to outweigh those costs",
+                "explanation": "学者宏观定论与 Q35 绝杀依据。心理学教授斯托姆在权衡成本与收益后坚定指出“整体收益必将压倒成本”，与前文斯帕罗教授的论述交相辉映，共同封死了 Q35 答案 B（斯帕罗和斯托姆绝不会同意“互联网正在削弱我们的记忆力”）。"
               }
             ]
           }
@@ -4417,9 +5032,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that memory is changing...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "“It seems pretty clear that memory is changing, but is it changing for the better?",
+                "explanation": "本句为引述直接引语的前半部分，包含两个分句。第一分句为形式主语结构：形式主语 It；系动词 seems；表语形容词短语 pretty clear；that 引导真正的主语从句 that memory is changing。转折连词 but 连接第二分句：现在进行时一般疑问句 is it changing for the better?（它是在向着更好的方向改变吗？，for the better 为介词短语作状语）。"
+              },
+              {
+                "type": "主语从句与对比疑问",
+                "content": "It seems pretty clear that memory is changing, but is it changing for the better?",
+                "explanation": "主语从句 that memory is changing 确认记忆改变的事实不可逆转；后半句以修辞疑问句展开终极思辨，将讨论从“有没有变”升华到“变好还是变坏”的价值研判高度。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "memory is changing, but is it changing for the better?",
+                "explanation": "行文收尾处的高阶哲学叩问。既承认记忆形式的翻天覆地，又对价值评判保持崇高的求索警醒，为文末给出的诚实科学回答留出悬念。"
               }
             ]
           }
@@ -4436,8 +5061,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "At this point, we don’t know.”...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "At this point, we don’t know.”",
+                "explanation": "主干为主谓结构。时间介词短语 At this point（在当下这一时间节点）作状语；主语人称代词 we；谓语动词为否定形式 don’t know（我们并不知道）。"
+              },
+              {
+                "type": "时间状语与极简句式",
+                "content": "At this point, we don’t know.",
+                "explanation": "介词短语 At this point 精准限定了人类认知认知的历史阶段性；极简的主谓结构掷地有声，展现出真正科学家在庞大认知革命面前不妄下断语的诚恳与审慎。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "At this point, we don’t know.",
+                "explanation": "全文开放式终局与科学求实精神（Open Ending）。以“我们尚不清楚”平实收官，与第3段中“现在下结论为时尚早（too soon to understand）”首尾呼应，再次强化了 Q34 核心立论（requires further academic research，仍需学术界长期深耕探索）。"
               }
             ]
           }
@@ -5732,8 +6367,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Teenagers are paradoxical....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Teenagers are paradoxical.",
+                "explanation": "主干为主系表极简断论结构。主语复数名词 Teenagers（青少年）；系动词 are；表语形容词 paradoxical（充满矛盾的/自相矛盾的）。"
+              },
+              {
+                "type": "修辞与词汇析义",
+                "content": "paradoxical",
+                "explanation": "形容词 paradoxical 指事物自身包含相互对立、看似不可调和的特质。作者以此开门见山定性青少年群体双重冲突的性格本质，构筑起贯穿全文的认知主线。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Teenagers are paradoxical.",
+                "explanation": "全文开篇主旨立论句（Thesis Hook）。以极其精悍的三词短句破空而来，一语道破青少年的矛盾复杂性，直接锁定全文终极主旨大意题 Q40 的正解 A（Why teenagers are self-contradictory，探究为何青少年如此自相矛盾）。"
               }
             ]
           }
@@ -5749,9 +6394,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that parents often express with considerably ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "That’s a mild and detached way of saying something that parents often express with considerably stronger language.",
+                "explanation": "主干为主系表结构。指示代词 That（指代上句“青少年是矛盾的”这一表述）作主语；系动词 ’s；表语名词短语 a mild and detached way of saying something（一种温和而超脱客观的说法），介词短语 of saying something 作 way 的定语；that 引导限制性定语从句修饰先行词 something。"
+              },
+              {
+                "type": "定语从句与比较修辞",
+                "content": "that parents often express with considerably stronger language",
+                "explanation": "that 在定语从句中充当 express 的宾语。从句主语 parents，频度副词 often，谓语 express，介词短语 with considerably stronger language 作方式状语。副词 considerably（相当大地）修饰比较级 stronger，诙谐暗示现实中父母对子女叛逆抓狂时用词之严厉。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "mild and detached way ... parents often express with considerably stronger language",
+                "explanation": "生活化幽默调侃（Conversational Irony）。用学术上的“委婉客观（mild and detached）”与现实中父母的“咬牙切齿（stronger language）”形成绝妙对照，拉近读者心理距离，为下句引出严谨的脑科学实证做好轻松铺垫。"
               }
             ]
           }
@@ -5768,8 +6423,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But the paradox is scientific as well as personal....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But the paradox is scientific as well as personal.",
+                "explanation": "主干为主系表结构。转折连词 But 表视角跃升；主语 the paradox（这一悖论）；系动词 is；表语由并列连词短语 as well as 连接两个并列形容词：scientific as well as personal（既是个人层面的，更是科学层面的）。"
+              },
+              {
+                "type": "as well as 平行表语结构",
+                "content": "scientific as well as personal",
+                "explanation": "as well as 构成重心在前者（scientific）的并列结构，将讨论场域从家庭日常牢骚（personal）正式引渡升华为认知神经科学与发展心理学的学术课题（scientific）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "But the paradox is scientific as well as personal.",
+                "explanation": "语篇枢纽跃迁句（Epistemological Shift）。由生活调侃切换到严肃科研，明确宣告青少年的自相矛盾不是教养失败的“个人悲剧”，而是具有深刻脑科学机制的必然发展阶段，直接开启下文科研成果的阐释。"
               }
             ]
           }
@@ -5785,9 +6450,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who have relied on grown- ups for just about...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "In adolescence, helpless and dependent children ... become independent people who can take care of themselves and help each other.",
+                "explanation": "主干为主系表结构。时间状语 In adolescence（在青春期）；主语由形容词并列修饰的名词短语 helpless and dependent children（无助且依附成人的儿童）；who 引导定语从句修饰 children；谓语/系动词 become；表语 independent people；who 引导定语从句修饰 people。"
+              },
+              {
+                "type": "定语从句双重对仗拆解",
+                "content": "children who have relied on grown-ups ... people who can take care of themselves and help each other",
+                "explanation": "① 第一定语从句 who have relied on grown-ups for just about everything（几乎凡事仰仗成年人），交代童年期的绝对依附状态；② 第二定语从句 who can take care of themselves and help each other（能够自理并互帮互助），展现成长为独立个体的飞跃，两个 who 从句构成对称的人生阶段蜕变链条。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "helpless and dependent children ... become independent people ... help each other",
+                "explanation": "矛盾第一面（积极向善的一面）。展现青少年走向独立、学会照顾自己并展现互助精神的成熟蜕变，与下一句的“叛逆冒险”共同拼凑出青少年截然对立的双面人格，直接成为 Q36 题眼定位的上半部分。"
               }
             ]
           }
@@ -5804,8 +6479,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "At the  same time, once cheerful and compliant children beco...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "At the same time, once cheerful and compliant children become rebellious teenage risk-takers.",
+                "explanation": "主干为主系表结构。时间对比状语 At the same time（与此同时）；主语 once cheerful and compliant children（曾经开朗顺从的孩子，时间副词 once 作定语修饰形容词 cheerful and compliant）；系动词 become；表语 rebellious teenage risk-takers（叛逆冒险的青少年）。"
+              },
+              {
+                "type": "修饰对比与复合名词",
+                "content": "once cheerful and compliant children become rebellious teenage risk-takers",
+                "explanation": "once cheerful and compliant（昔日听话乖巧）与 rebellious teenage risk-takers（如今叛逆冒险）在词义和情感色彩上形成鲜明对冲；复合词 risk-takers 直击青少年寻求感官刺激、挑战权威的行为标签。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "At the same time ... become rebellious teenage risk-takers",
+                "explanation": "命题核心题眼句（Q36正解定位句）。At the same time 将本句的“叛逆冒险（rebellious risk-takers）”与上一句的“互助独立（independent and help each other）”强力拼接，证明进入青春期的孩子展现出截然相反的性格特征，完美命中 Q36 答案 A（develop opposite personality traits，形成相反的性格特征）。"
               }
             ]
           }
@@ -5821,9 +6506,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that the positive and negative sides of teena...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "A new study ... suggests that the positive and negative sides of teenagers go hand in hand.",
+                "explanation": "主干为主谓宾（宾语从句）结构。主语 A new study（一项新研究）；过去分词短语 published... 与介词短语 by... 作其后置定语；谓语动词 suggests（表明/指出）；that 引导宾语从句。从句主干为主谓结构：主语 the positive and negative sides of teenagers（青少年的积极面与消极面）；谓语动词短语 go hand in hand（携手并进/如影随形）。"
+              },
+              {
+                "type": "过去分词后置定语与专业成语",
+                "content": "published in the journal Child Development, by Eveline Crone of the University of Leiden and colleagues ... go hand in hand",
+                "explanation": "① 过去分词短语 published in the journal Child Development 交代成果刊发在权威期刊《儿童发展》；② 介词短语 by... 标明荷兰莱顿大学伊芙琳·克龙团队的主持者身份；③ 经典习语 go hand in hand 传神地定性了青少年的美德与叛逆是同一枚硬币的正反两面、不可割裂。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "positive and negative sides of teenagers go hand in hand",
+                "explanation": "全篇科研核心论点（Core Research Hypothesis）。克龙团队正式提出“正向品质与负向行为相伴共生”的革命性命题，统领全文科研实证（Q37、Q38）并再次夯实主旨题 Q40 的矛盾共生主线。"
               }
             ]
           }
@@ -5840,8 +6535,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The study is part of a new wave of thinking about adolescenc...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The study is part of a new wave of thinking about adolescence.",
+                "explanation": "主干为主系表结构。主语 The study（该项研究）；系动词 is；表语名词短语 part of a new wave of thinking about adolescence（关于青春期全新思潮的一部分），介词短语 of a new wave... 作 part 的限定定语。"
+              },
+              {
+                "type": "比喻修辞与学术思潮",
+                "content": "a new wave of thinking about adolescence",
+                "explanation": "运用比喻名词 a new wave（一波新浪潮/全新思潮），介词短语 about adolescence 限定思潮的学术范畴，表明该研究并非孤立偶得，而是代表着国际发展心理学界范式转换的前沿旗帜。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "part of a new wave of thinking about adolescence",
+                "explanation": "命题核心题眼句（Q37正解定位句）。“新思潮的一部分（part of a new wave of thinking）”直接同义替换 Q37 答案 C（provides a new insight into adolescence，为理解青春期提供了崭新的洞见），打破了陈旧认知。"
               }
             ]
           }
@@ -5857,9 +6562,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that teenagers were a problem that needed to ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "For a long time, scientists and policy makers concentrated on the idea that teenagers were a problem that needed to be solved.",
+                "explanation": "主干为主谓宾结构。时间状语 For a long time；并列主语 scientists and policy makers（科学家与政策制定者）；谓语动词短语 concentrated on（聚焦于/全神贯注于）；宾语 the idea；that 引导同位语从句解释 idea；从句内又包含 that 引导的定语从句修饰 problem。"
+              },
+              {
+                "type": "同位语从句与定语从句双重嵌套",
+                "content": "the idea that teenagers were a problem that needed to be solved",
+                "explanation": "① 第一 that 引导同位语从句，从句主干为 teenagers were a problem（青少年是个麻烦/病态问题）；② 第二 that 引导限制性定语从句修饰先行词 problem，从句谓语为被动不定式 needed to be solved（需要被纠治解决），精准刻画传统“赤字模型”将青春期视作病态的偏狭视角。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "concentrated on the idea that teenagers were a problem that needed to be solved",
+                "explanation": "历史旧认知反衬（Historical Backdrop & Foil）。揭示旧观念将青少年病态化、视为社会治理麻烦的局限性，与下一句的“充满机遇（time of opportunity）”形成强烈的新旧认知对照，反衬出 Q37“新洞见”的颠覆性价值。"
               }
             ]
           }
@@ -5875,9 +6590,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that adolescence is a time of opportunity as ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "The new work emphasizes that adolescence is a time of opportunity as well as risk.",
+                "explanation": "主干为主谓宾（宾语从句）结构。主语 The new work（这一新研究成果）；谓语动词 emphasizes（着重强调）；that 引导宾语从句。从句主干为主系表结构：主语 adolescence（青春期）；系动词 is；表语 a time of opportunity as well as risk（一个机遇与风险并存的黄金时期）。"
+              },
+              {
+                "type": "as well as 对称修饰表语",
+                "content": "a time of opportunity as well as risk",
+                "explanation": "介词短语 of opportunity as well as risk 修饰中心词 time，通过 as well as 将“机遇（opportunity）”与“风险（risk）”紧密并置，彰显新思潮将青春期重新定性为蕴藏无限可塑性与社会潜能的关键窗口期。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "adolescence is a time of opportunity as well as risk",
+                "explanation": "新思潮核心内涵凝练。明确宣布青春期不仅有风险更孕育着不可限量的发展机遇，再次从正面夯实 Q37 答案 C（provides a new insight into adolescence），并彻底破除将青少年污名化的陈腐论调。"
               }
             ]
           }
@@ -5894,8 +6619,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The researchers studied “prosocial” and rebellious traits in...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The researchers studied “prosocial” and rebellious traits in more than 200 children and young adults, ranging from 11 to 28 years old.",
+                "explanation": "主干为主谓宾结构。主语 The researchers（研究人员）；谓语动词 studied（研究）；宾语由引号并列名词构成：“prosocial” and rebellious traits（“亲社会”与叛逆特质）；介词短语 in more than 200 children and young adults 作受试群体状语；现在分词短语 ranging from... 作后置定语修饰受试对象。"
+              },
+              {
+                "type": "现在分词短语与年龄跨度",
+                "content": "ranging from 11 to 28 years old",
+                "explanation": "现在分词短语 ranging from... 作非谓语后置定语，不及物动词 range 与介词 from 搭配，交代受试群体横跨 11 岁到 28 岁（涵盖童年、青春期与成年早期），体现横向跨年龄发展研究的科学严谨性。"
+              },
+              {
+                "type": "专业概念与语篇考点",
+                "content": "studied “prosocial” and rebellious traits",
+                "explanation": "实验变量正式亮相。首次引入认知发展心理学核心概念“亲社会特质（prosocial traits）”，为展开下文关于亲社会行为发生规律的探讨（Q38）打下方法论基础。"
               }
             ]
           }
@@ -5911,9 +6646,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "how often they did things that were altruist...",
-                "explanation": "连接词 <code>how</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "The participants filled out questionnaires about how often they did things that were altruistic and positive ... or rebellious and negative...",
+                "explanation": "主干为主谓宾结构。主语 The participants（受试者）；谓语动词短语 filled out（填写）；宾语 questionnaires（调查问卷）；介词 about 引出宾语从句 how often they did things...；things 之后接由连词 or 并列的两组由 that 引导的定语从句与介词举例短语。"
+              },
+              {
+                "type": "宾语从句与双重举例结构",
+                "content": "how often they did things that were altruistic and positive, like sacrificing their own interests to help a friend, or rebellious and negative, like getting drunk or staying out late",
+                "explanation": "① how often 引导频度宾语从句；② 第一组修饰：that were altruistic and positive（利他且正向的），介词 like 引出动名词短语 sacrificing their own interests to help a friend（牺牲个人利益以帮助朋友）；③ 第二组修饰：or rebellious and negative（叛逆且负面的），like 引出并列动名词 getting drunk or staying out late（酗酒或夜不归宿）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "sacrificing their own interests to help a friend ... getting drunk or staying out late",
+                "explanation": "行为指标具象化操作定义（Operational Definitions）。研究团队通过极具反差的实际行为清单，将抽象的利他亲社会与叛逆冒险转化为可测量的量化数据，展示出青少年行为天平两端的剧烈摇摆。"
               }
             ]
           }
@@ -5929,9 +6674,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that rebellious behavior increases as you bec...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Other studies have shown that rebellious behavior increases as you become a teenager and then fades away as you grow older.",
+                "explanation": "主干为主谓宾（宾语从句）结构。主语 Other studies（其他过往研究）；谓语动词为现在完成时 have shown；that 引导宾语从句。从句主干为主谓并列结构：主语 rebellious behavior（叛逆行为）；第一谓语 increases（上升）；时间状语从句 as you become a teenager；第二谓语 fades away（消退）；时间状语从句 as you grow older。"
+              },
+              {
+                "type": "时间状语从句与倒 U 型曲线动词",
+                "content": "increases as you become a teenager and then fades away as you grow older",
+                "explanation": "从属连词 as 两次引导时间伴随从句（随着……）；动词 increases 与短语 fades away 通过 then 衔接，精准拟合了青少年心理学中经典的“倒 U 型发展曲线”（青春期登顶，成年后自然回落）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "rebellious behavior increases as you become a teenager and then fades away",
+                "explanation": "已知常识基准锚定（Baseline Knowledge）。以学术界公认的叛逆行为发展轨迹作为对照基线，为下文引出新研究令人拍案叫绝的发现（亲社会行为竟完全遵循同一轨迹！）做足反衬蓄势。"
               }
             ]
           }
@@ -5948,8 +6703,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But the new study shows that, interestingly, the same patter...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But the new study shows that, interestingly, the same pattern holds for prosocial behavior.",
+                "explanation": "主干为主谓宾（宾语从句）结构。转折连词 But 开启重大发现；主语 the new study；谓语动词 shows；that 引导宾语从句；插入语副词 interestingly（有趣的是）；从句主干为主谓宾/介结构：主语 the same pattern（同样的模式/发展规律）；谓语动词短语 holds for（同样适用于）；宾语 prosocial behavior（亲社会利他行为）。"
+              },
+              {
+                "type": "短语搭配与副词修饰",
+                "content": "interestingly, the same pattern holds for prosocial behavior",
+                "explanation": "① 评注性副词 interestingly 标示作者与科学界对这一反直觉规律的惊喜震撼；② 动词短语 hold for 意为“适用于/在……同样成立”，指出亲社会利他行为竟然与叛逆行为完全同步：在青春期剧烈飙升，成年后逐步消退！"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the same pattern holds for prosocial behavior",
+                "explanation": "命题绝对核心题眼句（Q38正解定位句）。将上一句关于叛逆行为“increases in teenage and fades away older”的模式无缝投射到亲社会行为上，直接命中 Q38 答案 D（It tends to peak in adolescence，亲社会行为往往在青春期达到峰值顶点）。"
               }
             ]
           }
@@ -5965,9 +6730,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that they did things like unselfishly help a ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Teenagers were more likely than younger children or adults to report that they did things like unselfishly help a friend.",
+                "explanation": "主干为主系表结构。主语 Teenagers；系动词 were；表语形容词比较级短语 more likely than younger children or adults（比低龄儿童或成年人更有可能）；动词不定式短语 to report... 作 likely 的后置补足语；that 引导宾语从句，从句主干为 they did things，介词短语 like unselfishly help a friend 作举例定语。"
+              },
+              {
+                "type": "比较结构与不定式补足语",
+                "content": "more likely than younger children or adults to report...",
+                "explanation": "more likely than... to do sth. 构成经典比较范式。比较对象覆盖了整个年龄带的另外两端（低龄儿童与成熟成人），实证数据以无可辩驳的显著性差异印证了青少年在利他互助维度的非凡巅峰表现。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Teenagers were more likely than younger children or adults to report that they did things like unselfishly help a friend.",
+                "explanation": "极值事实铁证（Empirical Zenith）。明确证实青春期无论对比童年还是成年，都是利他奉献倾向最强烈的黄金时期，彻底坐死 Q38 答案 D（peak in adolescence）的事实基础。"
               }
             ]
           }
@@ -5984,8 +6759,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Most significantly, there was a positive correlation between...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Most significantly, there was a positive correlation between prosociality and rebelliousness.",
+                "explanation": "主干为 there be 存在句型。最高级评注状语 Most significantly（最重要的是/最具标志性意义的是）；引导词 there；系动词 was；主语 a positive correlation（正相关关联）；介词短语 between prosociality and rebelliousness（在亲社会性与叛逆性之间）作 correlation 的限定定语。"
+              },
+              {
+                "type": "统计学核心术语",
+                "content": "a positive correlation between prosociality and rebelliousness",
+                "explanation": "positive correlation 为统计学专业术语“正相关”，表明在统计分布上，个体的亲社会得分越高，其叛逆冒险得分亦相应同步走高，从数理模型上彻底证实两者的共生一体关系。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "there was a positive correlation between prosociality and rebelliousness",
+                "explanation": "科研终极结论（Statistical Core）。将此前零散的观察上升为严密的统计正相关，直接击碎“叛逆就是坏孩子、顺从才是好少年”的二元对立偏见，为解释全篇主旨 Q40（青少年的自相矛盾性）提供最高数理支撑。"
               }
             ]
           }
@@ -6001,9 +6786,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who were more rebellious were also more like...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "The teenagers who were more rebellious were also more likely to help others.",
+                "explanation": "主干为主系表结构。主语 The teenagers；who 引导限制性定语从句修饰 teenagers；系动词 were；副词 also 表并列；表语形容词短语 more likely to help others（更有可能帮助他人）。"
+              },
+              {
+                "type": "定语从句与双重比较级对应",
+                "content": "who were more rebellious were also more likely to help others",
+                "explanation": "定语从句 who were more rebellious（更加叛逆的）与主句表语 more likely to help others（更倾向于助人为乐的）形成“越叛逆越热心肠”的对称镜像结构，用最通俗易懂的日常句式还原了复杂的统计正相关。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "more rebellious were also more likely to help others",
+                "explanation": "悖论反常识落地（Counter-intuitive Reality）。直观揭示出“越反叛规训的少年，越容易舍身救助他人”，将青春期矛盾性格的戏剧张力推向极点，强化 Q36 与 Q40 的认知震撼度。"
               }
             ]
           }
@@ -6020,8 +6815,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The good and bad sides of adolescence seem to develop togeth...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The good and bad sides of adolescence seem to develop together.",
+                "explanation": "主干为主系表/动词不定式复合结构。主语 The good and bad sides of adolescence（青春期的好与坏两面）；谓语动词 seem（似乎/表现出）；动词不定式短语 to develop together（共同发育演化）作主语补足语/表语。"
+              },
+              {
+                "type": "并列主语与副词修饰",
+                "content": "The good and bad sides ... develop together",
+                "explanation": "The good and bad sides 并列作主语，涵盖道德维度的正面利他与负面冒险；副词 together 修饰不及物动词 develop，强调二者在脑神经发育与心理发展历程中如影随形、协同演进。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The good and bad sides of adolescence seem to develop together.",
+                "explanation": "上半篇章阶段性理论收束（Section Summary）。对前文实验事实与正相关结论作出高度凝练，完美呼应第2段第1句中 go hand in hand 的假说，同时为下文追问深层神经驱动机制（Q39、Q40）铺设问答跳板。"
               }
             ]
           }
@@ -6037,9 +6842,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that underlies these apparently contradictory...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Is there some common factor that underlies these apparently contradictory developments?",
+                "explanation": "全句为 there be 句型的一般疑问句。系动词 Is 提前至句首；引导词 there；主语 some common factor（某种共同的潜在因素）；that 引导限制性定语从句修饰先行词 factor。"
+              },
+              {
+                "type": "定语从句与及物动词 underly",
+                "content": "that underlies these apparently contradictory developments",
+                "explanation": "that 在定语从句中充当主语，及物动词 underlies 意为“作为……的基础/深层根源”；宾语 these apparently contradictory developments（这些表面上相互矛盾的发展表象）；副词 apparently 精准指出矛盾仅仅是表象，背后必有统一的底层生理或认知逻辑。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Is there some common factor that underlies these apparently contradictory developments?",
+                "explanation": "机制探索转折发问（Structural Inquiry）。从“现象描述（是什么）”深入跃迁到“机制溯源（为什么）”，这个关键设问直接引领全文进入解释为什么青少年如此矛盾（Q40）的核心机制解密环节。"
               }
             ]
           }
@@ -6055,9 +6870,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that teenage behavior is related to what rese...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "One idea is that teenage behavior is related to what researchers call “reward sensitivity.” Decision-making always involves balancing rewards and risks, benefits and costs.",
+                "explanation": "本句由两处紧密关联的命题句式复合而成。第一句为主系表（表语从句）结构：主语 One idea（一种理论解释）；系动词 is；that 引导表语从句。表语从句内部主干为 teenage behavior is related to...，介词 to 后接 what 引导的宾语从句。第二句为主谓宾结构：主语 Decision-making（决策过程）；频度副词 always；谓语动词 involves（包含）；动名词短语 balancing rewards and risks, benefits and costs 作宾语。"
+              },
+              {
+                "type": "what 名词性从句与动名词复合宾语",
+                "content": "what researchers call “reward sensitivity” ... balancing rewards and risks",
+                "explanation": "① what 在从句中充当 call 的宾语补足语（即 call [what] “reward sensitivity”），正式引出核心理论概念“奖励敏感性”；② balancing 后接两组并列名词短语：rewards and risks（回报与风险）与 benefits and costs（收益与成本），剖析人类神经决策的博弈本质。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "related to what researchers call “reward sensitivity”",
+                "explanation": "深层神经生物学机制揭晓。给出了破解青少年自相矛盾之谜的终极钥匙——“奖励敏感性（reward sensitivity）”，为下文剖析青少年为何甘愿冒巨大风险去博取社交认同（Q39）奠定理论根基。"
               }
             ]
           }
@@ -6073,9 +6898,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "how much reward it takes to outweigh risk....",
-                "explanation": "连接词 <code>how</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "“Reward sensitivity” measures how much reward it takes to outweigh risk.",
+                "explanation": "主干为主谓宾（宾语从句）结构。主语专有名词短语 “Reward sensitivity”（奖励敏感性）；谓语动词 measures（衡量/度量）；连接代词短语 how much reward 引导宾语从句。从句内部为形式主语结构：形式主语代词 it；谓语动词 takes（需要耗费）；真正主语为动词不定式短语 to outweigh risk（压倒风险）；how much reward 作 takes 的逻辑宾语。"
+              },
+              {
+                "type": "形式主语与及物动词 outweigh",
+                "content": "how much reward it takes to outweigh risk",
+                "explanation": "运用 It takes [sth.] to do sth. 经典句型；及物动词 outweigh 意为“在重量/价值上超过/压倒”，科学界定了奖励敏感性的物理测量意义：即大脑需要感知到多少额度的奖赏诱惑，才足以激发出压倒潜在风险的行动冲动。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "measures how much reward it takes to outweigh risk",
+                "explanation": "量化模型定义（Operational Formula）。将复杂的心理冲动抽象为精密的风险收益博弈模型，揭示青少年冒险与利他背后的共同神经算力算法，为解释社交奖赏的狂热（Q39）做足铺垫。"
               }
             ]
           }
@@ -6091,9 +6926,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that boy to notice you....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Teenagers are particularly sensitive to social rewards—winning the game, impressing a new friend, getting that boy to notice you.",
+                "explanation": "主干为主系表结构。主语 Teenagers；系动词 are；表语形容词短语 particularly sensitive to social rewards（对社交层面的奖励尤为敏感，副词 particularly 作程度修饰）；破折号后接三个并列的动名词短语作 social rewards 的具体同位解释。"
+              },
+              {
+                "type": "三重同位动名词短语拆解",
+                "content": "winning the game, impressing a new friend, getting that boy to notice you",
+                "explanation": "同位语排比剖析：① winning the game（在比赛中获胜夺冠）；② impressing a new friend（给刚认识的新朋友留下深刻印象）；③ getting that boy to notice you（让心仪的男孩注意到自己，使役动词 get sb. to do sth. 搭配）。生动展现青少年最渴望的社会认同形态。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "particularly sensitive to social rewards—winning the game, impressing a new friend...",
+                "explanation": "命题核心题眼句（Q39正解定位句）。明确揭示青少年对“同伴赞许、社交地位、群体认同”等社交奖励具有极高的神经敏感度，直接同义对位 Q39 答案 B（care a lot about social recognition，极其在乎社会认同），并排除了 A/C/D 项。"
               }
             ]
           }
@@ -6110,8 +6955,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Reward sensitivity, like prosocial behavior and risk-taking,...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Reward sensitivity, like prosocial behavior and risk-taking, seems to go up in adolescence and then down again as we age.",
+                "explanation": "主干为主系表/动词不定式复合结构。主语 Reward sensitivity；介词短语 like prosocial behavior and risk-taking（如亲社会行为与冒险行为一样）作插入状语；谓语动词 seems；不定式短语 to go up in adolescence and then down again 作表语；时间状语从句 as we age。"
+              },
+              {
+                "type": "插入对比与省略对称不定式",
+                "content": "like prosocial behavior and risk-taking ... to go up ... and then [go] down again",
+                "explanation": "① 介词短语 like... 将三大变量并置锁定；② to go up 与省略 go 的 down again 形成完美的动态起伏对称，精准对应前文多次出现的“青春期跃升、成年后回落”的倒 U 型发育轨迹。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Reward sensitivity, like prosocial behavior and risk-taking, seems to go up in adolescence and then down again",
+                "explanation": "全篇理论逻辑大一统（Grand Synthesis）。作者将“奖励敏感性”、“利他互助”与“叛逆冒险”三者的神经发育轨迹完全统一在大脑奖赏回路的发育节律之中，为解答全文总题目 Q40（Why teenagers are self-contradictory）完成了无懈可击的闭环论证。"
               }
             ]
           }
@@ -6127,9 +6982,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when you hit 30...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Somehow, when you hit 30, the chance that something exciting and new will happen at that party just doesn’t seem to outweigh the effort of getting up off the couch.",
+                "explanation": "全句由副词 Somehow（不知怎么搞的）开启。时间状语从句 when you hit 30；主句主干为主系表结构：主语 the chance（机会/可能性）；that 引导同位语从句解释 chance；副词 just；谓语动词短语 doesn’t seem to outweigh（似乎无法压倒超过）；宾语 the effort of getting up off the couch（从沙发上爬起来所费的力气）。"
+              },
+              {
+                "type": "同位语从句与动名词短语",
+                "content": "that something exciting and new will happen at that party ... the effort of getting up off the couch",
+                "explanation": "① that 引导同位语从句说明 chance 的具体内容，从句主语不定代词 something，后置形容词 exciting and new 作修饰，谓语 will happen，地点状语 at that party；② 介词 of 后接动名词短语 getting up off the couch 作 effort 的限定定语，用诙谐的生活写实描摹成年人社交渴望的断崖式暴跌。"
+              },
+              {
+                "type": "幽默比照与语篇考点收官",
+                "content": "chance that something exciting ... doesn’t seem to outweigh the effort of getting up off the couch",
+                "explanation": "全文风趣收官与成人视角反衬（Humorous Closure）。以“三十岁成年人宁愿窝在沙发也不想去派对社交”的经典众生相，幽默反衬出青少年体内那股由于极高“奖励敏感性”而激发的旺盛冲动与矛盾生命力，在欢声笑语中为探究青少年矛盾性格成因（Q40）画上完美句号。"
               }
             ]
           }

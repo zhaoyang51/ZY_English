@@ -784,8 +784,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Rats and other animals need to be highly attuned to social s...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Rats and other animals need to be highly attuned to social signals from others",
+                "explanation": "主干为主谓宾结构。主语为并列名词短语 Rats and other animals（大鼠与其他动物）；谓语动词 need 为一般现在时；不定式短语 to be highly attuned to social signals from others 作 need 的宾语，其中 attuned 为形容词化过去分词，be attuned to 为固定搭配，意为“对……适应、对……敏感”，介词短语 from others 作后置定语。"
+              },
+              {
+                "type": "状语从句与定语修饰",
+                "content": "so they can identify friends to cooperate with and enemies to avoid",
+                "explanation": "so (that) 引导目的状语从句，表达动物适应社交信号的生物学目的；从句中 they 作主语，can identify 作谓语，宾语由两个并列名词短语构成：friends to cooperate with 与 enemies to avoid，两个动词不定式短语分别作后置定语，介词 with 不可省略。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Rats and other animals need to be highly attuned to social signals ... identify friends ... and enemies to avoid",
+                "explanation": "篇首常识铺垫。开篇提出群居动物识别社交信号的生存演化本能（辨识合作同伴与规避天敌），为下文将此能力延伸至“非生物机器同伴”设立基准参照。Q21 干扰项 B（distinguish friends from enemies）即直接抓取本句已有常识设套，偷换了实验真正探究的未知变量。"
               }
             ]
           }
@@ -801,14 +811,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "if this extends to non- living beings...",
-                "explanation": "从属连词 <code>if</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Laleh Quinn at the University of California, San Diego, and her colleagues tested whether rats can detect social signals from robotic rats",
+                "explanation": "主干为主谓宾复合结构。主语为并列名词短语 Laleh Quinn... and her colleagues，介词短语 at the University of California, San Diego 作后置定语；谓语动词 tested 为一般过去时及物动词；whether 引导宾语从句充当 tested 的宾语。"
               },
               {
-                "type": "名词性从句",
-                "content": "whether rats can detect social signals from robo...",
-                "explanation": "连接词 <code>whether</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "从句与目的状语",
+                "content": "To find out if this extends to non-living beings ... whether rats can detect social signals from robotic rats",
+                "explanation": "句首不定式短语 To find out... 作全句目的状语，其后包含 if 引导的宾语从句 if this extends to non-living beings（代词 this 指代前句感知社交信号的能力）；主句宾语从句中，whether 引导陈述，rats 为主语，can detect 为谓语动词，social signals 为宾语，介词短语 from robotic rats 作来源状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "tested whether rats can detect social signals from robotic rats",
+                "explanation": "核心实验总起句 / Q21 题眼。正式引出科研团队的突破性实验目的：测试活鼠能否跨越生命界限、感知来自机器鼠的社交信号。直接对应 Q21 正确项 A（pick up social signals from non-living rats），其中 detect 与 pick up 形成经典同义替换，robotic rats 对应 non-living rats。"
               }
             ]
           }
@@ -825,8 +840,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "They housed eight adult rats with two types of robotic rat—o...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "They housed eight adult rats with two types of robotic rat—one social and one asocial—for four days.",
+                "explanation": "主干为主谓宾结构。主语代词 They（指代实验人员）；谓语动词 housed 为一般过去时及物动词，意为“给……提供住宿、将……安置在一起”；宾语为 eight adult rats；介词短语 with two types of robotic rat 作伴随/条件状语，for four days 作时间跨度状语。"
+              },
+              {
+                "type": "同位语修饰",
+                "content": "—one social and one asocial—",
+                "explanation": "双破折号插入语充当 two types of robotic rat 的同位语，精炼界定了实验的核心对比自变量：一种具备社交属性（social），另一种缺乏社交属性（asocial）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "housed eight adult rats with two types of robotic rat ... for four days",
+                "explanation": "实验设计说明。交待实验共处周期（4天）与受试组别，明确社交型与非社交型两组机器鼠的对照设置，为后续展示活鼠对两者的悬殊反应提供控制实验前提。"
               }
             ]
           }
@@ -843,8 +868,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The robot rats were quite minimalist, resembling a chunkier ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The robot rats were quite minimalist",
+                "explanation": "主干为主系表结构。主语 The robot rats；系动词 were；表语形容词短语 quite minimalist（极简主义的、外观极简的）。"
+              },
+              {
+                "type": "非谓语与后置修饰",
+                "content": "resembling a chunkier version of a computer mouse with wheels to move around and colorful markings",
+                "explanation": "现在分词短语 resembling... 作伴随状语/补充说明；宾语为 a chunkier version of a computer mouse；介词短语 with wheels... and colorful markings 作 mouse 的后置定语，其中动词不定式 to move around 作 wheels 的后置定语说明功用。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "quite minimalist, resembling a chunkier version of a computer mouse",
+                "explanation": "实验装置外观细节。刻画机器鼠极其粗陋简易的物理外形（像带轮子和彩标的胖鼠标），这一极简外观细节与后文大鼠毫不介意外表、依然积极互动的惊人发现形成鲜明对比，为 Q24（looks vs. actions）埋下关键伏笔。"
               }
             ]
           }
@@ -861,8 +896,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "During the experiment, the social robot rat followed the liv...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "During the experiment, the social robot rat followed the living rats around, played with the same toys, and opened cage doors",
+                "explanation": "主干为主谓宾并列结构。时间状语 During the experiment；主语 the social robot rat；谓语由连词 and 连接三个并列的一般过去时动词短语：① followed the living rats around（四处跟从活鼠）；② played with the same toys（玩相同的玩具）；③ opened cage doors（打开笼门）。"
+              },
+              {
+                "type": "非谓语复合结构",
+                "content": "to let trapped rats escape",
+                "explanation": "动词不定式短语作 opened cage doors 的目的状语；其中 let 为使役动词，trapped rats 为宾语（过去分词 trapped 作定语修饰 rats），escape 为省略 to 的动词不定式作宾语补足语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "followed the living rats around, played with the same toys, and opened cage doors to let trapped rats escape",
+                "explanation": "实验组特征陈述 / Q22 核心干扰源。详尽列举社交型机器鼠展示善意的三项标志性行为（跟随、玩耍、开门救助），这是激起真鼠“报恩”的前提。Q22 干扰项 A、B、C 故意将本句属于社交鼠的互动行为移花接木至非社交鼠身上，形成典型的张冠李戴陷阱。"
               }
             ]
           }
@@ -879,8 +924,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Meanwhile, the asocial robot simply moved forwards and backw...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Meanwhile, the asocial robot simply moved forwards and backwards and side to side.",
+                "explanation": "主干为主谓结构。时间副词 Meanwhile 作对比过渡状语；主语 the asocial robot；副词 simply 作修饰限制状语；谓语动词 moved 为不及物动词一般过去时；副词短语 forwards and backwards and side to side 作方向状语，意为“前后左右机械移动”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Meanwhile, the asocial robot simply moved forwards and backwards and side to side.",
+                "explanation": "对照组特征陈述 / Q22 题眼。通过 Meanwhile 构成与前一句的强烈行为对比：非社交鼠没有任何主动追随或玩耍互动，只是自顾自地进行单调机械位移。直接对应 Q22 正确项 D（It moved around alone，独自四处移动）。"
               }
             ]
           }
@@ -897,8 +947,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Next, the researchers trapped the robots in cages and gave t...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Next, the researchers trapped the robots in cages and gave the rats the opportunity",
+                "explanation": "主干为并列复合谓语结构。承接副词 Next；主语 the researchers；谓语动词由 and 连接两个及物动词短语：① trapped the robots in cages（把机器鼠关进笼子，介词短语 in cages 作地点状语）；② gave the rats the opportunity（双宾语结构，the rats 为间接宾语，the opportunity 为直接宾语）。"
+              },
+              {
+                "type": "非谓语与方式状语",
+                "content": "to release them by pressing a lever",
+                "explanation": "动词不定式短语 to release them 作 opportunity 的后置定语；介词短语 by pressing a lever 作方式状语修饰 release，动名词 pressing 接宾语 a lever，说明释放机器人的具体操作方式（压杆）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "trapped the robots in cages and gave the rats the opportunity to release them",
+                "explanation": "实验反转阶段（互惠检验）。角色发生调换，检验活鼠在掌握主动权时是否愿意解救曾与自己共处的机器同伴，为量化活鼠利他偏好与互惠本能搭建测试平台。"
               }
             ]
           }
@@ -915,8 +975,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Across 18 trials each, the living rats were 52 per cent more...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Across 18 trials each, the living rats were 52 per cent more likely on average to set the social robot free than the asocial one.",
+                "explanation": "主干为主系表比较结构。范围状语 Across 18 trials each；主语 the living rats；系动词 were；表语由形容词比较级短语 52 per cent more likely... than the asocial one 构成；动词不定式短语 to set the social robot free 作 likely 的补足语，其中 free 为形容词作 set 的宾语补足语。"
+              },
+              {
+                "type": "比较结构与修饰",
+                "content": "were 52 per cent more likely on average ... than the asocial one",
+                "explanation": "more likely... than... 构成显性比较级，数量短语 52 per cent 作程度状语，介词短语 on average 作插入状语；比较对象 the asocial one 中代词 one 指代 robot。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "52 per cent more likely on average to set the social robot free than the asocial one",
+                "explanation": "核心量化实证数据。52% 的显著偏向性概率差异排除了大鼠按压杠杆纯属随机玩耍的猜测，铁证证明大鼠明确区分两类机器人，对施加善意的社交伙伴表现出压倒性的施救意愿。"
               }
             ]
           }
@@ -932,9 +1002,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that the rats perceived the social robot as a...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "This suggests that the rats perceived the social robot as a genuine social being.",
+                "explanation": "主干为主谓宾复合结构。主语指示代词 This（指代上句 52% 的偏向性数据）；谓语动词 suggests 为一般现在时及物动词（表明、暗示）；that 引导宾语从句充当 suggests 的宾语。"
+              },
+              {
+                "type": "从句与短语剖析",
+                "content": "that the rats perceived the social robot as a genuine social being",
+                "explanation": "that 引导的宾语从句中，the rats 为主语，perceived 为谓语动词；perceive... as... 为固定搭配，意为“将……视作/感知为……”，the social robot 为宾语，介词短语 as a genuine social being 作宾语补足语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "perceived the social robot as a genuine social being",
+                "explanation": "认知定性结论。从客观实验数据上升到主观认知解读：活鼠并没有将社交型机器人仅仅看作冰冷的塑料玩具，而是在感知上将其接纳为具有真实社交属性的同类生命体。"
               }
             ]
           }
@@ -950,9 +1030,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "because it displayed behaviours like communal ex...",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "They may have bonded more with the social robot",
+                "explanation": "主干为主谓介宾结构。主语代词 They（指代大鼠）；谓语动词 may have bonded 为“情态动词 may + 现在完成时”，表示对过去发生事实的推测；副词 more 作程度状语；介词短语 with the social robot 作配合状语，bond with 意为“与……建立情感联系/紧密纽带”。"
+              },
+              {
+                "type": "原因状语从句",
+                "content": "because it displayed behaviours like communal exploring and playing",
+                "explanation": "because 引导原因状语从句阐明纽带建立的成因；从句主语 it 指代社交机器鼠，displayed 为谓语，behaviours 为宾语，介词短语 like communal exploring and playing 作 behaviours 的后置定语举例说明。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "bonded more ... because it displayed behaviours like communal exploring and playing",
+                "explanation": "行为动因分析。指出共同探索与玩耍等群体活动是促成情感纽带的催化剂。注意 Q23 干扰项 D（considered that an interesting game）在此偷换概念，玩耍只是前期建立纽带的手段，绝非大鼠救助机器人的内在目的。"
               }
             ]
           }
@@ -968,9 +1058,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when they get trapped...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "This could lead to the rats better remembering having freed it earlier, and wanting the robot to return the favour, says Quinn.",
+                "explanation": "主干为主谓宾结构 + 句末引述语。主句主语 This；情态谓语 could lead to 后接由 and 连接的两个并列动名词复合结构作为介宾：① the rats better remembering... 与 ② (the rats) wanting...；句末 says Quinn 为陈述引述语。"
+              },
+              {
+                "type": "非谓语与时间状语从句",
+                "content": "remembering having freed it earlier, and wanting the robot to return the favour when they get trapped",
+                "explanation": "动名词 remembering 带有完成式动名词 having freed it earlier 作宾语，表明记住“此前曾解救过它”的事实；wanting 带有不定式短语 to return the favour 作宾语，return the favour 意为“回报恩情”；when they get trapped 为 when 引导的时间/条件状语从句，修饰 return the favour 的触发场景。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "wanting the robot to return the favour when they get trapped",
+                "explanation": "互惠动机核心剖析 / Q23 题眼。奎因深刻揭示出老鼠施救的演化心理本质：指望对方在自己身陷囹圄时能投桃报李、施以援手。直接对应 Q23 正确项 B（expected it to do the same in return），wanting the robot to return the favour 与选项实现精准对位。"
               }
             ]
           }
@@ -986,9 +1086,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "where a rat will help another rat that has pre...",
-                "explanation": "关系词 <code>where</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "“Rats have been shown to engage in multiple forms of reciprocal help and cooperation ...” says Quinn.",
+                "explanation": "主干为主语从属被动结构 + 引述语。引语主语 Rats；谓语动词 have been shown 为现在完成时被动语态；不定式短语 to engage in multiple forms of reciprocal help and cooperation 作主语补足语，engage in 意为“参与、从事”；句末 says Quinn 为常规引述。"
+              },
+              {
+                "type": "名词性从句与定语从句",
+                "content": "including what is referred to as direct reciprocity—where a rat will help another rat that has previously helped them",
+                "explanation": "介词 including 后接 what 引导的宾语从句 what is referred to as direct reciprocity（be referred to as 意为“被称为”）；破折号后 where 引导限制性定语从句修饰 direct reciprocity，对其运行机理展开具体界定；从句内部包含 that 引导的定语从句 that has previously helped them 修饰 another rat。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "what is referred to as direct reciprocity—where a rat will help another rat that has previously helped them",
+                "explanation": "专业理论升华。正式给出“直接互惠（direct reciprocity）”这一经典演化生物学概念的严密学术定义，将前段个别实验事实提升到普遍动物互助规律的高度，进一步确证 Q23 的互惠报恩结论。"
               }
             ]
           }
@@ -1005,8 +1115,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The readiness of the rats to befriend the social robot was s...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The readiness of the rats to befriend the social robot was surprising",
+                "explanation": "主干为主系表结构。主语 The readiness of the rats to befriend the social robot（核心名词 readiness 意为“乐意、准备就绪”，介词短语 of the rats 与不定式短语 to befriend the social robot 分别作后置定语）；系动词 was；表语形容词 surprising（出人意料的、令人惊讶的）。"
+              },
+              {
+                "type": "介词短语作状语",
+                "content": "given its minimal design",
+                "explanation": "given 在此用作介词，意为“考虑到、鉴于”，后接名词短语 its minimal design 引出背景评注状语，修饰全句评价。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The readiness of the rats to befriend the social robot was surprising given its minimal design.",
+                "explanation": "段首观点句与反差设问。由行为实验转向认知机制反思：极简的设计却换来大鼠无条件的亲近，这一巨大反差成为后文破除“依赖面孔/外形论”的破局点，关联 Q24 与 Q25 的考点蓄势。"
               }
             ]
           }
@@ -1023,8 +1143,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The robot was the same size as a regular rat but resembled a...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The robot was the same size as a regular rat but resembled a simple plastic box on wheels.",
+                "explanation": "主干为转折并列谓语结构。主语 The robot；转折连词 but 连接两个并列分句：① was the same size as a regular rat（主系表结构，采用 the same... as... 比较结构）；② resembled a simple plastic box on wheels（主谓宾结构，resembled 为及物动词，宾语 a simple plastic box，介词短语 on wheels 作后置定语）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "resembled a simple plastic box on wheels",
+                "explanation": "外形具象化描写。直白点明机器鼠本质上不过是一个“带轮子的简单塑料盒”，与其说是拟真老鼠，不如说是粗糙机械盒，极大强化了实验发现的震撼力。Q24 干扰项 D（scared by a plastic box on wheels）即在此反向捏造老鼠会被盒子吓到。"
               }
             ]
           }
@@ -1040,9 +1165,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who helped with the research....",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "“We’d assumed we’d have to give it a moving head and tail, facial features, and put a scent on it ... but that wasn’t necessary,” says Janet Wiles ...",
+                "explanation": "主干为引语转折复合句 + 句末引述语。引语前半句为 We’d assumed 引导省略 that 的宾语从句；转折连词 but 引出后半句主系表分句 that wasn’t necessary；句末 says Janet Wiles... 为引述句。"
+              },
+              {
+                "type": "从句剖析与非谓语",
+                "content": "to make it smell like a real rat ... who helped with the research",
+                "explanation": "宾语从句内部包含并列谓语 give it...（双宾语）与 put a scent on it；不定式短语 to make it smell like a real rat 作目的状语，使役动词 make 接省 to 不定式 smell 作宾补；主句句末包含 who 引导的非限制性定语从句 who helped with the research 修饰专家 Janet Wiles。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "We’d assumed we’d have to give it ... facial features ... but that wasn’t necessary",
+                "explanation": "专家评述 / Q24 题眼。通过研究者此前的假设（以为必须配备头尾、五官及气味）与最终结果（that wasn’t necessary）的鲜明反差，彻底击碎“外形决定论”，直接对应 Q24 正确项 C（respond more to actions than to looks），并有力排除干扰项 A（记住面部特征）与 B（辨别气味与体型）。"
               }
             ]
           }
@@ -1058,9 +1193,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when they come from basic robots....",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "The finding shows how sensitive rats are to social cues, even when they come from basic robots.",
+                "explanation": "主干为主谓宾复合结构。主语 The finding（实验发现）；谓语 shows（表明）；感叹引导词 how 引导宾语从句 how sensitive rats are to social cues 作 shows 的宾语。"
+              },
+              {
+                "type": "宾语从句与让步状语从句",
+                "content": "how sensitive rats are to social cues, even when they come from basic robots",
+                "explanation": "how 引导感叹形式的宾语从句，从句中 rats 作主语，are 作系动词，sensitive 作表语，介词短语 to social cues 作受词补足语；even when 引导让步时间状语从句，从句主语 they 指代 social cues，come from basic robots 作谓语与地点状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The finding shows how sensitive rats are to social cues, even when they come from basic robots.",
+                "explanation": "全篇结论升华 / Q25 题眼。提炼整个实验最核心的学术洞见：大鼠对社交信号敏感异常，即使这些信号来自最粗陋的基础机器人也能引发强烈的社会认同。完美对齐 Q25 正确项 D（are more sensitive to social cues than expected）。"
               }
             ]
           }
@@ -1076,14 +1221,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when they display only simple social signals....",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Similarly, children tend to treat robots as if they are fellow beings",
+                "explanation": "主干为主谓宾补结构。副词 Similarly 作段际类比连接状语；主语 children；谓语动词 tend to treat（tend to 接不定式 treat）；宾语 robots；介词短语 as if they are fellow beings 作 treat 的方式与宾语补足语。"
               },
               {
-                "type": "状语从句",
-                "content": "if they are fellow beings...",
-                "explanation": "从属连词 <code>if</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "从句与让步状语",
+                "content": "as if they are fellow beings, even when they display only simple social signals",
+                "explanation": "as if 引导方式状语从句，从句中 they 指代机器人，fellow beings 意为“同类伙伴”；even when 引导让步状语从句，从句主语 they 仍指机器人，display 为谓语，only simple social signals 为宾语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Similarly, children tend to treat robots as if they are fellow beings",
+                "explanation": "跨物种横向类比。作者以 Similarly 引出人类儿童对待机器人的相似心理机制——孩子也会把展现微弱社交线索的机器人当作伙伴。Q25 干扰项 C 妄称“老鼠表现与儿童不同（differently）”，正是在此处反向作伪设套。"
               }
             ]
           }
@@ -1100,8 +1250,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "“We humans seem to be fascinated by robots, and it turns out...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "“We humans seem to be fascinated by robots, and it turns out other animals are too,” says Wiles.",
+                "explanation": "主干为引语并列复合句 + 引述语。引语由 and 连接两个并列分句：第一分句 We humans seem to be fascinated by robots（主系表被动结构，humans 作 We 的同位语，be fascinated by 意为“对……着迷”）；第二分句 it turns out other animals are too（主谓从句结构，it turns out 引导表语/主语从句，从句省略为 other animals are fascinated too）；句末 says Wiles 为引述语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "We humans seem to be fascinated by robots, and it turns out other animals are too",
+                "explanation": "篇末总结陈词。文章在结尾完成宏大视角回拨：不仅人类对机器人充满天然好奇与情感投射，动物界亦是如此。人与动物在对智能机器人的社交响应上展现出奇妙的演化共通性，为全篇画上余味深长的句点。"
               }
             ]
           }
@@ -2244,14 +2399,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "since the mid-1970s...",
-                "explanation": "从属连词 <code>since</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "It is true that CEO pay has gone up—top ones may make 300 times the pay of typical workers on average, and since the mid-1970s, CEO pay ... has ... gone up by about 500 %.",
+                "explanation": "主干为主系表复合句 + 两个并列解释分句。It 为形式主语，is 为系动词，表语形容词 true；that CEO pay has gone up 为真正的主语从句；破折号后由 and 连接两个并列陈述分句补充具体倍数与涨幅：分句一 top ones may make 300 times the pay of typical workers on average（倍数表达结构）；分句二 CEO pay for large publicly traded American corporations has gone up by about 500 %（现在完成时主谓结构，介词短语 by varying estimates 为插入语）。"
               },
               {
-                "type": "名词性从句",
-                "content": "that CEO pay has gone up—top ones may make 30...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "修饰与倍数表达",
+                "content": "top ones may make 300 times the pay of typical workers on average ... by varying estimates",
+                "explanation": "make 300 times the pay of... 运用了“倍数 + 名词短语 + of”结构，直观量化高管与普通员工的收入鸿沟；for large publicly traded American corporations 作后置定语修饰 CEO pay；since the mid-1970s 作时间状语；by varying estimates 作评注插入语，意为“根据不同的估算”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "It is true that CEO pay has gone up—top ones may make 300 times ... gone up by about 500 %",
+                "explanation": "篇首让步开篇（Concession Hook）。作者以坦诚公允的态度承认 CEO 薪水确实呈现出天量暴涨（300倍、500%），直面公众普遍的愤慨情绪，为后续力排众议从经济学理性角度展开辩护定下客观基调。同时 Q26 干扰项 C（普遍涨薪）在此不攻自破——这是极其悬殊的阶层分化，绝非全社会普涨。"
               }
             ]
           }
@@ -2268,8 +2428,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The typical CEO of a top American corporation now makes abou...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The typical CEO of a top American corporation now makes about $18.9 million a year.",
+                "explanation": "主干为主谓宾结构。主语 The typical CEO of a top American corporation（核心词 CEO，介词短语 of a top American corporation 作后置定语）；时间副词 now 作状语；谓语动词 makes 为及物动词一般现在时；宾语 about $18.9 million；名词短语 a year 作时间频率状语（相当于 per year）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The typical CEO ... now makes about $18.9 million a year.",
+                "explanation": "具象化事实论据。以 1890 万美元的惊人年薪数字直观定格讨论焦点，强化舆论争论的切肤感，完成首段对议题背景的客观铺陈。"
               }
             ]
           }
@@ -2285,9 +2450,19 @@
           "syntax": {
             "breakdown": [
               {
+                "type": "主干剖析",
+                "content": "The best model for understanding the growth of CEO pay is that of limited CEO talent in a world",
+                "explanation": "主干为主系表复合结构。主语 The best model for understanding the growth of CEO pay（核心词 model，介词短语 for understanding the growth of CEO pay 作后置定语）；系动词 is；表语代词 that（指代前面的 model）；介词短语 of limited CEO talent in a world 作 that 的后置定语，点出供求理论核心。"
+              },
+              {
                 "type": "定语从句",
-                "content": "where business opportunities for the top firms...",
-                "explanation": "关系词 <code>where</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "content": "where business opportunities for the top firms are growing rapidly",
+                "explanation": "关系副词 where 引导限制性定语从句修饰先行词 a world；从句内部为主谓结构，主语 business opportunities（介词短语 for the top firms 作定语修饰），谓语动词 are growing 为现在进行时表示动态激增，副词 rapidly 作程度状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "limited CEO talent in a world where business opportunities for the top firms are growing rapidly",
+                "explanation": "核心经济学模型立论 / Q26 题眼。作者正式亮出解释高管天价薪酬的经典供求模型：顶尖领军人才极其稀缺（limited CEO talent），而头部巨头面临的全球商业机遇却呈爆发式增长（business opportunities... growing rapidly），因而稀缺人才拥有极大的市场议价权。直接对应 Q26 正确项 B（Increased business opportunities for top firms）。"
               }
             ]
           }
@@ -2304,8 +2479,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The efforts of America’s highest-earning 1 % have been one o...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The efforts of America’s highest-earning 1 % have been one of the more dynamic elements of the global economy.",
+                "explanation": "主干为主系表结构。主语 The efforts of America’s highest-earning 1 %（核心词 efforts，介词短语 of America’s highest-earning 1 % 作后置定语）；谓语动词 have been 为现在完成时系动词；表语代词 one of the more dynamic elements of the global economy（全球经济中更具活力的动力要素之一）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "highest-earning 1 % have been one of the more dynamic elements of the global economy",
+                "explanation": "宏观经济贡献定性。作者将顶层高薪群体与全球经济的活力与增长直接绑定，肯定其卓越的商业开拓价值，从宏观维度为高薪群体正名，支撑全文辩护立场。"
               }
             ]
           }
@@ -2321,9 +2501,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "表语从句",
-                "content": "that CEOs really have upped their game relative to many other workers in the U.S. economy",
-                "explanation": "连接词 <code>that</code> 引导表语从句，说明 reason 的具体内涵。"
+                "type": "主干剖析",
+                "content": "It’s not popular to say, but one reason their pay has gone up so much is that CEOs really have upped their game",
+                "explanation": "主干为转折并列复合句。连词 but 前半句为形式主语结构 It’s not popular to say（真正主语为不定式 to say）；连词 but 后半句为主系表复合句：主语 one reason，系动词 is，that 引导表语从句 that CEOs really have upped their game...。"
+              },
+              {
+                "type": "定语从句与表语从句",
+                "content": "reason their pay has gone up so much is that CEOs really have upped their game relative to many other workers in the U.S. economy",
+                "explanation": "reason 后面省略关系副词 why/that 的限制性定语从句 their pay has gone up so much 修饰 reason；that 引导表语从句，从句中 CEOs 作主语，really 作修饰副词，have upped their game 为谓语短语（up one's game 为美式成语，意为“提升自身表现/水平”）；介词短语 relative to... 作比较状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "one reason their pay has gone up so much is that CEOs really have upped their game relative to many other workers",
+                "explanation": "核心反直觉立论句 / Q30 标题立场基石。作者直言不讳地指出外界不愿正视的真相：高管薪酬上涨源于其相对于普通员工而言显著提升了自己的水平与产出，有力推翻了大众对高管“德不配位、纯属剥削”的偏见，直接确立 Q30 标题态度（CEOs Are Not Overpaid）。"
               }
             ]
           }
@@ -2339,9 +2529,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "how the company should trade in them....",
-                "explanation": "连接词 <code>how</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Today’s CEO, at least for major American firms, must have many more skills than simply being able to “run the company.” CEOs must have a good sense of financial markets",
+                "explanation": "主干由两个紧凑陈述句构成。第一句主语 Today’s CEO；插入语 at least for major American firms；情态谓语 must have；宾语 many more skills；比较状语 than simply being able to “run the company”。第二句主语 CEOs；谓语 must have；宾语由并列短语 a good sense of financial markets 以及 how 引导的宾语从句构成。"
+              },
+              {
+                "type": "比较结构与名词性从句",
+                "content": "than simply being able to “run the company” ... and maybe even how the company should trade in them",
+                "explanation": "than 后接动名词短语 being able to... 作比较状语；how the company should trade in them 为 how 引导的名词性从句，作介词 of 的并列宾语，从句中 the company 作主语，should trade 为谓语，介词短语 in them 作地点状语（them 指代 financial markets）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Today’s CEO ... must have many more skills than simply being able to “run the company.”",
+                "explanation": "段首分论点总起句。拉开第2段对高管技能全方位迭代的深入论述：现代商业环境要求 CEO 走出传统的日常厂务运营，具备驾驭资本运作与二级市场的战略级金融视野。"
               }
             ]
           }
@@ -2358,8 +2558,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "They also need better public relations skills than their pre...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "They also need better public relations skills than their predecessors",
+                "explanation": "主干为主谓宾比较结构。主语代词 They（指代当代 CEO）；副词 also 作承接状语；谓语动词 need 为及物动词一般现在时；宾语 better public relations skills；比较状语短语 than their predecessors（比他们的前任）。"
+              },
+              {
+                "type": "原因状语从句",
+                "content": "as the costs of even a minor slipup can be significant",
+                "explanation": "as 引导原因状语从句阐明为何公关技能不可或缺；从句主语 the costs of even a minor slipup（介词短语 of even a minor slipup 作定语，slipup 意为“疏忽、失误”）；系动词 can be；表语形容词 significant（巨大的、灾难性的）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "better public relations skills than their predecessors, as the costs of even a minor slipup can be significant",
+                "explanation": "高管技能维度一（公关风控溢价）。现代社交媒体环境下，企业一把手的任何微小失言都可能导致市值断崖式下跌，因此卓越的公共关系与危机公关能力构成了高管薪酬中不可替代的风险防范溢价。"
               }
             ]
           }
@@ -2375,9 +2585,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that large American companies are much more g...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Then there’s the fact that large American companies are much more globalized than ever before",
+                "explanation": "主干为 There be 存在句 + 同位语从句。Then 作承接副词；there’s 为 there is 缩略；the fact 为形式上的逻辑主语；that 引导同位语从句对 the fact 进行完整展开。"
+              },
+              {
+                "type": "同位语从句与with复合结构",
+                "content": "that large American companies are much more globalized than ever before, with supply chains spread across a larger number of countries",
+                "explanation": "that 引导同位语从句，从句内部为主系表比较结构（large American companies are much more globalized than ever before）；逗号后接 with 复合结构作伴随状语，supply chains 为逻辑主语，过去分词 spread across a larger number of countries 作逻辑谓语/后置修饰。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "large American companies are much more globalized than ever before, with supply chains spread across a larger number of countries",
+                "explanation": "高管技能维度二 / Q27 核心定位句。指出美国巨头企业比以往任何时代都更加高度全球化，跨国供应链版图极其庞大。这为下句引出治理该系统需要海量跨国知识做足铺垫，直接支撑 Q27 正确项 C（operate more globalized companies）。"
               }
             ]
           }
@@ -2393,9 +2613,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that system requires knowledge that is fairly...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "To lead in that system requires knowledge",
+                "explanation": "主干为主谓宾结构。主语为动词不定式短语 To lead in that system（在那样复杂的全球化系统中统领全局）；谓语动词 requires 为一般现在时及物动词（需要）；宾语为抽象名词 knowledge。"
+              },
+              {
+                "type": "定语从句与形容词剖析",
+                "content": "that is fairly mind-boggling",
+                "explanation": "关系代词 that 引导限制性定语从句修饰先行词 knowledge，并在从句中作主语；系动词 is；表语由程度副词 fairly 与复合形容词 mind-boggling（令人难以置信的、令人惊叹的）构成。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "To lead in that system requires knowledge that is fairly mind-boggling.",
+                "explanation": "技能挑战升华 / Q27 题眼。用不定式主语强调统率全球化企业所需的认知复杂度极其惊人，有力支撑了高薪来自高难度管理输出的论点，直接印证 Q27 正确项 C。"
               }
             ]
           }
@@ -2412,8 +2642,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Plus, virtually all major American companies are becoming te...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Plus, virtually all major American companies are becoming tech companies",
+                "explanation": "主干为主系表结构。递进副词 Plus（此外）；主语 virtually all major American companies（核心词 companies，virtually 为程度副词修饰 all）；谓语动词 are becoming 为现在进行时表动态演变趋势；表语 tech companies（科技公司）。"
+              },
+              {
+                "type": "伴随介词短语修饰",
+                "content": "often with their own research and development",
+                "explanation": "介词短语 with their own research and development 作伴随状语，补充说明大型企业向科技转型的典型标志（拥有自主研发部门）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "virtually all major American companies are becoming tech companies, often with their own research and development",
+                "explanation": "高管技能维度三（科技跨界转型）。指出传统行业自身都在演进为科技型企业，高管必须通晓前沿研发。注意 Q27 干扰项 A（与科技公司合作）和 B（为研发投资）在此偷换概念——文章强调的是企业自身的科技转型，而非寻求外部结盟。"
               }
             ]
           }
@@ -2430,8 +2670,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "And beyond this, major CEOs still have to do all the day-to-...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "And beyond this, major CEOs still have to do all the day-to-day work",
+                "explanation": "主干为主谓宾结构。承接介词短语 And beyond this（除此以外）；主语 major CEOs；时间副词 still；谓语动词 have to do（仍必须从事）；宾语 all the day-to-day work（全部日常工作）。"
+              },
+              {
+                "type": "定语从句",
+                "content": "they have always done",
+                "explanation": "省略关系代词 that/which 的限制性定语从句修饰先行词 work；从句中 they 作主语，have always done 为现在完成时谓语动词，先行词在从句中充当 done 的宾语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "still have to do all the day-to-day work they have always done",
+                "explanation": "技能论证总结。强调上述新兴的金融、公关、全球化与科技能力并非替代了旧职责，而是层层叠加在原有日常事务之上，表明当代 CEO 面临着空前沉重的工作负荷。"
               }
             ]
           }
@@ -2447,9 +2697,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that high CEO pay is mainly about ripping peo...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "The common idea ... doesn’t explain history very well.",
+                "explanation": "主干为主谓宾结构。主语 The common idea（核心名词 idea）；谓语动词 doesn’t explain 为一般现在时否定式；宾语 history；副词短语 very well 作程度状语修饰谓语动词。"
+              },
+              {
+                "type": "同位语从句",
+                "content": "that high CEO pay is mainly about ripping people off",
+                "explanation": "that 引导同位语从句阐明 idea 的具体内容；从句内部为主系表结构，high CEO pay 为主语，is 为系动词，介词短语 about ripping people off 作表语，ripping people off 为动名词短语，意为“敲诈盘剥大众、巧取豪夺”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The common idea that high CEO pay is mainly about ripping people off doesn’t explain history very well.",
+                "explanation": "段首立论反驳句。作者正式将矛头对准社会流行观点：大众愤慨地将高薪定性为“搜刮盘剥（ripping people off）”，但这种道德谴责在历史治理数据面前根本站不住脚，顺理成章引出下文基于历史实证的归谬反证法。"
               }
             ]
           }
@@ -2465,9 +2725,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "since the 1970s....",
-                "explanation": "从属连词 <code>since</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "By most measures, corporate governance has become a lot tighter and more rigorous since the 1970s.",
+                "explanation": "主干为主系表结构。介词短语 By most measures（按大多数衡量标准来看）作评注状语；主语 corporate governance（公司治理）；谓语动词 has become 为现在完成时系动词；表语为并列比较级形容词短语 a lot tighter and more rigorous（严格和严密得多）；介词短语 since the 1970s 作时间状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "corporate governance has become a lot tighter and more rigorous since the 1970s",
+                "explanation": "历史事实前提 / Q28 题眼。摆出无可辩驳的监管历史事实：自上世纪70年代以来，现代企业治理与审计监督变得空前严密。直接对应 Q28 正确项 C（strict corporate governance）。"
               }
             ]
           }
@@ -2483,9 +2748,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that CEO pay has been high and rising....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Yet it is principally during this period of stronger governance that CEO pay has been high and rising.",
+                "explanation": "主干为强调句型（Cleft Sentence）。转折连词 Yet；强调结构 it is... that...，被强调部分为介词短语 principally during this period of stronger governance（主要是在这一监管治理力度强化的时期）；that 后接句子的核心主谓表成分：主语 CEO pay，系动词 has been，表语形容词短语 high and rising（居高不下且持续攀升）。"
+              },
+              {
+                "type": "特殊结构剖析",
+                "content": "it is principally during this period of stronger governance that ...",
+                "explanation": "本句为典型 it is... that... 强调句，强力突出了时间状语与治理背景的悖论反差。还原为常规语序为：CEO pay has been high and rising principally during this period of stronger governance。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "it is principally during this period of stronger governance that CEO pay has been high and rising",
+                "explanation": "归谬驳论核心句 / Q28 题眼。作者运用了极具杀伤力的逻辑归谬：如果高薪纯粹是趁火打劫和内部人暗箱贪腐，那么在70年代以来治理制度日益收紧的重压下，高薪理应被彻底扼杀；而薪资反常高企的历史事实证明，高薪恰恰是合规严密的董事会在市场机制下做出的理性决策。"
               }
             ]
           }
@@ -2501,9 +2776,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "That suggests it is in the broader corporate ...",
-                "explanation": "连接词 <code>That</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "That suggests it is in the broader corporate interest to recruit top candidates for increasingly tough jobs.",
+                "explanation": "主干为主谓宾复合结构。主语代词 That（指代上句治理收紧与高薪并存的反差事实）；谓语动词 suggests（表明、证明）；省略 that 的宾语从句充当 suggests 的宾语。"
+              },
+              {
+                "type": "形式主语从句与非谓语",
+                "content": "it is in the broader corporate interest to recruit top candidates for increasingly tough jobs",
+                "explanation": "宾语从句中 it 为形式主语，is 为系动词，介词短语 in the broader corporate interest 作表语（符合更广泛的企业整体利益）；动词不定式短语 to recruit top candidates for increasingly tough jobs 为真正的主语，介词短语 for increasingly tough jobs 作目的定语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "it is in the broader corporate interest to recruit top candidates for increasingly tough jobs",
+                "explanation": "阶段性论证升华。由归谬法顺理成章导出推论：给顶尖候选人开出天价薪酬，完全是为了应对日益棘手的管理挑战，这不仅不是损害企业，反而最符合企业和股东的长远整体利益。"
               }
             ]
           }
@@ -2519,9 +2804,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that high CEO pay is not some kind of depreda...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Furthermore, the highest CEO salaries are paid to outside candidates, not to the cozy insider picks",
+                "explanation": "主干为被动主谓宾结构 + 同位语修饰。递进副词 Furthermore；主语 the highest CEO salaries；谓语动词 are paid to（一般现在时被动语态）；并列介词短语 to outside candidates, not to the cozy insider picks 作承受对象状语；逗号后紧跟名词短语 another sign 作同位语。"
+              },
+              {
+                "type": "同位语从句与介词短语",
+                "content": "another sign that high CEO pay is not some kind of depredation at the expense of the rest of the company",
+                "explanation": "another sign 作前面整个主句事实的同位语；that 引导同位语从句解释 sign 的内涵；从句内部为主系表结构，high CEO pay 为主语，is not 为系动词否定式，some kind of depredation（某种掠夺）为表语；介词短语 at the expense of the rest of the company 作状语，at the expense of 意为“以牺牲……为代价”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the highest CEO salaries are paid to outside candidates, not to the cozy insider picks",
+                "explanation": "实证论据维度二 / Q29 干扰项排除。以最高薪资付给外部空降军、而非内部舒适圈人选的铁证，彻底推翻高薪是“内部人勾结自肥（depredation）”的谎言。注意 Q29 干扰项 D（motivate inside candidates）在此颠倒黑白。"
               }
             ]
           }
@@ -2537,9 +2832,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when companies tie CEO pay to...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "And the stock market reacts positively when companies tie CEO pay to, say, stock prices",
+                "explanation": "主干为主谓复合句 + 同位语结构。连词 And；主语 the stock market；谓语动词 reacts 为不及物动词；副词 positively 作方式状语；when 引导时间/条件状语从句；逗号后 a sign that... 充当同位语。"
+              },
+              {
+                "type": "状语从句与同位语从句",
+                "content": "when companies tie CEO pay to, say, stock prices, a sign that those practices build up corporate value not just for the CEO",
+                "explanation": "when 引导从句，companies 作主语，tie... to... 为谓语短语，CEO pay 为宾语，插入语 say 意为“比如说”，stock prices 为介词宾语；a sign 作同位语，that 引导同位语从句，从句中 those practices 作主语，build up corporate value（做大企业价值）为动宾短语，not just for the CEO 作排除让步状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "stock market reacts positively ... a sign that those practices build up corporate value not just for the CEO",
+                "explanation": "资本市场终极实证 / Q29 题眼与 Q30 主旨定格。以高度理性的资本市场为最终佐证：股市积极看好薪酬与业绩挂钩，铁证证明高薪不仅惠及 CEO 个人，更能全面做大公司整体价值（build up corporate value）。直接对应 Q29 正确项 A（increase corporate value），并为全文标题 Q30 敲定唯一正确答案（CEOs Are Not Overpaid）。"
               }
             ]
           }
@@ -3689,9 +3994,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when it rolled out ambitious restrictions on ...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Madrid was hailed as a public health guiding light last November",
+                "explanation": "主干为主谓宾/被动结构。主语 Madrid（西班牙首都马德里）；谓语动词 was hailed as 为一般过去时被动语态（be hailed as 意为“被誉为、被赞颂为”）；介词宾语 a public health guiding light（公共卫生的指路明灯）；时间状语 last November。"
+              },
+              {
+                "type": "时间状语从句",
+                "content": "when it rolled out ambitious restrictions on the most polluting cars",
+                "explanation": "when 引导时间状语从句说明被赞誉的具体背景与动作；从句主语 it（指代马德里），谓语动词短语 rolled out（推出、出台），宾语 ambitious restrictions（雄心勃勃的限制措施），介词短语 on the most polluting cars 作后置定语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Madrid was hailed as a public health guiding light ... rolled out ambitious restrictions",
+                "explanation": "篇首新闻叙事引子。以马德里出台严厉治污限行政策、被奉为全欧洲环保楷模开篇，与下文保守派新政府上台后政策急剧反转形成极强的戏剧性反差，为全文探讨地方治污困境拉开帷幕。"
               }
             ]
           }
@@ -3708,8 +4023,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Seven months and one election day later, a new conservative ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Seven months and one election day later, a new conservative city council suspended enforcement of the clean air zone",
+                "explanation": "主干为主谓宾结构。时间状语短语 Seven months and one election day later；主语 a new conservative city council（新上任的保守派市议会）；谓语动词 suspended 为一般过去时及物动词（暂停、中止）；宾语 enforcement of the clean air zone（清洁空气区的行政执法）。"
+              },
+              {
+                "type": "同位语修饰",
+                "content": "a first step toward its possible termination",
+                "explanation": "逗号后名词短语充当前面 suspended enforcement 这一举动的同位语，对其政治意图进行定性——迈向彻底终结该清洁空气区的第一步；介词短语 toward its possible termination 作后置定语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "suspended enforcement of the clean air zone, a first step toward its possible termination",
+                "explanation": "转折发展（政策反转）。仅仅相隔7个月与一场地方选举，环保标杆即遭叫停，生动刻画出缺乏更高层级法律依托的地方性环保政策在选民情绪冲击下的极度脆弱性。"
               }
             ]
           }
@@ -3726,8 +4051,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Mayor José Luis Martínez-Almeida made opposition to the zone...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Mayor José Luis Martínez-Almeida made opposition to the zone a centrepiece of his election campaign",
+                "explanation": "主干为主谓宾补结构。主语 Mayor José Luis Martínez-Almeida；谓语动词 made 为一般过去时；宾语 opposition to the zone（对该区域的反对）；宾语补足语 a centrepiece of his election campaign（其竞选活动的核心纲领）。"
+              },
+              {
+                "type": "让步介词短语修饰",
+                "content": "despite its success in improving air quality",
+                "explanation": "介词 despite 引导让步状语短语；名词短语 its success 作 despite 的宾语；介词短语 in improving air quality 作 success 的后置定语，动名词 improving 带有宾语 air quality。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "made opposition to the zone a centrepiece ... despite its success in improving air quality",
+                "explanation": "反差事实 / Q31 干扰项 A 驳斥点。市长竟以反对该区域为竞选资本，且该区域在改善空气质量上成效显著（despite its success）。这直接驳斥了 Q31 干扰项 A（效果值得怀疑），证明政策遭遇阻力不是因为效果不佳，而是因为动了开车阶层的钱包。"
               }
             ]
           }
@@ -3744,8 +4079,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "A judge has now overruled the city’s decision to stop levyin...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "A judge has now overruled the city’s decision to stop levying fines",
+                "explanation": "主干为主谓宾结构。主语 A judge（法官）；时间副词 now；谓语动词 has overruled 为现在完成时及物动词（驳回、否决）；宾语 the city’s decision；动词不定式短语 to stop levying fines 作 decision 的后置定语，其中 stop 带有动名词短语 levying fines 作宾语。"
+              },
+              {
+                "type": "现在分词伴随/结果状语",
+                "content": "ordering them restored",
+                "explanation": "现在分词短语 ordering them restored 作伴随/结果状语，逻辑主语为 A judge；order 带有复合宾语结构，代词 them 指代罚款（fines），过去分词 restored 作宾语补足语，意为“下令恢复征收罚款”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "A judge has now overruled the city’s decision to stop levying fines, ordering them restored.",
+                "explanation": "司法介入博弈 / Q31 干扰项 B 驳斥点。法官推翻了市政当局终止罚款的决定，并命令恢复罚款，说明司法力量介入维系环保区存续。Q31 干扰项 B 颠倒黑白宣称法官反对清洁区，在此被客观事实彻底推翻。"
               }
             ]
           }
@@ -3762,8 +4107,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But with legal battles ahead, the zone’s future looks uncert...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "the zone’s future looks uncertain at best",
+                "explanation": "主干为主系表结构。转折连词 But；主语 the zone’s future（该区域的前景/命运）；系动词 looks；表语形容词 uncertain（充满不确定性的、悬而未决的）；介词短语 at best 作状语，意为“充其量、往最好里说”。"
+              },
+              {
+                "type": "with复合结构作状语",
+                "content": "with legal battles ahead",
+                "explanation": "介词 with 复合结构作伴随/原因状语，名词短语 legal battles（法律诉讼战）为逻辑主语，副词 ahead（在前方、未来）作状语补足语，表明后续仍面临漫长艰苦的司法拉锯。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "with legal battles ahead, the zone’s future looks uncertain at best",
+                "explanation": "段末总括 / Q31 题眼。用 uncertain at best 精辟总结环保区陷入政法对抗、前途未卜的僵局，直接对应 Q31 正确项 D（Its fate is yet to be decided，命运尚待决断）。"
               }
             ]
           }
@@ -3779,9 +4134,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that characterises efforts on air pollution a...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Madrid’s back and forth on clean air is a pointed reminder of the limits to the patchwork, city-by-city approach",
+                "explanation": "主干为主系表复合结构。主语 Madrid’s back and forth on clean air（名词短语 back and forth 意为“反复无常、拉锯反复”）；系动词 is；表语 a pointed reminder of the limits to the patchwork, city-by-city approach（一个尖锐发人深省的提醒，指明拼凑修补、各自为战做法的局限性）。"
+              },
+              {
+                "type": "定语从句与独立主格",
+                "content": "that characterises efforts on air pollution across Europe, Britain very much included",
+                "explanation": "关系代词 that 引导限制性定语从句修饰 approach，从句谓语动词 characterises 为一般现在时及物动词（表征、是……的典型特征），宾语 efforts on air pollution across Europe；逗号后 Britain very much included 为独立主格结构作补充状语（名词 Britain + 过去分词 included）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "pointed reminder of the limits to the patchwork, city-by-city approach that characterises efforts on air pollution across Europe",
+                "explanation": "全篇宏观论点确立。作者由马德里个案上升到全欧洲制度反思：点破当前欧洲（包括英国）治污体系的通病在于“零敲碎打、单兵作战（patchwork, city-by-city）”，直接为后文呼吁国家统筹规管车企埋下立论总纲。"
               }
             ]
           }
@@ -3797,9 +4162,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when left to tackle dirty air on their own ar...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Among other weaknesses, the measures ... are politically controversial, and therefore vulnerable.",
+                "explanation": "主干为主系表结构。介词短语 Among other weaknesses 作范围状语；主语 the measures cities must employ when left to tackle dirty air on their own；系动词 are；并列连词 and therefore 连接两个形容词表语 politically controversial, and therefore vulnerable（在政治上充满争议，因而极度脆弱）。"
+              },
+              {
+                "type": "定语从句与省略状语从句",
+                "content": "cities must employ when left to tackle dirty air on their own",
+                "explanation": "cities must employ 为省略 that/which 的限制性定语从句修饰 the measures；when left to tackle dirty air on their own 为时间状语从句的省略形式（完整形式为 when they are left...），过去分词 left 与不定式 to tackle 构成复合被动结构，介词短语 on their own 作方式状语（独自应对）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "measures cities must employ when left to tackle dirty air on their own are politically controversial, and therefore vulnerable",
+                "explanation": "制度病理深度剖析 / Q32 考点铺垫。一针见血指出地方措施的先天缺陷：当城市被迫单独面对有毒空气时，所采取的措施在政治上极易招致民意反弹，在政权交替中极易夭折。"
               }
             ]
           }
@@ -3815,14 +4190,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who must pay fees or buy better vehicles—rat...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "That’s because they inevitably put the costs of cleaning the air on to individual drivers ... rather than on to the car manufacturers",
+                "explanation": "主干为主系表复合结构。主语 That；系动词 is；because 引导表语从句解释政治反弹的根本机制；从句主语 they（指代地方治理措施），副词 inevitably，谓语短语 put... on to... rather than on to...（将……转嫁给……而不是……），宾语 the costs of cleaning the air。"
               },
               {
-                "type": "状语从句",
-                "content": "because they inevitably put the costs of cleanin...",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "并列定语从句与后置修饰",
+                "content": "—who must pay fees or buy better vehicles— ... whose cheating is the real cause of our toxic pollution",
+                "explanation": "破折号内 who 引导非限制性定语从句修饰 individual drivers，说明普通司机被迫承担的经济重负（交费或买新车）；rather than 后面接 whose 引导的限制性定语从句修饰 the car manufacturers，从句主语 whose cheating，系动词 is，表语 the real cause of our toxic pollution。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "put the costs of cleaning the air on to individual drivers ... rather than on to the car manufacturers whose cheating is the real cause",
+                "explanation": "权责错配核心批判 / Q32 题眼。揭示出地方政策最致命的制度不公：真正的污染元凶是排放作弊的跨国汽车巨头，但账单却被全部转嫁给了普通个体司机。直接对应 Q32 正确项 A（They put the burden on individual motorists）。"
               }
             ]
           }
@@ -3839,8 +4219,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "It’s not hard to imagine a similar reversal happening in Lon...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "It’s not hard to imagine a similar reversal happening in London.",
+                "explanation": "主干为主系表复合结构。It 为形式主语；系动词 is；表语形容词短语 not hard；真正主语为动词不定式短语 to imagine a similar reversal happening in London。"
+              },
+              {
+                "type": "非谓语复合结构",
+                "content": "to imagine a similar reversal happening in London",
+                "explanation": "不定式动词 imagine 带有复合宾语结构，a similar reversal 为逻辑主语，现在分词短语 happening in London 作宾语补足语，生动具象化描绘逆转在伦敦重演的场景。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "not hard to imagine a similar reversal happening in London",
+                "explanation": "案例迁移与类比推进。作者将论证焦点从西班牙马德里自然过渡到英国伦敦，警示同样的政治反扑与政策崩盘即将降临伦敦。"
               }
             ]
           }
@@ -3857,8 +4247,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The new ultra-low emission zone (Ulez) is likely to be a big...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election.",
+                "explanation": "主干为主系表结构。主语 The new ultra-low emission zone (Ulez)（括号内为专有名词缩略语）；系表短语 is likely to be；表语 a big issue；时间状语介词短语 in next year’s mayoral election。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The new ultra-low emission zone (Ulez) is likely to be a big issue in next year’s mayoral election.",
+                "explanation": "政治风险预警。直指伦敦超低排放区必然卷入选举政治风暴，成为各派政客争夺选票的火药桶。"
               }
             ]
           }
@@ -3874,14 +4269,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who will then be affected....",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "it is sure to spark intense opposition from the far larger number of motorists",
+                "explanation": "主干为条件复合句。连词 And；前置 if 引导条件状语从句；主句为主系表结构：主语 it，系表短语 is sure to spark（必定会引发），宾语 intense opposition（激烈的反对），介词短语 from the far larger number of motorists 作来源状语。"
               },
               {
-                "type": "状语从句",
-                "content": "if Sadiq Khan wins and extends it to the No...",
-                "explanation": "从属连词 <code>if</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "条件从句与定语从句",
+                "content": "if Sadiq Khan wins and extends it to the North and South Circular roads in 2021 as he intends ... who will then be affected",
+                "explanation": "if 从句中，Sadiq Khan 作主语，并列谓语 wins 与 extends it to...，as he intends 作方式状语；主句句末包含 who 引导的限制性定语从句 who will then be affected 修饰先行词 motorists，被动语态表明车主将受到扩区冲击。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "extends it ... is sure to spark intense opposition from the far larger number of motorists",
+                "explanation": "选情民意预测 / Q33 题眼。作者明确推断扩区势必激怒广大车主群体的切身利益，直接对应 Q33 正确项 B（arouse strong resistance），spark intense opposition 与选项构成字面与语义的双重精准对齐。"
               }
             ]
           }
@@ -3897,9 +4297,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that measures such as London’s Ulez are usele...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "It’s not that measures such as London’s Ulez are useless.",
+                "explanation": "主干为主系表复合句。It 为形式主语；is 为系动词；not that 引导表语从句，固定句型 It is not that... 意为“这并不是说……、并非表明……”。"
+              },
+              {
+                "type": "表语从句剖析",
+                "content": "that measures such as London’s Ulez are useless",
+                "explanation": "that 引导表语从句说明被否定的观点；从句主语 measures，介词短语 such as London’s Ulez 作后置定语举例，系动词 are，表语形容词 useless（无用的）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "It’s not that measures such as London’s Ulez are useless.",
+                "explanation": "让步立论转折。作者在此主动进行辩证平衡：批评地方措施在政治上不可持续，绝非否定其改善空气质量的现实技术效果，展现议论文的严密性。"
               }
             ]
           }
@@ -3916,8 +4326,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Far from it....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Far from it.",
+                "explanation": "主干为省略/习语表达。全句由固定习语短语 Far from it 独立成句，充当评注性强调成分，意为“远非如此、完全相反”，其完整句式还原为 It is far from being useless。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Far from it.",
+                "explanation": "短句修辞强调。用短促有力的单句断然否定“地方措施无用论”，迅速承接下文对地方官员尽职尽责的正面肯定。"
               }
             ]
           }
@@ -3933,9 +4348,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that are available to them to safeguard resid...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Local officials are using the levers ... to safeguard residents’ health",
+                "explanation": "主干为主谓宾结构。主语 Local officials（地方官员）；谓语动词 are using 为现在进行时；宾语 the levers（杠杆、施政手段）；不定式短语 to safeguard residents’ health 作目的状语；介词短语 in the face of a serious threat 作伴随/环境状语。"
+              },
+              {
+                "type": "定语从句剖析",
+                "content": "that are available to them",
+                "explanation": "关系代词 that 引导限制性定语从句修饰先行词 the levers，从句中 that 作主语，are 为系动词，形容词短语 available to them（供其使用的）作表语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Local officials are using the levers that are available to them to safeguard residents’ health",
+                "explanation": "动机辩护与局限反衬 / Q34 辨析。肯定地方官员是在穷尽微薄手段保护居民生命健康，但“手中仅有的杠杆”恰恰暴露了地方权力的捉襟见肘，反向衬托出掌握上位规管大权的国家政府的缺位。"
               }
             ]
           }
@@ -3951,9 +4376,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that means real health benefits....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "The zones do deliver some improvements to air quality, and the science tells us that means real health benefits.",
+                "explanation": "主干为并列复合句。连词 and 连接两个分句：分句一 The zones do deliver some improvements to air quality，助动词 do 强调谓语 deliver（确实带来了），宾语 some improvements；分句二 the science tells us that means real health benefits，主语 the science，谓语 tells，间接宾语 us，后接省略 that 的直接宾语从句。"
+              },
+              {
+                "type": "从句剖析",
+                "content": "that means real health benefits",
+                "explanation": "直接引语/宾语从句中，代词 that 指代前述“空气改善的事实”作从句主语，means 为谓语动词，real health benefits（切实的健康收益）为宾语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "zones do deliver some improvements ... science tells us that means real health benefits",
+                "explanation": "科学实证背书。以科学结论确证低排放区对健康的切实好处，彻底封死“措施本身毫无成效”的质疑，使讨论的核心不可动摇地锚定在“成本分担与源头问责”上。"
               }
             ]
           }
@@ -3969,9 +4404,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that is far bigger than any one city or town....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "But mayors and councillors can only do so much about a problem",
+                "explanation": "主干为主谓宾复合结构。转折连词 But；主语 mayors and councillors（市长与市议员们）；情态动词短语 can only do so much（所能做的非常有限）；介词短语 about a problem 作对象定语/状语。"
+              },
+              {
+                "type": "定语从句与比较级",
+                "content": "that is far bigger than any one city or town",
+                "explanation": "关系代词 that 引导限制性定语从句修饰先行词 a problem；从句中 is 为系动词，形容词比较级短语 far bigger than any one city or town 作表语，far 为程度副词修饰比较级 bigger。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "mayors and councillors can only do so much about a problem that is far bigger than any one city or town",
+                "explanation": "权责局限剖析 / Q34 排除干扰项 C与D。明确界定地方官员的权力天花板：面对全国性甚至跨国界的汽车工业污染，市级官员的能力极其受限，排除其作为根本解决者的资格。"
               }
             ]
           }
@@ -3987,9 +4432,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "because national governments—Britain’s and other...",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "They are acting because national governments ... have failed to do so.",
+                "explanation": "主干为主谓结构 + 原因状语从句。主语代词 They（指代地方市长和官员）；谓语动词 are acting 为现在进行时；because 引导原因状语从句解释他们不得不行动的根源。"
+              },
+              {
+                "type": "状语从句与破折号同位语",
+                "content": "because national governments—Britain’s and others across Europe—have failed to do so",
+                "explanation": "because 引导原因状语从句，从句主语 national governments；破折号插入语 Britain’s and others across Europe 作同位语详细说明；从句谓语动词 have failed to do so 为现在完成时，fail to do so 意为“未能履职尽责”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "They are acting because national governments ... have failed to do so.",
+                "explanation": "责任核心聚焦 / Q34 题眼。作者掷地有声地指出根本责任所在：市长们行动只是替罪羊式的补救，真正的原因是国家政府严重失职。直接对应 Q34 正确项 B（National governments）。"
               }
             ]
           }
@@ -4005,9 +4460,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that keep highly polluting cars out of certai...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Restrictions ... are a response to the absence of a larger effort to properly enforce existing regulations and require auto companies to bring their vehicles into compliance.",
+                "explanation": "主干为主系表长难句。主语 Restrictions；系动词 are；表语 a response to the absence of a larger effort...（对更大作为缺失的一种回应）；介词短语 to the absence of a larger effort 作补足语；effort 后接两个并列动词不定式短语作后置定语说明核心内容。"
+              },
+              {
+                "type": "定语从句、破折号同位语与并列不定式",
+                "content": "that keep highly polluting cars out of certain areas—city centres, “school streets”, even individual roads— ... to properly enforce existing regulations and require auto companies to bring their vehicles into compliance",
+                "explanation": "that 引导限制性定语从句修饰主语 Restrictions，keep... out of... 意为“将……排除在……之外”；破折号之间为被限制区域的同位语举例；effort 后接并列不定式：① to properly enforce existing regulations（妥善执行现行法规）；② to require auto companies to bring their vehicles into compliance（要求车企使其车辆合规达标，bring... into compliance 为固定搭配）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "a response to the absence of a larger effort to properly enforce existing regulations and require auto companies to bring their vehicles into compliance",
+                "explanation": "根本制度病灶总括 / Q35 核心依据。深刻指明区域限行不过是对国家法治缺位（absence of a larger effort）的被动应激，真正的治本之策在于国家层面必须动用法治武器、强制车企达标合规。"
               }
             ]
           }
@@ -4024,8 +4489,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Wales has introduced special low speed limits to minimise po...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Wales has introduced special low speed limits to minimise pollution.",
+                "explanation": "主干为主谓宾结构。主语 Wales（威尔士政府）；谓语动词 has introduced 为现在完成时及物动词（出台、引入）；宾语 special low speed limits（特殊的低限速规定）；不定式短语 to minimise pollution 作目的状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Wales has introduced special low speed limits to minimise pollution.",
+                "explanation": "地方拼凑举措又一例证。补充举出威尔士通过极端降速来减少尾气的无奈做法，进一步佐证地方政府在缺乏上位法支持时只能采取折腾老百姓的“奇技淫巧”。"
               }
             ]
           }
@@ -4041,9 +4511,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that manufacturers clean up their cars....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "We’re doing everything but insist that manufacturers clean up their cars.",
+                "explanation": "主干为主谓宾复合句。主语 We；谓语动词 are doing 为现在进行时；宾语 everything；介词 but 意为“除……之外”；but 后接省略 to 的不定式动词短语 insist that manufacturers clean up their cars。"
+              },
+              {
+                "type": "名词性从句与虚拟语气",
+                "content": "insist that manufacturers clean up their cars",
+                "explanation": "insist 后接 that 引导的宾语从句；由于 insist 表示“坚决主张、要求”，其宾语从句采用虚拟语气，动词 clean up 前省略了情态动词 should，clean up their cars 意为“清理其车辆排放/达标整改”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "We’re doing everything but insist that manufacturers clean up their cars.",
+                "explanation": "篇末警世讽刺与呼吁 / Q35 题眼。以强烈的辛辣讽刺收束全篇：我们用尽了各种苛政，唯独不敢强迫真正的作弊源头车企整改达标。这一警世呼吁直接导向 Q35 正确项 C（should be forced to follow regulations，汽车企业必须被强制遵守法规）。"
               }
             ]
           }
@@ -5346,9 +5826,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that members of Generation Z are graduating c...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "the attention has been rising steadily in recent weeks",
+                "explanation": "主干为主谓结构。主语 the attention（公众的关注度）；谓语动词 has been rising 为现在完成进行时，强调关注度自过去某时起持续攀升且仍在继续；副词 steadily 作程度状语（平稳地、稳步地）；介词短语 in recent weeks 作时间状语。"
+              },
+              {
+                "type": "原因状语从句与插入语",
+                "content": "Now that members of Generation Z are graduating college this spring—the most commonly-accepted definition says this generation was born after 1995, give or take a year—",
+                "explanation": "Now that 引导原因状语从句，意为“既然、如今”，从句主语 members of Generation Z，谓语 are graduating，宾语 college，时间状语 this spring；双破折号之间为长插入语，说明代际学术界定，其中 says 后接省略 that 的宾语从句，give or take a year 为习语插入短语，意为“上下相差约一年”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Now that members of Generation Z are graduating ... the attention has been rising steadily",
+                "explanation": "篇首热点引入 / Q36 题眼。以首届 Z 世代正式走出象牙塔引发广泛公众关注为开篇切入点，the attention has been rising steadily 直接对应 Q36 正确项 D（are drawing growing public attention）。"
               }
             ]
           }
@@ -5365,8 +5855,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Gen Zs are about to hit the streets looking for work in a la...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Gen Zs are about to hit the streets looking for work",
+                "explanation": "主干为主谓宾结构 + 伴随分词。主语 Gen Zs；谓语 are about to hit 为固定句型 be about to do（正要、即将……）；宾语 the streets（走向社会/街头求职）；现在分词短语 looking for work 作伴随状语。"
+              },
+              {
+                "type": "介词短语与定语从句",
+                "content": "in a labor market that’s tighter than it’s been in decades",
+                "explanation": "介词短语 in a labor market 作地点/环境状语；关系代词 that 引导限制性定语从句修饰 labor market，从句中 that 作主语，is 为系动词，tight 为表语形容词（在求职语境中指劳动力紧缺、就业市场繁荣）；than it’s been in decades 构成比较级状语，意为“数十年未见的火爆紧俏”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "in a labor market that’s tighter than it’s been in decades",
+                "explanation": "宏观利好背景反衬。描绘毕业生迈入数十年来最好的求职繁荣大环境，为后文揭示其内心深层反常的“风险厌恶与焦虑”构筑鲜明的客观对比参照。"
               }
             ]
           }
@@ -5382,9 +5882,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语结构",
+                "type": "主干剖析",
+                "content": "And employers are planning on hiring about 17 percent more new graduates for jobs in the U.S. this year than last",
+                "explanation": "主干为主谓宾比较结构。连词 And；主语 employers；谓语动词 are planning on hiring 为现在进行时；宾语核心短语为 about 17 percent more new graduates... than last（比去年多招约17%的应届生）；介词短语 for jobs in the U.S. 作目的定语；this year than last 作时间比较状语。"
+              },
+              {
+                "type": "评注状语与过去分词修饰",
                 "content": "according to a survey conducted by the National Association of Colleges and Employers",
-                "explanation": "介词短语作状语，其中包含过去分词短语 conducted by... 作后置定语修饰 survey。"
+                "explanation": "介词短语 according to... 作消息来源评注状语；过去分词短语 conducted by the National Association of Colleges and Employers 作 survey 的后置定语，表明由美国大学与雇主协会权威开展。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "employers are planning on hiring about 17 percent more new graduates ... this year than last",
+                "explanation": "权威数据佐证。以招聘名额暴增 17% 的硬指标佐证就业市场一片大好，进一步蓄势：大环境如此向好，为什么这代年轻人依然忧心忡忡？引出代际心理深挖。"
               }
             ]
           }
@@ -5400,9 +5910,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who will soon inhabit those empty office cub...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Everybody wants to know",
+                "explanation": "主干为主谓宾复合结构。主语不定代词 Everybody；谓语动词 wants to know 为及物动词短语（想知道）；how 引导的复杂宾语从句充当 know 的宾语。"
+              },
+              {
+                "type": "宾语从句与双重定语从句",
+                "content": "how the people who will soon inhabit those empty office cubicles will differ from those who came before them",
+                "explanation": "how 引导宾语从句：从句主语 the people，后接 who will soon inhabit those empty office cubicles 定语从句修饰（即将入驻空置办公格子间的新人）；从句谓语动词短语 will differ from（将有何不同）；从句介词宾语代词 those，后接 who came before them 定语从句修饰（指代前任千禧一代等前人）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "how the people who will soon inhabit those empty office cubicles will differ from those who came before them",
+                "explanation": "承上启下过渡句。以社会大众对新新人类的好奇审视（inhabit office cubicles 职场具象化比喻）为枢纽，从宏观招聘规模自然过渡到微观代际特质分析。注意 Q36 干扰项 C（偏好办公室工作）属于把 cubicles 这一修辞比喻生搬硬套为工种偏好。"
               }
             ]
           }
@@ -5418,9 +5938,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "If “entitled” is the most common adjective...",
-                "explanation": "从属连词 <code>If</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "the catchwords for Generation Z are practical and cautious",
+                "explanation": "主干为主系表结构。主语 the catchwords for Generation Z（核心词 catchwords 意为“口号、标签、关键词”）；系动词 are；表语为并列形容词 practical and cautious（务实与谨慎）。"
+              },
+              {
+                "type": "条件/对比从句与非谓语修饰",
+                "content": "If “entitled” is the most common adjective, fairly or not, applied to millennials (those born between 1981 and 1995)",
+                "explanation": "If 引导条件对比状语从句；从句主语 “entitled”（享有特权的、自视甚高的）；系动词 is；表语 the most common adjective；插入语 fairly or not（不论是否公允）；过去分词短语 applied to millennials 作 adjective 的后置定语；括号内 those born between 1981 and 1995 作 millennials 的同位语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "If “entitled” ... applied to millennials ... the catchwords for Generation Z are practical and cautious",
+                "explanation": "两代性格鲜明对照。将千禧一代的浮躁自大标签（entitled）与 Z 世代的 practical and cautious（务实谨慎）形成经典对仗，定下全文对 Z 世代核心性格的根本定性基调。"
               }
             ]
           }
@@ -5436,9 +5966,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who study them...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Generation Zs are clear-eyed, economic pragmatists",
+                "explanation": "主干为主系表结构。主语 Generation Zs；系动词 are；表语名词短语 clear-eyed, economic pragmatists（目光敏锐、头脑清醒的经济实用主义者）。"
+              },
+              {
+                "type": "评注状语与定语从句",
+                "content": "According to the career counselors and experts who study them",
+                "explanation": "介词短语 According to... 作全句评注状语；关系代词 who 引导限制性定语从句 who study them 修饰先行词 counselors and experts，从句中 study 为及物动词，them 指代 Z 世代青年。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "According to the career counselors and experts ... Generation Zs are clear-eyed, economic pragmatists",
+                "explanation": "专业学者定性背书。借助职业顾问与学者的权威视角，强化这代人“务实、精明、注重经济利益”的核心人设。注意 Q37 干扰项 B（觉得导师建议宝贵）主客体颠倒，原文是导师在研究观察他们。"
               }
             ]
           }
@@ -5454,9 +5994,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "what an economic train wreck looks like....",
-                "explanation": "连接词 <code>what</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Gen Zs know what an economic train wreck looks like",
+                "explanation": "主干为主谓宾复合结构。主语 Gen Zs；谓语动词 know 为一般现在时及物动词；what 引导的宾语从句 what an economic train wreck looks like 充当 know 的宾语。"
+              },
+              {
+                "type": "让步短语与从句剖析",
+                "content": "Despite graduating into the best economy in the past 50 years ... what an economic train wreck looks like",
+                "explanation": "介词 Despite 引导让步状语短语，动名词 graduating 带有介词短语 into the best economy in the past 50 years；宾语从句中 an economic train wreck 作主语（train wreck 原意为火车失事，引申为“毁灭性大灾难”），looks like 为谓语动词短语，what 作 like 的宾语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "know what an economic train wreck looks like",
+                "explanation": "心理根源破题 / Q37 题眼。作者一针见血指明反常心态的根源：虽然赶上50年来最好经济，但他们目睹过经济灾难的残酷。直接对应 Q37 正确项 C（what a tough economic situation is like），train wreck 与 tough economic situation 形成绝妙的隐喻转换。"
               }
             ]
           }
@@ -5472,9 +6022,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when many of their parents lost their jobs or...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "They were impressionable kids during the crash of 2008",
+                "explanation": "主干为主系表结构。主语 They（指代 Z 世代）；系动词 were 为一般过去时；表语 impressionable kids（极易受影响/感知敏锐的幼童）；介词短语 during the crash of 2008 作时间状语，the crash of 2008 特指2008年全球金融海啸大崩盘。"
+              },
+              {
+                "type": "定语从句剖析",
+                "content": "when many of their parents lost their jobs or their life savings or both",
+                "explanation": "关系副词 when 引导非限制性定语从句修饰 the crash of 2008；从句主语 many of their parents，谓语 lost，宾语由 or 连接三个并列选项：their jobs（工作）、their life savings（毕生积蓄）、or both（两者皆失）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "impressionable kids during the crash of 2008, when many of their parents lost their jobs or their life savings",
+                "explanation": "童年创伤印记。具象化刻画其童年时期目睹家庭支柱失业破产的深刻惨痛记忆，解释了为何外在繁荣无法驱散其内心的防守心理。注意 Q37 干扰项 A（父母对其期望）属于张冠李戴，文中提父母是讲父母失业之痛。"
               }
             ]
           }
@@ -5491,8 +6051,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "They aren’t interested in taking any chances....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "They aren’t interested in taking any chances.",
+                "explanation": "主干为主系表结构。主语代词 They；谓语 aren’t interested in 为固定短语 be interested in 的一般现在时否定式；介词 in 后接动名词短语 taking any chances 作宾语；take chances 为固定习语，意为“碰运气、冒险、涉险”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "They aren’t interested in taking any chances.",
+                "explanation": "避险心理定格 / Q40 论据基石。用简洁短句极力突出这一群体“绝不涉险”的防御性行为准则，为文末 Q40 锁定 less adventurous（不爱冒险）构筑第一重铁证。"
               }
             ]
           }
@@ -5508,9 +6073,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who have college debt....",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "The booming economy seems to have done little to assuage this underlying generational sense of anxious urgency",
+                "explanation": "主干为主谓宾补结构。主语 The booming economy（繁荣的经济）；谓语动词 seems 接动词不定式完成式 to have done（表明繁荣并未能起到成效）；宾语代词 little（具有半否定意义，意为“几乎没有任何作用”）；不定式短语 to assuage... 作结果/目的状语，assuage this underlying generational sense of anxious urgency 意为“抚平这种深层代际焦虑与紧迫感”。"
+              },
+              {
+                "type": "修饰短语与定语从句",
+                "content": "especially for those who have college debt",
+                "explanation": "especially 介词短语作补充范围状语；关系代词 who 引导限制性定语从句 who have college debt（背负大学学贷债务）修饰代词 those。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "done little to assuage this underlying generational sense of anxious urgency",
+                "explanation": "词义考点与反差修辞 / Q38 题眼。通过繁荣经济本该消弭焦虑却“收效甚微（done little）”的强烈语境反差，考察核心动词 assuage（平息、缓和、减轻）。直接对应 Q38 正确项 D（relieve），排除干扰项 A（deepen）、B（define）、C（maintain）。"
               }
             ]
           }
@@ -5528,7 +6103,17 @@
               {
                 "type": "主干剖析",
                 "content": "College loan balances in the U.S. now stand at a record $1.5 trillion",
-                "explanation": "全句为主谓宾结构，主语为 College loan balances in the U.S.，谓语为 stand at。"
+                "explanation": "主干为主谓介宾结构。主语 College loan balances in the U.S.（核心词 balances 意为“贷款未偿余额”）；时间副词 now；动词短语 stand at 作及物谓语，意为“达到、处于……高位”；介词宾语 a record $1.5 trillion（创纪录的1.5万亿美元）。"
+              },
+              {
+                "type": "评注状语",
+                "content": "according to the Federal Reserve",
+                "explanation": "介词短语 according to the Federal Reserve 作权威信息来源评注状语，The Federal Reserve 特指美国联邦储备系统（美联储）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "College loan balances in the U.S. now stand at a record $1.5 trillion",
+                "explanation": "物质现实羁绊论据。用美联储官方公布的 1.5 万亿美元天文数字，揭示这代人无法轻装上阵的沉重现实根源：走出象牙塔即背负巨额债务，安全感与还贷重压逼迫他们必须追求稳妥。"
               }
             ]
           }
@@ -5544,9 +6129,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that 88 percent of graduating seniors this ye...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "One survey from Accenture found that 88 percent of graduating seniors this year chose their major with a job in mind.",
+                "explanation": "主干为主谓宾复合结构。主语 One survey from Accenture（咨询巨头埃森哲的一项调查）；谓语动词 found 为一般过去时及物动词（发现）；that 引导宾语从句充当 found 的宾语。"
+              },
+              {
+                "type": "宾语从句与习语剖析",
+                "content": "that 88 percent of graduating seniors this year chose their major with a job in mind",
+                "explanation": "that 引导从句，从句主语 88 percent of graduating seniors this year，谓语动词 chose，宾语 their major；介词短语 with a job in mind 为核心习语，意为“心中装着明确的工作目标、以就业为导向”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "88 percent of graduating seniors this year chose their major with a job in mind",
+                "explanation": "务实职业规划佐证 / Q39 题眼。高达 88% 的应届毕业生带着明确的就业目标挑选大学专业，生动印证其极高的职业清醒度与明确规划，直接对应 Q39 正确项 B（have a clear idea about their future jobs）。"
               }
             ]
           }
@@ -5563,8 +6158,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In a 2019 survey of University of Georgia students, meanwhil...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "the career office found the most desirable trait in a future employer was the ability to offer secure employment",
+                "explanation": "主干为主谓宾复合结构。前置状语 In a 2019 survey of University of Georgia students；过渡副词 meanwhile；主语 the career office（就业指导中心）；谓语 found；省略 that 的宾语从句充当 found 的宾语。"
+              },
+              {
+                "type": "从句、非谓语与括号优先级",
+                "content": "was the ability to offer secure employment (followed by professional development and training, and then inspiring purpose)",
+                "explanation": "宾语从句中主语 the most desirable trait in a future employer，系动词 was，表语 the ability to offer secure employment（提供稳定饭碗的能力，不定式 to offer 作定语）；括号内过去分词短语 followed by... 作后置修饰，明确排出权重优先级：稳定就业第一，专业培训与发展次之，崇高目标排第三。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the most desirable trait in a future employer was the ability to offer secure employment (followed by professional development...)",
+                "explanation": "诉求优先级铁证 / Q39 干扰项排除。稳定饭碗（secure employment）高居榜首，专业培训仅仅是“排在后面（followed by）”，从而彻底驳倒 Q39 干扰项 A（将专业培训放首位）。"
               }
             ]
           }
@@ -5581,8 +6186,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Job security or stability was the second most important care...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Job security or stability was the second most important career goal",
+                "explanation": "主干为主系表结构。主语并列短语 Job security or stability（工作保障与稳定性）；系动词 was；表语 the second most important career goal（第二重要的职业发展目标）。"
+              },
+              {
+                "type": "括号独立成分与非谓语修饰",
+                "content": "(work-life balance was number one), followed by a sense of being dedicated to a cause or to feel good about serving the greater good",
+                "explanation": "括号内为独立简短分句 (work-life balance was number one) 交代第一目标为工作生活平衡；逗号后过去分词短语 followed by... 作修饰语，介词 of 后接并列成分：动名词 being dedicated to a cause（致力于一项事业）与不定式 to feel good about serving the greater good（通过服务更大的公共利益获得成就感）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Job security or stability was the second most important career goal (work-life balance was number one)",
+                "explanation": "职业价值观定格。工作生活平衡第一、安全感与铁饭碗第二，再次折射出这代人摒弃无谓卷生卷死，追求个人身心稳固与稳定保障的踏实生活哲学。注意 Q39 干扰项 D（认为平衡很难）曲解了调查问卷中关于目标的诉求偏好。"
               }
             ]
           }
@@ -5599,8 +6214,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "That’s a big change from the previous generation....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "That’s a big change from the previous generation.",
+                "explanation": "主干为主系表结构。主语代词 That（指代前述 Z 世代重确定性、重稳定的择业倾向）；系动词 is；表语 a big change（巨大的转变）；介词短语 from the previous generation（相比上一代人）作后置定语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "That’s a big change from the previous generation.",
+                "explanation": "代际对比总领句。用极其斩钉截铁的判断拉开最后一段与前任（千禧一代）全面对撞的帷幕，总领专家下文对两代人生存哲学的深度解剖。"
               }
             ]
           }
@@ -5616,9 +6236,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that conducts regular 60-day surveys of Briti...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "“Millennials wanted more flexibility in their lives,” notes Tanya Michelsen ... in findings",
+                "explanation": "主干为主谓复合引述句。直接引语置前：Millennials wanted more flexibility in their lives（千禧一代追求生活中更多的灵活性）；主句谓语动词 notes；主语 Tanya Michelsen；同位语短语 Associate Director of YouthSight...；介词短语 in findings 作状语。"
+              },
+              {
+                "type": "同位语与双重定语从句",
+                "content": "a UK-based brand manager that conducts regular 60-day surveys of British youth, in findings that might just as well apply to American youth",
+                "explanation": "a UK-based brand manager 作机构 YouthSight 的同位语；其后 that conducts regular 60-day surveys of British youth 为限制性定语从句修饰 manager；in findings 后包含 that 引导的限制性定语从句 that might just as well apply to American youth（其结果同样适用于美国年轻人）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Millennials wanted more flexibility in their lives",
+                "explanation": "千禧一代画像锚定。明确指出千禧一代的核心精神标签是“灵活性（flexibility）”，为下句凸显 Z 世代截然对立的“求稳避险”设立了完美的代际参照系。"
               }
             ]
           }
@@ -5634,9 +6264,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "because of the rise of the gig economy....",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "“Generation Zs are looking for more certainty and stability",
+                "explanation": "主干为主谓宾介词结构。引语主语 Generation Zs；谓语动词短语 are looking for 为现在进行时，意为“寻找、追求、渴望”；宾语为并列名词短语 more certainty and stability（更多的确定性与稳定性）。"
+              },
+              {
+                "type": "介词短语作原因状语",
+                "content": "because of the rise of the gig economy",
+                "explanation": "介词短语 because of the rise of the gig economy 作全句原因状语，指出追求稳定的外部诱因在于零工经济（the gig economy，指灵活用工、外卖网约车等不稳定就业模式）的爆发式崛起，导致传统职业保障瓦解。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Generation Zs are looking for more certainty and stability, because of the rise of the gig economy.",
+                "explanation": "深层避险根源揭示 / Q40 题眼。深刻剖析由于零工经济泛滥导致打工人保障丧失，这代年轻人因而对“确定性与稳定性（certainty and stability）”产生近乎偏执的向往，与千禧一代追求灵活自由形成鲜明反差。"
               }
             ]
           }
@@ -5653,8 +6293,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "They have troubles seeing a financial future and they are qu...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "They have troubles seeing a financial future and they are quite risk averse.”",
+                "explanation": "主干为并列陈述句。连词 and 连接两个分句：分句一 They have troubles seeing a financial future，主语 They，谓语动词短语 have trouble doing sth（难以看清财务未来）；分句二 they are quite risk averse，主语 they，系动词 are，表语形容词短语 quite risk averse（相当规避风险、高度厌恶风险）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "have troubles seeing a financial future and they are quite risk averse",
+                "explanation": "全篇点睛之笔 / Q40 题眼。以 quite risk averse（高度厌恶风险）给整代年轻人的心理画像画上句号。直接对应 Q40 正确项 B（less adventurous，更不爱冒险）。全篇在务实、求稳、避险的鲜明基调中收官。"
               }
             ]
           }
