@@ -786,6 +786,67 @@ body.theme-dark .vocab-tip {
   z-index: 40;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+  transition: padding 0.2s ease, margin 0.2s ease, border-radius 0.2s ease, box-shadow 0.2s ease;
+}
+
+.workspace-toolbar-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.workspace-toolbar-toggle-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  user-select: none;
+}
+
+.ws-toggle-btn {
+  font-size: 0.8em;
+  padding: 3px 8px;
+  font-weight: 700;
+  color: var(--mode-color);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.ws-toggle-btn:hover {
+  background: var(--card-bg);
+  border-color: var(--mode-color);
+}
+
+/* Collapsed State: docked compactly at top-right */
+.workspace-toolbar.collapsed {
+  width: fit-content;
+  margin-left: auto;
+  margin-bottom: 8px;
+  padding: 4px 10px;
+  border-radius: var(--radius-full, 9999px);
+  box-shadow: var(--shadow-sm, 0 1px 3px rgba(0, 0, 0, 0.06));
+  cursor: pointer;
+}
+
+.workspace-toolbar.collapsed .workspace-toolbar-controls {
+  display: none !important;
+}
+
+.workspace-toolbar.collapsed .ws-toggle-btn {
+  background: transparent;
+  border-color: transparent;
+  padding: 0 4px;
+}
+
+.workspace-toolbar.collapsed .ws-toggle-btn:hover {
+  background: var(--surface);
+  border-color: var(--border);
 }
 
 /* Vocabulary Matrix Badges (Review Mode) */

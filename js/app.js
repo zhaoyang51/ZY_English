@@ -714,6 +714,65 @@
       };
     }
 
+    // 1b. Workspace Layout Toolbar Collapse Toggle
+    const toggleWsToolbarBtn = document.getElementById('toggleWsToolbarBtn');
+    const wsToolbarTitle = document.getElementById('wsToolbarTitle');
+    const wsToolbar = document.getElementById('workspaceToolbar');
+    const wsToggleIcon = document.getElementById('wsToggleIcon');
+    const wsToggleText = document.getElementById('wsToggleText');
+
+    function setWorkspaceToolbarCollapsed(collapsed) {
+      if (!wsToolbar) return;
+      if (collapsed) {
+        wsToolbar.classList.add('collapsed');
+        if (wsToggleIcon) wsToggleIcon.textContent = '▼';
+        if (wsToggleText) wsToggleText.textContent = '展开';
+        if (toggleWsToolbarBtn) toggleWsToolbarBtn.title = '展开工作台排版栏';
+      } else {
+        wsToolbar.classList.remove('collapsed');
+        if (wsToggleIcon) wsToggleIcon.textContent = '▲';
+        if (wsToggleText) wsToggleText.textContent = '收起';
+        if (toggleWsToolbarBtn) toggleWsToolbarBtn.title = '收起工作台排版栏';
+      }
+      try {
+        localStorage.setItem('kaoyan_workspace_toolbar_collapsed', collapsed ? '1' : '0');
+      } catch (e) {}
+    }
+
+    if (wsToolbar) {
+      try {
+        const isSavedCollapsed = localStorage.getItem('kaoyan_workspace_toolbar_collapsed') === '1';
+        if (isSavedCollapsed) {
+          setWorkspaceToolbarCollapsed(true);
+        }
+      } catch (e) {}
+
+      if (toggleWsToolbarBtn) {
+        toggleWsToolbarBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          const isCurrentlyCollapsed = wsToolbar.classList.contains('collapsed');
+          setWorkspaceToolbarCollapsed(!isCurrentlyCollapsed);
+        });
+      }
+
+      if (wsToolbarTitle) {
+        wsToolbarTitle.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          const isCurrentlyCollapsed = wsToolbar.classList.contains('collapsed');
+          setWorkspaceToolbarCollapsed(!isCurrentlyCollapsed);
+        });
+      }
+
+      // If user clicks on the collapsed toolbar pill itself, expand it
+      wsToolbar.addEventListener('click', (e) => {
+        if (wsToolbar.classList.contains('collapsed')) {
+          setWorkspaceToolbarCollapsed(false);
+        }
+      });
+    }
+
     // 2. Year and Text dropdowns
     document.getElementById('yearSelect').addEventListener('change', e => {
       AppState.year = Number(e.target.value);

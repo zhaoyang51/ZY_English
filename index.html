@@ -8,7 +8,7 @@
   <!-- Modular Stylesheets -->
   <link rel="stylesheet" href="css/theme.css">
   <link rel="stylesheet" href="css/typography.css?v=20260905_v2">
-  <link rel="stylesheet" href="css/components.css?v=20260905_v2">
+  <link rel="stylesheet" href="css/components.css?v=20260905_v3">
   <link rel="stylesheet" href="css/vocab.css?v=20260903_v1">
 </head>
 <body class="mode-practice">
@@ -96,20 +96,25 @@
       <div class="scroll-container" id="rightScroll">
         <!-- Right Panel Font & Layout Toolbar -->
         <div class="reader-toolbar workspace-toolbar" id="workspaceToolbar">
-          <div class="toolbar-group">
-            <span style="font-size:0.82em;font-weight:700;color:var(--muted)">字号:</span>
-            <button class="toolbar-btn" id="btnWsFontDec" title="缩小工作台字号">A-</button>
-            <span class="font-size-badge" id="wsFontBadge">16px</span>
-            <button class="toolbar-btn" id="btnWsFontInc" title="放大工作台字号">A+</button>
+          <div class="workspace-toolbar-controls" id="workspaceToolbarControls">
+            <div class="toolbar-group">
+              <span style="font-size:0.82em;font-weight:700;color:var(--muted)">字号:</span>
+              <button class="toolbar-btn" id="btnWsFontDec" title="缩小工作台字号">A-</button>
+              <span class="font-size-badge" id="wsFontBadge">16px</span>
+              <button class="toolbar-btn" id="btnWsFontInc" title="放大工作台字号">A+</button>
+            </div>
+            <div class="toolbar-group">
+              <span style="font-size:0.82em;font-weight:700;color:var(--muted)">行距:</span>
+              <button class="toolbar-btn" data-wslh="1.5" id="btnWsLhTight">紧凑</button>
+              <button class="toolbar-btn" data-wslh="1.75" id="btnWsLhNormal">舒适</button>
+              <button class="toolbar-btn" data-wslh="2.1" id="btnWsLhLoose">宽松</button>
+            </div>
           </div>
-          <div class="toolbar-group">
-            <span style="font-size:0.82em;font-weight:700;color:var(--muted)">行距:</span>
-            <button class="toolbar-btn" data-wslh="1.5" id="btnWsLhTight">紧凑</button>
-            <button class="toolbar-btn" data-wslh="1.75" id="btnWsLhNormal">舒适</button>
-            <button class="toolbar-btn" data-wslh="2.1" id="btnWsLhLoose">宽松</button>
-          </div>
-          <div class="toolbar-group" style="margin-left:auto">
-            <span style="font-size:0.8em;font-weight:700;color:var(--mode-color)">🧠 工作台排版</span>
+          <div class="toolbar-group workspace-toolbar-toggle-group" style="margin-left:auto">
+            <span class="ws-toolbar-title" id="wsToolbarTitle" style="font-size:0.8em;font-weight:700;color:var(--mode-color);cursor:pointer;" title="点击收起或展开工作台排版栏">🧠 工作台排版</span>
+            <button id="toggleWsToolbarBtn" class="toolbar-btn ws-toggle-btn" title="收起/展开工作台排版栏" style="font-size:0.8em;padding:3px 8px;font-weight:700;color:var(--mode-color);cursor:pointer;display:inline-flex;align-items:center;gap:3px;">
+              <span id="wsToggleIcon">▲</span> <span id="wsToggleText">收起</span>
+            </button>
           </div>
         </div>
 
@@ -211,6 +216,6 @@
   <script src="js/reader.js?v=20260903_v1"></script>
   <script src="js/quiz.js?v=20260903_v1"></script>
   <script src="js/vocab.js?v=20260903_v1"></script>
-  <script src="js/app.js?v=20260903_v1"></script>
+  <script src="js/app.js?v=20260905_v3"></script>
 </body>
 </html>
