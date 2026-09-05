@@ -1520,51 +1520,164 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 In an essay entitled “Making It in America,” the a... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：在一篇题为《在美国制造》的文章中，作者亚当·戴维森讲述了一个...",
-          "第2段：戴维森的文章是最近出现的众多文章之一，这些文章指出，当今失业...",
-          "第3段：过去，拥有普通技能的工人，做着普通的工作，就能获得普通的生活...",
-          "第4段：是的，新技术一直在蚕食就业岗位，而且永远如此。但有一个加速。...",
-          "第5段：总会有变化——新的工作、新的产品、新的服务。但我们确信的一件..."
-        ]
+        "genre": "劳动经济学与智能自动化时代技能重塑深度评论",
+        "discourse_model": "棉纺厂人狗笑话引子 ➔ 昔日'平庸即可安居乐业'的旧契约 ➔ 庄严宣告'平庸时代的彻底终结' ➔ 机器算力吞噬中等技能岗位的加速度 ➔ 拒绝成为可替换代码 ➔ 打造无可替代核心竞争力的终身进化论",
+        "main_theme": "本文立足《大西洋月刊》特约撰稿人亚当·戴维森（Adam Davidson）的名篇《在美制造》（Making It in America），对数字自动化席卷全球劳动力市场所带来的阶层分化展开了惊心动魄的冷峻反思；以纺织厂仅需'一人一狗'（狗防止人乱摸机器，人负责喂狗）的黑色幽默笑话为引，击碎了工业时代'依靠中等平庸技能干着寻常工作便能安享体面中产生活'的社会契约；庄严宣告'平庸时代已正式走向终结'（average is officially over）；阐明了人工智能与工业自动化不再局限于替代体力繁重劳动、而是以惊人加速度大肆攻占中等技能脑力常规岗位的严酷现实；最终向所有现代职场人发出时代的生存动员令：唯有摒弃平庸惯性、不断打磨机器无法复制的高阶创意与综合洞察力，方能在无休止的科技迭代巨浪中立于不败之地。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】纺织工厂'一人一狗'黑色幽默揭开自动化残酷序幕",
+            "core_point": "戴维森讲述未来棉纺厂只需一人一狗的讽刺笑话，极富隐喻地勾勒出自动化彻底排挤人类传统操作的冰冷图景。",
+            "cohesive_devices": "以寓言式工业笑话（joke from cotton mill about a man and a dog）引人深思入题。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】逝去的黄金旧约：昔日平庸技能即可安享体面中产",
+            "core_point": "在昔日工业繁荣期，普通打工人只要具备普普通通的技能、干好一份寻常岗位，便能轻松享有体面的中产阶级薪水。",
+            "cohesive_devices": "重温历史旧契约（In the past, workers with average skills could earn average middle-class lifestyle）。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】时代庄严宣判：平庸正式终结，安于中游将坠入贫困深渊",
+            "core_point": "残酷拐点已至：平庸的时代正式寿终正寝；在今天安于中庸不仅无法保障温饱，更随时面临滑入社会底层的致命悬崖。",
+            "cohesive_devices": "以斩钉截铁的时代警句（today, average is officially over）实现惊天转折。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】技术吞噬常态化：算力以指数级加速度挤压中产岗位",
+            "core_point": "技术替代人工并非新鲜事，然而当今这场变革的恐怖之处在于其加速度——算法正以前所未有的胃口吞噬所有规则性工种。",
+            "cohesive_devices": "深入技术经济学机理（technology has been eating jobs forever, but there's an acceleration）。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】时代生存法则：打破平庸惯性，淬炼机器无法替代的高阶锋芒",
+            "core_point": "旧岗位消亡与新职业诞生永不停息；在这个平庸被宣判死刑的时代，唯有拒绝躺平、淬炼不可替代的非凡特长方能赢得尊严。",
+            "cohesive_devices": "以终身自我重塑建言收官（There will always be change / find your unique value because average is over）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 1 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "A"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "The Terrifying Acceleration: Algorithms Gobble Up Routine Labor",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第4段：技术淘汰人工自古有之，但当今以算力算法为代表的技术替代呈现出令人胆寒的指数级加速度。"
+            },
+            {
+              "key": "B",
+              "heading": "Total Abolition of All Manual Blue-Collar Occupations by Law",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向极端/荒谬捏造】文中探讨技能转型，绝非立法全面消灭蓝领工种。"
+            },
+            {
+              "key": "C",
+              "heading": "A Chilling Cotton Mill Parable Portrays Human Disposability",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：戴维森援引棉纺厂人狗笑话的深刻隐喻，冷峻勾勒出工人在自动化设备面前的可被取代性。"
+            },
+            {
+              "key": "D",
+              "heading": "Cotton Fabric Production Banned Worldwide Due to Overcapacity",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未涉及全球禁止棉织品生产。"
+            },
+            {
+              "key": "E",
+              "heading": "The Bygone Golden Contract: When Mediocrity Guaranteed Prosperity",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段：重温昔日工业时代旧契约——普通工人仅凭平凡平庸的技能便能安稳斩获中产体面生活。"
+            },
+            {
+              "key": "F",
+              "heading": "Adapting to the Relentless Flux: Forging Irreplaceable Capabilities",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第5段结语：拥抱永恒变革大潮，在这个平庸死刑时代全力打磨塑造自身无可替代的硬核竞争优势。"
+            },
+            {
+              "key": "G",
+              "heading": "A Stern Wake-Up Verdict: The Official End of Being Average",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第3段：当头棒喝宣告时代拐点——平庸时代已正式寿终正寝，安于中游只能走向贫困淘汰。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓棉纺厂人狗幽默笑话（cotton mill joke / man and dog）；段2抓昔日平庸即可中产（past: average skills earned middle-class lifestyle）；段3抓平庸时代正式结束宣判（average is officially over）；段4抓技术吞噬就业加速度（technology eating jobs / acceleration）；段5抓拥抱变革打磨不可替代性（always be change / adapt and excel）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "essay",
-          "translation": "n. （学生为某门课程所写的）短文；论说文",
-          "application_sentence": "Research demonstrates that essay plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "mark the definitive demise of an economic compact that once shielded mediocrity",
+          "syntactic_type": "时代落幕高级动宾短语搭配",
+          "translation": "宣告了昔日曾经有效庇护平庸资质的旧经济契约的彻底终结消亡",
+          "application_sentence": "As labor compensation distribution charts reveal, macroeconomic shifts mark the definitive demise of an economic compact that once shielded mediocrity.",
+          "sentence_cn": "正如劳动力薪酬分配结构图表所清晰昭示的，宏观经济与科技生产力的剧变，极其冷峻地宣告了昔日曾经庇护中庸平庸技能安享中产安稳的旧时代社会契约的彻底终结与消亡。",
+          "template_slot": "Recent labor dynamics mark the definitive demise of an economic compact that once shielded [某种旧特权/中庸平庸]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "entitled",
-          "translation": "adj. 有资格的；v. 使享有权利",
-          "application_sentence": "Research demonstrates that entitled plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "be relentlessly cannibalized by algorithmic automation that executes routine cognitive tasks with superior precision",
+          "syntactic_type": "技术替代因果定语从句结构",
+          "translation": "被能够以超常精度无情执行各类常规脑力操作的算法自动化技术大肆蚕食剥夺",
+          "application_sentence": "Middle-tier clerical vocations are being relentlessly cannibalized by algorithmic automation that executes routine cognitive tasks with superior precision and zero fatigue.",
+          "sentence_cn": "传统中等技能的文秘与常规脑力岗位，正在被那些能够以超乎人类极限的精密准确度、且毫无疲劳感地执行一切流程化知识任务的算法自动化技术大肆蚕食与无情替代。",
+          "template_slot": "Routine occupations are being relentlessly cannibalized by [自动化算法/新技术] that executes tasks with superior precision."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Davidson",
-          "translation": "n. 戴维森（姓氏）",
-          "application_sentence": "Research demonstrates that Davidson plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Average skills, which once guaranteed a stable foothold in the middle class, now represent a perilous ticket to ...",
+          "syntactic_type": "今昔非谓语反差对比句型",
+          "translation": "昔日曾经足以确保在体面中产阶级中站稳脚跟的平庸技能，在今天却赫然沦为了通往……的极度凶险车票",
+          "application_sentence": "Average clerical skills, which once guaranteed a stable foothold in the middle class, now represent a perilous ticket to economic marginalization.",
+          "sentence_cn": "昔日曾经足以确保普通打工人在体面中产阶层中站稳脚跟的平庸寻常技能，在当今残酷的数字化全球竞争时代，却赫然沦为了通向被社会边缘化甚至坠入贫困的极度凶险单程车票。",
+          "template_slot": "[某种平庸资质/旧技能], which once guaranteed a stable foothold in society, now represents a perilous ticket to [被边缘化/淘汰淘汰]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "article",
-          "translation": "n. 文章；论文",
-          "application_sentence": "Research demonstrates that article plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Never before in industrial history has the premium on non-routine creative mastery been so decisive, while ...",
+          "syntactic_type": "Never before否定时间副词置于句首的部分倒装并列句",
+          "translation": "在人类整个工业历史上，针对非程式化创造性卓越才干的溢价奖励从未像今天这般具有决定性，而与此同时……",
+          "application_sentence": "Never before in modern history has the premium on creative problem-solving been so decisive, while the penalty for intellectual inertia has been so unforgiving.",
+          "sentence_cn": "在人类现代工业文明长河中，全社会对非程式化、兼具批判与创新灵性的高阶问题解决才能的溢价奖励，从未像今天这般具有绝对的生杀大权；而与此同时，对思维惰性与安于平庸的惩罚，亦从未像今天这般冷酷无情与毫不妥协。",
+          "template_slot": "Never before in history has the premium on [核心卓越能力] been so decisive, while the penalty for [惰性与落后] has been so unforgiving."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "past",
-          "translation": "adj. 过去的；昔日的",
-          "application_sentence": "Research demonstrates that past plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "workers",
-          "translation": "n. 工作者；工作人员",
-          "application_sentence": "Research demonstrates that workers plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "relentlessly hone uniquely human faculties to transcend the algorithmic threshold and thrive in an era of continuous disruption",
+          "syntactic_type": "终身学习进化对仗动宾搭配",
+          "translation": "坚持不懈地砥砺淬炼人类独一无二的心智灵性潜能，跨越算法淘汰的生死门槛，在无休止的时代颠覆风暴中乘风破浪",
+          "application_sentence": "Ambitious knowledge workers must relentlessly hone uniquely human faculties of empathy and creativity to transcend the algorithmic threshold.",
+          "sentence_cn": "怀揣抱负的现代知识劳动者必须矢志不渝地坚持不懈砥砺淬炼人类独一无二的情感共鸣与非凡想象创造力，以卓越的锋芒坚决跨越冷冰冰算法淘汰的生死门槛，在永恒颠覆与重塑的时代风暴中乘风破浪、绽放异彩。",
+          "template_slot": "Individuals must relentlessly hone uniquely human faculties to transcend [算法淘汰/技术门槛] and thrive in [巨变时代]."
         }
       ],
       "year": 2013
@@ -3396,50 +3509,164 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 A century ago, the immigrants from across the Atla... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：一个世纪前，来自大西洋彼岸的移民包括定居者和寄居者。除了许多...",
-          "第2段：今天，我们对移民的态度更加严格。我们将新来者分为两类：合法或...",
-          "第3段：农作物采摘工、小提琴家、建筑工人、企业家、工程师、家庭保健助...",
-          "第4段：适应这个人口流动的新世界需要移民斗争双方采取新的态度。超越正..."
-        ]
+        "genre": "跨国人口社会学与全球劳动力流动范式革新评述",
+        "discourse_model": "大西洋百年移民回望 ➔ 昔日定居者与寄居者（Sojourners）双轨流动 ➔ 当代'合法与非法'僵化二元对立的体制硬伤 ➔ 跨界迁徙的现代打工人（果农、琴手、护工） ➔ 举重若轻穿梭于法律与身份之间 ➔ 呼唤制度包容与边境治理观念破局",
+        "main_theme": "本文立足全球跨国劳动力迁徙百年演进的历史长河，深刻批判了现代国家在移民政策上所奉行的'非黑即白、合法与非法'（legal versus illegal）的僵化刻板二元对立范式；深情回望了一个世纪前欧洲移民跨越大西洋的真实历程——他们中不仅有永久扎根开荒的'定居者'（settlers），更有高达三分之一频繁在故土与美洲之间循环往返的'季节性寄居者'（sojourners）；展示了当代全球化背景下活跃在农田果园、音乐厅、建筑工地以及家庭护理岗位的千千万万新型移动人口；指出他们凭借极其灵活从容的身法举重若轻地穿梭于多重法律管辖区、国界线与文化认同之间；最终呼吁大西洋两岸的现代立法者顺应'流动的世界'（world of people in motion）客观客观大势，以开放弹性的人性化制度供给取代围追堵截的闭关锁国冷战思维。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】百年大西洋移民回眸：定居者与寄居者的多元共生",
+            "core_point": "一个世纪前跨越大西洋的欧洲移民大军中，既有打算落叶生根的永久定居者，亦有大量季节性往返迁徙的候鸟型寄居者。",
+            "cohesive_devices": "以历史纵深叙事（A century ago, immigrants included settlers and sojourners）开篇。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】当代的狭隘倒退：将流动人口粗暴割裂为'合法与非法'二元标签",
+            "core_point": "反观今天，现代民族国家对移民的认知变得极端僵化刻板，用'合法'与'非法'的冰冷铁丝网标签将人强行一分为二。",
+            "cohesive_devices": "今昔尖锐对比（Today, we are much more rigid / divide newcomers into two categories: legal or illegal）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】生动现实图景：各行各业跨国奔波的新时代移动劳动大军",
+            "core_point": "采摘果农、交响乐小提琴手、建筑工、高科技软件工程师以及家庭护工，构成了穿梭于国界之间的生动跨国流动劳动力大军。",
+            "cohesive_devices": "生动并列各行各业众生相（Crop pickers, violinists, construction workers, engineers, health aides）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】打破制度藩篱：劳动者举重若轻穿梭于多重法律与身份之间",
+            "core_point": "无论官僚制度是否发放许可，这批全球流动大军都能举重若轻地跨越管辖区阻隔，在双重文化与法律空隙中灵活自如地生存发展。",
+            "cohesive_devices": "直击法律与现实脱节本质（With or without permission, they straddle laws, jurisdictions and identities with ease）。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】呼唤时代观念变革：以开放弹性质感拥抱'流动的世界'",
+            "core_point": "接纳这个流动不居的人类新世界，要求边境两岸的政府彻底打破狭隘故步自封的心态，出台顺应跨国流动大潮的前瞻性政策。",
+            "cohesive_devices": "以文明治理前瞻建言作结（Accommodating this new world in motion requires new attitudes on both sides）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 2 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "A"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Straddling Archaic Jurisdictions and Multiple Identities with Fluid Ease",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第4段：现代跨境劳动大军举重若轻地穿梭跨越僵化的法律管辖边界与多重文化身份藩篱。"
+            },
+            {
+              "key": "B",
+              "heading": "Immediate Construction of a Transatlantic Submarine Highway",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向荒谬/无中生有】文中未曾提及修建大西洋海底公路。"
+            },
+            {
+              "key": "C",
+              "heading": "Historical Pluralism: Settlers and Sojourners in Atlantic Migrations",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：重温一个世纪前大西洋移民大潮中永久定居者与候鸟型寄居者并存的多元包容历史。"
+            },
+            {
+              "key": "D",
+              "heading": "Total Expulsion of All Violinists and Health Aides Nationwide",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：恶性曲解】文中将提琴手与护工视作跨国劳动者生动范例，绝非驱逐他们。"
+            },
+            {
+              "key": "E",
+              "heading": "Modern Rigidity: The Flawed Binary of Legal Versus Illegal Status",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段：批判当代民族国家陷入僵化教条，将复杂的流动人口粗暴割裂归类为合法与非法的二元标签。"
+            },
+            {
+              "key": "F",
+              "heading": "Embracing a World in Motion: The Imperative for Paradigm Shifts",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第5段结语：呼吁边境两岸决策者彻底革新治理心态，以包容弹性拥抱迁徙流动的全新世界大势。"
+            },
+            {
+              "key": "G",
+              "heading": "A Kaleidoscope of Essential Cross-Border Labor Across the Economy",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第3段：全景式展现采摘工、工程师、护工等形形色色奔波于国界间的现代基础流动劳动大军。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓百年前移民包含定居者与寄居者（settlers and sojourners）；段2抓当代合法非法僵化标签（rigid about immigrants / legal or illegal）；段3抓各行各业流动大军众生相（crop pickers, violinists, engineers）；段4抓举重若轻穿梭法律与身份（straddle laws and identities with ease）；段5抓拥抱流动世界需要新思维（accommodating world in motion requires new attitudes）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "century",
-          "translation": "n. 世纪；一百年",
-          "application_sentence": "Research demonstrates that century plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "highlight a vibrant kaleidoscope of transnational labor moving fluidly across borders",
+          "syntactic_type": "跨国流动人口生动动宾搭配",
+          "translation": "生动展现出在国界之间灵动穿梭奔波的跨国劳动力大军令人眼花缭乱的绚烂万花筒图景",
+          "application_sentence": "As global mobility data highlights, modern economies rely on a vibrant kaleidoscope of transnational labor moving fluidly across borders.",
+          "sentence_cn": "正如全球人口流动跟踪调查所清晰展现的，当代成熟经济体的繁荣运转，高度深深依赖于一幅由采摘果农、技术工程师与家庭护工等在国界藩篱之间灵动穿梭的跨国流动劳动力大军所构成的生机盎然的万花筒图景。",
+          "template_slot": "Demographic statistics highlight a vibrant kaleidoscope of [某类流动群体] moving fluidly across traditional boundaries."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "immigrants",
-          "translation": "n. 移民（immigrant 的复数）",
-          "application_sentence": "Research demonstrates that immigrants plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "emanate from an archaic bureaucratic obsession with rigid binary categorization that ignores ...",
+          "syntactic_type": "制度僵化批判从句结构",
+          "translation": "深层根源于一种痴迷于非黑即白僵化二元对立分类的陈腐官僚体制狂热，完全忽视了……",
+          "application_sentence": "Border tensions emanate from an archaic bureaucratic obsession with rigid legal-versus-illegal binaries that ignores the economic reality of human circular migration.",
+          "sentence_cn": "边境治理摩擦与社会排外冲突的深层根源，恰恰源于一种痴迷于将活生生的人类强制割裂为'合法与非法'这一非黑即白僵化二元对立标签的陈腐官僚体制狂热，它完全且傲慢地无视了劳动力跨国季节性循环流动的客观经济规律与人本刚需。",
+          "template_slot": "This regulatory friction emanates from an archaic obsession with rigid binary classifications that completely ignores [客观流动规律/复杂现实]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Today",
-          "translation": "adv. 今天；今日",
-          "application_sentence": "Research demonstrates that Today plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "With or without formal administrative permission, the organic tide of human aspiration will inevitably straddle ...",
+          "syntactic_type": "主观能动性破除壁垒主张句型",
+          "translation": "无论是否能够获取冷冰冰的官方行政许可，人类追求美好生活的内生潮涌都注定将举重若轻地跨越跨越……",
+          "application_sentence": "With or without formal administrative stamps, the organic tide of human aspiration will inevitably straddle rigid borders and jurisdictional fences.",
+          "sentence_cn": "无论是否能够及时获得盖着繁琐官僚印章的纸质行政许可，人类内心深处对美好生活与勤劳致富的不灭向往与奋斗潮涌，都注定将举重若轻地跨越并击穿那些生硬冷酷的国界铁丝网与司法管辖篱笆。",
+          "template_slot": "With or without formal permission, the organic tide of human aspiration will inevitably straddle [僵化的制度壁垒/人为阻隔]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "rigid",
-          "translation": "adj. （方法、体制等）严格死板的；僵化的",
-          "application_sentence": "Research demonstrates that rigid plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "So hopelessly obsolete has the doctrine of absolute border impermeability become that modern nations find themselves ...",
+          "syntactic_type": "so...that置于句首的形容词全部倒装结构",
+          "translation": "那种将边境打造成绝对针插不进水泼不进的铁壁孤岛信条已经变得如此无可救药地彻底过时，以至于现代国家发现自己不得不……",
+          "application_sentence": "So hopelessly obsolete has the doctrine of absolute border impermeability become that advanced nations find themselves compelled to overhaul migration frameworks.",
+          "sentence_cn": "那种试图将国家边界打造成绝对针插不进、水泼不进的封锁孤岛陈腐信条，在当代全球化实践中已经变得如此之无可救药的彻底过时，以至于各大发达经济体发现自己不得不痛定思痛、全面颠覆重构自身的出入境与移民法律框架。",
+          "template_slot": "So hopelessly obsolete has [陈腐旧信条] become that modern institutions find themselves compelled to [推行全面革新]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Crop",
-          "translation": "n. 庄稼；（谷物或水果的）收成",
-          "application_sentence": "Research demonstrates that Crop plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "pickers",
-          "translation": "清棉机（picker 的复数）；采摘者（picker 的复数）",
-          "application_sentence": "Research demonstrates that pickers plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "accommodate a world of people in motion by replacing punitive exclusion with flexible, reciprocal transnational frameworks",
+          "syntactic_type": "流动治理范式飞跃对仗动宾搭配",
+          "translation": "以弹性包容、互惠互利的现代化跨国合作治理机制彻底取代惩罚性的封锁排斥，从而从容接纳这个流动不居的浩瀚人类新世界",
+          "application_sentence": "Forward-thinking governments must accommodate a world of people in motion by replacing blunt exclusion with flexible, reciprocal legal channels.",
+          "sentence_cn": "具有真正开阔历史格局与文明胸怀的前瞻性政府，必须以高度的战略定力从容接纳这个生生不息、流动不居的浩瀚人类新世界，坚决以弹性包容、互利互惠的现代化跨国制度对接，彻底取代那些简单粗暴、伤筋动骨的惩罚性孤立排斥策略。",
+          "template_slot": "Global leadership must accommodate a world in motion by replacing blunt exclusion with [弹性互惠机制]."
         }
       ],
       "year": 2013
@@ -5335,51 +5562,176 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Scientists have found that although we are prone t... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：科学家发现，虽然我们很容易做出过度反应，但如果我们花点时间思...",
-          "第2段：快速决策可能是重要的防御机制；如果我们要判断某人是否危险，我...",
-          "第3段：但对快速刺激作出反应的仓促决定并不只存在于人际领域。多伦多大...",
-          "第4段：然而我们可以扭转这种影响。如果我们知道当我们看到一张笑脸时我...",
-          "第5段：婚姻专家约翰·戈特曼（John Gottman）解释说，只有..."
-        ]
+        "genre": "认知神经科学与潜意识'薄片截取'直觉决策评述",
+        "discourse_model": "直觉抓瞎与冲动过激反思 ➔ 演化自卫机制（毫秒级判断生死危险） ➔ 消费场景下的营销操纵反噬 ➔ 察觉潜意识偏见并反向修正 ➔ 约翰·戈特曼婚姻实验室'薄片萃取'（Thin-Slicing） ➔ 15分钟对话预测90%离婚率 ➔ 科技介质演变与人类原始心智算法的永恒不变",
+        "main_theme": "本文聚焦认知心理学与行为科学最具魅力的前沿议题——人类大脑的'快速直觉决策'（snap decisions / thin-slicing）；阐明了潜意识抓瞎决策在生物演化历程中充当着不可或缺的防身自卫武器（在毫秒间甄别致命危险）；剖析了这种原始直觉在现代商业消费环境下的巨大软肋——极易落入商家精心设计的包装色彩与感官营销陷阱；系统评述了婚姻心理学泰斗约翰·戈特曼（John Gottman）在'爱情实验室'中运用的'薄片截取'（thin-slicing）科学神技：仅仅通过观察夫妻15分钟日常对话中的微表情与互动模式，便能以高达90%以上的惊人准确率精准预测该婚姻未来走向；最终揭示了深刻的哲学真谛：尽管现代通信数字科技沧桑巨变，但人类数万年演化而成的底层心智与直觉算法却坚如磐石、亘古未变。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】冲动过激倾向与刻意沉潜反思的纠偏力量",
+            "core_point": "人类大脑天生极易做出冲动抓瞎的过激反应，但只要我们刻意按下暂停键反思片刻，便能逆转盲目冲动的恶果。",
+            "cohesive_devices": "以反思性辩证让步句（prone to snap overreactions, but take a moment can reverse）破题。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】演化生物学自卫机能：毫秒级直觉甄别生死存亡",
+            "core_point": "快速决断在人类演化史上是性命攸关的生存防卫法宝：面对潜伏的猛兽或敌意陌生人，毫无犹豫思考的余地。",
+            "cohesive_devices": "解析演化本能机制（Snap decisions can be important defense mechanisms / judge danger）。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】商业消费维度的致命反噬：潜意识极易被包装营销操纵",
+            "core_point": "然而当这一原始机制遭遇现代商业社会时却频频失灵：我们在超市选购商品或买房时，极易被包装外貌的微观刺激所诱导欺骗。",
+            "cohesive_devices": "以转折引出消费软肋（aren't exclusive to interpersonal realm / overreact to consumer products）。"
+          },
+          {
+            "pid": 3,
+            "role": "【承】主动打破偏见：建立清醒认知防御以逆转潜意识操纵",
+            "core_point": "幸运的是我们能够反制这种本能：只要提前觉察到自身对表面浮华包装的过度反应模式，便能重拾理性天平。",
+            "cohesive_devices": "提出心理防御重构（Yet we can reverse such influences / know our biases）。"
+          },
+          {
+            "pid": 4,
+            "role": "【深】戈特曼'薄片萃取'神技登场：有限信息中的高阶直觉洞察",
+            "core_point": "著名婚姻学者约翰·戈特曼指出，人类直觉在某些深层领域展现出惊人的可靠性——通过截取极端微小的信息碎片即可破译本质规律。",
+            "cohesive_devices": "引入薄片截取学术概念（John Gottman explains that we quickly 'thin slice' information）。"
+          },
+          {
+            "pid": 5,
+            "role": "【深】爱情实验室实证：15分钟夫妻微观对话精准预测90%婚姻命运",
+            "core_point": "戈特曼邀请受试夫妻在其岛屿实验室对话15分钟，仅仅通过剖析微表情与言辞语调，即可准确预测二人日后是否会走向离婚破裂。",
+            "cohesive_devices": "详述经典实验实证细节（Gottman invites couples to island laboratory / assess with accuracy）。"
+          },
+          {
+            "pid": 6,
+            "role": "【合】科技换皮不换心：数字时代依然受制于原始演化神经算法",
+            "core_point": "智能手机与互联网固然改变了人际交互的物理载体，但绝未改变人类古老的生物演化本质；我们依然携带着远古采集狩猎祖先的心智算法前行。",
+            "cohesive_devices": "以人性的永恒演化规律作结（technology might change how we react, but hasn't changed our nature / ancient hardwiring persists）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 3 的七个段落，从 A-G 七个候选项中为指定五个段落选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "C"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "E"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "G"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "A"
+            },
+            {
+              "pid": 6,
+              "label": "Paragraph 7",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Thin-Slicing: Gleaning Profound Patterns from Micro-Moments",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第5段戈特曼核心理论：通过极小的信息碎片（薄片截取）即可极其可靠地破译复杂系统规律。"
+            },
+            {
+              "key": "B",
+              "heading": "Complete Banning of Premarital Counseling Across North America",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向极端/无中生有】文中探讨婚姻科学实证，未曾提及禁止婚前咨询。"
+            },
+            {
+              "key": "C",
+              "heading": "Evolutionary Defense Armor: Instantaneous Threat Assessment",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第2段：快速下意识决断在远古时期充当生死攸关的防卫装甲，瞬间甄别潜伏致命危险。"
+            },
+            {
+              "key": "D",
+              "heading": "Artificial Intelligence Completely Replaces All Human Divorce Courts",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：概念偷换】文中未提及人工智能取代离婚法庭。"
+            },
+            {
+              "key": "E",
+              "heading": "Commercial Manipulation Exploits Our Subconscious Vulnerabilities",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第3段：原始直觉在现代商业消费领域极易被包装设计与感官营销所精准操纵与诱骗。"
+            },
+            {
+              "key": "F",
+              "heading": "Tools Evolve but Biology Persists: Our Ancient Neural Algorithms Endure",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第7段结语：现代科技工具虽日新月异，但人类远古演化而成的深层生物神经算法与本性亘古未变。"
+            },
+            {
+              "key": "G",
+              "heading": "Conscious Deliberation Empowers Us to Reverse Hasty Biases",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第4段：通过清醒自觉的刻意审思与知彼知己，人类完全能够反制并纠正下意识的冲动偏见。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段2抓演化自卫机制判断危险（snap decisions defense mechanisms / danger）；段3抓商业营销操纵冲动（consumer products / overreact to packaging）；段4抓刻意审思逆转偏见（reverse such influences / conscious reflection）；段5抓薄片截取洞察大局（Gottman / thin slice information）；段7抓技术改变表象人性本质未变（technology changes medium, not nature / ancient hardwiring）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "Scientists",
-          "translation": "n. 科学家（scientist 的复数）",
-          "application_sentence": "Research demonstrates that Scientists plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "glean remarkably accurate predictive patterns from microscopic behavioral slices",
+          "syntactic_type": "微观行为洞察学术动宾短语搭配",
+          "translation": "从极其微观琐碎的行为薄片截取中，极其惊人准确地萃取出高精度的长效预测模式",
+          "application_sentence": "As behavioral laboratory trials demonstrate, perceptive analysts can glean remarkably accurate predictive patterns from microscopic behavioral slices.",
+          "sentence_cn": "正如行为科学实验室追踪测试所清晰表明的，目光如炬的专业分析人士能够从当事人极其微观琐碎的一言一行薄片截取中，极其惊人准确地萃取出预示长远发展走向的高精度预测规律模式。",
+          "template_slot": "Empirical psychological studies confirm that trained observers can glean remarkably accurate patterns from microscopic [行为薄片/语言细节]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "found",
-          "translation": "v. 创办；成立",
-          "application_sentence": "Research demonstrates that found plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "be deeply rooted in a primordial survival algorithm designed for instantaneous threat detection",
+          "syntactic_type": "演化神经学因果短语结构",
+          "translation": "深深根植于一种专门为了在毫秒间精准侦测生死威胁而演化出的远古原始生存算法之中",
+          "application_sentence": "Human reliance on snap intuitive judgments is deeply rooted in a primordial survival algorithm designed for instantaneous predator detection in hostile environments.",
+          "sentence_cn": "人类对下意识直觉判断的深层心理依赖，在生理本质上深深扎根于一种专门为了在险象环生的荒野环境中于毫秒瞬间精准侦测掠食猛兽与致命死敌而演化出的远古原始生存算法之中。",
+          "template_slot": "Our intuitive reactions are deeply rooted in a primordial survival algorithm designed for [危险甄别/即时自卫]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Snap",
-          "translation": "v. （使咔嚓）断裂；绷断",
-          "application_sentence": "Research demonstrates that Snap plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "While these subconscious reflexes were indispensable on the savannah, they leave modern consumers woefully vulnerable to ...",
+          "syntactic_type": "演化错位古今让步对比句型",
+          "translation": "尽管这些潜意识生理反射在远古东非大草原上曾是拯救性命的至宝，但它们却让现代消费者在面对……时显得极度脆弱不堪",
+          "application_sentence": "While subconscious reflexes were indispensable on the African savannah, they leave modern shoppers woefully vulnerable to manipulative packaging tricks.",
+          "sentence_cn": "尽管这套潜意识生理防御反射在远古广袤的东非大草原上曾是祖先免遭毒手的至高法宝，但在光怪陆离的现代商业消费社会中，它们却让广大购物者在面对商家精心设计的包装色彩与营销陷阱时显得极度脆弱且毫无招架之力。",
+          "template_slot": "While intuitive reflexes were indispensable in [远古环境], they leave modern individuals woefully vulnerable to [现代商业陷阱/认知偏误]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "decisions",
-          "translation": "n. 决策；决断",
-          "application_sentence": "Research demonstrates that decisions plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Only by inserting a deliberate pause between stimulus and response can individuals liberate themselves from ...",
+          "syntactic_type": "only+动名词置于句首的部分倒装自控句式",
+          "translation": "唯有在外界感官刺激与自身行为反馈之间强行插入一个深思熟虑的刻意暂停键，个体方能将自身从……中彻底解救出来",
+          "application_sentence": "Only by inserting a deliberate pause between sensory stimulus and commercial response can individuals liberate themselves from impulsive irrationality.",
+          "sentence_cn": "唯有在面对外界扑面而来的感官诱惑刺激与自身的最终掏钱决策之间，强行插入一个深思熟虑、深吸一口气的刻意冷静暂停键，现代个体方能将自身从冲动消费与非理性的盲从中彻底解救出来。",
+          "template_slot": "Only by inserting a deliberate pause between [诱惑刺激] and action can individuals liberate themselves from [冲动盲从/非理性陷阱]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "snap",
-          "translation": "v. （使咔嚓）断裂；绷断",
-          "application_sentence": "Research demonstrates that snap plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "decisions",
-          "translation": "n. 决策；决断",
-          "application_sentence": "Research demonstrates that decisions plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "harmonize rapid intuitive perception with rigorous analytical deliberation to achieve cognitive equilibrium in an overstimulated epoch",
+          "syntactic_type": "直觉与理性融会贯通对仗动宾搭配",
+          "translation": "将敏锐迅捷的潜意识直觉洞察与严谨透彻的逻辑理性审思完美调谐融通，在信息极度过载的信息时代达成心智认知的和谐平衡",
+          "application_sentence": "Modern thinkers must harmonize rapid intuitive perception with rigorous analytical deliberation to achieve cognitive clarity amid commercial noise.",
+          "sentence_cn": "身处喧嚣过载信息洪流中的现代思考者，必须学会将敏锐迅捷的下意识直觉潜能与严谨清醒的理性批判反思完美调谐融通，从而在光怪陆离的浮躁商业噪音中始终保持澄澈清明的心智认知主权与精神定力。",
+          "template_slot": "Wise decision-makers must harmonize rapid intuitive perception with rigorous analytical deliberation to achieve [认知清明/战略定力]."
         }
       ],
       "year": 2013
@@ -7144,51 +7496,176 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Europe is not a gender-equality heaven. In particu... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：欧洲不是性别平等的天堂。特别是，除非女性参与高级管理决策，否...",
-          "第2段：欧盟目前正在考虑立法强制公司董事会保留一定比例的女性成员——...",
-          "第3段：我们是否需要配额来确保女性在平衡工作和家庭的同时能够继续公平...",
-          "第4段：“就我个人而言，我不喜欢配额，”雷丁最近表示。 “但我喜欢配...",
-          "第5段：我理解雷丁的不情愿和她的沮丧。我也不喜欢配额；它们与我对精英..."
-        ]
+        "genre": "职场法学与欧盟性别平权法定配额制激辩评述",
+        "discourse_model": "欧洲非性别平等天堂 ➔ 董事会天花板与男性垄断 ➔ 欧盟司法专员雷丁倡导法定配额 ➔ 经典矛盾名言（'我不喜欢配额，但我喜欢配额带来的结果'） ➔ 自由主义唯才论反思 ➔ 四十年自愿倡议彻底落空 ➔ 破除玻璃天花板与构筑系统育儿托底",
+        "main_theme": "本文聚焦欧洲联盟针对跨国企业董事会高层女性代表比例严重失衡、拟立法强制推行'董事会女性法定配额制'（mandatory gender quotas on corporate boards）所引爆的白热化国际争议；击碎了'欧洲是男女完全平等天堂'的虚幻滤镜，指出企业顶层权力核心依然被牢固的男性网络所封闭垄断；深度拆解了欧盟司法专员维维安·雷丁（Viviane Reding）的经典名言——'我个人极度反感硬性配额，但我极其热爱配额所创造的实质平等结果'（I don't like quotas, but I like what quotas do）；辩证剖析了自由主义反对配额制'违背唯才是举（meritocracy）原则'的哲学顾虑；以长达四十年的历史实证雄辩证明，单纯依赖企业自发自觉的温和倡议已被证明彻底沦为一无所成的空谈；最终呼吁国家必须双管齐下：既用暂时性立法配额强制砸碎'玻璃天花板'，更通过普惠育儿假与公共照料托底等系统性公共政策，赋能从女高管到广大普通工薪母亲的真正解放。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】击碎平等神话：欧洲绝非性别平权的无瑕天堂",
+            "core_point": "欧洲虽以高福利著称，但远非性别平权乌托邦，尤其在企业高管权力金字塔顶端，女性几乎被完全排除在董事会门外。",
+            "cohesive_devices": "以当头棒喝的否定句（Europe is not a gender-equality heaven / workplace never completely equal）破题。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】欧盟拟祭出重磅铁腕杀招：立法强推董事会法定性别配额",
+            "core_point": "面对长期毫无改观的失衡僵局，欧盟委员会正在酝酿历史性立法，强制要求大型跨国企业董事会必须保证一定比例的女性席位。",
+            "cohesive_devices": "引入官方重磅立法动态（EU is now considering legislation to compel corporate boards to maintain quotas）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】抛出时代终极两难之问：平权是否必须依靠行政硬性指标？",
+            "core_point": "我们真的需要诉诸生硬的数学配额，才能确保女性在职场阶梯攀爬中免受歧视、享有公平竞争的阳光吗？",
+            "cohesive_devices": "以设问句深化核心伦理冲突（Do we need quotas to ensure women continue to climb the ladder?）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】雷丁专员经典辩白：'我不喜欢配额，但我喜欢配额带来的结果'",
+            "core_point": "法案起草人维维安·雷丁坦诚自白：配额固然粗糙不讨喜，但它却是打破长达数十年傲慢僵局、强行撕开改变裂口的唯一利器。",
+            "cohesive_devices": "引述标杆性政治名言（'Personally I don't like quotas, but I like what quotas do'）。"
+          },
+          {
+            "pid": 4,
+            "role": "【承】作者的哲学同理心共鸣：配额确实违背唯才是举的纯粹理想",
+            "core_point": "作者深表理解与纠结：硬性按性别分蛋糕确实在表面上背离了个体唯才录用的纯粹古典自由主义原则，令人心生抵触。",
+            "cohesive_devices": "展现作者内心价值冲突（I don't like quotas either / they run counter to pure individual merit）。"
+          },
+          {
+            "pid": 5,
+            "role": "【转】四十年残酷现实无情打脸：纯自愿倡议已被证明彻底流产破产",
+            "core_point": "然而沉甸甸的商业历史不容辩驳：过去四十年间各大企业无数次言之凿凿的自愿改善承诺最终颗粒无收，不施重典决难砸碎玻璃天花板。",
+            "cohesive_devices": "以历史长期实证驳斥保守主义（four decades of evidence show voluntary pledges produced nothing）。"
+          },
+          {
+            "pid": 6,
+            "role": "【合】跳出孤岛配额：唯有系统性托底政策方能造福全天下女性",
+            "core_point": "仅仅关注几名顶层女CEO远远不够；唯有配之以优质托育、育儿假等普惠公共政策，方能让从商界女强人到工薪母亲的所有女性享有真正的尊严与自由。",
+            "cohesive_devices": "由高管配额升华至全体女性民生福祉（appropriate public policies in place for all women, whether CEOs or childcare workers）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 4 的七个段落，从 A-G 七个候选项中为指定五个段落选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "A"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "G"
+            },
+            {
+              "pid": 5,
+              "label": "Paragraph 6",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Reding's Pragmatic Defense: Disliking the Means but Valuing the Outcome",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第4段雷丁名言内核：坦率承认个人反感配额手段，但高度肯定配额所切实砸出的平权成果。"
+            },
+            {
+              "key": "B",
+              "heading": "Compulsory Resignation Imposed on All Male Board Members by 2015",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向极端/荒谬捏造】文中探讨设定一定女性比例，绝未要求所有男性董事全部辞职。"
+            },
+            {
+              "key": "C",
+              "heading": "Shattering the Utopia: Europe Falls Far Short of Gender Parity",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：击碎将欧洲浪漫化为平权天堂的幻觉，揭示职场顶层男性垄断的刺目现实。"
+            },
+            {
+              "key": "D",
+              "heading": "Complete Elimination of Public Childcare Across the European Union",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】末段呼吁增加公共托育政策，绝非取缔。"
+            },
+            {
+              "key": "E",
+              "heading": "Brussels Contemplates Legislative Mandates to Break Boardroom Inertia",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段：欧盟最高决策层正在严密酝酿推行具有法律约束力的硬性董事会性别配额立法。"
+            },
+            {
+              "key": "F",
+              "heading": "Four Decades of Futility: Voluntary Corporate Pledges Thoroughly Flounder",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第6段：过去四十年间商业资本口头自愿改善的承诺已被残酷现实证明彻底沦为一无所成的谎言。"
+            },
+            {
+              "key": "G",
+              "heading": "The Philosophical Dilemma: Quotas Versus Individual Meritocracy",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第5段作者反思：剖析配额制度在法理上与传统纯粹唯才是举、优胜劣汰个体主义原则的内在张力冲突。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓欧洲绝非平等天堂（Europe not a gender-equality heaven）；段2抓欧盟立法强制设定配额（legislation to compel corporate boards quotas）；段4抓雷丁名言不喜欢配额但喜欢结果（dislike quotas but like what they do）；段5抓配额与唯才是举的哲学冲突（run counter to pure merit）；段6抓四十年自愿承诺彻底失败（four decades of evidence voluntary pledges produced nothing）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "gender",
-          "translation": "n. 性别；（语法中的）性",
-          "application_sentence": "Research demonstrates that gender plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "lay bare a stubborn glass ceiling that remains virtually impervious to voluntary pleas",
+          "syntactic_type": "天花板隐喻学术动宾短语搭配",
+          "translation": "毫无保留地暴露出那道对各种温和自愿倡议几乎完全免疫刀枪不入的顽固'玻璃天花板'",
+          "application_sentence": "As board composition audits lay bare, corporate upper echelons perpetuate a stubborn glass ceiling that remains virtually impervious to voluntary pleas.",
+          "sentence_cn": "正如各大跨国企业董事会成员构成审计报告所毫不留情披露的，商界最高权力金字塔顶端长期维系着一道对过去数十年各种温和自愿呼吁几乎完全免疫、刀枪不入的顽固'玻璃天花板'。",
+          "template_slot": "Empirical diversity audits lay bare a stubborn glass ceiling that remains virtually impervious to [自发自愿呼吁/表面倡导]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "equality",
-          "translation": "n. 均等；平等",
-          "application_sentence": "Research demonstrates that equality plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "perpetuate a self-reinforcing old-boys' network that mistakes homophily for pure meritocracy",
+          "syntactic_type": "社会资本权力垄断批判从句",
+          "translation": "固化维系着一个自我封闭强化的权贵熟人网络，极其荒谬地将圈子内的同质相吸误当成纯粹的唯才是举",
+          "application_sentence": "Corporate governance stagnation perpetuates an insular old-boys' network that conveniently mistakes comfortable homophily for objective meritocracy.",
+          "sentence_cn": "企业顶层治理架构长期停滞不前的深层死穴，在于其盘根错节地固化维系着一个自我封闭、近亲繁殖的权贵熟人兄弟会网络，而他们却极其自欺欺人地将令人如沐春风的同质圈子抱团，冠冕堂皇地包装成客观中立的唯才是举。",
+          "template_slot": "This institutional exclusion perpetuates an insular network that conveniently mistakes [利益小圈子/同质认同] for pure meritocracy."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Union",
-          "translation": "n. 工会；联邦",
-          "application_sentence": "Research demonstrates that Union plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "While mandatory quotas unquestionably create ideological discomfort, four decades of inaction have proven that ...",
+          "syntactic_type": "手段与历史必然性让步反思句型",
+          "translation": "尽管强制性的行政配额毫无疑问会在意识形态理念上引发强烈的不适与纠结，但长达四十年的残酷徒劳历史却早已证明……",
+          "application_sentence": "While mandatory legal quotas unquestionably create philosophical discomfort, four decades of stagnant voluntary efforts have proven that disruption is necessary.",
+          "sentence_cn": "尽管在表面推行强制性的法定刚性配额指标，毫无疑问会在古典唯才主义的法理理念上引发激烈的阵痛与心理抵触，但过去四十年间单纯依赖企业自觉却一无所获的惨痛历史却早已无可辩驳地证明：若无铁腕强力破冰，变革绝无可能自发降临。",
+          "template_slot": "While [非常规刚性手段] unquestionably creates ideological discomfort, decades of inaction have proven that [必须采取强硬打破僵局]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "considering",
-          "translation": "prep. 考虑到；鉴于",
-          "application_sentence": "Research demonstrates that considering plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "It is not that reformers harbor a blind affection for quotas, but rather that they appreciate the indispensable force of ...",
+          "syntactic_type": "not that...but rather that名言化用思辨句式",
+          "translation": "这绝非意味着改革推动者对硬性配额抱有何种盲目的偏爱狂热，而恰恰在于他们深刻体察到……所具备的无可替代的破冰神力",
+          "application_sentence": "It is not that egalitarian policymakers harbor a blind affection for quotas, but rather that they appreciate the indispensable force of legislative mandates in shattering inertia.",
+          "sentence_cn": "这绝非意味着倡导平权的改革决策者对生硬的数学配额指标抱有何种盲目的崇拜与偏爱，而恰恰在于他们极其清醒地领悟到：在面对盘踞数百年之久的利益固化坚冰时，唯有披上具有法定约束力的强制立法外衣，方能释放出打破死寂沉沦的无可替代的千钧破冰神力。",
+          "template_slot": "It is not that reformers love [某种粗暴手段], but rather that they appreciate the indispensable force of [法律强制力] in shattering chronic inertia."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "need",
-          "translation": "v. 需要；（表示应该或不得不做）有必要",
-          "application_sentence": "Research demonstrates that need plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "quotas",
-          "translation": "n. 配额；定额",
-          "application_sentence": "Research demonstrates that quotas plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "pair temporary targeted legislative disruption with comprehensive social welfare architectures to emancipate all women across the socio-economic spectrum",
+          "syntactic_type": "顶层与底层并举对仗动宾倡议短语",
+          "translation": "将阶段性的精准立法破冰手段与兼济天下的综合社会福利托底安全网紧密结合，全方位解放从商界精英到普通工薪阶层的全体女性",
+          "application_sentence": "Enlightened polities must pair temporary board mandates with universal childcare infrastructures to genuinely empower all women across the socioeconomic spectrum.",
+          "sentence_cn": "具有真正文明远见的现代国家，必须下最大决心将具有针对性的阶段性顶层立法破冰铁腕与惠及千家万户的普惠托育公共福利基建设施紧密结合，唯有如此，方能真正且彻底地赋能并解放处于不同社会阶层、每一位平凡而伟大的女性群体。",
+          "template_slot": "The state must pair targeted legislative disruption with comprehensive social welfare infrastructures to genuinely empower [全体弱势群体/广大群众]."
         }
       ],
       "year": 2013

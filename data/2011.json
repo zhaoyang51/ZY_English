@@ -1855,50 +1855,147 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Ruth Simmons joined Goldman Sachs’s board as an ou... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：露丝·西蒙斯 (Ruth Simmons) 于 2000 年...",
-          "第2段：外部董事应该在公司董事会中充当有用但不带偏见的顾问。他们在其...",
-          "第3段：俄亥俄大学的研究人员使用了一个数据库，该数据库涵盖了 198...",
-          "第4段：但研究人员认为，如果外部董事在坏消息传出之前离开公司，他们就..."
-        ]
+        "genre": "公司治理与资本市场独立董事机制实证评述",
+        "discourse_model": "鲁斯·西蒙斯辞职引爆质疑 ➔ 独立董事法定角色与声誉机制 ➔ 代理人公告大数据追踪 ➔ 独董提前'跳船'逃离风暴 ➔ 独董辞职作为企业暴雷的'矿井金丝雀' ➔ 资本市场信息预警机制重构",
+        "main_theme": "本文由美国常春藤布朗大学校长鲁斯·西蒙斯（Ruth Simmons）因深陷高盛巨额薪酬丑闻而闪电辞去高盛独立董事一职切入，深刻探讨了现代上市公司治理结构中'独立董事'（outside / independent directors）的监督悖论；阐述了独立董事本应作为客观中立的监事制衡管理层内部人控制的法定使命；结合学者对数千份委托书声明（proxy statements）的纵向数据追踪，揭示了独立董事极少在法庭与管理层正面硬刚、而是在察觉财务舞弊与重大危机萌芽时悄然'跳船'（jump ship）保全自身羽毛的潜规则；论证了独立董事非正常密集辞职是预兆上市公司未来业绩大变脸与暴雷丑闻的'矿井金丝雀'（canary in the coal mine），为外部投资者提供了不可多得的穿透式预警指针。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】布朗大学校长辞任高盛独董：撕开名流董事光鲜面纱",
+            "core_point": "名流校长西蒙斯加盟高盛董事会享受高薪，却在金融海啸高盛深陷公愤时仓促请辞，引发舆论轩然大波。",
+            "cohesive_devices": "以知名政商名流辞任事件（Ruth Simmons joined Goldman Sachs / resigned amid controversy）切入。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】独立董事的理想法定人设与现实监督错位",
+            "core_point": "独立董事法定职责本应是超脱利益纠葛、为中小股东把关的客观谏臣，但往往在危机真正来临时选择沉默自保。",
+            "cohesive_devices": "理论与现实对照（supposed to serve as helpful, yet less biased advisers）。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】学者大数据追踪：代理人公告揭开辞任背后的秘密规律",
+            "core_point": "研究人员比对海量企业年报中的董事更迭记录，发现独立董事密集非正常离职的最核心诱因正是不可调和的内部危机爆发前兆。",
+            "cohesive_devices": "采用实证定量研究方法（checked proxy statements to see which directors stayed）。"
+          },
+          {
+            "pid": 3,
+            "role": "【合】金丝雀预警效应：独董辞职与企业暴雷的高度关联",
+            "core_point": "独立董事的提前离席与企业随后的业绩大跌及丑闻存在极强的正相关；聪明的投资者理应将其视作企业暴雷的撤退警钟。",
+            "cohesive_devices": "归纳出市场预警规律（correlation between them leaving and subsequent bad performance / early warning bell）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 1 的四个段落，从 A-F 六个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Proxy Data Discloses the Hidden Pattern Behind Abrupt Resignations",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第3段：学者通过梳理上市公司海量代理人公告的大数据，破译了独董突然出走背后的深层危机模式。"
+            },
+            {
+              "key": "B",
+              "heading": "Immediate Criminal Indictment of All Wall Street Outside Directors",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：极端荒谬/无中生有】文中未曾提及对所有华尔街独立董事提起刑事公诉。"
+            },
+            {
+              "key": "C",
+              "heading": "A High-Profile Departure Lifts the Veil on Corporate Governance",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：布朗大学校长辞去高盛独董的轰动事件，彻底掀开了企业治理与名流董事的虚伪面纱。"
+            },
+            {
+              "key": "D",
+              "heading": "Complete Abolition of Joint-Stock Corporations by Federal Mandate",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未涉及取缔股份制企业。"
+            },
+            {
+              "key": "E",
+              "heading": "The Chasm Between Ideal Oversight and Self-Preserving Passivity",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段：独董理论上充当无偏见顾问的崇高使命，与现实中为保羽毛消极自保的巨大反差。"
+            },
+            {
+              "key": "F",
+              "heading": "Canaries in the Coal Mine: Departures Foreshadow Financial Turmoil",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第4段结语：独董悄然离职与企业随后业绩暴跌存在强相关，充当资本市场警惕暴雷的矿井金丝雀。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓高管西蒙斯离开高盛事件（Simmons joined and left Goldman）；段2抓独董崇高法定人设vs自保（supposed to be unbiased advisers vs reality）；段3抓大数据查阅代理人公告（checked proxy statements / pattern of departures）；段4抓离职与业绩暴跌强相关预警（correlation between leaving and bad performance / warning）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "Ruth",
-          "translation": "n. 同情；怜悯",
-          "application_sentence": "Research demonstrates that Ruth plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "reveal a telling correlation between abrupt executive departures and imminent institutional distress",
+          "syntactic_type": "预警指标学术动宾搭配",
+          "translation": "揭示出高管的突发离职与机构迫在眉睫的潜在危机之间极其耐人寻味的显著关联",
+          "application_sentence": "As governance data reveals, there is a telling correlation between abrupt outside director departures and imminent corporate collapse.",
+          "sentence_cn": "正如企业治理实证数据所深刻揭示的，独立董事的非正常突发辞职与该企业随后迫在眉睫的财务暴雷与崩盘之间，存在着极其耐人寻味的高度正向关联。",
+          "template_slot": "As the statistical analysis reveals, there is a telling correlation between [某异动指标] and imminent [深层系统性危机]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Simmons",
-          "translation": "席梦思（美国床垫品牌）；西蒙斯（人名）",
-          "application_sentence": "Research demonstrates that Simmons plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "prioritize personal reputational preservation over uncomfortable fiduciary whistleblowing",
+          "syntactic_type": "自利动机动宾短语结构",
+          "translation": "将爱惜羽毛、保全个人清誉置于吃力不讨好的受托人鸣哨监督职责之上",
+          "application_sentence": "Independent monitors often choose quiet resignation because they prioritize personal reputational preservation over uncomfortable fiduciary whistleblowing.",
+          "sentence_cn": "许多名流监事在危机初现时之所以往往选择脚底抹油、悄然挂冠而去，在深层心理上正是因为他们本能地将爱惜个人声誉羽毛，置于吃力不讨好、极易得罪权贵的受托人吹哨监督职责之上。",
+          "template_slot": "Decision-makers often choose silence because they prioritize personal reputational preservation over uncomfortable [履职担当/吹哨直言]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Outside",
-          "translation": "n. 外表；外部（the outside）",
-          "application_sentence": "Research demonstrates that Outside plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Far from being an innocuous personal transition, such an exodus serves as an unmistakable canary in the coal mine.",
+          "syntactic_type": "比喻性转折警示句型",
+          "translation": "此种非正常的离职出走绝非人畜无害的寻常人事调动，它充当着毫无疑义的'矿井金丝雀'般的致命危险预警",
+          "application_sentence": "Far from being an innocuous personal career transition, such an exodus of independent directors serves as an unmistakable canary in the corporate coal mine.",
+          "sentence_cn": "关键独立董事的大批离席出走，绝非人畜无害、寻常可见的普通高管人事换届，它在事实上充当着资本市场中一只绝不容忽视的、昭示企业大厦将倾的'矿井金丝雀'。",
+          "template_slot": "Far from being an innocuous change, this sudden shift serves as an unmistakable canary in the coal mine for [潜在系统性风险]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "directors",
-          "translation": "n. 董事（director 的复数形式）；（戏剧、电影、电视节目的）导演",
-          "application_sentence": "Research demonstrates that directors plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Were outside monitors truly empowered with independent teeth, corporations would find it far more difficult to ...",
+          "syntactic_type": "虚拟语气条件句倒装结构",
+          "translation": "倘若外部监管独立人士真正被赋予了具有实质威慑力的制度牙齿，现代大型企业就绝难……",
+          "application_sentence": "Were outside corporate monitors truly empowered with independent teeth, corrupt executives would find it far more difficult to conceal catastrophic balance sheet risks.",
+          "sentence_cn": "倘若外部独立监事在制度安排上真正被赋予了不依附于管理层的刚性法治牙齿，那些心存侥幸的腐败高管就绝难有恃无恐地长期掩盖其资产负债表上的灭顶风险。",
+          "template_slot": "Were outside overseers truly empowered with independent teeth, [不法主体] would find it far more difficult to [隐瞒真相/滥用权力]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "researchers",
-          "translation": "n. 研究人员；研究者（researcher 的复数）",
-          "application_sentence": "Research demonstrates that researchers plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "Ohio",
-          "translation": "n. 俄亥俄州（美国中北部一州）；俄亥俄河（美国东部河流",
-          "application_sentence": "Research demonstrates that Ohio plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "reconstruct fiduciary accountability to ensure that independent oversight acts as a genuine fortress against corporate malfeasance",
+          "syntactic_type": "治理防线构建对仗动宾搭配",
+          "translation": "重塑受托信义责任机制，确保独立监督能够真正筑牢抵御企业违法违规与资本专制的钢铁堡垒",
+          "application_sentence": "Financial regulatory bodies must reconstruct fiduciary accountability to ensure that independent oversight acts as a genuine fortress against executive malfeasance.",
+          "sentence_cn": "金融与市场监管立法机构必须以雷霆手段全面重塑受托信托信义责任法律体系，下最大决心确保独立董事与监事的外部制衡能够真正构筑起阻击企业违法渎职与高管专断的坚不可摧的钢铁防线。",
+          "template_slot": "We must reconstruct institutional accountability to ensure that oversight acts as a genuine fortress against [滥用职权/系统腐败]."
         }
       ],
       "year": 2011
@@ -3914,51 +4011,164 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Whatever happened to the death of newspapers? A ye... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：报纸的消亡到底是怎么回事？一年前，结局似乎已近在眼前。...",
-          "第2段：经济衰退可能会消除尚未逃往互联网的广告和读者。像《旧金山纪事...",
-          "第3段：世界大部分地区几乎没有出现危机的迹象。德国和巴西的报纸已经摆...",
-          "第4段：这并不有趣。许多报纸靠记者的努力才得以维持下去。...",
-          "第5段：美国新闻编辑协会估计，自 2007 年以来，已有 13,50..."
-        ]
+        "genre": "媒介经济学与印刷报业转型生存法则深度评述",
+        "discourse_model": "报纸消亡论的满城风雨 ➔ 哀鸿遍野后的触底反弹 ➔ 告别20%暴利时代的断臂求生 ➔ 关停分社与裁员的断腕之痛 ➔ 日本报业独特送报网络常青树 ➔ 坚韧重塑与多元媒体共生未来",
+        "main_theme": "本文针对2008年次贷经济危机重创广告收入后甚嚣尘上的'纸质报纸必死论'（the death of newspapers），从媒介产业经济学维度展开了反直觉的冷峻观察；指出尽管昔日高达20%的惊人暴利时代已一去不返，但全球传统报业绝未走向集体暴毙与消亡；揭示了各大主流大报通过'断腕自救'——关闭亏损海外分社、裁撤冗余采编人员、精简报纸开本规格等激进化削减成本举措，成功实现了在数字化寒冬中的触底盈利与断臂求生；特别引述了日本传统报业依托极致精细的'清晨送报到家'（doorstep home-delivery）独特物流与订阅读者忠诚度网络，在全球传媒海啸中展现出惊人的稳定性；论证了严肃深度纸媒在激流震荡中重构商业模式的强大内生韧性。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】曾几何时甚嚣尘上的'报纸必死'末日预言",
+            "core_point": "金融危机重创广告营收，一年前整个传媒界哀鸿遍野，纸质报纸即将彻底断气被视作板上钉钉的定论。",
+            "cohesive_devices": "以反讽设问（Whatever happened to the death of newspapers?）引人入胜。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】重见天日的反转现实：全球报业并未如期走向坟墓",
+            "core_point": "时过境迁，死亡预言已被证明不合时宜：在世界大部分地区，报业危机已退潮，各大大报依然顽强挺立。",
+            "cohesive_devices": "以事实反驳旧论调（discussions now seem out of date / little sign of crisis）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】暴利虽逝，断臂求生下的盈利韧性犹存",
+            "core_point": "昔日动辄20%的超高利润率固然随风而去，但在刀刃向内的紧缩重组下，报馆依然成功保住了盈利底线。",
+            "cohesive_devices": "辩证量化剖析（Not the 20% routine margins, but profit all the same）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】断尾求生的沉重代价：关停海外分社与采编失业之痛",
+            "core_point": "活下来的代价是悲壮的：大幅关闭驻外记者站、精简版面与大刀阔斧裁撤新闻记者，虽属无奈之举，却拯救了报馆生命线。",
+            "cohesive_devices": "展现生存与悲情的对立（desperate measures proved right, yet sadly for many journalists）。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】特例镜鉴：日本报业依托送报到家网络笑傲风暴",
+            "core_point": "日本报纸展现出世界罕见的惊人稳定性，其严密高效的清晨送报入户网络构筑了抵御数字化冲击的天然避风港。",
+            "cohesive_devices": "以典型国别样本作结（Not surprisingly, Japanese newspapers are much more stable / doorstep delivery）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 2 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "A"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Drastic Restructuring and Painful Sacrifices Ensure Corporate Survival",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第4段：关停分社与裁员等孤注一掷的痛苦自救牺牲，最终挽救了报馆的商业生存大局。"
+            },
+            {
+              "key": "B",
+              "heading": "Mandatory Nationalization of All European Press by 2012",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向荒谬/无中生有】文中未曾提及将欧洲新闻界全面收归国有。"
+            },
+            {
+              "key": "C",
+              "heading": "Premature Epitaphs: The Imminent Extinction of Newspapers Never Came",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：昔日甚嚣尘上宣判传统纸媒必死的末日预言最终被证实为过早的虚妄墓志铭。"
+            },
+            {
+              "key": "D",
+              "heading": "Online Subscriptions Totally Prohibited by International Copyright Treaties",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未涉及禁止在线数字订阅。"
+            },
+            {
+              "key": "E",
+              "heading": "Discussions Out of Date: Global Print Resiliently Defies Demise",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段：报纸消亡论已被现实打脸过时，全球大部分地区的传统报业依然坚挺立足。"
+            },
+            {
+              "key": "F",
+              "heading": "Doorstep Delivery Insulates Japanese Press from the Digital Whirlwind",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第5段结语：日本报业依托极致精细的清晨送报到家网络，在时代数字化风暴中展现非凡韧性。"
+            },
+            {
+              "key": "G",
+              "heading": "Farewell to Twenty Percent Margins, Yet Operational Black Inks Endure",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第3段：告别昔日20%高昂暴利时代，但在成本刀刃向内后依然保住了珍贵的盈利黑字。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓报纸消亡预言落空（whatever happened to the death of newspapers）；段2抓死亡讨论过时依然有生机（discussions out of date / little sign of crisis）；段3抓告别20%暴利依然盈利（not 20% margins, but profit all the same）；段4抓激进削减成本保命牺牲记者（desperate measures proved right / sad for journalists）；段5抓日本送报到家网络奇迹（Japanese newspapers stable / doorstep delivery）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "Whatever",
-          "translation": "det. 任何……的事物；无论什么",
-          "application_sentence": "Research demonstrates that Whatever plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "defy apocalyptic prophecies of imminent demise to maintain stubborn operational profitability",
+          "syntactic_type": "逆势韧性高级学术动宾搭配",
+          "translation": "顽强击碎关于其大难临头即将覆灭的末日预言，坚韧地保持住了运营层面的盈利底线",
+          "application_sentence": "As recent publishing industry financial statements indicate, traditional print outlets defy apocalyptic prophecies of imminent demise to maintain operational viability.",
+          "sentence_cn": "正如近期出版与传媒产业财务决算报告所清晰显示的，传统纸媒实体以令人瞩目的内生韧性，顽强粉碎了关于其在数字浪潮前必死无疑的末日预言，依然牢牢守住了运营层面的造血与盈利底线。",
+          "template_slot": "Traditional institutions defy apocalyptic prophecies of imminent demise to maintain stubborn [生存能力/核心盈利]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "happened",
-          "translation": "vi. 发生（happen 的过去式及过去分词）",
-          "application_sentence": "Research demonstrates that happened plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "stem from aggressive operational rationalization that pares away bloated legacy overheads",
+          "syntactic_type": "管理重组因果结构",
+          "translation": "得益于极其果决激进的精益运营重组，大刀阔斧地剔除了臃肿不堪的历史沉重包袱",
+          "application_sentence": "Corporate survival stems from aggressive operational rationalization that pares away bloated legacy overheads while preserving editorial integrity.",
+          "sentence_cn": "这批老牌传统机构之所以能够死里逃生、绝处逢生，根本上得益于其刀刃向内的极其激进的精益运营重构，大刀阔斧地剔除了那些沉积数十年、臃肿不堪的历史冗余成本与沉重包袱。",
+          "template_slot": "This survival fundamentally stems from aggressive operational rationalization that pares away [臃肿成本/陈腐阻力]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "recession",
-          "translation": "n. （经济的）衰退（期）；退后",
-          "application_sentence": "Research demonstrates that recession plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "The era of effortless double-digit windfalls may be definitively over, but ... remains profoundly viable.",
+          "syntactic_type": "时代告别让步肯定句",
+          "translation": "那个唾手可得享受双位数暴利红利的黄金时代固然已一去不返，但……的核心生命力依然生机盎然",
+          "application_sentence": "The golden era of effortless double-digit advertising windfalls may be definitively over, but disciplined quality journalism remains profoundly viable.",
+          "sentence_cn": "那个躺在垄断地位上唾手可得享受两位数暴利广告分红的旧黄金时代固然已经彻底落幕，但恪守严谨调查与专业主义的高水准新闻事业，其长久生存空间依然广阔而生机盎然。",
+          "template_slot": "The era of effortless double-digit windfalls may be definitively over, but [核心实体/专业追求] remains profoundly viable."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "threatened",
-          "translation": "adj. 受到威胁的；感到危险的",
-          "application_sentence": "Research demonstrates that threatened plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Harsh though these retrenchment measures unquestionably were, they proved to be the indispensable bitter medicine that ...",
+          "syntactic_type": "though引导的形容词让步倒装隐喻结构",
+          "translation": "尽管这些断腕般的收缩裁撤举措毫无疑问是极其残酷痛苦的，但它们却被无可辩驳地证明是……不可或缺的一剂救命苦药",
+          "application_sentence": "Harsh though these retrenchment measures unquestionably were for staff, they proved to be the indispensable bitter medicine that saved the institution from insolvency.",
+          "sentence_cn": "尽管对于广大被裁撤的采编人员而言，这些断尾求生般的收缩裁员举措毫无疑问是极度残酷与痛心的，但客观商业历史却无可辩驳地证明，它们恰恰正是拯救整座百年大厦免遭彻底破产倾覆的不可或缺的一剂救命苦口良药。",
+          "template_slot": "Painful though [断腕改革/精简举措] unquestionably was, it proved to be the indispensable bitter medicine that saved [大局/实体]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "little",
-          "translation": "adj. 小的；比较小的",
-          "application_sentence": "Research demonstrates that little plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "sign",
-          "translation": "n. 指示牌；标志",
-          "application_sentence": "Research demonstrates that sign plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "leverage specialized distribution advantages and unwavering reader loyalty to carve out a secure niche in a turbulent media ecosystem",
+          "syntactic_type": "差异化护城河对仗动宾短语",
+          "translation": "深度撬动独特的专属配送触达优势与坚不可摧的读者忠诚度，在风云动荡的传媒生态中开辟出稳若磐石的生存避风港",
+          "application_sentence": "Traditional publishers must leverage specialized distribution networks and deep community loyalty to carve out a secure, sustainable niche in the digital epoch.",
+          "sentence_cn": "具有战略定力的传统出版传媒机构必须充分激活并深度撬动自身独特的专属毛细发行网络以及深厚的社群读者忠诚度，从而在瞬息万变的数字化滔天巨浪中，开辟出一片属于自身的坚固而永续的生存发展绿洲。",
+          "template_slot": "Legacy industries must leverage specialized local networks and customer loyalty to carve out a secure niche in [巨变时代]."
         }
       ],
       "year": 2011
@@ -5867,51 +6077,170 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 We tend to think of the decades immediately follow... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：我们倾向于将第二次世界大战后的几十年视为繁荣和发展的时期，数...",
-          "第2段：但当谈到他们的房子时，这是一个常识和信念的时代，即少即是多。...",
-          "第3段：经济状况只是高效生活趋势的刺激因素。 “少即是多”这句话实际...",
-          "第4段：密斯的标志性短语意味着，较少的装饰，适当的组织，比大量的装饰...",
-          "第5段：“更少”的趋势并非完全陌生。 20 世纪 30 年代，弗兰克..."
-        ]
+        "genre": "建筑文化史与人居哲学演化前瞻评述",
+        "discourse_model": "战后繁荣大宅神话的反思 ➔ 真实战后记忆：大萧条与战时节俭烙印 ➔ 赖特乌托邦式'乌索尼亚'平民小宅 ➔ 案例研究住宅先锋探索 ➔ 落地大玻璃与通透极简空间的心理扩容 ➔ 告别堆砌奢靡回归自然人本栖居",
+        "main_theme": "本文立足美国二战后的人居建筑演进史，深入击碎了世人关于'战后即是住大豪宅、挥金如土大繁荣'的浪漫化历史神话；揭示了经历过1930年代大萧条饥荒与二战战时配给制残酷洗礼的美国老兵与年轻家庭，在骨子里深深烙印着'学会用更少资源过从容生活'（learn to live with less）的克制与审慎底色；系统详述了现代建筑泰斗弗兰克·劳埃德·赖特（Frank Lloyd Wright）早在战前便开创的'乌索尼亚'（Usonian）住宅构想（实用面积通常仅约1,000平方英尺左右），以及加州'案例研究住宅'（Case Study Houses）的先锋实验；阐明了大师们如何利用通透的大面积玻璃幕墙、流动开放的室内格局与借景自然的精妙设计，让小巧精致的紧凑住宅在精神体验上超越贪婪庞杂的空洞豪宅；呼唤告别盲目贪大求奢的居住异化，回归人本精益栖居。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】反思战后历史神话：并非人人都生活在大宅奢靡中",
+            "core_point": "大众习惯将二战后初期浪漫化为纸醉金迷、大肆铺张的大繁荣黄金年代，但真实的人居历史却大相径庭。",
+            "cohesive_devices": "以反思传统历史定势思维（tend to think of post-WWII as prosperity and excess / reality different）破题。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】退伍老兵与年轻家庭的真实图景：克制适度的小居所",
+            "core_point": "退伍军人法案掀起结婚安家狂潮，但真正为千家万户遮风避雨的，不是凡尔赛式的庄园，而是尺度紧凑的适度居所。",
+            "cohesive_devices": "还原老兵成家场景（GI Bill and marriage bureaus / when it came to houses: modest era）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】时代精神底色：萧条与战火淬炼出的节制自律美德",
+            "core_point": "大萧条的苦难与战时资源配给让整整一代人学会了崇尚极简与节俭，这种克制的美德自然流入了战后住宅设计基因。",
+            "cohesive_devices": "深刻历史归因（Americans learned to live with less / restraint carried forward）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】现代主义建筑师登场：开创小体量高效人居新流派",
+            "core_point": "一批现代建筑先锋崛起，他们拒绝繁复的欧式古典堆砌，将全部精力倾注于为平民百姓打造精巧、高效的现代主义小住宅。",
+            "cohesive_devices": "引入先锋建筑思潮（These designers exerted enormous influence / small, efficient homes）。"
+          },
+          {
+            "pid": 4,
+            "role": "【深】空间美学魔法：大面玻璃与引景入室创造无限心智开阔感",
+            "core_point": "中世纪现代住宅备受推崇的秘诀在于其通透的落地大玻璃窗、流动采光与无界视野，让有限的平米数激荡出无限的精神辽阔感。",
+            "cohesive_devices": "解析空间设计美学机理（airy glass walls / views afforded / elegant simplicity）。"
+          },
+          {
+            "pid": 5,
+            "role": "【合】赖特'乌索尼亚'杰作：小体量孕育永恒人本建筑丰碑",
+            "core_point": "建筑巨匠赖特早在1930年代便力推千尺大小的乌索尼亚住宅，以铁的事实证明：决定人居尊严的绝非冰冷庞大的面积，而是精益求精的灵性关怀。",
+            "cohesive_devices": "以大师传世杰作收官（Frank Lloyd Wright Usonian houses / modest scale proving design transcends size）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 3 的六个段落，从 A-G 七个候选项中为指定五个段落选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "A"
+            },
+            {
+              "pid": 5,
+              "label": "Paragraph 6",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Airy Glass Walls and Scenic Vistas Expand Compact Footprints",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第5段：通透的大面积玻璃采光幕墙与引景入室的通透设计，让紧凑有限的空间产生辽阔开朗的感官体验。"
+            },
+            {
+              "key": "B",
+              "heading": "Mandatory Concrete Bunkers Enacted for Post-War Civil Defense",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向极端/无中生有】文中探讨民居通透美学，未曾要求强制修建防核地堡。"
+            },
+            {
+              "key": "C",
+              "heading": "Re-examining the Post-War Myth of Invariable Prosperity and Excess",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：反思将战后岁月浪漫化为普遍暴富大繁荣的通俗刻板印象神话。"
+            },
+            {
+              "key": "D",
+              "heading": "Frank Lloyd Wright's Architecture Completely Condemned by Critics",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：事实颠倒】赖特乌索尼亚住宅是战后人居典范，绝未被全面批判否定。"
+            },
+            {
+              "key": "E",
+              "heading": "Veterans Embrace Modest Starter Dwellings Over Grand Mansions",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段：依凭退伍军人法案成家立业的老兵与青年家庭，普遍选择紧凑实用的小型住宅而非奢华庄园。"
+            },
+            {
+              "key": "F",
+              "heading": "Wright's 'Usonian' Legacy: Demonstrating That Less Yields More",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第6段结语：建筑泰斗赖特的千尺乌索尼亚住宅名垂青史，实证了卓越人本设计远胜贪婪物理面积。"
+            },
+            {
+              "key": "G",
+              "heading": "Learning to Live with Less: Lessons Forged in Crisis and Wartime",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第3段：大萧条苦难与战时物资匮乏淬炼出学会少欲知足、克制内敛的深层时代品格基因。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓破除战后繁荣奢靡神话（prosperity and excess myth / reality modest）；段2抓老兵选择小巧紧凑住宅（GI Bill / modest era in housing）；段3抓萧条与战火学会少欲知足（Depression and war / learn to live with less）；段5抓大玻璃通透扩大空间感（airy glass walls / views / elegant simplicity）；段6抓赖特千尺乌索尼亚经典（Frank Lloyd Wright / modest Usonian houses）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "tend",
-          "translation": "v. 倾向于；往往会",
-          "application_sentence": "Research demonstrates that tend plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "debunk popular historical myths by highlighting an enduring ethos of restraint",
+          "syntactic_type": "历史哲学反思动宾搭配",
+          "translation": "通过凸显出一种深入骨髓的克制内敛风尚，彻底推翻了流行的大众历史神话",
+          "application_sentence": "As architectural heritage archives demonstrate, post-war residential surveys debunk popular historical myths by highlighting an enduring ethos of domestic restraint.",
+          "sentence_cn": "正如建筑人居遗产档案馆藏所清晰昭示的，二战后初期的真实住宅调查，通过生动呈现当时全社会深入骨髓的克制朴素家风，彻底粉碎了大众通俗影视中所谓遍地豪宅大繁荣的浪漫化历史迷思。",
+          "template_slot": "Empirical historical records debunk popular myths by highlighting an enduring ethos of [克制务实/勤俭自律]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "think",
-          "translation": "v. 认为；以为",
-          "application_sentence": "Research demonstrates that think plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "be forged by the sobering crucible of economic adversity and collective rationing",
+          "syntactic_type": "时代淬炼被动因果搭配",
+          "translation": "由经济危机的冷酷熔炉洗礼与战时全社会的集体物资匮乏配给所深深淬炼打磨而成",
+          "application_sentence": "A generation's preference for compact simplicity was forged by the sobering crucible of the Great Depression and wartime material rationing.",
+          "sentence_cn": "整整一代普通老百姓对于紧凑精巧、不尚奢华的人居建筑的执着钟爱，在根本上正是由大萧条的残酷寒冬熔炉与二战期间全社会的集体物资紧缺配给所深深塑造与淬火而成的。",
+          "template_slot": "This resilient cultural mindset was forged by the sobering crucible of [重大历史挫折/艰难岁月]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "houses",
-          "translation": "n. 住宅；家园",
-          "application_sentence": "Research demonstrates that houses plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "The grandeur of an architectural space is determined not by sheer physical acreage, but by the ingenious modulation of ...",
+          "syntactic_type": "not by...but by美学本质对立辩证句型",
+          "translation": "一座建筑空间的崇高气韵绝非取决于冷冰冰的庞大物理占地面积，而恰恰取决于对……的精妙绝伦调谐",
+          "application_sentence": "The profound grandeur of a home is determined not by sheer physical acreage, but by the ingenious modulation of natural light, sightlines, and airy proportions.",
+          "sentence_cn": "一个温暖人居空间的真正宏阔与从容气韵，绝非仅仅取决于冷酷炫耀的巨大物理平米数字，而恰恰在深层上取决于建筑师对自然采光、无界视野以及轻盈通透的比例尺度的精巧绝伦调谐。",
+          "template_slot": "The true merit of [某事物] is determined not by sheer physical [规模/外表], but by the ingenious modulation of [内在精髓]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "time",
-          "translation": "n. （以分钟、小时、天等计量的）时间；（钟表上的）时刻",
-          "application_sentence": "Research demonstrates that time plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "So masterful was the architectural economy of ... that a modest dwelling could effortlessly evoke ...",
+          "syntactic_type": "so...that置于句首的形容词全部倒装结构",
+          "translation": "……在建筑空间利用上的精益构思是如此出神入化，以至于一栋小巧适度的小宅便能举重若轻地唤起……",
+          "application_sentence": "So masterful was the architectural economy of Wright's Usonian designs that a modest dwelling could effortlessly evoke an expansive sense of boundless serenity.",
+          "sentence_cn": "建筑宗师赖特在其乌索尼亚住宅设计中对空间经济性的掌控是如此之精湛出神入化，以至于一栋实用面积仅有千尺的平民小屋，便能举重若轻地唤起一种无边无际的深邃宁静与尊严感。",
+          "template_slot": "So masterful was the design of [某杰作/机制] that a modest [载体] could effortlessly evoke [宏阔境界/非凡力量]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Economic",
-          "translation": "adj. 经济的；经济学的",
-          "application_sentence": "Research demonstrates that Economic plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "condition",
-          "translation": "n. 状况；状态",
-          "application_sentence": "Research demonstrates that condition plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "transcend vulgar material expansion to champion human-centered, ecologically sustainable habitats that enrich the human soul",
+          "syntactic_type": "人居哲学升华对仗动宾短语",
+          "translation": "坚决超越庸俗浮华的盲目物质扩张，旗帜鲜明地倡导以人为本、绿色永续、丰盈人类灵魂的现代诗意栖居",
+          "application_sentence": "Urban planners and architects must transcend vulgar material expansion to champion human-centered, ecologically sustainable habitats that truly nurture the human spirit.",
+          "sentence_cn": "当代的城市规划者与建筑大师们必须坚决超越那种贪大求洋、庸俗铺张的盲目物质扩张迷信，旗帜鲜明地践行并营建以人为本、顺应自然、绿色永续并且能够深度润泽抚慰人类精神灵魂的现代化诗意人居新范式。",
+          "template_slot": "Modern society must transcend vulgar material expansion to champion human-centered, sustainable [生态环境/发展范式]."
         }
       ],
       "year": 2011
@@ -7782,51 +8111,170 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Will the European Union make it? The question woul... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：欧盟能做到吗？不久前，这个问题听起来还很奇怪。现在，就连该项...",
-          "第2段：除了这些长期存在的问题外，欧盟的经济核心——使用单一货币的 ...",
-          "第3段：然而，关于如何拯救欧洲单一货币免于解体的争论却陷入了僵局。之...",
-          "第4段：德国认为必须通过更严格的借贷、支出和竞争力规则来拯救欧元，并...",
-          "第5段：这些措施可能包括威胁冻结欧盟对贫困地区和欧盟大型项目的资金，..."
-        ]
+        "genre": "地缘政治经济学与欧洲超国家一体化存亡危机评述",
+        "discourse_model": "欧盟能否闯关存疑 ➔ 欧元区16国主权债务主震爆发 ➔ 南北两大经济治理阵营死锁 ➔ 德国北欧阵营（严苛财政紧缩与赤字铁律） ➔ 法国南部阵营（欧洲经济政府与主权连带救助） ➔ 警惕过早唱衰 ➔ 危机乃欧洲一体化涅槃催化剂",
+        "main_theme": "本文聚焦2010至2011年席卷欧罗巴大陆的'欧债主权债务危机'（Eurozone sovereign debt crisis），对'欧盟与欧元能否劫后余生'（Will the European Union make it?）这一历史性世纪之问展开了全方位的地缘政治与宏观经济学深度解构；剖析了单一货币联盟（Euro）在'统一货币政策却缺乏统一财政同盟'的内在制度死穴下，遭遇希腊等南部边缘国家债务海啸时的剧烈阵痛；深度呈现了拯救欧元辩论中南北两大阵营之间水火不容的思想对决：以德国为首的北方阵营坚决捍卫'严苛财政紧缩、严打赤字超标、靠自律提升竞争力'的新自由主义教条，而以法国为首的南方阵营则极力主张打造'欧洲经济政府'、建立共同举债救助联盟；最终以宏阔的历史纵深警告外界切勿轻率给欧盟书写悼词：作为全球最大的超级统一贸易实体，欧洲一体化的百年历程恰恰证明，每一次生死攸关的至暗危机，最终都将不可逆转地淬炼催化出欧洲走向更深层政治经济融合的伟大跃迁。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】历史罕见的世纪存亡之问：欧洲联盟能否挺过死劫？",
+            "core_point": "曾几何时质疑欧盟解体被视为痴人说梦，如今即便最坚定的亲欧派学者与政要，亦不得不直面这一沉重的存亡拷问。",
+            "cohesive_devices": "以沉重的历史存疑句（Will the EU make it? Question would have sounded strange not long ago）开篇。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】主权债务危机的核心震中：16国欧元区命悬一线",
+            "core_point": "除了制度官僚等慢性痼疾，欧盟在最核心的经济心脏——16国单一货币区遭遇了急剧恶化的主权债务主震，面临分崩离析凶险。",
+            "cohesive_devices": "层层剥笋直击要害（acute crisis in its economic core, the 16 countries of the euro）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】拯救辩论陷入死锁泥潭：根本性经济哲学的尖锐对立",
+            "core_point": "关于如何挽救单一货币不致瓦解的拯救争论陷入了全面僵局，其背后是主导欧洲发展的两种不可调和的经济哲学厮杀。",
+            "cohesive_devices": "呈现两极分化胶着局势（debate about how to save the euro is stuck in ideological deadlock）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】德国北方阵营主张：唯有钢铁般的财政紧缩纪律方能救赎",
+            "core_point": "以德国为旗手的北欧阵营坚信，唯有在借贷、公共赤字与结构性削减福利上实行铁腕严苛纪律，逼迫各国提升竞争力，欧元方能浴火重生。",
+            "cohesive_devices": "阐述北方阵营方案（Germany thinks euro must be saved by stricter rules on borrowing and austerity）。"
+          },
+          {
+            "pid": 4,
+            "role": "【转】法国南方阵营对策：建立'欧洲经济政府'与财政转移同盟",
+            "core_point": "以法国为首的南部阵营针锋相对，极力主张成立中央集权的'欧洲经济政府'，设立联合发债与无条件转移支付兜底安全网。",
+            "cohesive_devices": "展示南方阵营抗衡方案（A 'southern' camp headed by France wants European economic government）。"
+          },
+          {
+            "pid": 5,
+            "role": "【合】莫为欧洲轻书悼词：全球最大贸易体在危局中淬炼一体化新生",
+            "core_point": "现在就给欧盟宣判死刑为时尚早；作为世界最大贸易集团，欧洲历史雄辩证明：越是面对灭顶危机，越能倒逼出更紧密的超国家融合飞跃。",
+            "cohesive_devices": "以充满历史辩证法的远见作结（too soon to write off EU / world's largest trading block / forged in crisis）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 4 的六个段落，从 A-G 七个候选项中为指定五个段落选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "A"
+            },
+            {
+              "pid": 5,
+              "label": "Paragraph 6",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Berlin's Prescription: Ironclad Rules of Borrowing and Austerity",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第4段德国北方阵营方案：坚信唯有推行铁腕借贷限制、严苛财政紧缩与削减福利方能拯救欧元。"
+            },
+            {
+              "key": "B",
+              "heading": "Immediate Dissolution of the Euro and Return to the Deutsche Mark",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向极端/无中生有】文中探讨如何救助拯救欧元，绝非主张立即解散欧元重归德国马克。"
+            },
+            {
+              "key": "C",
+              "heading": "An Unthinkable Existential Question Haunts European Integration",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：昔日难以想象的欧盟存亡瓦解之问，如今赫然成为盘旋在欧洲大陆上空的沉重阴霾。"
+            },
+            {
+              "key": "D",
+              "heading": "Military Intervention Mandated to Enforce Continental Tax Collection",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：荒谬编造】文中未曾提及动用军队强征税收。"
+            },
+            {
+              "key": "E",
+              "heading": "Acute Financial Heart Attack: The Eurozone Core in Grave Crisis",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段：欧盟经济核心区——由16个成员国组成的欧元区爆发致命主权债务危机，命悬一线。"
+            },
+            {
+              "key": "F",
+              "heading": "Premature Obituaries: The World's Largest Bloc Rebounds from Crises",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第6段结语：宣判欧盟死刑为时尚早，作为全球最大单一贸易集团，欧洲历来擅长在至暗危机中淬炼一体化跃迁。"
+            },
+            {
+              "key": "G",
+              "heading": "A Paralyzing Ideological Deadlock on Rescuing the Single Currency",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第3段：关于如何挽救欧洲单一货币免遭瓦解的拯救路线辩论陷入两极对立的意识形态死锁泥潭。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓欧盟存亡之问（Will the EU make it? / question sounded strange）；段2抓欧元区核心遭遇危机（acute crisis in economic core / 16 countries）；段3抓拯救辩论陷入死锁（debate to save euro is stuck）；段4抓德国主张严守借贷紧缩（Germany thinks stricter rules / austerity）；段6抓过早唱衰欧盟必在危机中反弹（too soon to write off EU / world's largest trading block / forged in crisis）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "Union",
-          "translation": "n. 工会；联邦",
-          "application_sentence": "Research demonstrates that Union plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "pose an unprecedented existential question to the viability of supranational integration",
+          "syntactic_type": "存亡拷问学术动宾短语搭配",
+          "translation": "对超国家超区域一体化体制的生命力与存续前景提出了前所未有的根本性存亡拷问",
+          "application_sentence": "As sovereign debt contagion indicators reveal, structural fiscal imbalances pose an unprecedented existential question to the future of the European bloc.",
+          "sentence_cn": "正如主权债务传染蔓延指标所清晰揭示的，深层的结构性财政与货币失衡，赫然对欧洲一体化乃至超国家治理体制的未来存续前景提出了前所未有的根本性存亡拷问。",
+          "template_slot": "Severe economic turbulences pose an unprecedented existential question to the viability of [区域一体化/某合作机制]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "question",
-          "translation": "n. 问题；疑问",
-          "application_sentence": "Research demonstrates that question plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "emanate from an inherent structural contradiction between unified monetary architecture and fragmented fiscal sovereignty",
+          "syntactic_type": "宪政经济学矛盾剖析从句结构",
+          "translation": "深层根源于高度统一的中央货币架构与各自为政、四分五裂的地方财政主权之间的天然结构性悖论",
+          "application_sentence": "The recurring turmoil of the Eurozone emanates from an inherent structural contradiction between a centralized monetary authority and decentralized national fiscal budgets.",
+          "sentence_cn": "欧元区在债务风暴中频频陷入濒死动荡的根本症结，恰恰深深源于一个高度集中统一的超国家央行货币体系与各自为政、难以协调的主权国家财政预算之间难以调和的天然结构性悖论。",
+          "template_slot": "This paralysis fundamentally emanates from an inherent structural contradiction between [集中统一的机制] and [分散割裂的执行体系]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "chronic",
-          "translation": "adj. （疾病）慢性的；长期的",
-          "application_sentence": "Research demonstrates that chronic plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "While ideological camps remain bitterly divided over austerity versus solidarity, historical precedent confirms that ...",
+          "syntactic_type": "意识形态纷争让步历史定论句型",
+          "translation": "尽管不同政治派系在恪守财政紧缩还是推行风险共担连带救助上陷入水火不容的尖锐对立，但详实的历史先例却无可辩驳地证实了……",
+          "application_sentence": "While European capitals remain bitterly divided over austerity versus collective fiscal transfers, historical precedent confirms that the union invariably advances through acute crises.",
+          "sentence_cn": "尽管欧洲各大国决策层在坚守铁腕财政紧缩还是推行集体发债救助的路线选择上陷入了水火不容的激辩死锁，但沉甸甸的历史先例却早已无可辩驳地证实：欧洲一体化的每一次伟大飞跃，恰恰都是在直面灭顶危机的烈火淬炼中倒逼完成的。",
+          "template_slot": "While competing factions remain bitterly divided over [方案A] versus [方案B], historical precedent confirms that [历史必然规律]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "problems",
-          "translation": "n. 问题；难题",
-          "application_sentence": "Research demonstrates that problems plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Too premature is it to write off an institutional titan that commands the world's most formidable ...",
+          "syntactic_type": "Too...is it置于句首的形容词全部倒装结构",
+          "translation": "现在就急不可耐地去为一个执掌着全球最强悍……的制度巨人宣判死刑、书写悼词，未免太过轻率与草率",
+          "application_sentence": "Too premature is it to write off a historical coalition that commands the world's largest single trading market and an indomitable will for collective peace.",
+          "sentence_cn": "现在就急不可耐地去为一个坐拥全球规模最为庞大成熟的单一超级统一大市场、并且承载着数代人追求集体和平与繁荣坚定意志的历史制度同盟宣判死刑，未免太过短视与轻率。",
+          "template_slot": "Too premature is it to write off [某历史同盟/伟大探索] that commands [无可匹敌的综合根基]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "debate",
-          "translation": "n. 讨论；辩论",
-          "application_sentence": "Research demonstrates that debate plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "save",
-          "translation": "v. 救助；搭救",
-          "application_sentence": "Research demonstrates that save plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "transcend narrow national fiefdoms to forge deep structural solidarity that transforms acute existential challenges into lasting integration",
+          "syntactic_type": "破除狭隘走向融合对仗动宾搭配",
+          "translation": "果断超越狭隘自私的狭隘国家藩篱，锻造坚不可摧的深层结构性连带同盟，将严峻的生死存亡危机淬炼升华为了长治久安的更深层融合",
+          "application_sentence": "Visionary statesmen must transcend narrow national fiefdoms to forge genuine structural solidarity that transforms this existential test into an enduring leap forward.",
+          "sentence_cn": "具有真正历史远见的大国领袖们必须以非凡的胸襟与魄力，果断打破狭隘自私的主权自留地藩篱，同心协力铸就不可动摇的深层制度连带同盟，全力将这场凶险绝伦的存亡大考，淬炼升华为了推动全洲实现更深层长久融合的历史性伟大跃进。",
+          "template_slot": "Statesmen must transcend narrow fiefdoms to forge deep structural solidarity that transforms [当下严峻考验] into an enduring leap forward."
         }
       ],
       "year": 2011

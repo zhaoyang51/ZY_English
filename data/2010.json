@@ -1683,51 +1683,164 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 The longest bull run in a century of art-market hi... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：2008 年 9 月 15 日，伦敦苏富比拍卖行拍卖达米恩·...",
-          "第2段：自 2003 年以来，世界艺术市场经历了令人眼花缭乱的增长，...",
-          "第3段：在赫斯特先生出售后的几周和几个月里，任何形式的支出都变得非常...",
-          "第4段：目前艺术品市场的低迷是自 1989 年底日本停止购买印象派画...",
-          "第5段：他说，这次衰退与上次不同的是，市场上仍然有买家。几乎所有接受..."
-        ]
+        "genre": "全球艺术品金融化与投机泡沫破灭商业观察",
+        "discourse_model": "达米恩·赫斯特天价拍卖 ➔ 艺术市场百年牛市终结 ➔ 炫耀性挥霍骤然失宠 ➔ 对比90年代日本印象派崩盘 ➔ 底部捡漏买家犹存 ➔ 艺术品回归审美本真反思",
+        "main_theme": "本文聚焦英国当代艺术大师达米恩·赫斯特（Damien Hirst）破纪录拍卖为标志性拐点，深入解构了全球艺术品市场经历2003至2008年非理性暴涨后的泡沫破灭历程；揭示了在次贷金融风暴冲击下，当代艺术品从富豪狂热追捧的金融衍生品迅速跌落神坛，高调炫富挥霍被全社会视作低俗并彻底失宠；对比了1990年代日本狂购印象派油画破产的旧崩盘历史，指出本轮危机的独特性在于市场底层仍有理性藏家在等待价格腰斩后抄底捡漏；深刻反思了艺术创作沦为金融洗钱与投机工具的异化，呼唤艺术价值重归纯粹审美精神世界。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】达米恩·赫斯特天价拍卖宣告艺术牛市落幕",
+            "core_point": "达米恩·赫斯特破纪录斩获超1.1亿英镑拍卖，以最具戏剧性的狂欢为全球艺术品市场一个世纪以来最漫长的大牛市画上句号。",
+            "cohesive_devices": "以标志性拍卖事件（longest bull run ended on a dramatic note with Damien Hirst sale）开篇立论。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】追根溯源：五载非理性暴涨动能早已衰竭",
+            "core_point": "2003年以来的暴涨早已脱离实际，金融危机前夕市场动能已明显衰竭，赫斯特的疯狂套现不过是落日余晖。",
+            "cohesive_devices": "呈现长周期周期规律（market had already been losing momentum after rising bewilderingly）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】社会风尚剧变：金融风暴下炫耀性消费彻底失宠",
+            "core_point": "伴随华尔街海啸，任何形式的浮夸炫富挥霍在欧美社交圈变得极不体面，天价当代艺术品沦为首当其冲的弃儿。",
+            "cohesive_devices": "从市场交易深入至社会文化心态（spending of any sort became deeply unfashionable）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】历史镜鉴比照：比肩日本印象派泡沫崩盘的至暗时刻",
+            "core_point": "本轮当代艺术品暴跌的深度与广度，是自1989年日本财阀疯狂溢价横扫印象派油画泡沫彻底破裂以来的最严重萧条。",
+            "cohesive_devices": "引入经典商业史横向坐标（worst downturn since the Japanese stopped buying Impressionists）。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】独特的市场底色：理性买家在价格腰斩中伺机抄底",
+            "core_point": "与日本崩盘后的绝对死寂不同，当下市场并未彻底丧失流动性，理性藏家正静待泡沫挤出、在折扣废墟中寻觅捡漏真金白银。",
+            "cohesive_devices": "以理性辩证视角收官（What makes this slump different: still buyers hunting for bargains）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 1 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "A"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Historical Echoes: A Collapse Rivalling the 1989 Japanese Bust",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第4段：将本轮艺术暴跌与1989年日本富豪抢购印象派泡沫破裂的惨淡历史进行纵深比照。"
+            },
+            {
+              "key": "B",
+              "heading": "Global Ban on Private Art Auctions Enacted Across Europe",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向荒谬/无中生有】文中未提及在欧洲全面取缔私人艺术品拍卖。"
+            },
+            {
+              "key": "C",
+              "heading": "The Spectacular Damien Hirst Sale Marks the Grand Finale of a Bull Run",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：达米恩·赫斯特的天价狂欢专场拍卖为艺术品市场百年最长大牛市敲响终场丧钟。"
+            },
+            {
+              "key": "D",
+              "heading": "Impressionist Paintings Completely Destroyed by Museum Curators",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：概念偷换】文中是日本资本停止收购印象派，绝非博物馆馆长销毁画作。"
+            },
+            {
+              "key": "E",
+              "heading": "Momentum Dissipates After Half a Decade of Bewildering Surges",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段：在经历2003年以来令人瞠目的五载暴涨后，市场动能早已出现严重透支与枯竭迹象。"
+            },
+            {
+              "key": "F",
+              "heading": "Discerning Bargain Hunters Linger Amid the Deflated Rubble",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第5段结语：与以往彻底崩盘不同，理性藏家依然在价格去泡沫的废墟中搜寻捡漏良机。"
+            },
+            {
+              "key": "G",
+              "heading": "Conspicuous Consumption Turns Deeply Unfashionable in the Crash",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第3段：伴随经济危机爆发，任何形式的炫耀性高调挥霍在社会风尚中彻底失宠蒙羞。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓百年牛市终结标志拍卖（longest bull run ended / Hirst sale）；段2抓多年暴涨后动能耗竭（losing momentum after rising bewilderingly）；段3抓炫耀消费彻底失宠（spending became deeply unfashionable）；段4抓对比日本印象派崩盘（worst slump since Japanese stopped buying）；段5抓低估值捡漏买家犹存（still buyers in the market / bargain hunters）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "bull run",
-          "translation": "n. （股票/市场）牛市；暴涨行情",
-          "application_sentence": "Research demonstrates that bull run plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "mark the dramatic culmination of an unsustainable bull run characterized by ...",
+          "syntactic_type": "金融泡沫周期动宾短语搭配",
+          "translation": "标志着以……为显著特征的不可持续的漫长大牛市的戏剧性巅峰谢幕",
+          "application_sentence": "As historical auction charts illustrate, the luxury market marked the dramatic culmination of an unsustainable bull run characterized by speculative frenzy.",
+          "sentence_cn": "正如历史拍卖行情走势图所清晰展示的，高端艺术品与奢侈品市场迎来了一轮以狂热投机炒作为鲜明特征的漫长大牛市的戏剧性巅峰谢幕。",
+          "template_slot": "Recent market data marks the dramatic culmination of an unsustainable bull run characterized by [投机狂热/非理性扩张]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "filed for bankruptcy",
-          "translation": "申请破产；宣告破产",
-          "application_sentence": "Research demonstrates that filed for bankruptcy plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "be driven by speculative liquidity rather than intrinsic cultural value",
+          "syntactic_type": "not...rather than对比因果结构",
+          "translation": "主要受到泛滥的金融投机流动性所盲目推高，而非源于深厚内在的人文文化价值",
+          "application_sentence": "The dizzying inflation of contemporary art prices was driven by speculative liquidity and status-seeking rather than intrinsic aesthetic appreciation.",
+          "sentence_cn": "当代艺术品价格令人瞠目结舌的恶性通胀飙升，在本质上是由泛滥成灾的金融投机热钱与虚荣的身份炫耀所共同推波助澜的，而绝非源于对深邃艺术美学价值的真正由衷赏识。",
+          "template_slot": "The astronomical valuation of [某商品/资产] was driven by speculative liquidity rather than intrinsic [真实价值]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "at its peak",
-          "translation": "处于顶峰；处于全盛时期",
-          "application_sentence": "Research demonstrates that at its peak plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Once the macroeconomic winds shifted, conspicuous ostentation became practically overnight an acute liability.",
+          "syntactic_type": "风尚反转哲理句型",
+          "translation": "一旦宏观经济风向骤然逆转，昔日高调张扬的炫耀性炫富挥霍便在几乎一夜之间沦为令人生厌的负面累赘",
+          "application_sentence": "Once the macroeconomic winds shifted following the banking panic, conspicuous ostentation became practically overnight an acute social liability.",
+          "sentence_cn": "一旦银行挤兑危机后宏观经济风向骤然逆转，昔日那种高调张扬、挥金如土的炫耀性消费做派，便在几乎一夜之间沦为令全社会侧目鄙夷的负面道德包袱。",
+          "template_slot": "Once the macroeconomic winds shifted, [昔日追捧的热点/炫耀做派] became practically overnight an acute liability."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "market",
-          "translation": "n. 集市；市场",
-          "application_sentence": "Research demonstrates that market plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "So severe was the contraction in asset values that even long-revered masterpieces were forced to ...",
+          "syntactic_type": "so...that置于句首的形容词全部倒装结构",
+          "translation": "资产估值的急剧萎缩回落是如此之猛烈残酷，以至于连备受尊崇的传世杰作也不得不……",
+          "application_sentence": "So severe was the contraction in auction liquidity that even long-revered contemporary masterpieces were forced to accept humiliating discounts.",
+          "sentence_cn": "艺术品拍卖市场流动性萎缩崩塌的势头是如此之迅猛严酷，以至于连昔日备受追捧神化的当代大师杰作，也不得不低下高昂的头颅接受近乎腰斩的屈辱打折甩卖。",
+          "template_slot": "So severe was the contraction in [市场/资金规模] that even long-revered [龙头/核心资产] was forced to [做出重大退让]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "weeks",
-          "translation": "n. 周；星期（week 的复数）",
-          "application_sentence": "Research demonstrates that weeks plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "months",
-          "translation": "n. 月份（month 的复数）；约四周的多个时间段（month 的复数",
-          "application_sentence": "Research demonstrates that months plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "purge speculative illusions to allow cultural creation to reclaim its genuine spiritual and aesthetic dignity",
+          "syntactic_type": "去伪存真文化升华动宾搭配",
+          "translation": "彻底涤除虚火中烧的投机泡沫幻觉，让崇高的人类文化创作得以重新收复其真正的精神与审美尊严",
+          "application_sentence": "A market correction serves to purge speculative illusions, allowing genuine artistic creation to reclaim its profound spiritual and aesthetic dignity.",
+          "sentence_cn": "一场荡涤泥沙的市场理性深度回调，在深层上有力涤除了那些虚妄贪婪的投机炒作泡沫幻觉，从而使真正纯粹深邃的人类艺术创造得以重新收复其崇高的精神与美学尊严。",
+          "template_slot": "The crisis serves to purge speculative illusions, allowing [某领域/文化事业] to reclaim its genuine spiritual dignity."
         }
       ],
       "year": 2010
@@ -3241,51 +3354,164 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 I was addressing a small gathering in a suburban V... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：我当时正在弗吉尼亚郊区客厅的一个小型聚会上发表讲话，这是一个...",
-          "第2段：这一集体现了一个讽刺之处：尽管美国男性在公共场合比女性说话更...",
-          "第3段：政治学家安德鲁·哈克 (Andrew Hacker) 在 2...",
-          "第4段：社会学家凯瑟琳·科勒·里斯曼（Catherine Kohle...",
-          "第5段：简而言之，最能代表当前危机的形象是一个典型的卡通场景：一个男..."
-        ]
+        "genre": "性别语言学与亲密关系沟通障碍社会学解构",
+        "discourse_model": "弗吉尼亚客厅沙龙鲜明对比 ➔ 讽刺悖论（男性在公共演说高谈阔论vs在家庭私域沉默寡言） ➔ 语言学家丹宁'报告式'与'情感式'沟通模型 ➔ 妻子核心诉求（非实质侵权而是情感失联） ➔ 报纸遮面讽刺漫画 ➔ 重构亲密关系共情之桥",
+        "main_theme": "本文立足社会语言学泰斗黛博拉·丹宁（Deborah Tannen）在弗吉尼亚妇女沙龙上的生动现场见闻，深刻剖析了当代男女在两性沟通中普遍面临的'沟通断桥危机'（communication disconnect in intimacy）；揭示了著名的性别语言学讽刺悖论：男性在公共社交场合往往侃侃而谈、滔滔不绝，展现争夺地位的'报告式沟通'（report-talk），而在家庭温馨私域中却习惯性退缩为金口难开的'冷漠隐形人'；反之，女性则将对话视作构筑亲密纽带的'情感式沟通'（rapport-talk）；结合社会学家安德鲁·哈克尔与凯瑟琳·科勒的研究，指出女性对婚姻最普遍的怨怼并非源于家庭暴力或恶习等实质伤害，而是丈夫精神层面的长期情感失联（emotional absence）；最终以丈夫用报纸遮面、妻子自说自话的经典讽刺漫画，呼唤两性打破沟通认知屏障。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】弗吉尼亚客厅聚会中的鲜活微观讽刺对比",
+            "core_point": "在一场女性沙龙聚会上，一位极力声称丈夫从不说话的妻子，却亲眼目睹其丈夫在公共场合口若悬河、独揽话匣子。",
+            "cohesive_devices": "以生动戏剧性的日常场景描写开篇（addressing a small gathering in Virginia living room）。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】两性沟通经典讽刺悖论：公共高调与家庭沉默",
+            "core_point": "这一事件凝练了跨性别的讽刺规律：男性在公共竞技场发言远多于女性，但一旦回归家庭围墙之内，话语权便骤然互换。",
+            "cohesive_devices": "提炼核心理论悖论（crystallizes the irony: men talk more in public, yet clam up at home）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】社会学历史积淀：哈克尔与科勒的长期学术实证",
+            "core_point": "政治学家哈克尔与社会学家科勒自1970年代以来的严谨观察证实，男女性在不同空间切换话语表现是跨越世代的社会学常态。",
+            "cohesive_devices": "引入学术脉络印证（pattern observed by Andrew Hacker and Catherine Kohler Riessman）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】作者实证深挖：女性真正的婚姻之痛是非物理性情感冷漠",
+            "core_point": "田野调研揭示，现代妻子对丈夫最沉痛的控诉绝非酗酒家暴等实质恶行，而是丈夫近在咫尺却宛若陌路的情感失联与无动于衷。",
+            "cohesive_devices": "直击婚姻痛点本质（complaints focused not on tangible inequities, but on emotional distance）。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】现代婚姻危机的视觉图腾：报纸遮面下的隔阂深渊",
+            "core_point": "生动刻画现代两性危机的经典漫画：早餐桌上丈夫以宽大报纸挡住面容充耳不闻，妻子在对面陷入无回应的荒凉孤岛。",
+            "cohesive_devices": "以经典漫画意象收官（stereotypical cartoon of a man holding up a newspaper, shutting his wife out）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 2 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "A"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Emotional Distance and Inaccessibility Emerge as the Chief Grievance",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第4段：实证表明妻子对婚姻最大的怨怼并非实质恶习，而是丈夫长期在情感层面的疏离隔绝与不可接近。"
+            },
+            {
+              "key": "B",
+              "heading": "Complete Banning of Print Newspapers in Suburban Households",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向极端/无中生有】报纸是漫画隐喻，文中绝非要求取缔纸质报纸。"
+            },
+            {
+              "key": "C",
+              "heading": "A Living Room Encounter Exposes the Irony of Verbal Disconnect",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：客厅女性沙龙上妻子指控丈夫沉默、丈夫却在公共场合侃侃而谈的鲜明讽刺开篇。"
+            },
+            {
+              "key": "D",
+              "heading": "Legal Divorce Invariably Follows Every Minor Household Spat",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：过度夸大】文中探讨沟通差异，未曾断言每次小口角都引发离婚。"
+            },
+            {
+              "key": "E",
+              "heading": "The Paradoxical Divide: Public Eloquence Versus Domestic Silence",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段：男性在公共竞技场口若悬河高谈阔论，在家庭私域却缄口不言的悖论。"
+            },
+            {
+              "key": "F",
+              "heading": "The Stereotypical Newspaper Wall as a Symbol of Marital Isolation",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第5段结语：以丈夫高举报纸遮挡面部充耳不闻的经典漫画，形象凝练两性情感断桥。"
+            },
+            {
+              "key": "G",
+              "heading": "Sociological Precedents Corroborate Cross-Generational Disparities",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第3段：政治学家哈克尔与社会学家科勒的早期学术实证，印证了这种两性空间沟通差异的普遍性。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓客厅聚会遭遇讽刺对比（living room gathering / talkative husband）；段2抓公开展现口才vs家庭沉默（public eloquence vs domestic silence）；段3抓社会学长期实证印证（Hacker and Riessman observed pattern）；段4抓情感失联为首要怨怼（complaints focused on emotional distance, not tangible inequities）；段5抓报纸遮面漫画象征孤岛（cartoon of man holding newspaper shutting wife out）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "addressing",
-          "translation": "v. （address 的现在分词或动名词）在（信封、包裹等）上写收件人姓名和地址；对……讲话",
-          "application_sentence": "Research demonstrates that addressing plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "crystallize the poignant irony that individuals behave with striking divergence across different realms",
+          "syntactic_type": "行为反差学术动宾搭配",
+          "translation": "鲜明凝练了这样一种极其发人深省的讽刺现象：个体在不同空间场域中展现出令人瞠目的截然对立举止",
+          "application_sentence": "As interpersonal surveys indicate, marital dynamics crystallize the poignant irony that people communicate with vocal eloquence in public while remaining mute at home.",
+          "sentence_cn": "正如人际交往调研所清晰揭示的，两性亲密关系动力学生动凝练了这样一种发人深省的讽刺现象：人们往往在公共社交舞台上高谈阔论、口若悬河，而在私密家庭港湾中却金口难开、沉默如谜。",
+          "template_slot": "This phenomenon crystallizes the poignant irony that individuals behave with [某种积极表象] in public while exhibiting [全然相反的消极举止] in private."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "small",
-          "translation": "adj. 小型的；（数量）少的",
-          "application_sentence": "Research demonstrates that small plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "stem not from deliberate malice, but from fundamentally disparate socialization frameworks governing ...",
+          "syntactic_type": "not from...but from社会化因果结构",
+          "translation": "绝非源于蓄意的恶意伤害，而恰恰根源于在支配……方面全然迥异的深层社会化心智模式",
+          "application_sentence": "Gender miscommunication stems not from deliberate emotional cruelty, but from disparate socialization frameworks governing how men and women construct intimacy.",
+          "sentence_cn": "两性亲密关系中的诸多误解与失落，绝非源于哪一方蓄意的冷酷恶意，而恰恰深深根源于男女自幼接受的、在如何理解与构建亲密纽带方面全然迥异的社会化心智成长图景。",
+          "template_slot": "Interpersonal friction stems not from deliberate malice, but from fundamentally disparate socialization frameworks governing [沟通方式/价值认定]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "episode",
-          "translation": "n. 一段经历；一段时期",
-          "application_sentence": "Research demonstrates that episode plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "The core of the grievance revolves not around tangible material injuries, but around the crushing silence of ...",
+          "syntactic_type": "精神实质转折驳论句型",
+          "translation": "其深层怨怼的核心根本不是围绕看得见摸得着的实质物质侵害，而是围绕……那令人窒息的冰冷沉默",
+          "application_sentence": "The core of the relationship grievance revolves not around tangible material inequities, but around the crushing silence of chronic emotional detachment.",
+          "sentence_cn": "伴侣心中最深沉剧烈的痛苦怨怼，其核心根本不在于看得见摸得着的物质利益分配不均，而恰恰在于那种旷日持久、近在咫尺却宛若陌路的情感失联所带来的令人窒息的冰冷绝望。",
+          "template_slot": "The core of public frustration revolves not around tangible [物质得失], but around the crushing silence of [精神冷漠/缺乏回应]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "crystallizes",
-          "translation": "v. （使）结晶；使凝固：使某物变成固体晶体形式",
-          "application_sentence": "Research demonstrates that crystallizes plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Nothing is more corrosive to intimate human bonds than an unyielding wall of indifference that ...",
+          "syntactic_type": "Nothing is more+形容词否定倒装最高级修辞",
+          "translation": "没有任何事物能比一道……的顽固冷漠高墙，对人类亲密灵魂纽带造成更为致命的腐蚀与摧残",
+          "application_sentence": "Nothing is more corrosive to intimate human bonds than an unyielding wall of emotional indifference that leaves partners feeling profoundly invisible.",
+          "sentence_cn": "在这个世界上，没有任何事物能够比一道将伴侣彻底视若无睹、令其深感自身微不足道且被完全隐形化的顽固冷漠高墙，对人类最宝贵的灵魂亲密纽带造成更为致命且无可挽回的腐蚀与摧毁。",
+          "template_slot": "Nothing is more corrosive to [社会互信/亲密纽带] than an unyielding wall of [冷漠自私] that leaves [群体] feeling profoundly invisible."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "pattern",
-          "translation": "n. 模式；方式",
-          "application_sentence": "Research demonstrates that pattern plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "observed",
-          "translation": "v. observe 的过去式和过去分词：观察；注意到",
-          "application_sentence": "Research demonstrates that observed plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "tear down defensive barriers to cultivate active, empathetic listening as the foundational anchor of interpersonal health",
+          "syntactic_type": "情感沟通破局对仗动宾搭配",
+          "translation": "勇敢拆毁自我封闭的心灵防御堡垒，全力培育积极且充满共情的倾听能力，将其筑牢为人际健康长青的根本压舱石",
+          "application_sentence": "Modern partners must courageously tear down defensive psychological barriers to cultivate empathetic listening as the foundational anchor of relational vitality.",
+          "sentence_cn": "身处喧嚣中的现代伴侣必须鼓起勇气，坚决拆毁那些自我封闭的心理防御堡垒，全力以赴地在日常细碎中培育出充满深切同理心的积极倾听能力，将其牢牢构筑维系亲密关系生命力的根本基石。",
+          "template_slot": "Individuals must tear down defensive barriers to cultivate [真诚倾听/换位思考] as the foundational anchor of [健康人际生态]."
         }
       ],
       "year": 2010
@@ -5296,51 +5522,176 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Over the past decade, many companies had perfected... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：在过去的十年里，许多公司已经完善了在消费者中创造自动行为（习...",
-          "第2段：伦敦卫生与热带医学院卫生中心主任柯蒂斯博士说：“一些基本的公...",
-          "第3段：柯蒂斯博士求助的公司——宝洁公司、高露洁棕榄公司和联合利华公...",
-          "第4段：如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮...",
-          "第5段：几十年前，许多人饭后不喝水。后来饮料公司开始将遥远的泉水生产..."
-        ]
+        "genre": "公共卫生学与消费者神经行为心理学跨界创新评述",
+        "discourse_model": "企业精湛的习惯回路养成术 ➔ 柯蒂斯博士破局思路：向跨国商业巨头取经 ➔ 宝洁与联合利华商业战例 ➔ 刷牙与口香糖习惯的百年人造历史 ➔ 习惯三要素机制（暗示、惯常行为、奖赏） ➔ 用商业智慧赋能全球公共卫生革命",
+        "main_theme": "本文深入追踪了伦敦卫生与热带医学院公共卫生领军学者瓦尔·柯蒂斯博士（Dr. Val Curtis）一场颠覆传统的跨界创新探索；直面全球欠发达地区因缺乏'用香皂洗手习惯'而导致每年数百万儿童死于腹泻痢疾的公共卫生绝境；揭示了单纯诉诸枯燥道德教化与恐吓宣传的传统卫生倡导彻底破产；开创性地向宝洁、高露洁、联合利华等消费品巨头取经，深度解码了现代神经科学与商业营销合力打造的'自动化习惯回路'（cue-routine-reward habit loop）；剖析了百年前美国人并不规律刷牙、嚼口香糖仅限少年的历史，揭示商业资本如何通过设计触发暗示与神经即时快感将刷牙与口香糖打造成全人类自然反射般的日常刚需；论证了将商业习惯养成术赋能全球疾病预防的革命性前景。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】商业巨头对自动化'习惯回路'的炉火纯青掌握",
+            "core_point": "过去十年间，跨国消费品巨头早已将塑造消费者潜意识'自动化习惯'的商业心理学技巧推向了出神入化的极致境地。",
+            "cohesive_devices": "以宏观商业现象（companies perfected the art of creating automatic habits）入题立论。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】柯蒂斯博士的公卫绝境：道德宣教无法催生洗手习惯",
+            "core_point": "柯蒂斯博士指出，许多基础公共卫生顽疾（如不用肥皂洗手致病）长期无法根治，单纯讲大道理根本无法战胜人性的惰性。",
+            "cohesive_devices": "承接提出公共危机（fundamental public health problems like dirty hands remain unsolved）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】颠覆传统的跨界结盟：放下身段向私营商业巨头求教",
+            "core_point": "公卫专家做出惊人抉择：打破学界清高成见，虚心向最擅长操纵人类行为的消费品跨国企业学习如何制造潜意识习惯反射。",
+            "cohesive_devices": "引入跨界破局逻辑（wanted to learn from private industry to create automatic behaviors）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】资本巨头的秘密武器：数亿美元铸就的行为科学洞察",
+            "core_point": "宝洁、高露洁等巨鳄每年耗费数亿美元钻研大脑神经回路，掌握了通过'线索暗示-例行行为-多巴胺奖赏'闭环牢牢锁定行为的秘诀。",
+            "cohesive_devices": "揭秘商业巨头核心机密（companies turned to invested millions in understanding psychology）。"
+          },
+          {
+            "pid": 4,
+            "role": "【深】百年商业史实证一：巧借泡沫暗示将'刷牙'人造成全民信仰",
+            "core_point": "一个世纪前几乎没有美国人每天刷牙，正是霍普金斯与宝洁通过添加薄荷刺激与起泡剂，将刷牙打造成无法抗拒的国民日常反射。",
+            "cohesive_devices": "引用牙膏营销经典历史案例（A century ago few brushed teeth / shrewd advertising created habit）。"
+          },
+          {
+            "pid": 5,
+            "role": "【深】百年商业史实证二：嚼口香糖从小众嗜好跃升为全民清新风尚",
+            "core_point": "昔日仅在叛逆少年中流行嚼胶树脂，如今在广告赋予其'餐后清新口气'的神圣暗示后，跃升为全年龄段的普遍生活习惯。",
+            "cohesive_devices": "平行的第二商业实证（Chewing gum once bought by boys / now breath-freshening staple）。"
+          },
+          {
+            "pid": 6,
+            "role": "【合】商业智慧反哺公卫革命：以科技与心理回路点亮亿万生命",
+            "core_point": "塑造积极健康的潜意识反射不仅是商业变现的核心，更是人类征服顽疾、提升全球数十亿人生命福祉的最锐利心智武器。",
+            "cohesive_devices": "以崇高公卫愿景终结全篇（creating positive habits essential for public health and saving lives）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 3 的七个段落，从 A-G 七个候选项中为指定五个段落选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "A"
+            },
+            {
+              "pid": 6,
+              "label": "Paragraph 7",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Multimillion-Dollar Corporate Investments in Behavioral Neuroscience",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第4段：宝洁等跨国巨鳄不惜投入数以亿计的研发资金，深度解码大脑行为习惯回路机制。"
+            },
+            {
+              "key": "B",
+              "heading": "Mandatory Electronic Toothbrushes Distributed to All Elementary Pupils",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有/过度编造】文中未曾提及强制分发电动牙刷。"
+            },
+            {
+              "key": "C",
+              "heading": "Corporate Mastery: The Science of Engineering Automatic Human Habits",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：现代跨国商业巨头早已将塑造大众潜意识自动化习惯的技巧驾驭得炉火纯青。"
+            },
+            {
+              "key": "D",
+              "heading": "Chewing Gum Declared a Hazardous Controlled Substance by WHO",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向荒谬】文中将口香糖作为习惯养成的成功范例，绝未被世卫列为危险管制物。"
+            },
+            {
+              "key": "E",
+              "heading": "Persistent Public Health Dilemmas: Moral Preaching Fails to Wash Hands",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段：全球基础公共卫生顽疾未解，单纯说教宣传根本无法催生饭前便后用肥皂洗手的自发习惯。"
+            },
+            {
+              "key": "F",
+              "heading": "Harnessing Commercial Brainpower to Pioneer a Public Health Revolution",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第7段结语：善用私营企业的行为科学智慧塑造健康习惯反射，将为拯救全球亿万生命点亮希望。"
+            },
+            {
+              "key": "G",
+              "heading": "A Radical Cross-Sector Leap: Public Health Pioneers Learn from Big Business",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第3段：公卫专家打破藩篱，放下身段主动向消费品跨国私营企业汲取行为养成经验。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓商业巨头精通习惯塑造（perfected art of creating habits）；段2抓洗手等基础公卫难题久拖不决（fundamental public health problems / dirty hands）；段3抓跨界向私营企业求教（learn from private industry）；段4抓企业数百万投资行为神经科学（invested millions in psychology）；段7抓善用习惯回路拯救生命（creating positive habits essential / saving lives）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "past",
-          "translation": "adj. 过去的；昔日的",
-          "application_sentence": "Research demonstrates that past plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "engineer seamless automatic habit loops that turn novel practices into second nature",
+          "syntactic_type": "行为塑造前沿学术动宾短语搭配",
+          "translation": "精心设计出严密无缝的自动化习惯回路，将陌生新兴行为彻底固化为个体的第二本能",
+          "application_sentence": "As consumer psychology metrics indicate, visionary campaigns engineer seamless habit loops that turn healthy behaviors into second nature.",
+          "sentence_cn": "正如消费者行为心理学数据所清晰表明的，具有前瞻视野的公共倡导行动懂得精心构建严密无缝的习惯闭环回路，从而将原本生硬的健康自律行为春风化雨般固化为广大民众的第二生理本能。",
+          "template_slot": "Effective public campaigns engineer seamless habit loops that turn [健康习惯/环保行动] into second nature."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "decade",
-          "translation": "n. 十年；十年期",
-          "application_sentence": "Research demonstrates that decade plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "succeed not through patronizing moral admonition, but through the ingenious alignment of cues, routines, and rewards",
+          "syntactic_type": "习惯回路三要素结构动宾句型",
+          "translation": "其成功绝非仰赖居高临下的空洞道德戒谕，而恰恰是通过对暗示线索、例行行为与心理奖赏三要素的精巧闭环匹配",
+          "application_sentence": "Lasting behavioral change succeeds not through patronizing moral admonition, but through the ingenious alignment of sensory cues, daily routines, and immediate psychological rewards.",
+          "sentence_cn": "任何持久深入骨髓的社会行为习惯变革，绝非仰仗那些居高临下、令人厌烦的空洞道德说教与恐吓惩处，而恰恰在根本上得益于对感官线索暗示、日常例行操练以及即时多巴胺心理奖赏三要素之间精妙绝伦的有机闭环匹配。",
+          "template_slot": "Sustainable reform succeeds not through patronizing moral preaching, but through the ingenious alignment of [关键机制三要素]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "fundamental",
-          "translation": "adj. 根本的；基本的",
-          "application_sentence": "Research demonstrates that fundamental plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "While conventional public campaigns stubbornly rely on dry didactic lectures, commercial giants demonstrate that ...",
+          "syntactic_type": "传统与商业创新对立驳论句型",
+          "translation": "尽管传统的公卫宣传依然顽固依赖于枯燥生硬的说教灌输，商业巨头却早已无可辩驳地证明了……",
+          "application_sentence": "While conventional health initiatives stubbornly rely on dry didactic lectures, commercial pioneers demonstrate that emotional craving is the true engine of human action.",
+          "sentence_cn": "尽管许多传统的健康宣教工程依然冥顽不灵地依赖于枯燥乏味的大道理灌输与展板说教，但敏锐的商业先锋却早已用海量实证无可辩驳地证明：唯有撬动人类内心深处的情感渴望与奖赏机制，才是引爆自主行动的真正核心发动机。",
+          "template_slot": "While traditional approaches stubbornly rely on dry didactic lectures, innovative pioneers demonstrate that [深层心理动力] is the true engine of change."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "public",
-          "translation": "adj. 公众的；大众的",
-          "application_sentence": "Research demonstrates that public plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "It is not until public health advocates master the psychological choreography of ... that they can hope to ...",
+          "syntactic_type": "强调句型结合not until时间状语从句",
+          "translation": "唯有当公共利益倡导者真正熟稔并精通……背后的心理学精密编排律动，他们才有可能……",
+          "application_sentence": "It is not until public health advocates master the psychological choreography of automatic habit formation that they can hope to eradicate preventable transmissible diseases.",
+          "sentence_cn": "唯有当全球公共卫生倡导者真正熟稔并精通潜意识自动化习惯养成的精密心理学编排律动，他们才有可能真正从根源上彻底根除那些夺走亿万生灵的可防可控传染病恶疾。",
+          "template_slot": "It is not until policymakers master the psychological choreography of [公众行为机制] that they can hope to [达成宏伟治理蓝图]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "companies",
-          "translation": "n. 公司；企业",
-          "application_sentence": "Research demonstrates that companies plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "Curtis",
-          "translation": "n. 柯蒂斯（男子名）；柯蒂斯（姓氏）",
-          "application_sentence": "Research demonstrates that Curtis plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "transcend ivory-tower insularity to assimilate commercial behavioral insights into noble humanitarian missions",
+          "syntactic_type": "跨界融合升华对仗动宾倡议搭配",
+          "translation": "果断打破象牙塔自我封闭的傲慢藩篱，将商业领域的精湛行为科学洞察全面吸收转化为造福人类的崇高人道主义实践",
+          "application_sentence": "Civil society must transcend ivory-tower insularity to assimilate private-sector behavioral insights into noble humanitarian health campaigns worldwide.",
+          "sentence_cn": "现代公共管理部门与非营利机构必须果断破除象牙塔式的自命清高与墨守成规，敞开胸怀将私营商业巨头在行为神经科学领域沉淀的精湛洞见，全面吸收并赋能于造福全人类生命健康的崇高人道主义宏伟事业之中。",
+          "template_slot": "Advocates must transcend ivory-tower insularity to assimilate [前沿科学/市场智慧] into noble missions for the common good."
         }
       ],
       "year": 2010
@@ -7025,51 +7376,147 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Many Americans regard the jury system as a concret... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：许多美国人认为陪审团制度是关键民主价值观的具体体现，其中包括...",
-          "第2段：但就在 1968 年，陪审团遴选程序与这些民主理想发生了冲突...",
-          "第3段：直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。...",
-          "第4段：尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 2...",
-          "第5段：1968年，美国国会通过了《陪审团遴选和服务法案》，开启了陪..."
-        ]
+        "genre": "宪法法理学与司法民主化平权历史进程评述",
+        "discourse_model": "陪审团作为美利坚民主基石 ➔ 1968年之前的种族与性别排斥隐秘历史 ➔ '蓝带精英遴选制'的操纵实质 ➔ 1968年《陪审团遴选与服务法案》里程碑 ➔ 代表全社区阶层截面（Cross-Section of Community） ➔ 捍卫司法平权与民主自我净化",
+        "main_theme": "本文立足美国宪法司法民主化演进的历史坐标，深刻反思了被无数美国人奉为神圣民主基石的'陪审团制度'（jury system）所经历的漫长黑暗排除与浴火重生；尖锐揭露了在1968年民权里程碑立法之前，各州普遍采用所谓的'蓝带陪审团'（blue-ribbon juries）与'显赫人士推荐遴选法'（key-man system），在体制上将非洲裔黑人、贫困劳工及女性等弱势群体系统性、长期性地隔绝于法庭裁决权之外；详细评述了美国国会通过《1968年陪审团遴选与服务法案》（Jury Selection and Service Act of 1968）的划时代意义——确立从全选民登记册中电脑随机抽签的'社区阶层真实截面'（fair cross-section of the community）法定原则；展现了法治文明在破除特权自肥、兑现真正公民平等审判权上的自我纠偏力量。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】陪审团制度：被奉为美利坚民主核心价值的具体化身",
+            "core_point": "许多美国人将公民陪审团视为宪法最核心民主价值的直接具象化体现，代表着平民抗衡司法专制的权力。",
+            "cohesive_devices": "以崇高的宪法政治学共识（Many Americans regard jury system as concrete expression of crucial democratic values）开篇。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】刺目的历史断裂：半个世纪前遴选程序与民主理想严重背离",
+            "core_point": "然而历史真相残酷无情：就在不算遥远的1968年之前，各州实际的陪审团挑选程序充斥着赤裸裸的偏见，与宪法平等精神水火不容。",
+            "cohesive_devices": "以刺目转折破除神话（But as recently as 1968, jury selection procedures conflicted with ideals）。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】'蓝带陪审团'的暗箱操纵：白人精英垄断与对弱势群体的制度性放逐",
+            "core_point": "以西弗吉尼亚等州为例，所谓的'蓝带精英陪审团'与地方权贵闭门推荐，充当了将非裔黑人、体力劳工和广大妇女全盘剥夺审判资格的便利遮羞布。",
+            "cohesive_devices": "详述特权黑幕操作（selecting 'blue-ribbon juries' provided a convenient way to exclude blacks, laborers and women）。"
+          },
+          {
+            "pid": 3,
+            "role": "【合】1968年划时代立法：《陪审团法案》开启平民代表性全新纪元",
+            "core_point": "1968年国会通过《陪审团遴选与服务法案》，彻底废除权贵内定，确立全社区公平截面抽签原则，实现了司法民主化的伟大历史跨越。",
+            "cohesive_devices": "以里程碑立法胜利作结（Congress passed Jury Selection and Service Act of 1968, ushering in a new era of representative democracy）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 4 的四个段落，从 A-F 六个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "The 'Blue-Ribbon' Screen Cloaked Systematic Racial and Class Exclusion",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第3段：西弗吉尼亚所谓的蓝带精英遴选制实际上充当了系统性排斥黑人、劳工与女性的暗箱工具。"
+            },
+            {
+              "key": "B",
+              "heading": "Complete Abolition of Trial by Jury Across All Federal Courts",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向极端/无中生有】文章强调陪审团平权改革，绝未取消联邦陪审团审判制度。"
+            },
+            {
+              "key": "C",
+              "heading": "The Jury System Revered as a Pillar of American Democratic Values",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：陪审团审判制度被美国民众广泛奉为彰显国家核心民主与平权价值的坚不可摧之基石。"
+            },
+            {
+              "key": "D",
+              "heading": "Mandatory Incarceration Imposed on All Delinquent Jurors",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未涉及监禁未到庭陪审员。"
+            },
+            {
+              "key": "E",
+              "heading": "A Glaring Disconnect: Historic Procedures Violated Constitutional Ideals",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段：直至1968年之前，各州实际推行的歧视性陪审团挑选流程同崇高的宪法民主理想发生剧烈冲突。"
+            },
+            {
+              "key": "F",
+              "heading": "The Landmark 1968 Statute Ushers in True Representative Democracy",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第4段结语：国会通过《1968年陪审团遴选与服务法案》，彻底开启代表全社区广泛阶层的司法民主新纪元。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓陪审团为民主核心象征（concrete expression of democratic values）；段2抓1968年之前程序与理想冲突（procedures conflicted with ideals）；段3抓蓝带精英制掩盖种族阶级排斥（blue-ribbon juries excluded blacks, laborers, women）；段4抓1968年法案开启代表性新时代（1968 Act ushered in new era）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "regard",
-          "translation": "v. 认为；把……看作",
-          "application_sentence": "Research demonstrates that regard plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "herald a landmark transition toward genuine representative inclusiveness across ...",
+          "syntactic_type": "制度转型动宾短语搭配",
+          "translation": "宣告了在……全域范围内迈向真正的代表性包容多元的划时代里程碑式飞跃",
+          "application_sentence": "As legal history chronologies indicate, civil rights statutory reforms heralded a landmark transition toward genuine representative inclusiveness across judicial panels.",
+          "sentence_cn": "正如司法法治史年表所清晰反映的，一系列平权法定改革的成功出台，赫然宣告了国家审判机关全面迈向真正具有广泛代表性与多元包容性的划时代历史飞跃。",
+          "template_slot": "Statutory reforms heralded a landmark transition toward genuine representative inclusiveness across [司法体系/公共管理]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "jury",
-          "translation": "n. 陪审团；（竞赛的）裁判委员会",
-          "application_sentence": "Research demonstrates that jury plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "serve as a gilded pretext that systematically disenfranchised vulnerable minorities behind ...",
+          "syntactic_type": "特权伪装批判从句结构",
+          "translation": "充当冠冕堂皇的镀金借口，在……的虚伪掩护下系统性剥夺了弱势少数群体的神圣基本权利",
+          "application_sentence": "Elitist selection mechanisms served as a gilded pretext that systematically disenfranchised working-class citizens behind the façade of evaluating intellectual competence.",
+          "sentence_cn": "那些由权贵阶层把持的所谓精英评选机制，在深层本质上充当了一个冠冕堂皇的镀金掩体，在虚伪标榜考察所谓智力品行的借口掩护下，系统性、大范围地剥夺了广大工薪阶层公民的神圣政治与司法参与权。",
+          "template_slot": "Elitist selection criteria merely served as a gilded pretext that systematically disenfranchised [弱势群体] behind the façade of [冠冕堂皇的说辞]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "recently",
-          "translation": "adv. 最近；不久前",
-          "application_sentence": "Research demonstrates that recently plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "A glaring chasm long persisted between lofty constitutional rhetoric and the sordid exclusionary reality of ...",
+          "syntactic_type": "理想与现实撕裂批判句型",
+          "translation": "在崇高神圣的宪法原则修辞与……那肮脏不堪的排他性排斥现实之间，曾长期存在着不可逾越的刺目天堑",
+          "application_sentence": "A glaring chasm long persisted between America's lofty constitutional rhetoric of equality and the sordid exclusionary reality of judicial selection.",
+          "sentence_cn": "在国家宪法文本中关于人人生而平等的崇高神圣政治修辞与各级法院陪审团遴选暗箱操作中所充斥的肮脏排他性歧视现实之间，曾长期存在着一道令文明蒙羞的刺目鸿沟与天堑。",
+          "template_slot": "A glaring chasm long persisted between lofty legal rhetoric and the sordid exclusionary reality of [实践制度]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "jury",
-          "translation": "n. 陪审团；（竞赛的）裁判委员会",
-          "application_sentence": "Research demonstrates that jury plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Were a justice system to draw its arbiters exclusively from privileged enclaves, it would forfeit the moral authority to ...",
+          "syntactic_type": "虚拟语气条件句倒装结构",
+          "translation": "倘若一个国家的司法审判体系仅仅从享有特权的狭隘孤岛中选拔裁判裁决者，它就注定将彻底丧失……的崇高道德合法性",
+          "application_sentence": "Were a legal system to draw its jurors exclusively from privileged elite enclaves, it would inevitably forfeit the moral authority to dispense true justice.",
+          "sentence_cn": "倘若一个文明社会的司法审判体系仅仅从那些盘踞高位、享有特权的狭隘精英孤岛中抽调裁判者，它就注定将在广大人民群众面前彻底丧失秉公断案、主持正义的最根本道义合法性。",
+          "template_slot": "Were an institution to draw its decision-makers exclusively from [狭隘特权圈子], it would forfeit the moral authority to [代表公信力/维护公道]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "system",
-          "translation": "n. （协同工作的）系统；（计算机、警报器等的）系统",
-          "application_sentence": "Research demonstrates that system plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "failed",
-          "translation": "adj. 失败的；难以为继的",
-          "application_sentence": "Research demonstrates that failed plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "democratize institutional participation to ensure that governance mirrors a fair, diverse cross-section of the entire community",
+          "syntactic_type": "司法平权对仗动宾倡议短语",
+          "translation": "全面推进机构参与的民主平权化，确保权力架构能够真实映照出整个社会社群公平多元的全面阶层截面",
+          "application_sentence": "Modern rule of law demands that we democratize institutional participation to ensure that judicial governance mirrors a fair, diverse cross-section of the entire democratic community.",
+          "sentence_cn": "现代法治文明的崇高品格要求我们必须坚定不移地推进国家公权力机构参与的民主平民化，下最大决心确保司法语境下的审判治理体系能够真实、忠实地映照出全社会全体人民那道公平、多元、生机勃勃的广泛阶层截面。",
+          "template_slot": "Progressive governance demands that we democratize institutional participation to ensure that [决策结构] mirrors a fair cross-section of the entire community."
         }
       ],
       "year": 2010

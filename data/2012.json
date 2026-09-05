@@ -1778,51 +1778,164 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Homework has never been terribly popular with stud... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：家庭作业从来都不太受学生甚至许多家长的欢迎，但近年来它尤其受...",
-          "第2段：这条规则的目的是解决来自贫困或混乱家庭的学生完成作业的困难。...",
-          "第3段：学区管理人员表示，家庭作业仍将是学校教育的一部分；教师可以根...",
-          "第4段：与此同时，该政策没有解决有关家庭作业的任何真正棘手的问题。如...",
-          "第5段：在负责制定教育政策的学校董事会调查此事并举行公开听证会期间，..."
-        ]
+        "genre": "基础教育公平与作业评价制度改革反思评述",
+        "discourse_model": "家庭作业遭遇普遍声讨 ➔ 洛杉矶学区推行'一成封顶'限分令 ➔ 关照贫困家庭学子的公平初衷 ➔ 治标不治本（规避质性难题） ➔ 机械限分伤害学风 ➔ 呼唤从形式主义限分回归作业育人本真",
+        "main_theme": "本文立足美国第二大学区——洛杉矶联合学区（L.A. Unified）出台极具争议的'家庭作业成绩占比不得超过10%'（10% grading cap）政策，对基础教育中的评价改革展开了深度的学理反思；客观肯定了该项政策旨在帮扶无安宁学习书桌、缺乏父母辅导的贫困弱势阶层学子的良善平权初衷；然而尖锐指出这种简单粗暴的'数字一刀切封顶'无异于掩耳盗铃，不仅丝毫没有解答'作业如何真正巩固知识、如何避免低效重复机械抄写'等深层教育学顽疾，反而极易向社会传递'放任自流、降低学业期望'的危险信号；最终呼吁教育决策层告别形式主义的数字游戏，回归因材施教、精巧设计的作业育人正轨。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】家庭作业历来不受待见，减负呼声催生激进新政",
+            "core_point": "课后作业向来为学生和家长所苦，近年来全美反抗作业过重的浪潮愈演愈烈，推动地方学区酝酿激进新规。",
+            "cohesive_devices": "以人人深有体会的教育痛点（Homework has never been popular / recent pushback）开篇。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】良善政策初衷：消弭贫困混乱家庭学子的先天不公",
+            "core_point": "洛杉矶新政核心立意在于教育公平：保护那些来自狭窄嘈杂、缺乏安静环境与家教辅导的贫困学子免遭成绩歧视。",
+            "cohesive_devices": "阐述政策出台的同理心与社会正义考量（rule meant to address difficulty of impoverished homes）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】操作细则落地：保留作业形式，但总分权重被硬性锁死在一成以内",
+            "core_point": "学区管理层坚称并未彻底废除作业，而是采取妥协性折中：允许教师留作业，但其成绩权重至多只占科目总评的10%。",
+            "cohesive_devices": "出台具体行政量化指标（District administrators say homework still part / count no more than 10%）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】尖锐制度反思：避重就轻的数字游戏绕开了全部核心棘手问题",
+            "core_point": "然而这一硬性限分令完全没有回答关于作业设计、批改反馈与启发性等真正核心的教育学难题，纯属治标不治本的懒政。",
+            "cohesive_devices": "以犀利批判转折破局（policy addresses none of the truly thorny questions about homework）。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】迷途知返犹未晚：呼唤从机械限制走向科学设计的教育重塑",
+            "core_point": "洛杉矶学区纠偏为时不晚：与其在及格分数百分比上玩弄数字游戏，不如倾力指导教师如何设计富有针对性与吸引力的精益作业。",
+            "cohesive_devices": "提出建设性纠偏建言（not too late for L.A. Unified to do homework right / meaningful design）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 1 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "A"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Evading the Thorny Questions: A Superficial Cap Without Real Reform",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第4段：尖锐批评学区出台的10%限分令完全回避了作业质量与反馈机制等真正棘手的核心教育学难题。"
+            },
+            {
+              "key": "B",
+              "heading": "Immediate Criminal Prosecution for Assigning Weekend Reading",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向极端/荒谬捏造】文中未曾提及对布置作业的教师提起刑事诉讼。"
+            },
+            {
+              "key": "C",
+              "heading": "Rising Grievances: Widespread Pushback Against Overburdening Homework",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：全社会针对家庭作业沉重负担的抱怨与反抗情绪近年来愈演愈烈。"
+            },
+            {
+              "key": "D",
+              "heading": "Complete Abolition of High School Diplomas in California",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未涉及废除加州高中毕业文凭。"
+            },
+            {
+              "key": "E",
+              "heading": "Leveling the Playing Field for Youths in Impoverished Environments",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段：阐述新规出台的核心初衷——为来自贫困与混乱家庭环境的学子抚平考核起跑线上的不公。"
+            },
+            {
+              "key": "F",
+              "heading": "Seizing the Window to Get Homework Right Through Purposeful Design",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第5段结语：呼吁学区亡羊补牢为时不晚，应当下大力气推进以人为本、重在育人实效的作业精细设计。"
+            },
+            {
+              "key": "G",
+              "heading": "A Compromise Measure: Homework Retained but Capped at Ten Percent",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第3段：学区落地的折中方案——保留作业，但将其在学生总评成绩中的最高占比强行锁死在10%以内。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓对作业的普遍反抗（homework unpopular / pushback）；段2抓照顾贫困无序家庭学子（address difficulty of impoverished homes）；段3抓保留作业但封顶一成（homework still part / count no more than 10%）；段4抓回避棘手本质问题（addresses none of thorny questions）；段5抓正确设计作业亡羊补牢（not too late to do homework right）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "Homework",
-          "translation": "n. （学生的）家庭作业；准备工作",
-          "application_sentence": "Research demonstrates that Homework plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "impose an arbitrary mathematical cap to quell escalating public backlash",
+          "syntactic_type": "危机公关行政动宾短语搭配",
+          "translation": "强行设立生硬机械的数学比例封顶，以此平息日益激化的社会公众反弹",
+          "application_sentence": "As educational policy reviews indicate, administrative authorities frequently impose an arbitrary mathematical cap to quell escalating public backlash.",
+          "sentence_cn": "正如基础教育政策评估报告所清晰揭示的，面对愈演愈烈的公众民怨与家长抗议，行政管理部门往往习惯性地出台一个生硬机械的数学百分比限额封顶，企图草草平息汹涌的社会舆论反弹。",
+          "template_slot": "Administrative authorities frequently impose an arbitrary mathematical cap to quell escalating public backlash against [某种公共负担]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "never",
-          "translation": "adv. 决不；永不",
-          "application_sentence": "Research demonstrates that never plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "originate from an empathetic impulse to shield disadvantaged students from structural inequalities",
+          "syntactic_type": "制度初衷同理心因果短语",
+          "translation": "发端于一种旨在庇护弱势群体学生免遭深层结构性不平等碾压的同理善意冲动",
+          "application_sentence": "The controversial grading ceiling originated from an empathetic policy impulse to shield impoverished students from unequal domestic learning environments.",
+          "sentence_cn": "这项在社会各界引爆轩然大波的限分新政，其最初的政策萌芽实际上发端于一种值得尊重的同理心善意冲动——竭力庇护那些家境贫寒的弱势学子免遭家庭环境不平等的双重无形碾压。",
+          "template_slot": "This well-intentioned initiative originated from an empathetic impulse to shield [弱势群体] from structural socioeconomic inequalities."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "rule",
-          "translation": "n. 规章；条例",
-          "application_sentence": "Research demonstrates that rule plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "A simplistic numerical mandate addresses none of the substantive pedagogical challenges that ...",
+          "syntactic_type": "形式主义批判主谓从句",
+          "translation": "简单生硬的数字行政指标，根本无法解决支配着……的任何实质性深层教学挑战",
+          "application_sentence": "A simplistic numerical cap addresses none of the substantive pedagogical challenges that dictate whether academic tasks foster genuine intellectual growth.",
+          "sentence_cn": "这种简单生硬的数字封顶行政命令，根本丝毫未能触及并解答那些真正决定着学业课业能否切实激发学生心智成长与知识掌握的深层次教学法则与专业挑战。",
+          "template_slot": "A simplistic numerical mandate addresses none of the substantive challenges that dictate whether [某项制度] achieves genuine success."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "meant",
-          "translation": "v. 意味；打算（mean 的过去式和过去分词）",
-          "application_sentence": "Research demonstrates that meant plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "In no way does diluting academic expectations constitute a genuine cure for systemic educational disparities, unless ...",
+          "syntactic_type": "In no way否定短语置于句首的部分倒装让步条件句",
+          "translation": "降低与稀释对学业标准的刚性期待绝无可能构成根治系统性教育鸿沟的良药，除非……",
+          "application_sentence": "In no way does diluting academic expectations constitute a genuine cure for systemic disparities, unless it is paired with tailored pedagogical support.",
+          "sentence_cn": "盲目放任自流、稀释降低全社会对学生学业标准的刚性期待与求知要求，在任何意义上都绝不可能构成根治系统性教育阶层鸿沟的灵丹妙药，除非它能够真正与精准入微的因材施教帮扶实现有机融合。",
+          "template_slot": "In no way does diluting [评价标准/质量要求] constitute a genuine cure for [深层困境], unless accompanied by [实质性赋能]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "District",
-          "translation": "n. 地区；区域",
-          "application_sentence": "Research demonstrates that District plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "administrators",
-          "translation": "n. administrator 的复数形式；管理员",
-          "application_sentence": "Research demonstrates that administrators plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "shift the focus from cosmetic administrative ceilings to purposeful, human-centered curricular design",
+          "syntactic_type": "教育治理重心转移对仗动宾短语",
+          "translation": "将治理注意力从表面化、形式主义的行政比例限额，坚决转向以人为本、有的放矢的科学课程与作业精细设计",
+          "application_sentence": "Educators must shift their primary focus from cosmetic administrative ceilings to purposeful, human-centered curricular design that inspires curiosity.",
+          "sentence_cn": "广大教育决策者与前线教师必须坚决将精力焦点，从那种表面文章、治标不治本的形式主义行政封顶游戏中解脱出来，坚定不移地转向以人为本、富有针对性且能真正启迪求知好奇心的现代化课程与作业精细设计。",
+          "template_slot": "Policymakers must shift the focus from cosmetic administrative mandates to purposeful, human-centered [制度与内容精细设计]."
         }
       ],
       "year": 2012
@@ -3608,50 +3721,147 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Pretty in pink: adult women do not remember being ... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：漂亮的粉色：成年女性不记得自己对这种颜色如此着迷，但它在我们...",
-          "第2段：女孩对粉色的喜爱似乎是不可避免的，不知何故已被编码在她们的 ...",
-          "第3段：直到 20 世纪 80 年代中期，扩大年龄和性别差异成为儿童...",
-          "第4段：我没有意识到营销趋势如何深刻地决定了我们对孩子自然行为的看法..."
-        ]
+        "genre": "文化社会学与商业消费主义对童年建构的批判评述",
+        "discourse_model": "当今女孩粉色狂热现象 ➔ 20世纪前男女无色彩编码历史（白色婴儿服时代） ➔ 商业资本与百货零售商登场 ➔ '蹒跚学步幼童'（Toddler）概念的人造诞生 ➔ 制造细分品类诱导重复消费 ➔ 资本对童年与性别刻板印象的消费主义塑形",
+        "main_theme": "本文敏锐捕捉当代西方社会小女孩对粉红色陷入极端痴迷（Pretty in pink）的文化狂热，展开了深刻的社会建构论（Social Constructionism）与商业营销批判；击碎了世人将'粉色代表女性、蓝色代表男性'视作与生俱来生理基因的迷思；揭示了在20世纪初全自动家用洗衣机与强力漂白剂发明前，全人类婴幼儿一律穿着便于沸水煮洗的'中性白色连衫裙'；详述了现代心理学界奉为金科玉律的'蹒跚学步幼童'（Toddler，指1至3岁幼儿）阶段，其发明者根本不是儿童发展科学家，而是百货零售业与服装贸易期刊为了刺激中产父母掏腰包、强行制造出的商品细分标签；深刻论证了资本主义消费巨兽如何通过人为定义人生阶段与性别标签，行收割利润之实，最终反向塑造了现代社会的文化认同。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】女童粉色狂热迷思：成年女性未曾有过的童年执念",
+            "core_point": "粉红色如今无孔不入地统治着小女孩的世界，然而成年女性回忆童年时却根本没有这种对粉色的病态狂热。",
+            "cohesive_devices": "以反差修辞开篇（adult women do not remember being so obsessed, yet pervasive today）。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】历史真相还原：20世纪前婴儿着装毫无性别色彩编码",
+            "core_point": "历史事实是：在现代洗衣机问世之前，所有幼童不论男女一律穿着白色长袍，以便于随时用沸水和漂白粉高温去污。",
+            "cohesive_devices": "还原真实历史常识（Children were not colour-coded at all until early 20th century / era before washing machines）。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】颠覆直觉的溯源：'蹒跚幼儿'概念绝非出自科学实验室",
+            "core_point": "大众普遍以为'Toddler'（幼儿）是一个严谨的心理发育科学里程碑，但作者深入考证发现，其源头竟是商业服装货架。",
+            "cohesive_devices": "以个案打破直觉认知（Take the toddler / assumed experts developed it after research）。"
+          },
+          {
+            "pid": 3,
+            "role": "【合】商业资本收割的逻辑闭环：商贩黑话最终演变为社会共识",
+            "core_point": "商贩为了阻止大童衣服传给弟妹穿、强行发明细分年龄段，最终商家的促销黑话反客为主，固化为全社会信奉的阶梯与性别图腾。",
+            "cohesive_devices": "揭示商业塑造文化的闭环规律（only after 'toddler' became shoppers' term that it evolved into accepted stage）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 2 的四个段落，从 A-F 六个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Debunking the 'Toddler' Myth: Invented on Department Store Racks",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第3段：颠覆'蹒跚幼儿'是科学医学成果的假象，揭露其本质是百货商场为了卖货生造的商业营销概念。"
+            },
+            {
+              "key": "B",
+              "heading": "Mandatory Neutral Gray Uniforms Imposed on Kindergarten Children",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向极端/无中生有】文中未曾提及强制幼儿园学童穿着灰色制服。"
+            },
+            {
+              "key": "C",
+              "heading": "The Pervasive Pink Obsession: A Novel Phenomenon Among Girls",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：粉色在当代小女孩中狂热弥漫，而成年女性回忆自身幼年时却毫无这一执念的反差。"
+            },
+            {
+              "key": "D",
+              "heading": "Complete Abolition of Commercial Toy Advertising Across the Nation",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未涉及全面禁止商业玩具广告。"
+            },
+            {
+              "key": "E",
+              "heading": "Historical Pragmatism: All-White Attire Before Color-Coding",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段：20世纪洗衣机问世之前，所有婴幼儿一律穿着便于漂白水煮的白色长裙，毫无性别色彩编码。"
+            },
+            {
+              "key": "F",
+              "heading": "Retail Jargon Transformed into Universal Developmental Milestones",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第4段结语：服装零售商的促销黑话最终反客为主，演变为全社会公认的儿童成长心理学阶段。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓粉色痴迷乃现代产物（pretty in pink / adult women do not remember）；段2抓20世纪前无色彩编码统一白色（not colour-coded until 20th century / practical bleach）；段3抓幼儿概念源于商场非专家（take the toddler / not developed by experts）；段4抓商业营销词汇变成公认人生阶段（shoppers' term evolved into accepted developmental category）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "Pretty",
-          "translation": "adj. （尤指女孩）漂亮的；标致的",
-          "application_sentence": "Research demonstrates that Pretty plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "witness the aggressive commercial proliferation of gender-differentiated consumer niches",
+          "syntactic_type": "消费主义趋势动宾搭配",
+          "translation": "见证了性别差异化消费细分市场极其激进的商业野蛮扩张",
+          "application_sentence": "As retail marketing analytics demonstrate, modern department stores witness the aggressive commercial proliferation of gender-differentiated consumer niches.",
+          "sentence_cn": "正如零售市场营销调研数据所清晰揭示的，当代各大商业百货与电商平台普遍见证了以性别刻板印象为鲜明标签的细分消费品类极其激进的商业野蛮扩张与泛滥。",
+          "template_slot": "Recent decades have witnessed the aggressive commercial proliferation of [某种细分消费模式/人为标签]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "pink",
-          "translation": "adj. 粉红色的；（因窘迫、愤怒或剧烈活动而）脸色发红的",
-          "application_sentence": "Research demonstrates that pink plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "be artificially manufactured by corporate merchants to segment markets and accelerate inventory turnover",
+          "syntactic_type": "商业收割批判动宾短语",
+          "translation": "完全是由逐利的商业资本人为生造出来的，其真实目的在于强行细分市场并加速库存周转",
+          "application_sentence": "Many seemingly biological developmental stages were in fact artificially manufactured by merchants to segment markets and render hand-me-down clothing obsolete.",
+          "sentence_cn": "许多看似具有生物学与心理学严谨依据的人生所谓成长发育阶段，在真实商业历史上恰恰是由逐利的服装贸易商贩人为生造出来的，其根本算盘无非是为了强行细分产品线、淘汰兄妹之间的旧衣传承并彻底加速商品的淘汰周转。",
+          "template_slot": "These categories were in fact artificially manufactured by commercial actors to segment markets and maximize [商业牟利/资本扩张]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Girls",
-          "translation": "n. 女孩；姑娘（girl 的复数）",
-          "application_sentence": "Research demonstrates that Girls plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "What society reflexively accepts as an immutable biological reality is, upon closer historical examination, nothing more than ...",
+          "syntactic_type": "主语从句引导的去神秘化揭秘句型",
+          "translation": "社会大众习惯性奉为不可动摇的永恒生理本质规律的观念，在经受严密的近代历史考证后，实则不过是……",
+          "application_sentence": "What society reflexively accepts as an immutable biological affinity is, upon closer historical scrutiny, nothing more than a recent triumph of consumer capitalism.",
+          "sentence_cn": "社会大众往往习惯性奉为天经地义、不可动摇的所谓天生性别喜好本质规律，在经受严密透彻的近代商业历史考据之后，实则不过是现代消费主义资本精心编织的一场极为成功的促销幻象而已。",
+          "template_slot": "What society accepts as an immutable law is, upon closer examination, nothing more than [人造的商业神话/时代产物]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "attraction",
-          "translation": "n. 有吸引力的事物；吸引力",
-          "application_sentence": "Research demonstrates that attraction plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Only when consumers deconstruct the commercial lineage of ... can they liberate themselves from the tyranny of ...",
+          "syntactic_type": "only+时间状语从句置于句首的部分倒装语序",
+          "translation": "唯有当广大消费者能够清醒解构……背后的商业利益血统与营销谱系，他们方能将自身从……的无形暴政中彻底解放出来",
+          "application_sentence": "Only when parents deconstruct the commercial lineage of gendered merchandise can they liberate their children from the tyranny of manufactured stereotypes.",
+          "sentence_cn": "唯有当现代年轻父母真正学会以批判的眼光去解构各类儿童用品背后盘根错节的商业利益血统与营销套路，他们方能将幼小的心灵从那些被人为强行制造出的性别刻板印象暴政中彻底解放出来。",
+          "template_slot": "Only when citizens deconstruct the commercial origins of [消费神话] can they liberate themselves from the tyranny of [盲从攀比]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "until",
-          "translation": "conj. 到……时；直到……为止",
-          "application_sentence": "Research demonstrates that until plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "amplifying",
-          "translation": "v. 动词 amplify 的现在分词/动名词：放大（声音、信号等）；增强（强度、影响等）",
-          "application_sentence": "Research demonstrates that amplifying plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "foster critical consumer literacy to reclaim authentic childhood from the relentless machinery of commercial segmentation",
+          "syntactic_type": "消费觉醒与儿童呵护对仗动宾短语",
+          "translation": "全力培育批判性的消费通识素养，将真正天真烂漫的本真童年从商业资本冷酷无情的细分机器中重新拯救赎回",
+          "application_sentence": "Enlightened parents must foster critical consumer literacy to reclaim the sacred purity of childhood from the relentless machinery of retail marketing.",
+          "sentence_cn": "具有清醒现代意识的父母与全社会教育者必须全力培育批判性的媒介与消费素养，坚决将神圣纯粹、不带功利杂质的真正本真童年，从零售商业巨头那台冷酷无情、无孔不入的利益细分收割机器中重新拯救赎回。",
+          "template_slot": "Educators must foster critical literacy to reclaim [真实生活/本真童年] from the relentless machinery of [商业异化/数字裹挟]."
         }
       ],
       "year": 2012
@@ -5651,51 +5861,170 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 In 2010, a federal judge shook America’s biotech i... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：2010 年，一位联邦法官彻底震撼了美国生物技术产业。几十年...",
-          "第2段：7 月 29 日，他们松了一口气，至少暂时松了口气。联邦上诉...",
-          "第3段：但随着公司继续尝试个性化医疗，法院将仍然相当忙碌。 Myri...",
-          "第4段：尽管上诉法院做出了裁决，但仍有一些重大问题没有得到解答。例如...",
-          "第5段：然而，随着行业的进步，其他诉讼可能会产生更大的影响。..."
-        ]
+        "genre": "生物医药专利法学与基因科技前沿反垄断评述",
+        "discourse_model": "联邦法官重创基因专利 ➔ 联邦巡回法院暂时翻案（孤立DNA可获专利） ➔ 核心法理悬而未决（自然造物vs人类智力劳动边界） ➔ 梅奥诊所案（自然生化关联能否据为己有） ➔ 生物技术创新组织应对 ➔ 平衡研发商业激励与生命科学普惠共享",
+        "main_theme": "本文聚焦美国生物医药知识产权领域一场震动全球的世纪司法大战——'人类基因能否申请专利'（patenting human genes）；以2010年纽约联邦初审法院判定万亿级乳腺癌致癌基因（BRCA1/2）专利无效、到2011年联邦巡回上诉法院推翻原判认定'人工分离提取的DNA分子'具备专利资格的波折进程为核心线索；深刻剖析了悬而未决的法理死穴：大自然数十亿年演化出的基因序列到底属于全人类共有的'自然产物'（products of nature），还是属于耗费数千万研发经费的人类'发明'；结合最高法院审理的'梅奥诊所案'（Mayo Clinic case），探讨了对基因变异与疾病相关性申请专利垄断是否会扼杀后续医学研发；展现了现代知识产权法在捍卫药企创新商业回报与维护人类生命健康可及性之间的终极平衡考验。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】2010年联邦法官震撼判决：撼动美国生物科技产业根基",
+            "core_point": "联邦初审法官裁定人类基因不可申请专利，瞬间击碎了无数生物制药巨头斥巨资筑牢的垄断护城河，全行业剧震。",
+            "cohesive_devices": "以强戏剧性司法事件（shook America's biotech industry to its core / judge voided gene patents）开宗明义。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】巡回上诉法院暂时翻案：分离DNA分子被判定具备可专利性",
+            "core_point": "上诉法院以微弱优势部分推翻原判，裁定经由人工分离提纯的DNA分子不同于自然界原生状态，暂时让药企缓了一口气。",
+            "cohesive_devices": "以司法对抗反转承接（appeals court overturned the ruling / relieved temporarily）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】核心法理谜题依然悬空：大自然造物与人类发明的模糊边界",
+            "core_point": "上诉法院的裁决并未平息争端，大自然的天然遗产与人类科技加工发明的边界究竟划在何处，依然缺乏最高权威定论。",
+            "cohesive_devices": "学术法理自我反思（big questions remain unanswered / unclear boundaries）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】诉讼风暴蔓延至诊断领域：企业企图专利化基因与疾病的内在关联",
+            "core_point": "随着基因诊疗深化，更大的风暴在医疗诊断领域酝酿：药企甚至试图将'某种基因突变必然导致某种疾病'的客观自然定律据为己有。",
+            "cohesive_devices": "引出更深层的行业诉讼风暴（other suits may have greater impact / patenting correlations）。"
+          },
+          {
+            "pid": 4,
+            "role": "【深】梅奥诊所世纪诉讼：最高法院直击自然法则垄断的违宪红线",
+            "core_point": "梅奥诊所诉讼案成为万众瞩目的试金石，拷问法律是否允许垄断企业将客观存在的人体代谢规律化为独家私产。",
+            "cohesive_devices": "引入标杆性诉讼（suit brought by Mayo Clinic / determining the future of diagnostic patents）。"
+          },
+          {
+            "pid": 5,
+            "role": "【合】生物技术组织严阵以待：重构知识产权与公共福祉的精妙平衡",
+            "core_point": "全球生物技术创新组织（BIO）紧急开班指导律师，全行业在急剧动荡的法律地平线上探寻研发商业回报与人类健康共享的平衡点。",
+            "cohesive_devices": "以行业博弈现状与前瞻展望作结（BIO convention coaching lawyers / shifting legal landscape）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 3 的六个段落，从 A-G 七个候选项中为指定五个段落选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "A"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Monopolizing Natural Associations Between Genes and Pathology",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第4段：随着技术演进，诉讼风暴升级，药企试图将基因突变与病理诊断之间的天然对应规律申请专利垄断。"
+            },
+            {
+              "key": "B",
+              "heading": "Immediate Outlawing of All Prescription Medicines in North America",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向极端/荒谬捏造】文中探讨基因专利边界，未曾提及取缔处方药。"
+            },
+            {
+              "key": "C",
+              "heading": "A Landmark Verdict Shakes the Biotech Sector to Its Foundation",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：2010年联邦初审法院判定人类基因专利无效，引发美国整个生物技术产业剧烈地震。"
+            },
+            {
+              "key": "D",
+              "heading": "Complete Banning of DNA Sequencing by the United Nations",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未涉及联合国禁止DNA测序。"
+            },
+            {
+              "key": "E",
+              "heading": "Temporary Reprieve: Appeals Court Upholds Patents on Isolated DNA",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段：联邦巡回上诉法院推翻原判，裁定人工分离提纯的DNA分子具备专利资格，让药企暂时松了一口气。"
+            },
+            {
+              "key": "F",
+              "heading": "The Mayo Clinic Challenge: Scrutinizing the Patentability of Nature's Laws",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第5段：梅奥诊所提起的重磅诉讼将自然生化法则能否被专利化垄断置于最高法院的严格审判台之上。"
+            },
+            {
+              "key": "G",
+              "heading": "Unresolved Conundrums: Drawing the Line Around Products of Nature",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第3段：上诉法院的判决未能终结争议，如何划定大自然固有造物与人类发明创新的边界依然悬而未决。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓初审判决震动产业（judge shook biotech industry）；段2抓上诉法院翻案暂时解围（appeals court overturned ruling / relieved temporarily）；段3抓核心自然造物边界未决（big questions unanswered / products of nature）；段4抓试图垄断基因与疾病关联（patenting correlations between genes and disease）；段5抓梅奥诊所案审判自然定律（suit brought by Mayo Clinic）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "federal",
-          "translation": "adj. 联邦（制）的；（与）联邦政府（有关的）的",
-          "application_sentence": "Research demonstrates that federal plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "shake the foundation of knowledge-intensive sectors by overturning established legal orthodoxies",
+          "syntactic_type": "产业震荡高级动宾搭配",
+          "translation": "通过颠覆推翻长期固化的传统法律教条，剧烈撼动知识密集型产业的根本基石",
+          "application_sentence": "As intellectual property indices indicate, pioneering judicial rulings can shake the foundation of knowledge-intensive industries by challenging corporate patents.",
+          "sentence_cn": "正如知识产权权威分析指数所清晰表明的，具有里程碑意义的司法判决能够通过正面挑战垄断专利，在一夜之间彻底撼动整个高科技知识密集型产业盘踞多年的利益根基。",
+          "template_slot": "Landmark judicial rulings have the potential to shake the foundation of [高新技术产业] by overturning established orthodoxies."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "judge",
-          "translation": "n. 法官；审判官",
-          "application_sentence": "Research demonstrates that judge plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "stem from a high-stakes ethical struggle over whether the fundamental building blocks of life should be commodified",
+          "syntactic_type": "伦理与法学因果从句结构",
+          "translation": "根源于一场围绕'生命最基础的遗传密码砖石究竟是否应当被全面商业化变现'的生死攸关的伦理博弈",
+          "application_sentence": "The gene patent controversy stems from a high-stakes ethical struggle over whether the fundamental building blocks of human life should be commodified as private intellectual property.",
+          "sentence_cn": "围绕人类基因专利所引爆的这场世纪司法较量，在深层本质上根源于一场生死攸关的崇高伦理大博弈——究竟人类生命最根本的遗传密码基因砖石，是否应当被异化为任由商业资本垄断收割的私有知识财产。",
+          "template_slot": "This profound controversy stems from an ethical struggle over whether [生命基本密码/公共共有财富] should be commodified as private property."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "relieved",
-          "translation": "adj. 放心的；宽慰的",
-          "application_sentence": "Research demonstrates that relieved plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Allowing corporate monopolies to cordon off basic natural correlations threatens to stifle the very innovation it was designed to ...",
+          "syntactic_type": "动名词作主语驳斥逆向反噬句型",
+          "translation": "任由商业资本垄断封锁大自然固有的客观科学规律，极有可能反噬并彻底扼杀其原本旨在……的那种创新活力本身",
+          "application_sentence": "Allowing pharmaceutical behemoths to patent basic natural correlations threatens to stifle the very diagnostic innovation that patents were originally intended to stimulate.",
+          "sentence_cn": "任由跨国制药垄断寡头将人体大自然固有的客观病理关联规律圈地据为己有，极有可能走向绝妙的讽刺反面——反噬并彻底扼杀现代专利法最初设立时旨在激发鼓励的医学创新活力本身。",
+          "template_slot": "Allowing private monopolies to cordon off [公共基础资源] threatens to stifle the very innovation it was intended to stimulate."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "least",
-          "translation": "adj. 一点儿；最少的（little 的最高级）",
-          "application_sentence": "Research demonstrates that least plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Under no circumstances should mere discoveries of unaltered products of nature be conflated with ...",
+          "syntactic_type": "否定短语置于句首的部分倒装语态",
+          "translation": "在任何法律语境下，对大自然固有造物的纯粹客观发现，都绝不应与……被混为一谈",
+          "application_sentence": "Under no circumstances should the mere scientific isolation of unaltered products of nature be conflated with genuinely inventive human creation.",
+          "sentence_cn": "在任何严肃的法理与道德语境下，对大自然未作本质改变的原生造物所开展的单纯实验室提纯分离与发现，都绝不应当与真正具有独创性的人类伟大发明创新被混为一谈、等量齐观。",
+          "template_slot": "Under no circumstances should mere discoveries of [客观自然规律] be conflated with [独创性技术发明]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "companies",
-          "translation": "n. 公司；企业",
-          "application_sentence": "Research demonstrates that companies plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "continue",
-          "translation": "v. （使）继续；（使）延续",
-          "application_sentence": "Research demonstrates that continue plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "strike a delicate equilibrium between safeguarding commercial R&D incentives and defending the open accessibility of life-saving science",
+          "syntactic_type": "知识产权与民生平权对仗动宾搭配",
+          "translation": "在切实捍卫商业研发正向激励与坚定保障救命医学科学知识的开放普惠可及之间，求取极其精巧审慎的动态平衡",
+          "application_sentence": "Patent jurisprudence must strike a delicate equilibrium between safeguarding corporate R&D incentives and defending the unhindered accessibility of diagnostic medicine.",
+          "sentence_cn": "现代专利法学与司法实践必须下最大决心，在切实保护高科技企业高风险研发投资的合理商业回报与坚定捍卫关系到亿万患者生死存亡的诊断医学科技的开放普惠可及之间，求取极其精巧审慎的动态平衡。",
+          "template_slot": "Jurisprudence must strike a delicate equilibrium between safeguarding [商业创新激励] and defending the open accessibility of [公共核心福祉]."
         }
       ],
       "year": 2012
@@ -7513,51 +7842,164 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 The great recession may be over, but this era of h... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：大衰退可能已经结束，但这个高失业率的时代可能正在开始。...",
-          "第2段：在它结束之前，它很可能会改变一代年轻人的生命历程和性格。最终...",
-          "第3段：没有人比失业者更努力地在这场国家经济灾难中寻找一线希望。许多...",
-          "第4段：但在大多数情况下，这些好处似乎微不足道、不确定且遥远。经济历...",
-          "第5段：收入不平等通常会在经济衰退期间缩小，但在这次衰退中并没有缩小..."
-        ]
+        "genre": "宏观经济学与社会分裂心理学深度冷峻剖析",
+        "discourse_model": "衰退技术性结束与高失业常态化开启 ➔ 失业者的乐观苦笑与尊严剥夺 ➔ 破除借贷狂欢'发烧梦'的积极反思 ➔ 阴暗反噬：排外思潮与阶层仇恨泛滥 ➔ 互联网放大戾气撕开文明面纱 ➔ 警惕长期失业侵蚀社会团结基石",
+        "main_theme": "本文立足2008年次贷海啸与大衰退（Great Recession）在宏观经济学上宣告技术性终结的虚幻时刻，发出了冷峻深邃的警世预言——'高失业与无就业复苏的长夜才刚刚拉开序幕'；深刻解构了长期失业对普通劳动者造成的非金钱性心理摧残：剥夺社会尊严、制造绝望与孤立感；辩证指出了经济危机的唯一正面溢出效应是彻底唤醒了美国社会沉溺于'零首付炒房、刷爆信用卡投机暴富'的荒诞集体发烧梦（fever dream of easy riches）；进而无比尖锐地揭露了经济寒冬所催生的阴暗社会副产品：反移民极端狂热抬头、种族与阶层敌意激化、贫富鸿沟扩大；揭示了移动互联网时代如何充当情绪放大器，将文明社交面纱下掩盖的暴戾怨恨毫无遮掩地撕扯暴露在全社会面前。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】冷峻预言：经济衰退在书面上结束，残酷高失业长夜却刚启幕",
+            "core_point": "统计局宣布大萧条技术性结束，然而长期的结构性高失业时代大概率才刚刚降临，无就业复苏将成常态。",
+            "cohesive_devices": "以冷峻的让步警示（recession may be over, but era of high joblessness is beginning）破题。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】苦涩的乐观主义掩盖不住失业对人性尊严的无情碾压",
+            "core_point": "失业大军拼命在灾难中寻找所谓人生转机的微光，然而长期失业对个人心智与生活底气的侵蚀是难以修复的创伤。",
+            "cohesive_devices": "展现失业者的心理挣扎（No one tries harder to find silver linings / national disaster）。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】唯一的冷水醒脑价值：击碎全民族靠借贷投机暴富的'发烧梦'",
+            "core_point": "若说这场危机确有积极遗产，那便是它如一盆刺骨冷水，彻底浇醒了全美沉溺于轻松发财、大肆囤积空洞大豪宅的虚妄幻梦。",
+            "cohesive_devices": "以比喻肯定反思价值（awoken us from our national fever dream of easy riches）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】阴暗副产品滋生蔓延：排外主义狂热与社会阶层敌意全面激化",
+            "core_point": "危机最凶险的反噬在于社会心理恶化：反对移民的极端思潮激增，不同族裔与阶层之间因生存资源抢夺而陷入互不信任的敌视。",
+            "cohesive_devices": "直击社会撕裂恶果（Anti-immigrant sentiment increases / conflict between races and classes）。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】数字时代的戾气放大器：互联网彻底撕下温情社交面纱",
+            "core_point": "在互联网时代，以往隐藏在礼貌客套社交面具之下的深层怨恨与敌意被无遮无拦地放大，暴露出社会团结遭受蚕食的深重内伤。",
+            "cohesive_devices": "以网络心理学洞察收官（Internet age exposes resentment always hidden beneath surface）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 4 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "G"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Awakening from the Collective Fever Dream of Effortless Riches",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第3段：危机如冷水浇醒全美沉溺于炒房投机、过度负债轻松暴富的集体虚妄狂热幻梦。"
+            },
+            {
+              "key": "B",
+              "heading": "Total Expulsion of All Foreign Citizens from US Borders",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向极端/荒谬捏造】文中探讨排外情绪上升，未曾提及下达驱逐全部外国公民法令。"
+            },
+            {
+              "key": "C",
+              "heading": "The Recession Concludes, Yet Chronic Joblessness Dawns",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：经济衰退在纸面上虽然结束，但旷日持久的结构性高失业残酷寒冬却刚刚破晓启幕。"
+            },
+            {
+              "key": "D",
+              "heading": "Universal Basic Income Distributed to All American Adults",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未曾涉及全民基本收入发放。"
+            },
+            {
+              "key": "E",
+              "heading": "Hunting for Silver Linings Amid Debilitating Psychological Strain",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段：失业者竭尽全力在绝境中苦苦搜寻微光转机，却难掩长期失业造成的深层心智内伤。"
+            },
+            {
+              "key": "F",
+              "heading": "Digital Echo Chambers Unmask the Raw Resentment Lurking Beneath",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第5段结语：互联网时代彻底撕碎了文明客套的外壳面纱，将深层戾气、怨恨与极化情绪赤裸裸展露无遗。"
+            },
+            {
+              "key": "G",
+              "heading": "Social Fabric Frayed: Anti-Immigrant Fervor and Class Polarization",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第4段：经济凋敝催生社会毒瘤——反移民排外狂热抬头，阶级与族裔对立急剧白热化激化。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓衰退结束但高失业开始（recession over / high joblessness begins）；段2抓苦寻转机难掩心理创伤（silver linings / jobless strain）；段3抓唤醒轻松发财发烧梦（awoken from fever dream of easy riches）；段4抓反移民与阶级种族对立激化（anti-immigrant sentiment / conflict between races）；段5抓互联网暴露隐秘戾气怨恨（Internet age exposes resentment hidden beneath）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "great",
-          "translation": "adj. 伟大的；著名的",
-          "application_sentence": "Research demonstrates that great plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "unmask a sobering divergence between technical statistical recovery and agonizing human reality",
+          "syntactic_type": "冷峻现实宏观动宾短语搭配",
+          "translation": "毫不留情地揭开了账面统计数据复苏与残酷人间现实之间令人心碎的冷峻割裂",
+          "application_sentence": "As macroeconomic indices illustrate, employment surveys unmask a sobering divergence between technical recovery and agonizing human reality.",
+          "sentence_cn": "正如宏观经济与就业跟踪数据所清晰揭示的，严谨的民意与民生调研毫不留情地撕下了账面GDP技术性反弹复苏的虚假面纱，将广大普通劳动者饱受折磨的残酷生存现实展露无遗。",
+          "template_slot": "Statistical indicators unmask a sobering divergence between official recovery and [严峻的真实民生困境]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "recession",
-          "translation": "n. （经济的）衰退（期）；退后",
-          "application_sentence": "Research demonstrates that recession plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "fuel social scapegoating where economic despair is weaponized into toxic xenophobia and class strife",
+          "syntactic_type": "社会心理学因果定语从句",
+          "translation": "助长寻找替罪羊的狂热社会思潮，将大众的经济绝望恶意武器化为有毒的排外狂热与阶层对抗",
+          "application_sentence": "Prolonged joblessness fuels dangerous scapegoating, where economic insecurity is weaponized into toxic xenophobia and inter-class hostility.",
+          "sentence_cn": "旷日持久的结构性失业在深层社会心理上极易助长寻找替罪羊的危险狂热，底层大众由于缺乏安全感而产生的生存绝望，被迅速武器化煽动为极具破坏力的排外仇恨与阶层撕裂对抗。",
+          "template_slot": "Prolonged hardship fuels dangerous scapegoating, where public insecurity is weaponized into [极端排外/阶层敌意]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "ends",
-          "translation": "n. 结束（end 的复数）；目的",
-          "application_sentence": "Research demonstrates that ends plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "If this traumatic contraction yields any silver lining whatsoever, it is that it has definitively shattered ...",
+          "syntactic_type": "危机遗产转折审思句型",
+          "translation": "倘若这场痛苦创伤性的经济大退潮真能留下哪怕一丝一毫的微光启示，那便在于它彻底击碎了……",
+          "application_sentence": "If this traumatic contraction yields any silver lining whatsoever, it is that it has definitively shattered our national fever dream of effortless affluence.",
+          "sentence_cn": "倘若这场给千家万户带来沉痛创伤的宏观经济大退潮真能留下哪怕一丝一毫具有积极意义的微光启示，那便在于它以当头棒喝的清脆响声，彻底击碎了我们整个社会沉溺已久的靠空手套白狼轻松暴富的荒诞发烧梦。",
+          "template_slot": "If this crisis yields any silver lining whatsoever, it is that it has definitively shattered [某种虚妄的幻想/不可持续的泡沫]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "likely",
-          "translation": "adj. 可能发生的；似乎合适的",
-          "application_sentence": "Research demonstrates that likely plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "So potent an emotional amplifier is the modern internet that resentments formerly confined to whispers now ...",
+          "syntactic_type": "so...that置于句首的倒装修辞结构",
+          "translation": "现代移动互联网充当的情感放大器效应是如此强劲可怖，以至于以往仅局限于私下窃窃私语的阴暗怨恨如今……",
+          "application_sentence": "So potent an emotional amplifier is the modern internet that raw socioeconomic resentments formerly confined to private whispers now erupt into destructive polarization.",
+          "sentence_cn": "现代移动互联网作为情绪与偏见催化剂的放大效应是如此之强悍与可怖，以至于昔日仅仅局限于私底下耳语窃窃的底层社会怨愤，如今毫无遮拦地喷涌爆发为摧毁社会共识与团结的剧烈极化风暴。",
+          "template_slot": "So potent an amplifier is the modern internet that [深层矛盾/社会戾气] formerly confined to whispers now erupts into [剧烈公开风暴]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "at the very least",
-          "translation": "语境核心词汇",
-          "application_sentence": "Research demonstrates that at the very least plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "tries",
-          "translation": "n. 尝试；试验（try 的复数）",
-          "application_sentence": "Research demonstrates that tries plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "repair fractured civic solidarity and address the deep-seated grievances of marginalized workers through substantive economic empowerment",
+          "syntactic_type": "社会团结修补对仗动宾短语",
+          "translation": "全力修补受损破裂的公民社会团结纽带，通过实质性的经济赋能真诚回应边缘化劳动者的深层合理关切",
+          "application_sentence": "Democratic societies must repair fractured civic solidarity and address the deep-seated economic grievances of displaced workers before polarization becomes irreversible.",
+          "sentence_cn": "现代文明社会必须刻不容缓地采取行动，全力修补已经出现严重裂痕的公民社会团结互信纽带，必须通过实质性的就业帮扶与发展赋能，真诚回应广大被时代列车抛在身后的边缘化劳动者的深层诉求与切肤之痛。",
+          "template_slot": "Society must repair fractured civic solidarity and address the grievances of [边缘化弱势群体] through substantive [制度兜底与赋能]."
         }
       ],
       "year": 2012
