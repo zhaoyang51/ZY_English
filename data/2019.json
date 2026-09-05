@@ -1994,52 +1994,170 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Unlike so-called basic emotions such as sadness, f... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：指出内疚感是随道德规范发展而产生的高级情绪，适量内疚有益成长。",
-          "第2段：破除对内疚的传统负面认知，指出情绪并非非黑即白，内疚有其进化适应价值。",
-          "第3段：阐述内疚感的社会黏合剂功能：促使人们弥补过失、修复人际关系并维系合作。",
-          "第4段：提出内疚与同情是促进合作与分享的两种互补途径，同情心低者可通过内疚感弥补。",
-          "第5段：引用2014年针对244名儿童的分享实验，实证内疚倾向能显著提升低同情儿童的亲社会行为。",
-          "第6段：引用马尔蒂的话总结：即使出于弥补伤害和悔恨，人类也能展现出积极的亲社会合作。"
-        ]
+        "genre": "情绪发展心理学与道德人格建构学术评述",
+        "discourse_model": "内疚情绪的发展心理学起源 ➔ 大众污名化误读 ➔ 促进反思与关系修复的内在机理 ➔ 蒂娜·马尔蒂儿童实验实证 ➔ 亲社会行为转化验证 ➔ 告别情绪羞耻与重塑道德向善动力",
+        "main_theme": "本文聚焦发展心理学前沿成果，深刻颠覆了社会大众对'内疚感'（guilt）作为病态消极情绪的传统误读；阐明了内疚情绪在自我意识觉醒后萌发，其深层内核是引导个体反求诸己、积极修复人际裂痕的道德自净机制；详细评述了多伦多大学心理学教授蒂娜·马尔蒂（Tina Malti）针对244名儿童开展的经典追踪对照实验，证实适度内疚体验能强力催化青少年的同理心与亲社会合作行为；最终得出极具建设性的结论：内疚绝非惩罚，而是人类克服自私、通往良善合作社会的心智阶梯。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】内疚的高级心智属性与发生机理",
+            "core_point": "不同于恐惧、悲伤等原始本能情绪，内疚感需要较晚的高阶自我认知发展才能萌发，体现了人类心智的成熟度。",
+            "cohesive_devices": "以情绪对比（Unlike basic emotions / guilt emerges later）开宗明义。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】大众通俗文化的污名化偏见",
+            "core_point": "在通俗认知与心理流行话语中，内疚往往被贴上'有毒、内耗、压抑'的恶名标签，被视作毫无价值的情感折磨。",
+            "cohesive_devices": "采用反衬手法（In the popular imagination / gets a bad rap）呈现公众普遍误区。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】自我省思与促成关系补偿修复的正向价值",
+            "core_point": "内疚促使个体深刻审视自身操守并设身处地换位思考，从而强力驱使行为主体采取实际行动补偿过失、修复社交裂痕。",
+            "cohesive_devices": "以正面机理拆解（prompting us to think deeply / make up for mistakes）反驳污名化。"
+          },
+          {
+            "pid": 3,
+            "role": "【承】马尔蒂团队实证研究登场",
+            "core_point": "心理学家蒂娜·马尔蒂指出，若从成长维度审视，内疚感实则是塑造高阶道德敏感度与责任感的绝佳契机。",
+            "cohesive_devices": "以观点提炼引入权威学者研究（Viewed in this light, guilt is an opportunity）。"
+          },
+          {
+            "pid": 4,
+            "role": "【深】244名儿童行为追踪实验的量化实证",
+            "core_point": "针对244名受试儿童的情绪测试显示，那些在犯错后能体验到清晰内疚感的孩子，在日常社交中展现出显著更高的互助利他倾向。",
+            "cohesive_devices": "以具体实验数据与受试者规模（2014 study of 244 children）提供坚实学术证据。"
+          },
+          {
+            "pid": 5,
+            "role": "【合】重塑认知：从懊悔转化为亲社会利他的升华",
+            "core_point": "正视过错带来的懊悔感，正是催化人类摆脱冷漠、建立广泛亲社会同盟的最珍贵道德火种。",
+            "cohesive_devices": "以学者振奋人心的引言作结（prosocial because we caused harm and feel regret）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 1 的六个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项，其中选取5个主要段落进行小标题匹配）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "F"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "G"
+            },
+            {
+              "pid": 5,
+              "label": "Paragraph 6",
+              "correct_key": "D"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Catalyzing Self-Reflection and Restorative Compensation",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第3段核心：内疚促使个体深刻反思品格，主动采取补救措施修复人际关系。"
+            },
+            {
+              "key": "B",
+              "heading": "Clinical Medication for Eliminating Chronic Neurotic Guilt",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文章强调内疚的健康道德功能，未涉及任何药物消除病理内疚。"
+            },
+            {
+              "key": "C",
+              "heading": "A Sophisticated Emotion Rooted in Mature Self-Awareness",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：内疚感区别于基本本能情绪，需要自我认知成熟后才会萌芽。"
+            },
+            {
+              "key": "D",
+              "heading": "Harnessing Remorse to Fuel Altruistic Social Cohesion",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第6段结语：将懊悔感升华为推动人类互助合作与社会良性凝聚的积极动力。"
+            },
+            {
+              "key": "E",
+              "heading": "Adult Sociopaths Possess Superior Emotional Maturity",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向荒谬】反社会人格者缺乏内疚感，绝非拥有卓越情绪成熟度。"
+            },
+            {
+              "key": "F",
+              "heading": "The Unjust Stigma Attached to Guilt in Popular Culture",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第2段：大众想象与流行观念对内疚感施加了片面的恶名与污名化偏见。"
+            },
+            {
+              "key": "G",
+              "heading": "Childhood Behavioral Trials Link Guilt with Prosocial Action",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第5段：针对244名儿童的追踪对照实验证实，内疚感与利他互助行为显著正相关。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓高级自我认知（emerges later / self-awareness）；段2抓大众恶名（gets a bad rap / uncomfortable）；段3抓促进修复（prompting us to think deeply / make up）；段5抓儿童行为实验（2014 study / 244 children）；段6抓懊悔转化为利他亲社会（prosocial because of remorse）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "Unlike",
-          "translation": "prep. 不像；和……不同",
-          "application_sentence": "Research demonstrates that Unlike plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "reveal a robust positive link between moral sensibility and civic participation",
+          "syntactic_type": "统计相关性动宾搭配",
+          "translation": "揭示出道德敏锐度与积极公民参与之间强劲的正面关联",
+          "application_sentence": "As the empirical survey vividly reveals, there is a robust positive link between adolescent moral sensibility and active civic participation.",
+          "sentence_cn": "正如该项实证调查所生动揭示的，青少年的高度道德敏锐度与积极投身公共事务的公民参与之间，存在着极为强劲的正面关联。",
+          "template_slot": "As the survey reveals, there is a robust positive link between [积极心理特质] and [良好行为倾向]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "called",
-          "translation": "adj. 叫做；称作",
-          "application_sentence": "Research demonstrates that called plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "serve as an indispensable internal compass that prompts individuals to repair fractured trust",
+          "syntactic_type": "比喻性因果定语从句结构",
+          "translation": "充当不可或缺的内在道德罗盘，时刻促使个体主动修补受损的信任关系",
+          "application_sentence": "Healthy feelings of remorse serve as an indispensable internal compass that prompts individuals to acknowledge faults and repair fractured social trust.",
+          "sentence_cn": "健康的悔过与内疚感充当着不可或缺的内心道德罗盘，它时刻敦促行为主体勇于承认过失，并主动采取行动修补受损的社会互信纽带。",
+          "template_slot": "[某种良善意识/责任感] serves as an indispensable internal compass that prompts [主体] to [修复关系/守住底线]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "popular",
-          "translation": "adj. 受大众喜爱的；受欢迎的",
-          "application_sentence": "Research demonstrates that popular plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Rather than being an irredeemable psychological burden, ... represents a profound opportunity for ...",
+          "syntactic_type": "介词转折提升句法",
+          "translation": "与其说是一种不可救药的沉重心理负担，……毋宁说代表着实现……的深刻契机",
+          "application_sentence": "Rather than being an irredeemable psychological burden, temporary guilt represents a profound opportunity for ethical reflection and character refinement.",
+          "sentence_cn": "与其说适度的内疚是一种毫无价值且无法承受的心理内耗负担，毋宁说它代表着促成深刻伦理自省与健全品格淬炼的珍贵契机。",
+          "template_slot": "Rather than being an irredeemable burden, [某种挫折/暂时阵痛] represents a profound opportunity for [成长蜕变/机制革新]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "imagination",
-          "translation": "n. 想象力；想象",
-          "application_sentence": "Research demonstrates that imagination plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "It is precisely through confronting our vulnerabilities and errors that we cultivate the capacity to ...",
+          "syntactic_type": "强调句型结合动名词介词短语",
+          "translation": "恰恰是通过勇敢直面自身的脆弱与过失，我们才得以真正培育起……的能力",
+          "application_sentence": "It is precisely through confronting our moral vulnerabilities and errors that we cultivate the capacity to empathize with the suffering of others.",
+          "sentence_cn": "恰恰是通过勇敢直面自身的道德脆弱与言行过失，我们才得以真正培育起将心比心、深切同情他人苦难的非凡同理心能力。",
+          "template_slot": "It is precisely through confronting [短板与挫折] that [某群体] cultivates the profound capacity to [攀登新高度]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "guilt",
-          "translation": "n. 内疚；罪行",
-          "application_sentence": "Research demonstrates that guilt plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "prompting",
-          "translation": "n. 促使、鼓励或提醒某人做某事的行为；提示",
-          "application_sentence": "Research demonstrates that prompting plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "channel introspective remorse into proactive, benevolent actions that enrich the collective fabric",
+          "syntactic_type": "道德转化动宾搭配",
+          "translation": "将向内审视的自省懊悔转化为主动行善的积极作为，从而极大丰盈整个社会的互助肌理",
+          "application_sentence": "Moral education should guide young people to channel introspective remorse into proactive, benevolent actions that enrich our collective civil fabric.",
+          "sentence_cn": "现代道德教育应当积极启发和引导青年一代，将向内省察的悔过自新转化为扶危济困的切实善行，从而在根本上丰盈维系整个社会良性运转的互助肌理。",
+          "template_slot": "Education must guide individuals to channel [自省意识] into proactive, benevolent actions that [造福社会]."
         }
       ],
       "year": 2019
@@ -3956,53 +4074,176 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Forests give us shade, quiet and one of the harder... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：指出森林碳吸收悖论：气候变化可能使森林由碳汇逆转为碳排放源。",
-          "第2段：提出加州探索的破局方案：通过当前适度减负换取森林长期碳汇能力。",
-          "第3段：阐述森林碳计划具体措施：疏伐幼树与清理灌木，提升留存树木抗旱抗虫与防火能力。",
-          "第4段：列举干旱与野火对森林造成的灾难性破坏，凸显科学干预规划的紧迫性。",
-          "第5段：说明加州林业治理的具体目标与资金来源，强调优先治理高危区域的必要性。",
-          "第6段：阐述采伐废料的固碳与新能源再利用策略：转化为实木建材或替代化石燃料的生物燃料。",
-          "第7段：总结政府管理思维的转变，高度评价加州方案为全美及全球树立了固碳治理典范。"
-        ]
+        "genre": "森林生态学与气候韧性公共政策评述",
+        "discourse_model": "加州森林面临气候危机 ➔ 疏伐与保护的精妙平衡 ➔ 森林碳计划（清理灌木与间伐幼树） ➔ 干旱与虫害肆虐的迫切现实 ➔ 碳交易资金支持与规模推进 ➔ 生物质固碳技术闭环 ➔ 从被动扑火到主动生态营林的制度蜕变",
+        "main_theme": "本文聚焦美国加利福尼亚州在频发毁灭性山火背景下推出的《森林碳计划》（Forest Carbon Plan），全面探讨了森林治理在遏制气候变化与保护生态系统之间寻求'微妙平衡'（subtle balance）的科学策略；揭示了干旱与蠹虫肆虐致使加州过亿树木枯死沦为火药桶的危急现实；论证了通过科学疏伐幼树、清理地表灌木林来消除火灾隐患，并将移除木料转化为生物能源或耐久木制品以永久固碳的生态闭环；最终呼吁政府林业部门彻底摆脱'重救火轻防火'的被动式应急思维，迈向全生命周期的主动生态营林治理。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】遮阴避暑背后的气候危机挑战",
+            "core_point": "森林是人类的庇护所，但在气候变暖冲击下，原本的绿色碳汇极易在野火中反噬为释放巨量温室气体的超级碳源。",
+            "cohesive_devices": "以反差修辞开篇（Forests give us shade / yet present one of the harder challenges）。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】破局之道：在科学疏伐与栖息地保护间寻求精妙平衡",
+            "core_point": "走出野火地狱绝非坐以待毙，唯有在减少林分密度消除火灾燃料与维系野生动植物栖息地之间找到微妙平衡点。",
+            "cohesive_devices": "承接提出解决哲学（striking a subtle balance）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】《森林碳计划》核心战术：科学疏伐幼木与清理枯灌",
+            "core_point": "加州官方公布宏大治林规划，拟将间伐茂密幼树与铲除易燃下层杂木的清理力度提升一倍，从源头阻断火势蔓延。",
+            "cohesive_devices": "引入官方行动蓝图（Forest Carbon Plan / thin out young trees and brush）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】刻不容缓的险情：干旱与虫害致上亿枯木沦为火海引信",
+            "core_point": "2010年以来的持续极端干旱与小蠹虫害已造成加州逾一亿棵成树干枯死亡，整片山林犹如随时引爆的干柴库，减载刻不容缓。",
+            "cohesive_devices": "采用量化灾情事实（drought and insects killed 100 million trees）凸显紧迫性。"
+          },
+          {
+            "pid": 4,
+            "role": "【深】碳市场收益反哺：宏大亩产指标与资金闭环",
+            "core_point": "计划以加州碳排放权交易（Cap-and-Trade）拍卖收益提供充沛专项资金，规划至2030年将年治理面积推高至6万英亩。",
+            "cohesive_devices": "呈现可持续公共财政注资机制（financed from cap-and-trade auction proceeds）。"
+          },
+          {
+            "pid": 5,
+            "role": "【深】生物质利用：将移除木材转化为持久固碳资产",
+            "core_point": "砍伐出的废弃树木绝不随地焚烧，而是定向制造成高寿命建筑木材或送往生物质热电厂，实现碳封存闭环。",
+            "cohesive_devices": "闭环技术路径说明（carbon locked away in durable products or bioenergy）。"
+          },
+          {
+            "pid": 6,
+            "role": "【合】管理哲学颠覆：从疲于奔命灭火到主动韧性经营",
+            "core_point": "各级政府长期以来将精力财力倾注于扑灭火场，如今必须完成向主动营林、森林长期健康监测的系统性范式转型。",
+            "cohesive_devices": "总结升华至公共治理哲学蜕变高度（shift from wildfire suppression to proactive management）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 2 的七个段落，从 A-G 七个候选项中为指定五个段落选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "C"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "A"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "E"
+            },
+            {
+              "pid": 6,
+              "label": "Paragraph 7",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Severe Drought and Pest Infestation Turn Forests into Kindling",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第4段：极端干旱与害虫肆虐致使加州上亿树木死亡，沦为随时被引燃的火药桶。"
+            },
+            {
+              "key": "B",
+              "heading": "Total Deforestation Mandated Across All Pacific Coastal Reserves",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向荒谬/过度极端】文章倡导科学疏伐，绝非全面砍伐砍光太平洋沿岸保护区。"
+            },
+            {
+              "key": "C",
+              "heading": "Striking a Subtle Equilibrium Between Thinning and Conservation",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第2段核心观点：在疏伐森林消除火险隐患与守护野生栖息地之间取得微妙平衡。"
+            },
+            {
+              "key": "D",
+              "heading": "Chemical Pesticides Aerially Sprayed Across Ancient Redwoods",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未提及飞机喷洒化学农药治理红杉。"
+            },
+            {
+              "key": "E",
+              "heading": "Ambitious Acreage Targets Financed by Carbon Trading Revenues",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第5段：依托碳交易拍卖资金，设定至2030年年治理6万英亩的宏伟造林治林目标。"
+            },
+            {
+              "key": "F",
+              "heading": "Pivoting from Reactive Firefighting to Proactive Ecological Stewardship",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第7段结语：各级林业行政管理必须从疲于救火向常态化主动营林转型。"
+            },
+            {
+              "key": "G",
+              "heading": "The Forest Carbon Plan Doubles Thinning and Brush Clearance",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第3段计划内容：通过加倍间伐幼树与清除枯灌，有效降低林火扩散风险。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段2抓微妙平衡（subtle balance）；段3抓林业碳计划与清理幼树枯灌（Forest Carbon Plan / double thinning）；段4抓干旱虫害上亿枯树（drought and insects / 100 million trees）；段5抓碳交易资金与治理亩数（financed from cap-and-trade / 60,000 acres）；段7抓从救火转向主动生态治理（from wildfire suppression to forest management）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "Forests",
-          "translation": "n. 森林；林地（forest 的复数形式）",
-          "application_sentence": "Research demonstrates that Forests plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "embark on an ambitious trajectory financed by sustainable green revenue streams",
+          "syntactic_type": "长远规划动宾表达",
+          "translation": "踏上由可持续绿色财政活水全额资助的宏伟进阶之路",
+          "application_sentence": "As charted in recent environmental budget reports, the ecological restoration initiative has embarked on an ambitious trajectory financed by green revenue streams.",
+          "sentence_cn": "正如近期环境预算报告图表所示，该生态修复重大工程已全面踏上一条依托绿色收益活水可持续支撑的宏阔前行道路。",
+          "template_slot": "As charted in recent policy reports, [某项战略工程] has embarked on an ambitious trajectory financed by [长效资金支撑]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "shade",
-          "translation": "n. 背阴处；阴凉处",
-          "application_sentence": "Research demonstrates that shade plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "be exacerbated by decades of myopic neglect and reactive crisis management",
+          "syntactic_type": "被动语态因果短语",
+          "translation": "因数十年以来的短视懈怠与疲于奔命的被动应急式管理而被急剧恶化",
+          "application_sentence": "The devastation of catastrophic wildfires is exacerbated by decades of ecological neglect and purely reactive crisis firefighting.",
+          "sentence_cn": "灾难性山火大范围蔓延破坏的深层恶因，正是由于过去数十年间生态营林意识的严重缺失，以及一味头痛医头、疲于奔命的被动式应急灭火所共同加剧的。",
+          "template_slot": "The crisis of [公共难题] is severely exacerbated by decades of [治理短板] and purely reactive crisis management."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Thankfully",
-          "translation": "adv. 感激地；感谢地",
-          "application_sentence": "Research demonstrates that Thankfully plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Resolving this ecological impasse demands striking a subtle balance between immediate containment and ...",
+          "syntactic_type": "动名词作主语的权衡主张句",
+          "translation": "化解这一生态僵局，要求我们在立竿见影的短期遏制措施与……之间求取极其精巧微妙的动态平衡",
+          "application_sentence": "Resolving this ecological impasse demands striking a subtle balance between immediate hazard reduction and long-term biological conservation.",
+          "sentence_cn": "彻底破解这一生态治理僵局，要求我们必须在当下的短期消除安全隐患与长远的维系生物多样性保护之间，求取极其精巧微妙的动态平衡。",
+          "template_slot": "Resolving this dilemma demands striking a subtle balance between [即时见效措施] and [长效制度保障]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "trap",
-          "translation": "n. （捕捉动物的）陷阱；网",
-          "application_sentence": "Research demonstrates that trap plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Not only does proactive stewardship mitigate catastrophic hazards, but it also converts potential liabilities into ...",
+          "syntactic_type": "Not only置于句首的部分倒装并列递进句",
+          "translation": "主动前瞻性的治理不仅能化解灾难性风险隐患，更能将潜在的累赘负债转化为……",
+          "application_sentence": "Not only does proactive forest stewardship mitigate catastrophic wildfire hazards, but it also converts waste wood into valuable bioenergy assets.",
+          "sentence_cn": "前瞻主动的生态林业管理不仅能够从根本上化解灭顶之灾般的重大火险隐患，更可以将以往废弃危险的残木碎枝转化为极富经济价值的生物质清洁能源资产。",
+          "template_slot": "Not only does [前瞻科学治理] mitigate [潜在灾难风险], but it also converts potential liabilities into [宝贵可持续财富]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "proposed",
-          "translation": "adj. 被提议的；建议的",
-          "application_sentence": "Research demonstrates that proposed plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "Forest",
-          "translation": "n. 森林；林区",
-          "application_sentence": "Research demonstrates that Forest plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "pivot decisively from reactive firefighting to systemic, preventative ecological management",
+          "syntactic_type": "战略转型动宾搭配",
+          "translation": "果断从被动式灭火扑救彻底转向系统性、预防性的主动生态治理",
+          "application_sentence": "Public authorities must pivot decisively from reactive emergency suppression to systemic, preventative ecological management across whole landscapes.",
+          "sentence_cn": "公共管理部门必须以壮士断腕的决心，坚决彻底地从以往疲于奔命的被动抢险处置，转向立足全流域全地形、高瞻远瞩的系统性预防化主动生态治理。",
+          "template_slot": "Administrative organs must pivot decisively from reactive [救火应付] to systemic, preventative [长效治理机制]."
         }
       ],
       "year": 2019
@@ -6032,53 +6273,176 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 American farmers have been complaining of labor sh... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：指出美国农场劳动力短缺危机的根源在于僵化严苛的移民法规体系。",
-          "第2段：剖析农场劳动力队伍结构变化：非法移民减少、定居化与严重老龄化，本土工人绝无可能重返农场。",
-          "第3段：指出机械化短期内难以替代大量高价值劳动密集型作物的采摘需求。",
-          "第4段：说明农场对 H-2A 临时客工签证依赖剧增，签证申请量成倍增长。",
-          "第5段：揭示 H-2A 签证制度的缺陷：流程繁琐昂贵、官僚拖延严重且常受突击搜捕冲击。",
-          "第6段：列举劳动力匮乏迫使农场外迁墨西哥，导致美国农产品进口依赖度显著上升。",
-          "第7段：一针见血总结国家战略抉择：美国要么进口农产品，要么引进采摘农产品的劳工。"
-        ]
+        "genre": "农业经济学与跨国劳动力移民政策深度剖析",
+        "discourse_model": "农场劳工荒危机常态化 ➔ 无证移民断流的断崖冲击 ➔ 娇嫩果蔬机械化采摘不可行 ➔ H-2A客工签证的官僚繁文缛节 ➔ 巨头果农大面积招工绝境 ➔ 灵魂抉择：进口农工还是直接进口粮食",
+        "main_theme": "本文聚焦美国现代农业面临的'灾难性用工荒'（severe agricultural labor shortage），深度揭示了强硬的边境移民铁腕政策对实体种植业造成的致命反噬；阐明了对于草莓、浆果、桃等易碰伤的娇嫩鲜果而言，现阶段工业自动化机械收割依然在物理与经济上不具可行性；指出了农民退而求其次申请H-2A季节性客工签证却饱受官僚主义层层盘剥与严重延误的残酷现实；最终向美国立法者抛出了一个振聋发聩的战略底线抉择：要么改革劳工签证体制允许合法农工入境采摘，要么做好全面丧失本土农业主权、依赖别国进口口粮的亡羊补牢准备。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】美农场缺工抱怨连连，劳力荒已非阵痛而是常态",
+            "core_point": "全美农场主对招不到采摘工人的抱怨已持续数年，且绝无平息迹象，劳动力短缺已演变成长期结构性危机。",
+            "cohesive_devices": "以开门见山陈述现状（complaining of labor shortages / unlikely to abate）。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】非法移民减少对劳动密集型农场的抽薪之痛",
+            "core_point": "近半数在美农工系无证无身份的拉美移民，随着边境筑墙严控，这一维持美国果蔬丰收的隐秘劳动力血脉骤然枯竭。",
+            "cohesive_devices": "揭示劳动力结构深层真相（half of farm laborers undocumented / fewer enter）。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】机械化不可行：娇嫩果蔬采摘仍需肉身温度与指尖技巧",
+            "core_point": "玉米、大豆等大田作物虽可机械化，但对于草莓、浆果和桃子等娇贵鲜果，自动化机械手不仅昂贵，且极易将果实捏烂，无法取代人工。",
+            "cohesive_devices": "以转折连词（Mechanization isn't the answer either）击碎科技万能神话。"
+          },
+          {
+            "pid": 3,
+            "role": "【承】H-2A临时客工签证沦为农场救命稻草",
+            "core_point": "在走投无路之下，种植园主不得不大规模申请合法的H-2A外籍临时农工签证，导致申请量出现暴增。",
+            "cohesive_devices": "呈现替代方案（As a result, farms grown increasingly reliant on H-2A）。"
+          },
+          {
+            "pid": 4,
+            "role": "【转】虽无配额上限，却深陷官僚繁文缛节泥潭",
+            "core_point": "H-2A签证虽然法律上没有总数配额，但申请流程之繁琐苛刻、审批节奏之滞后，往往导致工人到位时庄稼已在枝头烂透。",
+            "cohesive_devices": "以制度弊端对比（no numerical cap vs bureaucratic delays）。"
+          },
+          {
+            "pid": 5,
+            "role": "【深】权威调查数据作证：八成果农深陷招工无门泥淖",
+            "core_point": "权威行业调研显示，高达七成以上的树果种植者与近八成的浆果种植户公开表示根本无法招募到足够的当季采摘工。",
+            "cohesive_devices": "引用详实统计数据（In a survey, 71% of tree-fruit, 80% of berry growers）。"
+          },
+          {
+            "pid": 6,
+            "role": "【合】直击灵魂的政策终极命题：进口工人还是进口粮食",
+            "core_point": "严峻现实不容回避：美国要么打开大门引进采摘工守护自家粮仓，要么眼睁睁看着本国农田荒芜，全盘从拉美进口他国粮食。",
+            "cohesive_devices": "以精悍二选一二律背反（import food or import the workers who pick it）终结全篇，振聋发聩。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 3 的七个段落，从 A-G 七个候选项中为指定五个段落选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "E"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "B"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "A"
+            },
+            {
+              "pid": 6,
+              "label": "Paragraph 7",
+              "correct_key": "C"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Bureaucratic Gridlock Plagues an Uncapped Visa Program",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第5段：H-2A签证虽然没有数量上限，但繁琐官僚流程与严重延误严重拖累农时采摘。"
+            },
+            {
+              "key": "B",
+              "heading": "Stemming Undocumented Crossings Chokes Off the Primary Field Labor",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第2段：边境管控使无证移民锐减，切断了全美农田最重要的廉价劳动力主力来源。"
+            },
+            {
+              "key": "C",
+              "heading": "A Stark National Ultimatum: Import Harvest Laborers or Import Food",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第7段结论：美国面临要么引进外国劳工采摘、要么直接进口外国粮食的终极生存抉择。"
+            },
+            {
+              "key": "D",
+              "heading": "Domestic College Students Voluntarily Fill Agricultural Vacancies",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向荒谬/无中生有】文中未曾提及本土大学生自愿下地填补农田劳力空缺。"
+            },
+            {
+              "key": "E",
+              "heading": "Chronic Labor Deficits Emerge as a Long-Term Crisis on American Farms",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第1段：农场招工难持续多年且愈演愈烈，已成为绝非短期阵痛的慢性结构性重疾。"
+            },
+            {
+              "key": "F",
+              "heading": "Complete Automation Triples Strawberry Harvest Yields Overnight",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：事实颠倒】文章明确指出娇嫩草莓等果蔬目前根本无法使用自动化机械完成收割。"
+            },
+            {
+              "key": "G",
+              "heading": "The Inadequacy of Mechanization for Delicate Perishable Crops",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第3段：机械收割对于草莓、浆果和桃子等娇嫩鲜果存在天然技术短板，无法替代人工采摘。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓劳力荒常态化（complaints unlikely to abate）；段2抓无证移民枯竭（undocumented immigrants / fewer enter）；段3抓机械化无法解决娇嫩果蔬（mechanization isn't the answer / berries, peaches）；段5抓H-2A无上限却有官僚延误（uncapped visa / bureaucratic delays）；段7抓终极抉择（import food or import workers）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "farmers",
-          "translation": "n. 农民；农场主（farmer 的复数）",
-          "application_sentence": "Research demonstrates that farmers plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "grapple with severe, chronic shortages that show no sign of abating",
+          "syntactic_type": "现象描述动宾短语搭配",
+          "translation": "身陷严重且旷日持久、毫无缓解迹象的严峻短缺泥潭之中",
+          "application_sentence": "As the sectorial employment survey shows, essential primary industries are grappling with severe labor shortages that show no sign of abating.",
+          "sentence_cn": "正如基础行业就业调研所清晰显示的，关键的基础实体产业正深陷于严重且持久、且毫无任何缓解迹象的用工荒危机泥潭之中。",
+          "template_slot": "As the employment survey highlights, [某行业/制造业] is grappling with chronic talent shortages that show no sign of abating."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "complaining",
-          "translation": "v. 抱怨；发牢骚",
-          "application_sentence": "Research demonstrates that complaining plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "stem from a fatal mismatch between restrictive legal barriers and undeniable physical realities",
+          "syntactic_type": "并列对立因果短语",
+          "translation": "根源于严苛生硬的法律限制壁垒与冷酷不可逆的实体产业现实之间的致命错配",
+          "application_sentence": "The farm crisis stems from a fatal mismatch between restrictive immigration barriers and the undeniable physical need for delicate hand-picking labor.",
+          "sentence_cn": "这场令全美农场主寝食难安的用工危机的深层根源，恰恰在于僵化严苛的移民限制壁垒与精细手工采摘劳动力不可或缺的客观物理现实之间的致命错位。",
+          "template_slot": "The crisis fundamentally stems from a fatal mismatch between [僵化陈旧的制度壁垒] and [紧迫客观的现实需求]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Perhaps",
-          "translation": "adv. 可能；（用以缓和语气或表示礼貌）也许",
-          "application_sentence": "Research demonstrates that Perhaps plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Contrary to the naive presumption that technology provides an instantaneous panacea, ... remains bound by ...",
+          "syntactic_type": "转折反驳复合句型",
+          "translation": "与那种天真以为高科技能够提供立竿见影灵丹妙药的假设相反，……依然被……所深度羁绊",
+          "application_sentence": "Contrary to the naive presumption that automated robotics provides an instantaneous panacea, delicate crop harvesting remains bound by the dexterity of human fingers.",
+          "sentence_cn": "与某些人盲目笃信自动化机器人能够成为万灵药的天真幻觉截然相反，娇嫩浆果的采摘依然在很大程度上深深依赖于人类手指所具备的灵巧触觉与精湛技巧。",
+          "template_slot": "Contrary to the naive presumption that [某技术/某口号] provides an instantaneous panacea, [实体过程] remains bound by [客观规律/人本要素]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "half",
-          "translation": "n. 一半；二分之一",
-          "application_sentence": "Research demonstrates that half plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "The nation is confronted with a stark strategic dilemma: either streamline ... or resign itself to the irreversible loss of ...",
+          "syntactic_type": "二律背反抉择主从句",
+          "translation": "整个国家正面临着一个残酷而严峻的战略两难抉择：要么全面优化理顺……，要么不得不无奈接受……的不可逆丧失",
+          "application_sentence": "The nation is confronted with a stark dilemma: either streamline its guest worker visa frameworks or resign itself to the irreversible loss of food sovereignty.",
+          "sentence_cn": "整个国家此刻正面临着一个异常残酷的战略两难抉择：要么下定决心破除官僚主义阻碍、优化理顺外来劳工签证体系，要么就不得不无奈接受本土粮食与果蔬自给主权的彻底沦丧。",
+          "template_slot": "Society is confronted with a stark strategic dilemma: either streamline [陈旧体制/审批通道] or resign itself to the irreversible loss of [关键竞争力/长远根基]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Mechanization",
-          "translation": "n. 机械化（=mechanisation）",
-          "application_sentence": "Research demonstrates that Mechanization plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "answer",
-          "translation": "v. 回答；答复",
-          "application_sentence": "Research demonstrates that answer plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "streamline archaic bureaucratic conduits to reconcile legal immigration with pressing industrial sustenance",
+          "syntactic_type": "制度破局动宾短语",
+          "translation": "大幅简化淘汰陈旧僵化的官僚审查流程，使合法合规通道与迫在眉睫的产业生存需求达成理性共生",
+          "application_sentence": "Policymakers must urgently streamline archaic bureaucratic conduits to reconcile sensible worker immigration with pressing agricultural sustenance.",
+          "sentence_cn": "政策制定者必须刻不容缓地大力精简破除那些过时陈旧的官僚审批阻碍，从而使理性合规的劳工流动通道与迫在眉睫的实体农业生命线维系达成有机的良性共融。",
+          "template_slot": "Lawmakers must streamline archaic bureaucratic conduits to reconcile [法规制度] with [迫切产业发展现实]."
         }
       ],
       "year": 2019
@@ -7903,54 +8267,182 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Arnold Schwarzenegger, Dia Mirza and Adrian Grenie... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：介绍明星宣传世界环境日视频，号召个人消费者停止使用一次性塑料用品。",
-          "第2段：指出尽管宣传呼吁立法，但其核心基调仍然过度聚焦于个人行为层面。",
-          "第3段：深刻批判将环保寄托于个人的局限性：警惕“道德许可”机制阻碍更大胆的系统性行动。",
-          "第4段：强调公民身份超越消费者身份：推动制度与结构变革比仅仅改变个人消费习惯更关键。",
-          "第5段：引用德索姆布雷教授专著观点：实现大规模人群行为转变的最有效途径是结构性改变。",
-          "第6段：列举塑料税、全面禁塑及让回收更便捷等推动集体行为转变的结构性政策工具。",
-          "第7段：澄清并非全盘否定个人环保意愿，而是强调单纯依靠个人微小行为过于缓慢滞后。",
-          "第8段：总结呼吁：将进步政策与公民集体行动紧密结合，共同推动迫在眉睫的系统性环境变革。"
-        ]
+        "genre": "环境政策学与公共治理批判反思型长文",
+        "discourse_model": "明星名流的'轻松环保'口号 ➔ 世界环境日倡导个人消费道德 ➔ 警惕将环保责任全盘甩锅给个人 ➔ 琐碎自律掩盖宏观结构性污染 ➔ 承认普通大众生存压力现实 ➔ 政策杠杆（塑料税与生产者责任） ➔ 德松布尔学术界定 ➔ 个人行动与制度性系统重塑的清醒辩证法",
+        "main_theme": "本文针对好莱坞影星施瓦辛格等人高呼'告别塑料轻而易举'（beat plastic pollution is easy）等名流口号展开了冷静而深刻的制度性批判；揭示了世界环境日等官方叙事往往过度聚焦于诱导消费者使用环保袋、自带水杯等微观道德规训，在客观上沦为掩盖石化巨头与包装工业资本原罪的'挡箭牌'；直面大多数普通公众在生计压力下根本无暇将环保置于优先级的社会现实；系统引述环境政治学者德松布尔（DeSombre）的研究，明确指出个体自律在气候变化与全球塑料海面前微不足道，唯有出台'塑料税'（plastics tax）、倒逼源头工业包装替代等强硬国家级法规政策，方能实现环境治理的根本破局。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】名流助阵的世界环境日口号：把环保描绘得过于轻松",
+            "core_point": "施瓦辛格等好莱坞明星大声疾呼'战胜塑料污染轻而易举'，这种简化论调给公众植入了虚假的幻觉。",
+            "cohesive_devices": "以名人言论引出公共议题（Arnold Schwarzenegger has a message: It's easy to beat plastic）。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】环境日宣传的核心落脚点：聚焦微观个人消费抉择",
+            "core_point": "联合国环境日倡议虽也提及政府，但全篇核心话语却严重聚焦于号召普通公民拒绝一次性塑料吸管与餐盒。",
+            "cohesive_devices": "解析主流环保叙事的重心偏向（messages include calls, but focus on personal choices）。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】作者的清醒担忧：过度依赖个体将导致宏观视角的盲区",
+            "core_point": "将环保大旗全盘押注在个体觉悟上是危险的，这严重局限了我们对真正庞大、复杂的系统性环境破坏的认知。",
+            "cohesive_devices": "明确提出作者核心批判论点（My concern with leaving it up to the individual / limited sense）。"
+          },
+          {
+            "pid": 3,
+            "role": "【承】琐碎消费自律沦为资本巨头的遮羞布",
+            "core_point": "当环保对话全部被一次性吸管等鸡毛蒜皮琐事占据时，真正制造数亿吨塑料灾难的跨国工业生产体系却成功隐身逃避惩罚。",
+            "cohesive_devices": "深入批判微观道德绑架的负面效应（conversation remains centered on single-use items）。"
+          },
+          {
+            "pid": 4,
+            "role": "【承】正视社会阶层现实：环境从来不是所有人的第一优先级",
+            "core_point": "对于许多背负沉重房贷、在温饱线挣扎的普通工薪族而言，低廉便利的塑料包装是现实生计的必须，道德指责显得傲慢。",
+            "cohesive_devices": "引入现实主义同理心视角（environment isn't everyone's priority, nor even most people's）。"
+          },
+          {
+            "pid": 5,
+            "role": "【转】真正的破局杠杆：强硬税收与顶层制度供给",
+            "core_point": "治理绝症必须下猛药：唯有立法征收塑料税、将环境外部性成本计入企业生产链条，才能利用价格杠杆强力驱动全社会技术革新。",
+            "cohesive_devices": "提出系统性制度解法（implementing policy such as a plastic tax that adds costs）。"
+          },
+          {
+            "pid": 6,
+            "role": "【深】德松布尔学理澄清：非抹杀个体，而是认清力量的悬殊",
+            "core_point": "学者德松布尔绝非劝人放弃道德关怀，而是强调若无国家公权力的强制法律护航，个体的自律努力在环境狂澜面前只能是杯水车薪。",
+            "cohesive_devices": "引用学者权威阐释（DeSombre isn't saying stop caring / individual action cannot achieve scale）。"
+          },
+          {
+            "pid": 7,
+            "role": "【合】告别道德绑架，拥抱结构性治理的理性格局",
+            "core_point": "这绝不是对个人行动的虚无否定，而是校正视角的理性回归——将有限的公共精力聚焦于能撬动质变的法律与国家政策杠杆。",
+            "cohesive_devices": "以格局与透视论（putting things into perspective / focus on where systemic levers lie）圆满收官。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 4 的八个段落，从 A-G 七个候选项中为指定五个段落选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "A"
+            },
+            {
+              "pid": 5,
+              "label": "Paragraph 6",
+              "correct_key": "E"
+            },
+            {
+              "pid": 7,
+              "label": "Paragraph 8",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Recognizing Real-World Socioeconomic Realities and Priorities",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第5段：正视许多背负生计重担的普通民众不可能将环保置于头等优先级的客观现实。"
+            },
+            {
+              "key": "B",
+              "heading": "Immediate Criminal Prosecution for Using Plastic Straws",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：极端荒谬/无中生有】文中完全未曾倡导因使用吸管而对个人提起刑事诉讼。"
+            },
+            {
+              "key": "C",
+              "heading": "Celebrity Slogans Present a Deceptively Oversimplified Message",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：好莱坞明星口号宣称打败塑料轻而易举，给公众传递了过度简化的失真信息。"
+            },
+            {
+              "key": "D",
+              "heading": "Complete Deregulation of Industrial Petrochemical Emissions",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向颠倒】文章呼吁对石化巨头实行更严格立法管制，而非全面取消监管。"
+            },
+            {
+              "key": "E",
+              "heading": "Harnessing Regulatory Levers Such as Targeted Plastic Taxes",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第6段：通过开征塑料税等强硬政策工具将环境污染成本内化入商品价格，逼退白色垃圾。"
+            },
+            {
+              "key": "F",
+              "heading": "Rebalancing Priorities: From Individual Blame to Systemic Levers",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第8段结论：跳出对个人的道德指责，放平心态，将目光真正聚焦于能撬动系统改变的制度杠杆。"
+            },
+            {
+              "key": "G",
+              "heading": "The Hazards of Leaving Environmental Salvation to Individual Conscience",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第3段作者核心担忧：将环保重任一味推给个体良知，极易遮蔽人们对系统性宏观灾难的追责。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓明星口号过于简单（celebrities / easy to beat plastic）；段3抓个体责任局限性（concern with leaving it to the individual）；段5抓公众生计现实（not everyone's priority）；段6抓政策杠杆与塑料税（implementing policy / plastic tax）；段8抓校正视角与系统杠杆（putting things into perspective / systemic levers）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "Arnold",
-          "translation": "n. （Arnold）阿诺德（亦译阿尔诺德）；英、美、德、加等国的男子名",
-          "application_sentence": "Research demonstrates that Arnold plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "place an inordinate and unrealistic emphasis on individual moral agency",
+          "syntactic_type": "评判性动宾短语搭配",
+          "translation": "将过高且脱离实际的空洞期望全盘寄托在个人道德良知上",
+          "application_sentence": "As public opinion charts vividly demonstrate, awareness campaigns often place an inordinate and unrealistic emphasis on individual moral agency while ignoring systemic structures.",
+          "sentence_cn": "正如民意调查看板所生动反映的，许多宣传倡导活动往往将过高且脱离现实的期望全盘寄托在个人的微观道德自觉上，却对深层的宏观制度架构视而不见。",
+          "template_slot": "Current public discourse tends to place an inordinate and unrealistic emphasis on individual [自律/道德自觉] while ignoring systemic [体制建设]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Schwarzenegger",
-          "translation": "n. 施瓦辛格（姓氏名）",
-          "application_sentence": "Research demonstrates that Schwarzenegger plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "serve as a convenient deflection that shields corporate polluters from structural accountability",
+          "syntactic_type": "定语从句引申批判结构",
+          "translation": "充当极其便利的挡箭牌，庇护那些真正制造污染的商业资本巨头逃避结构性追责",
+          "application_sentence": "Hyper-focusing on consumer guilt serves as a convenient political deflection that shields massive corporate polluters from structural accountability.",
+          "sentence_cn": "将全社会目光过度聚焦于消费者的良心负罪感，实际上充当了一个极其便利的转移视线的掩体，从而悄然庇护了那些制造巨量污染的跨国巨头逃脱体制性法网追责。",
+          "template_slot": "Fixating on [个人琐碎表象] merely serves as a convenient deflection that shields [幕后责任主体] from structural accountability."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "messages",
-          "translation": "n. 信息；消息",
-          "application_sentence": "Research demonstrates that messages plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "None of this is about writing off individual conscientiousness; it is about putting systemic efficacy into perspective.",
+          "syntactic_type": "对仗双分句思辨结构",
+          "translation": "这绝非意味着抹杀个人的道德自觉与善意担当；它旨在以清醒宏阔的全局视野重估制度性实效。",
+          "application_sentence": "None of this is about writing off grassroots participation; it is about putting systemic legislative efficacy into clear perspective.",
+          "sentence_cn": "这绝非意味着全盘否定基层的积极参与和公众的向善之举；它旨在引导全社会以更加清醒宏阔的理性视野，去审视并重估顶层立法的根本制度实效。",
+          "template_slot": "None of this is about writing off [个人努力/道德良知]; it is about putting systemic [法律制度/宏观统筹] into clear perspective."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "together",
-          "translation": "adv. 在一起；共同",
-          "application_sentence": "Research demonstrates that together plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "So pervasive are the structural economic incentives of ... that mere appeals to personal virtue inevitably fall flat.",
+          "syntactic_type": "so...that置于句首的形容词全部倒装结构",
+          "translation": "……背后的结构性经济利益诱惑是如此根深蒂固，以至于单纯对个人道德情操的空洞呼吁必然碰壁落空",
+          "application_sentence": "So pervasive are the structural market incentives of industrial plastic packaging that mere sentimental appeals to personal virtue inevitably fall flat.",
+          "sentence_cn": "石化工业塑料包装背后所盘根错节的商业利润驱动是如此根深蒂固，以至于仅仅诉诸个人道德操守与情操感召的空洞呼吁注定会沦为空谈与泡影。",
+          "template_slot": "So pervasive are the structural root causes of [某深层顽疾] that mere appeals to personal virtue inevitably fall flat."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "concern",
-          "translation": "n. 担心；忧虑",
-          "application_sentence": "Research demonstrates that concern plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "leaving",
-          "translation": "v. 离开；留下",
-          "application_sentence": "Research demonstrates that leaving plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "deploy statutory price levers and regulatory mandates to internalize environmental externalities across the whole value chain",
+          "syntactic_type": "经济法学专业动宾搭配",
+          "translation": "运用具有法律效力的价格杠杆与行政强制指令，在全产业链条中彻底将环境负外部性成本全面内部化",
+          "application_sentence": "Governments must deploy statutory price levers, such as carbon and plastic taxes, to internalize environmental externalities across the whole commercial value chain.",
+          "sentence_cn": "政府监管部门必须坚决动用具有法定约束力的价格杠杆与严格强制法规（如开征碳税与塑料税），在全商业价值链中将生态破坏的负外部性成本彻底全面内部化。",
+          "template_slot": "Authorities must deploy statutory regulatory mandates and economic levers to internalize [负外部性成本] across the entire sector."
         }
       ],
       "year": 2019

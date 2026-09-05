@@ -1822,54 +1822,182 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 It is curious that Stephen Koziatek feels almost a... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：引出科齐亚泰克先生及其致力于为学生创造更美好未来的教学初衷。",
-          "第2段：指出其实践教学模式的开创性，质疑重理论轻实践的传统教育观念。",
-          "第3段：强调万物皆可学习，通过组装自行车等实践同样能够掌握几何等知识。",
-          "第4段：指出社会对职业教育存在深刻偏见，常将其贬低为学业不佳者的退路。",
-          "第5段：分析偏见产生的历史背景：美国制造业变迁导致高中学历保障大幅缩水。",
-          "第6段：批判盲目推崇全员本科学位，指出美国经济大量需要中等技能工人。",
-          "第7段：提出解决劳动力技能断层的方法：通过科技高中等职业教育填补缺口。",
-          "第8段：总结呼吁：一刀切的教育模式会扼杀国家多元人才天赋，需引起警醒。"
-        ]
+        "genre": "教育理念与社会阶层流动的思辨性评论",
+        "discourse_model": "职教老师的辩解困境 ➔ 动手实践的探索性先锋 ➔ 崇尚文凭与歧视蓝领的社会偏见 ➔ 历史经济根源剖析 ➔ 全民本科迷思的深层危机 ➔ 阶级撕裂与政治反思 ➔ 呼吁多元因材施教的破局觉醒",
+        "main_theme": "本文围绕新罕布什尔州一所高中教师斯蒂芬·科齐亚泰克（Stephen Koziatek）推行职业技能教学的探索展开，深刻反思了美国当代社会普遍弥漫的'文凭狂热'（degree craze）与对体力劳动的隐性歧视；指出狂热追求'人人上大学读本科'不仅抹杀了学生的个性禀赋，更导致数以百万计的制造业高级蓝领岗位空缺；深刻揭示了这种教育一刀切政策对蓝领工薪阶层尊严与上升通道的剥夺，最终成为激化社会对立与政治撕裂的深层诱因；呼吁教育回归以人为本与多元化价值取向。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】先锋职教名师的自白与辩护困境",
+            "core_point": "在新罕布什尔州任教的斯蒂芬·科齐亚泰克不得不经常向外界证明其职业技术教学的价值，折射出传统偏见的重压。",
+            "cohesive_devices": "以反常现象切入（feels as though he has to justify his efforts），激发读者好奇。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】突破枯燥理论的动手实践教学创新",
+            "core_point": "科齐亚泰克倡导'在做中学'，引导学生亲自动手制造模型，将抽象数理原理转化为生动的工程经验。",
+            "cohesive_devices": "用生动的课堂细节（learning is integrated / hands-on project）展现教学革新。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】处处皆有学问：反对将所有人硬塞入书斋",
+            "core_point": "万物皆可学，将所有青年强行按在传统教室背诵抽象公式不仅毫无裨益，更压抑了实践型天才的灵气。",
+            "cohesive_devices": "递进阐述教育理念（learning in just about everything / nothing gained by forcing）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】隐秘而顽固的文凭崇拜与蓝领偏见",
+            "core_point": "社会存在着根深蒂固的潜意识偏见：动手操作的蓝领工作被视作低人一等，唯有大学本科方为体面大道。",
+            "cohesive_devices": "以转折连词（But）引出社会意识形态矛盾（insidious prejudice against manual labor）。"
+          },
+          {
+            "pid": 4,
+            "role": "【承】偏见形成的历史经济动因剖析",
+            "core_point": "这一观念源于美国制造业式微、金融与IT等知识经济崛起的历史变迁，白领文凭一度成为跃升中产的最佳捷径。",
+            "cohesive_devices": "客观理性追溯历史成因（logical product of America's evolution）。"
+          },
+          {
+            "pid": 5,
+            "role": "【转】'全民本科'执念催生的岗位错配危机",
+            "core_point": "一味盲目鼓吹所有人考大学，贬低技术技能，导致实体经济中大量高薪高技能技术蓝领岗位招不到人。",
+            "cohesive_devices": "以批判视角（headlong push into bachelor's degrees / devaluing anything less）直击结构性失业弊端。"
+          },
+          {
+            "pid": 6,
+            "role": "【深】工薪阶层的政治愤怒与社会撕裂",
+            "core_point": "被文凭体系边缘化的工薪阶层深感被体制背叛与遗弃，这种长期的挫败感已演化为颠覆性的政治震荡。",
+            "cohesive_devices": "将教育问题上升至国家政治与社会阶层矛盾维度（turned the country on its political head）。"
+          },
+          {
+            "pid": 7,
+            "role": "【合】警钟长鸣：呼吁告别'千人一面'的教育霸权",
+            "core_point": "科齐亚泰克的学校是一记清脆的警钟：当教育沦为一刀切的模具，整个国家将丧失多样化的人才基石与繁荣根基。",
+            "cohesive_devices": "以隐喻作结（wake-up call / one-size-fits-all risks overlooking needs），呼唤教育回归本真。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 1，从 A-G 七个候选项中为指定五个段落选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "B"
+            },
+            {
+              "pid": 5,
+              "label": "Paragraph 6",
+              "correct_key": "G"
+            },
+            {
+              "pid": 6,
+              "label": "Paragraph 7",
+              "correct_key": "C"
+            },
+            {
+              "pid": 7,
+              "label": "Paragraph 8",
+              "correct_key": "A"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "A Wake-Up Call Against One-Size-Fits-All Schooling",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第8段末尾结语：必须警惕千人一面的均质化教育体系对多元人才需求的漠视。"
+            },
+            {
+              "key": "B",
+              "heading": "The Insidious Prejudice Demeaning Hands-On Craftsmanship",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第4段主旨：全社会弥漫着对动手操作的隐形偏见，将体力技能贬损为低劣下品。"
+            },
+            {
+              "key": "C",
+              "heading": "Working-Class Frustration Shakes the Political Landscape",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第7段：工薪阶层由于被精英教育体系抛弃而积聚的怨气彻底引爆了国家政治版图动荡。"
+            },
+            {
+              "key": "D",
+              "heading": "Compulsory College Tuition Waivers Enacted Nationwide",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未曾提及在全美推行强制性大学学费减免政策。"
+            },
+            {
+              "key": "E",
+              "heading": "Pioneering Experiential Learning Through Practical Endeavors",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第2段：科齐亚泰克开创将知识融入亲手实践、以项目为驱动的先锋教学范式。"
+            },
+            {
+              "key": "F",
+              "heading": "High-Tech AI Robots Fully Replace Human Craftsmanship",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：时空错位】文中并未提及人工智能机器人全面替代手工工匠。"
+            },
+            {
+              "key": "G",
+              "heading": "The Degree-for-All Obsession Fuels Acute Skills Mismatches",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第6段：全民读本狂潮严重忽视实体产业对高素质技能工匠的迫切需求，制造人才错配。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段2抓实践教学（hands-on / pioneering）；段4抓歧视蓝领（insidious prejudice / mark of inferiority）；段6抓全民本科迷局（headlong push / bachelor's degrees）；段7抓阶层政治愤怒（working class / political head）；段8抓警钟与拒绝一刀切（wake-up call / one-size-fits-all）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "curious",
-          "translation": "adj. 好奇的；求知欲强的",
-          "application_sentence": "Research demonstrates that curious plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "witness a headlong push into ..., accompanied by a subtle devaluing of ...",
+          "syntactic_type": "伴随状语复合句法结构",
+          "translation": "见证了对……的盲目跟风狂热，并伴随着对……的悄然贬低",
+          "application_sentence": "Recent social surveys illustrate that our education system has witnessed a headlong push into academic credentials, accompanied by a subtle devaluing of practical vocational talents.",
+          "sentence_cn": "近期的社会调查数据清晰表明，我们的教育体系正见证着对纯学术文凭的盲目跟风追捧，同时伴随着对实用技术型人才的悄然贬低。",
+          "template_slot": "Recent years have witnessed a headlong push into [某种狂热盲从], accompanied by a subtle devaluing of [被忽视的宝贵基石]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Stephen",
-          "translation": "n. 斯蒂芬（男子名）",
-          "application_sentence": "Research demonstrates that Stephen plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "be rooted in an insidious societal prejudice that equates ... with ...",
+          "syntactic_type": "被动因果定语从句结构",
+          "translation": "根源于一种将……与……划等号的根深蒂固、悄然弥漫的社会偏见",
+          "application_sentence": "The reluctance of youngsters to enter manufacturing is rooted in an insidious societal prejudice that equates blue-collar craftsmanship with intellectual inferiority.",
+          "sentence_cn": "广大年轻一代不愿踏入制造业大门，深层根源于一种将蓝领精益工匠技能等同于智力低下与社会地位低下的隐形偏见。",
+          "template_slot": "This structural imbalance is deeply rooted in an insidious societal prejudice that equates [事物A] with [不公的贬义标签]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "something",
-          "translation": "pron. 某事；某物",
-          "application_sentence": "Research demonstrates that something plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Nothing is necessarily gained by forcing diverse individuals into a uniform mold.",
+          "syntactic_type": "全否定让步警示句",
+          "translation": "强行将千差万别的个体塞进千篇一律的均质模具中，绝不可能带来任何实质性的收益。",
+          "application_sentence": "Nothing is necessarily gained by forcing all youths into conventional lecture halls, ignoring their innate mechanical and artistic aptitudes.",
+          "sentence_cn": "将所有青年一概强行塞入传统理论课堂、漠视其与生俱来的机械制作与艺术天赋，绝不可能带来任何积极的教育成效。",
+          "template_slot": "Nothing is necessarily gained by forcing [千差万别的群体/不同产业] into a uniform mold of [呆板统一的标准]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "pioneering",
-          "translation": "adj. 首创的；先驱的",
-          "application_sentence": "Research demonstrates that pioneering plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "When public policy becomes one-size-fits-all, it risks alienating the very demographic that sustains ...",
+          "syntactic_type": "时间状语从句配合强调性代词结构",
+          "translation": "当公共政策退化为一刀切时，它就极有可能疏远并冷落恰恰在支撑着……的基石群体",
+          "application_sentence": "When public policy becomes one-size-fits-all, it risks alienating the very hardworking demographic that sustains the real economy of a nation.",
+          "sentence_cn": "当国家公共政策退化为傲慢的一刀切时，它就极有可能疏远并冷落恰恰在脚踏实地支撑着国家实体经济繁荣的广大劳动者。",
+          "template_slot": "When [教育政策/治理方针] becomes one-size-fits-all, it risks alienating the very demographic that sustains [社会稳定/经济活力]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "knows",
-          "translation": "v. 知道（know 的第三人称单数形式）",
-          "application_sentence": "Research demonstrates that knows plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "learning",
-          "translation": "n. 学习；知识",
-          "application_sentence": "Research demonstrates that learning plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "dismantle institutional biases and cultivate differentiated pathways that honor diverse talents",
+          "syntactic_type": "动宾并列倡议短语",
+          "translation": "破除制度性偏见，培育尊重多元天赋才能的差异化成长通道",
+          "application_sentence": "To build a resilient workforce, decision-makers must dismantle institutional biases and cultivate differentiated educational pathways that honor diverse talents.",
+          "sentence_cn": "为构筑更富韧性的人才大军，决策层必须坚决破除制度性偏见，积极打造尊重多元天赋、百花齐放的差异化教育成长通道。",
+          "template_slot": "To resolve [人才/产业矛盾], authorities must dismantle institutional biases and cultivate differentiated pathways that honor [多元化禀赋]."
         }
       ],
       "year": 2018
@@ -3625,53 +3753,176 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 While fossil fuels—coal, oil, gas—still generate r... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：指出尽管化石燃料仍占主导，但全球向风能和太阳能等可再生能源转型的势头迅猛。",
-          "第2段：说明除了政府和企业投资，风能和太阳能设备成本的断崖式暴跌是核心驱动力。",
-          "第3段：列举全球及美国可再生能源的发展态势，美国风光发电占比首次突破10%。",
-          "第4段：对比特朗普重振煤炭政策在爱荷华州的遇冷，凸显清洁能源已深入地方经济与科技产业。",
-          "第5段：指出电池储能技术的突破有效缓解了风能太阳能间歇性供电的传统质疑。",
-          "第6段：说明汽车巨头对电动汽车电池的大规模押注将进一步加速清洁能源革命。",
-          "第7段：总结全球向清洁能源的不可逆转变趋势，指出联邦层面的消极作为已难以阻挡时代浪潮。"
-        ]
+        "genre": "全球绿色能源革命与工业转型的深度前瞻",
+        "discourse_model": "化石能源高占比现状 ➔ 成本暴跌驱动的自发生态爆发 ➔ 苏格兰等先锋实践 ➔ 政治保守派复辟煤炭的倒行逆施 ➔ 间歇性短板遭储能电池打破 ➔ 汽车电动化协同风口 ➔ 势不可挡的能源新旧更替大势",
+        "main_theme": "本文全景式描绘了全球可再生清洁能源（以风能、太阳能为代表）正在势不可挡颠覆传统化石能源垄断地位的历史性大变局；揭示了驱动这轮能源转型最根本的引擎已非单纯的政府财政补贴，而是清洁技术研发带来的断崖式成本暴跌与市场自发力量；尖锐指出了特朗普政府重振传统高污染煤炭工业的政治算计与商业经济客观规律严重脱节；详述了先进电池储能技术对可再生能源'靠天吃饭'间歇性硬伤的完美攻关；最终预言不可阻挡的绿色大转型必将重塑全球产业版图。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】虽处化石重围，绿色变革黎明已现",
+            "core_point": "化石能源目前虽仍占据全球85%的能源供给，但可再生能源以超乎预期的惊人势头加速崛起，拐点已至。",
+            "cohesive_devices": "让步转折开头（While fossil fuels still generate 85% / it's clearer that...）。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】市场驱动成为降本增效的核心驱动力",
+            "core_point": "除了政府环保承诺，更持久的爆发力来自成本暴跌：风能与太阳能在诸多地区已具备击穿化石燃料的经济平价优势。",
+            "cohesive_devices": "从政策输血深化至自发市场造血（commitment by farsighted businesses / plunged costs）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】苏格兰等地的清洁能源领先样本",
+            "core_point": "在诸多先锋区域，可再生能源已跃升为主要发电支柱，例如苏格兰仅风电即可满足全域家庭用电并反哺电网。",
+            "cohesive_devices": "举出典型国别案例（In Scotland, wind power satisfies...），夯实论点实证。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】特朗普倒退政策与市场规律的巨大脱节",
+            "core_point": "特朗普执政团队将煤炭标榜为繁荣之路，试图逆流而动拯救落后产能，却遭到市场经济规律的无情嘲弄。",
+            "cohesive_devices": "引入政治阻力与保守派反动政策的鲜明对立（President Trump has underlined fossil fuels）。"
+          },
+          {
+            "pid": 4,
+            "role": "【转】破解'靠天吃饭'的世纪难题：巨型电池储能爆发",
+            "core_point": "传统针对'无风无光时如何供电'的诘难已不攻自破，革命性的电网级工业电池正彻底弥合间歇性波动的鸿沟。",
+            "cohesive_devices": "设问释疑（what happens when the wind doesn't blow / quick put-down dismantled by battery storage）。"
+          },
+          {
+            "pid": 5,
+            "role": "【深】新能源汽车与绿色电网的跨界协同",
+            "core_point": "全球汽车主机厂全力押注纯电动车，电池产量的指数级扩张带动储能成本进一步崩塌，形成正向飞轮效应。",
+            "cohesive_devices": "横向跨界联动（vehicle manufacturers / placing big bets on battery-powered EVs）。"
+          },
+          {
+            "pid": 6,
+            "role": "【合】虽任重道远，能源革命的历史总趋势不可阻挡",
+            "core_point": "尽管完全退煤之路道阻且长，但可再生能源的增长曲线正在陡峭飙升，能源版图颠覆的时代浪潮浩浩汤汤。",
+            "cohesive_devices": "以精悍展望作结（trend lines are spiking / pace of change is accelerating），提振绿色信念。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 2，从 A-G 七个候选项中为指定五个段落选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "D"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "F"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "G"
+            },
+            {
+              "pid": 6,
+              "label": "Paragraph 7",
+              "correct_key": "C"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Regional Success Pioneers the Shift to Primary Renewables",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准概括第3段：苏格兰风力发电大获成功，证实可再生能源已跃居主要支柱供电地位。"
+            },
+            {
+              "key": "B",
+              "heading": "Global Ban on Internal Combustion Engines Enacted Immediately",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：夸大绝对/无中生有】文章提及车企下注电动车，并未宣称全球立即全面取缔燃油发动机。"
+            },
+            {
+              "key": "C",
+              "heading": "An Irreversible Surge Overcoming the Long Road Ahead",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第7段结论：尽管全面取代化石能源前路漫长，但可再生能源陡峭爆发的大势不可阻挡。"
+            },
+            {
+              "key": "D",
+              "heading": "Plunging Generation Costs Eclipse Conventional Fossil Fuels",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第2段核心：清洁能源生产成本大幅暴跌，击穿传统石化能源的经济护城河。"
+            },
+            {
+              "key": "E",
+              "heading": "Nuclear Fusion Provides Boundless Free Power Worldwide",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：偷换概念】文中探讨的是风能、光伏与化学电池，完全未提及可控核聚变。"
+            },
+            {
+              "key": "F",
+              "heading": "Political Nostalgia for Coal Clashes with Economic Realities",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准提炼第4段：特朗普政府留恋传统煤炭复兴的政治说辞与冷酷的商业经济规律严重背离。"
+            },
+            {
+              "key": "G",
+              "heading": "Advanced Battery Storage Shatters the Intermittency Myth",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确归纳第5段：先进电池储能技术破除了'风停光歇即断电'的陈旧质疑。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段2抓成本暴跌（costs plunged）；段3抓区域先锋样本（Scotland / principal source）；段4抓政治与经济规律冲突（Trump / fossil fuels vs realities）；段5抓电池储能解决间歇性（battery storage / wind doesn't blow）；段7抓大势所趋与飙升曲线（trend lines spiking / long way to go）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "account for",
-          "translation": "对……做出解释；占（比例）",
-          "application_sentence": "Research demonstrates that account for plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "witness exponential spikes along trend lines despite an uphill battle",
+          "syntactic_type": "伴随让步动宾表达",
+          "translation": "尽管面临艰巨挑战，其趋势线依然呈现出指数级跃升态势",
+          "application_sentence": "As the statistical curve indicates, investment in green technologies has witnessed exponential spikes along trend lines despite an uphill economic battle.",
+          "sentence_cn": "正如统计曲线所清晰表明的，尽管面临着严峻的宏观经济压力，绿色清洁技术领域的投资曲线依然展现出了陡峭的指数级爆发态势。",
+          "template_slot": "As the line graph depicts, [新能源/某新兴产业] has witnessed exponential spikes along trend lines despite [外部严峻挑战]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "fossil",
-          "translation": "n. 化石；思想僵化的人",
-          "application_sentence": "Research demonstrates that fossil plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "be propelled not merely by altruistic mandates, but by irresistible cost parities",
+          "syntactic_type": "并列对比因果短语",
+          "translation": "不仅受到崇高道德指令的驱动，更被无可抵挡的平价成本优势所根本推动",
+          "application_sentence": "The industrial green transition is propelled not merely by altruistic regulatory mandates, but by irresistible cost parities that make clean energy commercially viable.",
+          "sentence_cn": "工业体系的绿色转型绝非仅仅受到崇高环保法规的行政鞭策，更在根本上被清洁能源无可抵挡的商业平价成本优势所深度驱动。",
+          "template_slot": "The transition toward [绿色可持续/数字化] is propelled not merely by altruistic ideals, but by irresistible cost parities."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "growth",
-          "translation": "n. 成长；生长",
-          "application_sentence": "Research demonstrates that growth plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "While retrogressive political rhetoric may temporarily stall progress, it cannot fundamentally alter the trajectory of ...",
+          "syntactic_type": "让步对立哲理句",
+          "translation": "尽管倒行逆施的政治修辞可能会暂时迟滞步伐，但它绝不可能从根本上扭转……的历史演进轨迹",
+          "application_sentence": "While retrogressive political rhetoric may temporarily stall progress, it cannot fundamentally alter the unstoppable trajectory of technological modernization.",
+          "sentence_cn": "尽管某些固步自封的政治说辞或许能短暂拖慢前进的步伐，但它绝不可能从根本上逆转技术现代化与产业迭代势不可挡的历史大势。",
+          "template_slot": "While [陈旧阻力/保守论调] may temporarily stall progress, it cannot fundamentally alter the trajectory of [历史进步/产业升级]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "stems",
-          "translation": "n. 植物的茎；花茎",
-          "application_sentence": "Research demonstrates that stems plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "So formidable is the momentum of technological innovation that even long-entrenched monopolies find themselves ...",
+          "syntactic_type": "so...that置于句首的形容词全部倒装结构",
+          "translation": "技术创新的前行势头是如此势不可挡，以至于连盘踞已久的垄断巨头也发现自己不得不……",
+          "application_sentence": "So formidable is the momentum of renewable energy innovation that even long-entrenched fossil fuel monopolies find themselves compelled to overhaul their business paradigms.",
+          "sentence_cn": "可再生清洁能源技术创新的势头是如此之迅猛强悍，以至于连根基盘踞已久的传统化石能源霸主也发现自己不得不全面颠覆原有的商业运营范式。",
+          "template_slot": "So formidable is the momentum of [科技革命/市场新浪潮] that even long-entrenched [传统巨头/旧观念] find themselves compelled to [革新蜕变]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "renewable",
-          "translation": "adj. （合同、协议等）可延期的；可续期的",
-          "application_sentence": "Research demonstrates that renewable plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "energy",
-          "translation": "n. 能力；力气",
-          "application_sentence": "Research demonstrates that energy plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "capitalize on synergistic technological breakthroughs to forge an interconnected, sustainable industrial architecture",
+          "syntactic_type": "宏观战略前瞻短语",
+          "translation": "充分把握颠覆性技术突破的协同红利，构筑互联互通、永续发展的现代工业架构",
+          "application_sentence": "Forward-looking economies must capitalize on synergistic clean tech breakthroughs to forge an interconnected, sustainable industrial architecture for the post-carbon era.",
+          "sentence_cn": "具有前瞻视野的经济体必须牢牢把握清洁技术协同突破的历史性红利，全力构筑面向后碳时代互联互通、绿色永续的新型现代工业架构体系。",
+          "template_slot": "To win the future, our society must capitalize on synergistic breakthroughs to forge [现代化生态/产业架构]."
         }
       ],
       "year": 2018
@@ -5312,50 +5563,147 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 The power and ambition of the giants of the digita... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：列举数字经济巨头巨额并购案例，揭示其本质是为了获取庞大的用户社交关系与数据网络。",
-          "第2段：揭露平台违背承诺关联用户数据，指出数据垄断带来的巨大商业与政治监控价值。",
-          "第3段：剖析现有反垄断竞争法在数字经济领域的局限性：反应迟缓且难以界定免费服务对消费者的损害。",
-          "第4段：运用“蚂蚁与蚜虫”的比喻，深刻揭示数字巨头将用户生活异化为数据原材料进行收割的非民主本质。"
-        ]
+        "genre": "反垄断法学与数字资本帝国批判评述",
+        "discourse_model": "科技巨头无界扩张惊人野心 ➔ 违背承诺与数据强制合并 ➔ 传统反垄断法的笨拙与迟缓 ➔ 免费商业模式背后的数据奴役 ➔ 激进规制范式重构与数据公共托管",
+        "main_theme": "本文以亚马逊全资收购全食超市、Facebook食言强行将WhatsApp用户隐私与社交账号捆绑为代表性切口，深度揭露了硅谷数字经济超级巨头（Big Tech）所形成的空前资本霸权与数据围猎；尖锐剖析了传统以'消费者福利标准与价格垄断'为核心的反垄断法律工具（Antitrust/Competition Law）在面对'免费'数字服务时的迟钝、笨拙与力不从心；揭示了数字平台'用户即商品、生活即数据'的残酷资本增殖逻辑；呼吁反垄断监管跳出传统框架，将个人数据确立为不可侵犯的数字人权，并通过强力结构性拆分或数据信托机制驯服失控的科技怪兽。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】科技霸权的无休止跨界蚕食",
+            "core_point": "亚马逊高调跨界收购全食超市、谷歌主宰数字世界，科技寡头的权力与野心已膨胀到令人瞠目结舌的地步。",
+            "cohesive_devices": "以令人震撼的商业并购事实立论（power and ambition is astonishing）。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】背弃反垄断审查承诺：强制数据融合与信任破产",
+            "core_point": "Facebook在当年收购WhatsApp时信誓旦旦向欧盟承诺不会关联用户手机号与账号，如今却公然食言，肆意侵犯隐私。",
+            "cohesive_devices": "采用事实对比（promised not to link vs now links seamlessly），揭露平台信用破产。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】传统反垄断法律工具的力不从心与迟滞",
+            "core_point": "反垄断法被视为抗衡霸权的唯一救命稻草，然而其基于工业时代的陈旧逻辑显得笨拙迟钝，漫长的调查与微薄的罚款根本追不上技术迭代步伐。",
+            "cohesive_devices": "以转折连词（But it is clumsy）直戳现代规制体系致命软肋。"
+          },
+          {
+            "pid": 3,
+            "role": "【合】拆穿免费面具：用户的生活沦为巨头的资产",
+            "core_point": "数字帝国兜售的核心商品本质上是数据，用户在享受免费便利的同时，不知不觉将自己的全部生活化为巨头收割利润与操纵心智的数据原材料。",
+            "cohesive_devices": "以发人深省的警句式洞见作结（The product they're selling is data / we convert our lives to data）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 3 的四个段落，从 A-F 六个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "E"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "B"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "F"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "C"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Voluntary Self-Regulation by Tech Platforms Replaces Antitrust",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向颠倒/无中生有】文章强调科技巨头屡屡违背道德承诺，绝不可能依赖其自我约束取代法律监管。"
+            },
+            {
+              "key": "B",
+              "heading": "Broken Pledges and Clandestine Exploitation of Personal Data",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第2段：Facebook公然撕毁当年向欧盟反垄断机构作出的不捆绑用户手机数据的承诺。"
+            },
+            {
+              "key": "C",
+              "heading": "The Illusion of Free: Turning Human Lives into Monetized Data",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第4段结语：拆穿数字产品免费假象，揭示用户生活被系统性转化为商业变现数据的残酷本质。"
+            },
+            {
+              "key": "D",
+              "heading": "E-Commerce Marketplaces Experience Catastrophic Collapse",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：事实颠倒】亚马逊等科技电商是无界扩张而非崩溃。"
+            },
+            {
+              "key": "E",
+              "heading": "Astonishing Imperial Expansion of Modern Tech Behemoths",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第1段：以亚马逊收购全食等为例，揭示数字巨头野蛮扩张、权力无远弗届的傲慢现状。"
+            },
+            {
+              "key": "F",
+              "heading": "Traditional Competition Statutes Prove Inadequate and Clumsy",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第3段：现行基于工业经济的反垄断竞争法在数字生态面前反应迟钝、笨拙而效力匮乏。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓科技巨头无界野心（power and ambition astonishing）；段2抓失信违背承诺（Facebook promised / links data）；段3抓竞争法的笨拙与局限（competition law clumsy）；段4抓数据为王与生活沦为商品（product is data / convert lives to data）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "power",
-          "translation": "n. 控制力；操控力",
-          "application_sentence": "Research demonstrates that power plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "expand with unprecedented velocity into every facet of our daily existence",
+          "syntactic_type": "生动动宾比喻搭配",
+          "translation": "以前所未有的迅猛速度肆意渗透进我们日常生活的方方面面",
+          "application_sentence": "As demonstrated in market penetration reports, digital platform monopolies have expanded with unprecedented velocity into every facet of our daily existence.",
+          "sentence_cn": "正如市场渗透率调查报告所展示的，数字网络平台巨头正以前所未有的惊人速度，肆意渗透进我们日常社会生活的方方面面。",
+          "template_slot": "As demonstrated in recent data, [某类科技寡头/数字化浪潮] has expanded with unprecedented velocity into every facet of [现代生活/经济领域]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "ambition",
-          "translation": "n. 追求的目标；抱负",
-          "application_sentence": "Research demonstrates that ambition plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "monetize human attention and convert private lives into proprietary behavioral data",
+          "syntactic_type": "动宾并列因果短语",
+          "translation": "将公众的注意力肆意商业变现，把私人生活强行转化为企业私有的行为数据资产",
+          "application_sentence": "The overarching corporate strategy of tech titans is to monetize human attention and convert private lives into proprietary behavioral data.",
+          "sentence_cn": "当今科技巨头最核心的底层商业逻辑，无非是借免费之名将大众注意力全方位商业变现，把活生生的个人私密生活强行转化为其谋取暴利的数字资产。",
+          "template_slot": "The underlying business model relies entirely on monetizing [公众注意力/个人隐私] and converting it into proprietary assets."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "promised",
-          "translation": "v. promise 的过去式和过去分词：允诺；许诺",
-          "application_sentence": "Research demonstrates that promised plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Conventional regulatory mechanisms, devised in an era of brick-and-mortar industry, prove woefully ill-equipped to ...",
+          "syntactic_type": "过去分词作插入状语的评判句",
+          "translation": "设计于实体砖瓦工业时代的传统监管机制，在面对……时显得捉襟见肘、极度不适应",
+          "application_sentence": "Conventional antitrust statutes, devised in an era of brick-and-mortar industry, prove woefully ill-equipped to curb the algorithms of modern monopolies.",
+          "sentence_cn": "设计构想于传统实体砖瓦工业时代的现行反垄断法规，在应对现代数字算法寡头的隐蔽霸权时，已被证明是极度力不从心且捉襟见肘的。",
+          "template_slot": "Conventional legal tools, devised in an era of [传统旧时代], prove woefully ill-equipped to tackle the unprecedented challenges of [数字化/新型霸权]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "commission",
-          "translation": "n. 考察团；委员会",
-          "application_sentence": "Research demonstrates that commission plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "It is precisely because these digital services appear free that consumers remain blissfully oblivious to ...",
+          "syntactic_type": "强调句型结合形容词短语",
+          "translation": "恰恰是因为这些数字服务在表面上看似免费，广大的消费者才会对……保持着天真而危险的浑然不觉",
+          "application_sentence": "It is precisely because digital platforms appear monetarily free that consumers remain blissfully oblivious to the massive loss of personal sovereignty.",
+          "sentence_cn": "恰恰是因为各大数字平台在表面金钱上看似是完全免费的，广大用户才会对自身数字人身主权与隐私权利的巨幅沦丧保持着浑然不觉的麻木与天真。",
+          "template_slot": "It is precisely because [某种诱饵/表象] appears so tempting that [公众/消费者] remains blissfully oblivious to [潜在的巨大风险]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Competition",
-          "translation": "n. 竞争；比赛",
-          "application_sentence": "Research demonstrates that Competition plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "appears",
-          "translation": "v. 出现；呈现",
-          "application_sentence": "Research demonstrates that appears plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "recalibrate antitrust jurisprudence and safeguard digital privacy as an inalienable civil right",
+          "syntactic_type": "法学治理对仗动宾短语",
+          "translation": "重新校准反垄断司法审查范式，将数字隐私捍卫为神圣不可侵犯的公民基本权利",
+          "application_sentence": "To prevent corporate autocracy, lawmakers must recalibrate antitrust jurisprudence and safeguard digital privacy as an inalienable modern civil right.",
+          "sentence_cn": "为防范数字巨头蜕变为凌驾于社会之上的私营专制怪兽，立法者必须全面重新校准反垄断法学体系，将个人数字隐私提升至不容剥夺的现代公民基本权利高度加以捍卫。",
+          "template_slot": "To prevent [垄断滥权/数据侵害], the authorities must recalibrate legal systems and safeguard [核心权利] as an inalienable right."
         }
       ],
       "year": 2018
@@ -7047,55 +7395,188 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 To combat the trap of putting a premium on being b... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：引出主题——卡尔·纽波特建议建立“深度工作”习惯以摆脱盲目忙碌的陷阱。",
-          "第2段：介绍掌握深度工作的多种方式，强调关键在于明确并坚持专注时长。",
-          "第3段：介绍纽波特的“深度日程规划”，提倡将深度工作时间像重要会议一样严加保护。",
-          "第4段：提出优化待办事项清单的方法，引用80年代针对大学生的目标规划实验。",
-          "第5段：指出实验反转结论：过于刻板详尽的每日计划反而挫伤动力，灵活性更为有效。",
-          "第6段：提出新观点：为了最大化专注力与精力，我们必须学会拥抱停歇与休息。",
-          "第7段：引用纽波特名言论述“闲暇”对大脑犹如维生素D对身体般必不可少。",
-          "第8段：从哈佛脑神经科学视角解释：大脑在专注与非专注间切换时效率最高。",
-          "第9段：总结呼吁：完成复杂任务需要大脑同时协同运用专注与非专注回路。"
-        ]
+        "genre": "认知管理学与工作效能心理学深度指南",
+        "discourse_model": "虚假忙碌的现代职场陷阱 ➔ 纽波特'深度工作'法则 ➔ 阻断干扰的深度日程法 ➔ 优先级重构的心理学实验 ➔ 拥抱无所事事的专注反冲 ➔ 脑神经'专注'与'非专注'双回路 ➔ 终结精力耗竭的自洽工作之道",
+        "main_theme": "本文立足畅销书作家卡尔·纽波特（Cal Newport）的经典巨作《深度工作》（Deep Work），对现代职场中盛行的'表演性忙碌'（cult of busyness）与注意力碎片化陷阱进行了深刻解构；系统归纳了掌握深度工作艺术的核心策略，包括设立屏蔽干扰的专属时间段与重新梳理工作优先级；重点引述了哈佛医学院精神病学副教授斯里尼·皮莱（Srini Pillay）的前沿脑科学发现，颠覆性地证明'发呆闲暇'（downtime / idleness）绝非懈怠或罪过，而是大脑不可或缺的神经润滑剂与灵感源泉；最终建构了专注网络（Focus）与非专注网络（Unfocus）辩证平衡的高效生活范式。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】拒绝'假装忙碌'：纽波特深度工作宣言",
+            "core_point": "卡尔·纽波特告诫人们警惕将'瞎忙'视作美德的虚妄陷阱，旗帜鲜明地呼唤专注、免受干扰的深度工作状态。",
+            "cohesive_devices": "以开篇立论（combat the trap of putting a premium on being busy）确立主题方向。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】修炼深度工作的不同实践路径",
+            "core_point": "掌握深度工作并非只有一种模式，既可以是数日乃至数周的闭关沉浸，也可以是日常作息中规律划定的专注微时段。",
+            "cohesive_devices": "分类归纳（number of approaches / lengthy retreats vs daily blocks）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】以'深度日程表'抵御常态化打扰",
+            "core_point": "纽波特极力倡导用事先规划好的'深度日程表'来消解工作中无休止的邮件、电话与杂务侵扰，实现事半功倍。",
+            "cohesive_devices": "提出具体操作战术（deep scheduling to combat interruptions）。"
+          },
+          {
+            "pid": 3,
+            "role": "【承】颠覆日程计划惯性的心理学实验",
+            "core_point": "重新审视每日待办事项的优先级排序，研究表明刻意留出弹性空间的计划往往比精密塞满的严苛日程拥有更强的执行力。",
+            "cohesive_devices": "引出严谨心理学实验对比（Another approach / prioritize your day）。"
+          },
+          {
+            "pid": 4,
+            "role": "【承】计划过于精密的潜在心理反噬",
+            "core_point": "研究证实，过于严苛密集的日程安排容易让执行者产生沮丧厌烦情绪，适度松弛反而能催生更高的任务完成率。",
+            "cohesive_devices": "用实验反转发现（While researchers assumed... yet loose plans succeeded）强化反思。"
+          },
+          {
+            "pid": 5,
+            "role": "【转】拥抱闲暇：精力续航与灵感焕发的前提",
+            "core_point": "要彻底释放专注力与脑力，必须学会主动拥抱'离线放空'，让疲于奔命的大脑获得真正的休眠沉淀。",
+            "cohesive_devices": "转折引出核心升华概念（In order to make the most of focus, we must embrace downtime）。"
+          },
+          {
+            "pid": 6,
+            "role": "【深】闲暇之辩：发呆对于大脑如同维生素之于身体",
+            "core_point": "引述思想家名言：无所事事绝非放纵堕落或道德瑕疵，它如同维生素D之于肉体一般，是大脑不可或缺的生理刚需。",
+            "cohesive_devices": "引入名人格言类比（Idleness is not just an indulgence / as indispensable as Vitamin D）。"
+          },
+          {
+            "pid": 7,
+            "role": "【深】哈佛前沿脑神经科学的有力背书",
+            "core_point": "哈佛医学院精神病学家皮莱指出，大脑在高难度复杂创造中需要专注与散漫两大系统协同发力，单纯死磕专注只会导致死机。",
+            "cohesive_devices": "引入顶尖医学专家理论支撑（Srini Pillay of Harvard Medical School）。"
+          },
+          {
+            "pid": 8,
+            "role": "【合】专注回路与散漫回路的共生交响",
+            "core_point": "人类大脑需要如拉风箱般在'专注电路'与'非专注回路'之间优雅切换，唯有学会有节律地走神放空，方能攀登智力巅峰。",
+            "cohesive_devices": "以精妙的神经回路平衡机理（use both focus and unfocus circuits）作结，达成认知升华。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 4，从 A-G 七个候选项中为指定五个段落选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "F"
+            },
+            {
+              "pid": 5,
+              "label": "Paragraph 6",
+              "correct_key": "G"
+            },
+            {
+              "pid": 6,
+              "label": "Paragraph 7",
+              "correct_key": "A"
+            },
+            {
+              "pid": 8,
+              "label": "Paragraph 9",
+              "correct_key": "D"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Idleness as an Essential Nutrient for the Flourishing Mind",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第7段名言论述：闲暇放空绝非懒惰缺陷，而是对大脑如维生素D般不可或缺的心智养分。"
+            },
+            {
+              "key": "B",
+              "heading": "Complete Abolition of Workplaces to Promote Extreme Leisure",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：极端曲解/无中生有】文章强调有节奏地休息放空，绝非要求完全取缔办公室与工作。"
+            },
+            {
+              "key": "C",
+              "heading": "Rejecting the Deceptive Cult of Superfluous Busyness",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第1段：纽波特倡导打破将盲目瞎忙奉为美德的职场陷阱，呼唤深层次投入。"
+            },
+            {
+              "key": "D",
+              "heading": "Orchestrating Focus and Unfocus Circuits in Neurological Harmony",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第9段结语：卓越脑力依赖于专注回路与散漫非专注回路之间的动态交替共鸣。"
+            },
+            {
+              "key": "E",
+              "heading": "Overtime Work Mandatory for Promotion in Corporate America",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向颠倒】文中通篇反对无效加班与疲劳战术。"
+            },
+            {
+              "key": "F",
+              "heading": "Deep Scheduling Shields Productive Hours from Trivial Interruption",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第3段：利用深度时间表锁定专注时段，构筑抵御无休止碎片打扰的护城河。"
+            },
+            {
+              "key": "G",
+              "heading": "Embracing Deliberate Downtime to Recharge Mental Faculties",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第6段核心：主动接纳放空休息，这是心智恢复活力与高阶灵感萌发的必要前提。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓反对虚假忙碌（trap of being busy）；段3抓深度日程表屏蔽干扰（deep scheduling / interruptions）；段6抓拥抱放空休息（embrace downtime）；段7抓闲暇如维生素（idleness as indispensable as Vitamin D）；段9抓专注与非专注回路协同（focus and unfocus circuits）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "combat",
-          "translation": "n. 战斗；搏斗",
-          "application_sentence": "Research demonstrates that combat plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "fall victim to the deceptive trap of putting a premium on busyness",
+          "syntactic_type": "警示性动宾比喻搭配",
+          "translation": "沦为盲目将'瞎忙'奉为体面美德这一欺骗性陷阱的牺牲品",
+          "application_sentence": "As recent workplace analytics indicate, an alarming proportion of white-collar professionals have fallen victim to the deceptive trap of putting a premium on busyness.",
+          "sentence_cn": "正如近期职场行为调研数据所显示的，令人担忧的是，相当大比例的白领专业人士已沦为将'盲目瞎忙'奉为体面美德这一虚妄陷阱的牺牲品。",
+          "template_slot": "As recent surveys indicate, modern [学生/职场人士] are increasingly falling victim to the deceptive trap of putting a premium on [某种低效表象]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "trap",
-          "translation": "n. （捕捉动物的）陷阱；网",
-          "application_sentence": "Research demonstrates that trap plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "be chronically depleted by fragmented digital interruptions and cosmetic multitasking",
+          "syntactic_type": "被动因果修饰语结构",
+          "translation": "因碎片化的数字信息打扰和形式主义的所谓多任务处理而遭遇长期的心力交瘁",
+          "application_sentence": "Worker burnout occurs primarily because intellectual capacity is chronically depleted by fragmented digital interruptions and cosmetic multitasking.",
+          "sentence_cn": "职场疲劳与耗竭现象之所以频频发生，关键原因在于个体的智力与精力已被高度碎片化的数字打扰和表面化的所谓多任务操作消耗殆尽。",
+          "template_slot": "Individual well-being is chronically depleted by [碎片化的外界打扰] and cosmetic [虚假应付]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "number",
-          "translation": "n. 数字；编号",
-          "application_sentence": "Research demonstrates that number plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Far from being a vice or indulgence, periodic downtime is as indispensable to ... as ...",
+          "syntactic_type": "否定转向类比金句",
+          "translation": "周期性的放空闲暇非但不是懈怠或放纵，它对于……而言恰如……般不可或缺",
+          "application_sentence": "Far from being an unproductive vice or indulgence, periodic downtime is as indispensable to cognitive clarity as nutrients are to bodily vitality.",
+          "sentence_cn": "周期性的身心放空与休息非但不是毫无产出的懈怠放纵，它对于心智清明与灵感萌发而言，正如日常养分对于肉体生机一般不可或缺。",
+          "template_slot": "Far from being a sign of [消极标签], periodic [放松/反思/留白] is as indispensable to [长远发展] as [生命要素] to bodily health."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "approaches",
-          "translation": "v. 靠近；临近",
-          "application_sentence": "Research demonstrates that approaches plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Only when individuals learn to harmonize focused concentration with deliberate leisure can they unlock ...",
+          "syntactic_type": "only+状语从句置于句首的部分倒装结构",
+          "translation": "唯有当个体真正学会将聚精会神的深度专注与从容克制的悠然闲暇融会贯通，他们方能释放出……",
+          "application_sentence": "Only when knowledge workers learn to harmonize intense concentration with deliberate leisure can they unlock their peak intellectual potential.",
+          "sentence_cn": "唯有当当代脑力劳动者真正学会将高度专注的深度攻坚与从容有度的刻意闲暇融会贯通，他们方能彻底释放自身巅峰的智力创造潜能。",
+          "template_slot": "Only when [主体] learns to harmonize [要素A] with [要素B] can it truly unlock [无限潜能/可持续未来]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Newport",
-          "translation": "n. 新港；纽波特（美国罗得岛之避暑胜地）",
-          "application_sentence": "Research demonstrates that Newport plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "recommends",
-          "translation": "v. recommend 的第三人称单数现在时形式：推荐；建议",
-          "application_sentence": "Research demonstrates that recommends plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "carve out sacrosanct blocks for deep contemplation and resist the tyranny of instantaneous connectivity",
+          "syntactic_type": "对仗行动倡议短语",
+          "translation": "为深度省思留出神圣不容侵犯的专属时段，勇敢抵御即时网络连接的数字暴政",
+          "application_sentence": "Modern individuals must cultivate the courage to carve out sacrosanct blocks for deep contemplation and resist the tyranny of instantaneous connectivity.",
+          "sentence_cn": "身处信息洪流中的现代人必须鼓起勇气，在生活中为深度沉潜省思划定神圣不容侵犯的专属时间，坚决抗拒无孔不入的即时网络连接带来的数字暴政。",
+          "template_slot": "We must learn to carve out sacrosanct blocks for [深度思考/家人陪伴] and resist the tyranny of [盲目内卷/数字依赖]."
         }
       ],
       "year": 2018

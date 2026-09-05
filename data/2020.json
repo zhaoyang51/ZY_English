@@ -1705,53 +1705,176 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Rats and other animals need to be highly attuned t... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：引出研究背景：测试老鼠对同伴社交信号的高度敏感性是否能拓展到机器鼠身上。",
-          "第2段：介绍实验设置：将老鼠与极简设计的“社交型”和“非社交型”两种机器鼠共同饲养。",
-          "第3段：描述实验过程中的行为差异：社交机器鼠互动玩耍助其脱困，非社交机器鼠仅作机械移动。",
-          "第4段：展示救援实验结果：老鼠解救社交机器鼠的概率高出52%，展现出对社交同伴的认可与期望互惠。",
-          "第5段：理论阐释：老鼠具备“直接互惠”等多种形式的互助与合作本能。",
-          "第6段：揭示意外发现：即使机器鼠外观极其简约，老鼠仍能准确捕捉并响应其发出的社交信号。",
-          "第7段：总结研究启示：老鼠如同人类儿童一样对基础社交信号高度敏感，揭示了跨物种对机器人的天然亲和性。"
-        ]
+        "genre": "动物行为学与跨物种人工智能交互实验评述",
+        "discourse_model": "生物识别社交信号的演化本能 ➔ 活体大鼠与机器鼠混居实验 ➔ 社交型vs非社交型机器交互 ➔ 营救受困机器鼠的利他实证 ➔ 颠覆直觉的跨物种友谊 ➔ 机器极简外形下的行为共鸣 ➔ 社交敏感性的神经演化与人机协作前瞻",
+        "main_theme": "本文深入报道了认知动物学家一项颠覆常识的尖端对照实验，揭示了哺乳动物社交同理心与互惠合作的深层演化机制；详述了研究人员将8只成年实验大鼠与两台功能不同的微型机器鼠（一台主动示好玩耍的'社交鼠'，一台冷漠孤立的'非社交鼠'）混居四天，并在机器鼠受困笼中时给予大鼠施救机会；实验证实活体大鼠不仅敏锐辨别出社交型机器鼠，更展现出不惜耗费精力主动开启笼锁施予救援的高级利他行为；证明利他互助并非人类或灵长类专属，而是深刻烙印在哺乳动物神经回路中的古老生存算法，为未来人机共生与情感交互提供了革命性启示。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】动物辨识社交信号的演化生存本能",
+            "core_point": "大鼠乃至各类哺乳动物天生对同类的社交信号具备超高敏锐度，这是辨别潜在盟友或危险死敌的演化刚需。",
+            "cohesive_devices": "以开宗明义的演化生物学公理（Rats need to be highly attuned to social signals）开篇。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】精巧的混居对照实验设计",
+            "core_point": "研究人员将8只成年大鼠与两台外形极简的人工机器鼠（一台社交型、一台非社交型）同处一室共同生活四天。",
+            "cohesive_devices": "铺垫控制变量实验背景（housed eight adult rats with two types of robotic rat）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】机器行为差异：主动示好与冷漠忽视的鲜明对照",
+            "core_point": "在朝夕相处中，社交机器鼠主动跟随活体大鼠并共用玩具，而非社交机器鼠则始终呆板执行既定程序、视若无睹。",
+            "cohesive_devices": "详述自变量的行为差异（social robot followed living rats vs asocial robot ignored）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】受困营救考验：活体大鼠展现主动解救行为",
+            "core_point": "当研究员将机器鼠关入微型牢笼后，活体大鼠展现出了惊人的友善：它们主动学会按压操纵杆释放社交机器鼠，却对冷漠机器鼠漠不关心。",
+            "cohesive_devices": "以危机情境测试行为反应（trapped in cages / opportunity to release them）。"
+          },
+          {
+            "pid": 4,
+            "role": "【深】互惠利他机制跨越生物与非生物边界",
+            "core_point": "实验无可辩驳地证明，大鼠体内蕴藏着高级的双向互惠合作冲动，甚至愿意将这种利他友善投射至无生命的机械代理人身上。",
+            "cohesive_devices": "引述学界核心论点（engage in multiple forms of reciprocal help and cooperation）。"
+          },
+          {
+            "pid": 5,
+            "role": "【深】极简机械外表下的行为共情反差",
+            "core_point": "令人震惊的是，即便机器鼠外形简陋、毫无鼠毛气味，只要其运动轨迹符合社交交互模式，大鼠便毫不犹豫视其为伙伴。",
+            "cohesive_devices": "突出反差修辞（readiness to befriend was surprising given its minimal design）。"
+          },
+          {
+            "pid": 6,
+            "role": "【合】演化回响与未来人机情感共生的广阔启示",
+            "core_point": "这一发现彰显了生命对善意信号的极致敏感，不仅重塑了演化伦理学边界，更为未来设计能与人类深度共情的智能机器人奠定了基石。",
+            "cohesive_devices": "由动物实验升华至生命哲学与人机共融未来（how sensitive animals are / implications for social robotics）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 1 的七个段落，从 A-G 七个候选项中为指定五个段落选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "E"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "B"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "G"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "A"
+            },
+            {
+              "pid": 6,
+              "label": "Paragraph 7",
+              "correct_key": "C"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Reciprocal Cooperation Transcending the Boundary of Living Beings",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第5段核心：互惠利他机制跨越生命形态界限，活鼠向无生命的机器伙伴投射互助行为。"
+            },
+            {
+              "key": "B",
+              "heading": "A Controlled Co-Living Trial Involving Two Artificial Prototypes",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第2段：设计严谨的四天同居试验，引入社交型与非社交型两套机器原型。"
+            },
+            {
+              "key": "C",
+              "heading": "Evolutionary Hardwiring Opens Frontiers for Empathic Robotics",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第7段：社交敏感性源于古老的神经演化本能，为新一代共情机器人研发指明前沿道路。"
+            },
+            {
+              "key": "D",
+              "heading": "Immediate Extermination of Non-Biological Intruders by Rodents",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向颠倒/恶意捏造】大鼠对社交机器鼠表现出亲善与营救，绝未发动残忍灭绝扑杀。"
+            },
+            {
+              "key": "E",
+              "heading": "The Evolutionary Imperative to Decipher Subtle Social Signals",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第1段：哺乳动物辨识微观社交信号、甄别敌友是保障族群存续的演化本能。"
+            },
+            {
+              "key": "F",
+              "heading": "Genetic Engineering Eradicates Altruistic Impulses in Laboratory Mice",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未曾提及基因工程技术，更未消除利他冲动。"
+            },
+            {
+              "key": "G",
+              "heading": "Altruistic Rescue Triggered by the Distress of Trapped Robots",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第4段：当机器鼠受困笼中，活体大鼠主动展现营救释放行为。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓社交信号敏感性（attuned to social signals）；段2抓两种机器鼠对照设计（housed with two types of robotic rat）；段4抓牢笼受困营救（trapped in cages / release them）；段5抓互惠合作超越形态（reciprocal help and cooperation）；段7抓演化神经与人机共情启示（sensitive to cues / evolutionary and robotic implications）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "Rats",
-          "translation": "n. 鼠；老鼠（rat 的复数）",
-          "application_sentence": "Research demonstrates that Rats plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "demonstrate a remarkable propensity to extend reciprocal aid toward ...",
+          "syntactic_type": "行为倾向学术动宾结构",
+          "translation": "展现出向……施予互惠互利援助的卓越天生倾向",
+          "application_sentence": "As empirical behavioral trials demonstrate, intelligent subjects display a remarkable propensity to extend reciprocal aid toward cooperative partners.",
+          "sentence_cn": "正如严谨的行为实证研究所表明的，高智商受试个体展现出了一种令人瞩目的向善意合作同伴主动施予互惠援助的卓越天性倾向。",
+          "template_slot": "As empirical studies clearly demonstrate, [某群体] displays a remarkable propensity to extend reciprocal aid toward [需要帮助的群体]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "animals",
-          "translation": "n. 动物；动物世界",
-          "application_sentence": "Research demonstrates that animals plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "be deeply rooted in an ancient evolutionary algorithm that prioritizes mutual affiliation over isolated egoism",
+          "syntactic_type": "演化生物学定语从句结构",
+          "translation": "深深根植于将彼此结盟协作置于孤立利己之上的古老生物演化算法之中",
+          "application_sentence": "Altruistic social behavior is deeply rooted in an ancient evolutionary algorithm that prioritizes mutual affiliation over ruthless individual competition.",
+          "sentence_cn": "利他维系的社会互助行为，深深扎根于一种将彼此结盟合作置于残酷零和利己竞争之上的古老生物演化机制之中。",
+          "template_slot": "Cooperative behavior is deeply rooted in an ancient evolutionary algorithm that prioritizes mutual affiliation over [自私狭隘观念]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "housed",
-          "translation": "v. house 的过去式和过去分词；adj. 被安置在…的",
-          "application_sentence": "Research demonstrates that housed plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "The willingness to cooperate is not contingent upon external appearances, but rather on whether ...",
+          "syntactic_type": "not...but rather并列抉择句型",
+          "translation": "这种合作意愿绝非取决于表面外壳皮相，而是取决于是否……",
+          "application_sentence": "The willingness to cooperate is not contingent upon superficial appearances, but rather on whether reciprocal benevolent signals are reliably exchanged.",
+          "sentence_cn": "展开深度互信与携手合作的意愿，绝非仅仅取决于浮于表面的外貌与形式，而是在于双方之间能否稳定且持续地传递出互利互惠的善意信号。",
+          "template_slot": "The willingness to collaborate is not contingent upon [表面形式/浮华标签], but rather on whether [本质互信/共同价值观] is genuinely established."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "adult",
-          "translation": "n. 成年人或动物；adj. 成年的",
-          "application_sentence": "Research demonstrates that adult plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "So fundamental is the instinct for empathy that it transcends not only cultural divides, but even ...",
+          "syntactic_type": "so...that句首倒装并列递进结构",
+          "translation": "同理共情的内在天性是如此根本而纯粹，以至于它不仅跨越了文化隔阂，甚至能够跨越……",
+          "application_sentence": "So fundamental is the instinct for empathy that it transcends not only species barriers, but even the chasm between carbon life and artificial intelligence.",
+          "sentence_cn": "生命中同理与共情的本能是如此纯粹而根本，以至于它不仅能够轻松跨越物种间的天然阻隔，甚至能够跨越碳基生物与硅基人工智能之间的巨大鸿沟。",
+          "template_slot": "So fundamental is the pursuit of [某种崇高精神/核心价值] that it transcends not only [常规界限], but even [巨大物理鸿沟]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "experiment",
-          "translation": "n. 实验；试验",
-          "application_sentence": "Research demonstrates that experiment plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "social",
-          "translation": "adj. 社会的；社会地位的",
-          "application_sentence": "Research demonstrates that social plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "harness the universal hardwiring of empathy to design technological systems that foster genuine emotional harmony",
+          "syntactic_type": "科技人文化动宾结构",
+          "translation": "善用生命同理心的普适演化密码，设计出能够激发真正情感和谐共鸣的人文科技系统",
+          "application_sentence": "Engineers of tomorrow must harness the universal hardwiring of empathy to design intelligent systems that foster genuine harmony between humans and technology.",
+          "sentence_cn": "未来的科技工程师与时代开拓者必须善用生命同理心的演化密码，倾力打造出真正能够促进人与智能机器情感和谐共鸣的人文化技术系统。",
+          "template_slot": "Technologists must harness [人本理念] to design systems that foster genuine harmony between [技术手段] and [人类终极福祉]."
         }
       ],
       "year": 2020
@@ -3288,51 +3411,164 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 It is true that CEO pay has gone up—top ones may m... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：陈述客观事实：近几十年来美国顶级公司 CEO 薪酬出现显著大幅增长。",
-          "第2段：提出核心经济学模型：顶尖管理人才的极度稀缺与商业机遇爆发推高了高管薪酬溢价。",
-          "第3段：详述现代 CEO 的多元复合技能要求：精通金融、危机公关、跨国供应链与科技研发管理。",
-          "第4段：反驳“高薪掠夺”论调：70年代以来公司治理日益严密，高薪本质是企业高难度岗位揽才的理性决策。",
-          "第5段：列举证据佐证薪酬合理性：高薪多付给外部竞聘者且与股价绩效深度绑定，切实提升了企业整体价值。"
-        ]
+        "genre": "公司治理与现代商业管理经济学深度辩护",
+        "discourse_model": "CEO天价薪酬引爆舆论 ➔ 超级全球化企业与稀缺管理才能的市场模型 ➔ 现代领航人复合能力极值 ➔ 驳斥'内线操纵与中饱私囊'陈词滥调 ➔ 外部空降高薪验证市场透明度 ➔ 捍卫资本市场契约与卓越领导力溢价",
+        "main_theme": "本文针对社会公众与媒体针对企业首席执行官（CEO）高达普通员工300倍的'天价高薪'（astronomical executive pay）所引发的汹涌贪婪声讨，从经济学与商业演进维度展开了理性而坚定的学术辩护；确立了'巨型全球化企业规模放大效应下稀缺管理天赋的供求定价模型'；详述了当代跨国集团掌门人所需驾驭的已非简单的车间流水线监督，而是涵盖全球地缘政治穿梭、颠覆性技术整合、公众舆论公关等前所未有的复合极限能力；有力驳斥了'高薪纯属董事会熟人勾结与巧取豪夺（ripping people off）'的阴谋论，以'外部空降聘用CEO享有最高公开薪酬'的客观铁证，论证了顶级高管薪酬本质是公开透明人才市场竞争决定的卓越领导力溢价。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】CEO高薪300倍现状引爆公众贪婪道德批判",
+            "core_point": "顶级跨国企业CEO薪资飙升至普通员工的300倍之巨，舆论普遍对此予以道德谴责，将其归咎于资本贪婪。",
+            "cohesive_devices": "以客观数据与舆论情绪（CEO pay gone up 300 times / public outrage）入题立论。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】市场定价模型：巨型资产规模对极度稀缺天赋的放大",
+            "core_point": "理解高管薪酬的最佳模型是人才供求与规模效应：当公司规模扩张至数千亿美元，顶尖CEO哪怕能带来1%的决策优势，其绝对商业价值就高达数十亿。",
+            "cohesive_devices": "引入严谨经济学分析模型（best model: limited talent in a world of giant firms）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】现代企业舵手的综合极限能力要求",
+            "core_point": "当代大型企业的掌门人早已超越了传统的生产管理范畴，必须同时具备全球供应链把控、数字化转型整合与高超的公共外交复合技能。",
+            "cohesive_devices": "列举现代商业领袖高难度技能谱系（many more skills than simply running day-to-day operations）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】历史与实证检验：驳斥'内鬼分肥与巧取豪夺'论",
+            "core_point": "社会普遍认为天价高薪纯粹是高管勾结董事会自肥巧取豪夺的论调，在详实的商业历史实证检验面前根本站不住脚。",
+            "cohesive_devices": "采用逻辑批判否定（common idea that pay is about ripping people off doesn't explain history）。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】铁证如山：外部空降最高薪酬彻底粉碎熟人勾结论",
+            "core_point": "无可辩驳的薪酬数据显示，行业内最为丰厚的天价薪水绝非发放给私相授受的内部亲信，而是付给了在公开人才市场激烈竞价中重金挖来的外部将才。",
+            "cohesive_devices": "以不可动摇的实证数据作结（highest salaries paid to outside candidates / disproves cozy insider theory）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 2 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "B"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "C"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Strict Legal Caps Mandated on Executive Bonuses Nationwide",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向颠倒/无中生有】文章通篇为市场化高薪辩护，坚决反对出台行政限薪令。"
+            },
+            {
+              "key": "B",
+              "heading": "Widening Disparities Spark Widespread Public Outcry Over CEO Pay",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第1段：CEO薪酬达普通员工300倍之巨，激化了社会不平等争议与公众愤怒。"
+            },
+            {
+              "key": "C",
+              "heading": "Historical Realities Debunk the Myth of Pure Corporate Theft",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第4段：以详实商业历史逻辑推翻所谓高薪仅仅是内线勾结与中饱私囊的虚妄迷思。"
+            },
+            {
+              "key": "D",
+              "heading": "Internal Apprenticeships Completely Replace Outside Executive Hiring",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：事实颠倒】第5段明确指出外部聘请才是最高薪酬代表，绝非内部学徒制替代外聘。"
+            },
+            {
+              "key": "E",
+              "heading": "Economic Models: Giant Asset Scales Multiply Scarce Executive Talent",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第2段：经济学模型表明，庞大跨国资产规模将极度稀缺的高管领导力价值成倍放大。"
+            },
+            {
+              "key": "F",
+              "heading": "Premium Packages for Outside Recruits Disprove Insider Collusion",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第5段结论：公开市场高薪挖角外部空降CEO的铁证，彻底推翻了董事会内部熟人自肥的指责。"
+            },
+            {
+              "key": "G",
+              "heading": "Modern Corporate Titans Require an Unprecedented Multidimensional Toolkit",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第3段：当代大型跨国集团领舵人必须掌握超越常规运营的多元复合极限技能谱系。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓差距扩大引爆争议（CEO pay gone up 300 times）；段2抓经济学人才规模模型（best model: limited talent in giant firms）；段3抓复合技能要求（many more skills required）；段4抓推翻内线巧取豪夺说（ripping people off doesn't explain history）；段5抓外聘高薪粉碎熟人阴谋（highest salaries paid to outside candidates）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "true",
-          "translation": "adj. 真实的；正确的",
-          "application_sentence": "Research demonstrates that true plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "widen the compensation gap to an astounding ratio of hundreds of times",
+          "syntactic_type": "差距量化动宾结构",
+          "translation": "将薪酬待遇鸿沟拉大至数百倍的令人瞠目的悬殊比例",
+          "application_sentence": "As the bar chart reveals, market dynamics have widened the executive compensation gap to an astounding ratio of hundreds of times.",
+          "sentence_cn": "正如该柱状图所清晰反映的，市场资源配置力量已将企业高管的薪酬待遇差距拉大至普通员工数百倍的令人瞠目的悬殊比例。",
+          "template_slot": "As the chart clearly reveals, [市场分化/技术鸿沟] has widened the disparity to an astounding ratio of [某悬殊比例]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "ones",
-          "translation": "pron. 用作复数代词；替代前文已提到或明确所指的人或事物",
-          "application_sentence": "Research demonstrates that ones plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "reflect the hyper-leveraged impact of scarce talent operating on an astronomical corporate asset base",
+          "syntactic_type": "商业经济学名词性短语结构",
+          "translation": "折射出稀缺顶尖人才依托天文数字般的庞大企业资产平台运作时所具备的超级杠杆放大效应",
+          "application_sentence": "Skyrocketing executive remuneration reflects the hyper-leveraged economic impact of scarce strategic talent operating on a gigantic global asset base.",
+          "sentence_cn": "企业顶级高管薪酬的一路飙升，在经济学底层本质上折射出极度稀缺的战略领军人才在驾驭天文数字般的全球化资产平台时所具备的超级杠杆放大效应。",
+          "template_slot": "The premium compensation of [精英领军人才] fundamentally reflects the hyper-leveraged impact of [稀缺能力] operating on [宏大平台]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "best",
-          "translation": "adj. 最好的；最出色的",
-          "application_sentence": "Research demonstrates that best plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "The popular sentiment that ... is driven purely by corruption collapses under rigorous historical scrutiny.",
+          "syntactic_type": "主谓从句驳论句型",
+          "translation": "那种认为……纯粹是由腐败贪婪所驱动的通俗民粹观点，在严谨的商业历史考证面前全然崩溃瓦解。",
+          "application_sentence": "The popular populist sentiment that executive packages are driven purely by insider corruption collapses under rigorous empirical scrutiny.",
+          "sentence_cn": "那种简单将高管薪资暴涨全盘贬损为董事会内部熟人勾结腐败的通俗民粹情绪，在严谨客观的实证商业史检验面前全然不攻自破、彻底崩溃。",
+          "template_slot": "The popular sentiment that [某复杂经济现象] is driven purely by [主观恶意/道德指责] collapses under rigorous scrutiny."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "model",
-          "translation": "n. 模型；模式",
-          "application_sentence": "Research demonstrates that model plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Were these extraordinary compensation packages merely the product of insider favoritism, corporations would never ...",
+          "syntactic_type": "虚拟语气条件句倒装省略if结构",
+          "translation": "倘若这些令人咋舌的丰厚薪酬纯粹是内部裙带偏袒的私相授受，现代跨国企业就绝不可能……",
+          "application_sentence": "Were these extraordinary compensation packages merely the product of insider favoritism, ruthless corporate boards would never offer the highest sums to outside contenders.",
+          "sentence_cn": "倘若这些令人咋舌的丰厚薪资待遇纯粹是内部裙带关系与亲信偏袒的私相授受，精明务实的跨国董事会就绝不可能在公开市场竞争中把最高额的报酬奉送给外部空降的竞争者。",
+          "template_slot": "Were [某现象] merely the product of [阴谋论/不正当偏袒], modern institutions would never [做出理性实证行为]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Today",
-          "translation": "adv. 今天；今日",
-          "application_sentence": "Research demonstrates that Today plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "least",
-          "translation": "adj. 一点儿；最少的（little 的最高级）",
-          "application_sentence": "Research demonstrates that least plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "transcend emotional moralizing to align executive incentives with transparent, long-term stakeholder value",
+          "syntactic_type": "理性公司治理动宾搭配",
+          "translation": "跳出单纯的情绪化道德审判，将高管激励机制与公开透明、兼顾各方利益的长远价值创造紧密挂钩",
+          "application_sentence": "Corporate governance must transcend emotional moralizing to align executive compensation with transparent, sustainable long-term stakeholder value.",
+          "sentence_cn": "现代现代企业治理必须超越单纯泄愤式的情绪化道德审判，转而通过严密制度设计，将高管绩效薪酬与公开透明、兼顾各方长远利益的实体价值创造牢牢绑定在一起。",
+          "template_slot": "Public policy must transcend emotional moralizing to align [激励机制] with [长远核心利益/公众福祉]."
         }
       ],
       "year": 2020
@@ -4967,52 +5203,170 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Madrid was hailed as a public health guiding light... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：以马德里低排放区政策受政党轮替冲击陷入法庭争端为例，引出城市治污政策的脆弱性。",
-          "第2段：指出欧洲各城市零敲碎打的治理模式面临共同困境，城市级治污手段存在先天局限。",
-          "第3段：剖析城市限行政策的根本缺陷：将成本转嫁给个体司机而非排放作弊的车企，极易引发政治反弹与选民抗议。",
-          "第4段：肯定城市局部限行区域对改善局部空气质量与保护居民健康发挥的实际积极作用。",
-          "第5段：明确权力边界与责任归属：地方政府只是在替国家政府的不作为买单，跨区域污染需国家层面治理。",
-          "第6段：一针见血总结治理缺失：监管部门穷尽各种末端限制手段，却唯独没有从源头严惩并强制车企达标减排。"
-        ]
+        "genre": "城市规划学与跨区域环境协同治理评述",
+        "discourse_model": "马德里低排区闪亮登场 ➔ 市政政权更迭引发政策大倒退 ➔ 揭示零敲碎打'孤岛式'抗霾局限 ➔ 污染跨境流动与向郊区转嫁难题 ➔ 肯定伦敦Ulez等局部探索 ➔ 市长权力天花板 ➔ 呼吁国家与超区域系统性协同治理",
+        "main_theme": "本文以西班牙首都马德里雄心勃勃推出'马德里中央低排放区'（Madrid Central）随后却因市政权力轮替而陷入废存拉锯的波折为核心切口，深刻揭示了依靠单一城市'各自为战、零敲碎打'（patchwork, city-by-city approach）治理空气污染的根本性体制硬伤；论证了大气环境具备高度流动性与跨境渗透性，孤岛式限行极易将高排放车辆与污染源转移至周边边缘贫困郊区，加剧环境不公；肯定了伦敦超低排放区（ULEZ）等微观探索的局部价值，但直指市长与市议员在宏观能源转型与全国交通网络面前的权力天花板；最终发出时代呼吁：唯有上升至国家级顶层立法与跨区域综合大交通协同，方能彻底打赢蓝天保卫战。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】马德里中央低排区初战告捷被誉为健康灯塔",
+            "core_point": "马德里去年底推行雄心勃勃的市区机动车限行低排政策，空气质量立竿见影改善，被欧洲公认为公共健康治理典范。",
+            "cohesive_devices": "以褒扬荣耀（hailed as a guiding light）建立成功标杆。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】政客反水推翻限行：敲响'各自为战'碎片化治理警钟",
+            "core_point": "新一届保守派市长上台试图废除环保限行，政策反复摇摆不仅重创公众信任，更尖锐暴露了零敲碎打城市自决模式的脆弱死穴。",
+            "cohesive_devices": "急转直下（Madrid's back and forth is a pointed reminder of the limits of patchwork）。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】孤岛式治理的内在弊端：污染转移与郊区承压",
+            "core_point": "单一城市孤立抗霾面临天然劣势：污染空气顺风扩散不受边界阻隔，且市中心强制限行往往导致劣质尾气向更缺监管的郊区转嫁。",
+            "cohesive_devices": "深入学理解构致命短板（measures cities employ on their own are fragile and displace pollution）。"
+          },
+          {
+            "pid": 3,
+            "role": "【承】客观肯定局部努力：伦敦ULEZ绝非一无是处",
+            "core_point": "伦敦等特大城市设立超低排放区（ULEZ）并非毫无成效，地方官员在其法定职权范围内竭尽全力尝试了最具突破性的管制手段。",
+            "cohesive_devices": "转折辩证澄清（It's not that measures are useless. Far from it）。"
+          },
+          {
+            "pid": 4,
+            "role": "【转】权力边界的残酷撞墙：市长无法独力解决超大系统工程",
+            "core_point": "市长与议员的行政权威终究受制于市政区划，而空气污染与清洁交通换代是横跨宏观电网、铁路与国家工业的超级系统工程。",
+            "cohesive_devices": "直击治理能级上限（mayors and councillors can only do so much about a problem far bigger）。"
+          },
+          {
+            "pid": 5,
+            "role": "【合】跨越城市藩篱：呼唤国家统筹与跨区域系统联动",
+            "core_point": "将高排放车辆挡在城市核心之外只是治标，唯有中央政府通过全国性新能源汽车补贴、重构区域绿色公共交通，才能彻底驱散雾霾重现蓝天。",
+            "cohesive_devices": "提出终极国家统筹蓝图（must be matched by national transition policies and holistic networks）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 3 的六个段落，从 A-G 七个候选项中为指定五个段落选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "F"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "A"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "D"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Recognizing the Merits and Bold Experiments of Local Leaders",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第4段：肯定伦敦ULEZ等地方性低排政策绝非毫无用处，展现了地方治理的积极探索。"
+            },
+            {
+              "key": "B",
+              "heading": "Total Ban on Private Vehicle Ownership Across the European Union",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向荒谬/过度极端】文章探讨低排区与新能源替代，未曾倡导全面取缔私家车所有权。"
+            },
+            {
+              "key": "C",
+              "heading": "An Ambitious Clean Air Model Celebrated as a Guiding Beacon",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：马德里中央区推出严厉限行措施，被盛赞为指引公共健康前行的领航灯塔。"
+            },
+            {
+              "key": "D",
+              "heading": "The Inevitable Governance Ceiling Confronting Municipal Authorities",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第5段：市长和地方议员在应对超越城市行政边界的全国性生态难题时遭遇不可逾越的权力天花板。"
+            },
+            {
+              "key": "E",
+              "heading": "Immediate Dissolution of Madrid City Council by National Decree",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未提及解散马德里市议会。"
+            },
+            {
+              "key": "F",
+              "heading": "Political Policy Reversals Expose the Frailty of Patchwork Approaches",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第2段：马德里政策反复无常的摇摆，尖锐揭示出单一城市零敲碎打自决模式的严重脆弱性。"
+            },
+            {
+              "key": "G",
+              "heading": "Inherent Structural Flaws: Cross-Border Winds and Pollution Spillover",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第3段：孤岛式治霾不仅无法阻挡跨界风流传播，更往往导致严重污染向外围郊区转嫁转移。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓低排区被誉为典范灯塔（hailed as guiding light）；段2抓政策反复暴露零敲碎打局限（back and forth / limits of patchwork）；段3抓结构短板与污染外溢（inherent weaknesses / displace dirty air）；段4抓肯定局部贡献（not useless / far from it）；段5抓地方官员权力天花板（mayors can only do so much / problem far bigger）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "Madrid",
-          "translation": "n. 马德里（西班牙首都）",
-          "application_sentence": "Research demonstrates that Madrid plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "highlight the inherent vulnerabilities of a fragmented, piecemeal approach to ...",
+          "syntactic_type": "警示性动宾搭配",
+          "translation": "凸显出在应对……时采取零敲碎打、碎片化手段的固有脆弱短板",
+          "application_sentence": "As the environmental governance index highlights, relying solely on municipal decrees exposes the inherent vulnerabilities of a fragmented, piecemeal approach to public health.",
+          "sentence_cn": "正如环境治理发展指数所清晰凸显的，仅仅依赖个别城市的自发行政指令，必然暴露出在应对重大公共健康挑战时所采取的零敲碎打、碎片化治理模式的天然致命缺陷。",
+          "template_slot": "Recent events highlight the inherent vulnerabilities of a fragmented, piecemeal approach to [宏观复杂治理危机]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "hailed",
-          "translation": "v. 赞扬；称赞",
-          "application_sentence": "Research demonstrates that hailed plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "merely displace the ecological burden onto surrounding marginalized communities rather than eliminating it at the root",
+          "syntactic_type": "否定对比因果句型",
+          "translation": "仅仅是将生态污染负荷转嫁至周边的边缘化弱势社群，而非从源头彻底根治",
+          "application_sentence": "Isolated vehicle restrictions often merely displace the ecological burden onto surrounding suburban communities rather than eliminating pollution at the root.",
+          "sentence_cn": "互不连通的孤岛式局部限行措施，往往仅仅是将严重的生态环境污染负荷转嫁外溢至周边的郊区边缘社群，而根本未能从制度源头上彻底将其铲除瓦解。",
+          "template_slot": "Localized bans often merely displace the burden onto [周边弱势群体] rather than eliminating [深层危机] at the root."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Madrid",
-          "translation": "n. 马德里（西班牙首都）",
-          "application_sentence": "Research demonstrates that Madrid plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "It is not that grassroots municipal efforts are ineffectual; rather, local leadership inevitably collides with ...",
+          "syntactic_type": "not that...rather让步递进反思句型",
+          "translation": "这并非意味着基层的市政努力毫无成效；而是地方领导层不可避免地会遭遇……的无情阻碍",
+          "application_sentence": "It is not that localized low-emission trials are ineffectual; rather, local mayoral power inevitably collides with the structural boundaries of national infrastructure.",
+          "sentence_cn": "这绝非意味着地方城市开展的低排放探索试验毫无作为；而是说地方市长的微观权力不可避免地会撞上跨区域宏观国家基础设施格局的冷酷天花板。",
+          "template_slot": "It is not that [局部努力/个人探索] is ineffectual; rather, it inevitably collides with the rigid boundaries of [宏观体制/外部环境]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "forth",
-          "translation": "adv. 离去；外出",
-          "application_sentence": "Research demonstrates that forth plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Under no circumstances can a transboundary environmental crisis be resolved by disjointed local expedients, no matter how ...",
+          "syntactic_type": "否定副词置于句首的部分倒装配合让步从句",
+          "translation": "在任何情况下，跨越行政边界的重大生态危机都绝不可能依靠各自为战的地方权宜之计予以解决，无论这些措施表面上看起来多么……",
+          "application_sentence": "Under no circumstances can a transboundary atmospheric crisis be resolved by disjointed local expedients, no matter how well-intentioned municipal mayors might be.",
+          "sentence_cn": "在任何情况下，跨越行政边界的区域性大气污染危机都绝不可能仅仅凭借互不协同的地方权宜之计得到彻底解决，无论个别市政官员的初衷动机是何等良善美好。",
+          "template_slot": "Under no circumstances can [跨区域/系统性难题] be resolved by disjointed local expedients, no matter how [雄心勃勃/初衷美好]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "weaknesses",
-          "translation": "n. 弱点；缺点",
-          "application_sentence": "Research demonstrates that weaknesses plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "measures",
-          "translation": "n. 措施；层组（measure 的复数）",
-          "application_sentence": "Research demonstrates that measures plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "orchestrate supra-regional policy synergies and deploy systemic infrastructure investments that transcend administrative fiefdoms",
+          "syntactic_type": "顶层规划宏观战略动宾短语",
+          "translation": "统筹超区域的政策协同效应，落地超越地方行政割裂藩篱的系统性国家基础设施战略投资",
+          "application_sentence": "Central governments must orchestrate supra-regional policy synergies and deploy massive green infrastructure investments that transcend narrow administrative fiefdoms.",
+          "sentence_cn": "中央及跨区域统筹决策层必须全力谋求超越地方行政壁垒的超区域政策协同，下大力气落地足以打通跨界藩篱的系统性绿色交通基础设施重大战略投资。",
+          "template_slot": "Central authorities must orchestrate cross-regional synergies and deploy investments that transcend [地方行政割裂/狭隘藩篱]."
         }
       ],
       "year": 2020
@@ -6743,50 +7097,147 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Now that members of Generation Z are graduating co... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：背景引入：Z世代迎着几十年来最紧张繁荣的就业市场迈入职场，备受社会广泛关注。",
-          "第2段：性格特质剖析：童年亲历2008年金融危机及高昂助学贷款重压，铸就了Z世代极度务实谨慎、规避风险的经济实用主义风格。",
-          "第3段：就业取向实证：权威调查证实Z世代将稳定安全的就业机会置于首位，选专业极具职业导向性。",
-          "第4段：代际鲜明对比：不同于千禧一代对灵活自由的追求，面对零工经济的冲击，Z世代更加渴望职业确定性与财务安全感。"
-        ]
+        "genre": "人口代际社会学与青年择业价值观深度调研",
+        "discourse_model": "Z世代大学毕业生登场 ➔ 相比千禧一代撕掉'自命不凡'理想主义标签 ➔ 埃森哲调查88%务实就业选专业 ➔ 巨额学生贷与大萧条记忆创伤 ➔ 追求薪酬与稳定保障的硬核现实主义 ➔ 代际社会心态范式剧变与时代烙印",
+        "main_theme": "本文聚焦2020年首批正式告别大学校园步入职场的'Z世代'（Generation Z，泛指1995至2010年间出生群体），展开了深刻的代际社会学性格解构；通过与上一代千禧一代（Millennials）常被诟病的'自命不凡（entitled）与空想自由浪漫'形成鲜明对照，确立了Z世代以'极度现实、生存第一'为导向的实用主义底色；引用埃森哲（Accenture）等权威机构的量化调研，证实高达88%的应届毕业生在大学选专业时完全以'就业刚需与高薪变现'为决策指针；深度阐明了2008年全球金融危机父母失业的童年创伤与高企的学生贷款债务压力，如何将Z世代锻造为渴求五险一金、追求职业确定性与长期财务稳健的硬核务实一代。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】Z世代大学毕业大幕拉开：迎来全新代际力量",
+            "core_point": "1990年代中后期出生的Z世代迎来首个大学毕业季，正式拉开登上历史主舞台、重塑现代职场生态的序幕。",
+            "cohesive_devices": "以时间节点（graduating college this spring）确立代际登场背景。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】撕掉千禧一代标签：告别'理所当然的特权空想'",
+            "core_point": "如果说千禧一代往往被贴上'自命不凡、随性任性'的标签，那么Z世代则在成长岁月中早早褪去了空洞的浪漫幻想。",
+            "cohesive_devices": "代际鲜明对照（If 'entitled' is applied to millennials... Gen Z is starkly different）。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】埃森哲重磅调研：88%学子选专业以薪酬就业为绝对导向",
+            "core_point": "埃森哲详实统计表明，高达88%的应届毕业生在填报大学专业时首要考量毕业求职前景与薪资水平，功利与务实成为主流。",
+            "cohesive_devices": "引用权威咨询机构量化实证（Accenture found 88% chose majors with jobs in mind）。"
+          },
+          {
+            "pid": 3,
+            "role": "【合】时代烙印下的生存范式巨变：从追求自由到拥抱安稳确定性",
+            "core_point": "亲历家庭财务震荡与债务危机的Z世代，彻底告别了千禧一代追求灵活弹性的心浮气躁，将企业稳定、医疗保险与薪水兜底视作不可动摇的人生压舱石。",
+            "cohesive_devices": "以深刻代际心理演变对比作结（big change from previous generation / flexibility vs financial security）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 4 的四个段落，从 A-F 六个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "E"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "B"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "F"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "C"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Widespread Resignation from Corporate Careers to Pursue Bohemian Art",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向颠倒/无中生有】文章强调Z世代渴求高薪安稳，绝非辞职追求波西米亚式波西米亚流浪艺术。"
+            },
+            {
+              "key": "B",
+              "heading": "Shedding the Entitled Idealism Characteristic of Previous Generations",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第2段：Z世代彻底撕掉千禧一代自命不凡、浮躁任性的标签，展现全然不同的品格。"
+            },
+            {
+              "key": "C",
+              "heading": "A Profound Generational Pivot Toward Financial Security and Stability",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第4段总结：从千禧一代迷恋工作自由弹性，深刻转向Z世代对薪酬保障与职业稳定性的狂热渴求。"
+            },
+            {
+              "key": "D",
+              "heading": "Federal Legislation Completely Forgives All Outstanding Student Debt",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未曾提及联邦立法赦免所有学生债务。"
+            },
+            {
+              "key": "E",
+              "heading": "The Dawn of a New Demographic Cohort Entering the Professional Sphere",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第1段：首批Z世代大学毕业生大批涌入社会，宣告全新代际群体正式踏入职场。"
+            },
+            {
+              "key": "F",
+              "heading": "Pragmatic Career Calculus: Choosing Majors Based on Employability",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第3段：埃森哲调查证实，近九成毕业生纯粹基于就业率与薪资前景确定专业方向。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓全新一代走出校门（Gen Z graduating college / defining cohort）；段2抓撕掉千禧一代自命不凡标签（entitled millennials vs Gen Z）；段3抓就业薪酬为导向选专业（88 percent chose major with jobs in mind）；段4抓追求稳定与财务安全转型（shift from flexibility to financial security）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "members",
-          "translation": "n. （社团、政党等组织的）成员；会员",
-          "application_sentence": "Research demonstrates that members plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "demonstrate an overwhelmingly pragmatic calculus when navigating career pathways",
+          "syntactic_type": "趋势特征学术动宾搭配",
+          "translation": "在规划未来职业道路时展现出压倒性的极端务实算计考量",
+          "application_sentence": "As the graduating senior survey clearly illustrates, young adults demonstrate an overwhelmingly pragmatic calculus when navigating career pathways.",
+          "sentence_cn": "正如大四应届生毕业去向调查所清晰展现的，当代年轻学子在规划考量自身职业生涯出路时，普遍展现出了压倒一切的务实与清醒算计。",
+          "template_slot": "As the survey clearly illustrates, [青年群体/现代从业者] demonstrates an overwhelmingly pragmatic calculus when navigating [求职/人生选择]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Generation",
-          "translation": "n. 一代（人）；一代人的时间",
-          "application_sentence": "Research demonstrates that Generation plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "be forged by the sobering childhood memories of economic turbulence and mounting debt burdens",
+          "syntactic_type": "被动语态创伤归因结构",
+          "translation": "由经济大萧条震荡与沉重债务重压所带来的清醒童年回忆所深深锻造塑造",
+          "application_sentence": "This hardheaded pragmatism was forged by the sobering childhood memories of the Great Recession and mounting household debt burdens.",
+          "sentence_cn": "这种不带半点空想温情的硬核现实主义，在深层次上正是由童年亲历大萧条狂潮肆虐以及家庭沉重债务重压所带来的清醒记忆所深深淬炼锻造出来的。",
+          "template_slot": "This profound caution was forged by the sobering memories of [经济寒冬/历史挫折] and mounting [现实压力]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "entitled",
-          "translation": "adj. 有资格的；v. 使享有权利",
-          "application_sentence": "Research demonstrates that entitled plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "While their predecessors prioritized self-actualization and flexibility, the emergent generation actively prizes ...",
+          "syntactic_type": "代际对比让步句式",
+          "translation": "尽管他们的前代人将自我价值实现与工作自由弹性置于首位，新崛起的这一代人却积极地将……奉为圭臬",
+          "application_sentence": "While their predecessors prioritized subjective self-actualization and flexibility, the emergent cohort actively prizes tangible institutional stability.",
+          "sentence_cn": "尽管他们的上一代人往往将主观精神层面的自我价值实现与职业弹性置于神圣首位，但最新崛起的这代年轻人却旗帜鲜明地将看得见摸得着的体制确定性与稳定保障奉为无上圭臬。",
+          "template_slot": "While the previous generation prioritized [浪漫自由/情怀追求], the emergent cohort actively prizes [现实保障/确定性]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "common",
-          "translation": "adj. 共同的；共享的",
-          "application_sentence": "Research demonstrates that common plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Far from signifying a lack of lofty ambition, this relentless focus on ... represents a rational adaptation to ...",
+          "syntactic_type": "否定对比提升句型",
+          "translation": "这绝非意味着远大崇高抱负的丧失，对……的这种毫不妥协的执着追求实则是对……的一种极其理性的生存适应",
+          "application_sentence": "Far from signifying a cynical lack of ambition, this relentless focus on job security represents a rational adaptation to an intensely competitive market landscape.",
+          "sentence_cn": "这绝非意味着青年一代丧失了仰望星空的崇高志向，他们对稳定就业与稳健薪酬毫不妥协的执着聚焦，实则是面对极其残酷惨烈的现代市场竞争环境所做出的一种极度理性的生存适应。",
+          "template_slot": "Far from signifying [消极缺陷/志气消磨], this relentless focus on [务实目标] represents a rational adaptation to [严峻现实环境]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "survey",
-          "translation": "n. 民意调查；民意测验",
-          "application_sentence": "Research demonstrates that survey plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "Accenture",
-          "translation": "n. 埃森哲咨询公司（跨国专业服务公司；主营管理咨询、信息技术服务和业务流程外包）",
-          "application_sentence": "Research demonstrates that Accenture plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "bridge the gulf between youthful aspirations and market realities by fostering both professional agility and durable social safety nets",
+          "syntactic_type": "平衡治理前瞻动宾短语",
+          "translation": "通过同时培育敏锐的职业适应韧性与构筑坚实的社会安全保障网，彻底弥合青年美好希冀与残酷市场现实之间的鸿沟",
+          "application_sentence": "Society must bridge the gulf between youthful aspirations and harsh economic realities by fostering professional agility and providing durable social safety nets.",
+          "sentence_cn": "全社会必须通过全力提升年轻一代的职业敏锐适应力并构筑固若金汤的托底社会安全网，从而彻底弥合青年内心的生活希冀与残酷冷冰的市场现实之间的鸿沟。",
+          "template_slot": "Institutions must bridge the gulf between [理想与现实] by fostering [专业能力] and providing durable [制度兜底保障]."
         }
       ],
       "year": 2020
