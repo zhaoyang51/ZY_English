@@ -1295,14 +1295,14 @@
               "is_correct": false,
               "trap_type": "干扰项（无中生有 / 过度推断）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
+                "practice_status": "受常规大型活动带动就业的思维影响，误入无中生有陷阱，排除",
+                "option_nature": "干扰项（无中生有/常识诱导）",
                 "source_sentence": "Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.",
-                "source_translation": "每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“Parkrun 现象始于十几个朋友，并启发了英国和其他国家举办的 400 场活动。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "source_translation": "每个周六上午9点，超过5万名跑者出发，在当地公园绕跑5公里。",
+                "locator_comparison": "选项A声称 Parkrun“创造了许多就业机会（created many jobs）”。第1段通篇在用数据陈述普通民众参与跑步的规模，后文更明确指出这是一种依靠志愿者、非商业运作的草根草民活动（grassroots event），从未提及创造工作岗位（created jobs）。A选项纯属脱离文本的无端捏造。",
+                "writing_perspective": "作者在第1段旨在渲染一种自发的、纯粹的民间体育热潮，若引入“拉动就业”这一商业化经济指标，反而破坏了其非功利性的叙事纯洁度。",
+                "theme_validation": "全文盛赞 Parkrun 的非精英、非商业属性，与拉动就业等功利性政府项目无关，A项偏离主旨。",
+                "verdict": "判定：A项凭空捏造经济就业概念，果断排除。"
               }
             },
             {
@@ -1312,14 +1312,14 @@
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.",
-                "source_translation": "每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。",
-                "locator_comparison": "选项核心词 <code>gained</code>, <code>great</code>, <code>popularity</code>（“获得了很高的人气”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“Parkrun 现象始于十几个朋友，并启发了英国和其他国家举办的 400 场活动。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：B正确。"
+                "practice_status": "综合首段50,000 runners和400 sites及phenomenon，迅速锁定B",
+                "option_nature": "正确项（同义概括/数据提炼）",
+                "source_sentence": "Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park. The Parkrun phenomenon has spread to more than 400 sites...",
+                "source_translation": "每个周六上午9点，超过5万名跑者在当地公园开跑5公里。公园跑这一现象已经蔓延到400多个地点……",
+                "locator_comparison": "选项B指出 Parkrun“获得了极大的普及与欢迎（gained great popularity）”。定位段落中，作者列举了一连串令人瞩目的数据：每周多达5万人参与（more than 50,000 runners）、从单一公园扩展到全英400多个地点（spread to more than 400 sites），并被冠以“现象级（phenomenon）”的美誉。B选项用 gained great popularity 极为传神地概括了这种席卷全国、受人追捧的状态，语义完全吻合。",
+                "writing_perspective": "作者在第1段开篇即用一组震撼的数据建立起 Parkrun 蓬勃发展的积极基调，为第2段对比伦敦奥运遗产的惨淡失败提供了强有力的论据支点，选B完美承接了文章的立论意图。",
+                "theme_validation": "全文讨论的核心正是民间自发体育何以能获得如此广泛的大众普及与热爱，B项精准切中主题。",
+                "verdict": "判定：B项对首段具体数据及“现象”一词的概括高度精准，为标准正确答案。"
               }
             },
             {
@@ -1329,14 +1329,14 @@
               "is_correct": false,
               "trap_type": "干扰项（无中生有 / 过度推断）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.",
-                "source_translation": "每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“Parkrun 现象始于十几个朋友，并启发了英国和其他国家举办的 400 场活动。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "看到每周六固定跑步，误以为是官方节日，但缺乏官方背书依据，排除",
+                "option_nature": "干扰项（曲解事实/主体篡改）",
+                "source_sentence": "Every Saturday morning, at 9 am, more than 50,000 runners set off...",
+                "source_translation": "每个周六上午9点，超过5万名跑者开跑……",
+                "locator_comparison": "选项C认为它已经“成为一个官方节日（become an official festival）”。第1段指出跑步活动是每周六上午举行的常规草根活动，根本不是法定意义上的“节日（festival）”；后文更强调它是一种民间草根自治（grassroots），坚决排斥官方干涉（absurd in the state getting involved）。选项C加上 official 和 festival 两个限定词，全方位歪曲了其民间常规性。",
+                "writing_perspective": "作者通篇强调民间力量的反叛与自立，如果将其写成官方节日，作者对官僚机构的讽刺将彻底失效，C选项违背作者的叙事策略。",
+                "theme_validation": "本文的核心对比就是“民间草根的高效 vs 官方项目的僵化”，C项把草根误认作官方，南辕北辙。",
+                "verdict": "判定：C项将民间自发常规运动篡改为官方节日，性质严重歪曲，果断排除。"
               }
             },
             {
@@ -1346,18 +1346,25 @@
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park.",
-                "source_translation": "每周六早上 9 点，超过 50,000 名跑步者出发，围绕当地公园跑 5 公里。",
-                "locator_comparison": "选项声称“加强社区联系”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“Parkrun 现象始于十几个朋友，并启发了英国和其他国家举办的 400 场活动。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "虽然看似有益于社区，但第1段并未明确讨论社区纽带的强化，排除",
+                "option_nature": "干扰项（过度推断/偷换段落重心）",
+                "source_sentence": "...run 5km around their local park. The Parkrun phenomenon has spread...",
+                "source_translation": "……绕着他们当地的公园跑5公里。公园跑现象已经蔓延……",
+                "locator_comparison": "选项D声称其“强化了社区纽带（strengthened community ties）”。虽然文中出现了 local park（当地公园），常理推测社区长跑可能促进邻里关系，但题干明确限定“According to Paragraph 1”。在第1段中，作者的笔墨百分之百聚焦在“参与人数之多、站点分布之广”这一受欢迎的宏观规模上，根本没有在心理或社会学层面对“强化纽带（strengthened ties）”进行任何阐发。D项属于主观脑补的过度引申项。",
+                "writing_perspective": "首段是典型的新闻导语写作风格，作者只抛出最直观的事实规模来吸引眼球，尚未深入社会学功能分析，D选项在分析层次上越位了。",
+                "theme_validation": "文章后续主要探讨大众参与度与精英体育的对立，强化社区纽带并非作者的核心主线，D项欠缺针对性。",
+                "verdict": "判定：D项主观臆断，脱离第1段文字事实，果断排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；<b>B</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>C</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；<b>D</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“加强社区联系”，但在原文定位句中，作者表达的态度或客观事实恰...；"
+          "summary": "本题考查对第1段社会现象事实细节的提炼。首段通过详实的数据（每个周六早晨9点、超过5万名跑者、全英400多个地点并迅速向海外扩张）生动描绘了公园跑（Parkrun）席卷全英的盛况。B选项 gained great popularity（赢得了极大普及与欢迎）是对“The Parkrun phenomenon has spread... more than 50,000 runners”的高阶同义概括。干扰项A（创造许多就业）无中生有，C（成为官方节日）曲解民间自发属性，D（强化社区纽带）虽然看似合理但在首段并未作为既成事实给出。",
+          "synonym_pairs": [
+            {
+              "opt_term": "gained great popularity",
+              "text_term": "more than 50,000 runners / The Parkrun phenomenon has spread to more than 400 sites",
+              "logic": "gained great popularity（大受欢迎/广泛普及）同义替换了由5万名跑者、400多个站点共同勾勒出的全国性现象（phenomenon）。"
+            }
+          ]
         },
         {
           "qid": 22,
@@ -1375,14 +1382,14 @@
               "is_correct": false,
               "trap_type": "干扰项（张冠李戴 / 范围偏差）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
+                "practice_status": "大型赛事与人口自然增长无关，常识排除",
+                "option_nature": "干扰项（无中生有/荒谬关联）",
                 "source_sentence": "Parkrun is succeeding where London’s Olympic “legacy” is failing.",
-                "source_translation": "帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“十年前的周一，宣布第 30 届奥运会将在伦敦举行。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "source_translation": "公园跑正在伦敦奥运“遗产”遭遇失败的地方取得成功。",
+                "locator_comparison": "选项A认为奥运遗产未能“促进人口增长（boost population growth）”。定位段落中列举的奥运承诺包括激励公众运动（get active）和提升体育参与（sports participation），通篇没有提及任何关于刺激生育或吸引移民以促进人口增长（population growth）的字句。A项属于将体育政策荒谬挂钩于人口统计的无中生有项。",
+                "writing_perspective": "作者在讨论国家公共体育政策，绝无可能扯到人口生育政策，A选项纯属概念乱入。",
+                "theme_validation": "全文讨论大众体育运动的参与度，人口增长偏离全篇主旨万里，果断排除。",
+                "verdict": "判定：A项无中生有，话题荒谬不相干，果断排除。"
               }
             },
             {
@@ -1392,14 +1399,14 @@
               "is_correct": false,
               "trap_type": "干扰项（偷换概念 / 偏离主干）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Parkrun is succeeding where London’s Olympic “legacy” is failing.",
-                "source_translation": "帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。",
-                "locator_comparison": "借用了原文的词汇 <code>improve</code>, <code>city</code>, <code>image</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“十年前的周一，宣布第 30 届奥运会将在伦敦举行。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "虽然奥运能提升城市形象，但文中并未指责其破坏或未提升形象，排除",
+                "option_nature": "干扰项（偏离定位/无中生有）",
+                "source_sentence": "The Olympic bidders promised to inspire a generation to get active...",
+                "source_translation": "奥运申办者曾承诺激励一代人积极参与运动……",
+                "locator_comparison": "选项B认为奥运遗产未能“改善城市形象（improve the city’s image）”。举办2012年伦敦奥运会在城市形象提升方面是公认成功的，作者在此批判的是其未能兑现“带动国民体育锻炼”的遗产诺言，文中根本没有出现对伦敦城市形象（city's image）未改善的指责。B项偷换了批评的对象与维度。",
+                "writing_perspective": "作者批判的切入点极其精准：官方在申办时打着“全民健康”的旗号骗取巨额预算，结果办完后全民体育一地鸡毛；城市形象是面子工程，作者要揭露的是里子工程的破产，B选项混淆了面子与里子。",
+                "theme_validation": "文章旨在揭示精英赛事对全民体育的挤出效应，B项流于城市公关，缺乏批判深度。",
+                "verdict": "判定：B项偷换评价指标，脱离段落核心批判焦点，果断排除。"
               }
             },
             {
@@ -1409,14 +1416,14 @@
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Parkrun is succeeding where London’s Olympic “legacy” is failing.",
-                "source_translation": "帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。",
-                "locator_comparison": "选项声称“增加学校的体育运动时间”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“十年前的周一，宣布第 30 届奥运会将在伦敦举行。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "学校体育在后文作为政府削减开支的背景出现，非奥运遗产直接承诺，排除",
+                "option_nature": "干扰项（张冠李戴/细节混淆）",
+                "source_sentence": "...the numbers of people doing sport actually fell... squeezing money from school sports...",
+                "source_translation": "……参与体育运动的人数实际上却下降了……挤压削减学校体育经费……",
+                "locator_comparison": "选项C认为奥运遗产未能“增加学校体育课时（increase sport hours in schools）”。第4段在批评历届英国政府削减公共开支时，提到了削减学校体育设施与运动场地（school sports），但这属于政府财政紧缩的恶果，并不是第2段所定义的伦敦奥运“遗产承诺（Olympic bidders promised）”。C选项将后文政府的劣迹张冠李戴到了奥运遗产承诺的未达标上，时态与因果均错位。",
+                "writing_perspective": "奥运申办承诺面向的是全社会的宏观体育人口（inspire a generation），而非具体的学校课表微观安排，C选项在逻辑层级上严重降维。",
+                "theme_validation": "奥运遗产的宏观破产在于全民运动参与率的整体雪崩，C项拘泥于学校课时细节，偏离全社会参与的论题。",
+                "verdict": "判定：C项张冠李戴，混淆后文政府开支细节与奥运遗产核心指标，果断排除。"
               }
             },
             {
@@ -1426,18 +1433,25 @@
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Parkrun is succeeding where London’s Olympic “legacy” is failing.",
-                "source_translation": "帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。",
-                "locator_comparison": "选项核心词 <code>promote</code>, <code>sport</code>, <code>participation</code>（“促进体育参与”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“十年前的周一，宣布第 30 届奥运会将在伦敦举行。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：D正确。"
+                "practice_status": "对比定位句 boost sports participation 与 but... fell，锁定D",
+                "option_nature": "正确项（原词对应/同义整合）",
+                "source_sentence": "The Olympic bidders promised to inspire a generation to get active and boost sports participation, but the numbers of people doing sport actually fell.",
+                "source_translation": "奥运申办方曾承诺激励一代人积极投身运动并提高体育运动参与度，但实际参与体育运动的人数却下降了。",
+                "locator_comparison": "选项D指出奥运遗产未能“促进体育运动参与（promote sport participation）”。定位句中，“promised to... boost sports participation”明确指出了原本许诺的目标；而转折词 but 引导的事实“the numbers of people doing sport actually fell”则无情宣告了这一目标的彻底破产。promote 完全等价于 boost，sport participation 原词复现。D选项无懈可击地还原了作者对奥运遗产落空的沉痛批判。",
+                "writing_perspective": "作者在此揭露了重大赛事主办方的经典宣传谎言：花几百亿搞奥运宣称能带动国民健康，结果资金被场馆吸干，大众运动率反而滑坡，选D直接击中了文章反思的核心命门。",
+                "theme_validation": "全文贯穿的核心指标就是“大众体育参与（mass participation）”，这也是 Parkrun 成功的对比标杆，D项与全文主旨骨肉相连。",
+                "verdict": "判定：D项原词重合且因果对比完全符合原文，为标准正确答案。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；<b>B</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>improve</code>, <cod...；<b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“增加学校的体育运动时间”，但在原文定位句中，作者表达的态度或...；<b>D</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；"
+          "summary": "本题考查对第2段关于伦敦奥运“遗产（legacy）”失败之处的事实细节比对。定位至第2段：“Parkrun is succeeding where London’s Olympic 'legacy' is failing... The Olympic bidders promised to inspire a generation to get active and boost sports participation, but the numbers of people doing sport actually fell”。伦敦奥申委当年许诺要通过举办奥运会激励整整一代人投身体育、提高全民体育参与度，然而十年来数据表明经常参与体育运动的人数不升反降。D选项 promote sport participation（促进体育运动参与）直接对应原文未能兑现的承诺。干扰项A（促进人口增长）、B（提升城市形象）、C（增加学校体育时长）均非奥运遗产未能实现的指标。",
+          "synonym_pairs": [
+            {
+              "opt_term": "promote sport participation",
+              "text_term": "inspire a generation to get active and boost sports participation / numbers of people doing sport fell",
+              "logic": "promote sport participation 完美对应 boost sports participation；failed to promote 精准概括了“数字反而下降（fell）”的失败结局。"
+            }
+          ]
         },
         {
           "qid": 23,
@@ -1455,14 +1469,14 @@
               "is_correct": false,
               "trap_type": "干扰项（张冠李戴 / 范围偏差）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
+                "practice_status": "发现发现人才恰好是奥运会竞技选拔的特征，Parkrun 反对其，排除",
+                "option_nature": "干扰项（张冠李戴/与对象特征相反）",
                 "source_sentence": "The Olympic bidders, by contrast, wanted to get more people doing sport and to produce more elite athletes.",
-                "source_translation": "相比之下，奥运会申办者希望让更多的人参与体育运动并培养更多的精英运动员。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“这种精神欢迎任何人。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "source_translation": "相比之下，奥运申办方既想让更多人参与体育，又想培养更多的精英运动员。",
+                "locator_comparison": "选项A认为 Parkrun“旨在发现体育人才（aims at discovering talents）”。定位句明确指出，想要选拔和培养拔尖人才（produce elite athletes）的是奥运会体系（The Olympic bidders, by contrast）。而 Parkrun 从一开始就强调人人平等参与，既不排名次也不选拔尖子。选项A把被对比方（奥运会）的精英选拔诉求错套在 Parkrun 身上，张冠李戴。",
+                "writing_perspective": "作者在第3段用 by contrast 制造强烈的哲学对立：选拔少数天才是奥运模式，包容普通平民是 Parkrun 模式；A选项把两者混为一谈，彻底毁坏了作者精心构建的对比结构。",
+                "theme_validation": "Parkrun 能够成功的基石正是卸下了锦标主义与人才选拔的心理包袱，A项完全违背其初心。",
+                "verdict": "判定：A项张冠李戴，将奥运会的人才选拔属性错安在群众长跑上，果断排除。"
               }
             },
             {
@@ -1472,14 +1486,14 @@
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "The Olympic bidders, by contrast, wanted to get more people doing sport and to produce more elite athletes.",
-                "source_translation": "相比之下，奥运会申办者希望让更多的人参与体育运动并培养更多的精英运动员。",
-                "locator_comparison": "选项声称“注重大众竞争”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“这种精神欢迎任何人。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "看到 mass sports，但原文明确强调 not a race，不是竞争，排除",
+                "option_nature": "干扰项（曲解事实/自相矛盾）",
+                "source_sentence": "Parkrun is not a race but a time trial: Your only competitor is the clock.",
+                "source_translation": "公园跑不是比赛，而是一次个人计时测验：你唯一的竞争对手就是时钟。",
+                "locator_comparison": "选项B声称 Parkrun“聚焦于大众竞争（focuses on mass competition）”。第3段首句开宗明义：“Parkrun is not a race（公园跑不是一场比赛）”，并强调人与人之间没有输赢对抗，唯一的对手是时钟。选项B使用 competition（竞争/竞赛），公然颠覆了原文“非竞赛（not a race）”的白纸黑字定义，属于典型的自相矛盾项。",
+                "writing_perspective": "作者极力消除群众对“竞争淘汰”的恐惧心理，突出其友好休闲的本质，B选项强加竞争烙印，与作者刻画的轻松氛围彻底冲突。",
+                "theme_validation": "文章反思的正是传统体育竞赛对大众的劝退效应，B项再次将大众推入竞争焦虑，不合主旨。",
+                "verdict": "判定：B项与“not a race”事实直接冲突，颠倒是非，果断排除。"
               }
             },
             {
@@ -1489,14 +1503,14 @@
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "The Olympic bidders, by contrast, wanted to get more people doing sport and to produce more elite athletes.",
-                "source_translation": "相比之下，奥运会申办者希望让更多的人参与体育运动并培养更多的精英运动员。",
-                "locator_comparison": "选项核心词 <code>does</code>, <code>not</code>, <code>emphasize</code>（“不强调精英主义”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“这种精神欢迎任何人。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：C正确。"
+                "practice_status": "抓住 produce elite athletes 的对立面，锁定C选项 elitism",
+                "option_nature": "正确项（反向对比/同义升华）",
+                "source_sentence": "The ethos welcomes anybody. There is as much applause for the tail-ender as for the first finisher... The Olympic bidders, by contrast, wanted to... produce more elite athletes.",
+                "source_translation": "这种精神欢迎任何人。跑在最后的压阵者与冲过终点的第一名收获的掌声一样多……相比之下，奥运申办方则想……培养更多的精英运动员。",
+                "locator_comparison": "选项C指出 Parkrun 与奥运会的不同在于它“不强调精英主义（does not emphasize elitism）”。原文中，奥运会的价值导向是“produce more elite athletes（生产更多精英运动员）”，属于典型的精英导向；而 Parkrun 则坚持“not a race”、“welcomes anybody”、给垫底者（tail-ender）与第一名同等的掌声。C选项将原文的对比提炼为 does not emphasize elitism，完美抓住了二者最本质的价值观鸿沟。",
+                "writing_perspective": "作者在此深刻洞察到：举国体制或商业大赛迷恋的金牌至上主义（elitism），往往是抑制大众参与的心理障碍；Parkrun 的胜利正是反精英主义的平民胜利，选C完美呈现了这一社会批判视角。",
+                "theme_validation": "全文讨论的核心议题就是“平民草根体育 vs 官僚精英体育”，C项直接触及这一核心二元对立，无比精准。",
+                "verdict": "判定：C项高度凝练对比精髓，反向推导无懈可击，为标准正确答案。"
               }
             },
             {
@@ -1506,18 +1520,25 @@
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "The Olympic bidders, by contrast, wanted to get more people doing sport and to produce more elite athletes.",
-                "source_translation": "相比之下，奥运会申办者希望让更多的人参与体育运动并培养更多的精英运动员。",
-                "locator_comparison": "选项声称“不吸引初次尝试者”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“这种精神欢迎任何人。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "原文说欢迎初跑者，且最后一名和第一名同样受尊重，D项相反，排除",
+                "option_nature": "干扰项（与原文事实相反）",
+                "source_sentence": "The ethos welcomes anybody... as much applause for the tail-ender... encourages first-timers...",
+                "source_translation": "这种精神欢迎任何人……给予最后一名和第一名同等掌声……鼓励初涉跑步者……",
+                "locator_comparison": "选项D认为它“不能吸引初次跑步的人（does not attract first-timers）”。第3段全段都在讴歌其包容宽广的胸怀：“welcomes anybody（欢迎任何人）”、“给末位者与冠军同等掌声”，其核心优势恰恰在于门槛极低，能够极大吸引那些从未跑过步的初学者（first-timers）融入其中。D选项使用否定句 does not attract，与原文陈述的事实彻底相反。",
+                "writing_perspective": "作者赞美 Parkrun 的杀手锏就是其强大的“破冰效应”，若无法吸引新人，5万人的规模便成了无源之水，D项直接拆毁了作者的论证大厦。",
+                "theme_validation": "大众体育成功的唯一硬标准就是能否动员原本不爱运动的新人（get active），D项公然否定这一点，极其荒唐。",
+                "verdict": "判定：D项与原文事实黑白颠倒，果断排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；<b>B</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“注重大众竞争”，但在原文定位句中，作者表达的态度或客观事实恰...；<b>C</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>D</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“不吸引初次尝试者”，但在原文定位句中，作者表达的态度或客观事...；"
+          "summary": "本题考查第3段关于 Parkrun 与奥运会本质区别的对比辨析。定位至第3段前两句及最后两句：“Parkrun is not a race but a time trial: Your only competitor is the clock. The ethos welcomes anybody... The Olympic bidders, by contrast, wanted to get more people doing sport and to produce more elite athletes”。奥运会作为竞技体育的巅峰，追求的是金牌与极少数“精英运动员（elite athletes）”的诞生；而 Parkrun 明确宣称不是比赛，唯一的对手是时钟，欢迎所有人、包括垫底的初跑者。C选项 does not emphasize elitism（不强调精英主义）是对其不追逐精英运动员、全纳包容哲学的深刻提炼。干扰项A（旨在发现人才）是奥运会的特征，B（聚焦大众竞争）与不是比赛相悖，D（不吸引初跑者）与文意截然相反。",
+          "synonym_pairs": [
+            {
+              "opt_term": "does not emphasize elitism",
+              "text_term": "not a race / only competitor is the clock / produce more elite athletes [by contrast]",
+              "logic": "produce more elite athletes（培养更多精英运动员）代表典型的 elitism（精英主义）；Parkrun 通过 not a race 与 by contrast 明确划清界限，表现为 does not emphasize elitism（不强调精英导向）。"
+            }
+          ]
         },
         {
           "qid": 24,
@@ -1535,14 +1556,14 @@
               "is_correct": false,
               "trap_type": "干扰项（张冠李戴 / 范围偏差）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools.",
-                "source_translation": "如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "俱乐部属于社会自治组织，政府应投资公共设施而非俱乐部，排除",
+                "option_nature": "干扰项（偷换主体/范围失当）",
+                "source_sentence": "If there is a role for government, it should really be getting involved in providing common goods...",
+                "source_translation": "如果政府有其角色，它真正应该介入的是提供公共产品……",
+                "locator_comparison": "选项A认为政府应该“增加对体育俱乐部的资助（increase funds for sports clubs）”。作者在末段严格限定了政府的财政边界——“providing common goods（提供公共产品）”，如市政公园、公共草场和安全跑道。体育俱乐部（sports clubs）属于特定人群或商业化的组织，不是面向全社会平民的纯公共产品。A项偷换了财政投放的目标对象。",
+                "writing_perspective": "作者主张政府管好基础设施这一“底盘”，把具体的体育组织交由社会自发完成；若政府把钱撒给俱乐部，容易催生新的寻租与不公，A选项背离作者的小政府、大社会公共管理理念。",
+                "theme_validation": "全文强调全民共享无门槛的公共资源（common goods），A项偏向于体制化俱乐部，脱离全民体育路线。",
+                "verdict": "判定：A项偷换财政支持对象，偏离公共产品属性，果断排除。"
               }
             },
             {
@@ -1552,14 +1573,14 @@
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools.",
-                "source_translation": "如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。",
-                "locator_comparison": "选项核心词 <code>invest</code>, <code>public</code>, <code>sports</code>（“投资公共体育设施”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：B正确。"
+                "practice_status": "比对 providing common goods 和 park facilities，确认B项为公共品投资，选B",
+                "option_nature": "正确项（同义替换/主旨契合）",
+                "source_sentence": "If there is a role for government, it should really be getting involved in providing common goods—maintaining park facilities, ensuring safe routes and keeping playing fields...",
+                "source_translation": "如果政府有一席之地，它真正应该做的是提供公共产品——维护公园设施、确保安全路线并保留运动草场……",
+                "locator_comparison": "选项B指出政府应当“投资公共体育设施（invest in public sports facilities）”。定位句中作者给出明确指南：政府唯一的合理角色是“providing common goods（提供公共产品）”，破折号后紧接着具体列举了三大支柱：maintaining park facilities（维护公园设施）、ensuring safe routes（保障安全跑道）、keeping playing fields（保留运动草场）。这些在现代财政学上统称为公共体育设施。B选项 invest in public sports facilities 精确概括了这一政府职能，完全吻合。",
+                "writing_perspective": "作者在末段展开精妙的政治经济学反思：政府不要试图越俎代庖去替老百姓规划怎么跑步，而应该做好铺路搭桥、维护公园与球场的本职工作，选B准确提炼了作者对公权力边界的厘定。",
+                "theme_validation": "全文批判英国政府变卖绿地、克扣市政拨款，呼唤的就是政府对公共体育基础设施的真正投入，B项直击痛点。",
+                "verdict": "判定：B项同义归纳精准，高度契合作者对政府角色的界定，为标准正确答案。"
               }
             },
             {
@@ -1569,14 +1590,14 @@
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools.",
-                "source_translation": "如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。",
-                "locator_comparison": "选项声称“举办“草根”体育赛事”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "首句刚说政府插手草根赛事很荒唐，C项完全与作者观点相反，排除",
+                "option_nature": "干扰项（反向考查/与原文态度相反）",
+                "source_sentence": "Indeed, there is something a little absurd in the state getting involved in the planning of such a fundamentally “grassroots” event.",
+                "source_translation": "事实上，国家介入规划这种本质上属于“草根”的活动，多少有点荒唐可笑。",
+                "locator_comparison": "选项C认为政府应该“组织草根体育赛事（organize “grassroots” sports events）”。末段首句白纸黑字写道：“there is something a little absurd in the state getting involved in the planning of such a fundamentally 'grassroots' event（国家介入规划这种本质上是草根的活动，显得相当荒谬）”。作者旗帜鲜明地反对政府插手操办草根活动，选项C却建议政府去组织草根赛事，公然把作者痛批的“absurd（荒唐）”之举作为政策建议，属于严重颠倒是非的反向干扰项。",
+                "writing_perspective": "草根活动的核心魅力在于自发性与民间自治，官方一介入就会官僚化、僵硬化，作者使用 absurd 就是为了划清这条红线，C选项彻底践踏了作者的底线。",
+                "theme_validation": "文章的核心就是反对官僚主义对民间体育的指手画脚，C项背叛了全篇的主导思想。",
+                "verdict": "判定：C项公然把作者明确斥为“荒谬”的做法当成建议，果断排除。"
               }
             },
             {
@@ -1586,18 +1607,25 @@
               "is_correct": false,
               "trap_type": "干扰项（张冠李戴 / 范围偏差）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "If there is a role for government, it should really be getting involved in providing common goods— making sure there is space for playing fields and the money to pave tennis and netball courts, and encouraging the provision of all these activities in schools.",
-                "source_translation": "如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "文中没有监督地方体育协会的表述，排除",
+                "option_nature": "干扰项（无中生有/强加行政干预）",
+                "source_sentence": "If there is a role for government, it should really be getting involved in providing common goods...",
+                "source_translation": "如果政府有其角色，它真正应该做的是提供公共产品……",
+                "locator_comparison": "选项D声称政府应该“监督地方体育协会（supervise local sports associations）”。作者在文中自始至终强调的是提供硬件公共产品（facilities, fields），坚决排斥行政力量对民间体育自治组织的横加干预与指手画脚。文中从未提及监督协会（supervise associations）这一设想。D项纯属编造行政监管职能的干扰项。",
+                "writing_perspective": "作者推崇民间自组织的高效与活力，引入监督只会扼杀民间生机，D选项在政治哲学上与作者崇尚的自由参与理念背道而驰。",
+                "theme_validation": "文章反思的是行政过度干涉与硬件投入不足的错位，D项继续开出过度干涉的错误药方，完全脱靶。",
+                "verdict": "判定：D项凭空捏造监管职能，违背去行政化主旨，果断排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；<b>B</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“举办“草根”体育赛事”，但在原文定位句中，作者表达的态度或客...；<b>D</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；"
+          "summary": "本题考查对末段作者关于政府职能定位的建议与判断。定位至第4段第2-3句：“If there is a role for government, it should really be getting involved in providing common goods—maintaining park facilities, ensuring safe routes and keeping playing fields...”。作者明确指出，如果政府非要在群众体育中扮演角色，其真正的职责应当是“提供公共产品（providing common goods）”，即维护公园设施（maintaining park facilities）、保障道路安全、保留运动场地。B选项 invest in public sports facilities（投资公共体育设施）是对 providing common goods 和 maintaining park facilities 的高度同义概括。干扰项A（资助俱乐部）、C（组织草根赛事——作者明言政府干涉草根活动很荒谬）、D（监督地方体育协会）均非政府应当发力的公共产品领域。",
+          "synonym_pairs": [
+            {
+              "opt_term": "invest in public sports facilities",
+              "text_term": "providing common goods—maintaining park facilities, keeping playing fields",
+              "logic": "providing common goods 对应投资公共领域（invest in public goods）；maintaining park facilities and keeping playing fields 完美对应公共体育设施（public sports facilities）。"
+            }
+          ]
         },
         {
           "qid": 25,
@@ -1615,14 +1643,14 @@
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "But successive governments have presided over selling green spaces, squeezing money from local authorities and declining attention on sport in education.",
-                "source_translation": "但历届政府都在主导出售绿地、挤压地方当局的资金以及减少教育中对体育的关注。",
-                "locator_comparison": "选项核心词 <code>critical</code>（“批判的”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：A正确。"
+                "practice_status": "根据文末 selling green spaces, squeezing money 等严厉控诉，秒定A",
+                "option_nature": "正确项（态度提炼/情感色彩）",
+                "source_sentence": "But successive governments have presided over selling green spaces, squeezing money from local authorities... The result is that Britain is becoming a nation of armchair sports fans...",
+                "source_translation": "但历届政府却主导变卖绿色空间，克扣地方政府的资金……其结果是英国正在变成一个只在扶手椅上看电视的体育迷国家……",
+                "locator_comparison": "选项A指出作者的态度是“批评的、批判的（critical）”。在第4段中，作者历数历届政府的恶劣政策：变卖民众赖以运动的公共绿地（selling green spaces）、削减克扣地方开支（squeezing money），导致英国沦为坐在沙发上看电视的肥胖病夫之国（armchair sports fans）。措辞如 absurd、squeezing 充溢着强烈的愤慨与斥责，属于毫不妥协的批判态度。A选项定性精准。",
+                "writing_perspective": "作者在篇末完成论述的情感爆发，将全篇从对 Parkrun 的赞美上升为对英国现行体制失职的政治问责，critical 完美涵盖了这一强烈的知识分子公共关怀与批判姿态。",
+                "theme_validation": "全文对民间体育充满赞美，对官方作为极尽讽刺与批判，A项完全符合文章非黑即白的情感光谱。",
+                "verdict": "判定：A项精准概括作者的严厉谴责与批判语调，为标准正确答案。"
               }
             },
             {
@@ -1632,14 +1660,14 @@
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "But successive governments have presided over selling green spaces, squeezing money from local authorities and declining attention on sport in education.",
-                "source_translation": "但历届政府都在主导出售绿地、挤压地方当局的资金以及减少教育中对体育的关注。",
-                "locator_comparison": "选项声称“宽容”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "作者在激烈指责政府卖地省钱，毫无宽容体谅之意，排除",
+                "option_nature": "干扰项（感情色彩颠倒）",
+                "source_sentence": "But successive governments have presided over selling green spaces, squeezing money...",
+                "source_translation": "但历届政府却主导变卖绿色空间，克扣资金……",
+                "locator_comparison": "选项B认为作者的态度是“宽容的、容忍的（tolerant）”。宽容意味着体谅政府的财政难处或为政府的过失开脱。然而作者在文中用“absurd”、“squeezing”等词汇进行无情揭露，对政府变卖公共资产的行为展现出零容忍的愤怒。选项B与文本所流露出的激烈批判情绪彻底相反。",
+                "writing_perspective": "英国媒体以针砭时弊见长，作者在此展现的是犀利的新闻监督本色，绝无和稀泥或容忍行政无能的温和妥协，B选项误读了英国政论风格。",
+                "theme_validation": "文章要警醒社会关注公共资源流失，包容态度将使批判沦为隔靴搔痒，B项与主旨对立。",
+                "verdict": "判定：B项感情色彩与作者强烈的批判立场完全相反，果断排除。"
               }
             },
             {
@@ -1649,14 +1677,14 @@
               "is_correct": false,
               "trap_type": "干扰项（偷换概念 / 偏离主干）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "But successive governments have presided over selling green spaces, squeezing money from local authorities and declining attention on sport in education.",
-                "source_translation": "但历届政府都在主导出售绿地、挤压地方当局的资金以及减少教育中对体育的关注。",
-                "locator_comparison": "借用了原文的词汇 <code>uncertain</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "作者立场极其鲜明坚定，毫无犹豫不决，排除",
+                "option_nature": "干扰项（态度明确性曲解）",
+                "source_sentence": "If there is a role for government, it should really be... But successive governments have presided over...",
+                "source_translation": "如果政府有其角色，它真正应该做的是……但历届政府却主导……",
+                "locator_comparison": "选项C认为作者的态度是“不确定的（uncertain）”。考研阅读中，议论文作者的态度通常立场明确。作者在此清晰界定了政府“应该做什么（invest in common goods）”与“实际做错了什么（selling spaces, squeezing money）”，条分缕析，黑白分明，没有任何犹疑不决或含糊其辞。C项判定作者态度模糊，完全不符事实。",
+                "writing_perspective": "作者观点鲜明，逻辑如刀刃般锋利，不存在任何模棱两可，C选项是考场常见的低劣凑数干扰项。",
+                "theme_validation": "文章是一篇旗帜鲜明的立论与批驳文章，C项的态度虚无主义不成立。",
+                "verdict": "判定：C项与作者坚定清晰的批判论调相悖，果断排除。"
               }
             },
             {
@@ -1666,18 +1694,25 @@
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "But successive governments have presided over selling green spaces, squeezing money from local authorities and declining attention on sport in education.",
-                "source_translation": "但历届政府都在主导出售绿地、挤压地方当局的资金以及减少教育中对体育的关注。",
-                "locator_comparison": "选项声称“富有同情心的”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“如果政府能发挥作用，它确实应该参与提供公共物品——确保有运动场的空间和铺设网球场和无挡板篮球场的资金，并鼓励在学校提供所有这些活动。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "作者在谴责政府，而非同情政府处境，排除",
+                "option_nature": "干扰项（主体移位/情感倒置）",
+                "source_sentence": "...presided over selling green spaces, squeezing money from local authorities...",
+                "source_translation": "……主导变卖绿色空间，克扣地方政府资金……",
+                "locator_comparison": "选项D认为作者的态度是“同情的（sympathetic）”。作者同情的是被剥夺运动空间的普通大众和跑在最后的跑步者（tail-ender），对于造成这种公共悲剧的操盘手——历届政府（successive governments），作者只有义愤填膺的谴责，绝无丝毫的“同情（sympathetic）”。选项D把作者对弱势群体的同情，张冠李戴到了被批判的政府权力机构头上。",
+                "writing_perspective": "公权力机构掌握预算与决策权，属于责任承担者，若对政府表达同情，整篇文章的政治问责逻辑将轰然瓦解，D选项彻底站错了情感阵营。",
+                "theme_validation": "批判官僚体制失职是文章的高潮，D项与该高潮的价值指向完全错位。",
+                "verdict": "判定：D项情感主体张冠李戴，颠倒问责与同情，果断排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>B</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“宽容”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，...；<b>C</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>uncertain</code>，但将其...；<b>D</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“富有同情心的”，但在原文定位句中，作者表达的态度或客观事实恰...；"
+          "summary": "本题考查对作者整体态度倾向的准确判断（态度题）。定位至第4段末尾几句：“But successive governments have presided over selling green spaces, squeezing money from local authorities... The result is that Britain is becoming a nation of armchair sports fans...”。作者使用了一连串带有强烈谴责色彩的负面词汇：absurd（荒谬）、presided over selling green spaces（主导变卖绿地操场）、squeezing money（克扣榨取地方经费）。这一系列措辞清晰地表明，作者对历届英国政府在体育领域的所作所为持严厉的“批评（critical）”态度。A选项 critical 准确捕捉到了这一锋芒毕露的批判基调。B（宽容）、C（不确定）、D（同情）均无法反映文章浓烈的抨击情绪。",
+          "synonym_pairs": [
+            {
+              "opt_term": "critical",
+              "text_term": "absurd / presided over selling green spaces / squeezing money",
+              "logic": "作者用 absurd（荒谬）、selling green spaces（卖掉绿地）、squeezing money（克扣资金）等负面强评价词，淋漓尽致地展现了对政府作为的批判（critical）态度。"
+            }
+          ]
         }
       ],
       "macro_logic": {
@@ -2725,14 +2760,14 @@
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "“Tech is designed to really suck you in,” says Jenny Radesky in her study of digital play, “and digital products are there to promote maximal engagement.",
-                "source_translation": "珍妮·拉德斯基（Jenny Radesky）在数字游戏研究中表示：“科技的设计就是为了真正吸引你，而数字产品就是为了促进最大程度的参与。",
-                "locator_comparison": "选项核心词 <code>absorb</code>, <code>user</code>, <code>attention</code>（“吸引用户注意力”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“珍妮·拉德斯基（Jenny Radesky）在数字游戏研究中表示：“科技的设计就是为了真正吸引你，而数字产品就是为了促进最大程度的参与。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：A正确。"
+                "practice_status": "精准定位第1段 suck you in 和 absorb your attention，秒选A",
+                "option_nature": "正确项（原词复现/核心设计意图）",
+                "source_sentence": "“Tech is designed to really suck you in,” says Jenny Radesky in her study of digital play, “and digital products are designed to absorb your attention.”",
+                "source_translation": "珍妮·拉德斯基在对数字游戏的研究中表示：“科技的设计初衷就是要把你真正吸进去，而数字产品的设计目的就是为了吸走你的注意力。”",
+                "locator_comparison": "选项A指出数字产品被设计用于“吸纳用户注意力（absorb user attention）”。定位句中 Radesky 的原话极为明确直白：“digital products are designed to absorb your attention”。选项A仅将 your attention 泛化为更通用的 user attention，核心谓语动词 absorb 原原本本保留，逻辑与原文完全一致，属于最毫无争议的细节事实题。",
+                "writing_perspective": "作者在开篇引用发展行为学专家的权威洞察，目的就是破除人们对科技工具价值中立的幻想，一针见血地指出算法的本质是商业化的注意力争夺战，选A完美抓住了全篇反思的基石。",
+                "theme_validation": "全文讨论的 parent distraction（父母在屏幕前走神）正是科技成功夺取注意力的直接受害者，A项牢牢扣住科技属性本质。",
+                "verdict": "判定：A项原词重现，准确揭示数字产品设计逻辑，为标准正确答案。"
               }
             },
             {
@@ -2742,14 +2777,14 @@
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "“Tech is designed to really suck you in,” says Jenny Radesky in her study of digital play, “and digital products are there to promote maximal engagement.",
-                "source_translation": "珍妮·拉德斯基（Jenny Radesky）在数字游戏研究中表示：“科技的设计就是为了真正吸引你，而数字产品就是为了促进最大程度的参与。",
-                "locator_comparison": "选项声称“提高工作效率”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“珍妮·拉德斯基（Jenny Radesky）在数字游戏研究中表示：“科技的设计就是为了真正吸引你，而数字产品就是为了促进最大程度的参与。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "工作效率是办公软件的卖点，但文中讨论的是让人沉迷的数字娱乐，排除",
+                "option_nature": "干扰项（常识干扰/脱离文本）",
+                "source_sentence": "“Tech is designed to really suck you in... and digital products are designed to absorb your attention.”",
+                "source_translation": "“科技的设计初衷就是要把你真正吸进去……而数字产品的设计目的就是吸走你的注意力。”",
+                "locator_comparison": "选项B声称数字产品旨在“提高工作效率（increase work efficiency）”。虽然很多软件打着提升效率的旗号，但在 Radesky 的儿童与家庭研究语境中，她强调的是智能手机和社交媒体如何用成瘾机制“吸走时间与精力（suck you in）”，造成家庭成员注意力的涣散。B项以盲目的工具理性常识替代了文章对科技负面侵蚀的批判。",
+                "writing_perspective": "文章探讨的是餐桌上玩手机、育儿时看屏幕的生活场景，根本不是办公室生产力工具测评，B选项完全走错了片场。",
+                "theme_validation": "全文在反思屏幕对真实情感交流的剥夺，B项倡导的效率论调与全篇人文批判毫不沾边。",
+                "verdict": "判定：B项脱离家庭育儿语境，主观套用职场常识，果断排除。"
               }
             },
             {
@@ -2759,14 +2794,14 @@
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "“Tech is designed to really suck you in,” says Jenny Radesky in her study of digital play, “and digital products are there to promote maximal engagement.",
-                "source_translation": "珍妮·拉德斯基（Jenny Radesky）在数字游戏研究中表示：“科技的设计就是为了真正吸引你，而数字产品就是为了促进最大程度的参与。",
-                "locator_comparison": "选项声称“简化日常事务”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“珍妮·拉德斯基（Jenny Radesky）在数字游戏研究中表示：“科技的设计就是为了真正吸引你，而数字产品就是为了促进最大程度的参与。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "简化日常事务并非文中所指的沉溺性设计目标，排除",
+                "option_nature": "干扰项（无中生有/概念偏差）",
+                "source_sentence": "“Tech is designed to really suck you in... absorb your attention.”",
+                "source_translation": "“科技的设计初衷就是要把你真正吸进去……吸走你的注意力。”",
+                "locator_comparison": "选项C认为其旨在“简化日常事务（simplify routine matters）”。原文从头到尾都在强调数字产品让人沉迷、让人难以自拔的黏性（stickiness），未曾提到它们在家庭生活中帮父母简化了哪些具体的琐碎家务或事务（routine matters）。C项属于脱离原文议题的无中生有项。",
+                "writing_perspective": "作者引述 Radesky 是为了建立危机感：技术不是便利的仆人，而是霸占注意力的主人；C选项将其描绘为贴心的家务助手，彻底抹杀了技术异化的警示意义。",
+                "theme_validation": "文章反思屏幕如何让日常变得心不在焉，C项强调简化事务，与段落反思背道而驰。",
+                "verdict": "判定：C项无中生有，弱化了技术成瘾设计的严重性，果断排除。"
               }
             },
             {
@@ -2776,18 +2811,25 @@
               "is_correct": false,
               "trap_type": "干扰项（无中生有 / 过度推断）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "“Tech is designed to really suck you in,” says Jenny Radesky in her study of digital play, “and digital products are there to promote maximal engagement.",
-                "source_translation": "珍妮·拉德斯基（Jenny Radesky）在数字游戏研究中表示：“科技的设计就是为了真正吸引你，而数字产品就是为了促进最大程度的参与。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“珍妮·拉德斯基（Jenny Radesky）在数字游戏研究中表示：“科技的设计就是为了真正吸引你，而数字产品就是为了促进最大程度的参与。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "数字产品反而破坏了亲子关系，绝非改善人际关系，排除",
+                "option_nature": "干扰项（反向考查/与事实相反）",
+                "source_sentence": "...easy for parents to forget about their own screen use... suck you in...",
+                "source_translation": "……父母很容易忘记自己对屏幕的使用……把你吸进去……",
+                "locator_comparison": "选项D声称其旨在“改善人际关系（better interpersonal relations）”。后文全篇都在论述父母沉迷屏幕导致亲子互动骤降、父母面无表情引发婴儿焦虑，数字产品分明成了人际关系的破坏者和隔离墙。把旨在榨取注意力的商业产品说成是为了“改善人际关系”，属于彻底颠倒黑白的反向干扰项。",
+                "writing_perspective": "作者通过引入科学实验，旨在控诉屏幕霸占了本属于亲子交流的温情时刻，D选项的赞美之词与文章批判现实完全脱节。",
+                "theme_validation": "屏幕侵蚀现实人际连接是本文立论的前提，D项不仅背离原文，更违背常识。",
+                "verdict": "判定：D项颠倒是非，与后文展示的亲子交流隔阂完全相反，果断排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>B</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“提高工作效率”，但在原文定位句中，作者表达的态度或客观事实恰...；<b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“简化日常事务”，但在原文定位句中，作者表达的态度或客观事实恰...；<b>D</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；"
+          "summary": "本题考查对第1段关于数字产品设计初衷的细节理解。定位至第1段第2句：“'Tech is designed to really suck you in,' says Jenny Radesky in her study of digital play, 'and digital products are designed to absorb your attention'”。句中的 suck you in（让你彻底深陷其中、吸走你）与 absorb your attention（吸走你的注意力）生动揭示了现代软件和硬件在算法与交互设计上的底层本质——无孔不入地掠夺用户的注意力。A选项 absorb user attention（吸引/吸纳用户注意力）是原文 absorb your attention 的原词再现。干扰项B（提高工作效率）、C（简化日常事务）、D（改善人际关系）均属于传统科技神话，与 Radesky 所警示的成瘾性设计完全相冲。",
+          "synonym_pairs": [
+            {
+              "opt_term": "absorb user attention",
+              "text_term": "designed to really suck you in / absorb your attention",
+              "logic": "absorb user attention 与原文 absorb your attention 构成绝对高保真重现，suck you in 提供了生动形象的佐证。"
+            }
+          ]
         },
         {
           "qid": 27,
@@ -2805,14 +2847,14 @@
               "is_correct": false,
               "trap_type": "干扰项（偷换概念 / 偏离主干）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions with their children.",
-                "source_translation": "她发现，在锻炼期间使用设备的母亲与孩子的言语互动减少了 20%，非言语互动减少了 39%。",
-                "locator_comparison": "借用了原文的词汇 <code>babies</code>, <code>appetite</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“她发现，在锻炼期间使用设备的母亲与孩子的言语互动减少了 20%，非言语互动减少了 39%。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "实验虽然涉及进食，但测量的是互动而非婴儿食欲，排除",
+                "option_nature": "干扰项（无中生有/字面混淆）",
+                "source_sentence": "...by giving mother-child pairs a food-testing exercise... mothers who used devices... started fewer interactions...",
+                "source_translation": "……通过给母子/母女提供一项食物品尝测试……使用设备的母亲发起的互动更少……",
+                "locator_comparison": "选项A声称母亲使用设备“剥夺了婴儿的食欲（takes away babies’ appetite）”。实验之所以选择食物测试（food-testing exercise），只是为了创设一个典型的日常亲子互动场景，科研人员真正记录并统计的指标是母亲与婴儿的“沟通互动频次（interactions）”，通篇并未测量或报告婴儿的进食量或食欲（appetite）是否下降。A项利用“food”这一背景词胡乱编造食欲受损，完全脱靶。",
+                "writing_perspective": "发育心理学实验通常利用日常场景做掩护来观察人际关系，若归结为食欲问题，就将心理学实验降格成了儿科消化科体检，A选项完全会错了意。",
+                "theme_validation": "文章讨论的是情感滋养而非生理喂养，食欲并非本文关注的范畴，A项偏离核心。",
+                "verdict": "判定：A项望文生义，将实验背景道具偷换为研究结论，果断排除。"
               }
             },
             {
@@ -2822,14 +2864,14 @@
               "is_correct": false,
               "trap_type": "干扰项（偷换概念 / 偏离主干）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions with their children.",
-                "source_translation": "她发现，在锻炼期间使用设备的母亲与孩子的言语互动减少了 20%，非言语互动减少了 39%。",
-                "locator_comparison": "借用了原文的词汇 <code>distracts</code>, <code>children</code>, <code>attention</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“她发现，在锻炼期间使用设备的母亲与孩子的言语互动减少了 20%，非言语互动减少了 39%。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "实验记录的是母亲走神导致互动减少，非分散孩子的注意力，排除",
+                "option_nature": "干扰项（主体倒置/偷换概念）",
+                "source_sentence": "She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions...",
+                "source_translation": "她发现，在测试中使用设备的母亲发起的言语互动减少了 20%，非言语互动减少了 39%……",
+                "locator_comparison": "选项B认为其“分散了孩子的注意力（distracts children’s attention）”。实验数据明确说明，被手机分散注意力的是“母亲（mothers who used devices）”，结果是母亲变冷漠、对孩子缺乏反应（fewer interactions）。至于孩子本身的注意力是否被分散，实验数据根本没有测量。选项B将母亲被设备分心，倒置为孩子被分心，主被动主体完全颠倒。",
+                "writing_perspective": "第1段首句就立论：“父母容易忽略自己的屏幕使用”，第2段就是该论点的实验支撑，证明是父母走神伤害了孩子，B选项破坏了对“父母不专心”的批判链条。",
+                "theme_validation": "全段的核心靶子在于抨击父母看手机造成的隐形忽视，B项转嫁焦点，违背论点。",
+                "verdict": "判定：B项颠倒主体，将父母的分心误套在孩子身上，果断排除。"
               }
             },
             {
@@ -2839,14 +2881,14 @@
               "is_correct": false,
               "trap_type": "干扰项（张冠李戴 / 范围偏差）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions with their children.",
-                "source_translation": "她发现，在锻炼期间使用设备的母亲与孩子的言语互动减少了 20%，非言语互动减少了 39%。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“她发现，在锻炼期间使用设备的母亲与孩子的言语互动减少了 20%，非言语互动减少了 39%。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "语言发育可能是长期潜在危害，但实验单次测出的是即时交流减少，排除",
+                "option_nature": "干扰项（过度推断/长短期混淆）",
+                "source_sentence": "...started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions with their children...",
+                "source_translation": "……与孩子发起的言语互动减少了 20%，非言语互动减少了 39%……",
+                "locator_comparison": "选项C认为其“减缓了婴儿的语言发展（slows down babies’ verbal development）”。实验直接得出的硬数据是母亲发起的“言语和非言语互动次数变少（fewer interactions）”。长期缺乏互动或许在理论上可能影响语言发育，但单次测试本身并没有也不可能追踪测量出婴儿整体“语言发育被减缓（slows down development）”的长期病理结果。C项把当下的互动减少过度推断为长期的生理发育迟缓，超出了实验事实边界。",
+                "writing_perspective": "严谨的学术报道不会把短期的行为频次统计直接等同于长期的发育结论，作者在第2段只如实报告行为数据，C选项属于不严谨的科学冒进。",
+                "theme_validation": "文章讨论的是交流被屏幕截断的现实痛点，C项在时间跨度上过度发散，不如D项客观。",
+                "verdict": "判定：C项过度外推，将即时行为数据夸大为长远发育障碍，果断排除。"
               }
             },
             {
@@ -2856,18 +2898,25 @@
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
+                "practice_status": "对比 20% fewer verbal and 39% fewer nonverbal，归纳为交流减少，选D",
+                "option_nature": "正确项（同义概括/数据提炼）",
                 "source_sentence": "She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions with their children.",
-                "source_translation": "她发现，在锻炼期间使用设备的母亲与孩子的言语互动减少了 20%，非言语互动减少了 39%。",
-                "locator_comparison": "选项核心词 <code>reduces</code>, <code>mother</code>, <code>child</code>（“减少母子沟通”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“她发现，在锻炼期间使用设备的母亲与孩子的言语互动减少了 20%，非言语互动减少了 39%。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：D正确。"
+                "source_translation": "她发现，在测试中使用设备的母亲对孩子发起的言语互动减少了 20%，非言语互动减少了 39%。",
+                "locator_comparison": "选项D指出母亲使用设备“减少了母子之间的交流（reduces mother-child communication）”。定位句列举的核心发现是：母亲发起的 verbal（言语的）互动减少20%，nonverbal（肢体/表情等非言语的）互动减少39%。语言与肢体互动的结合体正是 communication（沟通与交流）；fewer 完美对应动词 reduces。D选项对两组实验核心数据进行了天衣无缝的高阶概括，完全忠实于原文。",
+                "writing_perspective": "作者用极其客观的量化百分比（20% 和 39%），铁证如山地证实了技术屏幕对母婴情感沟通的实质性阻断，选D最准确地传递了实验的核心价值。",
+                "theme_validation": "全篇反思的核心正是“屏幕造成了家庭现实交流的荒漠化”，D项与这一核心论点同频共振。",
+                "verdict": "判定：D项对实验数据的归纳严谨全面，为标准正确答案。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>babies</code>, <code...；<b>B</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>distracts</code>, <c...；<b>C</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；<b>D</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；"
+          "summary": "本题考查第2段餐桌进食实验（food-testing exercise）的核心实验结论。定位至第2段：“She found that mothers who used devices during the exercise started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions with their children...”。数据极为明确：在进食实验中，使用手机等设备的母亲对孩子发起的言语互动减少了20%，非言语互动（如眼神、微笑、手势）更是断崖式减少了39%。D选项 reduces mother-child communication（减少了母子/母婴之间的交流与沟通）是对语言与非语言互动双重暴跌的完美同义概括。干扰项A（剥夺婴儿食欲）、B（分散孩子注意力）、C（减慢婴儿语言发育）均偷换了实验直接记录的行为主体或属于超前因果推断。",
+          "synonym_pairs": [
+            {
+              "opt_term": "reduces mother-child communication",
+              "text_term": "started 20 per cent fewer verbal and 39 per cent fewer nonverbal interactions",
+              "logic": "verbal and nonverbal interactions（言语与非言语互动）的统领词正是 communication（交流沟通）；20% and 39% fewer 明确对应动词 reduces（减少）。"
+            }
+          ]
         },
         {
           "qid": 28,
@@ -2885,14 +2934,14 @@
               "is_correct": false,
               "trap_type": "干扰项（张冠李戴 / 范围偏差）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "“Parents don’t have to be exquisitely present at all times, but there needs to be a balance and parents need to be responsive and sensitive to a child’s verbal or nonverbal expressions of an emotional need,” says Radesky.",
-                "source_translation": "拉德斯基说：“父母不必始终在场，但需要保持平衡，父母需要对孩子表达情感需求的语言或非语言表达做出反应并保持敏感。”",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“Radesky 引用了发展心理学家 Ed Tronick 在 20 世纪 70 年代设计的“静止面孔实验”。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "原文说面无表情引起婴儿严重痛苦，而非容易适应，排除",
+                "option_nature": "干扰项（与原文事实相反/反向考查）",
+                "source_sentence": "...and if those faces are blank and unresponsive... it causes acute distress in the infants.",
+                "source_translation": "……而如果那些面孔毫无表情、没有反应……这会引起婴儿严重的痛苦和焦虑。",
+                "locator_comparison": "选项A认为实验表明“孩子们很容易习惯父母面无表情（it is easy for children to get used to blank expressions）”。定位句明确指出，当父母面无表情、毫无响应时，引发的是婴儿的“acute distress（极度痛苦与焦虑不安）”。婴儿本能地无法忍受这种情感荒漠，根本不可能“容易适应（easy to get used to）”。A选项与实验观察到的真实反应截然相反，属于典型的胡编乱造。",
+                "writing_perspective": "该实验之所以举世闻名，就是证明了情感断联对婴儿心灵的巨大创伤，若能“轻易习惯”，实验就失去了震撼人心的伦理警示力，A选项严重违背心理学常识。",
+                "theme_validation": "文章借此警示父母看手机导致的冷漠脸对孩子的隐形摧残，A项淡化甚至合理化这种摧残，完全颠覆论旨。",
+                "verdict": "判定：A项黑白颠倒，公然违背实验发现的严重负面反应，果断排除。"
               }
             },
             {
@@ -2902,14 +2951,14 @@
               "is_correct": false,
               "trap_type": "干扰项（偷换概念 / 偏离主干）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "“Parents don’t have to be exquisitely present at all times, but there needs to be a balance and parents need to be responsive and sensitive to a child’s verbal or nonverbal expressions of an emotional need,” says Radesky.",
-                "source_translation": "拉德斯基说：“父母不必始终在场，但需要保持平衡，父母需要对孩子表达情感需求的语言或非语言表达做出反应并保持敏感。”",
-                "locator_comparison": "借用了原文的词汇 <code>verbal</code>, <code>expressions</code>, <code>are</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“Radesky 引用了发展心理学家 Ed Tronick 在 20 世纪 70 年代设计的“静止面孔实验”。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "实验强调眼神和表情等情感呼应，但并未否定言语交流的重要性，排除",
+                "option_nature": "干扰项（极端表达/无中生有）",
+                "source_sentence": "Infants are wired to look at parents’ faces to try to understand their world...",
+                "source_translation": "婴儿天生就会注视父母的面孔，试图去理解周围的世界……",
+                "locator_comparison": "选项B声称“言语表达对于情感交流是不必要的（verbal expressions are unnecessary for emotional exchange）”。实验确实强调了面部表情、眼神注视（nonverbal）对婴儿至关重要，但这绝不意味着言语交流就是“不必要的（unnecessary）”。前一段刚强调使用设备的母亲减少了20%的言语互动，言语与非言语皆不可或缺。B项使用 unnecessary 走极端，属于武断捏造。",
+                "writing_perspective": "作者倡导的是多维度的全身心陪伴，既包括言语也包括眼神，绝无厚此薄彼否定言语价值的极端偏执，B选项逻辑极端化。",
+                "theme_validation": "健康的育儿交流需要全方位的语言与情感互动，B项违背儿童语言习得与情感交流常识。",
+                "verdict": "判定：B项断章取义且用词极端，果断排除。"
               }
             },
             {
@@ -2919,14 +2968,14 @@
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "“Parents don’t have to be exquisitely present at all times, but there needs to be a balance and parents need to be responsive and sensitive to a child’s verbal or nonverbal expressions of an emotional need,” says Radesky.",
-                "source_translation": "拉德斯基说：“父母不必始终在场，但需要保持平衡，父母需要对孩子表达情感需求的语言或非语言表达做出反应并保持敏感。”",
-                "locator_comparison": "选项核心词 <code>parents</code>, <code>need</code>, <code>respond</code>（“父母需要回应孩子的情感需求”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“Radesky 引用了发展心理学家 Ed Tronick 在 20 世纪 70 年代设计的“静止面孔实验”。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：C正确。"
+                "practice_status": "对比定位句末尾的 parents need to be responsive to their emotional needs，锁定C",
+                "option_nature": "正确项（同义替换/结论提炼）",
+                "source_sentence": "“Parents don’t have to be exquisitely present at all times, but there needs to be a balance and parents need to be responsive to their children's emotional needs,” Radesky said.",
+                "source_translation": "拉德斯基表示：“父母不必时时刻刻都表现得完美无缺，但必须保持平衡，父母需要对孩子的情感需求做出积极响应。”",
+                "locator_comparison": "选项C指出引用该实验是为了表明“父母需要回应孩子的情感需求（parents need to respond to children’s emotional needs）”。第3段通过详述婴儿面对木讷空洞面孔时的痛苦，最终在段尾由 Radesky 得出引申结论：“parents need to be responsive to their children's emotional needs”。C选项将 be responsive to 改写为 respond to，句式结构与精神内涵百分之百重合，完美呼应了作者引用科学例证服务于现实建议的逻辑意图。",
+                "writing_perspective": "作者通过“现象描述（婴儿痛苦） -> 机制剖析（本能需要解读世界） -> 行动倡议（必须响应情感需求）”的完整三段论展开论证，选C正是落脚在行动倡议这一最高结论上。",
+                "theme_validation": "全文强调亲子互动的核心是情感共鸣而非物理共处，C项精准切中全篇关于情感回应性的讨论。",
+                "verdict": "判定：C项与原文权威结论完全同义吻合，为标准正确答案。"
               }
             },
             {
@@ -2936,18 +2985,25 @@
               "is_correct": false,
               "trap_type": "干扰项（无中生有 / 过度推断）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "“Parents don’t have to be exquisitely present at all times, but there needs to be a balance and parents need to be responsive and sensitive to a child’s verbal or nonverbal expressions of an emotional need,” says Radesky.",
-                "source_translation": "拉德斯基说：“父母不必始终在场，但需要保持平衡，父母需要对孩子表达情感需求的语言或非语言表达做出反应并保持敏感。”",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“Radesky 引用了发展心理学家 Ed Tronick 在 20 世纪 70 年代设计的“静止面孔实验”。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "实验明确表明婴儿极度敏感、马上痛苦大哭，D项相反，排除",
+                "option_nature": "干扰项（与原文事实相反/反向考查）",
+                "source_sentence": "Infants are wired to look at parents’ faces... it causes acute distress in the infants.",
+                "source_translation": "婴儿天生就会注视父母的面孔……这会在婴儿中引起极度痛苦。",
+                "locator_comparison": "选项D认为实验显示“孩子们对父母的情绪变化不敏感（children are insensitive to changes in their parents’ mood）”。实验恰恰证明婴儿对父母面部微表情的变化具有超乎想象的敏锐度（wired to look at faces），一旦父母面部僵硬无反应，婴儿立即陷入痛苦挣扎（acute distress）。选项D使用 insensitive（不敏感的），与实验揭示的婴儿超级敏感的生理机制公然唱反调。属于低级颠倒项。",
+                "writing_perspective": "该实验的震撼之处正是证明了几个月大的婴儿就具备敏锐的情绪雷达，D选项将雷达误判为迟钝，彻底毁灭了论述的科学依据。",
+                "theme_validation": "正是因为孩子极度敏感，父母玩手机的冷漠才会造成实质伤害，D项使全文批判失去了立足基础。",
+                "verdict": "判定：D项与实验展示的婴儿高度敏感特性完全相反，果断排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；<b>B</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>verbal</code>, <code...；<b>C</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>D</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；"
+          "summary": "本题考查对第3段经典心理学实验“面无表情实验（still face experiment）”论证目的的推理判断。定位至第3段前两句及最后一句：“Infants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive... it causes acute distress... 'there needs to be a balance and parents need to be responsive to their children's emotional needs'”。Radesky 引用这一实验，指出婴儿天生依赖父母的面部表情来获取安全感，当父母因看手机而出现“面无表情、毫无反应”的面孔时，婴儿会产生极度焦虑；由此推导出父母必须对孩子的情感需求做出积极回应。C选项 parents need to respond to children’s emotional needs 属于对段落总结句的完全重合提炼。干扰项A（孩子容易适应）、B（无需言语）、D（孩子对父母情绪不敏感）均与实验揭示的婴儿极度脆弱焦虑的现象南辕北辙。",
+          "synonym_pairs": [
+            {
+              "opt_term": "parents need to respond to children’s emotional needs",
+              "text_term": "parents need to be responsive to their children's emotional needs",
+              "logic": "respond to 对应 be responsive to；children's emotional needs 原词无缝对接，考查对实验结论句的高保真捕捉。"
+            }
+          ]
         },
         {
           "qid": 29,
@@ -2965,14 +3021,14 @@
               "is_correct": false,
               "trap_type": "干扰项（张冠李戴 / 范围偏差）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.",
-                "source_translation": "另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "文中没有关于保护孩子免受幻想影响的内容，属于荒谬拼凑，排除",
+                "option_nature": "干扰项（无中生有/荒谬捏造）",
+                "source_sentence": "...born out of an “oppressive ideology” of intensive mothering... demands parents to be constantly present...",
+                "source_translation": "……源自一种密集母职的“压迫性意识形态”……要求父母时刻在场……",
+                "locator_comparison": "选项A认为该意识形态要求父母“保护孩子免受狂野幻想的影响（protect kids from exposure to wild fantasies）”。定位段落中，Tronick 批判的高压意识形态的核心是苛求父母投入无限的时间和精力（intensive parenting / endlessly interacting）。文中完全没有出现任何关于童话、想象力或“wild fantasies（狂野幻想）”的探讨。A项纯属生造概念的无稽之谈。",
+                "writing_perspective": "作者在第4段引入社会学层面的“育儿焦虑”批判，旨在给喘不过气来的父母松绑，若引入幻想保护，则完全偏离了母职重负的讨论主旨。",
+                "theme_validation": "全文讨论的是现实中的陪伴时间与屏幕借力，A项脱离现实维度的亲职博弈。",
+                "verdict": "判定：A项无中生有，凭空捏造狂野幻想，果断排除。"
               }
             },
             {
@@ -2982,14 +3038,14 @@
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.",
-                "source_translation": "另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。",
-                "locator_comparison": "选项声称“每年至少教孩子 30,000 个单词”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "30,000 words 虽是美国家教界的俗语（3000万字差距），但文中并无此具体数字，排除",
+                "option_nature": "干扰项（常识陷阱/无中文本支持）",
+                "source_sentence": "...an “oppressive ideology” of intensive mothering that demands parents to be constantly present, exquisitely attentive...",
+                "source_translation": "……一种密集母职的“压迫性意识形态”，要求父母时刻在场、全神贯注……",
+                "locator_comparison": "选项B声称要求父母“每年教孩子至少3万个单词（teach their kids at least 30,000 words a year）”。尽管在美国育儿讨论中偶有著名的“三千万字鸿沟（thirty-million-word gap）”，但在本篇文章第4段中，Tronick 从未列举过“教3万个词”这一量化任务。选项B利用课外背景杂音设置数字陷阱，但在当前文本中属于纯粹的无中生有。",
+                "writing_perspective": "Tronick 抨击的是心理层面的情绪勒索与陪伴绑架，而非具体的识字量考核，B选项在论述维度上降格为了具体的早教指标。",
+                "theme_validation": "文章反思的是亲情陪伴中的道德焦虑，而非具体的词汇教学方案，B项偏离要旨。",
+                "verdict": "判定：B项脱离文本事实，生拉硬拽外部概念，果断排除。"
               }
             },
             {
@@ -2999,14 +3055,14 @@
               "is_correct": false,
               "trap_type": "干扰项（偷换概念 / 偏离主干）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.",
-                "source_translation": "另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。",
-                "locator_comparison": "借用了原文的词汇 <code>remain</code>, <code>concerned</code>, <code>kids</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "对屏幕的担忧是该意识形态的产物，而非意识形态对父母的具体行为要求，排除",
+                "option_nature": "干扰项（因果混淆/偷换内涵）",
+                "source_sentence": "...the worries about kids’ use of screens are born out of an “oppressive ideology”...",
+                "source_translation": "……对孩子使用屏幕的担忧源于一种“压迫性意识形态”……",
+                "locator_comparison": "选项C认为该意识形态要求父母“保持对孩子使用屏幕的担忧（remain concerned about kids’ use of screens）”。原文清楚指出：“the worries... are born out of an oppressive ideology（对屏幕的担忧是这一压迫性意识形态所结出的苦果/副产物）”。而该意识形态本身对父母提出的硬性要求是：必须时刻待命、全程无死角互动（constantly present, endlessly interacting）。C选项混淆了该意识形态派生的“社会心理现象”与该意识形态对个体的“行为规训要求”。",
+                "writing_perspective": "作者在此辨析源与流：焦虑是表象，底层的压迫性教条才是根源，C选项把表象当成了教条的直接指令，因果倒置。",
+                "theme_validation": "批判性思维要求挖出育儿焦虑背后的道德绑架机制，C项未能看穿意识形态背后的行为要求。",
+                "verdict": "判定：C项因果倒置，混淆意识形态的产物与行为要求，果断排除。"
               }
             },
             {
@@ -3016,18 +3072,25 @@
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "On the other hand, Tronick himself is concerned that the worries about kids’ use of screens are born out of an “oppressive ideology that demands that parents should always be interacting” with their children: “It’s based on a somewhat fantasised, very white, very upper- middle-class ideology that says if you’re failing to expose your child to 30,000 words you are neglecting them.” Tronick believes that just because a child isn’t learning from the screen doesn’t mean there’s no value to it—particularly if it gives parents time to have a shower, do housework or simply have a break from their child.",
-                "source_translation": "另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压迫性意识形态，要求父母始终与孩子互动”：“这是基于一种有点幻想的、非常白人、非常上层中产阶级的意识形态，如果你不能让你的孩子接触 30,000 个单词，你就忽视了他们。”特罗尼克认为，孩子没有从屏幕上学习并不意味着它没有价值——特别是如果它让父母有时间洗澡、做家务或只是离开孩子休息一下。",
-                "locator_comparison": "选项核心词 <code>ensure</code>, <code>constant</code>, <code>interaction</code>（“确保与孩子持续互动”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：D正确。"
+                "practice_status": "精准抓取 endlessly interacting 和 constantly present，直接锁定D",
+                "option_nature": "正确项（同义整合/核心内涵）",
+                "source_sentence": "...born out of an “oppressive ideology” of intensive mothering... that demands parents to be constantly present, exquisitely attentive and endlessly interacting with their children.",
+                "source_translation": "……源于一种密集母职的“压迫性意识形态”……这种观念苛求父母必须时刻在场、极度专注，并且与孩子进行无休止的互动。",
+                "locator_comparison": "选项D指出该意识形态要求父母“确保与孩子进行持续不断的互动（ensure constant interaction with their children）”。定位句明确拆解了该意识形态的极端戒律：demands parents to be constantly present（要求时刻在场）、exquisitely attentive（极度专注）以及 endlessly interacting with their children（与孩子进行永无休止的互动）。D选项用 ensure constant interaction 极其凝练且传神地概括了这种让人窒息的24小时不间断互动要求，完全符合原文实质。",
+                "writing_perspective": "作者通过引述 Tronick，使文章的立论达到了辩证的高峰：既要重视情感响应，又要反对极端的育儿道德绑架；D选项精准提炼了反思的靶心，展现了极强的思想洞察力。",
+                "theme_validation": "全文末尾旨在为疲惫不堪的父母卸下道德枷锁，指出不必苛求时时刻刻与孩子连线，D项完美呼应了这一解放思想的主旨。",
+                "verdict": "判定：D项高度贴合定位句核心定义，同义转化精准老练，为标准正确答案。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；<b>B</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“每年至少教孩子 30,000 个单词”，但在原文定位句中，作...；<b>C</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>remain</code>, <code...；<b>D</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；"
+          "summary": "本题考查对第4段专家 Tronick 所提及的“压迫性意识形态（oppressive ideology）”具体内涵的深刻理解。定位至第4段第1-2句：“Tronick himself is concerned that the worries about kids’ use of screens are born out of an 'oppressive ideology' of intensive mothering... that demands parents to be constantly present, exquisitely attentive and endlessly interacting with their children...”。Tronick 敏锐指出，社会上对屏幕的过度恐慌，源自一种畸形的“密集母职/高压育儿观”，这种意识形态苛求父母必须每分每秒都全神贯注、时刻待命，与孩子进行不间断的互动。D选项 ensure constant interaction with their children（确保与孩子进行持续不断的互动）正是对 endlessly interacting 和 constantly present 的精准提炼。干扰项A（保护免受幻想影响）、B（每年教3万个单词）、C（保持对屏幕的担忧）均未切中该意识形态对父母高压全职陪伴的苛责本质。",
+          "synonym_pairs": [
+            {
+              "opt_term": "ensure constant interaction with their children",
+              "text_term": "demands parents to be constantly present, exquisitely attentive and endlessly interacting with their children",
+              "logic": "ensure 对应 demands（苛求、要求）；constant interaction 完美综合了 constantly present（时刻在场）与 endlessly interacting（无休止互动）。"
+            }
+          ]
         },
         {
           "qid": 30,
@@ -3045,14 +3108,14 @@
               "is_correct": false,
               "trap_type": "干扰项（张冠李戴 / 范围偏差）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way.",
-                "source_translation": "他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "文中只说父母能借机处理工作或聊天，未提及提升创造力，排除",
+                "option_nature": "干扰项（无中生有/过度推断）",
+                "source_sentence": "Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way...",
+                "source_translation": "他说，父母可以通过使用设备与朋友交谈或处理一些工作而大有收获……",
+                "locator_comparison": "选项A认为孩子使用屏幕可能“使他们的父母更有创造力（make their parents more creative）”。定位句中，Tronick 列举了父母在孩子看屏幕时可以做的事情：和朋友聊天（speak to a friend）、处理杂务（get some work out of the way）、或者单纯喘口气（take a break）。全段完全没有提及父母由此变得“更有创造力（more creative）”。A项属于凭空拔高价值的无中生有项。",
+                "writing_perspective": "Tronick 在此给出的都是极其平实、接接地气的日常减压场景，若上升到提升创造力，不仅画蛇添足，更违背了其主张“父母只需做普通人”的平实质感。",
+                "theme_validation": "文章讨论的是让父母从过度育儿的劳累中解脱出来，并非提高个人的艺术或智力创造力，A项偏离论题。",
+                "verdict": "判定：A项凭空捏造‘更具创造力’概念，果断排除。"
               }
             },
             {
@@ -3062,14 +3125,14 @@
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way.",
-                "source_translation": "他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。",
-                "locator_comparison": "选项核心词 <code>parents</code>, <code>free</code>, <code>time</code>（“给父母一些空闲时间”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：B正确。"
+                "practice_status": "对应原文 giving parents a needed break，锁定B选项",
+                "option_nature": "正确项（同义替换/常理提炼）",
+                "source_sentence": "Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way... giving parents a needed break.",
+                "source_translation": "他说，父母可以利用设备与朋友聊天或完成一些工作，从而获得许多益处……给父母带来迫切需要的喘息。",
+                "locator_comparison": "选项B指出孩子使用屏幕可能“给父母一些自由时间（give their parents some free time）”。定位句明确阐述了屏幕带来的现实缓冲效应：孩子看屏幕时，父母可以趁机打电话社交、处理积压工作，从而获得一段难得的喘息休息时间（giving parents a needed break）。能够自主聊天、处理私事和休息的时间，其本质正是属于父母的“自由时间（free time）”。B选项推论扎实自然，极具现实同理心。",
+                "writing_perspective": "作者在全篇结尾提供了一个反直觉却极其温暖的视角：科技不仅不是家庭的敌人，有时反而是拯救疲惫父母的得力保姆，选B完美点亮了这一反转叙事的高光时刻。",
+                "theme_validation": "全文从对屏幕成瘾的恐慌，最终升华到辩证平衡的人文关怀，B项深刻体现了拒绝极端主义、寻求人机共存的成熟态度。",
+                "verdict": "判定：B项同义替换精准，深刻体现现实生活经验与作者辩证视角，为标准正确答案。"
               }
             },
             {
@@ -3079,14 +3142,14 @@
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way.",
-                "source_translation": "他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。",
-                "locator_comparison": "选项声称“帮助他们做作业”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "文中孩子看屏幕是娱乐或玩耍，而非做家庭作业，排除",
+                "option_nature": "干扰项（无中生有/场景错配）",
+                "source_sentence": "...kids’ use of screens... digital play...",
+                "source_translation": "……孩子们使用屏幕……数字游戏……",
+                "locator_comparison": "选项C认为可能“帮助他们做家庭作业（help them with their homework）”。文章第1段明确界定本文研究的是儿童的“digital play（数字娱乐游戏）”场景，第4段讨论的是低龄幼儿或儿童看屏幕给父母换取喘息空间，通篇没有出现任何关于辅导课后作业（homework）的学校课业场景。C项纯属把日常娱乐张冠李戴为学习辅助的无端臆造。",
+                "writing_perspective": "Tronick 讨论的是屏幕作为“保姆（digital babysitter）”托管孩子的作用，若变成写作业，性质就转化为严肃的教学任务，彻底改变了段落讨论性质。",
+                "theme_validation": "文章聚焦亲子情感动态而非课业辅助，C项偏离家庭情感主线。",
+                "verdict": "判定：C项无中生有，将休闲娱乐曲解为课业学习，果断排除。"
               }
             },
             {
@@ -3096,18 +3159,25 @@
               "is_correct": false,
               "trap_type": "干扰项（张冠李戴 / 范围偏差）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way.",
-                "source_translation": "他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“他说，父母可以通过使用他们的设备与朋友交谈或完成一些工作来获得很多好处。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "屏幕容易导致注意力碎片化，文章从未说能让孩子更专注，排除",
+                "option_nature": "干扰项（与常理及文意相悖/反向考查）",
+                "source_sentence": "...worries about kids’ use of screens...",
+                "source_translation": "……对孩子们使用屏幕的担忧……",
+                "locator_comparison": "选项D认为可能“帮助他们变得更加专注（help them become more attentive）”。开篇第1段就已经指出屏幕的本质是不断剥夺与分散注意力（suck you in / absorb attention），全社会最担心的正是儿童注意力涣散。Tronick 虽主张不必过度焦虑，但也绝未反常识地声称屏幕能锻炼孩子的专注力（become more attentive）。D项毫无文本证据且违背基本常识。",
+                "writing_perspective": "Tronick 的辩护点在于对父母生活的救赎，而非盲目吹嘘屏幕对儿童大脑发育有奇效，D选项过度吹捧技术，违背科学家的严谨边界。",
+                "theme_validation": "全文对屏幕的认知保持警惕与辩证，D项盲目断言专注益处，完全脱离文章语境。",
+                "verdict": "判定：D项无中生有且违背常理，果断排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；<b>B</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“帮助他们做作业”，但在原文定位句中，作者表达的态度或客观事实...；<b>D</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；"
+          "summary": "本题考查对第4段末尾 Tronick 辩证观点的细节理解与推论。定位至第4段倒数第二句及最后一句：“Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way... while kids are occupied with their screens, giving parents a needed break...”。Tronick 指出，当孩子在玩屏幕时，父母正好可以借机喘口气、和朋友聊聊天或赶快处理完工作。因此孩子使用屏幕在客观上为父母创造了一段宝贵的喘息机会和自由时间。B选项 give their parents some free time（给父母一些自由时间）完美对应 giving parents a needed break 与 get some work out of the way。干扰项A（使父母更有创造力）、C（辅导孩子作业）、D（帮助孩子更专注）均无原文支持。",
+          "synonym_pairs": [
+            {
+              "opt_term": "give their parents some free time",
+              "text_term": "giving parents a needed break / speak to a friend or get some work out of the way",
+              "logic": "giving parents a needed break（给父母一段迫切需要的休息喘息）以及借机社交或工作，本质上就是给父母争取到了属于自己的自由支配时间（free time）。"
+            }
+          ]
         }
       ],
       "macro_logic": {
@@ -4208,14 +4278,14 @@
               "is_correct": false,
               "trap_type": "干扰项（无中生有 / 过度推断）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn’t it?",
-                "source_translation": "毕竟，如果你认识的每个人都将在秋季上大学，那么留级一年似乎很愚蠢，不是吗？",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“毕竟，如果你认识的每个人都将在秋季上大学，那么留级一年似乎很愚蠢，不是吗？”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "文中未讨论学术误导，高中生担忧的是同辈压力，排除",
+                "option_nature": "干扰项（无中生有/概念偏差）",
+                "source_sentence": "After all, if everyone you know is going to college in the fall, it seems silly to stay back a year...",
+                "source_translation": "毕竟，如果你认识的每个人都在秋季去上大学，留下来呆一年似乎很傻……",
+                "locator_comparison": "选项A认为毕业生不休间隔年是因为“他们认为这在学术上具有误导性（they think it academically misleading）”。第1段分析学生心理时，指出阻力来自社会惯性与同伴从众心理（social pressure, peer pressure），大家害怕掉队（fear of falling behind）。全段从未有任何人从学术评估的角度，认为间隔年会带来所谓的“学术误导（academically misleading）”。A项属于生造学术名词的无中生有项。",
+                "writing_perspective": "作者在第1段描绘的是年轻人极其敏感的社会同辈心理（害怕显得怪异），若上升为深思熟虑的学术考量，就失去了青春期心理描写的真实性，A选项不符行文基调。",
+                "theme_validation": "全文强调社会偏见对间隔年的误读，而学生个人更多是迫于从众心理，A项脱离学生实际心理现实。",
+                "verdict": "判定：A项凭空捏造学术误导概念，脱离同辈压力现实，果断排除。"
               }
             },
             {
@@ -4225,14 +4295,14 @@
               "is_correct": false,
               "trap_type": "干扰项（张冠李戴 / 范围偏差）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn’t it?",
-                "source_translation": "毕竟，如果你认识的每个人都将在秋季上大学，那么留级一年似乎很愚蠢，不是吗？",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“毕竟，如果你认识的每个人都将在秋季上大学，那么留级一年似乎很愚蠢，不是吗？”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "迫不及待上大学是常理，但文中所述理由是害怕落后和异样眼光，排除",
+                "option_nature": "干扰项（主观臆断/偏离定位）",
+                "source_sentence": "Today, widespread social pressure to immediately go to college... it seems silly to stay back a year...",
+                "source_translation": "如今，立即上大学的普遍社会压力……留下来呆一年似乎很傻……",
+                "locator_comparison": "选项B声称是因为“他们期待在大学里有许多乐趣（they have a lot of fun to expect in college）”。原文剖析的是一种极其沉重的社会期待和焦虑感（widespread social pressure），是害怕自己成为另类的被动恐惧推着大家赶紧去上学，根本没有提到学生是因为渴望在大学里寻欢作乐（have a lot of fun）才不去休间隔年。B项轻浮的娱乐化定性与原文沉重的社会压力氛围格格不入。",
+                "writing_perspective": "作者在开篇旨在批判社会给青少年的单一轨道压力，如果学生是兴高采烈去享受大学生活，这种批判的沉重感将荡然无存，B选项破坏了论证语境。",
+                "theme_validation": "文章反思的是僵化的升学流水线，B项将严肃的社会学反思误解为大学娱乐向往，完全脱靶。",
+                "verdict": "判定：B项主观臆想，将社会焦虑误判为期待玩乐，果断排除。"
               }
             },
             {
@@ -4242,14 +4312,14 @@
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn’t it?",
-                "source_translation": "毕竟，如果你认识的每个人都将在秋季上大学，那么留级一年似乎很愚蠢，不是吗？",
-                "locator_comparison": "选项核心词 <code>feels</code>, <code>strange</code>, <code>differently</code>（“与别人做不同的事情感觉很奇怪”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“毕竟，如果你认识的每个人都将在秋季上大学，那么留级一年似乎很愚蠢，不是吗？”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：C正确。"
+                "practice_status": "对比定位句原句 it feels strange to do differently from others，秒定C",
+                "option_nature": "正确项（原句重现/同辈压力）",
+                "source_sentence": "After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, it feels strange to do differently from others, and like you are falling behind.",
+                "source_translation": "毕竟，如果你认识的每个人都在秋季去上大学，留下来呆一年似乎很傻，感觉和别人做得不一样很奇怪，而且像是掉队了一样。",
+                "locator_comparison": "选项C指出不休间隔年的原因在于“感觉与别人做得不一样很奇怪（it feels strange to do differently from others）”。定位句明确道出了高中毕业生的心理软肋：“it feels strange to do differently from others（感觉做与他人不同的事很奇怪）”。选项C与原文一字不差地精准重合，生动揭示了同伴从众心理（conformity）对青少年独立选择的巨大绑架。答案毫无悬念。",
+                "writing_perspective": "作者精准抓住了青少年成长中最普遍的心理桎梏——对‘标新立异’的恐惧，通过这一真实写照引发年轻读者的强烈共鸣，选C正是对这层生动心理白描的最佳捕捉。",
+                "theme_validation": "全文旨在为那些有勇气休间隔年的人正名，打破‘必须和所有人一样’的羊群效应，C项直击破题核心。",
+                "verdict": "判定：C项原句高保真复现，完美揭示从众心理，为标准正确答案。"
               }
             },
             {
@@ -4259,18 +4329,25 @@
               "is_correct": false,
               "trap_type": "干扰项（张冠李戴 / 范围偏差）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn’t it?",
-                "source_translation": "毕竟，如果你认识的每个人都将在秋季上大学，那么留级一年似乎很愚蠢，不是吗？",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“毕竟，如果你认识的每个人都将在秋季上大学，那么留级一年似乎很愚蠢，不是吗？”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "间隔年包括义工旅行等，非单纯上校外课，且文中无 worthless 评价，排除",
+                "option_nature": "干扰项（偷换概念/无中生有）",
+                "source_sentence": "...it seems silly to stay back a year... and like you are falling behind.",
+                "source_translation": "……留下来呆一年似乎很傻……感觉像是掉队了一样。",
+                "locator_comparison": "选项D认为是因为“上校外课程似乎毫无价值（it seems worthless to take off-campus courses）”。间隔年（gap year）通常包含旅行、社会实习、志愿服务等多元心智探索，根本不能等同于“上校外课程（take off-campus courses）”。此外，文中从未出现任何学生认为相关课程毫无价值（worthless）的评价。D项属于典型的以偏概全与无中生有。",
+                "writing_perspective": "作者极力倡导间隔年的实践探索属性，若将其狭隘化为校外培训课，彻底矮化了间隔年的心智成熟功能，D选项概念严重窄化。",
+                "theme_validation": "文章反思的是生活体验的缺失，D项强加课程概念，脱离间隔年的丰富实践内涵。",
+                "verdict": "判定：D项严重曲解间隔年含义并生造毫无价值的断言，果断排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；<b>B</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；<b>C</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>D</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；"
+          "summary": "本题考查对第1段高中毕业生不愿选择“间隔年（gap year）”心理原因的细节理解。定位至第1段最后一句：“After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, it feels strange to do differently from others, and like you are falling behind...”。当身边的同龄人都在秋天按部就班升入大学时，自己留下来会产生强烈的同辈压力与异类感。C选项 it feels strange to do differently from others（感觉与别人做得不一样很奇怪）是对 it feels strange to do differently from others 的原句核心实词直接复现。干扰项A（认为在学术上有误导性）、B（期待大学很有趣）、D（认为校外课程无价值）均无原文支持或曲解了同辈心理压力。",
+          "synonym_pairs": [
+            {
+              "opt_term": "it feels strange to do differently from others",
+              "text_term": "it feels strange to do differently from others / if everyone you know is going... seems silly to stay back",
+              "logic": "it feels strange to do differently from others 属于对定位句原原本本的直接重现，考查对从众心理与同辈压力核心句的准确定位。"
+            }
+          ]
         },
         {
           "qid": 32,
@@ -4288,14 +4365,14 @@
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Rather than pulling students back, a gap year pushes them ahead by preparing them for independence, new responsibilities and environmental changes—all things that first-year students often struggle with the most.",
-                "source_translation": "间隔年不会让学生倒退，而是通过让他们为独立、新的责任和环境变化做好准备来推动他们前进——所有这些都是一年级学生经常最难应对的。",
-                "locator_comparison": "选项核心词 <code>relieve</code>, <code>freshmen</code>, <code>pressures</code>（“缓解新生压力”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“间隔年不会让学生倒退，而是通过让他们为独立、新的责任和环境变化做好准备来推动他们前进——所有这些都是一年级学生经常最难应对的。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：A正确。"
+                "practice_status": "对比第3段末句 lessen the blow and relieving stress，锁定A",
+                "option_nature": "正确项（同义替换/段落主旨）",
+                "source_sentence": "Rather than pulling students back, a gap year pushes them ahead by preparing them for independence... Gap year experiences can lessen the blow when it comes to adjusting to college... relieving freshmen of stress and pressure.",
+                "source_translation": "间隔年并没有拖累学生，而是通过培养他们的独立性推动他们前进……间隔年的经历可以减轻适应大学生活时的冲击……从而缓解新生的压力。",
+                "locator_comparison": "选项A指出间隔年有助于“减轻大一新生的压力（relieve freshmen of pressures）”。定位段落中，研究表明经过间隔年洗礼的学生更加成熟独立，能够有效“lessen the blow when it comes to adjusting to college（减轻适应大学生活时的心理冲击）”，从而在根本上缓解新生的焦虑。A选项用 relieve freshmen of pressures 高度概括了减轻冲击与缓解压力的过程，逻辑与实词均高度吻合。",
+                "writing_perspective": "作者在第3段用详实的研究打破“休学一年会脱节”的妖魔化论调，指出这其实是一剂极佳的心理缓冲剂，选A完美呼应了作者对大一新生心理健康的关怀。",
+                "theme_validation": "全文论述间隔年的积极效益，首当其冲的就是从高中到大学 transition 期心理韧性的建立，A项牢牢契合该论点。",
+                "verdict": "判定：A项同义替换精准，准确涵盖学术研究对心理压力的缓解结论，为标准正确答案。"
               }
             },
             {
@@ -4305,14 +4382,14 @@
               "is_correct": false,
               "trap_type": "干扰项（偷换概念 / 偏离主干）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Rather than pulling students back, a gap year pushes them ahead by preparing them for independence, new responsibilities and environmental changes—all things that first-year students often struggle with the most.",
-                "source_translation": "间隔年不会让学生倒退，而是通过让他们为独立、新的责任和环境变化做好准备来推动他们前进——所有这些都是一年级学生经常最难应对的。",
-                "locator_comparison": "借用了原文的词汇 <code>lower</code>, <code>risks</code>, <code>choosing</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“间隔年不会让学生倒退，而是通过让他们为独立、新的责任和环境变化做好准备来推动他们前进——所有这些都是一年级学生经常最难应对的。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "职业选择在第3段未做深入探讨，排除",
+                "option_nature": "干扰项（无中生有/跨段干扰）",
+                "source_sentence": "Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college...",
+                "source_translation": "来自美国和澳大利亚的研究表明，休过间隔年的学生通常对大学有更充分的准备，且在大学表现更好……",
+                "locator_comparison": "选项B声称有助于“降低选择职业的风险（lower risks in choosing careers）”。第3段集中论述的是从高中到大学的适应准备（adjusting to college），讨论的是学术和生活适应能力，通篇并未讨论毕业后的“职业选择风险（choosing careers）”。B项把大学生活的适应超前推导为终身职业风险，缺乏文本依据。",
+                "writing_perspective": "作者按照人生时间轴行文：第3段先解决初入大学的心理适应，第4段再谈专业兴趣探索；B选项跨越到了职业阶段，违背行文的递进节奏。",
+                "theme_validation": "文章讨论的是本科教育的前置准备，而非就业市场的职业规划，B项偏离本段焦点。",
+                "verdict": "判定：B项无中生有，将大学学业适应超前夸大为职业规划，果断排除。"
               }
             },
             {
@@ -4322,14 +4399,14 @@
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Rather than pulling students back, a gap year pushes them ahead by preparing them for independence, new responsibilities and environmental changes—all things that first-year students often struggle with the most.",
-                "source_translation": "间隔年不会让学生倒退，而是通过让他们为独立、新的责任和环境变化做好准备来推动他们前进——所有这些都是一年级学生经常最难应对的。",
-                "locator_comparison": "选项声称“减轻新生经济负担”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“间隔年不会让学生倒退，而是通过让他们为独立、新的责任和环境变化做好准备来推动他们前进——所有这些都是一年级学生经常最难应对的。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "省钱是第4段探讨的财务影响，第3段纯粹探讨心理与学术准备，段落错位，排除",
+                "option_nature": "干扰项（跨段张冠李戴/段落信息错位）",
+                "source_sentence": "Studies from the United States and Australia show that students who take a gap year are generally better prepared...",
+                "source_translation": "来自美国和澳大利亚的研究表明，休过间隔年的学生通常准备更充分……",
+                "locator_comparison": "选项C声称有助于“减轻大一新生的经济负担（ease freshmen’s financial burdens）”。第4段才开始讨论“financial impact（财务影响）”，指出通过明确专业可以节省后期换专业的学费；而第3段的美澳实证研究所证明的是学生的“独立性（independence）”与“大学学业准备度（better prepared）”，全段完全没有提及减轻经济负担。C选项属于典型的跨段张冠李戴项。",
+                "writing_perspective": "作者在第4段开头用“If you’re not convinced... then consider its financial impact”进行显式转折，表明第3段完全不涉及金钱议题，C选项混淆了两个相互独立的论证维度。",
+                "theme_validation": "分清心理收益与经济收益是读懂本文论证结构的关键，C项将两段混为一谈，逻辑混乱。",
+                "verdict": "判定：C项跨段张冠李戴，将第4段的财务话题错安在第3段，果断排除。"
               }
             },
             {
@@ -4339,18 +4416,25 @@
               "is_correct": false,
               "trap_type": "干扰项（偷换概念 / 偏离主干）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Rather than pulling students back, a gap year pushes them ahead by preparing them for independence, new responsibilities and environmental changes—all things that first-year students often struggle with the most.",
-                "source_translation": "间隔年不会让学生倒退，而是通过让他们为独立、新的责任和环境变化做好准备来推动他们前进——所有这些都是一年级学生经常最难应对的。",
-                "locator_comparison": "借用了原文的词汇 <code>keep</code>, <code>students</code>, <code>unrealistic</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“间隔年不会让学生倒退，而是通过让他们为独立、新的责任和环境变化做好准备来推动他们前进——所有这些都是一年级学生经常最难应对的。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "文中强调培养独立性，而非防止不切实际，排除",
+                "option_nature": "干扰项（无中生有/主观评判）",
+                "source_sentence": "...preparing them for independence, relieving stress and pressure...",
+                "source_translation": "……为他们的独立生活做好准备，缓解压力和紧迫感……",
+                "locator_comparison": "选项D认为有助于“防止学生变得不切实际（keep students from being unrealistic）”。原文强调间隔年培养的是“independence（独立生存能力）”，帮助他们更好地应对现实挑战，但文中从未指责高中生原本存在“不切实际（unrealistic）”的毛病，更未声称间隔年的功能是“防止（keep from）”这种心态。D项强加贬义预设，毫无事实支撑。",
+                "writing_perspective": "作者对年轻人的成长探索充满包容与鼓励，绝无居高临下指责年轻人幻想不切实际的说教口吻，D选项违背作者的善意态度。",
+                "theme_validation": "文章反思的是僵化体制，赞美的是青年的探索精神，D项的规训口吻与文章相悖。",
+                "verdict": "判定：D项强加消极预设，属于凭空捏造，果断排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>B</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>lower</code>, <code>...；<b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“减轻新生经济负担”，但在原文定位句中，作者表达的态度或客观事...；<b>D</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>keep</code>, <code>s...；"
+          "summary": "本题考查对第3段美澳实证研究结论的理解与概括。定位至第3段第1-2句及末句：“Studies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college... Rather than pulling students back, a gap year pushes them ahead by preparing them for independence... Gap year experiences can lessen the blow when it comes to adjusting to college and being thrown into... relieving stress and pressure”。研究表明，间隔年培养了学生的独立生活能力，使得他们在迈入大学校门时能有效缓冲适应期的剧烈冲击，从而显著减轻大一新生的各种压力。A选项 relieve freshmen of pressures（减轻大一新生的压力）是对 lessen the blow 与 relieving stress and pressure 的精确概括。干扰项B（降低选职业风险）、C（减轻大一新生的经济负担——第4段才讲省钱）、D（防止学生不切实际）均偏离第3段的核心论点。",
+          "synonym_pairs": [
+            {
+              "opt_term": "relieve freshmen of pressures",
+              "text_term": "lessen the blow when it comes to adjusting to college / relieving stress and pressure",
+              "logic": "relieve 对应 lessen the blow（减轻冲击）与 relieving；freshmen（大一新生）对应 adjusting to college（刚进大学适应期的大一新生群体）；pressures 对应 stress and pressure。"
+            }
+          ]
         },
         {
           "qid": 33,
@@ -4368,14 +4452,14 @@
               "is_correct": false,
               "trap_type": "干扰项（无中生有 / 过度推断）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Gap year experiences can lessen the blow when it comes to adjusting to college and being thrown into a brand new environment, making it easier to focus on academics and activities rather than acclimation blunders.",
-                "source_translation": "间隔年的经历可以减轻适应大学和进入全新环境时的打击，让你更容易专注于学业和活动，而不是适应环境的错误。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "虽然后文有积极表现，但此处搭配的是适应新环境，非激发动机，排除",
+                "option_nature": "干扰项（含义偏差/脱离语境）",
+                "source_sentence": "Gap year experiences can lessen the blow when it comes to adjusting to college and being thrown into a new environment, aiding student acclimation.",
+                "source_translation": "间隔年的经历能够减轻适应大学生活和被置于全新环境时的冲击，助力学生的适应过程。",
+                "locator_comparison": "选项A认为 acclimation 意为“动力、激励（motivation）”。在句子中，逻辑主干是缓解被丢入陌生环境的痛苦冲击（thrown into a new environment），前面已明确使用 adjusting to college（适应大学生活）。在此语境下，帮助学生完成的是对新生活环境的“适应与融入”，而非“产生学习动机（motivation）”。A项偏离了适应环境的核心物理与心理过程。",
+                "writing_perspective": "作者在句中进行同义近义修辞呼应，用 acclimation 回扣 adjusting，若突兀跳跃到 motivation，前后语义衔接就会断裂，A选项破坏了句法连贯性。",
+                "theme_validation": "大学新生的第一道关卡是生存与心理适应，而非缺少学习动机，A项未切中要害。",
+                "verdict": "判定：A项偏离‘适应新环境’的语境线索，果断排除。"
               }
             },
             {
@@ -4385,14 +4469,14 @@
               "is_correct": false,
               "trap_type": "干扰项（无中生有 / 过度推断）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Gap year experiences can lessen the blow when it comes to adjusting to college and being thrown into a brand new environment, making it easier to focus on academics and activities rather than acclimation blunders.",
-                "source_translation": "间隔年的经历可以减轻适应大学和进入全新环境时的打击，让你更容易专注于学业和活动，而不是适应环境的错误。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "申请大学早已在入学前完成，此处讨论入学后的适应，排除",
+                "option_nature": "干扰项（时序错位/词义混淆）",
+                "source_sentence": "...when it comes to adjusting to college... aiding student acclimation.",
+                "source_translation": "……当谈到适应大学生活时……助力学生的适应。",
+                "locator_comparison": "选项B声称其意为“申请（application）”。此时讨论的语境是学生已经被大学录取并已踏入校园（thrown into a new environment, adjusting to college），大学申请（application）早在一年前就已经结束。把适应校园生活解释为“学生申请”，在时间逻辑和语义上完全荒唐不通。",
+                "writing_perspective": "作者正在讨论新生入校后的身心安顿，B选项倒退回招生录取阶段，时序严重倒流。",
+                "theme_validation": "文章讨论的是入校后的适应期，B项属于低级形近或概念混淆项。",
+                "verdict": "判定：B项时序彻底倒置，与入学后的环境适应无关，果断排除。"
               }
             },
             {
@@ -4402,14 +4486,14 @@
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Gap year experiences can lessen the blow when it comes to adjusting to college and being thrown into a brand new environment, making it easier to focus on academics and activities rather than acclimation blunders.",
-                "source_translation": "间隔年的经历可以减轻适应大学和进入全新环境时的打击，让你更容易专注于学业和活动，而不是适应环境的错误。",
-                "locator_comparison": "选项声称“竞赛”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "间隔年是帮助学生摆脱恶性竞争、回归自我，不可能指代竞争，排除",
+                "option_nature": "干扰项（反向干扰/与主旨相悖）",
+                "source_sentence": "...lessen the blow when it comes to adjusting to college... aiding student acclimation.",
+                "source_translation": "……减轻适应大学时的冲击……助力学生的适应。",
+                "locator_comparison": "选项C声称其意为“竞争（competition）”。全段反复强调间隔年的作用是减轻痛苦冲击（lessen the blow）和缓解压力（relieve pressure）。如果解释为“助力学生竞争（competition）”，则重新将学生推入残酷内卷的绞肉机中，与作者主张的心理治愈与平稳过渡完全南辕北辙。C项彻底颠覆了前文积极舒缓的感情基调。",
+                "writing_perspective": "作者倡导慢下来、向内探索，反对将大学生活视作军备竞赛，C选项引入竞争概念，破坏了文章温和治愈的立论风格。",
+                "theme_validation": "文章反思过度竞争造成的心理危机，C项背离全文精神内核。",
+                "verdict": "判定：C项背离前文舒缓压力的语境，与主旨对立，果断排除。"
               }
             },
             {
@@ -4419,18 +4503,25 @@
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Gap year experiences can lessen the blow when it comes to adjusting to college and being thrown into a brand new environment, making it easier to focus on academics and activities rather than acclimation blunders.",
-                "source_translation": "间隔年的经历可以减轻适应大学和进入全新环境时的打击，让你更容易专注于学业和活动，而不是适应环境的错误。",
-                "locator_comparison": "选项核心词 <code>adaptation</code>（“适应”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：D正确。"
+                "practice_status": "通过 adjusting to college 迅速锁定 adaptation 这一同义词，选D",
+                "option_nature": "正确项（语境线索/标准同义词）",
+                "source_sentence": "Gap year experiences can lessen the blow when it comes to adjusting to college and being thrown into a new environment, aiding student acclimation.",
+                "source_translation": "间隔年的经历可以减轻适应大学和被扔进新环境时的冲击，有助于学生的适应。",
+                "locator_comparison": "选项D指出 acclimation 最接近的含义是“适应（adaptation）”。定位句中，“adjusting to college（适应大学生活）”和“being thrown into a new environment（面对全新陌生环境）”构成了最直接明了的语境线索。acclimation 本义即为“水土适应、顺应新环境”，与 adaptation 完全同义。D选项完美契合词汇学解释与句法修辞呼应，毫无争议。",
+                "writing_perspective": "作者借用心理学与生理学上的 acclimation（服水土、适应气候），生动刻画新生面对大学全新社交与学术生态时的调适过程，adaptation 是最优雅精准的现代释义，选D无懈可击。",
+                "theme_validation": "全文讨论如何帮助青年顺利渡过成人礼的转型期，适应（adaptation）正是最核心的成长关键词。",
+                "verdict": "判定：D项语义严丝合缝，前后照应完美，为标准正确答案。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；<b>B</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；<b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“竞赛”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，...；<b>D</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；"
+          "summary": "本题考查根据上下文猜测生词词义（词汇题）。定位至第3段末句：“Gap year experiences can lessen the blow when it comes to adjusting to college and being thrown into a new environment, aiding student acclimation”。前文用 adjusting to college（适应大学生活）与 thrown into a new environment（被投入全新环境）作了极为充分的语境铺垫；后面分词短语 aiding student acclimation（助力学生的适应）中，acclimation 与 adjusting 构成完美的同义回响。D选项 adaptation（适应、顺应）是 acclimation 最标准的同义词。干扰项A（动机）、B（申请）、C（竞争）均无法与前文的 adjusting to college 形成语义闭环。",
+          "synonym_pairs": [
+            {
+              "opt_term": "adaptation",
+              "text_term": "acclimation / adjusting to college",
+              "logic": "acclimation 与 adjusting to college 在同一长句中形成名词-动名词的前后同义指代；adaptation 是表示适应环境的最经典学术词汇，二者完全等价。"
+            }
+          ]
         },
         {
           "qid": 34,
@@ -4448,14 +4539,14 @@
               "is_correct": false,
               "trap_type": "干扰项（无中生有 / 过度推断）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Taking a gap year to figure things out initially can help prevent stress and save money later on.",
-                "source_translation": "最初利用间隔年来解决问题可以帮助防止压力并在以后节省金钱。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "文中指出转学或转专业会导致多花钱，而非通过转学来省钱，排除",
+                "option_nature": "干扰项（反向因果/事实相反）",
+                "source_sentence": "...rather than switching majors or transferring midway through, which costs thousands in extra tuition...",
+                "source_translation": "……而不是中途更换专业或转学，这会耗费数千美元的额外学费……",
+                "locator_comparison": "选项A认为省钱途径是帮助他们“转到另一所大学（switch to another college）”。原文明确指出，进入大学后盲目折腾、“转学（transferring）或中途换专业（switching majors）”恰恰是导致学分作废、耗费巨额额外学费的败家行为（costs thousands in extra tuition）。间隔年的好处是避免中途转学折腾，而不是通过转学去省钱。A项将导致多花钱的坏习惯误当成了省钱策略，因果彻底相反。",
+                "writing_perspective": "作者在此展示的是极其理性的财务避坑指南，转学在美本体系中成本极高，作者绝不会愚蠢地将其作为省钱妙招推荐，A选项经济学常识崩塌。",
+                "theme_validation": "文章主旨是提倡“先想清楚再出发”，以避免中途反复转向的昂贵代价，A项违背初衷。",
+                "verdict": "判定：A项因果倒置，将耗费巨资的折腾误当成省钱良方，果断排除。"
               }
             },
             {
@@ -4465,14 +4556,14 @@
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Taking a gap year to figure things out initially can help prevent stress and save money later on.",
-                "source_translation": "最初利用间隔年来解决问题可以帮助防止压力并在以后节省金钱。",
-                "locator_comparison": "选项核心词 <code>decide</code>, <code>right</code>, <code>major</code>（“决定正确的专业”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：B正确。"
+                "practice_status": "对比 choose the right major from the start，迅速锁定B",
+                "option_nature": "正确项（原词复现/因果定位）",
+                "source_sentence": "...helping students decide on their true passion and choose the right major from the start, rather than switching majors midway through...",
+                "source_translation": "……帮助学生确定他们真正的热情所在，从一开始就选定正确的专业，而不是中途更换专业……",
+                "locator_comparison": "选项B指出间隔年通过帮助学生“选定正确的专业（decide on the right major）”来节省资金。定位句紧扣 save money 展开因果论证：间隔年探索让人看清真正的志趣（true passion），从而能够从一开始就“choose the right major from the start”，彻底规避了中途推倒重来更换专业所带来的数万美元学费损失。decide on 精准替换 choose，the right major 原词复现。因果逻辑极其严密，完全契合题意。",
+                "writing_perspective": "作者在此切中广大家长最关心的钱包痛点：看似耽误一年，实则省下大把冤枉钱；选B精准提炼了全篇最接地气、最具说服力的现实经济论据。",
+                "theme_validation": "全文论证间隔年不仅具有崇高的精神价值，更具备坚实的财务合理性，选定正确专业（right major）是这一合理性的支点，B项高度契合主旨。",
+                "verdict": "判定：B项同义对应天衣无缝，准确阐释省钱机制，为标准正确答案。"
               }
             },
             {
@@ -4482,14 +4573,14 @@
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Taking a gap year to figure things out initially can help prevent stress and save money later on.",
-                "source_translation": "最初利用间隔年来解决问题可以帮助防止压力并在以后节省金钱。",
-                "locator_comparison": "选项声称“避免学业失败”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "虽然有助学业，但本处探讨的是选错专业的经济学浪费，排除",
+                "option_nature": "干扰项（偷换概念/扩大范围）",
+                "source_sentence": "...save money later on... rather than switching majors midway through, which costs thousands in extra tuition...",
+                "source_translation": "……在日后节省金钱……而不是中途更换专业，那会花费数千美元的额外学费……",
+                "locator_comparison": "选项C认为省钱途径是帮助他们“避免学业失败/不及格（avoid academic failures）”。第4段在阐述如何省钱（save money）时，聚焦点非常具体且唯一定位在“专业选择与转专业成本”上（avoid switching majors）。挂科或学业失败（academic failures）虽然可能导致重修花钱，但在第4段中作者自始至终没有提及挂科挂课这一论点。C项以主观常识替代了文本精准列出的专业错配原因。",
+                "writing_perspective": "作者的论证假设是：这些学生本身都是能顺利毕业的聪明人，问题只在于选错了方向导致金钱浪费，若归咎为不及格，便矮化了讨论对象的综合素质，C选项缺乏文本立足点。",
+                "theme_validation": "文章讨论的是志趣迷茫而非智商不足，C项偏离关于热情与专业匹配的核心论题。",
+                "verdict": "判定：C项偷换讨论对象，无中生有引入学业失败概念，果断排除。"
               }
             },
             {
@@ -4499,18 +4590,25 @@
               "is_correct": false,
               "trap_type": "干扰项（无中生有 / 过度推断）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "Taking a gap year to figure things out initially can help prevent stress and save money later on.",
-                "source_translation": "最初利用间隔年来解决问题可以帮助防止压力并在以后节省金钱。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "建立长期目标过于空泛，省钱的直接抓手是选定大学专业，排除",
+                "option_nature": "干扰项（空泛泛化/脱离核心抓手）",
+                "source_sentence": "...helping students decide on their true passion and choose the right major from the start...",
+                "source_translation": "……帮助学生确定真正的热情所在，并从一开始就选择正确的专业……",
+                "locator_comparison": "选项D认为省钱途径是帮助他们“建立长期目标（establish long-term goals）”。虽然探索兴趣有助于树立人生方向，但题干严格询问的是“如何为学生省钱（save money by...）”。能够直接转化为学费节省的直接具体动作，正是确定具体专业以避免课程作废（choose the right major）。长期目标（long-term goals）过于宽泛宏大，未能精准击中导致经济损失的具体财务节点。D项属于典型的以空泛大词冲淡核心细节的干扰项。",
+                "writing_perspective": "作者在此进行的是精打细算的学费精算，强调专业对口（right major）的即时止损效益，D选项把硬核经济账稀释成了鸡汤式口号，破坏了文章的论证力度。",
+                "theme_validation": "文章主旨落脚于实操性极强的专业抉择，D项大而无当，缺乏针对性。",
+                "verdict": "判定：D项空洞泛化，偏离了避免换专业以节约学费的核心逻辑，果断排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；<b>B</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“避免学业失败”，但在原文定位句中，作者表达的态度或客观事实恰...；<b>D</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；"
+          "summary": "本题考查第4段关于间隔年如何产生“省钱（save money）”经济效益的具体机制。定位至第4段第2-4句：“Taking a gap year to figure things out initially can help prevent stress and save money later on... helping students decide on their true passion and choose the right major from the start, rather than switching majors midway through, which costs thousands in extra tuition...”。作者算了一笔极其清晰的经济账：很多大学生因为盲目跟风入学，读到一半才发现不喜欢而频繁转专业，导致额外白白浪费数千甚至数万美元学费；而通过间隔年的探索，学生能在一开始就“选定正确的专业（decide on the right major）”，从而避免走弯路，省下巨额开支。B选项 decide on the right major 属于对原文原词核心概念的精准提取。干扰项A（转到另一所大学）、C（避免学业不及格）、D（建立长期目标）均未切中避免换专业以节省学费的省钱逻辑。",
+          "synonym_pairs": [
+            {
+              "opt_term": "decide on the right major",
+              "text_term": "choose the right major from the start / rather than switching majors midway through",
+              "logic": "decide on 对应 choose from the start；right major（正确的专业）原词无缝对接，点穴式命中省钱的唯一作用因果。"
+            }
+          ]
         },
         {
           "qid": 35,
@@ -4528,14 +4626,14 @@
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "But despite common misconceptions, a gap year does not hinder the success of academic pursuits—in fact, it probably enhances it.",
-                "source_translation": "但尽管存在常见的误解，间隔年并不会阻碍学术追求的成功——事实上，它可能会增强学术追求的成功。",
-                "locator_comparison": "选项核心词 <code>Favor</code>, <code>Gap</code>, <code>Year</code>（“支持间隔年”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：A正确。"
+                "practice_status": "纵览全文结构，发现作者全篇都在力挺间隔年，秒选A",
+                "option_nature": "正确项（主旨提炼/态度凝练）",
+                "source_sentence": "But while this may be true, it’s not a good enough reason to condemn gap years... a gap year does not hinder the success... in fact, pushes them ahead... consider its inherent value and financial benefits.",
+                "source_translation": "但即便这可能是真的，这也不是谴责间隔年的充分理由……间隔年不仅没有阻碍成功……事实上，它在推动他们前进……想想它的内在价值和经济效益吧。",
+                "locator_comparison": "选项A拟定标题为“支持间隔年（In Favor of the Gap Year）”。全文第1段提出对间隔年的社会疑虑；第2段用“not a good enough reason to condemn gap years”强力驳斥；第3段论述其心理与适应优势（pushes them ahead, lessen the blow）；第4段论述其探索价值与省钱效益。全文由始至终立场鲜明、论据翔实地全方位力挺间隔年。A选项用 In Favor of 直白有力地概括了全篇赞赏与辩护的核心主旨，是最无可挑剔的最佳标题。",
+                "writing_perspective": "作为一篇观点鲜明的议论文，作者旨在拨乱反正、为受到社会误解的年轻人撑腰，标题必须体现强烈的支持倾向，In Favor of 堪称题眼，选A完美体现了作者的写作志向。",
+                "theme_validation": "全文从头至尾充溢着对打破常规探索自我的肯定，A项高度契合这一积极正向的精神内核。",
+                "verdict": "判定：A项立场鲜明、高度统领全文论证方向，为标准正确答案。"
               }
             },
             {
@@ -4545,14 +4643,14 @@
               "is_correct": false,
               "trap_type": "干扰项（偷换概念 / 偏离主干）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "But despite common misconceptions, a gap year does not hinder the success of academic pursuits—in fact, it probably enhances it.",
-                "source_translation": "但尽管存在常见的误解，间隔年并不会阻碍学术追求的成功——事实上，它可能会增强学术追求的成功。",
-                "locator_comparison": "借用了原文的词汇 <code>ABCs</code>, <code>Gap</code>, <code>Year</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "文章是深度辩护和破除偏见，非ABC基础入门指南，排除",
+                "option_nature": "干扰项（文体错配/风格不符）",
+                "source_sentence": "Today, widespread social pressure... But despite common misconceptions, a gap year does not hinder...",
+                "source_translation": "如今，普遍的社会压力……但尽管存在普遍误解，间隔年并没有阻碍……",
+                "locator_comparison": "选项B拟定标题为“间隔年的ABC基础知识（The ABCs of the Gap Year）”。“The ABCs of...”在英语报刊中通常用于初学者科普指南、操作步骤或基础知识介绍手册（如什么是间隔年、怎么申请、去哪里旅行等）。而本文是一篇论证严密、旨在反驳社会偏见（debunking misconceptions）的严肃议论文，重在立论与辩护，绝非基础操作扫盲帖。B项文体定位严重失真。",
+                "writing_perspective": "作者的预设读者是那些面临社会压力的学生与焦虑的家长，文章充满思辨色彩与实证辩驳，若定名为 ABCs，将严肃议论文贬低为儿童识字式的常识小册子，极其违和。",
+                "theme_validation": "全文旨在重塑大众对教育轨道的认知，B项矮化了文章的社会批判高度。",
+                "verdict": "判定：B项文体错配，将严肃辩护文误作基础科普指南，果断排除。"
               }
             },
             {
@@ -4562,14 +4660,14 @@
               "is_correct": false,
               "trap_type": "干扰项（张冠李戴 / 范围偏差）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "But despite common misconceptions, a gap year does not hinder the success of academic pursuits—in fact, it probably enhances it.",
-                "source_translation": "但尽管存在常见的误解，间隔年并不会阻碍学术追求的成功——事实上，它可能会增强学术追求的成功。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "文中未讨论间隔年曾经衰落又重新流行的历史过程，排除",
+                "option_nature": "干扰项（无中生有/历史脉络虚构）",
+                "source_sentence": "Today, widespread social pressure to immediately go to college...",
+                "source_translation": "如今，立即上大学的普遍社会压力……",
+                "locator_comparison": "选项C拟定标题为“间隔年卷土重来（The Gap Year Comes Back）”。Comes Back（卷土重来/复兴）意味着该事物曾经辉煌、后来没落淘汰、如今又重新流行回潮。然而通读全文，作者一直在讨论当前社会环境中“立即上大学的压力极大，大家不敢休间隔年”，从未讲述间隔年的历史兴衰周期，更未提供它“卷土重来（comes back）”的历史数据。C项纯属凭空臆造历史动态。",
+                "writing_perspective": "作者在第1段开宗明义强调的是间隔年当下面临的巨大现实阻力，如果标题写成已经大举回归，就与开篇指出的社会阻力自相矛盾，C选项缺乏逻辑自洽性。",
+                "theme_validation": "文章致力于推广一种尚未被主流完全接纳的观念，C项盲目宣告其已回归，与现实脱节。",
+                "verdict": "判定：C项凭空捏造兴衰复兴历史，脱离文本现实背景，果断排除。"
               }
             },
             {
@@ -4579,18 +4677,25 @@
               "is_correct": false,
               "trap_type": "干扰项（张冠李戴 / 范围偏差）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "But despite common misconceptions, a gap year does not hinder the success of academic pursuits—in fact, it probably enhances it.",
-                "source_translation": "但尽管存在常见的误解，间隔年并不会阻碍学术追求的成功——事实上，它可能会增强学术追求的成功。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“根据国家教育统计中心的数据，近80%的大学生最终至少换过一次专业。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "作者态度极其肯定坚决，毫无两难或纠结犹豫，排除",
+                "option_nature": "干扰项（态度倾向颠倒/曲解基调）",
+                "source_sentence": "...it’s not a good enough reason to condemn gap years... pushes them ahead... consider its inherent value...",
+                "source_translation": "……这不是谴责间隔年的充分理由……推动他们前进……想想它的内在价值……",
+                "locator_comparison": "选项D拟定标题为“间隔年：一个进退两难的困境（The Gap Year: A Dilemma）”。Dilemma（两难境地/左右为难）指陷入两难选择、利弊难分、令人痛苦纠结。然而作者在全文中对间隔年展现出一边倒的盛赞与力挺，条分缕析地将其好处（独立性、高绩点、减压、选对专业、省钱）展现得淋漓尽致，根本不存在任何“两难”的犹豫与摇摆。D选项把作者斩钉截铁的坚定支持，歪曲成了优柔寡断的徘徊困境，立场全盘颠倒。",
+                "writing_perspective": "作者写作此文就是为了帮读者破除两难困惑、坚定选择间隔年，若标题自身宣称是困境，则彻底丧失了指南性议论文的劝服功能，D选项极为低级错误。",
+                "theme_validation": "作者视间隔年为通向自立与成功的明智捷径，D项用两难困境概括，完全曲解作者的坚定态度。",
+                "verdict": "判定：D项颠倒是非，将坚定有力的辩护曲解为徘徊不决的困境，果断排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>B</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>ABCs</code>, <code>G...；<b>C</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；<b>D</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；"
+          "summary": "本题考查全文主旨大意与最佳标题提炼。全文自始至终在为“间隔年（gap year）”进行旗帜鲜明的正名与辩护。第1段摆出社会偏见与同辈压力；第2段以驳论切入，宣布害怕落后绝非谴责间隔年的理由；第3段搬出美澳实证研究，证明其在心智成熟、独立性、学业准备及心理减压上的巨大积极效益；第4段进一步从经济账角度证明其能帮学生找准专业、节省学费。整篇文章结构完整，立论坚定，通篇充溢着对间隔年的热情支持与辩护。A选项 In Favor of the Gap Year（支持/赞成间隔年）用经典议论文标题结构，完美概括了全篇赞赏与支持的立场。干扰项B（间隔年入门基础）、C（间隔年强势回归）、D（间隔年：一个两难困境）均未抓住作者一边倒坚定支持的态度精髓。",
+          "synonym_pairs": [
+            {
+              "opt_term": "In Favor of the Gap Year",
+              "text_term": "it’s not a good enough reason to condemn gap years / pushes them ahead / inherent value / save money",
+              "logic": "in favor of（支持、赞成）高度统领了作者反对谴责（not condemn）、盛赞其内在价值（inherent value）及积极效益的全篇立场。"
+            }
+          ]
         }
       ],
       "macro_logic": {
@@ -5874,14 +5979,14 @@
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.",
-                "source_translation": "2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。",
-                "locator_comparison": "选项核心词 <code>consumed</code>, <code>record</code>, <code>high</code>（“预算消耗比例创历史新高”）准确概括了原文第 1 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“In 2015, the US Forest Service for the first time spent more than half of its $5”，如果 A 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 A 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：A正确。"
+                "practice_status": "精准抓取2015年和 more than half budget 对应 record-high percentage，秒选A",
+                "option_nature": "正确项（原词咬合/数据事实）",
+                "source_sentence": "In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—a record-high percentage that will only rise...",
+                "source_translation": "2015年，美国林务局有史以来第一次将其55亿美元年度预算的一半以上用于灭火——这是一个创纪录的高比例，而且只会继续上升……",
+                "locator_comparison": "选项A指出2015年野火之所以成为全国关切，是因为它们“消耗了创纪录的高比例预算（consumed a record-high percentage of budget）”。定位句明载：“In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—a record-high percentage”。A选项用 consumed 替换 spent，record-high percentage 和 budget 原词复现，精准命中了2015年标志性财政灾难的核心事实，完全正确。",
+                "writing_perspective": "作者在第1段先破除“野火只是西部地区地方病”的偏见，第2段立即抛出2015年联邦林务局预算被吞噬过半的震撼数据，从全美纳税人钱袋子的硬核角度确立了“national concern”的立论根基，选A完美呼应了作者这一破题逻辑。",
+                "theme_validation": "全文讨论野火问题的第一切入点正是“不可持续的公共财政开支危机（public expenditure crisis）”，A项精准锁定该财政支柱。",
+                "verdict": "判定：A项原词重合且事实因果高度精准，为标准正确答案。"
               }
             },
             {
@@ -5891,14 +5996,14 @@
               "is_correct": false,
               "trap_type": "干扰项（张冠李戴 / 范围偏差）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.",
-                "source_translation": "2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“In 2015, the US Forest Service for the first time spent more than half of its $5”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "虽然野火破坏生态，但题目有 2015 年限定且文章重心是财政危机，排除",
+                "option_nature": "干扰项（答非所问/脱离年份限定）",
+                "source_sentence": "Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern...",
+                "source_translation": "尽管常被视为西部各州的问题，但野火发生频率的上升是一个全国性问题……",
+                "locator_comparison": "选项B声称是因为它们“严重破坏了西部各州的生态（severely damaged the ecology of western states）”。第1段指出野火以往常被误认为是“西部各州（western states）”的局部问题，而作者立论的核心是证明它已经变成了“national concern（全国性关切）”。选项B退回到了狭隘的西部各州地方生态视角，不仅脱离了2015年的财政事实定位，更与全国性关切的推导逻辑背道而驰。",
+                "writing_perspective": "作者行文的意图是打破地理局限性，若把动因归结为西部生态受损，文章就无法证明为何东部各州纳税人也必须高度关切，B选项严重窄化了论证格局。",
+                "theme_validation": "文章反思的是联邦整体财政政策与人地矛盾，生态破坏不是2015年破局立论的特有标志，B项脱离主线。",
+                "verdict": "判定：B项窄化地理范围，忽略2015年关键财政数据，果断排除。"
               }
             },
             {
@@ -5908,14 +6013,14 @@
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.",
-                "source_translation": "2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。",
-                "locator_comparison": "选项声称“导致基础设施支出大幅增加”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“In 2015, the US Forest Service for the first time spent more than half of its $5”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "基础设施开支是后文关于在危险区建房的争论，非2015年林务局预算事实，排除",
+                "option_nature": "干扰项（概念偷换/因果倒置）",
+                "source_sentence": "...spent more than half of its $5.5 billion annual budget fighting fires... construction in fire-prone districts...",
+                "source_translation": "……将其55亿美元年度预算的一半以上用于灭火……在易发生火灾地区的建设……",
+                "locator_comparison": "选项C认为是因为“引起了基础设施开支的巨大增长（caused a huge rise of infrastructure expenditure）”。2015年预算激增的部分是“灭火防灾专项开支（fighting fires）”，而不是修桥铺路等“基础设施开支（infrastructure expenditure）”。第3段虽提到易受火灾地区的住房建设（construction），但那是需要被严格管制的风险行为，绝非2015年林务局预算失控的直接原因。C项概念混淆严重。",
+                "writing_perspective": "林务局是自然资源与防火管理机构，根本不负责城市基础设施建设，把灭火开销等同于基建投资，在行政职能上彻底错乱，C选项不符公共管理事实。",
+                "theme_validation": "全文讨论的是紧急消防支出挤占其他正常公共预算的悲剧，C项完全混淆了财政支出的具体科目。",
+                "verdict": "判定：C项混淆消防开支与基础设施建设，概念偷换，果断排除。"
               }
             },
             {
@@ -5925,18 +6030,25 @@
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—nearly double the percentage it spent on such efforts 20 years ago.",
-                "source_translation": "2015 年，美国林务局首次将其 55 亿美元年度预算的一半以上用于扑灭火灾，几乎是 20 年前用于此类努力的两倍。",
-                "locator_comparison": "选项声称“exhausted unprecedented management efforts”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“In 2015, the US Forest Service for the first time spent more than half of its $5”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "文中指责扑火消耗了资金，非耗尽管理努力，排除",
+                "option_nature": "干扰项（空泛抽象/无中生有）",
+                "source_sentence": "...spent more than half of its $5.5 billion annual budget fighting fires—a record-high percentage...",
+                "source_translation": "……将其55亿美元年度预算的一半以上用于灭火——一个创纪录的高比例……",
+                "locator_comparison": "选项D声称是因为“耗尽了前所未有的管理努力（exhausted unprecedented management efforts）”。原文呈现的是冰冷震撼的数字——花了整整一半以上的真金白银（$5.5 billion budget），而非用主观修辞去描写官员们付出了多少“管理上的努力（management efforts）”。D项用空洞的主观描述冲淡了最关键的财政预算指标，缺乏文本数据支撑。",
+                "writing_perspective": "作者在第2段旨在通过清晰可度量的量化指标展现危机严重性，D选项那种模糊的情感式描述削弱了学术调查报告的严肃性，不合原文风格。",
+                "theme_validation": "财政赤字与资金黑洞是推动政策变革的核心杠杆，D项脱离资金维度的现实探讨。",
+                "verdict": "判定：D项用空泛努力掩盖具体预算危机，果断排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>B</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；<b>C</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“导致基础设施支出大幅增加”，但在原文定位句中，作者表达的态度...；<b>D</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“exhausted unprecedented manage...；"
+          "summary": "本题考查对第2段野火成为全国性严重问题具体诱因的事实细节理解。题干明确限定时间状语“in 2015”。定位至第2段第1句：“In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires—a record-high percentage that will only rise...”。数据极为明确：2015年，美国林务局有史以来第一次将其55亿美元年度预算的一半以上（more than half）全部用于灭火，创下了历史最高占比记录。A选项 consumed a record-high percentage of budget（吞噬了创历史新高比例的财政预算）是对定位句的绝对忠实再现。干扰项B（严重破坏西部生态）、C（导致基础设施开支暴涨）、D（耗尽前所未有的管理努力）均偏离了2015年财政预算暴增这一关键事实核心。",
+          "synonym_pairs": [
+            {
+              "opt_term": "consumed a record-high percentage of budget",
+              "text_term": "spent more than half of its $5.5 billion annual budget fighting fires—a record-high percentage",
+              "logic": "consumed（消耗、吞噬）完美替换 spent... on fighting fires；a record-high percentage of budget 与原文 a record-high percentage 直接原词咬合。"
+            }
+          ]
         },
         {
           "qid": 37,
@@ -5954,14 +6066,14 @@
               "is_correct": false,
               "trap_type": "干扰项（无中生有 / 过度推断）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "“We need to take a magnifying glass to that.",
-                "source_translation": "“我们需要用放大镜来观察这一点。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“实际上，如今用于该机构影响所有美国人生活的其他工作（例如森林保护、流域和文化资源管理以及基础设施维护）的联邦资金减少了。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "文中并未提及防止资金重定向，而是审查资金去向，排除",
+                "option_nature": "干扰项（无中生有/概念偏差）",
+                "source_sentence": "Another nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts...",
+                "source_translation": "另一个全国性关切是来自其他机构的公共资金是否正流入易发生火灾地区的建设中……",
+                "locator_comparison": "选项A认为拿放大镜是为了“避免联邦资金的重新定向（avoid the redirection of federal money）”。Moritz 呼吁拿放大镜审视的是公共资金是否正在资助易燃危险区的盲目建设，其目的是对资金流向进行合规与安全审查，通篇并未讨论所谓的“资金重定向（redirection）”。A项属于生造财政专业术语的无端干扰。",
+                "writing_perspective": "Moritz 关注的是资金使用的风险评估，核心在于“该不该投、投向哪里”，而非纯粹的行政预算拨付流程调整，A选项偏离了风险防范的主旨。",
+                "theme_validation": "全文倡导理性规避火灾风险，反对政府用公款为危险开发兜底，A项未触及风险防范实质。",
+                "verdict": "判定：A项无中生有，生造资金重定向概念，果断排除。"
               }
             },
             {
@@ -5971,14 +6083,14 @@
               "is_correct": false,
               "trap_type": "干扰项（偷换概念 / 偏离主干）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "“We need to take a magnifying glass to that.",
-                "source_translation": "“我们需要用放大镜来观察这一点。",
-                "locator_comparison": "借用了原文的词汇 <code>find</code>, <code>wildfire</code>, <code>free</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“实际上，如今用于该机构影响所有美国人生活的其他工作（例如森林保护、流域和文化资源管理以及基础设施维护）的联邦资金减少了。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "放大镜是审视资金流向，不是拿着放大镜在地图上找安全地带，排除",
+                "option_nature": "干扰项（字面曲解/具象化荒谬理解）",
+                "source_sentence": "“It’s already a huge problem from a public expenditure perspective... We need to take a magnifying glass to that,” he says.",
+                "source_translation": "“从公共支出的角度来看，这已经是一个巨大的问题……我们需要拿放大镜仔细审视它，”他说。",
+                "locator_comparison": "选项B声称是为了“在景观中寻找没有野火的区域（find wildfire-free parts of the landscape）”。选项B极其滑稽地把隐喻“take a magnifying glass（仔细审查、严格审计）”理解为拿着物理放大镜在地理地图上寻找“没有野火的安全净土（wildfire-free parts）”。代词 that 明确指向前文的“公共资金支出（public expenditure/public funds）”，而非地理地貌。B项属于典型的望文生义与具象化荒谬歪曲。",
+                "writing_perspective": "在严肃的公共政策讨论中，magnifying glass 是极常见的审计与问责隐喻，若按字面理解为找地方，不仅逻辑不通，更彻底抹杀了科学家的严谨政策反思，B选项极其荒唐。",
+                "theme_validation": "文章反思的是人类在危险区建房的狂妄，自然界不存在绝对无火的真空地带，B项在科学常识上也站不住脚。",
+                "verdict": "判定：B项将财政审查隐喻低级曲解为地理测绘，果断排除。"
               }
             },
             {
@@ -5988,14 +6100,14 @@
               "is_correct": false,
               "trap_type": "干扰项（无中生有 / 过度推断）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "“We need to take a magnifying glass to that.",
-                "source_translation": "“我们需要用放大镜来观察这一点。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“实际上，如今用于该机构影响所有美国人生活的其他工作（例如森林保护、流域和文化资源管理以及基础设施维护）的联邦资金减少了。”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "科学家在警告不要给高危火灾区乱拨款，C项反而说筹集更多资金，彻底反向，排除",
+                "option_nature": "干扰项（反向考查/立场彻底相反）",
+                "source_sentence": "...whether public funds from other agencies are going into construction in fire-prone districts... a huge problem...",
+                "source_translation": "……来自其他机构的公共资金是否正在流入易发火灾地区的建设中……这是一个巨大的问题……",
+                "locator_comparison": "选项C认为是为了“为易受火灾影响的地区筹集更多资金（raise more funds for fire-prone areas）”。原文明确把公共资金涌入易燃火灾区（fire-prone districts）定性为“a huge problem（一个巨大的问题/隐患）”，因为这等于是在用纳税人的钱鼓励人们住进火坑。Moritz 呼吁严格审查，正是为了遏制这种危险的财政输血。选项C反而宣称去“筹集更多资金（raise more funds）”，彻底站到了作者批判立场的对立面，荒谬绝伦。",
+                "writing_perspective": "作者在此揭露的是一种畸形的体制补贴：越是危险的地方，政府反而在不断补贴建房，导致火灾损失如滚雪球般扩大；若如C选项所言继续筹款，无异于抱薪救火，逻辑彻底混乱。",
+                "theme_validation": "全文批判无休止的财政填坑，主张理性收缩高危开发，C项公然反其道而行之，绝不可能。",
+                "verdict": "判定：C项黑白颠倒，将遏制危险投资歪曲为筹资火上浇油，果断排除。"
               }
             },
             {
@@ -6005,18 +6117,25 @@
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "“We need to take a magnifying glass to that.",
-                "source_translation": "“我们需要用放大镜来观察这一点。",
-                "locator_comparison": "选项核心词 <code>guarantee</code>, <code>safer</code>, <code>spending</code>（“确保公共资金使用更加安全”）准确概括了原文第 2 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“实际上，如今用于该机构影响所有美国人生活的其他工作（例如森林保护、流域和文化资源管理以及基础设施维护）的联邦资金减少了。”，如果 D 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 D 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：D正确。"
+                "practice_status": "结合 public expenditure 和 fire-prone districts，确认D项保障资金安全支出为正解，选D",
+                "option_nature": "正确项（隐喻破译/深层推断）",
+                "source_sentence": "Another nationwide concern is whether public funds... are going into construction in fire-prone districts... “It’s already a huge problem from a public expenditure perspective... We need to take a magnifying glass to that,” he says.",
+                "source_translation": "另一个全国性的担忧是公共资金是否正在流入易发火灾地区的建设中……“从公共支出的角度来看，这已经是一个巨大的问题……我们需要拿放大镜来仔细审视它，”他说。",
+                "locator_comparison": "选项D指出拿放大镜的目的是“保障公共资金更安全的支出（guarantee safer spending of public funds）”。原文语境中，Moritz 指出公共资金盲目流入火灾高危区搞建设是极其危险且不负责任的开支（huge problem from a public expenditure perspective）；因此必须拿出放大镜（take a magnifying glass）进行前所未有的严格审视。其终极意图正是阻止资金被投入险境，确保纳税人的公共财政支出更加审慎、安全且有效率（safer spending）。D选项深刻且周严地概括了该隐喻的政策实质。",
+                "writing_perspective": "作者在此精准捕捉到了现代环境治理中的财政杠杆问题：遏制野火不仅要靠消防队，更要管住乱花钱的手，选D精准体现了作者将生态问题与财政安全相结合的高阶视角。",
+                "theme_validation": "全文从头至尾强调火灾治理的经济理性，呼吁消除盲目盲信的公帑浪费，D项完美扣合公共治理主旨。",
+                "verdict": "判定：D项深刻破解修辞隐喻，直击公共财政风险防控内核，为标准正确答案。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；<b>B</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>find</code>, <code>w...；<b>C</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；<b>D</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；"
+          "summary": "本题考查对第4段专家 Moritz 经典隐喻“take a magnifying glass to that（用放大镜仔细审视它）”指代意图的深刻理解。定位至第3段末句与第4段第1-2句：“Another nationwide concern is whether public funds... are going into construction in fire-prone districts... 'It’s already a huge problem from a public expenditure perspective... We need to take a magnifying glass to that,' he says...”。句中的代词 that 指代上文提及的“公共资金流入易发火灾高危地区的房屋建设”。Moritz 呼吁拿出放大镜，就是要对这些使用联邦纳税人资金资助高危住宅建设的项目进行极其严格的审查与审计，确保公共资金不再被盲目浪费于危险地带。D选项 guarantee safer spending of public funds（保障公共资金更加安全的支出）深刻破译了对高危地区基建投资进行审计的终极目的。干扰项A（避免联邦资金重新定向）、B（寻找没有野火的地区）、C（为高危地区筹集更多资金——南辕北辙）均曲解了公共财政审慎监督的本质。",
+          "synonym_pairs": [
+            {
+              "opt_term": "guarantee safer spending of public funds",
+              "text_term": "take a magnifying glass to that [public funds going into construction in fire-prone districts] / public expenditure perspective",
+              "logic": "take a magnifying glass（拿放大镜审视）代表极为严格的审查与监管（strict scrutiny）；that 指代公共资金在火灾高危区的支出；guarantee safer spending（确保更安全的支出）精准概括了防止公帑流入危险火区的监管目标。"
+            }
+          ]
         },
         {
           "qid": 38,
@@ -6034,14 +6153,14 @@
               "is_correct": false,
               "trap_type": "干扰项（偷换概念 / 偏离主干）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Over the past decade, the focus has been on climate change—how the warming of the Earth from greenhouse gases is leading to conditions that worsen fires.",
-                "source_translation": "过去十年，人们关注的焦点一直是气候变化——温室气体导致的地球变暖如何导致火灾恶化。",
-                "locator_comparison": "借用了原文的词汇 <code>public</code>, <code>debates</code>, <code>not</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“正如莫里茨所说，联邦资金建造的房屋有多少可能被野火烧毁？”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "辩论虽存在，但 Moritz 此处重点是提醒大家关注气候以外的人为因素，排除",
+                "option_nature": "干扰项（偷换重心/无中生有）",
+                "source_sentence": "While climate is a key element, Moritz says, it shouldn’t come at the expense of the rest of the equation.",
+                "source_translation": "莫里茨表示，虽然气候是一个关键要素，但它不应该以牺牲方程式中的其他部分为代价。",
+                "locator_comparison": "选项A认为他指出“公众辩论尚未平息（public debates have not settled yet）”。Moritz 的立论落脚点在于科学认知模型的完整性（equation），要求把目光拓展到气候之外的维度。通篇并未把结论落在“辩论尚未平息（debates not settled）”这种空泛的舆论动态上。A项用舆论争论冲淡了科学因果方程式的严密探讨，偷换了论述重心。",
+                "writing_perspective": "科学家在此是在为公众对话划重点（conversations need to be more inclusive），旨在校正偏狭的认知，若停留在记录辩论未定，则失去了建设性的科学指导价值，A选项缺乏深度。",
+                "theme_validation": "文章反思的是归因模式的单一化，A项停留在表面口水战，未能触及多元归因内核。",
+                "verdict": "判定：A项无中生有，将科学归因的修正矮化为公众争论未定，果断排除。"
               }
             },
             {
@@ -6051,14 +6170,14 @@
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "Over the past decade, the focus has been on climate change—how the warming of the Earth from greenhouse gases is leading to conditions that worsen fires.",
-                "source_translation": "过去十年，人们关注的焦点一直是气候变化——温室气体导致的地球变暖如何导致火灾恶化。",
-                "locator_comparison": "选项声称“对火的看法发生了转变”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“正如莫里茨所说，联邦资金建造的房屋有多少可能被野火烧毁？”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "第5段说需要转变观念，而非观念已经转变，时态颠倒，排除",
+                "option_nature": "干扰项（时态颠倒/将愿景当现实）",
+                "source_sentence": "Such a view would require a corresponding shift in the way US society today views fire...",
+                "source_translation": "研究人员表示，这样的观点将需要当今美国社会看待火灾的方式发生相应的转变……",
+                "locator_comparison": "选项B声称“对待火灾看法的转变已经发生（a shift in the view of fire has taken place）”。第5段明确指出：“Such a view would require a corresponding shift...（这种新视角将‘需要’发生相应的转变）”，使用的是虚拟情态动词 would require，代表目前尚未发生、未来迫切需要的转变。选项B使用现在完成时 has taken place（已经发生），公然颠倒了时态，把尚未实现的理想诉求说成了既成事实。",
+                "writing_perspective": "作者在后文第9段依然在痛批“人们依然把火视为必须完全扑灭的敌人”，证明思想转变任重道远；B选项盲目乐观宣称已转变，与后文的严峻批评产生直接自相矛盾。",
+                "theme_validation": "呼吁改变观念是全文的核心动力，若观念早已完成转变，本文的警示意义将荡然无存，B项颠倒现实与理想。",
+                "verdict": "判定：B项时态颠倒，把未来的迫切要求妄断为既成事实，果断排除。"
               }
             },
             {
@@ -6068,14 +6187,14 @@
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "Over the past decade, the focus has been on climate change—how the warming of the Earth from greenhouse gases is leading to conditions that worsen fires.",
-                "source_translation": "过去十年，人们关注的焦点一直是气候变化——温室气体导致的地球变暖如何导致火灾恶化。",
-                "locator_comparison": "选项核心词 <code>factors</code>, <code>not</code>, <code>overlooked</code>（“其他因素也不容忽视”）准确概括了原文第 3 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“正如莫里茨所说，联邦资金建造的房屋有多少可能被野火烧毁？”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：C正确。"
+                "practice_status": "对比 not come at the expense of the rest of the equation，锁定C",
+                "option_nature": "正确项（同义置换/逻辑提炼）",
+                "source_sentence": "While climate is a key element, Moritz says, it shouldn’t come at the expense of the rest of the equation.",
+                "source_translation": "莫里茨表示，虽然气候是一个关键要素，但它不应该以牺牲方程式中的其他部分为代价。",
+                "locator_comparison": "选项C指出 Moritz 提醒大家“其他因素不应该被忽视（other factors should not be overlooked）”。定位句中，“While climate is a key element”是让步状语从句；主句“it shouldn’t come at the expense of the rest of the equation”明确警告不能因为只盯住气候变化，就抹杀了方程式中的其余变量（the rest of the equation）。C选项用 other factors 精准对应 the rest of the equation，用 should not be overlooked 准确转述 not come at the expense of。逻辑对仗极度工整。",
+                "writing_perspective": "作者在此展现了高超的批判性科学思维：媒体往往喜欢将野火简单甩锅给气候变暖这一宏大而免责的借口，而科学家坚持将人类自身的高危扩张（other factors）摆上台面，选C深刻还原了这一不回避现实矛盾的科学勇气。",
+                "theme_validation": "全文强调火灾是自然与人类双向互动的复杂产物，反对单一气候决定论，C项完全契合这一平衡客观的主旨。",
+                "verdict": "判定：C项同义转化精巧严密，深刻体现多元归因视角，为标准正确答案。"
               }
             },
             {
@@ -6085,18 +6204,25 @@
               "is_correct": false,
               "trap_type": "干扰项（偷换概念 / 偏离主干）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "Over the past decade, the focus has been on climate change—how the warming of the Earth from greenhouse gases is leading to conditions that worsen fires.",
-                "source_translation": "过去十年，人们关注的焦点一直是气候变化——温室气体导致的地球变暖如何导致火灾恶化。",
-                "locator_comparison": "借用了原文的词汇 <code>fire</code>, <code>fighting</code>, <code>conditions</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“正如莫里茨所说，联邦资金建造的房屋有多少可能被野火烧毁？”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "文章全篇在讲火灾失控和预算崩溃，灭火条件并未改善，排除",
+                "option_nature": "干扰项（与原文事实相反/主观臆测）",
+                "source_sentence": "...fighting fires—a record-high percentage that will only rise as fire seasons grow longer...",
+                "source_translation": "……灭火开支——一个创纪录的高比例，且随着防火季节变长，这一比例只会继续上升……",
+                "locator_comparison": "选项D认为他指出“灭火条件正在改善（fire-fighting conditions are improving）”。原文第2段明确警示，由于干旱和人为扩张，火灾季节正在变得更长（fire seasons grow longer），火灾频率不断升高（growing frequency），扑救成本正在失控。通篇没有任何文字提及“灭火条件正在改善（improving）”。选项D与日益恶化的防灭火严峻现实彻底背道而驰。",
+                "writing_perspective": "作者通篇在敲响警钟，呼吁进行伤筋动骨的政策调整；若灭火条件一片大好，整篇文章的危机感和改革迫切性将全部落空，D选项极其违和。",
+                "theme_validation": "全文的核心危机就在于传统的灭火手段已经力不从心、捉襟见肘，D项完全脱离文章严峻现实。",
+                "verdict": "判定：D项无中生有且与野火日益恶化的事实相反，果断排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>public</code>, <code...；<b>B</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“对火的看法发生了转变”，但在原文定位句中，作者表达的态度或客...；<b>C</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>D</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>fire</code>, <code>f...；"
+          "summary": "本题考查对第6-7段专家 Moritz 关于野火成因全面平衡视角的理解。定位至第6段与第7段：“Over the past decade, the focus has been on climate change... While climate is a key element, Moritz says, it shouldn’t come at the expense of the rest of the equation”。句中的让步从句 While climate is a key element 与题干完全对应；而主句 it shouldn't come at the expense of the rest of the equation（它绝不应该以牺牲公式中其他因素为代价）明确强调：公式里除了气候变化，还有其他至关重要的变量（如人类开发选址、植被管理等），绝不能一叶障目。C选项 other factors should not be overlooked（其他因素不应被忽视）是对该句无懈可击的同义转述。干扰项A（公众辩论尚未平息）、B（人们对待火的态度已经转变）、D（灭火条件正在改善）均未体现不可偏废其他要素的论述核心。",
+          "synonym_pairs": [
+            {
+              "opt_term": "other factors should not be overlooked",
+              "text_term": "it shouldn’t come at the expense of the rest of the equation",
+              "logic": "the rest of the equation（方程式里的其余部分）对应 other factors（其他因素）；not come at the expense of（不能以牺牲……为代价）同义置换为 should not be overlooked（不应当被忽视/遗漏）。"
+            }
+          ]
         },
         {
           "qid": 39,
@@ -6114,14 +6240,14 @@
               "is_correct": false,
               "trap_type": "干扰项（张冠李戴 / 范围偏差）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "While climate is a key element, Moritz says, it shouldn’t come at the expense of the rest of the equation.",
-                "source_translation": "莫里茨说，虽然气候是一个关键因素，但它不应该以牺牲其余因素为代价。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：““我们需要用放大镜来观察这一点。”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "过度简化的视角源于忽视人地关系，非未能发现自然物理构造，排除",
+                "option_nature": "干扰项（偷换概念/偏离人地关系）",
+                "source_sentence": "“The human systems and the landscapes we live on are linked, and the interactions go both ways,” he says. Failing to recognize that has led to an overly simplified view...",
+                "source_translation": "“人类系统与我们赖以生存的地貌景观是相互联系的，而且这种相互作用是双向的，”他说。“未能认识到这一点导致了一种过度简化的观点……”",
+                "locator_comparison": "选项A认为原因是未能“发现大自然的根本构造（discover the fundamental makeup of nature）”。定位句代词 that 严密回指人类社会系统与自然地貌的双向互动联系（linked, both ways）。选项A把这种“人与自然交织的互动关系”，偷换成了纯自然科学层面对“自然界物理构造（fundamental makeup of nature）”的物理化学探索，完全脱离了人类社会活动对环境的影响维度。",
+                "writing_perspective": "作者在此探讨的是生态社会学（socio-ecological systems），强调人类活动已经深刻重塑了地貌；若局限在自然的内部物理构造，就彻底忽视了人类这一关键变量，A选项割裂了人地连接。",
+                "theme_validation": "文章反思的根源正是人类盲目将自己孤立于自然之外，A项继续在纯自然界打转，偏离反思主线。",
+                "verdict": "判定：A项偷换概念，脱离人与自然的动态联系，果断排除。"
               }
             },
             {
@@ -6131,14 +6257,14 @@
               "is_correct": false,
               "trap_type": "干扰项（偷换概念 / 偏离主干）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（偷换概念 / 偏离主干）",
-                "source_sentence": "While climate is a key element, Moritz says, it shouldn’t come at the expense of the rest of the equation.",
-                "source_translation": "莫里茨说，虽然气候是一个关键因素，但它不应该以牺牲其余因素为代价。",
-                "locator_comparison": "借用了原文的词汇 <code>explore</code>, <code>mechanism</code>, <code>human</code>，但将其拼接到题干后，偷换了动作的主体或因果关系，将次要修饰偷换成了因果结论。 原文强调的是客观严谨的事实逻辑，而 B 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：““我们需要用放大镜来观察这一点。”，实际后文并未沿着 B 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 B 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：B错误，坚决排除。"
+                "practice_status": "单看人类系统也是片面的，必须结合双向互动，排除",
+                "option_nature": "干扰项（以偏概全/割裂双向关系）",
+                "source_sentence": "“The human systems and the landscapes we live on are linked, and the interactions go both ways...”",
+                "source_translation": "“人类系统与我们赖以生存的地貌景观是相互联系的，而且这种相互作用是双向的……”",
+                "locator_comparison": "选项B声称原因是未能“探索人类系统的运行机制（explore the mechanism of the human systems）”。原文明确强调的是人类系统（human systems）与自然地貌（landscapes）之间的“双向纽带（linked, interactions go both ways）”。选项B只抓取了人类系统单方面，割裂了人类与自然地貌的相互碰撞与反馈机制，属于典型的以偏概全项。",
+                "writing_perspective": "作者的核心论点是“孤证不立，系统交融”，只研究人或者只研究自然都会导致过度简化，B选项单独把人类机制抽离出来，恰恰落入了作者批评的简化陷阱。",
+                "theme_validation": "全文批判的是割裂人与自然联系的形而上学观点，B项单边视角无法成立。",
+                "verdict": "判定：B项以偏概全，割裂双向互动的生态系统观，果断排除。"
               }
             },
             {
@@ -6148,14 +6274,14 @@
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "While climate is a key element, Moritz says, it shouldn’t come at the expense of the rest of the equation.",
-                "source_translation": "莫里茨说，虽然气候是一个关键因素，但它不应该以牺牲其余因素为代价。",
-                "locator_comparison": "选项核心词 <code>understand</code>, <code>interrelations</code>, <code>man</code>（“了解人与自然的相互关系”）准确概括了原文第 4 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：““我们需要用放大镜来观察这一点。”，如果 C 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 C 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：C正确。"
+                "practice_status": "紧扣 linked and interactions go both ways，匹配C选项 interrelations，选C",
+                "option_nature": "正确项（同义替换/代词指代还原）",
+                "source_sentence": "“The human systems and the landscapes we live on are linked, and the interactions go both ways,” he says. Failing to recognize that has led to an overly simplified view...",
+                "source_translation": "“人类系统与我们所栖息的地貌景观是紧密相连的，而且其相互作用是双向的，”他说。“未能认识到这一点，导致了一种过度简化的观点……”",
+                "locator_comparison": "选项C指出过度简化视角的根源在于未能“理解人与自然之间的相互关系（understand the interrelations of man and nature）”。定位句中，指示代词 that 毫无争议地承接上文：“The human systems and the landscapes we live on are linked, and the interactions go both ways（人类系统与生存地貌相连，相互作用是双向的）”。C选项中，understand 对应 recognize，man and nature 对应 human systems and landscapes，interrelations 完美提炼 linked 和 both ways。逻辑完全闭环。",
+                "writing_perspective": "作者在此升华了全篇的哲学高度：野火灾难不是孤立的自然灾害，而是人与自然失衡的生态反馈；认识到双向关联是走出盲目治理的关键第一步，选C精准传达了作者深邃的生态哲学思想。",
+                "theme_validation": "全文主旨就在于揭示人类过度开发与自然火灾的反噬循环，C项“人与自然的相互关系”是文章最高维度的理论基石。",
+                "verdict": "判定：C项代词还原精准，完美提炼双向生态互动关系，为标准正确答案。"
               }
             },
             {
@@ -6165,18 +6291,25 @@
               "is_correct": false,
               "trap_type": "干扰项（反向干扰 / 颠倒黑白）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（反向干扰 / 颠倒黑白）",
-                "source_sentence": "While climate is a key element, Moritz says, it shouldn’t come at the expense of the rest of the equation.",
-                "source_translation": "莫里茨说，虽然气候是一个关键因素，但它不应该以牺牲其余因素为代价。",
-                "locator_comparison": "选项声称“最大限度地发挥景观在人类生活中的作用”，但在原文定位句中，作者表达的态度或客观事实恰恰相反，属于方向相反的典型干扰项。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：““我们需要用放大镜来观察这一点。”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "最大化利用地貌不仅不是根源，反而正是导致火灾的盲目开发行为，排除",
+                "option_nature": "干扰项（反向考查/与生态伦理冲突）",
+                "source_sentence": "...human systems and the landscapes... linked...",
+                "source_translation": "……人类系统与地貌景观……相连……",
+                "locator_comparison": "选项D认为原因是未能“最大化地貌景观在人类生活中的作用（maximize the role of landscape in human life）”。后文明确指出，人类正是因为过度贪婪地开发地貌、在易燃林区盲目扩张建房，才酿成了不可收拾的火灾大祸。去“最大化（maximize）”利用地貌不仅不能解决问题，反而正是火灾失控的直接罪魁祸首。D项具有极其危险的人类中心主义掠夺倾向，与文本倡导的敬畏与协调彻底相悖。",
+                "writing_perspective": "作者在全篇呼吁人类学会谦卑与退让，若倡导最大化索取自然，整篇文章的生态反思将沦为自私的掠夺宣言，D选项极为荒唐。",
+                "theme_validation": "文章反思盲目开发，提倡和谐共生，D项倡导的过度开发利用严重违背绿色可持续主旨。",
+                "verdict": "判定：D项具有掠夺性开发的错误倾向，与生态平衡主旨截然相反，果断排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；<b>B</b>为典型陷阱：属于【偷换概念 / 偏离主干】，借用了原文的词汇 <code>explore</code>, <cod...；<b>C</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>D</b>为典型陷阱：属于【反向干扰 / 颠倒黑白】，选项声称“最大限度地发挥景观在人类生活中的作用”，但在原文定位句中，作...；"
+          "summary": "本题考查对第8段关于“过度简化视角（overly simplified view）”产生根源的深层理解。定位至第8段前两句：“'The human systems and the landscapes we live on are linked, and the interactions go both ways,' he says. Failing to recognize that has led to an overly simplified view...”。句中的代词 that 指代前一句关于“人类社会系统与我们所栖居的自然地貌之间是紧密相连的，并且它们之间的相互作用是双向的（the interactions go both ways）”。未能认清人类与自然之间这种双向交织、不可分割的复杂共生关系，才导致了盲目的单一归因和过度简单化的偏见。C选项 understand the interrelations of man and nature（理解人与自然之间的相互关系）是对人类系统与自然景观双向互动的完美学术归纳。干扰项A（发现自然的根本构造）、B（探索人类系统机制）、D（最大化自然在人类生活中的作用）均割裂了双向互动关系。",
+          "synonym_pairs": [
+            {
+              "opt_term": "understand the interrelations of man and nature",
+              "text_term": "recognize that [The human systems and the landscapes we live on are linked, and the interactions go both ways]",
+              "logic": "understand 对应 recognize（认识到、理解）；man and nature 对应 The human systems and the landscapes we live on；interrelations 完美提炼 are linked and the interactions go both ways（紧密相连且双向互动）。"
+            }
+          ]
         },
         {
           "qid": 40,
@@ -6194,14 +6327,14 @@
               "is_correct": false,
               "trap_type": "干扰项（无中生有 / 过度推断）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "At the same time, people continue to treat fire as an event that needs to be wholly controlled and unleashed only out of necessity, says Professor Balch at the University of Colorado.",
-                "source_translation": "与此同时，科罗拉多大学的巴尔奇教授表示，人们仍然认为火灾是一种需要完全控制的事件，只有在必要时才会发生火灾。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 A 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“For one thing, conversations about wildfires need to be more inclusive”，实际后文并未沿着 A 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 A 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：A错误，坚决排除。"
+                "practice_status": "彻底消除火灾是过去人类的狂妄幻想，文章明确予以驳斥，排除",
+                "option_nature": "干扰项（反向考查/驳论陷阱）",
+                "source_sentence": "At the same time, people continue to treat fire as an event that needs to be wholly controlled and unleashed only... But fire is not something we can ever fully extinguish...",
+                "source_translation": "与此同时，人们继续把火视为一种需要被完全控制并且只能在……时释放的事件。但火绝不是我们能够彻底扑灭的东西……",
+                "locator_comparison": "选项A认为人类应该“彻底消灭火灾（do away with）”。末段首句开门见山批判了人类长期的狂妄心态：妄图完全控制火（wholly controlled）；随后第二句直接驳斥道：“fire is not something we can ever fully extinguish（火绝不是我们所能彻底消灭的事物）”。习语 do away with 意为废除、消灭，完全等同于 fully extinguish。选项A把作者坚决批判并证明不可行的狂妄企图，错当成专家的建议，黑白颠倒。",
+                "writing_perspective": "作者在末尾引用 Balch，旨在完成从人定胜天到敬畏自然的观念颠覆；A选项把被颠覆的陈旧神话当成了结论，彻底摧毁了全篇的升华高潮。",
+                "theme_validation": "全文的核心洞察正是“火是扑不灭的自然力量”，A项公然宣称消灭火，违背全篇基本科学结论。",
+                "verdict": "判定：A项颠倒是非，将作者批判的旧思想误作为应对策略，果断排除。"
               }
             },
             {
@@ -6211,14 +6344,14 @@
               "is_correct": true,
               "trap_type": "★ 标准正确同义改写",
               "analysis": {
-                "practice_status": "选项中的核心概念与原文定位句高度契合，逻辑严密，保留作为标准正选。",
-                "option_nature": "★ 标准正确同义改写",
-                "source_sentence": "At the same time, people continue to treat fire as an event that needs to be wholly controlled and unleashed only out of necessity, says Professor Balch at the University of Colorado.",
-                "source_translation": "与此同时，科罗拉多大学的巴尔奇教授表示，人们仍然认为火灾是一种需要完全控制的事件，只有在必要时才会发生火灾。",
-                "locator_comparison": "选项核心词 <code>come</code>, <code>terms</code>（“达成协议”）准确概括了原文第 5 段定位句的主干事实，二者语义完全等价。",
-                "writing_perspective": "后文实际写道：“For one thing, conversations about wildfires need to be more inclusive”，如果 B 选项成立，后文行文脉络与论证走向完全自然衔接。",
-                "theme_validation": "将 B 选项代入题干进行闭环检验，完全契合全文核心主旨走向，孤证不立，百分之百确证答案。",
-                "verdict": "复盘判断：B正确。"
+                "practice_status": "对比末段 learn to live with 以及 coming to terms with，秒定B",
+                "option_nature": "正确项（原词咬合/主旨升华）",
+                "source_sentence": "It is a natural process that humans must learn to live with, coming to terms with its presence on the landscape.",
+                "source_translation": "这是一个人类必须学会与之共存的自然过程，去学会接受并适应它在自然景观中的存在。",
+                "locator_comparison": "选项B指出人类应该对火“学会接纳并妥协共存（come to terms with）”。定位句中，Balch 教授明确给出了人类与火相处的终极智慧：“humans must learn to live with, coming to terms with its presence on the landscape”。习语 come to terms with 意为“妥协、达成和解、学会接受并适应客观现实”。B选项原原本本地提取了这一核心动词短语，完全忠于原文，体现了至高境界的生态共存智慧。",
+                "writing_perspective": "作者用极其宏大的生态哲学为全篇收官：人类必须戒除对抗自然的傲慢，学会像接纳风雨一样接纳野火，选B以极其震撼的文字力量锁定了全篇最高主旨。",
+                "theme_validation": "全文从灭火预算危机谈起，最终升华到人与自然力量的和解共存，B项是全篇主旨当之无愧的灵魂词汇。",
+                "verdict": "判定：B项原词精准咬合，完美传递敬畏自然与学会共存的主题升华，为标准正确答案。"
               }
             },
             {
@@ -6228,14 +6361,14 @@
               "is_correct": false,
               "trap_type": "干扰项（张冠李戴 / 范围偏差）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（张冠李戴 / 范围偏差）",
-                "source_sentence": "At the same time, people continue to treat fire as an event that needs to be wholly controlled and unleashed only out of necessity, says Professor Balch at the University of Colorado.",
-                "source_translation": "与此同时，科罗拉多大学的巴尔奇教授表示，人们仍然认为火灾是一种需要完全控制的事件，只有在必要时才会发生火灾。",
-                "locator_comparison": "将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所问。 原文强调的是客观严谨的事实逻辑，而 C 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“For one thing, conversations about wildfires need to be more inclusive”，实际后文并未沿着 C 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 C 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：C错误，坚决排除。"
+                "practice_status": "文中指出人类在被动承受损失，但专家的建议是主动转变思维达成和解，排除",
+                "option_nature": "干扰项（消极偏离/未体现主动策略）",
+                "source_sentence": "...coming to terms with its presence on the landscape.",
+                "source_translation": "……去学会接受并适应它在自然景观中的存在。",
+                "locator_comparison": "选项C认为人类应该“为之付出代价（pay a price for）”。虽然人类如果继续蛮干确实会付出高昂代价，但题干考查的是 Balch 教授认为人类应当采取的“主动态度和处理方式（something man should do）”。专家的建设性建议是学会接纳（come to terms with / live with），而不是消极被动地去“为之付出沉重代价（pay a price for）”。C项把悲惨的客观后果偷换成了行动建议，偏离要旨。",
+                "writing_perspective": "Balch 发言的意图是给出解决方案，引领公众走向理性，若结论是让大家认命付出代价，整篇文章就滑向了消极宿命论的深渊，C选项格调低下。",
+                "theme_validation": "文章追求的是通过科学规划减少人员财产损失，达成智慧共处，而非盲目买单受难，C项违背积极治理导向。",
+                "verdict": "判定：C项消极曲解专家倡议，将行动策略歪曲为被动受罚，果断排除。"
               }
             },
             {
@@ -6245,18 +6378,25 @@
               "is_correct": false,
               "trap_type": "干扰项（无中生有 / 过度推断）",
               "analysis": {
-                "practice_status": "在初步比对时发现与定位句事实存在偏差，果断排除。",
-                "option_nature": "干扰项（无中生有 / 过度推断）",
-                "source_sentence": "At the same time, people continue to treat fire as an event that needs to be wholly controlled and unleashed only out of necessity, says Professor Balch at the University of Colorado.",
-                "source_translation": "与此同时，科罗拉多大学的巴尔奇教授表示，人们仍然认为火灾是一种需要完全控制的事件，只有在必要时才会发生火灾。",
-                "locator_comparison": "选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支撑。 原文强调的是客观严谨的事实逻辑，而 D 选项存在明显的逻辑断层。",
-                "writing_perspective": "后文实际写道：“For one thing, conversations about wildfires need to be more inclusive”，实际后文并未沿着 D 选项主张的逻辑展开，在行文逻辑上无法立足。",
-                "theme_validation": "全文始终秉持客观深入的论调，而 D 选项的片面表述与文章整体核心意图产生冲突，直接予以排除。",
-                "verdict": "复盘判断：D错误，坚决排除。"
+                "practice_status": "人类已经居住在林区，且火不可避免，无法绝对远离，排除",
+                "option_nature": "干扰项（反向考查/脱离现实）",
+                "source_sentence": "...humans must learn to live with, coming to terms with its presence on the landscape.",
+                "source_translation": "……人类必须学会与之共存，去学会接受并适应它在自然地貌中的存在。",
+                "locator_comparison": "选项D认为人类应该“远离火灾（keep away from）”。原文明确强调火灾是广袤地貌景观中无处不在的自然过程（its presence on the landscape），人类系统与自然系统已经深度交织，根本不可能做到绝对的“远离（keep away from）”。专家的建议不是逃跑或隔离，而是学会在火的伴随下合理规划家园与共存（learn to live with）。D项的逃避主义表述与共存的主旨完全相冲。",
+                "writing_perspective": "如果解决办法是远离，那么整个美国西部数千万居民都必须举家搬迁，这在现实中毫无可行性；Balch 倡导的是在火的边缘建立弹性的韧性社会，D选项显得极为幼稚可笑。",
+                "theme_validation": "文章反思的不是物理避难，而是生态共存范式的重建，D项脱离现实生存土壤。",
+                "verdict": "判定：D项盲目主张物理逃避，与学会共存的生态智慧背道而驰，果断排除。"
               }
             }
           ],
-          "summary": "这道题的四个选项命题设计意图与避坑归纳：<b>A</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；<b>B</b>为正确正选：精准提炼原文核心主干并进行严密同义改写；<b>C</b>为典型陷阱：属于【张冠李戴 / 范围偏差】，将文中其他段落的背景细节或非相关对象的属性强加到本题提问对象上，答非所...；<b>D</b>为典型陷阱：属于【无中生有 / 过度推断】，选项引入了原文未提及的极端概念或过度引申，强加因果逻辑，缺乏原文事实支...；"
+          "summary": "本题考查对末段 Balch 教授总结性观点中核心习语的理解与态度推断。定位至第9段：“At the same time, people continue to treat fire as an event that needs to be wholly controlled and unleashed only out of... But fire is not something we can ever fully extinguish... It is a natural process that humans must learn to live with, coming to terms with its presence on the landscape”。Balch 指出，人类长久以来总妄想把火完全控制或消灭，但火是自然界不可分割的生态循环过程，人类根本无法将其彻底消灭；人类唯一明智的出路是学会与火共存、在心理与制度上“接受并妥协（come to terms with）”。B选项 come to terms with（达成妥协、顺应、学会接受）是对定位句思想的原汁原味再现。干扰项A（彻底消灭——作者痛批的旧观念）、C（付出代价）、D（远离火——不可行）均违背顺应共存的生态观。",
+          "synonym_pairs": [
+            {
+              "opt_term": "come to terms with",
+              "text_term": "coming to terms with its presence on the landscape / learn to live with",
+              "logic": "come to terms with（妥协、接纳、达成和解）在文中原词直接出现，与 learn to live with（学会与之共存）共同确立了人类面对自然火灾的唯二正确姿态。"
+            }
+          ]
         }
       ],
       "macro_logic": {
