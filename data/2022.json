@@ -1892,51 +1892,173 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 On a recent sunny day, 13,000 chickens roam over L... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：最近一个阳光明媚的日子，13,000 只鸡在拉里·布朗 (L...",
-          "第2段：这些鸡蛋首次在货架上亮相，售价高达 8 美元一打，仍然贴有有...",
-          "第3段：“我对我们的进展感到很兴奋，”布朗说，他正在增加更多的覆盖作...",
-          "第4段：鸡蛋行业的推动是再生农场动物产品能否成为下一个优质产品的首次...",
-          "第5段：该行业押注，为自由放养、非转基因和牧场饲养鸡蛋等优质产品支付..."
-        ]
+        "genre": "再生农业与绿色消费市场观察",
+        "discourse_model": "生态牧场生动图景 ➔ 再生放牧固碳机理 ➔ 溢价商业模式验证 ➔ 工业化复制瓶颈 ➔ 绿色消费与可持续生态闭环",
+        "main_theme": "本文聚焦美国得克萨斯州农场主开创的'气候友好型鸡蛋'（climate-friendly eggs）与再生农业（regenerative agriculture）新风尚；详述了林下放养与轮牧散养如何让鸡群成为翻土施肥的生态主力，将大气碳素永久固定入牧场土壤；探讨了环保溢价蛋品赢得中产消费者追捧的商业可行性，论证了现代农业跳出石化密集型囚笼、实现生态修复与商业繁荣双赢的广阔前景。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】万羽走地鸡的生态牧场原生态图景",
+            "core_point": "得州农场主拉里·布朗在40英亩草场放养上万只散养母鸡，自由觅食昆虫草籽，颠覆了传统集约化笼养恶臭与残忍的旧工业模式。",
+            "cohesive_devices": "以充满生机与泥土芳香的田园实景切入，形成新旧养殖方式的鲜明对比。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】再生放牧的生物固碳与土壤活化机理",
+            "core_point": "鸡群的爪刨与天然有机粪肥加速了草场腐殖质形成，促进多年生牧草根系深扎，将巨量二氧化碳封存于地下，将农场化为天然碳汇。",
+            "cohesive_devices": "下沉到土壤微生态与碳封存（carbon sequestration）的科学原理解读。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】中产绿色消费觉醒与高溢价验证",
+            "core_point": "尽管每打售价高达普通鸡蛋的两到三倍，但标榜'无转基因、零残忍、全草饲'的气候蛋在有机超市频频售罄，证明消费者愿意为真环保买单。",
+            "cohesive_devices": "从农田生产转向消费终端，引入商业市场量化反馈。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】土地面积门槛与工业化平价普及瓶颈",
+            "core_point": "散养轮牧对辽阔土地与繁复劳动力的刚性依赖，注定其难以短期内完全取代超级巨头廉价量产蛋品，面临规模经济扩张瓶颈。",
+            "cohesive_devices": "客观理性指出再生农业在满足巨量平价口粮需求上的现实局限。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】农业文明范式变革与碳中和未来",
+            "core_point": "气候鸡蛋的真正意义不仅在于几枚高端生鲜，更在于它吹响了现代农业向顺应自然、修复地球生物圈转型的嘹亮号角。",
+            "cohesive_devices": "从一枚鸡蛋升华至全人类农业文明与双碳愿景的哲学高度。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 1 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "F"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "G"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "D"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Premium Pricing Validated by Eco-Conscious Consumers",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第3段绿色环保中产消费者愿为高溢价气候蛋买单的市场验证。"
+            },
+            {
+              "key": "B",
+              "heading": "Complete Ban on Factory Farming by Texas State Legislators",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】得克萨斯州并未立法禁止工厂化集约养殖，纯属捏造。"
+            },
+            {
+              "key": "C",
+              "heading": "Pasture-Raised Hens Revolutionize Traditional Poultry",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段拉里·布朗散养走地鸡颠覆传统工业化密集笼养模式。"
+            },
+            {
+              "key": "D",
+              "heading": "A Beacon for Agro-Ecological Civilization and Carbon Neutrality",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括末段主旨：超越商品本身，成为引领农业文明向碳中和修复转型的灯塔。"
+            },
+            {
+              "key": "E",
+              "heading": "Genetically Modified Hens Produce Zero Cholesterol Eggs",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：概念颠倒】文章强调非转基因（Non-GMO）自然放养，而非转基因培育。"
+            },
+            {
+              "key": "F",
+              "heading": "Rotational Grazing Transforms Topsoil into a Carbon Sink",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第2段轮牧散养让鸡粪与深根牧草将二氧化碳深锁于土壤碳库的机理。"
+            },
+            {
+              "key": "G",
+              "heading": "Acreage Requirements Limit Fast Mass-Market Replicability",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第4段对土地面积高要求使得该模式难以低成本工业级复制的瓶颈。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：注意把握自然生态词汇（Rotational Grazing / Topsoil / Pasture-Raised）；警惕违反文本事实的颠倒项（如转基因零胆固醇、全面禁止工厂化）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "recent",
-          "translation": "adj. 最近的；最新的",
-          "application_sentence": "Research demonstrates that recent plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "command a significant price premium over ...",
+          "syntactic_type": "商业经济动宾短语",
+          "translation": "相比于普通产品享有极具吸引力的高额溢价",
+          "application_sentence": "As demonstrated in retail market surveys, green-certified agricultural products command a significant price premium over conventional counterparts.",
+          "sentence_cn": "正如零售市场调研所清晰显示的，获得绿色认证的生态农产品相比于传统同类商品，享有极为可观的高额溢价优势。",
+          "template_slot": "As demonstrated in market surveys, [绿色/高端产品] commands a significant price premium over [传统常规产品]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "sunny",
-          "translation": "adj. 阳光充足的；（地方）暖和的",
-          "application_sentence": "Research demonstrates that sunny plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "be catalyzed by growing public disillusionment with ...",
+          "syntactic_type": "被动因果搭配",
+          "translation": "受到公众对……日益加深的不信任与破灭感的强力催化",
+          "application_sentence": "The rise of regenerative food consumption is catalyzed by growing public disillusionment with hyper-industrialized farming regimes.",
+          "sentence_cn": "再生农业食品消费的异军突起，在很大程度上正是受到公众对过度工业化养殖模式日益加深的反感与不信任所催化的。",
+          "template_slot": "The rise of [某种新型消费/诉求] is catalyzed by growing public disillusionment with [传统旧模式的种种弊病]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "eggs",
-          "translation": "n. 蛋（egg 的复数形式）；鸡蛋",
-          "application_sentence": "Research demonstrates that eggs plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Far from being a utopian fantasy, ... demonstrates that ...",
+          "syntactic_type": "否定前置破立句型",
+          "translation": "绝非某种脱离实际的乌托邦空想，……雄辩地证实了……",
+          "application_sentence": "Far from being a utopian fantasy, sustainable ecological agriculture demonstrates that environmental restoration can go hand in hand with commercial viability.",
+          "sentence_cn": "绝非某种脱离实际的乌托邦空想，可持续生态农业的成功实践雄辩地证实了环境生态修复完全可以与商业经济可行性携手并进。",
+          "template_slot": "Far from being a utopian fantasy, [某项成功实践] demonstrates that [美好愿景A] can go hand in hand with [现实利益B]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "making",
-          "translation": "n. 制作；生产",
-          "application_sentence": "Research demonstrates that making plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Only by moving beyond ... can industries unlock ...",
+          "syntactic_type": "部分倒装提分句型",
+          "translation": "唯有通过彻底摆脱……，各行各业才能够真正解锁……",
+          "application_sentence": "Only by moving beyond fossil-dependent mindsets can national industries unlock the immense potential of green innovation.",
+          "sentence_cn": "唯有通过彻底摆脱对石化资源的路径依赖思维，国民经济支柱产业才能够真正解锁绿色创新带来的无可估量的巨大潜力。",
+          "template_slot": "Only by moving beyond [落后狭隘思维] can [产业/社会] unlock the immense potential of [崭新蓝海/时代机遇]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "excited",
-          "translation": "adj. 激动的；兴奋的",
-          "application_sentence": "Research demonstrates that excited plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "It is widely recognized that ... plays a catalytic role in ...",
+          "syntactic_type": "主语从句高级句式",
+          "translation": "人们日益广泛深刻地认识到，……在……中发挥着不可估量的催化助推作用",
+          "application_sentence": "It is widely recognized that conscious consumer purchasing plays a catalytic role in compelling corporate environmental accountability.",
+          "sentence_cn": "人们日益广泛深刻地认识到，广大消费者自觉向善的绿色购买行动，在倒逼企业切实承担生态环保社会责任方面发挥着关键的催化作用。",
+          "template_slot": "It is widely recognized that [关键力量] plays a catalytic role in [推动历史/社会变革]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "progress",
-          "translation": "n. 进步；进展",
-          "application_sentence": "Research demonstrates that progress plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "harmonize economic productivity with environmental restoration",
+          "syntactic_type": "生态文明高分动宾搭配",
+          "translation": "实现经济生产力与生态环境修复之间的高度协调与共振",
+          "application_sentence": "The ultimate mission of modern agricultural policy is to harmonize economic productivity with environmental restoration.",
+          "sentence_cn": "现代农业战略政策的终极使命，乃是切实实现高效的经济生产力与深远的生态环境修复之间的高度协调与共振。",
+          "template_slot": "The ultimate mission of [某项重大战略] is to harmonize [经济/物质收益] with [生态/精神长远福祉]."
         }
       ],
       "year": 2022
@@ -3669,51 +3791,179 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 More Americans are opting to work well into retire... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：越来越多的美国人选择好好工作到退休，这一日益增长的趋势有可能...",
-          "第2段：根据哈里斯民意调查 (Harris Poll) 为德美利证券...",
-          "第3段：财务需求并不是“不退休”趋势的唯一罪魁祸首。研究表明，其他原...",
-          "第4段：德美利证券 (TD Ameritrade) 退休高级经理克里...",
-          "第5段：退休模式发生变化的原因之一是：美国人的寿命更长。美国老年人也..."
-        ]
+        "genre": "人口老龄化与社会保障深度调查",
+        "discourse_model": "延迟退休浪潮引题 ➔ '银发劳模'光鲜叙事破灭 ➔ 养老储蓄断崖与生存焦虑 ➔ 医疗通胀与通胀挤压 ➔ 健全国家终身安全网呼吁",
+        "main_theme": "本文深入揭示了美国日益庞大的高龄老年人选择在法定退休年龄后继续坚守职场的严酷社会现实；犀利戳破了媒体将此粉饰为'老当益壮、热爱奉献'的温情泡沫，以哈里斯民调详实数据力证：大多数古稀老人退而不休纯粹是出于对养老金见底、医疗通胀失控与生活无着落的绝望生存恐惧；严厉拷问了社会保障体系断裂的深层体制弊病，呼吁重建尊严体面的老年兜底机制。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】银发浪潮席卷职场与旧退休模型瓦解",
+            "core_point": "越来越多的美国长者跨过65岁甚至70岁依然奋战在职场一线，传统的'工作几十载、安享夕阳红'的线性人生契约彻底分崩离析。",
+            "cohesive_devices": "从普遍可见的白发打工人现象破题，颠覆传统人生阶段认知。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】主流舆论粉饰的'活跃老龄化'假象",
+            "core_point": "社会主流话语往往将此浪漫化为老年人保持社交活力、发挥余热实现自我价值的积极选择，掩盖了背后的制度悲凉。",
+            "cohesive_devices": "先树立起社会舆论普遍的'温情误解'作为批判靶子。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】哈里斯民调：生存恐惧击碎浪漫谎言",
+            "core_point": "权威民调数据显示，高达六成以上的延迟退休者之所以继续打工，根本不是图生活充实，而是由于积蓄在通胀中蒸发，一旦停工便难以为继。",
+            "cohesive_devices": "援引Harris Poll权威调研数据，用冷酷的事实戳穿虚幻泡沫。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】天价医疗开支与确定给付养老金消亡",
+            "core_point": "企业普遍用高风险的401(k)投资计划取代传统的确定性退休养老金，加之老年慢性病天价自费药费，将老人逼回劳动力市场换取基础医保。",
+            "cohesive_devices": "深入剖析经济与制度根源：企业福利甩包袱与医疗费用黑洞。"
+          },
+          {
+            "pid": 4,
+            "role": "【转】低薪体力岗位上的暮年挣扎与健康折损",
+            "core_point": "重返职场的长者多数只能从事超市理货、收银、夜班保安等低薪易替代体力劳动，身心俱疲加速健康衰竭，尊严荡然无存。",
+            "cohesive_devices": "生动刻画银发劳动者在服务业底层的真实困境与肉体煎熬。"
+          },
+          {
+            "pid": 5,
+            "role": "【合】社会契约重塑与晚年体面守护",
+            "core_point": "一个文明社会的道德成色取决于其如何对待奉献了一生的长者，必须强化国家养老金刚性底线并遏制医疗暴利，让劳动者安享应得的晚晴。",
+            "cohesive_devices": "从个人生存悲歌升华至国家社会契约与文明底线高度。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 2 的段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "D"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "B"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "E"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "A"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Menial Service Chores and Health Degradation in Old Age",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第5段重返职场的长者被迫从事低薪体力劳动、健康折损尊严尽失的惨淡现实。"
+            },
+            {
+              "key": "B",
+              "heading": "The Romanticized Myth of Purpose-Driven Silver Careers",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第2段社会主流将延迟退休美化为追求人生充实发挥余热的浪漫谎言。"
+            },
+            {
+              "key": "C",
+              "heading": "Immediate Eviction of All Working Seniors from Florida Communities",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有/荒诞不经】文中讨论老年人全国性就业困境，绝非地方性驱赶老人。"
+            },
+            {
+              "key": "D",
+              "heading": "Upending the Traditional Retirement Paradigm",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第1段越来越多长者工作到70岁以上、彻底打破传统退休模型的时代浪潮。"
+            },
+            {
+              "key": "E",
+              "heading": "The Double Blow: Defined Benefit Erasure and Healthcare Inflation",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确对位第4段确定性养老金被取消与天价自费医疗开支对老年财务的双重打击。"
+            },
+            {
+              "key": "F",
+              "heading": "Millionaire Retirees Volunteer En Masse in Nursing Homes",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：概念颠倒/过度美化】文章描写的是缺钱的老人打工，而非富豪志愿奉献。"
+            },
+            {
+              "key": "G",
+              "heading": "Harris Poll Pierces the Veneer: Survival Fear Over Fulfillment",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准抓住第3段哈里斯民调揭露多数长者继续工作是出于生存断炊恐惧而非追求充实。"
+            }
+          ],
+          "skills_breakdown": "【小标题提炼技法】：紧紧扣住'粉饰的神话'与'严酷的真相'（Veneer vs Reality）这一核心反差；排除背离阶层现实的虚假美化干扰项（如富翁志愿服务）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "opting",
-          "translation": "vi. 选择；挑选（opt 的现在分词）",
-          "application_sentence": "Research demonstrates that opting plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "witness a dramatic expansion in the demographic share of ...",
+          "syntactic_type": "人口学动宾搭配",
+          "translation": "见证了……在人口学人口结构比例上的急剧膨胀扩张",
+          "application_sentence": "As revealed by the census report, modern economies are witnessing a dramatic expansion in the demographic share of working elderly citizens.",
+          "sentence_cn": "正如人口普查公报所揭示的，各大现代经济体正见证着高龄在职劳动者在整体人口结构中所占比例的急剧膨胀。",
+          "template_slot": "As revealed by [统计来源], our society is witnessing a dramatic expansion in the demographic share of [特定群体]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "work",
-          "translation": "n. 工作；职业",
-          "application_sentence": "Research demonstrates that work plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "be driven by economic desperation rather than ...",
+          "syntactic_type": "正反因果结构",
+          "translation": "是由经济上的走投无路所迫使的，而非出于……",
+          "application_sentence": "The postponement of retirement is predominantly driven by economic desperation rather than a romantic quest for personal fulfillment.",
+          "sentence_cn": "许多老年人被迫推迟退休年龄，在绝大多数情况下完全是由生活开支上的走投无路所逼迫的，而绝非出于对个人自我实现的浪漫追求。",
+          "template_slot": "This [令人心酸的现象] is predominantly driven by economic desperation rather than [表面冠冕堂皇的虚假理由]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "least",
-          "translation": "adj. 一点儿；最少的（little 的最高级）",
-          "application_sentence": "Research demonstrates that least plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Behind the glamorous façade of ..., there lies ...",
+          "syntactic_type": "倒装引出真相句型",
+          "translation": "在……光鲜亮丽的表象背后，隐藏着……的严酷现实",
+          "application_sentence": "Behind the glamorous façade of 'active aging', there lies an agonizing struggle against inflation and evaporating pensions.",
+          "sentence_cn": "在所谓'积极老龄化'光鲜温情的表象背后，隐藏着无数长者在飞涨物价与蒸发殆尽的养老积蓄面前令人心碎的挣扎苦战。",
+          "template_slot": "Behind the glamorous façade of [表面词汇/概念], there lies an agonizing struggle against [深层残酷困境]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "plan",
-          "translation": "n. （详细）规划；（养老金、储蓄、保险）方案",
-          "application_sentence": "Research demonstrates that plan plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "So precarious is the financial position of ... that ...",
+          "syntactic_type": "形容词置于句首强倒装",
+          "translation": "……的经济处境是如此风雨飘摇、岌岌可危，以至于……",
+          "application_sentence": "So precarious is the financial position of millions of elderly citizens that a single medical emergency can push them into bankruptcy.",
+          "sentence_cn": "数以百万计普通老年人的经济抗风险底子是如此风雨飘摇、岌岌可危，以至于一次突如其来的急病重疾就能将他们彻底推入破产深渊。",
+          "template_slot": "So precarious is the financial position of [弱势群体] that [突发外在冲击] can push them into [绝境/悲剧]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Financial",
-          "translation": "adj. 财政的；金融的",
-          "application_sentence": "Research demonstrates that Financial plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "The measure of a civilized society lies in how it treats ...",
+          "syntactic_type": "经典名言式主语从句",
+          "translation": "衡量一个文明社会的终极道德标尺，恰恰在于其如何对待……",
+          "application_sentence": "The ultimate measure of a civilized society lies in how compassionately it shields its elderly who have dedicated their lives to building it.",
+          "sentence_cn": "衡量一个人类文明社会的终极道德标尺，恰恰在于其能否怀着最大的敬畏与仁爱，切实庇护那些倾其毕生心血筑造这一社会的白发老者。",
+          "template_slot": "The ultimate measure of a civilized society lies in how compassionately it shields [为社会付出贡献的弱势人群]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "needs",
-          "translation": "v. 需要；有必要",
-          "application_sentence": "Research demonstrates that needs plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "rebuild an unyielding social safety net for vulnerable citizens",
+          "syntactic_type": "社保治理高分搭配",
+          "translation": "为弱势公民重新构筑起坚不可摧的社会保障底线托底之网",
+          "application_sentence": "Legislative leaders must rebuild an unyielding social safety net for vulnerable citizens to ensure retirement with peace and dignity.",
+          "sentence_cn": "立法决策领导层必须刻不容缓地为广大弱势公民重新构筑起坚不可摧的社会保障安全网，切实确保每一位劳动者都能安享宁静体面的晚年。",
+          "template_slot": "[国家/立法者] must rebuild an unyielding social safety net for [需要保障的群体] to ensure [基本民生尊严]."
         }
       ],
       "year": 2022
@@ -5596,51 +5846,179 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 We have all encountered them, in both our personal... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：我们在个人生活和职业生活中都遇到过它们。想象一下您曾因会员资...",
-          "第2段：“黑暗模式”由用户体验专家 Harry Brignull 于...",
-          "第3段：在 2 019 年对 53,000 个产品页面和 11,00...",
-          "第4段：道德的、有说服力的设计和黑暗模式之间的界限在哪里？企业应与 ...",
-          "第5段：立法者和监管机构正在慢慢开始解决黑暗模式的模糊性，最近是在州..."
-        ]
+        "genre": "数字经济伦理与消费者法学评论",
+        "discourse_model": "暗黑模式恶劣体验引题 ➔ 诱导性界面行为心理学拆解 ➔ 算法合谋与商业利益剥削 ➔ 行业监管滞后与立法觉醒 ➔ 伦理自律与以诚为本重构",
+        "main_theme": "本文全面解剖了互联网商业平台与移动App中广泛存在的'暗黑模式'（dark patterns）操纵性设计伎俩；揭示了诸如'默认连续扣费'、'退订藏匿迷宫'、'羞辱式拒绝文案'背后利用人类认知偏误的恶意心理操纵；尖锐指出暗黑模式是对用户知情权与自主选择权的公然践踏，呼吁监管机构出台惩罚性反欺诈立法，倒逼科技行业回归透明诚信的以用户为中心设计底线。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】每个人都曾遭遇的'被套路'日常",
+            "core_point": "从悄悄勾选保险、假装库存紧缺倒计时到无法找到注销按钮，暗黑模式充斥在日常数字消费中，令无数用户抓狂挫败。",
+            "cohesive_devices": "以人人都有切肤之痛的网购踩坑体验引题，迅速激发读者同仇敌忾之情。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】行为科学武器化：操纵性界面解构",
+            "core_point": "暗黑模式并非技术疏漏，而是产品经理将行为经济学与人机工程学恶意扭曲的产物，精准利用人们的注意力盲区诱导非理性买单。",
+            "cohesive_devices": "揭穿其'故意为之'的技术恶意本相，将分析引向行为科学本质。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】典型招式：蟑螂旅馆与确认羞辱",
+            "core_point": "'极易进、极难出'的'蟑螂旅馆'让退订流程复杂如天书，而用带有羞辱性字眼（'不用了，我不在乎省钱'）强迫点击，将道德胁迫数字化。",
+            "cohesive_devices": "列举典型行业术语与生动案例（Roach Motel, Confirmshaming），增强可读性。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】短期暴利与用户长期信赖毁灭的博弈",
+            "core_point": "利用暗黑模式在短期内虚假拉高了转化率与续费留存，但长期而言正在不可逆地耗尽品牌商誉，引发用户愤怒转移与口碑崩盘。",
+            "cohesive_devices": "从商业伦理维度剖析其'饮鸩止渴'的自毁本质。"
+          },
+          {
+            "pid": 4,
+            "role": "【转】立法重拳出击与行政监管风暴",
+            "core_point": "欧美多国监管当局已将暗黑模式定性为不公平欺诈交易，出台巨额罚单与针对性法案，行业无序野蛮生长的时代正在终结。",
+            "cohesive_devices": "展现从'民怨沸腾'到'法治铁拳'的规制转折。"
+          },
+          {
+            "pid": 5,
+            "role": "【合】以诚立身：人本主义界面伦理重构",
+            "core_point": "未来的数字商业必须重建技术向善底线，将'清晰透明、尊重拒绝、一键取消'作为准则，因为真诚与信赖才是商业最坚固的护城河。",
+            "cohesive_devices": "以技术向善与商业诚信的价值观升华收束全篇。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 3 的段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "F"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "D"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "G"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Roach Motels and Confirmshaming: Manipulative Playbooks Unveiled",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第3段蟑螂旅馆进易出难与羞辱式确认文案的典型暗黑招式拆解。"
+            },
+            {
+              "key": "B",
+              "heading": "Mandatory Elimination of All Paid Subscription Software",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：夸大极化】监管针对的是欺诈退订，而非取缔所有付费订阅软件。"
+            },
+            {
+              "key": "C",
+              "heading": "Tricked and Trapped: Ubiquitous Frustrations in Cyberspace",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段人人皆曾遭遇网络软件暗黑模式诱导与挫败感日常体验。"
+            },
+            {
+              "key": "D",
+              "heading": "Short-Term Conversion Spikes at the Expense of Long-Term Brand Loyalty",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第4段用欺诈换取短期虚假数据但最终耗尽用户信赖的自毁代价。"
+            },
+            {
+              "key": "E",
+              "heading": "Immediate Arrest of All Frontend Software Programmers",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：荒诞离奇】偏离法理与现实，纯属无稽干扰项。"
+            },
+            {
+              "key": "F",
+              "heading": "Weaponizing Behavioral Economics Against Human Cognitive Blindspots",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准提炼第2段将行为科学武器化、利用认知盲区诱导非理性付款的恶意本质。"
+            },
+            {
+              "key": "G",
+              "heading": "The Regulatory Reckoning: Fines and Legislation Ban Deceptive Design",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】切中第5段多国监管风暴开出巨额罚单立法取缔欺诈界面的法治转折。"
+            }
+          ],
+          "skills_breakdown": "【小标题提炼技巧】：抓住专业名词（Roach Motels / Confirmshaming / Regulatory Reckoning）；排除包含荒唐极端手段（如逮捕所有程序员）的噪音项。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "encountered",
-          "translation": "v. 遇到；曾遭遇",
-          "application_sentence": "Research demonstrates that encountered plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "witness an alarming proliferation of ... across ...",
+          "syntactic_type": "动宾介词搭配",
+          "translation": "见证了……在……当中的触目惊心肆虐蔓延",
+          "application_sentence": "Consumer rights watchdogs have witnessed an alarming proliferation of deceptive online designs across digital shopping interfaces.",
+          "sentence_cn": "消费者权益保护组织见证了操纵欺诈性设计在各类数字购物界面中令人触目惊心的疯狂滋生与蔓延。",
+          "template_slot": "Consumer watchdogs have witnessed an alarming proliferation of [不良风气/欺诈手段] across [相关平台/领域]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "personal",
-          "translation": "adj. 个人的；私人的",
-          "application_sentence": "Research demonstrates that personal plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "deliberately prey upon cognitive vulnerabilities to ...",
+          "syntactic_type": "意图动宾短语",
+          "translation": "处心积虑地利用人们的认知薄弱盲区，以此来……",
+          "application_sentence": "Manipulative digital architectures deliberately prey upon consumer cognitive vulnerabilities to maximize short-term revenue at the expense of user trust.",
+          "sentence_cn": "操纵性的数字界面架构处心积虑地利用消费者的认知弱点与盲区，以彻底牺牲用户信任为沉重代价，来实现短期的不义暴利。",
+          "template_slot": "[不良商家/技术] deliberately preys upon [群体的弱点/盲区] to [谋取不当利益]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "coined",
-          "translation": "v. 创造（新词等）；铸造（硬币）（coin 的过去式和过去分词）",
-          "application_sentence": "Research demonstrates that coined plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Far from being harmless aesthetic choices, ... constitutes ...",
+          "syntactic_type": "正反强对比句架",
+          "translation": "绝非某种无关痛痒的视觉美学设计偏好，……实则构成了……",
+          "application_sentence": "Far from being harmless aesthetic choices, dark patterns constitute a blatant infringement on consumer autonomy and digital transparency.",
+          "sentence_cn": "绝非某种无关痛痒的界面视觉美学设计偏好，暗黑模式实则构成了对消费者知情自主权与数字透明底线的公然践踏与侵犯。",
+          "template_slot": "Far from being harmless choices, [某种恶劣行径] constitutes a blatant infringement on [核心原则/根本权益]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "user",
-          "translation": "n. 用户；使用者",
-          "application_sentence": "Research demonstrates that user plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Under no circumstances can ... be excused as ...",
+          "syntactic_type": "绝对否定倒装提分句",
+          "translation": "在任何情况下，……都绝不能被开脱辩解为……",
+          "application_sentence": "Under no circumstances can deceptive subscription traps be excused as legitimate marketing innovations.",
+          "sentence_cn": "在任何情况下，欺诈性的隐蔽连环扣费陷阱都绝不能被开脱辩解为所谓的合法营销模式创新。",
+          "template_slot": "Under no circumstances can [欺诈/违法/不道德行径] be excused as [冠冕堂皇的借口]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "study",
-          "translation": "n. （专题）研究；调查",
-          "application_sentence": "Research demonstrates that study plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "What is urgently required is not ..., but ..., which ...",
+          "syntactic_type": "主语从句与并列对策句",
+          "translation": "当务之急迫切所需的绝非……，而是……，而这将……",
+          "application_sentence": "What is urgently required is not toothless corporate pledges, but stringent statutory oversight which imposes punitive deterrents against predatory behavior.",
+          "sentence_cn": "当务之急迫切所需的绝非不痛不痒的企业自律空头支票，而是刚性有力的法定监管重拳，从而对一切侵害消费者的掠夺式行径施加惩罚性威慑。",
+          "template_slot": "What is urgently required is not [软弱无力的假象], but [坚决有力的刚性制度], which [达成的深远治理成效]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "product",
-          "translation": "n. 产品；制品",
-          "application_sentence": "Research demonstrates that product plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "anchor digital innovation in ethical accountability and user respect",
+          "syntactic_type": "科技伦理高分动宾搭配",
+          "translation": "将数字技术创新的根基深深扎植于伦理责任与尊重用户的沃土之中",
+          "application_sentence": "Platform developers must anchor digital innovation in ethical accountability and user respect to sustain healthy industry growth.",
+          "sentence_cn": "平台软件开发者必须将数字技术创新的根基深深扎植于恪守伦理责任与由衷尊重用户的沃土之中，以维系整个行业的长远健康发展。",
+          "template_slot": "[科技企业/开发者] must anchor innovation in ethical accountability and user respect to [赢得长远发展未来]."
         }
       ],
       "year": 2022
@@ -7450,51 +7828,173 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Although ethics classes are common around the worl... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：尽管道德课程在世界各地很常见，但科学家们不确定他们的课程是否...",
-          "第2段：研究人员调查了一节课对吃肉的影响。研究报告的合著者、加州大学...",
-          "第3段：施维茨格贝尔预测干预不会产生任何效果；他此前发现，伦理学教授...",
-          "第4段：“对于很小的干预来说，这实际上是一个相当大的影响，”施维茨格...",
-          "第5段：施维茨格贝尔怀疑最大的影响来自社会影响——主导讨论的同学或助..."
-        ]
+        "genre": "道德哲学与行为心理学实验报告",
+        "discourse_model": "道德说教成效之争 ➔ 素食伦理对照实验 ➔ 购买行为实证量化 ➔ 助教带读与社交同伴效应 ➔ 知行合一的隐性催化剂立论",
+        "main_theme": "本文聚焦高校伦理学课堂能否真正跨越知行鸿沟、重塑个体实际道德行为这一古老而前沿的哲学命题；以加州大学河滨分校Schwitzgebel教授关于肉类消费与动物伦理的严密双盲实证为基础，证实了严肃的伦理讨论确实显著降低了大学生的真实吃肉频率；更进一步揭示出：驱动行为转变的最强催化剂并非抽象哲理推演，而是助教及同伴群体在讨论中展现出的'社会规范与同侪榜样效应'。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】道德教育千古悬案：说理真能改变行为吗？",
+            "core_point": "全球高校普遍开设伦理道德通识课，但学术界始终怀疑抽象的课堂说教能否真正穿透象牙塔，转化为现实生活中的道德行善实践。",
+            "cohesive_devices": "从苏格拉底以来的经典哲学疑问切入，设问破题。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】Schwitzgebel实验：将餐券消费作为行为量化铁证",
+            "core_point": "研究团队巧妙利用加州大学校园餐厅的数万条真实就餐消费记录，将抽象的'动物伦理课'效果量化为学生购买肉类与素食的百分比。",
+            "cohesive_devices": "详述严谨的双盲对照实验设计（A/B Testing），确立学术可信度。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】实证数据出炉：吃肉率出现实质性显著下降",
+            "core_point": "接受动物福利伦理洗礼的班级，学生在随后数周内的买肉率下降了约六个百分点，且效应持续数月，力证哲学教学确实具有现实改变力。",
+            "cohesive_devices": "以客观量化统计数据（下降6%）给出明确答案。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】深层催化剂剖析：理性论证还是同侪影响力？",
+            "core_point": "研究者进一步追问：究竟是功利主义逻辑彻底说服了大脑，还是讨论课上助教与身边同班同学表态带来的'社会规范认同'发挥了无形魔力？",
+            "cohesive_devices": "由'表层行为改变'深入探究'背后的心理学微观动力机制'。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】知行合一新图景：理性明辨与良性同侪生态合璧",
+            "core_point": "最有效的道德教育绝非居高临下的布道说教，而是打造一个推崇批判性反思与知行合一的微观社群，让榜样的力量春风化雨塑造人性品格。",
+            "cohesive_devices": "完成从'单一课程效果验证'到'全人德育范式重塑'的哲学升华。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 4 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "D"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "A"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "F"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "G"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "C"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Campus Cafeteria Receipts as Concrete Behavioral Evidence",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第2段利用大学食堂数万条实际消费小票作为行为改变实证的研究设计。"
+            },
+            {
+              "key": "B",
+              "heading": "Complete Banning of Meat Dishes on College Campuses",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：夸大极化】实验是自愿选择观察，大学绝非强制禁止校园售肉。"
+            },
+            {
+              "key": "C",
+              "heading": "Community and Peer Ecology: The True Catalyst of Moral Growth",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括末段主旨：良性同侪微生态与榜样力量才是道德品质滋养的真谛。"
+            },
+            {
+              "key": "D",
+              "heading": "The Perennial Riddle: Can Abstract Ethics Classes Alter Deeds?",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段高校伦理教育能否真正穿透象牙塔、改变真实行为的千古疑问。"
+            },
+            {
+              "key": "E",
+              "heading": "Philosophy Professors Refuse to Grade Student Homework",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：荒诞离奇】纯属无中生有的虚假噪音项。"
+            },
+            {
+              "key": "F",
+              "heading": "Empirical Triumph: Noticeable Drop in Student Meat Purchases",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第3段实验数据证实伦理课后学生买肉率出现显著持续下降。"
+            },
+            {
+              "key": "G",
+              "heading": "Rational Argument Versus the Power of Social Conformity",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】深入抓住第4段探究行为改变究竟是理性说服还是助教与同辈压力所致的核心辩证。"
+            }
+          ],
+          "skills_breakdown": "【小标题提炼要诀】：抓住学术实验设计的脉络（Riddle ➔ Behavioral Evidence ➔ Empirical Drop ➔ Social Conformity ➔ Moral Growth）；剔除极端的行政禁止项（如禁止校园吃肉）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "Although",
-          "translation": "conj. 虽然；尽管",
-          "application_sentence": "Research demonstrates that Although plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "show a statistically significant decrease in ...",
+          "syntactic_type": "科研量化动宾短语",
+          "translation": "在……方面呈现出具有统计学显著意义的显著下降",
+          "application_sentence": "As illustrated in the controlled trial, participant groups showed a statistically significant decrease in harmful consumption habits.",
+          "sentence_cn": "正如对照试验所生动表明的，参与实验的群体在不良消费陋习方面呈现出了具有统计学显著意义的明显下降。",
+          "template_slot": "As illustrated in the data, [观察群体] showed a statistically significant decrease in [不良行为/指标]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "ethics",
-          "translation": "n. 行为准则；道德原则",
-          "application_sentence": "Research demonstrates that ethics plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "be attributable not solely to ..., but to the subtle influence of ...",
+          "syntactic_type": "被动双重因果句式",
+          "translation": "不仅归功于……，更主要归因于……的潜移默化影响",
+          "application_sentence": "The enduring shift in personal behavior is attributable not solely to abstract logic, but to the subtle influence of peer role models.",
+          "sentence_cn": "个体行为习惯能够发生长久深刻的转变，绝不仅仅归功于抽象的理性说教，而更深刻地归因于身边同伴榜样的潜移默化熏陶。",
+          "template_slot": "This [长足转变] is attributable not solely to [抽象说理], but to the subtle influence of [身边环境/榜样示范]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "researchers",
-          "translation": "n. 研究人员；研究者（researcher 的复数）",
-          "application_sentence": "Research demonstrates that researchers plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "There is a profound disparity between intellectual assent and ...",
+          "syntactic_type": "知行脱节对比句型",
+          "translation": "在头脑理智上的口头认同与……之间，往往存在着一道巨大的鸿沟",
+          "application_sentence": "Educators often lament that there is a profound disparity between intellectual assent to moral doctrines and actual everyday execution.",
+          "sentence_cn": "教育工作者往往深感叹惋：在头脑中口头认同崇高的道德教义，与在现实日常生活中切实付诸行动之间，往往存在着一道巨大而令人无奈的鸿沟。",
+          "template_slot": "There is often a profound disparity between intellectual assent to [崇高理念] and actual [行动践履]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "investigated",
-          "translation": "v. investigate 的过去式和过去分词；调查",
-          "application_sentence": "Research demonstrates that investigated plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Hardly can ... translate into ... unless accompanied by ...",
+          "syntactic_type": "否定词置于句首强倒装",
+          "translation": "……极难真正转化为……，除非有……相伴随",
+          "application_sentence": "Hardly can theoretical classroom teaching translate into enduring virtue unless accompanied by supportive social norms and peer encouragement.",
+          "sentence_cn": "课堂上的纯理论灌输极难真正转化为历久弥坚的人格美德，除非有积极向上的社会规范土壤与同辈群体真诚的激励相伴相生。",
+          "template_slot": "Hardly can [理论说教/空谈] translate into [实际成效] unless accompanied by [切实行动/制度保障]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "predicted",
-          "translation": "v. 预测；预言",
-          "application_sentence": "Research demonstrates that predicted plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "It is widely acknowledged that example is far more efficacious than ...",
+          "syntactic_type": "比较结构提分金句",
+          "translation": "人们普遍公认，身教示范的教化威力往往远胜于空洞的……",
+          "application_sentence": "It is widely acknowledged that living example is far more efficacious than sterile lecturing in cultivating authentic integrity among youths.",
+          "sentence_cn": "人们普遍公认，活生生的身教榜样在青少年心田培育起至诚至善品格的教化威力，往往远胜于枯燥苍白的讲台布道。",
+          "template_slot": "It is widely acknowledged that living example is far more efficacious than sterile lecturing in [达成育人树人之功]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "intervention",
-          "translation": "n. 干预；介入",
-          "application_sentence": "Research demonstrates that intervention plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "bridge the yawning chasm between theoretical knowledge and practical virtue",
+          "syntactic_type": "知行合一高级动宾修辞",
+          "translation": "跨越在理论知识认知与现实德行践履之间那道令人触目惊心的鸿沟",
+          "application_sentence": "The ultimate objective of comprehensive education is to bridge the yawning chasm between theoretical knowledge and practical virtue.",
+          "sentence_cn": "通识博雅教育的至高终极旨归，恰恰在于帮助年轻一代跨越在抽象理论知识认知与现实德行践履之间那道令人触目惊心的鸿沟。",
+          "template_slot": "The ultimate objective of [教育/修养] is to bridge the yawning chasm between [知识认知] and [实际行动]."
         }
       ],
       "year": 2022

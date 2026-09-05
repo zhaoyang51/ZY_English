@@ -1691,51 +1691,164 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 In the quest for the perfect lawn, homeowners acro... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：为了追求完美的草坪，全国各地的房主都在走捷径——而付出代价的...",
-          "第2段：英国皇家园艺学会的埃德·霍恩 (Ed Horne) 表示：“...",
-          "第3段：英国皇家园艺学会做出这一决定之际，活动人士正试图提高人们对假...",
-          "第4段：然而，假草的支持者指出，天然草坪也会对环境造成影响，因为天然...",
-          "第5段：该行业还指出，真草需要大量的水、除草剂或其他处理方法，而铺设..."
-        ]
+        "genre": "城市生态与环境规制思辨型评述",
+        "discourse_model": "塑料人造草坪风靡现象 ➔ 园艺界禁令与生态抗议 ➔ 塑胶草皮的微塑料与热岛危害 ➔ 行业辩护（节水省力免农药） ➔ 政府审慎规制与治理平衡",
+        "main_theme": "本文深入剖析英国中产家庭掀起的'人造塑料草坪'（artificial plastic lawns）消费热潮背后的生态伦理与政策拉锯战；详述了皇家园艺学会（RHS）禁绝塑胶草皮的环保立场与社交媒体反塑胶倡议；全景式比对了塑胶草皮引发的城市热岛、土壤透气透水性破坏及微塑料污染，与天然草坪耗水、化肥农药径流及燃油割草碳排的现实困境；最终立足英国政府在禁止请愿下的政策回应，探讨现代城市绿化治理在便利性与生物多样性之间的精妙权衡。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】完美草坪执念催生人造草皮消费捷径",
+            "core_point": "为追求常绿且免维护的'完美草坪'，越来越多英国家庭以塑料人造草皮替代天然草坪，却将生态成本转嫁给了自然环境。",
+            "cohesive_devices": "以反差修辞（shortcut vs. environment is paying the price）开篇立论。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】皇家园艺学会带头抵制与绿色倡议",
+            "core_point": "英国皇家园艺学会（RHS）正式在其花展中封杀人造草皮，强调塑料草坪与绿色可持续发展战略水火不容。",
+            "cohesive_devices": "引入权威学术与行业组织声明，赋予议题严谨的环保政策基调。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】民间环保抗议与生态灾难警示",
+            "core_point": "环保抗议者建立社媒账号痛陈塑料草坪破坏土壤微生物、阻隔昆虫鸟类觅食、加剧城市热岛与微塑料污染等严重环境恶果。",
+            "cohesive_devices": "从宏观行业抵制延伸至微观城市生态学机理，递进剖析生态危害。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】支持阵营辩护：天然草坪的维护代价与资源消耗",
+            "core_point": "人造草皮支持者与制造商反驳称，传统草坪需耗费海量淡水灌溉，依赖化学杀虫剂除草剂，燃油割草机亦产生大量温室气体。",
+            "cohesive_devices": "运用转折连词（However），辩证呈现对立双方的论据对抗。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】政府回应请愿：在全面禁令和精细化规制间寻求平衡",
+            "core_point": "面对数万公民的全面禁令请愿，政府表态不实施'一刀切'式立法取缔，而是强化排水许可与规划标准，引导公众知情理性抉择。",
+            "cohesive_devices": "由民间舆论对抗过渡至公共治理决策层面，实现论题闭环。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 1 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "E"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "B"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "C"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Total Ban on Plastic Imports Imposed Across Britain",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：过度泛化/虚假扩大】文章仅探讨人造草坪（fake grass）的使用争议，绝非在全英全面禁止所有塑料进口。"
+            },
+            {
+              "key": "B",
+              "heading": "RHS Stands Firm by Banning Plastic Grass from Garden Shows",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第2段核心事实：皇家园艺学会贯彻可持续发展战略，在所有园艺展中全面封杀塑料草坪。"
+            },
+            {
+              "key": "C",
+              "heading": "Proponents Defend Synthetics by Citing Natural Lawn Footprints",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第4段人造草支持者的反驳理由：天然草坪的灌溉、化肥与割草机燃油同样具备沉重环境足迹。"
+            },
+            {
+              "key": "D",
+              "heading": "Robotic Mowers Completely Eliminate Greenhouse Emissions",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未提及割草机器人，更未断言其消除温室气体排放。"
+            },
+            {
+              "key": "E",
+              "heading": "Homeowners Seek Convenience While the Planet Pays the Bill",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准概括第1段：居民为求便利在后院铺设塑料草皮，环境却为此承担巨大代价。"
+            },
+            {
+              "key": "F",
+              "heading": "Government Eschews Blanket Bans in Favor of Planning Oversight",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括末段政府的立场：拒绝一刀切式全面禁止，转而依托规划指引与排水标准实施精细治理。"
+            },
+            {
+              "key": "G",
+              "heading": "Grassroots Activists Expose Biodiversity Loss and Urban Heat",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第3段民间环保活动家通过社交媒体揭露人造草坪破坏土壤透水性、热岛与生物灭绝危机。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：抓住关键词对应，段1（shortcut / pays the bill）、段2（RHS / ban）、段3（campaigners / damage）、段4（supporters / natural lawn costs）、段5（government response / planning regulations）；排除无中生有与概念夸大项。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "quest",
-          "translation": "n. （长久或辛勤的）寻求；探求",
-          "application_sentence": "Research demonstrates that quest plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "witness an explosive surge in popularity across ...",
+          "syntactic_type": "现象描述谓语动宾结构",
+          "translation": "在……范围内经历爆发式普及与急剧增长",
+          "application_sentence": "As is vividly illustrated by the chart, eco-unfriendly consumer conveniences have witnessed an explosive surge in popularity across urban households.",
+          "sentence_cn": "正如该图表所生动展现的，诸如此类牺牲环境以换取生活便利的消费品，在城市家庭中经历了一轮爆发式普及与急剧增长。",
+          "template_slot": "As is vividly demonstrated in the graph, [某项技术/消费新习惯] has witnessed an explosive surge in popularity across [目标群体/特定区域]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "perfect",
-          "translation": "adj. 无瑕的；完好的",
-          "application_sentence": "Research demonstrates that perfect plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "prioritize immediate convenience at the expense of long-term ecological health",
+          "syntactic_type": "介词伴随因果评判句",
+          "translation": "以牺牲长远生态健康为沉重代价，片面追求眼前的即时便利",
+          "application_sentence": "The crux of the matter lies in modern consumers' inclination to prioritize immediate convenience at the expense of long-term ecological health.",
+          "sentence_cn": "该问题的核心症结在于，现代消费者往往倾向于以牺牲长远生态健康为代价，片面贪图当下的即时便利与省心。",
+          "template_slot": "The crux of the controversy is that [某群体] tends to prioritize immediate convenience at the expense of [长远利益/公众福祉/长效健康]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Horne",
-          "translation": "霍恩（人名）",
-          "application_sentence": "Research demonstrates that Horne plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "A closer scrutiny of the trade-offs reveals that neither alternative is inherently flawless.",
+          "syntactic_type": "双向辩证反思句",
+          "translation": "对二者利弊的更深入审视表明，两种选择皆非毫无瑕疵、天衣无缝。",
+          "application_sentence": "A closer scrutiny of the trade-offs reveals that neither alternative is inherently flawless, necessitating a nuanced regulatory framework.",
+          "sentence_cn": "对这两者之间利弊得失的更深入审视清晰表明，无论哪种方案都绝非尽善尽美，这就亟需建立更为精细审慎的监管框架。",
+          "template_slot": "A closer scrutiny of the trade-offs reveals that neither alternative is inherently flawless, which requires [决策者/公众] to weigh both sides carefully."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "launched",
-          "translation": "v. 启动；开始",
-          "application_sentence": "Research demonstrates that launched plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Under no circumstances should the pursuit of cosmetic perfection blind us to the irreversible degradation of ...",
+          "syntactic_type": "否定副词置于句首的部分倒装结构",
+          "translation": "在任何情况下，对表面光鲜完美的虚妄追求都不应使我们对……不可逆转的退化熟视无睹",
+          "application_sentence": "Under no circumstances should the pursuit of cosmetic perfection blind us to the irreversible degradation of urban biodiversity.",
+          "sentence_cn": "在任何情况下，对表面光鲜与视觉美感的盲目追求，都绝不应让我们对城市生物多样性不可逆转的衰退与退化视而不见。",
+          "template_slot": "Under no circumstances should the pursuit of [表面诱惑/短期政绩/即时快感] blind us to the irreversible degradation of [根本基石/长治久安]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "decision",
-          "translation": "n. 决定；抉择",
-          "application_sentence": "Research demonstrates that decision plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "comes",
-          "translation": "v. 来；来到",
-          "application_sentence": "Research demonstrates that comes plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "steer clear of blanket prohibitions while cultivating eco-literacy through informed public engagement",
+          "syntactic_type": "治理策略并列动宾短语",
+          "translation": "摒弃简单粗暴的一刀切禁令，通过知情公众参与培育全社会的生态素养",
+          "application_sentence": "To resolve environmental disputes, policymakers ought to steer clear of blanket prohibitions while cultivating eco-literacy through informed public engagement.",
+          "sentence_cn": "为化解此类环境保护与民众便利之间的矛盾，政策制定者应当摒弃一刀切式的粗暴禁令，转而通过畅通的公众参与切实培育全民生态文明素养。",
+          "template_slot": "To effectively tackle [社会治理难题], policymakers ought to steer clear of blanket prohibitions while [采取科学精细的引导与扶持措施]."
         }
       ],
       "year": 2023
@@ -3695,51 +3808,176 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 It’s easy to dismiss as absurd the Trump administr... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：特朗普政府填补国家公园长期资金缺口的想法很容易被认为是荒谬的...",
-          "第2段：但政府在一件事上是正确的：美国国家公园正处于危机之中。...",
-          "第3段：他们总共有超过 120 亿美元的维护积压。道路、小径、卫生间...",
-          "第4段：但露营地私有化和商业化并不是万能药。...",
-          "第5段：露营地只占整体基础设施积压的一小部分，公园特许经营商平均只将..."
-        ]
+        "genre": "公共财政与公共政策深度调查报道",
+        "discourse_model": "荒唐的商业化点子 ➔ 国家公园现实修缮危机 ➔ 商业特许经营的致命局限 ➔ 破坏自然静谧的核心悖论 ➔ 财政长期饥饿真因与极高回报率 ➔ 象征与生态精神价值 ➔ 紧缩预算反思与国家财政担当",
+        "main_theme": "本文针对特朗普政府试图通过引入亚马逊快递储物柜、流动食品餐车等'商业外包'（privatization）手段来填补美国国家公园巨额维护资金缺口的争议方案，展开了犀利剖析与严正批判；论证了商业化特许不仅无法填补高达120亿美元的历史维修欠账，反而会严重侵蚀国家公园作为无拘无束自然避难所的神圣公共属性；引用权威经济学调研揭示国家公园拥有高达10倍以上的超高公共投资回报率与不可估量的精神文化价值；最终力促联邦国会摒弃杯水车薪的抠门拨款哲学，承担起守护国家瑰宝的法定义务。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】荒诞的商业化建议揭开公园资金危机序幕",
+            "core_point": "政府建议在国家公园引入亚马逊快递点、食品餐车甚至移动网络，看似荒诞不经，却折射出联邦政府急于转嫁公园维护资金赤字的窘境。",
+            "cohesive_devices": "以反讽性例证（dismiss as absurd）开篇，引人入胜。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】危在旦夕的基础设施与120亿美元欠账",
+            "core_point": "公园设施确已深陷崩溃边缘：道路塌陷、供水管道老化、排污瘫痪，累积未完成维护欠账已逼近120亿美元大关。",
+            "cohesive_devices": "笔锋一转（But the administration is right about one thing），承认危机客观严峻。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】营地私有化商业运作绝非万灵药",
+            "core_point": "特许营地商业化在整个公园运维盘子中仅占九牛一毛，无论如何收租提成，在百亿巨坑面前都是杯水车薪。",
+            "cohesive_devices": "采用逻辑量化否定（tiny portion / not a cure-all）拆穿商业救赎神话。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】商业噪音对自然荒野核心体验的不可逆破坏",
+            "core_point": "3亿游客奔赴公园的核心动机是寻觅逃离尘嚣的静谧与荒野神圣，商业设施的强行切入将彻底破坏这一无价的非物质体验。",
+            "cohesive_devices": "从经济账转向精神体验与公共品属性（wilderness, tranquility）。"
+          },
+          {
+            "pid": 4,
+            "role": "【深】经济学量化调研揭穿'缺钱'假象：十倍回报率的优质投资",
+            "core_point": "调研表明，纳税人高度珍视国家公园，且联邦每投入1美元公园拨款，就能在周边社区催生超过10美元的经济拉动效应，商业回报极为惊人。",
+            "cohesive_devices": "引用哈佛与科罗拉多州立大学的权威学术调查，以数据说话。"
+          },
+          {
+            "pid": 5,
+            "role": "【深】不可估量的国家象征与生态文化资产",
+            "core_point": "国家公园承载着美国地理风貌的象征图腾，其保护生物多样性、提供公共健康休闲的综合价值远远超越账面金钱数字。",
+            "cohesive_devices": "递进升华至国家历史认同与精神家园的高度。"
+          },
+          {
+            "pid": 6,
+            "role": "【合】呼吁国会扛起财政责任，终结'用鞋带过日子'的捉襟见肘",
+            "core_point": "每年30亿美元的国会拨款在数万亿联邦预算中微不足道，唯有国会通过专项立法全额注资，才能彻底拯救国家公园，切忌变相变卖公共遗产。",
+            "cohesive_devices": "以精炼俗语（on a shoestring）作结，呼吁国会履行财政兜底担当。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 2 的七个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项，其中选取5个主要段落进行小标题匹配）：",
+          "target_paragraphs": [
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "C"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "A"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "D"
+            },
+            {
+              "pid": 6,
+              "label": "Paragraph 7",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Commercial Noise Intrudes Upon the Essence of Tranquility",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第4段：商业化运作与快递服务侵蚀游客寻求荒野与远离尘嚣宁静的核心动机。"
+            },
+            {
+              "key": "B",
+              "heading": "Immediate Liquidation of Inefficient Campgrounds to Cut Deficits",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向颠倒/过度曲解】文章反对将营地商业化出售，绝未主张立即清盘变卖低效营地。"
+            },
+            {
+              "key": "C",
+              "heading": "Crumbling Infrastructure Demands Billions in Deferred Upkeep",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第2段核心：路网老旧与排污损坏造成高达120亿美元的累积积压修缮债务。"
+            },
+            {
+              "key": "D",
+              "heading": "Economic Assessments Reveal an Astounding Return on Investment",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第5段学术调查结论：联邦每投入1美元可拉动超过10美元周边旅游经济消费。"
+            },
+            {
+              "key": "E",
+              "heading": "Corporate Sponsorship Replaces All Federal Appropriations by 2030",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未曾制定2030年企业赞助完全替代联邦拨款的时间表。"
+            },
+            {
+              "key": "F",
+              "heading": "Congress Must End Shoestring Budgets to Preserve Common Heritage",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准呼应第7段结论：国会每年30亿美元的微薄拨款远远不够，必须停止捉襟见肘的财政应付，加大经常性预算。"
+            },
+            {
+              "key": "G",
+              "heading": "Privatizing Campgrounds Offers Merely a Drop in the Ocean",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第3段：营地仅占公园开支的极小部分，推行特许商业化绝非解决百亿赤字的万灵药。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段2抓住维护赤字（maintenance backlog）；段3抓住营地规模微小（tiny portion / not a cure-all）；段4抓住破坏静谧核心价值（undercut tranquility）；段5抓住经济回报（comprehensive survey / return on investment）；段7抓住财政短缺与国会拨款（shoestring budget / Congress allocates）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "easy",
-          "translation": "adj. 容易的；不费力的",
-          "application_sentence": "Research demonstrates that easy plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "run on a shoestring budget despite generating immense societal dividends",
+          "syntactic_type": "伴随状语让步结构",
+          "translation": "尽管创造了难以估量的社会红利，却仅靠捉襟见肘的微薄预算苦苦支撑",
+          "application_sentence": "As the statistical data illustrates, many public welfare institutions continue to run on a shoestring budget despite generating immense societal dividends.",
+          "sentence_cn": "正如统计数据清晰揭示的，许多公共福利机构尽管为整个社会创造了巨大的综合红利，却依然仅仅依靠捉襟见肘的微薄预算勉力维系运营。",
+          "template_slot": "As the statistical data illustrates, [某类关键公益事业/科研机构] continues to run on a shoestring budget despite generating immense societal dividends."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "dismiss",
-          "translation": "v. 开除；解雇",
-          "application_sentence": "Research demonstrates that dismiss plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "be fundamentally starved of dedicated public funding over successive cycles",
+          "syntactic_type": "被动语态短语搭配",
+          "translation": "在连续多个周期内由于公共财政投入不足而遭遇长期饥渴",
+          "application_sentence": "The deterioration of municipal infrastructure occurs because it has been fundamentally starved of dedicated public funding over successive fiscal cycles.",
+          "sentence_cn": "市政基础设施的大面积破损老化，究其根源在于其在长期的财政预算周期中遭遇了持续且严重的资金饥渴。",
+          "template_slot": "The root cause of [某种公共危机/设施瘫痪] is that it has been fundamentally starved of dedicated public funding over successive years."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "administration",
-          "translation": "n. 管理；行政",
-          "application_sentence": "Research demonstrates that administration plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Far from being a financial burden, public investment in ... delivers disproportionate economic returns.",
+          "syntactic_type": "否定转向强调结构",
+          "translation": "对……的公共财政投入非但不是累赘负担，反而能够激发出不成比例的巨额经济回报",
+          "application_sentence": "Far from being a financial burden, public investment in ecological conservation delivers disproportionate economic and health returns to surrounding communities.",
+          "sentence_cn": "对生态环境保护的公共财政投入非但不是一项沉重的财务负担，反而能为周边社区激发出超乎寻常的经济提振与健康红利。",
+          "template_slot": "Far from being a financial burden, public investment in [教育/基础科研/生态保护] delivers disproportionate economic returns to the whole society."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "right",
-          "translation": "adj. 符合道德的；正当的",
-          "application_sentence": "Research demonstrates that right plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Were the government to abdicate its fiduciary stewardship to market forces, the sacred ethos of ... would be inexorably eroded.",
+          "syntactic_type": "省略if的虚拟语气条件句倒装",
+          "translation": "倘若政府将其信托托管职责拱手让与市场力量，……的神圣精神品格便将被不可逆转地蚕食殆尽",
+          "application_sentence": "Were the government to abdicate its fiduciary stewardship to market forces, the sacred ethos of public heritage would be inexorably eroded.",
+          "sentence_cn": "倘若政府将其法定的受托监管职责盲目拱手让渡给逐利的市场资本，公共文化遗产的神圣纯粹品格必将被不可逆转地蚕食殆尽。",
+          "template_slot": "Were the authorities to abdicate their fiduciary stewardship to [市场资本/短期投机], the sacred ethos of [公共教育/医疗公平/文化瑰宝] would be inexorably eroded."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Collectively",
-          "translation": "adv. 集体地；共同地",
-          "application_sentence": "Research demonstrates that Collectively plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "maintenance",
-          "translation": "n. 维护；保养",
-          "application_sentence": "Research demonstrates that maintenance plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "shoulder statutory obligations through sustained fiscal outlays rather than myopic privatization schemes",
+          "syntactic_type": "对仗式行动建议短语",
+          "translation": "通过持续稳健的财政经常性支出切实承担法定职责，而非诉诸目光短浅的私有化外包伎俩",
+          "application_sentence": "The legislative body must shoulder statutory obligations through sustained fiscal outlays rather than myopic privatization schemes that commodify public trust.",
+          "sentence_cn": "立法与财政部门必须通过长期持续的经常性财政拨款切实履行法定职责，而决不能诉诸那些将公众信任商品化的短视私有化方案。",
+          "template_slot": "The authorities must shoulder their statutory obligations through [长效财政投入/系统制度供给] rather than myopic [权宜之计/商业外包]."
         }
       ],
       "year": 2023
@@ -5541,50 +5779,147 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 The Internet may be changing merely what we rememb... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：哥伦比亚大学心理学教授贝特西·斯帕罗表示，互联网可能只是改变...",
-          "第2段：以一种非常实际的方式，互联网正在成为我们记忆的外部硬盘驱动器...",
-          "第3段：还有一些专家表示，现在了解互联网如何影响我们的大脑还为时过早...",
-          "第4段：心理学教授本杰明·斯托姆 (Benjamin Storm) ..."
-        ]
+        "genre": "认知心理学与数字科技前沿学术评述",
+        "discourse_model": "互联网改变人类记忆范式 ➔ 实验佐证'谷歌效应'与认知减负 ➔ 交互记忆体系的数字外包 ➔ 学界谨慎审视（缺乏大脑变钝实证） ➔ 整体利弊权衡与智力解放未来",
+        "main_theme": "本文探讨了互联网搜索技术对人类大脑记忆机制带来的革命性重塑；重点引述了哥伦比亚大学心理学家贝齐·斯帕罗（Betsy Sparrow）开创性的'认知减负'（cognitive offloading）与交互记忆（transactive memory）实验，证明互联网并未削弱人类的记忆容量，而是促使大脑从'记忆信息内容本身'转向'记忆获取信息的检索路径'；同时客观呈现了神经科学界对'网络致愚论'的有力质疑（迄今无神经学实证表明大脑生理受损）；最终得出建设性结论：认知外包不仅无害，反而极大地解放了人类的心智带宽，赋能更深层次的逻辑整合与跨领域创新。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】斯帕罗经典实验：互联网改变记忆内容而非记忆机能",
+            "core_point": "哥伦比亚大学心理学研究表明，互联网并非侵蚀大脑记忆容量，而是在重新校准我们存储记忆的内容类型。",
+            "cohesive_devices": "以权威学界研究结论开宗明义，精准界定核心论点（not our capacity, but what we remember）。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】认知减负与数字外挂硬盘的交互记忆演进",
+            "core_point": "互联网正成为人类记忆的'外挂硬盘'，这种'认知减负'使人类大脑无需死记硬背细枝末节，从而将宝贵脑力聚焦于高阶创造性综合。",
+            "cohesive_devices": "生动类比（external hard drive）+ 心理学专业术语（cognitive offloading, transactive memory）深化机制。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】科学界审慎反思：警惕缺乏神经学实证的'科技恐慌论'",
+            "core_point": "其他神经与认知专家指出，断言互联网重塑脑回路为时尚早，目前没有任何对照实验证据能证明搜索引擎正在让大脑生理结构退化或变笨。",
+            "cohesive_devices": "引入批判性质疑视角（Still other experts say it's too soon / no experimental evidence）。"
+          },
+          {
+            "pid": 3,
+            "role": "【合】利弊辩证裁决：认知解放的宏大红利远超微观代价",
+            "core_point": "过度依赖搜索引擎或许在微观上伴随局部回忆成本，但即时获取全球知识所带来的智力倍增与思维解放红利无可匹敌。",
+            "cohesive_devices": "权衡对比句（costs associated with reliance vs. overall benefits overwhelmingly outweigh them）升华全篇。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 3 的四个段落，从 A-F 六个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "F"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "D"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Skeptics Challenge Unsubstantiated Claims of Brain Decay",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第3段：部分专家指出目前尚无任何神经科学实证能证实互联网损害了大脑认知能力，反驳盲目恐慌。"
+            },
+            {
+              "key": "B",
+              "heading": "Permanent Loss of All Long-Term Memory Functions",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向颠倒/极端夸大】文章明确指出记忆容量未受影响，绝非丧失所有长期记忆功能。"
+            },
+            {
+              "key": "C",
+              "heading": "Shifting the Nature of Memory Rather Than Brain Capacity",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第1段首句核心论点：互联网改变的是人类记忆的内容与属性，而非大脑的记忆机能容量。"
+            },
+            {
+              "key": "D",
+              "heading": "The Overwhelming Intellectual Dividends Outweigh Minor Drawbacks",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第4段总结：虽有局部依赖成本，但信息即时获取赋予人类的综合智力收益占据绝对压倒优势。"
+            },
+            {
+              "key": "E",
+              "heading": "Compulsory Screen-Free Classrooms Mandated in Columbia",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中提及哥伦比亚大学研究员，但未曾提及哥大推行无屏幕强制课堂。"
+            },
+            {
+              "key": "F",
+              "heading": "Cognitive Offloading: Converting Search Engines into External Memory",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第2段核心机制：互联网化作人类记忆的外挂硬盘，实现认知减负与高阶心智释放。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓记忆类型转变（not capacity, but what we remember）；段2抓外挂硬盘与认知减负（external hard drive / cognitive offloading）；段3抓缺乏实验证据（too soon / no experimental evidence）；段4抓利弊平衡（costs vs. benefits outweigh）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "Internet",
-          "translation": "n. 互联网；因特网（=the Internet）",
-          "application_sentence": "Research demonstrates that Internet plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "witness an unprecedented reliance on external digital repositories",
+          "syntactic_type": "动宾加介词修饰结构",
+          "translation": "对外部数字知识库展现出前所未有的依赖趋势",
+          "application_sentence": "As demonstrated in recent sociological data, modern knowledge workers have witnessed an unprecedented reliance on external digital repositories.",
+          "sentence_cn": "正如近期社会学调研数据所展示的，当代知识型工作者对外部数字检索知识库展现出了前所未有的深度依赖。",
+          "template_slot": "As demonstrated in recent data, [现代青少年/知识工作者] has witnessed an unprecedented reliance on [外部数字工具/移动互联网]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "changing",
-          "translation": "adj. 变化中的；改变中的",
-          "application_sentence": "Research demonstrates that changing plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "liberate mental bandwidth from rote memorization to high-order synthesis",
+          "syntactic_type": "因果功能性短语",
+          "translation": "将宝贵的心智带宽从机械的死记硬背中彻底解放，投向高阶的综合创新",
+          "application_sentence": "Digital offloading empowers the human mind by liberating mental bandwidth from rote memorization to high-order creative synthesis.",
+          "sentence_cn": "知识的数字化外包赋能人类思维，通过将宝贵的心智带宽从繁重的机械记忆中彻底解放出来，全方位赋能高阶的创造性思维整合。",
+          "template_slot": "The true merit of [某项新技术/智能化工具] lies in liberating mental bandwidth from [琐碎机械劳动] to [高阶创造性整合]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "practical",
-          "translation": "adj. 真实的；实际的",
-          "application_sentence": "Research demonstrates that practical plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "There may be localized friction associated with ..., but the aggregate benefits unquestionably predominate.",
+          "syntactic_type": "让步转折论辩句",
+          "translation": "尽管伴随着与……相关的局部摩擦或不适，但其宏观整体所带来的巨大收益毫无疑问占据压倒性主导地位。",
+          "application_sentence": "There may be localized friction associated with our growing reliance on AI algorithms, but the aggregate efficiency benefits unquestionably predominate.",
+          "sentence_cn": "尽管我们对人工智能算法日益加深的依赖可能会带来局部的摩擦与疑虑，但其在提升整体运转效率方面所带来的巨大红利毫无疑问占据着绝对的主导地位。",
+          "template_slot": "There may be localized friction associated with [某项新技术/新风尚], but the aggregate societal benefits unquestionably predominate."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Internet",
-          "translation": "n. 互联网；因特网（=the Internet）",
-          "application_sentence": "Research demonstrates that Internet plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Rather than signaling an alarming cognitive decay, this paradigm shift exemplifies the remarkable plasticity of ...",
+          "syntactic_type": "否定对比并列介词结构",
+          "translation": "这绝非预示着令人恐慌的认知衰退，反而生动彰显了……卓越非凡的可塑性与适应力",
+          "application_sentence": "Rather than signaling an alarming cognitive decay, this paradigm shift exemplifies the remarkable plasticity of human intelligence in the digital epoch.",
+          "sentence_cn": "这种范式转变绝非预示着令人惊恐的智力与认知滑坡，恰恰相反，它生动展现了人类智慧在数字时代所具备的惊人适应性与可塑性。",
+          "template_slot": "Rather than signaling an alarming [滑坡/倒退/危机], this paradigm shift exemplifies the remarkable [适应力/可塑性/韧性] of [主体]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Still",
-          "translation": "adv. 还；依旧",
-          "application_sentence": "Research demonstrates that Still plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "experts",
-          "translation": "n. 专家；人才（expert 的复数）",
-          "application_sentence": "Research demonstrates that experts plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "harness external information architectures while safeguarding our core analytical faculties",
+          "syntactic_type": "对仗平衡治理策略短语",
+          "translation": "在善用外部信息架构赋能的同时，坚决捍卫与淬炼自身核心分析批判机能",
+          "application_sentence": "Educators must train the younger generation to harness external information architectures while safeguarding their core independent analytical faculties.",
+          "sentence_cn": "教育工作者必须积极引导年轻一代，使他们在善用外部庞大数字信息网络的同时，全力捍卫并锤炼自身独立批判与深度分析的核心心智机能。",
+          "template_slot": "In the digital age, we must learn to harness [外部数字工具] while diligently safeguarding our core [独立思考/深度批判] faculties."
         }
       ],
       "year": 2023
@@ -7463,51 +7798,170 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Teenagers are paradoxical. That’s a mild and detac... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：青少年是矛盾的。 这是一种温和而超然的表达方式，父母经常用相...",
-          "第2段：莱顿大学的伊芙琳·克龙及其同事在《儿童发展》杂志上发表的一项...",
-          "第3段：研究人员研究了 200 多名 11 岁至 28 岁儿童和年轻...",
-          "第4段：最重要的是，亲社会性和叛逆性之间存在正相关关系。越叛逆的青少...",
-          "第5段：这些看似矛盾的发展背后是否存在某种共同因素？..."
-        ]
+        "genre": "发展心理学与青少年脑神经科学实证研究评述",
+        "discourse_model": "青少年的矛盾特质困惑 ➔ 莱顿大学克罗恩实证研究 ➔ 利他亲社会与叛逆冒险高度正相关 ➔ 颠覆直觉的核心发现 ➔ 神经奖赏回路敏感性机制 ➔ 演化生物学与社会适应性重估",
+        "main_theme": "本文深入揭示了困扰无数家长的'青少年行为矛盾现象'（teenage paradox）背后的神经生物学与进化心理学奥秘；详细评述了荷兰莱顿大学埃芙琳·克罗恩（Eveline Crone）团队发表于顶刊《儿童发展》（Child Development）的严谨对照实验，颠覆性地证实了青少年身上看似水火不容的'叛逆反叛'（rebelliousness）与'利他亲社会'（prosociality）实则呈现显著正相关关系；从脑发育机制角度阐明青春期大脑伏隔核对'社会奖赏'（social rewards）极度敏感，正是这种渴望同伴认可、勇敢试探社会规则边界的生物学冲动，催化了青少年跨越家庭藩篱、建立成人社群归属的必要进化飞跃。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】令人费解的青少年矛盾特质现象",
+            "core_point": "青少年时而自私叛逆、时而充满同情，令家长与教师捉摸不透，这种'矛盾性'构成了普遍的养育困惑。",
+            "cohesive_devices": "以精炼生动的陈述句（Teenagers are paradoxical）立题，引发强烈共鸣。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】克罗恩团队顶刊科研成果登场",
+            "core_point": "荷兰莱顿大学心理学家埃芙琳·克罗恩团队在《儿童发展》发表重磅研究，试图从实验科学维度破译这一行为迷思。",
+            "cohesive_devices": "引出权威学术期刊与领军科研团队背书。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】横跨11至28岁样本的严谨行为实验设计",
+            "core_point": "研究人员对200多名跨年龄段受试者进行追踪测试，精细量化其在资源分配（利他）与规则打破（叛逆）任务中的行为数据。",
+            "cohesive_devices": "铺垫严谨的实验控制变量与受试者规模。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】颠覆常识的突破性发现：叛逆与利他正向交织",
+            "core_point": "实验最具颠覆性的发现是：亲社会性与叛逆性呈现显著正相关——最敢于挑战既有成规的年轻人，往往也是最具公德与利他奉献精神的人。",
+            "cohesive_devices": "用强强调句式（Most significantly, there was a positive correlation）揭示反直觉规律。"
+          },
+          {
+            "pid": 4,
+            "role": "【深】共同底层机制探寻：同伴归属驱动的行为探索",
+            "core_point": "这两种看似分裂的行为源于同一个深层演化驱动力：打破原生家庭依赖，在更广阔的同伴社交网络中确立自我身份。",
+            "cohesive_devices": "以设问句过渡（Is there some common factor?），深挖心理动机底层逻辑。"
+          },
+          {
+            "pid": 5,
+            "role": "【合】大脑奖赏回路敏感性揭秘：走向独立成熟的进化催化剂",
+            "core_point": "青春期大脑对'社会奖赏'（同侪接纳、声望荣誉）产生超敏反应，这种冒险与奉献并存的特质正是人类摆脱幼态、走向完全社会化的关键适应性机制。",
+            "cohesive_devices": "从神经奖赏机制升华至演化人类学高度，为青少年叛逆完成科学平反与重塑。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 4 的六个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项，其中选取5个主要段落进行小标题匹配）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "B"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "C"
+            },
+            {
+              "pid": 5,
+              "label": "Paragraph 6",
+              "correct_key": "A"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Heightened Sensitivity to Social Rewards Fuels Independence",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第6段：青春期大脑对社会奖赏高度敏感，推动个体走出家庭、融入社会网络并实现成熟独立。"
+            },
+            {
+              "key": "B",
+              "heading": "The Puzzling and Contradictory Nature of Adolescence",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第1段主题句：青少年兼具叛逆与温情、自私与同理心的矛盾双重特质令父母费解。"
+            },
+            {
+              "key": "C",
+              "heading": "An Unexpected Correlation Between Altruism and Defiance",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第4段最核心的学术发现：亲社会利他行为与反叛挑衅规则之间存在显著正相关关系。"
+            },
+            {
+              "key": "D",
+              "heading": "Strict Authoritarian Parenting Proven to Cure Reckless Impulses",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向曲解/无中生有】文中完全未曾倡导严苛威权式家教，更未断言其能治愈冒险冲动。"
+            },
+            {
+              "key": "E",
+              "heading": "Groundbreaking Research from Leiden Published in Child Development",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第2段：莱顿大学克罗恩团队在《儿童发展》期刊发表针对青少年矛盾心理的突破性实验。"
+            },
+            {
+              "key": "F",
+              "heading": "Adolescent Brain Scans Indicate Permanent Neurological Deficits",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：概念偷换/恶意贬损】脑神经研究证实的是奖赏敏感性（reward sensitivity），绝非永久性神经缺陷（neurological deficits）。"
+            },
+            {
+              "key": "G",
+              "heading": "Rigorous Behavioral Trials Involving Diverse Age Cohorts",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第3段实验方法设计：针对11至28岁超200名跨年龄段青少年的实证行为测量。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓核心词矛盾（paradoxical）；段2抓学术发表（Crone / Child Development）；段3抓实验样本（studied prosocial and rebellious traits in 200 children）；段4抓正相关（positive correlation between prosociality and rebelliousness）；段6抓社会奖赏敏感性（sensitive to social rewards）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "Teenagers",
-          "translation": "n. 青少年（teenager 的复数；指 13 至 19 岁的年轻人）",
-          "application_sentence": "Research demonstrates that Teenagers plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "reveal a surprisingly positive correlation between ... and ...",
+          "syntactic_type": "统计学趋势核心动宾搭配",
+          "translation": "揭示出……与……之间令人惊叹的显著正相关关系",
+          "application_sentence": "As the empirical bar chart clearly reveals, there is a surprisingly positive correlation between youthful rebelliousness and civic engagement.",
+          "sentence_cn": "正如该实证柱状图所清晰揭示的，当代青少年的反叛突破精神与高度的公民社会参与之间，呈现出令人惊叹的显著正相关关系。",
+          "template_slot": "As the statistical data clearly reveals, there is a surprisingly positive correlation between [变量A] and [变量B]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "paradoxical",
-          "translation": "adj. 自相矛盾的；事与愿违的",
-          "application_sentence": "Research demonstrates that paradoxical plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "stem from a shared evolutionary impulse to forge social bonds and establish autonomy",
+          "syntactic_type": "深层动机因果短语",
+          "translation": "根源于缔结社会群体纽带与确立个体独立自主的共同演化冲动",
+          "application_sentence": "These outwardly divergent behaviors in fact stem from a shared evolutionary impulse to forge social bonds and establish personal autonomy.",
+          "sentence_cn": "这些看似截然对立的行为表象，在深层次上实际上源自于青少年渴望建立同侪纽带与确立人格独立的内在演化冲动。",
+          "template_slot": "These seemingly contradictory phenomena in fact stem from a shared underlying impulse to [实现某核心目标/达成自我蜕变]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "study",
-          "translation": "n. （专题）研究；调查",
-          "application_sentence": "Research demonstrates that study plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "What appears at first glance to be reckless defiance is, on deeper inspection, an adaptive mechanism for ...",
+          "syntactic_type": "主语从句引导的对比认知句",
+          "translation": "乍看之下似乎是肆意妄为的反叛挑衅，深入体察之下实则是为了……而进化出的一种适应性机制",
+          "application_sentence": "What appears at first glance to be reckless defiance is, on deeper inspection, an adaptive developmental mechanism for navigating complex human societies.",
+          "sentence_cn": "乍看之下似乎是肆无忌惮的叛逆与对抗，在深入审视后其实是青年一代为了自如适应复杂人类社会而进化形成的一种宝贵的适应性机制。",
+          "template_slot": "What appears at first glance to be [负面表象] is, on deeper inspection, an adaptive mechanism for [深层长远积极目的]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "published",
-          "translation": "adj. 已出版的；已发行的",
-          "application_sentence": "Research demonstrates that published plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "It is not until we decipher the neurobiological underpinnings of ... that we can truly appreciate the logic of ...",
+          "syntactic_type": "强调句型结合not until的时间从句结构",
+          "translation": "唯有当我们彻底破译……背后的神经生物学底层机制，我们才能真正领悟……的内在必然逻辑",
+          "application_sentence": "It is not until we decipher the neurobiological underpinnings of teenage brain rewards that we can truly appreciate the logic of their exploratory daring.",
+          "sentence_cn": "唯有当我们真正破译了青春期大脑奖赏机制的底层神经生物学原理，我们才能由衷理解青少年热衷探索与冒险背后的内在合理逻辑。",
+          "template_slot": "It is not until we decipher the profound underpinnings of [某复杂现象/社会思潮] that we can truly appreciate the inner logic of [群体行为]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "researchers",
-          "translation": "n. 研究人员；研究者（researcher 的复数）",
-          "application_sentence": "Research demonstrates that researchers plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "studied",
-          "translation": "v. study 的过去式和过去分词；学习",
-          "application_sentence": "Research demonstrates that studied plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "channel youthful passion toward prosocial endeavors instead of stifling it through repressive discipline",
+          "syntactic_type": "建设性引导与扬弃对仗搭配",
+          "translation": "将青少年的如火激情疏导引向造福社会的崇高事业，而非借助高压压制式的惩戒手段扼杀其锐气",
+          "application_sentence": "Society should channel youthful passion toward prosocial civic endeavors instead of stifling their exploratory spirit through repressive discipline.",
+          "sentence_cn": "全社会理应主动将青年人满腔的探索激情疏导至有益于公众福祉的建设性事业中，而绝不应通过严苛高压的管教手段去扼杀他们宝贵的锋芒与朝气。",
+          "template_slot": "Parents and educators should channel [青少年的激情/群众的热情] toward [建设性积极事业] instead of stifling it through [生硬粗暴手段]."
         }
       ],
       "year": 2023

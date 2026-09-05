@@ -1626,51 +1626,162 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 “Reskilling” is something that sounds like a buzzw... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：“再培训”听起来像是一个流行词，但如果我们计划拥有一个让许多...",
-          "第2段：谁应该为再培训付费的问题是一个棘手的问题。对于个别公司来说，...",
-          "第3段：然而，当技能不匹配出现在更广泛的经济领域时，焦点通常会转向政...",
-          "第4段：受疫情影响，失业率确实很高。 2月份，加拿大和美国的失业率分...",
-          "第5段：当然，你不可能在几周内将一个失业的服务员培养成一名医生。但即..."
-        ]
+        "genre": "未来劳动力与职业教育学术社论",
+        "discourse_model": "再培训概念破题 ➔ 自动化与岗位更迭阵痛 ➔ 领军企业内训实证 ➔ 终身学习与社会契约重塑",
+        "main_theme": "本文深入探讨了人工智能与自动化颠覆浪潮下，职场劳动力'技能再培训'（Reskilling）从流行词汇上升为国家级生存战略的必然性；通过AT&T等领军企业的大规模再培训实证，驳斥了'直接裁员换人更划算'的短视成见，力证投资现有员工不仅能降低猎头招聘与离职补偿成本，更能守护宝贵的企业文化与员工忠诚度，呼吁建立政府、企业与个人三方共担的终身技能跃升社会新契约。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】再培训：从时髦概念到国家生存刚需",
+            "core_point": "技能再培训绝非人力资源部门的应景口号，而是世界经济论坛与多国智库一致认定的、防范技术性失业海啸的必由之路。",
+            "cohesive_devices": "从流行词汇（buzzword）与残酷现实（requirement）的鲜明反差破题，树立紧迫感。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】外部招聘神话破灭与内生培育优势",
+            "core_point": "伴随高精尖数字技能全行业紧缺，盲目依赖外部挖角不仅代价极其高昂，更破坏了薪酬平衡，内部转岗再造成为更具经济理性的最优解。",
+            "cohesive_devices": "对比'外部挖角（buying talent）'与'内生培育（building talent）'的成本收益比。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】AT&T百亿级转型的先锋范本与效益",
+            "core_point": "作为传统电信巨头，AT&T斥资数十亿美元对十余万老员工进行云技术与数据分析转型培训，成功打造了高粘性、高敏捷度的数字化铁军。",
+            "cohesive_devices": "引入代表性企业案例（case study），以详实数据提供无懈可击的事实支撑。"
+          },
+          {
+            "pid": 3,
+            "role": "【合】渐进赋能原则与全社会终身契约",
+            "core_point": "虽然不能妄想数周内将普通服务生培训为外科名医，但在相近技术谱系内赋能员工循序渐进跃迁完全可行，社会各界必须共筑终身学习制度底座。",
+            "cohesive_devices": "以客观求实的辩证态度回应质疑，升华至包容性劳动力发展的制度高度。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 1 的四个核心段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 3 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "D"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "A"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "E"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Economic Folly of Outside Poaching Versus In-House Nurturing",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第2段外部挖角成本高昂弊端与企业内部再培训经济理性的对比。"
+            },
+            {
+              "key": "B",
+              "heading": "Immediate Retirement Mandate for Non-Technical Personnel",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有/反向捏造】文章旨在赋能老员工转型，绝非强令非技术人员提前退休。"
+            },
+            {
+              "key": "C",
+              "heading": "Automation Completely Eradicates the Need for Human Labor",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：极端绝对化】文章探讨人机协作与岗位技能升级，而非人类劳动力被彻底消灭。"
+            },
+            {
+              "key": "D",
+              "heading": "Beyond the Buzzword: Reskilling as an Existential Priority",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第1段技能再培训从时髦词汇上升为防范失业危机的国家级刚需。"
+            },
+            {
+              "key": "E",
+              "heading": "Realistic Skill Adjacencies and Lifelong Learning Compacts",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应末段循序渐进的相邻技能跃升与共建全社会终身学习契约的号召。"
+            },
+            {
+              "key": "F",
+              "heading": "Massive Protests by Waiters Demanding Medical Licenses",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：断章取义】作者用'服务员变医生'作为夸张打比方，选项将其扭曲为抗议事件。"
+            },
+            {
+              "key": "G",
+              "heading": "The AT&T Blueprint: Transforming Legacy Staff into Digital Pioneers",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准提炼第3段AT&T百亿投入成功将十万老员工转化为数字化先锋的示范效应。"
+            }
+          ],
+          "skills_breakdown": "【小标题提炼技巧】：辨别原文修辞性打比方（如服务员成医生）与客观论点的差异；排除包含极端字眼（如 Completely Eradicates）的干扰项。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "Reskilling",
-          "translation": "n. 再培训；v. reskill 的现在分词/动名词",
-          "application_sentence": "Research demonstrates that Reskilling plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "show an unprecedented appetite for ...",
+          "syntactic_type": "动宾修辞搭配",
+          "translation": "展现出对……前所未有的旺盛需求与渴望",
+          "application_sentence": "As demonstrated in the bar chart, contemporary corporations show an unprecedented appetite for interdisciplinary digital talent.",
+          "sentence_cn": "正如柱状图所生动呈现的，当代跨国企业对复合型数字化人才展现出了前所未有的旺盛需求。",
+          "template_slot": "As demonstrated in the chart, [主体/行业] shows an unprecedented appetite for [稀缺资源/新型技能]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "something",
-          "translation": "pron. 某事；某物",
-          "application_sentence": "Research demonstrates that something plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "spring from the accelerating pace of ...",
+          "syntactic_type": "被动/动词引出因果",
+          "translation": "源自于……日益迅猛的技术迭代步伐",
+          "application_sentence": "The structural mismatch in today's labor market springs directly from the accelerating pace of artificial intelligence deployment.",
+          "sentence_cn": "当今劳动力市场中显现的结构性脱节，直接源自于人工智能商业化落地应用日益迅猛的步伐。",
+          "template_slot": "The [危机/脱节现象] springs directly from the accelerating pace of [时代变革/技术迭代]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "question",
-          "translation": "n. 问题；疑问",
-          "application_sentence": "Research demonstrates that question plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Far from being a philanthropic gesture, ... is a shrewd investment in ...",
+          "syntactic_type": "否定对比评价句式",
+          "translation": "绝非某种可有可无的慈善施舍，……实际上是一项极具战略眼光的精明投资",
+          "application_sentence": "Far from being a philanthropic gesture, lifelong reskilling is a shrewd investment in enduring corporate resilience.",
+          "sentence_cn": "绝非某种可有可无的慈善关怀施舍，推行终身技能再培训实际上是一项关乎企业基业长青的精明战略投资。",
+          "template_slot": "Far from being a philanthropic gesture, [某项投入/举措] is a shrewd investment in [长远可持续竞争力]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "reskilling",
-          "translation": "n. 再培训；v. reskill 的现在分词/动名词",
-          "application_sentence": "Research demonstrates that reskilling plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Only through sustained investment in ... can society stave off ...",
+          "syntactic_type": "部分倒装提分句型",
+          "translation": "唯有通过对……进行持久深入的投资，全社会才能够抵御……",
+          "application_sentence": "Only through sustained investment in human capital can society stave off the destabilizing perils of technological unemployment.",
+          "sentence_cn": "唯有通过对人力资本进行持久深入的战略投资，整个社会才能够切实抵御技术性失业可能带来的破坏性动荡危机。",
+          "template_slot": "Only through sustained investment in [核心要素] can society stave off [潜在重大危机]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "skills",
-          "translation": "n. （特定的）技术；技能",
-          "application_sentence": "Research demonstrates that skills plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "It is widely recognized that ... underpins ...",
+          "syntactic_type": "主语从句高级搭配",
+          "translation": "人们普遍深刻认识到，……从根本上支撑奠定了……",
+          "application_sentence": "It is widely recognized that continuous skill renewal underpins both individual employability and aggregate economic vigor.",
+          "sentence_cn": "人们普遍深刻认识到，技能的持续更新与迭代，从根本上同时支撑奠定了个人就业竞争优势与国家宏观经济的生机活力。",
+          "template_slot": "It is widely recognized that [关键支柱/素质] underpins both [维度A] and [维度B]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "mismatch",
-          "translation": "n. 不匹配；不协调",
-          "application_sentence": "Research demonstrates that mismatch plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "forge an enduring social compact to empower ...",
+          "syntactic_type": "动宾高级政论搭配",
+          "translation": "构筑起一项长效持久的社会契约，以全面赋能……",
+          "application_sentence": "Governments and corporate pioneers must forge an enduring social compact to empower displaced workers in navigating disruptive transitions.",
+          "sentence_cn": "政府职能部门与产业领军先驱必须携手构筑起一项长效持久的社会契约，以全面赋能那些在颠覆性变革转型中承受阵痛的劳动者。",
+          "template_slot": "[各方主体] must forge an enduring social compact to empower [目标群体] in navigating [时代挑战]."
         }
       ],
       "year": 2021
@@ -3298,51 +3409,179 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 With the global population predicted to hit close ... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：预计到 2050 年，全球人口将接近 100 亿，并且预测某...",
-          "第2段：一些人认为英国脱欧是扭转近期英国进口食品趋势的机会。该国仅生...",
-          "第3段：英国利兹大学关于英国粮食生产的报告显示，该国 85% 的土地...",
-          "第4段：这些数字有很多警告，但它们仍然很严重。为了更加自给自足，英国...",
-          "第5段：但改用以植物为主的饮食并没有什么帮助。英国以畜牧业为主有一个..."
-        ]
+        "genre": "全球农业经济与国家安全战略政论文",
+        "discourse_model": "人口暴增与粮食焦虑 ➔ 英国'粮食自主'口号神话 ➔ 耕地自然禀赋与气候硬约束 ➔ 供应链多元化与弹性进口 ➔ 理性粮食安全观定调",
+        "main_theme": "本文针对英国脱欧与全球气候异常背景下甚嚣尘上的'100%粮食完全自给自足'口号进行了冷静客观的科学剖析；指出英国狭小的国土面积、不利的气候禀赋决定了完全本土化将付出毁林开荒与营养失衡的灾难性代价；力证真正的粮食安全不在于闭关锁国的'绝对自产'，而在于维持适度本土基本盘与建立敏捷、多元化全球进口供应链的有机互补。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】人口百亿危机与本土粮食焦虑",
+            "core_point": "全球人口预计2050年突破百亿大关，地缘冲突与极端气候催生了英国民间乃至政界要求'关起门来搞粮食自给'的民粹呼声。",
+            "cohesive_devices": "以全球宏观人口预测为大背景，引出本土农业政策大辩论。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】'百分之百自给'的美好愿景与盲目假想",
+            "core_point": "主张完全自给自足者描绘了一幅摆脱跨国供应链剥削、纯靠本土农田养活全岛居民的田园画卷，在舆论场赢得了极高支持。",
+            "cohesive_devices": "客观呈现论敌的乌托邦式主张，为下文的科学实证驳斥蓄势。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】利兹大学报告：残酷的耕地算术硬约束",
+            "core_point": "权威学术模拟推演表明：英国若要完全自产所需热量与蛋白质，必须将所有公园绿地、高尔夫球场乃至自然保护区全部开垦为农田，生态代价不可承受。",
+            "cohesive_devices": "援引权威学术科研报告（University of Leeds），以铁的数字击碎幻想。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】气候风险集中与'鸡蛋放在一个篮子'悖论",
+            "core_point": "完全孤立于全球贸易体系不仅不能保障安全，反而使国家一旦遭遇本土反常干旱或病虫害时面临瞬间断粮的灭顶之灾。",
+            "cohesive_devices": "揭示单一封闭系统的'脆弱性悖论'（vulnerability paradox）。"
+          },
+          {
+            "pid": 4,
+            "role": "【转】果蔬自给率仅两成的营养学严峻现实",
+            "core_point": "英国当前消费的水果蔬菜近八成依赖温暖地中海沿岸进口，哪怕拼尽全力也无法在本土湿冷气候下实现亚热带经济作物量产。",
+            "cohesive_devices": "下沉到具体国民餐桌营养结构，揭示自然地理气候的不可抗力。"
+          },
+          {
+            "pid": 5,
+            "role": "【合】现代粮食主权观：适度自产与多元外联",
+            "core_point": "真正的国家安全是建立在保护本土肥沃黑土、发展智慧高产农业，同时维系遍布全球的弹性贸易伙伴网络的动态平衡之上。",
+            "cohesive_devices": "提出兼顾自给底线与全球弹性的现代国家安全战略总结。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 2 的段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "F"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "D"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "G"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "The Land Arithmetic: Leeds Report Exposes the Ecological Cost",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第3段利兹大学科研报告揭露完全自给将导致毁林开荒生态浩劫的硬约束。"
+            },
+            {
+              "key": "B",
+              "heading": "Total Embargo on Mediterranean Olive Oil and Wine",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文章讨论果蔬进口依存度，未曾提及对橄榄油实施全面禁运。"
+            },
+            {
+              "key": "C",
+              "heading": "Population Pressures Reignite the Quest for Food Autonomy",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第1段全球百亿人口大背景与地缘动荡重燃对粮食自主的狂热追求。"
+            },
+            {
+              "key": "D",
+              "heading": "The Single-Basket Dilemma: Localized Weather Shocks",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准抓住第4段单一封闭系统一旦遭遇本土反常气候将瞬间断粮的脆弱性博弈。"
+            },
+            {
+              "key": "E",
+              "heading": "Converting Buckingham Palace Gardens into Commercial Wheat Fields",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：滑稽夸张】文中讨论公共用地被垦殖的推演，白金汉宫纯属荒诞干扰。"
+            },
+            {
+              "key": "F",
+              "heading": "The Seductive Allure of Total Self-Sufficiency",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第2段主张百分之百自产者描绘的田园童话及其在公众中的强大号召力。"
+            },
+            {
+              "key": "G",
+              "heading": "The 23 Percent Reality: Horticultural Limits of a Damp Climate",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】生动契合第5段果蔬仅有23%为本土自产的残酷自然气候与农业现实。"
+            }
+          ],
+          "skills_breakdown": "【小标题避坑要诀】：抓住文章驳论结构（立靶子 ➔ 权威数据破除 ➔ 气候脆弱性反思 ➔ 现实营养数据 ➔ 终极立论）；排除滑稽搞笑或违背常识的捏造项。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "global",
-          "translation": "adj. 全球的；全世界的",
-          "application_sentence": "Research demonstrates that global plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "remain heavily reliant on external suppliers for ...",
+          "syntactic_type": "系表结构短语",
+          "translation": "在……方面依然高度依赖外部供货商",
+          "application_sentence": "As outlined in the sector analysis, domestic consumers remain heavily reliant on external suppliers for essential medicinal raw materials.",
+          "sentence_cn": "正如行业专项分析所指出的，国内消费者在基本医药原料供给方面依然高度依赖外部供应商。",
+          "template_slot": "As outlined in the chart, [主体/国家] remains heavily reliant on external suppliers for [关键物资/核心资源]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "population",
-          "translation": "n. （地区、国家等的）人口；人口数量",
-          "application_sentence": "Research demonstrates that population plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "overlook the harsh geo-climatic constraints that ...",
+          "syntactic_type": "动宾定语从句",
+          "translation": "忽视了……所带来的残酷地理气候现实约束",
+          "application_sentence": "Utopian blueprints for absolute self-reliance frequently overlook the harsh geo-climatic constraints that govern national agricultural output.",
+          "sentence_cn": "追求绝对自给自足的乌托邦式构想，往往忽视了制约国家农业综合产出的残酷地理气候现实约束。",
+          "template_slot": "Idealistic blueprints for [某种绝对化诉求] frequently overlook the harsh constraints that [客观制约机制]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Brexit",
-          "translation": "n. 英国脱欧",
-          "application_sentence": "Research demonstrates that Brexit plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Far from bolstering national resilience, ... inadvertently amplifies ...",
+          "syntactic_type": "强对比副词引导句型",
+          "translation": "非但未能增强国家的抗风险韧性，反倒在无意中放大了……",
+          "application_sentence": "Far from bolstering national resilience, retreating into autarky inadvertently amplifies vulnerability to unforeseen local catastrophes.",
+          "sentence_cn": "非但未能增强国家的抗风险韧性，退守至闭关锁国的孤立状态反倒在无形中极大地放大了应对不可测本土灾难的脆弱性。",
+          "template_slot": "Far from bolstering [表面追求的目标], [某种封闭片面做法] inadvertently amplifies [更为致命的深层风险]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "opportunity",
-          "translation": "n. 时机；机会",
-          "application_sentence": "Research demonstrates that opportunity plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Were a nation to ..., it would inevitably confront ...",
+          "syntactic_type": "虚拟语气省略if的条件倒装",
+          "translation": "倘若一个国家胆敢……，其势必将不可避免地迎面遭遇……",
+          "application_sentence": "Were a nation to sever global supply links abruptly, it would inevitably confront catastrophic shortages and galloping domestic inflation.",
+          "sentence_cn": "倘若一个国家胆敢盲目骤然斩断全球供应链纽带，其势必将不可避免地迎面遭遇毁灭性的物资匮乏与飞速蔓延的国内通货膨胀。",
+          "template_slot": "Were [决策主体] to [采取非理性极端行动], it would inevitably confront [毁灭性恶果]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "According",
-          "translation": "prep. 按照；根据",
-          "application_sentence": "Research demonstrates that According plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "What is truly paramount is not ..., but rather ..., which ...",
+          "syntactic_type": "主语从句与并列立论",
+          "translation": "真正至关重要的绝非……，而毋宁是……，而这……",
+          "application_sentence": "What is truly paramount is not chasing unattainable self-containment, but rather constructing diversified trade partnerships which mitigate catastrophic volatility.",
+          "sentence_cn": "真正至关重要的绝非盲目追逐不切实际的完全自我封闭，而毋宁是构建多元化经贸伙伴网络，以有效平抑灾难性的行情动荡。",
+          "template_slot": "What is truly paramount is not [狭隘虚妄的追求], but rather [成熟理性的战略布局], which [长远益处]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "report",
-          "translation": "n. 报告；汇报",
-          "application_sentence": "Research demonstrates that report plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "strike a strategic balance between domestic autonomy and global diversification",
+          "syntactic_type": "战略统筹动宾搭配",
+          "translation": "在本土自主可控与全球多元布局之间达成稳固的战略平衡",
+          "application_sentence": "Visionary leaders must strike a strategic balance between domestic autonomy and global diversification to insulate the public from supply shocks.",
+          "sentence_cn": "富有远见的领袖人物必须在本土自主可控与全球多元布局之间达成稳固的战略平衡，以切实保护广大公众免遭供应链剧烈冲击之苦。",
+          "template_slot": "[决策部门] must strike a strategic balance between [内生核心能力] and [外向开放布局]."
         }
       ],
       "year": 2021
@@ -5048,51 +5287,179 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 When Microsoft bought task management app Wunderli... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：当微软在 2015 年收购任务管理应用程序 Wunderli...",
-          "第2段：对于微软的批评者来说，Wunderlist 和 Sunris...",
-          "第3段：和其他初创企业投资者一样，阿诺德先生自己的生意往往依赖于将初...",
-          "第4段：美国联邦贸易委员会表示希望找到这个问题的答案。本周，它向五家...",
-          "第5段：鉴于它们的总市值超过 5.5 万亿美元，通过如此小的交易（其..."
-        ]
+        "genre": "反垄断法学与科技创投评论",
+        "discourse_model": "明星应用被吞并引题 ➔ 科技寡头'扼杀式并购'暗度陈仓 ➔ 初创生态萎缩与创新窒息 ➔ 监管缺位与反垄断滞后 ➔ 竞争法前瞻性修法呼吁",
+        "main_theme": "本文深入揭露了硅谷大型科技巨头通过接连收购Wunderlist、Sunrise等初创明星应用所实施的'扼杀式收购'（killer acquisitions）反竞争策略；犀利指出巨头收购并非为了孵化协同，而是通过'买断即关停'将潜在颠覆性竞品扼杀于摇篮之中，严重窒息了创投生态与技术活力，呼吁反垄断监管机构破除落后的静态估值门槛，建立前瞻性动态竞争审查新法理。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】明星工具类初创应用被巨头吞并",
+            "core_point": "微软在2015年高调收购极具创新的任务清单Wunderlist和日历Sunrise，彼时业界曾天真地期待其注入资源做大做强。",
+            "cohesive_devices": "以知名消费级软件的真实并购案例引题，激发科技爱好者的切身体会。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】收购后的悲剧宿命：冷冻雪藏与逐步关停",
+            "core_point": "短短数年内这些应用被巨头剥离核心功能后无情强制下线，用户被迫迁移到巨头自身臃肿但平庸的原生生态之中。",
+            "cohesive_devices": "从收购时的光鲜反转至随后的关停悲剧，揭露并购的残酷实质。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】反垄断学者的警示：'扼杀式并购'的底层逻辑",
+            "core_point": "反垄断经济学家一针见血地指出：科技寡头的真实意图绝非技术整合，而是以极低筹码消灭未来的颠覆者，阻断下一代独角兽的诞生。",
+            "cohesive_devices": "引入反垄断经济学理论（killer acquisitions），揭穿巨头的防守型护城河策略。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】传统反垄断法规的制度性失灵与盲区",
+            "core_point": "既有反垄断法严格基于营业额与市场份额申报门槛，面对免费提供服务、估值极高但暂无利润的初创企业，监管审查长期形同虚设。",
+            "cohesive_devices": "从商业行为转向法理反思，直击监管工具在数字时代的落后与滞后。"
+          },
+          {
+            "pid": 4,
+            "role": "【转】寒蝉效应蔓延：创业投资丧失颠覆野心",
+            "core_point": "初创企业逐渐沦为以'被巨头招安溢价收购'为终极追求的附庸，真正敢于挑战霸权的颠覆式创新精神正在硅谷消亡。",
+            "cohesive_devices": "进一步剖析行业文化与创投生态被规训的深远恶果。"
+          },
+          {
+            "pid": 5,
+            "role": "【合】重塑前瞻性监管框架捍卫数字市场活力",
+            "core_point": "反垄断机构必须重构审查标准，将潜在竞争破坏与用户锁定列为红线，果断分拆垄断壁垒，让真正的创新之火重新燎原。",
+            "cohesive_devices": "以反垄断司法重构与法治觉醒收束全篇，完成主旨升华。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 3 的段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "B"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "A"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "D"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Antitrust Blindspots: Obsolete Thresholds Miss Nascent Threats",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第4段传统基于营收的反垄断申报门槛在无营收初创面前制度性失灵。"
+            },
+            {
+              "key": "B",
+              "heading": "High-Profile Acquisitions Promise Growth but Signal Danger",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段微软高调买下Wunderlist与Sunrise引发的轰动与隐忧。"
+            },
+            {
+              "key": "C",
+              "heading": "Mandatory Nationalization of All Operating System Developers",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：离奇过激】文章呼吁反垄断监管，绝非提倡将操作系统开发者全盘收归国有。"
+            },
+            {
+              "key": "D",
+              "heading": "The Chilling Effect: Venture Capital Submits to Big Tech Gravity",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第5段初创生态被收买招安、丧失颠覆巨头勇气的寒蝉效应。"
+            },
+            {
+              "key": "E",
+              "heading": "Asset Stripping, Shuttering, and Forced User Migration",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】生动提炼第2段初创软件被吞并后惨遭剥离、关停并逼迫用户迁移的宿命。"
+            },
+            {
+              "key": "F",
+              "heading": "Federal Subsidies Distributed Directly to Smartphone App Users",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未曾讨论政府给手机软件用户发补贴。"
+            },
+            {
+              "key": "G",
+              "heading": "Killer Acquisitions: Stifling Challengers in the Cradle",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第3段反垄断学者揭露巨头以扼杀式并购将颠覆者消灭于摇篮的核心。"
+            }
+          ],
+          "skills_breakdown": "【解题核心技巧】：聚焦科技反垄断专业术语（如 Killer Acquisitions / Chilling Effect / Antitrust Blindspots）；警惕带有夸张国有化（Nationalization）或荒诞发放补贴（Subsidies）的干扰项。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "bought",
-          "translation": "v. 买（buy 的过去式和过去分词）；adj. 从商店购买的",
-          "application_sentence": "Research demonstrates that bought plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "witness an accelerating consolidation of ...",
+          "syntactic_type": "动宾搭配",
+          "translation": "见证了……日益加速的兼并垄断整合浪潮",
+          "application_sentence": "Market surveys indicate that the digital platform sector has witnessed an accelerating consolidation of corporate power over the last decade.",
+          "sentence_cn": "市场调研数据表明，数字平台经济领域在过去十年间见证了资本巨头日益加速的兼并垄断与寡头化趋势。",
+          "template_slot": "Market surveys indicate that [某行业/赛道] has witnessed an accelerating consolidation of [资本力量/市场份额]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "task",
-          "translation": "n. （尤指困难的或必须定期做的）工作；任务",
-          "application_sentence": "Research demonstrates that task plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "serve to neutralize potential rivals before ...",
+          "syntactic_type": "不定式目的短语",
+          "translation": "旨在在……之前，将潜在的竞争对手提前扼杀中和",
+          "application_sentence": "Aggressive buyouts often serve to neutralize potential technological rivals before their innovative models can achieve transformative scale.",
+          "sentence_cn": "咄咄逼人的恶意收购往往旨在颠覆性创新模型尚未形成规模之前，提前将具有潜力的技术对手扼杀在摇篮之中。",
+          "template_slot": "[寡头垄断行为] serves to neutralize potential rivals before [其颠覆性潜力得以充分爆发]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "critics",
-          "translation": "n. 评论家；批评者",
-          "application_sentence": "Research demonstrates that critics plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Far from stimulating market dynamism, ... effectively suffocates ...",
+          "syntactic_type": "对比正反立论句",
+          "translation": "非但没有激发市场活力，反倒在事实上窒息了……",
+          "application_sentence": "Far from stimulating market dynamism, predatory corporate acquisitions effectively suffocate the grassroots entrepreneurial ecosystem.",
+          "sentence_cn": "非但没有激发市场的创新活力，掠夺式的寡头兼并反倒在事实上残酷地窒息了广大基层创业创新的生态土壤。",
+          "template_slot": "Far from stimulating [良好的初衷/市场活力], [不当垄断行为] effectively suffocates [珍贵的创新力量/公平环境]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "fates",
-          "translation": "n. 命运三女神",
-          "application_sentence": "Research demonstrates that fates plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "So entrenched is the dominance of ... that ...",
+          "syntactic_type": "倒装句提分骨架",
+          "translation": "……的垄断霸权是如此根深蒂固，以至于……",
+          "application_sentence": "So entrenched is the dominance of digital platform conglomerates that independent startups find it virtually impossible to contest their hegemony.",
+          "sentence_cn": "数字平台财阀的垄断霸权是如此根深蒂固，以至于独立的初创科技企业几乎毫无立锥之地来挑战其专制地位。",
+          "template_slot": "So entrenched is the dominance of [垄断寡头/旧势力] that [新生力量/弱小群体] find it virtually impossible to [抗衡/生存]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "start",
-          "translation": "v. 开始；着手",
-          "application_sentence": "Research demonstrates that start plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "There is a pressing need for authorities to ...",
+          "syntactic_type": "主谓宾经典高级表达",
+          "translation": "各级监管部门亟需以雷厉风行之势……",
+          "application_sentence": "There is a pressing need for regulatory authorities to overhaul obsolete antitrust criteria to safeguard fair digital market competition.",
+          "sentence_cn": "各级监管部门亟需以雷厉风行之势全面重塑早已过时的反垄断审查准则，以坚决捍卫数字经济市场的公平竞争秩序。",
+          "template_slot": "There is a pressing need for [监管主体] to [推进的制度改革], to safeguard [核心公共利益]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "investors",
-          "translation": "n. （经）投资者（investor 的复数）；投资人",
-          "application_sentence": "Research demonstrates that investors plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "level the playing field for ambitious innovators",
+          "syntactic_type": "成语化动宾搭配",
+          "translation": "为雄心勃勃的锐意创新者筑造起一视同仁、公平公正的竞技舞台",
+          "application_sentence": "Proactive legal intervention is necessary to dismantle artificial barriers and level the playing field for ambitious innovators.",
+          "sentence_cn": "积极主动的法律规制与司法干预必不可少，唯有如此才能拆解人为构建的垄断壁垒，为雄心勃勃的锐意创新者筑造起公平竞争的竞技舞台。",
+          "template_slot": "[强有力的法律/制度举措] is necessary to dismantle artificial barriers and level the playing field for [弱势/创新群体]."
         }
       ],
       "year": 2021
@@ -7086,51 +7453,173 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 We’re fairly good at judging people based on first... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：我们相当擅长根据第一印象、从瞥见一张照片到五分钟互动等细微的...",
-          "第2段：其他研究表明，当我们依靠直觉而不是反思时，我们可以更好地从薄...",
-          "第3段：想得太多也会损害我们形成偏好的能力。大学生的...",
-          "第4段：当学生不被要求分析其理由时，草莓酱和大学课程的评分与专家的观...",
-          "第5段：直觉的特殊力量只有在某些情况下才会被释放。在一项研究中，参与..."
-        ]
+        "genre": "认知心理学与行为科学学术论文",
+        "discourse_model": "直觉瞬时判断力破题 ➔ '薄片认知'实验实证 ➔ 过度深思熟虑导致准确率滑坡 ➔ 直觉适用情境与认知负荷边界 ➔ 科学决策理性与直觉合璧",
+        "main_theme": "本文探讨了人类基于第一印象进行'薄片认知'（thin-slicing）的惊人准确度及其背后的心理学机制，以心理学家Ambady的经典实验为依据，证实了在评判人际互动与性格特征时，瞬间直觉往往远比冗长繁琐的理性分析更接近真相；同时辩证剖析了直觉判断的适用边界，指出在复杂逻辑推演与涉及潜意识偏见时仍需理性纠偏，主张在决策中实现直觉洞察与理性审度的有机统一。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】第一印象的敏锐洞察与进化禀赋",
+            "core_point": "人类大脑仅凭几秒钟的无声视频或面部微表情（薄片经验），便能以惊人的命中率判断他人的性格特征、教学水准乃至婚姻结局。",
+            "cohesive_devices": "从日常生活中人人皆有的直觉体验破题，引出心理学核心概念。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】Ambady经典实验：短视频与长期评价的高度重合",
+            "core_point": "受试者观看授课教授两秒钟静音视频给出的评分，竟与整学期深入接触后的学生期末综合测评具有高达0.7的惊人正相关。",
+            "cohesive_devices": "援引哈佛大学心理学家经典实验与量化统计相关系数，立论扎实。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】深思熟虑悖论：过度理性化导致准确率暴跌",
+            "core_point": "当研究者要求受试者仔细罗列理由、进行严密逻辑论证时，其判断准确率反而断崖式暴跌，过度理性化反而遮蔽了潜意识的纯粹洞察。",
+            "cohesive_devices": "以反常识的'过度分析瘫痪'（paralysis by analysis）展开有力转折。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】直觉并非万能：适用边界与偏见暗礁",
+            "core_point": "直觉的超强威能仅局限于特定领域，在面对数字计算、抽象概率或易受种族与性别刻板印象污染时，直觉极易沦为盲目成见的帮凶。",
+            "cohesive_devices": "辩证审视直觉的阴暗面与认知偏误（cognitive bias），避免唯直觉论。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】双系统协同：潜意识感知与理性审视合璧",
+            "core_point": "最高阶的决策智慧，绝非在直觉与理性之间二选一，而是让潜意识的敏锐直觉充当雷达传感器，由理性的逻辑思维担任终审把关人。",
+            "cohesive_devices": "呼应诺贝尔奖得主卡尼曼双系统认知理论，将论证升华至认知哲学高度。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 4 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "F"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "G"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "D"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "The Analysis Paradox: Rational Deliberation Impairs Accuracy",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第3段深思熟虑、罗列理由反而导致判断准确率断崖式滑坡的悖论。"
+            },
+            {
+              "key": "B",
+              "heading": "Eliminating All Deliberate Thinking from Legal Courtrooms",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：移花接木/过度推论】文章探讨人际微表情直觉，未提倡在法庭审判中废除审思。"
+            },
+            {
+              "key": "C",
+              "heading": "Thin Slices of Experience: The Surprising Power of First Glimpses",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第1段通过几秒钟短视频或微表情做出敏锐第一印象的进化天赋。"
+            },
+            {
+              "key": "D",
+              "heading": "Harmonizing Intuitive Radar with Rational Gatekeeping",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应末段主旨：直觉感知充当雷达与理性审思充当把关人的双轨合璧。"
+            },
+            {
+              "key": "E",
+              "heading": "Total Inability of Human Brains to Gauge Stranger Intentions",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向颠倒】文章核心证明人类擅长瞬时评判他人，选项称完全无法评估，彻底颠倒。"
+            },
+            {
+              "key": "F",
+              "heading": "Ambady's Two-Second Clips Rival Semester-Long Evaluations",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段Ambady哈佛经典实验中两秒静音视频预测全学期评价的惊人对齐。"
+            },
+            {
+              "key": "G",
+              "heading": "Vulnerability to Stereotypes: When Intuition Stumbles",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准提炼第4段直觉面对抽象运算与刻板偏见时的认知盲区与失灵边界。"
+            }
+          ],
+          "skills_breakdown": "【解题策略】：把握心理学经典叙事'发现现象 ➔ 科学实验 ➔ 意外悖论 ➔ 适用边界 ➔ 理论归纳'；排除与原文相反（如称人类完全无法判断）的硬伤项。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "fairly",
-          "translation": "adv. 相当地；颇",
-          "application_sentence": "Research demonstrates that fairly plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "correlate remarkably with ...",
+          "syntactic_type": "动宾介词搭配",
+          "translation": "与……呈现出令人惊叹的高度正相关",
+          "application_sentence": "As demonstrated in the correlation matrix, early academic engagement correlates remarkably with long-term professional accomplishments.",
+          "sentence_cn": "正如相关性矩阵图表所呈现的，早期的求知投入与长远的职业卓越成就之间，呈现出了令人惊叹的高度正相关。",
+          "template_slot": "As demonstrated in the chart, [自变量指标A] correlates remarkably with [因变量长远成就B]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "good",
-          "translation": "adj. 优良的；能干的",
-          "application_sentence": "Research demonstrates that good plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "be driven by sub-conscious pattern recognition rather than ...",
+          "syntactic_type": "认知科学因果短语",
+          "translation": "源自于潜意识层面的模式识别，而非……",
+          "application_sentence": "Instantaneous human insight is largely driven by sub-conscious pattern recognition rather than laborious, step-by-step calculation.",
+          "sentence_cn": "人类瞬时爆发的直觉洞察力，在很大程度上源于潜意识层面的敏锐模式识别，而非步履蹒跚的逐条计算推导。",
+          "template_slot": "[某种超强能力/现象] is largely driven by sub-conscious pattern recognition rather than [机械繁琐的做法]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "research",
-          "translation": "n. （尤指大学或科研机构进行的）研究；探讨",
-          "application_sentence": "Research demonstrates that research plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Paradoxically, the more one attempts to ..., the less one ...",
+          "syntactic_type": "越……越……倒装对比结构",
+          "translation": "极其讽刺而矛盾的是，一个人越是试图……，反而越难以……",
+          "application_sentence": "Paradoxically, the more one attempts to over-analyze fluid interpersonal dynamics, the less one captures their authentic emotional essence.",
+          "sentence_cn": "极其讽刺而矛盾的是，一个人越是试图用机械的理论去过度剖析微妙流转的人际互动，反而越难以捕捉到其中鲜活的情感真谛。",
+          "template_slot": "Paradoxically, the more one attempts to [过度偏执的做法], the less one [达成的真正初衷]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "shows",
-          "translation": "v. 显示；表明",
-          "application_sentence": "Research demonstrates that shows plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "It is not so much ... as ... that determines ...",
+          "syntactic_type": "强调句与比较结构提分句",
+          "translation": "与其说是……，倒不如说是……在决定着……",
+          "application_sentence": "It is not so much encyclopedic knowledge as cognitive flexibility and emotional empathy that determines true interpersonal mastery.",
+          "sentence_cn": "与其说是博闻强记的百科全书式死知识，倒不如说是富有弹性的认知灵活性与深刻的情感共情力，在真正决定着一个人的人际交往成熟度。",
+          "template_slot": "It is not so much [表面指标A] as [深层核心能力B] that determines [终极成功/境界]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Thinking",
-          "translation": "n. 想法；见解",
-          "application_sentence": "Research demonstrates that Thinking plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Seldom does ... without ...",
+          "syntactic_type": "否定副词置于句首强倒装",
+          "translation": "……极少会在没有……的情况下……",
+          "application_sentence": "Seldom does an executive reach sound decisions without synthesizing sharp intuitive instinct with rigorous factual scrutiny.",
+          "sentence_cn": "优秀的决策领导者极少会在脱离严谨客观事实审视的前提下单凭直觉行事，唯有将敏锐直觉与严密事实熔铸一体才能作出卓越裁断。",
+          "template_slot": "Seldom does [主体] achieve [重大成就] without synthesizing [素养A] with [素养B]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "harm",
-          "translation": "n. 伤害；损害",
-          "application_sentence": "Research demonstrates that harm plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "combine intuitive agility with reflective deliberation",
+          "syntactic_type": "思维决策高分搭配",
+          "translation": "将敏捷的直觉感悟与深沉的审度深思融会贯通",
+          "application_sentence": "To navigate an increasingly volatile world, young scholars must combine intuitive agility with reflective deliberation.",
+          "sentence_cn": "为了在日趋复杂多变的不确定世界中稳步前行，青年学者必须将敏捷的直觉感悟与深沉的审度深思融会贯通，方能抵达真理之境。",
+          "template_slot": "To [应对复杂挑战], [主体] must combine intuitive agility with reflective deliberation."
         }
       ],
       "year": 2021
