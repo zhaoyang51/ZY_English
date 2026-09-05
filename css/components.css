@@ -240,6 +240,14 @@ html, body {
   -webkit-overflow-scrolling: touch;
 }
 
+/* Right Panel Workspace Bottom Clearance:
+   Leaves sufficient breathing space at the bottom so the floating action buttons
+   (上一步 / 下一步) will never obstruct the end of the text/cards when fully scrolled. */
+.workspace,
+#workspaceContent {
+  padding-bottom: 120px;
+}
+
 /* Floating Bottom Action Bar */
 .floating-nav-bar {
   position: fixed;
@@ -732,6 +740,11 @@ body.theme-dark .vocab-tip {
     overflow-y: visible !important;
     padding: 14px 12px;
     padding-bottom: calc(160px + env(safe-area-inset-bottom, 20px)) !important;
+  }
+
+  .workspace,
+  #workspaceContent {
+    padding-bottom: 20px;
   }
 
   .floating-nav-bar {
