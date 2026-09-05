@@ -1720,49 +1720,147 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 What would you do with $590m? This is now a questi... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：您会用 5.9 亿美元做什么？现在，这是一位 84 岁的寡妇...",
-          "第2段：这两位学者通过一系列行为研究表明，最有价值的花钱方式可能是违...",
-          "第3段：这本薄薄的书充满了帮助工资奴隶和彩票中奖者获得最大“物有所值..."
-        ]
+        "genre": "行为经济学与幸福心理学通俗学术评述",
+        "discourse_model": "天降巨富中奖悬念 ➔ 《幸福金钱》学术研究 ➔ 购买体验与助人利他的花钱法则 ➔ 告别物质买买买的享乐适应 ➔ 中产焦虑反思与财富效用边界",
+        "main_theme": "本文由84岁寡妇格洛丽亚·麦肯齐斩获5.9亿美元劲球彩票巨奖切入，深刻探讨了现代行为经济学与心理学关于'金钱能否购买幸福'（Can money buy happiness?）的经典命题；系统评述了哈佛与英属哥伦比亚大学学者合著的畅销力作《幸福金钱》（Happy Money），提炼了打破'享乐适应'（hedonic treadmill）的五大科学消费原则：买体验而非物品、买时间、延后享受、以及投资于他人（prosocial spending）；最终犀利指出，探讨如何花钱获取精神圆满本质上是远离饥饿的优渥特权阶层的专利，反思了金钱在边际效用递减规律下的本质局限。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】5.9亿巨额彩票悬念揭开金钱哲学序幕",
+            "core_point": "八旬老妪斩获天价大奖，面对天文数字财富，如何使用金钱成为拷问人性与幸福的核心命题。",
+            "cohesive_devices": "以扣人心弦的设问（What would you do with $590m?）引发读者沉思。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】学者实证开方：购买体验与利他消费带来持久幸福",
+            "core_point": "行为科学家研究证实，将金钱花在不可磨灭的丰富体验以及无私馈赠他人上，所产生的精神愉悦远胜购买死物。",
+            "cohesive_devices": "引入学术实证支撑（behavioural research to show rewarding ways to spend）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】为工薪族与富豪量身打造的'幸福金钱'消费指南",
+            "core_point": "新书《幸福金钱》提炼出切实可行的花钱诀窍，帮助普通打工人乃至超级富豪将每一分钱的幸福回报率最大化。",
+            "cohesive_devices": "具体展开操作细则（packed with tips / get the most 'happiness bang for their buck'）。"
+          },
+          {
+            "pid": 3,
+            "role": "【合】特权阶层的焦虑与财富边际效用的清醒反思",
+            "core_point": "探讨花钱买幸福本身是一种远离饥寒交迫的特权；金钱固然能免除赤贫之苦，但在满足基本温饱后，它无法自动兑现人生终极圆满。",
+            "cohesive_devices": "以阶层清醒批判作结（readers are a privileged lot / money cannot buy a happy soul）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 1 的四个段落，从 A-F 六个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "F"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "D"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Practical Principles to Maximize the Happiness Bang for Your Buck",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第3段：介绍《幸福金钱》实用消费指南，指导大众最大化单位金钱的幸福回报。"
+            },
+            {
+              "key": "B",
+              "heading": "Lottery Winners Invariably End Up in Bankruptcy and Despair",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向颠倒/过度悲观】文中未提及中奖者必定破产绝望，而是探讨如何科学消费。"
+            },
+            {
+              "key": "C",
+              "heading": "An Astronomical Jackpot Poses a Profound Philosophical Dilemma",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：5.9亿美元超级巨奖降临，抛出财富与幸福如何抉择的深刻哲学难题。"
+            },
+            {
+              "key": "D",
+              "heading": "The Privileged Nature of Happiness Seeking and Diminishing Returns",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第4段总结：探讨花钱买幸福属于特权阶层的烦恼，警示财富边际效用递减规律。"
+            },
+            {
+              "key": "E",
+              "heading": "Compulsory Philanthropy Enacted by Federal Taxation Authorities",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未曾提及强制慈善捐赠立法。"
+            },
+            {
+              "key": "F",
+              "heading": "Behavioral Insights: Experiential Spending and Altruistic Giving",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第2段：行为学研究证实，投资人生经历与利他捐赠能激发最高层级的心灵愉悦。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓天价中奖悬念（$590m dilemma）；段2抓行为经济学购买体验与利他（behavioural research / spend on experiences / invest in others）；段3抓最大化性价比（tips to get happiness bang for buck）；段4抓特权反思与财富效用边界（privileged lot / money cannot buy fulfillment）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "question",
-          "translation": "n. 问题；疑问",
-          "application_sentence": "Research demonstrates that question plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "demonstrate that higher material consumption yields sharply diminishing returns on happiness",
+          "syntactic_type": "边际效用经济学句型",
+          "translation": "清晰表明单纯物质消费的攀升在促进幸福感方面呈现出急剧的边际收益递减规律",
+          "application_sentence": "As empirical wellbeing surveys demonstrate, excessive material consumption yields sharply diminishing returns on genuine psychological satisfaction.",
+          "sentence_cn": "正如实证心理幸福感调研所清晰揭示的，过度的纯物质消费在换取真正的内心精神满足感方面，呈现出极为陡峭的边际收益递减规律。",
+          "template_slot": "As empirical surveys clearly demonstrate, excessive [物质投入/表面消费] yields sharply diminishing returns on [长远精神福祉]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Gloria",
-          "translation": "n. 地质用远程斜向声纳（Geological LongLORIA Range Inclined Asdic）；n. （Gloria）人名",
-          "application_sentence": "Research demonstrates that Gloria plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "fall into the chronic trap of hedonic adaptation where novelty quickly wears off",
+          "syntactic_type": "心理学术语定语从句结构",
+          "translation": "陷入物欲享乐适应的慢性怪圈，在短暂的新奇刺激迅速消退后重归空虚",
+          "application_sentence": "Consumers remain perpetually unsatisfied because they fall into the chronic trap of hedonic adaptation, where the joy of material acquisition quickly wears off.",
+          "sentence_cn": "许多消费者之所以陷入永无休止的精神匮乏与焦虑，正是因为他们坠入了享乐适应的慢性心理怪圈，物质占有带来的短暂快感总会在转瞬之间消逝殆尽。",
+          "template_slot": "Individuals remain trapped in anxiety because they fall into the chronic trap of hedonic adaptation where [某种新鲜感] quickly wears off."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "academics",
-          "translation": "n. 学者；大学教师",
-          "application_sentence": "Research demonstrates that academics plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Money may alleviate the acute misery of destitution, but it has no power to purchase ...",
+          "syntactic_type": "转折对比警句结构",
+          "translation": "金钱固然能够极大缓解赤贫困顿带来的尖锐痛苦，但它却绝无可能购买到……",
+          "application_sentence": "Money may alleviate the acute misery of physical destitution, but it has no magical power to purchase a meaningful, spiritually fulfilled existence.",
+          "sentence_cn": "金钱财富固然能够切实化解物质赤贫匮乏带来的尖锐生存苦难，但它却绝无任何通天的魔力能够直接买来一个充满意义感与精神富足的充实人生。",
+          "template_slot": "Wealth may alleviate [生理层面的痛苦], but it has no power to purchase [心灵的宁静/崇高的价值/真正的智慧]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "array",
-          "translation": "n. 一系列；大量",
-          "application_sentence": "Research demonstrates that array plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Only by redirecting financial resources from conspicuous possession to shared experiences and altruism can individuals ...",
+          "syntactic_type": "only+介词短语置于句首的部分倒装结构",
+          "translation": "唯有将物质财富的投向从浮华的炫耀性占有果断转向彼此共享的生命体验与利他奉献，个体方能……",
+          "application_sentence": "Only by redirecting financial resources from conspicuous material possession to enriching experiences and altruism can people achieve lasting happiness.",
+          "sentence_cn": "唯有将宝贵的金钱资源从浮夸虚荣的炫耀性物质占有，坚决转向丰盈心灵的共同经历体验与扶危济困的利他奉献，人们方能真正获取恒久深邃的幸福真谛。",
+          "template_slot": "Only by redirecting resources from [表面炫耀/短期利益] to [深度体验/社会公益] can [主体] achieve [持久的价值]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "slim",
-          "translation": "adj. 苗条的；纤细的",
-          "application_sentence": "Research demonstrates that slim plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "volume",
-          "translation": "n. 体积；容积",
-          "application_sentence": "Research demonstrates that volume plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "cultivate mindful consumption habits that prioritize relational depth and community enrichment over mindless acquisition",
+          "syntactic_type": "价值升华对仗动宾搭配",
+          "translation": "培育崇尚清醒自觉的消费习性，将人际情感深度与社群公共福祉置于盲目占有买买买之上",
+          "application_sentence": "Modern citizens ought to cultivate mindful consumption habits that prioritize relational depth and social harmony over mindless commercial acquisition.",
+          "sentence_cn": "身处消费主义狂潮中的现代公民应当积极培育内省自觉的理性消费习惯，将温暖深厚的人际情感联结与丰盈和谐的社群公共福祉，置于盲目攀比的商业占有之上。",
+          "template_slot": "Modern society must cultivate enlightened habits that prioritize [精神深度/社会和谐] over mindless [物质消耗/盲目内卷]."
         }
       ],
       "year": 2014
@@ -3604,51 +3702,164 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 An article in Scientific American has pointed out ... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：《科学美国人》的一篇文章指出，实证研究表明，实际上，你认为自...",
-          "第2段：我们将自己的记忆染上玫瑰色，并将自己置于自我肯定的境地。当受...",
-          "第3段：心理学家和行为科学家尼古拉斯·埃普利（Nicholas Ep...",
-          "第4段：埃普利发现反应中没有显着的性别差异。也没有任何证据表明那些自...",
-          "第5段：了解了埃普利的研究结果后，我们发现许多人发自内心地讨厌自己的..."
-        ]
+        "genre": "认知心理学与自我知觉实证科学评述",
+        "discourse_model": "自我美化潜意识现象 ➔ 记忆粉饰与心理防御机制 ➔ 尼古拉斯·埃普利面部相片对照实验 ➔ 性别与自尊均无显著差异（普适人权） ➔ 为何人们普遍痛恨素颜抓拍照",
+        "main_theme": "本文聚焦《科学美国人》（Scientific American）刊登的心理学突破性发现，深入解构了人类普遍存在的'自我美化偏见'（self-enhancement bias / self-serving illusion）；揭示了人类大脑会不由自主地给过往记忆镀上玫瑰色滤镜，并在无意识中将自我投射为比真实相貌更为英俊标致的形象；详细评述了芝加哥大学行为科学家尼古拉斯·埃普利（Nicholas Epley）操刀的面部变形图像对照实验，证实受试者几乎无一例外会把美化了20%的数码合成脸庞认作自己的真实容貌；阐明了该偏见在男女老少不同群体中高度均质普适；最终幽默而深刻地破译了大众普遍厌恶毫无防备的未经修饰抓拍照的心理机制。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】颠覆认知：科学实证表明你自认为长得比实际更美",
+            "core_point": "《科学美国人》披露的严谨实证科研表明，大众在潜意识中对自身颜值的自我评价普遍大幅高于客观真实容貌。",
+            "cohesive_devices": "以引人入胜的科学反差（empirical research says you think you're more attractive than you are）开门见山。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】自我防御机制：给记忆镀上玫瑰金并规避真相",
+            "core_point": "人类天生擅长记忆粉饰，本能地寻找自我肯定的环境，当直面与内心美化形象不符的真实证据时极易产生心理防御。",
+            "cohesive_devices": "运用生动比喻（rose-tint our memories / become defensive）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】埃普利经典实验：变形相片选择揭穿颜值错觉",
+            "core_point": "行为科学家埃普利将受试者真实照片与帅气/丑陋面孔按比例微调融合，结果受试者毫不犹豫地将美化版相片指认为自己。",
+            "cohesive_devices": "详细还原控制变量实验（morphed photographs with attractive and unattractive faces）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】普适的人性本能：跨越性别与自尊高低的通用特质",
+            "core_point": "实验最具启发性的是：男女在自我美化倾向上完全一致，无论受试者自尊高低，美化自身形象是全人类共享的心智底色。",
+            "cohesive_devices": "以统计无关性（no gender difference / nor evidence of self-esteem variance）确立普适性。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】破译日常谜题：为何人们普遍痛恨素颜抓拍抓拍",
+            "core_point": "正因内心长期固化了自我美颜滤镜，当直面相机镜头下毫不留情、未做防备的真实素颜时，认知失调便会转化为强烈的抵触与反感。",
+            "cohesive_devices": "以现实生活共鸣作结（makes sense that people hate photographs of themselves）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 2 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "G"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "D"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Epley's Morphed Photo Trials Unmask the Beauty Delusion",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第3段：埃普利利用数码面部变形合成实验，科学实证了人们挑选美化相片作为真实自我的幻觉。"
+            },
+            {
+              "key": "B",
+              "heading": "Plastic Surgery Mandated for Severe Facial Asymmetry",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中完全未曾提及整容手术或面部不对称矫正。"
+            },
+            {
+              "key": "C",
+              "heading": "Empirical Science Reveals Our Innate Tendency to Overrate Our Looks",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：实证科学研究证实，人们在潜意识里天生倾向于高估自身长相外貌。"
+            },
+            {
+              "key": "D",
+              "heading": "Cognitive Dissonance Explains Why People Loathe Candid Snaps",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第5段结语：解释了现实相片击碎脑中美颜滤镜所引发的认知失调与痛恨抓拍现象。"
+            },
+            {
+              "key": "E",
+              "heading": "Rose-Tinted Recollections and the Machinery of Self-Affirmation",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准提炼第2段：大脑给过往记忆镀上玫瑰色滤镜，通过自我肯定机制保护脆弱的自尊。"
+            },
+            {
+              "key": "F",
+              "heading": "Men Exhibit Vastly Superior Self-Awareness Compared to Women",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向曲解】第4段明确指出性别之间毫无显著差异。"
+            },
+            {
+              "key": "G",
+              "heading": "A Universal Psychological Trait Transcending Gender and Self-Esteem",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确归纳第4段：自我美化倾向跨越性别与自尊高低，属于全人类高度均质普适的心理本能。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓实证揭示自评偏高（empirical research / overrate looks）；段2抓玫瑰色记忆与防御（rose-tint memories / self-affirmation）；段3抓埃普利面部变形实验（Epley's study / morphed photos）；段4抓跨越性别与自尊的普适性（no gender difference / universal trait）；段5抓为何讨厌真实照片（hate photographs of themselves / cognitive dissonance）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "article",
-          "translation": "n. 文章；论文",
-          "application_sentence": "Research demonstrates that article plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "reveal an innate psychological inclination to perceive oneself through a flattering lens",
+          "syntactic_type": "认知倾向学术动宾结构",
+          "translation": "揭示出一种习惯于通过自我美化滤镜审视自身的天然心理倾向",
+          "application_sentence": "As recent social psychology experiments reveal, individuals across cultures possess an innate inclination to perceive themselves through a flattering lens.",
+          "sentence_cn": "正如近期社会心理学实证实验所揭示的，不同文化背景下的个体普遍具备一种习惯于戴着自我美化滤镜审视自身形象的天然天性倾向。",
+          "template_slot": "As recent studies reveal, individuals across society possess an innate inclination to perceive [自身能力/表现] through a flattering lens."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Scientific",
-          "translation": "adj. 科学的；与科学有关的",
-          "application_sentence": "Research demonstrates that Scientific plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "act as an evolutionary defensive mechanism designed to shield self-worth from crushing realities",
+          "syntactic_type": "心理功能因果短语",
+          "translation": "充当一种旨在保护脆弱自我价值感免遭残酷现实碾压的演化防御机制",
+          "application_sentence": "This subconscious self-enhancement acts as an evolutionary defensive mechanism designed to shield our self-worth from the anxieties of social rejection.",
+          "sentence_cn": "这种潜意识中的自我美化与拔高，实则充当着一种旨在保护个体内心脆弱的自尊免受外界残酷否定与社交排斥打击的演化心理防御机制。",
+          "template_slot": "This psychological bias acts as an evolutionary defensive mechanism designed to shield [自我认同/内心安定] from crushing realities."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "rose",
-          "translation": "n. 玫瑰；蔷薇",
-          "application_sentence": "Research demonstrates that rose plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Discomfort arises not because the external depiction is inaccurate, but precisely because it shatters our ...",
+          "syntactic_type": "not because...but precisely because因果反思句",
+          "translation": "内心产生的巨大不适并非源于外界描摹呈现失真，而恰恰是因为它无情击碎了我们心中的……",
+          "application_sentence": "Discomfort arises not because the candid photograph is inaccurate, but precisely because it shatters our carefully curated internal illusions.",
+          "sentence_cn": "面对真实相片时内心产生的强烈不适，绝非因为相机的光学呈现有失公允，而恰恰是因为它毫不留情地击碎了我们在心中潜心维护已久的自我美颜幻觉。",
+          "template_slot": "Resistance arises not because the critique is inaccurate, but precisely because it shatters our [虚妄的幻想/自我安慰]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "tint",
-          "translation": "n. 浅色；淡色调",
-          "application_sentence": "Research demonstrates that tint plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "So deeply entrenched is this self-serving illusion that even when confronted with objective data, individuals ...",
+          "syntactic_type": "so...that置于句首的形容词全部倒装结构",
+          "translation": "这种为自我服务的心理幻觉是如此根深蒂固，以至于即便直面冷冰冰的客观数据，人们也往往会……",
+          "application_sentence": "So deeply entrenched is this self-serving illusion that even when confronted with objective mirror images, individuals reflexively rationalize their superiority.",
+          "sentence_cn": "这种为自我自尊保驾护航的心理幻觉是如此之根深蒂固，以至于即便直面毫无偏差的客观真实镜像，个体也往往会习惯性地寻找借口维护自己的心理优越感。",
+          "template_slot": "So deeply entrenched is [某种固有认知/偏见] that even when confronted with objective facts, [群体] reflexively seeks to [自我辩解]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Psychologist",
-          "translation": "n. 心理学家",
-          "application_sentence": "Research demonstrates that Psychologist plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "behavioural",
-          "translation": "adj. 行为的；行为上的",
-          "application_sentence": "Research demonstrates that behavioural plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "reconcile internal self-perception with objective reality by fostering authentic humility and self-acceptance",
+          "syntactic_type": "人格升华对仗动宾搭配",
+          "translation": "通过培育真正的谦逊胸怀与全然的接纳包容，促成内在自我认知与客观现实世界的和解融合",
+          "application_sentence": "Maturity demands that we reconcile internal self-perception with objective reality by fostering authentic humility and unconditional self-acceptance.",
+          "sentence_cn": "心智的真正成熟要求我们必须勇敢促成内心主观想象与外在客观世界的坦诚和解，在全面接纳自身不完美的从容从容中培育出真正笃定的谦逊与平和。",
+          "template_slot": "Personal growth demands that we reconcile [主观认知] with [客观现实] by fostering [谦逊包容/真实自省]."
         }
       ],
       "year": 2014
@@ -5302,51 +5513,170 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 The concept of man versus machine is at least as o... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：人与机器的概念至少与工业革命一样古老，但这种现象往往在经济低...",
-          "第2段：当技术的价格和性能迅速提高时，曾经被认为不受自动化影响的工作...",
-          "第3段：这是一个强有力的论点，也是一个可怕的论点。然而，《拉动的力量...",
-          "第4段：哈格尔说，我们在美国设计的工作往往是“严格照本宣科”和“高度...",
-          "第5段：哈格尔说，现在是重新发明工作方式的时候了，因为我们仍然依赖 ..."
-        ]
+        "genre": "工业经济学与人工智能劳动伦理深度省思",
+        "discourse_model": "人机对抗古老命题再度升温 ➔ 机器飞速降本与白领岗位失守 ➔ 哈格尔颠覆性发问（机器吃人还是人画地为牢？） ➔ 工业时代流水线呆板岗位反噬 ➔ 重塑人本工作模式 ➔ 从与机器赛跑转向与机器并肩跳舞",
+        "main_theme": "本文立足布林约尔松与麦卡菲名著《与机器赛跑》（Race Against the Machine）所敲响的人工智能自动化摧毁就业岗位的时代警钟，引入管理思想家约翰·哈格尔（John Hagel）的独特反思视角，展开了一场关于'人机关系与工作重塑'的深刻学术论辩；尖锐指出并非机器技术天生噬人，而是人类在过去一个世纪中亲手设计了大量'高度标准化、刻板呆板（tightly scripted）'的僵化岗位，将具有灵性的人类硬生生降维为血肉机器人；倡导跳出20世纪流水线泰勒制思维窠臼，主动重新定义工作的内涵，将人类从机械重复中解放并转向赋能共情、创意综合与机器协作，实现人机协同共赢的跃迁。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】人机较量世纪命题在新时代骤然升温",
+            "core_point": "人机对抗的焦虑自工业革命以来绵延不绝，而在算力爆发与算法飞跃的今天，这一恐慌再度达到历史峰值。",
+            "cohesive_devices": "以历史纵深切入（concept as old as industrial revolution / gaining urgency）。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】技术性价比飙升与岗位失守恐慌",
+            "core_point": "当机器性能指数级跃升而成本断崖式下跌，以往被视作唯有人类方能胜任的复杂脑力岗位纷纷面临机器碾压。",
+            "cohesive_devices": "详述技术替代浪潮机制（rapid improvement in price and performance）。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】哈格尔反常识发问：警惕机器吃人的单一叙事",
+            "core_point": "面对自动化恐慌，《拉动》作者约翰·哈格尔抛出震撼观点：危机根源不在于机器太聪明，而在于人类的工作设计本身。",
+            "cohesive_devices": "引入反思性转折视角（And yet, John Hagel offers an alternative perspective）。"
+          },
+          {
+            "pid": 3,
+            "role": "【承】症结深掘：人类亲自设计了摧残人性的呆板流水线岗位",
+            "core_point": "现代管理学将大量工作切割为高度标准化、机械死板的代码流程，实际上是把活生生的人当作低配版机器人来奴役使用。",
+            "cohesive_devices": "直击现代岗位异化痛点（tightly scripted and highly standardized jobs）。"
+          },
+          {
+            "pid": 4,
+            "role": "【转】彻底颠覆工作范式：告别20世纪泰勒制旧思维",
+            "core_point": "继续沿用20世纪工厂流水线模式管理21世纪知识经济无异于自掘坟墓，必须从根本上重构工作的内涵与协作公式。",
+            "cohesive_devices": "提出破旧立新诉求（reinvent the formula / relying on 20th century mindsets）。"
+          },
+          {
+            "pid": 5,
+            "role": "【合】从与机器赛跑转向与机器跳舞：重塑人机协同未来",
+            "core_point": "重新界定工作旨在释放人类独特的同理心、洞察力与创造力，让人类在机器的辅助下绽放真正不可替代的人性光芒。",
+            "cohesive_devices": "由对抗升华至人机共生跃迁（reframing the problem / humans race with machines, not against them）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 3 的六个段落，从 A-G 七个候选项中为指定五个段落选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "A"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "F"
+            },
+            {
+              "pid": 5,
+              "label": "Paragraph 6",
+              "correct_key": "D"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Treating Flesh-and-Blood Humans as Tightly Scripted Automata",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第4段：哈格尔痛陈现代企业将岗位设计得高度刻板机械，将活生生的人当作机器人奴役。"
+            },
+            {
+              "key": "B",
+              "heading": "Luddite Destruction of Automated Data Centers Worldwide",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向极端/无中生有】文章主张人机协同重塑工作，绝未鼓动卢德分子暴力捣毁机房。"
+            },
+            {
+              "key": "C",
+              "heading": "The Resurgence of the Century-Old 'Man Versus Machine' Anxiety",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：人机对抗的历史焦虑在现代数字自动化浪潮下再次全面爆发升温。"
+            },
+            {
+              "key": "D",
+              "heading": "From Racing Against Technology to Dancing in Symphony with It",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第6段结语：颠覆与机器殊死赛跑的悲剧叙事，转为人机共生协同进化的光明未来。"
+            },
+            {
+              "key": "E",
+              "heading": "Complete Abolition of Manufacturing in Advanced Economies",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：夸大曲解】文中未涉及全面取消发达国家制造业。"
+            },
+            {
+              "key": "F",
+              "heading": "Reinventing Outdated Formulas Rooted in 20th-Century Paradigms",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第5段：彻底淘汰植根于20世纪泰勒制流水线的旧规，重塑21世纪人本工作新公式。"
+            },
+            {
+              "key": "G",
+              "heading": "Exponential Strides in Price and Performance Imperil White-Collar Jobs",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第2段：计算技术性价比的飞跃使得昔日被视作人类避风港的高薪岗位岌岌可危。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓人机较量焦虑升温（man vs machine gaining urgency）；段2抓性价比飞跃岗位失守（price/performance improvement imperils jobs）；段4抓刻板岗位设计（tightly scripted / highly standardized）；段5抓重构工作公式（reinvent the formula / 20th century mindset）；段6抓人机协同重塑（reframing problem / race with machines）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "concept",
-          "translation": "n. 概念；观念",
-          "application_sentence": "Research demonstrates that concept plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "pose an unprecedented challenge to conventional employment paradigms",
+          "syntactic_type": "颠覆性趋势动宾搭配",
+          "translation": "对传统主流的就业范式与工作形态构成了前所未有的严峻挑战",
+          "application_sentence": "As labor statistics indicate, rapid advances in artificial intelligence pose an unprecedented challenge to conventional white-collar employment paradigms.",
+          "sentence_cn": "正如劳动力市场统计数据所显示的，人工智能与自动化的超常跨越，已然对传统白领阶层的就业形态与工作范式构成了前所未有的剧烈冲击与严峻挑战。",
+          "template_slot": "As industrial data indicates, rapid advances in [新技术] pose an unprecedented challenge to conventional [就业/行业] paradigms."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "versus",
-          "translation": "prep. （比赛或诉讼中）以……为对手；与……竞争",
-          "application_sentence": "Research demonstrates that versus plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "stem not from technological malevolence, but from archaic organizational designs that reduce humans to ...",
+          "syntactic_type": "not from...but from驳论因果结构",
+          "translation": "其根源绝非在于科技本身的噬人恶意，而恰恰在于将鲜活人类矮化为……的陈旧僵化组织设计",
+          "application_sentence": "Worker displacement stems not from inherent technological malevolence, but from archaic management models that reduce flesh-and-blood humans to cog-like automata.",
+          "sentence_cn": "广大劳动者面临被机器替代淘汰的深层根源，绝非源于技术本身的冷酷恶意，而恰恰在于那些将活生生的人类异化为流水线螺丝钉般机械齿轮的陈腐组织管理设计。",
+          "template_slot": "The crisis stems not from technological threats, but from archaic institutional designs that reduce [主体] to [冷冰冰的机械工具]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "rapid",
-          "translation": "adj. 快的；迅速的",
-          "application_sentence": "Research demonstrates that rapid plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Instead of engaging in a futile race against automation, our focus must pivot to ...",
+          "syntactic_type": "介词短语引导的战略转向句",
+          "translation": "与其徒劳地与无休无止的自动化狂潮殊死赛跑，我们的核心视线必须果断转向……",
+          "application_sentence": "Instead of engaging in a futile race against mechanical automation, our institutional focus must pivot to reframing work around unique human creative strengths.",
+          "sentence_cn": "与其徒劳无益地与算法驱动的无情自动化狂潮进行你死我活的搏杀赛跑，全社会的制度焦点必须果断转向以人类无可替代的创造性潜能为轴心重塑全新工作生态。",
+          "template_slot": "Instead of engaging in a futile race against [不可逆大势], our strategy must pivot decisively to [挖掘独特核心价值]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "improvement",
-          "translation": "n. 改善；改进之处",
-          "application_sentence": "Research demonstrates that improvement plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Were corporations to persist in treating knowledge workers as tightly scripted cogs, they would inevitably succumb to ...",
+          "syntactic_type": "虚拟语气倒装句型",
+          "translation": "倘若现代企业依然固执地将知识工作者视作被刻板编排的代码齿轮，它们就注定将不可挽回地臣服于……",
+          "application_sentence": "Were corporate leaders to persist in treating employees as tightly scripted mechanical cogs, their organizations would inevitably succumb to creative atrophy.",
+          "sentence_cn": "倘若现代企业决策者依然顽固地将员工视作被僵化流程紧紧束缚的机械齿轮，他们的企业机构就注定会在时代巨浪中不可避免地陷入创造力严重萎缩的死局。",
+          "template_slot": "Were leaders to persist in [僵化管理模式], institutions would inevitably succumb to [淘汰枯竭]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "powerful",
-          "translation": "adj. （人；组织",
-          "application_sentence": "Research demonstrates that powerful plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "argument",
-          "translation": "n. 争论；争吵",
-          "application_sentence": "Research demonstrates that argument plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "liberate human agency from robotic routine to foster a harmonious symbiotic synergy between man and machine",
+          "syntactic_type": "人机和谐动宾倡议搭配",
+          "translation": "将人类的主观能动性从机械繁琐的日常琐务中彻底解放，构筑人与机器和谐共鸣的共生协同架构",
+          "application_sentence": "Education and industry must unite to liberate human agency from repetitive routines and cultivate a symbiotic partnership between human imagination and computational power.",
+          "sentence_cn": "现代教育体系与产业界必须紧密携手，坚决将人类的主观能动性从日复一日的枯燥重复中彻底解放出来，全力培育人类无尽想象力与机器无匹算力之间相得益彰的共生协同图景。",
+          "template_slot": "We must unite to liberate [主体] from [枯燥禁锢] and cultivate a symbiotic synergy between [要素A] and [要素B]."
         }
       ],
       "year": 2014
@@ -7290,51 +7620,182 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 When the government talks about infrastructure con... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：当政府谈论基础设施对经济的贡献时，重点通常是公路、铁路、宽带...",
-          "第2段：这是为什么？在某种程度上，住房部门必须承担责任。我们一直不擅...",
-          "第3段：然而，保障性住房的形势却十分严峻。等候名单一直在增加，而我们...",
-          "第4段：全面的支出审查为政府提供了一个帮助纠正这一问题的机会。它需要...",
-          "第5段：有一些迹象表明它正准备这样做。社区部长唐·福斯特 (Don ..."
-        ]
+        "genre": "宏观公共财政与国民住房民生保障战略评述",
+        "discourse_model": "基建投资过度倾斜铁公基 ➔ 保障房遭边缘化与沟通短板 ➔ 经济适用房排队危机 ➔ 综合支出审查机遇 ➔ 租赁市场确定性规范 ➔ 破除单一政府包办依赖 ➔ 呼唤可持续住房供给长效机制",
+        "main_theme": "本文针对英国政府长期将宏观基础设施投资片面局限于铁路、公路与能源管道等传统'铁公基'、却将保障性住房（affordable housing）粗暴排除在经济基建之外的扭曲偏见展开了严肃的政策反思；直击平价住房极度匮乏、轮候名单无限拉长造成的民生危机；结合财政部启动的'全面支出审查'（Comprehensive Spending Review），呼吁政府将住房确立为拉动实体经济与保障民生的战略性基础设施；力促在私人租赁市场设立稳定透明监管，并在打破政府单一财政依赖的基础上，动员长线养老金与社会资本共建可持续住房安全网。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】基建投资偏爱铁公基，保障性住房遭遇冷落",
+            "core_point": "官方大谈基建拉动经济时聚光灯永远打在铁路与公路上，却对同为经济民生基石的保障性住房熟视无睹。",
+            "cohesive_devices": "以反差对比开篇（focus usually on roads and railways / housing neglected）。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】追根溯源：住房部门需分担沟通叙事不力的责任",
+            "core_point": "住房行业自身亦难辞其咎，长期未能用清晰的经济语言向财相论证住房对拉动就业与 GDP 的乘数效应。",
+            "cohesive_devices": "自我问责剖析（housing sector must shoulder the blame / not good at communicating）。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】刻不容缓的民生危局：轮候名单无限攀升",
+            "core_point": "经济适用房供应早已深陷绝境，排队大军只增不减，住房危机已演变为侵蚀社会稳定与青年希望的溃疡。",
+            "cohesive_devices": "以转折连词（Nevertheless, affordable housing is desperate）呈现实质危机。"
+          },
+          {
+            "pid": 3,
+            "role": "【承】全面支出审查历史契机：将住房纳入核心基建",
+            "core_point": "财政部启动的全面支出审查提供了千载难逢的纠偏窗口，应在顶层规划中正式确认保障房的基础设施法律地位。",
+            "cohesive_devices": "抓住政策时间节点（comprehensive spending review offers an opportunity）。"
+          },
+          {
+            "pid": 4,
+            "role": "【承】政策破冰苗头：社区大臣表态支持多元投入",
+            "core_point": "社区大臣唐·福斯特释放积极信号，表明内阁正酝酿出台组合拳扶持民生建房。",
+            "cohesive_devices": "引用官方政要表态（indications preparing to do just that / minister Don Foster）。"
+          },
+          {
+            "pid": 5,
+            "role": "【深】规制租赁市场：为租客与长线资本注入确定性",
+            "core_point": "除了新建房源，规范私人租房市场、建立长效稳定的租赁保障规则，能以极小财政杠杆撬动民心安定。",
+            "cohesive_devices": "开辟存量治理路径（creating greater certainty in rental environment）。"
+          },
+          {
+            "pid": 6,
+            "role": "【转】告别财政单打独斗：公私合营撬动社会长期资本",
+            "core_point": "单靠国库拨款难以为继，短期救急虽好，更须搭建公私合营架构，引导养老基金与机构资本深度参与。",
+            "cohesive_devices": "打破单一政府迷思（not just down to the government / private and public alliance）。"
+          },
+          {
+            "pid": 7,
+            "role": "【合】坚守人居初心：构建不以政客换届为转移的百年基石",
+            "core_point": "哪怕政府的短期财政风向变化莫测，人民对体面安居的紧迫刚需永远不会褪色，必须筑牢永续住房供给长效机制。",
+            "cohesive_devices": "以永恒民生诉求作结（pressing need for affordable housing remains undeniable）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 4 的八个段落，从 A-G 七个候选项中为指定五个段落选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "A"
+            },
+            {
+              "pid": 5,
+              "label": "Paragraph 6",
+              "correct_key": "E"
+            },
+            {
+              "pid": 6,
+              "label": "Paragraph 7",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "The Spending Review as a Prime Window for Strategic Redress",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第4段：利用政府全面支出审查的绝佳政策窗口期，将住房纠偏为核心基础设施。"
+            },
+            {
+              "key": "B",
+              "heading": "Compulsory Demolition of All Private Suburban Properties",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向极端/无中生有】文中未曾提及强制拆除郊区私人物业。"
+            },
+            {
+              "key": "C",
+              "heading": "Traditional Infrastructure Dogma Marginalizes Affordable Housing",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：政府基建思维片面独尊铁路公路，导致经济适用房被严重边缘化冷落。"
+            },
+            {
+              "key": "D",
+              "heading": "Free Lifetime Rent Vouchers Issued to All Urban Households",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未曾提及发放终身免费租房券。"
+            },
+            {
+              "key": "E",
+              "heading": "Stabilizing the Private Rental Ecosystem Through Regulatory Certainty",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第6段：通过建立稳定透明的法规环境规范私人租赁市场，兼顾租客福祉与资本信心。"
+            },
+            {
+              "key": "F",
+              "heading": "Transcending State Reliance Through Public-Private Capital Alliances",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第7段：打破单纯依赖财政兜底的局限，通过公私合营引入多元社会资本形成合力。"
+            },
+            {
+              "key": "G",
+              "heading": "A Desperate Supply Deficit and Relentlessly Lengthening Waiting Lists",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第3段：平价住房供给陷入绝境，轮候名单无限拉长，民生危机日益严峻。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓传统基建偏爱铁公基忽视住房（infrastructure focus on roads/railways / housing ignored）；段3抓排队轮候严重告急（desperate waiting lists）；段4抓支出审查良机（spending review / rectify）；段6抓稳定租赁市场（certainty in rental environment）；段7抓超越政府包办引入公私资本（not just down to government / public-private alliance）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "government",
-          "translation": "n. 政府；内阁",
-          "application_sentence": "Research demonstrates that government plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "highlight a desperate shortage marked by relentlessly lengthening waiting queues",
+          "syntactic_type": "危机量化警示搭配",
+          "translation": "凸显出以无休止攀升拉长的轮候队伍为标志的极度匮乏严峻危局",
+          "application_sentence": "As recent demographic charts highlight, metropolitan centers face a desperate housing shortage marked by relentlessly lengthening waiting queues.",
+          "sentence_cn": "正如近期人口与民生发展统计图表所清晰凸显的，中心大城市正面临着以排队轮候队伍无休止攀升拉长为刺目标志的平价住房极度匮乏严峻危局。",
+          "template_slot": "As the data highlights, [某关键领域/民生保障] faces a desperate shortage marked by relentlessly lengthening waiting queues."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "talks",
-          "translation": "n. （talk 的复数）会谈；谈判",
-          "application_sentence": "Research demonstrates that talks plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "be perpetuated by a narrow dogmatic conception that excludes ... from the realm of foundational infrastructure",
+          "syntactic_type": "定语从句理念批判结构",
+          "translation": "被一种将……粗暴排除在核心基础设施工业范畴之外的狭隘教条主义观念所长期维系与加剧",
+          "application_sentence": "The chronic crisis is perpetuated by a narrow dogmatic conception that excludes affordable housing from the realm of foundational economic infrastructure.",
+          "sentence_cn": "这场旷日持久的民生危机的根本症结，恰恰被一种将保障性住房粗暴排除在国家基础性核心基建范畴之外的狭隘且教条主义的陈腐观念所长期维系并恶化。",
+          "template_slot": "This bottleneck is perpetuated by a narrow dogmatic conception that excludes [某关键民生工程] from the realm of foundational infrastructure."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "extent",
-          "translation": "n. 程度；范围",
-          "application_sentence": "Research demonstrates that extent plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "While short-term emergency subsidies may offer temporary reprieve, a durable cure necessitates ...",
+          "syntactic_type": "让步对立长远主张句型",
+          "translation": "尽管短期的紧急财政补贴或许能带来一时的喘息之机，但要想实现长治久安，必须建立……",
+          "application_sentence": "While short-term emergency funding may offer temporary reprieve, a durable cure necessitates mobilizing diverse institutional capital.",
+          "sentence_cn": "尽管官方短期的应急财政注资或许能够带来一时的喘息与缓解，但要想彻底祛除病根、实现长治久安，必须下决心撬动并引入广泛的多元社会长期资本。",
+          "template_slot": "While short-term subsidies may offer temporary reprieve, a durable cure necessitates [系统性制度革新/多元社会协同]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "housing",
-          "translation": "n. 房屋；住宅",
-          "application_sentence": "Research demonstrates that housing plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "At no point should the provision of fundamental human shelter be dismissed as a mere welfare burden rather than ...",
+          "syntactic_type": "否定短语置于句首的部分倒装结构",
+          "translation": "在任何时刻，基础国民安居保障的供给都绝不应被贬低为单纯的财政福利包袱，而应被确立为……",
+          "application_sentence": "At no point should the provision of affordable shelter be dismissed as a welfare burden rather than a primary driver of macroeconomic resilience.",
+          "sentence_cn": "在任何历史时刻，基础国民安居工程的建设供给都绝不应当被狭隘贬低为单纯的财政福利包袱，而必须被高度确立为驱动宏观经济韧性与社会长期稳定的根本核心引擎。",
+          "template_slot": "At no point should [核心民生/公共教育] be dismissed as a mere welfare burden rather than a foundational catalyst for [长远发展]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Nevertheless",
-          "translation": "adv. 然而；不过",
-          "application_sentence": "Research demonstrates that Nevertheless plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "affordable",
-          "translation": "adj. 便宜的；付得起的",
-          "application_sentence": "Research demonstrates that affordable plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "forge robust public-private financing alliances while establishing a predictable, legally protected regulatory landscape",
+          "syntactic_type": "长远制度供给对仗动宾搭配",
+          "translation": "缔造坚韧稳健的公私多渠道融资战略同盟，同时构建具有稳定预期与受法律强力庇护的成熟监管生态",
+          "application_sentence": "Governments must forge robust public-private financing alliances while establishing a predictable, legally protected regulatory landscape for long-term housing equity.",
+          "sentence_cn": "各级政府部门必须全力缔造兼顾效益与公益的坚韧公私融资战略同盟，同时下大力气构筑具有高度稳定预期且受法律坚实捍卫的现代化成熟监管制度生态。",
+          "template_slot": "The state must forge robust public-private alliances while establishing a predictable, legally protected landscape for [长效公平发展]."
         }
       ],
       "year": 2014

@@ -1661,51 +1661,170 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 It’s true that high-school coding classes aren’t e... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：确实，高中编码课程对于大学学习计算机科学来说并不是必需的。卡...",
-          "第2段：然而，科尔蒂纳说，早期接触是有益的。当年幼的孩子学习计算机科...",
-          "第3段：学生们还可以在上大学之前学习一些关于编码的知识，因为大学里计...",
-          "第4段：人们付费学习编程的 Flatiron 学校最初是众多编程训练...",
-          "第5段：Flatiron 班的学生可能不会从高中辍学并创建下一个 F..."
-        ]
+        "genre": "基础教育哲学与数字公民素养前瞻评述",
+        "discourse_model": "高中编程非大学计科必需 ➔ 科尔蒂纳：早期接触启蒙算法思维 ➔ 缓冲大学快节奏挫败感 ➔ 熨斗学校（Flatiron）教学探索 ➔ 不为量产码农而为破除技术黑箱 ➔ 培育数字时代独立公民心智",
+        "main_theme": "本文深入探讨了在K-12基础教育阶段全面引入编程与计算机科学课程（high-school coding classes）的深层教育哲学意义；客观指出了大学计算机系虽不强制要求高中先修编程，但卡耐基梅隆大学学者科尔蒂纳（Mark Cortina）的研究表明，早期接触代码能有效建立严密的计算思维（computational thinking）与逻辑解构能力，从而在大学高难度课程前构筑自信心护城河；引述纽约'熨斗学校'（Flatiron School）中学生编程夏令营的先锋实践，深刻指出普及编程教育的崇高初心绝非为科技巨头批量量产底层'码农军团'（army of coders），而是帮助青年一代破除数字化社会的算法黑箱迷信，锻造能够驾驭智能时代的清醒数字公民。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】客观陈述：高中先修编程并非大学选拔硬性门槛",
+            "core_point": "诚然，大学计算机专业在招收新生时并未将高中编程经历列为刚性前提，零基础起步依然常见。",
+            "cohesive_devices": "以让步客观事实开宗明义（It's true that high-school coding aren't essential）。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】科尔蒂纳学者建言：早期启蒙重在浇灌计算思维土壤",
+            "core_point": "然而学者科尔蒂纳强调，提早接触计算机科学能让青少年的心智尽早浸润于算法解构与逻辑拆解的思维体操中，受益终身。",
+            "cohesive_devices": "以转折连词（However, early exposure is beneficial）升华思维价值。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】实操红利：构筑抵御象牙塔挂科挫败的心理护城河",
+            "core_point": "大学计算机导论课往往进度飞快、难度陡峭，提前在高中涉猎代码能够为学子筑起宝贵的缓冲垫与自信心。",
+            "cohesive_devices": "落地到高等教育微观适应性（where introductory courses move at a breakneck pace）。"
+          },
+          {
+            "pid": 3,
+            "role": "【承】熨斗学校实录：沉浸式编程训练营的先锋试验",
+            "core_point": "以纽约熨斗学校为代表的新兴编程训练营，将商业实战代码项目引入中学生课堂，探索教学创新。",
+            "cohesive_devices": "引入代表性创新机构案例（The Flatiron School / began offering summer courses）。"
+          },
+          {
+            "pid": 4,
+            "role": "【转】击碎造神狂热：无需人人退学去创办下一个脸书",
+            "core_point": "参加编程训练营的孩子们大概率不会成为扎克伯格式的辍学创业神童，但这丝毫不贬损其揭开代码神秘面纱的非凡认知收获。",
+            "cohesive_devices": "以幽默反差破除神话（won't drop out of school and build the next Facebook）。"
+          },
+          {
+            "pid": 5,
+            "role": "【合】教育终极彼岸：不为量产码农，只为启蒙现代数字公民",
+            "core_point": "普及编程教育的宏大愿景绝非为IT产业流水线输送廉价劳力，而是让每个孩子拥有审视数字化社会的批判性慧眼。",
+            "cohesive_devices": "以崇高教育愿景作结（creating a future army of coders isn't the sole purpose / digital citizenship）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 1 的六个段落，从 A-G 七个候选项中为指定五个段落选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "A"
+            },
+            {
+              "pid": 5,
+              "label": "Paragraph 6",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Demystifying Digital Black Boxes Rather Than Creating Billionaires",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第5段：编程启蒙的核心在于打破数字黑箱破除迷信，而非幻想每个孩子都辍学成为科技百亿富豪。"
+            },
+            {
+              "key": "B",
+              "heading": "Immediate Replacement of Humanities with Compulsory Machine Learning",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向极端/无中生有】文中未曾主张用机器学习全面取缔人文学科。"
+            },
+            {
+              "key": "C",
+              "heading": "High School Code Training Is Far from a Mandatory Prerequisite",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：客观澄清高中编程并非大学计算机专业录取的刚性绝对先修要求。"
+            },
+            {
+              "key": "D",
+              "heading": "Flatiron Bootcamps Guaranteed Immediate Employment at Silicon Valley",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：概念偷换】熨斗夏令营是中学生通识体验，并不包办硅谷就业。"
+            },
+            {
+              "key": "E",
+              "heading": "Early Exposure Nurtures Algorithmic Logic and Problem Solving",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段：早期接触编程的核心收益在于启蒙逻辑解构与计算思维。"
+            },
+            {
+              "key": "F",
+              "heading": "Beyond an Army of Coders: Cultivating Enlightened Digital Citizens",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第6段结语：超越批量培养码农廉价军团的功利主义，升华为培育现代数字社会清醒公民的崇高使命。"
+            },
+            {
+              "key": "G",
+              "heading": "Providing a Psychological Cushion Against Breakneck College Paces",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第3段：提前掌握编程基础能够为面对大学高难度快节奏导论课构筑心理防线与学业缓冲垫。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓非大学必需（aren't essential for CS in college）；段2抓早期接触培育算法逻辑（early exposure beneficial / understand logic）；段3抓缓冲大学快节奏（introductory courses move fast / provides cushion）；段5抓打破技术黑箱非成亿万富翁（won't build next Facebook / demystifies tech）；段6抓超越码农军团培育数字公民（creating future army of coders isn't the purpose）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "true",
-          "translation": "adj. 真实的；正确的",
-          "application_sentence": "Research demonstrates that true plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "witness an accelerating drive to democratize technical literacy among youth",
+          "syntactic_type": "教育发展趋势动宾短语",
+          "translation": "见证了一轮在青少年群体中加速普及技术通识素养的澎湃浪潮",
+          "application_sentence": "As recent educational curriculum reviews indicate, school districts have witnessed an accelerating drive to democratize computational literacy among youth.",
+          "sentence_cn": "正如近期基础教育课程改革报告所清晰反映的，各大校区普遍见证了一轮在广大青少年群体中加速普及计算素养与数字化思维的时代浪潮。",
+          "template_slot": "Recent years have witnessed an accelerating drive to democratize [某种关键素养/通识知识] among the younger generation."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "high",
-          "translation": "adj. 高的；富含……的",
-          "application_sentence": "Research demonstrates that high plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "aim not to churn out narrow technicians, but to cultivate rigorous algorithmic reasoning",
+          "syntactic_type": "not to...but to教育理念因果句型",
+          "translation": "旨趣绝非在于批量炮制视野狭隘的技术操作工，而恰恰在于深度淬炼严谨的算法推理与批判逻辑",
+          "application_sentence": "Progressive STEM curricula aim not to churn out narrow technicians, but to cultivate rigorous algorithmic reasoning and problem-solving agility.",
+          "sentence_cn": "富有远见的现代STEM科学课程的根本旨趣，绝非在于为商业流水线批量炮制眼界狭隘的技术操作工，而恰恰在于系统性淬炼青年一代严谨的算法推理能力与批判性解决复杂难题的敏锐智力。",
+          "template_slot": "Enlightened education aims not to churn out narrow technicians, but to cultivate [高阶批判思维/综合人文素养]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "However",
-          "translation": "adv. 然而；可是",
-          "application_sentence": "Research demonstrates that However plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "While few will ever become elite software architects, every student benefits from demystifying ...",
+          "syntactic_type": "让步通识普及论断句",
+          "translation": "尽管极少数人最终能成为顶尖的软件架构大师，但每个学生都能从破除……的神秘黑箱迷信中汲取终身滋养",
+          "application_sentence": "While few pupils will ever become elite software architects, every young citizen benefits enormously from demystifying the algorithms that govern modern life.",
+          "sentence_cn": "尽管在千千万万的学子中仅有极少数人日后会成为顶尖的软件架构大师，但每一位年轻的现代公民都能从破除那套主宰当代日常生活的算法技术黑箱迷信中，汲取获益终身的理性养分。",
+          "template_slot": "While few will ever become elite [顶尖专家], every citizen benefits enormously from demystifying [技术黑箱/基础法则]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Cortina",
-          "translation": "n. （真菌）丝膜（菌盖边缘与菌柄间的蛛网状部分菌幕）；（地名",
-          "application_sentence": "Research demonstrates that Cortina plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Under no circumstances should the mandate of foundational education be reduced to merely supplying ...",
+          "syntactic_type": "否定短语置于句首的部分倒装语态",
+          "translation": "在任何情况下，基础通识教育的崇高神圣使命都绝不应被低俗窄化为仅仅为……输送工具人",
+          "application_sentence": "Under no circumstances should the mandate of foundational education be reduced to merely supplying a compliant army of coders for big tech monopolies.",
+          "sentence_cn": "在任何历史历史情境下，国民基础通识教育的神圣育人使命，都绝不应当被低俗窄化为仅仅为科技垄断资本输送唯命是从的底层代码打工军团。",
+          "template_slot": "Under no circumstances should the mandate of public education be reduced to merely supplying [廉价工具人/短期市场劳力]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Students",
-          "translation": "n. 学生（student 的复数）",
-          "application_sentence": "Research demonstrates that Students plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "benefit",
-          "translation": "n. 好处；益处",
-          "application_sentence": "Research demonstrates that benefit plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "empower the rising generation with computational fluency to navigate the algorithmic landscape as autonomous, critical agents",
+          "syntactic_type": "数字素养赋能对仗动宾短语",
+          "translation": "以卓越的计算素养赋能年轻一代，使他们能作为具备独立人格与批判眼光的自主主体自如穿梭于复杂的算法世界",
+          "application_sentence": "Schools must empower the rising generation with computational fluency to navigate the opaque algorithmic landscape as autonomous, critical democratic agents.",
+          "sentence_cn": "现代学校必须全力以高超的计算素养全面赋能新崛起的年轻一代，使他们在面对幽暗不透明的算法丛林时，能够始终保持独立健全的人格与敏锐的批判眼光，成长为自信自律的时代主人翁。",
+          "template_slot": "We must empower the rising generation with [核心素养] to navigate the future as autonomous, critical agents."
         }
       ],
       "year": 2016
@@ -3524,36 +3643,147 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Biologists estimate that as many as 2 million less... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：生物学家估计，多达 200 万只小草原鸡（一种生活在广阔草原...",
-          "第2段：这次事故是美国鱼类和野生动物管理局（USFWS）决定正式将这..."
-        ]
+        "genre": "濒危物种保育生物学与能源政治博弈评述",
+        "discourse_model": "草原松鸡种群暴跌历史 ➔ 渔业与野生动物局列入受威胁物种 ➔ 五州自愿保育计划出炉（豁免合作农场与油企） ➔ 各方利益撕裂 ➔ 国会保守派诉讼阻挠 ➔ 环保阵营痛批缺乏牙齿 ➔ 生态红线与资本博弈的反思",
+        "main_theme": "本文聚焦美国大平原南部特有标志性物种'小草原松鸡'（lesser prairie chicken）种群由昔日200万只断崖式暴跌至历史冰点的生态危机，深入剖析了围绕美国鱼类及野生动物管理局（USFWS）将其正式列为'受威胁物种'（threatened species）所引爆的剧烈政治与经济角力；详细拆解了横跨五州的'自愿性栖息地保护协议'（voluntary conservation plan）——该计划承诺对主动规避生态核心区的农场主与石油天然气钻探公司免予法律起诉；深刻揭示了这种所谓'双赢修辞'（win-win rhetoric）背后的脆弱撕裂：国会保守派与化石能源巨头斥其为扼杀经济并提起违宪诉讼，而激进环保组织则痛斥缺乏惩戒牙齿的自愿协议无异于为偷猎与生态破坏大开绿灯；展现了现代物种保护在商业资本与生态红线间的走钢丝困境。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】大平原草原松鸡由200万只暴跌的生态惨剧",
+            "core_point": "昔日曾有200万只草原松鸡翱翔于美国南部大草原，而由于农牧业过度开垦与油气钻探，种群遭遇毁灭性断崖崩溃。",
+            "cohesive_devices": "以令人触目惊心的数字反差（as many as 2 million crashed）开宗明义。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】官方正式列入受威胁名单，催生跨州自愿保护计划",
+            "core_point": "种群崩盘迫使联邦野生动物保护局正式下达受威胁物种保护令，并推动相关五州出台自愿性质的区域联合救助预案。",
+            "cohesive_devices": "承接提出官方规制举措（USFWS decided to formally list bird as threatened）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】柔性监管核心构架：以不予起诉换取地主油企合作",
+            "core_point": "自愿方案设置了极具弹性的胡萝卜政策：只要土地所有者与油气公司承诺采取特定生态修复措施，联邦将承诺豁免起诉。",
+            "cohesive_devices": "详细解读政策让步细节（agency would not prosecute landowners adopting measures）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】'双赢神话'遭无情拆穿：国会油企与环保阵营两头受敌",
+            "core_point": "所谓双赢方案遭到各方猛烈开火：保守派国会议员与行业巨头联合起诉指控其践踏私有产权，而环保主义者则痛批其形同虚设、缺乏法定惩治力。",
+            "cohesive_devices": "以剧烈反差作结（Not everyone buys the win-win rhetoric / lawsuits and protests from both flanks）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 2 的四个段落，从 A-F 六个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "F"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "D"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Immunizing Cooperating Enterprises from Federal Prosecution",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第3段核心机制：通过出台自愿保育承诺，向主动配合的农场主与油气开发商提供免于公诉豁免权。"
+            },
+            {
+              "key": "B",
+              "heading": "Total Ban on Agricultural Irrigation Across Five Western States",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：极端曲解/无中生有】文中未曾提及在五大州全面禁止农业灌溉。"
+            },
+            {
+              "key": "C",
+              "heading": "Catastrophic Plummet from Two Million Roaming Avian Flocks",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：昔日200万只野生草原松鸡遭遇毁灭性大崩盘，种群濒临绝迹。"
+            },
+            {
+              "key": "D",
+              "heading": "The Fragility of the Win-Win Rhetoric Confronts Crossfire",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第4段总结：所谓双赢的说辞沦为泡影，直面国会商业巨头起诉与环保组织抗议的双重夹击。"
+            },
+            {
+              "key": "E",
+              "heading": "Prairie Chickens Successfully Domesticated as Commercial Poultry",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向荒谬】草原松鸡是受保护野生濒危鸟类，绝非被驯化为家禽肉鸡。"
+            },
+            {
+              "key": "F",
+              "heading": "Official Threat Listing Sparks a Collaborative Five-State Framework",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第2段：联邦野生动物管理局将其定为受威胁物种，推动五大相关州联合制定协调方案。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓200万暴跌崩溃（2 million crashed）；段2抓列入受威胁物种名单（list as threatened）；段3抓豁免配合企业起诉（not prosecute landowners）；段4抓双赢神话破灭两面受敌（not everyone buys win-win rhetoric / Congress and environmentalists resist）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "Biologists",
-          "translation": "n. 生物学家（biologist 的复数）",
-          "application_sentence": "Research demonstrates that Biologists plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "suffer an alarming precipitous collapse to historic nadirs",
+          "syntactic_type": "暴跌趋势高级学术动宾搭配",
+          "translation": "遭遇令人触目惊心的断崖式崩盘，急剧坠入历史最低谷",
+          "application_sentence": "As wildlife census data indicates, vulnerable natural species have suffered an alarming precipitous collapse to historic nadirs across disturbed habitats.",
+          "sentence_cn": "正如野生生物普查统计数据所清晰显示的，在遭受人类工业活动严重割裂的自然栖息地中，脆弱的原生物种遭遇了令人心惊肉跳的断崖式崩盘，数量急剧坠跌至历史最谷底。",
+          "template_slot": "As recent census data shows, [某珍稀物种/脆弱指标] has suffered an alarming precipitous collapse to historic nadirs."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "estimate",
-          "translation": "v. 估计；判断",
-          "application_sentence": "Research demonstrates that estimate plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "fall victim to an irreconcilable conflict between extractive commercial interests and fragile ecological preservation",
+          "syntactic_type": "利益冲突结构动宾短语",
+          "translation": "沦为大肆掠夺的商业牟利资本与极其脆弱的生态环境红线之间不可调和之矛盾的无辜牺牲品",
+          "application_sentence": "Endangered habitats fall victim to an irreconcilable structural conflict between resource-extractive energy conglomerates and fragile biological survival.",
+          "sentence_cn": "濒危物种栖息地的大面积沦丧与破坏，深层根源于那些大肆掠夺资源的能源资本巨鳄的贪婪牟利扩张与大自然自身脆弱的生物生存红线之间难以调和的深刻结构性矛盾。",
+          "template_slot": "[公共利益/脆弱生态] often falls victim to an irreconcilable conflict between [追逐短期暴利的资本] and long-term sustainable preservation."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "crash",
-          "translation": "v. 撞车；坠毁",
-          "application_sentence": "Research demonstrates that crash plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Touting a cosmetic 'win-win' compromise cannot conceal the fundamental toothlessness of ...",
+          "syntactic_type": "动名词作主语驳斥虚伪妥协句型",
+          "translation": "大肆鼓吹表面粉饰的所谓'双赢'妥协，根本无法掩盖……在法律执行力上缺乏牙齿的致命软肋",
+          "application_sentence": "Touting a cosmetic 'win-win' rhetoric cannot conceal the fundamental toothlessness of purely voluntary environmental accords.",
+          "sentence_cn": "四处标榜兜售表面光鲜体面的所谓'双赢共识'修辞，绝不可能掩盖完全依赖自愿自觉的环保协定在监管惩处上严重缺乏铁腕法律牙齿的致命死穴。",
+          "template_slot": "Touting a cosmetic 'win-win' compromise cannot conceal the fundamental toothlessness of [缺乏强制力的自律规则]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "major",
-          "translation": "adj. 重大的；主要的",
-          "application_sentence": "Research demonstrates that major plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Were regulatory authorities to capitulate to the litigation threats of corporate lobbies, the statutory promise of ...",
+          "syntactic_type": "虚拟语气条件句倒装结构",
+          "translation": "倘若法定监管部门在商业利益集团的诉讼恐吓与政治围剿面前屈服妥协，……的法定神圣承诺就将……",
+          "application_sentence": "Were environmental authorities to capitulate to the fierce litigation threats of oil lobbies, the statutory promise of species recovery would be completely hollowed out.",
+          "sentence_cn": "倘若生态环保执法公权力在石油化石能源游说集团的疯狂诉讼恐吓面前退缩屈服，国家法律关于拯救濒危物种的崇高法定承诺就将被彻底掏空沦为一纸空文。",
+          "template_slot": "Were the authorities to capitulate to [特殊利益集团的施压], the statutory promise of [法治公平/生态红线] would be completely hollowed out."
+        },
+        {
+          "category": "应对举措与升华",
+          "expression": "fortify statutory conservation enforcement with unequivocal legal sanctions while incentivizing genuine habitat restoration",
+          "syntactic_type": "法治刚性与柔性激励并重动宾搭配",
+          "translation": "以毫不含糊的强制法律严厉制裁筑牢法定生态执法的铜墙铁壁，同时辅以激励机制撬动真正的栖息地修复",
+          "application_sentence": "Policymakers must fortify statutory environmental protection with unequivocal sanctions while incentivizing long-term ecological restoration among landowners.",
+          "sentence_cn": "立法与监管决策者必须以毫无妥协余地的法律严惩措施铸就守护生态红线的钢铁防线，同时辅之以科学合理的正向激励机制，全方位调动土地开发者投身长效生态修复的内生动力。",
+          "template_slot": "Lawmakers must fortify statutory enforcement with unequivocal sanctions while incentivizing [正向长效激励机制]."
         }
       ],
       "year": 2016
@@ -5148,50 +5378,147 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 That everyone’s too busy these days is a cliché. B... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：现在每个人都太忙了这是陈词滥调。但有一个特别令人悲伤的抱怨：...",
-          "第2段：使问题变得更加棘手的是，通常的时间管理技巧似乎还不够。网络上...",
-          "第3段：事实上，“变得更有效率”是问题的一部分。将时间视为一种可以最...",
-          "第4段：那么什么有效呢？也许令人惊讶的是，安排固定的阅读时间。你可能..."
-        ]
+        "genre": "时间哲学与数字时代深度阅读认知危机评述",
+        "discourse_model": "全民'太忙'陈词滥调 ➔ '没时间读书'的普遍焦虑 ➔ 传统时间管理工具彻底失效 ➔ '提升效率'本身沦为病根（将时间视作经济资源挤压） ➔ 颠覆性解法：为阅读划定神圣专属时段 ➔ 接纳慢阅读与重塑心智深度",
+        "main_theme": "本文针对现代社会普遍泛滥的'人人皆忙得不可开交'（too busy）的陈词滥调，敏锐聚焦于其最具杀伤力的一项文化副产品——'现代人彻底丧失了阅读大部头书籍的时间与心境'；深刻解构了为何市面上流行的'效率黑客指南与时间管理大师技巧'在挽救阅读危机上面前全盘溃败；尖锐指出'追求更高效、将时间割裂为可无限榨取的稀缺经济资源'的功利工具主义思维本身，恰恰是制造焦虑与注意力碎裂的元凶首恶；颠覆性地提出破解之道：反直觉地在日历中为阅读设立不可侵犯的'神圣专属时段'，以刻意的从容慢读（slow reading）抵抗效率至上的工业化心智异化。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】普遍的'忙碌'抱怨直指核心：现代人丧失了读书时间",
+            "core_point": "人人抱怨忙碌已成滥调，但在所有抱怨中，最尖锐、最令人心痛的一项莫过于'根本抽不出时间沉心读完一本书'。",
+            "cohesive_devices": "以人人感同身受的痛点切入（cliché that everyone's too busy / complaint: no time to read books）。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】治理死局：传统时间管理技巧与效率工具全线失灵",
+            "core_point": "问题愈发棘手的原因在于，大众以往依赖的待办清单、多线程操作等时间管理技巧在阅读这件事上竟然全部失效。",
+            "cohesive_devices": "递进指出困局（problem thornier / usual time-management techniques don't seem sufficient）。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】颠覆直觉的洞察：'追求更高效率'恰恰是罪魁祸首",
+            "core_point": "残酷真相在于：追求极致效率本身正是病根所在；将时间视作必须榨干每一滴剩余价值的商品资源，必然导致心灵陷入永恒的慌乱与疲于奔命。",
+            "cohesive_devices": "以悖论论断（becoming more efficient is part of the problem / time as an economic resource to be maximized）。"
+          },
+          {
+            "pid": 3,
+            "role": "【合】重拾从容之道：为沉浸阅读预留不可侵犯的神圣留白",
+            "core_point": "真正奏效的解法出人意料：必须在日程中为阅读划定神圣专属时段，哪怕每次只有半小时，以有节奏的慢读筑起捍卫人类深度心智的坚固绿洲。",
+            "cohesive_devices": "反转提出破局处方（So what does work? Scheduling regular times for reading / protecting cognitive depth）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 3 的四个段落，从 A-F 六个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "The Cult of Efficiency as the Root Cause of Cognitive Panic",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第3段核心悖论：对效率的狂热崇拜将时间异化为经济资源，恰恰是制造心智焦虑与驱散阅读的罪魁祸首。"
+            },
+            {
+              "key": "B",
+              "heading": "Compulsory Speed-Reading Software Installed on All Devices",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向曲解/无中生有】文章倡导慢读，反对工具主义速读软件。"
+            },
+            {
+              "key": "C",
+              "heading": "A Universal Lament: Chronic Busyness Crowds Out Book Reading",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：全社会普遍弥漫忙碌抱怨，最集中的痛点在于现代人无法抽出时间阅读书籍。"
+            },
+            {
+              "key": "D",
+              "heading": "Mass Burning of Printed Paper Novels Across Libraries",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：荒谬夸大】文中未曾提及焚烧实体书籍。"
+            },
+            {
+              "key": "E",
+              "heading": "Conventional Time-Management Hacks Collapse Under Scrutiny",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段：传统待办清单与时间管理法则在解决深度阅读困境时全面崩溃失效。"
+            },
+            {
+              "key": "F",
+              "heading": "Carving Out Sacred, Sacrosanct Slots to Savor Slow Contemplation",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第4段破局方案：在日程表中刻意为阅读划定神圣专属时段，捍卫沉浸从容的思考。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓忙碌导致无暇读书（too busy / no time to read books）；段2抓传统时间管理技巧失效（usual time-management techniques insufficient）；段3抓追求效率本身是病根（becoming more efficient is the problem / economic resource）；段4抓为阅读设立神圣专属时间（scheduling regular times for reading / protects cognitive depth）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "everyone",
-          "translation": "pron. 每个人；人人",
-          "application_sentence": "Research demonstrates that everyone plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "crowd out dedicated opportunities for deep intellectual contemplation",
+          "syntactic_type": "注意力被挤占动宾搭配",
+          "translation": "无情挤压剥夺了用于开展深度学术与智力沉潜的宝贵专属机遇",
+          "application_sentence": "As lifestyle surveys clearly indicate, the constant cacophony of digital alerts crowds out dedicated opportunities for deep intellectual contemplation.",
+          "sentence_cn": "正如现代人生活方式调研图表所清晰揭示的，无处不在的数字通知噪音无情且残酷地挤压剥夺了现代人本可用于开展深度智力沉潜与沉浸阅读的神圣专属机遇。",
+          "template_slot": "The relentless barrage of [数字噪音/低效琐事] crowds out dedicated opportunities for [深度阅读/独立思考]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "busy",
-          "translation": "adj. 繁忙的；忙碌的",
-          "application_sentence": "Research demonstrates that busy plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "arise from a reductive commodification of time that treats every waking moment as a resource to be harvested",
+          "syntactic_type": "哲学异化动宾从句结构",
+          "translation": "源于一种将时间极度商品化与工具化的窄化观念，把清醒的每一分每一秒都视作必须收割的经济资源",
+          "application_sentence": "Modern anxiety arises from a reductive commodification of time that treats every waking moment as a scarce economic resource to be ruthlessly harvested.",
+          "sentence_cn": "充斥于当代的深层焦虑与虚无感，在根本上源于一种将时间高度商品化与工具化的狭隘功利观念，它冷酷地将人类清醒的每一个生命瞬间都异化为必须无情收割变现的稀缺经济资源。",
+          "template_slot": "This modern fatigue arises from a reductive commodification of [生命/时间] that treats [纯粹存在] as an economic resource to be harvested."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "problem",
-          "translation": "n. 问题；难题",
-          "application_sentence": "Research demonstrates that problem plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Paradoxically, the frantic quest for hyper-efficiency is not the cure; it is the very contagion that fuels ...",
+          "syntactic_type": "悖论反思驳论句型",
+          "translation": "极其自相矛盾的是，对极致超高效能的疯狂狂热追求非但不是救世良方，它恰恰正是助长……肆虐蔓延的病原体本身",
+          "application_sentence": "Paradoxically, the frantic quest for hyper-efficiency is not the cure; it is the very psychological contagion that fuels our inability to read deeply.",
+          "sentence_cn": "极其反讽且自相矛盾的是，现代人对极致超高效能的盲目狂热追逐，非但不是治愈知识匮乏的救世良方，它恰恰正是彻底剥夺我们深度阅读与长效沉思能力的心理病原体本身。",
+          "template_slot": "Paradoxically, the frantic quest for [某种极端指标] is not the cure; it is the very contagion that fuels [深层危机]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "thornier",
-          "translation": "adj. 多刺的（thorny 的比较级）；更棘手的",
-          "application_sentence": "Research demonstrates that thornier plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Only by refusing to treat time as a commodity to be conquered can modern individuals reclaim ...",
+          "syntactic_type": "only+动名词结构置于句首的部分倒装语序",
+          "translation": "唯有决然拒绝将光阴岁月视作必须征服榨取的商品货殖，现代人方能重新收复……",
+          "application_sentence": "Only by refusing to treat time as an economic commodity to be conquered can individuals reclaim the serene sanctuary of uninterrupted reading.",
+          "sentence_cn": "唯有决然拒绝将宝贵的生命光阴狭隘视作一件必须全副武装去征服榨取的商业货殖，身处喧嚣中的现代个体方能真正重新收复那片免受干扰的纯净阅读精神圣殿。",
+          "template_slot": "Only by refusing to treat [时间/生命] as a mere commodity can we reclaim [精神宁静/灵魂家园]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "fact",
-          "translation": "n. 事实；真相",
-          "application_sentence": "Research demonstrates that fact plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "becoming",
-          "translation": "adj. （衣服、颜色、发型等）好看的；相配的",
-          "application_sentence": "Research demonstrates that becoming plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "carve out unyielding, sacrosanct sanctuaries on our calendars to cultivate deliberate intellectual slowness",
+          "syntactic_type": "时间留白抗议动宾搭配",
+          "translation": "在日常日历中强硬划定神圣不容侵犯的心灵避难绿洲，倾力培育一种深思熟虑的智性从容与慢读定力",
+          "application_sentence": "We must deliberately carve out unyielding, sacrosanct sanctuaries on our busy calendars to cultivate intellectual slowness and cognitive sovereignty.",
+          "sentence_cn": "身处信息洪流狂轰滥炸的现代人必须下定决心，在忙碌不堪的日常日程表中强硬划定神圣不容侵犯的精神留白绿洲，全力培育一种深思熟虑的智性从容与不被算法裹挟的心智主权。",
+          "template_slot": "We must carve out unyielding, sacrosanct sanctuaries in daily life to cultivate [精神定力/从容从容]."
         }
       ],
       "year": 2016
@@ -6727,50 +7054,170 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Against a backdrop of drastic changes in economy a... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：最新民意调查发现，在经济和人口结构发生巨大变化的背景下，美国...",
-          "第2段：从职业到社区和家庭，这些对比表明，在严重的大衰退之后，那些刚...",
-          "第3段：年轻人和老年人都集中在一个关键点上：两个群体中绝大多数人都表...",
-          "第4段：皮特·施奈德 (Pete Schneider) 认为今天的攀..."
-        ]
+        "genre": "人口代际经济学与社会阶层流动性追踪调研",
+        "discourse_model": "大萧条与人口结构剧变背景 ➔ 传统成年里程碑代际共鸣 ➔ 青年将经济自立置于成家立业之前 ➔ 2008次贷金融海啸创伤印记 ➔ 老少两代共识（阶层攀登今非昔比） ➔ 皮特·施耐德汽修工写照 ➔ 艰难攀爬中的坚韧底色",
+        "main_theme": "本文立足皮尤研究中心（Pew Research Center）等权威机构关于美国青年一代与父辈在'人生里程碑与经济期望'上的大型跨代追踪调研，深刻探讨了大衰退（Great Recession）后美国梦的内涵重构；揭示了尽管美国年轻人与父辈在追求'经济独立、体面工作、拥有房产、建立家庭'等传统成功标尺上保持着高度代际共鸣，但青年一代被迫做出了极其清醒的优先级调整——将'实现财务绝对自立'置于结婚生子等人生大事的绝对首位；严密论证了老少两代人达成的一致共识：由于制造业岗位外流、生活成本飙升，当今向上阶层流动与立足社会的'攀登之路'（the climb）比过去艰难凶险得多；最终以27岁汽修工皮特·施耐德打多份工坚韧打拼的鲜活生动缩影，礼赞了青年一代在经济寒冬中绝不躺平、顽强攀爬的坚韧底色。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】大衰退与人口转型背景下青年成家立业路径重构",
+            "core_point": "在宏观经济重构与人口变迁大背景下，年轻一代美国人正在彻底颠覆并重新书写迈向成年的传统路径。",
+            "cohesive_devices": "以宏阔宏观历史背景开篇（Against backdrop of drastic changes / younger Americans redefining transitions）。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】跨越代际的共同价值坐标：传统成功里程碑依然被珍视",
+            "core_point": "出人意料的是，年轻一代并未背弃传统，经济独立、买房置业、成家生子依然是老少两代人共同坚守的核心里程碑。",
+            "cohesive_devices": "以代际共识承接（Across generational lines, prize many of the same milestones）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】现实优先级重排：经济自立必须无条件优先于婚姻与育儿",
+            "core_point": "然而青年一代的务实调整极其分明：他们坚定地将财务自给自足与职场立足放在最前列，推迟结婚生子直至经济完全兜底。",
+            "cohesive_devices": "展现优先级排序调整（prioritize financial independence before marriage and parenthood）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】时代创伤印记：2008年次贷海啸深远反噬下的现实主义",
+            "core_point": "这种清醒谨慎的务实心态，深层打上了2008年全球金融危机重创实体经济、击碎中产神话的深刻时代创伤烙印。",
+            "cohesive_devices": "以历史因果归因（aftermath of the searing Great Recession shaped realistic outlooks）。"
+          },
+          {
+            "pid": 4,
+            "role": "【承】两代人的清醒共识：阶层跃升与立足之路今非昔比般险峻",
+            "core_point": "无论年轻受访者还是年长一代，绝大多数人都异口同声承认：当今社会青年要实现阶层跨越并过上父辈的生活水准，难度已呈几何级数激增。",
+            "cohesive_devices": "引用压倒性统计共鸣（Overwhelming majorities agree standard of living is harder to achieve）。"
+          },
+          {
+            "pid": 5,
+            "role": "【合】鲜活写照：27岁汽修工施耐德的坚韧攀爬之路",
+            "core_point": "27岁汽修技师皮特打多份工支撑生计，他的拼搏生动折射出年轻一代在陡峭现实峭壁上绝不言弃、脚踏实地的坚韧攀岩之姿。",
+            "cohesive_devices": "以典型个体微观写照升华全篇（Pete Schneider auto technician / considers climb tougher, yet persists）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 4 的六个段落，从 A-G 七个候选项中为指定五个段落选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "A"
+            },
+            {
+              "pid": 5,
+              "label": "Paragraph 6",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Generational Consensus: The Socioeconomic Climb Is Vastly Steeper Today",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第5段：老少两代人达成压倒性共识，一致认同当今年轻人想要立足社会的攀登之路远比昔日艰难。"
+            },
+            {
+              "key": "B",
+              "heading": "Youth Renounce All Ambitions to Live in Communes",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：极端曲解/无中生有】年轻人依然珍视传统成功里程碑，绝未放弃抱负过公社集体生活。"
+            },
+            {
+              "key": "C",
+              "heading": "Redefining the Transition to Adulthood Amid Macroeconomic Turbulences",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：在宏观经济与人口深刻变局的大背景下，年轻一代正在全面重构迈向成年的路径。"
+            },
+            {
+              "key": "D",
+              "heading": "Immediate Tripling of Minimum Wage Enacted Nationwide",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未提及全国范围最低工资立即翻三倍。"
+            },
+            {
+              "key": "E",
+              "heading": "Enduring Values: Traditional Milestones Retain Cross-Generational Appeal",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段：经济自足与拥有居所等传统成功标志依然跨越代际界限，被老少两代共同看重。"
+            },
+            {
+              "key": "F",
+              "heading": "Pete Schneider: An Autoworker's Grit Embodies the Uphill Struggle",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第6段结语：27岁汽修技工皮特打拼的真实写照，生动诠释了当代青年在险峻攀爬中的顽强韧性。"
+            },
+            {
+              "key": "G",
+              "heading": "Financial Self-Sufficiency Unconditionally Precedes Nuptial Commitments",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第3段：年轻人在人生规划中表现出极端理性，坚持将财务自给自足置于步入婚姻家庭之前。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓经济变局下重新定义成年路径（redefining adulthood backdrop of changes）；段2抓传统里程碑代际共鸣（prize same traditional milestones）；段3抓经济自足优先于婚姻（financial independence precedes marriage）；段5抓两代共识攀登更难（both groups agree climb is tougher）；段6抓汽修工皮特生动写照（Pete Schneider embodies climb）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "backdrop",
-          "translation": "n. （舞台的）背景幕布；周围景物",
-          "application_sentence": "Research demonstrates that backdrop plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "reach an overwhelming consensus across generational divides regarding ...",
+          "syntactic_type": "跨群体共识动宾短语搭配",
+          "translation": "在跨越年龄代际鸿沟的广阔群体间就……达成了压倒性的高度共识",
+          "application_sentence": "As demographic surveys indicate, both younger cohorts and their elders reach an overwhelming consensus regarding the unprecedented steepness of the economic climb.",
+          "sentence_cn": "正如大型人口与民意调查所清晰展示的，青年学子与其父母一辈在面对当今年轻人立足社会的艰巨性时，跨越代际鸿沟就'当今社会向上攀登之路今非昔比般陡峭险峻'这一客观事实达成了压倒性的一致共识。",
+          "template_slot": "As recent surveys indicate, diverse social strata reach an overwhelming consensus regarding [某严峻客观现实]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "drastic",
-          "translation": "adj. 极端的；激烈的",
-          "application_sentence": "Research demonstrates that drastic plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "be deeply conditioned by the lingering trauma of macroeconomic downturns and escalating cost-of-living burdens",
+          "syntactic_type": "时代印记被动因果搭配",
+          "translation": "被宏观经济下行周期挥之不去的历史创伤与不断飙升的生活起居成本重压所深深规训与重塑",
+          "application_sentence": "Youthful caution is deeply conditioned by the lingering trauma of the Great Recession and escalating housing cost-of-living burdens.",
+          "sentence_cn": "当代年轻一代在面对人生抉择时所展现出的超乎寻常的审慎与务实，在根本上深深打上了大萧条挥之不去的时代创伤烙印，并受到持续飞涨的房租与生活成本大山的深刻规训。",
+          "template_slot": "Pragmatic social mindsets are deeply conditioned by the lingering trauma of [宏观危机] and escalating [生活/竞争成本]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "career",
-          "translation": "n. 职业；事业",
-          "application_sentence": "Research demonstrates that career plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "This pragmatic delay in ... does not signify an abandonment of core values; rather, it represents ...",
+          "syntactic_type": "not signify...rather represents澄清反驳句",
+          "translation": "在……上的这种务实推迟与谨慎延宕绝不意味着对核心价值追求的弃绝，恰恰相反，它代表着……",
+          "application_sentence": "This pragmatic delay in marriage does not signify an abandonment of family values; rather, it represents a responsible determination to establish a secure economic foothold first.",
+          "sentence_cn": "当代青年在步入婚姻和组建家庭问题上的务实推迟与谨慎延宕，绝不意味着他们对家庭伦理与责任的虚无放弃；恰恰相反，它代表着必须先在社会上牢牢站稳脚跟、具备坚实物质底气后再做承诺的极其负责任的自律担当。",
+          "template_slot": "This delay in [人生重大抉择] does not signify an abandonment of [崇高追求]; rather, it represents a mature determination to [先打牢坚实根基]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "community",
-          "translation": "n. 社区；社会",
-          "application_sentence": "Research demonstrates that community plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Harder though the upward journey may be in an era of volatility, the sheer tenacity demonstrated by ...",
+          "syntactic_type": "though引导的形容词让步倒装句型",
+          "translation": "尽管在风云变幻动荡不安的时代背景下向上攀爬的旅程是如此艰难凶险，但……所展现出的纯粹坚韧意志……",
+          "application_sentence": "Harder though the upward journey may be in an era of economic volatility, the sheer tenacity demonstrated by hardworking youths remains a powerful engine of societal vitality.",
+          "sentence_cn": "尽管在风云变幻、充满不确定性的宏观大环境中向上攀爬的奋斗旅程是如此之艰难与凶险，但广大脚踏实地的奋斗青年所展现出的纯粹坚韧意志，依然是支撑整个国家社会生生不息的强大力量源泉。",
+          "template_slot": "Tougher though [奋斗征程] may be in modern society, the sheer tenacity demonstrated by [奋斗群体] remains [无可替代的希望之光]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Young",
-          "translation": "adj. 幼小的；年轻的",
-          "application_sentence": "Research demonstrates that Young plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "converge",
-          "translation": "v. （使）汇聚；集中",
-          "application_sentence": "Research demonstrates that converge plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "dismantle institutional hurdles to ensure that the arduous upward climb of ambitious youth is met with equitable opportunity and tangible reward",
+          "syntactic_type": "社会阶层流动制度保障动宾搭配",
+          "translation": "坚决破除体制机制梗阻，确保怀抱远大志向的青年一代在艰辛向上的奋力攀登中能够收获公平普惠的发展机遇与看得见摸得着的切实回报",
+          "application_sentence": "Society must dismantle structural bottlenecks to ensure that the arduous upward climb of ambitious young people is met with equitable opportunity and tangible economic reward.",
+          "sentence_cn": "全社会必须下大力气坚决破除各种制约阶层流动的体制机制隐性壁垒，倾力确保千千万万怀揣梦想的年轻人在艰辛跋涉的向上攀爬过程中，能够真正邂逅公平公正的赛道机遇，并收获看得见摸得着的扎实奋斗回报。",
+          "template_slot": "The state must dismantle structural bottlenecks to ensure that the arduous efforts of [青年/奋斗者] are met with [公平赛道] and tangible reward."
         }
       ],
       "year": 2016

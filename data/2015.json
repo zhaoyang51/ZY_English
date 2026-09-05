@@ -1666,51 +1666,170 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 A new study suggests that contrary to most surveys... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：一项新的研究表明，与大多数调查相反，人们实际上在家里比在工作...",
-          "第2段：研究人员之一莎拉·达马斯克（Sarah Damaske）写道...",
-          "第3段：该研究没有衡量人们在家时是否仍在工作，无论是家务活还是从办公...",
-          "第4段：但这不仅仅是性别问题。在工作中，人们几乎知道他们应该做什么：...",
-          "第5段：然而，在家庭方面，人们却没有这样的清晰度。很少有家庭能够如此..."
-        ]
+        "genre": "职场社会学与现代家庭压力心理学实证研究",
+        "discourse_model": "颠覆家庭避风港传统迷思 ➔ 皮质醇激素实证（男女皆在职场更放松） ➔ 远程办公与家庭边界模糊 ➔ 职场角色清晰与确定性优势 ➔ 琐碎家务与权责模糊的无尽内耗 ➔ 呼唤现代人际家庭边界重构",
+        "main_theme": "本文聚焦一项颠覆大众常识的严谨心理生理学生物学实证研究，击碎了'家庭是宁静避风港、职场是残酷压力场'的传统田园叙事；通过严密检测受试者唾液皮质醇（cortisol）应激激素水平，无可辩驳地揭示出无论男性还是女性，在职场中的生理压力水平均显著低于居家生活；深度解构了背后的组织行为学机制：现代职场拥有清晰的分工指令、可量化的绩效反馈与明确的权责边界，而家庭场景中却充斥着权责不清的家务拉锯、无休止的情感照料以及模糊无界的琐碎内耗；为理解现代双职工家庭的情绪耗竭与心理健康提供了全新解释范式。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】颠覆常识的重磅结论：人们在家庭中的压力显著高于职场",
+            "core_point": "最新生理对照研究颠覆了传统民意调查，揭示居家环境带给现代人的真实压力与焦虑感竟远远超过职场。",
+            "cohesive_devices": "以反常识结论开宗明义（contrary to most surveys / people more stressed at home）。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】皮质醇激素客观实证：男女皆在办公室拥有更低应激水平",
+            "core_point": "唾液皮质醇水平测定证实，无论男女，在办公室工作时的应激反应均处于更低水平，推翻了所谓'职场残酷'的刻板印象。",
+            "cohesive_devices": "引用生物学严谨测量数据（contradicting conventional wisdom / lower cortisol levels at work）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】研究边界省思：未充分计入隐形远程加班与界限混淆",
+            "core_point": "本研究的局限在于未能精准剔除居家期间的隐形数字化远程办公干扰，工作对家庭空间的物理渗透加剧了紧绷感。",
+            "cohesive_devices": "学术自我反思（What the study doesn't measure / doing work when at home）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】深层制度因果解密：职场权责分明与秩序感带来的心理安全",
+            "core_point": "职场之所以令人放松，关键在于其任务界定明确、规则清晰且付出能得到正向反馈，为心智提供了结构性秩序庇护。",
+            "cohesive_devices": "以对比转折入理（At work, people pretty much know what they're supposed to do）。"
+          },
+          {
+            "pid": 4,
+            "role": "【转】家庭生活的困境：分工模糊、家务无休止与隐形情感劳动",
+            "core_point": "在家庭私域中，缺乏量化分工标准，碗碟洒扫、育儿赡养永无休止，夫妻间权责拉锯导致永不间断的无形消耗。",
+            "cohesive_devices": "转向居家微观现实（On the home front / no such clarity / division of labor never clear）。"
+          },
+          {
+            "pid": 5,
+            "role": "【合】重估现代人际生态：呼唤家庭内部清晰边界与理性共担",
+            "core_point": "家庭任务的无穷无尽且缺乏即时激励是压力之源；唯有建立清晰互信的共担契约，方能让家重回真正的疗愈港湾。",
+            "cohesive_devices": "归纳升华（Not only are tasks endless / emotional toll / structural clarity needed）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 1 的六个段落，从 A-G 七个候选项中为指定五个段落选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "A"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "G"
+            },
+            {
+              "pid": 5,
+              "label": "Paragraph 6",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Structured Clarity and Defined Expectations Shield Workers from Chaos",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第4段：职场清晰的分工边界与明确的任务期待为打工人构筑了远离混乱的心智避风港。"
+            },
+            {
+              "key": "B",
+              "heading": "Mandatory Forty-Hour Weekly Housekeeping Imposed on Husbands",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有/荒谬捏造】文中完全未提及强制丈夫承担40小时家务。"
+            },
+            {
+              "key": "C",
+              "heading": "Shattering the Myth: Home as a Hotbed of Elevated Daily Stress",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：击碎家庭为恬静避风港的迷思，揭示现代人家中压力高于职场的惊人真相。"
+            },
+            {
+              "key": "D",
+              "heading": "Complete Abolition of Domestic Marital Partnerships",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：极端曲解】文章探讨家庭分工机制，绝非取缔婚姻制度。"
+            },
+            {
+              "key": "E",
+              "heading": "Biological Proof: Cortisol Assays Confirm Lower Strain at the Office",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段：唾液皮质醇生物化学测定无可争辩地证实，男女在办公室工作时应激激素水平显著更低。"
+            },
+            {
+              "key": "F",
+              "heading": "Endless Chores and Emotional Toll Turn Domestic Life into a Quagmire",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第6段结语：永无止境的家务与缺乏认同的情感重担将居家日常拖入紧绷泥淖。"
+            },
+            {
+              "key": "G",
+              "heading": "Ambiguous Frontiers and Unspoken Division of Domestic Labor",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第5段：家庭领域缺乏客观量化规则，模糊的劳动分工引发无休止的心力交瘁。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓家比工作压力更大（more stressed at home than at work）；段2抓皮质醇激素客观实证（cortisol levels / lower stress at work）；段4抓工作秩序与明确期待（know what they're supposed to do / clear roles）；段5抓家务分工模糊（no such clarity / division of labor never clear）；段6抓家务无休止引发内耗（tasks endless / emotional toll）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "study",
-          "translation": "n. （专题）研究；调查",
-          "application_sentence": "Research demonstrates that study plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "run counter to popular intuition by revealing a surprising disparity in ...",
+          "syntactic_type": "反常识对比动宾搭配",
+          "translation": "与大众普遍直觉背道而驰，揭示出在……方面令人惊诧的显著反差",
+          "application_sentence": "As empirical wellbeing barometers indicate, psychological stress patterns run counter to popular intuition by revealing higher anxiety within private residences.",
+          "sentence_cn": "正如实证心理福祉监测数据所清晰显示的，当代人的精神压力分布模式与大众普遍的直觉大相径庭，呈现出家庭私域焦虑显著高于职场的惊人反差。",
+          "template_slot": "Recent survey findings run counter to popular intuition by revealing a surprising disparity in [压力分布/行为选择]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "suggests",
-          "translation": "v. 暗示；建议（suggest的suggest的第三人称单数）",
-          "application_sentence": "Research demonstrates that suggests plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "stem from the chronic absence of defined operational boundaries and equitable role distribution",
+          "syntactic_type": "管理与社会学因果短语",
+          "translation": "根源于清晰明确的权责边界以及公平合理角色分工机制的长期缺位",
+          "application_sentence": "Domestic friction stems from the chronic absence of defined operational boundaries and equitable role distribution among household partners.",
+          "sentence_cn": "家庭内部无休止的情感摩擦与心力交瘁，究其深层根源，恰恰在于伴侣之间清晰可操作的权责边界以及公平合理的分工机制的长期严重缺位。",
+          "template_slot": "This exhaustion fundamentally stems from the chronic absence of defined boundaries and equitable distribution of [责任/资源]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Further",
-          "translation": "adv. 更远地；再往前地",
-          "application_sentence": "Research demonstrates that Further plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "While professional workspaces provide structured clarity and quantifiable closure, ... remains plagued by ...",
+          "syntactic_type": "职场与家庭双轨对比句型",
+          "translation": "尽管专业职场空间能够提供有条不紊的秩序感与量化闭环，……却依然深受……的无尽困扰",
+          "application_sentence": "While professional workspaces provide structured clarity and quantifiable closure, the domestic realm remains plagued by amorphous, never-ending demands.",
+          "sentence_cn": "尽管规范严谨的职场空间能够赋予现代人井然有序的秩序感与成果量化的确定闭环，但家庭私域却依然深受无形且永无止境的琐碎索求的严重困扰。",
+          "template_slot": "While [领域A] provides structured clarity and visible rewards, [领域B] remains plagued by [模糊不清/无尽消耗]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "contradicting",
-          "translation": "v. 反驳；否认",
-          "application_sentence": "Research demonstrates that contradicting plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Not only are the tasks in ... inherently ambiguous, but they also lack the formal recognition that renders ...",
+          "syntactic_type": "Not only置于句首的部分倒装并列递进句",
+          "translation": "不仅……领域的任务本身具有天然的模糊性，而且它们还严重缺乏那种能够让……变得心甘情愿的正式认可机制",
+          "application_sentence": "Not only are unpaid domestic duties inherently ambiguous, but they also lack the formal social recognition that renders demanding labor psychologically endurable.",
+          "sentence_cn": "无偿的家庭琐务不仅在任务界定上具有天然的模糊与混乱性，而且它们还严重缺乏那种能够让艰辛劳作在心理层面上变得甘之如饴的正式社会认可与价值肯定。",
+          "template_slot": "Not only are [某类工作/任务] inherently ambiguous, but they also lack the formal recognition that renders [艰辛付出] truly worthwhile."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "study",
-          "translation": "n. （专题）研究；调查",
-          "application_sentence": "Research demonstrates that study plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "doesn",
-          "translation": "aux. 表示否定（等于 does not）",
-          "application_sentence": "Research demonstrates that doesn plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "renegotiate domestic compacts to foster mutual empathy, emotional transparency, and structural equity",
+          "syntactic_type": "家庭重构对仗动宾倡议搭配",
+          "translation": "重新协商家庭内部合作契约，全力培育彼此同理心、情感透明度与制度性公平",
+          "application_sentence": "Modern couples must courageously renegotiate domestic compacts to foster mutual empathy, emotional transparency, and structural equity under the same roof.",
+          "sentence_cn": "身处快节奏现代生活中的伴侣必须鼓起勇气，坦诚重新协商同一屋檐下的家务合作契约，全力培育起深切的相互同理心、情感透明度与制度性的结构公平。",
+          "template_slot": "Partners must actively renegotiate compacts to foster [相互包容], transparency, and structural equity in [共同生活/团队合作]."
         }
       ],
       "year": 2015
@@ -3300,51 +3419,164 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 For years, studies have found that first-generatio... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：多年来，研究发现，第一代大学生（父母没有大学学历的人）在一系...",
-          "第2段：但这篇文章实际上相当乐观，因为它概述了这个问题的潜在解决方案...",
-          "第3段：该论文的作者来自不同的大学，他们的研究结果基于一项涉及一所未...",
-          "第4段：他们的论文——相对适度的干预可能会产生巨大的影响——基于这样...",
-          "第5段：他们写道，许多第一代学生“努力适应高等教育的中产阶级文化，学..."
-        ]
+        "genre": "高等教育社会学与社会阶层流动实证干预评述",
+        "discourse_model": "第一代大学生毕业率落后困局 ➔ 破局曙光：微干预带来大跃升 ➔ 斯蒂芬斯团队实证追踪设计 ➔ 差异教育干预内核（阶层背景是优势而非赤字） ➔ 破除中产文化壁垒 ➔ 赋能寒门学子打破阶层天花板",
+        "main_theme": "本文深入评述了顶尖社会心理学家发表于权威期刊的教育干预实证论文，聚焦破解'第一代大学生'（First-generation college students，即父母双方皆无本科学历的寒门学子）大学学业落后与毕业率低迷的百年顽疾；详述了西北大学尼科尔·斯蒂芬斯（Nicole Stephens）团队开创的'差异教育微干预'（difference-education intervention）：通过邀请学长学姐坦诚分享出身工薪家庭的逆境奋斗，引导寒门学子将自身的非主流阶层背景重构为独特的'韧性资产'（asset）而非'缺陷赤字'（deficit）；证明仅需一场低成本的微型入学心理干预，即可彻底破除高校隐形中产文化对弱势群体的无形排斥，显著缩小阶层学业鸿沟并大幅提振学分与留校率。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】第一代大学生的学业困境与毕业率鸿沟",
+            "core_point": "多年调研证实，由于缺乏家庭学业资本支持，第一代大学生在挂科率与退学率上显著偏高，成为高等教育沉重伤痛。",
+            "cohesive_devices": "以客观严峻的学术共识开篇（studies have found first-generation students fall behind peers）。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】破局曙光初现：心理干预展现乐观前景",
+            "core_point": "然而最新研究传递出极度乐观的信号：科学家提炼出一种低成本高成效的心理干预模式，有望彻底扭转这一被动局面。",
+            "cohesive_devices": "急转展现希望（article is actually quite optimistic / outlines potential solution）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】跨高校学者联合实证与大一样本追踪",
+            "core_point": "多所顶尖名校学者组成联合课题组，对大批刚踏入象牙塔的大学新生进行了为期数年的严谨纵向实验追踪。",
+            "cohesive_devices": "介绍跨学科课题组阵容与严密实验设计（authors from different universities / findings based on cohort）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】核心理论假说：四两拨千斤的'微干预大效应'",
+            "core_point": "研究的核心洞见在于：无需耗费数亿财政巨资，只需在入学初期施加极其适度的认知调适，就能激发颠覆性的学业飞跃。",
+            "cohesive_devices": "提炼核心理论机理（thesis that a modest intervention could have a big impact）。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】拆解隐形文化壁垒：将工薪出身化为自强资产",
+            "core_point": "寒门学子深层障碍在于难以适应大学无孔不入的中产精英潜规则；差异教育让他们坚信自身逆境经历是宝贵财富，彻底融入并破茧成蝶。",
+            "cohesive_devices": "揭示文化资本内核（struggle to navigate middle-class culture / turn differences into strengths）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 2 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "B"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "A"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "C"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "The Core Thesis: Modest Interventions Unleash Disproportionate Impact",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第4段理论内核：极其适度、精准的心理微干预能够释放出超乎寻常的巨大积极效应。"
+            },
+            {
+              "key": "B",
+              "heading": "First-Generation Undergraduates Lag Behind in College Completion",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：第一代大学毕业生在学业表现与毕业率等指标上长期落后于同龄同侪。"
+            },
+            {
+              "key": "C",
+              "heading": "Demystifying Middle-Class Cultural Norms to Unlock Working-Class Potential",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第5段结语：破除高校隐秘的中产文化规则阻碍，引导工薪学子将家庭出身转化为拼搏资产。"
+            },
+            {
+              "key": "D",
+              "heading": "Total Abolition of Tuition Fees for Elite Ivy League Universities",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文章探讨心理与文化干预，未曾提及常春藤名校全面取消学费。"
+            },
+            {
+              "key": "E",
+              "heading": "Grounds for Optimism: An Actionable Blueprint for Academic Equity",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准提炼第2段：研究展现出极度乐观的基调，描绘出低成本化解阶层教育鸿沟的可行方案蓝图。"
+            },
+            {
+              "key": "F",
+              "heading": "Mandatory Working-Class Identity Tags Worn on Campus",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：荒谬反向】文章强调融入与归属感，绝非强制佩戴歧视性工薪阶层胸牌。"
+            },
+            {
+              "key": "G",
+              "heading": "Multi-Campus Cohort Studies Deliver Robust Longitudinal Data",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第3段：横跨不同顶尖高校学者联合开展针对新生群体的严密实证追踪。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓第一代大学生学业落后（first-generation students fall behind）；段2抓乐观可行解法（quite optimistic / potential solution）；段3抓多高校联合纵向实证（authors from different universities / study of students）；段4抓微干预大效果（modest intervention big impact）；段5抓适应中产文化与化差异为优势（navigate middle-class culture / differences as strengths）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "studies",
-          "translation": "n. 研究；学习",
-          "application_sentence": "Research demonstrates that studies plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "unveil a persistent achievement gap confronting underprivileged cohorts",
+          "syntactic_type": "学业差距动宾短语",
+          "translation": "揭示出弱势群体青年长期面临的顽固学业表现鸿沟",
+          "application_sentence": "As higher education matriculation metrics unveil, a persistent achievement gap continues to confront first-generation student cohorts.",
+          "sentence_cn": "正如高等教育新生入学与学业统计所清晰揭示的，一道旷日持久且难以逾越的学业成就鸿沟，依然沉重地横亘在广大第一代大学生群体面前。",
+          "template_slot": "As recent demographic data unveils, a persistent disparity continues to confront [弱势群体/边缘化阶层] cohorts."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "found",
-          "translation": "v. 创办；成立",
-          "application_sentence": "Research demonstrates that found plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "struggle to decipher the unwritten middle-class cultural codes that permeate ...",
+          "syntactic_type": "文化资本社会学动宾结构",
+          "translation": "在艰难试图破译充斥于……之中的那些心照不宣的中产精英潜规则时碰壁受挫",
+          "application_sentence": "Underprivileged youths falter in academia not due to innate intellectual deficiency, but because they struggle to decipher the unwritten middle-class cultural codes that permeate universities.",
+          "sentence_cn": "寒门贫困学子之所以在学术殿堂中屡遭挫折，绝非由于其天生智力有所欠缺，而恰恰是因为他们极难参透并破译那些深度充斥于现代高校体系之中的心照不宣的中产精英文化潜规则。",
+          "template_slot": "Underprivileged individuals often struggle to decipher the unwritten cultural codes that quietly permeate [精英环境/现代机构]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "article",
-          "translation": "n. 文章；论文",
-          "application_sentence": "Research demonstrates that article plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Far from being an indelible deficit, a non-traditional background can be reframed into ...",
+          "syntactic_type": "否定转向提升论辩句",
+          "translation": "非传统出身绝非某种不可磨灭的致命劣势赤字，它反而能够被重新赋能构筑为……",
+          "application_sentence": "Far from being an indelible intellectual deficit, a working-class background can be reframed into an extraordinary source of resilience and perseverance.",
+          "sentence_cn": "非传统工薪家庭的成长背景绝非某种不可洗刷的致命缺陷与负债，恰恰相反，在科学引导下它完全能够被重新升华为一种源源不断孕育坚韧意志与抗挫耐力的超凡资产。",
+          "template_slot": "Far from being an indelible deficit, [被歧视的劣势/艰苦经历] can be reframed into an invaluable source of [韧性/创新力]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "actually",
-          "translation": "adv. 实际上；事实上",
-          "application_sentence": "Research demonstrates that actually plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "What this illuminating experiment demonstrates is that even a modest institutional intervention can yield ...",
+          "syntactic_type": "主语从句引导的启示论断句",
+          "translation": "这一极具启发性的实验所生动展现的，是即便极其适度温和的制度性微干预，也能创造出……",
+          "application_sentence": "What this illuminating psychological trial demonstrates is that even a modest pedagogical intervention can yield transformational dividends for disadvantaged youths.",
+          "sentence_cn": "这一极具思想启发意义的心理学实证实验所生动昭示的，是哪怕仅仅推行一次极其适度温和的教学微干预，也能够为弱势青年群体释放出带来命运转折般脱胎换骨的巨额红利。",
+          "template_slot": "What this illuminating reform demonstrates is that even a modest institutional intervention can yield transformational dividends for [目标群体]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "authors",
-          "translation": "n. 作者；著者",
-          "application_sentence": "Research demonstrates that authors plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "paper",
-          "translation": "n. 纸；报纸",
-          "application_sentence": "Research demonstrates that paper plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "cultivate an inclusive institutional ecosystem where diverse backgrounds are celebrated as vital strengths rather than ...",
+          "syntactic_type": "包容性制度建设动宾搭配",
+          "translation": "全力营建包容并蓄的机构生态，将千差万别的多元出身背景赞誉为宝贵的自强源泉，而非……",
+          "application_sentence": "Educational institutions must cultivate an inclusive ecosystem where working-class roots are celebrated as vital strengths rather than liabilities.",
+          "sentence_cn": "现代高等教育机构必须倾力打造海纳百川的包容性制度生态，在此生态中，工薪寒门学子的质朴身世应当被由衷礼赞为奋发图强的宝贵生命力量，而绝非令其蒙羞的累赘包袱。",
+          "template_slot": "Our society must cultivate an inclusive ecosystem where diverse backgrounds are celebrated as [核心优势] rather than [歧视性负债]."
         }
       ],
       "year": 2015
@@ -4983,51 +5215,164 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Even in traditional offices, “the lingua franca of... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：哈佛商学院教授南希·科恩 (Nancy Koehn) 表示，...",
-          "第2段：科恩指出，这个新时代的企业词汇非常注重“团队”——这并非巧合...",
-          "第3段：这些术语还旨在为工作注入意义，正如另一位教授拉克什·库拉纳 ...",
-          "第4段：这种对个人成就感的新关注可以帮助员工在关于工作与生活平衡的争...",
-          "第5段：但这似乎是办公室谈话的讽刺：每个人都在取笑它，但经理们喜欢它..."
-        ]
+        "genre": "组织社会学与企业文化管理语言学批判评述",
+        "discourse_model": "美企黑话情感化与鸡汤化转向 ➔ 南希·科恩揭示团队使命感营造 ➔ 库拉纳：用世俗信仰与意义感替代科层指令 ➔ 裁员与内卷高压下的职场心灵推拿 ➔ 办公室黑话的讽刺悖论：人人嘲讽却人人依附",
+        "main_theme": "本文聚焦美国现代企业文化中盛行的'职场公文套话黑话'（corporate office speak）所经历的情感化蜕变，深入剖析了'使命（mission）、激情（passion）、真诚（authenticity）'等充斥宗教与道德色彩的煽情词汇如何席卷传统办公室；系统引述哈佛商学院历史学家南希·科恩（Nancy Koehn）与社会学家拉克什·库拉纳（Rakesh Khurana）的洞见，揭示出管理层试图通过向工作注入崇高'意义感'，来替代冷冰冰的泰勒制官僚指令，从而在日益残酷的企业裁员重组与极度内卷高压中维系员工的效忠与拼搏斗志；最终深刻提炼出办公室黑话的经典黑色幽默悖论：尽管每名打工人都对其嗤之以鼻、疯狂嘲讽，但它却在事实上充当着现代商业巨兽不可或缺的情感润滑剂与组织凝聚强心针。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】美企通用语的大变脸：情绪化与温情脉脉词汇泛滥",
+            "core_point": "即便在最传统的企业写字楼里，商业用语亦发生了翻天覆地的转变，充斥着高度情绪化、带有心理治疗色彩的词汇。",
+            "cohesive_devices": "以反常现象描写（lingua franca of corporate America has gotten much more emotional）入题。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】科恩教授深度把脉：以'团队'话语消解个体孤立",
+            "core_point": "哈佛商学院南希·科恩指出，这套新管理话语绝非凭空产生，而是刻意以'全员一体、休戚与共'为导向，意在凝聚人心。",
+            "cohesive_devices": "引入管理史权威学者论点（Nancy Koehn pointed out / team-oriented by design）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】库拉纳社会学解密：为资本劳作注入世俗信仰与生命意义",
+            "core_point": "学者拉克什·库拉纳指出，现代企业通过赋予单调工作以宏大意义，实际上是在扮演某种'世俗宗教'，为员工提供精神寄托。",
+            "cohesive_devices": "理论升华（infuse work with meaning / secular faith replacing bureaucratic mechanics）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】高压职场的心灵按摩：在裁员寒冬中维系拼搏驱动力",
+            "core_point": "强调'自我价值实现'正是高明管理术：在重组裁员、减薪加班的冷酷现实面前，靠金钱激励受限时，唯有用情怀安抚军心。",
+            "cohesive_devices": "直戳资本运作现实诉求（keep employees motivated amid noise, restructuring and burnout）。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】现代职场经典讽刺：人人都吐糟鄙视，管理层却奉若至宝",
+            "core_point": "办公室黑话陷入巨大的荒诞反差：员工在私底下将其戏谑为虚伪油腻的笑柄，然而管理者却离不开它对庞大组织的凝固与催化效应。",
+            "cohesive_devices": "以讽刺性二律背反（irony of office speak / everyone makes fun of it, but managers love it）幽默作结。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 3 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "F"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "G"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "D"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Infusing Labor with Sacred Meaning to Serve as a Secular Faith",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第3段库拉纳的核心洞见：现代企业管理用充满意义感与神圣使命的词汇构建世俗信仰。"
+            },
+            {
+              "key": "B",
+              "heading": "Complete Banning of Verbal Communication in Modern Cubicles",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向极端/无中生有】文中未曾提及全面禁止办公室言语沟通。"
+            },
+            {
+              "key": "C",
+              "heading": "Emotional Vocabulary Infiltrates the Traditional Corporate Lexicon",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：情绪化、带有心灵治愈色彩的词汇深度侵入传统美国企业通用语言体系。"
+            },
+            {
+              "key": "D",
+              "heading": "The Inevitable Irony: Mocked by Employees, Cherished by Management",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第5段结语：办公室黑话陷入人人私下嘲讽戏谑、管理层却不可自拔深深依赖的荒诞讽刺之中。"
+            },
+            {
+              "key": "E",
+              "heading": "Mandatory Sanskrit Fluency Required for Corporate Executives",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未涉及梵语或古代外语要求。"
+            },
+            {
+              "key": "F",
+              "heading": "Intentional Team-Centric Tropes Designed to Foster Cohesion",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第2段科恩观点：这套新企业修辞绝非偶然，而是精心设计的以团队与集体荣誉为核心的话术。"
+            },
+            {
+              "key": "G",
+              "heading": "Sustaining Morale and Motivation Amid Downsizing and Fatigue",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第4段：在面临裁员重组与职业倦怠的大背景下，情感化修辞充当了激励军心维持动力的缓冲垫。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓企业用语情感化（lingua franca much more emotional）；段2抓团队导向设计（Koehn / team-oriented by design）；段3抓注入意义充当世俗信仰（infuse work with meaning / secular faith）；段4抓裁员疲劳中的激励功能（keep employees motivated amid restructuring）；段5抓讽刺悖论员工嘲笑老板挚爱（irony of office speak / fun of it vs managers love it）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "traditional",
-          "translation": "adj. 传统的；根据传统而制造（或使用）的",
-          "application_sentence": "Research demonstrates that traditional plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "witness a pronounced linguistic shift toward emotive and mission-driven rhetoric",
+          "syntactic_type": "文化趋势动宾结构",
+          "translation": "见证了向充满情感宣泄与使命感驱动的修辞风格的显著语言转向",
+          "application_sentence": "As organizational communication audits indicate, workplace discourse has witnessed a pronounced linguistic shift toward emotive and mission-driven rhetoric.",
+          "sentence_cn": "正如组织沟通审计报告所清晰显示的，当代职场话语体系经历了一轮极其显著的语言风格剧变，全面转向充满情感色彩与崇高使命感驱动的宏大修辞。",
+          "template_slot": "Recent years have witnessed a pronounced shift toward emotive and [某种导向的] rhetoric across [公共领域/企业沟通]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "offices",
-          "translation": "n. 办公室；办公楼",
-          "application_sentence": "Research demonstrates that offices plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "serve as an ideological substitute that manufactures loyalty when material rewards prove scarce",
+          "syntactic_type": "意识形态功能定语从句",
+          "translation": "充当一种意识形态替代品，在物质实质奖励匮乏短缺时人为制造忠诚与拼搏感召力",
+          "application_sentence": "Hyper-emotional corporate speak serves as an ideological substitute that manufactures loyalty and docility when tangible material rewards prove scarce.",
+          "sentence_cn": "过度充斥情怀的所谓企业心灵黑话，在深层本质上充当着一种巧妙的意识形态代用品，在企业看得见摸得着的物质奖励难以兑现时，强行为组织人为制造廉价的忠诚与顺从。",
+          "template_slot": "[某种空洞宣传/情怀话术] merely serves as an ideological substitute that manufactures [虚假繁荣/忠诚] when material resources prove scarce."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Koehn",
-          "translation": "n. （Koehn）人名；（德）克恩",
-          "application_sentence": "Research demonstrates that Koehn plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Herein lies the ultimate irony: while employees openly deride the pomposity of ..., leaders cling to it as ...",
+          "syntactic_type": "倒装引出双重反差讽刺句",
+          "translation": "这其中恰恰蕴含着终极的荒诞反差：尽管基层员工公开嘲讽……的浮夸做作，领导者却将其奉为……而死死不放",
+          "application_sentence": "Herein lies the ultimate workplace irony: while frontline employees openly deride the pomposity of corporate slogans, management clings to them as indispensable tools of cohesion.",
+          "sentence_cn": "这其中恰恰蕴含着当代职场最大的黑色幽默与荒诞反差：尽管广大一线打工人公开嘲笑公司口号的空洞浮夸与无病呻吟，但管理层却将其视作维系团队凝固力不可或缺的神圣工具而死死不放。",
+          "template_slot": "Herein lies the ultimate irony: while the public openly derides the artificiality of [某话术], institutions cling to it as an indispensable tool for [维持运转]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "pointed",
-          "translation": "adj. 尖的；尖角的",
-          "application_sentence": "Research demonstrates that pointed plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "It is precisely during periods of acute economic restructuring that organizations are most tempted to deploy ...",
+          "syntactic_type": "强调句型结合时间状语从句",
+          "translation": "恰恰是在经历剧烈的经济结构转型动荡期，各大组织机构才最倾向于滥用……",
+          "application_sentence": "It is precisely during periods of acute economic restructuring and widespread layoffs that corporate leaders are most tempted to deploy sentimental rhetoric.",
+          "sentence_cn": "恰恰是在经历异常剧烈残酷的宏观经济重组与大规模裁员寒冬阵痛期，企业管理者们才最受到诱惑、最迫不及待地企图诉诸充满感伤情怀的心灵鸡汤修辞来安抚人心。",
+          "template_slot": "It is precisely during periods of acute [动荡转型期] that [管理决策层] is most tempted to deploy [情怀修辞/避重就轻手段]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "terms",
-          "translation": "n. 地位；关系",
-          "application_sentence": "Research demonstrates that terms plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "intended",
-          "translation": "adj. 预期的；打算中的",
-          "application_sentence": "Research demonstrates that intended plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "strip away hypocritical sentimentalism to anchor organizational trust in authentic transparency and equitable compensation",
+          "syntactic_type": "去伪存真对仗动宾倡议短语",
+          "translation": "坚决褪去虚伪做作的情感温情面纱，将组织的制度互信牢牢锚定在真实的公开透明与公平合理的酬劳回报之上",
+          "application_sentence": "Forward-looking enterprises must strip away hypocritical sentimentalism to anchor organizational trust in genuine operational transparency and equitable compensation.",
+          "sentence_cn": "具有真正远见卓识的现代化企业必须坚决褪去虚伪做作的温情说教面纱，下定决心将弥足珍贵的组织内部互信，牢牢锚定在言行一致的透明度以及公平合理的薪酬物质保障之上。",
+          "template_slot": "Institutions must strip away superficial [虚假情怀] to anchor trust firmly in authentic transparency and equitable [利益分配]."
         }
       ],
       "year": 2015
@@ -6685,51 +7030,176 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Many people talked of the 288,000 new jobs the Lab... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：许多人将劳工部报告的 6 月份新增就业岗位 288,000 ...",
-          "第2段：然而，就业形势的另一个重要部分在很大程度上被忽视了。自愿从事...",
-          "第3段：在解释与奥巴马医改的联系之前，有必要先做一个重要的区分。许多...",
-          "第4段：6月份非自愿兼职有所增加，但总体方向是下降的。非自愿兼职就业...",
-          "第5段：我们知道自愿和非自愿兼职工作之间的区别，因为人们告诉我们。劳..."
-        ]
+        "genre": "宏观劳动经济学与医疗医保改革公共政策深度评述",
+        "discourse_model": "6月亮眼新增非农就业数据 ➔ 被忽略的非全日制就业核心维度 ➔ 严格界定'自愿'与'非自愿'兼职 ➔ 非自愿兼职总体下行趋势 ➔ 医保法案（奥巴马医改）关键联动 ➔ 破除'工位锁定'（Job Lock） ➔ 医保脱钩与劳动者自由自主解放",
+        "main_theme": "本文聚焦美国劳工部公布的6月份亮丽非农就业报告（单月新增28.8万岗位、失业率降至6.1%），敏锐捕捉并深入剖析了被主流舆论广泛忽视的核心结构性议题——非全日制就业（part-time employment）；严密界定了'非自愿兼职'（想干全职却迫于生计只能打零工）与'自愿兼职'（主动选择灵活工时以顾家或创业）的本质鸿沟；有力驳斥了保守派政客攻击《平价医疗法案》（Obamacare）'摧毁全职岗位、强行逼迫民众打零工'的歪曲谎言；以扎实数据证明奥巴马医改通过向逾1200万民众提供平价医保交易所与白卡兜底，彻底终结了美国人为了保住看病资格而不敢辞职换工作的'工位锁定'（job lock）百年顽疾，深刻赋能了劳动者的职业自由度与人生自主权。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】28.8万亮眼新增岗位背后的主流狂欢",
+            "core_point": "劳工部公布6月新增28.8万就业岗位且失业率降至6.1%，各大媒体陷入经济复苏的乐观狂欢。",
+            "cohesive_devices": "以主流热点数据（288,000 new jobs / unemployment 6.1%）引出考察切口。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】主流忽视的深层脉络：兼职岗位的结构性异动",
+            "core_point": "在狂欢之下，全景就业画卷中一个至关重要的组成部分却被广泛忽略：庞大且正在发生质变的兼职就业群体。",
+            "cohesive_devices": "转折引出核心考察对象（However, another important part largely overlooked / part-time workers）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】概念澄清：严格区分'自愿兼职'与'非自愿兼职'",
+            "core_point": "在将其与奥巴马医改挂钩前必须先明辨概念：非自愿兼职是因经济萧条而被迫妥协，自愿兼职则是出于个人生活规划的主动抉择。",
+            "cohesive_devices": "严谨概念界定（Before explaining connection, worth making an important distinction）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】经济实证打脸唱衰论：非自愿兼职总体处于回落通道",
+            "core_point": "尽管6月份非自愿兼职出现微弱单月跳升，但拉长周期看其总体处于平稳下行轨道，绝非经济基本面崩溃。",
+            "cohesive_devices": "用长周期趋势纠偏单月波动（increase in June, but general direction has been downward）。"
+          },
+          {
+            "pid": 4,
+            "role": "【承】调查方法学佐证：民调如实反映受试者真实意愿",
+            "core_point": "我们之所以能够精准区分自愿与非自愿，正是因为受访劳动者在劳工普查问卷中毫无保留地表达了自己的主观诉求。",
+            "cohesive_devices": "从统计学方法确立数据公信力（We know the difference because people tell surveyors）。"
+          },
+          {
+            "pid": 5,
+            "role": "【深】奥巴马医改的核心逻辑：让医保与工作解绑",
+            "core_point": "平价医疗法案的核心立意之一，就是打破过去'唯有全职工作才配享有医疗保险'的资本主义桎梏，允许民众自由选择工时。",
+            "cohesive_devices": "揭示立法初衷与社会福利机制（purpose was to allow people to get insurance outside of employment）。"
+          },
+          {
+            "pid": 6,
+            "role": "【合】终结'工位锁定'恶疾：赋能劳动者拥抱生活与创业自由",
+            "core_point": "超过1200万人通过医改获得独立医疗保障，终于不必为了医保在不喜欢的全职岗位上忍气吞声，有力促成了自愿兼职与人生自由的绽放。",
+            "cohesive_devices": "以医保制度红利赋能劳动者自主作结（allowed 12 million to get insurance / ending job lock）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 4 的七个段落，从 A-G 七个候选项中为指定五个段落选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "A"
+            },
+            {
+              "pid": 6,
+              "label": "Paragraph 7",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Survey Methodology Verifies Worker Autonomy and Subjective Choice",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第5段：详述劳工调查方法学，证实受访者主动表达意愿是精准区分兼职性质的坚实证据。"
+            },
+            {
+              "key": "B",
+              "heading": "Immediate Repeal of All Healthcare Entitlements by Executive Order",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向颠倒/无中生有】文章通篇为奥巴马医改赋能劳动者辩护，绝非取消医保福利。"
+            },
+            {
+              "key": "C",
+              "heading": "Headline Job Creation Figures Spark Mainstream Jubilation",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：单月新增28.8万非农就业岗位与失业率骤降激起主流舆论的热烈庆祝。"
+            },
+            {
+              "key": "D",
+              "heading": "Complete Collapse of American Manufacturing Employment",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：夸大曲解】文中未涉及美国制造业崩盘。"
+            },
+            {
+              "key": "E",
+              "heading": "The Overlooked Dimension: Structural Shifts in Part-Time Labor",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第2段：在宏大头条数据掩盖下，兼职劳动力维度的关键异动长期被主流分析所忽视。"
+            },
+            {
+              "key": "F",
+              "heading": "Untethering Healthcare from Employment Shatters the 'Job Lock' Cage",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第7段结语：奥巴马医改让1200万人享有独立医保，打破工位锁定枷锁，赋能自愿灵活择业。"
+            },
+            {
+              "key": "G",
+              "heading": "Drawing a Crucial Line Between Voluntary and Involuntary Part-Time",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第3段：严密厘清自愿兼职与非自愿打零工之间的本质法律与经济分野。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓亮眼头条数据（288,000 jobs headline）；段2抓被忽视的兼职板块（largely overlooked / part-time workers）；段3抓自愿与非自愿本质分野（distinction between voluntary and involuntary）；段5抓调查方法实证个体自主（methodology / people tell surveyors）；段7抓医保解绑打破工位锁定（insurance through ACA / ending job lock）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "talked",
-          "translation": "v. talk 的过去式和过去分词；表示“交谈、谈话”",
-          "application_sentence": "Research demonstrates that talked plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "look beyond the dazzling headline statistics to dissect the nuanced micro-dynamics of ...",
+          "syntactic_type": "深度分析型动宾短语搭配",
+          "translation": "跳出表面光鲜炫目的头条宏观数据，深入解构……极其微妙的微观动态",
+          "application_sentence": "Discerning economic analysts must look beyond the dazzling headline statistics to dissect the nuanced micro-dynamics of labor market participation.",
+          "sentence_cn": "具备洞察力的经济学家与政策研究者必须学会跳出浮于表面、光鲜炫目的头条宏观数字，深入细致地解构劳动力市场参与率背后极其微妙的微观结构性动态变化。",
+          "template_slot": "Researchers must look beyond the dazzling headline statistics to dissect the nuanced micro-dynamics of [某复杂领域]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "jobs",
-          "translation": "n. 工作（job 的复数形式）",
-          "application_sentence": "Research demonstrates that jobs plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "emanate not from economic despair, but from the deliberate untethering of ... from ...",
+          "syntactic_type": "not from...but from解放性因果句式",
+          "translation": "绝非源于经济绝望与被迫萧条，而恰恰源于将……与……进行深思熟虑的彻底松绑与解钩",
+          "application_sentence": "The rise in flexible working hours emanates not from economic despair, but from the deliberate untethering of essential healthcare from rigid corporate employment.",
+          "sentence_cn": "灵活弹性工作时长的自发普及激增，绝非源于经济萧条导致的走投无路与生存绝望，而恰恰源于国家福利立法将至关重要的人生看病医保与严苛僵化的传统企业雇佣关系的彻底松绑与制度性脱钩。",
+          "template_slot": "This progressive shift emanates not from economic despair, but from the deliberate untethering of [生命基本保障] from [严苛人身依附]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "However",
-          "translation": "adv. 然而；可是",
-          "application_sentence": "Research demonstrates that However plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "A critical distinction must be drawn between involuntary hardship and the empowered exercise of ...",
+          "syntactic_type": "被动语态概念界定论述句",
+          "translation": "在迫于无奈的非自愿痛苦挣扎与充满自主权的行使……之间，必须划定极其鲜明分明的原则界限",
+          "application_sentence": "A critical distinction must be drawn between involuntary employment hardship and the empowered exercise of personal autonomy in balancing family life.",
+          "sentence_cn": "在迫于生计走投无路的非自愿失业阵痛与充分行使个体自主权以从容平衡家庭生活之间，必须划定一道极其严密且泾渭分明的原则界限。",
+          "template_slot": "A critical distinction must be drawn between involuntary [生存困境] and the empowered exercise of [自由自主选择权]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "important",
-          "translation": "adj. 重要的；重大的",
-          "application_sentence": "Research demonstrates that important plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Were public policy to dismantle the archaic shackles of 'job lock', millions of capable citizens would be liberated to ...",
+          "syntactic_type": "虚拟语气条件句倒装结构",
+          "translation": "倘若公共政策能够彻底砸碎'工位锁定'的陈旧枷锁，数以百万计的健全公民就将彻底获得解放，从而能够自由地去……",
+          "application_sentence": "Were public policy to dismantle the archaic shackles of 'job lock', millions of capable citizens would be liberated to pursue entrepreneurial ventures and caregiving.",
+          "sentence_cn": "倘若国家的公共保障政策能够果断砸碎'唯有固定死守工位才能换取基本医保'的陈腐制度枷锁，数以千万计具有拼搏才干的公民就将彻底获得解放，从而能够自由无拘地投身自主创业与照料家庭。",
+          "template_slot": "Were the state to dismantle the archaic shackles of [制度桎梏], millions of citizens would be liberated to [自由施展才华/追求幸福]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "explaining",
-          "translation": "v. 解释；说明",
-          "application_sentence": "Research demonstrates that explaining plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "connection",
-          "translation": "n. 关系；联系",
-          "application_sentence": "Research demonstrates that connection plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "decouple basic human welfare from traditional employment models to unleash individual dynamism and social resilience",
+          "syntactic_type": "制度松绑前瞻动宾倡议搭配",
+          "translation": "将国民基础民生福祉与陈旧的传统雇佣模式全面解耦脱钩，以此释放蓬勃的个体活力与强大的社会综合韧性",
+          "application_sentence": "Progressive welfare architectures must decouple basic healthcare and pensions from traditional full-time employment to unleash creative dynamism across society.",
+          "sentence_cn": "具有前瞻性的现代社会保障体系必须坚决推动基础医疗与养老等兜底福祉与过时的传统全职雇佣模式全面解耦脱钩，从而在全社会范围内彻底释放生机勃勃的个体创造活力与强大韧性。",
+          "template_slot": "Modern legislation must decouple basic welfare protections from [僵化旧模式] to unleash individual dynamism and social resilience."
         }
       ],
       "year": 2015

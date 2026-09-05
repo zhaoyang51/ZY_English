@@ -1956,50 +1956,147 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Every Saturday morning, at 9 am, more than 50,000 ... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：每周六早上 9 点，超过 50,000 名跑步者出发，围绕当...",
-          "第2段：帕克伦在伦敦奥运会“遗产”失败的地方取得了成功。十年前的周一...",
-          "第3段：Parkrun 不是一场比赛，而是一场计时赛：你唯一的竞争对...",
-          "第4段：确实，国家参与社区体育协会这样一个“草根”概念的规划，确实有..."
-        ]
+        "genre": "基层体育社会学与全民健身公共治理思辨评述",
+        "discourse_model": "周六五万跑友社区起跑 ➔ 胜过伦敦奥运百亿'遗产'神话 ➔ 公益、包容、非功利的社群精神 ➔ 警惕官僚权力侵蚀微观自治 ➔ 守护自发草根体育活力的至高法则",
+        "main_theme": "本文以英国风靡全国的每周六上午社区5公里'公园跑'（Parkrun）运动为切入点，深刻探讨了全民健身体育公共政策的底层运行逻辑；通过将零预算、全依靠志愿者驱动的公园跑，与耗资近百亿英镑却收效甚微的2012年伦敦奥运会'大众体育遗产'（Olympic legacy）形成尖锐对照，揭示出自下而上的自发性与包容性是撬动全社会持久运动热情的真正秘诀；系统阐述了公园跑'非残酷淘汰竞赛、纯粹挑战自我时钟'（not a race, but a time trial）的平等利他基因；最终以振聋发聩的自由主义哲学发出严正警示：官僚行政机器插手规制微观民间自发体育不仅荒诞可笑，更是对宝贵社会自治机体与公民活力的扼杀。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】周六早晨遍布全英的五万跑者壮观图景",
+            "core_point": "每周六清晨9点，全英各处街心公园有超过5万名普通民众迎风开跑，公园跑已成为全民自发生活风尚。",
+            "cohesive_devices": "以充满生机与仪式感的日常晨景起笔（Every Saturday morning at 9 am, 50,000 runners set off）。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】草根奇迹对照：伦敦奥运百亿'遗产'的尴尬落空",
+            "core_point": "耗资百亿公帑的伦敦奥运宣称要给全英留下大众健身遗产，最终全面落空；而无任何官方拨款的公园跑却创造了奇迹。",
+            "cohesive_devices": "采用刺目的制度绩效对比（succeeding where London's Olympic legacy is failing）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】解构成功密码：非功利计时、海纳百川与自发奉献",
+            "core_point": "公园跑绝非你死我活的锦标淘汰赛，它的唯一对手是自己的秒表；零费用门槛、向所有人张开怀抱构筑了其纯粹的社群精神。",
+            "cohesive_devices": "阐释核心文化基因（not a race but a time trial / ethos welcomes all / volunteer-powered）。"
+          },
+          {
+            "pid": 3,
+            "role": "【合】警惕公权力越界：莫让官僚之手扼杀自发草根生机",
+            "core_point": "政府试图将这一民办民间运动纳入官方规划或征收公园维护费的行径荒谬透顶；呵护社会活力的最高法则乃是公权力克制退后。",
+            "cohesive_devices": "以反讽批判与政治哲学警告作结（absurd for the state getting involved / preserve spontaneous vitality）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 1 的四个段落，从 A-F 六个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "An Egalitarian Ethos Welcoming Everyone to Race Against Time",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第3段：公园跑非残酷商业竞赛，以挑战自身秒表为核心，倡导平等包容所有人的体育真谛。"
+            },
+            {
+              "key": "B",
+              "heading": "Compulsory Olympic Medal Targets Imposed on Amateur Joggers",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向荒谬/无中生有】文中未曾提及强制大众跑者完成奥运夺金指标。"
+            },
+            {
+              "key": "C",
+              "heading": "Tens of Thousands Gather Spontaneously for Weekend 5K Runs",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：每周六清晨全英数万普通民众自发聚集各大公园开展5公里晨跑的壮观景象。"
+            },
+            {
+              "key": "D",
+              "heading": "Commercial Marathon Fees Increased by Three Hundred Percent",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：概念偷换】公园跑纯属免费公益，完全不收商业报名费。"
+            },
+            {
+              "key": "E",
+              "heading": "Grassroots Triumphs Expose the Failure of the Olympic Legacy",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段：草根公园跑的巨大成功，无情反衬出伦敦奥运巨资标榜的公众健身遗产的惨淡流产。"
+            },
+            {
+              "key": "F",
+              "heading": "State Bureaucracy Threatens to Smother Spontaneous Civic Vitality",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第4段结语：严正警告政府官僚强行介入干预微观民间跑步活动将扼杀纯粹的公民自治生机。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓周六五万人自发开跑（Saturday 9 am / 50,000 runners）；段2抓草根胜过奥运巨资神话（succeeding where Olympic legacy failing）；段3抓平等包容与挑战时间（not a race / time trial / welcomes all）；段4抓警惕政府官僚伸手（absurd in state getting involved）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "morning",
-          "translation": "n. 早晨；上午",
-          "application_sentence": "Research demonstrates that morning plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "flourish spontaneously from the grassroots without relying on lavish public subsidies",
+          "syntactic_type": "自发活力动宾短语搭配",
+          "translation": "在未依赖巨额官方财政补贴的情况下，由民间基层自发繁荣壮大",
+          "application_sentence": "As recent civic engagement metrics reveal, community health initiatives flourish spontaneously from the grassroots without relying on lavish public subsidies.",
+          "sentence_cn": "正如近期公众参与度统计指标所清晰反映的，众多基层社区健康与互助活动，在丝毫没有依赖巨额官方财政公帑补贴的情况下，展现出了自发蓬勃繁荣的惊人生机。",
+          "template_slot": "Recent community initiatives demonstrate that [某类公益运动/文化活动] can flourish spontaneously from the grassroots without lavish subsidies."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "runners",
-          "translation": "n. （runner 的复数形式）奔跑者；赛跑运动员",
-          "application_sentence": "Research demonstrates that runners plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "succeed because it democratizes participation through absolute inclusivity, zero cost, and non-judgmental community spirit",
+          "syntactic_type": "包容性因果解释短语",
+          "translation": "之所以大获成功，正是因为它通过零门槛成本、绝对包容与毫无偏见歧视的社群精神实现了全民普惠",
+          "application_sentence": "The movement succeeds because it democratizes physical wellness through absolute inclusivity, zero commercial cost, and an egalitarian community spirit.",
+          "sentence_cn": "该项民间运动之所以能够征服千家万户并大获成功，正是因为它通过毫无门槛的零费用成本、海纳百川的绝对包容性以及人人平等的社群互助精神，彻底实现了国民健康的真正普惠。",
+          "template_slot": "[某项目/机制] succeeds primarily because it democratizes participation through absolute inclusivity, zero barriers, and an egalitarian spirit."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Parkrun",
-          "translation": "n. 公园跑步活动",
-          "application_sentence": "Research demonstrates that Parkrun plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "While grand top-down governmental spectacles frequently flounder, organic bottom-up civic alliances ...",
+          "syntactic_type": "顶层与底层鲜明对照句",
+          "translation": "尽管自上而下的宏大政府形象工程往往频频搁浅折戟，但根植民间的自发基层联盟却……",
+          "application_sentence": "While grand top-down governmental spectacles frequently flounder in fulfilling long-term promises, organic bottom-up civic alliances quietly transform everyday society.",
+          "sentence_cn": "尽管那些耗资不菲、自上而下由政府主导的大型盛会工程往往在兑现长远民生承诺时频频折戟沉沙，但那些深深扎根于民间的自发草根联盟，却在春风化雨中悄然重塑着整个社会的日常肌理。",
+          "template_slot": "While grand top-down spectacles frequently flounder, organic bottom-up initiatives quietly [创造持久深远奇迹]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "succeeding",
-          "translation": "adj. 随后的；接着的",
-          "application_sentence": "Research demonstrates that succeeding plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "There is something inherently counterproductive in bureaucratic authorities meddling in the organic fabric of ...",
+          "syntactic_type": "There is something inherently+形容词主系表批判句",
+          "translation": "官僚权力机构对……的内生民间肌理横加干预与指手画脚，这本身就蕴含着某种南辕北辙的致命反作用",
+          "application_sentence": "There is something inherently counterproductive in bureaucratic authorities meddling in the vibrant, self-regulating organic fabric of community volunteerism.",
+          "sentence_cn": "官僚管理部门企图对基层社区志愿者自发自律、生机勃勃的内生肌理横加干预与行政管控，这本身就带有一种南辕北辙、扼杀活力的天然反作用。",
+          "template_slot": "There is something inherently counterproductive in bureaucratic authorities meddling in the organic fabric of [民间自治/自发生态]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Parkrun",
-          "translation": "n. 公园跑步活动",
-          "application_sentence": "Research demonstrates that Parkrun plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "race",
-          "translation": "n. 赛跑；速度竞赛",
-          "application_sentence": "Research demonstrates that race plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "resist the impulse to over-regulate and instead provide supportive civic spaces where spontaneous initiatives can thrive undisturbed",
+          "syntactic_type": "公权力克制赋能动宾搭配",
+          "translation": "坚决克制过度规制插手的冲动，转而提供包容支持的公共空间，让自发民间倡议不受打扰地茁壮成长",
+          "application_sentence": "Enlightened public administrators must resist the impulse to over-regulate and instead provide supportive civic commons where spontaneous grassroots initiatives can thrive undisturbed.",
+          "sentence_cn": "明智清醒的现代公共管理者必须坚决克制那种凡事皆欲发文立规、过度监管的官僚冲动，转而专注于营建友好包容的公共空间，悉心呵护那些来自民间的自发善意倡议不受打扰地茁壮生长。",
+          "template_slot": "Authorities must resist the impulse to over-regulate and instead provide supportive spaces where [自发创新/社会活力] can thrive undisturbed."
         }
       ],
       "year": 2017
@@ -3556,50 +3653,147 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 With so much focus on children’s use of screens, i... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：由于如此关注孩子对屏幕的使用，父母很容易忘记自己的屏幕使用情...",
-          "第2段：拉德斯基通过让母子进行食物测试练习，研究了进餐时手机和平板电...",
-          "第3段：婴儿天生会看着父母的脸来试图了解他们的世界，如果父母的脸一片...",
-          "第4段：另一方面，特罗尼克本人担心，对孩子使用屏幕的担忧源于一种“压..."
-        ]
+        "genre": "发展心理学与数字育儿家庭关系微观观察",
+        "discourse_model": "沉迷屏幕指责的盲区 ➔ 父母自身餐桌'低头族'现象 ➔ 珍妮·拉德斯基餐桌亲子追踪 ➔ 婴儿凝视与特罗尼克'面具脸'经典实验 ➔ 辨证反思：拒绝道德恐慌 ➔ 微小错位是抗挫常态 ➔ 警惕长期情感失联与冷漠缺席",
+        "main_theme": "本文敏锐捕捉到现代社会在热议'未成年人屏幕沉迷'时普遍遗忘的巨大盲区——'低头族父母'（distracted parents）在餐桌与日常照料中对智能手机的病态依恋；详述了儿科心理学家珍妮·拉德斯基（Jenny Radesky）对快餐店母子进餐交互的严密观察，揭露父母沉迷屏幕直接导致亲子言语交流与眼神互动的灾难性锐减；系统引述波士顿大学特罗尼克教授（Edward Tronick）享誉全球的'冷酷静止脸实验'（still face experiment），揭示婴儿天生依赖父母表情反馈确认世界安全、长期无回应将触发极端应激痛苦；同时辩证反思了过度育儿焦虑，指出偶尔走神是培养幼儿抗挫适应力的正常微摩擦，但必须坚决守住长期情感在场（emotional availability）的核心防线。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】聚光灯背后的盲区：成年人自身的屏幕沉沦与孩子被忽视",
+            "core_point": "全社会聚精会神声讨孩子玩平板电脑，却轻易遗忘了父母自身早已沦为手机奴隶并对眼前的孩子视而不见。",
+            "cohesive_devices": "以反讽盲区切入（With so much focus on children, easy for parents to forget their own screen use）。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】拉德斯基实地考察：餐桌低头族导致亲子互动全面降温",
+            "core_point": "儿科专家对母子进餐场景的细致追踪表明，家长一旦频繁低头刷手机，亲子间的温情对话、目光接触与情感回应便急剧骤降。",
+            "cohesive_devices": "引入临床行为科学实证（Radesky studied mobile devices at mealtimes / less interaction）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】特罗尼克'静止脸实验'：父母冰冷面孔引发婴儿急性崩溃",
+            "core_point": "婴儿的大脑天生需要通过观察父母的面部微表情构建对世界的安全感，当面对一张宛若面具般僵死无表情的脸庞时，婴儿会迅速陷入恐慌崩溃。",
+            "cohesive_devices": "引述殿堂级心理学实验（Infants wired to look at faces / still face experiment triggers distress）。"
+          },
+          {
+            "pid": 3,
+            "role": "【合】告别绝对育儿焦虑：在微小断联中培养韧性，坚守高质量陪伴",
+            "core_point": "特罗尼克学者客观澄清：无须陷入全天候盯防的道德恐慌，适度的注意断联能锻炼孩子受挫韧性，但父母必须守住长期情感在场的生命底线。",
+            "cohesive_devices": "辩证权衡理性作结（worries are overblown / micro-ruptures normal, yet chronic absence harmful）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 2 的四个段落，从 A-F 六个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Infant Distress Triggered by Unresponsive 'Still Faces'",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第3段特罗尼克经典实验：婴儿依赖面部表情确认安全，面对毫无回应的静止冷漠脸庞会陷入急性精神崩溃痛苦。"
+            },
+            {
+              "key": "B",
+              "heading": "Immediate Confiscation of All Smartphones from Mothers by Law",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向极端/无中生有】文中未曾主张立法没收所有母亲的智能手机。"
+            },
+            {
+              "key": "C",
+              "heading": "The Blind Spot: Distracted Parents Transfixed by Their Own Devices",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：全社会只顾担忧儿童屏幕沉迷，却完全忽视了父母自身沉溺手机屏幕的巨大盲区。"
+            },
+            {
+              "key": "D",
+              "heading": "Children Completely Stop Speaking Due to Tablet Interfaces",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：夸大绝对】文中讨论亲子互动减少，绝非儿童完全丧失语言机能。"
+            },
+            {
+              "key": "E",
+              "heading": "Radesky's Mealtime Field Trials Track Diminished Interaction",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段：拉德斯基通过餐桌现场观察实验，量化记录了父母手机沉迷导致的亲子双向沟通骤降。"
+            },
+            {
+              "key": "F",
+              "heading": "Rejecting Hysteria: Balancing Normal Micro-Lapses with Genuine Presence",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第4段特罗尼克观点：拒绝被泛滥的道德恐慌绑架，在正常的注意力微小断联与长期真实的情感在场间保持从容平衡。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓父母自身屏幕沉迷盲区（focus on kids, parents forget their own devices）；段2抓拉德斯基餐桌实验亲子互动减少（Radesky studied mealtimes / less interaction）；段3抓婴儿凝视与面无表情实验崩溃（wired to look at faces / still face causes distress）；段4抓拒绝过度焦虑与平衡陪伴（worries overblown / micro-ruptures normal）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "focus",
-          "translation": "n. 重点；中心点",
-          "application_sentence": "Research demonstrates that focus plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "overlook a critical parental blind spot amid the moral panic surrounding ...",
+          "syntactic_type": "现象反思动宾短语搭配",
+          "translation": "在围绕……沸沸扬扬的普遍道德恐慌中，却轻易遗漏了一个至关重要的家长盲区",
+          "application_sentence": "As developmental psychology observations reveal, public discourse tends to overlook a critical parental blind spot amid the moral panic surrounding adolescent screen use.",
+          "sentence_cn": "正如儿童发展心理学微观观察所深刻揭示的，当今公共舆论在围绕青少年沉迷屏幕的喧嚣道德恐慌中，往往习惯性地忽视了一个更为严峻的成年父母自身的致命盲区。",
+          "template_slot": "Public discourse tends to overlook a critical blind spot amid the widespread anxiety surrounding [某种热点现象]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "children",
-          "translation": "n. child 的复数形式；孩子们",
-          "application_sentence": "Research demonstrates that children plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "suffer from chronic emotional unavailability when caregivers become perpetually transfixed by ...",
+          "syntactic_type": "被动语态心理学因果结构",
+          "translation": "当监护抚养人整日陷于……的深深迷恋中不可自拔时，使孩子遭受长期的情感冷漠缺位与失联",
+          "application_sentence": "Young children suffer from chronic emotional unavailability when primary caregivers become perpetually transfixed by digital notifications.",
+          "sentence_cn": "当主要抚养监护人整日浑然忘我地深陷于智能手机无休止的数字通知与弹窗迷恋中时，处于心智萌芽期的年幼儿童便在不知不觉中遭受到了长期致命的情感冷漠缺位与失联。",
+          "template_slot": "Children suffer from chronic emotional unavailability when caregivers become perpetually transfixed by [虚拟屏幕/外部功利诱惑]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Radesky",
-          "translation": "n. （美、阿根、巴西）雷德斯基（人名）",
-          "application_sentence": "Research demonstrates that Radesky plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "This is not to mandate flawless, round-the-clock perfection; rather, it highlights the danger of ...",
+          "syntactic_type": "not to mandate...rather highlights澄清警示句",
+          "translation": "这绝非要求父母做到毫无瑕疵、全天候二十四小时的完美无缺；它旨在尖锐警示……的潜在灾难后果",
+          "application_sentence": "This is not to mandate flawless, round-the-clock parental vigilance; rather, it highlights the insidious danger of chronic psychological detachment.",
+          "sentence_cn": "这绝非苛求现代父母做到毫无丝毫瑕疵、全天候二十四小时紧绷盯防的完美主义；它旨在极其清醒且尖锐地警示长期处于情感抽离与精神缺位状态的巨大潜在灾难。",
+          "template_slot": "This is not to mandate flawless perfection; rather, it highlights the acute danger of [长期冷漠/放任自流]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "studied",
-          "translation": "v. study 的过去式和过去分词；学习",
-          "application_sentence": "Research demonstrates that studied plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Hardwired though human infants are to seek emotional reassurance through facial responsiveness, ...",
+          "syntactic_type": "though引导的形容词让步倒装句式",
+          "translation": "尽管人类幼童生来就天生习惯于通过大人的面部生动表情反馈去苦苦寻觅情感安全感，……",
+          "application_sentence": "Hardwired though human infants are to seek reassurance through facial responsiveness, their bids for connection are increasingly met with the frozen gaze of smartphone screens.",
+          "sentence_cn": "尽管人类幼童生来就天生本能地渴望通过父母生动温润的面部表情反馈去确证自身安全与爱意，但在当代现实中，他们伸出的情感触角却日益残酷地撞向父母投向手机屏幕的冰冷僵死视线。",
+          "template_slot": "Hardwired though [主体] is to seek [本能需求], these bids are increasingly met with [冷酷现实]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Infants",
-          "translation": "n. 婴儿；婴幼儿（infant 的复数）",
-          "application_sentence": "Research demonstrates that Infants plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "wired",
-          "translation": "adj. 有线的；联网的",
-          "application_sentence": "Research demonstrates that wired plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "reclaim undistracted domestic rituals and honor the sacredness of undivided emotional presence",
+          "syntactic_type": "家庭温情回归动宾搭配",
+          "translation": "全力收复免受数字干扰的神圣家庭生活仪式，郑重捍卫纯粹无杂质的情感在场与全神贯注的陪伴",
+          "application_sentence": "Modern families must courageously reclaim undistracted dinner rituals and honor the sacredness of undivided emotional presence across generations.",
+          "sentence_cn": "身处数字化泛滥时代的现代家庭必须鼓起勇气，全力收复不受手机弹窗侵扰的纯净餐桌交流仪式，由衷敬畏并共同捍卫那种全神贯注、全身心融入的高质量温情陪伴。",
+          "template_slot": "Families must courageously reclaim undistracted rituals and honor the sacredness of undivided [真情实感/深度陪伴]."
         }
       ],
       "year": 2017
@@ -5234,49 +5428,147 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Today, widespread social pressure to immediately g... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：如今，立即上大学的普遍社会压力，加上快速变化的世界中越来越高...",
-          "第2段：美国和澳大利亚的研究表明，参加间隔年的学生通常比不参加间隔年...",
-          "第3段：如果你不相信休息一年来探索兴趣的内在价值，那么请考虑一下它对..."
-        ]
+        "genre": "青年成长社会学与高等教育衔接路径思辨",
+        "discourse_model": "立刻上大学的社会高压与内卷 ➔ 间隔年（Gap Year）遭保守偏见质疑 ➔ 破除'打乱学习节奏'的伪命题 ➔ 美澳两国纵向追踪硬核实证（GPA更高、心智更成熟） ➔ 规避昂贵试错与中途退学的经济账 ➔ 重新定义青年成长的时间哲学",
+        "main_theme": "本文针对当今社会普遍弥漫的催逼高中毕业生'一刻不停、无缝衔接考入大学'的激进内卷高压，对饱受传统家长怀疑与误解的'间隔年'（Gap Year，即高中毕业与大学入学之间暂缓一年游历或实习）展开了全面深刻的理性辩护；有力驳斥了'休学一年将彻底涣散学习意志与学业惯性'的陈旧无端偏见；系统引述美澳两国权威教育统计实证，无可辩驳地证实休过间隔年的学子在大学阶段普遍取得了显著更高的GPA平均成绩、更为清晰的专业职业归属感以及卓越的逆境抗压韧性；从经济学角度揭示出，暂缓一年进行探索能有效规避大学期间因专业盲选而导致的高达数万美元的频繁换专业与转学辍学经济损失；倡导以从容从容的生命长周期视角重估青年的成长时钟。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】高考后立刻读大学的逼仄高压与对间隔年的敌意",
+            "core_point": "社会普遍施加巨大压力迫使青年高中毕业立即冲进大学，在昂贵学费裹挟下，暂停一年的'间隔年'被视作异端与冒险。",
+            "cohesive_devices": "以社会高压（widespread pressure to immediately go to college）切入矛盾冲突。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】驳斥保守偏见：'打乱学习节奏'绝非扼杀间隔年的合理论据",
+            "core_point": "保守人士常以'中断惯性、难以收心'为由棒杀间隔年，然而个别风险绝不能成为剥夺广大年轻人探索世界的合理借口。",
+            "cohesive_devices": "以驳论转折破局（not a good enough reason to condemn gap years）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】美澳硬核实证打脸唱衰论：学业GPA与心智成熟度全面领跑",
+            "core_point": "横跨美国与澳大利亚的严谨跨国纵向追踪证实：休过间隔年的学子大学成绩普遍大幅领先，且表现出极高的自律性与抗挫力。",
+            "cohesive_devices": "引用详实学术实证（Studies from US and Australia show students earn higher grades）。"
+          },
+          {
+            "pid": 3,
+            "role": "【合】算清经济与人生大账：规避转学换专业的昂贵沉没成本",
+            "core_point": "即便不谈情怀，从经济账上看，暂缓一年找准志向能够极大规避大学中途转系、退学带来的数万美元惨重沉没成本，善莫大焉。",
+            "cohesive_devices": "由情怀升华至硬核经济学效益（consider economic dividends / avoid costly major switching）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 3 的四个段落，从 A-F 六个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "F"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "D"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Empirical Proof: Superior Academic Performance and Maturity",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第3段：美澳两国跨国实证证实，休过间隔年的学子大学GPA表现更佳，心智自律更成熟。"
+            },
+            {
+              "key": "B",
+              "heading": "Compulsory Military Conscription Mandated for High School Seniors",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向荒谬/无中生有】文中未曾提及强制推行兵役征兵制度。"
+            },
+            {
+              "key": "C",
+              "heading": "The Rush to Matriculate and Widespread Suspicion of Gap Years",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：全社会弥漫着迫不及待立即踏入大学校门的催逼焦虑，对间隔年充满保守怀疑。"
+            },
+            {
+              "key": "D",
+              "heading": "Tangible Economic Dividends: Preempting Costly Major Changes",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第4段总结：算清经济大账，指出间隔年能从源头规避大学因迷茫频繁换专业、转学带来的惨重学费损失。"
+            },
+            {
+              "key": "E",
+              "heading": "Complete Elimination of All Four-Year College Degrees",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有/极端化】文章支持探索后再读本科，绝非取消大学学位。"
+            },
+            {
+              "key": "F",
+              "heading": "Dismantling the Flawed Premise of 'Lost Momentum' Dogma",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第2段：有力驳斥所谓'休学一年必将丧失学习惯性'这一陈旧教条的荒谬软肋。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓立刻上大学的社会逼迫（pressure to go to college / suspicion of gap years）；段2抓驳斥丧失惯性借口（not good enough reason to condemn）；段3抓美澳实证成绩更好（studies from US/Australia show higher grades）；段4抓硬核经济效益防转学浪费（economic dividends / avoid costly major switching）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "Today",
-          "translation": "adv. 今天；今日",
-          "application_sentence": "Research demonstrates that Today plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "succumb to intense peer anxiety to plunge headlong into higher education",
+          "syntactic_type": "内卷盲从动宾搭配",
+          "translation": "屈服于同侪间的激烈攀比焦虑，不顾一切盲目一头扎入大学象牙塔",
+          "application_sentence": "As college admission surveys illustrate, high school seniors frequently succumb to intense peer anxiety to plunge headlong into higher education without clear goals.",
+          "sentence_cn": "正如高校录取招生调研数据所清晰展示的，无数高中应届毕业生往往严重屈服于同伴之间狂热的攀比内卷焦虑，在尚未厘清内心真正志向之前便盲目不顾一切地一头扎进大学校门。",
+          "template_slot": "Young people frequently succumb to intense peer anxiety to plunge headlong into [某种盲目竞争] without clear orientation."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "widespread",
-          "translation": "adj. 普遍的；广泛的",
-          "application_sentence": "Research demonstrates that widespread plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "enable youths to step off the hyper-competitive academic conveyor belt to cultivate emotional resilience",
+          "syntactic_type": "成长机制因果动宾短语",
+          "translation": "赋能青年一代暂时跳下极度内卷的学业流水线传送带，在真实世界中沉潜培育坚不可摧的情感韧性",
+          "application_sentence": "Taking a gap year empowers young adults to step off the hyper-competitive academic conveyor belt to cultivate emotional resilience and authentic self-knowledge.",
+          "sentence_cn": "勇敢选择度过一个探索性的间隔年，能够有力赋能青年学子暂时跳下那台高速运转、极度内卷的传统学业传送带，从而在广阔的真实世界风雨中切实培育起强大的逆境抗挫力与清醒的自我认知。",
+          "template_slot": "Taking a deliberate pause empowers individuals to step off the hyper-competitive conveyor belt to cultivate [独立自省能力/长远韧性]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Studies",
-          "translation": "n. 研究；学习",
-          "application_sentence": "Research demonstrates that Studies plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "Even if one remains entirely unpersuaded by abstract ideals of personal growth, the hard-nosed economic calculus alone validates ...",
+          "syntactic_type": "让步转折经济实证强辩句",
+          "translation": "即便一个人对个人心智成长等抽象情怀理想完全不以为然，单凭冰冷清醒的经济账本身就足以无可辩驳地印证……的巨大价值",
+          "application_sentence": "Even if one remains unpersuaded by abstract ideals of personal discovery, the hard-nosed economic calculus alone fully validates taking a gap year.",
+          "sentence_cn": "即便某些实用主义者对个人心灵发现与成熟历练等抽象崇高话语全然不屑一顾，单凭算清避免昂贵试错与中途辍学这笔冷冰冰的硬核经济大账本身，就足以无可辩驳地印证度过间隔年的非凡价值。",
+          "template_slot": "Even if one remains unpersuaded by abstract moral ideals, the hard-nosed economic calculus alone fully validates [某项前瞻举措]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "United",
-          "translation": "adj. 团结的；统一的",
-          "application_sentence": "Research demonstrates that United plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Far from squandering valuable momentum, a well-structured pause serves as a springboard that enables students to ...",
+          "syntactic_type": "否定对比比喻句型",
+          "translation": "有规划的适度暂停非但不是肆意挥霍宝贵的人生惯性，它恰恰充当着能够让学子……的强劲跃升跳板",
+          "application_sentence": "Far from squandering intellectual momentum, a well-structured gap year serves as an invaluable springboard that enables undergraduates to excel academically.",
+          "sentence_cn": "一次经过深思熟虑、规划井然的间隔年休整，非但绝不是在肆意挥霍消磨宝贵的求知学习惯性，恰恰相反，它充当着一块不可多得的蓄力跳板，能够让青年人在踏入大学后以更为从容饱满的姿态领跑群雄。",
+          "template_slot": "Far from squandering momentum, a deliberate pause serves as a vital springboard that enables [主体] to [实现厚积薄发]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "convinced",
-          "translation": "adj. 确信的；信服的",
-          "application_sentence": "Research demonstrates that convinced plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "inherent",
-          "translation": "adj. 内在的；固有的",
-          "application_sentence": "Research demonstrates that inherent plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "recalibrate educational timelines to embrace experiential maturity as an indispensable foundation for lifelong success",
+          "syntactic_type": "教育价值观重塑动宾搭配",
+          "translation": "全面重新校准固化的教育成才时钟，将躬身实践历练的心智成熟奉为赢得一生持久成功的不可或缺之基石",
+          "application_sentence": "Enlightened parents and institutions must recalibrate educational timelines to embrace experiential maturity as an indispensable prerequisite for enduring success.",
+          "sentence_cn": "富有真正教育远见的家长与全社会教育机构必须积极重新校准那套刻板僵化的成才时间表，由衷地将亲身躬行实践所淬炼出的心智成熟与社会阅历，确立为筑牢一生长远成功不可动摇的黄金基石。",
+          "template_slot": "Society must recalibrate timelines to embrace [实践历练/心智成熟] as an indispensable foundation for long-term success."
         }
       ],
       "year": 2017
@@ -7125,51 +7417,188 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "本文围绕 Though often viewed as a problem for western state... 展开深入客观的逻辑论述。",
-        "logic_chain": [
-          "第1段：火灾生态和管理专家马克斯·莫里茨教授表示，尽管野火经常被视为...",
-          "第2段：2015 年，美国林务局首次将其 55 亿美元年度预算的一半...",
-          "第3段：另一个全国性的担忧是其他机构的公共资金是否用于火灾多发地区的...",
-          "第4段：“从整个国家公共支出的角度来看，这已经是一个巨大的问题，”他...",
-          "第5段：研究人员表示，这种观点需要当今美国社会对火灾的看法发生相应的..."
-        ]
+        "genre": "林业生态学与国土灾害综合治理战略评述",
+        "discourse_model": "山火跨越西部成全美危机 ➔ 林务局预算半数被灭火吞噬（挤压预防资金） ➔ 救灾资金持续黑洞化 ➔ 马克斯·莫里茨发人深省反思 ➔ 超越单纯气候决定论 ➔ 人类向林地界面肆意侵入的恶果 ➔ 告别绝对扑灭迷思 ➔ 构筑人火共生的生态韧性机制",
+        "main_theme": "本文针对美国频发失控的灾难性森林山火展开了深刻的反思与全方位的国土空间治理重构；指出山火已彻底打破'仅局限于干旱西部'的传统地域认知，蔓延演变为吞噬全国公共财政的超级灾难；尖锐揭露了美国林务局超过50%的年度预算被直接砸入扑火灭火无底洞、从而造成预防性营林与生态恢复资金被严重挤占窒息的恶性循环；系统引述林业生态权威马克斯·莫里茨（Max Moritz）的洞见，有力驳斥了将一切责任盲目甩锅给气候变暖的片面决定论，直指现代城镇住宅向高火险野生林地交错带（Wildland-Urban Interface）野蛮扩张的城市规划原罪；最终提出革命性治理哲学：彻底破除'火灾必须100%全盘强力扑灭'的人定胜天迷信，迈向顺应自然火生态循环、依托严密建筑防火分区的人与山火韧性共存之道。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】打破地域认知局限：森林山火已演化为全国性宏观危机",
+            "core_point": "山火曾被视为西部各州的局部麻烦，如今其发生频次与破坏烈度急剧飙升，已赫然成为全美性公共危机。",
+            "cohesive_devices": "以认知反差（Though viewed as a problem for western states / now a national crisis）确立基调。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】财政黑洞化反噬：林务局半数以上预算被救火吞噬",
+            "core_point": "2015年美国林务局历史上首次将55亿美元年度预算的一半以上尽数耗费于灭火抢险，严重挤占森林常态维护与游憩资金。",
+            "cohesive_devices": "采用刺目的财政量化事实（spent more than half of its $5.5 billion budget fighting fires）。"
+          },
+          {
+            "pid": 2,
+            "role": "【承】跨部门公帑连带遭殃：违建房屋救援造成财政恶性循环",
+            "core_point": "全国担忧不仅于此，其他联邦机构的救灾应急基金亦被迫源源不断流入易燃危险区，为在林区盲目盖房的富人兜底买单。",
+            "cohesive_devices": "揭示跨部门公款被挪用救灾的体制弊端（funds going into constructing homes in fire-prone zones）。"
+          },
+          {
+            "pid": 3,
+            "role": "【承】财政学者严厉警告：救灾支出规模已逼近国家承受极限",
+            "core_point": "从宏观公共财政支出视角审视，无底洞般的灭火支出已经成长为一个令全美纳税人不堪重负的庞大财务黑洞。",
+            "cohesive_devices": "引用专家判断（huge problem from a public expenditure perspective for the whole country）。"
+          },
+          {
+            "pid": 4,
+            "role": "【转】治本之策必须转向：重塑人类对自然火行为的根本认知",
+            "core_point": "治理山火危机必须首先在思想观念层面破冰：全社会必须颠覆对火的敌对态度，告别一味追求全歼扑灭的陈腐教条。",
+            "cohesive_devices": "提出范式转型要求（require a corresponding shift in the way society views fire）。"
+          },
+          {
+            "pid": 5,
+            "role": "【承】告别盲人摸象：建立囊括城市规划与建筑标准的包容对话",
+            "core_point": "山火治理不能仅是护林员的独角戏，必须将讨论延伸至土地规划、建筑阻燃标准以及地方区划等多学科跨界共治。",
+            "cohesive_devices": "拓宽讨论维度（conversations need to be more inclusive）。"
+          },
+          {
+            "pid": 6,
+            "role": "【转】莫里茨学者警示：切莫让'气候变暖'遮蔽人类自身决策之失",
+            "core_point": "气候干旱固然是关键推手，但生态学家莫里茨尖锐提醒，绝不能以此掩盖人类盲目向火险山林盲目大兴土木的制度性失职。",
+            "cohesive_devices": "驳斥单一归因论（While climate is key, shouldn't come at the expense of rest of the picture）。"
+          },
+          {
+            "pid": 7,
+            "role": "【深】人与生态双向互构：林地交错带必须设立严格缓冲防线",
+            "core_point": "人类社区与自然荒野乃是深度交织的双向互动系统，唯有确立科学的建筑防火红线与防卫空间，方能防患未然。",
+            "cohesive_devices": "揭示双向反馈生态系统本质（human systems and landscapes linked / interactions go both ways）。"
+          },
+          {
+            "pid": 8,
+            "role": "【合】走出人定胜天幻想：从'绝对扑灭'迈向'韧性人火共生'",
+            "core_point": "企图将自然山火完全消灭于萌芽的人定胜天迷信是危险的幻觉；尊重自然火周期、提升社区耐火韧性方是唯一正道。",
+            "cohesive_devices": "以生态哲学智慧收官（treating fire as an event to wholly control is an illusion / learn to coexist）。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 4 的九个段落，从 A-G 七个候选项中为指定五个段落选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "G"
+            },
+            {
+              "pid": 6,
+              "label": "Paragraph 7",
+              "correct_key": "A"
+            },
+            {
+              "pid": 8,
+              "label": "Paragraph 9",
+              "correct_key": "F"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Beyond Climate Dogma: Factoring Human Land-Use and Settlement Patterns",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第7段莫里茨核心洞见：跳出片面将山火甩锅气候变化的狭隘视角，全面正视人类盲目开发用地的原罪。"
+            },
+            {
+              "key": "B",
+              "heading": "Complete Evacuation and Abandonment of All Western Mountain States",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：反向极端/荒谬捏造】文章探讨科学防火与建筑规范，绝非放弃整个美国西部。"
+            },
+            {
+              "key": "C",
+              "heading": "Escalating Frequency Transcends Regional Bounds to Become a National Peril",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段：山火爆发频次飙升彻底打破仅限西部干旱州的旧观念，演化为危及全美的公共危机。"
+            },
+            {
+              "key": "D",
+              "heading": "Chemical Fire Retardants Proven Totally Ineffective Across All Forests",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未涉及阻燃化学药剂完全无效的论述。"
+            },
+            {
+              "key": "E",
+              "heading": "Firefighting Outlays Cannibalize Over Half the Annual Forest Budget",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段：扑火灭火应急开支历史上首次吞噬林务局半数以上年度预算，严重挤占常态化维护资金。"
+            },
+            {
+              "key": "F",
+              "heading": "Shattering the Total Control Illusion to Embrace Resilient Coexistence",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第9段结语：击碎将山火彻底全盘扑灭的人定胜天幻觉，走向尊重自然规律、韧性共处的智慧治理。"
+            },
+            {
+              "key": "G",
+              "heading": "Paradigm Shift: Revolutionizing How Modern Society Conceptualizes Fire",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确概括第5段：治理山火必须首先完成社会治理哲学的顶层重塑，彻底转变现代人对待自然火行为的陈腐敌对观念。"
+            }
+          ],
+          "skills_breakdown": "【小标题答题要诀】：段1抓全国性危机（national crisis / western problem transcended）；段2抓吞噬半数林务局预算（spent more than half $5.5B budget fighting fires）；段5抓重塑对待火的社会观念（shift in the way society views fire）；段7抓跳出纯气候决定论反思人类居住扩张（climate key, but not at expense of human patterns）；段9抓打破彻底消灭幻觉拥抱韧性共存（treating fire as event wholly controlled is illusion / coexistence）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "观点与事实论证",
-          "expression": "Though",
-          "translation": "conj. 虽然；尽管",
-          "application_sentence": "Research demonstrates that Though plays an indispensable role in sustainable development."
+          "category": "图表与趋势描述",
+          "expression": "cannibalize massive proportions of public expenditure to fuel reactive crisis containment",
+          "syntactic_type": "财政黑洞化比喻动宾搭配",
+          "translation": "疯狂吞噬侵占巨额公共财政支出，仅仅为了疲于奔命地用于被动的危机应急封堵",
+          "application_sentence": "As budgetary oversight charts illustrate, escalating environmental disasters cannibalize massive proportions of public expenditure to fuel reactive crisis containment.",
+          "sentence_cn": "正如财政预算监督图表所触目惊心地展示的，日益频发且失控的重大生态灾难，正疯狂蚕食并吞噬掉庞大比例的公共财政专项资金，而这些宝贵公帑却仅仅被浪费在疲于奔命的被动抢险应急之中。",
+          "template_slot": "Escalating crises continue to cannibalize massive proportions of public expenditure to fuel reactive [救火/应急处置] rather than preventative solutions."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "often",
-          "translation": "adv. 常常；时常",
-          "application_sentence": "Research demonstrates that often plays an indispensable role in sustainable development."
+          "category": "现象深层归因",
+          "expression": "stem from reckless urban encroachment into fragile wildland frontiers without rigorous defensible safeguards",
+          "syntactic_type": "国土规划失当因果从句结构",
+          "translation": "根源于城镇无序盲目向极其脆弱险峻的荒野林地交错带野蛮扩张侵蚀，且严重缺乏刚性防卫隔离安全网",
+          "application_sentence": "Catastrophic wildfire destruction stems from reckless residential encroachment into flammable wildland frontiers without rigorous defensible zoning safeguards.",
+          "sentence_cn": "灾难性山火造成的大面积房毁人亡惨剧，在本质上根源于现代房地产开发与居民住宅向极度易燃脆弱的荒野山林交错带的盲目野蛮侵蚀扩张，并且在规划中严重缺乏刚性的阻火隔离缓冲区与防卫屏障。",
+          "template_slot": "Disaster vulnerability fundamentally stems from reckless encroachment into [高危地带/脆弱生态] without rigorous defensible safeguards."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Forest",
-          "translation": "n. 森林；林区",
-          "application_sentence": "Research demonstrates that Forest plays an indispensable role in sustainable development."
+          "category": "逻辑衔接与转折",
+          "expression": "While climatic fluctuations undeniably exacerbate vulnerability, they must not become an alibi for ignoring ...",
+          "syntactic_type": "驳斥借口让步对立句型",
+          "translation": "尽管气候波动变化毫无疑问加剧了整体脆弱性，但绝不能让其沦为有关部门推卸责任、漠视……的遮羞借口",
+          "application_sentence": "While climate disruption undeniably exacerbates drought, it must not become a convenient political alibi for ignoring disastrous municipal land-use planning.",
+          "sentence_cn": "尽管全球气候异常波动的确在客观上加剧了林地干旱的严峻度，但这绝不应成为某些政府决策部门推卸行政责任、刻意掩盖自身在城市土地利用规划与防灾分区上严重失职的冠冕堂皇的政治借口。",
+          "template_slot": "While [外部客观因素] undeniably exacerbates the problem, it must not become a convenient alibi for ignoring [主观制度失职/人为弊端]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "Service",
-          "translation": "n. 公共服务系统；公共事业",
-          "application_sentence": "Research demonstrates that Service plays an indispensable role in sustainable development."
+          "category": "提分句法骨架",
+          "expression": "Treating a primordial natural force as an enemy to be wholly vanquished is an arrogant illusion that inevitably ...",
+          "syntactic_type": "动名词作主语结合定语从句的哲学警示句",
+          "translation": "将大自然与生俱来的原始力量视作必须被彻底剿灭打垮的死敌，乃是一种傲慢自大的虚妄迷思，它注定会……",
+          "application_sentence": "Treating a primordial natural dynamic like fire as an adversary to be wholly vanquished is an arrogant illusion that inevitably invites worse catastrophe.",
+          "sentence_cn": "将诸如山火这般与地球生物圈共生相伴的原始自然演化力量狭隘视作必须被彻底征服剿灭的仇敌，乃是一种极其傲慢无知的人类中心主义迷思，它注定会在长远招致更加无可挽回的灭顶之灾。",
+          "template_slot": "Treating [客观自然规律] as an enemy to be wholly vanquished is an arrogant illusion that inevitably invites [深层报复与灾难]."
         },
         {
-          "category": "观点与事实论证",
-          "expression": "nationwide",
-          "translation": "adj. 全国性的；全国各地的",
-          "application_sentence": "Research demonstrates that nationwide plays an indispensable role in sustainable development."
-        },
-        {
-          "category": "观点与事实论证",
-          "expression": "concern",
-          "translation": "n. 担心；忧虑",
-          "application_sentence": "Research demonstrates that concern plays an indispensable role in sustainable development."
+          "category": "应对举措与升华",
+          "expression": "pivot from suppressive delusions toward resilient, adaptive coexistence through defensive infrastructure and ecological stewardship",
+          "syntactic_type": "防灾理念革命对仗动宾倡议搭配",
+          "translation": "果断从全盘消灭的傲慢虚妄中彻底抽身，依托坚固的防御基础设施与前瞻的生态综合营林，迈向兼具韧性与适应力的人与自然和谐共存",
+          "application_sentence": "Land management must pivot from suppressive delusions toward resilient, adaptive coexistence through strict zoning codes and holistic ecological stewardship.",
+          "sentence_cn": "现代国土与空间资源管理必须断然跳出那种以为能消灭一切自然灾害的压制性虚妄狂想，转而通过推行极其严厉的防灾分区规划立法与宏观生态治理，全面迈向兼具高度韧性与动态适应能力的人与自然命运共生之道。",
+          "template_slot": "Governance must pivot from suppressive delusions toward resilient, adaptive coexistence through [制度立法] and holistic [科学治理]."
         }
       ],
       "year": 2017
