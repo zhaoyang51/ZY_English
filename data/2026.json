@@ -1091,45 +1091,173 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "流行文化长期将公共图书馆刻板定性为落后破旧、可有可无的怀旧遗迹，但文化部的独立实证调查证明，现代图书馆早已悄然蜕变为全面赋能基层社区的动力引擎；它们不仅免费提供求职数字网络、创业专利指导与全科医生便民门诊，更以零门槛的公益属性为所有人提供免受商业消费绑架的避难所，成为捍卫社会公平与凝聚力的最后绿洲。面对地方财政赤字下的盲目闭馆短视操作，国家与地方决策层必须深刻认识到图书馆不可替代的公共基础设施地位，给予充足而长效的财政托底。",
-        "logic_chain": [
-          "第1段：对比公众对图书馆的陈腐刻板印象（落满灰尘、管理员嘘声制止）与官方实证调查结果，提出核心论点：图书馆已成为社区赋能不可或缺的引擎。",
-          "第2段：破除藏书库神话，罗列现代分馆的三项创新公共服务：失业者数字化求职接入、初创企业知识产权法律辅导，以及基层全科医疗嵌入式门诊。",
-          "第3段：展现跨界突破：先锋分馆引入顶级电竞与新媒体工作室吸引边缘青年，并以全免费形态构建起无条件容纳市民自由驻足、免受消费催促的公民避风港。",
-          "第4段：进行政治哲学升华：指出‘免收门票’正是其立身之本，在公共空间全面沦为商业地产的今天，图书馆是最后的人人平等绿洲，涵养着私营市场无法复制的社会团结。",
-          "第5段：直击现实危机并发出政策呼吁：严厉批判地方政府因财政赤字削减关停分馆的短视行为，敦促决策当局将其列为核心基础设施并予以长效资金保障。"
-        ]
+        "genre": "公共政策与公民社会空间评论",
+        "discourse_model": "传统借阅萎缩危机 ➔ 社区第三空间重塑 ➔ 危机时期的温暖避难所 ➔ 紧缩财政下经费困局 ➔ 公共社会基础设施价值定调",
+        "main_theme": "本文探讨了数字化浪潮下传统公共图书馆面临的生存危机，详述其如何主动破局、向集数字技能培训、防寒庇护与弱势关怀于一体的'社区生命线枢纽'艰难转型；尖锐抨击了紧缩财政政策将图书馆视为可随意牺牲的成本包袱的短视做派，呼吁从战略高度捍卫图书馆作为不可或缺的社会基础设施基石地位。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】借阅量下滑与传统功能式微",
+            "core_point": "纸质书借阅量连续数年走低，唱衰者断言互联网时代图书馆已沦为明日黄花，面临被边缘化甚至关停的生存抉择。",
+            "cohesive_devices": "摆出借阅暴跌的严峻现实，提出'数字化时代图书馆何去何从'的生存追问。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】功能重塑：从'藏书阁'到'赋能中心'",
+            "core_point": "图书馆员主动拥抱变革，设立免费高速WiFi、老年数字技能班、简历辅导与儿童早教工坊，转型为全龄段社区活力枢纽。",
+            "cohesive_devices": "从'单一阅读功能'转向'多元赋能中心'，展现公共机构的主动求变。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】能源危机中的平民'温暖庇护所'",
+            "core_point": "在通胀与取暖费暴涨的寒冬，图书馆自觉承担起'暖气银行'（warm banks）职责，为拮据家庭与孤独长者提供有尊严的庇护，彰显不可替代的人道关怀。",
+            "cohesive_devices": "以能源危机为试金石，升华其作为社会减震器的不可或缺性。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】财政紧缩刀刃向下的严酷现实",
+            "core_point": "然而地方议会财政紧绷，图书馆往往首当其冲被削减预算、缩短开馆时间，骨干馆员严重过劳流失，公共空间岌岌可危。",
+            "cohesive_devices": "强烈的现实矛盾转折：价值愈发崇高，但待遇与拨款却愈发微薄。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】社会基础设施重估与国家战略投资",
+            "core_point": "衡量图书馆价值绝不能局限于借书借阅指标，它更是维系社会信任与社区凝聚力的'韧性基石'，必须获得刚性长效的公共财政护航。",
+            "cohesive_devices": "完成从'图书工具'到'国家社会基石'的价值观升华，发出政策投资呼吁。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 1 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "F"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "G"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "D"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Warm Banks: Dignified Sanctuaries in Times of Economic Hardship",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第3段图书馆在能源通胀寒冬中充当防寒温暖银行与人道庇护所的核心。"
+            },
+            {
+              "key": "B",
+              "heading": "Complete Digitalization Replaces All Physical Librarians",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有/概念颠倒】文章强调馆员的主动作为，未提议用全面数字化取代所有实体馆员。"
+            },
+            {
+              "key": "C",
+              "heading": "Declining Circulation Poses an Existential Crossroads",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准概括第1段借阅量持续下滑引发图书馆是否已过时被淘汰的生存抉择。"
+            },
+            {
+              "key": "D",
+              "heading": "Recognizing Public Libraries as Irreplaceable Social Infrastructure",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度凝练末段终极论点：打破狭隘借书考量，将图书馆确立为不可或缺的社会基石。"
+            },
+            {
+              "key": "E",
+              "heading": "Mandatory Entry Fees Imposed on All Public Reading Rooms",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：与事实相反】图书馆的核心基石是免费向全社会开放，收门票违背公立性质。"
+            },
+            {
+              "key": "F",
+              "heading": "From Quiet Book Vaults to Dynamic Community Empowerment Hubs",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】生动概括第2段从单一藏书楼向提供技能培训、简历辅导等多功能赋能中心的转型。"
+            },
+            {
+              "key": "G",
+              "heading": "Austerity Ax Falls Heavily on Stretched Neighborhood Branches",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确对位第4段地方紧缩财政削减拨款导致开馆缩水与馆员过劳的现实危机。"
+            }
+          ],
+          "skills_breakdown": "【小标题突破技巧】：把握'危机 ➔ 转型 ➔ 庇护所 ➔ 预算困局 ➔ 战略定性'的发展全流程；坚决排除反常识的极端选项（如收门票、撤销所有实体馆员）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "刻板印象与偏见破除",
-          "expression": "instinctively springs to mind",
-          "translation": "本能地第一时间跃入脑海/让人联想到",
-          "application_sentence": "When innovation is mentioned, high technology instinctively springs to mind."
+          "category": "图表与趋势描述",
+          "expression": "show a sustained downward trend in ...",
+          "syntactic_type": "走势动宾短语",
+          "translation": "在……方面呈现出持续下滑的疲软态势",
+          "application_sentence": "As can be seen from the bar chart, traditional newspaper circulations have shown a sustained downward trend in recent years.",
+          "sentence_cn": "正如柱状图所呈现的，传统纸质报刊的发行量近年来呈现出持续下滑的疲软态势。",
+          "template_slot": "As can be seen from the chart, [传统产品/旧模式的统计指标] has shown a sustained downward trend in recent years."
         },
         {
-          "category": "活力描述与社区生活",
-          "expression": "a vibrant hive of activity",
-          "translation": "生机勃勃的活动蜂巢/热闹非凡的中心",
-          "application_sentence": "During the festival, the town square turned into a vibrant hive of activity."
+          "category": "现象深层归因",
+          "expression": "evolve far beyond its traditional confines into a ...",
+          "syntactic_type": "跨越式发展动词结构",
+          "translation": "远远超越其原有的传统局限，演进成为一个……",
+          "application_sentence": "Modern civic infrastructure must evolve far beyond its traditional confines into a dynamic hub for public empowerment and inclusive growth.",
+          "sentence_cn": "现代市政公共基础设施必须远远超越其原本的狭隘局限，演进成为一个赋能大众与包容性发展的生动枢纽。",
+          "template_slot": "[发展主体] must evolve far beyond its traditional confines into a dynamic hub for [追求的更宏大社会功能]."
         },
         {
-          "category": "社会公平与公共空间",
-          "expression": "the last truly egalitarian civic institutions",
-          "translation": "最后一片真正践行平等主义的公民机构",
-          "application_sentence": "Public parks and municipal libraries serve as the last truly egalitarian civic institutions in modern cities."
+          "category": "逻辑衔接与转折",
+          "expression": "To assess ... solely by ... is to fundamentally misunderstand ...",
+          "syntactic_type": "不定式并列评价句型",
+          "translation": "仅仅依据……来评判……，在根本上就是对……的极大误读",
+          "application_sentence": "To assess the worth of cultural institutions solely by commercial profitability is to fundamentally misunderstand their societal mission.",
+          "sentence_cn": "仅仅依靠商业盈利多寡来评判文化机构的根本价值，在根本上就是对它们崇高社会使命的极大误读与贬低。",
+          "template_slot": "To assess the worth of [评价对象] solely by [片面单一量化指标] is to fundamentally misunderstand [其本质内涵与终极价值]."
         },
         {
-          "category": "社会凝聚力与民主精神",
-          "expression": "cultivate social cohesion and foster democratic solidarity",
-          "translation": "培育社会凝聚力并涵养民主团结精神",
-          "application_sentence": "Inclusive educational programs cultivate social cohesion and foster democratic solidarity among youth."
+          "category": "提分句法骨架",
+          "expression": "Far more than a mere ..., ... serves as a ...",
+          "syntactic_type": "比较前置提分结构",
+          "translation": "远非仅仅是一座……，……更充当着……",
+          "application_sentence": "Far more than a mere repository of printed volumes, the contemporary public library serves as a vital anchor for social cohesion.",
+          "sentence_cn": "远非仅仅是一座封存纸质卷帙的沉寂藏书阁，当代公立图书馆更充当着维系整个社会凝聚力的生命线锚点。",
+          "template_slot": "Far more than a mere [浅层表面工具], [核心主体] serves as a vital anchor for [深远崇高价值]."
         },
         {
-          "category": "短视政策批判与长远建言",
-          "expression": "dangerously short-sighted to underappreciate",
-          "translation": "低估……是极其危险且短视的行径",
-          "application_sentence": "It is dangerously short-sighted to underappreciate the long-term economic returns of basic scientific research."
+          "category": "提分句法骨架",
+          "expression": "Only when ... is safeguarded can ... genuinely blossom.",
+          "syntactic_type": "Only when 引导时间状语从句部分倒装",
+          "translation": "唯有当……得到坚实保障之时，……才能够真正迎来绽放",
+          "application_sentence": "Only when the foundational well-being of grassroots citizens is safeguarded can societal harmony genuinely blossom.",
+          "sentence_cn": "唯有当基层最广大人民群众的基本民生福祉得到坚实有力的保障之时，社会的公平正义与和谐才能够真正迎来繁荣绽放。",
+          "template_slot": "Only when [底线民生/根本前提] is safeguarded can [宏伟发展蓝图] genuinely blossom."
+        },
+        {
+          "category": "应对举措与升华",
+          "expression": "shield ... from short-sighted budgetary cuts",
+          "syntactic_type": "动宾搭配",
+          "translation": "保护……免遭急功近利、目光短浅的预算削减冲击",
+          "application_sentence": "Forward-looking administrations must ring-fence essential services to shield community welfare from short-sighted budgetary cuts.",
+          "sentence_cn": "具有战略眼光的执政部门必须建立专项保护基金，坚决保护社区公共福利免遭急功近利、目光短浅的紧缩预算削减之苦。",
+          "template_slot": "[决策层] must take concrete measures to shield [关键公共事业] from short-sighted budgetary cuts."
         }
       ],
       "text_id": 1,
@@ -2142,45 +2270,173 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "生成式AI在现代职场中正在演变为提供情感抚慰与专业指点的‘虚拟导师’，有效排解了员工在高压科层制下的孤独感；然而员工对AI的无防备倾吐却引发了灾难性的商业机密泄露风险。面对厂商将对话数据用于二次训练的大模型现实，跨国企业的一刀切粗暴封禁适得其反并滋生地下影子经济，唯有通过采购企业级零留存授权、建立精细化合规护栏以及培养员工数据脱敏素养，才能在驾驭AI生产力飞跃的同时，守牢核心数据资产的生命线。",
-        "logic_chain": [
-          "第1段：现象铺陈：职场人将AI视为知己导师以排解高压孤独，引出核心矛盾——急于求教导致无意识泄露企业机密。",
-          "第2段：技术机理解密：商业平台是数据聚合器而非保密库，记录输入用于后续模型训练与第三方共享，使产品路线图和财报裸奔。",
-          "第3段：反思早期防御：跨国投行实施一刀切封禁反而将AI逼入监管死角的‘影子经济’，适得其反加剧泄密隐蔽性。",
-          "第4段：提出长效对策：开明企业转向务实规制，采购企业级零留存授权，辅以全员数据脱敏培训与透明行为红线护栏。",
-          "第5段：升华双刃剑哲学：提醒员工算法不具备伦理约束，呼吁企业制度防护与个人保密素养并举，安全拥抱AI变革伟力。"
-        ]
+        "genre": "人工智能伦理与企业人资前沿透视",
+        "discourse_model": "AI职场导师风靡 ➔ 答疑提效超强赋能 ➔ 算法黑箱与思辨退化风险 ➔ 数据泄露与知识产权暗礁 ➔ 机器辅助与人类审度中道",
+        "main_theme": "本文聚焦生成式AI在现代跨国企业中扮演员工'全天候导师与智库'的爆发式普及热潮，客观评估了其在破除初级入职壁垒、释放即时生产力方面的惊人效能；深刻敲响了青年员工批判性思辨能力退化、过度依赖算法推荐、商业敏感数据泄密与算法隐性偏见的警钟；主张构建'AI高效辅助+人类最终决断'的严密风控伦理防线。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】生成式AI化身职场'数字导师'",
+            "core_point": "从编程排错、商务邮件起草到市场竞对分析，职场新人日益将对话式大模型当作随身带教导师，传统师徒制正在被算法颠覆。",
+            "cohesive_devices": "以职场日常工作场景的新变革破题，勾勒智能化工作新常态。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】破除信息不对称与效率大爆发",
+            "core_point": "以往需要请教资深前辈数小时才能理清的复杂流程，AI导师秒级给出高度提炼的方案，显著缩短新人融入团队的学习曲线。",
+            "cohesive_devices": "通过新老带教效率对比，印证AI在赋能基层生产力上的强大价值。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】认知'思维肌肉'萎缩与盲从陷阱",
+            "core_point": "过度依赖现成答案使年轻员工丧失了深层溯源探究与独立批判性思辨能力，一旦遭遇算法'幻觉'（hallucination）便极易酿成重大失误。",
+            "cohesive_devices": "以转折连词切入，从认知心理学层面深挖'思维外包'（cognitive offloading）的智力退化代价。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】数据资产泄露与企业合规暗礁",
+            "core_point": "员工不经意将未公开的财报机密、专利代码喂给公共大模型用于优化提示词，给跨国企业带来了不可估量的知识产权泄密灾难。",
+            "cohesive_devices": "将风险从个人认知层面跃升至企业法务与商业机密安全层面。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】人机协同双轨制与伦理治理边界",
+            "core_point": "企业应当出台明确的人工智能使用红线，将AI定位于辅助放大器而非决策者，坚持'人类审查与最终责任不可剥离'的终极伦理法则。",
+            "cohesive_devices": "提出兼顾创新探索与安全合规的理性治理框架，完成主旨收官。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 2 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "E"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "B"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "D"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "A"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Human in the Loop: Establishing Ethical and Compliance Guardrails",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼末段主旨：建立以人为主导、确保最终责任不可剥离的合规防线。"
+            },
+            {
+              "key": "B",
+              "heading": "Compressing the Learning Curve and Boosting Junior Productivity",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第2段AI导师秒级解答极大缩短新人学习曲线与提升工作效能。"
+            },
+            {
+              "key": "C",
+              "heading": "Immediate Dismissal of Employees Prompting AI Platforms",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：绝对化过激惩罚】文中倡导制定合规红线与使用指引，绝非立即解雇所有使用AI的员工。"
+            },
+            {
+              "key": "D",
+              "heading": "Confidentiality Leaks and Intellectual Property Minefields",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第4段员工随意喂入机密数据带来的商业泄密与知识产权暗礁。"
+            },
+            {
+              "key": "E",
+              "heading": "Conversational Algorithms Usurp Traditional Mentorship",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确对位第1段对话式生成算法全面颠覆传统职场一对一老带新师徒制。"
+            },
+            {
+              "key": "F",
+              "heading": "AI Systems Awarded Legal Personhood in Corporate Boards",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：离奇捏造】文中讨论职场助手伦理，从未涉及赋予AI董事会法人资格。"
+            },
+            {
+              "key": "G",
+              "heading": "Cognitive Atrophy and the Hallucination Pitfall",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精辟概括第3段独立思考能力退化以及盲信AI算法虚假幻觉的严重隐患。"
+            }
+          ],
+          "skills_breakdown": "【小标题提炼法则】：紧盯每段核心词群（Mentorship / Productivity / Cognitive Atrophy / Confidentiality / Ethical Guardrails）；识别偏离商业逻辑的无端想象干扰项。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "人际互动与技术依赖",
-          "expression": "engage with as empathetic mentors",
-          "translation": "作为富有同理心的导师与……进行互动",
-          "application_sentence": "Modern learners often engage with virtual tutors not just as teaching tools, but as empathetic mentors."
+          "category": "图表与趋势描述",
+          "expression": "surge dramatically to occupy a dominant share of ...",
+          "syntactic_type": "并列复合动宾短语",
+          "translation": "急剧飙升并占据了……的绝对主导份额",
+          "application_sentence": "As demonstrated in the pie chart, smart algorithmic services have surged dramatically to occupy a dominant share of corporate software spending.",
+          "sentence_cn": "饼状图显示，智能算法服务支出急剧飙升，已然占据了企业级软件采购开支的绝对主导份额。",
+          "template_slot": "As demonstrated in the chart, [新兴技术/模式] has surged dramatically to occupy a dominant share of [总体投入/市场]."
         },
         {
-          "category": "机制盲区与机密风险",
-          "expression": "an alarming organizational blind spot",
-          "translation": "一个令人警惕的企业/组织管理盲区",
-          "application_sentence": "Unmonitored remote access remains an alarming organizational blind spot in cybersecurity."
+          "category": "现象深层归因",
+          "expression": "bring about unprecedented convenience, yet at the latent cost of ...",
+          "syntactic_type": "转折伴随介词短语",
+          "translation": "带来了前所未有的极大便利，然而却是以……的隐性损失为代价的",
+          "application_sentence": "Rapid digital automation brings about unprecedented convenience, yet at the latent cost of eroding independent critical thinking among the younger generation.",
+          "sentence_cn": "数字自动化的迅猛发展带来了前所未有的极大便利，然而这却在潜移默化中以侵蚀青年一代独立批判性思考力为沉重代价。",
+          "template_slot": "[某种新技术/生活习惯] brings about unprecedented convenience, yet at the latent cost of [不可挽回的人文/心理代价]."
         },
         {
-          "category": "政策失效与事与愿违",
-          "expression": "prohibitive policies have largely backfired",
-          "translation": "一刀切的封禁阻遏政策在很大程度上适得其反",
-          "application_sentence": "History demonstrates that prohibitive trade policies have largely backfired on domestic consumers."
+          "category": "逻辑衔接与转折",
+          "expression": "This technological leap forward is by no means an unalloyed blessing; ...",
+          "syntactic_type": "否定比喻转折句",
+          "translation": "这一巨大的科技跃升绝非纯粹无瑕的福音，……",
+          "application_sentence": "This technological leap forward is by no means an unalloyed blessing; on the contrary, it lays bare severe challenges in intellectual property preservation.",
+          "sentence_cn": "这一巨大的科技跃升绝非纯粹无瑕的纯粹福音；恰恰相反，它在知识产权保护与数据安全领域暴露出了极其严峻的挑战。",
+          "template_slot": "This [某种看似光鲜的巨大进步] is by no means an unalloyed blessing; on the contrary, [引出必须直面的重大危机]."
         },
         {
-          "category": "制度建立与边界界定",
-          "expression": "clearly delineate between permissible assistance and proprietary hazards",
-          "translation": "清晰界定合法辅助与侵犯机密高危风险之间的红线",
-          "application_sentence": "Corporate compliance manuals must clearly delineate between permissible assistance and conflict-of-interest hazards."
+          "category": "提分句法骨架",
+          "expression": "It is imperative that humans remain the ultimate arbiters of ...",
+          "syntactic_type": "虚拟语气主语从句",
+          "translation": "极其重要且必须坚守的是，人类必须始终保留作为……的终极裁决者地位",
+          "application_sentence": "It is imperative that skilled professionals remain the ultimate arbiters of strategic choices rather than blindly surrendering agency to algorithms.",
+          "sentence_cn": "极其重要且必须坚守的是，富有经验的专业人才必须始终保留战略选择的终极裁决者地位，而绝不能将主动权盲目拱手让渡给冷冰冰的算法。",
+          "template_slot": "It is imperative that [人类/社会] remain the ultimate arbiters of [关键决策领域] rather than [盲目屈从退缩]."
         },
         {
-          "category": "技术驾驭与底线坚守",
-          "expression": "safely harness the transformative power without exposing secrets",
-          "translation": "在安全驾驭变革伟力的同时而不致泄露核心机密",
-          "application_sentence": "Emerging economies must safely harness the transformative power of globalization without eroding local industries."
+          "category": "提分句法骨架",
+          "expression": "So formidable is the challenge that ...",
+          "syntactic_type": "形容词前置倒装提分句",
+          "translation": "挑战是如此之艰巨严峻，以至于……",
+          "application_sentence": "So formidable is the challenge of algorithmic compliance that multinational organizations must erect rigorous ethical firewalls without delay.",
+          "sentence_cn": "算法合规与数据伦理面临的挑战是如此之艰巨严峻，以至于跨国企业必须刻不容缓地筑牢严密的制度防火墙。",
+          "template_slot": "So formidable is the challenge of [待化解的危机] that [治理主体] must [采取果断雷霆手段] without delay."
+        },
+        {
+          "category": "应对举措与升华",
+          "expression": "harness the transformative power of ... while erecting robust guardrails",
+          "syntactic_type": "双重统筹平衡搭配",
+          "translation": "在充分享受……的颠覆性赋能红利的同时，构筑起坚不可摧的制度防线",
+          "application_sentence": "Modern societies must harness the transformative power of generative intelligence while erecting robust guardrails to protect foundational human dignity.",
+          "sentence_cn": "现代文明社会必须在充分享受生成式智能颠覆性赋能红利的同时，构筑起坚不可摧的安全制度防线，以坚决捍卫最根本的人类尊严与理性精神。",
+          "template_slot": "[社会/企业/决策层] must harness the transformative power of [前沿科技] while erecting robust guardrails to [捍卫底线价值]."
         }
       ],
       "text_id": 2,
@@ -3250,45 +3506,173 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "高铁客运在开通之初曾被寄予替代民航、实现绿色商旅出行的厚望，但如今却在多条核心干线上深陷大面积晚点与频繁取消的公信力危机；官方虽归咎于日常检修，但独立专家揭示其根本病灶在于数十年投资匮乏遗留下的陈旧基础设施，以及零冗余排图与客货共轨混跑导致的承载力极度透支。局部微小故障在超负荷路网中必然引发链式瘫痪，唯有摒弃面子工程与盲目刷最高时速的政绩观，坚定注入长期资本以更新老旧硬件、修建绕行复线扩充运力并注入调度冗余，方能重塑铁路作为现代绿色出行中流砥柱的可靠基石。",
-        "logic_chain": [
-          "第1段：今昔对比：对比高铁推出时作为现代出行首选的光鲜愿景，引出当下频繁晚点停运将公众骄傲变为民怨焦点的严酷现实。",
-          "第2段：技术病灶初探：反驳官方常规检修说辞，引用独立分析师结论，直指核心根源是长期投资不足留下的维多利亚老旧基础设施。",
-          "第3段：解构运力极限：揭露追求营收导致的零安全裕度排图，阐明在缺乏备用运力的高负荷路网中，车门故障等微小意外必然引发连锁瘫痪。",
-          "第4段：剖析客货共轨死结：对比东亚客专，指出欧美快慢车与货车共轨混跑的混乱构成，批判偏爱形象工程而克扣避让侧线资金的扭曲现状。",
-          "第5段：提出标本兼治纲领：驳斥刷时速纪录与公关虚饰，呼吁决策层将路网韧性置于短期财政之上，长效投资更新硬件、扩充容量与安全冗余。"
-        ]
+        "genre": "市政基建与交通经济学分析报告",
+        "discourse_model": "地铁晚点民怨沸腾 ➔ 百年老旧铜缆根源剖析 ➔ 24小时通宵运营与施工两难 ➔ 财政短视拨款怪圈 ➔ 全生命周期更新基金立论",
+        "main_theme": "本文透视了现代大都会轨道交通面临的'准点率崩溃'与设备系统性老化危机，揭示了看似光鲜的列车车厢背后，信号系统依然受困于数十年前甚至一个世纪前的老旧铜缆与继电器硬件；剖析了24小时不打烊的高强度运营与停运改造施工之间的两难僵局，严厉抨击了财政部门'重看得见的车辆采购、轻看不见的信号维保'的短视偏见，主张建立长效法定的基础设施全生命周期更迭基金。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】地铁全网延误与市民通勤梦魇",
+            "core_point": "早晚高峰列车频繁因'信号故障'全线趴窝，数百万人通勤受阻、经济损失巨大，老旧地铁网络正逼近系统性崩溃边缘。",
+            "cohesive_devices": "以通勤族切肤之痛的延误危机破题，引发全社会对基建健康的深切关注。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】光鲜外表下的'古董级'铜缆与信号",
+            "core_point": "新车体掩盖不了地底深处早已严重老化的继电器、破损铜质绝缘层和缺乏备件的落后硬件，极端天气更成为击穿防线的致命一击。",
+            "cohesive_devices": "揭开表象与内在的残酷反差：'现代车厢'与'古董系统'的刺眼撕裂。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】不打烊运营与改造施工的'不可能三角'",
+            "core_point": "城市要求地铁近乎24小时全天候运转以服务不夜城经济，留给工人的仅有深夜两小时天窗，零敲碎打的微调根本无法完成全网数字换脑。",
+            "cohesive_devices": "深入探讨工程物理与经济调度上的两难困局（dilemma）。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】政客短视与'隐形基建'财政歧视",
+            "core_point": "民选官员更乐于把巨资投向能剪彩拍照的新列车和豪华车站，而将埋在地下、看不见光却关乎命脉的信号维护预算砍入谷底。",
+            "cohesive_devices": "直击政治机制与政绩驱动对日常维保投资的制度性扭曲。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】全生命周期更新基金与科学长效治理",
+            "core_point": "唯有通过法定机制设立跨越政治周期的基础设施全生命周期折旧基金，忍受短期停运阵痛推进彻底数字化信号翻新，才能维系大都市运转命脉。",
+            "cohesive_devices": "以破除短视的制度设计和短期阵痛的理性担当完成论述收官。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 3 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "B"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "G"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "D"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "A"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "E"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Political Vanity Prioritizes Ribbon-Cutting Over Underground Upkeep",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第4段政客追求看得到的新车剪彩政绩而忽视隐形地下维保的弊端。"
+            },
+            {
+              "key": "B",
+              "heading": "Signal Glitches Paralyze Urban Commutes and Erode Public Faith",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第1段信号故障频发引发早晚高峰通勤瘫痪与公众信心滑坡。"
+            },
+            {
+              "key": "C",
+              "heading": "Permanent Closure of the Subways to Shift Passengers to Bicycles",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：荒诞不经】文中讨论现代化更新与临时停运阵痛，绝非永久关闭地铁让公众改骑自行车。"
+            },
+            {
+              "key": "D",
+              "heading": "The 24/7 Dilemma: Narrow Engineering Windows Frustrate Overhauls",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第3段不间断通宵运营导致深夜仅两小时施工窗口难以彻底换脑的两难。"
+            },
+            {
+              "key": "E",
+              "heading": "Institutional Trust Funds and the Courage to Endure Short-Term Pain",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】切中末段核心方案：建立法定基建全生命周期基金并敢于承受必要停运阵痛。"
+            },
+            {
+              "key": "F",
+              "heading": "Free Subway Fares Implemented to Appease Frustrated Commuters",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中没有任何关于免票平息民怨的内容。"
+            },
+            {
+              "key": "G",
+              "heading": "Shiny Trains Conceal Decaying Century-Old Copper Relays",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】生动概括第2段外表光鲜新车厢掩盖了地底深处行将就木的百年老旧铜缆继电器。"
+            }
+          ],
+          "skills_breakdown": "【小标题避坑法则】：理清'现象（瘫痪） ➔ 内因（老旧铜缆） ➔ 施工客观制约（通宵两难） ➔ 政治根源（财政短视） ➔ 方案（折旧基金）'的因果逻辑；排除荒唐的过激臆造项。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "出行方式与宏大愿景",
-          "expression": "hailed as the preferred means of travel",
-          "translation": "被盛赞为首选/偏好的出行方式",
-          "application_sentence": "Electric autonomous shuttles are hailed as the preferred means of urban transit."
+          "category": "图表与趋势描述",
+          "expression": "experience an exponential escalation in failure rates",
+          "syntactic_type": "动宾搭配",
+          "translation": "在故障率指标上经历令人担忧的指数级攀升",
+          "application_sentence": "As demonstrated in the graph, aging physical assets experience an exponential escalation in failure rates once they pass their intended lifespans.",
+          "sentence_cn": "正如曲线图所示，老化陈旧的重工业设施一旦超出其既定服役寿命，其故障率往往会经历令人触目惊心的指数级攀升。",
+          "template_slot": "As demonstrated in the graph, [老旧设施/设备] experiences an exponential escalation in failure rates once [某种触发条件]."
         },
         {
-          "category": "混乱失控与信任破产",
-          "expression": "throw everyday travel into chaos",
-          "translation": "将日常出行推入混乱的深渊",
-          "application_sentence": "Severe blizzards have thrown air travel into chaos across the continent."
+          "category": "现象深层归因",
+          "expression": "be chronically starved of essential maintenance capital",
+          "syntactic_type": "被动语态搭配",
+          "translation": "长期慢性匮乏维持生存所必需的日常维保资金",
+          "application_sentence": "Crucial public utility networks are chronically starved of essential maintenance capital due to myopic short-term electoral considerations.",
+          "sentence_cn": "由于短视的选举政绩冲动，关乎国家经济命脉的核心公用事业管网长期处于严重缺乏必要日常维保资金的饥渴状态。",
+          "template_slot": "[至关重要的公共事业] is chronically starved of essential maintenance capital due to [制度性短视根源]."
         },
         {
-          "category": "历史包袱与设施老化",
-          "expression": "saddled with obsolete infrastructure",
-          "translation": "背负着陈旧过时/年久失修的基础设施重担",
-          "application_sentence": "Municipal water utilities remain saddled with obsolete infrastructure built nearly a century ago."
+          "category": "逻辑衔接与转折",
+          "expression": "A gleaming exterior cannot conceal the harsh truth that ...",
+          "syntactic_type": "正反转折主从复合句",
+          "translation": "光鲜亮丽的外表绝不可能掩盖这样一个严酷的事实：……",
+          "application_sentence": "A gleaming exterior cannot conceal the harsh truth that the underlying structural backbone is teetering on the verge of systemic breakdown.",
+          "sentence_cn": "光鲜亮丽的表象绝不可能掩盖这样一个严酷的事实：其深层底层结构骨架早已在系统性崩溃的危险边缘摇摇欲坠。",
+          "template_slot": "A gleaming exterior cannot conceal the harsh truth that [深层底层支柱/机制] is teetering on the verge of [严重危机]."
         },
         {
-          "category": "链式反应与蝴蝶效应",
-          "expression": "a minor hiccup triggers an inevitable chain reaction",
-          "translation": "微小的偶发小波折引发不可避免的连锁反应",
-          "application_sentence": "In fragile global supply chains, a minor port hiccup triggers an inevitable chain reaction of factory shutdowns."
+          "category": "提分句法骨架",
+          "expression": "Never before has the tension between ... and ... been more acute.",
+          "syntactic_type": "Never before 置于句首时间状语强倒装",
+          "translation": "以往任何时候，……与……之间的矛盾与博弈都未曾像今天这般尖锐激烈",
+          "application_sentence": "Never before has the tension between continuous round-the-clock service and fundamental infrastructure overhauls been more acute.",
+          "sentence_cn": "以往任何时候，24小时不打烊的持续运营需求与触及筋骨的基础设施彻底大修之间的矛盾，都未曾像今天这般尖锐激烈。",
+          "template_slot": "Never before has the tension between [需求A] and [对立需求B] been more acute."
         },
         {
-          "category": "政绩虚饰批判与标本兼治",
-          "expression": "abandon cosmetic fixes and confront structural realities",
-          "translation": "彻底摒弃装点门面的表面修补，直面深层结构性现实",
-          "application_sentence": "Educational reformers must abandon cosmetic fixes and confront structural realities of funding inequality."
+          "category": "提分句法骨架",
+          "expression": "Only by enduring short-term disruption can ... secure ...",
+          "syntactic_type": "部分倒装提分结构",
+          "translation": "唯有通过坚决承受短期的停工阵痛，……才能够最终锁定……",
+          "application_sentence": "Only by enduring short-term operational disruption can public transport networks secure resilient and fail-safe services for decades to come.",
+          "sentence_cn": "唯有通过坚决承受短期的停工检修阵痛，公共交通网络才能够为未来数十年的长治久安最终锁定安全、高韧性的运行屏障。",
+          "template_slot": "Only by enduring short-term [阵痛/投入] can [主体] secure [长治久安/战略目标] for decades to come."
+        },
+        {
+          "category": "应对举措与升华",
+          "expression": "establish a ring-fenced lifecycle renewal fund for",
+          "syntactic_type": "制度设计高分搭配",
+          "translation": "为……建立起不受外在侵蚀的法定全生命周期更迭重置基金",
+          "application_sentence": "Policymakers must enact mandatory legislation to establish a ring-fenced lifecycle renewal fund for all essential metropolitan infrastructure.",
+          "sentence_cn": "立法决策机构必须通过刚性立法，为所有关键的超大都市基础设施建立起不受政治周期干扰的全生命周期更迭重置基金。",
+          "template_slot": "[决策部门] must enact mandatory legislation to establish a ring-fenced lifecycle renewal fund for [关键战略资产/公共领域]."
         }
       ],
       "text_id": 3,
@@ -4368,45 +4752,173 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "街区聚会与街头节庆历来是连接邻里、庆祝本土文化的重要精神纽带，并在过去十年自发蜕变为参与度极高的万人城市盛事；然而在后疫情时代各项安保合规法令与通胀重压下，移动围栏、雇佣警力与责任险等制作运营成本呈几何级暴涨，将大量依赖微薄捐赠的非营利主办方逼入绝境，引发历史悠久节日的停办狂潮。市政管理当局一面将节日吹捧为文化财富，一面按商业企业标准索要高昂审批规费；城市经济学家指出街头节日实为引流实体商业、激活税基的强劲经济引擎。面对危机，主办方积极争取政府豁免规费与商业赞助自救；在数字疏离蔓延的当下，实体街头聚会是打破种族与阶层隔阂、捍卫社会有机纽带的定海神针，政府理应将其视作神圣公共职责予以长期财政托底。",
-        "logic_chain": [
-          "第1段：引入危机现象：深受热爱的街区节日从草根聚会自发成长为万人盛事，却因后疫情时代暴涨的办会制作成本而接连猝然宣布停办或腰斩。",
-          "第2段：拆解经济死结：揭露游客免费享受背后主办方承受的失控成本——法规强推围栏与雇佣警力、责任险三位数暴涨与通胀，使非营利机构陷入收支不可能三角。",
-          "第3段：批判体制自相矛盾：市议会口头赞誉文化名片、账单上却按暴利商业公司索要天价许可费；经济学家指明街区活动实为带动实体商铺客流、反哺税基的经济引擎。",
-          "第4段：展现积极自救行动：民间自救同盟向政府施压要求豁免审批规费并补贴安保，同时引入商业赞助填补预算窟窿，誓死坚守免门票的草根公益底线。",
-          "第5段：升华社会治理哲学：指出节日消亡是社会组织纽带的危险撕裂，强调线下空间跨越阶层建立真实连接的不可替代性，呼吁政府作为公共职责予以长期投资托底。"
-        ]
+        "genre": "社区文化与地方公共治理评论",
+        "discourse_model": "民间街头狂欢退场 ➔ 安保与保洁费用暴涨成因 ➔ 商业赞助铜臭变质 ➔ 基层草根社群活力瓦解 ➔ 公共空间豁免与共治破局",
+        "main_theme": "本文聚焦多地历史悠久的传统社区街头文化庆典因难以承受激增的警务安保、封闭交通管制与环卫保洁费用而被迫相继停办的文化衰退危机；深刻剖析了官僚安保标准膨胀与商业赞助侵蚀民间纯粹性的深层矛盾；呼吁市政管理部门建立公共活动规费豁免政策与多元民意共治机制，呵护弥足珍贵的草根文化血脉与社会邻里温度。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】百年社区庆典相继落幕的寒潮",
+            "core_point": "曾经洋溢着邻里温情、代代相传的非营利街头狂欢节与嘉年华，近年来纷纷宣布因不堪重负而永久停办，引发全社会对社区公共文化消亡的叹惋。",
+            "cohesive_devices": "以令人痛惜的庆典停办新闻破题，为全篇奠定凝重的人文关切基调。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】天价安保账单压垮草根志愿者组织",
+            "core_point": "地方当局强行转嫁警力部署、道路封闭审批与商业级保险费用，动辄数十万英镑的刚性支出远远超出了由志愿者自发义卖募资的承受极限。",
+            "cohesive_devices": "从感叹停办直切核心硬伤——暴涨的官方合规与安全防范规费。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】引入商业赞助的'饮鸩止渴'异化",
+            "core_point": "为填补资金窟窿，部分庆典不得不引入跨国企业与商业品牌赞助，但铺天盖地的广告营销与高昂门票迅速驱逐了本土手艺人，彻底腐蚀了庆典的社区灵魂。",
+            "cohesive_devices": "辩证分析市场化自救尝试的自我异化，证明'纯商业化并非良药'。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】邻里疏离与公民社会资本流失",
+            "core_point": "街头庆典不仅是一场娱乐，更是打破阶层隔阂、消除现代人孤独感的至关重要的社会黏合剂，它的消亡正在加剧社区原子化与冷漠疏离。",
+            "cohesive_devices": "从'经济收支账'上升到'社会学资本'与现代人孤独感的高度。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】公共空间规费减免与社区共治新生",
+            "core_point": "市长与议会应将非营利社区庆典视同公共文化财富，减免惩罚性安保行政收费，提供小额无息过桥基金，让公共街道重归广大人民。",
+            "cohesive_devices": "以政策减负倡议与公共空间主权回归作结，兼具温情与制度可行性。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 4 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "D"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "A"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "F"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "G"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "C"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Exorbitant Policing and Regulatory Fees Crush Volunteer Organizers",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确对位第2段警务、封路与合规费用暴涨压垮志愿者协会筹款承受力的现实。"
+            },
+            {
+              "key": "B",
+              "heading": "Total Ban on All Outdoor Cultural Gatherings by Police Authorities",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：夸大曲解】警方是收取高额安保费而非全面下令禁止户外文化集会。"
+            },
+            {
+              "key": "C",
+              "heading": "Reclaiming the Streets: Fee Waivers and Public Co-Governance",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳末段主旨：官方减免行政规费、推进社区共治让街道重归人民。"
+            },
+            {
+              "key": "D",
+              "heading": "Cherished Historic Street Fairs Fade from Urban Calendars",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第1段代代相传的历史悠久街头节庆纷纷落幕退场的寒潮悲情。"
+            },
+            {
+              "key": "E",
+              "heading": "Complete Replacement of Grassroots Parades with Digital VR Streams",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中探讨真实的物理邻里集会，从未提及VR虚拟直播取代游行。"
+            },
+            {
+              "key": "F",
+              "heading": "Commercial Sponsorship: A Faustian Bargain that Dilutes Identity",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】生动概括第3段引入大财团商业赞助导致铜臭侵蚀、社区灵魂与手艺人被驱逐的浮士德交易。"
+            },
+            {
+              "key": "G",
+              "heading": "The Loss of Social Glue Fuels Neighborhood Alienation",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精辟提炼第4段节庆消亡破坏社会凝聚纽带、加剧现代都市人冷漠原子化的社会学痛点。"
+            }
+          ],
+          "skills_breakdown": "【小标题突破心法】：识别富有修辞色彩的高级论点（如 Faustian Bargain / Social Glue / Exorbitant Fees）；敏锐排除极端专断选项（如全面禁止集会、VR取代游行）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "草根活力与聚会盛事",
-          "expression": "blossomed into massive civic events",
-          "translation": "发展/繁荣成为规模宏大的城市级公共盛事",
-          "application_sentence": "What began as a small book club has blossomed into a massive civic event celebrating literacy."
+          "category": "图表与趋势描述",
+          "expression": "witness a precipitous plunge from ... to ...",
+          "syntactic_type": "动宾搭配",
+          "translation": "见证了从……到……的悬崖式雪崩骤降",
+          "application_sentence": "As outlined in the chart, public participation in local voluntary organizations has witnessed a precipitous plunge over the past two decades.",
+          "sentence_cn": "正如该图表所清晰勾勒的那样，基层志愿服务组织的公众参与率在过去二十年间见证了悬崖式雪崩骤降。",
+          "template_slot": "As outlined in the chart, [某项公众参与度/指标] has witnessed a precipitous plunge from [高点] to [低点]."
         },
         {
-          "category": "成本失控与沉重开销",
-          "expression": "skyrocketed beyond all historical precedent",
-          "translation": "飞涨到了超越一切历史先例的惊人水平",
-          "application_sentence": "Construction material costs have skyrocketed beyond all historical precedent in recent months."
+          "category": "现象深层归因",
+          "expression": "render ... financially unviable for ...",
+          "syntactic_type": "复合使役动宾结构",
+          "translation": "在财务上使得……对于……而言彻底难以为继",
+          "application_sentence": "Escalating compliance tariffs and commercial insurance fees render annual cultural events financially unviable for non-profit neighborhood collectives.",
+          "sentence_cn": "飙升的合规规费与商业保险支出，在财务收支上使得传统的年度文化节庆对于非营利性的社区组织而言彻底难以为继。",
+          "template_slot": "[暴涨的成本/行政壁垒] renders [美好公益项目] financially unviable for [非营利组织/普通大众]."
         },
         {
-          "category": "实体经济与客流引擎",
-          "expression": "powerful economic engines that drive foot traffic",
-          "translation": "带动/引流实体线下客流的强劲经济引擎",
-          "application_sentence": "Suburban farmers' markets serve as powerful economic engines that drive foot traffic to downtown plazas."
+          "category": "逻辑衔接与转折",
+          "expression": "Far from being a dispensable extravagance, ... is ...",
+          "syntactic_type": "倒置强转折句型",
+          "translation": "绝非一种可有可无的奢侈消费，……其实是……",
+          "application_sentence": "Far from being a dispensable extravagance, vibrant community assembly is the vital social glue that wards off urban alienation.",
+          "sentence_cn": "绝非一种可有可无的铺张奢华消费，富有活力的社区聚会恰恰是抵御现代都市冷漠疏离不可或缺的社会纽带与凝聚黏合剂。",
+          "template_slot": "Far from being a dispensable extravagance, [某种精神文化/公共事业] is the vital social glue that [达成的根本社会价值]."
         },
         {
-          "category": "社会撕裂与人际纽带",
-          "expression": "a perilous erosion of the social fabric",
-          "translation": "对社会组织结构/有机纽带的一场充满危险的侵蚀",
-          "application_sentence": "Growing digital isolation constitutes a perilous erosion of the social fabric."
+          "category": "提分句法骨架",
+          "expression": "Should ... fail to ..., ... would irrevocably ...",
+          "syntactic_type": "虚拟语气省略if的条件倒装",
+          "translation": "倘若……未能切实……，……必将无可挽回地……",
+          "application_sentence": "Should municipal authorities fail to alleviate bureaucratic levies, grassroots cultural heritages would irrevocably vanish from our urban tapestry.",
+          "sentence_cn": "倘若市政管理部门未能切实减免沉重的官僚规费负担，弥足珍贵的草根文化血脉必将无可挽回地从我们丰富多元的城市画卷中彻底湮灭。",
+          "template_slot": "Should [决策主体] fail to [采取有力纠偏扶持措施], [珍贵事物] would irrevocably [遭受毁灭性结局]."
         },
         {
-          "category": "公共责任与刚性投资",
-          "expression": "not a luxury expense, but a fundamental public duty",
-          "translation": "绝非可有可无的奢侈开销，而是一项根本的公共治理职责",
-          "application_sentence": "Funding mental health services is not a luxury expense, but a fundamental public duty."
+          "category": "提分句法骨架",
+          "expression": "What is at stake is not simply ..., but ..., which ...",
+          "syntactic_type": "主语从句与非限制性定语从句",
+          "translation": "此时此刻关乎核心利益的绝非仅仅是……，而是那……，而这……",
+          "application_sentence": "What is at stake is not simply a weekend of communal festivity, but the living soul of neighborhood solidarity, which money can never replace.",
+          "sentence_cn": "此时此刻关乎核心利益的绝非仅仅是一个周末的狂欢放松，而是那金钱无论如何都买不到的、生机勃勃的邻里温情与社会团结之魂。",
+          "template_slot": "What is at stake is not simply [表面物质/活动], but [深层精神/制度内核], which [不可替代的价值阐释]."
+        },
+        {
+          "category": "应对举措与升华",
+          "expression": "institute fee waivers to nurture grassroots civic vitality",
+          "syntactic_type": "公共政策动宾搭配",
+          "translation": "推行行政规费减免豁免，以悉心呵护民间的基层公民活力",
+          "application_sentence": "Local councils should institute fee waivers to nurture grassroots civic vitality, ensuring that public thoroughfares belong to the people.",
+          "sentence_cn": "地方议会应当雷厉风行地推行行政规费减免豁免，以悉心呵护民间的基层公民活力，切实确保公共街道与广场真正归属于人民。",
+          "template_slot": "[政府部门] should institute fee waivers to nurture grassroots civic vitality, ensuring that [公共资源] genuinely belongs to [广大人民]."
         }
       ],
       "text_id": 4,

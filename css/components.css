@@ -898,3 +898,459 @@ body.theme-parchment .matrix-badge.badge-opt {
   margin-right: 3px;
 }
 
+/* Fallback Table Wrapping */
+.table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin: 16px 0;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+}
+.table-wrap table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.9em;
+}
+.table-wrap th, .table-wrap td {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+.table-wrap th {
+  background: var(--card-bg);
+  font-weight: 700;
+  color: var(--ink);
+}
+
+/* ==========================================================================
+   Section 4: Discourse Architecture & Part B Migration Training Styles
+   ========================================================================== */
+.discourse-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.discourse-header-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.discourse-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  font-size: 0.8em;
+  font-weight: 700;
+  background: var(--review-light);
+  color: var(--review-accent);
+  border: 1px solid rgba(124, 58, 237, 0.25);
+}
+
+.discourse-theme-box {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-left: 4px solid var(--review-accent);
+  border-radius: var(--radius-md);
+  padding: 14px 18px;
+  box-shadow: var(--shadow-sm);
+}
+
+.discourse-theme-title {
+  font-weight: 800;
+  font-size: 1.05em;
+  color: var(--ink);
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.discourse-theme-text {
+  font-size: 0.96em;
+  line-height: 1.65;
+  color: var(--ink);
+}
+
+/* Flow Timeline Cards */
+.flow-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+.flow-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.flow-card:hover {
+  border-color: var(--review-accent);
+  box-shadow: var(--shadow-md);
+}
+
+.flow-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.flow-role-badge {
+  font-size: 0.78em;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  background: rgba(37, 99, 235, 0.1);
+  color: var(--accent);
+  border: 1px solid rgba(37, 99, 235, 0.25);
+}
+
+.flow-para-label {
+  font-weight: 800;
+  font-size: 0.9em;
+  color: var(--muted);
+}
+
+.flow-core-point {
+  font-size: 0.95em;
+  line-height: 1.6;
+  color: var(--ink);
+}
+
+.flow-cohesion {
+  font-size: 0.85em;
+  color: var(--muted);
+  background: var(--card-bg);
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--muted);
+}
+
+/* Part B Interactive Simulation */
+.part-b-box {
+  background: var(--surface);
+  border: 1px solid rgba(124, 58, 237, 0.35);
+  border-radius: var(--radius-lg);
+  padding: 18px 20px;
+  box-shadow: var(--shadow-md);
+  margin-top: 10px;
+}
+
+.part-b-box h3 {
+  color: var(--review-dark);
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.15em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.part-b-instruction {
+  font-size: 0.9em;
+  color: var(--muted);
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.part-b-options-pool {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+  margin-bottom: 16px;
+}
+
+.part-b-options-pool-title {
+  font-weight: 700;
+  font-size: 0.86em;
+  color: var(--ink);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.part-b-opt-item {
+  font-size: 0.9em;
+  line-height: 1.5;
+  margin-bottom: 6px;
+  color: var(--ink);
+}
+
+.part-b-opt-item strong {
+  display: inline-block;
+  width: 24px;
+  font-weight: 800;
+  color: var(--review-accent);
+}
+
+.part-b-match-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 12px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.part-b-match-para {
+  font-weight: 700;
+  font-size: 0.92em;
+  color: var(--ink);
+  min-width: 110px;
+}
+
+.part-b-select {
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 0.9em;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  min-width: 140px;
+}
+
+.part-b-btn-check {
+  padding: 8px 18px;
+  background: var(--review-accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 0.92em;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: opacity 0.2s ease;
+}
+
+.part-b-btn-check:hover {
+  opacity: 0.9;
+}
+
+.part-b-result-box {
+  margin-top: 16px;
+  padding: 14px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  background: var(--card-bg);
+  font-size: 0.9em;
+}
+
+.trap-tag {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.78em;
+  font-weight: 800;
+  margin-right: 4px;
+}
+.trap-tag.trap-correct {
+  background: #dcfce7;
+  color: #15803d;
+  border: 1px solid #86efac;
+}
+.trap-tag.trap-distractor {
+  background: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid #fca5a5;
+}
+
+/* ==========================================================================
+   Section 5: High-Score Writing Corpus Styles (Tabs & Template Slots)
+   ========================================================================== */
+.corpus-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.corpus-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+
+.corpus-tab-btn {
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--muted);
+  font-size: 0.85em;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.corpus-tab-btn:hover {
+  border-color: var(--accent);
+  color: var(--ink);
+}
+
+.corpus-tab-btn.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+  box-shadow: var(--shadow-sm);
+}
+
+.corpus-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.corpus-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 16px 18px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.corpus-card:hover {
+  border-color: var(--accent);
+  box-shadow: var(--shadow-md);
+}
+
+.corpus-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.corpus-cat-badge {
+  font-size: 0.76em;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  background: rgba(124, 58, 237, 0.12);
+  color: var(--review-accent);
+  border: 1px solid rgba(124, 58, 237, 0.25);
+}
+
+.corpus-expression-title {
+  font-size: 1.12em;
+  font-weight: 800;
+  color: var(--ink);
+  font-family: var(--font-base);
+}
+
+.corpus-translation-text {
+  font-size: 0.94em;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.corpus-sent-box {
+  background: var(--card-bg);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 10px 14px;
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+.corpus-sent-en {
+  color: var(--ink);
+  margin-bottom: 4px;
+  font-family: var(--font-serif);
+}
+
+.corpus-sent-cn {
+  font-size: 0.88em;
+  color: var(--muted);
+}
+
+.corpus-slot-box {
+  background: var(--surface);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-sm);
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.corpus-slot-code {
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+  color: var(--ink);
+  line-height: 1.5;
+  flex: 1;
+}
+
+.btn-copy-slot {
+  padding: 5px 12px;
+  background: rgba(37, 99, 235, 0.1);
+  color: var(--accent);
+  border: 1px solid rgba(37, 99, 235, 0.25);
+  border-radius: var(--radius-sm);
+  font-size: 0.82em;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+
+.btn-copy-slot:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* Copy Floating Toast */
+.copy-toast {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: rgba(15, 23, 42, 0.9);
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: var(--radius-full);
+  font-size: 0.9em;
+  font-weight: 700;
+  box-shadow: var(--shadow-lg);
+  pointer-events: none;
+  opacity: 0;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 9999;
+}
+.copy-toast.show {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+}

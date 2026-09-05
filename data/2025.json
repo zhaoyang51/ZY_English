@@ -940,45 +940,173 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "数字支付终端引发的“小费膨胀”彻底瓦解了传统事后自愿打赏的社会契约，蜕变为商家转嫁用工成本、剥削顾客内疚感的制度化工具；个别企业的自律运动难敌市场劣币驱逐，唯有通过刚性法定改革取缔低薪漏洞、推行全包价格并将薪酬作为雇主刚性义务，才能让小费重归纯粹感激之本真。",
-        "logic_chain": [
-          "第1段：对比小费的历史契约（餐后自愿、服务挂钩、正餐补贴）与数字化现实（事前提示、全场景渗透的 tip creep）。",
-          "第2段：揭露翻转触摸屏预设高比例小费的心理操纵机制，指出利用尴尬注视与内疚迫使顾客屈服的胁迫本质。",
-          "第3段：深挖背后的资本转嫁算计，阐明企业主如何利用小费弥补过低最低工资、将劳务开销化为顾客无偿补贴。",
-          "第4段：回顾先锋餐厅废除小费试水的失败，剖析因顾客对明面涨价反感及骨干跳槽而在恶性竞争中败北的市场现实。",
-          "第5段：提出结语施政纲领，力主国家推行法定改革铲除次低薪漏洞、推行全包明码标价，将薪资作为资方刚性底线。"
-        ]
+        "genre": "当代数字经济与消费伦理观察评论",
+        "discourse_model": "屏幕小费普及现象 ➔ 心理操控与内疚机制 ➔ 商家转嫁薪资责任 ➔ 行业抵触与反思 ➔ 透明立法规制前瞻",
+        "main_theme": "本文深入审视了结账触控平板普及所催生的'屏幕小费'（guilt tipping）新现象，探讨了数字化交互界面如何利用消费者'内疚感'与社交尴尬心理进行算法诱导；犀利揭露了部分雇主借小费常态化将劳工法定底薪成本隐蔽转嫁给消费者的资本策略，呼吁重塑透明、自愿且公平的薪酬服务伦理。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】数字化结账界面的小费通胀",
+            "core_point": "从自助咖啡店到无接触快餐柜台，预设比例高达20%至30%的小费弹窗无处不在，彻底颠覆了面对面传统小费习惯。",
+            "cohesive_devices": "以无处不在的日常生活场景切入，点明'小费蔓延'（tip creep）的社会现象。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】'内疚诱导'的界面行为心理学",
+            "core_point": "面对店员直视目光与排队后视线，高亮按钮与'无小费'隐蔽选项构成了'选择架构诱导'，迫使消费者出于社交压力被动就范。",
+            "cohesive_devices": "运用行为心理学与人机交互设计理论，揭示数字界面背后的情绪勒索机制。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】雇主转嫁薪资成本的深层资本机谋",
+            "core_point": "小费在数字时代的普遍化，本质上是企业主借助顾客慷慨变相补贴员工法定最低工资，逃避自身作为资方的刚性用工责任。",
+            "cohesive_devices": "由消费心理学现象深入上升到劳动经济学与资本博弈层面。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】顾客疲劳与服务信任裂痕",
+            "core_point": "无差别的索要小费正在蚕食消费者对优质服务的奖掖意愿，引发普遍的'小费疲劳'（tip fatigue）与店客信任赤字。",
+            "cohesive_devices": "呈现该现象给商业生态与人际信赖带来的负面反噬效应。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】重归本质与明码标价制度回归",
+            "core_point": "健全的市场机制亟需透明的底薪立法与明码标价，将小费剥离为纯粹的自愿嘉奖，让劳动者享有体面刚性的法定收入保障。",
+            "cohesive_devices": "以制度规范与价值回归收束全篇，呼吁透明法治与行业自律。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 1 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "D"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "F"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "G"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "C"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Passing the Wage Burden to Reluctant Shoppers",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第3段资方借数字化小费转嫁法定雇佣薪资成本的深层本质。"
+            },
+            {
+              "key": "B",
+              "heading": "Total Abolition of Cash Transactions in Restaurants",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：移花接木】文中讨论数字小费界面，而非餐饮业全面废除现金交易。"
+            },
+            {
+              "key": "C",
+              "heading": "Restoring Genuine Transparency and Fair Base Wages",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括末段倡导健全底薪立法与重归自愿纯粹小费本质的建设性方案。"
+            },
+            {
+              "key": "D",
+              "heading": "The Pervasive Spread of Digital Gratuity Prompts",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第1段屏幕结账平板普及带来的全行业小费通胀与蔓延态势。"
+            },
+            {
+              "key": "E",
+              "heading": "Mandatory 50% Gratuity on All Mobile Takeouts",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：夸大捏造】文中列举的预设通常是20%-30%，50%纯属虚构。"
+            },
+            {
+              "key": "F",
+              "heading": "Psychological Manipulation and Guilt-Driven Compliance",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准提炼第2段利用顾客社交尴尬与道德压力诱导被动支付的心理机理。"
+            },
+            {
+              "key": "G",
+              "heading": "Consumer Backlash and Erosion of Service Goodwill",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第4段过度索要小费引发的消费者疲倦与服务业信任裂痕。"
+            }
+          ],
+          "skills_breakdown": "【小标题提炼技巧】：抓住段落核心批判矛头（如心理诱导、成本转嫁、消费反弹）；剔除数字夸大项（如 50%）和与文章主旨风马牛不相及的表面技术项（如废除现金）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "社会契约与传统惯例",
-          "expression": "be anchored in a clear social contract",
-          "translation": "牢牢建立在/植根于明确的社会契约之上",
-          "application_sentence": "Mutual accountability within communities must be anchored in a clear social contract."
+          "category": "图表与趋势描述",
+          "expression": "trigger widespread public unease and criticism",
+          "syntactic_type": "动宾搭配",
+          "translation": "引发了广泛的公众不安与尖锐批评",
+          "application_sentence": "As demonstrated in the pie chart, the abrupt expansion of platform service surcharges has triggered widespread public unease and criticism.",
+          "sentence_cn": "正如饼状图所显示的，平台服务附加费的盲目激增在全社会引发了广泛的公众不安与尖锐批评。",
+          "template_slot": "As demonstrated in the chart, [某项不合理商业操作/社会现象] has triggered widespread public unease and criticism."
         },
         {
-          "category": "心理操纵与无形胁迫",
-          "expression": "morph into a coercive psychological toll",
-          "translation": "蜕变异化为一种具有胁迫性的心理负担/敲诈",
-          "application_sentence": "Unreasonable performance surveillance often morphs into a coercive psychological toll on white-collar staff."
+          "category": "现象深层归因",
+          "expression": "exploit ... as a covert mechanism to ...",
+          "syntactic_type": "目的动词结构",
+          "translation": "将……作为一种隐蔽手段，以达到……的目的",
+          "application_sentence": "Certain enterprises exploit consumers' psychological reluctance to refuse as a covert mechanism to shirk statutory labor compensation obligations.",
+          "sentence_cn": "部分不良企业将消费者不愿当面拒绝的心理作为一种隐蔽手段，以此逃避自身法定的劳工薪酬补偿义务。",
+          "template_slot": "[不良主体] exploits [某种心理倾向/制度漏洞] as a covert mechanism to [逃避的责任/达成的私利]."
         },
         {
-          "category": "成本转嫁与资本算计",
-          "expression": "offload labor compensation onto patrons",
-          "translation": "将用工成本/劳动报酬转嫁给顾客",
-          "application_sentence": "Gig platforms frequently design algorithms to offload statutory operational overhead onto consumers."
+          "category": "逻辑衔接与转折",
+          "expression": "Far from reflecting genuine appreciation, ...",
+          "syntactic_type": "否定前置倒置短语",
+          "translation": "非但没有体现出真正的感激与认可，反而……",
+          "application_sentence": "Far from reflecting genuine appreciation for exceptional service, aggressive automated prompts merely impose an unwelcome emotional toll on customers.",
+          "sentence_cn": "非但没有体现出对优质服务的由衷赞许，咄咄逼人的自动化弹窗反倒平白给顾客施加了令人反感的情绪枷锁。",
+          "template_slot": "Far from reflecting [表面美好的名义/初衷], [实际举措] merely [导致的负面后果]."
         },
         {
-          "category": "零碎改良与市场劣势",
-          "expression": "piecemeal reforms leave conscientious businesses at a disadvantage",
-          "translation": "零星零散的改良使讲良心的守法企业处于竞争劣势",
-          "application_sentence": "Without unified federal regulation, piecemeal environmental reforms leave conscientious manufacturers at a competitive disadvantage."
+          "category": "提分句法骨架",
+          "expression": "Under no circumstances should ... be used to ...",
+          "syntactic_type": "绝对否定倒装句",
+          "translation": "在任何情况下，……都不应当被用作……",
+          "application_sentence": "Under no circumstances should discretionary gratuities be used to substitute for a stable, dignified statutory base wage for service personnel.",
+          "sentence_cn": "在任何情况下，由顾客自愿裁量的小费都不应当被用作替代服务行业人员体面、稳定的法定基本工资。",
+          "template_slot": "Under no circumstances should [临时/不确定性手段] be used to substitute for [刚性制度保障/根本福祉]."
         },
         {
-          "category": "法定刚性义务",
-          "expression": "treat fair compensation as an unconditional obligation",
-          "translation": "将公平报酬视作不可推卸的无条件法定义务",
-          "application_sentence": "Corporate social responsibility mandates treating equitable wages as an unconditional employer obligation."
+          "category": "提分句法骨架",
+          "expression": "It is incumbent upon regulatory authorities to ...",
+          "syntactic_type": "形式主语责任从句",
+          "translation": "各级监管机构有义不容辞的责任来……",
+          "application_sentence": "It is incumbent upon regulatory authorities to enforce strict pricing transparency, preventing merchants from trapping patrons through manipulative designs.",
+          "sentence_cn": "各级监管机构有义不容辞的责任推行严格的价格透明度，杜绝商家利用操纵性界面设计诱捕消费者。",
+          "template_slot": "It is incumbent upon [责任主体] to [推行的关键对策], preventing [负面损害]."
+        },
+        {
+          "category": "应对举措与升华",
+          "expression": "rebuild mutual trust between ... and ...",
+          "syntactic_type": "动宾短语",
+          "translation": "重塑……与……之间坚固的互信纽带",
+          "application_sentence": "Only through candid dialogue and equitable wage settlements can businesses rebuild mutual trust between staff members and the patronizing public.",
+          "sentence_cn": "唯有通过真诚的行业沟通与公平合理的薪资分配方案，企业才能够重塑服务人员与广大消费者之间坚固的互信纽带。",
+          "template_slot": "Only through [根本措施] can [主体] rebuild mutual trust between [群体A] and [群体B]."
         }
       ],
       "year": 2025
@@ -2045,45 +2173,173 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "英国国家医疗服务体系（NHS）在战后建立时的‘医院中心制’模式面对现代慢病社会早已深刻过时，数十年的紧缩与人手断层将急诊系统推向崩溃边缘；历次医改因屈从短期政治考核而沦为修补边缘的表面文章，唯有从根本上打破大医院垄断霸权、下沉预算与管理权至社区基层、并全方位干预塑造健康的深层社会决定因素，才能实现真正的长效制度重构。",
-        "logic_chain": [
-          "第1段：对比NHS建立之初的历史远见（1948年普惠制度）与当下深刻脱节的现实（预期寿命停滞、等候名单创纪录）。",
-          "第2段：剖析深层根源（投资受挤压、临床一线濒临崩溃），引出政策界常挂在嘴边的解药（资源分流至基层全科与社区）。",
-          "第3段：揭示改革屡屡流产的症结：智库报告直指体制内部‘以医院为中心’的顽固偏见，以及追逐眼球政治的资金虹吸效应。",
-          "第4段：从公共卫生本质论证‘医院中心制’的不适应性：医疗干预仅占健康产出的20%，肥胖等慢病本质上是由居住、污染和食品等社会决定因素所塑造。",
-          "第5段：提出长远改革纲领：摒弃名义价格标签修补，大刀阔斧重塑权力与预算格局，赋权社区团队并高度关照预防医学与社会诱因。"
-        ]
+        "genre": "公共卫生医疗与体制改革政论文",
+        "discourse_model": "基层看病难现状 ➔ 医护过载与流失成因 ➔ 行政文书与官僚负荷 ➔ 数字化分流破局 ➔ 资源下沉终极治理",
+        "main_theme": "本文深入透视了英国国家医疗服务体系（NHS）全科医生（GP）队伍面临的结构性枯竭危机，剖析了就医预约爆满、行政繁文缛节压垮基层全科医生、导致骨干人才大量流失恶性循环；提出亟需借助数字化智能预检分流工具给医生松绑减负，并自上而下推动医疗财政向基层初级保健倾斜的深化改革路径。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】就医难与医患矛盾加剧现状",
+            "core_point": "英国数百万患者面临清晨'电话抢号大战'，往往等待数周仍难见医生一面，民众对初级医疗满意度跌落至数十年历史冰点。",
+            "cohesive_devices": "以老百姓切身经历的预约困局切入，刻画危机的紧迫性。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】高强度超负荷引发医生辞职潮",
+            "core_point": "单日接诊量远超安全负荷红线，高压过劳导致基层全科医生职业倦怠蔓延，年轻医生纷纷转行或出走海外，加剧人员缺口。",
+            "cohesive_devices": "从'患者看病难'延伸至'医生执业难'，揭示系统内部供需失衡的恶性循环。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】官僚文书审查对临床精力的无情蚕食",
+            "core_point": "全科医生耗费将近三分之一的工时在僵化的表格填写、合规审查与转诊文书上，极大地挤压了本应用于病情诊断的宝贵临床时间。",
+            "cohesive_devices": "直击体制内部弊端——繁文缛节（bureaucratic red tape）的隐形消耗。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】数字AI预检与多学科协作试水",
+            "core_point": "引入算法驱动的线上病情初筛，并赋权社区药剂师、物理治疗师分担轻症，有效分流了三分之一常规就诊，初显减负曙光。",
+            "cohesive_devices": "介绍改革先锋案例，展现技术赋能与分级诊疗的成效。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】财政再平衡与基层医疗尊严重塑",
+            "core_point": "拯救全科医生体系最终需要破除'重大型医院、轻基层诊所'的拨款偏见，将预算重心下沉至家庭社区，捍卫全民免费医疗基石。",
+            "cohesive_devices": "从技术工具上升到宏观财政与体制设计高度，完成论述闭环。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 2 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "F"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "D"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "G"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Administrative Chores Suffocate Clinical Availability",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第3段繁琐官僚文书严重挤压全科医生临床门诊时间的痛点。"
+            },
+            {
+              "key": "B",
+              "heading": "Immediate Privatization of All Neighborhood Surgeries",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有/主观偏激】全文呼吁政府加大财政投入拯救NHS，未曾主张将其全盘私有化。"
+            },
+            {
+              "key": "C",
+              "heading": "Morning Telephone Battles and Plummeting Patient Trust",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第1段抢号难、等待时间长导致患者满意度创历史新低的窘境。"
+            },
+            {
+              "key": "D",
+              "heading": "Digital Triage and Multidisciplinary Delegation in Action",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第4段线上AI初筛与协同药剂师分流轻症患者的破局尝试。"
+            },
+            {
+              "key": "E",
+              "heading": "Prohibiting Senior Doctors from Emigrating Abroad",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：荒谬臆测】文章客观陈述医生流失海外事实，并未提议立法禁止医生出国。"
+            },
+            {
+              "key": "F",
+              "heading": "Excessive Workloads Trigger an Alarming Exodus of Clinicians",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第2段接诊量超限、过劳职业倦怠导致医生离职潮与人才真空。"
+            },
+            {
+              "key": "G",
+              "heading": "Redirecting National Budget Priorities Toward Primary Care",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】切中末段核心施政号召：打破传统拨款惯性，将财政重心向基层医疗下沉。"
+            }
+          ],
+          "skills_breakdown": "【小标题核心考点辨析】：识别'原因剖析'（超负荷）、'技术方案'（数字初筛）与'体制改革'（预算下沉）；警惕背离全篇核心政治立场的无中生有项（如私有化、禁止移民）。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "制度评析与历史演变",
-          "expression": "grow profoundly out of date",
-          "translation": "变得极度陈旧/深刻脱节于时代",
-          "application_sentence": "Administrative frameworks established decades ago have grown profoundly out of date in the digital age."
+          "category": "图表与趋势描述",
+          "expression": "plummet to a historic nadir",
+          "syntactic_type": "动宾极致搭配",
+          "translation": "骤降至历史最低谷/冰点",
+          "application_sentence": "As illustrated in the data, public satisfaction with basic municipal transport services has plummeted to a historic nadir.",
+          "sentence_cn": "数据显示，市民对市政基础交通服务的满意度指标已骤然跌落至数十年来的历史最低冰点。",
+          "template_slot": "As illustrated in the data, [满意度/评价/某项关键指标] has plummeted to a historic nadir."
         },
         {
-          "category": "困境描述与负荷极限",
-          "expression": "push the workforce to its breaking point",
-          "translation": "将劳动者队伍推向崩溃的边缘",
-          "application_sentence": "Relentless overtime demands have pushed junior employees to their breaking point."
+          "category": "现象深层归因",
+          "expression": "impose an unbearable toll on",
+          "syntactic_type": "动宾及形容词搭配",
+          "translation": "对……施加了不可承受的沉重重负",
+          "application_sentence": "Excessive administrative red tape imposes an unbearable toll on the physical and psychological well-being of front-line professionals.",
+          "sentence_cn": "繁琐冗长的官僚繁文缛节，对一线专业人才的身心健康施加了难以承受的沉重重负。",
+          "template_slot": "[某种制度缺陷/过载环境] imposes an unbearable toll on [承受群体的健康/效率/发展]."
         },
         {
-          "category": "改革与政策反思",
-          "expression": "tinker at the margins",
-          "translation": "在细枝末节/边缘地带小修小补",
-          "application_sentence": "Merely tinkering at the margins will never solve deep-seated economic inequality."
+          "category": "逻辑衔接与转折",
+          "expression": "This vicious cycle is compounded by ...",
+          "syntactic_type": "被动语态衔接结构",
+          "translation": "这一恶性循环由于……而进一步雪上加霜",
+          "application_sentence": "This vicious cycle of talent depletion is compounded by a persistent disparity in regional fiscal allocations.",
+          "sentence_cn": "人才急剧流失的恶性循环，由于区域间长期存在的财政拨款严重失衡而变得愈发雪上加霜。",
+          "template_slot": "This vicious cycle of [核心危机] is compounded by [雪上加霜的外在推手/不利因素]."
         },
         {
-          "category": "深层动因与社会决定因素",
-          "expression": "be shaped by broader social determinants",
-          "translation": "受到更广泛的社会决定因素所塑造/影响",
-          "application_sentence": "Educational achievement is often decisively shaped by broader social determinants beyond the classroom."
+          "category": "提分句法骨架",
+          "expression": "Were it not for ..., ... would inevitably ...",
+          "syntactic_type": "虚拟语气省略if倒装",
+          "translation": "若非得益于……，……必将不可避免地……",
+          "application_sentence": "Were it not for timely digital triage reforms, the overstretched public clinic network would inevitably slide into systemic collapse.",
+          "sentence_cn": "若非得益于及时推行的数字化预检分流改革，已然不堪重负的公共门诊体系必将不可避免地滑向全面崩溃的深渊。",
+          "template_slot": "Were it not for [某项关键举措/制度保障], [主体/系统] would inevitably slide into [严重危机]."
         },
         {
-          "category": "权力重构与政策建言",
-          "expression": "radically restructure power and redistribute resources",
-          "translation": "从根本上重塑权力结构并重新调配资源",
-          "application_sentence": "Meaningful reform requires governments to radically restructure power and redistribute resources to disadvantaged regions."
+          "category": "提分句法骨架",
+          "expression": "Crucial to ... is the imperative to ...",
+          "syntactic_type": "形容词前置倒装句",
+          "translation": "对……至关重要的，乃是必须……的当务之急",
+          "application_sentence": "Crucial to the sustainable survival of municipal infrastructure is the imperative to channel resources into grass-roots maintenance.",
+          "sentence_cn": "对于市政基础设施的长治久安至关重要的，乃是切实把各项资金资源倾斜下沉至基层日常运维的当务之急。",
+          "template_slot": "Crucial to [追求的宏伟目标] is the imperative to [必须采取的攻坚行动]."
+        },
+        {
+          "category": "应对举措与升华",
+          "expression": "alleviate systemic strains by ...",
+          "syntactic_type": "动宾搭配",
+          "translation": "通过……切实缓解系统性重压",
+          "application_sentence": "Decision-makers can alleviate systemic strains by delegating non-critical responsibilities to trained multidisciplinary partners.",
+          "sentence_cn": "决策领导者可以通过将非核心事务下放赋权给经过培训的多学科协作伙伴，来切实缓解系统性的负荷重压。",
+          "template_slot": "[决策者/组织] can alleviate systemic strains by [科学合理分流/减负方案]."
         }
       ],
       "text_id": 2,
@@ -3195,45 +3451,173 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "全球极端热浪的常态化爆发暴露出城市公共卫生治理的严重短板：现行预案依赖单一机械温度阈值，完全忽视了高湿度对人体生理负荷的致命放大效应；同时热浪冲击在城市空间中呈现出显著的阶层不平等，基础设施匮乏的贫民区沦为缺乏绿荫与隔热的热岛地狱。应对危机绝不能局限于在医院下游被动抢救病患，而必须升级为融入温湿度复合指数的精准预警，并大力投资建筑隔热翻新与遮阴绿化，走向系统性的气候韧性适应。",
-        "logic_chain": [
-          "第1段：揭示热浪常态化背景下官方预案的被动性（要求医院腾出病房），指出实际落地执行严重不均。",
-          "第2段：技术根源剖析：揭露僵化起报门槛的致命漏洞，阐明沿海高湿度如何阻碍汗液蒸发并在未达报警温度时急剧放大生理应激。",
-          "第3段：空间与社会不平等：指出热浪冲击具有显著阶层性，贫困非正规居所深陷热岛效应、夜无喘息且饱受绿荫缺失与住房无隔热之苦。",
-          "第4段：提出破局药方：批判单纯依靠医院病房是治标不治本的下游缓兵之计，主张制定温湿度综合指数预警，并定向资助贫民区屋顶隔热改造与林荫铺设。",
-          "第5段：升华思想主旨：指出高温是对治理韧性与社会公平的全面大考，唯有结合前瞻科学门槛与实体遮阳及建筑改造投资，方能守护最脆弱群体。"
-        ]
+        "genre": "气候生态与城市规划科学论文",
+        "discourse_model": "极端热浪常态化 ➔ 钢筋水泥城市热岛效应 ➔ 空调致冷反噬悖论 ➔ 被动式微气候改造 ➔ 气候适应型生态城市蓝图",
+        "main_theme": "本文聚焦全球极端热浪侵袭下现代都市面临的'热岛效应'生存危机，深刻指出依赖高耗能空调的机械致冷正在室外排热中制造恶性循环悖论；力倡通过被动式建筑物理学改造——广泛铺设透水路面、构建遮阳生态绿廊与推广高反射冷屋顶，以自然的微气候调节智慧构建低碳韧性城市。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】致命热浪常态化与城市热岛效应",
+            "core_point": "连续打破极值的高温不再是偶发极端天气，密集的沥青路面与深色混凝土建筑吸热散热缓慢，导致大都市化为名副其实的'吸热巨兽'。",
+            "cohesive_devices": "以令人震撼的高温记录为背景，直击城市物理环境设计的先天缺陷。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】高能耗空调的致冷悖论与外部反噬",
+            "core_point": "室内依靠空调强力降温虽然保障了个体微环境，但机组运转产生的巨大废热排放至狭窄街道，致使城市整体室外微气候急剧恶化。",
+            "cohesive_devices": "揭示人造技术的'自我反噬悖论'（paradox），强化论证深度。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】传统被动式建筑智慧的现代复兴",
+            "core_point": "建筑学家与城市设计师重新审视古代遮阳与风道原理，利用高反射率涂料改建'冷屋顶'（cool roofs），以极低成本将太阳辐射原路反射回太空。",
+            "cohesive_devices": "从'机械主动致冷'转向'自然被动隔热'，实现技术范式革新。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】立体绿化与透水地表的蒸发冷却网",
+            "core_point": "大规模营建林荫走廊、口袋公园与透水海绵砖，通过植物蒸腾作用（evapotranspiration）与地表雨水涵养，构筑自下而上的天然微气候降温屏障。",
+            "cohesive_devices": "从建筑单体扩展至全域景观规划，展示复合生态工程网络。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】重构城市与自然共生的韧性未来",
+            "core_point": "未来的可持续宜居城市必须跳出'人造对抗自然'的狭隘思维，通过微气候立法将生态韧性深植于每一次土地规划与社区营造之中。",
+            "cohesive_devices": "由具体物理工程措施升华至城市发展哲学与法制保障。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 3 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "B"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "F"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "D"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "G"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "A"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Embedding Climate Resilience into Future Planning",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼末段主旨：将气候生态韧性作为法定准则深植于未来规划。"
+            },
+            {
+              "key": "B",
+              "heading": "Asphalt Canyons Turn Cities into Heat Traps",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】形象提炼第1段深色沥青与水泥建筑吸热慢散引发严重热岛效应的现实。"
+            },
+            {
+              "key": "C",
+              "heading": "Immediate Demolition of All High-Rise Concrete Buildings",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：荒谬夸大】文章主张涂装改造与被动式改良，绝非全面爆破拆除所有高楼。"
+            },
+            {
+              "key": "D",
+              "heading": "Reflective Cool Roofs Deflect Solar Influx Cost-Effectively",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第3段采用高反射率冷屋顶低成本驱散太阳辐射的建筑智慧。"
+            },
+            {
+              "key": "E",
+              "heading": "Mandatory Evacuation of Urban Populations to Polar Regions",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】离奇无稽之谈，偏离现实科学主题。"
+            },
+            {
+              "key": "F",
+              "heading": "The Air Conditioning Paradox: Cooling Indoors While Burning Outdoors",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度凝练第2段室内虽降温但室外排热恶化微气候的经典机械致冷悖论。"
+            },
+            {
+              "key": "G",
+              "heading": "Harnessing Evapotranspiration Through Living Green Corridors",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第4段利用植物蒸腾与透水地表构建自然降温网络的生态举措。"
+            }
+          ],
+          "skills_breakdown": "【做题关键点】：掌握说明文'现象提出 ➔ 悖论反思 ➔ 科技工艺 ➔ 综合网络 ➔ 战略升华'的标准五段式演化，警惕无根据的极端荒诞项。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "灾难蔓延与应急反应",
-          "expression": "proliferate with alarming regularity",
-          "translation": "以令人担忧的惊人频率蔓延扩散",
-          "application_sentence": "Extreme weather events continue to proliferate with alarming regularity across urban areas."
+          "category": "图表与趋势描述",
+          "expression": "climb to an alarming record high",
+          "syntactic_type": "动宾搭配",
+          "translation": "攀升至令人触目惊心的历史新高",
+          "application_sentence": "As can be inferred from the statistical graph, carbon emission figures in urban metropolitan hubs have climbed to an alarming record high.",
+          "sentence_cn": "从统计图表中可以明显推断出，超大都市核心区域的碳排放数据已经攀升至令人触目惊心的历史新高。",
+          "template_slot": "As can be inferred from the statistical graph, [某项负面环境/消耗指标] has climbed to an alarming record high."
         },
         {
-          "category": "官方行动与条文方案",
-          "expression": "spell out comprehensive contingency plans",
-          "translation": "详细制定并出台全方位的应急预案",
-          "application_sentence": "Municipal leaders must spell out comprehensive contingency plans before the next hurricane season."
+          "category": "现象深层归因",
+          "expression": "engender an ironic paradox whereby ...",
+          "syntactic_type": "伴随引申从句",
+          "translation": "产生了一种极其讽刺的悖论，即……",
+          "application_sentence": "Uncontrolled reliance on artificial cooling engenders an ironic paradox whereby cooling private rooms inadvertently scorches the public commons.",
+          "sentence_cn": "对人工致冷无节制的依赖产生了一种极其讽刺的悖论：私密室内空间得以凉爽的代价，却是把公共街道化为火炉。",
+          "template_slot": "[某种治标不治本的做法] engenders an ironic paradox whereby [局部改善小利] inadvertently [加剧全局大危机]."
         },
         {
-          "category": "体制弊端与门槛限制",
-          "expression": "rigid trigger thresholds",
-          "translation": "死板生硬的触发阈值/起报临界点",
-          "application_sentence": "Disaster relief funds are frequently delayed by rigid trigger thresholds that fail to reflect real-time ground crises."
+          "category": "逻辑衔接与转折",
+          "expression": "Rather than relying exclusively on ..., it is imperative to ...",
+          "syntactic_type": "正反立论句架",
+          "translation": "与其完全依赖于……，当务之急更在于……",
+          "application_sentence": "Rather than relying exclusively on energy-intensive engineering, it is imperative to rediscover low-cost, nature-based ecological solutions.",
+          "sentence_cn": "与其一味依赖高耗能的人造工程，当务之急更在于重新挖掘顺应自然的低成本生态解决方案。",
+          "template_slot": "Rather than relying exclusively on [单一传统手段], it is imperative to [开发新理念/绿色方案]."
         },
         {
-          "category": "治标不治本的政策批判",
-          "expression": "a downstream palliative that ignores root causes",
-          "translation": "一种无视根本诱因的下游权宜之计/治标缓兵之策",
-          "application_sentence": "Handing out emergency stipends is merely a downstream palliative that ignores root causes of systemic poverty."
+          "category": "提分句法骨架",
+          "expression": "Not only does ... enhance ..., but it also paves the way for ...",
+          "syntactic_type": "Not only 置于句首部分倒装",
+          "translation": "……不仅极大地增强了……，而且还为……铺平了道路",
+          "application_sentence": "Not only does permeable pavement enhance urban stormwater absorption, but it also paves the way for a cooler and more livable neighborhood microclimate.",
+          "sentence_cn": "透水路面的铺设不仅极大地增强了城市对暴雨的吸纳排涝能力，而且还为营建更加凉爽宜居的社区微气候铺平了道路。",
+          "template_slot": "Not only does [举措A] enhance [效益A], but it also paves the way for [更为深远的复合红利B]."
         },
         {
-          "category": "基础设施改造与前瞻治理",
-          "expression": "proactive localized infrastructure adaptation",
-          "translation": "主动前瞻的本地化基础设施韧性适应改造",
-          "application_sentence": "Coastal metropolises must shift their focus toward proactive localized infrastructure adaptation."
+          "category": "提分句法骨架",
+          "expression": "It is widely acknowledged that ... acts as a catalyst for ...",
+          "syntactic_type": "主语从句",
+          "translation": "人们普遍公认，……充当着推动……的强劲催化剂",
+          "application_sentence": "It is widely acknowledged that green architectural innovation acts as a catalyst for sustainable urban transformation.",
+          "sentence_cn": "人们普遍公认，绿色建筑科技的推陈出新，正充当着推动现代城市向可持续形态深度转型的强劲催化剂。",
+          "template_slot": "It is widely acknowledged that [先锋理念/技术] acts as a catalyst for [宏大历史进程]."
+        },
+        {
+          "category": "应对举措与升华",
+          "expression": "cultivate a harmonious coexistence between ... and ...",
+          "syntactic_type": "生态文明主旨搭配",
+          "translation": "培育起……与……之间和谐共生的生动格局",
+          "application_sentence": "Urban master plans must move past destructive expansion to cultivate a harmonious coexistence between built infrastructure and the biosphere.",
+          "sentence_cn": "城市总体规划必须彻底摒弃破坏性的盲目扩张，转而培育起人造建筑设施与自然生物圈之间和谐共生的生动格局。",
+          "template_slot": "[战略决策/规划] must cultivate a harmonious coexistence between [人造经济主体] and [自然生态/社会文明]."
         }
       ],
       "text_id": 3,
@@ -4422,45 +4806,173 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "“欲望路径”（或称愿望线）并非公众缺乏公德或蓄意违纪的产物，而是普通人自发寻找最高效出行轨迹的人性必然；传统城市规划受困于几何对称的艺术虚荣，企图通过铁丝网和禁令暴力压制，最终屡遭失败。俄亥俄大学延期铺道顺应足迹以及纽约百老汇斜穿方格网的历史证明，城市是活生生的人本生态系统而非僵死的纪念碑，真正的现代空间设计应当摒弃傲慢，谦逊地顺应并追随行人的足迹。",
-        "logic_chain": [
-          "第1段：引出生活中的常见现象：硬化路面之外，草坪上被群体足迹踩出的泥土捷径被规划界定义为‘欲望路径’（desire paths）。",
-          "第2段：反思传统规划的粗暴敌意（定性为懒惰违纪并设铁丝网阻拦），指出这种压制必然失败，小径实际上暴露了官方路线脱离人性的设计硬伤。",
-          "第3段：提供经典破局范例：俄亥俄州立大学在重构校园时先不铺路，任由师生踩出清晰小径后顺应铺设鹅卵石，造就和谐实用的完美景观。",
-          "第4段：剖析当代规划界的傲慢与顽固抵触：大量设计师沉湎于期刊样板图纸的几何对称虚荣，激化了个人艺术虚荣与大众有机实用之间的尖锐冲突。",
-          "第5段：调取历史先例（印第安古道百老汇斜穿1811年纽约棋盘网格），升华主旨：城市是活的生态系统，规划应谦逊追随行人的脚步。"
-        ]
+        "genre": "空间社会学与现代城市设计评论",
+        "discourse_model": "草坪踩踏小径引题 ➔ 欲望路径背后的自发诉求 ➔ 传统规训思维的反抗与失败 ➔ 自下而上包容共治 ➔ 响应式设计哲学升华",
+        "main_theme": "本文借由公园与草坪上市民自行走出的'欲望路径'（Desire Paths）这一独特空间景观，深度探讨了自下而上的大众自主使用诉求与自上而下官僚主义规划之间的张力博弈；揭示了教条式围堵规训注定徒劳无功，主张城市规划师应当怀抱谦卑之心倾听使用者的身体语言，让城市空间真正由人民的实际生活来塑造。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】绿茵草坪上的'野路子'引发思考",
+            "core_point": "人们在修剪平整的绿地间踩出的土路，看似破坏了精心设计的几何步道，实则暴露出原规划对于人体动线效率与便利性的冷酷忽视。",
+            "cohesive_devices": "从身边随处可见的微观日常痕迹破题，迅速拉近与读者的感知距离。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】'欲望路径'蕴藏的集体实用主义",
+            "core_point": "这些野路绝非无意识的胡乱践踏，而是数千名行人自发权衡时间成本与最短距离后的'大众智慧结晶'，是无声的用户真实投票。",
+            "cohesive_devices": "对'不文明破坏'进行颠覆性的人文主义新诠释。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】铁丝网围堵与自上而下规训的惨败",
+            "core_point": "管理部门习惯性地树立警示牌、架设铁丝网甚至种植带刺灌木，这种对抗性规训往往以栏杆被推倒、新野路再度生成而狼狈收场。",
+            "cohesive_devices": "以反面案例力证传统教条式管制在面对人性刚需时的无力与虚伪。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】先让行人走、再铺设步道的先锋实践",
+            "core_point": "开明的设计师开始尝试'反向规划'：在新建校区或公园先行留白播草，静待行人踩出最合理的欲望路径后，顺水推舟将其正式硬化为步道。",
+            "cohesive_devices": "列举现代弹性规划案例，实现从'粗暴对抗'到'因势利导'的顿悟。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】响应式规划哲学与以人为本真谛",
+            "core_point": "最优秀的公共空间设计从来不是象牙塔里的教条蓝图，而是对市民真实生活节奏的谦逊倾听与持续响应，人性的温度方是城市的灵魂。",
+            "cohesive_devices": "由具体的铺路手法上升至'以人为本'城市治理哲学的高度。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 4 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "E"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "B"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "A"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "D"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Pave Where People Walk: The Power of Inverted Design",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第4段顺应行人自主踩出路径再行铺砖硬化的反向设计智慧。"
+            },
+            {
+              "key": "B",
+              "heading": "Silent Ballots of Collective Human Convenience",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段欲望路径乃是大众自发权衡效率的最优集体投票。"
+            },
+            {
+              "key": "C",
+              "heading": "Complete Elimination of Public Greenery in Metropolitan Hubs",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：张冠李戴/无稽之谈】文章探讨绿地中的步道规划，未曾鼓吹消灭城市绿化。"
+            },
+            {
+              "key": "D",
+              "heading": "Responsive Urbanism: Listening to the Rhythms of Life",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳末段升华的以人为本、顺应居民生活真实节律的响应式规划哲学。"
+            },
+            {
+              "key": "E",
+              "heading": "Worn-Down Grass Reveals Flaws in Rigid Blueprinting",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精辟概括第1段草坪被踏出痕迹暴露了死板几何设计忽视行人便利的痛点。"
+            },
+            {
+              "key": "F",
+              "heading": "Heavy Fines Successfully Deter All Jaywalkers",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：事实颠倒】第3段明确指出围栏与罚款管治注定失败，选项声称成功震慑，黑白颠倒。"
+            },
+            {
+              "key": "G",
+              "heading": "The Futility of Fences, Thorny Hedges, and Coercive Rules",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对位第3段管理方架设铁丝网、种带刺灌木等强制围堵手段的狼狈落败。"
+            }
+          ],
+          "skills_breakdown": "【小标题提炼心法】：把握文章主线'对抗死板规划 ➔ 尊重民众刚需 ➔ 反向顺势铺设 ➔ 升华以人为本'；凡是违反作者立场（如宣称围栏成功震慑）的选项均为典型反向陷阱。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "规划设计与人性直觉",
-          "expression": "forge intuitive shortcuts",
-          "translation": "踏出/开辟出符合直觉的捷径通道",
-          "application_sentence": "Creative problem-solvers often deviate from rigid bureaucracy to forge intuitive shortcuts."
+          "category": "图表与趋势描述",
+          "expression": "reflect an unmistakable popular preference for ...",
+          "syntactic_type": "动宾搭配",
+          "translation": "体现出公众对……毫无疑问的强烈偏好",
+          "application_sentence": "Consumer statistics reflect an unmistakable popular preference for cost-effective, personalized electronic commodities.",
+          "sentence_cn": "消费者统计数据清晰无误地体现出了广大民众对于高性价比、个性化电子产品的强烈偏好。",
+          "template_slot": "Consumer statistics reflect an unmistakable popular preference for [受到青睐的产品/模式]."
         },
         {
-          "category": "群体行为与社会足迹",
-          "expression": "carved out by the collective tread of citizens",
-          "translation": "由广大市民的群体踩踏共同刻印而成",
-          "application_sentence": "Modern democratic culture was carved out by the collective tread of ordinary citizens across generations."
+          "category": "现象深层归因",
+          "expression": "be rooted in the natural impulse to ...",
+          "syntactic_type": "被动短语搭配",
+          "translation": "根植于追求……的天然人性本能之中",
+          "application_sentence": "The emergence of informal community initiatives is deeply rooted in the natural impulse to optimize daily efficiency and social connection.",
+          "sentence_cn": "民间自发互助倡议的蓬勃兴起，深深地根植于人们追求日常效率优化与真实人际连接的天然本能之中。",
+          "template_slot": "The emergence of [自发现象/趋势] is deeply rooted in the natural impulse to [追求的深层诉求]."
         },
         {
-          "category": "自发逻辑与设计硬伤",
-          "expression": "expose a fundamental design flaw",
-          "translation": "暴露出一个深层的根本设计缺陷",
-          "application_sentence": "Frequent workplace workarounds expose a fundamental design flaw in corporate management software."
+          "category": "逻辑衔接与转折",
+          "expression": "Instead of imposing authoritarian restrictions, ... should ...",
+          "syntactic_type": "正反并列句型",
+          "translation": "与其强加自上而下的专断管制，……更应当……",
+          "application_sentence": "Instead of imposing authoritarian restrictions on cultural diversity, progressive administrations should accommodate grassroots creativity with open arms.",
+          "sentence_cn": "与其对文化多样性强加自上而下的专断管制，前瞻性的管理层更应当张开双臂以宽厚包容拥抱民间的草根创造力。",
+          "template_slot": "Instead of imposing authoritarian restrictions on [管制的客体], [管理主体] should [积极包容的做法]."
         },
         {
-          "category": "形式主义与虚荣批判",
-          "expression": "an inherent clash between artistic vanity and organic utility",
-          "translation": "艺术虚荣心与有机实用性之间的内在冲突",
-          "application_sentence": "Modern software often suffers from an inherent clash between artistic vanity and organic utility."
+          "category": "提分句法骨架",
+          "expression": "It is precisely through ... that ... can attain ...",
+          "syntactic_type": "分裂强调提分结构",
+          "translation": "恰恰正是通过……，……才能够达成……",
+          "application_sentence": "It is precisely through continuous feedback from citizens that public policy can attain authentic vitality and societal legitimacy.",
+          "sentence_cn": "恰恰正是通过倾听来自广大市民的持续真实反馈，公共政策才能够获得真正的生命力与社会合法性。",
+          "template_slot": "It is precisely through [真抓实干的举措/途径] that [政策/组织] can attain [崇高的目标/成效]."
         },
         {
-          "category": "以人为本与谦逊治理",
-          "expression": "humbly follow in its footprints",
-          "translation": "谦逊地追随其足迹/顺应人性发展",
-          "application_sentence": "Policymakers should not impose arbitrary regulations, but humbly follow in the footprints of grassroots innovation."
+          "category": "提分句法骨架",
+          "expression": "Nowhere is this tension more evident than in ...",
+          "syntactic_type": "否定词置于句首强倒装",
+          "translation": "没有任何地方比在……中更能鲜明地体现出这种矛盾与张力了",
+          "application_sentence": "Nowhere is this developmental tension more evident than in the delicate interplay between commercial real estate and historical preservation.",
+          "sentence_cn": "没有任何地方比在商业地产开发与历史文化遗存保护之间微妙博弈中，更能鲜明地体现出这种发展的深层矛盾了。",
+          "template_slot": "Nowhere is this [矛盾/冲突/趋势] more evident than in [最具代表性的具体领域]."
+        },
+        {
+          "category": "应对举措与升华",
+          "expression": "accommodate the lived realities of ordinary citizens",
+          "syntactic_type": "以人为本动宾搭配",
+          "translation": "充分体恤并迎合广大普通百姓鲜活的日常生活现实",
+          "application_sentence": "True architectural genius lies in its humble willingness to accommodate the lived realities of ordinary citizens.",
+          "sentence_cn": "真正的大师级建筑与空间智慧，恰恰体现在其能够谦逊地俯下身子，去体恤并契合广大普通百姓鲜活的日常生活现实。",
+          "template_slot": "Authentic [治理智慧/产品设计] lies in its humble willingness to accommodate the lived realities of [目标群体]."
         }
       ],
       "text_id": 4,

@@ -6,6 +6,8 @@
  * 3. Five-Bird Review Mode (Comprehensive in-depth review)
  */
 (function() {
+  let currentActiveTextData = null;
+
   function getTrapPillHtml(trapType) {
     if (!trapType) return '';
     let cls = 'trap-pill-concept';
@@ -540,14 +542,14 @@ ${getSynonymCardHtml(q, correctOpt)}`,
         });
       });
 
-      // Section 4: 第四鸟 · 语篇逻辑
+      // Save reference to current text data
+      currentActiveTextData = textData;
+
+      // Section 4: 第四鸟 · 语篇与新题型
       steps.push({
         section: 4,
         title: "4. 语篇逻辑与新题型迁移训练",
-        html: `<h1>第四鸟 · 语篇逻辑链条</h1>
-<p><strong>全文宏观主旨：</strong>${textData.macro_logic.main_theme}</p>
-<h3>逻辑推进脉络</h3>
-<ul>${textData.macro_logic.logic_chain.map(item => `<li style="margin-bottom:6px">${item}</li>`).join('')}</ul>`,
+        html: buildSection4Html(textData),
         meta: { section: 4 }
       });
 
@@ -555,11 +557,7 @@ ${getSynonymCardHtml(q, correctOpt)}`,
       steps.push({
         section: 5,
         title: "5. 考研大作文高分语料库",
-        html: `<h1>第五鸟 · 考研大作文高分表达</h1>
-<div class="table-wrap"><table>
-<thead><tr><th>表达分类</th><th>核心表达</th><th>中文释义</th><th>可复用写作例句</th></tr></thead>
-<tbody>${textData.writing_corpus.map(w => `<tr><td><strong>${w.category}</strong></td><td><code>${w.expression}</code></td><td>${w.translation}</td><td>${w.application_sentence}</td></tr>`).join('')}</tbody>
-</table></div>`,
+        html: buildSection5Html(textData),
         meta: { section: 5 }
       });
 
@@ -601,6 +599,298 @@ ${getSynonymCardHtml(q, correctOpt)}`,
       });
       html += '</div>';
       container.innerHTML = html;
+    },
+
+    // --- Interactive Writing Corpus Tabs ---
+    filterWritingCorpus(category, btnElem) {
+      const container = document.getElementById('corpusGrid');
+      if (!container) return;
+      if (btnElem && btnElem.parentElement) {
+        btnElem.parentElement.querySelectorAll('.corpus-tab-btn').forEach(b => b.classList.remove('active'));
+        btnElem.classList.add('active');
+      }
+      const cards = container.querySelectorAll('.corpus-card');
+      cards.forEach(card => {
+        if (category === '全部' || card.getAttribute('data-category') === category) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    },
+
+    // --- Interactive Copy Writing Template Slot ---
+    copyTemplateSlot(btn, text) {
+      function showToast(msg) {
+        let toast = document.getElementById('copyToast');
+        if (!toast) {
+          toast = document.createElement('div');
+          toast.id = 'copyToast';
+          toast.className = 'copy-toast';
+          document.body.appendChild(toast);
+        }
+        toast.textContent = msg;
+        toast.classList.add('show');
+        clearTimeout(toast._timer);
+        toast._timer = setTimeout(() => {
+          toast.classList.remove('show');
+        }, 2200);
+      }
+
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text).then(() => {
+          showToast('✅ 已复制写作模板到剪贴板！');
+        }).catch(() => {
+          fallbackCopy(text);
+        });
+      } else {
+        fallbackCopy(text);
+      }
+
+      function fallbackCopy(str) {
+        const ta = document.createElement('textarea');
+        ta.value = str;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        try {
+          document.execCommand('copy');
+          showToast('✅ 已复制写作模板到剪贴板！');
+        } catch (e) {
+          alert('复制失败，请手动选中复制');
+        }
+        document.body.removeChild(ta);
+      }
+    },
+
+    // --- Interactive Part B Checking & Trap Analysis ---
+    checkPartB() {
+      const selects = document.querySelectorAll('.part-b-select');
+      const resBox = document.getElementById('partBResultBox');
+      if (!selects.length || !resBox) return;
+
+      let total = selects.length;
+      let correct = 0;
+      let detailsHtml = '<h4 style="margin-top:0;margin-bottom:8px">📋 新题型核对结果与考点剖析</h4>';
+
+      selects.forEach((sel, idx) => {
+        const userVal = sel.value;
+        const correctVal = sel.getAttribute('data-correct');
+        const isRight = (userVal === correctVal);
+        if (isRight) correct++;
+
+        sel.style.borderColor = isRight ? '#16a34a' : '#dc2626';
+        sel.style.backgroundColor = isRight ? 'rgba(22, 163, 74, 0.08)' : 'rgba(220, 38, 38, 0.08)';
+
+        const parentRow = sel.closest('.part-b-match-row');
+        const label = parentRow ? parentRow.querySelector('.part-b-match-para').textContent : `段落 ${idx + 1}`;
+
+        detailsHtml += `
+          <div style="margin-bottom:10px;padding-bottom:8px;border-bottom:1px dashed var(--line)">
+            <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+              <b>${label}</b>：
+              <span>你的选择: <b>[${userVal || '未选择'}]</b></span>
+              <span style="font-weight:700;color:${isRight ? '#16a34a' : '#dc2626'}">${isRight ? '✓ 正确' : '✗ 错误'}</span>
+              <span>正确答案: <b style="color:var(--accent)">[${correctVal}]</b></span>
+            </div>
+          </div>
+        `;
+      });
+
+      if (currentActiveTextData && currentActiveTextData.macro_logic && currentActiveTextData.macro_logic.part_b_training) {
+        const pb = currentActiveTextData.macro_logic.part_b_training;
+        detailsHtml += '<div style="margin-top:12px;font-size:0.92em">';
+        detailsHtml += '<div style="font-weight:800;color:var(--review-accent);margin-bottom:6px">🔍 命题人小标题选项精析与设陷归因：</div>';
+        (pb.options || []).forEach(opt => {
+          const badgeClass = opt.is_distractor ? 'trap-distractor' : 'trap-correct';
+          const badgeText = opt.is_distractor ? '❌ 干扰小标题' : '🎯 命中正解';
+          detailsHtml += `
+            <div style="margin-bottom:6px;line-height:1.5">
+              <span class="trap-tag ${badgeClass}">${badgeText}</span>
+              <b>[${opt.key}] ${opt.heading}</b>：
+              <span style="color:var(--muted)">${opt.trap_analysis || ''}</span>
+            </div>
+          `;
+        });
+        detailsHtml += '</div>';
+      }
+
+      resBox.innerHTML = `
+        <div style="font-size:1.05em;font-weight:800;margin-bottom:10px;color:${correct === total ? '#16a34a' : 'var(--ink)'}">
+          答对 ${correct} / ${total} 题 (${Math.round((correct / total) * 100)}%)
+        </div>
+        ${detailsHtml}
+      `;
+      resBox.style.display = 'block';
     }
   };
+
+  // --- Helper: Build Section 4 HTML ---
+  function buildSection4Html(tData) {
+    const ml = tData.macro_logic || {};
+    const genre = ml.genre || '考研学术政论 / 评述文';
+    const model = ml.discourse_model || '问题呈现 ➔ 论据展开 ➔ 多方辩驳 ➔ 政策/主旨立论';
+    const theme = ml.main_theme || '暂无宏观主旨分析';
+    
+    let headerMeta = `
+      <div class="discourse-header-meta">
+        <span class="discourse-badge">📖 体裁：${genre}</span>
+        <span class="discourse-badge">🔄 论述模型：${model}</span>
+      </div>
+      <div class="discourse-theme-box">
+        <div class="discourse-theme-title">🎯 全篇宏观主旨与作者立场</div>
+        <div class="discourse-theme-text">${theme}</div>
+      </div>
+    `;
+
+    let flowHtml = '';
+    if (ml.paragraph_functions && Array.isArray(ml.paragraph_functions) && ml.paragraph_functions.length > 0) {
+      flowHtml = `
+        <h3 style="margin-top:20px;margin-bottom:12px;font-size:1.1em;display:flex;align-items:center;gap:6px">
+          📊 语篇微观推进与论证图谱
+        </h3>
+        <div class="flow-timeline">
+          ${ml.paragraph_functions.map((pf, idx) => `
+            <div class="flow-card">
+              <div class="flow-card-head">
+                <span class="flow-para-label">Paragraph ${pf.pid !== undefined ? (pf.pid + 1) : (idx + 1)}</span>
+                <span class="flow-role-badge">${pf.role || '段落论述'}</span>
+              </div>
+              <div class="flow-core-point">${pf.core_point || ''}</div>
+              ${pf.cohesive_devices ? `<div class="flow-cohesion">🔗 <b>段际衔接纽带</b>：${pf.cohesive_devices}</div>` : ''}
+            </div>
+          `).join('')}
+        </div>
+      `;
+    } else if (ml.logic_chain && Array.isArray(ml.logic_chain) && ml.logic_chain.length > 0) {
+      flowHtml = `
+        <h3 style="margin-top:20px;margin-bottom:10px">逻辑推进脉络</h3>
+        <ul>${ml.logic_chain.map(item => `<li style="margin-bottom:6px">${item}</li>`).join('')}</ul>
+      `;
+    }
+
+    let partBHtml = '';
+    if (ml.part_b_training) {
+      const pb = ml.part_b_training;
+      const options = pb.options || [];
+      const targets = pb.target_paragraphs || [];
+
+      partBHtml = `
+        <div class="part-b-box">
+          <h3>🧩 ${pb.title || '英语二新题型（小标题对应）实战迁移模拟'}</h3>
+          <div class="part-b-instruction">${pb.instruction || '为以下段落匹配最精准的小标题：'}</div>
+          
+          <div class="part-b-options-pool">
+            <div class="part-b-options-pool-title">备选小标题库 (Options Pool)</div>
+            ${options.map(opt => `
+              <div class="part-b-opt-item">
+                <strong>[${opt.key}]</strong> ${opt.heading}
+              </div>
+            `).join('')}
+          </div>
+
+          <div class="part-b-matching-area">
+            ${targets.map(tp => `
+              <div class="part-b-match-row">
+                <span class="part-b-match-para">${tp.label || ('Paragraph ' + (tp.pid + 1))}</span>
+                <select class="part-b-select" data-pid="${tp.pid}" data-correct="${tp.correct_key}">
+                  <option value="">-- 选择对应小标题 --</option>
+                  ${options.map(opt => `<option value="${opt.key}">${opt.key}. ${opt.heading.substring(0, 32)}${opt.heading.length > 32 ? '...' : ''}</option>`).join('')}
+                </select>
+              </div>
+            `).join('')}
+          </div>
+
+          <button class="part-b-btn-check" onclick="window.QuizModule.checkPartB()">🎯 核对小标题答案与避坑解析</button>
+          
+          <div id="partBResultBox" class="part-b-result-box" style="display:none"></div>
+
+          ${pb.skills_breakdown ? `
+            <div style="margin-top:14px;padding:10px 14px;background:var(--review-light);border-left:3px solid var(--review-accent);border-radius:var(--radius-sm);font-size:0.88em;line-height:1.6">
+              💡 <b>${pb.skills_breakdown}</b>
+            </div>
+          ` : ''}
+        </div>
+      `;
+    }
+
+    return `
+      <div class="discourse-container">
+        <h1>第四鸟 · 语篇架构与新题型迁移训练</h1>
+        ${headerMeta}
+        ${flowHtml}
+        ${partBHtml}
+      </div>
+    `;
+  }
+
+  // --- Helper: Build Section 5 HTML ---
+  function buildSection5Html(tData) {
+    const corpus = tData.writing_corpus || [];
+    if (!corpus || corpus.length === 0) {
+      return '<h1>第五鸟 · 考研大作文高分语料库</h1><p>暂无语料数据</p>';
+    }
+
+    // Collect unique categories
+    const rawCategories = corpus.map(w => w.category || '核心表达');
+    const uniqueCategories = ['全部', ...Array.from(new Set(rawCategories))];
+
+    const tabsHtml = `
+      <div class="corpus-tabs" id="corpusTabs">
+        ${uniqueCategories.map((cat, idx) => `
+          <button class="corpus-tab-btn ${idx === 0 ? 'active' : ''}" onclick="window.QuizModule.filterWritingCorpus('${cat}', this)">${cat}</button>
+        `).join('')}
+      </div>
+    `;
+
+    const cardsHtml = `
+      <div class="corpus-grid" id="corpusGrid">
+        ${corpus.map(w => {
+          const cat = w.category || '核心表达';
+          const expr = w.expression || '';
+          const trans = w.translation || '';
+          const sent = w.application_sentence || '';
+          const sentCn = w.sentence_cn || '';
+          const slot = w.template_slot || sent;
+          const synType = w.syntactic_type ? `<span class="matrix-badge badge-opt">${w.syntactic_type}</span>` : '';
+
+          return `
+            <div class="corpus-card" data-category="${cat}">
+              <div class="corpus-card-header">
+                <div style="display:flex;align-items:center;gap:6px">
+                  <span class="corpus-cat-badge">${cat}</span>
+                  ${synType}
+                </div>
+              </div>
+              <div class="corpus-expression-title"><code>${expr}</code></div>
+              <div class="corpus-translation-text">${trans}</div>
+              <div class="corpus-sent-box">
+                <div class="corpus-sent-en">📝 ${sent}</div>
+                ${sentCn ? `<div class="corpus-sent-cn">🇨🇳 ${sentCn}</div>` : ''}
+              </div>
+              <div class="corpus-slot-box">
+                <div class="corpus-slot-code">
+                  <span style="color:var(--review-accent);font-weight:700">可复用模板：</span>
+                  <span>${slot}</span>
+                </div>
+                <button class="btn-copy-slot" onclick="window.QuizModule.copyTemplateSlot(this, ${JSON.stringify(slot)})">📋 复制模板</button>
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
+
+    return `
+      <div class="corpus-container">
+        <h1>第五鸟 · 考研大作文高分黄金语料库</h1>
+        <p style="font-size:0.92em;color:var(--muted);margin-bottom:12px">
+          精选自本篇的高分词组、硬核句法骨架与论证表达，配备可替换参数槽位，点击即可一键复制套用至考研大/小作文中。
+        </p>
+        ${tabsHtml}
+        ${cardsHtml}
+      </div>
+    `;
+  }
 })();

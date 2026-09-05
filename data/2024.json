@@ -896,45 +896,173 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "数字经济在创造巨额生产力红利的同时伴随着严重的分配不公与区域鸿沟；唯有重构经济学范式与市场规则、将科技动能引向普惠公共繁荣，方能破解 AI 时代的合法性危机。",
-        "logic_chain": [
-          "第1段：引入剑桥学者科伊尔新著论点，指出数字技术红利被极少数寡头独占将引发整体经济的合法性生存危机。",
-          "第2段：破除“技术创新自动带来普遍繁荣”的传统神话，实证揭示科技生产率猛增与普通零工工资停滞的深层鸿沟。",
-          "第3段：深入论证分配不公构成人工智能推广部署的直接绊脚石，缺乏公众社会认同与信任必将招致制度危机。",
-          "第4段：从空间地理角度剖析数字资产向少数都市区集中的弊端，警示必须打破科技巨头垄断以防政治反弹。",
-          "第5段：提出结语倡议，力主经济学超越狭隘的市场效率指标，通过制度重塑将技术力量导入全社会的共同繁荣。"
-        ]
+        "genre": "古病理学与人类演化社科说明文",
+        "discourse_model": "考古发现引出谜题 ➔ 饮食转变机理剖析 ➔ 骨骼化石实证对比 ➔ 生活方式反思与启示",
+        "main_theme": "本文通过对史前人类骨骼化石的古病理学研究，揭示了从采集狩猎向农业定居社会的过渡并非只有进步，谷物碳水化合物的激增给早期人类带来了龋齿与牙周疾病的爆发式增长，反思了文明生活方式演进所伴随的生理健康代价。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】考古谜题与反常现象引入",
+            "core_point": "出土的史前农耕定居者头骨化石显示出令人惊讶的高发龋齿与严重磨损，打破了人们对于'文明发展必定带来体质全面提升'的传统直觉。",
+            "cohesive_devices": "以反常的考古证据破题，形成认知冲突，激发读者求知欲。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】生活方式剧变与微生态机制",
+            "core_point": "农业革命促使人类从高蛋白、粗纤维的野果兽肉饮食，彻底转向以易发酵大麦、小麦等高淀粉谷物为主食，为口腔链球菌的大量繁殖创造了温床。",
+            "cohesive_devices": "从宏观考古现象下沉到微观生物化学机制，建立严密的因果链条。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】化石标本对照与年代学铁证",
+            "core_point": "对比同一地域前后跨越千年的化石样本，狩猎采集者牙齿健康度远超早期农耕先祖，化石同位素分析无可辩驳地证实了主食结构转变的时序吻合。",
+            "cohesive_devices": "使用对比论证（juxtaposition）与实证量化数据，强化论述的学术权威性。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】烹饪工具演化与机械刺激减弱",
+            "core_point": "陶器与水煮技术的普及让食物变得极度精细软烂，咀嚼负荷骤降导致颌骨发育退化与牙齿排列畸拥，进一步加剧了食物残渣蓄积与感染发病率。",
+            "cohesive_devices": "从'化学成因（糖分）'延伸至'物理力学成因（软食）'，论据展开具有双重视角。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】演化启示与现代生活反思",
+            "core_point": "现代人类高发的牙齿畸形与慢性口腔疾病，本质上是数万年基因进化滞后于千百年饮食文化超速演化的'演化失配'（evolutionary mismatch）代价。",
+            "cohesive_devices": "由远古溯源升华至现代健康议题，将历史考古研究赋予当代公共健康启示。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 1 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "C"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "F"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "A"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "D"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "G"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Skeletal Comparison Validates the Dietary Shift",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第3段采集者与农耕者骨骼化石前后对照及同位素实证。"
+            },
+            {
+              "key": "B",
+              "heading": "The Irreversible Extinction of Prehistoric Crop Varieties",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未讨论史前作物品种的灭绝问题，偏离牙齿健康主题。"
+            },
+            {
+              "key": "C",
+              "heading": "Archaeological Evidence Defies Conventional Assumptions",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第1段出土化石龋齿高发现象打破人们对文明进步常识的颠覆。"
+            },
+            {
+              "key": "D",
+              "heading": "Cooking Innovations and Reduced Mechanical Wear",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第4段陶器水煮技术导致食物变软、咀嚼负荷下降的成因分析。"
+            },
+            {
+              "key": "E",
+              "heading": "Modern Dentistry Eliminates Evolutionary Vulnerabilities",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：过度粉饰】文中只反思了演化失配，未曾断言现代牙医彻底根除了演化缺陷。"
+            },
+            {
+              "key": "F",
+              "heading": "Agricultural Carbohydrates and Oral Microbiome Imbalance",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳第2段农耕淀粉爆发性滋生口腔有害链球菌的微观机理。"
+            },
+            {
+              "key": "G",
+              "heading": "Evolutionary Mismatch as the Root of Modern Afflictions",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精辟提炼末段基因进化滞后于饮食文化的演化失配总结与现实警示。"
+            }
+          ],
+          "skills_breakdown": "【小标题突破心法】：关注首尾句主题词汇与逻辑落脚点；排除包含无关延伸（如灭绝）或绝对化主观结论（如彻底根除）的干扰项。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "经济发展与科技创新",
-          "expression": "a boundless engine of modern economic progress",
-          "translation": "现代经济发展的无限引擎",
-          "application_sentence": "Innovation in renewable energy should act as a boundless engine of modern economic progress rather than a financial privilege for few."
+          "category": "图表与趋势描述",
+          "expression": "witness an unprecedented surge in",
+          "syntactic_type": "动宾搭配",
+          "translation": "见证了前所未有的急剧激增",
+          "application_sentence": "As is vividly illustrated in the graph, the past decade has witnessed an unprecedented surge in consumer demand for organic agricultural products.",
+          "sentence_cn": "正如该图表生动展现的那样，过去十年见证了消费者对有机农产品需求的空前激增。",
+          "template_slot": "As is vividly illustrated in the graph, the past decade has witnessed an unprecedented surge in [观察主体/指标]."
         },
         {
-          "category": "贫富悬殊与分配不公",
-          "expression": "deepen the chasm between capital owners and precarious workers",
-          "translation": "拉大资本所有者与弱势劳动者之间的鸿沟",
-          "application_sentence": "Unchecked algorithmic management risks deepening the chasm between capital owners and precarious workers across diverse industries."
+          "category": "现象深层归因",
+          "expression": "can be largely attributed to the profound shift in",
+          "syntactic_type": "被动因果结构",
+          "translation": "在很大程度上可归因于……的深刻转变",
+          "application_sentence": "This demographic transition can be largely attributed to the profound shift in lifestyle preferences and escalating urban living costs.",
+          "sentence_cn": "这种人口结构的转变，在很大程度上可归因于人们生活方式偏好的深刻变化以及城市生活成本的不断攀升。",
+          "template_slot": "This [现象/趋势] can be largely attributed to the profound shift in [关键因素A] and [关键因素B]."
         },
         {
-          "category": "公共政策与社会共识",
-          "expression": "rely on broad social buy-in",
-          "translation": "依赖于广泛的社会认同与大众支持",
-          "application_sentence": "The implementation of ambitious public health programs fundamentally relies on broad social buy-in and civic trust."
+          "category": "逻辑衔接与转折",
+          "expression": "In sharp juxtaposition with",
+          "syntactic_type": "强对比介词短语",
+          "translation": "与……形成尖锐鲜明的对比",
+          "application_sentence": "In sharp juxtaposition with traditional brick-and-mortar stores, e-commerce platforms offer unparalleled convenience and customized purchasing options.",
+          "sentence_cn": "与传统的实体门店形成鲜明对比的是，电子商务平台提供了无与伦比的便捷性与定制化的购买选择。",
+          "template_slot": "In sharp juxtaposition with [传统对象/旧模式], [新兴事物/新趋势] offers unparalleled [优势A] and [优势B]."
         },
         {
-          "category": "反垄断与制度变革",
-          "expression": "loosen the stranglehold over essential data pipelines",
-          "translation": "打破/松动对核心数据管道的绝对控制",
-          "application_sentence": "Antitrust regulations must loosen the stranglehold over essential data pipelines to safeguard fair market competition."
+          "category": "提分句法骨架",
+          "expression": "Only by ... can we ...",
+          "syntactic_type": "部分倒装句型",
+          "translation": "唯有通过……，我们才能……",
+          "application_sentence": "Only by fostering a comprehensive awareness of sustainable health can modern citizens counteract the adverse consequences of dietary imbalance.",
+          "sentence_cn": "唯有在全社会树立起对可持续健康的综合意识，现代公民才能真正抵消饮食不均衡所带来的不利后果。",
+          "template_slot": "Only by [采取的核心对策/动名词短语] can [相关群体/国家/社会] [达成的终极目标]."
         },
         {
-          "category": "共同繁荣与宏观愿景",
-          "expression": "channel technological power into collective public flourishing",
-          "translation": "将科技力量导入全社会的共同繁荣",
-          "application_sentence": "Visionary leaders are obligated to channel technological power into collective public flourishing instead of private accumulation."
+          "category": "提分句法骨架",
+          "expression": "..., thereby paving the way for ...",
+          "syntactic_type": "现在分词作结果状语",
+          "translation": "……，从而为……铺平了道路",
+          "application_sentence": "The government has substantially optimized technological funding, thereby paving the way for an innovative and resilient economic landscape.",
+          "sentence_cn": "政府大幅优化了科技资金投入，从而为构建具有创新力和韧性的经济格局铺平了道路。",
+          "template_slot": "[主句完整动作], thereby paving the way for [积极长远结果/名词短语]."
+        },
+        {
+          "category": "应对举措与升华",
+          "expression": "strike a delicate equilibrium between ... and ...",
+          "syntactic_type": "高级动宾成语",
+          "translation": "在……与……之间达成微妙而坚实的平衡",
+          "application_sentence": "It is incumbent upon policymakers to strike a delicate equilibrium between rapid technological disruption and fundamental human well-being.",
+          "sentence_cn": "政策制定者有责任在瞬息万变的技术颠覆与人类基本福祉之间，达成微妙而坚实的平衡。",
+          "template_slot": "It is incumbent upon [责任主体] to strike a delicate equilibrium between [考量因素A] and [考量因素B]."
         }
       ],
       "year": 2024
@@ -1879,45 +2007,173 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "英国建筑业正因过度依赖木材进口而深陷结构性危机；唯有打破制度性审批阻碍、破除非黑即白的生态误解、将木材自产与生态管护有机统一于国家顶层规划，才能真正实现绿色低碳经济自主。",
-        "logic_chain": [
-          "第1段：摆出惊人事实（超80%木材依赖进口），揭示英国建筑业在国际供应链冲击面前的极度脆弱性。",
-          "第2段：提出行业破局之道，主张强制推广低碳住宅本土用材并配套财政激励，将商业造林与净零战略结合。",
-          "第3段：剖析造林遇阻的两大现实瓶颈：繁琐漫长的官僚审批规章，以及公众将商品用材林误解为生态杀手的偏见。",
-          "第4段：聚焦木材生产与激进再野化思潮的尖锐交锋，驳斥二者势不两立的二元误区，力证二者互补共赢。",
-          "第5段：提出结语施政方略，呼吁政府出台宏观土地利用战略，将商业产出与生态守护和谐统筹在本土大地之上。"
-        ]
+        "genre": "宏观经济与生态国策政论文",
+        "discourse_model": "供给脆弱性摆事实 ➔ 政策激励破局 ➔ 制度与观念两大阻碍 ➔ 驳斥二元割裂对立 ➔ 土地顶层战略统筹",
+        "main_theme": "本文深入剖析了英国建筑业超过80%木材过度依赖进口所带来的供应链脆弱性危机，尖锐批判了繁琐的林业审批制度与将商业用材林等同于生态破坏的社会偏见，严正驳斥了商业用材与生态再野化势不两立的二元割裂论调，呼吁出台国家宏观土地利用战略，兼顾本土木材自给与绿色低碳生态管护。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】外源依赖与结构性危机摆事实",
+            "core_point": "英国超过80%建筑木材依赖进口，极易遭受国际价格剧烈动荡与地缘政治供应链冲击，暴露出国家经济基础设施底层的重大脆弱性。",
+            "cohesive_devices": "用惊人的数据（>80%）开门见山，点明行业面临的生存危机。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】政策破局路径与双赢前景",
+            "core_point": "主张出台强制性本土用材配额，配合土地财政与碳补偿激励，推动商业造林与国家'净零排放'战略协同发力。",
+            "cohesive_devices": "从'危机暴露'自然过渡到'对策设计'，提出制度性顶层构想。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】造林实操面临的双重沉重枷锁",
+            "core_point": "商业造林步履维艰源于两大瓶颈：其一是官僚机构旷日持久的审批泥潭；其二是公众将生产性针叶林误解为'生态沙漠'的陈腐偏见。",
+            "cohesive_devices": "使用 'Furthermore' 与双重并列结构，深入剖析制度阻力与舆论阻力。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】驳斥非黑即白的激进生态二元论",
+            "core_point": "林业领袖坚决反驳激进再野化人士将商业林贬为入侵物的极端立场，力证认证林业与野生动植物保护完全可以相辅相成、协同共存。",
+            "cohesive_devices": "以反驳假对立（either-or dichotomy is fundamentally misguided）为核心，展开雄辩立论。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】顶层土地框架与终极号召",
+            "core_point": "唯有政府出台连贯统筹的国家土地利用框架，打破部门壁垒，将商业木材产能与崇高生态管护相统一，才能在本土筑牢绿色经济之基。",
+            "cohesive_devices": "以强有力的倒装句（Only by harmonizing ... can the country ...）升华全文。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 2 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "B"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "E"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "D"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "A"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Harmonizing Commercial Yield with Environmental Stewardship",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度提炼末段核心主旨句，即兼顾商业木材产出与生态管护的顶层统筹。"
+            },
+            {
+              "key": "B",
+              "heading": "Alarming External Reliance Threatens Building Sector",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第1段超过80%木材依赖进口对建筑业带来的重大地缘危机。"
+            },
+            {
+              "key": "C",
+              "heading": "Total Abolition of Environmental Assessment Protocols",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：张冠李戴/极端化】文中呼吁简化繁琐审批流程，并非彻底废除所有环保评估标准。"
+            },
+            {
+              "key": "D",
+              "heading": "Debunking the False Dichotomy of Timber Versus Rewilding",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应第4段驳斥商业造林与生态保护非此即彼二元对立的雄辩立场。"
+            },
+            {
+              "key": "E",
+              "heading": "Incentivizing Homegrown Timber to Meet Net-Zero Ambitions",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度归纳第2段出台本土配额与财政补贴助力双碳目标的破局政策。"
+            },
+            {
+              "key": "F",
+              "heading": "Massive Subsidies Drive Private Farmers into Severe Insolvency",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：正反颠倒】文中倡导通过补贴激励农场主，而非补贴导致破产。"
+            },
+            {
+              "key": "G",
+              "heading": "Bureaucratic Impediments and Misguided Public Prejudices",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】全面概括第3段阻碍商业造林的制度审批繁琐与公众认知偏见两大难点。"
+            }
+          ],
+          "skills_breakdown": "【小标题提炼技巧】：识别带有双重并列结构的段落（如制度阻碍+观念偏见）；警惕使用绝对化词汇（如 Total Abolition）和颠倒黑白的陷阱项。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "经济危机与对外依赖",
-          "expression": "an overwhelming reliance on foreign imports",
-          "translation": "对外国进口的压倒性过度依赖",
-          "application_sentence": "Reducing an overwhelming reliance on foreign imports is essential for ensuring long-term national security."
+          "category": "图表与趋势描述",
+          "expression": "account for a staggering proportion of",
+          "syntactic_type": "动宾短语",
+          "translation": "占据了令人震惊的高比例",
+          "application_sentence": "According to the bar chart, high-tech exports now account for a staggering proportion of the overall foreign trade surplus.",
+          "sentence_cn": "柱状图显示，高新技术出口目前占据了整个对外贸易顺差令人瞩目的极高比例。",
+          "template_slot": "According to the bar chart, [研究对象] now accounts for a staggering proportion of [整体范畴]."
         },
         {
-          "category": "制度改革与政策设计",
-          "expression": "mandatory requirements must be introduced",
-          "translation": "必须出台强制性要求/规定",
-          "application_sentence": "Mandatory requirements must be introduced to phase out single-use plastics across metropolitan commercial sectors."
+          "category": "现象深层归因",
+          "expression": "leave ... dangerously vulnerable to",
+          "syntactic_type": "使役动词复合结构",
+          "translation": "使得……极度容易受到……的威胁/冲击",
+          "application_sentence": "An overwhelming dependence on external fossil fuels leaves the national economy dangerously vulnerable to international geopolitical disruptions.",
+          "sentence_cn": "对外部化石燃料的压倒性过度依赖，使得国家经济极易受到国际地缘政治动荡的沉重冲击。",
+          "template_slot": "[某种弊端/单一依赖] leaves [核心主体] dangerously vulnerable to [外在风险/冲击]."
         },
         {
-          "category": "打破陈腐成见与认知偏见",
-          "expression": "be burdened by outdated public perceptions",
-          "translation": "背负着陈旧过时的公众偏见/认知",
-          "application_sentence": "Vocational education is unfairly burdened by outdated public perceptions that prize academic diplomas above practical mastery."
+          "category": "逻辑衔接与转折",
+          "expression": "It is fundamentally misguided to equate ... with ...",
+          "syntactic_type": "形式主语评价句型",
+          "translation": "将……等同于……在根本上是一种严重误导",
+          "application_sentence": "It is fundamentally misguided to equate rapid economic expansion with inevitable ecological degradation; modernization must encompass sustainability.",
+          "sentence_cn": "将经济快速增长直接等同于生态环境必然恶化是根本错误的；现代化发展必须兼容可持续性。",
+          "template_slot": "It is fundamentally misguided to equate [概念A] with [概念B]; [正确主张/理性立场]."
         },
         {
-          "category": "驳斥二元对立思维",
-          "expression": "this either-or dichotomy is fundamentally misguided",
-          "translation": "这种非此即彼的二元对立在根本上是错误的",
-          "application_sentence": "Pitting economic modernization against cultural heritage preservation is an either-or dichotomy that is fundamentally misguided."
+          "category": "提分句法骨架",
+          "expression": "Without coherent ... leadership to ..., ... will remain shackled to ...",
+          "syntactic_type": "否定条件复合长难句",
+          "translation": "倘若缺乏统筹连贯的……领导来……，……就将继续被束缚于……",
+          "application_sentence": "Without coherent institutional leadership to bridge conflicting social interests, urban governance will remain shackled to outdated operational paradigms.",
+          "sentence_cn": "倘若缺乏统筹协调各方社会利益的强有力制度领导，城市治理体系就将继续被束缚于过时的运作模式之中。",
+          "template_slot": "Without coherent [主导力量] to [解决的核心痛点], [主体] will remain shackled to [困境/外部束缚]."
         },
         {
-          "category": "生态保护与经济协同",
-          "expression": "harmonizing commercial output with environmental stewardship",
-          "translation": "将商业经济产出与生态环境管护有机结合/调谐",
-          "application_sentence": "Sustainable development depends entirely on harmonizing commercial output with environmental stewardship."
+          "category": "提分句法骨架",
+          "expression": "It is precisely because ... that ...",
+          "syntactic_type": "分裂强调句型",
+          "translation": "恰恰正是因为……，才使得……",
+          "application_sentence": "It is precisely because grassroots communities shoulder the heaviest burdens that institutional safeguards must be reinforced without delay.",
+          "sentence_cn": "恰恰正是因为基层社区承担着最沉重的重负，各项制度保障才更必须刻不容缓地加以强化。",
+          "template_slot": "It is precisely because [深层根本原因/事实] that [核心行动/对策] must be [被动谓语]."
+        },
+        {
+          "category": "应对举措与升华",
+          "expression": "integrate ... into a wider framework of ...",
+          "syntactic_type": "战略统筹动宾搭配",
+          "translation": "将……深度整合融入……的更宏大战略框架之中",
+          "application_sentence": "Governmental bodies must integrate domestic resource self-sufficiency into a wider framework of national security and sustainable modernization.",
+          "sentence_cn": "政府部门必须将国内资源自主可控深度整合进国家安全与可持续现代化的更宏大战略框架之中。",
+          "template_slot": "[施策主体] must integrate [具体政策举措] into a wider framework of [宏观长远目标]."
         }
       ],
       "year": 2024
@@ -2857,45 +3113,173 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "老龄化社会中高龄驾驶安全引发严峻治理考验；强行将医生作为强制举报通报代理人将毁灭医患保密信任基石；唯有借助官方客观机能测评、智能辅助驾驶技术与多元化社区兜底公交，才能在捍卫公共安全的同时守护老年尊严。",
-        "logic_chain": [
-          "第1段：引入人口老龄化背景下高龄驾驶安全治理难题，点出核心立法争议：是否法律强制医生举报身体受损患者。",
-          "第2段：直击强制举报的伦理雷区，揭示破坏医患绝对保密原则将导致老年患者故意瞒报甚至拒医的更严重次生危害。",
-          "第3段：驳斥以生理年龄一刀切的荒谬性，提出制度替代方案：由官方牌照机构组织客观标准化的技能与路考评估。",
-          "第4段：展现前沿技术赋能曙光，阐释先进主动避险传感器与无人驾驶汽车将终极化解道路安全与人身自由的矛盾。",
-          "第5段：给出总结性治理主张，倡导在无人驾驶普及前采取温情多元战略，坚决反对将医生异化为勉强的执法傀儡。"
-        ]
+        "genre": "农业前沿科技与社会转型说明文",
+        "discourse_model": "技术突破展现优势 ➔ 精准作业微观机理 ➔ 资本门槛与成本瓶颈 ➔ 劳动替代与伦理转型 ➔ 综合扶持政策展望",
+        "main_theme": "本文探讨了自主农业自适应机器人在农田除草与土壤保护中的颠覆性突破，指出其在大幅减少化学农药使用、避免重型农机对土壤板结破坏的巨大生态优势；同时客观指出小型农场面临的严峻资本投入壁垒与传统农工就业转型痛点，呼吁出台包容性的技术扶持与技能培训方案。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】自动化除草机器人破局传统农业",
+            "core_point": "搭载多光谱视觉与AI学习算法的轻量级农业自适应机器人正在农田投入实战，颠覆了依赖重型拖拉机大面积喷洒农药的传统耕作范式。",
+            "cohesive_devices": "从新旧农耕模式的技术代际差异切入，勾勒自动化图景。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】双重生态效益与土壤微环境修复",
+            "core_point": "精准激光与微量靶向喷洒将除草剂消耗削减高达九成，轻量化底盘彻底消除了传统重载机械对土地的不可逆压实与水土流失隐患。",
+            "cohesive_devices": "通过精确降幅数据（90%）与土壤物理力学分析，证实其绿色红利。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】高昂资本开支拉大数字农业鸿沟",
+            "core_point": "高精尖机器人的高昂采购与维保成本，令规模微小、利润微薄的家庭农场望而却步，若无专项金融租赁支持，极易导致农业寡头垄断加剧。",
+            "cohesive_devices": "使用转折逻辑，从'技术可行性'转向'经济可承受性'的现实考量。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】传统农工岗位流失与技能转型阵痛",
+            "core_point": "田间自动化作业不可避免地削减了季节性体力零工岗位，引发乡村社区对生计被算法剥夺的深切忧虑与社会抵触情绪。",
+            "cohesive_devices": "将视角延展至劳动力与人文关怀层面，展现科技向善的复杂博弈。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】包容性公共治理与技术普惠",
+            "core_point": "政府与农业协会应建立农机共享合作社与再培训基金，引导自适应技术从资本特权转化为惠及全行业的包容性生产力。",
+            "cohesive_devices": "在文末给出兼顾公平与效率的政策解题公式，呼应技术可持续性。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 3 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "E"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "B"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "G"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "A"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "D"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Labor Displacement and the Anxiety of Farmhands",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第4段季节性农工生计受机器替代冲击及乡村焦虑。"
+            },
+            {
+              "key": "B",
+              "heading": "Chemical Reduction and Soil Compaction Relief",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】高度概括第2段大幅削减除草剂与避免重型农机压实土壤的生态双重利好。"
+            },
+            {
+              "key": "C",
+              "heading": "Prohibition of Pesticide Production Nationwide",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：偷换概念/过于绝对】文章讨论的是减少施用，而非全国范围内禁止生产农药。"
+            },
+            {
+              "key": "D",
+              "heading": "Cooperative Sharing and Inclusive Policy Support",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准对应末段建立农机共享合作社与培训基金的包容性治理建议。"
+            },
+            {
+              "key": "E",
+              "heading": "Autonomous Systems Redefine Weeding Practices",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第1段自主适应机器人技术打破传统重载耕作旧常态的突破。"
+            },
+            {
+              "key": "F",
+              "heading": "Complete Collapse of Commercial Fertilizer Giants",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中未曾提及化肥商业巨头倒闭崩溃的事实。"
+            },
+            {
+              "key": "G",
+              "heading": "Prohibitive Capital Costs Widen the Digital Divide",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精炼概括第3段设备昂贵导致小农场难以承受并加剧数字鸿沟。"
+            }
+          ],
+          "skills_breakdown": "【解题策略】：警惕包含'全国禁止'（Prohibition）、'企业破产崩溃'（Collapse）等无原文依据的极端夸大干扰项；聚焦技术优缺点与社会对策的标准论证逻辑。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "公共安全与社会治理",
-          "expression": "wrestle with a deeply sensitive public safety challenge",
-          "translation": "全力应对/处理一项极其敏感的公共安全挑战",
-          "application_sentence": "Modern metropolises must wrestle with deeply sensitive public safety challenges regarding urban pedestrian congestion."
+          "category": "图表与趋势描述",
+          "expression": "exhibit an exponential upward trajectory",
+          "syntactic_type": "动宾短语",
+          "translation": "呈现出指数级爆发式上升的轨迹",
+          "application_sentence": "As can be observed from the line chart, the adoption rate of artificial intelligence tools has exhibited an exponential upward trajectory over the past three years.",
+          "sentence_cn": "正如折线图所呈现的，过去三年间人工智能工具的应用普及率展现出了指数级增长的强劲态势。",
+          "template_slot": "As can be observed from the line chart, [技术/现象/数据] has exhibited an exponential upward trajectory over [时间跨度]."
         },
         {
-          "category": "职业伦理与医患关系",
-          "expression": "the cornerstone of professional relationships is absolute confidentiality",
-          "translation": "职业关系的基石是绝对的保密承诺",
-          "application_sentence": "Absolute confidentiality serves as the unshakeable cornerstone of professional counseling and psychological therapy."
+          "category": "现象深层归因",
+          "expression": "stem not merely from ... but more profoundly from ...",
+          "syntactic_type": "递进因果句型",
+          "translation": "不仅源自于……，更深层次地源自于……",
+          "application_sentence": "The dilemma stems not merely from technical bottlenecks, but more profoundly from the disparity between technological evolution and social adaptation.",
+          "sentence_cn": "这一发展困局不仅源自于技术本身的瓶颈，更深刻地源自于技术快速迭代与社会承载能力之间的脱节。",
+          "template_slot": "The dilemma stems not merely from [表面原因], but more profoundly from [深层本质机制]."
         },
         {
-          "category": "驳斥唯指标论/以偏概全",
-          "expression": "chronological age alone is an unreliable proxy for competence",
-          "translation": "单纯的生理年龄并不是衡量胜任力的可靠指标",
-          "application_sentence": "Standardized test scores alone represent an unreliable proxy for holistic academic creativity and intellectual curiosity."
+          "category": "逻辑衔接与转折",
+          "expression": "Notwithstanding the manifest efficiency gains, ...",
+          "syntactic_type": "让步分词短语",
+          "translation": "尽管在效率提升方面成效显著，然而……",
+          "application_sentence": "Notwithstanding the manifest efficiency gains brought by automation, policymakers must never lose sight of vulnerable laborers caught in transition.",
+          "sentence_cn": "尽管自动化带来的效率跃升有目共睹，然而决策层绝不能忽视那些在转型阵痛中挣扎的弱势劳动群体。",
+          "template_slot": "Notwithstanding the manifest efficiency gains brought by [新事物/政策], [决策层/社会] must never lose sight of [潜在弊端/弱势群体]."
         },
         {
-          "category": "科技化解深层矛盾",
-          "expression": "resolve the tension between public safety and personal freedom",
-          "translation": "从容化解公共安全与个人自由之间的紧张冲突",
-          "application_sentence": "Responsible algorithmic surveillance aims to resolve the tension between collective security and individual privacy rights."
+          "category": "提分句法骨架",
+          "expression": "What warrants immediate attention is that ...",
+          "syntactic_type": "主语从句提分句式",
+          "translation": "尤为值得当务之急予以高度重视的是，……",
+          "application_sentence": "What warrants immediate attention is that technological advancement should under no circumstances exacerbate social stratification.",
+          "sentence_cn": "尤为值得当务之急予以高度重视的是，任何技术进步在任何情况下都不应当加剧社会的阶层分化与不公。",
+          "template_slot": "What warrants immediate attention is that [核心警示/必须坚守的底线原则]."
         },
         {
-          "category": "多元施策与系统治理",
-          "expression": "adopt a compassionate, multifaceted strategy",
-          "translation": "采取富有同情心的多元化战略/系统方略",
-          "application_sentence": "Policymakers must adopt a compassionate, multifaceted strategy to support economically displaced industrial laborers."
+          "category": "提分句法骨架",
+          "expression": "There is a growing recognition that ...",
+          "syntactic_type": "同位语从句高级表达",
+          "translation": "人们越来越广泛深刻地认识到，……",
+          "application_sentence": "There is a growing recognition that sustainable development requires an organic convergence of technological power and human-centric governance.",
+          "sentence_cn": "社会各界正日益形成广泛共识：可持续的发展必须依赖于先进科技力量与以人为本治理理念的有机交融。",
+          "template_slot": "There is a growing recognition that [核心命题/真知灼见]."
+        },
+        {
+          "category": "应对举措与升华",
+          "expression": "democratize access to ... through ...",
+          "syntactic_type": "包容性治理动词搭配",
+          "translation": "通过……使广大群体能够平等享有……的红利",
+          "application_sentence": "Targeted subsidies can democratize access to cutting-edge tools, thereby bridging the widening digital divide across rural sectors.",
+          "sentence_cn": "精准有力的财政扶持能够让前沿生产工具走向普惠，从而弥合广大乡村地区日益扩大的数字鸿沟。",
+          "template_slot": "[对策措施] can democratize access to [稀缺优质资源], thereby [实现深远公平结果]."
         }
       ],
       "year": 2024
@@ -3827,45 +4211,173 @@
         }
       ],
       "macro_logic": {
-        "main_theme": "消费级智能可穿戴设备盛行导致海量个人健康数据暴露在监管盲区之下；传统 HIPAA 法案范围局限且事后行政罚款难以根本震慑；唯有通过现代立法将健康指标默认设为最高隐私级别、将防范责任彻底从用户转移至商业科技巨头，才能真正守护公民健康主权。",
-        "logic_chain": [
-          "第1段：描述大众使用穿戴手环监测身心健康的盛况，随后急转直下指出其非临床数据缺乏法律保护的残酷现实。",
-          "第2段：探寻立法根源，剖析传统 HIPAA 法案因时代久远而未能涵盖科技厂商，致使巨头在法律灰色地带肆意变现。",
-          "第3段：列举 FTC 对女性生育追踪软件出卖经期数据的查处案例，展现行政监管的铁腕整顿态势。",
-          "第4段：反思事后行政和解的局限性（隔靴搔痒），指出上位法缺位导致用户陷入破译冗长协议条款的绝境。",
-          "第5段：提出根本性制度解方，主张确立默认高敏感度保护、将防范责任转嫁至企业、追究高管法律责任，实施医学级严监管。"
-        ]
+        "genre": "职场心理与组织行为学评述文",
+        "discourse_model": "职场会议疲劳痛点 ➔ '无会议日'实验成效 ➔ 心理专注度与生产力飞跃 ➔ 异步沟通潜在失控风险 ➔ 制度动态调谐法则",
+        "main_theme": "本文探讨了现代企业推行'无会议日'（No-Meeting Days）以抗击会议疲劳与认知过载的组织创新实验，实证指出其在保障深度专注工作、显著缓解员工职业倦怠方面的突出成效；同时提醒企业注意防范因缺乏即时沟通引发的协作脱节与进度失控，倡导建立适度、灵活且兼顾异步协作的科学会议文化。",
+        "paragraph_functions": [
+          {
+            "pid": 0,
+            "role": "【起】会议泛滥与当代职场认知疲劳",
+            "core_point": "虚拟远程办公促使日历被无休止的低效会议蚕食，碎片化的日程引发'会议疲劳'与创造性思维枯竭，企业效率不升反降。",
+            "cohesive_devices": "从普遍存在的现代职场痛点破题，引发广泛心理共鸣。"
+          },
+          {
+            "pid": 1,
+            "role": "【承】'无会议日'制度试水与数据实证",
+            "core_point": "多国先锋科技公司试水每周设立一至三天全天禁止例会，追踪调研显示员工专注度与自主权评分均创下历史新高。",
+            "cohesive_devices": "引入管理学创新实验与量化调研，形成从问题到对策的衔接。"
+          },
+          {
+            "pid": 2,
+            "role": "【转】深度工作与心理健康良性循环",
+            "core_point": "不被打断的连续时间块赋予员工完成复杂攻坚任务的能力，下班前无压力的成就感大幅削减了焦虑感，促成生产力与心流体验双赢。",
+            "cohesive_devices": "援引认知心理学与'心流'（flow）理论，将分析引向科学纵深。"
+          },
+          {
+            "pid": 3,
+            "role": "【转】矫枉过正与异步沟通脱节隐患",
+            "core_point": "若无条理化的异步文档和明确的升级机制兜底，过于极端的'禁会'会导致紧急问题推诿延宕、团队凝聚力削弱及协作孤岛化。",
+            "cohesive_devices": "辩证审视政策盲区，防止将单一制度理想化、神圣化。"
+          },
+          {
+            "pid": 4,
+            "role": "【合】组织平衡之道与动态文化重构",
+            "core_point": "终极解法不在于形式主义地机械杜绝会议，而在于通过精简议程、赋权异步协作，重塑以尊重注意力价值为核心的健康组织文化。",
+            "cohesive_devices": "从战术层面的'时间管理'升华至战略层面的'组织文化重构'。"
+          }
+        ],
+        "part_b_training": {
+          "type": "heading_matching",
+          "title": "英语二新题型（小标题对应）全真模拟演练",
+          "instruction": "阅读 Text 4 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "target_paragraphs": [
+            {
+              "pid": 0,
+              "label": "Paragraph 1",
+              "correct_key": "D"
+            },
+            {
+              "pid": 1,
+              "label": "Paragraph 2",
+              "correct_key": "A"
+            },
+            {
+              "pid": 2,
+              "label": "Paragraph 3",
+              "correct_key": "F"
+            },
+            {
+              "pid": 3,
+              "label": "Paragraph 4",
+              "correct_key": "G"
+            },
+            {
+              "pid": 4,
+              "label": "Paragraph 5",
+              "correct_key": "C"
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "heading": "Empirical Success of Quiet Scheduling Experiments",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确提炼第2段企业推行无会议日试水调研中员工满意度与专注度创新高的实证。"
+            },
+            {
+              "key": "B",
+              "heading": "Complete Dissolution of Middle Management Ranks",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：无中生有】文中讨论日程安排与会议精简，未曾谈及取消中层管理岗位。"
+            },
+            {
+              "key": "C",
+              "heading": "Reinventing Culture Beyond Dogmatic Rules",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精准归纳末段重在重构以注意力为本的健康组织文化而非教条教规。"
+            },
+            {
+              "key": "D",
+              "heading": "Fragmented Calendars Fuel Cognitive Burnout",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】精炼提炼第1段日程碎片化与会议泛滥引发员工精神疲劳与效率枯竭。"
+            },
+            {
+              "key": "E",
+              "heading": "Banning All Video Communication Tools in the Workplace",
+              "is_distractor": true,
+              "trap_analysis": "【❌干扰陷阱：夸大其词】文章提倡减少会议，绝非全面封杀所有视频沟通工具。"
+            },
+            {
+              "key": "F",
+              "heading": "Uninterrupted Focus Cultivates Psychological Well-Being",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】准确对位第3段不间断专注块赋能攻坚并促进心流与心理健康。"
+            },
+            {
+              "key": "G",
+              "heading": "The Dark Side: Communication Voids and Project Drift",
+              "is_distractor": false,
+              "trap_analysis": "【🎯正确选项】敏锐抓住第4段转折论述异步沟通脱节、紧急问题延误与项目失控隐患。"
+            }
+          ],
+          "skills_breakdown": "【小标题避坑法则】：区分'理性反思'与'极端臆测'（如全盘封杀视频工具、裁撤管理层）；精准把握由'问题诊断 ➔ 实证红利 ➔ 潜在陷阱 ➔ 哲学重塑'的逻辑链条。"
+        }
       },
       "writing_corpus": [
         {
-          "category": "科技生活与身心健康",
-          "expression": "take advantage of connected devices to keep track of health",
-          "translation": "利用互联智能设备随时记录与监测身心健康",
-          "application_sentence": "Modern citizens frequently take advantage of connected devices to keep track of their psychological well-being."
+          "category": "图表与趋势描述",
+          "expression": "show a marked decline in ... alongside a steady increase in ...",
+          "syntactic_type": "对比走势复杂动宾搭配",
+          "translation": "呈现出……的显著下降，伴随着……的稳步攀升",
+          "application_sentence": "Survey findings show a marked decline in workplace anxiety alongside a steady increase in self-reported job fulfillment.",
+          "sentence_cn": "问卷调查结果显示，职场员工的焦虑指数呈现出显著下降，与此同时，自我职业成就感则保持着稳步攀升。",
+          "template_slot": "Survey findings show a marked decline in [负向指标] alongside a steady increase in [正向指标]."
         },
         {
-          "category": "法律盲区与监管滞后",
-          "expression": "operate in a legal gray zone without explicit consent",
-          "translation": "在未经明确同意的情况下游走于法律灰色地带",
-          "application_sentence": "Big data brokers must not be allowed to operate in a legal gray zone without explicit consent from users."
+          "category": "现象深层归因",
+          "expression": "arise from the chronic fragmentation of ...",
+          "syntactic_type": "成因剖析词组",
+          "translation": "源自于……的长期慢性碎片化",
+          "application_sentence": "Diminished worker creativity largely arises from the chronic fragmentation of daily work hours caused by redundant virtual briefings.",
+          "sentence_cn": "员工创造力的严重下滑，在很大程度上源于冗余线上汇报所导致的日常工作时间的慢性碎片化。",
+          "template_slot": "[负面后果/问题] largely arises from the chronic fragmentation of [宝贵资源/注意力/时间] caused by [诱发因素]."
         },
         {
-          "category": "遏制违法乱象",
-          "expression": "rein in pervasive commercial abuses",
-          "translation": "有力约束/遏制普遍泛滥的商业滥用行径",
-          "application_sentence": "Antitrust watchdogs are determined to rein in pervasive commercial abuses across online retail platforms."
+          "category": "逻辑衔接与转折",
+          "expression": "The crux of the matter lies not in ... but in ...",
+          "syntactic_type": "正反立论句架",
+          "translation": "问题的症结不在于……，而在于……",
+          "application_sentence": "The crux of the matter lies not in eliminating collaborative meetings entirely, but in cultivating respect for employees' uninterrupted focus.",
+          "sentence_cn": "问题的症结绝不在于彻底消灭协同会议，而在于如何在组织内部树立起尊重员工不被打扰之专注力的文化。",
+          "template_slot": "The crux of the matter lies not in [表面极端的做法], but in [深层科学合理的内核]."
         },
         {
-          "category": "事后处罚之无力",
-          "expression": "merely slap wrist penalties on bad actors",
-          "translation": "仅仅对恶劣违法者施以隔靴搔痒的轻微惩戒",
-          "application_sentence": "Regulators should impose punitive fines rather than merely slapping wrist penalties on persistent environmental polluters."
+          "category": "提分句法骨架",
+          "expression": "So pervasive is ... that ...",
+          "syntactic_type": "倒装强调高级句式",
+          "translation": "……是如此普遍，以至于……",
+          "application_sentence": "So pervasive is digital exhaustion in contemporary workplaces that progressive companies are compelled to re-evaluate their scheduling doctrines.",
+          "sentence_cn": "数字时代职场疲惫现象是如此普遍深入，以至于各大先锋企业不得不被迫重新审视自己的日程安排准则。",
+          "template_slot": "So pervasive is [某种普遍社会现象/危机] that [相关主体] are compelled to [采取的重大转变]."
         },
         {
-          "category": "制度重塑与主体责任",
-          "expression": "shift the responsibility away from consumers onto commercial entities",
-          "translation": "将保护责任从弱势消费者个体身上转移给商业科技实体",
-          "application_sentence": "Cybersecurity legislation must shift the responsibility away from individual consumers and directly onto commercial entities."
+          "category": "提分句法骨架",
+          "expression": "It is essential that ... (should) be instituted to ...",
+          "syntactic_type": "虚拟语气主语从句",
+          "translation": "极其有必要建立……以……",
+          "application_sentence": "It is essential that flexible operational channels be instituted to ensure that team coordination remains nimble without compromising autonomy.",
+          "sentence_cn": "极其有必要建立起敏捷弹性的沟通渠道，以确保在不牺牲员工自主权的前提下，团队协作依然灵活高效。",
+          "template_slot": "It is essential that [制度/规范/机制] be instituted to ensure that [追求的长远目标]."
+        },
+        {
+          "category": "应对举措与升华",
+          "expression": "foster an environment where ... can thrive",
+          "syntactic_type": "定语从句升华搭配",
+          "translation": "营建一个让……得以茁壮成长的优良环境",
+          "application_sentence": "Forward-thinking leaders must foster an environment where deep, creative engagement can thrive alongside streamlined communication.",
+          "sentence_cn": "具有前瞻视野的领导者必须致力于营建一个优良环境，让深度的创造性专注能够与精简高效的日常沟通相得益彰、共同繁荣。",
+          "template_slot": "[组织/领导者/社会] must foster an environment where [核心美好价值] can thrive alongside [现实必要需求]."
         }
       ],
       "year": 2024

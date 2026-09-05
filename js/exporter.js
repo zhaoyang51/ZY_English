@@ -150,13 +150,61 @@
       });
       md.push(`---\n`);
 
+      // Section 4: Discourse & Part B
+      md.push(`## 四、语篇逻辑与新题型迁移训练\n`);
+      if (textData.macro_logic) {
+        const ml = textData.macro_logic;
+        if (ml.genre) md.push(`- **语篇体裁**：${ml.genre}`);
+        if (ml.discourse_model) md.push(`- **论述模型**：${ml.discourse_model}`);
+        if (ml.main_theme) md.push(`- **宏观主旨与作者立场**：${ml.main_theme}\n`);
+
+        if (ml.paragraph_functions && ml.paragraph_functions.length > 0) {
+          md.push(`### 语篇推进脉络与段际粘合：`);
+          ml.paragraph_functions.forEach((pf, idx) => {
+            const pNum = pf.pid !== undefined ? pf.pid + 1 : idx + 1;
+            md.push(`- **第 ${pNum} 段 (${pf.role})**：${pf.core_point}`);
+            if (pf.cohesive_devices) md.push(`  - *段际衔接*：${pf.cohesive_devices}`);
+          });
+          md.push('');
+        } else if (ml.logic_chain) {
+          md.push(`### 逻辑推进脉络：`);
+          ml.logic_chain.forEach(item => md.push(`- ${item}`));
+          md.push('');
+        }
+
+        if (ml.part_b_training) {
+          const pb = ml.part_b_training;
+          md.push(`### 英语二新题型（小标题对应）迁移演练：`);
+          md.push(`> **训练说明**：${pb.instruction || ''}\n`);
+          md.push(`| 段落 | 正确小标题 | 命题人设陷解析 |`);
+          md.push(`| :---: | :--- | :--- |`);
+          (pb.target_paragraphs || []).forEach(tp => {
+            const pNum = tp.pid !== undefined ? tp.pid + 1 : tp.label;
+            const opt = (pb.options || []).find(o => o.key === tp.correct_key) || {};
+            md.push(`| **Paragraph ${pNum}** | **[${tp.correct_key}]** ${opt.heading || ''} | ${opt.trap_analysis || ''} |`);
+          });
+          md.push('');
+          if (pb.skills_breakdown) {
+            md.push(`**💡 新题型解题心法**：${pb.skills_breakdown}\n`);
+          }
+        }
+      }
+      md.push(`---\n`);
+
       // Section 5: Writing Corpus
-      md.push(`## 五、考研大作文高分语料库\n`);
-      md.push(`| 表达分类 | 核心表达 | 表达中文 | 可复用写作例句 |`);
-      md.push(`| :--- | :--- | :--- | :--- |`);
-      textData.writing_corpus.forEach(w => {
-        md.push(`| **${w.category}** | \`${w.expression}\` | ${w.translation} | ${w.application_sentence} |`);
+      md.push(`## 五、考研写作高分黄金语料库\n`);
+      md.push(`| 表达分类 | 核心表达 | 语法/句法性质 | 中文释义 | 考研高分应用例句 | 即插即用模板槽位 |`);
+      md.push(`| :--- | :--- | :---: | :--- | :--- | :--- |`);
+      (textData.writing_corpus || []).forEach(w => {
+        const cat = w.category || '';
+        const expr = w.expression ? `\`${w.expression}\`` : '';
+        const synType = w.syntactic_type || '核心词汇';
+        const trans = w.translation || '';
+        const sent = w.application_sentence || '';
+        const slot = w.template_slot ? `\`${w.template_slot}\`` : `\`${sent}\``;
+        md.push(`| **${cat}** | ${expr} | ${synType} | ${trans} | ${sent} | ${slot} |`);
       });
+      md.push('');
 
       const content = md.join('\n');
       const filename = `${textData.year}_Text${textData.text_id}_真题精读复盘笔记.md`;
