@@ -609,9 +609,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that contrary to most surveys...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "A new study suggests that ... people are actually more stressed at home than at work.",
+                "explanation": "主干为主谓宾（宾语从句）结构。主语为 A new study（一项新研究）；谓语动词为一般现在时 suggests（表明、指出）；that 引导宾语从句，从句主干为主系表结构：主语 people，系动词 are，表语形容词比较级 more stressed（压力更大）；状语 at home 与 than at work 构成鲜明的空间场所对比。"
+              },
+              {
+                "type": "插入语与介词短语",
+                "content": "contrary to most surveys",
+                "explanation": "介词短语作插入语，置于从句主语之前，意为“与绝大多数民意调查截然相反”，强有力地拉开新发现与传统认知经验的认知反差。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "contrary to most surveys, people are actually more stressed at home than at work",
+                "explanation": "篇首核心论题确立（Counter-intuitive Hook）。文章开门见山抛出违背常识的颠覆性科学结论：人在家中压力反而高于职场。直接对应 Q21 题干定位点：考查过去调查对家庭的传统认知（most surveys 认为家庭是放松之所，而新研究证明实则相反），为全文展开工作与家庭压力机制的剖析定下总基调。"
               }
             ]
           }
@@ -627,14 +637,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which is a stress marker...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Researchers measured people’s cortisol ... and found it higher at what is supposed to be a place of refuge.",
+                "explanation": "主干为并列复合宾语结构。主语 Researchers；谓语动词由并列连词 and 连接两个一般过去时动词：① measured people’s cortisol（测量人们的皮质醇）；② found it higher（发现其水平更高），it 为代词指代皮质醇，higher 为形容词比较级作宾语补足语。"
               },
               {
-                "type": "状语从句",
-                "content": "while they were at work and while they were at...",
-                "explanation": "从属连词 <code>while</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "定语从句与宾语从句",
+                "content": "which is a stress marker ... at what is supposed to be a place of refuge",
+                "explanation": "① which 引导非限制性定语从句，修饰先行词 cortisol，补充说明其医学属性（一种压力生物标志物）；② what 引导介词 at 的宾语从句（what 在从句中作主语），what is supposed to be a place of refuge 意为“本应是避难所/栖息之地的地方（指代家庭 home）”。"
+              },
+              {
+                "type": "时间状语从句与对照",
+                "content": "while they were at work and while they were at home",
+                "explanation": "由 and 连接的两个 while 引导的时间状语从句构成严格的对照组实验设计：“当他们在办公室工作时”与“当他们在家里时”，确保皮质醇测量数据的实证科学性与可比性。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "found it higher at what is supposed to be a place of refuge",
+                "explanation": "实证论据与命题题眼（Q21定位句）。通过生理指标（cortisol）的客观实测证明家庭压力更高；短语 what is supposed to be a place of refuge（本应是避难所的地方）直击 Q21 考点：过去调查之所以认为在家里压力小，是因为假定 home “was a place of refuge / relaxation”（正确项 [B] were relieved of work pressures），选项利用 refuge 与 relaxation 进行同义置换。"
               }
             ]
           }
@@ -650,9 +670,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that women as well as men have lower levels o...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "“..., we found that women as well as men have lower levels of stress at work than at home,” writes one of the researchers, Sarah Damaske.",
+                "explanation": "主干为直接引语加主谓倒装引述结构。引述主句主语为 one of the researchers（研究者之一），Sarah Damaske 为同位语，谓语动词 writes；引号内直接引语为主谓宾结构：主语 we，谓语 found，that 引导宾语从句。从句主语为 women as well as men（女性和男性一样），谓语 have，宾语 lower levels of stress。"
+              },
+              {
+                "type": "现在分词状语与比较结构",
+                "content": "Further contradicting conventional wisdom ... lower levels of stress at work than at home",
+                "explanation": "① 现在分词短语 Further contradicting conventional wisdom 置于句首作评注性状语，进一步强调该发现对传统常识认知的颠覆；② lower... than... 构成比较结构，修饰 stress，介词短语 at work 与 at home 对比。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "women as well as men have lower levels of stress at work than at home",
+                "explanation": "论据层层推进（Reinforcing Evidence）。研究者借权威原话指出，不仅男性，连传统被认为更顾家、更依恋家庭的女性，在职场中的压力也低于家中，彻底击碎“女性在家更轻松”的性别刻板印象，引出第2段对性别差异与母职惩罚的深入探讨。"
               }
             ]
           }
@@ -669,8 +699,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In fact women even say they feel better at work, she notes....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "In fact women even say they feel better at work, she notes.",
+                "explanation": "主干为引述结构加主谓宾从句。插入性引述句 she notes（她指出）；主句主语 women，谓语动词 say，省略 that 的宾语从句 they feel better at work（她们在职场感觉更好）；feel 为系动词，better 为形容词比较级作表语，介词短语 at work 作地点状语。"
+              },
+              {
+                "type": "修饰成分与语篇强调",
+                "content": "In fact women even say...",
+                "explanation": "介词短语 In fact 作逻辑连接词（强调事实递进）；副词 even（甚至）修饰谓语 say，表层递进语气，将客观生理指标（cortisol）推进至女性主观心理自陈感受（subjective feeling）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "women even say they feel better at work",
+                "explanation": "事实层递与反差强化。紧承前句，指出女性不仅皮质醇生理指标显示在职场更轻松，主观心态层面也更享受职场环境，为后文揭示家庭劳作繁重和角色模糊铺垫主观情绪证据。"
               }
             ]
           }
@@ -686,9 +726,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who report being happier at home than at wor...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "“It is men, not women, who report being happier at home than at work.” Another surprise is that the findings hold true for ...",
+                "explanation": "本句包含两个完整分句：① 第一分句为强调句型（It is ... who ...）：被强调部分为 men, not women（是男性而非女性），强调从句谓语为 report，动名词短语 being happier at home than at work 作宾语；② 第二分句为主系表结构：主语 Another surprise（另一项令人惊讶的发现），系动词 is，that 引导表语从句。"
+              },
+              {
+                "type": "介词短语与省略结构",
+                "content": "for both those with children and without, but more so for nonparents",
+                "explanation": "① for both those with children and without（对于有孩子和没有孩子的人），without 后面省略了宾语 children；② but more so for nonparents 属于省略副词短语结构，补全为 but the findings hold true more so for nonparents（但这种现象在未育者身上尤为显著）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "It is men, not women ... more so for nonparents",
+                "explanation": "核心题眼精准聚焦（Q22命题定位句）。强调句型直接将考查焦点锁定在“谁在家里最快乐”：① 性别上是男性而非女性（men, not women）；② 生育状况上是没有孩子的人更明显（more so for nonparents）。两者交汇，必然推导出在家里最快乐的群体是“没有孩子的已婚男性/丈夫（Childless husbands）”，直接命中 Q22 正确答案 [B]，同时排除混淆项 Working mothers / Childless wives / Working fathers。"
               }
             ]
           }
@@ -704,9 +754,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "why people who work outside the home have be...",
-                "explanation": "关系词 <code>why</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "This is why people who work outside the home have better health.",
+                "explanation": "主干为主系表结构。主语 This 指代前文职场压力更低的实测结果；系动词 is；why 引导表语从句（解释前文现象导致的必然结果）。"
+              },
+              {
+                "type": "定语从句剖析",
+                "content": "who work outside the home",
+                "explanation": "关系代词 who 引导限制性定语从句，先行词为 people，从句谓语动词 work，介词短语 outside the home 作地点状语，修饰外出工作的人群。表语从句谓语为 have，宾语为 better health（更好的健康状况）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "This is why people who work outside the home have better health",
+                "explanation": "因果链条收束。以 This is why 顺承推导，从皮质醇水平、主观幸福感跨越至长期生理健康结局，解释了为什么走出家门步入职场反而有益健康，完成第1段和第2段对传统“外出工作累垮身体”偏见的反驳。"
               }
             ]
           }
@@ -722,9 +782,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when they’re at home...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "What the study doesn’t measure is whether people are still doing work ...",
+                "explanation": "主干为主系表结构（双重从句）。主语为 what 引导的主语从句 What the study doesn’t measure（该研究未予衡量的因素）；系动词 is；表语为 whether 引导的表语从句。"
+              },
+              {
+                "type": "从句与让步状语",
+                "content": "whether people are still doing work when they’re at home, whether it is household work or work brought home from the office",
+                "explanation": "① whether people are still doing work 为表语从句，内嵌 when they’re at home 时间状语从句；② 第二个 whether 引导让步状语从句，it is household work or work brought home... 意为“无论是在家做家务，还是把办公室没做完的工作带回家做”；过去分词短语 brought home from the office 作后置定语修饰 work。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "What the study doesn’t measure is whether people are still doing work when they’re at home",
+                "explanation": "论证视角的批判性拓展（Critical Shift / Limitation）。作者指明该项研究的盲区：仅测定了场所（home vs work），却未区分人在家中的活动性质（是在休息还是在继续劳作），从而引出下文对男女在“工作日结束后的角色差异”的深度剖析。"
               }
             ]
           }
@@ -741,8 +811,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "For many men, the end of the workday is a time to kick back....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "For many men, the end of the workday is a time to kick back.",
+                "explanation": "主干为主系表结构。介词短语 For many men 作针对对象状语；主语 the end of the workday（工作日的结束）；系动词 is；表语 a time；不定式短语 to kick back 作后置定语修饰 a time。"
+              },
+              {
+                "type": "习语搭配与修饰",
+                "content": "a time to kick back",
+                "explanation": "习语 kick back 意为“放松、休闲、歇息”，与下文女性回家后忙于家务形成触目惊心的不对称对比。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the end of the workday is a time to kick back",
+                "explanation": "对比论证（A面：男性视角）。点明男性下班回家通常视家庭为休闲港湾（kick back），这也是男性在家庭中皮质醇较低、感觉更快乐的核心根源，为下两句女性面临的沉重“第二轮倒班”构成鲜明对照。"
               }
             ]
           }
@@ -758,9 +838,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who stay home...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "For women who stay home, they never get to leave the office.",
+                "explanation": "主干为主谓宾结构（前置介词短语主语化）。介词短语 For women who stay home 中 who 引导定语从句；主句代词 they 复指全职太太群体；谓语动词短语 never get to leave（永远无法脱离/离开）；宾语 the office（这里将家庭隐喻为永远无法下班的办公室）。"
+              },
+              {
+                "type": "定语从句与隐喻修辞",
+                "content": "women who stay home ... never get to leave the office",
+                "explanation": "① who stay home 限制性定语从句，指代“全职主妇”；② the office 为暗喻（metaphor），将家庭劳动空间比作没有打卡下班时刻的冰冷工作间，刻画无休止的心理压抑。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "they never get to leave the office",
+                "explanation": "对比论证（B面：全职主妇）。揭示全职主妇的困境：家庭即职场，空间上无处可逃，导致工作与生活界限彻底坍塌，心理上承受全天候永动机般的照料压力。"
               }
             ]
           }
@@ -776,9 +866,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who work outside the home...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "And for women who work outside the home, they often are playing catch-up-with- household tasks.",
+                "explanation": "主干为并列连词 And 引出的主谓宾结构。介词短语 for women who work outside the home 作范围状语；主语 they；谓语动词为现在进行时 are playing catch-up-with-（疲于应付、忙于追赶补做）；宾语 household tasks（家庭杂务）。"
+              },
+              {
+                "type": "定语从句与复合词修饰",
+                "content": "who work outside the home ... catch-up-with- household tasks",
+                "explanation": "① who 引导限制性定语从句修饰 women，界定“职业女性/双职工母亲”；② 复合短语 catch-up-with- 作前置修饰语或动词短语核心，形象再现职场女性下班后犹如“赶工倒班”般抢做家务的狼狈疲惫状态。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "for women who work outside the home, they often are playing catch-up-with- household tasks",
+                "explanation": "对比论证（C面：职业女性）与核心命题线索（Q23题眼来源句之一）。指出职业女性面临经典的“双重负担（Second Shift）”：既要在外部打工养家，又要回家收拾烂摊子补做家务，直接为下一句“角色模糊（blurring of roles）”提供定义事实支撑。"
               }
             ]
           }
@@ -794,9 +894,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that the home front lags well behind the work...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "With ..., it’s not surprising that women are more stressed at home.",
+                "explanation": "主干为主系表结构（形式主语从句）。it 为形式主语；系动词 is（缩写 it’s）；表语形容词 not surprising（不足为奇）；that 引导真正的主语从句 that women are more stressed at home。"
+              },
+              {
+                "type": "伴随状语与同位语从句",
+                "content": "With the blurring of roles, and the fact that the home front lags well behind the workplace in making adjustments for working women",
+                "explanation": "① 介词 With 引出两个并列原因伴随结构：the blurring of roles（角色的模糊）与 the fact（事实）；② that 引导同位语从句解释 the fact，从句主语 the home front（家庭后方），谓语 lags well behind（远远滞后于），宾语 the workplace，介词短语 in making adjustments for working women 作方面状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "With the blurring of roles ... women are more stressed at home",
+                "explanation": "核心因果归纳与命题题眼（Q23核心定位句）。解释女性角色模糊的实质：女性兼具职场养家者（breadwinners）与家庭主妇（housewives）双重责任，而家庭内部的分工调整严重滞后。完美呼应 Q23 正确选项 [B] they are both bread winners and housewives，同时破解女性家庭压力超载的制度性与观念性成因。"
               }
             ]
           }
@@ -813,8 +923,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But it’s not just a gender thing....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But it’s not just a gender thing.",
+                "explanation": "主干为转折连词 But 连接的主系表否定结构。主语 it（指代家庭压力过大的现象）；系动词 is（’s）；表语 a gender thing（单纯的性别问题）；副词 not just（不仅、不只是）表部分否定。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "But it’s not just a gender thing.",
+                "explanation": "承上启下的段落过渡枢纽句（Discourse Pivot / Topic Transition）。前文从男女分工视角（gender difference）解释了压力差，此处笔锋一转，断言“这绝不仅仅是性别层面的问题”，从微观人际角色跃升至下一层次——探讨职场与家庭在“契约清晰度与激励机制”上的制度性本质差异。"
               }
             ]
           }
@@ -830,9 +945,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "what they’re supposed to be doing: working...",
-                "explanation": "连接词 <code>what</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "At work, people pretty much know what they’re supposed to be doing: ...",
+                "explanation": "主干为主谓宾结构。介词短语 At work 作地点状语；主语 people；谓语动词 know，副词短语 pretty much（几乎、基本）作修饰语；what 引导宾语从句 what they’re supposed to be doing。"
+              },
+              {
+                "type": "同位解释与目的状语",
+                "content": "working, making money, doing the tasks they have to do in order to draw an income",
+                "explanation": "冒号后由三个并列动名词短语充当同位语详细阐释 what 引导的具体行为：working（工作）、making money（赚钱）、doing the tasks（执行任务）；tasks 之后省略 that/which 引导定语从句 they have to do，后接不定式短语 in order to draw an income 作目的状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "people pretty much know what they’re supposed to be doing ... draw an income",
+                "explanation": "职场制度特征剖析（Clarity of Workplace）。指出职场具备极高的契约清晰度：目标明确、职责分明、付出与报酬挂钩，员工清楚自己的权责边界，这种确定性极大地降低了心理耗损与无序焦虑。"
               }
             ]
           }
@@ -849,8 +974,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The bargain is very pure: Employee puts in hours of physical...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The bargain is very pure: Employee puts in ... and employee draws out ...",
+                "explanation": "主干为主系表结构加冒号同位并列句。主句主语 The bargain（契约、交易）；系动词 is；表语形容词 very pure（非常纯粹）；冒号后并列分句：① 主语 Employee，谓语动词短语 puts in（投入），宾语 hours of physical or mental labor（数小时体力或脑力劳动）；② 连词 and 连接第二分句，主语 employee，谓语动词短语 draws out（提取、换取），宾语 life-sustaining moola（维持生计的薪水）。"
+              },
+              {
+                "type": "复合形容词与隐喻词汇",
+                "content": "life-sustaining moola",
+                "explanation": "① life-sustaining 为复合形容词作前置定语，意为“维持生命的、糊口的”；② moola 为美式俚语词汇，在句中作 draws out 的宾语，意为“金钱、报酬、薪水”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "employee draws out life-sustaining moola",
+                "explanation": "词汇推断题眼与论据提炼（Q24核心定位句）。作者用极为生动的商业契约比喻（The bargain is very pure），建立“劳动投入（puts in labor）<-> 薪酬产出（draws out moola）”的等价交换关系，精准锁定 Q24 词义题正确选项 [C] earnings（收入/薪资），排除技能（skills）、精力（energy）、营养（nutrition）等干扰项。"
               }
             ]
           }
@@ -867,8 +1002,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "On the home front, however, people have no such clarity....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "On the home front, however, people have no such clarity.",
+                "explanation": "主干为主谓宾结构。介词短语 On the home front（在家庭阵地/家庭生活方面）作地点状语；插入副词 however 表强烈对比转折；主语 people；谓语动词 have；宾语 no such clarity（完全没有这种明晰性与确定性）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "On the home front, however, people have no such clarity.",
+                "explanation": "结构对比枢纽（Paragraph Hook & Contrast）。由第3段职场的高度纯粹透明（pure bargain, clarity），骤然转入第4段家庭生活规则模糊的混乱沼泽。直接对应 Q25 题干定位点：考查家庭与职场的根本区别（workplace 有清晰契约，而 home front 毫无清晰可言）。"
               }
             ]
           }
@@ -884,9 +1024,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which the division of labor is so clinically a...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析与完全倒装",
+                "content": "Rare is the household in which the division of labor is so clinically and methodically laid out.",
+                "explanation": "主干为“表语前置的完全倒装句”。正常语序为：The household ... is rare。表语形容词 Rare（罕见的）置于句首以示强烈强调；系动词 is；主语 the household（家庭）。"
+              },
+              {
+                "type": "定语从句与被动语态",
+                "content": "in which the division of labor is so clinically and methodically laid out",
+                "explanation": "in which 引导定语从句，修饰先行词 household，并在从句中作地点状语（in the household）；从句主语 the division of labor（劳动分工），谓语为被动语态 is laid out（被规划、被布置），副词短语 so clinically and methodically（如此冷静客观且有条不紊地）作状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Rare is the household in which the division of labor is so clinically and methodically laid out.",
+                "explanation": "特殊倒装结构与命题题眼（Q25精准定位句）。用 Rare 句首倒装断言：现实中几乎没有任何一个家庭能够把家务分工安排得如同外科手术般条理分明、清晰界定。直接命中 Q25 正确选项 [D] division of labor at home is seldom clear-cut（家庭分工很少明确细致），Rare 与 seldom、clinically laid out 与 clear-cut 形成完美的同义替换。"
               }
             ]
           }
@@ -903,8 +1053,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "There are a lot of tasks to be done; there are inadequate re...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "There are a lot of tasks to be done; there are inadequate rewards for most of them.",
+                "explanation": "主干为分号连接的两个 there be 存在句型。① 第一分句：引导词 There，谓语 are，主语 a lot of tasks（海量任务），后接不定式被动式 to be done 作后置定语（有待完成的）；② 第二分句：引导词 there，谓语 are，主语 inadequate rewards（不充分的、微不足道的回报），介词短语 for most of them 作后置定语。"
+              },
+              {
+                "type": "修饰成分与对照逻辑",
+                "content": "a lot of tasks ... inadequate rewards",
+                "explanation": "tasks 的“巨量无限（a lot）”与 rewards 的“极度匮乏（inadequate）”形成严酷失衡的修饰对照，刻画家庭劳动的结构性困境。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "There are a lot of tasks to be done; there are inadequate rewards for most of them.",
+                "explanation": "原因论证深度展开。阐明家庭压力难以忍受的底层经济学机制：家务琐事无穷无尽，且付出没有任何市场薪酬激励，缺乏正向反馈机制，反衬职场“多劳多得、薪资清晰”的正向激励。"
               }
             ]
           }
@@ -920,9 +1080,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "if they’re teenagers...",
-                "explanation": "从属连词 <code>if</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Your home colleagues—your family— have no clear rewards for their labor; they need to be talked into it, or ... threatened ...",
+                "explanation": "主干由分号连接两个复合并列分句。第一分句主语 Your home colleagues，破折号插入同位语 your family（你的家人）；谓语 have，宾语 no clear rewards，介词短语 for their labor 作定语。第二分句主语 they，谓语 need to be talked into it（需要被好言规劝去干活）与 or 连接的省略式被动谓语 (need to be) threatened with...（被威胁……）并列。"
+              },
+              {
+                "type": "同位语、条件从句与介词短语",
+                "content": "—your family— ... or if they’re teenagers, threatened with complete removal of all electronic devices",
+                "explanation": "① 双破折号 your family 作 home colleagues 的幽默同位语；② if they’re teenagers 为插入的条件状语从句；③ threatened with 介词短语 complete removal of all electronic devices（彻底没收所有电子设备）作伴随方式状语，极具美国家庭生活幽默感。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Your home colleagues ... have no clear rewards for their labor; they need to be talked into it",
+                "explanation": "诙谐讽刺的职场类比（Humorous Metaphor）。将家人戏称为“家庭同事（home colleagues）”，指出管理家庭成员远比管理企业员工更费心神：不能用金钱驱动，只能靠苦口婆心甚至强行没收手机才能促成一点家务合作，深度解释了为什么在家让人心力交瘁。"
               }
             ]
           }
@@ -939,8 +1109,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Plus, they’re your family....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Plus, they’re your family.",
+                "explanation": "主干为主系表简单句。递进副词 Plus（而且、加之）作外加连接状语；主语 they；系动词 are（’re）；表语名词短语 your family（你的家人）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Plus, they’re your family.",
+                "explanation": "情感与伦理纽带的突转（Rhetorical Punchline）。以极短促的单句凸显亲情关系的特殊不可替代性与情感捆绑，打破纯理性契约分析，为下一句“你不能解雇他们”提供无可辩驳的情感前设。"
               }
             ]
           }
@@ -957,8 +1132,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "You cannot fire your family....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "You cannot fire your family.",
+                "explanation": "主干为主谓宾结构。主语泛指代词 You（你）；情态动词加否定词 cannot（不能、无法）；谓语动词 fire（解雇、开除）；宾语 your family（你的家人）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "You cannot fire your family.",
+                "explanation": "经典幽默格言式对比（Work vs Home Inevitability）。职场中若团队成员不称职可以合法裁员解雇，而在家庭中面对拖延、抱怨、不愿做家务的家人，你却无法“解雇”血亲。这种终身无法解约的责任绑定，构成了家庭压力的最深沉心理负担。"
               }
             ]
           }
@@ -975,8 +1155,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "You never really get to go home from home....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "You never really get to go home from home.",
+                "explanation": "主干为主谓状结构。主语 You；否定副词 never 与修饰副词 really 作状语；谓语动词短语 get to go（有机会去、得以去）；地点副词 home（回家）；介词短语 from home（从家离开）作起点状语。"
+              },
+              {
+                "type": "修辞剖析与双关意蕴",
+                "content": "go home from home",
+                "explanation": "运用头韵与悖论修辞（Paradox）。字面意为“你永远无法从家里‘下班回家’”，第一个 home 指代心智上的放松栖息之所，第二个 home 指代柴米油盐与家务琐事的物理处所，揭示空间重叠下的无处遁逃。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "You never really get to go home from home.",
+                "explanation": "哲理式点睛总结（Thematic Climax）。在职场工作一天后可以“回家（go home）”得到空间切割与心理转换，而在家里劳作后却根本没有另一个“港湾”供你退避，将家庭从避难所沦为无休止工作场所的困境揭示得淋漓尽致。"
               }
             ]
           }
@@ -992,9 +1182,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that people are more stressed at home....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "So it’s not surprising that people are more stressed at home.",
+                "explanation": "主干为主系表结构（结果连词 + 形式主语从句）。因果结果连词 So；it 为形式主语；系动词 is（’s）；表语形容词 not surprising；that 引导真实主语从句 that people are more stressed at home。"
+              },
+              {
+                "type": "主语从句剖析",
+                "content": "that people are more stressed at home",
+                "explanation": "从句主语 people，系动词 are，表语形容词比较级 more stressed，介词短语 at home 作地点状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "So it’s not surprising that people are more stressed at home.",
+                "explanation": "首尾呼应与因果归纳（Thematic Recap）。经过第3、4段从职场契约纯粹性到家庭分工模糊性、缺乏奖励与无法解雇的层层论证，此处用 So 顺理成章地闭环重申开篇论点，强化“人在家里压力更大”绝非偶然谬误，而是深层社会与心理结构使然。"
               }
             ]
           }
@@ -1010,9 +1210,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "Not only are the tasks apparently infinite, the co-workers a...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "主干剖析与部分倒装",
+                "content": "Not only are the tasks apparently infinite, the co-workers are much harder to motivate.",
+                "explanation": "主干为 Not only 置于句首引起的部分倒装并列结构。① 第一分句否定副词短语 Not only 置于句首，系动词 are 倒装至主语 the tasks 前，表语形容词 infinite（无限的），副词 apparently（显而易见地）作状语；② 第二分句正常语序，主语 the co-workers（指代家人），系动词 are，表语形容词比较级 harder，程度副词 much 修饰 harder，动词不定式 to motivate 作后置状语修饰 harder。"
+              },
+              {
+                "type": "非谓语不定式与隐喻",
+                "content": "the co-workers are much harder to motivate",
+                "explanation": "不定式主动形式 to motivate 表达被动逻辑意义（形容词 difficult/hard 后常接主动表被动的不定式），指家人极难被动员激励起来分担任务；co-workers 继续呼应前文对家人的戏谑反讽称谓。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Not only are the tasks apparently infinite, the co-workers are much harder to motivate.",
+                "explanation": "尾句双重王炸总结（Grand Finale）。采用 Not only 递进倒装句型，从“物（tasks infinite，任务无休无止）”与“人（co-workers hard to motivate，家人极难调动）”两个终极维度，彻底焊死人在家中压力更高的客观逻辑链条，为整篇议论文画上兼具严密逻辑与幽默文采的圆满句号。"
               }
             ]
           }
@@ -2303,9 +2513,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who do not have a parent with a college degr...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "For years, studies have found that first-generation college students ... lag other students on a range of education achievement factors.",
+                "explanation": "主干为主谓宾（宾语从句）结构。时间状语 For years；主语 studies（多项研究）；谓语动词为现在完成时 have found（已经发现）；that 引导宾语从句。从句主干为主谓宾结构：主语 first-generation college students（第一代大学生）；谓语及物动词 lag（落后于）；宾语 other students（其他学生）；介词短语 on a range of education achievement factors（在一系列学业成就指标上）作方面状语。"
+              },
+              {
+                "type": "同位语与定语从句",
+                "content": "—those who do not have a parent with a college degree—",
+                "explanation": "双破折号引出代词 those 作 first-generation college students 的同位语；who 引导定语从句修饰 those，从句谓语 do not have，宾语 a parent，介词短语 with a college degree 作后置定语，精确给出第一代大学生的官方学术定义（父母均无大学学历）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "first-generation college students ... lag other students on a range of education achievement factors",
+                "explanation": "篇首核心背景与问题界定（Problem Presentation）。文章开篇以学术研究为依托，指出第一代大学生在高等教育中普遍处于劣势的严峻现实，奠定全文探讨社会阶层与教育公平议题的基调。"
               }
             ]
           }
@@ -2322,8 +2542,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Their grades are lower and their dropout rates are higher....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Their grades are lower and their dropout rates are higher.",
+                "explanation": "主干由并列连词 and 连接两个主系表结构分句。① 第一分句：主语 Their grades（他们的成绩）；系动词 are；表语形容词比较级 lower（更低）；② 第二分句：主语 their dropout rates（他们的辍学率）；系动词 are；表语形容词比较级 higher（更高）。"
+              },
+              {
+                "type": "对比与平行结构",
+                "content": "Their grades are lower and their dropout rates are higher",
+                "explanation": "句式高度对称平行，grades are lower 与 dropout rates are higher 构成双重负面指标的对仗，言简意赅地具体量化上一句中抽象的 lag on education achievement factors。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Their grades are lower and their dropout rates are higher.",
+                "explanation": "数据支撑与劣势具象化（Supporting Details）。直接列举学业成绩低和中途退学率高两项核心硬指标，为后文大学招收此类学生却陷入“悖论”提供事实根据。"
               }
             ]
           }
@@ -2339,9 +2569,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "since such students are most likely to advance...",
-                "explanation": "从属连词 <code>since</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "But since ..., colleges and universities have pushed for decades to recruit more of them.",
+                "explanation": "主干为转折连词 But 引出的主从复合句。主句为主谓宾不定式结构：主语并列名词 colleges and universities（高校与大学）；谓语动词为现在完成时 have pushed（数十年来持续推动、大力倡导）；时间状语 for decades；不定式短语 to recruit more of them 作目的状语/宾语补足语（招收更多第一代大学生）。"
+              },
+              {
+                "type": "原因状语从句与条件从句嵌套",
+                "content": "since such students are most likely to advance economically if they succeed in higher education",
+                "explanation": "① since 引导原因状语从句，从句主干为主系表结构：主语 such students，系表结构 are most likely to advance economically（最有可能实现经济阶层跃升）；② 内嵌 if 引导的条件状语从句 if they succeed in higher education（如果他们在高等教育中取得成功）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "colleges and universities have pushed for decades to recruit more of them",
+                "explanation": "动机与政策初衷（Original Purpose & Motivation）。揭示高校大规模扩招第一代大学生的良善初衷：高等教育本被寄予打破阶层固化、促进社会阶层向上流动的厚望，为紧接着出现的“实际残酷恶果”形成戏剧性反差。"
               }
             ]
           }
@@ -2357,9 +2597,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that recruiting first-generation students...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "This has created “a paradox” in that recruiting ... means that higher education has “continued to reproduce and widen, rather than close” an achievement gap ...",
+                "explanation": "主干为主谓宾复合结构。主语 This 指代前文高校扩招的举措；谓语动词为现在完成时 has created；宾语 “a paradox”（一个悖论）；介词短语 in that（因为、在于）引导原因状语从句解释悖论的具体内涵。"
+              },
+              {
+                "type": "从句深度嵌套与动名词主语",
+                "content": "in that recruiting ..., but then watching ..., means that higher education has “continued to reproduce and widen, rather than close” an achievement gap based on social class",
+                "explanation": "① in that 引导的从句中，主语由 but 连接的两个动名词短语构成：recruiting first-generation students 与 watching many of them fail（招收第一代学生却眼睁睁看着他们失败）；谓语动词 means；② that 引导宾语从句，从句主语 higher education，谓语 has continued to reproduce and widen, rather than close（继续再生产并扩大、而不是缩小），宾语 an achievement gap，过去分词短语 based on social class 作后置定语修饰 gap；③ 介词短语 according to the depressing beginning of a paper forthcoming in... 作来源状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "recruiting first-generation students, but then watching many of them fail, means that higher education has “continued to reproduce and widen...”",
+                "explanation": "核心悖论命题点（Q26定位句）。高校招收第一代学生本意是促进阶层流动，结果却因缺乏后续扶持导致大批学生挂科辍学，反而再生产并拉大了基于阶层的差距。这深刻说明扩招政策“背离了最初目的（missed its original purpose）”，直击 Q26 正确选项 [C]，排除缩小差距等干扰项。"
               }
             ]
           }
@@ -2375,9 +2625,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which involves a one-hour...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "But the article is actually quite optimistic, as it outlines a potential solution to this problem, suggesting that ...",
+                "explanation": "主干为主系表结构加原因状语从句及分词伴随状语。转折连词 But；主语 the article；副词 actually；系动词 is；表语形容词短语 quite optimistic（相当乐观）；as 引导原因状语从句 as it outlines a potential solution to this problem（因为它概述了该问题的一个潜在解决方案）。"
+              },
+              {
+                "type": "分词状语、定语从句与比较结构",
+                "content": "suggesting that an approach (which involves a one-hour, next-to-no-cost program) can close 63 percent of the achievement gap ...",
+                "explanation": "① 现在分词短语 suggesting that 作伴随状语，that 引导宾语从句；② 从句主语 an approach，后接括号内 which 引导的定语从句 which involves a one-hour, next-to-no-cost program（涉及一个时长仅一小时且几乎零成本的项目）；③ 从句谓语情态短语 can close，宾语 63 percent of the achievement gap，过去分词短语 measured by such factors as grades 作后置定语，介词短语 between first-generation and other students 界定差距双方。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the article is actually quite optimistic, as it outlines a potential solution to this problem",
+                "explanation": "语篇情感大转折与命题题眼（Q27定位句）。前一段以 depressing 渲染困境，本句以 But 和 quite optimistic 迅速扭转基调，阐明作者之所以乐观，正是因为这一看似棘手的阶级顽疾“并非无解，而是可以解决的（the problem is solvable）”，精准对应 Q27 正确选项 [C]；选项 [D] their approach is costless 偷换概念（原文是 next-to-no-cost，几乎无成本而非完全无成本）。"
               }
             ]
           }
@@ -2393,9 +2653,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who completed the project) at an unnamed pri...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "The authors of the paper are from different universities, and their findings are based on a study ...",
+                "explanation": "主干为连词 and 连接的两个并列分句。① 第一分句：主语 The authors of the paper；系表谓语 are from different universities（来自不同大学）；② 第二分句：主语 their findings（他们的研究发现）；谓语被动语态 are based on（基于）；介词宾语 a study。"
+              },
+              {
+                "type": "非谓语分词与定语从句",
+                "content": "involving 147 students (who completed the project) at an unnamed private university",
+                "explanation": "现在分词短语 involving 147 students 作后置定语修饰 a study；括号内 who completed the project 为关系代词 who 引导的定语从句修饰 students；介词短语 at an unnamed private university（在一所未具名的私立大学）作地点状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "findings are based on a study involving 147 students ... at an unnamed private university",
+                "explanation": "科学实验实证参数介绍（Methodology Background）。交代研究样本规模（147名受试学生）与实验环境（私立大学），确立后续统计学结论的学术严谨度与可信度。"
               }
             ]
           }
@@ -2412,8 +2682,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "First generation was defined as not having a parent with a f...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "First generation was defined as not having a parent with a four-year college degree.",
+                "explanation": "主干为主谓被动结构。主语 First generation（第一代大学生这一概念）；谓语动词为一般过去时被动语态 was defined as（被定义为……）；介词 as 后接动名词否定式 not having a parent 作介词宾语；介词短语 with a four-year college degree（拥有四年制大学学位）作后置定语修饰 a parent。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "First generation was defined as not having a parent with a four-year college degree.",
+                "explanation": "术语界定操作化说明（Operational Definition）。精准界定研究变量的排他性边界，强调“四年制本科学位”为评判家庭文化资本的关键分水岭，剔除大专等短期文凭干扰。"
               }
             ]
           }
@@ -2429,9 +2704,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "while this was true only for 8.6 percent of th...",
-                "explanation": "从属连词 <code>while</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Most of the first-generation students ... were recipients of Pell Grants, ..., while this was true only for 8.6 percent of the students ...",
+                "explanation": "主干为连词 while 连接的两个对比主系表分句。① 第一分句：主语 Most of the first-generation students（第一代学生中的绝大多数，占比59.1%）；系动词 were；表语 recipients of Pell Grants（佩尔助学金获得者）；② 第二分句：对比连词 while（而、相比之下）引导对比状语分句；主语代词 this（指获得佩尔助学金的情况）；系动词 was；表语形容词 true；介词短语 only for 8.6 percent of the students（仅适用于8.6%的学生）。"
+              },
+              {
+                "type": "同位语与多重介词修饰",
+                "content": "a federal grant for undergraduates with financial need ... students with at least one parent with a four-year degree",
+                "explanation": "① a federal grant... 作 Pell Grants 的同位语，for undergraduates with financial need 阐明佩尔助学金的政策性质（针对有经济困难的本科生的联邦助学金）；② with at least one parent 与 with a four-year degree 构成层层嵌套的后置定语修饰 the students。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Most of the first-generation students (59.1 percent) were recipients of Pell Grants, a federal grant for undergraduates with financial need",
+                "explanation": "核心数据对比与命题定位（Q28定位句）。59.1% 对比 8.6% 的悬殊数据，不仅证明第一代大学生的家庭贫困率极高，更直接坐实了他们“普遍需要经济资助（in need of financial support）”的经济困窘现状，精准呼应 Q28 正确选项 [C]。"
               }
             ]
           }
@@ -2447,9 +2732,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that a relatively modest intervention could h...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Their thesis ... was based on the view that first-generation students may be most lacking not in potential but in practical knowledge ...",
+                "explanation": "主干为主谓宾（同位语从句群）复合结构。主语 Their thesis（他们的论文论点）；谓语被动语态 was based on（建立在……观点之上）；介词宾语 the view。"
+              },
+              {
+                "type": "双重同位语从句与平行并列",
+                "content": "—that a relatively modest intervention could have a big impact— ... that first-generation students may be most lacking not in potential but in practical knowledge about how to deal with the issues that face most college students",
+                "explanation": "① 第一个 that 引导破折号间的同位语从句，解释 thesis 的内容：温和的干预可产生巨大影响；② 第二个 that 引导同位语从句解释 the view，从句谓语短语 may be most lacking（可能最缺乏）；③ not in potential but in practical knowledge 构成 not... but...（不是……而是……）平行对照结构；④ 介词 about 后接疑问词+不定式短语 how to deal with the issues 作宾语，issues 后接 that 引导限制性定语从句 that face most college students（面对大多数大学生的现实问题）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "first-generation students may be most lacking not in potential but in practical knowledge about how to deal with the issues...",
+                "explanation": "全文理论核心假说与命题题眼（Q29核心定位句）。作者揭示第一代大学生的本质症结：他们智力和学业潜力毫不逊色（not in potential），真正致命短板在于缺乏中产阶级熟稔的“处理大学复杂事务的实践常识与经验技巧（practical knowledge）”。直接命中 Q29 正确选项 [B] are inexperienced in handling their issues at college。"
               }
             ]
           }
@@ -2465,9 +2760,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that this is the gap that must be narrowed to...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "They cite past research by several authors to show that this is the gap that must be narrowed to close the achievement gap.",
+                "explanation": "主干为主谓宾及目的状语结构。主语 They；谓语动词 cite（引用）；宾语 past research by several authors（数位学者以往的研究文献）；不定式短语 to show... 作目的状语；that 引导 show 的宾语从句。"
+              },
+              {
+                "type": "宾语从句与定语从句",
+                "content": "that this is the gap that must be narrowed to close the achievement gap",
+                "explanation": "宾语从句主干为主系表结构：主语 this，系动词 is，表语 the gap；第二个 that 引导限制性定语从句修饰先行词 the gap，定语从句谓语被动语态 must be narrowed，后接不定式短语 to close the achievement gap 作目的状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "this is the gap that must be narrowed to close the achievement gap",
+                "explanation": "理论逻辑强化（Literature Support）。借前人既有文献夯实论据：要想彻底填平显性的“学业成绩差距（achievement gap）”，前提是必须先补齐隐性的“高校文化与制度常识认知鸿沟（knowledge/cultural gap）”。"
               }
             ]
           }
@@ -2484,8 +2789,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Many first-generation students “struggle to navigate the mid...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Many first-generation students “struggle to navigate ..., learn ..., and take advantage of ...,” they write.",
+                "explanation": "主干为引述结构加直接引语主谓并列不定式结构。主语 Many first-generation students；谓语动词 struggle（艰难抗争、努力应对）；后接三个并列的不定式短语：① to navigate the middle-class culture of higher education（驾驭高等教育的中产阶级文化）；② (to) learn the ‘rules of the game’（学习这套游戏规则）；③ (to) take advantage of college resources（充分利用大学各项资源）；引述动词 they write 置于句末。"
+              },
+              {
+                "type": "习语与隐喻修辞",
+                "content": "navigate the middle-class culture ... ‘rules of the game’",
+                "explanation": "① navigate（原指航行，引申为顺利适应、游刃有余地应对）；② 引号中的 rules of the game（游戏规则）喻指高校制度运作、向教授求助答疑、申请奖学金与心理咨询等隐性文化资本。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "struggle to navigate the middle-class culture of higher education",
+                "explanation": "阶层文化排斥机制的具体化（Cultural Capital Barrier）。直接揭示第一代大学生受挫的深层文化根源：现代大学本质上是高度中产阶级化的场域，来自工人阶级或贫困家庭的学生面临严重的文化水土不服与资源运用失能。"
               }
             ]
           }
@@ -2501,9 +2816,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when colleges don’t talk about the class adva...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "And this becomes more of a problem when colleges don’t talk about the class advantages and disadvantages ...",
+                "explanation": "主干为连词 And 引出的主系表复合结构。指示代词 this（指上述文化适应障碍）；谓语动词 becomes（变为）；表语短语 more of a problem（一个更为严重的问题）；when 引导时间/条件状语从句。"
+              },
+              {
+                "type": "状语从句剖析",
+                "content": "when colleges don’t talk about the class advantages and disadvantages of different groups of students",
+                "explanation": "从句主语 colleges；谓语否定式 don’t talk about（闭口不谈、避而不谈）；宾语 the class advantages and disadvantages（阶层优势与劣势）；介词短语 of different groups of students 作后置定语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "this becomes more of a problem when colleges don’t talk about the class advantages and disadvantages",
+                "explanation": "责任主体转移与关键批判（Q30核心铺垫句）。作者将批判锋芒从学生个体能力转向高等教育机构本身：如果大学在制度上对阶层不平等保持傲慢的沉默，这种文化适应障碍就会被无限放大，直指大学自身的失职。"
               }
             ]
           }
@@ -2519,14 +2844,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "why they are struggling and do not understan...",
-                "explanation": "关系词 <code>why</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "“Because ..., many first-generation students lack insight about ... and do not understand ...”",
+                "explanation": "主干为原因状语从句引导的主从复合句。主句由 and 连接两个并列谓语：主语 many first-generation students；谓语① lack insight about...（缺乏对……的深入认识/洞察）；并列谓语② do not understand...（不理解/不知道……）。"
               },
               {
-                "type": "状语从句",
-                "content": "Because US colleges and universities seldom ackn...",
-                "explanation": "从属连词 <code>Because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "多重从句深度嵌套",
+                "content": "Because US colleges and universities seldom acknowledge how social class can affect students’ educational experience, ... about why they are struggling and ... how students ‘like them’ can improve.",
+                "explanation": "① Because 引导原因状语从句，从句主语 US colleges and universities，谓语动词 seldom acknowledge（极少承认），宾语为 how 引导的宾语从句 how social class can affect students’ educational experience；② why 引导介词 about 的宾语从句 why they are struggling（他们为什么深陷挣扎）；③ how 引导 understand 的宾语从句 how students ‘like them’ can improve（像他们这样的学生如何才能实现提升）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Because US colleges and universities seldom acknowledge how social class can affect ... lack insight about why they are struggling",
+                "explanation": "收官段批判性推论与命题题眼（Q30终极定位句）。作者明确指出：正因大学讳莫如深、不肯正视阶层对教育体验的侵蚀，才导致第一代大学生误以为挣扎完全是个人无能。由此合乎逻辑地推导出：高校对这一学术差距问题负有不可推卸的体制性责任（colleges are partly responsible for the problem in question），精准锁定 Q30 正确选项 [D]，排除推卸责任给学生的干扰项 [B]。"
               }
             ]
           }
@@ -3778,8 +4108,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Even in traditional offices, “the lingua franca of corporate...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Even in traditional offices, “the lingua franca ... has gotten much more emotional and much more right-brained ...,” said Harvard Business School professor Nancy Koehn.",
+                "explanation": "主干为引述倒装句。主语 Harvard Business School professor Nancy Koehn（哈佛商学院教授南希·科恩）；谓语动词 said；直接引语为主系表比较结构：主语 the lingua franca of corporate America（美国企业界的通用语）；连系动词 has gotten（已经变得）；并列表语形容词比较级 much more emotional（更加情绪化/感性）and much more right-brained（更加右脑化/直觉感性）；介词短语 Even in traditional offices 作让步状语。"
+              },
+              {
+                "type": "比较状语从句剖析",
+                "content": "than it was 20 years ago",
+                "explanation": "than 引导比较状语从句，代词 it 指代 the lingua franca，was 为系动词，时间短语 20 years ago 作时间状语，构建起相隔二十年的历史语言演变对比。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "lingua franca of corporate America has gotten much more emotional and much more right-brained",
+                "explanation": "篇首核心现象定调（Q31命题定位句）。权威学者开篇点明全篇主题：企业用语发生了深刻嬗变，从过去的冰冷理性转向注重情感、直觉与感性联结。直接对应 Q31 题眼：当代企业语言的特征是变得更加感性（more emotional），精准命中选项 [D]，排除各类反向干扰。"
               }
             ]
           }
@@ -3796,8 +4136,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "She started spinning off examples....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "She has been studying team building for decades.",
+                "explanation": "主干为主谓宾结构。主语 She（指代南希·科恩教授）；谓语动词为现在完成进行时 has been studying（几十年来一直在深入研究）；宾语 team building（团队建设）；时间介词短语 for decades 作状语。"
+              },
+              {
+                "type": "时态剖析与修辞功能",
+                "content": "has been studying ... for decades",
+                "explanation": "现在完成进行时 has been studying 强调研究活动的长期持续性与未间断性，确立学者在该领域的资深权威性，为后文关于团队术语演变的论述背书。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "She has been studying team building for decades.",
+                "explanation": "权威背书与论题聚焦。将作者考察的视线从泛泛的语言演变，明确聚焦到企业管理中最核心的领域——“团队建设（team building）”，开启下文对“team”这一企业热词渊源的探寻。"
               }
             ]
           }
@@ -3813,9 +4163,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "If you and I parachuted back to Fortune 500...",
-                "explanation": "从属连词 <code>If</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "“If you and I parachuted back ..., we would see much less frequent use of terms like journey, mission, passion. There were ...”",
+                "explanation": "主干为与过去/现在事实相反的虚拟条件句加 there be 并列陈述句。① 虚拟条件句：If you and I parachuted back...（如果我们空降回1990年），主句主语 we，虚拟谓语 would see，宾语 much less frequent use of terms...（极少见到这些术语的高频使用）；② 后半句包含三个由逗号连接的 there be 句型：There were goals, there were strategies, there were objectives（有目标、有战略、有指标），转折连词 but 后省略 there were，连接并列对立项 not these kinder, gentler terms。"
+              },
+              {
+                "type": "虚拟语气与今昔对照",
+                "content": "parachuted back to Fortune 500 companies in 1990, we would see ...",
+                "explanation": "① 条件从句使用过去式 parachuted，主句使用 would see，构成生动的假设想象（空降回过去）；② 术语对比：“journey（旅程）, mission（使命）, passion（激情）”这类温情词汇（kinder, gentler terms），与1990年代机械冷冰冰的“goals, strategies, objectives”构成今昔语义色彩的鲜明碰撞。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "There were goals, there were strategies ... but not these kinder, gentler terms.",
+                "explanation": "今昔词汇对比论证。通过时光倒流的时空置换假想，形象揭示90年代500强企业语言的科层制、冷漠理性特质，反衬出当今职场语汇充满亲和力、温情色彩的重大转变。"
               }
             ]
           }
@@ -3832,8 +4192,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "There were goals, there were strategies, there were objectiv...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "There were goals, there were strategies, there were objectives, but not these kinder, gentler terms.",
+                "explanation": "主干为三个排比式的 there be 句型与转折否定并列结构。引导词 There，过去式谓语 were，主语分别为 goals（目标）、strategies（战略）、objectives（指标）；转折连词 but 引出被否定的名词短语 not these kinder, gentler terms（但绝没有这些更亲切、更温和的术语）。"
+              },
+              {
+                "type": "修辞排比与反衬",
+                "content": "goals ... strategies ... objectives, but not these kinder, gentler terms",
+                "explanation": "三重排比节奏急促紧凑，突出旧式管理术语对硬性产出与冰冷绩效的极端崇拜；形容词比较级 kinder, gentler 赋予当代管理词汇拟人化的温情色彩。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "not these kinder, gentler terms",
+                "explanation": "承接前文，收束第1段的历史对比，将焦点牢牢锁定在当前“温和、感性、充满人情味”的新管理用语上，直接启开第2段对这些词汇从何而来的追问。"
               }
             ]
           }
@@ -3849,9 +4219,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that this new era of corporate vocabulary is ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Koehn pointed out that this new era of corporate vocabulary is very “team”-oriented— and not by coincidence.",
+                "explanation": "主干为主谓宾（宾语从句）复合结构。主语 Koehn；谓语动词短语 pointed out（指出）；that 引导宾语从句。从句主干为主系表结构：主语 this new era of corporate vocabulary（这一新时代的企业词汇）；系动词 is；表语复合形容词 “team”-oriented（以“团队”为导向的）；破折号后连接并列介词短语 and not by coincidence（且绝非偶然）。"
+              },
+              {
+                "type": "复合词与修饰成分",
+                "content": "very “team”-oriented— and not by coincidence",
+                "explanation": "① “team”-oriented 为“名词+过去分词”构成的复合形容词，引号突出“团队”这一核心话语范式；② 破折号插入 and not by coincidence 起到强烈的强调修辞效果，暗示其背后存在深层的商业诉求与文化因果机制。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "this new era of corporate vocabulary is very “team”-oriented— and not by coincidence",
+                "explanation": "论题递进与命题题眼（Q32定位句）。作者明确指出，新词汇以“团队”为轴心绝非巧合，制造悬念，为紧接着阐明团队语言源自“体育运动文化（sports culture）”埋下逻辑伏笔。"
               }
             ]
           }
@@ -3868,8 +4248,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "“Let’s not forget sports—in male-dominated corporate America...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "“Let’s not forget sports—in male-dominated corporate America, it’s still a big deal.",
+                "explanation": "主干为祈使句加破折号解释主系表分句。祈使主句：Let us (Let’s) not forget sports（千万不要遗忘体育运动）；破折号后分句：介词短语 in male-dominated corporate America（在男性主导的美国企业界）作范围状语；主语代词 it（指体育运动）；系动词 is（’s）；表语 a big deal（举足轻重大事）。"
+              },
+              {
+                "type": "复合形容词与习语",
+                "content": "male-dominated ... a big deal",
+                "explanation": "① male-dominated 为复合形容词作定语，刻画美国高管层的性别权力格局；② a big deal 为常用俚语，意为“极具影响力、备受推崇的大事”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Let’s not forget sports—in male-dominated corporate America, it’s still a big deal.",
+                "explanation": "核心溯源命题点（Q32核心题眼句）。直接回答了为什么企业词汇充满团队导向：因为在男性占统治地位的企业界，竞技体育文化根深蒂固，体育话语自然而然地被移植为商业管理的权力话语。直接命中 Q32 正确选项 [A] sports culture。"
               }
             ]
           }
@@ -3885,9 +4275,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that I’m a coach...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "It’s not explicitly conscious; it’s the idea that I’m a coach, and you’re my team...",
+                "explanation": "主干为分号连接的两个主系表分句。① 第一分句：主语 It，系动词 is，表语形容词 conscious（有意识的），副词 explicitly（明确地、显意识地）修饰表语；② 第二分句：主语 it，系动词 is，表语 the idea（这种理念/观念）；that 引导同位语从句解释 the idea。"
+              },
+              {
+                "type": "同位语从句与并列结构",
+                "content": "that I’m a coach, and you’re my team",
+                "explanation": "that 引导同位语从句，从句内部由 and 连接两个并列主系表分句：I’m a coach（我是主教练）and you’re my team（你们是我的球员团队），生动展现管理者自我角色的心理投射。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "it’s the idea that I’m a coach, and you’re my team",
+                "explanation": "心理投射机制具象化。解释体育隐喻如何在潜意识中重构职场权力关系：将上下级雇佣剥削关系，粉饰为教练与队员之间的默契配合与共同拼搏，为管理层的权威赋予温情合法的领导力外衣。"
               }
             ]
           }
@@ -3904,8 +4304,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "There are lots and lots of CEOs in very different companies,...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "There are lots and lots of CEOs in very different companies, but most think of themselves as coaches and this is their team.”",
+                "explanation": "主干为连词 but 连接的并列复合句。前半分句为 there be 句型：There are lots and lots of CEOs in very different companies（在各类不同企业中存在大量CEO）；转折后分句由 and 再次并列：① 主语 most（绝大多数CEO），谓语动词短语 think of... as...（把……视作），宾语反身代词 themselves，介词宾语 coaches（教练）；② 主语 this，系动词 is，表语 their team（他们的团队）。"
+              },
+              {
+                "type": "介词短语与固定搭配",
+                "content": "think of themselves as coaches and this is their team",
+                "explanation": "think of... as... 表达认知归类；lots and lots of 重复修辞强化泛滥普遍程度；in very different companies 强调该现象跨越行业的普适性。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "most think of themselves as coaches and this is their team",
+                "explanation": "现象普遍性归纳（Pervasiveness of Sports Metaphor）。论证这种“教练-团队”的认知模式绝非个别高管的异想天开，而已成为全美商业领袖共享的通用管理心理模型，彻底闭环第2段关于体育文化溯源的论述。"
               }
             ]
           }
@@ -3922,8 +4332,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "These terms are also intended to infuse work with meaning—an...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "These terms are also intended to infuse work with meaning—and, ..., increase allegiance to the firm.",
+                "explanation": "主干为主谓被动加并列不定式结构。主语 These terms（这些术语）；谓语被动语态 are intended to（旨在、意图在于）；后接由 and 连接的两个并列不定式短语：① to infuse work with meaning（为工作注入崇高意义）；② (to) increase allegiance to the firm（增强对公司的忠诚度）。"
+              },
+              {
+                "type": "插入语与固定短语",
+                "content": "—and, as Rakesh Khurana, another professor, points out, increase allegiance to the firm",
+                "explanation": "① infuse A with B 为固定搭配，意为“给A注入/灌输B”；② 破折号内 as Rakesh Khurana, another professor, points out 为 as 引导的非限制性定语从句/方式状语从句作插入语，another professor 作库拉纳的同位语；③ allegiance to the firm 意为“对公司的效忠/忠诚”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "intended to infuse work with meaning ... increase allegiance to the firm",
+                "explanation": "核心目的揭示与命题题眼（Q33定位句）。明确揭示管理用语革新的根本资本主义目的：不仅仅是词汇翻新，而是通过为琐碎劳动赋予崇高意义，从而极大增强员工对企业的忠诚度与归属感。直接对应 Q33 正确选项 [D] strengthen employee loyalty，allegiance 与 loyalty 构成完美同义置换。"
               }
             ]
           }
@@ -3939,9 +4359,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that historically used to be associated with ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "“You have the importation of terminology that ...: terms like ...,” said Khurana.",
+                "explanation": "主干为引述倒装主从复合句。主句谓语 said，主语 Khurana；直接引语主干为主谓宾结构：主语泛指代词 You；谓语 have；宾语 the importation of terminology（术语的引进/移植）；that 引导限制性定语从句修饰 terminology；冒号后接同位语列举 terms like vision, values, passion, and purpose。"
+              },
+              {
+                "type": "定语从句与同位语列举",
+                "content": "that historically used to be associated with non-profit organizations and religious organizations",
+                "explanation": "① 关系代词 that 在从句中作主语，先行词为 terminology；从句谓语 used to be associated with（过去常常与……相联系）；介词宾语为并列名词 non-profit organizations and religious organizations（非营利组织与宗教组织）；② 冒号后 terms like... 详细列举所借用的四大神圣词汇：愿景（vision）、价值观（values）、激情（passion）和使命目标（purpose）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "importation of terminology that historically used to be associated with non-profit organizations and religious organizations",
+                "explanation": "第二重渊源溯源（Religious & Non-profit Borrowing）。指出当代商业语汇不仅偷师竞技体育，更跨界剽窃了原本属于教会与公益慈善机构的终极信仰词汇，用宗教般的殉道情怀对员工进行精神赋能与心理控制。"
               }
             ]
           }
@@ -3958,8 +4388,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "This new focus on personal fulfillment can help keep employe...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "This new focus on personal fulfillment can help keep employees motivated amid ...",
+                "explanation": "主干为主谓复合宾语结构。主语 This new focus on personal fulfillment（这种对个人自我实现的新聚焦）；情态动词加谓语 can help (to) keep；复合宾语结构：宾语 employees，过去分词 motivated 作宾语补足语（使员工保持高昂干劲）；介词短语 amid increasingly loud debates over work-life balance 作环境背景状语。"
+              },
+              {
+                "type": "介词短语与宾补结构",
+                "content": "keep employees motivated amid increasingly loud debates over work-life balance",
+                "explanation": "① keep sb motivated 为使役动词复合结构；② 介词 amid 意为“在……之中、面对……”；increasingly loud（愈演愈烈、日益高涨的）修饰 debates；介词 over 引出争论的核心焦点 work-life balance（工作与生活的平衡）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "help keep employees motivated amid increasingly loud debates over work-life balance",
+                "explanation": "管理术语的实操功利价值（Practical Corporate Utility）。说明企业为何热衷于个人成就感话语：在全社会对996加班、过劳及工作生活平衡口诛笔伐的舆论浪潮中，企业急需用“自我实现”的温情面纱给员工打鸡血，安抚抗议情绪并榨取更多工时。"
               }
             ]
           }
@@ -3975,9 +4415,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "why women still can’t have it all and books ...",
-                "explanation": "关系词 <code>why</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "The “mommy wars” ... are still going on today, prompting arguments ... and books like Sheryl Sandberg’s Lean In, whose title ...",
+                "explanation": "主干为主谓进行时结构加现在分词伴随状语。主语 The “mommy wars” of the 1990s（1990年代的“妈妈之战”）；谓语动词为现在进行时 are still going on（如今仍在持续）；时间副词 today 作状语；逗号后接现在分词短语 prompting... 作结果/伴随状语。"
+              },
+              {
+                "type": "分词状语、宾语从句与定语从句",
+                "content": "prompting arguments about why women still can’t have it all and books like Sheryl Sandberg’s Lean In, whose title has become a buzzword in its own right",
+                "explanation": "① prompting 后接两个并列宾语：arguments about...（争论）与 books like...（书籍）；② why 引导介词 about 的宾语从句 why women still can’t have it all（为什么女性仍然无法事业家庭两全）；③ whose 引导非限制性定语从句修饰 Lean In，从句主语 whose title，谓语 has become，表语 a buzzword in its own right（其书名本身已然成为一个流行热词）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "books like Sheryl Sandberg’s Lean In, whose title has become a buzzword in its own right",
+                "explanation": "文化现象引申与命题题眼（Q34定位句）。借桑德伯格畅销书《向前一步》（Lean In）这一现象级案例，探讨当代职场女性面临的事业与母职撕裂。书籍呼吁女性在职场全力拼搏，替职业女性发声，直接印证 Q34 正确选项 [A] voices for working women；同时揭示其书名如何迅速被企业界收编为号召员工全情投入的“流行语（buzzword）”。"
               }
             ]
           }
@@ -3994,8 +4444,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Terms like unplug, offline, life-hack, bandwidth, and capaci...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Terms like unplug, offline, life-hack, bandwidth, and capacity are all about setting boundaries between the office and the home.",
+                "explanation": "主干为主系表结构。主语 Terms，介词短语 like unplug, offline, life-hack, bandwidth, and capacity（诸如拔掉插头、离线、生活黑客、带宽、容量等术语）作后置定语；系动词 are；表语短语 all about setting boundaries...（全都是关于划定界限）；介词短语 between the office and the home 界定界限两端。"
+              },
+              {
+                "type": "动名词短语与科技借词",
+                "content": "setting boundaries between the office and the home",
+                "explanation": "介词 about 后接动名词短语 setting boundaries 作介词宾语；所列词汇原为计算机科技与通信技术术语（bandwidth 带宽, offline 离线），被借用于描述人类生理心理精力与职场边界。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Terms like unplug, offline ... are all about setting boundaries between the office and the home",
+                "explanation": "员工自我防卫话语的兴起。列举员工试图通过科技隐喻在工作与家庭之间筑起防火墙的努力，表现出劳动者面对企业无休止侵占个人时间时的防御性自保心理，为下一句的“热情陷阱”蓄势。"
               }
             ]
           }
@@ -4011,14 +4471,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "if your work is your “passion...",
-                "explanation": "从属连词 <code>if</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "But if ..., you’ll be more likely to devote yourself to it, even if ...",
+                "explanation": "主干为转折连词 But 引出的条件复合句。主句为主系表结构：主语 you；谓语 will be（you’ll be）；表语形容词比较级 more likely（更有可能）；不定式短语 to devote yourself to it 作状语（全身心投入其中）。"
               },
               {
-                "type": "名词性从句",
-                "content": "that means going home for dinner and then wor...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "条件从句与让步状语从句",
+                "content": "if your work is your “passion,” ... even if that means going home for dinner and then working long after the kids are in bed",
+                "explanation": "① if 引导条件状语从句 if your work is your “passion”（如果你的工作是你的“挚爱/激情”）；② even if 引导让步状语从句，that 指代全情奉献工作的行为，谓语 means，后接两个并列动名词短语作宾语：going home for dinner（回家吃晚饭）与 then working long（然后长时间加班）；③ 时间状语从句 after the kids are in bed（在孩子们睡下之后）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "if your work is your “passion,” you’ll be more likely to devote yourself to it, even if that means ... working long after the kids are in bed",
+                "explanation": "资本话语的终极PUA本质（The Passion Trap）。作者一针见血地戳穿“激情（passion）”温情话语下的残酷陷阱：一旦工作被赋予“热爱与人生意义”的崇高神话，劳动者就会心甘情愿自我剥削，甚至在完成家庭晚饭和照料孩子后继续挑灯夜战，实现隐蔽的无偿超时加班。"
               }
             ]
           }
@@ -4035,8 +4500,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But this seems to be the irony of office speak: Everyone mak...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But this seems to be the irony of office speak: Everyone makes fun of it, but managers love it, companies depend on it, and regular people willingly absorb it.",
+                "explanation": "主干为主系表复合结构加冒号同位并列句。主句：转折连词 But；主语指示代词 this；连系动词 seems to be；表语 the irony of office speak（办公室话术的讽刺之处）；冒号后由转折连词 but 和并列连词 and 串联起四个结构工整的微型主谓宾分句。"
+              },
+              {
+                "type": "四重并列排比分句",
+                "content": "Everyone makes fun of it, but managers love it, companies depend on it, and regular people willingly absorb it",
+                "explanation": "① Everyone makes fun of it（人人都嘲讽取笑它）；② managers love it（管理层对它钟爱有加）；③ companies depend on it（企业对它高度依赖）；④ regular people willingly absorb it（普通打工人却心甘情愿吸纳接纳它）。四个分句主谓宾严丝合缝对仗，形成戏剧性的人类行为张力。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Everyone makes fun of it ... regular people willingly absorb it",
+                "explanation": "荒诞现实讽刺与命题题眼（Q35核心定位句）。深刻揭示办公室套话的讽刺性悖论：尽管人人都知道这些黑话虚伪可笑并加以戏谑，但在实际职场运作中，管理层推波助澜，普通民众更在日常中主动接纳并内化了这套话语体系。直接命中 Q35 正确选项 [B] Regular people mock it but accept it（普通人取笑它却接受它），makes fun of 对应 mock，willingly absorb 对应 accept。"
               }
             ]
           }
@@ -4052,9 +4527,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who you are....",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "As a linguist once said, “...” In a workplace ..., office speak can help you figure out ...",
+                "explanation": "本句包含名言引述与宏观论断两大部分。① 引述部分：方式状语从句 As a linguist once said，直接引语中主语 You，谓语 get sb to do 复合结构：宾语 people，不定式 to think，省略 that 的宾语从句 it’s nonsense；时间短语 at the same time that you buy into it 作伴随时间状语；② 论断部分：介词短语 In a workplace that’s fundamentally indifferent to... 作环境状语；主句主语 office speak；谓语动词短语 can help you figure out（能帮助你弄清楚）；后接破折号连接的两个 how 引导的并列宾语从句。"
+              },
+              {
+                "type": "定语从句与双重宾语从句",
+                "content": "In a workplace that’s fundamentally indifferent to your life and its meaning ... how you relate to your work—and how your work defines who you are",
+                "explanation": "① that 引导限制性定语从句修饰 workplace，从句系表结构 is fundamentally indifferent to（从根本上漠不关心）；② 第一个宾语从句 how you relate to your work（你如何看待自己与工作的关系）；③ 第二个宾语从句 how your work defines who you are（你的工作如何定义你到底是谁），其中 who you are 为 defines 的宾语从句。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "at the same time that you buy into it ... office speak can help you figure out how you relate to your work",
+                "explanation": "终极心理救赎悖论（Philosophical Conclusion）。语言学名言精辟印证 Q35 考点（一边觉得是胡说八道，一边又对其深信不疑 buy into it）。结尾揭示出冷酷的社会学真相：现代资本主义职场本质上对员工的个体生命毫无温情，而办公室套话为孤立无援的个体提供了一套自我赋予意义、寻求身份认同的精神麻醉剂。"
               }
             ]
           }
@@ -5164,8 +5649,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Many people talked of the 288,000 new jobs the Labor Departm...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Many people talked of the 288,000 new jobs ... along with the drop in the unemployment rate to 6.1 percent, as good news.",
+                "explanation": "主干为 talk of... as... 复合宾语结构。主语 Many people（许多人）；谓语动词短语 talked of（谈论、视……为）；核心宾语 the 288,000 new jobs（28.8万新增就业岗位）；介词短语 along with the drop in the unemployment rate to 6.1 percent（连同失业率降至6.1%）作伴随伴生宾语；介词短语 as good news（作为利好消息）作宾语补足语。"
+              },
+              {
+                "type": "省略关系词的定语从句",
+                "content": "the 288,000 new jobs the Labor Department reported for June",
+                "explanation": "the 288,000 new jobs 后省略关系代词 that/which 引导限制性定语从句，从句主语 the Labor Department（美国联邦劳工部），谓语动词 reported，时间介词短语 for June 作状语，精准交代官方统计发布主体与时间窗口。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "talked of the 288,000 new jobs ... as good news",
+                "explanation": "宏观经济主流利好叙事（Conventional Optimism）。开篇列举官方重磅就业数据（新增就业岗位亮眼、失业率骤降），呈现媒体与公众一致叫好的乐观狂欢，为后文以 However 揭示被繁荣遮蔽的深层结构性隐忧铺垫对比背景。"
               }
             ]
           }
@@ -5182,8 +5677,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "And they were right....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "And they were right.",
+                "explanation": "主干为主系表超短简单句。并列连词 And 起承接推进作用；主语代词 they（指代前句中欢欣鼓舞的大众与评论家）；系动词 were；表语形容词 right（正确的、有道理的）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "And they were right.",
+                "explanation": "欲抑先扬的客观认同（Concession & Rhetorical Affirmation）。作者没有全盘否定主流观点，而是先以短促坚定的语气承认经济确实在复苏，展现严谨客观的经济评论家姿态，使接下来的辩驳与反转更具说服力。"
               }
             ]
           }
@@ -5200,8 +5700,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "For now it appears the economy is creating jobs at a decent ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "For now it appears the economy is creating jobs at a decent pace.",
+                "explanation": "主干为主系表（表语从句）结构。时间短语 For now（就目前而言）作状语；形式主语 it；系动词 appears（似乎、显现出）；后接省略 that 的从句，从句主语 the economy，谓语动词进行时 is creating，宾语 jobs，介词短语 at a decent pace（以可观/不错的步伐）作方式状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "For now it appears the economy is creating jobs at a decent pace.",
+                "explanation": "阶段性审慎评价。For now 设下时间限定（“至少眼下如此”），decent pace 给出温和肯定的评价，暗示这种就业创造速度虽令人满意，但仍属于修复性反弹，留有叙事余地。"
               }
             ]
           }
@@ -5218,8 +5723,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "We still have a long way to go to get back to full employmen...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "We still have a long way to go to get back to full employment, but at least we are now finally moving forward at a faster pace.",
+                "explanation": "主干为连词 but 连接的转折并列句。① 前半分句为主谓宾结构：主语 We，谓语 have，宾语 a long way，不定式短语 to go（要走）作后置定语，不定式短语 to get back to full employment（恢复充分就业）作目的状语；② 后半分句为主谓状结构：插入语 at least（至少），主语 we，时间副词 now finally，谓语动词进行时 are moving forward（正在向前迈进），介词短语 at a faster pace 作方式状语。"
+              },
+              {
+                "type": "不定式与短语修辞",
+                "content": "a long way to go to get back to full employment",
+                "explanation": "a long way to go 为常用成语性表达，强调任务艰巨、距离目标尚远；full employment（充分就业）为宏观经济学核心术语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "We still have a long way to go ... but at least we are now finally moving forward",
+                "explanation": "辩证收束宏观背景。清醒指出美国距离危机前的充分就业目标依然长路漫漫，但提速前进的态势值得肯定，为第1段的经济基本面扫描画上句号。"
               }
             ]
           }
@@ -5235,9 +5750,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that was largely overlooked....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "However, there is another important part of the jobs picture that was largely overlooked.",
+                "explanation": "主干为强转折副词 However 引出的 there be 存在句加定语从句。引导词 there，系动词 is，主语 another important part of the jobs picture（就业形势图景的另一个重要组成部分）；that 引导限制性定语从句。"
+              },
+              {
+                "type": "定语从句与被动语态",
+                "content": "that was largely overlooked",
+                "explanation": "关系代词 that 在定语从句中作主语，先行词为 another important part；从句谓语为一般过去时被动语态 was overlooked（被忽视、被遗漏），副词 largely（在很大程度上）作程度修饰。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "another important part of the jobs picture that was largely overlooked",
+                "explanation": "核心转折与命题题眼（Q36题干定位句）。全篇最具转折爆发力的段首枢纽句。明确宣告：在媒体狂欢的表象之下，存在一个被大面积忽略的重大就业拼图，瞬间激发读者探究真相的悬念，直接对应 Q36 题干定位点（Which part of the jobs picture was neglected?）。"
               }
             ]
           }
@@ -5253,9 +5778,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who report voluntarily working part-time....",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "There was a big jump in the number of people who report voluntarily working part-time.",
+                "explanation": "主干为 there be 存在句加定语从句。引导词 There，谓语动词 was，主语 a big jump（大幅激增），介词短语 in the number of people（在……人数上）作范围状语；who 引导限制性定语从句修饰 people。"
+              },
+              {
+                "type": "定语从句与动名词复合结构",
+                "content": "who report voluntarily working part-time",
+                "explanation": "关系代词 who 在定语从句中作主语；谓语动词 report（自述、报告）；动名词短语 working part-time 作宾语，副词 voluntarily（自愿地）修饰 working，构成“自愿兼职”这一核心经济学术语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "There was a big jump in the number of people who report voluntarily working part-time.",
+                "explanation": "核心题眼精准揭晓（Q36命中句与全文分水岭）。直接揭秘那个被公众忽视的惊人事实——“自愿从事兼职工作的人数出现大幅暴增”。精准对应 Q36 正确选项 [B] The increase of voluntary part-time jobs（big jump 对应 increase），成为统领后文全部论述的核心现象。"
               }
             ]
           }
@@ -5272,8 +5807,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "This figure is now 830,000 (4.4 percent) above its year ago ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "This figure is now 830,000 (4.4 percent) above its year ago level.",
+                "explanation": "主干为主系表结构。主语 This figure（该数据，指自愿兼职人数）；时间副词 now；系动词 is；表语介词短语 above its year ago level（高出去年同期水平），数量短语 830,000 (4.4 percent) 作程度状语修饰介词短语 above。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "This figure is now 830,000 (4.4 percent) above its year ago level.",
+                "explanation": "实测硬数据支撑。用净增83万人、同比大增4.4%的实测经济统计硬指标，为上一句中抽象的 big jump 提供确凿无疑的实证支撑，凸显该趋势绝非统计抽样误差。"
               }
             ]
           }
@@ -5290,8 +5830,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Before explaining the connection to the Obamacare, it is wor...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Before explaining ..., it is worth making an important distinction.",
+                "explanation": "主干为时间状语加 it is worth doing 习惯句型。介词短语 Before explaining the connection to the Obamacare（在阐释与奥巴马医改的联系之前）作时间状语；形式主语 it；系动词 is；表语形容词 worth（值得的）；动名词短语 making an important distinction（做出一个关键区分）作真正的主语/动名词宾语。"
+              },
+              {
+                "type": "非谓语介宾与动名词主语",
+                "content": "Before explaining ... making an important distinction",
+                "explanation": "① 介词 Before 后接动名词短语 explaining the connection to... 作宾语；② it is worth doing 为考研高频经典句型，强调做某事的极高必要性与认知价值。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Before explaining the connection to the Obamacare, it is worth making an important distinction.",
+                "explanation": "宏观结构引流与论证铺垫（Structural Bridge）。提前预告文章后半程的核心主角——“奥巴马医改法案（Obamacare）”，但作者极为审慎地在此踩下刹车，指出必须先理清概念混淆，才能看懂医改的深远影响。"
               }
             ]
           }
@@ -5307,9 +5857,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who work part-time jobs actually want full-t...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Many people who work part-time jobs actually want full-time jobs.",
+                "explanation": "主干为主谓宾复合句。主语 Many people；who 引导限制性定语从句修饰 people，从句谓语 work，宾语 part-time jobs；主句副词 actually（实际上）；主句谓语动词 want；宾语 full-time jobs（全职工作）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Many people who work part-time jobs actually want full-time jobs.",
+                "explanation": "概念区分第一维：揭示“非自愿兼职（Involuntary Part-time）”的本质。指出大量从事兼职者实属迫于生计的无奈妥协，内心真实渴望的是全职岗位，与下文的自愿兼职形成关键二元对立，直接对应 Q37 题干定位点。"
               }
             ]
           }
@@ -5325,9 +5880,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "because this is all they can get....",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "They take part-time work because this is all they can get.",
+                "explanation": "主干为主谓宾加原因状语从句结构。主句主语 They；谓语动词 take（接受、从事）；宾语 part-time work；because 引导原因状语从句。"
+              },
+              {
+                "type": "原因状语从句与定语从句嵌套",
+                "content": "because this is all they can get",
+                "explanation": "从句主干为主系表结构：主语 this，系动词 is，表语代词 all；all 后省略关系代词 that 引导定语从句 they can get（他们所能得到的一切）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "They take part-time work because this is all they can get.",
+                "explanation": "核心动因与命题题眼（Q37定位句）。深刻解释为什么许多人干兼职：绝非个人主动偏好，而是因为在劳动力市场处于弱势，“根本找不到全职工作，这是他们唯一能抓到的救命稻草”。完美对应 Q37 正确选项 [C] cannot get their hands on full-time jobs（all they can get 对应 cannot get hands on full-time jobs）。"
               }
             ]
           }
@@ -5343,9 +5908,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that many people will be having a very hard t...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "An increase in involuntary part-time work is evidence of ... and it means that ...",
+                "explanation": "主干为并列连词 and 连接的两个分句。① 第一分句为主系表结构：主语 An increase in involuntary part-time work（非自愿兼职工作的增加）；系动词 is；表语 evidence of weakness in the labor market（劳动力市场疲软的证据）；② 第二分句为主谓宾结构：主语代词 it；谓语 means；that 引导宾语从句。"
+              },
+              {
+                "type": "宾语从句与动名词惯用句型",
+                "content": "that many people will be having a very hard time making ends meet",
+                "explanation": "① 从句主语 many people；谓语动词为将来进行时 will be having；宾语 a very hard time；② have a hard time doing sth 为固定句型，后接动名词短语 making ends meet（维持生计/收支平衡）作状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "An increase in involuntary part-time work is evidence of weakness in the labor market",
+                "explanation": "经济学术语界定与宏观推导。明确给非自愿兼职定性：它是劳动力市场萧条与家庭经济拮据的负面晴雨表，与前文自愿兼职所代表的“生活方式自由选择”形成天壤之别。"
               }
             ]
           }
@@ -5362,8 +5937,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "There was an increase in involuntary part-time in June, but ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "There was an increase in involuntary part-time in June, but the general direction has been down.",
+                "explanation": "主干为连词 but 连接的转折并列句。① 前半分句为 there be 句型：引导词 There，谓语 was，主语 an increase in involuntary part-time（非自愿兼职的增加），时间状语 in June；② 后半分句为主系表结构：转折连词 but；主语 the general direction（总体走势/总体方向）；谓语动词为现在完成时 has been；表语副词 down（向下、呈下降趋势）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the general direction has been down",
+                "explanation": "短期波动与长期趋势辩证分析（Q38定位句）。指出6月份非自愿兼职的单月微增只是短期杂音，长周期的宏观大方向是持续下降的。直接对应 Q38 正确选项 [A] shows a general tendency of decline（general direction 对应 general tendency，down 对应 decline）。"
               }
             ]
           }
@@ -5380,8 +5960,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Involuntary part-time employment is still far higher than be...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Involuntary part-time employment is still far higher than before the recession, but it is down by 640,000 (7.9 percent) from its year ago level.",
+                "explanation": "主干为连词 but 连接的转折并列比较句。① 前半分句：主语 Involuntary part-time employment；系动词 is；表语形容词比较级 far higher（高得多）；比较状语 than before the recession（比大衰退前）；② 后半分句：主语代词 it；系动词 is；表语副词 down（下降）；幅度介词短语 by 640,000 (7.9 percent) 作状语；介词短语 from its year ago level 作比较基准状语。"
+              },
+              {
+                "type": "程度副词与幅度介词",
+                "content": "far higher than ... down by 640,000 ... from its year ago level",
+                "explanation": "① far 修饰比较级 higher 表示程度悬殊；② be down by + 数量（净下降……）；from... 表对比参照基数。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Involuntary part-time employment is still far higher than before the recession, but it is down...",
+                "explanation": "历史高位与同比回落的双重视角（Q38命题比对句）。辨析两个参照系：与2008年衰退前比依然偏高（排除干扰项 [D]），但与去年同期相比大降64万人，再次印证长期下行趋势，体现经济统计分析的纵深感。"
               }
             ]
           }
@@ -5397,9 +5987,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "because people tell us....",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "We know the difference between voluntary and involuntary part-time employment because people tell us.",
+                "explanation": "主干为主谓宾加原因状语从句结构。主语 We；谓语及物动词 know；宾语 the difference（区别）；介词短语 between voluntary and involuntary part-time employment（自愿与非自愿兼职之间）作后置定语；because 引导原因状语从句 because people tell us（因为受访者如实告诉我们）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "We know the difference ... because people tell us.",
+                "explanation": "调查方法论设问与承转（Methodological Transition）。从宏观数据趋势转入微观统计口径的解释，通过“因为人们在问卷中如实相告”平实切入，开启对劳工部如何精确甄别两类兼职的技术说明。"
               }
             ]
           }
@@ -5415,9 +6010,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "if they worked less than 35 hours in the re...",
-                "explanation": "从属连词 <code>if</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "The survey used by the Labor Department asks people if they worked less than 35 hours in the reference week.",
+                "explanation": "主干为主谓双宾结构（含条件/宾语从句）。主语 The survey；过去分词短语 used by the Labor Department 作后置定语；谓语动词 asks；间接宾语 people；if 引导从句作直接宾语（询问是否……）。"
+              },
+              {
+                "type": "宾语从句与比较结构",
+                "content": "if they worked less than 35 hours in the reference week",
+                "explanation": "if 从句主语 they；谓语 worked；数量短语 less than 35 hours 作程度状语；介词短语 in the reference week（在调查参考周）作时间状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "asks people if they worked less than 35 hours in the reference week",
+                "explanation": "兼职分类第一道门槛（35-Hour Threshold）。交代美国官方界定全职与兼职的硬性工时线——每周工作满35小时为全职，不足35小时进入兼职候选池。"
               }
             ]
           }
@@ -5433,9 +6038,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "If the answer is “yes...",
-                "explanation": "从属连词 <code>If</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "If the answer is “yes,” they are classified as working part-time.",
+                "explanation": "主干为条件状语从句加主谓被动复合结构。条件从句：If the answer is “yes”；主句：主语 they；谓语动词被动语态 are classified as（被归类为）；介词 as 后接动名词短语 working part-time 作宾补/介宾。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "If the answer is “yes,” they are classified as working part-time.",
+                "explanation": "分类逻辑链条第一环。工时不足35小时即在统计上被直接划入兼职范畴，逻辑严谨，行文层层递进。"
               }
             ]
           }
@@ -5451,14 +6061,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "because they wanted to work less than full time ...",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "The survey then asks whether they worked less than 35 hours ... because they wanted to ... or because they had no choice.",
+                "explanation": "主干为主谓宾（双重原因并列宾语从句）结构。主语 The survey；时间副词 then；谓语 asks；whether 引导宾语从句。"
               },
               {
-                "type": "名词性从句",
-                "content": "whether they worked less than 35 hours in that w...",
-                "explanation": "连接词 <code>whether</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "宾语从句与并列原因从句",
+                "content": "whether they worked less than 35 hours in that week because they wanted to work less than full time or because they had no choice",
+                "explanation": "whether 从句主干为 they worked less than 35 hours...；后接由 or 连接的两个并列原因状语从句：① because they wanted to work less than full time（因为他们主观上想要少于全职工作）；② because they had no choice（因为他们客观上别无选择）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "because they wanted to work less than full time or because they had no choice",
+                "explanation": "分类逻辑核心筛选机制。通过追问“主观意愿（wanted to）”还是“客观无奈（had no choice）”，精准区分兼职行为是出于生活自愿还是经济被迫。"
               }
             ]
           }
@@ -5474,9 +6089,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "if they tell the survey taker they chose to...",
-                "explanation": "从属连词 <code>if</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "They are only classified as voluntary part-time workers if they tell the survey taker they chose to work less than 35 hours a week.",
+                "explanation": "主干为主谓被动结构加条件状语从句。主语 They；限定副词 only；谓语动词被动语态 are classified as（被归类为）；介词宾语 voluntary part-time workers（自愿兼职工作者）；if 引导条件状语从句。"
+              },
+              {
+                "type": "条件从句与宾语从句",
+                "content": "if they tell the survey taker they chose to work less than 35 hours a week",
+                "explanation": "if 从句主语 they；谓语 tell；间接宾语 the survey taker（调查员）；后接省略 that 的宾语从句 they chose to work less than 35 hours a week 作直接宾语，动词 chose（主动选择）点明自愿属性。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "only classified as voluntary part-time workers if they tell ... they chose to work",
+                "explanation": "方法论定义闭环。只有明确表态“自主选择”少工时者才计入自愿兼职，彻底排除了因市场不景气找不到全职的被迫兼职者，确保统计指标纯洁性，为下文引入奥巴马医改扫清概念障碍。"
               }
             ]
           }
@@ -5492,9 +6117,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "because one of the main purposes was to allow pe...",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "The issue of voluntary part-time relates to Obamacare because one of the main purposes was to allow people to get insurance outside of employment.",
+                "explanation": "主干为主谓宾加原因状语从句结构。主语 The issue of voluntary part-time（自愿兼职问题）；谓语动词短语 relates to（与……紧密相关）；宾语 Obamacare（奥巴马医改法案）；because 引导原因状语从句。"
+              },
+              {
+                "type": "原因状语从句与不定式复合宾语",
+                "content": "because one of the main purposes was to allow people to get insurance outside of employment",
+                "explanation": "because 从句主语 one of the main purposes（核心宗旨之一）；系动词 was；表语不定式短语 to allow people to get insurance...，allow sb to do 为复合结构，介词短语 outside of employment（在就业体系之外）作状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "one of the main purposes was to allow people to get insurance outside of employment",
+                "explanation": "核心制度机制破题（Q39核心定位句）。解释自愿兼职暴增与医改的根本因果关联：奥巴马医改的核心立法宗旨，就是打破“只有上班才能享受医保”的体制枷锁，允许公民在雇佣体系之外购买有补贴的医疗保险，直接对应 Q39 题眼。"
               }
             ]
           }
@@ -5510,9 +6145,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that provided health insurance....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "For many people, ..., before Obamacare the only way to get insurance was through a job that provided health insurance.",
+                "explanation": "主干为主系表复合句。介词短语 For many people 作对象状语；插入语 especially those with serious health conditions...；时间短语 before Obamacare 作状语；主语 the only way（唯一的途径），不定式短语 to get insurance 作后置定语；系动词 was；表语介词短语 through a job；that 引导限制性定语从句修饰 a job。"
+              },
+              {
+                "type": "定语从句与并列修饰",
+                "content": "especially those with serious health conditions or family members with serious health conditions ... that provided health insurance",
+                "explanation": "① 代词 those 与 family members 均后接 with serious health conditions（患有严重疾病），刻画身患基础病群体的医保刚需；② that 引导定语从句修饰 a job，谓语 provided，宾语 health insurance。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "before Obamacare the only way to get insurance was through a job that provided health insurance",
+                "explanation": "历史旧制弊端重温（Job Lock 枷锁）。揭示医改前美国劳工面临的“工作绑架（Job Lock）”困境：由于商业保险公司对既往症（pre-existing conditions）拒保，有病在身的人为了保命只能死死绑定在提供医保的全职岗位上，不敢辞职，更不敢选择兼职。"
               }
             ]
           }
@@ -5529,8 +6174,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "However, Obamacare has allowed more than 12 million people t...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "However, Obamacare has allowed more than 12 million people to either get insurance through Medicaid or the exchanges.",
+                "explanation": "主干为强转折副词 However 引出的主谓复合宾语结构。主语 Obamacare；谓语动词为现在完成时 has allowed；宾语 more than 12 million people（超过1200万人）；不定式短语 to either get insurance... 作宾语补足语。"
+              },
+              {
+                "type": "并列关联词与介词短语",
+                "content": "to either get insurance through Medicaid or the exchanges",
+                "explanation": "either... or... 连接两个渠道：through Medicaid（通过联邦医疗救助）or (through) the exchanges（通过健保交易所），展现医改提供的多样化非雇主医保投保路径。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Obamacare has allowed more than 12 million people to either get insurance through Medicaid or the exchanges.",
+                "explanation": "制度红利量化与转折对比。以 However 骤然逆转旧制阴霾，用“超1200万人成功脱敏”的庞大规模，证明医改切实斩断了医保获取对雇主的绝对依附，彰显政策落地实效。"
               }
             ]
           }
@@ -5546,9 +6201,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who may previously have felt the need to get...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "These are people who may previously have felt the need to get a full-time job that provided insurance in order to ...",
+                "explanation": "主干为主系表复合句。主语指示代词 These；系动词 are；表语 people；who 引导限制性定语从句修饰 people。"
+              },
+              {
+                "type": "多重从句与不定式嵌套",
+                "content": "who may previously have felt the need to get a full-time job that provided insurance in order to cover themselves and their families",
+                "explanation": "① who 从句中谓语为情态动词对过去的推测 may previously have felt（以往很可能感到过）；宾语 the need；不定式短语 to get a full-time job 作 need 的后置定语；② that 引导定语从句修饰 a full-time job，从句谓语 provided，宾语 insurance；③ 不定式短语 in order to cover themselves and their families 作目的状语（为了给自己和家人提供医疗保障）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "These are people who may previously have felt the need to get a full-time job that provided insurance",
+                "explanation": "观念与行为解放剖析。指出这1200万人正是过去为了医保“被迫全职”的典型劳工。一旦医保不再受制于全职岗位，他们便获得了自主决定工作时长的人身自由，直接解释了自愿兼职人群的来源。"
               }
             ]
           }
@@ -5565,8 +6230,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "With Obamacare there is no longer a link between employment ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "With Obamacare there is no longer a link between employment and insurance.",
+                "explanation": "主干为伴随介词短语加 there be 否定存在句。介词短语 With Obamacare（有了奥巴马医改/在奥巴马医改推行之后）作背景条件状语；引导词 there，系动词 is；否定时间副词 no longer（不再）；主语 a link（联系、纽带）；介词短语 between employment and insurance（在就业与医疗保险之间）作后置定语。"
+              },
+              {
+                "type": "固定搭配与修饰",
+                "content": "no longer a link between employment and insurance",
+                "explanation": "① there is no longer... 表示某事物或状态已不复存在；② a link between A and B 为经典抽象名词搭配，明确界定被彻底解绑的二元关系（就业与医保）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "there is no longer a link between employment and insurance",
+                "explanation": "全篇主旨终极收官句与命题最高频考点（Q39题眼与Q40全文主旨）。作者以最干脆有力的宣判完成收尾：医改从制度上彻底废除了“医保必须捆绑就业”的陈腐纽带，精准对应 Q39 正确选项 [D] employment is no longer a precondition to get insurance（no longer a link 对应 no longer a precondition）；同时统领全篇关于美国就业市场兼职与全职重构的宏观论述，对应 Q40 主旨题 [A] employment in the US。"
               }
             ]
           }

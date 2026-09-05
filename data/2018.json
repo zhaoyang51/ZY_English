@@ -722,14 +722,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "though he has to justify his efforts to give hi...",
-                "explanation": "从属连词 <code>though</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "It is curious that Stephen Koziatek feels almost as though he has to justify his efforts to give his students a better future.",
+                "explanation": "主干为主系表复合结构。形式主语 It；系动词 is；表语形容词 curious（奇怪的、令人反思的）；that 引导的主语从句 that Stephen Koziatek feels... 为真正的主语。主语从句中，主语为 Stephen Koziatek，谓语为 feels，后接方式/虚拟状语从句。"
               },
               {
-                "type": "名词性从句",
-                "content": "that Stephen Koziatek feels almost as though ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "状语从句与双宾结构",
+                "content": "almost as though he has to justify his efforts to give his students a better future",
+                "explanation": "连词短语 as though（仿佛、好像）引导方式状语从句，修饰 feels；从句主语 he，谓语 has to justify（不得不证明……是正当的），宾语 his efforts；不定式短语 to give his students a better future 作后置定语修饰 efforts，其中包含 give sb. sth. 双宾语结构。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "It is curious that Stephen Koziatek feels almost as though he has to justify his efforts...",
+                "explanation": "篇章反常现象切入（Curious Phenomenon Hook）。作者以“一名致力于为学生创造更好未来的教师竟然需要为此自我辩解”这一荒谬反常的社会心理开篇，形成强烈的悬念与反思，直接引出后文对职业技术教育遭遇社会深层偏见的揭露。"
               }
             ]
           }
@@ -747,7 +752,17 @@
               {
                 "type": "主干剖析",
                 "content": "Mr. Koziatek is part of something pioneering.",
-                "explanation": "全句为主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "explanation": "主干为主系表结构。主语专有名词 Mr. Koziatek（考齐亚泰克先生）；系动词 is；表语介宾短语 part of something pioneering（某种开创性事业的一部分）。"
+              },
+              {
+                "type": "修饰成分剖析",
+                "content": "something pioneering",
+                "explanation": "形容词 pioneering（开创性的、先驱性的）作后置定语修饰复合不定代词 something（形容词修饰 something, anything 等复合不定代词时须后置），赋予动作打破陈规的赞赏基调。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Mr. Koziatek is part of something pioneering.",
+                "explanation": "作者核心立场亮相与观点定性。pioneering 一词确立了作者对 Koziatek 所践行职业教育模式的高度肯定，直接奠定全篇褒扬基调，是解答 Q25 作者态度题（supportive）的关键先导佐证。"
               }
             ]
           }
@@ -763,9 +778,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "where learning is not something of books and t...",
-                "explanation": "关系词 <code>where</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "He is a teacher at a New Hampshire high school where learning is not something of books and tests and mechanical memorization, but practical.",
+                "explanation": "主干为主系表结构。主语代词 He；系动词 is；表语名词 a teacher；介词短语 at a New Hampshire high school 作地点定语；关系副词 where 引导定语从句修饰先行词 high school。"
+              },
+              {
+                "type": "定语从句与并列对比",
+                "content": "where learning is not something of books and tests and mechanical memorization, but practical",
+                "explanation": "关系副词 where 在定语从句中作地点状语，先行词为 high school；从句中运用 not... but...（不是……而是……）平行结构对比两种教学哲学：主语 learning；谓语 is not something of books...（不是死读书、应试和机械记忆），but practical（而是注重实用实践）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "learning is not something of books and tests and mechanical memorization, but practical",
+                "explanation": "核心定义句（Concept Definition）。作者通过 not... but... 鲜明对照，重构“学习”的本质内涵，将传统学院派的机械记忆与该校的实践导向划清界限，为下一句提出“自行车链条”的反思提供语境支撑。"
               }
             ]
           }
@@ -781,9 +806,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "When did it become accepted wisdom that stude...",
-                "explanation": "关系词 <code>When</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "When did it become accepted wisdom that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?",
+                "explanation": "主干为特殊疑问句主系表结构。疑问副词 When（何时）；助动词 did 提前倒装；形式主语 it；系动词 become；表语名词短语 accepted wisdom（公认常识、普遍信奉的准则）；that 引导的主语从句为真正主语。"
+              },
+              {
+                "type": "主语从句与对比转折",
+                "content": "that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain",
+                "explanation": "that 引导主语从句；从句主语 students；情态动词 should 后接由连词 but 连接的转折并列谓语：① be able to name the 13th president of the United States（能够叫出美国第13任总统的名字——理论死知识）；② be utterly overwhelmed by a broken bike chain（却被一根断掉的自行车链条彻底搞得手足无措——生活动手能力）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "When did it become accepted wisdom... utterly overwhelmed by a broken bike chain",
+                "explanation": "设问反讽与命题核心题眼（Q21直接定位句）。通过“背得出总统冷知识”与“修不好自行车链条”的荒诞二元对立，强烈讽刺传统脱离实际的学院派教育。直接对应 Q21 答案：提到自行车链条是为了证明学生缺乏 [A] practical skills（实用动手技能）。"
               }
             ]
           }
@@ -800,8 +835,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "As Koziatek knows, there is learning in just about everythin...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "there is learning in just about everything",
+                "explanation": "主干为 there be 存在句结构。引导词 there；系动词 is；主语不可数名词 learning（学问、知识）；介词短语 in just about everything（在几乎一切事物中）作地点/范围状语。"
+              },
+              {
+                "type": "状语从句剖析",
+                "content": "As Koziatek knows",
+                "explanation": "从属连词 as 引导方式/非限制性状语从句，意为“正如考齐亚泰克所深知的那样”，在句中起论证衔接与权威观点引述作用。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "As Koziatek knows, there is learning in just about everything.",
+                "explanation": "分论点提炼句（Sub-topic Statement）。打破“只有书本课堂才有真知识”的狭隘认知边界，为下文将几何学与修自行车结合提供哲学层面的认识论基础。"
               }
             ]
           }
@@ -818,8 +863,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Nothing is necessarily gained by forcing students to learn g...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Nothing is necessarily gained by forcing students to learn geometry at a graffitied desk stuck with generations of discarded chewing gum.",
+                "explanation": "主干为否定主语的主谓被动结构。主语否定代词 Nothing（没有任何东西）；谓语动词为一般现在时被动语态 is gained（被获得）；副词 necessarily（必然地）作状语；介词短语 by forcing students... 作方式状语。"
+              },
+              {
+                "type": "非谓语与后置定语",
+                "content": "by forcing students to learn geometry at a graffitied desk stuck with generations of discarded chewing gum",
+                "explanation": "① 介词 by 后接动名词 forcing，force sb. to do 构成动宾复合结构；② 过去分词 graffitied（被涂鸦的）作前置定语修饰 desk；③ 过去分词短语 stuck with... 作后置定语修饰 desk，形容桌下粘满几代学生吐弃的口香糖（discarded 为过去分词作定语）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Nothing is necessarily gained ... stuck with generations of discarded chewing gum",
+                "explanation": "辛辣的细节白描与批判。用布满涂鸦和口香糖的传统课桌生动具象化传统枯燥课堂对学生天性的压抑与低效，与下一句通过组装自行车学几何形成活泼生动的效果对比。"
               }
             ]
           }
@@ -836,8 +891,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "They can also learn geometry by assembling a bicycle....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "They can also learn geometry by assembling a bicycle.",
+                "explanation": "主干为主谓宾结构。主语代词 They（指代 students）；情态动词与谓语 can learn；副词 also 作状语；宾语 geometry（几何学）；介词短语 by assembling a bicycle 作方式状语。"
+              },
+              {
+                "type": "非谓语方式状语",
+                "content": "by assembling a bicycle",
+                "explanation": "介词 by 与动名词 assembling 构成介宾短语，明确指出获取几何知识的创新实操路径——组装自行车。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "They can also learn geometry by assembling a bicycle.",
+                "explanation": "解决方案与破题句。承接前句的否定论证，给出建设性例证，阐明实操教学与学术知识（几何角度、齿轮比）的无缝融合，有力佐证第4句“处处皆学问”的论点。"
               }
             ]
           }
@@ -854,8 +919,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But he’s also found a kind of insidious prejudice....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But he’s also found a kind of insidious prejudice.",
+                "explanation": "主干为主谓宾结构。转折连词 But；主语代词 he；谓语动词为现在完成时 has found；副词 also 作状语；宾语 a kind of insidious prejudice（一种潜滋暗长的深层偏见）。"
+              },
+              {
+                "type": "修饰词析义",
+                "content": "insidious prejudice",
+                "explanation": "形容词 insidious（潜伏的、暗中为害的、隐蔽渐进的）精确刻画出社会对蓝领技能歧视的隐蔽性与根深蒂固，与下一句的 inferiority 呼应。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "But he’s also found a kind of insidious prejudice.",
+                "explanation": "语篇关键转折句（Topic Shift）。由对教学方法的讨论急转进入对社会阶层偏见与教育观念扭曲的深层剖析，开启第3段对职业教育刻板印象的批驳。"
               }
             ]
           }
@@ -872,8 +947,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Working with your hands is seen as almost a mark of inferior...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Working with your hands is seen as almost a mark of inferiority.",
+                "explanation": "主干为动名词作主语的被动结构。动名词短语 Working with your hands（动手体力劳动）作主语；谓语动词为被动语态 is seen as（被视为……）；介词宾语 a mark of inferiority（低人一等的标志、劣等印记）；副词 almost 作程度修饰。"
+              },
+              {
+                "type": "短语搭配剖析",
+                "content": "is seen as ... a mark of inferiority",
+                "explanation": "动词短语 see... as... 的被动形式；inferiority 为抽象名词（由 inferior 派生），指地位、智力或阶层上的劣势与低下。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Working with your hands is seen as almost a mark of inferiority.",
+                "explanation": "论据支撑与偏见具象化。直接揭示社会中“万般皆下品，唯有读书高”的荒谬鄙视链，将动手劳动直接打上“劣等”烙印，解释了第0句中 Koziatek 教师为何需要“自我辩护”。"
               }
             ]
           }
@@ -889,9 +974,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who can’t make it academically",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词 kids。"
+                "type": "主干剖析",
+                "content": "Schools in the family of vocational education “have that stereotype ...” he says.",
+                "explanation": "主干为直接引语结构。引述动词 he says；直接引语中主语为 Schools，介词短语 in the family of vocational education（职业技术教育类别的学校）作后置定语；谓语 have；宾语 that stereotype（那种刻板印象）。"
+              },
+              {
+                "type": "同位语从句与定语从句",
+                "content": "that it’s for kids who can’t make it academically",
+                "explanation": "① 第一个 that 引导同位语从句，具体解释 stereotype 的内涵；从句主干为 it’s for kids；② 关系代词 who 引导限制性定语从句修饰 kids，在从句中作主语，谓语 can’t make it（无法成功、无法适应），副词 academically（在学业上）作状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "that it’s for kids who can’t make it academically",
+                "explanation": "核心题眼引述（Q22直接定位句）。直接给出社会对职校的歧视定义：职校是给“在学术上混不下去的孩子”设立的。完美对应 Q22 题干与正确答案 [C] are academically weak。"
               }
             ]
           }
@@ -907,9 +1002,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that viewpoint is a logical product of Americ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "On one hand, that viewpoint is a logical product of America’s evolution.",
+                "explanation": "主干为主系表结构。并列介词短语 On one hand（一方面）作语篇过渡状语；主语指示代词短语 that viewpoint（那种崇尚大学文凭、贬低职业技能的观点）；系动词 is；表语名词短语 a logical product（必然产物、合乎逻辑的结果）；介词短语 of America’s evolution 作后置定语修饰 product。"
+              },
+              {
+                "type": "语篇标记与让步结构",
+                "content": "On one hand ... a logical product",
+                "explanation": "On one hand 开启历史维度的让步论证（Concession），作者并未全盘否定该偏见，而是理性探寻其形成的经济与历史根源，为下文转折蓄势。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "that viewpoint is a logical product of America’s evolution.",
+                "explanation": "承上启下让步段首句。承接第3段指出的社会偏见，开启第4段关于美国从制造业向后工业时代转型的历史溯源，体现考研英语议论文典型的立论客观性。"
               }
             ]
           }
@@ -925,9 +1030,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that it once was....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Manufacturing is not the economic engine that it once was.",
+                "explanation": "主干为主系表复合句。主语不可数名词 Manufacturing（制造业）；否定谓语 is not；表语名词短语 the economic engine（经济引擎）；that 引导限制性定语从句修饰 engine。"
+              },
+              {
+                "type": "定语从句剖析",
+                "content": "that it once was",
+                "explanation": "关系代词 that 在定语从句中充当表语，先行词为 engine；从句主语 it 指代 Manufacturing，时间状语 once（曾经），系动词 was（过去是）。整句生动传达出“制造业辉煌不再”的沧海桑田之感。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Manufacturing is not the economic engine that it once was.",
+                "explanation": "经济背景事实支撑。说明传统蓝领制造业岗位衰落，解释为何上一代工人凭高中学历就能安居乐业的模式在今日不再成立，为下句高中毕业生的就业危机作因果铺垫。"
               }
             ]
           }
@@ -943,9 +1058,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that the US economy once offered to high scho...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "The job security ... has largely evaporated.",
+                "explanation": "主干为主谓结构。主语 The job security（就业保障、工作稳定性）；that 引导定语从句修饰 job security；谓语动词为现在完成时 has evaporated（已经蒸发、消失殆尽）；程度副词 largely（很大程度上）作状语。"
+              },
+              {
+                "type": "定语从句剖析",
+                "content": "that the US economy once offered to high school graduates",
+                "explanation": "关系代词 that 在从句中作 offered 的直接宾语，先行词为 job security；从句主语 the US economy；时间副词 once；谓语动词 offered；介词短语 to high school graduates 作间接宾语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The job security that the US economy once offered ... has largely evaporated.",
+                "explanation": "核心推理题眼（Q23直接定位句）。用生动的隐喻“蒸发（evaporated）”说明高中毕业生的就业铁饭碗已灰飞烟灭。反推可知：过去的美国经济曾为高中毕业生提供充足的就业保障，直接对应 Q23 答案 [B] used to have more job opportunities。"
               }
             ]
           }
@@ -962,8 +1087,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "More education is the new principle....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "More education is the new principle.",
+                "explanation": "主干为主系表结构。主语短语 More education（接受更多教育、更高学历）；系动词 is；表语名词短语 the new principle（新的准则、新信条）。"
+              },
+              {
+                "type": "短语与意群",
+                "content": "More education ... the new principle",
+                "explanation": "句式短促有力。More 在此为限定词兼代词修饰 education；the new principle 点明在去工业化时代，社会普遍达成的唯一共识。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "More education is the new principle.",
+                "explanation": "阶段结论句。紧承制造业衰败和高中学历贬值的现实，顺理成章推导出全民追求更高学历（大学本科）的社会必然趋势。"
               }
             ]
           }
@@ -980,8 +1115,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "We want more for our kids, and rightfully so....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "We want more for our kids, and rightfully so.",
+                "explanation": "主干为并列复合结构。第一分句为主谓宾结构：主语 We，谓语 want，代词宾语 more，介词短语 for our kids 作目的状语；and 连接省略结构 rightfully so（理应如此、无可厚非）。"
+              },
+              {
+                "type": "省略结构剖析",
+                "content": "and rightfully so",
+                "explanation": "习语性省略表达，完整形式为 and it is rightfully so / and we rightfully want so，副词 rightfully 表明作者认同父母望子成龙的心态完全符合情理。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "We want more for our kids, and rightfully so.",
+                "explanation": "让步蓄势的峰值。作者对父母渴望孩子接受更好教育的心态表达了充分的同理心与正当性认可，使后文第5段“But”引出的当头棒喝更具颠覆性和反思力度。"
               }
             ]
           }
@@ -998,8 +1143,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But the headlong push into bachelor’s degrees for all—and th...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But the headlong push into bachelor’s degrees for all ... misses an important point: That’s not the only thing the American economy needs.",
+                "explanation": "主干为转折连词 But 引出的主谓宾结构。主语名词短语 the headlong push（盲目冒进的推崇）；破折号之间插入并列成分；谓语动词 misses（忽略了、错失了）；宾语 an important point（重要的一点）；冒号后接同位语解释从句。"
+              },
+              {
+                "type": "破折号插入与同位解释",
+                "content": "the headlong push into bachelor’s degrees for all—and the subtle devaluing of anything less—misses an important point...",
+                "explanation": "① into bachelor’s degrees for all 作 push 的方向介词宾语；② 破折号内 and the subtle devaluing of anything less（以及对低于本科学历的一切的隐性贬低）为语义叠加补充；③ 冒号后 That’s not the only thing the American economy needs 构成解释分句，其中省略了关系代词 that 的定语从句修饰 thing。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "But the headlong push into bachelor’s degrees for all ... misses an important point",
+                "explanation": "全文立论转折核心与命题题眼（Q24直接定位句）。headlong push（盲目推崇）与 devaluing（贬低）带有强烈的批判色彩，直指全民盲目追逐本科学历是过犹不及。直接对应 Q24 答案 [D] indicates the overvaluing of higher education。"
               }
             ]
           }
@@ -1016,8 +1171,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Yes, a bachelor’s degree opens more doors....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Yes, a bachelor’s degree opens more doors.",
+                "explanation": "主干为主谓宾结构。肯定叹词/副词 Yes；主语 a bachelor’s degree（学士学位/本科学历）；谓语动词 opens；宾语 more doors（更多门路、更多机会）。"
+              },
+              {
+                "type": "隐喻修辞剖析",
+                "content": "opens more doors",
+                "explanation": "常见商业职场隐喻，直译为“打开更多大门”，意即提供更多职业选择与上升通道。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Yes, a bachelor’s degree opens more doors.",
+                "explanation": "极短的承认让步（Micro-concession）。先承认本科学位的公认优势，防止论述走向极端的“读书无用论”，为紧接着连续两个 But 的数据反击做铺垫。"
               }
             ]
           }
@@ -1034,8 +1199,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But even now, 54 percent of the jobs in the country are midd...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But even now, 54 percent of the jobs in the country are middle-skill jobs, such as construction and high-skill manufacturing.",
+                "explanation": "主干为转折连词 But 引出的主系表结构。时间让步状语 even now（即便在今天）；主语百分数短语 54 percent of the jobs in the country；系动词 are；表语 middle-skill jobs（中等技能工作）；介词短语 such as... 作举例补充。"
+              },
+              {
+                "type": "主谓一致与介词短语",
+                "content": "54 percent of the jobs ... such as construction and high-skill manufacturing",
+                "explanation": "百分数修饰复数名词 jobs，系动词用复数 are；such as 引出建筑业（construction）和高技能制造业（high-skill manufacturing）作为中等技能岗位的典型代表。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "But even now, 54 percent of the jobs in the country are middle-skill jobs...",
+                "explanation": "权威统计数据论据（Statistical Evidence）。以超过半数（54%）的压倒性岗位占比，戳破“美国经济只需要本科生”的虚假神话，用硬核数据支撑第15句的观点。"
               }
             ]
           }
@@ -1052,8 +1227,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But only 44 percent of workers are adequately trained....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But only 44 percent of workers are adequately trained.",
+                "explanation": "主干为主系表/被动结构。转折连词 But；主语 only 44 percent of workers（仅有44%的劳动力）；系动词 are；被动表语 adequately trained（得到充分/合格培训的）。"
+              },
+              {
+                "type": "副词修饰与主谓一致",
+                "content": "only 44 percent of workers are adequately trained",
+                "explanation": "副词 only（仅仅）强化供需断层，adequately（充分地、胜任地）修饰分词 trained；百分数结构后接复数 workers，谓语动词用 are。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "54 percent ... But only 44 percent of workers are adequately trained.",
+                "explanation": "严密的数字对冲（10% Gap）。将 54% 的岗位需求与 44% 的合格供给并置，直接用数学事实推导出“美国劳动力市场存在整整10%的技能供需缺口”，逻辑无懈可击。"
               }
             ]
           }
@@ -1069,9 +1254,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when the working class has turned the country...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "In other words, at a time ..., one obvious solution is staring us in the face.",
+                "explanation": "主干为主谓宾复合结构。过渡词短语 In other words（换言之）；时间状语 at a time 后接 when 定语从句；主句主语 one obvious solution（一个显而易见的解决方案）；谓语动词为现在进行时 is staring；宾语 us；介词短语 in the face 作状语。"
+              },
+              {
+                "type": "定语从句与伴随形容词短语",
+                "content": "at a time when the working class has turned the country on its political head, frustrated that the opportunity that once defined America is vanishing",
+                "explanation": "① 关系副词 when 引导定语从句修饰 a time；② 定语从句中 turn the country on its political head 为生动习语，指政治上天翻地覆（暗指蓝领阶层引发的大选政治地震）；③ 过去分词/形容词短语 frustrated that... 作伴随状语修饰 working class；④ 连词 that 引导从句修饰 frustrated，从句中又嵌套 that once defined America 定语从句修饰 opportunity。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "one obvious solution is staring us in the face.",
+                "explanation": "宏观政治时代背景与破局之道。作者将微观职业教育升华到美国工人阶级政治焦虑、美国梦破灭的宏大政治经济时代背景，并用 stare us in the face（近在眼前、不容忽视）宣告答案早已呼之欲出。"
               }
             ]
           }
@@ -1087,9 +1282,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who need those jobs most aren’t equipped to ...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "There is a gap in working-class jobs, but the workers who need those jobs most aren’t equipped to do them.",
+                "explanation": "主干为 but 连接的两个并列分句。第一分句为 there be 句型：There is a gap（存在一个缺口）；第二分句为主系表/被动结构：主语 the workers，who 引导定语从句，谓语 aren’t equipped（没有具备技能），不定式 to do them 作目的状语。"
+              },
+              {
+                "type": "定语从句剖析",
+                "content": "who need those jobs most",
+                "explanation": "关系代词 who 引导限制性定语从句修饰 workers，在从句中作主语；谓语 need；宾语 those jobs；副词最高级 most 作程度状语修饰 need。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "There is a gap in working-class jobs, but the workers ... aren’t equipped to do them.",
+                "explanation": "核心矛盾总结（The Core Dilemma）。精辟提炼全篇指出的结构性失业痼疾：岗位空缺与无技能求职者并存。为最后两段隆重推介 Koziatek 的职教实践做好最终铺垫。"
               }
             ]
           }
@@ -1105,9 +1310,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that gap....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Koziatek’s Manchester School of Technology High School is trying to fill that gap.",
+                "explanation": "主干为主谓宾结构。主语专有名词短语 Koziatek’s Manchester School of Technology High School（考齐亚泰克的曼彻斯特技术高中）；谓语动词为现在进行时 is trying to fill（正试图填补）；宾语 that gap（那个结构性缺口）。"
+              },
+              {
+                "type": "动词短语与指代回指",
+                "content": "trying to fill that gap",
+                "explanation": "try to do sth. 表达行动导向与努力；fill that gap（填补差距/缺口）代词 that 严密回指上一句提出的供需断层。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Koziatek’s Manchester School of Technology High School is trying to fill that gap.",
+                "explanation": "首尾呼应与英雄归来（Full-circle Return）。由宏观的劳动力市场数据与政治危机，重新聚焦到开篇引入的曼彻斯特技术高中，将该校的改革升华到拯救蓝领阶层、填补国家经济鸿沟的高度。"
               }
             ]
           }
@@ -1124,8 +1339,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Koziatek’s school is a wake-up call....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Koziatek’s school is a wake-up call.",
+                "explanation": "主干为主系表结构。主语 Koziatek’s school（考齐亚泰克的学校）；系动词 is；表语名词短语 a wake-up call（一声及时的警钟、催人警醒的号角）。"
+              },
+              {
+                "type": "隐喻修辞剖析",
+                "content": "a wake-up call",
+                "explanation": "极具震撼力的名词隐喻。wake-up call 原指酒店叫醒电话，引申为使人从执迷不悟或麻木现状中猛醒的“当头棒喝、警钟”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Koziatek’s school is a wake-up call.",
+                "explanation": "篇末点题与作者态度核心依据（Q25关键定位句）。将该校定位为推动全美教育反思的先锋警钟，彰显作者对该校毫无保留的推崇与赞赏，与 Q25 正确选项 [A] supportive（支持的）形成极强契合。"
               }
             ]
           }
@@ -1141,9 +1366,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "When education becomes one-size-fits-all...",
-                "explanation": "关系词 <code>When</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "When education becomes one-size-fits-all, it risks overlooking a nation’s diversity of gifts.",
+                "explanation": "主干为主从复合句。时间/条件状语从句 When education becomes one-size-fits-all；主句为主谓宾结构：主语代词 it（指代前文的单一体制教育）；谓语动词 risks（冒着……的风险）；动名词短语 overlooking a nation’s diversity of gifts 作宾语。"
+              },
+              {
+                "type": "状语从句与复合形容词",
+                "content": "When education becomes one-size-fits-all",
+                "explanation": "① 从属连词 When 引导状语从句；从句主语 education，系动词 becomes，表语复合形容词 one-size-fits-all（一刀切的、千篇一律的，原意为均码衣服）；② 主句动词 risk 后必须接动名词作宾语（risk doing sth.）；名词短语 a nation’s diversity of gifts 指全民族多元化的天赋才能。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "When education becomes one-size-fits-all, it risks overlooking a nation’s diversity of gifts.",
+                "explanation": "全文主旨最高升华句（Concluding Thesis & Q25题眼）。以警句式格言结尾，深刻指出强推单一大学升学路径将扼杀国家多元人才潜能，再次全力声援以实用技能见长的职业教育。"
               }
             ]
           }
@@ -2430,14 +2665,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "While fossil fuels—coal...",
-                "explanation": "从属连词 <code>While</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "While fossil fuels ... generate roughly 85 percent ..., it’s clearer than ever that the future belongs to renewable sources such as wind and solar.",
+                "explanation": "主干为主从复合句。连词 While 引导让步状语从句；主句为主系表结构：形式主语 it；系动词 is；比较级表语 clearer than ever（比以往任何时候都更加清晰）；that 引导的主语从句 that the future belongs to renewable sources... 为全句真正主语。主语从句中，主语 the future，谓语动词短语 belongs to（属于），介词宾语 renewable sources。"
               },
               {
-                "type": "名词性从句",
-                "content": "that the future belongs to renewable sources ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "状语从句与同位语",
+                "content": "While fossil fuels—coal, oil, gas—still generate roughly 85 percent of the world’s energy supply",
+                "explanation": "① While 引导让步状语从句，意为“尽管、虽然”；从句主语 fossil fuels（化石燃料），破折号内 coal, oil, gas 作同位语枚举三大化石能源；谓语 generate，宾语 roughly 85 percent of the world’s energy supply；② 主句末尾 such as wind and solar 作介词短语修饰 renewable sources。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "While fossil fuels ... still generate 85% ... the future belongs to renewable sources",
+                "explanation": "宏观让步开篇（Concession & Thesis Hook）。文章开篇以“现状巨大占比（85%）与未来必然归属（renewable）”构建强烈对比，让步化石能源现存统治地位，是为了更有力地推出可再生能源主导未来的必然历史大势。"
               }
             ]
           }
@@ -2454,8 +2694,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The move to renewables is picking up momentum around the wor...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The move to renewables is picking up momentum around the world: They now account for more than half of new power sources going on line.",
+                "explanation": "主干为主谓宾结构后接冒号解释分句。主语名词短语 The move to renewables（向可再生能源的转向）；谓语动词短语为现在进行时 is picking up momentum（势头正劲、正在加速）；介词短语 around the world 作状语；冒号后分句解释动力来源：主语 They（指代 renewables），谓语短语 account for（占比达到），宾语 more than half of new power sources。"
+              },
+              {
+                "type": "非谓语与成语搭配",
+                "content": "picking up momentum ... going on line",
+                "explanation": "① pick up momentum 为政经高频习语，指事物发展不断集聚势能、加速推进；② 现在分词短语 going on line 作后置定语修饰 new power sources，指“投入电网运营、并网发电的新增电源”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "They now account for more than half of new power sources going on line.",
+                "explanation": "关键量化数据支撑。用“全球新增并网发电装机容量逾半数（>50%）来自可再生能源”的突破性事实，为前句“势头强劲”提供无可争辩的客观证据。"
               }
             ]
           }
@@ -2472,8 +2722,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Some growth stems from a commitment by governments and farsi...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Some growth stems from a commitment by governments and farsighted businesses to fund cleaner energy sources.",
+                "explanation": "主干为主谓结构（动词短语后接介宾）。主语 Some growth（部分增长）；谓语动词短语 stems from（源于、起因于）；介词宾语 a commitment（一份承诺/政策投入）；介词短语 by governments and farsighted businesses 作逻辑主体定语；动词不定式短语 to fund cleaner energy sources 作后置定语修饰 commitment。"
+              },
+              {
+                "type": "动词短语与修饰成分",
+                "content": "stems from ... to fund cleaner energy sources",
+                "explanation": "① stem from 为因果表达核心短语，指事物生根发芽、根源于；② 形容词 farsighted（有远见的）修饰 businesses；不定式 to fund 表目的与具体行动内容。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Some growth stems from a commitment ... But increasingly the story is...",
+                "explanation": "双重动力机制的第一环（Top-down Policy Drive）。指出政府政策承诺和先锋企业投资是早期的重要推手，但用 Some 一词埋下伏笔，为下一句 But 引出更具决定性的“市场价格雪崩”机制预留反转空间。"
               }
             ]
           }
@@ -2490,8 +2750,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But increasingly the story is about the plummeting prices of...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But increasingly the story is about the plummeting prices of renewables, especially wind and solar.",
+                "explanation": "主干为转折连词 But 引出的主系表结构。转折连词 But；频度状语 increasingly（日益、越来越）；主语 the story（核心情况、故事的主线）；系动词 is；表语介词短语 about the plummeting prices of renewables（关于可再生能源的断崖式暴跌价格）；介词短语 especially wind and solar 作同位补充。"
+              },
+              {
+                "type": "分词定语与词义解析",
+                "content": "the plummeting prices of renewables",
+                "explanation": "现在分词 plummeting 作前置定语修饰 prices。动词 plummet 意为“垂直下坠、骤降、暴跌（fall or drop straight down at high speed）”，生动刻画出价格下跌的惊人速度与幅度。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "But increasingly the story is about the plummeting prices of renewables...",
+                "explanation": "篇章核心转折与词汇语义题眼（Q26直接题眼）。由外部政策补贴转向内在市场经济规律驱动。词汇题 Q26 考查 plummeting 的近义词，在此处精确对标答案 [B] falling（急剧下降）。"
               }
             ]
           }
@@ -2508,8 +2778,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The cost of solar panels has dropped by 80 percent and the c...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The cost of solar panels has dropped by 80 percent and the cost of wind turbines by close to one-third in the past eight years.",
+                "explanation": "主干为 and 连接的两个并列分句（后一分句省略谓语）。第一分句主语 The cost of solar panels（太阳能电池板成本），现在完成时谓语 has dropped，介词短语 by 80 percent 作幅度状语；and 连接第二分句，主语 the cost of wind turbines（风力涡轮机成本），省略了谓语 has dropped，直接承接幅度状语 by close to one-third；时间状语 in the past eight years。"
+              },
+              {
+                "type": "并列省略与幅度介词",
+                "content": "has dropped by 80 percent and the cost of wind turbines by close to one-third",
+                "explanation": "① 介词 by 表示变化的绝对幅度（降幅达80%、近三分之一）；② 后一分句为了避免重复，承前省略谓语 has dropped，形成紧凑有力的修辞对比。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "cost ... dropped by 80 percent and ... by close to one-third",
+                "explanation": "核心论据数据支撑。以光伏成本狂降80%、风电降近1/3的惊人工业奇迹，具体量化支撑上一句的 plummeting，展示市场规律带来的颠覆性成本竞争力。"
               }
             ]
           }
@@ -2526,8 +2806,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In many parts of the world renewable energy is already a pri...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "In many parts of the world renewable energy is already a principal energy source.",
+                "explanation": "主干为主系表结构。地点状语 In many parts of the world；主语 renewable energy（可再生能源）；时间副词 already；系动词 is；表语名词短语 a principal energy source（主要能源来源）。"
+              },
+              {
+                "type": "词汇修饰剖析",
+                "content": "a principal energy source",
+                "explanation": "形容词 principal 意为“最重要的、主要的（first in order of importance）”，定性说明绿电不再是微不足道的边缘补充，而是挑起大梁的骨干能源。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "In many parts of the world renewable energy is already a principal energy source.",
+                "explanation": "空间维度展开的论点句（General Statement）。由前两段的全球整体趋势与成本驱动，过渡到具体国家与地区的普及实践，引出下文苏格兰的典型案例。"
               }
             ]
           }
@@ -2544,8 +2834,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In Scotland, for example, wind turbines provide enough elect...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "In Scotland, for example, wind turbines provide enough electricity to power 95 percent of homes.",
+                "explanation": "主干为主谓宾结构。地点状语 In Scotland；插入语 for example（例如）；主语 wind turbines（风力涡轮机）；谓语动词 provide；宾语 enough electricity（足够的电力）；动词不定式短语 to power 95 percent of homes 作后置定语修饰 electricity。"
+              },
+              {
+                "type": "非谓语动词剖析",
+                "content": "to power 95 percent of homes",
+                "explanation": "动词 power 在此用作及物动词，意为“为……供电、驱动”，不定式作后置定语，阐明电量规模足以满足苏格兰95%家庭的生活用电。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "In Scotland, for example, wind turbines provide enough electricity to power 95 percent of homes.",
+                "explanation": "典型个案支撑（Exemplification）。以苏格兰高达95%的惊人渗透率作为具象范例，实证前句“在世界上许多地方已成主导能源”的论断。"
               }
             ]
           }
@@ -2561,9 +2861,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "While the rest of the world takes the lead...",
-                "explanation": "从属连词 <code>While</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "While the rest of the world takes the lead, notably China and Europe, the United States is also seeing a remarkable shift.",
+                "explanation": "主干为主从复合句。从属连词 While 引导让步状语从句；主句为主谓宾结构：主语 the United States（美国）；谓语动词为现在进行时 is also seeing（也正在见证/经历）；宾语 a remarkable shift（一场显著的转变）。"
+              },
+              {
+                "type": "状语从句与同位修饰",
+                "content": "While the rest of the world takes the lead, notably China and Europe",
+                "explanation": "While 引导让步状语从句，take the lead 意为“居于领先地位”；副词 notably（尤其是）引出 China and Europe 作为全球领跑者的具体同位代表。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the United States is also seeing a remarkable shift.",
+                "explanation": "视角落脚与焦点转移（Focus Shift to US）。通过与中欧领跑者的横向对照，将论述焦点正式拉回到美国本土，为下文探讨美国清洁能源的迅猛突破与政治博弈拉开帷幕。"
               }
             ]
           }
@@ -2580,8 +2890,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In March, for the first time, wind and solar power accounted...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "In March, for the first time, wind and solar power accounted for more than 10 percent of the power generated in the US, reported the US Energy Information Administration.",
+                "explanation": "主干为主谓宾结构外加引述倒装。时间状语 In March；介词短语 for the first time（有史以来首次）；主语 wind and solar power（风电与光伏）；谓语动词短语 accounted for（占据了）；宾语 more than 10 percent of the power；过去分词短语 generated in the US 作后置定语修饰 power；句末倒装谓语 reported，主语 the US Energy Information Administration（美国能源信息署）。"
+              },
+              {
+                "type": "非谓语与引述倒装",
+                "content": "power generated in the US, reported the US Energy Information Administration",
+                "explanation": "① generated in the US 为过去分词短语作后置定语修饰 power；② 引用新闻源时动词 reported 放在主语机构之前构成完全倒装，增强引述的客观权威性。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "wind and solar power accounted for more than 10 percent of the power ...",
+                "explanation": "权威里程碑数据与核心题眼（Q27直接定位句）。“史上首次突破10%”具有划时代的临界点意义，标志着美国绿电从量变到质变，直接支撑 Q27 正确答案 [B] has witnessed a sharp increase。"
               }
             ]
           }
@@ -2598,8 +2918,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "President Trump has underlined fossil fuels—especially coal—...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "President Trump has underlined fossil fuels—especially coal—as the path to economic growth.",
+                "explanation": "主干为主谓宾补复合结构。主语 President Trump（特朗普总统）；谓语动词为现在完成时 has underlined（强调了、着重指出）；宾语 fossil fuels（化石燃料）；破折号内 especially coal 作插入强调；介词短语 as the path to economic growth（作为经济增长之路）作宾语补足语。"
+              },
+              {
+                "type": "动词搭配剖析",
+                "content": "underlined fossil fuels ... as the path to economic growth",
+                "explanation": "underline 意为“在……下划线、强调”；as 引出补充说明的身份地位（将化石能源作为经济复苏的关键路径）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "President Trump has underlined fossil fuels—especially coal—as the path to economic growth.",
+                "explanation": "政治反向力量出场（Political Antagonist Introduction）。引入时任美国总统重振化石能源（煤炭）的政策主张，制造政策导向与经济产业现实之间的剧烈张力与矛盾冲突。"
               }
             ]
           }
@@ -2616,8 +2946,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In a recent speech in Iowa, he dismissed wind power as an un...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "In a recent speech in Iowa, he dismissed wind power as an unreliable energy source.",
+                "explanation": "主干为主谓宾补复合结构。地点与场景状语 In a recent speech in Iowa（在最近爱荷华州的一次演讲中）；主语代词 he；谓语动词 dismissed（对……嗤之以鼻、贬低、斥为）；宾语 wind power（风电）；介词短语 as an unreliable energy source（作为一种不可靠的能源）作宾语补足语。"
+              },
+              {
+                "type": "词汇搭配剖析",
+                "content": "dismissed wind power as an unreliable energy source",
+                "explanation": "dismiss A as B 为经典搭配，表示“对A不屑一顾、轻蔑地将A判定为B”，态度鲜明且具贬义色彩。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "In a recent speech in Iowa, he dismissed wind power as an unreliable energy source.",
+                "explanation": "矛盾冲突具体化。特朗普在风电大州爱荷华直接抨击风电“不可靠”，直接引爆了政治口号与当地现实经济利益的剧烈碰撞，为下句的打脸反弹打下伏笔。"
               }
             ]
           }
@@ -2633,9 +2973,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "where wind turbines dot the fields and provide...",
-                "explanation": "关系词 <code>where</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "But that message did not play well with many in Iowa, where ... and where ...",
+                "explanation": "主干为转折连词 But 引出的主谓宾结构。主语指示代词短语 that message（特朗普的那番言论）；否定谓语动词短语 did not play well with（未受到……的欢迎、不奏效）；介词宾语 many in Iowa（爱荷华州的许多人）；后接由 and 连接的两个并列定语从句修饰 Iowa。"
+              },
+              {
+                "type": "并列定语从句与被动进行时",
+                "content": "where wind turbines dot the fields and provide 36 percent of the state’s electricity generation—and where tech giants like Microsoft are being attracted by the availability of clean energy to power their data centers",
+                "explanation": "① 第一个 where 定语从句中，主语 wind turbines，谓语 dot（及物动词，星罗棋布于）和 provide 并列，直接给出数据“占全州发电量的36%”；② 第二个 where 定语从句中，主语 tech giants like Microsoft，谓语为现在进行时的被动语态 are being attracted，介词短语 by the availability of clean energy 表原因，动词不定式 to power their data centers 作目的状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "where tech giants like Microsoft are being attracted by the availability of clean energy to power their data centers",
+                "explanation": "政治反讽与核心题眼（Q28直接定位句）。爱荷华的风电不仅供应全州超过1/3的电力，更成为吸引微软等科技巨头入驻建设高耗能数据中心的关键利器。直接印证 Q28 正确选项 [D] clean energy feeds tech giant's data centers。"
               }
             ]
           }
@@ -2651,9 +3001,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when the wind doesn’t blow or the sun doesn’t...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "The question “what happens when the wind doesn’t blow or the sun doesn’t shine?” has provided a quick put-down for skeptics.",
+                "explanation": "主干为主谓宾结构。主语 The question；引号内直接引语为同位语从句；谓语动词为现在完成时 has provided；宾语 a quick put-down（现成的有力驳斥/挖苦嘲讽）；介词短语 for skeptics（对于怀疑论者而言）作对象状语。"
+              },
+              {
+                "type": "同位语从句与合成名词",
+                "content": "The question “what happens when the wind doesn’t blow or the sun doesn’t shine?” ... a quick put-down",
+                "explanation": "① 引号内包含 when 引导的双重并列时间状语从句（when the wind doesn't blow or the sun doesn't shine）；② put-down 为动词短语 put down 派生的合成名词，意为“令人难堪的驳斥、轻蔑的反诘”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "has provided a quick put-down for skeptics.",
+                "explanation": "质疑派论调树靶子（Setting up a Counterargument）。提出反方最具杀伤力的技术质疑——风光的间歇性与不稳定性（天不刮风天不下雨怎么办？），为下文电池储能技术的突破提供破靶的目标。"
               }
             ]
           }
@@ -2670,8 +3030,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But a boost in the storage capacity of batteries is making t...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But a boost in the storage capacity of batteries is making their ability to keep power flowing around the clock more likely.",
+                "explanation": "主干为转折连词 But 引出的复合宾语结构（make + O + C）。主语 a boost in the storage capacity of batteries（电池储能容量的大幅提升）；谓语动词为现在进行时 is making；宾语 their ability to keep power flowing around the clock（它们全天候维持电力流动输送的能力）；宾语补足语为比较级形容词 more likely（更有可能实现）。"
+              },
+              {
+                "type": "复合宾语与非谓语剖析",
+                "content": "making their ability to keep power flowing around the clock more likely",
+                "explanation": "① make + 宾语 + 形容词补足语结构；② 宾语中心词 ability 后接动词不定式 to keep 作后置定语；③ keep 后接现在分词 flowing 作宾补，介词短语 around the clock 意为“昼夜不停、全天候24小时”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "But a boost in the storage capacity of batteries is making their ability... more likely.",
+                "explanation": "破除技术瓶颈的转折论据。以电池储能技术的跃升正面瓦解怀疑论者的反诘，阐明储能让绿电实现昼夜连续供电成为现实，彻底扫清可再生能源普及的最后技术障碍。"
               }
             ]
           }
@@ -2687,9 +3057,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who are placing big bets on battery-powered ...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "The advance is driven in part by vehicle manufacturers, who are placing big bets on battery-powered electric vehicles.",
+                "explanation": "主干为被动语态主从复合句。主语 The advance（这一技术进步）；谓语动词为一般现在时被动语态 is driven（受……驱动）；介词短语 in part（在某种程度上）作状语；介词短语 by vehicle manufacturers（由汽车制造商）表施动主体；who 引导非限制性定语从句修饰 vehicle manufacturers。"
+              },
+              {
+                "type": "非限制性定语从句与商业习语",
+                "content": "who are placing big bets on battery-powered electric vehicles",
+                "explanation": "① 关系代词 who 在非限制性定语从句中作主语，先行词为 vehicle manufacturers；② 谓语为现在进行时 are placing big bets on...（正在对……押下重注、进行巨额战略投资）；③ 介词宾语为复合形容词修饰的名词短语 battery-powered electric vehicles（电池驱动的电动汽车）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "vehicle manufacturers, who are placing big bets on battery-powered electric vehicles.",
+                "explanation": "跨行业协同驱动与核心题眼（Q29直接定位句）。揭示电动车行业的狂飙突进是储能技术飞跃的核心商业源动力，车企的重金豪赌带来规模效应与技术溢出，直接对应 Q29 答案 [C] It draws tremendous investment from car manufacturers。"
               }
             ]
           }
@@ -2705,9 +3085,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "Although electric cars are still a rarity on road...",
-                "explanation": "从属连词 <code>Although</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Although electric cars are still a rarity on roads now, this massive investment could change the picture rapidly in coming years.",
+                "explanation": "主干为主从复合句。从属连词 Although 引导让步状语从句；主句为主谓宾结构：主语 this massive investment（这一巨额投资）；情态谓语 could change；宾语 the picture（整个格局、现状景象）；副词 rapidly 作状语；时间状语 in coming years（在未来几年）。"
+              },
+              {
+                "type": "状语从句与抽象名词",
+                "content": "Although electric cars are still a rarity on roads now",
+                "explanation": "Although 引导让步状语从句；从句主语 electric cars，系动词 are，表语名词 a rarity（稀罕之物、罕见现象），介词短语 on roads now 交代空间与时间。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Although electric cars are still a rarity on roads now, this massive investment could change the picture rapidly...",
+                "explanation": "眼前现状与未来巨变的反差预测。让步承认当下电动车普及率仍低，随后以 could change the picture 断言巨额资本涌入必将在不久的将来引发行业格局的彻底颠覆。"
               }
             ]
           }
@@ -2723,9 +3113,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "While there’s a long way to go...",
-                "explanation": "从属连词 <code>While</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "While there’s a long way to go, the trend lines for renewables are spiking.",
+                "explanation": "主干为主从复合句。从属连词 While 引导让步状语从句；从句为 there be 句型：there is a long way to go（还有很长的路要走）；主句为主谓结构：主语 the trend lines for renewables（可再生能源的趋势线）；谓语动词为现在进行时 are spiking（正在急剧攀升/陡峭向上）。"
+              },
+              {
+                "type": "状语从句与生动动词",
+                "content": "While there’s a long way to go ... are spiking",
+                "explanation": "动词 spike 原意为“刺入、尖顶”，在此引申为折线图或指标“呈尖峰状急速飙升”，形象生动地刻画出产业爆发期的指数级增长轨迹。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "While there’s a long way to go, the trend lines for renewables are spiking.",
+                "explanation": "尾段总结让步开头（Concluding Concession）。作者保持客观审慎，在承认任重道远的同时，以 spiking 再次强化对绿电不可阻挡增长大势的坚定判断。"
               }
             ]
           }
@@ -2742,8 +3142,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The pace of change in energy sources appears to be speeding ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The pace of change in energy sources appears to be speeding up—perhaps just in time to have a meaningful effect in slowing climate change.",
+                "explanation": "主干为主系表/动词不定式复合结构。主语 The pace of change in energy sources（能源转型的变革步伐）；谓语动词 appears（似乎、显现出）；不定式进行时 to be speeding up 作表语/补足语；破折号后插入副词短语表希冀与意义。"
+              },
+              {
+                "type": "不定式进行时与介词短语",
+                "content": "to be speeding up—perhaps just in time to have a meaningful effect in slowing climate change",
+                "explanation": "① appears to be doing 强调动作正在加速发生的动态过程；② just in time 意为“恰逢其时、刚好赶上”；③ have a meaningful effect in doing sth. 表示“在……方面产生实质性显著影响”，现在分词 slowing 表伴随与内容。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "perhaps just in time to have a meaningful effect in slowing climate change.",
+                "explanation": "环保社会使命升华。将能源产业与商业的变革速度，同全人类应对气候变化的生死时速相勾连，指出技术与市场的飞速迭代或许恰好能挽救地球生态危机。"
               }
             ]
           }
@@ -2759,9 +3169,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "What Washington does—or doesn’t do—to promote...",
-                "explanation": "连接词 <code>What</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "What Washington does—or doesn’t do—to promote alternative energy may mean less and less at a time of a global shift in thought.",
+                "explanation": "主干为主谓宾结构。主语为 What 引导的主语从句 What Washington does...；情态动词与谓语 may mean（可能意味着）；代词宾语/程度表语 less and less（越来越不重要、微不足道）；介词短语 at a time of a global shift in thought 作时间状语。"
+              },
+              {
+                "type": "主语从句与破折号对比",
+                "content": "What Washington does—or doesn’t do—to promote alternative energy",
+                "explanation": "① What 在主语从句中作 does 的宾语，Washington 借代指美国联邦政府；② 破折号内 or doesn’t do 构成鲜明对称强调；③ 不定式 to promote alternative energy 作目的状语；④ a global shift in thought 指全球在发展认知与能源观念上的根本性跃迁。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "What Washington does—or doesn’t do—to promote alternative energy may mean less and less...",
+                "explanation": "全文结语与高阶推理题眼（Q30直接定位句）。点出在全球思想与市场大势面前，华盛顿政客的政策反复或阻挠将越来越无足轻重。既然华盛顿的抵制无法阻挡全球浪潮，且世界其他地区（中欧）已领跑，顺理成章推导出 Q30 正确答案 [A] will see greater growth outside the US。"
               }
             ]
           }
@@ -3960,9 +4380,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which doesn’t have any physical product at all...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "The power and ambition of the giants of the digital economy is astonishing—Amazon has just announced ..., but two years ago Facebook paid even more than that...",
+                "explanation": "主干为主系表结构后接破折号例证复合句。主语 The power and ambition of the giants of the digital economy（数字经济巨头的权势与野心）；系动词 is（抽象概念合二为一，动词用单数）；表语形容词 astonishing（令人震惊的）；破折号后由 but 连接两个并列事实论据。"
+              },
+              {
+                "type": "并列例证与非限制性定语从句",
+                "content": "to acquire the WhatsApp messaging service, which doesn’t have any physical product at all",
+                "explanation": "① 论据一：Amazon announced the purchase of Whole Foods for $13.5bn；② 论据二：Facebook paid even more than that to acquire the WhatsApp messaging service（动词不定式 to acquire 表目的）；③ 关系代词 which 引导非限制性定语从句修饰 WhatsApp，指出其没有任何实体产品（doesn't have any physical product at all）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The power and ambition of the giants of the digital economy is astonishing...",
+                "explanation": "宏大主题铺垫与天价收购悬念。开篇直接定性数字巨头的惊人扩张野心，随后通过亚马逊收购实体超市与脸书豪掷超190亿美元天价收购纯虚拟通讯软件 WhatsApp 进行对比，抛出全篇核心悬念：巨头们斥巨资到底买到了什么？"
               }
             ]
           }
@@ -3978,9 +4408,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "What WhatsApp offered Facebook was an intrica...",
-                "explanation": "连接词 <code>What</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "What WhatsApp offered Facebook was an intricate and finely detailed web of its users’ friendships and social lives.",
+                "explanation": "主干为 What 引导主语从句的主系表结构。主语从句 What WhatsApp offered Facebook（WhatsApp 提供给 Facebook 的东西）；系动词 was；表语名词短语 an intricate and finely detailed web（一张错综复杂且极其详尽的网络）；介词短语 of its users' friendships and social lives 作后置定语。"
+              },
+              {
+                "type": "主语从句与修辞剖析",
+                "content": "What WhatsApp offered Facebook was an intricate and finely detailed web...",
+                "explanation": "① What 在从句中充当 offered 的直接宾语，Facebook 为间接宾语（双宾语结构）；② intricate（错综复杂的）与 finely detailed（极其精细详尽的）并列修饰 web，生动展现用户社交关系数据的庞大深度与商业变现潜力。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "What WhatsApp offered Facebook was an intricate and finely detailed web ...",
+                "explanation": "核心答案揭晓与命题题眼（Q31直接定位句）。直接解答第一句悬念：无实体产品的 WhatsApp 价值何在？在于其拥有的庞大用户关系网与行为数据。直接对应 Q31 答案 [D] user information。"
               }
             ]
           }
@@ -3996,9 +4436,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that it would not link phone numbers to Faceb...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Facebook promised the European commission then that ..., but it broke the promise almost as soon as the deal went through.",
+                "explanation": "主干为 but 连接的两个转折并列分句。第一分句主语 Facebook，谓语 promised（双宾语结构：间接宾语 the European commission，直接宾语 that 从句）；第二分句主语 it，谓语 broke，宾语 the promise，后接 as soon as 引导的时间状语从句。"
+              },
+              {
+                "type": "宾语从句与时间状语从句",
+                "content": "that it would not link phone numbers to Facebook identities ... as soon as the deal went through",
+                "explanation": "① that 引导宾语从句，从句主语 it，谓语 would not link... to...（不会将电话号码与脸书账户身份相串联）；② 连词短语 as soon as（一……就……）引导时间状语从句，短语 deal went through 表示“交易/审查顺利通过生效”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "promised ... but it broke the promise almost as soon as the deal went through.",
+                "explanation": "监管欺瞒事实揭露。揭露 Facebook 在反垄断监管面前的口是心非：审查通过前立誓不合并用户数据，一旦放行立马撕毁承诺，凸显反垄断监管在科技巨头面前的被动与无奈。"
               }
             ]
           }
@@ -4014,9 +4464,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who sent them and to whom was enormously rev...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Even without knowing ..., the knowledge of who sent them and to whom was enormously revealing and still could be.",
+                "explanation": "主干为主系表结构。介词短语 Even without knowing... 作让步状语；主语 The knowledge of who sent them and to whom（关于谁在给谁发送消息的信息）；系动词 was 及并列情态系动词 still could be；表语形容词 enormously revealing（极其具有揭示性/能暴露海量隐私）。"
+              },
+              {
+                "type": "介宾从句与元数据剖析",
+                "content": "Even without knowing what was in the messages, the knowledge of who sent them and to whom",
+                "explanation": "① knowing 后接 what 引导的宾语从句（消息的具体内容）；② 介词 of 后接由 and 连接的两个特殊疑问词引导的从句 who sent them 和 to whom（元数据 metadata：通信双方身份），说明即便不看聊天文本，单纯的通信元数据也能透视个人全部隐私。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the knowledge of who sent them and to whom was enormously revealing...",
+                "explanation": "隐私泄露机制剖析与命题题眼（Q32直接定位句）。直击现代大数据监控的本质：号码绑定的真正杀伤力在于掌握元数据通信图谱。直接对应 Q32 答案 [A] reveal users' private communication。"
               }
             ]
           }
@@ -4032,9 +4492,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which Theresa May’s enemies are currently plot...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "What political journalist, what party whip, would not want to know the makeup of the WhatsApp groups in which Theresa May’s enemies are currently plotting?",
+                "explanation": "主干为修辞性反问疑问句（Rhetorical Question）。主语为并列疑问代词短语 What political journalist, what party whip（哪位政治记者、哪个政党党鞭）；情态动词与否定谓语 would not want to know；宾语 the makeup of the WhatsApp groups（WhatsApp群组的人员构成）；in which 引导定语从句修饰 groups。"
+              },
+              {
+                "type": "修辞反问与定语从句",
+                "content": "in which Theresa May’s enemies are currently plotting",
+                "explanation": "① 反问句表达强烈肯定含义：“没有任何一个政治记者或党鞭会不想知道”；② 介词 + 关系代词 in which 引导限制性定语从句，在从句中作地点状语；从句主语 Theresa May's enemies（时任英国首相特蕾莎·梅的政敌），谓语为现在进行时 are currently plotting（正在暗中密谋策划）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Theresa May’s enemies are currently plotting",
+                "explanation": "高阶政治博弈例证。将数据穿透力的威力具体落实到英国现实政治密谋案例中，证明掌握通信群组名单便可窥探最高层政局动向，极富感染力地论证了数据对权力和隐私的巨大破坏力。"
               }
             ]
           }
@@ -4050,9 +4520,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which customers have purchased what....",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "It may be that the value of Whole Foods to Amazon is not so much the 460 shops it owns, but the records of which customers have purchased what.",
+                "explanation": "主干为主系表复合句。形式主语 It；系动词 may be；that 引导表语/主语从句。从句中主干为 not so much A but B（与其说是A不如说是B）平行结构：主语 the value of Whole Foods to Amazon；系动词 is；表语一 not so much the 460 shops it owns（并非其拥有的460家实体门店），表语二 but the records of which customers have purchased what（而是哪些顾客购买了什么东西的数据记录）。"
+              },
+              {
+                "type": "固定句型与双重疑问从句",
+                "content": "not so much the 460 shops it owns, but the records of which customers have purchased what",
+                "explanation": "① not so much A but B 固定句式对比事物的表象与实质；② 460 shops 后省略 that 的定语从句 it owns；③ 介词 of 后接双重疑问代词引导的从句 which customers have purchased what（哪个顾客买了什么），点出跨场景线上线下消费数据闭环。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "value ... not so much the 460 shops ... but the records of which customers have purchased what",
+                "explanation": "实体与数字逻辑统一。与第0句亚马逊收购呼应，点破亚马逊真正看中的不是460家生鲜超市物理门店，而是富裕中产阶级顾客线下真实消费轨迹数据，深化“一切皆为数据”的核心论点。"
               }
             ]
           }
@@ -4069,8 +4549,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Competition law appears to be the only way to address these ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Competition law appears to be the only way to address these imbalances of power.",
+                "explanation": "主干为主系表复合结构。主语 Competition law（反垄断法/竞争法）；谓语动词 appears（似乎、显现为）；动词不定式 to be the only way（成为唯一的途径）作表语/补语；不定式短语 to address these imbalances of power（解决这些权力失衡）作后置定语修饰 the only way。"
+              },
+              {
+                "type": "非谓语定语剖析",
+                "content": "to address these imbalances of power",
+                "explanation": "不定式 to address 充当名词 way 的后置定语；address 在此作及物动词，意为“应对、处理、解决”；imbalances of power 概括数字巨头对个人用户和市场的绝对支配地位。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Competition law appears to be the only way to address these imbalances of power.",
+                "explanation": "引入制度解法（Institutional Remedy）。提出目前人类法律武器库中唯一能约束巨头强权的工具是“竞争法”，但在句中用 appears（似乎是）隐晦表达保留意见，为下文连环反转做好铺垫。"
               }
             ]
           }
@@ -4087,8 +4577,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But it is clumsy....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But it is clumsy.",
+                "explanation": "主干为转折连词 But 引出的主系表结构。转折连词 But；主语代词 it（指代上一句的 Competition law 反垄断法）；系动词 is；表语形容词 clumsy（笨拙的、迟钝低效的、难以奏效的）。"
+              },
+              {
+                "type": "修饰词析义",
+                "content": "clumsy",
+                "explanation": "形容词 clumsy 极其精练传神，形容反垄断法面对日新月异、无形无相的数字生态时，如同笨重的旧时代武器打蚊子，有力无处使。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "But it is clumsy.",
+                "explanation": "极短转折与命题题眼（Q33直接定位句）。由“看似唯一解药”瞬间反转，直断其“笨拙低效”。直接印证 Q33 答案 [C] is ineffective in curbing tech giants。"
               }
             ]
           }
@@ -4105,8 +4605,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "For one thing, it is very slow compared to the pace of chang...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "For one thing, it is very slow compared to the pace of change within the digital economy.",
+                "explanation": "主干为主系表结构。列举标记词 For one thing（首先、其一）作过渡状语；主语代词 it（反垄断法）；系动词 is；表语形容词 very slow（非常迟缓）；过去分词短语 compared to... 作伴随/比较状语。"
+              },
+              {
+                "type": "非谓语分词短语剖析",
+                "content": "compared to the pace of change within the digital economy",
+                "explanation": "compared to 为过去分词短语作比较状语，指出反垄断漫长的立法调查诉讼周期与数字经济指数级迭代速度之间的致命时滞。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "For one thing, it is very slow compared to the pace of change...",
+                "explanation": "笨拙维度的第一层因果解释（Time Lag）。从时间维度论证其笨拙：法律程序的漫长迟滞远远追赶不上科技巨头的进化步伐。"
               }
             ]
           }
@@ -4123,8 +4633,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "By the time a problem has been addressed and remedied it may...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "By the time a problem has been addressed ..., it may have vanished in the marketplace, to be replaced by new abuses of power.",
+                "explanation": "主干为主从复合句。By the time 引导时间状语从句；主句主语代词 it（那个旧问题）；情态谓语 may have vanished（可能早已在市场上销声匿迹）；介词短语 in the marketplace 作地点状语；不定式短语 to be replaced by... 作结果状语。"
+              },
+              {
+                "type": "时间状语从句与结果不定式",
+                "content": "By the time a problem has been addressed and remedied ... to be replaced by new abuses of power",
+                "explanation": "① By the time 引导从句，从句中主语 a problem，谓语为现在完成时被动语态 has been addressed and remedied；② 句末不定式 to be replaced by new abuses of power 表示令人啼笑皆非的客观结果：旧垄断刚查清，已被巨头全新的滥用特权手段所替代。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "By the time a problem has been addressed ... replaced by new abuses of power.",
+                "explanation": "监管悖论的具象展开。形象描摹反垄断“刻舟求剑”的尴尬现实：监管滞后性导致法律每次出手都落空在过去的幻影上，面对层出不穷的新型权力垄断束手无策。"
               }
             ]
           }
@@ -4141,8 +4661,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But there is a deeper conceptual problem, too....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But there is a deeper conceptual problem, too.",
+                "explanation": "主干为转折连词 But 引出的 there be 存在句结构。转折连词 But；引导词 there；谓语动词 is；主语名词短语 a deeper conceptual problem（一个更深层次的概念/理念认知层面的问题）；副词 too（也）作状语。"
+              },
+              {
+                "type": "修饰词剖析",
+                "content": "a deeper conceptual problem",
+                "explanation": "比较级 deeper 递进引出质的困境，conceptual（理念上的、法律法理定义上的）指出该问题并非程序操作快慢的技术问题，而是反垄断法基石构架在数字时代遭遇的法哲学危机。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "But there is a deeper conceptual problem, too.",
+                "explanation": "论述由浅入深的递进转换（Deeper Progression）。由外在操作层面的“速度慢（slow）”，深入推向底层法理层面的“概念过时（conceptual flaw）”，正式引出第11句对反垄断法致命漏洞的剖析。"
               }
             ]
           }
@@ -4158,9 +4688,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when the users of these services don’t pay fo...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Competition law as presently interpreted deals with financial disadvantage to consumers and this is not obvious when the users of these services don’t pay for them.",
+                "explanation": "主干为 and 连接的两个并列分句。第一分句主语 Competition law，过去分词短语 as presently interpreted 作插入定语，谓语动词短语 deals with（涉及、处理），介词宾语 financial disadvantage to consumers（对消费者造成的经济/金钱损失）；第二分句主语指示代词 this，系动词 is，表语 not obvious，后接 when 引导的条件/时间状语从句。"
+              },
+              {
+                "type": "插入语与状语从句",
+                "content": "as presently interpreted ... when the users of these services don’t pay for them",
+                "explanation": "① as presently interpreted 为连词 + 过去分词构成的缩略插入语，意为“按照当下人们对反垄断法的司法解释”；② when 引导状语从句，从句主语 the users of these services，否定谓语 don't pay for them（不为这些服务付一分钱现金），揭示“零价格”互联网产品对传统反垄断价格理论的瓦解。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "deals with financial disadvantage ... not obvious when the users ... don’t pay for them",
+                "explanation": "核心概念死穴与命题题眼（Q34直接定位句）。揭露反垄断法的最大漏洞：传统法律只管“金钱损害（提价侵害消费者）”，而巨头提供的服务表面是“免费”的，消费者没有直接经济损失，导致法律无从下手。完美对应 Q34 答案 [B] users don't suffer financial loss。"
               }
             ]
           }
@@ -4177,8 +4717,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The users of their services are not their customers....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The users of their services are not their customers.",
+                "explanation": "主干为主系表结构。主语 The users of their services（这些服务的广大用户）；否定系动词 are not；表语名词 their customers（他们的真正客户）。"
+              },
+              {
+                "type": "词汇概念二元对立",
+                "content": "users vs. customers",
+                "explanation": "短促惊悚的诊断式判断句。将 users（用户，实际是原材料产出者）与 customers（客户，真正掏钱交易者）严格剥离，打破大众对商业模式的朴素认知。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The users of their services are not their customers.",
+                "explanation": "商业本质顿悟句（Epiphany Moment）。一语道破互联网免费商业模式的本质——如果某种产品是免费的，那么你本人就不再是客户，而是被打包出售的商品。"
               }
             ]
           }
@@ -4194,9 +4744,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who buy advertising from them—and Facebook a...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "That would be the people who buy advertising from them—and Facebook and Google, the two virtual giants, dominate digital advertising to the disadvantage of all other media and entertainment companies.",
+                "explanation": "主干为破折号连接的两个并列分句。第一分句主语 That，谓语 would be，表语 the people，who 引导定语从句；破折号后主语 Facebook and Google，同位语 the two virtual giants，谓语 dominate（统治、独霸），宾语 digital advertising，介词短语 to the disadvantage of... 作结果状语。"
+              },
+              {
+                "type": "定语从句与同位语",
+                "content": "who buy advertising from them—and Facebook and Google, the two virtual giants, dominate...",
+                "explanation": "① 关系代词 who 引导定语从句修饰 people，从句谓语 buy advertising from them；② the two virtual giants 作主语同位语；③ to the disadvantage of 意为“使……处于不利境地、损害……的利益”，指出双寡头对其他传统媒体和娱乐公司的降维打击。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "dominate digital advertising to the disadvantage of all other media and entertainment companies.",
+                "explanation": "双寡头垄断生态闭环揭示。指出真正的买家是广告商，Facebook 和 Google 凭借海量免费用户数据筑起的广告投放垄断壁垒，正在无情扼杀整个传媒娱乐业的生存空间。"
               }
             ]
           }
@@ -4213,8 +4773,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The product they’re selling is data, and we, the users, conv...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The product they’re selling is data, and we, the users, convert our lives to data for the benefit of the digital giants.",
+                "explanation": "主干为 and 连接的两个并列分句。第一分句主语 The product（定语从句 they're selling 后置修饰），系动词 is，表语 data（数据）；第二分句主语代词 we，同位语 the users（我们广大用户），谓语动词 convert... to...（将……转化为……），宾语 our lives，介词短语 to data，介词短语 for the benefit of the digital giants 作目的/结果状语。"
+              },
+              {
+                "type": "省略定语从句与同位语",
+                "content": "The product they’re selling ... we, the users ... for the benefit of the digital giants",
+                "explanation": "① product 后省略关系代词 that/which 的定语从句 they are selling；② the users 作 we 的同位语；③ convert A to B 为核心动作搭配，深刻揭示用户日常数字生存被全面数据化剥削的实质。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The product they’re selling is data, and we, the users, convert our lives to data...",
+                "explanation": "本质结论升华句。正式揭晓巨头生态的底层真相：数据才是终极商品，用户的每一次点击、浏览和生活轨迹都在免费给巨头贡献数字剩余价值。"
               }
             ]
           }
@@ -4230,9 +4800,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when they feed...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Just as some ants farm the bugs called aphids ..., so Google farms us for the data that our digital lives yield.",
+                "explanation": "主干为 Just as..., so...（正如……那样，……也同样……）比喻结构连接的两个并列复合分句。主句主语专有名词 Google；谓语动词 farms（圈养、像放牧一样剥削）；代词宾语 us（我们用户）；介词短语 for the data... 作目的状语；that 引导定语从句修饰 data。"
+              },
+              {
+                "type": "比喻结构与多重从句",
+                "content": "Just as some ants farm the bugs called aphids for the honeydew they produce when they feed, so Google farms us...",
+                "explanation": "① Just as... so... 构成高级类比修辞；② 过去分词 called aphids（被称为蚜虫的）作后置定语修饰 bugs；③ honeydew（蜜露）后省略 that 的定语从句 they produce，嵌套 when they feed 时间状语从句；④ 主句定语从句 that our digital lives yield 修饰 data，动词 yield 意为“产出、结出果实”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Just as some ants farm the bugs called aphids ... so Google farms us for the data ...",
+                "explanation": "震撼的生物学类比与核心题眼（Q35直接定位句）。用“蚂蚁圈养蚜虫吮吸蜜露”极度生动形象地类比“谷歌圈养用户榨取数据”。直接印证 Q35 答案 [D] Google's exploitation of users。"
               }
             ]
           }
@@ -4248,9 +4828,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "where their aphids feed...",
-                "explanation": "关系词 <code>where</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Ants keep predatory insects away from where their aphids feed; Gmail keeps the spammers out of our inboxes.",
+                "explanation": "主干为分号连接的两个高度对称的并列句。第一分句主语 Ants，谓语动词短语 keep... away from...（使……远离），宾语 predatory insects（捕食性昆虫），介词 away from 后接 where 引导的地点宾语从句；第二分句主语 Gmail，谓语动词短语 keeps... out of...（使……不进入），宾语 the spammers（垃圾邮件发送者），介词短语 out of our inboxes 作宾补/地点状语。"
+              },
+              {
+                "type": "平行对称与地点从句",
+                "content": "keep predatory insects away from where their aphids feed; Gmail keeps the spammers out of our inboxes",
+                "explanation": "① 分号前后两句结构在句法上形成严丝合缝的平行对称（Parallelism）；② where 引导地点名词性从句作介词 from 的宾语，从句中主语 their aphids，谓语 feed。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Ants keep predatory insects away ...; Gmail keeps the spammers out ...",
+                "explanation": "圈养保护机制的对称论证。阐明巨头给用户提供的所谓“安全防护”（如垃圾邮件拦截）并非出于无私关怀，而是如同蚂蚁保护蚜虫不被外敌捕食一样，只为了圈养宿主以持续收割其数据资产。"
               }
             ]
           }
@@ -4266,9 +4856,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "even if both sides benefit....",
-                "explanation": "从属连词 <code>even if</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "It doesn’t feel like a human or democratic relationship, even if both sides benefit.",
+                "explanation": "主干为主从复合句。主句主语代词 It（这种数字巨头与用户的共生关系）；否定系动词 doesn't feel like（感觉不像是……）；表语名词短语 a human or democratic relationship（一段人性化的或民主的关系）；从属连词 even if 引导让步状语从句。"
+              },
+              {
+                "type": "状语从句剖析",
+                "content": "even if both sides benefit",
+                "explanation": "从属连词 even if（哪怕、即便）引导让步状语从句；从句主语 both sides（双方，指巨头与用户）；谓语动词 benefit（获利、得到好处）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "It doesn’t feel like a human or democratic relationship, even if both sides benefit.",
+                "explanation": "全文悲观警示总结。在承认即便双方看似双赢（用户享受到免费便捷服务，巨头收获海量财富）的表象下，一针见血地指出其本质是冷酷的农场主与牲畜般的数字奴役，缺乏真正的人性尊重与民主对等。"
               }
             ]
           }
@@ -5600,8 +6200,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "To combat the trap of putting a premium on being busy, Cal N...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "To combat the trap of putting a premium on being busy, Cal Newport, ..., recommends building a habit of “deep work”—the ability to focus without distraction.",
+                "explanation": "主干为目的状语置于句首的主谓宾复合句。句首不定式短语 To combat... 作目的状语；主语专有名词 Cal Newport，同位语短语 author of... 补充其畅销书作者身份；谓语动词 recommends（建议）；动名词短语 building a habit of “deep work” 作宾语；破折号后同位语解释名词 deep work。"
+              },
+              {
+                "type": "目的状语、同位语与动词搭配",
+                "content": "To combat the trap of putting a premium on being busy ... the ability to focus without distraction",
+                "explanation": "① 不定式 to combat 表目的，put a premium on 为核心习语，意为“高度重视、珍视、溢价追求”；动名词 being busy 作介词 on 的宾语；② recommend 后必须接动名词作宾语（recommend doing sth.）；③ 破折号后 the ability to focus without distraction 为 deep work 的精准同位语定义，不定式 to focus without distraction 作后置定语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "recommends building a habit of “deep work”—the ability to focus without distraction.",
+                "explanation": "全文主旨立论句与篇章中心题眼（Q40直接定位句）。开宗明义破除现代人“以忙碌为荣”的盲目误区，正式确立全篇探讨的核心概念与主旨解药——“深度工作（deep work）”。直接锁定 Q40 答案 [D] approaches to mastering deep work and the role of downtime。"
               }
             ]
           }
@@ -5617,9 +6227,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when you can throughout the day....",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "There are a number of approaches to mastering the art of deep work—be it lengthy retreats ...; developing ...; or taking...",
+                "explanation": "主干为 there be 存在句后接破折号让步/例证列举。引导词 There；谓语 are；主语 a number of approaches（许多方法/路径）；介词短语 to mastering the art of deep work（通往掌握深度工作艺术）作后置定语；破折号后由 be it... or...（无论是……还是……）引导三分法分类列举。"
+              },
+              {
+                "type": "非谓语动词与虚拟让步列举",
+                "content": "be it lengthy retreats dedicated to a specific task; developing a daily ritual; or taking a “journalistic” approach to seizing moments...",
+                "explanation": "① be it 为省略 whether 的倒装虚拟让步句（= whether it be...）；② 路径一：lengthy retreats（长时间闭关），过去分词短语 dedicated to... 作后置定语；③ 路径二：动名词短语 developing a daily ritual（养成每日固定作息仪式）；④ 路径三：taking a “journalistic” approach to doing sth.（采用像记者见缝插针式的灵活方法），嵌套 when you can 时间状语从句。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "There are a number of approaches to mastering the art of deep work...",
+                "explanation": "分类法总起句（Taxonomy Overview）。罗列了通往深度工作的三种主流流派（修道院式闭关、规律习惯法、记者式碎片抓取），展现实现路径的多元性，为下文提炼所有流派的底层共性做铺垫。"
               }
             ]
           }
@@ -5636,8 +6256,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Whichever approach, the key is to determine your length of f...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Whichever approach, the key is to determine your length of focus time and stick to it.",
+                "explanation": "主干为让步省略状语引出的主系表结构。Whichever approach 为省略句作让步状语（= Whichever approach you choose）；主句主语 the key（核心/关键所在）；系动词 is；并列不定式短语 to determine your length of focus time and (to) stick to it 作表语。"
+              },
+              {
+                "type": "省略让步与并列不定式",
+                "content": "Whichever approach ... to determine your length of focus time and stick to it",
+                "explanation": "① whichever 引导让步短语；② 表语由 and 连接两个并列不定式（后一个省略 to）：动词 determine（明确测定）和 stick to（持之以恒、坚守）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the key is to determine your length of focus time and stick to it.",
+                "explanation": "纲领性破题法则与命题题眼（Q36直接定位句）。无论采取何种模式，万法归一的命门在于：确定适合自己的专注时长，并不折不扣坚决执行。直接印证 Q36 答案 [C] determine focus length and adhere to it。"
               }
             ]
           }
@@ -5654,8 +6284,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Newport also recommends “deep scheduling” to combat constant...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Newport also recommends “deep scheduling” to combat constant interruptions and get more done in less time.",
+                "explanation": "主干为主谓宾结构后接并列目的状语。主语 Newport；频度副词 also；谓语 recommends；宾语专有名词短语 “deep scheduling”（深度日程规划）；并列不定式短语 to combat... and (to) get... 作目的状语。"
+              },
+              {
+                "type": "目的不定式与宾补结构",
+                "content": "to combat constant interruptions and get more done in less time",
+                "explanation": "① to combat 与 (to) get 并列；② get more done 为“get + 宾语 + 过去分词作宾补”经典结构，意为“使更多事情得以完成”；③ in less time 介词短语作时间状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Newport also recommends “deep scheduling” to combat constant interruptions...",
+                "explanation": "策略延伸递进句。由工作时的“专注时间把控”进一步延伸到全局层面的“深度日程规划”，对抗现代办公环境中普遍存在的碎片化打扰。"
               }
             ]
           }
@@ -5672,8 +6312,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "“At any given point, I should have deep work scheduled for r...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "“At any given point, I should have deep work scheduled for roughly the next month.",
+                "explanation": "主干为直接引语主谓宾补结构。时间状语 At any given point（在任何特定的时间节点）；主语 I；情态动词 should；谓语 have；宾语 deep work；过去分词 scheduled（被预先排定）作宾语补足语；时间介词短语 for roughly the next month 作状语。"
+              },
+              {
+                "type": "使役宾补与时间搭配",
+                "content": "have deep work scheduled for roughly the next month",
+                "explanation": "have + sth. + done 结构，表示安排某事被完成；roughly 为副词修饰 the next month，指提前规划好大约未来一个月的深度工作版图。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "“At any given point, I should have deep work scheduled for roughly the next month.",
+                "explanation": "专家个人示范证据（Anecdotal Evidence）。Newport 以自身严苛的日程规划为例，向读者展示顶级学者如何通过月度级别的战略前瞻来捍卫深度专注时间。"
               }
             ]
           }
@@ -5690,8 +6340,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Once on the calendar, I protect this time like I would a doc...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Once on the calendar, I protect this time like I would a doctor’s appointment or important meeting,” he writes.",
+                "explanation": "主干为引述结构中包含主从复合句。引述谓语 he writes；直接引语中，时间省略从句 Once on the calendar（一旦进入日程表）；主句主语 I；谓语 protect；宾语 this time；方式状语从句 like I would (protect) a doctor's appointment...。"
+              },
+              {
+                "type": "连词省略与方式从句",
+                "content": "Once on the calendar, I protect this time like I would...",
+                "explanation": "① Once on the calendar 为连词 + 介词短语的习惯性省略，完整形式为 Once it is on the calendar；② like 引导方式状语从句（在此作连词使用，等同于 as），would 后承前省略了动词 protect。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "I protect this time like I would a doctor’s appointment or important meeting",
+                "explanation": "强喻论证（Analogy / Metaphor）。将神圣不可侵犯的深度工作时间，同无法随意取消的医生预约或重大商务会议相提并论，生动说明捍卫专注时间不可动摇的坚决态度。"
               }
             ]
           }
@@ -5707,9 +6367,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "how you prioritize your day—in particular ho...",
-                "explanation": "连接词 <code>how</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Another approach to getting more done in less time is to rethink how you prioritize your day—in particular how we craft our to-do lists.",
+                "explanation": "主干为主系表结构。主语 Another approach，介词短语 to getting more done in less time 作后置定语；系动词 is；动词不定式短语 to rethink... 作表语；how 引导宾语从句修饰 rethink；破折号后为 in particular 引出的并列深度宾语从句。"
+              },
+              {
+                "type": "非谓语与并列名词性从句",
+                "content": "to rethink how you prioritize your day—in particular how we craft our to-do lists",
+                "explanation": "① 介词 to 后接动名词 getting，复合结构 get more done 同前；② rethink 后接疑问副词 how 引导的宾语从句 how you prioritize your day（如何排定一天事务的优先级）；③ 破折号后 in particular（尤其是）引出更微观聚焦的宾语从句 how we craft our to-do lists（如何制定每日待办清单）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Another approach ... is to rethink ... in particular how we craft our to-do lists.",
+                "explanation": "语篇次级论点转换（Sub-topic Shift）。由宏观月度日程保护转向日常待办清单（to-do list）的微观制定策略，开启第3段对传统死板清单计划的反思。"
               }
             ]
           }
@@ -5725,9 +6395,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that divided undergraduates into two groups: ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Tim Harford, ..., points to a study in the early 1980s that divided undergraduates into two groups: some were advised ...; others were told...",
+                "explanation": "主干为主谓宾结构。主语 Tim Harford，同位语 author of... 说明著作；谓语动词短语 points to（指向、援引）；宾语 a study in the early 1980s；that 引导定语从句修饰 study；冒号后为分号连接的两个并列分句详述对照实验。"
+              },
+              {
+                "type": "定语从句与对照实验并列",
+                "content": "that divided undergraduates into two groups: some were advised to set out monthly goals and study activities; others were told to plan activities and goals in much more detail, day by day",
+                "explanation": "① 关系代词 that 在从句中作主语，divide... into... 为核心搭配；② 冒号后为严格的科学对照实验：some were advised to set out monthly goals...（组一：被建议制定宏观月度目标与学习活动），分号后 others were told to plan activities and goals in much more detail, day by day（组二：被要求按天制定极其详尽的微观日常计划）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "points to a study in the early 1980s that divided undergraduates into two groups...",
+                "explanation": "权威学术实证引入（Academic Study Hook）。引入经济学家兼畅销书作家哈福德援引的经典心理学对照实验，为下文推翻“计划越细越好”的传统直觉常识提供科学证据链。"
               }
             ]
           }
@@ -5743,14 +6423,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when it came to the execution of tasks...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "While the researchers assumed that ..., they were wrong: the detailed daily plans demotivated students.",
+                "explanation": "主干为主从复合句。从属连词 While 引导让步状语从句；主句为主系表结构：主语代词 they（研究人员）；系动词 were；表语 wrong（完全错了）；冒号后为解释分句：主语 the detailed daily plans，谓语动词 demotivated（打击了……的积极性、削弱了动力），宾语 students。"
               },
               {
-                "type": "状语从句",
-                "content": "While the researchers assumed that the well-st...",
-                "explanation": "从属连词 <code>While</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "状语从句、宾语从句与固定习语",
+                "content": "While the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of tasks",
+                "explanation": "① While 引导让步从句；② that 引导 assumed 的宾语从句，从句主语 the well-structured daily plans，谓语 would be，表语最高级 most effective；③ when it came to 为固定介词短语习语，意为“当涉及/谈及……时”，名词短语 the execution of tasks 作其宾语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "they were wrong: the detailed daily plans demotivated students.",
+                "explanation": "假定常识反转与命题题眼（Q37直接定位句）。研究者的假定（细致的日计划执行力最高）被实验结果彻底无情推翻：过于详尽死板的日计划反而严重挫伤了学生的动力！直接对应 Q37 答案 [C] overly detailed daily plans demotivated students。"
               }
             ]
           }
@@ -5766,14 +6451,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "while leaving room for improvisation in such a...",
-                "explanation": "从属连词 <code>while</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Harford argues that inevitable distractions often render the daily to-do list ineffective, while leaving room for improvisation in such a list can reap the best results.",
+                "explanation": "主干为主谓宾复合句。主语 Harford；谓语 argues（主张、论证）；that 引导宾语从句。从句中由对比连词 while 连接两个并列对比分句。"
               },
               {
-                "type": "名词性从句",
-                "content": "that inevitable distractions often render the...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "复合宾语与动名词作主语",
+                "content": "render the daily to-do list ineffective, while leaving room for improvisation in such a list can reap the best results",
+                "explanation": "① 第一分句主语 inevitable distractions（不可避免的分心/意外干扰），谓语 render（使役动词，致使），宾语 the daily to-do list，宾补形容词 ineffective（失效无用）；② while 引导对比分句，动名词短语 leaving room for improvisation in such a list（在此类清单中为即兴发挥留出弹性空间）作主语，情态动词 can，谓语 reap（收获），宾语 the best results。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "distractions often render daily to-do list ineffective, while leaving room for improvisation ... reap the best results.",
+                "explanation": "机理阐释与正反对比。深入揭示死板日计划失效的根本原因在于生活充满突发扰动；只有学会“留白与即兴应变（improvisation）”，计划才能发挥最大威力。"
               }
             ]
           }
@@ -5790,8 +6480,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In order to make the most of our focus and energy, we also n...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "In order to make the most of our focus and energy, we also need to embrace downtime, or as Newport suggests, “be lazy.”",
+                "explanation": "主干为主谓宾复合句。句首介词短语 In order to make the most of... 作目的状语；主语代词 we；副词 also；谓语动词短语 need to embrace（需要拥抱/接纳）；宾语不可数名词 downtime（休息休整时间、停机时间）；or 引导并列引述建议。"
+              },
+              {
+                "type": "目的不定式、习语与插入语",
+                "content": "In order to make the most of our focus and energy ... as Newport suggests, “be lazy”",
+                "explanation": "① make the most of 为高频习语，意为“充分利用、使……发挥最大效益”；② downtime 原为计算机或机械停机维护期，引申为人的大脑放空休整期；③ as Newport suggests 作插入状语，引号中 “be lazy”（学会偷懒）以反常识的挑衅性口吻破除“拼命三郎”迷思。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "we also need to embrace downtime, or as Newport suggests, “be lazy.”",
+                "explanation": "篇章维度重大升华与转折（Major Thematic Shift）。由如何“高效工作与制定计划”，跃迁至更高维度的“如何休息与放空”。打破盲目崇拜连续工作的神话，宣告“善于停歇”是深度高效的不可分割部分。"
               }
             ]
           }
@@ -5808,8 +6508,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ...",
-                "explanation": "全句由分号连接两个并列分句，包含 not just... 结构和 as... as... 同级比较。"
+                "content": "“Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ... [idleness] is, paradoxically, necessary to getting any work done,” he argues.",
+                "explanation": "主干为直接引语复合长句。引述谓语 he argues；直接引语中由分号连接两个并列分句：第一分句为 not just... 表语并列排比；第二分句包含 as... as... 同级比较，破折号/省略后并列判断句。"
+              },
+              {
+                "type": "排比否定、同级比喻与介词搭配",
+                "content": "not just a vacation, an indulgence or a vice; it is as indispensable to the brain as Vitamin D is to the body ... paradoxically, necessary to getting any work done",
+                "explanation": "① 否定排比：not just 后接 a vacation（假期）、an indulgence（放纵）or a vice（恶习）；② 经典同级比喻：as indispensable to A as B is to C（对A来说不可或缺，犹如B之于C），将放空无所事事（idleness）比作维他命D；③ be necessary to doing sth.（to为介词后接动名词 getting），副词 paradoxically（看似矛盾却真实地）刻画出认知悖论。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Idleness ... as indispensable to the brain as Vitamin D ... necessary to getting any work done",
+                "explanation": "颠覆性名言引述与命题题眼（Q38直接定位句）。正面为“闲暇/无所事事（Idleness）”平反定性，确立其作为大脑脑力生产不可或缺的生化燃料地位。直接支撑 Q38 答案 [A] indispensable to brain work。"
               }
             ]
           }
@@ -5826,8 +6536,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Srini Pillay, an assistant professor of psychiatry at Harvar...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Srini Pillay, ..., believes this counterintuitive link between downtime and productivity may be due to the way our brains operate.",
+                "explanation": "主干为主谓宾复合句。主语 Srini Pillay，同位语 an assistant professor of psychiatry at Harvard Medical School 交代其哈佛医学院精神病学权威专家身份；谓语 believes；宾语从句省略 that，从句主干为 this link may be due to the way...。"
+              },
+              {
+                "type": "同位语、因果短语与省略关系词定语从句",
+                "content": "this counterintuitive link between downtime and productivity may be due to the way our brains operate",
+                "explanation": "① 形容词 counterintuitive（反直觉的）修饰 link，介词短语 between downtime and productivity 作后置定语；② 表语短语 be due to（归因于、由于）；③ the way 后省略 in which 或 that 的定语从句 our brains operate（我们大脑运作的方式）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "this counterintuitive link between downtime and productivity may be due to the way our brains operate.",
+                "explanation": "神经科学底层机制探寻。将社会学与效率学的宏观讨论，正式推向微观神经科学（neuroscience）脑机制层面，以权威科学解释为什么休息能反直觉地提升生产力。"
               }
             ]
           }
@@ -5843,9 +6563,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "When our brains switch between being focused ...",
-                "explanation": "关系词 <code>When</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "When our brains switch between being focused and unfocused on a task, they tend to be more efficient.",
+                "explanation": "主干为主从复合句。从属连词 When 引导时间/条件状语从句；主句为主谓表复合结构：主语代词 they（指代 brains）；谓语动词短语 tend to be（往往/倾向于变得）；比较级表语 more efficient（更具工作效率）。"
+              },
+              {
+                "type": "状语从句与动名词搭配",
+                "content": "When our brains switch between being focused and unfocused on a task",
+                "explanation": "① 从句主语 our brains，谓语 switch between A and B（在A与B之间灵活切换）；② 介词 between 后接动名词短语 being focused and (being) unfocused on a task，精准描绘专注回路与发散回路的动态交替。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "switch between being focused and unfocused ... tend to be more efficient",
+                "explanation": "脑神经动力学核心结论与命题题眼（Q39直接定位句）。科学揭晓生产力奥秘：大脑在“高度专注”与“彻底放空”之间的张弛交替，才能激发出最高的认知效率。完美对应 Q39 答案 [B] can boost efficiency。"
               }
             ]
           }
@@ -5861,9 +6591,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "What people don’t realise is that in order to...",
-                "explanation": "连接词 <code>What</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "“What people don’t realise is that in order to complete these tasks they need to use both the focus and unfocus circuits in their brain,” says Pillay.",
+                "explanation": "主干为引述结构中嵌套 What 主语从句和 that 表语从句。引述谓语 says Pillay；直接引语主干为 What people don’t realise（主语从句）+ is（系动词）+ that 从句（表语从句）。"
+              },
+              {
+                "type": "主语从句、表语从句与目的状语",
+                "content": "What people don’t realise is that in order to complete these tasks they need to use both...",
+                "explanation": "① What 在主语从句中作 realise 的宾语；② that 引导表语从句；从句首嵌套目的不定式短语 in order to complete these tasks；从句主干 they need to use both the focus and unfocus circuits in their brain，both... and... 连接两个并列名词修饰词，指大脑中的“专注神经回路”与“非专注/放空神经回路”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "they need to use both the focus and unfocus circuits in their brain",
+                "explanation": "全文科学总结与理论闭环。以脑神经回路的双轨协同运行机制，为全篇“深度工作既需要极致专注，又不可剥离闲暇放空”的主题画上兼具前沿科学与实用价值的圆满句号。"
               }
             ]
           }
