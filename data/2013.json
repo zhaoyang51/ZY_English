@@ -670,9 +670,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "how much a modern textile mill has been auto...",
-                "explanation": "连接词 <code>how</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "the author Adam Davidson relates a joke from cotton country about just how much a modern textile mill has been automated",
+                "explanation": "主干为主谓宾结构。主语 the author（其后 Adam Davidson 为同位语）；谓语动词 relates（讲述、叙述，一般现在时）；宾语 a joke；介词短语 from cotton country 作后置定语；介词短语 about... 补充修饰 joke 的内容。冒号引出对笑话具体内容的引用说明。"
+              },
+              {
+                "type": "宾语从句与介词短语",
+                "content": "about just how much a modern textile mill has been automated",
+                "explanation": "介词 about 引导宾语从句，连接词 how much 引导程度感叹分句作介词宾语，从句主语 a modern textile mill，谓语 has been automated（现在完成时的被动语态，强调现代工厂极高的自动化水平）。"
+              },
+              {
+                "type": "非谓语与后置定语",
+                "content": "In an essay entitled “Making It in America”",
+                "explanation": "句首介词短语作全句地点/出处状语，过去分词短语 entitled... 作名词 essay 的后置定语，交代文章来源《在美国制造》。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "relates a joke from cotton country about just how much a modern textile mill has been automated",
+                "explanation": "篇首典故引入与例证破题（Q21 题眼）。作者开门见山借棉花产区流传的一则关于工厂自动化的微型黑色幽默，极为生动地具象化技术进步对传统制造业人力的剧烈挤出，为全文确立“平庸时代终结”的核心论调。"
               }
             ]
           }
@@ -689,8 +704,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The man is there to feed the dog, and the dog is there to ke...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The man is there to feed the dog, and the dog is there to keep the man away from the machines.",
+                "explanation": "and 连接两个结构对称的并列句。前半句主语 The man，系表结构 is there，不定式短语 to feed the dog 作目的状语；后半句主语 the dog，系表结构 is there，不定式短语 to keep the man away from the machines 作目的状语。"
+              },
+              {
+                "type": "非谓语与固定搭配",
+                "content": "to keep the man away from the machines",
+                "explanation": "动词不定式短语作目的状语，包含 keep sb. away from sth.（使某人远离某物）的固定动宾补结构，极为辛辣地讽刺了自动化时代机器防范人类干扰的荒谬现实。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the dog is there to keep the man away from the machines",
+                "explanation": "笑话包袱与寓意升华（Q21 核心题眼）。表面荒诞——人伺候狗、狗看管人，实质以强烈的反讽隐喻现代技术对传统劳动力角色的彻底剥离（impact of technological advances），精准对应 Q21 正确选项。"
               }
             ]
           }
@@ -706,14 +731,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which are more rapidly than ever replacing lab...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Davidson’s article is one of a number of pieces ... making the point that the reason ... is largely because of ..., but it is also because of ...",
+                "explanation": "主干为主系表结构。主语 Davidson's article；系动词 is；表语 one of a number of pieces（众多文章之一）；现在分词短语 making the point... 作 pieces 的后置定语，其后接 that 引导的同位语从句阐明观点。"
               },
               {
-                "type": "状语从句",
-                "content": "because of the big drop in demand because of the...",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "同位语从句与并列因果结构",
+                "content": "that the reason we have such stubbornly high unemployment ... is largely because of ..., but it is also because of ...",
+                "explanation": "that 引导同位语从句解释 point。从句内部由 but 连接两个并列因果分句：前半句主语 the reason（后接省略 that 的定语从句 we have...），表语 because of the big drop in demand...；后半句并列代词 it 承前指代 the reason，表语 because of the advances in both globalization and the information technology revolution。"
+              },
+              {
+                "type": "定语从句与插入语",
+                "content": "which are more rapidly than ever replacing labor with machines or foreign workers",
+                "explanation": "关系代词 which 引导非限制性定语从句，修饰先行词 advances in both globalization and the information technology revolution；插入比较结构 more rapidly than ever 作状语修饰从句进行时谓语 are replacing labor with machines...。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "advances in both globalization and the information technology revolution, which are ... replacing labor",
+                "explanation": "双重结构性归因剖析。作者区分了周期性短期因素（大衰退造成的需求下滑）与长期根本动力（全球化+IT革命），揭示现代劳动力面临“机器取代”与“海外低成本外包”的双重夹击。"
               }
             ]
           }
@@ -730,8 +765,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In the past, workers with average skills, doing an average j...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "workers with average skills, doing an average job, could earn an average lifestyle",
+                "explanation": "主干为主谓宾结构。主语 workers；情态谓语 could earn；宾语 an average lifestyle（中等/普通体面的生活水准）。三个 average（skills, job, lifestyle）构成修辞层面的连环呼应。"
+              },
+              {
+                "type": "非谓语与介词短语修饰",
+                "content": "workers with average skills, doing an average job",
+                "explanation": "介词短语 with average skills 与现在分词短语 doing an average job 形成双重后置修饰，紧扣主语 workers，刻画工业化时代资质平平、从事流水线普通工作的典型蓝领画像。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "In the past, workers with average skills ... could earn an average lifestyle",
+                "explanation": "历史参照系铺垫（基准反差）。通过“过去中等技能即可换取体面中产生活”的历史黄金常态，为下段开篇“平庸时代的终结”构建鲜明的时代落差反衬。"
               }
             ]
           }
@@ -748,8 +793,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But, today, average is officially over....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But, today, average is officially over.",
+                "explanation": "主系表结构。转折连词 But 起头；时间状语 today；主语 average（抽象名词化，代表中等技能/平庸资质）；系动词 is；表语兼副词 officially over（正式宣告终结）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "average is officially over",
+                "explanation": "全文主旨中心句（Topic Sentence / Q25 题眼）。极其凝练、铿锵有力的警句式单句，宣告传统“按部就班处于平均线即可高枕无忧”的生存法则彻底作废，直接锁定全文最佳标题“Average Is Over”。"
               }
             ]
           }
@@ -765,9 +815,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "what it used to....",
-                "explanation": "连接词 <code>what</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Being average just won’t earn you what it used to.",
+                "explanation": "动名词短语 Being average 作句式主语；谓语 won't earn（双宾动词结构）；间接宾语 you；直接宾语为 what 引导的名词性从句。"
+              },
+              {
+                "type": "宾语从句与省略",
+                "content": "what it used to",
+                "explanation": "连接代词 what 引导名词性宾语从句作 earn 的直接宾语，并在从句中作省略动词 earn 的宾语，used to 后省略了 earn you，意为“过去所能带给你的收入待遇”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Being average just won’t earn you what it used to",
+                "explanation": "主旨经济价值量化。将第四句的抽象命题“average is over”无缝落地到现实物质收益层面，警示身怀普通技能的求职者正滑向收入断崖。"
               }
             ]
           }
@@ -783,9 +843,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when so many more employers have so much more...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "It can’t when so many more employers have so much more access to so much more above average cheap foreign labor, cheap robotics, cheap software, cheap automation and cheap genius.",
+                "explanation": "主句为极其简短的省略主谓结构 It can't (earn you what it used to)；when 引导时间/条件状语从句，陈述导致这一后果的宏观市场根源。"
+              },
+              {
+                "type": "状语从句与五重排比",
+                "content": "so much more access to so much more above average cheap foreign labor, cheap robotics, cheap software, cheap automation and cheap genius",
+                "explanation": "when 从句中主语 employers，谓语 have，宾语 access to...；介词 to 之后连接五个由 cheap 修饰的名词成分（foreign labor, robotics, software, automation, genius）形成强力排比，突显全球生产要素廉价化与可替代性。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "cheap robotics, cheap software, cheap automation and cheap genius",
+                "explanation": "资本与劳动力市场残酷机制解密。雇主能够在全球范围内唾手可得廉价海外劳力与高智能软件自动化，本土平庸劳动者的议价空间被全方位粉碎。"
               }
             ]
           }
@@ -801,9 +871,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that makes them stand out in whatever is thei...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Therefore, everyone needs to find their extra—their unique value contribution that makes them stand out in whatever is their field of employment.",
+                "explanation": "主干为主谓宾结构。因果连词 Therefore 开头；主语 everyone；谓语 needs；动词不定式短语 to find their extra 作宾语。"
+              },
+              {
+                "type": "同位语与双重从句",
+                "content": "their unique value contribution that makes them stand out in whatever is their field of employment",
+                "explanation": "破折号引出 their unique value contribution 作 extra 的同位语；that 引导定语从句修饰 contribution，从句动宾补 makes them stand out；介词 in 后接 whatever 引导的名词性从句 whatever is their field of employment 作介词宾语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "everyone needs to find their extra—their unique value contribution that makes them stand out",
+                "explanation": "破局核心策略与考点题眼（Q22 题眼）。提出在智能化冲击下的个人生存指南：必须发掘超额优势（find their extra），即提供独一无二的价值贡献（contribute something unique），构成题干与选项的精准同义替换。"
               }
             ]
           }
@@ -820,8 +900,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Yes, new technology has been eating jobs forever, and always...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Yes, new technology has been eating jobs forever, and always will.",
+                "explanation": "and 连接两个并列时态谓语分句。主语 new technology；分句一谓语 has been eating（现在完成进行时，强调长期持续侵蚀）；宾语 jobs；时间副词 forever；分句二谓语为省略形式 always will (eat jobs forever)。"
+              },
+              {
+                "type": "修辞与拟人",
+                "content": "eating jobs",
+                "explanation": "将抽象的“技术淘汰岗位”比拟为猛兽“吞食（eating）”，形象传达出技术巨浪对普通工人生计剥夺的残酷与无情。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Yes, new technology has been eating jobs forever",
+                "explanation": "让步预设与反直觉设伏。首先承认“卢德派”式的技术替代恐慌自古有之，通过“Yes”展现客观包容，实则为下一句转折引出当前这一轮冲击的“异质性”与“超常规”积蓄论证势能。"
               }
             ]
           }
@@ -838,8 +928,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But there’s been an acceleration....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But there’s been an acceleration.",
+                "explanation": "there be 句型的现在完成时结构。转折连词 But；谓语 has been；真正主语 an acceleration（加速发展、迅猛提速）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "But there’s been an acceleration",
+                "explanation": "论证枢纽与逻辑反转。打破常规历史经验的安抚，直击当下的本质变量——“速度（acceleration）”，指出当前技术冲击在广度与深度上呈指数级爆炸，下文数据论证随即展开。"
               }
             ]
           }
@@ -855,9 +950,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that they erased almost all the gains of the ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "As Davidson notes, “... [U.S.] factories shed workers so fast that they erased almost all the gains of the previous 70 years; roughly one out of every three manufacturing jobs—about 6 million in total—disappeared.”",
+                "explanation": "As Davidson notes（正如戴维森所指出）作评注性从句。直接引语包含分号隔开的两个并列分句：分句一主语 factories，谓语 shed（裁减），宾语 workers，so fast that... 引出结果从句；分句二主语 one out of every three manufacturing jobs，不及物谓语 disappeared。"
+              },
+              {
+                "type": "结果状语从句与数量同位语",
+                "content": "so fast that they erased almost all the gains of the previous 70 years; roughly one out of every three manufacturing jobs—about 6 million in total—disappeared",
+                "explanation": "so... that 引导结果状语从句，刻画裁员烈度之巨（吞噬70年积累）；双破折号短语 about 6 million in total 作主语 jobs 的数量同位语，进一步量化岗位蒸发的规模。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "shed workers so fast that they erased almost all the gains ... jobs ... disappeared",
+                "explanation": "权威实证数据与考点聚焦（Q23 题眼）。以十年来美国制造业三分之一（约600万）岗位彻底蒸发的铁证，实锤“岗位正以极快速度消失（disappearing at a high speed）”，精准对应 Q23 选项。"
               }
             ]
           }
@@ -874,8 +979,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "There will always be change—new jobs, new products, new serv...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "There will always be change—new jobs, new products, new services.",
+                "explanation": "there be 句型的一般将来时态。谓语 will always be；主语 change；破折号后引出三项并列同位语名词短语（new jobs, new products, new services）具体阐释变化包含的新维度。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "There will always be change—new jobs, new products, new services",
+                "explanation": "辩证唯物视角与平衡论述。在渲染技术冲击的严酷性之余，理性承认熊彼特式“创造性毁灭”——新技术亦会孕育全新职业形态，避免论述沦为毫无建树的末世悲调。"
               }
             ]
           },
@@ -892,19 +1002,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干主句",
-                "content": "the one thing is that...",
-                "explanation": "表语从句结构"
+                "type": "主干剖析",
+                "content": "But the one thing we know for sure is that with each advance in globalization and the I.T. revolution, the best jobs will require workers to have more and better education to make themselves above average.",
+                "explanation": "主系表复合句。主语 the one thing；其后省略关系代词的定语从句 (that) we know for sure；系动词 is；that 引导表语从句陈述核心确定性事实。"
               },
               {
-                "type": "条件/伴随状语",
-                "content": "with each advance in globalization and the I.T. revolution",
-                "explanation": "介词短语作背景状语"
+                "type": "表语从句与复合宾语",
+                "content": "that with each advance in globalization and the I.T. revolution, the best jobs will require workers to have more and better education to make themselves above average",
+                "explanation": "表语从句中，介词短语 with each advance... 作伴随状语；从句主语 the best jobs，谓语 will require，宾语 workers，不定式短语 to have more and better education 作宾补，不定式短语 to make... 作目的状语。"
               },
               {
-                "type": "目的状语",
-                "content": "to make themselves above average",
-                "explanation": "不定式作目的状语"
+                "type": "语篇逻辑与考点",
+                "content": "the best jobs will require workers to have more and better education",
+                "explanation": "就业门槛重塑与出路指引（Q24 逻辑基石）。逻辑严密地推导出技术飞跃对高端职位的教育军备要求：高质量教育是劳动力突破平庸、获得安全感的不二法门。"
               }
             ]
           },
@@ -937,19 +1047,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "地点定语状语",
-                "content": "In a world where average is officially over",
-                "explanation": "where引导定语从句修饰world"
+                "type": "主干剖析",
+                "content": "there are many things we need to do to support employment, but nothing would be more important than passing some kind of G.I. Bill for the 21st century that ensures that every American has access to post-high school education",
+                "explanation": "but 连接两个并列复合句。前半句为 there be 句型，后接定语从句 (that) we need to do；后半句主语否定代词 nothing，谓语 would be，表语 more important than...（比较级表示最高级），动名词短语 passing... 作比较对象。"
               },
               {
-                "type": "主干主句",
-                "content": "there are many things we need to do... but nothing would be more important than...",
-                "explanation": "并列复合句，否定词+比较级表示最高级含义"
+                "type": "双重从句嵌套与定语修饰",
+                "content": "In a world where average is officially over ... that ensures that every American has access to post-high school education",
+                "explanation": "句首介词短语含 where 引导的定语从句修饰 world；passing 后的名词短语 G.I. Bill 后接 that 引导的定语从句修饰 bill；从句谓语动词 ensures 后面再嵌套 that 引导的宾语从句。"
               },
               {
-                "type": "定语从句",
-                "content": "that ensures that every American has access...",
-                "explanation": "that引导定语从句修饰Bill"
+                "type": "语篇逻辑与考点",
+                "content": "passing some kind of G.I. Bill for the 21st century that ensures that every American has access to post-high school education",
+                "explanation": "宏观国策建言与全文总结（Q24 & Q25 终局题眼）。作者借鉴二战后托举美国繁荣的标志性《退伍军人法案》，呼吁国家出台21世纪新教育法案，确保全民享有高等教育（ensure more education for people），完成全篇破题到收尾的完满闭环。"
               }
             ]
           },
@@ -2258,8 +2368,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "A century ago, the immigrants from across the Atlantic inclu...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "A century ago, the immigrants from across the Atlantic included settlers and sojourners.",
+                "explanation": "主干为主谓宾结构。时间状语 A century ago；主语 the immigrants；介词短语 from across the Atlantic 作后置定语修饰 immigrants；谓语动词 included（一般过去时）；并列宾语 settlers and sojourners（定居者与过客/寄居者）。"
+              },
+              {
+                "type": "修饰成分与语义界定",
+                "content": "settlers and sojourners",
+                "explanation": "settlers（长期定居者）与 sojourners（短期寄居者、过客）构成并列对仗，精准界定跨大西洋历史移民在留存动机上的二元分野。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "included settlers and sojourners",
+                "explanation": "历史背景导入与核心概念铺垫（Q26 伏笔）。作者通过回溯一个世纪前的历史常态破题，指出早期移民不仅有寻求永久扎根的人，更有大量只作短期逗留的“寄居者”，为后文提出“候鸟（birds of passage）”概念埋设基石。"
               }
             ]
           }
@@ -2275,9 +2395,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who had no intention to stay...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "完全倒装结构",
+                "content": "Along with the many folks looking to make a permanent home in the United States came those who had no intention to stay, and who would make some money and then go home.",
+                "explanation": "全句为介词短语置于句首引起的完全倒装句（Prep Phrase + Verb + Subject）。句首介词短语 Along with... 作伴随状语；不及物谓语动词 came；真正主语为后置代词 those。"
+              },
+              {
+                "type": "非谓语与双重定语从句",
+                "content": "looking to make a permanent home ... who had no intention to stay, and who would make some money and then go home",
+                "explanation": "现在分词短语 looking to make... 作 folks 的后置定语；代词 those 之后由 and 并列连接两个 who 引导的限制性定语从句，分别从“主观无意定居”与“客观赚钱即归”两个层面界定其过客属性。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "those who had no intention to stay, and who would make some money and then go home",
+                "explanation": "核心概念精准定性（Q26 核心题眼）。通过句首倒装将信息焦点置于句末的 those，生动刻画所谓“候鸟型移民”的本质：非永久定居，而是暂时居留谋生后即返回故土（stay in a foreign country temporarily）。"
               }
             ]
           }
@@ -2293,9 +2423,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "while about 2 million departed....",
-                "explanation": "从属连词 <code>while</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Between 1908 and 1915, about 7 million people arrived while about 2 million departed.",
+                "explanation": "while 连接两个并列对比分句。时间状语 Between 1908 and 1915；分句一主语 about 7 million people，谓语 arrived；分句二主语 about 2 million，谓语 departed。"
+              },
+              {
+                "type": "连词与对比逻辑",
+                "content": "while about 2 million departed",
+                "explanation": "并列连词 while 表强烈的行为对比，清晰凸显出近三成（200万/700万）抵美移民最终选择离开返回母国的大规模流动现象。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "about 7 million people arrived while about 2 million departed",
+                "explanation": "官方历史实证数据支撑。以 1908 至 1915 年间 200 万人回流的实锤数据，有力击破“移民皆欲永久滞留”的刻板偏见，坐实移民回流的客观历史普遍性。"
               }
             ]
           }
@@ -2312,8 +2452,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "About a quarter of all Italian immigrants, for example, even...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "About a quarter of all Italian immigrants, for example, eventually returned to Italy for good.",
+                "explanation": "主干为主谓结构。主语 About a quarter of all Italian immigrants（约四分之一的意大利移民）；插入语 for example；时间副词 eventually；谓语 returned to Italy；介词短语 for good（永久地）作状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "About a quarter of all Italian immigrants ... eventually returned to Italy for good",
+                "explanation": "微观典型样本剖析。以意大利移民高达 25% 的永久回流率为实证切片，为跨大西洋流动群体的“候鸟”生活方式提供具象支撑。"
               }
             ]
           }
@@ -2330,8 +2475,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "They even had an affectionate nickname, “uccelli di passaggi...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "They even had an affectionate nickname, “uccelli di passaggio,” birds of passage.",
+                "explanation": "主干为主谓宾结构。主语 They；副词 even；谓语 had；宾语 an affectionate nickname（亲切的昵称）；后面紧跟意大利语同位语 uccelli di passaggio 及英语同位语 birds of passage（候鸟）。"
+              },
+              {
+                "type": "同位语与修辞色彩",
+                "content": "an affectionate nickname, “uccelli di passaggio,” birds of passage",
+                "explanation": "affectionate nickname 与双重同位语连用，赋予这群流动者诗意与温情的文化关照，反映出当时社会对其坦然接纳与宽容包容的健康心态。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "nickname, “uccelli di passaggio,” birds of passage",
+                "explanation": "核心意象登场与考点聚焦（Q26 词义题题眼）。正式确立“候鸟（birds of passage）”的文化符号地位，与下文现代社会严苛僵化的二元法律定性形成极具震撼力的时代讽刺。"
               }
             ]
           }
@@ -2348,8 +2503,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Today, we are much more rigid about immigrants....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Today, we are much more rigid about immigrants.",
+                "explanation": "主系表结构。时间状语 Today；主语 we；系动词 are；比较级表语 much more rigid（僵化严苛得多）；介词短语 about immigrants 作状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Today, we are much more rigid about immigrants",
+                "explanation": "全篇叙事与逻辑大转折（历史 vs 现实）。由历史上的温情包容瞬间切换到当代社会的冷酷严苛，一个“Today”与前文的“A century ago”拉开宏大批判序幕。"
               }
             ]
           }
@@ -2366,8 +2526,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "We divide newcomers into two categories: legal or illegal, g...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "We divide newcomers into two categories: legal or illegal, good or bad.",
+                "explanation": "主干为主谓宾补结构。主语 We；谓语 divide；宾语 newcomers；介词短语 into two categories 作状语/补足语；冒号后为形容词并列修饰语/同位成分 legal or illegal, good or bad。"
+              },
+              {
+                "type": "修辞与对偶列举",
+                "content": "legal or illegal, good or bad",
+                "explanation": "对偶形容词词组构成互文反义对比，直观展示现代社会将丰富多样的人类跨境流动强行塞入非黑即白的粗暴框框。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "divide newcomers into two categories: legal or illegal, good or bad",
+                "explanation": "二元极化思维批判（Q30 标题题核心题眼）。揭露现代移民政策的核心病灶：将复杂的个体命运机械割裂为“合法/非法”、“好人/坏人”，精准呼应文章主旨“Legal or Illegal: Big Mistake”。"
               }
             ]
           }
@@ -2384,8 +2554,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "We hail them as Americans in the making, or brand them as al...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "We hail them as Americans in the making, or brand them as aliens to be kicked out.",
+                "explanation": "or 连接两个对称并列的动宾介词复合结构。主语 We；并列动词短语一 hail them as Americans in the making；并列动词短语二 brand them as aliens to be kicked out。"
+              },
+              {
+                "type": "非谓语与修辞动词对比",
+                "content": "hail them as ... or brand them as ... to be kicked out",
+                "explanation": "hail（欢呼赞美）与 brand（打上罪恶烙印）形成极度讽刺的动词两极对抗；不定式被动短语 to be kicked out 作 aliens 的后置定语，凸显暴力排斥感。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "hail them as Americans in the making, or brand them as aliens",
+                "explanation": "政治话语精神分裂写照。进一步剖析当代政治两极格局下对移民群体的极端撕裂：要么神化为未来的美国公民，要么妖魔化为应被清洗驱逐的异类。"
               }
             ]
           }
@@ -2401,9 +2581,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "That framework has contributed mightily to ou...",
-                "explanation": "连接词 <code>That</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "That framework has contributed mightily to our broken immigration system and the long political paralysis over how to fix it.",
+                "explanation": "主干为主谓介宾结构。主语 That framework（这种二元思维框架）；谓语 has contributed mightily to...（极大导致了/促成了）；并列介词宾语 our broken immigration system 与 the long political paralysis。"
+              },
+              {
+                "type": "修饰成分与介词短语",
+                "content": "over how to fix it",
+                "explanation": "介词短语作 paralysis 的后置定语，疑问代词 how 引导动词不定式短语 to fix it，点出围绕制度修复长期陷入政治空转的死结。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "contributed mightily to our broken immigration system and the long political paralysis",
+                "explanation": "制度崩塌深层因果定性（Q27 题眼）。指出这种非黑即白的割裂框架正是美国移民体系残破不堪以及长年陷入党派立法瘫痪的罪魁祸首。"
               }
             ]
           }
@@ -2420,8 +2610,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "We don’t need more categories, but we need to change the way...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "We don’t need more categories, but we need to change the way we think about categories.",
+                "explanation": "but 连接两个对称并列转折分句。分句一主语 We，谓语 don't need，宾语 more categories；分句二主语 we，谓语 need，不定式短语 to change the way... 作宾语。"
+              },
+              {
+                "type": "定语从句修饰",
+                "content": "the way we think about categories",
+                "explanation": "the way 后接省略关系代词 that/in which 的限制性定语从句 we think about categories，阐明变革的对象不在于形式指标，而在于思维方式本身。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "change the way we think about categories",
+                "explanation": "认知范式颠覆呼吁（Q27 核心题眼）。犀利指出解决移民困局不需要设立更多叠床架屋的法律条目，而是必须从根本上彻底改变分类和看待移民的底层逻辑（adapted to meet challenges）。"
               }
             ]
           }
@@ -2438,8 +2638,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "We need to look beyond strict definitions of legal and illeg...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "We need to look beyond strict definitions of legal and illegal.",
+                "explanation": "主干为主谓宾结构。主语 We；谓语 need；动词不定式短语 to look beyond strict definitions of legal and illegal 作宾语。"
+              },
+              {
+                "type": "介词短语与短语动词",
+                "content": "look beyond strict definitions of legal and illegal",
+                "explanation": "look beyond 意为“超越、放眼于……之外”，介词宾语 strict definitions... 点名批判教条主义的法律教条。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "look beyond strict definitions of legal and illegal",
+                "explanation": "破局核心策略提出（Q29 & Q30 共同题眼）。明确呼吁决策者跳出机械的“合法与非法”概念围城，为包容现代多元跨国流动提供制度想象力。"
               }
             ]
           }
@@ -2456,8 +2666,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "To start, we can recognize the new birds of passage, those l...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "To start, we can recognize the new birds of passage, those living and thriving in the gray areas.",
+                "explanation": "主干为主谓宾结构。不定式短语 To start 作评注/目的状语；主语 we；情态复合谓语 can recognize（正视、认可）；宾语 the new birds of passage。"
+              },
+              {
+                "type": "同位语与分词短语",
+                "content": "those living and thriving in the gray areas",
+                "explanation": "代词短语 those... 作 the new birds of passage 的同位语；现在分词短语 living and thriving 作后置定语修饰 those；介词短语 in the gray areas 形象点明其处于法律灰色地带的现实境遇。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "recognize the new birds of passage, those living and thriving in the gray areas",
+                "explanation": "行动路线第一步（Q29 题眼）。提出改革当务之急是给予灰色地带繁荣生存的流动人口以现实认可（legal tolerance / middle ground），而非一味驱逐。"
               }
             ]
           }
@@ -2474,8 +2694,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "We might then begin to solve our immigration challenges....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "We might then begin to solve our immigration challenges.",
+                "explanation": "主干为主谓宾结构。主语 We；情态动词与承接副词 might then；谓语动词 begin；动词不定式短语 to solve our immigration challenges 作宾语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "We might then begin to solve our immigration challenges",
+                "explanation": "逻辑因果推导与转机展望。承接第11句的 recognize，指出只有当政策开始直面灰色地带的“新候鸟”时，美国才有可能真正着手化解旷日持久的移民挑战。"
               }
             ]
           }
@@ -2492,8 +2717,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Crop pickers, violinists, construction workers, entrepreneur...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Crop pickers, violinists, construction workers, entrepreneurs, engineers, home health-care aides and physicists are among today’s birds of passage.",
+                "explanation": "主系表结构。由七类职业名词短语构成的庞大并列主语（Crop pickers, violinists, ... and physicists）；系动词 are；介词短语 among today's birds of passage 作表语。"
+              },
+              {
+                "type": "修辞与全谱系排比",
+                "content": "Crop pickers, violinists, construction workers, entrepreneurs, engineers, home health-care aides and physicists",
+                "explanation": "横跨底层农工、高雅艺术家、蓝领工人、商业巨头与顶尖科学家的七重大排比，极具说服力地呈现当代跨国流动人口的广泛性与阶层异质性。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "physicists are among today’s birds of passage",
+                "explanation": "去污名化与事实澄清。有力证明“候鸟”绝非仅仅指低端非法劳工，高科技人才与社会精英同样身处其中，彻底打破刻板印象。"
               }
             ]
           }
@@ -2510,8 +2745,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "They are energetic participants in a global economy driven b...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "They are energetic participants in a global economy driven by the flow of work, money and ideas.",
+                "explanation": "主系表结构。主语 They；系动词 are；表语 energetic participants；介词短语 in a global economy 作定语。"
+              },
+              {
+                "type": "非谓语后置定语",
+                "content": "driven by the flow of work, money and ideas",
+                "explanation": "过去分词短语 driven by... 作 global economy 的后置定语，阐明全球经济是由劳动、资本与思想的三重要素流动所驱动。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "energetic participants in a global economy driven by the flow of work, money and ideas",
+                "explanation": "宏观经济角色定位。将这批候鸟型跨国人才定义为全球化活力的源泉与经济发动机，从社会正义与经济贡献双重高度为其正名。"
               }
             ]
           }
@@ -2528,8 +2773,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "They prefer to come and go as opportunity calls them....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "They prefer to come and go as opportunity calls them.",
+                "explanation": "主干为主谓宾结构。主语 They；谓语 prefer；动词不定式短语 to come and go 作宾语；as 引导方式/时间状语从句 as opportunity calls them（随着机会的召唤）。"
+              },
+              {
+                "type": "状语从句与拟人修辞",
+                "content": "as opportunity calls them",
+                "explanation": "as 从句中动词 calls 采用拟人化修辞，生动展现跨国要素流动驱动下个体追随商业与职业机遇来去自如的灵动状态。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "prefer to come and go as opportunity calls them",
+                "explanation": "核心意愿与偏好解密（Q28 核心题眼）。准确揭示当代候鸟群体的精神内核与诉求：追求的是随机遇来去自由的弹性（freedom to stay and leave），而非永久固化在一个国家。"
               }
             ]
           }
@@ -2546,8 +2801,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "They can manage to have a job in one place and a family in a...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "They can manage to have a job in one place and a family in another.",
+                "explanation": "主干为主谓宾结构。主语 They；情态复合谓语 can manage to have；并列宾语 a job in one place 与 a family in another。"
+              },
+              {
+                "type": "对仗修饰与对比",
+                "content": "a job in one place and a family in another",
+                "explanation": "in one place 与 in another 构成空间上的平行对仗，形象生动地描绘出超越传统地理边境的跨国双城记式生存模式。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "have a job in one place and a family in another",
+                "explanation": "跨国生活方式具象支撑。凭借全球交通网与数字化通信，候鸟族完全能够从容维系跨空间的工作与家庭，证明传统移民入籍模式的落伍。"
               }
             ]
           }
@@ -2564,8 +2829,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "With or without permission, they straddle laws, jurisdiction...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "With or without permission, they straddle laws, jurisdictions and identities with ease.",
+                "explanation": "主干为主谓宾结构。句首介词短语 With or without permission 作让步状语；主语 they；谓语动词 straddle（跨越、横跨）；并列宾语 laws, jurisdictions and identities；介词短语 with ease 作方式状语。"
+              },
+              {
+                "type": "介词短语让步与动词张力",
+                "content": "With or without permission ... straddle ... with ease",
+                "explanation": "With or without permission 表明现实独立于行政许可；straddle（大步跨越）与 with ease（轻而易举）展现出民间流动对僵化官僚边界的从容穿透力。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "straddle laws, jurisdictions and identities with ease",
+                "explanation": "现实超越性概括（Q29 题眼）。揭露不管现行法条如何围追堵截，生活本身的流动性早已横跨各国司法管辖与法律标签，呼唤立法从容接纳现实。"
               }
             ]
           }
@@ -2581,14 +2856,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "where they can be productive for a while witho...",
-                "explanation": "关系词 <code>where</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "We need them to imagine the United States as a place where they can be productive for a while without committing themselves to staying forever.",
+                "explanation": "主干为主谓宾补结构。主语 We；谓语 need；宾语 them；不定式短语 to imagine the United States as a place... 作宾语补足语。"
               },
               {
-                "type": "状语从句",
-                "content": "while without committing themselves to staying...",
-                "explanation": "从属连词 <code>while</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "定语从句与介词伴随状语",
+                "content": "where they can be productive for a while without committing themselves to staying forever",
+                "explanation": "关系副词 where 引导定语从句修饰 a place；从句中介词短语 without committing themselves to staying forever 作伴随/排除状语，commit oneself to doing 为固定搭配（承诺长期居留）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "be productive for a while without committing themselves to staying forever",
+                "explanation": "国家制度引智新哲学（Q28 题眼对应）。倡导美国应成为吸引全球智力短期创造财富的开放平台，允许人才短期高效贡献（productive for a while），不强求终身效忠锁定。"
               }
             ]
           }
@@ -2604,9 +2884,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that home can be both here and there and that...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "We need them to feel that home can be both here and there and that they can belong to two nations honorably.",
+                "explanation": "主干为主谓宾补结构。主语 We；谓语 need；宾语 them；不定式短语 to feel... 作宾补；feel 后面连接由 and 并列的两个 that 引导的宾语从句。"
+              },
+              {
+                "type": "双重并列宾语从句",
+                "content": "that home can be both here and there and that they can belong to two nations honorably",
+                "explanation": "从句一 that home can be both here and there 倡导双栖家园观；从句二 that they can belong to two nations honorably 赋予跨国归属以正当与崇高感。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "belong to two nations honorably",
+                "explanation": "跨国公民伦理升华。打破“非此即彼”的零和忠诚观，强调人完全可以堂堂正正、光荣体面地拥有双重国家认同与社会贡献。"
               }
             ]
           }
@@ -2623,8 +2913,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Accommodating this new world of people in motion will requir...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Accommodating this new world of people in motion will require new attitudes on both sides of the immigration battle.",
+                "explanation": "动名词短语 Accommodating this new world of people in motion 作主语；谓语 will require；宾语 new attitudes；介词短语 on both sides of the immigration battle 作后置定语修饰 attitudes。"
+              },
+              {
+                "type": "修饰成分与动名词",
+                "content": "this new world of people in motion",
+                "explanation": "people in motion（流动中的人口群）精准勾勒当代全球流动的生态特征；动名词短语作主语概括了包容该生态所面临的体制考验。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "require new attitudes on both sides of the immigration battle",
+                "explanation": "政治和解呼吁（Q27 论点升华）。指出适应人口大流动的新世界，不能仅靠单向施舍，而必须要求移民战役的对立双方（保守与自由、资本与工会）摒弃意识形态成见。"
               }
             ]
           }
@@ -2640,9 +2940,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that managing immigration today requires mult...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Looking beyond the culture war logic of right or wrong means opening up the middle ground and understanding that managing immigration today requires multiple paths and multiple outcomes, including some that are not easy to accomplish legally in the existing system.",
+                "explanation": "动名词短语 Looking beyond... 作句式主语；谓语动词 means（意味着）；并列动名词短语 opening up the middle ground 与 understanding that... 作 means 的并列宾语。"
+              },
+              {
+                "type": "宾语从句与后置定语从句",
+                "content": "that managing immigration today requires multiple paths and multiple outcomes, including some that are not easy to accomplish legally in the existing system",
+                "explanation": "that 引导 understanding 的宾语从句；从句中动名词 managing immigration today 作主语，requires 作谓语，multiple paths and multiple outcomes 作宾语；介词短语 including some 作补充修饰，some 后接 that 引导的定语从句。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "opening up the middle ground ... requires multiple paths and multiple outcomes ... not easy to accomplish legally",
+                "explanation": "全文终局结论与考点大一统（Q27, Q29 & Q30 压轴题眼）。作者给出终极改革纲领：开辟务实的“中间地带（middle ground）”，以制度弹性与法律包容（legal tolerance）包容灰色地带，彻底打破非黑即白的立法死结（Legal or Illegal: Big Mistake）。"
               }
             ]
           }
@@ -4085,14 +4395,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "although we are prone to snap overreactions...",
-                "explanation": "从属连词 <code>although</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Scientists have found that ... we can reduce or even eliminate the negative effects of our quick, hard-wired responses",
+                "explanation": "主干为主谓宾结构。主语 Scientists；谓语 have found（现在完成时，引出科学实证发现）；that 引导庞大的宾语从句，从句主干为主谓宾结构 we can reduce or even eliminate the negative effects of our quick, hard-wired responses。"
               },
               {
-                "type": "名词性从句",
-                "content": "that although we are prone to snap overreacti...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "状语从句与宾语从句三重嵌套",
+                "content": "although we are prone to snap overreactions, if we take a moment and think about how we are likely to react",
+                "explanation": "that 宾语从句内嵌两层状语：① although 引导让步状语从句 although we are prone to...；② if 引导条件状语从句 if we take a moment and think about...；think about 后面又嵌套了 how 引导的宾语从句 how we are likely to react（我们将如何做出反应）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "if we take a moment and think ... we can reduce or even eliminate the negative effects",
+                "explanation": "全篇宏观主旨基石句（Topic Sentence / Q33 & Q35 逻辑之源）。科学家权威实证直接奠定核心论点：人类虽具有本能过激反应的生理倾向，但只要稍作停顿与理性深思（take a moment and think -> think before we act），便能有效克制下意识冲动。"
               }
             ]
           }
@@ -4108,14 +4423,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "if we are judging whether someone is danger...",
-                "explanation": "从属连词 <code>if</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Snap decisions can be important defense mechanisms; if we are judging whether someone is dangerous, our brains and bodies are hard-wired to react very quickly, within milliseconds.",
+                "explanation": "分号连接两个并列逻辑分句。分句一为主系表结构 Snap decisions（主） can be（系） important defense mechanisms（表）；分句二主干为主系表结构 our brains and bodies are hard-wired to react...。"
               },
               {
-                "type": "名词性从句",
-                "content": "whether someone is dangerous...",
-                "explanation": "连接词 <code>whether</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "条件状语从句与宾语从句",
+                "content": "if we are judging whether someone is dangerous ... within milliseconds",
+                "explanation": "分句二中 if 引导条件状语从句，现在进行时谓语 are judging 后接 whether 引导的宾语从句 whether someone is dangerous；介词短语 within milliseconds（在数毫秒内）作反应速度状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "judging whether someone is dangerous, our brains and bodies are hard-wired to react very quickly",
+                "explanation": "进化生物学生存机制剖析（Q31 题眼起笔）。肯定快决策在生死攸关（判断危险）时的关键防御价值，其毫秒级反应由大脑底层硬件（hard-wired）决定，为下文的时间对比提供起点。"
               }
             ]
           }
@@ -4132,8 +4452,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But we need more time to assess other factors....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But we need more time to assess other factors.",
+                "explanation": "主谓宾结构。转折连词 But；主语 we；谓语 need；宾语 more time；动词不定式短语 to assess other factors 作目的状语或 time 的后置定语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "But we need more time to assess other factors",
+                "explanation": "论证维度急剧转折（Q31 核心枢纽）。以极简的转折句拉开任务类型与所需时间的对比分化：一旦脱离生死危险场景转向日常综合评估，快思考必须让位于慢思考（vary according to the situation）。"
               }
             ]
           }
@@ -4149,9 +4474,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "whether someone is sociable...",
-                "explanation": "连接词 <code>whether</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "To accurately tell whether someone is sociable, studies show, we need at least a minute, preferably five.",
+                "explanation": "主干为主谓宾结构。不定式短语 To accurately tell... 置于句首作目的状语；插入语 studies show（研究表明）；主干主语 we；谓语 need；宾语 at least a minute, preferably five（five 后承前省略 minutes）。"
+              },
+              {
+                "type": "宾语从句与插入语",
+                "content": "tell whether someone is sociable, studies show",
+                "explanation": "tell 后面接 whether 引导的宾语从句 whether someone is sociable；插入语 studies show 增强客观科研论据的权威可信度。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "To accurately tell whether someone is sociable ... we need at least a minute, preferably five",
+                "explanation": "具体时延量化对比（Q31 核心论据）。评估他人社交性格至少需要 1 到 5 分钟，与判断危险的“数毫秒”构成鲜明对比，直接印证决策耗时因情况紧迫度而异（vary according to urgency）。"
               }
             ]
           }
@@ -4167,9 +4502,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "while to judge complex aspects of personality...",
-                "explanation": "从属连词 <code>while</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "It takes a while to judge complex aspects of personality, like neuroticism or open-mindedness.",
+                "explanation": "It takes time to do sth. 经典句型。形式主语 It；谓语 takes；宾语 a while（相当长的一段时间）；动词不定式短语 to judge complex aspects of personality 作真正的主语。"
+              },
+              {
+                "type": "介词举例修饰",
+                "content": "like neuroticism or open-mindedness",
+                "explanation": "介词短语 like... 作后置举例定语，列举“神经质”与“开放性”两项复杂高阶心理特质，具体阐明复杂人格维度的评估难度。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "takes a while to judge complex aspects of personality",
+                "explanation": "认知层级递进与结论收拢（Q31 题眼闭环）。人格评估越繁复，越需要耗费充裕心智时间，进一步排除了直觉武断决策的适用空间。"
               }
             ]
           }
@@ -4186,8 +4531,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But snap decisions in reaction to rapid stimuli aren’t exclu...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But snap decisions in reaction to rapid stimuli aren’t exclusive to the interpersonal realm.",
+                "explanation": "主系表否定结构。转折连词 But；主语 snap decisions；后置介词短语 in reaction to rapid stimuli 作定语修饰 decisions；系表否定结构 aren't exclusive to...（不仅限于……）；介词宾语 the interpersonal realm（人际交往领域）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "aren’t exclusive to the interpersonal realm",
+                "explanation": "研究场景承上启下跃迁。转折词 But 标志着讨论范围由人际判断（interpersonal realm）正式扩展至消费习惯与现代商业刺激，引出下文关于快餐 Logo 操纵心智的经典实验。"
               }
             ]
           }
@@ -4203,14 +4553,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "even though reading has little to do with eating....",
-                "explanation": "从属连词 <code>even though</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Psychologists at the University of Toronto found that viewing a fast-food logo for just a few milliseconds primes us to read 20 percent faster, even though reading has little to do with eating.",
+                "explanation": "主干为主谓宾结构。主语 Psychologists at the University of Toronto；谓语 found；that 引导宾语从句。"
               },
               {
-                "type": "名词性从句",
-                "content": "that viewing a fast-food logo for just a few ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "动名词主语与让步状语从句",
+                "content": "viewing a fast-food logo for just a few milliseconds primes us to read 20 percent faster, even though reading has little to do with eating",
+                "explanation": "that 从句中，动名词短语 viewing a fast-food logo... 作从句主语；谓语动词 primes（预先准备/促使）；宾语 us；不定式短语 to read 20 percent faster 作宾补；even though 引导让步状语从句，动词短语 have little to do with 意为“与……几乎毫无关系”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "viewing a fast-food logo ... primes us to read 20 percent faster, even though reading has little to do with eating",
+                "explanation": "心理学启动效应实验（Q32 核心题眼）。实验证实毫秒级的快餐标志闪现能诱发阅读提速 20%，揭示快速冲动跨越无关领域的强大“无意识联想性（can be associative）”，构成 Q32 题眼。"
               }
             ]
           }
@@ -4227,8 +4582,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "We unconsciously associate fast food with speed and impatien...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "We unconsciously associate fast food with speed and impatience and carry those impulses into whatever else we’re doing.",
+                "explanation": "and 连接两个并列谓语结构。主语 We；副词 unconsciously 作状语；谓语一 associate fast food with speed and impatience（将快餐与速度和急躁联系在一起）；并列谓语二 carry those impulses into...（将这些冲动带入……）。"
+              },
+              {
+                "type": "名词性从句作介词宾语",
+                "content": "into whatever else we’re doing",
+                "explanation": "连接代词 whatever 引导名词性从句作介词 into 的宾语，并在从句中作 doing 的宾语，意为“我们正在从事的任何其他事情”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "associate fast food with speed and impatience and carry those impulses into whatever else we’re doing",
+                "explanation": "认知泛化与联想机制解剖（Q32 深度支撑）。清晰阐明快餐品牌对潜意识的“联想绑定（associate... with...）”，进而将急躁冲动无差别迁移到其他行为，坐实其 associative 特征。"
               }
             ]
           }
@@ -4245,8 +4610,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Subjects exposed to fast-food flashes also tend to think a m...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Subjects exposed to fast-food flashes also tend to think a musical piece lasts too long.",
+                "explanation": "主干为主谓宾结构。主语 Subjects（实验受试者）；过去分词短语 exposed to fast-food flashes 作后置定语；谓语 tend to think；其后接省略 that 的宾语从句 a musical piece lasts too long。"
+              },
+              {
+                "type": "非谓语修饰",
+                "content": "exposed to fast-food flashes",
+                "explanation": "过去分词短语 exposed to... 修饰 Subjects，交代受试者受到快餐闪视刺激的实验处理条件。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "exposed to fast-food flashes also tend to think a musical piece lasts too long",
+                "explanation": "连带心理学证据链闭环。受试者在听音乐时同样表现出耐性丧失与主观时间扭曲，全方位印证外部潜意识提示对人类心智节奏的隐性操纵。"
               }
             ]
           }
@@ -4263,8 +4638,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Yet we can reverse such influences....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Yet we can reverse such influences.",
+                "explanation": "主谓宾结构。转折副词 Yet 起头；主语 we；情态动词复合谓语 can reverse（能够扭转、反转）；宾语 such influences（此类不良影响）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Yet we can reverse such influences",
+                "explanation": "论证逻辑高潮与态度转折点（Q33 题眼引申）。以极为刚劲有力的极短单句实现惊天转折：人类不是被环境刺激摆布的木偶，我们完全拥有自主逆转与抵御冲动的大脑机制。"
               }
             ]
           }
@@ -4280,14 +4660,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when we see a happy face (one reason good sal...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "If we know we will overreact to consumer products or housing options when we see a happy face ..., we can take a moment before buying.",
+                "explanation": "If 引导复合条件状语从句；主句为主谓宾结构 we can take a moment；介词短语 before buying 作时间状语。"
               },
               {
-                "type": "状语从句",
-                "content": "If we know we will overreact to consumer pr...",
-                "explanation": "从属连词 <code>If</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "多重从句嵌套与同位语说明",
+                "content": "If we know we will overreact ... when we see a happy face (one reason good sales representatives and real estate agents are always smiling)",
+                "explanation": "If 从句中 know 后接省略 that 的宾语从句；从句中嵌套 when 引导的时间状语从句；括号内名词短语 one reason (why...) 作 happy face 效应的同位补充解释。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "we can take a moment before buying",
+                "explanation": "逆转冲动的行为策略（Q33 核心题眼）。直截了当地指出打破微笑营销操控的灵药就是在购买前停顿沉淀（take a moment before buying），与选项“行动前三思（think before we act）”实现完美对标。"
               }
             ]
           }
@@ -4303,9 +4688,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "If we know female job screeners are more li...",
-                "explanation": "从属连词 <code>If</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "If we know female job screeners are more likely to reject attractive female applicants, we can help screeners understand their biases—or hire outside screeners.",
+                "explanation": "If 引导条件状语从句；主句由 or 连接两个并列动宾复合结构：we can help screeners (to) understand their biases，或 hire outside screeners。"
+              },
+              {
+                "type": "条件从句与非谓语宾补",
+                "content": "If we know female job screeners are more likely to reject ... help screeners understand",
+                "explanation": "If 条件句中 know 后接省略 that 的宾语从句；主句 help 后接省略 to 的不定式 understand their biases 作宾语补足语；破折号引出备选替代措施。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "help screeners understand their biases—or hire outside screeners",
+                "explanation": "偏见干预由个体延伸至制度设计。以职场招聘筛选中的同性相斥偏见为例，证明只要对无意识本能保持警觉，就能通过制度程序化暂停与纠偏来规避系统性偏差。"
               }
             ]
           }
@@ -4321,9 +4716,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that we quickly “thin slice” information reli...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "John Gottman, the marriage expert, explains that we quickly “thin slice” information reliably only after we ground such snap reactions in “thick sliced” long-term study.",
+                "explanation": "主干为主谓宾结构。主语 John Gottman；同位语 the marriage expert；谓语 explains；that 引导宾语从句。"
+              },
+              {
+                "type": "宾语从句与限制性时间状语从句",
+                "content": "that we quickly “thin slice” information reliably only after we ground such snap reactions in “thick sliced” long-term study",
+                "explanation": "that 宾语从句中，主干为主谓宾 we quickly \"thin slice\" information reliably；only after 引导限定性时间状语从句，从句主干为 we ground such snap reactions in \"thick sliced\" long-term study（把这种快速反应牢固建立在厚切片的长期研究之上）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "reliably only after we ground such snap reactions in “thick sliced” long-term study",
+                "explanation": "直觉决策的底层科学归因（Q34 核心题眼）。借婚姻专家戈特曼之口，彻底厘清薄切片（瞬时直觉）与厚切片（长期深入研究）的因果依存关系：唯有以充裕全面的信息积淀为基础（adequate information），瞬时直觉才可靠。"
               }
             ]
           }
@@ -4339,9 +4744,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "When Dr....",
-                "explanation": "关系词 <code>When</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "状语从句片段/句首引导",
+                "content": "When Dr.",
+                "explanation": "从属连词 When 引导时间状语从句的句首引导片段，紧接专有名词称谓 Dr.（Doctor的缩写）。该句因文本标点缩写切分而形成从句先行结构。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "When Dr.",
+                "explanation": "案例导入与语篇衔接。承接上文关于戈特曼研究结论的引述，引出其在实际婚姻咨询与关系评估中的实操观察范例，在句法与逻辑上紧密依附于第14句。"
               }
             ]
           }
@@ -4357,9 +4767,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "whether a couple will stay together...",
-                "explanation": "连接词 <code>whether</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Gottman really wants to assess whether a couple will stay together, he invites them to his island retreat for a much longer evaluation: two days, not two seconds.",
+                "explanation": "主干为主谓宾复合句。前半部承接 S13 为 When 从句未完成部分：主语 Gottman，谓语 wants to assess，whether 引导宾语从句；主句主语 he，谓语 invites，宾语 them，地点状语 to his island retreat，目的状语 for a much longer evaluation；冒号后为对比评注。"
+              },
+              {
+                "type": "宾语从句与对仗评注",
+                "content": "assess whether a couple will stay together ... two days, not two seconds",
+                "explanation": "whether 引导宾语从句作 assess 的宾语；句末冒号引出极富张力的量化对仗：two days, not two seconds（两天，而非两秒），以极度戏剧化的数字反差击碎轻浮的秒断神话。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "a much longer evaluation: two days, not two seconds",
+                "explanation": "极度对立案例论证（Q34 细节支撑）。用两天闭门深度评估与两秒草率过目的残酷对比，生动论证精准评估夫妻关系绝非靠吉光片羽的直觉，而是必须依赖详实海量的数据沉淀（adequate information）。"
               }
             ]
           }
@@ -4375,9 +4795,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "what differentiates us from animals: dogs can...",
-                "explanation": "连接词 <code>what</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Our ability to mute our hard-wired reactions by pausing is what differentiates us from animals: dogs can think about the future only intermittently or for a few minutes.",
+                "explanation": "冒号前半句为主系表结构。主语 Our ability；不定式短语 to mute our hard-wired reactions 作定语；方式状语 by pausing；系动词 is；表语从句 what differentiates us from animals。冒号后为对比解释分句。"
+              },
+              {
+                "type": "表语从句与对比阐释",
+                "content": "what differentiates us from animals: dogs can think about the future only intermittently or for a few minutes",
+                "explanation": "what 引导表语从句并在从句中作主语，differentiate A from B 表达区分性定义；冒号后分句以狗思考未来的极度短暂为例，反衬人类长远规划特质。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Our ability to mute our hard-wired reactions by pausing is what differentiates us from animals",
+                "explanation": "生物进化与人类特质升华。将“通过暂停来抑制本能反应的能力（pause）”界定为人之所以超越动物的本质分水岭，从神经生物学上升到哲学反思高度。"
               }
             ]
           }
@@ -4394,8 +4824,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But historically we have spent about 12 percent of our days ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But historically we have spent about 12 percent of our days contemplating the longer term.",
+                "explanation": "主谓宾与伴随分词结构。转折连词 But；时间状语 historically；主语 we；谓语 have spent；宾语 about 12 percent of our days；现在分词短语 contemplating the longer term 作方式/伴随补足语（spend time doing sth.）。"
+              },
+              {
+                "type": "非谓语与修辞",
+                "content": "contemplating the longer term",
+                "explanation": "现在分词短语作补足语，表明思考长远未来是人类日常生活长期稳定占据的认知活动份额。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "historically we have spent about 12 percent of our days contemplating the longer term",
+                "explanation": "历史演化基准数据佐证。证明人类进化并非注定要臣服于即刻冲动，漫长历史长河中 12% 的沉思时间表明深谋远虑早已刻入人类文明基因。"
               }
             ]
           }
@@ -4411,9 +4851,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "Although technology might change the way we react...",
-                "explanation": "从属连词 <code>Although</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Although technology might change the way we react, it hasn’t changed our nature.",
+                "explanation": "Although 引导让步状语从句；主句为主谓宾结构 it（主语，指代 technology） hasn't changed（现在完成时否定谓语） our nature（宾语，我们的人性本质）。"
+              },
+              {
+                "type": "定语从句与让步结构",
+                "content": "the way we react",
+                "explanation": "the way 后面接省略关系代词 that/in which 的定语从句 we react，修饰被改变的外在反应模式。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Although technology might change the way we react, it hasn’t changed our nature",
+                "explanation": "全篇终章升华与作者态度立言（Q35 题眼起笔）。辩证指出技术纵能改变反应节奏，却无法颠覆理性沉思的人性本质，开启对人类主动权的终极定性。"
               }
             ]
           }
@@ -4430,8 +4880,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "We still have the imaginative capacity to rise above temptat...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "We still have the imaginative capacity to rise above temptation and reverse the high-speed trend.",
+                "explanation": "主干为主谓宾结构。主语 We；状语 still；谓语 have；宾语 the imaginative capacity（富于想象力与超越性的心智潜能）。"
+              },
+              {
+                "type": "非谓语定语并列",
+                "content": "to rise above temptation and reverse the high-speed trend",
+                "explanation": "动词不定式并列短语 to rise above... and reverse... 作 capacity 的后置定语，具体界定人类能力的内涵：抵御即时诱惑并扭转盲目求快的高速潮流。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "imaginative capacity to rise above temptation and reverse the high-speed trend",
+                "explanation": "作者坚定乐观态度宣誓（Q35 核心题眼）。全篇压轴句以昂扬笔触号召人类重拾理性、战胜速度诱惑，字里行间洋溢着对人类理性觉醒的“坚定乐观态度（optimistic）”，精准锁定 Q35 答案。"
               }
             ]
           }
@@ -5816,8 +6276,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Europe is not a gender-equality heaven....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Europe is not a gender-equality heaven.",
+                "explanation": "主系表否定陈述句。主语 Europe（欧洲）；系动词 is not（否定）；表语 a gender-equality heaven（性别平等的天堂）。"
+              },
+              {
+                "type": "修辞色彩与概念解构",
+                "content": "a gender-equality heaven",
+                "explanation": "gender-equality heaven（性别平等的伊甸园）作为理想化概念，在句首被直接果断否定，形成鲜明的认知颠覆效应。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Europe is not a gender-equality heaven",
+                "explanation": "开篇破题与去浪漫化定调。以一句极其直截了当的论断撕开欧洲职场的神话面纱，击碎外界对欧洲性别平等状况的盲目崇拜，直接切入高层职场性别失衡的残酷现实。"
               }
             ]
           }
@@ -5834,8 +6304,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In particular, the corporate workplace will never be complet...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "the corporate workplace will never be completely family-friendly until women are part of senior management decisions, and Europe’s top corporate-governance positions remain overwhelmingly male",
+                "explanation": "and 连接两个并列主干分句。分句一为主系表结构 the corporate workplace（主） will never be（系） completely family-friendly（表），后接 until 引导的状语从句；分句二主干为主系表结构 Europe's top corporate-governance positions（主） remain（系） overwhelmingly male（表）。"
+              },
+              {
+                "type": "时间/条件状语从句与程度修饰",
+                "content": "until women are part of senior management decisions ... overwhelmingly male",
+                "explanation": "until 引导时间/条件状语从句，表达“直到女性参与高级管理决策”这一前提条件；副词 overwhelmingly（压倒性地、绝大多数地）作状语极力修饰表语 male，凸显男权垄断程度之深。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "top corporate-governance positions remain overwhelmingly male",
+                "explanation": "权力结构解剖与考点题眼（Q36 核心题眼）。深刻指出企业能否真正实现“家庭友好”取决于权力中枢的构成；顶层治理岗位“压倒性被男性占据（remain overwhelmingly male）”直接对应正确选项“男性享有最终决策话语权（men have the final say）”。"
               }
             ]
           }
@@ -5852,8 +6332,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Indeed, women hold only 14 per cent of positions on European...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Indeed, women hold only 14 per cent of positions on European corporate boards.",
+                "explanation": "主干为主谓宾结构。副词 Indeed 作评注状语表确认强调；主语 women；谓语动词 hold（占据、担任）；宾语 only 14 per cent of positions；介词短语 on European corporate boards 作后置定语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "women hold only 14 per cent of positions on European corporate boards",
+                "explanation": "权威实证数据佐证（Q36 深度支撑）。用仅仅“14%”的董事会女性代表率，无可辩驳地印证前一句的 overwhelmingly male，将玻璃天花板的冰冷厚度以量化指标呈现在读者面前。"
               }
             ]
           }
@@ -5870,8 +6355,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The European Union is now considering legislation to compel ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The European Union is now considering legislation to compel corporate boards to maintain a certain proportion of women—up to 60 per cent.",
+                "explanation": "主干为主谓宾结构。主语 The European Union（欧盟）；时间状语 now；谓语 is considering（正在考虑，现在进行时）；宾语 legislation（立法措施）。"
+              },
+              {
+                "type": "非谓语复合结构与破折号同位补充",
+                "content": "to compel corporate boards to maintain a certain proportion of women—up to 60 per cent",
+                "explanation": "动词不定式短语 to compel... 作 legislation 的目的定语，内含 compel sb. to do 复合宾语结构；破折号后介词短语 up to 60 per cent 作同位补充，界定配额比例上限。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "considering legislation to compel corporate boards to maintain a certain proportion of women",
+                "explanation": "核心政策议题抛出（Q37 题眼起笔）。正式引出欧洲政坛掀起轩然大波的“强制性董事会性别配额法案”，由现象诊断进入到实质性政治与制度博弈阶段。"
               }
             ]
           }
@@ -5888,8 +6383,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "This proposed mandate was born of frustration....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "This proposed mandate was born of frustration.",
+                "explanation": "主系表/被动短语结构。主语 This proposed mandate（这项拟议中的强制指令）；谓语动词短语 was born of（源自、诞生于）；介词宾语 frustration（挫败感、失落感）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "This proposed mandate was born of frustration",
+                "explanation": "政策出台的根本动机定性（Q37 核心题眼）。精悍有力的单句，将强制立法的动因一针见血地定性为“深层挫败感（born of frustration）”，暗示该法案绝非政府热衷集权干预，而是怀柔倡议碰壁后万般无奈下的被迫选择（a reluctant choice）。"
               }
             ]
           }
@@ -5906,8 +6406,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Last year, European Commission Vice President Viviane Reding...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Last year, European Commission Vice President Viviane Reding issued a call to voluntary action.",
+                "explanation": "主干为主谓宾结构。时间状语 Last year；主语 European Commission Vice President Viviane Reding；谓语动词 issued（发出）；宾语 a call to voluntary action（自愿行动号召）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "issued a call to voluntary action",
+                "explanation": "历史进程倒叙回溯（Q37 论证链条）。通过交代欧盟副主席雷丁此前积极推行的“企业自律与自愿行动路线”，为后文论证该温和路径的彻底夭折做足铺垫。"
               }
             ]
           }
@@ -5924,8 +6429,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Reding invited corporations to sign up for gender balance go...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Reding invited corporations to sign up for gender balance goals of 40 percent female board membership.",
+                "explanation": "主干为主谓宾补结构。主语 Reding；谓语 invited；宾语 corporations；不定式短语 to sign up for... 作宾语补足语；介词短语 of 40 percent female board membership 作 goals 的同位说明。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "invited corporations to sign up for gender balance goals",
+                "explanation": "自律倡议的具体指标与善意姿态。官方原本期望通过道德感召促使企业主动达标 40% 的女性席位，展现对自由市场自治的充分尊重。"
               }
             ]
           }
@@ -5942,8 +6452,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But her appeal was considered a failure: only 24 companies t...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But her appeal was considered a failure: only 24 companies took it up.",
+                "explanation": "but 连接转折分句。前半句主语 her appeal（她的呼吁）；被动式谓语 was considered a failure（被视作一场惨败）；冒号后为独立事实阐释分句 only 24 companies（主） took it up（动宾短语谓语，响应采纳）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "her appeal was considered a failure: only 24 companies took it up",
+                "explanation": "自律破产与立法必然性锁定（Q37 终局闭环）。仅有区区 24 家企业响应的惨淡现实宣告自由呼吁化为泡影，水到渠成地论证了欧盟从自愿转向强制立法完全是别无退路的“无奈之举（reluctant choice）”。"
               }
             ]
           }
@@ -5959,9 +6474,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that women can continue to climb the corporat...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Do we need quotas to ensure that women can continue to climb the corporate ladder fairly as they balance work and family?",
+                "explanation": "一般疑问句。助动词 Do；主语 we；谓语动词 need；宾语 quotas（配额）；动词不定式短语 to ensure... 作目的状语。"
+              },
+              {
+                "type": "宾语从句与时间状语从句",
+                "content": "to ensure that women can continue to climb the corporate ladder fairly as they balance work and family",
+                "explanation": "ensure 后面接 that 引导的宾语从句；that 从句中含有 as 引导的时间/伴随状语从句 as they balance work and family（在她们平衡工作与家庭的同时）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Do we need quotas to ensure that women can continue to climb the corporate ladder fairly",
+                "explanation": "设问修辞与议题哲理深化。从立法政策叙述升华至全社会层面的价值反思：强制配额到底是不是保障职业女性公平打通晋升通道的必要之恶？"
               }
             ]
           }
@@ -5978,8 +6503,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "“Personally, I don’t like quotas,” Reding said recently....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "“Personally, I don’t like quotas,” Reding said recently.",
+                "explanation": "主干为主谓宾引述结构。引语为主谓宾结构：副词 Personally 作评注状语，主语 I，否定谓语 don't like，宾语 quotas；引述主谓为 Reding said recently。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "“Personally, I don’t like quotas,” Reding said recently",
+                "explanation": "决策核心人物内心矛盾剖析（Q39 呼应）。即使是力主立法的雷丁本人，在个人情感层面同样反感机械的行政配额干预，展现出理智与现实的激烈交锋。"
               }
             ]
           }
@@ -5995,9 +6525,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "what the quotas do.” Quotas get action: they ...",
-                "explanation": "连接词 <code>what</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "“But I like what the quotas do.” Quotas get action: they “open the way to equality and they break through the glass ceiling,” according to Reding, a result seen in France and other countries with legally binding provisions on placing women in top business positions.",
+                "explanation": "由直接引述句与同位语修饰构成的复杂体系。分句一：I like what the quotas do（what 引导宾语从句）；分句二：Quotas get action；分句三：they open the way... and they break through the glass ceiling；介词短语 according to Reding 作来源状语。"
+              },
+              {
+                "type": "名词性从句与多重后置定语",
+                "content": "a result seen in France and other countries with legally binding provisions on placing women in top business positions",
+                "explanation": "名词短语 a result 作前面整个配额成效事件的同位语；过去分词短语 seen in France... 作 result 的后置定语；介词短语 with legally binding provisions... 修饰 countries；动名词短语 on placing women in top business positions 修饰 provisions。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "open the way to equality and they break through the glass ceiling ... placing women in top business positions",
+                "explanation": "配额政策的现实功用定性（Q38 核心题眼）。雷丁盛赞配额带来了行动——为女性平等扫清障碍、击穿玻璃天花板，在法国等国的法定义务推行下直接帮助女性问鼎顶级商界职位（get top business positions）。"
               }
             ]
           }
@@ -6014,8 +6554,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "I understand Reding’s reluctance—and her frustration....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "I understand Reding’s reluctance—and her frustration.",
+                "explanation": "主谓宾结构。主语 I（作者本人）；谓语 understand（深表理解）；宾语 Reding's reluctance（雷丁的不情愿）；破折号引出强调并列宾语 and her frustration（以及她的挫败感）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "I understand Reding’s reluctance—and her frustration",
+                "explanation": "作者主观视角介入与情感共鸣（Q39 题眼切入）。作者由客观叙述者转向第一人称现身说法，表达对雷丁内心的纠结与挫败感同身受，为亮明自身立场开启序曲。"
               }
             ]
           }
@@ -6032,8 +6577,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "I don’t like quotas either; they run counter to my belief in...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "I don’t like quotas either; they run counter to my belief in meritocracy, governance by the capable.",
+                "explanation": "分号连接两个并列分句。分句一：I don't like quotas either（主谓宾结构）；分句二：they run counter to my belief in meritocracy（主谓介宾结构，run counter to 意为与……背道而驰）。"
+              },
+              {
+                "type": "同位语修饰",
+                "content": "governance by the capable",
+                "explanation": "名词短语 governance by the capable（由有才能者进行治理）作 meritocracy（唯才是举、精英治理）的同位语，准确定义作者所信奉的政治与商业伦理。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "they run counter to my belief in meritocracy, governance by the capable",
+                "explanation": "作者理性立场的诚恳坦白（Q39 论证反差）。作者直言作为自由主义精英体制信徒，本能上同样抗拒配额，从而为下一句力排众议的转折支持赋予千钧之力。"
               }
             ]
           }
@@ -6049,14 +6604,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when one considers the obstacles to achieving...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "But, when one considers the obstacles to achieving the meritocratic ideal, it does look as if a fairer world must be temporarily ordered.",
+                "explanation": "转折连词 But 起头；主句为主系表结构 it does look as if...，助动词 does 强烈强调谓语动词 look；as if 引导表语从句。"
               },
               {
-                "type": "状语从句",
-                "content": "if a fairer world must be temporarily order...",
-                "explanation": "从属连词 <code>if</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "状语从句与强调谓语",
+                "content": "when one considers the obstacles to achieving the meritocratic ideal ... does look as if a fairer world must be temporarily ordered",
+                "explanation": "when 引导时间/条件状语从句，从句主干 one considers the obstacles to doing sth.；as if 引导从句，被动谓语 must be temporarily ordered 阐明一个更公平的世界必须被暂时以行政强制手段来规范确立。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "it does look as if a fairer world must be temporarily ordered",
+                "explanation": "作者终极立场拍板与考点题眼（Q39 压轴核心）。理想必须向严酷现实妥协：面对阻碍唯才是举的系统性坚冰，作者旗帜鲜明地转折支持雷丁的配额立法（approval），认定强制秩序化是通往实质平等的不可或缺的阶段性阵痛。"
               }
             ]
           }
@@ -6072,9 +6632,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that corporations in Europe as well as the US...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "After all, four decades of evidence has now shown that corporations in Europe as well as the US are evading the meritocratic hiring and promotion of women to top positions— no matter how much “soft pressure” is put upon them.",
+                "explanation": "主干为主谓宾结构。评注状语 After all；主语 four decades of evidence；时间状语 now；谓语 has shown；that 引导宾语从句。"
+              },
+              {
+                "type": "宾语从句与让步状语从句",
+                "content": "that corporations in Europe as well as the US are evading the meritocratic hiring and promotion of women to top positions— no matter how much “soft pressure” is put upon them",
+                "explanation": "that 从句中主语 corporations...，谓语 are evading（正在逃避躲避），宾语 the meritocratic hiring and promotion of women...；破折号后连接 no matter how much 引导的让步状语从句，从句主语 soft pressure，被动谓语 is put upon them。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "corporations ... are evading the meritocratic hiring ... no matter how much “soft pressure” is put upon them",
+                "explanation": "四十年历史证据大起底（Q40 呼应）。用跨越欧美四十年的冰冷铁证揭露大企业的虚伪本质：无论外部施加多大的温和呼吁与“软压力（soft pressure）”，企业都会想方设法绕开唯才是举，彻底击碎自律幻想。"
               }
             ]
           }
@@ -6090,14 +6660,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "When women do break through to the summit of ...",
-                "explanation": "关系词 <code>When</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "When women do break through to the summit of corporate power ..., they attract massive attention precisely because they remain the exception to the rule.",
+                "explanation": "主句为主谓宾因果复合结构 they attract massive attention（主谓宾）；precisely because 引导原因状语从句；句首为 When 引导的时间状语从句。"
               },
               {
-                "type": "状语从句",
-                "content": "because they remain the exception to the rule....",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "时间状语从句与插入语",
+                "content": "When women do break through to the summit of corporate power—as, for example, Sheryl Sandberg recently did at Facebook",
+                "explanation": "When 从句中助动词 do 强调谓语动词 break through；破折号间 as... did at Facebook 作插入语说明，以脸书首席运营官桑德伯格作为现实破局范例。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "attract massive attention precisely because they remain the exception to the rule",
+                "explanation": "名流光环下的悲剧本质解构（Q40 核心题眼引子）。犀利揭示桑德伯格等极少数女性登顶受到全球狂热聚焦的真相：轰动性报道并非证明平等已经实现，恰恰证明她们依然是常规之外的绝无仅有的“罕见例外（exception to the rule）”。"
               }
             ]
           }
@@ -6113,14 +6688,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "If appropriate public policies were in plac...",
-                "explanation": "从属连词 <code>If</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "虚拟语气主从复合句",
+                "content": "If appropriate public policies were in place to help all women—whether CEOs or their children’s caregivers—and all families, Sandberg would be no more newsworthy than any other highly capable person living in a more just society.",
+                "explanation": "经典与现在事实相反的虚拟语气。If 条件句谓语动词采用 were in place（倒装/虚拟时态）；主句谓语动词采用 would be no more... than...。"
               },
               {
-                "type": "名词性从句",
-                "content": "whether CEOs or their children’s caregivers—and ...",
-                "explanation": "连接词 <code>whether</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "插入让步同位语与比较结构",
+                "content": "whether CEOs or their children’s caregivers ... would be no more newsworthy than any other highly capable person living in a more just society",
+                "explanation": "双破折号间 whether A or B 作让步同位修饰，覆盖从企业CEO到育儿保姆的所有阶层女性；no more... than... 构成否定性比较，现在分词短语 living in a more just society 作 person 的后置定语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "If appropriate public policies were in place ... Sandberg would be no more newsworthy than any other highly capable person",
+                "explanation": "全文主旨终局审判与考点收官（Q40 核心题眼）。作者通过宏大虚拟语气给出全篇终极结论：女性高管被过度聚焦的根本症结在于全社会严重缺乏适宜有效的制度与公共政策支撑（lack of suitable public policies）；若制度到位，任何能者皆可自然居之。"
               }
             ]
           }

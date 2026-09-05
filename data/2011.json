@@ -797,8 +797,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Ruth Simmons joined Goldman Sachs’s board as an outside dire...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Ruth Simmons joined Goldman Sachs’s board as an outside director in January 2000; a year later she became president of Brown University.",
+                "explanation": "主干由分号连接的两个并列分句组成。第一分句为主谓宾结构：主语 Ruth Simmons；谓语动词为一般过去时 joined（加入）；宾语 Goldman Sachs’s board（高盛董事会）；介词短语 as an outside director 作身份方式状语，in January 2000 作时间状语。第二分句为主系表结构：时间状语 a year later（一年后）；主语 she；系动词 became（成为）；表语 president of Brown University（布朗大学校长，头衔名词前常省略冠词）。"
+              },
+              {
+                "type": "修饰与时间逻辑",
+                "content": "as an outside director in January 2000; a year later...",
+                "explanation": "介词短语 as an outside director 精确界定了西蒙斯在高盛的“外部独立董事”身份；分号与 a year later 构建了紧凑的时间推进链条（2000年入职董事会 -> 2001年执掌常春藤名校），奠定双重名流身份的叙事背景。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Ruth Simmons joined Goldman Sachs’s board ... became president of Brown University",
+                "explanation": "篇首案例引子（Narrative Hook）。文章没有直接展开枯燥的治理理论，而是以极具声望的常春藤名校校长兼任顶级投行外部董事的典型个案切入，为下文探讨双重身份引发的利益冲突与问责风暴拉开序幕。"
               }
             ]
           }
@@ -815,8 +825,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "For the rest of the decade she apparently managed both roles...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "For the rest of the decade she apparently managed both roles without attracting much criticism.",
+                "explanation": "主干为主谓宾结构。介词短语 For the rest of the decade（在此后的十年里）作全句时间状语；主语代词 she；副词 apparently（显而易见地、表面上）作修饰状语；谓语动词 managed（妥善处理、兼顾）；宾语 both roles（两个角色，指高校校长与外部董事）；介词短语 without attracting much criticism（未招致太多批评）作伴随方式状语。"
+              },
+              {
+                "type": "非谓语介词短语",
+                "content": "without attracting much criticism",
+                "explanation": "介词 without 后接动名词短语 attracting much criticism，动名词 attracting 带宾语 much criticism，表达在此期间西蒙斯的双重履职保持着表面上的风平浪静与舆论平衡。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "managed both roles without attracting much criticism",
+                "explanation": "语篇铺垫与伏笔。副词 apparently 意味深长，暗示这种两全其美的表象暗藏隐患，与下一句 But 引出的危机形成强烈的铺垫与转折对比（蓄势修辞），为金融海啸后的清算埋下伏笔。"
               }
             ]
           }
@@ -833,8 +853,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But by the end of 2009 Ms....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But by the end of 2009 Ms.",
+                "explanation": "本句为断句片段，在句法功能上充当下句主干的前置时间状语与主语尊称前缀。连词 But 表转折；介词短语 by the end of 2009（到2009年底）作时间状语；Ms.（女士）为下句主语 Simmons 的同位尊称修饰语。"
+              },
+              {
+                "type": "修饰与时间转折",
+                "content": "But by the end of 2009",
+                "explanation": "转折连词 But 配合截止时间状语 by the end of 2009，标志着长达十年的安稳期彻底终结，时间节点直指2008年金融危机次年的舆论风暴眼。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "But by the end of 2009",
+                "explanation": "语篇关键转折节点。承前启后，宣告此前 decade-long 的平静被瞬间打破，将叙事视角骤然切换至高盛天价奖金丑闻与对独立董事的清算现场。"
               }
             ]
           }
@@ -850,9 +880,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "how could she have let those enormous bonus ...",
-                "explanation": "连接词 <code>how</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Simmons was under fire for having sat on Goldman’s compensation committee; how could she have let those enormous bonus payouts pass unremarked?",
+                "explanation": "主干由分号连接的陈述句与修辞反问句组成。前一分句为主系表结构：主语 Simmons；系动词 was；表语短语 under fire（遭到炮轰/抨击）；介词短语 for having sat... 作原因状语。后一分句为主谓宾补反问句：情态动词 could + 完成式 have let 构成谓语（怎能容许）；宾语 those enormous bonus payouts（巨额奖金派发）；省略 to 的动词不定式短语 pass unremarked 作宾语补足语。"
+              },
+              {
+                "type": "非谓语与语气剖析",
+                "content": "for having sat on Goldman’s compensation committee ... let ... pass unremarked",
+                "explanation": "① having sat 为动名词完成时，作介词 for 的宾语，表明“在薪酬委员会任职”发生在受指责之前；② could have done 在反问句中表达强烈的责备与质疑语气；③ pass unremarked 中，过去分词 unremarked 作状语修饰 pass，意为“毫无异议、未被质疑地通过”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Simmons was under fire ... how could she have let those enormous bonus payouts pass unremarked",
+                "explanation": "核心事实与命题题眼（Q21定位句）。西蒙斯遭到严厉批评的根本原因正是她在薪酬委员会任职却放任天价奖金轻易过关，直接对应 Q21 答案 failing to fulfill her duty（未能履行其监管职责）。"
               }
             ]
           }
@@ -869,8 +909,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "By February the next year Ms....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "By February the next year Ms.",
+                "explanation": "本句为断句片段，在句法功能上充当下句动作发生的时间状语及主语人称前缀。介词短语 By February the next year（到次年二月）作时间状语；Ms. 为下句主语 Simmons 的前置尊称。"
+              },
+              {
+                "type": "修饰与时间演进",
+                "content": "By February the next year",
+                "explanation": "介词 By（不迟于、到……为止）与 the next year（即2010年2月）形成明确的时间推进，展示丑闻曝光后事件发展的急转直下。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "By February the next year",
+                "explanation": "时间线承接。紧承上文2009年底的舆论抨击，交代西蒙斯在短短两三个月内所做出的危机应对与避险反应。"
               }
             ]
           }
@@ -887,8 +937,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Simmons had left the board....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Simmons had left the board.",
+                "explanation": "主干为主谓宾结构。主语 Simmons；谓语动词为过去完成时 had left（已经离开）；宾语 the board（董事会）。"
+              },
+              {
+                "type": "时态与语义剖析",
+                "content": "had left the board",
+                "explanation": "过去完成时 had left 表明西蒙斯辞任董事会的动作发生在叙事基准过去时间（By February the next year）之前，凸显其离职行动的迅速与决绝。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Simmons had left the board",
+                "explanation": "事件高潮与核心行为。西蒙斯的辞职是首段叙事的核心结果，也是后文俄亥俄大学学者展开大规模实证研究的“意外离职（surprise departure）”现实原型。"
               }
             ]
           }
@@ -905,8 +965,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The position was just taking up too much time, she said....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The position was just taking up too much time, she said.",
+                "explanation": "主干为直接引语/间接引述复合结构。引号省略的宾语从句 The position was just taking up too much time（该职位实在占用了太多时间）置于句首；引述主谓 she said（她说）置于句末。从句内部为主谓宾结构：主语 The position；过去进行时 was taking up（正在占用）；副词 just（仅仅、纯粹）作修饰语；宾语 too much time。"
+              },
+              {
+                "type": "动词短语与情态色彩",
+                "content": "was just taking up too much time",
+                "explanation": "动词短语 take up 意为“占据、消耗（时间/精力）”；副词 just 带有极强的辩解色彩，旨在淡化舆论指责，将离开高盛归因于个人精力分配而非避险逃责。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The position was just taking up too much time, she said",
+                "explanation": "当事人托词与叙事落幕。西蒙斯将辞职粉饰为“时间精力有限”，与后文第4段揭示的真实动机（避免名誉受损、跳下沉船）形成意味深长的反讽与对照。"
               }
             ]
           }
@@ -923,8 +993,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Outside directors are supposed to serve as helpful, yet less...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Outside directors are supposed to serve as helpful, yet less biased, advisers on a firm’s board.",
+                "explanation": "主干为主系表/动词短语被动结构。主语 Outside directors（外部董事）；谓语动词短语 be supposed to（理应、被期望）；不定式后接不及物动词 serve as（充当、担任）；宾语 helpful, yet less biased, advisers（有益且少有偏见的顾问）；介词短语 on a firm’s board（在公司董事会中）作地点状语与后置修饰。"
+              },
+              {
+                "type": "并列修饰与对比",
+                "content": "helpful, yet less biased, advisers",
+                "explanation": "形容词短语 作 advisers 的前置定语，连词 yet（然而、但是）连接 helpful 与 less biased，强调外部董事不仅要提供建设性意见，更关键的是保持不受内部管理层利益裹挟的中立公正性。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Outside directors are supposed to serve as helpful, yet less biased, advisers",
+                "explanation": "第二段主题句（Topic Sentence）与核心考点（Q22、Q25题眼）。从个案升华到制度本质，给出外部董事的法定职能定性：独立的智囊顾问（对应 Q22 independent advisers）；同时体现作者对该制度初衷的肯定态度（对应 Q25 positive）。"
               }
             ]
           }
@@ -941,8 +1021,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Having made their wealth and their reputations elsewhere, th...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Having made their wealth and their reputations elsewhere, they presumably have enough independence to disagree with the chief executive’s proposals.",
+                "explanation": "主干为主谓宾结构。主语代词 they；副词 presumably（据推测、理所当然地）作状语；谓语动词 have（具备）；宾语 enough independence（足够的独立性）；动词不定式短语 to disagree with the chief executive’s proposals 作后置定语修饰 independence。"
+              },
+              {
+                "type": "非谓语与后置定语",
+                "content": "Having made their wealth and their reputations elsewhere ... to disagree with...",
+                "explanation": "① Having made 为现在分词完成时短语作原因/背景状语，逻辑主语是 they，表明外部董事在受聘前早已在其他领域功成名就，因此无求于当前公司；② 不定式短语 to disagree with... 修饰 independence，具体阐述独立性的表现——有底气敢于公开反对首席执行官（CEO）的提案。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "presumably have enough independence to disagree with the chief executive’s proposals",
+                "explanation": "论据展开与独立性机制阐释。解释为什么外部董事能够充当“less biased advisers”：既有财富与声誉的护体赋予了他们不畏惧高管权威的独立风骨（深化 Q22 independent）。"
               }
             ]
           }
@@ -958,9 +1048,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "If the sky...",
-                "explanation": "从属连词 <code>If</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "If the sky, and the share price, is falling, outside directors should be able to give advice based on having weathered their own crises.",
+                "explanation": "主干为主谓宾复合句。If 引导条件状语从句；主句主语 outside directors；情态谓语 should be able to give（理应能够提供）；宾语 advice；过去分词短语 based on... 作后置定语修饰 advice。"
+              },
+              {
+                "type": "条件从句与比喻修辞",
+                "content": "If the sky, and the share price, is falling",
+                "explanation": "条件状语从句主语 the sky, and the share price，单数谓语 is falling（以就近原则或合二为一视角处理）。the sky is falling 为英语典故（天塌下来了、大难临头），与 and the share price 巧妙结合，生动比喻公司遭遇危局与股价暴跌。"
+              },
+              {
+                "type": "非谓语后置修饰",
+                "content": "based on having weathered their own crises",
+                "explanation": "过去分词短语 based on 后接介词宾语 having weathered their own crises（动名词完成时），意为“基于他们自身历经并安度危机的丰富经验”，说明外部董事在危机时的定海神针价值。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "outside directors should be able to give advice based on having weathered their own crises",
+                "explanation": "条件假设与职能升华。进一步强调外部董事在逆境中的核心价值：用自身商海沉浮积累的经验化解危局，为下文实证研究揭示其在危难关头“弃船脱逃”的巨大讽刺埋下坚实对比面。"
               }
             ]
           }
@@ -976,9 +1081,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that covered more than 10...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "The researchers from Ohio University used a database that covered more than 10,000 firms and more than 64,000 different directors between 1989 and 2004.",
+                "explanation": "主干为主谓宾结构。主语 The researchers，介词短语 from Ohio University 作后置定语；谓语动词 used（使用、采集）；宾语 a database（一个数据库）；that 引导限制性定语从句修饰 database。"
+              },
+              {
+                "type": "定语从句剖析",
+                "content": "that covered more than 10,000 firms and more than 64,000 different directors between 1989 and 2004",
+                "explanation": "关系代词 that 在定语从句中作主语，谓语动词 covered（涵盖）；并列宾语 more than 10,000 firms 与 more than 64,000 different directors；时间介词短语 between 1989 and 2004 作定语修饰样本时间跨度。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The researchers from Ohio University used a database...",
+                "explanation": "论据转换与学术实证引入。文章由规范性理论阐释（董事理应如何）转入大规模实证数据检验（学者发现了什么），上万家企业、六万多名董事、长达15年的庞大样本赋予论证极高的权威性和客观说服力。"
               }
             ]
           }
@@ -994,9 +1109,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which directors stayed from one proxy statemen...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Then they simply checked which directors stayed from one proxy statement to the next.",
+                "explanation": "主干为主谓宾结构。时间连词 Then（随后）；主语 they（指代俄亥俄大学学者）；副词 simply（仅仅、简便地）作修饰状语；谓语动词 checked（核实、核对）；which 引导宾语从句作 checked 的宾语。"
+              },
+              {
+                "type": "宾语从句剖析",
+                "content": "which directors stayed from one proxy statement to the next",
+                "explanation": "连接代词 which 作定语修饰 directors，共同构成从句主语 which directors（哪些董事）；谓语动词 stayed（留任）；介词短语 from one proxy statement to the next（从一份委托声明书到下一份）作时间状态状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "checked which directors stayed from one proxy statement to the next",
+                "explanation": "研究方法交代。简明扼要地说明学者如何通过上市公司每年法定披露的股东委托书（proxy statements）比对董事留任与离职名单，为下一步锁定“意外离职”确立计量操作定义。"
               }
             ]
           }
@@ -1013,8 +1138,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The most likely reason for departing a board was age, so the...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The most likely reason for departing a board was age, so the researchers concentrated on those “surprise” disappearances by directors under the age of 70.",
+                "explanation": "主干由因果连词 so 连接的两个并列分句构成。第一分句为主系表结构：主语 The most likely reason，介词短语 for departing a board（离任董事会）作后置定语；系动词 was；表语 age（年龄）。第二分句为主谓宾结构：连词 so；主语 the researchers；谓语动词短语 concentrated on（聚焦于、专门研究）；宾语 those “surprise” disappearances（那些“意外”离职/消失）；介词短语 by directors under the age of 70 作后置定语。"
+              },
+              {
+                "type": "修饰成分与概念界定",
+                "content": "those “surprise” disappearances by directors under the age of 70",
+                "explanation": "引号中的 “surprise” 属于学术概念的操作化界定：排除因70岁以上正常退休年龄离职的样本，专门锁定70岁以下非正常、无预警的“突发辞职”，使其成为识别潜在危机的风向标。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "concentrated on those “surprise” disappearances by directors under the age of 70",
+                "explanation": "控制变量与研究靶向建立。通过剥离正常退休噪音，精准锚定反常离职，为下文实证揭示“意外离职”与“财务造假、诉讼缠身、股价暴跌”之间的强负相关构建因果分析链。"
               }
             ]
           }
@@ -1030,9 +1165,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that after a surprise departure...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "They found that after a surprise departure, the probability that the company will subsequently have to restate earnings increased by nearly 20%.",
+                "explanation": "主干为主谓宾复合句。主语 They；谓语动词 found；that 引导庞大的宾语从句作 found 的宾语。宾语从句内部为主谓结构：介词短语 after a surprise departure 作时间状语；主语 the probability；that the company will subsequently have to restate earnings 为同位语从句；谓语动词 increased（上升、增加）；介词短语 by nearly 20%（近20%）作幅度状语。"
+              },
+              {
+                "type": "同位语从句剖析",
+                "content": "that the company will subsequently have to restate earnings",
+                "explanation": "that 引导同位语从句，对抽象名词 probability 的具体内涵进行全同解释：主语 the company；时间副词 subsequently（随后）；谓语动词短语 will have to restate（将不得不重新申报）；宾语 earnings（财报收益）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the probability that the company will subsequently have to restate earnings increased by nearly 20%",
+                "explanation": "核心实证结论一（财务暴雷信号）。指出外部董事意外离职是公司存在财务造假或严重账目问题的先行指标（重述收益的概率激增20%），为 Q23 的整体股市表现下滑奠定首要事实论据。"
               }
             ]
           }
@@ -1049,8 +1194,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The likelihood of being named in a federal class-action laws...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The likelihood of being named in a federal class-action lawsuit also increases, and the stock is likely to perform worse.",
+                "explanation": "主干由并列连词 and 连接的两个并列分句组成。第一分句为主谓结构：主语 The likelihood，介词短语 of being named in a federal class-action lawsuit 作后置定语；副词 also 作状语；谓语动词 increases（增加）。第二分句为主系表结构：主语 the stock（公司股票）；系表结构 is likely to perform worse（极可能表现更差）。"
+              },
+              {
+                "type": "非谓语动名词被动式",
+                "content": "of being named in a federal class-action lawsuit",
+                "explanation": "being named 为动名词的被动语态，作介词 of 的宾语，字面意为“被点名”，在此特指上市公司及其高管“被列为联邦集体诉讼的被告”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the stock is likely to perform worse",
+                "explanation": "核心实证结论二与命题题眼（Q23同义替换处）。在法律诉讼风险攀升的同时，公司股票表现恶化，直接对应 Q23 题干询问离职后的公司后果：[C] do less well in the stock market。"
               }
             ]
           }
@@ -1067,8 +1222,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The effect tended to be larger for larger firms....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The effect tended to be larger for larger firms.",
+                "explanation": "主干为主系表结构。主语 The effect（这种连锁负面效应）；谓语动词 tended to be（往往是、倾向于是）；表语 larger（更为显著、更大）；介词短语 for larger firms（对更大规模的企业而言）作范围状语。"
+              },
+              {
+                "type": "词汇复现与比较修饰",
+                "content": "larger for larger firms",
+                "explanation": "两个比较级形容词 larger 与 larger 形成对应修辞，说明公司规模越庞大，外部董事突发离职所引发的市场震荡和信誉危机就越剧烈。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The effect tended to be larger for larger firms",
+                "explanation": "实证规律的深度补充。说明大企业由于曝光度极高、公众与监管关注度极强，独立董事的一举一动都会被资本市场放大解读，强化了危机传导效应。"
               }
             ]
           }
@@ -1084,14 +1249,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "Although a correlation between them leaving and s...",
-                "explanation": "从属连词 <code>Although</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Although a correlation between them leaving and subsequent bad performance at the firm is suggestive, it does not mean that such directors are always jumping off a sinking ship.",
+                "explanation": "主干为 Although 引导让步状语从句的主从复合句。主句为主谓宾结构：主语 it（指代前述相关性）；谓语动词 does not mean（并不意味着）；that 引导宾语从句。宾语从句为主谓状结构：主语 such directors；谓语 are always jumping off（总是跳下）；宾语 a sinking ship（一艘正在沉没的船）。"
               },
               {
-                "type": "名词性从句",
-                "content": "that such directors are always jumping off a ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "让步从句与复合修饰",
+                "content": "Although a correlation between them leaving and subsequent bad performance at the firm is suggestive",
+                "explanation": "从属连词 Although 引导让步状语从句：主语 a correlation；介词短语 between them leaving and subsequent bad performance at the firm 作后置定语（them leaving 为动名词复合结构，subsequent bad performance 为并列项）；系动词 is；表语 suggestive（具有启发性的、暗示性的）。"
+              },
+              {
+                "type": "比喻修辞与生动表达",
+                "content": "jumping off a sinking ship",
+                "explanation": "jumping off a sinking ship 为经典航海习语隐喻，极为生动地讽喻外部董事在企业濒临破产崩溃之际弃船潜逃、自保脱身的狼狈行径。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Although a correlation ... is suggestive, it does not mean that such directors are always jumping off a sinking ship",
+                "explanation": "段首让步转折与审慎论证（Nuanced Discourse）。作者在此展现高超的论辩平衡：承认统计相关性的暗示力，但迅速通过否定判断防范“简单因果归因”，为下文提出另外两种分流解释做铺垫。"
               }
             ]
           }
@@ -1108,8 +1283,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Often they “trade up”, leaving riskier, smaller firms for la...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Often they “trade up”, leaving riskier, smaller firms for larger and more stable firms.",
+                "explanation": "主干为主谓结构。频度副词 Often 作状语；主语代词 they；谓语动词短语 “trade up”（更上一层楼、往高处走）；现在分词短语 leaving... for... 作伴随状语。"
+              },
+              {
+                "type": "非谓语与对比搭配",
+                "content": "leaving riskier, smaller firms for larger and more stable firms",
+                "explanation": "现在分词 leaving 作伴随/解释性状语，动词搭配为 leave A for B（离开A而投向B）；两组比较级构成鲜明对照：被离开的对方是 riskier, smaller firms（风险更高、规模更小的公司），而投奔的去处是 larger and more stable firms（规模更大、更稳健的公司）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Often they “trade up”, leaving riskier, smaller firms...",
+                "explanation": "补充性良性动机解释。说明部分董事离职并非因为嗅到危机，而是人往高处走的正常职业跃升，体现学术论述的周延性，防止一概而论。"
               }
             ]
           }
@@ -1125,14 +1310,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "if they leave a firm before bad news breaks...",
-                "explanation": "从属连词 <code>if</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "But the researchers believe that outside directors have an easier time of avoiding a blow to their reputations if they leave a firm before bad news breaks, even if a review of history shows they were on the board at the time any wrongdoing occurred.",
+                "explanation": "主干为 But 引出的多重从句复合句。连词 But；主语 the researchers；谓语 believe；that 引导宾语从句。宾语从句主干为主谓宾结构：主语 outside directors；谓语动词短语 have an easier time of doing sth（做某事更容易/省力）；宾语短语 avoiding a blow to their reputations（避免声誉受损）；if 引导条件状语从句；even if 引导让步状语从句。"
               },
               {
-                "type": "名词性从句",
-                "content": "that outside directors have an easier time of...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "双重状语从句与动名词搭配",
+                "content": "if they leave a firm before bad news breaks, even if a review of history shows they were on the board at the time any wrongdoing occurred",
+                "explanation": "① 条件从句 if they leave a firm 内嵌时间状语 before bad news breaks（在坏消息曝光之前）；② 让步从句 even if a review of history shows... 内嵌宾语从句 they were on the board... 以及时间状语从句（省略 when/at which）any wrongdoing occurred（在任何不端行为发生之时）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "outside directors have an easier time of avoiding a blow to their reputations if they leave a firm before bad news breaks",
+                "explanation": "全篇核心论点与深层动机揭秘（Q24前置逻辑）。揭示外部董事“跳船”的真正驱动力是自私的名誉避险机制：抢在丑闻爆发前开溜，即便事后追查证明他们当时就在位，公众也会淡忘或宽容，从而成功保全名节。"
               }
             ]
           }
@@ -1148,9 +1338,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who want to keep their outside directors thr...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Firms who want to keep their outside directors through tough times may have to create incentives.",
+                "explanation": "主干为主谓宾复合句。主语 Firms；who want to keep their outside directors through tough times 为限制性定语从句；情态谓语 may have to create（可能不得不创造/提供）；宾语 incentives（激励机制、挽留措施）。"
+              },
+              {
+                "type": "定语从句剖析",
+                "content": "who want to keep their outside directors through tough times",
+                "explanation": "关系代词 who 在定语从句中作主语先行词为拟人化的 Firms；谓语动词 want；动词不定式短语 to keep their outside directors 作宾语；介词短语 through tough times（共克时艰、度过艰难岁月）作时间状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Firms who want to keep their outside directors ... may have to create incentives",
+                "explanation": "建设性对策与命题题眼（Q24定位句）。企业若想在危机中留住外部董事，必须提供物质或制度诱因（incentives），直接推导出 Q24 答案：outside directors [A] may stay for the attractive offers from the firm。"
               }
             ]
           }
@@ -1167,8 +1367,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Otherwise outside directors will follow the example of Ms....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Otherwise outside directors will follow the example of Ms.",
+                "explanation": "本句为断句片段，构成全句主干核心。副词 Otherwise（否则）作状语；主语 outside directors（外部董事）；一般将来时谓语动词短语 will follow the example of（将效仿……的榜样/前车之鉴）；介词宾语中心词为 Ms.（女士，与下句 Simmons 组成人名）。"
+              },
+              {
+                "type": "逻辑衔接与反事实推论",
+                "content": "Otherwise outside directors will follow the example of...",
+                "explanation": "副词 Otherwise 承接前句的 may have to create incentives，展开反面警告推论：若不提供足够留人激励，外部董事势必争相离职以求自保。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Otherwise outside directors will follow the example of Ms.",
+                "explanation": "反面论证与首尾呼应铺垫。通过 Otherwise 引出警告，点出企业若不行动将引发外部董事群体性“跑路潮”，并重新将焦点引向篇首女主角西蒙斯。"
               }
             ]
           }
@@ -1185,8 +1395,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Simmons, once again very popular on campus....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Simmons, once again very popular on campus.",
+                "explanation": "本句为断句后半段，在句法上充当前句介词 of 的宾语专有名词及后置形容词短语修饰。专有名词 Simmons 补全人名 Ms. Simmons；逗号后 once again very popular on campus 为形容词短语作非限制性后置定语（补充说明状语）。"
+              },
+              {
+                "type": "后置修饰与讽刺修辞",
+                "content": "once again very popular on campus",
+                "explanation": "形容词短语 once again very popular on campus 修饰 Simmons，意为“再次在大学校园里备受欢迎”，时间副词 once again 与 popular 刻画出其脱身高盛后迅速重归象牙塔崇高声望的轻松状态。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Simmons, once again very popular on campus",
+                "explanation": "首尾呼应与深层反讽收尾（Echo Hook）。全文在西蒙斯重返布朗大学倍受爱戴的画面中定格，与第1段高盛受审形成闭环，极具讽刺意味地证明了第18句的论断：外部董事只要开溜得早，个人声誉绝不会受损。"
               }
             ]
           }
@@ -2427,8 +2647,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Whatever happened to the death of newspapers?...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Whatever happened to the death of newspapers?",
+                "explanation": "主干为主谓介宾疑问结构。Whatever 作疑问代词充当主语，带有强烈的强调语气（“到底究竟发生……”）；谓语动词短语为一般过去时 happened to（发生在……身上、……遭遇了何种结果）；介词宾语 the death of newspapers（报纸的消亡）。"
+              },
+              {
+                "type": "疑问语气与修辞功能",
+                "content": "Whatever happened to...",
+                "explanation": "“Whatever happened to X?” 是经典英语设问习语，用于探寻某件曾被广泛热议但突然销声匿迹的事物当下现状，隐含反讽与反直觉语气——当初喧嚣一时的“报纸必死论”如今怎样了？"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Whatever happened to the death of newspapers?",
+                "explanation": "设问开篇（Rhetorical Question Hook）。作者以反问引出全文核心议题：曾甚嚣尘上的报业大灭亡论并未成真，从而颠覆大众传统认知，引发读者对报业危机现状与生存之道的深入思考。"
               }
             ]
           }
@@ -2445,8 +2675,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "A year ago the end seemed near....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "A year ago the end seemed near.",
+                "explanation": "主干为主系表结构。名词短语 A year ago（一年前）作全句时间状语；主语 the end（末日、终局）；连系动词 seemed（似乎、显得）；表语形容词 near（临近的、近在咫尺的）。"
+              },
+              {
+                "type": "修饰与时间对比",
+                "content": "A year ago the end seemed near",
+                "explanation": "A year ago 确立了叙事时间坐标，与首句中的当下思考形成“昔日危局 vs 今日生机”的时间维跨度对比；seemed 表明这是一种主观感知上的危亡错觉。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "A year ago the end seemed near",
+                "explanation": "蓄势铺垫。渲染一年前报业风雨飘摇、濒临绝境的紧迫氛围，为后文第8句的转折（now seem out of date）提供强烈对比基准。"
               }
             ]
           }
@@ -2462,9 +2702,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that had not already fled to the internet....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "The recession threatened to remove the advertising and readers that had not already fled to the internet.",
+                "explanation": "主干为主谓宾复合句。主语 The recession（经济衰退）；谓语动词短语 threatened to remove（扬言要剥夺、威胁要夺走）；并列宾语 the advertising and readers（广告与读者资源）；that 引导限制性定语从句修饰先行词 the advertising and readers。"
+              },
+              {
+                "type": "定语从句剖析",
+                "content": "that had not already fled to the internet",
+                "explanation": "关系代词 that 在从句中作主语，先行词为 advertising and readers；谓语动词为过去完成时 had not already fled to（尚未逃往、尚未流失至）；介词短语 to the internet 作方向状语。凸显互联网对纸媒根基的持续侵蚀。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The recession threatened to remove the advertising and readers...",
+                "explanation": "双重打击（Double Whammy）成因剖析。指出报业危机的双重死因：外受互联网技术替代的长周期冲击（fled to the internet），内遭金融海啸经济衰退的短周期绞杀（recession threatened to remove）。"
               }
             ]
           }
@@ -2481,8 +2731,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Newspapers like the San Francisco Chronicle were chronicling...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Newspapers like the San Francisco Chronicle were chronicling their own doom.",
+                "explanation": "主干为主谓宾结构。主语 Newspapers，介词短语 like the San Francisco Chronicle（像《旧金山纪事报》这样的报纸）作后置定语；谓语为过去进行时 were chronicling（正在记录/载入史册）；宾语 their own doom（它们自己的毁灭/厄运）。"
+              },
+              {
+                "type": "双关修辞与隐喻",
+                "content": "San Francisco Chronicle were chronicling their own doom",
+                "explanation": "句中巧妙运用双关修辞（Pun）：报纸刊名 Chronicle（纪事报）与谓语动词 chronicling（载入史册、忠实记录）形成词根同源的双关呼应，传达出纸媒从业者不得不亲手报道自身行业死讯的悲凉与反讽。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "were chronicling their own doom",
+                "explanation": "典型论据与命题题眼（Q26定位句）。作者用《旧金山纪事报》记录自身末日的典型案例，生动形象地证明报纸当时处境极其绝望（对应 Q26 [D] were in a desperate situation）。"
               }
             ]
           }
@@ -2498,9 +2758,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "how to save newspapers....",
-                "explanation": "连接词 <code>how</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "America’s Federal Trade Commission launched a round of talks about how to save newspapers.",
+                "explanation": "主干为主谓宾结构。主语 America’s Federal Trade Commission（美国联邦贸易委员会，简称FTC）；谓语动词 launched（发起、启动）；宾语 a round of talks（一轮讨论/会谈）；介词短语 about how to save newspapers 作后置定语修饰 talks，其中疑问词 how + 不定式 to save newspapers 充当介词宾语。"
+              },
+              {
+                "type": "疑问词短语作介词宾语",
+                "content": "about how to save newspapers",
+                "explanation": "“疑问副词 how + 动词不定式短语”结构凝练概括了会谈的核心议题，即官方试图介入探索挽救传统报业的系统性方案。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "launched a round of talks about how to save newspapers",
+                "explanation": "政府官方干预举措。表明报业危机不仅是单一行业的阵痛，更上升为联邦层面的文化与公共信息危机，引出下文FTC设想的两种救市方案。"
               }
             ]
           }
@@ -2517,8 +2787,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Should they become charitable corporations?...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Should they become charitable corporations?",
+                "explanation": "主干为一般疑问句（主系表结构）。情态动词 Should 置于句首构成倒装疑问；主语 they（指代报纸机构）；系动词 become；表语名词短语 charitable corporations（慈善公益性质的法人机构）。"
+              },
+              {
+                "type": "倒装疑问与政策构想",
+                "content": "Should they become charitable corporations?",
+                "explanation": "情态动词 Should 引导政策可行性探讨，反映出官方当时考虑通过赋予报社免税的非营利组织地位来化解生存困境。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Should they become charitable corporations?",
+                "explanation": "方案设想之一。与下一句构成短句并列排比设问，生动展现当时社会各界对于“如何给濒死报业续命”的种种天马行空的激进探讨。"
               }
             ]
           }
@@ -2535,8 +2815,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Should the state subsidize them?...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Should the state subsidize them?",
+                "explanation": "主干为一般疑问句（主谓宾结构）。情态动词 Should 置于句首构成倒装疑问；主语 the state（国家/政府）；谓语动词 subsidize（资助、给予财政补贴）；宾语代词 them（报社）。"
+              },
+              {
+                "type": "倒装疑问与词汇剖析",
+                "content": "Should the state subsidize them?",
+                "explanation": "subsidize 意为“以公共财政补贴”，在西方言论自由传统下，国家出资办报存在侵害新闻独立性的巨大争议，因此以疑问句形式呈现该方案的巨大激进性。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Should the state subsidize them?",
+                "explanation": "方案设想之二。两句连问勾勒出官方的救市迷茫，暗示报业已经虚弱到了似乎唯有靠政府公共财政输血才能苟延残喘的境地。"
               }
             ]
           }
@@ -2553,8 +2843,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "It will hold another meeting soon....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "It will hold another meeting soon.",
+                "explanation": "主干为主谓宾结构。主语代词 It（指代前文的 Federal Trade Commission）；谓语动词为一般将来时 will hold（将举行）；宾语 another meeting（另一次会议）；时间副词 soon（很快）作状语。"
+              },
+              {
+                "type": "代词指代与时态",
+                "content": "It will hold another meeting soon",
+                "explanation": "It 紧扣第四句的 FTC，will hold 展望未来动作，叙述官方拯救报业的会议议程仍在按部就班地筹划推进中。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "It will hold another meeting soon",
+                "explanation": "首段收尾与反讽铺垫。交代官方机构还在慢条斯理地准备下一次会议，与第二段首句“然而这些讨论早已过时”形成无缝的逻辑爆破点。"
               }
             ]
           }
@@ -2571,8 +2871,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But the discussions now seem out of date....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But the discussions now seem out of date.",
+                "explanation": "主干为主系表结构。转折连词 But；主语 the discussions（那些关于如何救报纸的官方讨论）；时间副词 now（如今）；系动词 seem（显得、看起来）；表语介词短语 out of date（过时的、陈旧脱节的）。"
+              },
+              {
+                "type": "介词短语作表语",
+                "content": "seem out of date",
+                "explanation": "out of date（过时的）与第四句的 round of talks、第七句的 another meeting 紧密相扣，直言现实发展已经迅速超越了官方慢半拍的救市论调。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "But the discussions now seem out of date",
+                "explanation": "第二段转折主题句（Topic Transition）。以 But 迎头逆转，宣告官方救济设想的过时，正式引出第二段的核心发现：市场自愈机制启动，报业并未死亡反而浴火重生。"
               }
             ]
           }
@@ -2589,8 +2899,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In much of the world there is little sign of crisis....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "In much of the world there is little sign of crisis.",
+                "explanation": "主干为 there be 存在句结构。介词短语 In much of the world（在世界大部分地区）作范围状语；引导词 there；系动词 is；主语 little sign of crisis（几乎没有任何危机迹象）。"
+              },
+              {
+                "type": "否定词修饰与语义",
+                "content": "little sign of crisis",
+                "explanation": "little（几乎没有，表否定概念）修饰不可数名词 sign，清晰表明报业末日论纯属以美国一隅概括全球的片面恐慌，全球视域下危机并不普适。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "In much of the world there is little sign of crisis",
+                "explanation": "全球宏观事实立论。作者将视野由美国本土拉升至全球范围，打破“全球报业同归于尽”的思维定势，展示行业生态的地域分化。"
               }
             ]
           }
@@ -2607,8 +2927,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "German and Brazilian papers have shrugged off the recession....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "German and Brazilian papers have shrugged off the recession.",
+                "explanation": "主干为主谓宾结构。主语 German and Brazilian papers（德国与巴西报纸）；谓语动词短语为现在完成时 have shrugged off（已经摆脱、对……泰然处之）；宾语 the recession（经济衰退）。"
+              },
+              {
+                "type": "动词习语与形象刻画",
+                "content": "have shrugged off the recession",
+                "explanation": "shrug off 形象来源于“耸耸肩膀甩掉”，比喻极其轻松地摆脱、化解了经济下行带来的负面冲击，体现这些国家报业极强的抗跌韧性。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "German and Brazilian papers have shrugged off the recession",
+                "explanation": "跨国论据支撑。列举德国与巴西报业的逆势强劲，实证支撑上句“world there is little sign of crisis”，与下文美国报业的艰难形成对照。"
               }
             ]
           }
@@ -2624,9 +2954,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which inhabit the most troubled corner of the ...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Even American newspapers, which inhabit the most troubled corner of the global industry, have not only survived but often returned to profit.",
+                "explanation": "主干为主谓宾补复合句。主语 Even American newspapers；which 引导非限制性定语从句；谓语为 not only... but (also)... 连接的并列完成时：have not only survived（不仅幸存下来）but often returned to profit（而且往往扭亏为盈）。"
+              },
+              {
+                "type": "非限制性定语从句与关联连词",
+                "content": "which inhabit the most troubled corner of the global industry ... not only survived but often returned to profit",
+                "explanation": "① which 从句修饰 American newspapers，说明美国报纸身处全球纸媒困境最深重的重灾区（troubled corner）；② not only... but... 并列结构形成层递逻辑，强调美国报业不仅打破死亡预言，更实现了惊人的盈利逆袭。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Even American newspapers ... have not only survived but often returned to profit",
+                "explanation": "全文核心事实转折。连危机最深重的美国报业都奇迹般扭亏为盈，直接印证了首句“报纸消亡论早已破产”，奠定 Q30 文章主旨“American Newspapers: Struggling for Survival”的生存底色。"
               }
             ]
           }
@@ -2642,9 +2982,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that were routine a few years ago...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Not the 20 % profit margins that were routine a few years ago, but profit all the same.",
+                "explanation": "主干为省略主谓的并列名词短语结构。全句承前省略了 It is / They are，结构为 not A, but B：否定项 Not the 20 % profit margins（并非20%的利润率），that 引导定语从句修饰 margins；肯定项 profit all the same（但终究还是盈利了）。"
+              },
+              {
+                "type": "定语从句与让步状语",
+                "content": "that were routine a few years ago ... profit all the same",
+                "explanation": "① that 在定语从句中作主语，说明20%的超高暴利在几年前不过是家常便饭（routine）；② all the same 为副词短语，意为“即便如此、终归”，强调哪怕暴利不在，微利也是实打实的盈利。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Not the 20 % profit margins ... but profit all the same",
+                "explanation": "理性审视与客观定性。作者既不盲目唱赞歌（暴利时代一去不复返），也不落入悲观深渊（盈利事实不容抹煞），展现出深厚的商业现实主义眼光。"
               }
             ]
           }
@@ -2661,8 +3011,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "It has not been much fun....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "It has not been much fun.",
+                "explanation": "主干为主系表结构。形式主语/情境代词 It（指代报业求生扭亏的过程）；谓语为现在完成时否定形式 has not been；表语名词短语 much fun（多少乐事、轻松有趣的经历）。"
+              },
+              {
+                "type": "情态色彩与修辞",
+                "content": "It has not been much fun",
+                "explanation": "采用轻描淡写（Understatement）的英式幽默修辞，用“并不怎么有趣”委婉掩盖其背后极为残酷血腥的求生断腕代价。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "It has not been much fun",
+                "explanation": "第三段总起句与感情基调转折。从上段的盈利喜讯陡然转入生存手段的残酷本质，为下文揭示大规模裁员、报纸缩水、拒绝投递等断臂求生举措拉开帷幕。"
               }
             ]
           }
@@ -2679,8 +3039,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Many papers stayed afloat by pushing journalists overboard....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Many papers stayed afloat by pushing journalists overboard.",
+                "explanation": "主干为主谓宾/方式状语复合结构。主语 Many papers（许多报纸）；谓语动词 stayed；表语形容词 afloat（漂浮的、免于破产沉没的）；介词短语 by pushing journalists overboard（通过将记者推下船）作方式状语。"
+              },
+              {
+                "type": "非谓语与生动航海隐喻",
+                "content": "by pushing journalists overboard",
+                "explanation": "介词 by 后接动名词短语 pushing... overboard，巧妙化用航海减重求生隐喻：为了让船只浮在水面（stay afloat），船长把水手推落海中（push overboard），极其辛辣地揭露报社以牺牲采编记者、大规模裁员来降本求存。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "stayed afloat by pushing journalists overboard",
+                "explanation": "求生手段剖析之一（断臂裁员）。形象揭露报纸扭亏的第一个血腥代价：大幅度裁减一线新闻采编人员，为 Q27 的“缩减成本”奠定总基调。"
               }
             ]
           }
@@ -2696,14 +3066,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "since 2007....",
-                "explanation": "从属连词 <code>since</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "The American Society of News Editors reckons that 13,500 newsroom jobs have gone since 2007.",
+                "explanation": "主干为主谓宾复合句。主语 The American Society of News Editors（美国新闻编辑协会，简称ASNE）；谓语动词 reckons（估算、认为）；that 引导宾语从句。从句主语 13,500 newsroom jobs（1.35万个新闻编辑室岗位）；谓语动词为现在完成时 have gone（已经消失）；时间状语 since 2007。"
               },
               {
-                "type": "名词性从句",
-                "content": "that 13...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "宾语从句与数据实证",
+                "content": "that 13,500 newsroom jobs have gone since 2007",
+                "explanation": "that 引导从句，权威行业数据 13,500 与 have gone 形成强烈的现实冲击力，量化印证了上一句推记者下海（pushing journalists overboard）的残酷规模。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "reckons that 13,500 newsroom jobs have gone since 2007",
+                "explanation": "权威数据佐证。通过权威行业协会的统计数字，彻底坐实报业为了生存所推行的断崖式裁员力度。"
               }
             ]
           }
@@ -2720,8 +3095,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Readers are paying more for slimmer products....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Readers are paying more for slimmer products.",
+                "explanation": "主干为主谓状结构。主语 Readers（读者）；谓语为现在进行时 are paying（正在支付）；比较级副词/名词 more（更多费用）；介词短语 for slimmer products（换取更薄的报纸产品）作对象状语。"
+              },
+              {
+                "type": "对比修辞与比较级",
+                "content": "paying more for slimmer products",
+                "explanation": "more（更多）与 slimmer（更轻薄）形成荒诞对比：版面大幅缩水裁撤，定价却节节攀升，生动展现报社将成本压力转嫁给忠实消费者的策略。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Readers are paying more for slimmer products",
+                "explanation": "求生手段剖析之二（提价减页）。说明报社不仅向内砍人力成本，还向外转嫁负担，为后文探讨“收入结构由广告主转向读者”埋下关键商业铺垫。"
               }
             ]
           }
@@ -2738,8 +3123,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Some papers even had the nerve to refuse delivery to distant...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Some papers even had the nerve to refuse delivery to distant suburbs.",
+                "explanation": "主干为主谓宾结构。主语 Some papers（一些报纸）；副词 even（甚至）；谓语动词 had；宾语 the nerve（魄力、厚脸皮/勇气）；动词不定式短语 to refuse delivery to distant suburbs 作后置定语修饰 nerve。"
+              },
+              {
+                "type": "非谓语与心理习语",
+                "content": "had the nerve to refuse delivery to distant suburbs",
+                "explanation": "习语 have the nerve to do sth 意为“竟敢/有魄力冒天下之大不韪做某事”；不定式 to refuse delivery... 具体说明该激进行为：直接切断向偏远郊区订户的发行投递。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "refuse delivery to distant suburbs",
+                "explanation": "求生手段剖析之三与命题题眼（Q27定位句）。报社甘冒得罪郊区读者的风险停止投递，根本原因就是为了省去高昂的长途运输与物流配送开销，直接支撑 Q27 [B] newspapers wanted to reduce costs。"
               }
             ]
           }
@@ -2756,8 +3151,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Yet these desperate measures have proved the right ones and,...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Yet these desperate measures have proved the right ones and, sadly for many journalists, they can be pushed further.",
+                "explanation": "主干为 Yet 引导的两个并列分句。第一分句为主谓宾/系表结构：连词 Yet；主语 these desperate measures（这些孤注一掷的极端举措）；谓语动词 have proved（证明是）；宾语/表语 the right ones（正确的举措）。第二分句为主谓结构：插入语 sadly for many journalists；主语 they；情态被动谓语 can be pushed further（能够被进一步推进）。"
+              },
+              {
+                "type": "并列复合句与插入语",
+                "content": "Yet these desperate measures have proved the right ones and, sadly for many journalists, they can be pushed further",
+                "explanation": "① Yet 引出对上述激进手段的商业效果评价：尽管残忍（desperate），但商业上证明方向完全正确（the right ones）；② 介词插入语 sadly for many journalists 点明记者的职业悲剧还在延续：裁员与版面精简不仅不会停止，还会变本加厉。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "these desperate measures have proved the right ones ... can be pushed further",
+                "explanation": "第四段承前启后核心论断。商业逻辑与人文情怀在此剧烈碰撞：对从业人员而言是残忍打击，但对处于生死关头的报业资本而言，这却是通向可持续重构的唯一正确出路。"
               }
             ]
           }
@@ -2774,8 +3179,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Newspapers are becoming more balanced businesses, with a hea...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Newspapers are becoming more balanced businesses, with a healthier mix of revenues from readers and advertisers.",
+                "explanation": "主干为主系表结构。主语 Newspapers；谓语为现在进行时 are becoming（正在变为）；表语 more balanced businesses（更加均衡的商业实体）；with 介词复合短语作伴随修饰状语。"
+              },
+              {
+                "type": "介词复合结构与比较级",
+                "content": "with a healthier mix of revenues from readers and advertisers",
+                "explanation": "介词 with 后接宾语 a healthier mix of revenues（更健康的收入结构），介词短语 from readers and advertisers 作来源定语，强调读者订阅与广告招商两手抓、重回均衡。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "more balanced businesses, with a healthier mix of revenues...",
+                "explanation": "模式升级与重构核心。指出极端自救带来的深远商业蜕变：摆脱了以往被广告商单方面绑架的畸形生态，重构读者与广告主并重的健康飞轮。"
               }
             ]
           }
@@ -2792,8 +3207,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "American papers have long been highly unusual in their relia...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "American papers have long been highly unusual in their reliance on ads.",
+                "explanation": "主干为主系表结构。主语 American papers（美国报纸）；谓语动词为现在完成时 have long been（长期以来一直是）；表语形容词 highly unusual（极不寻常的、反常的）；介词短语 in their reliance on ads（在对广告的依赖度上）作范围状语。"
+              },
+              {
+                "type": "介词短语析义",
+                "content": "in their reliance on ads",
+                "explanation": "reliance on 为固定搭配（对……的依赖）；in their reliance on ads 准确切中美国报纸商业模式的命门：极度偏食广告，从而使自身在广告骤降时不堪一击。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "American papers have long been highly unusual in their reliance on ads",
+                "explanation": "深层病理剖析（Q28前置对比）。指出美国报业之所以遭遇灭顶之灾，根源在于其长期畸形依赖广告赞助，为下文引入日本报业作为稳健镜像形成鲜明逻辑反衬。"
               }
             ]
           }
@@ -2810,8 +3235,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Fully 87 % of their revenues came from advertising in 2008, ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Fully 87 % of their revenues came from advertising in 2008, according to the Organization for Economic Cooperation & Development (OECD).",
+                "explanation": "主干为主谓宾结构。主语 Fully 87 % of their revenues（整整87%的营业收入，副词 Fully 强调数字之高）；谓语动词 came from（来自）；宾语 advertising（广告）；时间状语 in 2008；介词短语 according to...（根据经合组织的数据）作信源状语。"
+              },
+              {
+                "type": "程度副词与信源修饰",
+                "content": "Fully 87 % of their revenues ... according to...",
+                "explanation": "副词 Fully 与惊人的数字 87% 极富冲击力，有力证实了前一句中的 highly unusual；OECD 权威国际智库信源赋予论据不可动摇的可靠性。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Fully 87 % of their revenues came from advertising",
+                "explanation": "惊人数据实证。用近九成的广告营收占比，具象化展示美国报业命悬一线的原因——一旦广告主转向互联网，全行业瞬间断粮。"
               }
             ]
           }
@@ -2828,8 +3263,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In Japan the proportion is 35%....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "In Japan the proportion is 35%.",
+                "explanation": "主干为主系表结构。地点状语 In Japan（在日本）；主语 the proportion（该比例，指广告占总收入比重）；系动词 is；表语 35%（百分之三十五）。"
+              },
+              {
+                "type": "简练数字对比",
+                "content": "In Japan the proportion is 35%",
+                "explanation": "极度短促干练的句式，用 35% 与上一句美国的 87% 构成断崖式数字反差，读者营收占比在日本远超广告，商业根基截然不同。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "In Japan the proportion is 35%",
+                "explanation": "跨国对照关键数据。揭示日本报纸以读者付费订阅为压舱石的稳健格局，为下一句推出日本报业为何没有发生危机提供核心原因。"
               }
             ]
           }
@@ -2846,8 +3291,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Not surprisingly, Japanese newspapers are much more stable....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Not surprisingly, Japanese newspapers are much more stable.",
+                "explanation": "主干为主系表结构。评注性副词短语 Not surprisingly（不出所料、不足为奇）作全句评述状语；主语 Japanese newspapers（日本报纸）；系动词 are；表语 much more stable（稳定得多，much 修饰比较级 more stable）。"
+              },
+              {
+                "type": "评注副词与比较结构",
+                "content": "Not surprisingly, Japanese newspapers are much more stable",
+                "explanation": "Not surprisingly 建立起毋庸置疑的因果推导闭环；比较级 more stable 紧扣上文两组广告比例（35% vs 87%）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Japanese newspapers are much more stable",
+                "explanation": "因果推论与命题题眼（Q28定位句）。明确回答了日本报纸为何远比美国同行稳定的原因：对广告依赖度低、读者订阅基础稳固，精准对应 Q28 [C] are less dependent on advertising。"
               }
             ]
           }
@@ -2863,9 +3318,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "where newspapers are least distinctive....",
-                "explanation": "关系词 <code>where</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "The whirlwind that swept through newsrooms harmed everybody, but much of the damage has been concentrated in areas where newspapers are least distinctive.",
+                "explanation": "主干为 but 连接的两个并列分句。第一分句为主谓宾结构：主语 The whirlwind，that swept through newsrooms 为定语从句；谓语 harmed；宾语 everybody。第二分句为主谓介宾结构：连词 but；主语 much of the damage；谓语为现在完成时被动式 has been concentrated in（集中于）；介词宾语 areas；where 引导限制性定语从句修饰 areas。"
+              },
+              {
+                "type": "定语从句与双重修饰",
+                "content": "that swept through newsrooms ... where newspapers are least distinctive",
+                "explanation": "① that 引导从句修饰 whirlwind，隐喻危机如旋风横扫编辑室；② where 在从句中作地点状语，修饰 areas，从句内部为主系表结构：newspapers are least distinctive（报纸最缺乏独特性、最同质化的领域）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "much of the damage has been concentrated in areas where newspapers are least distinctive",
+                "explanation": "第五段核心主题句（Topic Sentence）与核心命题题眼（Q29）。指出危机虽然重创所有人，但裁撤最狠的恰恰是缺乏独特性的同质化板块，反向确立了报业生存真谛——独特性（distinctiveness）才是核心生命力（直接对应 Q29 [A] Distinctiveness is an essential feature）。"
               }
             ]
           }
@@ -2882,8 +3347,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Car and film reviewers have gone....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Car and film reviewers have gone.",
+                "explanation": "主干为主谓结构。主语 Car and film reviewers（汽车与电影评论员）；谓语动词为现在完成时 have gone（已经离开、被撤裁）。"
+              },
+              {
+                "type": "并列主语与时态",
+                "content": "Car and film reviewers have gone",
+                "explanation": "Car and film reviewers 并列作主语；have gone 宣告这两大类生活方式评论板块已经被完全砍掉。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Car and film reviewers have gone",
+                "explanation": "排比列举论据之一。具体展示哪些属于“least distinctive”领域：车评和影评网上随处可见且由大众点评所替代，缺乏不可替代的独家价值，因此率先沦为刀下亡魂。"
               }
             ]
           }
@@ -2900,8 +3375,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "So have science and general business reporters....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "So have science and general business reporters.",
+                "explanation": "主干为“So + 助动词 + 主语”构成的完全倒装结构。副词 So（也同样）；助动词 have；主语 science and general business reporters（科技与普通商业采编记者）。"
+              },
+              {
+                "type": "倒装结构与承前省略",
+                "content": "So have science and general business reporters",
+                "explanation": "“So have + 主语” 承接上一句的 have gone，避免动词重复，意为“科技与普通商业报道记者也同样离开了”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "So have science and general business reporters",
+                "explanation": "排比列举论据之二。进一步列举被砍掉的常规跑线记者，证明大众化科技与通俗财经资讯已被网络完全分流，纸媒无力也无需维持庞大编制。"
               }
             ]
           }
@@ -2918,8 +3403,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Foreign bureaus have been savagely cut off....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Foreign bureaus have been savagely cut off.",
+                "explanation": "主干为主谓结构（被动语态）。主语 Foreign bureaus（海外记者站/驻外分社）；谓语动词为现在完成时被动语态 have been cut off（已被撤销）；副词 savagely（残忍地、大刀阔斧地）作程度状语。"
+              },
+              {
+                "type": "副词色彩与被动语态",
+                "content": "have been savagely cut off",
+                "explanation": "动词短语 cut off 意为“切断、撤除”；副词 savagely（野蛮残忍地）生动反映出报社在面临财务崩塌时，撤销开销极大的海外记者站时的冷酷与决绝。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Foreign bureaus have been savagely cut off",
+                "explanation": "排比列举论据之三。驻外记者站成本极其高昂，撤销海外记者站标志着纸媒全面收缩战线、放弃全能大杂烩定位。"
               }
             ]
           }
@@ -2936,8 +3431,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Newspapers are less complete as a result....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Newspapers are less complete as a result.",
+                "explanation": "主干为主系表结构。主语 Newspapers（报纸）；系动词 are；表语 less complete（不那么包罗万象、不甚完备）；介词短语 as a result（因此、结果）作结果状语。"
+              },
+              {
+                "type": "比较级表语与因果衔接",
+                "content": "less complete as a result",
+                "explanation": "as a result 承接上文25至27句三连砍的惨烈现状；less complete 指出报纸在版面内容上已经不再是过去无所不包的百科全书式印刷品。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Newspapers are less complete as a result",
+                "explanation": "现状总结与思维过渡。承认报纸内容版面受损的事实，为最终句颠覆“内容完整性”的价值迷思提供起跳台阶。"
               }
             ]
           }
@@ -2954,8 +3459,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But completeness is no longer a virtue in the newspaper busi...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But completeness is no longer a virtue in the newspaper business.",
+                "explanation": "主干为主系表结构。转折连词 But；主语 completeness（内容的完整性、面面俱到）；谓语为系表否定结构 is no longer a virtue（不再是一种美德/优势）；介词短语 in the newspaper business（在报业当中）作范围状语。"
+              },
+              {
+                "type": "否定短语与转折修辞",
+                "content": "no longer a virtue in the newspaper business",
+                "explanation": "no longer（不再）彻底宣判传统大而全办报哲学的死刑；a virtue（美德、长处）与 completeness 碰撞，表明在互联网资讯过剩时代，贪大求全只会沦为臃肿累赘。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "completeness is no longer a virtue in the newspaper business",
+                "explanation": "篇末点睛升华与考点呼应（Q29、Q30落脚点）。全篇在高潮中收尾：报业生存不再靠面面俱到，而靠聚焦自身独特的不可替代性（distinctiveness）。这既是对新常态下报业生存策略（Struggling for Survival）的理性洞见，也最终锁定 Q29 答案。"
               }
             ]
           }
@@ -4421,8 +4936,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "We tend to think of the decades immediately following World ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "We tend to think of the decades immediately following World War II as a time of prosperity and growth, with soldiers returning home by the millions, going off to college on the G.I.",
+                "explanation": "主干为 tend to think of... as... 复合宾语结构。主语 We；谓语动词短语 tend to think of（往往将……视作）；宾语 the decades，现在分词短语 immediately following World War II 作后置定语；介词短语 as a time of prosperity and growth（作为繁荣与增长的时期）作宾语补足语；with 复合结构作伴随修饰状语。"
+              },
+              {
+                "type": "独立主格与伴随分词",
+                "content": "with soldiers returning home by the millions, going off to college on the G.I.",
+                "explanation": "with 复合结构中，soldiers 为逻辑主语，现在分词短语 returning home by the millions（数以百万计的士兵复员返乡）与 going off to college...（奔赴大学求学）并列，描绘战后初期的社会生机。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "tend to think of ... as a time of prosperity and growth",
+                "explanation": "大众常识假定（Conventional View）。开篇描绘战后美国社会的繁荣扩张主流印象，旨在为第2句以 But 引出住宅建筑风格的“理性务实与极简克制（less is more）”形成巨大的认知反差。"
               }
             ]
           }
@@ -4439,8 +4964,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Bill and lining up at the marriage bureaus....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Bill and lining up at the marriage bureaus.",
+                "explanation": "本句为上一句的断句延伸片段。专有名词 Bill（与前句 G.I. 组成 G.I. Bill《退伍军人权利法案》）补全介词宾语；连词 and 连接第三个并列现在分词短语 lining up at the marriage bureaus（在婚姻登记处排起长队），共同受上一句 with soldiers... 的逻辑主语管辖。"
+              },
+              {
+                "type": "修饰成分与意群补全",
+                "content": "on the G.I. Bill and lining up at the marriage bureaus",
+                "explanation": "G.I. Bill 交代退伍军人读大学的政策支撑；介词短语 at the marriage bureaus 作地点状语，生动展现战后退伍老兵结婚安家、掀起战后婴儿潮的历史切片。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "lining up at the marriage bureaus",
+                "explanation": "背景铺垫完成。数百万士兵返乡、求学、结婚建立家庭，直接引爆了对成家立业后住宅（houses）的井喷式刚性需求，顺理成章引出下文对住宅建筑样式的探讨。"
               }
             ]
           }
@@ -4456,9 +4991,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when it came to their houses...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "But when it came to their houses, it was a time of common sense and a belief that less could truly be more.",
+                "explanation": "主干为 But 引出的主从复合句。转折连词 But；时间状语从句 when it came to their houses；主句为主系表结构：形式主语/时间主语 it；系动词 was；并列表语 a time of common sense（一个讲求常识务实的时期）and a belief（以及一种信念）；that 引导同位语从句解释 belief。"
+              },
+              {
+                "type": "时间状语与同位语从句",
+                "content": "when it came to their houses ... that less could truly be more",
+                "explanation": "① when it came to 为常用习语，意为“当谈及、涉及……时”；② that 引导同位语从句修饰 a belief，从句主语 less（更少、极简），情态谓语 could truly be，表语 more（更多、更富足），点出“少即是多”的核心哲理。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "it was a time of common sense and a belief that less could truly be more",
+                "explanation": "语篇主旨核心转折（Topic Shift）。由宏观经济的全面繁荣扩张，转入居住微观层面的理性务实与克制哲学，正式亮出全篇核心论题——“以简为美、少即是多（less is more）”的居住美学。"
               }
             ]
           }
@@ -4474,9 +5019,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that restraint...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "During the Depression and the war, Americans had learned to live with less, and that restraint, in combination with the postwar confidence in the future, made small, efficient housing positively stylish.",
+                "explanation": "主干由并列连词 and 连接的两个分句组成。第一分句为主谓宾结构：时间状语 During the Depression and the war；主语 Americans；谓语动词为过去完成时 had learned to live with less（学会了过节俭克制的生活）。第二分句为主谓宾补结构：主语 that restraint（这种克制习惯）；插入语 in combination with...；谓语动词 made；宾语 small, efficient housing（紧凑高效的住宅）；形容词短语 positively stylish（绝对时尚、极具格调）作宾语补足语。"
+              },
+              {
+                "type": "插入语与复合修饰",
+                "content": "in combination with the postwar confidence in the future",
+                "explanation": "介词短语 in combination with... 作主语补充说明插入语，意为“与战后对未来的自信相结合”，将大萧条磨砺出的“克制（restraint）”与战后胜利激发的“自信（confidence）”巧妙熔于一炉。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "that restraint, in combination with the postwar confidence in the future, made small, efficient housing positively stylish",
+                "explanation": "核心社会成因与命题题眼（Q31定位句）。精准解释战后紧凑高效住宅风靡的深层心理机制：大萧条带来的生活克制与战后对未来的乐观自信交相辉映，直接对应 Q31 答案 [C] restraint and confidence。"
               }
             ]
           }
@@ -4493,8 +5048,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Economic condition was only a stimulus for the trend toward ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Economic condition was only a stimulus for the trend toward efficient living.",
+                "explanation": "主干为主系表结构。主语 Economic condition（经济条件/状况）；系动词 was；副词 only（仅仅是）作修饰状语；表语 a stimulus（一个刺激因素/催化剂）；介词短语 for the trend toward efficient living（推动高效生活趋势的）作后置定语。"
+              },
+              {
+                "type": "修饰限定与介词短语",
+                "content": "only a stimulus for the trend toward efficient living",
+                "explanation": "限定副词 only 表明经济拮据只是外在催化剂（stimulus），而非决定性本质，暗示推动这一变革的还有更为深层的建筑艺术与文化思潮力量。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Economic condition was only a stimulus...",
+                "explanation": "承上启下过渡句。将视野从民众层面的被动经济适应，引申至建筑设计界的先锋思想引领，为下一句介绍建筑大师密斯·凡德罗及包豪斯学派奠定逻辑跳板。"
               }
             ]
           }
@@ -4510,9 +5075,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who like other people associated with the Ba...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "The phrase “less is more” was actually first popularized by a German, the architect Ludwig Mies van der Rohe, who like other people associated with the Bauhaus, a school of design, emigrated to the United States before World War II and took up posts at American architecture schools.",
+                "explanation": "主干为主谓结构（被动语态）。主语 The phrase “less is more”；时间副词 actually first；谓语动词为一般过去时被动语态 was popularized by（被推广流传）；介词宾语 a German；同位语 the architect Ludwig Mies van der Rohe；who 引导非限制性定语从句修饰 Mies。"
+              },
+              {
+                "type": "同位语与非限制性定语从句",
+                "content": "who like other people associated with the Bauhaus, a school of design, emigrated ... and took up posts...",
+                "explanation": "① the architect... 作 a German 的同位语；② a school of design 作 the Bauhaus 的同位语；③ who 引导从句修饰 Mies，内嵌介词短语 like other people associated with the Bauhaus 作比照插入语，从句并列谓语 emigrated to...（移居美国）与 took up posts at...（在美国建筑学院任教）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "popularized by ... Ludwig Mies van der Rohe, who like other people associated with the Bauhaus...",
+                "explanation": "关键人物与学派溯源（Q32题眼依托）。指出“少即是多”源于德国包豪斯大师密斯，其流亡美国并执掌建筑名校，为包豪斯思想深刻改造美国建筑史奠定关键传播链（支撑 Q32 [D] It had a great influence upon American architecture）。"
               }
             ]
           }
@@ -4529,8 +5104,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "These designers came to exert enormous influence on the cour...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "These designers came to exert enormous influence on the course of American architecture, but none more so than Mies.",
+                "explanation": "主干由转折连词 but 连接的两个分句构成。第一分句为主谓宾结构：主语 These designers（指代包豪斯流亡设计师群）；谓语动词短语 came to exert（逐渐施加/发挥）；宾语 enormous influence（巨大影响）；介词短语 on the course of American architecture 作方向定语。第二分句为省略比较分句：主语代词 none；比较级短语 more so than Mies（没有谁的影响比得上密斯）。"
+              },
+              {
+                "type": "省略比较结构剖析",
+                "content": "but none more so than Mies",
+                "explanation": "none more so than Mies 承前省略了 exerted influence，意为“但没有哪位设计师比密斯的影响更为深远”，使用否定词 none + 比较级 more 表达最高级含义，极力推崇密斯的领袖地位。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "exert enormous influence on the course of American architecture, but none more so than Mies",
+                "explanation": "权威定性与命题题眼（Q32直接定位句）。包豪斯先锋群对美国建筑进程产生巨大影响，直接确立了 Q32 的推论，并将密斯确立为全文核心剖析的设计图腾。"
               }
             ]
           }
@@ -4546,9 +5131,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that less decoration...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Mies’s signature phrase means that less decoration, properly organized, has more impact than a lot.",
+                "explanation": "主干为主谓宾复合句。主语 Mies’s signature phrase（密斯的标志性名言）；谓语动词 means（意味着）；that 引导宾语从句。从句主语 less decoration（更少的装饰）；插入语 properly organized；谓语动词 has；宾语 more impact（更大的视觉冲击力与感染力）；比较介词短语 than a lot（多于堆砌的繁复装饰）。"
+              },
+              {
+                "type": "过去分词插入语与比较级",
+                "content": "less decoration, properly organized, has more impact than a lot",
+                "explanation": "① properly organized 为过去分词短语作插入定语/条件状语，修饰 less decoration，意为“只要组织编排得当”；② 比较级 more impact than a lot 精妙诠释了“以少胜多”的极简主义美学内核。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "less decoration, properly organized, has more impact than a lot",
+                "explanation": "设计哲学解码（Q33题眼先行句）。密斯名言的本质不是粗制滥造，而是通过精妙的构成设计让极简装饰产生超越繁复堆砌的强大震撼力。"
               }
             ]
           }
@@ -4565,8 +5160,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Elegance, he believed, did not derive from abundance....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Elegance, he believed, did not derive from abundance.",
+                "explanation": "主干为包含插入语的主谓介宾结构。主语 Elegance（高雅、优雅格调）；插入语 he believed（他坚信）；否定谓语动词短语 did not derive from（并非源于/来自）；介词宾语 abundance（繁复堆砌、丰盛过剩）。"
+              },
+              {
+                "type": "插入语与否定论断",
+                "content": "Elegance, he believed, did not derive from abundance",
+                "explanation": "插入语 he believed 强化引述密斯的美学信仰；否定动词短语 did not derive from abundance 旗帜鲜明地否定了“奢华等于堆砌”的传统庸俗审美观。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Elegance ... did not derive from abundance",
+                "explanation": "核心论点与命题题眼（Q33同义替换句）。高雅格调绝非来自装饰的堆砌过剩，完全同义替换 Q33 答案：[C] was not reliant on abundant decoration。"
               }
             ]
           }
@@ -4582,9 +5187,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that we take for granted today but that in th...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Like other modern architects, he employed metal, glass and laminated wood—materials that we take for granted today but that in the 1940s symbolized the future.",
+                "explanation": "主干为主谓宾结构。介词短语 Like other modern architects 作状语；主语代词 he；谓语动词 employed（采用、运用）；并列宾语 metal, glass and laminated wood（金属、玻璃和胶合木）；破折号后 materials 为同位语，后接两个由 but 连接的并列定语从句。"
+              },
+              {
+                "type": "同位语与双重并列定语从句",
+                "content": "materials that we take for granted today but that in the 1940s symbolized the future",
+                "explanation": "① materials 作前面三种建筑用料的概括性同位语；② 第一定语从句中 that 作 take for granted 的宾语（take sth for granted 视为理所当然）；③ 第二定语从句中 that 作主语，时间状语 in the 1940s，谓语 symbolized（象征），宾语 the future（未来）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "materials that we take for granted today but that in the 1940s symbolized the future",
+                "explanation": "材料革命与时代象征。揭示工业新材料在当时的颠覆性先锋意义：玻璃与钢铁并非廉价替代，而是战后人们憧憬现代未来的科技与工业象征。"
               }
             ]
           }
@@ -4600,9 +5215,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that the spaces he designed were small and ef...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Mies’s sophisticated presentation masked the fact that the spaces he designed were small and efficient, rather than big and often empty.",
+                "explanation": "主干为主谓宾复合句。主语 Mies’s sophisticated presentation（密斯精致考究的表现形式/外观呈现）；谓语动词 masked（掩盖、遮蔽）；宾语 the fact；that 引导同位语从句解释 the fact。"
+              },
+              {
+                "type": "同位语从句与定语从句",
+                "content": "that the spaces he designed were small and efficient, rather than big and often empty",
+                "explanation": "同位语从句中：主语 the spaces；省略 that/which 的定语从句 he designed 修饰 spaces；系动词 were；并列形容词表语 small and efficient（紧凑而高效）；排除转折介词短语 rather than big and often empty（而不是庞大且往往空旷死板）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "masked the fact that the spaces he designed were small and efficient...",
+                "explanation": "精妙设计技巧点化。揭示大师的卓越技艺：通过精湛的比例与材料呈现，化解了紧凑小户型带来的逼仄感，让小空间显得高级高效而不显逼仄局促。"
               }
             ]
           }
@@ -4619,8 +5244,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The apartments in the elegant towers Mies built on Chicago’s...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The apartments in the elegant towers Mies built on Chicago’s Lake Shore Drive, for example, were smaller—two-bedroom units under 1,000 square feet—than those in their older neighbors along the city’s Gold Coast.",
+                "explanation": "主干为主系表比较句。主语 The apartments，介词短语 in the elegant towers 作后置定语；Mies built on Chicago’s Lake Shore Drive 为省略关系词的定语从句；插入语 for example；系动词 were；表语比较级 smaller；破折号间为同位语；比较结构 than those（指代 apartments）；介词短语 in their older neighbors along the city’s Gold Coast 作比较对象的后置定语。"
+              },
+              {
+                "type": "同位语与比较结构",
+                "content": "smaller—two-bedroom units under 1,000 square feet—than those...",
+                "explanation": "① 破折号插入语 two-bedroom units under 1,000 square feet（不足1000平方英尺的两居室）作同位语，给出小户型的精准量化数据；② than those 构成与芝加哥黄金海岸传统老旧豪宅的大面积对比。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The apartments in the elegant towers Mies built on Chicago’s Lake Shore Drive...",
+                "explanation": "经典代表作实证。以密斯在芝加哥湖滨大道设计的标志性公寓塔楼为例，具象化展现先锋现代建筑如何在微型紧凑户型上实现高端居住格调。"
               }
             ]
           }
@@ -4636,9 +5271,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "because of their airy glass walls...",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "But they were popular because of their airy glass walls, the views they afforded and the elegance of the buildings’ details and proportions, the architectural equivalent of the abstract art so popular at the time.",
+                "explanation": "主干为 But 引出的主系表复合结构。转折连词 But；主语 they（指前述小户型公寓）；系动词 were；表语 popular；because of 引出三重并列原因介词短语：① their airy glass walls；② the views they afforded；③ the elegance of the buildings’ details and proportions。逗号后 the architectural equivalent... 作整个后半句的同位语。"
+              },
+              {
+                "type": "定语从句与同位语修辞",
+                "content": "the views they afforded ... the architectural equivalent of the abstract art so popular at the time",
+                "explanation": "① they afforded 为省略关系词的定语从句修饰 the views（它们所提供的壮丽视野）；② the architectural equivalent... 作前面建筑细节与比例的同位语，意为“在建筑领域与当时备受追捧的抽象艺术具有同等地位”，形容词短语 so popular at the time 作后置定语修饰 abstract art。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the architectural equivalent of the abstract art so popular at the time",
+                "explanation": "美学定位与命题题眼（Q34定位句）。密斯公寓之所以受热捧，是因为通透的玻璃幕墙与比例优雅的细部设计与当时流行的抽象艺术同声相应，直接对应 Q34 答案 [D] They shared some characteristics of abstract art。"
               }
             ]
           }
@@ -4655,8 +5300,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The trend toward “less” was not entirely foreign....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The trend toward “less” was not entirely foreign.",
+                "explanation": "主干为主系表结构。主语 The trend toward “less”（走向“以少为美”的趋势）；系动词 was；否定副词 not；程度副词 entirely（完全）；表语形容词 foreign（外来的、异国的）。"
+              },
+              {
+                "type": "双重修饰与语义切入",
+                "content": "not entirely foreign",
+                "explanation": "not entirely 构成部分否定（并非完全）；foreign 承接上文德国包豪斯大师的“外来输入”，宣告极简主义在美国并非单纯的欧洲舶来品，而是本土早有深厚文脉根基。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The trend toward “less” was not entirely foreign",
+                "explanation": "篇章转折承上启下句（Section Transition）。从欧洲先锋大师的外来输入，切换到美国本土建筑传统的寻根梳理，引出后文对本土大师赖特及加州案例研究住宅的探讨。"
               }
             ]
           }
@@ -4673,8 +5328,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In the 1930s Frank Lloyd Wright started building more modest...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "In the 1930s Frank Lloyd Wright started building more modest and efficient houses—usually around 1,200 square feet— than the spreading two-story ones he had designed in the 1890s and the early 20th century.",
+                "explanation": "主干为主谓宾比较句。时间状语 In the 1930s；主语 Frank Lloyd Wright（弗兰克·劳埃德·赖特，美国本土建筑大师）；谓语动词 started；动名词短语 building more modest and efficient houses 作宾语；破折号后为尺寸补充插入语；比较连词 than 连接比较对象 the spreading two-story ones；he had designed... 为省略关系词的定语从句。"
+              },
+              {
+                "type": "同位补充与比较定语从句",
+                "content": "usually around 1,200 square feet ... than the spreading two-story ones he had designed...",
+                "explanation": "① 插入语 usually around 1,200 square feet 具体量化小面积；② spreading two-story ones 指代其早期设计的铺展蔓延式两层大宅（草原学派住宅）；定语从句 he had designed... 交代其早期历史风格。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Frank Lloyd Wright started building more modest and efficient houses...",
+                "explanation": "本土先驱论据一。以美国国宝级建筑师赖特在1930年代转向“微型务实（modest and efficient）”住宅（流水别墅时代的另一面），实证论述极简理念深植于美国本土探索。"
               }
             ]
           }
@@ -4691,8 +5356,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The “Case Study Houses” commissioned from talented modern ar...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The “Case Study Houses” commissioned from talented modern architects by California Arts & Architecture magazine between 1945 and 1962 were yet another homegrown influence on the “less is more” trend.",
+                "explanation": "主干为主系表结构。主语 The “Case Study Houses”（“案例研究住宅”项目）；过去分词短语 commissioned from... by... between... 作后置定语修饰主语；系动词 were；表语名词短语 yet another homegrown influence（另一个本土源起的深远影响）；介词短语 on the “less is more” trend 作作用对象定语。"
+              },
+              {
+                "type": "复杂非谓语过去分词修饰",
+                "content": "commissioned from talented modern architects by California Arts & Architecture magazine between 1945 and 1962",
+                "explanation": "过去分词 commissioned 表被动：由《加州艺术与建筑》杂志在1945至1962年间委托多位杰出现代建筑师设计建造，交代该经典项目的官方发起渊源。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The “Case Study Houses” ... were yet another homegrown influence on the “less is more” trend",
+                "explanation": "本土先驱论据二与命题引子（Q35背景）。引入美国战后最负盛名的加州先锋住宅实验项目，有力论证“少即是多”在美国西海岸本土的蓬勃发展。"
               }
             ]
           }
@@ -4709,8 +5384,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Aesthetic effect came from the landscape, new materials and ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Aesthetic effect came from the landscape, new materials and forthright detailing.",
+                "explanation": "主干为主谓介宾结构。主语 Aesthetic effect（美学效果/艺术感染力）；谓语动词短语 came from（源自于）；三重并列介词宾语：① the landscape（自然景观/周边地貌）；② new materials（新型工业材料）；③ forthright detailing（直率朴素的细节构件）。"
+              },
+              {
+                "type": "并列介词短语剖析",
+                "content": "came from the landscape, new materials and forthright detailing",
+                "explanation": "the landscape 点明建筑与自然环境融为一体的有机美学；new materials 与 forthright detailing 说明摒弃繁文缛节、直面材料构造本质的美学取向。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Aesthetic effect came from the landscape...",
+                "explanation": "美学机制与命题题眼（Q35定位句）。明确指出案例研究住宅的美感来自周围自然风光（the landscape）、新材料与朴实细节，直接对应 Q35 答案 [B] Natural scenes were taken into consideration。"
               }
             ]
           }
@@ -4726,14 +5411,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "though most eventually got clothes dryers—but h...",
-                "explanation": "从属连词 <code>though</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "In his Case Study House, Ralph Rapson may have mispredicted just how the mechanical revolution would impact everyday life—few American families acquired helicopters, though most eventually got clothes dryers—but his belief that self-sufficiency was both desirable and inevitable was widely shared.",
+                "explanation": "主干为转折连词 but 连接的两个并列分句。第一分句为主谓宾复合句：介词短语 In his Case Study House 作状语；主语 Ralph Rapson；情态动词 may + 完成式 have mispredicted 构成谓语（可能误判了）；just how... 引导宾语从句；破折号间为生动对比插入语。第二分句为主谓结构（被动语态）：转折连词 but；主语 his belief；that 引导同位语从句解释 belief；谓语为被动语态 was widely shared（得到广泛赞同）。"
               },
               {
-                "type": "名词性从句",
-                "content": "how the mechanical revolution would impact e...",
-                "explanation": "连接词 <code>how</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "同位语从句与幽默插入语",
+                "content": "—few American families acquired helicopters, though most eventually got clothes dryers—but his belief that self-sufficiency was both desirable and inevitable...",
+                "explanation": "① 破折号中 though 引导让步从句，用“鲜有家庭买得起直升机，但多数最终买上了烘干机”制造诙谐反差；② that 引导同位语从句中，self-sufficiency（自给自足、自立）为主语，系表结构 was both desirable and inevitable（既令人向往又不可避免）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "his belief that self-sufficiency was both desirable and inevitable was widely shared",
+                "explanation": "全文哲学升华与时代共鸣。作者以幽默笔触包容建筑师对机械乌托邦的过高估计，最终定格于战后美国人对“自给自足、简约高效”生活方式的高度文化认同，给全篇画上余音袅袅的句号。"
               }
             ]
           }
@@ -6189,8 +6879,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Will the European Union make it?...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Will the European Union make it?",
+                "explanation": "主干为一般将来时一般疑问句。助动词 Will 置于句首；主语 the European Union（欧洲联盟/欧盟）；动词短语 make it（成功度过难关、挺过去、存活下来）。"
+              },
+              {
+                "type": "习语搭配与设问修辞",
+                "content": "Will ... make it?",
+                "explanation": "make it 为高频口语与政经习语，意为“成功挺过危机、幸存下来”；短促有力的单句设问直击危机核心，瞬间抓住读者眼球。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Will the European Union make it?",
+                "explanation": "篇首悬念式设问（Rhetorical Hook）。作者以对欧盟存亡命运的尖锐质疑开篇，将欧债危机爆发背景下欧洲一体化面临的空前生死大考摆在全篇焦点位置。"
               }
             ]
           }
@@ -6207,8 +6907,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The question would have sounded strange not long ago....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The question would have sounded strange not long ago.",
+                "explanation": "主干为主系表结构（含虚拟语气）。主语 The question（这个问题，指前句欧盟能否挺过去）；谓语动词 would have sounded（过去听起来本该是……）；表语形容词 strange（奇怪的、荒谬的）；时间副词短语 not long ago（不久之前）作状语。"
+              },
+              {
+                "type": "虚拟语气与时间对照",
+                "content": "would have sounded strange not long ago",
+                "explanation": "“would have done + 过去时间状语”构成与过去事实相反的虚拟语气，表明就在不久前欧洲一体化还被视为不可逆转的历史大潮，任何质疑欧盟存续的问题都会显得荒诞不经。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The question would have sounded strange not long ago",
+                "explanation": "昔盛今衰的认知落差。通过虚拟语气构建今昔对比，凸显欧债危机爆发速度之迅猛、冲击力之巨大，使曾经不可思议的解体危机迅速沦为严峻现实。"
               }
             ]
           }
@@ -6225,8 +6935,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Now even the project’s greatest cheerleaders talk of a conti...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Now even the project’s greatest cheerleaders talk of a continent facing a “Bermuda triangle” of debt, population decline and lower growth.",
+                "explanation": "主干为主谓介宾复合结构。时间状语 Now；主语 even the project’s greatest cheerleaders（甚至连该项目最坚定的支持者/啦啦队）；谓语动词短语 talk of（谈论、忧心忡忡地提及）；介词宾语 a continent（欧洲大陆）；现在分词短语 facing a “Bermuda triangle” of... 作后置定语修饰 continent。"
+              },
+              {
+                "type": "非谓语与隐喻修辞",
+                "content": "facing a “Bermuda triangle” of debt, population decline and lower growth",
+                "explanation": "① facing 为现在分词短语作后置定语修饰 continent；② 引号中的 “Bermuda triangle”（百慕大三角）为生动绝望的灾难隐喻，介词 of 引出吞噬欧洲繁荣的三重危机：主权债务危机（debt）、人口老龄化负增长（population decline）以及经济低速增长（lower growth）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "even the project’s greatest cheerleaders talk of a continent facing a “Bermuda triangle”...",
+                "explanation": "反常现象与命题题眼（Q36定位句）。连欧盟最忠诚的鼓吹者（cheerleaders）都在公开表达对“百慕大三角”危机的深切恐慌，直接对应 Q36 答案：[B] even its supporters begin to feel concerned。"
               }
             ]
           }
@@ -6242,9 +6962,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that use the single currency....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "As well as those chronic problems, the EU faces an acute crisis in its economic core, the 16 countries that use the single currency.",
+                "explanation": "主干为主谓宾结构。介词短语 As well as those chronic problems（除那些慢性宿疾外）作补充状语；主语 the EU；谓语动词 faces（面临）；宾语 an acute crisis（一场急症/剧烈危机）；介词短语 in its economic core 作地点状语；同位语 the 16 countries...，that 引导限制性定语从句。"
+              },
+              {
+                "type": "词汇对照与同位语从句",
+                "content": "chronic problems vs acute crisis ... the 16 countries that use the single currency",
+                "explanation": "① chronic（长期的、慢性的）与 acute（急性的、剧烈的）形成医学病理学上的经典对照，将宏观经济的三重隐患定性为“慢性病”，而将当下的单一货币危机定性为“急症”；② the 16 countries... 为 economic core 的同位语，that 从句说明其特征是采用欧元单一货币。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the EU faces an acute crisis in its economic core, the 16 countries...",
+                "explanation": "论题精准聚焦（From Broad to Specific）。文章从全欧洲的人口与债务慢性病，迅速聚焦至全剧暴风眼——欧元区核心16国面临的急性汇率与主权债务违约危机。"
               }
             ]
           }
@@ -6260,9 +6990,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which denies uncompetitive members the quick f...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Markets have lost faith that the euro zone’s economies, weaker or stronger, will one day converge thanks to the discipline of sharing a single currency, which denies uncompetitive members the quick fix of devaluation.",
+                "explanation": "主干为主谓宾复合句。主语 Markets（金融市场）；谓语动词为现在完成时 have lost（丧失了）；宾语 faith（信心）；that 引导同位语从句解释 faith。同位语从句中：主语 the euro zone’s economies；让步插入语 weaker or stronger；时间状语 will one day；谓语动词 converge（走向趋同）；介词短语 thanks to... 作原因状语；which 引导非限制性定语从句。"
+              },
+              {
+                "type": "同位语从句与定语从句",
+                "content": "that the euro zone’s economies ... converge thanks to ... which denies uncompetitive members the quick fix of devaluation",
+                "explanation": "① that 引导同位语从句充实 faith 的内容；② weaker or stronger 为形容词短语作让步插入语（无论强弱）；③ thanks to the discipline... 说明欧元设计的初衷是靠统一货币纪律倒逼各国改革；④ which 引导从句修饰 sharing a single currency，双宾语结构 denies sb sth（剥夺某人某物），说明单一货币剥夺了南欧弱国通过“货币贬值（devaluation）”这种快速见效的权宜之计（quick fix）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Markets have lost faith that the euro zone’s economies ... will one day converge",
+                "explanation": "欧元机制根本性缺陷揭示。剖析市场信心的崩塌根源：欧元区由于剥夺了主权国家的汇率调节权（no devaluation），强弱经济体非但未能如愿趋同，反而因竞争力差距拉大走向两极分化。"
               }
             ]
           }
@@ -6278,9 +7018,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "how to save Europe’s single currency from di...",
-                "explanation": "连接词 <code>how</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Yet the debate about how to save Europe’s single currency from disintegration is stuck.",
+                "explanation": "主干为主系表结构。转折连词 Yet；主语 the debate（争论/辩论）；介词短语 about how to save Europe’s single currency from disintegration 作后置定语；系动词 is；表语形容词 stuck（陷入僵局的、停滞不前的）。"
+              },
+              {
+                "type": "疑问词短语作后置定语",
+                "content": "about how to save Europe’s single currency from disintegration",
+                "explanation": "about 连接疑问副词 how + 不定式 to save A from B（拯救欧洲单一货币免于分崩离析），精准概括了争辩的核心任务；表语 stuck 形象传达出谈判毫无进展的停滞泥潭状态。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Yet the debate about how to save Europe’s single currency ... is stuck",
+                "explanation": "第三段总起转折句（Topic Transition）。Yet 骤然转折，引出救援谈判的政治困局，为下一句阐述德法两国分歧奠定直接靶向。"
               }
             ]
           }
@@ -6296,14 +7046,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "because the euro zone’s dominant powers...",
-                "explanation": "从属连词 <code>because</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "It is stuck because the euro zone’s dominant powers, France and Germany, agree on the need for greater harmonisation within the euro zone, but disagree about what to harmonise.",
+                "explanation": "主干为 because 引导原因状语从句的主从复合句。主句 It is stuck；because 引导从句，从句主语 the euro zone’s dominant powers（欧元区主导大国）；同位语 France and Germany；并列谓语由 but 连接：agree on the need for greater harmonisation...（认同需要更紧密的协调）but disagree about what to harmonise（但对协调什么存在分歧）。"
               },
               {
-                "type": "名词性从句",
-                "content": "what to harmonise....",
-                "explanation": "连接词 <code>what</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "同位语与转折并列谓语",
+                "content": "France and Germany ... agree on ... but disagree about what to harmonise",
+                "explanation": "① France and Germany 作 dominant powers 的同位语；② agree on 与 disagree about 构成对比转折；③ what to harmonise 为“疑问代词 + 不定式”充当介词 about 的宾语，说明德法仅在宏观方向上达成共识，在具体协调内容与权能让渡上水火不容。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "agree on the need for greater harmonisation ... but disagree about what to harmonise",
+                "explanation": "僵局根源与命题题眼（Q37定位句）。明确回答了拯救欧元的辩论为何陷入僵局：德法两大巨头虽认同协调的必要性，却无法在协调的具体内容上达成一致，直接对应 Q37 答案：[C] fail to reach an agreement on harmonisation。"
               }
             ]
           }
@@ -6319,9 +7074,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that do not obey....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Germany thinks the euro must be saved by stricter rules on borrowing, spending and competitiveness, backed by quasi-automatic sanctions for governments that do not obey.",
+                "explanation": "主干为主谓宾复合句。主语 Germany（德国）；谓语动词 thinks；省略 that 的宾语从句 the euro must be saved by...。宾语从句内部：主语 the euro；情态被动谓语 must be saved；方式状语 by stricter rules on borrowing, spending and competitiveness；过去分词短语 backed by... 作后置定语修饰 rules；that 引导定语从句修饰 governments。"
+              },
+              {
+                "type": "过去分词定语与定语从句",
+                "content": "backed by quasi-automatic sanctions for governments that do not obey",
+                "explanation": "① 过去分词短语 backed by... 作定语，意为“由……作为后盾支持”，说明规则必须带有准自动触发的惩罚铁腕；② that 引导定语从句修饰 governments，在从句中作主语，谓语 do not obey 说明制裁对象是不守纪律的违规政府。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Germany thinks the euro must be saved by stricter rules ... backed by quasi-automatic sanctions",
+                "explanation": "德国救市路线与命题题眼（Q38定位句）。详细阐述德国严守财政纪律的紧缩主义方案：用更严苛的借贷支出规则和刚性制裁惩罚违规国家，直接对应 Q38 答案：[B] stricter regulations be imposed。"
               }
             ]
           }
@@ -6338,8 +7103,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "These might include threats to freeze EU funds for poorer re...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "These might include threats to freeze EU funds for poorer regions and EU mega-projects, and even the suspension of a country’s voting rights in EU ministerial councils.",
+                "explanation": "主干为主谓宾结构。主语 These（这些制裁措施，指代前文 sanctions）；情态动词 might + 动词原形 include 构成谓语（可能包括）；并列宾语由 and even 连接：① threats to freeze EU funds...（冻结欧盟对贫困地区及重大工程基金的威胁）；② the suspension of a country’s voting rights...（暂停某国在欧盟部长理事会中的投票权）。"
+              },
+              {
+                "type": "不定式定语与介词短语",
+                "content": "to freeze EU funds for poorer regions ... suspension of a country’s voting rights...",
+                "explanation": "① 不定式 to freeze... 作 threats 的后置定语，阐述经济制裁的具体手段；② the suspension of... 展现政治层面的剥夺权力手段，由经济惩罚层递升级至政治惩戒。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "include threats to freeze EU funds ... and even the suspension of a country’s voting rights",
+                "explanation": "德国制裁铁腕具象化。展示德国主张的惩戒烈度之高：不仅扣留发展援助资金，甚至剥夺国家主权投票权，体现日耳曼式严厉律令风格。"
               }
             ]
           }
@@ -6355,9 +7130,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "whom there is a small majority for free-marke...",
-                "explanation": "关系词 <code>whom</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "It insists that economic co-ordination should involve all 27 members of the EU club, among whom there is a small majority for free-market liberalism and economic rigour; in the inner core alone, Germany fears, a small majority favour French interference.",
+                "explanation": "主干由分号连接的两个分句组成。第一分句为主谓宾复合句：主语 It（德国）；谓语 insists；that 引导宾语从句（虚拟语气 should involve）；介词 + 关系代词 among whom 引导非限制性定语从句。第二分句为主谓宾并列句：介词短语 in the inner core alone 作状语；插入语 Germany fears；主语 a small majority；谓语 favour；宾语 French interference（法国式的国家干预主义）。"
+              },
+              {
+                "type": "宾语从句与介词定语从句",
+                "content": "insists that ... should involve ... among whom there is a small majority...",
+                "explanation": "① insist 后的宾语从句谓语动词采用“should + 动词原形”虚拟语气；② among whom 引导定语从句修饰 all 27 members，从句为 there be 句型，说明在扩容后的27国大盘子中，推崇自由市场与财政严谨的国家占微弱多数，这是德国希望拉大欧盟制衡南欧的小算盘。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "economic co-ordination should involve all 27 members ... Germany fears, a small majority favour French interference",
+                "explanation": "德国地缘政治算计剖析。揭露德国之所以坚持27国共同协调，是因为害怕如果在欧元区内部核心圈（inner core）单练，崇尚法式国家干预的盟友会占上风，因此需要借助外围自由市场国家来稀释法国影响力。"
               }
             ]
           }
@@ -6374,8 +7159,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
+                "content": "A “southern” camp headed by France wants something different: “European economic government” within an inner core of euro-zone members.",
+                "explanation": "主干为主谓宾结构。主语 A “southern” camp（一个“南方”阵营）；过去分词短语 headed by France（由法国牵头）作后置定语；谓语动词 wants（想要、主张）；宾语 something different（截然不同的东西）；冒号后名词短语 “European economic government”... 作同位解释语。"
+              },
+              {
+                "type": "过去分词定语与同位解释",
+                "content": "headed by France ... “European economic government” within an inner core...",
+                "explanation": "① headed by France 交代阵营盟主；② 冒号引出法国的核心主张——建立由欧元区核心国组成的“欧洲经济政府”，与德国主张的松散规则约束针锋相对。"
+              },
+              {
+                "type": "语篇逻辑与考点",
                 "content": "A “southern” camp headed by France wants something different...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "explanation": "法国反向阵营登场（Section Contrast）。视角由德国紧缩阵营转向以法国为首的南方干预派，引出截然相反的经济治理主张。"
               }
             ]
           }
@@ -6391,9 +7186,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that means politicians intervening in monetar...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Translated, that means politicians intervening in monetary policy and a system of redistribution from richer to poorer members, via cheaper borrowing for governments through common Eurobonds or complete fiscal transfers.",
+                "explanation": "主干为主谓宾复合结构。过去分词 Translated 作修饰状语；指示代词 that 作主语；谓语 means；并列宾语：① 动名词复合结构 politicians intervening in monetary policy（政客干预货币政策）；② a system of redistribution from richer to poorer members（由富国向穷国的财富再分配体系）；介词短语 via cheaper borrowing... 作实现途径状语。"
+              },
+              {
+                "type": "非谓语与复杂介词短语",
+                "content": "intervening in ... redistribution from richer to poorer members, via cheaper borrowing ... through common Eurobonds...",
+                "explanation": "① intervening in 为动名词短语，politicians 为其逻辑主语；② redistribution from richer to poorer members 勾勒出再分配机制；③ via 引出手段：通过发行共同欧洲债券（common Eurobonds）压低南欧借贷成本，或者直接推行财政转移支付（fiscal transfers）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "a system of redistribution from richer to poorer members, via cheaper borrowing... or complete fiscal transfers",
+                "explanation": "法国救市实质与命题题眼（Q39定位句）。透过外交辞令揭示法国方案的实质：利用富国信用为穷国背书，迫使富国向穷国转移资金与低息贷款，直接对应 Q39 答案：[A] poor countries are more likely to get funds。"
               }
             ]
           }
@@ -6410,8 +7215,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Finally, figures close to the French government have murmure...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Finally, figures close to the French government have murmured, euro-zone members should agree to some fiscal and social harmonisation: e.g., curbing competition in corporate- tax rates or labour costs.",
+                "explanation": "主干为带有插入引述的主从复合句。时间连接副词 Finally；插入语 figures close to the French government have murmured（接近法国政府的人士低语透露）；主句主语 euro-zone members；情态谓语 should agree to（理应同意）；宾语 some fiscal and social harmonisation（某些财政与社会维度的协调一致）；冒号后为缩写举例补充。"
+              },
+              {
+                "type": "插入语与举例说明",
+                "content": "figures close to the French government have murmured ... curbing competition in corporate- tax rates or labour costs",
+                "explanation": "① figures close to... 为形容词短语作后置定语修饰 figures，murmured 传达出闭门吹风的半官方试探色彩；② e.g. 引入现在分词短语 curbing competition...，阐明法方希望限制成员国在企业所得税率和劳动力成本上的压价竞争。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "euro-zone members should agree to some fiscal and social harmonisation...",
+                "explanation": "法方诉求的进一步延展。揭示法国试图在福利与税收政策上消除竞争壁垒、推行法式高福利统一规制的战略意图，与德国的紧缩自治构成无法弥合的鸿沟。"
               }
             ]
           }
@@ -6428,8 +7243,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "It is too soon to write off the EU....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "It is too soon to write off the EU.",
+                "explanation": "主干为“It is + adj + to do”形式主语结构。形式主语 It；系动词 is；表语形容词短语 too soon（为时过早）；真正主语动词不定式短语 to write off the EU（彻底看衰/注销欧盟）。"
+              },
+              {
+                "type": "动词习语与形式主语",
+                "content": "too soon to write off the EU",
+                "explanation": "write off 为商业与日常习语，原指“将债务作为坏账注销”，引申为“彻底看扁、放弃、判定彻底失败”；too soon 明确否定了外界泛滥的欧盟崩溃论。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "It is too soon to write off the EU",
+                "explanation": "末段态度大转折主题句（Final Stance Shift & Q40题眼）。在详尽罗列危机与谈判僵局后，作者突然力挽狂澜，亮明自身对欧盟前途的积极审慎态度：断言欧盟崩溃尚言之过早，为下文正面颂扬奠定基调。"
               }
             ]
           }
@@ -6446,8 +7271,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "It remains the world’s largest trading block....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "It remains the world’s largest trading block.",
+                "explanation": "主干为主系表结构。主语代词 It（欧盟）；连系动词 remains（依然是、保持）；表语 the world’s largest trading block（全球最大的贸易集团）。"
+              },
+              {
+                "type": "系表结构与实力背书",
+                "content": "remains the world’s largest trading block",
+                "explanation": "remains 强调一体化大厦基石的牢固性，最高级 the world’s largest trading block 以无可争辩的宏观经济体量，有力支撑欧盟不可被轻易唱衰的客观实力。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "remains the world’s largest trading block",
+                "explanation": "事实底气论据。从单纯的货币与主权债务纷争跳脱出来，回归欧盟作为一个5亿人口超大单一市场的实体经济压舱石地位。"
               }
             ]
           }
@@ -6464,8 +7299,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "At its best, the European project is remarkably liberal: bui...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "At its best, the European project is remarkably liberal: built around a single market of 27 rich and poor countries, its internal borders are far more open to goods, capital and labour than any comparable trading area.",
+                "explanation": "主干由冒号连接的判断句与阐释句组成。第一分句为主系表结构：介词短语 At its best（在其巅峰状态下）；主语 the European project（欧洲工程/一体化进程）；系动词 is；表语 remarkably liberal（极为自由开明）。第二分句：过去分词短语 built around... 作伴随状语；主语 its internal borders（其内部边界）；系动词 are；比较级表语 far more open to... than...（对商品、资本和劳动力流通的开放程度远胜任何可比区域）。"
+              },
+              {
+                "type": "非谓语伴随与比较结构",
+                "content": "built around a single market ... internal borders are far more open to goods, capital and labour than any comparable trading area",
+                "explanation": "① built around... 为过去分词短语作状语，交代单一市场吸纳了贫富27个国家；② far 修饰比较级 more open；goods, capital and labour 对应欧洲一体化著名的商品、资本、人员三大流通自由，盛赞其自由化高度举世无双。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "At its best, the European project is remarkably liberal ... internal borders are far more open...",
+                "explanation": "宏大历史价值赞颂。高度评价欧洲一体化在打破壁垒、促进生产要素跨国自由流动上的制度创新，展示其作为世界经济治理标杆的卓越价值。"
               }
             ]
           }
@@ -6482,8 +7327,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "It is an ambitious attempt to blunt the sharpest edges of gl...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "It is an ambitious attempt to blunt the sharpest edges of globalisation, and make capitalism benign.",
+                "explanation": "主干为主系表复合结构。主语 It；系动词 is；表语 an ambitious attempt（一项雄心勃勃的伟大尝试）；动词不定式短语作后置定语修饰 attempt，内部由 and 连接两个并列动词短语：① to blunt the sharpest edges of globalisation（磨平全球化最锋利的棱角/副作用）；② (to) make capitalism benign（使资本主义变得温和良善）。"
+              },
+              {
+                "type": "非谓语不定式定语与使役结构",
+                "content": "to blunt the sharpest edges of globalisation, and make capitalism benign",
+                "explanation": "① blunt... 运用生动隐喻（blunt edges 磨钝利刃），指欧盟试图抚平全球化带来的残酷弱肉强食与贫富撕裂；② make capitalism benign 为“make + 宾语 + 形容词补足语”使役结构，benign（良性的、和善仁慈的）升华了欧盟的人道主义治理愿景。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "an ambitious attempt to blunt the sharpest edges of globalisation, and make capitalism benign",
+                "explanation": "全篇崇高升华与终极态度锁定（Q40最终题眼）。文章在对欧盟文明理想的深情颂扬中落幕：欧盟是对人类资本主义制度与全球化野蛮力量的伟大驯化尝试，充分证明作者对欧盟前景抱有深沉的信心与希望，无可辩驳地锁定 Q40 答案：[D] hopeful。"
               }
             ]
           }

@@ -831,9 +831,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "What would you do with $590m?...",
-                "explanation": "连接词 <code>What</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "What would you do with $590m?",
+                "explanation": "主干为特殊疑问句（疑问代词作宾语 + 主谓介宾倒装）。疑问代词 What 置于句首充当动词 do 的逻辑宾语；情态助动词 would 提前与主语 you 构成一般疑问倒装，带有假设推想意味；谓语动词为 do；介词短语 with $590m（拿5.9亿美元做什么）作状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "What would you do with $590m?",
+                "explanation": "悬念设问与互动开篇（Opening Hook）。以普通人难以想象的巨额天文数字设问，直接拉近与读者的心理距离，激发强烈的阅读好奇心，为引出下文佛罗里达州真实巨奖得主及全篇关于“金钱如何购买持久幸福”的深度探讨拉开序幕。"
               }
             ]
           }
@@ -849,9 +854,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who recently emerged from her small...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "This is now a question for Gloria MacKenzie",
+                "explanation": "主干为主系表结构。指示代词 This 作主语，指代上句提出的花钱设问；系动词为 is；时间副词 now 作状语；表语为 a question；介词短语 for Gloria MacKenzie 作后置对象限定。"
+              },
+              {
+                "type": "同位语与定语从句",
+                "content": "an 84-year-old widow who recently emerged from her small, tin-roofed house in Florida to collect the biggest undivided lottery jackpot in history",
+                "explanation": "名词短语 an 84-year-old widow 作 Gloria MacKenzie 的同位语；关系代词 who 引导限制性定语从句修饰 widow并在从句中作主语，从句谓语动词为 emerged（走出），介词短语 from her small, tin-roofed house in Florida 作地点状语，动词不定式短语 to collect the biggest undivided lottery jackpot in history（领取史上最大单笔未拆分彩票头奖）作目的状语。"
+              },
+              {
+                "type": "修饰与反差对比",
+                "content": "small, tin-roofed house ... the biggest undivided lottery jackpot in history",
+                "explanation": "形容词短语 small, tin-roofed house（简陋的小铁皮屋）与 the biggest undivided lottery jackpot in history（史上最巨额头奖）构成戏剧性物质反差，破败住所与骤降横财形成强烈张力。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Gloria MacKenzie ... to collect the biggest undivided lottery jackpot in history",
+                "explanation": "新闻由头与现实案例落地。采用特写镜头将抽象设问瞬间具象化为真实新闻人物，以极端财富冲击的典型个案切入，引发读者对“骤富能否换来真正幸福”的沉思。"
               }
             ]
           }
@@ -867,9 +887,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "If she hopes her new-found fortune will yie...",
-                "explanation": "从属连词 <code>If</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton",
+                "explanation": "主干为主谓宾/固定习语比较结构。主语代词 she（指代麦肯齐太太）；谓语动词为情态短语 could do worse than...（做……是个极好的选择/不妨做……），从属连词 than 后接省略 to 的动词不定式 read Happy Money 作比较成分；介词短语 by Elizabeth Dunn and Michael Norton 作后置定语标明专著作者。"
+              },
+              {
+                "type": "条件状语从句与宾语从句",
+                "content": "If she hopes her new-found fortune will yield lasting feelings of fulfilment",
+                "explanation": "从属连词 If 引导条件状语从句。从句主语为 she；谓语动词 hopes；后接省略引导词 that 的宾语从句：宾语从句主语 her new-found fortune（她新获得的财富），谓语动词 will yield（产生、带来），宾语 lasting feelings of fulfilment（持久的满足感与充实感）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "could do worse than read Happy Money ... yield lasting feelings of fulfilment",
+                "explanation": "全篇核心论题引出与著作推荐。could do worse than 运用双重否定委婉表达强烈肯定建议。本句明确点出核心矛盾：巨额财富并不自动等同于“持久满足感（lasting feelings of fulfilment）”，由此自然引出全篇书评的核心文本《快乐金钱》，为全文主旨题 Q25 奠定基调。"
               }
             ]
           }
@@ -885,9 +915,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that the most rewarding ways to spend money c...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "These two academics use an array of behavioural research to show",
+                "explanation": "主干为主谓宾 + 目的状语结构。主语 These two academics（这两位学者，指邓恩与诺顿）；谓语动词 use（运用、借助）；宾语 an array of behavioural research（一系列行为学实证研究）；动词不定式短语 to show... 充当目的状语。"
+              },
+              {
+                "type": "宾语从句与后置定语",
+                "content": "that the most rewarding ways to spend money can be counterintuitive",
+                "explanation": "连接词 that 引导 show 的宾语从句。从句主语为 the most rewarding ways（最有回报/最划算的花钱方式），动词不定式短语 to spend money 作 ways 的后置定语；情态系动词 can be；表语形容词 counterintuitive（违反直觉的、反常理的）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the most rewarding ways to spend money can be counterintuitive",
+                "explanation": "段落主题句（Topic Sentence）。学术背书立论，直接给全书研究成果定性：最能换来幸福感的花钱途径往往是“反直觉的（counterintuitive）”，直接打破世俗普遍认为“买豪车豪宅最快乐”的物质主义直觉认知。"
               }
             ]
           }
@@ -904,8 +944,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Fantasies of great wealth often involve visions of fancy car...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Fantasies of great wealth often involve visions of fancy cars and extravagant homes",
+                "explanation": "主干为主谓宾结构。主语中心词 Fantasies（幻想），介词短语 of great wealth（关于巨额财富的）作后置定语；频度副词 often 作状语；谓语动词 involve（涉及、包含）；宾语中心词 visions（景象、憧憬），介词短语 of fancy cars and extravagant homes（豪车与奢华豪宅）作后置定语修饰憧憬内容。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Fantasies of great wealth often involve visions of fancy cars and extravagant homes",
+                "explanation": "树立常识靶子（Doxa / 直觉常态）。形象描绘公众对富裕生活的典型物质投射（豪车豪宅），为下一句使用 Yet 进行强力转折、戳破物质消费幻觉做铺垫。"
               }
             ]
           }
@@ -922,8 +967,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Yet satisfaction with these material purchases wears off fai...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Yet satisfaction with these material purchases wears off fairly quickly",
+                "explanation": "主干为主谓结构。转折连词 Yet 置于句首充当篇章连接语；主语中心词 satisfaction（满足感），介词短语 with these material purchases（对这些物质商品的）作后置定语；谓语动词短语 wears off（逐渐消逝、磨灭）；程度副词短语 fairly quickly（相当迅速地）作状语修饰谓语动词。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Yet satisfaction with these material purchases wears off fairly quickly",
+                "explanation": "篇章强转折关键句（Pivot Transition）。以 Yet 迅速打破上句的物质幻想，直击消费心理学中的“享乐适应（hedonic adaptation）”规律：物质购买的快乐边际效益递减极快，为后文引出“体验式消费”构建对比基准。"
               }
             ]
           }
@@ -939,9 +989,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "What was once exciting and new becomes old-ha...",
-                "explanation": "连接词 <code>What</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "What was once exciting and new becomes old-hat; regret creeps in",
+                "explanation": "全句为分号连接的两个语义并列分句。分句一为主系表结构，主语从句 What was once exciting and new，系动词 becomes，表语形容词 old-hat（过时的、陈腐的）；分句二为主谓结构，主语 regret（后悔、懊恼），谓语动词短语 creeps in（悄然滋生、潜移默化而来）。"
+              },
+              {
+                "type": "主语从句剖析",
+                "content": "What was once exciting and new",
+                "explanation": "连接代词 What 引导主语从句，并在从句中充当主语；was 为系动词；once 为时间副词修饰过去状态；exciting and new 为两个形容词构成的并列表语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "becomes old-hat; regret creeps in",
+                "explanation": "心理机制递进刻画。通过拟人动词 creeps in（悄然滋生）与俚语词 old-hat（老套过时），极为生动地再现了消费者从最初冲动兴奋到索然无味再到懊悔自责的心理过山车过程。"
               }
             ]
           }
@@ -958,8 +1018,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "It is far better to spend money on experiences, say Ms Dunn ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "It is far better to spend money on experiences, say Ms Dunn and Mr Norton",
+                "explanation": "主干为形式主语 it 引导的主系表真主语后置结构。形式主语 It；系动词 is；表语形容词比较级 far better（好得多，far 为程度副词修饰比较级）；真正主语为动词不定式短语 to spend money on experiences（把钱花在体验上）；动词短语 say Ms Dunn and Mr Norton 充当插入语引述专家观点。"
+              },
+              {
+                "type": "介词短语与举例说明",
+                "content": "like interesting trips, unique meals or even going to the cinema",
+                "explanation": "介词短语 like... 作 experiences 的同位列举状语，列举了三种典型体验：① 名词短语 interesting trips（有趣的旅行）；② 名词短语 unique meals（独特的餐饮）；③ 动名词短语 going to the cinema（去看电影）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "far better to spend money on experiences ... like interesting trips",
+                "explanation": "核心观点阐述与直接题眼（Q21 命中句）。作者借学者之口提出解决物质空虚的终极法门：体验式消费胜过物质消费。Q21 题直接考查何种消费最划算，正确选项 B 'A special tour' 即对文中 'interesting trips' 的精准同义置换；A 项（大房子）与 C 项（豪车）均为批驳的物质陷阱，D 项（大餐）偷换了 unique 的体验内涵。"
               }
             ]
           }
@@ -975,9 +1045,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "if they involve feeling more connected to o...",
-                "explanation": "从属连词 <code>if</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "These purchases often become more valuable with time",
+                "explanation": "主干为主系表结构。主语 These purchases（指代上文的体验类消费）；频度状语 often；系动词 become；表语形容词比较级 more valuable（更有价值）；介词短语 with time（随着时间流逝）作时间状语。"
+              },
+              {
+                "type": "同位语与条件状语从句",
+                "content": "as stories or memories—particularly if they involve feeling more connected to others",
+                "explanation": "双破折号中的介词短语 as stories or memories 作同位语，解释体验随时间增值的载体形态；从属连词 particularly if 引导条件状语从句，从句主语 they（体验），谓语动词 involve（涉及），动名词复合短语 feeling more connected to others（感受到与他人更紧密的连接）充当宾语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "become more valuable with time—as stories or memories ... connected to others",
+                "explanation": "心理学底层机理剖析。深入解释为什么体验能超越物质：物质随时间折旧磨损，而体验在记忆与故事的重温中不断沉淀升值，尤其是人际社交联结（connected to others）带来的情感滋养，彻底锁定了 Q21 与 Q25 的核心逻辑。"
               }
             ]
           }
@@ -993,9 +1073,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "if they could shorten their commutes to wor...",
-                "explanation": "从属连词 <code>if</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "This slim volume is packed with tips ... It seems most people would be better off",
+                "explanation": "全句由两个独立句子构成。第一句主干为主谓宾补被动结构：主语 This slim volume（这本薄薄的书），谓语动词短语 is packed with（装满、汇集），介词宾语 tips，后接不定式复合结构 to help wage slaves as well as lottery winners get the most... 作后置定语；第二句主干为主系表结构：形式主语 It，系动词 seems，后接省略 that 的真正主语从句 most people would be better off（大多数人的境况本可以好得多）。"
+              },
+              {
+                "type": "条件状语从句与三重并列",
+                "content": "if they could shorten their commutes to work, spend more time with friends and family and less of it watching television",
+                "explanation": "从属连词 if 引导虚拟语气条件状语从句，从句主语 they，包含由情态助动词 could 统领的三个并列谓语动词短语：① shorten their commutes to work（缩短上下班通勤路程）；② spend more time with friends and family（花更多时间陪伴亲友）；③ (spend) less of it watching television（少花时间看电视，watching 为现在分词作 spend 的宾补）。"
+              },
+              {
+                "type": "同位语与定语从句",
+                "content": "(something the average American spends a whopping two months a year doing, and is hardly jollier for it)",
+                "explanation": "括号中的名词代词 something 作前面整件事的同位语；后接省略关系代词的定语从句 the average American spends a whopping two months a year doing，并由 and 连接并列谓语 is hardly jollier for it（却几乎没有因此感到更快乐），形容词比较级 jollier 作表语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "spends a whopping two months a year doing, and is hardly jollier for it",
+                "explanation": "作者态度题直接题眼（Q22 命中句）。作者选用带有极强感情色彩的形容词 whopping（巨大惊人的）来描述看电视耗时之多，并用反讽断言 is hardly jollier for it（却一点也没感到更快乐），字里行间流露出对沉迷电视行为的鲜明批判态度，精准命中 Q22 题答案 A (critical)。"
               }
             ]
           }
@@ -1011,9 +1106,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when they are consumed sparingly....",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Buying gifts or giving to charity is often more pleasurable than purchasing things for oneself, and luxuries are most enjoyable",
+                "explanation": "全句为并列连词 and 连接的两个并列复合句。分句一为主系表比较结构：主语为两个动名词短语构成的并列主语 Buying gifts or giving to charity（给他人送礼或向慈善机构捐款），系动词 is，表语形容词比较级 more pleasurable，介词短语 than purchasing things for oneself 作比较状语；分句二为主系表结构：主语 luxuries（奢侈品），系动词 are，表语形容词最高级 most enjoyable。"
+              },
+              {
+                "type": "时间/条件状语从句",
+                "content": "when they are consumed sparingly",
+                "explanation": "从属连词 when 引导时间/条件状语从句修饰分句二，从句主语代词 they 指代 luxuries，谓语为一般现在时被动语态 are consumed（被消费、享用），副词 sparingly（节俭地、节制克制地）作方式状语修饰谓语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Buying gifts or giving to charity ... luxuries are most enjoyable when they are consumed sparingly",
+                "explanation": "提炼快乐消费两大原则（Q23 理论基石）。明确指出：① 利他消费（为他人花钱）比单纯利己购买更快乐；② 奢侈享受唯有在“节制克制（consumed sparingly）”时方能达到愉悦巅峰，直接为下一句麦当劳限量营销案例做理论铺垫。"
               }
             ]
           }
@@ -1029,9 +1134,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that has turned the pork sandwich into an obj...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "This is apparently the reason McDonald’s restricts the availability of its popular McRib",
+                "explanation": "主干为主系表结构。指示代词 This 作主语，指代上文节制消费提升愉悦感的原理；副词 apparently（显而易见地）作状语；系动词 is；表语 the reason；后接省略关系副词 why 的定语从句 McDonald’s restricts the availability of its popular McRib（麦当劳限制其畅销排骨堡的供应）。"
+              },
+              {
+                "type": "同位语与定语从句",
+                "content": "a marketing trick that has turned the pork sandwich into an object of obsession",
+                "explanation": "破折号后的名词短语 a marketing trick（一种营销策略）充当同位语，对限制供应的商业做法作出定性；关系代词 that 引导限制性定语从句修饰 trick 并在从句中作主语，从句谓语动词短语为 has turned... into...（将……转变为……），宾语 the pork sandwich，补足语 an object of obsession（令人痴迷追捧的对象）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "McDonald’s restricts the availability of its popular McRib ... a marketing trick",
+                "explanation": "商业实证案例与考点锁定（Q23 命中句）。麦当劳的限量策略就是典型的饥饿营销，其底层心理学本质正是利用“稀缺性（rarity / consumed sparingly）”来放大消费者的欲望与满足感，精准命中 Q23 题正确选项 D 'rarity generally increases pleasure'。"
               }
             ]
           }
@@ -1048,8 +1163,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Readers of Happy Money are clearly a privileged lot, anxious...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Readers of Happy Money are clearly a privileged lot",
+                "explanation": "主干为主系表结构。主语 Readers，介词短语 of Happy Money 作后置定语；系动词 are；副词 clearly 作评注性状语；表语 a privileged lot（一个享有特权的阶层/群体）。"
+              },
+              {
+                "type": "形容词短语作后置修饰",
+                "content": "anxious about fulfilment, not hunger",
+                "explanation": "形容词短语 anxious about fulfilment, not hunger 作为 a privileged lot 的后置定语，简练点明这一读者群体的阶级心理特征：他们忧虑的是精神满足与自我实现（fulfilment），而非肉体饥饿（hunger）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "a privileged lot, anxious about fulfilment, not hunger",
+                "explanation": "受众群体界定与辩证限定。作者在此展现批判性学术视角，指出书中的消费幸福法则主要针对衣食无忧的中产及富裕阶层，为下句进一步讨论国家贫富与幸福感的关系做铺垫。"
               }
             ]
           }
@@ -1066,8 +1191,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Money may not quite buy happiness, but people in wealthier c...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Money may not quite buy happiness, but people in wealthier countries are generally happier than those in poor ones",
+                "explanation": "全句为并列连词 but 连接的转折并列复合句。分句一为主谓宾结构：主语 Money，情态否定谓语 may not quite buy，宾语 happiness；分句二为主系表比较结构：主语中心词 people，介词短语 in wealthier countries 作定语，系动词 are，频度副词 generally，表语形容词比较级 happier，介词短语 than those in poor ones 作比较状语（代词 those 指代 people，代词 ones 指代 countries）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Money may not quite buy happiness, but people in wealthier countries are generally happier",
+                "explanation": "现实数据校准与反常识平衡。前半句援引俗语“金钱买不来幸福”，后半句以 but 话锋一转，用宏观统计数据说明富裕国家人民普遍比穷国更幸福，避免陷入虚无主义的鸡汤说教，保证了论证的客观严谨性。"
               }
             ]
           }
@@ -1084,8 +1214,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Yet the link between feeling good and spending money on othe...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Yet the link between feeling good and spending money on others can be seen ... and scarcity enhances the pleasure of most things for most people",
+                "explanation": "全句由转折连词 Yet 引领，并通过并列连词 and 连接两个并列分句。分句一为主谓被动结构：主语中心词 the link，后接两个动名词介词短语 between feeling good and spending money on others 作定语，情态被动语态 can be seen 作谓语，介词短语 among rich and poor people around the world 作范围状语；分句二为主谓宾结构：主语 scarcity（稀缺性），谓语 enhances（提升、增加），宾语 the pleasure of most things，介词短语 for most people 作对象状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "scarcity enhances the pleasure of most things for most people",
+                "explanation": "普适法则升华与题眼二次印证（Q23 & Q25 双重呼应）。Yet 实现终极反转：尽管贫富客观存在，但“利他消费带来快乐”与“稀缺性倍增愉悦（scarcity enhances the pleasure）”是跨越阶层和国界的终极普遍人性规律，再次铁证 Q23 正确选项 D。"
               }
             ]
           }
@@ -1101,9 +1236,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which range from mandating more holiday time t...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Not everyone will agree with the authors’ policy ideas",
+                "explanation": "主干为主谓宾结构（部分否定句式）。否定词 Not 与不定代词 everyone 结合构成部分否定（并非所有人）；情态谓语 will agree with（赞同）；宾语 the authors’ policy ideas（作者提出的政策设想）。"
+              },
+              {
+                "type": "非限制性定语从句与动名词",
+                "content": "which range from mandating more holiday time to reducing tax incentives for American homebuyers",
+                "explanation": "关系代词 which 引导非限制性定语从句修饰 policy ideas 并在从句中作主语，从句谓语动词短语为 range from... to...（范围涵盖从……到……），介词 from 和 to 分别后接动名词短语：① mandating more holiday time（强制要求更多休假时间）；② reducing tax incentives for American homebuyers（削减给购房者的税收优惠补贴）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Not everyone will agree with the authors’ policy ideas",
+                "explanation": "欲扬先抑的让步过渡。在书评末尾客观点出书中提出的公共政策设想具有一定争议性，并未全盘神化，从而为末句给予该书高度赞誉与推荐构建合理的认知铺垫。"
               }
             ]
           }
@@ -1120,8 +1265,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But most people will come away from this book believing it w...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But most people will come away from this book believing it was money well spent",
+                "explanation": "主干为主谓 + 分词状语结构。转折连词 But 置于句首；主语 most people；谓语动词短语 will come away from this book（读完此书后离开/从中有所收获）；现在分词短语 believing it was money well spent 作伴随/结果状语。"
+              },
+              {
+                "type": "宾语从句与分词后置定语",
+                "content": "believing it was money well spent",
+                "explanation": "分词 believing 后接省略连接词 that 的宾语从句。从句主语代词 it 指代购买该书的花费；系动词 was；表语中心词 money，过去分词短语 well spent（花得值当的）作 money 的后置定语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "believing it was money well spent",
+                "explanation": "全篇高潮总评与题眼锁定（Q24 命中句）。作者巧妙运用双关语 money well spent（这钱花得值）对整部著作给出极高评价：购买并阅读该书本身就是一笔超值的体验投资。直接命中 Q24 正确选项 B 'may prove to be a worthwhile purchase'（worthwhile purchase 与 money well spent 形成完美同义替换）。"
               }
             ]
           }
@@ -2560,9 +2715,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that empirical research says that...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "An article in Scientific American has pointed out that ...",
+                "explanation": "主干为主谓宾结构。主语中心词 An article，介词短语 in Scientific American 作后置定语标明权威出处；谓语动词为现在完成时 has pointed out（已经指出）；that 引导整个深层嵌套的宾语从句。"
+              },
+              {
+                "type": "嵌套宾语从句与比较从句",
+                "content": "that empirical research says that, actually, you think you’re more beautiful than you are",
+                "explanation": "第一层宾语从句中，主语为 empirical research（实证研究），谓语 says，后接第二层连接词 that 引导的宾语从句；第二层从句中，副词 actually 作插入语，主语 you，谓语 think，后接第三层省略 that 的从句 you’re more beautiful；than 引导比较状语从句 than you are (beautiful)，从句中省略了重复的表语形容词。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "you think you’re more beautiful than you are",
+                "explanation": "核心主旨立论与读者代入（Topic Sentence & Q26 引言）。开篇引用《科学美国人》实证研究，直截了当以第二人称 you 揭示全篇核心论题：人们在潜意识里普遍高估自己的外貌颜值，奠定全篇探讨“自我美化偏差（self-enhancement）”的基调。"
               }
             ]
           }
@@ -2579,8 +2744,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "We have a deep-seated need to feel good about ourselves and ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "We have a deep-seated need to feel good about ourselves and we naturally employ a number of self-enhancing strategies to achieve this",
+                "explanation": "全句为并列连词 and 连接的两个并列分句。分句一为主谓宾结构：主语 We，谓语 have，宾语 a deep-seated need（根深蒂固的需求），动词不定式短语 to feel good about ourselves（自我感觉良好）作后置定语；分句二为主谓宾结构：主语 we，副词 naturally（自然而然地）作状语，谓语 employ（采用、运用），宾语 a number of self-enhancing strategies（诸多自我提升/美化策略），动词不定式短语 to achieve this 作目的状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "a deep-seated need to feel good about ourselves ... self-enhancing strategies",
+                "explanation": "心理学机理与因果推导。揭示人类自我美化行为的底层心理动力学：追求积极自我认知是人类本能的深层心理刚需（deep-seated need），为此大脑会自动启动一整套防御和美化策略。"
               }
             ]
           }
@@ -2596,9 +2766,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "what they call the “above average effect”...",
-                "explanation": "连接词 <code>what</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Social psychologists have amassed oceans of research ... and shown that ...",
+                "explanation": "主干为并列谓语的主从复合句。主语 Social psychologists（社会心理学家）；现在完成时谓语一 have amassed（积累、汇集），宾语 oceans of research（海量实证研究），介词短语 into what they call... 作限定定语；并列连词 and 连接谓语二 shown（表明、证实），后接 that 引导的宾语从句。"
+              },
+              {
+                "type": "名词性从句与同位语",
+                "content": "what they call the “above average effect”, or “illusory superiority”",
+                "explanation": "连接代词 what 引导宾语从句作介词 into 的宾语，what 在从句中充当 call 的宾补；名词短语 the “above average effect”（高于平均水平效应）与并列连词 or 连接的 “illusory superiority”（虚幻优越感）为同义学术术语。"
+              },
+              {
+                "type": "宾语从句省略排比与同位总结",
+                "content": "70 % of us rate ourselves as above average in leadership, 93 % in driving and 85 % at getting on well with others—all obviously statistical impossibilities",
+                "explanation": "that 宾语从句中包含三组并列排比数据：70%在领导力上高于平均，93%在驾驶技术上高于平均（省略 rate ourselves as above average），85%在与人相处上高于平均；破折号后 all obviously statistical impossibilities（所有这些显然都是统计学上的荒谬不可能）为代词短语充当同位语，对三项虚妄自评作出定性结论。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "above average effect ... all obviously statistical impossibilities",
+                "explanation": "核心论据与直接题眼（Q26 命中句）。通过93%等绝不可能的统计偏差数据，无可辩驳地证实社会心理学发现：人们对自己的评价存在极度虚高的脱离现实偏差，直接命中 Q26 正确选项 A 'our self-ratings are unrealistically high'。"
               }
             ]
           }
@@ -2615,8 +2800,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "We rose-tint our memories and put ourselves into self-affirm...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "We rose-tint our memories and put ourselves into self-affirming situations",
+                "explanation": "主干为并列谓语的主谓宾结构。主语 We；谓语一为由形容词派生转化的高级动词 rose-tint（粉饰、戴上玫瑰色滤镜看待），宾语 our memories（我们的记忆）；并列连词 and 连接谓语二 put，宾语 ourselves，介宾短语 into self-affirming situations（置于自我肯定的环境场景中）作地点/状态状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "rose-tint our memories and put ourselves into self-affirming situations",
+                "explanation": "日常美化行为举例。具体展示普通人维护虚荣自尊的两大日常心智技巧：选择性粉饰记忆（只记住光鲜经历），以及主动选择让自己感到受赞赏的舒适圈情境。"
               }
             ]
           }
@@ -2632,9 +2822,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when criticised...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "We become defensive ... and apply negative stereotypes to others to boost our own esteem",
+                "explanation": "主干为并列谓语结构。主语 We；谓语一为主系表结构 become defensive（变得充满防备戒心）；谓语二为 apply negative stereotypes to others（对他人施加负面刻板印象），动词不定式短语 to boost our own esteem（提升我们自身的自尊心）作目的状语。"
+              },
+              {
+                "type": "状语从句省略结构",
+                "content": "when criticised",
+                "explanation": "when criticised 为连词 when 引导时间状语从句的规范省略形式，完整形式为 when we are criticised，在主句与从句主语一致且含有 be 动词时省略主语和 be。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "apply negative stereotypes to others to boost our own esteem",
+                "explanation": "心理防御与拉踩机制。剖析人类自尊维护的阴暗一面：遭受外部批评时本能竖起防御倒刺，并通过在暗中贬低、物化他人（apply negative stereotypes）来变相哄抬自己的心理优越感。"
               }
             ]
           }
@@ -2651,8 +2851,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "We stalk around thinking we’re hot stuff....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "We stalk around thinking we’re hot stuff",
+                "explanation": "主干为主谓 + 分词伴随结构。主语 We；谓语动词短语 stalk around（昂首阔步、傲慢踱步）；现在分词短语 thinking we’re hot stuff 作伴随状语，补充说明走动时的得意心理活动。"
+              },
+              {
+                "type": "宾语从句与俚语修饰",
+                "content": "thinking we’re hot stuff",
+                "explanation": "现在分词 thinking 后接省略 that 的宾语从句 we're hot stuff；口语俚语 hot stuff 意为“极其出色的人物、万人迷、大红人”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "stalk around thinking we’re hot stuff",
+                "explanation": "段落形象化收束。以生动的肢体语言描摹（stalk around）结合地道口语（hot stuff），幽默讽刺地勾勒出人类在自我陶醉状态下的傲慢盲目肖像，为下一段正式引入严谨的实验室科学实验做生动铺垫。"
               }
             ]
           }
@@ -2669,8 +2879,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Psychologist and behavioural scientist Nicholas Epley oversa...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Nicholas Epley oversaw a key study into self-enhancement and attractiveness",
+                "explanation": "主干为主谓宾结构。头衔同位语 Psychologist and behavioural scientist 修饰主语 Nicholas Epley；谓语动词 oversaw（主持、监管）；宾语 a key study（一项关键研究）；介词短语 into self-enhancement and attractiveness 作研究方向定语（探讨自我美化与外貌吸引力）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Psychologist and behavioural scientist Nicholas Epley oversaw a key study",
+                "explanation": "转折引出权威科学家实验。由宏观的心理学泛泛描写正式过渡到具体的学者（Nicholas Epley）及其开创性实证实验，开启下文对“外貌自恋”实测证据的详细阐述。"
               }
             ]
           }
@@ -2686,9 +2901,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that had been altered to appear more and less...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "he asked them to identify an original photograph of themselves from a lineup",
+                "explanation": "主干为主谓宾补结构。主语代词 he；谓语动词 asked；宾语 them；动词不定式短语 to identify an original photograph of themselves 作宾语补足语；介词短语 from a lineup（从一排候选照片中）作来源状语。"
+              },
+              {
+                "type": "介词排除结构与定语从句",
+                "content": "Rather than have people simply rate their beauty compared with others ... including versions that had been altered to appear more and less attractive",
+                "explanation": "介词短语 Rather than have people simply rate... 作排除对比状语，包含使役结构 have sb do sth；lineup 后接现在分词短语 including versions 作后置定语；关系代词 that 引导定语从句修饰 versions，从句谓语 had been altered（被数字技术修改），不定式 to appear more and less attractive（看起来更具或更不具吸引力）作结果补语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Rather than have people simply rate ... identify an original photograph",
+                "explanation": "精妙的实验设计呈现。Rather than 突出实验科学性：放弃让受试者主观自评打分的主观偏差，改为客观甄别实验（在一组经过美化和丑化处理的系列照片中挑出真实的自己），彻底杜绝口头虚荣。"
               }
             ]
           }
@@ -2704,14 +2929,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which most did—they genuinely believed it was ...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Visual recognition, reads the study, is “an automatic psychological process ...” If the subjects quickly chose a falsely flattering image ... they genuinely believed it was really how they looked",
+                "explanation": "全句由两个独立句子构成。第一句主干为主系表结构：主语 Visual recognition（视觉识别），插入语 reads the study（该项研究写道），系动词 is，表语 an automatic psychological process（一种自动化的心理加工过程）；第二句为主从复合句：主句主干为主谓宾结构，主语 they，谓语 believed，宾语从句 it was really how they looked（那就是他们真实的模样）。"
               },
               {
-                "type": "状语从句",
-                "content": "If the subjects quickly chose a falsely fla...",
-                "explanation": "从属连词 <code>If</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "分词定语与条件/插入从句",
+                "content": "occurring rapidly and intuitively with little or no apparent conscious deliberation ... which most did",
+                "explanation": "现在分词短语 occurring rapidly and intuitively... 作 process 的后置定语，介词短语 with little or no apparent conscious deliberation 修饰过程缺乏有意识的权衡；从属连词 If 引导条件状语从句，双破折号插入 which most did 为非限制性定语从句补充说明大多数人确实迅速选了美化照。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "occurring rapidly and intuitively with little or no apparent conscious deliberation",
+                "explanation": "核心题眼直接命中（Q27 题眼）。原文'occurring rapidly and intuitively'与'with little or no apparent conscious deliberation'直接对应 Q27 正确选项 C 'intuitive response'（直觉反应）；彻底排除 B 项（conscious choice，原文明确无意识权衡）与 D 项（automatic self-defence，偷换概念）。"
               }
             ]
           }
@@ -2728,8 +2958,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Epley found no significant gender difference in responses....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Epley found no significant gender difference in responses",
+                "explanation": "主干为主谓宾结构。主语 Epley；谓语动词 found（发现）；宾语中心词 no significant gender difference（没有显著的性别差异）；介词短语 in responses（在受试者的反应中）作范围状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "found no significant gender difference in responses",
+                "explanation": "排除控制变量与打破刻板偏见。明确证实男性和女性在美化自我照片的概率上完全一致，打破了世俗观念中“女人比男人更虚荣自恋”的刻板印象，凸显自我美化是全人类共同的认知底色。"
               }
             ]
           }
@@ -2745,9 +2980,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who self-enhanced the most (that is...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Nor was there any evidence that ... were doing so to make up for profound insecurities",
+                "explanation": "主干为否定词 Nor 引出的倒装存在句（Nor was there any evidence）。否定连词 Nor 置于句首引起一般疑问语序倒装，系动词 was 提前至 there 之前；真正主语为 any evidence；连接词 that 引导宏大的同位语从句详释证据内容。"
+              },
+              {
+                "type": "同位语从句与嵌套定语从句",
+                "content": "that those who self-enhanced the most (that is, the participants who thought the most positively doctored picture were real) were doing so to make up for profound insecurities",
+                "explanation": "that 同位语从句中，主语 those 后接定语从句 who self-enhanced the most；括号中 that is 为解释性插入语，包含定语从句 who thought the most positively doctored picture were real（认为修图最夸张的照片才是原图）；从句谓语 were doing so，动词不定式短语 to make up for profound insecurities（为了弥补内心深处的不安全感）作目的状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Nor was there any evidence ... make up for profound insecurities",
+                "explanation": "排除“自卑补偿说”（转折蓄势）。否定倒装句式极具修辞力度，果断否定了心理学上常见的假设——自我美化是因为内心深处自卑不安全（insecurities）而进行的伪装补偿，为下文直接引出“高自尊正相关”清空认知障碍。"
               }
             ]
           }
@@ -2763,9 +3008,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who thought that the images higher up the at...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "those ... directly corresponded with those who showed other markers for having higher self-esteem",
+                "explanation": "主干为主谓介宾结构。短语 In fact 作论述递进状语；主语代词 those（指代受试者）；副词 directly 修饰谓语动词短语 corresponded with（与……直接对应/正相关）；介词宾语代词 those。"
+              },
+              {
+                "type": "双重定语从句与宾语从句",
+                "content": "those who thought that the images higher up the attractiveness scale were real ... those who showed other markers for having higher self-esteem",
+                "explanation": "主语 those 后接定语从句 who thought that...，其中 that 引导从句 the images... were real，形容词短语 higher up the attractiveness scale（在吸引力天平上得分更高/更漂亮）作 images 的后置定语；宾语 those 后接定语从句 who showed other markers for having higher self-esteem（展现出具备更高自尊其他指标的人）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "images higher up the attractiveness scale were real directly corresponded with ... higher self-esteem",
+                "explanation": "实证关键发现与题眼锁定（Q28 命中句）。埃普利发现越认为美化照片真实的受试者，其心理学自尊水平越高。直接命中 Q28 题正确选项 B 'believe in their attractiveness'（对自己的吸引力深信不疑）；彻底粉碎 A 项（低估不安全感）与 C 项（掩饰抑郁）。"
               }
             ]
           }
@@ -2781,9 +3036,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that we have are any evidence of personal del...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "“I don’t think the findings that we have are any evidence of personal delusion,” says Epley",
+                "explanation": "主干为直接引语 + 引述主谓（says Epley）。直接引语内部为主谓宾结构，采用英语典型的否定转移句式（I don’t think... are... 实际表达“我认为这些发现绝不是……”）：主语 I，谓语 don't think，后接省略 that 的宾语从句 the findings... are any evidence...。"
+              },
+              {
+                "type": "定语从句与介词定语",
+                "content": "the findings that we have are any evidence of personal delusion",
+                "explanation": "that we have 引导限制性定语从句修饰 findings；宾语从句中主语 the findings，系动词 are，表语 any evidence，介词短语 of personal delusion（个人妄想、自欺欺人）作后置定语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "not any evidence of personal delusion",
+                "explanation": "权威定性与去病理化。埃普利郑重澄清：自我美化绝非病理性的“心理错觉/精神妄想（delusion）”，不能将其污名化，为下句将其界定为正常的健康心理机能做准备。"
               }
             ]
           }
@@ -2799,9 +3064,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "If you are depressed...",
-                "explanation": "从属连词 <code>If</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "“It’s a reflection simply of people generally thinking well of themselves.” If you are depressed, you won’t be self-enhancing",
+                "explanation": "全句由引语内的两个分句构成。句一为主系表结构：主语 It，系动词 is，表语 a reflection（反映、投射），副词 simply 作修饰，介词短语 of people generally thinking well of themselves 作定语；句二为条件状语复合句：主句主语 you，谓语 won’t be self-enhancing，从属连词 If 引导条件状语从句 If you are depressed（如果你处于抑郁状态）。"
+              },
+              {
+                "type": "动名词复合结构剖析",
+                "content": "people generally thinking well of themselves",
+                "explanation": "名词 people 作动名词 thinking well of themselves 的逻辑主语，整体构成动名词复合结构作介词 of 的宾语，意为“人们普遍对自己评价良好”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "If you are depressed, you won’t be self-enhancing",
+                "explanation": "反向论证与健康心理界定。以抑郁症（depressed）作为反面典型：唯有抑郁症患者才会失去美化自我的本能，反衬出“自我感觉良好”正是健康大脑的免疫机制，再次彻底排除了 Q28 干扰项 C。"
               }
             ]
           }
@@ -2817,9 +3092,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that many people hate photographs of themselv...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "it makes sense that many people hate photographs of themselves viscerally",
+                "explanation": "主干为形式主语 it 引导的主语从句结构。分词短语 Knowing the results of Epley’s study 作状语；形式主语 it；谓语动词短语 makes sense（顺理成章、完全讲得通）；that 引导真正的主语从句。"
+              },
+              {
+                "type": "主语从句与同位解释分句",
+                "content": "that many people hate photographs of themselves viscerally—on one level, they don’t even recognise the person in the picture as themselves",
+                "explanation": "that 从句主语 many people，谓语动词 hate，宾语 photographs of themselves，副词 viscerally 作方式/程度状语；破折号后为原因同位分句：介词短语 on one level 作状语，主语 they，谓语动词短语 don't even recognise... as...（甚至没有把……认作是……），宾语 the person in the picture，介宾短语 as themselves 作补足语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "hate photographs of themselves viscerally ... don’t even recognise the person",
+                "explanation": "词义推断直接题眼（Q29 命中句）。联系上下文：既然人类大脑潜意识记忆的是被美化过的自我，当面对未经修图的真实镜头时，必然产生剧烈的生理本能排斥（hate viscerally）——甚至潜意识认不出原图。根据破折号后'认不出自己'的潜意识本能反应，精准锁定 viscerally 等同于 A 'instinctively'（本能地、出于直觉地）。"
               }
             ]
           }
@@ -2835,9 +3120,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "where people can share only the most flatterin...",
-                "explanation": "关系词 <code>where</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Facebook therefore, is a self-enhancer’s paradise",
+                "explanation": "主干为主系表结构。主语专有名词 Facebook；因果连接副词 therefore（因此）作插入语；系动词 is；表语 a self-enhancer’s paradise（自我美化者的天堂）。"
+              },
+              {
+                "type": "非限制性定语从句与同位语并列",
+                "content": "where people can share only the most flattering photos, the cream of their wit, style, beauty, intellect and lifestyle",
+                "explanation": "关系副词 where 引导非限制性定语从句修饰 paradise 并在从句中作地点状语，从句主语 people，情态谓语 can share，限定副词 only，宾语 the most flattering photos（最讨人喜欢的照片）；逗号后 the cream of their wit, style, beauty, intellect and lifestyle（智慧、品味、容貌、才智与生活方式的精华）充当同位语并列补充说明。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Facebook ... is a self-enhancer’s paradise, where people can share only the most flattering photos",
+                "explanation": "现实社交平台映射与题眼伏笔（Q30 铺垫）。将实验室心理学成果映射至网络时代的社交图景：Facebook 之所以成为自恋天堂，正是因为它赋予用户“只分享最光鲜照片（share only the most flattering photos）”的特权，为末句解答 Q30 铺平道路。"
               }
             ]
           }
@@ -2853,9 +3148,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that people’s profiles are dishonest...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "It’s not that people’s profiles are dishonest ... “but they portray an idealised version of themselves”",
+                "explanation": "主干为 not that... but (that)... 平行对比结构（中间穿插引述主谓 says Catalina Toma...）。形式主语 It，系动词 is，并列连词 not that... but... 引领两个并列的表语从句进行正反辩驳对比。"
+              },
+              {
+                "type": "对比表语从句剖析",
+                "content": "not that people’s profiles are dishonest ... but they portray an idealised version of themselves",
+                "explanation": "not that 从句主语 people's profiles（个人主页资料），系动词 are，表语 dishonest（不诚实的、欺诈的）；but 从句主语 they（用户），谓语 portray（描绘、塑造），宾语 an idealised version of themselves（一个理想化版本的自己）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "not that people’s profiles are dishonest ... but they portray an idealised version of themselves",
+                "explanation": "全文精辟收官与推理题眼（Q30 命中句）。托马教授点破社交媒体社交真相：用户并非恶意编造谎言欺骗（not dishonest），而是精挑细选屏蔽掉瑕疵，只展示完美一面（portray an idealised version）。这与 Q30 正确选项 D 'withhold their unflattering sides'（隐匿不讨喜/不光彩的侧面）形成极其精湛的语意互锁。"
               }
             ]
           }
@@ -4096,8 +4401,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The concept of man versus machine is at least as old as the ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The concept of man versus machine is at least as old as the industrial revolution, but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries",
+                "explanation": "全句为转折并列连词 but 连接的两个并列分句。分句一为主系表结构：主语 The concept of man versus machine（人机竞争/对抗的概念），系动词 is，表语比较结构 as old as the industrial revolution（同工业革命一样悠久），at least（至少）作程度状语；分句二为主谓被动结构：主语指示代词短语 this phenomenon（这种现象），谓语动词短语 tends to be most acutely felt（往往被最为敏锐/强烈地感知到），介词短语 during economic downturns and fragile recoveries（在经济低迷和脆弱复苏期）作时间状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "tends to be most acutely felt during economic downturns and fragile recoveries",
+                "explanation": "篇章开篇立论与题眼锁定（Q31 命中句）。开篇将人机竞争的历史维度拉长至工业革命，但以 but 转折突出当下特殊语境：经济萧条期会急剧放大人们对被机器取代的恐慌感知（acutely felt）。直接命中 Q31 正确选项 B 'highlight machines’ threat to human jobs'（凸显机器对人类饭碗的威胁）。"
               }
             ]
           }
@@ -4114,8 +4424,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "And yet, it would be a mistake to think we are right now sim...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "And yet, it would be a mistake to think we are right now simply experiencing the painful side of a boom and bust cycle",
+                "explanation": "主干为形式主语 it 引导的真主语后置结构。转折连词 And yet 置于句首充当强转折连接语；形式主语 it；情态系动词 would be；表语 a mistake；动词不定式短语 to think... 作真正主语。"
+              },
+              {
+                "type": "宾语从句与概念剖析",
+                "content": "to think we are right now simply experiencing the painful side of a boom and bust cycle",
+                "explanation": "think 后接省略 that 的宾语从句，从句主语 we，状语 right now simply，谓语进行时 are experiencing，宾语 the painful side（痛苦的一面），介词短语 of a boom and bust cycle 作定语，经济学术语 boom and bust cycle 意为“经济繁荣与萧条的交替周期”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "it would be a mistake to think we are right now simply experiencing ... a boom and bust cycle",
+                "explanation": "破除传统经济周期误区（Critical Pivot）。以 And yet 强力打破常规经济学解释：当前的失业危机绝非以往周期性衰退的暂时阵痛，警示读者下文将揭示更为深层的“技术性永久灭绝”。"
               }
             ]
           }
@@ -4132,8 +4452,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Certain jobs have gone away for good, outmoded by machines....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Certain jobs have gone away for good, outmoded by machines",
+                "explanation": "主干为主谓结构 + 分词状语。主语 Certain jobs（某些特定工种）；谓语动词短语 have gone away（彻底消失、不复存在）；介词短语 for good（永久地、永远）作时间状语。"
+              },
+              {
+                "type": "过去分词短语作状语",
+                "content": "outmoded by machines",
+                "explanation": "过去分词短语 outmoded by machines 置于句末作原因/结果状语，逻辑主语为 Certain jobs，说明这些岗位永久消失的深层诱因——被机器彻底淘汰过时。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "gone away for good, outmoded by machines",
+                "explanation": "断言式定论与概念排除。用极具终局意味的短语 for good（永远消失）与 outmoded by machines 明确技术替代的不可逆性，直接击碎 Q32 干扰选项 C（岗位依然完好）。"
               }
             ]
           }
@@ -4149,9 +4479,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "Since technology has such an insatiable appeti...",
-                "explanation": "从属连词 <code>Since</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "this phenomenon will continue to restructure our economy in ways we cannot immediately foresee",
+                "explanation": "主干为主谓宾结构。主语 this phenomenon（技术替代人类劳动的现象）；谓语动词短语 will continue to restructure（将继续重塑/重构）；宾语 our economy（我们的经济模式）；介词短语 in ways... 作方式状语。"
+              },
+              {
+                "type": "原因状语从句与定语从句",
+                "content": "Since technology has such an insatiable appetite for eating up human jobs ... in ways we cannot immediately foresee",
+                "explanation": "从属连词 Since 引导原因状语从句，从句主语 technology，谓语 has，宾语 such an insatiable appetite（如此贪得无厌的胃口），介词短语 for eating up human jobs（吞噬人类工作岗位）作定语；主句 in ways 后接省略关系代词的定语从句 we cannot immediately foresee（我们无法立即预见的方式）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "technology has such an insatiable appetite for eating up human jobs",
+                "explanation": "生动隐喻与技术威胁论（Q32 核心依据）。用拟人化修辞 insatiable appetite for eating up human jobs 极力刻画技术的破坏性侵蚀力，预警整个经济结构正在发生未知的剧变，牢牢锁定 Q32 正确选项 A 'technology is diminishing man’s job opportunities'。"
               }
             ]
           }
@@ -4167,9 +4507,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "When there is rapid improvement in the price ...",
-                "explanation": "关系词 <code>When</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "jobs ... suddenly become threatened",
+                "explanation": "主干为主系表结构。主语 jobs（工作岗位）；副词 suddenly（突然）作状语；系动词 become；表语过去分词 threatened（面临威胁、受到威胁）。"
+              },
+              {
+                "type": "时间状语从句与定语从句",
+                "content": "When there is rapid improvement in the price and performance of technology, jobs that were once thought to be immune from automation suddenly become threatened",
+                "explanation": "从属连词 When 引导时间状语从句，从句为 there be 存在句（there is rapid improvement in the price and performance of technology）；主句主语 jobs 后接关系代词 that 引导的定语从句 that were once thought to be immune from automation（曾经被认为对自动化免疫的），从句谓语 were thought 为被动语态，形容词短语 immune from... 作主语补足语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "once thought to be immune from automation suddenly become threatened",
+                "explanation": "威胁边界扩张与认知颠覆。指出计算成本下降与性能飙升使机器吞噬的边界迅速外扩，连过去自恃安全的高技能岗位也难逃冲击，进一步印证技术对就业机会的挤压（diminishing job opportunities）。"
               }
             ]
           }
@@ -4185,9 +4535,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who both hail from MIT’s Center for Digital ...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "This argument has attracted a lot of attention, via the success of the book Race Against the Machine",
+                "explanation": "主干为主谓宾结构。主语 This argument（机器侵吞人类就业的论点）；现在完成时谓语 has attracted；宾语 a lot of attention（海量关注）；介词短语 via the success of the book Race Against the Machine（凭借畅销书《与机器赛跑》的成功）作途径状语。"
+              },
+              {
+                "type": "介词定语与非限制性定语从句",
+                "content": "by Erik Brynjolfsson and Andrew McAfee, who both hail from MIT’s Center for Digital Business",
+                "explanation": "介词短语 by Erik Brynjolfsson and Andrew McAfee 作书籍作者后置定语；关系代词 who 引导非限制性定语从句补充说明两位作者背景，从句中 both 作同位语，谓语动词短语 hail from（来自），介词宾语 MIT’s Center for Digital Business（麻省理工学院数字商业中心）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the book Race Against the Machine , by Erik Brynjolfsson and Andrew McAfee",
+                "explanation": "核心学术信源引入（Q32 定位句）。正式引入轰动全球的畅销专著《与机器赛跑》及麻省理工学院权威学者背景，为后文关于该书观点及其被哈格尔反思批评的学术论争搭建平台。"
               }
             ]
           }
@@ -4204,8 +4564,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "This is a powerful argument, and a scary one....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "This is a powerful argument, and a scary one",
+                "explanation": "主干为主系表结构。指示代词 This 作主语，指代上文两学者关于机器取代人类的论证；系动词 is；表语 a powerful argument（一个强有力的论点），并列连词 and 连接第二个代词表语 a scary one（一个令人恐惧的论点，代词 one 指代 argument）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "a powerful argument, and a scary one",
+                "explanation": "双重定性承上启下。powerful 承认其逻辑严密性与说服力，scary 提炼其带给社会的普遍焦虑，在肯定该论调社会反响的同时，为下一句引入哈格尔的批判性反驳构筑蓄水池。"
               }
             ]
           }
@@ -4221,9 +4586,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "why these jobs are so vulnerable to technolo...",
-                "explanation": "关系词 <code>why</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "And yet, John Hagel ... says Brynjolfsson and McAfee miss the reason",
+                "explanation": "主干为主谓宾结构。转折连词 And yet 置于句首；主语 John Hagel，名词同位语 author of The Power of Pull and other books 修饰哈格尔；谓语动词 says；后接省略 that 的宾语从句。"
+              },
+              {
+                "type": "宾语从句与同位语从句",
+                "content": "Brynjolfsson and McAfee miss the reason why these jobs are so vulnerable to technology in the first place",
+                "explanation": "宾语从句中主语 Brynjolfsson and McAfee，谓语动词 miss（错失、遗漏），宾语 the reason；关系副词 why 引导同位语/定语从句修饰 reason，从句主语 these jobs，系动词 are，表语形容词短语 so vulnerable to technology（对技术如此脆弱易受伤害），in the first place（从根本上/当初）作状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "miss the reason why these jobs are so vulnerable to technology in the first place",
+                "explanation": "篇章思想大交锋（Discourse Turning Point）。以 And yet 引入思想巨头哈格尔的反向诘问：MIT 学者只归咎于技术强大，却忽略了这些岗位当初为何会被设计得如此容易被取代的底层制度根源，将讨论由纯技术视角升级为组织制度反思。"
               }
             ]
           }
@@ -4240,8 +4615,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Hagel says we have designed jobs in the U.S....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Hagel says we have designed jobs in the U.S.",
+                "explanation": "主干为主谓宾结构。主语 Hagel；谓语动词 says；后接省略 that 的宾语从句 we have designed jobs in the U.S.（我们在美国设计了这些工作岗位）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "we have designed jobs in the U.S.",
+                "explanation": "责任内化定性。哈格尔直击问题核心：受害者美国工人之所以脆弱，根本原因出在“我们自身的岗位顶层设计（designed jobs）”，将外因归咎转变为制度自省。"
               }
             ]
           }
@@ -4257,9 +4637,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that tend to be “tightly scripted” and “highl...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "these are the types of jobs that machines can perform much better at than human beings",
+                "explanation": "前半段承接上句 jobs，为关系代词 that 引导的定语从句修饰 jobs；后半段为主系表结构：连接短语 In short（简言之）作状语，主语代词 these 指代此类工作，系动词 are，表语 the types of jobs，后接定语从句 that machines can perform much better at than human beings。"
+              },
+              {
+                "type": "多层定语从句嵌套与比较结构",
+                "content": "that tend to be “tightly scripted” and “highly standardized” ones that leave no room for “individual initiative or creativity”",
+                "explanation": "第一层定语从句修饰 jobs，谓语动词 tend to be，表语代词 ones（代指 jobs），带引号的两个形容词短语 “tightly scripted”（严格按既定脚本走的）和 “highly standardized”（高度标准化的）修饰 ones；第二层定语从句 that leave no room for... 修饰 ones，短语 leave no room for 意为“不给……留任何余地”，介词宾语 “individual initiative or creativity”（个人主动性与创造力）；第三层定语从句包含 much better... than 比较结构。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "tightly scripted ... highly standardized ... leave no room for individual initiative or creativity",
+                "explanation": "核心论据与直接题眼（Q33 命中句）。哈格尔痛批美国福特制工作岗位设计过度追求“脚本化”与“流水线标准化”，彻底抹杀了人类独特的创造力（leave no room for creativity）。直接命中 Q33 题正确选项 D 'designed against human creativity'（设计得压制/背离了人类创造力）。"
               }
             ]
           }
@@ -4275,9 +4665,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "That is how we have put a giant target sign o...",
-                "explanation": "连接词 <code>That</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "That is how we have put a giant target sign on the backs of American workers, Hagel says",
+                "explanation": "主干为主系表结构 + 引述主谓。引述主谓 Hagel says 置于句末；主句主语 That（指代将工作过度标准化）；系动词 is；连接副词 how 引导表语从句。"
+              },
+              {
+                "type": "表语从句与生动隐喻",
+                "content": "how we have put a giant target sign on the backs of American workers",
+                "explanation": "表语从句中主语 we，现在完成时谓语 have put，宾语 a giant target sign（一个巨大的标靶/靶心），介词短语 on the backs of American workers（在美国工人的背上）作地点状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "put a giant target sign on the backs of American workers",
+                "explanation": "形象比喻与因果控诉。哈格尔将流水线式的工种异化形象比拟为“在工人背上挂靶子”，深刻指出：当企业把人当成冷冰冰的螺丝钉时，就等于亲手把他们送进了被真正机器精准猎杀的靶场。"
               }
             ]
           }
@@ -4293,14 +4693,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "since we are still relying on a very 20th cent...",
-                "explanation": "从属连词 <code>since</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "It’s time to reinvent the formula for how work is conducted ... Hagel says",
+                "explanation": "主干为经典句型 It’s time to do sth + 引述谓语。引述主谓 Hagel says 置于句末；形式主语 It，系动词 is，表语 time，动词不定式短语 to reinvent the formula（重新发明公式/重塑模式）作真正主语，介词短语 for how work is conducted 作后置定语。"
               },
               {
-                "type": "名词性从句",
-                "content": "how work is conducted...",
-                "explanation": "连接词 <code>how</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "名词性从句与原因状语从句",
+                "content": "for how work is conducted, since we are still relying on a very 20th century notion of work",
+                "explanation": "连接副词 how 引导从句作介词 for 的宾语，从句中 work 作主语，is conducted 作被动谓语；从属连词 since 引导原因状语从句，从句主语 we，进行时谓语 are still relying on（仍然依赖于），宾语 a very 20th century notion of work（一种极其陈旧的20世纪工作观念）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "reinvent the formula for how work is conducted ... 20th century notion of work",
+                "explanation": "变革号召与破旧立新。哈格尔开出行动处方：必须重塑劳动组织模式，坚决抛弃20世纪流水线式的工作旧观念，呼唤全新的人本组织形态。"
               }
             ]
           }
@@ -4316,9 +4721,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who can take initiative and exercise their i...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "we more than ever need people in the workplace ... That is not something machines are good at",
+                "explanation": "全句由两个语义紧密的句子构成。第一句主干为主谓宾结构：状语 In our rapidly changing economy，状语 more than ever（比以往任何时候更），主语 we，谓语 need，宾语 people in the workplace，后接定语从句；第二句主干为主系表结构：主语 That，否定系动词 is not，表语代词 something，后接定语从句。"
+              },
+              {
+                "type": "定语从句与目的状语",
+                "content": "who can take initiative and exercise their imagination “to respond to unexpected events” ... (that) machines are good at",
+                "explanation": "第一句中关系代词 who 引导限制性定语从句修饰 people，从句谓语为并列动词短语 take initiative（发挥主观能动性）和 exercise their imagination（施展想象力），不定式短语 to respond to unexpected events（应对突发意外事件）作目的状语；第二句中省略关系代词的定语从句 machines are good at 修饰 something。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "take initiative and exercise their imagination ... to respond to unexpected events",
+                "explanation": "人类不可替代性论证（Q34 破局点）。明确指出人类核心护城河所在：机器只能处理既定规则，唯有人类才能依靠主动性与想象力化解不可预测的突发变化（unexpected events），为文末'人机协同'提供逻辑支点。"
               }
             ]
           }
@@ -4335,8 +4750,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "They are designed to perform very predictable activities....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "They are designed to perform very predictable activities",
+                "explanation": "主干为主谓被动结构。主语代词 They（指代 machines 机器）；谓语动词为一般现在时被动语态 are designed（被设计）；动词不定式短语 to perform very predictable activities（执行极具可预测性的规程化活动）作补足语/目的状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "designed to perform very predictable activities",
+                "explanation": "机器属性定性与对比。以 predictable activities（高可预测性活动）定义机器本质，与上句人类应对 unexpected events 形成针锋相对的鲜明反差，彻底厘清人机各自的能力边界。"
               }
             ]
           }
@@ -4353,8 +4773,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "As Hagel notes, Brynjolfsson and McAfee indeed touched on th...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Brynjolfsson and McAfee indeed touched on this point in their book",
+                "explanation": "主干为主谓介宾结构。评注性状语从句 As Hagel notes（正如哈格尔所指出的）；主语 Brynjolfsson and McAfee；强调副词 indeed（确实、诚然）；谓语动词短语 touched on（提及、触及）；介词宾语 this point（这一点）；地点状语 in their book。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "As Hagel notes, Brynjolfsson and McAfee indeed touched on this point",
+                "explanation": "学术争论走向共识与合流。指出 MIT 两学者在书中并非完全没有意识到制度维度的重要性，为下一句正式提出全书最具建设性的人机合作新思维做平稳铺垫。"
               }
             ]
           }
@@ -4371,8 +4796,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "We need to reframe race against the machine as race with the...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "We need to reframe race against the machine as race with the machine",
+                "explanation": "主干为主谓宾介结构。主语 We；谓语动词短语 need to reframe... as...（需要将……重新定义/重构为……）；宾语名词短语 race against the machine（与机器赛跑/对抗）；介词短语 as race with the machine（与机器协同赛跑）作补足语。"
+              },
+              {
+                "type": "修辞色彩与介词转换",
+                "content": "against the machine ... with the machine",
+                "explanation": "通过由介词 against（对抗、相克）向 with（协作、共进）的巧妙置换，完成全篇思想认识的终极重构：从你死我活的零和博弈转向协同赋能的共赢关系。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "reframe race against the machine as race with the machine",
+                "explanation": "全文主旨灵魂与标题题眼（Q35 命中句）。全篇核心思想跃升：解决技术失业的终极出路不在于同机器死磕抢饭碗，而在于学会'与机器并肩赛跑（race with the machine）'。直接呼应 Q35 最佳标题 C 'Can We Win the Race Against Machines'。"
               }
             ]
           }
@@ -4388,9 +4823,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which machines can augment human labor rather ...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "we need to look at the ways",
+                "explanation": "主干为主谓介宾结构。转换承接短语 In other words（换言之）置于句首；主语 we；谓语动词短语 need to look at（需要关注、审视）；介词宾语 the ways（途径与方式）。"
+              },
+              {
+                "type": "定语从句与排除对比",
+                "content": "in which machines can augment human labor rather than replace it",
+                "explanation": "介词+关系代词 in which 引导限制性定语从句修饰 ways，从句主语 machines，谓语情态动词 can augment（增强、赋能），宾语 human labor；rather than 后接动词原形 replace it（取代它）构成排除性转折对比。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "machines can augment human labor rather than replace it",
+                "explanation": "人机协同机制定义与题眼锁定（Q34 命中句）。精准诠释了 race with the machine 的本质：不是取代（replace），而是赋能与增强（augment）。强调机器只是人类劳动的放大器，工作场所依然离不开人类的参与主导，直接锁定 Q34 正确选项 D 'the necessity of human involvement in the workplace'。"
               }
             ]
           }
@@ -4406,9 +4851,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "how do we innovate our institutions and our ...",
-                "explanation": "连接词 <code>how</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "the problem is not really about technology, but rather, “how do we innovate our institutions and our work practices?”",
+                "explanation": "主干为 not... but rather... 对比结构的主系表句式。总结副词 So then 置于句首；主语 the problem（核心问题）；系动词 is；表语一为否定介宾短语 not really about technology（并非真正关乎技术）；并列连词 but rather（而是）连接表语二，直接引用疑问句 how do we innovate our institutions and our work practices?（我们该如何革新我们的制度体系与工作实践？）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "problem is not really about technology, but rather ... innovate our institutions and our work practices",
+                "explanation": "全篇终极结论收官。以振聋发聩的反问句将全篇论题从对冰冷技术的恐惧焦虑，彻底升华至对人类自身组织制度革新的清醒自省：真正的问题不是技术如何吞噬岗位，而是人类社会能否打破僵化的制度桎梏、开创人机协作的新纪元。"
               }
             ]
           }
@@ -5846,9 +6296,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "When the government talks about infrastructur...",
-                "explanation": "关系词 <code>When</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "the focus is usually on roads, railways, broadband and energy",
+                "explanation": "主干为主系表结构。主语 the focus（重点、焦点）；系动词 is；频度副词 usually 作状语；表语介宾短语 on roads, railways, broadband and energy（在公路、铁路、宽带网络和能源等四大传统基建领域）。"
+              },
+              {
+                "type": "时间状语从句与现在分词",
+                "content": "When the government talks about infrastructure contributing to the economy",
+                "explanation": "从属连词 When 引导时间状语从句，从句主语 the government，谓语动词短语 talks about，介词宾语 infrastructure（基础设施），现在分词短语 contributing to the economy 作后置定语，修饰能对国家经济做出实质贡献的基础设施。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "roads, railways, broadband and energy",
+                "explanation": "常规政策认知铺垫。罗列英国政界所惯常定义的“经济基础设施”清单，刻意形成对住房的制度性缺席，为下一句仅4个单词的短促警示句形成鲜明反差铺路。"
               }
             ]
           }
@@ -5865,8 +6325,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Housing is seldom mentioned....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Housing is seldom mentioned",
+                "explanation": "主干为主谓被动结构。主语 Housing（保障性住房）；频度否定副词 seldom（很少、难得）；谓语动词为一般现在时被动语态 is mentioned（被提及）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Housing is seldom mentioned",
+                "explanation": "极短句强反差与核心议题提出。全句仅4个单词，以极其简洁短促的语势与上一句冗长的传统基建列举形成巨大张力，犹如一记警钟，瞬间将读者视线聚焦于“住房在国家基建战略中遭受边缘化冷遇”的严峻现实。"
               }
             ]
           }
@@ -5882,9 +6347,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "Why is that?...",
-                "explanation": "关系词 <code>Why</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Why is that?",
+                "explanation": "主干为特殊疑问句（主系表倒装）。疑问副词 Why 置于句首充当原因疑问词；系动词 is 提前；指示代词 that 作真正主语，指代上句“住房很少被提及”的异常现象。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Why is that?",
+                "explanation": "承上启下修辞过渡（Rhetorical Pivot）。以简洁有力的独句设问开启新段落，由指出边缘化现象自然过渡到对背后三大深层原因（沟通不足、体量分散、政治化敏感）的系统性剖析。"
               }
             ]
           }
@@ -5901,8 +6371,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "To some extent the housing sector must shoulder the blame....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "the housing sector must shoulder the blame",
+                "explanation": "主干为主谓宾结构。介词短语 To some extent（在某种程度上）置于句首作程度状语；主语 the housing sector（住房行业/部门）；情态动词 must；谓语动词 shoulder（挑起、承担）；宾语 the blame（责任、指责）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the housing sector must shoulder the blame",
+                "explanation": "内部归因与客观自省。住房部门首先刀刃向内，主动承认自身工作存在失职，展现出理性客观的行文态度，避免了单一向政府怨妇式推卸责任的偏颇。"
               }
             ]
           }
@@ -5918,9 +6393,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that housing can contribute to economic growt...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "We have not been good at communicating the real value",
+                "explanation": "主干为主系表介宾结构。主语 We（指代英国住房行业从业者）；系动词 have not been；表语形容词短语 good at communicating the real value（善于传达真实价值）。"
+              },
+              {
+                "type": "定语从句剖析",
+                "content": "that housing can contribute to economic growth",
+                "explanation": "关系代词 that 引导限制性定语从句修饰先行词 the real value 并在从句中作 contribute to 的逻辑宾语，从句主语 housing，情态谓语 can contribute to（能够贡献于），介词宾语 economic growth（经济增长）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "not been good at communicating the real value ... housing can contribute to economic growth",
+                "explanation": "内因解剖与题眼伏笔（Q36 伏笔）。住房部门自身未能向财政部门清晰阐释住房作为基建引擎对拉动经济的深远价值，为后文 Q36 探讨住房部门面临的多重因素埋下线索。"
               }
             ]
           }
@@ -5937,8 +6422,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Then there is the scale of the typical housing project....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Then there is the scale of the typical housing project",
+                "explanation": "主干为 there be 存在句型。承接连接副词 Then（再者、其次）作过渡语；谓语系动词 is；真正主语 the scale of the typical housing project（典型住房项目的开发体量与规模）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the scale of the typical housing project",
+                "explanation": "原因之二引出（项目体量分散）。从行业沟通问题转向项目本身的物理特征：住房项目通常分散且单体规模有限，难以同全国性高铁网络或大型核电站等世纪超级工程相提并论。"
               }
             ]
           }
@@ -5954,9 +6444,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that the attention is focused elsewhere....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "It is hard to shove for attention ... so it is inevitable that the attention is focused elsewhere",
+                "explanation": "全句为因果并列连词 so 连接的两个并列复合句。分句一为主系表真主语后置结构：形式主语 It，系动词 is，表语 hard，真正主语动词不定式短语 to shove for attention among multibillion-pound infrastructure projects（在耗资数十亿英镑的巨型基建工程中挤破头争夺政界注意力）；分句二为主系表主语从句结构：形式主语 it，系动词 is，表语 inevitable（不可避免的），真正主语从句 that the attention is focused elsewhere（注意力被聚焦到其他领域）。"
+              },
+              {
+                "type": "修辞色彩与动词解析",
+                "content": "shove for attention among multibillion-pound infrastructure projects",
+                "explanation": "动词 shove（推搡、挤挤攘攘）运用了生动的拟人修辞，极富画面感地刻画出小型住房项目在巨无霸基建项目丛林中争夺资金和眼球时的窘迫挣扎。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "hard to shove for attention ... inevitable that the attention is focused elsewhere",
+                "explanation": "因果闭环论证。解释了为何政客和媒体的目光不可避免地投向大型基建：大项目不仅政绩视觉震撼，而且聚光灯效应远超分散零碎的社区住宅。"
               }
             ]
           }
@@ -5972,9 +6472,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that the issue has always been so politically...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "But perhaps the most significant reason is that the issue has always been so politically charged",
+                "explanation": "主干为主系表从句结构。转折连词 But 与推测副词 perhaps 置于句首；主语 the most significant reason（最核心关键的原因）；系动词 is；连接词 that 引导表语从句。"
+              },
+              {
+                "type": "表语从句剖析",
+                "content": "that the issue has always been so politically charged",
+                "explanation": "that 表语从句中，主语 the issue（指代住房议题）；谓语现在完成时 has always been；表语形容词短语 so politically charged（如此充满政治争议与党派博弈色彩）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the most significant reason is that the issue has always been so politically charged",
+                "explanation": "最核心根因与直接题眼（Q36 命中句）。以 But 话锋一转，引出导致住房边缘化的压倒性首要根因：该议题深受党派政治绑架与博弈影响（politically charged）。直接命中 Q36 题正确选项 B 'involves certain political factors'（涉及某些政治因素）。"
               }
             ]
           }
@@ -5991,8 +6501,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Nevertheless, the affordable housing situation is desperate....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Nevertheless, the affordable housing situation is desperate",
+                "explanation": "主干为主系表结构。让步转折副词 Nevertheless（尽管如此、然而）置于句首；主语 the affordable housing situation（保障性住房现状）；系动词 is；表语形容词 desperate（极度危急的、令人绝望的）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Nevertheless, the affordable housing situation is desperate",
+                "explanation": "逻辑强转折与危机呼号。由上段的原因归咎迅速转向民间现实的水深火热：无论客观原因如何，保障性住房已陷入水深火热的危急境地（desperate），敲响全社会的政策警钟。"
               }
             ]
           }
@@ -6009,8 +6524,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Waiting lists increase all the time and we are simply not bu...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Waiting lists increase all the time and we are simply not building enough new homes",
+                "explanation": "全句为并列连词 and 连接的两个并列分句。分句一为主谓结构：主语 Waiting lists（保障房申请轮候名单），谓语动词 increase（持续增长），时间状语 all the time（一直、始终）；分句二为主谓宾结构：主语 we，副词 simply（根本、简直），现在进行时否定谓语 are not building，宾语 enough new homes（足够数量的新建住宅）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Waiting lists increase all the time and we are simply not building enough new homes",
+                "explanation": "供需矛盾剪刀差实证。以“申请人数无休止暴增（需求端）”与“新房建设严重滞后不足（供给端）”的双重数据撕裂，坚实支撑上句 desperate（极其绝望）的定性断言。"
               }
             ]
           }
@@ -6027,8 +6547,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The comprehensive spending review offers an opportunity for ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The comprehensive spending review offers an opportunity for the government to help rectify this",
+                "explanation": "主干为主谓宾结构。主语专有名词短语 The comprehensive spending review（英国财政部的全面支出审查）；谓语动词 offers（提供）；宾语 an opportunity（一个历史契机）；介词短语 for the government to help rectify this 作 opportunity 的后置定语（不定式的逻辑主语为 the government，不定式 to help rectify this 作动作内容，代词 this 指代住房供需危机）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The comprehensive spending review offers an opportunity ... to help rectify this",
+                "explanation": "制度性破局转机引入。引出英国预算编制的关键时间窗口“支出审查”，指出这是执政当局打破死结、匡正过往住房政策偏差的绝佳政策窗口。"
               }
             ]
           }
@@ -6045,8 +6570,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "It needs to put historical prejudices to one side and take s...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "It needs to put historical prejudices to one side and take some steps to address our urgent housing need",
+                "explanation": "主干为并列动词不定式的主谓宾补结构。主语代词 It（指代 the government）；谓语动词 needs to 统领两个由 and 连接的并列不定式短语：① put historical prejudices to one side（将历史偏见弃置一旁，短语 put sth to one side 意为搁置、置之不理）；② take some steps（采取务实举措），后接不定式短语 to address our urgent housing need（解决我们紧迫的住房需求）作目的状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "put historical prejudices to one side and take some steps",
+                "explanation": "政策呼吁与直接题眼（Q37 命中句）。作者明确呼吁政府放下“历史偏见（historical prejudices）”，坐实了保障房长期以来深受政府带有偏见的歧视待遇这一历史事实，直接命中 Q37 正确选项 C 'suffered government biases'（biases 与 prejudices 精准同义互换）。"
               }
             ]
           }
@@ -6062,9 +6592,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that it is preparing to do just that....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "There are some indications that it is preparing to do just that",
+                "explanation": "主干为 there be 存在句型。There are 引导存在句；主语中心词 some indications（一些积极迹象/征兆）；that 引导同位语从句。"
+              },
+              {
+                "type": "同位语从句剖析",
+                "content": "that it is preparing to do just that",
+                "explanation": "that 引导同位语从句详释 indications 的具体内容，从句主语代词 it（政府），谓语进行时 is preparing to do（正着手准备做），宾语短语 just that（指代上句采取措施放下偏见）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "indications that it is preparing to do just that",
+                "explanation": "政策解冻信号呈现。以谨慎乐观的笔调引入官方政策转向的曙光，自然引出下一句内阁大臣与财相奥斯本拟推出的具体金融松绑措施。"
               }
             ]
           }
@@ -6080,9 +6620,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that George Osborne...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "The communities minister, Don Foster, has hinted that George Osborne ... may introduce more flexibility to the current cap",
+                "explanation": "主干为主谓宾结构。主语 The communities minister，专有名词同位语 Don Foster；现在完成时谓语 has hinted（已经暗示）；that 引导厚重的宾语从句。"
+              },
+              {
+                "type": "宾语从句与定语从句多层嵌套",
+                "content": "George Osborne, Chancellor of the Exchequer, may introduce more flexibility to the current cap on the amount that local authorities can borrow against their housing stock debt",
+                "explanation": "宾语从句主语 George Osborne，同位语 Chancellor of the Exchequer（英国财政大臣）；情态谓语 may introduce（可能会引入）；宾语 more flexibility（更大灵活性）；介词短语 to the current cap（针对现行上限）；介词短语 on the amount... 作 cap 的限定，that 引导限制性定语从句修饰 amount 并在从句中作 borrow 的宾语，从句主语 local authorities（地方政府），情态谓语 can borrow against their housing stock debt（以其住房存量债务为抵押进行借贷）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "introduce more flexibility to the current cap on the amount that local authorities can borrow",
+                "explanation": "核心政策突破与直接题眼（Q38 命中句）。财相奥斯本拟放宽地方政府借款上限（introduce more flexibility to the cap on borrowing），实质就是允许地方政府承担更多公共债务来建房。直接命中 Q38 正确选项 A 'allow greater government debt for housing'（允许政府增加举债用于建房）。"
               }
             ]
           }
@@ -6098,14 +6648,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "if the cap were lifted...",
-                "explanation": "从属连词 <code>if</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Evidence shows that 60,000 extra new homes could be built over the next five years ... increasing GDP by 0.6%",
+                "explanation": "主干为主谓宾 + 分词结果状语结构。主语 Evidence（实证数据）；谓语 shows；that 引导宾语从句。宾语从句主干为主谓被动结构：主语 60,000 extra new homes（额外6万套新住宅），情态被动语态 could be built，时间状语 over the next five years；现在分词短语 increasing GDP by 0.6%（拉动GDP增长0.6%）作伴随/结果状语。"
               },
               {
-                "type": "名词性从句",
-                "content": "that 60...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "虚拟语气条件从句",
+                "content": "if the cap were lifted",
+                "explanation": "从属连词 if 引导虚拟语气条件状语从句，were lifted 为虚拟语气被动结构，表示对未来政策假设的审慎推演（倘若上限被取消）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "60,000 extra new homes could be built ... increasing GDP by 0.6%",
+                "explanation": "经济测算与实证红利支撑。以新增6万套住房和提振0.6% GDP的权威测算数据，强力证实放宽借款限制带来的巨大经济乘数效应，彻底扫除政界关于住房不拉动经济的偏见。"
               }
             ]
           }
@@ -6121,9 +6676,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which would have a significant impact on the a...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Ministers should also look at creating greater certainty in the rental environment",
+                "explanation": "主干为主谓介宾结构。主语 Ministers（各部大臣）；情态谓语 should also look at（也应着手考虑）；动名词复合短语 creating greater certainty in the rental environment（在住房租赁环境中构建更大确定性）充当介词 at 的宾语。"
+              },
+              {
+                "type": "非限制性定语从句与不定式定语",
+                "content": "which would have a significant impact on the ability of registered providers to fund new developments from revenues",
+                "explanation": "关系代词 which 引导非限制性定语从句修饰前述举措，从句谓语动词短语 would have a significant impact on（将产生深远重大影响），宾语 the ability of registered providers（注册住房提供机构的能力），动词不定式短语 to fund new developments from revenues（利用租金营收为新开发项目融资）作 ability 的后置定语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "greater certainty in the rental environment ... fund new developments from revenues",
+                "explanation": "租赁制度红利与推理题眼（Q39 命中句）。指出稳定的租金政策预期（greater certainty）能直接赋能机构利用租金自筹资金开发新项目，从而水到渠成命中 Q39 正确选项 C 'contribute to funding new developments'（有助于为新开发项目提供资金）。"
               }
             ]
           }
@@ -6140,8 +6705,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But it is not just down to the government....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But it is not just down to the government",
+                "explanation": "主干为主系表结构。转折连词 But 置于句首；主语代词 It 指代解决住房危机的重任；系动词 is not；副词 just 作修饰；表语介词短语 down to the government（完全归咎于/取决于政府责任）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "it is not just down to the government",
+                "explanation": "重大篇章转折承上启下。在详述政府财政金融松绑政策后，以 But 骤然收紧论调：解决住房问题不能完全指望政府救济，行业必须认清形势自谋生路。"
               }
             ]
           }
@@ -6157,14 +6727,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "While these measures would be welcome in the s...",
-                "explanation": "从属连词 <code>While</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "we must face up to the fact that the existing ￡4.5bn programme of grants ... is unlikely to be extended beyond then",
+                "explanation": "主句主干为主谓介宾结构。主语 we；情态谓语 must face up to（必须直面、正视）；宾语 the fact（残酷事实）；that 引导内容庞大的同位语从句。"
               },
               {
-                "type": "名词性从句",
-                "content": "that the existing ￡4.5bn programme of grants ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "让步从句与同位语从句嵌套",
+                "content": "While these measures would be welcome in the short term ... the existing ￡4.5bn programme of grants to fund new affordable housing, set to expire in 2015, is unlikely to be extended beyond then",
+                "explanation": "从属连词 While 引导让步状语从句（虽然这些措施短期内令人欢迎）；that 同位语从句中，主语 the existing ￡4.5bn programme of grants，不定式短语 to fund new affordable housing 作定语，过去分词短语 set to expire in 2015（定于2015年到期）作插入定语；从句系动词 is；表语形容词 unlikely，后接不定式短语 to be extended beyond then（被延展到2015年之后）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "programme of grants ... set to expire in 2015, is unlikely to be extended beyond then",
+                "explanation": "严峻现实披露与直接题眼（Q40 命中句）。While 让步承认短期政策有益，但紧接着抛出不可逆的财政现实：现行45亿英镑政府无偿拨款2015年到期后绝不会续期。直接命中 Q40 题关于2015年后政府政策走向的考点。"
               }
             ]
           }
@@ -6180,14 +6755,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "if it returns to power....",
-                "explanation": "从属连词 <code>if</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "The Labour party has recently announced that it will retain a large part of the coalition’s spending plans",
+                "explanation": "主干为主谓宾结构。主语 The Labour party（英国工党）；时间副词 recently；现在完成时谓语 has announced；that 引导宾语从句。"
               },
               {
-                "type": "名词性从句",
-                "content": "that it will retain a large part of the coali...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "宾语从句与条件从句",
+                "content": "that it will retain a large part of the coalition’s spending plans if it returns to power",
+                "explanation": "that 宾语从句中，主语 it（指代工党），谓语 will retain（保留、沿用），宾语 a large part of the coalition’s spending plans（联合政府开支紧缩计划的大部）；从属连词 if 引导条件状语从句 if it returns to power（如果其重新上台执政）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Labour party ... retain a large part of the coalition’s spending plans",
+                "explanation": "跨党派紧缩共识证据。通过指出工党即便赢得大选也将萧规曹随执行紧缩，彻底打破了住房行业对“政党轮替后拨款会卷土重来”的政治幻想。"
               }
             ]
           }
@@ -6203,9 +6783,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that we are very unlikely to ever return to t...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "The housing sector needs to accept that we are very unlikely to ever return to the era of large-scale public grants",
+                "explanation": "主干为主谓宾结构。主语 The housing sector（住房部门）；谓语动词 needs to accept（需要接受、清醒认清）；that 引导宾语从句。"
+              },
+              {
+                "type": "宾语从句剖析",
+                "content": "that we are very unlikely to ever return to the era of large-scale public grants",
+                "explanation": "that 宾语从句中，主语 we；系动词 are；程度副词 very；表语形容词 unlikely，后接不定式短语 to ever return to the era of large-scale public grants（重返大规模公共财政拨款的时代）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "unlikely to ever return to the era of large-scale public grants",
+                "explanation": "行业警示与题眼终极实锤（Q40 终极依据）。作者以斩钉截铁的语气告诫全行业必须接受现实：大规模财政无偿赠款的时代已一去不复返。直接命中 Q40 正确选项 D 'stop generous funding to the housing sector'（停止对住房部门的慷慨资助）。"
               }
             ]
           }
@@ -6222,8 +6812,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "We need to adjust to this changing climate....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "We need to adjust to this changing climate",
+                "explanation": "主干为主谓介宾结构。主语 We；谓语动词短语 need to adjust to（需要主动适应）；介词宾语 this changing climate（这一正在发生剧变的政策财政大气候）。"
+              },
+              {
+                "type": "修辞隐喻与语篇逻辑",
+                "content": "adjust to this changing climate",
+                "explanation": "隐喻修辞与行动呼吁。将政府断供紧缩的残酷现实形象比喻为 changing climate（气候变迁），督促业界停止被动等待，主动转向市场化融资与机制创新。"
               }
             ]
           }
@@ -6239,9 +6834,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "While the government’s commitment to long-term...",
-                "explanation": "从属连词 <code>While</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "the very pressing need for more affordable housing is real and is not going away",
+                "explanation": "主干为并列谓语的主系表与主谓结构。主语 the very pressing need（极其紧迫的民生需求），介词短语 for more affordable housing 作定语；系动词 is，表语 real（真实客观存在的）；并列连词 and 连接谓语 is not going away（不会自行消失）。"
+              },
+              {
+                "type": "让步状语从句剖析",
+                "content": "While the government’s commitment to long-term funding may have changed",
+                "explanation": "从属连词 While 引导让步状语从句，从句主语 the government’s commitment to long-term funding（政府对长期财政资助的承诺），情态动词复合谓语 may have changed（可能已经发生改变）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "While the government’s commitment ... the pressing need ... is real and is not going away",
+                "explanation": "全篇终极升华收尾。以 While 让步句式形成极具现实穿透力的哲理对比：财政拨款的奶水虽然断了，但底层民众对廉价住房的刚性需求依然如山横亘。在冰冷的财政现实与炽热的人文关怀碰撞中，号召社会以新思维破解民生之艰。"
               }
             ]
           }

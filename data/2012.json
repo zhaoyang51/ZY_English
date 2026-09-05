@@ -821,8 +821,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Homework has never been terribly popular with students and e...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Homework has never been terribly popular with students and even many parents, but in recent years it has been particularly scorned",
+                "explanation": "主干为 but 连接的两个并列分句。分句①为主系表结构：主语 Homework（家庭作业）；系动词 has never been（现在完成时否定式）；表语形容词 popular（受喜爱的、受欢迎的），副词 terribly 修饰 popular，介词短语 with students and even many parents 作对象状语。分句②为主谓结构（被动语态）：时间状语 in recent years；主语代词 it（指代 homework）；谓语 has been particularly scorned（现在完成时被动语态，副词 particularly 修饰谓语动词 scorned，意为“受到鄙视/唾弃”）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "has never been terribly popular ... but in recent years it has been particularly scorned",
+                "explanation": "篇章立论引入（Opening Hook）。采用时间对比（从来不讨喜 vs. 近年尤受唾弃）引出全文核心话题“家庭作业遭遇前所未有的抨击”。本句为 Q21 题直接题眼（locate_sentence），原文 has been particularly scorned 精准对应正确选项 A“is receiving more criticism”（正受到越来越多的批评）。"
               }
             ]
           }
@@ -839,8 +844,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "School districts across the country, most recently Los Angel...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "School districts across the country ... are revising their thinking on this educational ritual",
+                "explanation": "主干为主谓宾结构。主语中心词 School districts（学区），介词短语 across the country 作后置定语修饰 districts；谓语动词 are revising（现在进行时，表示正在发生的政策调整动态，意为“重新审视、修改”）；宾语 their thinking（他们的观念/思路）；介词短语 on this educational ritual 作定语修饰 thinking。"
+              },
+              {
+                "type": "插入语与隐喻修辞",
+                "content": "most recently Los Angeles Unified / this educational ritual",
+                "explanation": "插入语 most recently Los Angeles Unified（最近是洛杉矶联合学区）起到举例具体化作用；名词短语 this educational ritual（这种教育仪式）运用比喻/借代修辞指代作业制度，暗示家庭作业长期以来只是一种机械惯性延续的传统仪式，为下文的反思与改革提供铺垫。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "revising their thinking on this educational ritual",
+                "explanation": "承上启下背景铺垫。承接首句作业备受争议的社会情绪，指出官方层面的应对动作——全美各大公立学区正在反思并修改作业政策。注意 Q21 干扰项 C（is no longer an educational ritual）正是利用本句的 educational ritual 设障，将“正在修改看法”曲解为“已不再是教育仪式”，属偷换概念与过度推断。"
               }
             ]
           }
@@ -856,9 +871,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "Unfortunately, L.A....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "主干片段与评注副词",
+                "content": "Unfortunately, L.A.",
+                "explanation": "评注性副词 Unfortunately（不幸的是）作全句状语，表明作者对即将提及的政策持强烈的负面批判立场；主语专有名词前半部 L.A.（Los Angeles 的缩写）。（注：因排版中 L.A. 的英文缩写句点断句，主句谓语与后半部分接在 S4）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Unfortunately",
+                "explanation": "情感态度与论调转折（Tone Marker）。词首 Unfortunately 明确释放出强烈的批判信号，预示着洛杉矶学区的做法是“好心办坏事”或“方向走偏”，奠定全文对该项政策的否定基调，直通 Q25 全文主旨题正确项 A（A Faulty Approach to Homework）。"
               }
             ]
           }
@@ -874,9 +894,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which mandates that with the exception of some...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Unified has produced an inflexible policy",
+                "explanation": "主干为主谓宾结构。承接 S3 组成完整专有名词主语 L.A. Unified（洛杉矶联合学区）；谓语动词 has produced（现在完成时，意为“出台、出具”）；宾语 an inflexible policy（一项死板/僵化的政策），形容词 inflexible 表明作者鲜明的批判态度。"
+              },
+              {
+                "type": "定语从句与宾语从句",
+                "content": "which mandates that with the exception of some advanced courses, homework may no longer count for more than 10% of a student’s academic grade",
+                "explanation": "which 引导限制性定语从句修饰先行词 an inflexible policy，并在从句中作主语；从句谓语 mandates（强制规定）后接 that 引导的宾语从句；宾语从句中插入介词短语 with the exception of some advanced courses（除少数高级进阶课程外）作排除状语；从句主干为 homework（主语）may no longer count for（谓语短语，意为“不再占比”）more than 10% of a student’s academic grade（宾语，占学生总评成绩的10%以上）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "inflexible policy which mandates that ... homework may no longer count for more than 10%",
+                "explanation": "核心政策事实陈述。揭示洛杉矶学区争议的核心——一刀切（inflexible）将作业限分为总成绩的 10%。注意 Q21 干扰项 D（is not required for advanced courses）利用 with the exception of 偷换概念，原文是高级课程“不适用10%限分上限”，而非“高级课程不需要做作业”。"
               }
             ]
           }
@@ -892,9 +922,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that students from impoverished or chaotic ho...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "This rule is meant to address the difficulty",
+                "explanation": "主干为主系表/动词不定式结构。主语 This rule（指代前述10%限分新规）；谓语 is meant to（被动形式作系表短语，意为“旨在、目的是”）；不定式短语 address the difficulty（解决困难）作表语/目的补足语。"
+              },
+              {
+                "type": "定语从句与介词搭配",
+                "content": "that students from impoverished or chaotic homes might have in completing their homework",
+                "explanation": "that 引导限制性定语从句修饰先行词 the difficulty，在从句中作 have 的宾语，还原固定搭配为 have difficulty in doing sth（在做某事上有困难）；从句主语 students，后接介词短语 from impoverished or chaotic homes（来自贫困或混乱家庭的）作后置定语；谓语 might have；介词短语 in completing their homework 作补充状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "address the difficulty that students from impoverished or chaotic homes might have in completing their homework",
+                "explanation": "出台政策的初衷与动机（Q22 题眼）。本句为 Q22 题直接定位句，指出学区限分的根本原因是照顾贫困家庭学生无力完成作业的现实困境，精准对应 Q22 正确选项 C“may have problems finishing their homework”（have problems finishing 完美同义替换 have difficulty in completing）。"
               }
             ]
           }
@@ -911,8 +951,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But the policy is unclear and contradictory....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But the policy is unclear and contradictory",
+                "explanation": "主干为主系表结构。转折连词 But 起到篇章逻辑转折作用；主语 the policy（这项政策）；系动词 is；表语是由 and 连接的两个并列形容词 unclear（含糊不清的）和 contradictory（自相矛盾的）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "But the policy is unclear and contradictory",
+                "explanation": "段落主旨反驳转折句（Topic Sentence of Criticism）。作者先立后驳：上句刚承认政策出发点是照顾弱势群体，本句立即以 But 强势转向，直接定性该政策“既含糊又自相矛盾”，统领后文对该政策内在逻辑漏洞的层层剖析。"
               }
             ]
           }
@@ -928,9 +973,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that students cannot complete on their own or...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析与分隔定语从句",
+                "content": "no homework should be assigned that students cannot complete on their own or that they cannot do without expensive equipment",
+                "explanation": "主干为主谓结构（被动语态）。副词 Certainly（诚然/当然）作评注性状语；否定主语 no homework；情态动词复合谓语 should be assigned（应该被布置/分配）。为避免头重脚轻，主语被动语态后接了两个由 or 并列的分隔定语从句（split relative clauses），共同修饰主语 no homework。"
+              },
+              {
+                "type": "从句剖析与条件修饰",
+                "content": "that students cannot complete on their own or that they cannot do without expensive equipment",
+                "explanation": "从句① that students cannot complete on their own，that 在从句中作 complete 的宾语，短语 on their own 作方式状语（独立自主地）；从句② that they cannot do without expensive equipment，that 在从句中作 do 的宾语，介词短语 without expensive equipment（没有昂贵设备）作条件状语，直指教育硬件资源不平等。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Certainly, no homework should be assigned that...",
+                "explanation": "让步论证（Concession）。作者退一步承认合理原则：学校确实不应布置超出学生独立完成能力或依赖高昂硬件的作业；这种严谨的让步为紧接着下句（But if...）发起致命批评构建了坚实的逻辑立足点。"
               }
             ]
           }
@@ -946,14 +1001,24 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who do not do their homework because of comp...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "it is going riskily close to the implication",
+                "explanation": "主干为主系表/动词短语结构。主句主语 it 指代学区前述做法；谓语动词短语 is going close to（现在进行时，意为“正在走向/危险地逼近”）；副词 riskily（危险地）修饰形容词 close；介词 to 后接名词宾语 the implication（隐含意、潜在暗示）。"
               },
               {
-                "type": "状语从句",
-                "content": "if the district is essentially giving a pas...",
-                "explanation": "从属连词 <code>if</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "条件状语从句与定语从句",
+                "content": "if the district is essentially giving a pass to students who do not do their homework because of complicated family lives",
+                "explanation": "if 引导条件状语从句。从句主干为 the district（主语）is essentially giving a pass to students（谓语短语，give a pass to 意为“放行、纵容、给予免死金牌”）；who 引导定语从句修饰 students，并在从句中作主语，从句中介词短语 because of complicated family lives 作原因状语说明不做作业的借口。"
+              },
+              {
+                "type": "同位语从句与被动语态",
+                "content": "that standards need to be lowered for poor children",
+                "explanation": "that 引导同位语从句解释 the implication 的具体内涵；从句主语 standards（学术考核标准）；谓语 need to be lowered（不定式被动式，意为“被降低”）；介词短语 for poor children 作对象状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "giving a pass to students ... implication that standards need to be lowered for poor children",
+                "explanation": "深度批判推论（Critical Reasoning）。作者指出政策的严重副作用：名义上是同情关怀弱势群体，实则是在教育标准上对贫困儿童降格以求（降低标准），剥夺其通过严格学业实现阶层流动的机会，这是极其危险的软性歧视。呼应 Q25 题 A 选项 A Faulty Approach。"
               }
             ]
           }
@@ -969,9 +1034,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that homework will still be a part of schooli...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "District administrators say that homework will still be a part of schooling ; teachers are allowed to assign as much of it as they want",
+                "explanation": "全句由分号连接两个并列分句。分句①为主谓宾结构：主语 District administrators（学区管理官员）；谓语 say；that 引导宾语从句（homework will still be a part of schooling，作业仍将是学校教育的一部分）。分句②为主谓宾补结构（被动语态）：主语 teachers；谓语 are allowed（被允许）；不定式短语 to assign... 作主语补足语。"
+              },
+              {
+                "type": "比较结构与程度状语",
+                "content": "as much of it as they want",
+                "explanation": "as... as... 引导同级比较结构作 assign 的宾语短语，代词 it 指代 homework，they want 作比较状语，意为“教师想布置多少就可以布置多少”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "teachers are allowed to assign as much of it as they want",
+                "explanation": "官方辩解引述与反差设伏。引述学区官员看似开明的口辞：未限制教师布置作业的权利。然而下句立刻无情拆穿：由于作业不计分，布置再多也是空谈，为 Q23 题批判该政策打击学生作业积极性提供直接前提。"
               }
             ]
           }
@@ -988,8 +1063,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But with homework counting for no more than 10 % of their gr...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "students can easily skip half their homework and see very little difference on their report cards",
+                "explanation": "主干为主谓宾（并列谓语）结构。主语 students；情态动词 can 后接两个 and 并列的动词原形短语：谓语① skip half their homework（跳过/不做一半作业），副词 easily 作状语；谓语② see very little difference on their report cards（在成绩单上几乎看不出任何分值差距），little 表否定含义。"
+              },
+              {
+                "type": "with 复合结构作原因状语",
+                "content": "with homework counting for no more than 10 % of their grades",
+                "explanation": "with + 宾语（homework）+ 现在分词短语（counting for no more than 10% of their grades）构成 with 独立复合结构作原因状语，揭示学生敢于不做作业的根本原因：分值权重过低。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "skip half their homework and see very little difference",
+                "explanation": "核心弊端实证分析（Q23 核心题眼）。本句为 Q23 题直接定位句：限分 10% 导致做与不做对总成绩毫无影响，学生自然选择不做作业，精准推导并支撑正确项 D“discourage students from doing homework”（挫伤学生写作业积极性）；选项 A 偷换概念称“对成绩单漠不关心”，属于偷换逻辑主干。"
               }
             ]
           }
@@ -1005,9 +1090,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "who performed well on the tests and did thei...",
-                "explanation": "关系词 <code>who</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "Some students might do well on state tests without completing their homework, but what about the students",
+                "explanation": "主干为 but 连接的两个分句。分句①为主谓结构：主语 Some students；谓语 might do well（可能考得好）；地点状语 on state tests（在州统考中）；介词短语 without completing their homework 作伴随/条件否定状语。分句②为常用交际问句主干 what about the students...（那么那些……的学生又该怎么办呢？），提出反诘。"
+              },
+              {
+                "type": "定语从句与并列谓语",
+                "content": "who performed well on the tests and did their homework",
+                "explanation": "who 引导限制性定语从句修饰先行词 the students，并在从句中作主语；从句中包含 and 连接的两个并列谓语：performed well on the tests（在考试中表现优异）与 did their homework（踏实认真完成了作业）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "what about the students who performed well on the tests and did their homework",
+                "explanation": "修辞反问与公平性质疑（Rhetorical Question）。作者通过提出对立群体进行灵魂拷问：不写作业的学生考得好，认真写作业又考得好的学生却得不到应有的成绩回报，揭示该政策对勤奋自律学生的不公平惩罚机制。"
               }
             ]
           }
@@ -1023,9 +1118,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that the homework helped....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析与主语从句",
+                "content": "It is quite possible that the homework helped",
+                "explanation": "主干为主系表（形式主语）结构。It 为形式主语；系动词 is；表语形容词 possible，副词 quite 修饰 possible；that 引导的主语从句 that the homework helped（作业发挥了实质帮助作用）为真正的逻辑主语，从句为主谓结构（主语 the homework，谓语不及物动词 helped）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "It is quite possible that the homework helped",
+                "explanation": "肯定因果假设。作者以斩钉截铁的短句点明常识判断：好成绩并非全凭天赋，平时的家庭作业极有可能起到了至关重要的巩固促进作用，驳斥学区贬低作业价值的浅薄论调。"
               }
             ]
           }
@@ -1041,9 +1141,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "what works best for their students...",
-                "explanation": "连接词 <code>what</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "Yet ... the policy imposes a flat, across-the-board rule",
+                "explanation": "主干为主谓宾结构。转折副词 Yet；主语 the policy（这项政策）；谓语动词 imposes（强制推行、强加）；宾语 a flat, across-the-board rule（一刀切的、全面适用的死规定），形容词 flat 和 across-the-board 形象针砭政策的粗暴机械。"
+              },
+              {
+                "type": "介词短语与宾语从句",
+                "content": "rather than empowering teachers to find what works best for their students",
+                "explanation": "rather than + 动名词短语 empowering... 作介词短语状语表示否定对比（意为“而不是赋予……权力”）；动词 empower 宾语 teachers，后接不定式 to find 作宾补；find 后接 what 引导的宾语从句（what works best for their students，什么对他们的学生最有效），what 在从句中作主语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "rather than empowering teachers ... imposes a flat, across-the-board rule",
+                "explanation": "方法论批判与正误对比。将“因材施教（empower teachers to find what works best）”与“行政一刀切（across-the-board rule）”并置对比，批判学区官僚作风对一线教学自主权的扼杀。"
               }
             ]
           }
@@ -1060,8 +1170,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "At the same time, the policy addresses none of the truly tho...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "the policy addresses none of the truly thorny questions about homework",
+                "explanation": "主干为主谓宾结构。时间与承接状语 At the same time（与此同时）；主语 the policy；谓语动词 addresses（应对、着手解决）；否定代词 none（一个也没有）作宾语，后接介词短语 of the truly thorny questions about homework 作后置定语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "addresses none of the truly thorny questions about homework",
+                "explanation": "段落主旨承上启下句（Topic Sentence of Paragraph 4）。从操作层面（计分规则）上升到教育哲学本质层面，直斥政策“避重就轻、治标不治本”。词组 thorny questions 直接诱发后文 Q24 题（a key question unanswered about homework）。"
               }
             ]
           }
@@ -1077,9 +1192,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "If the district finds homework to be unimpo...",
-                "explanation": "从属连词 <code>If</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "it should move to reduce or eliminate the assignments, not make them count for almost nothing",
+                "explanation": "主干为主谓宾/并列动作结构。主语 it（指代 the district）；情态动词复合谓语 should move（应该采取行动）；动词不定式短语 to reduce or eliminate the assignments 作目的状语；否定并列结构 not make them count for almost nothing（而不是让它们形同虚设），make 为使役动词，them 作宾语，省 to 不定式短语 count for almost nothing 作宾补。"
+              },
+              {
+                "type": "条件状语从句与复合宾语",
+                "content": "If the district finds homework to be unimportant to its students’ academic achievement",
+                "explanation": "if 引导条件状语从句。从句主语 the district；谓语动词 finds（发现、认定）；宾语 homework；不定式短语 to be unimportant to its students’ academic achievement（对学生的学业成绩无关紧要）作宾语补足语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "reduce or eliminate the assignments, not make them count for almost nothing",
+                "explanation": "逻辑假说①：若作业无用。作者给出第一种符合逻辑的对策：若作业真无价值，理应大刀阔斧直接削减或彻底取消（reduce or eliminate），而不是留着作业却贬值至10%，让作业沦为鸡肋。与下句构成正反双向析理。"
               }
             ]
           }
@@ -1095,9 +1220,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "if homework matters...",
-                "explanation": "从属连词 <code>if</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Conversely ... it should account for a significant portion of the grade",
+                "explanation": "主干为主谓宾结构。逻辑对比副词 Conversely（相反、反之）；主语 it（家庭作业）；情态动词谓语 should account for（理应占……比例）；宾语 a significant portion of the grade（总评成绩的很大一部分/重要份额）。"
+              },
+              {
+                "type": "条件状语从句",
+                "content": "if homework matters",
+                "explanation": "if 引导条件状语从句，从句为主谓结构（主语 homework，谓语动词 matters 意为“要紧、有重大价值”）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "if homework matters, it should account for a significant portion of the grade",
+                "explanation": "逻辑假说②与哲学核心拷问（Q24 命题题眼）。S15 与 S16 构成严密的对偶反假命题：若无用则取缔，若重要（matters）则应占大头。两句合力托出全段核心追问——作业在教育中究竟管不管用？精准对应 Q24 正确选项 B“whether it counts much in schooling”（counts much 完美对应 matters）。"
               }
             ]
           }
@@ -1113,9 +1248,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that the homework students receive is meaning...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "this policy does nothing to ensure",
+                "explanation": "主干为主谓宾结构。承接副词 Meanwhile；主语 this policy；谓语 does；宾语 nothing（毫无作为）；动词不定式短语 to ensure...（去确保……）作目的状语。"
+              },
+              {
+                "type": "并列宾语从句与定语从句",
+                "content": "that the homework students receive is meaningful or appropriate ... or that teachers are not assigning more than they are willing to review and correct",
+                "explanation": "ensure 后面接了由 or 并列连接的两个 that 宾语从句：宾语从句① that the homework [which] students receive is meaningful or appropriate to their age and the subject，其中省略关系代词的定语从句 students receive 修饰主语 homework，系表结构 is meaningful or appropriate...；宾语从句② that teachers are not assigning more than they are willing to review and correct，more than 引导比较从句，主干为 teachers are not assigning more。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "does nothing to ensure that the homework ... is meaningful ... or that teachers are not assigning more...",
+                "explanation": "质量与减负双向落空。揭示限分政策的无能：既不能保证作业质量（meaningful/appropriate），又不能防止教师滥留作业（超过批改承受力），进一步佐证该政策的荒谬与漏洞。"
               }
             ]
           }
@@ -1131,14 +1276,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which is responsible for setting educational p...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "The homework rules should be put on hold",
+                "explanation": "主干为主谓结构（被动语态/固定短语）。主语 The homework rules（家庭作业规定）；谓语 should be put on hold（被动语态，短语 put on hold 意为“搁置、叫停、暂缓执行”）。"
               },
               {
-                "type": "状语从句",
-                "content": "while the school board...",
-                "explanation": "从属连词 <code>while</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "时间状语从句与非限制性定语从句",
+                "content": "while the school board, which is responsible for setting educational policy, looks into the matter and conducts public hearings",
+                "explanation": "while 引导时间状语从句（在……期间）；从句主语 the school board（学校董事会）；which 引导非限制性定语从句修饰 the school board，短语 be responsible for setting educational policy 说明其权责；从句并列谓语① looks into the matter（调查该事件），并列谓语② conducts public hearings（举行公开听证会）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "rules should be put on hold while the school board ... conducts public hearings",
+                "explanation": "行动建议呼吁（Prescriptive Recommendation）。作者开出纠偏药方：当务之急是立即叫停这项限分蠢政，由具有合法教育决策权的校董会深入调研、纳入学界与公众意见重新审议。"
               }
             ]
           }
@@ -1154,9 +1304,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "It is not too late for L.A....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "主干剖析（前半部）",
+                "content": "It is not too late for L.A.",
+                "explanation": "主干为主系表结构的前半截。It 作形式主语；系动词 is；表语 not too late（不算太晚）；介词短语 for L.A.（对洛杉矶而言）为动作逻辑主语的前半部分。（注：因缩写词 L.A. 点号排版断句，真正的主语不定式补语接在 S20）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "It is not too late",
+                "explanation": "篇尾建设性勉励。表明作者虽然批判严厉，但通篇目的在于亡羊补牢、敦促修正，并非全盘否定教育改革本身，展现出客观建设性的态度。"
               }
             ]
           }
@@ -1172,9 +1327,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "Unified to do homework right....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "逻辑主语补语与不定式主干（后半部）",
+                "content": "Unified to do homework right",
+                "explanation": "承接 S19 完成专有名词 L.A. Unified；动词不定式短语 to do homework right（正确合理地布置家庭作业）充当 S19 形式主语 It 的真正逻辑主语，副词 right 作状语修饰动词 do。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "to do homework right",
+                "explanation": "全文结语点题。双关语 do homework right 既指“让学生把作业做好”，更指“让教育管理部门把作业政策制定妥当”，与篇首形成首尾呼应，再次印证 Q25 题 A 选项“A Faulty Approach to Homework”（亟需改邪归正）。"
               }
             ]
           }
@@ -2542,8 +2702,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Pretty in pink: adult women do not remember being so obsesse...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Pretty in pink: adult women do not remember being so obsessed with the colour, yet it is pervasive in our young girls’ lives",
+                "explanation": "全句由冒号引出，后接 yet 连接的两个并列分句。分句①为主谓宾结构：主语 adult women（成年女性）；谓语 do not remember（不记得）；动名词短语 being so obsessed with the colour（曾对这种颜色如此痴迷）作宾语，形容词短语 obsessed with 表痴迷。分句②为主系表结构：主语 it（代指粉色）；系动词 is；表语 pervasive（无处不在的、泛滥的）；介词短语 in our young girls’ lives（在我们小女孩的生活中）作范围状语。"
+              },
+              {
+                "type": "标题引语与修辞",
+                "content": "Pretty in pink:",
+                "explanation": "句首 Pretty in pink 为文化流行引用（源自经典少女电影《红粉佳人》），用作引人入胜的视觉主题小标题，为后文探讨粉色符号学定下基调。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "adult women do not remember ... yet it is pervasive in our young girls’ lives",
+                "explanation": "两代人体验代际反差（Contrast）。成年女性的童年记忆中并无粉色狂热，而如今的幼女却被粉色重重包围，以此反常悬念破题，暗示这一现象绝非自古以来的生理天然，而是近代文化建构的产物。"
               }
             ]
           }
@@ -2559,14 +2729,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "though it may celebrate girlhood in one way...",
-                "explanation": "从属连词 <code>though</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "It is not that pink is intrinsically bad, but it is such a tiny slice of the rainbow ... it also repeatedly and firmly fuses girls’ identity to appearance",
+                "explanation": "主干为 not that... but (that)... 并列否定与肯定阐释结构。前节 It is not that... 排除错误定性；but 引出真实核心分句 it is such a tiny slice of the rainbow（主系表，它只是彩虹中极小的一抹）；后并列主谓宾分句 it also repeatedly and firmly fuses girls’ identity to appearance（主语 it，谓语 fuses... to... 意为“将……牢固绑定于……”，宾语 girls’ identity，介词短语 to appearance 作结合补语）。"
               },
               {
-                "type": "名词性从句",
-                "content": "that pink is intrinsically bad...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "让步状语从句与隐喻",
+                "content": "though it may celebrate girlhood in one way / such a tiny slice of the rainbow",
+                "explanation": "though 引导让步状语从句，承认粉色在某种程度上对女孩特质的颂扬；隐喻 a tiny slice of the rainbow 将丰富广阔的童年光谱比作整道彩虹，将粉色比作狭隘的一道窄条，形象批判其对女孩可能性的极大收窄。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "such a tiny slice of the rainbow ... fuses girls’ identity to appearance",
+                "explanation": "隐喻与核心命题（Q26 题眼）。本句为 Q26 题直接定位句。作者借“彩虹中的一小片”说明粉色绝不应代表女孩生活的全部，精准对应 Q26 正确选项 C“should not be the sole representation of girlhood”（不应是少女时代的唯一象征）；同时指出其危害——将女孩价值死死绑定在外表上。"
               }
             ]
           }
@@ -2582,9 +2757,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that connection...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析",
+                "content": "it presents that connection ... as not only innocent but as evidence of innocence",
+                "explanation": "主干为主谓宾补结构。承接副词 Then；主语 it（粉色文化）；谓语 presents（呈现、描绘）；宾语 that connection（指代上句中女孩身份与外表的绑定关联）；介词短语 as not only innocent but as evidence of innocence（不仅天真无邪，而且是纯洁天真的铁证）由 not only... but... 连接作宾语补足语。"
+              },
+              {
+                "type": "插入语与介词修饰",
+                "content": "even among two-year-olds / between girls",
+                "explanation": "插入语 even among two-year-olds（甚至在两岁幼儿之间）极力强化年龄幼化程度；介词短语 between/among girls 限定该连接所植入的受众群体。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "presents that connection ... as not only innocent but as evidence of innocence",
+                "explanation": "文化神话的深化批判。商业粉色不仅将外貌定义强加于幼童，还将其包装成“纯洁童真”的代名词，使得家长与社会放松警惕，心甘情愿接受商业绑架。"
               }
             ]
           }
@@ -2601,8 +2786,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Looking around, I despaired at the singular lack of imaginat...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "I despaired at the singular lack of imagination about girls’ lives and interests",
+                "explanation": "主干为主谓宾/介词搭配结构。主语第一人称 I；谓语动词 despaired at（对……感到绝望/痛心）；宾语 the singular lack of imagination（异乎寻常的极度缺乏想象力，singular 在此意为“极其突出的、罕见的”）；介词短语 about girls’ lives and interests 作定语修饰 imagination。"
+              },
+              {
+                "type": "现在分词短语作状语",
+                "content": "Looking around",
+                "explanation": "现在分词短语 Looking around 作时间/伴随状语，逻辑主语与主句主语一致为 I，烘托出作者审视当今儿童商品市场满目粉色时的沉痛感受。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "despaired at the singular lack of imagination about girls’ lives and interests",
+                "explanation": "作者个人情感宣泄与主观批判。用 despaired at 和 singular lack of imagination 直斥粉色垄断彻底扼杀了女孩成长的丰富多样性与探索天性，收束第 1 段的现象批判。"
               }
             ]
           }
@@ -2619,8 +2814,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Girls’ attraction to pink may seem unavoidable, somehow enco...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Girls’ attraction to pink may seem unavoidable ... but ... it is not",
+                "explanation": "主干为 but 连接的两个转折分句。分句①为主系表结构：主语 Girls’ attraction to pink（女孩对粉色的喜爱）；系动词 may seem（情态动词表推测，似乎、看似）；表语 unavoidable（不可避免的）。分句②为否定承接简略句：主语 it（这种喜爱）；系动词 is not（后省略 unavoidable/encoded in their DNA，即绝非不可避免/天生注定）。"
+              },
+              {
+                "type": "分词插入语与权威观点引述",
+                "content": "somehow encoded in their DNA / according to Jo Paoletti, an associate professor of American Studies",
+                "explanation": "过去分词短语 somehow encoded in their DNA（不知何故被编码进基因中）作并列补语，形象表达公众认为这是“先天本能”的刻板预设；介词短语 according to... 引入美国研究副教授乔·保莱蒂的学者权威背书，an associate professor... 为同位语解释其专业身份。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "may seem unavoidable, somehow encoded in their DNA, but ... it is not",
+                "explanation": "驳论立靶与核心观点转向（Turning Point）。先立起“天生生物决定论（DNA）”的靶子，再借权威学者一锤定音“it is not”（根本不是），全面推翻先天说，引出下文的历史考证。本句直接为 Q30 题奠定基石（排除 B 选项 inborn tendency，支持 C 选项商界强加）。"
               }
             ]
           }
@@ -2636,9 +2841,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "since the only way of getting clothes clean wa...",
-                "explanation": "从属连词 <code>since</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析",
+                "content": "Children were not colour-coded at all until the early 20th century : all babies wore white as a practical matter",
+                "explanation": "冒号前后分为两大主干。冒号前主干为 not... until... 结构的主谓（被动语态）：主语 Children；谓语 were not colour-coded at all until the early 20th century（直到20世纪初儿童才被用颜色进行性别编码）。冒号后分句展开历史解释：主语 all babies；谓语 wore；宾语 white（白色衣服）；介词短语 as a practical matter（出于实用考虑）作方式/原因状语。"
+              },
+              {
+                "type": "时间状语与原因状语从句",
+                "content": "in the era before domestic washing machines / since the only way of getting clothes clean was to boil them",
+                "explanation": "时间状语 in the era before domestic washing machines（在家用洗衣机普及之前的时代）；since 引导原因状语从句，从句主语 the only way of getting clothes clean（洗净衣服的唯一办法），系动词 was，表语为动词不定式 to boil them（把衣服煮沸消毒漂白）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Children were not colour-coded at all ... all babies wore white as a practical matter",
+                "explanation": "历史事实论据①（婴儿全穿白衣）。揭露历史真相：历史上给婴儿穿白色纯粹是出于开水煮沸消毒的“实用考虑”，绝非婴儿自主偏好。精准排除 Q27 干扰项 C“White is preferred by babies”（把实用便利偷换为主观偏好）。"
               }
             ]
           }
@@ -2654,9 +2869,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "what were thought of as gender-neutral dresse...",
-                "explanation": "连接词 <code>what</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析与宾语从句",
+                "content": "What’s more, both boys and girls wore what were thought of as gender-neutral dresses",
+                "explanation": "主干为主谓宾结构。递进连接词 What’s more（更重要的是）；主语 both boys and girls（男童和女童双方）；谓语动词 wore（穿）；what 引导宾语从句作 wore 的宾语，并在宾语从句中作主语，从句谓语为被动语态 were thought of as（被视作），宾补为 gender-neutral dresses（无性别偏向的罩衫/连衣裙）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "both boys and girls wore what were thought of as gender-neutral dresses",
+                "explanation": "历史事实论据②（无性别服饰）。进一步打破当代人的性别偏见：过去男女童都穿无性别裙装，完全不存在现代泾渭分明的“男穿裤、女着裙”的商业性别分割。"
               }
             ]
           }
@@ -2672,9 +2892,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "When nursery colours were introduced...",
-                "explanation": "关系词 <code>When</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "pink was actually considered the more masculine colour",
+                "explanation": "主干为主谓宾补（被动语态）结构。主语 pink（粉色）；谓语 was actually considered（实际上被视作）；补足语 the more masculine colour（更偏男性的颜色，masculine 意为男性的、阳刚的）。"
+              },
+              {
+                "type": "时间状语从句、同位语与定语从句",
+                "content": "When nursery colours were introduced / a pastel version of red, which was associated with strength",
+                "explanation": "When 引导时间状语从句（当托儿所/婴儿房色彩被引入时），从句被动语态 were introduced；名词短语 a pastel version of red（红色的柔和淡雅版本）作 the more masculine colour 的同位语；which 引导非限制性定语从句修饰 red，谓语 was associated with strength（与力量/阳刚联系在一起）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "pink was actually considered the more masculine colour",
+                "explanation": "颠覆常识的色彩历史反转（Surprising Historical Fact）。粉色在最初进入育儿领域时竟然代表阳刚男性力量！为下句蓝色的象征意义埋下直接对比伏笔，彻底击碎“粉色生来属于女性”的当代神话。"
               }
             ]
           }
@@ -2691,8 +2921,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Blue, with its intimations of the Virgin Mary, constancy and...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Blue ... symbolised femininity",
+                "explanation": "主干为主谓宾结构。主语 Blue（蓝色）；谓语动词 symbolised（象征）；宾语 femininity（女性气质、阴柔）。"
+              },
+              {
+                "type": "伴随/后置介词修饰",
+                "content": "with its intimations of the Virgin Mary, constancy and faithfulness",
+                "explanation": "介词短语 with... 作插入修饰语解释蓝色的文化寓意：intimations 意为“暗示、联想”，后接三个并列名词 the Virgin Mary（圣母玛利亚）、constancy（坚贞不渝）与 faithfulness（忠诚）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Blue ... symbolised femininity",
+                "explanation": "核心题眼定位（Q27 题眼）。本句为 Q27 题直接定位句，指出历史上蓝色象征着女性特质，精准对应 Q27 正确选项 B“Blue used to be regarded as the colour for girls”（蓝色过去曾被视作女孩的颜色）。"
               }
             ]
           }
@@ -2708,9 +2948,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "when amplifying age and sex differences becam...",
-                "explanation": "关系词 <code>when</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析（强调句型）",
+                "content": "It was not until the mid-1980s ... that pink fully came into its own",
+                "explanation": "主干为 It was not until... that... 经典强调句型。被强调部分为时间状语 not until the mid-1980s（直到20世纪80年代中期）；主句主干为 that pink（主语）fully came into its own（谓语短语，短语 come into one’s own 意为“展现自身价值、大放异彩、确立地位”）。"
+              },
+              {
+                "type": "定语从句、动名词与同位语修饰",
+                "content": "when amplifying age and sex differences became a dominant children’s marketing strategy / when it began to seem inherently attractive to girls, part of what defined them as female",
+                "explanation": "① 第一个 when 引导定语从句修饰 the mid-1980s，从句主语为动名词短语 amplifying age and sex differences（扩大年龄与性别差异），谓语 became，表语 a dominant children’s marketing strategy（主流儿童营销策略）；② 第二个 when 引导定语从句补充说明 came into its own 的表现；同位语短语 part of what defined them as female 解释这一吸引力如何被内化为女性身份认同。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "amplifying age and sex differences became a dominant children’s marketing strategy ... pink fully came into its own",
+                "explanation": "真相大白：营销驱动（Q28 & Q30 核心题眼）。作者揭示当代粉色女孩神话的真正始作俑者：20世纪80年代商业营销策略刻意放大性别差异。直接印证 Q30 正确项 C“mainly imposed by profit-driven businessmen”与 Q28 正确项 B。"
               }
             ]
           }
@@ -2726,9 +2976,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "how profoundly marketing trends dictated our...",
-                "explanation": "连接词 <code>how</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析与宾语从句",
+                "content": "I had not realised how profoundly marketing trends dictated our perception of what is natural to kids",
+                "explanation": "主干为主谓宾结构。主语第一人称 I；谓语动词 had not realised（过去完成时否定式，此前未曾意识到）；how profoundly 引导感叹式宾语从句作 realised 的宾语，从句主语 marketing trends（营销趋势），谓语 dictated（支配、决定），宾语 our perception of what is natural to kids（我们对孩子天性的认知），介词 of 后又嵌套 what 引导的宾语从句。"
+              },
+              {
+                "type": "介词短语修饰",
+                "content": "including our core beliefs about their psychological development",
+                "explanation": "介词短语 including... 作后置补充定语，修饰 our perception，意为“包括我们对其心理发育的核心信念”，直指商业营销对公众科学认知和育儿观念的深度侵蚀。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "marketing trends dictated our perception of ... their psychological development",
+                "explanation": "段落主旨反思句（Q28 题眼）。本句为 Q28 题直接定位句，指出大众对儿童心理发展的认知实则深受商业营销趋势（marketing trends）的支配与操控，精准对应 Q28 正确选项 B“the marketing of products for children”。"
               }
             ]
           }
@@ -2744,9 +3004,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "Take the toddler....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "主干剖析（祈使句举例）",
+                "content": "Take the toddler",
+                "explanation": "主干为动词原形开头的祈使句结构。谓语动词 Take（以……为例）；宾语 the toddler（刚学会走路的学步幼儿）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Take the toddler",
+                "explanation": "篇章例证引入（Exemplification Hook）。作者以极简有力的短句切入具体案例，由宏观的色彩营销转入更为震撼的儿童发育阶段术语——“学步儿童（toddler）”的概念剖析。"
               }
             ]
           }
@@ -2762,9 +3027,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that phase was something experts developed af...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析、宾语从句与定语从句",
+                "content": "I assumed that phase was something experts developed after years of research into children’s behaviour : wrong",
+                "explanation": "主干为主谓宾结构。主语 I；谓语 assumed（假定、设想）；that 引导宾语从句作 assumed 的宾语；从句主语 that phase（那个阶段），系动词 was，表语代词 something；something 后接省略关系代词的限制性定语从句 [that] experts developed...（专家总结归纳出来的）；介词短语 after years of research into children’s behaviour 作从句时间状语；冒号后单词 wrong 单独作评注词。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "assumed that phase was something experts developed ... : wrong",
+                "explanation": "心理预期落差设问（Expectation vs. Reality）。用一个极其戏剧化的单字冒号评注 wrong，断然否定了“幼儿阶段是科学研究发现”的普遍假定，引出下句惊人的商业内幕，为 Q28 排除干扰项 C“researches into children’s behavior”（靶子假设）提供证据。"
               }
             ]
           }
@@ -2781,8 +3051,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Turns out, according to Daniel Cook, a historian of childhoo...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Turns out ... it was popularised as a marketing trick by clothing manufacturers in the 1930s",
+                "explanation": "主干为主谓结构（被动语态）。固定口语短语 Turns out（事实证明，相当于 It turns out that... 的口语化省略）；主语 it（代指 toddler 这个发展阶段与称谓）；谓语 was popularised（过去时被动语态，意为“被推广、被普及”）；介词短语 as a marketing trick（作为一种营销花招/伎俩）作方式状语；by clothing manufacturers 作施动者状语；in the 1930s 作时间状语。"
+              },
+              {
+                "type": "同位语与权威学者引述",
+                "content": "according to Daniel Cook, a historian of childhood consumerism",
+                "explanation": "介词短语 according to Daniel Cook 引入历史学家考证；名词短语 a historian of childhood consumerism（儿童消费主义历史学者）作 Cook 的同位语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "popularised as a marketing trick by clothing manufacturers",
+                "explanation": "商业操纵本质揭秘。点破“幼儿”概念的诞生源自 1930 年代服装商人的牟利伎俩，再次印证儿童心理发展概念被商业利益劫持的主旨。"
               }
             ]
           }
@@ -2798,9 +3078,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "Trade publications counselled department stores that, in ord...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "主干剖析与双宾语结构",
+                "content": "Trade publications counselled department stores that ... they should create a “third stepping stone” between infant wear and older kids’ clothes",
+                "explanation": "主干为主谓双宾（间接宾语+从句直接宾语）结构。主语 Trade publications（行业商业出版物）；谓语动词 counselled（建议）；间接宾语 department stores（百货商店）；that 引导的宾语从句作直接宾语。"
+              },
+              {
+                "type": "目的状语与从句主干",
+                "content": "in order to increase sales, they should create a “third stepping stone” between infant wear and older kids’ clothes",
+                "explanation": "宾语从句中插入目的状语 in order to increase sales（为了增加销售额）；从句主干为 they should create a “third stepping stone”（他们应该创造一块“第三垫脚石”）；介词短语 between infant wear and older kids’ clothes（在婴儿服装与大童服装之间）作 stepping stone 的后置定语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "create a “third stepping stone” between infant wear and older kids’ clothes",
+                "explanation": "商业策略还原（Q29 题眼）。本句为 Q29 题直接定位句。行业杂志建议在婴儿与大童之间硬造一个“第三过渡群体”，本质就是细分市场以榨取更多消费，精准对应 Q29 正确选项 A“classify consumers into smaller groups”（把消费者细分为更小的群体）。"
               }
             ]
           }
@@ -2816,9 +3106,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that it evolved into a broadly accepted devel...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析（强调句型）",
+                "content": "It was only after “toddler” became a common shoppers’ term that it evolved into a broadly accepted developmental stage",
+                "explanation": "主干为 It was only after... that... 强调时间从句的强调句型。被强调部分为 only after 引导的时间状语从句（“toddler” became a common shoppers’ term，幼儿一词成为常见购物用语）；that 引出被强调的主句主干：it（代词指代该词汇/概念）evolved into a broadly accepted developmental stage（演变成被广泛接受的心理发展阶段），evolved into 为谓语短语，a broadly accepted developmental stage 作介词宾语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "only after “toddler” became a common shoppers’ term that it evolved into ... developmental stage",
+                "explanation": "因果与先后次序颠倒（The Ultimate Irony）。强调句强力揭示真相的荒诞：并非先有科学发现的儿童发育阶段，而是商界先为了卖衣服生造出“购物词汇”，随后心理学与社会常识才将其追认为“发育阶段”，商业走在了科学之前。"
               }
             ]
           }
@@ -2834,9 +3129,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "Splitting kids, or adults, into ever-tinier categories has p...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "主干剖析与动名词主语",
+                "content": "Splitting kids, or adults, into ever-tinier categories has proved a sure-fire way to boost profits",
+                "explanation": "主干为动名词短语作主语的主系表/系动词结构。动名词短语 Splitting kids, or adults, into ever-tinier categories 作全句主语，短语 split... into... 意为“把……切分为……”，插入语 or adults 拓展对象；谓语系动词 has proved（现在完成时，已证明是）；表语 a sure-fire way（极其灵验/万无一失的方法）；动词不定式短语 to boost profits（提高利润）作后置定语修饰 way。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Splitting kids ... into ever-tinier categories has proved a sure-fire way to boost profits",
+                "explanation": "底层商业逻辑总结。作者提炼出资本操控消费的核心法宝——“无限细分市场（market segmentation）”。群体划分越碎，定制化商品越多，利润空间就越大。这为末句提炼性别差异操控提供逻辑支点，全面呼应 Q29 与 Q30。"
               }
             ]
           }
@@ -2852,9 +3152,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "where they did not previously exist....",
-                "explanation": "关系词 <code>where</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "one of the easiest ways to segment a market is to magnify gender differences—or invent them",
+                "explanation": "主干为主系表结构。递进连词 And；主语 one of the easiest ways to segment a market（细分市场最简易的途径之一），不定式 to segment a market 作 ways 的后置定语；系动词 is；表语是由 or 并列的不定式短语 to magnify gender differences（放大性别差异）与 [to] invent them（生造虚构性别差异），代词 them 指代 gender differences。"
+              },
+              {
+                "type": "地点/条件状语从句",
+                "content": "where they did not previously exist",
+                "explanation": "where 引导地点/条件抽象状语从句，修饰动词 invent，意为“在原本根本不存在性别差异的领域”，说明商业力量无中生有、强行建构性别壁垒的本质。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "magnify gender differences—or invent them where they did not previously exist",
+                "explanation": "全文收官点睛与主旨定性（Q30 终极题眼）。作者在全文最后一句彻底撕开“粉色少女文化”的面具：商界放大甚至无中生有制造性别差异，纯粹是为了细分市场攫取暴利。完美对应 Q30 正确项 C“mainly imposed by profit-driven businessmen”。"
               }
             ]
           }
@@ -4309,8 +4619,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In 2010, a federal judge shook America’s biotech industry to...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "In 2010, a federal judge shook America’s biotech industry to its core",
+                "explanation": "主干为主谓宾结构。时间状语 In 2010；主语 a federal judge（一位联邦法官）；谓语动词 shook（shake 的过去式，意为“震撼、动摇”）；宾语 America’s biotech industry（美国生物技术产业）；介词短语 to its core（直击核心、彻底地）作程度状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "shook America’s biotech industry to its core",
+                "explanation": "开篇悬念新闻引子（Dramatic Lead）。以极具冲击力的动词短语 shake... to its core（动摇根基）开篇，宣告一场颠覆生物医药行业知识产权规则的重大司法地震，统摄下文的行业震荡与诉讼拉锯。"
               }
             ]
           }
@@ -4327,8 +4642,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Companies had won patents for isolated DNA for decades—by 20...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Companies had won patents for isolated DNA for decades—by 2005 some 20 % of human genes were parented",
+                "explanation": "破折号连接两个过去时态分句。前一分句为主谓宾结构：主语 Companies；谓语 had won（过去完成时，表明裁决前长达数十年的常态）；宾语 patents for isolated DNA（针对人工分离DNA的专利）；时间状语 for decades（数十年之久）。破折号后分句为主谓（被动语态）：时间状语 by 2005；主语 some 20% of human genes（约20%的人类基因）；谓语 were parented（印制勘误/实际为 were patented，已被授予专利）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "won patents for isolated DNA for decades ... some 20 % of human genes were patented",
+                "explanation": "历史背景交代。阐明既往商业巨头靠基因专利赚得盆满钵满的历史事实，全美多达两成的人类基因已被企业占为私有，烘托下文司法判决带来的颠覆性冲击。"
               }
             ]
           }
@@ -4344,9 +4664,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that genes were unpatentable....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析与宾语从句",
+                "content": "But in March 2010 a judge ruled that genes were unpatentable",
+                "explanation": "主干为主谓宾结构。转折连词 But；时间状语 in March 2010；主语 a judge（纽约南区联邦法官 Sweet）；谓语动词 ruled（司法裁定）；that 引导宾语从句作 ruled 的宾语；宾语从句为主系表结构：从句主语 genes（人类基因），系动词 were，表语形容词 unpatentable（不可申请专利的，前缀 un- 表否定）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "a judge ruled that genes were unpatentable",
+                "explanation": "司法地震转折点。法官以“基因属于自然产物”为由一举判决基因不可申请专利，彻底动摇了生物医药行业的暴利根基，引发企业界强烈恐慌，直通 Q31 题干情境。"
               }
             ]
           }
@@ -4363,8 +4688,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Executives were violently agitated....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Executives were violently agitated",
+                "explanation": "主干为主系表/主谓（被动语态）结构。主语 Executives（生物技术企业高管们）；系动词 were；表语/过去分词 agitated（极度焦虑、焦躁不安、激愤的）；副词 violently（激烈地、强烈地）修饰 agitated。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Executives were violently agitated",
+                "explanation": "商界强烈反弹（Emotional Reaction）。用 violently agitated 生动刻画企业巨头面对专利可能作废时的巨大恐慌与愤恨，侧面印证 Q31 题干——公司绝不愿失去基因专利。"
               }
             ]
           }
@@ -4380,9 +4710,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that this was just a “preliminary step” in a ...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析与双宾语从句",
+                "content": "The Biotechnology Industry Organisation (BIO) ... assured members that this was just a “preliminary step” in a longer battle",
+                "explanation": "主干为主谓双宾结构。主语 The Biotechnology Industry Organisation (BIO)（生物技术工业组织）；同位语 a trade group（行业贸易组织）；谓语 assured（向……保证/安抚）；间接宾语 members（企业会员们）；that 引导宾语从句作直接宾语，从句为主系表结构（主语 this 指代一审判决，系动词 was，表语 a “preliminary step” in a longer battle，意为漫长法律攻防战中的初步阶段）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "assured members that this was just a “preliminary step”",
+                "explanation": "行业协会稳定军心（Q31 题眼背景）。行业行会安抚会员切勿惊慌，誓言上诉死磕到底，充分暴露企业界决不放弃基因专利合法性的顽固诉求，精准锁定 Q31 正确选项 A“genes to be patentable”（期望基因能被授予专利）。"
               }
             ]
           }
@@ -4399,8 +4734,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "On July 29th they were relieved, at least temporarily....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "On July 29th they were relieved, at least temporarily",
+                "explanation": "主干为主系表结构。时间状语 On July 29th；主语代词 they（指代生物医药公司高管）；系动词 were；表语形容词 relieved（如释重负的、松了一口气的）；插入语 at least temporarily（至少是暂时地）作时间让步修饰。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "they were relieved, at least temporarily",
+                "explanation": "情节反转（Plot Twist）。上诉判决扭转战局，企业界从焦虑转为如释重负，而修饰语 at least temporarily 极具伏笔意味，暗示上诉法院的胜利并非终局，后文仍有波折。"
               }
             ]
           }
@@ -4416,9 +4756,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that Myriad Genetics could indeed hold patent...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析与现在分词作状语",
+                "content": "A federal appeals court overturned the prior decision, ruling that Myriad Genetics could indeed hold patents to two genes",
+                "explanation": "主干为主谓宾结构。主语 A federal appeals court（联邦巡回上诉法院）；谓语动词 overturned（推翻、撤销）；宾语 the prior decision（一审判决）；现在分词短语 ruling that... 作伴随/补充说明状语，动词 rule 后接 that 引导的宾语从句，从句主语 Myriad Genetics（万基遗传学公司），谓语 could indeed hold patents to...（确实可以持有针对……的专利）。"
+              },
+              {
+                "type": "定语从句修饰",
+                "content": "that help forecast a woman’s risk of breast cancer",
+                "explanation": "that 引导限制性定语从句修饰先行词 two genes（即著名的 BRCA1/BRCA2 基因），并在从句中作主语，谓语动词 help forecast（预测），宾语 a woman’s risk of breast cancer（女性患乳腺癌的风险）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "overturned the prior decision, ruling that Myriad Genetics could indeed hold patents",
+                "explanation": "司法判决反弹与关键案由。上诉法院支持了万基遗传对乳腺癌易感基因的专利权，直接引出下文关于垄断检测与高昂费用的激烈社会反弹。"
               }
             ]
           }
@@ -4434,9 +4784,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "The chief executive of Myriad, a company in Utah, said the r...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "主干剖析与同位语",
+                "content": "The chief executive of Myriad ... said the ruling was a blessing to firms and patients alike",
+                "explanation": "主干为主谓宾结构。主语 The chief executive of Myriad（万基公司首席执行官）；同位语 a company in Utah（犹他州的一家公司）；谓语 said；后面省略 that 的宾语从句 the ruling was a blessing to firms and patients alike 作宾语；从句为主系表结构，主语 the ruling，系动词 was，表语 a blessing（幸事、福祉），介词短语 to firms and patients alike（无论对企业还是患者而言）作对象状语，alike 作副词修饰两者。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "said the ruling was a blessing to firms and patients alike",
+                "explanation": "资方单方面辩解。高管高调宣称专利胜诉是“企业与患者的双赢”，粉饰其垄断检测牟取暴利的商业企图，与紧随其后的批评者声音构成激烈对立。"
               }
             ]
           }
@@ -4453,8 +4808,18 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But as companies continue their attempts at personalised med...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But ... the courts will remain rather busy",
+                "explanation": "主干为主系表结构。转折连词 But；时间状语从句 as companies continue their attempts at personalised medicine；主句主语 the courts（各级联邦法院）；系动词 will remain（将继续保持）；表语形容词 busy（繁忙的），副词 rather 修饰 busy。"
+              },
+              {
+                "type": "状语从句修饰",
+                "content": "as companies continue their attempts at personalised medicine",
+                "explanation": "从属连词 as 引导伴随时间/因果状语从句，从句主语 companies，谓语 continue，宾语 their attempts at personalised medicine（他们在个性化医疗领域的探索与尝试）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "the courts will remain rather busy",
+                "explanation": "客观预判诉讼潮。作者指出个性化医疗时代科技与法律的必然碰撞：随着更多基因技术商业化，司法介入与诉讼纷争只会愈演愈烈。"
               }
             ]
           }
@@ -4471,8 +4836,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The Myriad case itself is probably not over....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The Myriad case itself is probably not over",
+                "explanation": "主干为主系表结构。主语 The Myriad case（万基公司专利诉讼案）；反身代词 itself 作同位语强调整体案件；系动词 is；副词 probably 作状语；表语副词/形容词 over（结束的）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "The Myriad case itself is probably not over",
+                "explanation": "转折过渡与伏笔。以极具警示意义的简短判断点明：上诉法院的裁定绝非终审，反垄断与公民健康权利团体的上诉必将把官司一路打到联邦最高法院。"
               }
             ]
           }
@@ -4488,9 +4858,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "Critics make three main arguments against gene patents: a ge...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "主干剖析与冒号并列并列句",
+                "content": "Critics make three main arguments against gene patents : a gene is a product of nature ... gene patents suppress innovation ... and patents’ monopolies restrict access to genetic tests",
+                "explanation": "主干为主谓宾结构：主语 Critics（批评人士）；谓语 make；宾语 three main arguments against gene patents（反对基因专利的三大主要论点）。冒号后由分号和 and 连接三大并列分句逐一具体展开论据：① 因果分句 a gene is a product of nature, so it may not be patented（基因是天然产物，故不可专利）；② 主谓宾分句 gene patents suppress innovation rather than reward it（基因专利抑制了创新而非奖励创新）；③ 主谓宾分句 patents’ monopolies restrict access to genetic tests such as Myriad’s（专利垄断限制了公众获取基因检测）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "a gene is a product of nature, so it may not be patented",
+                "explanation": "三大核心反驳论据（Q32 核心题眼）。本句为 Q32 题直接定位句。论点①“基因是自然界产物，不能申请专利”，根据专利法对偶原理，自然产物不可专利即意味着“唯有人工造物方可申请专利”，精准推导并对应 Q32 正确选项 B“only man-made products are patentable”。"
               }
             ]
           }
@@ -4507,8 +4882,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "A growing number seem to agree....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "A growing number seem to agree",
+                "explanation": "主干为主谓结构。主语 A growing number（越来越多人，名词短语代指社会公众与司法专业界人士）；谓语动词短语 seem to agree（似乎表示赞同，不定式 to agree 作谓语动词 seem 的补足成分）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "A growing number seem to agree",
+                "explanation": "民意与专业舆论风向。承上启下，表明反对基因专利不仅是少数学者的声音，而且正在演变为社会各界与政府监管部门的普遍共识。"
               }
             ]
           }
@@ -4524,9 +4904,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "Last year a federal task-force urged reform for patents rela...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "主干剖析与分词短语修饰",
+                "content": "Last year a federal task-force urged reform for patents related to genetic tests",
+                "explanation": "主干为主谓宾结构。时间状语 Last year；主语 a federal task-force（一个联邦特别工作组）；谓语动词 urged（强烈呼吁、敦促）；宾语 reform（改革）；介词短语 for patents 作 reform 的对象；过去分词短语 related to genetic tests 作后置定语修饰 patents。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "a federal task-force urged reform",
+                "explanation": "官方行政力量介入论据①。联邦跨部门工作组的正式呼吁，标志着基因专利争议已经由民间诉讼上升为国家层面的公共政策审视议题。"
               }
             ]
           }
@@ -4542,9 +4927,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that an isolated DNA molecule “is no less a p...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析与非谓语从句（前半部）",
+                "content": "the Department of Justice filed a brief in the Myriad case, arguing that an isolated DNA molecule “is no less a product of nature",
+                "explanation": "主干为主谓宾结构的前半部分。时间状语 In October；主语 the Department of Justice（美国司法部，DOJ）；谓语 filed（提交诉状/法庭之友简报）；宾语 a brief（诉讼摘要/法庭意见书）；地点状语 in the Myriad case；现在分词短语 arguing that... 作伴随状语，that 引导宾语从句；从句主语 an isolated DNA molecule（一个人工分离出来的DNA分子），谓语短语 is no less a product of nature（绝不亚于自然界的产物，固定搭配 no less... than... 意为“正如……一样”）。（注：因引号与省略号断句，比较状语从句后半部见 S15）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Department of Justice filed a brief ... arguing that an isolated DNA molecule is no less a product of nature",
+                "explanation": "官方反转里程碑（司法部倒戈）。作为联邦最高执法机构，司法部直接向法院提交辩护意见，公然站到了生物公司的对立面，正式定性分离 DNA 与普通自然物无异。"
               }
             ]
           }
@@ -4560,9 +4950,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that have been separated from cotton seeds.”...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "从句主干剖析与定语从句（后半部）",
+                "content": "than are cotton fibres that have been separated from cotton seeds",
+                "explanation": "承接 S14 的比较级结构 no less a product of nature... than...，than 引导比较状语从句；从句中采用了倒装语序 are cotton fibres（即 than cotton fibres are [a product of nature]），系动词 are 倒装置于主语 cotton fibres（棉花纤维）之前以保持句子平衡；that 引导定语从句修饰 cotton fibres，从句谓语为被动语态 have been separated from cotton seeds（从棉籽中分离出来的）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "than are cotton fibres that have been separated from cotton seeds",
+                "explanation": "神级类比论证（Analogy）。司法部用生活常识打脸生物公司：把 DNA 从细胞中提取出来，就如同把棉花纤维从棉籽里剥离出来一样，物理分离改变不了其天然本质，绝不可能因此变成人类发明！进一步加固 Q32 题“自然产物不可专利”的逻辑立论。"
               }
             ]
           }
@@ -4578,9 +4973,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "Despite the appeals court’s decision, big questions remain u...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "主干剖析与让步介词短语",
+                "content": "Despite the appeals court’s decision, big questions remain unanswered",
+                "explanation": "主干为主系表结构。让步介词短语 Despite the appeals court’s decision（尽管有上诉法院的裁决）；主语 big questions（重大核心法律问题）；系动词 remain（依然处于……状态）；表语形容词/过去分词 unanswered（未被回答的、悬而未决的）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Despite the appeals court’s decision, big questions remain unanswered",
+                "explanation": "段落主旨转折过渡。上诉判决不仅未给争论画上句号，反而引发了更深层次的法理真空，引出下一段对全基因组测序与最高法院裁决的探讨。"
               }
             ]
           }
@@ -4596,9 +4996,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "whether the sequencing of a whole genome violate...",
-                "explanation": "连接词 <code>whether</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析与主语从句",
+                "content": "it is unclear whether the sequencing of a whole genome violates the patents of individual genes within it",
+                "explanation": "主干为主系表（形式主语）结构。For example（例如）作举例衔接状语；It 为形式主语；系动词 is；表语形容词 unclear（不清楚的）；whether 引导真正的主语从句；从句主语 the sequencing of a whole genome（全基因组测序）；从句谓语 violates（侵犯、违背）；从句宾语 the patents of individual genes within it（其中所包含的单个基因的专利权）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "whether the sequencing of a whole genome violates the patents of individual genes",
+                "explanation": "前沿技术冲突实证。展示基因专利引发的荒谬现实困境：如果全基因组测序必须绕开成千上万个单个基因专利，现代医学检测将完全陷入瘫痪。"
               }
             ]
           }
@@ -4615,8 +5020,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The case may yet reach the Supreme Court....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The case may yet reach the Supreme Court",
+                "explanation": "主干为主谓宾结构。主语 The case（该案件）；情态动词复合谓语 may yet reach（终究很可能会打到/上诉到，副词 yet 在此意为“最终、终归”）；宾语 the Supreme Court（美国联邦最高法院）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "may yet reach the Supreme Court",
+                "explanation": "走向终极司法裁决的预判。指出唯有最高法院方有一锤定音的终审裁量权，为下一段引入 Mayo Clinic 等待审关键案件作过渡。"
               }
             ]
           }
@@ -4632,9 +5042,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "As the industry advances, however, other suits may have an e...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "主干剖析与转折副词",
+                "content": "As the industry advances, however, other suits may have an even greater impact",
+                "explanation": "主干为主谓宾结构。时间状语从句 As the industry advances（随着生物科技行业的演进发展）；转折副词 however（然而）；主句主语 other suits（其他诉讼案）；情态动词谓语 may have；宾语 an even greater impact（更为深远的重大影响），比较级 an even greater 修饰 impact。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "other suits may have an even greater impact",
+                "explanation": "视野延展与新焦点转移。作者笔锋一转，说明争议正从传统的“单一基因分离专利”向更具前瞻性的新诉讼领域蔓延。"
               }
             ]
           }
@@ -4650,9 +5065,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "Companies are unlikely to file many more patents for human D...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "主干剖析与破折号解释分句",
+                "content": "Companies are unlikely to file many more patents for human DNA molecules — most are already patented or in the public domain",
+                "explanation": "主干为主系表复合结构。主语 Companies；系表结构 are unlikely to file（不太可能再去申请……）；宾语 many more patents for human DNA molecules（更多人类DNA分子专利）。破折号后分句解释客观原因：主语代词 most（绝大多数基因）；并列谓语/表语 are already patented（已被授予专利）or [are] in the public domain（或者已属于公共领域/公有领域）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "unlikely to file many more patents for human DNA molecules—most are already patented",
+                "explanation": "赛道饱和事实阐述。解释生物公司策略转型的时代动因：由于可瓜分的人体物理基因几乎已被瓜分殆尽，巨头们必须另辟蹊径寻找新摇钱树。"
               }
             ]
           }
@@ -4668,9 +5088,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "how genes interact...",
-                "explanation": "连接词 <code>how</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析与宾语从句",
+                "content": "Firms are now studying how genes interact",
+                "explanation": "主干为主谓宾结构。主语 Firms（医药企业）；时间状语 now；谓语动词 are studying（现在进行时，正在研究）；how 引导宾语从句作 studying 的宾语，从句为主谓结构（主语 genes，谓语动词 interact 相互作用）。"
+              },
+              {
+                "type": "现在分词状语与定语从句",
+                "content": "looking for correlations that might be used to determine the causes of disease or predict a drug’s efficacy",
+                "explanation": "现在分词短语 looking for... 作伴随状语，逻辑主语为 Firms；correlations（关联性）后接 that 引导的定语从句修饰 correlations；从句中包含被动语态 might be used to...；to 后接由 or 并列的两个动词短语 determine the causes of disease（查明患病诱因）与 predict a drug’s efficacy（预测药物疗效）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "studying how genes interact, looking for correlations",
+                "explanation": "核心业务转型方向（Q33 题眼支撑）。指出药企争夺的新阵地：不再是孤立的基因分子，而是基因相互作用（gene interactions）及其与疾病药效的复杂关联，直接为下句汉斯·索尔的言论提供语境。"
               }
             ]
           }
@@ -4686,9 +5116,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "Companies are eager to win patents for “connecting the dots”...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "主干剖析与引述倒装结构",
+                "content": "Companies are eager to win patents for “connecting the dots”, explains Hans Sauer",
+                "explanation": "主干为主系表引述结构。引语部分为主系表结构：主语 Companies；系表短语 are eager to win patents for “connecting the dots”（迫切渴望赢得‘把点连成线’的专利）；后接直接引语倒装主干 explains（谓语）Hans Sauer（主语）。"
+              },
+              {
+                "type": "同位语修饰与隐喻内涵",
+                "content": "a lawyer for the BIO / connecting the dots",
+                "explanation": "同位语 a lawyer for the BIO（生物技术工业组织的一位律师）表明发言者的行业代言人身份；商业隐喻 connecting the dots（把孤立的点串联成网）形象指代前一句中的“发现基因之间的相互作用与疾病关联”。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "eager to win patents for “connecting the dots”",
+                "explanation": "行业代言人核心证言（Q33 命题题眼）。本句为 Q33 题直接定位句。汉斯·索尔形象的“连点成线（connecting the dots）”经由上句“how genes interact”还原，精准对应 Q33 正确选项 A“discovering gene interactions”（探明基因间的相互作用）。"
               }
             ]
           }
@@ -4704,9 +5144,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which the Supreme Court will hear in its next ...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析与过去分词修饰",
+                "content": "Their success may be determined by a suit related to this issue, brought by the Mayo Clinic",
+                "explanation": "主干为主谓宾（被动语态）结构。主语 Their success（生物公司的成功）；谓语动词 may be determined by（可能取决于……）；介词宾语 a suit（一项诉讼）；过去分词短语 related to this issue（与该议题相关的）作后置定语；第二个过去分词短语 brought by the Mayo Clinic（由梅奥诊所发起的）作并列后置定语。"
+              },
+              {
+                "type": "定语从句修饰",
+                "content": "which the Supreme Court will hear in its next term",
+                "explanation": "which 引导非限制性定语从句修饰 a suit，并在从句中作动词 hear 的宾语，从句主语 the Supreme Court，从句谓语 will hear（开庭审理），时间状语 in its next term（在下一审判期内）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "suit ... brought by the Mayo Clinic, which the Supreme Court will hear",
+                "explanation": "里程碑式司法审判预告。梅奥诊所案将直接检验“关联性/诊断方法专利”的合法性，成为决定生物产业未来命脉的风向标。"
               }
             ]
           }
@@ -4722,9 +5172,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "which included sessions to coach lawyers on th...",
-                "explanation": "关系词 <code>which</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析",
+                "content": "The BIO recently held a convention",
+                "explanation": "主干为主谓宾结构。主语 The BIO；时间状语 recently；谓语 held（举办）；宾语 a convention（全行业大会）。"
+              },
+              {
+                "type": "定语从句与不定式修饰",
+                "content": "which included sessions to coach lawyers on the shifting landscape for patents",
+                "explanation": "which 引导限制性定语从句修饰先行词 a convention，并在从句中作主语；从句谓语 included（包括）；从句宾语 sessions（专题分会/培训会议）；动词不定式短语 to coach lawyers on the shifting landscape for patents（向律师传授如何应对急剧变化的专利格局）作后置定语修饰 sessions。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "sessions to coach lawyers on the shifting landscape for patents",
+                "explanation": "行业焦虑行动化。行业协会火急火燎组织专题培训辅导律师，生动反映出司法判例的风云突变在业界引发的普遍恐慌与高度戒备。"
               }
             ]
           }
@@ -4741,8 +5201,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Each meeting was packed....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Each meeting was packed",
+                "explanation": "主干为主系表结构。主语 Each meeting（每一场专题研讨会）；系动词 was；表语形容词/过去分词 packed（座无虚席的、挤得满满当当的）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Each meeting was packed",
+                "explanation": "生动特写与全篇收尾（Q34 & Q35 核心题眼）。用极其简短而极具画面感的特写句收尾，以“每场爆满”烘托出整个行业对专利法律走向的高度紧张与深切忧虑，精准对应 Q34 正确选项 C“gene patenting was a great concern”（基因专利是极大关切）；通篇冷静克制的客观陈述也完美印证 Q35 题作者态度为 D 选项“objective”。"
               }
             ]
           }
@@ -6154,8 +6619,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "The great recession may be over, but this era of high jobles...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "The great recession may be over, but this era of high joblessness is probably beginning",
+                "explanation": "主干为 but 连接的两个转折分句。分句①为主系表结构：主语 The great recession（大衰退/大萧条）；情态系表 may be over（可能已经结束了）。分句②为主谓结构：转折连词 but；主语 this era of high joblessness（这个高失业率时代）；谓语动词 is probably beginning（现在进行时，副词 probably 作推测状语，意为“可能才刚刚开始”）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "recession may be over, but this era of high joblessness is probably beginning",
+                "explanation": "开篇立论转折警示（Thesis Statement）。打破“衰退结束万事大吉”的盲目乐观，鲜明指出宏观经济走出衰退与劳动力市场复苏存在严重时间差，高失业率时代才初露端倪，奠定全文冷静冷峻的批判底色。"
               }
             ]
           }
@@ -6171,9 +6641,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "Before it ends, it will likely change the life course and ch...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "主干剖析与时间状语从句",
+                "content": "Before it ends, it will likely change the life course and character of a generation of young adults",
+                "explanation": "主干为主谓宾结构。时间状语从句 Before it ends（在它彻底终结之前，it 指代前句的高失业时代）；主干主语代词 it；情态动词/副词 will likely（极有可能）；谓语动词 change（改变）；并列宾语 the life course and character（人生轨迹与品格心智）；介词短语 of a generation of young adults（整整一代青年人）作后置定语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "change the life course and character of a generation of young adults",
+                "explanation": "聚焦受害主体（微观个体维度）。将失业问题从抽象的经济指标具象化为对青年一代人生轨迹与心理性格的永久重塑，为后文探讨青年人心理与阶级分化预埋伏线。"
               }
             ]
           }
@@ -6190,8 +6665,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "And ultimately, it is likely to reshape our politics, our cu...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "And ultimately, it is likely to reshape our politics, our culture, and the character of our society for years",
+                "explanation": "主干为主系表复合结构。承接连词 And 与时间副词 ultimately（最终地）；主语 it；系表短语 is likely to reshape（很可能会重新塑造）；由逗号和 and 连接的三个并列宾语 our politics（我们的政治生态）、our culture（我们的文化内核）以及 the character of our society（我们的社会特质）；时间状语 for years（在未来数年之久）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "reshape our politics, our culture, and the character of our society",
+                "explanation": "立论升级（宏观社会维度）。从青年个体命运逐层推向国家政治、文化与社会结构的深层震荡，宣告长期失业对社会肌体的全面冲击，贯穿至全篇尾声。"
               }
             ]
           }
@@ -6207,9 +6687,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "No one tries harder than the jobless to find silver linings ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "主干剖析与比较级结构",
+                "content": "No one tries harder than the jobless to find silver linings in this national economic disaster",
+                "explanation": "主干为主谓比较级结构。否定主语 No one（没有人）；谓语动词 tries；副词比较级 harder than the jobless（比失业者更加努力，the jobless 为“the + 形容词”指代失业人群）；动词不定式短语 to find silver linings（去寻找一线希望）作目的状语；介词短语 in this national economic disaster（在这场国家经济灾难中）作背景状语。"
+              },
+              {
+                "type": "英语成语隐喻",
+                "content": "find silver linings",
+                "explanation": "习语 silver lining 源自西方成语“Every cloud has a silver lining”（乌云背后总有一线微光），比喻在残酷困境中寻找微弱的乐观积极面。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "find silver linings in this national economic disaster",
+                "explanation": "成语典故与态度考查（Q36 题眼）。本句为 Q36 题直接定位句。失业者苦中作乐、在灾难中寻觅微光的心态，精准对应 Q36 正确选项 D“look on the bright side of the recession”（看到衰退积极光明的一面）。"
               }
             ]
           }
@@ -6225,14 +6715,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "while extremely painful...",
-                "explanation": "从属连词 <code>while</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析与宾语从句",
+                "content": "Many said that unemployment ... had improved them in some ways ; they had become less materialistic ... ; they were more aware of the struggles of others",
+                "explanation": "主干为主谓宾结构，后接由两个分号并列的解释性主系表分句。主语 Many（许多失业者）；谓语 said；that 引导宾语从句；宾语从句主干为 unemployment（主语）had improved them in some ways（谓语及双宾补，在某些方面提升了他们）；分号后分句①为主系表结构（they had become less materialistic and more financially prudent，变得不那么物质至上且在理财上更为审慎）；分号后分句②为主系表结构（they were more aware of the struggles of others，对同胞的困境更加感同身受）。"
               },
               {
-                "type": "名词性从句",
-                "content": "that unemployment...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "让步状语从句省略结构",
+                "content": "while extremely painful",
+                "explanation": "while 引导让步状语从句，从句中省略了主语和系动词 it was（即 while [it was] extremely painful），充当插入语凸显真实痛苦。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "less materialistic and more financially prudent ... more aware of the struggles of others",
+                "explanation": "失业者生活哲学的反思（Q37 题眼）。本句为 Q37 题直接定位句。失业逼迫人们摆脱消费主义迷恋、审慎理财并关怀他人，实质上是对生活方式的深刻重估，精准对应 Q37 正确选项 D“reconsider their lifestyle”。"
               }
             ]
           }
@@ -6249,8 +6744,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "In limited respects, perhaps the recession will leave societ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "In limited respects, perhaps the recession will leave society better off",
+                "explanation": "主干为主谓宾补结构。介词短语 In limited respects（在极其有限的几个方面）作限定状语；副词 perhaps（也许）表谨慎推测；主语 the recession（经济衰退）；谓语动词 will leave（将使得/留下）；宾语 society（社会）；形容词短语 better off（处境更好）作宾语补足语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "In limited respects, perhaps the recession will leave society better off",
+                "explanation": "严谨让步限制。修饰语 In limited respects 和 perhaps 极具考究，明确暗示这种“社会变好”仅是极其微小局部的特例，绝非普遍常态，为下文强势转折扫清道路。"
               }
             ]
           }
@@ -6266,9 +6766,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "At the very least, it has awoken us from our national fever ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "主干剖析与并列谓语",
+                "content": "At the very least, it has awoken us from our national fever dream ... and put a necessary end to an era of reckless personal spending",
+                "explanation": "主干为主谓宾（并列谓语）结构。状语 At the very least（至少）；主语 it（衰退）；谓语① has awoken us from...（唤醒了我们），宾语 us，介词短语 from our national fever dream of easy riches and bigger houses（从追求暴富和大房子的全民发烧梦中）；and 连接并列谓语② put a necessary end to...（给……画上一个必要的句号），宾语为 an era of reckless personal spending（不计后果的挥霍性个人消费时代）。"
+              },
+              {
+                "type": "隐喻修辞",
+                "content": "national fever dream of easy riches / reckless personal spending",
+                "explanation": "用 fever dream（发热虚妄之梦）辛辣刻画次贷危机前全美狂热炒房透支消费的虚假繁荣，肯定衰退在破除金融幻想方面的清醒剂作用。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "awoken us from our national fever dream ... put a necessary end",
+                "explanation": "让步论证的第二重层面。承认危机客观上终结了非理性的过度消费狂潮，但这也只是阵痛带来的副产品，无法掩盖其深层的破坏性。"
               }
             ]
           }
@@ -6285,8 +6795,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "But for the most part, these benefits seem thin, uncertain, ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "But for the most part, these benefits seem thin, uncertain, and far off",
+                "explanation": "主干为主系表结构。转折连词 But；介词短语 for the most part（在绝大多数情况下）作范围状语；主语 these benefits（上述种种所谓的好处/积极面）；系动词 seem（似乎、显得）；表语是由 and 连接的三个并列形容词 thin（微薄的、脆弱无力的）、uncertain（充满不确定的）以及 far off（遥不可及的）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "But for the most part, these benefits seem thin, uncertain, and far off",
+                "explanation": "篇章论调致命大转折（Pivot Sentence）。三个形容词（thin, uncertain, far off）一锤定音：所谓“一线希望”在残酷现实面前不值一提！彻底击碎乐观滤镜，正式开启对经济长期萧条摧残社会伦理的严厉声讨。"
               }
             ]
           }
@@ -6302,9 +6817,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that both inside and outside the U.S....",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析与宾语从句",
+                "content": "Benjamin Friedman argues that ... lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive, and have usually stopped or reversed the advance of rights and freedoms",
+                "explanation": "主干为主谓宾结构。状语 In The Moral Consequences of Economic Growth（著作名称）；主语 the economic historian Benjamin Friedman（经济历史学家本杰明·弗里德曼）；谓语动词 argues（论证指出）；that 引导宾语从句作 argues 的宾语。从句内部包含 and 连接的两个并列谓语：从句主语 lengthy periods of economic stagnation or decline（长期的经济停滞或衰退）；状语 both inside and outside the U.S.；谓语① have almost always left（几乎总是使得……），宾语 society，宾补为并列比较级 more mean-spirited and less inclusive（更加狭隘刻薄、包容度更低）；谓语② have usually stopped or reversed（通常会阻止或倒退），宾语 the advance of rights and freedoms（人权与自由的进步）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "left society more mean-spirited and less inclusive ... stopped or reversed the advance of rights and freedoms",
+                "explanation": "权威学术立论与道德退化（Q38 核心题眼）。本句为 Q38 题直接定位句。弗里德曼的铁律揭示：经济倒退必然引发社会道德堕落（more mean-spirited）与人权倒退，精准对应 Q38 正确选项 B“bring out more evils of human nature”（激发出更多人性之恶）。"
               }
             ]
           }
@@ -6320,9 +6840,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "Anti-immigrant sentiment typically increases, as does confli...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "主干剖析与部分倒装结构",
+                "content": "Anti-immigrant sentiment typically increases, as does conflict between races and classes",
+                "explanation": "主干为主谓结构，后接 as 引导的倒装分句。主语 Anti-immigrant sentiment（排外/反移民情绪）；副词 typically（典型地/通常）；谓语动词 increases（上升、激化）。逗号后由 as 引导比较倒装分句（as does... 意为“正如……亦是如此”），助动词 does 倒装置于主语 conflict between races and classes（种族与阶级之间的冲突）之前。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Anti-immigrant sentiment typically increases, as does conflict",
+                "explanation": "社会分裂细化论据。具体列举道德退化的现实表征：对外仇视移民（寻找替罪羊），对内种族与阶级撕裂，为下文探讨青年阶级固化打下基础。"
               }
             ]
           }
@@ -6339,8 +6864,13 @@
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Income inequality usually falls during a recession, but it h...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "content": "Income inequality usually falls during a recession, but it has not shrunk in this one",
+                "explanation": "主干为 but 连接的两个转折分句。分句①为主谓结构：主语 Income inequality（收入不平等）；副词 usually；谓语动词 falls（下降）；时间状语 during a recession。分句②为主谓结构：代词主语 it（指代收入不平等）；谓语 has not shrunk（现在完成时否定式，并未缩水/减少）；时间状语 in this one（在本次大衰退中）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "Income inequality ... has not shrunk in this one",
+                "explanation": "反常历史异相。指出本次衰退与历史规律截然不同的残酷特征：以往经济危机中富人资产缩水会缩小贫富差距，但这次贫富鸿沟分毫未减，反而愈演愈烈。"
               }
             ]
           }
@@ -6356,9 +6886,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "Indeed, this period of economic weakness may reinforce class...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "主干剖析与并列动词短语",
+                "content": "Indeed, this period of economic weakness may reinforce class divides, and decrease opportunities to cross them",
+                "explanation": "主干为主谓宾（并列谓语）结构。加强副词 Indeed（事实上）；主语 this period of economic weakness（这段经济疲软期）；情态动词 may 后接并列谓语① reinforce class divides（加剧/固化阶级分化）与并列谓语② decrease opportunities to cross them（减少跨越阶级鸿沟的机会，代词 them 指代 class divides，不定式 to cross them 作后置定语）；破折号后 especially for young people 作强调状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "reinforce class divides, and decrease opportunities to cross them—especially for young people",
+                "explanation": "阶层流动性冻结。点出社会学痛点——阶层固化（reinforce class divides）与年轻人上升通道的锁死，直接引出下句对名校毕业生与普通底层青年命运分化的实证研究。"
               }
             ]
           }
@@ -6374,14 +6909,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "定语从句",
-                "content": "where they otherwise would have been if they h...",
-                "explanation": "关系词 <code>where</code> 引导定语从句，后置修饰先行词，补充具体属性或行为背景。"
+                "type": "主干剖析与多层嵌套从句",
+                "content": "The research of Till V on Wachter ... suggests that not all people graduating into a recession see their life chances dimmed : those with degrees from elite universities catch up fairly quickly ... ; it is the masses beneath them that are left behind",
+                "explanation": "全句为主干宾语从句后接冒号/分号复合论证结构。主语 The research of Till V on Wachter（蒂尔·冯·沃赫特的研究）；同位语 the economist at Columbia University；谓语 suggests；that 引导宾语从句；宾语从句主干为 not all people graduating into a recession see their life chances dimmed（部分否定，并非所有衰退期毕业生的前途都会暗淡，现在分词短语 graduating into a recession 作定语，dimmed 为过去分词作宾补）。"
               },
               {
-                "type": "状语从句",
-                "content": "if they had graduated in better times...",
-                "explanation": "从属连词 <code>if</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "虚拟语气、地点从句与强调句型",
+                "content": "to where they otherwise would have been if they had graduated in better times / it is the masses beneath them that are left behind",
+                "explanation": "① where 引导地点/程度状语从句，从句内部包含与过去事实相反的虚拟语气：if they had graduated in better times（虚拟条件状语从句），主句为 they otherwise would have been；② 分号后 it is... that... 强调句型强力对比：强调真正被甩在后面的是底层大众（the masses beneath them）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "those with degrees from elite universities catch up fairly quickly ... it is the masses beneath them that are left behind",
+                "explanation": "阶层分化残酷实证（Q39 核心题眼）。本句为 Q39 题直接定位句。名校毕业生凭借资本与人脉能够迅速追平差距（catch up fairly quickly），而底层大众则被永久抛弃，精准对应 Q39 正确选项 D“recover more quickly than the others”（比其他人更快复苏）。"
               }
             ]
           }
@@ -6397,9 +6937,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "that has always been hidden within American s...",
-                "explanation": "连接词 <code>that</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析与定语从句",
+                "content": "In the Internet age, it is particularly easy to see the resentment that has always been hidden within American society",
+                "explanation": "主干为主系表（形式主语）结构。时间状语 In the Internet age；It 作形式主语；系动词 is；表语 easy，副词 particularly 修饰 easy；真正的逻辑主语为动词不定式短语 to see the resentment（看到怨恨/愤恨情绪）；that 引导限制性定语从句修饰 the resentment，从句主谓结构（谓语 has always been hidden within American society，一直隐匿于美国社会肌体内部）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "easy to see the resentment that has always been hidden",
+                "explanation": "社会情绪具象化。互联网作为放大镜，使原本潜伏于社会地下的阶级怨恨暴露无遗，承接上段阶层两极分化。"
               }
             ]
           }
@@ -6415,9 +6960,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "how these lean times are affecting society’s...",
-                "explanation": "连接词 <code>how</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析（完全倒装结构）",
+                "content": "More difficult, in the moment, is discerning precisely how these lean times are affecting society’s character",
+                "explanation": "主干为主系表完全倒装结构（表语置于句首以示强调与承接）。表语形容词 More difficult 提前；插入语 in the moment 作时间状语；系动词 is；真正的主语为动名词短语 discerning precisely...（准确辨别……）。"
+              },
+              {
+                "type": "宾语从句修饰",
+                "content": "how these lean times are affecting society’s character",
+                "explanation": "how 引导宾语从句作 discerning 的宾语，从句主语 these lean times（这些经济拮据/艰难岁月），谓语 are affecting（正在影响），宾语 society’s character（社会的性格特质）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "More difficult ... is discerning precisely how these lean times are affecting society’s character",
+                "explanation": "承前启后倒装过渡。与 S14 的 easy to see 形成对比，指出即时评估长期精神创伤具有极高的隐蔽性与复杂性，引出后文对社会观察的深层剖析。"
               }
             ]
           }
@@ -6433,9 +6988,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "In many respects, the U.S....",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "主干片段与主语",
+                "content": "In many respects, the U.S.",
+                "explanation": "状语介词短语 In many respects（在许多方面）；主语专有名词 the U.S.（美利坚合众国）。（注：因 U.S. 缩写句点排版断开，谓语接在 S17）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "In many respects, the U.S.",
+                "explanation": "历史基准引入。开启对美国进入大衰退时社会初始心理状态的宏观审视。"
               }
             ]
           }
@@ -6451,9 +7011,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "状语从句",
-                "content": "since then have shown mixed results....",
-                "explanation": "从属连词 <code>since</code> 引导让步/原因/条件状语从句，表明语篇逻辑转折或成立前提。"
+                "type": "主干剖析与比较级",
+                "content": "was more socially tolerant entering this recession than at any time in its history, and a variety of national polls ... have shown mixed results",
+                "explanation": "承接 S16 构成完整主谓结构，并由 and 连接第二个并列分句。分句①主干为 the U.S.（主语）was more socially tolerant... than at any time in its history（系动词 was，表语形容词 tolerant，比较级 more tolerant than... 说明进入衰退时社会包容度处于历史峰值），现在分词短语 entering this recession 作时间状语。分句②为主谓宾结构：主语 a variety of national polls on social conflict since then（自那时以来关于社会冲突的各类全国民调）；谓语 have shown（呈现出）；宾语 mixed results（相互矛盾/错综复杂的结果）。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "more socially tolerant ... have shown mixed results",
+                "explanation": "高起点与复杂现实交织。美国社会在危机前拥有前所未有的宽容度底子，因而民调结果好坏参半，尚未彻底沦丧，呼应 S15 中提及的“难以准确界定”。"
               }
             ]
           }
@@ -6469,9 +7034,19 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "名词性从句",
-                "content": "how these hard times will reshape our social...",
-                "explanation": "连接词 <code>how</code> 引导宾语/主语/同位语从句，充当全句核心信息载体。"
+                "type": "主干剖析与宾语从句",
+                "content": "We will have to wait and see exactly how these hard times will reshape our social fabric",
+                "explanation": "主干为主谓宾结构。主语第一人称复数 We；谓语动词短语 will have to wait and see（将不得不拭目以待/观望等待）；how 引导宾语从句作 see 的宾语，从句主语 these hard times（这些艰难岁月），谓语 will reshape（将重塑），宾语 our social fabric（我们的社会结构/社会肌理）。"
+              },
+              {
+                "type": "隐喻修辞",
+                "content": "our social fabric",
+                "explanation": "名词短语 social fabric 将由人际纽带、制度文化构成的社会比作一幅编织致密的织物（fabric），形象表达危机的重塑是全方位解构重组。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "wait and see exactly how these hard times will reshape our social fabric",
+                "explanation": "时间维度的未知性（Q40 题眼伏笔）。说明在“重塑的具体方式与细节（how）”上尚需拭目以待，但并不妨碍下一句对“必然发生（certainly）”的铁断定调。"
               }
             ]
           }
@@ -6487,9 +7062,14 @@
           "syntax": {
             "breakdown": [
               {
-                "type": "主干剖析",
-                "content": "But they certainly will reshape it, and all the more so the ...",
-                "explanation": "全句为主谓宾/主系表基础陈述结构，核心主干明确，意群衔接自然。"
+                "type": "主干剖析与强调副词",
+                "content": "But they certainly will reshape it, and all the more so the longer they extend",
+                "explanation": "主干为 but 连接的强调肯定句。主语代词 they（指代 hard times）；副词 certainly（确凿无疑地/必然地）作强调状语；谓语动词 will reshape（定将重塑）；宾语代词 it（指代 our social fabric）。并列承接固定句型 and all the more so the longer they extend（危机持续越久，这种重塑就越发深刻强烈），all the more so 意为“更是如此”，the longer... 为比例关系状语。"
+              },
+              {
+                "type": "语篇逻辑与考点",
+                "content": "they certainly will reshape it, and all the more so the longer they extend",
+                "explanation": "全文终局铁律定论（Q40 核心题眼）。作者在文章最后一句以具有千钧之力的副词 certainly（必然地、确信地）为全文盖棺定论：危机的具体细节虽有待观察，但对社会肌理的颠覆性重塑是不可逆转、必然会发生的历史定数！精准对应 Q40 题正确选项 C“certain”（必然的确凿事实）。"
               }
             ]
           }
