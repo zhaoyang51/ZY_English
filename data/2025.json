@@ -37,6 +37,36 @@
               "word": "transaction",
               "pos": "n.",
               "definition": "交易；买卖；业务"
+            },
+            {
+              "word": "social contract",
+              "pos": "n.",
+              "definition": "社会契约；不成文共识"
+            },
+            {
+              "word": "perceived",
+              "pos": "adj.",
+              "definition": "体验到的；主观感受到的"
+            },
+            {
+              "word": "supplement to",
+              "pos": "phr.",
+              "definition": "对……的补充"
+            },
+            {
+              "word": "sit-down dining",
+              "pos": "n.",
+              "definition": "堂食正餐"
+            },
+            {
+              "word": "usher in",
+              "pos": "phr.",
+              "definition": "开启；迎来……时代"
+            },
+            {
+              "word": "casual transaction",
+              "pos": "n.",
+              "definition": "日常快餐/饮品小额消费"
             }
           ]
         },
@@ -71,6 +101,36 @@
               "word": "toll",
               "pos": "n.",
               "definition": "过路费；代价；心理负担"
+            },
+            {
+              "word": "hospitality",
+              "pos": "n.",
+              "definition": "热情好客；服务业温情"
+            },
+            {
+              "word": "confronted with",
+              "pos": "phr.",
+              "definition": "迎面遭遇；被迫面对"
+            },
+            {
+              "word": "swivel screen",
+              "pos": "n.",
+              "definition": "收银台可旋转刷卡屏幕"
+            },
+            {
+              "word": "token of gratitude",
+              "pos": "n.",
+              "definition": "由衷谢意的象征/心意"
+            },
+            {
+              "word": "morph into",
+              "pos": "phr.",
+              "definition": "畸变转化为……"
+            },
+            {
+              "word": "coercive",
+              "pos": "adj.",
+              "definition": "半强制性的；施加心理压力的"
             }
           ]
         },
@@ -105,6 +165,36 @@
               "word": "overhead",
               "pos": "n.",
               "definition": "日常运营开销；经常性费用"
+            },
+            {
+              "word": "calculated",
+              "pos": "adj.",
+              "definition": "处心积虑的；精打细算的"
+            },
+            {
+              "word": "soaring inflation",
+              "pos": "n.",
+              "definition": "飙升的高通胀"
+            },
+            {
+              "word": "subsidize",
+              "pos": "v.",
+              "definition": "变相补贴工资支出"
+            },
+            {
+              "word": "payroll",
+              "pos": "n.",
+              "definition": "用工薪酬总额"
+            },
+            {
+              "word": "bridge the gap",
+              "pos": "phr.",
+              "definition": "弥补……与……之间的差距"
+            },
+            {
+              "word": "voluntary",
+              "pos": "adj.",
+              "definition": "自愿的；自发的"
             }
           ]
         },
@@ -139,6 +229,36 @@
               "word": "conscientious",
               "pos": "adj.",
               "definition": "凭良心的；认真负责的；本分的"
+            },
+            {
+              "word": "restaurateur",
+              "pos": "n.",
+              "definition": "餐厅经营者/掌门人"
+            },
+            {
+              "word": "pioneer",
+              "pos": "n.",
+              "definition": "敢为人先的改革拓荒者"
+            },
+            {
+              "word": "substantially",
+              "pos": "adv.",
+              "definition": "大幅度地；相当可观地"
+            },
+            {
+              "word": "establishment",
+              "pos": "n.",
+              "definition": "餐饮门店；营业机构"
+            },
+            {
+              "word": "piecemeal",
+              "pos": "adj.",
+              "definition": "零敲碎打的；局部的"
+            },
+            {
+              "word": "commercial disadvantage",
+              "pos": "n.",
+              "definition": "恶性竞争下的商业劣势"
             }
           ]
         },
@@ -173,6 +293,36 @@
               "word": "guilt trip",
               "pos": "n.",
               "definition": "使人感到内疚的心理勒索；负罪感困扰"
+            },
+            {
+              "word": "goodwill",
+              "pos": "n.",
+              "definition": "消费者的善意宽容"
+            },
+            {
+              "word": "sub-minimum wage",
+              "pos": "n.",
+              "definition": "低于法定最低标准的底薪"
+            },
+            {
+              "word": "poverty-level",
+              "pos": "adj.",
+              "definition": "仅够勉强果腹的贫困线水平"
+            },
+            {
+              "word": "transparent",
+              "pos": "adj.",
+              "definition": "透明公开明码标价的"
+            },
+            {
+              "word": "unconditional",
+              "pos": "adj.",
+              "definition": "不可推卸的；无条件的"
+            },
+            {
+              "word": "institutionalized",
+              "pos": "adj.",
+              "definition": "制度化定型了的"
             }
           ]
         }
@@ -1144,6 +1294,41 @@
               "word": "waitlist",
               "pos": "n.",
               "definition": "候补名单，就诊等候队列"
+            },
+            {
+              "word": "universal care",
+              "pos": "n.",
+              "definition": "普惠全民的全民医疗保健"
+            },
+            {
+              "word": "pressing",
+              "pos": "adj.",
+              "definition": "刻不容缓的；紧迫的"
+            },
+            {
+              "word": "infant mortality",
+              "pos": "n.",
+              "definition": "婴儿死亡率"
+            },
+            {
+              "word": "peer nations",
+              "pos": "n.",
+              "definition": "同等发达水平的兄弟国家"
+            },
+            {
+              "word": "unprecedented",
+              "pos": "adj.",
+              "definition": "史无前例的历史新高"
+            },
+            {
+              "word": "inaccessible",
+              "pos": "adj.",
+              "definition": "难以企及的；高不可攀的"
+            },
+            {
+              "word": "agonizing delay",
+              "pos": "n.",
+              "definition": "令人痛心疾首的漫长延误"
             }
           ]
         },
@@ -1183,6 +1368,41 @@
               "word": "primary care",
               "pos": "n.",
               "definition": "初级医疗，基层全科医疗"
+            },
+            {
+              "word": "stem from",
+              "pos": "phr.",
+              "definition": "根源于；由……引发"
+            },
+            {
+              "word": "capital investment",
+              "pos": "n.",
+              "definition": "医疗基建资本性投入"
+            },
+            {
+              "word": "systematically",
+              "pos": "adv.",
+              "definition": "系统化地；全方位地"
+            },
+            {
+              "word": "acute ward",
+              "pos": "n.",
+              "definition": "综合性大医院急重症病房"
+            },
+            {
+              "word": "general practitioner",
+              "pos": "n.",
+              "definition": "全科家庭医生（GP）"
+            },
+            {
+              "word": "alleviate",
+              "pos": "v.",
+              "definition": "极大地缓解"
+            },
+            {
+              "word": "chronic condition",
+              "pos": "n.",
+              "definition": "复杂的慢性基础疾病"
             }
           ]
         },
@@ -1217,6 +1437,41 @@
               "word": "lion's share",
               "pos": "n.",
               "definition": "最大份额，核心大头"
+            },
+            {
+              "word": "successive",
+              "pos": "adj.",
+              "definition": "接二连三的；历任的"
+            },
+            {
+              "word": "top-down",
+              "pos": "adj.",
+              "definition": "自上而下行政发号施令的"
+            },
+            {
+              "word": "tinker at the margins",
+              "pos": "phr.",
+              "definition": "在边缘隔靴搔痒、小修小补"
+            },
+            {
+              "word": "entrenched",
+              "pos": "adj.",
+              "definition": "根深蒂固的；难以撼动的"
+            },
+            {
+              "word": "trust",
+              "pos": "n.",
+              "definition": "国家医疗托拉斯医院集团"
+            },
+            {
+              "word": "absorb",
+              "pos": "v.",
+              "definition": "吸纳鲸吞财政拨款"
+            },
+            {
+              "word": "cope",
+              "pos": "v.",
+              "definition": "难以应付；勉强支撑"
             }
           ]
         },
@@ -1251,6 +1506,41 @@
               "word": "sustainable",
               "pos": "adj.",
               "definition": "可持续的，能维持的"
+            },
+            {
+              "word": "epidemiological",
+              "pos": "adj.",
+              "definition": "流行病学临床统计的"
+            },
+            {
+              "word": "intervention",
+              "pos": "n.",
+              "definition": "临床医疗干预手术"
+            },
+            {
+              "word": "morbidity",
+              "pos": "n.",
+              "definition": "发病率；慢性致病诱因"
+            },
+            {
+              "word": "substandard",
+              "pos": "adj.",
+              "definition": "恶劣不达标的居住条件"
+            },
+            {
+              "word": "ailment",
+              "pos": "n.",
+              "definition": "慢性微恙；生活习惯病"
+            },
+            {
+              "word": "obesity",
+              "pos": "n.",
+              "definition": "过度肥胖症"
+            },
+            {
+              "word": "underlying",
+              "pos": "adj.",
+              "definition": "根本性的底层社会因素"
             }
           ]
         },
@@ -1285,6 +1575,41 @@
               "word": "deficiency",
               "pos": "n.",
               "definition": "缺陷，不足"
+            },
+            {
+              "word": "reshuffle",
+              "pos": "n.",
+              "definition": "换汤不换药的人事改组"
+            },
+            {
+              "word": "radically",
+              "pos": "adv.",
+              "definition": "大刀阔斧地；根本性地"
+            },
+            {
+              "word": "redistribute",
+              "pos": "v.",
+              "definition": "重新统筹下沉再分配"
+            },
+            {
+              "word": "budgetary resources",
+              "pos": "n.",
+              "definition": "财政预算与专项头寸"
+            },
+            {
+              "word": "empathetic",
+              "pos": "adj.",
+              "definition": "将心比心的；具共情力的"
+            },
+            {
+              "word": "preventative medicine",
+              "pos": "n.",
+              "definition": "治未病的预防性医学体系"
+            },
+            {
+              "word": "founding promise",
+              "pos": "n.",
+              "definition": "当年的建制建国初心承诺"
             }
           ]
         }
@@ -2379,6 +2704,36 @@
               "word": "uneven",
               "pos": "adj.",
               "definition": "不均匀的，参差不齐的"
+            },
+            {
+              "word": "catastrophic",
+              "pos": "adj.",
+              "definition": "灾难性的；毁灭性的"
+            },
+            {
+              "word": "heatwave",
+              "pos": "n.",
+              "definition": "极端酷暑热浪"
+            },
+            {
+              "word": "contingency plan",
+              "pos": "n.",
+              "definition": "突发应急处置预案"
+            },
+            {
+              "word": "surge in",
+              "pos": "phr.",
+              "definition": "激增；就诊量暴涨"
+            },
+            {
+              "word": "casualty",
+              "pos": "n.",
+              "definition": "伤亡人员；中暑病患"
+            },
+            {
+              "word": "pronouncement",
+              "pos": "n.",
+              "definition": "红头官方声明；官样通告"
             }
           ]
         },
@@ -2413,6 +2768,36 @@
               "word": "amplify",
               "pos": "v.",
               "definition": "放大，加剧"
+            },
+            {
+              "word": "timely",
+              "pos": "adj.",
+              "definition": "及时的；抢在窗口期的"
+            },
+            {
+              "word": "emergency protocol",
+              "pos": "n.",
+              "definition": "政府一级应急响应机制"
+            },
+            {
+              "word": "predetermined",
+              "pos": "adj.",
+              "definition": "机械死板的事先预设温度"
+            },
+            {
+              "word": "gauge",
+              "pos": "n.",
+              "definition": "测量仪表；评估尺度"
+            },
+            {
+              "word": "thermal stress",
+              "pos": "n.",
+              "definition": "人体热负荷胁迫指数"
+            },
+            {
+              "word": "evaporation",
+              "pos": "n.",
+              "definition": "排汗蒸发散热机理"
             }
           ]
         },
@@ -2447,6 +2832,36 @@
               "word": "uninsulated",
               "pos": "adj.",
               "definition": "未作隔热绝缘处理的"
+            },
+            {
+              "word": "equitably",
+              "pos": "adv.",
+              "definition": "公平合理均摊地"
+            },
+            {
+              "word": "disproportionately",
+              "pos": "adv.",
+              "definition": "极不成比例地失衡倾斜"
+            },
+            {
+              "word": "heat island effect",
+              "pos": "n.",
+              "definition": "城市热岛效应"
+            },
+            {
+              "word": "radiation",
+              "pos": "n.",
+              "definition": "水泥沥青所蓄积的热辐射"
+            },
+            {
+              "word": "amenities",
+              "pos": "n.",
+              "definition": "基础公共生活设施"
+            },
+            {
+              "word": "neglected",
+              "pos": "adj.",
+              "definition": "长期失修荒芜的"
             }
           ]
         },
@@ -2481,6 +2896,36 @@
               "word": "heat-stricken",
               "pos": "adj.",
               "definition": "遭受酷暑折磨的"
+            },
+            {
+              "word": "transition from",
+              "pos": "phr.",
+              "definition": "由……向……深度转型"
+            },
+            {
+              "word": "reactive",
+              "pos": "adj.",
+              "definition": "头痛医头的被动应急反应"
+            },
+            {
+              "word": "proactive",
+              "pos": "adj.",
+              "definition": "未雨绸缪的主动预防防御"
+            },
+            {
+              "word": "downstream",
+              "pos": "adj.",
+              "definition": "末端治标不治本的"
+            },
+            {
+              "word": "reflective roofing",
+              "pos": "n.",
+              "definition": "高反射率隔热凉爽屋顶"
+            },
+            {
+              "word": "tree canopy",
+              "pos": "n.",
+              "definition": "大树遮阳树冠郁闭度"
             }
           ]
         },
@@ -2515,6 +2960,31 @@
               "word": "forward-looking",
               "pos": "adj.",
               "definition": "具有前瞻性的"
+            },
+            {
+              "word": "meteorological",
+              "pos": "adj.",
+              "definition": "气象学上的"
+            },
+            {
+              "word": "unavoidable",
+              "pos": "adj.",
+              "definition": "不可抗力的；在劫难逃的"
+            },
+            {
+              "word": "systemic",
+              "pos": "adj.",
+              "definition": "系统性考验的大考"
+            },
+            {
+              "word": "governance",
+              "pos": "n.",
+              "definition": "大都市现代治理能力"
+            },
+            {
+              "word": "architectural",
+              "pos": "adj.",
+              "definition": "建筑构造与房屋改建方面的"
             }
           ]
         }
@@ -3657,6 +4127,41 @@
               "word": "collective tread",
               "pos": "n.",
               "definition": "集体的踩踏，群体足迹"
+            },
+            {
+              "word": "pedestrian",
+              "pos": "n.",
+              "definition": "步行行人；路人"
+            },
+            {
+              "word": "meticulously",
+              "pos": "adv.",
+              "definition": "一丝不苟精雕细琢地"
+            },
+            {
+              "word": "footprint",
+              "pos": "n.",
+              "definition": "足迹；踏出的痕迹"
+            },
+            {
+              "word": "manicured",
+              "pos": "adj.",
+              "definition": "修剪整齐名贵的草坪"
+            },
+            {
+              "word": "intuitive shortcut",
+              "pos": "n.",
+              "definition": "人体凭直觉走出的近路捷径"
+            },
+            {
+              "word": "beaten earth",
+              "pos": "n.",
+              "definition": "踩踏出的泥土小径"
+            },
+            {
+              "word": "landscape architect",
+              "pos": "n.",
+              "definition": "景观建筑设计师"
             }
           ]
         },
@@ -3691,6 +4196,46 @@
               "word": "dynamics",
               "pos": "n.",
               "definition": "动态变化，驱动机制"
+            },
+            {
+              "word": "conventionally",
+              "pos": "adv.",
+              "definition": "墨守成规地；传统做法上"
+            },
+            {
+              "word": "unsightly",
+              "pos": "adj.",
+              "definition": "有碍观瞻的；不雅观的"
+            },
+            {
+              "word": "laziness",
+              "pos": "n.",
+              "definition": "市民抄近道的怠惰偷懒"
+            },
+            {
+              "word": "aesthetic",
+              "pos": "adj.",
+              "definition": "美学视角的几何秩序"
+            },
+            {
+              "word": "shrubbery",
+              "pos": "n.",
+              "definition": "故意设障的带刺灌木带"
+            },
+            {
+              "word": "punitive",
+              "pos": "adj.",
+              "definition": "惩戒警告性的罚款标牌"
+            },
+            {
+              "word": "design flaw",
+              "pos": "n.",
+              "definition": "缺乏以人为本的设计硬伤缺陷"
+            },
+            {
+              "word": "vandalism",
+              "pos": "n.",
+              "definition": "故意破坏公物绿化行径"
             }
           ]
         },
@@ -3725,6 +4270,36 @@
               "word": "proceed",
               "pos": "v.",
               "definition": "推进，继续进行"
+            },
+            {
+              "word": "deliberately",
+              "pos": "adv.",
+              "definition": "深思熟虑地；特意刻意地"
+            },
+            {
+              "word": "turf",
+              "pos": "n.",
+              "definition": "中央大草坪天然草皮"
+            },
+            {
+              "word": "establish",
+              "pos": "v.",
+              "definition": "自发成型稳固固定下来"
+            },
+            {
+              "word": "cobblestones",
+              "pos": "n.",
+              "definition": "铺砌永久性鹅卵石砖路"
+            },
+            {
+              "word": "embrace",
+              "pos": "v.",
+              "definition": "顺应接纳；拥抱遵循规律"
+            },
+            {
+              "word": "harmonious",
+              "pos": "adj.",
+              "definition": "天人合一、功能与美感和谐并存的"
             }
           ]
         },
@@ -3759,6 +4334,41 @@
               "word": "underscore",
               "pos": "v.",
               "definition": "强调，凸显"
+            },
+            {
+              "word": "persistent",
+              "pos": "adj.",
+              "definition": "顽固不化、长久存在的"
+            },
+            {
+              "word": "stubbornly",
+              "pos": "adv.",
+              "definition": "刚愎自用地；冥顽不灵地"
+            },
+            {
+              "word": "symmetrical",
+              "pos": "adj.",
+              "definition": "绝对左右对称的景观广场"
+            },
+            {
+              "word": "blueprint",
+              "pos": "n.",
+              "definition": "脱离实际的空中楼阁规划蓝图"
+            },
+            {
+              "word": "sterile",
+              "pos": "adj.",
+              "definition": "冰冷空旷毫无人情味的通道"
+            },
+            {
+              "word": "vanity",
+              "pos": "n.",
+              "definition": "建筑大师华而不实的浮夸虚荣"
+            },
+            {
+              "word": "utility",
+              "pos": "n.",
+              "definition": "以人为本的实用主义便民功能"
             }
           ]
         },
@@ -3793,6 +4403,36 @@
               "word": "suppress",
               "pos": "v.",
               "definition": "镇压，压制，扼杀"
+            },
+            {
+              "word": "precedent",
+              "pos": "n.",
+              "definition": "名垂青史的历史先例"
+            },
+            {
+              "word": "topography",
+              "pos": "n.",
+              "definition": "天然起伏的曼哈顿自然地形"
+            },
+            {
+              "word": "impose",
+              "pos": "v.",
+              "definition": "强行机械推行强加"
+            },
+            {
+              "word": "rectangular",
+              "pos": "adj.",
+              "definition": "方正规矩的棋盘格街道网"
+            },
+            {
+              "word": "ecosystem",
+              "pos": "n.",
+              "definition": "生机盎然的复杂有机生态圈"
+            },
+            {
+              "word": "humbly",
+              "pos": "adv.",
+              "definition": "谦逊地；甘当学生顺应规律地"
             }
           ]
         }

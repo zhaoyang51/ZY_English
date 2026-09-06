@@ -163,6 +163,7 @@
           list.push(item);
         }
         localStorage.setItem(VOCAB_BOOK_KEY, JSON.stringify(list));
+        this.updateVocabBadge();
         return { list, added: true };
       } catch (e) {
         return { list: [], added: false };
@@ -174,7 +175,18 @@
         let list = this.getVocabBook();
         list = list.filter(item => item.word.toLowerCase() !== word.toLowerCase().trim());
         localStorage.setItem(VOCAB_BOOK_KEY, JSON.stringify(list));
+        this.updateVocabBadge();
         return list;
+      } catch (e) {
+        return [];
+      }
+    },
+
+    clearVocabBook() {
+      try {
+        localStorage.removeItem(VOCAB_BOOK_KEY);
+        this.updateVocabBadge();
+        return [];
       } catch (e) {
         return [];
       }
@@ -201,6 +213,21 @@
     isBookmarked(word) {
       const list = this.getVocabBook();
       return list.some(item => item.word.toLowerCase() === word.toLowerCase().trim());
+    },
+
+    updateVocabBadge() {
+      const list = this.getVocabBook();
+      const count = list.length;
+      const badge = document.getElementById('vocabBookBadge');
+      if (badge) {
+        badge.textContent = count;
+        badge.style.display = count > 0 ? 'inline-block' : 'none';
+      }
+      const countEl = document.getElementById('vocabBookTotalCount');
+      if (countEl) {
+        countEl.textContent = count;
+      }
+      window.dispatchEvent(new CustomEvent('vocabBookUpdated', { detail: { count, list } }));
     },
 
     // --- Mock Answers ---

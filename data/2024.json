@@ -38,6 +38,41 @@
               "word": "legitimacy",
               "pos": "n.",
               "definition": "合法性；正当性；合理性"
+            },
+            {
+              "word": "hailed as",
+              "pos": "phr.",
+              "definition": "被誉为；被颂扬为"
+            },
+            {
+              "word": "alarming",
+              "pos": "adj.",
+              "definition": "令人担忧的；惊人的"
+            },
+            {
+              "word": "inequality",
+              "pos": "n.",
+              "definition": "不平等；不均衡"
+            },
+            {
+              "word": "captured exclusively",
+              "pos": "phr.",
+              "definition": "被完全排他性占有/独揽"
+            },
+            {
+              "word": "prosperous",
+              "pos": "adj.",
+              "definition": "繁荣的；富裕的"
+            },
+            {
+              "word": "existential",
+              "pos": "adj.",
+              "definition": "关乎生存的；生死攸关的"
+            },
+            {
+              "word": "tech titans",
+              "pos": "n.",
+              "definition": "科技巨擘；科技巨头"
             }
           ]
         },
@@ -72,6 +107,46 @@
               "word": "precarious",
               "pos": "adj.",
               "definition": "不稳定的；危险的；朝不保夕的"
+            },
+            {
+              "word": "assumption",
+              "pos": "n.",
+              "definition": "假定；设想"
+            },
+            {
+              "word": "automatically",
+              "pos": "adv.",
+              "definition": "自然而然地；必然地"
+            },
+            {
+              "word": "widespread",
+              "pos": "adj.",
+              "definition": "普遍的；广泛的"
+            },
+            {
+              "word": "algorithm-driven",
+              "pos": "adj.",
+              "definition": "算法驱动的"
+            },
+            {
+              "word": "labor productivity",
+              "pos": "n.",
+              "definition": "劳动生产率"
+            },
+            {
+              "word": "gig workers",
+              "pos": "n.",
+              "definition": "零工经济从业者"
+            },
+            {
+              "word": "lifting all boats",
+              "pos": "phr.",
+              "definition": "水涨船高，惠及所有人"
+            },
+            {
+              "word": "chasm",
+              "pos": "n.",
+              "definition": "深渊；巨大分歧/鸿沟"
             }
           ]
         },
@@ -106,6 +181,46 @@
               "word": "distrust",
               "pos": "n.",
               "definition": "不信任；怀疑；信任缺失"
+            },
+            {
+              "word": "disparity",
+              "pos": "n.",
+              "definition": "差距；悬殊"
+            },
+            {
+              "word": "tremendous",
+              "pos": "adj.",
+              "definition": "巨大的；极大的"
+            },
+            {
+              "word": "civic infrastructure",
+              "pos": "n.",
+              "definition": "公共基础设施"
+            },
+            {
+              "word": "perceive",
+              "pos": "v.",
+              "definition": "察觉；认为；感知"
+            },
+            {
+              "word": "vulnerable to",
+              "pos": "phr.",
+              "definition": "易受……伤害的；处于脆弱境地的"
+            },
+            {
+              "word": "job displacement",
+              "pos": "n.",
+              "definition": "岗位被取代；失业替代"
+            },
+            {
+              "word": "simmering resentment",
+              "pos": "phr.",
+              "definition": "暗自滋生的怨恨/不满"
+            },
+            {
+              "word": "spill over into",
+              "pos": "phr.",
+              "definition": "蔓延至；演化为"
             }
           ]
         },
@@ -140,6 +255,46 @@
               "word": "backlash",
               "pos": "n.",
               "definition": "强烈反弹；强烈抵制；反对风波"
+            },
+            {
+              "word": "geographical concentration",
+              "pos": "n.",
+              "definition": "地理集中度"
+            },
+            {
+              "word": "metropolitan",
+              "pos": "adj.",
+              "definition": "大都市的；都会区的"
+            },
+            {
+              "word": "rust belt",
+              "pos": "n.",
+              "definition": "老工业基地；铁锈地带"
+            },
+            {
+              "word": "intervention",
+              "pos": "n.",
+              "definition": "政策干预；介入"
+            },
+            {
+              "word": "loosen",
+              "pos": "v.",
+              "definition": "削弱；松开；解除"
+            },
+            {
+              "word": "pipeline",
+              "pos": "n.",
+              "definition": "管道；核心渠道"
+            },
+            {
+              "word": "sour",
+              "pos": "v.",
+              "definition": "使恶化；使反感"
+            },
+            {
+              "word": "sentiment",
+              "pos": "n.",
+              "definition": "社会情绪；公众情绪"
             }
           ]
         },
@@ -174,6 +329,41 @@
               "word": "accumulation",
               "pos": "n.",
               "definition": "积累；堆积；积聚"
+            },
+            {
+              "word": "narrow",
+              "pos": "adj.",
+              "definition": "狭隘的；有限的"
+            },
+            {
+              "word": "efficiency",
+              "pos": "n.",
+              "definition": "效率；效能"
+            },
+            {
+              "word": "well-being",
+              "pos": "n.",
+              "definition": "福祉；幸福安康"
+            },
+            {
+              "word": "forge",
+              "pos": "v.",
+              "definition": "开创；构建；锻造"
+            },
+            {
+              "word": "architecture",
+              "pos": "n.",
+              "definition": "顶层架构；体系结构"
+            },
+            {
+              "word": "fair compensation",
+              "pos": "n.",
+              "definition": "合理的报酬/补偿"
+            },
+            {
+              "word": "flourishing",
+              "pos": "n.",
+              "definition": "蓬勃繁荣；兴旺发展"
             }
           ]
         }
@@ -1103,6 +1293,36 @@
               "word": "vulnerable",
               "pos": "adj.",
               "definition": "脆弱的；易受攻击的；无防备的"
+            },
+            {
+              "word": "cultivate",
+              "pos": "v.",
+              "definition": "培育；建立；耕耘"
+            },
+            {
+              "word": "decisive",
+              "pos": "adj.",
+              "definition": "决定性的；果断坚决的"
+            },
+            {
+              "word": "reduction",
+              "pos": "n.",
+              "definition": "缩减；下降"
+            },
+            {
+              "word": "reliance on",
+              "pos": "phr.",
+              "definition": "对……的过度依赖"
+            },
+            {
+              "word": "fluctuation",
+              "pos": "n.",
+              "definition": "价格波动；上下起伏"
+            },
+            {
+              "word": "supply shock",
+              "pos": "n.",
+              "definition": "供应链冲击；断供震荡"
             }
           ]
         },
@@ -1137,6 +1357,46 @@
               "word": "simultaneously",
               "pos": "adv.",
               "definition": "同时地；同步地"
+            },
+            {
+              "word": "supply breakdown",
+              "pos": "n.",
+              "definition": "供应中断/崩溃"
+            },
+            {
+              "word": "executive",
+              "pos": "n.",
+              "definition": "行业高管；企业决策层"
+            },
+            {
+              "word": "home-grown",
+              "pos": "adj.",
+              "definition": "本土生产的；自产的"
+            },
+            {
+              "word": "incentive",
+              "pos": "n.",
+              "definition": "财政激励；诱因"
+            },
+            {
+              "word": "commercial woodland",
+              "pos": "n.",
+              "definition": "商品林地"
+            },
+            {
+              "word": "carbon-storing",
+              "pos": "adj.",
+              "definition": "固碳的；储碳的"
+            },
+            {
+              "word": "net-zero",
+              "pos": "adj.",
+              "definition": "净零碳排放的"
+            },
+            {
+              "word": "durable wealth",
+              "pos": "n.",
+              "definition": "持久稳定的财富"
             }
           ]
         },
@@ -1171,6 +1431,41 @@
               "word": "decimation",
               "pos": "n.",
               "definition": "大批杀戮；严重破坏；毁灭"
+            },
+            {
+              "word": "institutional",
+              "pos": "adj.",
+              "definition": "体制性的；制度上的"
+            },
+            {
+              "word": "resistance",
+              "pos": "n.",
+              "definition": "阻力；抵制"
+            },
+            {
+              "word": "planning regulations",
+              "pos": "n.",
+              "definition": "规划审批法规"
+            },
+            {
+              "word": "bureaucratic delay",
+              "pos": "n.",
+              "definition": "行政延误；官僚拖延"
+            },
+            {
+              "word": "outdated",
+              "pos": "adj.",
+              "definition": "陈旧的；过时的"
+            },
+            {
+              "word": "equate with",
+              "pos": "phr.",
+              "definition": "将……等同于"
+            },
+            {
+              "word": "endangered species",
+              "pos": "n.",
+              "definition": "濒危物种"
             }
           ]
         },
@@ -1205,6 +1500,41 @@
               "word": "irreconcilable",
               "pos": "adj.",
               "definition": "不可调和的；势不两立的"
+            },
+            {
+              "word": "clash",
+              "pos": "n.",
+              "definition": "对立；矛盾冲突"
+            },
+            {
+              "word": "advocate for",
+              "pos": "phr.",
+              "definition": "主张；倡导支持"
+            },
+            {
+              "word": "biodiversity",
+              "pos": "n.",
+              "definition": "生物多样性"
+            },
+            {
+              "word": "broadleaf",
+              "pos": "n.",
+              "definition": "阔叶树林"
+            },
+            {
+              "word": "either-or",
+              "pos": "adj.",
+              "definition": "非此即彼的；绝对二元对立的"
+            },
+            {
+              "word": "complementary",
+              "pos": "adj.",
+              "definition": "互补的；相辅相成的"
+            },
+            {
+              "word": "adversary",
+              "pos": "n.",
+              "definition": "不可调和的敌人/对手"
             }
           ]
         },
@@ -1239,6 +1569,41 @@
               "word": "stewardship",
               "pos": "n.",
               "definition": "照管职责；管理；保护"
+            },
+            {
+              "word": "bridge",
+              "pos": "v.",
+              "definition": "弥合；架设桥梁"
+            },
+            {
+              "word": "aspiration",
+              "pos": "n.",
+              "definition": "诉求；抱负愿景"
+            },
+            {
+              "word": "land-use",
+              "pos": "n.",
+              "definition": "土地利用规划"
+            },
+            {
+              "word": "framework",
+              "pos": "n.",
+              "definition": "指导框架；纲领"
+            },
+            {
+              "word": "self-sufficiency",
+              "pos": "n.",
+              "definition": "自给自足"
+            },
+            {
+              "word": "harmonize",
+              "pos": "v.",
+              "definition": "协调；调和；使和谐"
+            },
+            {
+              "word": "foundational",
+              "pos": "adj.",
+              "definition": "根本的；基础性的"
             }
           ]
         }
@@ -2214,6 +2579,36 @@
               "word": "mandate",
               "pos": "v.",
               "definition": "强制要求；授权；颁布命令"
+            },
+            {
+              "word": "sensitive",
+              "pos": "adj.",
+              "definition": "棘手的；敏感复杂的"
+            },
+            {
+              "word": "mobility",
+              "pos": "n.",
+              "definition": "出行自由；机动性"
+            },
+            {
+              "word": "self-worth",
+              "pos": "n.",
+              "definition": "自尊；自我存在感"
+            },
+            {
+              "word": "cognitive",
+              "pos": "adj.",
+              "definition": "脑力认知的；思维的"
+            },
+            {
+              "word": "substantial risk",
+              "pos": "n.",
+              "definition": "重大实质性危险"
+            },
+            {
+              "word": "licensing authority",
+              "pos": "n.",
+              "definition": "驾照管理部门"
             }
           ]
         },
@@ -2248,6 +2643,46 @@
               "word": "coercive",
               "pos": "adj.",
               "definition": "强制的；胁迫的；高压的"
+            },
+            {
+              "word": "ethical",
+              "pos": "adj.",
+              "definition": "医学伦理的；道德层面的"
+            },
+            {
+              "word": "doctor-patient relationship",
+              "pos": "n.",
+              "definition": "医患信任关系"
+            },
+            {
+              "word": "candidly",
+              "pos": "adv.",
+              "definition": "坦诚相告地；据实地"
+            },
+            {
+              "word": "disclose",
+              "pos": "v.",
+              "definition": "透露；坦白病情"
+            },
+            {
+              "word": "lapse",
+              "pos": "n.",
+              "definition": "短暂衰退；失常"
+            },
+            {
+              "word": "conceal",
+              "pos": "v.",
+              "definition": "隐瞒；刻意掩饰"
+            },
+            {
+              "word": "traffic hazard",
+              "pos": "n.",
+              "definition": "道路安全隐患"
+            },
+            {
+              "word": "inadvertently",
+              "pos": "adv.",
+              "definition": "事与愿违地；不经意间"
             }
           ]
         },
@@ -2282,6 +2717,36 @@
               "word": "protocol",
               "pos": "n.",
               "definition": "规范；流程；方案；草案"
+            },
+            {
+              "word": "competence",
+              "pos": "n.",
+              "definition": "胜任力；实际驾车能力"
+            },
+            {
+              "word": "exceptional reflexes",
+              "pos": "n.",
+              "definition": "极出色的神经反射速度"
+            },
+            {
+              "word": "fatigue",
+              "pos": "n.",
+              "definition": "衰竭性疲劳"
+            },
+            {
+              "word": "substance abuse",
+              "pos": "n.",
+              "definition": "药物依赖；药物滥用"
+            },
+            {
+              "word": "standardized",
+              "pos": "adj.",
+              "definition": "标准化的；客观规范的"
+            },
+            {
+              "word": "specified threshold",
+              "pos": "n.",
+              "definition": "规定的法定年龄线"
             }
           ]
         },
@@ -2316,6 +2781,36 @@
               "word": "autonomous",
               "pos": "adj.",
               "definition": "自动的；自治的；自主的"
+            },
+            {
+              "word": "driver-assistance",
+              "pos": "n.",
+              "definition": "驾驶辅助技术"
+            },
+            {
+              "word": "sensor",
+              "pos": "n.",
+              "definition": "雷达传感器"
+            },
+            {
+              "word": "unintentional",
+              "pos": "adj.",
+              "definition": "非故意的；无意识的"
+            },
+            {
+              "word": "lane departure",
+              "pos": "n.",
+              "definition": "车道偏移"
+            },
+            {
+              "word": "maturation",
+              "pos": "n.",
+              "definition": "技术成熟落地"
+            },
+            {
+              "word": "steering wheel",
+              "pos": "n.",
+              "definition": "方向盘"
             }
           ]
         },
@@ -2350,6 +2845,31 @@
               "word": "proxy",
               "pos": "n.",
               "definition": "代理人；替身；代表"
+            },
+            {
+              "word": "universally accessible",
+              "pos": "phr.",
+              "definition": "全民普遍可及的"
+            },
+            {
+              "word": "collaborative",
+              "pos": "adj.",
+              "definition": "多方协同的；合作的"
+            },
+            {
+              "word": "transit solution",
+              "pos": "n.",
+              "definition": "公共交通接驳方案"
+            },
+            {
+              "word": "functional evaluation",
+              "pos": "n.",
+              "definition": "身体功能客观评估"
+            },
+            {
+              "word": "law enforcement",
+              "pos": "n.",
+              "definition": "法律强制执行"
             }
           ]
         }
@@ -3320,6 +3840,36 @@
               "word": "exploitation",
               "pos": "n.",
               "definition": "开发；利用；剥削；榨取"
+            },
+            {
+              "word": "take advantage of",
+              "pos": "phr.",
+              "definition": "利用；使用"
+            },
+            {
+              "word": "wellness",
+              "pos": "n.",
+              "definition": "身心健康；日常保健"
+            },
+            {
+              "word": "legal framework",
+              "pos": "n.",
+              "definition": "法律法规体系"
+            },
+            {
+              "word": "legal shield",
+              "pos": "n.",
+              "definition": "法定庇护屏障"
+            },
+            {
+              "word": "unregulated",
+              "pos": "adj.",
+              "definition": "脱离法律监管的"
+            },
+            {
+              "word": "commercial exploitation",
+              "pos": "n.",
+              "definition": "商业肆意变现/侵害"
             }
           ]
         },
@@ -3354,6 +3904,31 @@
               "word": "explicit",
               "pos": "adj.",
               "definition": "明确的；坦率的；清晰的"
+            },
+            {
+              "word": "legislation",
+              "pos": "n.",
+              "definition": "法律法规；条文"
+            },
+            {
+              "word": "dawn of",
+              "pos": "phr.",
+              "definition": "……的破晓/开端"
+            },
+            {
+              "word": "wearable",
+              "pos": "n.",
+              "definition": "智能可穿戴硬件"
+            },
+            {
+              "word": "gray zone",
+              "pos": "n.",
+              "definition": "法律真空；灰色地带"
+            },
+            {
+              "word": "explicit consent",
+              "pos": "n.",
+              "definition": "用户的明示许可授权"
             }
           ]
         },
@@ -3388,6 +3963,41 @@
               "word": "affirmative",
               "pos": "adj.",
               "definition": "肯定的；同意的；赞成的"
+            },
+            {
+              "word": "regulator",
+              "pos": "n.",
+              "definition": "政府监管部门"
+            },
+            {
+              "word": "high-profile",
+              "pos": "adj.",
+              "definition": "引人瞩目的；重磅的"
+            },
+            {
+              "word": "fertility tracking",
+              "pos": "n.",
+              "definition": "经期与生育健康监测"
+            },
+            {
+              "word": "third-party advertiser",
+              "pos": "n.",
+              "definition": "第三方广告营销商"
+            },
+            {
+              "word": "consent order",
+              "pos": "n.",
+              "definition": "和解行政裁决令"
+            },
+            {
+              "word": "illicitly gathered",
+              "pos": "phr.",
+              "definition": "非法抓取汇总的"
+            },
+            {
+              "word": "regulatory posture",
+              "pos": "n.",
+              "definition": "强硬的监管姿态"
             }
           ]
         },
@@ -3422,6 +4032,41 @@
               "word": "impenetrable",
               "pos": "adj.",
               "definition": "难以理解的；不可透过的；艰涩的"
+            },
+            {
+              "word": "enforcement action",
+              "pos": "n.",
+              "definition": "事后处罚行动"
+            },
+            {
+              "word": "settlement",
+              "pos": "n.",
+              "definition": "行政和解；罚款折衷"
+            },
+            {
+              "word": "slap wrist penalties",
+              "pos": "phr.",
+              "definition": "隔靴搔痒的象征性惩罚"
+            },
+            {
+              "word": "digital rights",
+              "pos": "n.",
+              "definition": "个人数字隐私权"
+            },
+            {
+              "word": "decipher",
+              "pos": "v.",
+              "definition": "破译；艰涩辨析"
+            },
+            {
+              "word": "terms-of-service",
+              "pos": "n.",
+              "definition": "软件用户服务协议"
+            },
+            {
+              "word": "legal jargon",
+              "pos": "n.",
+              "definition": "晦涩深奥的法律术语"
             }
           ]
         },
@@ -3456,6 +4101,36 @@
               "word": "autonomy",
               "pos": "n.",
               "definition": "自主权；自治；独立性"
+            },
+            {
+              "word": "commercial entity",
+              "pos": "n.",
+              "definition": "商业运营主体"
+            },
+            {
+              "word": "secondary monetization",
+              "pos": "n.",
+              "definition": "数据的二次转手转卖变现"
+            },
+            {
+              "word": "data minimization",
+              "pos": "n.",
+              "definition": "数据收集最少化法定原则"
+            },
+            {
+              "word": "breach",
+              "pos": "n.",
+              "definition": "数据泄密；安全侵入"
+            },
+            {
+              "word": "clinical medicine",
+              "pos": "n.",
+              "definition": "临床诊疗医学"
+            },
+            {
+              "word": "empty illusion",
+              "pos": "n.",
+              "definition": "自欺欺人的虚幻泡影"
             }
           ]
         }

@@ -35,6 +35,36 @@
               "word": "up and down",
               "pos": "phr.",
               "definition": "到处，到处走遍（全国上下）"
+            },
+            {
+              "word": "instinctively",
+              "pos": "adv.",
+              "definition": "出于直觉下意识地"
+            },
+            {
+              "word": "nostalgic relic",
+              "pos": "n.",
+              "definition": "带有怀旧色彩的历史陈迹"
+            },
+            {
+              "word": "do without",
+              "pos": "phr.",
+              "definition": "没有……也无妨；弃之可惜"
+            },
+            {
+              "word": "startlingly",
+              "pos": "adv.",
+              "definition": "令人惊诧反转地；赫然发现"
+            },
+            {
+              "word": "indispensable",
+              "pos": "adj.",
+              "definition": "不可或缺的；不可替代的"
+            },
+            {
+              "word": "empowerment",
+              "pos": "n.",
+              "definition": "赋能与公共支持"
             }
           ]
         },
@@ -69,6 +99,31 @@
               "word": "GP surgery",
               "pos": "n.",
               "definition": "全科医生诊所门诊"
+            },
+            {
+              "word": "repository",
+              "pos": "n.",
+              "definition": "沉寂闭塞的藏书库"
+            },
+            {
+              "word": "vibrant",
+              "pos": "adj.",
+              "definition": "充满生机活力的"
+            },
+            {
+              "word": "social divide",
+              "pos": "n.",
+              "definition": "数字鸿沟与贫富阶层分化"
+            },
+            {
+              "word": "budding",
+              "pos": "adj.",
+              "definition": "初露锋芒的；起步初创的"
+            },
+            {
+              "word": "preventative",
+              "pos": "adj.",
+              "definition": "及早排查的预防性健康筛查"
             }
           ]
         },
@@ -103,6 +158,31 @@
               "word": "justify",
               "pos": "v.",
               "definition": "证明……是正当的，自证"
+            },
+            {
+              "word": "roam",
+              "pos": "v.",
+              "definition": "游荡；晃荡"
+            },
+            {
+              "word": "unsupervised",
+              "pos": "adj.",
+              "definition": "缺乏管护与监管引导的"
+            },
+            {
+              "word": "amenities",
+              "pos": "n.",
+              "definition": "顶级硬件休闲配置"
+            },
+            {
+              "word": "unconditional",
+              "pos": "adj.",
+              "definition": "不设门槛、无条件的"
+            },
+            {
+              "word": "presence",
+              "pos": "n.",
+              "definition": "逗留与驻足的存在"
             }
           ]
         },
@@ -137,6 +217,26 @@
               "word": "replicate",
               "pos": "v.",
               "definition": "复制，模拟"
+            },
+            {
+              "word": "privatize",
+              "pos": "v.",
+              "definition": "被商业资本私有化瓜分"
+            },
+            {
+              "word": "solidarity",
+              "pos": "n.",
+              "definition": "跨越阶层的公民民主认同与团结"
+            },
+            {
+              "word": "dignity",
+              "pos": "n.",
+              "definition": "平等的尊严与尊重"
+            },
+            {
+              "word": "browse",
+              "pos": "v.",
+              "definition": "翻阅漫步；悠闲阅读"
             }
           ]
         },
@@ -171,6 +271,26 @@
               "word": "robust",
               "pos": "adj.",
               "definition": "强健的，充裕的，坚实的"
+            },
+            {
+              "word": "budget deficit",
+              "pos": "n.",
+              "definition": "地方财政赤字窟窿"
+            },
+            {
+              "word": "short-sighted",
+              "pos": "adj.",
+              "definition": "鼠目寸光的；短视的"
+            },
+            {
+              "word": "social void",
+              "pos": "n.",
+              "definition": "不可弥补的社区精神荒漠空白"
+            },
+            {
+              "word": "starve of",
+              "pos": "phr.",
+              "definition": "剥夺断绝必要资源投入"
             }
           ]
         }
@@ -1296,6 +1416,31 @@
               "word": "implication",
               "pos": "n.",
               "definition": "潜在影响，可能的结果，暗含意义"
+            },
+            {
+              "word": "interpersonal",
+              "pos": "adj.",
+              "definition": "职场人际关系的"
+            },
+            {
+              "word": "non-judgmental",
+              "pos": "adj.",
+              "definition": "不带偏见评判色彩的"
+            },
+            {
+              "word": "blind spot",
+              "pos": "n.",
+              "definition": "致命的认知与风控盲区"
+            },
+            {
+              "word": "solicit",
+              "pos": "v.",
+              "definition": "急切征询恳请专业意见"
+            },
+            {
+              "word": "hierarchy",
+              "pos": "n.",
+              "definition": "层级分明森严的官僚体系"
             }
           ]
         },
@@ -1330,6 +1475,31 @@
               "word": "espionage",
               "pos": "n.",
               "definition": "间谍活动，商业刺探"
+            },
+            {
+              "word": "data aggregation",
+              "pos": "n.",
+              "definition": "大规模数据抓取汇聚"
+            },
+            {
+              "word": "discreet",
+              "pos": "adj.",
+              "definition": "严守秘密、守口如瓶的"
+            },
+            {
+              "word": "subsequent",
+              "pos": "adj.",
+              "definition": "后续迭代训练的底层大模型"
+            },
+            {
+              "word": "anonymized",
+              "pos": "adj.",
+              "definition": "经过脱敏清洗处理的数据"
+            },
+            {
+              "word": "privileged",
+              "pos": "adj.",
+              "definition": "享有特权不可公开的法务机密"
             }
           ]
         },
@@ -1364,6 +1534,26 @@
               "word": "shadow economy",
               "pos": "n.",
               "definition": "影子经济，地下黑市，脱离监管的盲区"
+            },
+            {
+              "word": "conglomerate",
+              "pos": "n.",
+              "definition": "跨国巨无霸跨界财阀集团"
+            },
+            {
+              "word": "prohibitive",
+              "pos": "adj.",
+              "definition": "一刀切禁令式的"
+            },
+            {
+              "word": "unmonitored",
+              "pos": "adj.",
+              "definition": "缺乏风控稽核审计的"
+            },
+            {
+              "word": "breach",
+              "pos": "n.",
+              "definition": "商业机密与核心资产外泄"
             }
           ]
         },
@@ -1398,6 +1588,26 @@
               "word": "delineate",
               "pos": "v.",
               "definition": "清晰界定，描绘轮廓"
+            },
+            {
+              "word": "blanket",
+              "pos": "adj.",
+              "definition": "简单粗暴的一揽子通通禁止"
+            },
+            {
+              "word": "enterprise-grade",
+              "pos": "adj.",
+              "definition": "企业级商用定制专线"
+            },
+            {
+              "word": "digital literacy",
+              "pos": "n.",
+              "definition": "员工数字化与信息安全素养"
+            },
+            {
+              "word": "permissible",
+              "pos": "adj.",
+              "definition": "合规允许在安全边界内的"
             }
           ]
         },
@@ -1432,6 +1642,26 @@
               "word": "harness",
               "pos": "v.",
               "definition": "驾驭，治理，利用"
+            },
+            {
+              "word": "elevate",
+              "pos": "v.",
+              "definition": "提升工作效率与综合认知"
+            },
+            {
+              "word": "unprecedented",
+              "pos": "adj.",
+              "definition": "前所未有的超高效能"
+            },
+            {
+              "word": "bound by",
+              "pos": "phr.",
+              "definition": "受……行业保密职业道德约束"
+            },
+            {
+              "word": "treasured",
+              "pos": "adj.",
+              "definition": "最具核心竞争力不可外传的"
             }
           ]
         }
@@ -2475,6 +2705,26 @@
               "word": "recrimination",
               "pos": "n.",
               "definition": "互相指责，控诉，抱怨"
+            },
+            {
+              "word": "sustainable",
+              "pos": "adj.",
+              "definition": "绿色可持续发展的"
+            },
+            {
+              "word": "punctual",
+              "pos": "adj.",
+              "definition": "准点守时的"
+            },
+            {
+              "word": "relentless",
+              "pos": "adj.",
+              "definition": "无休无止持续不断的延误"
+            },
+            {
+              "word": "domestic aviation",
+              "pos": "n.",
+              "definition": "国内短途民航航班"
             }
           ]
         },
@@ -2509,6 +2759,26 @@
               "word": "sheer",
               "pos": "adj.",
               "definition": "纯粹的，庞大的（形容数量规模之大）"
+            },
+            {
+              "word": "disruption",
+              "pos": "n.",
+              "definition": "大面积运行秩序紊乱中断"
+            },
+            {
+              "word": "underinvestment",
+              "pos": "n.",
+              "definition": "长期严重投资不足欠账"
+            },
+            {
+              "word": "deteriorate",
+              "pos": "v.",
+              "definition": "路基与钢轨老化变形恶化"
+            },
+            {
+              "word": "signaling",
+              "pos": "n.",
+              "definition": "铁路行车信号控制调度系统"
             }
           ]
         },
@@ -2543,6 +2813,26 @@
               "word": "bottleneck",
               "pos": "n.",
               "definition": "瓶颈，咽喉要道"
+            },
+            {
+              "word": "shortage",
+              "pos": "n.",
+              "definition": "干线通过能力极度匮乏"
+            },
+            {
+              "word": "calibrate",
+              "pos": "v.",
+              "definition": "运行图排满毫无冗余空间"
+            },
+            {
+              "word": "chain reaction",
+              "pos": "n.",
+              "definition": "多米诺骨牌式连锁反应"
+            },
+            {
+              "word": "congested",
+              "pos": "adj.",
+              "definition": "列车高度密集排队的"
             }
           ]
         },
@@ -2577,6 +2867,26 @@
               "word": "replacement bus",
               "pos": "n.",
               "definition": "铁路停运时代运公交大巴"
+            },
+            {
+              "word": "locomotive",
+              "pos": "n.",
+              "definition": "货运机车车头"
+            },
+            {
+              "word": "plumbing",
+              "pos": "n.",
+              "definition": "不可见的基础道岔管道管网"
+            },
+            {
+              "word": "starved of",
+              "pos": "phr.",
+              "definition": "长期断粮、缺少维保经费"
+            },
+            {
+              "word": "paralyze",
+              "pos": "v.",
+              "definition": "全线瘫痪；运力锁死"
             }
           ]
         },
@@ -2611,6 +2921,21 @@
               "word": "backbone",
               "pos": "n.",
               "definition": "脊梁，中流砥柱，主干"
+            },
+            {
+              "word": "reliability",
+              "pos": "n.",
+              "definition": "列车运行的可靠正点率"
+            },
+            {
+              "word": "bypass track",
+              "pos": "n.",
+              "definition": "越行越线与复线避让轨道"
+            },
+            {
+              "word": "mobility",
+              "pos": "n.",
+              "definition": "现代化综合交通综合出行力"
             }
           ]
         }
@@ -3711,6 +4036,31 @@
               "word": "stage",
               "pos": "v.",
               "definition": "上演，举办，筹办"
+            },
+            {
+              "word": "grassroots",
+              "pos": "adj.",
+              "definition": "草根民间的；社区基层自发的"
+            },
+            {
+              "word": "scale down",
+              "pos": "phr.",
+              "definition": "压缩削减活动规模"
+            },
+            {
+              "word": "disheartening",
+              "pos": "adj.",
+              "definition": "令人倍感失落沮丧的"
+            },
+            {
+              "word": "insurmountable",
+              "pos": "adj.",
+              "definition": "难以跨越的开销鸿沟"
+            },
+            {
+              "word": "obstacle",
+              "pos": "n.",
+              "definition": "巨大绊脚石阻碍"
             }
           ]
         },
@@ -3745,6 +4095,36 @@
               "word": "balance the books",
               "pos": "phr.",
               "definition": "保持收支平衡，轧平账目"
+            },
+            {
+              "word": "expenditure",
+              "pos": "n.",
+              "definition": "承办与布展硬性开销投入"
+            },
+            {
+              "word": "unprecedented",
+              "pos": "adj.",
+              "definition": "突破历史极值的指数级飙升"
+            },
+            {
+              "word": "elaborate",
+              "pos": "adj.",
+              "definition": "繁琐复杂的安保与人流管控"
+            },
+            {
+              "word": "liability insurance",
+              "pos": "n.",
+              "definition": "公众责任险与意外险保费"
+            },
+            {
+              "word": "arithmetic",
+              "pos": "adj.",
+              "definition": "算术账目上的"
+            },
+            {
+              "word": "impossibility",
+              "pos": "n.",
+              "definition": "根本做不到的死结困局"
             }
           ]
         },
@@ -3779,6 +4159,31 @@
               "word": "reverberate",
               "pos": "v.",
               "definition": "产生深远影响，回响"
+            },
+            {
+              "word": "contradiction",
+              "pos": "n.",
+              "definition": "深刻的内在制度逻辑矛盾"
+            },
+            {
+              "word": "laud",
+              "pos": "v.",
+              "definition": "高调赞扬推崇为文化名片"
+            },
+            {
+              "word": "hesitate",
+              "pos": "v.",
+              "definition": "向民间机构高额摊派收费毫不手软"
+            },
+            {
+              "word": "brick-and-mortar",
+              "pos": "adj.",
+              "definition": "沿街实体商铺与小微企业"
+            },
+            {
+              "word": "vibrancy",
+              "pos": "n.",
+              "definition": "市井烟火气与社区凝聚活力"
             }
           ]
         },
@@ -3813,6 +4218,26 @@
               "word": "non-ticketed",
               "pos": "adj.",
               "definition": "无需门票的，免门票的"
+            },
+            {
+              "word": "aggressively",
+              "pos": "adv.",
+              "definition": "积极主动奔走呼吁"
+            },
+            {
+              "word": "benefactor",
+              "pos": "n.",
+              "definition": "本土热心企业捐助赞助人"
+            },
+            {
+              "word": "subsidize",
+              "pos": "v.",
+              "definition": "政府兜底财政补贴"
+            },
+            {
+              "word": "shortfall",
+              "pos": "n.",
+              "definition": "收支预决算倒挂缺口"
             }
           ]
         },
@@ -3847,6 +4272,26 @@
               "word": "impoverish",
               "pos": "v.",
               "definition": "使贫穷，使枯竭，削弱"
+            },
+            {
+              "word": "perilous",
+              "pos": "adj.",
+              "definition": "极其危险严重的悄然退化"
+            },
+            {
+              "word": "fragmented",
+              "pos": "adj.",
+              "definition": "原子化割裂互不相识的现代社会"
+            },
+            {
+              "word": "runaway inflation",
+              "pos": "n.",
+              "definition": "失控疯涨的综合成本通胀"
+            },
+            {
+              "word": "fundamental duty",
+              "pos": "n.",
+              "definition": "地方政府不可推卸的公共职责"
             }
           ]
         }

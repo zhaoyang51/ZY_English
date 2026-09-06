@@ -4,14 +4,18 @@
 (function() {
   const LOGIC_CONNECTORS = {
     turn: [
-      'however', 'nevertheless', 'nonetheless', 'whereas', 'although', 'though', 'even though', 'even if',
-      'on the other hand', 'on the contrary', 'in contrast', 'instead of', 'despite', 'in spite of'
+      'on the other hand', 'on the contrary', 'even though', 'in spite of', 'by contrast', 'instead of',
+      'rather than', 'nevertheless', 'nonetheless', 'in contrast', 'although', 'however', 'whereas',
+      'despite', 'even if', 'instead', 'though', 'while', 'yet', 'but'
     ],
     cause: [
-      'because', 'since', 'therefore', 'thus', 'hence', 'consequently', 'as a result', 'result in', 'due to', 'owing to'
+      'consequently', 'as a result', 'result from', 'result in', 'therefore', 'owing to', 'because',
+      'due to', 'hence', 'since', 'thus', 'so'
     ],
     summary: [
-      'moreover', 'furthermore', 'in addition', 'besides', 'finally', 'in conclusion', 'in summary', 'in short', 'indeed'
+      'as a matter of fact', 'in conclusion', 'for instance', 'for example', 'furthermore',
+      'in addition', 'in summary', 'all in all', 'to sum up', 'actually', 'moreover', 'in fact',
+      'in short', 'finally', 'besides', 'indeed'
     ]
   };
 
@@ -237,17 +241,19 @@
     formatSentenceText(sentText, paraVocab) {
       let text = sentText;
 
-      if (this.settings.highlightLogic) {
-        LOGIC_CONNECTORS.turn.forEach(w => {
-          text = this.safeReplaceText(text, w, '<span class="transition-turn">$1</span>');
-        });
-        LOGIC_CONNECTORS.cause.forEach(w => {
-          text = this.safeReplaceText(text, w, '<span class="transition-cause">$1</span>');
-        });
-        LOGIC_CONNECTORS.summary.forEach(w => {
-          text = this.safeReplaceText(text, w, '<span class="transition-summary">$1</span>');
-        });
-      }
+      const isHighlight = this.settings.highlightLogic;
+      LOGIC_CONNECTORS.turn.forEach(w => {
+        const cls = isHighlight ? 'exam-connector transition-turn' : 'exam-connector';
+        text = this.safeReplaceText(text, w, `<span class="${cls}" data-connector="$1" title="🧭 点击查看逻辑功能与考点定位">$1</span>`);
+      });
+      LOGIC_CONNECTORS.cause.forEach(w => {
+        const cls = isHighlight ? 'exam-connector transition-cause' : 'exam-connector';
+        text = this.safeReplaceText(text, w, `<span class="${cls}" data-connector="$1" title="🧭 点击查看逻辑功能与考点定位">$1</span>`);
+      });
+      LOGIC_CONNECTORS.summary.forEach(w => {
+        const cls = isHighlight ? 'exam-connector transition-summary' : 'exam-connector';
+        text = this.safeReplaceText(text, w, `<span class="${cls}" data-connector="$1" title="🧭 点击查看逻辑功能与考点定位">$1</span>`);
+      });
 
       if (paraVocab && paraVocab.length > 0) {
         const sortedVocab = [...paraVocab].sort((a, b) => (b.word ? b.word.length : 0) - (a.word ? a.word.length : 0));

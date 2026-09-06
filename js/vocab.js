@@ -26,7 +26,7 @@
     currentList: [],
     currentIndex: 0,
     isRevealed: false,
-    filters: { year: 'all', text: 'all', state: 'all', sort: 'default', search: '' },
+    filters: { source: 'all', year: 'all', text: 'all', state: 'all', sort: 'default', search: '' },
     isInitialized: false
   };
 
@@ -107,6 +107,13 @@
           </div>
 
           <div class="vocab-filter-grid">
+            <div class="vocab-filter-item">
+              <label class="vocab-filter-label">词库来源</label>
+              <select id="vocabSourceSelect" class="vocab-select" style="font-weight:700;color:var(--primary)">
+                <option value="all">📚 全真题词库 (3,199词)</option>
+                <option value="bookmarked">⭐ 我的生词本 (已收藏词汇)</option>
+              </select>
+            </div>
             <div class="vocab-filter-item">
               <label class="vocab-filter-label">定位年份</label>
               <select id="vocabYearSelect" class="vocab-select">
@@ -226,6 +233,7 @@
 
     cacheDomElements() {
       els = {
+        sourceSelect: document.getElementById('vocabSourceSelect'),
         searchInput: document.getElementById('vocabSearchInput'),
         yearSelect: document.getElementById('vocabYearSelect'),
         textSelect: document.getElementById('vocabTextSelect'),
@@ -291,6 +299,13 @@
     },
 
     bindEvents() {
+      if (els.sourceSelect) {
+        els.sourceSelect.onchange = () => {
+          appState.filters.source = els.sourceSelect.value;
+          this.applyFiltersAndRender();
+        };
+      }
+
       els.yearSelect.onchange = () => {
         appState.filters.year = els.yearSelect.value;
         this.updateTextDropdown();
@@ -398,16 +413,29 @@
     },
 
     applyFiltersAndRender() {
-      const { year, text, state, sort, search } = appState.filters;
+      const { source, year, text, state, sort, search } = appState.filters;
       const now = Date.now();
 
-      let filtered = appState.rawVocabData.filter(item => {
+      let sourceList = appState.rawVocabData;
+      if (source === 'bookmarked') {
+        const bookmarks = (window.StorageModule && window.StorageModule.getVocabBook) ? window.StorageModule.getVocabBook() : [];
+        sourceList = bookmarks.map(b => ({
+          year: b.year ? String(b.year) : '收藏',
+          text: b.textId ? `Text ${b.textId}` : '自选',
+          word: String(b.word),
+          meaning: String(b.def || '考研大纲核心词汇'),
+          sentence: b.sentence || ''
+        }));
+      }
+
+      let filtered = sourceList.filter(item => {
         const matchYear = year === 'all' || item.year === year;
         const matchText = text === 'all' || item.text === text;
         const searchLower = search.toLowerCase();
         const matchSearch = search === '' ||
           item.word.toLowerCase().includes(searchLower) ||
-          item.meaning.includes(searchLower);
+          item.meaning.includes(searchLower) ||
+          (item.sentence && item.sentence.toLowerCase().includes(searchLower));
         return matchYear && matchText && matchSearch;
       });
 
@@ -454,7 +482,25 @@
 
       if (total === 0 || appState.currentIndex >= total) {
         if (els.cardContainer) els.cardContainer.style.display = 'none';
-        if (els.emptyState) els.emptyState.style.display = 'flex';
+        if (els.emptyState) {
+          els.emptyState.style.display = 'flex';
+          if (appState.filters.source === 'bookmarked') {
+            els.emptyState.innerHTML = `
+              <div class="vocab-empty-icon">📒</div>
+              <div class="vocab-empty-title">您的生词本暂无词汇或已全部复习完成！</div>
+              <div class="vocab-empty-desc">请在精读阅读文章时，点击生词弹出的「☆ 收藏生词」加入生词本，即可在此开启专属艾宾浩斯攻坚背诵！</div>
+              <button class="toolbar-btn" id="vocabBtnEmptyReset" style="padding:8px 18px">返回全真题词库</button>
+            `;
+            const rBtn = document.getElementById('vocabBtnEmptyReset');
+            if (rBtn) {
+              rBtn.onclick = () => {
+                if (els.sourceSelect) els.sourceSelect.value = 'all';
+                appState.filters.source = 'all';
+                this.applyFiltersAndRender();
+              };
+            }
+          }
+        }
         return;
       }
 
@@ -467,7 +513,16 @@
       els.meaningArea.style.display = 'none';
 
       els.cardWord.textContent = currentWordObj.word;
-      els.cardMeaning.textContent = currentWordObj.meaning;
+      let meaningHtml = `<div style="font-size:1.1em;margin-bottom:8px;font-weight:600">${currentWordObj.meaning}</div>`;
+      if (currentWordObj.sentence) {
+        let sentHtml = currentWordObj.sentence;
+        try {
+          const re = new RegExp(`\\b(${currentWordObj.word.replace(/[.*+?^${}()|[\\]\\]/g, '\\$&')})\\b`, 'gi');
+          sentHtml = sentHtml.replace(re, '<span class="vocab-highlight">$1</span>');
+        } catch(e) {}
+        meaningHtml += `<div class="vocab-book-sentence" style="text-align:left;margin-top:10px;font-size:0.9em"><strong>真题语境原句：</strong>${sentHtml}</div>`;
+      }
+      els.cardMeaning.innerHTML = meaningHtml;
       els.tagProvenance.textContent = `${currentWordObj.year} · ${currentWordObj.text}`;
 
       els.currentIndex.textContent = appState.currentIndex + 1;
@@ -633,6 +688,14 @@
       if (els.statDue) els.statDue.textContent = due;
       if (els.statNew) els.statNew.textContent = freshNew;
       if (els.statMastered) els.statMastered.textContent = mastered;
+    },
+
+    switchToBookmarked() {
+      if (els.sourceSelect) {
+        els.sourceSelect.value = 'bookmarked';
+        appState.filters.source = 'bookmarked';
+        this.applyFiltersAndRender();
+      }
     }
   };
 })();
