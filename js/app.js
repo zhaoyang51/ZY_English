@@ -411,7 +411,7 @@
     }
 
     updateJumpDropdown();
-    renderCurrentStep();
+    renderCurrentStep({ forceTop: true });
     updateUIControls();
     saveState();
   }
@@ -442,7 +442,39 @@
     });
   }
 
-  function renderCurrentStep() {
+  function smartScrollWorkspace(forceTop = false) {
+    const rightScroll = document.getElementById('rightScroll');
+    const wsContent = document.getElementById('workspaceContent');
+
+    if (window.innerWidth > 900) {
+      if (!rightScroll) return;
+      if (forceTop) {
+        rightScroll.scrollTo({ top: 0, behavior: 'smooth' });
+        return;
+      }
+      const currentScrollTop = rightScroll.scrollTop;
+      // 智能感知阈值 (160px):
+      // 若视线已在上方 (scrollTop <= 160px)，保持滚动条不动，实现就地顺畅刷新，彻底消除跳跃感；
+      // 若用户已翻到下方查看深度解析 (scrollTop > 160px)，则平滑轻柔滑回新卡片顶端，确保新题干立即可视。
+      if (currentScrollTop > 160) {
+        rightScroll.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    } else {
+      // 移动端全屏流式滚动适配
+      if (!wsContent) return;
+      if (forceTop) {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        return;
+      }
+      const rect = wsContent.getBoundingClientRect();
+      if (rect.top < -160) {
+        const targetY = window.pageYOffset + rect.top - 50;
+        window.scrollTo({ top: Math.max(0, targetY), behavior: 'smooth' });
+      }
+    }
+  }
+
+  function renderCurrentStep(options = {}) {
     if (AppState.mode === 'practice' && AppState.practiceSubmode === 'mock') {
       window.QuizModule.renderMockExam(AppState.textData, 'workspaceContent');
       return;
@@ -450,6 +482,9 @@
 
     if (AppState.isFullMode) {
       window.QuizModule.renderFull(AppState.steps, 'workspaceContent');
+      if (options.forceTop) {
+        smartScrollWorkspace(true);
+      }
       return;
     }
 
@@ -459,10 +494,8 @@
     window.QuizModule.renderStep(step, AppState.stepIndex, AppState.steps.length, 'workspaceContent', AppState.textData);
     window.ReaderModule.applySettings();
 
-    const rightScroll = document.getElementById('rightScroll');
-    if (rightScroll && window.innerWidth > 900) {
-      rightScroll.scrollTo({ top: 0, behavior: 'smooth' });
-    }
+    // 智能就地感知滚动 (方案二)
+    smartScrollWorkspace(options.forceTop);
 
     // Auto mark completed if reached last step
     if (AppState.stepIndex >= AppState.steps.length - 2) {
@@ -1290,7 +1323,7 @@
     if (resetBtn) {
       resetBtn.addEventListener('click', () => {
         AppState.stepIndex = 0;
-        renderCurrentStep();
+        renderCurrentStep({ forceTop: true });
         updateUIControls();
       });
     }
@@ -1299,14 +1332,14 @@
       const idx = Number(e.target.value);
       if (!isNaN(idx) && idx >= 0 && idx < AppState.steps.length) {
         AppState.stepIndex = idx;
-        renderCurrentStep();
+        renderCurrentStep({ forceTop: true });
         updateUIControls();
       }
     });
 
     document.getElementById('toggleAllBtn').addEventListener('click', () => {
       AppState.isFullMode = !AppState.isFullMode;
-      renderCurrentStep();
+      renderCurrentStep({ forceTop: true });
       updateUIControls();
     });
 

@@ -246,6 +246,18 @@ html, body {
 .workspace,
 #workspaceContent {
   padding-bottom: 120px;
+  animation: wsContentFadeIn 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes wsContentFadeIn {
+  from {
+    opacity: 0.88;
+    transform: translateY(2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Floating Bottom Action Bar */
