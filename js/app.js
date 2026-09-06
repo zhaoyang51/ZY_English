@@ -452,37 +452,27 @@
         rightScroll.scrollTo({ top: 0, behavior: 'smooth' });
         return;
       }
-      // 方案 B：修复版智能视线感知（科学阈值 350px）
-      // 1. 浅层阅读/常态作答 (prevScrollTop <= 350px)：
-      //    浏览器在 DOM innerHTML 替换重绘时会自动清零 scrollTop。这里必须精准恢复先前滚动高度，
-      //    滚动条稳如磐石，工作台内容在眼光聚焦处原地就地无感切换，彻底根除跳跃与拉扯感！
-      // 2. 深层阅读/长文本研读 (prevScrollTop > 350px)：
-      //    说明用户已翻到下方查看长解析、同义替换表或题项深度辨析。
-      //    此时进入新题目，轻柔平滑（smooth）滑回新卡片顶部，确保新题干第一时间清晰呈现在视野中。
-      if (prevScrollTop > 350) {
-        rightScroll.scrollTo({ top: 0, behavior: 'smooth' });
-      } else {
-        rightScroll.scrollTop = prevScrollTop;
-        requestAnimationFrame(() => {
-          if (rightScroll && !forceTop) {
-            rightScroll.scrollTop = prevScrollTop;
-          }
-        });
-      }
+      // 方案 A：【完全就地保持（纯无感原地刷新，0 像素位移）】
+      // 无论翻到哪一行或哪一处，换步时彻底不执行页面回滚，精确保持用户视线聚焦位置
+      rightScroll.scrollTop = prevScrollTop;
+      requestAnimationFrame(() => {
+        if (rightScroll && !forceTop) {
+          rightScroll.scrollTop = prevScrollTop;
+        }
+      });
     } else {
-      // 移动端全屏流式滚动适配
+      // 移动端全屏流式滚动适配：就地保持滚动条
       if (!wsContent) return;
       if (forceTop) {
         window.scrollTo({ top: 0, behavior: 'smooth' });
         return;
       }
-      if (prevScrollTop > 350) {
-        const rect = wsContent.getBoundingClientRect();
-        const targetY = window.pageYOffset + rect.top - 50;
-        window.scrollTo({ top: Math.max(0, targetY), behavior: 'smooth' });
-      } else {
-        window.scrollTo({ top: prevScrollTop, behavior: 'instant' });
-      }
+      window.scrollTo({ top: prevScrollTop, behavior: 'instant' });
+      requestAnimationFrame(() => {
+        if (!forceTop) {
+          window.scrollTo({ top: prevScrollTop, behavior: 'instant' });
+        }
+      });
     }
   }
 
@@ -552,7 +542,7 @@
     // Apply Section 1 Vocabulary preferences (persisting view type & mask state across steps)
     applyVocabPreferences();
 
-    // 方案 B：智能视线阈值感知滚动（浅层原位不动，深层平滑回顶）
+    // 方案 A：【完全就地保持（纯无感原地刷新，0 像素位移）】
     smartScrollWorkspace(options.forceTop, prevScrollTop);
 
     // Auto mark completed if reached last step
