@@ -230,6 +230,35 @@
       window.dispatchEvent(new CustomEvent('vocabBookUpdated', { detail: { count, list } }));
     },
 
+    // --- Vocabulary Review Preferences (View Type & Self-Test Masking) ---
+    getVocabViewPreference() {
+      try {
+        return localStorage.getItem('KAOYAN_VOCAB_VIEW_PREF') || 'grid';
+      } catch(e) {
+        return 'grid';
+      }
+    },
+
+    setVocabViewPreference(view) {
+      try {
+        localStorage.setItem('KAOYAN_VOCAB_VIEW_PREF', view);
+      } catch(e) {}
+    },
+
+    getVocabMaskPreference() {
+      try {
+        return localStorage.getItem('KAOYAN_VOCAB_MASK_PREF') === 'true';
+      } catch(e) {
+        return false;
+      }
+    },
+
+    setVocabMaskPreference(isMasked) {
+      try {
+        localStorage.setItem('KAOYAN_VOCAB_MASK_PREF', isMasked ? 'true' : 'false');
+      } catch(e) {}
+    },
+
     // --- Mock Answers ---
     saveMockAnswers(year, textId, answers, isSubmitted) {
       try {

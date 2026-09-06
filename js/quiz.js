@@ -507,18 +507,26 @@ ${synonymCard}
           `;
         });
 
-        // 3. Assemble Section 1 step HTML
+        // 3. Assemble Section 1 step HTML (persisting user's view and mask preferences)
+        const savedView = (window.StorageModule && window.StorageModule.getVocabViewPreference)
+          ? window.StorageModule.getVocabViewPreference()
+          : 'grid';
+        const savedMask = (window.StorageModule && window.StorageModule.getVocabMaskPreference)
+          ? window.StorageModule.getVocabMaskPreference()
+          : false;
+        const isTable = (savedView === 'table');
+
         const stepHtml = `
-          <div class="vocab-matrix-wrap" data-pid="${pid}">
+          <div class="vocab-matrix-wrap ${savedMask ? 'mask-active' : ''}" data-pid="${pid}">
             <!-- Top Control Bar -->
             <div class="vocab-matrix-toolbar">
               <div class="vocab-toolbar-left">
                 <button class="toolbar-btn vocab-mask-toggle" title="隐藏所有中文释义进行主动回忆自测，悬停或轻点单项可揭晓">
-                  <span class="mask-icon">🙈</span> <span class="mask-label">自测遮挡模式</span>
+                  <span class="mask-icon">${savedMask ? '👁️' : '🙈'}</span> <span class="mask-label">${savedMask ? '退出自测模式' : '自测遮挡模式'}</span>
                 </button>
                 <div class="vocab-view-toggle">
-                  <button class="toolbar-btn active" data-view="grid" title="📇 现代考研词卡网格视图">📇 卡片</button>
-                  <button class="toolbar-btn" data-view="table" title="📋 紧凑矩阵表格视图">📋 矩阵</button>
+                  <button class="toolbar-btn ${!isTable ? 'active' : ''}" data-view="grid" title="📇 现代考研词卡网格视图">📇 卡片</button>
+                  <button class="toolbar-btn ${isTable ? 'active' : ''}" data-view="table" title="📋 紧凑矩阵表格视图">📋 矩阵</button>
                 </div>
               </div>
               <div class="vocab-toolbar-right">
@@ -536,14 +544,14 @@ ${synonymCard}
             </div>
 
             <!-- View 1: Card Grid View -->
-            <div class="vocab-grid-view">
+            <div class="vocab-grid-view" style="${isTable ? 'display:none' : ''}">
               <div class="vocab-card-grid">
                 ${cardsHtml}
               </div>
             </div>
 
-            <!-- View 2: Compact Table View (hidden by default) -->
-            <div class="vocab-table-view" style="display:none">
+            <!-- View 2: Compact Table View -->
+            <div class="vocab-table-view" style="${isTable ? 'display:block' : 'display:none'}">
               <div class="table-wrap">
                 <table class="vocab-matrix-table">
                   <thead>

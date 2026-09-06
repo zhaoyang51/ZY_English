@@ -474,6 +474,42 @@
     }
   }
 
+  function applyVocabPreferences() {
+    const viewPref = (window.StorageModule && window.StorageModule.getVocabViewPreference)
+      ? window.StorageModule.getVocabViewPreference()
+      : 'grid';
+    const maskPref = (window.StorageModule && window.StorageModule.getVocabMaskPreference)
+      ? window.StorageModule.getVocabMaskPreference()
+      : false;
+
+    document.querySelectorAll('.vocab-matrix-wrap').forEach(wrap => {
+      // 1. View toggle buttons & views
+      wrap.querySelectorAll('.vocab-view-toggle button').forEach(b => {
+        b.classList.toggle('active', b.getAttribute('data-view') === viewPref);
+      });
+      const gridView = wrap.querySelector('.vocab-grid-view');
+      const tableView = wrap.querySelector('.vocab-table-view');
+      if (viewPref === 'table') {
+        if (gridView) gridView.style.display = 'none';
+        if (tableView) tableView.style.display = 'block';
+      } else {
+        if (gridView) gridView.style.display = 'block';
+        if (tableView) tableView.style.display = 'none';
+      }
+
+      // 2. Masking state & toggle button
+      wrap.classList.toggle('mask-active', maskPref);
+      const maskBtn = wrap.querySelector('.vocab-mask-toggle');
+      if (maskBtn) {
+        const icon = maskBtn.querySelector('.mask-icon');
+        const label = maskBtn.querySelector('.mask-label');
+        if (icon) icon.textContent = maskPref ? '👁️' : '🙈';
+        if (label) label.textContent = maskPref ? '退出自测模式' : '自测遮挡模式';
+      }
+    });
+  }
+  window.applyVocabPreferences = applyVocabPreferences;
+
   function renderCurrentStep(options = {}) {
     if (AppState.mode === 'practice' && AppState.practiceSubmode === 'mock') {
       window.QuizModule.renderMockExam(AppState.textData, 'workspaceContent');
@@ -482,6 +518,7 @@
 
     if (AppState.isFullMode) {
       window.QuizModule.renderFull(AppState.steps, 'workspaceContent');
+      applyVocabPreferences();
       if (options.forceTop) {
         smartScrollWorkspace(true);
       }
@@ -493,6 +530,9 @@
 
     window.QuizModule.renderStep(step, AppState.stepIndex, AppState.steps.length, 'workspaceContent', AppState.textData);
     window.ReaderModule.applySettings();
+
+    // Apply Section 1 Vocabulary preferences (persisting view type & mask state across steps)
+    applyVocabPreferences();
 
     // 智能就地感知滚动 (方案二)
     smartScrollWorkspace(options.forceTop);
@@ -1048,11 +1088,21 @@
           if (wrap) {
             wrap.classList.toggle('mask-active');
             const isMasked = wrap.classList.contains('mask-active');
-            const icon = maskBtn.querySelector('.mask-icon');
-            const label = maskBtn.querySelector('.mask-label');
-            if (icon) icon.textContent = isMasked ? '👁️' : '🙈';
-            if (label) label.textContent = isMasked ? '退出自测模式' : '自测遮挡模式';
-            showToast(isMasked ? '🙈 已开启自测遮挡：鼠标悬停或轻点卡片揭晓释义' : '👁️ 已退出自测遮挡模式');
+            if (window.StorageModule && window.StorageModule.setVocabMaskPreference) {
+              window.StorageModule.setVocabMaskPreference(isMasked);
+            }
+            // Synchronize all matrix wraps on page
+            document.querySelectorAll('.vocab-matrix-wrap').forEach(w => {
+              w.classList.toggle('mask-active', isMasked);
+              const mBtn = w.querySelector('.vocab-mask-toggle');
+              if (mBtn) {
+                const icon = mBtn.querySelector('.mask-icon');
+                const label = mBtn.querySelector('.mask-label');
+                if (icon) icon.textContent = isMasked ? '👁️' : '🙈';
+                if (label) label.textContent = isMasked ? '退出自测模式' : '自测遮挡模式';
+              }
+            });
+            showToast(isMasked ? '🙈 已开启自测遮挡并记忆偏好' : '👁️ 已退出自测遮挡模式并记忆偏好');
           }
           return;
         }
@@ -1072,13 +1122,17 @@
         if (viewBtn) {
           e.preventDefault();
           e.stopPropagation();
-          const view = viewBtn.getAttribute('data-view');
-          const wrap = viewBtn.closest('.vocab-matrix-wrap');
-          if (wrap) {
-            wrap.querySelectorAll('.vocab-view-toggle button').forEach(b => b.classList.remove('active'));
-            viewBtn.classList.add('active');
-            const gridView = wrap.querySelector('.vocab-grid-view');
-            const tableView = wrap.querySelector('.vocab-table-view');
+          const view = viewBtn.getAttribute('data-view') || 'grid';
+          if (window.StorageModule && window.StorageModule.setVocabViewPreference) {
+            window.StorageModule.setVocabViewPreference(view);
+          }
+          // Synchronize all matrix wraps on page
+          document.querySelectorAll('.vocab-matrix-wrap').forEach(w => {
+            w.querySelectorAll('.vocab-view-toggle button').forEach(b => {
+              b.classList.toggle('active', b.getAttribute('data-view') === view);
+            });
+            const gridView = w.querySelector('.vocab-grid-view');
+            const tableView = w.querySelector('.vocab-table-view');
             if (view === 'table') {
               if (gridView) gridView.style.display = 'none';
               if (tableView) tableView.style.display = 'block';
@@ -1086,7 +1140,8 @@
               if (gridView) gridView.style.display = 'block';
               if (tableView) tableView.style.display = 'none';
             }
-          }
+          });
+          showToast(view === 'table' ? '📋 已切换为矩阵表格并记忆偏好' : '📇 已切换为卡片视图并记忆偏好');
           return;
         }
 
