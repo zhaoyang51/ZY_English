@@ -936,6 +936,370 @@ body.theme-parchment .matrix-badge.badge-opt {
 }
 
 /* ==========================================================================
+   Section 1: Interactive Vocabulary Matrix & Study Card Grid
+   ========================================================================== */
+.vocab-matrix-wrap {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.vocab-matrix-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 10px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.vocab-toolbar-left,
+.vocab-toolbar-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.vocab-mask-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 700;
+  color: var(--mode-color);
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 5px 11px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.vocab-mask-toggle:hover {
+  border-color: var(--mode-color);
+  background: var(--surface);
+}
+
+.vocab-matrix-wrap.mask-active .vocab-mask-toggle {
+  background: rgba(245, 158, 11, 0.15);
+  color: #d97706;
+  border-color: #f59e0b;
+}
+
+body.theme-dark .vocab-matrix-wrap.mask-active .vocab-mask-toggle {
+  background: rgba(245, 158, 11, 0.25);
+  color: #fbbf24;
+  border-color: #f59e0b;
+}
+
+.vocab-view-toggle {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+
+.vocab-view-toggle .toolbar-btn {
+  border: none;
+  border-radius: 0;
+  padding: 5px 10px;
+  font-size: 0.85em;
+  background: var(--card-bg);
+  color: var(--muted);
+}
+
+.vocab-view-toggle .toolbar-btn.active {
+  background: var(--mode-color);
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.vocab-count-badge {
+  font-size: 0.84em;
+  color: var(--muted);
+  background: var(--card-bg);
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+}
+
+.vocab-filter-tabs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.vocab-filter-pill {
+  padding: 4px 12px;
+  font-size: 0.84em;
+  font-weight: 600;
+  color: var(--muted);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  user-select: none;
+}
+
+.vocab-filter-pill:hover {
+  color: var(--ink);
+  border-color: var(--mode-color);
+}
+
+.vocab-filter-pill.active {
+  color: #ffffff;
+  background: var(--mode-color);
+  border-color: var(--mode-color);
+  font-weight: 700;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+/* Vocab Card Grid */
+.vocab-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px;
+}
+
+.vocab-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: var(--shadow-sm);
+  position: relative;
+}
+
+.vocab-card:hover {
+  border-color: var(--mode-color);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.vocab-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.vocab-card-title {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.vocab-word-text {
+  font-size: 1.15em;
+  font-weight: 800;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+
+.vocab-pos-tag {
+  font-size: 0.82em;
+  font-style: italic;
+  color: var(--muted);
+  font-family: Georgia, serif;
+}
+
+.vocab-card-badge {
+  font-size: 0.72em;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.badge-phrase {
+  background: rgba(245, 158, 11, 0.14);
+  color: #b45309;
+  border: 1px solid rgba(245, 158, 11, 0.32);
+}
+
+body.theme-dark .badge-phrase {
+  background: rgba(245, 158, 11, 0.22);
+  color: #fcd34d;
+  border-color: rgba(245, 158, 11, 0.45);
+}
+
+body.theme-parchment .badge-phrase {
+  background: #fef3c7;
+  color: #92400e;
+  border-color: #fde68a;
+}
+
+.badge-core {
+  background: rgba(124, 58, 237, 0.1);
+  color: #6d28d9;
+  border: 1px solid rgba(124, 58, 237, 0.25);
+}
+
+body.theme-dark .badge-core {
+  background: rgba(139, 92, 246, 0.2);
+  color: #c4b5fd;
+  border-color: rgba(139, 92, 246, 0.4);
+}
+
+body.theme-parchment .badge-core {
+  background: #ede9fe;
+  color: #5b21b6;
+  border-color: #ddd6fe;
+}
+
+.vocab-card-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.vocab-icon-btn {
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  padding: 4px 6px;
+  cursor: pointer;
+  font-size: 1.05em;
+  line-height: 1;
+  transition: all 0.15s ease;
+  color: var(--muted);
+}
+
+.vocab-icon-btn:hover {
+  background: var(--card-bg);
+  border-color: var(--border);
+  color: var(--ink);
+  transform: scale(1.1);
+}
+
+.vocab-star-btn.bookmarked {
+  color: #f59e0b !important;
+  text-shadow: 0 0 3px rgba(245, 158, 11, 0.4);
+}
+
+.vocab-card-def {
+  font-size: 0.94em;
+  color: var(--ink);
+  line-height: 1.5;
+  margin: 4px 0 10px 0;
+  min-height: 24px;
+  padding: 5px 8px;
+  border-radius: var(--radius-sm);
+  background: rgba(0, 0, 0, 0.025);
+  transition: all 0.2s ease;
+}
+
+body.theme-dark .vocab-card-def {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+/* Active Recall Masking State */
+.vocab-matrix-wrap.mask-active .vocab-card-def {
+  filter: blur(6px);
+  opacity: 0.22;
+  user-select: none;
+  cursor: pointer;
+  background: var(--line);
+}
+
+.vocab-matrix-wrap.mask-active .vocab-card-def:hover,
+.vocab-matrix-wrap.mask-active .vocab-card-def.revealed,
+.vocab-matrix-wrap.mask-active .vocab-card:hover .vocab-card-def {
+  filter: none !important;
+  opacity: 1 !important;
+  user-select: text !important;
+  background: rgba(0, 0, 0, 0.025) !important;
+}
+
+body.theme-dark .vocab-matrix-wrap.mask-active .vocab-card:hover .vocab-card-def {
+  background: rgba(255, 255, 255, 0.03) !important;
+}
+
+/* Card Footer & Context Drawer */
+.vocab-card-footer {
+  margin-top: auto;
+  padding-top: 8px;
+  border-top: 1px dashed var(--line);
+}
+
+.vocab-context-btn {
+  font-size: 0.8em;
+  color: var(--mode-color);
+  background: none;
+  border: none;
+  padding: 2px 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 600;
+  transition: all 0.15s ease;
+}
+
+.vocab-context-btn:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
+.vocab-context-drawer {
+  margin-top: 8px;
+  padding: 8px 10px;
+  background: var(--card-bg);
+  border-radius: var(--radius-sm);
+  font-size: 0.86em;
+  border-left: 3px solid var(--mode-color);
+  animation: wsContentFadeIn 0.2s ease;
+}
+
+.vocab-context-en {
+  color: var(--ink);
+  line-height: 1.45;
+  margin-bottom: 4px;
+}
+
+.vocab-context-cn {
+  color: var(--muted);
+  font-size: 0.92em;
+}
+
+/* Compact Matrix Table Enhancements */
+.vocab-matrix-table td {
+  vertical-align: middle;
+}
+
+.vocab-matrix-table .col-word {
+  width: 28%;
+}
+
+.vocab-matrix-table .col-pos {
+  width: 10%;
+  font-style: italic;
+  color: var(--muted);
+}
+
+.vocab-matrix-table .col-def {
+  width: 48%;
+}
+
+.vocab-matrix-table .col-act {
+  width: 14%;
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* ==========================================================================
    Section 4: Discourse Architecture & Part B Migration Training Styles
    ========================================================================== */
 .discourse-container {

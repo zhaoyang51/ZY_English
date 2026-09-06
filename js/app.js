@@ -882,6 +882,47 @@
     });
   }
 
+  function showToast(msg) {
+    let toast = document.getElementById('copyToast');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.id = 'copyToast';
+      toast.className = 'copy-toast';
+      document.body.appendChild(toast);
+    }
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toast._timer);
+    toast._timer = setTimeout(() => {
+      toast.classList.remove('show');
+    }, 2000);
+  }
+  window.showToast = showToast;
+
+  function speakWord(w) {
+    if (w && 'speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+      const utter = new SpeechSynthesisUtterance(w);
+      utter.lang = 'en-US';
+      window.speechSynthesis.speak(utter);
+    }
+  }
+  window.speakWord = speakWord;
+
+  function highlightSentenceOnLeftPanel(sid) {
+    if (sid === null || sid === undefined || sid === '') return;
+    const sentEl = document.getElementById(`sent-${sid}`) || document.querySelector(`.exam-sent[data-sid="${sid}"]`);
+    if (sentEl) {
+      document.querySelectorAll('.exam-sent').forEach(el => el.classList.remove('locator-pulse'));
+      sentEl.classList.add('locator-pulse');
+      sentEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      if (window.innerWidth <= 900) {
+        showToast('📖 已在试卷原文中定位对应原句');
+      }
+    }
+  }
+  window.highlightSentenceOnLeftPanel = highlightSentenceOnLeftPanel;
+
   // Sentence and Vocab Interactions
   function setupSentenceAndVocabInteractions() {
     const examPaper = document.getElementById('examPaper');
@@ -954,6 +995,150 @@
         showVocabPopup(selection, rect.left + rect.width / 2, rect.top, '');
       }
     });
+
+    // Section 1: Interactive Vocabulary Matrix & Study Card Delegation
+    const workspaceContent = document.getElementById('workspaceContent');
+    if (workspaceContent) {
+      workspaceContent.addEventListener('click', e => {
+        // 1. TTS pronunciation
+        const ttsBtn = e.target.closest('.vocab-tts-btn');
+        if (ttsBtn) {
+          e.preventDefault();
+          e.stopPropagation();
+          const word = ttsBtn.getAttribute('data-word');
+          speakWord(word);
+          return;
+        }
+
+        // 2. Star/Bookmark toggle
+        const starBtn = e.target.closest('.vocab-star-btn');
+        if (starBtn) {
+          e.preventDefault();
+          e.stopPropagation();
+          const word = starBtn.getAttribute('data-word');
+          const def = starBtn.getAttribute('data-def') || '';
+          const sent = starBtn.getAttribute('data-sentence') || '';
+          const year = starBtn.getAttribute('data-year') || (AppState.year ? String(AppState.year) : '');
+          const textId = starBtn.getAttribute('data-textid') || (AppState.textId ? String(AppState.textId) : '');
+          if (window.StorageModule && window.StorageModule.toggleBookmark) {
+            const res = window.StorageModule.toggleBookmark(word, def, sent, year, textId);
+            const allStars = document.querySelectorAll(`.vocab-star-btn[data-word="${CSS.escape(word)}"]`);
+            allStars.forEach(btn => {
+              if (res.added) {
+                btn.classList.add('bookmarked');
+                btn.textContent = '★';
+                btn.title = '★ 已在生词本';
+              } else {
+                btn.classList.remove('bookmarked');
+                btn.textContent = '☆';
+                btn.title = '☆ 收藏至生词本';
+              }
+            });
+            showToast(res.added ? `⭐ 已加入生词本: ${word}` : `已移出生词本: ${word}`);
+          }
+          return;
+        }
+
+        // 3. Self-test Masking Toggle
+        const maskBtn = e.target.closest('.vocab-mask-toggle');
+        if (maskBtn) {
+          e.preventDefault();
+          e.stopPropagation();
+          const wrap = maskBtn.closest('.vocab-matrix-wrap');
+          if (wrap) {
+            wrap.classList.toggle('mask-active');
+            const isMasked = wrap.classList.contains('mask-active');
+            const icon = maskBtn.querySelector('.mask-icon');
+            const label = maskBtn.querySelector('.mask-label');
+            if (icon) icon.textContent = isMasked ? '👁️' : '🙈';
+            if (label) label.textContent = isMasked ? '退出自测模式' : '自测遮挡模式';
+            showToast(isMasked ? '🙈 已开启自测遮挡：鼠标悬停或轻点卡片揭晓释义' : '👁️ 已退出自测遮挡模式');
+          }
+          return;
+        }
+
+        // 4. Single Definition Click to Reveal/Mask in Self-test Mode
+        const defBox = e.target.closest('.vocab-card-def');
+        if (defBox) {
+          const wrap = defBox.closest('.vocab-matrix-wrap');
+          if (wrap && wrap.classList.contains('mask-active')) {
+            defBox.classList.toggle('revealed');
+          }
+          return;
+        }
+
+        // 5. View Toggle (Card Grid vs Compact Table)
+        const viewBtn = e.target.closest('.vocab-view-toggle button');
+        if (viewBtn) {
+          e.preventDefault();
+          e.stopPropagation();
+          const view = viewBtn.getAttribute('data-view');
+          const wrap = viewBtn.closest('.vocab-matrix-wrap');
+          if (wrap) {
+            wrap.querySelectorAll('.vocab-view-toggle button').forEach(b => b.classList.remove('active'));
+            viewBtn.classList.add('active');
+            const gridView = wrap.querySelector('.vocab-grid-view');
+            const tableView = wrap.querySelector('.vocab-table-view');
+            if (view === 'table') {
+              if (gridView) gridView.style.display = 'none';
+              if (tableView) tableView.style.display = 'block';
+            } else {
+              if (gridView) gridView.style.display = 'block';
+              if (tableView) tableView.style.display = 'none';
+            }
+          }
+          return;
+        }
+
+        // 6. Category Filter Tabs
+        const filterPill = e.target.closest('.vocab-filter-pill');
+        if (filterPill) {
+          e.preventDefault();
+          e.stopPropagation();
+          const filter = filterPill.getAttribute('data-filter');
+          const wrap = filterPill.closest('.vocab-matrix-wrap');
+          if (wrap) {
+            wrap.querySelectorAll('.vocab-filter-pill').forEach(p => p.classList.remove('active'));
+            filterPill.classList.add('active');
+            const cards = wrap.querySelectorAll('.vocab-card');
+            const rows = wrap.querySelectorAll('.vocab-table-row');
+            cards.forEach(c => {
+              const cat = c.getAttribute('data-cat');
+              c.style.display = (filter === 'all' || cat === filter) ? 'flex' : 'none';
+            });
+            rows.forEach(r => {
+              const cat = r.getAttribute('data-cat');
+              r.style.display = (filter === 'all' || cat === filter) ? '' : 'none';
+            });
+          }
+          return;
+        }
+
+        // 7. Context Drawer Toggle & Left Panel Highlighting
+        const ctxBtn = e.target.closest('.vocab-context-btn');
+        if (ctxBtn) {
+          e.preventDefault();
+          e.stopPropagation();
+          const drawer = ctxBtn.nextElementSibling;
+          if (drawer) {
+            const isHidden = drawer.style.display === 'none';
+            drawer.style.display = isHidden ? 'block' : 'none';
+          }
+          const sid = ctxBtn.getAttribute('data-sid');
+          highlightSentenceOnLeftPanel(sid);
+          return;
+        }
+
+        const ctxJumpBtn = e.target.closest('.vocab-context-jump-btn');
+        if (ctxJumpBtn) {
+          e.preventDefault();
+          e.stopPropagation();
+          const sid = ctxJumpBtn.getAttribute('data-sid');
+          highlightSentenceOnLeftPanel(sid);
+          return;
+        }
+      });
+    }
 
     // Global click listener to close popups and modals when clicking outside
     document.addEventListener('click', e => {
@@ -1069,7 +1254,10 @@
 
     popup.innerHTML = `
       <div class="vocab-header">
-        <span class="vocab-word">${word}</span>
+        <div style="display:flex;align-items:center;gap:6px">
+          <span class="vocab-word">${word}</span>
+          <button id="popupTtsBtn" class="vocab-icon-btn" title="🔊 朗读发音" style="font-size:0.95em;padding:2px 4px">🔊</button>
+        </div>
         <span class="vocab-pos">${info.pos}</span>
       </div>
       ${signpostHtml}
@@ -1085,6 +1273,9 @@
     popup.style.left = `${posX}px`;
     popup.style.top = `${posY}px`;
     popup.classList.add('show');
+
+    const popupTtsBtn = document.getElementById('popupTtsBtn');
+    if (popupTtsBtn) popupTtsBtn.onclick = () => speakWord(word);
 
     document.getElementById('closeVocabBtn').onclick = () => popup.classList.remove('show');
     document.getElementById('bookmarkBtn').onclick = () => {

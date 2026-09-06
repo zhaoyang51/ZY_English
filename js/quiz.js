@@ -65,7 +65,38 @@
       return `<span class="chunk-c${colorIdx}">${chunk.trim()}</span>`;
     }).join('<span class="chunk-slash"> / </span>');
   }
-  window.renderColoredChunks = renderColoredChunks;
+  function escapeHtmlAttr(str) {
+    if (!str) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;');
+  }
+
+  function highlightWordInSentence(sentText, word) {
+    if (!sentText || !word) return sentText || '';
+    try {
+      const cleanW = word.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const regex = new RegExp(`(\\b${cleanW}\\b)`, 'gi');
+      if (regex.test(sentText)) {
+        return sentText.replace(regex, '<strong class="vocab-highlight">$1</strong>');
+      }
+      const parts = word.trim().split(/\s+/).filter(p => p.length > 2);
+      if (parts.length > 1) {
+        let res = sentText;
+        parts.forEach(p => {
+          const re = new RegExp(`(\\b${p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b)`, 'gi');
+          res = res.replace(re, '<strong class="vocab-highlight">$1</strong>');
+        });
+        return res;
+      }
+      return sentText;
+    } catch(e) {
+      return sentText;
+    }
+  }
 
   window.QuizModule = {
     // 1. Mock Exam Mode: Render 5 Questions for blind testing
@@ -340,41 +371,202 @@ ${synonymCard}
         meta: { section: 0 }
       });
 
-      // Section 1: 第一鸟 · 词汇矩阵
+      // Section 1: 第一鸟 · 重点词汇库 (升级现代自适应网格 + 自测遮挡 + TTS + 生词本 + 考点筛选 + 真题语境)
+      const allSentences = textData.sentences || [];
+      const totalParas = paras.length;
+
       paras.forEach((p, pid) => {
-        let rowsHtml = '';
-        for (let i = 0; i < p.vocabulary.length; i += 3) {
-          const chunk = p.vocabulary.slice(i, i + 3);
-          let tds = '';
-          chunk.forEach(v => {
-            let badge = '';
-            let cleanDef = v.definition || '';
-            if (cleanDef.startsWith('【🎯解题正解】')) {
-              badge = '<span class="matrix-badge badge-correct">🎯解题正解</span> ';
-              cleanDef = cleanDef.replace('【🎯解题正解】', '').trim();
-            } else if (cleanDef.startsWith('【💡题项表达】')) {
-              badge = '<span class="matrix-badge badge-opt">💡题项考点</span> ';
-              cleanDef = cleanDef.replace('【💡题项表达】', '').trim();
-            }
-            const posHtml = v.pos ? `<span class="matrix-pos">${v.pos}</span> ` : '';
-            tds += `<td>${badge}<strong>${v.word}</strong></td><td>${posHtml}${cleanDef}</td>`;
-          });
-          while (chunk.length < 3) {
-            tds += '<td></td><td></td>';
-            chunk.push(null);
+        const paraSentences = allSentences.filter(s => s.pid === pid);
+        const vocabList = p.vocabulary || [];
+
+        let correctCount = 0;
+        let phraseCount = 0;
+        let optCount = 0;
+        let coreCount = 0;
+
+        // Pre-process vocabulary
+        const processedVocab = vocabList.map(v => {
+          let cleanDef = v.definition || '';
+          let cat = 'core';
+          let badgeHtml = '';
+
+          if (cleanDef.startsWith('【🎯解题正解】') || cleanDef.includes('🎯') || cleanDef.includes('解题正解')) {
+            cat = 'correct';
+            correctCount++;
+            badgeHtml = '<span class="vocab-card-badge badge-correct">🎯 命题正解</span>';
+            cleanDef = cleanDef.replace('【🎯解题正解】', '').trim();
+          } else if (cleanDef.startsWith('【💡题项表达】') || cleanDef.startsWith('【💡题项考点】') || cleanDef.includes('💡')) {
+            cat = 'opt';
+            optCount++;
+            badgeHtml = '<span class="vocab-card-badge badge-opt">💡 题项考点</span>';
+            cleanDef = cleanDef.replace('【💡题项表达】', '').replace('【💡题项考点】', '').trim();
+          } else if ((v.pos && v.pos.toLowerCase().includes('phr')) || v.word.trim().includes(' ')) {
+            cat = 'phrase';
+            phraseCount++;
+            badgeHtml = '<span class="vocab-card-badge badge-phrase">🔗 黄金词组</span>';
+          } else {
+            cat = 'core';
+            coreCount++;
+            badgeHtml = '<span class="vocab-card-badge badge-core">📚 篇章重点</span>';
           }
-          rowsHtml += `<tr>${tds}</tr>`;
-        }
+
+          // Context sentence lookup
+          const wLower = v.word.toLowerCase().trim();
+          let matchedSent = paraSentences.find(s => s.text && s.text.toLowerCase().includes(wLower));
+          if (!matchedSent && wLower.includes(' ')) {
+            const firstToken = wLower.split(' ')[0];
+            matchedSent = paraSentences.find(s => s.text && s.text.toLowerCase().includes(firstToken));
+          }
+          if (!matchedSent) {
+            matchedSent = allSentences.find(s => s.text && s.text.toLowerCase().includes(wLower));
+          }
+
+          const contextEn = matchedSent ? matchedSent.text : '';
+          const contextSid = matchedSent ? matchedSent.sid : undefined;
+          const contextCn = matchedSent ? (matchedSent.translation || '') : '';
+          const highlightedEn = contextEn ? highlightWordInSentence(contextEn, v.word) : '';
+
+          const isB = (window.StorageModule && window.StorageModule.isBookmarked) 
+            ? window.StorageModule.isBookmarked(v.word) 
+            : false;
+
+          return {
+            ...v,
+            cleanDef,
+            cat,
+            badgeHtml,
+            contextEn,
+            contextSid,
+            contextCn,
+            highlightedEn,
+            isB
+          };
+        });
+
+        // 1. Build Card Grid HTML
+        let cardsHtml = '';
+        processedVocab.forEach(item => {
+          const escWord = escapeHtmlAttr(item.word);
+          const escDef = escapeHtmlAttr(item.cleanDef);
+          const escSent = escapeHtmlAttr(item.contextEn);
+
+          cardsHtml += `
+            <div class="vocab-card" data-word="${escWord}" data-cat="${item.cat}">
+              <div class="vocab-card-header">
+                <div class="vocab-card-title">
+                  <span class="vocab-word-text">${item.word}</span>
+                  ${item.pos ? `<span class="vocab-pos-tag">${item.pos}</span>` : ''}
+                  ${item.badgeHtml}
+                </div>
+                <div class="vocab-card-actions">
+                  <button class="vocab-icon-btn vocab-tts-btn" data-word="${escWord}" title="🔊 朗读发音">🔊</button>
+                  <button class="vocab-icon-btn vocab-star-btn ${item.isB ? 'bookmarked' : ''}" data-word="${escWord}" data-def="${escDef}" data-sentence="${escSent}" data-year="${textData.year || ''}" data-textid="${textData.text_id || ''}" title="${item.isB ? '★ 已在生词本' : '☆ 收藏至生词本'}">${item.isB ? '★' : '☆'}</button>
+                </div>
+              </div>
+              <div class="vocab-card-def" title="自测模式下点击或悬停揭晓">
+                <span class="vocab-def-text">${item.cleanDef}</span>
+              </div>
+              ${item.contextEn ? `
+              <div class="vocab-card-footer">
+                <button class="vocab-context-btn" data-sid="${item.contextSid}" title="查看真题原句并联动左侧试卷">
+                  <span>📖</span> 考研真题语境
+                </button>
+                <div class="vocab-context-drawer" style="display:none">
+                  <div class="vocab-context-en">${item.highlightedEn}</div>
+                  ${item.contextCn ? `<div class="vocab-context-cn">${item.contextCn}</div>` : ''}
+                </div>
+              </div>` : ''}
+            </div>
+          `;
+        });
+
+        // 2. Build Compact Table Rows HTML
+        let tableRowsHtml = '';
+        processedVocab.forEach(item => {
+          const escWord = escapeHtmlAttr(item.word);
+          const escDef = escapeHtmlAttr(item.cleanDef);
+          const escSent = escapeHtmlAttr(item.contextEn);
+
+          tableRowsHtml += `
+            <tr class="vocab-table-row" data-cat="${item.cat}">
+              <td class="col-word">
+                <strong style="color:var(--ink)">${item.word}</strong> ${item.badgeHtml}
+              </td>
+              <td class="col-pos">${item.pos || ''}</td>
+              <td class="col-def">
+                <div class="vocab-card-def" style="margin:0" title="自测模式下点击或悬停揭晓">
+                  <span class="vocab-def-text">${item.cleanDef}</span>
+                </div>
+              </td>
+              <td class="col-act">
+                <button class="vocab-icon-btn vocab-tts-btn" data-word="${escWord}" title="🔊 朗读发音">🔊</button>
+                <button class="vocab-icon-btn vocab-star-btn ${item.isB ? 'bookmarked' : ''}" data-word="${escWord}" data-def="${escDef}" data-sentence="${escSent}" data-year="${textData.year || ''}" data-textid="${textData.text_id || ''}" title="${item.isB ? '★ 已在生词本' : '☆ 收藏至生词本'}">${item.isB ? '★' : '☆'}</button>
+                ${item.contextSid !== undefined ? `<button class="vocab-icon-btn vocab-context-jump-btn" data-sid="${item.contextSid}" title="📖 联动左侧原文定位">📖</button>` : ''}
+              </td>
+            </tr>
+          `;
+        });
+
+        // 3. Assemble Section 1 step HTML
+        const stepHtml = `
+          <div class="vocab-matrix-wrap" data-pid="${pid}">
+            <!-- Top Control Bar -->
+            <div class="vocab-matrix-toolbar">
+              <div class="vocab-toolbar-left">
+                <button class="toolbar-btn vocab-mask-toggle" title="隐藏所有中文释义进行主动回忆自测，悬停或轻点单项可揭晓">
+                  <span class="mask-icon">🙈</span> <span class="mask-label">自测遮挡模式</span>
+                </button>
+                <div class="vocab-view-toggle">
+                  <button class="toolbar-btn active" data-view="grid" title="📇 现代考研词卡网格视图">📇 卡片</button>
+                  <button class="toolbar-btn" data-view="table" title="📋 紧凑矩阵表格视图">📋 矩阵</button>
+                </div>
+              </div>
+              <div class="vocab-toolbar-right">
+                <span class="vocab-count-badge">第 <strong>${pid + 1}</strong> / ${totalParas} 段 · 共 <strong>${vocabList.length}</strong> 词</span>
+              </div>
+            </div>
+
+            <!-- Category Filter Tabs -->
+            <div class="vocab-filter-tabs">
+              <button class="vocab-filter-pill active" data-filter="all">全部 (${vocabList.length})</button>
+              ${correctCount > 0 ? `<button class="vocab-filter-pill" data-filter="correct">🎯 命题核心 (${correctCount})</button>` : ''}
+              ${phraseCount > 0 ? `<button class="vocab-filter-pill" data-filter="phrase">🔗 黄金词组 (${phraseCount})</button>` : ''}
+              ${optCount > 0 ? `<button class="vocab-filter-pill" data-filter="opt">💡 题项考点 (${optCount})</button>` : ''}
+              ${coreCount > 0 ? `<button class="vocab-filter-pill" data-filter="core">📚 篇章重点 (${coreCount})</button>` : ''}
+            </div>
+
+            <!-- View 1: Card Grid View -->
+            <div class="vocab-grid-view">
+              <div class="vocab-card-grid">
+                ${cardsHtml}
+              </div>
+            </div>
+
+            <!-- View 2: Compact Table View (hidden by default) -->
+            <div class="vocab-table-view" style="display:none">
+              <div class="table-wrap">
+                <table class="vocab-matrix-table">
+                  <thead>
+                    <tr>
+                      <th class="col-word">单词 / 核心短语</th>
+                      <th class="col-pos">词性</th>
+                      <th class="col-def">考研真题语境释义</th>
+                      <th class="col-act">学习操作</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${tableRowsHtml}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        `;
 
         steps.push({
           section: 1,
-          title: `第${pid+1}段 · 重点词汇矩阵`,
-          html: `<div class="table-wrap"><table>
-<thead>
-<tr><th>表达</th><th>词性＋意思</th><th>表达</th><th>词性＋意思</th><th>表达</th><th>词性＋意思</th></tr>
-</thead>
-<tbody>${rowsHtml}</tbody>
-</table></div>`,
+          title: `第${pid+1}段 · 重点词汇库`,
+          html: stepHtml,
           meta: { section: 1, para: pid }
         });
       });
