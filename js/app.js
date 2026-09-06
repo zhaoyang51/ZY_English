@@ -442,7 +442,7 @@
     });
   }
 
-  function smartScrollWorkspace(forceTop = false) {
+  function smartScrollWorkspace(forceTop = false, prevScrollTop = 0) {
     const rightScroll = document.getElementById('rightScroll');
     const wsContent = document.getElementById('workspaceContent');
 
@@ -452,12 +452,22 @@
         rightScroll.scrollTo({ top: 0, behavior: 'smooth' });
         return;
       }
-      const currentScrollTop = rightScroll.scrollTop;
-      // 智能感知阈值 (160px):
-      // 若视线已在上方 (scrollTop <= 160px)，保持滚动条不动，实现就地顺畅刷新，彻底消除跳跃感；
-      // 若用户已翻到下方查看深度解析 (scrollTop > 160px)，则平滑轻柔滑回新卡片顶端，确保新题干立即可视。
-      if (currentScrollTop > 160) {
+      // 方案 B：修复版智能视线感知（科学阈值 350px）
+      // 1. 浅层阅读/常态作答 (prevScrollTop <= 350px)：
+      //    浏览器在 DOM innerHTML 替换重绘时会自动清零 scrollTop。这里必须精准恢复先前滚动高度，
+      //    滚动条稳如磐石，工作台内容在眼光聚焦处原地就地无感切换，彻底根除跳跃与拉扯感！
+      // 2. 深层阅读/长文本研读 (prevScrollTop > 350px)：
+      //    说明用户已翻到下方查看长解析、同义替换表或题项深度辨析。
+      //    此时进入新题目，轻柔平滑（smooth）滑回新卡片顶部，确保新题干第一时间清晰呈现在视野中。
+      if (prevScrollTop > 350) {
         rightScroll.scrollTo({ top: 0, behavior: 'smooth' });
+      } else {
+        rightScroll.scrollTop = prevScrollTop;
+        requestAnimationFrame(() => {
+          if (rightScroll && !forceTop) {
+            rightScroll.scrollTop = prevScrollTop;
+          }
+        });
       }
     } else {
       // 移动端全屏流式滚动适配
@@ -466,10 +476,12 @@
         window.scrollTo({ top: 0, behavior: 'smooth' });
         return;
       }
-      const rect = wsContent.getBoundingClientRect();
-      if (rect.top < -160) {
+      if (prevScrollTop > 350) {
+        const rect = wsContent.getBoundingClientRect();
         const targetY = window.pageYOffset + rect.top - 50;
         window.scrollTo({ top: Math.max(0, targetY), behavior: 'smooth' });
+      } else {
+        window.scrollTo({ top: prevScrollTop, behavior: 'instant' });
       }
     }
   }
@@ -516,11 +528,17 @@
       return;
     }
 
+    // 在 DOM 树替换前精准捕获用户真实视线滚动高度（防止 innerHTML 赋值瞬间被浏览器内核强制重置为 0）
+    const rightScroll = document.getElementById('rightScroll');
+    const prevScrollTop = (window.innerWidth > 900 && rightScroll)
+      ? rightScroll.scrollTop
+      : (window.pageYOffset || document.documentElement.scrollTop || 0);
+
     if (AppState.isFullMode) {
       window.QuizModule.renderFull(AppState.steps, 'workspaceContent');
       applyVocabPreferences();
       if (options.forceTop) {
-        smartScrollWorkspace(true);
+        smartScrollWorkspace(true, 0);
       }
       return;
     }
@@ -534,8 +552,8 @@
     // Apply Section 1 Vocabulary preferences (persisting view type & mask state across steps)
     applyVocabPreferences();
 
-    // 智能就地感知滚动 (方案二)
-    smartScrollWorkspace(options.forceTop);
+    // 方案 B：智能视线阈值感知滚动（浅层原位不动，深层平滑回顶）
+    smartScrollWorkspace(options.forceTop, prevScrollTop);
 
     // Auto mark completed if reached last step
     if (AppState.stepIndex >= AppState.steps.length - 2) {
