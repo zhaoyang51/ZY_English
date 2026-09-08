@@ -1224,31 +1224,46 @@
     });
   }
 
+  function formatColoredChunks(slashedText) {
+    if (window.renderColoredChunks) {
+      return window.renderColoredChunks(slashedText);
+    }
+    if (!slashedText) return '';
+    const chunks = slashedText.split(/\s*[/／]\s*/).filter(c => c && c.trim().length > 0);
+    if (chunks.length === 0) return slashedText;
+    return chunks.map((chunk, i) => {
+      const colorIdx = i % 6;
+      return `<span class="chunk-c${colorIdx}">${chunk.trim()}</span>`;
+    }).join('<span class="chunk-slash"> / </span>');
+  }
+
   function showSyntaxModal(sent) {
     const overlay = document.getElementById('syntaxOverlay');
     const modal = document.getElementById('syntaxModal');
     const content = document.getElementById('syntaxModalContent');
-    if (!content) return;
+    if (!content || !sent) return;
 
-    const breakdownTags = sent.syntax.breakdown.map(b => {
-      let tagClass = 'tag-modifier';
-      if (b.type.includes('主干')) tagClass = 'tag-backbone';
-      if (b.type.includes('定语')) tagClass = 'tag-attributive';
-      if (b.type.includes('状语')) tagClass = 'tag-adverbial';
-      if (b.type.includes('名词')) tagClass = 'tag-noun';
-      if (b.type.includes('逻辑') || b.type.includes('考点')) tagClass = 'tag-logic';
-      if (b.type.includes('非谓语') || b.type.includes('特殊') || b.type.includes('同位语') || b.type.includes('修饰')) tagClass = 'tag-special';
-      return `<li style="margin-bottom:8px;font-family:var(--font-base)"><span class="syntax-tag ${tagClass}">[${b.type}]</span> <strong style="font-family:var(--font-base);color:var(--ink)">${b.content}</strong> — <span style="font-family:var(--font-base)">${b.explanation}</span></li>`;
-    }).join('');
+    const breakdownTags = (sent.syntax && sent.syntax.breakdown && Array.isArray(sent.syntax.breakdown))
+      ? sent.syntax.breakdown.map(b => {
+          let tagClass = 'tag-modifier';
+          if (b.type.includes('主干')) tagClass = 'tag-backbone';
+          if (b.type.includes('定语')) tagClass = 'tag-attributive';
+          if (b.type.includes('状语')) tagClass = 'tag-adverbial';
+          if (b.type.includes('名词')) tagClass = 'tag-noun';
+          if (b.type.includes('逻辑') || b.type.includes('考点')) tagClass = 'tag-logic';
+          if (b.type.includes('非谓语') || b.type.includes('特殊') || b.type.includes('同位语') || b.type.includes('修饰')) tagClass = 'tag-special';
+          return `<li style="margin-bottom:8px;font-family:var(--font-base)"><span class="syntax-tag ${tagClass}">[${b.type}]</span> <strong style="font-family:var(--font-base);color:var(--ink)">${b.content}</strong> — <span style="font-family:var(--font-base)">${b.explanation}</span></li>`;
+        }).join('')
+      : '';
 
     content.innerHTML = `
       <div style="font-size:1.15em;font-family:var(--font-base);line-height:1.7;color:var(--ink);margin-bottom:14px">
-        <strong>原句：</strong>${sent.text}
+        <strong>原句：</strong>${sent.text || ''}
       </div>
       <div style="margin-bottom:14px;background:rgba(37,99,235,0.06);padding:12px 16px;border-radius:8px;border-left:4px solid var(--accent);font-family:var(--font-base)">
         <p style="font-weight:700;color:var(--accent);margin-bottom:6px;font-family:var(--font-base)">【意群断句与速译】</p>
-        <p class="chunk-group" style="margin-bottom:6px">${window.renderColoredChunks ? window.renderColoredChunks(sent.slashed_text) : sent.slashed_text}</p>
-        <p class="chunk-group">${window.renderColoredChunks ? window.renderColoredChunks(sent.chunk_translation) : sent.chunk_translation}</p>
+        <p class="chunk-group" style="margin-bottom:6px">${formatColoredChunks(sent.slashed_text)}</p>
+        <p class="chunk-group">${formatColoredChunks(sent.chunk_translation)}</p>
       </div>
       <div style="margin-bottom:14px;background:var(--card-bg);padding:14px 16px;border-radius:8px;border:1px solid var(--border);font-family:var(--font-base)">
         <p style="font-weight:700;color:var(--mode-color);margin-bottom:10px;font-family:var(--font-base)">【主干识别与句法拆解】</p>
@@ -1256,7 +1271,7 @@
       </div>
       <div style="background:rgba(15,118,110,0.06);padding:12px 16px;border-radius:8px;border-left:4px solid #0f766e;font-family:var(--font-base)">
         <p style="font-weight:700;color:#0f766e;margin-bottom:6px;font-family:var(--font-base)">【满分参考译文与考点】</p>
-        <p style="font-size:1.05em;color:#0f766e;font-weight:600;font-family:var(--font-base);line-height:1.7">${sent.translation}</p>
+        <p style="font-size:1.05em;color:#0f766e;font-weight:600;font-family:var(--font-base);line-height:1.7">${sent.translation || ''}</p>
       </div>
     `;
 

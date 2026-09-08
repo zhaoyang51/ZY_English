@@ -65,6 +65,7 @@
       return `<span class="chunk-c${colorIdx}">${chunk.trim()}</span>`;
     }).join('<span class="chunk-slash"> / </span>');
   }
+  window.renderColoredChunks = renderColoredChunks;
   function escapeHtmlAttr(str) {
     if (!str) return '';
     return String(str)
@@ -99,6 +100,7 @@
   }
 
   window.QuizModule = {
+    renderColoredChunks,
     // 1. Mock Exam Mode: Render 5 Questions for blind testing
     renderMockExam(textData, containerId, onOptionSelect, onSubmit) {
       const container = document.getElementById(containerId || 'workspaceContent');
