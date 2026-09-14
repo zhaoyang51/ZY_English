@@ -546,7 +546,7 @@
     smartScrollWorkspace(options.forceTop, prevScrollTop);
 
     // Auto mark completed if reached last step
-    if (AppState.mode === 'practice' && AppState.stepIndex >= AppState.steps.length - 2) {
+    if (AppState.stepIndex >= AppState.steps.length - 2) {
       window.StorageModule.markTextCompleted(AppState.year, AppState.textId);
     }
   }
@@ -1188,7 +1188,7 @@
             drawer.style.display = isHidden ? 'block' : 'none';
           }
           const sid = ctxBtn.getAttribute('data-sid');
-          if (sid !== null) highlightSentenceOnLeftPanel(sid);
+          highlightSentenceOnLeftPanel(sid);
           return;
         }
 
@@ -1638,7 +1638,7 @@
 
   function setupKeyboardShortcuts() {
     window.addEventListener('keydown', e => {
-      if (e.target.closest('input, select, textarea, button, summary, [contenteditable="true"]')) return;
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
       if (AppState.mode === 'vocab') return;
 
       if (e.key === 'ArrowRight' || e.key === ' ') {
