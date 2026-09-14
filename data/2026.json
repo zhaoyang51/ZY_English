@@ -955,7 +955,8 @@
               "source": "dusty shelves, old-fashioned librarians",
               "target": "dusty and old-fashioned"
             }
-          ]
+          ],
+          "qid": 21
         },
         {
           "stem": "The independent review commissioned by the culture department revealed that modern libraries are ________.",
@@ -1016,7 +1017,8 @@
               "source": "indispensable engines of community empowerment",
               "target": "indispensable engines that empower local communities"
             }
-          ]
+          ],
+          "qid": 22
         },
         {
           "stem": "Which of the following services is mentioned as being provided by modern library branches?",
@@ -1077,7 +1079,8 @@
               "source": "guidance on patents and intellectual property",
               "target": "Guidance on intellectual property and patent protection"
             }
-          ]
+          ],
+          "qid": 23
         },
         {
           "stem": "Modern public libraries justify public investment primarily because they ________.",
@@ -1142,7 +1145,8 @@
               "source": "cultivate social cohesion",
               "target": "nurture social cohesion"
             }
-          ]
+          ],
+          "qid": 24
         },
         {
           "stem": "The author's main purpose in writing the text is to ________.",
@@ -1207,7 +1211,8 @@
               "source": "central and regional authorities must recognize",
               "target": "urge authorities"
             }
-          ]
+          ],
+          "qid": 25
         }
       ],
       "macro_logic": {
@@ -1381,7 +1386,9 @@
         }
       ],
       "text_id": 1,
-      "q_range": "21-25"
+      "q_range": "21-25",
+      "year": 2026,
+      "title": "2026 年考研英语（二）阅读理解 Text 1"
     },
     {
       "paragraphs": [
@@ -2236,7 +2243,8 @@
               "source": "reducing the sense of being isolated",
               "target": "reduces feelings of isolation"
             }
-          ]
+          ],
+          "qid": 26
         },
         {
           "stem": "What major risk regarding commercial AI platforms is highlighted in Paragraph 2?",
@@ -2301,7 +2309,8 @@
               "source": "potentially exposed to security vulnerabilities",
               "target": "expose sensitive user inputs"
             }
-          ]
+          ],
+          "qid": 27
         },
         {
           "stem": "The author mentions multinational investment banks in Paragraph 3 to show that ________.",
@@ -2366,7 +2375,8 @@
               "source": "largely backfired",
               "target": "prove counterproductive"
             }
-          ]
+          ],
+          "qid": 28
         },
         {
           "stem": "Progressive companies are addressing the AI data privacy dilemma by ________.",
@@ -2431,7 +2441,8 @@
               "source": "procuring enterprise-grade AI licenses",
               "target": "and enterprise licenses"
             }
-          ]
+          ],
+          "qid": 29
         },
         {
           "stem": "Which of the following best summarizes the main message of the text?",
@@ -2496,7 +2507,8 @@
               "source": "establish robust privacy safeguards without exposing secrets",
               "target": "balanced with robust data privacy safeguards"
             }
-          ]
+          ],
+          "qid": 30
         }
       ],
       "macro_logic": {
@@ -2670,7 +2682,9 @@
         }
       ],
       "text_id": 2,
-      "q_range": "26-30"
+      "q_range": "26-30",
+      "year": 2026,
+      "title": "2026 年考研英语（二）阅读理解 Text 2"
     },
     {
       "paragraphs": [
@@ -3567,7 +3581,8 @@
               "source": "preferred means of modern travel... for business and leisure journeys",
               "target": "the preferred means of travel for business and leisure journeys"
             }
-          ]
+          ],
+          "qid": 31
         },
         {
           "stem": "According to Paragraph 2, transit analysts believe that frequent rail delays stem mainly from ________.",
@@ -3632,7 +3647,8 @@
               "source": "saddled with obsolete infrastructure",
               "target": "obsolete infrastructure resulting from..."
             }
-          ]
+          ],
+          "qid": 32
         },
         {
           "stem": "The phrase 'a minor hiccup' (Paragraph 3) is used to illustrate that ________.",
@@ -3697,7 +3713,8 @@
               "source": "a minor hiccup... triggers inevitable chain reaction",
               "target": "a small localized disruption can paralyze the whole network"
             }
-          ]
+          ],
+          "qid": 33
         },
         {
           "stem": "What is identified in Paragraph 4 as a major obstacle to schedule recovery?",
@@ -3762,7 +3779,8 @@
               "source": "force high-speed, commuter, and freight to share identical tracks",
               "target": "high-speed trains share tracks with freight and local trains"
             }
-          ]
+          ],
+          "qid": 34
         },
         {
           "stem": "To achieve genuine and lasting improvement in passenger rail, the author suggests that policymakers should ________.",
@@ -3827,7 +3845,8 @@
               "source": "expanding network capacity",
               "target": "expanding network capacity"
             }
-          ]
+          ],
+          "qid": 35
         }
       ],
       "macro_logic": {
@@ -4001,7 +4020,9 @@
         }
       ],
       "text_id": 3,
-      "q_range": "31-35"
+      "q_range": "31-35",
+      "year": 2026,
+      "title": "2026 年考研英语（二）阅读理解 Text 3"
     },
     {
       "paragraphs": [
@@ -4933,7 +4954,8 @@
               "source": "soaring financial burden required to stage and produce",
               "target": "production and operational costs have become financially insurmountable"
             }
-          ]
+          ],
+          "qid": 36
         },
         {
           "stem": "The author mentions portable fencing, security guards, and insurance premiums in Paragraph 2 to illustrate ________.",
@@ -4998,7 +5020,8 @@
               "source": "organizers face... balancing books impossibility",
               "target": "burden event organizers"
             }
-          ]
+          ],
+          "qid": 37
         },
         {
           "stem": "Urban economists argue in Paragraph 3 that community street festivals ________.",
@@ -5063,7 +5086,8 @@
               "source": "drive intense foot traffic... boosting small businesses",
               "target": "stimulate local commerce and foot traffic"
             }
-          ]
+          ],
+          "qid": 38
         },
         {
           "stem": "To prevent further cancellations, festival organizers are primarily ________.",
@@ -5128,7 +5152,8 @@
               "source": "cultivating commercial sponsorships... cover shortfalls",
               "target": "and corporate sponsorships to bridge deficits"
             }
-          ]
+          ],
+          "qid": 39
         },
         {
           "stem": "In the author's view, sustaining grassroots neighborhood street festivals is essential because they ________.",
@@ -5193,49 +5218,50 @@
               "source": "preserves social fabric... civic anchors",
               "target": "preserve authentic neighborhood community cohesion"
             }
-          ]
+          ],
+          "qid": 40
         }
       ],
       "macro_logic": {
-        "genre": "社区文化与地方公共治理评论",
-        "discourse_model": "民间街头狂欢退场 ➔ 安保与保洁费用暴涨成因 ➔ 商业赞助铜臭变质 ➔ 基层草根社群活力瓦解 ➔ 公共空间豁免与共治破局",
-        "main_theme": "本文聚焦多地历史悠久的传统社区街头文化庆典因难以承受激增的警务安保、封闭交通管制与环卫保洁费用而被迫相继停办的文化衰退危机；深刻剖析了官僚安保标准膨胀与商业赞助侵蚀民间纯粹性的深层矛盾；呼吁市政管理部门建立公共活动规费豁免政策与多元民意共治机制，呵护弥足珍贵的草根文化血脉与社会邻里温度。",
+        "genre": "社区节庆与公共支持的评论",
+        "discourse_model": "节庆因费用停办 → 成本构成 → 政策与价值评价的矛盾 → 资助和赞助等应对 → 社会价值与公共职责",
+        "main_theme": "文章讨论社区节庆因安保、保险等费用上涨而面临停办，说明其经济与社会价值，介绍主办方争取财政支持和商业赞助的做法，并主张城市给予持续公共支持。本文并未把商业赞助说成破坏节庆的原因。",
         "paragraph_functions": [
           {
             "pid": 0,
-            "role": "【起】百年社区庆典相继落幕的寒潮",
-            "core_point": "曾经洋溢着邻里温情、代代相传的非营利街头狂欢节与嘉年华，近年来纷纷宣布因不堪重负而永久停办，引发全社会对社区公共文化消亡的叹惋。",
-            "cohesive_devices": "以令人痛惜的庆典停办新闻破题，为全篇奠定凝重的人文关切基调。"
+            "role": "提出节庆停办问题",
+            "core_point": "受欢迎的社区节庆因举办费用不断攀升而被取消。",
+            "cohesive_devices": "由传统价值转向当下危机，核心原因是 financial burden。"
           },
           {
             "pid": 1,
-            "role": "【承】天价安保账单压垮草根志愿者组织",
-            "core_point": "地方当局强行转嫁警力部署、道路封闭审批与商业级保险费用，动辄数十万英镑的刚性支出远远超出了由志愿者自发义卖募资的承受极限。",
-            "cohesive_devices": "从感叹停办直切核心硬伤——暴涨的官方合规与安全防范规费。"
+            "role": "拆分成本上涨的来源",
+            "core_point": "人群管理、安保、封路、保险及舞台和保洁费用上升，使依靠捐款和摊位费的非营利组织难以平衡收支。",
+            "cohesive_devices": "Furthermore 补充保险及其他成本；段末总结主办方的财政困境。"
           },
           {
             "pid": 2,
-            "role": "【转】引入商业赞助的'饮鸩止渴'异化",
-            "core_point": "为填补资金窟窿，部分庆典不得不引入跨国企业与商业品牌赞助，但铺天盖地的广告营销与高昂门票迅速驱逐了本土手艺人，彻底腐蚀了庆典的社区灵魂。",
-            "cohesive_devices": "辩证分析市场化自救尝试的自我异化，证明'纯商业化并非良药'。"
+            "role": "揭示评价与收费政策的矛盾",
+            "core_point": "政府称节庆是文化资产，却按需自负盈亏的商业活动收费；经济学家指出节庆会增加客流、支持商户并扩大税基。",
+            "cohesive_devices": "While 对照赞美与收费；Yet 引出经济学家对社区经济贡献的解释。"
           },
           {
             "pid": 3,
-            "role": "【转】邻里疏离与公民社会资本流失",
-            "core_point": "街头庆典不仅是一场娱乐，更是打破阶层隔阂、消除现代人孤独感的至关重要的社会黏合剂，它的消亡正在加剧社区原子化与冷漠疏离。",
-            "cohesive_devices": "从'经济收支账'上升到'社会学资本'与现代人孤独感的高度。"
+            "role": "列举主办方的应对举措",
+            "core_point": "组织者争取政府应急资助、减免许可费及安全补贴，同时寻求商业赞助，以保持开放、免门票的节庆性质。",
+            "cohesive_devices": "To prevent 引出目的；Concurrently 表明财政支持与商业赞助同时推进。"
           },
           {
             "pid": 4,
-            "role": "【合】公共空间规费减免与社区共治新生",
-            "core_point": "市长与议会应将非营利社区庆典视同公共文化财富，减免惩罚性安保行政收费，提供小额无息过桥基金，让公共街道重归广大人民。",
-            "cohesive_devices": "以政策减负倡议与公共空间主权回归作结，兼具温情与制度可行性。"
+            "role": "回到社会价值并提出主张",
+            "core_point": "节庆为不同背景的居民建立真实联系；作者主张城市持续支持社区文化，把它视为公共职责。",
+            "cohesive_devices": "Ultimately 总结社会价值；not a luxury ... but a fundamental public duty 明确作者立场。"
           }
         ],
         "part_b_training": {
           "type": "heading_matching",
-          "title": "英语二新题型（小标题对应）全真模拟演练",
-          "instruction": "阅读 Text 4 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "title": "基于本文的小标题匹配练习",
+          "instruction": "为五个段落选择覆盖本段主要内容的标题，另有两个干扰项。",
           "target_paragraphs": [
             {
               "pid": 0,
@@ -5266,108 +5292,92 @@
           "options": [
             {
               "key": "A",
-              "heading": "Exorbitant Policing and Regulatory Fees Crush Volunteer Organizers",
+              "heading": "Rising costs put festival budgets under pressure",
               "is_distractor": false,
-              "trap_analysis": "【🎯正确选项】准确对位第2段警务、封路与合规费用暴涨压垮志愿者协会筹款承受力的现实。"
+              "trap_analysis": "第 2 段具体列举安保、保险、设施与保洁成本，并说明收支失衡。"
             },
             {
               "key": "B",
-              "heading": "Total Ban on All Outdoor Cultural Gatherings by Police Authorities",
+              "heading": "Commercial sponsorship destroys local festivals",
               "is_distractor": true,
-              "trap_analysis": "【❌干扰陷阱：夸大曲解】警方是收取高额安保费而非全面下令禁止户外文化集会。"
+              "trap_analysis": "第 4 段把商业赞助作为维持免费开放节庆的办法，原文没有作这种负面判断。"
             },
             {
               "key": "C",
-              "heading": "Reclaiming the Streets: Fee Waivers and Public Co-Governance",
+              "heading": "Community connections deserve sustained public support",
               "is_distractor": false,
-              "trap_analysis": "【🎯正确选项】精准归纳末段主旨：官方减免行政规费、推进社区共治让街道重归人民。"
+              "trap_analysis": "第 5 段论证节庆的人际联结价值，并提出持续公共支持。"
             },
             {
               "key": "D",
-              "heading": "Cherished Historic Street Fairs Fade from Urban Calendars",
+              "heading": "Popular neighborhood festivals face cancellation",
               "is_distractor": false,
-              "trap_analysis": "【🎯正确选项】高度概括第1段代代相传的历史悠久街头节庆纷纷落幕退场的寒潮悲情。"
+              "trap_analysis": "第 1 段先介绍受欢迎的节庆，再指出费用使其被取消。"
             },
             {
               "key": "E",
-              "heading": "Complete Replacement of Grassroots Parades with Digital VR Streams",
+              "heading": "Residents no longer want neighborhood gatherings",
               "is_distractor": true,
-              "trap_analysis": "【❌干扰陷阱：无中生有】文中探讨真实的物理邻里集会，从未提及VR虚拟直播取代游行。"
+              "trap_analysis": "首段说节庆受欢迎、吸引许多人，不能将停办归因于居民不再需要。"
             },
             {
               "key": "F",
-              "heading": "Commercial Sponsorship: A Faustian Bargain that Dilutes Identity",
+              "heading": "A gap between public value and municipal charges",
               "is_distractor": false,
-              "trap_analysis": "【🎯正确选项】生动概括第3段引入大财团商业赞助导致铜臭侵蚀、社区灵魂与手艺人被驱逐的浮士德交易。"
+              "trap_analysis": "第 3 段对照文化和经济价值与政府收费、自负盈亏要求之间的矛盾。"
             },
             {
               "key": "G",
-              "heading": "The Loss of Social Glue Fuels Neighborhood Alienation",
+              "heading": "Organizers seek subsidies, fee relief and sponsorship",
               "is_distractor": false,
-              "trap_analysis": "【🎯正确选项】精辟提炼第4段节庆消亡破坏社会凝聚纽带、加剧现代都市人冷漠原子化的社会学痛点。"
+              "trap_analysis": "第 4 段列出政府资助、规费减免和商业赞助三类应对。"
             }
           ],
-          "skills_breakdown": "【小标题突破心法】：识别富有修辞色彩的高级论点（如 Faustian Bargain / Social Glue / Exorbitant Fees）；敏锐排除极端专断选项（如全面禁止集会、VR取代游行）。"
+          "skills_breakdown": "用段落的中心动作匹配标题；注意第 3 段的价值评价、第 4 段的应对、第 5 段的公共支持主张属于不同功能。"
         }
       },
       "writing_corpus": [
         {
-          "category": "图表与趋势描述",
-          "expression": "witness a precipitous plunge from ... to ...",
-          "syntactic_type": "动宾搭配",
-          "translation": "见证了从……到……的悬崖式雪崩骤降",
-          "application_sentence": "As outlined in the chart, public participation in local voluntary organizations has witnessed a precipitous plunge over the past two decades.",
-          "sentence_cn": "正如该图表所清晰勾勒的那样，基层志愿服务组织的公众参与率在过去二十年间见证了悬崖式雪崩骤降。",
-          "template_slot": "As outlined in the chart, [某项公众参与度/指标] has witnessed a precipitous plunge from [高点] to [低点]."
+          "category": "价值论证",
+          "expression": "far more than ...",
+          "translation": "远不只是……",
+          "template_slot": "[事物] is / are far more than [表面功能].",
+          "application_sentence": "A public library is far more than a place to borrow books.",
+          "sentence_cn": "公共图书馆远不只是借书的地方。",
+          "usage_note": "后文需要说明额外价值，不能只停留在赞美；主语是复数时使用 are。"
         },
         {
-          "category": "现象深层归因",
-          "expression": "render ... financially unviable for ...",
-          "syntactic_type": "复合使役动宾结构",
-          "translation": "在财务上使得……对于……而言彻底难以为继",
-          "application_sentence": "Escalating compliance tariffs and commercial insurance fees render annual cultural events financially unviable for non-profit neighborhood collectives.",
-          "sentence_cn": "飙升的合规规费与商业保险支出，在财务收支上使得传统的年度文化节庆对于非营利性的社区组织而言彻底难以为继。",
-          "template_slot": "[暴涨的成本/行政壁垒] renders [美好公益项目] financially unviable for [非营利组织/普通大众]."
+          "category": "问题与对策",
+          "expression": "waive ... fees",
+          "translation": "免除……费用",
+          "template_slot": "[机构] could waive [某项] fees to [目的].",
+          "application_sentence": "The university could waive registration fees to make the workshop more accessible.",
+          "sentence_cn": "学校可以免除报名费，让更多人有机会参加工作坊。",
+          "usage_note": "waive 后接费用或要求；could 表示可考虑的建议，不把尚未实施的政策写成事实。"
         },
         {
           "category": "逻辑衔接与转折",
-          "expression": "Far from being a dispensable extravagance, ... is ...",
-          "syntactic_type": "倒置强转折句型",
-          "translation": "绝非一种可有可无的奢侈消费，……其实是……",
-          "application_sentence": "Far from being a dispensable extravagance, vibrant community assembly is the vital social glue that wards off urban alienation.",
-          "sentence_cn": "绝非一种可有可无的铺张奢华消费，富有活力的社区聚会恰恰是抵御现代都市冷漠疏离不可或缺的社会纽带与凝聚黏合剂。",
-          "template_slot": "Far from being a dispensable extravagance, [某种精神文化/公共事业] is the vital social glue that [达成的根本社会价值]."
+          "expression": "without compromising ...",
+          "translation": "在不损害……的前提下",
+          "template_slot": "[主体] can [行动] without compromising [需要保持的价值].",
+          "application_sentence": "Community groups can seek sponsorship without compromising their independence.",
+          "sentence_cn": "社区团体可以在保持独立性的前提下寻求赞助。",
+          "usage_note": "without 后用名词或动名词；要说明如何兼顾两个目标，不能只作保证。"
         },
         {
-          "category": "提分句法骨架",
-          "expression": "Should ... fail to ..., ... would irrevocably ...",
-          "syntactic_type": "虚拟语气省略if的条件倒装",
-          "translation": "倘若……未能切实……，……必将无可挽回地……",
-          "application_sentence": "Should municipal authorities fail to alleviate bureaucratic levies, grassroots cultural heritages would irrevocably vanish from our urban tapestry.",
-          "sentence_cn": "倘若市政管理部门未能切实减免沉重的官僚规费负担，弥足珍贵的草根文化血脉必将无可挽回地从我们丰富多元的城市画卷中彻底湮灭。",
-          "template_slot": "Should [决策主体] fail to [采取有力纠偏扶持措施], [珍贵事物] would irrevocably [遭受毁灭性结局]."
-        },
-        {
-          "category": "提分句法骨架",
-          "expression": "What is at stake is not simply ..., but ..., which ...",
-          "syntactic_type": "主语从句与非限制性定语从句",
-          "translation": "此时此刻关乎核心利益的绝非仅仅是……，而是那……，而这……",
-          "application_sentence": "What is at stake is not simply a weekend of communal festivity, but the living soul of neighborhood solidarity, which money can never replace.",
-          "sentence_cn": "此时此刻关乎核心利益的绝非仅仅是一个周末的狂欢放松，而是那金钱无论如何都买不到的、生机勃勃的邻里温情与社会团结之魂。",
-          "template_slot": "What is at stake is not simply [表面物质/活动], but [深层精神/制度内核], which [不可替代的价值阐释]."
-        },
-        {
-          "category": "应对举措与升华",
-          "expression": "institute fee waivers to nurture grassroots civic vitality",
-          "syntactic_type": "公共政策动宾搭配",
-          "translation": "推行行政规费减免豁免，以悉心呵护民间的基层公民活力",
-          "application_sentence": "Local councils should institute fee waivers to nurture grassroots civic vitality, ensuring that public thoroughfares belong to the people.",
-          "sentence_cn": "地方议会应当雷厉风行地推行行政规费减免豁免，以悉心呵护民间的基层公民活力，切实确保公共街道与广场真正归属于人民。",
-          "template_slot": "[政府部门] should institute fee waivers to nurture grassroots civic vitality, ensuring that [公共资源] genuinely belongs to [广大人民]."
+          "category": "公共服务与价值",
+          "expression": "forge ... connections",
+          "translation": "建立……联系",
+          "template_slot": "[活动] helps [人群] forge [类型] connections.",
+          "application_sentence": "Voluntary work helps students forge connections with local residents.",
+          "sentence_cn": "志愿服务帮助学生与当地居民建立联系。",
+          "usage_note": "help sb (to) do；forge 与 connections / links / ties 搭配。说明联系对象比堆叠形容词更清楚。"
         }
       ],
       "text_id": 4,
-      "q_range": "36-40"
+      "q_range": "36-40",
+      "year": 2026,
+      "title": "2026 年考研英语（二）阅读理解 Text 4"
     }
   ]
 }

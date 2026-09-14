@@ -2242,7 +2242,8 @@
               "source": "grown profoundly out of date",
               "target": "has become unsuited to current demands"
             }
-          ]
+          ],
+          "qid": 26
         },
         {
           "stem": "Past reform strategies aimed at diverting care to community settings have ________.",
@@ -2303,7 +2304,8 @@
               "source": "failed to deliver meaningful transformation",
               "target": "failed to achieve meaningful and lasting transformation"
             }
-          ]
+          ],
+          "qid": 27
         },
         {
           "stem": "The think tank programme entitled 'Reimagining the NHS' argues that ________.",
@@ -2364,7 +2366,8 @@
               "source": "retaining an entrenched hospital-centric bias",
               "target": "retained an entrenched hospital-centric bias"
             }
-          ]
+          ],
+          "qid": 28
         },
         {
           "stem": "Obesity and diabetes are mentioned in Paragraph 4 to illustrate ________.",
@@ -2429,7 +2432,8 @@
               "source": "chronic ailments",
               "target": "chronic ailments"
             }
-          ]
+          ],
+          "qid": 29
         },
         {
           "stem": "To achieve effective long-term reform, the author suggests that the NHS should ________.",
@@ -2494,7 +2498,8 @@
               "source": "devolving clinical functions to integrated community teams",
               "target": "toward preventative community care"
             }
-          ]
+          ],
+          "qid": 30
         }
       ],
       "macro_logic": {
@@ -2669,7 +2674,8 @@
       ],
       "text_id": 2,
       "title": "Text 2: Reimagining the NHS - From Hospital-Centric Care to Community Prevention",
-      "q_range": "26-30"
+      "q_range": "26-30",
+      "year": 2025
     },
     {
       "paragraphs": [
@@ -3657,7 +3663,8 @@
               "source": "treat heatstroke",
               "target": "treat heat-related conditions"
             }
-          ]
+          ],
+          "qid": 31
         },
         {
           "stem": "What is identified in Paragraph 2 as a major flaw of current heat warning systems?",
@@ -3722,7 +3729,8 @@
               "source": "amplifying bodily strain",
               "target": "amplifying effect of humidity on bodily strain"
             }
-          ]
+          ],
+          "qid": 32
         },
         {
           "stem": "Paragraph 3 indicates that residents of informal dwellings are more vulnerable because ________.",
@@ -3787,7 +3795,8 @@
               "source": "neglected shade",
               "target": "neglected shade"
             }
-          ]
+          ],
+          "qid": 33
         },
         {
           "stem": "In Paragraph 4, the author emphasizes that urban heat policies should ________.",
@@ -3852,7 +3861,8 @@
               "source": "retrofitting informal dwellings",
               "target": "architectural retrofits"
             }
-          ]
+          ],
+          "qid": 34
         },
         {
           "stem": "Which of the following would be the best title for the text?",
@@ -3917,7 +3927,8 @@
               "source": "proactive infrastructure adaptation... systemic threat",
               "target": "Systemic Climate Adaptation"
             }
-          ]
+          ],
+          "qid": 35
         }
       ],
       "macro_logic": {
@@ -4092,7 +4103,8 @@
       ],
       "text_id": 3,
       "title": "Text 3: Urban Extreme Heat Adaptation - Beyond Hospital Wards to Infrastructure Resilience",
-      "q_range": "31-35"
+      "q_range": "31-35",
+      "year": 2025
     },
     {
       "paragraphs": [
@@ -5194,7 +5206,8 @@
               "source": "formal concrete walkways",
               "target": "formal walkways"
             }
-          ]
+          ],
+          "qid": 36
         },
         {
           "stem": "Conventional urban planners traditionally viewed desire paths with hostility because they ________.",
@@ -5259,7 +5272,8 @@
               "source": "unsightly signs... across designed landscapes",
               "target": "disrupted the visual symmetry"
             }
-          ]
+          ],
+          "qid": 37
         },
         {
           "stem": "The redesign of the Oval at Ohio State University is mentioned to demonstrate that planners can ________.",
@@ -5320,7 +5334,8 @@
               "source": "pave over the dirt tracks with permanent cobblestones",
               "target": "pave permanent walkways along organically established footpaths"
             }
-          ]
+          ],
+          "qid": 38
         },
         {
           "stem": "The example of Broadway in New York illustrates that ________.",
@@ -5381,7 +5396,8 @@
               "source": "organic trails outlived rigid geometric grids",
               "target": "organic trails can endure and bisect rigid planned grids"
             }
-          ]
+          ],
+          "qid": 39
         },
         {
           "stem": "What is the author's primary attitude toward incorporating desire paths into urban design?",
@@ -5442,7 +5458,8 @@
               "source": "humbly follow in its footprints... living ecosystems",
               "target": "Supportive of their human-centered organic value"
             }
-          ]
+          ],
+          "qid": 40
         }
       ],
       "macro_logic": {
@@ -5617,7 +5634,8 @@
       ],
       "text_id": 4,
       "title": "Text 4: Desire Paths - Organic Pedestrian Movement vs Top-Down Urban Planning",
-      "q_range": "36-40"
+      "q_range": "36-40",
+      "year": 2025
     }
   ]
 }

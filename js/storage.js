@@ -17,6 +17,29 @@
   const MOCK_ANSWERS_KEY = 'KAOYAN_MOCK_ANSWERS_V1';
 
   window.StorageModule = {
+    // Review work is stored per passage to avoid rewriting other passages on each keystroke.
+    loadReviewDraft(year, textId) {
+      const empty = { notes: {}, checks: {}, choices: {}, headings: {} };
+      try {
+        const saved = JSON.parse(localStorage.getItem(`KAOYAN_REVIEW_DRAFT_V1_${year}_${textId}`));
+        if (!saved || typeof saved !== 'object') return empty;
+        for (const field of Object.keys(empty)) {
+          if (saved[field] && typeof saved[field] === 'object' && !Array.isArray(saved[field])) empty[field] = saved[field];
+        }
+      } catch (e) {}
+      return empty;
+    },
+
+    saveReviewDraftField(year, textId, field, key, value) {
+      if (!['notes', 'checks', 'choices', 'headings'].includes(field)) return false;
+      try {
+        const draft = this.loadReviewDraft(year, textId);
+        draft[field][key] = value;
+        localStorage.setItem(`KAOYAN_REVIEW_DRAFT_V1_${year}_${textId}`, JSON.stringify(draft));
+        return true;
+      } catch (e) { return false; }
+    },
+
     // --- Progress & Settings ---
     saveProgress(state) {
       try {
