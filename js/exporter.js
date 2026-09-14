@@ -28,11 +28,12 @@
       textData.paragraphs.forEach((p, pid) => {
         p.vocabulary.forEach(v => {
           // Find matching sentence for context
-          const matchingSent = textData.sentences.find(s => s.pid === pid && s.text.toLowerCase().includes(v.word.toLowerCase())) || textData.sentences.find(s => s.pid === pid);
-          const exampleSent = matchingSent ? matchingSent.text : p.text.substring(0, 120);
+          const matchingSent = window.ReviewContent.context(textData, v.word, p.pid);
+          const exampleSent = matchingSent ? `${matchingSent.label}：${matchingSent.text}` : '本篇暂无完整匹配的原句或题项。';
           const wordField = `<b>${v.word}</b>`;
           const defField = v.definition.replace(/\t/g, ' ');
-          const exampleField = exampleSent.replace(new RegExp(`(${v.word})`, 'gi'), '<font color="#2563eb"><b>$1</b></font>').replace(/\t/g, ' ');
+          const safeWord = v.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+          const exampleField = exampleSent.replace(new RegExp(`(${safeWord})`, 'gi'), '<font color="#2563eb"><b>$1</b></font>').replace(/[\t\r\n]/g, ' ');
           const tagField = `${textData.year}年 英语二 Text${textData.text_id}`;
 
           lines.push(`${wordField}\t${defField}\t${exampleField}\t${tagField}`);
@@ -70,145 +71,77 @@
     },
 
     // 2. Export In-depth Markdown Notes (.md)
+    buildMarkdownNotes(textData) {
+      if (!textData) return '';
+      const C = window.ReviewContent;
+      const md = [`# ${textData.year} 年 Text ${textData.text_id} 精读复盘讲义`, '', '> 小标题为配套迁移讲解；写作例句为教学改写，不作原文事实引用。', ''];
+      md.push('## 一、语境词汇与搭配', '');
+      textData.paragraphs.forEach(p => {
+        md.push(`### 第 ${p.pid + 1} 段`, '');
+        C.vocabulary(textData, p).forEach(v => {
+          md.push(`- **${v.word}** ${v.pos || ''} — ${v.definition || ''}`);
+          if (v.usage_note) md.push(`  - 搭配与辨析：${v.usage_note}`);
+          if (v.context) md.push(`  - ${v.context.label}：${v.context.text}`);
+        });
+        md.push('');
+      });
+      md.push('## 二、精读与长难句', '');
+      textData.paragraphs.forEach(p => {
+        md.push(`### 第 ${p.pid + 1} 段`, '', p.text, '', `参考译文：${p.translation || ''}`, '');
+        textData.sentences.filter(s => s.pid === p.pid).forEach((s, i) => {
+          md.push(`#### 句 ${i + 1}`, '', s.text, '', `参考意群：${s.slashed_text || ''}`, '', `意群速译：${s.chunk_translation || ''}`, '');
+          (s.syntax?.breakdown || []).forEach(b => md.push(`- **${b.type}** ${b.content} — ${b.explanation}`));
+          md.push('', `参考译文：${s.translation || ''}`, '');
+        });
+      });
+      md.push('## 三、题目证据与选项解析', '');
+      textData.questions.forEach(q => {
+        md.push(`### 第 ${q.qid} 题 · ${q.type}`, '', q.stem, '', q.stem_cn || '', '',
+          `**答案：${q.options.find(o => o.is_correct)?.key || '待补充'}**`, '', C.typeExplanation(q.type || ''),
+          '', `定位原文：${q.locate_sentence || ''}`, '', q.locate_sentence_cn || '', '');
+        C.pairs(q).forEach(p => md.push(`- 原文 ${p.text_term} → 选项 ${p.opt_term}；${p.logic}`));
+        q.options.forEach(o => {
+          const a = C.analysis(q, o);
+          md.push('', `#### ${o.key}. ${o.text}`, '', o.text_cn || '', '', `判断：${a.option_nature}`, '');
+          if (a.position) md.push(`依据位置：${a.position}`, '');
+          if (a.source_sentence) md.push(`依据原句：${a.source_sentence}`, '');
+          md.push(a.locator_comparison || '暂无独立比对解析。', '');
+          if (a.writing_perspective) md.push(`论证作用：${a.writing_perspective}`, '');
+          if (a.theme_validation) md.push(`主旨交叉验证：${a.theme_validation}`, '');
+          md.push(a.verdict, '');
+        });
+        md.push(`本题小结：${q.summary || ''}`, '');
+      });
+      const ml = textData.macro_logic || {};
+      md.push('## 四、语篇逻辑与小标题对应', '', `体裁：${ml.genre || ''}`, '', `推进关系：${ml.discourse_model || ''}`, '', ml.main_theme || '', '');
+      (ml.paragraph_functions || []).forEach(p => {
+        md.push(`### 第 ${p.pid + 1} 段 · ${p.role}`, '', p.core_point || '', '', p.cohesive_devices || '', '');
+        if (p.evidence) md.push(`原文依据：${p.evidence}`, '');
+      });
+      const pb = ml.part_b_training;
+      if (pb) {
+        md.push('### 小标题对应解析（配套讲解）', '');
+        (pb.target_paragraphs || []).forEach(p => {
+          const o = (pb.options || []).find(o => o.key === p.correct_key);
+          if (o) md.push(`- 第 ${p.pid + 1} 段 → [${o.key}] ${o.heading}：${o.trap_analysis || ''}`);
+        });
+        md.push('', '易混标题：', '');
+        (pb.options || []).filter(o => o.is_distractor).forEach(o => md.push(`- [${o.key}] ${o.heading}：${o.trap_analysis || ''}`));
+      }
+      md.push('', '## 五、写作表达与用法', '');
+      (textData.writing_corpus || []).forEach(w => {
+        md.push(`### ${w.expression}`, '', `${w.category || ''} · ${w.translation || ''}`, '');
+        const source = C.writingSource(textData, w);
+        md.push(source ? `原文依据：${source}` : '拓展表达（教学改写，非原文直接引用）', '',
+          `搭配与使用范围：${C.writingUsage(w)}`, '', `句式：${w.template_slot || w.application_sentence || ''}`, '',
+          `迁移例句：${w.application_sentence || ''}`, '', w.sentence_cn || '', '');
+      });
+      return md.join('\n');
+    },
+
     exportMarkdownNotes(textData) {
       if (!textData) return;
-
-      let md = [];
-      md.push(`# ${textData.year} 年考研英语（二）Text ${textData.text_id} 全真精读复盘笔记\n`);
-      md.push(`> **试卷篇章**：${textData.year} 年全国硕士研究生招生考试 英语（二）阅读理解 Text ${textData.text_id} (${textData.q_range} 题)`);
-      md.push(`> **导出时间**：${new Date().toLocaleString()}\n`);
-      md.push(`---\n`);
-
-      // Section 1: Article Text & Translation
-      md.push(`## 一、考场真题原文与段落精注\n`);
-      textData.paragraphs.forEach((p, pid) => {
-        md.push(`### [Para ${pid + 1}]`);
-        md.push(`${p.text}\n`);
-        md.push(`**【意群断句】**：\`${p.slashed_text}\`\n`);
-        md.push(`**【意群速译】**：${p.chunk_translation}\n`);
-        md.push(`**【标准汉译】**：${p.translation}\n`);
-      });
-      md.push(`---\n`);
-
-      // Section 2: Core Vocabulary Matrix
-      md.push(`## 二、核心考点词汇矩阵\n`);
-      md.push(`| 表达 | 词性与意思 | 表达 | 词性与意思 | 表达 | 词性与意思 |`);
-      md.push(`| :--- | :--- | :--- | :--- | :--- | :--- |`);
-      textData.paragraphs.forEach(p => {
-        for (let i = 0; i < p.vocabulary.length; i += 3) {
-          const chunk = p.vocabulary.slice(i, i + 3);
-          let row = '';
-          chunk.forEach(v => {
-            row += `| **${v.word}** | ${v.definition} `;
-          });
-          while (chunk.length < 3) {
-            row += `| | `;
-            chunk.push(null);
-          }
-          row += `|`;
-          md.push(row);
-        }
-      });
-      md.push(`\n---\n`);
-
-      // Section 3: Long & Complex Sentence Breakdown
-      md.push(`## 三、逐句长难句剖析与句法拆解\n`);
-      textData.sentences.forEach((s, s_idx) => {
-        md.push(`### 句 ${s_idx + 1} (第 ${s.pid + 1} 段)`);
-        md.push(`- **原句**：${s.text}`);
-        md.push(`- **意群断句**：\`${s.slashed_text}\``);
-        md.push(`- **意群速译**：${s.chunk_translation}`);
-        md.push(`- **主干识别与句法拆解**：`);
-        s.syntax.breakdown.forEach(b => {
-          md.push(`  * **[${b.type}]** \`${b.content}\` — ${b.explanation}`);
-        });
-        md.push(`- **满分参考汉译**：${s.translation}\n`);
-      });
-      md.push(`---\n`);
-
-      // Section 4: Questions & Test-Maker Intent Analysis
-      md.push(`## 四、题目命题人逻辑链条与避坑剖析\n`);
-      textData.questions.forEach(q => {
-        const corrKey = (q.options.find(o => o.is_correct) || q.options[0]).key;
-        md.push(`### 第 ${q.qid} 题（${q.type}）`);
-        md.push(`- **题干**：${q.stem}`);
-        md.push(`- **题干汉译**：${q.stem_cn}`);
-        md.push(`- **核心定位句 (第 ${q.locate_pid + 1} 段)**：> ${q.locate_sentence}`);
-        md.push(`- **标准正解**：**[${corrKey}]**\n`);
-
-        md.push(`#### 选项深度推演表：`);
-        md.push(`| 选项 | 内容 | 判定性质 | 考研经典干扰类型 | 命题人逻辑与避坑解析 |`);
-        md.push(`| :---: | :--- | :---: | :---: | :--- |`);
-        q.options.forEach(opt => {
-          const nature = opt.is_correct ? '★ 正确答案' : '干扰项';
-          const trap = opt.is_correct ? '精准同义替换' : (opt.trap_type || '干扰项');
-          const summary = opt.analysis.locator_comparison.replace(/\n/g, ' ');
-          md.push(`| **${opt.key}** | ${opt.text} | ${nature} | ${trap} | ${summary} |`);
-        });
-
-        md.push(`\n**💡 决断小结**：${q.summary}\n`);
-      });
-      md.push(`---\n`);
-
-      // Section 4: Discourse & Part B
-      md.push(`## 四、语篇逻辑与新题型迁移训练\n`);
-      if (textData.macro_logic) {
-        const ml = textData.macro_logic;
-        if (ml.genre) md.push(`- **语篇体裁**：${ml.genre}`);
-        if (ml.discourse_model) md.push(`- **论述模型**：${ml.discourse_model}`);
-        if (ml.main_theme) md.push(`- **宏观主旨与作者立场**：${ml.main_theme}\n`);
-
-        if (ml.paragraph_functions && ml.paragraph_functions.length > 0) {
-          md.push(`### 语篇推进脉络与段际粘合：`);
-          ml.paragraph_functions.forEach((pf, idx) => {
-            const pNum = pf.pid !== undefined ? pf.pid + 1 : idx + 1;
-            md.push(`- **第 ${pNum} 段 (${pf.role})**：${pf.core_point}`);
-            if (pf.cohesive_devices) md.push(`  - *段际衔接*：${pf.cohesive_devices}`);
-          });
-          md.push('');
-        } else if (ml.logic_chain) {
-          md.push(`### 逻辑推进脉络：`);
-          ml.logic_chain.forEach(item => md.push(`- ${item}`));
-          md.push('');
-        }
-
-        if (ml.part_b_training) {
-          const pb = ml.part_b_training;
-          md.push(`### 英语二新题型（小标题对应）迁移演练：`);
-          md.push(`> **训练说明**：${pb.instruction || ''}\n`);
-          md.push(`| 段落 | 正确小标题 | 命题人设陷解析 |`);
-          md.push(`| :---: | :--- | :--- |`);
-          (pb.target_paragraphs || []).forEach(tp => {
-            const pNum = tp.pid !== undefined ? tp.pid + 1 : tp.label;
-            const opt = (pb.options || []).find(o => o.key === tp.correct_key) || {};
-            md.push(`| **Paragraph ${pNum}** | **[${tp.correct_key}]** ${opt.heading || ''} | ${opt.trap_analysis || ''} |`);
-          });
-          md.push('');
-          if (pb.skills_breakdown) {
-            md.push(`**💡 新题型解题心法**：${pb.skills_breakdown}\n`);
-          }
-        }
-      }
-      md.push(`---\n`);
-
-      // Section 5: Writing Corpus
-      md.push(`## 五、考研写作高分黄金语料库\n`);
-      md.push(`| 表达分类 | 核心表达 | 语法/句法性质 | 中文释义 | 考研高分应用例句 | 即插即用模板槽位 |`);
-      md.push(`| :--- | :--- | :---: | :--- | :--- | :--- |`);
-      (textData.writing_corpus || []).forEach(w => {
-        const cat = w.category || '';
-        const expr = w.expression ? `\`${w.expression}\`` : '';
-        const synType = w.syntactic_type || '核心词汇';
-        const trans = w.translation || '';
-        const sent = w.application_sentence || '';
-        const slot = w.template_slot ? `\`${w.template_slot}\`` : `\`${sent}\``;
-        md.push(`| **${cat}** | ${expr} | ${synType} | ${trans} | ${sent} | ${slot} |`);
-      });
-      md.push('');
-
-      const content = md.join('\n');
-      const filename = `${textData.year}_Text${textData.text_id}_真题精读复盘笔记.md`;
-      downloadFile(content, filename, 'text/markdown;charset=utf-8');
+      downloadFile(this.buildMarkdownNotes(textData), `${textData.year}_Text${textData.text_id}_精读复盘讲义.md`, 'text/markdown;charset=utf-8');
     },
 
     // 3. Export Mistakes Review Book (.md)

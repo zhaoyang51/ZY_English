@@ -20,8 +20,9 @@
 
   function getSynonymCardHtml(q, opt) {
     let rowsHtml = '';
-    if (q.synonym_pairs && q.synonym_pairs.length > 0) {
-      rowsHtml = q.synonym_pairs.map(pair => `
+    const pairs = window.ReviewContent.pairs(q);
+    if (pairs.length > 0) {
+      rowsHtml = pairs.map(pair => `
         <tr>
           <td><strong style="color:var(--success)">${pair.opt_term}</strong></td>
           <td style="text-align:center">↔</td>
@@ -306,6 +307,7 @@
         // 4 Options Breakdown with Trap Pills and Synonym Paraphrase Card
         q.options.forEach(opt => {
           const isC = opt.is_correct;
+          const analysis = window.ReviewContent.analysis(q, opt);
           const badgeClass = isC ? 'correct-badge' : 'trap-badge';
           const badgeLabel = isC ? '★ 标准正确答案' : `干扰项 (${opt.trap_type})`;
           const trapPill = !isC ? getTrapPillHtml(opt.trap_type) : '';
@@ -320,12 +322,12 @@
 ${synonymCard}
 <div class="revealPart">
   <h4>1. 定位比对与同义替换推演</h4>
-  <p>${opt.analysis.locator_comparison}</p>
+  <p>${analysis.locator_comparison || '本选项暂缺独立证据比对说明。'}</p>
   <h4>2. 写作视角反事实论证</h4>
-  <p>${opt.analysis.writing_perspective}</p>
+  <p>${analysis.writing_perspective || '本题现有解析以定位比对为主，未提供独立的写作视角说明。'}</p>
   <h4>3. 全文主旨交叉验证</h4>
-  <p>${opt.analysis.theme_validation}</p>
-  <p><strong>${opt.analysis.verdict}</strong></p>
+  <p>${analysis.theme_validation || q.summary || ''}</p>
+  <p><strong>${analysis.verdict}</strong></p>
 </div>`,
             meta: { qid: String(q.qid), option: opt.key, para: q.locate_pid }
           });
@@ -378,8 +380,7 @@ ${synonymCard}
       const totalParas = paras.length;
 
       paras.forEach((p, pid) => {
-        const paraSentences = allSentences.filter(s => s.pid === pid);
-        const vocabList = p.vocabulary || [];
+        const vocabList = window.ReviewContent.vocabulary(textData, p);
 
         let correctCount = 0;
         let phraseCount = 0;
@@ -413,18 +414,11 @@ ${synonymCard}
           }
 
           // Context sentence lookup
-          const wLower = v.word.toLowerCase().trim();
-          let matchedSent = paraSentences.find(s => s.text && s.text.toLowerCase().includes(wLower));
-          if (!matchedSent && wLower.includes(' ')) {
-            const firstToken = wLower.split(' ')[0];
-            matchedSent = paraSentences.find(s => s.text && s.text.toLowerCase().includes(firstToken));
-          }
-          if (!matchedSent) {
-            matchedSent = allSentences.find(s => s.text && s.text.toLowerCase().includes(wLower));
-          }
+          const matchedSent = v.context;
 
           const contextEn = matchedSent ? matchedSent.text : '';
-          const contextSid = matchedSent ? matchedSent.sid : undefined;
+          const contextSid = matchedSent ? matchedSent.sid : null;
+          const contextLabel = matchedSent ? matchedSent.label : '';
           const contextCn = matchedSent ? (matchedSent.translation || '') : '';
           const highlightedEn = contextEn ? highlightWordInSentence(contextEn, v.word) : '';
 
@@ -439,6 +433,7 @@ ${synonymCard}
             badgeHtml,
             contextEn,
             contextSid,
+            contextLabel,
             contextCn,
             highlightedEn,
             isB
@@ -468,10 +463,11 @@ ${synonymCard}
               <div class="vocab-card-def" title="自测模式下点击或悬停揭晓">
                 <span class="vocab-def-text">${item.cleanDef}</span>
               </div>
+              ${item.usage_note ? `<div class="reading-vocab-note"><b>搭配与辨析</b> · ${escapeHtmlAttr(item.usage_note)}</div>` : ''}
               ${item.contextEn ? `
               <div class="vocab-card-footer">
-                <button class="vocab-context-btn" data-sid="${item.contextSid}" title="查看真题原句并联动左侧试卷">
-                  <span>📖</span> 考研真题语境
+                <button class="vocab-context-btn" ${item.contextSid != null ? `data-sid="${escapeHtmlAttr(String(item.contextSid))}"` : ''} title="查看表达出处">
+                  <span>📖</span> ${escapeHtmlAttr(item.contextLabel)}
                 </button>
                 <div class="vocab-context-drawer" style="display:none">
                   <div class="vocab-context-en">${item.highlightedEn}</div>
@@ -499,11 +495,12 @@ ${synonymCard}
                 <div class="vocab-card-def" style="margin:0" title="自测模式下点击或悬停揭晓">
                   <span class="vocab-def-text">${item.cleanDef}</span>
                 </div>
+                ${item.usage_note ? `<div class="reading-vocab-note">${escapeHtmlAttr(item.usage_note)}</div>` : ''}
               </td>
               <td class="col-act">
                 <button class="vocab-icon-btn vocab-tts-btn" data-word="${escWord}" title="🔊 朗读发音">🔊</button>
                 <button class="vocab-icon-btn vocab-star-btn ${item.isB ? 'bookmarked' : ''}" data-word="${escWord}" data-def="${escDef}" data-sentence="${escSent}" data-year="${textData.year || ''}" data-textid="${textData.text_id || ''}" title="${item.isB ? '★ 已在生词本' : '☆ 收藏至生词本'}">${item.isB ? '★' : '☆'}</button>
-                ${item.contextSid !== undefined ? `<button class="vocab-icon-btn vocab-context-jump-btn" data-sid="${item.contextSid}" title="📖 联动左侧原文定位">📖</button>` : ''}
+                ${item.contextSid != null ? `<button class="vocab-icon-btn vocab-context-jump-btn" data-sid="${escapeHtmlAttr(String(item.contextSid))}" title="📖 联动左侧原文定位">📖</button>` : ''}
               </td>
             </tr>
           `;
@@ -519,6 +516,7 @@ ${synonymCard}
         const isTable = (savedView === 'table');
 
         const stepHtml = `
+          <p class="reading-section-note">本段词汇按语境理解；“原文第 N 段”与“第 N 题选项”分别标注出处。词义与搭配说明可直接阅读，原句沿用原有展开按钮。</p>
           <div class="vocab-matrix-wrap ${savedMask ? 'mask-active' : ''}" data-pid="${pid}">
             <!-- Top Control Bar -->
             <div class="vocab-matrix-toolbar">
@@ -619,7 +617,10 @@ ${synonymCard}
 
         const sents = textData.sentences.filter(s => s.pid === pid);
         sents.forEach((sent, s_idx) => {
-          const breakdownHtml = (sent.syntax && sent.syntax.breakdown ? sent.syntax.breakdown : []).map(b => {
+          const breakdown = sent.syntax?.breakdown || [];
+          const backbone = breakdown.find(b => /主干/.test(b.type));
+          const logic = breakdown.filter(b => /逻辑|考点/.test(b.type));
+          const breakdownHtml = breakdown.filter(b => !/逻辑|考点/.test(b.type)).map(b => {
             let tagClass = 'tag-modifier';
             if (b.type.includes('主干')) tagClass = 'tag-backbone';
             if (b.type.includes('定语')) tagClass = 'tag-attributive';
@@ -636,15 +637,17 @@ ${synonymCard}
             html: `<section class="revealPart">
 <h4>句子精析 (${s_idx+1}/${sents.length})</h4>
 <p style="font-size:1.1em;line-height:1.7"><strong>原句：</strong>${sent.text}</p>
+${backbone ? `<div class="reading-backbone"><b>主干速览</b><p>${backbone.content}</p></div>` : ''}
 <p><strong>意群断句：</strong></p>
 <p class="chunk-group" style="margin:4px 0 8px 0">${renderColoredChunks(sent.slashed_text)}</p>
 <p style="margin:8px 0"><strong>【意群翻译】：</strong></p>
 <p class="chunk-group" style="margin:4px 0 8px 0">${renderColoredChunks(sent.chunk_translation)}</p>
 <div style="background:var(--card-bg);border-left:4px solid var(--review-accent);padding:10px 14px;border-radius:0 6px 6px 0;margin:10px 0">
-  <p style="font-weight:700;color:var(--review-accent);margin-bottom:6px">【句法拆解与逻辑剖析】</p>
+  <p style="font-weight:700;color:var(--review-accent);margin-bottom:6px">【句法拆解：修饰成分如何连接主干】</p>
   <ul style="padding-left:18px">${breakdownHtml}</ul>
 </div>
-<p style="margin-top:8px"><strong>【满分参考汉译】</strong><span style="color:var(--review-accent);font-weight:600">${sent.translation}</span></p>
+${logic.length ? `<div class="reading-logic"><b>语篇作用与考点</b>${logic.map(b => `<p><strong>${b.content}</strong> — ${b.explanation}</p>`).join('')}</div>` : ''}
+<p style="margin-top:8px"><strong>【参考译文】</strong><span style="color:var(--review-accent);font-weight:600">${sent.translation}</span></p>
 </section>`,
             meta: { section: 2, para: pid, sentence: s_idx }
           });
@@ -669,8 +672,10 @@ ${synonymCard}
           section: 3,
           title: `${q.qid}题 · 题干、题型与核心出处`,
           html: `<blockquote><p>${q.stem}<br>${q.stem_cn}</p></blockquote>
+<div class="reading-answer"><b>答案：${corrKey}</b> · ${correctOpt ? correctOpt.text : ''}</div>
 <h3>题型判定与解题策略</h3>
 <p>这是一道<strong>${q.type}</strong>，考查考生对第 <strong>${q.locate_pid + 1}</strong> 段核心事实或论证逻辑的精准理解。</p>
+<p class="reading-section-note">${window.ReviewContent.typeExplanation(q.type || '')}</p>
 <h3>定位出处（第 ${q.locate_pid + 1} 段核心定位句）</h3>
 <blockquote><p>${q.locate_sentence}<br>${q.locate_sentence_cn}</p></blockquote>
 ${getSynonymCardHtml(q, correctOpt)}`,
@@ -680,13 +685,14 @@ ${getSynonymCardHtml(q, correctOpt)}`,
         // 4 Options
         q.options.forEach(opt => {
           const isC = opt.is_correct;
-          const a = opt.analysis;
+          const a = window.ReviewContent.analysis(q, opt);
           const trapPill = !isC ? getTrapPillHtml(opt.trap_type) : '';
 
           const leadHtml = `<section class="revealPart optionLead">
 <blockquote><p>${opt.text_cn}</p></blockquote>
-<p><strong>做题模式中的状态：</strong>${a.practice_status}</p>
+${a.practice_status ? `<p><strong>选项判断：</strong>${a.practice_status}</p>` : ''}
 <p><strong>选项性质：${a.option_nature}。</strong> ${trapPill}</p>
+${a.position ? `<p><strong>依据位置：</strong>${a.position}</p>` : ''}
 <strong>出处：</strong><blockquote><p>${a.source_sentence}</p></blockquote>
 </section>`;
 
@@ -695,14 +701,16 @@ ${getSynonymCardHtml(q, correctOpt)}`,
 <p>${a.locator_comparison}</p>
 </section>`;
 
-          const writeHtml = `<section class="revealPart">
+          const writeHtml = a.writing_perspective ? `<section class="revealPart">
 <h3>写作视角法</h3>
 <p>${a.writing_perspective}</p>
-</section>`;
+</section>` : '';
 
           const crossHtml = `<section class="revealPart">
+${a.theme_validation ? `
 <h3>主旨交叉验证法</h3>
 <p>${a.theme_validation}</p>
+` : ''}
 <p><strong>${a.verdict}</strong></p>
 </section>`;
 
@@ -720,7 +728,7 @@ ${getSynonymCardHtml(q, correctOpt)}`,
             meta: { section: 3, qid: String(q.qid), option: opt.key, stage: 1, para: q.locate_pid }
           });
 
-          steps.push({
+          if (writeHtml) steps.push({
             section: 3,
             title: `${opt.key}. ${opt.text}`,
             html: leadHtml + compHtml + writeHtml,
@@ -750,7 +758,7 @@ ${getSynonymCardHtml(q, correctOpt)}`,
       // Section 4: 第四鸟 · 语篇与新题型
       steps.push({
         section: 4,
-        title: "4. 语篇逻辑与新题型迁移训练",
+        title: "4. 语篇逻辑与小标题对应解析",
         html: buildSection4Html(textData),
         meta: { section: 4 }
       });
@@ -758,7 +766,7 @@ ${getSynonymCardHtml(q, correctOpt)}`,
       // Section 5: 第五鸟 · 写作语料库
       steps.push({
         section: 5,
-        title: "5. 考研大作文高分语料库",
+        title: "5. 写作表达与句式讲解",
         html: buildSection5Html(textData),
         meta: { section: 5 }
       });
@@ -931,8 +939,8 @@ ${getSynonymCardHtml(q, correctOpt)}`,
   // --- Helper: Build Section 4 HTML ---
   function buildSection4Html(tData) {
     const ml = tData.macro_logic || {};
-    const genre = ml.genre || '考研学术政论 / 评述文';
-    const model = ml.discourse_model || '问题呈现 ➔ 论据展开 ➔ 多方辩驳 ➔ 政策/主旨立论';
+    const genre = ml.genre || '本篇体裁待补充';
+    const model = ml.discourse_model || '本篇推进关系待补充';
     const theme = ml.main_theme || '暂无宏观主旨分析';
     
     let headerMeta = `
@@ -960,6 +968,7 @@ ${getSynonymCardHtml(q, correctOpt)}`,
                 <span class="flow-role-badge">${pf.role || '段落论述'}</span>
               </div>
               <div class="flow-core-point">${pf.core_point || ''}</div>
+              ${pf.evidence ? `<div class="reading-evidence"><b>原文依据：</b>${escapeHtmlAttr(pf.evidence)}</div>` : ''}
               ${pf.cohesive_devices ? `<div class="flow-cohesion">🔗 <b>段际衔接纽带</b>：${pf.cohesive_devices}</div>` : ''}
             </div>
           `).join('')}
@@ -977,49 +986,26 @@ ${getSynonymCardHtml(q, correctOpt)}`,
       const pb = ml.part_b_training;
       const options = pb.options || [];
       const targets = pb.target_paragraphs || [];
-
       partBHtml = `
         <div class="part-b-box">
-          <h3>🧩 ${pb.title || '英语二新题型（小标题对应）实战迁移模拟'}</h3>
-          <div class="part-b-instruction">${pb.instruction || '为以下段落匹配最精准的小标题：'}</div>
-          
-          <div class="part-b-options-pool">
-            <div class="part-b-options-pool-title">备选小标题库 (Options Pool)</div>
-            ${options.map(opt => `
-              <div class="part-b-opt-item">
-                <strong>[${opt.key}]</strong> ${opt.heading}
-              </div>
-            `).join('')}
-          </div>
-
-          <div class="part-b-matching-area">
-            ${targets.map(tp => `
-              <div class="part-b-match-row">
-                <span class="part-b-match-para">${tp.label || ('Paragraph ' + (tp.pid + 1))}</span>
-                <select class="part-b-select" data-pid="${tp.pid}" data-correct="${tp.correct_key}">
-                  <option value="">-- 选择对应小标题 --</option>
-                  ${options.map(opt => `<option value="${opt.key}">${opt.key}. ${opt.heading.substring(0, 32)}${opt.heading.length > 32 ? '...' : ''}</option>`).join('')}
-                </select>
-              </div>
-            `).join('')}
-          </div>
-
-          <button class="part-b-btn-check" onclick="window.QuizModule.checkPartB()">🎯 核对小标题答案与避坑解析</button>
-          
-          <div id="partBResultBox" class="part-b-result-box" style="display:none"></div>
-
-          ${pb.skills_breakdown ? `
-            <div style="margin-top:14px;padding:10px 14px;background:var(--review-light);border-left:3px solid var(--review-accent);border-radius:var(--radius-sm);font-size:0.88em;line-height:1.6">
-              💡 <b>${pb.skills_breakdown}</b>
-            </div>
-          ` : ''}
-        </div>
-      `;
+          <h3>段落小标题对应与解析</h3>
+          <p class="reading-section-note">以下是基于本文的迁移讲解，不是原试卷的新题型题目。小标题、对应段落及理由直接列出。</p>
+          ${targets.map(tp => {
+            const answer = options.find(o => o.key === tp.correct_key);
+            if (!answer) return '';
+            return `<article class="reading-heading">
+              <h4>第 ${tp.pid + 1} 段 → [${answer.key}] ${answer.heading}</h4>
+              <p>${answer.trap_analysis || ''}</p>
+            </article>`;
+          }).join('')}
+          ${options.some(o => o.is_distractor) ? '<h4>易混标题为什么不合适</h4>' : ''}
+          ${options.filter(o => o.is_distractor).map(o => `<article class="reading-heading reading-heading-distractor"><h4>[${o.key}] ${o.heading}</h4><p>${o.trap_analysis || ''}</p></article>`).join('')}
+          <p class="reading-section-note">标题需要覆盖本段的主要对象与判断。范围过窄、颠倒立场或引入段外话题，都不能仅凭词语重合成立。</p>
+        </div>`;
     }
 
     return `
       <div class="discourse-container">
-        <h1>第四鸟 · 语篇架构与新题型迁移训练</h1>
         ${headerMeta}
         ${flowHtml}
         ${partBHtml}
@@ -1031,7 +1017,7 @@ ${getSynonymCardHtml(q, correctOpt)}`,
   function buildSection5Html(tData) {
     const corpus = tData.writing_corpus || [];
     if (!corpus || corpus.length === 0) {
-      return '<h1>第五鸟 · 考研大作文高分语料库</h1><p>暂无语料数据</p>';
+      return '<p>暂无语料数据</p>';
     }
 
     // Collect unique categories
@@ -1041,7 +1027,7 @@ ${getSynonymCardHtml(q, correctOpt)}`,
     const tabsHtml = `
       <div class="corpus-tabs" id="corpusTabs">
         ${uniqueCategories.map((cat, idx) => `
-          <button class="corpus-tab-btn ${idx === 0 ? 'active' : ''}" onclick="window.QuizModule.filterWritingCorpus('${cat}', this)">${cat}</button>
+          <button class="corpus-tab-btn ${idx === 0 ? 'active' : ''}" onclick="window.QuizModule.filterWritingCorpus(${escapeHtmlAttr(JSON.stringify(cat))}, this)">${escapeHtmlAttr(cat)}</button>
         `).join('')}
       </div>
     `;
@@ -1055,6 +1041,8 @@ ${getSynonymCardHtml(q, correctOpt)}`,
           const sent = w.application_sentence || '';
           const sentCn = w.sentence_cn || '';
           const slot = w.template_slot || sent;
+          const source = window.ReviewContent.writingSource(tData, w);
+          const usage = window.ReviewContent.writingUsage(w);
           const synType = w.syntactic_type ? `<span class="matrix-badge badge-opt">${w.syntactic_type}</span>` : '';
 
           return `
@@ -1067,7 +1055,10 @@ ${getSynonymCardHtml(q, correctOpt)}`,
               </div>
               <div class="corpus-expression-title"><code>${expr}</code></div>
               <div class="corpus-translation-text">${trans}</div>
+              ${source ? `<div class="reading-writing-source"><b>原文依据：</b>${escapeHtmlAttr(source)}</div>` : '<p class="reading-source-label">拓展表达（教学改写，非原文直接引用）</p>'}
+              <div class="reading-writing-note"><b>搭配与使用范围：</b>${escapeHtmlAttr(usage)}</div>
               <div class="corpus-sent-box">
+                <div class="reading-source-label">迁移例句 · 展示用法，不代表原文事实或统计</div>
                 <div class="corpus-sent-en">📝 ${sent}</div>
                 ${sentCn ? `<div class="corpus-sent-cn">🇨🇳 ${sentCn}</div>` : ''}
               </div>
@@ -1076,7 +1067,7 @@ ${getSynonymCardHtml(q, correctOpt)}`,
                   <span style="color:var(--review-accent);font-weight:700">可复用模板：</span>
                   <span>${slot}</span>
                 </div>
-                <button class="btn-copy-slot" onclick="window.QuizModule.copyTemplateSlot(this, ${JSON.stringify(slot)})">📋 复制模板</button>
+                <button class="btn-copy-slot" onclick="window.QuizModule.copyTemplateSlot(this, ${escapeHtmlAttr(JSON.stringify(slot))})">📋 复制模板</button>
               </div>
             </div>
           `;
@@ -1086,9 +1077,8 @@ ${getSynonymCardHtml(q, correctOpt)}`,
 
     return `
       <div class="corpus-container">
-        <h1>第五鸟 · 考研大作文高分黄金语料库</h1>
         <p style="font-size:0.92em;color:var(--muted);margin-bottom:12px">
-          精选自本篇的高分词组、硬核句法骨架与论证表达，配备可替换参数槽位，点击即可一键复制套用至考研大/小作文中。
+          按“表达含义 → 原文依据或改写说明 → 搭配与适用范围 → 句式例句”阅读。示例用于展示表达方法，时态、主语、数字和论证范围需要与实际写作话题一致。
         </p>
         ${tabsHtml}
         ${cardsHtml}

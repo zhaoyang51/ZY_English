@@ -1188,7 +1188,7 @@
             drawer.style.display = isHidden ? 'block' : 'none';
           }
           const sid = ctxBtn.getAttribute('data-sid');
-          highlightSentenceOnLeftPanel(sid);
+          if (sid !== null) highlightSentenceOnLeftPanel(sid);
           return;
         }
 

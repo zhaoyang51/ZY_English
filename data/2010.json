@@ -17,7 +17,7 @@
             {
               "word": "it was successfully made just before the world financial crisis",
               "pos": "",
-              "definition": "【🎯解题正解】 它是在世界金融危机之前成功制作的"
+              "definition": "【🎯解题正解】这场拍卖在全球金融危机爆发前夕成功举行"
             },
             {
               "word": "bull",
@@ -66,8 +66,8 @@
             },
             {
               "word": "fetching",
-              "pos": "adj.",
-              "definition": "adj. 迷人的；动人的；v. 拿来"
+              "pos": "v.",
+              "definition": "（拍卖品）卖得，售得；fetch 的现在分词，此处不是“迷人的”"
             },
             {
               "word": "century",
@@ -97,7 +97,7 @@
             {
               "word": "record",
               "pos": "n.",
-              "definition": "n. 记录；记载；（某人或某物过去的）记录"
+              "definition": "纪录；此处指单个艺术家作品拍卖的成交纪录"
             },
             {
               "word": "artist",
@@ -303,9 +303,9 @@
         {
           "pid": 2,
           "text": "In the weeks and months that followed Mr. Hirst’s sale, spending of any sort became deeply unfashionable . In the art world that meant collectors stayed away from galleries and salerooms. Sales of contemporary art fell by two-thirds, and in the most overheated sector, they were down by nearly 90 % in the year to November 2008. Within weeks the world’s two biggest auction houses, Sotheby’s and Christie’s, had to pay out nearly $200m in guarantees to clients who had placed works for sale with them.",
-          "translation": "在接下来的几个星期和几个月里。赫斯特的拍卖、任何形式的支出都变得非常不流行。在艺术界，这意味着收藏家远离画廊和拍卖场。当代艺术品的销售额下降了三分之二，而在最过热的领域，截至 2008 年 11 月的一年里，销售额下降了近 90%。几周之内，世界上最大的两家拍卖行苏富比和佳士得不得不向向其出售作品的客户支付近 2 亿美元的担保金。",
-          "slashed_text": "In the weeks and months / that followed Mr. / Hirst’s sale , / spending of any sort became deeply unfashionable . / In the art world / that meant collectors stayed away / from galleries and salerooms. / Sales of contemporary art fell by two-thirds , / and in the most overheated sector , / they were down / by nearly 90 % in the year to November 2008. / Within weeks the world’s two biggest auction houses , / Sotheby’s and Christie’s , / had to pay out nearly $200m / in guarantees to clients / who had placed works / for sale / with them.",
-          "chunk_translation": "在接下来的几周和几个月里 / 紧随赫斯特先生的 / 拍卖会之后 / 任何形式的挥霍消费都变得极为不合时宜 / 在艺术界 / 这意味着收藏家们远离了 / 画廊和拍卖大厅 / 当代艺术品的销售额下降了三分之二 / 而在最过热的领域中 / 销售额大幅下滑 / 在截至2008年11月的一年里跌幅近90% / 数周之内，全球最大的两家拍卖行 / 苏富比和佳士得 / 不得不支付近2亿美元 / 作为对客户的担保金 / 那些将作品委托 / 拍卖出售的 / 给他们的客户",
+          "translation": "在赫斯特拍卖后的几个星期和几个月里，任何形式的消费都变得很不合时宜。在艺术界，这意味着收藏者不再光顾画廊和拍卖场。当代艺术品的销售额下降了三分之二，而在此前最为过热的领域，截至 2008 年 11 月的一年里，销售额下降了近 90%。短短几周内，全球最大的两家拍卖行苏富比和佳士得不得不向委托它们出售作品的客户支付近 2 亿美元的担保款。",
+          "slashed_text": "In the weeks and months that followed Mr. Hirst’s sale, / spending of any sort became deeply unfashionable. / In the art world / that meant collectors stayed away from galleries and salerooms. / Sales of contemporary art fell by two-thirds, / and in the most overheated sector, / they were down by nearly 90% in the year to November 2008. / Within weeks / the world’s two biggest auction houses, Sotheby’s and Christie’s, / had to pay out nearly $200m in guarantees / to clients who had placed works for sale with them.",
+          "chunk_translation": "在赫斯特拍卖后的几周和几个月里 / 任何形式的消费都变得很不合时宜 / 在艺术界 / 这意味着收藏者不再光顾画廊和拍卖场 / 当代艺术品销售额下降了三分之二 / 而在此前最为过热的领域 / 截至2008年11月的一年里销售额下降了近90% / 短短几周内 / 全球最大的两家拍卖行苏富比和佳士得 / 不得不支付近2亿美元的担保款 / 给委托它们出售作品的客户",
           "vocabulary": [
             {
               "word": "collectors were no longer actively involved in art-market auctions",
@@ -902,44 +902,31 @@
           "sid": 8,
           "pid": 2,
           "sentence_index": 0,
-          "text": "In the weeks and months that followed Mr.",
-          "translation": "在接下来的几个星期和几个月里。",
-          "slashed_text": "In the weeks and months / that followed Mr.",
-          "chunk_translation": "在接下来的几周和几个月里 / 紧随赫斯特先生的",
-          "syntax": {
-            "breakdown": [
-              {
-                "type": "从句与介词短语",
-                "content": "In the weeks and months that followed Mr.",
-                "explanation": "时间状语介词短语 In the weeks and months 后接定语从句 that followed Mr. (Hirst’s sale)，关系词 that 在从句中充当主语，先行词为 the weeks and months，引出拍卖会后的时间背景。（注：原题排版由于缩写点将该句与下句断开）"
-              },
-              {
-                "type": "语篇逻辑与考点",
-                "content": "In the weeks and months that followed",
-                "explanation": "时间推进衔接。将叙事视角由单日拍卖转入随后数周及数月的宏观市场寒冬，作为第3段的引子。"
-              }
-            ]
-          }
-        },
-        {
-          "sid": 9,
-          "pid": 2,
-          "sentence_index": 1,
-          "text": "Hirst’s sale, spending of any sort became deeply unfashionable .",
-          "translation": "赫斯特的拍卖、任何形式的支出都变得非常不流行。",
-          "slashed_text": "Hirst’s sale , / spending of any sort became deeply unfashionable .",
-          "chunk_translation": "拍卖会之后 / 任何形式的挥霍消费都变得极为不合时宜",
+          "text": "In the weeks and months that followed Mr. Hirst’s sale, spending of any sort became deeply unfashionable .",
+          "translation": "在赫斯特拍卖后的几个星期和几个月里，任何形式的消费都变得很不合时宜。",
+          "slashed_text": "In the weeks and months that followed Mr. Hirst’s sale, / spending of any sort / became deeply unfashionable.",
+          "chunk_translation": "在赫斯特拍卖后的几个星期和几个月里 / 任何形式的消费 / 都变得很不合时宜",
           "syntax": {
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Hirst’s sale, spending of any sort became deeply unfashionable",
-                "explanation": "主干为主系表结构。承接前句名词所有格 Hirst’s sale；主语为动名词短语 spending of any sort（任何形式的开销/挥霍）；系动词 became；表语为形容词 unfashionable（不合时宜的/过时的），副词 deeply（极其、非常）作程度状语修饰表语。"
+                "content": "spending ... became deeply unfashionable",
+                "explanation": "spending 是主语，became 是系动词，unfashionable 作表语。of any sort 限定 spending，deeply 修饰形容词。"
               },
               {
-                "type": "语篇逻辑与考点",
-                "content": "spending of any sort became deeply unfashionable",
-                "explanation": "社会心态概括句。点出金融风暴下富豪阶层消费心理的根本转变：由炫耀性消费转入低调避险，直接导致下一句画廊与拍卖行冷场。"
+                "type": "定语从句",
+                "content": "that followed Mr. Hirst’s sale",
+                "explanation": "that 引导限制性定语从句，修饰 weeks and months；that 在从句中作主语，followed 是谓语。Mr. 是称谓缩写，句点不构成句子结束。"
+              },
+              {
+                "type": "时间状语",
+                "content": "In the weeks and months ...",
+                "explanation": "句首介词短语给出消费观念发生变化的时间，联系前段拍卖事件。"
+              },
+              {
+                "type": "语境理解",
+                "content": "deeply unfashionable",
+                "explanation": "结合下一句收藏者远离交易场所理解为消费失宠、变得不合时宜，不能仅理解为衣着或风格不流行。"
               }
             ]
           }
@@ -1214,7 +1201,7 @@
         {
           "qid": 21,
           "stem": "In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because .",
-          "stem_cn": "In the first paragraph, Damien Hirst’s sale was referred to as “a last victory” because .",
+          "stem_cn": "第一段把赫斯特的拍卖称为“最后的胜利”，是因为________。",
           "type": "因果细节题",
           "locate_pid": 0,
           "locate_sentence": "The longest bull run in a century of art-market history ended on a dramatic note with a sale of 56 works by Damien Hirst, Beautiful Inside My Head Forever, at Sotheby’s in London on September 15th 2008. All but two pieces sold, fetching more than £70m, a record for a sale by a single artist. It was a last victory. As the auctioneer called out bids, in New York one of the oldest banks on Wall Street, Lehman Brothers, filed for bankruptcy.",
@@ -1311,7 +1298,7 @@
         {
           "qid": 22,
           "stem": "By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author  suggests that .",
-          "stem_cn": "By saying “spending of any sort became deeply unfashionable” (Paragraph 3), the author  suggests that .",
+          "stem_cn": "作者在第三段说“任何形式的消费都变得很不合时宜”，意在说明________。",
           "type": "词义推测题",
           "locate_pid": 2,
           "locate_sentence": "In the weeks and months that followed Mr. Hirst’s sale, spending of any sort became deeply unfashionable. In the art world that meant collectors stayed away from galleries and salerooms. Sales of contemporary art fell by two-thirds, and in the most overheated sector, they were down by nearly 90% in the year to November 2008.",
@@ -1683,45 +1670,45 @@
         }
       ],
       "macro_logic": {
-        "genre": "全球艺术品金融化与投机泡沫破灭商业观察",
-        "discourse_model": "达米恩·赫斯特天价拍卖 ➔ 艺术市场百年牛市终结 ➔ 炫耀性挥霍骤然失宠 ➔ 对比90年代日本印象派崩盘 ➔ 底部捡漏买家犹存 ➔ 艺术品回归审美本真反思",
-        "main_theme": "本文聚焦英国当代艺术大师达米恩·赫斯特（Damien Hirst）破纪录拍卖为标志性拐点，深入解构了全球艺术品市场经历2003至2008年非理性暴涨后的泡沫破灭历程；揭示了在次贷金融风暴冲击下，当代艺术品从富豪狂热追捧的金融衍生品迅速跌落神坛，高调炫富挥霍被全社会视作低俗并彻底失宠；对比了1990年代日本狂购印象派油画破产的旧崩盘历史，指出本轮危机的独特性在于市场底层仍有理性藏家在等待价格腰斩后抄底捡漏；深刻反思了艺术创作沦为金融洗钱与投机工具的异化，呼唤艺术价值重归纯粹审美精神世界。",
+        "genre": "艺术品市场衰退的报道与分析",
+        "discourse_model": "拍卖反差引出衰退 → 市场背景 → 交易萎缩与损失 → 历史比较与触底判断 → 本轮衰退的供给特点",
+        "main_theme": "文章通过赫斯特拍卖、市场规模与交易变化，描述艺术品市场由繁荣转向衰退，并解释本轮下行仍有买家、但优质作品供给不足的特点。对市场触底的乐观说法来自受访者，不能据此认定作者宣布市场复苏。",
         "paragraph_functions": [
           {
             "pid": 0,
-            "role": "【起】达米恩·赫斯特天价拍卖宣告艺术牛市落幕",
-            "core_point": "达米恩·赫斯特破纪录斩获超1.1亿英镑拍卖，以最具戏剧性的狂欢为全球艺术品市场一个世纪以来最漫长的大牛市画上句号。",
-            "cohesive_devices": "以标志性拍卖事件（longest bull run ended on a dramatic note with Damien Hirst sale）开篇立论。"
+            "role": "以事件引出市场转折",
+            "core_point": "赫斯特的拍卖成交超过 7000 万英镑，创下个人艺术家拍卖纪录；同日雷曼兄弟申请破产，形成成功拍卖与市场转衰的反差。",
+            "cohesive_devices": "a last victory 承接创纪录成交；As 将拍卖与雷曼破产并置。"
           },
           {
             "pid": 1,
-            "role": "【承】追根溯源：五载非理性暴涨动能早已衰竭",
-            "core_point": "2003年以来的暴涨早已脱离实际，金融危机前夕市场动能已明显衰竭，赫斯特的疯狂套现不过是落日余晖。",
-            "cohesive_devices": "呈现长周期周期规律（market had already been losing momentum after rising bewilderingly）。"
+            "role": "补充市场规模与变化背景",
+            "core_point": "艺术市场在此前上涨后已失去势头，规模从高点回落；但其结合财富、个性、贪欲和争议，影响超出市场体量。",
+            "cohesive_devices": "had already 回溯背景；But 从规模下降转向影响力。"
           },
           {
             "pid": 2,
-            "role": "【承】社会风尚剧变：金融风暴下炫耀性消费彻底失宠",
-            "core_point": "伴随华尔街海啸，任何形式的浮夸炫富挥霍在欧美社交圈变得极不体面，天价当代艺术品沦为首当其冲的弃儿。",
-            "cohesive_devices": "从市场交易深入至社会文化心态（spending of any sort became deeply unfashionable）。"
+            "role": "用交易与损失说明衰退",
+            "core_point": "收藏者远离画廊和拍卖场，当代艺术销售大幅下降；拍卖行还需履行对卖家的担保。",
+            "cohesive_devices": "In the weeks and months that followed 承接首段时间；销量和担保金额把衰退具体化。"
           },
           {
             "pid": 3,
-            "role": "【转】历史镜鉴比照：比肩日本印象派泡沫崩盘的至暗时刻",
-            "core_point": "本轮当代艺术品暴跌的深度与广度，是自1989年日本财阀疯狂溢价横扫印象派油画泡沫彻底破裂以来的最严重萧条。",
-            "cohesive_devices": "引入经典商业史横向坐标（worst downturn since the Japanese stopped buying Impressionists）。"
+            "role": "历史比较并引入不同判断",
+            "core_point": "本轮下行是自 1989 年以来最严重的一次，价格较峰值平均下降约 40%；佳士得负责人则认为市场已经触底。",
+            "cohesive_devices": "This time 作历史对比；But 引入受访者的乐观判断，不等于作者已确认市场反弹。"
           },
           {
             "pid": 4,
-            "role": "【合】独特的市场底色：理性买家在价格腰斩中伺机抄底",
-            "core_point": "与日本崩盘后的绝对死寂不同，当下市场并未彻底丧失流动性，理性藏家正静待泡沫挤出、在折扣废墟中寻觅捡漏真金白银。",
-            "cohesive_devices": "以理性辩证视角收官（What makes this slump different: still buyers hunting for bargains）。"
+            "role": "解释本轮衰退的不同之处",
+            "core_point": "市场仍有买家，当前主要困难是缺少可出售的好作品；除死亡、债务和离婚等情况促成出售，许多卖家在等待信心恢复。",
+            "cohesive_devices": "What makes this slump different 点出差异；not ... but ... 将问题从需求转到供给。"
           }
         ],
         "part_b_training": {
           "type": "heading_matching",
-          "title": "英语二新题型（小标题对应）全真模拟演练",
-          "instruction": "阅读 Text 1 的五个段落，从 A-G 七个候选项中为各段选出最精准概括段落主旨的小标题（含 2 个干扰项）：",
+          "title": "基于本文的小标题匹配练习",
+          "instruction": "为五个段落匹配标题。A—G 中有两个干扰项；选择后回到原文解释覆盖范围。",
           "target_paragraphs": [
             {
               "pid": 0,
@@ -1752,95 +1739,86 @@
           "options": [
             {
               "key": "A",
-              "heading": "Historical Echoes: A Collapse Rivalling the 1989 Japanese Bust",
+              "heading": "A severe downturn, but some believe the bottom is near",
               "is_distractor": false,
-              "trap_analysis": "【🎯正确选项】准确提炼第4段：将本轮艺术暴跌与1989年日本富豪抢购印象派泡沫破裂的惨淡历史进行纵深比照。"
+              "trap_analysis": "第 4 段同时给出历史比较、价格跌幅和 Dolman 的触底判断；标题保留两方面。"
             },
             {
               "key": "B",
-              "heading": "Global Ban on Private Art Auctions Enacted Across Europe",
+              "heading": "The disappearance of all buyers from the art market",
               "is_distractor": true,
-              "trap_analysis": "【❌干扰陷阱：反向荒谬/无中生有】文中未提及在欧洲全面取缔私人艺术品拍卖。"
+              "trap_analysis": "末段说 there are still buyers，不能说所有买家都消失。"
             },
             {
               "key": "C",
-              "heading": "The Spectacular Damien Hirst Sale Marks the Grand Finale of a Bull Run",
+              "heading": "A record sale at the end of an art-market boom",
               "is_distractor": false,
-              "trap_analysis": "【🎯正确选项】精准对应第1段：达米恩·赫斯特的天价狂欢专场拍卖为艺术品市场百年最长大牛市敲响终场丧钟。"
+              "trap_analysis": "第 1 段以创纪录拍卖与雷曼破产的并置说明繁荣的终结。"
             },
             {
               "key": "D",
-              "heading": "Impressionist Paintings Completely Destroyed by Museum Curators",
+              "heading": "A return to art valued only for its beauty",
               "is_distractor": true,
-              "trap_analysis": "【❌干扰陷阱：概念偷换】文中是日本资本停止收购印象派，绝非博物馆馆长销毁画作。"
+              "trap_analysis": "文章没有提出仅按审美评价艺术的主张，不能把读者的价值判断补进主旨。"
             },
             {
               "key": "E",
-              "heading": "Momentum Dissipates After Half a Decade of Bewildering Surges",
+              "heading": "A shrinking market with influence beyond its size",
               "is_distractor": false,
-              "trap_analysis": "【🎯正确选项】高度概括第2段：在经历2003年以来令人瞠目的五载暴涨后，市场动能早已出现严重透支与枯竭迹象。"
+              "trap_analysis": "第 2 段既回顾市场规模下降，也解释其影响超出体量。"
             },
             {
               "key": "F",
-              "heading": "Discerning Bargain Hunters Linger Amid the Deflated Rubble",
+              "heading": "Buyers remain, but good works are in short supply",
               "is_distractor": false,
-              "trap_analysis": "【🎯正确选项】精准归纳第5段结语：与以往彻底崩盘不同，理性藏家依然在价格去泡沫的废墟中搜寻捡漏良机。"
+              "trap_analysis": "第 5 段明确使用 not a lack of demand but a lack of good work to sell。"
             },
             {
               "key": "G",
-              "heading": "Conspicuous Consumption Turns Deeply Unfashionable in the Crash",
+              "heading": "Falling sales and costly guarantees",
               "is_distractor": false,
-              "trap_analysis": "【🎯正确选项】准确概括第3段：伴随经济危机爆发，任何形式的炫耀性高调挥霍在社会风尚中彻底失宠蒙羞。"
+              "trap_analysis": "第 3 段由买家远离市场写到销量下降和拍卖行承担担保支出。"
             }
           ],
-          "skills_breakdown": "【小标题答题要诀】：段1抓百年牛市终结标志拍卖（longest bull run ended / Hirst sale）；段2抓多年暴涨后动能耗竭（losing momentum after rising bewilderingly）；段3抓炫耀消费彻底失宠（spending became deeply unfashionable）；段4抓对比日本印象派崩盘（worst slump since Japanese stopped buying）；段5抓低估值捡漏买家犹存（still buyers in the market / bargain hunters）。"
+          "skills_breakdown": "概括段落时保留其主要转折；区分受访者的预测与已经发生的事实。"
         }
       },
       "writing_corpus": [
         {
           "category": "图表与趋势描述",
-          "expression": "mark the dramatic culmination of an unsustainable bull run characterized by ...",
-          "syntactic_type": "金融泡沫周期动宾短语搭配",
-          "translation": "标志着以……为显著特征的不可持续的漫长大牛市的戏剧性巅峰谢幕",
-          "application_sentence": "As historical auction charts illustrate, the luxury market marked the dramatic culmination of an unsustainable bull run characterized by speculative frenzy.",
-          "sentence_cn": "正如历史拍卖行情走势图所清晰展示的，高端艺术品与奢侈品市场迎来了一轮以狂热投机炒作为鲜明特征的漫长大牛市的戏剧性巅峰谢幕。",
-          "template_slot": "Recent market data marks the dramatic culmination of an unsustainable bull run characterized by [投机狂热/非理性扩张]."
+          "expression": "fall by ...",
+          "translation": "下降了……",
+          "template_slot": "[指标] fell by [变化幅度] over [时期].",
+          "application_sentence": "The number of visitors fell by 20 percent over the period.",
+          "sentence_cn": "这段时间内，访客人数下降了 20%。",
+          "usage_note": "by 后是变化量，to 后是终值。20% 仅用于本教学例句，写图表作文时须替换为实际数据。"
         },
         {
-          "category": "现象深层归因",
-          "expression": "be driven by speculative liquidity rather than intrinsic cultural value",
-          "syntactic_type": "not...rather than对比因果结构",
-          "translation": "主要受到泛滥的金融投机流动性所盲目推高，而非源于深厚内在的人文文化价值",
-          "application_sentence": "The dizzying inflation of contemporary art prices was driven by speculative liquidity and status-seeking rather than intrinsic aesthetic appreciation.",
-          "sentence_cn": "当代艺术品价格令人瞠目结舌的恶性通胀飙升，在本质上是由泛滥成灾的金融投机热钱与虚荣的身份炫耀所共同推波助澜的，而绝非源于对深邃艺术美学价值的真正由衷赏识。",
-          "template_slot": "The astronomical valuation of [某商品/资产] was driven by speculative liquidity rather than intrinsic [真实价值]."
+          "category": "现象描述",
+          "expression": "lose momentum",
+          "translation": "失去势头；发展放缓",
+          "template_slot": "[趋势 / 活动] began to lose momentum after [事件].",
+          "application_sentence": "The reading campaign began to lose momentum after the initial excitement faded.",
+          "sentence_cn": "最初的热情消退后，这项阅读活动开始失去势头。",
+          "usage_note": "通常描述进展或增长减弱，不表示活动已经停止。保持具体语境，避免把放缓写成崩溃。"
         },
         {
           "category": "逻辑衔接与转折",
-          "expression": "Once the macroeconomic winds shifted, conspicuous ostentation became practically overnight an acute liability.",
-          "syntactic_type": "风尚反转哲理句型",
-          "translation": "一旦宏观经济风向骤然逆转，昔日高调张扬的炫耀性炫富挥霍便在几乎一夜之间沦为令人生厌的负面累赘",
-          "application_sentence": "Once the macroeconomic winds shifted following the banking panic, conspicuous ostentation became practically overnight an acute social liability.",
-          "sentence_cn": "一旦银行挤兑危机后宏观经济风向骤然逆转，昔日那种高调张扬、挥金如土的炫耀性消费做派，便在几乎一夜之间沦为令全社会侧目鄙夷的负面道德包袱。",
-          "template_slot": "Once the macroeconomic winds shifted, [昔日追捧的热点/炫耀做派] became practically overnight an acute liability."
+          "expression": "not ... but ...",
+          "translation": "不是……，而是……",
+          "template_slot": "The main problem is not [问题 A] but [问题 B].",
+          "application_sentence": "The main problem is not a lack of information but a lack of time to evaluate it.",
+          "sentence_cn": "主要问题不是信息不足，而是缺少评估信息的时间。",
+          "usage_note": "两个槽位保持语法平行。仅在确有依据时否定 A，不能为了句式好看而排除真实原因。"
         },
         {
-          "category": "提分句法骨架",
-          "expression": "So severe was the contraction in asset values that even long-revered masterpieces were forced to ...",
-          "syntactic_type": "so...that置于句首的形容词全部倒装结构",
-          "translation": "资产估值的急剧萎缩回落是如此之猛烈残酷，以至于连备受尊崇的传世杰作也不得不……",
-          "application_sentence": "So severe was the contraction in auction liquidity that even long-revered contemporary masterpieces were forced to accept humiliating discounts.",
-          "sentence_cn": "艺术品拍卖市场流动性萎缩崩塌的势头是如此之迅猛严酷，以至于连昔日备受追捧神化的当代大师杰作，也不得不低下高昂的头颅接受近乎腰斩的屈辱打折甩卖。",
-          "template_slot": "So severe was the contraction in [市场/资金规模] that even long-revered [龙头/核心资产] was forced to [做出重大退让]."
-        },
-        {
-          "category": "应对举措与升华",
-          "expression": "purge speculative illusions to allow cultural creation to reclaim its genuine spiritual and aesthetic dignity",
-          "syntactic_type": "去伪存真文化升华动宾搭配",
-          "translation": "彻底涤除虚火中烧的投机泡沫幻觉，让崇高的人类文化创作得以重新收复其真正的精神与审美尊严",
-          "application_sentence": "A market correction serves to purge speculative illusions, allowing genuine artistic creation to reclaim its profound spiritual and aesthetic dignity.",
-          "sentence_cn": "一场荡涤泥沙的市场理性深度回调，在深层上有力涤除了那些虚妄贪婪的投机炒作泡沫幻觉，从而使真正纯粹深邃的人类艺术创造得以重新收复其崇高的精神与美学尊严。",
-          "template_slot": "The crisis serves to purge speculative illusions, allowing [某领域/文化事业] to reclaim its genuine spiritual dignity."
+          "category": "观点解释",
+          "expression": "What makes ... different is that ...",
+          "translation": "使……不同的是……",
+          "template_slot": "What makes [对象] different is that [完整从句].",
+          "application_sentence": "What makes this course different is that students apply each idea to a practical task.",
+          "sentence_cn": "这门课程的不同之处在于，学生会把每个观点应用到实际任务中。",
+          "usage_note": "is 后的 that 引出完整从句；说清与什么相比、差异具体在哪里。"
         }
       ],
       "year": 2010
@@ -4646,54 +4624,21 @@
           "sid": 2,
           "pid": 1,
           "sentence_index": 0,
-          "text": "“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr.",
-          "translation": "“存在一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，这些问题仍然是杀手，只是因为我们不知道如何改变人们的习惯，”博士说。",
-          "slashed_text": "“There are fundamental public health problems , / like dirty hands instead of a soap habit , / that remain killers only / because we can’t figure out how to change people’s habits , / ” said Dr.",
-          "chunk_translation": "“存在一些根本性的公共卫生问题 / 比如手脏却不用肥皂洗手 / 这些问题仍然是致命杀手，仅仅 / 是因为我们不知道如何改变人们的习惯 / ”柯蒂斯博士说",
+          "text": "“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr. Curtis, the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine.",
+          "translation": "伦敦卫生与热带医学院卫生中心主任柯蒂斯博士说：“有些基本的公共卫生问题，例如人们双手不洁而没有使用肥皂的习惯，仍在夺走生命，仅仅是因为我们还不知道怎样改变人们的习惯。”",
+          "slashed_text": "“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr. Curtis, the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine.",
+          "chunk_translation": "伦敦卫生与热带医学院卫生中心主任柯蒂斯博士说：“有些基本的公共卫生问题，例如人们双手不洁而没有使用肥皂的习惯，仍在夺走生命，仅仅是因为我们还不知道怎样改变人们的习惯。”",
           "syntax": {
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "“There are fundamental public health problems ... that remain killers only because we can’t figure out how to change people’s habits,” said Dr.",
-                "explanation": "主干为 there be 存在句式的直接引语 + 引述谓语。There are 引导存在句，主语中心词 fundamental public health problems（根本性的公共卫生难题）；said Dr. (Curtis) 为引述主谓。"
+                "content": "Dr. Curtis said ...",
+                "explanation": "主句是引述结构，原文把 said 放在主语 Dr. Curtis 前面；the director ... 是同位语，说明说话人的身份。"
               },
               {
-                "type": "插入列举与定语从句",
-                "content": "like dirty hands instead of a soap habit, that remain killers",
-                "explanation": "like... 作介词短语列举典型问题（双手污秽而非养成用肥皂洗手的习惯）；that 引导限制性定语从句修饰 problems，并在从句中作主语，系表结构 remain killers（依然是致命杀手）。"
-              },
-              {
-                "type": "原因状语从句与宾语从句",
-                "content": "only because we can’t figure out how to change people’s habits",
-                "explanation": "because 引导原因状语从句，从句谓语 can’t figure out（无法弄明白），疑问词 how + 不定式短语 how to change people’s habits 充当动词短语的宾语。"
-              },
-              {
-                "type": "语篇逻辑与考点",
-                "content": "remain killers only because we can’t figure out how to change habits",
-                "explanation": "公共卫生视角的引入。从商业巨头的成功反衬公共卫生领域的困境：许多致命疾病难以根除的根本原因，不是缺少药物，而是公共机构不知道如何改变大众的根深蒂固恶习。"
-              }
-            ]
-          }
-        },
-        {
-          "sid": 3,
-          "pid": 1,
-          "sentence_index": 1,
-          "text": "Curtis, the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine.",
-          "translation": "柯蒂斯是伦敦卫生与热带医学院卫生中心主任。",
-          "slashed_text": "Curtis , / the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine.",
-          "chunk_translation": "柯蒂斯 / 伦敦卫生与热带医学院卫生中心主任",
-          "syntax": {
-            "breakdown": [
-              {
-                "type": "同位语与介词短语",
-                "content": "Curtis, the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine",
-                "explanation": "承接前句的专有名词 Curtis；名词短语 the director... 充当同位语交代学者职务，介词短语 at the London School... 层层限定顶级科研机构出处。（注：原题排版由于缩写点断开）"
-              },
-              {
-                "type": "语篇逻辑与考点",
-                "content": "Curtis, the director of the Hygiene Center",
-                "explanation": "权威专家背书。通过交代伦敦卫生与热带医学院卫生中心主任的权威身份，增强后文反向借鉴私营商业公司经验的紧迫感与客观性。"
+                "type": "从句与修饰关系",
+                "content": "that remain killers only because we can’t figure out how to change people’s habits",
+                "explanation": "that 引导定语从句修饰 problems；because 说明原因，how to change ... 作 figure out 的宾语。"
               }
             ]
           }
@@ -4730,49 +4675,21 @@
           "sid": 5,
           "pid": 3,
           "sentence_index": 0,
-          "text": "The companies that Dr.",
-          "translation": "博士的公司",
-          "slashed_text": "The companies / that Dr.",
-          "chunk_translation": "这些公司 / 柯蒂斯博士",
-          "syntax": {
-            "breakdown": [
-              {
-                "type": "主干结构片段",
-                "content": "The companies that Dr.",
-                "explanation": "名词短语 The companies 作为后文全句的主语，后接关系代词 that 引导的定语从句开头。（注：因排版中 Dr. 缩写点造成分句断裂，与下句共同构成完整复合句）"
-              },
-              {
-                "type": "语篇逻辑与考点",
-                "content": "The companies that Dr. (Curtis turned to)",
-                "explanation": "主语先行词引导，紧扣前文提向商业巨头取经的线索。"
-              }
-            ]
-          }
-        },
-        {
-          "sid": 6,
-          "pid": 3,
-          "sentence_index": 1,
-          "text": "Curtis turned to—Procter & Gamble, Colgate-Palmolive and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that corporations could use to introduce new routines.",
-          "translation": "柯蒂斯求助于宝洁公司、高露洁棕榄公司和联合利华公司，这些公司投资了数亿美元，寻找消费者生活中的微妙线索，企业可以利用这些线索来引入新的生活习惯。",
-          "slashed_text": "Curtis turned to — / Procter & Gamble , / Colgate-Palmolive and Unilever — / had invested hundreds of millions of dollars finding the subtle cues / in consumers’ lives / that corporations could use to introduce new routines.",
-          "chunk_translation": "求助的公司—— / 宝洁、 / 高露洁棕榄和联合利华—— / 已经投入了数亿美元去寻找微妙的暗示 / 在消费者的日常生活中 / 企业可以利用这些暗示来引入新的生活惯例",
+          "text": "The companies that Dr. Curtis turned to—Procter & Gamble, Colgate-Palmolive and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that corporations could use to introduce new routines.",
+          "translation": "柯蒂斯博士求助的几家公司——宝洁、高露洁棕榄和联合利华——已经投入数亿美元，寻找消费者生活中企业可以用来引入新习惯的微妙线索。",
+          "slashed_text": "The companies that Dr. Curtis turned to—Procter & Gamble, Colgate-Palmolive and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that corporations could use to introduce new routines.",
+          "chunk_translation": "柯蒂斯博士求助的几家公司——宝洁、高露洁棕榄和联合利华——已经投入数亿美元，寻找消费者生活中企业可以用来引入新习惯的微妙线索。",
           "syntax": {
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Curtis turned to ... had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives",
-                "explanation": "主干为主谓宾补结构。承接上句主语 The companies，that Dr. Curtis turned to（柯蒂斯博士求助的企业）为定语从句；破折号间为其同位语；谓语为过去完成时 had invested；宾语 hundreds of millions of dollars；现在分词短语 finding... 作投资金额的目的/伴随补足语，宾语为 the subtle cues in consumers’ lives（消费者生活中的微妙线索）。"
+                "content": "The companies ... had invested hundreds of millions of dollars ...",
+                "explanation": "The companies 是主语，had invested 是过去完成时谓语；中间的 that 从句和破折号中的公司名单都在说明主语。"
               },
               {
-                "type": "同位语与定语从句",
-                "content": "—Procter & Gamble, Colgate-Palmolive and Unilever— ... that corporations could use to introduce new routines",
-                "explanation": "破折号间宝洁、高露洁、联合利华三大巨头列举为 companies 的同位语；that 引导定语从句修饰先行词 subtle cues，在从句中作 use 的宾语，动词不定式 to introduce new routines（引入全新日常流程）作目的状语。"
-              },
-              {
-                "type": "语篇逻辑与考点",
-                "content": "invested hundreds of millions of dollars finding the subtle cues ... to introduce new routines",
-                "explanation": "核心商业运作逻辑。量化消费品巨头为破译“生活线索—行为惯性”链条所倾注的数亿美元研发巨资，揭示现代商业对日常行为的深度塑造力。"
+                "type": "从句与修饰关系",
+                "content": "that Dr. Curtis turned to; cues ... that corporations could use",
+                "explanation": "第一处 that 从句修饰 companies，turn to 表示求助于；第二处 that 从句修饰 cues，说明这些线索的用途。"
               }
             ]
           }
@@ -5013,44 +4930,21 @@
           "sid": 16,
           "pid": 6,
           "sentence_index": 1,
-          "text": "Through experiments and observation, social scientists like Dr.",
-          "translation": "通过实验和观察，像博士这样的社会科学家。",
-          "slashed_text": "Through experiments and observation , / social scientists like Dr.",
-          "chunk_translation": "通过实验和观察 / 像伯宁博士这样的社会科学家",
-          "syntax": {
-            "breakdown": [
-              {
-                "type": "主干介词短语片段",
-                "content": "Through experiments and observation, social scientists like Dr.",
-                "explanation": "介词短语 Through experiments and observation 作方式状语；主语为 social scientists，后接介词短语 like Dr. (Berning) 作举例修饰。（注：因排版中 Dr. 缩写点与下句断开）"
-              },
-              {
-                "type": "语篇逻辑与考点",
-                "content": "Through experiments and observation",
-                "explanation": "研究方法交代。表明后文结论基于科学实证与长期行为学观察，并非空穴来风。"
-              }
-            ]
-          }
-        },
-        {
-          "sid": 17,
-          "pid": 6,
-          "sentence_index": 2,
-          "text": "Berning have learned that there is power in tying certain behaviors to habitual cues through ruthless advertising.",
-          "translation": "伯宁了解到，通过无情的广告将某些行为与习惯暗示联系起来是有力量的。",
-          "slashed_text": "Berning have learned / that there is power / in tying certain behaviors to habitual cues / through ruthless advertising.",
-          "chunk_translation": "已经认识到 / 蕴含着巨大的力量 / 将特定行为与习惯性暗示绑定在一起 / 通过铺天盖地的广告宣传",
+          "text": "Through experiments and observation, social scientists like Dr. Berning have learned that there is power in tying certain behaviors to habitual cues through ruthless advertising.",
+          "translation": "通过实验和观察，像伯宁博士这样的社会科学家发现，借助强势、反复的广告将特定行为与习惯线索联系起来，能够产生影响。",
+          "slashed_text": "Through experiments and observation, social scientists like Dr. Berning have learned that there is power in tying certain behaviors to habitual cues through ruthless advertising.",
+          "chunk_translation": "通过实验和观察，像伯宁博士这样的社会科学家发现，借助强势、反复的广告将特定行为与习惯线索联系起来，能够产生影响。",
           "syntax": {
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Berning have learned that there is power in tying certain behaviors to habitual cues through ruthless advertising",
-                "explanation": "主干为主谓宾（宾语从句）结构。承接上句主语；谓语动词 have learned（已经认识到）；that 引导宾语从句，从句内部为 there is power in... 结构，介词 in 后接动名词短语 tying certain behaviors to habitual cues（将特定行为强行绑定到习惯性线索上），方式介词短语 through ruthless advertising 说明手段的残酷与无孔不入。"
+                "content": "social scientists ... have learned that ...",
+                "explanation": "social scientists 是主语，have learned 是谓语，that 引导所获发现的内容。like Dr. Berning 举例说明主语，不构成独立句。"
               },
               {
-                "type": "语篇逻辑与考点",
-                "content": "power in tying certain behaviors to habitual cues through ruthless advertising",
-                "explanation": "篇章转折伏笔。用 ruthless advertising（无情/铺天盖地的轰炸式广告）这一贬义色彩形容词，打破前文商业成功的赞歌，敏锐引发对操纵消费者心理的道德警惕。"
+                "type": "从句与修饰关系",
+                "content": "there is power in tying certain behaviors to habitual cues",
+                "explanation": "there is 为存在句结构；in 后接动名词 tying，tie A to B 表示把 A 与 B 联系起来。"
               }
             ]
           }

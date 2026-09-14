@@ -4597,49 +4597,21 @@
           "sid": 7,
           "pid": 2,
           "sentence_index": 0,
-          "text": "Like other start-up investors, Mr.",
-          "translation": "与其他初创企业投资者一样，",
-          "slashed_text": "Like other start-up investors , / Mr.",
-          "chunk_translation": "与其他初创企业投资者一样， / 阿诺德先生",
+          "text": "Like other start-up investors, Mr. Arnold’s own business often depends on selling start- ups to larger tech companies, though he admits to mixed feelings about the result: “I think these things are good for me, if I put my selfish hat on.",
+          "translation": "与其他初创企业投资者一样，阿诺德先生自己的业务往往依赖于把初创公司出售给更大的科技公司，尽管他承认对这种结果感受复杂：“如果站在自利的立场看，我认为这些事情对我有好处。”",
+          "slashed_text": "Like other start-up investors, Mr. Arnold’s own business often depends on selling start- ups to larger tech companies, though he admits to mixed feelings about the result: “I think these things are good for me, if I put my selfish hat on.",
+          "chunk_translation": "与其他初创企业投资者一样，阿诺德先生自己的业务往往依赖于把初创公司出售给更大的科技公司，尽管他承认对这种结果感受复杂：“如果站在自利的立场看，我认为这些事情对我有好处。”",
           "syntax": {
             "breakdown": [
               {
                 "type": "主干剖析",
-                "content": "Like other start-up investors, Mr.",
-                "explanation": "本句为语料库分句切分留下的介词短语状语 + 人名尊称残段（与下一句 SID 8 合并方构成完整主谓结构）。介词短语 Like other start-up investors 作比较/方式状语，意为“正如其他初创企业投资人一样”；Mr. 为主语专有名词 Arnold 的前置头衔。"
+                "content": "Mr. Arnold’s own business often depends on selling start-ups to larger tech companies",
+                "explanation": "主语是 Arnold’s own business，核心谓语 depends on；on 后接动名词 selling，sell A to B 表示将 A 出售给 B。"
               },
               {
-                "type": "语篇逻辑与考点",
-                "content": "Like other start-up investors, Mr. (Arnold’s own business...)",
-                "explanation": "投资人双重立场切入。作者在此引入资深投资人保罗·阿诺德作为风投圈内既得利益者的典型标本，交代其职业背景，为后文展示其在“个人暴利”与“国家创新命脉”之间的深层灵魂拷问打下铺垫。"
-              }
-            ]
-          }
-        },
-        {
-          "sid": 8,
-          "pid": 2,
-          "sentence_index": 1,
-          "text": "Arnold’s own business often depends on selling start- ups to larger tech companies, though he admits to mixed feelings about the result: “I think these things are good for me, if I put my selfish hat on.",
-          "translation": "阿诺德自己的生意常常依赖于将初创企业出售给更大的科技公司，尽管他承认对结果的感受很复杂：“我认为，如果我戴上自私的帽子，这些事情对我有好处。",
-          "slashed_text": "Arnold’s own business often depends / on selling start- ups to larger tech companies , / though he admits to mixed feelings about the result : / “I think these things are good for me , / if I put my selfish hat on.",
-          "chunk_translation": "自己的业务也常常依赖于 / 将初创公司出售给更大的科技巨头， / 尽管他承认自己对这一结果心情复杂： / “我认为这些事情对我有利， / 如果从自私的角度来看。",
-          "syntax": {
-            "breakdown": [
-              {
-                "type": "主干剖析",
-                "content": "Arnold’s own business often depends on selling start-ups to larger tech companies ... though he admits to mixed feelings",
-                "explanation": "主干为主谓宾结构。主语 Arnold’s own business（阿诺德自己的业务）；频度副词 often；谓语动词短语 depends on（依赖于）；动名词短语 selling start-ups to larger tech companies（将初创公司卖给大型科技公司）作介词宾语；though 引导让步状语从句。"
-              },
-              {
-                "type": "从句剖析与条件状语从句",
-                "content": "though he admits to mixed feelings about the result: “I think these things are good for me, if I put my selfish hat on",
-                "explanation": "① though 引导让步状语从句修饰主句，从句主语 he，谓语 admits to（承认），宾语 mixed feelings（复杂的感受），介词短语 about the result 作后置定语；② 冒号后直接引语为主谓宾结构 I think，省略 that 的宾语从句 these things are good for me（这些收购对我有利）；③ if 引导条件状语从句 if I put my selfish hat on（如果我从自私的角度考虑）。"
-              },
-              {
-                "type": "语篇逻辑与考点",
-                "content": "depends on selling start-ups ... these things are good for me, if I put my selfish hat on",
-                "explanation": "既得利益与道德冲突揭示（Q33 核心铺垫）。阿诺德坦白其商业模式完全靠卖初创公司给大厂套现退出，这种并购给投资人带来了巨额利润（good for me，排除 Q33 选项 D 认为挫伤投资人），从而反衬出下文他对国家宏观经济的忧虑出自客观公心。"
+                "type": "从句与修饰关系",
+                "content": "though he admits to mixed feelings about the result",
+                "explanation": "though 引导让步从句；冒号后的话来自 Arnold，不应直接等同于作者对并购的立场。"
               }
             ]
           }
