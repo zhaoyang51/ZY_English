@@ -153,6 +153,31 @@ async function run() {
   assert.equal(await evaluate('document.querySelectorAll(".mock-q-card").length'), 5);
   await evaluate('document.querySelector("#vocabModeBtn").click()');
   assert.ok(await evaluate('document.querySelector("#vocabSection").textContent.length > 100'));
+  await send('Emulation.setTouchEmulationEnabled', { enabled: true });
+  for (const width of [390, 768, 1024, 1366]) {
+    await send('Emulation.setDeviceMetricsOverride', { width, height: 844, deviceScaleFactor: 1, mobile: true });
+    assert.equal(await evaluate('document.querySelector("#vocabBtnStarFront").textContent'), '☆');
+    await tap('#vocabBtnStarFront');
+    assert.equal(await evaluate('document.querySelector("#vocabBtnStarBack").textContent'), '★');
+    assert.equal(await evaluate('document.querySelector("#vocabBtnStarBack").getAttribute("aria-pressed")'), 'true');
+    await tap('#vocabBtnStarFront');
+    assert.equal(await evaluate('document.querySelector("#vocabBtnStarBack").textContent'), '☆');
+    const beforeNext = await evaluate('document.querySelector("#vocabSessionProgressText").textContent');
+    const beforeRatings = await evaluate('localStorage.getItem("KAOYAN_VOCAB_PROGRESS_V2")');
+    await tap('#vocabBtnNextFront');
+    assert.notEqual(await evaluate('document.querySelector("#vocabSessionProgressText").textContent'), beforeNext);
+    await tap('#vocabWordFront');
+    assert.ok(await evaluate('document.querySelector("#vocabCardFlipper").classList.contains("is-flipped")'));
+    // Force a long explanation to ensure buttons remain reachable, without an inner scroller.
+    await evaluate('document.querySelector("#vocabSentenceZh").textContent="长例句与译文测试。".repeat(180)');
+    assert.ok(await evaluate('getComputedStyle(document.querySelector("#vocabFaceBack")).overflowY === "visible"'));
+    const backBefore = await evaluate('document.querySelector("#vocabSessionProgressText").textContent');
+    if (width === 390) { await reveal('#vocabBtnNext'); await screenshot('vocab-mobile-controls.png'); }
+    await tap('#vocabBtnNext');
+    assert.notEqual(await evaluate('document.querySelector("#vocabSessionProgressText").textContent'), backBefore);
+    assert.equal(await evaluate('localStorage.getItem("KAOYAN_VOCAB_PROGRESS_V2")'), beforeRatings, 'Next must not record a grade');
+  }
+  await send('Emulation.setTouchEmulationEnabled', { enabled: false });
   // Independent vocabulary filters fetch missing context, but never all years at once.
   await select('#vocabYearSelect', '2015');
   await select('#vocabYearSelect', '2016');
@@ -211,6 +236,18 @@ async function evaluate(expression) {
   return result.result.value;
 }
 async function ready() { await poll(() => evaluate('document.querySelector("#dataLoadStatus")?.hidden && document.querySelector("#mainLayout").getAttribute("aria-busy")==="false"')); }
+async function reveal(selector) {
+  await evaluate(`document.querySelector(${JSON.stringify(selector)}).scrollIntoView({block:'center',behavior:'instant'})`);
+  await evaluate('new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)))');
+}
+async function tap(selector) {
+  await reveal(selector);
+  const point = await evaluate(`(()=>{const e=document.querySelector(${JSON.stringify(selector)});const r=e.getBoundingClientRect();const x=r.left+r.width/2,y=r.top+r.height/2;return {x,y,hit:e.contains(document.elementFromPoint(x,y))}})()`);
+  assert.ok(point.hit, `Touch target obstructed: ${selector} ${JSON.stringify(point)}`);
+  await send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: [{ x: point.x, y: point.y }] });
+  await send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] });
+  await evaluate('new Promise(resolve=>requestAnimationFrame(resolve))');
+}
 async function select(selector, value) {
   await evaluate(`(()=>{const s=document.querySelector(${JSON.stringify(selector)});s.value=${JSON.stringify(value)};s.dispatchEvent(new Event('change',{bubbles:true}))})()`);
   if (selector === '#yearSelect' || selector === '#textSelect') await ready();

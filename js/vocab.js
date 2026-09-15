@@ -275,7 +275,7 @@
                   <span class="vocab-chip-provenance" id="vocabProvenanceFront">2020 · Text 1</span>
                   <span class="vocab-chip-status" id="vocabBadgeFront">🌱 未学习</span>
                 </div>
-                <button class="vocab-star-btn" id="vocabBtnStarFront" title="收藏至生词本 (快捷键 S)">⭐</button>
+                <button class="vocab-star-btn" id="vocabBtnStarFront" aria-label="收藏单词" aria-pressed="false" title="收藏至生词本 (快捷键 S)">☆</button>
               </div>
 
               <div class="vocab-card-front-content">
@@ -302,6 +302,9 @@
                     <span class="grade-subtitle" id="vocabTimeGoodFront">+12小时</span>
                   </button>
                 </div>
+                <div class="vocab-sub-actions">
+                  <button class="vocab-sub-btn" id="vocabBtnNextFront" title="跳过当前单词，不改变熟练度">下一个（不评分） ▶</button>
+                </div>
               </div>
             </div>
 
@@ -313,7 +316,7 @@
                   <span class="vocab-chip-provenance" id="vocabProvenanceBack">2020 · Text 1</span>
                   <span class="vocab-chip-status" id="vocabBadgeBack">🌱 未学习</span>
                 </div>
-                <button class="vocab-star-btn" id="vocabBtnStarBack" title="收藏至生词本 (快捷键 S)">⭐</button>
+                <button class="vocab-star-btn" id="vocabBtnStarBack" aria-label="收藏单词" aria-pressed="false" title="收藏至生词本 (快捷键 S)">☆</button>
               </div>
 
               <div class="vocab-card-back-content">
@@ -611,6 +614,10 @@
       // 11. Sub-actions
       els.btnUndo.onclick = () => this.undoLastGrade();
       els.btnNext.onclick = () => this.goToNextCard();
+      document.getElementById('vocabBtnNextFront').onclick = e => {
+        e.stopPropagation();
+        this.goToNextCard();
+      };
 
       // 12. Reset Current Scope
       if (els.btnResetFilter) {
@@ -872,7 +879,9 @@
       [els.btnStarFront, els.btnStarBack].forEach(btn => {
         if (btn) {
           btn.classList.toggle('is-starred', !!isStarred);
-          btn.textContent = isStarred ? '★' : '⭐';
+          btn.textContent = isStarred ? '★' : '☆';
+          btn.setAttribute('aria-pressed', String(!!isStarred));
+          btn.setAttribute('aria-label', isStarred ? '取消收藏单词' : '收藏单词');
           btn.title = isStarred ? '已收藏在生词本 (点击取消)' : '收藏到生词本 (快捷键 S)';
         }
       });
@@ -1099,7 +1108,9 @@
       [els.btnStarFront, els.btnStarBack].forEach(btn => {
         if (btn) {
           btn.classList.toggle('is-starred', isStarred);
-          btn.textContent = isStarred ? '★' : '⭐';
+          btn.textContent = isStarred ? '★' : '☆';
+          btn.setAttribute('aria-pressed', String(!!isStarred));
+          btn.setAttribute('aria-label', isStarred ? '取消收藏单词' : '收藏单词');
         }
       });
 

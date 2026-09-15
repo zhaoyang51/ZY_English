@@ -407,6 +407,38 @@ body.theme-parchment .vocab-face {
   overflow-y: auto;
 }
 
+/* Keep long definitions from shrinking the controls inside desktop cards. */
+.vocab-face > * { flex-shrink: 0; }
+.vocab-face-front { pointer-events: auto; }
+.vocab-face-back { pointer-events: none; }
+.is-flipped .vocab-face-front { pointer-events: none; }
+.is-flipped .vocab-face-back { pointer-events: auto; }
+
+/* Touch layouts use a single, naturally sized face instead of a nested 3D scroller. */
+@media (max-width: 1024px), (pointer: coarse) {
+  body.mode-vocab { height: auto; overflow-y: auto; }
+  body.mode-vocab .vocab-section { height: auto; overflow: visible; }
+  .vocab-card-scene { perspective: none; }
+  .vocab-card-flipper, .vocab-card-flipper.is-flipped { transform: none; min-height: 0; }
+  .vocab-card-scene .vocab-face {
+    position: relative;
+    inset: auto;
+    transform: none;
+    min-height: 0;
+    overflow: visible;
+    display: none;
+    padding: 16px;
+    gap: 16px;
+  }
+  .vocab-card-flipper:not(.is-flipped) .vocab-face-front,
+  .vocab-card-flipper.is-flipped .vocab-face-back { display: flex; }
+  .vocab-assessment-area { width: 100%; }
+  .vocab-sub-actions { flex-wrap: wrap; }
+  .vocab-card-scene .vocab-sub-btn { min-height: 44px; flex: 1 1 auto; }
+  .vocab-card-scene .vocab-grade-btn { min-height: 48px; }
+  .vocab-section .vocab-kbd-hud { display: none; }
+}
+
 /* Card Topbar */
 .vocab-card-topbar {
   display: flex;
