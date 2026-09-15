@@ -822,6 +822,7 @@
     },
 
     renderCurrentCard() {
+      const contextSequence = this.contextSequence = (this.contextSequence || 0) + 1;
       const total = appState.currentList.length;
       this.flipCard(false);
 
@@ -916,16 +917,43 @@
       els.wordBack.textContent = word;
       els.defBack.innerHTML = `<span style="color:var(--accent);font-weight:800;margin-right:6px">[${posText}]</span> ${cleanDef}`;
 
-      // Back Sentence Box
-      if (contextSentence && contextSentence.text) {
-        els.sentenceBox.style.display = 'block';
+      // Update only context after an async load: do not flip the card or restart audio.
+      const updateContext = sentence => {
+        if (contextSequence !== this.contextSequence) return;
         const cleanW = word.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        const re = new RegExp(`(${cleanW})`, 'gi');
-        const highlightedEn = contextSentence.text.replace(re, '<mark class="vocab-kw">$1</mark>');
-        els.sentenceEn.innerHTML = highlightedEn;
-        els.sentenceZh.textContent = contextSentence.translation || '（点击精读模式查看长难句精准分层剖析）';
-      } else {
-        els.sentenceBox.style.display = 'none';
+        if (appState.studyMode === 'cloze') {
+          els.clozeBoxFront.innerHTML = sentence
+            ? `<strong>真题语境空缺：</strong><br>${sentence.text.replace(new RegExp(`\\b${cleanW}\\b`, 'gi'), '<span class="vocab-cloze-blank">[ ______ ]</span>')}`
+            : `💡 释义线索：<strong>${cleanDef}</strong>`;
+        }
+        els.sentenceBox.style.display = sentence?.text ? 'block' : 'none';
+        if (sentence?.text) {
+          els.sentenceEn.innerHTML = sentence.text.replace(new RegExp(`(${cleanW})`, 'gi'), '<mark class="vocab-kw">$1</mark>');
+          els.sentenceZh.textContent = sentence.translation || '（点击精读模式查看长难句精准分层剖析）';
+        }
+      };
+      updateContext(contextSentence);
+      const contextYear = Number(currentWordObj.year);
+      if (!contextSentence && window.DataLoader && !window.DataLoader.peek(contextYear) &&
+          (window.KAOYAN_MANIFEST || []).some(item => item.year === contextYear)) {
+        const loadContext = () => {
+          if (contextSequence !== this.contextSequence) return;
+          els.sentenceBox.style.display = 'block';
+          els.sentenceEn.textContent = '正在加载原文例句…';
+          els.sentenceZh.textContent = '';
+          window.DataLoader.loadYear(contextYear).then(() => {
+            updateContext(this.findExamSentence(word, contextYear, currentWordObj.text));
+          }).catch(() => {
+            if (contextSequence !== this.contextSequence) return;
+            els.sentenceEn.textContent = '原文例句加载失败，词义仍可正常查看。';
+            const retry = document.createElement('button');
+            retry.className = 'btn';
+            retry.textContent = '重试例句';
+            retry.onclick = e => { e.stopPropagation(); loadContext(); };
+            els.sentenceZh.replaceChildren(retry);
+          });
+        };
+        loadContext();
       }
 
       // Auto Audio Trigger

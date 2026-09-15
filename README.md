@@ -14,13 +14,21 @@
 
 复盘无需重新答题、填写笔记或完成任务解锁。原有做题模式仍独立保留。可导出五部分 Markdown 讲义或 Anki 词汇。
 
+## 按年份懒加载
+
+首页仅加载轻量目录和当前年份的 4 篇资料，切换年份时再按需获取。同一年内切换篇章不发起新请求；已加载年份在本次页面会话中缓存，失败可重试。词汇卡片也会按需加载原文例句，不会一次请求所有年份。
+
+以默认 2010 年为例，首屏阅读数据从约 7.08 MB 降为约 0.41 MB（目录与该年份合计，未压缩大小，减少约 94%）。这是阅读数据体积对比，不包含词典、样式等其他资源，也不代表加载时间缩短同等比例。
+
+年度脚本兼容 GitHub Pages 与直接打开本地 `index.html`。完整离线使用须保留全部项目文件；缓存并不等于网站具备离线下载功能。`all_data.js` 仍保留用于兼容与数据测试，但首页不再引用。
+
 ## 内容维护与验证
 
-年度数据位于 `data/YYYY.json`，修改后同步首页数据包：
+年度数据位于 `data/YYYY.json`，修改后生成 `data/years/YYYY.js`、带内容版本的目录及兼容数据包：
 
 ```sh
 node scripts/build-data.cjs
-node --test tests/review-content.test.cjs
+node --test tests/review-content.test.cjs tests/data-loader.test.cjs
 ```
 
 浏览器检查使用独立无头 Chrome，不操作用户浏览器；需要 Node 22+ 及 Chrome/Chromium，可通过 `REVIEW_CHROME_PATH` 指定路径：
@@ -29,6 +37,6 @@ node --test tests/review-content.test.cjs
 node tests/browser-reading.cjs
 ```
 
-推送 `main` 后由 GitHub Actions 验证并部署至 GitHub Pages。
+推送 `main` 后由 GitHub Actions 验证并部署至 GitHub Pages。数据更新会改变年度资源的内容版本；发布时也应更新首页的 `manifest.js` 版本参数，以避开目录的旧缓存。
 
 本轮通用显示和数据验证覆盖 68 篇，人工内容修订重点为 2024—2026 年 12 篇及部分早期篇目。修订依据是项目内英文全文，尚未完成所有材料与官方试卷的逐篇真实性核验。详细范围见[复盘内容优化计划](docs/REVIEW_CONTENT_PLAN.md)。

@@ -76,6 +76,8 @@
     </div>
   </header>
 
+  <div id="dataLoadStatus" role="status" aria-live="polite" style="padding:12px 20px;color:var(--mode-color);background:var(--card-bg)">正在加载阅读资料…如果长时间没有显示内容，请检查网络后刷新页面。</div>
+
   <!-- Mobile View Switcher Tabs -->
   <nav class="mobile-tabs-bar" id="mobileTabsBar">
     <button class="mobile-tab-btn active" id="tabLeftBtn">📖 试卷原文</button>
@@ -226,7 +228,8 @@
   </div>
 
   <!-- Pure Structured JSON Database Bridge & In-Browser Dictionary -->
-  <script src="data/all_data.js?v=20260914_reading_v1"></script>
+  <script src="data/manifest.js?v=20260914_lazy_v1"></script>
+  <script src="js/data_loader.js?v=20260914_lazy_v1"></script>
   <script src="data/vocab_dict.js"></script>
   <script src="data/vocab_bank.js"></script>
   
@@ -236,7 +239,7 @@
   <script src="js/exporter.js?v=20260914_reading_v1"></script>
   <script src="js/reader.js?v=20260903_v1"></script>
   <script src="js/quiz.js?v=20260914_reading_v1"></script>
-  <script src="js/vocab.js?v=20260908_v1"></script>
-  <script src="js/app.js?v=20260914_reading_v1"></script>
+  <script src="js/vocab.js?v=20260914_lazy_v1"></script>
+  <script src="js/app.js?v=20260914_lazy_v1"></script>
 </body>
 </html>

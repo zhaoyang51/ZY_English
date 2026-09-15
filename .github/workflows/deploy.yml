@@ -24,7 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Validate review content and rendering
-        run: node --test tests/review-content.test.cjs
+        run: node --test tests/review-content.test.cjs tests/data-loader.test.cjs
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact

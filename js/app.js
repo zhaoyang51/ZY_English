@@ -16,6 +16,8 @@
     steps: []
   };
 
+  let textLoadSequence = 0;
+
   // Study Time Tracker (Heartbeat every 5 seconds)
   setInterval(() => {
     if (AppState.textData && !document.hidden) {
@@ -338,17 +340,49 @@
     });
   }
 
-  function loadCurrentText() {
-    if (window.KAOYAN_PURE_DATA && window.KAOYAN_PURE_DATA[AppState.year]) {
-      const yData = window.KAOYAN_PURE_DATA[AppState.year];
-      AppState.textData = yData.texts.find(t => t.text_id === AppState.textId);
-      if (AppState.textData && !AppState.textData.year) {
-        AppState.textData.year = yData.year || AppState.year;
-      }
-    }
-
-    if (!AppState.textData) {
-      console.error('Data not found for:', AppState.year, AppState.textId);
+  async function loadCurrentText() {
+    const sequence = ++textLoadSequence;
+    const year = AppState.year;
+    const textId = AppState.textId;
+    applyTheme(AppState.theme);
+    AppState.textData = null;
+    AppState.steps = [];
+    AppState.stepIndex = 0;
+    updateJumpDropdown();
+    updateUIControls();
+    const status = document.getElementById('dataLoadStatus');
+    const layout = document.getElementById('mainLayout');
+    const vocab = document.getElementById('vocabSection');
+    layout.inert = true;
+    vocab.inert = true;
+    vocab.style.visibility = 'hidden';
+    layout.setAttribute('aria-busy', 'true');
+    document.getElementById('examPaper').textContent = '';
+    document.getElementById('workspaceContent').textContent = '';
+    status.hidden = false;
+    status.textContent = `正在加载 ${year} 年阅读资料…`;
+    try {
+      // Keep switching between already loaded texts synchronous; only new years wait.
+      const yData = window.DataLoader.peek(year) || await window.DataLoader.loadYear(year);
+      if (sequence !== textLoadSequence) return;
+      const text = yData.texts.find(t => t.text_id === textId);
+      if (!text) throw new Error('未找到该篇阅读资料');
+      AppState.textData = text;
+      status.hidden = true;
+      layout.inert = false;
+      vocab.inert = false;
+      vocab.style.visibility = '';
+      layout.setAttribute('aria-busy', 'false');
+    } catch (error) {
+      if (sequence !== textLoadSequence) return;
+      layout.setAttribute('aria-busy', 'false');
+      status.textContent = `${year} 年资料加载失败，可重试或选择其他年份。`;
+      const retry = document.createElement('button');
+      retry.id = 'retryDataLoadBtn';
+      retry.className = 'btn';
+      retry.textContent = '重新加载';
+      retry.onclick = () => loadCurrentText();
+      status.appendChild(retry);
       return;
     }
 
@@ -513,6 +547,7 @@
   window.applyVocabPreferences = applyVocabPreferences;
 
   function renderCurrentStep(options = {}) {
+    if (!AppState.textData) return;
     if (AppState.mode === 'practice' && AppState.practiceSubmode === 'mock') {
       window.QuizModule.renderMockExam(AppState.textData, 'workspaceContent');
       return;
@@ -563,13 +598,18 @@
 
     const isMock = AppState.mode === 'practice' && AppState.practiceSubmode === 'mock';
     const isVocab = AppState.mode === 'vocab';
+    const unavailable = !AppState.textData;
+    for (const id of ['resetBtn', 'toggleAllBtn', 'jumpSelect', 'btnExpCurrentAnki', 'btnExpNotesMd']) {
+      const control = document.getElementById(id);
+      if (control) control.disabled = unavailable;
+    }
 
     if (floatingNavBar) {
       floatingNavBar.style.display = (isMock || isVocab) ? 'none' : 'flex';
     }
 
-    const isFirst = AppState.stepIndex <= 0;
-    const isLast = AppState.stepIndex >= AppState.steps.length - 1;
+    const isFirst = unavailable || AppState.stepIndex <= 0;
+    const isLast = unavailable || AppState.stepIndex >= AppState.steps.length - 1;
     const isFull = AppState.isFullMode;
 
     if (prevBtn) prevBtn.disabled = isMock || isVocab || isFull || isFirst;
@@ -587,6 +627,10 @@
     }
     if (progressText) progressText.textContent = progStr;
     if (floatProgressText) floatProgressText.textContent = progStr;
+    if (unavailable) {
+      if (progressText) progressText.textContent = '资料未就绪';
+      if (floatProgressText) floatProgressText.textContent = '资料未就绪';
+    }
 
     if (toggleAllBtn) {
       toggleAllBtn.style.display = isMock ? 'none' : 'inline-flex';
@@ -615,6 +659,7 @@
   }
 
   function saveState() {
+    if (!AppState.textData) return;
     window.StorageModule.saveProgress({
       year: AppState.year,
       textId: AppState.textId,
@@ -1501,8 +1546,8 @@
     // 2. Year and Text dropdowns
     document.getElementById('yearSelect').addEventListener('change', e => {
       AppState.year = Number(e.target.value);
-      updateTextDropdown();
       AppState.textId = 1;
+      updateTextDropdown();
       AppState.savedStepIndex = 0;
       loadCurrentText();
     });

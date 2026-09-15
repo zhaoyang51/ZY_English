@@ -5,6 +5,7 @@ const os = require('node:os');
 const http = require('node:http');
 const { spawn } = require('node:child_process');
 const { once } = require('node:events');
+const { pathToFileURL } = require('node:url');
 const assert = require('node:assert/strict');
 const root = path.resolve(__dirname, '..');
 const chromePath = process.env.REVIEW_CHROME_PATH || [
@@ -16,14 +17,23 @@ if (!chromePath) throw new Error('Set REVIEW_CHROME_PATH to a Chrome/Chromium ex
 const artifacts = path.join(root, 'scratch', 'reading-check');
 fs.mkdirSync(artifacts, { recursive: true });
 const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'english-review-'));
+const requests = [];
+const failures = new Map([['/data/years/2010.js', 1]]);
+const delays = new Map([['/data/years/2011.js', 800], ['/data/years/2013.js', 800], ['/data/years/2015.js', 800]]);
 const server = http.createServer((req, res) => {
   const pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname);
+  requests.push(pathname);
+  if (failures.get(pathname)) {
+    failures.set(pathname, failures.get(pathname) - 1);
+    res.writeHead(503); return res.end('Simulated temporary failure');
+  }
   const file = path.resolve(root, '.' + (pathname === '/' ? '/index.html' : pathname));
   if (!file.startsWith(root + path.sep)) { res.writeHead(403); return res.end(); }
   fs.readFile(file, (err, data) => {
     if (err) { res.writeHead(404); return res.end(); }
     res.setHeader('Content-Type', ({ '.html': 'text/html', '.css': 'text/css', '.js': 'application/javascript', '.json': 'application/json' })[path.extname(file)] || 'application/octet-stream');
-    res.end(data);
+    if (delays.has(pathname)) setTimeout(() => res.end(data), delays.get(pathname));
+    else res.end(data);
   });
 });
 let chrome;
@@ -59,6 +69,13 @@ async function run() {
   await send('Browser.setDownloadBehavior', { behavior: 'allow', downloadPath: artifacts });
   await send('Page.navigate', { url: `http://127.0.0.1:${server.address().port}/` });
   await poll(() => evaluate('document.querySelector("#yearSelect")?.options.length === 17'));
+  await poll(() => evaluate('!!document.querySelector("#retryDataLoadBtn")'));
+  assert.ok(await evaluate('document.querySelector("#nextBtn").disabled && document.querySelector("#btnExpNotesMd").disabled'));
+  await evaluate('document.querySelector("#retryDataLoadBtn").click()');
+  await ready();
+  assert.deepEqual(await evaluate('Object.keys(window.KAOYAN_PURE_DATA)'), ['2010']);
+  assert.deepEqual([...new Set(requests.filter(p => /\/data\/years\//.test(p)))], ['/data/years/2010.js']);
+  assert.ok(!requests.includes('/data/all_data.js'));
   await evaluate('document.querySelector("#reviewModeBtn").click()');
   await jump(1);
   assert.ok(await evaluate('!!document.querySelector(".vocab-matrix-wrap")'));
@@ -125,11 +142,63 @@ async function run() {
   assert.ok(bounds.scroll <= bounds.width + 2, JSON.stringify(bounds));
   const navBounds = await evaluate('(()=>{const r=document.querySelector(".floating-nav-bar").getBoundingClientRect();return {left:r.left,right:r.right,width:innerWidth}})()');
   assert.ok(navBounds.left >= 0 && navBounds.right <= navBounds.width, JSON.stringify(navBounds));
+  for (const width of [768, 1024]) {
+    await send('Emulation.setDeviceMetricsOverride', { width, height: 1024, deviceScaleFactor: 1, mobile: true });
+    await evaluate('document.querySelector("#tabRightBtn").click()');
+    assert.ok(await evaluate('getComputedStyle(document.querySelector(".right-panel")).display !== "none" && document.querySelector("#workspaceContent").textContent.length > 100'));
+    await evaluate('document.querySelector("#tabLeftBtn").click()');
+    assert.ok(await evaluate('getComputedStyle(document.querySelector(".left-panel")).display !== "none" && document.querySelector("#examPaper").textContent.length > 100'));
+  }
   await evaluate('document.querySelector("#practiceModeBtn").click();document.querySelector("#submodeMockBtn").click()');
   assert.equal(await evaluate('document.querySelectorAll(".mock-q-card").length'), 5);
   await evaluate('document.querySelector("#vocabModeBtn").click()');
   assert.ok(await evaluate('document.querySelector("#vocabSection").textContent.length > 100'));
+  // Independent vocabulary filters fetch missing context, but never all years at once.
+  await select('#vocabYearSelect', '2015');
+  await select('#vocabYearSelect', '2016');
+  await poll(() => evaluate('!!window.DataLoader.peek(2015) && !!window.DataLoader.peek(2016)'));
+  const contextCheck = await evaluate('(()=>{const w=document.querySelector("#vocabWordFront").textContent;const t=document.querySelector("#vocabTextSelect").value;const s=window.VocabModule.findExamSentence(w,2016,t);return {expected:s?.text,actual:document.querySelector("#vocabSentenceEn").textContent}})()');
+  assert.ok(contextCheck.expected, 'Selected vocabulary has an authentic context');
+  assert.equal(contextCheck.actual, contextCheck.expected, 'A slower older vocabulary request must not replace the current context');
+  await evaluate('document.querySelector("#reviewModeBtn").click()');
+  // Fast year/text/mode changes must render only the newest selection.
+  await evaluate('(()=>{const s=document.querySelector("#yearSelect");s.value="2011";s.dispatchEvent(new Event("change"));s.value="2012";s.dispatchEvent(new Event("change"));const t=document.querySelector("#textSelect");t.value="3";t.dispatchEvent(new Event("change"));document.querySelector("#practiceModeBtn").click()})()');
+  await ready();
+  await poll(() => evaluate('!!window.DataLoader.peek(2011)'));
+  assert.ok(await evaluate('document.querySelector("#examPaper").textContent.includes(window.KAOYAN_PURE_DATA[2012].texts[2].paragraphs[0].text.slice(0,40))'));
+  assert.equal(await evaluate('document.querySelector("#textSelect").value'), '3');
+  assert.ok(await evaluate('document.body.classList.contains("mode-practice")'));
+  await select('#yearSelect', '2024');
+  await select('#textSelect', '4');
+  await select('#yearSelect', '2012');
+  assert.equal(await evaluate('document.querySelector("#textSelect").value'), '1');
+  assert.equal(requests.filter(p => p === '/data/years/2012.js').length, 1);
+  // A late failure cannot overwrite a newer, successful cached selection.
+  failures.set('/data/years/2014.js', 1);
+  await evaluate('(()=>{const s=document.querySelector("#yearSelect");s.value="2014";s.dispatchEvent(new Event("change"));s.value="2024";s.dispatchEvent(new Event("change"))})()');
+  await ready();
+  await poll(async () => failures.get('/data/years/2014.js') === 0);
+  assert.ok(await evaluate('document.querySelector("#dataLoadStatus").hidden'));
+  // Restored progress must survive the asynchronous initial request.
+  await select('#yearSelect', '2013');
+  await select('#textSelect', '2');
+  await evaluate('document.querySelector("#reviewModeBtn").click()');
+  await jump(5);
+  const savedStep = await evaluate('window.StorageModule.loadProgress().stepIndex');
+  await send('Page.reload', { ignoreCache: true });
+  await poll(() => evaluate('document.querySelector("#yearSelect")?.value === "2013" && !!window.DataLoader?.peek(2013) && document.querySelector("#dataLoadStatus").hidden'));
+  assert.equal(await evaluate('window.StorageModule.loadProgress().stepIndex'), savedStep);
+  assert.equal(await evaluate('document.querySelector("#textSelect").value'), '2');
+  assert.deepEqual(await evaluate('Object.keys(window.KAOYAN_PURE_DATA)'), ['2013']);
+  assert.ok(!requests.includes('/data/all_data.js'));
+  // Script-based year assets also preserve direct local-file use without fetch/CORS.
+  await send('Page.navigate', { url: pathToFileURL(path.join(root, 'index.html')).href });
+  await poll(() => evaluate('location.protocol === "file:" && document.querySelector("#yearSelect")?.value === "2010" && !!window.DataLoader?.peek(2010) && document.querySelector("#dataLoadStatus").hidden'));
+  assert.deepEqual(await evaluate('Object.keys(window.KAOYAN_PURE_DATA)'), ['2010']);
+  await select('#yearSelect', '2026');
+  assert.ok(await evaluate('document.querySelector("#examPaper").textContent.length > 100'));
   assert.deepEqual(errors, []);
+  console.log('Lazy loading PASS: initial-year only, failure/retry, shared cache, stale responses, vocabulary context, restored progress, tablet layouts and local-file use.');
   console.log('Browser PASS: reading-only sections 1-5, source context, direct answers, static headings, full view, copying, filtering, downloaded notes, themes, mobile, practice and vocabulary.');
   console.log('Artifacts: ' + artifacts);
 }
@@ -141,7 +210,11 @@ async function evaluate(expression) {
   if (result.exceptionDetails) throw new Error(result.exceptionDetails.exception?.description || result.exceptionDetails.text);
   return result.result.value;
 }
-async function select(selector, value) { return evaluate(`(()=>{const s=document.querySelector(${JSON.stringify(selector)});s.value=${JSON.stringify(value)};s.dispatchEvent(new Event('change',{bubbles:true}))})()`); }
+async function ready() { await poll(() => evaluate('document.querySelector("#dataLoadStatus")?.hidden && document.querySelector("#mainLayout").getAttribute("aria-busy")==="false"')); }
+async function select(selector, value) {
+  await evaluate(`(()=>{const s=document.querySelector(${JSON.stringify(selector)});s.value=${JSON.stringify(value)};s.dispatchEvent(new Event('change',{bubbles:true}))})()`);
+  if (selector === '#yearSelect' || selector === '#textSelect') await ready();
+}
 async function jump(section) { return evaluate(`(()=>{const s=document.querySelector('#jumpSelect');const o=Array.from(s.options).find(o=>o.textContent.startsWith('${section}.'));if(!o)throw Error('Missing section ${section}');s.value=o.value;s.dispatchEvent(new Event('change',{bubbles:true}))})()`); }
 async function screenshot(name) {
   const { data } = await send('Page.captureScreenshot', { format: 'png' });
