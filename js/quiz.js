@@ -196,10 +196,14 @@
           `;
         }
 
+        const allVocab = textData.paragraphs ? textData.paragraphs.flatMap(p => p.vocabulary || []) : [];
+        const formatText = (window.ReviewContent && window.ReviewContent.formatQuestionText) || (t => t);
+        const formattedStem = formatText(q.stem, allVocab);
+
         html += `
           <div class="${cardClass}" id="mock-card-${q.qid}">
             <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px">
-              <div style="font-weight:700;font-size:1.05em">${q.qid}. ${q.stem}</div>
+              <div style="font-weight:700;font-size:1.05em">${q.qid}. ${formattedStem}</div>
               ${isSubmitted ? (isRight ? '<span class="correct-badge">✔ 正确</span>' : '<span class="trap-badge">✘ 错误</span>') : ''}
             </div>
             
@@ -214,13 +218,15 @@
                 }
 
                 const trapPill = (isSubmitted && !opt.is_correct) ? getTrapPillHtml(opt.trap_type) : '';
+                const formattedOpt = formatText(opt.text, allVocab);
 
                 return `
                   <div class="${optClass}" data-qid="${q.qid}" data-opt="${opt.key}" onclick="window.handleMockOptionClick(${textData.year}, ${textData.text_id}, ${q.qid}, '${opt.key}')">
                     <span style="font-weight:800;color:var(--mode-color)">[${opt.key}]</span>
-                    <span style="flex:1">${opt.text}</span>
+                    <span style="flex:1">${formattedOpt}</span>
                     ${trapPill}
                   </div>
+                  ${isSubmitted ? `<div class="opt-trans-inline show" style="margin:2px 0 6px 36px;font-size:0.88em;color:var(--muted)">${opt.text_cn || ''}</div>` : ''}
                 `;
               }).join('')}
             </div>
@@ -247,6 +253,8 @@
     buildPracticeSteps(textData) {
       const steps = [];
       const questions = textData.questions;
+      const allVocab = textData.paragraphs ? textData.paragraphs.flatMap(p => p.vocabulary || []) : [];
+      const formatText = (window.ReviewContent && window.ReviewContent.formatQuestionText) || (t => t);
 
       // 0. 阅前须知
       steps.push({
@@ -258,7 +266,7 @@
 <ol>
 <li><p><strong>考研英语骗局一</strong>：拒绝上帝视角生词全懂，带着超纲生词读宏观主旨同样能做全对；</p></li>
 <li><p><strong>考研英语骗局二</strong>：放弃考场即时信达雅机械翻译，采用意群粗读抓取核心信息；</p></li>
-<li><p><strong>考研英语骗局三</strong>：拒绝所谓单一神技秒杀，采用定位比对与写作视角交叉验证。</p></li>
+<li><p><strong>考研英语骗局三</strong>：避免逐字逐句死磕细节，依托题干与全文主旨交叉印证答案。</p></li>
 </ol>`,
         meta: {}
       });
@@ -272,10 +280,11 @@
       });
 
       questions.forEach(q => {
+        const formattedStem = formatText(q.stem, allVocab);
         steps.push({
           section: "先读题干",
           title: `${q.qid}题题干`,
-          html: `<h2>${q.qid}题题干</h2><p><strong>${q.stem}</strong></p><blockquote><p>${q.stem_cn}</p></blockquote><p>题型：<strong>${q.type}</strong>。</p><p>定位预判：<strong>第 ${q.locate_pid + 1} 段</strong></p><hr />`,
+          html: `<h2>${q.qid}题题干</h2><p><strong>${formattedStem}</strong></p><blockquote><p>${q.stem_cn}</p></blockquote><p>题型：<strong>${q.type}</strong>。</p><p>定位预判：<strong>第 ${q.locate_pid + 1} 段</strong></p><hr />`,
           meta: { qid: String(q.qid), kind: "stem", para: q.locate_pid }
         });
       });
@@ -291,12 +300,13 @@
       questions.forEach((q) => {
         const corrKey = (q.options.find(o => o.is_correct) || q.options[0]).key;
         const correctOpt = q.options.find(o => o.is_correct);
+        const formattedStem = formatText(q.stem, allVocab);
 
         // Question Intro
         steps.push({
           section: "开始做题",
           title: `第${q.qid}题（${q.type}）`,
-          html: `<h2>第${q.qid}题 · ${q.type}</h2><p><strong>题干：</strong>${q.stem}</p><blockquote><p>${q.stem_cn}</p></blockquote><p><strong>定位出处：</strong>第 ${q.locate_pid + 1} 段核心定位句</p>
+          html: `<h2>第${q.qid}题 · ${q.type}</h2><p><strong>题干：</strong>${formattedStem}</p><blockquote><p>${q.stem_cn}</p></blockquote><p><strong>定位出处：</strong>第 ${q.locate_pid + 1} 段核心定位句</p>
           <div style="margin:10px 0;padding:8px 12px;background:rgba(245, 158, 11, 0.1);border-left:3px solid #f59e0b;border-radius:0 4px 4px 0">
             <span style="font-weight:700;color:#b45309">🎯 原文定位句：</span>
             <span>${q.locate_sentence}</span>
@@ -312,11 +322,12 @@
           const badgeLabel = isC ? '★ 标准正确答案' : `干扰项 (${opt.trap_type})`;
           const trapPill = !isC ? getTrapPillHtml(opt.trap_type) : '';
           const synonymCard = isC ? getSynonymCardHtml(q, opt) : '';
+          const formattedOpt = formatText(opt.text, allVocab);
 
           steps.push({
             section: "开始做题",
             title: `第${q.qid}题 · 选项 ${opt.key}`,
-            html: `<h3>选项 ${opt.key}：${opt.text}</h3>
+            html: `<h3>选项 ${opt.key}：${formattedOpt}</h3>
 <p><strong>选项汉译：</strong>${opt.text_cn}</p>
 <p><strong>选项判定：</strong><span class="${badgeClass}">${badgeLabel}</span> ${trapPill}</p>
 ${synonymCard}
@@ -666,13 +677,17 @@ ${logic.length ? `<div class="reading-logic"><b>语篇作用与考点</b>${logic
       questions.forEach(q => {
         const corrKey = (q.options.find(o => o.is_correct) || q.options[0]).key;
         const correctOpt = q.options.find(o => o.is_correct);
+        const allVocab = textData.paragraphs ? textData.paragraphs.flatMap(p => p.vocabulary || []) : [];
+        const formatText = (window.ReviewContent && window.ReviewContent.formatQuestionText) || (t => t);
+        const formattedStem = formatText(q.stem, allVocab);
+        const formattedCorrText = correctOpt ? formatText(correctOpt.text, allVocab) : '';
 
         // Question Overview
         steps.push({
           section: 3,
           title: `${q.qid}题 · 题干、题型与核心出处`,
-          html: `<blockquote><p>${q.stem}<br>${q.stem_cn}</p></blockquote>
-<div class="reading-answer"><b>答案：${corrKey}</b> · ${correctOpt ? correctOpt.text : ''}</div>
+          html: `<blockquote><p><b>[题干]</b> ${formattedStem}<br><span style="color:var(--muted)">${q.stem_cn}</span></p></blockquote>
+<div class="reading-answer"><b>答案：${corrKey}</b> · ${formattedCorrText}</div>
 <h3>题型判定与解题策略</h3>
 <p>这是一道<strong>${q.type}</strong>，考查考生对第 <strong>${q.locate_pid + 1}</strong> 段核心事实或论证逻辑的精准理解。</p>
 <p class="reading-section-note">${window.ReviewContent.typeExplanation(q.type || '')}</p>
@@ -687,9 +702,10 @@ ${getSynonymCardHtml(q, correctOpt)}`,
           const isC = opt.is_correct;
           const a = window.ReviewContent.analysis(q, opt);
           const trapPill = !isC ? getTrapPillHtml(opt.trap_type) : '';
+          const formattedOpt = formatText(opt.text, allVocab);
 
           const leadHtml = `<section class="revealPart optionLead">
-<blockquote><p>${opt.text_cn}</p></blockquote>
+<blockquote><p><strong style="color:var(--primary)">[${opt.key}]</strong> ${formattedOpt}<br><span style="color:var(--muted)">${opt.text_cn}</span></p></blockquote>
 ${a.practice_status ? `<p><strong>选项判断：</strong>${a.practice_status}</p>` : ''}
 <p><strong>选项性质：${a.option_nature}。</strong> ${trapPill}</p>
 ${a.position ? `<p><strong>依据位置：</strong>${a.position}</p>` : ''}

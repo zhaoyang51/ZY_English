@@ -238,18 +238,117 @@ body.theme-dark .sent-trans-inline {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
 }
 
+.q-stem-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
 .q-stem {
   font-weight: 700;
   font-size: 1.04em;
-  margin-bottom: 12px;
   color: var(--ink);
   font-family: var(--font-base);
+  line-height: 1.6;
+  flex: 1;
+}
+
+.q-num-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 7px;
+  background: var(--mode-color);
+  color: #ffffff;
+  border-radius: var(--radius-sm);
+  font-size: 0.82em;
+  font-weight: 800;
+  cursor: pointer;
+  margin-right: 6px;
+  user-select: none;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.q-num-badge:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
+
+.q-trans-btn {
+  font-size: 0.78em;
+  font-weight: 700;
+  padding: 3px 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--card-bg);
+  color: var(--mode-color);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+  user-select: none;
+  flex-shrink: 0;
+}
+
+.q-trans-btn:hover {
+  background: var(--mode-color);
+  color: #ffffff;
+  border-color: var(--mode-color);
+}
+
+.stem-trans-inline,
+.opt-trans-inline {
+  display: none;
+  font-family: var(--font-base);
+  font-size: 0.88em;
+  color: #0f766e;
+  background: rgba(15, 118, 110, 0.06);
+  padding: 5px 10px;
+  margin: 4px 0 8px 0;
+  border-left: 3px solid #0f766e;
+  border-radius: 0 4px 4px 0;
+  line-height: 1.55;
+}
+
+.stem-trans-inline.show,
+.opt-trans-inline.show {
+  display: block;
+  animation: wsContentFadeIn 0.18s ease-in-out;
+}
+
+body.theme-dark .stem-trans-inline,
+body.theme-dark .opt-trans-inline {
+  background: rgba(20, 184, 166, 0.1);
+  color: #5eead4;
+  border-left-color: #14b8a6;
+}
+
+/* Individual English Word Token in Questions and Options */
+.exam-word-token {
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 0 1px;
+  transition: background-color 0.12s ease, color 0.12s ease;
+}
+
+.exam-word-token:hover {
+  background-color: rgba(37, 99, 235, 0.12);
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+body.theme-dark .exam-word-token:hover {
+  background-color: rgba(96, 165, 250, 0.2);
+  color: #93c5fd;
 }
 
 .q-options {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  margin-top: 6px;
 }
 
 .q-opt {
@@ -266,11 +365,19 @@ body.theme-dark .sent-trans-inline {
   font-weight: 700;
   color: var(--muted);
   font-family: var(--font-base);
+  margin-top: 2px;
+}
+
+.opt-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .opt-text {
   color: var(--ink);
   font-family: var(--font-base);
+  line-height: 1.6;
 }
 
 /* Trap Pills (考研经典干扰项类型标签) */

@@ -105,3 +105,34 @@ test('eight repaired abbreviation splits retain complete sentences inside their 
     assert.ok(!t.sentences.some(s => s.sid === sid + 1));
   }
 });
+
+test('all 340 questions across 68 passages support word tokenization and complete bilingual translation', () => {
+  let qCount = 0;
+  let optCount = 0;
+  for (const [year, data] of Object.entries(db)) {
+    for (const t of data.texts) {
+      const allVocab = t.paragraphs ? t.paragraphs.flatMap(p => p.vocabulary || []) : [];
+      for (const q of t.questions) {
+        qCount++;
+        assert.ok(q.stem && q.stem_cn, `${year} T${t.text_id} Q${q.qid} missing stem or stem_cn`);
+        const tokenizedStem = C.formatQuestionText(q.stem, allVocab);
+        assert.match(tokenizedStem, /class="(?:exam-word-token|exam-vocab|exam-connector)"/, `${year} T${t.text_id} Q${q.qid} stem not tokenized`);
+
+        for (const opt of q.options) {
+          optCount++;
+          assert.ok(opt.text && opt.text_cn, `${year} T${t.text_id} Q${q.qid} opt ${opt.key} missing text or text_cn`);
+          const tokenizedOpt = C.formatQuestionText(opt.text, allVocab);
+          assert.match(tokenizedOpt, /class="(?:exam-word-token|exam-vocab|exam-connector)"/, `${year} T${t.text_id} Q${q.qid} opt ${opt.key} not tokenized`);
+        }
+      }
+    }
+  }
+  assert.equal(qCount, 340);
+  assert.equal(optCount, 1360);
+
+  // Test word tokenization with contractions and connectors
+  const sample = C.formatQuestionText("In the first paragraph, Damien Hirst’s sale was referred to because .");
+  assert.match(sample, /data-word="Hirst’s"/);
+  assert.match(sample, /class="exam-connector" data-connector="because"/);
+});
+

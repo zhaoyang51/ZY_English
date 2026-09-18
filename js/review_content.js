@@ -70,5 +70,68 @@
     }
     return (t.sentences || []).find(s => contains(s.text, w.expression))?.text || '';
   }
-  window.ReviewContent = { escape, normalize, contains, context, vocabulary, analysis, pairs, typeExplanation, writingUsage, writingSource };
+  const LOGIC_CONNECTORS = {
+    turn: [
+      'on the other hand', 'on the contrary', 'even though', 'in spite of', 'by contrast', 'instead of',
+      'rather than', 'nevertheless', 'nonetheless', 'in contrast', 'although', 'however', 'whereas',
+      'despite', 'even if', 'instead', 'though', 'while', 'yet', 'but'
+    ],
+    cause: [
+      'consequently', 'as a result', 'result from', 'result in', 'therefore', 'owing to', 'because',
+      'due to', 'hence', 'since', 'thus', 'so'
+    ],
+    summary: [
+      'as a matter of fact', 'in conclusion', 'for instance', 'for example', 'furthermore',
+      'in addition', 'in summary', 'all in all', 'to sum up', 'actually', 'moreover', 'in fact',
+      'in short', 'finally', 'besides', 'indeed'
+    ]
+  };
+
+  function safeReplaceText(html, word, wrapFn) {
+    if (!word) return html;
+    const escaped = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`\\b(${escaped})\\b`, 'gi');
+    const parts = html.split(/(<[^>]+>)/g);
+    for (let i = 0; i < parts.length; i += 2) {
+      if (parts[i]) {
+        parts[i] = parts[i].replace(regex, wrapFn);
+      }
+    }
+    return parts.join('');
+  }
+
+  function formatQuestionText(rawText, vocabList, options = {}) {
+    if (!rawText) return '';
+    let text = String(rawText);
+
+    // 1. Logic connectors
+    LOGIC_CONNECTORS.turn.forEach(w => {
+      text = safeReplaceText(text, w, `<span class="exam-connector" data-connector="$1" title="🧭 点击查看逻辑功能与考点定位">$1</span>`);
+    });
+    LOGIC_CONNECTORS.cause.forEach(w => {
+      text = safeReplaceText(text, w, `<span class="exam-connector" data-connector="$1" title="🧭 点击查看逻辑功能与考点定位">$1</span>`);
+    });
+    LOGIC_CONNECTORS.summary.forEach(w => {
+      text = safeReplaceText(text, w, `<span class="exam-connector" data-connector="$1" title="🧭 点击查看逻辑功能与考点定位">$1</span>`);
+    });
+
+    // 2. Custom vocab words/phrases
+    if (Array.isArray(vocabList) && vocabList.length > 0) {
+      const sorted = [...vocabList].filter(v => v && v.word).sort((a, b) => (b.word ? b.word.length : 0) - (a.word ? a.word.length : 0));
+      sorted.forEach(v => {
+        text = safeReplaceText(text, v.word, `<span class="exam-vocab" data-word="$1" title="点击查词: $1">$1</span>`);
+      });
+    }
+
+    // 3. Wrap remaining English words outside existing HTML tags
+    const parts = text.split(/(<[^>]+>)/g);
+    for (let i = 0; i < parts.length; i += 2) {
+      if (parts[i]) {
+        parts[i] = parts[i].replace(/\b([a-zA-Z]+(?:['’][a-zA-Z]+)?)\b/g, '<span class="exam-word-token" data-word="$1" title="点击查词: $1">$1</span>');
+      }
+    }
+    return parts.join('');
+  }
+
+  window.ReviewContent = { escape, normalize, contains, context, vocabulary, analysis, pairs, typeExplanation, writingUsage, writingSource, safeReplaceText, formatQuestionText };
 })();

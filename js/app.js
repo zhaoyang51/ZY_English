@@ -1034,7 +1034,7 @@
       const connSpan = e.target.closest('.exam-connector');
       if (connSpan) {
         e.stopPropagation();
-        const sentSpan = connSpan.closest('.exam-sent');
+        const sentSpan = connSpan.closest('.exam-sent, .q-stem, .q-opt');
         const sentText = sentSpan ? sentSpan.innerText : '';
         const connWord = connSpan.getAttribute('data-connector') || connSpan.innerText;
         showVocabPopup(connWord, e.clientX, e.clientY, sentText);
@@ -1044,9 +1044,44 @@
       const vocabSpan = e.target.closest('.exam-vocab');
       if (vocabSpan) {
         e.stopPropagation();
-        const sentSpan = vocabSpan.closest('.exam-sent');
+        const sentSpan = vocabSpan.closest('.exam-sent, .q-stem, .q-opt');
         const sentText = sentSpan ? sentSpan.innerText : '';
         showVocabPopup(vocabSpan.getAttribute('data-word'), e.clientX, e.clientY, sentText);
+        return;
+      }
+
+      const wordTokenSpan = e.target.closest('.exam-word-token');
+      if (wordTokenSpan) {
+        e.stopPropagation();
+        const parentContext = wordTokenSpan.closest('.q-stem, .q-opt, .exam-sent, .exam-para');
+        const sentText = parentContext ? parentContext.innerText : '';
+        const word = wordTokenSpan.getAttribute('data-word') || wordTokenSpan.innerText;
+        showVocabPopup(word, e.clientX, e.clientY, sentText);
+        return;
+      }
+
+      const transBtn = e.target.closest('.q-trans-btn');
+      if (transBtn) {
+        e.stopPropagation();
+        const qid = transBtn.getAttribute('data-qid');
+        const card = document.getElementById(`exam-q-${qid}`);
+        if (card) {
+          card.querySelectorAll('.stem-trans-inline, .opt-trans-inline').forEach(el => {
+            el.classList.toggle('show');
+          });
+        }
+        return;
+      }
+
+      const qNumBadge = e.target.closest('.q-num-badge');
+      if (qNumBadge && AppState.textData) {
+        e.stopPropagation();
+        const card = qNumBadge.closest('.exam-question-card');
+        const qid = card ? Number(card.getAttribute('data-qid')) : null;
+        const qObj = (AppState.textData.questions || []).find(q => q.qid === qid);
+        if (qObj) {
+          showQuestionModal(qObj, AppState.textData);
+        }
         return;
       }
 
@@ -1093,6 +1128,18 @@
     const workspaceContent = document.getElementById('workspaceContent');
     if (workspaceContent) {
       workspaceContent.addEventListener('click', e => {
+        // 0. Word token / vocab / connector click in workspace (Mock, Practice, Review)
+        const wordToken = e.target.closest('.exam-word-token, .exam-vocab, .exam-connector');
+        if (wordToken) {
+          e.preventDefault();
+          e.stopPropagation();
+          const word = wordToken.getAttribute('data-word') || wordToken.getAttribute('data-connector') || wordToken.innerText;
+          const parentContext = wordToken.closest('.mock-opt-item, .mock-q-card, .step-card, blockquote, h2, h3, p');
+          const sentText = parentContext ? parentContext.innerText : '';
+          showVocabPopup(word, e.clientX, e.clientY, sentText);
+          return;
+        }
+
         // 1. TTS pronunciation
         const ttsBtn = e.target.closest('.vocab-tts-btn');
         if (ttsBtn) {
@@ -1246,12 +1293,21 @@
           return;
         }
       });
+
+      workspaceContent.addEventListener('dblclick', () => {
+        const selection = window.getSelection().toString().trim();
+        if (selection && /^[a-zA-Z\s\-]+$/.test(selection) && selection.length < 30) {
+          const range = window.getSelection().getRangeAt(0);
+          const rect = range.getBoundingClientRect();
+          showVocabPopup(selection, rect.left + rect.width / 2, rect.top, '');
+        }
+      });
     }
 
     // Global click listener to close popups and modals when clicking outside
     document.addEventListener('click', e => {
       // 1. Close Vocabulary Popup if clicking outside
-      if (vocabPopup && !vocabPopup.contains(e.target) && !e.target.closest('.exam-vocab') && !e.target.closest('.exam-connector')) {
+      if (vocabPopup && !vocabPopup.contains(e.target) && !e.target.closest('.exam-vocab') && !e.target.closest('.exam-connector') && !e.target.closest('.exam-word-token')) {
         vocabPopup.classList.remove('show');
       }
 
@@ -1262,7 +1318,7 @@
 
       // 3. Close Syntax Breakdown Modal if clicking outside
       if (syntaxOverlay && syntaxOverlay.classList.contains('show')) {
-        if (syntaxModal && !syntaxModal.contains(e.target) && !e.target.closest('.exam-sent')) {
+        if (syntaxModal && !syntaxModal.contains(e.target) && !e.target.closest('.exam-sent') && !e.target.closest('.q-num-badge')) {
           closeSyntaxModal();
         }
       }
@@ -1324,11 +1380,62 @@
     if (modal) modal.classList.add('show');
   }
 
+  function showQuestionModal(q, textData) {
+    const overlay = document.getElementById('syntaxOverlay');
+    const modal = document.getElementById('syntaxModal');
+    const content = document.getElementById('syntaxModalContent');
+    if (!content || !q) return;
+
+    const allVocab = textData.paragraphs ? textData.paragraphs.flatMap(p => p.vocabulary || []) : [];
+    const formatText = (window.ReviewContent && window.ReviewContent.formatQuestionText) || (t => t);
+    const formattedStem = formatText(q.stem, allVocab);
+
+    const optionsHtml = (q.options || []).map(opt => {
+      const formattedOpt = formatText(opt.text, allVocab);
+      const isC = opt.is_correct;
+      const badgeClass = isC ? 'correct-badge' : 'trap-badge';
+      const badgeLabel = isC ? '★ 标准正解' : (opt.trap_type ? `干扰项 (${opt.trap_type})` : '干扰项');
+      return `
+        <div style="margin-bottom:10px;padding:10px 14px;background:var(--card-bg);border-radius:6px;border:1px solid var(--border)">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:4px;gap:8px">
+            <span style="font-weight:700;color:var(--mode-color)">[${opt.key}] ${formattedOpt}</span>
+            <span class="${badgeClass}" style="font-size:0.78em;flex-shrink:0">${badgeLabel}</span>
+          </div>
+          <div style="font-size:0.9em;color:#0f766e;font-weight:600">${opt.text_cn || ''}</div>
+        </div>
+      `;
+    }).join('');
+
+    content.innerHTML = `
+      <div style="font-size:1.1em;font-family:var(--font-base);line-height:1.7;color:var(--ink);margin-bottom:14px">
+        <span class="badge" style="background:var(--mode-bg);color:var(--mode-color);margin-right:6px">第 ${q.qid} 题 · ${q.type}</span>
+        <strong>${formattedStem}</strong>
+      </div>
+      <div style="margin-bottom:14px;background:rgba(15,118,110,0.06);padding:12px 16px;border-radius:8px;border-left:4px solid #0f766e;font-family:var(--font-base)">
+        <p style="font-weight:700;color:#0f766e;margin-bottom:6px;font-family:var(--font-base)">【题干精析汉译】</p>
+        <p style="font-size:1.02em;color:#0f766e;font-weight:600;line-height:1.6">${q.stem_cn || ''}</p>
+      </div>
+      <div style="margin-bottom:14px;background:var(--surface);padding:12px 16px;border-radius:8px;border:1px solid var(--border);font-family:var(--font-base)">
+        <p style="font-weight:700;color:var(--mode-color);margin-bottom:10px;font-family:var(--font-base)">【四个选项中英双语逐项对照】</p>
+        ${optionsHtml}
+      </div>
+      <div style="background:rgba(245, 158, 11, 0.08);padding:12px 16px;border-radius:8px;border-left:4px solid #f59e0b;font-family:var(--font-base)">
+        <p style="font-weight:700;color:#b45309;margin-bottom:6px;font-family:var(--font-base)">【原文核心定位证据出处 (第 ${q.locate_pid + 1} 段)】</p>
+        <p style="font-size:0.96em;line-height:1.6;margin-bottom:6px"><strong>定位原句：</strong>${q.locate_sentence || ''}</p>
+        <p style="font-size:0.92em;color:var(--muted);line-height:1.5"><strong>定位译文：</strong>${q.locate_sentence_cn || ''}</p>
+      </div>
+    `;
+
+    if (overlay) overlay.classList.add('show');
+    if (modal) modal.classList.add('show');
+  }
+
   function showVocabPopup(word, clientX, clientY, sentenceContext) {
     const popup = document.getElementById('vocabPopup');
     if (!popup) return;
 
     const wClean = word.toLowerCase().trim();
+    const baseClean = wClean.replace(/['’]s$/, '').replace(/^[“"']|[”"']$/g, '');
     const dict = window.KAOYAN_VOCAB_DICT || {};
 
     let customDef = null;
@@ -1336,7 +1443,7 @@
     if (AppState.textData && AppState.textData.paragraphs) {
       for (const p of AppState.textData.paragraphs) {
         if (p.vocabulary) {
-          const match = p.vocabulary.find(v => v.word && v.word.toLowerCase().trim() === wClean);
+          const match = p.vocabulary.find(v => v.word && (v.word.toLowerCase().trim() === wClean || v.word.toLowerCase().trim() === baseClean));
           if (match && match.definition) {
             customDef = match.definition;
             customPos = match.pos || '';
@@ -1346,7 +1453,11 @@
       }
     }
 
-    const info = dict[wClean] || dict[wClean.replace(/s$|ed$|ing$/, '')] || {
+    const info = dict[baseClean] ||
+                 dict[baseClean.replace(/s$|ed$|ing$/, '')] ||
+                 dict[baseClean.replace(/es$/, '')] ||
+                 dict[baseClean.replace(/d$/, '')] ||
+                 dict[baseClean.replace(/ies$/, 'y')] || {
       pos: customPos || "n./v.",
       def: customDef || "考研语境核心词汇",
       full: "语境常考释义与核心搭配"
@@ -1358,7 +1469,7 @@
     }
 
     // Check if this word/phrase is in our discourse logical connector signpost library
-    const signpost = LOGIC_SIGNPOST_DICT[wClean] || LOGIC_SIGNPOST_DICT[wClean.replace(/s$|ed$|ing$/, '')];
+    const signpost = LOGIC_SIGNPOST_DICT[baseClean] || LOGIC_SIGNPOST_DICT[baseClean.replace(/s$|ed$|ing$/, '')];
     let signpostHtml = '';
     if (signpost) {
       signpostHtml = `

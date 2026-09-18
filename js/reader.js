@@ -204,16 +204,32 @@
       html += `</div><hr style="margin:24px 0;border:none;border-top:1px dashed var(--border)"><div class="exam-questions-section"><h3 style="font-size:1.15em;font-weight:700;margin-bottom:12px">Questions (${data.q_range})</h3>`;
 
       data.questions.forEach(q => {
+        const allVocab = data.paragraphs ? data.paragraphs.flatMap(p => p.vocabulary || []) : [];
+        const formattedStem = this.formatQuestionText(q.stem, allVocab);
+        const transClass = this.settings.showTrans ? 'show' : '';
         html += `
           <div class="exam-question-card" id="exam-q-${q.qid}" data-qid="${q.qid}">
-            <div class="q-stem">${q.qid}. ${q.stem}</div>
+            <div class="q-stem-header">
+              <div class="q-stem" data-qid="${q.qid}">
+                <span class="q-num-badge" title="点击查看本题考点拆解与逐项剖析">${q.qid}.</span>
+                <span class="q-stem-text">${formattedStem}</span>
+              </div>
+              <button class="q-trans-btn" data-qid="${q.qid}" title="切换本题与选项中文翻译">🌐 题意</button>
+            </div>
+            <div class="stem-trans-inline ${transClass}" data-qid="${q.qid}">${q.stem_cn || ''}</div>
             <div class="q-options">
-              ${q.options.map(opt => `
-                <div class="q-opt" data-opt="${opt.key}">
-                  <span class="opt-key">[${opt.key}]</span>
-                  <span class="opt-text">${opt.text}</span>
-                </div>
-              `).join('')}
+              ${q.options.map(opt => {
+                const formattedOpt = this.formatQuestionText(opt.text, allVocab);
+                return `
+                  <div class="q-opt" data-qid="${q.qid}" data-opt="${opt.key}">
+                    <span class="opt-key">[${opt.key}]</span>
+                    <div class="opt-content">
+                      <span class="opt-text">${formattedOpt}</span>
+                      <div class="opt-trans-inline ${transClass}" data-qid="${q.qid}" data-opt="${opt.key}">${opt.text_cn || ''}</div>
+                    </div>
+                  </div>
+                `;
+              }).join('')}
             </div>
           </div>
         `;
@@ -223,6 +239,13 @@
       container.innerHTML = html;
 
       this.bindToolbarEvents(data, containerId);
+    },
+
+    formatQuestionText(rawText, vocabList) {
+      if (window.ReviewContent && window.ReviewContent.formatQuestionText) {
+        return window.ReviewContent.formatQuestionText(rawText, vocabList);
+      }
+      return rawText || '';
     },
 
     safeReplaceText(html, word, wrapFn) {
