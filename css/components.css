@@ -1527,6 +1527,25 @@ body.theme-dark .vocab-matrix-wrap.mask-active .vocab-card:hover .vocab-card-def
   opacity: 0.9;
 }
 
+.part-b-btn-reset {
+  padding: 8px 16px;
+  background: var(--card-bg);
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  font-size: 0.9em;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.2s ease;
+}
+
+.part-b-btn-reset:hover {
+  background: var(--surface);
+  color: var(--ink);
+  border-color: var(--review-accent);
+}
+
 .part-b-result-box {
   margin-top: 16px;
   padding: 14px;

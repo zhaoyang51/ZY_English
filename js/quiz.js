@@ -896,9 +896,13 @@ ${a.theme_validation ? `
       const resBox = document.getElementById('partBResultBox');
       if (!selects.length || !resBox) return;
 
+      const textData = currentActiveTextData || (window.AppState && window.AppState.textData);
+      const pb = (textData && textData.macro_logic && textData.macro_logic.part_b_training) ? textData.macro_logic.part_b_training : null;
+      const options = pb ? (pb.options || []) : [];
+
       let total = selects.length;
       let correct = 0;
-      let detailsHtml = '<h4 style="margin-top:0;margin-bottom:8px">📋 新题型核对结果与考点剖析</h4>';
+      let detailsHtml = '<h4 style="margin-top:0;margin-bottom:10px;font-size:1.05em">📋 新题型核对结果与考点剖析</h4>';
 
       selects.forEach((sel, idx) => {
         const userVal = sel.value;
@@ -910,45 +914,63 @@ ${a.theme_validation ? `
         sel.style.backgroundColor = isRight ? 'rgba(22, 163, 74, 0.08)' : 'rgba(220, 38, 38, 0.08)';
 
         const parentRow = sel.closest('.part-b-match-row');
-        const label = parentRow ? parentRow.querySelector('.part-b-match-para').textContent : `段落 ${idx + 1}`;
+        const label = parentRow ? parentRow.querySelector('.part-b-match-para').textContent.trim() : `段落 ${idx + 1}`;
+        const correctOpt = options.find(o => o.key === correctVal);
 
         detailsHtml += `
-          <div style="margin-bottom:10px;padding-bottom:8px;border-bottom:1px dashed var(--line)">
-            <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+          <div style="margin-bottom:12px;padding-bottom:10px;border-bottom:1px dashed var(--border)">
+            <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;flex-wrap:wrap">
               <b>${label}</b>：
-              <span>你的选择: <b>[${userVal || '未选择'}]</b></span>
+              <span>你的选择: <b style="color:${isRight ? '#16a34a' : '#dc2626'}">[${userVal || '未选择'}]</b></span>
               <span style="font-weight:700;color:${isRight ? '#16a34a' : '#dc2626'}">${isRight ? '✓ 正确' : '✗ 错误'}</span>
-              <span>正确答案: <b style="color:var(--accent)">[${correctVal}]</b></span>
+              <span>正确答案: <b style="color:var(--review-accent)">[${correctVal}] ${correctOpt ? correctOpt.heading : ''}</b></span>
             </div>
+            ${correctOpt && correctOpt.trap_analysis ? `<div style="font-size:0.9em;color:var(--muted);line-height:1.5;margin-top:4px">💡 <b>解析与依据</b>：${correctOpt.trap_analysis}</div>` : ''}
           </div>
         `;
       });
 
-      if (currentActiveTextData && currentActiveTextData.macro_logic && currentActiveTextData.macro_logic.part_b_training) {
-        const pb = currentActiveTextData.macro_logic.part_b_training;
-        detailsHtml += '<div style="margin-top:12px;font-size:0.92em">';
-        detailsHtml += '<div style="font-weight:800;color:var(--review-accent);margin-bottom:6px">🔍 命题人小标题选项精析与设陷归因：</div>';
-        (pb.options || []).forEach(opt => {
-          const badgeClass = opt.is_distractor ? 'trap-distractor' : 'trap-correct';
-          const badgeText = opt.is_distractor ? '❌ 干扰小标题' : '🎯 命中正解';
-          detailsHtml += `
-            <div style="margin-bottom:6px;line-height:1.5">
-              <span class="trap-tag ${badgeClass}">${badgeText}</span>
-              <b>[${opt.key}] ${opt.heading}</b>：
-              <span style="color:var(--muted)">${opt.trap_analysis || ''}</span>
-            </div>
-          `;
-        });
-        detailsHtml += '</div>';
+      if (pb) {
+        const distractors = options.filter(o => o.is_distractor);
+        if (distractors.length > 0) {
+          detailsHtml += '<div style="margin-top:14px;font-size:0.92em">';
+          detailsHtml += '<div style="font-weight:800;color:var(--review-accent);margin-bottom:8px">🔍 干扰小标题避坑精析（设陷归因）：</div>';
+          distractors.forEach(opt => {
+            detailsHtml += `
+              <div style="margin-bottom:8px;line-height:1.5;padding:8px 10px;background:var(--surface);border-radius:var(--radius-sm);border:1px solid var(--border)">
+                <span class="trap-tag trap-distractor">❌ 干扰小标题</span>
+                <b>[${opt.key}] ${opt.heading}</b>：
+                <span style="color:var(--muted)">${opt.trap_analysis || ''}</span>
+              </div>
+            `;
+          });
+          detailsHtml += '</div>';
+        }
       }
 
+      const scoreRate = Math.round((correct / total) * 100);
+      const scoreColor = correct === total ? '#16a34a' : (scoreRate >= 60 ? 'var(--review-accent)' : '#dc2626');
       resBox.innerHTML = `
-        <div style="font-size:1.05em;font-weight:800;margin-bottom:10px;color:${correct === total ? '#16a34a' : 'var(--ink)'}">
-          答对 ${correct} / ${total} 题 (${Math.round((correct / total) * 100)}%)
+        <div style="font-size:1.1em;font-weight:800;margin-bottom:12px;color:${scoreColor};display:flex;align-items:center;gap:8px">
+          <span>${correct === total ? '🎉 全部答对！' : '📊 答题成绩：'}答对 ${correct} / ${total} 题 (${scoreRate}%)</span>
         </div>
         ${detailsHtml}
       `;
       resBox.style.display = 'block';
+    },
+
+    resetPartB() {
+      const selects = document.querySelectorAll('.part-b-select');
+      selects.forEach(sel => {
+        sel.value = '';
+        sel.style.borderColor = '';
+        sel.style.backgroundColor = '';
+      });
+      const resBox = document.getElementById('partBResultBox');
+      if (resBox) {
+        resBox.style.display = 'none';
+        resBox.innerHTML = '';
+      }
     }
   };
 
@@ -1002,22 +1024,49 @@ ${a.theme_validation ? `
       const pb = ml.part_b_training;
       const options = pb.options || [];
       const targets = pb.target_paragraphs || [];
+
       partBHtml = `
         <div class="part-b-box">
-          <h3>段落小标题对应与解析</h3>
-          <p class="reading-section-note">以下是基于本文的迁移讲解，不是原试卷的新题型题目。小标题、对应段落及理由直接列出。</p>
-          ${targets.map(tp => {
-            const answer = options.find(o => o.key === tp.correct_key);
-            if (!answer) return '';
-            return `<article class="reading-heading">
-              <h4>第 ${tp.pid + 1} 段 → [${answer.key}] ${answer.heading}</h4>
-              <p>${answer.trap_analysis || ''}</p>
-            </article>`;
-          }).join('')}
-          ${options.some(o => o.is_distractor) ? '<h4>易混标题为什么不合适</h4>' : ''}
-          ${options.filter(o => o.is_distractor).map(o => `<article class="reading-heading reading-heading-distractor"><h4>[${o.key}] ${o.heading}</h4><p>${o.trap_analysis || ''}</p></article>`).join('')}
-          <p class="reading-section-note">标题需要覆盖本段的主要对象与判断。范围过窄、颠倒立场或引入段外话题，都不能仅凭词语重合成立。</p>
-        </div>`;
+          <h3>🧩 段落小标题对应与解析（实战自测）</h3>
+          <p class="reading-section-note">结合左侧原文对应段落的核心论点与推导脉络，从备选库中为各段选出最精准的小标题。选择完毕后点击“核对小标题答案”查看正误反馈与命题设陷剖析。</p>
+          
+          <div class="part-b-options-pool">
+            <div class="part-b-options-pool-title">备选小标题库 (Options Pool)</div>
+            ${options.map(opt => `
+              <div class="part-b-opt-item">
+                <strong>[${escapeHtmlAttr(opt.key)}]</strong> ${escapeHtmlAttr(opt.heading)}
+              </div>
+            `).join('')}
+          </div>
+
+          <div class="part-b-matching-area">
+            ${targets.map(tp => `
+              <div class="part-b-match-row">
+                <span class="part-b-match-para" style="cursor:pointer" title="点击联动定位左侧段落" onclick="window.ReaderModule&&window.ReaderModule.highlight({para:${tp.pid}})">
+                  📍 第 ${tp.pid + 1} 段 (${escapeHtmlAttr(tp.label || ('Paragraph ' + (tp.pid + 1)))})
+                </span>
+                <select class="part-b-select" data-pid="${tp.pid}" data-correct="${escapeHtmlAttr(tp.correct_key)}">
+                  <option value="">-- 请选择对应小标题 --</option>
+                  ${options.map(opt => `<option value="${escapeHtmlAttr(opt.key)}">[${escapeHtmlAttr(opt.key)}] ${escapeHtmlAttr(opt.heading.length > 40 ? opt.heading.substring(0, 40) + '...' : opt.heading)}</option>`).join('')}
+                </select>
+              </div>
+            `).join('')}
+          </div>
+
+          <div style="display:flex;gap:10px;align-items:center;margin-top:14px;flex-wrap:wrap">
+            <button class="part-b-btn-check" onclick="window.QuizModule.checkPartB()">🎯 核对小标题答案与考点剖析</button>
+            <button class="part-b-btn-reset" onclick="window.QuizModule.resetPartB()">🔄 重新作答</button>
+          </div>
+          
+          <div id="partBResultBox" class="part-b-result-box" style="display:none"></div>
+
+          ${pb.skills_breakdown ? `
+            <div style="margin-top:14px;padding:10px 14px;background:var(--review-light);border-left:3px solid var(--review-accent);border-radius:var(--radius-sm);font-size:0.88em;line-height:1.6">
+              💡 <b>解题策略与考点剖析</b>：${escapeHtmlAttr(pb.skills_breakdown)}
+            </div>
+          ` : ''}
+        </div>
+      `;
     }
 
     return `

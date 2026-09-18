@@ -97,8 +97,11 @@ async function run() {
   assert.ok(await evaluate('document.querySelector("#workspaceContent").textContent.includes("数字经济")'));
   assert.ok(await evaluate('!document.querySelector("#workspaceContent").textContent.includes("龋齿")'));
   assert.equal(await evaluate('document.querySelectorAll("#workspaceContent .reading-evidence").length'), 5);
-  assert.equal(await evaluate('document.querySelectorAll("#workspaceContent select,#workspaceContent input").length'), 0);
-  assert.equal(await evaluate('document.querySelectorAll(".reading-heading:not(.reading-heading-distractor)").length'), 5);
+  assert.equal(await evaluate('document.querySelectorAll("#workspaceContent .part-b-select").length'), 5);
+  await evaluate('(() => { const selects = document.querySelectorAll("#workspaceContent .part-b-select"); selects.forEach(s => s.value = s.getAttribute("data-correct")); window.QuizModule.checkPartB(); })()');
+  assert.ok(await evaluate('document.querySelector("#partBResultBox").style.display !== "none"'));
+  assert.ok(await evaluate('document.querySelector("#partBResultBox").textContent.includes("答对 5 / 5 题")'));
+  await evaluate('document.querySelector(".part-b-box").scrollIntoView({ behavior: "instant", block: "start" })');
   await screenshot('discourse-desktop.png');
   await select('#yearSelect', '2026');
   await select('#textSelect', '4');
@@ -116,7 +119,8 @@ async function run() {
   await evaluate('document.querySelector(".corpus-tab-btn").click()');
   await screenshot('writing-desktop.png');
   await evaluate('document.querySelector("#toggleAllBtn").click()');
-  assert.equal(await evaluate('document.querySelectorAll("#workspaceContent input,#workspaceContent textarea,#workspaceContent select,#workspaceContent details").length'), 0);
+  assert.equal(await evaluate('document.querySelectorAll("#workspaceContent input,#workspaceContent textarea,#workspaceContent details").length'), 0);
+  assert.equal(await evaluate('document.querySelectorAll("#workspaceContent select").length'), 5);
   assert.ok(await evaluate('!document.querySelector("#workspaceContent").textContent.includes("undefined")'));
   await evaluate('document.querySelector(".btn-copy-slot").click()');
   assert.ok(await evaluate('window.__copied.includes("pay its own way")'));

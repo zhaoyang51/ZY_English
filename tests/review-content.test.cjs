@@ -32,13 +32,15 @@ test('all 68 reviews remain directly readable, with no form fields or answer-gat
       assert.equal(new Set(steps.map(s => s.section)).size, 6);
       const html = steps.map(s => s.html).join('\n');
       assert.doesNotMatch(html, /\bundefined\b|\bNaN\b|data-sid="null"/, `${year} T${t.text_id}`);
-      assert.doesNotMatch(html, /<(?:textarea|input|select|details)\b/i, 'Reading must not introduce tasks or conceal explanations');
+      const readingStepsHtml = steps.filter(s => s.section !== 4).map(s => s.html).join('\n');
+      assert.doesNotMatch(readingStepsHtml, /<(?:textarea|input|select|details)\b/i, 'Reading sections must not introduce tasks or conceal explanations');
       const overview = steps.filter(s => s.meta?.form === 'overview');
       assert.equal(overview.length, 5);
       overview.forEach((s, i) => assert.ok(s.html.includes(`答案：${t.questions[i].options.find(o => o.is_correct).key}`)));
       const section4 = steps.find(s => s.section === 4).html;
       assert.ok(section4.includes('段落小标题对应与解析'));
-      assert.ok(!section4.includes('checkPartB'));
+      assert.ok(section4.includes('checkPartB'), 'Section 4 must provide checkPartB for user practice');
+      assert.ok(section4.includes('part-b-select'), 'Section 4 must provide interactive selection controls');
       const md = exporter.buildMarkdownNotes(t);
       assert.doesNotMatch(md, /\bundefined\b|\bNaN\b/);
       assert.equal((md.match(/^## [一二三四五]、/gm) || []).length, 5);
