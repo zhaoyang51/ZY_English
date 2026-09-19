@@ -4255,25 +4255,15 @@
       "paragraphs": [
         {
           "pid": 0,
-          "text": "American farmers have been complaining of labor shortages for several years. The complaints are unlikely to stop without an overhaul of immigration rules for farm workers. Congress has obstructed efforts to create a more straightforward visa for agricultural workers that would let foreign workers stay longer in the U.S. and change jobs within the industry. If this doesn’t change, American businesses, communities, and consumers will be the losers.",
-          "translation": "多年来，美国农民一直抱怨劳动力短缺。如果不彻底改革农场工人的移民规则，这些抱怨就不可能停止。国会阻挠了为农业工人设立更直接签证的努力，该签证允许外国工人在美国停留更长时间并在行业内更换工作。如果这一点不改变，美国企业、社区和消费者将成为输家。",
-          "slashed_text": "American farmers have been complaining of labor shortages / for several years. / The complaints are unlikely to stop without an overhaul of immigration rules / for farm workers. / Congress has obstructed efforts to create a more straightforward visa for agricultural workers / that would let foreign workers stay longer in the U.S. and change jobs within the industry. / If this doesn’t change , / American businesses , / communities , / and consumers will be the losers.",
-          "chunk_translation": "多年来美国农场主一直抱怨劳动力短缺 / 已经持续数年之久。 / 如果不对此类农场工人的移民法规进行彻底改革，这些抱怨就不可能停止 / 针对农业工人的制度。 / 国会阻挠了为农业工人创建更直接签证的努力 / 该签证将允许外国工人在美国停留更久并在行业内部调换工作。 / 如果这种局面得不到改变， / 美国企业、 / 社区、 / 以及消费者都将成为输家。",
+          "text": "American farmers have been complaining of labor shortages for several years. The complaints are unlikely to stop without an overhaul of immigration rules for farm workers.",
+          "translation": "多年来，美国农民一直抱怨劳动力短缺。如果不彻底改革农场工人的移民规则，这些抱怨就不可能停止。",
+          "slashed_text": "American farmers have been complaining of labor shortages / for several years. / The complaints are unlikely to stop without an overhaul of immigration rules / for farm workers.",
+          "chunk_translation": "多年来美国农场主一直抱怨劳动力短缺 / 已经持续数年之久。 / 如果不对此类农场工人的移民法规进行彻底改革，这些抱怨就不可能停止 / 针对农业工人的制度。",
           "vocabulary": [
             {
               "word": "overhaul",
               "pos": "",
               "definition": "n.(制度或方法的)彻底改革"
-            },
-            {
-              "word": "straightforward",
-              "pos": "",
-              "definition": "a.简单的,不复杂的"
-            },
-            {
-              "word": "agricultural",
-              "pos": "adj.",
-              "definition": "adj. 农业的；与农业有关的；务农的"
             },
             {
               "word": "complaining",
@@ -4286,14 +4276,63 @@
               "definition": "n. 移民（入境）；移民人数；移民局入境检查"
             },
             {
-              "word": "communities",
-              "pos": "n.",
-              "definition": "n. 社区；团体；群体"
-            },
-            {
               "word": "complaints",
               "pos": "n.",
               "definition": "n. 投诉；申诉"
+            },
+            {
+              "word": "shortages",
+              "pos": "n.",
+              "definition": "n. 不足；缺乏（shortage 的复数形式）"
+            },
+            {
+              "word": "unlikely",
+              "pos": "adj.",
+              "definition": "adj. 不大可能发生的；未必真实的"
+            },
+            {
+              "word": "farmers",
+              "pos": "n.",
+              "definition": "n. 农民；农场主（farmer 的复数）"
+            },
+            {
+              "word": "labor",
+              "pos": "n.",
+              "definition": "n. 劳动；工作"
+            },
+            {
+              "word": "rules",
+              "pos": "n.",
+              "definition": "n. 规章；条例；规定"
+            },
+            {
+              "word": "farm",
+              "pos": "n.",
+              "definition": "n. 农场；养殖场"
+            }
+          ]
+        },
+        {
+          "pid": 1,
+          "text": "Congress has obstructed efforts to create a more straightforward visa for agricultural workers that would let foreign workers stay longer in the U.S. and change jobs within the industry. If this doesn’t change, American businesses, communities, and consumers will be the losers.",
+          "translation": "国会阻挠了为农业工人设立更直接签证的努力，该签证允许外国工人在美国停留更长时间并在行业内更换工作。如果这一点不改变，美国企业、社区和消费者将成为输家。",
+          "slashed_text": "Congress has obstructed efforts to create a more straightforward visa for agricultural workers / that would let foreign workers stay longer in the U.S. and change jobs within the industry. / If this doesn’t change , / American businesses , / communities , / and consumers will be the losers.",
+          "chunk_translation": "国会阻挠了为农业工人创建更直接签证的努力 / 该签证将允许外国工人在美国停留更久并在行业内部调换工作。 / 如果这种局面得不到改变， / 美国企业、 / 社区、 / 以及消费者都将成为输家。",
+          "vocabulary": [
+            {
+              "word": "straightforward",
+              "pos": "",
+              "definition": "a.简单的,不复杂的"
+            },
+            {
+              "word": "agricultural",
+              "pos": "adj.",
+              "definition": "adj. 农业的；与农业有关的；务农的"
+            },
+            {
+              "word": "communities",
+              "pos": "n.",
+              "definition": "n. 社区；团体；群体"
             },
             {
               "word": "obstructed",
@@ -4306,19 +4345,9 @@
               "definition": "n. 公司；企业（business 的复数）"
             },
             {
-              "word": "shortages",
-              "pos": "n.",
-              "definition": "n. 不足；缺乏（shortage 的复数形式）"
-            },
-            {
               "word": "consumers",
               "pos": "n.",
               "definition": "n. consumer 的复数：消费者；顾客；用户"
-            },
-            {
-              "word": "unlikely",
-              "pos": "adj.",
-              "definition": "adj. 不大可能发生的；未必真实的"
             },
             {
               "word": "Congress",
@@ -4329,11 +4358,6 @@
               "word": "industry",
               "pos": "n.",
               "definition": "n. 工业；生产制造；行业"
-            },
-            {
-              "word": "farmers",
-              "pos": "n.",
-              "definition": "n. 农民；农场主（farmer 的复数）"
             },
             {
               "word": "efforts",
@@ -4351,21 +4375,6 @@
               "definition": "n. 失败者（loser 的复数）"
             },
             {
-              "word": "labor",
-              "pos": "n.",
-              "definition": "n. 劳动；工作"
-            },
-            {
-              "word": "rules",
-              "pos": "n.",
-              "definition": "n. 规章；条例；规定"
-            },
-            {
-              "word": "farm",
-              "pos": "n.",
-              "definition": "n. 农场；养殖场"
-            },
-            {
               "word": "visa",
               "pos": "n.",
               "definition": "n. 签证；v.  签发签证"
@@ -4373,7 +4382,7 @@
           ]
         },
         {
-          "pid": 1,
+          "pid": 2,
           "text": "Perhaps half of U.S. farm laborers are undocumented immigrants. As fewer such workers enter the country, the characteristics of the agricultural workforce are changing. Today’s farm laborers, while still predominantly born in Mexico, are more likely to be settled rather than migrating and more likely to be married than single. They’re also aging. At the start of this century, about one-third of crop workers were over the age of 35. Now more than half are. And picking crops is hard on older bodies. One oft-debated cure for this labor shortage remains as implausible as it’s been all along: Native U.S. workers won’t be returning to the farm.",
           "translation": "美国农场工人中可能有一半是无证移民。随着进入该国的此类工人越来越少，农业劳动力的特征正在发生变化。今天的农场劳动者虽然仍然主要出生在墨西哥，但更有可能定居​​而不是移民，更有可能结婚而不是单身。他们也在变老。本世纪初，大约三分之一的农作物工人年龄在 35 岁以上。现在超过一半是。对于老年人来说，采摘庄稼是很困难的。针对这种劳动力短缺的一个经常被讨论的补救方案依然和以往一样难以置信：美国本土工人不会重返农场。",
           "slashed_text": "Perhaps half of U.S. farm laborers / are undocumented immigrants. / As fewer such workers enter the country , / the characteristics of the agricultural workforce are changing. / Today’s farm laborers , / while still predominantly born / in Mexico , / are more likely to be settled rather than migrating and more likely to be married than single. / They’re also aging. / At the start of this century , / about one-third of crop workers were over the age of 35. / Now more than half are. / And picking crops is hard / on older bodies. / One oft-debated cure for this labor shortage / remains as implausible as it’s been all along : / Native U.S. workers won’t be returning to the farm.",
@@ -4388,6 +4397,11 @@
               "word": "labor",
               "pos": "n.",
               "definition": "n. 劳动；工作"
+            },
+            {
+              "word": "farm",
+              "pos": "n.",
+              "definition": "n. 农场；养殖场"
             },
             {
               "word": "labor shortage",
@@ -4523,16 +4537,11 @@
               "word": "crops",
               "pos": "n.",
               "definition": "n. 农作物（crop 的复数）；收成；（冶）切头"
-            },
-            {
-              "word": "farm",
-              "pos": "n.",
-              "definition": "n. 农场；养殖场"
             }
           ]
         },
         {
-          "pid": 2,
+          "pid": 3,
           "text": "Mechanization isn’t the answer, either—not yet, at least. Production of corn, cotton, rice, soybeans, and wheat has been largely mechanized, but many high-value, labor-intensive crops, such as strawberries, need labor. Even dairy farms, where robots do a small share of milking, have a long way to go before they’re automated.",
           "translation": "机械化也不是答案——至少目前还不是。玉米、棉花、水稻、大豆和小麦的生产已基本机械化，但草莓等许多高价值、劳动密集型作物需要劳动力。即使是由机器人承担一小部分挤奶工作的奶牛场，在实现自动化之前还有很长的路要走。",
           "slashed_text": "Mechanization isn’t the answer , / either — / not yet , / at least. / Production of corn , / cotton , / rice , / soybeans , / and wheat has been largely mechanized , / but many high-value , / labor-intensive crops , / such as strawberries , / need labor. / Even dairy farms , / where robots do a small share of milking , / have a long way to go / before they’re automated.",
@@ -4656,12 +4665,17 @@
           ]
         },
         {
-          "pid": 3,
+          "pid": 4,
           "text": "As a result, farms have grown increasingly reliant on temporary guest workers using the H-2A visa to fill the gaps in the workforce. Starting around 2012, requests for the visas rose sharply; from 2011 to 2016 the number of visas issued more than doubled.",
           "translation": "因此，农场越来越依赖使用 H-2A 签证的临时客工来填补劳动力缺口。从2012年左右开始，签证申请量急剧增加；从2011年到2016年，签发的签证数量增加了一倍多。",
           "slashed_text": "As a result , / farms have grown increasingly reliant / on temporary guest workers using the H-2A visa to fill the gaps in the workforce. / Starting around 2012 , / requests for the visas rose sharply ; / from 2011 to 2016 the number of visas issued more than doubled.",
           "chunk_translation": "结果是， / 农场越来越依赖 / 持H-2A签证的临时短期外籍劳工来填补劳动力缺口。 / 大约从2012年开始， / 该类签证的申请量急剧攀升； / 从2011年到2016年，实际签发的签证数量增加了一倍以上。",
           "vocabulary": [
+            {
+              "word": "visa",
+              "pos": "n.",
+              "definition": "n. 签证；v.  签发签证"
+            },
             {
               "word": "workforce",
               "pos": "n.",
@@ -4741,16 +4755,11 @@
               "word": "visas",
               "pos": "n.",
               "definition": "n. 签证（visa 的复数）；v. 签发签证（visa 的第三人称单数）"
-            },
-            {
-              "word": "visa",
-              "pos": "n.",
-              "definition": "n. 签证；v.  签发签证"
             }
           ]
         },
         {
-          "pid": 4,
+          "pid": 5,
           "text": "The H-2A visa has no numerical cap, unlike the H-2B visa for nonagricultural work, which is limited to 66,000 a year. Even so, employers complain they aren’t given all the workers they need. The process is cumbersome, expensive, and unreliable. One survey found that bureaucratic delays led the average H-2A worker to arrive on the job 22 days late. The shortage is compounded by federal immigration raids, which remove some workers and drive others underground.",
           "translation": "H-2A签证没有数量上限，与非农业工作的H-2B签证每年的数量上限为66,000个不同。即便如此，雇主仍抱怨他们没有获得所需的全部工人。该过程繁琐、昂贵且不可靠。一项调查发现，官僚主义拖延导致 H-2A 员工平均晚到工作 22 天。联邦移民突击搜查导致人员短缺，一些工人被赶走，另一些则被迫转入地下。",
           "slashed_text": "The H-2A visa has no numerical cap , / unlike the H-2B visa / for nonagricultural work , / which is limited to 66 , / 000 a year. / Even so , / employers complain they aren’t given all the workers they need. / The process is cumbersome , / expensive , / and unreliable. / One survey found / that bureaucratic delays led the average H-2A worker to arrive on the job 22 days late. / The shortage is compounded / by federal immigration raids , / which remove some workers and drive others underground.",
@@ -4760,6 +4769,11 @@
               "word": "immigration",
               "pos": "n.",
               "definition": "n. 移民（入境）；移民人数；移民局入境检查"
+            },
+            {
+              "word": "visa",
+              "pos": "n.",
+              "definition": "n. 签证；v.  签发签证"
             },
             {
               "word": "shortage",
@@ -4877,11 +4891,6 @@
               "definition": "v. 驾车送（人）；迫使；驱使"
             },
             {
-              "word": "visa",
-              "pos": "n.",
-              "definition": "n. 签证；v.  签发签证"
-            },
-            {
               "word": "aren",
               "pos": "abbr.",
               "definition": "abbr. 陆军无线电工程网（army radio engineering network）"
@@ -4889,11 +4898,11 @@
           ]
         },
         {
-          "pid": 5,
-          "text": "In a 2012 survey, 71 percent of tree-fruit growers and almost 80 percent of raisin and berry growers said they were short of labor. Some western farmers have responded by moving operations to Mexico. From 1998 to 2000, 14.5 percent of the fruit Americans consumed was imported. Little more than a decade later, the share of imports was 25.8 percent. In effect, the U.S. can import food or it can import the workers who pick it.",
-          "translation": "在 2012 年的一项调查中，71% 的树果种植者和近 80% 的葡萄干和浆果种植者表示，他们缺乏劳动力。一些西方农民的应对措施是将业务转移到墨西哥。从 1998 年到 2000 年，美国人消费的水果中有 14.5% 是进口的。十多年后，进口份额达到 25.8%。实际上，美国要么可以进口粮食，要么可以引进采摘粮食的劳工。",
-          "slashed_text": "In a 2012 survey , / 71 percent of tree-fruit growers and almost 80 percent of raisin and berry growers said they were short of labor. / Some western farmers have responded / by moving operations to Mexico. / From 1998 to 2000 , / 14.5 percent of the fruit Americans consumed was imported. / Little more than a decade later , / the share of imports was 25.8 percent. / In effect , / the U.S. can import food / or it can import the workers / who pick it.",
-          "chunk_translation": "在2012年的一项调查中， / 71%的树果种植者和近80%的葡萄干及浆果种植者表示他们面临劳动力短缺。 / 一些西部农场主的应对措施 / 是将业务直接转移到墨西哥。 / 1998年至2000年间， / 美国人消费的水果中有14.5%来自于进口。 / 仅仅十多年后， / 进口水果的份额就上升至25.8%。 / 实际上 / 美国可以进口粮食 / 或者它可以引进工人 / 采摘粮食的劳动力。",
+          "pid": 6,
+          "text": "In a 2012 survey, 71 percent of tree-fruit growers and almost 80 percent of raisin and berry growers said they were short of labor. Some western farmers have responded by moving operations to Mexico. From 1998 to 2000, 14.5 percent of the fruit Americans consumed was imported. Little more than a decade later, the share of imports was 25.8 percent.",
+          "translation": "在 2012 年的一项调查中，71% 的树果种植者和近 80% 的葡萄干和浆果种植者表示，他们缺乏劳动力。一些西方农民的应对措施是将业务转移到墨西哥。从 1998 年到 2000 年，美国人消费的水果中有 14.5% 是进口的。十多年后，进口份额达到 25.8%。",
+          "slashed_text": "In a 2012 survey , / 71 percent of tree-fruit growers and almost 80 percent of raisin and berry growers said they were short of labor. / Some western farmers have responded / by moving operations to Mexico. / From 1998 to 2000 , / 14.5 percent of the fruit Americans consumed was imported. / Little more than a decade later , / the share of imports was 25.8 percent.",
+          "chunk_translation": "在2012年的一项调查中， / 71%的树果种植者和近80%的葡萄干及浆果种植者表示他们面临劳动力短缺。 / 一些西部农场主的应对措施 / 是将业务直接转移到墨西哥。 / 1998年至2000年间， / 美国人消费的水果中有14.5%来自于进口。 / 仅仅十多年后， / 进口水果的份额就上升至25.8%。",
           "vocabulary": [
             {
               "word": "farmers",
@@ -4984,7 +4993,16 @@
               "word": "tree",
               "pos": "n.",
               "definition": "n. 树（乔木）；树状物"
-            },
+            }
+          ]
+        },
+        {
+          "pid": 7,
+          "text": "In effect, the U.S. can import food or it can import the workers who pick it.",
+          "translation": "实际上，美国要么可以进口粮食，要么可以引进采摘粮食的劳工。",
+          "slashed_text": "In effect , / the U.S. can import food / or it can import the workers / who pick it.",
+          "chunk_translation": "实际上 / 美国可以进口粮食 / 或者它可以引进工人 / 采摘粮食的劳动力。",
+          "vocabulary": [
             {
               "word": "in effect",
               "pos": "",
@@ -5067,8 +5085,8 @@
         },
         {
           "sid": 2,
-          "pid": 0,
-          "sentence_index": 2,
+          "pid": 1,
+          "sentence_index": 0,
           "text": "Congress has obstructed efforts to create a more straightforward visa for agricultural workers that would let foreign workers stay longer in the U.S. and change jobs within the industry.",
           "translation": "国会阻挠了为农业工人设立更直接签证的努力，该签证允许外国工人在美国停留更长时间并在行业内更换工作。",
           "slashed_text": "Congress has obstructed efforts to create a more straightforward visa for agricultural workers / that would let foreign workers stay longer in the U.S. and change jobs within the industry.",
@@ -5095,8 +5113,8 @@
         },
         {
           "sid": 3,
-          "pid": 0,
-          "sentence_index": 3,
+          "pid": 1,
+          "sentence_index": 1,
           "text": "If this doesn’t change, American businesses, communities, and consumers will be the losers.",
           "translation": "如果这一点不改变，美国企业、社区和消费者将成为输家。",
           "slashed_text": "If this doesn’t change , / American businesses , / communities , / and consumers will be the losers.",
@@ -5123,7 +5141,7 @@
         },
         {
           "sid": 4,
-          "pid": 1,
+          "pid": 2,
           "sentence_index": 0,
           "text": "Perhaps half of U.S. farm laborers are undocumented immigrants.",
           "translation": "美国农场工人中可能有一半是无证移民。",
@@ -5151,7 +5169,7 @@
         },
         {
           "sid": 5,
-          "pid": 1,
+          "pid": 2,
           "sentence_index": 1,
           "text": "As fewer such workers enter the country, the characteristics of the agricultural workforce are changing.",
           "translation": "随着进入该国的此类工人越来越少，农业劳动力的特征正在发生变化。",
@@ -5179,7 +5197,7 @@
         },
         {
           "sid": 6,
-          "pid": 1,
+          "pid": 2,
           "sentence_index": 2,
           "text": "Today’s farm laborers, while still predominantly born in Mexico, are more likely to be settled rather than migrating and more likely to be married than single.",
           "translation": "今天的农场劳动者虽然仍然主要出生在墨西哥，但更有可能定居​​而不是移民，更有可能结婚而不是单身。",
@@ -5207,7 +5225,7 @@
         },
         {
           "sid": 7,
-          "pid": 1,
+          "pid": 2,
           "sentence_index": 3,
           "text": "They’re also aging.",
           "translation": "他们也在变老。",
@@ -5235,7 +5253,7 @@
         },
         {
           "sid": 8,
-          "pid": 1,
+          "pid": 2,
           "sentence_index": 4,
           "text": "At the start of this century, about one-third of crop workers were over the age of 35.",
           "translation": "本世纪初，大约三分之一的农作物工人年龄在 35 岁以上。",
@@ -5263,7 +5281,7 @@
         },
         {
           "sid": 9,
-          "pid": 1,
+          "pid": 2,
           "sentence_index": 5,
           "text": "Now more than half are.",
           "translation": "现在超过一半是。",
@@ -5291,7 +5309,7 @@
         },
         {
           "sid": 10,
-          "pid": 1,
+          "pid": 2,
           "sentence_index": 6,
           "text": "And picking crops is hard on older bodies.",
           "translation": "对于老年人来说，采摘庄稼是很困难的。",
@@ -5319,7 +5337,7 @@
         },
         {
           "sid": 11,
-          "pid": 1,
+          "pid": 2,
           "sentence_index": 7,
           "text": "One oft-debated cure for this labor shortage remains as implausible as it’s been all along: Native U.S. workers won’t be returning to the farm.",
           "translation": "针对这种劳动力短缺的一个经常被讨论的补救方案依然和以往一样难以置信：美国本土工人不会重返农场。",
@@ -5347,7 +5365,7 @@
         },
         {
           "sid": 12,
-          "pid": 2,
+          "pid": 3,
           "sentence_index": 0,
           "text": "Mechanization isn’t the answer, either—not yet, at least.",
           "translation": "机械化也不是答案——至少目前还不是。",
@@ -5375,7 +5393,7 @@
         },
         {
           "sid": 13,
-          "pid": 2,
+          "pid": 3,
           "sentence_index": 1,
           "text": "Production of corn, cotton, rice, soybeans, and wheat has been largely mechanized, but many high-value, labor-intensive crops, such as strawberries, need labor.",
           "translation": "玉米、棉花、水稻、大豆和小麦的生产已基本机械化，但草莓等许多高价值、劳动密集型作物需要劳动力。",
@@ -5403,7 +5421,7 @@
         },
         {
           "sid": 14,
-          "pid": 2,
+          "pid": 3,
           "sentence_index": 2,
           "text": "Even dairy farms, where robots do a small share of milking, have a long way to go before they’re automated.",
           "translation": "即使是由机器人承担一小部分挤奶工作的奶牛场，在实现自动化之前还有很长的路要走。",
@@ -5431,7 +5449,7 @@
         },
         {
           "sid": 15,
-          "pid": 3,
+          "pid": 4,
           "sentence_index": 0,
           "text": "As a result, farms have grown increasingly reliant on temporary guest workers using the H-2A visa to fill the gaps in the workforce.",
           "translation": "因此，农场越来越依赖使用 H-2A 签证的临时客工来填补劳动力缺口。",
@@ -5459,7 +5477,7 @@
         },
         {
           "sid": 16,
-          "pid": 3,
+          "pid": 4,
           "sentence_index": 1,
           "text": "Starting around 2012, requests for the visas rose sharply; from 2011 to 2016 the number of visas issued more than doubled.",
           "translation": "从2012年左右开始，签证申请量急剧增加；从2011年到2016年，签发的签证数量增加了一倍多。",
@@ -5487,7 +5505,7 @@
         },
         {
           "sid": 17,
-          "pid": 4,
+          "pid": 5,
           "sentence_index": 0,
           "text": "The H-2A visa has no numerical cap, unlike the H-2B visa for nonagricultural work, which is limited to 66,000 a year.",
           "translation": "H-2A签证没有数量上限，与非农业工作的H-2B签证每年的数量上限为66,000个不同。",
@@ -5515,7 +5533,7 @@
         },
         {
           "sid": 18,
-          "pid": 4,
+          "pid": 5,
           "sentence_index": 1,
           "text": "Even so, employers complain they aren’t given all the workers they need.",
           "translation": "即便如此，雇主仍抱怨他们没有获得所需的全部工人。",
@@ -5543,7 +5561,7 @@
         },
         {
           "sid": 19,
-          "pid": 4,
+          "pid": 5,
           "sentence_index": 2,
           "text": "The process is cumbersome, expensive, and unreliable.",
           "translation": "该过程繁琐、昂贵且不可靠。",
@@ -5571,7 +5589,7 @@
         },
         {
           "sid": 20,
-          "pid": 4,
+          "pid": 5,
           "sentence_index": 3,
           "text": "One survey found that bureaucratic delays led the average H-2A worker to arrive on the job 22 days late.",
           "translation": "一项调查发现，官僚主义拖延导致 H-2A 员工平均晚到工作 22 天。",
@@ -5599,7 +5617,7 @@
         },
         {
           "sid": 21,
-          "pid": 4,
+          "pid": 5,
           "sentence_index": 4,
           "text": "The shortage is compounded by federal immigration raids, which remove some workers and drive others underground.",
           "translation": "联邦移民突击搜查导致人员短缺，一些工人被赶走，另一些则被迫转入地下。",
@@ -5627,7 +5645,7 @@
         },
         {
           "sid": 22,
-          "pid": 5,
+          "pid": 6,
           "sentence_index": 0,
           "text": "In a 2012 survey, 71 percent of tree-fruit growers and almost 80 percent of raisin and berry growers said they were short of labor.",
           "translation": "在 2012 年的一项调查中，71% 的树果种植者和近 80% 的葡萄干和浆果种植者表示，他们缺乏劳动力。",
@@ -5655,7 +5673,7 @@
         },
         {
           "sid": 23,
-          "pid": 5,
+          "pid": 6,
           "sentence_index": 1,
           "text": "Some western farmers have responded by moving operations to Mexico.",
           "translation": "一些西方农民的应对措施是将业务转移到墨西哥。",
@@ -5683,7 +5701,7 @@
         },
         {
           "sid": 24,
-          "pid": 5,
+          "pid": 6,
           "sentence_index": 2,
           "text": "From 1998 to 2000, 14.5 percent of the fruit Americans consumed was imported.",
           "translation": "从 1998 年到 2000 年，美国人消费的水果中有 14.5% 是进口的。",
@@ -5711,7 +5729,7 @@
         },
         {
           "sid": 25,
-          "pid": 5,
+          "pid": 6,
           "sentence_index": 3,
           "text": "Little more than a decade later, the share of imports was 25.8 percent.",
           "translation": "十多年后，进口份额达到 25.8%。",
@@ -5739,8 +5757,8 @@
         },
         {
           "sid": 26,
-          "pid": 5,
-          "sentence_index": 4,
+          "pid": 7,
+          "sentence_index": 0,
           "text": "In effect, the U.S. can import food or it can import the workers who pick it.",
           "translation": "实际上，美国要么可以进口粮食，要么可以引进采摘粮食的劳工。",
           "slashed_text": "In effect , / the U.S. can import food / or it can import the workers / who pick it.",
@@ -5772,7 +5790,7 @@
           "stem": "What problem should be addressed according to the first two paragraphs?",
           "stem_cn": "根据前两段，应该解决什么问题？",
           "type": "事实细节题",
-          "locate_pid": 0,
+          "locate_pid": 2,
           "locate_sentence": "The complaints are unlikely to stop without an overhaul of immigration rules for farm workers.",
           "locate_sentence_cn": "如果不彻底改革针对农业工人的移民规则，这些抱怨就不可能停止。",
           "options": [
@@ -5864,7 +5882,7 @@
           "stem": "One trouble with U.S. agricultural workforce is _____.",
           "stem_cn": "美国农业劳动力面临的一个困境是______。",
           "type": "因果推断题",
-          "locate_pid": 1,
+          "locate_pid": 3,
           "locate_sentence": "They’re also aging. At the start of this century, about one-third of crop workers were over the age of 35. Now more than half are. And picking crops is hard on older bodies.",
           "locate_sentence_cn": "他们也正在老龄化。本世纪初，大约三分之一的农田工人年龄在35岁以上。现在超过一半人都是。而采摘农作物对上了年纪的身体来说是很吃力的。",
           "options": [
@@ -5956,7 +5974,7 @@
           "stem": "What is the much-argued solution to the labor shortage in U.S. farming?",
           "stem_cn": "针对美国农业劳动力短缺，经常被争论的解决方案是什么？",
           "type": "段落推理题",
-          "locate_pid": 1,
+          "locate_pid": 5,
           "locate_sentence": "One oft-debated cure for this labor shortage remains as implausible as it’s been all along: Native U.S. workers won’t be returning to the farm.",
           "locate_sentence_cn": "针对这种劳动力短缺，一个常常被争论的解决办法仍然和以往一样不切实际：美国本土工人绝不会回到农场干活。",
           "options": [
@@ -6048,7 +6066,7 @@
           "stem": "Agricultural employers complain about the H-2A visa for its _____.",
           "stem_cn": "农业雇主抱怨H-2A签证是因为它的______。",
           "type": "词义/例证题",
-          "locate_pid": 4,
+          "locate_pid": 6,
           "locate_sentence": "The process is cumbersome, expensive, and unreliable. One survey found that bureaucratic delays led the average H-2A worker to arrive on the job 22 days late.",
           "locate_sentence_cn": "申请过程繁琐、昂贵且不可靠。一项调查发现，官僚拖延导致平均每名H-2A工人在到岗工作时迟到了22天。",
           "options": [
@@ -6135,7 +6153,7 @@
           "stem": "Which of the following could be the best title for this text?",
           "stem_cn": "下列哪项最适合作为本文的标题？",
           "type": "全文主旨题",
-          "locate_pid": 5,
+          "locate_pid": 7,
           "locate_sentence": "In effect, the U.S. can import food or it can import the workers who pick it.",
           "locate_sentence_cn": "实际上，美国要么进口粮食蔬果，要么进口采摘它们的劳工。",
           "options": [
@@ -6226,38 +6244,50 @@
           {
             "pid": 0,
             "role": "【起】美农场缺工抱怨连连，劳力荒已非阵痛而是常态",
-            "core_point": "全美农场主对招不到采摘工人的抱怨已持续数年，且绝无平息迹象，劳动力短缺已演变成长期结构性危机。",
-            "cohesive_devices": "以开门见山陈述现状（complaining of labor shortages / unlikely to abate）。"
+            "core_point": "全美农场主对招不到采摘工人的抱怨已持续数年，不改革移民体制短缺无法平息。",
+            "cohesive_devices": "开门见山陈述农业危机现状。"
           },
           {
             "pid": 1,
-            "role": "【承】非法移民减少对劳动密集型农场的抽薪之痛",
-            "core_point": "近半数在美农工系无证无身份的拉美移民，随着边境筑墙严控，这一维持美国果蔬丰收的隐秘劳动力血脉骤然枯竭。",
-            "cohesive_devices": "揭示劳动力结构深层真相（half of farm laborers undocumented / fewer enter）。"
+            "role": "【承】国会阻挠农工签证改革导致全美受损",
+            "core_point": "国会阻挠设立更直接简捷的农业外籍签证，长此以往美企、社区和消费者都将成为输家。",
+            "cohesive_devices": "指出立法机构政策阻滞与全盘危害。"
           },
           {
             "pid": 2,
-            "role": "【转】机械化不可行：娇嫩果蔬采摘仍需肉身温度与指尖技巧",
-            "core_point": "玉米、大豆等大田作物虽可机械化，但对于草莓、浆果和桃子等娇贵鲜果，自动化机械手不仅昂贵，且极易将果实捏烂，无法取代人工。",
-            "cohesive_devices": "以转折连词（Mechanization isn't the answer either）击碎科技万能神话。"
+            "role": "【深】无证移民断流与在美农工老龄化现实",
+            "core_point": "半数农工系无证移民，随着入境减少，劳动力老龄化严重，本土美国人绝不会重返农田采摘。",
+            "cohesive_devices": "深入剖析劳动力断层与老龄化结构。"
           },
           {
             "pid": 3,
-            "role": "【承】H-2A临时客工签证沦为农场救命稻草",
-            "core_point": "在走投无路之下，种植园主不得不大规模申请合法的H-2A外籍临时农工签证，导致申请量出现暴增。",
-            "cohesive_devices": "呈现替代方案（As a result, farms grown increasingly reliant on H-2A）。"
+            "role": "【转】机械化不可行：娇嫩果蔬采摘仍需肉身温度与指尖技巧",
+            "core_point": "机械化绝非灵丹妙药，草莓、鲜桃等高价值劳力密集型果蔬无法自动化采摘。",
+            "cohesive_devices": "以转折打碎机械化万能假象（Mechanization isn’t the answer）。"
           },
           {
             "pid": 4,
-            "role": "【转】虽无配额上限，却深陷官僚繁文缛节泥潭",
-            "core_point": "H-2A签证虽然法律上没有总数配额，但申请流程之繁琐苛刻、审批节奏之滞后，往往导致工人到位时庄稼已在枝头烂透。",
-            "cohesive_devices": "以制度弊端对比（no numerical cap vs bureaucratic delays）。"
+            "role": "【承】农场对H-2A季节性客工签证依赖剧增",
+            "core_point": "农场日益依赖H-2A外籍临时客工签证填补用工空缺，申请量数年间翻倍暴增。",
+            "cohesive_devices": "陈述替代方案带来的申请激增。"
           },
           {
             "pid": 5,
-            "role": "【深】权威调查数据作证：八成果农深陷招工无门泥淖",
-            "core_point": "权威行业调研显示，高达七成以上的树果种植者与近八成的浆果种植户公开表示根本无法招募到足够的当季采摘工。 严峻现实不容回避：美国要么打开大门引进采摘工守护自家粮仓，要么眼睁睁看着本国农田荒芜，全盘从拉美进口他国粮食。",
-            "cohesive_devices": "引用详实统计数据（In a survey, 71% of tree-fruit, 80% of berry growers）。"
+            "role": "【析】H-2A签证无名额上限却饱受官僚拖延之苦",
+            "core_point": "H-2A虽无总额配额限制，但手续繁琐、审批严重滞后，往往耽误农时并导致作物烂在田间。",
+            "cohesive_devices": "制度弊端对比分析（no cap vs bureaucratic delays）。"
+          },
+          {
+            "pid": 6,
+            "role": "【深】调查数据揭示八成果农缺工与农场迁往墨西哥",
+            "core_point": "高达七八成树果和浆果农户面临劳力短缺，部分西部农场主被迫将种植运营迁往墨西哥。",
+            "cohesive_devices": "引用实证调研统计数据。"
+          },
+          {
+            "pid": 7,
+            "role": "【结】进口粮食还是进口工人的终极政策抉择",
+            "core_point": "美国实质上面临两难底线选择：要么进口外国采摘工人，要么直接从外国进口粮食。",
+            "cohesive_devices": "以震撼性二选一箴言结题（import food or import workers）。"
           }
         ],
         "part_b_training": {

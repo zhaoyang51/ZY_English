@@ -2120,15 +2120,10 @@
         {
           "pid": 1,
           "text": "One in three Americans who are at least 40 have, or plan to have a job in retirement to prepare for a longer life, according to a survey conducted by Harris Poll for TD Ameritrade. Even more surprising is that more than half of “unretirees”—those who plan to work in retirement or went back to work after retiring—said they would be employed in their later years even if they had enough money to settle down, the survey showed.",
-          "translation": "根据哈里斯民意调查 (Harris Poll) 为德美利证券 (TD Ameritrade) 进行的一项调查，三分之一 40 岁以上的美国人已经或计划在退休后找到一份工作，为更长的生活做好准备。更令人惊讶的是，调查显示，超过一半的“未退休人员”（那些计划退休后工作或退休后重返工作岗位的人）表示，即使他们有足够的钱安定下来，他们也会在晚年找到工作。",
+          "translation": "根据哈里斯民意调查 (Harris Poll) 为德美利证券 (TD Ameritrade) 进行的一项调查，三分之一 40 岁以上的美国人已经或计划在退休后找到一份工作，为更长的生活做好准备。更令人惊讶的是，调查显示，超过一半的“未退休人员”（那些计划退休后工作或退休后重返工作岗位的人）表示，即使有足够的钱安定下来，他们也会在晚年找到工作。",
           "slashed_text": "One / in three Americans / who are / at least 40 have , / or plan to have a job / in retirement to prepare for a longer life , / according to a survey conducted / by Harris Poll for TD Ameritrade. / Even more surprising is / that more than half of “unretirees” — / those / who plan to work / in retirement or went back to work / after retiring — / said they would be employed / in their later years even / if they had enough money to settle down , / the survey showed.",
           "chunk_translation": "每三人中就有一人 / 在全美范围内， / 只要年龄达到 / 至少40岁就已拥有， / 或计划在退休后保留一份工作， / 以便为更长寿的生活做准备， / 根据一项民调调查， / 该调查由哈里斯民调为德美利证券所开展。 / 更令人惊讶的是， / 超过半数的“不退休族”—— / 即那些 / 计划工作的人 / 在退休后，或者重新重返工作岗位 / 在退休之后—— / 表示他们仍会受雇工作 / 在他们的晚年，即便 / 他们有足够的金钱安顿下来， / 该项调查显示。",
           "vocabulary": [
-            {
-              "word": "more Americans are willing to work in retirement",
-              "pos": "",
-              "definition": "【🎯解题正解】 更多美国人愿意在退休后工作"
-            },
             {
               "word": "retirement",
               "pos": "",
@@ -2208,20 +2203,20 @@
         },
         {
           "pid": 2,
-          "text": "Financial needs aren’t the only culprit for the “unretirement” trend. Other reasons, according to the study, include personal fulfillment such as staying mentally fit, preventing boredom or avoiding depression. “The concept of retirement is evolving,” said Christine Russell, senior manager of retirement at TD Ameritrade. “It’s not just about finances. The value of work is also driving folks to continue working past retirement.”",
-          "translation": "财务需求并不是“不退休”趋势的唯一罪魁祸首。研究表明，其他原因还包括个人满足感，例如保持精神健康、防止无聊或避免抑郁。 德美利证券 (TD Ameritrade) 退休高级经理克里斯汀·拉塞尔 (Christine Russell) 表示：“退休的概念正在不断演变。” “这不仅仅是财务问题。工作的价值也促使人们在退休后继续工作。”",
-          "slashed_text": "Financial needs aren’t the only culprit for the “unretirement” trend. / Other reasons , / according to the study , / include personal fulfillment such as staying mentally fit , / preventing boredom or avoiding depression. / “The concept of retirement is evolving , / ” said Christine Russell , / senior manager of retirement at TD Ameritrade. / “It’s not just / about finances. / The value of work is also driving folks to continue working past retirement.”",
-          "chunk_translation": "经济需求并非导致“不退休”趋势的唯一诱因。 / 根据该项研究，其他原因 / 还包括自我实现， / 例如保持思维敏捷活跃、 / 排解无聊或者避免陷入抑郁。 / “退休的概念正在不断演化，” / 德美利证券退休事务高级经理 / 克里斯汀·拉塞尔表示。 / “这不仅关乎 / 经济财务层面。 / 工作的内在价值同样在驱使人们在退休后继续从事工作。”",
+          "text": "Financial needs aren’t the only culprit for the “unretirement” trend. Other reasons, according to the study, include personal fulfillment such as staying mentally fit, preventing boredom or avoiding depression.",
+          "translation": "财务需求并不是“不退休”趋势的唯一罪魁祸首。研究表明，其他原因还包括个人满足感，例如保持精神健康、防止无聊或避免抑郁。",
+          "slashed_text": "Financial needs aren’t the only culprit for the “unretirement” trend. / Other reasons , / according to the study , / include personal fulfillment such as staying mentally fit , / preventing boredom or avoiding depression.",
+          "chunk_translation": "经济需求并非导致“不退休”趋势的唯一诱因。 / 根据该项研究，其他原因 / 还包括自我实现， / 例如保持思维敏捷活跃、 / 排解无聊或者避免陷入抑郁。",
           "vocabulary": [
             {
-              "word": "retirement may cause problems for them",
-              "pos": "",
-              "definition": "【🎯解题正解】 退休可能会给他们带来问题"
+              "word": "trend",
+              "pos": "n.",
+              "definition": "n. 趋势；动态"
             },
             {
-              "word": "retirement",
-              "pos": "",
-              "definition": "n.退休;退休年龄"
+              "word": "according",
+              "pos": "prep.",
+              "definition": "prep. 按照；根据"
             },
             {
               "word": "culprit",
@@ -2254,26 +2249,6 @@
               "definition": "adj. 财政的；金融的"
             },
             {
-              "word": "according",
-              "pos": "prep.",
-              "definition": "prep. 按照；根据"
-            },
-            {
-              "word": "Christine",
-              "pos": "n.",
-              "definition": "n. 克莉丝汀（女子名）"
-            },
-            {
-              "word": "evolving",
-              "pos": "v.",
-              "definition": "v. （evolve 的现在分词）（使）逐渐发展；进化"
-            },
-            {
-              "word": "finances",
-              "pos": "n.",
-              "definition": "n. 资金；财源"
-            },
-            {
               "word": "personal",
               "pos": "adj.",
               "definition": "adj. 个人的；私人的；私密的"
@@ -2294,6 +2269,60 @@
               "definition": "n. 原因（reason 的复数）；v. 推理"
             },
             {
+              "word": "staying",
+              "pos": "n.",
+              "definition": "n. 刚性结合；撑法；加劲"
+            },
+            {
+              "word": "boredom",
+              "pos": "n.",
+              "definition": "n. 厌烦；无聊"
+            },
+            {
+              "word": "study",
+              "pos": "n.",
+              "definition": "n. （专题）研究；调查"
+            },
+            {
+              "word": "aren",
+              "pos": "abbr.",
+              "definition": "abbr. 陆军无线电工程网（army radio engineering network）"
+            },
+            {
+              "word": "financial",
+              "pos": "adj.",
+              "definition": "adj. 财政的；金融的；有钱的"
+            }
+          ]
+        },
+        {
+          "pid": 3,
+          "text": "“The concept of retirement is evolving,” said Christine Russell, senior manager of retirement at TD Ameritrade. “It’s not just about finances. The value of work is also driving folks to continue working past retirement.”",
+          "translation": "德美利证券 (TD Ameritrade) 退休高级经理克里斯汀·拉塞尔 (Christine Russell) 表示：“退休的概念正在不断演变。”“这不仅仅是财务问题。工作的价值也促使人们在退休后继续工作。”",
+          "slashed_text": "“The concept of retirement is evolving , / ” said Christine Russell , / senior manager of retirement at TD Ameritrade. / “It’s not just / about finances. / The value of work is also driving folks to continue working past retirement.”",
+          "chunk_translation": "“退休的概念正在不断演化，” / 德美利证券退休事务高级经理 / 克里斯汀·拉塞尔表示。 / “这不仅关乎 / 经济财务层面。 / 工作的内在价值同样在驱使人们在退休后继续从事工作。”",
+          "vocabulary": [
+            {
+              "word": "retirement",
+              "pos": "",
+              "definition": "n.退休;退休年龄"
+            },
+            {
+              "word": "Christine",
+              "pos": "n.",
+              "definition": "n. 克莉丝汀（女子名）"
+            },
+            {
+              "word": "evolving",
+              "pos": "v.",
+              "definition": "v. （evolve 的现在分词）（使）逐渐发展；进化"
+            },
+            {
+              "word": "finances",
+              "pos": "n.",
+              "definition": "n. 资金；财源"
+            },
+            {
               "word": "concept",
               "pos": "n.",
               "definition": "n. 概念；观念"
@@ -2309,16 +2338,6 @@
               "definition": "n. （公司、部门等的）经理；（艺人或运动员的）经纪人"
             },
             {
-              "word": "staying",
-              "pos": "n.",
-              "definition": "n. 刚性结合；撑法；加劲"
-            },
-            {
-              "word": "boredom",
-              "pos": "n.",
-              "definition": "n. 厌烦；无聊"
-            },
-            {
               "word": "driving",
               "pos": "adj.",
               "definition": "adj. 推动的；强有力的；猛烈的"
@@ -2329,16 +2348,6 @@
               "definition": "adj. 年龄大些的；（用在家庭内姓名相同的人名后表示）老"
             },
             {
-              "word": "trend",
-              "pos": "n.",
-              "definition": "n. 趋势；动态"
-            },
-            {
-              "word": "study",
-              "pos": "n.",
-              "definition": "n. （专题）研究；调查"
-            },
-            {
               "word": "value",
               "pos": "n.",
               "definition": "n. 价值；等值"
@@ -2347,41 +2356,16 @@
               "word": "folks",
               "pos": "n.",
               "definition": "n. 人们；大家；普通人（folk 的复数形式）"
-            },
-            {
-              "word": "aren",
-              "pos": "abbr.",
-              "definition": "abbr. 陆军无线电工程网（army radio engineering network）"
             }
           ]
         },
         {
-          "pid": 3,
+          "pid": 4,
           "text": "One reason for the change in retirement patterns: Americans are living longer. Older Americans are also the fastest-growing segment of the U.S. workforce. The percentage of retirement-age people in the labor force has doubled over the past three decades. About 20% of people 65 and older were in the workforce in February 2019, up from an all-time low of 10% in January 1985, according to money manager United Income.",
-          "translation": "退休模式发生变化的原因之一是：美国人的寿命更长。美国老年人也是美国劳动力中增长最快的部分。过去三十年里，退休年龄人口在劳动力中的比例翻了一番。根据资金管理公司 United Income 的数据，2019 年 2 月，65 岁及以上的人中约有 20% 进入劳动力市场，高于 1985 年 1 月 10% 的历史最低水平。",
+          "translation": "退休模式发生变化的原因之一是：美国人的寿命更长。美国老年人也是美国增长最快的群体。劳动力。过去三十年里，退休年龄人口在劳动力中的比例翻了一番。根据资金管理公司 United Income 的数据，2019 年 2 月，65 岁及以上的人中约有 20% 进入劳动力市场，高于 1985 年 1 月 10% 的历史最低水平。",
           "slashed_text": "One reason for the change / in retirement patterns : / Americans are living longer. / Older Americans are also the fastest-growing segment of the U.S. / workforce. / The percentage of retirement-age people in the labor force has doubled over the past three decades. / About 20% of people 65 and older were in the workforce / in February 2019 , / up from an all-time low of 10% / in January 1985 , / according to money manager United Income.",
           "chunk_translation": "退休模式发生改变的原因之一是： / 退休生活模式： / 美国人的预期寿命变得更长。 / 美国老年群体也是全美劳动力中 / 增长最快的一部分。 / 在过去三十年中，处于退休年龄却依然在职的人员比例翻了一番。 / 大约20%的65岁及以上老年人处于就业状态 / 在2019年2月， / 高于10%的历史最低点 / 在1985年1月， / 据资产管理机构联合收入公司的数据显示。",
           "vocabulary": [
-            {
-              "word": "longer life expectancy",
-              "pos": "",
-              "definition": "【🎯解题正解】 预期寿命更长"
-            },
-            {
-              "word": "labor shortages",
-              "pos": "",
-              "definition": "【💡题项表达】 劳动力短缺"
-            },
-            {
-              "word": "population growth",
-              "pos": "",
-              "definition": "【💡题项表达】 人口增长"
-            },
-            {
-              "word": "rising living costs",
-              "pos": "",
-              "definition": "【💡题项表达】 生活成本上升"
-            },
             {
               "word": "retirement",
               "pos": "",
@@ -2391,6 +2375,26 @@
               "word": "workforce",
               "pos": "",
               "definition": "n.劳动力"
+            },
+            {
+              "word": "growing",
+              "pos": "adj.",
+              "definition": "adj. 增长的；增加的"
+            },
+            {
+              "word": "according",
+              "pos": "prep.",
+              "definition": "prep. 按照；根据"
+            },
+            {
+              "word": "money",
+              "pos": "n.",
+              "definition": "n. 钱；钞票；货币"
+            },
+            {
+              "word": "manager",
+              "pos": "n.",
+              "definition": "n. （公司、部门等的）经理；（艺人或运动员的）经纪人"
             },
             {
               "word": "segment",
@@ -2408,11 +2412,6 @@
               "definition": "n. 百分比；百分率；部分"
             },
             {
-              "word": "according",
-              "pos": "prep.",
-              "definition": "prep. 按照；根据；依照（according to"
-            },
-            {
               "word": "patterns",
               "pos": "n.",
               "definition": "n. 模式；方式"
@@ -2423,11 +2422,6 @@
               "definition": "adj. 最快速的（fast 的最高级）"
             },
             {
-              "word": "growing",
-              "pos": "adj.",
-              "definition": "adj. 增长的；增加的"
-            },
-            {
               "word": "doubled",
               "pos": "v.",
               "definition": "v. （使）变为两倍；翻倍；成倍增加"
@@ -2436,11 +2430,6 @@
               "word": "decades",
               "pos": "n.",
               "definition": "n. 数十年（decade 的复数）"
-            },
-            {
-              "word": "manager",
-              "pos": "n.",
-              "definition": "n. （公司、部门等的）经理；（艺人或运动员的）经纪人；（运动队的）管理人"
             },
             {
               "word": "reason",
@@ -2471,45 +2460,35 @@
               "word": "force",
               "pos": "n.",
               "definition": "n. 暴力；武力；力"
-            },
-            {
-              "word": "money",
-              "pos": "n.",
-              "definition": "n. 钱；钞票；货币"
             }
           ]
         },
         {
-          "pid": 4,
+          "pid": 5,
           "text": "Because of longer life spans, Americans are also boosting their savings to preserve their nest eggs, the TD Ameritrade study showed, which surveyed 2,000 adults between 40 to 79. Six in 10 “unretirees” are increasing their savings in anticipation of a longer life. Among the most popular ways they are doing this, the company said, is by reducing their overall expenses, securing life insurance or maximizing their contributions to retirement accounts.",
-          "translation": "TD Ameritrade对2000名40至79岁的成年人进行的一项研究显示，由于寿命延长，美国人也在增加储蓄以保住养老金。十分之六的“退而不休者”正在增加储蓄以期长寿。该公司表示，在他们这样做的最流行的方式中，包括减少总体开支、购买人寿保险或最大化向退休账户供款。",
+          "translation": "德美利证券 (TD Ameritrade) 对 2000 名 40 至 79 岁成年人进行的调查显示，由于寿命更长，美国人也在增加储蓄以保存储蓄。十分之六的“未退休人员”正在增加储蓄，以期延长寿命。该公司表示，他们这样做最受欢迎的方式之一是减少总体开支、购买人寿保险或最大限度地增加对退休账户的缴款。",
           "slashed_text": "Because of longer life spans , / Americans are also boosting their savings to preserve their nest eggs , / the TD Ameritrade study showed , / which surveyed 2 , / 000 adults between 40 to 79. / Six in 10 “unretirees” are increasing their savings / in anticipation of a longer life. / Among the most popular ways they are doing this , / the company said , / is / by reducing their overall expenses , / securing life insurance or maximizing their contributions to retirement accounts.",
           "chunk_translation": "由于预期寿命延长， / 美国人也在增加储蓄以保全自己的养老金， / 德美利证券的这项研究所揭示， / 该研究调查了2 / 000名年龄在40至79岁之间的成年人。 / 十分之六的“不退休族”正在增加储蓄， / 以应对更加长寿的生活。 / 在他们采取的最普遍的做法中， / 该公司指出， / 主要包括： / 削减总体日常开支、 / 购买人寿保险或顶格缴纳个人退休账户供款。",
           "vocabulary": [
             {
-              "word": "spending less",
-              "pos": "",
-              "definition": "【🎯解题正解】 少花钱"
-            },
-            {
-              "word": "investing more in stocks",
-              "pos": "",
-              "definition": "【💡题项表达】 更多地投资股票"
-            },
-            {
-              "word": "taking up odd jobs",
-              "pos": "",
-              "definition": "【💡题项表达】 打零工"
-            },
-            {
-              "word": "getting well-paid work",
-              "pos": "",
-              "definition": "【💡题项表达】 获得高薪工作"
-            },
-            {
               "word": "retirement",
               "pos": "",
               "definition": "n.退休;退休年龄"
+            },
+            {
+              "word": "unretirees",
+              "pos": "n.",
+              "definition": "n. (pl.) （退休后）复职者（unretiree 的复数）"
+            },
+            {
+              "word": "showed",
+              "pos": "v.",
+              "definition": "v. 显示；表现；展示（show 的过去式）"
+            },
+            {
+              "word": "study",
+              "pos": "n.",
+              "definition": "n. （专题）研究；调查"
             },
             {
               "word": "preserve",
@@ -2530,11 +2509,6 @@
               "word": "anticipation",
               "pos": "n.",
               "definition": "n. 预期；预料；期盼"
-            },
-            {
-              "word": "unretirees",
-              "pos": "n.",
-              "definition": "n. (pl.) （退休后）复职者（unretiree 的复数）"
             },
             {
               "word": "increasing",
@@ -2592,11 +2566,6 @@
               "definition": "adj. 受大众喜爱的；受欢迎的；（想法、情绪或态度）普遍的"
             },
             {
-              "word": "showed",
-              "pos": "v.",
-              "definition": "v. 显示；表现；展示（show 的过去式）"
-            },
-            {
               "word": "adults",
               "pos": "n.",
               "definition": "n. 成年人（adult 的复数形式）；（生物学）成年动物（adult 的复数形式；如成虫、成体）"
@@ -2605,11 +2574,6 @@
               "word": "spans",
               "pos": "n.",
               "definition": "n. span 的复数形式：跨度；跨距"
-            },
-            {
-              "word": "study",
-              "pos": "n.",
-              "definition": "n. （专题）研究；调查；（尤指通过书本的）学习"
             },
             {
               "word": "nest",
@@ -2624,56 +2588,31 @@
           ]
         },
         {
-          "pid": 5,
-          "text": "Unfortunately, many people who are opting to work in retirement are preparing to do so because they are worried about making ends meet in their later years, said Brent Weiss, a co-founder at Baltimore-based financial-planning firm Facet Wealth. He suggested that pre-retirees should speak with a financial adviser to set long-term financial goals. “The most challenging moments in life are getting married, starting a family and ultimately retiring,” Weiss said. “It’s not just a financial decision, but an emotional one. Many people believe they can’t retire.”",
-          "translation": "总部位于巴尔的摩的财务规划公司Facet Wealth的联合创始人布伦特·韦斯（Brent Weiss）表示，不幸的是，许多选择在退休后工作的人准备这样做是因为他们担心在晚年难以维持生计。他建议准退休人员应该与财务顾问交谈，以制定长期财务目标。“人生中最具挑战性的时刻是结婚、组建家庭并最终退休，”韦斯说。“这不仅是一个财务决定，也是一个情感决定。许多人认为他们无法退休。”",
-          "slashed_text": "Unfortunately , / many people / who are opting to work / in retirement are preparing to do so / because they are worried / about making ends meet / in their later years , / said Brent Weiss , / a co-founder / at Baltimore-based financial-planning firm Facet Wealth. / He suggested / that pre- retirees should speak with a financial adviser to set long-term financial goals. / “The most challenging moments / in life are getting married , / starting a family and ultimately retiring , / ” Weiss said. / “It’s not just a financial decision , / but an emotional one. / Many people believe they can’t retire.”",
-          "chunk_translation": "不幸的是， / 许多人 / 选择继续工作 / 在退休后准备这样做， / 是因为他们担忧 / 难以维持收支平衡 / 在自己的晚年生活中， / 布伦特·韦斯指出， / 他是总部位于巴尔的摩的理财规划机构 / 辉盛财富的联合创始人。 / 他建议， / 准退休人员应当咨询专业财务顾问以确立长期财务规划目标。 / “人生中最具挑战性的转折时刻 / 在于结婚成家、 / 养育子女以及最终步入退休，” / 韦斯说道。 / “这不仅是一项财务上的抉择， / 更是一场情感上的心理转变。 / 许多人甚至深信自己根本无法退得起休。”",
+          "pid": 6,
+          "text": "Unfortunately, many people who are opting to work in retirement are preparing to do so because they are worried about making ends meet in their later years, said Brent Weiss, a co-founder at Baltimore-based financial-planning firm Facet Wealth. He suggested that pre- retirees should speak with a financial adviser to set long-term financial goals.",
+          "translation": "巴尔的摩财务规划公司 Facet Wealth 的联合创始人布伦特·韦斯 (Brent Weiss) 表示，不幸的是，许多选择退休后工作的人正准备这样做，因为他们担心晚年入不敷出。他建议退休前的人应该与财务顾问交谈以设定长期财务目标。",
+          "slashed_text": "Unfortunately , / many people / who are opting to work / in retirement are preparing to do so / because they are worried / about making ends meet / in their later years , / said Brent Weiss , / a co-founder / at Baltimore-based financial-planning firm Facet Wealth. / He suggested / that pre- retirees should speak with a financial adviser to set long-term financial goals.",
+          "chunk_translation": "不幸的是， / 许多人 / 选择继续工作 / 在退休后准备这样做， / 是因为他们担忧 / 难以维持收支平衡 / 在自己的晚年生活中， / 布伦特·韦斯指出， / 他是总部位于巴尔的摩的理财规划机构 / 辉盛财富的联合创始人。 / 他建议， / 准退休人员应当咨询专业财务顾问以确立长期财务规划目标。",
           "vocabulary": [
-            {
-              "word": "unprepared",
-              "pos": "",
-              "definition": "【🎯解题正解】 毫无准备的"
-            },
-            {
-              "word": "unafraid",
-              "pos": "",
-              "definition": "【💡题项表达】 无所畏惧"
-            },
-            {
-              "word": "disappointed",
-              "pos": "",
-              "definition": "【💡题项表达】 失望的"
-            },
-            {
-              "word": "enthusiastic",
-              "pos": "",
-              "definition": "【💡题项表达】 热情的"
-            },
             {
               "word": "retirement",
               "pos": "",
               "definition": "n.退休;退休年龄"
             },
             {
+              "word": "opting",
+              "pos": "vi.",
+              "definition": "vi. 选择；挑选（opt 的现在分词）"
+            },
+            {
+              "word": "Financial",
+              "pos": "adj.",
+              "definition": "adj. 财政的；金融的"
+            },
+            {
               "word": "unfortunately",
               "pos": "",
               "definition": "ad.令人遗憾地"
-            },
-            {
-              "word": "ultimately",
-              "pos": "",
-              "definition": "ad.最终;最后"
-            },
-            {
-              "word": "emotional",
-              "pos": "",
-              "definition": "a.感情的;情感的"
-            },
-            {
-              "word": "challenging",
-              "pos": "adj.",
-              "definition": "adj. 富于挑战性的；困难而有趣的"
             },
             {
               "word": "preparing",
@@ -2696,26 +2635,6 @@
               "definition": "v. 建议；提议；推荐"
             },
             {
-              "word": "boosting",
-              "pos": "v.",
-              "definition": "v. 促进；提高"
-            },
-            {
-              "word": "preserve",
-              "pos": "v.",
-              "definition": "v. 保护；维护"
-            },
-            {
-              "word": "starting",
-              "pos": "v.",
-              "definition": "v. 开始（start 的现在分词）；n. 开始"
-            },
-            {
-              "word": "retiring",
-              "pos": "adj.",
-              "definition": "adj. 不爱与人交往的；腼腆的"
-            },
-            {
               "word": "planning",
               "pos": "n.",
               "definition": "n. 计划；规划；城镇规划管理"
@@ -2724,21 +2643,6 @@
               "word": "retirees",
               "pos": "n.",
               "definition": "n. 退休人员（retiree 的复数）"
-            },
-            {
-              "word": "savings",
-              "pos": "n.",
-              "definition": "n. 储蓄；存款"
-            },
-            {
-              "word": "moments",
-              "pos": "n.",
-              "definition": "n. moment 的复数形式：片刻；瞬间"
-            },
-            {
-              "word": "married",
-              "pos": "adj.",
-              "definition": "adj. 结婚的；已婚的"
             },
             {
               "word": "worried",
@@ -2756,16 +2660,6 @@
               "definition": "n. 顾问；指导者"
             },
             {
-              "word": "family",
-              "pos": "n.",
-              "definition": "n. 家；家庭"
-            },
-            {
-              "word": "opting",
-              "pos": "vi.",
-              "definition": "vi. 选择；挑选（opt 的现在分词）"
-            },
-            {
               "word": "Wealth",
               "pos": "n.",
               "definition": "n. 财富；富有；大量"
@@ -2774,16 +2668,6 @@
               "word": "should",
               "pos": "v.",
               "definition": "v. （用于纠正别人）应该；（用于建议）该；可以"
-            },
-            {
-              "word": "retire",
-              "pos": "v.",
-              "definition": "v. （令）退职；（使）退休；（专业运动员）退役"
-            },
-            {
-              "word": "spans",
-              "pos": "n.",
-              "definition": "n. span 的复数形式：跨度；跨距"
             },
             {
               "word": "Brent",
@@ -2809,16 +2693,75 @@
               "word": "goals",
               "pos": "n.",
               "definition": "n. （goal 的复数）目标；目的；进球"
+            }
+          ]
+        },
+        {
+          "pid": 7,
+          "text": "“The most challenging moments in life are getting married, starting a family and ultimately retiring,” Weiss said. “It’s not just a financial decision, but an emotional one. Many people believe they can’t retire.”",
+          "translation": "“生命中最具挑战性的时刻是结婚、组建家庭和最终退休，”韦斯说。“这不仅仅是一项财务决定，更是一种情感决定。许多人认为他们无法退休。”",
+          "slashed_text": "“The most challenging moments / in life are getting married , / starting a family and ultimately retiring , / ” Weiss said. / “It’s not just a financial decision , / but an emotional one. / Many people believe they can’t retire.”",
+          "chunk_translation": "“人生中最具挑战性的转折时刻 / 在于结婚成家、 / 养育子女以及最终步入退休，” / 韦斯说道。 / “这不仅是一项财务上的抉择， / 更是一场情感上的心理转变。 / 许多人甚至深信自己根本无法退得起休。”",
+          "vocabulary": [
+            {
+              "word": "retiring",
+              "pos": "adj.",
+              "definition": "adj. 不爱与人交往的；腼腆的；孤僻的"
             },
             {
-              "word": "nest",
-              "pos": "n.",
-              "definition": "n. 窝；巢"
+              "word": "Financial",
+              "pos": "adj.",
+              "definition": "adj. 财政的；金融的"
             },
             {
-              "word": "eggs",
+              "word": "ultimately",
+              "pos": "",
+              "definition": "ad.最终;最后"
+            },
+            {
+              "word": "emotional",
+              "pos": "",
+              "definition": "a.感情的;情感的"
+            },
+            {
+              "word": "challenging",
+              "pos": "adj.",
+              "definition": "adj. 富于挑战性的；困难而有趣的"
+            },
+            {
+              "word": "financial",
+              "pos": "adj.",
+              "definition": "adj. 财政的；金融的；有钱的"
+            },
+            {
+              "word": "starting",
+              "pos": "v.",
+              "definition": "v. 开始（start 的现在分词）；n. 开始"
+            },
+            {
+              "word": "moments",
               "pos": "n.",
-              "definition": "n. 蛋（egg 的复数形式）；鸡蛋"
+              "definition": "n. moment 的复数形式：片刻；瞬间"
+            },
+            {
+              "word": "married",
+              "pos": "adj.",
+              "definition": "adj. 结婚的；已婚的"
+            },
+            {
+              "word": "family",
+              "pos": "n.",
+              "definition": "n. 家；家庭"
+            },
+            {
+              "word": "retire",
+              "pos": "v.",
+              "definition": "v. （令）退职；（使）退休；（专业运动员）退役"
+            },
+            {
+              "word": "Weiss",
+              "pos": "n.",
+              "definition": "n. 外斯（原子磁矩单位）；白色；n. （Weiss）人名"
             }
           ]
         }
@@ -2961,8 +2904,8 @@
         },
         {
           "sid": 5,
-          "pid": 2,
-          "sentence_index": 2,
+          "pid": 3,
+          "sentence_index": 0,
           "text": "“The concept of retirement is evolving,” said Christine Russell, senior manager of retirement at TD Ameritrade.",
           "translation": "德美利证券 (TD Ameritrade) 退休高级经理克里斯汀·拉塞尔 (Christine Russell) 表示：“退休的概念正在不断演变。”",
           "slashed_text": "“The concept of retirement is evolving , / ” said Christine Russell , / senior manager of retirement at TD Ameritrade.",
@@ -2989,8 +2932,8 @@
         },
         {
           "sid": 6,
-          "pid": 2,
-          "sentence_index": 3,
+          "pid": 3,
+          "sentence_index": 1,
           "text": "“It’s not just about finances.",
           "translation": "“这不仅仅是财务问题。",
           "slashed_text": "“It’s not just / about finances.",
@@ -3012,8 +2955,8 @@
         },
         {
           "sid": 7,
-          "pid": 2,
-          "sentence_index": 4,
+          "pid": 3,
+          "sentence_index": 2,
           "text": "The value of work is also driving folks to continue working past retirement.”",
           "translation": "工作的价值也促使人们在退休后继续工作。”",
           "slashed_text": "The value of work is also driving folks to continue working past retirement.”",
@@ -3040,7 +2983,7 @@
         },
         {
           "sid": 8,
-          "pid": 3,
+          "pid": 4,
           "sentence_index": 0,
           "text": "One reason for the change in retirement patterns: Americans are living longer.",
           "translation": "退休模式发生变化的原因之一是：美国人的寿命更长。",
@@ -3063,7 +3006,7 @@
         },
         {
           "sid": 9,
-          "pid": 3,
+          "pid": 4,
           "sentence_index": 1,
           "text": "Older Americans are also the fastest-growing segment of the U.S.",
           "translation": "美国老年人也是美国增长最快的群体。",
@@ -3086,7 +3029,7 @@
         },
         {
           "sid": 10,
-          "pid": 3,
+          "pid": 4,
           "sentence_index": 2,
           "text": "workforce.",
           "translation": "劳动力。",
@@ -3109,7 +3052,7 @@
         },
         {
           "sid": 11,
-          "pid": 3,
+          "pid": 4,
           "sentence_index": 3,
           "text": "The percentage of retirement-age people in the labor force has doubled over the past three decades.",
           "translation": "过去三十年里，退休年龄人口在劳动力中的比例翻了一番。",
@@ -3132,7 +3075,7 @@
         },
         {
           "sid": 12,
-          "pid": 3,
+          "pid": 4,
           "sentence_index": 4,
           "text": "About 20% of people 65 and older were in the workforce in February 2019, up from an all-time low of 10% in January 1985, according to money manager United Income.",
           "translation": "根据资金管理公司 United Income 的数据，2019 年 2 月，65 岁及以上的人中约有 20% 进入劳动力市场，高于 1985 年 1 月 10% 的历史最低水平。",
@@ -3155,7 +3098,7 @@
         },
         {
           "sid": 13,
-          "pid": 4,
+          "pid": 5,
           "sentence_index": 0,
           "text": "Because of longer life spans, Americans are also boosting their savings to preserve their nest eggs, the TD Ameritrade study showed, which surveyed 2,000 adults between 40 to 79.",
           "translation": "德美利证券 (TD Ameritrade) 对 2000 名 40 至 79 岁成年人进行的调查显示，由于寿命更长，美国人也在增加储蓄以保存储蓄。",
@@ -3183,7 +3126,7 @@
         },
         {
           "sid": 14,
-          "pid": 4,
+          "pid": 5,
           "sentence_index": 1,
           "text": "Six in 10 “unretirees” are increasing their savings in anticipation of a longer life.",
           "translation": "十分之六的“未退休人员”正在增加储蓄，以期延长寿命。",
@@ -3206,7 +3149,7 @@
         },
         {
           "sid": 15,
-          "pid": 4,
+          "pid": 5,
           "sentence_index": 2,
           "text": "Among the most popular ways they are doing this, the company said, is by reducing their overall expenses, securing life insurance or maximizing their contributions to retirement accounts.",
           "translation": "该公司表示，他们这样做最受欢迎的方式之一是减少总体开支、购买人寿保险或最大限度地增加对退休账户的缴款。",
@@ -3234,7 +3177,7 @@
         },
         {
           "sid": 16,
-          "pid": 5,
+          "pid": 6,
           "sentence_index": 0,
           "text": "Unfortunately, many people who are opting to work in retirement are preparing to do so because they are worried about making ends meet in their later years, said Brent Weiss, a co-founder at Baltimore-based financial-planning firm Facet Wealth.",
           "translation": "巴尔的摩财务规划公司 Facet Wealth 的联合创始人布伦特·韦斯 (Brent Weiss) 表示，不幸的是，许多选择退休后工作的人正准备这样做，因为他们担心晚年入不敷出。",
@@ -3262,7 +3205,7 @@
         },
         {
           "sid": 17,
-          "pid": 5,
+          "pid": 6,
           "sentence_index": 1,
           "text": "He suggested that pre- retirees should speak with a financial adviser to set long-term financial goals.",
           "translation": "他建议退休前的人应该与财务顾问交谈以设定长期财务目标。",
@@ -3285,8 +3228,8 @@
         },
         {
           "sid": 18,
-          "pid": 5,
-          "sentence_index": 2,
+          "pid": 7,
+          "sentence_index": 0,
           "text": "“The most challenging moments in life are getting married, starting a family and ultimately retiring,” Weiss said.",
           "translation": "“生命中最具挑战性的时刻是结婚、组建家庭和最终退休，”韦斯说。",
           "slashed_text": "“The most challenging moments / in life are getting married , / starting a family and ultimately retiring , / ” Weiss said.",
@@ -3308,8 +3251,8 @@
         },
         {
           "sid": 19,
-          "pid": 5,
-          "sentence_index": 3,
+          "pid": 7,
+          "sentence_index": 1,
           "text": "“It’s not just a financial decision, but an emotional one.",
           "translation": "“这不仅仅是一项财务决定，更是一种情感决定。",
           "slashed_text": "“It’s not just a financial decision , / but an emotional one.",
@@ -3331,8 +3274,8 @@
         },
         {
           "sid": 20,
-          "pid": 5,
-          "sentence_index": 4,
+          "pid": 7,
+          "sentence_index": 2,
           "text": "Many people believe they can’t retire.”",
           "translation": "许多人认为他们无法退休。”",
           "slashed_text": "Many people believe they can’t retire.”",
@@ -3533,7 +3476,7 @@
           "stem": "Retirement patterns are changing partly due to _____.",
           "stem_cn": "退休模式正在发生改变，部分原因是由于______。",
           "type": "段落推理题",
-          "locate_pid": 3,
+          "locate_pid": 4,
           "locate_sentence": "One reason for the change in retirement patterns: Americans are living longer.",
           "locate_sentence_cn": "退休模式改变的一个原因是：美国人的寿命更长了。",
           "options": [
@@ -3620,7 +3563,7 @@
           "stem": "Many “unretirees” are increasing their savings by _____.",
           "stem_cn": "许多“不退休者”正在通过______来增加他们的储蓄。",
           "type": "词义/例证题",
-          "locate_pid": 4,
+          "locate_pid": 5,
           "locate_sentence": "Six in 10 “unretirees” are increasing their savings in anticipation of a longer life. Among the most popular ways they are doing this, the company said, is by reducing their overall expenses, securing life insurance or maximizing their contributions to retirement accounts.",
           "locate_sentence_cn": "十分之六的“不退休者”正在增加储蓄，以应对更长的寿命。该公司表示，他们采取的最流行的方式包括减少总体开支、购买人寿保险或最大化其对退休账户的缴款。",
           "options": [
@@ -3707,7 +3650,7 @@
           "stem": "With regard to retirement, Brent Weiss thinks that many people are _____.",
           "stem_cn": "关于退休，布伦特·韦斯认为许多人是______。",
           "type": "全文主旨题",
-          "locate_pid": 5,
+          "locate_pid": 7,
           "locate_sentence": "Unfortunately, many people who are opting to work in retirement are preparing to do so because they are worried about making ends meet in their later years, said Brent Weiss, a co-founder at Baltimore-based financial-planning firm Facet Wealth. He suggested that pre-retirees should speak with a financial adviser to set long-term financial goals... Many people believe they can’t retire.",
           "locate_sentence_cn": "巴尔的摩理财规划公司Facet Wealth的联合创始人布伦特·韦斯说，遗憾的是，许多选择在退休后工作的人之所以准备这样做，是因为他们担心晚年入不敷出。他建议准退休人员应该与理财顾问沟通以设定长期财务目标……许多人认为自己退不起休。",
           "options": [
@@ -3797,39 +3740,51 @@
         "paragraph_functions": [
           {
             "pid": 0,
-            "role": "【起】银发浪潮席卷职场与旧退休模型瓦解",
-            "core_point": "越来越多的美国长者跨过65岁甚至70岁依然奋战在职场一线，传统的'工作几十载、安享夕阳红'的线性人生契约彻底分崩离析。",
-            "cohesive_devices": "从普遍可见的白发打工人现象破题，颠覆传统人生阶段认知。"
+            "role": "【起】越来越多美国人选择延迟退休",
+            "core_point": "美国人工作至退休年龄之后的趋势愈发显著，正在颠覆传统劳动力工作模型。",
+            "cohesive_devices": "开门见山陈述“非退休”社会趋势。"
           },
           {
             "pid": 1,
-            "role": "【承】主流舆论粉饰的'活跃老龄化'假象",
-            "core_point": "社会主流话语往往将此浪漫化为老年人保持社交活力、发挥余热实现自我价值的积极选择，掩盖了背后的制度悲凉。",
-            "cohesive_devices": "先树立起社会舆论普遍的'温情误解'作为批判靶子。"
+            "role": "【承】超三分之一受访者退休后继续工作的现状",
+            "core_point": "调研显示40岁以上美国人中有三分之一计划退休后继续工作，甚至半数未退休者表示绝不彻底闲下来。",
+            "cohesive_devices": "引用权威调查数据呈现社会普遍规划。"
           },
           {
             "pid": 2,
-            "role": "【转】哈里斯民调：生存恐惧击碎浪漫谎言",
-            "core_point": "权威民调数据显示，高达六成以上的延迟退休者之所以继续打工，根本不是图生活充实，而是由于积蓄在通胀中蒸发，一旦停工便难以为继。",
-            "cohesive_devices": "援引Harris Poll权威调研数据，用冷酷的事实戳穿虚幻泡沫。"
+            "role": "【深】非财务需求与保持精神状态的充实动力",
+            "core_point": "财务需求并非延迟退休的唯一原因，超七成人表示工作是为了保持身心活跃、避免无聊与抑郁。",
+            "cohesive_devices": "挖掘非财务维度的心理驱动机制。"
           },
           {
             "pid": 3,
-            "role": "【转】天价医疗开支与确定给付养老金消亡",
-            "core_point": "企业普遍用高风险的401(k)投资计划取代传统的确定性退休养老金，加之老年慢性病天价自费药费，将老人逼回劳动力市场换取基础医保。",
-            "cohesive_devices": "深入剖析经济与制度根源：企业福利甩包袱与医疗费用黑洞。"
+            "role": "【析】退休理念演进：工作的自身价值超越单纯金钱",
+            "core_point": "退休观念正发生深层演变，工作自身的社会价值与成就感驱使人们在达到退休年龄后继续奋斗。",
+            "cohesive_devices": "引用专家观点提炼观念升华（concept of retirement is evolving）。"
           },
           {
             "pid": 4,
-            "role": "【转】低薪体力岗位上的暮年挣扎与健康折损",
-            "core_point": "重返职场的长者多数只能从事超市理货、收银、夜班保安等低薪易替代体力劳动，身心俱疲加速健康衰竭，尊严荡然无存。",
-            "cohesive_devices": "生动刻画银发劳动者在服务业底层的真实困境与肉体煎熬。"
+            "role": "【承】人均寿命延长与老龄劳动力队伍快速壮大",
+            "core_point": "人均预期寿命延长推动退休格局剧变，老龄群体成为增长最快的劳动力板块，劳动力参与率三十年翻倍。",
+            "cohesive_devices": "以寿命延长阐释宏观人口劳动力结构变迁。"
           },
           {
             "pid": 5,
-            "role": "【合】社会契约重塑与晚年体面守护",
-            "core_point": "一个文明社会的道德成色取决于其如何对待奉献了一生的长者，必须强化国家养老金刚性底线并遏制医疗暴利，让劳动者安享应得的晚晴。",
-            "cohesive_devices": "从个人生存悲歌升华至国家社会契约与文明底线高度。"
+            "role": "【深】为应对长寿而增加储蓄与优化个人财务",
+            "core_point": "长寿驱使六成受访者增加养老储蓄以守护养老金，采取削减开支、购买保险等多元资产配置。",
+            "cohesive_devices": "解析个人针对长寿风险的主动储蓄防御。"
+          },
+          {
+            "pid": 6,
+            "role": "【转】仍有相当群体因生计担忧而被迫继续工作",
+            "core_point": "令人遗憾的是仍有相当多人在晚年因无法维持生计而被迫继续打工，专家建议尽早进行财务规划。",
+            "cohesive_devices": "转折点出底层生活压力之下的被动无奈。"
+          },
+          {
+            "pid": 7,
+            "role": "【结】退休不仅是财务决策更是人生重大情感抉择",
+            "core_point": "退休与结婚、生子并列为人生最严峻转折，这不仅是一道财务算术题，更是一场深刻的情感抉择。",
+            "cohesive_devices": "以人生哲学高度升华结题。"
           }
         ],
         "part_b_training": {

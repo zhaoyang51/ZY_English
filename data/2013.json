@@ -9,31 +9,11 @@
       "paragraphs": [
         {
           "pid": 0,
-          "text": "In an essay entitled “Making It in America,” the author Adam Davidson relates a joke from cotton country about just how much a modern textile mill has been automated: The average mill has only two employees today, “a man and a dog. The man is there to feed the dog, and the dog is there to keep the man away from the machines.” Davidson’s article is one of a number of pieces that have recently appeared making the point that the reason we have such stubbornly high unemployment and declining middle-class incomes today is largely because of the big drop in demand because of the Great Recession, but it is also because of the advances in both globalization and the information technology revolution, which are more rapidly than ever replacing labor with machines or foreign workers.",
-          "translation": "在一篇题为“在美国制造”的文章中，作者亚当·戴维森讲述了一个来自棉花国家的笑话，讲述了现代纺织厂的自动化程度：如今，工厂平均只有两名员工，“一个男人和一条狗。人的职责是喂狗，狗的职责是让人远离机器。”戴维森的文章是最近出现的众多文章之一，这些文章指出，当今失业率如此居高不下，中产阶级收入下降，很大程度上是因为大衰退造成的需求大幅下降，但也是因为全球化和信息技术革命的进步，机器或外国工人比以往任何时候都更快地取代劳动力。",
-          "slashed_text": "In an essay entitled “Making It / in America , / ” the author Adam Davidson relates a joke / from cotton country / about just how much a modern textile mill has been automated : / The average mill has only two employees today , / “a man and a dog. / The man is there to feed the dog , / and the dog is there to keep the man away from the machines.” / Davidson’s article is one of a number of pieces / that have recently appeared making the point / that the reason we have such stubbornly high unemployment and declining middle-class incomes today is largely / because of the big drop / in demand / because of the Great Recession , / but it is also / because of the advances / in both globalization and the information technology revolution , / which are more rapidly than ever replacing labor / with machines or foreign workers.",
-          "chunk_translation": "在一篇题为“在美国 / 制造”的文章中 / ”作者亚当·戴维森讲述了一个笑话 / 来自棉花之乡 / 关于现代纺织厂的自动化程度究竟有多高： / 如今普通工厂只有两名雇员， / “一个人和一条狗 / 人的工作是去喂狗 / 而狗的工作是防止人去触碰机器。” / 戴维森的文章是最近出现的诸多文章之一 / 这些文章阐明了这样一个观点： / 当今我们面临如此顽固的高失业率以及中产阶级收入下降的原因很大程度上 / 是因为大幅下滑 / 在需求方面的下滑 / 由于大衰退所致 / 但这也是 / 因为取得了进展 / 在全球化和信息技术革命这两个领域 / 这两者正以前所未有的速度用机器替代劳动力 / 用机器或外国劳工替代",
+          "text": "In an essay entitled “Making It in America,” the author Adam Davidson relates a joke from cotton country about just how much a modern textile mill has been automated: The average mill has only two employees today, “a man and a dog. The man is there to feed the dog, and the dog is there to keep the man away from the machines.”",
+          "translation": "在一篇题为“在美国制造”的文章中，作者亚当·戴维森讲述了一个来自棉花国家的笑话，讲述了现代纺织厂的自动化程度：如今，工厂平均只有两名员工，“一个男人和一条狗。人的职责是喂狗，狗的职责是让人远离机器。”",
+          "slashed_text": "In an essay entitled “Making It / in America , / ” the author Adam Davidson relates a joke / from cotton country / about just how much a modern textile mill has been automated : / The average mill has only two employees today , / “a man and a dog. / The man is there to feed the dog , / and the dog is there to keep the man away from the machines.”",
+          "chunk_translation": "在一篇题为“在美国 / 制造”的文章中 / ”作者亚当·戴维森讲述了一个笑话 / 来自棉花之乡 / 关于现代纺织厂的自动化程度究竟有多高： / 如今普通工厂只有两名雇员， / “一个人和一条狗 / 人的工作是去喂狗 / 而狗的工作是防止人去触碰机器。”",
           "vocabulary": [
-            {
-              "word": "the impact of technological advances",
-              "pos": "",
-              "definition": "【🎯解题正解】 技术进步的影响"
-            },
-            {
-              "word": "the alleviation of job pressure",
-              "pos": "",
-              "definition": "【💡题项表达】 缓解工作压力"
-            },
-            {
-              "word": "the shrinkage of textile mills",
-              "pos": "",
-              "definition": "【💡题项表达】 纺织厂的萎缩"
-            },
-            {
-              "word": "the decline of middle-class incomes",
-              "pos": "",
-              "definition": "【💡题项表达】 中产阶级收入下降"
-            },
             {
               "word": "textile",
               "pos": "",
@@ -45,6 +25,80 @@
               "definition": "纺织厂"
             },
             {
+              "word": "average",
+              "pos": "",
+              "definition": "n.平均水平,一般水准"
+            },
+            {
+              "word": "automated",
+              "pos": "adj.",
+              "definition": "adj. 自动化的；v. 使自动化（automate 的过去式和过去分词）"
+            },
+            {
+              "word": "employees",
+              "pos": "n.",
+              "definition": "n. 员工；雇员；从业人员（employee 的复数）"
+            },
+            {
+              "word": "entitled",
+              "pos": "adj.",
+              "definition": "adj. 有资格的；v. 使享有权利"
+            },
+            {
+              "word": "Davidson",
+              "pos": "n.",
+              "definition": "n. 戴维森（姓氏）"
+            },
+            {
+              "word": "machines",
+              "pos": "n.",
+              "definition": "n. 机器；机械（machine 的复数）；v. 用机器制造或加工（machine 的第三人称单数形式）"
+            },
+            {
+              "word": "relates",
+              "pos": "v.",
+              "definition": "v. （relate 的第三人称单数形式）：叙述；讲述"
+            },
+            {
+              "word": "author",
+              "pos": "n.",
+              "definition": "n. 作者；著者"
+            },
+            {
+              "word": "cotton",
+              "pos": "n.",
+              "definition": "n. 棉；棉花"
+            },
+            {
+              "word": "modern",
+              "pos": "adj.",
+              "definition": "adj. 近代的；现代的；当代风格的"
+            },
+            {
+              "word": "essay",
+              "pos": "n.",
+              "definition": "n. （学生为某门课程所写的）短文；论说文"
+            },
+            {
+              "word": "Adam",
+              "pos": "n.",
+              "definition": "n. 亚当"
+            },
+            {
+              "word": "joke",
+              "pos": "n.",
+              "definition": "n. 笑话；玩笑"
+            }
+          ]
+        },
+        {
+          "pid": 1,
+          "text": "Davidson’s article is one of a number of pieces that have recently appeared making the point that the reason we have such stubbornly high unemployment and declining middle-class incomes today is largely because of the big drop in demand because of the Great Recession, but it is also because of the advances in both globalization and the information technology revolution, which are more rapidly than ever replacing labor with machines or foreign workers.",
+          "translation": "戴维森的文章是最近出现的众多文章之一，这些文章指出，当今失业率如此居高不下，中产阶级收入下降，很大程度上是因为大衰退造成的需求大幅下降，但也是因为全球化和信息技术革命的进步，机器或外国工人比以往任何时候都更快地取代劳动力。",
+          "slashed_text": "Davidson’s article is one of a number of pieces / that have recently appeared making the point / that the reason we have such stubbornly high unemployment and declining middle-class incomes today is largely / because of the big drop / in demand / because of the Great Recession , / but it is also / because of the advances / in both globalization and the information technology revolution , / which are more rapidly than ever replacing labor / with machines or foreign workers.",
+          "chunk_translation": "戴维森的文章是最近出现的诸多文章之一 / 这些文章阐明了这样一个观点： / 当今我们面临如此顽固的高失业率以及中产阶级收入下降的原因很大程度上 / 是因为大幅下滑 / 在需求方面的下滑 / 由于大衰退所致 / 但这也是 / 因为取得了进展 / 在全球化和信息技术革命这两个领域 / 这两者正以前所未有的速度用机器替代劳动力 / 用机器或外国劳工替代",
+          "vocabulary": [
+            {
               "word": "stubbornly",
               "pos": "",
               "definition": "ad.顽固地;倔强地"
@@ -53,11 +107,6 @@
               "word": "recession",
               "pos": "",
               "definition": "n.衰退:不景气;后退"
-            },
-            {
-              "word": "average",
-              "pos": "",
-              "definition": "n.平均水平,一般水准"
             },
             {
               "word": "revolution",
@@ -85,21 +134,6 @@
               "definition": "n. 科技；技术"
             },
             {
-              "word": "employment",
-              "pos": "n.",
-              "definition": "n. 雇用；使用"
-            },
-            {
-              "word": "automated",
-              "pos": "adj.",
-              "definition": "adj. 自动化的；v. 使自动化（automate 的过去式和过去分词）"
-            },
-            {
-              "word": "employees",
-              "pos": "n.",
-              "definition": "n. 员工；雇员；从业人员（employee 的复数）"
-            },
-            {
               "word": "declining",
               "pos": "adj.",
               "definition": "adj. 越来越少的；越来越差的；v. 减少"
@@ -108,11 +142,6 @@
               "word": "replacing",
               "pos": "v.",
               "definition": "v. 更换；替代；取代（replace 的现在分词或动名词形式"
-            },
-            {
-              "word": "entitled",
-              "pos": "adj.",
-              "definition": "adj. 有资格的；v. 使享有权利"
             },
             {
               "word": "Davidson",
@@ -140,19 +169,9 @@
               "definition": "v. （使）前进；（使）向前移动；发展"
             },
             {
-              "word": "relates",
-              "pos": "v.",
-              "definition": "v. （relate 的第三人称单数形式）：叙述；讲述"
-            },
-            {
               "word": "article",
               "pos": "n.",
               "definition": "n. 文章；论文"
-            },
-            {
-              "word": "advance",
-              "pos": "v.",
-              "definition": "v. （使）前进；（使）向前移动"
             },
             {
               "word": "incomes",
@@ -175,24 +194,9 @@
               "definition": "adj. 外国的；来自国外的；外交的"
             },
             {
-              "word": "author",
-              "pos": "n.",
-              "definition": "n. 作者；著者"
-            },
-            {
-              "word": "cotton",
-              "pos": "n.",
-              "definition": "n. 棉；棉花"
-            },
-            {
               "word": "reason",
               "pos": "n.",
               "definition": "n. 原因；理由"
-            },
-            {
-              "word": "modern",
-              "pos": "adj.",
-              "definition": "adj. 近代的；现代的；当代风格的"
             },
             {
               "word": "middle",
@@ -205,38 +209,38 @@
               "definition": "v. 强烈要求；需要；需求"
             },
             {
-              "word": "essay",
-              "pos": "n.",
-              "definition": "n. （学生为某门课程所写的）短文；论说文"
-            },
-            {
               "word": "labor",
               "pos": "n.",
               "definition": "n. 劳动；工作；劳作"
-            },
-            {
-              "word": "Adam",
-              "pos": "n.",
-              "definition": "n. 亚当"
-            },
-            {
-              "word": "joke",
-              "pos": "n.",
-              "definition": "n. 笑话；玩笑"
             }
           ]
         },
         {
-          "pid": 1,
-          "text": "In the past, workers with average skills, doing an average job, could earn an average lifestyle.",
-          "translation": "过去，拥有普通技能的工人，做着普通的工作，就能获得普通的生活方式。",
-          "slashed_text": "In the past , / workers / with average skills , / doing an average job , / could earn an average lifestyle.",
-          "chunk_translation": "在过去 / 劳动者 / 拥有普通技能的 / 做着一份普通的工作 / 就能获得中等水平的生活方式",
+          "pid": 2,
+          "text": "In the past, workers with average skills, doing an average job, could earn an average lifestyle. But, today, average is officially over. Being average just won’t earn you what it used to. It can’t when so many more employers have so much more access to so much more above average cheap foreign labor, cheap robotics, cheap software, cheap automation and cheap genius. Therefore, everyone needs to find their extra—their unique value contribution that makes them stand out in whatever is their field of employment.",
+          "translation": "过去，拥有普通技能的工人，做着普通的工作，就能获得普通的生活方式。但是，今天，平均值正式结束。表现平平并不会让你赚到以前那样的钱。当越来越多的雇主有更多机会获得高于平均水平的廉价外国劳动力、廉价机器人、廉价软件、廉价自动化和廉价天才时，它就不可能了。因此，每个人都需要找到自己的额外价值——独特的价值贡献，使他们在任何就业领域中脱颖而出。",
+          "slashed_text": "In the past , / workers / with average skills , / doing an average job , / could earn an average lifestyle. / But , / today , / average is officially over. / Being average just won’t earn you what it used to. / It can’t / when so many more employers have so much more access to so much more above average cheap foreign labor , / cheap robotics , / cheap software , / cheap automation and cheap genius. / Therefore , / everyone needs to find their extra — / their unique value contribution / that makes them stand out / in whatever is their field of employment.",
+          "chunk_translation": "在过去 / 劳动者 / 拥有普通技能的 / 做着一份普通的工作 / 就能获得中等水平的生活方式 / 但是 / 今天 / 平庸时代已正式终结 / 表现平庸再也无法为你赢得过去的收入与回报 / 这绝无可能 / 当越来越多的雇主拥有更多渠道获取远超平均水平的廉价外国劳动力 / 廉价机器人、 / 廉价软件、 / 廉价自动化技术和廉价天才时 / 因此 / 每个人都需要找到自己的额外优势—— / 即他们独特的价值贡献 / 能够让他们脱颖而出 / 无论在他们所从事的哪个职业领域",
           "vocabulary": [
             {
               "word": "average",
               "pos": "",
               "definition": "n.平均水平,一般水准"
+            },
+            {
+              "word": "employment",
+              "pos": "n.",
+              "definition": "n. 雇用；使用"
+            },
+            {
+              "word": "foreign",
+              "pos": "adj.",
+              "definition": "adj. 外国的；来自国外的；外交的"
+            },
+            {
+              "word": "labor",
+              "pos": "n.",
+              "definition": "n. 劳动；工作；劳作"
             },
             {
               "word": "lifestyle",
@@ -252,40 +256,6 @@
               "word": "earn",
               "pos": "v.",
               "definition": "v. 赚得；挣钱"
-            }
-          ]
-        },
-        {
-          "pid": 2,
-          "text": "But, today, average is officially over. Being average just won’t earn you what it used to. It can’t when so many more employers have so much more access to so much more above average cheap foreign labor, cheap robotics, cheap software, cheap automation and cheap genius. Therefore, everyone needs to find their extra—their unique value contribution that makes them stand out in whatever is their field of employment.",
-          "translation": "但是，今天，平均值正式结束。表现平平并不会让你赚到以前那样的钱。当越来越多的雇主有更多机会获得高于平均水平的廉价外国劳动力、廉价机器人、廉价软件、廉价自动化和廉价天才时，它就不可能了。因此，每个人都需要找到自己的额外价值——独特的价值贡献，使他们在任何就业领域中脱颖而出。",
-          "slashed_text": "But , / today , / average is officially over. / Being average just won’t earn you what it used to. / It can’t / when so many more employers have so much more access to so much more above average cheap foreign labor , / cheap robotics , / cheap software , / cheap automation and cheap genius. / Therefore , / everyone needs to find their extra — / their unique value contribution / that makes them stand out / in whatever is their field of employment.",
-          "chunk_translation": "但是 / 今天 / 平庸时代已正式终结 / 表现平庸再也无法为你赢得过去的收入与回报 / 这绝无可能 / 当越来越多的雇主拥有更多渠道获取远超平均水平的廉价外国劳动力 / 廉价机器人、 / 廉价软件、 / 廉价自动化技术和廉价天才时 / 因此 / 每个人都需要找到自己的额外优势—— / 即他们独特的价值贡献 / 能够让他们脱颖而出 / 无论在他们所从事的哪个职业领域",
-          "vocabulary": [
-            {
-              "word": "contribute something unique",
-              "pos": "",
-              "definition": "【🎯解题正解】 贡献一些独特的东西"
-            },
-            {
-              "word": "work on cheap software",
-              "pos": "",
-              "definition": "【💡题项表达】 使用廉价软件"
-            },
-            {
-              "word": "ask for a moderate salary",
-              "pos": "",
-              "definition": "【💡题项表达】 要求中等的薪水"
-            },
-            {
-              "word": "adopt an average lifestyle",
-              "pos": "",
-              "definition": "【💡题项表达】 采用平均生活方式"
-            },
-            {
-              "word": "average",
-              "pos": "",
-              "definition": "n.平均水平,一般水准"
             },
             {
               "word": "access",
@@ -323,11 +293,6 @@
               "definition": "adv. 官方地；正式地"
             },
             {
-              "word": "employment",
-              "pos": "n.",
-              "definition": "n. 雇用；使用"
-            },
-            {
               "word": "automation",
               "pos": "n.",
               "definition": "n. 自动化"
@@ -348,11 +313,6 @@
               "definition": "det. 任何……的事物；无论什么；pron. 任何事物"
             },
             {
-              "word": "foreign",
-              "pos": "adj.",
-              "definition": "adj. 外国的；来自国外的；外交的"
-            },
-            {
               "word": "genius",
               "pos": "n.",
               "definition": "n. 天赋；天资；天才"
@@ -368,11 +328,6 @@
               "definition": "adj. 便宜的；廉价的；价低质劣的"
             },
             {
-              "word": "labor",
-              "pos": "n.",
-              "definition": "n. 劳动；工作；劳作"
-            },
-            {
               "word": "value",
               "pos": "n.",
               "definition": "n. 价值；等值；等价"
@@ -381,11 +336,6 @@
               "word": "field",
               "pos": "n.",
               "definition": "n. 田地；田野；专业"
-            },
-            {
-              "word": "earn",
-              "pos": "v.",
-              "definition": "v. 赚得；挣钱"
             }
           ]
         },
@@ -397,14 +347,14 @@
           "chunk_translation": "是的 / 新技术一直在蚕食工作岗位 / 并且将来也永远会如此 / 但如今这一进程已然加速 / 正如戴维森所指出的： / “在截至2009年的10年间 / [美国]工厂裁员速度如此之快 / 以至于几乎抹平了过去70年的所有增幅； / 大约每三个制造业岗位中就有一个—— / 约600万个岗位 / 总计—— / 消失了。”",
           "vocabulary": [
             {
-              "word": "job opportunities are disappearing at a high speed",
-              "pos": "",
-              "definition": "【🎯解题正解】 工作机会正在高速消失"
+              "word": "technology",
+              "pos": "n.",
+              "definition": "n. 科技；技术"
             },
             {
-              "word": "gains of technology have been erased",
-              "pos": "",
-              "definition": "【💡题项表达】 技术成果已被抹去"
+              "word": "Davidson",
+              "pos": "n.",
+              "definition": "n. 戴维森（姓氏）"
             },
             {
               "word": "acceleration",
@@ -447,24 +397,9 @@
               "definition": "adj. 消失的；消失了的；n. 被秘密逮捕（或处决）的人"
             },
             {
-              "word": "technology",
-              "pos": "n.",
-              "definition": "n. 科技；技术"
-            },
-            {
               "word": "factories",
               "pos": "n.",
               "definition": "n. 工厂；车厂（factory 的复数形式）"
-            },
-            {
-              "word": "Davidson",
-              "pos": "n.",
-              "definition": "n. 戴维森（姓氏）"
-            },
-            {
-              "word": "appeared",
-              "pos": "v.",
-              "definition": "v. 似乎；出现"
             },
             {
               "word": "forever",
@@ -510,55 +445,15 @@
         },
         {
           "pid": 4,
-          "text": "There will always be change—new jobs, new products, new services. But the one thing we know for sure is that with each advance in globalization and the I.T. revolution, the best jobs will require workers to have more and better education to make themselves above average. In a world where average is officially over, there are many things we need to do to support employment, but nothing would be more important than passing some kind of G.I. Bill for the 21st century that ensures that every American has access to post-high school education.",
-          "slashed_text": "There will always be change — / new jobs , / new products , / new services. / But the one thing we know for sure is / that with each advance in globalization and the I.T. revolution / the best jobs will require workers / to have more and better education / to make themselves above average. / In a world where average is officially over / there are many things we need to do / to support employment / but nothing would be more important / than passing some kind of G.I. Bill for the 21st century / that ensures that every American has access / to post-high school education.",
-          "chunk_translation": "变化总是会发生的—— / 新的工作岗位、 / 新的产品、 / 新的服务 / 但我们确切知道的一件事是 / 随着全球化和信息技术革命的每一次推进 / 最好的工作岗位将要求劳动者 / 接受更多更好的教育 / 以使自己超越普通水准。 / 在这样一个“平庸”正式终结的世界里 / 我们需要做很多事情 / 来支持就业 / 但没有什么比这更重要 / 制定出某种21世纪的《退伍军人权利法案》 / 确保每一个美国人都能获得 / 高中后（高等）教育的机会。",
-          "translation": "变革总是会发生——新的工作、新的产品、新的服务。但我们确信的一点是，随着全球化和信息技术革命的每一次推进，最好的工作岗位都将要求劳动者接受更多更好的教育，从而使自己超越普通水准。在这样一个“平庸”时代正式终结的世界里，我们需要做许多事情来促进就业，但没有什么比通过某种21世纪的《退伍军人权利法案》更重要了——该法案能确保每个美国人都能获得高中后的高等教育机会。",
+          "text": "There will always be change—new jobs, new products, new services. But the one thing we know for sure is that with each advance in globalization and the I.T. revolution, the best jobs will require workers to have more and better education to make themselves above average.",
+          "translation": "总会有变化——新的工作、新的产品、新的服务。但我们确信的一点是，随着全球化和信息技术革命的每一次推进，最好的工作岗位都将要求劳动者接受更多更好的教育，从而使自己超越普通水准。",
+          "slashed_text": "There will always be change — / new jobs , / new products , / new services. / But the one thing we know for sure is / that with each advance in globalization and the I.T. revolution / the best jobs will require workers / to have more and better education / to make themselves above average.",
+          "chunk_translation": "变化总是会发生的—— / 新的工作岗位、 / 新的产品、 / 新的服务 / 但我们确切知道的一件事是 / 随着全球化和信息技术革命的每一次推进 / 最好的工作岗位将要求劳动者 / 接受更多更好的教育 / 以使自己超越普通水准。",
           "vocabulary": [
-            {
-              "word": "to ensure more education for people",
-              "pos": "",
-              "definition": "【🎯解题正解】 确保人们获得更多教育"
-            },
-            {
-              "word": "to accelerate the I.T. revolution",
-              "pos": "",
-              "definition": "【💡题项表达】 加速 I.T.革命"
-            },
-            {
-              "word": "to advance economic globalization",
-              "pos": "",
-              "definition": "【💡题项表达】 推动经济全球化"
-            },
-            {
-              "word": "Average Is Over",
-              "pos": "",
-              "definition": "【🎯解题正解】 平均已结束"
-            },
-            {
-              "word": "New Law Takes Effect",
-              "pos": "",
-              "definition": "【💡题项表达】 新法生效"
-            },
-            {
-              "word": "Technology Goes Cheap",
-              "pos": "",
-              "definition": "【💡题项表达】 技术变得便宜"
-            },
-            {
-              "word": "Recession Is Bad",
-              "pos": "",
-              "definition": "【💡题项表达】 经济衰退很糟糕"
-            },
             {
               "word": "average",
               "pos": "",
               "definition": "n.平均水平,一般水准"
-            },
-            {
-              "word": "access",
-              "pos": "",
-              "definition": "n.使用权:通路"
             },
             {
               "word": "revolution",
@@ -566,14 +461,73 @@
               "definition": "n.革命"
             },
             {
-              "word": "for sure",
-              "pos": "",
-              "definition": "确实:毫无疑问地"
+              "word": "globalization",
+              "pos": "n.",
+              "definition": "n. 全球化；传播"
+            },
+            {
+              "word": "advance",
+              "pos": "v.",
+              "definition": "v. （使）前进；（使）向前移动"
             },
             {
               "word": "above average",
               "pos": "",
               "definition": "超越平庸,高于平均水平"
+            },
+            {
+              "word": "for sure",
+              "pos": "",
+              "definition": "确实:毫无疑问地"
+            },
+            {
+              "word": "themselves",
+              "pos": "pron.",
+              "definition": "pron. 他们自己；他们亲自"
+            },
+            {
+              "word": "education",
+              "pos": "n.",
+              "definition": "n. （尤指学校）教育；培养；训练"
+            },
+            {
+              "word": "products",
+              "pos": "n.",
+              "definition": "n. 产品；商品（product 的复数）；产物"
+            },
+            {
+              "word": "services",
+              "pos": "n.",
+              "definition": "n. 服务；服务项目；维修（service 的复数）"
+            }
+          ]
+        },
+        {
+          "pid": 5,
+          "text": "In a world where average is officially over, there are many things we need to do to support employment, but nothing would be more important than passing some kind of G.I. Bill for the 21st century that ensures that every American has access to post-high school education.",
+          "translation": "在这样一个“平庸”时代正式终结的世界里，我们需要做许多事情来促进就业，但没有什么比通过某种21世纪的《退伍军人权利法案》更重要了——该法案能确保每个美国人都能获得高中后的高等教育机会。",
+          "slashed_text": "In a world where average is officially over / there are many things we need to do / to support employment / but nothing would be more important / than passing some kind of G.I. Bill for the 21st century / that ensures that every American has access / to post-high school education.",
+          "chunk_translation": "在这样一个“平庸”正式终结的世界里 / 我们需要做很多事情 / 来支持就业 / 但没有什么比这更重要 / 制定出某种21世纪的《退伍军人权利法案》 / 确保每一个美国人都能获得 / 高中后（高等）教育的机会。",
+          "vocabulary": [
+            {
+              "word": "average",
+              "pos": "",
+              "definition": "n.平均水平,一般水准"
+            },
+            {
+              "word": "employment",
+              "pos": "n.",
+              "definition": "n. 雇用；使用"
+            },
+            {
+              "word": "access",
+              "pos": "",
+              "definition": "n.使用权:通路"
+            },
+            {
+              "word": "officially",
+              "pos": "adv.",
+              "definition": "adv. 官方地；正式地"
             },
             {
               "word": "support",
@@ -591,26 +545,6 @@
               "definition": "高中以后教育"
             },
             {
-              "word": "globalization",
-              "pos": "n.",
-              "definition": ""
-            },
-            {
-              "word": "officially",
-              "pos": "adv.",
-              "definition": ""
-            },
-            {
-              "word": "employment",
-              "pos": "n.",
-              "definition": ""
-            },
-            {
-              "word": "themselves",
-              "pos": "pron.",
-              "definition": "pron. 他们自己；他们亲自"
-            },
-            {
               "word": "education",
               "pos": "n.",
               "definition": "n. （尤指学校）教育；培养；训练"
@@ -619,21 +553,6 @@
               "word": "important",
               "pos": "adj.",
               "definition": "adj. 重要的；重大的；（人）影响很大的"
-            },
-            {
-              "word": "products",
-              "pos": "n.",
-              "definition": "n. 产品；商品（product 的复数）；产物"
-            },
-            {
-              "word": "services",
-              "pos": "n.",
-              "definition": "n. 服务；服务项目；维修（service 的复数）"
-            },
-            {
-              "word": "advance",
-              "pos": "n.",
-              "definition": ""
             },
             {
               "word": "passing",
@@ -649,11 +568,6 @@
               "word": "ensures",
               "pos": "v.",
               "definition": "v. ensure 的第三人称单数形式：确保；保证；（较正式"
-            },
-            {
-              "word": "ensure",
-              "pos": "v.",
-              "definition": ""
             }
           ]
         }
@@ -722,8 +636,8 @@
         },
         {
           "sid": 2,
-          "pid": 0,
-          "sentence_index": 2,
+          "pid": 1,
+          "sentence_index": 0,
           "text": "Davidson’s article is one of a number of pieces that have recently appeared making the point that the reason we have such stubbornly high unemployment and declining middle-class incomes today is largely because of the big drop in demand because of the Great Recession, but it is also because of the advances in both globalization and the information technology revolution, which are more rapidly than ever replacing labor with machines or foreign workers.",
           "translation": "戴维森的文章是最近出现的众多文章之一，这些文章指出，当今失业率如此居高不下，中产阶级收入下降，很大程度上是因为大衰退造成的需求大幅下降，但也是因为全球化和信息技术革命的进步，机器或外国工人比以往任何时候都更快地取代劳动力。",
           "slashed_text": "Davidson’s article is one of a number of pieces / that have recently appeared making the point / that the reason we have such stubbornly high unemployment and declining middle-class incomes today is largely / because of the big drop / in demand / because of the Great Recession , / but it is also / because of the advances / in both globalization and the information technology revolution , / which are more rapidly than ever replacing labor / with machines or foreign workers.",
@@ -755,7 +669,7 @@
         },
         {
           "sid": 3,
-          "pid": 1,
+          "pid": 2,
           "sentence_index": 0,
           "text": "In the past, workers with average skills, doing an average job, could earn an average lifestyle.",
           "translation": "过去，拥有普通技能的工人，做着普通的工作，就能获得普通的生活方式。",
@@ -784,7 +698,7 @@
         {
           "sid": 4,
           "pid": 2,
-          "sentence_index": 0,
+          "sentence_index": 1,
           "text": "But, today, average is officially over.",
           "translation": "但是，今天，平均值正式结束。",
           "slashed_text": "But , / today , / average is officially over.",
@@ -807,7 +721,7 @@
         {
           "sid": 5,
           "pid": 2,
-          "sentence_index": 1,
+          "sentence_index": 2,
           "text": "Being average just won’t earn you what it used to.",
           "translation": "表现平平并不会让你赚到以前那样的钱。",
           "slashed_text": "Being average just won’t earn you what it used to.",
@@ -835,7 +749,7 @@
         {
           "sid": 6,
           "pid": 2,
-          "sentence_index": 2,
+          "sentence_index": 3,
           "text": "It can’t when so many more employers have so much more access to so much more above average cheap foreign labor, cheap robotics, cheap software, cheap automation and cheap genius.",
           "translation": "当越来越多的雇主有更多机会获得高于平均水平的廉价外国劳动力、廉价机器人、廉价软件、廉价自动化和廉价天才时，它就不可能了。",
           "slashed_text": "It can’t / when so many more employers have so much more access to so much more above average cheap foreign labor , / cheap robotics , / cheap software , / cheap automation and cheap genius.",
@@ -863,7 +777,7 @@
         {
           "sid": 7,
           "pid": 2,
-          "sentence_index": 3,
+          "sentence_index": 4,
           "text": "Therefore, everyone needs to find their extra—their unique value contribution that makes them stand out in whatever is their field of employment.",
           "translation": "因此，每个人都需要找到自己的额外价值——独特的价值贡献，使他们在任何就业领域中脱颖而出。",
           "slashed_text": "Therefore , / everyone needs to find their extra — / their unique value contribution / that makes them stand out / in whatever is their field of employment.",
@@ -1038,8 +952,8 @@
         },
         {
           "sid": 13,
-          "pid": 4,
-          "sentence_index": 2,
+          "pid": 5,
+          "sentence_index": 0,
           "text": "In a world where average is officially over, there are many things we need to do to support employment, but nothing would be more important than passing some kind of G.I. Bill for the 21st century that ensures that every American has access to post-high school education.",
           "slashed_text": "In a world where average is officially over / there are many things we need to do / to support employment / but nothing would be more important / than passing some kind of G.I. Bill for the 21st century / that ensures that every American has access / to post-high school education.",
           "chunk_translation": "在这样一个“平庸”正式终结的世界里 / 我们需要做很多事情 / 来支持就业 / 但没有什么比这更重要 / 制定出某种21世纪的《退伍军人权利法案》 / 确保每一个美国人都能获得 / 高中后（高等）教育的机会。",
@@ -1175,7 +1089,7 @@
           "stem": "According to Paragraph 3, to be a successful employee, one has to ______.",
           "stem_cn": "根据第 3 段，要想在当今激烈的职场中成为一名成功的员工，一个人必须：",
           "type": "因果细节题",
-          "locate_pid": 2,
+          "locate_pid": 1,
           "locate_sentence": "Therefore, everyone needs to find their extra—their unique value contribution that makes them stand out in whatever is their field of employment.",
           "locate_sentence_cn": "因此，每个人都需要挖掘出自己的额外优势——即那种能够让自身在所从事的任何职业领域中脱颖而出、独树一帜的独特价值贡献。",
           "options": [
@@ -1262,7 +1176,7 @@
           "stem": "The quotation in Paragraph 4 explains that ______.",
           "stem_cn": "第 4 段中的权威引文深刻解释并证实了：",
           "type": "段落推断题",
-          "locate_pid": 3,
+          "locate_pid": 2,
           "locate_sentence": "As Davidson notes, “In the 10 years ending in 2009, [U.S.] factories shed workers so fast that they erased almost all the gains of the previous 70 years; roughly one out of every three manufacturing jobs—about 6 million in total—disappeared.”",
           "locate_sentence_cn": "正如戴维森所指出的：‘在截至2009年的十年间，美国制造业工厂裁撤工人的速度之快，以至于几乎抹去了此前70年积累的所有就业增长；大约每三个制造业岗位中就有一个彻底消失了——总数约为600万人。’",
           "options": [
@@ -1349,7 +1263,7 @@
           "stem": "According to the author, to reduce unemployment, the most important is _______.",
           "stem_cn": "根据作者的深刻见解，要想从根本上降低失业率，最为关键的举措是：",
           "type": "事实细节题",
-          "locate_pid": 4,
+          "locate_pid": 3,
           "locate_sentence": "In a world where average is officially over, there are many things we need to do to support employment, but nothing would be more important than passing some kind of G.I. Bill for the 21st century that ensures that every American has access to post-high school education.",
           "locate_sentence_cn": "在一个平庸正式宣告终结的世界里，我们需要做很多事情来支持就业，但没有什么比通过一项21世纪的《退伍军人权利法案》更为重要的了——该法案应确保每一个美国人都能获得高中以上的深造教育。",
           "options": [
@@ -1436,7 +1350,7 @@
           "stem": "Which of the following would be the most appropriate title for the text?",
           "stem_cn": "下列哪一项是本文最适宜的标题？",
           "type": "主旨大意题",
-          "locate_pid": 2,
+          "locate_pid": 5,
           "locate_sentence": "全文主旨脉络：第1段以一人一狗笑话破题，指出机器替代人力导致高失业；第2-3段反复强调核心警世恒言：'today, average is officially over'（平庸时代正式终结），呼吁贡献独特价值；第4段以数据证实岗位流失；第5段再次重申'In a world where average is officially over'，呼吁全民深造超越平庸。",
           "locate_sentence_cn": "全文宏观立意：在技术革命与全球化狂飙的当下，传统靠平庸技能维系体面生活的时代彻底终结，唯有追求卓越与深造才能立足。",
           "options": [
@@ -1526,33 +1440,39 @@
         "paragraph_functions": [
           {
             "pid": 0,
-            "role": "【起】纺织工厂'一人一狗'黑色幽默揭开自动化残酷序幕",
-            "core_point": "戴维森讲述未来棉纺厂只需一人一狗的讽刺笑话，极富隐喻地勾勒出自动化彻底排挤人类传统操作的冰冷图景。",
-            "cohesive_devices": "以寓言式工业笑话（joke from cotton mill about a man and a dog）引人深思入题。"
+            "role": "【起】纺织厂自动化幽默引出制造业机器替代人工现状",
+            "core_point": "亚当·戴维森引用一人一狗的幽默段子形象揭示现代纺织工厂高度自动化的现实。",
+            "cohesive_devices": "以生动逸事（relates a joke）引出主题。"
           },
           {
             "pid": 1,
-            "role": "【承】逝去的黄金旧约：昔日平庸技能即可安享体面中产",
-            "core_point": "在昔日工业繁荣期，普通打工人只要具备普普通通的技能、干好一份寻常岗位，便能轻松享有体面的中产阶级薪水。",
-            "cohesive_devices": "重温历史旧契约（In the past, workers with average skills could earn average middle-class lifestyle）。"
+            "role": "【承】大衰退与全球化、信息技术革命引发的高失业率",
+            "core_point": "大衰退导致需求骤降，加之全球化与信息技术革命加速，机器和外国廉价劳动力正以空前速度取代本土人工。",
+            "cohesive_devices": "剖析高失业率深层成因（Stubbornly high unemployment）。"
           },
           {
             "pid": 2,
-            "role": "【转】时代庄严宣判：平庸正式终结，安于中游将坠入贫困深渊",
-            "core_point": "残酷拐点已至：平庸的时代正式寿终正寝；在今天安于中庸不仅无法保障温饱，更随时面临滑入社会底层的致命悬崖。",
-            "cohesive_devices": "以斩钉截铁的时代警句（today, average is officially over）实现惊天转折。"
+            "role": "【转】“平庸时代”彻底终结，普通劳动者亟需独特竞争价值",
+            "core_point": "过去凭借普通技能即可过上体面生活的时代彻底终结，面对无所不在的低成本替代，每个人都必须找到不可替代的独特专长。",
+            "cohesive_devices": "以对比转折强调平庸终结（average is officially over）。"
           },
           {
             "pid": 3,
-            "role": "【转】技术吞噬常态化：算力以指数级加速度挤压中产岗位",
-            "core_point": "技术替代人工并非新鲜事，然而当今这场变革的恐怖之处在于其加速度——算法正以前所未有的胃口吞噬所有规则性工种。",
-            "cohesive_devices": "深入技术经济学机理（technology has been eating jobs forever, but there's an acceleration）。"
+            "role": "【深】技术蚕食岗位速度空前加速，制造业岗位大规模流失",
+            "core_point": "新技术冲击就业并非新鲜事，但近年呈现致命加速度，10年间工厂裁员抹平了此前70年的就业增长。",
+            "cohesive_devices": "引用详实数据揭示岗位流失速度。"
           },
           {
             "pid": 4,
-            "role": "【合】时代生存法则：打破平庸惯性，淬炼机器无法替代的高阶锋芒",
-            "core_point": "旧岗位消亡与新职业诞生永不停息；在这个平庸被宣判死刑的时代，唯有拒绝躺平、淬炼不可替代的非凡特长方能赢得尊严。",
-            "cohesive_devices": "以终身自我重塑建言收官（There will always be change / find your unique value because average is over）。"
+            "role": "【承】未来高阶岗位对高素质教育的必然要求",
+            "core_point": "变革不可避免，唯有一点确定无疑：在全球化与IT革命浪潮下，优质高薪岗位必将要求劳动者拥有更优质的高等教育。",
+            "cohesive_devices": "以未来前瞻逻辑承接（best jobs will require better education）。"
+          },
+          {
+            "pid": 5,
+            "role": "【结】呼吁推行21世纪新退役军人法案以保障高等教育权利",
+            "core_point": "在平庸时代终结的世界中，最迫切的国家举措莫过于出台21世纪新法案，确保每个公民享有接受高等教育的机会。",
+            "cohesive_devices": "提出应对战略举措终结全篇（G. I. Bill for the 21st century）。"
           }
         ],
         "part_b_training": {

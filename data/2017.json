@@ -5659,6 +5659,11 @@
               "word": "Moritz",
               "pos": "n./v.",
               "definition": "莫里茨（人名）"
+            },
+            {
+              "word": "fire",
+              "pos": "n.",
+              "definition": "n. 失火；火灾"
             }
           ]
         },
@@ -5670,9 +5675,14 @@
           "chunk_translation": "在2015年， / 美国国家林业局首次将其超过一半的预算资金用于 / 扑灭扑救 / 森林野火。 / 实际上， / 如今流向火灾预防的联邦资金已变得更少 / 以及 / 森林管理方面的资金， / 这 / 反过来使得火灾的发生更加不可避免。",
           "vocabulary": [
             {
-              "word": "consumed a record-high percentage of budget",
-              "pos": "",
-              "definition": "【🎯解题正解】 预算消耗比例创历史新高"
+              "word": "management",
+              "pos": "n.",
+              "definition": "n. 经营；管理；安排"
+            },
+            {
+              "word": "federal",
+              "pos": "adj.",
+              "definition": "adj. 联邦（制）的；（与）联邦政府（有关的）的；中央集权式的"
             },
             {
               "word": "budget",
@@ -5720,11 +5730,6 @@
               "definition": "n. 百分比；百分率；部分"
             },
             {
-              "word": "management",
-              "pos": "n.",
-              "definition": "n. 经营；管理；安排"
-            },
-            {
               "word": "resources",
               "pos": "n.",
               "definition": "n. 资源；物力；财力（resource 的复数）"
@@ -5748,11 +5753,6 @@
               "word": "efforts",
               "pos": "n.",
               "definition": "n. effort 的复数：努力；尝试；有组织的活动"
-            },
-            {
-              "word": "federal",
-              "pos": "adj.",
-              "definition": "adj. 联邦（制）的；（与）联邦政府（有关的）的；中央集权式的"
             },
             {
               "word": "Forest",
@@ -5814,6 +5814,31 @@
           "chunk_translation": "另一个引发全国关注的问题是 / 公共财政资金是否正在被用来 / 保护 / 建在火灾高发易发地带的私人住宅。 / 正如莫里茨所言， / 有多少次联邦资金被耗费在 / 保卫那些从一开始就不应该建在那里的私人住宅上？",
           "vocabulary": [
             {
+              "word": "concern",
+              "pos": "n.",
+              "definition": "n. 担心；忧虑；使人担忧的事物"
+            },
+            {
+              "word": "federal",
+              "pos": "adj.",
+              "definition": "adj. 联邦（制）的；（与）联邦政府（有关的）的；中央集权式的"
+            },
+            {
+              "word": "dollars",
+              "pos": "n.",
+              "definition": "n. 美元（dollar 的复数）；也泛指以 dollar 为单位的货币；常特指美元"
+            },
+            {
+              "word": "Moritz",
+              "pos": "n./v.",
+              "definition": "莫里茨（人名）"
+            },
+            {
+              "word": "funds",
+              "pos": "n.",
+              "definition": "n. 资金；款项；现金"
+            },
+            {
               "word": "wildfire",
               "pos": "",
               "definition": "n.不易扑灭的大火,野火;大火灾"
@@ -5849,31 +5874,6 @@
               "definition": "n. 建筑物；房屋；楼房"
             },
             {
-              "word": "concern",
-              "pos": "n.",
-              "definition": "n. 担心；忧虑"
-            },
-            {
-              "word": "federal",
-              "pos": "adj.",
-              "definition": "adj. 联邦（制）的；（与）联邦政府（有关的）的；中央集权式的"
-            },
-            {
-              "word": "dollars",
-              "pos": "n.",
-              "definition": "n. 美元（dollar 的复数）；也泛指以 dollar 为单位的货币；常特指美元"
-            },
-            {
-              "word": "Moritz",
-              "pos": "n./v.",
-              "definition": "莫里茨（人名）"
-            },
-            {
-              "word": "funds",
-              "pos": "n.",
-              "definition": "n. 资金；款项"
-            },
-            {
               "word": "homes",
               "pos": "n.",
               "definition": "n. 家庭（home 的复数形式）；房屋；住宅"
@@ -5888,24 +5888,14 @@
         {
           "pid": 3,
           "text": "“It’s already a huge problem from a public expenditure perspective for the whole country,” he says. “We need to take a magnifying glass to that. Like, ‘Wait a minute, is this OK?’ Do we want instead to redirect those funds to concentrate on lower-hazard parts of the landscape?”",
-          "translation": "“从整个国家公共支出的角度来看，这已经是一个巨大的问题，”他说。 “我们需要用放大镜来解决这个问题。比如，‘等一下，这样可以吗？’我们是否想将这些资金集中在风险较低的地区？”",
+          "translation": "“从整个国家公共支出的角度来看，这已经是一个巨大的问题，”他说。“我们需要用放大镜来观察这一点。就像，‘等一下，这样可以吗？’我们是否想将这些资金转移到风险较低的地区？”",
           "slashed_text": "“It’s already a huge problem from a public expenditure perspective for the whole country , / ” he says. / “We need to take a magnifying glass to / that. / Like , / ‘Wait a minute , / is this OK?’ Do we want instead to redirect those funds to concentrate / on lower-hazard parts of the landscape?”",
           "chunk_translation": "“从公共财政支出的角度来看，这已经是一个巨大的难题了，” / 他说道。 / “我们需要用放大镜去仔细审视 / 这一现象。 / 比如问一句， / ‘等一下， / 这样做合理吗？’我们是否反而希望 / 去补贴人们在更安全的地方建房？”",
           "vocabulary": [
             {
-              "word": "guarantee safer spending of public funds",
-              "pos": "",
-              "definition": "【🎯解题正解】 确保公共资金使用更加安全"
-            },
-            {
-              "word": "avoid the redirection of federal money",
-              "pos": "",
-              "definition": "【💡题项表达】 避免联邦资金的重新分配"
-            },
-            {
-              "word": "raise more funds for fire-prone areas",
-              "pos": "",
-              "definition": "【💡题项表达】 为火灾易发地区筹集更多资金"
+              "word": "funds",
+              "pos": "n.",
+              "definition": "n. 资金；款项；现金"
             },
             {
               "word": "expenditure",
@@ -5973,11 +5963,6 @@
               "definition": "n. 玻璃；玻璃杯；一杯之量"
             },
             {
-              "word": "funds",
-              "pos": "n.",
-              "definition": "n. 资金；款项；现金"
-            },
-            {
               "word": "huge",
               "pos": "adj.",
               "definition": "adj. 庞大的；极大的"
@@ -5992,6 +5977,11 @@
           "chunk_translation": "这样一种观点将需要 / 在我们看待野火风险的思维方式上做出相应的转变。",
           "vocabulary": [
             {
+              "word": "fire",
+              "pos": "n.",
+              "definition": "n. 失火；火灾"
+            },
+            {
               "word": "corresponding",
               "pos": "",
               "definition": "a.相应的,由此引起的"
@@ -6005,11 +5995,6 @@
               "word": "researchers",
               "pos": "n.",
               "definition": "n. 研究人员；研究者（researcher 的复数）"
-            },
-            {
-              "word": "fire",
-              "pos": "n.",
-              "definition": "n. 失火；火灾"
             }
           ]
         },
@@ -6020,6 +6005,16 @@
           "slashed_text": "For one thing , / conversations / about wildfires need to be more inclusive. / Over the past decade , / the focus has been / on climate change — / how the warming of the Earth / from greenhouse gases is leading to conditions / that worsen fires.",
           "chunk_translation": "一方面， / 关于讨论 / 关于野火的探讨需要超越单纯的气候变化范畴。 / 在过去的十年里， / 焦点一直集中在 / 气候作为主要驱动因素上， / 导致规模更大、 / 温度更高、更加炽烈的 / 森林野火。",
           "vocabulary": [
+            {
+              "word": "wildfires",
+              "pos": "n.",
+              "definition": "n. 野火（wildfire 复数）；大火灾"
+            },
+            {
+              "word": "fires",
+              "pos": "n.",
+              "definition": "n. fire 的复数：火灾；失火；炉火"
+            },
             {
               "word": "inclusive",
               "pos": "",
@@ -6054,11 +6049,6 @@
               "word": "conditions",
               "pos": "n.",
               "definition": "n. 条件；环境；疾病"
-            },
-            {
-              "word": "wildfires",
-              "pos": "n.",
-              "definition": "n. 野火（wildfire 复数）；大火灾"
             },
             {
               "word": "climate",
@@ -6096,11 +6086,6 @@
               "definition": "n. 气体；煤气、燃气；毒气"
             },
             {
-              "word": "fires",
-              "pos": "n.",
-              "definition": "n. fire 的复数：火灾；失火；炉火"
-            },
-            {
               "word": "past",
               "pos": "adj.",
               "definition": "adj. 过去的；昔日的"
@@ -6115,19 +6100,14 @@
           "chunk_translation": "尽管气候是一个关键要素， / 莫里茨表示， / 但它不应该掩盖人类活动在其中所扮演的角色。",
           "vocabulary": [
             {
-              "word": "other factors should not be overlooked",
-              "pos": "",
-              "definition": "【🎯解题正解】 其他因素也不容忽视"
+              "word": "Moritz",
+              "pos": "n./v.",
+              "definition": "莫里茨（人名）"
             },
             {
-              "word": "public debates have not settled yet",
-              "pos": "",
-              "definition": "【💡题项表达】 公开辩论尚未平息"
-            },
-            {
-              "word": "fire-fighting conditions are improving",
-              "pos": "",
-              "definition": "【💡题项表达】 消防条件不断改善"
+              "word": "climate",
+              "pos": "n.",
+              "definition": "n. 气候；气候区"
             },
             {
               "word": "equation",
@@ -6145,11 +6125,6 @@
               "definition": "以...为代价"
             },
             {
-              "word": "climate",
-              "pos": "n.",
-              "definition": "n. 气候；气候区"
-            },
-            {
               "word": "element",
               "pos": "n.",
               "definition": "n. 基本部分；要素"
@@ -6165,11 +6140,6 @@
               "definition": "n. 代价；费用"
             },
             {
-              "word": "Moritz",
-              "pos": "n.",
-              "definition": "莫里茨（人名）"
-            },
-            {
               "word": "rest",
               "pos": "v.",
               "definition": "v. 休息；歇息"
@@ -6179,15 +6149,10 @@
         {
           "pid": 7,
           "text": "“The human systems and the landscapes we live on are linked, and the interactions go both ways,” he says. Failing to recognize that, he notes, leads to “an overly simplified view of what the solutions might be. Our perception of the problem and of what the solution is becomes very limited.”",
-          "translation": "“人类系统和我们赖以生存的景观是相互联系的，而且相互作用是双向的，”他说。他指出，如果没有认识到这一点，就会导致“对解决方案的看法过于简单化。我们对问题和解决方案的看法变得非常有限。”",
+          "translation": "“人类系统和我们赖以生存的景观是相互联系的，而且相互作用是双向的，”他说。他指出，如果没有认识到这一点，就会导致“对解决方案的看法过于简单化”。我们对问题和解决方案的看法变得非常有限。”",
           "slashed_text": "“The human systems and the landscapes we live on are linked , / and the interactions go both ways , / ” he says. / Failing to recognize / that , / he notes , / leads to “an overly simplified view of what the solutions might be. / Our perception of the problem and of what the solution is becomes very limited.”",
           "chunk_translation": "“人类社会系统 / 与我们所生息繁衍的自然景观是紧密交织在一起的，” / 他说道。 / 未能充分认识到这一点， / 他指出， / 会导致“对该问题的 / 片面不完整理解”。 / 我们对该问题的认知以及对潜在解决方案的理解都需要做出改变。",
           "vocabulary": [
-            {
-              "word": "understand the interrelations of man and nature",
-              "pos": "",
-              "definition": "【🎯解题正解】 了解人与自然的相互关系"
-            },
             {
               "word": "simplified",
               "pos": "",
@@ -6277,30 +6242,25 @@
         },
         {
           "pid": 8,
-          "text": "At the same time, people continue to treat fire as an event that needs to be wholly controlled and unleashed only out of necessity, says Professor Balch at the University of Colorado. But acknowledging fire’s inevitable presence in human life is an attitude crucial to developing the laws, policies, and practices that make it as safe as possible, she says. “We’ve disconnected ourselves from living with fire,” Balch says. “It is really important to understand and try and tease out what is the human connection with fire today.”",
-          "translation": "与此同时，科罗拉多大学的巴尔奇教授表示，人们仍然认为火灾是一种需要完全控制的事件，只有在必要时才会发生火灾。但她表示，承认火灾在人类生活中不可避免的存在对于制定尽可能安全的法律、政策和实践至关重要。 “我们已经脱离了与火共存的生活，”巴尔奇说。 “了解并尝试弄清楚当今人类与火的联系非常重要。”",
-          "slashed_text": "At the same time , / people continue to treat fire as an event / that needs to be wholly controlled and unleashed only out of necessity , / says Professor Balch at the University of Colorado. / But acknowledging fire’s inevitable presence / in human life is an attitude crucial to developing the laws , / policies , / and practices / that make it as safe as possible , / she says. / “We’ve disconnected ourselves / from living / with fire , / ” Balch says. / “It is really important to understand and try and tease out what is the human connection / with fire today.”",
-          "chunk_translation": "与此同时， / 人们依然把火灾视为 / 一种外部威胁 / 一种必须被扑灭压制的威胁。 / 但若承认火灾在人类聚居环境中不可避免的存在， / 在人类聚居景观中， / 就能够促成 / 更明智的规划 / 以及 / 更严密的建筑规范。 / “我们已经割裂了自身 / 从学会如何共处 / 与火灾共处的联系，” / 莫里茨说道。 / “这确实非常重要， / 去理解并努力重建这种与自然之火共生的纽带。”",
+          "text": "At the same time, people continue to treat fire as an event that needs to be wholly controlled and unleashed only out of necessity, says Professor Balch at the University of Colorado. But acknowledging fire’s inevitable presence in human life is an attitude crucial to developing the laws, policies, and practices that make it as safe as possible, she says.",
+          "translation": "与此同时，科罗拉多大学的巴尔奇教授表示，人们仍然认为火灾是一种需要完全控制的事件，只有在必要时才会发生火灾。但她表示，承认火灾在人类生活中不可避免的存在对于制定尽可能安全的法律、政策和做法至关重要。",
+          "slashed_text": "At the same time , / people continue to treat fire as an event / that needs to be wholly controlled and unleashed only out of necessity , / says Professor Balch at the University of Colorado. / But acknowledging fire’s inevitable presence / in human life is an attitude crucial to developing the laws , / policies , / and practices / that make it as safe as possible , / she says.",
+          "chunk_translation": "与此同时， / 人们依然把火灾视为 / 一种外部威胁 / 一种必须被扑灭压制的威胁。 / 但若承认火灾在人类聚居环境中不可避免的存在， / 在人类聚居景观中， / 就能够促成 / 更明智的规划 / 以及 / 更严密的建筑规范。",
           "vocabulary": [
             {
-              "word": "come to terms with",
-              "pos": "",
-              "definition": "【🎯解题正解】 达成协议"
+              "word": "Professor",
+              "pos": "n.",
+              "definition": "n. 教授；（大学的）讲师；教员"
             },
             {
-              "word": "do away with",
-              "pos": "",
-              "definition": "【💡题项表达】 废除"
+              "word": "fire",
+              "pos": "n.",
+              "definition": "n. 失火；火灾"
             },
             {
-              "word": "pay a price for",
-              "pos": "",
-              "definition": "【💡题项表达】 付出代价"
-            },
-            {
-              "word": "keep away from",
-              "pos": "",
-              "definition": "【💡题项表达】 keep away from"
+              "word": "human",
+              "pos": "adj.",
+              "definition": "adj. 人的；人类的"
             },
             {
               "word": "necessity",
@@ -6323,24 +6283,9 @@
               "definition": "出于必要"
             },
             {
-              "word": "tease",
-              "pos": "",
-              "definition": "v.梳理"
-            },
-            {
-              "word": "tease out",
-              "pos": "",
-              "definition": "梳理,疏通"
-            },
-            {
               "word": "acknowledging",
               "pos": "v.",
               "definition": "v. 承认（acknowledge 的 ing 形式）；n. 确认；确认收到"
-            },
-            {
-              "word": "disconnected",
-              "pos": "adj.",
-              "definition": "adj. 分离的；断开的；不连贯的"
             },
             {
               "word": "controlled",
@@ -6358,34 +6303,14 @@
               "definition": "adj. （国家）发展中的；正在生长的；正在发展的"
             },
             {
-              "word": "connection",
-              "pos": "n.",
-              "definition": "n. 关系；联系；连接"
-            },
-            {
               "word": "unleashed",
               "pos": "vt.",
               "definition": "vt. 释放；解放"
             },
             {
-              "word": "Professor",
-              "pos": "n.",
-              "definition": "n. 教授；（大学的）讲师；教员"
-            },
-            {
               "word": "practices",
               "pos": "n.",
               "definition": "n. 实践；习惯做法；练习"
-            },
-            {
-              "word": "ourselves",
-              "pos": "pron.",
-              "definition": "pron. 用作反身代词；作动词或介词宾语；指包括说话者在内的一组人自身"
-            },
-            {
-              "word": "important",
-              "pos": "adj.",
-              "definition": "adj. 重要的；重大的；（人）影响很大的"
             },
             {
               "word": "Colorado",
@@ -6413,11 +6338,6 @@
               "definition": "adv. 完全地；全部地"
             },
             {
-              "word": "living",
-              "pos": "adj.",
-              "definition": "adj. 活着的；活的；在使用的"
-            },
-            {
               "word": "treat",
               "pos": "v.",
               "definition": "v. 对待；看待"
@@ -6431,16 +6351,65 @@
               "word": "Balch",
               "pos": "n./v.",
               "definition": "鲍尔奇"
-            },
-            {
-              "word": "human",
-              "pos": "adj.",
-              "definition": "adj. 人的；人类的；（尤指缺点或弱点）显示人的本性的"
-            },
+            }
+          ]
+        },
+        {
+          "pid": 9,
+          "text": "“We’ve disconnected ourselves from living with fire,” Balch says. “It is really important to understand and try and tease out what is the human connection with fire today.”",
+          "translation": "“我们已经脱离了与火共存的生活，”巴尔奇说。“了解并尝试弄清楚当今人类与火的联系非常重要。”",
+          "slashed_text": "“We’ve disconnected ourselves / from living / with fire , / ” Balch says. / “It is really important to understand and try and tease out what is the human connection / with fire today.”",
+          "chunk_translation": "“我们已经割裂了自身 / 从学会如何共处 / 与火灾共处的联系，” / 莫里茨说道。 / “这确实非常重要， / 去理解并努力重建这种与自然之火共生的纽带。”",
+          "vocabulary": [
             {
               "word": "fire",
               "pos": "n.",
               "definition": "n. 失火；火灾"
+            },
+            {
+              "word": "human",
+              "pos": "adj.",
+              "definition": "adj. 人的；人类的"
+            },
+            {
+              "word": "tease",
+              "pos": "",
+              "definition": "v.梳理"
+            },
+            {
+              "word": "tease out",
+              "pos": "",
+              "definition": "梳理,疏通"
+            },
+            {
+              "word": "disconnected",
+              "pos": "adj.",
+              "definition": "adj. 分离的；断开的；不连贯的"
+            },
+            {
+              "word": "connection",
+              "pos": "n.",
+              "definition": "n. 关系；联系；连接"
+            },
+            {
+              "word": "ourselves",
+              "pos": "pron.",
+              "definition": "pron. 用作反身代词；作动词或介词宾语；指包括说话者在内的一组人自身"
+            },
+            {
+              "word": "important",
+              "pos": "adj.",
+              "definition": "adj. 重要的；重大的；（人）影响很大的"
+            },
+            {
+              "word": "living",
+              "pos": "adj.",
+              "definition": "adj. 活着的；活的；在使用的"
+            },
+            {
+              "word": "Balch",
+              "pos": "n./v.",
+              "definition": "鲍尔奇"
             }
           ]
         }
@@ -6924,8 +6893,8 @@
         },
         {
           "sid": 17,
-          "pid": 8,
-          "sentence_index": 2,
+          "pid": 9,
+          "sentence_index": 0,
           "text": "“We’ve disconnected ourselves from living with fire,” Balch says.",
           "translation": "“我们已经脱离了与火共存的生活，”巴尔奇说。",
           "slashed_text": "“We’ve disconnected ourselves / from living / with fire , / ” Balch says.",
@@ -6952,8 +6921,8 @@
         },
         {
           "sid": 18,
-          "pid": 8,
-          "sentence_index": 3,
+          "pid": 9,
+          "sentence_index": 1,
           "text": "“It is really important to understand and try and tease out what is the human connection with fire today.”",
           "translation": "“了解并尝试弄清楚当今人类与火的联系非常重要。”",
           "slashed_text": "“It is really important to understand and try and tease out what is the human connection / with fire today.”",
@@ -7159,7 +7128,7 @@
           "stem": "While admitting that climate is a key element, Moritz notes that _______.",
           "stem_cn": "莫里茨承认气候是一个关键因素，但他指出_______。",
           "type": "段落推理题",
-          "locate_pid": 6,
+          "locate_pid": 5,
           "locate_sentence": "Over the past decade, the focus has been on climate change—how the warming of the Earth from greenhouse gases is leading to conditions that worsen fires.",
           "locate_sentence_cn": "过去十年，人们关注的焦点一直是气候变化——温室气体导致的地球变暖如何导致火灾恶化。",
           "options": [
@@ -7423,57 +7392,63 @@
         "paragraph_functions": [
           {
             "pid": 0,
-            "role": "【起】打破地域认知局限：森林山火已演化为全国性宏观危机",
-            "core_point": "山火曾被视为西部各州的局部麻烦，如今其发生频次与破坏烈度急剧飙升，已赫然成为全美性公共危机。",
-            "cohesive_devices": "以认知反差（Though viewed as a problem for western states / now a national crisis）确立基调。"
+            "role": "【起】野火频发演变为全美财政冲击焦点",
+            "core_point": "野火不再仅是西部地区局部问题，其对联邦税收的吞噬使其演变成全国性关切。",
+            "cohesive_devices": "以打破地域局限让步句（Though often viewed）开门见山。"
           },
           {
             "pid": 1,
-            "role": "【承】财政黑洞化反噬：林务局半数以上预算被救火吞噬",
-            "core_point": "2015年美国林务局历史上首次将55亿美元年度预算的一半以上尽数耗费于灭火抢险，严重挤占森林常态维护与游憩资金。",
-            "cohesive_devices": "采用刺目的财政量化事实（spent more than half of its $5.5 billion budget fighting fires）。"
+            "role": "【承】林务局灭火预算暴增挤占其他关键公共事务资金",
+            "core_point": "林务局灭火支出占比20年翻倍超预算半数，严重蚕食森林保护和基础设施维护资金。",
+            "cohesive_devices": "引用财政审计数据阐明预算失衡。"
           },
           {
             "pid": 2,
-            "role": "【承】跨部门公帑连带遭殃：违建房屋救援造成财政恶性循环",
-            "core_point": "全国担忧不仅于此，其他联邦机构的救灾应急基金亦被迫源源不断流入易燃危险区，为在林区盲目盖房的富人兜底买单。",
-            "cohesive_devices": "揭示跨部门公款被挪用救灾的体制弊端（funds going into constructing homes in fire-prone zones）。"
+            "role": "【转】高危火灾区持续建设的财政支出诘问",
+            "core_point": "联邦资金频频补贴在极易发生山火的高危区域修建住宅，引发公共资金使用的合理性拷问。",
+            "cohesive_devices": "以反问形式直击弊病（how often are federal dollars building homes...）。"
           },
           {
             "pid": 3,
-            "role": "【承】财政学者严厉警告：救灾支出规模已逼近国家承受极限",
-            "core_point": "从宏观公共财政支出视角审视，无底洞般的灭火支出已经成长为一个令全美纳税人不堪重负的庞大财务黑洞。",
-            "cohesive_devices": "引用专家判断（huge problem from a public expenditure perspective for the whole country）。"
+            "role": "【深】全美公共支出视角的审视与资金流向重构",
+            "core_point": "从国家宏观财政视角看该问题极其严峻，亟需严格审查并将资金转移至低风险区域。",
+            "cohesive_devices": "引用莫里茨教授呼吁（take a magnifying glass）。"
           },
           {
             "pid": 4,
-            "role": "【转】治本之策必须转向：重塑人类对自然火行为的根本认知",
-            "core_point": "治理山火危机必须首先在思想观念层面破冰：全社会必须颠覆对火的敌对态度，告别一味追求全歼扑灭的陈腐教条。",
-            "cohesive_devices": "提出范式转型要求（require a corresponding shift in the way society views fire）。"
+            "role": "【承】全社会看待野火思维范式的深刻转变",
+            "core_point": "这种资金重构要求全美社会彻底扭转看待野火的固有陈旧观念。",
+            "cohesive_devices": "承上启下引出观念转变要求（shift in the way US society views fire）。"
           },
           {
             "pid": 5,
-            "role": "【承】告别盲人摸象：建立囊括城市规划与建筑标准的包容对话",
-            "core_point": "山火治理不能仅是护林员的独角戏，必须将讨论延伸至土地规划、建筑阻燃标准以及地方区划等多学科跨界共治。",
-            "cohesive_devices": "拓宽讨论维度（conversations need to be more inclusive）。"
+            "role": "【转】野火讨论视角的包容性与气候变暖聚焦",
+            "core_point": "关于野火的公共讨论需更具包容性，过去十年社会注意力过于单一地聚焦于温室气体气候变暖。",
+            "cohesive_devices": "提出讨论视野狭隘局限（conversations need to be more inclusive）。"
           },
           {
             "pid": 6,
-            "role": "【转】莫里茨学者警示：切莫让'气候变暖'遮蔽人类自身决策之失",
-            "core_point": "气候干旱固然是关键推手，但生态学家莫里茨尖锐提醒，绝不能以此掩盖人类盲目向火险山林盲目大兴土木的制度性失职。",
-            "cohesive_devices": "驳斥单一归因论（While climate is key, shouldn't come at the expense of rest of the picture）。"
+            "role": "【深】气候虽为关键要素但绝非问题全部",
+            "core_point": "气候固然是核心诱因，但决不能因此忽视火灾生态等式中的其他关键变量。",
+            "cohesive_devices": "辩证厘清气候因素边界（shouldn’t come at expense of rest of equation）。"
           },
           {
             "pid": 7,
-            "role": "【深】人与生态双向互构：林地交错带必须设立严格缓冲防线",
-            "core_point": "人类社区与自然荒野乃是深度交织的双向互动系统，唯有确立科学的建筑防火红线与防卫空间，方能防患未然。",
-            "cohesive_devices": "揭示双向反馈生态系统本质（human systems and landscapes linked / interactions go both ways）。"
+            "role": "【析】人类聚落与自然生态相互作用的双向系统",
+            "core_point": "人类社会聚落与自然地理景观紧密相连且相互作用，无视双向影响会导致解决方案过于狭隘片面。",
+            "cohesive_devices": "指出双向交互本质（human systems and landscapes linked）。"
           },
           {
             "pid": 8,
-            "role": "【合】走出人定胜天幻想：从'绝对扑灭'迈向'韧性人火共生'",
-            "core_point": "企图将自然山火完全消灭于萌芽的人定胜天迷信是危险的幻觉；尊重自然火周期、提升社区耐火韧性方是唯一正道。",
-            "cohesive_devices": "以生态哲学智慧收官（treating fire as an event to wholly control is an illusion / learn to coexist）。"
+            "role": "【承】接纳火灾必然存在并完善法律政策",
+            "core_point": "公众习惯将火灾视为需彻底扑灭的灾害，但承认火灾在人类生存中的必然存在是制定理性法律政策的关键前提。",
+            "cohesive_devices": "重塑对火灾的认知态度（acknowledging fire’s inevitable presence）。"
+          },
+          {
+            "pid": 9,
+            "role": "【结】重新审视并厘清人与火灾的深层共生连接",
+            "core_point": "现代人类社会已割裂了与火的共生纽带，重新理解并梳理当代人与火的连接至关重要。",
+            "cohesive_devices": "以哲学反思终结全篇（disconnected ourselves from living with fire）。"
           }
         ],
         "part_b_training": {

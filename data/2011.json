@@ -4270,6 +4270,11 @@
           "chunk_translation": "经济状况只是推动高效生活方式趋势的催化剂 / “少即是多”这一名言实际上最早是由一位德国人推广开来的 / 即建筑大师路德维希·密斯·凡德罗 / 他与其他与包豪斯有关的人士一样 / 包豪斯是一所设计学院 / 移民到了美国 / 在二战爆发前并在美国各建筑院校任职 / 在美国建筑院校 / 这些设计师对美国建筑的发展历程产生了巨大影响 / 但谁的影响也比不上密斯",
           "vocabulary": [
             {
+              "word": "efficient",
+              "pos": "adj.",
+              "definition": "adj. 生效的；效率高的"
+            },
+            {
               "word": "stimulus",
               "pos": "",
               "definition": "n.刺激物,刺激因素"
@@ -4298,11 +4303,6 @@
               "word": "condition",
               "pos": "n.",
               "definition": "n. 状况；状态"
-            },
-            {
-              "word": "efficient",
-              "pos": "adj.",
-              "definition": "adj. 生效的；效率高的"
             },
             {
               "word": "emigrated",
@@ -4398,16 +4398,11 @@
         },
         {
           "pid": 3,
-          "text": "Mies’s signature phrase means that less decoration, properly organized, has more impact than a lot. Elegance, he believed, did not derive from abundance. Like other modern architects, he employed metal, glass and laminated wood—materials that we take for granted today but that in the 1940s symbolized the future. Mies’s sophisticated presentation masked the fact that the spaces he designed were small and efficient, rather than big and often empty.",
-          "translation": "密斯的标志性短语意味着，较少的装饰，适当的组织，比大量的装饰具有更大的影响力。他相信，优雅并非源自丰富。与其他现代建筑师一样，他采用了金属、玻璃和层压木材——这些材料在今天我们看来是理所当然的，但在 20 世纪 40 年代却象征着未来。密斯复杂的演示掩盖了这样一个事实：他设计的空间小而高效，而不是大且经常空荡荡的。",
-          "slashed_text": "Mies’s signature phrase means / that less decoration , / properly organized , / has more impact than a lot. / Elegance , / he believed , / did not derive / from abundance. / Like other modern architects , / he employed metal , / glass and laminated wood — / materials / that we take / for granted today but / that in the 1940s symbolized the future. / Mies’s sophisticated presentation masked the fact / that the spaces he designed were small and efficient , / rather than big and often empty.",
-          "chunk_translation": "密斯的标志性格言意味着 / 较少的装饰 / 只要组织得当 / 就能比繁复的装饰产生更大的影响力 / 优雅 / 他坚信 / 并非源于 / 繁冗堆砌 / 与其他现代建筑师一样 / 他运用金属、 / 玻璃和层压木板—— / 这些材料 / 在我们今天看来 / 是理所当然的，但 / 在20世纪40年代却象征着未来 / 密斯精湛的表现手法掩盖了这样一个事实 / 即他所设计的空间小而高效 / 而非庞大且往往空旷",
+          "text": "Mies’s signature phrase means that less decoration, properly organized, has more impact than a lot. Elegance, he believed, did not derive from abundance. Like other modern architects, he employed metal, glass and laminated wood—materials that we take for granted today but that in the 1940s symbolized the future.",
+          "translation": "密斯的标志性短语意味着，较少的装饰，适当的组织，比大量的装饰具有更大的影响力。他相信，优雅并非源自丰富。与其他现代建筑师一样，他采用了金属、玻璃和层压木材——这些材料在今天我们看来是理所当然的，但在 20 世纪 40 年代却象征着未来。",
+          "slashed_text": "Mies’s signature phrase means / that less decoration , / properly organized , / has more impact than a lot. / Elegance , / he believed , / did not derive / from abundance. / Like other modern architects , / he employed metal , / glass and laminated wood — / materials / that we take / for granted today but / that in the 1940s symbolized the future.",
+          "chunk_translation": "密斯的标志性格言意味着 / 较少的装饰 / 只要组织得当 / 就能比繁复的装饰产生更大的影响力 / 优雅 / 他坚信 / 并非源于 / 繁冗堆砌 / 与其他现代建筑师一样 / 他运用金属、 / 玻璃和层压木板—— / 这些材料 / 在我们今天看来 / 是理所当然的，但 / 在20世纪40年代却象征着未来",
           "vocabulary": [
-            {
-              "word": "efficient",
-              "pos": "adj.",
-              "definition": "adj. 生效的；效率高的"
-            },
             {
               "word": "phrase",
               "pos": "n.",
@@ -4434,11 +4429,6 @@
               "definition": "a.由薄片叠成的,分层的"
             },
             {
-              "word": "sophisticated",
-              "pos": "",
-              "definition": "a.复杂的,精致的"
-            },
-            {
               "word": "signature phrase",
               "pos": "",
               "definition": "口头禅"
@@ -4447,11 +4437,6 @@
               "word": "take for granted",
               "pos": "",
               "definition": "认为...理所当然"
-            },
-            {
-              "word": "presentation",
-              "pos": "n.",
-              "definition": "n. （颁奖等）仪式；典礼；授予"
             },
             {
               "word": "decoration",
@@ -4504,11 +4489,6 @@
               "definition": "adj. 被雇用的；vt. 雇佣；使用（employ 的过去式与过去分词）"
             },
             {
-              "word": "designed",
-              "pos": "v.",
-              "definition": "v. 设计；计划（design 的过去式和过去分词）；be designed to/for 旨在"
-            },
-            {
               "word": "granted",
               "pos": "adv.",
               "definition": "adv. 的确；诚然；conj. 因为（granted that）"
@@ -4529,16 +4509,6 @@
               "definition": "v. 获得；取得；起源于"
             },
             {
-              "word": "masked",
-              "pos": "v.",
-              "definition": "v. mask 的过去式及过去分词：掩饰；给……戴面具；遮蔽"
-            },
-            {
-              "word": "spaces",
-              "pos": "n.",
-              "definition": "n. 空间；空地；空隙"
-            },
-            {
               "word": "means",
               "pos": "n.",
               "definition": "n. 手段；方法"
@@ -4554,11 +4524,6 @@
               "definition": "n. 玻璃；玻璃杯；一杯之量"
             },
             {
-              "word": "empty",
-              "pos": "adj.",
-              "definition": "adj. 空的；空洞的；无意义的"
-            },
-            {
               "word": "elegance",
               "pos": "n.",
               "definition": "n. 优雅；雅致；简练"
@@ -4567,15 +4532,65 @@
         },
         {
           "pid": 4,
-          "text": "The apartments in the elegant towers Mies built on Chicago’s Lake Shore Drive, for example, were smaller—two-bedroom units under 1,000 square feet—than those in their older neighbors along the city’s Gold Coast. But they were popular because of their airy glass walls, the views they afforded and the elegance of the buildings’ details and proportions, the architectural equivalent of the abstract art so popular at the time.",
-          "translation": "例如，密斯在芝加哥湖滨大道上建造的优雅塔楼中的公寓比位于城市黄金海岸的老邻居中的公寓要小，两居室单元面积不到 1,000 平方英尺。但它们之所以受欢迎，是因为它们通风的玻璃墙、提供的视野以及建筑细节和比例的优雅，相当于当时流行的抽象艺术的建筑风格。",
-          "slashed_text": "The apartments in the elegant towers Mies built / on Chicago’s Lake Shore Drive , / for example , / were smaller — / two-bedroom units under 1 , / 000 square feet — / than those / in their older neighbors along the city’s Gold Coast. / But they were popular / because of their airy glass walls , / the views they afforded and the elegance of the buildings’ details and proportions , / the architectural equivalent of the abstract art so popular at the time.",
-          "chunk_translation": "例如密斯在芝加哥湖滨大道上建造的典雅高楼中的公寓 / 位于芝加哥湖滨大道上 / 例如 / 面积更小—— / 面积不到1 / 000平方英尺的两居室—— / 相比那些 / 位于该市黄金海岸沿线的老式邻近建筑中的公寓 / 但它们深受人们喜爱 / 因为其通透通风的玻璃幕墙 / 极佳的采光视野以及建筑细节与比例的典雅 / 堪称当时风靡一时的抽象艺术在建筑学上的体现",
+          "text": "Mies’s sophisticated presentation masked the fact that the spaces he designed were small and efficient, rather than big and often empty. The apartments in the elegant towers Mies built on Chicago’s Lake Shore Drive, for example, were smaller—two-bedroom units under 1,000 square feet—than those in their older neighbors along the city’s Gold Coast. But they were popular because of their airy glass walls, the views they afforded and the elegance of the buildings’ details and proportions, the architectural equivalent of the abstract art so popular at the time.",
+          "translation": "密斯复杂的演示掩盖了这样一个事实：他设计的空间小而高效，而不是大且经常空荡荡的。例如，密斯在芝加哥湖滨大道上建造的优雅塔楼中的公寓比位于城市黄金海岸的老邻居中的公寓要小，两居室单元面积不到 1,000 平方英尺。但它们之所以受欢迎，是因为它们通风的玻璃墙、提供的视野以及建筑细节和比例的优雅，相当于当时流行的抽象艺术的建筑风格。",
+          "slashed_text": "Mies’s sophisticated presentation masked the fact / that the spaces he designed were small and efficient , / rather than big and often empty. / The apartments in the elegant towers Mies built / on Chicago’s Lake Shore Drive , / for example , / were smaller — / two-bedroom units under 1 , / 000 square feet — / than those / in their older neighbors along the city’s Gold Coast. / But they were popular / because of their airy glass walls , / the views they afforded and the elegance of the buildings’ details and proportions , / the architectural equivalent of the abstract art so popular at the time.",
+          "chunk_translation": "密斯精湛的表现手法掩盖了这样一个事实 / 即他所设计的空间小而高效 / 而非庞大且往往空旷 / 例如密斯在芝加哥湖滨大道上建造的典雅高楼中的公寓 / 位于芝加哥湖滨大道上 / 例如 / 面积更小—— / 面积不到1 / 000平方英尺的两居室—— / 相比那些 / 位于该市黄金海岸沿线的老式邻近建筑中的公寓 / 但它们深受人们喜爱 / 因为其通透通风的玻璃幕墙 / 极佳的采光视野以及建筑细节与比例的典雅 / 堪称当时风靡一时的抽象艺术在建筑学上的体现",
           "vocabulary": [
+            {
+              "word": "efficient",
+              "pos": "adj.",
+              "definition": "adj. 生效的；效率高的"
+            },
             {
               "word": "Mies",
               "pos": "abbr.",
               "definition": "abbr. 矿区产业生态系统（mining industry ecosystem）；n. （Mies）人名"
+            },
+            {
+              "word": "sophisticated",
+              "pos": "",
+              "definition": "a.复杂的,精致的"
+            },
+            {
+              "word": "presentation",
+              "pos": "n.",
+              "definition": "n. （颁奖等）仪式；典礼；授予"
+            },
+            {
+              "word": "Elegance",
+              "pos": "n.",
+              "definition": "n. 优雅；雅致；简练"
+            },
+            {
+              "word": "designed",
+              "pos": "v.",
+              "definition": "v. 设计；计划（design 的过去式和过去分词）；be designed to/for 旨在"
+            },
+            {
+              "word": "masked",
+              "pos": "v.",
+              "definition": "v. mask 的过去式及过去分词：掩饰；给……戴面具；遮蔽"
+            },
+            {
+              "word": "spaces",
+              "pos": "n.",
+              "definition": "n. 空间；空地；空隙"
+            },
+            {
+              "word": "glass",
+              "pos": "n.",
+              "definition": "n. 玻璃；玻璃杯；一杯之量"
+            },
+            {
+              "word": "empty",
+              "pos": "adj.",
+              "definition": "adj. 空的；空洞的；无意义的"
+            },
+            {
+              "word": "elegance",
+              "pos": "n.",
+              "definition": "n. 优雅；雅致；简练"
             },
             {
               "word": "elegant",
@@ -4596,11 +4611,6 @@
               "word": "neighbors",
               "pos": "n.",
               "definition": "n. 街坊邻里；邻居；邻国"
-            },
-            {
-              "word": "Elegance",
-              "pos": "n.",
-              "definition": "n. 优雅；雅致；简练"
             },
             {
               "word": "example",
@@ -4626,11 +4636,6 @@
               "word": "square",
               "pos": "adj.",
               "definition": "adj. 正方形的；四方形的；成直角的"
-            },
-            {
-              "word": "glass",
-              "pos": "n.",
-              "definition": "n. 玻璃；玻璃杯；一杯之量"
             },
             {
               "word": "built",
@@ -4693,11 +4698,6 @@
               "definition": "v. afford 的过去式和过去分词：买得起；承担得起（费用、损失等）；提供"
             },
             {
-              "word": "elegance",
-              "pos": "n.",
-              "definition": "n. 优雅；雅致；简练"
-            },
-            {
               "word": "abstract",
               "pos": "adj.",
               "definition": "adj. 抽象的；纯概念的；（艺术）抽象派的"
@@ -4721,10 +4721,10 @@
         },
         {
           "pid": 5,
-          "text": "The trend toward “less” was not entirely foreign. In the 1930s Frank Lloyd Wright started building more modest and efficient houses—usually around 1,200 square feet— than the spreading two-story ones he had designed in the 1890s and the early 20th century. The “Case Study Houses” commissioned from talented modern architects by California Arts & Architecture magazine between 1945 and 1962 were yet another homegrown influence on the “less is more” trend. Aesthetic effect came from the landscape, new materials and forthright detailing. In his Case Study House, Ralph Rapson may have mispredicted just how the mechanical revolution would impact everyday life—few American families acquired helicopters, though most eventually got clothes dryers—but his belief that self-sufficiency was both desirable and inevitable was widely shared.",
-          "translation": "“更少”的趋势并非完全陌生。20 世纪 30 年代，弗兰克·劳埃德·赖特 (Frank Lloyd Wright) 开始建造比他在 1890 年代和 20 世纪初设计的两层楼更朴素、更高效的房屋（通常面积约为 1,200 平方英尺）。1945 年至 1962 年间，加州艺术与建筑杂志委托才华横溢的现代建筑师设计的“案例研究住宅”是对“少即是多”趋势的另一个本土影响。美学效果来自景观、新材料和直接的细节。在他的案例研究之家中，拉尔夫·拉普森可能错误地预测了机械革命将如何影响日常生活——很少有美国家庭拥有直升机，尽管大多数家庭最终都拥有了干衣机——但他认为自给自足既是可取的也是不可避免的这一信念得到了广泛认同。",
-          "slashed_text": "The trend toward “less” was not entirely foreign. / In the 1930s Frank Lloyd Wright started building more modest and efficient houses — / usually around 1 , / 200 square feet — / than the spreading two-story ones he had designed in the 1890s and the early 20th century. / The “Case Study Houses” commissioned / from talented modern architects / by California Arts & Architecture magazine between 1945 and 1962 were yet another homegrown influence on the “less is more” trend. / Aesthetic effect came from the landscape , / new materials and forthright detailing. / In his Case Study House , / Ralph Rapson may have mispredicted just how the mechanical revolution would impact everyday life — / few American families acquired helicopters , / though most eventually got clothes dryers — / but his belief / that self-sufficiency was both desirable and inevitable was widely shared.",
-          "chunk_translation": "走向“少”的趋势并非完全是舶来品 / 在20世纪30年代，弗兰克·劳埃德·赖特就开始建造更加简朴且高效的住宅—— / 通常约为1 / 200平方英尺左右—— / 相比他在19世纪90年代和20世纪初所设计的铺展开来的双层住宅 / 在1945年至1962年间由《加州艺术与建筑》杂志委托建造的“案例研究住宅” / 委托优秀的现代建筑师设计的 / 是对“少即是多”趋势的又一本土影响 / 美学效果源自自然景观、 / 新材料以及简洁直率的细节处理 / 在他的案例研究住宅中 / 拉尔夫·拉普森或许误判了机械革命究竟会如何影响日常生活—— / 极少有美国家庭购买了直升机 / 尽管大多数家庭最终都购置了干衣机—— / 但他的信念 / 即自给自足既令人向往又是必然趋势，却得到了广泛认同",
+          "text": "The trend toward “less” was not entirely foreign. In the 1930s Frank Lloyd Wright started building more modest and efficient houses—usually around 1,200 square feet— than the spreading two-story ones he had designed in the 1890s and the early 20th century. The “Case Study Houses” commissioned from talented modern architects by California Arts & Architecture magazine between 1945 and 1962 were yet another homegrown influence on the “less is more” trend.",
+          "translation": "“更少”的趋势并非完全陌生。20 世纪 30 年代，弗兰克·劳埃德·赖特 (Frank Lloyd Wright) 开始建造比他在 1890 年代和 20 世纪初设计的两层楼更朴素、更高效的房屋（通常面积约为 1,200 平方英尺）。1945 年至 1962 年间，加州艺术与建筑杂志委托才华横溢的现代建筑师设计的“案例研究住宅”是对“少即是多”趋势的另一个本土影响。",
+          "slashed_text": "The trend toward “less” was not entirely foreign. / In the 1930s Frank Lloyd Wright started building more modest and efficient houses — / usually around 1 , / 200 square feet — / than the spreading two-story ones he had designed in the 1890s and the early 20th century. / The “Case Study Houses” commissioned / from talented modern architects / by California Arts & Architecture magazine between 1945 and 1962 were yet another homegrown influence on the “less is more” trend.",
+          "chunk_translation": "走向“少”的趋势并非完全是舶来品 / 在20世纪30年代，弗兰克·劳埃德·赖特就开始建造更加简朴且高效的住宅—— / 通常约为1 / 200平方英尺左右—— / 相比他在19世纪90年代和20世纪初所设计的铺展开来的双层住宅 / 在1945年至1962年间由《加州艺术与建筑》杂志委托建造的“案例研究住宅” / 委托优秀的现代建筑师设计的 / 是对“少即是多”趋势的又一本土影响",
           "vocabulary": [
             {
               "word": "houses",
@@ -4732,9 +4732,9 @@
               "definition": "n. 住宅；家园"
             },
             {
-              "word": "belief",
-              "pos": "n.",
-              "definition": "n. 相信；信心"
+              "word": "efficient",
+              "pos": "adj.",
+              "definition": "adj. 生效的；效率高的"
             },
             {
               "word": "Architecture",
@@ -4742,19 +4742,9 @@
               "definition": "n. 建筑设计；建筑风格"
             },
             {
-              "word": "efficient",
-              "pos": "adj.",
-              "definition": "adj. 生效的；效率高的"
-            },
-            {
               "word": "trend",
               "pos": "n.",
               "definition": "n. 趋势；动态"
-            },
-            {
-              "word": "architects",
-              "pos": "n.",
-              "definition": "n. （建）建筑师（architect 的复数形式）；（思想、事件、制度等的）设计者"
             },
             {
               "word": "influence",
@@ -4762,19 +4752,14 @@
               "definition": "n. 影响；作用；势力"
             },
             {
-              "word": "materials",
+              "word": "architects",
               "pos": "n.",
-              "definition": "n. 材料；原料；物料"
+              "definition": "n. （建）建筑师（architect 的复数形式）；（思想、事件、制度等的）设计者"
             },
             {
               "word": "designed",
               "pos": "v.",
               "definition": "v. 设计；计划（design 的过去式和过去分词）；be designed to/for 旨在"
-            },
-            {
-              "word": "impact",
-              "pos": "n.",
-              "definition": "n. 撞击；冲击力"
             },
             {
               "word": "modern",
@@ -4802,6 +4787,100 @@
               "definition": "a.适度的,适中的,端庄的"
             },
             {
+              "word": "commissioned",
+              "pos": "adj.",
+              "definition": "adj. 受委任的；受任命的"
+            },
+            {
+              "word": "spreading",
+              "pos": "v.",
+              "definition": "v. 传播；蔓延；扩散"
+            },
+            {
+              "word": "homegrown",
+              "pos": "adj.",
+              "definition": "adj. 国产的；本土的；自家种植的"
+            },
+            {
+              "word": "talented",
+              "pos": "adj.",
+              "definition": "adj. 有天资的；有才能的"
+            },
+            {
+              "word": "building",
+              "pos": "n.",
+              "definition": "n. 建筑物；房屋；楼房"
+            },
+            {
+              "word": "magazine",
+              "pos": "n.",
+              "definition": "n. 杂志；期刊；（电视、广播）专题节目"
+            },
+            {
+              "word": "started",
+              "pos": "v.",
+              "definition": "v. 开始；着手"
+            },
+            {
+              "word": "century",
+              "pos": "n.",
+              "definition": "n. 世纪；一百年；（板球）一百分"
+            },
+            {
+              "word": "Wright",
+              "pos": "n.",
+              "definition": "n. 制作者；工人（常用于复合词"
+            },
+            {
+              "word": "Frank",
+              "pos": "adj.",
+              "definition": "adj. 坦率的；直言不讳的"
+            },
+            {
+              "word": "Lloyd",
+              "pos": "n.",
+              "definition": "n. 劳埃德（男子名或姓氏）"
+            },
+            {
+              "word": "Study",
+              "pos": "n.",
+              "definition": "n. （专题）研究；调查"
+            },
+            {
+              "word": "story",
+              "pos": "n.",
+              "definition": "n. （真实或虚构的）故事；叙述；新闻报道"
+            },
+            {
+              "word": "Arts",
+              "pos": "n.",
+              "definition": "n. 美术；艺术"
+            }
+          ]
+        },
+        {
+          "pid": 6,
+          "text": "Aesthetic effect came from the landscape, new materials and forthright detailing. In his Case Study House, Ralph Rapson may have mispredicted just how the mechanical revolution would impact everyday life—few American families acquired helicopters, though most eventually got clothes dryers—but his belief that self-sufficiency was both desirable and inevitable was widely shared.",
+          "translation": "美学效果来自景观、新材料和直接的细节。在他的案例研究之家中，拉尔夫·拉普森可能错误地预测了机械革命将如何影响日常生活——很少有美国家庭拥有直升机，尽管大多数家庭最终都拥有了干衣机——但他认为自给自足既是可取的也是不可避免的这一信念得到了广泛认同。",
+          "slashed_text": "Aesthetic effect came from the landscape , / new materials and forthright detailing. / In his Case Study House , / Ralph Rapson may have mispredicted just how the mechanical revolution would impact everyday life — / few American families acquired helicopters , / though most eventually got clothes dryers — / but his belief / that self-sufficiency was both desirable and inevitable was widely shared.",
+          "chunk_translation": "美学效果源自自然景观、 / 新材料以及简洁直率的细节处理 / 在他的案例研究住宅中 / 拉尔夫·拉普森或许误判了机械革命究竟会如何影响日常生活—— / 极少有美国家庭购买了直升机 / 尽管大多数家庭最终都购置了干衣机—— / 但他的信念 / 即自给自足既令人向往又是必然趋势，却得到了广泛认同",
+          "vocabulary": [
+            {
+              "word": "belief",
+              "pos": "n.",
+              "definition": "n. 相信；信心"
+            },
+            {
+              "word": "materials",
+              "pos": "n.",
+              "definition": "n. 材料；原料；物料"
+            },
+            {
+              "word": "impact",
+              "pos": "n.",
+              "definition": "n. 撞击；冲击力"
+            },
+            {
               "word": "aesthetic",
               "pos": "",
               "definition": "a.美学的,审美的"
@@ -4825,11 +4904,6 @@
               "word": "inevitable",
               "pos": "",
               "definition": "a.不可避免的;必然发生的"
-            },
-            {
-              "word": "commissioned",
-              "pos": "adj.",
-              "definition": "adj. 受委任的；受任命的"
             },
             {
               "word": "mispredicted",
@@ -4857,16 +4931,6 @@
               "definition": "adv. 最终；结果"
             },
             {
-              "word": "spreading",
-              "pos": "v.",
-              "definition": "v. 传播；蔓延；扩散"
-            },
-            {
-              "word": "homegrown",
-              "pos": "adj.",
-              "definition": "adj. 国产的；本土的；自家种植的"
-            },
-            {
               "word": "landscape",
               "pos": "n.",
               "definition": "n. （陆上；尤指乡村的）风景；景色"
@@ -4875,21 +4939,6 @@
               "word": "detailing",
               "pos": "n.",
               "definition": "n. （建筑、服装等的）装饰细部；细部设计；（汽车的）彻底清洗、抛光等精细美容养护"
-            },
-            {
-              "word": "talented",
-              "pos": "adj.",
-              "definition": "adj. 有天资的；有才能的"
-            },
-            {
-              "word": "building",
-              "pos": "n.",
-              "definition": "n. 建筑物；房屋；楼房"
-            },
-            {
-              "word": "magazine",
-              "pos": "n.",
-              "definition": "n. 杂志；期刊；（电视、广播）专题节目"
             },
             {
               "word": "everyday",
@@ -4907,24 +4956,9 @@
               "definition": "adj. 后天的；已获得的；已成习惯的"
             },
             {
-              "word": "started",
-              "pos": "v.",
-              "definition": "v. 开始；着手"
-            },
-            {
-              "word": "century",
-              "pos": "n.",
-              "definition": "n. 世纪；一百年；（板球）一百分"
-            },
-            {
               "word": "clothes",
               "pos": "n.",
               "definition": "n. 衣服；衣物；（在特定场合、特定时间或由特定人群穿着的）服装"
-            },
-            {
-              "word": "Wright",
-              "pos": "n.",
-              "definition": "n. 制作者；工人（常用于复合词"
             },
             {
               "word": "effect",
@@ -4952,34 +4986,14 @@
               "definition": "adj. 分享的；共有的；v. 共享"
             },
             {
-              "word": "Frank",
-              "pos": "adj.",
-              "definition": "adj. 坦率的；直言不讳的"
-            },
-            {
-              "word": "Lloyd",
-              "pos": "n.",
-              "definition": "n. 劳埃德（男子名或姓氏）"
-            },
-            {
               "word": "Study",
               "pos": "n.",
               "definition": "n. （专题）研究；调查"
             },
             {
-              "word": "story",
-              "pos": "n.",
-              "definition": "n. （真实或虚构的）故事；叙述；新闻报道"
-            },
-            {
               "word": "Ralph",
               "pos": "v.",
               "definition": "v. 呕吐；n. （Ralph）拉尔夫（人名）"
-            },
-            {
-              "word": "Arts",
-              "pos": "n.",
-              "definition": "n. 美术；艺术"
             }
           ]
         }
@@ -5239,8 +5253,8 @@
         },
         {
           "sid": 10,
-          "pid": 3,
-          "sentence_index": 3,
+          "pid": 4,
+          "sentence_index": 0,
           "text": "Mies’s sophisticated presentation masked the fact that the spaces he designed were small and efficient, rather than big and often empty.",
           "translation": "密斯复杂的演示掩盖了这样一个事实：他设计的空间小而高效，而不是大且经常空荡荡的。",
           "slashed_text": "Mies’s sophisticated presentation masked the fact / that the spaces he designed were small and efficient , / rather than big and often empty.",
@@ -5268,7 +5282,7 @@
         {
           "sid": 11,
           "pid": 4,
-          "sentence_index": 0,
+          "sentence_index": 1,
           "text": "The apartments in the elegant towers Mies built on Chicago’s Lake Shore Drive, for example, were smaller—two-bedroom units under 1,000 square feet—than those in their older neighbors along the city’s Gold Coast.",
           "translation": "例如，密斯在芝加哥湖滨大道上建造的优雅塔楼中的公寓比位于城市黄金海岸的老邻居中的公寓要小，两居室单元面积不到 1,000 平方英尺。",
           "slashed_text": "The apartments in the elegant towers Mies built / on Chicago’s Lake Shore Drive , / for example , / were smaller — / two-bedroom units under 1 , / 000 square feet — / than those / in their older neighbors along the city’s Gold Coast.",
@@ -5296,7 +5310,7 @@
         {
           "sid": 12,
           "pid": 4,
-          "sentence_index": 1,
+          "sentence_index": 2,
           "text": "But they were popular because of their airy glass walls, the views they afforded and the elegance of the buildings’ details and proportions, the architectural equivalent of the abstract art so popular at the time.",
           "translation": "但它们之所以受欢迎，是因为它们通风的玻璃墙、提供的视野以及建筑细节和比例的优雅，相当于当时流行的抽象艺术的建筑风格。",
           "slashed_text": "But they were popular / because of their airy glass walls , / the views they afforded and the elegance of the buildings’ details and proportions , / the architectural equivalent of the abstract art so popular at the time.",
@@ -5407,8 +5421,8 @@
         },
         {
           "sid": 16,
-          "pid": 5,
-          "sentence_index": 3,
+          "pid": 6,
+          "sentence_index": 0,
           "text": "Aesthetic effect came from the landscape, new materials and forthright detailing.",
           "translation": "美学效果来自景观、新材料和直接的细节。",
           "slashed_text": "Aesthetic effect came from the landscape , / new materials and forthright detailing.",
@@ -5435,8 +5449,8 @@
         },
         {
           "sid": 17,
-          "pid": 5,
-          "sentence_index": 4,
+          "pid": 6,
+          "sentence_index": 1,
           "text": "In his Case Study House, Ralph Rapson may have mispredicted just how the mechanical revolution would impact everyday life—few American families acquired helicopters, though most eventually got clothes dryers—but his belief that self-sufficiency was both desirable and inevitable was widely shared.",
           "translation": "在他的案例研究之家中，拉尔夫·拉普森可能错误地预测了机械革命将如何影响日常生活——很少有美国家庭拥有直升机，尽管大多数家庭最终都拥有了干衣机——但他认为自给自足既是可取的也是不可避免的这一信念得到了广泛认同。",
           "slashed_text": "In his Case Study House , / Ralph Rapson may have mispredicted just how the mechanical revolution would impact everyday life — / few American families acquired helicopters , / though most eventually got clothes dryers — / but his belief / that self-sufficiency was both desirable and inevitable was widely shared.",
@@ -5816,7 +5830,7 @@
           "stem": "What can we learn about the design of the “Case Study Houses”?",
           "stem_cn": "关于加州“案例研究住宅”（Case Study Houses）的设计，我们能了解到：",
           "type": "推理判断题",
-          "locate_pid": 5,
+          "locate_pid": 6,
           "locate_sentence": "The “Case Study Houses” commissioned from talented modern architects by California Arts & Architecture magazine between 1945 and 1962 were yet another homegrown influence on the “less is more” trend. Aesthetic effect came from the landscape, new materials and forthright detailing.",
           "locate_sentence_cn": "《加州艺术与建筑》杂志在1945年至1962年间委托极富才华的现代建筑师设计的‘案例研究住宅’，是‘少即是多’风潮在本土产生的又一深远影响。其美学效果来自于周围的自然风景、新型建材以及直截了当的精湛细节。",
           "options": [
@@ -5906,39 +5920,45 @@
         "paragraph_functions": [
           {
             "pid": 0,
-            "role": "【起】反思战后历史神话：并非人人都生活在大宅奢靡中",
-            "core_point": "大众习惯将二战后初期浪漫化为纸醉金迷、大肆铺张的大繁荣黄金年代，但真实的人居历史却大相径庭。",
-            "cohesive_devices": "以反思传统历史定势思维（tend to think of post-WWII as prosperity and excess / reality different）破题。"
+            "role": "【起】战后繁荣与退役军人生活常态",
+            "core_point": "二战结束后美国迎来空前繁荣，退役军人借助法案就业结婚。",
+            "cohesive_devices": "以普遍历史认知（We tend to think）破题。"
           },
           {
             "pid": 1,
-            "role": "【承】退伍老兵与年轻家庭的真实图景：克制适度的小居所",
-            "core_point": "退伍军人法案掀起结婚安家狂潮，但真正为千家万户遮风避雨的，不是凡尔赛式的庄园，而是尺度紧凑的适度居所。",
-            "cohesive_devices": "还原老兵成家场景（GI Bill and marriage bureaus / when it came to houses: modest era）。"
+            "role": "【承】战后住房困境与小户型现实",
+            "core_point": "然而在居住领域却是另一番景象：受大萧条和战时节俭习惯影响，许多家庭被迫挤在小户型和临时军营中。",
+            "cohesive_devices": "以转折连词（But when it came to their houses）展开对比。"
           },
           {
             "pid": 2,
-            "role": "【承】时代精神底色：萧条与战火淬炼出的节制自律美德",
-            "core_point": "大萧条的苦难与战时资源配给让整整一代人学会了崇尚极简与节俭，这种克制的美德自然流入了战后住宅设计基因。",
-            "cohesive_devices": "深刻历史归因（Americans learned to live with less / restraint carried forward）。"
+            "role": "【转】包豪斯建筑学派与“少即是多”设计理念",
+            "core_point": "经济拮据只是建筑风格演变的催化剂，核心源自德国包豪斯现代主义学派及密斯“少即是多”的深远影响。",
+            "cohesive_devices": "以递进连词引出德国包豪斯学派历史渊源。"
           },
           {
             "pid": 3,
-            "role": "【转】现代主义建筑师登场：开创小体量高效人居新流派",
-            "core_point": "一批现代建筑先锋崛起，他们拒绝繁复的欧式古典堆砌，将全部精力倾注于为平民百姓打造精巧、高效的现代主义小住宅。",
-            "cohesive_devices": "引入先锋建筑思潮（These designers exerted enormous influence / small, efficient homes）。"
+            "role": "【深】密斯设计哲学的内核：装饰简化而非空间缩减",
+            "core_point": "密斯所倡导的“少”是指精简繁琐装饰而非克扣建筑空间，崇尚部件和谐与钢铁玻璃等现代工业材质。",
+            "cohesive_devices": "解析密斯招牌名言内涵（Mies’s signature phrase）。"
           },
           {
             "pid": 4,
-            "role": "【深】空间美学魔法：大面玻璃与引景入室创造无限心智开阔感",
-            "core_point": "中世纪现代住宅备受推崇的秘诀在于其通透的落地大玻璃窗、流动采光与无界视野，让有限的平米数激荡出无限的精神辽阔感。",
-            "cohesive_devices": "解析空间设计美学机理（airy glass walls / views afforded / elegant simplicity）。"
+            "role": "【承】湖滨大道高层公寓的造价伪装与极简奢华",
+            "core_point": "密斯的精妙设计掩盖了高昂材质成本，芝加哥湖滨大道优雅塔楼昂贵却因通透轻盈备受欢迎。",
+            "cohesive_devices": "列举密斯经典建筑项目实证。"
           },
           {
             "pid": 5,
-            "role": "【合】赖特'乌索尼亚'杰作：小体量孕育永恒人本建筑丰碑",
-            "core_point": "建筑巨匠赖特早在1930年代便力推千尺大小的乌索尼亚住宅，以铁的事实证明：决定人居尊严的绝非冰冷庞大的面积，而是精益求精的灵性关怀。",
-            "cohesive_devices": "以大师传世杰作收官（Frank Lloyd Wright Usonian houses / modest scale proving design transcends size）。"
+            "role": "【拓】极简风格向大众郊区住宅的普及蔓延",
+            "core_point": "极简理念并未局限于豪宅市场，赖特的小住宅和案例研究住宅项目推动现代主义走进普通郊区家庭。",
+            "cohesive_devices": "以拓宽视角过渡（not entirely confined to luxury market）。"
+          },
+          {
+            "pid": 6,
+            "role": "【结】拉普森案例研究住宅：简单材质与现代便捷生活",
+            "core_point": "美学效果源自自然景观与开放式布局，拉普森巧用简约廉价材质构建出充满现代便捷气息的理想居所。",
+            "cohesive_devices": "以经典代表作总结点题。"
           }
         ],
         "part_b_training": {

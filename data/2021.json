@@ -3593,31 +3593,11 @@
       "paragraphs": [
         {
           "pid": 0,
-          "text": "When Microsoft bought task management app Wunderlist and mobile calendar Sunrise in 2015, it picked two newcomers that were attracting considerable buzz in Silicon Valley. Microsoft’s own Office dominates the market for “productivity” software, but the start-ups represented a new wave of technology designed from the ground up for the smartphone world. Both apps, however, were later scrapped after Microsoft said it had used their best features in its own products. Their teams of engineers stayed on, making them two of the many “acqui-hires” that the biggest companies have used to feed their great hunger for tech talent.",
-          "translation": "当微软在 2015 年收购任务管理应用程序 Wunderlist 和移动日历 Sunrise 时，它​​选择了两个在硅谷引起轰动的新来者。微软自己的 Office 在“生产力”软件市场上占据主导地位，但这些初创公司代表了为智能手机领域从头开始设计的新一波技术。然而，在微软表示已在自己的产品中使用了这两款应用程序的最佳功能后，这两款应用程序后来都被废弃了。他们的工程师团队留下来，使他们成为最大的公司用来满足对技术人才的巨大渴望的众多“收购员工”中的两个。",
-          "slashed_text": "When Microsoft bought task management app Wunderlist and mobile calendar Sunrise in 2015 , / it picked two newcomers / that were attracting considerable buzz / in Silicon Valley. / Microsoft’s own Office dominates the market for “productivity” software , / but the start-ups represented a new wave of technology designed from the ground up for the smartphone world. / Both apps , / however , / were later scrapped / after Microsoft said it had used their best features in its own products. / Their teams of engineers stayed on , / making them two of the many “acqui-hires” / that the biggest companies have used to feed their great hunger / for tech talent.",
-          "chunk_translation": "当微软在2015年收购任务管理应用Wunderlist和移动日历Sunrise时， / 它挑中了两位新秀， / 它们当时在硅谷 / 引发了相当大的轰动。 / 微软自己的Office软件主导着“生产力”软件市场， / 但这些初创公司代表了为智能手机时代从零打造的新一代技术浪潮。 / 这两款应用， / 然而， / 后来都被废弃了， / 此前微软表示已经将其最佳功能融入到了自己的产品中。 / 它们的工程师团队留了下来， / 使其成为众多“人才收购”案例中的两起， / 大型科技巨头正是利用这种方式来满足其巨大渴求 / 对技术人才的渴望。",
+          "text": "When Microsoft bought task management app Wunderlist and mobile calendar Sunrise in 2015, it picked two newcomers that were attracting considerable buzz in Silicon Valley. Microsoft’s own Office dominates the market for “productivity” software, but the start-ups represented a new wave of technology designed from the ground up for the smartphone world.",
+          "translation": "当微软在 2015 年收购任务管理应用程序 Wunderlist 和移动日历 Sunrise 时，它​​选择了两个在硅谷引起巨大轰动的新来者。微软自己的 Office 在“生产力”软件市场上占据主导地位，但这些初创公司代表了为智能手机领域从头开始设计的新一波技术。",
+          "slashed_text": "When Microsoft bought task management app Wunderlist and mobile calendar Sunrise in 2015 , / it picked two newcomers / that were attracting considerable buzz / in Silicon Valley. / Microsoft’s own Office dominates the market for “productivity” software , / but the start-ups represented a new wave of technology designed from the ground up for the smartphone world.",
+          "chunk_translation": "当微软在2015年收购任务管理应用Wunderlist和移动日历Sunrise时， / 它挑中了两位新秀， / 它们当时在硅谷 / 引发了相当大的轰动。 / 微软自己的Office软件主导着“生产力”软件市场， / 但这些初创公司代表了为智能手机时代从零打造的新一代技术浪潮。",
           "vocabulary": [
-            {
-              "word": "Their engineers were retained",
-              "pos": "",
-              "definition": "【🎯解题正解】 他们的工程师被保留了。"
-            },
-            {
-              "word": "Their market values declined",
-              "pos": "",
-              "definition": "【💡题项表达】 他们的市场价值下降了。"
-            },
-            {
-              "word": "Their tech features improved",
-              "pos": "",
-              "definition": "【💡题项表达】 他们的技术特性得到了改善。"
-            },
-            {
-              "word": "Their products were re-priced",
-              "pos": "",
-              "definition": "【💡题项表达】 他们的产品重新定价。"
-            },
             {
               "word": "considerable",
               "pos": "",
@@ -3632,16 +3612,6 @@
               "word": "from the ground up",
               "pos": "",
               "definition": "从头开始"
-            },
-            {
-              "word": "feed",
-              "pos": "",
-              "definition": "v.满足(需要、愿望等)"
-            },
-            {
-              "word": "talent",
-              "pos": "",
-              "definition": "n.人才"
             },
             {
               "word": "productivity",
@@ -3689,11 +3659,6 @@
               "definition": "v. 控制；统治；支配"
             },
             {
-              "word": "engineers",
-              "pos": "n.",
-              "definition": "n. 工程师（engineer 的复数）；机械师；维修技师（engineer 的复数）"
-            },
-            {
               "word": "calendar",
               "pos": "n.",
               "definition": "n. 日历；日程表"
@@ -3709,21 +3674,6 @@
               "definition": "v. 设计；计划（design 的过去式和过去分词）；be designed to/for 旨在"
             },
             {
-              "word": "scrapped",
-              "pos": "adj.",
-              "definition": "adj. 报废的；废弃的；已经销毁的"
-            },
-            {
-              "word": "features",
-              "pos": "n.",
-              "definition": "n. 产品特点；特征；特性"
-            },
-            {
-              "word": "products",
-              "pos": "n.",
-              "definition": "n. 产品；商品（product 的复数）；产物"
-            },
-            {
               "word": "Sunrise",
               "pos": "n.",
               "definition": "n. 日出（时分）；黎明"
@@ -3732,16 +3682,6 @@
               "word": "Silicon",
               "pos": "n.",
               "definition": "n. 硅（一种化学元素；符号为 Si）"
-            },
-            {
-              "word": "however",
-              "pos": "adv.",
-              "definition": "adv. 然而；可是；不过"
-            },
-            {
-              "word": "biggest",
-              "pos": "adj.",
-              "definition": "adj. 最大的（big 的最高级）"
             },
             {
               "word": "bought",
@@ -3779,6 +3719,60 @@
               "definition": "n. 地；地面；土地"
             },
             {
+              "word": "task",
+              "pos": "n.",
+              "definition": "n. （尤指困难的或必须定期做的）工作；任务"
+            }
+          ]
+        },
+        {
+          "pid": 1,
+          "text": "Both apps, however, were later scrapped after Microsoft said it had used their best features in its own products. Their teams of engineers stayed on, making them two of the many “acqui-hires” that the biggest companies have used to feed their great hunger for tech talent.",
+          "translation": "然而，在微软表示已在自己的产品中使用了这两款应用程序的最佳功能后，这两款应用程序后来都被废弃了。他们的工程师团队留下来，使他们成为最大的公司用来满足对技术人才的巨大渴望的众多“收购员工”中的两个。",
+          "slashed_text": "Both apps , / however , / were later scrapped / after Microsoft said it had used their best features in its own products. / Their teams of engineers stayed on , / making them two of the many “acqui-hires” / that the biggest companies have used to feed their great hunger / for tech talent.",
+          "chunk_translation": "这两款应用， / 然而， / 后来都被废弃了， / 此前微软表示已经将其最佳功能融入到了自己的产品中。 / 它们的工程师团队留了下来， / 使其成为众多“人才收购”案例中的两起， / 大型科技巨头正是利用这种方式来满足其巨大渴求 / 对技术人才的渴望。",
+          "vocabulary": [
+            {
+              "word": "feed",
+              "pos": "",
+              "definition": "v.满足(需要、愿望等)"
+            },
+            {
+              "word": "talent",
+              "pos": "",
+              "definition": "n.人才"
+            },
+            {
+              "word": "engineers",
+              "pos": "n.",
+              "definition": "n. 工程师（engineer 的复数）；机械师；维修技师（engineer 的复数）"
+            },
+            {
+              "word": "scrapped",
+              "pos": "adj.",
+              "definition": "adj. 报废的；废弃的；已经销毁的"
+            },
+            {
+              "word": "features",
+              "pos": "n.",
+              "definition": "n. 产品特点；特征；特性"
+            },
+            {
+              "word": "products",
+              "pos": "n.",
+              "definition": "n. 产品；商品（product 的复数）；产物"
+            },
+            {
+              "word": "however",
+              "pos": "adv.",
+              "definition": "adv. 然而；可是；不过"
+            },
+            {
+              "word": "biggest",
+              "pos": "adj.",
+              "definition": "adj. 最大的（big 的最高级）"
+            },
+            {
               "word": "stayed",
               "pos": "v.",
               "definition": "v. stay 的过去式和过去分词：留在某处；不离开；在某地暂住"
@@ -3804,38 +3798,43 @@
               "definition": "v. hire 的第三人称单数：聘用、雇用；租用（英国英语）；出租（多用 hire out）"
             },
             {
-              "word": "task",
+              "word": "Tech",
               "pos": "n.",
-              "definition": "n. （尤指困难的或必须定期做的）工作；任务"
+              "definition": "n. 技校；技术学院"
+            },
+            {
+              "word": "tech",
+              "pos": "n.",
+              "definition": "n. 技校；技术学院"
+            },
+            {
+              "word": "However",
+              "pos": "adv.",
+              "definition": "adv. 然而；可是"
             }
           ]
         },
         {
-          "pid": 1,
+          "pid": 2,
           "text": "To Microsoft’s critics, the fates of Wunderlist and Sunrise are examples of a remorseless drive by Big Tech to chew up any innovative companies that lie in their path. “They bought the seedlings and closed them down,” complained Paul Arnold, a partner at San Francisco- based Switch Ventures, putting an end to businesses that might one day turn into competitors. Microsoft declined to comment.",
           "translation": "对于微软的批评者来说，Wunderlist 和 Sunrise 的命运是大型科技公司无情地蚕食任何挡在他们道路上的创新公司的例子。总部位于旧金山的 Switch Ventures 合伙人保罗·阿诺德 (Paul Arnold) 抱怨道：“他们买下了幼苗，然后将其关闭。”此举终结了那些有朝一日可能成为竞争对手的企业。微软拒绝置评。",
           "slashed_text": "To Microsoft’s critics , / the fates of Wunderlist and Sunrise are examples of a remorseless drive / by Big Tech to chew up any innovative companies / that lie / in their path. / “They bought the seedlings and closed them down , / ” complained Paul Arnold , / a partner / at San Francisco- based Switch Ventures , / putting an end to businesses / that might one day turn / into competitors. / Microsoft declined to comment.",
           "chunk_translation": "在微软的批评者看来， / Wunderlist和Sunrise的命运体现了大型科技公司无情推进的势头， / 它们企图吞噬任何创新型公司 / 阻挡 / 在它们道路上的。 / “他们买下幼苗并将其关闭，” / 保罗·阿诺德抱怨道， / 一名合伙人 / 在总部位于旧金山的Switch Ventures， / 该举措终结了这些企业 / 那些有朝一日可能成长为 / 竞争对手的企业。 / 微软对此拒绝置评。",
           "vocabulary": [
             {
-              "word": "eliminate their potential competitors",
-              "pos": "",
-              "definition": "【🎯解题正解】 消除他们的潜在竞争对手"
+              "word": "Wunderlist",
+              "pos": "n.",
+              "definition": "n. 奇妙清单；一款基于云端工作的任务管理应用软件"
             },
             {
-              "word": "exaggerate their product quality",
-              "pos": "",
-              "definition": "【💡题项表达】 夸大他们的产品质量"
+              "word": "Sunrise",
+              "pos": "n.",
+              "definition": "n. 日出（时分）；黎明"
             },
             {
-              "word": "treat new tech talent unfairly",
-              "pos": "",
-              "definition": "【💡题项表达】 不公平地对待新技术人才"
-            },
-            {
-              "word": "ignore public opinions",
-              "pos": "",
-              "definition": "【💡题项表达】 无视舆论"
+              "word": "bought",
+              "pos": "v.",
+              "definition": "v. 买（buy 的过去式和过去分词）；adj. 从商店购买的"
             },
             {
               "word": "remorseless",
@@ -3861,11 +3860,6 @@
               "word": "competitors",
               "pos": "n.",
               "definition": "n. 竞争对手；竞争者；参赛者（competitor 的复数）"
-            },
-            {
-              "word": "Wunderlist",
-              "pos": "n.",
-              "definition": "n. 奇妙清单；一款基于云端工作的任务管理应用软件"
             },
             {
               "word": "innovative",
@@ -3913,19 +3907,9 @@
               "definition": "n. 评论家；批评者"
             },
             {
-              "word": "Sunrise",
-              "pos": "n.",
-              "definition": "n. 日出（时分）；黎明"
-            },
-            {
               "word": "putting",
               "pos": "n.",
               "definition": "n. 投掷；（高尔夫球）打球入洞；指用推杆轻击球入洞"
-            },
-            {
-              "word": "bought",
-              "pos": "v.",
-              "definition": "v. 买（buy 的过去式和过去分词）；adj. 从商店购买的；买来的"
             },
             {
               "word": "Arnold",
@@ -3961,35 +3945,30 @@
               "word": "chew",
               "pos": "v.",
               "definition": "v. 咀嚼；嚼碎"
+            },
+            {
+              "word": "tech",
+              "pos": "n.",
+              "definition": "n. 技校；技术学院"
             }
           ]
         },
         {
-          "pid": 2,
+          "pid": 3,
           "text": "Like other start-up investors, Mr. Arnold’s own business often depends on selling start- ups to larger tech companies, though he admits to mixed feelings about the result: “I think these things are good for me, if I put my selfish hat on. But are they good for the American economy? I don’t know.”",
-          "translation": "和其他初创企业投资者一样，阿诺德先生自己的生意往往依赖于将初创企业出售给更大的科技公司，尽管他承认对结果的感受很复杂：“如果我戴上自私的帽子，我认为这些事情对我有好处。但它们对美国经济有好处吗？我不知道。”",
-          "slashed_text": "Like other start-up investors , / Mr. / Arnold’s own business often depends / on selling start- ups to larger tech companies , / though he admits to mixed feelings about the result : / “I think these things are good for me , / if I put my selfish hat on. / But are they good for the American economy? / I don’t know.”",
-          "chunk_translation": "与其他初创企业投资者一样， / 阿诺德先生 / 自己的业务也常常依赖于 / 将初创公司出售给更大的科技巨头， / 尽管他承认自己对这一结果心情复杂： / “我认为这些事情对我有利， / 如果从自私的角度来看。 / 但它们对美国经济有好处吗？ / 我不知道。”",
+          "translation": "与其他初创企业投资者一样，阿诺德先生自己的业务往往依赖于把初创公司出售给更大的科技公司，尽管他承认对这种结果感受复杂：“如果站在自利的立场看，我认为这些事情对我有好处。”但它们对美国经济有好处吗？我不知道。”",
+          "slashed_text": "Like other start-up investors, Mr. Arnold’s own business often depends on selling start- ups to larger tech companies, though he admits to mixed feelings about the result: “I think these things are good for me, if I put my selfish hat on. / But are they good for the American economy? / I don’t know.”",
+          "chunk_translation": "与其他初创企业投资者一样，阿诺德先生自己的业务往往依赖于把初创公司出售给更大的科技公司，尽管他承认对这种结果感受复杂：“如果站在自利的立场看，我认为这些事情对我有好处。” / 但它们对美国经济有好处吗？ / 我不知道。”",
           "vocabulary": [
             {
-              "word": "harm the national economy",
-              "pos": "",
-              "definition": "【🎯解题正解】 损害国民经济"
+              "word": "Arnold",
+              "pos": "n.",
+              "definition": "n. （Arnold）阿诺德（亦译阿尔诺德）；英、美、德、加等国的男子名；也用作姓氏"
             },
             {
-              "word": "weaken big tech companies",
-              "pos": "",
-              "definition": "【💡题项表达】 削弱大型科技公司"
-            },
-            {
-              "word": "worsen market competition",
-              "pos": "",
-              "definition": "【💡题项表达】 加剧市场竞争"
-            },
-            {
-              "word": "discourage start-up investors",
-              "pos": "",
-              "definition": "【💡题项表达】 阻止初创投资者"
+              "word": "Tech",
+              "pos": "n.",
+              "definition": "n. 技校；技术学院"
             },
             {
               "word": "start-up",
@@ -4032,11 +4011,6 @@
               "definition": "n. 经济；节省；简练"
             },
             {
-              "word": "Arnold",
-              "pos": "n.",
-              "definition": "n. （Arnold）阿诺德（亦译阿尔诺德）；英、美、德、加等国的男子名"
-            },
-            {
               "word": "admits",
               "pos": "v.",
               "definition": "v. （admit 的第三人称单数）（勉强）承认；招认；招供"
@@ -4059,31 +4033,21 @@
           ]
         },
         {
-          "pid": 3,
+          "pid": 4,
           "text": "The US Federal Trade Commission says it wants to find the answer to that question. This week, it asked the five most valuable US tech companies for information about their many small acquisitions over the past decade. Although only a research project at this stage, the request has raised the prospect of regulators wading into early-stage tech markets that until now have been beyond their reach.",
           "translation": "美国联邦贸易委员会表示希望找到这个问题的答案。本周，它向五家最有价值的美国科技公司询问了过去十年中许多小型收购的信息。尽管现阶段只是一个研究项目，但该请求提高了监管机构涉足早期科技市场的前景，而迄今为止，这些市场仍是他们无法触及的。",
           "slashed_text": "The US Federal Trade Commission says it wants to find the answer to / that question. / This week , / it asked the five most valuable US tech companies / for information / about their many small acquisitions over the past decade. / Although only a research project / at this stage , / the request has raised the prospect of regulators wading / into early-stage tech markets / that until now have been beyond their reach.",
           "chunk_translation": "美国联邦贸易委员会表示，希望找到 / 该问题的答案。 / 本周， / 该机构向五家最具市值的美国科技巨头索取了相关信息， / 关于过去十年中 / 它们开展的众多小型收购交易。 / 尽管这仅仅是一项研究项目 / 在现阶段， / 但该要求引发了一种可能：监管机构可能会介入 / 早期科技市场， / 而在此之前，这些市场一直是他们触及不到的领域。",
           "vocabulary": [
             {
-              "word": "examine small acquisitions",
-              "pos": "",
-              "definition": "【🎯解题正解】 检查小型收购"
+              "word": "Tech",
+              "pos": "n.",
+              "definition": "n. 技校；技术学院"
             },
             {
-              "word": "limit Big Tech’s expansion",
-              "pos": "",
-              "definition": "【💡题项表达】 限制大型科技公司的扩张"
-            },
-            {
-              "word": "encourage research collaboration",
-              "pos": "",
-              "definition": "【💡题项表达】 鼓励研究合作"
-            },
-            {
-              "word": "supervise start-ups’ operation",
-              "pos": "",
-              "definition": "【💡题项表达】 监督初创企业的运营"
+              "word": "tech",
+              "pos": "n.",
+              "definition": "n. 技校；技术学院"
             },
             {
               "word": "stage",
@@ -4193,26 +4157,46 @@
           ]
         },
         {
-          "pid": 4,
+          "pid": 5,
           "text": "Given their combined market value of more than $5.5 trillion, rifling through such small deals—many of them much less prominent than Wunderlist and Sunrise—might seem beside the point. Between them, the five biggest tech companies have spent an average of only $3.4 billion a year on sub-$1 billion acquisitions over the past five years—a drop in the ocean compared with their massive financial reserves, and the more than $130 billion of venture capital that was invested in the US last year.",
           "translation": "鉴于它们的总市值超过 5.5 万亿美元，通过如此小的交易（其中许多交易远不如 Wunderlist 和 Sunrise 引人注目）似乎没有意义。过去五年里，五家最大的科技公司平均每年仅花费 34 亿美元进行低于 10 亿美元的收购，与它们庞大的财务储备以及去年在美国投资的超过 1300 亿美元的风险资本相比，简直是九牛一毛。",
           "slashed_text": "Given their combined market value of more than $5.5 trillion , / rifling / through such small deals — / many of them much less prominent than Wunderlist and Sunrise — / might seem beside the point. / Between them , / the five biggest tech companies have spent an average of only $3.4 billion a year on sub-$1 billion acquisitions over the past five years — / a drop in the ocean compared / with their massive financial reserves , / and the more than $130 billion of venture capital / that was invested in the US last year.",
           "chunk_translation": "鉴于它们超过5.5万亿美元的总市值， / 细查 / 这类小型交易—— / 其中许多交易的知名度远不及Wunderlist和Sunrise—— / 似乎有些偏离重点。 / 在它们之间， / 五大科技巨头在过去五年中，平均每年仅在低于10亿美元的收购上花费34亿美元—— / 简直是沧海一粟相比于 / 它们庞大的财务储备， / 以及超过1300亿美元的风险资本 / 去年在美国投资的。",
           "vocabulary": [
             {
-              "word": "brought little financial pressure",
-              "pos": "",
-              "definition": "【🎯解题正解】 带来的财务压力不大"
+              "word": "Wunderlist",
+              "pos": "n.",
+              "definition": "n. 奇妙清单；一款基于云端工作的任务管理应用软件"
             },
             {
-              "word": "raised few management challenges",
-              "pos": "",
-              "definition": "【💡题项表达】 提出了一些管理挑战"
+              "word": "Sunrise",
+              "pos": "n.",
+              "definition": "n. 日出（时分）；黎明"
             },
             {
-              "word": "set an example for future deals",
-              "pos": "",
-              "definition": "【💡题项表达】 为未来的交易树立榜样"
+              "word": "biggest",
+              "pos": "adj.",
+              "definition": "adj. 最大的（big 的最高级）"
+            },
+            {
+              "word": "market",
+              "pos": "n.",
+              "definition": "n. 集市；市场；交易"
+            },
+            {
+              "word": "Tech",
+              "pos": "n.",
+              "definition": "n. 技校；技术学院"
+            },
+            {
+              "word": "tech",
+              "pos": "n.",
+              "definition": "n. 技校；技术学院"
+            },
+            {
+              "word": "acquisitions",
+              "pos": "n.",
+              "definition": "n. 兼并；购并；收购"
             },
             {
               "word": "venture",
@@ -4245,16 +4229,6 @@
               "definition": "风险资本"
             },
             {
-              "word": "acquisitions",
-              "pos": "n.",
-              "definition": "n. 兼并；购并；收购"
-            },
-            {
-              "word": "Wunderlist",
-              "pos": "n.",
-              "definition": "n. 奇妙清单；一款基于云端工作的任务管理应用软件"
-            },
-            {
               "word": "financial",
               "pos": "adj.",
               "definition": "adj. 财政的；金融的；有钱的"
@@ -4285,16 +4259,6 @@
               "definition": "n. 膛线；来复线（枪膛内壁的螺旋形凹槽"
             },
             {
-              "word": "Sunrise",
-              "pos": "n.",
-              "definition": "n. 日出（时分）；黎明；晨曦"
-            },
-            {
-              "word": "biggest",
-              "pos": "adj.",
-              "definition": "adj. 最大的（big 的最高级）"
-            },
-            {
               "word": "average",
               "pos": "n.",
               "definition": "n. 平均水平；一般标准；平均数"
@@ -4308,11 +4272,6 @@
               "word": "capital",
               "pos": "n.",
               "definition": "n. 资本；资金；资本家"
-            },
-            {
-              "word": "market",
-              "pos": "n.",
-              "definition": "n. 集市；市场"
             },
             {
               "word": "beside",
@@ -4342,12 +4301,37 @@
           ]
         },
         {
-          "pid": 5,
+          "pid": 6,
           "text": "However, critics say the big companies use such deals to buy their most threatening potential competitors before their businesses have a chance to gain momentum, in some cases as part of a “buy and kill” tactic to simply close them down.",
           "translation": "然而，批评者表示，大公司利用此类交易，在其业务有机会获得发展势头之前收购最具威胁性的潜在竞争对手，在某些情况下，这是“买杀”策略的一部分，目的是简单地关闭它们。",
           "slashed_text": "However , / critics say the big companies use such deals to buy their most threatening potential competitors / before their businesses have a chance to gain momentum , / in some cases as part of a “buy and kill” tactic to simply close them down.",
           "chunk_translation": "然而， / 批评人士表示，大公司利用此类交易在最具威胁的潜在竞争对手 / 有机会获得发展势头之前将其收购， / 在某些情况下，这属于“收购并扼杀”策略的一部分，目的是彻底将它们关闭。",
           "vocabulary": [
+            {
+              "word": "however",
+              "pos": "adv.",
+              "definition": "adv. 然而；可是；不过"
+            },
+            {
+              "word": "competitors",
+              "pos": "n.",
+              "definition": "n. 竞争对手；竞争者；参赛者（competitor 的复数）"
+            },
+            {
+              "word": "businesses",
+              "pos": "n.",
+              "definition": "n. 公司；企业（business 的复数）"
+            },
+            {
+              "word": "critics",
+              "pos": "n.",
+              "definition": "n. 评论家；批评者"
+            },
+            {
+              "word": "deals",
+              "pos": "n.",
+              "definition": "n. （deal 的复数）交易；买卖"
+            },
             {
               "word": "momentum",
               "pos": "",
@@ -4364,16 +4348,6 @@
               "definition": "adj. 威胁（性）的；恐吓（性）的"
             },
             {
-              "word": "competitors",
-              "pos": "n.",
-              "definition": "n. 竞争对手；竞争者"
-            },
-            {
-              "word": "businesses",
-              "pos": "n.",
-              "definition": "n. 公司；企业（business 的复数）"
-            },
-            {
               "word": "potential",
               "pos": "adj.",
               "definition": "adj. 潜在的；可能的"
@@ -4384,19 +4358,9 @@
               "definition": "adv. 然而；可是"
             },
             {
-              "word": "critics",
-              "pos": "n.",
-              "definition": "n. 评论家；批评者"
-            },
-            {
               "word": "chance",
               "pos": "n.",
               "definition": "n. 机会；时机"
-            },
-            {
-              "word": "deals",
-              "pos": "n.",
-              "definition": "n. （deal 的复数）交易；买卖"
             }
           ]
         }
@@ -4460,8 +4424,8 @@
         },
         {
           "sid": 2,
-          "pid": 0,
-          "sentence_index": 2,
+          "pid": 1,
+          "sentence_index": 0,
           "text": "Both apps, however, were later scrapped after Microsoft said it had used their best features in its own products.",
           "translation": "然而，在微软表示已在自己的产品中使用了这两款应用程序的最佳功能后，这两款应用程序后来都被废弃了。",
           "slashed_text": "Both apps , / however , / were later scrapped / after Microsoft said it had used their best features in its own products.",
@@ -4488,8 +4452,8 @@
         },
         {
           "sid": 3,
-          "pid": 0,
-          "sentence_index": 3,
+          "pid": 1,
+          "sentence_index": 1,
           "text": "Their teams of engineers stayed on, making them two of the many “acqui-hires” that the biggest companies have used to feed their great hunger for tech talent.",
           "translation": "他们的工程师团队留下来，使他们成为最大的公司用来满足对技术人才的巨大渴望的众多“收购员工”中的两个。",
           "slashed_text": "Their teams of engineers stayed on , / making them two of the many “acqui-hires” / that the biggest companies have used to feed their great hunger / for tech talent.",
@@ -4516,7 +4480,7 @@
         },
         {
           "sid": 4,
-          "pid": 1,
+          "pid": 2,
           "sentence_index": 0,
           "text": "To Microsoft’s critics, the fates of Wunderlist and Sunrise are examples of a remorseless drive by Big Tech to chew up any innovative companies that lie in their path.",
           "translation": "对于微软的批评者来说，Wunderlist 和 Sunrise 的命运是大型科技公司无情地蚕食任何挡在他们道路上的创新公司的例子。",
@@ -4544,7 +4508,7 @@
         },
         {
           "sid": 5,
-          "pid": 1,
+          "pid": 2,
           "sentence_index": 1,
           "text": "“They bought the seedlings and closed them down,” complained Paul Arnold, a partner at San Francisco- based Switch Ventures, putting an end to businesses that might one day turn into competitors.",
           "translation": "总部位于旧金山的 Switch Ventures 合伙人保罗·阿诺德 (Paul Arnold) 抱怨道：“他们买下了幼苗，然后将其关闭。”此举终结了那些有朝一日可能成为竞争对手的企业。",
@@ -4572,7 +4536,7 @@
         },
         {
           "sid": 6,
-          "pid": 1,
+          "pid": 2,
           "sentence_index": 2,
           "text": "Microsoft declined to comment.",
           "translation": "微软拒绝置评。",
@@ -4595,7 +4559,7 @@
         },
         {
           "sid": 7,
-          "pid": 2,
+          "pid": 3,
           "sentence_index": 0,
           "text": "Like other start-up investors, Mr. Arnold’s own business often depends on selling start- ups to larger tech companies, though he admits to mixed feelings about the result: “I think these things are good for me, if I put my selfish hat on.",
           "translation": "与其他初创企业投资者一样，阿诺德先生自己的业务往往依赖于把初创公司出售给更大的科技公司，尽管他承认对这种结果感受复杂：“如果站在自利的立场看，我认为这些事情对我有好处。”",
@@ -4618,8 +4582,8 @@
         },
         {
           "sid": 9,
-          "pid": 2,
-          "sentence_index": 2,
+          "pid": 3,
+          "sentence_index": 1,
           "text": "But are they good for the American economy?",
           "translation": "但它们对美国经济有好处吗？",
           "slashed_text": "But are they good for the American economy?",
@@ -4641,8 +4605,8 @@
         },
         {
           "sid": 10,
-          "pid": 2,
-          "sentence_index": 3,
+          "pid": 3,
+          "sentence_index": 2,
           "text": "I don’t know.”",
           "translation": "我不知道。”",
           "slashed_text": "I don’t know.”",
@@ -4664,7 +4628,7 @@
         },
         {
           "sid": 11,
-          "pid": 3,
+          "pid": 4,
           "sentence_index": 0,
           "text": "The US Federal Trade Commission says it wants to find the answer to that question.",
           "translation": "美国联邦贸易委员会表示希望找到这个问题的答案。",
@@ -4687,7 +4651,7 @@
         },
         {
           "sid": 12,
-          "pid": 3,
+          "pid": 4,
           "sentence_index": 1,
           "text": "This week, it asked the five most valuable US tech companies for information about their many small acquisitions over the past decade.",
           "translation": "本周，它向五家最有价值的美国科技公司询问了过去十年中许多小型收购的信息。",
@@ -4710,7 +4674,7 @@
         },
         {
           "sid": 13,
-          "pid": 3,
+          "pid": 4,
           "sentence_index": 2,
           "text": "Although only a research project at this stage, the request has raised the prospect of regulators wading into early-stage tech markets that until now have been beyond their reach.",
           "translation": "尽管现阶段只是一个研究项目，但该请求提高了监管机构涉足早期科技市场的前景，而迄今为止，这些市场仍是他们无法触及的。",
@@ -4738,7 +4702,7 @@
         },
         {
           "sid": 14,
-          "pid": 4,
+          "pid": 5,
           "sentence_index": 0,
           "text": "Given their combined market value of more than $5.5 trillion, rifling through such small deals—many of them much less prominent than Wunderlist and Sunrise—might seem beside the point.",
           "translation": "鉴于它们的总市值超过 5.5 万亿美元，通过如此小的交易（其中许多交易远不如 Wunderlist 和 Sunrise 引人注目）似乎没有意义。",
@@ -4766,7 +4730,7 @@
         },
         {
           "sid": 15,
-          "pid": 4,
+          "pid": 5,
           "sentence_index": 1,
           "text": "Between them, the five biggest tech companies have spent an average of only $3.4 billion a year on sub-$1 billion acquisitions over the past five years—a drop in the ocean compared with their massive financial reserves, and the more than $130 billion of venture capital that was invested in the US last year.",
           "translation": "过去五年里，五家最大的科技公司平均每年仅花费 34 亿美元进行低于 10 亿美元的收购，与它们庞大的财务储备以及去年在美国投资的超过 1300 亿美元的风险资本相比，简直是九牛一毛。",
@@ -4794,7 +4758,7 @@
         },
         {
           "sid": 16,
-          "pid": 5,
+          "pid": 6,
           "sentence_index": 0,
           "text": "However, critics say the big companies use such deals to buy their most threatening potential competitors before their businesses have a chance to gain momentum, in some cases as part of a “buy and kill” tactic to simply close them down.",
           "translation": "然而，批评者表示，大公司利用此类交易，在其业务有机会获得发展势头之前收购最具威胁性的潜在竞争对手，在某些情况下，这是“买杀”策略的一部分，目的是简单地关闭它们。",
@@ -4827,7 +4791,7 @@
           "stem": "What is true about Wunderlist and Sunrise after their acquisitions?",
           "stem_cn": "关于Wunderlist和Sunrise在被收购后的情况，下列哪项陈述是正确的？",
           "type": "事实细节题",
-          "locate_pid": 0,
+          "locate_pid": 1,
           "locate_sentence": "Both apps, however, were later scrapped after Microsoft said it had used their best features in its own products. Their teams of engineers stayed on, making them two of the many “acqui-hires” that the biggest companies have used to feed their great hunger for tech talent.",
           "locate_sentence_cn": "然而，在微软表示已在其自身产品中使用了它们最好的功能后，这两款应用程序随后都被废弃了。但它们的工程师团队留了下来，成为大公司用来满足对技术人才巨大渴求的众多“人才收购”中的两例。",
           "options": [
@@ -4914,7 +4878,7 @@
           "stem": "Microsoft’s critics believe that the big tech companies tend to _____.",
           "stem_cn": "微软的批评者认为，大型科技公司往往会______。",
           "type": "因果推断题",
-          "locate_pid": 1,
+          "locate_pid": 2,
           "locate_sentence": "To Microsoft’s critics, the fates of Wunderlist and Sunrise are examples of a remorseless drive by Big Tech to chew up any innovative companies that lie in their path. “They bought the seedlings and closed them down,” complained Paul Arnold... putting an end to businesses that might one day turn into competitors.",
           "locate_sentence_cn": "在微软的批评者看来，Wunderlist和Sunrise的命运是大型科技公司无情吞噬其发展道路上任何创新公司的典型范例。“他们买下幼苗然后将它们关闭，”保罗·阿诺德抱怨道……终结了那些有朝一日可能变成竞争对手的企业。",
           "options": [
@@ -5001,7 +4965,7 @@
           "stem": "Paul Arnold is concerned that small acquisitions might _____.",
           "stem_cn": "保罗·阿诺德担心小型收购可能会______。",
           "type": "段落推理题",
-          "locate_pid": 2,
+          "locate_pid": 3,
           "locate_sentence": "Like other start-up investors, Mr. Arnold’s own business often depends on selling start-ups to larger tech companies, though he admits to mixed feelings about the result: “I think these things are good for me, if I put my selfish hat on. But are they good for the American economy? I don’t know.”",
           "locate_sentence_cn": "与其他初创企业投资人一样，阿诺德先生自己的业务往往依赖于将初创公司出售给大型科技公司，尽管他承认对这种结果心情复杂：“如果从自私的角度考虑，我认为这些收购对我有利。但它们对美国经济有利吗？我不知道。”",
           "options": [
@@ -5088,7 +5052,7 @@
           "stem": "The US Federal Trade Commission intends to _____.",
           "stem_cn": "美国联邦贸易委员会（FTC）打算______。",
           "type": "词义/例证题",
-          "locate_pid": 3,
+          "locate_pid": 5,
           "locate_sentence": "This week, it asked the five most valuable US tech companies for information about their many small acquisitions over the past decade. Although only a research project at this stage, the request has raised the prospect of regulators wading into early-stage tech markets that until now have been beyond their reach.",
           "locate_sentence_cn": "本周，该机构要求美国市值最高的五家科技公司提供有关其在过去十年中进行的众多小型收购的信息。尽管在现阶段仅是一个研究项目，但这一要求引发了监管机构介入迄今为止超出其管辖范围的早期科技市场的可能前景。",
           "options": [
@@ -5175,7 +5139,7 @@
           "stem": "For the five biggest tech companies, their small acquisitions have _____.",
           "stem_cn": "对于五大科技巨头而言，他们的小型收购交易______。",
           "type": "全文主旨题",
-          "locate_pid": 4,
+          "locate_pid": 6,
           "locate_sentence": "Given their combined market value of more than $5.5 trillion, rifling through such small deals—many of them much less prominent than Wunderlist and Sunrise—might seem beside the point. Between them, the five biggest tech companies have spent an average of only $3.4 billion a year on sub-$1 billion acquisitions over the past five years—a drop in the ocean compared with their massive financial reserves...",
           "locate_sentence_cn": "鉴于它们超过5.5万亿美元的总市值，翻查这类小交易——其中许多远不如Wunderlist和Sunrise知名——可能显得有些无关紧要。在过去的五年里，这五大科技公司在低于10亿美元的收购上平均每年总共仅花费34亿美元——与其庞大的财务储备相比，简直是沧海一粟……",
           "options": [
@@ -5265,39 +5229,45 @@
         "paragraph_functions": [
           {
             "pid": 0,
-            "role": "【起】明星工具类初创应用被巨头吞并",
-            "core_point": "微软在2015年高调收购极具创新的任务清单Wunderlist和日历Sunrise，彼时业界曾天真地期待其注入资源做大做强。",
-            "cohesive_devices": "以知名消费级软件的真实并购案例引题，激发科技爱好者的切身体会。"
+            "role": "【起】微软收购Wunderlist与Sunrise明星初创企业",
+            "core_point": "微软买下在硅谷声名鹊起的任务管理与日历应用，代表了针对智能手机时代的创新技术。",
+            "cohesive_devices": "以具体商业收购案例引出篇章。"
           },
           {
             "pid": 1,
-            "role": "【承】收购后的悲剧宿命：冷冻雪藏与逐步关停",
-            "core_point": "短短数年内这些应用被巨头剥离核心功能后无情强制下线，用户被迫迁移到巨头自身臃肿但平庸的原生生态之中。",
-            "cohesive_devices": "从收购时的光鲜反转至随后的关停悲剧，揭露并购的残酷实质。"
+            "role": "【承】两款应用被关闭与巨头“人才收购”策略",
+            "core_point": "两款应用随后被关闭以吸收其功能，工程师团队并入微软，印证了巨头通过收购填补人才渴望的惯常做法。",
+            "cohesive_devices": "呈现收购后的关闭与人才吸纳结果。"
           },
           {
             "pid": 2,
-            "role": "【转】反垄断学者的警示：'扼杀式并购'的底层逻辑",
-            "core_point": "反垄断经济学家一针见血地指出：科技寡头的真实意图绝非技术整合，而是以极低筹码消灭未来的颠覆者，阻断下一代独角兽的诞生。",
-            "cohesive_devices": "引入反垄断经济学理论（killer acquisitions），揭穿巨头的防守型护城河策略。"
+            "role": "【转】批评者指责科技巨头扼杀初创竞争幼苗",
+            "core_point": "批评人士痛斥这是大型科技企业吞噬潜在竞争对手的残酷行径，提前终结了未来可能成气候的企业。",
+            "cohesive_devices": "转折引出业界批评与抵触声音。"
           },
           {
             "pid": 3,
-            "role": "【转】传统反垄断法规的制度性失灵与盲区",
-            "core_point": "既有反垄断法严格基于营业额与市场份额申报门槛，面对免费提供服务、估值极高但暂无利润的初创企业，监管审查长期形同虚设。",
-            "cohesive_devices": "从商业行为转向法理反思，直击监管工具在数字时代的落后与滞后。"
+            "role": "【深】初创投资者复杂心境与宏观经济效应疑虑",
+            "core_point": "风险投资人靠向巨头出售初创公司盈利，虽利于自身商业变现，但对宏观经济的长远影响心存疑虑。",
+            "cohesive_devices": "引用投资人内心自白剖析利弊矛盾。"
           },
           {
             "pid": 4,
-            "role": "【转】寒蝉效应蔓延：创业投资丧失颠覆野心",
-            "core_point": "初创企业逐渐沦为以'被巨头招安溢价收购'为终极追求的附庸，真正敢于挑战霸权的颠覆式创新精神正在硅谷消亡。",
-            "cohesive_devices": "进一步剖析行业文化与创投生态被规训的深远恶果。"
+            "role": "【承】美国联邦贸易委员会启动反垄断审查",
+            "core_point": "联邦贸易委员会针对五大巨头过去十年的海量微型并购索取信息，反垄断监管逐步深入早期初创领域。",
+            "cohesive_devices": "引入监管机构审查动态。"
           },
           {
             "pid": 5,
-            "role": "【合】重塑前瞻性监管框架捍卫数字市场活力",
-            "core_point": "反垄断机构必须重构审查标准，将潜在竞争破坏与用户锁定列为红线，果断分拆垄断壁垒，让真正的创新之火重新燎原。",
-            "cohesive_devices": "以反垄断司法重构与法治觉醒收束全篇，完成主旨升华。"
+            "role": "【析】五大巨头小规模收购额与庞大体量的对比",
+            "core_point": "五大巨头年均数十亿美元的小型并购在万亿美元体量前看似九牛一毛，引发调查是否小题大做的疑问。",
+            "cohesive_devices": "对比收购金额与总市值的量级悬殊。"
+          },
+          {
+            "pid": 6,
+            "role": "【结】巨头“买断并扼杀”潜在竞争威胁的战术批评",
+            "core_point": "批评者坚称巨头此举旨在潜在威胁羽翼未丰前将其掐灭，作为“买断并掐死”垄断战术防范后患。",
+            "cohesive_devices": "以反垄断警惕论调终结全篇（buy and kill tactic）。"
           }
         ],
         "part_b_training": {
