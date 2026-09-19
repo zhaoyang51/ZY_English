@@ -15,26 +15,6 @@
           "chunk_translation": "家庭作业向来不太受学生乃至许多家长的欢迎 / 受学生甚至许多家长的欢迎 / 但 / 近年来它尤其饱受抨击 / 全国各地的学区 / 最近的是洛杉矶联合学区 / 正在修正他们对这种教育惯例的看法 / 关于这种教育惯例 / 不幸的是， / 洛杉矶 / 联合学区出台了一项僵化的政策 / 该政策强制规定 / 除某些高阶课程外 / 家庭作业所占比例不得超过 / 学生学业成绩的10%",
           "vocabulary": [
             {
-              "word": "is receiving more criticism",
-              "pos": "",
-              "definition": "【🎯解题正解】 受到更多批评"
-            },
-            {
-              "word": "is gaining more preferences",
-              "pos": "",
-              "definition": "【💡题项表达】 正在获得更多偏好"
-            },
-            {
-              "word": "is no longer an educational ritual",
-              "pos": "",
-              "definition": "【💡题项表达】 不再是一种教育仪式"
-            },
-            {
-              "word": "is not required for advanced courses",
-              "pos": "",
-              "definition": "【💡题项表达】 高级课程不需要"
-            },
-            {
               "word": "ritual",
               "pos": "",
               "definition": "n.惯例,老规矩,例行公事"
@@ -98,11 +78,6 @@
               "word": "students",
               "pos": "n.",
               "definition": "n. 学生（student 的复数）"
-            },
-            {
-              "word": "District",
-              "pos": "n.",
-              "definition": "n. 地区；区域"
             },
             {
               "word": "recently",
@@ -199,9 +174,24 @@
           "chunk_translation": "该规定旨在解决这种困难 / 即学生们 / 来自贫困或混乱家庭的学生可能面临的 / 在完成家庭作业时 / 但这项政策既不明确又自相矛盾 / 诚然 / 不应布置这样的家庭作业 / 即学生无法独立完成的作业 / 独立完成的，或者 / 没有昂贵设备就无法完成的作业 / 没有昂贵设备 / 但 / 如果学区实质上是在对那些因复杂的家庭生活而不做作业的学生放任不管 / 那些不做作业的学生 / 因为复杂的家庭生活 / 那么它就极其危险地暗示 / 需要降低评判标准 / 针对贫困家庭的孩子",
           "vocabulary": [
             {
-              "word": "may have problems finishing their homework",
-              "pos": "",
-              "definition": "【🎯解题正解】 可能在完成作业时遇到问题"
+              "word": "Homework",
+              "pos": "n.",
+              "definition": "n. （学生的）家庭作业；准备工作"
+            },
+            {
+              "word": "students",
+              "pos": "n.",
+              "definition": "n. 学生（student 的复数）"
+            },
+            {
+              "word": "policy",
+              "pos": "n.",
+              "definition": "n. 政策；方针"
+            },
+            {
+              "word": "District",
+              "pos": "n.",
+              "definition": "n. 地区；区域"
             },
             {
               "word": "address",
@@ -269,21 +259,6 @@
               "definition": "n. 行为标准；道德水准；（品质的）标准"
             },
             {
-              "word": "Homework",
-              "pos": "n.",
-              "definition": "n. （学生的）家庭作业；准备工作"
-            },
-            {
-              "word": "students",
-              "pos": "n.",
-              "definition": "n. 学生（student 的复数）"
-            },
-            {
-              "word": "District",
-              "pos": "n.",
-              "definition": "n. 地区；区域"
-            },
-            {
               "word": "assigned",
               "pos": "adj.",
               "definition": "adj. 指定的；已分配的；v. assign 的过去式和过去分词：分配"
@@ -307,16 +282,6 @@
               "word": "lowered",
               "pos": "v.",
               "definition": "v. （lower 的过去式和过去分词）减少；降低；削弱"
-            },
-            {
-              "word": "assign",
-              "pos": "v.",
-              "definition": "v. 分派；布置（工作、任务）"
-            },
-            {
-              "word": "policy",
-              "pos": "n.",
-              "definition": "n. 政策；方针"
             },
             {
               "word": "should",
@@ -358,34 +323,44 @@
           "chunk_translation": "学区管理人员表示 / 家庭作业仍将是学校教学的一部分； / 教师可以根据需要随意布置作业 / 但 / 鉴于家庭作业在成绩中所占比例不超过10% / 学生可以轻易漏做一半的作业而在成绩单上几乎看不出什么差别 / 在他们的成绩单上 / 有些学生即便不做作业可能也能在州级统考中取得好成绩 / 在州级考试中 / 不完成作业 / 但那些既在考试中表现出色又认真完成作业的学生呢？ / 那些在考试中表现优异且完成了作业的学生？ / 很有可能 / 是家庭作业发挥了作用 / 然而，这项政策非但没有赋予教师自主探索最适合学生的教学方法的权利 / 针对其学生 / 反而强行推行一项一刀切的 / 绝对化规定",
           "vocabulary": [
             {
-              "word": "discourage students from doing homework",
-              "pos": "",
-              "definition": "【🎯解题正解】 阻止学生做作业"
+              "word": "Homework",
+              "pos": "n.",
+              "definition": "n. （学生的）家庭作业；准备工作"
             },
             {
-              "word": "undermine the authority of state tests",
-              "pos": "",
-              "definition": "【💡题项表达】 破坏国家测试的权威"
+              "word": "students",
+              "pos": "n.",
+              "definition": "n. 学生（student 的复数）"
             },
             {
-              "word": "restrict teachers’ power in education",
-              "pos": "",
-              "definition": "【💡题项表达】 限制教师的教育权力"
+              "word": "policy",
+              "pos": "n.",
+              "definition": "n. 政策；方针"
+            },
+            {
+              "word": "District",
+              "pos": "n.",
+              "definition": "n. 地区；区域"
+            },
+            {
+              "word": "completing",
+              "pos": "v.",
+              "definition": "v. 使完整；使完美"
+            },
+            {
+              "word": "rule",
+              "pos": "n.",
+              "definition": "n. 规章；条例"
+            },
+            {
+              "word": "assign",
+              "pos": "v.",
+              "definition": "v. 分派；布置（工作、任务）"
             },
             {
               "word": "skip",
               "pos": "",
               "definition": "v.不做(本来应做或常做的事)"
-            },
-            {
-              "word": "flat",
-              "pos": "",
-              "definition": "a.固定的"
-            },
-            {
-              "word": "across-the-board",
-              "pos": "",
-              "definition": "a.一刀切的"
             },
             {
               "word": "no more than",
@@ -398,19 +373,9 @@
               "definition": "n. administrator 的复数形式；管理员"
             },
             {
-              "word": "completing",
-              "pos": "v.",
-              "definition": "v. 使完整；使完美"
-            },
-            {
               "word": "difference",
               "pos": "n.",
               "definition": "n. 差异；不同之处；差额"
-            },
-            {
-              "word": "empowering",
-              "pos": "v.",
-              "definition": "v. 授权；赋予（某人）权力；使（某人）自主"
             },
             {
               "word": "schooling",
@@ -421,21 +386,6 @@
               "word": "performed",
               "pos": "v.",
               "definition": "v. 演出；表演；执行"
-            },
-            {
-              "word": "Homework",
-              "pos": "n.",
-              "definition": "n. （学生的）家庭作业；准备工作"
-            },
-            {
-              "word": "students",
-              "pos": "n.",
-              "definition": "n. 学生（student 的复数）"
-            },
-            {
-              "word": "District",
-              "pos": "n.",
-              "definition": "n. 地区；区域"
             },
             {
               "word": "teachers",
@@ -453,21 +403,6 @@
               "definition": "v. allow 的过去式和过去分词：允许；认可"
             },
             {
-              "word": "imposes",
-              "pos": "v.",
-              "definition": "v. impose 的第三人称单数：强加于；强制实行（常作 impose sth on/upon sb/sth）；征收"
-            },
-            {
-              "word": "assign",
-              "pos": "v.",
-              "definition": "v. 分派；布置（工作、任务）"
-            },
-            {
-              "word": "policy",
-              "pos": "n.",
-              "definition": "n. 政策；方针"
-            },
-            {
               "word": "grades",
               "pos": "n.",
               "definition": "n. 等级；级别（grade 的复数形式）；成绩"
@@ -478,58 +413,88 @@
               "definition": "adv. 容易地；很可能；多半"
             },
             {
+              "word": "flat",
+              "pos": "",
+              "definition": "a.固定的"
+            },
+            {
+              "word": "across-the-board",
+              "pos": "",
+              "definition": "a.一刀切的"
+            },
+            {
+              "word": "empowering",
+              "pos": "v.",
+              "definition": "v. 授权；赋予（某人）权力；使（某人）自主"
+            },
+            {
+              "word": "imposes",
+              "pos": "v.",
+              "definition": "v. impose 的第三人称单数：强加于；强制实行（常作 impose sth on/upon sb/sth）；征收"
+            },
+            {
               "word": "board",
               "pos": "n.",
               "definition": "n. 板；木板"
-            },
-            {
-              "word": "rule",
-              "pos": "n.",
-              "definition": "n. 规章；条例"
             }
           ]
         },
         {
           "pid": 3,
-          "text": "At the same time, the policy addresses none of the truly thorny questions about homework. If the district finds homework to be unimportant to its students’ academic achievement, it should move to reduce or eliminate the assignments, not make them count for almost nothing. Conversely, if homework matters, it should account for a significant portion of the grade. Meanwhile, this policy does nothing to ensure that the homework students receive is meaningful or appropriate to their age and the subject, or that teachers are not assigning more than they are willing to review and correct. The homework rules should be put on hold while the school board, which is responsible for setting educational policy, looks into the matter and conducts public hearings.",
-          "translation": "与此同时，该政策没有解决有关家庭作业的任何真正棘手的问题。如果学区发现家庭作业对学生的学业成绩并不重要，就应该减少或取消作业，而不是让它们几乎毫无价值。相反，如果家庭作业很重要，它应该占成绩的很大一部分。与此同时，这项政策并不能确保学生收到的家庭作业有意义或适合他们的年龄和科目，或者教师布置的作业不会超出他们愿意复习和纠正的范围。在负责制定教育政策的学校董事会调查此事并举行公开听证会期间，家庭作业规则应暂停。",
-          "slashed_text": "At the same time , / the policy addresses none of the truly thorny questions / about homework. / If the district finds homework to be unimportant to its students’ academic achievement , / it should move to reduce or eliminate the assignments , / not make them count / for almost nothing. / Conversely , / if homework matters , / it should account for a significant portion of the grade. / Meanwhile , / this policy does nothing to ensure / that the homework students receive is meaningful or appropriate to their age and the subject , / or / that teachers are not assigning more than they are willing to review and correct. / The homework rules should be put / on hold / while the school board , / which is responsible / for setting educational policy , / looks into the matter and conducts public hearings.",
-          "chunk_translation": "与此同时 / 该政策没有触及任何关于家庭作业的真正棘手的问题 / 关于家庭作业 / 如果学区认为家庭作业对学生的学业成就无关紧要 / 那么它应该着手减少或取消作业布置 / 而不是让它们的分量微不足道 / 几乎不占任何比重 / 反之 / 如果家庭作业很重要 / 那么它就应该在成绩中占据相当大的比重 / 与此同时 / 这项政策完全无法确保 / 学生收到的作业是有意义的或切合其年龄与学科特点的 / 或者 / 教师布置的作业量没有超出其批改和反馈的意愿与能力范围 / 家庭作业相关规定应当被搁置 / 暂停执行 / 与此同时负责制定教育政策的学校董事会 / 负责 / 制定教育政策的 / 应当调查此事并举行公开听证会",
+          "text": "At the same time, the policy addresses none of the truly thorny questions about homework. If the district finds homework to be unimportant to its students’ academic achievement, it should move to reduce or eliminate the assignments, not make them count for almost nothing. Conversely, if homework matters, it should account for a significant portion of the grade. Meanwhile, this policy does nothing to ensure that the homework students receive is meaningful or appropriate to their age and the subject, or that teachers are not assigning more than they are willing to review and correct.",
+          "translation": "与此同时，该政策没有解决有关家庭作业的任何真正棘手的问题。如果学区发现家庭作业对学生的学业成绩并不重要，就应该减少或取消作业，而不是让它们几乎毫无价值。相反，如果家庭作业很重要，它应该占成绩的很大一部分。与此同时，这项政策并不能确保学生收到的家庭作业有意义或适合他们的年龄和科目，或者教师布置的作业不会超出他们愿意复习和纠正的范围。",
+          "slashed_text": "At the same time , / the policy addresses none of the truly thorny questions / about homework. / If the district finds homework to be unimportant to its students’ academic achievement , / it should move to reduce or eliminate the assignments , / not make them count / for almost nothing. / Conversely , / if homework matters , / it should account for a significant portion of the grade. / Meanwhile , / this policy does nothing to ensure / that the homework students receive is meaningful or appropriate to their age and the subject , / or / that teachers are not assigning more than they are willing to review and correct.",
+          "chunk_translation": "与此同时 / 该政策没有触及任何关于家庭作业的真正棘手的问题 / 关于家庭作业 / 如果学区认为家庭作业对学生的学业成就无关紧要 / 那么它应该着手减少或取消作业布置 / 而不是让它们的分量微不足道 / 几乎不占任何比重 / 反之 / 如果家庭作业很重要 / 那么它就应该在成绩中占据相当大的比重 / 与此同时 / 这项政策完全无法确保 / 学生收到的作业是有意义的或切合其年龄与学科特点的 / 或者 / 教师布置的作业量没有超出其批改和反馈的意愿与能力范围",
           "vocabulary": [
             {
-              "word": "it counts much in schooling",
-              "pos": "",
-              "definition": "【🎯解题正解】 它在学校教育中很重要"
+              "word": "Homework",
+              "pos": "n.",
+              "definition": "n. （学生的）家庭作业；准备工作"
             },
             {
-              "word": "it should be eliminated",
-              "pos": "",
-              "definition": "【💡题项表达】 它应该被消除"
+              "word": "students",
+              "pos": "n.",
+              "definition": "n. 学生（student 的复数）"
             },
             {
-              "word": "it places extra burdens on teachers",
-              "pos": "",
-              "definition": "【💡题项表达】 给老师带来了额外的负担"
+              "word": "academic",
+              "pos": "adj.",
+              "definition": "adj. 学业的；学术的；学校的"
             },
             {
-              "word": "it is important for grades",
-              "pos": "",
-              "definition": "【💡题项表达】 这对成绩很重要"
+              "word": "policy",
+              "pos": "n.",
+              "definition": "n. 政策；方针"
+            },
+            {
+              "word": "count",
+              "pos": "v.",
+              "definition": "v. （按顺序）数数；计数；点数目"
+            },
+            {
+              "word": "grade",
+              "pos": "n.",
+              "definition": "n. 等级；品级；（工作岗位"
+            },
+            {
+              "word": "District",
+              "pos": "n.",
+              "definition": "n. 地区；区域"
+            },
+            {
+              "word": "should",
+              "pos": "v.",
+              "definition": "v. （用于纠正别人）应该；（用于建议）该；可以"
+            },
+            {
+              "word": "teachers",
+              "pos": "n.",
+              "definition": "n. 教师；老师（teacher 的复数）"
             },
             {
               "word": "thorny",
               "pos": "",
               "definition": "a.棘手的"
-            },
-            {
-              "word": "conversely",
-              "pos": "",
-              "definition": "a.相反地,另一方面"
-            },
-            {
-              "word": "portion",
-              "pos": "",
-              "definition": "n.(某物的)一部分"
             },
             {
               "word": "at the same time",
@@ -547,31 +512,6 @@
               "definition": "学业成绩"
             },
             {
-              "word": "put on hold",
-              "pos": "",
-              "definition": "搁置,暂缓实施"
-            },
-            {
-              "word": "school board",
-              "pos": "",
-              "definition": "校董事会"
-            },
-            {
-              "word": "account for",
-              "pos": "n.",
-              "definition": "对……做出解释；占（比例）"
-            },
-            {
-              "word": "responsible",
-              "pos": "adj.",
-              "definition": "adj. （对某人、某事）负责的；（对事故、错误、罪行等）负有责任的"
-            },
-            {
-              "word": "educational",
-              "pos": "adj.",
-              "definition": "adj. 教育的；有教育意义的"
-            },
-            {
               "word": "unimportant",
               "pos": "adj.",
               "definition": "adj. 不重要的；无关紧要的；琐碎的"
@@ -585,21 +525,6 @@
               "word": "assignments",
               "pos": "n.",
               "definition": "n. 作业；任务（assignment 的复数形式）"
-            },
-            {
-              "word": "significant",
-              "pos": "adj.",
-              "definition": "adj. 显著的；相当数量的；重要的"
-            },
-            {
-              "word": "appropriate",
-              "pos": "adj.",
-              "definition": "adj. 合适的；相称的；v. 拨出（款项）"
-            },
-            {
-              "word": "meaningful",
-              "pos": "adj.",
-              "definition": "adj. 有意义的；重要的；（指眼神、姿势）意味深长的"
             },
             {
               "word": "addresses",
@@ -617,14 +542,38 @@
               "definition": "v. 剔除；根除；对……不予考虑"
             },
             {
-              "word": "Meanwhile",
-              "pos": "adv.",
-              "definition": "adv. 与此同时；在此期间；另一方面"
+              "word": "reduce",
+              "pos": "v.",
+              "definition": "v. 减少；降低；（烹调中）使变浓稠"
             },
             {
-              "word": "assigning",
+              "word": "truly",
+              "pos": "adv.",
+              "definition": "adv. 真实地；如实地"
+            },
+            {
+              "word": "finds",
               "pos": "v.",
-              "definition": "v. （assign 的现在分词）分配；分派（工作、任务）；委派"
+              "definition": "v. 找到；找回；发现"
+            },
+            {
+              "word": "Thorny Questions about Homework",
+              "pos": "",
+              "definition": "【💡题项表达】 关于家庭作业的棘手问题"
+            }
+          ]
+        },
+        {
+          "pid": 4,
+          "text": "The homework rules should be put on hold while the school board, which is responsible for setting educational policy, looks into the matter and conducts public hearings. It is not too late for L.A. Unified to do homework right.",
+          "translation": "在负责制定教育政策的学校董事会调查此事并举行公开听证会期间，家庭作业规则应暂停。对于洛杉矶来说还不算太晚统一做好作业。",
+          "slashed_text": "The homework rules should be put / on hold / while the school board , / which is responsible / for setting educational policy , / looks into the matter and conducts public hearings. / It is not too late for L.A. / Unified to do homework right.",
+          "chunk_translation": "家庭作业相关规定应当被搁置 / 暂停执行 / 与此同时负责制定教育政策的学校董事会 / 负责 / 制定教育政策的 / 应当调查此事并举行公开听证会 / 对于洛杉矶来说还不算太晚 / 联合学区走上正轨",
+          "vocabulary": [
+            {
+              "word": "educational",
+              "pos": "adj.",
+              "definition": "adj. 教育的；有教育意义的"
             },
             {
               "word": "Homework",
@@ -632,79 +581,9 @@
               "definition": "n. （学生的）家庭作业；准备工作"
             },
             {
-              "word": "students",
-              "pos": "n.",
-              "definition": "n. 学生（student 的复数）"
-            },
-            {
-              "word": "District",
-              "pos": "n.",
-              "definition": "n. 地区；区域"
-            },
-            {
-              "word": "teachers",
-              "pos": "n.",
-              "definition": "n. 教师；老师（teacher 的复数）"
-            },
-            {
-              "word": "academic",
+              "word": "Unified",
               "pos": "adj.",
-              "definition": "adj. 学业的；学术的；学校的"
-            },
-            {
-              "word": "conducts",
-              "pos": "v.",
-              "definition": "v. conduct 的第三人称单数现在时形式；表示：进行；实施：执行或管理某事"
-            },
-            {
-              "word": "hearings",
-              "pos": "n.",
-              "definition": "n. 听证会；倾听；听觉（hearing 的复数）"
-            },
-            {
-              "word": "address",
-              "pos": "n.",
-              "definition": "n. 地址；住址"
-            },
-            {
-              "word": "setting",
-              "pos": "n.",
-              "definition": "n. （某事发生的）环境；场合"
-            },
-            {
-              "word": "matters",
-              "pos": "n.",
-              "definition": "n. 事项；事件；事态"
-            },
-            {
-              "word": "account",
-              "pos": "n.",
-              "definition": "n. 账户；户头；客户"
-            },
-            {
-              "word": "receive",
-              "pos": "v.",
-              "definition": "v. 得到；收到；遭受"
-            },
-            {
-              "word": "subject",
-              "pos": "n.",
-              "definition": "n. 主题；话题；学科"
-            },
-            {
-              "word": "willing",
-              "pos": "adj.",
-              "definition": "adj. 愿意的；乐意的；乐于相助的"
-            },
-            {
-              "word": "correct",
-              "pos": "adj.",
-              "definition": "adj. 正确的；无误的；恰当的"
-            },
-            {
-              "word": "assign",
-              "pos": "v.",
-              "definition": "v. 分派；布置（工作、任务）"
+              "definition": "adj. 一致的；统一的；联合的"
             },
             {
               "word": "policy",
@@ -717,93 +596,9 @@
               "definition": "v. （用于纠正别人）应该；（用于建议）该；可以"
             },
             {
-              "word": "reduce",
-              "pos": "v.",
-              "definition": "v. 减少；降低；（烹调中）使变浓稠"
-            },
-            {
-              "word": "ensure",
-              "pos": "v.",
-              "definition": "v. 确保；保证；保护"
-            },
-            {
-              "word": "review",
-              "pos": "n.",
-              "definition": "n. 审查；检查；评论"
-            },
-            {
-              "word": "matter",
-              "pos": "n.",
-              "definition": "n. 事情；问题；事态"
-            },
-            {
-              "word": "truly",
-              "pos": "adv.",
-              "definition": "adv. 真实地；如实地"
-            },
-            {
-              "word": "rules",
-              "pos": "n.",
-              "definition": "n. 规章；条例"
-            },
-            {
               "word": "board",
               "pos": "n.",
               "definition": "n. 板；木板"
-            },
-            {
-              "word": "finds",
-              "pos": "v.",
-              "definition": "v. 找到；找回；发现"
-            },
-            {
-              "word": "count",
-              "pos": "v.",
-              "definition": "v. （按顺序）数数；计数；点数目"
-            },
-            {
-              "word": "grade",
-              "pos": "n.",
-              "definition": "n. 等级；品级；（工作岗位"
-            },
-            {
-              "word": "rule",
-              "pos": "n.",
-              "definition": "n. 规章；条例"
-            }
-          ]
-        },
-        {
-          "pid": 4,
-          "text": "It is not too late for L.A. Unified to do homework right.",
-          "translation": "对于洛杉矶来说还不算太晚统一做好作业。",
-          "slashed_text": "It is not too late for L.A. / Unified to do homework right.",
-          "chunk_translation": "对于洛杉矶来说还不算太晚 / 联合学区走上正轨",
-          "vocabulary": [
-            {
-              "word": "A Faulty Approach to Homework",
-              "pos": "",
-              "definition": "【🎯解题正解】 错误的家庭作业方法"
-            },
-            {
-              "word": "A Welcomed Policy for Poor Students",
-              "pos": "",
-              "definition": "【💡题项表达】 一项受欢迎的贫困学生政策"
-            },
-            {
-              "word": "Thorny Questions about Homework",
-              "pos": "",
-              "definition": "【💡题项表达】 关于家庭作业的棘手问题"
-            },
-            {
-              "word": "Homework",
-              "pos": "n.",
-              "definition": "n. （学生的）家庭作业；准备工作"
-            },
-            {
-              "word": "Unified",
-              "pos": "adj.",
-              "definition": "adj. 一致的；统一的；联合的"
             }
           ]
         }
@@ -1211,7 +1006,6 @@
         },
         {
           "sid": 15,
-          "pid": 3,
           "sentence_index": 2,
           "text": "Conversely, if homework matters, it should account for a significant portion of the grade.",
           "translation": "相反，如果家庭作业很重要，它应该占成绩的很大一部分。",
@@ -1235,11 +1029,11 @@
                 "explanation": "逻辑假说②与哲学核心拷问（Q24 命题题眼）。S15 与 S16 构成严密的对偶反假命题：若无用则取缔，若重要（matters）则应占大头。两句合力托出全段核心追问——作业在教育中究竟管不管用？精准对应 Q24 正确选项 B“whether it counts much in schooling”（counts much 完美对应 matters）。"
               }
             ]
-          }
+          },
+          "pid": 3
         },
         {
           "sid": 16,
-          "pid": 3,
           "sentence_index": 3,
           "text": "Meanwhile, this policy does nothing to ensure that the homework students receive is meaningful or appropriate to their age and the subject, or that teachers are not assigning more than they are willing to review and correct.",
           "translation": "与此同时，这项政策并不能确保学生收到的家庭作业有意义或适合他们的年龄和科目，或者教师布置的作业不会超出他们愿意复习和纠正的范围。",
@@ -1263,12 +1057,12 @@
                 "explanation": "质量与减负双向落空。揭示限分政策的无能：既不能保证作业质量（meaningful/appropriate），又不能防止教师滥留作业（超过批改承受力），进一步佐证该政策的荒谬与漏洞。"
               }
             ]
-          }
+          },
+          "pid": 3
         },
         {
           "sid": 17,
-          "pid": 3,
-          "sentence_index": 4,
+          "sentence_index": 0,
           "text": "The homework rules should be put on hold while the school board, which is responsible for setting educational policy, looks into the matter and conducts public hearings.",
           "translation": "在负责制定教育政策的学校董事会调查此事并举行公开听证会期间，家庭作业规则应暂停。",
           "slashed_text": "The homework rules should be put / on hold / while the school board , / which is responsible / for setting educational policy , / looks into the matter and conducts public hearings.",
@@ -1291,12 +1085,12 @@
                 "explanation": "行动建议呼吁（Prescriptive Recommendation）。作者开出纠偏药方：当务之急是立即叫停这项限分蠢政，由具有合法教育决策权的校董会深入调研、纳入学界与公众意见重新审议。"
               }
             ]
-          }
+          },
+          "pid": 4
         },
         {
           "sid": 18,
-          "pid": 4,
-          "sentence_index": 0,
+          "sentence_index": 1,
           "text": "It is not too late for L.A.",
           "translation": "对于洛杉矶来说还不算太晚",
           "slashed_text": "It is not too late for L.A.",
@@ -1314,12 +1108,12 @@
                 "explanation": "篇尾建设性勉励。表明作者虽然批判严厉，但通篇目的在于亡羊补牢、敦促修正，并非全盘否定教育改革本身，展现出客观建设性的态度。"
               }
             ]
-          }
+          },
+          "pid": 4
         },
         {
           "sid": 19,
-          "pid": 4,
-          "sentence_index": 1,
+          "sentence_index": 2,
           "text": "Unified to do homework right.",
           "translation": "统一做好作业。",
           "slashed_text": "Unified to do homework right.",
@@ -1337,7 +1131,8 @@
                 "explanation": "全文结语点题。双关语 do homework right 既指“让学生把作业做好”，更指“让教育管理部门把作业政策制定妥当”，与篇首形成首尾呼应，再次印证 Q25 题 A 选项“A Faulty Approach to Homework”（亟需改邪归正）。"
               }
             ]
-          }
+          },
+          "pid": 4
         }
       ],
       "questions": [
@@ -1784,33 +1579,33 @@
         "paragraph_functions": [
           {
             "pid": 0,
-            "role": "【起】家庭作业历来不受待见，减负呼声催生激进新政",
-            "core_point": "课后作业向来为学生和家长所苦，近年来全美反抗作业过重的浪潮愈演愈烈，推动地方学区酝酿激进新规。",
-            "cohesive_devices": "以人人深有体会的教育痛点（Homework has never been popular / recent pushback）开篇。"
+            "role": "引入政策",
+            "function": "引入政策",
+            "core_point": "洛杉矶学区限制家庭作业在总评成绩中的占比不得超过10%。"
           },
           {
             "pid": 1,
-            "role": "【承】良善政策初衷：消弭贫困混乱家庭学子的先天不公",
-            "core_point": "洛杉矶新政核心立意在于教育公平：保护那些来自狭窄嘈杂、缺乏安静环境与家教辅导的贫困学子免遭成绩歧视。",
-            "cohesive_devices": "阐述政策出台的同理心与社会正义考量（rule meant to address difficulty of impoverished homes）。"
+            "role": "政策初衷与争议",
+            "function": "政策初衷与争议",
+            "core_point": "旨在照顾贫困与家庭资源匮乏学生，却暗含降低学业标准的争议风险。"
           },
           {
             "pid": 2,
-            "role": "【承】操作细则落地：保留作业形式，但总分权重被硬性锁死在一成以内",
-            "core_point": "学区管理层坚称并未彻底废除作业，而是采取妥协性折中：允许教师留作业，但其成绩权重至多只占科目总评的10%。",
-            "cohesive_devices": "出台具体行政量化指标（District administrators say homework still part / count no more than 10%）。"
+            "role": "一刀切弊端",
+            "function": "一刀切弊端",
+            "core_point": "一刀切限制削弱了教师根据不同学科与学情自主布置作业的专业空间。"
           },
           {
             "pid": 3,
-            "role": "【转】尖锐制度反思：避重就轻的数字游戏绕开了全部核心棘手问题",
-            "core_point": "然而这一硬性限分令完全没有回答关于作业设计、批改反馈与启发性等真正核心的教育学难题，纯属治标不治本的懒政。",
-            "cohesive_devices": "以犀利批判转折破局（policy addresses none of the truly thorny questions about homework）。"
+            "role": "回避核心问题",
+            "function": "回避核心问题",
+            "core_point": "该政策回避了作业质量、反馈批改等教学实质问题，流于形式。"
           },
           {
             "pid": 4,
-            "role": "【合】迷途知返犹未晚：呼唤从机械限制走向科学设计的教育重塑",
-            "core_point": "洛杉矶学区纠偏为时不晚：与其在及格分数百分比上玩弄数字游戏，不如倾力指导教师如何设计富有针对性与吸引力的精益作业。",
-            "cohesive_devices": "提出建设性纠偏建言（not too late for L.A. Unified to do homework right / meaningful design）。"
+            "role": "建设性建议",
+            "function": "建设性建议",
+            "core_point": "学区应暂停执行该项硬性规定，通过充分听证与论证制定科学的作业政策。"
           }
         ],
         "part_b_training": {
@@ -1947,10 +1742,10 @@
       "paragraphs": [
         {
           "pid": 0,
-          "text": "Pretty in pink: adult women do not remember being so obsessed with the colour, yet it is pervasive in our young girls’ lives. It is not that pink is intrinsically bad, but it is such a tiny slice of the rainbow and, though it may celebrate girlhood in one way, it also repeatedly and firmly fuses girls’ identity to appearance. Then it presents that connection, even among two- year-olds, between girls as not only innocent but as evidence of innocence. Looking around, I despaired at the singular lack of imagination about girls’ lives and interests. Girls’ attraction to pink may seem unavoidable, somehow encoded in their DNA, but according to Jo Paoletti, an associate professor of American Studies, it is not.",
-          "translation": "漂亮的粉色：成年女性不记得自己对这种颜色如此着迷，但它在我们年轻女孩的生活中无处不在。并不是说粉色本质上不好，而是它只是彩虹中的一小部分，尽管它可能以某种方式庆祝少女时代，但它也反复而坚定地将女孩的身份与外表融合在一起。然后，它展示了女孩之间的这种联系，即使是在两岁的孩子之间，不仅是无辜的，而且是无辜的证据。环顾四周，我对女孩的生活和兴趣缺乏想象力感到绝望。女孩对粉色的喜爱似乎是不可避免的，不知何故已被编码在她们的 DNA 中，但根据美国研究副教授乔·保莱蒂 (Jo Paoletti) 的说法，事实并非如此。",
-          "slashed_text": "Pretty / in pink : / adult women do not remember being so obsessed with the colour , / yet it is pervasive in our young girls’ lives. / It is not / that pink is intrinsically bad , / but it is such a tiny slice of the rainbow and , / though it may celebrate girlhood in one way , / it also repeatedly and firmly fuses girls’ identity to appearance. / Then it presents / that connection , / even among two- year-olds , / between girls as not only innocent but as evidence of innocence. / Looking around , / I despaired at the singular lack of imagination / about girls’ lives and interests. / Girls’ attraction to pink may seem unavoidable , / somehow encoded / in their DNA , / but according to Jo Paoletti , / an associate professor of American Studies , / it is not.",
-          "chunk_translation": "漂亮 / 身着粉装： / 成年女性不记得自己曾对这种颜色如此痴迷 / 但它在我们年轻女孩的生活中却无处不在 / 这并不是 / 说粉色本身有什么不好 / 但它只是彩虹中极小的一部分，而且 / 尽管它可能在某种程度上彰显了少女时代 / 它也反复且牢固地将女孩的身份与外貌捆绑在一起 / 进而它呈现出 / 那种关联 / 哪怕是在两岁幼童身上 / 将女孩与粉色之间的联系不仅视为纯真，更视为纯真的证据 / 环顾四周 / 我对关于女孩生活和兴趣的极度匮乏的想象力感到绝望 / 关于女孩的生活与兴趣 / 女孩对粉色的喜爱看似不可避免 / 似乎早已编码 / 写入了她们的基因之中 / 但据美国研究副教授乔·保莱蒂表示 / 一位美国研究副教授 / 事实并非如此",
+          "text": "Pretty in pink: adult women do not remember being so obsessed with the colour, yet it is pervasive in our young girls’ lives. It is not that pink is intrinsically bad, but it is such a tiny slice of the rainbow and, though it may celebrate girlhood in one way, it also repeatedly and firmly fuses girls’ identity to appearance. Then it presents that connection, even among two- year-olds, between girls as not only innocent but as evidence of innocence. Looking around, I despaired at the singular lack of imagination about girls’ lives and interests.",
+          "translation": "漂亮的粉色：成年女性不记得自己对这种颜色如此着迷，但它在我们年轻女孩的生活中无处不在。并不是说粉色本质上不好，而是它只是彩虹中的一小部分，尽管它可能以某种方式庆祝少女时代，但它也反复而坚定地将女孩的身份与外表融合在一起。然后，它展示了女孩之间的这种联系，即使是在两岁的孩子之间，不仅是无辜的，而且是无辜的证据。环顾四周，我对女孩的生活和兴趣缺乏想象力感到绝望。",
+          "slashed_text": "Pretty / in pink : / adult women do not remember being so obsessed with the colour , / yet it is pervasive in our young girls’ lives. / It is not / that pink is intrinsically bad , / but it is such a tiny slice of the rainbow and , / though it may celebrate girlhood in one way , / it also repeatedly and firmly fuses girls’ identity to appearance. / Then it presents / that connection , / even among two- year-olds , / between girls as not only innocent but as evidence of innocence. / Looking around , / I despaired at the singular lack of imagination / about girls’ lives and interests.",
+          "chunk_translation": "漂亮 / 身着粉装： / 成年女性不记得自己曾对这种颜色如此痴迷 / 但它在我们年轻女孩的生活中却无处不在 / 这并不是 / 说粉色本身有什么不好 / 但它只是彩虹中极小的一部分，而且 / 尽管它可能在某种程度上彰显了少女时代 / 它也反复且牢固地将女孩的身份与外貌捆绑在一起 / 进而它呈现出 / 那种关联 / 哪怕是在两岁幼童身上 / 将女孩与粉色之间的联系不仅视为纯真，更视为纯真的证据 / 环顾四周 / 我对关于女孩生活和兴趣的极度匮乏的想象力感到绝望 / 关于女孩的生活与兴趣",
           "vocabulary": [
             {
               "word": "pervasive",
@@ -1978,29 +1773,9 @@
               "definition": "纯粹缺乏想象力"
             },
             {
-              "word": "associate",
-              "pos": "",
-              "definition": "a.副的"
-            },
-            {
-              "word": "associate professor",
-              "pos": "",
-              "definition": "副教授"
-            },
-            {
-              "word": "unavoidable",
-              "pos": "adj.",
-              "definition": "adj. 不可避免的；无法避免的"
-            },
-            {
               "word": "imagination",
               "pos": "n.",
               "definition": "n. 想象力；想象；幻觉"
-            },
-            {
-              "word": "attraction",
-              "pos": "n.",
-              "definition": "n. 有吸引力的事物；吸引力"
             },
             {
               "word": "repeatedly",
@@ -2018,11 +1793,6 @@
               "definition": "n. 关系；联系；连接"
             },
             {
-              "word": "according",
-              "pos": "prep.",
-              "definition": "prep. 按照；根据"
-            },
-            {
               "word": "innocence",
               "pos": "n.",
               "definition": "n. 天真；单纯；清白"
@@ -2038,19 +1808,9 @@
               "definition": "n. interest 的复数：兴趣；爱好；利益"
             },
             {
-              "word": "professor",
-              "pos": "n.",
-              "definition": "n. 教授；（大学的）讲师；教员"
-            },
-            {
               "word": "obsessed",
               "pos": "adj.",
               "definition": "adj. （对……）着迷的；（受……）困扰的"
-            },
-            {
-              "word": "Paoletti",
-              "pos": "n.",
-              "definition": "n. （Paoletti）人名；（贝宁、意）保莱蒂"
             },
             {
               "word": "girlhood",
@@ -2078,24 +1838,9 @@
               "definition": "n. 根据；证明；（呈上法庭的）证据"
             },
             {
-              "word": "somehow",
-              "pos": "adv.",
-              "definition": "adv. 以某种方式；用某种方法"
-            },
-            {
-              "word": "encoded",
-              "pos": "v.",
-              "definition": "v. encode 的过去式和过去分词：把……编码；译成电码（或密码）"
-            },
-            {
               "word": "rainbow",
               "pos": "n.",
               "definition": "n. 彩虹；众多花色品种；五颜六色的组合"
-            },
-            {
-              "word": "Studies",
-              "pos": "n.",
-              "definition": "n. 研究；学习；学业（study 的复数）"
             },
             {
               "word": "Pretty",
@@ -2136,10 +1881,10 @@
         },
         {
           "pid": 1,
-          "text": "Children were not colour-coded at all until the early 20th century: in the era before domestic washing machines all babies wore white as a practical matter, since the only way of getting clothes clean was to boil them. What’s more, both boys and girls wore what were thought of as gender-neutral dresses. When nursery colours were introduced, pink was actually considered the more masculine colour, a pastel version of red, which was associated with strength. Blue, with its intimations of the Virgin Mary, constancy and faithfulness, symbolised femininity. It was not until the mid-1980s, when amplifying age and sex differences became a dominant children’s marketing strategy, that pink fully came into its own, when it began to seem inherently attractive to girls, part of what defined them as female, at least for the first few critical years. I had not realised how profoundly marketing trends dictated our perception of what is natural to kids, including our core beliefs about their psychological development.",
-          "translation": "直到20世纪初，孩子们才被用颜色区分：在家用洗衣机还没有出现的时代，所有婴儿实际上都穿白色的衣服，因为清洗衣服的唯一方法就是将它们煮沸。更重要的是，男孩和女孩都穿着被认为是中性的衣服。当引入童趣色时，粉色实际上被认为是更男性化的颜色，是红色的柔和版本，与力量相关。蓝色暗示着圣母玛利亚、坚贞和忠诚，象征着女性气质。直到 20 世纪 80 年代中期，扩大年龄和性别差异成为儿童营销的主要策略时，粉色才完全发挥了作用，它开始对女孩具有天生的吸引力，这也是她们被定义为女性的一部分，至少在最初的关键几年里是这样。我没有意识到营销趋势如何深刻地决定了我们对孩子自然行为的看法，包括我们对他们心理发展的核心信念。",
-          "slashed_text": "Children were not colour-coded at all until the early 20th century : / in the era / before domestic washing machines all babies wore white as a practical matter , / since the only way of getting clothes clean was to boil them. / What’s more , / both boys and girls wore what were thought of as gender-neutral dresses. / When nursery colours were introduced , / pink was actually considered the more masculine colour , / a pastel version of red , / which was associated / with strength. / Blue , / with its intimations of the Virgin Mary , / constancy and faithfulness , / symbolised femininity. / It was not until the mid-1980s , / when amplifying age and sex differences became a dominant children’s marketing strategy , / that pink fully came into its own , / when it began to seem inherently attractive to girls , / part of what defined them as female , / at least for the first few critical years. / I had not realised how profoundly marketing trends dictated our perception of what is natural to kids , / including our core beliefs / about their psychological development.",
-          "chunk_translation": "直到20世纪初，儿童根本没有按颜色区分： / 在那个时代 / 在家用洗衣机问世之前，所有婴儿出于实用考虑都穿白色衣服 / 因为把衣服洗干净的唯一方法就是放进沸水里煮 / 更重要的是 / 男孩和女孩都穿着当时被认为是中性的长袍裙装 / 当婴儿房颜色最初被引入时 / 粉色实际上被认为是更具阳刚之气的颜色 / 是红色的一种柔和色调 / 红色当时是与 / 力量联系在一起的 / 而蓝色 / 伴随着对圣母玛利亚的联想、 / 坚贞与忠诚 / 则象征着女性特质 / 直到20世纪80年代中期 / 当放大年龄和性别差异成为主导的儿童营销策略时 / 粉色才真正迎来了属于它的时代 / 当时它开始显得对女孩具有天生的吸引力 / 成为定义她们女性身份的一部分 / 至少在最初关键的几年里是如此 / 我原本没有意识到，营销趋势竟然如此深刻地决定了我们对儿童天性的认知 / 包括我们的核心信念 / 关于他们的心理发展",
+          "text": "Girls’ attraction to pink may seem unavoidable, somehow encoded in their DNA, but according to Jo Paoletti, an associate professor of American Studies, it is not. Children were not colour-coded at all until the early 20th century: in the era before domestic washing machines all babies wore white as a practical matter, since the only way of getting clothes clean was to boil them. What’s more, both boys and girls wore what were thought of as gender-neutral dresses. When nursery colours were introduced, pink was actually considered the more masculine colour, a pastel version of red, which was associated with strength. Blue, with its intimations of the Virgin Mary, constancy and faithfulness, symbolised femininity. It was not until the mid-1980s, when amplifying age and sex differences became a dominant children’s marketing strategy, that pink fully came into its own, when it began to seem inherently attractive to girls, part of what defined them as female, at least for the first few critical years.",
+          "translation": "女孩对粉色的喜爱似乎是不可避免的，不知何故已被编码在她们的 DNA 中，但根据美国研究副教授乔·保莱蒂 (Jo Paoletti) 的说法，事实并非如此。直到20世纪初，孩子们才被用颜色区分：在家用洗衣机还没有出现的时代，所有婴儿实际上都穿白色的衣服，因为清洗衣服的唯一方法就是将它们煮沸。更重要的是，男孩和女孩都穿着被认为是中性的衣服。当引入童趣色时，粉色实际上被认为是更男性化的颜色，是红色的柔和版本，与力量相关。蓝色暗示着圣母玛利亚、坚贞和忠诚，象征着女性气质。直到 20 世纪 80 年代中期，扩大年龄和性别差异成为儿童营销的主要策略时，粉色才完全发挥了作用，它开始对女孩具有天生的吸引力，这也是她们被定义为女性的一部分，至少在最初的关键几年里是这样。",
+          "slashed_text": "Girls’ attraction to pink may seem unavoidable , / somehow encoded / in their DNA , / but according to Jo Paoletti , / an associate professor of American Studies , / it is not. / Children were not colour-coded at all until the early 20th century : / in the era / before domestic washing machines all babies wore white as a practical matter , / since the only way of getting clothes clean was to boil them. / What’s more , / both boys and girls wore what were thought of as gender-neutral dresses. / When nursery colours were introduced , / pink was actually considered the more masculine colour , / a pastel version of red , / which was associated / with strength. / Blue , / with its intimations of the Virgin Mary , / constancy and faithfulness , / symbolised femininity. / It was not until the mid-1980s , / when amplifying age and sex differences became a dominant children’s marketing strategy , / that pink fully came into its own , / when it began to seem inherently attractive to girls , / part of what defined them as female , / at least for the first few critical years.",
+          "chunk_translation": "女孩对粉色的喜爱看似不可避免 / 似乎早已编码 / 写入了她们的基因之中 / 但据美国研究副教授乔·保莱蒂表示 / 一位美国研究副教授 / 事实并非如此 / 直到20世纪初，儿童根本没有按颜色区分： / 在那个时代 / 在家用洗衣机问世之前，所有婴儿出于实用考虑都穿白色衣服 / 因为把衣服洗干净的唯一方法就是放进沸水里煮 / 更重要的是 / 男孩和女孩都穿着当时被认为是中性的长袍裙装 / 当婴儿房颜色最初被引入时 / 粉色实际上被认为是更具阳刚之气的颜色 / 是红色的一种柔和色调 / 红色当时是与 / 力量联系在一起的 / 而蓝色 / 伴随着对圣母玛利亚的联想、 / 坚贞与忠诚 / 则象征着女性特质 / 直到20世纪80年代中期 / 当放大年龄和性别差异成为主导的儿童营销策略时 / 粉色才真正迎来了属于它的时代 / 当时它开始显得对女孩具有天生的吸引力 / 成为定义她们女性身份的一部分 / 至少在最初关键的几年里是如此",
           "vocabulary": [
             {
               "word": "colour",
@@ -2150,6 +1895,56 @@
               "word": "pink",
               "pos": "adj.",
               "definition": "adj. 粉红色的；（因窘迫、愤怒或剧烈活动而）脸色发红的"
+            },
+            {
+              "word": "associate",
+              "pos": "",
+              "definition": "a.副的"
+            },
+            {
+              "word": "associate professor",
+              "pos": "",
+              "definition": "副教授"
+            },
+            {
+              "word": "unavoidable",
+              "pos": "adj.",
+              "definition": "adj. 不可避免的；无法避免的"
+            },
+            {
+              "word": "attraction",
+              "pos": "n.",
+              "definition": "n. 有吸引力的事物；吸引力"
+            },
+            {
+              "word": "according",
+              "pos": "prep.",
+              "definition": "prep. 按照；根据"
+            },
+            {
+              "word": "professor",
+              "pos": "n.",
+              "definition": "n. 教授；（大学的）讲师；教员"
+            },
+            {
+              "word": "Paoletti",
+              "pos": "n.",
+              "definition": "n. （Paoletti）人名；（贝宁、意）保莱蒂"
+            },
+            {
+              "word": "somehow",
+              "pos": "adv.",
+              "definition": "adv. 以某种方式；用某种方法"
+            },
+            {
+              "word": "encoded",
+              "pos": "v.",
+              "definition": "v. encode 的过去式和过去分词：把……编码；译成电码（或密码）"
+            },
+            {
+              "word": "Studies",
+              "pos": "n.",
+              "definition": "n. 研究；学习；学业（study 的复数）"
             },
             {
               "word": "nursery",
@@ -2167,56 +1962,6 @@
               "definition": "出于实用角度"
             },
             {
-              "word": "marketing strategy",
-              "pos": "",
-              "definition": "市场策略"
-            },
-            {
-              "word": "psychological development",
-              "pos": "",
-              "definition": "心理发展"
-            },
-            {
-              "word": "psychological",
-              "pos": "adj.",
-              "definition": "adj. 心理的；精神的；心理学的"
-            },
-            {
-              "word": "faithfulness",
-              "pos": "n.",
-              "definition": "n. 忠诚；忠实；诚实"
-            },
-            {
-              "word": "differences",
-              "pos": "n.",
-              "definition": "n. （difference 的复数形式）差异；差别"
-            },
-            {
-              "word": "intimations",
-              "pos": "n.",
-              "definition": "n. 暗示；示意；迹象"
-            },
-            {
-              "word": "development",
-              "pos": "n.",
-              "definition": "n. 发育；成长；发达"
-            },
-            {
-              "word": "amplifying",
-              "pos": "v.",
-              "definition": "v. 动词 amplify 的现在分词/动名词：放大（声音、信号等）；增强（强度、影响等）"
-            },
-            {
-              "word": "profoundly",
-              "pos": "adv.",
-              "definition": "adv. 极大地；深刻地"
-            },
-            {
-              "word": "perception",
-              "pos": "n.",
-              "definition": "n. 看法；认识"
-            },
-            {
               "word": "introduced",
               "pos": "v.",
               "definition": "v. 介绍；引进（introduce 的过去式和过去分词）"
@@ -2232,36 +1977,6 @@
               "definition": "adj. 有关联的；相关的；联合的"
             },
             {
-              "word": "symbolised",
-              "pos": "v.",
-              "definition": "v. （英国拼法；等于 symbolize）象征；代表"
-            },
-            {
-              "word": "femininity",
-              "pos": "n.",
-              "definition": "n. 女性；女子本性；女性身份"
-            },
-            {
-              "word": "inherently",
-              "pos": "adv.",
-              "definition": "adv. 内在地；固有地"
-            },
-            {
-              "word": "attractive",
-              "pos": "adj.",
-              "definition": "adj. 吸引人的；有吸引力的；（人）迷人的"
-            },
-            {
-              "word": "marketing",
-              "pos": "n.",
-              "definition": "n. 促销；营销"
-            },
-            {
-              "word": "including",
-              "pos": "prep.",
-              "definition": "prep. 包括；包含"
-            },
-            {
               "word": "practical",
               "pos": "adj.",
               "definition": "adj. 真实的；实际的；（计划、方法等）切实有效的"
@@ -2270,31 +1985,6 @@
               "word": "masculine",
               "pos": "adj.",
               "definition": "adj. 男性的；男子的；阳刚的"
-            },
-            {
-              "word": "constancy",
-              "pos": "n.",
-              "definition": "n. 恒久不变；恒久性；稳定"
-            },
-            {
-              "word": "dominant",
-              "pos": "adj.",
-              "definition": "adj. 占支配地位的；占优势的"
-            },
-            {
-              "word": "strategy",
-              "pos": "n.",
-              "definition": "n. （尤指为获得某物制定长期的）策略；行动计划"
-            },
-            {
-              "word": "realised",
-              "pos": "v.",
-              "definition": "v. 意识到；认识到"
-            },
-            {
-              "word": "dictated",
-              "pos": "v.",
-              "definition": "v. 口述；口授"
             },
             {
               "word": "domestic",
@@ -2315,16 +2005,6 @@
               "word": "strength",
               "pos": "n.",
               "definition": "n. 体力；力量；实力"
-            },
-            {
-              "word": "critical",
-              "pos": "adj.",
-              "definition": "adj. 批判的；爱挑剔的；极其重要的"
-            },
-            {
-              "word": "natural",
-              "pos": "adj.",
-              "definition": "adj. 天然的；非人为的"
             },
             {
               "word": "century",
@@ -2362,26 +2042,6 @@
               "definition": "n. （同一种物件稍有不同的）样式；型号；（从不同角度的）说法"
             },
             {
-              "word": "defined",
-              "pos": "adj.",
-              "definition": "adj. 轮廓分明的；外形清晰的；vt. 给……下定义"
-            },
-            {
-              "word": "beliefs",
-              "pos": "n.",
-              "definition": "n. 信仰；信念（belief 的复数）"
-            },
-            {
-              "word": "became",
-              "pos": "v.",
-              "definition": "v. 成为；变得（become 的过去式）"
-            },
-            {
-              "word": "trends",
-              "pos": "n.",
-              "definition": "n. 趋势；动态"
-            },
-            {
               "word": "matter",
               "pos": "n.",
               "definition": "n. 事情；问题；事态"
@@ -2392,16 +2052,6 @@
               "definition": "n. 性别；（语法中的）性；（总称）男性"
             },
             {
-              "word": "Virgin",
-              "pos": "n.",
-              "definition": "n. 处女；处男；无经验的人"
-            },
-            {
-              "word": "female",
-              "pos": "adj.",
-              "definition": "adj. 女性的；妇女的；女性特有的"
-            },
-            {
               "word": "coded",
               "pos": "adj.",
               "definition": "adj. 加密的；用密码写的；编码的"
@@ -2410,6 +2060,96 @@
               "word": "white",
               "pos": "adj.",
               "definition": "adj. 白色的；白种人的；白肤色的"
+            },
+            {
+              "word": "marketing strategy",
+              "pos": "",
+              "definition": "市场策略"
+            },
+            {
+              "word": "faithfulness",
+              "pos": "n.",
+              "definition": "n. 忠诚；忠实；诚实"
+            },
+            {
+              "word": "differences",
+              "pos": "n.",
+              "definition": "n. （difference 的复数形式）差异；差别"
+            },
+            {
+              "word": "intimations",
+              "pos": "n.",
+              "definition": "n. 暗示；示意；迹象"
+            },
+            {
+              "word": "amplifying",
+              "pos": "v.",
+              "definition": "v. 动词 amplify 的现在分词/动名词：放大（声音、信号等）；增强（强度、影响等）"
+            },
+            {
+              "word": "symbolised",
+              "pos": "v.",
+              "definition": "v. （英国拼法；等于 symbolize）象征；代表"
+            },
+            {
+              "word": "femininity",
+              "pos": "n.",
+              "definition": "n. 女性；女子本性；女性身份"
+            },
+            {
+              "word": "inherently",
+              "pos": "adv.",
+              "definition": "adv. 内在地；固有地"
+            },
+            {
+              "word": "attractive",
+              "pos": "adj.",
+              "definition": "adj. 吸引人的；有吸引力的；（人）迷人的"
+            },
+            {
+              "word": "marketing",
+              "pos": "n.",
+              "definition": "n. 促销；营销"
+            },
+            {
+              "word": "constancy",
+              "pos": "n.",
+              "definition": "n. 恒久不变；恒久性；稳定"
+            },
+            {
+              "word": "dominant",
+              "pos": "adj.",
+              "definition": "adj. 占支配地位的；占优势的"
+            },
+            {
+              "word": "strategy",
+              "pos": "n.",
+              "definition": "n. （尤指为获得某物制定长期的）策略；行动计划"
+            },
+            {
+              "word": "critical",
+              "pos": "adj.",
+              "definition": "adj. 批判的；爱挑剔的；极其重要的"
+            },
+            {
+              "word": "defined",
+              "pos": "adj.",
+              "definition": "adj. 轮廓分明的；外形清晰的；vt. 给……下定义"
+            },
+            {
+              "word": "became",
+              "pos": "v.",
+              "definition": "v. 成为；变得（become 的过去式）"
+            },
+            {
+              "word": "Virgin",
+              "pos": "n.",
+              "definition": "n. 处女；处男；无经验的人"
+            },
+            {
+              "word": "female",
+              "pos": "adj.",
+              "definition": "adj. 女性的；妇女的；女性特有的"
             },
             {
               "word": "fully",
@@ -2425,10 +2165,10 @@
         },
         {
           "pid": 2,
-          "text": "Take the toddler. I assumed that phase was something experts developed after years of research into children’s behaviour: wrong. Turns out, according to Daniel Cook, a historian of childhood consumerism, it was popularised as a marketing trick by clothing manufacturers in the 1930s.",
-          "translation": "带着小孩。我以为这个阶段是专家们对儿童行为进行多年研究后得出的结论：错误的。儿童消费主义历史学家丹尼尔·库克 (Daniel Cook) 表示，事实证明，这种做法在 20 世纪 30 年代被服装制造商作为一种营销伎俩而普及。",
-          "slashed_text": "Take the toddler. / I assumed / that phase was something experts developed / after years of research / into children’s behaviour : / wrong. / Turns out , / according to Daniel Cook , / a historian of childhood consumerism , / it was popularised as a marketing trick / by clothing manufacturers in the 1930s.",
-          "chunk_translation": "以“幼儿”这一概念为例 / 我原本以为 / 这一阶段是专家们总结出来的 / 经过多年研究 / 对儿童行为的研究： / 错了 / 事实证明 / 据儿童消费主义历史学家丹尼尔·库克表示 / 一位儿童消费主义历史学家 / 它是作为一种营销策略被推广普及的 / 由20世纪30年代的服装制造商推行",
+          "text": "I had not realised how profoundly marketing trends dictated our perception of what is natural to kids, including our core beliefs about their psychological development. Take the toddler. I assumed that phase was something experts developed after years of research into children’s behaviour: wrong. Turns out, according to Daniel Cook, a historian of childhood consumerism, it was popularised as a marketing trick by clothing manufacturers in the 1930s.",
+          "translation": "我没有意识到营销趋势如何深刻地决定了我们对孩子自然行为的看法，包括我们对他们心理发展的核心信念。带着小孩。我以为这个阶段是专家们对儿童行为进行多年研究后得出的结论：错误的。儿童消费主义历史学家丹尼尔·库克 (Daniel Cook) 表示，事实证明，这种做法在 20 世纪 30 年代被服装制造商作为一种营销伎俩而普及。",
+          "slashed_text": "I had not realised how profoundly marketing trends dictated our perception of what is natural to kids , / including our core beliefs / about their psychological development. / Take the toddler. / I assumed / that phase was something experts developed / after years of research / into children’s behaviour : / wrong. / Turns out , / according to Daniel Cook , / a historian of childhood consumerism , / it was popularised as a marketing trick / by clothing manufacturers in the 1930s.",
+          "chunk_translation": "我原本没有意识到，营销趋势竟然如此深刻地决定了我们对儿童天性的认知 / 包括我们的核心信念 / 关于他们的心理发展 / 以“幼儿”这一概念为例 / 我原本以为 / 这一阶段是专家们总结出来的 / 经过多年研究 / 对儿童行为的研究： / 错了 / 事实证明 / 据儿童消费主义历史学家丹尼尔·库克表示 / 一位儿童消费主义历史学家 / 它是作为一种营销策略被推广普及的 / 由20世纪30年代的服装制造商推行",
           "vocabulary": [
             {
               "word": "according",
@@ -2441,9 +2181,99 @@
               "definition": "n. 促销；营销"
             },
             {
+              "word": "psychological development",
+              "pos": "",
+              "definition": "心理发展"
+            },
+            {
+              "word": "psychological",
+              "pos": "adj.",
+              "definition": "adj. 心理的；精神的；心理学的"
+            },
+            {
+              "word": "development",
+              "pos": "n.",
+              "definition": "n. 发育；成长；发达"
+            },
+            {
+              "word": "profoundly",
+              "pos": "adv.",
+              "definition": "adv. 极大地；深刻地"
+            },
+            {
+              "word": "perception",
+              "pos": "n.",
+              "definition": "n. 看法；认识"
+            },
+            {
+              "word": "including",
+              "pos": "prep.",
+              "definition": "prep. 包括；包含"
+            },
+            {
+              "word": "realised",
+              "pos": "v.",
+              "definition": "v. 意识到；认识到"
+            },
+            {
+              "word": "dictated",
+              "pos": "v.",
+              "definition": "v. 口述；口授"
+            },
+            {
+              "word": "natural",
+              "pos": "adj.",
+              "definition": "adj. 天然的；非人为的"
+            },
+            {
+              "word": "beliefs",
+              "pos": "n.",
+              "definition": "n. 信仰；信念（belief 的复数）"
+            },
+            {
+              "word": "trends",
+              "pos": "n.",
+              "definition": "n. 趋势；动态"
+            },
+            {
               "word": "toddler",
               "pos": "",
               "definition": "n.幼童"
+            },
+            {
+              "word": "developed",
+              "pos": "adj.",
+              "definition": "adj. 发达的；高度发展的；先进的"
+            },
+            {
+              "word": "behaviour",
+              "pos": "n.",
+              "definition": "n. 行为；举止；态度"
+            },
+            {
+              "word": "research",
+              "pos": "n.",
+              "definition": "n. （尤指大学或科研机构进行的）研究；探讨；研究工作"
+            },
+            {
+              "word": "assumed",
+              "pos": "adj.",
+              "definition": "adj. 假定的；假设的；篡夺的"
+            },
+            {
+              "word": "experts",
+              "pos": "n.",
+              "definition": "n. 专家；人才（expert 的复数）"
+            },
+            {
+              "word": "phase",
+              "pos": "n.",
+              "definition": "n. （发展或变化的）阶段；时期；做出某种行为的短时期"
+            },
+            {
+              "word": "wrong",
+              "pos": "adj.",
+              "definition": "adj. 错误的；不合乎事实的；（状况）有问题的"
             },
             {
               "word": "consumerism",
@@ -2466,16 +2296,6 @@
               "definition": "使……受欢迎（popularise 的过去式）；推广（popularise 的过去式）"
             },
             {
-              "word": "developed",
-              "pos": "adj.",
-              "definition": "adj. 发达的；高度发展的；先进的"
-            },
-            {
-              "word": "behaviour",
-              "pos": "n.",
-              "definition": "n. 行为；举止；态度"
-            },
-            {
               "word": "historian",
               "pos": "n.",
               "definition": "n. 历史学家；史学工作者"
@@ -2486,39 +2306,14 @@
               "definition": "n. 童年；幼年时代"
             },
             {
-              "word": "research",
-              "pos": "n.",
-              "definition": "n. （尤指大学或科研机构进行的）研究；探讨；研究工作"
-            },
-            {
               "word": "clothing",
               "pos": "n.",
               "definition": "n. 衣服；（尤指某种）服装；v. 给……穿衣"
             },
             {
-              "word": "assumed",
-              "pos": "adj.",
-              "definition": "adj. 假定的；假设的；篡夺的"
-            },
-            {
-              "word": "experts",
-              "pos": "n.",
-              "definition": "n. 专家；人才（expert 的复数）"
-            },
-            {
               "word": "Daniel",
               "pos": "n.",
               "definition": "n. 丹尼尔（男子名）；但以理（《圣经》中的先知）；《但以理书》（《旧约》经卷）"
-            },
-            {
-              "word": "phase",
-              "pos": "n.",
-              "definition": "n. （发展或变化的）阶段；时期；做出某种行为的短时期"
-            },
-            {
-              "word": "wrong",
-              "pos": "adj.",
-              "definition": "adj. 错误的；不合乎事实的；（状况）有问题的"
             },
             {
               "word": "Turns",
@@ -2540,24 +2335,24 @@
           "chunk_translation": "行业刊物建议百货商店 / 称 / 为了提高销量 / 他们应该在婴儿服饰与大童服饰之间设立“第三块垫脚石” / 正是在“幼儿”成为购物者的常用词之后 / 它才演变成为一个被广泛接受的生长发育阶段 / 把儿童 / 或成年人 / 细分为更细小的类别已被证明是提高利润的绝妙方法 / 而细分市场最容易的方法之一就是放大性别差异—— / 或者凭空捏造差异 / 在原本并不存在的地方",
           "vocabulary": [
             {
-              "word": "differences",
-              "pos": "n.",
-              "definition": "n. （difference 的复数形式）差异；差别"
-            },
-            {
               "word": "clothes",
               "pos": "n.",
               "definition": "n. 衣服；衣物；（在特定场合、特定时间或由特定人群穿着的）服装"
             },
             {
-              "word": "became",
-              "pos": "v.",
-              "definition": "v. 成为；变得（become 的过去式）"
-            },
-            {
               "word": "gender",
               "pos": "n.",
               "definition": "n. 性别；（语法中的）性；（总称）男性"
+            },
+            {
+              "word": "differences",
+              "pos": "n.",
+              "definition": "n. （difference 的复数形式）差异；差别"
+            },
+            {
+              "word": "became",
+              "pos": "v.",
+              "definition": "v. 成为；变得（become 的过去式）"
             },
             {
               "word": "toddler",
@@ -2630,16 +2425,6 @@
               "definition": "n. 石头；石料；石块"
             },
             {
-              "word": "segment",
-              "pos": "",
-              "definition": "v.分割,划分,细分"
-            },
-            {
-              "word": "magnify",
-              "pos": "",
-              "definition": "v.放大,扩大"
-            },
-            {
               "word": "a sure-fire way to",
               "pos": "",
               "definition": "...绝佳办法"
@@ -2650,11 +2435,6 @@
               "definition": "提高利润"
             },
             {
-              "word": "segment a market",
-              "pos": "",
-              "definition": "细分市场"
-            },
-            {
               "word": "developmental",
               "pos": "adj.",
               "definition": "adj. 发展的；生长的；促使成长的"
@@ -2663,11 +2443,6 @@
               "word": "categories",
               "pos": "n.",
               "definition": "n. 类别；种类；分类（category 的复数）"
-            },
-            {
-              "word": "previously",
-              "pos": "adv.",
-              "definition": "adv. 以前地；先前地"
             },
             {
               "word": "Splitting",
@@ -2700,11 +2475,6 @@
               "definition": "n. 利润；盈利；（会计）收益"
             },
             {
-              "word": "easiest",
-              "pos": "adj.",
-              "definition": "adj. （easy 的最高级）最容易的；最轻松的"
-            },
-            {
               "word": "adults",
               "pos": "n.",
               "definition": "n. 成年人（adult 的复数形式）；（生物学）成年动物（adult 的复数形式；如成虫、成体）"
@@ -2720,16 +2490,6 @@
               "definition": "adj. 证实的；被证明的；v. prove 的过去式和过去分词：证明"
             },
             {
-              "word": "market",
-              "pos": "n.",
-              "definition": "n. 集市；市场；交易"
-            },
-            {
-              "word": "invent",
-              "pos": "v.",
-              "definition": "v. 发明；创造；编造"
-            },
-            {
               "word": "stage",
               "pos": "n.",
               "definition": "n. 阶段；时期；旅程（或赛跑中）的一段"
@@ -2738,11 +2498,6 @@
               "word": "boost",
               "pos": "v.",
               "definition": "v. 使增长；推动；偷窃"
-            },
-            {
-              "word": "exist",
-              "pos": "v.",
-              "definition": "v. 存在；实际上有；持续存在"
             }
           ]
         }
@@ -2862,8 +2617,8 @@
         },
         {
           "sid": 4,
-          "pid": 0,
-          "sentence_index": 4,
+          "pid": 1,
+          "sentence_index": 0,
           "text": "Girls’ attraction to pink may seem unavoidable, somehow encoded in their DNA, but according to Jo Paoletti, an associate professor of American Studies, it is not.",
           "translation": "女孩对粉色的喜爱似乎是不可避免的，不知何故已被编码在她们的 DNA 中，但根据美国研究副教授乔·保莱蒂 (Jo Paoletti) 的说法，事实并非如此。",
           "slashed_text": "Girls’ attraction to pink may seem unavoidable , / somehow encoded / in their DNA , / but according to Jo Paoletti , / an associate professor of American Studies , / it is not.",
@@ -2891,7 +2646,7 @@
         {
           "sid": 5,
           "pid": 1,
-          "sentence_index": 0,
+          "sentence_index": 1,
           "text": "Children were not colour-coded at all until the early 20th century: in the era before domestic washing machines all babies wore white as a practical matter, since the only way of getting clothes clean was to boil them.",
           "translation": "直到20世纪初，孩子们才被用颜色区分：在家用洗衣机还没有出现的时代，所有婴儿实际上都穿白色的衣服，因为清洗衣服的唯一方法就是将它们煮沸。",
           "slashed_text": "Children were not colour-coded at all until the early 20th century : / in the era / before domestic washing machines all babies wore white as a practical matter , / since the only way of getting clothes clean was to boil them.",
@@ -2919,7 +2674,7 @@
         {
           "sid": 6,
           "pid": 1,
-          "sentence_index": 1,
+          "sentence_index": 2,
           "text": "What’s more, both boys and girls wore what were thought of as gender-neutral dresses.",
           "translation": "更重要的是，男孩和女孩都穿着被认为是中性的衣服。",
           "slashed_text": "What’s more , / both boys and girls wore what were thought of as gender-neutral dresses.",
@@ -2942,7 +2697,7 @@
         {
           "sid": 7,
           "pid": 1,
-          "sentence_index": 2,
+          "sentence_index": 3,
           "text": "When nursery colours were introduced, pink was actually considered the more masculine colour, a pastel version of red, which was associated with strength.",
           "translation": "当引入童趣色时，粉色实际上被认为是更男性化的颜色，是红色的柔和版本，与力量相关。",
           "slashed_text": "When nursery colours were introduced , / pink was actually considered the more masculine colour , / a pastel version of red , / which was associated / with strength.",
@@ -2970,7 +2725,7 @@
         {
           "sid": 8,
           "pid": 1,
-          "sentence_index": 3,
+          "sentence_index": 4,
           "text": "Blue, with its intimations of the Virgin Mary, constancy and faithfulness, symbolised femininity.",
           "translation": "蓝色暗示着圣母玛利亚、坚贞和忠诚，象征着女性气质。",
           "slashed_text": "Blue , / with its intimations of the Virgin Mary , / constancy and faithfulness , / symbolised femininity.",
@@ -2998,7 +2753,7 @@
         {
           "sid": 9,
           "pid": 1,
-          "sentence_index": 4,
+          "sentence_index": 5,
           "text": "It was not until the mid-1980s, when amplifying age and sex differences became a dominant children’s marketing strategy, that pink fully came into its own, when it began to seem inherently attractive to girls, part of what defined them as female, at least for the first few critical years.",
           "translation": "直到 20 世纪 80 年代中期，扩大年龄和性别差异成为儿童营销的主要策略时，粉色才完全发挥了作用，它开始对女孩具有天生的吸引力，这也是她们被定义为女性的一部分，至少在最初的关键几年里是这样。",
           "slashed_text": "It was not until the mid-1980s , / when amplifying age and sex differences became a dominant children’s marketing strategy , / that pink fully came into its own , / when it began to seem inherently attractive to girls , / part of what defined them as female , / at least for the first few critical years.",
@@ -3025,8 +2780,8 @@
         },
         {
           "sid": 10,
-          "pid": 1,
-          "sentence_index": 5,
+          "pid": 2,
+          "sentence_index": 0,
           "text": "I had not realised how profoundly marketing trends dictated our perception of what is natural to kids, including our core beliefs about their psychological development.",
           "translation": "我没有意识到营销趋势如何深刻地决定了我们对孩子自然行为的看法，包括我们对他们心理发展的核心信念。",
           "slashed_text": "I had not realised how profoundly marketing trends dictated our perception of what is natural to kids , / including our core beliefs / about their psychological development.",
@@ -3054,7 +2809,7 @@
         {
           "sid": 11,
           "pid": 2,
-          "sentence_index": 0,
+          "sentence_index": 1,
           "text": "Take the toddler.",
           "translation": "带着小孩。",
           "slashed_text": "Take the toddler.",
@@ -3077,7 +2832,7 @@
         {
           "sid": 12,
           "pid": 2,
-          "sentence_index": 1,
+          "sentence_index": 2,
           "text": "I assumed that phase was something experts developed after years of research into children’s behaviour: wrong.",
           "translation": "我以为这个阶段是专家们对儿童行为进行多年研究后得出的结论：错误的。",
           "slashed_text": "I assumed / that phase was something experts developed / after years of research / into children’s behaviour : / wrong.",
@@ -3100,7 +2855,7 @@
         {
           "sid": 13,
           "pid": 2,
-          "sentence_index": 2,
+          "sentence_index": 3,
           "text": "Turns out, according to Daniel Cook, a historian of childhood consumerism, it was popularised as a marketing trick by clothing manufacturers in the 1930s.",
           "translation": "儿童消费主义历史学家丹尼尔·库克 (Daniel Cook) 表示，事实证明，这种做法在 20 世纪 30 年代被服装制造商作为一种营销伎俩而普及。",
           "slashed_text": "Turns out , / according to Daniel Cook , / a historian of childhood consumerism , / it was popularised as a marketing trick / by clothing manufacturers in the 1930s.",
@@ -3201,7 +2956,6 @@
         },
         {
           "sid": 17,
-          "pid": 3,
           "sentence_index": 3,
           "text": "And one of the easiest ways to segment a market is to magnify gender differences—or invent them where they did not previously exist.",
           "translation": "细分市场最简单的方法之一就是放大性别差异，或者在以前不存在的地方创造性别差异。",
@@ -3225,7 +2979,8 @@
                 "explanation": "全文收官点睛与主旨定性（Q30 终极题眼）。作者在全文最后一句彻底撕开“粉色少女文化”的面具：商界放大甚至无中生有制造性别差异，纯粹是为了细分市场攫取暴利。完美对应 Q30 正确项 C“mainly imposed by profit-driven businessmen”。"
               }
             ]
-          }
+          },
+          "pid": 3
         }
       ],
       "questions": [
@@ -3672,27 +3427,27 @@
         "paragraph_functions": [
           {
             "pid": 0,
-            "role": "【起】女童粉色狂热迷思：成年女性未曾有过的童年执念",
-            "core_point": "粉红色如今无孔不入地统治着小女孩的世界，然而成年女性回忆童年时却根本没有这种对粉色的病态狂热。",
-            "cohesive_devices": "以反差修辞开篇（adult women do not remember being so obsessed, yet pervasive today）。"
+            "role": "粉色风暴现象",
+            "function": "粉色风暴现象",
+            "core_point": "当下粉色对女童消费市场的垄断达到前所未有的程度，引发家长关于女孩刻板印象的担忧。"
           },
           {
             "pid": 1,
-            "role": "【承】历史真相还原：20世纪前婴儿着装毫无性别色彩编码",
-            "core_point": "历史事实是：在现代洗衣机问世之前，所有幼童不论男女一律穿着白色长袍，以便于随时用沸水和漂白粉高温去污。",
-            "cohesive_devices": "还原真实历史常识（Children were not colour-coded at all until early 20th century / era before washing machines）。"
+            "role": "历史观念反转",
+            "function": "历史观念反转",
+            "core_point": "女童对粉色的偏好并非天生编码，20世纪初之前男女婴幼儿服饰并无严格性别色彩界限。"
           },
           {
             "pid": 2,
-            "role": "【转】颠覆直觉的溯源：'蹒跚幼儿'概念绝非出自科学实验室",
-            "core_point": "大众普遍以为'Toddler'（幼儿）是一个严谨的心理发育科学里程碑，但作者深入考证发现，其源头竟是商业服装货架。",
-            "cohesive_devices": "以个案打破直觉认知（Take the toddler / assumed experts developed it after research）。"
+            "role": "商业推手揭秘",
+            "function": "商业推手揭秘",
+            "core_point": "幼儿概念与性别划分实为20世纪30年代服装零售制造商为刺激消费而人为制造的营销工具。"
           },
           {
             "pid": 3,
-            "role": "【合】商业资本收割的逻辑闭环：商贩黑话最终演变为社会共识",
-            "core_point": "商贩为了阻止大童衣服传给弟妹穿、强行发明细分年龄段，最终商家的促销黑话反客为主，固化为全社会信奉的阶梯与性别图腾。",
-            "cohesive_devices": "揭示商业塑造文化的闭环规律（only after 'toddler' became shoppers' term that it evolved into accepted stage）。"
+            "role": "商业营销操控",
+            "function": "商业营销操控",
+            "core_point": "百货公司与行业刊物利用色彩制造性别隔离以促进分层购买，刻意放大甚至虚构性别差异。"
           }
         ],
         "part_b_training": {
@@ -3823,26 +3578,6 @@
           "slashed_text": "In 2010 , / a federal judge shook America’s biotech industry to its core. / Companies had won patents / for isolated DNA / for decades — / by 2005 some 20 % of human genes were parented. / But / in March 2010 a judge ruled / that genes were unpatentable. / Executives were violently agitated. / The Biotechnology Industry Organisation (BIO) , / a trade group , / assured members / that this was just a “preliminary step” in a longer battle.",
           "chunk_translation": "2010年 / 一位联邦法官的判决彻底震撼了美国生物技术产业的核心 / 数十年来各大公司一直在获取分离DNA的专利 / 针对分离出的DNA / 数十年来—— / 到2005年已有约20%的人类基因被授予了专利 / 但 / 在2010年3月一位法官裁定 / 人类基因不具备专利资格 / 企业高管们陷入了极大的震动与不安 / 生物技术工业组织这一行业贸易团体 / 一个行业贸易团体 / 向会员保证 / 这只是一场漫长斗争中的“初步步骤”",
           "vocabulary": [
-            {
-              "word": "genes to be patentable",
-              "pos": "",
-              "definition": "【🎯解题正解】 基因可申请专利"
-            },
-            {
-              "word": "the BIO to issue a warning",
-              "pos": "",
-              "definition": "【💡题项表达】 BIO发出警告"
-            },
-            {
-              "word": "their executives to be active",
-              "pos": "",
-              "definition": "【💡题项表达】 他们的高管要积极主动"
-            },
-            {
-              "word": "judges to rule out gene patenting",
-              "pos": "",
-              "definition": "【💡题项表达】 法官排除基因专利申请"
-            },
             {
               "word": "violently",
               "pos": "",
@@ -3977,20 +3712,25 @@
         },
         {
           "pid": 1,
-          "text": "On July 29th they were relieved, at least temporarily. A federal appeals court overturned the prior decision, ruling that Myriad Genetics could indeed hold patents to two genes that help forecast a woman’s risk of breast cancer. The chief executive of Myriad, a company in Utah, said the ruling was a blessing to firms and patients alike. But as companies continue their attempts at personalised medicine, the courts will remain rather busy. The Myriad case itself is probably not over. Critics make three main arguments against gene patents: a gene is a product of nature, so it may not be patented; gene patents suppress innovation rather than reward it; and patents’ monopolies restrict access to genetic tests such as Myriad’s. A growing number seem to agree. Last year a federal task-force urged reform for patents related to genetic tests. In October the Department of Justice filed a brief in the Myriad case, arguing that an isolated DNA molecule “is no less a product of nature ... than are cotton fibres that have been separated from cotton seeds.”",
-          "translation": "7 月 29 日，他们松了一口气，至少暂时松了口气。联邦上诉法院推翻了先前的裁决，裁定 Myriad Genetics 确实可以拥有两个有助于预测女性患乳腺癌风险的基因的专利。犹他州 Myriad 公司的首席执行官表示，这一裁决对公司和患者来说都是一件好事。但随着公司继续尝试个性化医疗，法院将仍然相当忙碌。Myriad 案本身可能还没有结束。批评者对基因专利提出了三个主要论点：基因是自然的产物，因此不能申请专利；基因专利抑制创新而不是奖励创新；专利垄断限制了 Myriad 等基因检测的使用。越来越多的人似乎同意这一观点。去年，一个联邦工作组敦促对与基因测试相关的专利进行改革。10 月，司法部就 Myriad 案提交了一份简报，认为分离的 DNA 分子“不亚于自然产物......比从棉籽中分离出来的棉纤维还要多。”",
-          "slashed_text": "On July 29th they were relieved , / at least temporarily. / A federal appeals court overturned the prior decision , / ruling / that Myriad Genetics could indeed hold patents to two genes / that help forecast a woman’s risk of breast cancer. / The chief executive of Myriad , / a company / in Utah , / said the ruling was a blessing to firms and patients alike. / But as companies continue their attempts / at personalised medicine , / the courts will remain rather busy. / The Myriad case itself is probably not over. / Critics make three main arguments against gene patents : / a gene is a product of nature , / so it may not be patented ; / gene patents suppress innovation rather than reward it ; / and patents’ monopolies restrict access to genetic tests such as Myriad’s. / A growing number seem to agree. / Last year a federal task-force urged reform / for patents related to genetic tests. / In October the Department of Justice filed a brief in the Myriad case , / arguing / that an isolated DNA molecule “is no less a product of nature ... / than are cotton fibres / that have been separated / from cotton seeds.”",
-          "chunk_translation": "7月29日，他们如释重负 / 至少暂时如此 / 一家联邦上诉法院推翻了先前的裁决 / 裁定 / 迈利亚德基因公司确实可以拥有两项基因专利 / 这两项基因有助于预测女性患乳腺癌的风险 / 迈利亚德公司的首席执行官 / 一家公司 / 位于犹他州 / 表示这一裁决对企业和患者而言都是福音 / 但随着各大公司继续推进个性化医疗的尝试 / 在个性化医疗领域 / 各级法院仍将相当忙碌 / 迈利亚德案本身很可能并未尘埃落定 / 批评人士针对基因专利提出了三大主要反对论据： / 基因属于天然产物 / 因此不应授予专利； / 基因专利压制了创新而非奖励创新； / 且专利垄断限制了人们获取基因检测服务的途径，如迈利亚德公司的检测 / 似乎有越来越多的人认同这一观点 / 去年一个联邦特别工作组敦促推进改革 / 针对与基因检测相关的专利 / 10月份美国司法部就迈利亚德案提交了一份辩护状 / 主张 / 分离出的DNA分子“同样属于天然产物…… / 并不亚于棉纤维 / 那些被分离出来的 / 从棉籽中分离的”",
+          "text": "On July 29th they were relieved, at least temporarily. A federal appeals court overturned the prior decision, ruling that Myriad Genetics could indeed hold patents to two genes that help forecast a woman’s risk of breast cancer. The chief executive of Myriad, a company in Utah, said the ruling was a blessing to firms and patients alike.",
+          "translation": "7 月 29 日，他们松了一口气，至少暂时松了口气。联邦上诉法院推翻了先前的裁决，裁定 Myriad Genetics 确实可以拥有两个有助于预测女性患乳腺癌风险的基因的专利。犹他州 Myriad 公司的首席执行官表示，这一裁决对公司和患者来说都是一件好事。",
+          "slashed_text": "On July 29th they were relieved , / at least temporarily. / A federal appeals court overturned the prior decision , / ruling / that Myriad Genetics could indeed hold patents to two genes / that help forecast a woman’s risk of breast cancer. / The chief executive of Myriad , / a company / in Utah , / said the ruling was a blessing to firms and patients alike.",
+          "chunk_translation": "7月29日，他们如释重负 / 至少暂时如此 / 一家联邦上诉法院推翻了先前的裁决 / 裁定 / 迈利亚德基因公司确实可以拥有两项基因专利 / 这两项基因有助于预测女性患乳腺癌的风险 / 迈利亚德公司的首席执行官 / 一家公司 / 位于犹他州 / 表示这一裁决对企业和患者而言都是福音",
           "vocabulary": [
             {
-              "word": "only man-made products are patentable",
-              "pos": "",
-              "definition": "【🎯解题正解】 只有人造产品才可申请专利"
+              "word": "federal",
+              "pos": "adj.",
+              "definition": "adj. 联邦（制）的；（与）联邦政府（有关的）的"
             },
             {
-              "word": "genetic tests are not reliable",
-              "pos": "",
-              "definition": "【💡题项表达】 基因测试不可靠"
+              "word": "patents",
+              "pos": "n.",
+              "definition": "n. 专利（patent 的复数形式）；专利权"
+            },
+            {
+              "word": "genes",
+              "pos": "n.",
+              "definition": "n. 基因（gene 的复数）；n. （Genes）（俄）格涅斯（人名）"
             },
             {
               "word": "federal appeals court",
@@ -4023,6 +3763,120 @@
               "definition": "推翻先前判决"
             },
             {
+              "word": "temporarily",
+              "pos": "adv.",
+              "definition": "adv. 暂时地；临时地"
+            },
+            {
+              "word": "overturned",
+              "pos": "adj.",
+              "definition": "adj. 倾覆的；翻倒的"
+            },
+            {
+              "word": "executive",
+              "pos": "adj.",
+              "definition": "adj. 行政的；有执行权的；高档的"
+            },
+            {
+              "word": "relieved",
+              "pos": "adj.",
+              "definition": "adj. 放心的；宽慰的"
+            },
+            {
+              "word": "Genetics",
+              "pos": "n.",
+              "definition": "n. 遗传学；（有机体、特征等的）遗传性；遗传特征"
+            },
+            {
+              "word": "forecast",
+              "pos": "v.",
+              "definition": "v. 预测；预报；n. 预测"
+            },
+            {
+              "word": "patients",
+              "pos": "n.",
+              "definition": "n. 病人；患者；（语言学）受动者"
+            },
+            {
+              "word": "appeals",
+              "pos": "n.",
+              "definition": "n. （appeal 的复数）恳求；呼吁"
+            },
+            {
+              "word": "ruling",
+              "pos": "n.",
+              "definition": "n. （尤指法庭的）裁决；裁定；统治"
+            },
+            {
+              "word": "Myriad",
+              "pos": "n.",
+              "definition": "n. 无数；大量；（多用于古典历史剧中）一万"
+            },
+            {
+              "word": "indeed",
+              "pos": "adv.",
+              "definition": "adv. 确实；的确；实际上"
+            },
+            {
+              "word": "breast",
+              "pos": "n.",
+              "definition": "n. 乳房；胸部；胸脯"
+            },
+            {
+              "word": "cancer",
+              "pos": "n.",
+              "definition": "n. 癌症；痼疾；社会恶习"
+            },
+            {
+              "word": "court",
+              "pos": "n.",
+              "definition": "n. 法院；法庭"
+            },
+            {
+              "word": "chief",
+              "pos": "adj.",
+              "definition": "adj. 首要的；主要的；为首的"
+            },
+            {
+              "word": "firms",
+              "pos": "n.",
+              "definition": "n. 公司；厂商（firm 的复数）；v. 变得坚实"
+            },
+            {
+              "word": "Firms",
+              "pos": "n.",
+              "definition": "n. 公司；厂商（firm 的复数）；v. 变得坚实"
+            }
+          ]
+        },
+        {
+          "pid": 2,
+          "text": "But as companies continue their attempts at personalised medicine, the courts will remain rather busy. The Myriad case itself is probably not over. Critics make three main arguments against gene patents: a gene is a product of nature, so it may not be patented; gene patents suppress innovation rather than reward it; and patents’ monopolies restrict access to genetic tests such as Myriad’s. A growing number seem to agree. Last year a federal task-force urged reform for patents related to genetic tests. In October the Department of Justice filed a brief in the Myriad case, arguing that an isolated DNA molecule “is no less a product of nature ... than are cotton fibres that have been separated from cotton seeds.”",
+          "translation": "但随着公司继续尝试个性化医疗，法院将仍然相当忙碌。Myriad 案本身可能还没有结束。批评者对基因专利提出了三个主要论点：基因是自然的产物，因此不能申请专利；基因专利抑制创新而不是奖励创新；专利垄断限制了 Myriad 等基因检测的使用。越来越多的人似乎同意这一观点。去年，一个联邦工作组敦促对与基因测试相关的专利进行改革。10 月，司法部就 Myriad 案提交了一份简报，认为分离的 DNA 分子“不亚于自然产物......比从棉籽中分离出来的棉纤维还要多。”",
+          "slashed_text": "But as companies continue their attempts / at personalised medicine , / the courts will remain rather busy. / The Myriad case itself is probably not over. / Critics make three main arguments against gene patents : / a gene is a product of nature , / so it may not be patented ; / gene patents suppress innovation rather than reward it ; / and patents’ monopolies restrict access to genetic tests such as Myriad’s. / A growing number seem to agree. / Last year a federal task-force urged reform / for patents related to genetic tests. / In October the Department of Justice filed a brief in the Myriad case , / arguing / that an isolated DNA molecule “is no less a product of nature ... / than are cotton fibres / that have been separated / from cotton seeds.”",
+          "chunk_translation": "但随着各大公司继续推进个性化医疗的尝试 / 在个性化医疗领域 / 各级法院仍将相当忙碌 / 迈利亚德案本身很可能并未尘埃落定 / 批评人士针对基因专利提出了三大主要反对论据： / 基因属于天然产物 / 因此不应授予专利； / 基因专利压制了创新而非奖励创新； / 且专利垄断限制了人们获取基因检测服务的途径，如迈利亚德公司的检测 / 似乎有越来越多的人认同这一观点 / 去年一个联邦特别工作组敦促推进改革 / 针对与基因检测相关的专利 / 10月份美国司法部就迈利亚德案提交了一份辩护状 / 主张 / 分离出的DNA分子“同样属于天然产物…… / 并不亚于棉纤维 / 那些被分离出来的 / 从棉籽中分离的”",
+          "vocabulary": [
+            {
+              "word": "isolated",
+              "pos": "adj.",
+              "definition": "adj. 遥远的；偏僻的"
+            },
+            {
+              "word": "federal",
+              "pos": "adj.",
+              "definition": "adj. 联邦（制）的；（与）联邦政府（有关的）的"
+            },
+            {
+              "word": "patents",
+              "pos": "n.",
+              "definition": "n. 专利（patent 的复数形式）；专利权"
+            },
+            {
+              "word": "Myriad",
+              "pos": "n.",
+              "definition": "n. 无数；大量；（多用于古典历史剧中）一万"
+            },
+            {
               "word": "personalised",
               "pos": "",
               "definition": "a.个性化的"
@@ -4053,16 +3907,6 @@
               "definition": "限制对...的使用"
             },
             {
-              "word": "temporarily",
-              "pos": "adv.",
-              "definition": "adv. 暂时地；临时地"
-            },
-            {
-              "word": "overturned",
-              "pos": "adj.",
-              "definition": "adj. 倾覆的；翻倒的"
-            },
-            {
               "word": "innovation",
               "pos": "n.",
               "definition": "n. 新事物；新方法；革新"
@@ -4078,11 +3922,6 @@
               "definition": "n. （组织或机构中的）部；司；系"
             },
             {
-              "word": "executive",
-              "pos": "adj.",
-              "definition": "adj. 行政的；有执行权的；高档的"
-            },
-            {
               "word": "arguments",
               "pos": "n.",
               "definition": "n. 争论；争吵；辩论"
@@ -4091,16 +3930,6 @@
               "word": "separated",
               "pos": "adj.",
               "definition": "adj. 分居的；独居的；脱臼的"
-            },
-            {
-              "word": "isolated",
-              "pos": "adj.",
-              "definition": "adj. 遥远的；偏僻的"
-            },
-            {
-              "word": "relieved",
-              "pos": "adj.",
-              "definition": "adj. 放心的；宽慰的"
             },
             {
               "word": "attempts",
@@ -4118,21 +3947,6 @@
               "definition": "adj. 专利的；受专利保护的"
             },
             {
-              "word": "Genetics",
-              "pos": "n.",
-              "definition": "n. 遗传学；（有机体、特征等的）遗传性；遗传特征"
-            },
-            {
-              "word": "forecast",
-              "pos": "v.",
-              "definition": "v. 预测；预报；n. 预测"
-            },
-            {
-              "word": "patients",
-              "pos": "n.",
-              "definition": "n. 病人；患者；（语言学）受动者"
-            },
-            {
               "word": "probably",
               "pos": "adv.",
               "definition": "adv. 大概；或许"
@@ -4141,21 +3955,6 @@
               "word": "restrict",
               "pos": "v.",
               "definition": "v. 限制；控制（大小、数量、范围）；限制（活动或行为）"
-            },
-            {
-              "word": "federal",
-              "pos": "adj.",
-              "definition": "adj. 联邦（制）的；（与）联邦政府（有关的）的"
-            },
-            {
-              "word": "patents",
-              "pos": "n.",
-              "definition": "n. 专利（patent 的复数形式）；专利权"
-            },
-            {
-              "word": "appeals",
-              "pos": "n.",
-              "definition": "n. （appeal 的复数）恳求；呼吁"
             },
             {
               "word": "related",
@@ -4198,31 +3997,6 @@
               "definition": "n. 法院；法庭（court 的复数）"
             },
             {
-              "word": "ruling",
-              "pos": "n.",
-              "definition": "n. （尤指法庭的）裁决；裁定；统治"
-            },
-            {
-              "word": "Myriad",
-              "pos": "n.",
-              "definition": "n. 无数；大量；（多用于古典历史剧中）一万"
-            },
-            {
-              "word": "indeed",
-              "pos": "adv.",
-              "definition": "adv. 确实；的确；实际上"
-            },
-            {
-              "word": "breast",
-              "pos": "n.",
-              "definition": "n. 乳房；胸部；胸脯"
-            },
-            {
-              "word": "cancer",
-              "pos": "n.",
-              "definition": "n. 癌症；痼疾；社会恶习"
-            },
-            {
               "word": "itself",
               "pos": "pron.",
               "definition": "pron. 它自己；它本身（表强调）；与抽象品质名词连用"
@@ -4251,26 +4025,6 @@
               "word": "fibres",
               "pos": "n.",
               "definition": "n. （材）纤维（fibre 的复数）；膳食纤维；神经、肌肉等组织中的纤维"
-            },
-            {
-              "word": "court",
-              "pos": "n.",
-              "definition": "n. 法院；法庭"
-            },
-            {
-              "word": "genes",
-              "pos": "n.",
-              "definition": "n. 基因（gene 的复数）；n. （Genes）（俄）格涅斯（人名）"
-            },
-            {
-              "word": "chief",
-              "pos": "adj.",
-              "definition": "adj. 首要的；主要的；为首的"
-            },
-            {
-              "word": "firms",
-              "pos": "n.",
-              "definition": "n. 公司；厂商（firm 的复数）；v. 变得坚实"
             },
             {
               "word": "agree",
@@ -4306,21 +4060,36 @@
               "word": "busy",
               "pos": "adj.",
               "definition": "adj. 繁忙的；忙碌的"
-            },
-            {
-              "word": "file",
-              "pos": "n.",
-              "definition": "n. 文件夹（或箱、柜等）；（计算机的）文档"
             }
           ]
         },
         {
-          "pid": 2,
+          "pid": 3,
           "text": "Despite the appeals court’s decision, big questions remain unanswered. For example, it is unclear whether the sequencing of a whole genome violates the patents of individual genes within it. The case may yet reach the Supreme Court.",
           "translation": "尽管上诉法院做出了裁决，但仍有一些重大问题没有得到解答。例如，目前尚不清楚整个基因组的测序是否侵犯了其中单个基因的专利。该案可能仍会提交最高法院。",
           "slashed_text": "Despite the appeals court’s decision , / big questions remain unanswered. / For example , / it is unclear whether the sequencing of a whole genome violates the patents of individual genes within it. / The case may yet reach the Supreme Court.",
           "chunk_translation": "尽管上诉法院做出了裁决 / 但重大问题依然悬而未决 / 例如 / 目前尚不清楚对整个基因组进行测序是否会侵犯其中单个基因的专利权 / 该案最终仍有可能上诉至联邦最高法院",
           "vocabulary": [
+            {
+              "word": "patents",
+              "pos": "n.",
+              "definition": "n. 专利（patent 的复数形式）；专利权"
+            },
+            {
+              "word": "genes",
+              "pos": "n.",
+              "definition": "n. 基因（gene 的复数）；n. （Genes）（俄）格涅斯（人名）"
+            },
+            {
+              "word": "appeals",
+              "pos": "n.",
+              "definition": "n. （appeal 的复数）恳求；呼吁"
+            },
+            {
+              "word": "court",
+              "pos": "n.",
+              "definition": "n. 法院；法庭"
+            },
             {
               "word": "genome",
               "pos": "",
@@ -4367,16 +4136,6 @@
               "definition": "v. 违反；违背；违犯（法律、协议、规则、承诺等）"
             },
             {
-              "word": "patents",
-              "pos": "n.",
-              "definition": "n. 专利（patent 的复数形式）；专利权"
-            },
-            {
-              "word": "appeals",
-              "pos": "n.",
-              "definition": "n. （appeal 的复数）恳求；呼吁"
-            },
-            {
               "word": "Despite",
               "pos": "prep.",
               "definition": "prep. 尽管；即使"
@@ -4397,53 +4156,58 @@
               "definition": "adj. 最高的；至高无上的"
             },
             {
-              "word": "court",
-              "pos": "n.",
-              "definition": "n. 法院；法庭"
-            },
-            {
               "word": "whole",
               "pos": "adj.",
               "definition": "adj. 全部的；整个的；完整的"
-            },
-            {
-              "word": "genes",
-              "pos": "n.",
-              "definition": "n. 基因（gene 的复数）；n. （Genes）（俄）格涅斯（人名）"
             }
           ]
         },
         {
-          "pid": 3,
+          "pid": 4,
           "text": "As the industry advances, however, other suits may have an even greater impact. Companies are unlikely to file many more patents for human DNA molecules—most are already patented or in the public domain. Firms are now studying how genes interact, looking for correlations that might be used to determine the causes of disease or predict a drug’s efficacy. Companies are eager to win patents for “connecting the dots”, explains Hans Sauer, a lawyer for the BIO.",
           "translation": "然而，随着行业的进步，其他诉讼可能会产生更大的影响。公司不太可能为人类 DNA 分子申请更多专利——大多数已经获得专利或属于公共领域。公司现在正在研究基因如何相互作用，寻找可用于确定疾病原因或预测药物疗效的相关性。BIO 律师汉斯·索尔 (Hans Sauer) 解释说，公司渴望赢得“连接点”的专利。",
           "slashed_text": "As the industry advances , / however , / other suits may have an even greater impact. / Companies are unlikely to file many more patents / for human DNA molecules — / most are already patented or in the public domain. / Firms are now studying how genes interact , / looking / for correlations / that might be used to determine the causes of disease or predict a drug’s efficacy. / Companies are eager to win patents for “connecting the dots” , / explains Hans Sauer , / a lawyer for the BIO.",
           "chunk_translation": "然而随着该行业的向前发展 / 然而 / 其他相关诉讼可能会产生更为深远的影响 / 各公司不太可能再申请大量人类DNA分子专利—— / 针对人类DNA分子—— / 大多数基因要么已被授予专利，要么已进入公有领域 / 各大企业目前正在研究基因之间如何相互作用 / 寻找 / 潜在的关联性 / 这些关联可用于确定疾病病因或预测药物疗效 / 各家公司渴望在“关联分析”领域获得专利 / 汉斯·绍尔解释道 / 生物技术工业组织的律师",
           "vocabulary": [
             {
-              "word": "discovering gene interactions",
-              "pos": "",
-              "definition": "【🎯解题正解】 发现基因相互作用"
+              "word": "industry",
+              "pos": "n.",
+              "definition": "n. 工业；生产制造"
             },
             {
-              "word": "establishing disease correlations",
-              "pos": "",
-              "definition": "【💡题项表达】 建立疾病相关性"
+              "word": "patents",
+              "pos": "n.",
+              "definition": "n. 专利（patent 的复数形式）；专利权"
             },
             {
-              "word": "drawing pictures of genes",
-              "pos": "",
-              "definition": "【💡题项表达】 绘制基因图片"
+              "word": "human",
+              "pos": "adj.",
+              "definition": "adj. 人的；人类的"
             },
             {
-              "word": "identifying human DNA",
-              "pos": "",
-              "definition": "【💡题项表达】 识别人类DNA"
+              "word": "genes",
+              "pos": "n.",
+              "definition": "n. 基因（gene 的复数）；n. （Genes）（俄）格涅斯（人名）"
+            },
+            {
+              "word": "firms",
+              "pos": "n.",
+              "definition": "n. 公司；厂商（firm 的复数）；v. 变得坚实"
+            },
+            {
+              "word": "Firms",
+              "pos": "n.",
+              "definition": "n. 公司；厂商（firm 的复数）；v. 变得坚实"
+            },
+            {
+              "word": "patented",
+              "pos": "adj.",
+              "definition": "adj. 专利的；受专利保护的"
             },
             {
               "word": "file",
-              "pos": "",
-              "definition": "v.提出,提交,发表"
+              "pos": "n.",
+              "definition": "n. 文件夹（或箱、柜等）；（计算机的）文档"
             },
             {
               "word": "domain",
@@ -4486,11 +4250,6 @@
               "definition": "v. 决定；控制；查明"
             },
             {
-              "word": "industry",
-              "pos": "n.",
-              "definition": "n. 工业；生产制造"
-            },
-            {
               "word": "advances",
               "pos": "v.",
               "definition": "v. （使）前进；（使）向前移动"
@@ -4501,11 +4260,6 @@
               "definition": "adj. 不大可能发生的；未必真实的"
             },
             {
-              "word": "patented",
-              "pos": "adj.",
-              "definition": "adj. 专利的；受专利保护的"
-            },
-            {
               "word": "studying",
               "pos": "v.",
               "definition": "v. 研究；学习（study的ing形式）"
@@ -4514,11 +4268,6 @@
               "word": "efficacy",
               "pos": "n.",
               "definition": "n. 功效；效力"
-            },
-            {
-              "word": "patents",
-              "pos": "n.",
-              "definition": "n. 专利（patent 的复数形式）；专利权"
             },
             {
               "word": "however",
@@ -4561,21 +4310,6 @@
               "definition": "n. （suit 的复数）套装；西服（也指特定活动穿的成套服装）"
             },
             {
-              "word": "human",
-              "pos": "adj.",
-              "definition": "adj. 人的；人类的"
-            },
-            {
-              "word": "Firms",
-              "pos": "n.",
-              "definition": "n. 公司；厂商（firm 的复数）；v. 变得坚实"
-            },
-            {
-              "word": "genes",
-              "pos": "n.",
-              "definition": "n. 基因（gene 的复数）；n. （Genes）（俄）格涅斯（人名）"
-            },
-            {
               "word": "eager",
               "pos": "adj.",
               "definition": "adj. 热切的；渴望的；渴求的"
@@ -4584,55 +4318,20 @@
               "word": "Sauer",
               "pos": "n.",
               "definition": "n. 萨奥尔（姓氏）"
-            },
-            {
-              "word": "suit",
-              "pos": "n.",
-              "definition": "n. 套装；西装"
             }
           ]
         },
         {
-          "pid": 4,
-          "text": "Their success may be determined by a suit related to this issue, brought by the Mayo Clinic, which the Supreme Court will hear in its next term.",
-          "translation": "他们的成功可能取决于梅奥诊所提起的与此问题相关的诉讼，最高法院将在下个任期审理该诉讼。",
-          "slashed_text": "Their success may be determined by a suit related to this issue , / brought by the Mayo Clinic , / which the Supreme Court will hear in its next term.",
-          "chunk_translation": "他们的成功与否可能取决于梅奥诊所就此问题提起的一起诉讼 / 由梅奥诊所提起的诉讼 / 最高法院将在下一个审判期对此案进行审理",
+          "pid": 5,
+          "text": "Their success may be determined by a suit related to this issue, brought by the Mayo Clinic, which the Supreme Court will hear in its next term. The BIO recently held a convention which included sessions to coach lawyers on the shifting landscape for patents. Each meeting was packed.",
+          "translation": "他们的成功可能取决于梅奥诊所提起的与此问题相关的诉讼，最高法院将在下个任期审理该诉讼。BIO 最近举行了一次会议，其中包括对律师进行有关专利形势变化的培训。每次会议都座无虚席。",
+          "slashed_text": "Their success may be determined by a suit related to this issue , / brought by the Mayo Clinic , / which the Supreme Court will hear in its next term. / The BIO recently held a convention / which included sessions to coach lawyers on the shifting landscape / for patents. / Each meeting was packed.",
+          "chunk_translation": "他们的成功与否可能取决于梅奥诊所就此问题提起的一起诉讼 / 由梅奥诊所提起的诉讼 / 最高法院将在下一个审判期对此案进行审理 / 生物技术工业组织最近举办了一次研讨会 / 包含培训律师应对不断变化的专利格局的专题课程 / 针对专利领域 / 每场会议都座无虚席",
           "vocabulary": [
             {
-              "word": "the Supreme Court",
-              "pos": "",
-              "definition": "最高法院"
-            },
-            {
-              "word": "suit",
-              "pos": "",
-              "definition": "n.诉讼,讼案"
-            },
-            {
-              "word": "determined",
-              "pos": "adj.",
-              "definition": "adj. 下定决心的；坚决的"
-            },
-            {
-              "word": "related",
-              "pos": "adj.",
-              "definition": "adj. 相关的；有联系的"
-            },
-            {
-              "word": "brought",
-              "pos": "v.",
-              "definition": "v. 带来（bring 的过去分词）"
-            },
-            {
-              "word": "Supreme",
-              "pos": "adj.",
-              "definition": "adj. 最高的；至高无上的"
-            },
-            {
-              "word": "Clinic",
+              "word": "patents",
               "pos": "n.",
-              "definition": "n. 诊所；门诊部"
+              "definition": "n. 专利（patent 的复数形式）；专利权"
             },
             {
               "word": "court",
@@ -4640,58 +4339,44 @@
               "definition": "n. 法院；法庭"
             },
             {
+              "word": "related",
+              "pos": "adj.",
+              "definition": "adj. 相关的；有联系的"
+            },
+            {
+              "word": "the Supreme Court",
+              "pos": "",
+              "definition": "最高法院"
+            },
+            {
+              "word": "Supreme",
+              "pos": "adj.",
+              "definition": "adj. 最高的；至高无上的"
+            },
+            {
+              "word": "suit",
+              "pos": "n.",
+              "definition": "n. 套装；西装"
+            },
+            {
+              "word": "determined",
+              "pos": "adj.",
+              "definition": "adj. 下定决心的；坚决的"
+            },
+            {
+              "word": "brought",
+              "pos": "v.",
+              "definition": "v. 带来（bring 的过去分词）"
+            },
+            {
+              "word": "Clinic",
+              "pos": "n.",
+              "definition": "n. 诊所；门诊部"
+            },
+            {
               "word": "Mayo",
               "pos": "n.",
               "definition": "n. 蛋黄酱（等于 mayonnaise）"
-            }
-          ]
-        },
-        {
-          "pid": 5,
-          "text": "The BIO recently held a convention which included sessions to coach lawyers on the shifting landscape for patents. Each meeting was packed.",
-          "translation": "BIO 最近举行了一次会议，其中包括对律师进行有关专利形势变化的培训。每次会议都座无虚席。",
-          "slashed_text": "The BIO recently held a convention / which included sessions to coach lawyers on the shifting landscape / for patents. / Each meeting was packed.",
-          "chunk_translation": "生物技术工业组织最近举办了一次研讨会 / 包含培训律师应对不断变化的专利格局的专题课程 / 针对专利领域 / 每场会议都座无虚席",
-          "vocabulary": [
-            {
-              "word": "gene patenting was a great concern",
-              "pos": "",
-              "definition": "【🎯解题正解】 基因专利申请备受关注"
-            },
-            {
-              "word": "the supreme court was authoritative",
-              "pos": "",
-              "definition": "【💡题项表达】 最高法院具有权威性"
-            },
-            {
-              "word": "the BIO was a powerful organization",
-              "pos": "",
-              "definition": "【💡题项表达】 BIO 是一个强大的组织"
-            },
-            {
-              "word": "lawyers were keen to attend conventions",
-              "pos": "",
-              "definition": "【💡题项表达】 律师热衷于参加会议"
-            },
-            {
-              "word": "objective",
-              "pos": "",
-              "definition": "【🎯解题正解】 客观的"
-            },
-            {
-              "word": "critical\nᆇี൫ज@JOEE ༯໶\n\n06",
-              "pos": "",
-              "definition": "【💡题项表达】 critical\nᆇี൫ज@JOEE ༯໶\n\n06"
-            },
-            {
-              "word": "supportive",
-              "pos": "",
-              "definition": "【💡题项表达】 支持的"
-            },
-            {
-              "word": "scornful",
-              "pos": "",
-              "definition": "【💡题项表达】 轻蔑的"
             },
             {
               "word": "convention",
@@ -4737,11 +4422,6 @@
               "word": "sessions",
               "pos": "n.",
               "definition": "n. 会议；会期（session 的复数）"
-            },
-            {
-              "word": "patents",
-              "pos": "n.",
-              "definition": "n. 专利（patent 的复数形式）；专利权"
             },
             {
               "word": "lawyers",
@@ -4953,8 +4633,8 @@
         },
         {
           "sid": 8,
-          "pid": 1,
-          "sentence_index": 3,
+          "pid": 2,
+          "sentence_index": 0,
           "text": "But as companies continue their attempts at personalised medicine, the courts will remain rather busy.",
           "translation": "但随着公司继续尝试个性化医疗，法院将仍然相当忙碌。",
           "slashed_text": "But as companies continue their attempts / at personalised medicine , / the courts will remain rather busy.",
@@ -4981,8 +4661,8 @@
         },
         {
           "sid": 9,
-          "pid": 1,
-          "sentence_index": 4,
+          "pid": 2,
+          "sentence_index": 1,
           "text": "The Myriad case itself is probably not over.",
           "translation": "Myriad 案本身可能还没有结束。",
           "slashed_text": "The Myriad case itself is probably not over.",
@@ -5004,8 +4684,8 @@
         },
         {
           "sid": 10,
-          "pid": 1,
-          "sentence_index": 5,
+          "pid": 2,
+          "sentence_index": 2,
           "text": "Critics make three main arguments against gene patents: a gene is a product of nature, so it may not be patented; gene patents suppress innovation rather than reward it; and patents’ monopolies restrict access to genetic tests such as Myriad’s.",
           "translation": "批评者对基因专利提出了三个主要论点：基因是自然的产物，因此不能申请专利；基因专利抑制创新而不是奖励创新；专利垄断限制了 Myriad 等基因检测的使用。",
           "slashed_text": "Critics make three main arguments against gene patents : / a gene is a product of nature , / so it may not be patented ; / gene patents suppress innovation rather than reward it ; / and patents’ monopolies restrict access to genetic tests such as Myriad’s.",
@@ -5027,8 +4707,8 @@
         },
         {
           "sid": 11,
-          "pid": 1,
-          "sentence_index": 6,
+          "pid": 2,
+          "sentence_index": 3,
           "text": "A growing number seem to agree.",
           "translation": "越来越多的人似乎同意这一观点。",
           "slashed_text": "A growing number seem to agree.",
@@ -5050,8 +4730,8 @@
         },
         {
           "sid": 12,
-          "pid": 1,
-          "sentence_index": 7,
+          "pid": 2,
+          "sentence_index": 4,
           "text": "Last year a federal task-force urged reform for patents related to genetic tests.",
           "translation": "去年，一个联邦工作组敦促对与基因测试相关的专利进行改革。",
           "slashed_text": "Last year a federal task-force urged reform / for patents related to genetic tests.",
@@ -5073,8 +4753,8 @@
         },
         {
           "sid": 13,
-          "pid": 1,
-          "sentence_index": 8,
+          "pid": 2,
+          "sentence_index": 5,
           "text": "In October the Department of Justice filed a brief in the Myriad case, arguing that an isolated DNA molecule “is no less a product of nature ...",
           "translation": "10 月，司法部就 Myriad 案提交了一份简报，认为分离的 DNA 分子“不亚于自然产物......",
           "slashed_text": "In October the Department of Justice filed a brief in the Myriad case , / arguing / that an isolated DNA molecule “is no less a product of nature ...",
@@ -5096,8 +4776,8 @@
         },
         {
           "sid": 14,
-          "pid": 1,
-          "sentence_index": 9,
+          "pid": 2,
+          "sentence_index": 6,
           "text": "than are cotton fibres that have been separated from cotton seeds.”",
           "translation": "比从棉籽中分离出来的棉纤维还要多。”",
           "slashed_text": "than are cotton fibres / that have been separated / from cotton seeds.”",
@@ -5119,7 +4799,7 @@
         },
         {
           "sid": 15,
-          "pid": 2,
+          "pid": 3,
           "sentence_index": 0,
           "text": "Despite the appeals court’s decision, big questions remain unanswered.",
           "translation": "尽管上诉法院做出了裁决，但仍有一些重大问题没有得到解答。",
@@ -5142,7 +4822,7 @@
         },
         {
           "sid": 16,
-          "pid": 2,
+          "pid": 3,
           "sentence_index": 1,
           "text": "For example, it is unclear whether the sequencing of a whole genome violates the patents of individual genes within it.",
           "translation": "例如，目前尚不清楚整个基因组的测序是否侵犯了其中单个基因的专利。",
@@ -5165,7 +4845,7 @@
         },
         {
           "sid": 17,
-          "pid": 2,
+          "pid": 3,
           "sentence_index": 2,
           "text": "The case may yet reach the Supreme Court.",
           "translation": "该案可能仍会提交最高法院。",
@@ -5188,7 +4868,7 @@
         },
         {
           "sid": 18,
-          "pid": 3,
+          "pid": 4,
           "sentence_index": 0,
           "text": "As the industry advances, however, other suits may have an even greater impact.",
           "translation": "然而，随着行业的进步，其他诉讼可能会产生更大的影响。",
@@ -5211,7 +4891,7 @@
         },
         {
           "sid": 19,
-          "pid": 3,
+          "pid": 4,
           "sentence_index": 1,
           "text": "Companies are unlikely to file many more patents for human DNA molecules—most are already patented or in the public domain.",
           "translation": "公司不太可能为人类 DNA 分子申请更多专利——大多数已经获得专利或属于公共领域。",
@@ -5234,7 +4914,7 @@
         },
         {
           "sid": 20,
-          "pid": 3,
+          "pid": 4,
           "sentence_index": 2,
           "text": "Firms are now studying how genes interact, looking for correlations that might be used to determine the causes of disease or predict a drug’s efficacy.",
           "translation": "公司现在正在研究基因如何相互作用，寻找可用于确定疾病原因或预测药物疗效的相关性。",
@@ -5262,7 +4942,7 @@
         },
         {
           "sid": 21,
-          "pid": 3,
+          "pid": 4,
           "sentence_index": 3,
           "text": "Companies are eager to win patents for “connecting the dots”, explains Hans Sauer, a lawyer for the BIO.",
           "translation": "BIO 律师汉斯·索尔 (Hans Sauer) 解释说，公司渴望赢得“连接点”的专利。",
@@ -5290,7 +4970,7 @@
         },
         {
           "sid": 22,
-          "pid": 4,
+          "pid": 5,
           "sentence_index": 0,
           "text": "Their success may be determined by a suit related to this issue, brought by the Mayo Clinic, which the Supreme Court will hear in its next term.",
           "translation": "他们的成功可能取决于梅奥诊所提起的与此问题相关的诉讼，最高法院将在下个任期审理该诉讼。",
@@ -5319,7 +4999,7 @@
         {
           "sid": 23,
           "pid": 5,
-          "sentence_index": 0,
+          "sentence_index": 1,
           "text": "The BIO recently held a convention which included sessions to coach lawyers on the shifting landscape for patents.",
           "translation": "BIO 最近举行了一次会议，其中包括对律师进行有关专利形势变化的培训。",
           "slashed_text": "The BIO recently held a convention / which included sessions to coach lawyers on the shifting landscape / for patents.",
@@ -5347,7 +5027,7 @@
         {
           "sid": 24,
           "pid": 5,
-          "sentence_index": 1,
+          "sentence_index": 2,
           "text": "Each meeting was packed.",
           "translation": "每次会议都座无虚席。",
           "slashed_text": "Each meeting was packed.",
@@ -5461,7 +5141,7 @@
           "stem": "Those who are against gene patents believe that _____.",
           "stem_cn": "那些坚决反对基因专利的人士普遍认为：",
           "type": "事实细节题",
-          "locate_pid": 1,
+          "locate_pid": 2,
           "locate_sentence": "Critics make three main arguments against gene patents: a gene is a product of nature, so it may not be patented; gene patents suppress innovation rather than reward it; and patents’ monopolies restrict access to genetic tests such as Myriad’s.",
           "locate_sentence_cn": "批评者对基因专利提出了三项主要反对论据：基因是大自然的天然产物，因此不得申请专利；基因专利不仅没有奖励创新，反而扼杀了创新；并且专利垄断限制了公众获取诸如Myriad公司这类基因检测的途径。",
           "options": [
@@ -5548,7 +5228,7 @@
           "stem": "According to Hans Sauer, companies are eager to win patents for _____.",
           "stem_cn": "根据汉斯·绍尔（Hans Sauer）的解释，生物技术公司当下迫切渴望获得专利的领域是：",
           "type": "事实细节题",
-          "locate_pid": 3,
+          "locate_pid": 4,
           "locate_sentence": "Firms are now studying how genes interact, looking for correlations that might be used to determine the causes of disease or predict a drug’s efficacy. Companies are eager to win patents for “connecting the dots”, explains Hans Sauer, a lawyer for the BIO.",
           "locate_sentence_cn": "企业现在正在深入研究基因之间是如何相互作用的，寻找可能用于确定病因或预测药物疗效的相关性。生物技术工业组织（BIO）的律师汉斯·绍尔解释说，各家公司正迫切渴望在‘连接这些关联点’方面赢得专利。",
           "options": [
@@ -5812,39 +5492,39 @@
         "paragraph_functions": [
           {
             "pid": 0,
-            "role": "【起】2010年联邦法官震撼判决：撼动美国生物科技产业根基",
-            "core_point": "联邦初审法官裁定人类基因不可申请专利，瞬间击碎了无数生物制药巨头斥巨资筑牢的垄断护城河，全行业剧震。",
-            "cohesive_devices": "以强戏剧性司法事件（shook America's biotech industry to its core / judge voided gene patents）开宗明义。"
+            "role": "行业危机引入",
+            "function": "行业危机引入",
+            "core_point": "联邦法官曾判决基因不得申请专利，震动生物医药界并引发行业抗争。"
           },
           {
             "pid": 1,
-            "role": "【承】巡回上诉法院暂时翻案：分离DNA分子被判定具备可专利性",
-            "core_point": "上诉法院以微弱优势部分推翻原判，裁定经由人工分离提纯的DNA分子不同于自然界原生状态，暂时让药企缓了一口气。",
-            "cohesive_devices": "以司法对抗反转承接（appeals court overturned the ruling / relieved temporarily）。"
+            "role": "上诉法院翻盘",
+            "function": "上诉法院翻盘",
+            "core_point": "上诉法院推翻前判，认定万德公司可持有乳腺癌风险相关基因专利，行业暂时松一口气。"
           },
           {
             "pid": 2,
-            "role": "【承】核心法理谜题依然悬空：大自然造物与人类发明的模糊边界",
-            "core_point": "上诉法院的裁决并未平息争端，大自然的天然遗产与人类科技加工发明的边界究竟划在何处，依然缺乏最高权威定论。",
-            "cohesive_devices": "学术法理自我反思（big questions remain unanswered / unclear boundaries）。"
+            "role": "反对声音与伦理",
+            "function": "反对声音与伦理",
+            "core_point": "反对者主张基因属于自然产物、专利抑制创新并限制病患就医，司法部亦发文反对。"
           },
           {
             "pid": 3,
-            "role": "【转】诉讼风暴蔓延至诊断领域：企业企图专利化基因与疾病的内在关联",
-            "core_point": "随着基因诊疗深化，更大的风暴在医疗诊断领域酝酿：药企甚至试图将'某种基因突变必然导致某种疾病'的客观自然定律据为己有。",
-            "cohesive_devices": "引出更深层的行业诉讼风暴（other suits may have greater impact / patenting correlations）。"
+            "role": "未决法律悬念",
+            "function": "未决法律悬念",
+            "core_point": "整个人类基因组测序是否侵犯单个基因专利等根本问题仍未获解决，官司恐上诉至最高法院。"
           },
           {
             "pid": 4,
-            "role": "【深】梅奥诊所世纪诉讼：最高法院直击自然法则垄断的违宪红线",
-            "core_point": "梅奥诊所诉讼案成为万众瞩目的试金石，拷问法律是否允许垄断企业将客观存在的人体代谢规律化为独家私产。",
-            "cohesive_devices": "引入标杆性诉讼（suit brought by Mayo Clinic / determining the future of diagnostic patents）。"
+            "role": "关联专利新热点",
+            "function": "关联专利新热点",
+            "core_point": "行业转向基因间关联性（“连接点”）研究以申请新专利，引发更大司法冲击。"
           },
           {
             "pid": 5,
-            "role": "【合】生物技术组织严阵以待：重构知识产权与公共福祉的精妙平衡",
-            "core_point": "全球生物技术创新组织（BIO）紧急开班指导律师，全行业在急剧动荡的法律地平线上探寻研发商业回报与人类健康共享的平衡点。",
-            "cohesive_devices": "以行业博弈现状与前瞻展望作结（BIO convention coaching lawyers / shifting legal landscape）。"
+            "role": "行业高度关注",
+            "function": "行业高度关注",
+            "core_point": "梅奥诊所相关诉讼即将见分晓，生物技术产业协会大会场场爆满共商应对。"
           }
         ],
         "part_b_training": {
@@ -6052,11 +5732,6 @@
               "definition": "n. 政治；政治活动（事务）；政治事业"
             },
             {
-              "word": "jobless",
-              "pos": "adj.",
-              "definition": "adj. 失业的；无业的"
-            },
-            {
               "word": "culture",
               "pos": "n.",
               "definition": "n. 文化；文明；（团体或组织中共同的）态度"
@@ -6075,50 +5750,20 @@
         },
         {
           "pid": 1,
-          "text": "No one tries harder than the jobless to find silver linings in this national economic disaster. Many said that unemployment, while extremely painful, had improved them in some ways; they had become less materialistic and more financially prudent; they were more aware of the struggles of others. In limited respects, perhaps the recession will leave society better off.",
-          "translation": "没有人比失业者更努力地在这场国家经济灾难中寻找一线希望。许多人表示，失业虽然极其痛苦，但在某些方面改善了他们的生活。他们变得不那么物质至上，在财务上更加谨慎；他们更了解其他人的挣扎。在有限的方面，经济衰退也许会让社会变得更好。",
-          "slashed_text": "No one tries harder than the jobless to find silver linings / in this national economic disaster. / Many said / that unemployment , / while extremely painful , / had improved them / in some ways ; / they had become less materialistic and more financially prudent ; / they were more aware of the struggles of others. / In limited respects , / perhaps the recession will leave society better off.",
-          "chunk_translation": "没有人比失业群体更加竭尽全力地寻找一线希望 / 在这场国家经济灾难之中 / 许多人表示 / 失业 / 虽然极其痛苦 / 却在某些方面提升了他们 / 在某些方面； / 他们变得不再那么物质至上，在财务上也更为审慎； / 他们对其他人的挣扎困境也更加感同身受 / 在有限的层面上 / 也许这场经济衰退会让社会变得更好",
+          "text": "No one tries harder than the jobless to find silver linings in this national economic disaster. Many said that unemployment, while extremely painful, had improved them in some ways; they had become less materialistic and more financially prudent; they were more aware of the struggles of others. In limited respects, perhaps the recession will leave society better off. At the very least, it has awoken us from our national fever dream of easy riches and bigger houses, and put a necessary end to an era of reckless personal spending.",
+          "translation": "没有人比失业者更努力地在这场国家经济灾难中寻找一线希望。许多人表示，失业虽然极其痛苦，但在某些方面改善了他们的生活。他们变得不那么物质至上，在财务上更加谨慎；他们更了解其他人的挣扎。在有限的方面，经济衰退也许会让社会变得更好。至少，它唤醒了我们对轻松致富和拥有更大房子的全民狂热梦想，并结束了不计后果的个人消费时代。",
+          "slashed_text": "No one tries harder than the jobless to find silver linings / in this national economic disaster. / Many said / that unemployment , / while extremely painful , / had improved them / in some ways ; / they had become less materialistic and more financially prudent ; / they were more aware of the struggles of others. / In limited respects , / perhaps the recession will leave society better off. / At the very least , / it has awoken us from our national fever dream of easy riches and bigger houses , / and put a necessary end to an era of reckless personal spending.",
+          "chunk_translation": "没有人比失业群体更加竭尽全力地寻找一线希望 / 在这场国家经济灾难之中 / 许多人表示 / 失业 / 虽然极其痛苦 / 却在某些方面提升了他们 / 在某些方面； / 他们变得不再那么物质至上，在财务上也更为审慎； / 他们对其他人的挣扎困境也更加感同身受 / 在有限的层面上 / 也许这场经济衰退会让社会变得更好 / 至少 / 它将我们从轻松发财和住更大房子的全民狂热梦想中唤醒 / 并对那个肆意挥霍个人消费的时代予以了必要的终结",
           "vocabulary": [
             {
-              "word": "look on the bright side of the recession",
-              "pos": "",
-              "definition": "【🎯解题正解】 看到经济衰退好的一面"
+              "word": "recession",
+              "pos": "n.",
+              "definition": "n. （经济的）衰退（期）；退后"
             },
             {
-              "word": "seek subsidies from the government",
-              "pos": "",
-              "definition": "【💡题项表达】 寻求政府补贴"
-            },
-            {
-              "word": "make profits from the troubled economy",
-              "pos": "",
-              "definition": "【💡题项表达】 从陷入困境的经济中获利"
-            },
-            {
-              "word": "explore reasons for the unemployment",
-              "pos": "",
-              "definition": "【💡题项表达】 探究失业原因"
-            },
-            {
-              "word": "reconsider their lifestyle",
-              "pos": "",
-              "definition": "【🎯解题正解】 重新考虑他们的生活方式"
-            },
-            {
-              "word": "struggle against each other",
-              "pos": "",
-              "definition": "【💡题项表达】 互相斗争"
-            },
-            {
-              "word": "realize the national dream",
-              "pos": "",
-              "definition": "【💡题项表达】 实现民族梦想"
-            },
-            {
-              "word": "challenge their prudence",
-              "pos": "",
-              "definition": "【💡题项表达】 挑战他们的谨慎"
+              "word": "jobless",
+              "pos": "adj.",
+              "definition": "adj. 失业的；无业的"
             },
             {
               "word": "materialistic",
@@ -6149,11 +5794,6 @@
               "word": "financially",
               "pos": "adv.",
               "definition": "adv. 财政上；金融上"
-            },
-            {
-              "word": "recession",
-              "pos": "n.",
-              "definition": "n. （经济的）衰退（期）；退后"
             },
             {
               "word": "extremely",
@@ -6189,11 +5829,6 @@
               "word": "respects",
               "pos": "n.",
               "definition": "n. 方面（respect 的复数）；敬意；问候（通常用复数"
-            },
-            {
-              "word": "jobless",
-              "pos": "adj.",
-              "definition": "adj. 失业的；无业的"
             },
             {
               "word": "linings",
@@ -6239,25 +5874,6 @@
               "word": "find",
               "pos": "v.",
               "definition": "v. 找到；找回"
-            }
-          ]
-        },
-        {
-          "pid": 2,
-          "text": "At the very least, it has awoken us from our national fever dream of easy riches and bigger houses, and put a necessary end to an era of reckless personal spending. But for the most part, these benefits seem thin, uncertain, and far off. In The Moral Consequences of Economic Growth, the economic historian Benjamin Friedman argues that both inside and outside the U.S., lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive, and have usually stopped or reversed the advance of rights and freedoms.",
-          "translation": "至少，它唤醒了我们对轻松致富和拥有更大房子的全民狂热梦想，并结束了不计后果的个人消费时代。但在大多数情况下，这些好处似乎微不足道、不确定且遥远。经济历史学家本杰明·弗里德曼在《经济增长的道德后果》一书中指出，无论是在美国国内还是国外，长期的经济停滞或衰退几乎总是会让社会变得更加卑鄙、包容性更差，并且通常会阻止或逆转权利和自由的进步。",
-          "slashed_text": "At the very least , / it has awoken us from our national fever dream of easy riches and bigger houses , / and put a necessary end to an era of reckless personal spending. / But for the most part , / these benefits seem thin , / uncertain , / and far off. / In The Moral Consequences of Economic Growth , / the economic historian Benjamin Friedman argues / that both inside and outside the U.S. , / lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive , / and have usually stopped or reversed the advance of rights and freedoms.",
-          "chunk_translation": "至少 / 它将我们从轻松发财和住更大房子的全民狂热梦想中唤醒 / 并对那个肆意挥霍个人消费的时代予以了必要的终结 / 但在大多数情况下 / 这些益处显得微薄弱小 / 充满不确定性 / 且遥不可及 / 在《经济增长的道德后果》一书中 / 经济史学家本杰明·弗里德曼指出 / 无论在美国国内还是国外 / 长期的经济停滞或衰退几乎总是让社会变得更加刻薄狭隘且缺乏包容 / 并且通常会阻碍甚至逆转人权与自由的推进",
-          "vocabulary": [
-            {
-              "word": "bring out more evils of human nature",
-              "pos": "",
-              "definition": "【🎯解题正解】 揭露出更多的人性之恶"
-            },
-            {
-              "word": "impose a heavier burden on immigrants",
-              "pos": "",
-              "definition": "【💡题项表达】 给移民带来更重的负担"
             },
             {
               "word": "fever",
@@ -6273,6 +5889,65 @@
               "word": "fever dream",
               "pos": "",
               "definition": "狂热之梦"
+            },
+            {
+              "word": "at the very least",
+              "pos": "n./v.",
+              "definition": "语境核心词汇"
+            },
+            {
+              "word": "necessary",
+              "pos": "adj.",
+              "definition": "adj. 必要的；必需的；必然的"
+            },
+            {
+              "word": "personal",
+              "pos": "adj.",
+              "definition": "adj. 个人的；私人的；私密的"
+            },
+            {
+              "word": "spending",
+              "pos": "n.",
+              "definition": "n. （尤指政府或组织的）支出；开销；花费"
+            },
+            {
+              "word": "awoken",
+              "pos": "v.",
+              "definition": "v. 醒；睡醒；苏醒"
+            },
+            {
+              "word": "riches",
+              "pos": "n.",
+              "definition": "n. 财富；富有（通常作复数）；（Riches）人名（英：里奇斯"
+            },
+            {
+              "word": "bigger",
+              "pos": "adj.",
+              "definition": "adj. 更大的；较大的（big 的比较级）；更重要的"
+            },
+            {
+              "word": "houses",
+              "pos": "n.",
+              "definition": "n. 住宅；家园；洋房（house 的复数）"
+            },
+            {
+              "word": "dream",
+              "pos": "n.",
+              "definition": "n. 梦；梦想；恍惚"
+            }
+          ]
+        },
+        {
+          "pid": 2,
+          "text": "But for the most part, these benefits seem thin, uncertain, and far off. In The Moral Consequences of Economic Growth, the economic historian Benjamin Friedman argues that both inside and outside the U.S., lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive, and have usually stopped or reversed the advance of rights and freedoms. Anti-immigrant sentiment typically increases, as does conflict between races and classes.",
+          "translation": "但在大多数情况下，这些好处似乎微不足道、不确定且遥远。经济历史学家本杰明·弗里德曼在《经济增长的道德后果》一书中指出，无论是在美国国内还是国外，长期的经济停滞或衰退几乎总是会让社会变得更加卑鄙、包容性更差，并且通常会阻止或逆转权利和自由的进步。反移民情绪通常会增加，种族和阶级之间的冲突也会增加。",
+          "slashed_text": "But for the most part , / these benefits seem thin , / uncertain , / and far off. / In The Moral Consequences of Economic Growth , / the economic historian Benjamin Friedman argues / that both inside and outside the U.S. , / lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive , / and have usually stopped or reversed the advance of rights and freedoms. / Anti-immigrant sentiment typically increases , / as does conflict between races and classes.",
+          "chunk_translation": "但在大多数情况下 / 这些益处显得微薄弱小 / 充满不确定性 / 且遥不可及 / 在《经济增长的道德后果》一书中 / 经济史学家本杰明·弗里德曼指出 / 无论在美国国内还是国外 / 长期的经济停滞或衰退几乎总是让社会变得更加刻薄狭隘且缺乏包容 / 并且通常会阻碍甚至逆转人权与自由的推进 / 反移民情绪通常会随之加剧 / 种族和阶级之间的冲突也是如此",
+          "vocabulary": [
+            {
+              "word": "economic",
+              "pos": "adj.",
+              "definition": "adj. 经济的；经济学的"
             },
             {
               "word": "lengthy",
@@ -6310,11 +5985,6 @@
               "definition": "经济停滞"
             },
             {
-              "word": "at the very least",
-              "pos": "n./v.",
-              "definition": "语境核心词汇"
-            },
-            {
               "word": "Consequences",
               "pos": "n.",
               "definition": "n. 后果；结果"
@@ -6330,34 +6000,9 @@
               "definition": "n. 历史学家；史学工作者"
             },
             {
-              "word": "necessary",
-              "pos": "adj.",
-              "definition": "adj. 必要的；必需的；必然的"
-            },
-            {
-              "word": "national",
-              "pos": "adj.",
-              "definition": "adj. 国家的；全国的"
-            },
-            {
-              "word": "economic",
-              "pos": "adj.",
-              "definition": "adj. 经济的；经济学的"
-            },
-            {
               "word": "benefits",
               "pos": "n.",
               "definition": "n. 利益；好处"
-            },
-            {
-              "word": "personal",
-              "pos": "adj.",
-              "definition": "adj. 个人的；私人的；私密的"
-            },
-            {
-              "word": "spending",
-              "pos": "n.",
-              "definition": "n. （尤指政府或组织的）支出；开销；花费"
             },
             {
               "word": "Benjamin",
@@ -6415,31 +6060,6 @@
               "definition": "n. 成长；生长"
             },
             {
-              "word": "period",
-              "pos": "n.",
-              "definition": "n. 一段时间；时期"
-            },
-            {
-              "word": "awoken",
-              "pos": "v.",
-              "definition": "v. 醒；睡醒；苏醒"
-            },
-            {
-              "word": "riches",
-              "pos": "n.",
-              "definition": "n. 财富；富有（通常作复数）；（Riches）人名（英：里奇斯"
-            },
-            {
-              "word": "bigger",
-              "pos": "adj.",
-              "definition": "adj. 更大的；较大的（big 的比较级）；更重要的"
-            },
-            {
-              "word": "houses",
-              "pos": "n.",
-              "definition": "n. 住宅；家园；洋房（house 的复数）"
-            },
-            {
               "word": "argues",
               "pos": "v.",
               "definition": "v. argue 的第三人称单数现在时形式：争吵；吵架；讨论"
@@ -6460,33 +6080,63 @@
               "definition": "adj. 有关道德的；基于道德的"
             },
             {
-              "word": "dream",
-              "pos": "n.",
-              "definition": "n. 梦；梦想；恍惚"
-            },
-            {
               "word": "thin",
               "pos": "adj.",
               "definition": "adj. 薄的；细的"
-            }
-          ]
-        },
-        {
-          "pid": 3,
-          "text": "Anti-immigrant sentiment typically increases, as does conflict between races and classes. Income inequality usually falls during a recession, but it has not shrunk in this one. Indeed, this period of economic weakness may reinforce class divides, and decrease opportunities to cross them—especially for young people. The research of Till V on Wachter, the economist at Columbia University, suggests that not all people graduating into a recession see their life chances dimmed: those with degrees from elite universities catch up fairly quickly to where they otherwise would have been if they had graduated in better times; it is the masses beneath them that are left behind.",
-          "translation": "反移民情绪通常会增加，种族和阶级之间的冲突也会增加。收入不平等通常会在经济衰退期间缩小，但在这次衰退中并没有缩小。事实上，这段经济疲软时期可能会加剧阶级鸿沟，并减少跨越鸿沟的机会——尤其是对年轻人而言。哥伦比亚大学经济学家蒂尔·V (Till V) 对瓦赫特 (Wachter) 的研究表明，并非所有在经济衰退中毕业的人都会看到自己的生活机会变得黯淡：那些拥有精英大学学位的人很快就会赶上他们在更好的时期毕业时本可以达到的水平；被抛在后面的是他们下面的群众。",
-          "slashed_text": "Anti-immigrant sentiment typically increases , / as does conflict between races and classes. / Income inequality usually falls during a recession , / but it has not shrunk / in this one. / Indeed , / this period of economic weakness may reinforce class divides , / and decrease opportunities to cross them — / especially / for young people. / The research of Till V / on Wachter , / the economist / at Columbia University , / suggests / that not all people graduating into a recession see their life chances dimmed : / those / with degrees / from elite universities catch up fairly quickly to / where they otherwise would have been / if they had graduated / in better times ; / it is the masses beneath them / that are left behind.",
-          "chunk_translation": "反移民情绪通常会随之加剧 / 种族和阶级之间的冲突也是如此 / 收入不平等通常在经济衰退期间会有所下降 / 但在这一次衰退中却没有缩小 / 在这一次中 / 确实 / 这段经济疲软期可能会加剧阶级分化 / 并减少跨越阶级界限的机会—— / 尤其是 / 对年轻人而言 / 蒂尔·冯 / ·瓦赫特的研究 / 这位经济学家 / 任教于哥伦比亚大学 / 研究表明 / 并非所有在经济衰退期毕业的人都会面临人生前景黯淡： / 那些 / 拥有学位的人 / 名校毕业的能够相当迅速地赶上 / 他们在正常情况下所能达到的水平 / 如果他们毕业 / 在更好的时期； / 被抛在后面的正是处于他们下层的普通大众 / 那些被抛在后面的大众",
-          "vocabulary": [
-            {
-              "word": "recover more quickly than the others",
-              "pos": "",
-              "definition": "【🎯解题正解】 比其他人恢复得更快"
             },
             {
               "word": "sentiment",
               "pos": "",
               "definition": "n.观点,感想,意见"
+            },
+            {
+              "word": "immigrant",
+              "pos": "n.",
+              "definition": "n. （外来）移民；侨民；adj. 移民的"
+            },
+            {
+              "word": "typically",
+              "pos": "adv.",
+              "definition": "adv. 典型地；有代表性地；一般"
+            },
+            {
+              "word": "increases",
+              "pos": "v.",
+              "definition": "v. 增长；增强；增大（increase 的第三人称单数）"
+            },
+            {
+              "word": "conflict",
+              "pos": "n.",
+              "definition": "n. 争执；争论；分歧"
+            },
+            {
+              "word": "races",
+              "pos": "n.",
+              "definition": "n. 竞赛（race 的复数形式）；赛马会；v. 和……竞赛"
+            }
+          ]
+        },
+        {
+          "pid": 3,
+          "text": "Income inequality usually falls during a recession, but it has not shrunk in this one. Indeed, this period of economic weakness may reinforce class divides, and decrease opportunities to cross them—especially for young people. The research of Till V on Wachter, the economist at Columbia University, suggests that not all people graduating into a recession see their life chances dimmed: those with degrees from elite universities catch up fairly quickly to where they otherwise would have been if they had graduated in better times; it is the masses beneath them that are left behind.",
+          "translation": "收入不平等通常会在经济衰退期间缩小，但在这次衰退中并没有缩小。事实上，这段经济疲软时期可能会加剧阶级鸿沟，并减少跨越鸿沟的机会——尤其是对年轻人而言。哥伦比亚大学经济学家蒂尔·V (Till V) 对瓦赫特 (Wachter) 的研究表明，并非所有在经济衰退中毕业的人都会看到自己的生活机会变得黯淡：那些拥有精英大学学位的人很快就会赶上他们在更好的时期毕业时本可以达到的水平；被抛在后面的是他们下面的群众。",
+          "slashed_text": "Income inequality usually falls during a recession , / but it has not shrunk / in this one. / Indeed , / this period of economic weakness may reinforce class divides , / and decrease opportunities to cross them — / especially / for young people. / The research of Till V / on Wachter , / the economist / at Columbia University , / suggests / that not all people graduating into a recession see their life chances dimmed : / those / with degrees / from elite universities catch up fairly quickly to / where they otherwise would have been / if they had graduated / in better times ; / it is the masses beneath them / that are left behind.",
+          "chunk_translation": "收入不平等通常在经济衰退期间会有所下降 / 但在这一次衰退中却没有缩小 / 在这一次中 / 确实 / 这段经济疲软期可能会加剧阶级分化 / 并减少跨越阶级界限的机会—— / 尤其是 / 对年轻人而言 / 蒂尔·冯 / ·瓦赫特的研究 / 这位经济学家 / 任教于哥伦比亚大学 / 研究表明 / 并非所有在经济衰退期毕业的人都会面临人生前景黯淡： / 那些 / 拥有学位的人 / 名校毕业的能够相当迅速地赶上 / 他们在正常情况下所能达到的水平 / 如果他们毕业 / 在更好的时期； / 被抛在后面的正是处于他们下层的普通大众 / 那些被抛在后面的大众",
+          "vocabulary": [
+            {
+              "word": "recession",
+              "pos": "n.",
+              "definition": "n. （经济的）衰退（期）；退后"
+            },
+            {
+              "word": "economic",
+              "pos": "adj.",
+              "definition": "adj. 经济的；经济学的"
+            },
+            {
+              "word": "period",
+              "pos": "n.",
+              "definition": "n. 一段时间；时期"
             },
             {
               "word": "reinforce",
@@ -6529,26 +6179,6 @@
               "definition": "v. 毕业（graduate 的现在分词形式）；分度；标刻度"
             },
             {
-              "word": "recession",
-              "pos": "n.",
-              "definition": "n. （经济的）衰退（期）；退后"
-            },
-            {
-              "word": "immigrant",
-              "pos": "n.",
-              "definition": "n. （外来）移民；侨民；adj. 移民的"
-            },
-            {
-              "word": "typically",
-              "pos": "adv.",
-              "definition": "adv. 典型地；有代表性地；一般"
-            },
-            {
-              "word": "increases",
-              "pos": "v.",
-              "definition": "v. 增长；增强；增大（increase 的第三人称单数）"
-            },
-            {
               "word": "economist",
               "pos": "n.",
               "definition": "n. 经济学家"
@@ -6564,11 +6194,6 @@
               "definition": "adj. 分等级的；分阶段的；递增的"
             },
             {
-              "word": "economic",
-              "pos": "adj.",
-              "definition": "adj. 经济的；经济学的"
-            },
-            {
               "word": "weakness",
               "pos": "n.",
               "definition": "n. 虚弱；软弱"
@@ -6577,11 +6202,6 @@
               "word": "decrease",
               "pos": "v.",
               "definition": "v. （使）减少；（使）降低"
-            },
-            {
-              "word": "conflict",
-              "pos": "n.",
-              "definition": "n. 争执；争论；分歧"
             },
             {
               "word": "research",
@@ -6644,11 +6264,6 @@
               "definition": "adv. 确实；的确"
             },
             {
-              "word": "period",
-              "pos": "n.",
-              "definition": "n. 一段时间；时期"
-            },
-            {
               "word": "dimmed",
               "pos": "adj.",
               "definition": "adj. 变暗的；调暗的；昏暗的"
@@ -6667,11 +6282,6 @@
               "word": "falls",
               "pos": "n.",
               "definition": "n. 瀑布；瀑布群（常大写"
-            },
-            {
-              "word": "races",
-              "pos": "n.",
-              "definition": "n. 竞赛（race 的复数形式）；赛马会；v. 和……竞赛"
             },
             {
               "word": "cross",
@@ -6698,29 +6308,34 @@
           "chunk_translation": "在互联网时代 / 尤其容易看清一直深藏于美国社会内部的怨恨之情 / 一直深藏于美国社会中的怨恨 / 眼下更加困难的 / 在当前 / 是准确洞察这些艰难岁月究竟在如何重塑我们社会的性格特质 / 在许多方面 / 美国 / 在进入这场经济衰退时比其历史上任何时期都更具社会包容性 / 并且自那时起开展的一系列关于社会冲突的全国民意调查 / 关于社会冲突 / 呈现出了喜忧参半的结果 / 我们不得不拭目以待，看看这些艰难岁月究竟会如何重塑我们的社会结构 / 但它们必然会重塑社会结构 / 而且经济困境持续的时间越长，这种重塑就越深刻",
           "vocabulary": [
             {
-              "word": "certain",
-              "pos": "",
-              "definition": "【🎯解题正解】 肯定"
-            },
-            {
-              "word": "trivial",
-              "pos": "",
-              "definition": "【💡题项表达】 琐碎的"
-            },
-            {
-              "word": "positive",
-              "pos": "",
-              "definition": "【💡题项表达】 积极的"
-            },
-            {
-              "word": "destructive\nᆇี൫ज@JOEE ༯໶",
-              "pos": "",
-              "definition": "【💡题项表达】 destructive\nᆇี൫ज@JOEE ༯໶"
-            },
-            {
               "word": "reshape",
               "pos": "",
               "definition": "v.重塑"
+            },
+            {
+              "word": "recession",
+              "pos": "n.",
+              "definition": "n. （经济的）衰退（期）；退后"
+            },
+            {
+              "word": "character",
+              "pos": "n.",
+              "definition": "n. 性格；品质"
+            },
+            {
+              "word": "national",
+              "pos": "adj.",
+              "definition": "adj. 国家的；全国的"
+            },
+            {
+              "word": "respects",
+              "pos": "n.",
+              "definition": "n. 方面（respect 的复数）；敬意；问候（通常用复数"
+            },
+            {
+              "word": "conflict",
+              "pos": "n.",
+              "definition": "n. 争执；争论；分歧"
             },
             {
               "word": "resentment",
@@ -6758,16 +6373,6 @@
               "definition": "adj. 有辨识能力的；眼光敏锐的；有鉴赏力的"
             },
             {
-              "word": "recession",
-              "pos": "n.",
-              "definition": "n. （经济的）衰退（期）；退后"
-            },
-            {
-              "word": "character",
-              "pos": "n.",
-              "definition": "n. 性格；品质"
-            },
-            {
               "word": "difficult",
               "pos": "adj.",
               "definition": "adj. 困难的；费力的"
@@ -6788,19 +6393,9 @@
               "definition": "adv. 无疑；确定；当然"
             },
             {
-              "word": "national",
-              "pos": "adj.",
-              "definition": "adj. 国家的；全国的"
-            },
-            {
               "word": "Internet",
               "pos": "n.",
               "definition": "n. 互联网；因特网（=the Internet）"
-            },
-            {
-              "word": "respects",
-              "pos": "n.",
-              "definition": "n. 方面（respect 的复数）；敬意；问候（通常用复数"
             },
             {
               "word": "socially",
@@ -6816,11 +6411,6 @@
               "word": "entering",
               "pos": "v.",
               "definition": "v. enter 的现在分词；进入；录入"
-            },
-            {
-              "word": "conflict",
-              "pos": "n.",
-              "definition": "n. 争执；争论；分歧"
             },
             {
               "word": "variety",
@@ -6871,11 +6461,6 @@
               "word": "mixed",
               "pos": "adj.",
               "definition": "adj. （感情）矛盾的；复杂的；（人）混合的"
-            },
-            {
-              "word": "thin",
-              "pos": "adj.",
-              "definition": "adj. 薄的；细的"
             }
           ]
         }
@@ -7031,8 +6616,8 @@
         },
         {
           "sid": 6,
-          "pid": 2,
-          "sentence_index": 0,
+          "pid": 1,
+          "sentence_index": 3,
           "text": "At the very least, it has awoken us from our national fever dream of easy riches and bigger houses, and put a necessary end to an era of reckless personal spending.",
           "translation": "至少，它唤醒了我们对轻松致富和拥有更大房子的全民狂热梦想，并结束了不计后果的个人消费时代。",
           "slashed_text": "At the very least , / it has awoken us from our national fever dream of easy riches and bigger houses , / and put a necessary end to an era of reckless personal spending.",
@@ -7060,7 +6645,7 @@
         {
           "sid": 7,
           "pid": 2,
-          "sentence_index": 1,
+          "sentence_index": 0,
           "text": "But for the most part, these benefits seem thin, uncertain, and far off.",
           "translation": "但在大多数情况下，这些好处似乎微不足道、不确定且遥远。",
           "slashed_text": "But for the most part , / these benefits seem thin , / uncertain , / and far off.",
@@ -7083,7 +6668,7 @@
         {
           "sid": 8,
           "pid": 2,
-          "sentence_index": 2,
+          "sentence_index": 1,
           "text": "In The Moral Consequences of Economic Growth, the economic historian Benjamin Friedman argues that both inside and outside the U.S., lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive, and have usually stopped or reversed the advance of rights and freedoms.",
           "translation": "经济历史学家本杰明·弗里德曼在《经济增长的道德后果》一书中指出，无论是在美国国内还是国外，长期的经济停滞或衰退几乎总是会让社会变得更加卑鄙、包容性更差，并且通常会阻止或逆转权利和自由的进步。",
           "slashed_text": "In The Moral Consequences of Economic Growth , / the economic historian Benjamin Friedman argues / that both inside and outside the U.S. , / lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive , / and have usually stopped or reversed the advance of rights and freedoms.",
@@ -7105,8 +6690,8 @@
         },
         {
           "sid": 9,
-          "pid": 3,
-          "sentence_index": 0,
+          "pid": 2,
+          "sentence_index": 2,
           "text": "Anti-immigrant sentiment typically increases, as does conflict between races and classes.",
           "translation": "反移民情绪通常会增加，种族和阶级之间的冲突也会增加。",
           "slashed_text": "Anti-immigrant sentiment typically increases , / as does conflict between races and classes.",
@@ -7129,7 +6714,7 @@
         {
           "sid": 10,
           "pid": 3,
-          "sentence_index": 1,
+          "sentence_index": 0,
           "text": "Income inequality usually falls during a recession, but it has not shrunk in this one.",
           "translation": "收入不平等通常会在经济衰退期间缩小，但在这次衰退中并没有缩小。",
           "slashed_text": "Income inequality usually falls during a recession , / but it has not shrunk / in this one.",
@@ -7152,7 +6737,7 @@
         {
           "sid": 11,
           "pid": 3,
-          "sentence_index": 2,
+          "sentence_index": 1,
           "text": "Indeed, this period of economic weakness may reinforce class divides, and decrease opportunities to cross them—especially for young people.",
           "translation": "事实上，这段经济疲软时期可能会加剧阶级鸿沟，并减少跨越鸿沟的机会——尤其是对年轻人而言。",
           "slashed_text": "Indeed , / this period of economic weakness may reinforce class divides , / and decrease opportunities to cross them — / especially / for young people.",
@@ -7175,7 +6760,7 @@
         {
           "sid": 12,
           "pid": 3,
-          "sentence_index": 3,
+          "sentence_index": 2,
           "text": "The research of Till V on Wachter, the economist at Columbia University, suggests that not all people graduating into a recession see their life chances dimmed: those with degrees from elite universities catch up fairly quickly to where they otherwise would have been if they had graduated in better times; it is the masses beneath them that are left behind.",
           "translation": "哥伦比亚大学经济学家蒂尔·V (Till V) 对瓦赫特 (Wachter) 的研究表明，并非所有在经济衰退中毕业的人都会看到自己的生活机会变得黯淡：那些拥有精英大学学位的人很快就会赶上他们在更好的时期毕业时本可以达到的水平；被抛在后面的是他们下面的群众。",
           "slashed_text": "The research of Till V / on Wachter , / the economist / at Columbia University , / suggests / that not all people graduating into a recession see their life chances dimmed : / those / with degrees / from elite universities catch up fairly quickly to / where they otherwise would have been / if they had graduated / in better times ; / it is the masses beneath them / that are left behind.",
@@ -7793,33 +7378,33 @@
         "paragraph_functions": [
           {
             "pid": 0,
-            "role": "【起】冷峻预言：经济衰退在书面上结束，残酷高失业长夜却刚启幕",
-            "core_point": "统计局宣布大萧条技术性结束，然而长期的结构性高失业时代大概率才刚刚降临，无就业复苏将成常态。",
-            "cohesive_devices": "以冷峻的让步警示（recession may be over, but era of high joblessness is beginning）破题。"
+            "role": "宏观影响引入",
+            "function": "宏观影响引入",
+            "core_point": "大衰退虽结束但高失业率时代刚刚开启，将深刻重塑年轻一代乃至整个社会的风貌。"
           },
           {
             "pid": 1,
-            "role": "【承】苦涩的乐观主义掩盖不住失业对人性尊严的无情碾压",
-            "core_point": "失业大军拼命在灾难中寻找所谓人生转机的微光，然而长期失业对个人心智与生活底气的侵蚀是难以修复的创伤。",
-            "cohesive_devices": "展现失业者的心理挣扎（No one tries harder to find silver linings / national disaster）。"
+            "role": "短期的节制反思",
+            "function": "短期的节制反思",
+            "core_point": "失业者试图寻找积极面，衰退打破了对轻易致富与奢侈消费的幻想，促使人们回归节制。"
           },
           {
             "pid": 2,
-            "role": "【转】唯一的冷水醒脑价值：击碎全民族靠借贷投机暴富的'发烧梦'",
-            "core_point": "若说这场危机确有积极遗产，那便是它如一盆刺骨冷水，彻底浇醒了全美沉溺于轻松发财、大肆囤积空洞大豪宅的虚妄幻梦。",
-            "cohesive_devices": "以比喻肯定反思价值（awoken us from our national fever dream of easy riches）。"
+            "role": "历史长周期的阴暗面",
+            "function": "历史长周期的阴暗面",
+            "core_point": "历史学家指出长期停滞往往导致社会包容度下降、排外情绪与族群阶层冲突加剧。"
           },
           {
             "pid": 3,
-            "role": "【转】阴暗副产品滋生蔓延：排外主义狂热与社会阶层敌意全面激化",
-            "core_point": "危机最凶险的反噬在于社会心理恶化：反对移民的极端思潮激增，不同族裔与阶层之间因生存资源抢夺而陷入互不信任的敌视。",
-            "cohesive_devices": "直击社会撕裂恶果（Anti-immigrant sentiment increases / conflict between races and classes）。"
+            "role": "阶层鸿沟加深",
+            "function": "阶层鸿沟加深",
+            "core_point": "本轮衰退中名校毕业生迅速恢复，而普通大众阶层沉沦，不平等与阶层鸿沟进一步拉大。"
           },
           {
             "pid": 4,
-            "role": "【合】数字时代的戾气放大器：互联网彻底撕下温情社交面纱",
-            "core_point": "在互联网时代，以往隐藏在礼貌客套社交面具之下的深层怨恨与敌意被无遮无拦地放大，暴露出社会团结遭受蚕食的深重内伤。",
-            "cohesive_devices": "以网络心理学洞察收官（Internet age exposes resentment always hidden beneath surface）。"
+            "role": "深远社会重塑",
+            "function": "深远社会重塑",
+            "core_point": "互联网放大了社会怨怼，经济严冬将不可逆转地重构美国社会的文化与政治肌理。"
           }
         ],
         "part_b_training": {

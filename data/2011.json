@@ -10,30 +10,10 @@
         {
           "pid": 0,
           "text": "Ruth Simmons joined Goldman Sachs’s board as an outside director in January 2000; a year later she became president of Brown University. For the rest of the decade she apparently managed both roles without attracting much criticism. But by the end of 2009 Ms. Simmons was under fire for having sat on Goldman’s compensation committee; how could she have let those enormous bonus payouts pass unremarked? By February the next year Ms. Simmons had left the board. The position was just taking up too much time, she said.",
-          "translation": "露丝·西蒙斯 (Ruth Simmons) 于 2000 年 1 月加入高盛董事会，担任外部董事；一年后，她成为布朗大学校长。在接下来的十年里，她显然扮演了这两个角色，没有引起太多批评。但到了 2009 年底，西蒙斯因担任高盛薪酬委员会成员而受到批评。她怎么可能对这些巨额奖金视而不见呢？到明年二月，女士西蒙斯已离开董事会。她说，这个职位占用了太多时间。",
-          "slashed_text": "Ruth Simmons joined Goldman Sachs’s board as an outside director / in January 2000 ; / a year later she became president of Brown University. / For the rest of the decade she apparently managed both roles / without attracting much criticism. / But by the end of 2009 Ms. / Simmons was under fire / for having sat / on Goldman’s compensation committee ; / how could she have let those enormous bonus payouts pass unremarked? / By February the next year Ms. / Simmons had left the board. / The position was just taking up too much time , / she said.",
-          "chunk_translation": "露丝·西蒙斯于2000年1月加入高盛董事会担任外部董事 / 于2000年1月 / 一年后她出任布朗大学校长 / 在接下来的十年里，她显然兼顾了这两个职位 / 没有招致太多批评 / 但到2009年底，女士 / 西蒙斯因担任高盛薪酬委员会成员而遭到抨击 / 因担任 / 高盛薪酬委员会职务 / 她怎么能对那些巨额奖金的发放听之任之、不置一词呢？ / 到了次年二月，女士 / 西蒙斯离开了董事会 / 这一职位占用了太多时间 / 她说",
+          "translation": "露丝·西蒙斯 (Ruth Simmons) 于 2000 年 1 月加入高盛董事会，担任外部董事；一年后，她成为布朗大学校长。在接下来的十年里，她显然扮演了这两个角色，没有引起太多批评。但到 2009 年底，西蒙斯女士因曾担任高盛薪酬委员会成员而受到抨击：她怎么能对如此巨额的奖金发放不置一词呢？到第二年二月，西蒙斯女士已经离开董事会。她说，这个职位占用了太多时间。",
+          "slashed_text": "Ruth Simmons joined Goldman Sachs’s board as an outside director / in January 2000 ; / a year later she became president of Brown University. / For the rest of the decade she apparently managed both roles / without attracting much criticism. / But by the end of 2009 Ms. Simmons was under fire for having sat on Goldman’s compensation committee; how could she have let those enormous bonus payouts pass unremarked? / By February the next year Ms. Simmons had left the board. / The position was just taking up too much time , / she said.",
+          "chunk_translation": "露丝·西蒙斯于2000年1月加入高盛董事会担任外部董事 / 于2000年1月 / 一年后她出任布朗大学校长 / 在接下来的十年里，她显然兼顾了这两个职位 / 没有招致太多批评 / 但到 2009 年底，西蒙斯女士因曾担任高盛薪酬委员会成员而受到抨击：她怎么能对如此巨额的奖金发放不置一词呢？ / 到第二年二月，西蒙斯女士已经离开董事会。 / 这一职位占用了太多时间 / 她说",
           "vocabulary": [
-            {
-              "word": "failing to fulfill her duty",
-              "pos": "",
-              "definition": "【🎯解题正解】 未能履行她的职责"
-            },
-            {
-              "word": "gaining excessive profits",
-              "pos": "",
-              "definition": "【💡题项表达】 获取超额利润"
-            },
-            {
-              "word": "refusing to make compromises",
-              "pos": "",
-              "definition": "【💡题项表达】 拒绝妥协"
-            },
-            {
-              "word": "leaving the board in tough times",
-              "pos": "",
-              "definition": "【💡题项表达】 在困难时期离开董事会"
-            },
             {
               "word": "criticism",
               "pos": "",
@@ -168,30 +148,20 @@
         },
         {
           "pid": 1,
-          "text": "Outside directors are supposed to serve as helpful, yet less biased, advisers on a firm’s board. Having made their wealth and their reputations elsewhere, they presumably have enough independence to disagree with the chief executive’s proposals. If the sky, and the share price, is falling, outside directors should be able to give advice based on having weathered their own crises. The researchers from Ohio University used a database that covered more than 10,000 firms and more than 64,000 different directors between 1989 and 2004.",
-          "translation": "外部董事应该在公司董事会中充当有用但不带偏见的顾问。他们在其他地方积累了财富和声誉，想必有足够的独立性来反对首席执行官的提议。如果天空和股价正在下跌，外部董事应该能够根据自己度过的危机提供建议。俄亥俄大学的研究人员使用的数据库涵盖了 1989 年至 2004 年间超过 10,000 家公司和超过 64,000 名不同的董事。",
-          "slashed_text": "Outside directors are supposed to serve as helpful , / yet less biased , / advisers on a firm’s board. / Having made their wealth and their reputations elsewhere , / they presumably have enough independence to disagree with the chief executive’s proposals. / If the sky , / and the share price , / is falling , / outside directors should be able to give advice based / on having weathered their own crises. / The researchers / from Ohio University used a database / that covered more than 10 , / 000 firms and more than 64 , / 000 different directors between 1989 and 2004.",
-          "chunk_translation": "外部董事本应担任有益的 / 且偏见较少的 / 公司董事会顾问 / 由于在其他领域早已功成名就 / 他们按理应具有足够的独立性来反对首席执行官的提议 / 如果天要塌下来 / 以及股价 / 正在暴跌 / 外部董事应当能够依据自身渡过危机的经验提供建议 / 依据自己渡过危机的经验 / 研究人员 / 来自俄亥俄大学的研究人员使用了一个数据库 / 涵盖了1989年至2004年间1万多家公司 / 以及超过6.4万名 / 名不同的董事",
+          "text": "Outside directors are supposed to serve as helpful, yet less biased, advisers on a firm’s board. Having made their wealth and their reputations elsewhere, they presumably have enough independence to disagree with the chief executive’s proposals. If the sky, and the share price, is falling, outside directors should be able to give advice based on having weathered their own crises.",
+          "translation": "外部董事应该在公司董事会中充当有用但不带偏见的顾问。他们在其他地方积累了财富和声誉，想必有足够的独立性来反对首席执行官的提议。如果天空和股价正在下跌，外部董事应该能够根据自己度过的危机提供建议。",
+          "slashed_text": "Outside directors are supposed to serve as helpful , / yet less biased , / advisers on a firm’s board. / Having made their wealth and their reputations elsewhere , / they presumably have enough independence to disagree with the chief executive’s proposals. / If the sky , / and the share price , / is falling , / outside directors should be able to give advice based / on having weathered their own crises.",
+          "chunk_translation": "外部董事本应担任有益的 / 且偏见较少的 / 公司董事会顾问 / 由于在其他领域早已功成名就 / 他们按理应具有足够的独立性来反对首席执行官的提议 / 如果天要塌下来 / 以及股价 / 正在暴跌 / 外部董事应当能够依据自身渡过危机的经验提供建议 / 依据自己渡过危机的经验",
           "vocabulary": [
             {
-              "word": "independent advisers",
-              "pos": "",
-              "definition": "【🎯解题正解】 独立顾问"
+              "word": "outside",
+              "pos": "n.",
+              "definition": "n. 外表；外部（the outside）"
             },
             {
-              "word": "generous investors",
-              "pos": "",
-              "definition": "【💡题项表达】 慷慨的投资者"
-            },
-            {
-              "word": "unbiased executives",
-              "pos": "",
-              "definition": "【💡题项表达】 公正的高管"
-            },
-            {
-              "word": "share price forecasters",
-              "pos": "",
-              "definition": "【💡题项表达】 股价预测者"
+              "word": "board",
+              "pos": "n.",
+              "definition": "n. 板；木板"
             },
             {
               "word": "biased",
@@ -209,19 +179,9 @@
               "definition": "n. 独立；自主；（国家的）独立"
             },
             {
-              "word": "researchers",
-              "pos": "n.",
-              "definition": "n. 研究人员；研究者（researcher 的复数）"
-            },
-            {
               "word": "reputations",
               "pos": "n.",
               "definition": "n. 名声；声誉：reputation 的复数形式"
-            },
-            {
-              "word": "University",
-              "pos": "n.",
-              "definition": "n. 大学；综合性大学"
             },
             {
               "word": "directors",
@@ -249,11 +209,6 @@
               "definition": "adj. 风化的；受风雨侵蚀的；饱经风霜的"
             },
             {
-              "word": "director",
-              "pos": "n.",
-              "definition": "n. 导演；管理者"
-            },
-            {
               "word": "supposed",
               "pos": "adj.",
               "definition": "adj. 假定的；据说的"
@@ -264,29 +219,14 @@
               "definition": "n. 顾问（adviser 的复数）"
             },
             {
-              "word": "database",
-              "pos": "n.",
-              "definition": "n. （计算机）数据库；资料库"
-            },
-            {
               "word": "disagree",
               "pos": "v.",
               "definition": "v. 有分歧；意见不合；不一致"
             },
             {
-              "word": "outside",
-              "pos": "n.",
-              "definition": "n. 外表；外部（the outside）"
-            },
-            {
               "word": "helpful",
               "pos": "adj.",
               "definition": "adj. 有帮助的；有用的"
-            },
-            {
-              "word": "covered",
-              "pos": "adj.",
-              "definition": "adj. 有顶的；有一层覆盖物的"
             },
             {
               "word": "falling",
@@ -314,16 +254,6 @@
               "definition": "n. （crisis 的复数形式）危机；紧要关头；危险期"
             },
             {
-              "word": "board",
-              "pos": "n.",
-              "definition": "n. 板；木板"
-            },
-            {
-              "word": "firms",
-              "pos": "n.",
-              "definition": "n. 公司；厂商（firm 的复数）"
-            },
-            {
               "word": "chief",
               "pos": "adj.",
               "definition": "adj. 首要的；主要的；为首的"
@@ -347,40 +277,60 @@
               "word": "firm",
               "pos": "n.",
               "definition": "n. 公司；商行"
-            },
-            {
-              "word": "Ohio",
-              "pos": "n.",
-              "definition": "n. 俄亥俄州（美国中北部一州）；俄亥俄河（美国东部河流"
             }
           ]
         },
         {
           "pid": 2,
-          "text": "Then they simply checked which directors stayed from one proxy statement to the next. The most likely reason for departing a board was age, so the researchers concentrated on those “surprise” disappearances by directors under the age of 70. They found that after a surprise departure, the probability that the company will subsequently have to restate earnings increased by nearly 20%. The likelihood of being named in a federal class-action lawsuit also increases, and the stock is likely to perform worse. The effect tended to be larger for larger firms.",
-          "translation": "然后他们简单地检查了哪些董事从一份委托书到下一份委托书都留下了。离开董事会最有可能的原因是年龄，因此研究人员将注意力集中在70岁以下董事的“意外”失踪上。他们发现，在意外离职后，公司随后必须重述收益的可能性增加了近 20%。被联邦集体诉讼点名的可能性也增加，该股的表现可能会更差。对于规模较大的公司来说，这种影响往往更大。",
-          "slashed_text": "Then they simply checked / which directors stayed from one proxy statement to the next. / The most likely reason / for departing a board was age , / so the researchers concentrated / on those “surprise” disappearances / by directors under the age of 70. / They found / that after a surprise departure , / the probability / that the company will subsequently have to restate earnings increased / by nearly 20%. / The likelihood of being named in a federal class-action lawsuit also increases , / and the stock is likely to perform worse. / The effect tended to be larger / for larger firms.",
-          "chunk_translation": "然后他们只是核对了 / 哪些董事从一份委托书一直留任到下一份委托书 / 离开董事会最可能的原因 / 是年龄 / 因此研究人员重点关注 / 那些“令人意外”的离职 / 由70岁以下的董事发生的 / 他们发现 / 在意外离职之后 / 概率 / 该公司随后不得不重述财务收益的概率增加了 / 近20% / 在联邦集体诉讼中被列为被告的可能性也随之上升 / 且公司股票往往表现更差 / 这种效应往往更显著 / 对规模较大的公司而言",
+          "text": "The researchers from Ohio University used a database that covered more than 10,000 firms and more than 64,000 different directors between 1989 and 2004. Then they simply checked which directors stayed from one proxy statement to the next. The most likely reason for departing a board was age, so the researchers concentrated on those “surprise” disappearances by directors under the age of 70. They found that after a surprise departure, the probability that the company will subsequently have to restate earnings increased by nearly 20%. The likelihood of being named in a federal class-action lawsuit also increases, and the stock is likely to perform worse. The effect tended to be larger for larger firms. Although a correlation between them leaving and subsequent bad performance at the firm is suggestive, it does not mean that such directors are always jumping off a sinking ship. Often they “trade up”, leaving riskier, smaller firms for larger and more stable firms.",
+          "translation": "俄亥俄大学的研究人员使用的数据库涵盖了 1989 年至 2004 年间超过 10,000 家公司和超过 64,000 名不同的董事。然后他们简单地检查了哪些董事从一份委托书到下一份委托书都留下了。离开董事会最有可能的原因是年龄，因此研究人员将注意力集中在70岁以下董事的“意外”失踪上。他们发现，在意外离职后，公司随后必须重述收益的可能性增加了近 20%。被联邦集体诉讼点名的可能性也增加，该股的表现可能会更差。对于规模较大的公司来说，这种影响往往更大。尽管他们的离职与公司随后的糟糕表现之间存在相关性，但这并不意味着这些董事总是从一艘正在下沉的船上跳下来。他们通常会“升级”，将风险较高、规模较小的公司留给规模更大、更稳定的公司。",
+          "slashed_text": "The researchers / from Ohio University used a database / that covered more than 10 , / 000 firms and more than 64 , / 000 different directors between 1989 and 2004. / Then they simply checked / which directors stayed from one proxy statement to the next. / The most likely reason / for departing a board was age , / so the researchers concentrated / on those “surprise” disappearances / by directors under the age of 70. / They found / that after a surprise departure , / the probability / that the company will subsequently have to restate earnings increased / by nearly 20%. / The likelihood of being named in a federal class-action lawsuit also increases , / and the stock is likely to perform worse. / The effect tended to be larger / for larger firms. / Although a correlation between them leaving and subsequent bad performance at the firm is suggestive , / it does not mean / that such directors are always jumping off a sinking ship. / Often they “trade up” , / leaving riskier , / smaller firms / for larger and more stable firms.",
+          "chunk_translation": "研究人员 / 来自俄亥俄大学的研究人员使用了一个数据库 / 涵盖了1989年至2004年间1万多家公司 / 以及超过6.4万名 / 名不同的董事 / 然后他们只是核对了 / 哪些董事从一份委托书一直留任到下一份委托书 / 离开董事会最可能的原因 / 是年龄 / 因此研究人员重点关注 / 那些“令人意外”的离职 / 由70岁以下的董事发生的 / 他们发现 / 在意外离职之后 / 概率 / 该公司随后不得不重述财务收益的概率增加了 / 近20% / 在联邦集体诉讼中被列为被告的可能性也随之上升 / 且公司股票往往表现更差 / 这种效应往往更显著 / 对规模较大的公司而言 / 尽管董事离职与公司随后糟糕业绩之间的相关性耐人寻味 / 但这并不意味着 / 这类董事总是在弃即将沉没的船而去 / 他们常常是“往高处走” / 离开风险更大、 / 规模更小的公司 / 前往规模更大且更稳定的公司",
           "vocabulary": [
             {
-              "word": "do less well in the stock market",
-              "pos": "",
-              "definition": "【🎯解题正解】 在股市表现不佳"
+              "word": "University",
+              "pos": "n.",
+              "definition": "n. 大学；综合性大学"
             },
             {
-              "word": "become more stable",
-              "pos": "",
-              "definition": "【💡题项表达】 变得更加稳定"
+              "word": "board",
+              "pos": "n.",
+              "definition": "n. 板；木板"
             },
             {
-              "word": "report increased earnings",
-              "pos": "",
-              "definition": "【💡题项表达】 报告收入增加"
+              "word": "directors",
+              "pos": "n.",
+              "definition": "n. 董事（director 的复数形式）；（戏剧、电影、电视节目的）导演"
             },
             {
-              "word": "perform worse in lawsuits",
-              "pos": "",
-              "definition": "【💡题项表达】 在诉讼中表现较差"
+              "word": "firm",
+              "pos": "n.",
+              "definition": "n. 公司；商行"
+            },
+            {
+              "word": "researchers",
+              "pos": "n.",
+              "definition": "n. 研究人员；研究者（researcher 的复数）"
+            },
+            {
+              "word": "database",
+              "pos": "n.",
+              "definition": "n. （计算机）数据库；资料库"
+            },
+            {
+              "word": "covered",
+              "pos": "adj.",
+              "definition": "adj. 有顶的；有一层覆盖物的"
+            },
+            {
+              "word": "firms",
+              "pos": "n.",
+              "definition": "n. 公司；厂商（firm 的复数）"
+            },
+            {
+              "word": "Ohio",
+              "pos": "n.",
+              "definition": "n. 俄亥俄州（美国中北部一州）；俄亥俄河（美国东部河流"
             },
             {
               "word": "proxy",
@@ -438,19 +388,9 @@
               "definition": "adj. 集中的；全神贯注的；全力以赴的"
             },
             {
-              "word": "researchers",
-              "pos": "n.",
-              "definition": "n. 研究人员；研究者（researcher 的复数）"
-            },
-            {
               "word": "probability",
               "pos": "n.",
               "definition": "n. 可能性；或然性；可能发生的事"
-            },
-            {
-              "word": "directors",
-              "pos": "n.",
-              "definition": "n. 董事（director 的复数形式）；（戏剧、电影、电视节目的）导演"
             },
             {
               "word": "statement",
@@ -471,11 +411,6 @@
               "word": "increases",
               "pos": "v.",
               "definition": "v. 增长；增强；增大（increase 的第三人称单数）"
-            },
-            {
-              "word": "director",
-              "pos": "n.",
-              "definition": "n. 导演；管理者"
             },
             {
               "word": "surprise",
@@ -538,16 +473,6 @@
               "definition": "v. tend 的过去式和过去分词；1. 照料；照顾"
             },
             {
-              "word": "board",
-              "pos": "n.",
-              "definition": "n. 板；木板"
-            },
-            {
-              "word": "firms",
-              "pos": "n.",
-              "definition": "n. 公司；厂商（firm 的复数）"
-            },
-            {
               "word": "named",
               "pos": "adj.",
               "definition": "adj. 命名的；名叫……的；被命名为……的"
@@ -563,78 +488,9 @@
               "definition": "adj. 更糟的；更坏的；更差的"
             },
             {
-              "word": "firm",
-              "pos": "n.",
-              "definition": "n. 公司；商行"
-            }
-          ]
-        },
-        {
-          "pid": 3,
-          "text": "Although a correlation between them leaving and subsequent bad performance at the firm is suggestive, it does not mean that such directors are always jumping off a sinking ship. Often they “trade up”, leaving riskier, smaller firms for larger and more stable firms. But the researchers believe that outside directors have an easier time of avoiding a blow to their reputations if they leave a firm before bad news breaks, even if a review of history shows they were on the board at the time any wrongdoing occurred. Firms who want to keep their outside directors through tough times may have to create incentives. Otherwise outside directors will follow the example of Ms. Simmons, once again very popular on campus.",
-          "translation": "尽管他们的离职与公司随后的糟糕表现之间存在相关性，但这并不意味着这些董事总是从一艘正在下沉的船上跳下来。他们通常会“升级”，将风险较高、规模较小的公司留给规模更大、更稳定的公司。但研究人员认为，如果外部董事在坏消息传出之前离开公司，他们就更容易避免声誉受到打击，即使对历史的回顾表明，在任何不当行为发生时，他们都是董事会成员。想要留住外部董事度过困难时期的公司可能必须制定激励措施。否则，外部董事就会效仿陈女士的做法。西蒙斯再次在校园里大受欢迎。",
-          "slashed_text": "Although a correlation between them leaving and subsequent bad performance at the firm is suggestive , / it does not mean / that such directors are always jumping off a sinking ship. / Often they “trade up” , / leaving riskier , / smaller firms / for larger and more stable firms. / But the researchers believe / that outside directors have an easier time of avoiding a blow to their reputations / if they leave a firm before bad news breaks , / even / if a review of history shows they were on the board at the time any wrongdoing occurred. / Firms / who want to keep their outside directors / through tough times may have to create incentives. / Otherwise outside directors will follow the example of Ms. / Simmons , / once again very popular / on campus.",
-          "chunk_translation": "尽管董事离职与公司随后糟糕业绩之间的相关性耐人寻味 / 但这并不意味着 / 这类董事总是在弃即将沉没的船而去 / 他们常常是“往高处走” / 离开风险更大、 / 规模更小的公司 / 前往规模更大且更稳定的公司 / 但研究人员认为 / 外部董事如果能在坏消息爆发前离开公司，就更容易避免声誉受损 / 如果他们在坏消息爆发前离开公司 / 甚至 / 即使历史审查表明在任何不当行为发生时他们都在董事会任职 / 公司 / 若想在艰难时期留住外部董事 / 可能不得不制定激励措施 / 否则外部董事将效仿女士 / 西蒙斯的做法 / 重新在大学校园里大受欢迎 / 在校园中",
-          "vocabulary": [
-            {
-              "word": "may stay for the attractive offers from the firm",
-              "pos": "",
-              "definition": "【🎯解题正解】 可能会因为公司有吸引力的报价而留下来"
-            },
-            {
-              "word": "will decline incentives from the firm",
-              "pos": "",
-              "definition": "【💡题项表达】 将减少公司的激励措施"
-            },
-            {
-              "word": "positive",
-              "pos": "",
-              "definition": "【🎯解题正解】 积极的"
-            },
-            {
-              "word": "permissive",
-              "pos": "",
-              "definition": "【💡题项表达】 宽容的"
-            },
-            {
-              "word": "scornful",
-              "pos": "",
-              "definition": "【💡题项表达】 轻蔑的"
-            },
-            {
-              "word": "critical",
-              "pos": "",
-              "definition": "【💡题项表达】 批判的"
-            },
-            {
               "word": "suggestive",
               "pos": "",
               "definition": "a.提示的;暗示的,提醒的"
-            },
-            {
-              "word": "blow",
-              "pos": "",
-              "definition": "n.打击,意外的灾害,摧毁"
-            },
-            {
-              "word": "otherwise",
-              "pos": "",
-              "definition": "conj.否则,不然"
-            },
-            {
-              "word": "follow the example of",
-              "pos": "",
-              "definition": "效仿"
-            },
-            {
-              "word": "researchers",
-              "pos": "n.",
-              "definition": "n. 研究人员；研究者（researcher 的复数）"
-            },
-            {
-              "word": "reputations",
-              "pos": "n.",
-              "definition": "n. 名声；声誉：reputation 的复数形式"
             },
             {
               "word": "correlation",
@@ -650,46 +506,6 @@
               "word": "subsequent",
               "pos": "adj.",
               "definition": "adj. 随后的；接着的；（河"
-            },
-            {
-              "word": "wrongdoing",
-              "pos": "n.",
-              "definition": "n. 坏事；不道德的行为；违法行为"
-            },
-            {
-              "word": "incentives",
-              "pos": "n.",
-              "definition": "n. 激励；奖励；诱因"
-            },
-            {
-              "word": "directors",
-              "pos": "n.",
-              "definition": "n. 董事（director 的复数形式）；（戏剧、电影、电视节目的）导演"
-            },
-            {
-              "word": "director",
-              "pos": "n.",
-              "definition": "n. 导演；管理者"
-            },
-            {
-              "word": "avoiding",
-              "pos": "v.",
-              "definition": "v. avoid 的现在分词；避免"
-            },
-            {
-              "word": "occurred",
-              "pos": "v.",
-              "definition": "v. 发生（occur 的过去式和过去分词）"
-            },
-            {
-              "word": "Simmons",
-              "pos": "n.",
-              "definition": "席梦思（美国床垫品牌）；西蒙斯（人名）"
-            },
-            {
-              "word": "outside",
-              "pos": "n.",
-              "definition": "n. 外表；外部（the outside）"
             },
             {
               "word": "leaving",
@@ -717,6 +533,100 @@
               "definition": "adj. 较小的；更小的（small 的比较级）"
             },
             {
+              "word": "stable",
+              "pos": "adj.",
+              "definition": "adj. 稳定的；牢固的；稳重的"
+            },
+            {
+              "word": "trade",
+              "pos": "n.",
+              "definition": "n. 贸易；买卖；行业"
+            }
+          ]
+        },
+        {
+          "pid": 3,
+          "text": "But the researchers believe that outside directors have an easier time of avoiding a blow to their reputations if they leave a firm before bad news breaks, even if a review of history shows they were on the board at the time any wrongdoing occurred. Firms who want to keep their outside directors through tough times may have to create incentives. Otherwise outside directors will follow the example of Ms. Simmons, once again very popular on campus.",
+          "translation": "但研究人员认为，如果外部董事在坏消息传出之前离开公司，他们就更容易避免声誉受到打击，即使对历史的回顾表明，在任何不当行为发生时，他们都是董事会成员。想要留住外部董事度过困难时期的公司可能必须制定激励措施。否则，外部董事会效仿西蒙斯女士的做法；离开董事会的她，如今再次在校园里受到欢迎。",
+          "slashed_text": "But the researchers believe / that outside directors have an easier time of avoiding a blow to their reputations / if they leave a firm before bad news breaks , / even / if a review of history shows they were on the board at the time any wrongdoing occurred. / Firms / who want to keep their outside directors / through tough times may have to create incentives. / Otherwise outside directors will follow the example of Ms. Simmons, once again very popular on campus.",
+          "chunk_translation": "但研究人员认为 / 外部董事如果能在坏消息爆发前离开公司，就更容易避免声誉受损 / 如果他们在坏消息爆发前离开公司 / 甚至 / 即使历史审查表明在任何不当行为发生时他们都在董事会任职 / 公司 / 若想在艰难时期留住外部董事 / 可能不得不制定激励措施 / 否则，外部董事会效仿西蒙斯女士的做法；离开董事会的她，如今再次在校园里受到欢迎。",
+          "vocabulary": [
+            {
+              "word": "Simmons",
+              "pos": "n.",
+              "definition": "席梦思（美国床垫品牌）；西蒙斯（人名）"
+            },
+            {
+              "word": "outside",
+              "pos": "n.",
+              "definition": "n. 外表；外部（the outside）"
+            },
+            {
+              "word": "board",
+              "pos": "n.",
+              "definition": "n. 板；木板"
+            },
+            {
+              "word": "reputations",
+              "pos": "n.",
+              "definition": "n. 名声；声誉：reputation 的复数形式"
+            },
+            {
+              "word": "directors",
+              "pos": "n.",
+              "definition": "n. 董事（director 的复数形式）；（戏剧、电影、电视节目的）导演"
+            },
+            {
+              "word": "firm",
+              "pos": "n.",
+              "definition": "n. 公司；商行"
+            },
+            {
+              "word": "researchers",
+              "pos": "n.",
+              "definition": "n. 研究人员；研究者（researcher 的复数）"
+            },
+            {
+              "word": "firms",
+              "pos": "n.",
+              "definition": "n. 公司；厂商（firm 的复数）"
+            },
+            {
+              "word": "blow",
+              "pos": "",
+              "definition": "n.打击,意外的灾害,摧毁"
+            },
+            {
+              "word": "otherwise",
+              "pos": "",
+              "definition": "conj.否则,不然"
+            },
+            {
+              "word": "follow the example of",
+              "pos": "",
+              "definition": "效仿"
+            },
+            {
+              "word": "wrongdoing",
+              "pos": "n.",
+              "definition": "n. 坏事；不道德的行为；违法行为"
+            },
+            {
+              "word": "incentives",
+              "pos": "n.",
+              "definition": "n. 激励；奖励；诱因"
+            },
+            {
+              "word": "avoiding",
+              "pos": "v.",
+              "definition": "v. avoid 的现在分词；避免"
+            },
+            {
+              "word": "occurred",
+              "pos": "v.",
+              "definition": "v. 发生（occur 的过去式和过去分词）"
+            },
+            {
               "word": "example",
               "pos": "n.",
               "definition": "n. 例子；例证；榜样"
@@ -730,11 +640,6 @@
               "word": "easier",
               "pos": "adj.",
               "definition": "adj. 更简单；容易些（easy 的比较级形式）"
-            },
-            {
-              "word": "stable",
-              "pos": "adj.",
-              "definition": "adj. 稳定的；牢固的；稳重的"
             },
             {
               "word": "breaks",
@@ -752,21 +657,6 @@
               "definition": "n. （大学或学院的）校园；大学生活；大学（学校、医院等机构的）场地"
             },
             {
-              "word": "board",
-              "pos": "n.",
-              "definition": "n. 板；木板"
-            },
-            {
-              "word": "firms",
-              "pos": "n.",
-              "definition": "n. 公司；厂商（firm 的复数）"
-            },
-            {
-              "word": "trade",
-              "pos": "n.",
-              "definition": "n. 贸易；买卖；行业"
-            },
-            {
               "word": "shows",
               "pos": "v.",
               "definition": "v. 显示；表明；给……看"
@@ -775,11 +665,6 @@
               "word": "tough",
               "pos": "adj.",
               "definition": "adj. （物质；物体）坚韧的；坚固的"
-            },
-            {
-              "word": "firm",
-              "pos": "n.",
-              "definition": "n. 公司；商行"
             }
           ]
         }
@@ -867,7 +752,7 @@
         {
           "sid": 4,
           "pid": 0,
-          "sentence_index": 4,
+          "sentence_index": 3,
           "text": "By February the next year Ms. Simmons had left the board.",
           "translation": "到第二年二月，西蒙斯女士已经离开董事会。",
           "slashed_text": "By February the next year Ms. Simmons had left the board.",
@@ -890,7 +775,7 @@
         {
           "sid": 6,
           "pid": 0,
-          "sentence_index": 6,
+          "sentence_index": 4,
           "text": "The position was just taking up too much time, she said.",
           "translation": "她说，这个职位占用了太多时间。",
           "slashed_text": "The position was just taking up too much time , / she said.",
@@ -1006,8 +891,8 @@
         },
         {
           "sid": 10,
-          "pid": 1,
-          "sentence_index": 3,
+          "pid": 2,
+          "sentence_index": 0,
           "text": "The researchers from Ohio University used a database that covered more than 10,000 firms and more than 64,000 different directors between 1989 and 2004.",
           "translation": "俄亥俄大学的研究人员使用的数据库涵盖了 1989 年至 2004 年间超过 10,000 家公司和超过 64,000 名不同的董事。",
           "slashed_text": "The researchers / from Ohio University used a database / that covered more than 10 , / 000 firms and more than 64 , / 000 different directors between 1989 and 2004.",
@@ -1035,7 +920,7 @@
         {
           "sid": 11,
           "pid": 2,
-          "sentence_index": 0,
+          "sentence_index": 1,
           "text": "Then they simply checked which directors stayed from one proxy statement to the next.",
           "translation": "然后他们简单地检查了哪些董事从一份委托书到下一份委托书都留下了。",
           "slashed_text": "Then they simply checked / which directors stayed from one proxy statement to the next.",
@@ -1063,7 +948,7 @@
         {
           "sid": 12,
           "pid": 2,
-          "sentence_index": 1,
+          "sentence_index": 2,
           "text": "The most likely reason for departing a board was age, so the researchers concentrated on those “surprise” disappearances by directors under the age of 70.",
           "translation": "离开董事会最有可能的原因是年龄，因此研究人员将注意力集中在70岁以下董事的“意外”失踪上。",
           "slashed_text": "The most likely reason / for departing a board was age , / so the researchers concentrated / on those “surprise” disappearances / by directors under the age of 70.",
@@ -1091,7 +976,7 @@
         {
           "sid": 13,
           "pid": 2,
-          "sentence_index": 2,
+          "sentence_index": 3,
           "text": "They found that after a surprise departure, the probability that the company will subsequently have to restate earnings increased by nearly 20%.",
           "translation": "他们发现，在意外离职后，公司随后必须重述收益的可能性增加了近 20%。",
           "slashed_text": "They found / that after a surprise departure , / the probability / that the company will subsequently have to restate earnings increased / by nearly 20%.",
@@ -1119,7 +1004,7 @@
         {
           "sid": 14,
           "pid": 2,
-          "sentence_index": 3,
+          "sentence_index": 4,
           "text": "The likelihood of being named in a federal class-action lawsuit also increases, and the stock is likely to perform worse.",
           "translation": "被联邦集体诉讼点名的可能性也增加，该股的表现可能会更差。",
           "slashed_text": "The likelihood of being named in a federal class-action lawsuit also increases , / and the stock is likely to perform worse.",
@@ -1147,7 +1032,7 @@
         {
           "sid": 15,
           "pid": 2,
-          "sentence_index": 4,
+          "sentence_index": 5,
           "text": "The effect tended to be larger for larger firms.",
           "translation": "对于规模较大的公司来说，这种影响往往更大。",
           "slashed_text": "The effect tended to be larger / for larger firms.",
@@ -1174,8 +1059,8 @@
         },
         {
           "sid": 16,
-          "pid": 3,
-          "sentence_index": 0,
+          "pid": 2,
+          "sentence_index": 6,
           "text": "Although a correlation between them leaving and subsequent bad performance at the firm is suggestive, it does not mean that such directors are always jumping off a sinking ship.",
           "translation": "尽管他们的离职与公司随后的糟糕表现之间存在相关性，但这并不意味着这些董事总是从一艘正在下沉的船上跳下来。",
           "slashed_text": "Although a correlation between them leaving and subsequent bad performance at the firm is suggestive , / it does not mean / that such directors are always jumping off a sinking ship.",
@@ -1207,8 +1092,8 @@
         },
         {
           "sid": 17,
-          "pid": 3,
-          "sentence_index": 1,
+          "pid": 2,
+          "sentence_index": 7,
           "text": "Often they “trade up”, leaving riskier, smaller firms for larger and more stable firms.",
           "translation": "他们通常会“升级”，将风险较高、规模较小的公司留给规模更大、更稳定的公司。",
           "slashed_text": "Often they “trade up” , / leaving riskier , / smaller firms / for larger and more stable firms.",
@@ -1236,7 +1121,7 @@
         {
           "sid": 18,
           "pid": 3,
-          "sentence_index": 2,
+          "sentence_index": 0,
           "text": "But the researchers believe that outside directors have an easier time of avoiding a blow to their reputations if they leave a firm before bad news breaks, even if a review of history shows they were on the board at the time any wrongdoing occurred.",
           "translation": "但研究人员认为，如果外部董事在坏消息传出之前离开公司，他们就更容易避免声誉受到打击，即使对历史的回顾表明，在任何不当行为发生时，他们都是董事会成员。",
           "slashed_text": "But the researchers believe / that outside directors have an easier time of avoiding a blow to their reputations / if they leave a firm before bad news breaks , / even / if a review of history shows they were on the board at the time any wrongdoing occurred.",
@@ -1264,7 +1149,7 @@
         {
           "sid": 19,
           "pid": 3,
-          "sentence_index": 3,
+          "sentence_index": 1,
           "text": "Firms who want to keep their outside directors through tough times may have to create incentives.",
           "translation": "想要留住外部董事度过困难时期的公司可能必须制定激励措施。",
           "slashed_text": "Firms / who want to keep their outside directors / through tough times may have to create incentives.",
@@ -1292,7 +1177,7 @@
         {
           "sid": 20,
           "pid": 3,
-          "sentence_index": 4,
+          "sentence_index": 2,
           "text": "Otherwise outside directors will follow the example of Ms. Simmons, once again very popular on campus.",
           "translation": "否则，外部董事会效仿西蒙斯女士的做法；离开董事会的她，如今再次在校园里受到欢迎。",
           "slashed_text": "Otherwise outside directors will follow the example of Ms. Simmons, once again very popular on campus.",
@@ -1762,27 +1647,27 @@
         "paragraph_functions": [
           {
             "pid": 0,
-            "role": "【起】布朗大学校长辞任高盛独董：撕开名流董事光鲜面纱",
-            "core_point": "名流校长西蒙斯加盟高盛董事会享受高薪，却在金融海啸高盛深陷公愤时仓促请辞，引发舆论轩然大波。",
-            "cohesive_devices": "以知名政商名流辞任事件（Ruth Simmons joined Goldman Sachs / resigned amid controversy）切入。"
+            "role": "案例引入",
+            "function": "案例引入",
+            "core_point": "高盛独立董事席梦思在金融危机奖金丑闻中辞职受到抨击。"
           },
           {
             "pid": 1,
-            "role": "【承】独立董事的理想法定人设与现实监督错位",
-            "core_point": "独立董事法定职责本应是超脱利益纠葛、为中小股东把关的客观谏臣，但往往在危机真正来临时选择沉默自保。",
-            "cohesive_devices": "理论与现实对照（supposed to serve as helpful, yet less biased advisers）。"
+            "role": "规范阐述",
+            "function": "规范阐述",
+            "core_point": "独立董事本应作为客观、独立的顾问，凭借声誉与经验在危机时刻发挥制衡作用。"
           },
           {
             "pid": 2,
-            "role": "【转】学者大数据追踪：代理人公告揭开辞任背后的秘密规律",
-            "core_point": "研究人员比对海量企业年报中的董事更迭记录，发现独立董事密集非正常离职的最核心诱因正是不可调和的内部危机爆发前兆。",
-            "cohesive_devices": "采用实证定量研究方法（checked proxy statements to see which directors stayed）。"
+            "role": "实证研究",
+            "function": "实证研究",
+            "core_point": "俄亥俄州立大学海量数据表明，独立董事意外离职后公司面临业绩变脸和诉讼风险加剧。"
           },
           {
             "pid": 3,
-            "role": "【合】金丝雀预警效应：独董辞职与企业暴雷的高度关联",
-            "core_point": "独立董事的提前离席与企业随后的业绩大跌及丑闻存在极强的正相关；聪明的投资者理应将其视作企业暴雷的撤退警钟。",
-            "cohesive_devices": "归纳出市场预警规律（correlation between them leaving and subsequent bad performance / early warning bell）。"
+            "role": "结论对策",
+            "function": "结论对策",
+            "core_point": "独立董事常为保护声誉提前撤离，企业须建立激励机制以在困境中留住独立董事。"
           }
         ],
         "part_b_training": {
@@ -1908,31 +1793,11 @@
       "paragraphs": [
         {
           "pid": 0,
-          "text": "Whatever happened to the death of newspapers? A year ago the end seemed near. The recession threatened to remove the advertising and readers that had not already fled to the internet. Newspapers like the San Francisco Chronicle were chronicling their own doom. America’s Federal Trade Commission launched a round of talks about how to save newspapers. Should they become charitable corporations? Should the state subsidize them? It will hold another meeting soon.",
-          "translation": "报纸的消亡到底是怎么回事？一年前，结局似乎已近在眼前。经济衰退可能会消除尚未逃往互联网的广告和读者。像《旧金山纪事报》这样的报纸正在记录他们自己的厄运。美国联邦贸易委员会发起了一轮关于如何拯救报纸的讨论。他们应该成为慈善公司吗？国家应该补贴他们吗？不久将举行另一次会议。",
-          "slashed_text": "Whatever happened to the death of newspapers? / A year ago the end seemed near. / The recession threatened to remove the advertising and readers / that had not already fled to the internet. / Newspapers like the San Francisco Chronicle were chronicling their own doom. / America’s Federal Trade Commission launched a round of talks about how to save newspapers. / Should they become charitable corporations? / Should the state subsidize them? / It will hold another meeting soon.",
-          "chunk_translation": "报纸消亡论究竟是怎么回事？ / 一年前，终局似乎已近在眼前 / 经济衰退威胁要夺走那些广告和读者 / 尚未逃往互联网的 / 像《旧金山纪事报》这样的报纸当时正在记录它们自身的末日 / 美国联邦贸易委员会发起了一轮关于如何拯救报纸的研讨 / 报纸应该转变为慈善机构吗？ / 政府应该对其进行补贴吗？ / 不久后还将举行另一场会议",
+          "text": "Whatever happened to the death of newspapers? A year ago the end seemed near. The recession threatened to remove the advertising and readers that had not already fled to the internet. Newspapers like the San Francisco Chronicle were chronicling their own doom. America’s Federal Trade Commission launched a round of talks about how to save newspapers. Should they become charitable corporations? Should the state subsidize them? It will hold another meeting soon. But the discussions now seem out of date.",
+          "translation": "报纸的消亡到底是怎么回事？一年前，结局似乎已近在眼前。经济衰退可能会消除尚未逃往互联网的广告和读者。像《旧金山纪事报》这样的报纸正在记录他们自己的厄运。美国联邦贸易委员会发起了一轮关于如何拯救报纸的讨论。他们应该成为慈善公司吗？国家应该补贴他们吗？不久将举行另一次会议。但现在的讨论似乎已经过时了。",
+          "slashed_text": "Whatever happened to the death of newspapers? / A year ago the end seemed near. / The recession threatened to remove the advertising and readers / that had not already fled to the internet. / Newspapers like the San Francisco Chronicle were chronicling their own doom. / America’s Federal Trade Commission launched a round of talks about how to save newspapers. / Should they become charitable corporations? / Should the state subsidize them? / It will hold another meeting soon. / But the discussions now seem out of date.",
+          "chunk_translation": "报纸消亡论究竟是怎么回事？ / 一年前，终局似乎已近在眼前 / 经济衰退威胁要夺走那些广告和读者 / 尚未逃往互联网的 / 像《旧金山纪事报》这样的报纸当时正在记录它们自身的末日 / 美国联邦贸易委员会发起了一轮关于如何拯救报纸的研讨 / 报纸应该转变为慈善机构吗？ / 政府应该对其进行补贴吗？ / 不久后还将举行另一场会议 / 但这些讨论如今看来已不合时宜",
           "vocabulary": [
-            {
-              "word": "were in a desperate situation",
-              "pos": "",
-              "definition": "【🎯解题正解】 陷入绝境"
-            },
-            {
-              "word": "neglected the sign of crisis",
-              "pos": "",
-              "definition": "【💡题项表达】 忽视了危机的征兆"
-            },
-            {
-              "word": "failed to get state subsidies",
-              "pos": "",
-              "definition": "【💡题项表达】 未能获得国家补贴"
-            },
-            {
-              "word": "were not charitable corporations",
-              "pos": "",
-              "definition": "【💡题项表达】 不是慈善公司"
-            },
             {
               "word": "recession",
               "pos": "",
@@ -2069,18 +1934,18 @@
               "definition": "v. 逃走（flee 的过去式和过去分词）；消逝"
             },
             {
-              "word": "News",
+              "word": "discussions",
               "pos": "n.",
-              "definition": "n. 消息；新情况"
+              "definition": "n. 讨论；论述；详述（discussion 的复数）"
             }
           ]
         },
         {
           "pid": 1,
-          "text": "But the discussions now seem out of date. In much of the world there is little sign of crisis. German and Brazilian papers have shrugged off the recession. Even American newspapers, which inhabit the most troubled corner of the global industry, have not only survived but often returned to profit.",
-          "translation": "但现在的讨论似乎已经过时了。世界大部分地区几乎没有出现危机的迹象。德国和巴西的报纸已经摆脱了经济衰退的影响。即使是位于全球行业最困难角落的美国报纸，也不仅生存了下来，而且常常恢复盈利。",
-          "slashed_text": "But the discussions now seem out of date. / In much of the world there is little sign of crisis. / German and Brazilian papers have shrugged off the recession. / Even American newspapers , / which inhabit the most troubled corner of the global industry , / have not only survived but often returned to profit.",
-          "chunk_translation": "但这些讨论如今看来已不合时宜 / 在世界大部分地区几乎看不到危机的迹象 / 德国和巴西的报纸已经摆脱了经济衰退的影响 / 即便是身处全球报业最困顿角落的美国报纸 / 处于全球报业最困顿角落的 / 也不仅存活了下来，而且往往恢复了盈利",
+          "text": "In much of the world there is little sign of crisis. German and Brazilian papers have shrugged off the recession. Even American newspapers, which inhabit the most troubled corner of the global industry, have not only survived but often returned to profit. Not the 20 % profit margins that were routine a few years ago, but profit all the same.",
+          "translation": "世界大部分地区几乎没有出现危机的迹象。德国和巴西的报纸已经摆脱了经济衰退的影响。即使是位于全球行业最困难角落的美国报纸，也不仅生存了下来，而且常常恢复盈利。虽然不是几年前常见的 20% 利润率，但利润还是一样。",
+          "slashed_text": "In much of the world there is little sign of crisis. / German and Brazilian papers have shrugged off the recession. / Even American newspapers , / which inhabit the most troubled corner of the global industry , / have not only survived but often returned to profit. / Not the 20 % profit margins / that were routine a few years ago , / but profit all the same.",
+          "chunk_translation": "在世界大部分地区几乎看不到危机的迹象 / 德国和巴西的报纸已经摆脱了经济衰退的影响 / 即便是身处全球报业最困顿角落的美国报纸 / 处于全球报业最困顿角落的 / 也不仅存活了下来，而且往往恢复了盈利 / 虽然不是几年前司空见惯的20%的利润率 / 几年前那是司空见惯的 / 但终归是盈利了",
           "vocabulary": [
             {
               "word": "recession",
@@ -2088,19 +1953,14 @@
               "definition": "n.经济衰退,不景气"
             },
             {
-              "word": "inhabit",
-              "pos": "",
-              "definition": "v.居住;在...出现;填满"
-            },
-            {
-              "word": "discussions",
-              "pos": "n.",
-              "definition": "n. 讨论；论述；详述（discussion 的复数）"
-            },
-            {
               "word": "newspapers",
               "pos": "n.",
               "definition": "n. 报纸；报章（newspaper 的复数）"
+            },
+            {
+              "word": "inhabit",
+              "pos": "",
+              "definition": "v.居住;在...出现;填满"
             },
             {
               "word": "Brazilian",
@@ -2158,30 +2018,6 @@
               "definition": "n. 指示牌；标志"
             },
             {
-              "word": "News",
-              "pos": "n.",
-              "definition": "n. 消息；新情况"
-            }
-          ]
-        },
-        {
-          "pid": 2,
-          "text": "Not the 20 % profit margins that were routine a few years ago, but profit all the same. It has not been much fun. Many papers stayed afloat by pushing journalists overboard. The American Society of News Editors reckons that 13,500 newsroom jobs have gone since 2007. Readers are paying more for slimmer products. Some papers even had the nerve to refuse delivery to distant suburbs.",
-          "translation": "虽然不是几年前常见的 20% 利润率，但利润还是一样。这并不有趣。许多报纸靠记者的努力才得以维持下去。美国新闻编辑协会估计，自 2007 年以来，已有 13,500 个新闻编辑室工作岗位消失。读者正在为更薄的产品支付更多费用。有些报纸甚至厚颜无耻地拒绝向偏远郊区投递。",
-          "slashed_text": "Not the 20 % profit margins / that were routine a few years ago , / but profit all the same. / It has not been much fun. / Many papers stayed afloat / by pushing journalists overboard. / The American Society of News Editors reckons / that 13 , / 500 newsroom jobs have gone / since 2007. / Readers are paying more / for slimmer products. / Some papers even had the nerve to refuse delivery to distant suburbs.",
-          "chunk_translation": "虽然不是几年前司空见惯的20%的利润率 / 几年前那是司空见惯的 / 但终归是盈利了 / 这个过程并不轻松愉快 / 许多报纸得以维持运营 / 是通过裁减新闻记者 / 美国新闻编辑协会估计 / 约有1.3 / 万500个新闻编辑室岗位消失了 / 自2007年以来 / 读者正在支付更高的费用 / 购买版面更薄的报纸 / 一些报纸甚至敢于拒绝向偏远郊区发行投递",
-          "vocabulary": [
-            {
-              "word": "newspapers wanted to reduce costs",
-              "pos": "",
-              "definition": "【🎯解题正解】 报纸希望降低成本"
-            },
-            {
-              "word": "readers threatened to pay less",
-              "pos": "",
-              "definition": "【💡题项表达】 读者威胁要少付钱"
-            },
-            {
               "word": "routine",
               "pos": "",
               "definition": "n.常规,通常情况"
@@ -2195,6 +2031,30 @@
               "word": "all the same",
               "pos": "",
               "definition": "(虽...)仍然"
+            },
+            {
+              "word": "margins",
+              "pos": "n.",
+              "definition": "n. 边际（margin 的复数）；利润；利润空间"
+            }
+          ]
+        },
+        {
+          "pid": 2,
+          "text": "It has not been much fun. Many papers stayed afloat by pushing journalists overboard. The American Society of News Editors reckons that 13,500 newsroom jobs have gone since 2007. Readers are paying more for slimmer products. Some papers even had the nerve to refuse delivery to distant suburbs. Yet these desperate measures have proved the right ones and, sadly for many journalists, they can be pushed further.",
+          "translation": "这并不有趣。许多报纸靠记者的努力才得以维持下去。美国新闻编辑协会估计，自 2007 年以来，已有 13,500 个新闻编辑室工作岗位消失。读者正在为更薄的产品支付更多费用。有些报纸甚至厚颜无耻地拒绝向偏远郊区投递。然而事实证明，这些孤注一掷的措施是正确的，而且对许多记者来说可悲的是，这些措施还可以进一步推进。",
+          "slashed_text": "It has not been much fun. / Many papers stayed afloat / by pushing journalists overboard. / The American Society of News Editors reckons / that 13 , / 500 newsroom jobs have gone / since 2007. / Readers are paying more / for slimmer products. / Some papers even had the nerve to refuse delivery to distant suburbs. / Yet these desperate measures have proved the right ones and , / sadly / for many journalists , / they can be pushed further.",
+          "chunk_translation": "这个过程并不轻松愉快 / 许多报纸得以维持运营 / 是通过裁减新闻记者 / 美国新闻编辑协会估计 / 约有1.3 / 万500个新闻编辑室岗位消失了 / 自2007年以来 / 读者正在支付更高的费用 / 购买版面更薄的报纸 / 一些报纸甚至敢于拒绝向偏远郊区发行投递 / 然而这些孤注一掷的举措已被证明是正确的，而且 / 令人遗憾的是 / 对许多记者而言 / 这些举措还可以进一步推进",
+          "vocabulary": [
+            {
+              "word": "readers",
+              "pos": "n.",
+              "definition": "n. reader 的复数形式：读者；电子阅读器、读卡机等阅读设备（常与修饰语连用）"
+            },
+            {
+              "word": "News",
+              "pos": "n.",
+              "definition": "n. 消息；新情况"
             },
             {
               "word": "afloat",
@@ -2227,11 +2087,6 @@
               "definition": "n. 产品；商品（product 的复数）；产物"
             },
             {
-              "word": "readers",
-              "pos": "n.",
-              "definition": "n. reader 的复数形式：读者；电子阅读器、读卡机等阅读设备（常与修饰语连用）"
-            },
-            {
               "word": "pushing",
               "pos": "prep.",
               "definition": "prep. 接近（某个年龄）；adj. 奋斗的"
@@ -2245,11 +2100,6 @@
               "word": "reckons",
               "pos": "v.",
               "definition": "v. （reckon 的第三人称单数形式）认为；觉得"
-            },
-            {
-              "word": "margins",
-              "pos": "n.",
-              "definition": "n. 边际（margin 的复数）；利润；利润空间"
             },
             {
               "word": "slimmer",
@@ -2277,11 +2127,6 @@
               "definition": "v. 支付；付款"
             },
             {
-              "word": "profit",
-              "pos": "n.",
-              "definition": "n. 利润；盈利；利益"
-            },
-            {
               "word": "refuse",
               "pos": "v.",
               "definition": "v. 拒绝；回绝（做某事）；不接受"
@@ -2292,43 +2137,63 @@
               "definition": "n. 神经；勇气；胆量"
             },
             {
-              "word": "News",
+              "word": "desperate measures",
+              "pos": "",
+              "definition": "孤注一掷的措施"
+            },
+            {
+              "word": "desperate",
+              "pos": "adj.",
+              "definition": "adj. 不顾一切的；拼命的；极需要的"
+            },
+            {
+              "word": "measures",
               "pos": "n.",
-              "definition": "n. 消息；新情况"
+              "definition": "n. 措施；层组（measure 的复数）；v. 测量（measure 的第三人称单数）"
+            },
+            {
+              "word": "further",
+              "pos": "adv.",
+              "definition": "adv. 更远地；再往前地；进一步"
+            },
+            {
+              "word": "proved",
+              "pos": "adj.",
+              "definition": "adj. 证实的；被证明的；v. prove 的过去式和过去分词：证明"
+            },
+            {
+              "word": "pushed",
+              "pos": "v.",
+              "definition": "v. 推；挤；逼迫（push 的过去式和过去分词）"
+            },
+            {
+              "word": "sadly",
+              "pos": "adv.",
+              "definition": "adv. 悲哀地；悲痛地；伤心地"
             }
           ]
         },
         {
           "pid": 3,
-          "text": "Yet these desperate measures have proved the right ones and, sadly for many journalists, they can be pushed further. Newspapers are becoming more balanced businesses, with a healthier mix of revenues from readers and advertisers. American papers have long been highly unusual in their reliance on ads. Fully 87 % of their revenues came from advertising in 2008, according to the Organization for Economic Cooperation & Development (OECD). In Japan the proportion is 35%.",
-          "translation": "然而事实证明，这些孤注一掷的措施是正确的，而且对许多记者来说可悲的是，这些措施还可以进一步推进。报纸业务正在变得更加平衡，来自读者和广告商的收入组合更加健康。美国报纸长期以来对广告的依赖是极不寻常的。根据经济合作与发展组织 (OECD) 的数据，2008 年他们 87% 的收入来自广告。在日本这一比例为35%。",
-          "slashed_text": "Yet these desperate measures have proved the right ones and , / sadly / for many journalists , / they can be pushed further. / Newspapers are becoming more balanced businesses , / with a healthier mix of revenues / from readers and advertisers. / American papers have long been highly unusual / in their reliance on ads. / Fully 87 % of their revenues came / from advertising in 2008 , / according to the Organization / for Economic Cooperation & Development (OECD). / In Japan the proportion is 35%.",
-          "chunk_translation": "然而这些孤注一掷的举措已被证明是正确的，而且 / 令人遗憾的是 / 对许多记者而言 / 这些举措还可以进一步推进 / 报纸正成为更加均衡的商业实体 / 拥有更健康的收入组合 / 来自读者和广告商 / 美国报纸长期以来极不寻常 / 在其对广告的依赖程度上 / 其整整87%的收入来源于此 / 来自2008年的广告收入 / 据该组织统计 / 经济合作与发展组织（经合组织） / 在日本这一比例为35%",
+          "text": "Newspapers are becoming more balanced businesses, with a healthier mix of revenues from readers and advertisers. American papers have long been highly unusual in their reliance on ads. Fully 87 % of their revenues came from advertising in 2008, according to the Organization for Economic Cooperation & Development (OECD). In Japan the proportion is 35%. Not surprisingly, Japanese newspapers are much more stable.",
+          "translation": "报纸业务正在变得更加平衡，来自读者和广告商的收入组合更加健康。美国报纸长期以来对广告的依赖是极不寻常的。根据经济合作与发展组织 (OECD) 的数据，2008 年他们 87% 的收入来自广告。在日本这一比例为35%。毫不奇怪，日本报纸要稳定得多。",
+          "slashed_text": "Newspapers are becoming more balanced businesses , / with a healthier mix of revenues / from readers and advertisers. / American papers have long been highly unusual / in their reliance on ads. / Fully 87 % of their revenues came / from advertising in 2008 , / according to the Organization / for Economic Cooperation & Development (OECD). / In Japan the proportion is 35%. / Not surprisingly , / Japanese newspapers are much more stable.",
+          "chunk_translation": "报纸正成为更加均衡的商业实体 / 拥有更健康的收入组合 / 来自读者和广告商 / 美国报纸长期以来极不寻常 / 在其对广告的依赖程度上 / 其整整87%的收入来源于此 / 来自2008年的广告收入 / 据该组织统计 / 经济合作与发展组织（经合组织） / 在日本这一比例为35% / 不足为奇的是 / 日本报纸要稳定得多",
           "vocabulary": [
             {
-              "word": "are less dependent on advertising \nᆇี൫ज@JOEE ༯໶\n\n04",
-              "pos": "",
-              "definition": "【🎯解题正解】 are less dependent on advertising \nᆇี൫ज@JOEE ༯໶\n\n04"
+              "word": "advertising",
+              "pos": "n.",
+              "definition": "n. 广告活动；广告业"
             },
             {
-              "word": "have more sources of revenue",
-              "pos": "",
-              "definition": "【💡题项表达】 有更多的收入来源"
+              "word": "newspapers",
+              "pos": "n.",
+              "definition": "n. 报纸；报章（newspaper 的复数）"
             },
             {
-              "word": "have more balanced newsrooms",
-              "pos": "",
-              "definition": "【💡题项表达】 拥有更平衡的新闻编辑室"
-            },
-            {
-              "word": "are less affected by readership",
-              "pos": "",
-              "definition": "【💡题项表达】 受读者影响较小"
-            },
-            {
-              "word": "desperate measures",
-              "pos": "",
-              "definition": "孤注一掷的措施"
+              "word": "readers",
+              "pos": "n.",
+              "definition": "n. reader 的复数形式：读者；电子阅读器、读卡机等阅读设备（常与修饰语连用）"
             },
             {
               "word": "revenues",
@@ -2356,16 +2221,6 @@
               "definition": "n. 组织；机构；组织工作"
             },
             {
-              "word": "advertising",
-              "pos": "n.",
-              "definition": "n. 广告活动；广告业"
-            },
-            {
-              "word": "journalists",
-              "pos": "n.",
-              "definition": "n. 新闻记者（journalist 的复数）"
-            },
-            {
               "word": "advertisers",
               "pos": "n.",
               "definition": "n. 广告商；广告主"
@@ -2381,11 +2236,6 @@
               "definition": "n. 发育；成长；发达"
             },
             {
-              "word": "newspapers",
-              "pos": "n.",
-              "definition": "n. 报纸；报章（newspaper 的复数）"
-            },
-            {
               "word": "businesses",
               "pos": "n.",
               "definition": "n. 公司；企业（business 的复数）"
@@ -2394,11 +2244,6 @@
               "word": "healthier",
               "pos": "adj.",
               "definition": "adj. 更健康；更有益于健康（healthy 的比较级"
-            },
-            {
-              "word": "desperate",
-              "pos": "adj.",
-              "definition": "adj. 不顾一切的；拼命的；极需要的"
             },
             {
               "word": "according",
@@ -2416,24 +2261,9 @@
               "definition": "adj. 平衡的；均衡的"
             },
             {
-              "word": "measures",
-              "pos": "n.",
-              "definition": "n. 措施；层组（measure 的复数）；v. 测量（measure 的第三人称单数）"
-            },
-            {
               "word": "Economic",
               "pos": "adj.",
               "definition": "adj. 经济的；经济学的；有利可图的"
-            },
-            {
-              "word": "readers",
-              "pos": "n.",
-              "definition": "n. reader 的复数形式：读者；电子阅读器、读卡机等阅读设备（常与修饰语连用）"
-            },
-            {
-              "word": "further",
-              "pos": "adv.",
-              "definition": "adv. 更远地；再往前地；进一步"
             },
             {
               "word": "unusual",
@@ -2441,48 +2271,14 @@
               "definition": "adj. 不寻常的；罕见的；与众不同的"
             },
             {
-              "word": "proved",
-              "pos": "adj.",
-              "definition": "adj. 证实的；被证明的；v. prove 的过去式和过去分词：证明"
-            },
-            {
-              "word": "pushed",
-              "pos": "v.",
-              "definition": "v. 推；挤；逼迫（push 的过去式和过去分词）"
-            },
-            {
               "word": "highly",
               "pos": "adv.",
               "definition": "adv. 极其；非常；高度地"
             },
             {
-              "word": "sadly",
-              "pos": "adv.",
-              "definition": "adv. 悲哀地；悲痛地；伤心地"
-            },
-            {
               "word": "Fully",
               "pos": "adv.",
               "definition": "adv. 充分地；完全地；彻底地"
-            },
-            {
-              "word": "News",
-              "pos": "n.",
-              "definition": "n. 消息；新情况"
-            }
-          ]
-        },
-        {
-          "pid": 4,
-          "text": "Not surprisingly, Japanese newspapers are much more stable. The whirlwind that swept through newsrooms harmed everybody, but much of the damage has been concentrated in areas where newspapers are least distinctive. Car and film reviewers have gone. So have science and general business reporters. Foreign bureaus have been savagely cut off. Newspapers are less complete as a result. But completeness is no longer a virtue in the newspaper business.",
-          "translation": "毫不奇怪，日本报纸要稳定得多。席卷新闻编辑室的旋风伤害了所有人，但大部分损害都集中在报纸最不独特的领域。汽车和电影评论家都走了。科学记者和一般商业记者也是如此。外国机构的联系被野蛮地切断。因此，报纸不太完整。但完整性不再是报纸行业的美德。",
-          "slashed_text": "Not surprisingly , / Japanese newspapers are much more stable. / The whirlwind / that swept / through newsrooms harmed everybody , / but much of the damage has been concentrated / in areas / where newspapers are least distinctive. / Car and film reviewers have gone. / So have science and general business reporters. / Foreign bureaus have been savagely cut off. / Newspapers are less complete as a result. / But completeness is no longer a virtue in the newspaper business.",
-          "chunk_translation": "不足为奇的是 / 日本报纸要稳定得多 / 席卷新闻编辑室的狂风暴雨 / 席卷 / 伤害了每一个人 / 但大部分破坏主要集中 / 在某些领域 / 即报纸最缺乏特色的板块 / 汽车和电影评论员已经被裁撤了 / 科技和大众商业记者也是如此 / 驻外记者站已被无情关闭 / 报纸的内容因此不如以往全面 / 但在报业经营中，内容包罗万象已不再是一种美德",
-          "vocabulary": [
-            {
-              "word": "Distinctiveness is an essential feature of newspapers",
-              "pos": "",
-              "definition": "【🎯解题正解】 独特性是报纸的本质特征。"
             },
             {
               "word": "stable",
@@ -2493,6 +2289,25 @@
               "word": "not surprisingly",
               "pos": "",
               "definition": "毫无疑问"
+            },
+            {
+              "word": "surprisingly",
+              "pos": "adv.",
+              "definition": "adv. 惊人地；出人意料地"
+            }
+          ]
+        },
+        {
+          "pid": 4,
+          "text": "The whirlwind that swept through newsrooms harmed everybody, but much of the damage has been concentrated in areas where newspapers are least distinctive. Car and film reviewers have gone. So have science and general business reporters. Foreign bureaus have been savagely cut off. Newspapers are less complete as a result. But completeness is no longer a virtue in the newspaper business.",
+          "translation": "席卷新闻编辑室的旋风伤害了所有人，但大部分损害都集中在报纸最不独特的领域。汽车和电影评论家都走了。科学记者和一般商业记者也是如此。外国机构的联系被野蛮地切断。因此，报纸不太完整。但完整性不再是报纸行业的美德。",
+          "slashed_text": "The whirlwind / that swept / through newsrooms harmed everybody , / but much of the damage has been concentrated / in areas / where newspapers are least distinctive. / Car and film reviewers have gone. / So have science and general business reporters. / Foreign bureaus have been savagely cut off. / Newspapers are less complete as a result. / But completeness is no longer a virtue in the newspaper business.",
+          "chunk_translation": "席卷新闻编辑室的狂风暴雨 / 席卷 / 伤害了每一个人 / 但大部分破坏主要集中 / 在某些领域 / 即报纸最缺乏特色的板块 / 汽车和电影评论员已经被裁撤了 / 科技和大众商业记者也是如此 / 驻外记者站已被无情关闭 / 报纸的内容因此不如以往全面 / 但在报业经营中，内容包罗万象已不再是一种美德",
+          "vocabulary": [
+            {
+              "word": "newspapers",
+              "pos": "n.",
+              "definition": "n. 报纸；报章（newspaper 的复数）"
             },
             {
               "word": "whirlwind",
@@ -2525,11 +2340,6 @@
               "definition": "adj. 集中的；全神贯注的"
             },
             {
-              "word": "surprisingly",
-              "pos": "adv.",
-              "definition": "adv. 惊人地；出人意料地"
-            },
-            {
               "word": "completeness",
               "pos": "n.",
               "definition": "n. 完整；完整性；完全"
@@ -2538,11 +2348,6 @@
               "word": "as a result",
               "pos": "n./v.",
               "definition": "语境核心词汇"
-            },
-            {
-              "word": "newspapers",
-              "pos": "n.",
-              "definition": "n. 报纸；报章（newspaper 的复数）"
             },
             {
               "word": "newsrooms",
@@ -2568,11 +2373,6 @@
               "word": "newspaper",
               "pos": "n.",
               "definition": "n. 报纸；报；报社"
-            },
-            {
-              "word": "newsroom",
-              "pos": "n.",
-              "definition": "n. 新闻编辑室；新闻编辑部"
             },
             {
               "word": "business",
@@ -2623,11 +2423,6 @@
               "word": "swept",
               "pos": "v.",
               "definition": "v. 扫除（sweep 的过去式和过去分词）；扫视"
-            },
-            {
-              "word": "News",
-              "pos": "n.",
-              "definition": "n. 消息；新情况"
             }
           ]
         }
@@ -2859,8 +2654,8 @@
         },
         {
           "sid": 8,
-          "pid": 1,
-          "sentence_index": 0,
+          "pid": 0,
+          "sentence_index": 8,
           "text": "But the discussions now seem out of date.",
           "translation": "但现在的讨论似乎已经过时了。",
           "slashed_text": "But the discussions now seem out of date.",
@@ -2888,7 +2683,7 @@
         {
           "sid": 9,
           "pid": 1,
-          "sentence_index": 1,
+          "sentence_index": 0,
           "text": "In much of the world there is little sign of crisis.",
           "translation": "世界大部分地区几乎没有出现危机的迹象。",
           "slashed_text": "In much of the world there is little sign of crisis.",
@@ -2916,7 +2711,7 @@
         {
           "sid": 10,
           "pid": 1,
-          "sentence_index": 2,
+          "sentence_index": 1,
           "text": "German and Brazilian papers have shrugged off the recession.",
           "translation": "德国和巴西的报纸已经摆脱了经济衰退的影响。",
           "slashed_text": "German and Brazilian papers have shrugged off the recession.",
@@ -2944,7 +2739,7 @@
         {
           "sid": 11,
           "pid": 1,
-          "sentence_index": 3,
+          "sentence_index": 2,
           "text": "Even American newspapers, which inhabit the most troubled corner of the global industry, have not only survived but often returned to profit.",
           "translation": "即使是位于全球行业最困难角落的美国报纸，也不仅生存了下来，而且常常恢复盈利。",
           "slashed_text": "Even American newspapers , / which inhabit the most troubled corner of the global industry , / have not only survived but often returned to profit.",
@@ -2971,8 +2766,8 @@
         },
         {
           "sid": 12,
-          "pid": 2,
-          "sentence_index": 0,
+          "pid": 1,
+          "sentence_index": 3,
           "text": "Not the 20 % profit margins that were routine a few years ago, but profit all the same.",
           "translation": "虽然不是几年前常见的 20% 利润率，但利润还是一样。",
           "slashed_text": "Not the 20 % profit margins / that were routine a few years ago , / but profit all the same.",
@@ -3000,7 +2795,7 @@
         {
           "sid": 13,
           "pid": 2,
-          "sentence_index": 1,
+          "sentence_index": 0,
           "text": "It has not been much fun.",
           "translation": "这并不有趣。",
           "slashed_text": "It has not been much fun.",
@@ -3028,7 +2823,7 @@
         {
           "sid": 14,
           "pid": 2,
-          "sentence_index": 2,
+          "sentence_index": 1,
           "text": "Many papers stayed afloat by pushing journalists overboard.",
           "translation": "许多报纸靠记者的努力才得以维持下去。",
           "slashed_text": "Many papers stayed afloat / by pushing journalists overboard.",
@@ -3056,7 +2851,7 @@
         {
           "sid": 15,
           "pid": 2,
-          "sentence_index": 3,
+          "sentence_index": 2,
           "text": "The American Society of News Editors reckons that 13,500 newsroom jobs have gone since 2007.",
           "translation": "美国新闻编辑协会估计，自 2007 年以来，已有 13,500 个新闻编辑室工作岗位消失。",
           "slashed_text": "The American Society of News Editors reckons / that 13 , / 500 newsroom jobs have gone / since 2007.",
@@ -3084,7 +2879,7 @@
         {
           "sid": 16,
           "pid": 2,
-          "sentence_index": 4,
+          "sentence_index": 3,
           "text": "Readers are paying more for slimmer products.",
           "translation": "读者正在为更薄的产品支付更多费用。",
           "slashed_text": "Readers are paying more / for slimmer products.",
@@ -3112,7 +2907,7 @@
         {
           "sid": 17,
           "pid": 2,
-          "sentence_index": 5,
+          "sentence_index": 4,
           "text": "Some papers even had the nerve to refuse delivery to distant suburbs.",
           "translation": "有些报纸甚至厚颜无耻地拒绝向偏远郊区投递。",
           "slashed_text": "Some papers even had the nerve to refuse delivery to distant suburbs.",
@@ -3139,8 +2934,8 @@
         },
         {
           "sid": 18,
-          "pid": 3,
-          "sentence_index": 0,
+          "pid": 2,
+          "sentence_index": 5,
           "text": "Yet these desperate measures have proved the right ones and, sadly for many journalists, they can be pushed further.",
           "translation": "然而事实证明，这些孤注一掷的措施是正确的，而且对许多记者来说可悲的是，这些措施还可以进一步推进。",
           "slashed_text": "Yet these desperate measures have proved the right ones and , / sadly / for many journalists , / they can be pushed further.",
@@ -3168,7 +2963,7 @@
         {
           "sid": 19,
           "pid": 3,
-          "sentence_index": 1,
+          "sentence_index": 0,
           "text": "Newspapers are becoming more balanced businesses, with a healthier mix of revenues from readers and advertisers.",
           "translation": "报纸业务正在变得更加平衡，来自读者和广告商的收入组合更加健康。",
           "slashed_text": "Newspapers are becoming more balanced businesses , / with a healthier mix of revenues / from readers and advertisers.",
@@ -3196,7 +2991,7 @@
         {
           "sid": 20,
           "pid": 3,
-          "sentence_index": 2,
+          "sentence_index": 1,
           "text": "American papers have long been highly unusual in their reliance on ads.",
           "translation": "美国报纸长期以来对广告的依赖是极不寻常的。",
           "slashed_text": "American papers have long been highly unusual / in their reliance on ads.",
@@ -3224,7 +3019,7 @@
         {
           "sid": 21,
           "pid": 3,
-          "sentence_index": 3,
+          "sentence_index": 2,
           "text": "Fully 87 % of their revenues came from advertising in 2008, according to the Organization for Economic Cooperation & Development (OECD).",
           "translation": "根据经济合作与发展组织 (OECD) 的数据，2008 年他们 87% 的收入来自广告。",
           "slashed_text": "Fully 87 % of their revenues came / from advertising in 2008 , / according to the Organization / for Economic Cooperation & Development (OECD).",
@@ -3252,7 +3047,7 @@
         {
           "sid": 22,
           "pid": 3,
-          "sentence_index": 4,
+          "sentence_index": 3,
           "text": "In Japan the proportion is 35%.",
           "translation": "在日本这一比例为35%。",
           "slashed_text": "In Japan the proportion is 35%.",
@@ -3279,8 +3074,8 @@
         },
         {
           "sid": 23,
-          "pid": 4,
-          "sentence_index": 0,
+          "pid": 3,
+          "sentence_index": 4,
           "text": "Not surprisingly, Japanese newspapers are much more stable.",
           "translation": "毫不奇怪，日本报纸要稳定得多。",
           "slashed_text": "Not surprisingly , / Japanese newspapers are much more stable.",
@@ -3308,7 +3103,7 @@
         {
           "sid": 24,
           "pid": 4,
-          "sentence_index": 1,
+          "sentence_index": 0,
           "text": "The whirlwind that swept through newsrooms harmed everybody, but much of the damage has been concentrated in areas where newspapers are least distinctive.",
           "translation": "席卷新闻编辑室的旋风伤害了所有人，但大部分损害都集中在报纸最不独特的领域。",
           "slashed_text": "The whirlwind / that swept / through newsrooms harmed everybody , / but much of the damage has been concentrated / in areas / where newspapers are least distinctive.",
@@ -3336,7 +3131,7 @@
         {
           "sid": 25,
           "pid": 4,
-          "sentence_index": 2,
+          "sentence_index": 1,
           "text": "Car and film reviewers have gone.",
           "translation": "汽车和电影评论家都走了。",
           "slashed_text": "Car and film reviewers have gone.",
@@ -3364,7 +3159,7 @@
         {
           "sid": 26,
           "pid": 4,
-          "sentence_index": 3,
+          "sentence_index": 2,
           "text": "So have science and general business reporters.",
           "translation": "科学记者和一般商业记者也是如此。",
           "slashed_text": "So have science and general business reporters.",
@@ -3392,7 +3187,7 @@
         {
           "sid": 27,
           "pid": 4,
-          "sentence_index": 4,
+          "sentence_index": 3,
           "text": "Foreign bureaus have been savagely cut off.",
           "translation": "外国机构的联系被野蛮地切断。",
           "slashed_text": "Foreign bureaus have been savagely cut off.",
@@ -3420,7 +3215,7 @@
         {
           "sid": 28,
           "pid": 4,
-          "sentence_index": 5,
+          "sentence_index": 4,
           "text": "Newspapers are less complete as a result.",
           "translation": "因此，报纸不太完整。",
           "slashed_text": "Newspapers are less complete as a result.",
@@ -3448,7 +3243,7 @@
         {
           "sid": 29,
           "pid": 4,
-          "sentence_index": 6,
+          "sentence_index": 5,
           "text": "But completeness is no longer a virtue in the newspaper business.",
           "translation": "但完整性不再是报纸行业的美德。",
           "slashed_text": "But completeness is no longer a virtue in the newspaper business.",
@@ -3918,33 +3713,33 @@
         "paragraph_functions": [
           {
             "pid": 0,
-            "role": "【起】曾几何时甚嚣尘上的'报纸必死'末日预言",
-            "core_point": "金融危机重创广告营收，一年前整个传媒界哀鸿遍野，纸质报纸即将彻底断气被视作板上钉钉的定论。",
-            "cohesive_devices": "以反讽设问（Whatever happened to the death of newspapers?）引人入胜。"
+            "role": "现象提出",
+            "function": "现象提出",
+            "core_point": "曾经深陷倒闭危机的报业在经历重组后，以往关于报业灭绝的悲观讨论已显过时。"
           },
           {
             "pid": 1,
-            "role": "【承】重见天日的反转现实：全球报业并未如期走向坟墓",
-            "core_point": "时过境迁，死亡预言已被证明不合时宜：在世界大部分地区，报业危机已退潮，各大大报依然顽强挺立。",
-            "cohesive_devices": "以事实反驳旧论调（discussions now seem out of date / little sign of crisis）。"
+            "role": "行业回暖",
+            "function": "行业回暖",
+            "core_point": "全球多国报纸抵御衰退，美国报业亦不仅存活且恢复盈利。"
           },
           {
             "pid": 2,
-            "role": "【承】暴利虽逝，断臂求生下的盈利韧性犹存",
-            "core_point": "昔日动辄20%的超高利润率固然随风而去，但在刀刃向内的紧缩重组下，报馆依然成功保住了盈利底线。",
-            "cohesive_devices": "辩证量化剖析（Not the 20% routine margins, but profit all the same）。"
+            "role": "自救举措",
+            "function": "自救举措",
+            "core_point": "报社通过裁撤记者、提高售价等自救措施成功遏制危机并重获生机。"
           },
           {
             "pid": 3,
-            "role": "【转】断尾求生的沉重代价：关停海外分社与采编失业之痛",
-            "core_point": "活下来的代价是悲壮的：大幅关闭驻外记者站、精简版面与大刀阔斧裁撤新闻记者，虽属无奈之举，却拯救了报馆生命线。",
-            "cohesive_devices": "展现生存与悲情的对立（desperate measures proved right, yet sadly for many journalists）。"
+            "role": "结构转型",
+            "function": "结构转型",
+            "core_point": "报业收入结构从极端依赖广告走向读者与广告平衡，日本报业即得益于此。"
           },
           {
             "pid": 4,
-            "role": "【合】特例镜鉴：日本报业依托送报到家网络笑傲风暴",
-            "core_point": "日本报纸展现出世界罕见的惊人稳定性，其严密高效的清晨送报入户网络构筑了抵御数字化冲击的天然避风港。",
-            "cohesive_devices": "以典型国别样本作结（Not surprisingly, Japanese newspapers are much more stable / doorstep delivery）。"
+            "role": "新常态定位",
+            "function": "新常态定位",
+            "core_point": "报业裁撤同质化栏目，虽牺牲了面面俱到的完整性，却回归了精简与核心价值。"
           }
         ],
         "part_b_training": {
@@ -4398,11 +4193,16 @@
         },
         {
           "pid": 3,
-          "text": "Mies’s signature phrase means that less decoration, properly organized, has more impact than a lot. Elegance, he believed, did not derive from abundance. Like other modern architects, he employed metal, glass and laminated wood—materials that we take for granted today but that in the 1940s symbolized the future.",
-          "translation": "密斯的标志性短语意味着，较少的装饰，适当的组织，比大量的装饰具有更大的影响力。他相信，优雅并非源自丰富。与其他现代建筑师一样，他采用了金属、玻璃和层压木材——这些材料在今天我们看来是理所当然的，但在 20 世纪 40 年代却象征着未来。",
-          "slashed_text": "Mies’s signature phrase means / that less decoration , / properly organized , / has more impact than a lot. / Elegance , / he believed , / did not derive / from abundance. / Like other modern architects , / he employed metal , / glass and laminated wood — / materials / that we take / for granted today but / that in the 1940s symbolized the future.",
-          "chunk_translation": "密斯的标志性格言意味着 / 较少的装饰 / 只要组织得当 / 就能比繁复的装饰产生更大的影响力 / 优雅 / 他坚信 / 并非源于 / 繁冗堆砌 / 与其他现代建筑师一样 / 他运用金属、 / 玻璃和层压木板—— / 这些材料 / 在我们今天看来 / 是理所当然的，但 / 在20世纪40年代却象征着未来",
+          "text": "Mies’s signature phrase means that less decoration, properly organized, has more impact than a lot. Elegance, he believed, did not derive from abundance. Like other modern architects, he employed metal, glass and laminated wood—materials that we take for granted today but that in the 1940s symbolized the future. Mies’s sophisticated presentation masked the fact that the spaces he designed were small and efficient, rather than big and often empty.",
+          "translation": "密斯的标志性短语意味着，较少的装饰，适当的组织，比大量的装饰具有更大的影响力。他相信，优雅并非源自丰富。与其他现代建筑师一样，他采用了金属、玻璃和层压木材——这些材料在今天我们看来是理所当然的，但在 20 世纪 40 年代却象征着未来。密斯复杂的演示掩盖了这样一个事实：他设计的空间小而高效，而不是大且经常空荡荡的。",
+          "slashed_text": "Mies’s signature phrase means / that less decoration , / properly organized , / has more impact than a lot. / Elegance , / he believed , / did not derive / from abundance. / Like other modern architects , / he employed metal , / glass and laminated wood — / materials / that we take / for granted today but / that in the 1940s symbolized the future. / Mies’s sophisticated presentation masked the fact / that the spaces he designed were small and efficient , / rather than big and often empty.",
+          "chunk_translation": "密斯的标志性格言意味着 / 较少的装饰 / 只要组织得当 / 就能比繁复的装饰产生更大的影响力 / 优雅 / 他坚信 / 并非源于 / 繁冗堆砌 / 与其他现代建筑师一样 / 他运用金属、 / 玻璃和层压木板—— / 这些材料 / 在我们今天看来 / 是理所当然的，但 / 在20世纪40年代却象征着未来 / 密斯精湛的表现手法掩盖了这样一个事实 / 即他所设计的空间小而高效 / 而非庞大且往往空旷",
           "vocabulary": [
+            {
+              "word": "efficient",
+              "pos": "adj.",
+              "definition": "adj. 生效的；效率高的"
+            },
             {
               "word": "phrase",
               "pos": "n.",
@@ -4527,25 +4327,6 @@
               "word": "elegance",
               "pos": "n.",
               "definition": "n. 优雅；雅致；简练"
-            }
-          ]
-        },
-        {
-          "pid": 4,
-          "text": "Mies’s sophisticated presentation masked the fact that the spaces he designed were small and efficient, rather than big and often empty. The apartments in the elegant towers Mies built on Chicago’s Lake Shore Drive, for example, were smaller—two-bedroom units under 1,000 square feet—than those in their older neighbors along the city’s Gold Coast. But they were popular because of their airy glass walls, the views they afforded and the elegance of the buildings’ details and proportions, the architectural equivalent of the abstract art so popular at the time.",
-          "translation": "密斯复杂的演示掩盖了这样一个事实：他设计的空间小而高效，而不是大且经常空荡荡的。例如，密斯在芝加哥湖滨大道上建造的优雅塔楼中的公寓比位于城市黄金海岸的老邻居中的公寓要小，两居室单元面积不到 1,000 平方英尺。但它们之所以受欢迎，是因为它们通风的玻璃墙、提供的视野以及建筑细节和比例的优雅，相当于当时流行的抽象艺术的建筑风格。",
-          "slashed_text": "Mies’s sophisticated presentation masked the fact / that the spaces he designed were small and efficient , / rather than big and often empty. / The apartments in the elegant towers Mies built / on Chicago’s Lake Shore Drive , / for example , / were smaller — / two-bedroom units under 1 , / 000 square feet — / than those / in their older neighbors along the city’s Gold Coast. / But they were popular / because of their airy glass walls , / the views they afforded and the elegance of the buildings’ details and proportions , / the architectural equivalent of the abstract art so popular at the time.",
-          "chunk_translation": "密斯精湛的表现手法掩盖了这样一个事实 / 即他所设计的空间小而高效 / 而非庞大且往往空旷 / 例如密斯在芝加哥湖滨大道上建造的典雅高楼中的公寓 / 位于芝加哥湖滨大道上 / 例如 / 面积更小—— / 面积不到1 / 000平方英尺的两居室—— / 相比那些 / 位于该市黄金海岸沿线的老式邻近建筑中的公寓 / 但它们深受人们喜爱 / 因为其通透通风的玻璃幕墙 / 极佳的采光视野以及建筑细节与比例的典雅 / 堪称当时风靡一时的抽象艺术在建筑学上的体现",
-          "vocabulary": [
-            {
-              "word": "efficient",
-              "pos": "adj.",
-              "definition": "adj. 生效的；效率高的"
-            },
-            {
-              "word": "Mies",
-              "pos": "abbr.",
-              "definition": "abbr. 矿区产业生态系统（mining industry ecosystem）；n. （Mies）人名"
             },
             {
               "word": "sophisticated",
@@ -4556,11 +4337,6 @@
               "word": "presentation",
               "pos": "n.",
               "definition": "n. （颁奖等）仪式；典礼；授予"
-            },
-            {
-              "word": "Elegance",
-              "pos": "n.",
-              "definition": "n. 优雅；雅致；简练"
             },
             {
               "word": "designed",
@@ -4578,14 +4354,33 @@
               "definition": "n. 空间；空地；空隙"
             },
             {
-              "word": "glass",
-              "pos": "n.",
-              "definition": "n. 玻璃；玻璃杯；一杯之量"
-            },
-            {
               "word": "empty",
               "pos": "adj.",
               "definition": "adj. 空的；空洞的；无意义的"
+            }
+          ]
+        },
+        {
+          "pid": 4,
+          "text": "The apartments in the elegant towers Mies built on Chicago’s Lake Shore Drive, for example, were smaller—two-bedroom units under 1,000 square feet—than those in their older neighbors along the city’s Gold Coast. But they were popular because of their airy glass walls, the views they afforded and the elegance of the buildings’ details and proportions, the architectural equivalent of the abstract art so popular at the time.",
+          "translation": "例如，密斯在芝加哥湖滨大道上建造的优雅塔楼中的公寓比位于城市黄金海岸的老邻居中的公寓要小，两居室单元面积不到 1,000 平方英尺。但它们之所以受欢迎，是因为它们通风的玻璃墙、提供的视野以及建筑细节和比例的优雅，相当于当时流行的抽象艺术的建筑风格。",
+          "slashed_text": "The apartments in the elegant towers Mies built / on Chicago’s Lake Shore Drive , / for example , / were smaller — / two-bedroom units under 1 , / 000 square feet — / than those / in their older neighbors along the city’s Gold Coast. / But they were popular / because of their airy glass walls , / the views they afforded and the elegance of the buildings’ details and proportions , / the architectural equivalent of the abstract art so popular at the time.",
+          "chunk_translation": "例如密斯在芝加哥湖滨大道上建造的典雅高楼中的公寓 / 位于芝加哥湖滨大道上 / 例如 / 面积更小—— / 面积不到1 / 000平方英尺的两居室—— / 相比那些 / 位于该市黄金海岸沿线的老式邻近建筑中的公寓 / 但它们深受人们喜爱 / 因为其通透通风的玻璃幕墙 / 极佳的采光视野以及建筑细节与比例的典雅 / 堪称当时风靡一时的抽象艺术在建筑学上的体现",
+          "vocabulary": [
+            {
+              "word": "Mies",
+              "pos": "abbr.",
+              "definition": "abbr. 矿区产业生态系统（mining industry ecosystem）；n. （Mies）人名"
+            },
+            {
+              "word": "Elegance",
+              "pos": "n.",
+              "definition": "n. 优雅；雅致；简练"
+            },
+            {
+              "word": "glass",
+              "pos": "n.",
+              "definition": "n. 玻璃；玻璃杯；一杯之量"
             },
             {
               "word": "elegance",
@@ -4721,10 +4516,10 @@
         },
         {
           "pid": 5,
-          "text": "The trend toward “less” was not entirely foreign. In the 1930s Frank Lloyd Wright started building more modest and efficient houses—usually around 1,200 square feet— than the spreading two-story ones he had designed in the 1890s and the early 20th century. The “Case Study Houses” commissioned from talented modern architects by California Arts & Architecture magazine between 1945 and 1962 were yet another homegrown influence on the “less is more” trend.",
-          "translation": "“更少”的趋势并非完全陌生。20 世纪 30 年代，弗兰克·劳埃德·赖特 (Frank Lloyd Wright) 开始建造比他在 1890 年代和 20 世纪初设计的两层楼更朴素、更高效的房屋（通常面积约为 1,200 平方英尺）。1945 年至 1962 年间，加州艺术与建筑杂志委托才华横溢的现代建筑师设计的“案例研究住宅”是对“少即是多”趋势的另一个本土影响。",
-          "slashed_text": "The trend toward “less” was not entirely foreign. / In the 1930s Frank Lloyd Wright started building more modest and efficient houses — / usually around 1 , / 200 square feet — / than the spreading two-story ones he had designed in the 1890s and the early 20th century. / The “Case Study Houses” commissioned / from talented modern architects / by California Arts & Architecture magazine between 1945 and 1962 were yet another homegrown influence on the “less is more” trend.",
-          "chunk_translation": "走向“少”的趋势并非完全是舶来品 / 在20世纪30年代，弗兰克·劳埃德·赖特就开始建造更加简朴且高效的住宅—— / 通常约为1 / 200平方英尺左右—— / 相比他在19世纪90年代和20世纪初所设计的铺展开来的双层住宅 / 在1945年至1962年间由《加州艺术与建筑》杂志委托建造的“案例研究住宅” / 委托优秀的现代建筑师设计的 / 是对“少即是多”趋势的又一本土影响",
+          "text": "The trend toward “less” was not entirely foreign. In the 1930s Frank Lloyd Wright started building more modest and efficient houses—usually around 1,200 square feet— than the spreading two-story ones he had designed in the 1890s and the early 20th century.",
+          "translation": "“更少”的趋势并非完全陌生。20 世纪 30 年代，弗兰克·劳埃德·赖特 (Frank Lloyd Wright) 开始建造比他在 1890 年代和 20 世纪初设计的两层楼更朴素、更高效的房屋（通常面积约为 1,200 平方英尺）。",
+          "slashed_text": "The trend toward “less” was not entirely foreign. / In the 1930s Frank Lloyd Wright started building more modest and efficient houses — / usually around 1 , / 200 square feet — / than the spreading two-story ones he had designed in the 1890s and the early 20th century.",
+          "chunk_translation": "走向“少”的趋势并非完全是舶来品 / 在20世纪30年代，弗兰克·劳埃德·赖特就开始建造更加简朴且高效的住宅—— / 通常约为1 / 200平方英尺左右—— / 相比他在19世纪90年代和20世纪初所设计的铺展开来的双层住宅",
           "vocabulary": [
             {
               "word": "houses",
@@ -4737,34 +4532,14 @@
               "definition": "adj. 生效的；效率高的"
             },
             {
-              "word": "Architecture",
-              "pos": "n.",
-              "definition": "n. 建筑设计；建筑风格"
-            },
-            {
               "word": "trend",
               "pos": "n.",
               "definition": "n. 趋势；动态"
             },
             {
-              "word": "influence",
-              "pos": "n.",
-              "definition": "n. 影响；作用；势力"
-            },
-            {
-              "word": "architects",
-              "pos": "n.",
-              "definition": "n. （建）建筑师（architect 的复数形式）；（思想、事件、制度等的）设计者"
-            },
-            {
               "word": "designed",
               "pos": "v.",
               "definition": "v. 设计；计划（design 的过去式和过去分词）；be designed to/for 旨在"
-            },
-            {
-              "word": "modern",
-              "pos": "adj.",
-              "definition": "adj. 近代的；现代的"
             },
             {
               "word": "square",
@@ -4787,34 +4562,14 @@
               "definition": "a.适度的,适中的,端庄的"
             },
             {
-              "word": "commissioned",
-              "pos": "adj.",
-              "definition": "adj. 受委任的；受任命的"
-            },
-            {
               "word": "spreading",
               "pos": "v.",
               "definition": "v. 传播；蔓延；扩散"
             },
             {
-              "word": "homegrown",
-              "pos": "adj.",
-              "definition": "adj. 国产的；本土的；自家种植的"
-            },
-            {
-              "word": "talented",
-              "pos": "adj.",
-              "definition": "adj. 有天资的；有才能的"
-            },
-            {
               "word": "building",
               "pos": "n.",
               "definition": "n. 建筑物；房屋；楼房"
-            },
-            {
-              "word": "magazine",
-              "pos": "n.",
-              "definition": "n. 杂志；期刊；（电视、广播）专题节目"
             },
             {
               "word": "started",
@@ -4842,33 +4597,48 @@
               "definition": "n. 劳埃德（男子名或姓氏）"
             },
             {
-              "word": "Study",
-              "pos": "n.",
-              "definition": "n. （专题）研究；调查"
-            },
-            {
               "word": "story",
               "pos": "n.",
               "definition": "n. （真实或虚构的）故事；叙述；新闻报道"
-            },
-            {
-              "word": "Arts",
-              "pos": "n.",
-              "definition": "n. 美术；艺术"
             }
           ]
         },
         {
           "pid": 6,
-          "text": "Aesthetic effect came from the landscape, new materials and forthright detailing. In his Case Study House, Ralph Rapson may have mispredicted just how the mechanical revolution would impact everyday life—few American families acquired helicopters, though most eventually got clothes dryers—but his belief that self-sufficiency was both desirable and inevitable was widely shared.",
-          "translation": "美学效果来自景观、新材料和直接的细节。在他的案例研究之家中，拉尔夫·拉普森可能错误地预测了机械革命将如何影响日常生活——很少有美国家庭拥有直升机，尽管大多数家庭最终都拥有了干衣机——但他认为自给自足既是可取的也是不可避免的这一信念得到了广泛认同。",
-          "slashed_text": "Aesthetic effect came from the landscape , / new materials and forthright detailing. / In his Case Study House , / Ralph Rapson may have mispredicted just how the mechanical revolution would impact everyday life — / few American families acquired helicopters , / though most eventually got clothes dryers — / but his belief / that self-sufficiency was both desirable and inevitable was widely shared.",
-          "chunk_translation": "美学效果源自自然景观、 / 新材料以及简洁直率的细节处理 / 在他的案例研究住宅中 / 拉尔夫·拉普森或许误判了机械革命究竟会如何影响日常生活—— / 极少有美国家庭购买了直升机 / 尽管大多数家庭最终都购置了干衣机—— / 但他的信念 / 即自给自足既令人向往又是必然趋势，却得到了广泛认同",
+          "text": "The “Case Study Houses” commissioned from talented modern architects by California Arts & Architecture magazine between 1945 and 1962 were yet another homegrown influence on the “less is more” trend. Aesthetic effect came from the landscape, new materials and forthright detailing. In his Case Study House, Ralph Rapson may have mispredicted just how the mechanical revolution would impact everyday life—few American families acquired helicopters, though most eventually got clothes dryers—but his belief that self-sufficiency was both desirable and inevitable was widely shared.",
+          "translation": "1945 年至 1962 年间，加州艺术与建筑杂志委托才华横溢的现代建筑师设计的“案例研究住宅”是对“少即是多”趋势的另一个本土影响。美学效果来自景观、新材料和直接的细节。在他的案例研究之家中，拉尔夫·拉普森可能错误地预测了机械革命将如何影响日常生活——很少有美国家庭拥有直升机，尽管大多数家庭最终都拥有了干衣机——但他认为自给自足既是可取的也是不可避免的这一信念得到了广泛认同。",
+          "slashed_text": "The “Case Study Houses” commissioned / from talented modern architects / by California Arts & Architecture magazine between 1945 and 1962 were yet another homegrown influence on the “less is more” trend. / Aesthetic effect came from the landscape , / new materials and forthright detailing. / In his Case Study House , / Ralph Rapson may have mispredicted just how the mechanical revolution would impact everyday life — / few American families acquired helicopters , / though most eventually got clothes dryers — / but his belief / that self-sufficiency was both desirable and inevitable was widely shared.",
+          "chunk_translation": "在1945年至1962年间由《加州艺术与建筑》杂志委托建造的“案例研究住宅” / 委托优秀的现代建筑师设计的 / 是对“少即是多”趋势的又一本土影响 / 美学效果源自自然景观、 / 新材料以及简洁直率的细节处理 / 在他的案例研究住宅中 / 拉尔夫·拉普森或许误判了机械革命究竟会如何影响日常生活—— / 极少有美国家庭购买了直升机 / 尽管大多数家庭最终都购置了干衣机—— / 但他的信念 / 即自给自足既令人向往又是必然趋势，却得到了广泛认同",
           "vocabulary": [
+            {
+              "word": "houses",
+              "pos": "n.",
+              "definition": "n. 住宅；家园"
+            },
             {
               "word": "belief",
               "pos": "n.",
               "definition": "n. 相信；信心"
+            },
+            {
+              "word": "Architecture",
+              "pos": "n.",
+              "definition": "n. 建筑设计；建筑风格"
+            },
+            {
+              "word": "trend",
+              "pos": "n.",
+              "definition": "n. 趋势；动态"
+            },
+            {
+              "word": "influence",
+              "pos": "n.",
+              "definition": "n. 影响；作用；势力"
+            },
+            {
+              "word": "architects",
+              "pos": "n.",
+              "definition": "n. （建）建筑师（architect 的复数形式）；（思想、事件、制度等的）设计者"
             },
             {
               "word": "materials",
@@ -4879,6 +4649,41 @@
               "word": "impact",
               "pos": "n.",
               "definition": "n. 撞击；冲击力"
+            },
+            {
+              "word": "modern",
+              "pos": "adj.",
+              "definition": "adj. 近代的；现代的"
+            },
+            {
+              "word": "commissioned",
+              "pos": "adj.",
+              "definition": "adj. 受委任的；受任命的"
+            },
+            {
+              "word": "homegrown",
+              "pos": "adj.",
+              "definition": "adj. 国产的；本土的；自家种植的"
+            },
+            {
+              "word": "talented",
+              "pos": "adj.",
+              "definition": "adj. 有天资的；有才能的"
+            },
+            {
+              "word": "magazine",
+              "pos": "n.",
+              "definition": "n. 杂志；期刊；（电视、广播）专题节目"
+            },
+            {
+              "word": "Study",
+              "pos": "n.",
+              "definition": "n. （专题）研究；调查"
+            },
+            {
+              "word": "Arts",
+              "pos": "n.",
+              "definition": "n. 美术；艺术"
             },
             {
               "word": "aesthetic",
@@ -4984,11 +4789,6 @@
               "word": "shared",
               "pos": "adj.",
               "definition": "adj. 分享的；共有的；v. 共享"
-            },
-            {
-              "word": "Study",
-              "pos": "n.",
-              "definition": "n. （专题）研究；调查"
             },
             {
               "word": "Ralph",
@@ -5253,8 +5053,8 @@
         },
         {
           "sid": 10,
-          "pid": 4,
-          "sentence_index": 0,
+          "pid": 3,
+          "sentence_index": 3,
           "text": "Mies’s sophisticated presentation masked the fact that the spaces he designed were small and efficient, rather than big and often empty.",
           "translation": "密斯复杂的演示掩盖了这样一个事实：他设计的空间小而高效，而不是大且经常空荡荡的。",
           "slashed_text": "Mies’s sophisticated presentation masked the fact / that the spaces he designed were small and efficient , / rather than big and often empty.",
@@ -5282,7 +5082,7 @@
         {
           "sid": 11,
           "pid": 4,
-          "sentence_index": 1,
+          "sentence_index": 0,
           "text": "The apartments in the elegant towers Mies built on Chicago’s Lake Shore Drive, for example, were smaller—two-bedroom units under 1,000 square feet—than those in their older neighbors along the city’s Gold Coast.",
           "translation": "例如，密斯在芝加哥湖滨大道上建造的优雅塔楼中的公寓比位于城市黄金海岸的老邻居中的公寓要小，两居室单元面积不到 1,000 平方英尺。",
           "slashed_text": "The apartments in the elegant towers Mies built / on Chicago’s Lake Shore Drive , / for example , / were smaller — / two-bedroom units under 1 , / 000 square feet — / than those / in their older neighbors along the city’s Gold Coast.",
@@ -5310,7 +5110,7 @@
         {
           "sid": 12,
           "pid": 4,
-          "sentence_index": 2,
+          "sentence_index": 1,
           "text": "But they were popular because of their airy glass walls, the views they afforded and the elegance of the buildings’ details and proportions, the architectural equivalent of the abstract art so popular at the time.",
           "translation": "但它们之所以受欢迎，是因为它们通风的玻璃墙、提供的视野以及建筑细节和比例的优雅，相当于当时流行的抽象艺术的建筑风格。",
           "slashed_text": "But they were popular / because of their airy glass walls , / the views they afforded and the elegance of the buildings’ details and proportions , / the architectural equivalent of the abstract art so popular at the time.",
@@ -5393,8 +5193,8 @@
         },
         {
           "sid": 15,
-          "pid": 5,
-          "sentence_index": 2,
+          "pid": 6,
+          "sentence_index": 0,
           "text": "The “Case Study Houses” commissioned from talented modern architects by California Arts & Architecture magazine between 1945 and 1962 were yet another homegrown influence on the “less is more” trend.",
           "translation": "1945 年至 1962 年间，加州艺术与建筑杂志委托才华横溢的现代建筑师设计的“案例研究住宅”是对“少即是多”趋势的另一个本土影响。",
           "slashed_text": "The “Case Study Houses” commissioned / from talented modern architects / by California Arts & Architecture magazine between 1945 and 1962 were yet another homegrown influence on the “less is more” trend.",
@@ -5422,7 +5222,7 @@
         {
           "sid": 16,
           "pid": 6,
-          "sentence_index": 0,
+          "sentence_index": 1,
           "text": "Aesthetic effect came from the landscape, new materials and forthright detailing.",
           "translation": "美学效果来自景观、新材料和直接的细节。",
           "slashed_text": "Aesthetic effect came from the landscape , / new materials and forthright detailing.",
@@ -5450,7 +5250,7 @@
         {
           "sid": 17,
           "pid": 6,
-          "sentence_index": 1,
+          "sentence_index": 2,
           "text": "In his Case Study House, Ralph Rapson may have mispredicted just how the mechanical revolution would impact everyday life—few American families acquired helicopters, though most eventually got clothes dryers—but his belief that self-sufficiency was both desirable and inevitable was widely shared.",
           "translation": "在他的案例研究之家中，拉尔夫·拉普森可能错误地预测了机械革命将如何影响日常生活——很少有美国家庭拥有直升机，尽管大多数家庭最终都拥有了干衣机——但他认为自给自足既是可取的也是不可避免的这一信念得到了广泛认同。",
           "slashed_text": "In his Case Study House , / Ralph Rapson may have mispredicted just how the mechanical revolution would impact everyday life — / few American families acquired helicopters , / though most eventually got clothes dryers — / but his belief / that self-sufficiency was both desirable and inevitable was widely shared.",
@@ -5920,45 +5720,45 @@
         "paragraph_functions": [
           {
             "pid": 0,
-            "role": "【起】战后繁荣与退役军人生活常态",
-            "core_point": "二战结束后美国迎来空前繁荣，退役军人借助法案就业结婚。",
-            "cohesive_devices": "以普遍历史认知（We tend to think）破题。"
+            "role": "时代背景",
+            "function": "时代背景",
+            "core_point": "二战后美国迎来经济繁荣，退伍军人重返校园组建家庭。"
           },
           {
             "pid": 1,
-            "role": "【承】战后住房困境与小户型现实",
-            "core_point": "然而在居住领域却是另一番景象：受大萧条和战时节俭习惯影响，许多家庭被迫挤在小户型和临时军营中。",
-            "cohesive_devices": "以转折连词（But when it came to their houses）展开对比。"
+            "role": "观念转变",
+            "function": "观念转变",
+            "core_point": "经历大萧条与战争洗礼，美国人信奉“少即是多”，小户型住宅成为时尚。"
           },
           {
             "pid": 2,
-            "role": "【转】包豪斯建筑学派与“少即是多”设计理念",
-            "core_point": "经济拮据只是建筑风格演变的催化剂，核心源自德国包豪斯现代主义学派及密斯“少即是多”的深远影响。",
-            "cohesive_devices": "以递进连词引出德国包豪斯学派历史渊源。"
+            "role": "包豪斯渊源",
+            "function": "包豪斯渊源",
+            "core_point": "包豪斯大师密斯·凡德罗将“少即是多”理念引入美国建筑界。"
           },
           {
             "pid": 3,
-            "role": "【深】密斯设计哲学的内核：装饰简化而非空间缩减",
-            "core_point": "密斯所倡导的“少”是指精简繁琐装饰而非克扣建筑空间，崇尚部件和谐与钢铁玻璃等现代工业材质。",
-            "cohesive_devices": "解析密斯招牌名言内涵（Mies’s signature phrase）。"
+            "role": "密斯设计理念",
+            "function": "密斯设计理念",
+            "core_point": "“少即是多”强调以精简装饰营造强烈视觉冲击，善用现代工业材料。"
           },
           {
             "pid": 4,
-            "role": "【承】湖滨大道高层公寓的造价伪装与极简奢华",
-            "core_point": "密斯的精妙设计掩盖了高昂材质成本，芝加哥湖滨大道优雅塔楼昂贵却因通透轻盈备受欢迎。",
-            "cohesive_devices": "列举密斯经典建筑项目实证。"
+            "role": "密斯经典案例",
+            "function": "密斯经典案例",
+            "core_point": "密斯在芝加哥湖滨大道设计的玻璃公寓以通透和比例美感广受追捧。"
           },
           {
             "pid": 5,
-            "role": "【拓】极简风格向大众郊区住宅的普及蔓延",
-            "core_point": "极简理念并未局限于豪宅市场，赖特的小住宅和案例研究住宅项目推动现代主义走进普通郊区家庭。",
-            "cohesive_devices": "以拓宽视角过渡（not entirely confined to luxury market）。"
+            "role": "本土先例",
+            "function": "本土先例",
+            "core_point": "赖特在20世纪30年代的住宅设计亦体现了由宏大走向精简集约的趋势。"
           },
           {
             "pid": 6,
-            "role": "【结】拉普森案例研究住宅：简单材质与现代便捷生活",
-            "core_point": "美学效果源自自然景观与开放式布局，拉普森巧用简约廉价材质构建出充满现代便捷气息的理想居所。",
-            "cohesive_devices": "以经典代表作总结点题。"
+            "role": "案例住宅实践",
+            "function": "案例住宅实践",
+            "core_point": "加州“案例住宅”实验融合自然景观与新材料，确立自给自足与集约生活的共识。"
           }
         ],
         "part_b_training": {
