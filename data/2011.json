@@ -4081,10 +4081,10 @@
       "paragraphs": [
         {
           "pid": 0,
-          "text": "We tend to think of the decades immediately following World War II as a time of prosperity and growth, with soldiers returning home by the millions, going off to college on the G.I.",
-          "translation": "我们倾向于将第二次世界大战后的几十年视为繁荣和发展的时期，数以百万计的士兵返回家园，靠着退伍军人权利去上大学。",
-          "slashed_text": "We tend to think of the decades immediately following World War II as a time of prosperity and growth , / with soldiers returning home by the millions , / going off to college on the G.I.",
-          "chunk_translation": "我们往往把第二次世界大战刚结束的几十年视为繁荣与发展的时期 / 成百万的退伍军人重返家园 / 依靠退伍军人法案走进大学校园",
+          "text": "We tend to think of the decades immediately following World War II as a time of prosperity and growth, with soldiers returning home by the millions, going off to college on the G.I. Bill and lining up at the marriage bureaus.",
+          "translation": "我们倾向于将第二次世界大战后的几十年视为繁荣和发展的时期，数以百万计的士兵返回家园，靠着退伍军人权利去上大学。比尔在婚姻局排队。",
+          "slashed_text": "We tend to think of the decades immediately following World War II as a time of prosperity and growth , / with soldiers returning home by the millions , / going off to college on the G.I. / Bill and lining up at the marriage bureaus.",
+          "chunk_translation": "我们往往把第二次世界大战刚结束的几十年视为繁荣与发展的时期 / 成百万的退伍军人重返家园 / 依靠退伍军人法案走进大学校园 / 以及在婚姻登记处排起长队",
           "vocabulary": [
             {
               "word": "prosperity",
@@ -4145,40 +4145,11 @@
               "word": "tend",
               "pos": "v.",
               "definition": "v. 倾向于；往往会"
-            }
-          ]
-        },
-        {
-          "pid": 1,
-          "text": "Bill and lining up at the marriage bureaus. But when it came to their houses, it was a time of common sense and a belief that less could truly be more.",
-          "translation": "比尔在婚姻局排队。但当谈到他们的房子时，这是一个常识和信念的时代，即少即是多。",
-          "slashed_text": "Bill and lining up at the marriage bureaus. / But / when it came to their houses , / it was a time of common sense and a belief / that less could truly be more.",
-          "chunk_translation": "以及在婚姻登记处排起长队 / 但 / 当谈及他们的住宅时 / 那是一个讲求实际并坚信的时代 / 少确实可以代表更多",
-          "vocabulary": [
-            {
-              "word": "restraint and confidence",
-              "pos": "",
-              "definition": "【🎯解题正解】 克制与自信"
             },
             {
               "word": "prosperity and growth",
               "pos": "",
               "definition": "【💡题项表达】 繁荣与增长"
-            },
-            {
-              "word": "efficiency and practicality",
-              "pos": "",
-              "definition": "【💡题项表达】 效率和实用性"
-            },
-            {
-              "word": "pride and faithfulness",
-              "pos": "",
-              "definition": "【💡题项表达】 骄傲和忠诚"
-            },
-            {
-              "word": "common sense",
-              "pos": "",
-              "definition": "常识"
             },
             {
               "word": "marriage",
@@ -4191,6 +4162,25 @@
               "definition": "n. 局；处；科"
             },
             {
+              "word": "lining",
+              "pos": "n.",
+              "definition": "n. 衬层；内衬；（身体器官内壁的）膜"
+            }
+          ]
+        },
+        {
+          "pid": 1,
+          "text": "But when it came to their houses, it was a time of common sense and a belief that less could truly be more. During the Depression and the war, Americans had learned to live with less, and that restraint, in combination with the postwar confidence in the future, made small, efficient housing positively stylish.",
+          "translation": "但当谈到他们的房子时，这是一个常识和信念的时代，即少即是多。在大萧条和战争期间，美国人学会了用更少的钱生活，这种克制加上战后对未来的信心，使小型、高效的住房变得非常时尚。",
+          "slashed_text": "But / when it came to their houses , / it was a time of common sense and a belief / that less could truly be more. / During the Depression and the war , / Americans had learned to live / with less , / and / that restraint , / in combination with the postwar confidence in the future , / made small , / efficient housing positively stylish.",
+          "chunk_translation": "但 / 当谈及他们的住宅时 / 那是一个讲求实际并坚信的时代 / 少确实可以代表更多 / 在大萧条和二战期间 / 美国人已经学会了生活 / 依靠更少的生活资料 / 而且 / 那种克制节约 / 加上战后对未来的信心 / 使得小型、 / 高效的住宅变得极为时尚",
+          "vocabulary": [
+            {
+              "word": "common sense",
+              "pos": "",
+              "definition": "常识"
+            },
+            {
               "word": "houses",
               "pos": "n.",
               "definition": "n. 住宅；家园"
@@ -4201,11 +4191,6 @@
               "definition": "n. 相信；信心"
             },
             {
-              "word": "lining",
-              "pos": "n.",
-              "definition": "n. 衬层；内衬；（身体器官内壁的）膜"
-            },
-            {
               "word": "sense",
               "pos": "n.",
               "definition": "n. 感觉官能（即视、听、嗅、味、触五觉）；（对某物的）感觉"
@@ -4214,16 +4199,7 @@
               "word": "truly",
               "pos": "adv.",
               "definition": "adv. 真实地；如实地"
-            }
-          ]
-        },
-        {
-          "pid": 2,
-          "text": "During the Depression and the war, Americans had learned to live with less, and that restraint, in combination with the postwar confidence in the future, made small, efficient housing positively stylish. Economic condition was only a stimulus for the trend toward efficient living. The phrase “less is more” was actually first popularized by a German, the architect Ludwig Mies van der Rohe, who like other people associated with the Bauhaus, a school of design, emigrated to the United States before World War II and took up posts at American architecture schools.",
-          "translation": "在大萧条和战争期间，美国人学会了用更少的钱生活，这种克制加上战后对未来的信心，使小型、高效的住房变得非常时尚。经济状况只是高效生活趋势的刺激因素。“少即是多”这句话实际上是由德国建筑师路德维希·密斯·凡德罗（Ludwig Mies van der Rohe）首先流行起来的，他和其他与包豪斯设计学院有联系的人一样，在二战前移居美国，并在美国建筑学校任职。",
-          "slashed_text": "During the Depression and the war , / Americans had learned to live / with less , / and / that restraint , / in combination with the postwar confidence in the future , / made small , / efficient housing positively stylish. / Economic condition was only a stimulus for the trend toward efficient living. / The phrase “less is more” was actually first popularized by a German , / the architect Ludwig Mies van der Rohe , / who like other people associated with the Bauhaus , / a school of design , / emigrated to the United States / before World War II and took up posts / at American architecture schools.",
-          "chunk_translation": "在大萧条和二战期间 / 美国人已经学会了生活 / 依靠更少的生活资料 / 而且 / 那种克制节约 / 加上战后对未来的信心 / 使得小型、 / 高效的住宅变得极为时尚 / 经济状况只是推动高效生活方式趋势的催化剂 / “少即是多”这一名言实际上最早是由一位德国人推广开来的 / 即建筑大师路德维希·密斯·凡德罗 / 他与其他与包豪斯有关的人士一样 / 包豪斯是一所设计学院 / 移民到了美国 / 在二战爆发前并在美国各建筑院校任职 / 在美国建筑院校",
-          "vocabulary": [
+            },
             {
               "word": "restraint",
               "pos": "",
@@ -4245,29 +4221,9 @@
               "definition": "结合"
             },
             {
-              "word": "stimulus",
-              "pos": "",
-              "definition": "n.刺激物,刺激因素"
-            },
-            {
-              "word": "architect",
-              "pos": "",
-              "definition": "n.建筑师,设计师"
-            },
-            {
-              "word": "Architecture",
-              "pos": "n.",
-              "definition": "n. 建筑设计；建筑风格"
-            },
-            {
               "word": "combination",
               "pos": "n.",
               "definition": "n. 结合体；联合体；结合"
-            },
-            {
-              "word": "popularized",
-              "pos": "v.",
-              "definition": "v. popularize 的过去式和过去分词：使普及；使流行；推广"
             },
             {
               "word": "Depression",
@@ -4283,6 +4239,55 @@
               "word": "positively",
               "pos": "adv.",
               "definition": "adv. 绝对地；乐观地；赞成地"
+            },
+            {
+              "word": "efficient",
+              "pos": "adj.",
+              "definition": "adj. 生效的；效率高的"
+            },
+            {
+              "word": "learned",
+              "pos": "adj.",
+              "definition": "adj. 博学的；学术性的"
+            },
+            {
+              "word": "postwar",
+              "pos": "adj.",
+              "definition": "adj. 战后的（尤指第二次世界大战后）；n. 战后时期；adv. 战后"
+            },
+            {
+              "word": "housing",
+              "pos": "n.",
+              "definition": "n. 房屋；住宅；住房供给"
+            }
+          ]
+        },
+        {
+          "pid": 2,
+          "text": "Economic condition was only a stimulus for the trend toward efficient living. The phrase “less is more” was actually first popularized by a German, the architect Ludwig Mies van der Rohe, who like other people associated with the Bauhaus, a school of design, emigrated to the United States before World War II and took up posts at American architecture schools. These designers came to exert enormous influence on the course of American architecture, but none more so than Mies.",
+          "translation": "经济状况只是高效生活趋势的刺激因素。“少即是多”这句话实际上是由德国建筑师路德维希·密斯·凡德罗（Ludwig Mies van der Rohe）首先流行起来的，他和其他与包豪斯设计学院有联系的人一样，在二战前移居美国，并在美国建筑学校任职。这些设计师对美国建筑的进程产生了巨大的影响，但密斯影响最大。",
+          "slashed_text": "Economic condition was only a stimulus for the trend toward efficient living. / The phrase “less is more” was actually first popularized by a German , / the architect Ludwig Mies van der Rohe , / who like other people associated with the Bauhaus , / a school of design , / emigrated to the United States / before World War II and took up posts / at American architecture schools. / These designers came to exert enormous influence on the course of American architecture , / but none more so than Mies.",
+          "chunk_translation": "经济状况只是推动高效生活方式趋势的催化剂 / “少即是多”这一名言实际上最早是由一位德国人推广开来的 / 即建筑大师路德维希·密斯·凡德罗 / 他与其他与包豪斯有关的人士一样 / 包豪斯是一所设计学院 / 移民到了美国 / 在二战爆发前并在美国各建筑院校任职 / 在美国建筑院校 / 这些设计师对美国建筑的发展历程产生了巨大影响 / 但谁的影响也比不上密斯",
+          "vocabulary": [
+            {
+              "word": "stimulus",
+              "pos": "",
+              "definition": "n.刺激物,刺激因素"
+            },
+            {
+              "word": "architect",
+              "pos": "",
+              "definition": "n.建筑师,设计师"
+            },
+            {
+              "word": "Architecture",
+              "pos": "n.",
+              "definition": "n. 建筑设计；建筑风格"
+            },
+            {
+              "word": "popularized",
+              "pos": "v.",
+              "definition": "v. popularize 的过去式和过去分词：使普及；使流行；推广"
             },
             {
               "word": "associated",
@@ -4313,21 +4318,6 @@
               "word": "actually",
               "pos": "adv.",
               "definition": "adv. 实际上；事实上；（用于开始新话题）其实"
-            },
-            {
-              "word": "learned",
-              "pos": "adj.",
-              "definition": "adj. 博学的；学术性的"
-            },
-            {
-              "word": "postwar",
-              "pos": "adj.",
-              "definition": "adj. 战后的（尤指第二次世界大战后）；n. 战后时期；adv. 战后"
-            },
-            {
-              "word": "housing",
-              "pos": "n.",
-              "definition": "n. 房屋；住宅；住房供给"
             },
             {
               "word": "Bauhaus",
@@ -4378,50 +4368,55 @@
               "word": "Mies",
               "pos": "abbr.",
               "definition": "abbr. 矿区产业生态系统（mining industry ecosystem）；n. （Mies）人名"
-            }
-          ]
-        },
-        {
-          "pid": 3,
-          "text": "These designers came to exert enormous influence on the course of American architecture, but none more so than Mies. Mies’s signature phrase means that less decoration, properly organized, has more impact than a lot. Elegance, he believed, did not derive from abundance. Like other modern architects, he employed metal, glass and laminated wood—materials that we take for granted today but that in the 1940s symbolized the future. Mies’s sophisticated presentation masked the fact that the spaces he designed were small and efficient, rather than big and often empty. The apartments in the elegant towers Mies built on Chicago’s Lake Shore Drive, for example, were smaller—two-bedroom units under 1,000 square feet—than those in their older neighbors along the city’s Gold Coast.",
-          "translation": "这些设计师对美国建筑的进程产生了巨大的影响，但密斯影响最大。密斯的标志性短语意味着，较少的装饰，适当的组织，比大量的装饰具有更大的影响力。他相信，优雅并非源自丰富。与其他现代建筑师一样，他采用了金属、玻璃和层压木材——这些材料在今天我们看来是理所当然的，但在 20 世纪 40 年代却象征着未来。密斯复杂的演示掩盖了这样一个事实：他设计的空间小而高效，而不是大且经常空荡荡的。例如，密斯在芝加哥湖滨大道上建造的优雅塔楼中的公寓比位于城市黄金海岸的老邻居中的公寓要小，两居室单元面积不到 1,000 平方英尺。",
-          "slashed_text": "These designers came to exert enormous influence on the course of American architecture , / but none more so than Mies. / Mies’s signature phrase means / that less decoration , / properly organized , / has more impact than a lot. / Elegance , / he believed , / did not derive / from abundance. / Like other modern architects , / he employed metal , / glass and laminated wood — / materials / that we take / for granted today but / that in the 1940s symbolized the future. / Mies’s sophisticated presentation masked the fact / that the spaces he designed were small and efficient , / rather than big and often empty. / The apartments in the elegant towers Mies built / on Chicago’s Lake Shore Drive , / for example , / were smaller — / two-bedroom units under 1 , / 000 square feet — / than those / in their older neighbors along the city’s Gold Coast.",
-          "chunk_translation": "这些设计师对美国建筑的发展历程产生了巨大影响 / 但谁的影响也比不上密斯 / 密斯的标志性格言意味着 / 较少的装饰 / 只要组织得当 / 就能比繁复的装饰产生更大的影响力 / 优雅 / 他坚信 / 并非源于 / 繁冗堆砌 / 与其他现代建筑师一样 / 他运用金属、 / 玻璃和层压木板—— / 这些材料 / 在我们今天看来 / 是理所当然的，但 / 在20世纪40年代却象征着未来 / 密斯精湛的表现手法掩盖了这样一个事实 / 即他所设计的空间小而高效 / 而非庞大且往往空旷 / 例如密斯在芝加哥湖滨大道上建造的典雅高楼中的公寓 / 位于芝加哥湖滨大道上 / 例如 / 面积更小—— / 面积不到1 / 000平方英尺的两居室—— / 相比那些 / 位于该市黄金海岸沿线的老式邻近建筑中的公寓",
-          "vocabulary": [
-            {
-              "word": "was not reliant on abundant decoration",
-              "pos": "",
-              "definition": "【🎯解题正解】 不依赖丰富的装饰"
-            },
-            {
-              "word": "was related to large space",
-              "pos": "",
-              "definition": "【💡题项表达】 与大空间有关"
-            },
-            {
-              "word": "was identified with emptiness",
-              "pos": "",
-              "definition": "【💡题项表达】 被认定为空虚"
-            },
-            {
-              "word": "was not associated with efficiency",
-              "pos": "",
-              "definition": "【💡题项表达】 与效率无关"
-            },
-            {
-              "word": "They shared some characteristics of abstract art",
-              "pos": "",
-              "definition": "【🎯解题正解】 他们有一些共同的抽象艺术特征。"
-            },
-            {
-              "word": "They ignored details and proportions",
-              "pos": "",
-              "definition": "【💡题项表达】 他们忽略了细节和比例。"
             },
             {
               "word": "exert",
               "pos": "",
               "definition": "v.发挥;运用;使受(影响等)"
+            },
+            {
+              "word": "designers",
+              "pos": "n.",
+              "definition": "n. 设计师；设计者；设计器（designer 的复数形式）"
+            },
+            {
+              "word": "influence",
+              "pos": "n.",
+              "definition": "n. 影响；作用；势力"
+            },
+            {
+              "word": "enormous",
+              "pos": "adj.",
+              "definition": "adj. 巨大的；极大的；凶暴的"
+            },
+            {
+              "word": "course",
+              "pos": "n.",
+              "definition": "n. 课程；过程；道路"
+            }
+          ]
+        },
+        {
+          "pid": 3,
+          "text": "Mies’s signature phrase means that less decoration, properly organized, has more impact than a lot. Elegance, he believed, did not derive from abundance. Like other modern architects, he employed metal, glass and laminated wood—materials that we take for granted today but that in the 1940s symbolized the future. Mies’s sophisticated presentation masked the fact that the spaces he designed were small and efficient, rather than big and often empty.",
+          "translation": "密斯的标志性短语意味着，较少的装饰，适当的组织，比大量的装饰具有更大的影响力。他相信，优雅并非源自丰富。与其他现代建筑师一样，他采用了金属、玻璃和层压木材——这些材料在今天我们看来是理所当然的，但在 20 世纪 40 年代却象征着未来。密斯复杂的演示掩盖了这样一个事实：他设计的空间小而高效，而不是大且经常空荡荡的。",
+          "slashed_text": "Mies’s signature phrase means / that less decoration , / properly organized , / has more impact than a lot. / Elegance , / he believed , / did not derive / from abundance. / Like other modern architects , / he employed metal , / glass and laminated wood — / materials / that we take / for granted today but / that in the 1940s symbolized the future. / Mies’s sophisticated presentation masked the fact / that the spaces he designed were small and efficient , / rather than big and often empty.",
+          "chunk_translation": "密斯的标志性格言意味着 / 较少的装饰 / 只要组织得当 / 就能比繁复的装饰产生更大的影响力 / 优雅 / 他坚信 / 并非源于 / 繁冗堆砌 / 与其他现代建筑师一样 / 他运用金属、 / 玻璃和层压木板—— / 这些材料 / 在我们今天看来 / 是理所当然的，但 / 在20世纪40年代却象征着未来 / 密斯精湛的表现手法掩盖了这样一个事实 / 即他所设计的空间小而高效 / 而非庞大且往往空旷",
+          "vocabulary": [
+            {
+              "word": "efficient",
+              "pos": "adj.",
+              "definition": "adj. 生效的；效率高的"
+            },
+            {
+              "word": "phrase",
+              "pos": "n.",
+              "definition": "n. 短语；词组"
+            },
+            {
+              "word": "Mies",
+              "pos": "abbr.",
+              "definition": "abbr. 矿区产业生态系统（mining industry ecosystem）；n. （Mies）人名"
             },
             {
               "word": "signature",
@@ -4454,21 +4449,6 @@
               "definition": "认为...理所当然"
             },
             {
-              "word": "elegant",
-              "pos": "",
-              "definition": "a.优美的,漂亮的,简练的,简洁的"
-            },
-            {
-              "word": "Gold Coast",
-              "pos": "",
-              "definition": "黄金海岸"
-            },
-            {
-              "word": "Architecture",
-              "pos": "n.",
-              "definition": "n. 建筑设计；建筑风格"
-            },
-            {
               "word": "presentation",
               "pos": "n.",
               "definition": "n. （颁奖等）仪式；典礼；授予"
@@ -4489,29 +4469,9 @@
               "definition": "v. 象征；代表；用符号表示"
             },
             {
-              "word": "apartments",
-              "pos": "n.",
-              "definition": "n. 公寓；公寓住宅（apartment 的复数形式）；套间"
-            },
-            {
-              "word": "efficient",
-              "pos": "adj.",
-              "definition": "adj. 生效的；效率高的"
-            },
-            {
               "word": "organized",
               "pos": "adj.",
               "definition": "adj. 有组织的；系统的"
-            },
-            {
-              "word": "designers",
-              "pos": "n.",
-              "definition": "n. 设计师；设计者；设计器（designer 的复数形式）"
-            },
-            {
-              "word": "influence",
-              "pos": "n.",
-              "definition": "n. 影响；作用；势力"
             },
             {
               "word": "abundance",
@@ -4524,19 +4484,9 @@
               "definition": "n. 材料；原料；物料"
             },
             {
-              "word": "neighbors",
-              "pos": "n.",
-              "definition": "n. 街坊邻里；邻居；邻国"
-            },
-            {
               "word": "properly",
               "pos": "adv.",
               "definition": "adv. 正确地；适当地"
-            },
-            {
-              "word": "enormous",
-              "pos": "adj.",
-              "definition": "adj. 巨大的；极大的；凶暴的"
             },
             {
               "word": "Elegance",
@@ -4564,26 +4514,6 @@
               "definition": "adv. 的确；诚然；conj. 因为（granted that）"
             },
             {
-              "word": "example",
-              "pos": "n.",
-              "definition": "n. 例子；例证；榜样"
-            },
-            {
-              "word": "smaller",
-              "pos": "adj.",
-              "definition": "adj. 较小的；更小的（small 的比较级）"
-            },
-            {
-              "word": "bedroom",
-              "pos": "n.",
-              "definition": "n. 卧室；adj. 两性关系的；城郊住宅区的"
-            },
-            {
-              "word": "phrase",
-              "pos": "n.",
-              "definition": "n. 短语；词组"
-            },
-            {
               "word": "impact",
               "pos": "n.",
               "definition": "n. 撞击；冲击力"
@@ -4592,11 +4522,6 @@
               "word": "modern",
               "pos": "adj.",
               "definition": "adj. 近代的；现代的"
-            },
-            {
-              "word": "course",
-              "pos": "n.",
-              "definition": "n. 课程；过程；道路"
             },
             {
               "word": "derive",
@@ -4612,16 +4537,6 @@
               "word": "spaces",
               "pos": "n.",
               "definition": "n. 空间；空地；空隙"
-            },
-            {
-              "word": "towers",
-              "pos": "n.",
-              "definition": "n. 塔；塔楼；发射塔"
-            },
-            {
-              "word": "square",
-              "pos": "adj.",
-              "definition": "adj. 正方形的；四方形的；成直角的"
             },
             {
               "word": "means",
@@ -4642,6 +4557,80 @@
               "word": "empty",
               "pos": "adj.",
               "definition": "adj. 空的；空洞的；无意义的"
+            },
+            {
+              "word": "elegance",
+              "pos": "n.",
+              "definition": "n. 优雅；雅致；简练"
+            }
+          ]
+        },
+        {
+          "pid": 4,
+          "text": "The apartments in the elegant towers Mies built on Chicago’s Lake Shore Drive, for example, were smaller—two-bedroom units under 1,000 square feet—than those in their older neighbors along the city’s Gold Coast. But they were popular because of their airy glass walls, the views they afforded and the elegance of the buildings’ details and proportions, the architectural equivalent of the abstract art so popular at the time.",
+          "translation": "例如，密斯在芝加哥湖滨大道上建造的优雅塔楼中的公寓比位于城市黄金海岸的老邻居中的公寓要小，两居室单元面积不到 1,000 平方英尺。但它们之所以受欢迎，是因为它们通风的玻璃墙、提供的视野以及建筑细节和比例的优雅，相当于当时流行的抽象艺术的建筑风格。",
+          "slashed_text": "The apartments in the elegant towers Mies built / on Chicago’s Lake Shore Drive , / for example , / were smaller — / two-bedroom units under 1 , / 000 square feet — / than those / in their older neighbors along the city’s Gold Coast. / But they were popular / because of their airy glass walls , / the views they afforded and the elegance of the buildings’ details and proportions , / the architectural equivalent of the abstract art so popular at the time.",
+          "chunk_translation": "例如密斯在芝加哥湖滨大道上建造的典雅高楼中的公寓 / 位于芝加哥湖滨大道上 / 例如 / 面积更小—— / 面积不到1 / 000平方英尺的两居室—— / 相比那些 / 位于该市黄金海岸沿线的老式邻近建筑中的公寓 / 但它们深受人们喜爱 / 因为其通透通风的玻璃幕墙 / 极佳的采光视野以及建筑细节与比例的典雅 / 堪称当时风靡一时的抽象艺术在建筑学上的体现",
+          "vocabulary": [
+            {
+              "word": "Mies",
+              "pos": "abbr.",
+              "definition": "abbr. 矿区产业生态系统（mining industry ecosystem）；n. （Mies）人名"
+            },
+            {
+              "word": "elegant",
+              "pos": "",
+              "definition": "a.优美的,漂亮的,简练的,简洁的"
+            },
+            {
+              "word": "Gold Coast",
+              "pos": "",
+              "definition": "黄金海岸"
+            },
+            {
+              "word": "apartments",
+              "pos": "n.",
+              "definition": "n. 公寓；公寓住宅（apartment 的复数形式）；套间"
+            },
+            {
+              "word": "neighbors",
+              "pos": "n.",
+              "definition": "n. 街坊邻里；邻居；邻国"
+            },
+            {
+              "word": "Elegance",
+              "pos": "n.",
+              "definition": "n. 优雅；雅致；简练"
+            },
+            {
+              "word": "example",
+              "pos": "n.",
+              "definition": "n. 例子；例证；榜样"
+            },
+            {
+              "word": "smaller",
+              "pos": "adj.",
+              "definition": "adj. 较小的；更小的（small 的比较级）"
+            },
+            {
+              "word": "bedroom",
+              "pos": "n.",
+              "definition": "n. 卧室；adj. 两性关系的；城郊住宅区的"
+            },
+            {
+              "word": "towers",
+              "pos": "n.",
+              "definition": "n. 塔；塔楼；发射塔"
+            },
+            {
+              "word": "square",
+              "pos": "adj.",
+              "definition": "adj. 正方形的；四方形的；成直角的"
+            },
+            {
+              "word": "glass",
+              "pos": "n.",
+              "definition": "n. 玻璃；玻璃杯；一杯之量"
             },
             {
               "word": "built",
@@ -4669,20 +4658,6 @@
               "definition": "n. 海岸；海滨；（车辆的）滑行"
             },
             {
-              "word": "Mies",
-              "pos": "abbr.",
-              "definition": "abbr. 矿区产业生态系统（mining industry ecosystem）；n. （Mies）人名"
-            }
-          ]
-        },
-        {
-          "pid": 4,
-          "text": "But they were popular because of their airy glass walls, the views they afforded and the elegance of the buildings’ details and proportions, the architectural equivalent of the abstract art so popular at the time. The trend toward “less” was not entirely foreign.",
-          "translation": "但它们之所以受欢迎，是因为它们通风的玻璃墙、提供的视野以及建筑细节和比例的优雅，相当于当时流行的抽象艺术的建筑风格。“更少”的趋势并非完全陌生。",
-          "slashed_text": "But they were popular / because of their airy glass walls , / the views they afforded and the elegance of the buildings’ details and proportions , / the architectural equivalent of the abstract art so popular at the time. / The trend toward “less” was not entirely foreign.",
-          "chunk_translation": "但它们深受人们喜爱 / 因为其通透通风的玻璃幕墙 / 极佳的采光视野以及建筑细节与比例的典雅 / 堪称当时风靡一时的抽象艺术在建筑学上的体现 / 走向“少”的趋势并非完全是舶来品",
-          "vocabulary": [
-            {
               "word": "equivalent",
               "pos": "",
               "definition": "n.对等物"
@@ -4698,11 +4673,6 @@
               "definition": "抽象艺术"
             },
             {
-              "word": "foreign",
-              "pos": "",
-              "definition": "a.外国的,外来的"
-            },
-            {
               "word": "architectural",
               "pos": "adj.",
               "definition": "adj. 建筑学的；建筑方面的；与建筑物相似的"
@@ -4716,11 +4686,6 @@
               "word": "buildings",
               "pos": "n.",
               "definition": "n. （建）建筑物（building 的复数）"
-            },
-            {
-              "word": "entirely",
-              "pos": "adv.",
-              "definition": "adv. 完全地；完整地"
             },
             {
               "word": "afforded",
@@ -4748,16 +4713,6 @@
               "definition": "n. 细节；细微之处；（军队中的）任务"
             },
             {
-              "word": "trend",
-              "pos": "n.",
-              "definition": "n. 趋势；动态"
-            },
-            {
-              "word": "glass",
-              "pos": "n.",
-              "definition": "n. 玻璃；玻璃杯；一杯之量"
-            },
-            {
               "word": "walls",
               "pos": "n.",
               "definition": "n. 墙壁；墙体（wall 的复数）；（Walls）人名"
@@ -4766,25 +4721,80 @@
         },
         {
           "pid": 5,
-          "text": "In the 1930s Frank Lloyd Wright started building more modest and efficient houses—usually around 1,200 square feet— than the spreading two-story ones he had designed in the 1890s and the early 20th century. The “Case Study Houses” commissioned from talented modern architects by California Arts & Architecture magazine between 1945 and 1962 were yet another homegrown influence on the “less is more” trend. Aesthetic effect came from the landscape, new materials and forthright detailing. In his Case Study House, Ralph Rapson may have mispredicted just how the mechanical revolution would impact everyday life—few American families acquired helicopters, though most eventually got clothes dryers—but his belief that self-sufficiency was both desirable and inevitable was widely shared.",
-          "translation": "20 世纪 30 年代，弗兰克·劳埃德·赖特 (Frank Lloyd Wright) 开始建造比他在 1890 年代和 20 世纪初设计的两层楼更朴素、更高效的房屋（通常面积约为 1,200 平方英尺）。1945 年至 1962 年间，加州艺术与建筑杂志委托才华横溢的现代建筑师设计的“案例研究住宅”是对“少即是多”趋势的另一个本土影响。美学效果来自景观、新材料和直接的细节。在他的案例研究之家中，拉尔夫·拉普森可能错误地预测了机械革命将如何影响日常生活——很少有美国家庭拥有直升机，尽管大多数家庭最终都拥有了干衣机——但他认为自给自足既是可取的也是不可避免的这一信念得到了广泛认同。",
-          "slashed_text": "In the 1930s Frank Lloyd Wright started building more modest and efficient houses — / usually around 1 , / 200 square feet — / than the spreading two-story ones he had designed in the 1890s and the early 20th century. / The “Case Study Houses” commissioned / from talented modern architects / by California Arts & Architecture magazine between 1945 and 1962 were yet another homegrown influence on the “less is more” trend. / Aesthetic effect came from the landscape , / new materials and forthright detailing. / In his Case Study House , / Ralph Rapson may have mispredicted just how the mechanical revolution would impact everyday life — / few American families acquired helicopters , / though most eventually got clothes dryers — / but his belief / that self-sufficiency was both desirable and inevitable was widely shared.",
-          "chunk_translation": "在20世纪30年代，弗兰克·劳埃德·赖特就开始建造更加简朴且高效的住宅—— / 通常约为1 / 200平方英尺左右—— / 相比他在19世纪90年代和20世纪初所设计的铺展开来的双层住宅 / 在1945年至1962年间由《加州艺术与建筑》杂志委托建造的“案例研究住宅” / 委托优秀的现代建筑师设计的 / 是对“少即是多”趋势的又一本土影响 / 美学效果源自自然景观、 / 新材料以及简洁直率的细节处理 / 在他的案例研究住宅中 / 拉尔夫·拉普森或许误判了机械革命究竟会如何影响日常生活—— / 极少有美国家庭购买了直升机 / 尽管大多数家庭最终都购置了干衣机—— / 但他的信念 / 即自给自足既令人向往又是必然趋势，却得到了广泛认同",
+          "text": "The trend toward “less” was not entirely foreign. In the 1930s Frank Lloyd Wright started building more modest and efficient houses—usually around 1,200 square feet— than the spreading two-story ones he had designed in the 1890s and the early 20th century. The “Case Study Houses” commissioned from talented modern architects by California Arts & Architecture magazine between 1945 and 1962 were yet another homegrown influence on the “less is more” trend. Aesthetic effect came from the landscape, new materials and forthright detailing. In his Case Study House, Ralph Rapson may have mispredicted just how the mechanical revolution would impact everyday life—few American families acquired helicopters, though most eventually got clothes dryers—but his belief that self-sufficiency was both desirable and inevitable was widely shared.",
+          "translation": "“更少”的趋势并非完全陌生。20 世纪 30 年代，弗兰克·劳埃德·赖特 (Frank Lloyd Wright) 开始建造比他在 1890 年代和 20 世纪初设计的两层楼更朴素、更高效的房屋（通常面积约为 1,200 平方英尺）。1945 年至 1962 年间，加州艺术与建筑杂志委托才华横溢的现代建筑师设计的“案例研究住宅”是对“少即是多”趋势的另一个本土影响。美学效果来自景观、新材料和直接的细节。在他的案例研究之家中，拉尔夫·拉普森可能错误地预测了机械革命将如何影响日常生活——很少有美国家庭拥有直升机，尽管大多数家庭最终都拥有了干衣机——但他认为自给自足既是可取的也是不可避免的这一信念得到了广泛认同。",
+          "slashed_text": "The trend toward “less” was not entirely foreign. / In the 1930s Frank Lloyd Wright started building more modest and efficient houses — / usually around 1 , / 200 square feet — / than the spreading two-story ones he had designed in the 1890s and the early 20th century. / The “Case Study Houses” commissioned / from talented modern architects / by California Arts & Architecture magazine between 1945 and 1962 were yet another homegrown influence on the “less is more” trend. / Aesthetic effect came from the landscape , / new materials and forthright detailing. / In his Case Study House , / Ralph Rapson may have mispredicted just how the mechanical revolution would impact everyday life — / few American families acquired helicopters , / though most eventually got clothes dryers — / but his belief / that self-sufficiency was both desirable and inevitable was widely shared.",
+          "chunk_translation": "走向“少”的趋势并非完全是舶来品 / 在20世纪30年代，弗兰克·劳埃德·赖特就开始建造更加简朴且高效的住宅—— / 通常约为1 / 200平方英尺左右—— / 相比他在19世纪90年代和20世纪初所设计的铺展开来的双层住宅 / 在1945年至1962年间由《加州艺术与建筑》杂志委托建造的“案例研究住宅” / 委托优秀的现代建筑师设计的 / 是对“少即是多”趋势的又一本土影响 / 美学效果源自自然景观、 / 新材料以及简洁直率的细节处理 / 在他的案例研究住宅中 / 拉尔夫·拉普森或许误判了机械革命究竟会如何影响日常生活—— / 极少有美国家庭购买了直升机 / 尽管大多数家庭最终都购置了干衣机—— / 但他的信念 / 即自给自足既令人向往又是必然趋势，却得到了广泛认同",
           "vocabulary": [
             {
-              "word": "Natural scenes were taken into consideration",
-              "pos": "",
-              "definition": "【🎯解题正解】 考虑到了自然场景。"
+              "word": "houses",
+              "pos": "n.",
+              "definition": "n. 住宅；家园"
             },
             {
-              "word": "Mechanical devices were widely used",
-              "pos": "",
-              "definition": "【💡题项表达】 机械装置被广泛使用。"
+              "word": "belief",
+              "pos": "n.",
+              "definition": "n. 相信；信心"
             },
             {
-              "word": "Eco-friendly materials were employed",
+              "word": "Architecture",
+              "pos": "n.",
+              "definition": "n. 建筑设计；建筑风格"
+            },
+            {
+              "word": "efficient",
+              "pos": "adj.",
+              "definition": "adj. 生效的；效率高的"
+            },
+            {
+              "word": "trend",
+              "pos": "n.",
+              "definition": "n. 趋势；动态"
+            },
+            {
+              "word": "architects",
+              "pos": "n.",
+              "definition": "n. （建）建筑师（architect 的复数形式）；（思想、事件、制度等的）设计者"
+            },
+            {
+              "word": "influence",
+              "pos": "n.",
+              "definition": "n. 影响；作用；势力"
+            },
+            {
+              "word": "materials",
+              "pos": "n.",
+              "definition": "n. 材料；原料；物料"
+            },
+            {
+              "word": "designed",
+              "pos": "v.",
+              "definition": "v. 设计；计划（design 的过去式和过去分词）；be designed to/for 旨在"
+            },
+            {
+              "word": "impact",
+              "pos": "n.",
+              "definition": "n. 撞击；冲击力"
+            },
+            {
+              "word": "modern",
+              "pos": "adj.",
+              "definition": "adj. 近代的；现代的"
+            },
+            {
+              "word": "square",
+              "pos": "adj.",
+              "definition": "adj. 正方形的；四方形的；成直角的"
+            },
+            {
+              "word": "foreign",
               "pos": "",
-              "definition": "【💡题项表达】 采用了环保材料。"
+              "definition": "a.外国的,外来的"
+            },
+            {
+              "word": "entirely",
+              "pos": "adv.",
+              "definition": "adv. 完全地；完整地"
             },
             {
               "word": "modest",
@@ -4822,11 +4832,6 @@
               "definition": "adj. 受委任的；受任命的"
             },
             {
-              "word": "Architecture",
-              "pos": "n.",
-              "definition": "n. 建筑设计；建筑风格"
-            },
-            {
               "word": "mispredicted",
               "pos": "adj.",
               "definition": "adj. 错误预测的；预测错误的；v. mispredict 的过去式和过去分词"
@@ -4842,11 +4847,6 @@
               "definition": "n. 足量；充足；充分性"
             },
             {
-              "word": "architects",
-              "pos": "n.",
-              "definition": "n. （建）建筑师（architect 的复数形式）；（思想、事件、制度等的）设计者"
-            },
-            {
               "word": "revolution",
               "pos": "n.",
               "definition": "n. （思想、工作方式等的）彻底变革；（使用武力、暴力的）革命；旋转"
@@ -4855,11 +4855,6 @@
               "word": "eventually",
               "pos": "adv.",
               "definition": "adv. 最终；结果"
-            },
-            {
-              "word": "efficient",
-              "pos": "adj.",
-              "definition": "adj. 生效的；效率高的"
             },
             {
               "word": "spreading",
@@ -4872,19 +4867,9 @@
               "definition": "adj. 国产的；本土的；自家种植的"
             },
             {
-              "word": "influence",
-              "pos": "n.",
-              "definition": "n. 影响；作用；势力"
-            },
-            {
               "word": "landscape",
               "pos": "n.",
               "definition": "n. （陆上；尤指乡村的）风景；景色"
-            },
-            {
-              "word": "materials",
-              "pos": "n.",
-              "definition": "n. 材料；原料；物料"
             },
             {
               "word": "detailing",
@@ -4900,11 +4885,6 @@
               "word": "building",
               "pos": "n.",
               "definition": "n. 建筑物；房屋；楼房"
-            },
-            {
-              "word": "designed",
-              "pos": "v.",
-              "definition": "v. 设计；计划（design 的过去式和过去分词）；be designed to/for 旨在"
             },
             {
               "word": "magazine",
@@ -4942,34 +4922,9 @@
               "definition": "n. 衣服；衣物；（在特定场合、特定时间或由特定人群穿着的）服装"
             },
             {
-              "word": "houses",
-              "pos": "n.",
-              "definition": "n. 住宅；家园"
-            },
-            {
-              "word": "belief",
-              "pos": "n.",
-              "definition": "n. 相信；信心"
-            },
-            {
-              "word": "impact",
-              "pos": "n.",
-              "definition": "n. 撞击；冲击力"
-            },
-            {
               "word": "Wright",
               "pos": "n.",
               "definition": "n. 制作者；工人（常用于复合词"
-            },
-            {
-              "word": "modern",
-              "pos": "adj.",
-              "definition": "adj. 近代的；现代的"
-            },
-            {
-              "word": "square",
-              "pos": "adj.",
-              "definition": "adj. 正方形的；四方形的；成直角的"
             },
             {
               "word": "effect",
@@ -4995,11 +4950,6 @@
               "word": "shared",
               "pos": "adj.",
               "definition": "adj. 分享的；共有的；v. 共享"
-            },
-            {
-              "word": "trend",
-              "pos": "n.",
-              "definition": "n. 趋势；动态"
             },
             {
               "word": "Frank",
@@ -5039,10 +4989,10 @@
           "sid": 0,
           "pid": 0,
           "sentence_index": 0,
-          "text": "We tend to think of the decades immediately following World War II as a time of prosperity and growth, with soldiers returning home by the millions, going off to college on the G.I.",
-          "translation": "我们倾向于将第二次世界大战后的几十年视为繁荣和发展的时期，数以百万计的士兵返回家园，靠着退伍军人权利去上大学。",
-          "slashed_text": "We tend to think of the decades immediately following World War II as a time of prosperity and growth , / with soldiers returning home by the millions , / going off to college on the G.I.",
-          "chunk_translation": "我们往往把第二次世界大战刚结束的几十年视为繁荣与发展的时期 / 成百万的退伍军人重返家园 / 依靠退伍军人法案走进大学校园",
+          "text": "We tend to think of the decades immediately following World War II as a time of prosperity and growth, with soldiers returning home by the millions, going off to college on the G.I. Bill and lining up at the marriage bureaus.",
+          "translation": "我们倾向于将第二次世界大战后的几十年视为繁荣和发展的时期，数以百万计的士兵返回家园，靠着退伍军人权利去上大学。比尔在婚姻局排队。",
+          "slashed_text": "We tend to think of the decades immediately following World War II as a time of prosperity and growth , / with soldiers returning home by the millions , / going off to college on the G.I. / Bill and lining up at the marriage bureaus.",
+          "chunk_translation": "我们往往把第二次世界大战刚结束的几十年视为繁荣与发展的时期 / 成百万的退伍军人重返家园 / 依靠退伍军人法案走进大学校园 / 以及在婚姻登记处排起长队",
           "syntax": {
             "breakdown": [
               {
@@ -5064,37 +5014,9 @@
           }
         },
         {
-          "sid": 1,
-          "pid": 1,
-          "sentence_index": 0,
-          "text": "Bill and lining up at the marriage bureaus.",
-          "translation": "比尔在婚姻局排队。",
-          "slashed_text": "Bill and lining up at the marriage bureaus.",
-          "chunk_translation": "以及在婚姻登记处排起长队",
-          "syntax": {
-            "breakdown": [
-              {
-                "type": "主干剖析",
-                "content": "Bill and lining up at the marriage bureaus.",
-                "explanation": "本句为上一句的断句延伸片段。专有名词 Bill（与前句 G.I. 组成 G.I. Bill《退伍军人权利法案》）补全介词宾语；连词 and 连接第三个并列现在分词短语 lining up at the marriage bureaus（在婚姻登记处排起长队），共同受上一句 with soldiers... 的逻辑主语管辖。"
-              },
-              {
-                "type": "修饰成分与意群补全",
-                "content": "on the G.I. Bill and lining up at the marriage bureaus",
-                "explanation": "G.I. Bill 交代退伍军人读大学的政策支撑；介词短语 at the marriage bureaus 作地点状语，生动展现战后退伍老兵结婚安家、掀起战后婴儿潮的历史切片。"
-              },
-              {
-                "type": "语篇逻辑与考点",
-                "content": "lining up at the marriage bureaus",
-                "explanation": "背景铺垫完成。数百万士兵返乡、求学、结婚建立家庭，直接引爆了对成家立业后住宅（houses）的井喷式刚性需求，顺理成章引出下文对住宅建筑样式的探讨。"
-              }
-            ]
-          }
-        },
-        {
           "sid": 2,
           "pid": 1,
-          "sentence_index": 1,
+          "sentence_index": 0,
           "text": "But when it came to their houses, it was a time of common sense and a belief that less could truly be more.",
           "translation": "但当谈到他们的房子时，这是一个常识和信念的时代，即少即是多。",
           "slashed_text": "But / when it came to their houses , / it was a time of common sense and a belief / that less could truly be more.",
@@ -5121,8 +5043,8 @@
         },
         {
           "sid": 3,
-          "pid": 2,
-          "sentence_index": 0,
+          "pid": 1,
+          "sentence_index": 1,
           "text": "During the Depression and the war, Americans had learned to live with less, and that restraint, in combination with the postwar confidence in the future, made small, efficient housing positively stylish.",
           "translation": "在大萧条和战争期间，美国人学会了用更少的钱生活，这种克制加上战后对未来的信心，使小型、高效的住房变得非常时尚。",
           "slashed_text": "During the Depression and the war , / Americans had learned to live / with less , / and / that restraint , / in combination with the postwar confidence in the future , / made small , / efficient housing positively stylish.",
@@ -5150,7 +5072,7 @@
         {
           "sid": 4,
           "pid": 2,
-          "sentence_index": 1,
+          "sentence_index": 0,
           "text": "Economic condition was only a stimulus for the trend toward efficient living.",
           "translation": "经济状况只是高效生活趋势的刺激因素。",
           "slashed_text": "Economic condition was only a stimulus for the trend toward efficient living.",
@@ -5178,7 +5100,7 @@
         {
           "sid": 5,
           "pid": 2,
-          "sentence_index": 2,
+          "sentence_index": 1,
           "text": "The phrase “less is more” was actually first popularized by a German, the architect Ludwig Mies van der Rohe, who like other people associated with the Bauhaus, a school of design, emigrated to the United States before World War II and took up posts at American architecture schools.",
           "translation": "“少即是多”这句话实际上是由德国建筑师路德维希·密斯·凡德罗（Ludwig Mies van der Rohe）首先流行起来的，他和其他与包豪斯设计学院有联系的人一样，在二战前移居美国，并在美国建筑学校任职。",
           "slashed_text": "The phrase “less is more” was actually first popularized by a German , / the architect Ludwig Mies van der Rohe , / who like other people associated with the Bauhaus , / a school of design , / emigrated to the United States / before World War II and took up posts / at American architecture schools.",
@@ -5205,8 +5127,8 @@
         },
         {
           "sid": 6,
-          "pid": 3,
-          "sentence_index": 0,
+          "pid": 2,
+          "sentence_index": 2,
           "text": "These designers came to exert enormous influence on the course of American architecture, but none more so than Mies.",
           "translation": "这些设计师对美国建筑的进程产生了巨大的影响，但密斯影响最大。",
           "slashed_text": "These designers came to exert enormous influence on the course of American architecture , / but none more so than Mies.",
@@ -5234,7 +5156,7 @@
         {
           "sid": 7,
           "pid": 3,
-          "sentence_index": 1,
+          "sentence_index": 0,
           "text": "Mies’s signature phrase means that less decoration, properly organized, has more impact than a lot.",
           "translation": "密斯的标志性短语意味着，较少的装饰，适当的组织，比大量的装饰具有更大的影响力。",
           "slashed_text": "Mies’s signature phrase means / that less decoration , / properly organized , / has more impact than a lot.",
@@ -5262,7 +5184,7 @@
         {
           "sid": 8,
           "pid": 3,
-          "sentence_index": 2,
+          "sentence_index": 1,
           "text": "Elegance, he believed, did not derive from abundance.",
           "translation": "他相信，优雅并非源自丰富。",
           "slashed_text": "Elegance , / he believed , / did not derive / from abundance.",
@@ -5290,7 +5212,7 @@
         {
           "sid": 9,
           "pid": 3,
-          "sentence_index": 3,
+          "sentence_index": 2,
           "text": "Like other modern architects, he employed metal, glass and laminated wood—materials that we take for granted today but that in the 1940s symbolized the future.",
           "translation": "与其他现代建筑师一样，他采用了金属、玻璃和层压木材——这些材料在今天我们看来是理所当然的，但在 20 世纪 40 年代却象征着未来。",
           "slashed_text": "Like other modern architects , / he employed metal , / glass and laminated wood — / materials / that we take / for granted today but / that in the 1940s symbolized the future.",
@@ -5318,7 +5240,7 @@
         {
           "sid": 10,
           "pid": 3,
-          "sentence_index": 4,
+          "sentence_index": 3,
           "text": "Mies’s sophisticated presentation masked the fact that the spaces he designed were small and efficient, rather than big and often empty.",
           "translation": "密斯复杂的演示掩盖了这样一个事实：他设计的空间小而高效，而不是大且经常空荡荡的。",
           "slashed_text": "Mies’s sophisticated presentation masked the fact / that the spaces he designed were small and efficient , / rather than big and often empty.",
@@ -5345,8 +5267,8 @@
         },
         {
           "sid": 11,
-          "pid": 3,
-          "sentence_index": 5,
+          "pid": 4,
+          "sentence_index": 0,
           "text": "The apartments in the elegant towers Mies built on Chicago’s Lake Shore Drive, for example, were smaller—two-bedroom units under 1,000 square feet—than those in their older neighbors along the city’s Gold Coast.",
           "translation": "例如，密斯在芝加哥湖滨大道上建造的优雅塔楼中的公寓比位于城市黄金海岸的老邻居中的公寓要小，两居室单元面积不到 1,000 平方英尺。",
           "slashed_text": "The apartments in the elegant towers Mies built / on Chicago’s Lake Shore Drive , / for example , / were smaller — / two-bedroom units under 1 , / 000 square feet — / than those / in their older neighbors along the city’s Gold Coast.",
@@ -5374,7 +5296,7 @@
         {
           "sid": 12,
           "pid": 4,
-          "sentence_index": 0,
+          "sentence_index": 1,
           "text": "But they were popular because of their airy glass walls, the views they afforded and the elegance of the buildings’ details and proportions, the architectural equivalent of the abstract art so popular at the time.",
           "translation": "但它们之所以受欢迎，是因为它们通风的玻璃墙、提供的视野以及建筑细节和比例的优雅，相当于当时流行的抽象艺术的建筑风格。",
           "slashed_text": "But they were popular / because of their airy glass walls , / the views they afforded and the elegance of the buildings’ details and proportions , / the architectural equivalent of the abstract art so popular at the time.",
@@ -5401,8 +5323,8 @@
         },
         {
           "sid": 13,
-          "pid": 4,
-          "sentence_index": 1,
+          "pid": 5,
+          "sentence_index": 0,
           "text": "The trend toward “less” was not entirely foreign.",
           "translation": "“更少”的趋势并非完全陌生。",
           "slashed_text": "The trend toward “less” was not entirely foreign.",
@@ -5430,7 +5352,7 @@
         {
           "sid": 14,
           "pid": 5,
-          "sentence_index": 0,
+          "sentence_index": 1,
           "text": "In the 1930s Frank Lloyd Wright started building more modest and efficient houses—usually around 1,200 square feet— than the spreading two-story ones he had designed in the 1890s and the early 20th century.",
           "translation": "20 世纪 30 年代，弗兰克·劳埃德·赖特 (Frank Lloyd Wright) 开始建造比他在 1890 年代和 20 世纪初设计的两层楼更朴素、更高效的房屋（通常面积约为 1,200 平方英尺）。",
           "slashed_text": "In the 1930s Frank Lloyd Wright started building more modest and efficient houses — / usually around 1 , / 200 square feet — / than the spreading two-story ones he had designed in the 1890s and the early 20th century.",
@@ -5458,7 +5380,7 @@
         {
           "sid": 15,
           "pid": 5,
-          "sentence_index": 1,
+          "sentence_index": 2,
           "text": "The “Case Study Houses” commissioned from talented modern architects by California Arts & Architecture magazine between 1945 and 1962 were yet another homegrown influence on the “less is more” trend.",
           "translation": "1945 年至 1962 年间，加州艺术与建筑杂志委托才华横溢的现代建筑师设计的“案例研究住宅”是对“少即是多”趋势的另一个本土影响。",
           "slashed_text": "The “Case Study Houses” commissioned / from talented modern architects / by California Arts & Architecture magazine between 1945 and 1962 were yet another homegrown influence on the “less is more” trend.",
@@ -5486,7 +5408,7 @@
         {
           "sid": 16,
           "pid": 5,
-          "sentence_index": 2,
+          "sentence_index": 3,
           "text": "Aesthetic effect came from the landscape, new materials and forthright detailing.",
           "translation": "美学效果来自景观、新材料和直接的细节。",
           "slashed_text": "Aesthetic effect came from the landscape , / new materials and forthright detailing.",
@@ -5514,7 +5436,7 @@
         {
           "sid": 17,
           "pid": 5,
-          "sentence_index": 3,
+          "sentence_index": 4,
           "text": "In his Case Study House, Ralph Rapson may have mispredicted just how the mechanical revolution would impact everyday life—few American families acquired helicopters, though most eventually got clothes dryers—but his belief that self-sufficiency was both desirable and inevitable was widely shared.",
           "translation": "在他的案例研究之家中，拉尔夫·拉普森可能错误地预测了机械革命将如何影响日常生活——很少有美国家庭拥有直升机，尽管大多数家庭最终都拥有了干衣机——但他认为自给自足既是可取的也是不可避免的这一信念得到了广泛认同。",
           "slashed_text": "In his Case Study House , / Ralph Rapson may have mispredicted just how the mechanical revolution would impact everyday life — / few American families acquired helicopters , / though most eventually got clothes dryers — / but his belief / that self-sufficiency was both desirable and inevitable was widely shared.",
@@ -5546,7 +5468,7 @@
           "stem": "The postwar American housing style largely reflected the Americans’ .",
           "stem_cn": "二战后美国的建筑住宅风格很大程度上折射出美国人的：",
           "type": "事实细节题",
-          "locate_pid": 2,
+          "locate_pid": 1,
           "locate_sentence": "During the Depression and the war, Americans had learned to live with less, and that restraint, in combination with the postwar confidence in the future, made small, efficient housing positively stylish.",
           "locate_sentence_cn": "在大萧条和二战期间，美国人学会了在物资匮乏中生活；那种克制与对战后未来的坚定信心相结合，使得小巧而高效的住宅真正成为了一种风尚。",
           "options": [

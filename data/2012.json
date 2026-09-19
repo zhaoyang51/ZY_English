@@ -1953,11 +1953,6 @@
           "chunk_translation": "漂亮 / 身着粉装： / 成年女性不记得自己曾对这种颜色如此痴迷 / 但它在我们年轻女孩的生活中却无处不在 / 这并不是 / 说粉色本身有什么不好 / 但它只是彩虹中极小的一部分，而且 / 尽管它可能在某种程度上彰显了少女时代 / 它也反复且牢固地将女孩的身份与外貌捆绑在一起 / 进而它呈现出 / 那种关联 / 哪怕是在两岁幼童身上 / 将女孩与粉色之间的联系不仅视为纯真，更视为纯真的证据 / 环顾四周 / 我对关于女孩生活和兴趣的极度匮乏的想象力感到绝望 / 关于女孩的生活与兴趣 / 女孩对粉色的喜爱看似不可避免 / 似乎早已编码 / 写入了她们的基因之中 / 但据美国研究副教授乔·保莱蒂表示 / 一位美国研究副教授 / 事实并非如此",
           "vocabulary": [
             {
-              "word": "should not be the sole representation of girlhood",
-              "pos": "",
-              "definition": "【🎯解题正解】 不应该是少女时代的唯一代表"
-            },
-            {
               "word": "pervasive",
               "pos": "",
               "definition": "a.普遍的,无处不在的"
@@ -2147,14 +2142,14 @@
           "chunk_translation": "直到20世纪初，儿童根本没有按颜色区分： / 在那个时代 / 在家用洗衣机问世之前，所有婴儿出于实用考虑都穿白色衣服 / 因为把衣服洗干净的唯一方法就是放进沸水里煮 / 更重要的是 / 男孩和女孩都穿着当时被认为是中性的长袍裙装 / 当婴儿房颜色最初被引入时 / 粉色实际上被认为是更具阳刚之气的颜色 / 是红色的一种柔和色调 / 红色当时是与 / 力量联系在一起的 / 而蓝色 / 伴随着对圣母玛利亚的联想、 / 坚贞与忠诚 / 则象征着女性特质 / 直到20世纪80年代中期 / 当放大年龄和性别差异成为主导的儿童营销策略时 / 粉色才真正迎来了属于它的时代 / 当时它开始显得对女孩具有天生的吸引力 / 成为定义她们女性身份的一部分 / 至少在最初关键的几年里是如此 / 我原本没有意识到，营销趋势竟然如此深刻地决定了我们对儿童天性的认知 / 包括我们的核心信念 / 关于他们的心理发展",
           "vocabulary": [
             {
-              "word": "Blue used to be regarded as the colour for girls",
-              "pos": "",
-              "definition": "【🎯解题正解】 蓝色曾经被认为是女孩的颜色。"
+              "word": "colour",
+              "pos": "n.",
+              "definition": "n. 颜色；色彩"
             },
             {
-              "word": "Colours are encoded in girls’ DNA",
-              "pos": "",
-              "definition": "【💡题项表达】 颜色被编码在女孩的 DNA 中。"
+              "word": "pink",
+              "pos": "adj.",
+              "definition": "adj. 粉红色的；（因窘迫、愤怒或剧烈活动而）脸色发红的"
             },
             {
               "word": "nursery",
@@ -2377,11 +2372,6 @@
               "definition": "n. 信仰；信念（belief 的复数）"
             },
             {
-              "word": "colour",
-              "pos": "n.",
-              "definition": "n. 颜色；色彩"
-            },
-            {
               "word": "became",
               "pos": "v.",
               "definition": "v. 成为；变得（become 的过去式）"
@@ -2430,40 +2420,25 @@
               "word": "began",
               "pos": "v.",
               "definition": "v. 开始；着手；创建（begin 的过去式）"
-            },
-            {
-              "word": "pink",
-              "pos": "adj.",
-              "definition": "adj. 粉红色的；（因窘迫、愤怒或剧烈活动而）脸色发红的"
             }
           ]
         },
         {
           "pid": 2,
-          "text": "Take the toddler. I assumed that phase was something experts developed after years of research into children’s behaviour: wrong. Turns out, according to Daniel Cook, a historian of childhood consumerism, it was popularised as a marketing trick by clothing manufacturers in the 1930s. Trade publications counselled department stores that, in order to increase sales, they should create a “third stepping stone” between infant wear and older kids’ clothes.",
-          "translation": "带着小孩。我以为这个阶段是专家们对儿童行为进行多年研究后得出的结论：错误的。儿童消费主义历史学家丹尼尔·库克 (Daniel Cook) 表示，事实证明，这种做法在 20 世纪 30 年代被服装制造商作为一种营销伎俩而普及。贸易出版物建议百货公司，为了增加销售额，他们应该在婴儿服装和大童服装之间建立“第三块垫脚石”。",
-          "slashed_text": "Take the toddler. / I assumed / that phase was something experts developed / after years of research / into children’s behaviour : / wrong. / Turns out , / according to Daniel Cook , / a historian of childhood consumerism , / it was popularised as a marketing trick / by clothing manufacturers in the 1930s. / Trade publications counselled department stores / that , / in order to increase sales , / they should create a “third stepping stone” between infant wear and older kids’ clothes.",
-          "chunk_translation": "以“幼儿”这一概念为例 / 我原本以为 / 这一阶段是专家们总结出来的 / 经过多年研究 / 对儿童行为的研究： / 错了 / 事实证明 / 据儿童消费主义历史学家丹尼尔·库克表示 / 一位儿童消费主义历史学家 / 它是作为一种营销策略被推广普及的 / 由20世纪30年代的服装制造商推行 / 行业刊物建议百货商店 / 称 / 为了提高销量 / 他们应该在婴儿服饰与大童服饰之间设立“第三块垫脚石”",
+          "text": "Take the toddler. I assumed that phase was something experts developed after years of research into children’s behaviour: wrong. Turns out, according to Daniel Cook, a historian of childhood consumerism, it was popularised as a marketing trick by clothing manufacturers in the 1930s.",
+          "translation": "带着小孩。我以为这个阶段是专家们对儿童行为进行多年研究后得出的结论：错误的。儿童消费主义历史学家丹尼尔·库克 (Daniel Cook) 表示，事实证明，这种做法在 20 世纪 30 年代被服装制造商作为一种营销伎俩而普及。",
+          "slashed_text": "Take the toddler. / I assumed / that phase was something experts developed / after years of research / into children’s behaviour : / wrong. / Turns out , / according to Daniel Cook , / a historian of childhood consumerism , / it was popularised as a marketing trick / by clothing manufacturers in the 1930s.",
+          "chunk_translation": "以“幼儿”这一概念为例 / 我原本以为 / 这一阶段是专家们总结出来的 / 经过多年研究 / 对儿童行为的研究： / 错了 / 事实证明 / 据儿童消费主义历史学家丹尼尔·库克表示 / 一位儿童消费主义历史学家 / 它是作为一种营销策略被推广普及的 / 由20世纪30年代的服装制造商推行",
           "vocabulary": [
             {
-              "word": "the marketing of products for children",
-              "pos": "",
-              "definition": "【🎯解题正解】 儿童产品的营销"
+              "word": "according",
+              "pos": "prep.",
+              "definition": "prep. 按照；根据"
             },
             {
-              "word": "the observation of children’s nature",
-              "pos": "",
-              "definition": "【💡题项表达】 对儿童天性的观察"
-            },
-            {
-              "word": "researches into children’s behavior",
-              "pos": "",
-              "definition": "【💡题项表达】 研究儿童的行为"
-            },
-            {
-              "word": "studies of childhood consumption",
-              "pos": "",
-              "definition": "【💡题项表达】 儿童消费研究"
+              "word": "marketing",
+              "pos": "n.",
+              "definition": "n. 促销；营销"
             },
             {
               "word": "toddler",
@@ -2481,49 +2456,14 @@
               "definition": "营销技巧"
             },
             {
-              "word": "increase sales",
-              "pos": "",
-              "definition": "增加销售额,增加业绩"
-            },
-            {
-              "word": "stepping stone",
-              "pos": "",
-              "definition": "踏脚石,跳板"
-            },
-            {
               "word": "manufacturers",
               "pos": "n.",
               "definition": "n. manufacturer 的复数形式：（经）制造商；厂商；生产商"
             },
             {
-              "word": "publications",
-              "pos": "n.",
-              "definition": "n. 出版物；刊物（publication 的复数）"
-            },
-            {
               "word": "popularised",
               "pos": "n./v.",
               "definition": "使……受欢迎（popularise 的过去式）；推广（popularise 的过去式）"
-            },
-            {
-              "word": "counselled",
-              "pos": "v.",
-              "definition": "v. 劝告；建议（counsel 的过去式和过去分词；英式拼写）"
-            },
-            {
-              "word": "department",
-              "pos": "n.",
-              "definition": "n. （组织或机构中的）部；司；系"
-            },
-            {
-              "word": "according",
-              "pos": "prep.",
-              "definition": "prep. 按照；根据"
-            },
-            {
-              "word": "marketing",
-              "pos": "n.",
-              "definition": "n. 促销；营销"
             },
             {
               "word": "developed",
@@ -2556,16 +2496,6 @@
               "definition": "n. 衣服；（尤指某种）服装；v. 给……穿衣"
             },
             {
-              "word": "increase",
-              "pos": "v.",
-              "definition": "v. 增长；增强；增大"
-            },
-            {
-              "word": "stepping",
-              "pos": "v.",
-              "definition": "v. 踏；踩；以步测量"
-            },
-            {
               "word": "assumed",
               "pos": "adj.",
               "definition": "adj. 假定的；假设的；篡夺的"
@@ -2576,29 +2506,9 @@
               "definition": "n. 专家；人才（expert 的复数）"
             },
             {
-              "word": "clothes",
-              "pos": "n.",
-              "definition": "n. 衣服；衣物；（在特定场合、特定时间或由特定人群穿着的）服装"
-            },
-            {
               "word": "Daniel",
               "pos": "n.",
               "definition": "n. 丹尼尔（男子名）；但以理（《圣经》中的先知）；《但以理书》（《旧约》经卷）"
-            },
-            {
-              "word": "stores",
-              "pos": "n.",
-              "definition": "n. （store 的复数形式）商店；店铺；贮藏"
-            },
-            {
-              "word": "should",
-              "pos": "v.",
-              "definition": "v. （用于纠正别人）应该；（用于建议）该；可以"
-            },
-            {
-              "word": "infant",
-              "pos": "n.",
-              "definition": "n. 婴儿；幼儿；（英国学校里四至七岁的）学童"
             },
             {
               "word": "phase",
@@ -2619,6 +2529,90 @@
               "word": "trick",
               "pos": "n.",
               "definition": "n. 花招；诡计；骗局"
+            }
+          ]
+        },
+        {
+          "pid": 3,
+          "text": "Trade publications counselled department stores that, in order to increase sales, they should create a “third stepping stone” between infant wear and older kids’ clothes. It was only after “toddler” became a common shoppers’ term that it evolved into a broadly accepted developmental stage. Splitting kids, or adults, into ever-tinier categories has proved a sure-fire way to boost profits. And one of the easiest ways to segment a market is to magnify gender differences—or invent them where they did not previously exist.",
+          "translation": "贸易出版物建议百货公司，为了增加销售额，他们应该在婴儿服装和大童服装之间建立“第三块垫脚石”。直到“幼儿”成为一个常见的购物术语之后，它才演变成一个被广泛接受的发展阶段。事实证明，将儿童或成人分成更小的类别是增加利润的可靠方法。细分市场最简单的方法之一就是放大性别差异，或者在以前不存在的地方创造性别差异。",
+          "slashed_text": "Trade publications counselled department stores / that , / in order to increase sales , / they should create a “third stepping stone” between infant wear and older kids’ clothes. / It was only after “toddler” became a common shoppers’ term / that it evolved into a broadly accepted developmental stage. / Splitting kids , / or adults , / into ever-tinier categories has proved a sure-fire way to boost profits. / And one of the easiest ways to segment a market is to magnify gender differences — / or invent them / where they did not previously exist.",
+          "chunk_translation": "行业刊物建议百货商店 / 称 / 为了提高销量 / 他们应该在婴儿服饰与大童服饰之间设立“第三块垫脚石” / 正是在“幼儿”成为购物者的常用词之后 / 它才演变成为一个被广泛接受的生长发育阶段 / 把儿童 / 或成年人 / 细分为更细小的类别已被证明是提高利润的绝妙方法 / 而细分市场最容易的方法之一就是放大性别差异—— / 或者凭空捏造差异 / 在原本并不存在的地方",
+          "vocabulary": [
+            {
+              "word": "differences",
+              "pos": "n.",
+              "definition": "n. （difference 的复数形式）差异；差别"
+            },
+            {
+              "word": "clothes",
+              "pos": "n.",
+              "definition": "n. 衣服；衣物；（在特定场合、特定时间或由特定人群穿着的）服装"
+            },
+            {
+              "word": "became",
+              "pos": "v.",
+              "definition": "v. 成为；变得（become 的过去式）"
+            },
+            {
+              "word": "gender",
+              "pos": "n.",
+              "definition": "n. 性别；（语法中的）性；（总称）男性"
+            },
+            {
+              "word": "toddler",
+              "pos": "",
+              "definition": "n.幼童"
+            },
+            {
+              "word": "increase sales",
+              "pos": "",
+              "definition": "增加销售额,增加业绩"
+            },
+            {
+              "word": "stepping stone",
+              "pos": "",
+              "definition": "踏脚石,跳板"
+            },
+            {
+              "word": "publications",
+              "pos": "n.",
+              "definition": "n. 出版物；刊物（publication 的复数）"
+            },
+            {
+              "word": "counselled",
+              "pos": "v.",
+              "definition": "v. 劝告；建议（counsel 的过去式和过去分词；英式拼写）"
+            },
+            {
+              "word": "department",
+              "pos": "n.",
+              "definition": "n. （组织或机构中的）部；司；系"
+            },
+            {
+              "word": "increase",
+              "pos": "v.",
+              "definition": "v. 增长；增强；增大"
+            },
+            {
+              "word": "stepping",
+              "pos": "v.",
+              "definition": "v. 踏；踩；以步测量"
+            },
+            {
+              "word": "stores",
+              "pos": "n.",
+              "definition": "n. （store 的复数形式）商店；店铺；贮藏"
+            },
+            {
+              "word": "should",
+              "pos": "v.",
+              "definition": "v. （用于纠正别人）应该；（用于建议）该；可以"
+            },
+            {
+              "word": "infant",
+              "pos": "n.",
+              "definition": "n. 婴儿；幼儿；（英国学校里四至七岁的）学童"
             },
             {
               "word": "Trade",
@@ -2634,35 +2628,6 @@
               "word": "stone",
               "pos": "n.",
               "definition": "n. 石头；石料；石块"
-            }
-          ]
-        },
-        {
-          "pid": 3,
-          "text": "It was only after “toddler” became a common shoppers’ term that it evolved into a broadly accepted developmental stage. Splitting kids, or adults, into ever-tinier categories has proved a sure-fire way to boost profits. And one of the easiest ways to segment a market is to magnify gender differences—or invent them where they did not previously exist.",
-          "translation": "直到“幼儿”成为一个常见的购物术语之后，它才演变成一个被广泛接受的发展阶段。事实证明，将儿童或成人分成更小的类别是增加利润的可靠方法。细分市场最简单的方法之一就是放大性别差异，或者在以前不存在的地方创造性别差异。",
-          "slashed_text": "It was only after “toddler” became a common shoppers’ term / that it evolved into a broadly accepted developmental stage. / Splitting kids , / or adults , / into ever-tinier categories has proved a sure-fire way to boost profits. / And one of the easiest ways to segment a market is to magnify gender differences — / or invent them / where they did not previously exist.",
-          "chunk_translation": "正是在“幼儿”成为购物者的常用词之后 / 它才演变成为一个被广泛接受的生长发育阶段 / 把儿童 / 或成年人 / 细分为更细小的类别已被证明是提高利润的绝妙方法 / 而细分市场最容易的方法之一就是放大性别差异—— / 或者凭空捏造差异 / 在原本并不存在的地方",
-          "vocabulary": [
-            {
-              "word": "classify consumers into smaller groups",
-              "pos": "",
-              "definition": "【🎯解题正解】 将消费者分为更小的群体"
-            },
-            {
-              "word": "create some common shoppers’ terms",
-              "pos": "",
-              "definition": "【💡题项表达】 创建一些常见的购物者术语"
-            },
-            {
-              "word": "mainly imposed by profit-driven businessmen",
-              "pos": "",
-              "definition": "【🎯解题正解】 主要由逐利商人强加"
-            },
-            {
-              "word": "toddler",
-              "pos": "",
-              "definition": "n.幼童"
             },
             {
               "word": "segment",
@@ -2693,11 +2658,6 @@
               "word": "developmental",
               "pos": "adj.",
               "definition": "adj. 发展的；生长的；促使成长的"
-            },
-            {
-              "word": "differences",
-              "pos": "n.",
-              "definition": "n. （difference 的复数形式）差异；差别"
             },
             {
               "word": "categories",
@@ -2745,11 +2705,6 @@
               "definition": "adj. （easy 的最高级）最容易的；最轻松的"
             },
             {
-              "word": "became",
-              "pos": "v.",
-              "definition": "v. 成为；变得（become 的过去式）"
-            },
-            {
               "word": "adults",
               "pos": "n.",
               "definition": "n. 成年人（adult 的复数形式）；（生物学）成年动物（adult 的复数形式；如成虫、成体）"
@@ -2770,19 +2725,9 @@
               "definition": "n. 集市；市场；交易"
             },
             {
-              "word": "gender",
-              "pos": "n.",
-              "definition": "n. 性别；（语法中的）性；（总称）男性"
-            },
-            {
               "word": "invent",
               "pos": "v.",
               "definition": "v. 发明；创造；编造"
-            },
-            {
-              "word": "adult",
-              "pos": "n.",
-              "definition": "n. 成年人或动物；adj. 成年的"
             },
             {
               "word": "stage",
@@ -3182,8 +3127,8 @@
         },
         {
           "sid": 14,
-          "pid": 2,
-          "sentence_index": 3,
+          "pid": 3,
+          "sentence_index": 0,
           "text": "Trade publications counselled department stores that, in order to increase sales, they should create a “third stepping stone” between infant wear and older kids’ clothes.",
           "translation": "贸易出版物建议百货公司，为了增加销售额，他们应该在婴儿服装和大童服装之间建立“第三块垫脚石”。",
           "slashed_text": "Trade publications counselled department stores / that , / in order to increase sales , / they should create a “third stepping stone” between infant wear and older kids’ clothes.",
@@ -3211,7 +3156,7 @@
         {
           "sid": 15,
           "pid": 3,
-          "sentence_index": 0,
+          "sentence_index": 1,
           "text": "It was only after “toddler” became a common shoppers’ term that it evolved into a broadly accepted developmental stage.",
           "translation": "直到“幼儿”成为一个常见的购物术语之后，它才演变成一个被广泛接受的发展阶段。",
           "slashed_text": "It was only after “toddler” became a common shoppers’ term / that it evolved into a broadly accepted developmental stage.",
@@ -3234,7 +3179,7 @@
         {
           "sid": 16,
           "pid": 3,
-          "sentence_index": 1,
+          "sentence_index": 2,
           "text": "Splitting kids, or adults, into ever-tinier categories has proved a sure-fire way to boost profits.",
           "translation": "事实证明，将儿童或成人分成更小的类别是增加利润的可靠方法。",
           "slashed_text": "Splitting kids , / or adults , / into ever-tinier categories has proved a sure-fire way to boost profits.",
@@ -3257,7 +3202,7 @@
         {
           "sid": 17,
           "pid": 3,
-          "sentence_index": 2,
+          "sentence_index": 3,
           "text": "And one of the easiest ways to segment a market is to magnify gender differences—or invent them where they did not previously exist.",
           "translation": "细分市场最简单的方法之一就是放大性别差异，或者在以前不存在的地方创造性别差异。",
           "slashed_text": "And one of the easiest ways to segment a market is to magnify gender differences — / or invent them / where they did not previously exist.",
@@ -3463,7 +3408,7 @@
           "stem": "The author suggests that our perception of children’s psychological development was \nmuch influenced by _____.",
           "stem_cn": "作者明确暗示，我们对儿童心理发育历程的传统认知，在很大程度上是受了：",
           "type": "段落推断题",
-          "locate_pid": 1,
+          "locate_pid": 2,
           "locate_sentence": "I had not realised how profoundly marketing trends dictated our perception of what is natural to kids, including our core beliefs about their psychological development. Take the toddler. I assumed that phase was something experts developed after years of research into children’s behaviour: wrong. Turns out, according to Daniel Cook, a historian of childhood consumerism, it was popularised as a marketing trick by clothing manufacturers in the 1930s.",
           "locate_sentence_cn": "我此前从未意识到，商业营销趋势竟然如此深刻地左右了我们对儿童天性的认知，甚至包括我们关于其心理发育的核心信念。以‘幼儿’（toddler）为例。我曾以为这个发展阶段是专家们对儿童行为经过多年研究后划分出来的——大错特错。事实证明，正如儿童消费主义历史学家丹尼尔·库克所指出的，它最初只是20世纪30年代服装制造商为推销商品而耍弄的营销噱头。",
           "options": [
@@ -3550,7 +3495,7 @@
           "stem": "We may learn from Paragraph 4 that department stores were advised to _____.",
           "stem_cn": "我们可以从第 4 段得知，百货公司当时被建议：",
           "type": "事实细节题",
-          "locate_pid": 2,
+          "locate_pid": 3,
           "locate_sentence": "Trade publications counselled department stores that, in order to increase sales, they should create a “third stepping stone” between infant wear and older kids’ clothes. It was only after “toddler” became a common shoppers’ term that it evolved into a broadly accepted developmental stage. Splitting kids, or adults, into ever-tinier categories has proved a sure-fire way to boost profits.",
           "locate_sentence_cn": "行业刊物向百货商店建议，为了增加销售额，他们应该在婴儿服装和大童服装之间建立‘第三块垫脚石’。正是在‘幼儿’（toddler）成为日常购物术语之后，它才演变为一个被广泛接受的发育阶段。将儿童（或成人）划分为越来越细小的类别，已被证明是提升利润的万灵药。",
           "options": [

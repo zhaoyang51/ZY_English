@@ -3567,11 +3567,6 @@
               "definition": "v. 创造；创建"
             },
             {
-              "word": "consumer",
-              "pos": "n.",
-              "definition": "n. 消费者；顾客"
-            },
-            {
               "word": "billions",
               "pos": "n.",
               "definition": "n. 数十亿（billion 的复数）；无数；亿万"
@@ -3612,11 +3607,6 @@
               "definition": "n. 零食；小吃；零嘴（snack 的复数）"
             },
             {
-              "word": "habit",
-              "pos": "n.",
-              "definition": "n. 习惯；（吸毒、喝酒、抽烟的）瘾"
-            },
-            {
               "word": "daily",
               "pos": "adj.",
               "definition": "adj. 每日的；日常的"
@@ -3630,30 +3620,25 @@
         },
         {
           "pid": 1,
-          "text": "“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr. Curtis, the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine.",
-          "translation": "“存在一些基本的公共卫生问题，比如脏手而不是使用肥皂的习惯，这些问题仍然是杀手，只是因为我们不知道如何改变人们的习惯，”博士说。柯蒂斯是伦敦卫生与热带医学院卫生中心主任。",
-          "slashed_text": "“There are fundamental public health problems , / like dirty hands instead of a soap habit , / that remain killers only / because we can’t figure out how to change people’s habits , / ” said Dr. / Curtis , / the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine.",
-          "chunk_translation": "“存在一些根本性的公共卫生问题 / 比如手脏却不用肥皂洗手 / 这些问题仍然是致命杀手，仅仅 / 是因为我们不知道如何改变人们的习惯 / ”柯蒂斯博士说 / 柯蒂斯 / 伦敦卫生与热带医学院卫生中心主任",
+          "text": "“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr. Curtis, the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine. “We wanted to learn from private industry how to create new behaviors that happen automatically.”",
+          "translation": "伦敦卫生与热带医学院卫生中心主任柯蒂斯博士说：“有些基本的公共卫生问题，例如人们双手不洁而没有使用肥皂的习惯，仍在夺走生命，仅仅是因为我们还不知道怎样改变人们的习惯。”“我们想向私营企业学习如何创造自动发生的新行为。”",
+          "slashed_text": "“There are fundamental public health problems, like dirty hands instead of a soap habit, that remain killers only because we can’t figure out how to change people’s habits,” said Dr. Curtis, the director of the Hygiene Center at the London School of Hygiene & Tropical Medicine. / “We wanted to learn / from private industry how to create new behaviors / that happen automatically.”",
+          "chunk_translation": "伦敦卫生与热带医学院卫生中心主任柯蒂斯博士说：“有些基本的公共卫生问题，例如人们双手不洁而没有使用肥皂的习惯，仍在夺走生命，仅仅是因为我们还不知道怎样改变人们的习惯。” / “我们想学习 / 向私营企业学习如何创造新的行为模式 / 使其能够自动发生。”",
           "vocabulary": [
             {
-              "word": "should be further cultivated",
-              "pos": "",
-              "definition": "【🎯解题正解】 应该进一步培养"
+              "word": "behaviors",
+              "pos": "n.",
+              "definition": "n. 行为；举止（behavior 的复数）"
             },
             {
-              "word": "should be changed gradually",
-              "pos": "",
-              "definition": "【💡题项表达】 应该逐渐改变"
+              "word": "habits",
+              "pos": "n.",
+              "definition": "n. 习惯（habit 的复数）；（生物）习性"
             },
             {
-              "word": "are deeply rooted in history",
-              "pos": "",
-              "definition": "【💡题项表达】 深深植根于历史"
-            },
-            {
-              "word": "are basically private concerns",
-              "pos": "",
-              "definition": "【💡题项表达】 基本上都是私人问题"
+              "word": "habit",
+              "pos": "n.",
+              "definition": "n. 习惯；（吸毒、喝酒、抽烟的）瘾"
             },
             {
               "word": "fundamental",
@@ -3696,11 +3681,6 @@
               "definition": "n. 杀手乐团（乐队名）"
             },
             {
-              "word": "habits",
-              "pos": "n.",
-              "definition": "n. 习惯（habit 的复数）；（生物）习性"
-            },
-            {
               "word": "Curtis",
               "pos": "n.",
               "definition": "n. 柯蒂斯（男子名）；柯蒂斯（姓氏）"
@@ -3711,38 +3691,14 @@
               "definition": "n. 数字；数目；数值"
             },
             {
-              "word": "habit",
-              "pos": "n.",
-              "definition": "n. 习惯；（吸毒、喝酒、抽烟的）瘾"
-            },
-            {
               "word": "soap",
               "pos": "n.",
               "definition": "n. 肥皂；肥皂剧"
-            }
-          ]
-        },
-        {
-          "pid": 2,
-          "text": "“We wanted to learn from private industry how to create new behaviors that happen automatically.”",
-          "translation": "“我们想向私营企业学习如何创造自动发生的新行为。”",
-          "slashed_text": "“We wanted to learn / from private industry how to create new behaviors / that happen automatically.”",
-          "chunk_translation": "“我们想学习 / 向私营企业学习如何创造新的行为模式 / 使其能够自动发生。”",
-          "vocabulary": [
+            },
             {
               "word": "automatically",
               "pos": "adv.",
               "definition": "adv. 自然地；必然地；不假思索地"
-            },
-            {
-              "word": "automatic",
-              "pos": "adj.",
-              "definition": "adj. 自动的；必然的"
-            },
-            {
-              "word": "behaviors",
-              "pos": "n.",
-              "definition": "n. 行为；举止（behavior 的复数）"
             },
             {
               "word": "industry",
@@ -3757,26 +3713,31 @@
           ]
         },
         {
-          "pid": 3,
-          "text": "The companies that Dr. Curtis turned to—Procter & Gamble, Colgate-Palmolive and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that corporations could use to introduce new routines. If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.",
-          "translation": "博士的公司柯蒂斯求助于宝洁公司、高露洁棕榄公司和联合利华公司，这些公司投资了数亿美元，寻找消费者生活中的微妙线索，企业可以利用这些线索来引入新的生活习惯。如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。",
-          "slashed_text": "The companies / that Dr. / Curtis turned to — / Procter & Gamble , / Colgate-Palmolive and Unilever — / had invested hundreds of millions of dollars finding the subtle cues / in consumers’ lives / that corporations could use to introduce new routines. / If you look hard enough , / you’ll find / that many of the products we use every day — / chewing gums , / skin moisturizers , / disinfecting wipes , / air fresheners , / water purifiers , / health snacks , / teeth whiteners , / fabric softeners , / vitamins — / are results of manufactured habits.",
-          "chunk_translation": "这些公司 / 柯蒂斯博士 / 求助的公司—— / 宝洁、 / 高露洁棕榄和联合利华—— / 已经投入了数亿美元去寻找微妙的暗示 / 在消费者的日常生活中 / 企业可以利用这些暗示来引入新的生活惯例 / 如果你仔细观察 / 你会发现 / 我们每天使用的许多产品—— / 口香糖、 / 润肤乳、 / 消毒湿巾、 / 空气清新剂、 / 净水器、 / 健康零食、 / 牙齿美白剂、 / 织物柔软剂、 / 维生素—— / 都是人为制造习惯的产物",
+          "pid": 2,
+          "text": "The companies that Dr. Curtis turned to—Procter & Gamble, Colgate-Palmolive and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that corporations could use to introduce new routines.",
+          "translation": "柯蒂斯博士求助的几家公司——宝洁、高露洁棕榄和联合利华——已经投入数亿美元，寻找消费者生活中企业可以用来引入新习惯的微妙线索。",
+          "slashed_text": "The companies that Dr. Curtis turned to—Procter & Gamble, Colgate-Palmolive and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that corporations could use to introduce new routines.",
+          "chunk_translation": "柯蒂斯博士求助的几家公司——宝洁、高露洁棕榄和联合利华——已经投入数亿美元，寻找消费者生活中企业可以用来引入新习惯的微妙线索。",
           "vocabulary": [
+            {
+              "word": "consumers",
+              "pos": "n.",
+              "definition": "n. consumer 的复数：消费者；顾客"
+            },
+            {
+              "word": "dollars",
+              "pos": "n.",
+              "definition": "n. 美元（dollar 的复数）；也泛指以 dollar 为单位的货币；常特指美元"
+            },
+            {
+              "word": "Curtis",
+              "pos": "n.",
+              "definition": "n. 柯蒂斯（男子名）；柯蒂斯（姓氏）"
+            },
             {
               "word": "Unilever",
               "pos": "",
               "definition": "【🎯解题正解】 联合利华。"
-            },
-            {
-              "word": "Tide",
-              "pos": "",
-              "definition": "【💡题项表达】 潮。"
-            },
-            {
-              "word": "Crest",
-              "pos": "",
-              "definition": "【💡题项表达】 波峰。"
             },
             {
               "word": "Colgate",
@@ -3792,6 +3753,90 @@
               "word": "introduce new routines",
               "pos": "",
               "definition": "引入新惯例"
+            },
+            {
+              "word": "corporations",
+              "pos": "n.",
+              "definition": "n. 公司；企业（corporation 的复数）"
+            },
+            {
+              "word": "Palmolive",
+              "pos": "n.",
+              "definition": "n. 棕榄；n. （Palmolive）人名"
+            },
+            {
+              "word": "introduce",
+              "pos": "v.",
+              "definition": "v. 介绍；引见；使初次了解"
+            },
+            {
+              "word": "invested",
+              "pos": "v.",
+              "definition": "v. 投资；花费"
+            },
+            {
+              "word": "hundreds",
+              "pos": "n.",
+              "definition": "n. 数百；成百上千；许多"
+            },
+            {
+              "word": "millions",
+              "pos": "n.",
+              "definition": "n. 数百万；大量；无数"
+            },
+            {
+              "word": "routines",
+              "pos": "n.",
+              "definition": "n. 常规；惯例（routine 的复数）；日常活动"
+            },
+            {
+              "word": "Procter",
+              "pos": "n.",
+              "definition": "n. 宝洁；普克特（男子名）"
+            },
+            {
+              "word": "finding",
+              "pos": "n.",
+              "definition": "n. 结果；发现；判决"
+            },
+            {
+              "word": "turned",
+              "pos": "adj.",
+              "definition": "adj. 被转动的；翻转的"
+            },
+            {
+              "word": "Gamble",
+              "pos": "v.",
+              "definition": "v. 冒险假设；赌博"
+            }
+          ]
+        },
+        {
+          "pid": 3,
+          "text": "If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits. A century ago, few people regularly brushed their teeth multiple times a day. Today, because of shrewd advertising and public health campaigns, many Americans habitually give their pearly whites a cavity-preventing scrub twice a day, often with Colgate, Crest or one of the other brands.",
+          "translation": "如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。一个世纪前，很少有人每天定期刷牙多次。如今，由于精明的广告和公共卫生运动，许多美国人习惯性地每天两次给他们的珍珠白皮肤涂上防蛀牙磨砂膏，通常使用高露洁、佳洁士或其他品牌的产品。",
+          "slashed_text": "If you look hard enough , / you’ll find / that many of the products we use every day — / chewing gums , / skin moisturizers , / disinfecting wipes , / air fresheners , / water purifiers , / health snacks , / teeth whiteners , / fabric softeners , / vitamins — / are results of manufactured habits. / A century ago , / few people regularly brushed their teeth multiple times a day. / Today , / because of shrewd advertising and public health campaigns , / many Americans habitually give their pearly whites a cavity-preventing scrub twice a day , / often / with Colgate , / Crest or one of the other brands.",
+          "chunk_translation": "如果你仔细观察 / 你会发现 / 我们每天使用的许多产品—— / 口香糖、 / 润肤乳、 / 消毒湿巾、 / 空气清新剂、 / 净水器、 / 健康零食、 / 牙齿美白剂、 / 织物柔软剂、 / 维生素—— / 都是人为制造习惯的产物 / 一个世纪前 / 很少有人每天定期刷牙多次 / 如今 / 得益于精明的广告宣传和公共卫生运动 / 许多美国人习惯性地每天两次刷净他们洁白的牙齿以防蛀牙 / 通常 / 使用高露洁、 / 佳洁士或其他品牌之一",
+          "vocabulary": [
+            {
+              "word": "habits",
+              "pos": "n.",
+              "definition": "n. 习惯（habit 的复数）；（生物）习性"
+            },
+            {
+              "word": "snacks",
+              "pos": "n.",
+              "definition": "n. 零食；小吃；零嘴（snack 的复数）"
+            },
+            {
+              "word": "Crest",
+              "pos": "",
+              "definition": "【💡题项表达】 波峰。"
+            },
+            {
+              "word": "Colgate",
+              "pos": "",
+              "definition": "【💡题项表达】 高露洁。"
             },
             {
               "word": "disinfecting",
@@ -3814,11 +3859,6 @@
               "definition": "n. 润肤霜；保湿霜"
             },
             {
-              "word": "corporations",
-              "pos": "n.",
-              "definition": "n. 公司；企业（corporation 的复数）"
-            },
-            {
               "word": "manufactured",
               "pos": "adj.",
               "definition": "adj. 制造的；已制成的；人为制造的"
@@ -3827,21 +3867,6 @@
               "word": "fresheners",
               "pos": "n./v.",
               "definition": "洁净爽肤水"
-            },
-            {
-              "word": "consumers",
-              "pos": "n.",
-              "definition": "n. consumer 的复数：消费者；顾客"
-            },
-            {
-              "word": "Palmolive",
-              "pos": "n.",
-              "definition": "n. 棕榄；n. （Palmolive）人名"
-            },
-            {
-              "word": "introduce",
-              "pos": "v.",
-              "definition": "v. 介绍；引见；使初次了解"
             },
             {
               "word": "purifiers",
@@ -3859,34 +3884,9 @@
               "definition": "n. 软化剂（softener 的复数）"
             },
             {
-              "word": "invested",
-              "pos": "v.",
-              "definition": "v. 投资；花费"
-            },
-            {
               "word": "products",
               "pos": "n.",
               "definition": "n. 产品；商品（product 的复数）"
-            },
-            {
-              "word": "consumer",
-              "pos": "n.",
-              "definition": "n. 消费者；顾客"
-            },
-            {
-              "word": "hundreds",
-              "pos": "n.",
-              "definition": "n. 数百；成百上千；许多"
-            },
-            {
-              "word": "millions",
-              "pos": "n.",
-              "definition": "n. 数百万；大量；无数"
-            },
-            {
-              "word": "routines",
-              "pos": "n.",
-              "definition": "n. 常规；惯例（routine 的复数）；日常活动"
             },
             {
               "word": "vitamins",
@@ -3894,59 +3894,14 @@
               "definition": "n. （vitamin 的复数）维生素；维他命"
             },
             {
-              "word": "Procter",
-              "pos": "n.",
-              "definition": "n. 宝洁；普克特（男子名）"
-            },
-            {
               "word": "chewing",
               "pos": "n.",
               "definition": "n. 咀嚼；嚼"
             },
             {
-              "word": "dollars",
-              "pos": "n.",
-              "definition": "n. 美元（dollar 的复数）；也泛指以 dollar 为单位的货币；常特指美元"
-            },
-            {
-              "word": "finding",
-              "pos": "n.",
-              "definition": "n. 结果；发现；判决"
-            },
-            {
               "word": "results",
               "pos": "v.",
               "definition": "v. 发生；产生；终归"
-            },
-            {
-              "word": "habits",
-              "pos": "n.",
-              "definition": "n. 习惯（habit 的复数）；（生物）习性"
-            },
-            {
-              "word": "Curtis",
-              "pos": "n.",
-              "definition": "n. 柯蒂斯（男子名）；柯蒂斯（姓氏）"
-            },
-            {
-              "word": "turned",
-              "pos": "adj.",
-              "definition": "adj. 被转动的；翻转的"
-            },
-            {
-              "word": "Gamble",
-              "pos": "v.",
-              "definition": "v. 冒险假设；赌博"
-            },
-            {
-              "word": "snacks",
-              "pos": "n.",
-              "definition": "n. 零食；小吃；零嘴（snack 的复数）"
-            },
-            {
-              "word": "habit",
-              "pos": "n.",
-              "definition": "n. 习惯；（吸毒、喝酒、抽烟的）瘾"
             },
             {
               "word": "wipes",
@@ -3972,20 +3927,6 @@
               "word": "skin",
               "pos": "n.",
               "definition": "n. 皮；皮肤"
-            }
-          ]
-        },
-        {
-          "pid": 4,
-          "text": "A century ago, few people regularly brushed their teeth multiple times a day. Today, because of shrewd advertising and public health campaigns, many Americans habitually give their pearly whites a cavity-preventing scrub twice a day, often with Colgate, Crest or one of the other brands. A few decades ago, many people didn’t drink water outside of a meal. Then beverage companies started bottling the production of far-off springs, and now office workers unthinkingly sip bottled water all day long.",
-          "translation": "一个世纪前，很少有人每天定期刷牙多次。如今，由于精明的广告和公共卫生运动，许多美国人习惯性地每天两次给他们的珍珠白皮肤涂上防蛀牙磨砂膏，通常使用高露洁、佳洁士或其他品牌的产品。几十年前，许多人饭后不喝水。后来饮料公司开始将遥远的泉水生产装瓶，现在上班族整天不假思索地喝着瓶装水。",
-          "slashed_text": "A century ago , / few people regularly brushed their teeth multiple times a day. / Today , / because of shrewd advertising and public health campaigns , / many Americans habitually give their pearly whites a cavity-preventing scrub twice a day , / often / with Colgate , / Crest or one of the other brands. / A few decades ago , / many people didn’t drink water outside of a meal. / Then beverage companies started bottling the production of far-off springs , / and now office workers unthinkingly sip bottled water all day long.",
-          "chunk_translation": "一个世纪前 / 很少有人每天定期刷牙多次 / 如今 / 得益于精明的广告宣传和公共卫生运动 / 许多美国人习惯性地每天两次刷净他们洁白的牙齿以防蛀牙 / 通常 / 使用高露洁、 / 佳洁士或其他品牌之一 / 几十年前 / 许多人在正餐之外并不喝水 / 后来饮料公司开始将偏远泉水装瓶销售 / 如今上班族整天不假思索地喝着瓶装水",
-          "vocabulary": [
-            {
-              "word": "reveal their impact on people’s habits",
-              "pos": "",
-              "definition": "【🎯解题正解】 揭示它们对人们习惯的影响"
             },
             {
               "word": "multiple",
@@ -4008,21 +3949,6 @@
               "definition": "n.擦洗"
             },
             {
-              "word": "beverage",
-              "pos": "",
-              "definition": "n.饮料"
-            },
-            {
-              "word": "sip",
-              "pos": "",
-              "definition": "v.小口地喝"
-            },
-            {
-              "word": "unthinkingly",
-              "pos": "adv.",
-              "definition": "adv. 不假思索地；轻率地"
-            },
-            {
               "word": "advertising",
               "pos": "n.",
               "definition": "n. 广告活动；广告业；（总称）广告"
@@ -4038,11 +3964,6 @@
               "definition": "adj. 防止的；预防的；v. 防止"
             },
             {
-              "word": "production",
-              "pos": "n.",
-              "definition": "n. （以销售为目的的）生产；制造；（对自然物的）加工"
-            },
-            {
               "word": "regularly",
               "pos": "adv.",
               "definition": "adv. 定期地；有规律地；频繁地"
@@ -4053,31 +3974,6 @@
               "definition": "n. （有计划的）活动；运动；战役（campaign 的复数）"
             },
             {
-              "word": "bottling",
-              "pos": "v.",
-              "definition": "v. 把（液体或气体等）装入瓶中；把（水果或蔬菜等）装瓶储存；用玻璃瓶砸（bottle 的现在分词）"
-            },
-            {
-              "word": "Colgate",
-              "pos": "n.",
-              "definition": "n. 高露洁（Colgate-Palmolive 旗下的口腔护理品牌）；高露洁公司（Colgate-Palmolive Company 的简称"
-            },
-            {
-              "word": "decades",
-              "pos": "n.",
-              "definition": "n. 数十年（decade 的复数）"
-            },
-            {
-              "word": "outside",
-              "pos": "n.",
-              "definition": "n. 外表；外部（the outside）"
-            },
-            {
-              "word": "started",
-              "pos": "v.",
-              "definition": "v. 开始；着手"
-            },
-            {
               "word": "century",
               "pos": "n.",
               "definition": "n. 世纪；一百年；（板球）一百分"
@@ -4086,21 +3982,6 @@
               "word": "brushed",
               "pos": "adj.",
               "definition": "adj. （织物）拉绒的；磨毛的；拉过绒的"
-            },
-            {
-              "word": "springs",
-              "pos": "n.",
-              "definition": "n. 弹簧（spring 的复数）；泉；泉水（spring 的复数"
-            },
-            {
-              "word": "bottled",
-              "pos": "adj.",
-              "definition": "adj. 瓶装的；装在瓶中的；（常与 up 连用"
-            },
-            {
-              "word": "decade",
-              "pos": "n.",
-              "definition": "n. 十年；十年期"
             },
             {
               "word": "pearly",
@@ -4123,19 +4004,28 @@
               "definition": "n. 品牌；烙印；类型"
             },
             {
-              "word": "office",
+              "word": "twice",
+              "pos": "adv.",
+              "definition": "adv. 两次；两倍；强（或好、难）的多"
+            }
+          ]
+        },
+        {
+          "pid": 4,
+          "text": "A few decades ago, many people didn’t drink water outside of a meal. Then beverage companies started bottling the production of far-off springs, and now office workers unthinkingly sip bottled water all day long. Chewing gum, once bought primarily by adolescent boys, is now featured in commercials as a breath freshener and teeth cleanser for use after a meal. Skin moisturizers are advertised as part of morning beauty rituals, slipped in between hair brushing and putting on makeup.",
+          "translation": "几十年前，许多人饭后不喝水。后来饮料公司开始将遥远的泉水生产装瓶，现在上班族整天不假思索地喝着瓶装水。口香糖曾经主要由青春期男孩购买，现在在广告中作为餐后使用的口气清新剂和牙齿清洁剂。皮肤保湿霜被宣传为早晨美容仪式的一部分，在梳头和化妆之间使用。",
+          "slashed_text": "A few decades ago , / many people didn’t drink water outside of a meal. / Then beverage companies started bottling the production of far-off springs , / and now office workers unthinkingly sip bottled water all day long. / Chewing gum , / once bought primarily / by adolescent boys , / is now featured / in commercials as a breath freshener and teeth cleanser for use after a meal. / Skin moisturizers are advertised as part of morning beauty rituals , / slipped / in between hair brushing and putting / on makeup.",
+          "chunk_translation": "几十年前 / 许多人在正餐之外并不喝水 / 后来饮料公司开始将偏远泉水装瓶销售 / 如今上班族整天不假思索地喝着瓶装水 / 口香糖 / 曾经主要是购买对象 / 为青春期男孩 / 如今在广告中被宣传 / 作为餐后使用的口气清新剂和牙齿清洁剂 / 润肤霜被宣传为早晨美容护肤程序的一部分 / 悄悄插入 / 在梳头和化 / 妆之间",
+          "vocabulary": [
+            {
+              "word": "moisturizers",
               "pos": "n.",
-              "definition": "n. 办公室；办公楼；办事处"
+              "definition": "n. 润肤霜；保湿霜"
             },
             {
-              "word": "habit",
+              "word": "chewing",
               "pos": "n.",
-              "definition": "n. 习惯；（吸毒、喝酒、抽烟的）瘾"
-            },
-            {
-              "word": "drink",
-              "pos": "v.",
-              "definition": "v. 喝；饮"
+              "definition": "n. 咀嚼；嚼"
             },
             {
               "word": "teeth",
@@ -4143,14 +4033,69 @@
               "definition": "n. 牙齿（tooth 的复数）；（机械、工具等的）齿；齿状物"
             },
             {
-              "word": "twice",
-              "pos": "adv.",
-              "definition": "adv. 两次；两倍；强（或好、难）的多"
+              "word": "skin",
+              "pos": "n.",
+              "definition": "n. 皮；皮肤"
             },
             {
-              "word": "Crest",
+              "word": "beverage",
+              "pos": "",
+              "definition": "n.饮料"
+            },
+            {
+              "word": "sip",
+              "pos": "",
+              "definition": "v.小口地喝"
+            },
+            {
+              "word": "unthinkingly",
+              "pos": "adv.",
+              "definition": "adv. 不假思索地；轻率地"
+            },
+            {
+              "word": "production",
               "pos": "n.",
-              "definition": "n. （山）顶；（浪）峰；（家族、城镇、机构等作为标记的）饰章"
+              "definition": "n. （以销售为目的的）生产；制造；（对自然物的）加工"
+            },
+            {
+              "word": "bottling",
+              "pos": "v.",
+              "definition": "v. 把（液体或气体等）装入瓶中；把（水果或蔬菜等）装瓶储存；用玻璃瓶砸（bottle 的现在分词）"
+            },
+            {
+              "word": "decades",
+              "pos": "n.",
+              "definition": "n. 数十年（decade 的复数）"
+            },
+            {
+              "word": "outside",
+              "pos": "n.",
+              "definition": "n. 外表；外部（the outside）"
+            },
+            {
+              "word": "started",
+              "pos": "v.",
+              "definition": "v. 开始；着手"
+            },
+            {
+              "word": "springs",
+              "pos": "n.",
+              "definition": "n. 弹簧（spring 的复数）；泉；泉水（spring 的复数"
+            },
+            {
+              "word": "bottled",
+              "pos": "adj.",
+              "definition": "adj. 瓶装的；装在瓶中的；（常与 up 连用"
+            },
+            {
+              "word": "office",
+              "pos": "n.",
+              "definition": "n. 办公室；办公楼；办事处"
+            },
+            {
+              "word": "drink",
+              "pos": "v.",
+              "definition": "v. 喝；饮"
             },
             {
               "word": "didn",
@@ -4161,35 +4106,6 @@
               "word": "meal",
               "pos": "n.",
               "definition": "n. 一餐；进餐（时间）"
-            }
-          ]
-        },
-        {
-          "pid": 5,
-          "text": "Chewing gum, once bought primarily by adolescent boys, is now featured in commercials as a breath freshener and teeth cleanser for use after a meal. Skin moisturizers are advertised as part of morning beauty rituals, slipped in between hair brushing and putting on makeup. “Our products succeed when they become part of daily or weekly patterns,” said Carol Berning, a consumer psychologist who recently retired from Procter & Gamble, the company that sold $76 billion of Tide, Crest and other products last year.",
-          "translation": "口香糖曾经主要由青春期男孩购买，现在在广告中作为餐后使用的口气清新剂和牙齿清洁剂。皮肤保湿霜被宣传为早晨美容仪式的一部分，在梳头和化妆之间使用。“当我们的产品成为日常或每周模式的一部分时，我们的产品就成功了，”最近从宝洁公司退休的消费者心理学家卡罗尔·伯宁（Carol Berning）说，宝洁公司去年销售了 760 亿美元的汰渍、佳洁士和其他产品。",
-          "slashed_text": "Chewing gum , / once bought primarily / by adolescent boys , / is now featured / in commercials as a breath freshener and teeth cleanser for use after a meal. / Skin moisturizers are advertised as part of morning beauty rituals , / slipped / in between hair brushing and putting / on makeup. / “Our products succeed / when they become part of daily or weekly patterns , / ” said Carol Berning , / a consumer psychologist / who recently retired / from Procter & Gamble , / the company / that sold $76 billion of Tide , / Crest and other products last year.",
-          "chunk_translation": "口香糖 / 曾经主要是购买对象 / 为青春期男孩 / 如今在广告中被宣传 / 作为餐后使用的口气清新剂和牙齿清洁剂 / 润肤霜被宣传为早晨美容护肤程序的一部分 / 悄悄插入 / 在梳头和化 / 妆之间 / “我们的产品之所以成功 / 是因为它们融入了人们每天或每周的生活习惯中 / ”卡罗尔·伯宁说 / 一位消费者心理学家 / 她最近刚退休 / 从宝洁公司 / 这家公司 / 去年销售了760亿美元的汰渍、 / 佳洁士和其他产品",
-          "vocabulary": [
-            {
-              "word": "commercial promotions",
-              "pos": "",
-              "definition": "【🎯解题正解】 商业促销"
-            },
-            {
-              "word": "perfected art of products",
-              "pos": "",
-              "definition": "【💡题项表达】 完美的产品艺术"
-            },
-            {
-              "word": "automatic behavior creation",
-              "pos": "",
-              "definition": "【💡题项表达】 自动行为创建"
-            },
-            {
-              "word": "scientific experiments",
-              "pos": "",
-              "definition": "【💡题项表达】 科学实验"
             },
             {
               "word": "primarily",
@@ -4200,21 +4116,6 @@
               "word": "adolescent",
               "pos": "",
               "definition": "a.青春期的"
-            },
-            {
-              "word": "psychologist",
-              "pos": "",
-              "definition": "n.心理学家"
-            },
-            {
-              "word": "daily or weekly patterns",
-              "pos": "",
-              "definition": "每天或每周的惯例"
-            },
-            {
-              "word": "moisturizers",
-              "pos": "n.",
-              "definition": "n. 润肤霜；保湿霜"
             },
             {
               "word": "commercials",
@@ -4232,21 +4133,6 @@
               "definition": "洁净爽肤水"
             },
             {
-              "word": "products",
-              "pos": "n.",
-              "definition": "n. 产品；商品（product 的复数）"
-            },
-            {
-              "word": "patterns",
-              "pos": "n.",
-              "definition": "n. 模式；方式"
-            },
-            {
-              "word": "consumer",
-              "pos": "n.",
-              "definition": "n. 消费者；顾客"
-            },
-            {
               "word": "featured",
               "pos": "adj.",
               "definition": "adj. 有……特色（或特征）的；v. 以……为特色；起重要作用"
@@ -4262,31 +4148,6 @@
               "definition": "n. 刷牙；梳头；v. 梳理"
             },
             {
-              "word": "recently",
-              "pos": "adv.",
-              "definition": "adv. 最近；不久前"
-            },
-            {
-              "word": "Procter",
-              "pos": "n.",
-              "definition": "n. 宝洁；普克特（男子名）"
-            },
-            {
-              "word": "chewing",
-              "pos": "n.",
-              "definition": "n. 咀嚼；嚼"
-            },
-            {
-              "word": "succeed",
-              "pos": "v.",
-              "definition": "v. 成功；达成"
-            },
-            {
-              "word": "Berning",
-              "pos": "n.",
-              "definition": "n. （Berninger）人名；（德）贝尔宁格"
-            },
-            {
               "word": "rituals",
               "pos": "n.",
               "definition": "n. 典礼；宗教仪式；固定程序（ritual的复数形式）"
@@ -4300,21 +4161,6 @@
               "word": "putting",
               "pos": "n.",
               "definition": "n. 投掷；（高尔夫球）打球入洞；指用推杆轻击球入洞"
-            },
-            {
-              "word": "retired",
-              "pos": "adj.",
-              "definition": "adj. 退休的；退役的；（生活方式）隐居的"
-            },
-            {
-              "word": "Gamble",
-              "pos": "v.",
-              "definition": "v. 冒险假设；赌博"
-            },
-            {
-              "word": "weekly",
-              "pos": "adj.",
-              "definition": "adj. 每周的；一周一次的"
             },
             {
               "word": "bought",
@@ -4335,6 +4181,35 @@
               "word": "makeup",
               "pos": "n.",
               "definition": "n. 组成；构造；化妆品"
+            }
+          ]
+        },
+        {
+          "pid": 5,
+          "text": "“Our products succeed when they become part of daily or weekly patterns,” said Carol Berning, a consumer psychologist who recently retired from Procter & Gamble, the company that sold $76 billion of Tide, Crest and other products last year. “Creating positive habits is a huge part of improving our consumers’ lives, and it’s essential to making new products commercially viable.”",
+          "translation": "“当我们的产品成为日常或每周模式的一部分时，我们的产品就成功了，”最近从宝洁公司退休的消费者心理学家卡罗尔·伯宁（Carol Berning）说，宝洁公司去年销售了 760 亿美元的汰渍、佳洁士和其他产品。“养成积极的习惯是改善消费者生活的重要组成部分，对于使新产品具有商业可行性至关重要。”",
+          "slashed_text": "“Our products succeed / when they become part of daily or weekly patterns , / ” said Carol Berning , / a consumer psychologist / who recently retired / from Procter & Gamble , / the company / that sold $76 billion of Tide , / Crest and other products last year. / “Creating positive habits is a huge part of improving our consumers’ lives , / and it’s essential to making new products commercially viable.”",
+          "chunk_translation": "“我们的产品之所以成功 / 是因为它们融入了人们每天或每周的生活习惯中 / ”卡罗尔·伯宁说 / 一位消费者心理学家 / 她最近刚退休 / 从宝洁公司 / 这家公司 / 去年销售了760亿美元的汰渍、 / 佳洁士和其他产品 / “养成积极的习惯是改善消费者生活的重要部分 / 这对使新产品具备商业可行性也至关重要。”",
+          "vocabulary": [
+            {
+              "word": "consumers",
+              "pos": "n.",
+              "definition": "n. consumer 的复数：消费者；顾客"
+            },
+            {
+              "word": "creating",
+              "pos": "v.",
+              "definition": "v. 创造；创建"
+            },
+            {
+              "word": "consumer",
+              "pos": "n.",
+              "definition": "n. 消费者；顾客"
+            },
+            {
+              "word": "habits",
+              "pos": "n.",
+              "definition": "n. 习惯（habit 的复数）；（生物）习性"
             },
             {
               "word": "daily",
@@ -4342,48 +4217,74 @@
               "definition": "adj. 每日的；日常的"
             },
             {
-              "word": "Carol",
-              "pos": "n.",
-              "definition": "n. （圣诞）颂歌（=Christmas carol）；v. （欢快地）唱（歌）"
-            },
-            {
-              "word": "teeth",
-              "pos": "n.",
-              "definition": "n. 牙齿（tooth 的复数）；（机械、工具等的）齿；齿状物"
+              "word": "Tide",
+              "pos": "",
+              "definition": "【💡题项表达】 潮。"
             },
             {
               "word": "Crest",
-              "pos": "n.",
-              "definition": "n. （山）顶；（浪）峰；（家族、城镇、机构等作为标记的）饰章"
-            },
-            {
-              "word": "skin",
-              "pos": "n.",
-              "definition": "n. 皮；皮肤"
-            },
-            {
-              "word": "meal",
-              "pos": "n.",
-              "definition": "n. 一餐；进餐（时间）"
-            }
-          ]
-        },
-        {
-          "pid": 6,
-          "text": "“Creating positive habits is a huge part of improving our consumers’ lives, and it’s essential to making new products commercially viable.” Through experiments and observation, social scientists like Dr. Berning have learned that there is power in tying certain behaviors to habitual cues through ruthless advertising. As this new science of habit has emerged, controversies have erupted when the tactics have been used to sell questionable beauty creams or unhealthy foods.",
-          "translation": "“养成积极的习惯是改善消费者生活的重要组成部分，对于使新产品具有商业可行性至关重要。”通过实验和观察，像博士这样的社会科学家。伯宁了解到，通过无情的广告将某些行为与习惯暗示联系起来是有力量的。随着这种新的习惯科学的出现，当这种策略被用来销售有问题的美容霜或不健康食品时，争议就会爆发。",
-          "slashed_text": "“Creating positive habits is a huge part of improving our consumers’ lives , / and it’s essential to making new products commercially viable.” / Through experiments and observation , / social scientists like Dr. / Berning have learned / that there is power / in tying certain behaviors to habitual cues / through ruthless advertising. / As this new science of habit has emerged , / controversies have erupted / when the tactics have been used to sell questionable beauty creams or unhealthy foods.",
-          "chunk_translation": "“养成积极的习惯是改善消费者生活的重要部分 / 这对使新产品具备商业可行性也至关重要。” / 通过实验和观察 / 像伯宁博士这样的社会科学家 / 已经认识到 / 蕴含着巨大的力量 / 将特定行为与习惯性暗示绑定在一起 / 通过铺天盖地的广告宣传 / 随着这门新的习惯科学的出现 / 争议也随之爆发 / 当这些策略被用来推销存疑的美容霜或不健康食品时",
-          "vocabulary": [
-            {
-              "word": "negative\nᆇี൫ज@JOEE ༯໶\n\n06",
               "pos": "",
-              "definition": "【🎯解题正解】 negative\nᆇี൫ज@JOEE ༯໶\n\n06"
+              "definition": "【💡题项表达】 波峰。"
             },
             {
-              "word": "indifferent",
+              "word": "products",
+              "pos": "n.",
+              "definition": "n. 产品；商品（product 的复数）"
+            },
+            {
+              "word": "Procter",
+              "pos": "n.",
+              "definition": "n. 宝洁；普克特（男子名）"
+            },
+            {
+              "word": "Gamble",
+              "pos": "v.",
+              "definition": "v. 冒险假设；赌博"
+            },
+            {
+              "word": "psychologist",
               "pos": "",
-              "definition": "【💡题项表达】 冷漠"
+              "definition": "n.心理学家"
+            },
+            {
+              "word": "daily or weekly patterns",
+              "pos": "",
+              "definition": "每天或每周的惯例"
+            },
+            {
+              "word": "patterns",
+              "pos": "n.",
+              "definition": "n. 模式；方式"
+            },
+            {
+              "word": "recently",
+              "pos": "adv.",
+              "definition": "adv. 最近；不久前"
+            },
+            {
+              "word": "succeed",
+              "pos": "v.",
+              "definition": "v. 成功；达成"
+            },
+            {
+              "word": "Berning",
+              "pos": "n.",
+              "definition": "n. （Berninger）人名；（德）贝尔宁格"
+            },
+            {
+              "word": "retired",
+              "pos": "adj.",
+              "definition": "adj. 退休的；退役的；（生活方式）隐居的"
+            },
+            {
+              "word": "weekly",
+              "pos": "adj.",
+              "definition": "adj. 每周的；一周一次的"
+            },
+            {
+              "word": "Carol",
+              "pos": "n.",
+              "definition": "n. （圣诞）颂歌（=Christmas carol）；v. （欢快地）唱（歌）"
             },
             {
               "word": "positive",
@@ -4391,14 +4292,58 @@
               "definition": "【💡题项表达】 积极的"
             },
             {
-              "word": "biased",
-              "pos": "",
-              "definition": "【💡题项表达】 有偏见的"
-            },
-            {
               "word": "viable",
               "pos": "",
               "definition": "a.可行的"
+            },
+            {
+              "word": "commercially",
+              "pos": "adv.",
+              "definition": "adv. 商业上；从商业角度看；可买到地"
+            },
+            {
+              "word": "improving",
+              "pos": "v.",
+              "definition": "v. 提高；改善；变得更好"
+            },
+            {
+              "word": "essential",
+              "pos": "adj.",
+              "definition": "adj. 必不可少的；非常重要的；基本的"
+            }
+          ]
+        },
+        {
+          "pid": 6,
+          "text": "Through experiments and observation, social scientists like Dr. Berning have learned that there is power in tying certain behaviors to habitual cues through ruthless advertising. As this new science of habit has emerged, controversies have erupted when the tactics have been used to sell questionable beauty creams or unhealthy foods.",
+          "translation": "通过实验和观察，像伯宁博士这样的社会科学家发现，借助强势、反复的广告将特定行为与习惯线索联系起来，能够产生影响。随着这种新的习惯科学的出现，当这种策略被用来销售有问题的美容霜或不健康食品时，争议就会爆发。",
+          "slashed_text": "Through experiments and observation, social scientists like Dr. Berning have learned that there is power in tying certain behaviors to habitual cues through ruthless advertising. / As this new science of habit has emerged , / controversies have erupted / when the tactics have been used to sell questionable beauty creams or unhealthy foods.",
+          "chunk_translation": "通过实验和观察，像伯宁博士这样的社会科学家发现，借助强势、反复的广告将特定行为与习惯线索联系起来，能够产生影响。 / 随着这门新的习惯科学的出现 / 争议也随之爆发 / 当这些策略被用来推销存疑的美容霜或不健康食品时",
+          "vocabulary": [
+            {
+              "word": "behaviors",
+              "pos": "n.",
+              "definition": "n. 行为；举止（behavior 的复数）"
+            },
+            {
+              "word": "habit",
+              "pos": "n.",
+              "definition": "n. 习惯；（吸毒、喝酒、抽烟的）瘾"
+            },
+            {
+              "word": "advertising",
+              "pos": "n.",
+              "definition": "n. 广告活动；广告业；（总称）广告"
+            },
+            {
+              "word": "Berning",
+              "pos": "n.",
+              "definition": "n. （Berninger）人名；（德）贝尔宁格"
+            },
+            {
+              "word": "beauty",
+              "pos": "n.",
+              "definition": "n. 美丽；漂亮；美好的事物"
             },
             {
               "word": "ruthless",
@@ -4409,11 +4354,6 @@
               "word": "controversies",
               "pos": "n.",
               "definition": "n. 争论；争议；辩论（controversy 的复数）"
-            },
-            {
-              "word": "commercially",
-              "pos": "adv.",
-              "definition": "adv. 商业上；从商业角度看；可买到地"
             },
             {
               "word": "questionable",
@@ -4431,34 +4371,9 @@
               "definition": "n. 观察；监视"
             },
             {
-              "word": "advertising",
-              "pos": "n.",
-              "definition": "n. 广告活动；广告业；（总称）广告"
-            },
-            {
               "word": "scientists",
               "pos": "n.",
               "definition": "n. 科学家（scientist 的复数）"
-            },
-            {
-              "word": "behaviors",
-              "pos": "n.",
-              "definition": "n. 行为；举止（behavior 的复数）"
-            },
-            {
-              "word": "consumers",
-              "pos": "n.",
-              "definition": "n. consumer 的复数：消费者；顾客"
-            },
-            {
-              "word": "improving",
-              "pos": "v.",
-              "definition": "v. 提高；改善；变得更好"
-            },
-            {
-              "word": "essential",
-              "pos": "adj.",
-              "definition": "adj. 必不可少的；非常重要的；基本的"
             },
             {
               "word": "unhealthy",
@@ -4466,29 +4381,9 @@
               "definition": "adj. （人、动物或身体部位）不健康的；有病的；（食物、饮食、环境等）有害身心健康的"
             },
             {
-              "word": "creating",
-              "pos": "v.",
-              "definition": "v. 创造；创建"
-            },
-            {
-              "word": "products",
-              "pos": "n.",
-              "definition": "n. 产品；商品（product 的复数）"
-            },
-            {
-              "word": "consumer",
-              "pos": "n.",
-              "definition": "n. 消费者；顾客"
-            },
-            {
               "word": "habitual",
               "pos": "adj.",
               "definition": "adj. 习惯性的；惯常的；上瘾的"
-            },
-            {
-              "word": "Berning",
-              "pos": "n.",
-              "definition": "n. （Berninger）人名；（德）贝尔宁格"
             },
             {
               "word": "learned",
@@ -4521,24 +4416,9 @@
               "definition": "n. 战术；兵法；方法"
             },
             {
-              "word": "habits",
-              "pos": "n.",
-              "definition": "n. 习惯（habit 的复数）；（生物）习性"
-            },
-            {
-              "word": "beauty",
-              "pos": "n.",
-              "definition": "n. 美丽；漂亮；美好的事物"
-            },
-            {
               "word": "creams",
               "pos": "n.",
               "definition": "n. 面霜；乳霜（cream 的复数）；奶油类"
-            },
-            {
-              "word": "habit",
-              "pos": "n.",
-              "definition": "n. 习惯；（吸毒、喝酒、抽烟的）瘾"
             },
             {
               "word": "power",
@@ -4645,8 +4525,8 @@
         },
         {
           "sid": 4,
-          "pid": 2,
-          "sentence_index": 0,
+          "pid": 1,
+          "sentence_index": 1,
           "text": "“We wanted to learn from private industry how to create new behaviors that happen automatically.”",
           "translation": "“我们想向私营企业学习如何创造自动发生的新行为。”",
           "slashed_text": "“We wanted to learn / from private industry how to create new behaviors / that happen automatically.”",
@@ -4673,7 +4553,7 @@
         },
         {
           "sid": 5,
-          "pid": 3,
+          "pid": 2,
           "sentence_index": 0,
           "text": "The companies that Dr. Curtis turned to—Procter & Gamble, Colgate-Palmolive and Unilever—had invested hundreds of millions of dollars finding the subtle cues in consumers’ lives that corporations could use to introduce new routines.",
           "translation": "柯蒂斯博士求助的几家公司——宝洁、高露洁棕榄和联合利华——已经投入数亿美元，寻找消费者生活中企业可以用来引入新习惯的微妙线索。",
@@ -4697,7 +4577,7 @@
         {
           "sid": 7,
           "pid": 3,
-          "sentence_index": 2,
+          "sentence_index": 0,
           "text": "If you look hard enough, you’ll find that many of the products we use every day— chewing gums, skin moisturizers, disinfecting wipes, air fresheners, water purifiers, health snacks, teeth whiteners, fabric softeners, vitamins—are results of manufactured habits.",
           "translation": "如果你仔细观察，你会发现我们每天使用的许多产品——口香糖、皮肤保湿剂、消毒湿巾、空气清新剂、净水器、健康零食、牙齿美白剂、织物柔软剂、维生素——都是人为习惯的结果。",
           "slashed_text": "If you look hard enough , / you’ll find / that many of the products we use every day — / chewing gums , / skin moisturizers , / disinfecting wipes , / air fresheners , / water purifiers , / health snacks , / teeth whiteners , / fabric softeners , / vitamins — / are results of manufactured habits.",
@@ -4724,8 +4604,8 @@
         },
         {
           "sid": 8,
-          "pid": 4,
-          "sentence_index": 0,
+          "pid": 3,
+          "sentence_index": 1,
           "text": "A century ago, few people regularly brushed their teeth multiple times a day.",
           "translation": "一个世纪前，很少有人每天定期刷牙多次。",
           "slashed_text": "A century ago , / few people regularly brushed their teeth multiple times a day.",
@@ -4747,8 +4627,8 @@
         },
         {
           "sid": 9,
-          "pid": 4,
-          "sentence_index": 1,
+          "pid": 3,
+          "sentence_index": 2,
           "text": "Today, because of shrewd advertising and public health campaigns, many Americans habitually give their pearly whites a cavity-preventing scrub twice a day, often with Colgate, Crest or one of the other brands.",
           "translation": "如今，由于精明的广告和公共卫生运动，许多美国人习惯性地每天两次给他们的珍珠白皮肤涂上防蛀牙磨砂膏，通常使用高露洁、佳洁士或其他品牌的产品。",
           "slashed_text": "Today , / because of shrewd advertising and public health campaigns , / many Americans habitually give their pearly whites a cavity-preventing scrub twice a day , / often / with Colgate , / Crest or one of the other brands.",
@@ -4776,7 +4656,7 @@
         {
           "sid": 10,
           "pid": 4,
-          "sentence_index": 2,
+          "sentence_index": 0,
           "text": "A few decades ago, many people didn’t drink water outside of a meal.",
           "translation": "几十年前，许多人饭后不喝水。",
           "slashed_text": "A few decades ago , / many people didn’t drink water outside of a meal.",
@@ -4799,7 +4679,7 @@
         {
           "sid": 11,
           "pid": 4,
-          "sentence_index": 3,
+          "sentence_index": 1,
           "text": "Then beverage companies started bottling the production of far-off springs, and now office workers unthinkingly sip bottled water all day long.",
           "translation": "后来饮料公司开始将遥远的泉水生产装瓶，现在上班族整天不假思索地喝着瓶装水。",
           "slashed_text": "Then beverage companies started bottling the production of far-off springs , / and now office workers unthinkingly sip bottled water all day long.",
@@ -4821,8 +4701,8 @@
         },
         {
           "sid": 12,
-          "pid": 5,
-          "sentence_index": 0,
+          "pid": 4,
+          "sentence_index": 2,
           "text": "Chewing gum, once bought primarily by adolescent boys, is now featured in commercials as a breath freshener and teeth cleanser for use after a meal.",
           "translation": "口香糖曾经主要由青春期男孩购买，现在在广告中作为餐后使用的口气清新剂和牙齿清洁剂。",
           "slashed_text": "Chewing gum , / once bought primarily / by adolescent boys , / is now featured / in commercials as a breath freshener and teeth cleanser for use after a meal.",
@@ -4849,8 +4729,8 @@
         },
         {
           "sid": 13,
-          "pid": 5,
-          "sentence_index": 1,
+          "pid": 4,
+          "sentence_index": 3,
           "text": "Skin moisturizers are advertised as part of morning beauty rituals, slipped in between hair brushing and putting on makeup.",
           "translation": "皮肤保湿霜被宣传为早晨美容仪式的一部分，在梳头和化妆之间使用。",
           "slashed_text": "Skin moisturizers are advertised as part of morning beauty rituals , / slipped / in between hair brushing and putting / on makeup.",
@@ -4878,7 +4758,7 @@
         {
           "sid": 14,
           "pid": 5,
-          "sentence_index": 2,
+          "sentence_index": 0,
           "text": "“Our products succeed when they become part of daily or weekly patterns,” said Carol Berning, a consumer psychologist who recently retired from Procter & Gamble, the company that sold $76 billion of Tide, Crest and other products last year.",
           "translation": "“当我们的产品成为日常或每周模式的一部分时，我们的产品就成功了，”最近从宝洁公司退休的消费者心理学家卡罗尔·伯宁（Carol Berning）说，宝洁公司去年销售了 760 亿美元的汰渍、佳洁士和其他产品。",
           "slashed_text": "“Our products succeed / when they become part of daily or weekly patterns , / ” said Carol Berning , / a consumer psychologist / who recently retired / from Procter & Gamble , / the company / that sold $76 billion of Tide , / Crest and other products last year.",
@@ -4905,8 +4785,8 @@
         },
         {
           "sid": 15,
-          "pid": 6,
-          "sentence_index": 0,
+          "pid": 5,
+          "sentence_index": 1,
           "text": "“Creating positive habits is a huge part of improving our consumers’ lives, and it’s essential to making new products commercially viable.”",
           "translation": "“养成积极的习惯是改善消费者生活的重要组成部分，对于使新产品具有商业可行性至关重要。”",
           "slashed_text": "“Creating positive habits is a huge part of improving our consumers’ lives , / and it’s essential to making new products commercially viable.”",
@@ -4929,7 +4809,7 @@
         {
           "sid": 16,
           "pid": 6,
-          "sentence_index": 1,
+          "sentence_index": 0,
           "text": "Through experiments and observation, social scientists like Dr. Berning have learned that there is power in tying certain behaviors to habitual cues through ruthless advertising.",
           "translation": "通过实验和观察，像伯宁博士这样的社会科学家发现，借助强势、反复的广告将特定行为与习惯线索联系起来，能够产生影响。",
           "slashed_text": "Through experiments and observation, social scientists like Dr. Berning have learned that there is power in tying certain behaviors to habitual cues through ruthless advertising.",
@@ -4952,7 +4832,7 @@
         {
           "sid": 18,
           "pid": 6,
-          "sentence_index": 3,
+          "sentence_index": 1,
           "text": "As this new science of habit has emerged, controversies have erupted when the tactics have been used to sell questionable beauty creams or unhealthy foods.",
           "translation": "随着这种新的习惯科学的出现，当这种策略被用来销售有问题的美容霜或不健康食品时，争议就会爆发。",
           "slashed_text": "As this new science of habit has emerged , / controversies have erupted / when the tactics have been used to sell questionable beauty creams or unhealthy foods.",
@@ -5603,11 +5483,6 @@
           "chunk_translation": "许多美国人将陪审团制度视为关键民主价值观的具体体现 / 包括以下原则： / 所有公民 / 凡符合年龄和文化程度最低资格的均享有同等资格担任 / 陪审员； / 陪审员应从社区中具有代表性的各阶层中随机选出； / 任何公民不得被剥夺担任陪审员的权利 / 基于种族、 / 宗教、 / 性别、 / 或民族血统； / 被告有权接受审判 / 由其同辈审判； / 以及 / 裁决应代表社区的良知而不仅仅是法律条文 / 陪审团也被认为是现存的直接民主而非代议制民主的最佳范例 / 在直接民主制度下 / 公民轮流治理自己 / 而不是选举代表来治理 / 他们",
           "vocabulary": [
             {
-              "word": "judgment should consider the opinion of the public",
-              "pos": "",
-              "definition": "【🎯解题正解】 判决应当考虑公众意见"
-            },
-            {
               "word": "jury",
               "pos": "",
               "definition": "n.陪审团"
@@ -5866,16 +5741,11 @@
         },
         {
           "pid": 1,
-          "text": "But as recently as in 1968, jury selection procedures conflicted with these democratic ideals. In some states, for example, jury duty was limited to persons of supposedly superior intelligence, education, and moral character. Although the Supreme Court of the United States had prohibited intentional racial discrimination in jury selection as early as the 1880 case of Strauder v.",
-          "translation": "但就在 1968 年，陪审团遴选程序与这些民主理想相冲突。例如，在一些州，陪审员职责仅限于被认为具有较高智力、教育程度和道德品质的人。尽管美国最高法院早在1880年Strauder v.",
-          "slashed_text": "But as recently as in 1968 , / jury selection procedures conflicted / with these democratic ideals. / In some states , / for example , / jury duty was limited to persons of supposedly superior intelligence , / education , / and moral character. / Although the Supreme Court of the United States had prohibited intentional racial discrimination / in jury selection as early as the 1880 case of Strauder v.",
-          "chunk_translation": "但就在1968年 / 陪审团遴选程序产生了冲突 / 与这些民主理想 / 在一些州 / 例如 / 陪审员职责仅限于那些被认为智力超群、受过良好教育的人 / 具有良好教育、 / 以及道德品质的人 / 尽管美国最高法院早在1880年的斯特劳德诉西弗吉尼亚州一案中就已禁止在陪审团遴选中蓄意进行种族歧视 / 在陪审团遴选中，早在1880年的斯特劳德诉",
+          "text": "But as recently as in 1968, jury selection procedures conflicted with these democratic ideals. In some states, for example, jury duty was limited to persons of supposedly superior intelligence, education, and moral character. Although the Supreme Court of the United States had prohibited intentional racial discrimination in jury selection as early as the 1880 case of Strauder v. West Virginia , the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws.",
+          "translation": "但就在 1968 年，陪审团遴选程序与这些民主理想相冲突。例如，在一些州，陪审员职责仅限于被认为具有较高智力、教育程度和道德品质的人。尽管美国最高法院早在1880年Strauder v.在西弗吉尼亚州，选择所谓精英或蓝带陪审团的做法为绕过这一法律和其他反歧视法律提供了便捷的方法。",
+          "slashed_text": "But as recently as in 1968 , / jury selection procedures conflicted / with these democratic ideals. / In some states , / for example , / jury duty was limited to persons of supposedly superior intelligence , / education , / and moral character. / Although the Supreme Court of the United States had prohibited intentional racial discrimination / in jury selection as early as the 1880 case of Strauder v. / West Virginia , / the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws.",
+          "chunk_translation": "但就在1968年 / 陪审团遴选程序产生了冲突 / 与这些民主理想 / 在一些州 / 例如 / 陪审员职责仅限于那些被认为智力超群、受过良好教育的人 / 具有良好教育、 / 以及道德品质的人 / 尽管美国最高法院早在1880年的斯特劳德诉西弗吉尼亚州一案中就已禁止在陪审团遴选中蓄意进行种族歧视 / 在陪审团遴选中，早在1880年的斯特劳德诉 / 西弗吉尼亚州案中 / 选拔所谓的精英或“蓝带”陪审团的做法为绕开该项法律和其他反歧视法律提供了便利途径",
           "vocabulary": [
-            {
-              "word": "the inadequacy of antidiscrimination laws",
-              "pos": "",
-              "definition": "【🎯解题正解】 反歧视法的不足"
-            },
             {
               "word": "jury",
               "pos": "",
@@ -5885,6 +5755,16 @@
               "word": "democratic",
               "pos": "",
               "definition": "a.民主的"
+            },
+            {
+              "word": "example",
+              "pos": "n.",
+              "definition": "n. 例子；例证"
+            },
+            {
+              "word": "juries",
+              "pos": "n.",
+              "definition": "n. （法）陪审团（jury 的复数）；评委会"
             },
             {
               "word": "intentional",
@@ -5957,11 +5837,6 @@
               "definition": "n. 绳缆搓绞机；n. （Strander）人名；（瑞典）斯特兰德"
             },
             {
-              "word": "example",
-              "pos": "n.",
-              "definition": "n. 例子；例证"
-            },
-            {
               "word": "limited",
               "pos": "adj.",
               "definition": "adj. 有限的；受限的；受宪法限制的"
@@ -6000,30 +5875,6 @@
               "word": "duty",
               "pos": "n.",
               "definition": "n. 责任；义务"
-            }
-          ]
-        },
-        {
-          "pid": 2,
-          "text": "West Virginia , the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws. The system also failed to regularly include women on juries until the mid-20th century. Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty. Even then several states automatically exempted women from jury duty unless they personally asked to have their names included on the jury list. This practice was justified by the claim that women were needed at home, and it kept juries unrepresentative of women through the 1960s.",
-          "translation": "在西弗吉尼亚州，选择所谓精英或蓝带陪审团的做法为绕过这一法律和其他反歧视法律提供了便捷的方法。直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。这种做法的合理性在于，家庭需要女性，并且在 20 世纪 60 年代，陪审团一直无法代表女性。",
-          "slashed_text": "West Virginia , / the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws. / The system also failed to regularly include women / on juries until the mid-20th century. / Although women first served / on state juries / in Utah in 1898 , / it was not until the 1940s / that a majority of states made women eligible / for jury duty. / Even then several states automatically exempted women / from jury duty / unless they personally asked to have their names included on the jury list. / This practice was justified by the claim / that women were needed / at home , / and it kept juries unrepresentative of women through the 1960s.",
-          "chunk_translation": "西弗吉尼亚州案中 / 选拔所谓的精英或“蓝带”陪审团的做法为绕开该项法律和其他反歧视法律提供了便利途径 / 该制度在20世纪中叶之前也未能定期吸纳女性 / 加入陪审团 / 尽管女性早在1898年就首次在犹他州担任州陪审员 / 在州陪审团中 / 1898年于犹他州 / 但直到20世纪40年代 / 大多数州才赋予女性担任陪审员的资格 / 担任陪审员 / 即便在那时，一些州也自动免除女性 / 担任陪审员的义务 / 除非她们亲自要求将自己的名字列入陪审员名单 / 这种做法被冠以正当理由 / 称家庭需要女性 / 在家里 / 这导致在整个20世纪60年代陪审团中都缺乏女性代表",
-          "vocabulary": [
-            {
-              "word": "they were supposed to perform domestic duties",
-              "pos": "",
-              "definition": "【🎯解题正解】 他们应该履行家庭职责"
-            },
-            {
-              "word": "they tended to evade public engagement",
-              "pos": "",
-              "definition": "【💡题项表达】 他们倾向于逃避公众参与"
-            },
-            {
-              "word": "jury",
-              "pos": "",
-              "definition": "n.陪审团"
             },
             {
               "word": "elite",
@@ -6034,6 +5885,70 @@
               "word": "blue-ribbon",
               "pos": "",
               "definition": "a.一流的、头等的"
+            },
+            {
+              "word": "antidiscrimination",
+              "pos": "adj.",
+              "definition": "adj. （常作定语；多用于法律、政策语境）反歧视的；旨在防止或禁止基于种族、性别、年龄、宗教等特征的歧视的"
+            },
+            {
+              "word": "convenient",
+              "pos": "adj.",
+              "definition": "adj. 方便的；便利的；附近的"
+            },
+            {
+              "word": "selecting",
+              "pos": "v.",
+              "definition": "v. 选择；挑选；（计算机）选定"
+            },
+            {
+              "word": "Virginia",
+              "pos": "n.",
+              "definition": "n. 弗吉尼亚（女子名）；弗吉尼亚州；adj. 弗吉尼亚州的"
+            },
+            {
+              "word": "practice",
+              "pos": "n.",
+              "definition": "n. 实践；实际操作；通常的做法"
+            },
+            {
+              "word": "provided",
+              "pos": "conj.",
+              "definition": "conj. 假如；只要；在……条件下"
+            },
+            {
+              "word": "ribbon",
+              "pos": "n.",
+              "definition": "n. 丝带；绸带；（表示军功的）绶带"
+            }
+          ]
+        },
+        {
+          "pid": 2,
+          "text": "The system also failed to regularly include women on juries until the mid-20th century. Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty. Even then several states automatically exempted women from jury duty unless they personally asked to have their names included on the jury list. This practice was justified by the claim that women were needed at home, and it kept juries unrepresentative of women through the 1960s.",
+          "translation": "直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。这种做法的合理性在于，家庭需要女性，并且在 20 世纪 60 年代，陪审团一直无法代表女性。",
+          "slashed_text": "The system also failed to regularly include women / on juries until the mid-20th century. / Although women first served / on state juries / in Utah in 1898 , / it was not until the 1940s / that a majority of states made women eligible / for jury duty. / Even then several states automatically exempted women / from jury duty / unless they personally asked to have their names included on the jury list. / This practice was justified by the claim / that women were needed / at home , / and it kept juries unrepresentative of women through the 1960s.",
+          "chunk_translation": "该制度在20世纪中叶之前也未能定期吸纳女性 / 加入陪审团 / 尽管女性早在1898年就首次在犹他州担任州陪审员 / 在州陪审团中 / 1898年于犹他州 / 但直到20世纪40年代 / 大多数州才赋予女性担任陪审员的资格 / 担任陪审员 / 即便在那时，一些州也自动免除女性 / 担任陪审员的义务 / 除非她们亲自要求将自己的名字列入陪审员名单 / 这种做法被冠以正当理由 / 称家庭需要女性 / 在家里 / 这导致在整个20世纪60年代陪审团中都缺乏女性代表",
+          "vocabulary": [
+            {
+              "word": "jury",
+              "pos": "",
+              "definition": "n.陪审团"
+            },
+            {
+              "word": "system",
+              "pos": "n.",
+              "definition": "n. （协同工作的）系统；（计算机、警报器等的）系统"
+            },
+            {
+              "word": "juries",
+              "pos": "n.",
+              "definition": "n. （法）陪审团（jury 的复数）；评委会"
+            },
+            {
+              "word": "duty",
+              "pos": "n.",
+              "definition": "n. 责任；义务"
             },
             {
               "word": "eligible",
@@ -6056,19 +5971,9 @@
               "definition": "在陪审团名单之列"
             },
             {
-              "word": "antidiscrimination",
-              "pos": "adj.",
-              "definition": "adj. （常作定语；多用于法律、政策语境）反歧视的；旨在防止或禁止基于种族、性别、年龄、宗教等特征的歧视的"
-            },
-            {
               "word": "automatically",
               "pos": "adv.",
               "definition": "adv. 自然地；必然地；不假思索地"
-            },
-            {
-              "word": "convenient",
-              "pos": "adj.",
-              "definition": "adj. 方便的；便利的；附近的"
             },
             {
               "word": "personally",
@@ -6081,11 +5986,6 @@
               "definition": "adv. 定期地；有规律地"
             },
             {
-              "word": "selecting",
-              "pos": "v.",
-              "definition": "v. 选择；挑选；（计算机）选定"
-            },
-            {
               "word": "justified",
               "pos": "adj.",
               "definition": "adj. 有正当理由的；有合理解释的；（页面文字）右侧/左侧对齐的"
@@ -6096,19 +5996,9 @@
               "definition": "n. 大多数；多数票"
             },
             {
-              "word": "Virginia",
-              "pos": "n.",
-              "definition": "n. 弗吉尼亚（女子名）；弗吉尼亚州；adj. 弗吉尼亚州的"
-            },
-            {
               "word": "practice",
               "pos": "n.",
               "definition": "n. 实践；实际操作；通常的做法"
-            },
-            {
-              "word": "provided",
-              "pos": "conj.",
-              "definition": "conj. 假如；只要；在……条件下"
             },
             {
               "word": "exempted",
@@ -6126,29 +6016,14 @@
               "definition": "n. 世纪；一百年"
             },
             {
-              "word": "system",
-              "pos": "n.",
-              "definition": "n. （协同工作的）系统；（计算机、警报器等的）系统"
-            },
-            {
               "word": "failed",
               "pos": "adj.",
               "definition": "adj. 失败的；难以为继的"
             },
             {
-              "word": "juries",
-              "pos": "n.",
-              "definition": "n. （法）陪审团（jury 的复数）；评委会"
-            },
-            {
               "word": "served",
               "pos": "v.",
               "definition": "v. 为……服务；提供（产品或服务）"
-            },
-            {
-              "word": "ribbon",
-              "pos": "n.",
-              "definition": "n. 丝带；绸带；（表示军功的）绶带"
             },
             {
               "word": "unless",
@@ -6166,11 +6041,6 @@
               "definition": "v. 声称；断言；索取"
             },
             {
-              "word": "duty",
-              "pos": "n.",
-              "definition": "n. 责任；义务"
-            },
-            {
               "word": "Utah",
               "pos": "n.",
               "definition": "n. 美国犹他州"
@@ -6185,31 +6055,6 @@
           "chunk_translation": "1968年 / 美国国会通过了《陪审团遴选与服务法案》 / 开启了陪审团民主改革的新时代 / 该法废除了对联邦陪审员的特殊教育要求 / 并要求从整个社区的各个阶层中随机选出陪审员 / 随机从整个社区的各阶层中选出 / 在1975年具有里程碑意义的泰勒诉 / 路易斯安那州案的裁决中 / 最高法院将陪审团必须代表社区各群体的要求扩大到州一级 / 陪审团应代表州一级社区各个群体的要求 / 泰勒案的裁决还宣布在陪审团遴选中的性别歧视违宪 / 并命令各州采用相同的程序 / 选拔男性和女性陪审员",
           "vocabulary": [
             {
-              "word": "educational requirements became less rigid in the selection of federal jurors",
-              "pos": "",
-              "definition": "【🎯解题正解】 在选择联邦陪审员时，教育要求变得不那么严格"
-            },
-            {
-              "word": "its tradition and development\nᆇี൫ज@JOEE ༯໶",
-              "pos": "",
-              "definition": "【🎯解题正解】 its tradition and development\nᆇี൫ज@JOEE ༯໶"
-            },
-            {
-              "word": "its nature and problems",
-              "pos": "",
-              "definition": "【💡题项表达】 它的性质和问题"
-            },
-            {
-              "word": "its characteristics and tradition",
-              "pos": "",
-              "definition": "【💡题项表达】 它的特点和传统"
-            },
-            {
-              "word": "its problems and their solutions",
-              "pos": "",
-              "definition": "【💡题项表达】 其问题及其解决方案"
-            },
-            {
               "word": "jury",
               "pos": "",
               "definition": "n.陪审团"
@@ -6220,9 +6065,74 @@
               "definition": "a.民主的"
             },
             {
+              "word": "representative",
+              "pos": "adj.",
+              "definition": "adj. 典型的；有代表性的；代表各类人（或事物）的"
+            },
+            {
+              "word": "community",
+              "pos": "n.",
+              "definition": "n. 社区；社会；（由同国籍、同宗教等构成的）群体"
+            },
+            {
+              "word": "selected",
+              "pos": "v.",
+              "definition": "v. select 的过去式和过去分词：挑选；选择；选拔"
+            },
+            {
+              "word": "section",
+              "pos": "n.",
+              "definition": "n. 部分；散件；部件"
+            },
+            {
+              "word": "juries",
+              "pos": "n.",
+              "definition": "n. （法）陪审团（jury 的复数）；评委会"
+            },
+            {
+              "word": "jurors",
+              "pos": "n.",
+              "definition": "n. （法）陪审员（juror 的复数形式）"
+            },
+            {
+              "word": "cross",
+              "pos": "v.",
+              "definition": "v. 反对；杂交；在（支票）上划线（表示只能转入银行帐户）"
+            },
+            {
               "word": "discrimination",
               "pos": "",
               "definition": "n.歧视"
+            },
+            {
+              "word": "procedures",
+              "pos": "n.",
+              "definition": "n. 程序；规程"
+            },
+            {
+              "word": "selection",
+              "pos": "n.",
+              "definition": "n. 选择；挑选"
+            },
+            {
+              "word": "Supreme",
+              "pos": "adj.",
+              "definition": "adj. 最高的；至高无上的；（政府、司法或军事机构）拥有最高权力的"
+            },
+            {
+              "word": "United",
+              "pos": "adj.",
+              "definition": "adj. 团结的；统一的"
+            },
+            {
+              "word": "Court",
+              "pos": "n.",
+              "definition": "n. 法院；法庭；球场"
+            },
+            {
+              "word": "selecting",
+              "pos": "v.",
+              "definition": "v. 选择；挑选；（计算机）选定"
             },
             {
               "word": "landmark",
@@ -6250,11 +6160,6 @@
               "definition": "性别歧视"
             },
             {
-              "word": "representative",
-              "pos": "adj.",
-              "definition": "adj. 典型的；有代表性的；代表各类人（或事物）的"
-            },
-            {
               "word": "requirements",
               "pos": "n.",
               "definition": "n. 要求；规定；必备条件（requirement 的复数）"
@@ -6270,34 +6175,14 @@
               "definition": "n. 要求；必要条件；需要（要求）的事物"
             },
             {
-              "word": "procedures",
-              "pos": "n.",
-              "definition": "n. 程序；规程"
-            },
-            {
-              "word": "selection",
-              "pos": "n.",
-              "definition": "n. 选择；挑选"
-            },
-            {
               "word": "abolished",
               "pos": "v.",
               "definition": "v. 废除；废止；取消（abolish 的过去式和过去分词）"
             },
             {
-              "word": "community",
-              "pos": "n.",
-              "definition": "n. 社区；社会；（由同国籍、同宗教等构成的）群体"
-            },
-            {
               "word": "Louisiana",
               "pos": "n.",
               "definition": "n. 美国路易斯安那州"
-            },
-            {
-              "word": "selecting",
-              "pos": "v.",
-              "definition": "v. 选择；挑选；（计算机）选定"
             },
             {
               "word": "Congress",
@@ -6313,11 +6198,6 @@
               "word": "required",
               "pos": "adj.",
               "definition": "adj. 必需的；规定的；理想的"
-            },
-            {
-              "word": "selected",
-              "pos": "v.",
-              "definition": "v. select 的过去式和过去分词：挑选；选择；选拔"
             },
             {
               "word": "extended",
@@ -6350,39 +6230,14 @@
               "definition": "adj. 联邦（制）的；（与）联邦政府（有关的）的；中央集权式的"
             },
             {
-              "word": "section",
-              "pos": "n.",
-              "definition": "n. 部分；散件；部件"
-            },
-            {
-              "word": "Supreme",
-              "pos": "adj.",
-              "definition": "adj. 最高的；至高无上的；（政府、司法或军事机构）拥有最高权力的"
-            },
-            {
               "word": "ordered",
               "pos": "adj.",
               "definition": "adj. 有序的；整齐的；安排好的"
             },
             {
-              "word": "juries",
-              "pos": "n.",
-              "definition": "n. （法）陪审团（jury 的复数）；评委会"
-            },
-            {
-              "word": "United",
-              "pos": "adj.",
-              "definition": "adj. 团结的；统一的"
-            },
-            {
               "word": "passed",
               "pos": "adj.",
               "definition": "adj. 已经通过的；已经过去的"
-            },
-            {
-              "word": "jurors",
-              "pos": "n.",
-              "definition": "n. （法）陪审员（juror 的复数形式）"
             },
             {
               "word": "random",
@@ -6403,16 +6258,6 @@
               "word": "female",
               "pos": "adj.",
               "definition": "adj. 女性的；妇女的；女性特有的"
-            },
-            {
-              "word": "cross",
-              "pos": "v.",
-              "definition": "v. 反对；杂交；在（支票）上划线（表示只能转入银行帐户）"
-            },
-            {
-              "word": "Court",
-              "pos": "n.",
-              "definition": "n. 法院；法庭；球场"
             },
             {
               "word": "level",
@@ -6557,10 +6402,10 @@
           "sid": 5,
           "pid": 1,
           "sentence_index": 2,
-          "text": "Although the Supreme Court of the United States had prohibited intentional racial discrimination in jury selection as early as the 1880 case of Strauder v.",
-          "translation": "尽管美国最高法院早在1880年Strauder v.",
-          "slashed_text": "Although the Supreme Court of the United States had prohibited intentional racial discrimination / in jury selection as early as the 1880 case of Strauder v.",
-          "chunk_translation": "尽管美国最高法院早在1880年的斯特劳德诉西弗吉尼亚州一案中就已禁止在陪审团遴选中蓄意进行种族歧视 / 在陪审团遴选中，早在1880年的斯特劳德诉",
+          "text": "Although the Supreme Court of the United States had prohibited intentional racial discrimination in jury selection as early as the 1880 case of Strauder v. West Virginia , the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws.",
+          "translation": "尽管美国最高法院早在1880年Strauder v.在西弗吉尼亚州，选择所谓精英或蓝带陪审团的做法为绕过这一法律和其他反歧视法律提供了便捷的方法。",
+          "slashed_text": "Although the Supreme Court of the United States had prohibited intentional racial discrimination / in jury selection as early as the 1880 case of Strauder v. / West Virginia , / the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws.",
+          "chunk_translation": "尽管美国最高法院早在1880年的斯特劳德诉西弗吉尼亚州一案中就已禁止在陪审团遴选中蓄意进行种族歧视 / 在陪审团遴选中，早在1880年的斯特劳德诉 / 西弗吉尼亚州案中 / 选拔所谓的精英或“蓝带”陪审团的做法为绕开该项法律和其他反歧视法律提供了便利途径",
           "syntax": {
             "breakdown": [
               {
@@ -6577,32 +6422,9 @@
           }
         },
         {
-          "sid": 6,
-          "pid": 2,
-          "sentence_index": 0,
-          "text": "West Virginia , the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws.",
-          "translation": "在西弗吉尼亚州，选择所谓精英或蓝带陪审团的做法为绕过这一法律和其他反歧视法律提供了便捷的方法。",
-          "slashed_text": "West Virginia , / the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws.",
-          "chunk_translation": "西弗吉尼亚州案中 / 选拔所谓的精英或“蓝带”陪审团的做法为绕开该项法律和其他反歧视法律提供了便利途径",
-          "syntax": {
-            "breakdown": [
-              {
-                "type": "主干剖析",
-                "content": "West Virginia , the practice of selecting so-called elite or blue-ribbon juries provided a convenient way around this and other antidiscrimination laws",
-                "explanation": "主干为主谓宾结构。承接上句判例名 Strauder v. West Virginia；主句主语 the practice of selecting so-called elite or blue-ribbon juries（挑选所谓精英或‘蓝带’陪审团的做法）；谓语动词 provided；宾语 a convenient way around this and other antidiscrimination laws（一条绕开该判决及其他反歧视法律的便捷后门）。"
-              },
-              {
-                "type": "语篇逻辑与考点",
-                "content": "selecting so-called elite or blue-ribbon juries provided a convenient way around ... laws",
-                "explanation": "Q37 题核心解题点。揭穿蓝带陪审团（blue-ribbon juries）的险恶本质：名义上选拔德高望重的精英，实质上沦为南方各州合法规避最高法院反种族歧视禁令的阴险手段（circumventing antidiscrimination laws）。"
-              }
-            ]
-          }
-        },
-        {
           "sid": 7,
           "pid": 2,
-          "sentence_index": 1,
+          "sentence_index": 0,
           "text": "The system also failed to regularly include women on juries until the mid-20th century.",
           "translation": "直到 20 世纪中叶，该制度也未能定期将女性纳入陪审团。",
           "slashed_text": "The system also failed to regularly include women / on juries until the mid-20th century.",
@@ -6625,7 +6447,7 @@
         {
           "sid": 8,
           "pid": 2,
-          "sentence_index": 2,
+          "sentence_index": 1,
           "text": "Although women first served on state juries in Utah in 1898, it was not until the 1940s that a majority of states made women eligible for jury duty.",
           "translation": "尽管女性于 1898 年首次在犹他州担任州陪审员，但直到 20 世纪 40 年代，大多数州才允许女性担任陪审员。",
           "slashed_text": "Although women first served / on state juries / in Utah in 1898 , / it was not until the 1940s / that a majority of states made women eligible / for jury duty.",
@@ -6653,7 +6475,7 @@
         {
           "sid": 9,
           "pid": 2,
-          "sentence_index": 3,
+          "sentence_index": 2,
           "text": "Even then several states automatically exempted women from jury duty unless they personally asked to have their names included on the jury list.",
           "translation": "即使在那时，一些州自动免除女性陪审员的职责，除非她们亲自要求将自己的名字列入陪审团名单。",
           "slashed_text": "Even then several states automatically exempted women / from jury duty / unless they personally asked to have their names included on the jury list.",
@@ -6681,7 +6503,7 @@
         {
           "sid": 10,
           "pid": 2,
-          "sentence_index": 4,
+          "sentence_index": 3,
           "text": "This practice was justified by the claim that women were needed at home, and it kept juries unrepresentative of women through the 1960s.",
           "translation": "这种做法的合理性在于，家庭需要女性，并且在 20 世纪 60 年代，陪审团一直无法代表女性。",
           "slashed_text": "This practice was justified by the claim / that women were needed / at home , / and it kept juries unrepresentative of women through the 1960s.",
@@ -6761,10 +6583,10 @@
           "sid": 13,
           "pid": 3,
           "sentence_index": 2,
-          "text": "In the landmark 1975 decision Taylor v.",
-          "translation": "1975 年具有里程碑意义的泰勒诉。",
-          "slashed_text": "In the landmark 1975 decision Taylor v.",
-          "chunk_translation": "在1975年具有里程碑意义的泰勒诉",
+          "text": "In the landmark 1975 decision Taylor v. Louisiana, the Supreme Court extended the requirement that juries be representative of all parts of the community to the state level.",
+          "translation": "1975 年具有里程碑意义的泰勒诉。路易斯安那州最高法院将陪审团必须代表社区各个部分的要求扩展到州一级。",
+          "slashed_text": "In the landmark 1975 decision Taylor v. / Louisiana , / the Supreme Court extended the requirement / that juries be representative of all parts of the community to the state level.",
+          "chunk_translation": "在1975年具有里程碑意义的泰勒诉 / 路易斯安那州案的裁决中 / 最高法院将陪审团必须代表社区各群体的要求扩大到州一级 / 陪审团应代表州一级社区各个群体的要求",
           "syntax": {
             "breakdown": [
               {
@@ -6781,37 +6603,9 @@
           }
         },
         {
-          "sid": 14,
-          "pid": 3,
-          "sentence_index": 3,
-          "text": "Louisiana, the Supreme Court extended the requirement that juries be representative of all parts of the community to the state level.",
-          "translation": "路易斯安那州最高法院将陪审团必须代表社区各个部分的要求扩展到州一级。",
-          "slashed_text": "Louisiana , / the Supreme Court extended the requirement / that juries be representative of all parts of the community to the state level.",
-          "chunk_translation": "路易斯安那州案的裁决中 / 最高法院将陪审团必须代表社区各群体的要求扩大到州一级 / 陪审团应代表州一级社区各个群体的要求",
-          "syntax": {
-            "breakdown": [
-              {
-                "type": "主干剖析",
-                "content": "Louisiana, the Supreme Court extended the requirement ... to the state level",
-                "explanation": "主干为主谓宾补结构。承接案件全称 Taylor v. Louisiana；主语 the Supreme Court（最高法院）；谓语动词 extended... to...（将……推广延伸至……）；宾语 the requirement；方向状语 to the state level（延伸至州一级法律）。"
-              },
-              {
-                "type": "同位语从句与虚拟语气",
-                "content": "that juries be representative of all parts of the community",
-                "explanation": "that 引导同位语从句解释 the requirement，从句谓语 be 采用 demand/require 类要求从句中的虚拟语气省略 should（即 juries [should] be representative of...），意指陪审团必须具有全社区各阶层的广泛代表性。"
-              },
-              {
-                "type": "语篇逻辑与考点",
-                "content": "extended the requirement ... to the state level",
-                "explanation": "改革范围突破。此前 1968 年法案仅约束联邦法院，而泰勒判决借助宪法解释权将“全面代表性”强制推及至全美各州地方各级法院，彻底封死地方逃避漏洞。"
-              }
-            ]
-          }
-        },
-        {
           "sid": 15,
           "pid": 3,
-          "sentence_index": 4,
+          "sentence_index": 3,
           "text": "The Taylor decision also declared sex discrimination in jury selection to be unconstitutional and ordered states to use the same procedures for selecting male and female jurors.",
           "translation": "泰勒裁决还宣布陪审团选择中的性别歧视违宪，并命令各州使用相同的程序来选择男性和女性陪审员。",
           "slashed_text": "The Taylor decision also declared sex discrimination / in jury selection to be unconstitutional and ordered states to use the same procedures / for selecting male and female jurors.",
